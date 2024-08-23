@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
+source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1209'
 ht-degree: 0%
 
 ---
@@ -42,9 +42,78 @@ In dit artikel wordt de volgende informatie over recordweergaven beschreven:
 
 ## Toegangsvereisten
 
+<!--Updated for GA-->
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
-<!--at GA the plan below will change to Prime, Select and Ultimate only-->
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Producten</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront-abonnement*</p></td> 
+   <td> 
+<p>Een van de volgende Workfront-plannen:</p> 
+<ul><li>Selecteren</li> 
+<li>Eerste</li> 
+<li>Ultieme</li></ul> 
+<p>Workfront Planning is niet beschikbaar voor oudere Workfront-plannen</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Planning van Adobe Workfront*</p></td> 
+   <td> 
+<p>Alle </p> 
+<p>Voor meer informatie over wat in elk Plan van de Planning van Workfront inbegrepen is, zie <a href="https://business.adobe.com/products/workfront/pricing.html"> Adobe Workfront tarifering en verpakking </a>. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront-platform</p></td> 
+   <td> 
+<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden genegeerd om tot alle mogelijkheden van de Planning van Workfront te kunnen toegang hebben.</p> 
+<p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront-licentie*</p></td> 
+   <td> <ul><li><p>Willekeurig, om Workfront-planningsinformatie weer te geven</p></li>
+   <li><p>Standaard, voor het maken van werkruimten</p></li></ul>
+   <p>Workfront Planning is niet beschikbaar voor oudere Workfront-licenties</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configuratie op toegangsniveau</p></td> 
+   <td> <p>Er zijn geen toegangsniveaucontroles voor de Planning van Adobe Workfront</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Objectmachtigingen</p></td> 
+   <td>   <p>Rechten beheren voor een weergave</p>  
+   <p>Machtigingen weergeven of hoger voor een weergave om de weergave-instellingen tijdelijk te wijzigen</p> </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Lay-outsjabloon</p></td> 
+   <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het planningsgebied in het hoofdmenu bevat. </p> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+*Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--old: 
 
 <table style="table-layout:auto">
  <col>
@@ -59,48 +128,48 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
- <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Uw organisatie moet zijn ingeschreven in de vroege toegangsfase voor Workfront Planning </p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront-plan</p></td>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
    <td>
-<p>Alle</p>
+<p>Any</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront-licentie*</p></td>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <p>Nieuw: Standaard</p>
-   of
-   <p>Huidig: Plan </p> 
+   <p>New: Standard</p>
+   Or
+   <p>Current: Plan </p> 
   </td>
   </tr>
+  
+  <tr>
+   <td role="rowheader"><p>Access level configurations</p></td>
+   <td> There are no access controls for Adobe Workfront Planning</p>  
+</td>
+  </tr>
 
-<tr>
-   <td role="rowheader"><p>Configuraties op toegangsniveau</p></td>
-   <td> Er zijn geen toegangscontroles voor de Planning van Adobe Workfront</p>  
+  <tr>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Manage permissions to a view</p>  
+   <p>View permissions to a view to temporarily change the view settings</p>
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader"><p>Machtigingen</p></td>
-   <td> <p>Rechten beheren voor een weergave</p>  
-   <p>Machtigingen weergeven voor een weergave om de weergave-instellingen tijdelijk te wijzigen</p>
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het planningsgebied in het hoofdmenu bevat. </p> <p>Voor informatie, zie <a href="/help/quicksilver/planning/access/access-overview.md"> overzicht van de Toegang </a>. </p> 
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> <p>For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
 
-*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 
 ## Overwegingen bij het werken met recordweergaven
@@ -149,7 +218,7 @@ In de volgende tabel worden de overeenkomsten en verschillen tussen de tabel-, t
 | Kleurcoderecords |           | ✓ | ✓ |
 | Kleurcodegroepen |           | ✓ |
 | Specifieke records zoeken | ✓ | ✓ |
-| Weergave delen | ✓ | ✓ | ✓ |
+| De weergave delen met anderen | ✓ | ✓ | ✓ |
 | De recordpagina openen vanuit de weergave | ✓ | ✓ |    |
 
 

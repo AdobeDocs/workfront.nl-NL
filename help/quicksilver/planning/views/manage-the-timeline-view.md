@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
+source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
 workflow-type: tm+mt
-source-wordcount: '1941'
+source-wordcount: '2636'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,76 @@ Voor informatie over verslagmeningen, zie [ verslagmeningen ](/help/quicksilver/
 
 ## Toegangsvereisten
 
+<!--Updated for GA-->
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
-<!--at GA the plan below will change to Prime, Select and Ultimate only-->
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Producten</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront-abonnement*</p></td> 
+   <td> 
+<p>Een van de volgende Workfront-plannen:</p> 
+<ul><li>Selecteren</li> 
+<li>Eerste</li> 
+<li>Ultieme</li></ul> 
+<p>Workfront Planning is niet beschikbaar voor oudere Workfront-plannen</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Planning van Adobe Workfront*</p></td> 
+   <td> 
+<p>Alle </p> 
+<p>Voor meer informatie over wat in elk Plan van de Planning van Workfront inbegrepen is, zie <a href="https://business.adobe.com/products/workfront/pricing.html"> Adobe Workfront tarifering en verpakking </a>. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront-platform</p></td> 
+   <td> 
+<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden genegeerd om tot alle mogelijkheden van de Planning van Workfront te kunnen toegang hebben.</p> 
+<p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront-licentie*</p></td> 
+   <td> <ul><li><p>Willekeurig, om Workfront-planningsinformatie weer te geven</p></li>
+   <li><p>Standaard, voor het maken van werkruimten</p></li></ul>
+   <p>Workfront Planning is niet beschikbaar voor oudere Workfront-licenties</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configuratie op toegangsniveau</p></td> 
+   <td> <p>Er zijn geen toegangsniveaucontroles voor de Planning van Adobe Workfront</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Objectmachtigingen</p></td> 
+   <td>   <p>Rechten beheren voor een weergave</p>  
+   <p>Machtigingen weergeven of hoger voor een weergave om de weergave-instellingen tijdelijk te wijzigen</p> </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Lay-outsjabloon</p></td> 
+   <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het planningsgebied in het hoofdmenu bevat. </p> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+*Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+<!--OLD: 
 
 <table style="table-layout:auto">
  <col>
@@ -51,132 +118,50 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
- <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Uw organisatie moet zijn ingeschreven in de vroege toegangsfase voor Workfront Planning </p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront-plan</p></td>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
    <td>
-<p>Alle</p>
+<p>Any</p>
    </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront-licentie*</p></td>
-   <td>
-   <p>Nieuw: Standaard</p>
-   of
-   <p>Huidig: Plan </p> 
-  </td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>Configuraties op toegangsniveau</p></td>
-   <td> Er zijn geen toegangscontroles voor de Planning van Adobe Workfront</p>  
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>Machtigingen</p></td>
-   <td> <p>Rechten beheren voor een weergave</p>  
-   <p>Machtigingen weergeven voor een weergave om de weergave-instellingen tijdelijk te wijzigen</p>
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het planningsgebied in het hoofdmenu bevat. </p> <p>Voor informatie, zie <a href="/help/quicksilver/planning/access/access-overview.md"> overzicht van de Toegang </a>. </p> 
-</td>
-  </tr>
- </tbody>
-</table>
-
-*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-
-<!--EDIT PERMISSIONS AND ACCESS AND REPLACE THE table above with the following table at Planning GA release: 
-## Access requirements
-
-You must have the following to be able to access Workfront Planning: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Products</p> </td>
-   <td>
-   <ul><li><p> Adobe Workfront</p></li>
-   <li><p> Adobe Workfront Planning<p></li></ul></td>
-  </tr>  
- <tr>
-   <td role="rowheader"><p>Adobe Workfront plan*</p></td>
-   <td>
-<p>Any of the following new Workfront plans:</p>
-<ul><li>Select</li>
-<li>Prime</li>
-<li>Ultimate</li></ul>
-<p>Workfront Planning is not available for legacy Workfront plans</p>
-   </td>
-
-<tr>
-   <td role="rowheader"><p>Adobe Workfront Planning plan*</p></td>
-   <td>
-<p>Any of the following Workfront Planning plans:</p>
-<ul><li>Planning</li>
-<li>Planning Plus</li>
-</ul>
-<p>For more information about what is included in each Workfront Planning plan, see <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront pricing and packaging</a>. </p>
-   </td>
-
-<tr>
-   <td role="rowheader"><p>Adobe Workfront platform</p></td>
-   <td>
-<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access all the capabilities of Workfront Planning</p>
-<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p>
-   </td>
-
-  </tr>
   </tr>
   <tr>
    <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <ul><li><p>Any, to view Workfront Planning information</p></li>
-   <li><p>Standard, to create workspaces</p></li></ul>
-   <p>Workfront Planning is not available for legacy Workfront licenses</p>
+   <p>New: Standard</p>
+   Or
+   <p>Current: Plan </p> 
   </td>
   </tr>
+  
   <tr>
-   <td role="rowheader"><p>Access level configuration</p></td>
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>  
+   <td role="rowheader"><p>Access level configurations</p></td>
+   <td> There are no access controls for Adobe Workfront Planning</p>  
 </td>
   </tr>
-<tr>
-   <td role="rowheader"><p>Object permissions</p></td>
-   <td>
-   <p>Manage permissions to a view</p>  
+
+  <tr>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Manage permissions to a view</p>  
    <p>View permissions to a view to temporarily change the view settings</p>
-  </td>
+</td>
   </tr>
+
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> <p>For information, see <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">Customize the Main Menu using a layout template</a> and and <a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md">Assign users to a layout template</a>. </p>  
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> <p>For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
 
-*For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
-*********ensure that the link ^^^^^^^^above^^^^^^^^ to Workfront Pricing and Packaging now also includes information about Workfront Planning. If not, talk with Lauren S.***************
-
--->
-
++++
 
 ## Een tijdlijnweergave beheren {#manage-a-timeline-view}
 
@@ -249,7 +234,11 @@ Een tijdlijnweergave beheren:
    * [Filters](#add-filters)
    * [Groepering](#add-grouping)
    * [ Montages ](#edit-the-timeline-view-settings)
-     <!--* [Sort](#add-sort) not sure if this is present in timeline views?!; also check the anchor and make sure it's correct-->
+     <!--* [Sort](#add-sort) not yet in timeline; also check the anchor and make sure it's correct-->
+
+1. (Facultatief) klik **Uitsplitsing** om verbonden verslagen op de chronologie te tonen.
+
+   Voor informatie, zie de sectie [ Gebruik de eigenschap van de Onderbreking om verbonden verslagen in de chronologiemening te tonen ](#break-down-connected-records-in-the-timeline-view)
 
 ### Filters toevoegen
 
@@ -329,7 +318,6 @@ Een groep toevoegen in de tijdlijnweergave:
 
 1. Klik buiten de **verslagen van de Groep door** doos om het te sluiten.
 1. (Facultatief) klik **Montages**, toen **Kleur** aan kleur-code groeperingen. Voor meer informatie, zie [ uitgeven de sectie van de chronologiemening montages ](#edit-the-timeline-view-settings) in dit artikel.
-   <!--1. (Optional) Click **Breakdown** to display connected records on the timeline. For information, see the section [Use the Breakdown feature to display connected records in the timeline view](#break-down-connected-records-in-the-timeline-view)-->
 
 <!-- 
 
@@ -419,60 +407,54 @@ Werk de instellingen van de tijdlijnweergave bij om aan te geven wat en hoe info
 
    De records worden in de tijdlijnweergave weergegeven met de specificaties die u hebt geselecteerd.
 
-<!--
-### Use the Breakdown feature to display connected records in the timeline view
+### De functie Onderverdeling gebruiken om verbonden records in de tijdlijnweergave weer te geven
 
-You can display connected records in a record's timeline view by using the Breakdown feature. Breaking down records by their connections allows you to view the timelines of other connected records and understand how they might affect the performance and deadlines of your records. 
+U kunt verbonden verslagen in de chronologiemening van een verslag tonen door de eigenschap van de Onderverdeling te gebruiken. Door records op te delen op basis van hun verbindingen kunt u de tijdlijnen van andere verbonden records weergeven en begrijpen hoe deze de prestaties en deadlines van uw records kunnen beïnvloeden.
 
-#### Considerations when using the Breakdown feature
+#### Overwegingen bij het gebruik van de functie Onderverdeling
 
-* You can display connected records or objects under the records of the selected record type in the timeline view. 
-* You can display the following in the timeline view, using the Breakdown feature:
-    * Workfront Planning records connected to the selected record type. 
-    * Workfront (*************or AEM Assets*************)  object types connected to the selected record type.
-    * Workfront Planning records or objects from other application that are connected to records connected to the selected record type. 
-    
-        For example, you might connect campaigns to portfolios. In addition, you might connect  another record type, products, with projects, as well as with campaigns. When you build the campaign timeline view, you can break down the campaigns by portfolios, products, and projects. 
+* U kunt verbonden records of objecten weergeven onder de records van het geselecteerde recordtype in de tijdlijnweergave.
+* U kunt het volgende weergeven in de tijdlijnweergave met de functie Onderverdeling:
+   * Workfront Planning records die zijn verbonden met het geselecteerde recordtype.
+   * De objecten van Workfront (************* of AEM Assets *************) types die met het geselecteerde verslagtype worden verbonden.
+   * Workfront Planning-records of -objecten uit andere toepassingen die zijn verbonden met records die zijn verbonden met het geselecteerde recordtype.
 
-* You cannot display object types that are connected only to Workfront objects in Workfront, but are not connected to a Workfront Planning record type. You can only display object or record types that are connected in Workfront Planning. 
+     U kunt bijvoorbeeld campagnes verbinden met portfolio&#39;s. Bovendien zou u een ander verslagtype, producten, met projecten, evenals met campagnes kunnen verbinden. Wanneer u de tijdlijnweergave van de campagne maakt, kunt u de campagnes opsplitsen op portfolio&#39;s, producten en projecten.
 
-    For example, tasks, are connected to projects in Workfront. Using the Breakdown feature, you can display projects that are connected to campaigns in Planning, but not tasks connected to projects in Workfront. 
+* U kunt geen objecttypen weergeven die alleen zijn verbonden met Workfront-objecten in Workfront, maar die niet zijn verbonden met een recordtype voor Workfront Planning. U kunt alleen objecten of recordtypen weergeven die zijn verbonden in Workfront Planning.
 
-    If you want to display both portfolios and projects in the timeline view of a Workfront Planning record type, both the portfolios and the projects must be connected to the Planning record or to a record connected to the Planning record whose timeline view you are managing.
-* You can only display record types that are associated with at least two date fields. 
-* The date fields for the record types you want to display in the timeline view must be visible in the table view of the selected record type, as lookup fields. 
-* The Start and End dates of the record types you want to display in the timeline view must by in chronological order. For example, if a record has a Start date of January 31 and an End date of January 1, it does not display in the timeline view. For more information, see the section [Manage a timeline view](#manage-a-timeline-view) in this article. 
-* There is a limit of 5 record types that you can include in a record's breakdown. 
+  Taken zijn bijvoorbeeld verbonden met projecten in Workfront. Gebruikend de eigenschap van de Onderverdeling, kunt u projecten tonen die met campagnes in Planning, maar geen taken verbonden aan projecten in Workfront worden verbonden.
 
+  Als u zowel portefeuilles als projecten in de chronologiemening van een het verslagtype van de Planning van Workfront wilt tonen, zowel moeten de portefeuilles als de projecten met het verslag van de Planning of met een verslag worden verbonden dat met het verslag van de Planning wordt verbonden waarvan chronologiemening u beheert.
+* U kunt alleen recordtypen weergeven die zijn gekoppeld aan ten minste twee datumvelden.
+* De datumvelden voor de recordtypen die u in de tijdlijnweergave wilt weergeven, moeten zichtbaar zijn in de tabelweergave van het geselecteerde recordtype, als opzoekvelden.
+* De begin- en einddatums van de recordtypen die u in de tijdlijnweergave wilt weergeven, moeten in chronologische volgorde worden weergegeven. Als een record bijvoorbeeld een startdatum van 31 januari en een einddatum van 1 januari heeft, wordt deze niet weergegeven in de tijdlijnweergave. Voor meer informatie, zie de sectie [ een chronologiemening ](#manage-a-timeline-view) in dit artikel beheren.
+* Er geldt een limiet van 5 recordtypen die u kunt opnemen in de indeling van een record.
 
-#### Break down connected records in the timeline view
+#### Verbonden records in de tijdlijnweergave opsplitsen
 
-1. Create a timeline view for a record type, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
-1. Click **Breakdown**.
-1. Expand the **Select a linked record type** box and select a connected record type. (**************add new screen shot***************)
+1. Creeer een chronologiemening voor een verslagtype, zoals die in artikel [ wordt beschreven beheer verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md).
+1. (Voorwaardelijk) als u de chronologiemening op de Standaardwijze bekijkt, klik **Uitsplitsing**.
+1. Vouw **Uitgezocht een verbonden verslagtype** doos uit en selecteer een verbonden verslagtype. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
-    ![](assets/breakdown-picker-and-button-on-timeline.png)
+   ![](assets/breakdown-picker-and-button-on-timeline.png)
 
-    >[!TIP]
-    >
-    >    If you do not have any connected records, or if the connected records do not have at least two date fields, the **Select a linked record type** box is not available.
+   >[!TIP]
+   >
+   >    Als u geen verbonden verslagen hebt, of als de verbonden verslagen minstens twee datumgebieden hebben, **Uitgezocht een verbonden verslagtype** doos is niet beschikbaar.
 
-1. Choose a **Start date** and an **End date field**.
+1. Kies de datum van het a **Begin** en een **de datumgebied van het Eind**.
 
-    >[!TIP]
-    >
-    >    The Start and End dates must be sequential. If the End date is before the Start date, no records will display in the timeline. 
+   >[!TIP]
+   >
+   >    De begin- en einddatum moeten opeenvolgend zijn. Als de einddatum valt vóór de begindatum, worden er geen records weergegeven in de tijdlijn.
 
-    A right-pointing arrow displays on the selected record's bar in the timeline, if they they are connected with other records. 
+   Er wordt een pijl naar rechts weergegeven op de geselecteerde balk van de record in de tijdlijn als deze zijn verbonden met andere records.
+1. Klik op de pijl naar rechts om een recordtype uit te vouwen en de weergave is verbindingen.
 
-    ![](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)    
+   ![](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
 
-
-1. (Optional) Repeat the steps above to add more connected records. 
-
-    >[!TIP]
-    >
-    >    You can add up to 5 connected records in a timeline using the Breakdown feature. 
+1. (Optioneel) Herhaal bovenstaande stappen om meer verbonden records toe te voegen.
 
 
--->
+

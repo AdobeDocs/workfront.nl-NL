@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
+source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: '1336'
 ht-degree: 0%
 
 ---
@@ -25,16 +25,89 @@ U kunt records maken door een van de volgende handelingen uit te voeren:
 * Deze toevoegen vanaf de pagina met recordtypen in de tabelweergave
 * Een lijst met records uit een externe lijst kopiëren en plakken
 * Deze dupliceren
-  <!--* Create them as you connect them from other records-->
+* Ze maken terwijl u ze verbindt vanuit andere records
 
-In dit artikel wordt beschreven hoe u records kunt maken. Raadpleeg de volgende artikelen voor informatie over het beheren van records in de tabel- of tijdlijnweergaven:
+In dit artikel wordt beschreven hoe u records kunt maken.
+
+Raadpleeg de volgende artikelen voor informatie over het beheren van records in de tabel- of tijdlijnweergaven:
 
 * [De tabelweergave beheren](/help/quicksilver/planning/views/manage-the-table-view.md)
 * [De tijdlijnweergave beheren](/help/quicksilver/planning/views/manage-the-timeline-view.md)
 
 ## Toegangsvereisten
 
+<!--Updated for GA-->
+
 +++ Breid uit om toegangsvereisten voor de Planning van Workfront te bekijken.
+
+U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Producten</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront-abonnement*</p></td> 
+   <td> 
+<p>Een van de volgende Workfront-plannen:</p> 
+<ul><li>Selecteren</li> 
+<li>Eerste</li> 
+<li>Ultieme</li></ul> 
+<p>Workfront Planning is niet beschikbaar voor oudere Workfront-plannen</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Planning van Adobe Workfront*</p></td> 
+   <td> 
+<p>Alle </p> 
+<p>Voor meer informatie over wat in elk Plan van de Planning van Workfront inbegrepen is, zie <a href="https://business.adobe.com/products/workfront/pricing.html"> Adobe Workfront tarifering en verpakking </a>. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront-platform</p></td> 
+   <td> 
+<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden genegeerd om tot alle mogelijkheden van de Planning van Workfront te kunnen toegang hebben.</p> 
+<p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront-licentie*</p></td> 
+   <td> Standaard
+   <p>Workfront Planning is niet beschikbaar voor oudere Workfront-licenties</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configuratie op toegangsniveau</p></td> 
+   <td> <p>Er zijn geen toegangsniveaucontroles voor de Planning van Adobe Workfront</p> 
+   <p>Bewerk de toegang in Workfront voor de objecttypen die u wilt maken (projecten en portfolio's) terwijl u de records met deze eigenschappen verbindt. </p>  
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Objectmachtigingen</p></td> 
+   <td> <p>Rechten beheren in de werkruimte waaraan u records wilt toevoegen. </p>  
+   <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>
+   <p>Rechten voor Workfront-objecten (portfolio's) beheren om onderliggende objecten (projecten) toe te voegen.</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Lay-outsjabloon</p></td> 
+   <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het planningsgebied in het hoofdmenu bevat </p> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+*Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+<!--OLD info: 
 
 <table style="table-layout:auto">
  <col>
@@ -49,55 +122,48 @@ In dit artikel wordt beschreven hoe u records kunt maken. Raadpleeg de volgende 
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
- <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Uw organisatie moet zijn ingeschreven in de vroege toegangsfase voor Workfront Planning </p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront-plan</p></td>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
    <td>
-<p>Alle</p>
+<p>Any</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront-licentie*</p></td>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <p>Nieuw: Standaard</p>
-   <p>Huidig: Plan</p>  
+   <p>New: Standard</p>
+   <p>Current: Plan</p>  
   </td>
   </tr>
+  
+  <tr>
+   <td role="rowheader"><p>Access level configurations</p></td>
+   <td> <p>There are no access controls for Adobe Workfront Planning </p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Contribute or higher permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
+</td>
+  </tr>
 
-<tr>
-   <td role="rowheader"><p>Configuraties op toegangsniveau</p></td>
-   <td> <p>Er zijn geen toegangscontroles voor de Planning van Adobe Workfront </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Machtigingen</p></td>
-   <td> <p>Contribute of hogere toestemmingen aan een werkruimte </a> </p>  
-   <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Uw Workfront of groepsbeheerder moet het planningsgebied toevoegen aan uw lay-outsjabloon. Voor informatie, zie <a href="/help/quicksilver/planning/access/access-overview.md"> overzicht van de Toegang </a>. </p>  
-</td>
-  </tr>
-
-</tbody>
+ </tbody>
 </table>
 
-*Voor meer informatie, zie [ vereisten van de Toegang voor de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For more information, see [Access requirements for Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 +++
-
-
-<!--For the release of in-context record creation - add this to the table above for permissions and access:
-
-* Manage permissions to the workspace you want to add records to. 
-* Edit access in Workfront for the object types that you want to add (projects and portfolios.)
-* Manage permissions to Workfront objects (portfolios) to add children objects (projects).-->
 
 
 ## Records maken door deze toe te voegen aan een recordtype <!--in a record type table (I don't think you can create them elsewhere right now)-->
@@ -218,31 +284,30 @@ You can import records from other applications by linking them to existing recor
 
 Voor informatie over het dupliceren van verslagen, zie [ Dubbele verslagen ](/help/quicksilver/planning/records/copy-or-duplicate-records.md).
 
-<!--check the steps with the release of in-context record types epic: 
+## Records maken terwijl u ze verbindt
 
-## Create records as you connect them
+U kunt records of Workfront-objecten maken terwijl u deze verbindt vanuit andere records.
 
-You can create records or Workfront objects as you connect them from other records. 
+U moet het volgende hebben voordat u nieuwe records of Workfront-objecten kunt toevoegen door deze te verbinden vanuit bestaande records:
 
-You must have the following before you can add new records or Workfront objects by connecting them from existing records:
-
-* Connected record types. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
-* Connected records. For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
-* The correct access and permissions in Workfront Planning and Workfront, as described in the section [Access requirements](#access-requirements) in this article. 
+* Verbonden recordtypen. Voor informatie, zie [ verbind verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
+* Verbonden records. Voor informatie, zie [ verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md).
+* De correcte toegang en de toestemmingen in de Planning van Workfront en Workfront, zoals die in de sectie [ vereisten van de Toegang ](#access-requirements) in dit artikel worden beschreven.
 
 >[!NOTE]
 >
->Creating Workfront projects and portfolios as you connect them to Workfront Planning records is similar to creating Planning records as you connect them from other records.
+>Het maken van Workfront-projecten en -portfolio&#39;s wanneer u deze koppelt aan Workfront-planningsrecords, lijkt op het maken van planningsrecords wanneer u deze verbindt met andere records.
 
-To create records as you are connecting them from other records: 
+Om verslagen tot stand te brengen aangezien u hen van andere verslagen verbindt:
 
-1. Start connecting Workfront Planning records, as described in the article [Connect records](/help/quicksilver/planning/records/connect-records.md). 
-1. (Conditional) If you cannot find a record when trying to add it from the connected record field of another record, search for a record, then click **+ Add**. The **+ Add** button is followed by the name of the record type you are connecting from. 
+1. Begin verbindend de verslagen van de Planning van Workfront, zoals die in het artikel [ worden beschreven verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md).
+1. (Voorwaardelijk) als u geen verslag kunt vinden wanneer het proberen om het van het verbonden verslaggebied van een ander verslag toe te voegen, onderzoek naar een verslag, dan klik **+ toevoegen**. De knop **+ Toevoegen** wordt gevolgd door de naam van het recordtype waarmee u verbinding maakt.
 
-    ![](assets/add-button-to-create-records-in-context-highlighted.png)
+   ![](assets/add-button-to-create-records-in-context-highlighted.png)
 
-    The record is created and added to the connected record field. 
-1. (Optional) Go to the table view of the record type whose record you created. A new record displays in the last row of the view. 
-1. (Optional) Start adding information for the new record in the table view, or click its name to open the details page and add information there. 
+   De record wordt gemaakt en toegevoegd aan het verbonden recordveld.
+1. (Optioneel) Ga naar de tabelweergave van het recordtype waarvan u de record hebt gemaakt. Een nieuwe record wordt weergegeven in de laatste rij van de weergave.
+1. (Optioneel) Voeg informatie voor de nieuwe record toe in de tabelweergave
+of
+Klik op de naam van de pagina om de detailpagina te openen en informatie toe te voegen.
 
--->

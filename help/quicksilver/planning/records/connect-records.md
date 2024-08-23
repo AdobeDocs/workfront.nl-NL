@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
+source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
 workflow-type: tm+mt
-source-wordcount: '2287'
+source-wordcount: '2710'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,6 @@ hide: yes
 -->
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-<!--if you change steps here, also update steps in the "Connect records" article-->
 
 # Connect-records
 
@@ -68,6 +67,74 @@ U kunt het volgende verbinden:
 
 +++ Breid uit om toegangsvereisten voor de Planning van Workfront te bekijken.
 
+U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Producten</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront-abonnement*</p></td> 
+   <td> 
+<p>Een van de volgende Workfront-plannen:</p> 
+<ul><li>Selecteren</li> 
+<li>Eerste</li> 
+<li>Ultieme</li></ul> 
+<p>Workfront Planning is niet beschikbaar voor oudere Workfront-plannen</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Planning van Adobe Workfront*</p></td> 
+   <td> 
+<p>Alle </p> 
+<p>Voor meer informatie over wat in elk Plan van de Planning van Workfront inbegrepen is, zie <a href="https://business.adobe.com/products/workfront/pricing.html"> Adobe Workfront tarifering en verpakking </a>. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront-platform</p></td> 
+   <td> 
+<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden genegeerd om tot alle mogelijkheden van de Planning van Workfront te kunnen toegang hebben.</p> 
+<p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront-licentie*</p></td> 
+   <td> Standaard
+   <p>Workfront Planning is niet beschikbaar voor oudere Workfront-licenties</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configuratie op toegangsniveau</p></td> 
+   <td> <p>Er zijn geen toegangsniveaucontroles voor de Planning van Adobe Workfront</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Objectmachtigingen</p></td> 
+   <td>   <p>Machtigingen beheren voor een werkruimte om records te verbinden </p>  
+   <p>U kunt machtigingen voor een werkruimte weergeven of vergroten als u alle verbindingen met objecten en velden vanuit andere toepassingen wilt weergeven, ongeacht de toegang die u hebt in de andere toepassing. </p>
+   <p>Geef de objecten die u vanuit Workfront of Experience Manager Assets wilt koppelen weer of geef deze machtigingen hoger op. </p>
+   <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt.</p> </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Lay-outsjabloon</p></td> 
+   <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het planningsgebied in het hoofdmenu bevat </p> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+*Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+<!--OLD:
+
 <table style="table-layout:auto">
  <col>
  </col>
@@ -79,59 +146,54 @@ U kunt het volgende verbinden:
 <td>Product</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>Om Adobe Workfront Planningsverslagen met Experience Manager Assets te verbinden, moet u een vergunning van Adobe Experience Manager Assets hebben en de instantie van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden bezet. Voor informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>.</p>
+   <p>To connect Adobe Workfront Planning records with Experience Manager Assets, you must have an Adobe Experience Manager Assets license and your organization's instance of Workfront must be onboarded to the Adobe Unified Experience. For information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p>
    </td>
   </tr>  
- <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Uw organisatie moet zijn ingeschreven in de vroege toegangsfase voor Workfront Planning </p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront-plan</p></td>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
    <td>
-<p>Alle</p>
+<p>Any</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront-licentie*</p></td>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <p>Nieuw: Standaard</p>
-   <p>Huidig: Plan</p> 
+   <p>New: Standard</p>
+   <p>Current: Plan</p> 
   </td>
   </tr>
-
-<tr>
-   <td role="rowheader"><p>Configuratie op toegangsniveau</p></td>
-   <td> <p>Er zijn geen toegangsniveaucontroles voor de Planning van Workfront</p>  
+  
+  <tr>
+   <td role="rowheader"><p>Access level configuration</p></td>
+   <td> <p>There are no access level controls for Workfront Planning</p>  
 </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>Machtigingen</p></td>
-   <td> <p>Machtigingen beheren voor een werkruimte om records te verbinden </p>  
-   <p>U kunt machtigingen voor een werkruimte weergeven of vergroten als u alle verbindingen met objecten en velden vanuit andere toepassingen wilt weergeven, ongeacht de toegang die u hebt in de andere toepassing. </p>
-   <p>Geef de objecten die u vanuit Workfront of Experience Manager Assets wilt koppelen weer of geef deze machtigingen hoger op. </p>
-   <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt.</p>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Manage permissions to a workspace to connect records </p>  
+   <p>View or higher permissions to a workspace to view all connections to objects and fields from other applications, regardless of your access in the other application. </p>
+   <p>View or higher permissions to the objects you want to link from Workfront or Experience Manager Assets. </p>
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create.</p>
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Uw Workfront of groepsbeheerder moet het planningsgebied toevoegen aan uw lay-outsjabloon. Voor informatie, zie <a href="/help/quicksilver/planning/access/access-overview.md"> overzicht van de Toegang </a>. </p>  
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 
-</tbody>
+ </tbody>
 </table>
 
-*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 +++
-
-<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
->[!NOTE]
->
->If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
 ## Vereisten voor het verbinden van records
 
@@ -149,15 +211,13 @@ Als u records wilt verbinden met andere records of objecten, moet u over het vol
 
 ## Connect-records van Workfront Planning
 
-U kunt records vanuit Workfront Planning verbinden in de volgende gebieden:
+U kunt verslagen van de Planning van Workfront op de volgende gebieden van een verslag van de Planning verbinden:
 
-* Van een verslag van de Planning in de Planning van Workfront op de verbonden verslaggebieden in de lijstmening.
-* Van een verslag van de Planning in de Planning van Workfront in de verslagvoorproef of pagina in de verbonden verslaggebieden.
-  <!--
-  * From a Planning record in Workfront Planning in the record preview or page in the connected record fields on the Details tab.
-  * From a Planning record in the record's preview or page on the Connections tab.-->
+* De verbonden recordvelden in de tabelweergave.
+* De voorvertoning of pagina van de record in de verbonden recordvelden op het tabblad Details.
+* De voorvertoning of pagina van de record op het tabblad Verbindingen.
 
-### Connect Adobe Workfront Planning-records vanuit de tabelweergave of de recordpagina <!--Details tab of the-->
+### Connect Adobe Workfront Planning-records vanuit de tabelweergave of het tabblad Details van de recordpagina
 
 {{step1-to-planning}}
 
@@ -176,15 +236,15 @@ U kunt records vanuit Workfront Planning verbinden in de volgende gebieden:
    * Klik in de lijst op de naam van een verbonden record om deze aan de geselecteerde record toe te voegen. De record wordt automatisch toegevoegd.
    * Typ de naam van een record en klik erop wanneer deze in de lijst wordt weergegeven. De record wordt automatisch toegevoegd.
 
-   <!--1. (Optional) If you cannot find a record or an object to connect, and you want to add it, click **+ Add** to add a new record. For more information, see the "Create records as you connect them" in the article [Create records](/help/quicksilver/planning/records/create-records.md).
-    
-    You can also create projects and portfolios by adding them to a record in the connected record field. You can create only blank projects, without a template by adding them to a record. 
-    
-     -->
+1. (Optioneel) Als u een record of een object dat u wilt verbinden niet kunt vinden en u wilt deze toevoegen, klikt u op **+ Toevoegen** om een nieuwe record toe te voegen. Voor meer informatie, zie &quot;verslagen tot stand brengen aangezien u hen&quot;in artikel [ verbindt creeert verslagen ](/help/quicksilver/planning/records/create-records.md).
 
    >[!TIP]
    >
-   >    U kunt de pagina van een verslag openen door de naam van het verslag in de mening te klikken, het verbonden verslaggebied te vinden en het gebied tweemaal te klikken (als er reeds verslagen zijn verbonden), of **te klikken verbindt verslagen** (als het gebied leeg is) om verslagen van het verbonden verslag of objecttype toe te voegen.
+   >    U kunt de pagina van een record als volgt openen in de tabelweergave:
+   >1. Klik op de naam van de record in de weergave.
+   >1. Het gekoppelde recordveld zoeken en dubbelklikken op het veld (als er al records zijn verbonden)
+   >of
+   >Klik **verbinden verslagen** (als het gebied leeg is) om verslagen van het verbonden verslag of objecten type toe te voegen.
    >
    >![](assets/connect-records-from-record-page-field.png)
 
@@ -211,18 +271,18 @@ U kunt records vanuit Workfront Planning verbinden in de volgende gebieden:
    >
    >* We gebruiken onderling gekoppelde velden en opzoekvelden.
    >
-   >* Wanneer u ervoor kiest om meerdere records te verbinden wanneer u de recordtypen hebt verbonden, worden de veldwaarden van de meerdere objecten gescheiden door komma&#39;s weergegeven of worden ze samengevoegd volgens de aggregator die u hebt gekozen.
+   >* Wanneer u ervoor kiest om meerdere records te verbinden wanneer u de recordtypen hebt verbonden, worden de veldwaarden van de meerdere objecten gescheiden door komma&#39;s weergegeven of worden ze samengevoegd volgens de aggregator die u hebt gekozen bij het verbinden van de recordtypen.
 
 1. (Optioneel) Sluit de pagina met recordtypen en ga naar de werkruimte die u hebt geselecteerd.
 1. Klik op de kaart voor het recordtype waarmee u een koppeling hebt gemaakt.
 
    Bijvoorbeeld, als u het **Campagne** verslag met het verslag van het Product verbond, klik de **kaart van het Product**.
 
-   Het recordtype moet worden geopend in de tabelweergave. Als dat niet het geval is, selecteert u een tabelweergave.
+   De opnametype kaart moet in de lijstmening worden geopend. Als dat niet het geval is, selecteert u een tabelweergave.
 
    Bericht dat het **verbonden verslaggebied van de Campagne** {de namen van de campagnes toont u met producten in de het verslagtype van het Product pagina verbond. Wanneer u de Campagnegegevens bijwerkt, wordt het aan Campagne gekoppelde recordveld voor het type productrecord automatisch bijgewerkt.
 
-### Connect Adobe Workfront Planning-records vanuit de tabelweergave of de <!--Details tab of the--> recordpagina verbinden met Workfront-objecten
+### Connect Adobe Workfront Planning-records vanuit de tabelweergave of het tabblad Details van de recordpagina verbinden met Workfront-objecten
 
 <!--when we will have more applications to link to from Planning, change the title to something like: Connect Workfront Planning records to objects from other applications-->
 
@@ -242,6 +302,7 @@ Nadat u een verbinding hebt gemaakt tussen een recordtype en een Workfront-objec
 1. Selecteer a **de mening van de Lijst** van het **drop-down menu van de Mening**.
 
 1. Klik **Nieuw verslag** om individuele verslagen aan het verslagtype toe te voegen dat u selecteerde. Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-records.md) creëren.
+
 1. (Voorwaardelijk) Nadat u het geselecteerde recordtype hebt verbonden met een Workfront-objecttype, gaat u naar de gekoppelde objectkolom en dubbelklikt u op de cel die overeenkomt met de record die u wilt koppelen aan objecten uit Workfront.
 
    ![](assets/connect-projects-smaller-box-in-table-view.png)
@@ -254,6 +315,10 @@ Nadat u een verbinding hebt gemaakt tussen een recordtype en een Workfront-objec
    >[!TIP]
    >
    >U kunt de pagina van een verslag van de mening openen, het verbonden verslaggebied tweemaal klikken, of **verbinden** op het gebied klikken om voorwerpen van het verbonden objecten type toe te voegen.
+
+1. (Optioneel) Als u een object niet kunt vinden om verbinding te maken en u wilt het object toevoegen, klikt u op **+ Toevoegen** om een nieuw project of portfolio te maken en toe te voegen.
+
+   U kunt projecten zonder een malplaatje of portefeuilles slechts toevoegen wanneer het verbinden van hen met de verslagen van de Planning. U kunt geen nieuwe programma&#39;s, gebruikers, of bedrijven toevoegen.
 
 1. (Facultatief) klik **zie allen** om alle voorwerpen te tonen u minstens toestemmingen aan mening hebt.
 
@@ -301,7 +366,7 @@ Nadat u een verbinding hebt gemaakt tussen een recordtype en een Workfront-objec
    Hiermee voegt u gekoppelde velden toe aan of verwijdert u deze uit de planningsrecords van Workfront. De informatie die aan de verwijderde velden is gekoppeld, blijft in Workfront.
 
 
-### Connect Workfront Planning-records vanuit de tabelweergave of de <!--Details tab of the--> recordpagina verbinden met Adobe Experience Manager-objecten
+### Connect Workfront Planning-records vanuit de tabelweergave of het tabblad Details van de recordpagina verbinden met Adobe Experience Manager-objecten
 
 <!--when we will have more applications to link to from Planning, change the title to something like: Connect Workfront Planning records to objects from other applications-->
 
@@ -364,7 +429,7 @@ Records verbinden met AEM elementen:
      >
      >* Een gekoppeld recordveld naar de aan Workfront Planning gekoppelde records wordt niet gemaakt voor de gekoppelde Experience Manager-elementen in de Experience Manager Assets-toepassing.
 
-1. (Optioneel) Ga naar het recordtype dat u vanuit Experience Manager Assets hebt gekoppeld en klik op de naam van een element in het gekoppelde recordveld. De details van de Experience Manager van de activa tonen in een pop-up venster. <!--update screen shot with hi-rez picture-->
+1. (Optioneel) Ga naar het recordtype dat u vanuit Experience Manager Assets hebt gekoppeld en klik op de naam van een element in het gekoppelde recordveld. De details van de Experience Manager van de activa tonen in een pop-up venster.
 
    ![](assets/asset-pop-up-window-with-aem-details-and-thumbnail.png)
 
@@ -394,46 +459,42 @@ Records verbinden met AEM elementen:
 
    Hiermee voegt u gekoppelde velden toe aan of verwijdert u deze uit de records. De informatie die aan de verwijderde velden is gekoppeld, blijft in Adobe Experience Assets.
 
-<!--
-### Connect Workfront Planning records from the Connections tab of the record page
+### Connect Workfront Planning-records verbinden met andere records of objecten op het tabblad Verbindingen van de recordpagina
 
-1. Go to any view of a record type that has been connected to other record types or object types from other applications. 
-1. Follow the steps described in the previous subsections to find a record in the view that you want to connect with other records or objects. 
-1. Click the name of a record. 
+1. Ga naar om het even welke mening van een verslagtype dat met andere het verslagtypes of objecten van de Planning van andere toepassingen is verbonden.
+1. Voer de stappen uit die in de vorige subsecties zijn beschreven om een record te zoeken in de weergave die u wilt koppelen aan andere records of objecten.
+1. Klik op de naam van een record.
 
-    The preview page opens. 
-1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) to open the record's page. 
-1. Click the **Connections** tab in the record's preview or page. 
+   De voorvertoningspagina wordt geopend.
+1. (Facultatief) klik **Open in nieuw lusje** pictogram ![](assets/open-details-in-a-new-tab-icon.png) om de pagina van het verslag te openen.
+1. Klik het **lusje van Verbindingen** in de voorproef of de pagina van het verslag.
 
-    ![](assets/connections-tab-on-record-in-workfront-planning.png)
+   ![](assets/connections-tab-on-record-in-workfront-planning.png)
 
-    All record or object types that are linked to the selected record type display as sections. Connected records or objects display under their record or object type names on cards. 
+   Alle record- of objecttypen die aan het geselecteerde recordtype zijn gekoppeld, worden als secties weergegeven. Verbonden records of objecten worden onder hun naam voor een record of objecttype op kaarten weergegeven.
 
-    >[!TIP]
-    >
-    >    Only connected records that have individual records connected display by default.
+   >[!TIP]
+   >
+   >    Alleen verbonden records met afzonderlijke records worden standaard weergegeven.
 
-1. (Optional) Click **Show all connections** to show all connected record types, including the ones without connected records. 
+1. (Facultatief) klik **tonen alle verbindingen** om alle verbonden verslagtypes, met inbegrip van degenen zonder verbonden verslagen te tonen.
 
-1. (Optional) Click the downward-pointing arrow to the left of a section to collapse it. 
+1. (Optioneel) Klik op de pijl omlaag links van een sectie om deze samen te vouwen.
 
-1. (Conditional) If there are records or objects connected to the selected record, click **Connect** to add more records or objects of the same type. 
-    The Connect button does not display if there are no records currently connected to the selected record. 
-1. Follow the steps describes in the previous sections to connect records from Workfront Planning or objects from Workfront or AEM Assets. 
-    The records and objects are added immediately.
-1. (Optional) Hover over the connected card of a record or object, then click the **Disconnect record** icon to disconnect it from the selected record. 
+1. (Voorwaardelijk) klik **verbinden** om meer verslagen of voorwerpen van het zelfde type toe te voegen.
+1. Voer de stappen uit die in de vorige secties zijn beschreven om records van Workfront Planning of objecten van Workfront of Experience Manager Assets te verbinden.
+De records en objecten worden direct toegevoegd.
+1. (Optioneel) Houd de muisaanwijzer boven de verbonden kaart van een record of object en klik vervolgens op het pictogram **Record loskoppelen** - **om het record los te koppelen van het geselecteerde record.**
 
-    ![](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
+   ![](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
 
-    The record is immediately disconnected from all areas of Workfront Planning or from other applications where it might show as connected. Any lookup field values are also removed. 
-
--->
+   De record wordt onmiddellijk losgekoppeld van alle gebieden van de Workfront-planning of van andere toepassingen waar deze als verbonden kunnen worden weergegeven. De waarden van opzoekvelden worden ook verwijderd.
 
 ## Connect-records van Workfront-objecten
 
 U moet het volgende hebben om de verslagen van de Planning van Workfront van de voorwerpen van Workfront te verbinden:
 
-* Verbindingen tussen recordtypen en Workfornt-objecttypen die zijn ingesteld in Workfront Planning.
-* Uw Workfront of groepsbeheerder moet de sectie Planning toevoegen aan de Workfront-objecttypen die verbinding kunnen maken met de recordtypen voor planning in uw lay-outsjabloon.
+* Verbindingen tussen recordtypen en Workfront-objecttypen die zijn ingesteld in Workfront Planning.
+* Uw Workfront of groepsbeheerder moet de sectie Planning toevoegen aan de Workfront-projecten, -portfolio&#39;s en -programma&#39;s in uw lay-outsjabloon.
 
 Voor meer informatie, zie [ verslagen in de sectie van de Planning van de voorwerpen van Adobe Workfront beheren ](/help/quicksilver/planning/records/manage-records-in-planning-section.md).

@@ -4,9 +4,9 @@ description: Nadat u verbindingen tussen recordtypen hebt gemaakt, kunt u afzond
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
+source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -40,23 +40,17 @@ Voor informatie over hoe u verslagen met elkaar of met een ander voorwerp kunt v
 
 * Iedereen met toegang tot de Planning van Workfront en Mening of hogere toestemmingen aan de werkruimte kan de verbindingen zien die u tussen verslagen of tussen verslagen en andere voorwerpen van toepassingen maakt. Ze kunnen verbonden records en objecten bekijken, ongeacht hun machtigingen in de toepassingen waarmee u verbinding maakt.
 * U kunt de verbindingen van alle anderen weergeven en bewerken als u beheerdersmachtigingen hebt voor de werkruimte waar de verbonden records zich bevinden.
-* U kunt één record verbinden met een of meerdere objecten vanuit een andere toepassing. <!--For more information, see the "Connections types" section in the article [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md). -->
+* U kunt één record verbinden met een of meerdere objecten vanuit een andere toepassing. Voor meer informatie, zie de &quot;types van Verbindingen&quot;sectie in het artikel [ Verbonden overzicht van recordtypes ](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
 ## Gebieden waar u records kunt verbinden
 
 U kunt records in de volgende gebieden verbinden met andere records of met objecten vanuit een andere toepassing:
 
-* U kunt records vanuit Workfront Planning verbinden met Workfront-objecten in de volgende gebieden:
-   * Van een verslag van de Planning in de Planning van Workfront op de verbonden gebieden in de lijstmening.
-   * Van een verslag van de Planning in de Planning van Workfront in de verslagvoorproef of pagina in de verbonden verslaggebieden.
-  <!--
-  * From a Planning record in Workfront Planning in the record preview or page in the connected record fields on the Details tab.
-  * From a Planning record in the record's preview or page on the Connections tab.  -->
+* U kunt records van Workfront Planning verbinden met Workfront-objecten of Experience Manager Assets-objecten in de volgende gebieden van een Planningsrecord:
 
-* U kunt Workfront Planning-records in de volgende gebieden verbinden met Experience Manager Assets:
-
-   * Van een verslag van de Planning in de Planning van Workfront in de lijstmening.
-  <!--* From a Planning record in the Connections tab on the record's preview or page.  -->
+   * De verbonden verslaggebieden in de lijstmening van een verslagtype in Planning.
+   * De voorvertoning of pagina van de record in de verbonden recordvelden op het tabblad Details.
+   * De voorvertoning of pagina van de record op het tabblad Verbindingen.
 
 * U kunt Workfront-objecten verbinden met Workfront Planning-records in de volgende gebieden:
 

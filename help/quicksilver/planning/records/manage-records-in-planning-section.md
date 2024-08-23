@@ -1,13 +1,13 @@
 ---
 title: Records beheren in het gedeelte Planning van Adobe Workfront-objecten
-description: U kunt de records die zijn verbonden met Adobe Workfront-objecten weergeven in het gedeelte Planning van een Workfront-object, in het linkerdeelvenster.
+description: U kunt de verslagen van de Planning van Workfront tonen die met de voorwerpen van Adobe Workfront in de sectie van de Planning van een voorwerp van Workfront, in het linkerpaneel worden verbonden.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
+source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-U kunt de records die zijn verbonden met Adobe Workfront-objecten weergeven in het gedeelte Planning van een Workfront-object, in het linkerdeelvenster.
+U kunt de verslagen van de Planning van Workfront tonen die met de voorwerpen van Adobe Workfront in de sectie van de Planning van een voorwerp van Workfront, in het linkerpaneel worden verbonden.
 
 Het gedeelte Planning is beschikbaar voor de volgende Workfront-objecten:
 
@@ -35,7 +35,11 @@ Het gedeelte Planning is beschikbaar voor de volgende Workfront-objecten:
 
 ## Toegangsvereisten
 
+<!--Updated for GA-->
+
 +++ Breid uit om toegangsvereisten voor de Planning van Workfront te bekijken.
+
+U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
 
 <table style="table-layout:auto">
  <col>
@@ -46,52 +50,66 @@ Het gedeelte Planning is beschikbaar voor de volgende Workfront-objecten:
     <tr>
 <tr>
 <td>
-   <p> Product</p> </td>
+   <p> Producten</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <ul><li><p> Adobe Workfront</p></li>
+   <li><p> Adobe Workfront Planning<p></li></ul></td>
   </tr>  
- <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>
+ <tr>
+   <td role="rowheader"><p>Adobe Workfront-abonnement*</p></td>
    <td>
-<p>Uw organisatie moet zijn ingeschreven in de vroege toegangsfase voor Workfront Planning </p>
+<p>Een van de volgende Workfront-plannen:</p>
+<ul><li>Selecteren</li>
+<li>Eerste</li>
+<li>Ultieme</li></ul>
+<p>Workfront Planning is niet beschikbaar voor oudere Workfront-plannen</p>
    </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront-plan</p></td>
+
+<tr>
+   <td role="rowheader"><p>Planning van Adobe Workfront*</p></td>
    <td>
 <p>Alle</p>
+<p>Voor meer informatie over wat in elk Plan van de Planning van Workfront inbegrepen is, zie <a href="https://business.adobe.com/products/workfront/pricing.html"> Adobe Workfront tarifering en verpakking </a>. </p>
    </td>
+
+<tr>
+   <td role="rowheader"><p>Adobe Workfront-platform</p></td>
+   <td>
+<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden genegeerd om tot alle mogelijkheden van de Planning van Workfront te kunnen toegang hebben.</p>
+<p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p>
+   </td>
+
+</tr>
   </tr>
   <tr>
    <td role="rowheader"><p>Adobe Workfront-licentie*</p></td>
    <td>
-   <p>Nieuw: Standaard</p>
-   of
-   <p>Huidig: Plan</p> 
+   <p>Standaard</p>
+   <p>Workfront Planning is niet beschikbaar voor oudere Workfront-licenties</p>
   </td>
   </tr>
-
-<tr>
-   <td role="rowheader"><p>Configuraties op toegangsniveau</p></td>
+  <tr>
+   <td role="rowheader"><p>Configuratie op toegangsniveau</p></td>
    <td> <p>De mening of hogere toegang tot Projecten, Programma's, en Portfolio's</p>  
 </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>Machtigingen</p></td>
-   <td> <p>In Workfront, Mening of hogere toestemmingen aan een project, portefeuille, of programma </a> </p> 
+   <td role="rowheader"><p>Objectmachtigingen</p></td>
+   <td>
+   <p>In Workfront, Mening of hogere toestemmingen aan een project, portefeuille, of programma </a> </p> 
    <p>In de Planning van Workfront, Contribute of hogere toestemmingen aan een werkruimte </a> </p>  
-   <p>Systeembeheerders hebben machtigingen voor alle werkruimten voor Workfront Planning, inclusief de werkruimten die ze niet hebben gemaakt</p>
-</td>
+   <p>Systeembeheerders hebben machtigingen voor alle werkruimten voor Workfront Planning, inclusief de werkruimten die ze niet hebben gemaakt</p> 
+  </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Uw Workfront of groepsbeheerder moet het gebied van de Planning in het Belangrijkste Menu en de sectie van de Planning in het linkerpaneel aan uw lay-outmalplaatje toevoegen. Voor informatie, zie <a href="/help/quicksilver/planning/access/access-overview.md"> overzicht van de Toegang </a>. </p>  
+   <td> <p>Alle gebruikers, met inbegrip van de beheerders van Workfront, moeten een lay-outmalplaatje worden toegewezen dat het Gebied van de Planning in het Belangrijkste Menu en het Gebied van de Planning voor projecten, portefeuilles, en programma's omvat. </p> Voor meer informatie, zie <a href="/help/quicksilver/planning/access/access-overview.md"> overzicht van de Toegang </a>. </p>  </p>  
 </td>
   </tr>
-
-</tbody>
+ </tbody>
 </table>
 
-*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -135,6 +153,7 @@ De objectpagina wordt geopend in Workfront.
 
    ![](assets/planning-section-on-project.png)
 
+1. (Facultatief) klik **tonen alle verbindingen** om alle verbonden verslagtypes, met inbegrip van degenen zonder verbonden verslagen te tonen. Standaard worden recordtypen zonder verbonden records niet weergegeven.
 1. Klik op een opnamekaart voor meer informatie over de record. Het voorvertoningsvak voor records wordt weergegeven.
 1. (Optioneel) Wijzig de velden in het voorvertoningsvak van de record. Uw wijzigingen worden automatisch opgeslagen.
 1. (Facultatief) klik **Open in een nieuw lusje** pictogram ![](assets/open-details-in-a-new-tab-icon.png) in de hoger-juiste hoek van de voorproefdoos om de de detailspagina van het verslag te openen. De detailpagina van het verslag opent in de Planning van Workfront.
@@ -143,16 +162,12 @@ De volgende dingen doen zich voor:
    * De record is niet meer verbonden met het Workfront-object.
    * Het Workfront-object wordt ook verwijderd uit het verbonden veld van de record uit Workfront Planning.
    * De waarden voor de opzoekvelden van Workfront die zijn verbonden met de planningsrecord, worden ook verwijderd.
-1. Klik **verbinden** om meer verslagen te verbinden.
+1. Klik **verbinden** om meer verslagen voor de verbonden verslagtypes te verbinden. Voor meer informatie, zie [ verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md).
 
-   >[!NOTE]
-   >
-   >   De knop Verbinden wordt alleen weergegeven voor de werkruimten waarin u Contribute-machtigingen hebt. <!--they might replace this with one button at the top of the page. Rephrase-->
-
-1. Klik op de records waarmee u verbinding wilt maken. De volgende dingen doen zich voor:
+   De volgende dingen doen zich voor:
 
    * De records zijn direct verbonden met het Workfront-object en worden weergegeven in het gedeelte Planning.
    * Het Workfront-object wordt toegevoegd aan het veld voor het maken van een verbinding in het Workfront-planningsrecord.
    * De waarden voor de opzoekvelden van Workfront die zijn verbonden met de planningsrecord, worden ingevuld in Workfront Planning.
 
-<!--add more steps here for what happens after clicking Connect-->
+

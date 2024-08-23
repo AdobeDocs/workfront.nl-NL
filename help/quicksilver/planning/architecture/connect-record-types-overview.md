@@ -4,20 +4,17 @@ description: Een manier om aan te geven hoe individuele recordtypen op elkaar be
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
+source-git-commit: 45134c538465a25767de1863d99a10c23bb8edf0
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '1438'
 ht-degree: 0%
 
 ---
 
 
 <!--update metadata at GA-->
-<!--add mini TOC when live, already added to big TOC to get the link-->
 
 # Overzicht van verbonden recordtypen
-
-<!--REMOVE THE CONTENT BELOW FROM THE "CONNECT RECORD TYPES" ARTICLE WHEN YOU TURN THIS ARTICLE LIVE- THIS IS THE SAME CONTENT AS THERE, DUPLICATED-->
 
 U kunt aangeven dat afzonderlijke recordtypen op elkaar betrekking hebben of op objecten van andere toepassingen door deze met elkaar te verbinden.
 
@@ -95,75 +92,76 @@ Overweeg het volgende over het verbinden van verslagtypes:
 
      Gekoppelde velden worden voorafgegaan door een pictogram dat het veldtype aangeeft. Gekoppelde velden (of opzoekvelden) worden bijvoorbeeld voorafgegaan door pictogrammen die aangeven dat een veld een getal, alinea of datum is.
 
-<!--## Connection types
+## Verbindingstypen
 
-After you establish a connection between two record types or between a record and an object type from another application, you can add records in the connected record fields. 
+Nadat u een verbinding hebt gemaakt tussen twee recordtypen of tussen een record en een objecttype vanuit een andere toepassing, kunt u records toevoegen in de verbonden recordvelden.
 
-Depending on how many records you can add to a connected record field, the following are the connection types you can choose from when connecting record types: 
+Afhankelijk van het aantal records dat u aan een verbonden recordveld kunt toevoegen, zijn de volgende verbindingstypen waaruit u kunt kiezen bij het verbinden van recordtypen:
 
-* [Many to many](#many-to-many-connection-type)
-* [One to many](#one-to-many-connection-type)
-* [Many to one](#many-to-one-connection-type)
-* [One to one](#many-to-one-connection-type)
+* [Veel tot veel](#many-to-many-connection-type)
+* [Eén naar vele](#one-to-many-connection-type)
+* [Vele tot één](#many-to-one-connection-type)
+* [Eén op één](#many-to-one-connection-type)
 
 >[!WARNING]
 >
->These options are not available when connecting the following: 
->* Two records from different workspaces
+>Deze opties zijn niet beschikbaar wanneer u een verbinding tot stand brengt met:
+>
+>* Twee records uit verschillende werkruimten
 >
 >* A record type and Experience Manager assets
 
-### Many-to-many connection type
+### Vele-aan-vele verbindingstype
 
 ![](assets/many-to-many-connection-picker.png)
 
-When you create a many-to-many connection between record types, you can then select multiple records in the connection field from both record types. 
+Wanneer u een veel-op-veel verbinding tussen recordtypes creeert, kunt u veelvoudige verslagen op het verbindingsgebied van beide verslagtypes dan selecteren.
 
-For example, if you create a many-to-many connection between campaigns and projects, you can select multiple projects for each campaign, and multiple campaigns for each project. 
+Bijvoorbeeld, als u een vele-aan-vele verbinding tussen campagnes en projecten creeert, kunt u veelvoudige projecten voor elke campagne, en veelvoudige campagnes voor elk project selecteren.
 
-A real-life example of a many-to-many relationship type is the relationship between movies and actors. Each movie can have multiple actors, and each actor can play in multiple movies. 
+Een echt voorbeeld van een veel-op-veel relatietype is de relatie tussen films en acteurs. Elke film kan meerdere acteurs hebben, en elke actrice kan in veelvoudige films spelen.
 
-When you select this connection type, you cannot change the connection type after you save it. 
+Wanneer u dit verbindingstype selecteert, kunt u het verbindingstype niet wijzigen nadat u het hebt opgeslagen.
 
-### One-to-many connection type
+### Een-op-veel verbindingstype
 
 ![](assets/one-to-many-connection-picker.png)
 
 
-When you create a one-to-many connection between record types, you can then select multiple records in the connection field in the current record type, but the corresponding connection field in the record type you connect to will allow selecting only one record. The connected record field that is automatically created on the second record type is automatically set to a many-to-one relationship type. 
+Wanneer u een een-op-veel verbinding maakt tussen recordtypen, kunt u vervolgens meerdere records in het verbindingsveld in het huidige recordtype selecteren, maar met het bijbehorende verbindingsveld in het recordtype waarmee u verbinding maakt, kunt u slechts één record selecteren. Het verbonden verslaggebied dat automatisch op het tweede verslagtype wordt gecreeerd wordt automatisch geplaatst aan een vele-aan-één relatietype.
 
-For example, if you create a one-to-many connection between campaigns and projects, you can select multiple projects for each campaign, but each project can be connected to only one campaign.
+Als u bijvoorbeeld een een-op-een-verbinding maakt tussen campagnes en projecten, kunt u meerdere projecten selecteren voor elke campagne, maar elk project kan slechts met één campagne worden verbonden.
 
-A real-life example of a one-to-many relationship type is the relationship between libraries and books: a library has many books in its inventory; but one particular book can only be in one library at a given point in time. 
+Een echt voorbeeld van een één-op-veel relatietype is de relatie tussen bibliotheken en boeken: een bibliotheek heeft veel boeken in zijn inventaris; maar één bepaald boek kan slechts in één bibliotheek op een bepaald tijdstip zijn.
 
-When you select this connection type, you can later change it only to a many-to-many connection type. 
+Wanneer u dit verbindingstype selecteert, kunt u het later alleen wijzigen in een veel-op-veel-verbindingstype.
 
-### Many-to-one connection type
+### Vele-aan-één verbindingstype
 
 ![](assets/many-to-one-connection-picker.png)
 
 
-When you create a many-to-one connection between record types, you can then connect each record in the current record type with only one record from the connected record type. The connected record field that is automatically created on the second record type is automatically set to a one-to-many relationship type. 
+Wanneer u een veel-op-één verbinding tussen recordtypes creeert, kunt u elke verslag in het huidige verslagtype met slechts één verslag van het verbonden verslagtype verbinden. Het verbonden verslaggebied dat automatisch op het tweede verslagtype wordt gecreeerd wordt automatisch geplaatst aan een één-aan-vele relatietype.
 
-For example, if you connect campaigns with projects and you choose this type of connection, you can add only one project to a campaign. But you can add multiple campaigns to one project. 
+Bijvoorbeeld, als u campagnes met projecten verbindt en u dit type van verbinding kiest, kunt u slechts één project aan een campagne toevoegen. Maar u kunt veelvoudige campagnes aan één project toevoegen.
 
-A real-life example of a many-to-one relationship type is the relationship between many movies and one actor: one actor can be in many movies, but each movie can only have a specific actor once in its cast. 
+Een echt voorbeeld van een vele-aan-één relatietype is de verhouding tussen vele films en één acteur: één actor kan in vele films zijn, maar elke film kan slechts één specifieke actor eenmaal in zijn gietvorm hebben.
 
-When you select this connection type, you can later change it only to a many-to-many connection type.
+Wanneer u dit verbindingstype selecteert, kunt u het later alleen wijzigen in een veel-op-veel-verbindingstype.
 
-### One-to-one connection type
+### Een-op-een verbindingstype
 
 ![](assets/one-to-one-connection-picker.png)
 
-When you create a one-to-one connection between record types, in both record types you can connect each record only with one record from the other record type.
+Wanneer u een één-op-één verbinding tussen verslagtypes creeert, in beide verslagtypes kunt u elke verslag slechts met één verslag van het andere verslagtype verbinden.
 
-For example, if you connect campaigns with projects and you choose this type of connection, you can connect one campaign with one project. One project can be connected only to one campaign. 
+Bijvoorbeeld, als u campagnes met projecten verbindt en u dit type van verbinding kiest, kunt u één campagne met één project verbinden. Eén project kan slechts op één campagne worden aangesloten.
 
-A real-life example of a one-to-one relationship is the one existing between a person and their country's unique identifier (like a Social Security Number, Passport ID, local identification ID): each person has only one unique identifier for a country and each unique identifier can be linked to only one person. 
+Een echt voorbeeld van een één-op-één-relatie is de relatie die bestaat tussen een persoon en de unieke identificatiecode van zijn land (zoals een socialezekerheidsnummer, paspoort-ID, lokale identificatie-ID): elke persoon heeft slechts één unieke identificatiecode voor een land en elke unieke identificatiecode kan aan slechts één persoon worden gekoppeld.
 
-When you select this connection type, you can later change it to any other connection type. 
+Wanneer u dit verbindingstype selecteert, kunt u het later wijzigen in een ander verbindingstype.
 
--->
+
 
 
 

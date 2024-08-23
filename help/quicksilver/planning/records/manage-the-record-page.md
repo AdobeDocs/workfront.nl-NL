@@ -5,14 +5,14 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
+source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1356'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # De lay-out van de recordpagina beheren
 
@@ -36,7 +36,11 @@ Raadpleeg de volgende artikelen voor meer informatie:
 
 ## Toegangsvereisten
 
+<!--Updated for GA-->
+
 +++ Breid uit om toegangsvereisten voor de Planning van Workfront te bekijken.
+
+U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
 
 <table style="table-layout:auto">
  <col>
@@ -47,51 +51,65 @@ Raadpleeg de volgende artikelen voor meer informatie:
     <tr>
 <tr>
 <td>
-   <p> Product</p> </td>
+   <p> Producten</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <ul><li><p> Adobe Workfront</p></li>
+   <li><p> Adobe Workfront Planning<p></li></ul></td>
   </tr>  
- <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>
+ <tr>
+   <td role="rowheader"><p>Adobe Workfront-abonnement*</p></td>
    <td>
-<p>Uw organisatie moet zijn ingeschreven in de vroege toegangsfase voor Workfront Planning </p>
+<p>Een van de volgende Workfront-plannen:</p>
+<ul><li>Selecteren</li>
+<li>Eerste</li>
+<li>Ultieme</li></ul>
+<p>Workfront Planning is niet beschikbaar voor oudere Workfront-plannen</p>
    </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront-plan</p></td>
+
+<tr>
+   <td role="rowheader"><p>Planning van Adobe Workfront*</p></td>
    <td>
 <p>Alle</p>
+<p>Voor meer informatie over wat in elk Plan van de Planning van Workfront inbegrepen is, zie <a href="https://business.adobe.com/products/workfront/pricing.html"> Adobe Workfront tarifering en verpakking </a>. </p>
    </td>
+
+<tr>
+   <td role="rowheader"><p>Adobe Workfront-platform</p></td>
+   <td>
+<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden genegeerd om tot alle mogelijkheden van de Planning van Workfront te kunnen toegang hebben.</p>
+<p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p>
+   </td>
+
+</tr>
   </tr>
   <tr>
    <td role="rowheader"><p>Adobe Workfront-licentie*</p></td>
    <td>
-   <p>Nieuw: Standaard</p>
-   of
-   <p>Huidig: Plan</p> 
+   <p>Standaard</p>
+   <p>Workfront Planning is niet beschikbaar voor oudere Workfront-licenties</p>
   </td>
   </tr>
-
-<tr>
-   <td role="rowheader"><p>Configuraties op toegangsniveau</p></td>
-   <td> <p>Er zijn geen toegangscontroles voor de Planning van Adobe Workfront</p>  
+  <tr>
+   <td role="rowheader"><p>Configuratie op toegangsniveau</p></td>
+   <td> <p>Er zijn geen toegangsniveaucontroles voor de Planning van Adobe Workfront</p>  
 </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>Machtigingen</p></td>
-   <td> <p>Rechten beheren in een werkruimte </a> </p>  
-   <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>
-</td>
+   <td role="rowheader"><p>Objectmachtigingen</p></td>
+   <td>
+   <p>Rechten beheren in een werkruimte </a> </p>  
+   <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p> 
+  </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Uw Workfront of groepsbeheerder moet het planningsgebied toevoegen aan uw lay-outsjabloon. Voor informatie, zie <a href="/help/quicksilver/planning/access/access-overview.md"> overzicht van de Toegang </a>. </p>  
+   <td> <p>Alle gebruikers, met inbegrip van de beheerders van Workfront, moeten een lay-outmalplaatje worden toegewezen dat het Gebied van de Planning in het Belangrijkste Menu en het Gebied van de Planning voor projecten, portefeuilles, en programma's omvat. </p> Voor meer informatie, zie <a href="/help/quicksilver/planning/access/access-overview.md"> overzicht van de Toegang </a>. </p>  </p>  
 </td>
   </tr>
-
-</tbody>
+ </tbody>
 </table>
 
-*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -145,11 +163,11 @@ Een sectie toevoegen aan een recordvoorvertoning of pagina:
 
 1. (Facultatief) klik **Open in nieuw lusje** pictogram ![](assets/open-details-in-a-new-tab-icon.png) in de hoger-juiste hoek van de verslagvoorproef om de pagina van het verslag in een nieuw lusje te openen.
 
-   De recordpagina wordt geopend. <!--The Details tab opens by default. -->
+   De recordpagina wordt geopend. Het tabblad Details wordt standaard geopend.
 
    ![](assets/details-page.png)
 
-1. In de <!--**Details** tab of the--> verslagvoorproef of pagina, houd over de witte ruimte links van de gebieden, dan klik **sectie** pictogram ![](assets/add-section-icon.png) toevoegen om een sectie toe te voegen.
+1. In het **lusje van Details** van de verslagvoorproef of de pagina, houd over de witte ruimte links van de gebieden, dan klik **sectie** pictogram ![](assets/add-section-icon.png) toevoegen om een sectie toe te voegen.
 1. Klik binnen de naam van de sectie en vervang **Naamloze sectie** met een naam, dan klik binnengaan. De velden die onder de sectie worden weergegeven, maken automatisch deel uit van de nieuwe sectie.
 1. Begin en dalend gebieden aan de nieuwe sectie te slepen, zoals die in de sectie [ wordt beschreven herschik gebieden in de verslagvoorproef of detailspagina ](#rearrange-fields-in-the-record-preview-or-details-page) in dit artikel.
 
@@ -182,11 +200,23 @@ Alle secties worden standaard uitgevouwen.
 
    Alle wijzigingen in secties en de veldvolgorde worden automatisch opgeslagen.
 
-<!--1. (Optional) Click the **Connections** tab. All records or objects that are connected to the selected record display under the names of the record type, or the application they belong to. 
+1. (Optioneel) Klik op het **pictogram ![](assets/export-icon-in-record-details-page.png) Exporteren** om het tabblad Details te exporteren naar een Word-bestand. Voor meer informatie, zie [ de details van een verslag uitvoeren ](/help/quicksilver/planning/records/export-the-record-page.md).
 
-      ![](assets/connections-tab-on-record-in-workfront-planning.png)
+1. (Facultatief) klik het **lusje van Verbindingen** naast **Details** tabel. U zou **Meer** kunnen moeten klikken alvorens de **Verbindingen** tabel te klikken.
 
-      For information about connecting records from the Connections tab, see [Connect records](/help/quicksilver/planning/records/connect-records.md). -->
+   Alle records of objecten die zijn verbonden met de geselecteerde record, worden onder de naam van het recordtype weergegeven, of de toepassing waartoe ze behoren.
+
+   ![](assets/connections-tab-on-record-in-workfront-planning.png)
+
+1. (Facultatief) selecteer **tonen alle verslagen** die in de hoger-juiste hoek van het lusje van Verbindingen plaatsen. Alle verbonden verslagtypes tonen, met inbegrip van degenen die nog geen verbonden verslagen hebben. Standaard is de schakeloptie uitgeschakeld en worden recordtypen zonder gekoppelde records verborgen.
+
+1. (Facultatief) klik **verbinden** om meer verslagen aan de verbonden verslagtypes toe te voegen. Voor meer informatie, zie [ verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md).
+
+1. (Optioneel) Houd de muisaanwijzer boven een opnamekaart en klik op het pictogram voor het verbreken van de verbinding **-** en klik vervolgens op **Verbinding verbreken** . <!--this is copied to the Manage the Planning page in Workfront article; update in both articles-->
+De volgende dingen doen zich voor:
+   * De record is niet meer verbonden met het Workfront-object.
+   * Het Workfront-object wordt ook verwijderd uit het verbonden veld van de record uit Workfront Planning.
+   * De waarden voor de opzoekvelden van Workfront die zijn verbonden met de planningsrecord, worden ook verwijderd.
 
 ## Velden in de voorvertoning of pagina van de record opnieuw rangschikken
 
