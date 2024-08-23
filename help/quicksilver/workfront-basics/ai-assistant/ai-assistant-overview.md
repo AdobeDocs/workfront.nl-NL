@@ -6,9 +6,9 @@ author: Becky
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: b61f021fe52e5a15afc4bc7e1b9545da97fb03d2
+source-git-commit: e1ac95e8be0f6059700ddacb120b08c7c7b683b1
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,21 @@ AI Assistant biedt momenteel de volgende functionaliteit:
 
 1. Als de AI-assistent niet het gewenste antwoord geeft, verfijnen dan uw vraag en probeer het opnieuw.
 
+## Onderteken de Adobe Gen AI-overeenkomst
 
+Als uw organisatie geen ondertekende Adobe-AI-overeenkomst voor Gen-bestanden heeft, kan AI Assistant niet worden ingeschakeld voor uw organisatie.
 
+Als een gebruiker probeert om AI Assistant te gebruiken wanneer de Adobe-Gen AI-overeenkomst niet is ondertekend, wordt een bericht weergegeven:
 
+* Gebruikers: gebruikers worden ervan op de hoogte gesteld dat AI Assistant niet is ingeschakeld voor hun organisatie en dat zij contact kunnen opnemen met hun Workfront-beheerder om deze aan te vragen voor hun organisatie.
+* Beheerders: beheerders worden ervan op de hoogte gesteld dat er geen ondertekende Gen AI-Adobe-overeenkomst is en kunnen verzoeken dat een kopie van de overeenkomst ter ondertekening wordt verzonden.
+
+Om de Adobe Gen AI-overeenkomst te verzoeken:
+
+1. Als Workfront-beheerder klikt u op het pictogram AI-assistent ![](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png) .
+1. Typ tekst in het deelvenster AI Assistant.
+1. Wanneer het de overeenkomstenbericht van Adobe Gen AI verschijnt, klik **overeenkomst van het Overzicht**.
+1. Voer de naam en het e-mailadres in van de persoon in uw organisatie die de Adobe Gen AI-overeenkomst zal ondertekenen.
+
+   De overeenkomst wordt ter ondertekening naar deze persoon verzonden. Nadat deze is ondertekend en geretourneerd, wordt AI Assistant ingeschakeld voor uw organisatie.
 

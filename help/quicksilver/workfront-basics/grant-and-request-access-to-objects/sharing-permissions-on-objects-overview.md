@@ -6,9 +6,9 @@ description: U kunt machtigingen delen of verwijderen voor een object dat u hebt
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: 7f59cc0a7a10bb8405acad2fa2300e653e5ad78c
+source-git-commit: e1ac95e8be0f6059700ddacb120b08c7c7b683b1
 workflow-type: tm+mt
-source-wordcount: '1182'
+source-wordcount: '1181'
 ht-degree: 0%
 
 ---
@@ -140,7 +140,7 @@ In de volgende tabel ziet u het niveau van machtigingen dat u kunt selecteren bi
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Dit voor het hele systeem zichtbaar maken</strong></td> 
-   <td> <p>Het object kan worden gevonden in zoekopdrachten en bekeken door gebruikers met een Workfront-account.</p><p><b>Opmerking&gt;/b&gt;: gebruikers met een licentie voor contribuanten of aanvragers kunnen geen projecten zien, zelfs niet als deze instelling is ingeschakeld. </td> 
+   <td> <p>Het object kan worden gevonden in zoekopdrachten en bekeken door gebruikers met een Workfront-account.</p><p><b> Nota </b>: De gebruikers met de vergunningen van de Medewerker of van de Aanvrager kunnen geen projecten zien, zelfs als dit plaatsen wordt toegelaten. </td> 
   </tr> 
  </tbody> 
 </table>
