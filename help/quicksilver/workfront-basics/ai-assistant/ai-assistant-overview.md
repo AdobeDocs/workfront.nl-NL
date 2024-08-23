@@ -6,9 +6,9 @@ author: Becky
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: e1ac95e8be0f6059700ddacb120b08c7c7b683b1
+source-git-commit: 1517f7480bbe481bc918876441d1b70b09963a97
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -56,6 +56,8 @@ Om AI Medewerker voor uw organisatie toe te laten, **allen** van het volgende mo
 * De Adobe Verenigde Ervaring moet worden toegelaten
 * Uw organisatie moet een Select-, Premier- of Ultimate Workfront-abonnement hebben
 * Adobe moet een ondertekende Adobe-gen. AI-overeenkomst hebben in het bestand
+
+  Voor meer informatie bij het ondertekenen van de overeenkomst, zie [ de Adobe Gen AI overeenkomst ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) in dit artikel ondertekenen.
 
 ## Overwegingen over AI Assistant
 
