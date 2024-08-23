@@ -1,16 +1,16 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: Verzonden aanvragen zoeken
+title: Verzonden verzoeken zoeken
 description: Leer over de gebieden van Adobe Workfront waar u van verzoeken kunt de plaats bepalen die u of iemand anders indiende of verzoeken die u nooit hebt voorgelegd en als ontwerpen bewaard.
-author: Alina
+author: Lisa
 feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '825'
 ht-degree: 0%
 
 ---
@@ -30,40 +30,46 @@ U kunt de volgende typen verzoeken zoeken die u of iemand anders heeft verzonden
 
 ## Toegangsvereisten
 
-U moet het volgende hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Overzicht Adobe Workfront-licenties*</td> 
-   <td> <p>Aanvraag of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Nieuw: Medewerker of hoger</p>
+   of
+   <p>Huidig: Verzoek of hoger</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot problemen bewerken</p> <p><b>OPMERKING</b>
-
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
-</tr> 
-  <tr> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td><p>Toegang tot problemen bewerken</p></td> 
+  </tr>
+  <tr>
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen weergeven voor de aanvragen of hoger</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td><p>Machtigingen of hoger weergeven voor de aanvragen</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Verzonden aanvragen zoeken
 
 Om van verzoeken de plaats te bepalen die u of andere gebruikers hebben voorgelegd:
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.
+{{step1-to-requests}}
+
 1. Klik **Voorgelegd** in het linkerpaneel om alle voorgelegde verzoeken te bekijken.
 
    U kunt maximaal 2000 verzoeken weergeven en deze kunnen op meerdere pagina&#39;s worden weergegeven.

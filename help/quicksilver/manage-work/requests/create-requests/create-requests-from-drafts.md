@@ -1,14 +1,14 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: Verzoeken maken op basis van concepten
+title: Verzoeken maken van concepten
 description: Naast het gebruik van de beschikbare concepten die Workfront u voorstelt wanneer u een nieuw verzoek invoert, kunt u ook een conceptverzoek vanuit de sectie Concepten openen en de aanvraag van daaruit voltooien.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 0f30ff23ef828d32c406cc2d9733c23b095014c9
+source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '583'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ Naast het gebruik van de beschikbare concepten die Workfront u voorstelt wanneer
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -26,21 +28,26 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Aanvraag of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Nieuw: Medewerker of hoger</p>
+   of
+   <p>Huidig: Verzoek of hoger</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot problemen bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot problemen bewerken</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vereisten voor het maken van aanvragen van concepten
 
@@ -52,8 +59,9 @@ U moet het volgende doen alvorens u een verzoek van een ontwerp kunt tot stand b
 
 ## Verzoeken maken op basis van concepten
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Workfront.
-1. Klik **Verzoeken** > **Concepten**.
+{{step1-to-requests}}
+
+1. Selecteer **Concepten** in het linkerpaneel.
 
    Een ontwerp voor elk rijonderwerp van elke verzoekrij toont in deze lijst.
 

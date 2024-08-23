@@ -1,19 +1,19 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: Adobe Workfront-aanvragen maken en verzenden
+title: Verzoeken maken en verzenden
 description: Geplande werkzaamheden worden in Adobe Workfront vertegenwoordigd door projecten en taken. Nochtans, zou u in een milieu kunnen werken waar ongeplande werk-in de vorm van willekeurig verzoek-binnen op elk ogenblik kan komen. Workfront biedt een workflow voor het aanpassen van dit type omgeving via het gebruik van Request Queues.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
 workflow-type: tm+mt
-source-wordcount: '2335'
+source-wordcount: '2303'
 ht-degree: 0%
 
 ---
 
-# Adobe Workfront-aanvragen maken en verzenden
+# Aanvragen maken en verzenden
 
 <!--Audited: 12/2023-->
 
@@ -47,18 +47,18 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> <p>Nieuw: Medewerker of hoger</p>
    of
    <p>Huidig: Verzoek of hoger</p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot problemen bewerken</p>  </td> 
   </tr> 
  </tbody> 
@@ -110,14 +110,9 @@ Voor informatie over het creëren van verzoeken van bestaande concepten, zie [ v
 
 Een aanvraag maken in de Workfront-webapp:
 
-1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek.
+{{step1-to-requests}}
 
-   <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   </MadCap:conditionalText>
-   -->
-
-1. Klik **Verzoeken**, dan klik **Nieuw Verzoek** in de hoger-juiste hoek van de pagina.
+1. Klik **Nieuw Verzoek** in de hoger-juiste hoek van de pagina.
 
    >[!TIP]
    >

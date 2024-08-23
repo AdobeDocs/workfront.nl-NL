@@ -1,14 +1,14 @@
 ---
 title: Verzoeken kopiëren en verzenden
 description: Wanneer u regelmatig vergelijkbare verzoeken indient, kunt u een bestaand verzonden verzoek kopiëren. In dit geval kunt u een bestaande aanvraag kopiëren, er minimale wijzigingen in aanbrengen en deze opnieuw verzenden als een nieuw verzoek.
-author: Alina
+author: Lisa
 feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
+source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
 workflow-type: tm+mt
-source-wordcount: '1381'
+source-wordcount: '1461'
 ht-degree: 0%
 
 ---
@@ -21,35 +21,6 @@ Wanneer u regelmatig vergelijkbare verzoeken indient, kunt u een bestaand verzon
 
 ## Toegangsvereisten
 
-<!--drafted - replace table with P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td><p>Current license: Contributor or higher</p> 
-   Or
-   <p>Legacy license: Request or higher</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Issues</p> <p><b>NOTE</b> 
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Access to add requests to a request queue</p> <p>View or higher permissions on the existing request</p> <p>For information on setting up a request queue, see <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Create a Request Queue</a>. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -78,6 +49,42 @@ Als u geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende bep
 </table>
 
 &#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+
+## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td> <p>Alle </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Nieuw: Medewerker of hoger</p>
+   of
+   <p>Huidig: Verzoek of hoger</p>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot problemen bewerken</p>  </td> 
+  </tr> 
+   <td role="rowheader">Objectmachtigingen</td> 
+   <td><p>Toegang tot het toevoegen van verzoeken aan een aanvraagwachtrij</p> <p>De toestemmingen van de mening of hoger op het bestaande verzoek</p> <p>Voor informatie bij vestiging ziet een verzoekrij, <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref"> een Rij van het Verzoek </a> creëren. </p> </td> 
+  <tr>
+  </tr>
+ </tbody> 
+</table>
+
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vereisten
 
@@ -118,7 +125,8 @@ U moet een verzoek hebben dat u of iemand in uw organisatie eerder heeft ingedie
 
 ## Verzoeken kopiëren en verzenden
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Verzoeken**.
+{{step1-to-requests}}
+
 1. (Voorwaardelijk) als de Voorgelegde sectie niet door gebrek toont, klik **Voorgelegd** in het linkerpaneel.
 
    >[!TIP]

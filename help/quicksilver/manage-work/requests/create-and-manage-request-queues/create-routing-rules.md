@@ -3,12 +3,12 @@ product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Verpletterende regels maken
 description: Het verpletteren van Regels controleert wat Adobe Workfront met kwesties doet wanneer zij aan een Rij van het Verzoek worden voorgelegd. Zie Een aanvraagwachtrij maken voor meer informatie over het maken van aanvraagwachtrijen.
-author: Alina
+author: Lisa
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 0%
@@ -75,12 +75,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
     <p>Huidig: Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td>
    <td> <p>Toegang tot projecten bewerken</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p> Rechten voor het project beheren</p> </td> 
+   <td> <p> Rechten voor het project beheren</p> </td>
   </tr> 
  </tbody> 
 </table>
