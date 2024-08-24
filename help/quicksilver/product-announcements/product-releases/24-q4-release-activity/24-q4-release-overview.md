@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 716db8e2d6411495d1809dd320c9c3cca86e2659
+source-git-commit: 3f1882b555658b2095d99258900f3bba28246c3f
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1127'
 ht-degree: 0%
 
 ---
@@ -295,4 +295,4 @@ De volgende functionaliteit wordt binnenkort verwijderd uit Workfront:
 
 #### Veroudering van de oudere Home-ervaring met 24.10
 
-Met de release van 24.10 zullen we de oude Home-ervaringen officieel verouderd hebben. Gebruikers wordt aangeraden om nieuwe introducties te gebruiken. Deze worden dan nog steeds uitgebreid met extra functies voordat de site wordt vervangen. Meer informatie over de overgang, inclusief wat gebruikers en beheerders kunnen doen om zich voor te bereiden, is beschikbaar.
+Met de release van 24.10 zullen we de oude Home-ervaringen officieel verouderd hebben. Gebruikers wordt aangeraden om nieuwe introducties te gebruiken. Deze worden dan nog steeds uitgebreid met extra functies voordat de site wordt vervangen. Voor meer informatie over de overgang, met inbegrip van advies over wat de gebruikers en de beheerders kunnen doen om voor te bereiden, zie {de Verouderde gids van het Huis van de Verouderde ](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).[

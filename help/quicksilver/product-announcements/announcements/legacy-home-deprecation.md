@@ -5,9 +5,9 @@ title: Verouderde handleiding voor afgekeurde startpagina
 description: Deze pagina bevat informatie over de aanstaande veroudering van verouderd startpunt.
 author: Nolan
 feature: Product Announcements
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: 3f1882b555658b2095d99258900f3bba28246c3f
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Adobe Workfront-community, we hebben nieuws. Binnenkort zullen we het oude Home 
 
 ![](assets/legacy-home-worklist-view.png)
 
-Deze pagina wordt vervangen tijdens de release van 24.10 uur (gepland voor 17 oktober 2024). Op dat moment moet u naar de nieuwe Home-ervaring gaan. Als u oude Home hebt gebruikt om uw werk te beheren, maak u geen zorgen! Naast het voortdurend verbeteren van nieuw Huis, hebben wij bezig het bouwen van een gestroomlijnde werkbeheerervaring genoemd Mijn Prioriteiten.
+Deze pagina wordt vervangen tijdens de release van 24.10 uur (gepland voor 17 oktober 2024). Op dat moment moet u naar de nieuwe Home-ervaring gaan. Als u oude Home hebt gebruikt om uw werk te beheren, maak u geen zorgen! Naast het voortdurend verbeteren van het nieuwe huis, zijn wij bezig het bouwen van een gestroomlijnde werkbeheerervaring genoemd Prioriteiten.
 Toch weten we dat een verandering als deze ontwrichtend kan zijn, en we willen u helpen met uw overgang op een manier die we kunnen. Deze pagina bevat informatie over wat precies zal veranderen, advies over hoe te op de overgang voor te bereiden, en sommige antwoorden op vaak gestelde vragen.
 
 ## Informatie over afzetting
@@ -35,7 +35,7 @@ Toch weten we dat een verandering als deze ontwrichtend kan zijn, en we willen u
 
 * Nieuwe startpagina is al beschikbaar als vervanging. Zie [ begonnen worden met het nieuwe Huis ](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md) voor meer informatie over het gebruiken van nieuw Huis. Het kan door zowel gebruikers door verpersoonlijkingsopties als beheerders door lay-outmalplaatjes worden aangepast.
 
-* Mijn prioriteiten zijn in ontwikkeling en zullen als een ander element van de gestroomlijnde werkbeheerervaring in Adobe Workfront dienen.
+* De prioriteiten zijn in ontwikkeling en zullen ook een onderdeel vormen van de gestroomlijnde werkbeheerervaring in Adobe Workfront.
 
 ## Voorbereiden op de afleiding
 
@@ -57,7 +57,7 @@ Als u dit zo snel mogelijk doet, hebben uw gebruikers de tijd om zich aan de nie
 
 ### Volg de Home-ervaring tijdens de ontwikkeling
 
-Wij adviseren ook bijgewerkt met de recentste versienota&#39;s (zie {de versies van het 0} Product ](/help/quicksilver/product-announcements/product-releases/product-releases.md)) te houden om over om het even welke veranderingen te leren die aan de ervaring van het Huis worden aangebracht aangezien wij dichter aan de afschrijving worden. [ Verder lezen over Mijn prioriteiten om onze visie op de toekomst van het werkbeheer in Adobe Workfront beter te begrijpen (binnenkort komt er meer informatie).
+Wij adviseren ook bijgewerkt met de recentste versienota&#39;s (zie {de versies van het 0} Product ](/help/quicksilver/product-announcements/product-releases/product-releases.md)) te houden om over om het even welke veranderingen te leren die aan de ervaring van het Huis worden aangebracht aangezien wij dichter aan de afschrijving worden. [ Verder blijven lezen over Prioriteiten om onze visie op de toekomst van het werkbeheer in Adobe Workfront beter te begrijpen (binnenkort komt er meer informatie).
 
 ### Hulp vragen
 
@@ -70,7 +70,7 @@ Als u tijdens de overgang problemen ondervindt, neemt u contact op met uw accoun
 Nee, deze wordt volledig uit de toepassing verwijderd.
 +++
 
-+++ Is elke functie van oud Huis beschikbaar in nieuw Huis (of, uiteindelijk, in Mijn Prioriteiten)?
++++ Is elke functie van oud Huis beschikbaar in nieuw Huis (of, uiteindelijk, in Prioriteiten)?
 
 Bijna, behalve:
 
@@ -78,7 +78,7 @@ Bijna, behalve:
 
 * Er zijn momenteel geen tijdstempels beschikbaar voor de vervaldatums van objecten.
 
-* De datum waarop u bent vastgelegd, wordt momenteel niet weergegeven in de updatefeed. Er is echter wel een tijdelijke oplossing beschikbaar: u kunt de datum waarop u bent vastgelegd, weergeven in de koptekstaanpassing via lay-outsjablonen.
+* De datum waarop u bent vastgelegd, wordt momenteel niet weergegeven in de updatefeed. Er is echter wel een tijdelijke oplossing beschikbaar: u kunt de datum waarop u bent vastgelegd, in de koptekst weergeven via aanpassing van de lay-outsjabloon.
 +++
 
 +++Hoe kan ik bepalen tot welke widgets gebruikers toegang hebben in nieuw Huis?
@@ -102,5 +102,5 @@ Aangepaste velden kunnen in new Home worden weergegeven door:
 
 +++Kan ik feedback geven?
 
-Ja! Gelieve te doen dit door in-app **te klikken geef Terugkoppeling** op uw nieuwe homepage, door de aanstaande pagina Mijn Prioriteiten, of door het [ forum van de Ideeën van Workfront ](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas).
+Ja! Gelieve te doen dit door in-app **te klikken geef Terugkoppeling** op uw nieuwe homepage, door de aanstaande pagina van Prioriteiten, of door het [ forum van de Ideeën van Workfront ](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas).
 +++
