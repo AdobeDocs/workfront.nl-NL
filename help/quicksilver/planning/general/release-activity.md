@@ -1,78 +1,73 @@
 ---
-title: Adobe Workfront Planning current release activity
-description: Adobe Workfront-planningsmogelijkheden zijn momenteel beschikbaar voor het selecteren van Workfront-klanten. Lees dit artikel vaak voor meer informatie over de functies die onlangs zijn uitgebracht voor de planningsmogelijkheden.
-hidefromtoc: true
-hide: true
+title: Adobe Workfront Planning Release Activity for 2024
+description: Adobe Workfront-planningsmogelijkheden zijn momenteel beschikbaar voor alle klanten. U moet een Workfront Planning-licentie aanschaffen, en bovendien een Workfront-licentie om toegang te krijgen tot deze mogelijkheden.
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: 18183b53c783366f467e7330159923372b51deb6
 workflow-type: tm+mt
-source-wordcount: '6694'
+source-wordcount: '6729'
 ht-degree: 0%
 
 ---
 
 
-# Adobe Workfront Planning current release activity
+# Adobe Workfront Planning Release Activity for 2024
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
-
-<!--
-At GA release, replace the Important below and all the text that follows before the weekly releases with this:
-
-(***********At GA - change the title to: Adobe Workfront Planning early access release activity during 2024*******)
-
-Also update the metadata: 
-
-Adobe Workfront Planning capabilities are currently available to all customers. You must purchase a Workfront Planning license, in addition to a Workfront license to be able to access these capabilities.
-
-
->[!IMPORTANT]
->
->The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
->
->You must purchase a Workfront Planning license, in addition to a Workfront license to be able to access and use the Workfront Planning capabilities. 
->
->For more information about access to Workfront Planning, see [Access overview](/help/quicksilver/planning/access/access-overview.md).
->-->
 
 >[!IMPORTANT]
 >
 >De informatie in dit artikel verwijst naar Adobe Workfront Planning, een nieuwe aanbieding van Adobe Workfront.
 >
->Workfront Planning bevindt zich momenteel in een vroege toegangsfase die voor een beperkt aantal klanten toegankelijk is.
+>U moet een Workfront-planningsplan aanschaffen, in aanvulling op een Workfront-plan om toegang te krijgen tot Workfront-planningsmogelijkheden en deze te kunnen gebruiken.
 >
->U moet een Workfront-klant zijn om deze mogelijkheden te kunnen gebruiken.
+>Voor een volledige lijst van vereisten om tot de Planning van Workfront toegang te hebben, zie [ Overzicht van de Toegang ](/help/quicksilver/planning/access/access-overview.md).
+>Voor een overzicht van de Planning van Workfront, zie [ het Overzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
 >
->Uw accountvertegenwoordiger zal u laten weten of u deel uitmaakt van dit stadium.
->
->Voor meer informatie, zie [ overzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
->
->In sommige gevallen is de documentatie waarnaar in de onderstaande secties wordt verwezen, mogelijk beschikbaar nadat de gedocumenteerde functies zijn vrijgegeven voor Production.
 
-<!--Not sure if we should enable this - Richard: 
+<!--[!IMPORTANT]
+>
+>The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
+>
+>Currently, Workfront Planning is in an early access stage which is open to a limited number of customers. 
+>
+>You must be a Workfront customer to use these capabilities. 
+>
+>Your account representative will inform you if you are part of this stage.
+>
+>For more information, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
+>
+>In some cases, the documentation referenced in the sections below might be available after the features documented are released to Production. -->
 
-## Workfront Planning release timeline
+Dit artikel maakt een lijst van de eigenschappen die aan de Planning van Workfront tijdens de vroege toegangsperiode in 2024 zijn vrijgegeven.
 
-| Time               | Release                                 |
+De vrijgegeven functies worden weergegeven in de volgorde van hun release, met de meest recente eerst. Klanten die deelnemen aan het Workfront-planningsprogramma hebben toegang tot alle functies in hun productieomgeving.
+
+Zie ook de volgende artikelen voor meer functies die zijn uitgebracht voor Workfront Planning:
+
+* [ de versieactiviteit van de Planning van Adobe Workfront voor 2023 ](/help/quicksilver/planning/general/release-activity-archives-2023.md) lijsten eigenschappen die tijdens de bètaversie, tijdens 2023 worden vrijgegeven.
+* [ de versieactiviteit van de Planning van Adobe Workfront: de artikelindex ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) maakt een lijst van eigenschappen momenteel vrijgegeven aan de Planning van Workfront, nadat het algemeen beschikbaar werd gemaakt op 28 augustus 2024.
+
+## Tijdlijn release Workfront Planning
+
+In de volgende tabel wordt de tijdlijn weergegeven van de release van Workfront Planning, te beginnen met de beschikbaarheid van bèta in 2023:
+
+| Tijd | Geen |
 |--------------------|-----------------------------------------|
-| August - December 2023               | Workfront Planning beta release         |
-| January - August 2024 | Workfront Planning early release        |
-| August 28, 2024    | Workfront Planning general availability |-->
+| augustus - december 2023 | Workfront Planning bèta release* |
+| Januari - augustus 2024 | Workfront Planning early release* |
+| 28 augustus 2024 | Algemene beschikbaarheid van Workfront-planning |
 
-In de volgende artikelen worden de functies beschreven die tijdens de release voor Workfront Planning zijn uitgebracht:
+*De bèta- en de vroege releasefase waren beschikbaar voor een beperkte groep klanten.
 
-* [ van de de versieactiviteit van de Planning van Adobe Workfront archieven voor 2023 ](/help/quicksilver/planning/general/release-activity-archives-2023.md) lijsten eigenschappen die tijdens de bètaversie, tijdens 2023 worden vrijgegeven.
-* Dit artikel maakt een lijst van de eigenschappen die aan de Planning van Workfront tijdens de vroege toegangsperiode in 2024 zijn vrijgegeven.
-
-  De vrijgegeven functies worden weergegeven in de volgorde van hun release, met de meest recente eerst. Klanten die deelnemen aan het Workfront-planningsprogramma hebben toegang tot alle functies in hun productieomgeving.
-
-<!--* See the current release overview documentation for features that were released after the general availability release on August 28, 2024. 
--->
-
-De Planning van Workfront is sinds januari 2024 tijdelijk verwijderd uit de milieu&#39;s van de Voorproef en van Sandbox. Alle in deze artikelen beschreven functies zijn momenteel beschikbaar in Productie.
+<!--Workfront Planning has temporarily been removed from the Preview and Sandbox environments since January 2024. All features documented in this articles are currently available in Production.  -->
 
 <!--
+
+## Week of August 26, 2024
 
 ### Reporting capabilities for Workfront Planning with the Canvas Dashboard 
 
@@ -98,6 +93,38 @@ As a workspace manager, you can now define the format for the values displayed i
 * Tags
 
 For information, see the "Formula" section of the article [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
+
+### AI Assistant has been re-enabled
+
+Production and Preview: August 28, 2024
+
+The Workfront AI Assistant has been re-enabled for the Workfront Planning area. 
+
+For more information about the AI Assistant, see [Adobe Workfront Planning AI Assistant overview](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
+
+### New Settings menu in the Calendar view
+
+Preview and Production: August 28, 2024 
+
+There is a new Settings option with which you can personalize the look and feel of the record bars in the Calendar view. You can do the following: 
+
+* Update the date and time of the records  
+
+* Update the bar style 
+
+* Change the color of the record bars or their groupings to match one of the following:  
+
+    * The color of the record type 
+
+    * The color of a field that you select 
+
+    * The color of the grouping 
+
+    * No color (the default) 
+
+ When matching colors to a certain field, you can select only fields with color-coded options. 
+
+ For more information, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md). 
 
 -->
 
@@ -185,7 +212,7 @@ U kunt geen andere verbonden Workfront-objecten of Experience Manager-elementen 
 
 Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-records.md) creëren.
 
-## Recorddetails naar Word exporteren
+### Recorddetails naar Word exporteren
 
 Productie: 22 augustus 2024
 

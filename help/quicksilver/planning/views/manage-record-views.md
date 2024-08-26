@@ -1,20 +1,20 @@
 ---
 title: Recordweergaven beheren
 description: U kunt records in een tabel-, tijdlijn- of kalenderweergave weergeven wanneer u Adobe Workfront-planning gebruikt.
-hidefromtoc: true
-hide: true
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1212'
 ht-degree: 0%
 
 ---
 
-# Recordweergaven beheren
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+# Recordweergaven beheren
 
 {{planning-important-intro}}
 
@@ -41,8 +41,6 @@ In dit artikel wordt de volgende informatie over recordweergaven beschreven:
 
 
 ## Toegangsvereisten
-
-<!--Updated for GA-->
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
@@ -87,7 +85,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-licentie*</p></td> 
-   <td> <ul><li><p>Willekeurig, om Workfront-planningsinformatie weer te geven</p></li>
+   <td> <ul><li><p>Standaard, Licht of Medewerker om informatie over Workfront Planning weer te geven</p></li>
    <li><p>Standaard, voor het maken van werkruimten</p></li></ul>
    <p>Workfront Planning is niet beschikbaar voor oudere Workfront-licenties</p> 
   </td> 

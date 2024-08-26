@@ -1,18 +1,22 @@
 ---
-title: Basisbeginselen van de API voor Adobe Workfront-planning
+title: Grondbeginselen van Adobe Workfront Planning API
 description: Het doel voor de Planning API van Adobe Workfront is het vereenvoudigen van de bouwintegratie met Planning door een REST-ful architectuur in te voeren die over HTTP werkt. In dit document wordt ervan uitgegaan dat u bekend bent met REST- en JSON-reacties en wordt de aanpak beschreven die door de API voor planning wordt gevolgd.
-hidefromtoc: true
-hide: true
+author: Becky
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
-source-git-commit: 83ea00f63f597731f808673d45b6103522995fb1
+source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
 workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 1%
 
 ---
 
+
 # Basisbeginselen van de API voor Adobe Workfront-planning
+
+{{planning-important-intro}}
 
 Het doel voor de Planning API van Adobe Workfront is het vereenvoudigen van de bouwintegratie met Planning door een REST-ful architectuur in te voeren die over HTTP werkt. In dit document wordt ervan uitgegaan dat u bekend bent met REST- en JSON-reacties en wordt de aanpak beschreven die door de API voor planning wordt gevolgd.
 

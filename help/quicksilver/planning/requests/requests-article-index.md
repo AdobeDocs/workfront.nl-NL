@@ -4,9 +4,9 @@ description: U kunt voor elk recordtype een aanvraagformulier maken, dit delen m
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
+source-git-commit: 80d9fc7f8cf28de8dbb8f1c53835940142681906
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
@@ -19,5 +19,5 @@ U kunt voor elk recordtype een aanvraagformulier maken, dit delen met gebruikers
 
 Deze sectie bevat de volgende artikelen:
 
-* [Een aanvraagformulier maken in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
+* [Een aanvraagformulier maken en beheren in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
 * [Aanvragen voor Adobe Workfront-planning verzenden](/help/quicksilver/planning/requests/submit-requests.md)

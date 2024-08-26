@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 716db8e2d6411495d1809dd320c9c3cca86e2659
+source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
 workflow-type: tm+mt
-source-wordcount: '14299'
+source-wordcount: '14318'
 ht-degree: 0%
 
 ---
@@ -250,6 +250,9 @@ ht-degree: 0%
          * [Workfront Fusion release activity: Week van 16 november 2020](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-16.md)
          * [Workfront Fusion release activity: Week van 30 november 2020](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-30.md)
          * [Workfront Fusion release activity: Week van 21 september 2020](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-sept-21.md)
+      * Adobe Workfront Planning release activity {#planning-release-activity}
+         * [Adobe Workfront Planning Release-activiteit](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+         * [Vierde kwartaal 2024 publicatieactiviteit voor Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
       * Release-activiteit Adobe Workfront Scenario Planner {#scenario-planner-release}
          * [Release-activiteit Adobe Workfront Scenario Planner](product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md)
          * [Adobe Workfront Scenario Planner met release 21.3](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md)
@@ -2038,8 +2041,8 @@ ht-degree: 0%
       * [Overzicht van Adobe Workfront Planning](planning/general/planning-overview.md)
       * [Basisbeginselen van de API voor Adobe Workfront-planning](planning/general/planning-api-basics.md)
       * [Adobe Workfront Planning AI Assistant - overzicht](planning/general/planning-ai-assistant-overview.md)
-      * [Adobe Workfront Planning current release activity](planning/general/release-activity.md)
-      * [Archieven van Adobe Workfront Planning Release-activiteiten voor 2023](planning/general/release-activity-archives-2023.md)
+      * [Adobe Workfront Planning Release Activity for 2024](planning/general/release-activity.md)
+      * [Adobe Workfront Planning Release Activity for 2023](planning/general/release-activity-archives-2023.md)
       * [Overzicht van beperkingen van Adobe Workfront-planningsobjecten](planning/general/limitations-overview.md)
    * Adobe Workfront-planningsarchitectuur {#adobe-workfront-planning-architecture}
       * [Architectuur: artikelindex](planning/architecture/architecture-information.md)

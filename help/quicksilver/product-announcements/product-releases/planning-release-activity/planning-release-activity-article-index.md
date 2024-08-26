@@ -1,32 +1,17 @@
 ---
+content-type: release-notes
 title: "Adobe Workfront Planning Release Activity: Article Index"
-description: Dit is een lijst met artikelen die de releaseactiviteit voor het Adobe Workfront-planningsproduct documenteren.
+description: Dit is de versieactiviteit voor het product van de Planning van Adobe Workfront.
+author: Alina
+feature: Product Announcements
 recommendations: noDisplay, noCatalog
-hidefromtoc: true
-hide: true
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
 
-
-
-<!--update metadata:
----
-content-type: release-notes
-title: "Adobe Workfront Planning Release Activity: Article Index"
-description: This is the release activity for the Adobe Workfront Planning product. 
-author: Alina
-feature: Product Announcements
-recommendations: noDisplay, noCatalog
-hidefromtoc: yes
-hide: yes
----
- -->
-
-<!--add to TOC and miniTOC-->
 
 # Adobe Workfront Planning Release-activiteit: artikelindex
 
@@ -42,6 +27,13 @@ hide: yes
 >Voor een overzicht van de Planning van Workfront, zie [ het Overzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
 >
 
-Dit artikel bevat een lijst met opmerkingen over releaseactiviteiten voor het Adobe Workfront-planningsproduct.
+Dit artikel bevat een lijst met artikelen over releaseactiviteiten met betrekking tot het Adobe Workfront-planningsproduct.
 
 * [Vierde kwartaal 2024 publicatieactiviteit voor Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
+
+<!-- remove this after 25.1 and consider removing the pages too-->
+
+Raadpleeg de volgende artikelen voor een lijst met alle functies die zijn uitgebracht vóór de algemene beschikbaarheidsrelease van 28 augustus 2024:
+
+* [Adobe Workfront Planning Release Activity for 2024](/help/quicksilver/planning/general/release-activity.md)
+* [Adobe Workfront Planning Release Activity for 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md)

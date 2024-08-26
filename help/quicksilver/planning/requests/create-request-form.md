@@ -1,23 +1,25 @@
 ---
-title: Een aanvraagformulier maken in Adobe Workfront Planning
-description: Nadat u een recordtype hebt geselecteerd in het gedeelte Adobe Workfront Planning, kunt u een aanvraagformulier maken dat is gekoppeld aan dat recordtype en een koppeling naar dit type delen met andere interne of externe gebruikers.
+title: Een aanvraagformulier maken en beheren in Adobe Workfront-planning
+description: Nadat u een recordtype hebt geselecteerd in het gedeelte Adobe Workfront Planning, kunt u een aanvraagformulier maken en dit koppelen aan dat recordtype. Vervolgens kunt u een koppeling naar de koppeling delen met andere interne of externe gebruikers. Gebruikers met een koppeling naar het formulier kunnen de veldwaarden erin invullen en door deze te verzenden, kunnen zij een nieuwe record toevoegen voor het bijbehorende recordtype.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
+source-git-commit: 80d9fc7f8cf28de8dbb8f1c53835940142681906
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '1101'
 ht-degree: 0%
 
 ---
 
-# Een aanvraagformulier maken in Adobe Workfront Planning
+# Een aanvraagformulier maken en beheren in Adobe Workfront Planning
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 {{planning-important-intro}}
 
 Nadat u een recordtype hebt geselecteerd in het gedeelte Adobe Workfront Planning, kunt u een aanvraagformulier maken en dit koppelen aan dat recordtype. Vervolgens kunt u een koppeling naar de koppeling delen met andere interne of externe gebruikers. <!--double-check on the external part of it-->
+
+Gebruikers met een koppeling naar het formulier kunnen de veldwaarden erin invullen en door deze te verzenden, kunnen zij een nieuwe record toevoegen voor het bijbehorende recordtype.
 
 ## Toegangsvereisten
 
@@ -52,7 +54,8 @@ U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
 <tr>
    <td role="rowheader"><p>Planning van Adobe Workfront*</p></td>
    <td>
-<p>Alle </p>   </td>
+<p>Alle </p>  
+<p>Voor meer informatie over wat in elk Plan van de Planning van Workfront inbegrepen is, zie <a href="https://business.adobe.com/products/workfront/pricing.html"> Adobe Workfront tarifering en verpakking </a>. </td>
 
 <tr>
    <td role="rowheader"><p>Adobe Workfront-platform</p></td>
@@ -118,31 +121,76 @@ U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
 
 1. Klik **creëren**. Het aanvraagformulier voor het geselecteerde recordtype wordt geopend.
 
+   ![](assets/campaigns-request-form-edit-mode.png)
+
    Het aanvraagformulier bevat standaard de volgende informatie:
 
+   * Alle recordvelden in de tabelweergave van het geselecteerde recordtype.
    * **Standaard sectie**: Dit is de standaardsectieonderbreking die Workfront op de verzoekvorm van toepassing is. De standaardsectie kan niet worden anders genoemd of worden verwijderd.
    * **Onderwerp** gebied: Het gebied dat het verzoek in Workfront zal identificeren. Deze mogelijkheid is nog niet beschikbaar.
    * Alle velden die aan het recordtype zijn gekoppeld.
 
    De velden in het aanvraagformulier zijn zichtbaar voor iedereen die een aanvraag naar dit recordtype indient.
 
-1. (Facultatief) verwijder het **Onderwerp** gebied, aangezien dit niet zichtbaar in de Planning van Workfront is. <!--remove this step when we connect intake with the Requests area in Workfront-->
-1. Houd de muisaanwijzer boven de velden in het formulier die u wilt verwijderen. Zij worden toegevoegd aan het **lusje van Gebieden** op de linkerkant van de vorm.
-1. Klik op een veld en gebruik vervolgens de besturingselementen aan de rechterkant van het formulier om de volgende informatie over de velden te definiëren:
+1. (Optioneel) Houd de muisaanwijzer boven alle velden in het formulier die u wilt verwijderen en klik vervolgens op het pictogram **x** om deze te verwijderen. Zij worden toegevoegd aan het **lusje van Gebieden** links van de vorm.
+
+   Bijvoorbeeld, verwijder het **Onderwerp** gebied, aangezien dit niet in de Planning van Workfront zichtbaar is. <!--remove this step when we connect intake with the Requests area in Workfront-->
+1. Klik op een veld en gebruik vervolgens de besturingselementen aan de rechterkant van het formulier om de grootte van het formulier te definiëren, of een van de volgende gegevens over de velden:
 
    * **Etiket**: dit is de naam van het gebied aangezien het op de verzoekvorm zal verschijnen. Hiermee wijzigt u de naam van het recordveld niet.
    * **Instructies**: Voeg meer informatie over het gebied toe.
    * **maak een vereist gebied**: Wanneer geselecteerd, moet het gebied een waarde hebben. Anders kan het formulier niet worden verzonden.
    * **voegt logica** toe: Bepaal welke voorwaarden moeten worden voldaan opdat het gebied tonen of verborgen zijn.
 
-1. Klik op het tabblad Inhoud rechts van het formulier en voeg een of meer van de volgende elementen toe:
+1. (Facultatief) klik de **elementen van de Inhoud** tabel op de linkerkant van de vorm, en voeg om het even welke volgende elementen toe:
 
-   * Beschrijvende tekst
-   * Sectie-einde
+   * **Beschrijvende tekst**
+   * **Sectieonderbreking**
 
    Voor meer informatie over de bouw van een douanevorm, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
+1. (Facultatief) klik **Voorproef** om te bekijken hoe de vorm voor andere gebruikers zal tonen wanneer zij het zullen gebruiken om een nieuw verslag voor te leggen.
+1. Klik **Publish** om de vorm te publiceren en een unieke verbinding voor het te verkrijgen.
 
+   De volgende dingen doen zich voor:
+
+   * De Publish-knop wordt verwijderd.
+   * De **unpublish** knoop wordt toegevoegd aan de vorm. Als u erop klikt, is het formulier niet toegankelijk.
+   * A **de knoop van het Aandeel** wordt toegevoegd aan de vorm.
+
+1. Klik **Aandeel** om de vorm met anderen te delen.
+
+   ![](assets/share-box-for-request-form.png)
+
+1. Selecteer een van de volgende opties om aan te geven welke typen gebruikers toegang hebben tot dit formulier:
+
+   * Iedereen met weergave of hogere toegang tot de werkruimte
+   * Iedereen met een hogere of hogere toegang tot de werkruimte
+   * Iedereen met de koppeling
+
+   >[!IMPORTANT]
+   >
+   >Wanneer u Iedereen met de koppeling selecteert, kan iedereen, zelfs personen buiten uw organisatie zonder Workfront-account, het formulier openen en een nieuwe record verzenden.
+
+1. (Voorwaardelijk) als u **Iedereen met de verbinding** in de vorige stap selecteerde, selecteer de **vervaldatum van de Verbinding** van de beschikbare kalender. Personen ontvangen een fout nadat de koppeling is verlopen en u moet de datum van de koppeling bijwerken voordat ze het formulier weer kunnen openen.  <!--add info here about how long the expiration date should be; logged bug-->
+
+1. Klik **sparen en kopieer verbinding** om de het delen details voor de vorm te bewaren.
+
+   De opties voor het delen van formulieren worden opgeslagen en de koppeling wordt naar het klembord gekopieerd. U kunt deze nu delen met anderen.
+
+   Voor informatie over het creëren van verslagen die een verbinding aan een verzoekvorm gebruiken, zie [ verzoeken van de Planning van Adobe Workfront voorleggen ](/help/quicksilver/planning/requests/submit-requests.md).
+
+1. Klik **sparen** in de laag-juiste hoek van het scherm om de vorm te bewaren.
+1. Klik op de pijl die naar links wijst links van de naam van het formulier in de koptekst om het formulier te sluiten.
+
+   De pagina met recordtypen wordt geopend.
+1. (Facultatief) klik **Meer** menu ![](assets/more-menu.png) rechts van de naam van het verslagtype in de kopbal, dan doe één van het volgende:
+   * Klik **de verzoekvorm van de Update** om het even welke veranderingen in de verzoekvorm aan te brengen.
+   * Klik **verbinding van het Exemplaar aan de verzoekvorm** om de verbinding aan de vorm met anderen te delen.
+
+   >[!TIP]
+   >
+   >Er zijn aanwijzingen dat de link in dit geval openbaar wordt gedeeld.
 
 
 

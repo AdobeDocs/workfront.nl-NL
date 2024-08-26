@@ -1,16 +1,18 @@
 ---
-title: "Adobe Workfront Planning notifications: Article index"
+title: "Adobe Workfront Planning Notifications: Article Index"
 description: Wanneer iemand u in een recordopmerking van tags voorziet, ontvangt u mogelijk e-mail- of in-app-berichten voor die tag. Het type van berichten dat u ontvangt hangt af van of uw bedrijf een Adobe Verenigde klant van de Ervaring of niet is. In de volgende artikelen wordt beschreven welk type berichten voor Workfront-planning u ontvangt en hoe u uw voorkeuren kunt beheren.
-hidefromtoc: true
-hide: true
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 9c2f5b14-77c5-42fd-83ad-acbe7da801bd
-source-git-commit: 502ab27759749ed428f8adbf486e39165d61fcf0
+source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%
 
 ---
+
 
 # Adobe Workfront-planningsmeldingen: artikelindex
 

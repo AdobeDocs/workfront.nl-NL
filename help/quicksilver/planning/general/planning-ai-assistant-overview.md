@@ -1,35 +1,22 @@
 ---
-title: Adobe Workfront Planning AI Assistant - overzicht
+title: Adobe Workfront Planning AI Assistant - Overzicht
 description: U kunt de AI-assistent gebruiken om records te genereren, bij te werken of te verwijderen die zijn gebaseerd op de context van de huidige pagina en de recordstructuur. De bevelen van de gebruiker en de uitvoering van AI van die bevelen werken samen om ervoor te zorgen dat de veranderingen door AI worden aangebracht nauwkeurig in uw milieu worden weerspiegeld.
-hidefromtoc: true
-hide: true
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
+source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
 
+
 # Adobe Workfront Planning AI Assistant - overzicht
 
-<!-- update metadata above at GA-->
-
->[!IMPORTANT]
->
-><span class="preview"> de Medewerker van Workfront AI is tijdelijk verwijderd en het zal op een recentere datum beschikbaar zijn.</span>
->De informatie in dit artikel verwijst naar Adobe Workfront Planning en naar de Workfront AI Assistant (beta), die nieuwe aanbiedingen zijn van Adobe Workfront.
->
->Workfront Planning bevindt zich momenteel in een vroege toegangsfase en de Workfront AI Assistant bevindt zich in een bètafase.
->
->Workfront Planning en de AI Assistant (bèta) staan open voor een beperkt aantal klanten.
->
->U moet een Workfront-klant zijn om deze mogelijkheden te kunnen gebruiken.
->
->Uw accountvertegenwoordiger zal u laten weten of u deel uitmaakt van dit stadium.
->
->Voor meer informatie, zie [ overzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
+{{planning-important-intro}}
 
 Met de AI-assistent kunt u records genereren, bijwerken of verwijderen op basis van de context en de recordstructuur van de huidige pagina.
 
@@ -37,7 +24,8 @@ De bevelen van de gebruiker en de uitvoering van AI van die bevelen werken samen
 
 ## Overwegingen over de AI-assistent
 
-* De AI-assistent is standaard beschikbaar voor de Workfront-hoofdbeheerder. Voor informatie, zie [ basisinformatie voor uw systeem ](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md) vormen.
+* De AI-assistent moet zijn ingeschakeld voor uw organisatie voordat deze beschikbaar is voor gebruikers in uw bedrijf. Voor informatie, zie [ AI Hulpoverzicht ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+* Nadat Workfront de AI Assistant voor uw organisatie heeft ingeschakeld, is deze beschikbaar voor de Workfront-hoofdbeheerder. Voor informatie, zie [ basisinformatie voor uw systeem ](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md) vormen.
 
 * De Workfront-beheerder moet de AI-assistent inschakelen voor alle andere gebruikers. Voor meer informatie, zie [ toelaten of AI Medewerker ](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) onbruikbaar maken.
 
@@ -71,7 +59,7 @@ Met de AI-assistent kunt u op dit moment de volgende handelingen uitvoeren:
 * Records verwijderen
 * Recten herstellen die u zojuist hebt verwijderd
 
-## De AI-assistent openen
+## De AI-assistent openen in het planningsgebied
 
 1. Login aan Workfront, dan ga naar het **Planning** gebied.
 

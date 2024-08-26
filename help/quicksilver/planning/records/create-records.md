@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: 80d9fc7f8cf28de8dbb8f1c53835940142681906
 workflow-type: tm+mt
 source-wordcount: '1336'
 ht-degree: 0%
@@ -26,6 +26,7 @@ U kunt records maken door een van de volgende handelingen uit te voeren:
 * Een lijst met records uit een externe lijst kopiëren en plakken
 * Deze dupliceren
 * Ze maken terwijl u ze verbindt vanuit andere records
+  <!--* Create them by submitting a request form-->
 
 In dit artikel wordt beschreven hoe u records kunt maken.
 
@@ -311,3 +312,13 @@ Om verslagen tot stand te brengen aangezien u hen van andere verslagen verbindt:
 of
 Klik op de naam van de pagina om de detailpagina te openen en informatie toe te voegen.
 
+<!--
+## Create records by submitting a request form
+
+After someone creates a request form for a record type and shares a link to it with you, you can submit a request which creates a record for that record type. 
+
+For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+Both Workfront users and users external to your organization can submit requests to Planning record types and create records, if they have a link to the request form.
+
+For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). -->
