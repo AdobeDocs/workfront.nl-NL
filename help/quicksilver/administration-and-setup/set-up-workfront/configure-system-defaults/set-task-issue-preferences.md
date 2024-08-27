@@ -74,7 +74,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    <!--
 <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref"> werk op het </a> </li>
-  —&gt;
+  -->
 
 * [[!UICONTROL Access]](#access)
 
