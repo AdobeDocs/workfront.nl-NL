@@ -9,9 +9,9 @@ description: U kunt de Adobe Workfront Boards-connector gebruiken om uw processe
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
-source-git-commit: 7003ea4b6daba68957ef0ec501ecfd4a8d750d4c
+source-git-commit: 0b7b63df57c9e99fb782c59af55d1165283dd634
 workflow-type: tm+mt
-source-wordcount: '2395'
+source-wordcount: '2435'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Deze connector bevindt zich momenteel in Beta.
+>De Boards Fusion-connector bevindt zich in een bètastatus. Hierdoor is de ondersteuning voor deze aansluiting beperkt en kan deze veranderen als gevolg van de toekomstige ontwikkeling van de Boards. Bovendien kunnen er zonder kennisgeving wijzigingen in de GraphQL API zijn die van invloed kunnen zijn op het proces van de Fusion-connector.
 
 Adobe Workfront Boards zijn flexibele hulpmiddelen die teamsamenwerking toestaan door toegang tot een gedeelde raad te verlenen die kolommen en kaarten bevat.
 

@@ -2,14 +2,14 @@
 filename: boards-emails
 content-type: reference
 navigation-topic: boards
-title: E-mailmeldingen en voorkeuren worden verzonden
+title: Borden E-mailmeldingen en voorkeuren
 description: Adobe Workfront Boards stuurt u een e-mail wanneer u aan een bord wordt toegevoegd en wanneer een kaart aan u wordt toegewezen.
 author: Lisa
 feature: Agile
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
@@ -22,26 +22,32 @@ U ontvangt ook een e-mail wanneer u bent gelabeld in een opmerking op een aanges
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
-   <td> <p>[!UICONTROL Request] of hoger</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
+   <td> 
+   <p>Nieuw: [!UICONTROL Contributor] of hoger</p> 
+   <p>of</p>
+   <p>Huidig: [!UICONTROL Request] of hoger</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Voorkeuren instellen voor e-mailberichten in kamers
 

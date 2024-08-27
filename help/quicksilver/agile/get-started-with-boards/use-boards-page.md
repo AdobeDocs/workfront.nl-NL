@@ -1,14 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Het dashboard voor tekengebieden gebruiken
+title: Het dashboard voor raden gebruiken
 description: Op het dashboard van [!UICONTROL boards] wordt de lijst met borden weergegeven waartoe u toegang hebt, inclusief borden die u hebt gemaakt en borden die u hebt toegevoegd.
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '777'
 ht-degree: 0%
 
 ---
@@ -44,11 +44,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
    <td> 
    <p>Nieuw: [!UICONTROL Contributor] of hoger</p> 
    <p>of</p>

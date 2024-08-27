@@ -1,14 +1,14 @@
 ---
 content-type: reference
 navigation-topic: boards
-title: Kanbankkaarten voor mobiele teams migreren naar Workfront-borden
+title: Kanbancaire kaarten van het Agile-team migreren naar de Workfront-raden
 description: U kunt uw werkitems migreren van een Google-team Kanban-board naar een nieuwe of bestaande Workfront-board.
 author: Lisa
 feature: Agile
 exl-id: 72e3902b-af9a-497c-817f-63630c4fb73b
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -23,26 +23,32 @@ De kaarten worden niet verwijderd van het Anban-bord van het mobiele team en wij
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-  <tr>
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td>
-   <td> <p>Alle</p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td>
-   <td> <p>[!UICONTROL Request] of hoger</p> </td>
-  </tr>
- </tbody>
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td> <p>Alle</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
+   <td> 
+   <p>Nieuw: [!UICONTROL Contributor] of hoger</p> 
+   <p>of</p>
+   <p>Huidig: [!UICONTROL Request] of hoger</p>
+   </td> 
+  </tr> 
+ </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Kanbankkaarten migreren naar een nieuw bord
 

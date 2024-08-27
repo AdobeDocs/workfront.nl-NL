@@ -2,12 +2,12 @@
 content-type: overview
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
-title: Algemeen overzicht
+title: Overzicht van Agile
 description: Agile is een werkmethodologie die teams toestaat om kleine, handelbare hoeveelheden werk bij een verenigbare kapper te voltooien. In een bestand beheren teams artikelen op een logbestand of een artikelbord en niet taken in een project. [!DNL Adobe Workfront]  verstrekt hulpmiddelen die de hulpteams op een flexibele manier werken.
 author: Lisa
 feature: Agile
 exl-id: 35b329e5-f360-416c-adbb-ec39ab7a50cc
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 0%

@@ -1,19 +1,19 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Bestaande taken of problemen toevoegen aan een Adobe Workfront-board of -werkstroom
+title: Bestaande taken of problemen toevoegen aan een Workfront-raad
 description: U kunt elke taak of elk probleem vanuit een lijst- of rapportweergave toevoegen aan een bestuur in Adobe Workfront.
 author: Lisa
 feature: Agile
 exl-id: 5e6fd681-8068-4091-9f42-0364b17e0465
-source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
 
-# Bestaande taken of problemen toevoegen aan een [!DNL Adobe Workfront] -board of -werkstroom
+# Bestaande taken of problemen toevoegen aan een [!DNL Workfront] -board
 
 >[!IMPORTANT]
 >
@@ -23,6 +23,8 @@ U kunt elke taak of uitgave toevoegen aan een board of een werkstroom in [!DNL A
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto">
@@ -30,26 +32,33 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col>
  <tbody>
   <tr>
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td>
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td>
    <td> <p>Alle</p> </td>
   </tr>
   <tr>
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td>
-   <td> <p>[!UICONTROL Work] of hoger</p> </td>
+   <td role="rowheader">[!DNL Adobe Workfront] licentie</td>
+   <td>
+   <p>Nieuw: [!UICONTROL Standard]</p> 
+   <p>of</p>
+   <p>Huidig: [!UICONTROL Work] of hoger</p>
+   </td>
   </tr>
   <tr>
-   <td role="rowheader"><strong>Objectmachtigingen</strong></td>
-   <td> <p>[!UICONTROL View] of hogere machtigingen voor de taak of uitgave</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td>
+   <td role="rowheader">Objectmachtigingen</td>
+   <td>[!UICONTROL View] of hogere machtigingen voor de taak of uitgave </td>
   </tr>
  </tbody>
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Bestaande taken of problemen vanuit een lijst toevoegen aan een board of een workstream
 
-1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] .
-1. Kies een van de volgende opties: **[!UICONTROL Projects]**, **[!UICONTROL Reporting]** of **[!UICONTROL Dashboards]** .
+{{step1-click-main-menu}}
+
+1. Kies een van de volgende opties: **[!UICONTROL Projects]**, **[!UICONTROL Reports]** of **[!UICONTROL Dashboards]** .
 1. Ga naar het project, het rapport, of het dashboard dat de taak of de kwestie bevat u aan de raad of de werkstroom wilt toevoegen.
 1. Selecteer een of meer taken of problemen.
 
@@ -70,7 +79,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Bestaande taak of problemen toevoegen aan een board of een workstream via objectdetails
 
-1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] .
+{{step1-click-main-menu}}
+
 1. Klik [!UICONTROL **Projecten**], dan klik de naam van een project om het te openen.
 1. Klik [!UICONTROL **Taken**] of [!UICONTROL **Kwesties**] in het linkerpaneel.
 1. Klik op de taak, subtaak of uitgave die u wilt toevoegen aan een werkgebied of werkstroom.

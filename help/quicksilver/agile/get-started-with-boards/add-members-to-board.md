@@ -1,14 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Leden toevoegen aan of verwijderen uit een board
+title: Leden toevoegen aan of verwijderen uit een raad
 description: Mensen moeten als leden aan de raad van bestuur worden toegevoegd voordat ze de raad kunnen bekijken en aan kaarten kunnen worden toegewezen.
 author: Lisa
 feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
-source-git-commit: 0208beb1f45377b151a526738b6d182880c37774
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
@@ -19,30 +19,37 @@ Personen en teams moeten als leden aan de raad van bestuur worden toegevoegd voo
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
-   <td> <p>[!UICONTROL Request] of hoger</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
+   <td> 
+   <p>Nieuw: [!UICONTROL Contributor] of hoger</p> 
+   <p>of</p>
+   <p>Huidig: [!UICONTROL Request] of hoger</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Leden aan een board toevoegen
 
-1. Klik op het pictogram **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe] Workfront en klik vervolgens op **[!UICONTROL Boards]** .
+{{step1-to-boards}}
+
 1. Maak een nieuw bord of bewerk een bestaand bord. Voor informatie, zie [ creeer of geef een raad ](../../agile/get-started-with-boards/create-edit-board.md) uit.
 1. Klik het **[!UICONTROL Add member]** pictogram ![ toevoegen leden ](assets/boards-addmember-spectrum-25x25.png).
 1. Typ in het vak **[!UICONTROL Add members]** een naam en selecteer deze vervolgens wanneer deze in de lijst wordt weergegeven.
@@ -58,7 +65,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Leden van een board verwijderen
 
-1. Klik op het pictogram **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe] Workfront en klik vervolgens op **[!UICONTROL Boards]** .
+{{step1-to-boards}}
+
 1. Maak een nieuw bord of bewerk een bestaand bord. Voor informatie, zie [ creeer of geef een raad ](../../agile/get-started-with-boards/create-edit-board.md) uit.
 1. Klik het **[!UICONTROL Add member]** pictogram ![ toevoegen leden ](assets/boards-addmember-spectrum-25x25.png).
 1. Klik in het vak **[!UICONTROL Add members]** op de X naast de naam van een persoon of team om deze van het bord te verwijderen.

@@ -1,14 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Gekoppelde kaarten op borden gebruiken
+title: Verbonden kaarten op borden gebruiken
 description: U kunt een kaart aan uw bord toevoegen die met bestaande taken en kwesties in Workfront wordt verbonden.
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 5c093edc97afdbd1d88824376ce4b019f71e099f
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '1372'
+source-wordcount: '1346'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,8 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 ## Een aangesloten kaart toevoegen
 
-1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Boards]**.
+{{step1-to-boards}}
+
 1. Toegang tot een bord. Voor informatie, zie [ creeer of geef een raad ](../../agile/get-started-with-boards/create-edit-board.md) uit.
 1. Klik op **[!UICONTROL Add card]>[!UICONTROL Connected card]** .
 1. Kies een project en kies vervolgens een taak of uitgave die u als kaart aan de kaart wilt toevoegen.

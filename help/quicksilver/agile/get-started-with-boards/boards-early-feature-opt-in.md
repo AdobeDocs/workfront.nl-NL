@@ -2,19 +2,19 @@
 filename: boards-early-feature-opt-in
 content-type: reference
 navigation-topic: boards
-title: Vroege eigenschapopt-in voor  [!DNL Adobe Workfront]  Boven
+title: Vroege Opt-binnen van de Eigenschap voor  [!DNL Workfront]  Boards
 description: Lees dit artikel om over de  [!DNL Workfront Boards]  vroege eigenschap te leren opt-in.
 author: Lisa
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 3706921e4705a05d9d1fa18a3d242632b5e0616b
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 0%
 
 ---
 
-# Aanmelden met de functie Vroege [!DNL Adobe Workfront] [!UICONTROL Boards]
+# Aanmelden met de functie Vroege [!DNL Workfront] [!UICONTROL Boards]
 
 De vroege functie-opt-in voor [!DNL Adobe Workfront] [!UICONTROL Boards] is gestart in juli 2022.
 
