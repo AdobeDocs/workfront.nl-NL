@@ -88,7 +88,7 @@ Als het JSON-tekenreeksveld een verzameling `{ ... }` bevat, bestaat de uitvoer 
 >       "name" : "Peter",
 >
 >    
-   "ID" : 1
+>   "ID" : 1
 >}
 >```
 >
@@ -108,7 +108,7 @@ Als het JSON-tekenreeksveld een array `[ ... ]` bevat, bestaat de uitvoer uit ee
 >   },
 >
 >  
- {
+> {
 >       "name" : "Mike",
 >       "ID" : 2
 >   }
@@ -238,27 +238,28 @@ Deze actiemodule transformeert een object naar een json-tekenreeks.
 >
 1. Verbind [!UICONTROL JSON] > [!UICONTROL Create JSON] module na de [!UICONTROL Array Aggregator] module. De opstelling van de module vereist een structuur van Gegevens die het formaat JSON beschrijft. Klik op **[!UICONTROL Add]** om de gegevensstructuurinstellingen te openen. De eenvoudigste manier om deze gegevensstructuur te maken, is deze automatisch te genereren op basis van een JSON-voorbeeld. Klik op **[!UICONTROL Generator]** en plak uw JSON-voorbeeld in het veld **[!UICONTROL Sample data]** :
 >
-**Voorbeeld:**
+>     **Voorbeeld:**
 >
-```
-{
-
-"books": [
-
-{
-
-"id": "ID",
-
-"title": "Title",
-
-"author": "Author"
-
-}
-
-]
-
-}
-```
+>     ```
+>     {
+>     
+>     "books": [
+>     
+>     {
+>     
+>     "id": "ID",
+>     
+>     "title": "Title",
+>     
+>     "author": "Author"
+>     
+>     }
+>     
+>     ]
+>     
+>     }
+>     
+>     ```
 >
 1. Klik op **[!UICONTROL Save]**. Het veld [!UICONTROL Specification] in de gegevensstructuur bevat nu de gegenereerde structuur.
 1. Wijzig de naam van de gegevensstructuur in een specifiekere naam en klik op **[!UICONTROL Save]** . Een veld dat overeenkomt met het kenmerk van de hoofdarray wordt als een toewijzingsveld weergegeven in de instellingen van de JSON-module.
