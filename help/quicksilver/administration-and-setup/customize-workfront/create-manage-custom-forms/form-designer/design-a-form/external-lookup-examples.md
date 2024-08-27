@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 1b3e0ab2d8ee37b7583d0b8fb0472b2fc9623da0
+source-git-commit: bcc0054f761101ac19d1ced241329fce95be4e99
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1308'
 ht-degree: 0%
 
 ---
@@ -108,6 +108,16 @@ In dit voorbeeld ziet u hoe u de Workfront API aanroept en gegevens van een aang
 1. Klik **toepassen**.
 
    Wanneer het aangepaste formulier aan een Workfront-object wordt toegevoegd, worden alle waarden in het veld &quot;Combo Colors&quot; weergegeven in het vervolgkeuzemenu Extern opzoekveld.
+
+## Een extern opzoekveld instellen voor de API voor Workfront-planning
+
+Een eindpunt is beschikbaar in de [ Planning API van Workfront ](/help/quicksilver/planning/general/planning-api-basics.md) aan onderzoeksverslagen door verslagtype identiteitskaart door Get methode. U kunt dit eindpunt gebruiken om de verslagen van de Planning in Externe raadplegingsgebieden van verwijzingen te voorzien.
+
+* **Basis API URL:** `$$HOST/maestro/api/v1/records/search?recordTypeId={recordTypeID}`
+* **Methode van HTTP:** krijgt
+* **Weg JSON:** `$.records[*].data.{fieldID}`
+
+  **{fieldID}** is het gebied om in de Externe resultaten van het raadplegingsonderzoek op de douanevorm voor eind te tonen - gebruikers.
 
 ## Een extern opzoekveld instellen voor een openbare API
 
