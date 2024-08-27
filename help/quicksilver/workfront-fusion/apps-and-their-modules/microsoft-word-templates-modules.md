@@ -10,9 +10,9 @@ description: In een Adobe Workfront Fusion-scenario kunt u workflows automatiser
 author: Becky
 feature: Workfront Fusion
 exl-id: 889b417c-04a9-4dbf-9a34-0dab65f11f03
-source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
+source-git-commit: 0b8a4e3864cf9ca2c179a824bdb87977819c9383
 workflow-type: tm+mt
-source-wordcount: '1297'
+source-wordcount: '1283'
 ht-degree: 0%
 
 ---
@@ -102,17 +102,13 @@ Een [!DNL Microsoft Word] -sjabloon is een regulier [!DNL Microsoft Word] -docum
 
 ### Tag voor eenvoudige waarde {#simple-value-tag}
 
-Een eenvoudige waardetag wordt eenvoudig vervangen door een overeenkomstige waarde. De naam van de tag komt overeen met de waarde van het veld [!UICONTROL Key] , die binnen dubbele accolades wordt geplaatst, bijvoorbeeld
-
-
-<pre>&lbrace;&lbrace;name&rbrace;&rbrace;</pre>
-
-
-.
+Een eenvoudige waardetag wordt eenvoudig vervangen door een overeenkomstige waarde. De naam van de tag komt overeen met de waarde van het veld [!UICONTROL Key] , die binnen dubbele accolades wordt geplaatst, bijvoorbeeld `{{name}}` .
 
 **Voorbeeld:** om een document tot stand te brengen dat &quot;Hi, Petr!&quot;zegt, kon u een [!DNL Microsoft Word Template] module gebruiken om het volgende malplaatje tot stand te brengen:
 
-<pre>&gt; Hallo &lbrace;&lbrace;name&rbrace;&rbrace;!</pre>
+```
+> Hi {{name}}!
+```
 
 Hiervoor stelt u de module als volgt in:
 
@@ -123,12 +119,21 @@ Hiervoor stelt u de module als volgt in:
 U kunt een voorwaardelabel gebruiken om tekst te laten omlopen die alleen moet worden gerenderd als aan bepaalde voorwaarden is voldaan. Als u de tekst wilt laten omlopen, plaatst u deze tussen openingstag en afsluitingstag, bijvoorbeeld &quot;hasPhone&quot; als de voorwaarde is of de gegevens al dan niet een telefoonnummer bevatten. De naam van een openingstag wordt voorafgegaan door een hash-teken #. De naam van een afsluitende tag wordt voorafgegaan door een slash /, zoals in het onderstaande voorbeeld wordt getoond.
 
 **Voorbeeld:** om een document te veroorzaken dat het telefoonaantal van een klant omvat als de inputgegevens een telefoonaantal, maar geen e-mailadres omvatten, kon u een [!DNL Microsoft Word Template] module gebruiken en het volgende malplaatje creëren:
-<pre>&gt; {#hasPhone} Telefoon: &lbrace;&lbrace;phone&rbrace;&rbrace; &lbrace;&lbrace;/hasPhone}</pre><pre>&gt; {#hasEmail} E-mail: {{email&rbrace;&rbrace; &lbrace;&lbrace;/hasEmail&rbrace;&rbrace;</pre>Hiervoor stelt u de module als volgt in:
+
+```
+> {{#hasPhone}}Phone: {{phone}} {{/hasPhone}}
+> {{#hasEmail}}Email: {{email}} {{/hasEmail}}
+```
+
+Hiervoor stelt u de module als volgt in:
 
 ![](assets/word-template-conditional-350x501.png)
 
 In het document ziet het telefoonnummer er als volgt uit:
-<pre>&gt; Telefoon: 4445551234</pre>
+
+```
+> Phone: 4445551234
+```
 
 ### Tag herhalen {#loop-tag}
 
@@ -141,7 +146,11 @@ U kunt een sectie met tekst herhalen met een lustag, ook wel sectietag genoemd. 
 
 **Voorbeeld:** om een document te veroorzaken dat van de naam en het telefoonaantal van elk contact in een klantenlijst een lijst maakt, kon u a [!DNL Microsoft Word Template] module gebruiken en het volgende malplaatje creëren:
 
-<pre>&gt; {#contact}</pre><pre>&gt;     &lbrace;&lbrace;name&rbrace;&rbrace;, &lbrace;&lbrace;phone&rbrace;&rbrace;</pre><pre>&gt; &lbrace;&lbrace;/contact&rbrace;&rbrace;</pre>
+```
+> {{#contact}}
+>     {{name}}, {{phone}}
+> {{/contact}}
+```
 
 Hiervoor stelt u de module als volgt in:
 

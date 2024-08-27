@@ -6,9 +6,9 @@ description: Uw Adobe Workfront-beheerder verleent gebruikers toegang tot weerga
 author: Alina, Nolan
 feature: Get Started with Workfront
 exl-id: 27a1beb9-e83a-4ef6-bf5f-ad52575a993c
-source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
+source-git-commit: 310935c7ad1cc97a7d26fc2ff40d2d68d192bb39
 workflow-type: tm+mt
-source-wordcount: '1966'
+source-wordcount: '1954'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ U moet het volgende hebben om objecten te delen:
 
 1. In de **Verlenen &lt; objecten naam > toegang tot** doos, begin typend de naam van de gebruiker, het team, de rol, de groep, of het bedrijf met wie u het voorwerp wilt delen, dan klik de naam wanneer het in de drop-down lijst verschijnt.
 
-   ![](assets/new-share-button-add-people.png) {width=&quot;350&quot; }
+   ![](assets/new-share-button-add-people.png){width="350"}
 
    >[!TIP]
    >
@@ -132,7 +132,8 @@ U moet het volgende hebben om objecten te delen:
 
    ![](assets/new-share-advanced-permissions-dropdown.png)
 
-   Afhankelijk van het geselecteerde object zijn er verschillende geavanceerde opties voor weergave, beheer en Contribute.\
+   Afhankelijk van het geselecteerde object zijn er verschillende geavanceerde opties voor weergave, beheer en Contribute.
+
    Voor meer informatie over toestemmingsniveaus, zie [ Overzicht van het delen van toestemmingen op voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 1. (Facultatief) om dit voorwerp beschikbaar te maken aan alle gebruikers in het systeem, klik dropdown menu onder **die toegang** heeft, dan in het drop-down menu klikt **iedereen in het systeem kan** bekijken.
@@ -187,7 +188,7 @@ U moet het volgende hebben om objecten te delen:
 
 1. In **geef &lt; de Naam van Objecten > toegang tot** doos, begin typend de naam van de gebruiker, het team, de rol, de groep, of het bedrijf met wie u het voorwerp wilt delen, dan klik de naam wanneer het in de drop-down lijst verschijnt.
 
-   ![](assets/list-share-add-people.png) {width=&quot;350&quot; }
+   ![](assets/list-share-add-people.png){width="350"}
 
    >[!TIP]
    >
@@ -234,7 +235,7 @@ U moet het volgende hebben om objecten te delen:
    >
    >Deze optie is niet beschikbaar voor alle objecten.
 
-   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png) {width=&quot;350&quot; }
+   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png){width="350"}
 
 1. (Voorwaardelijk) als u het voorwerp aan externe gebruikers openbaar maakte, klik **exemplaarverbinding**, dan verdeel de verbinding aan externe gebruikers.
 
@@ -254,11 +255,11 @@ U moet het volgende hebben om objecten te delen:
 
 1. Klik checkbox naast de voorwerp(s) u zou willen delen, dan het **pictogram van het Aandeel** ![](assets/share-icon.png) bij de bovenkant van de pagina klikken.
 
-   ![](assets/list-share-object-select.png) {width=&quot;350&quot; }
+   ![](assets/list-share-object-select.png){width="350"}
 
 1. In het **&lt; Voorwerp > het venster van de Toegang** verschijnt, begin typend in **uitgeeft &lt; de Naam van Objecten > toegang voor** doos de naam van de gebruiker, het team, de rol, de groep, of het bedrijf met wie u de voorwerpen wilt delen, dan klik de naam wanneer het in de drop-down lijst verschijnt.
 
-   ![](assets/list-share-add-people.png) {width=&quot;350&quot; }
+   ![](assets/list-share-add-people.png){width="350"}
 
    >[!TIP]
    >
@@ -286,10 +287,10 @@ U moet het volgende hebben om objecten te delen:
      >
      >U kunt Contribute-machtigingen alleen verlenen aan de volgende objecten:
      >
-     >   * Projecten
-     >   * Taken
-     >   * Problemen
-     >  
+     >* Projecten
+     >* Taken
+     >* Problemen
+     >
 
    * **leidt:** de gebruikers hebben volledige toegang tot het voorwerp zonder administratieve rechten (die op het toegangsniveau worden verleend). Bovendien beschikken ze ook over alle machtigingen voor Weergave en Contribute.
 
@@ -328,7 +329,7 @@ U moet het volgende hebben om objecten te delen:
    >
    >Deze optie is niet beschikbaar voor alle objecten.
 
-   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png) {width=&quot;350&quot; }
+   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png){width="350"}
 
 1. (Voorwaardelijk) als u het voorwerp (de voorwerpen) openbaar aan externe gebruikers maakte, klik **exemplaarverbinding**, dan verdeel de verbinding aan externe gebruikers.
 

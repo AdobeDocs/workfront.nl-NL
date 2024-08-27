@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] [!DNL Outlook] toe:voegen-binnen laat u de
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: e4f722bab4c4024ca796af8413e7d6b69f6a89a7
+source-git-commit: bcf03609e0503a5db0384fd573066467a1feb341
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ De [!DNL Workfront] add-in voor [!DNL Outlook] wordt ondersteund in omgevingen d
 Workfront ondersteunt de volgende versies van [!DNL Outlook] :
 
 * [!DNL Outlook 2013] of hoger op [!DNL Windows]
-*[!DNL  Outlook 2016] of hoger op [!DNL Windows]
+* [!DNL Outlook 2016] of hoger op [!DNL Windows]
 * [!DNL Outlook] on [!DNL Mac] ([!DNL Microsoft 365])
 * [!DNL Outlook] on [!DNL Windows] ([!DNL Microsoft 365])
 * [!DNL Outlook] op het web
@@ -90,7 +90,7 @@ Bij het configureren van de client moet de gebruiker een van de volgende account
 
 * [!DNL Exchange]
 * [!DNL Office 365]
-* [!DNL Outlook.com] &#x200B; **&#x200B;** &#x200B; Als de client is geconfigureerd om verbinding te maken met POP3 of IMAP, wordt de [!DNL Workfront] add-in niet geladen.
+* [!DNL Outlook.com] Als de client is geconfigureerd voor verbinding met POP3 of IMAP, wordt de [!DNL Workfront] -invoegtoepassing niet geladen.
 
 ### Vereisten voor mailservers {#mail-server-requirements}
 

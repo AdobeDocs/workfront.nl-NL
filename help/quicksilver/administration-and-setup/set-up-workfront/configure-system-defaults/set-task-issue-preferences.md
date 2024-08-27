@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: 51b8e474cefe63b4db8c42e480990ca0ba431a4d
 workflow-type: tm+mt
-source-wordcount: '1755'
+source-wordcount: '1748'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
       </ul> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader">[!UICONTROL Bij het converteren van een uitgave naar een taak]</td> 
+    <td role="rowheader">[!UICONTROL When converting an issue to a task]</td> 
     <td> <p>Met de instellingen in dit gedeelte wordt bepaald wat er gebeurt tijdens het conversieproces van uitgave tot taak:</p> 
       <ul> 
       <li> <p><strong>[!UICONTROL Keep the original issue and tie its resolution to the task]</strong>: Wanneer u de uitgave converteert, blijft deze zichtbaar als een uitgave totdat de taak is voltooid. De status van de uitgave verandert automatisch in [!UICONTROL Closed] wanneer de taak is voltooid. Als deze optie is uitgeschakeld, wordt de uitgave verwijderd.</p> <p><b> NOTA </b>:  <p>Gebruikers zonder toegang of machtigingen om problemen te verwijderen, kunnen de uitgave niet verwijderen omdat ze deze converteren, ongeacht de status van deze instelling. Voor informatie over toegang en toestemmingen tot kwesties, zie:</p> 

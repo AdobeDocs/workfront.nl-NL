@@ -9,9 +9,9 @@ description: Met de  [!DNL Adobe Workfront Fusion]  modules van Figma, kunt u li
 author: Becky
 feature: Workfront Fusion
 exl-id: d88db592-32d4-4765-952f-9ffb58cf1720
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: df4ac2c7fdf319fd8e2e8383cd395e8826e19df0
 workflow-type: tm+mt
-source-wordcount: '2009'
+source-wordcount: '2007'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
 
 * [Opmerkingen weergeven](#list-comments)
 
-* [Post een opmerking](#post-a-comment)
+* [Opmerkingen plaatsen](#post-a-comment)
 
 
 #### [!UICONTROL Delete a comment]
@@ -363,7 +363,7 @@ Met deze actiemodule haalt u één bestand of afbeelding op uit een figuurbiblio
       <td>Selecteer het bestand waaruit u JSON wilt retourneren.</td>
     </tr>
     <tr>
-      <td role="rowheader" [!UICONTROL>Node-id's]</td>
+      <td role="rowheader">[!UICONTROL Node IDs]</td>
       <td>
         <p>Ga de knopen in die u de module wilt teruggeven.</p>
         <p>Voor elk knooppunt dat u wilt renderen, klikt u op <b>[!UICONTROL Add]</b> en voert u de tekst van het knooppunt in.</p>
