@@ -1,13 +1,14 @@
 ---
 title: Records maken
 description: Wanneer u Adobe Workfront Planning gebruikt, is een record een instantie van een recordtype. U kunt unieke verslagen voor elk verslagtype in de Planning van Workfront tot stand brengen door hen aan de lijstmening manueel toe te voegen, hen van een lijst in te voeren, hen te dupliceren, of hen te creëren aangezien u hen met andere verslagen verbindt.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 80d9fc7f8cf28de8dbb8f1c53835940142681906
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1450'
 ht-degree: 0%
 
 ---
@@ -22,11 +23,11 @@ In de Planning van Adobe Workfront, is een verslag een geval van een verslagtype
 
 U kunt records maken door een van de volgende handelingen uit te voeren:
 
-* Deze toevoegen vanaf de pagina met recordtypen in de tabelweergave
+* Records toevoegen vanaf de pagina met recordtypen in de tabelweergave
 * Een lijst met records uit een externe lijst kopiëren en plakken
-* Deze dupliceren
-* Ze maken terwijl u ze verbindt vanuit andere records
-  <!--* Create them by submitting a request form-->
+* Records dupliceren vanuit een tabelweergave
+* Records maken terwijl u deze verbindt met andere records
+* Maak ze door een aanvraagformulier naar een recordtype te verzenden
 
 In dit artikel wordt beschreven hoe u records kunt maken.
 
@@ -36,8 +37,6 @@ Raadpleeg de volgende artikelen voor informatie over het beheren van records in 
 * [De tijdlijnweergave beheren](/help/quicksilver/planning/views/manage-the-timeline-view.md)
 
 ## Toegangsvereisten
-
-<!--Updated for GA-->
 
 +++ Breid uit om toegangsvereisten voor de Planning van Workfront te bekijken.
 
@@ -166,8 +165,7 @@ U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
 
 +++
 
-
-## Records maken door deze toe te voegen aan een recordtype <!--in a record type table (I don't think you can create them elsewhere right now)-->
+## Records maken door deze toe te voegen aan een recordtype in een recordtype-tabel
 
 U kunt records maken in de tabelweergave van een pagina met recordtypen.
 
@@ -312,13 +310,12 @@ Om verslagen tot stand te brengen aangezien u hen van andere verslagen verbindt:
 of
 Klik op de naam van de pagina om de detailpagina te openen en informatie toe te voegen.
 
-<!--
-## Create records by submitting a request form
+## Records maken door een aanvraagformulier naar een recordtype te verzenden
 
-After someone creates a request form for a record type and shares a link to it with you, you can submit a request which creates a record for that record type. 
+Nadat iemand een aanvraagformulier voor een recordtype heeft gemaakt en er een koppeling naar heeft gedeeld, kunt u een aanvraag indienen waarmee een record voor dat recordtype wordt gemaakt.
 
-For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+Voor informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
 
-Both Workfront users and users external to your organization can submit requests to Planning record types and create records, if they have a link to the request form.
+Zowel Workfront-gebruikers als gebruikers buiten uw organisatie kunnen aanvragen indienen bij de planning van recordtypen en records maken als ze een koppeling naar het aanvraagformulier hebben.
 
-For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). -->
+Voor informatie, zie [ de Verzoeken van de Planning van Adobe Workfront voorleggen om verslagen ](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen.

@@ -6,13 +6,12 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 4c675fc5cbe82c27182b8f442bec9a6c2d9634fa
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '1200'
+source-wordcount: '1378'
 ht-degree: 0%
 
 ---
-
 
 
 # Weergaven delen
@@ -273,6 +272,28 @@ Een weergave openbaar delen in Workfront Planning:
 
 
 1. (Optioneel) Plak de koppeling die u hebt gekopieerd naar een e-mail, chatbericht, document of Workfront-opmerking om deze met anderen te delen.
+
+## Rechten verlenen aan een weergave vanuit een machtigingsverzoek
+
+Gebruikers die een koppeling openen naar een weergave waarvoor zij geen machtigingen hebben, kunnen machtigingen aanvragen voor de weergave. Alle gebruikers met de machtiging Beheren voor de weergave ontvangen de aanvraag voor machtigingen en kunnen de machtigingen verlenen of weigeren.
+
+1. (Voorwaardelijk) Als u de manager van een mening bent, zou u een verzoek van een andere gebruiker kunnen ontvangen om tot de mening op de volgende gebieden toegang te hebben:
+
+   * Een melding in de app
+     ![](assets/in-app-notification-for-access-request-for-view.png)
+   * Een e-mailmelding
+     ![](assets/in-app-notification-for-access-request-for-view.png)
+1. (Voorwaardelijk) Klik in het systeemvak in Workfront op de melding in de app.
+of
+Van het e-mailbericht, klik **Mening alle berichten**, dan klik het bericht in de lijst.
+
+   De **hangende toegangsverzoeken** vakvertoningen.
+
+   ![](assets/notifications-list-approval-box.png)
+1. Selecteer de gebruiker voor wie u de toestemming goedkeuren of wilt ontkennen, dan klik **allen** goedkeuren of **ontkennen allen**.
+1. Klik de verlaten-richt pijl aan de linkerzijde van **Hangende toegangsverzoeken**, dan klik **sparen**.
+
+   Als u het verzoek hebt goedgekeurd, worden de gebruikers toegevoegd aan het vak voor delen van de weergave. De gebruiker die de machtiging aanvraagt, ontvangt een e-mailbevestiging dat zijn aanvraag is goedgekeurd. <!--will they also get an in-app notification??-->
 
 ## Machtigingen verwijderen uit een weergave
 

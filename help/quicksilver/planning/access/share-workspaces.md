@@ -5,9 +5,9 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '668'
 ht-degree: 0%
 
 ---
@@ -185,6 +185,28 @@ Een werkruimte delen met anderen:
 1. Klik **verbinding van het Exemplaar** om een verbinding aan de werkruimte aan uw klembord te kopiëren.
 1. Deel de gekopieerde koppeling met anderen. Gebruikers die de koppeling ontvangen, moeten actieve gebruikers zijn en zich aanmelden bij Workfront om toegang te krijgen tot de werkruimte.
 1. Klik **sparen**.
+
+## Machtigingen verlenen aan een werkruimte uit een machtigingsverzoek
+
+Gebruikers die een koppeling openen naar een werkruimte waarvoor zij geen machtigingen hebben, kunnen machtigingen aanvragen bij de werkruimte. Alle gebruikers met de machtiging Beheren voor de werkruimte ontvangen de aanvraag voor machtigingen en kunnen de machtigingen verlenen of weigeren.
+
+1. (Voorwaardelijk) Als u de manager van een werkruimte bent, zou u een verzoek van een andere gebruiker kunnen ontvangen om tot de mening op de volgende gebieden toegang te hebben:
+
+   * Een melding in de app
+     ![](assets/in-app-notification-for-access-request.png)
+   * Een e-mailmelding
+     ![](assets/email-notification-for-access-request.png)
+1. (Voorwaardelijk) Klik in het systeemvak in Workfront op de melding in de app.
+of
+Van het e-mailbericht, klik **Mening alle berichten**, dan klik het bericht in de lijst.
+
+   De **hangende toegangsverzoeken** vakvertoningen.
+
+   ![](assets/notifications-list-approval-box.png)
+1. Selecteer de gebruiker voor wie u de toestemming goedkeuren of wilt ontkennen, dan klik **allen** goedkeuren of **ontkennen allen**.
+1. Klik de verlaten-richt pijl aan de linkerzijde van **Hangende toegangsverzoeken**, dan klik **sparen**.
+
+   Als u het verzoek hebt goedgekeurd, worden de gebruikers toegevoegd aan het vak voor delen van de werkruimte. De gebruiker die de machtiging aanvraagt, ontvangt een e-mailbevestiging dat zijn aanvraag is goedgekeurd. <!--will they also get an in-app notification??-->
 
 
 ## Machtigingen verwijderen uit een werkruimte

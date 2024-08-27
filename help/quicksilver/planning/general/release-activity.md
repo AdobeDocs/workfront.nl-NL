@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 18183b53c783366f467e7330159923372b51deb6
+source-git-commit: eeebc09c16c2c0d5a624dc57ae8603fb525d29c1
 workflow-type: tm+mt
-source-wordcount: '6729'
+source-wordcount: '7338'
 ht-degree: 0%
 
 ---
@@ -63,45 +63,119 @@ In de volgende tabel wordt de tijdlijn weergegeven van de release van Workfront 
 
 *De bèta- en de vroege releasefase waren beschikbaar voor een beperkte groep klanten.
 
-<!--Workfront Planning has temporarily been removed from the Preview and Sandbox environments since January 2024. All features documented in this articles are currently available in Production.  -->
+<!--Workfront Planning has temporarily been removed from the Preview and Sandbox environments since January 2024. All features documented in this articles are currently available in Production. -->
 
-<!--
+## Week van 26 augustus 2024
 
-## Week of August 26, 2024
+### Algemene beschikbaarheid van Adobe Workfront Planning
 
-### Reporting capabilities for Workfront Planning with the Canvas Dashboard 
+Preview and Production release: 28 augustus 2024
 
-Production: August 28, 2024 
+Workfront Planning is beschikbaar voor alle klanten die een Workfront Planning-licentie hebben aangeschaft, in aanvulling op hun Workfront-licentie. Neem contact op met uw accountvertegenwoordiger voor meer informatie over het aanschaffen van Workfront Planning.
 
-Preview: To be determined 
+Voor informatie over eigenschappen die na 28 augustus, 2024 aan de Planning van Workfront worden vrijgegeven, zie [ de versieactiviteit van de Planning van Adobe Workfront: artikelindex ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
-You can now view Workfront Planning information in a report using the Workfront Canvas Dashboard. For information, see [Get started with Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
+### Workfront Planning is nu beschikbaar in Voorvertoning
 
-### Define format for formula field values
+Voorbeeld: 28 augustus 2024
 
-Production: <date> 
+Met de release van Workfront Planning tot algemene beschikbaarheid zijn de Workfront Planning-mogelijkheden nu opgenomen in de Voorvertoningsomgeving.
 
-Preview: To be determined 
+### Nieuwe Adobe Workfront-planningspakketten en objectbeperkingen
 
-As a workspace manager, you can now define the format for the values displayed in a formula field. You can choose from the following formats: 
+Voorbeeld en productie: 28 augustus 2024
 
-* Single-line text 
-* Number 
-* Percentage 
-* Currency 
-* Date
+We hebben nieuwe beperkingen geïmplementeerd voor Workfront Planning-objecten, op basis van de volgende twee pakketten:
+
+* Met Workfront Planning kunt u beschikken over:
+
+   * Onbeperkte werkruimten
+
+   * 25.000 records per werkruimte
+
+   * 500.000 records in totaal voor uw instantie
+
+* Met Workfront Planning Plus hebt u de volgende mogelijkheden:
+
+   * Onbeperkte werkruimten
+
+   * 500.000 records per werkruimte
+
+   * 2 miljoen records voor uw instantie.
+
+Voor meer informatie, zie [ het objecten van de Planning van Adobe Workfront overzicht ](/help/quicksilver/planning/general/limitations-overview.md).
+
+### Workfront-planningsmeldingen inschakelen voor toegangsaanvragen
+
+Voorbeeld en productie: 28 augustus 2024
+
+Wanneer u toegang tot een werkruimte of een weergave aanvraagt, ontvangt de gebruiker die u toegang aanvraagt een e-mailbericht over de aanvraag. Nadat het verzoek is ingewilligd, ontvangt u een e-mailbericht met de bevestiging dat uw verzoek is goedgekeurd.
+
+U kunt de weergave of werkruimte openen vanuit het e-mailbericht wanneer de machtiging is verleend.  <!--see if they also get an in-app notification-->
+
+Voor informatie, zie [ toestemmingen van het Verzoek aan een mening of een werkruimte ](/help/quicksilver/planning/access/request-permissions.md).
+
+### Opmaak definiëren voor waarden van formulevelden
+
+Voorbeeld en productie: 28 augustus 2024
+
+Als werkruimtebeheerder kunt u nu de indeling definiëren voor de waarden die worden weergegeven in een formulierveld. U kunt kiezen uit de volgende indelingen:
+
+* Tekst met één regel
+* Getal
+* Percentage
+* Valuta
+* Datum
 * Tags
 
-For information, see the "Formula" section of the article [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
+Voor informatie, zie de &quot;sectie van de Formule&quot;van het artikel [ gebieden ](/help/quicksilver/planning/fields/create-fields.md) creëren.
 
-### AI Assistant has been re-enabled
+### Workfront-planningsmeldingen inschakelen voor toegangsaanvragen
 
-Production and Preview: August 28, 2024
+Voorbeeld en productie: 28 augustus 2024
 
-The Workfront AI Assistant has been re-enabled for the Workfront Planning area. 
+Wanneer u toegang tot een werkruimte aanvraagt, ontvangt de gebruiker die u toegang aanvraagt van een e-mailbericht over de aanvraag. Nadat het verzoek is ingewilligd, ontvangt u een e-mailbericht met een bevestiging of ontkenning van uw verzoek. U kunt de weergave of werkruimte openen vanuit het e-mailbericht wanneer de machtiging is verleend.
 
-For more information about the AI Assistant, see [Adobe Workfront Planning AI Assistant overview](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
+Voor informatie, zie [ toestemmingen van het Verzoek aan een mening of een werkruimte ](/help/quicksilver/planning/access/request-permissions.md).
 
+### In real time aanwezigheidsindicatoren in een verslagmening
+
+Voorbeeld en productie: 28 augustus 2024
+
+Om te begrijpen welke informatie door andere gebruikers wordt uitgegeven wanneer het werken in een mening, hebben wij real time aanwezigheidsindicatoren voor dit gebied van de planning van Workfront geïntroduceerd.
+
+Het veld dat door een andere gebruiker wordt bewerkt, wordt nu gemarkeerd in de tabelweergave en de avatars van andere gebruikers zijn voor u in de rechterbovenhoek van alle weergaven zichtbaar.
+
+Voor informatie, zie [ verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md) leiden.
+
+### Records maken door een aanvraag in te dienen
+
+Voorbeeld: 21 augustus 2024
+
+Productie: 28 augustus 2024
+
+U kunt nu records maken door een aanvraag in te dienen bij een aanvraagformulier dat is gekoppeld aan een recordtype.
+
+De volgende mogelijkheden zijn opgenomen in deze update:
+
+* Als werkruimtemanager kunt u een aanvraagformulier maken en dit koppelen aan een recordtype. U kunt een koppeling naar dit formulier delen met anderen, waaronder externe gebruikers.
+
+* Wanneer gebruikers het formulier openen, invullen en verzenden, wordt een record gemaakt voor het recordtype dat aan het aanvraagformulier is gekoppeld.
+
+Voor informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
+
+### U kunt via een extern veld verwijzen naar Workfront-planningsrecords
+
+Voorbeeld en productie: 28 augustus 2024
+
+Met de release van de openbare API van Workfront Planning kunt u nu verwijzen naar planningsrecords in externe velden in aangepaste Workfront-formulieren.
+
+Raadpleeg de volgende artikelen voor meer informatie:
+
+* [ Voorbeelden van het Externe raadplegingsgebied in een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
+* [Basisbeginselen van de API voor Adobe Workfront-planning](/help/quicksilver/planning/general/planning-api-basics.md)
+
+<!--
 ### New Settings menu in the Calendar view
 
 Preview and Production: August 28, 2024 
@@ -125,6 +199,22 @@ There is a new Settings option with which you can personalize the look and feel 
  When matching colors to a certain field, you can select only fields with color-coded options. 
 
  For more information, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md). 
+
+
+### The AI Assistant has been re-enabled for Workfront Planning
+
+Production and Preview: August 28, 2024
+
+The Workfront AI Assistant has been re-enabled for the Workfront Planning area. 
+
+For more information about the Workfront Planning AI Assistant, see [Adobe Workfront Planning AI Assistant overview](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
+ 
+
+### Reporting capabilities for Workfront Planning with the Canvas Dashboard 
+
+Production and Production: August 28, 2024 
+
+You can now view Workfront Planning information in a report using the Workfront Canvas Dashboard. For information, see [Get started with Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
 
 -->
 

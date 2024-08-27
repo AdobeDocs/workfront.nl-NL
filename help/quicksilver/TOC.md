@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: bcabc57ace3c10f471139ebfb23be472758750be
+source-git-commit: d049d3c3f6d48b2c9d778740905d76a40620c8e0
 workflow-type: tm+mt
-source-wordcount: '14317'
+source-wordcount: '14353'
 ht-degree: 0%
 
 ---
@@ -2073,6 +2073,7 @@ ht-degree: 0%
       * [Overzicht van licentietype bij gebruik van Adobe Workfront Planning](planning/access/license-type-overview.md)
       * [Werkruimten delen](planning/access/share-workspaces.md)
       * [Weergaven delen](planning/access/share-views.md)
+      * [Machtigingen aanvragen voor een weergave of werkruimte](planning/access/request-permissions.md)
    * Adobe Workfront-planningsrecords {#adobe-workfront-planning-records}
       * [ Verslagen: artikelindex ](planning/records/records-information.md)
       * [Records maken](planning/records/create-records.md)
@@ -2089,6 +2090,10 @@ ht-degree: 0%
       * [De lay-out van de recordpagina beheren](planning/records/manage-the-record-page.md)
       * [Records beheren in het gedeelte Planning van Adobe Workfront-objecten](planning/records/manage-records-in-planning-section.md)
       * [De details van een record exporteren](/help/quicksilver/planning/records/export-the-record-page.md)
+   * Adobe Workfront-planningsaanvragen {#adobe-workfront-planning-requests}
+      * [Adobe Workfront-planningsverzoeken: artikelindex](planning/requests/requests-article-index.md)
+      * [Een aanvraagformulier maken en beheren in Adobe Workfront Planning](planning/requests/create-request-form.md)
+      * [Adobe Workfront-planningsverzoeken verzenden om records te maken](planning/requests/submit-requests.md)
    * Weergaven Adobe Workfront Planning {#adobe-workfront-planning-views}
       * [Weergaven: artikelindex](planning/views/views-information.md)
       * [Recordweergaven beheren](planning/views/manage-record-views.md)

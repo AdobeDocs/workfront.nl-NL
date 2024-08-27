@@ -4,10 +4,11 @@ title: "Adobe Workfront Planning Release Activity for the 24.10 Release"
 description: Dit is de versieactiviteit voor het product van de Planning van Adobe Workfront voor het Vierde Kwartaal van 2024.
 author: Alina
 feature: Product Announcements
+role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
+source-git-commit: eeebc09c16c2c0d5a624dc57ae8603fb525d29c1
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
@@ -40,6 +41,16 @@ Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront n
 >
 >Preview and Production release: 28 augustus 2024
 
-Workfront Planning is beschikbaar voor alle klanten die een Workfront Planning-licentie hebben aangeschaft, in aanvulling op hun Workfront-licentie. Neem contact op met uw accountvertegenwoordiger voor meer informatie over Workfront Planning.
+Adobe Workfront Planning is een nieuw aanbod van Adobe Workfront. Het doel van de Planning van Workfront is uitvoerige zicht in de operationele details van een organisatie te ontsluiten, en kritieke bedrijfsvragen in elke fase van de het werkbeheerlevenscyclus te beantwoorden.
+
+Hieronder vindt u een aantal van de belangrijkste mogelijkheden van Adobe Workfront Planning:
+
+* Oplossen van het probleem van de planning van werkzaamheden in alle stadia en voor alle belanghebbenden die aan het werkproces deelnemen.
+
+* Pas uw workflows volledig aan, van het bepalen van welke objecttypen (of recordtypen) uw organisatie gebruikt om te configureren hoe deze objecten onderling worden verbonden.
+
+* Verbind met objecten types van andere systemen, die tot een samenhangend kader voor al uw processen leiden.
 
 Voor meer informatie over de Planning van Workfront, zie [ het Overzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
+
+Voor informatie over eigenschappen die aan de Planning van Workfront voorafgaand aan deze lancering worden vrijgegeven, zie ook [ de versieactiviteit van de Planning van Adobe Workfront voor 2024 ](/help/quicksilver/planning/general/release-activity.md).

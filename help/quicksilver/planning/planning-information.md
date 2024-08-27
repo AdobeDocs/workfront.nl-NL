@@ -5,9 +5,9 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 3fe348250dae1af6cbb74c3704bc396d90ac378a
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '594'
 ht-degree: 0%
 
 ---
@@ -83,12 +83,10 @@ De volgende secties bevatten artikelen die een gedetailleerde beschrijving geven
    * Records delen
    * sectie Workfront Planning voor Workfront-objecten
 
-<!--
-* [Adobe Workfront Planning Requests: article index](/help/quicksilver/planning/requests/requests-article-index.md) contains the following information:
+* [ de Verzoeken van de Planning van Adobe Workfront: artikelindex ](/help/quicksilver/planning/requests/requests-article-index.md) bevat de volgende informatie:
 
-    * How to create a request form for a record type.
-    * How users can submit a request to a record type request form and create records. 
--->
+   * Hoe te om een verzoekvorm voor een verslagtype tot stand te brengen.
+   * Hoe gebruikers een verzoek kunnen indienen bij een aanvraagformulier voor een recordtype en records kunnen maken.
 
 * [ Meningen: artikelindex ](/help/quicksilver/planning/views/views-information.md) bevat de volgende informatie:
 

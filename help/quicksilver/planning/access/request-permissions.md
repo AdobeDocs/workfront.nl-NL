@@ -1,11 +1,13 @@
 ---
 title: Machtigingen aanvragen voor een weergave of een Workspace
 description: U kunt machtigingen aanvragen voor een weergave of werkruimte waarnaar anderen u een koppeling hebben gestuurd die nog niet met u is gedeeld.
-hidefrontoc: true
-hide: true
-source-git-commit: 18183b53c783366f467e7330159923372b51deb6
+feature: Workfront Planning
+role: User, Admin
+author: Alina
+recommendations: noDisplay, noCatalog
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '506'
 ht-degree: 0%
 
 ---
@@ -18,7 +20,7 @@ title: Request Permissions to a View or a Workspace
 description: You can request permissions to a view or a workspace that others sent you a link to which has not been previously shared with you. 
 author: Alina
 feature: Workfront Planning
-role: User
+role: User, Admin
 ---
 -->
 
@@ -27,6 +29,8 @@ role: User
 # Machtigingen aanvragen voor een weergave of werkruimte
 
 U kunt machtigingen aanvragen voor een weergave of werkruimte waarnaar anderen u een koppeling hebben gestuurd die nog niet met u is gedeeld.
+
+Het aanvragen van machtigingen voor een weergave lijkt op het aanvragen van machtigingen voor een werkruimte.
 
 ## Toegangsvereisten
 
@@ -86,8 +90,10 @@ U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objectmachtigingen</p></td> 
-   <td>  <p>Rechten beheren voor een weergave</p>  
-   <p>Alleen gebruikers met de machtiging Beheren in een werkruimte kunnen een weergave openbaar delen.</p></td> 
+   <td>  <p>Nadat uw verzoek om toestemming wordt verleend, kon u de volgende toestemmingen verkrijgen:</p>
+   <ul><li><p>Weergeven of Beheren voor een weergave</p></li>
+   <li><p>Een werkruimte weergeven, Contribute of Beheren</p></li></ul>  
+   <p>Alleen gebruikers met de machtiging Beheren in een werkruimte en een weergave kunnen een weergave openbaar delen.</p></td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Lay-outsjabloon</p></td> 
@@ -100,20 +106,32 @@ U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
 
 +++
 
-## Machtigingen aanvragen en toekennen aan een weergave of werkruimte
+## Machtigingen aanvragen voor een weergave of werkruimte
 
-Wanneer iemand met u een koppeling deelt naar een werkruimte of een weergave waartoe u geen toegang hebt, bestaat het volgende scenario:
+Het aanvragen van machtigingen voor een weergave is vergelijkbaar met het aanvragen van machtigingen voor een werkruimte.
+
+Wanneer iemand met u een koppeling deelt naar een werkruimte of een weergave waartoe u geen toegang hebt:
 
 1. Klik op de koppeling die met u wordt gedeeld voor de weergave of de werkruimte.
 
    A **u hebt geen toegang** paginagtoningen om u mee te delen dat u geen toegang tot de mening of de werkruimte hebt.
 
+   ![](assets/request-access-to-view.png)
+
 1. (Voorwaardelijk) als de gedeelde verbinding voor een mening voor een werkruimte is waar u toegang hebt, klik **Open met bestaande mening**. Als u toegang hebt tot de werkruimte, wordt de pagina met recordtypen geopend in de standaardweergave.
 
-1. (Optioneel) Voeg een gepersonaliseerd bericht toe in het beschikbare vak.
+1. (Facultatief en voorwaardelijk) als u geen toestemmingen hebt om de werkruimte te bekijken, voeg een gepersonaliseerd bericht in de beschikbare doos toe, dan klik **de toegang van het Verzoek**.
 
-1. Klik **toegang van het Verzoek**.
+   Alle gebruikers met de machtiging Beheren voor de weergave of werkruimte ontvangen de volgende meldingen voor de toegangsaanvraag:
+   * Een melding in de app
+     ![](assets/in-app-notification-for-access-request.png)
+   * Een e-mailmelding
+     ![](assets/email-notification-for-access-request.png)
 
-   Alle gebruikers met de machtiging Beheren voor de weergave of werkruimte ontvangen een e-mailbericht voor uw aanvraag.
-1. Gebruikers die het e-mailbericht voor het toegangsverzoek hebben ontvangen, gaan naar de weergave of de werkruimte en verlenen u machtigingen.
-1. U ontvangt een e-mailbericht dat u meldt dat u toegang hebt gekregen tot de weergave of werkruimte. U hebt toegang tot de weergave of werkruimte via het e-mailbericht.
+   Zie de volgende artikelen voor informatie over het verlenen van machtigingen aan weergaven en werkruimten:
+
+   * [Weergaven delen](/help/quicksilver/planning/access/share-views.md)
+   * [Werkruimten delen](/help/quicksilver/planning/access/share-workspaces.md)
+1. (Voorwaardelijk) Wanneer de weergave of werkruimtenmanager u machtigingen verleent aan de weergave of werkruimte, ontvangt u een e-mailmelding en een melding in de app met een bevestiging dat de machtiging is verleend. <!--check this - I was not able to test this-->
+
+

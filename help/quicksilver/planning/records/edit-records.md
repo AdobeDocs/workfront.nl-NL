@@ -1,13 +1,14 @@
 ---
 title: Records bewerken
 description: U kunt recordgegevens bewerken in Adobe Workfront Planning. U moet recordtypen maken voordat u records kunt maken en bewerken.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '1833'
+source-wordcount: '1868'
 ht-degree: 0%
 
 ---
@@ -29,8 +30,6 @@ Voor informatie over het creëren van verslagen, zie [ verslagen ](/help/quicksi
 &lt;!— vermeld hier dat de velden in de weergave Details hetzelfde zijn als die in de tabelweergave — dit artikel is gekoppeld vanuit de recordweergave Beheren om naar deze informatie te verwijzen.—>
 
 ## Toegangsvereisten
-
-<!--Updated for GA-->
 
 +++ Breid uit om toegangsvereisten voor de Planning van Workfront te bekijken.
 
@@ -188,6 +187,10 @@ U kunt een record uit de volgende gebieden bewerken:
 * [Van een Workfront-object in de sectie Planning](#edit-a-record-from-a-workfront-object-in-the-planning-section)
 
 ### Een record inline bewerken in de tabelweergave van een recordtype
+
+Wanneer u records uit de tabelweergave bewerkt, ziet u welk veld wordt bewerkt door andere gebruikers op het moment dat u de record weergeeft.
+
+Voor meer informatie, zie [ verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md) leiden.
 
 {{step1-to-planning}}
 

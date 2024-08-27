@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -17,15 +17,14 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-Wanneer iemand u in een recordopmerking van tags voorziet, ontvangt u mogelijk een melding in de app voor die tag.
+U kunt in-app berichten van de Planning van Workfront ontvangen wanneer de volgende scenario&#39;s bestaan:
 
->[!IMPORTANT]
->
->Uw bedrijf moet een Adobe Verenigde klant van de Ervaring zijn om berichten van de Planning van Workfront te kunnen ontvangen.
->
->Voor informatie, zie [ Adobe Verenigde Ervaring voor Workfront ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+* Iemand plaatst een tag voor u in een recordopmerking
 
-Voor informatie over het etiketteren van anderen in een verslagcommentaar, zie [ recordcommentaren beheren ](/help/quicksilver/planning/records/manage-record-comments.md).
+  Voor informatie over het etiketteren van anderen in een verslagcommentaar, zie [ recordcommentaren beheren ](/help/quicksilver/planning/records/manage-record-comments.md).
+* Iemand vraagt uw toestemming om een mening of een werkruimte te openen
+* Iemand bevestigt dat uw toegang is verleend voor een weergave of werkruimte <!--verify this-->
+* Iemand heeft uw toegang voor een mening of een werkruimte geweigerd. <!--verify this-->
 
 ## Toegangsvereisten
 
@@ -158,7 +157,7 @@ OLD:
 +++
 -->
 
-## Meldingen in apps beheren
+## Meldingen in de app beheren wanneer iemand u in een opmerking van tags voorziet
 
 1. (Voorwaardelijk) nadat iemand u in een commentaar op een verslag etiketteert, ga naar het in-app **pictogram van Meldingen** ![](assets/experience-cloud-notifications-icon.png) in Adobe Experience Cloud.
 
@@ -170,3 +169,8 @@ OLD:
 
 1. (Facultatief) klik **Teken allen als gelezen** om erop te wijzen dat u alle berichten hebt gelezen.
 1. (Facultatief) klik **Mening allen** om naar de **pagina van Meldingen** in Adobe Experience Cloud te gaan.
+
+
+## Meldingen in de app beheren bij het aanvragen, verlenen of weigeren van machtigingen voor een weergave of werkruimte
+
+Voor informatie over het verzoeken van, het verlenen van, of het ontkennen van toestemmingen aan een mening of een werkruimte, zie {de toestemmingen van 0} Verzoek aan een mening of een werkruimte ](/help/quicksilver/planning/access/request-permissions.md).[

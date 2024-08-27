@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -21,19 +21,11 @@ ht-degree: 0%
 U kunt e-mailmeldingen ontvangen van Workfront Planning wanneer de volgende scenario&#39;s bestaan:
 
 * Iemand plaatst een tag voor u in een recordopmerking
-<!--
-* Someone asks for your permission to access a view or a workspace
-* Someone confirms your access has been granted for a view or a workspace
-* Someone has denied your access for a view or a workspace. -->
 
-
->[!IMPORTANT]
->
->Uw bedrijf moet een Adobe Verenigde klant van de Ervaring zijn om berichten van de Planning van Workfront te kunnen ontvangen.
->
->Voor informatie, zie [ Adobe Verenigde Ervaring voor Workfront ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
-
-Voor informatie over het etiketteren van anderen in een verslagcommentaar, zie [ recordcommentaren beheren ](/help/quicksilver/planning/records/manage-record-comments.md).
+  Voor informatie over het etiketteren van anderen in een verslagcommentaar, zie [ recordcommentaren beheren ](/help/quicksilver/planning/records/manage-record-comments.md).
+* Iemand vraagt uw toestemming om een mening of een werkruimte te openen
+* Iemand bevestigt dat uw toegang is verleend voor een weergave of werkruimte <!--verify this-->
+* Iemand heeft uw toegang voor een mening of een werkruimte geweigerd. <!--verify this-->
 
 ## Toegangsvereisten
 
@@ -160,7 +152,7 @@ OLD:
 -->
 
 
-## E-mailmeldingen beheren <!--when someone tags you in a comment-->
+## E-mailmeldingen beheren wanneer iemand u in een opmerking van tags voorziet
 
 1. (Voorwaardelijk) Nadat iemand u in een commentaar op een verslag etiketteert, ga naar het e-mailbericht dat u van de markering en van de commentaar op de hoogte brengt. De afzender van de e-mail is Adobe Experience Cloud.
 
@@ -173,8 +165,6 @@ OLD:
 1. (Voorwaardelijk) als beschikbaar, klik **Mening alle berichten**. <!--check with Lilit - do non-IMS users have this button??-->
 De **Berichten** pagina opent in Adobe Experience Cloud. Alle berichten van alle Adobe Experience Cloud-toepassingen worden weergegeven.
 
-<!--
-## Manage email notifications when requesting, granting, or denying permissions to a view or a workspace
+## E-mailmeldingen beheren bij het aanvragen, toekennen of weigeren van machtigingen voor een weergave of werkruimte
 
-For information about requesting, granting, or denying permissions to a view or a workspace, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md). 
--->
+Voor informatie over het verzoeken van, het verlenen van, of het ontkennen van toestemmingen aan een mening of een werkruimte, zie {de toestemmingen van 0} Verzoek aan een mening of een werkruimte ](/help/quicksilver/planning/access/request-permissions.md).[

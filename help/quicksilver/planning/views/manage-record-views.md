@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1368'
 ht-degree: 0%
 
 ---
@@ -36,15 +36,16 @@ In dit artikel wordt de volgende informatie over recordweergaven beschreven:
 
 * [ creeer en geef een mening ](#create-or-edit-record-views) uit
 * [Een weergave verwijderen](#delete-views)
-* [ dupliceer een mening ](#duplicate-views)
+* [Een weergave dupliceren](#duplicate-views)
+* [ laat de aanwezigheidsindicatoren in real time in een mening toe ](#enable-the-real-time-presence-indicator-in-a-view)
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
++++ Breid uit om toegangsvereisten voor de Planning van Workfront te bekijken.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
+U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -85,8 +86,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-licentie*</p></td> 
-   <td> <ul><li><p>Standaard, Licht of Medewerker om informatie over Workfront Planning weer te geven</p></li>
-   <li><p>Standaard, voor het maken van werkruimten</p></li></ul>
+   <td><p> Standaard </p>
    <p>Workfront Planning is niet beschikbaar voor oudere Workfront-licenties</p> 
   </td> 
   </tr> 
@@ -98,7 +98,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 <tr> 
    <td role="rowheader"><p>Objectmachtigingen</p></td> 
    <td>   <p>Rechten beheren voor een weergave</p>  
-   <p>Machtigingen weergeven of hoger voor een weergave om de weergave-instellingen tijdelijk te wijzigen</p> </td> 
+   <p>Machtigingen weergeven voor een weergave om de weergave-instellingen tijdelijk te wijzigen</p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Lay-outsjabloon</p></td> 
@@ -344,3 +344,22 @@ Standaard worden alle records van het geselecteerde type weergegeven in de tabel
 
    De weergave wordt gedupliceerd en de naam van de nieuwe weergave volgt het volgende patroon: `Original view's name (Copy)` . Het nieuwe meningslusje toont aan het eind van alle meningslusjes.
 
+## De real-time aanwezigheidsindicator in een weergave inschakelen
+
+De avatars van andere gebruikers die recordinformatie uitgeven tezelfdertijd zoals u in de hoger-juiste hoek van alle verslagmeningen toont, door gebrek.
+
+Wanneer u de tabelweergave weergeeft, kunt u ook bekijken welk veld een andere gebruiker bewerkt op het moment dat u de record weergeeft.
+
+1. Ga naar een pagina met recordtypen en open een weergave.
+1. (Voorwaardelijk) Als er andere gebruikers zijn die de records van het geselecteerde type tegelijkertijd bewerken, worden hun avatars in de rechterbovenhoek van de weergave weergegeven.
+1. Klik het drop-down menu naast avatars, selecteren **samenwerkers** knevel tonen. De schakeloptie is standaard geselecteerd.
+
+   ![](assets/show-collaborators-toggle-selected.png)
+
+1. (Voorwaardelijk) Open een lijstmening, en het gebied dat een andere persoon uitgeeft wordt geschetst in de kleur die aan de contour van hun avatar in de lijstmening beantwoordt.
+
+   ![](assets/real-time-indicator-table-field-and-avatar-connection.png)
+
+   >[!TIP]
+   >
+   >U kunt **selecteren toont samenwerkers** knevel van om het even welke mening. Het bewerkte veld wordt alleen in de tabelweergave weergegeven.
