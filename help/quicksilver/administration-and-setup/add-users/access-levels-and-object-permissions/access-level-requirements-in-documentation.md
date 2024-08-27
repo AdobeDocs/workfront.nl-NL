@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 39ea0d53-ec31-4644-b772-cfe260b8e013
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 85e27a1e7979eadf2731be9aaca9279a82587bbf
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '939'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Sommige rijen bevatten informatie met de labels &quot;Nieuw&quot; en &quot;Huidi
    <td role="rowheader">Adobe Workfront-plan</td> 
    <td> Adobe Workfront-plannen verwijzen naar de functies die uw organisatie heeft aangeschaft. De meeste Workfront-functionaliteit is beschikbaar in alle plannen, met een paar uitzonderingen, meestal in verband met strategische planning en bedrijfscontroles. 
    <ul><li>Neem contact op met uw Workfront-beheerder om te weten welk Adobe Workfront-plan uw organisatie gebruikt, inclusief of uw organisatie zich onder het nieuwe of huidige pakketmodel bevindt.</li>
-   <li>Voor instructies op hoe een beheerder van Workfront van het plan van Workfront van uw organisatie kan de plaats bepalen, zie <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref"> de cluster van uw organisatie en het plan van Workfront van bekijken </a>.</li></ul> </td> 
+   <li>Voor instructies op hoe een beheerder van Workfront van het plan van Workfront van uw organisatie kan de plaats bepalen, zie <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref"> de cluster van uw organisatie en het plan van Workfront van bekijken </a>.</li><li>Voor meer informatie over de nieuwe plannen van Workfront, zie <a href="https://business.adobe.com/products/workfront/pricing.html"> Adobe Workfront tarifering en verpakking </a>.</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
