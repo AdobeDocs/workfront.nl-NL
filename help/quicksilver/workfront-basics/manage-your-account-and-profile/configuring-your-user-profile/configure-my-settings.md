@@ -6,9 +6,9 @@ description: Uw  [!DNL Adobe Workfront]  profiel bevat informatie over zich (bij
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: ecf0aba451d530fa3be258d954f827e7cfc6b198
 workflow-type: tm+mt
-source-wordcount: '2858'
+source-wordcount: '2901'
 ht-degree: 0%
 
 ---
@@ -339,7 +339,8 @@ In deze subsectie kunt u de volgende opties wijzigen:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Email Locale]</strong> </td> 
-   <td>Geef hier uw voorkeurstaal op. Hiermee bepaalt u de taal, datum en getalnotatie die in uitgaande e-mailberichten worden gebruikt.</td> 
+   <td><p>Geef hier uw voorkeurstaal op. Hiermee bepaalt u de taal, datum en getalnotatie die in uitgaande e-mailberichten worden gebruikt.</p>
+   <p><strong> NOTA:</strong> wanneer uw organisatie op de Adobe Verenigde Ervaring is, worden de taalvoorkeur opgeslagen in uw profiel van de Adobe en e-mailscène wordt niet gebruikt. Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language"> de taal van Adobe Experience Cloud </a> in het artikel <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md"> Gesteunde talen in Adobe Workfront </a> veranderen.</p></td> 
   </tr>
 
 <tr> 

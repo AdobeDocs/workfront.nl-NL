@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
+source-git-commit: 1e70620514f180d547c61970c0dd49d281377ce5
 workflow-type: tm+mt
-source-wordcount: '3297'
+source-wordcount: '3336'
 ht-degree: 0%
 
 ---
@@ -111,8 +111,10 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
       <td role="rowheader">Voorkeuren </td> 
       <td> 
        <ul> 
-      <li> <p><b> Tijdzone van de Tijd:</b> de tijdzone van de gebruiker.</p> <p>Voor informatie over het helpen van gebruikers samenwerken in Workfront over tijdzones, zie <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref"> Werkend over tijdzones </a>.</p> </li> 
-       <li><b> Landinstelling E-mail </b>: De aangewezen e-maillandinstelling van de gebruiker. Dit is van invloed op de notatie van getallen en datums in de e-mails die van Workfront naar deze gebruiker komen.</li>
+      <li> <p><b> Tijdzone van de Tijd:</b> de tijdzone van de gebruiker.</p> <p>Voor informatie over het helpen van gebruikers samenwerken in Workfront over tijdzones, zie <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref"> Werkend over tijdzones </a>.</p> </li>
+
+   <li><p><b> Landinstelling E-mail </b>: De aangewezen e-maillandinstelling van de gebruiker. Dit is van invloed op de notatie van getallen en datums in de e-mails die van Workfront naar deze gebruiker komen.</p>
+      <p><b> NOTA:</b> wanneer uw organisatie op de Adobe Verenigde Ervaring is, worden de de taalvoorkeur van de gebruiker opgeslagen in hun profiel van de Adobe en e-mailscène wordt niet gebruikt. Voor informatie over de toegang tot van deze voorkeur, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>.</p></li>
 
    <li><b> ontvangt e-mails van dit testmilieu </b>: Controleer deze optie als u e-mailberichten van het milieu wilt ontvangen dat u momenteel het programma wordt geopend.
       <p><b>OPMERKING</b></p>
