@@ -1,31 +1,31 @@
 ---
 content-type: reference
 product-area: reports and dashboards
-navigation-topic: data lake
-title: Data Lake data dictionary
-description: Deze pagina bevat informatie over de structuur en inhoud van de gegevens in het gegevenspMeer van Workfront.
+navigation-topic: data connect
+title: Workfront Data Connect-gegevenswoordenboek
+description: Deze pagina bevat informatie over de structuur en inhoud van de gegevens in Workfront Data Connect.
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
+source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '726'
 ht-degree: 0%
 
 ---
 
-# Gegevenswoordenboek van Workfront-gegevensmeergegevens
+# Workfront Data Connect-gegevenswoordenboek
 
-Deze pagina bevat informatie over de structuur en inhoud van de gegevens in het gegevenspMeer van Workfront.
+Deze pagina bevat informatie over de structuur en inhoud van de gegevens in Workfront Data Connect.
 
 >[!NOTE]
 >
->De gegevens in het Workfront data Lake verfrissen zich om de vier uur, zodat recente veranderingen mogelijk niet direct worden weerspiegeld.
+>De gegevens in Data Connect worden elke vier uur vernieuwd, zodat recente wijzigingen mogelijk niet direct worden doorgevoerd.
 
 ## Tabeltypen
 
-Er zijn een aantal tabeltypen die u kunt gebruiken om uw Workfront-gegevens op een manier te bekijken die het meest inzicht biedt.
+Er zijn een aantal tabeltypen die u in Data Connect kunt gebruiken om uw Workfront-gegevens op een manier te bekijken die het meest inzicht biedt.
 
 * **Huidige lijst**
 
@@ -43,9 +43,9 @@ Er zijn een aantal tabeltypen die u kunt gebruiken om uw Workfront-gegevens op e
 
 ## Relatiediagram voor entiteit
 
-Objecten in Workfront (en dus in het datumpeer) worden niet alleen gedefinieerd door hun individuele waarden, maar ook door hun relaties met andere objecten. Het onderstaande entiteitsrelatiediagram biedt een overzicht op hoog niveau van objectrelaties in het Workfront-gegevensmeer. Het diagram kan worden bekeken en gedownload gebruikend de volgende verbinding:
+Objecten in Workfront (en dus ook in het Data Connect Data Lake) worden niet alleen gedefinieerd door hun individuele waarden, maar ook door hun relaties met andere objecten. In het onderstaande diagram voor de entiteitsrelatie wordt een overzicht op hoog niveau gegeven van objectrelaties in Data Connect. Het diagram kan worden bekeken en gedownload gebruikend de volgende verbinding:
 
-[Relatiediagram gegevensmeerentiteit](/help/quicksilver/reports-and-dashboards/data-lake/assets/Workfront-data-lake_entity-relationship-diagram.pdf)
+[Relatiediagram van gegevensConnect-entiteit](/help/quicksilver/reports-and-dashboards/data-lake/assets/Workfront-data-lake_entity-relationship-diagram.pdf)
 
 >[!IMPORTANT]
 >
@@ -62,7 +62,7 @@ Er zijn een aantal datumobjecten die informatie bevatten over wanneer specifieke
 
 ## Terminologie tabel
 
-De volgende tabel correleert objectnamen in Workfront (en hun namen in de interface en API) met hun equivalente namen in het datumpomeer.
+De volgende tabel correleert objectnamen in Workfront (en hun namen in de interface en API) met hun equivalente namen in Data Connect.
 
 <table>
 <thead>

@@ -1,23 +1,23 @@
 ---
-navigation-topic: data-lake-beta
-title: bèta-informatie over Workfront data Lake
-description: Algemene informatie over de bèta van het Workfront data-meer
+navigation-topic: data-connect-beta
+title: Workfront Data Connect bèta-informatie
+description: Algemene informatie over de Workfront Data Connect bèta
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 2daf7617-5b3e-49f7-b93b-4210b1b2ea49
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
 
-# bèta-informatie over Workfront data Lake
+# Workfront Data Connect bèta-informatie
 
-Workfront data Lake is een nieuw hulpmiddel dat momenteel in ontwikkeling is en een speciale interface biedt voor organisaties om gegevens te verzamelen voor gebruik in populaire hulpprogramma&#39;s voor bedrijfsanalisten of om op te slaan in externe datawarehouses — zonder dat er ingewikkelde API- of Fusion-oplossingen nodig zijn. Deze pagina bevat informatie over hoe u ons kunt helpen door feedback over dit hulpprogramma te testen en te geven tijdens de actieve bètaversie.
+Workfront Data Connect is een nieuw hulpmiddel dat momenteel in ontwikkeling is en een speciale interface biedt voor organisaties om gegevens te verzamelen voor gebruik in populaire hulpprogramma&#39;s voor bedrijfsanalisten of om op te slaan in externe gegevensopslagruimten, zonder dat gecompliceerde API- of Fusion-oplossingen nodig zijn. Deze pagina bevat informatie over hoe u ons kunt helpen door feedback over dit hulpprogramma te testen en te geven tijdens de actieve bètaversie.
 
-Voor informatie over het gebruiken van het de gegevensmeer van Workfront, zie [ overzicht van het de gegevens meer van Workfront ](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
+Voor informatie over het gebruiken van de Gegevens van Workfront verbindt, zie [ Gegevens van Workfront verbinden overzicht ](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
 
 **schema van Beta:**
 
@@ -30,11 +30,11 @@ Voor informatie over het gebruiken van het de gegevensmeer van Workfront, zie [ 
 
 >[!IMPORTANT]
 >
->U moet een systeembeheerder van het systeem van Workfront zijn om in de bèta van het Gegevens van Workfront te inschrijven.
+>U moet een Workfront-systeembeheerder zijn om u in te schrijven in de Data Connect bèta.
 
 Als u uw organisatie wilt inschrijven in de bètaversie, moet u het formulier invullen en verzenden via de volgende koppeling:
 
-[ de bèta-inschrijving van het de gegevenspeer van Workfront ](https://adobe.ly/workfrontdatalake)
+[ Gegevens van Workfront Connect bèta inschrijving ](https://adobe.ly/workfrontdatalake)
 
 ### Feedback geven
 
@@ -48,7 +48,7 @@ Feedback wordt gewaardeerd wanneer we dit gereedschap ontwikkelen in de loop van
 
 ## Geplande functies
 
-Hieronder vindt u een lijst met objecten die momenteel worden ondersteund in de bètaversie, objecten waarvoor tijdens de bètaperiode ondersteuning wordt toegevoegd en functies die zijn opgenomen in onze toekomstige routekaart voor Workfront-datumpigment.
+Hieronder vindt u een lijst met objecten die momenteel worden ondersteund in de bètaversie, objecten waarvoor tijdens de bètaperiode ondersteuning wordt toegevoegd en functies die zijn opgenomen in onze toekomstige routekaart voor Data Connect.
 
 ### Objecten momenteel beschikbaar
 

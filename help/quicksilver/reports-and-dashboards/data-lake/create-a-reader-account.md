@@ -1,25 +1,25 @@
 ---
 content-type: reference
 product-area: reports and dashboards
-navigation-topic: data lake
+navigation-topic: data connect
 title: Een reader-account (service) maken voor Snowflake
-description: Als u toegang wilt krijgen tot de gegevens in het Workfront Data Lake, moet u eerst een leesaccount voor Snowflake maken.
+description: Als u toegang wilt krijgen tot gegevens van Data Connect, moet u eerst een account voor een Snowflake-lezer maken.
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: e5bd25315062ad15ccd3448e008dfe94f1b616da
+source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
 
 # Een reader-account (service) maken voor Snowflake
 
-Als u toegang wilt krijgen tot gegevens over het meer van Workfront, moet u eerst een Snowflake reader (of service) account maken voor elke nieuwe verbinding. Na het creëren van een verbinding, kunt u zijn bijbehorende URL en gebruikersbenaming vinden door op het op de **toegang van Gegevens** pagina (**Belangrijkste menu** > **Opstelling** > **Toegang van het Systeem** > **Gegevens**) onder **Bestaande Verbindingen** tabel te klikken.
+Als u toegang wilt krijgen tot gegevens van Data Connect, moet u eerst een Snowflake reader (of service)-account maken voor elke nieuwe verbinding. Na het creëren van een verbinding, kunt u zijn bijbehorende URL en gebruikersbenaming vinden door op het op de **toegang van Gegevens** pagina (**Belangrijkste menu** > **Opstelling** > **Toegang van het Systeem** > **Gegevens**) onder **Bestaande Verbindingen** tabel te klikken.
 
-Voor informatie bij het gebruiken van een pas gecreëerde verbinding met een extern product, zie [ een verbinding aan het de gegevensmeer van Workfront vestigen ](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md).
+Voor informatie bij het gebruiken van een pas gecreëerde verbinding met een extern product, zie [ een verbinding aan de Gegevens van Workfront vestigen verbind ](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md).
 
 ## Toegangsvereisten
 
@@ -68,7 +68,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    ![ het wachtwoord van de Snowflake van het Terugstellen ](/help/quicksilver/reports-and-dashboards/data-lake/assets/reset-snowflake-password.png) {width="300"}
 
-1. U kunt nu uw gebruikersnaam en nieuw wachtwoord gebruiken om toegang te krijgen tot uw Workfront-datumpigment in de Snowflake of het bedrijfsvisualisatieprogramma van uw keuze.
+1. U kunt nu uw gebruikersnaam en nieuw wachtwoord gebruiken om toegang te krijgen tot uw Data Connect Data Lake in Snowflake of het hulpprogramma voor bedrijfsvisualisatie van uw keuze.
 
 ## Een lezeraccount intrekken
 

@@ -1,38 +1,75 @@
 ---
 content-type: reference
 product-area: reports and dashboards
-navigation-topic: data lake
-title: De basis vraagvoorbeelden van de gegevens van het meer
-description: De basis voorbeeldvragen u kunt gebruiken om zich met vragen vertrouwd te maken.
+navigation-topic: data connect
+title: Voorbeelden van query's voor Data Connect
+description: Met voorbeeldquery's kunt u uzelf vertrouwd maken met de syntaxis en structuur van specifieke soorten query's.
 author: Nolan
 feature: Reports and Dashboards
-hidefromtoc: true
-hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f2da081c-bdce-4012-9797-75be317079ef
-source-git-commit: ede703bcc7fdc4047b44a22580d33fc7e01c5705
+source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
 
-# Voorbeelden van query&#39;s voor basisgegevens in Workfront
+# Voorbeelden van query&#39;s voor Workfront Data Connect
 
-Om u te helpen beginnen gebruikend uw gegevens van het gegevensmeer van Workfront, hieronder zijn een aantal basisvoorbeeldvragen u kunt gebruiken om met vragen vertrouwd te maken.
+Om u te helpen beter gebruik te maken van uw Workfront Data Connect-gegevens, bevat deze pagina eenvoudige voorbeeldquery&#39;s waarmee u bekend kunt maken met de syntaxis en structuur van specifieke soorten query&#39;s.
 
-## Taakquery
+## Aangepaste gegevensquery
 
-Sluit zich aan bij het project en (assignedTo) gebruikerstabellen in een eenvoudige taaklijst.
+In dit voorbeeld wordt getoond hoe u een query kunt samenstellen om aangepaste gegevens in Workfront, zoals aangepaste formulieren en aangepaste velden, te retourneren.
+
+### Scenario:
+
+Uw organisatie, PeopleSoft, gebruikt een douaneformulier genoemd de Integratie van de Financiën. Het formulier is gekoppeld aan elk project en bevat de volgende velden:
+
+* **PeopleSoft BedrijfsEenheid** - een douanegebied dat een koord bevat.
+* **PeopleSoft ProjectID** - een douanegebied dat een numeriek koord bevat.
+* **Uitgebreide Naam van het Project** - een berekend gebied van douanegegevens dat de waarden van PeopleSoft BedrijfsEenheid, PeopleSoft ProjectID, en de inheemse het projectnaam van Workfront in één enkel koord aaneenschakelt.
+
+U moet deze informatie opnemen in de reactie voor een query op Data Connect. De gegevenswaarden van de douane voor een verslag in het gegevensmeer zijn bevat in een kolom genoemd `parameterValues`. Deze kolom wordt opgeslagen als een JSON-object.
+
+### Query:
+
+```
+SELECT
+    projectid,
+    parametervalues,
+    name,
+    parametervalues:"DE:PeopleSoft Business Unit" :: int as PeopleSoftBusinessUnit,
+    parametervalues:"DE:PeopleSoft Project ID" :: int as PeopleSoftProjectID,
+    parametervalues:"DE:Expanded Project Name" :: text as ExpandedProjectName
+FROM PROJECTS_CURRENT
+WHERE ExpandedProjectName is not null
+```
+
+### Antwoord
+
+De bovenstaande query retourneert de volgende gegevens:
+
+* `projectid` - de native Workfront-project-id
+* `parametervalues` - een kolom waarin een JSON-object wordt opgeslagen
+* `name` - de native Workfront-projectnaam
+* `PeopleSoft Business Unit` - een aangepaste gegevenswaarde die in het `parametervalues` -object wordt opgenomen
+* `PeopleSoft Project ID` - een aangepaste gegevenswaarde die in het `parametervalues` -object wordt opgenomen
+* `Expanded Project Name` - een aangepaste gegevenswaarde die in het `parametervalues` -object wordt opgenomen
+
+<!--## Task query 
+
+Join the project and (assignedTo) users tables into a simple task list.
 
 
 
-## Zoekopdracht uren
+## Hours query
 
-Word eigenaar (gebruikers), het type van uur, en portefeuilletabellen om een som uren door gebruiker en portefeuille voor het huidige jaar te verstrekken.
+Join owner (users), hour type, and portfolio tables to provide a sum of hours by user and portfolio for the current year.
 
 
 
-## Query voor documentgoedkeuringen
+## Document approvals query
 
-Meet de cyclustijd en het gemiddelde aantal beoordelingscycli per actief.
+Measure the cycle time and average number of review cycles per asset.-->

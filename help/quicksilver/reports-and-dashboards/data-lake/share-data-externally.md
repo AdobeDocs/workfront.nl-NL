@@ -1,25 +1,25 @@
 ---
 content-type: overview;reference
 product-area: reports and dashboards
-navigation-topic: data lake
+navigation-topic: data connect
 title: Een verbinding tot stand brengen met het datumpigment van Workfront
 description: Met Workfront-datumpigment kunt u de Workfront-gegevens van uw organisatie gebruiken met populaire tools voor bedrijfsintelligentie of deze opslaan in een extern gegevenspakhuis.
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: 91371c862be6f3b99f0450ff359f601dc913dc0c
+source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
 workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 0%
 
 ---
 
-# Een verbinding tot stand brengen met het datumpigment van Workfront
+# Verbinding maken met Workfront Data Connect
 
-Met Workfront-datumpigment kunt u de Workfront-gegevens van uw organisatie gebruiken met de tools voor bedrijfsintelligentie of deze opslaan in een extern gegevenspakhuis.
+Met Workfront Data Connect kunt u de Workfront-gegevens van uw organisatie gebruiken met de tools voor bedrijfsintelligentie of deze opslaan in een extern gegevenspakhuis.
 
-Om uw gegevens van het gegevens meer van Workfront met een extern product te verbinden, moet u om het even welke vereiste IPs aan de lijst van gewenste personen eerst toevoegen zoals die in [ wordt beschreven IPs aan de lijst van gewenste personen ](#add-ips-to-the-allowlist) hieronder toevoegen. Bovendien zullen de meeste producten extra informatie over uw gegevens meer vereisen om een verbinding te vestigen:
+Om uw Gegevens aan te sluiten verbind gegevens meer met een extern product, moet u om het even welke vereiste IPs aan de lijst van gewenste personen eerst toevoegen zoals die in [ wordt beschreven toevoegt IPs aan de lijst van gewenste personen ](#add-ips-to-the-allowlist) hieronder. Bovendien zullen de meeste producten extra informatie over uw gegevens meer vereisen om een verbinding te vestigen:
 
 | Veldnaam | Waarde |
 |---------------|-------------|
@@ -32,14 +32,13 @@ Om uw gegevens van het gegevens meer van Workfront met een extern product te ver
 | Gebruikersnaam | De gebruikersbenaming die wanneer het creëren van de verbinding wordt gekozen (die op de **toegang van Gegevens** pagina in Workfront* wordt gevonden) |
 | Wachtwoord | Het wachtwoord dat is gekozen bij de eerste Snowflake-aanmelding* |
 
-*For informatie over waar te om de **de toegang van Gegevens** pagina te vinden die uw verbindingen van het gegevensmeer bevatten, zie [ een lezer (dienst) rekening voor Snowflake ](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md) creëren.
+*For informatie over waar te om de **de toegang van Gegevens** pagina te vinden die uw Gegevens bevatten verbindt verbindingen, zie [ een lezer (dienst) rekening voor Snowflake ](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md) creëren.
 
 >[!IMPORTANT]
 >
 >Zodra één ingang aan de IP lijst van gewenste personen wordt toegevoegd, zijn alle andere IP adressen niet meer toegestaan. Zorg ervoor dat u alle vereiste IP-adressen hebt ingevoerd, zowel voor het maken als voor het lezen van uw visualisatieprogramma, voordat u het gereedschap gaat gebruiken. Als dat niet het geval is, kan er een fout optreden met betrekking tot ongeldige referenties.
 >
 >Als u geen IP adressen inbegrepen in uw lijst van gewenste personen hebt maar nog problemen heeft die met een hulpmiddel verbinden BI, controleer de configuratie van de volmachtsserver voor het hulpmiddel van BI.
-
 
 ## Voeg IPs aan de lijst van gewenste personen toe
 
