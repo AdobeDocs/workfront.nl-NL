@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8a3830e8-0d9a-4ede-a1b6-b80dd4686bc6
-source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
+source-git-commit: d4aa6bee72ac1f17884ae38d24bd094c0b62336a
 workflow-type: tm+mt
-source-wordcount: '2950'
+source-wordcount: '2951'
 ht-degree: 0%
 
 ---
@@ -28,13 +28,13 @@ ht-degree: 0%
 >Voor een overzicht van de Planning van Workfront, zie [ het Overzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
 >
 
-In dit artikel worden de functies weergegeven die in 2023 zijn uitgebracht na de start van het planningsprogramma van Adobe Workfront op 22 mei 2023.
+Dit artikel bevat een overzicht van de functies die in 2023 zijn uitgebracht na de start van het bètaprogramma voor Adobe Workfront Planning op 22 mei 2023.
 
 Raadpleeg ook de volgende artikelen voor meer informatie over releaseactiviteiten:
 
-* [ de versieactiviteit van de Planning van Adobe Workfront: artikelindex ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md): Voor informatie over huidige versieactiviteit voor de Planning van Workfront.
+* [ de versieactiviteit van de Planning van Adobe Workfront: artikelindex ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) voor informatie over huidige versieactiviteit voor de Planning van Workfront.
 
-* [ de versieactiviteit van de Planning van Adobe Workfront voor 2024 ](/help/quicksilver/planning/general/release-activity.md): Voor informatie over de eigenschappen die tijdens 2024, vóór de algemene beschikbaarheid op 28 augustus 2024 worden vrijgegeven.
+* [ de versieactiviteit van de Planning van Adobe Workfront voor 2024 ](/help/quicksilver/planning/general/release-activity.md) voor informatie over de eigenschappen die tijdens 2024, vóór de algemene beschikbaarheid op 28 augustus 2024 worden vrijgegeven.
 
 De vrijgegeven functies worden weergegeven in de volgorde van hun release, met de meest recente eerst.
 
