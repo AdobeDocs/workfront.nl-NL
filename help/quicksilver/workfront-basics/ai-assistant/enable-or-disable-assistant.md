@@ -5,23 +5,14 @@ description: U kunt bepalen welke toegangsniveaus in uw organisatie toegang hebb
 author: Becky
 feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
+source-git-commit: eee21282e894137df32e3d23e7affcc0f43abd02
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '223'
 ht-degree: 0%
 
 ---
 
 # AI-assistent in- of uitschakelen
-
->[!IMPORTANT]
->
->Momenteel is AI Assistant beschikbaar voor een beperkt aantal klanten van Workfront en Workfront Planning.
->
->* Workfront: AI Assistant bèta
->* Workfront Planning: Vroege toegang
->
->Uw accountvertegenwoordiger kan u laten weten of u deel uitmaakt van een van deze groepen.
 
 Als beheerder van Workfront kunt u bepalen welke gebruikers in uw organisatie AI Assistant hebben ingeschakeld. Dit wordt beheerd door toegangsniveaus.
 
@@ -62,7 +53,7 @@ AI-assistent inschakelen voor een bepaald toegangsniveau:
 
 1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Setup]** ![ pictogram van de Opstelling ](/help/_includes/assets/gear-icon-setup.png).
 1. Selecteer **Niveaus van de Toegang** in de linkernavigatie.
-1. Selecteer het toegangsniveau waarvoor u AI Assistant wilt uitschakelen.
+1. Selecteer het toegangsniveau waarvoor u AI Medewerker wilt toelaten.
 1. In het Edit venster van het Niveau van de Toegang, scrol neer aan de bodem van het venster en klik **Reeks extra beperkingen...**.
 1. In het Vastgestelde extra beperkingsgebied, laat de optie **toe de Medewerker van Workfront AI**.
 1. Klik **sparen**.

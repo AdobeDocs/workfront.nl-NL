@@ -4,18 +4,14 @@ content-type: reference
 description: Overzicht van AI-assistent
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
+source-git-commit: 3db36df88d4bb716cf4c37cd76b6d058a5a6f9b6
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
 
 # Overzicht van AI-assistent
-
->[!IMPORTANT]
->
->De Workfront AI Assistant is tijdelijk verwijderd en is later beschikbaar.
 
 Met Workfront AI Assistant kunt u uw werk uitvoeren door informatie en suggesties in een gesprek in een natuurlijke taal aan te bieden. Met AI Assistant kunt u werken vloeiender maken met
 
@@ -47,6 +43,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).## Vereisten voor AI-assistent
+
+## Vereisten voor AI Assistant
 
 Om AI Medewerker voor uw organisatie toe te laten, **allen** van het volgende moet van toepassing zijn:
 
