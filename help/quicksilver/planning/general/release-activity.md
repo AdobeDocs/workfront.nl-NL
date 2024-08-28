@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: d4aa6bee72ac1f17884ae38d24bd094c0b62336a
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
 source-wordcount: '7432'
 ht-degree: 0%
@@ -179,7 +179,7 @@ Voor meer informatie, zie [ de kalendermening ](/help/quicksilver/planning/views
 
 ### De AI-assistent is opnieuw ingeschakeld voor Workfront-planning
 
-Productie en voorvertoning: 28 augustus 2024
+Voorbeeld en productie: 28 augustus 2024
 
 De Workfront AI Assistant is opnieuw ingeschakeld voor het planningsgebied van Workfront.
 
@@ -187,7 +187,7 @@ Voor meer informatie over de Medewerker van AI van de Planning van Workfront, zi
 
 ### Meldingsmogelijkheden voor Workfront-planning met het Canvas-dashboard
 
-Productie en productie: 28 augustus 2024
+Voorbeeld en productie: 28 augustus 2024
 
 U kunt de planningsinformatie van Workfront nu in een rapport bekijken gebruikend het dashboard van het Canvas van Workfront. Voor informatie, zie [ begonnen worden met de Dashboards van het Canvas ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
 

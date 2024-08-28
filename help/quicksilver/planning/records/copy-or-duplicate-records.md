@@ -5,7 +5,7 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%
@@ -175,7 +175,7 @@ Alle records van het geselecteerde type worden in de weergave weergegeven.
 
      ![](assets/more-menu-from-record-in-table-view.png)
 
-   * Selecteer een verslag, dan klik het **pictogram ![](assets/duplicate-icon-white-and-blue.png) Dupliceren** in de toolbar aan de bodem van de pagina.
+   * Selecteer een verslag, dan klik **Dupliceer** pictogram ![](assets/duplicate-icon-white-and-blue.png) in de toolbar bij de bodem van de pagina.
 
      ![](assets/duplicate-icon-in-toolbar-in-table-view.png)
 

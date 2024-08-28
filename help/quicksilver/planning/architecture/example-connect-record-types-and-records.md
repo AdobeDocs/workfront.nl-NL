@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
-source-wordcount: '1801'
+source-wordcount: '1949'
 ht-degree: 0%
 
 ---
@@ -44,12 +44,21 @@ Dit doet u als volgt:
    * **Type van Verslag**: Product <!--did they change the casing here?-->
    * **Naam**: Geef het nieuwe gebied een naam. Bijvoorbeeld &quot;Productinformatie.&quot; Dit is de naam van het gekoppelde recordveld.
    * **Beschrijving**: Voeg een beschrijving voor het nieuwe gebied toe. Bijvoorbeeld, &quot;Dit zijn de Producten die ik mijn campagnes verbonden aan wil.&quot; De beschrijving van het veld wordt weergegeven wanneer u de muisaanwijzer op het veld in de kolomkop plaatst.
-   * **staat veelvoudige verslagen** toe: Als u deze geselecteerde optie verlaat, staat dit gebruikers toe om veelvoudige verslagen te selecteren wanneer het verbonden verslagtype gebied (de informatie van het Product) op de originele verslagen (Campagnes) toont. In ons geval kunnen gebruikers meerdere producten selecteren voor verbinding met één campagne.
+   * **het type van Verbinding**: Selecteer van de volgende opties:
+      * **Velen aan velen**: De gebruikers kunnen één campagne met verscheidene producten en één product met verscheidene campagnes verbinden.
+      * **Één aan vele**: De gebruikers kunnen één campagne met verscheidene producten, en één product aan één campagne verbinden.
+      * **Velen aan één**: De gebruikers kunnen één campagne met één product, en één product met vele campagnes verbinden.
+      * **Één aan één**: De gebruikers kunnen één campagne met één product, en één product met één campagne verbinden.
+
+     >[!NOTE]
+     >
+     >Het **type van Verbinding** optie is niet beschikbaar wanneer het verbinden van verslagen van verschillende werkruimten of wanneer het verbinden van de activa van de Experience Manager. Voor meer informatie, zie [ Verbonden overzicht van recordtypes ](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+
+   * **de verschijning van het Verslag**: Schrap **Titel** knevel als u niet de naam van producten wilt tonen wanneer het toevoegen van hen aan het de informatiegebied van het Product van de campagne. Als deze optie is ingeschakeld, worden in de records zowel de miniatuur als de titel weergegeven. De schakeloptie is standaard ingeschakeld.
    * **Uitgezochte raadplegingsgebieden**: Als u deze geselecteerde optie verlaat, **voegt raadplegingsgebieden** volgende doos toe, om u toe te staan om de gebieden van het Product met het verslagtype van de Campagne te verbinden. U kunt **Skip** klikken om deze stap over te slaan en de gebieden van het Product later toe te voegen.
 
    ![](assets/new-connection-with-product-record-type.png)
 
-1. (Facultatief) schrap de **knevel van de Titel** in de **verschijning van het Verslag** sectie om slechts het duimnagelbeeld van het verslag op de verbonden gebieden te tonen. Als deze optie is ingeschakeld, worden in de records zowel de miniatuur als de titel weergegeven. De schakeloptie is standaard ingeschakeld.
 1. (Voorwaardelijk) als u de **Uitgezochte raadplegingsgebieden optie** in de vorige stap selecteerde, van de lijst van gebieden verbonden aan het **het verslagtype van het Product**, klik het **+** pictogram voor het **7} gebied van de Begroting {, dan klik** voegt gebieden **toe.** Dit leidt tot een gebied genoemd **Begroting (van de informatie van het Product)**, die de naam van het verbonden gebied is. Alle informatie voor het productbudget wordt in dit veld weergegeven voor de campagnebestanden.
 
    ![](assets/add-fields-for-budget-field-for-connector-with-record-type.png)
@@ -138,8 +147,12 @@ Dit doet u als volgt:
    * **Type van Verslag**: Project (van de onderafdeling van Workfront)
    * **Naam**: Geef het nieuwe gebied een naam, bijvoorbeeld &quot;de informatie van het Project.&quot;
    * **Beschrijving**: Voeg een beschrijving voor het nieuwe gebied toe. Bijvoorbeeld: &quot;Dit zijn de projecten waaraan ik mijn campagnes wil koppelen.&quot; De beschrijving wordt weergegeven in de tabelweergave terwijl u de muisaanwijzer op de veldnaam in de kolomkop plaatst.
-   * 
-      * **staat veelvoudige verslagen** toe: Het verlaten van deze geselecteerde optie staat gebruikers toe om veelvoudige projecten te selecteren wanneer het verbonden projecttype gebied (de informatie van het Project) vertoningen op de originele verslagen (Campagnes).
+   * **het type van Verbinding**: Selecteer van de volgende opties:
+      * **Velen aan velen**: De gebruikers kunnen één campagne met verscheidene producten en één product met verscheidene campagnes verbinden.
+      * **Één aan vele**: De gebruikers kunnen één campagne met verscheidene producten, en één product aan één campagne verbinden.
+      * **Velen aan één**: De gebruikers kunnen één campagne met één product, en één product met vele campagnes verbinden.
+      * **Één aan één**: De gebruikers kunnen één campagne met één product, en één product met één campagne verbinden.
+   * **verbind slechts voorwerpen die deze criteria** aanpassen: Selecteer een douanevorm van het **Vorm van de Douane** drop-down menu. Alleen projecten die aan de opgegeven formulieren zijn gekoppeld, zijn beschikbaar voor verbinding met campagnes. U kunt meerdere formulieren selecteren.
    * **Uitgezochte raadplegingsgebieden**: Als u deze geselecteerde optie verlaat, **voegt raadplegingsgebieden** volgende doos toe, om u toe te staan om de gebieden van het Project met het verslagtype van de Campagne te verbinden. U kunt **Skip** klikken om deze stap over te slaan en de gebieden van het Project later toe te voegen.
 
    ![](assets/new-connection-tab-with-workfront-option.png)

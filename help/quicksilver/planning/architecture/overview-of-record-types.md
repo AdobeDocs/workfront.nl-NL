@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Voor informatie over het creëren van verslagtypes, zie [ recordtypes ](/help/qu
 * Wanneer u een recordtype maakt in een werkruimte die u zelf hebt gemaakt, kunt u het recordtype in elke gewenste sectie plaatsen die u in de werkruimte maakt.
 * Wanneer u een recordtype maakt, kunnen alleen u en de personen die u toegangsrechten tot de werkruimte geven, het recordtype weergeven.
 * U moet een werkruimte maken voordat u recordtypen voor de werkruimte kunt maken.
-* U kunt in totaal 1.000 recordtypen in één werkruimte hebben, ongeacht het aantal secties in de werkruimte. Dit zijn recordtypen die u helemaal zelf maakt of die bij het gebruik van een sjabloon worden gemaakt.
+* Voor beperkingen over hoeveel verslagtypes u in één werkruimte of instantie van Workfront kunt hebben, zie [ overzicht van de objectbeperkingen van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/limitations-overview.md).
 
 
 <!--

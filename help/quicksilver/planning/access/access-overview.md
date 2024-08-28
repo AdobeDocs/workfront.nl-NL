@@ -6,9 +6,9 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
@@ -102,7 +102,7 @@ U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
    <ul>
    <li><p>Geef werkruimten en weergaven die u niet hebt gemaakt, de beschikking over of meer machtigingen voor deze werkruimten en de bijbehorende objecten.</p></li>
    <li><p>Contribute of hogere machtigingen voor werkruimten die u niet hebt gemaakt om deze te bewerken en recordtypen en records te maken, te bewerken of te verwijderen.</p></li>
-   <li><p>Contribute of hogere machtigingen voor weergaven die u niet hebt gemaakt, bewerkt, verwijdert en deelt</p>
+   <li><p>Contribute of hoger bevoegdheden voor weergaven die u niet hebt gemaakt, om deze te bewerken, te verwijderen en te delen</p>
    </li>
     <li><p>Systeembeheerders kunnen werkruimten beheren die ze niet hebben gemaakt. </p></li>
     <li><p>Systeembeheerders hebben geen toegang tot weergaven die ze niet hebben gemaakt. </p></li></ul>
@@ -221,11 +221,11 @@ Gebruikers met een Workfront-licentie hebben toegang tot Workfront Planning.
 
 ## Rechten verlenen
 
-U moet gebruikers toestemmingen aan de werkruimten en meningen geven van de Planning van Workfront die u creeert opdat zij tot hen toegang hebben.
+U moet gebruikers toestemmingen aan de werkruimten en meningen geven van de Planning van Workfront die u voor hen creeert om tot hen toegang te hebben.
 
 Voor meer informatie, zie [ Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront ](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
-Uw Adobe Workfront-licentietype werkt in combinatie met uw Workfront-planningsbevoegdheden om u toegang te geven tot Workfront-planningsobjecten, deze te kunnen bekijken of beheren.
+Uw Adobe Workfront-licentietype werkt met uw Workfront-planningsbevoegdheden om u toegang te geven tot Workfront-planningsobjecten, deze te kunnen bekijken of beheren.
 
 Voor informatie over hoe de vergunningstypes toestemmingsniveaus voor de Planning van Workfront voorwerpen beïnvloeden, zie [ het type van Vergunning overzicht wanneer het gebruiken van de Planning van Adobe Workfront ](/help/quicksilver/planning/access/license-type-overview.md).
 

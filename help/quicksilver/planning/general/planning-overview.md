@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
-source-wordcount: '1986'
+source-wordcount: '1989'
 ht-degree: 0%
 
 ---
@@ -174,8 +174,6 @@ Hieronder vindt u de belangrijkste Workfront-planningsobjecten en -concepten:
 
 * **Workspace**: Een inzameling van verslagtypes die de operationele levenscyclus van een bepaalde organisatie bepalen. Een werkruimte is het werkkader van een organisatorische eenheid.
 
-  Eén Workfront-instantie kan maximaal 1000 werkruimten hebben.
-
   ![](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
 
   Voor meer informatie, zie [ werkruimten ](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
@@ -204,9 +202,15 @@ Hieronder vindt u de belangrijkste Workfront-planningsobjecten en -concepten:
 
   ![](assets/workspaces-page-with-templates-thumbnails.png)
 
-  Adobe Workfront Planning wordt geleverd met een sjabloon voor de werkruimte Verkoop, Marketing en Productbeheer.
+  Adobe Workfront Planning bevat de volgende sjablonen:
 
-  Voor meer informatie, zie [ werkruimten ](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
+   * Basis: Marketing Management
+   * Geavanceerd: marketingbeheer
+   * Enterprise: Marketing Management
+   * Verkoopbeheer
+   * Productbeheer
+
+  Voor meer informatie, zie [ Lijst van werkruimtesjablonen ](/help/quicksilver/planning/architecture/workspace-templates.md).
 
 * **Gebieden**: De gebieden zijn attributen die u aan verslagtypes kunt toevoegen. Velden bevatten informatie over het recordtype. <!--check the shot below, "Connection" needs to be in lowercase-->
 
@@ -293,7 +297,7 @@ Hieronder vindt u de belangrijkste Workfront-planningsobjecten en -concepten:
 
   Hieronder ziet u weergavetypen die u kunt toepassen op de pagina met recordtypen:
 
-   * **mening van de Lijst**: De verslagen van vertoningen en hun gebieden, met inbegrip van verbonden en raadplegingsgebieden, in een lijstformaat. De rijen van de tabel zijn de afzonderlijke records en de kolommen zijn de recordvelden. Dit is de standaardweergave.
+   * **mening van de Lijst**: De verslagen van vertoningen en hun gebieden, met inbegrip van verbonden en raadplegingsgebieden, in een lijstformaat. De rijen van de tabel zijn de afzonderlijke records en de kolommen zijn de recordvelden. De tabelweergave is de standaardweergave.
 
      ![](assets/table-view-example.png)
 
@@ -328,7 +332,7 @@ Workfront-planning zoeken:
    >    Uw Workfront-beheerder kan het planningsgebied toevoegen aan de optie Landingspagina selecteren in uw lay-outsjabloon, zodat u Planning kunt openen zodra u zich aanmeldt bij Workfront. Voor informatie, zie [ de het landen pagina aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
 
 1. (Voorwaardelijk en optioneel) Als u een Workfront-beheerder bent, klikt u op een van de volgende tabbladen:
-   * **Werkruimten ik** ben: De werkruimten van vertoningen u creeerde of werkruimten die met u worden gedeeld.
+   * **Werkruimten ik** ben: De werkruimten van vertoningen die u creeerde of werkruimten die met u worden gedeeld.
    * **Andere werkruimten**: Toont alle andere werkruimten in het systeem.
 
    Voor alle andere gebruikers, zowel werkruimten die zij creeerden of met hen worden gedeeld tonen in het **1} gebied van de Werkruimten {.**

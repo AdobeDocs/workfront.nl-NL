@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
-source-wordcount: '2710'
+source-wordcount: '2714'
 ht-degree: 0%
 
 ---
@@ -225,7 +225,7 @@ U kunt verslagen van de Planning van Workfront op de volgende gebieden van een v
 
    De werkruimte wordt geopend en de recordtypen worden als kaarten weergegeven.
 1. Klik op de kaart van een recordtype om de pagina met recordtypen te openen.
-1. Klik de naam van de mening van de a **Lijst** om het te openen.
+1. Klik op de naam van een tabelweergave om deze te openen.
 1. (Optioneel) Voeg records toe aan het recordtype dat u hebt geselecteerd door een nieuwe rij aan de tabel toe te voegen. Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-records.md) creëren.
 1. (Voorwaardelijk) Nadat u het geselecteerde recordtype met een ander recordtype hebt verbonden, ga naar de verbonden verslagkolom en klik de cel die met het verslag beantwoordt dat u met andere verslagen wilt verbinden.
 
@@ -240,7 +240,7 @@ U kunt verslagen van de Planning van Workfront op de volgende gebieden van een v
 
    >[!TIP]
    >
-   >    U kunt de pagina van een record als volgt openen in de tabelweergave:
+   >    U kunt de pagina van een record openen en andere records verbinden door het volgende te doen in de tabelweergave:
    >1. Klik op de naam van de record in de weergave.
    >1. Het gekoppelde recordveld zoeken en dubbelklikken op het veld (als er al records zijn verbonden)
    >of

@@ -5,7 +5,7 @@ feature: Workfront Planning
 role: User
 author: Alina
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 743dbef27149f42ee2328e45a76be660657a75bb
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
 source-wordcount: '2137'
 ht-degree: 0%
@@ -191,6 +191,8 @@ U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
 
 
    * Een recordtype van een andere werkruimte die werd gevormd om van andere werkruimten te verbinden. Voor informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/edit-record-types.md) uitgeven.
+
+     ![](assets/connect-record-from-another-workspace-new-connection-tab.png)
 
      >[!TIP]
      >
