@@ -1,14 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: burndown
-title: Het formaat en de onderdrukkingsgrafiek samenvouwen
+title: Grootte wijzigen en de Burndown Chart samenvouwen
 description: U kunt de grootte van het uitvouwdiagram wijzigen of het uitvouwdiagram samenvouwen om aan te passen hoeveel ruimte het inneemt op het artikelbord.
 author: Lisa
 feature: Agile
 exl-id: ad7ea883-987a-4278-8d24-7c1dd4e542a3
-source-git-commit: 094a9d453476418cbe1b065930eb3a179e4cf73a
+source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ Wijzigingen die u aanbrengt in het formaat of de zichtbaarheid van het inbouwdia
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -30,31 +32,35 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
-   <td> <p>[!UICONTROL Review] of hoger</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
+   <td> <p>Nieuw: [!UICONTROL Light] of hoger</p> 
+   of
+   <p>Huidig: [!UICONTROL Review] of hoger</p> </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan of vergunningstype u hebt, contacteer uw [!DNL Workfront] beheerder.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Het formaat van het uitvouwdiagram wijzigen
 
-1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Teams]** .
+{{step1-to-team}}
 
 1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![ Schakelaar teampictogram ](assets/switch-team-icon.png), dan of selecteer een nieuw [!UICONTROL Scrum] team van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
 
 1. Ga naar de herhaling die de burndown grafiek bevat u resize.
-1. Houd de cursor boven de onderste lijn van het onderste diagram en sleep het diagram naar de gewenste grootte.\
+1. Houd de cursor boven de onderste lijn van het onderste diagram en sleep het diagram naar de gewenste grootte.
    ![](assets/burndown-resize.png)
 
 ## Het uitvouwdiagram samenvouwen
 
-1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Teams]** .
+{{step1-to-team}}
 
 1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![ Schakelaar teampictogram ](assets/switch-team-icon.png), dan of selecteer een nieuw [!UICONTROL Scrum] team van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
 

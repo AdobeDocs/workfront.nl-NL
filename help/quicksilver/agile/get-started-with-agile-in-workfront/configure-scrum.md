@@ -6,9 +6,9 @@ description: U kunt de volgende opties voor de teams van het de agbestand van de
 author: Lisa
 feature: Agile
 exl-id: 7509608e-96af-4601-80d4-791ee29046da
-source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '1655'
+source-wordcount: '1617'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,8 @@ Voor informatie over het vormen van een team Kanban, zie [ Kanban ](/help/quicks
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -41,26 +43,28 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Alle</p> </td> 
   </tr>
 
 <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
    <td> <p>Nieuw: [!UICONTROL Standard]</p> 
    of
    <p>Huidig: [!UICONTROL Work] of hoger</p> </td> 
   </tr>
 
 <tr> 
-   <td role="rowheader">Toegangsniveau</td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot teams bewerken</p>  </td> 
   </tr>
 
 </tbody> 
 </table>
 
-*Neem contact op met de [!DNL Workfront] beheerder als u wilt weten welk abonnement- of licentietype u hebt.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Configureer of artikelen worden geschat in punten of uren
 
@@ -72,13 +76,13 @@ U kunt artikelen configureren om te worden geschat aan de hand van punten of ure
 
 Om te vormen hoe de verhalen voor uw agile team worden geschat:
 
-1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!UICONTROL Workfront] en klik vervolgens op **[!UICONTROL Teams]** .
+{{step1-to-team}}
 
 1. Klik op het pictogram **[!UICONTROL Switch team]** en selecteer vervolgens een nieuw team in het keuzemenu of zoek naar een team op de zoekbalk.
 1. Selecteer het flexibele team dat u wilt beheren.
 1. Klik op het menu **[!UICONTROL More]** en selecteer vervolgens **[!UICONTROL Edit]** .
 
-   Deze optie wordt alleen weergegeven voor teamleden met een [!UICONTROL Plan] - of [!UICONTROL Work] -licentie.\
+   Deze optie wordt alleen weergegeven voor teamleden met een licentie [!UICONTROL Standard] , [!UICONTROL Plan] of [!UICONTROL Work] .
    ![ geef team ](assets/edit-team-settings-350x205.png) uit
 
 1. Selecteer in de sectie **[!UICONTROL Agile]** in het gebied **[!UICONTROL Estimate Stories in]** of u punten of uren wilt gebruiken om de grootte (werklast) van artikelen te schatten. Als u Punten selecteert, geeft u op hoeveel uren gelijk zijn aan 1 punt. (De standaardwaarde is 1 punt = 8 uur.) Dit is het aantal geplande uren dat aan het artikel wordt toegevoegd.
@@ -100,7 +104,7 @@ U kunt de statussen bepalen die op de verhaalraad voor het flexibele team bestaa
 
 U definieert de statussen die beschikbaar zijn voor de artikelkaart die is gekoppeld aan het mobiele team:
 
-1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Workfront] en klik vervolgens op **[!UICONTROL Teams]** .
+{{step1-to-team}}
 
 1. Klik het **[!UICONTROL Switch team]** pictogram van het pictogram ![ team van de Schakelaar ](assets/switch-team-icon.png), dan of selecteer een nieuw team van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
 
@@ -158,13 +162,13 @@ U kunt aanvullende gegevens (inclusief aangepaste gegevens) weergeven op artikel
 
 U kunt als volgt artikelkaarten configureren die aan het mobiele team zijn toegewezen om extra velden weer te geven:
 
-1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!UICONTROL Workfront] en klik vervolgens op **[!UICONTROL Teams]** .
+{{step1-to-team}}
 
 1. Klik het **[!UICONTROL Switch team]** pictogram van het pictogram ![ team van de Schakelaar ](assets/switch-team-icon.png), dan of selecteer een nieuw team van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
 
 1. Selecteer het flexibele team dat u wilt beheren.
-1. Klik op het menu **[!UICONTROL More]** en selecteer vervolgens **[!UICONTROL Edit]** .\
-   Deze optie wordt alleen weergegeven voor teamleden met een [!UICONTROL Plan] - of [!UICONTROL Work] -licentie.
+1. Klik op het menu **[!UICONTROL More]** en selecteer vervolgens **[!UICONTROL Edit]** .
+Deze optie wordt alleen weergegeven voor teamleden met een [!UICONTROL Plan] - of [!UICONTROL Work] -licentie.
 
    ![ geef team ](assets/edit-team-settings-350x205.png) uit
 
@@ -182,7 +186,7 @@ Standaard worden artikelbordelementen in een flexibele herhaling gekleurd volgen
 
 U wijzigt als volgt het gedrag van de manier waarop kleuren worden toegewezen aan artikelen voor een bestandsteam:
 
-1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Workfront] en klik vervolgens op **[!UICONTROL Teams]** .
+{{step1-to-team}}
 
 1. Klik het **[!UICONTROL Switch team]** pictogram van het pictogram ![ team van de Schakelaar ](assets/switch-team-icon.png), dan of selecteer een nieuw team van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
 
@@ -201,7 +205,7 @@ U wijzigt als volgt het gedrag van de manier waarop kleuren worden toegewezen aa
 
       * Hoog = rood
       * Medium = geel
-      * Laag = Groen\
+      * Laag = groen
 
         Als uw systeembeheerder douaneprioriteiten voor uw [!DNL Workfront] systeem heeft gevormd, is de hoogste prioriteit rood, is het op één na hoogste geel, en het derde hoogste groen.
    * **[!UICONTROL Task Owner]**: alle artikelen met dezelfde primaire toewijzing hebben dezelfde kleur. De primaire ontvanger is de gebruiker die voor het eerst aan de taak is toegewezen.
@@ -213,15 +217,16 @@ U wijzigt als volgt het gedrag van de manier waarop kleuren worden toegewezen aa
 
 Wanneer u een tijdelijk item toevoegt aan een scrubherhaling, worden de geplande begindatum en de geplande voltooiingsdatum voor het werkitem standaard aangepast aan de begin- en einddatum van de herhaling. U kunt ervoor kiezen om de oorspronkelijke datums op alle werkitems voor het team te houden.
 
-1. Klik op het pictogram **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe] Workfront en klik vervolgens op **[!UICONTROL Teams]** .
+{{step1-to-team}}
+
 1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![ Schakelaar teampictogram ](assets/switch-team-icon.png), dan of selecteer een nieuw team van het Trommel van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
-1. Klik op het menu **[!UICONTROL More]** en selecteer vervolgens **[!UICONTROL Edit]** .\
-   Deze optie wordt alleen weergegeven voor teamleden met een [!UICONTROL Plan] - of [!UICONTROL Work] -licentie.
+1. Klik op het menu **[!UICONTROL More]** en selecteer vervolgens **[!UICONTROL Edit]** .
+Deze optie wordt alleen weergegeven voor teamleden met een [!UICONTROL Plan] - of [!UICONTROL Work] -licentie.
 1. Selecteer in de sectie [!UICONTROL Agile] in het gebied [!UICONTROL When a Work Item is Added to an Iteration] een van de volgende opties:
 
-   * **[!UICONTROL Modify the Planned Start Date and Planned Completion Date to match the iteration start and end dates]**: Wanneer werkitems aan een herhaling worden toegevoegd, worden de datums van de werkitems gewijzigd in de herhalingsdatums.\
+   * **[!UICONTROL Modify the Planned Start Date and Planned Completion Date to match the iteration start and end dates]**: Wanneer werkitems aan een herhaling worden toegevoegd, worden de datums van het werkitem gewijzigd in de herhalingsdatums.
 
-     Voor meer informatie over hoe de data worden gewijzigd, zie de sectie [ begrijpen hoe het toevoegen van verhalen taakdata ](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md#understa) in het artikel [ beïnvloedt verhalen aan een bestaande herhaling ](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md) toevoegen.
+     Voor meer informatie over hoe de data worden gewijzigd, zie de sectie [ begrijpen hoe het toevoegen van verhalen taakdata ](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md#understand-how-adding-stories-affects-task-dates) in het artikel [ beïnvloedt verhalen aan een bestaande herhaling ](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md) toevoegen.
    * **[!UICONTROL Do not modify the Planned Start Date and Planned Completion Date to match the iteration start and end dates]**: Wanneer werkitems aan een herhaling worden toegevoegd, behouden de werkitems hun oorspronkelijke datums.
 
    Als u de datumoptie wijzigt, worden de datums voor de werkitems die zich al in de herhaling bevinden, niet aangepast.

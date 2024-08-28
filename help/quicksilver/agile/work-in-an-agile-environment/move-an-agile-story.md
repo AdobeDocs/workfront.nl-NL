@@ -1,14 +1,14 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: work-in-an-agile-environment
-title: Een stapel artikel verplaatsen
+title: Een flexibel artikel verplaatsen
 description: U kunt een flexibel artikel verplaatsen naar een andere herhaling (voor Scrum-teams) of naar de achtergrond (voor Kanban- en Scrum-teams).
 author: Lisa
 feature: Agile
 exl-id: 0058792e-66b8-4e54-8ce3-50171adff875
-source-git-commit: 11009f24cd482e83319ed9f1ecf3f7a2f4e79d52
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '315'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ U kunt een flexibel artikel verplaatsen naar een andere herhaling (voor Scrum-te
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -28,25 +30,25 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
-   <td> <p>[!UICONTROL Work] of hoger</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
+   <td> <p>Nieuw: [!UICONTROL Standard]</p> 
+   of
+   <p>Huidig: [!UICONTROL Work] of hoger</p> </td> 
+  </tr>
   <tr> 
-   <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>[!UICONTROL Worker] of hoger</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de [!DNL Workfront] -beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
-   <td> <p>[!UICONTROL Manage] toegang tot het artikel</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td role="rowheader">Objectmachtigingen</td> 
+   <td>[!UICONTROL Manage] toegang tot het artikel</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Een artikel van een iteratie of Kanban-bord naar de achtergrond verplaatsen
 
@@ -59,8 +61,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    ![ de dialoog van het Artikel van de Beweging ](assets/iteration-story-move.png)
 
-1. Selecteer *team_name* Achterlog.\
-   In het bovenstaande voorbeeld, is de teamnaam &#x200B; **Marketing.**
+1. Selecteer **team_name Achterlog**.
+In het bovenstaande voorbeeld, is de teamnaam **Marketing**.
 
 1. Klik op **[!UICONTROL Move Story]**.
 
@@ -85,6 +87,6 @@ U kunt een artikel verplaatsen naar een andere versie voor uw scrubteam.
 
    >[!NOTE]
    >
-   >Het werkitem [!UICONTROL Planned Start Date] en [!UICONTROL Planned Completion Date] worden beïnvloed door een instelling op de pagina [!UICONTROL Edit Team] . Voor informatie, zie de sectie [[!UICONTROL Configure] hoe de data worden toegepast wanneer het toevoegen van het werkpunten aan een herhaling ](../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) in het artikel [ vormen de Trommel ](../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+   >Het werkitem [!UICONTROL Planned Start Date] en [!UICONTROL Planned Completion Date] worden beïnvloed door een instelling op de pagina [!UICONTROL Edit Team] . Voor informatie, zie de sectie [[!UICONTROL Configure] hoe de data worden toegepast wanneer het toevoegen van het werkpunten aan een herhaling ](../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration) in het artikel [ vormen de Trommel ](../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 1. Klik op **[!UICONTROL Move Story]**.

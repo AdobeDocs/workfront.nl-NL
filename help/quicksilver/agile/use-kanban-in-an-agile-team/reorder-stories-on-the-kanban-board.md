@@ -1,14 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: use-kanban-in-an-agile-team
-title: Artikelen opnieuw ordenen op de Kanban-kaart
+title: Artikelen opnieuw ordenen op de Kanban Board
 description: U zou de orde kunnen willen veranderen waarin de verhalen binnen statuskolommen op het Kanban bord worden getoond.
 author: Lisa
 feature: Agile
 exl-id: 7d6142d2-4e6e-4f9f-81a8-bcc666757bad
-source-git-commit: a478e5355db33e076b321a6219442198901f3252
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -29,34 +29,38 @@ Wanneer u de kolommen opnieuw ordent op de [!DNL Kanban] -board, worden alle aan
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
+ </col> 
  <col> 
+ </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
-   <td> <p>[!UICONTROL Work] of hoger</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>[!UICONTROL Worker] of hoger</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de [!DNL Workfront] -beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan veranderen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
+   <td> <p>Nieuw: [!UICONTROL Standard]</p> 
+   of
+   <p>Huidig: [!UICONTROL Work] of hoger</p> </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Artikelen op het [!UICONTROL Kanban] -bord opnieuw ordenen
 
 De volgorde of artikelen wijzigen:
 
-1. Klik op het pictogram **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe] Workfront en klik vervolgens op **[!UICONTROL Teams]** .
+{{step1-to-team}}
 
 1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![ Schakelaar teampictogram ](assets/switch-team-icon.png), dan of selecteer een nieuw [!UICONTROL Kanban] team van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
 

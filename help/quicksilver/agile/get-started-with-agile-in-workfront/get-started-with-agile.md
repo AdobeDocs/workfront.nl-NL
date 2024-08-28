@@ -3,13 +3,13 @@ content-type: reference
 product-area: agile-and-teams
 keywords: behagen
 navigation-topic: agile-navigation-topic
-title: Begin met  [!DNL agile]  binnen  [!DNL Adobe Workfront]
+title: Begonnen met  [!DNL Agile]  binnen  [!DNL Adobe Workfront]
 description: Lees deze artikelen om aan de slag te gaan met agile in Workfront.
 author: Lisa
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: 151aec93-3ccb-475f-b894-61be20a8544a
-source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
 source-wordcount: '31'
 ht-degree: 0%

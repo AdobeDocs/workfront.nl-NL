@@ -2,12 +2,12 @@
 content-type: overview
 product-area: agile-and-teams
 navigation-topic: scrum-board
-title: Overzicht van het tekengebied
+title: Overzicht van de scrollstructuur
 description: Het scorebord van het verhaal toont samen met de voltooiingsstatus en de burndown grafiek.
 author: Lisa
 feature: Agile
 exl-id: 584288bb-2d98-4b69-8deb-d3b8e54d328c
-source-git-commit: 6f817ca39c7489b85673ff601faf440fe51ab72c
+source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
 workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 0%

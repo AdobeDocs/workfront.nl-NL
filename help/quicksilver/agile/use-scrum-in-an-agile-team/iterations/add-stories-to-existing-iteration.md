@@ -6,9 +6,9 @@ description: U kunt op verschillende manieren artikelen aan een herhaling toevoe
 author: Lisa
 feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
-source-git-commit: 094a9d453476418cbe1b065930eb3a179e4cf73a
+source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 U kunt op de volgende manieren artikelen toevoegen aan een herhaling:
 
-* Van de backlog nadat de herhaling wordt gecreeerd, zoals die in [ worden beschreven verhalen van de beweging van de achterstand aan een herhaling of [!UICONTROL Kanban] raad ](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#moving-stories-from-the-backlog) sectie in [ beheert agile backlog ](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
+* Van de backlog nadat de herhaling wordt gecreeerd, zoals die in [ worden beschreven verhalen van de beweging van de achterstand aan een herhaling of [!UICONTROL Kanban] raad ](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or--board) sectie in [ beheert agile backlog ](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
 
 * Van de [!UICONTROL Details] pagina van de individuele taak of kwestie
 * Van een taak of uitgiftenlijst
@@ -26,32 +26,32 @@ U kunt op de volgende manieren artikelen toevoegen aan een herhaling:
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
- <col> 
- <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
-   <td> <p>[!UICONTROL Work] of hoger</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>[!UICONTROL Worker] of hoger</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de [!DNL Workfront] -beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
-   <td> <p>[!UICONTROL Manage] toegang tot het project waarop het verhaal zich bevindt</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
+   <td> <p>Nieuw: [!UICONTROL Standard]</p> 
+   of
+   <p>Huidig: [!UICONTROL Work] of hoger</p> </td> 
+  </tr>
+   <tr> 
+   <td role="rowheader">Objectmachtigingen</td> 
+   <td>[!UICONTROL Manage] toegang tot het project waarop het verhaal zich bevindt </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Begrijp hoe het toevoegen van artikelen takendatums beïnvloedt
 
@@ -79,17 +79,9 @@ Wanneer u een bestaande taak aan een herhaling toevoegt, worden standaard de taa
 
    * Het project [!UICONTROL Planned Start Date] is *na* de Datum van het Begin van de herhaling en het project [!UICONTROL Planned Completion Date] is *na* de Datum van het Eind van de herhaling.
 
-U kunt de individuele teams van het Trommel vormen om de projectdata door gebrek, eerder dan de herhalingsdata te gebruiken. Voor informatie, zie de sectie [ vormen hoe de data worden toegepast wanneer het toevoegen van het werkpunten aan een herhaling ](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) in artikel [ Scrum ](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md) vormt.
+U kunt de individuele teams van het Trommel vormen om de projectdata door gebrek, eerder dan de herhalingsdata te gebruiken. Voor informatie, zie de sectie [ vormen hoe de data worden toegepast wanneer het toevoegen van het werkpunten aan een herhaling ](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration) in artikel [ Scrum ](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md) vormt.
 
 ## Een artikel toevoegen aan een bestaande herhaling
-
-Artikelen rechtstreeks vanuit de taak of uitgave aan een herhaling toevoegen:
-
->[!IMPORTANT]
->
->Nadat de taak naar de herhaling is verplaatst, kunt u [!UICONTROL Duration Type] of [!UICONTROL Task Constraint] niet meer bijwerken. [!UICONTROL Duration Type] is ingesteld op [!UICONTROL Simple] en [!UICONTROL Task Constraint] is ingesteld op [!UICONTROL Fixed Dates] om de tijdlijn van de taak consistent te houden met de tijdlijn van de herhaling.
-
-### Via het tabblad Taken of Problemen
 
 U kunt om het even welke taak of kwestie aan om het even welke herhaling toevoegen als u hebt leidt toegang tot het project. Houd rekening met het volgende wanneer u een taak of probleem naar een herhaling verplaatst:
 
@@ -98,17 +90,21 @@ U kunt om het even welke taak of kwestie aan om het even welke herhaling toevoeg
 * Als de taak of de kwestie niet aan een team wordt toegewezen, wordt de taak of de kwestie toegewezen aan het team dat de herhaling bezit.
 * U kunt geen bovenliggende taken aan de herhaling toevoegen. Als u onderliggende taken toevoegt, wordt de bovenliggende taak als een zwembad op het gebied van het scrum weergegeven.
 
-1. Ga naar het project, het rapport, of het dashboard dat de taak of de kwestie bevat u aan een herhaling wilt toevoegen.
-1. Selecteer een of meer taken of problemen.
-1. Klik op **[!UICONTROL More]** ![](assets/more-icon.png) > **[!UICONTROL Add to Iteration]** .\
-   U kunt geen taken of kwesties toewijzen die aan niet-flexibele teams worden toegewezen.
+>[!IMPORTANT]
+>
+>Nadat de taak naar de herhaling is verplaatst, kunt u [!UICONTROL Duration Type] of [!UICONTROL Task Constraint] niet meer bijwerken. [!UICONTROL Duration Type] is ingesteld op [!UICONTROL Simple] en [!UICONTROL Task Constraint] is ingesteld op [!UICONTROL Fixed Dates] om de tijdlijn van de taak consistent te houden met de tijdlijn van de herhaling.
 
-1. Typ in het vak **[!UICONTROL Add Stories]** de naam van de herhaling.
+1. Open de taak of kwestie u aan een herhaling wilt toevoegen.
+of
+Ga naar het project, het rapport, of het dashboard dat de taak of de kwestie bevat u aan een herhaling wilt toevoegen. Selecteer vervolgens een of meer taken of problemen.
+
+1. Klik op **[!UICONTROL More]** ![](assets/more-icon.png) > **[!UICONTROL Add to Iteration]** .
+U kunt geen taken of kwesties toewijzen die aan niet-flexibele teams worden toegewezen.
+
+1. Typ in het vak **[!UICONTROL Add To]** de naam van de herhaling en selecteer deze wanneer deze in de lijst wordt weergegeven.
 
    >[!NOTE]
    >
    >U kunt een artikel van een bestaande herhaling naar een nieuwe herhaling verplaatsen.
 
-1. Klik op **[!UICONTROL Add Stories]** als u taken toevoegt.\
-   of\
-   Klik op **[!UICONTROL Add Issues]** als u problemen toevoegt.
+1. Klik op **[!UICONTROL Add]**.

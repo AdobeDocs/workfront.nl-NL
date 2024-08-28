@@ -1,27 +1,29 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: work-in-an-agile-environment
-title: Een flexibel verhaal maken
-description: U kunt op verschillende manieren een flexibel verhaal op een herhaling maken. Nadat u een artikel hebt gemaakt, kunt u subtaken aan het artikel toevoegen.
+title: Een flexibel artikel maken
+description: U kunt op verschillende manieren een wendbaar artikel maken. Nadat u een stapel artikel hebt gemaakt, kunt u subtaken aan het artikel toevoegen.
 author: Lisa
 feature: Agile
 exl-id: d16ee940-3551-44da-8fe6-093f4fcac070
-source-git-commit: 11009f24cd482e83319ed9f1ecf3f7a2f4e79d52
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
 
-# Een flexibel verhaal maken
+# Een stapel artikel maken
 
-U kunt op verschillende manieren een flexibel verhaal op een herhaling maken. Nadat u een stapel artikel hebt gemaakt, kunt u subtaken aan het artikel toevoegen.
+U kunt op verschillende manieren een wendbaar artikel maken. Nadat u een stapel artikel hebt gemaakt, kunt u subtaken aan het artikel toevoegen.
 
-Wanneer u een artikel of subtaak toevoegt in een herhaling, wordt het Duur-type ingesteld op [!UICONTROL Simple] en wordt Taakbeperking ingesteld op Vaste datums, met de datums vergrendeld in de herhaling. U kunt het Type Duur of de Beperking van de Taak in een herhaling niet wijzigen. Bovendien moet de taakduur langer zijn dan 0 minuten.
+Wanneer u een artikel of subtaak toevoegt in een herhaling, wordt het Duur Type geplaatst aan [!UICONTROL Simple] en de Beperking van de Taak wordt geplaatst aan Vaste Datums, met de data die binnen de herhaling worden gesloten. U kunt het Type van Duur of de Beperking van de Taak in een herhaling niet wijzigen. Bovendien moet de taakduur langer zijn dan 0 minuten.
 
 Voor informatie over hoe te om het verhaal te beheren nadat het aan de herhaling wordt toegevoegd, zie [ Herhalingen ](../../agile/use-scrum-in-an-agile-team/iterations/iterations.md).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -32,36 +34,36 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
-   <td> <p>[!UICONTROL Work] of hoger</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
+   <td> <p>Nieuw: [!UICONTROL Standard]</p> 
+   of
+   <p>Huidig: [!UICONTROL Work] of hoger</p> </td> 
+  </tr>
   <tr> 
-   <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>[!UICONTROL Worker] of hoger</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de [!DNL Workfront] -beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
-   <td> <p>[!UICONTROL Manage] toegang tot het project waarop het verhaal zich bevindt</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td role="rowheader">Objectmachtigingen</td> 
+   <td>[!UICONTROL Manage] toegang tot het project waarop het verhaal zich bevindt </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Een flexibel artikel in een herhaling maken
++++
 
-1. Ga naar de galerij-iteratie waar u het artikel wilt maken:
+## Een flexibel artikel maken in een herhaling
 
-   1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Teams]** .
+1. Ga naar de dynamische iteratie waar u het artikel wilt maken:
 
-   1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram ![ pictogram van de Schakelaar teampictogram ](assets/switch-team-icon.png), dan of selecteer een nieuw team van het Trommel van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
+   {{step1-to-team}}
+
+   1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![ Schakelaar teampictogram ](assets/switch-team-icon.png), dan of selecteer een nieuw team van het Trommel van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
 
    1. Selecteer in het linkerdeelvenster **[!UICONTROL Iterations]** om een specifieke herhaling te kiezen of selecteer **[!UICONTROL Current Iteration]** .
-   1. Klik op de naam van de specifieke herhaling waarin u een artikel wilt maken.
+   1. Klik op de naam van de specifieke herhaling waar u een artikel wilt maken.
 
    ![ voeg nieuw verhaal aan herhaling toe ](assets/iteration-add-story.png)
 
@@ -98,16 +100,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Custom Forms]</strong></td>
-      <td>Selecteer de aangepaste formulieren die u aan het artikel wilt toevoegen.</td>
+      <td>Selecteer aangepaste formulieren die u aan het artikel wilt toevoegen.</td>
      </tr>
     </tbody>
    </table>
 
 1. Klik op **[!UICONTROL Save Story]**.
 
-## Een flexibel artikel op de achtergrond maken
+## Een stapel artikel op de achtergrond maken
 
-U kunt een veranderlijk verhaal van agile backlog tot stand brengen, zoals die in de sectie [ wordt beschreven nieuwe verhalen op de backlog ](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#creating-new-stories) in het artikel [[!UICONTROL Manage] de agile backlog ](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) creëren.
+U kunt een veranderlijk verhaal van agile backlog tot stand brengen, zoals die in de sectie [ wordt beschreven creeer nieuwe verhalen op de backlog ](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#creating-new-stories) in het artikel [[!UICONTROL Manage] agile backlog ](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
 ## Een taak of uitgave toevoegen als een stapel artikel
 

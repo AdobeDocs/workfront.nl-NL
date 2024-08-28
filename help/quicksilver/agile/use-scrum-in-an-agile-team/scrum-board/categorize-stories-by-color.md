@@ -6,9 +6,9 @@ description: De standaardkleurenkoppeling van de artikelen in het tekengebied is
 author: Lisa
 feature: Agile
 exl-id: 8e351505-73d1-4c8f-b369-53c965b88c95
-source-git-commit: 6f817ca39c7489b85673ff601faf440fe51ab72c
+source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
@@ -25,36 +25,34 @@ De standaardkleurenkoppeling van artikelen is afhankelijk van de locatie van het
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
- <col> 
- </col> 
- <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
-   <td> <p>[!UICONTROL Work] of hoger</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>[!UICONTROL Worker] of hoger</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de [!DNL Workfront] -beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
+   <td> <p>Nieuw: [!UICONTROL Standard]</p> 
+   of
+   <p>Huidig: [!UICONTROL Work] of hoger</p> </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## De kleur van artikelen wijzigen bij gebruik van een gratis formulier
 
 Als de agile teaminstellingen zijn geconfigureerd, zodat de optie [!UICONTROL Associate Card Color to] is ingesteld op [!UICONTROL Free Form] , kunnen gebruikers de kleur van afzonderlijke artikelblokken handmatig wijzigen. Dit kan nuttig zijn om andere soorten informatie mee te delen die voor het team of de organisatie belangrijk zijn:
 
-1. Klik op het pictogram **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe] Workfront en klik vervolgens op **[!UICONTROL Teams]** .
+{{step1-to-team}}
 
 1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![ Schakelaar teampictogram ](assets/switch-team-icon.png), dan of selecteer een nieuw team van het Trommel van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
 

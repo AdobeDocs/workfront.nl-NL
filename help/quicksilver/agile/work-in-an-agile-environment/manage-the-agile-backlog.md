@@ -1,14 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: work-in-an-agile-environment
-title: De logboekregistratie voor bestanden beheren
+title: De Google Backlog beheren
 description: Taken en problemen kunnen worden toegewezen aan een flexibel team en worden toegevoegd aan de achterstand van dat team als artikelen, afhankelijk van de flexibele methodologie die het team gebruikt.
 author: Lisa
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
@@ -39,20 +39,18 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie</strong></td> 
-   <td> <p>Nieuw: [!UICONTROL Standard]</p><p>of</p><p>Huidig: [!UICONTROL Work] of hoger</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
+   <td> <p>Nieuw: [!UICONTROL Standard]</p> 
+   of
+   <p>Huidig: [!UICONTROL Work] of hoger</p> </td> 
+  </tr>
   <tr> 
-   <td role="rowheader"><strong>Configuraties op toegangsniveau</strong></td> 
-   <td> <p>Nieuw: [!UICONTROL Standard]</p><p>of</p><p>Huidig: [!UICONTROL Worker] of hoger</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
-   <td> <p>[!UICONTROL Manage] toegang tot het project waarop het verhaal zich bevindt</p>  </td> 
+   <td role="rowheader">Objectmachtigingen</td> 
+   <td>[!UICONTROL Manage] toegang tot het project waarop het verhaal zich bevindt </td> 
   </tr> 
  </tbody> 
 </table>
@@ -78,7 +76,7 @@ U kunt de volgorde van artikelen in de lijst met terugverwijzingen wijzigen met 
    >
    >Als een taak of een kwestie een flexibel toegewezen team heeft en het project niet in een status is die met Huidig vergelijkt, tonen zij niet op de backlog. Nochtans, beïnvloeden zij nog de backlogtelling in de kolom van de Orde.
 
-1. Selecteer een of meer artikelen en sleep de artikelen naar de volgorde waarin u ze op de achtergrond wilt weergeven.\
+1. Selecteer een of meer artikelen en sleep de artikelen naar de volgorde waarin u ze op de achtergrond wilt weergeven.
    ![ belemmering en dalings achterlogpunten ](assets/agile-backlog-drag-and-drop.png)
 
 ### Artikelen onderverdelen {#break-down-stories}
@@ -96,8 +94,8 @@ Omdat de grootte van artikelen in een backlog varieert, kunnen gebruikers deze o
 Een artikel onderbreken:
 
 1. Ga naar de achtergrond die het artikel bevat dat u wilt onderbreken.
-1. Selecteer het artikel dat u wilt onderbreken en klik op **[!UICONTROL Breakdown Story]** .\
-   Het dialoogvenster [!UICONTROL Breakdown Story] wordt weergegeven.\
+1. Selecteer het artikel dat u wilt onderbreken en klik op **[!UICONTROL Breakdown Story]** .
+Het dialoogvenster [!UICONTROL Breakdown Story] wordt weergegeven.
    ![ de dialoog van het Verhaal van de Onderbreking ](assets/backlog-breakdown-dialog.png)
 
 1. Geef een naam en een schatting voor het artikel op en geef aan of het artikel gereed is.
@@ -179,19 +177,17 @@ U kunt een taak of een kwestie aan een agile team toewijzen. Nadat deze is toege
 
 Om een taak of een kwestie aan een agile team toe te wijzen:
 
-1. Ga naar het Project dat de taak bevat die u wilt toewijzen.
+1. Ga naar het project dat de taak bevat die u wilt toewijzen.
 1. Selecteer de taak of het probleem in de lijst.
 1. Klik op **[!UICONTROL Edit]**.
 1. Klik op **[!UICONTROL Assignments]**.
 1. (Optioneel) Verwijder eventuele bestaande toewijzingen.
 1. Klik op **[!UICONTROL Add Assignee]**.
 1. Typ de naam van het bestandsteam dat u wilt toewijzen aan de taak of uitgave en klik vervolgens op de naam van het team wanneer deze wordt weergegeven in de vervolgkeuzelijst.
-1. Klik op **[!UICONTROL Save Changes]**.\
-   De taak of kwestie is nu beschikbaar op de teamachterstand.
+1. Klik op **[!UICONTROL Save Changes]** .
+De taak of kwestie is nu beschikbaar op de teamachterstand.
 
 ## Artikelen naar of van de achtergrond verplaatsen
-
-{#move-stories-from-the-backlog-to-an-iteration-or-kanban-board}
 
 * [Artikelen van de achtergrond verplaatsen naar een herhaling of een toetsenbord](#move-stories-from-the-backlog-to-an-iteration-or--board)
 * [Bestaande artikelen naar de achtergrond verplaatsen](#move-existing-stories-to-the-backlog)
@@ -200,9 +196,9 @@ Om een taak of een kwestie aan een agile team toe te wijzen:
 ### Artikelen van de achtergrond verplaatsen naar een herhaling of een toetsenbord
 
 1. Ga naar de achtergrond van het agile team.
-1. Selecteer de artikelen die u naar een herhaling of Kanban-bord wilt verplaatsen en klik op **[!UICONTROL More]** > **[!UICONTROL Move to]** .\
-   Als u het artikel naar een [!UICONTROL Kanban] -bord verplaatst, wordt het [!UICONTROL Move Story to the Kanban] -bord weergegeven.\
-   Als u het artikel naar een herhaling verplaatst, wordt het dialoogvenster [!UICONTROL Move Story to an Iteration] weergegeven.\
+1. Selecteer de artikelen die u naar een herhaling of Kanban-bord wilt verplaatsen en klik op **[!UICONTROL More]** > **[!UICONTROL Move to]** .
+Als u het artikel naar een [!UICONTROL Kanban] -bord verplaatst, wordt het [!UICONTROL Move Story to the Kanban] -bord weergegeven.
+Als u het artikel naar een herhaling verplaatst, wordt het dialoogvenster [!UICONTROL Move Story to an Iteration] weergegeven.
    ![ de dialoog van het Artikel van de Beweging ](assets/agile-backlog-addtoiteration.png)
 
 1. Voer een van de volgende handelingen uit:

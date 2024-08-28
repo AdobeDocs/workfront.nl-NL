@@ -6,9 +6,9 @@ description: Herhalingen vormen een sleutelcomponent voor de ploegen van de Trom
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
+source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ Herhalingen vormen een sleutelcomponent voor de ploegen van de Trommel in het pl
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -28,27 +30,31 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
-   <td> <p>[!UICONTROL Review] of hoger</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
+   <td> <p>Nieuw: [!UICONTROL Light] of hoger</p> 
+   of
+   <p>Huidig: [!UICONTROL Review] of hoger</p> </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan of vergunningstype u hebt, contacteer uw [!DNL Workfront] beheerder.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Een herhaling toevoegen
 
 Met de functie [!UICONTROL Add Iteration] kunt u snel een herhaling maken en later taken en problemen toevoegen.
 
-1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Teams]** .
+{{step1-to-team}}
 
 1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![ Schakelaar teampictogram ](assets/switch-team-icon.png), dan of selecteer een nieuw team van het Trommel van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
 
-1. Klik op het tabblad **[!UICONTROL Iterations]** op **[!UICONTROL Add Iteration]** .\
+1. Klik op het tabblad **[!UICONTROL Iterations]** op **[!UICONTROL Add Iteration]** .
    ![](assets/add-iteration-adobe-350x275.png)
 
 1. Geef het volgende op:
@@ -90,7 +96,7 @@ Met de functie [!UICONTROL Add Iteration] kunt u snel een herhaling maken en lat
 
 Gebruik de functie [!UICONTROL Plan Iteration] om een herhaling te maken met behulp van taken op uw achterstand.
 
-1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Teams]** .
+{{step1-to-team}}
 
 1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![ Schakelaar teampictogram ](assets/switch-team-icon.png), dan of selecteer een nieuw team van het Trommel van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
 
@@ -129,10 +135,10 @@ Gebruik de functie [!UICONTROL Plan Iteration] om een herhaling te maken met beh
     </tbody> 
    </table>
 
-1. (Optioneel) Selecteer artikelen om deze nu aan de herhaling toe te voegen. U kunt deze stap ook overslaan en op een later tijdstip artikelen aan een herhaling toevoegen. De verhalen boven aan de achterstand hebben een hogere prioriteit. Artikelen worden groen gemarkeerd als ze in de capaciteit passen; ze worden rood gemarkeerd als ze dat niet doen.\
-   U kunt zowel taken als uitgaven toevoegen aan één herhaling:
+1. (Optioneel) Selecteer artikelen om deze nu aan de herhaling toe te voegen. U kunt deze stap ook overslaan en op een later tijdstip artikelen aan een herhaling toevoegen. De verhalen boven aan de achterstand hebben een hogere prioriteit. Artikelen worden groen gemarkeerd als ze in de capaciteit passen; ze worden rood gemarkeerd als ze dat niet doen.
+U kunt zowel taken als uitgaven toevoegen aan één herhaling:
 
-   * **om taken aan de herhaling toe te voegen:** op het **[!UICONTROL Backlog]** lusje, zorg ervoor dat het **[!UICONTROL Stories]** lusje wordt geselecteerd (dit lusje wordt geselecteerd door gebrek wanneer het bekijken van de achterstand). Selecteer de artikelen die u aan de herhaling wilt toevoegen.\
+   * **om taken aan de herhaling toe te voegen:** op het **[!UICONTROL Backlog]** lusje, zorg ervoor dat het **[!UICONTROL Stories]** lusje wordt geselecteerd (dit lusje wordt geselecteerd door gebrek wanneer het bekijken van de achterstand). Selecteer de artikelen die u aan de herhaling wilt toevoegen.
 
      Wanneer u taken aan een herhaling toevoegt, wordt de begindatum van de taak berekend zoals die in [[!UICONTROL Understand] wordt beschreven hoe de datums van de taakbegin wanneer toegevoegd aan een herhaling ](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration) worden berekend.
 
@@ -151,4 +157,4 @@ Wanneer u een taak als een artikel toevoegt aan een herhaling, wordt de beperkin
 
 De lus [!UICONTROL Project End Date] wordt gebruikt in plaats van de   als de begindatum van het project na de begindatum van de herhaling valt en de einddatum van het project na de einddatum van de herhaling valt.
 
-U kunt de individuele teams van het Trommel vormen om de projectdata door gebrek, eerder dan de herhalingsdata te gebruiken. Voor informatie, zie de sectie [ vormen hoe de data worden toegepast wanneer het toevoegen van het werkpunten aan een herhaling ](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) in artikel [ Scrum ](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md) vormt.
+U kunt de individuele teams van het Trommel vormen om de projectdata door gebrek, eerder dan de herhalingsdata te gebruiken. Voor informatie, zie de sectie [ vormen hoe de data worden toegepast wanneer het toevoegen van het werkpunten aan een herhaling ](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration) in artikel [ Scrum ](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md) vormt.

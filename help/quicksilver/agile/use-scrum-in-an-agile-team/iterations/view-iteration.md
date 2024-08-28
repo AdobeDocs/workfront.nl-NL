@@ -6,9 +6,9 @@ description: U kunt alle herhalingen voor een bepaald team bekijken, of u kunt e
 author: Lisa
 feature: Agile
 exl-id: 1ee14c40-8047-4885-96f0-cddfc2617028
-source-git-commit: 6f817ca39c7489b85673ff601faf440fe51ab72c
+source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ U kunt alle herhalingen voor een bepaald team bekijken, of u kunt een individuel
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -28,21 +30,25 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
-   <td> <p>[!UICONTROL Review] of hoger</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
+   <td> <p>Nieuw: [!UICONTROL Light] of hoger</p> 
+   of
+   <p>Huidig: [!UICONTROL Review] of hoger</p> </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan of vergunningstype u hebt, contacteer uw [!DNL Workfront] beheerder.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## De herhalingen van de mening die aan een bepaald team worden toegewezen
 
-1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Teams]** .
+{{step1-to-team}}
 
 1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![ Schakelaar teampictogram ](assets/switch-team-icon.png), dan of selecteer een nieuw team van het Trommel van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
 
@@ -55,7 +61,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >**[!UICONTROL Current Iteration]** wordt alleen in het linkerdeelvenster weergegeven wanneer deze is toegewezen aan de lay-outsjabloon en er ten minste één taak of uitgave op de herhaling staat. Voor meer informatie, zie [ het linkerpaneel aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 
-1. (Optioneel) Klik op de naam van de specifieke herhaling die u wilt weergeven.\
-   De herhalingsartikelen worden weergegeven.
+1. (Optioneel) Klik op de naam van de specifieke herhaling die u wilt weergeven.
+De herhalingsartikelen worden weergegeven.
 
    ![[!UICONTROL Stories in iteration]](assets/iteration-stories-list-NWE.png)

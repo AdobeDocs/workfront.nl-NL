@@ -1,14 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: burndown
-title: Een alternatief teamschema gebruiken voor burndown-grafieken
+title: Een alternatief teamschema gebruiken voor Burndown-grafieken
 description: De programma's die in  [!DNL Adobe Workfront]  worden bepaald beïnvloeden de burndown grafiek door dagen van (weekends en vakanties) van de inbraak uit te sluiten.
 author: Lisa
 feature: Agile
 exl-id: 72650c19-434d-463a-8924-49219604ff01
-source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
+source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,8 @@ Voor meer informatie over het gebruiken van de burndown grafiek, zie het [ overz
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -34,22 +36,27 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
-   <td> <p>[!UICONTROL Work] of hoger</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
+   <td> <p>Nieuw: [!UICONTROL Standard]</p> 
+   of
+   <p>Huidig: [!UICONTROL Work] of hoger</p> </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan of vergunningstype u hebt, contacteer uw [!DNL Workfront] beheerder.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Een alternatief teamschema gebruiken voor burndown-grafieken
 
 1. Zorg ervoor dat de [!DNL Workfront] beheerder reeds het afwisselende programma heeft gecreeerd, zoals die in [ wordt beschreven creeer een programma ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
-1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Teams]** .
+
+{{step1-to-team}}
 
 1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![ Schakelaar teampictogram ](assets/switch-team-icon.png), dan of selecteer een nieuw team van het Trommel van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
 

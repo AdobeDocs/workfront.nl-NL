@@ -2,13 +2,13 @@
 product-area: agile-and-teams;setup
 navigation-topic: get-started-with-agile-in-workfront
 title: Kanban configureren
-description: U creeert een Kanban of de agile team van de Trommel in  [!DNL Adobe Workfront].
+description: U kunt de volgende opties voor Kanban agile teams vormen tijdens of nadat het team wordt gecreeerd.
 author: Lisa
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '1385'
+source-wordcount: '1396'
 ht-degree: 0%
 
 ---
@@ -46,26 +46,26 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Alle</p> </td> 
   </tr>
 
 <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
    <td> <p>Nieuw: [!UICONTROL Standard]</p> 
    of
    <p>Huidig: [!UICONTROL Work] of hoger</p> </td> 
   </tr>
 
 <tr> 
-   <td role="rowheader">Toegangsniveau</td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot teams bewerken</p>  </td> 
   </tr>
 
 </tbody> 
 </table>
 
-*Neem contact op met de [!DNL Workfront] beheerder als u wilt weten welk abonnement- of licentietype u hebt.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -148,7 +148,7 @@ U kunt als volgt artikelkaarten configureren die aan het mobiele team zijn toege
 1. Klik het **[!UICONTROL Switch Teams]** pictogram ![ pictogram van de Teams van de Schakelaar ](assets/switch-team-icon.png), dan of selecteer een nieuw team van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
 
 1. Selecteer het flexibele team dat u wilt beheren.
-1. Klik op het menu **[!UICONTROL More]** en selecteer vervolgens **[!UICONTROL Edit]**\.
+1. Klik op het menu **[!UICONTROL More]** en selecteer vervolgens **[!UICONTROL Edit]** .
 
    ![ geef team ](assets/edit-team-settings-350x205.png) uit
 
@@ -179,9 +179,9 @@ Om WIP voor uw team van Kanban te beperken:
 
 1. Controleer in de sectie **[!UICONTROL Agile]** in de sectie **[!UICONTROL Methodology]** of Kanban is geselecteerd.
 
-1. Geef in de sectie **[!UICONTROL Story Board]** in het veld **[!UICONTROL WIP Limit]** het maximum aantal items op dat is toegestaan in elke kolom van het [!UICONTROL Kanban] -layout. U kunt voor elke kolom een andere limiet instellen. De maximumgrens u voor elke kolom kunt plaatsen is 100.\
-   Als deze optie is ingesteld, wordt op het artikel [!UICONTROL Kanban] een waarschuwingsbericht weergegeven wanneer de limiet voor een kolom op het artikelbord wordt overschreden. Dit waarschuwingsbericht wordt alleen weergegeven wanneer de WIP-limiet voor het eerst wordt overschreden. Dit waarschuwingsbericht wordt niet weergegeven in kolommen met een status die gelijk is aan [!UICONTROL Complete] .\
-   De grens van het KLOOFJE is eenvoudig een visuele waarschuwing en beperkt uw team niet om meer punten in één enkele kolom te hebben dan de grens u plaatst.
+1. Geef in de sectie **[!UICONTROL Story Board]** in het veld **[!UICONTROL WIP Limit]** het maximum aantal items op dat is toegestaan in elke kolom van het [!UICONTROL Kanban] -layout. U kunt voor elke kolom een andere limiet instellen. De maximumgrens u voor elke kolom kunt plaatsen is 100.
+Als deze optie is ingesteld, wordt op het artikel [!UICONTROL Kanban] een waarschuwingsbericht weergegeven wanneer de limiet voor een kolom op het artikelbord wordt overschreden. Dit waarschuwingsbericht wordt alleen weergegeven wanneer de WIP-limiet voor het eerst wordt overschreden. Dit waarschuwingsbericht wordt niet weergegeven in kolommen met een status die gelijk is aan [!UICONTROL Complete] .
+De grens van het KLOOFJE is eenvoudig een visuele waarschuwing en beperkt uw team niet om meer punten in één enkele kolom te hebben dan de grens u plaatst.
 
    ![ grens van het WIP ](assets/wip-limit-350x193.png)
 

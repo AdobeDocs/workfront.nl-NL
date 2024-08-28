@@ -1,14 +1,14 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
-title: Vlaggen gebruiken op artikelen op het Kanban-bord
+title: Vlaggen gebruiken op artikelen op de Kanban Board
 description: Op het  [!DNL Kanban]  bord, verstrekken de vlaggen een visuele aanwijzing van wanneer een verhaal aan de volgende status klaar is te bewegen. Hierdoor kunnen Kanban-teams een "pull"-benadering gebruiken in plaats van een "push"-benadering bij het verplaatsen van artikelen over statussen.
 author: Lisa
 feature: Agile
 exl-id: e19a007d-737c-42d4-aa69-771d8a9e9fd8
-source-git-commit: 33daf0633701a1c271552e796ffe22a58645c561
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -28,53 +28,57 @@ Houd rekening met het volgende wanneer u markeringen in artikelen gebruikt:
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
+ </col> 
  <col> 
+ </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
-   <td> <p>[!UICONTROL Work] of hoger</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>[!UICONTROL Worker] of hoger</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de [!DNL Workfront] -beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan veranderen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
+   <td> <p>Nieuw: [!UICONTROL Standard]</p> 
+   of
+   <p>Huidig: [!UICONTROL Work] of hoger</p> </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vlaggen gebruiken op artikelen op het [!UICONTROL Kanban] -bord
 
 Een markering in een artikel wijzigen:
 
-1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Teams]** .
+{{step1-to-team}}
 
 1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![ Schakelaar teampictogram ](assets/switch-team-icon.png), dan of selecteer een nieuw [!UICONTROL Kanban] team van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
 
 1. Ga naar het [!UICONTROL Kanban] -bord waar u een markering in een artikel wilt wijzigen.
-1. Vouw de artikeltegel uit om de markering weer te geven.\
-   De markering is standaard ingesteld op **[!UICONTROL On Track]** voor elk artikel.\
+1. Vouw de artikeltegel uit om de markering weer te geven.
+De markering is standaard ingesteld op **[!UICONTROL On Track]** voor elk artikel.
    ![ Kanban kaart ](assets/agile-storycard-kanban-2021-350x308.png)
 
 1. Klik op de huidige markering en selecteer een van de volgende markeringsopties:
 
-   * **[!UICONTROL On Track]:** Het artikel heeft de juiste status en er hoeft op dit moment geen actie te worden ondernomen.\
+   * **[!UICONTROL On Track]:** Het artikel heeft de juiste status en op dit moment hoeft niets te worden gedaan.
 
-     Dit is de standaardvlag voor elk verhaal op het Kanban-bord.\
-      ![ kanban_flag_ontrack.png ](assets/kanban-flag-ontrack.png)
+     Dit is de standaardvlag voor elk verhaal op het Kanban-bord.
+     ![ kanban_flag_ontrack.png ](assets/kanban-flag-ontrack.png)
 
-   * **[!UICONTROL Is Blocked]:** Het artikel kan niet doorgaan naar de volgende status. Wanneer deze markering is ingesteld op een artikel, telt het artikel niet mee voor de WIP-limiet. (Voor meer informatie over de grenzen van WIP, zie het artikel [ Kanban ](../../agile/get-started-with-agile-in-workfront/configure-kanban.md) vormen.\
+   * **[!UICONTROL Is Blocked]:** Het artikel kan niet doorgaan naar de volgende status. Wanneer deze markering is ingesteld op een artikel, telt het artikel niet mee voor de WIP-limiet. (Voor meer informatie over de grenzen van WIP, zie het artikel [ Kanban ](../../agile/get-started-with-agile-in-workfront/configure-kanban.md) vormen.)
 
      ![ kanban_flag_locked.png ](assets/kanban-flag-blocked.png)
 
-   * **[!UICONTROL Ready to Pull]:** Het artikel kan door een ander teamlid naar de volgende status worden verplaatst.\
+   * **[!UICONTROL Ready to Pull]:** Het artikel kan door een ander lid van het team naar de volgende status worden verplaatst.
 
      ![ kanban_flag_ready.png ](assets/kanban-flag-ready.png)
