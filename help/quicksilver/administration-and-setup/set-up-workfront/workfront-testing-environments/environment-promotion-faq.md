@@ -8,10 +8,10 @@ description: Ontdek veelgestelde vragen over de bevordering van het milieu in Wo
 author: Becky
 feature: System Setup and Administration
 role: Admin
-recommendations: noDisplay, noCatalog
-source-git-commit: e2150f344ddc8626389afaaccc7c394f61c2dbc9
+exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
+source-git-commit: 2bbfd449d913a5134c9c36b1ee10567973c56eaa
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ De bevordering van een omgeving tussen domeinen wordt momenteel niet ondersteund
 
 ### Antwoord
 
-Nee. De Bevordering van het milieu is beschikbaar voor zowel IMS-Toegelaten als niet-IMSWorkfront instanties.
+Nee. De Bevordering van het milieu is beschikbaar voor zowel IMS-Toegelaten als niet-IMS Workfront instanties.
 
 ## Hoe kunnen we erachter komen of ons Workfront-exemplaar op een Premier of Ultimate-licentie staat?
 
@@ -73,4 +73,3 @@ Terugdraaien is een topprioriteit en wordt momenteel ontwikkeld. Wij verwachten 
 * &#39;Bestaande gebruiken&#39; is hetzelfde als &#39;de implementatie overslaan&#39; of negeren, omdat de implementatie wordt toegewezen aan het bestaande object in de doelomgeving en er geen wijzigingen in worden aangebracht.
 * Als u objecten wilt overslaan, raden we u aan
 om het even welke voorwerpen die u niet van het bevorderingspakket, of van het bronmilieu direct wilt installeren. Nadat u de objecten hebt verwijderd, stelt u het pakket opnieuw samen.
-

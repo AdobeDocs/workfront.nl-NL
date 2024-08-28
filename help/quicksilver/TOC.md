@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: d049d3c3f6d48b2c9d778740905d76a40620c8e0
+source-git-commit: 816d45225f2d9c7fa91df901a945457c46af7945
 workflow-type: tm+mt
-source-wordcount: '14353'
+source-wordcount: '14359'
 ht-degree: 0%
 
 ---
@@ -502,6 +502,7 @@ ht-degree: 0%
          * [Overzicht van milieubevorderende acties](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)
          * [Een pakket voor milieubescherming maken of bewerken](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
          * [Een pakket voor milieubescherming installeren](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
+         * [Een milieubevorderingspakket terugdraaien](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-rollback.md)
          * [Milieubevordering met behulp van de API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
          * [Veelgestelde vragen over milieubescherming](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)
          * [Problemen met milieubescherming oplossen](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)

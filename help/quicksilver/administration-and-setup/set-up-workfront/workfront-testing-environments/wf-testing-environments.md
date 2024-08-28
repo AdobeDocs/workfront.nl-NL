@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3d362be8-89c2-4699-a984-59c9234b4a0c
-source-git-commit: 6b46e3ca1273b09b67bc52373b675ac7ad80b429
+source-git-commit: 84573688765f7e4d88c941ac8a4d95386bf202de
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,7 @@ Deze sectie bevat de volgende artikelen:
    * [Overzicht van het verplaatsen van objecten tussen Workfront-omgevingen (milieubevordering)](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)
    * [Een pakket voor milieubescherming maken of bewerken](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
    * [Een pakket voor milieubescherming installeren](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
+   * [Een milieubevorderingspakket terugdraaien](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-rollback.md)
    * [De voorwerpen van de beweging tussen  [!DNL Workfront]  milieu&#39;s die  [!DNL Workfront]  Bevordering API van het Milieu gebruiken](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
    * [Veelgestelde vragen over milieubescherming](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)
    * [Problemen met milieubescherming oplossen](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)
