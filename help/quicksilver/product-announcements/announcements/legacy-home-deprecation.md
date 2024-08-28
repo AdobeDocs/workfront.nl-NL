@@ -5,9 +5,9 @@ title: Verouderde handleiding voor afgekeurde startpagina
 description: Deze pagina bevat informatie over de aanstaande veroudering van verouderd startpunt.
 author: Nolan
 feature: Product Announcements
-source-git-commit: 3f1882b555658b2095d99258900f3bba28246c3f
+source-git-commit: 84f7f80314e4acafb0414b806f7b1e1e4b2845fc
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '808'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ We raden beheerders aan:
 
 1. Wijs de rest van uw gebruikers opnieuw toe aan de nieuwe lay-out Startpagina.
 
-Als u dit zo snel mogelijk doet, hebben uw gebruikers de tijd om zich aan de nieuwe ervaring aan te passen en hun nieuwe homepages aan te passen aan hun individuele behoeften.
+Als u dit zo snel mogelijk doet, hebben uw gebruikers de tijd om zich aan de nieuwe ervaring aan te passen en hun nieuwe homepages aan te passen aan hun individuele behoeften. Zie [ verwijderen, toevoegen en herrangschikken widgets in nieuw Huis ](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md) voor informatie over hoe een gebruiker widgets op hun eigen nieuwe homepage kan aanpassen.
 
 ### Volg de Home-ervaring tijdens de ontwikkeling
 
@@ -74,7 +74,7 @@ Nee, deze wordt volledig uit de toepassing verwijderd.
 
 Bijna, behalve:
 
-* Kalender, die momenteel op onze routekaart staat voor het nieuwe Huis.
+* Kalender, die momenteel op onze routekaart voor prioriteiten staat.
 
 * Er zijn momenteel geen tijdstempels beschikbaar voor de vervaldatums van objecten.
 

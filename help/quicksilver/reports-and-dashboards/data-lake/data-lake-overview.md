@@ -2,22 +2,22 @@
 content-type: overview;reference
 product-area: reports and dashboards
 navigation-topic: data connect
-title: Overzicht van Workfront-datumpeer
-description: Een overzicht van de gegevensmeercapaciteit van Workfront
+title: Overzicht Workfront Data Connect
+description: Een overzicht van Workfront Data Connect
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5224c12a-7879-491b-87ec-6173bcf9525c
-source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
+source-git-commit: 84f7f80314e4acafb0414b806f7b1e1e4b2845fc
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 0%
 
 ---
 
-# Overzicht van Data Connect
+# Overzicht Workfront Data Connect
 
-Data Connect biedt ongekende toegang tot Workfront-gegevens met behulp van Snowflake-technologie, zodat u bedrijfskritieke vragen kunt beantwoorden en de waarde van uw processen kunt meten. Met deze mogelijkheid kunnen zakelijke klanten hun gegevens ondervragen met behulp van gegevensvisualisatieprogramma&#39;s rechtstreeks vanuit een Workfront-datumpeer, of Workfront-gegevens exporteren naar een gegevensopslagsysteem in eigendom van de klant.
+Workfront Data Connect biedt ongekende toegang tot Workfront-gegevens met behulp van Snowflake-technologie, zodat u bedrijfskritieke vragen kunt beantwoorden en de waarde van uw processen kunt meten. Met deze mogelijkheid kunnen zakelijke klanten hun gegevens ondervragen met behulp van gegevensvisualisatieprogramma&#39;s rechtstreeks vanuit een Workfront-datumpeer, of Workfront-gegevens exporteren naar een gegevensopslagsysteem in eigendom van de klant.
 
 Abonnees kunnen hun zakelijke inlichtingenprogramma naar keuze (Tableau, Power BI, Domo, Looker, enz.) met elkaar verbinden om gegevensvisualisaties te maken met de volgende gegevenstypen:
 

@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 816d45225f2d9c7fa91df901a945457c46af7945
+source-git-commit: 41fe217aee733e8382416366542845d90c1b10fd
 workflow-type: tm+mt
-source-wordcount: '14359'
+source-wordcount: '14358'
 ht-degree: 0%
 
 ---
@@ -438,8 +438,8 @@ ht-degree: 0%
          * [Nieuwe ervaring met opmerkingen](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
          * [Nieuwe releaseactiviteit voor opmerkingervaring](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
          * [Nieuwe veelgestelde vragen over opmerkingen](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
-      * Workfront data Lake bèta {#data-lake-beta}
-         * [bèta-informatie over Workfront data Lake](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
+      * Workfront Data Connect bèta {#data-lake-beta}
+         * [Workfront Data Connect bèta-informatie](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
 * Beheer en installatie {#administration-and-setup}
    * [Beheer en instellingen: artikelindex](administration-and-setup/administration-and-setup.md)
    * Aan de slag met beheer {#get-started-administration}
@@ -1734,12 +1734,12 @@ ht-degree: 0%
       * [De visualisatie van projectactiviteit weergeven in Verbeterde analyse](enhanced-analytics/project-activity-overview.md)
       * [Bekijk de visie van de projectreemap in Verbeterde analyse](enhanced-analytics/project-treemap-overview.md)
       * [De activiteit per teamvisualisatie bekijken in Uitgebreide analyse](enhanced-analytics/activity-by-team-overview.md)
-   * Workfront data Lake {#data-lake}
-      * [Overzicht van Workfront-datumpeer](reports-and-dashboards/data-lake/data-lake-overview.md)
+   * Workfront Data Connect {#data-lake}
+      * [Overzicht Workfront Data Connect](reports-and-dashboards/data-lake/data-lake-overview.md)
       * [Een lezeraccount maken](reports-and-dashboards/data-lake/create-a-reader-account.md)
-      * [Een verbinding tot stand brengen met het datumpigment van Workfront](reports-and-dashboards/data-lake/share-data-externally.md)
-      * [Gegevenswoordenboek van Workfront-gegevensmeergegevens](reports-and-dashboards/data-lake/data-dictionary.md)
-      * [Voorbeelden van query&#39;s voor basisgegevens in Workfront](reports-and-dashboards/data-lake/basic-query-examples.md)
+      * [Verbinding maken met Workfront Data Connect](reports-and-dashboards/data-lake/share-data-externally.md)
+      * [Workfront Data Connect-gegevenswoordenboek](reports-and-dashboards/data-lake/data-dictionary.md)
+      * [Voorbeelden van query&#39;s voor Workfront Data Connect](reports-and-dashboards/data-lake/basic-query-examples.md)
 * Bronnen beheren {#manage-resources}
    * [Bronnen beheren](resource-mgmt/manage-resources.md)
    * Bronbeheer {#resource-management}
