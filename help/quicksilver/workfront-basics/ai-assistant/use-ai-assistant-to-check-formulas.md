@@ -5,7 +5,7 @@ description: U kunt de Medewerker van AI gebruiken om fouten in uw ongeldige dou
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5f144a6f-5c2a-42fc-a961-ab9066432d93
-source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
+source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 0%
@@ -68,3 +68,4 @@ Een ongeldige berekende veldexpressie herzien:
 >Wij adviseren testend het berekende gebied om ervoor te zorgen dat het het verwachte resultaat terugwint.
 
 Voor meer informatie over berekende gebieden in Workfront, zie [ berekende gebieden aan een vorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen.
+
