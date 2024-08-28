@@ -1,17 +1,16 @@
 ---
 title: Overzicht van werkruimten
 description: Een werkruimte is een inzameling van verslagtypes die door een team worden gebruikt en vertegenwoordigt de het werklevenscyclus van het team. U kunt werkruimten in Adobe Workfront Planning volledig aanpassen aan de workflows van uw organisatie.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
+source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 0%
 
 ---
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # Overzicht van werkruimten
 
@@ -19,7 +18,6 @@ ht-degree: 0%
 
 Een werkruimte is een verzameling recordtypen die door een organisatie-eenheid worden gebruikt en die de levenscyclus en processen van het werk van de eenheid vertegenwoordigt. U kunt werkruimten volledig aanpassen in Adobe Workfront Planning.
 
-<!--replace shot below with new tab name for Workspaces I'm on-->
 
 ![](assets/workspaces-landing-page-admin-account.png)
 

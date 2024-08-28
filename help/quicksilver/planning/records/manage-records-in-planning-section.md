@@ -1,23 +1,20 @@
 ---
 title: Records beheren in het gedeelte Planning van Adobe Workfront-objecten
 description: U kunt de verslagen van de Planning van Workfront tonen die met de voorwerpen van Adobe Workfront in de sectie van de Planning van een voorwerp van Workfront, in het linkerpaneel worden verbonden.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!--add also Group and Company when they are available-->
-
-<!-- opening the Details preview and page is not possible yet - hid those steps, but add them when released-->
-
 
 # Records beheren in het gedeelte Planning van Adobe Workfront-objecten
 
@@ -34,8 +31,6 @@ Het gedeelte Planning is beschikbaar voor de volgende Workfront-objecten:
 * Company-->
 
 ## Toegangsvereisten
-
-<!--Updated for GA-->
 
 +++ Breid uit om toegangsvereisten voor de Planning van Workfront te bekijken.
 

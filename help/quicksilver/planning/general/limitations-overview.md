@@ -5,9 +5,9 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
+source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '309'
 ht-degree: 1%
 
 ---
@@ -30,8 +30,8 @@ In de volgende tabel staan de limieten voor het aantal objecten dat u kunt maken
 | Aantal secties voor één werkruimte | 50 |
 | Aantal recordtypen voor één werkruimte | 1.000 (dit omvat recordtypen van alle secties en die die wanneer het gebruiken van een werkruimtesjabloon worden gecreeerd) |
 | Aantal records voor één recordtype | 25.000 |
-| Aantal records voor één werkruimte | 25.000 voor klanten met het Plan van de Planning <br> 500.000 voor klanten met Planning plus plan |
-| Aantal totale verslagen voor één geval van het type van Planning van Workfront | 500.000 voor klanten met het Plan van de Planning <br> 2 miljoen voor klanten met Planning plus plan |
+| Aantal records voor één werkruimte | 25.000 voor klanten met Planning <br> 500.000 voor klanten met Planning Plus |
+| Aantal totale records voor één instantie van Workfront Planning | 500.000 voor klanten met het Plan van de Planning <br> 2 miljoen voor klanten met Planning plus |
 | Aantal velden voor één recordtype of taxonomie | 500 |
 | Aantal tekens voor een tekstveld | 1.000 tekens |
 | Grootte van het bestand dat u in een tabel met recordtypen kunt plakken | 1 MB |

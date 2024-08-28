@@ -1,11 +1,11 @@
 ---
-title: Voorbeeld van het verbinden van recordtypen en records
+title: Voorbeeld van het verbinden van Recordtypes en Records
 description: In dit artikel wordt een voorbeeld beschreven van hoe u een verbinding kunt maken tussen een Adobe Workfront-recordtype voor planningen en een Workfront-projectobjecttype. Het beschrijft ook hoe u een verslag van de Planning van Workfront met een individueel project kunt verbinden.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
+source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
 workflow-type: tm+mt
 source-wordcount: '1801'
 ht-degree: 0%

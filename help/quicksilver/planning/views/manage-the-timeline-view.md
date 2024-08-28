@@ -1,30 +1,19 @@
 ---
 title: De tijdlijnweergave beheren
 description: Open en bewerk records in een tijdlijnweergave op de pagina met recordtypen voor Adobe Workfront Planning. Pas de tijdlijn aan met filters, groepen en instellingen. Gebruik de functie Onderverdeling om verbonden records weer te geven.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
-source-wordcount: '2636'
+source-wordcount: '2621'
 ht-degree: 0%
 
 ---
 
 # De tijdlijnweergave beheren
-
-<!--
-title: Manage the timeline view 
-description: You can display records in a timeline view, when accessing the record type page in Adobe Workfront Planning. 
-hidefromtoc: yes
-hide: yes
-author: Alina
-feature: Work Management
-role: User
--->
-
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 {{planning-important-intro}}
 
@@ -34,11 +23,9 @@ Voor informatie over verslagmeningen, zie [ verslagmeningen ](/help/quicksilver/
 
 ## Toegangsvereisten
 
-<!--Updated for GA-->
++++ Breid uit om toegangsvereisten voor de Planning van Workfront te bekijken.
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
+U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -79,8 +66,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-licentie*</p></td> 
-   <td> <ul><li><p>Willekeurig, om Workfront-planningsinformatie weer te geven</p></li>
-   <li><p>Standaard, voor het maken van werkruimten</p></li></ul>
+   <td><p> Standaard </p>
    <p>Workfront Planning is niet beschikbaar voor oudere Workfront-licenties</p> 
   </td> 
   </tr> 
@@ -92,7 +78,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 <tr> 
    <td role="rowheader"><p>Objectmachtigingen</p></td> 
    <td>   <p>Rechten beheren voor een weergave</p>  
-   <p>Machtigingen weergeven of hoger voor een weergave om de weergave-instellingen tijdelijk te wijzigen</p> </td> 
+   <p>Machtigingen weergeven voor een weergave om de weergave-instellingen tijdelijk te wijzigen</p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Lay-outsjabloon</p></td> 
@@ -102,6 +88,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 *Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 <!--OLD: 
 
@@ -161,7 +149,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 *For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
-+++
 
 ## Een tijdlijnweergave beheren {#manage-a-timeline-view}
 
