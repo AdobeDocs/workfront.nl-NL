@@ -3,7 +3,7 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 35bc6db1bc9244db6b21a175cee8e02f8188312e
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
 source-wordcount: '14363'
 ht-degree: 0%
@@ -1513,7 +1513,7 @@ ht-degree: 0%
       * [Werk- en teamverzoeken beheren](people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)
    * Tips, trucs en probleemoplossing voor teams en groepen {#tips-tricks-people-teams-groups}
       * [Tips, trucs en probleemoplossing voor teams en groepen](people-teams-and-groups/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-grps.md)
-      * [Gebruikersnaam al in gebruik](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
+      * [Gebruikersnaam is al in gebruik](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
 * Rapporteren {#reporting}
    * [Rapporten en dashboards: artikelindex](reports-and-dashboards/reports-and-dashboards-overview.md)
    * Canvasdashboards {#canvas-dashboards}

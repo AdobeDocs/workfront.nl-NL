@@ -2,12 +2,12 @@
 content-type: overview
 product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
-title: Teams overzicht
+title: Teams - Overzicht
 description: Het doel van een team in Adobe Workfront is de levensechte dynamiek van functionele werkgroepen op de werkplek vast te leggen.
 author: Lisa
 feature: People Teams and Groups
 exl-id: c62c0789-2aaa-4091-9c45-b9e7801043a9
-source-git-commit: 3706921e4705a05d9d1fa18a3d242632b5e0616b
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 0%

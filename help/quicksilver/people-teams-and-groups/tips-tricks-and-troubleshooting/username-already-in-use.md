@@ -7,16 +7,18 @@ description: Lees deze tips als er een fout optreedt die de gebruikersnaam al ge
 author: Lisa
 feature: People Teams and Groups
 exl-id: dc9accf0-7ef4-4555-9b1c-d69b2110f3da
-source-git-commit: 24bb9b5c0836196a1c6e15f828eb47bbd489ef25
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
 
-# Gebruikersnaam al in gebruik
+# Gebruikersnaam is al in gebruik
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -24,20 +26,27 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
-   <td> <p>Alle</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Adobe Workfront-plan</p> </td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie</strong></td> 
-   <td> <p>[!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td>
+   <p>Nieuw: Standaard</p>
+   <p>of</p>
+   <p>Huidig: Plan</p></td>
   </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Configuraties op toegangsniveau</strong></td> 
-   <td> <p>[!UICONTROL System administrator]</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Systeembeheerder</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vraag
 
@@ -57,7 +66,8 @@ Dit kan voorkomen omdat de gebruikersnaam of het e-mailadres niet uniek is in de
 
 Zorg ervoor dat de gebruikersnaam en het e-mailadres uniek zijn in de huidige [!DNL Workfront] -instantie:
 
-1. Als de [!DNL Workfront] beheerder klikt u op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en vervolgens op **[!UICONTROL Users]** .
+{{step-1-to-users}}
+
 1. Kijk in de lijst met personen in de kolom **[!UICONTROL Email]** om ervoor te zorgen dat er geen dubbele e-mails voorkomen.
 1. Voeg een kolom voor gebruikersnaam toe aan de weergave.
 

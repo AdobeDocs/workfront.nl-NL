@@ -7,9 +7,9 @@ description: Een aanvraag vertegenwoordigt een taak die in behandeling is of gee
 author: Lisa
 feature: People Teams and Groups, Work Management
 exl-id: ef96e520-0d5f-4180-a27a-1fbbffff8f2b
-source-git-commit: 9693ac3792fec3eca6218a228f2067519ed433ac
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
@@ -24,26 +24,36 @@ Een aanvraag vertegenwoordigt een taak die in behandeling is of geeft een toewij
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
-   <td> <p>Alle</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
-   <td> <p>Controleren of hoger om een aanvraag toe te wijzen of eraan te werken; Werk of hoger om een aanvraag opnieuw toe te wijzen</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td>
+   <p>Om een verzoek toe te wijzen of te werken:
+   <p>Nieuw: Licht of hoger </br>
+    of </br>
+   Huidig: Controleren of hoger</p>
+   <p>Een aanvraag opnieuw toewijzen:
+   <p>Nieuw: Standaard </br>
+    of </br>
+   Huidig: Werk of hoger</p></td>
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan of vergunningstype u hebt, contacteer uw [!DNL Workfront] beheerder.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Een aanvraag toewijzen aan een team {#assign-a-request-to-a-team}
 
@@ -64,7 +74,7 @@ U kunt handmatig een aanvraag aan een team toewijzen vanaf de teampagina, zoals 
 
 Om een verzoek aan een team van de teampagina manueel toe te wijzen:
 
-1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Teams]** .
+{{step1-to-team}}
 
 1. Klik het **[!UICONTROL Switch team]** pictogram van het pictogram ![ team van de Schakelaar ](assets/switch-team-icon.png), dan of selecteer een nieuw team van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
 
@@ -80,7 +90,8 @@ Om een verzoek aan een team van de teampagina manueel toe te wijzen:
 
 U kunt verzoeken opnieuw toewijzen die aan uw team zijn toegewezen:
 
-1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Teams]** .
+{{step1-to-team}}
+
 1. Klik het **[!UICONTROL Switch team]** pictogram van het pictogram ![ team van de Schakelaar ](assets/switch-team-icon.png), dan of selecteer een nieuw team van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
 1. Selecteer **[!UICONTROL Team Requests]** in het navigatievenster aan de linkerkant.
 1. Klik op het pictogram **[!UICONTROL Reassign]** .

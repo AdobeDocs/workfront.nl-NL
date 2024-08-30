@@ -1,14 +1,14 @@
 ---
 product-area: user-management
 navigation-topic: collaboration
-title: Het organigram weergeven
+title: De organisatieschema weergeven
 description: Met de functie voor het organigram kunt u het organigram weergeven dat is gekoppeld aan een bepaalde Adobe Workfront-gebruiker. Organisatiekaarten zijn een geweldige manier om de structuur van een bepaalde afdeling te visualiseren.
 author: Lisa
 feature: People Teams and Groups
 exl-id: 10c1fc55-8df4-4c2a-9251-ee6db9ee6c0d
-source-git-commit: 9693ac3792fec3eca6218a228f2067519ed433ac
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
@@ -19,30 +19,35 @@ Met de functie voor het organigram kunt u het organigram weergeven dat is gekopp
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
-   <td> <p>Alle</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Adobe Workfront-plan</p> </td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
-   <td> <p>Controleren of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td>
+   <p>Nieuw: Licht of hoger</p>
+   <p>of</p>
+   <p>Huidig: Controleren of hoger</p></td>
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan of vergunningstype u hebt, contacteer uw [!DNL Workfront] beheerder.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## De organigram van een gebruiker zoeken
 
-1. Klik op het pictogram **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op uw gebruikersnaam naast de profielafbeelding.
+{{step1-click-profile-pic}}
 
 1. Klik in het linkerdeelvenster op **[!UICONTROL Org Chart]** .\
    ![ grafiek van de Organisatie ](assets/org-chart.png)
