@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 32107381545777cbe7a6696f7a384287ef781a1a
+source-git-commit: ffa599ff0e25ba960ce01f3f492482ee2e747122
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1300'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
 >
 >| Maandelijkse release | Driemaandelijkse release |
 >|----|----|
->| <ul><li>24.8 (augustus 2024)</li><li>24.9 (september 2024)</li><li>24.10 (oktober 2024)</li></ul> | <ul><li>24.10 (oktober 2024)</li></ul> |
+>| <ul><li>24.8 (15 augustus 2024)</li><li>24.9 (12 september 2024)</li><li>24.10 (oktober 2024)</li></ul> | <ul><li>24.10 (oktober 2024)</li></ul> |
 >
 >Merk op dat voor de definitieve versie van elk kwartaal (24.10 dit kwartaal), gebruikers op het snelle versieschema één dag vroeg de versie zullen ontvangen.
 >
@@ -58,6 +58,25 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}"> het milieu bevorderingspakketten van de Terugdraaiing </a></p>
+                        <p>Om de bevordering van het milieu flexibeler en gemakkelijker te gebruiken te maken, hebben wij terugschroeven van prijzen functionaliteit toegelaten. Nu kunt u pakketten binnen 24 uur terugdraaien, zodat u eerdere configuraties die zijn beïnvloed door een milieubevorderingspakket eenvoudiger kunt herstellen.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 29 augustus 2024</p>
+                            </li>
+                            <li>
+                                <p>Productie voor snelle release: met de release van 24,9 (12 september 2024)</p>
+                            </li>
+                            <li>
+                                <p>Productieversie voor alle klanten: met de release van 24.10 (oktober 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}"> de knoop van de Lay-out op de ontwerper van de douanevorm staat twee of drie kolommen </a> toe</p>
                         <p>Met de knop Indeling in de aangepaste formulierontwerper kunt u kiezen uit een werkgebied met twee of drie kolommen. De oorspronkelijke formulierontwerper gebruikt drie kolommen en de veldinstellingen worden uiterst rechts weergegeven. Als u twee kolommen selecteert, worden de veldinstellingen in de linkerkolom naast de veldbibliotheek weergegeven.</p>
                     </td>
@@ -67,7 +86,7 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
                                 <p>Voorvertoningsrelease: 12 augustus 2024</p>
                             </li>
                             <li>
-                                <p>Productie voor snelle release: met de release van 24.9 (september 2024)</p>
+                                <p>Productie voor snelle release: met de release van 24,9 (12 september 2024)</p>
                             </li>
                             <li>
                                 <p>Productieversie voor alle klanten: TBD</p>
@@ -192,6 +211,7 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}"> Chromium update voor de Desktop Proofing Viewer </a></p>
+                        [!BADGE in productie ]{type=Informative}
                         <p>We upgraden de Desktop Proofing Viewer naar ondersteuning voor Chromium 126.0.6478.127, waarmee problemen met UI-elementen in interactieve proefdrukken worden opgelost.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -217,6 +237,7 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md" class="MCXref xref" xrefformat="{para}"> Algemene beschikbaarheid van de Planning van Adobe Workfront </a></p>
+                        [!BADGE in productie ]{type=Informative}
                         <p>Workfront Planning is beschikbaar voor alle klanten die een Workfront Planning-licentie hebben aangeschaft, in aanvulling op hun Workfront-licentie. Neem contact op met uw accountvertegenwoordiger voor meer informatie over Workfront Planning.</p>
                         <p>Voor de recentste de versieinformatie van de Planning van Workfront elk kwartaal, zie de <a href="#workfront-planning-enhancements"> de Plaatsingsverhogingen van Workfront </a> hieronder sectie.</p>
                     </td>
@@ -231,6 +252,7 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}"> de Medewerker van de Adobe AI beschikbaar in Workfront </a></p>
+                        [!BADGE in productie ]{type=Informative}
                         <p>Om het voor u gemakkelijker te maken om uw werk te voltooien, hebben wij de Medewerker van AI van Adobe aan Workfront toegevoegd. AI Assistant kan u helpen door:</p>
                         <ul>
                             <li>Het samenvatten van het werkpunten en documenten, toestaand u om een algemeen inzicht in taken, projecten, en activa snel te bereiken.</li>

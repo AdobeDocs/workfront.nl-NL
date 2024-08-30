@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: f2da081c-bdce-4012-9797-75be317079ef
-source-git-commit: 84f7f80314e4acafb0414b806f7b1e1e4b2845fc
+source-git-commit: ffa599ff0e25ba960ce01f3f492482ee2e747122
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ In dit voorbeeld wordt getoond hoe u een query kunt samenstellen om aangepaste g
 
 ### Scenario:
 
-Uw organisatie die een douaneformulier genoemd de Integratie van de Financiën gebruikt. Het formulier is gekoppeld aan elk project en bevat de volgende velden:
+Uw organisatie gebruikt een douanevorm genoemd de Integratie van de Financiën. Het formulier is gekoppeld aan elk project en bevat de volgende velden:
 
 * **BedrijfsEenheid** - een douanegebied dat een koord bevat.
 * **ProjectID** - een douanegebied dat een numeriek koord bevat.
