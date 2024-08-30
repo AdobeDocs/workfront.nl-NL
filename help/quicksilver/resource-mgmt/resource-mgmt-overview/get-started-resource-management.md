@@ -2,14 +2,14 @@
 content-type: overview
 product-area: resource-management
 navigation-topic: resource-management-overview
-title: Aan de slag met Resource Management
+title: Aan de slag met bronnenbeheer
 description: Met resourcebeheer kunt u uw systeem zodanig configureren dat het gebruik van uw bronnen nauwkeurig wordt voorspeld op basis van hun beschikbaarheid, zodat het werk dat moet worden uitgevoerd op tijd en op budget wordt voltooid.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
+source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1173'
 ht-degree: 0%
 
 ---
@@ -137,11 +137,11 @@ De volgende gebruikers hebben toegang tot de hulpmiddelen van het Beheer van het
 U moet een van de volgende gebruikers zijn en over de volgende toegang en machtigingen beschikken om toegang te krijgen tot hulpmiddelen voor bronnenbeheer:
 
 * De systeembeheerder.
-* Een gebruiker met een licentie voor abonnementen.
+* Een gebruiker met een Standard- of Plan-licentie.
 
   Een gebruiker met een werkvergunning kan de Balancer van de Werklast van een project gebruiken en taken en toewijzingen beheren.
 
-  Naast een werkvergunning of een hogere vergunning, moet u het volgende hebben om specifieke hulpmiddelen van het middelbeheer te gebruiken:
+  Naast een werkvergunning of een hogere vergunning (of een Vergunning Standaard), moet u het volgende hebben om specifieke hulpmiddelen van het middelbeheer te gebruiken:
 
    * Toegang tot bronnenbeheer bewerken (niet nodig voor het uitvoeren van toewijzingen in Workload Balancer)
    * Toegang tot financiële gegevens bewerken om kosteninformatie weer te geven in de functie voor middelenplanner
@@ -168,7 +168,6 @@ U moet aan een reeks vereisten voldoen voordat u de hulpmiddelen voor resourcebe
 Raadpleeg de volgende bronnen voor informatie over de vereisten voor elk hulpprogramma voor resourcebeheer in Workfront:
 
 * De sectie [ Vereisten voor het werken in de Planner van het Middel ](../../resource-mgmt/resource-planning/get-started-resource-planner.md#prerequisites-for-working-in-the-resource-planner) in het artikel [ overzicht van de Planner van het Middel ](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
-  <!--remove this at production: * The section "Prerequisites" in the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).-->
 * De sectie [ Beste praktijken voor het gebruiken van de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer) in het artikel [ Overzicht van de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 * [ toegang nodig aan begrotingsmiddelen in Adobe Workfront ](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 * [ toegang nodig om middelen in de Balancer van de Werklast te beheren ](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
+source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -110,13 +110,25 @@ Wanneer u gebruikersvoorkeuren opnieuw instelt, worden sommige voorkeuren terugg
 1. Selecteer **login als**.
 1. Typ de naam van de gebruiker wiens voorkeuren u wilt herstellen en klik vervolgens op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst.
 1. Selecteer **Login**.
-1. Voeg in het veld URL boven aan uw webbrowser `/resetUser` toe na `workfront.com` .
+1. Als uw organisatie niet aan de Adobe Verenigde Ervaring is geregistreerd, volg deze stap:
 
-   >[!NOTE]
-   >
-   >Dit is hoofdlettergevoelig. De U moet een hoofdletter hebben en de overige tekens moeten in kleine letters staan. Bijvoorbeeld:
-   >
-   >`https://company_domain.my.workfront.com/resetUser`
+   * Voeg in het veld URL boven aan uw webbrowser `/resetUser` toe na `workfront.com` .
+
+     >[!NOTE]
+     >
+     >Dit is hoofdlettergevoelig. De U moet een hoofdletter hebben en de overige tekens moeten in kleine letters staan. Bijvoorbeeld:
+     >
+     >`https://company_domain.my.workfront.com/resetUser`
+
+1. Als uw organisatie aan de Adobe Verenigde Ervaring is geregistreerd, volg deze stap:
+
+   * Voeg in het veld URL boven aan uw webbrowser `/resetUser` toe na `workfront` .
+
+     >[!NOTE]
+     >
+     >Dit is hoofdlettergevoelig. De U moet een hoofdletter hebben en de overige tekens moeten in kleine letters staan. Bijvoorbeeld:
+     >
+     >`https://experience.adobe.com/#/@company/so:(domain)-(environment)/workfront/resetUser`
 
 1. Pers **gaat** binnen.
 1. Om alle gebruikersvoorkeur terug te stellen, selecteer **Terugstellen**.
