@@ -1,14 +1,14 @@
 ---
 title: "Adobe Workfront Planning Notifications: Article Index"
-description: Wanneer iemand u in een recordopmerking van tags voorziet, ontvangt u mogelijk e-mail- of in-app-berichten voor die tag. Het type van berichten dat u ontvangt hangt af van of uw bedrijf een Adobe Verenigde klant van de Ervaring of niet is. In de volgende artikelen wordt beschreven welk type berichten voor Workfront-planning u ontvangt en hoe u uw voorkeuren kunt beheren.
+description: U kunt een e-mail- of een bericht in de app ontvangen wanneer iemand u in een recordopmerking van tags voorziet, of u om machtigingen vraagt of verleent aan een weergave of werkruimte. In de volgende artikelen wordt het type Workfront-planningsmeldingen beschreven dat u kunt ontvangen en hoe u uw berichtgevingsvoorkeuren kunt beheren.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 9c2f5b14-77c5-42fd-83ad-acbe7da801bd
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,7 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-Wanneer iemand u in een recordopmerking van tags voorziet, kunt u een e-mail of een melding in de app voor die tag ontvangen.
-
-Het type van berichten dat u ontvangt hangt af van of uw bedrijf een Adobe Verenigde klant van de Ervaring of niet is.
+U kunt een e-mail- of een bericht in de app ontvangen wanneer iemand u in een recordopmerking van tags voorziet, of u om machtigingen vraagt of verleent aan een weergave of werkruimte.
 
 In de volgende artikelen wordt beschreven welk type berichten u ontvangt over Workfront Planning en hoe u uw voorkeuren kunt beheren:
 

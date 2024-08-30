@@ -6,9 +6,9 @@ description: U kunt een update toevoegen aan een Adobe Workfront-object (project
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 67deb48ebc90dd4a93c2af1cb89442ee2486cb16
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '2984'
+source-wordcount: '3007'
 ht-degree: 0%
 
 ---
@@ -378,7 +378,7 @@ U kunt uw updates verbeteren met RTF-bestanden of door er verschillende items aa
    1. Klik in de update op de plaats waar u een koppeling wilt invoegen.
    1. Op de **Rijke toolbar van de Tekst**, klik het **** pictogram van de Hyperlink ![](assets/link-icon.png).
 
-   1. In **creeer de doos van de Verbinding** die, onder **URL** verschijnt, type of kleef URL van de bron waaraan u wilt verbinden.
+   1. In **creeer de doos van de Verbinding**, onder **URL**, type of kleef URL van de bron waaraan u wilt verbinden.
 
    1. Onder **Tekst om** te tonen, typ of kleef de verbindingstekst.
    1. Klik **sparen**.
@@ -386,7 +386,7 @@ U kunt uw updates verbeteren met RTF-bestanden of door er verschillende items aa
 1. (Optioneel) Voer een van de volgende handelingen uit om een afbeelding aan de update te koppelen:
 
    * Sla de afbeelding op onze computer op en sleep deze naar het gebied Nieuwe opmerking.
-   * Kopieer een schermafbeelding van uw computer en plak deze vervolgens in de opmerking.<!-- This is not available in the legacy commenting experience.-->
+   * Kopieer een schermafbeelding van uw computer en plak deze vervolgens in de opmerking.
    * Klik **voeg beeld** pictogram ![](assets/add-image-mountain-with-plus-icon.png) toe en doorblader aan het beeld op uw computer.
 
 
@@ -399,7 +399,8 @@ U kunt uw updates verbeteren met RTF-bestanden of door er verschillende items aa
    >* Uw Workfront-beheerder moet het toevoegen van afbeeldingen inschakelen in het gedeelte Voorkeuren voor feeds bijwerken van het gebied Workfront Interface voordat u de pictogrammen Afbeelding of Bijlage toevoegen kunt zien. Voor informatie, zie [ voorkeur voor gebruikersupdates ](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md) vormen.
    >* De maximale bestandsgrootte voor afbeeldingen is 7 MB. Ondersteunde bestandstypen zijn .jpg, .gif en .png.
    >* Afbeeldingen zijn toegankelijk vanuit de sectie Updates van een object en zijn ook beschikbaar in het gebied Documenten onder het hoofdmenu.
-   >* U kunt de afbeelding plakken door met de rechtermuisknop op de nieuwe opmerking te klikken of door op CTRL + V voor Windows (of  V voor Mac) te drukken op het toetsenbord.
+   >U kunt een schermafbeelding van uw computer kopiëren met behulp van een toetsenbordcombinatie, of bijvoorbeeld de functie Scherm afdrukken (op Windows-computers).
+   >* U kunt het beeld kleven door in de nieuwe commentaar met de rechtermuisknop aan te klikken dan **Deeg**, of door CTRL + V voor Vensters (of v voor Mac) op uw toetsenbord te drukken.
    >* U kunt een update verzenden met een afbeelding en geen tekst.
    >* Wanneer u een opmerking verwijdert die een afbeelding bevat, wordt de afbeelding verwijderd uit de sectie Updates en uit het gebied Documenten. De afbeelding wordt ook verwijderd uit het gebied Documenten wanneer u een opmerking bewerkt en de afbeelding verwijdert.
    >* Wanneer iemand een afbeelding verwijdert die is gekoppeld aan een opmerking in het gebied Documenten, wordt deze ook uit de opmerking verwijderd.

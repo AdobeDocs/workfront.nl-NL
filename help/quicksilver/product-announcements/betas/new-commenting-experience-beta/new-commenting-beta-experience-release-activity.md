@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
-source-git-commit: 3bb0baa2e8831827f32156b1772fa9ee33694950
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
 source-wordcount: '1867'
 ht-degree: 0%
@@ -33,9 +33,9 @@ ht-degree: 0%
 >
 >Het bètaprogramma voor de nieuwe opmerkingservaring begon in april 2023 en eindigde in oktober 2023, met de release van oktober 2023.
 > 
+>Alle functies die in de nieuwe opmerkingervaring zijn opgenomen, zijn sinds 11 april 2024 beschikbaar voor alle klanten in de productieomgeving.
 >Voor meer informatie, zie [ Nieuwe het becommentariëren ervaring ](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->Alle functies die in de nieuwe opmerkingervaring zijn opgenomen, zijn sinds 11 april 2024 beschikbaar voor alle klanten in de productieomgeving.
 
 ## Nieuwe locatie voor opmerkingervaring en tijdlijn van release
 

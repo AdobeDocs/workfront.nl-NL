@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,8 @@ U kunt e-mailmeldingen ontvangen van Workfront Planning wanneer de volgende scen
 
   Voor informatie over het etiketteren van anderen in een verslagcommentaar, zie [ recordcommentaren beheren ](/help/quicksilver/planning/records/manage-record-comments.md).
 * Iemand vraagt uw toestemming om een mening of een werkruimte te openen
-* Iemand bevestigt dat uw toegang is verleend voor een weergave of werkruimte <!--verify this-->
-* Iemand heeft uw toegang voor een mening of een werkruimte geweigerd. <!--verify this-->
+* Iemand bevestigt dat uw toegang is verleend voor een weergave of werkruimte <!--Isk confirmed that there is nno email for denying access but did not test-->
+
 
 ## Toegangsvereisten
 
@@ -63,7 +63,7 @@ U kunt e-mailmeldingen ontvangen van Workfront Planning wanneer de volgende scen
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-platform</p></td> 
    <td> 
-<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden genegeerd om tot alle mogelijkheden van de Planning van Workfront te kunnen toegang hebben.</p> 
+<p>De instantie van uw organisatie van Workfront moet aan de Adobe Verenigde Ervaring worden genegeerd.</p> 
 <p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
    </td> 
    </tr> 
@@ -165,6 +165,10 @@ OLD:
 1. (Voorwaardelijk) als beschikbaar, klik **Mening alle berichten**. <!--check with Lilit - do non-IMS users have this button??-->
 De **Berichten** pagina opent in Adobe Experience Cloud. Alle berichten van alle Adobe Experience Cloud-toepassingen worden weergegeven.
 
-## E-mailmeldingen beheren bij het aanvragen, toekennen of weigeren van machtigingen voor een weergave of werkruimte
+## E-mailmeldingen beheren wanneer machtigingen worden aangevraagd en verleend
+
+U ontvangt e-mailmeldingen wanneer iemand u machtigingen aanvraagt of verleent aan een weergave of werkruimte.
 
 Voor informatie over het verzoeken van, het verlenen van, of het ontkennen van toestemmingen aan een mening of een werkruimte, zie {de toestemmingen van 0} Verzoek aan een mening of een werkruimte ](/help/quicksilver/planning/access/request-permissions.md).[
+
+Voor informatie over het beheren van uw berichten van de Planning van Workfront, zie [ de het berichtvoorkeur van de Planning van Adobe Workfront beheren ](/help/quicksilver/planning/notifications/manage-notification-preferences.md).

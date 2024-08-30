@@ -6,9 +6,9 @@ description: De vooruitgang van het doel wordt gedreven door vooruitgangsindicat
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '834'
 ht-degree: 0%
 
 ---
@@ -35,12 +35,6 @@ Neem contact op met uw Workfront-accountmanager voor meer informatie over een Wo
 Voor extra informatie over toegang tot de Doelen van Workfront, zie [ Vereisten om de Doelen van Workfront ](../../workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
 
 Adobe Workfront berekent automatisch de voortgang van het doel op basis van de voortgangsindicatoren.
-
-## Vereisten
-
-U moet het volgende hebben voordat u kunt beginnen:
-
-* Een lay-outsjabloon die het gebied Doelen in het hoofdmenu bevat.
 
 ## Overzicht van de voortgang en drempel van het doel
 

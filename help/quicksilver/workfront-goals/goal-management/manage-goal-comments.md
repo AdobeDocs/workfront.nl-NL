@@ -6,9 +6,9 @@ description: U kunt opmerkingen toevoegen aan alle doelen die u kunt weergeven i
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -46,9 +46,8 @@ U moet de volgende toegang hebben om de handelingen uit te voeren die in dit art
    <td role="rowheader">Adobe Workfront-abonnement*</td> 
    <td> 
    <p>Voor het nieuwe plan en de nieuwe licentiestructuur:
-  <ul><li>Een ultiem plan </li>
-  of
-  <li>Een extra licentie voor Adobe Workfront Goals voor de Adobe Workfront-plannen voor de Premier of Select. </li></ul> </p>
+  <ul><li>Een ultiem plan </li></ul>
+   </p>
 <p>Voor het huidige plan en de licentiestructuur: 
 <ul><li> Een Pro of hoger </li>
   <li>Een Adobe Workfront Goals-licentie in aanvulling op een Workfront-licentie.</li></ul></p>
@@ -89,95 +88,90 @@ U moet de volgende toegang hebben om de handelingen uit te voeren die in dit art
 
 *Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Vereisten
-
-U moet het volgende hebben voordat u kunt beginnen:
-
-* Een lay-outsjabloon die het gebied Doelen in het hoofdmenu bevat.
-
 ## Doelopmerkingen beheren
 
 U kunt commentaren aan doelstellingen in de sectie van Updates van een doelpagina toevoegen.
-
-U kunt reageren op of houden van een opmerking die u of anderen in dit gebied hebben toegevoegd.
 
 1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek, of het **Belangrijkste pictogram van het Menu** ![](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar, dan klik **Doelen**.
 Hierdoor wordt de lijst met doelen geopend.
 1. Zoek het doel waaraan u opmerkingen wilt toevoegen en klik op de naam van het doel om de doelpagina te openen.
 1. Klik **Updates** in het linkerpaneel.
-1. (Facultatief) om van een bestaande commentaar de plaats te bepalen, begin een sleutelwoord <!--or a user's name--> in het **vakje van het Onderzoek** in de hoger-juiste hoek van de **Commentaren** tabel te typen.
 
+   Voor meer informatie over het beheren van commentaren aan de voorwerpen van Workfront, zie [ het werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+<!--   
+1. (Optional) To locate an existing comment, start typing a keyword (*****or a user's name********) in the **Search** box in the upper-right corner of the **Comments** tab. 
+   
    ![](assets/search-field-in-updates-tab-goals.png)
 
-   Het trefwoord <!--or user--> waarnaar u hebt gezocht, wordt gemarkeerd en de opmerkingen waarin het trefwoord staat, worden boven in de sectie Updates weergegeven.
+   The keyword (****or user****) you searched for is highlighted and the comments that contain it display at the top of the Updates section. 
 
-   <!--change the NOTE below when functionality changes-->
 
-   >[!NOTE]
-   >
-   >U moet zoeken naar een woord dat is opgenomen in een opmerking of antwoord. U kunt niet zoeken naar een gecodeerde gebruiker of team.
+      >[!NOTE]
+      >
+      >You must search for a word included in a comment or reply. You cannot search for a tagged user or team.
+   
+   For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-   Voor meer informatie, zie [ het werk van de Update ](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-
-1. Klik het **x** pictogram op het onderzoeksgebied om de onderzoeksresultaten te ontruimen en aan de volledige update terug te keren.
-1. Klik het **lusje van Commentaren** in de upper-left hoek van het gebied van Updates.
-1. Begin een commentaar in de **Nieuwe commentaardoos** in te gaan.
-
+1. Click the **x** icon in the search field to clear the search results and return to the complete update.
+1. Click the **Comments** tab in the upper-left corner of the Updates area.
+1. Start entering a comment in the **New comment** box.
+         
    ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
    >
-   >Als u weg navigeert uit de sectie Updates voordat u klaar bent met het typen en verzenden van een opmerking, wordt de opmerking op de pagina in de conceptmodus bewaard, zelfs nadat u zich hebt afgemeld en u weer hebt aangemeld. Concepten worden 7 dagen bewaard waarna ze worden verwijderd en kunnen niet worden hersteld. Getekende opmerkingen zijn alleen zichtbaar voor de gebruiker die ze invoert.
+   >Navigating away from the Updates section before you finish typing and submitting a comment keeps the comment on the page in draft mode even after you log off and log back on. Drafts are saved for 7 days after which they are discarded and cannot be recovered. Drafted comments are only visible to the user entering them.
 
-1. (Optioneel) Als u een wijziging ongedaan wilt maken of opnieuw wilt uitvoeren, gebruikt u de volgende sneltoetsen:
-   * CTRL + Z ( ⌘+z voor Mac) om een wijziging ongedaan te maken
-   * CTRL + Y ( ⌘+y voor Mac) om een wijziging opnieuw uit te voeren
-1. (Optioneel) Als u opmaak met RTF-opmaak wilt toevoegen aan de update, een hyperlink of een emoji, gebruikt u de gewenste opties op de werkbalk RTF of de pictogrammen ernaast. Voor meer informatie, zie [ het werk van de Update ](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. (Facultatief) in het **mensen of de teams van de Markering** gebied, begin de naam of e-mail van een gebruiker, of een team te typen dat u in deze commentaar zou willen omvatten, dan het selecteren wanneer het in de lijst toont.
-1. Selecteer **Privé aan mijn bedrijf** knevel om de commentaar zichtbaar slechts aan mensen in uw bedrijf te maken.
+1. (Optional) To undo or redo a change, use the following shortcut keys:
+      * CTRL + Z (⌘+z for Mac) to undo a change 
+      * CTRL + Y (⌘+y for Mac) to redo a change 
+1. (Optional) To add rich-text formatting to your update, a hyperlink, or an emoji, use any options on the Rich Text toolbar or the icons adjacent to it. For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+1. (Optional) In the **Tag people or teams** area, start typing the name or the email of a user, or a team that you would like to include in this comment, then select it when it displays in the list. 
+1. Select the **Private to my company** toggle to make the comment visible only to people in your company. 
 
-   >[!TIP]
-   >
-   >U moet een Bedrijf hebben in uw profiel wordt gespecificeerd om deze optie beschikbaar in het gebied van Updates te hebben dat.
+      >[!TIP]
+      >
+      >You must have a Company specified in your profile to have this option available in the Updates area. 
 
-1. Klik **voorleggen**.
+1. Click **Submit**. 
 
-   >[!TIP]
-   >
-   >Als een andere gebruiker een opmerking verzendt naar hetzelfde item dat u bijwerkt, wordt er een rode lijn weergegeven met de indicator &quot;Nieuw&quot; om u op de hoogte te brengen van de nieuwere opmerkingen en wordt onder in het scherm een blauwe melding weergegeven die het aantal nieuwe opmerkingen aangeeft.
-   >
-   >De indicator wordt alleen weergegeven nadat de opmerking op het item is verzonden, en niet wanneer de opmerking nog steeds wordt samengesteld.
-   >![](assets/real-time-new-red-indicator-unified-commenting-copy.png)
-
-1. (Facultatief) om een commentaar uit te geven, klik **Meer** menu ![](assets/more-icon.png) rechts van het als pictogram, dan klik **uitgeven**.
-1. Bewerk de informatie in de opmerking of verwijder een van de gelabelde gebruikers.
-U kunt uw opmerking binnen 15 minuten na verzending bewerken. Een indicator &quot;bewerkt&quot; wordt toegevoegd links van de datumstempel die wordt weergegeven wanneer de opmerking is bijgewerkt.
+      >[!TIP]
+      >
+      >If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments, as well as a blue notification at the bottom of the screen indicating the number of new comments. 
+      >
+      >The indicator only displays only after the comment was submitted on the item, and not when the comment is still composed. 
+      >![](assets/real-time-new-red-indicator-unified-commenting-copy.png)
+      
+1. (Optional) To edit a comment, click the **More** menu ![](assets/more-icon.png) to the right of the Like icon, then click **Edit**. 
+1. Edit the information in the comment or remove any of the tagged users. 
+   You can edit your comment within 15 minutes from submitting it. An "edited" indicator is added to the left of the date stamp that displays when the comment was updated.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
-   > * Er wordt een e-mail gegenereerd om gebruikers alleen van uw update op de hoogte te stellen wanneer u de oorspronkelijke update verzendt. Er wordt geen e-mail gegenereerd nadat u de update hebt bewerkt.
+   > * An email is generated to notify users of your update only when you submit the original update. No email is generated after you edited your update.
    >
-   > * De datumstempel is de datum van de oorspronkelijke opmerking en niet de datum van de laatste update.
+   > * The date stamp is the date of the original comment and not the date of the latest update. 
 
-1. (Facultatief) klik **Meer** menu ![](assets/more-icon.png), dan klik om het even welke volgende opties om informatie van een commentaar aan het klembord of in een nieuw antwoord te kopiëren:
+1. (Optional) Click the **More** menu ![](assets/more-icon.png), then click any of the following options to copy information from a comment to the clipboard or into a new reply:
 
-   * **verbinding van het Exemplaar** om de verbinding van een update, zonder de antwoorden te kopiëren.
-   * **het lichaamstekst van het Exemplaar** om de tekst van een update te kopiëren.
-   * **het antwoord van het Citaat** om een nieuw commentaarvakje te openen waar de originele commentaar in een nieuw antwoord wordt geciteerd en als blokcitaat duidelijk is.
+      * **Copy link** to copy the link of an update, without the replies.
+      * **Copy body text** to copy the text of an update. 
+      * **Quote reply** to open a new comment box where the original comment is quoted in a new reply and is marked as a block quote.
 
-     Voor meer informatie, zie [ het werk van de Update ](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+         For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
 
-1. (Facultatief) klik **Meer** menu ![](assets/more-icon.png) aan het recht van een commentaar, dan klik **Schrapping** om een commentaar te schrappen u toevoegde. Voor meer informatie, zie [ het werk van de Update ](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. (Facultatief) klik **Antwoord** om op een bestaande commentaar te antwoorden, dan de stappen 5-9 hierboven te volgen. Voor meer informatie over het antwoorden op updates, zie [ Antwoord op updates ](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md) <!--insure this stays accurate-->.
-1. (Voorwaardelijk en facultatief) als andere gebruikers commentaren hebben toegevoegd die buiten het zichtbare gebied in de sectie van Updates tonen, klik **Mening** binnen de blauwe **nieuwe commentaarbanner** bij de bodem van het scherm om deze commentaren te tonen.
-
+1. (Optional) Click the **More** menu ![](assets/more-icon.png) to the right of a comment, then click **Delete** to delete a comment you added. For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Optional) Click **Reply** to reply to an existing comment, then follow the steps 5-9 above. For more information about replying to updates, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md). (**********insure this stays accurate*********)
+1. (Conditional and optional) If other users have added comments that display outside of the visible area in the Updates section, click **View** inside the blue **new comments banner** at the bottom of the screen  to display these comments.
+   
    ![](assets/blue-new-comments-banner-with-view-button.png)
+   
+   Additional comments display at the bottom of the screen.
+1. (Optional) Click the **Like** icon![](assets/like-icon.png) to like a comment that someone else added. The icon updates with the number of likes.
 
-   Aanvullende opmerkingen worden onder in het scherm weergegeven.
-1. (Facultatief) klik **als** pictogram ![](assets/like-icon.png) om van een commentaar te houden dat iemand anders toevoegde. Het pictogram wordt bijgewerkt met het aantal ‘like’.
-
-1. (Facultatief) klik het **lusje van de Activiteit van het Systeem** om updates te bekijken die door het systeem worden geregistreerd. Wanneer een doel wordt bijgewerkt, genereert Workfront een notitie over die update en geeft deze weer op het tabblad Systeemactiviteit. Workfront registreert ook een systeemupdate wanneer een resultaat, een activiteit, of een project aan het doel wordt toegevoegd of wanneer het wordt bijgewerkt. <!--ensure the casing on the tab has not changed-->
+1. (Optional) Click the **System Activity** tab to view updates logged by the system. When a goal is updated, Workfront generates a note about that update that and displays it in the System Activity tab. Workfront also records a system update when a result, activity, or project is added to the goal or when it is updated. (*********ensure the casing on the tab has not changed**********)-->
 
 

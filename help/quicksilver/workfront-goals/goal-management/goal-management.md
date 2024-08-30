@@ -8,29 +8,30 @@ author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: cba07613-9912-4929-bda4-50f503faa3e1
-source-git-commit: 514c4ea3eb603bb7a614e4b37abec4272a5febc7
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
 
 # Goederenbeheer in Adobe Workfront-doelstellingen
 
-Uw organisatie moet het volgende hebben om de functionaliteit te gebruiken die in dit artikel wordt beschreven:
-
-* Voor het nieuwe plan en de nieuwe licentiestructuur:
-
-   * Een ultiem plan
-
-     of
-
-     Een extra licentie voor Adobe Workfront Goals voor de Adobe Workfront-plannen voor de Premier of Select. Voor informatie, zie [ plan van Adobe Workfront ](https://www.workfront.com/plans).
-
-* Voor het huidige plan en de licentiestructuur:
-
-   * Een Pro of hoger
-   * Een Adobe Workfront Goals-licentie in aanvulling op een Workfront-licentie.
+>[!IMPORTANT]
+>
+>Uw organisatie moet het volgende hebben om de functionaliteit te gebruiken die in dit artikel wordt beschreven:
+>
+>* Voor het nieuwe plan en de nieuwe licentiestructuur*:
+>
+>   * Een ultiem plan
+>    
+>* Voor het huidige plan en de licentiestructuur:
+>
+>   * Een Pro of hoger
+>   * Een Adobe Workfront Goals-licentie in aanvulling op een Workfront-licentie.
+>
+>*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+>
 
 Neem contact op met uw Workfront-accountmanager voor meer informatie over een Workfront Goals-licentie.
 

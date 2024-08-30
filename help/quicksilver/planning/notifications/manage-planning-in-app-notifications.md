@@ -3,11 +3,12 @@ title: In-app-berichten voor Adobe Workfront-planning beheren
 description: Wanneer iemand u in een recordcommentaar etiketteert, ontvangt u een e-mailbericht voor die markering.
 feature: Workfront Planning
 role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -23,8 +24,7 @@ U kunt in-app berichten van de Planning van Workfront ontvangen wanneer de volge
 
   Voor informatie over het etiketteren van anderen in een verslagcommentaar, zie [ recordcommentaren beheren ](/help/quicksilver/planning/records/manage-record-comments.md).
 * Iemand vraagt uw toestemming om een mening of een werkruimte te openen
-* Iemand bevestigt dat uw toegang is verleend voor een weergave of werkruimte <!--verify this-->
-* Iemand heeft uw toegang voor een mening of een werkruimte geweigerd. <!--verify this-->
+* Iemand bevestigt dat uw toegang is verleend voor een weergave of werkruimte <!--Isk confirmed there is no notification for denying permissions - did not test-->
 
 ## Toegangsvereisten
 
@@ -64,7 +64,7 @@ U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-platform</p></td> 
    <td> 
-<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden genegeerd om tot alle mogelijkheden van de Planning van Workfront te kunnen toegang hebben.</p> 
+<p>De instantie van uw organisatie van Workfront moet aan de Adobe Verenigde Ervaring worden genegeerd.</p> 
 <p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
    </td> 
    </tr> 
@@ -170,7 +170,10 @@ OLD:
 1. (Facultatief) klik **Teken allen als gelezen** om erop te wijzen dat u alle berichten hebt gelezen.
 1. (Facultatief) klik **Mening allen** om naar de **pagina van Meldingen** in Adobe Experience Cloud te gaan.
 
+## Meldingen in apps beheren bij het aanvragen en verlenen van machtigingen
 
-## Meldingen in de app beheren bij het aanvragen, verlenen of weigeren van machtigingen voor een weergave of werkruimte
+U ontvangt meldingen in de app wanneer iemand u om toestemming vraagt of verleent aan een weergave of werkruimte.
 
 Voor informatie over het verzoeken van, het verlenen van, of het ontkennen van toestemmingen aan een mening of een werkruimte, zie {de toestemmingen van 0} Verzoek aan een mening of een werkruimte ](/help/quicksilver/planning/access/request-permissions.md).[
+
+Voor informatie over het beheren van uw berichten van de Planning van Workfront, zie [ de het berichtvoorkeur van de Planning van Adobe Workfront beheren ](/help/quicksilver/planning/notifications/manage-notification-preferences.md).

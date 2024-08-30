@@ -1,42 +1,35 @@
 ---
 title: Machtigingen aanvragen voor een weergave of een Workspace
-description: U kunt machtigingen aanvragen voor een weergave of werkruimte waarnaar anderen u een koppeling hebben gestuurd die nog niet met u is gedeeld.
+description: Wanneer iemand een koppeling deelt naar een weergave of werkruimte waartoe u geen toegang hebt, kunt u machtigingen aanvragen om de koppeling te kunnen openen. In dit artikel worden de stappen beschreven die u moet uitvoeren om toegang te vragen tot een weergave of werkruimte wanneer u een gedeelde koppeling tegenkomt die u niet kunt openen.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: 04b0ada9b97445b9b05602b39a6d7ebce7d0cee9
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '562'
 ht-degree: 0%
 
 ---
 
 
-<!-- update metadata when released: 
-
----
-title: Request Permissions to a View or a Workspace
-description: You can request permissions to a view or a workspace that others sent you a link to which has not been previously shared with you. 
-author: Alina
-feature: Workfront Planning
-role: User, Admin
----
--->
-
-<!--add this to miniTOC and TOC-->
-
 # Machtigingen aanvragen voor een weergave of werkruimte
 
-U kunt machtigingen aanvragen voor een weergave of werkruimte waarnaar anderen u een koppeling hebben gestuurd die nog niet met u is gedeeld.
+U kunt machtigingen aanvragen voor een weergave of werkruimte wanneer iemand een koppeling deelt met u naar de weergave of werkruimte waartoe u geen toegang hebt.
 
 Het aanvragen van machtigingen voor een weergave lijkt op het aanvragen van machtigingen voor een werkruimte.
+
+In dit artikel wordt beschreven hoe u toegang tot een weergave of werkruimte kunt aanvragen wanneer iemand een koppeling met u deelt en u geen toegang hebt tot de gedeelde pagina.
+
+Zie de volgende artikelen voor informatie over het verlenen van machtigingen aan weergaven en werkruimten:
+
+* [Weergaven delen](/help/quicksilver/planning/access/share-views.md)
+* [Werkruimten delen](/help/quicksilver/planning/access/share-workspaces.md)
+
 
 ## Toegangsvereisten
 
 +++ Breid uit om toegangsvereisten voor de Planning van Workfront te bekijken.
-
-<!--at GA, check that the Workfront plans article linked below has Planning info-->
 
 U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
 
@@ -128,10 +121,6 @@ Wanneer iemand met u een koppeling deelt naar een werkruimte of een weergave waa
    * Een e-mailmelding
      ![](assets/email-notification-for-access-request.png)
 
-   Zie de volgende artikelen voor informatie over het verlenen van machtigingen aan weergaven en werkruimten:
-
-   * [Weergaven delen](/help/quicksilver/planning/access/share-views.md)
-   * [Werkruimten delen](/help/quicksilver/planning/access/share-workspaces.md)
-1. (Voorwaardelijk) Wanneer de weergave of werkruimtenmanager u machtigingen verleent aan de weergave of werkruimte, ontvangt u een e-mailmelding en een melding in de app met een bevestiging dat de machtiging is verleend. <!--check this - I was not able to test this-->
+1. (Voorwaardelijk) Wanneer de weergave of werkruimtenmanager u machtigingen verleent aan de weergave of werkruimte, ontvangt u een e-mailmelding en een melding in de app met een bevestiging dat de machtiging is verleend. <!--check this - I was not able to test this, but Isk confirmed.-->
 
 

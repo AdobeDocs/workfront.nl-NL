@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ U kunt meldingen in de app of per e-mail ontvangen wanneer de volgende acties pl
 
 * Iemand voegt u toe aan een opmerking op de recordpagina
 * Iemand vraagt om toestemming om een weergave of werkruimte te openen
-* Iemand geeft of weigert toegang tot een weergave of werkruimte <!--test this - could not test before GA-->
+* Iemand geeft u toestemming om een weergave of werkruimte te openen <!--I could not test this but Isk confirmed-->
 
 ## Toegangsvereisten
 
@@ -62,7 +62,7 @@ U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-platform</p></td> 
    <td> 
-<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden genegeerd om tot alle mogelijkheden van de Planning van Workfront te kunnen toegang hebben.</p> 
+<p>De instantie van uw organisatie van Workfront moet aan de Adobe Verenigde Ervaring worden genegeerd.</p> 
 <p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
    </td> 
    </tr> 
@@ -171,7 +171,7 @@ Schakel de meldingen uit die u niet meer wilt ontvangen.
 1. De volgende berichten zijn beschikbaar voor Workfront:
 
    * **Vermeldingen**: U ontvangt een bericht wanneer iemand u in een commentaar in de Planning van Workfront etiketteert
-   * **Verzoeken**: U ontvangt een bericht wanneer iemand om toestemming aan een voorwerp van de Planning van Workfront verzoekt
+   * **Verzoeken**: U ontvangt een bericht wanneer iemand om u verzoekt of toestemming verleent aan een voorwerp van de Planning van Workfront
 
    Voor meer informatie over het beheren van berichten, zie [ voorkeur en berichten van de Rekening ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 

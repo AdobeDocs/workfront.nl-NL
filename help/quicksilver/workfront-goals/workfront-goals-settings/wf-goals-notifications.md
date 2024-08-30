@@ -7,14 +7,31 @@ description: Adobe Workfront Goals wordt geleverd met een set vooraf gedefinieer
 author: Alina
 feature: Workfront Goals
 exl-id: 40f9b9a3-c829-480b-9897-099b68389cd4
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '223'
 ht-degree: 0%
 
 ---
 
 # Meldingen voor Adobe Workfront-doelen inschakelen
+
+>[!IMPORTANT]
+>
+>Uw organisatie moet het volgende hebben om de functionaliteit te gebruiken die in dit artikel wordt beschreven:
+>
+>* Voor het nieuwe plan en de nieuwe licentiestructuur:
+>
+>   * Het Ultimate Workfront-plan
+>    
+>* Voor het huidige plan en de licentiestructuur:
+>
+>   * Een Pro- of hoger Workfront-abonnement
+>   * Een Adobe Workfront Goals-licentie in aanvulling op een Workfront-licentie.
+>
+>Neem contact op met uw Workfront-accountmanager voor meer informatie over een Workfront Goals-licentie.
+> 
+>Voor extra informatie over toegang tot de Doelen van Workfront, zie [ Vereisten om de Doelen van Workfront ](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
 
 De Doelen van Adobe Workfront komt met een reeks gebeurtenisberichten die u voor uw rekening kunt toelaten. Deze gebeurtenismeldingen activeren e-mailcommunicatie telkens wanneer aan de door de gebeurtenis gedefinieerde voorwaarde wordt voldaan.
 

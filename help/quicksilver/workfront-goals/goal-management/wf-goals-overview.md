@@ -7,9 +7,9 @@ description: Met Workfront-doelen kunt u strategische resultaten definiëren, co
 author: Alina
 feature: Workfront Goals
 exl-id: bc0451ba-d729-4e8a-bde3-a2609c667d50
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,8 @@ ht-degree: 0%
 >   * Een Adobe Workfront Goals-licentie in aanvulling op een Workfront-licentie.
 >
 >Neem contact op met uw Workfront-accountmanager voor meer informatie over een Workfront Goals-licentie.
-
+> 
+>Voor extra informatie over toegang tot de Doelen van Workfront, zie [ Vereisten om de Doelen van Workfront ](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
 
 Met Workfront-doelen kunt u strategische resultaten definiëren, communiceren en bereiken door een strategie te verbinden aan het uitvoeren en leveren van werk. U kunt ieders inspanningen richten op wat werkelijk belangrijk is, vooruitgang meetbaar maken, en teams toelaten om verbazingwekkende resultaten te bereiken. Mensen kunnen hun best doen in de wetenschap dat hun bijdragen een betekenisvolle impact hebben.
 
@@ -42,9 +43,9 @@ Voor meer informatie over beste praktijken voor het gebruiken van de Doelen van 
 >
 >De strategische doelstellingen die u het gebruiken van de Doelen van Workfront beheert zouden niet met project-vlakke doelstellingen moeten worden verward die deel van de BedrijfsGeval van het project uitmaken. Voor informatie over project-vlakke doelstellingen, zie [ BedrijfsGevallendoelstellingen ](../../manage-work/projects/define-a-business-case/create-business-case-goals.md) creëren.
 
-## Functies die deel uitmaken van de Workfront-doelstellingen
+## Workfront-doelen, mogelijkheden
 
-De volgende functionaliteit is momenteel inbegrepen bij de Doelstellingen van Workfront:
+De volgende functionaliteit is inbegrepen in de Doelstellingen van Workfront:
 
 * Creeer driemaandelijkse of jaarlijkse doelstellingen en wijs hen aan gebruikers, teams, groepen, of aan uw organisatie toe. U kunt ook doeltijdlijnen aanpassen.
 

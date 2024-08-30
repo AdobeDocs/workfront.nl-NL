@@ -6,35 +6,31 @@ description: Een Workfront- of groepsbeheerder kan de namen van objecten in de D
 author: Alina
 feature: Workfront Goals
 exl-id: a3b3e61e-c385-429b-856b-7579b02c9946
-source-git-commit: 514c4ea3eb603bb7a614e4b37abec4272a5febc7
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '221'
 ht-degree: 0%
 
 ---
 
 # Terminologie voor Adobe Workfront-doelen aanpassen
 
-Uw organisatie moet het volgende hebben om de functionaliteit te gebruiken die in dit artikel wordt beschreven:
-
-* Voor het huidige plan en de licentiestructuur:
-
-   * Een Pro of hoger [ plan van Adobe Workfront ](https://www.workfront.com/plans).
-   * Een Adobe Workfront Goals-licentie in aanvulling op een Workfront-licentie.
-
-* Voor het nieuwe plan en de nieuwe licentiestructuur:
-
-   * Een ultiem plan
-
-     of
-
-     Een extra licentie voor Adobe Workfront Goals voor de Adobe Workfront-plannen voor de Premier of Select.
-
-Neem contact op met uw Workfront-accountmanager voor meer informatie over een Workfront Goals-licentie.
-
-Voor extra informatie over toegang tot de Doelen van Workfront, zie [ Vereisten om de Doelen van Workfront ](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
-
-Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+>[!IMPORTANT]
+>
+>Uw organisatie moet het volgende hebben om de functionaliteit te gebruiken die in dit artikel wordt beschreven:
+>
+>* Voor het nieuwe plan en de nieuwe licentiestructuur:
+>
+>   * Het Ultimate Workfront-plan
+>    
+>* Voor het huidige plan en de licentiestructuur:
+>
+>   * Een Pro- of hoger Workfront-abonnement
+>   * Een Adobe Workfront Goals-licentie in aanvulling op een Workfront-licentie.
+>
+>Neem contact op met uw Workfront-accountmanager voor meer informatie over een Workfront Goals-licentie.
+> 
+>Voor extra informatie over toegang tot de Doelen van Workfront, zie [ Vereisten om de Doelen van Workfront ](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
 
 Een Workfront- of groepsbeheerder kan de namen van objecten in de Doelen van Workfront aanpassen om de terminologie van uw organisatie beter aan te passen.
 

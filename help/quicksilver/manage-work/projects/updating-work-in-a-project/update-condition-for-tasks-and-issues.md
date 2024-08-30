@@ -6,7 +6,7 @@ description: De voorwaarde van een taak of een kwestie is een vlag die op het wo
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
 source-wordcount: '1020'
 ht-degree: 0%
@@ -59,7 +59,7 @@ De Condition-waarden waarnaar we in dit artikel verwijzen, zijn standaard beschi
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
    <td> <p>Machtigingen weergeven voor taken en uitgaven om hun voorwaarde weer te geven</p>
-   <p>Machtigingen beheren voor taken en uitgaven om de voorwaarde bij te werken</p>
+   <p>Contribute-machtigingen voor taken en uitgaven om de Voorwaarde bij te werken</p>
   </td> 
   </tr> 
  </tbody> 
