@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: 21c873d617187518bdbfe54a7a1ee5f1119ed8fd
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -104,11 +104,13 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn</p> <
 1. In de **sectie van Details**, doe om het even welke volgend om aan te passen wat de gebruikers in de mening van Details zien:
 
    * Sleep sectiekoppen ![](assets/move-icon---dots.png) om de volgorde te wijzigen.
-   * Laat of maak opties onder **Overzicht** en **Douane Forms** toe onbruikbaar om hen te tonen of te verbergen.
+   * Laat of maak opties onder de diverse gebieden (zoals **Overzicht**, **Financiën**, en **Douane Forms**) toe onbruikbaar om hen te tonen of te verbergen.
 
      Als u alle velden in een van deze secties verbergt, wordt de volledige sectie verborgen.
 
-     Alle velden zijn standaard ingeschakeld.
+     Alle velden zijn standaard ingeschakeld. U kunt selecteren of ontruimen **alle** controledoos op een gebied selecteren om alle gebieden in dat gebied te tonen of te verbergen.
+
+   ![ mening van Details in lay-outmalplaatje ](assets/layout-template-details-view.png)
 
 1. Blijf het lay-outmalplaatje aanpassen.
 
