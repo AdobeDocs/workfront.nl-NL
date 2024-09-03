@@ -8,9 +8,9 @@ description: De volgende algemene functies zijn beschikbaar in het Adobe Workfro
 author: Becky
 feature: Workfront Fusion
 exl-id: 74bfda4e-5690-4b8c-ac58-20cf261f188d
-source-git-commit: a5130e551ad73717796bfac206d99799efc7987d
+source-git-commit: 4cca9738ad9537247234faa0b1c441163d4e315f
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
@@ -73,6 +73,12 @@ Retourneert het waardepad van een object of array. Gebruik puntnotatie om genest
 
 Retourneert `value1` als de expressie wordt geëvalueerd op true; anders wordt de `value2` geretourneerd.
 
+Als u een if-instructie wilt maken die alleen een waarde retourneert wanneer twee of meer expressies worden geëvalueerd op true, gebruikt u het trefwoord `and` .
+
+Gebruik de operatoren `and` en `or` om `if` -instructies te combineren.
+
+![ en exploitant ](/help/quicksilver/workfront-fusion/functions/assets/and-in-if-statement.png)
+
 >[!INFO]
 >
 >**Voorbeelden:**
@@ -81,9 +87,14 @@ Retourneert `value1` als de expressie wordt geëvalueerd op true; anders wordt d
 >
 >    Retourneert A
 >
->* `if( = 2 ; A ; B )`
+>* `if( 1 = 2 ; A ; B )`
 >
 >   Retourneert B
+>
+>* `if( 1 = 2 and 1 = 2 ; A ; B )`
+>
+>    Retourneert B
+>   
 
 ## [!UICONTROL ifempty (value1; value2)]
 
@@ -107,7 +118,7 @@ Retourneert de waarde `value1` als deze waarde niet leeg is; anders wordt de waa
 
 ## [!UICONTROL switch (expression; value1; result1; [value2; result2; ...]; [else])]
 
-Evalueert één waarde (de expressie genoemd) met een lijst van waarden; retourneert het resultaat dat overeenkomt met de eerste overeenkomende waarde.
+Evalueert één waarde (de expressie genoemd) met een lijst van waarden; retourneert het resultaat dat overeenkomt met de eerste overeenkomende waarde. Als u een `else` -waarde wilt opnemen, voegt u deze waarde toe na de laatste expressie of waarde.
 
 >[!INFO]
 >
@@ -123,7 +134,9 @@ Evalueert één waarde (de expressie genoemd) met een lijst van waarden; retourn
 >
 >* `switch( X ; A ; 1 ; B ; 2 ; C ; 3 ; 4 )`
 >
->  Retourneert 4
+>   Retourneert 4
+>   
+>   In deze functie is 4 de waarde die moet worden geretourneerd als er geen expressies van toepassing zijn (de `else` waarde).
 
 ## [!UICONTROL omit(object; key1; [key2; ...])]
 
