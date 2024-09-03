@@ -1,7 +1,7 @@
 ---
-source-git-commit: 5ea52fd7843a8e202980ed03d2e87953c7726f35
+source-git-commit: 621e208a17a3a285dda0dc97cbe83638af2de1a5
 workflow-type: tm+mt
-source-wordcount: '2375'
+source-wordcount: '2381'
 ht-degree: 0%
 
 ---
@@ -349,7 +349,9 @@ U moet de juiste insteekmodule installeren voor de Adobe Creative Cloud-toepassi
 
 ## Laatste DPV-versie {#latest-version}
 
-**Meest recente versie**: 2.1.36 per 8/29/2024
+**Meest recente versie**:
+* Mac: 2.1.36 sinds 29-8-2024
+* Windows: 2.1.37 van 30-8-2024
 
 <!-- Release -->
 

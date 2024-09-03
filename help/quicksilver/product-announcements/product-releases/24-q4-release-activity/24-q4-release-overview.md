@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: ffa599ff0e25ba960ce01f3f492482ee2e747122
+source-git-commit: 621e208a17a3a285dda0dc97cbe83638af2de1a5
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1361'
 ht-degree: 0%
 
 ---
@@ -206,6 +206,24 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
                     <td>
                         <p><span class="bold"> de data van de Versie </span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}"> Lege het schermmoeilijke situatie voor de gebruikers van Vensters van de Kijker van de Desktop het Proofing </a></p>
+                        [!BADGE in productie ]{type=Informative}
+                        <p>We hebben een probleem verholpen met de nieuwe versie van 2.1.36 Desktop Proofing Viewer. Hierdoor kregen sommige Windows-gebruikers een leeg scherm te zien nadat ze de viewer hadden geopend. </p>
+                        <p>Nieuwe versie voor Windows-gebruikers: 2.1.37</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 30 augustus 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Productieversie voor alle afnemers: 30 augustus 2024</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
