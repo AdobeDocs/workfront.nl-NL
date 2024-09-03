@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '2621'
+source-wordcount: '2622'
 ht-degree: 0%
 
 ---
@@ -403,7 +403,7 @@ U kunt verbonden verslagen in de chronologiemening van een verslag tonen door de
 * U kunt verbonden records of objecten weergeven onder de records van het geselecteerde recordtype in de tijdlijnweergave.
 * U kunt het volgende weergeven in de tijdlijnweergave met de functie Onderverdeling:
    * Workfront Planning records die zijn verbonden met het geselecteerde recordtype.
-   * De objecten van Workfront (************* of AEM Assets *************) types die met het geselecteerde verslagtype worden verbonden.
+   * Workfront-objecttypen of Experience Manager-elementen die zijn verbonden met het geselecteerde recordtype.
    * Workfront Planning-records of -objecten uit andere toepassingen die zijn verbonden met records die zijn verbonden met het geselecteerde recordtype.
 
      U kunt bijvoorbeeld campagnes verbinden met portfolio&#39;s. Bovendien zou u een ander verslagtype, producten, met projecten, evenals met campagnes kunnen verbinden. Wanneer u de tijdlijnweergave van de campagne maakt, kunt u de campagnes opsplitsen op portfolio&#39;s, producten en projecten.

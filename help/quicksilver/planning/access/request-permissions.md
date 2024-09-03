@@ -5,15 +5,22 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 04b0ada9b97445b9b05602b39a6d7ebce7d0cee9
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
 
 
 # Machtigingen aanvragen voor een weergave of werkruimte
+
+>[!IMPORTANT]
+>
+>De functionaliteit die in dit artikel wordt beschreven is beschikbaar slechts wanneer uw organisatie aan de Adobe Verenigde Ervaring is genegeerd.
+>
+>Voor meer informatie, zie [ Adobe Verenigde Ervaring voor Workfront ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+
 
 U kunt machtigingen aanvragen voor een weergave of werkruimte wanneer iemand een koppeling deelt met u naar de weergave of werkruimte waartoe u geen toegang hebt.
 
@@ -66,6 +73,8 @@ U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
    <td role="rowheader"><p>Adobe Workfront-platform</p></td> 
    <td> 
 <p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden genegeerd om tot alle mogelijkheden van de Planning van Workfront te kunnen toegang hebben.</p> 
+<p><b>BELANGRIJK</b></p>
+<p>De gebruikers in uw organisatie kunnen om toestemmingen voor meningen en werkruimten verzoeken slechts wanneer uw organisatie aan de Adobe Verenigde Ervaring wordt bezet. </p>
 <p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
    </td> 
    </tr> 

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '7432'
+source-wordcount: '7462'
 ht-degree: 0%
 
 ---
@@ -98,6 +98,11 @@ Voorbeeld en productie: 28 augustus 2024
 Wanneer u toegang tot een werkruimte of een weergave aanvraagt, ontvangt de gebruiker die u toegang aanvraagt een e-mailbericht over de aanvraag. Nadat het verzoek is ingewilligd, ontvangt u een e-mailbericht met de bevestiging dat uw verzoek is goedgekeurd.
 
 U kunt de weergave of werkruimte openen vanuit het e-mailbericht wanneer de machtiging is verleend.  <!--see if they also get an in-app notification-->
+
+>[!NOTE]
+>
+>Uw organisatie moet aan de Adobe Verenigde Ervaring voor gebruikers worden bezet om toestemmingen aan een mening of een werkruimte van een toestemmingsverzoek te kunnen verzoeken en verlenen.
+
 
 Voor informatie, zie [ toestemmingen van het Verzoek aan een mening of een werkruimte ](/help/quicksilver/planning/access/request-permissions.md).
 

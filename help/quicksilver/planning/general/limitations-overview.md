@@ -5,9 +5,9 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '330'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,9 @@ In de volgende tabel staan de limieten voor het aantal objecten dat u kunt maken
 | Aantal records voor één werkruimte | 25.000 voor klanten met Planning <br> 500.000 voor klanten met Planning Plus |
 | Aantal totale records voor één instantie van Workfront Planning | 500.000 voor klanten met het Plan van de Planning <br> 2 miljoen voor klanten met Planning plus |
 | Aantal velden voor één recordtype of taxonomie | 500 |
-| Aantal tekens voor een tekstveld | 1.000 tekens |
+| Aantal tekens voor een tekstveld met één regel | 1.000 tekens |
+| Aantal tekens voor een alineasveld | 100.000 tekens |
+| Aantal alineavelden voor één recordtype | 20 alineasvelden |
 | Grootte van het bestand dat u in een tabel met recordtypen kunt plakken | 1 MB |
 | Grootte van het bestand dat u kunt importeren via de API voor een recordtype-tabel | 1,5 MB |
 | De snelheid waarmee API-aanvragen kunnen worden ingediend | 200 verzoeken per minuut |

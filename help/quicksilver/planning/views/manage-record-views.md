@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '1368'
+source-wordcount: '1392'
 ht-degree: 0%
 
 ---
@@ -356,10 +356,12 @@ Wanneer u de tabelweergave weergeeft, kunt u ook bekijken welk veld een andere g
 
    ![](assets/show-collaborators-toggle-selected.png)
 
-1. (Voorwaardelijk) Open een lijstmening, en het gebied dat een andere persoon uitgeeft wordt geschetst in de kleur die aan de contour van hun avatar in de lijstmening beantwoordt.
+1. (Voorwaardelijk) Open een lijstmening, en het gebied dat een andere persoon actief uitgeeft wordt benadrukt in de kleur die aan de contour van hun avatar in de lijstmening beantwoordt.
+
+   Als de markeerkleur van de avatar grijs is, is de gebruiker meer dan 30 seconden geleden gestopt met het actief bewerken van de record.
 
    ![](assets/real-time-indicator-table-field-and-avatar-connection.png)
 
    >[!TIP]
    >
-   >U kunt **selecteren toont samenwerkers** knevel van om het even welke mening. Het bewerkte veld wordt alleen in de tabelweergave weergegeven.
+   >U kunt **selecteren toont samenwerkers** knevel van om het even welke mening. Het veld dat momenteel door anderen wordt bewerkt, wordt alleen in de tabelweergave weergegeven.
