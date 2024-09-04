@@ -3,12 +3,12 @@ product-area: resource-management
 navigation-topic: resource-planning
 title: Beschikbaarheid en toewijzing van bronnen controleren met de Adobe Workfront Resource Planner
 description: U kunt de beschikbaarheid van uw middelen en de hoeveelheid gepland of begroot werk voor uw projecten in de Planner van het Middel bekijken. Deze waarden worden weergegeven in Uren, FTE (Full Time Equivalent) of Kostenbedragen en worden in kolommen geordend.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 5b3e52a6-af9b-4e68-8d6e-43a5151a2a2c
-source-git-commit: 24cc3ece515fd778a9bc9e8afbcd534f48b24230
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
-source-wordcount: '1266'
+source-wordcount: '1237'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ U kunt de beschikbaarheid van uw middelen en de hoeveelheid gepland of begroot w
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -26,39 +28,37 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Pro en hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td><p>Nieuw: alle</p>
+       <p>of</p>
+       <p>Huidig: Pro of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Controleren of hoger </p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td><p>Nieuw: Licht of hoger</p>
+       <p>of</p>
+       <p>Huidig: Controleren of hoger</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot het volgende weergeven of vergroten:</p> 
     <ul> 
      <li> <p>Bronbeheer</p> </li> 
      <li> <p>Financiële gegevens</p> </li> 
      <li> <p>Gebruikers</p> </li> 
      <li> <p>Projecten</p> </li> 
-    </ul> <p><b>OPMERKING</b>
-
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
-</tr> 
+    </ul> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>De mening of hogere toestemmingen aan de projecten u in de Planner van het Middel wilt bekijken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>De mening of hogere toestemmingen aan de projecten u in de Planner van het Middel wilt bekijken</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-<!--note from the table about the license: Review or higher: 
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-       (waiting on Vazgen to confirm - working differenly in classic)
-      </MadCap:conditionalText>
-     -->
++++
 
 ## Vereisten
 
@@ -173,9 +173,7 @@ Overweeg het volgende wanneer het veranderen van uw mening in de Planner van het
 
    Bij het selecteren van deze optie berekent Workfront de nettowaarden met behulp van de volgende formule:
 
-   ```
-   Net = Available - Planned
-   ```
+   `Net = Available - Planned`
 
    >[!TIP]
    >

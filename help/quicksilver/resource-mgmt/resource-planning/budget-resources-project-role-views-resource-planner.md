@@ -1,14 +1,14 @@
 ---
 product-area: resource-management
 navigation-topic: resource-planning
-title: De middelen van de begroting in de Planner van het Middel gebruikend de meningen van het Project en van de Rol
+title: De Middelen van de begroting in de Planner van het Middel Gebruikend de Mening van het Project en van de Rol
 description: U kunt middelen in de Planner van het Middel van Adobe Workfront begroten gebruikend de mening van het Project en van de Rol. U kunt geen middelen begroten gebruikend de mening van de Gebruiker in de Planner van het Middel.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
-source-wordcount: '2165'
+source-wordcount: '2121'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,8 @@ Lees de volgende artikelen voordat u begint met budgetinformatie in de functie v
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -40,27 +42,31 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Pro en hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
+    <td><p>Nieuw: alle</p>
+       <p>of</p>
+       <p>Huidig: Pro of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td><p>Nieuw: Standaard</p>
+       <p>of</p>
+       <p>Huidig: Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot resourcebeheer bewerken, inclusief toegang tot bewerkingsprioriteiten en begrotingstijden in de bronnenplanner</p> <p>Toegang tot financiële gegevens voor begrotingsmiddelen via kostenaanpassing bewerken</p> <p>Toegang tot projecten en gebruikers bewerken</p> <p><b>OPMERKING</b>
-
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
-</tr> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot resourcebeheer bewerken, inclusief toegang tot bewerkingsprioriteiten en begrotingstijden in de bronnenplanner</p> <p>Toegang tot financiële gegevens voor begrotingsmiddelen tegen kostprijs bewerken</p> <p>Toegang tot projecten en gebruikers bewerken</p></td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten beheren voor de projecten waarvoor u begrotingsgegevens wilt opgeven</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Rechten beheren voor de projecten waarvoor u begrotingsgegevens wilt opgeven</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Begrotingsmiddelen in de middelenplanner
 
@@ -74,9 +80,8 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this section is linked to the Budgeting Project Resources in the Business Case article)</p>
 -->
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.
+{{step1-to-resourcing}}
 
-1. Klik **Middelen**.
 1. De **vertoningen van de Planner** door gebrek.
 1. (Voorwaardelijk) selecteer de **Mening door de mening van het Project**.
 1. Breid de projecten en de baanrollen uit om de toewijzing voor het project, baanrollen, of gebruikers te beheren.
@@ -87,9 +92,7 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
    * Klik het **Meer** menu voor de baanrol van de gebruiker, dan klik **Gepland Uren van de Plaats van Gebruikers zoals Beoogde**.\
      De begrotingsuren van elke gebruiker worden berekend met behulp van de volgende formule:
 
-     ```
-     User Budgeted Hours = User Planned Hours
-     ```
+     `User Budgeted Hours = User Planned Hours`
 
 1. Voer een van de volgende handelingen uit om begrotingstoewijzing voor taakrollen toe te wijzen:
 
@@ -102,17 +105,13 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
    * (Voorwaardelijk) als u uren voor gebruikers in de begroting hebt opgenomen, klik het **Meer** menu voor de baanrol, dan klik **Totale Beoogde Uren van Gebruikers voor Rol**.\
      De begrotingsuren voor elke rol worden berekend met behulp van de volgende formule:
 
-     ```
-     Role Budgeted Hours = SUM(User Budgeted Hours)
-     ```
+     `Role Budgeted Hours = SUM(User Budgeted Hours)`
 
    * Klik het **Meer** menu voor het project, dan klik **Geplande Uren van Rollen&quot;plaatsen zoals Beoogd**.\
      De begrotingsuren voor elke rol worden berekend met behulp van de volgende formule:\
      *
 
-     ```
-     Role Budgeted Hours = Role Planned Hours
-     ```
+     `Role Budgeted Hours = Role Planned Hours`
 
      >[!NOTE]
      >   
@@ -132,9 +131,7 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
    * Begroting van de rollen in het kader van het project, zoals beschreven in Stap 7.\
      Het voor het project uitgetrokken aantal uren wordt berekend aan de hand van de volgende formule:
 
-     ```
-     Project Budgeted Hours = SUM(Role Budgeted Hours)
-     ```
+     `Project Budgeted Hours = SUM(Role Budgeted Hours)`
 
    * In de **BDG** kolom, specificeer manueel een aantal begrote uren, FTE, of kosten voor het project.\
      Hiermee werkt u de rol die is toegewezen aan uren bij, zoals beschreven in stap 7.\
@@ -175,9 +172,7 @@ Aan begrotingstoewijzingen in de Planner van het Middel in de*** mening van de R
    * Klik het **Meer** menu voor het project, dan klik **Gepland Uren van de Plaats van Gebruikers zoals Beoogd**.\
      De begrotingsuren van elke gebruiker worden berekend met behulp van de volgende formule:
 
-     ```
-     User Budgeted Hours = User Planned Hours
-     ```
+     `User Budgeted Hours = User Planned Hours`
 
 1. Voer een van de volgende handelingen uit om begrotingstoewijzing voor taakrollen toe te wijzen:
 
@@ -187,15 +182,11 @@ Aan begrotingstoewijzingen in de Planner van het Middel in de*** mening van de R
    * Klik het **Meer** menu voor de baanrol, dan klik **Plaats Projecten&#39; Geplande Uren zoals Beoogd.**De Rol die in de begroting wordt opgenomen Uren wordt berekend gebruikend de volgende formule:\
      *
 
-     ```
-     Role Budgeted Hours = SUM(Project Budgeted Hours)
-     ```
+     `Role Budgeted Hours = SUM(Project Budgeted Hours)`
 
      *Het voor het project uitgetrokken aantal uren wordt berekend met behulp van de volgende formule:
 
-     ```
-     Project Budgeted Hours = Project Planned Hours
-     ```
+     `Project Budgeted Hours = Project Planned Hours`
 
    * In de **BDG** kolom, specificeer manueel een aantal begrote uren, FTE, of kosten voor de projecten die onder de baanrol worden vermeld.\
      Hiermee voegt u het aantal begrote uren projecturen toe aan de rol.
@@ -213,24 +204,20 @@ Aan begrotingstoewijzingen in de Planner van het Middel in de*** mening van de R
    * Klik het **Meer** menu voor de baanrol, dan klik **Geplande Uren van Projecten&quot;plaatsen zoals Gegrogeerd**.\
      De voor het project uitgetrokken uren worden berekend aan de hand van de volgende formule:
 
-     ```
-     Project Budgeted Hours = Project Planned Hours
-     ```
+     `Project Budgeted Hours = Project Planned Hours`
 
      De begrote uren projecturen worden toegevoegd aan de Rol Geforceerde Uren.
 
    * (Voorwaardelijk) als u de uren voor de gebruikers in de begroting hebt opgenomen, klik het **Meer** menu voor het project, dan klik **Totale Beoogde Uren van Gebruikers voor Project**.\
      Het budget voor het project wordt berekend met behulp van de volgende formule:
 
-     ```
-     Project Budgeted Hours = SUM(User Budgeted Hours)
-     ```
+     `Project Budgeted Hours = SUM(User Budgeted Hours)`
 
      ![ budget_by_role.png ](assets/budget-by-role-350x181.png)
 
 1. Klik **sparen**.\
-   Nadat u uw middelen in de Planner van het Middel begroot, zijn de Begrotingstijd voor uw middelen en om het even welke kosten verbonden aan hen vermeld in het BedrijfsGeval van elk project.\
-   Voor meer informatie over het begrip van het gebied van de Begroting van het Middel van het BedrijfsGeval, zie de artikel [ middelen van de Begroting in het BedrijfsGeval ](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+   Nadat u uw middelen in de Planner van het Middel begroot, zijn de Begrotingstijd voor uw middelen en om het even welke kosten verbonden aan hen vermeld in het BedrijfsGeval van elk project.
+Voor meer informatie over het begrip van het gebied van de Begroting van het Middel van het BedrijfsGeval, zie de artikel [ middelen van de Begroting in het BedrijfsGeval ](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
 1. (Facultatief) selecteer de **Mening door Gebruiker** mening om het even welke gebruikersovertoewijzingen of onderbenutting tussen Beschikbaar en Geplande Uren voor elke gebruiker op te merken. De begrote Uren zijn niet zichtbaar in de Mening door Gebruiker.
 

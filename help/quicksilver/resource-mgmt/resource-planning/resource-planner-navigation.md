@@ -4,10 +4,10 @@ product-area: resource-management
 navigation-topic: resource-planning
 title: Overzicht van de navigatie in de bronnenplanner
 description: Met de Adobe Workfront Resource Planner kunt u eenvoudig de beschikbaarheid van uw bronnen en de geplande tijd die nodig is om het werk aan uw projecten te voltooien, begrijpen. U kunt de toewijzing van uw gebruikers en hun baanrollen op de projecten dan beheren zij aan worden toegewezen.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 5a1be723-e3ac-443a-9c09-85e8839fcbef
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
 source-wordcount: '2621'
 ht-degree: 0%

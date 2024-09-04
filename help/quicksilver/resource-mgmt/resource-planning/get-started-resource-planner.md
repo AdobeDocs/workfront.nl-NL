@@ -4,10 +4,10 @@ product-area: resource-management
 navigation-topic: resource-planning
 title: Overzicht van de bronnenplanner
 description: U kunt de toewijzing van uw middelen aan de projecten schatten en begroten zij worden toegewezen en hun beschikbaarheid voor toekomstig werk voorspellen gebruikend de Planner van het Middel.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
-source-git-commit: 1c8d9a62f5582b0dbc3c72b5881bb5d8f0b790ba
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
 source-wordcount: '2075'
 ht-degree: 0%

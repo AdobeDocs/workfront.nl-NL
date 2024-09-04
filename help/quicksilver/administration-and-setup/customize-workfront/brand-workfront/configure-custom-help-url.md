@@ -3,14 +3,14 @@ title: Een aangepaste Help-URL configureren
 user-type: administrator
 product-area: system-administration
 navigation-topic: brand-workfront
-description: Als u een aangepaste interne Help-site maakt die informatie bevat over hoe uw organisatie Workfront gebruikt, kunt u het pictogram Hoofdmenu Help configureren om naar die site te gaan. Dit heeft geen invloed op de hoofdkoppeling van de Help in het hoofdmenu en de contextgevoelige koppelingen in Workfront, die gebruikers naar de Help-site van Workfront leiden.
+description: Als u een aangepaste interne Help-site maakt die informatie bevat over hoe uw organisatie Workfront gebruikt, kunt u het pictogram Hoofdmenu Help configureren om naar die site te gaan.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d2b63508-1943-4f9e-888e-8f1bfb54c33e
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,9 @@ Als u een aangepaste interne Help-site maakt die informatie bevat over hoe uw or
 
 ![](assets/custom-help-button.png)
 
-Dit heeft geen invloed op de hoofdkoppeling van de Help in het hoofdmenu en de contextgevoelige koppelingen in Workfront, die gebruikers naar de Help-site van Workfront leiden.
+Dit heeft geen invloed op contextgevoelige Help-koppelingen in Workfront, die gebruikers naar de Help-site van Workfront brengen.
 
-![](assets/custom-help-url.png)
-
-Voor informatie over hoe de gebruikers tot zowel een douaneHulp URL toegang hebben die u in Workfront en de regelmatige de hulpplaats van Workfront vormt, zie [ Toegang tot de Hulp van Workfront in de nieuwe ervaring van Adobe Workfront ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
+Voor informatie over hoe de gebruikers tot zowel een douaneHulp URL toegang hebben die u in Workfront en de regelmatige de hulpplaats van Workfront vormt, zie [ Hulp van Adobe Workfront van de Toegang ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
 
 ## Toegangsvereisten
 
@@ -64,3 +62,5 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    Als voor uw aangepaste Help-locatie aanmeldingsgegevens zijn vereist, zijn deze vereist voor gebruikers die vanuit Workfront toegang willen krijgen tot de site. Mogelijk moeten de referenties naar uw aangepaste Help-site afzonderlijk van de Workfront-referenties worden beheerd als u SSO (Single Sign-On) niet gebruikt.
 
 1. Klik **sparen**.
+
+   Zodra u een douaneHulp URL hebt bewaard, kunt u aan de standaardWorkfront hulpplaats terugkeren door douane URL te schrappen en **te klikken sparen**.

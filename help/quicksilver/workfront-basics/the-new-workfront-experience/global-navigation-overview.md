@@ -5,9 +5,9 @@ description: De hoogste navigatiebar — die bij de bovenkant van uw scherm in  
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 692f3be1d7d3c3099e822440872ebdf3af3e04d1
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '617'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,13 @@ Uw Workfront-beheerder kan het Home-pictogram aanpassen om een andere pagina te 
 
 U kunt pagina&#39;s die u vaak bezoekt vastzetten, zodat deze worden weergegeven in de bovenste navigatiebalk. Meer over vastgezette pagina&#39;s leren, zie [ Vastzetten pagina&#39;s om uw werkruimte ](../../workfront-basics/the-new-workfront-experience/pin-pages.md) aan te passen.
 
+<!--
 ## [!UICONTROL Help] menu
 
-Met het menu **[!UICONTROL Help]** kunt u zoeken naar hulp bij een bepaalde taak, meer informatie zoeken over het gebruik van [!DNL Workfront] , inhoud weergeven die is gerelateerd aan de pagina die u momenteel hebt ingeschakeld of feedback over uw ervaring verzenden.
+The **[!UICONTROL Help]** menu allows you to search for help with a specific task, find more information on using [!DNL Workfront], view content related to the page you are currently on, or submit feedback about your experience.
 
-Om meer over het menu van de Hulp te leren, zie  [!DNL Adobe Workfront]  hulp van de Toegang ](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).[
+To learn more about the Help menu, see [Access [!DNL Adobe Workfront] help](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
+-->
 
 ## [!UICONTROL Notifications] menu
 

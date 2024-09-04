@@ -2,13 +2,13 @@
 product-area: resource-management
 navigation-topic: resource-planning
 title: Bronnen zoeken
-description: '(Dit kwam uit dit artikel: concept dat inhoud in het artikel als dit live verschijnt: /Content/Resource Mgmt/Resource Planning/get-started-resource-planner.html)'
-author: Alina
+description: U kunt de Planner van het Middel gebruiken om de toewijzing van uw middelen aan projecten te beheren. U kunt tot de Planner van het Middel voor veelvoudige projecten tezelfdertijd of voor één project, van het Van Bedrijfs project gebied toegang hebben.
+author: Lisa
 feature: Resource Management
 exl-id: 0de749df-5af9-4124-8539-06b82dca2ec4
-source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
@@ -23,38 +23,42 @@ U kunt de Planner van het Middel gebruiken om de toewijzing van uw middelen aan 
 
 ## Toegangsvereisten
 
-U moet het volgende hebben:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Pro en hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td><p>Nieuw: alle</p>
+       <p>of</p>
+       <p>Huidig: Pro of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Controleren of hoger<!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-        (this seems to be the case in NWE only, not classic. Waiting on Vazgen's response for this)
-      </MadCap:conditionalText>
-     --></p> <p>Plan of hoger om de Planner van het Middel in het globale gebied te bepalen</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td><p>Nieuw: Licht of hoger;</br>
+          Standaard voor het zoeken van de bronnenplanner in het hoofdmenu</p>
+       <p>of</p>
+       <p>Huidig: Controleren of hoger;</br>
+       Plan om van de Planner van het Middel in het Belangrijkste Menu de plaats te bepalen</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot of hoger weergeven voor bronnenbeheer</p> <p><b>OPMERKING</b>
-
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
-</tr> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot of hoger weergeven voor bronnenbeheer</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Toestemmingen voor projecten en gebruikers weergeven </p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Toestemmingen voor projecten en gebruikers weergeven </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vereisten
 
@@ -79,14 +83,14 @@ Wanneer het gebruiken van de Planner van het Middel voor veelvoudige projecten, 
 
 De sectie Planner openen in het gebied Bronnen:
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.
+{{step1-to-resourcing}}
 
-1. Klik **Middelen**. Standaard wordt de Planner weergegeven.  Voor informatie over het opnemen van middelen in de Planner van het Middel, zie de artikel [ middelen van de Begroting in de Planner van het Middel gebruikend de meningen van het Project en van de Rol ](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+Standaard wordt de Planner weergegeven.  Voor informatie over het opnemen van middelen in de Planner van het Middel, zie de artikel [ middelen van de Begroting in de Planner van het Middel gebruikend de meningen van het Project en van de Rol ](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
-   ![](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
+![](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
 
-1. Beweeg over het linkerpaneel, en klik **Pools van het Middel**.\
-   Voor informatie over het creëren van middelpools, zie [ middelpools ](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md) creëren.
+1. Klik **Pools van het Middel** in het linkerpaneel.
+Voor informatie over het creëren van middelpools, zie [ middelpools ](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md) creëren.
 
 ### Gebruik de Planner van het Middel voor één project {#use-the-resource-planner-for-one-project}
 

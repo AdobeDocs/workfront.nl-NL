@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
-source-wordcount: '14363'
+source-wordcount: '14362'
 ht-degree: 0%
 
 ---
@@ -1756,7 +1756,7 @@ ht-degree: 0%
          * [Brongroepen koppelen aan gebruikers](resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)
          * [Gebruikers verwijderen uit bronnenpools](resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md)
       * [Aan de slag met bronnenplanning](resource-mgmt/resource-planning/get-started-resource-planning.md)
-      * [Toegang tot begrotingsmiddelen in Adobe Workfront](resource-mgmt/resource-planning/access-needed-to-budget-resources.md)
+      * [Toegang tot begrotingsmiddelen in Workfront](resource-mgmt/resource-planning/access-needed-to-budget-resources.md)
       * [Overzicht van de bronnenplanner](resource-mgmt/resource-planning/get-started-resource-planner.md)
       * [Bronnen zoeken](resource-mgmt/resource-planning/locate-resource-planner.md)
       * [Overzicht van de navigatie in de bronnenplanner](resource-mgmt/resource-planning/resource-planner-navigation.md)

@@ -6,7 +6,7 @@ description: Hoewel er geen grens aan hoeveel gebruikers u in een middelpool kun
 author: Lisa
 feature: Resource Management
 exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
-source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
@@ -37,7 +37,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader">Adobe Workfront-plan</td> 
    <td><p>Nieuw: alle</p>
        <p>of</p>
-       <p>Huidig: Pro en hoger</p> </td> 
+       <p>Huidig: Pro of hoger</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
