@@ -6,7 +6,7 @@ description: Als projectmanager, kunt u bepalen hoe de Voorwaarde van een projec
 author: Alina
 feature: Work Management
 exl-id: e6b99c48-5ccc-4956-8465-6f22f14468ef
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 097cad00835f3fb415c06c93dcf11325736c5250
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 0%
@@ -53,7 +53,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 ## Het voorwaardetype instellen voor een project
 
 1. Ga naar het project waarvoor u het Type van Voorwaarde wilt bijwerken.
-1. Voer een van de volgende handelingen uit: 
+1. Voer een van de volgende handelingen uit:
 
    * Klik **Meer** menu ![](assets/qs-more-menu.png) aan het recht van de projectnaam, dan klik **uitgeven**.
    * Klik **Details van het Project** in het linkerpaneel.
@@ -72,4 +72,4 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    Klik **sparen Veranderingen** wanneer u het Type van Voorwaarde in de sectie van de Details van het Project wijzigt.
 
- 
+
