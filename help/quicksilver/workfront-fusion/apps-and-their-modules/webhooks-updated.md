@@ -8,9 +8,9 @@ description: Een webhaak is een HTTP-aanroep die door een gebeurtenis wordt geac
 author: Becky
 feature: Workfront Fusion
 exl-id: 987544a4-5840-40d4-9438-41a000aa22ee
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1322'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ U kunt ook de onderstaande stappen volgen om de voorbeeldgegevens via de module 
 
    De items van de webhaak zijn nu beschikbaar in het deelvenster Toewijzing voor gebruik met volgende modules in het scenario.
 
-## Wachtrij
+## De webshaakwachtrij
 
 Als een website gegevens ontvangt en er geen actief scenario is dat dat gegevens verwacht, worden de gegevens opgeslagen in de rij. Zodra u het scenario activeert, verwerkt het alle bundels die in de rij opeenvolgend wachten.
 

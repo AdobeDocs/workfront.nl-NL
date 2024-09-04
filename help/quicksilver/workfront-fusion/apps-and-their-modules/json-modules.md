@@ -8,9 +8,9 @@ description: De Adobe Workfront Fusion JSON-app biedt modules voor het verwerken
 author: Becky
 feature: Workfront Fusion
 exl-id: 60540608-9d2e-4e10-9fb2-5388dda64784
-source-git-commit: 0290772c26ca82af31f14d101b4dde99377d6ce4
+source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1093'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ Als het JSON-tekenreeksveld een verzameling `{ ... }` bevat, bestaat de uitvoer 
 >       "name" : "Peter",
 >
 >    
->   "ID" : 1
+   "ID" : 1
 >}
 >```
 >
@@ -108,7 +108,7 @@ Als het JSON-tekenreeksveld een array `[ ... ]` bevat, bestaat de uitvoer uit ee
 >   },
 >
 >  
-> {
+ {
 >       "name" : "Mike",
 >       "ID" : 2
 >   }
@@ -125,13 +125,14 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
 
 ![](assets/map-toggle-350x74.png)
 
-* [ Geaggregeerd aan JSON ](#aggregate-to-json)
 * [ zet JSON in XML ](#convert-json-to-xml) om
 * [ ontleed JSON ](#parse-json)
 * [ creeer JSON ](#create-json)
 * [Transform JSON](#transform-json)
 
-### [!UICONTROL Aggregate to JSON]
+### Samenvoegapparatuur
+
+#### [!UICONTROL Aggregate to JSON]
 
 Deze aggregatormodule aggregeert de uitvoer van een vorige module naar JSON.
 
@@ -162,7 +163,14 @@ Deze aggregatormodule aggregeert de uitvoer van een vorige module naar JSON.
  </tbody> 
 </table>
 
-### [!UICONTROL Convert JSON to XML]
+### Transformatoren
+
+* [ zet JSON in XML ](#convert-json-to-xml) om
+* [ creeer JSON ](#create-json)
+* [ ontleed JSON ](#parse-json)
+* [Transform JSON](#transform-json)
+
+#### [!UICONTROL Convert JSON to XML]
 
 Deze actiemodule converteert een JSON-tekenreeks naar XML.
 
@@ -177,7 +185,22 @@ Deze actiemodule converteert een JSON-tekenreeks naar XML.
  </tbody> 
 </table>
 
-### [!UICONTROL Parse JSON]
+#### [!UICONTROL Create JSON]
+
+Deze actiemodule maakt JSON op basis van een gegevensstructuur.
+
+<table style="table-layout:auto"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Gegevensstructuur</td> 
+   <td> <p>Selecteer de gegevensstructuur die u wilt gebruiken om JSON te maken. Voor meer informatie, zie <a href="#data-structure" class="MCXref xref"> de structuur van Gegevens </a> in dit artikel.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Parse JSON]
 
 Deze actiemodule parseert een JSON-tekenreeks in een gegevensstructuur, waarmee u toegang hebt tot de gegevens in de JSON-tekenreeks.
 
@@ -196,22 +219,7 @@ Deze actiemodule parseert een JSON-tekenreeks in een gegevensstructuur, waarmee 
  </tbody> 
 </table>
 
-### [!UICONTROL Create JSON]
-
-Deze actiemodule maakt JSON op basis van een gegevensstructuur.
-
-<table style="table-layout:auto"> 
- <col data-mc-conditions=""> 
- <col data-mc-conditions=""> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Gegevensstructuur</td> 
-   <td> <p>Selecteer de gegevensstructuur die u wilt gebruiken om JSON te maken. Voor meer informatie, zie <a href="#data-structure" class="MCXref xref"> de structuur van Gegevens </a> in dit artikel.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### [!UICONTROL Transform JSON]
+#### [!UICONTROL Transform JSON]
 
 Deze actiemodule transformeert een object naar een json-tekenreeks.
 
@@ -238,28 +246,27 @@ Deze actiemodule transformeert een object naar een json-tekenreeks.
 >
 1. Verbind [!UICONTROL JSON] > [!UICONTROL Create JSON] module na de [!UICONTROL Array Aggregator] module. De opstelling van de module vereist een structuur van Gegevens die het formaat JSON beschrijft. Klik op **[!UICONTROL Add]** om de gegevensstructuurinstellingen te openen. De eenvoudigste manier om deze gegevensstructuur te maken, is deze automatisch te genereren op basis van een JSON-voorbeeld. Klik op **[!UICONTROL Generator]** en plak uw JSON-voorbeeld in het veld **[!UICONTROL Sample data]** :
 >
->     **Voorbeeld:**
+**Voorbeeld:**
 >
->     ```
->     {
->     
->     "books": [
->     
->     {
->     
->     "id": "ID",
->     
->     "title": "Title",
->     
->     "author": "Author"
->     
->     }
->     
->     ]
->     
->     }
->     
->     ```
+```
+{
+
+"books": [
+
+{
+
+"id": "ID",
+
+"title": "Title",
+
+"author": "Author"
+
+}
+
+]
+
+}
+```
 >
 1. Klik op **[!UICONTROL Save]**. Het veld [!UICONTROL Specification] in de gegevensstructuur bevat nu de gegenereerde structuur.
 1. Wijzig de naam van de gegevensstructuur in een specifiekere naam en klik op **[!UICONTROL Save]** . Een veld dat overeenkomt met het kenmerk van de hoofdarray wordt als een toewijzingsveld weergegeven in de instellingen van de JSON-module.

@@ -10,9 +10,9 @@ description: Met de  [!DNL Adobe Experience Manager Assets]  schakelaar voor  [!
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: e06ca7c05867c12940df487fe4bc4e34744e2f1f
+source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
 workflow-type: tm+mt
-source-wordcount: '1374'
+source-wordcount: '1409'
 ht-degree: 0%
 
 ---
@@ -190,6 +190,15 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
 
 ![](assets/map-toggle-350x74.png)
 
+* [Een map of element kopiëren](#copy-a-folder-or-asset)
+* [Een record maken](#create-a-record)
+* [Een map, element of uitvoering verwijderen](#delete-a-folder-asset-or-rendition)
+* [Een mappenlijst ophalen](#get-a-folder-listing)
+* [Een aangepaste API-aanroep maken](#make-a-custom-api-call)
+* [Een map of element verplaatsen](#move-a-folder-or-asset)
+* [Een record bijwerken](#update-a-record)
+* [Middelen uploaden](#upload-an-asset)
+
 ### [!UICONTROL Copy a folder or asset]
 
 Deze actiemodule kopieert een map of middel naar een andere locatie in uw Adobe Experience Manager Assets-account.
@@ -260,7 +269,7 @@ In deze actiemodule wordt een map of elementcommentaar gemaakt.
  </tbody> 
 </table>
 
-### [!UICONTROL Delete a record]
+### [!UICONTROL Delete a folder, asset, or rendition]
 
 Met deze actiemodule verwijdert u een map, element of uitvoering.
 

@@ -9,7 +9,7 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion
 exl-id: ecaa93c9-47bb-4fe1-87b4-d2e117cc68ae
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: ed7ea1d3409c39caea5fe8b107b7b2907dc87d76
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 0%
@@ -127,13 +127,13 @@ Als u deze module configureert, worden de volgende velden weergegeven.
 
 ### Handelingen
 
-* [Aangepaste API-aanroep](#custom-api-call)
-* [Record lezen](#read-record)
 * [Een record maken](#create-a-record)
+* [Aangepaste API-aanroep](#custom-api-call)
+* [Een bijlage downloaden](#download-an-attachment)
+* [Werkitems koppelen](#link-work-items)
+* [Record lezen](#read-record)
 * [Een tijdelijk item bijwerken](#update-a-work-item)
 * [[!UICONTROL Upload an attachment]](#upload-an-attachment)
-* [Een bijlage downloaden](#download-an-attachment)
-* [ het werkpunten van de Verbinding ] ([!UICONTROL #link-work-items])
 
 #### [!UICONTROL Custom API Call]
 
@@ -183,43 +183,6 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  </tbody> 
 </table>
 
-#### [!UICONTROL Read record]
-
-Deze actiemodule leest gegevens uit één record in [!DNL Azure DevOps] .
-
-U geeft de id van de record op.
-
-De module retourneert de id van de record en de bijbehorende velden, samen met aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
-
-Als u deze module configureert, worden de volgende velden weergegeven.
-
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Azure DevOps] met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Azure DevOps] -account met [!DNL Workfront Fusion] .</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Record type]</td> 
-   <td> <p>Selecteer of u een project of een het werkpunt wilt lezen</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL Project]</strong>: Selecteer het project dat u wilt lezen.</p> </li> 
-     <li> <p><strong>[!UICONTROL Work item]</strong>: Selecteer het project dat het het werkpunt bevat u wilt lezen, dan het type van het het werkpunt selecteren.</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Outputs]</td> 
-   <td>Selecteer de informatie die u in de uitvoerbundel voor deze module wilt opnemen. Beschikbare velden zijn afhankelijk van het type werkitem.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL ID]</td> 
-   <td>Voer de id in van de record die u wilt lezen of wijs deze toe.</td> 
-  </tr> 
- </tbody> 
-</table>
-
 #### [!UICONTROL Create a record]
 
 Deze actiemodule leidt tot een nieuw project of het werkpunt.
@@ -253,6 +216,99 @@ De module geeft de object-id weer voor het nieuwe werkitem of de URL en statusco
        <li> <p><strong>[!UICONTROL Other fields]</strong>:Op deze gebieden, ga de waarde in die u het het werkpunt voor een bepaalde bezit wilt hebben. Beschikbare velden zijn afhankelijk van het type werkitem.</p> </li> 
       </ul> </li> 
     </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Download an attachment]
+
+Deze actiemodule downloadt een bijlage.
+
+De module retourneert de bestandsinhoud van de bijlage.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Zie <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Azure DevOps] met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Azure DevOps] -account met [!DNL Workfront Fusion] .</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Attachment URL]</td> 
+   <td> <p>Voer de URL in van de bijlage die u wilt downloaden of wijs deze toe.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Link work items]
+
+Deze actiemodule verbindt twee het werkpunten en bepaalt het verband tussen hen.
+
+De module retourneert de id van het hoofdwerkitem en alle bijbehorende velden, samen met aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
+
+Als u deze module configureert, worden de volgende velden weergegeven.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Zie <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Azure DevOps] met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Azure DevOps] -account met [!DNL Workfront Fusion] .</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Work item ID]</td> 
+   <td>Voer de id in van het hoofdwerkitem waarnaar u een ander werkitem wilt koppelen of wijs deze toe.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Linked work item ID]</td> 
+   <td>Voer de id in van het werkitem dat u wilt koppelen aan het hoofdwerkitem of wijs deze toe.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Link Type]</td> 
+   <td> <p>Bepaal de verhouding tussen de het werkpunten die u wilt verbinden.</p> <p>Voor meer informatie, zie <a href="https://docs.microsoft.com/en-us/azure/devops/boards/queries/link-type-reference?view=azure-devops"> Verwijzing van het Type van Verbinding </a> in de [!UICONTROL Azure DevOps] Documentatie.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Comment]</td> 
+   <td>Voer de tekst van een opmerking in of wijs deze toe. Dit is nuttig om de redenering of de intentie van het verband uit te leggen.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Read record]
+
+Deze actiemodule leest gegevens uit één record in [!DNL Azure DevOps] .
+
+U geeft de id van de record op.
+
+De module retourneert de id van de record en de bijbehorende velden, samen met aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
+
+Als u deze module configureert, worden de volgende velden weergegeven.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Zie <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Azure DevOps] met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Azure DevOps] -account met [!DNL Workfront Fusion] .</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Record type]</td> 
+   <td> <p>Selecteer of u een project of een het werkpunt wilt lezen</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Project]</strong>: Selecteer het project dat u wilt lezen.</p> </li> 
+     <li> <p><strong>[!UICONTROL Work item]</strong>: Selecteer het project dat het het werkpunt bevat u wilt lezen, dan het type van het het werkpunt selecteren.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Outputs]</td> 
+   <td>Selecteer de informatie die u in de uitvoerbundel voor deze module wilt opnemen. Beschikbare velden zijn afhankelijk van het type werkitem.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ID]</td> 
+   <td>Voer de id in van de record die u wilt lezen of wijs deze toe.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -319,62 +375,6 @@ De module retourneert de bijlage-id en een download-URL voor de bijlage.
   <tr> 
    <td role="rowheader">[!UICONTROL Source file] </td> 
    <td>Selecteer een bronbestand uit een vorige module of voer de naam en inhoud van het bronbestand in of wijs deze toe.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Download an attachment]
-
-Deze actiemodule downloadt een bijlage.
-
-De module retourneert de bestandsinhoud van de bijlage.
-
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Azure DevOps] met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Azure DevOps] -account met [!DNL Workfront Fusion] .</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Attachment URL]</td> 
-   <td> <p>Voer de URL in van de bijlage die u wilt downloaden of wijs deze toe.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Link work items]
-
-Deze actiemodule verbindt twee het werkpunten en bepaalt het verband tussen hen.
-
-De module retourneert de id van het hoofdwerkitem en alle bijbehorende velden, samen met aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
-
-Als u deze module configureert, worden de volgende velden weergegeven.
-
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Azure DevOps] met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Azure DevOps] -account met [!DNL Workfront Fusion] .</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Work item ID]</td> 
-   <td>Voer de id in van het hoofdwerkitem waarnaar u een ander werkitem wilt koppelen of wijs deze toe.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Linked work item ID]</td> 
-   <td>Voer de id in van het werkitem dat u wilt koppelen aan het hoofdwerkitem of wijs deze toe.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Link Type]</td> 
-   <td> <p>Bepaal de verhouding tussen de het werkpunten die u wilt verbinden.</p> <p>Voor meer informatie, zie <a href="https://docs.microsoft.com/en-us/azure/devops/boards/queries/link-type-reference?view=azure-devops"> Verwijzing van het Type van Verbinding </a> in de [!UICONTROL Azure DevOps] Documentatie.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Comment]</td> 
-   <td>Voer de tekst van een opmerking in of wijs deze toe. Dit is nuttig om de redenering of de intentie van het verband uit te leggen.</td> 
   </tr> 
  </tbody> 
 </table>

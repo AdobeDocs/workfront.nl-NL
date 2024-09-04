@@ -9,9 +9,9 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion
 exl-id: 16d49031-06d2-4c86-bac4-f58cd9b2f1f5
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: ed7ea1d3409c39caea5fe8b107b7b2907dc87d76
 workflow-type: tm+mt
-source-wordcount: '2240'
+source-wordcount: '2248'
 ht-degree: 0%
 
 ---
@@ -217,7 +217,7 @@ Deze triggermodule start een scenario wanneer een item wordt bijgewerkt in een m
 
 ### Item
 
-* [[!UICONTROL Copy Item]](#copy-an-item)
+* [[!UICONTROL Copy an item]](#copy-an-item)
 * [[!UICONTROL Create an item]](#create-an-item)
 * [[!UICONTROL Delete an item]](#delete-an-item)
 * [[!UICONTROL Get an Item]](#get-an-item)
@@ -651,6 +651,10 @@ Deze actiemodule zoekt naar sites op basis van een parameter die u opgeeft.
 </table>
 
 ### Overige
+
+* [Wijzigingen ophalen](#get-changes)
+* [Maak een API Vraag](#make-an-api-call)
+* [Gebeurtenissen bekijken](#watch-events)
 
 #### Wijzigingen ophalen
 

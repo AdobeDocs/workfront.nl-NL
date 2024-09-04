@@ -10,9 +10,9 @@ description: Adobe Workfront Fusion vereist naast een Adobe Workfront-licentie e
 author: Becky
 feature: Workfront Fusion
 exl-id: 01405f5f-6821-4c38-b34c-373922f63004
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 8dbb29b297d4f8840d5ecb81f819e89b5325f62c
 workflow-type: tm+mt
-source-wordcount: '1986'
+source-wordcount: '2059'
 ht-degree: 0%
 
 ---
@@ -73,11 +73,23 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
 
 ![](assets/map-toggle-350x74.png)
 
+* [Dashboards](#dashboards)
+* [Rapporten](#reports)
+* [Gegevensset](#dataset)
+* [Apps](#apps)
+* [Overige](#other)
+
 ### Dashboards
 
-#### [!UICONTROL List Dashboards]
+* [Een dashboard maken](#create-a-dashboard)
+* [Een dashboard ophalen](#get-a-dashboard)
+* [Een dashboardtegel ophalen](#get-a-dashboard-tile)
+* [Lijstdashboardblokken](#list-dashboard-tiles)
+* [Lijstdashboards](#list-dashboards)
 
-Deze zoekmodule haalt een lijst met dashboards op.
+#### [!UICONTROL Create a Dashboard]
+
+Deze actiemodule maakt een nieuw dashboard.
 
 <table>
   <col/>
@@ -88,55 +100,14 @@ Deze zoekmodule haalt een lijst met dashboards op.
    <td> <p>Voor instructies over het verbinden van uw [!DNL Power BI] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Group ID]  </td>
-      <td>
-        <p>Selecteer of wijs identiteitskaart van de Groep toe die de dashboards bezit u wilt een lijst maken.</p>
-      </td>
+      <td role="rowheader">[!UICONTROL Name]</td>
+      <td>Voer een naam voor het dashboard in of wijs deze toe.</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Limit]  </td>
-      <td>
-        <p>Ga of kaart het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</p>
-      </td>
+      <td role="rowheader">[!UICONTROL Group ID]  </td>
+      <td>Selecteer of wijs identiteitskaart van de Groep toe die het nieuwe dashboard zal bezitten.</td>
     </tr>
   </tbody>
-</table>
-
-#### [!UICONTROL List Dashboard Tiles]
-
-Deze zoekmodule haalt een lijst met dashboardtegels op.
-
-<table>
-<col/>
-<col/>
-<tbody>
-  <tr>
-    <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Voor instructies over het verbinden van uw [!DNL Power BI] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
-  </tr>
-  <tr>
-    <td role="rowheader">[!UICONTROL Enter a Dashboard ID]</td>
-    <td>
-      <p>Selecteer of wijs de optie toe om het dashboard te kiezen waarvan de tegels u wilt vermelden.</p>
-    </td>
-  </tr>
-  <tr>
-    <td role="rowheader">[!UICONTROL Dashboard ID]</td>
-    <td>
-      <p>Voer de id van het dashboard in of wijs deze toe met de tegels die u wilt weergeven.</p>
-    </td>
-  </tr>
-  <tr>
-    <td role="rowheader">[!UICONTROL Group ID]  </td>
-    <td>Selecteer of wijs identiteitskaart van de Groep toe die de dashboards bezit die de tegels bevat u wilt een lijst maken.</td>
-  </tr>
-  <tr>
-    <td role="rowheader">[!UICONTROL Limit]  </td>
-    <td>
-      <p>Ga of kaart het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</p>
-    </td>
-  </tr>
-</tbody>
 </table>
 
 #### [!UICONTROL Get a Dashboard]
@@ -205,34 +176,46 @@ Deze actiemodule wint meta-gegevens van een gespecificeerde dashboardtegel terug
   </tbody>
 </table>
 
-#### [!UICONTROL Create a Dashboard]
+#### [!UICONTROL List Dashboard Tiles]
 
-Deze actiemodule maakt een nieuw dashboard.
+Deze zoekmodule haalt een lijst met dashboardtegels op.
 
 <table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
+<col/>
+<col/>
+<tbody>
+  <tr>
+    <td role="rowheader">[!UICONTROL Connection]</td>
    <td> <p>Voor instructies over het verbinden van uw [!DNL Power BI] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Name]</td>
-      <td>Voer een naam voor het dashboard in of wijs deze toe.</td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Group ID]  </td>
-      <td>Selecteer of wijs identiteitskaart van de Groep toe die het nieuwe dashboard zal bezitten.</td>
-    </tr>
-  </tbody>
+  </tr>
+  <tr>
+    <td role="rowheader">[!UICONTROL Enter a Dashboard ID]</td>
+    <td>
+      <p>Selecteer of wijs de optie toe om het dashboard te kiezen waarvan de tegels u wilt vermelden.</p>
+    </td>
+  </tr>
+  <tr>
+    <td role="rowheader">[!UICONTROL Dashboard ID]</td>
+    <td>
+      <p>Voer de id van het dashboard in of wijs deze toe met de tegels die u wilt weergeven.</p>
+    </td>
+  </tr>
+  <tr>
+    <td role="rowheader">[!UICONTROL Group ID]  </td>
+    <td>Selecteer of wijs identiteitskaart van de Groep toe die de dashboards bezit die de tegels bevat u wilt een lijst maken.</td>
+  </tr>
+  <tr>
+    <td role="rowheader">[!UICONTROL Limit]  </td>
+    <td>
+      <p>Ga of kaart het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</p>
+    </td>
+  </tr>
+</tbody>
 </table>
 
-### Rapporten
+#### [!UICONTROL List Dashboards]
 
-#### [!UICONTROL List Reports]
-
-Deze zoekmodule haalt een lijst met rapporten op.
+Deze zoekmodule haalt een lijst met dashboards op.
 
 <table>
   <col/>
@@ -245,7 +228,7 @@ Deze zoekmodule haalt een lijst met rapporten op.
     <tr>
       <td role="rowheader">[!UICONTROL Group ID]  </td>
       <td>
-        <p>Selecteer of wijs identiteitskaart van de Groep toe die de rapporten bezit u wilt een lijst maken.</p>
+        <p>Selecteer of wijs identiteitskaart van de Groep toe die de dashboards bezit u wilt een lijst maken.</p>
       </td>
     </tr>
     <tr>
@@ -257,36 +240,12 @@ Deze zoekmodule haalt een lijst met rapporten op.
   </tbody>
 </table>
 
-#### [!UICONTROL Get a Report]
+### Rapporten
 
-Deze actiemodule wint meta-gegevens van een gespecificeerd rapport terug.
-
-<table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Voor instructies over het verbinden van uw [!DNL Power BI] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Enter a Report ID]</td>
-      <td>
-        <p>Selecteer of wijs de optie in kaart om het rapport te kiezen waarvoor u meta-gegevens wilt terugwinnen.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Report ID]</td>
-      <td>
-        <p>Ga of kaart identiteitskaart van het rapport in dat u meta-gegevens voor wilt terugwinnen.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Group ID]  </td>
-      <td>Selecteer of wijs identiteitskaart van de Groep toe die het rapport bezit dat u meta-gegevens voor wilt terugwinnen.</td>
-    </tr>
-  </tbody>
-</table>
+* [Een rapport kopiëren](#copy-a-report)
+* [Een rapport verwijderen](#delete-a-report)
+* [Een rapport ophalen](#get-a-report)
+* [Rapporten weergeven](#list-reports)
 
 #### [!UICONTROL Copy a Report]
 
@@ -354,36 +313,9 @@ Deze actiemodule verwijdert een rapport.
   </tbody>
 </table>
 
-### Gegevensset
+#### [!UICONTROL Get a Report]
 
-#### [!UICONTROL List Datasets]
-
-Deze onderzoeksmodule wint een lijst van datasets terug.
-
-<table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Voor instructies over het verbinden van uw [!DNL Power BI] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Group ID]  </td>
-      <td>Selecteer of wijs identiteitskaart van de Groep toe die het rapport bezit dat u meta-gegevens voor wilt terugwinnen.</td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Limit]</td>
-      <td>
-        <p>Ga of kaart het maximumaantal verslagen in u de module aan [actie] tijdens elke cyclus van de scenariouitvoering wilt.</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-#### [!UICONTROL Get a Dataset]
-
-Deze actiemodule wint meta-gegevens van een gespecificeerde dataset terug.
+Deze actiemodule wint meta-gegevens van een gespecificeerd rapport terug.
 
 <table>
   <col/>
@@ -402,12 +334,132 @@ Deze actiemodule wint meta-gegevens van een gespecificeerde dataset terug.
     <tr>
       <td role="rowheader">[!UICONTROL Report ID]</td>
       <td>
-        <p>Ga of kaart identiteitskaart van de dataset in die u meta-gegevens voor wilt terugwinnen.</p>
+        <p>Ga of kaart identiteitskaart van het rapport in dat u meta-gegevens voor wilt terugwinnen.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Group ID]  </td>
-      <td>Selecteer of wijs identiteitskaart van de Groep toe die de dataset bezit die u meta-gegevens voor wilt terugwinnen.</td>
+      <td>Selecteer of wijs identiteitskaart van de Groep toe die het rapport bezit dat u meta-gegevens voor wilt terugwinnen.</td>
+    </tr>
+  </tbody>
+</table>
+
+#### [!UICONTROL List Reports]
+
+Deze zoekmodule haalt een lijst met rapporten op.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Power BI] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Group ID]  </td>
+      <td>
+        <p>Selecteer of wijs identiteitskaart van de Groep toe die de rapporten bezit u wilt een lijst maken.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Limit]  </td>
+      <td>
+        <p>Ga of kaart het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+### Gegevensset
+
+* [Rijen toevoegen/verwijderen in een tabel met gegevenssets](#add-or-delete-rows-in-a-dataset-table)
+* [Een gegevensset maken](#create-a-dataset)
+* [Een gegevensset verwijderen](#delete-a-dataset)
+* [Een gegevensset ophalen](#get-a-dataset)
+* [Lijstgegevens](#list-datasets)
+* [Een gegevensset vernieuwen](#refresh-a-dataset)
+
+#### [!UICONTROL Add or Delete Rows in a Dataset Table]
+
+Deze actiemodule voegt rijen van een gespecificeerde lijst van duwdataset toe of schrapt.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Power BI] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Enter a table]</td>
+      <td>Selecteer of wijs de optie toe om de dataset te selecteren die de lijst bevat u wilt aanpassen.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Dataset ID]</td>
+      <td>Ga of kaart identiteitskaart van de dataset in die de rijen bevat u wilt toevoegen of schrappen.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Table Name]  </td>
+      <td>
+        <p>Typ of wijs de naam toe van de tabel die de rijen bevat die u wilt toevoegen of verwijderen.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Group ID]  </td>
+      <td>Ga of kaart identiteitskaart van de groep in die de dataset bezit.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Select the Action]</td>
+      <td>
+        <p>Selecteer of wijs de actie toe die u wilt uitvoeren.</p>
+        <ul>
+          <li>
+            <p>[!UICONTROL Add rows]</p>
+          </li>
+          <li>
+            <p>[!UICONTROL Delete All Rows]</p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Rows]</td>
+      <td>
+        <p>Voeg de rijvelden toe.</p>
+        <ul>
+          <li>
+            <p><b>[!UICONTROL Key]</b>
+            </p>
+            <p>Voer de sleutelnaam in of wijs deze toe.</p>
+          </li>
+          <li>
+            <p><b>[!UICONTROL Field Type]</b>
+            </p>
+            <p>Selecteer of wijs het veldtype toe:</p>
+            <ul>
+              <li>
+                <p>Boolean</p>
+              </li>
+              <li>
+                <p>Datum</p>
+              </li>
+              <li>
+                <p>Tekst</p>
+              </li>
+              <li>
+                <p>Getal</p>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <p>[!UICONTROL Value]</p>
+            <p>Voer de sleutelwaarde in of wijs deze toe.</p>
+          </li>
+        </ul>
+      </td>
     </tr>
   </tbody>
 </table>
@@ -583,9 +635,9 @@ Deze actiemodule leidt tot een nieuwe dataset.
   </tbody>
 </table>
 
-#### [!UICONTROL Add or Delete Rows in a Dataset Table]
+#### [!UICONTROL Delete a Dataset]
 
-Deze actiemodule voegt rijen van een gespecificeerde lijst van duwdataset toe of schrapt.
+Deze actiemodule schrapt een dataset.
 
 <table>
   <col/>
@@ -596,71 +648,75 @@ Deze actiemodule voegt rijen van een gespecificeerde lijst van duwdataset toe of
    <td> <p>Voor instructies over het verbinden van uw [!DNL Power BI] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Enter a table]</td>
-      <td>Selecteer of wijs de optie toe om de dataset te selecteren die de lijst bevat u wilt aanpassen.</td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Dataset ID]</td>
-      <td>Ga of kaart identiteitskaart van de dataset in die de rijen bevat u wilt toevoegen of schrappen.</td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Table Name]  </td>
+      <td role="rowheader">[!UICONTROL Enter a Report ID]</td>
       <td>
-        <p>Typ of wijs de naam toe van de tabel die de rijen bevat die u wilt toevoegen of verwijderen.</p>
+        <p>Selecteer of wijs de optie in kaart om de dataset te kiezen die u wilt schrappen.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Report ID]</td>
+      <td>
+        <p>Ga of kaart identiteitskaart van de dataset in die u wilt schrappen.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Group ID]  </td>
-      <td>Ga of kaart identiteitskaart van de groep in die de dataset bezit.</td>
+      <td>Selecteer of wijs identiteitskaart van de Groep toe die de dataset bezit die u wilt schrappen.</td>
+    </tr>
+  </tbody>
+</table>
+
+#### [!UICONTROL Get a Dataset]
+
+Deze actiemodule wint meta-gegevens van een gespecificeerde dataset terug.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Power BI] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Select the Action]</td>
+      <td role="rowheader">[!UICONTROL Enter a Report ID]</td>
       <td>
-        <p>Selecteer of wijs de actie toe die u wilt uitvoeren.</p>
-        <ul>
-          <li>
-            <p>[!UICONTROL Add rows]</p>
-          </li>
-          <li>
-            <p>[!UICONTROL Delete All Rows]</p>
-          </li>
-        </ul>
+        <p>Selecteer of wijs de optie in kaart om het rapport te kiezen waarvoor u meta-gegevens wilt terugwinnen.</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Rows]</td>
+      <td role="rowheader">[!UICONTROL Report ID]</td>
       <td>
-        <p>Voeg de rijvelden toe.</p>
-        <ul>
-          <li>
-            <p><b>[!UICONTROL Key]</b>
-            </p>
-            <p>Voer de sleutelnaam in of wijs deze toe.</p>
-          </li>
-          <li>
-            <p><b>[!UICONTROL Field Type]</b>
-            </p>
-            <p>Selecteer of wijs het veldtype toe:</p>
-            <ul>
-              <li>
-                <p>Boolean</p>
-              </li>
-              <li>
-                <p>Datum</p>
-              </li>
-              <li>
-                <p>Tekst</p>
-              </li>
-              <li>
-                <p>Getal</p>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <p>[!UICONTROL Value]</p>
-            <p>Voer de sleutelwaarde in of wijs deze toe.</p>
-          </li>
-        </ul>
+        <p>Ga of kaart identiteitskaart van de dataset in die u meta-gegevens voor wilt terugwinnen.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Group ID]  </td>
+      <td>Selecteer of wijs identiteitskaart van de Groep toe die de dataset bezit die u meta-gegevens voor wilt terugwinnen.</td>
+    </tr>
+  </tbody>
+</table>
+
+#### [!UICONTROL List Datasets]
+
+Deze onderzoeksmodule wint een lijst van datasets terug.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Power BI] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Group ID]  </td>
+      <td>Selecteer of wijs identiteitskaart van de Groep toe die het rapport bezit dat u meta-gegevens voor wilt terugwinnen.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Limit]</td>
+      <td>
+        <p>Ga of kaart het maximumaantal verslagen in u de module aan [actie] tijdens elke cyclus van de scenariouitvoering wilt.</p>
       </td>
     </tr>
   </tbody>
@@ -716,9 +772,19 @@ Deze actiemodule vernieuwt een gespecificeerde dataset.
   </tbody>
 </table>
 
-#### [!UICONTROL Delete a Dataset]
+### Apps
 
-Deze actiemodule schrapt een dataset.
+* [Een app ophalen](#get-an-app)
+* [Het dashboard van een app ophalen](#get-an-apps-dashboard)
+* [App-rapport ophalen](#get-an-apps-report)
+* [De dashboards van de app van de lijst](#list-apps-dashboards)
+* [App-rapporten weergeven](#list-apps-reports)
+* [Lijsttoepassingen](#list-apps)
+* [Apps controleren](#watch-apps)
+
+#### [!UICONTROL Get an App]
+
+Deze actiemodule haalt metagegevens van een opgegeven toepassing op.
 
 <table>
   <col/>
@@ -729,29 +795,44 @@ Deze actiemodule schrapt een dataset.
    <td> <p>Voor instructies over het verbinden van uw [!DNL Power BI] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Enter a Report ID]</td>
+      <td role="rowheader">[!UICONTROL App ID]  </td>
       <td>
-        <p>Selecteer of wijs de optie in kaart om de dataset te kiezen die u wilt schrappen.</p>
+        <p>Selecteer of wijs de id toe van de app die u wilt ophalen.</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+#### [!UICONTROL Get an App's Dashboard]
+
+Deze actiemodule haalt metagegevens op van het dashboard van een opgegeven app.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Power BI] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL App ID]  </td>
+      <td>
+        <p>Selecteer of wijs de id van de app toe die het dashboard bevat dat u wilt ophalen.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Report ID]</td>
       <td>
-        <p>Ga of kaart identiteitskaart van de dataset in die u wilt schrappen.</p>
+        <p>  Selecteer of wijs identiteitskaart van het dashboard toe u wilt terugkeren.</p>
       </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Group ID]  </td>
-      <td>Selecteer of wijs identiteitskaart van de Groep toe die de dataset bezit die u wilt schrappen.</td>
     </tr>
   </tbody>
 </table>
 
-### Apps
+#### [!UICONTROL Get an App's Report]
 
-#### [!UICONTROL Watch Apps]
-
-Deze triggermodule start een scenario wanneer een app wordt bijgewerkt.
+Met deze actiemodule worden metagegevens opgehaald van het rapport van een opgegeven app.
 
 <table>
   <col/>
@@ -762,9 +843,15 @@ Deze triggermodule start een scenario wanneer een app wordt bijgewerkt.
    <td> <p>Voor instructies over het verbinden van uw [!DNL Power BI] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Limit]  </td>
+      <td role="rowheader">[!UICONTROL App ID]  </td>
       <td>
-        <p>Ga of kaart het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</p>
+        <p>Selecteer of wijs identiteitskaart van app toe die het rapport bevat u wilt terugwinnen.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Report ID]</td>
+      <td>
+        <p>  Selecteer of wijs identiteitskaart van het rapport toe u wilt terugkeren.</p>
       </td>
     </tr>
   </tbody>
@@ -781,31 +868,6 @@ Deze zoekmodule haalt een lijst op met alle geïnstalleerde apps.
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
    <td> <p>Voor instructies over het verbinden van uw [!DNL Power BI] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Limit]  </td>
-      <td>
-        <p>Ga of kaart het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-#### [!UICONTROL List App's Reports]
-
-Deze zoekmodule haalt een lijst op met alle rapporten in de opgegeven app.
-
-<table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Voor instructies over het verbinden van uw [!DNL Power BI] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL App ID]</td>
-      <td>Selecteer of wijs de id van de app toe waaruit u rapporten wilt weergeven.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Limit]  </td>
@@ -841,9 +903,9 @@ Deze zoekmodule haalt een lijst met dashboards op uit een opgegeven app.
   </tbody>
 </table>
 
-#### [!UICONTROL Get an App]
+#### [!UICONTROL List App's Reports]
 
-Deze actiemodule haalt metagegevens van een opgegeven toepassing op.
+Deze zoekmodule haalt een lijst op met alle rapporten in de opgegeven app.
 
 <table>
   <col/>
@@ -854,44 +916,21 @@ Deze actiemodule haalt metagegevens van een opgegeven toepassing op.
    <td> <p>Voor instructies over het verbinden van uw [!DNL Power BI] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL App ID]  </td>
+      <td role="rowheader">[!UICONTROL App ID]</td>
+      <td>Selecteer of wijs de id van de app toe waaruit u rapporten wilt weergeven.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Limit]  </td>
       <td>
-        <p>Selecteer of wijs de id toe van de app die u wilt ophalen.</p>
+        <p>Ga of kaart het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</p>
       </td>
     </tr>
   </tbody>
 </table>
 
-#### [!UICONTROL Get an App's Report]
+#### [!UICONTROL Watch Apps]
 
-Met deze actiemodule worden metagegevens opgehaald van het rapport van een opgegeven app.
-
-<table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Voor instructies over het verbinden van uw [!DNL Power BI] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL App ID]  </td>
-      <td>
-        <p>Selecteer of wijs identiteitskaart van app toe die het rapport bevat u wilt terugwinnen.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Report ID]</td>
-      <td>
-        <p>  Selecteer of wijs identiteitskaart van het rapport toe u wilt terugkeren.</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-#### [!UICONTROL Get an App's Dashboard]
-
-Deze actiemodule haalt metagegevens op van het dashboard van een opgegeven app.
+Deze triggermodule start een scenario wanneer een app wordt bijgewerkt.
 
 <table>
   <col/>
@@ -902,15 +941,9 @@ Deze actiemodule haalt metagegevens op van het dashboard van een opgegeven app.
    <td> <p>Voor instructies over het verbinden van uw [!DNL Power BI] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL App ID]  </td>
+      <td role="rowheader">[!UICONTROL Limit]  </td>
       <td>
-        <p>Selecteer of wijs de id van de app toe die het dashboard bevat dat u wilt ophalen.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Report ID]</td>
-      <td>
-        <p>  Selecteer of wijs identiteitskaart van het dashboard toe u wilt terugkeren.</p>
+        <p>Ga of kaart het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</p>
       </td>
     </tr>
   </tbody>

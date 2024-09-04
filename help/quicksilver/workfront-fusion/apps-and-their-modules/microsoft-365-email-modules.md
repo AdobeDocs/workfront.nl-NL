@@ -9,7 +9,7 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion
 exl-id: 29b69e8c-a889-441e-a052-287f1db2052d
-source-git-commit: a09116572d4f9101740fa976f1d334e99fac3010
+source-git-commit: 7e7294e52622a6b8164fc69bbb4be576cc113f63
 workflow-type: tm+mt
 source-wordcount: '2198'
 ht-degree: 0%
@@ -232,7 +232,7 @@ Hiermee maakt en verstuurt u een e-mailbericht.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Bcc Recipients]</p> </td> 
-   <td> <p>Voeg de ontvangers toe die u in het bericht wilt kopiëren, zonder dat andere ontvangers hun namen of e-mailadressen mogen zien:</p> 
+   <td> <p>Voeg de ontvangers toe die u in het bericht wilt kopiëren, zonder dat andere ontvangers hun namen of e-mailadressen kunnen zien:</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Name]</strong> </p> <p>Voer de naam van de contactpersoon in</p> </li> 
      <li> <p><strong>[!UICONTROL Email Address]</strong> </p> <p>Voer het e-mailadres van de contactpersoon in.</p> </li> 
@@ -350,7 +350,7 @@ Hiermee zoekt u berichten op basis van specifieke criteria.
   </tr> 
     <tr> 
    <td role="rowheader">[!UICONTROL From email address]</td> 
-   <td> <p> Als u een gedeeld e-mailadres wilt gebruiken, voert u hier het adres in. De gebruiker van wie de referenties worden gebruikt in de verbinding die voor deze module wordt gebruikt, moet toegang hebben tot de gedeelde map.<p>Laat dit veld leeg om het eigen e-mailadres van de eigenaar van de verbinding te gebruiken.</p></p> </td> 
+   <td> <p> Voer hier het adres in als u een gedeeld e-mailadres wilt gebruiken. De gebruiker van wie referenties in de verbinding worden gebruikt die voor deze module wordt gebruikt moet toegang tot de gedeelde omslag hebben.<p>Laat dit veld leeg om het eigen e-mailadres van de eigenaar van de verbinding te gebruiken.</p></p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader">[!UICONTROL Mail Folder]</td> 
@@ -462,7 +462,7 @@ Hiermee maakt u een nieuw e-mailbericht.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL CC Recipients]</p> </td> 
-   <td> <p>Voeg de ontvangers toe. U wilt een kopie van het bericht ontvangen:</p> 
+   <td> <p>Voeg de ontvangers toe u een exemplaar van het bericht wilt ontvangen:</p> 
     <ul> 
      <li> <p><strong> Naam </strong> </p> <p>Voer de naam van de contactpersoon in</p> </li> 
      <li> <p><strong> E-mailadres </strong> </p> <p>Voer het e-mailadres van de contactpersoon in.</p> </li> 
@@ -565,7 +565,7 @@ Een bestaand bericht bijwerken.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL CC Recipients]</p> </td> 
-   <td> <p>Voeg de ontvangers toe. U wilt een kopie van het bericht ontvangen:</p> 
+   <td> <p>Voeg de ontvangers toe u een exemplaar van het bericht wilt ontvangen:</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Name]</strong> </p> <p>Voer de naam van de contactpersoon in</p> </li> 
      <li> <p><strong>[!UICONTROL Email Address]</strong> </p> <p>Voer het e-mailadres van de contactpersoon in.</p> </li> 
@@ -656,11 +656,12 @@ Deze module wint een lijst van gehechtheid terug die tot het gespecificeerde ber
 ### Overige
 
 * [[!UICONTROL Add an Attachment]](#add-an-attachment)
+  <!--Create and send a message-->
 * [[!UICONTROL Make an API Call]](#make-an-api-call)
 
 #### [!UICONTROL Add an Attachment]
 
-Deze module voegt een grote bijlage aan een bericht toe.
+Deze module voegt een grote gehechtheid aan een bericht toe.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -672,7 +673,7 @@ Deze module voegt een grote bijlage aan een bericht toe.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL From email address]</td> 
-   <td> <p> Als u een gedeeld e-mailadres wilt gebruiken, voert u hier het adres in. De gebruiker van wie de referenties worden gebruikt in de verbinding die voor deze module wordt gebruikt, moet toegang hebben tot de gedeelde map.<p>Laat dit veld leeg om het eigen e-mailadres van de eigenaar van de verbinding te gebruiken.</p></p> </td> 
+   <td> <p> Voer hier het adres in als u een gedeeld e-mailadres wilt gebruiken. De gebruiker van wie referenties in de verbinding worden gebruikt die voor deze module wordt gebruikt moet toegang tot de gedeelde omslag hebben.<p>Laat dit veld leeg om het eigen e-mailadres van de eigenaar van de verbinding te gebruiken.</p></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Message ID]</td> 

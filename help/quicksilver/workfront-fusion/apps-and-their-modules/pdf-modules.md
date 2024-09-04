@@ -5,7 +5,7 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e0a5736b-dbdb-43c6-83ff-e88a5625a5bf
-source-git-commit: ba161761acfc57e271f8593f534a5f7510187559
+source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
 workflow-type: tm+mt
 source-wordcount: '3222'
 ht-degree: 0%
@@ -150,8 +150,6 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
 
 ![](assets/map-toggle-350x74.png)
 
-* [[!UICONTROL Generate document]](#generate-document)
-* [[!UICONTROL Extract Text / Table]](#extract-text--table)
 * [[!UICONTROL Combine PDF files]](#combine-pdf-files)
 * [[!UICONTROL Compress PDF files]](#compress-pdf-files)
 * [[!UICONTROL Convert document to PDF file]](#convert-document-to-pdf-file)
@@ -159,6 +157,8 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
 * [[!UICONTROL Convert image to PDF file]](#convert-image-to-pdf-file)
 * [[!UICONTROL Convert PDF to document]](#convert-pdf-to-document)
 * [[!UICONTROL Convert PDF to image]](#convert-pdf-to-image)
+* [[!UICONTROL Extract Text / Table]](#extract-text--table)
+* [[!UICONTROL Generate document]](#generate-document)
 * [[!UICONTROL Linearize a PDF file]](#linearize-a-pdf-file)
 * [[!UICONTROL OCR for PDF file]](#ocr-for-pdf-file)
 * [[!UICONTROL Page manipulation]](#page-manipulation)
@@ -167,127 +167,6 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
 * [[!UICONTROL Protect PDF file]](#protect-pdf-file)
 * [[!UICONTROL Remove protection of a PDF file]](#remove-protection-of-a-pdf-file)
 * [Een PDF-bestand splitsen](#split-a-pdf-file)
-
-### [!UICONTROL Generate document]
-
-De module [!UICONTROL Generate document] is een krachtige manier om een PDF te maken die door u geselecteerde gegevens bevat. U kunt het opmaken met behulp van een [!DNL Microsoft Word] -sjabloon of door gegevens in JSON-indeling op te geven.
-
-Voor meer informatie over de [!UICONTROL [!DNL Adobe PDF Services] Generate document] functionaliteit, zie het [ Overzicht van de Generatie van het Document ](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html) in de [!DNL Adobe Document Services] documentatie.
-
-* [ Gebruik de [!UICONTROL Generate document] module met a  [!DNL Microsoft Word]  malplaatje ](#use-the-generate-document-module-with-a-microsoft-word-template)
-* [De module [!UICONTROL Generate document] gebruiken met JSON](#use-the-generate-document-module-with-json)
-
-#### De module [!UICONTROL Generate document] gebruiken met een [!DNL Microsoft Word] -sjabloon
-
-<!--
->[!NOTE]
->
->For a discussion of Microsoft Word templates, see [Microsoft Word Template modules](../../workfront-fusion/apps-and-their-modules/microsoft-word-templates-modules.md). 
->
->You do not need to use Microsoft Word template modules to use a Microsoft Word template with the PDF Services Generate document module.
--->
-
-Als u de module [!UICONTROL Generate document] met een [!UICONTROL Microsoft Word] -sjabloon wilt gebruiken, moet u eerst de sjabloon maken. Zoek naar &quot;Een sjabloon maken&quot; in de [!DNL Microsoft Office] -documentatie voor instructies.
-
-Vul de velden van de module [!UICONTROL Generate document] als volgt in:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Selecteer de verbinding die u voor deze module wilt gebruiken.</p> Zie <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" > Verbinding maken met [!DNL Adobe PDF Services]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe PDF Services] . </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Source File]</td> 
-   <td> <p>Selecteer een bronbestand uit een vorige module of wijs de naam en gegevens van het bronbestand toe.</p> <p>Dit brondossier is het [!DNL Microsoft Word ] malplaatje dat de module gebruikt om nieuwe PDF te produceren.</p> <p>We raden u aan een project te maken in [!DNL Workfront] voor de [!DNL Microsoft Word] -sjablonen die u gebruikt in [!DNL Workfront Fusion] . Vervolgens kunt u de module [!DNL Workfront] &gt; [!UICONTROL Download document] gebruiken om de juiste sjabloon in uw scenario te plaatsen.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Output Format]</td> 
-   <td> <p>Selecteer de indeling voor het gegenereerde document.</p> 
-    <ul> 
-     <li> <p>PDF</p> </li> 
-     <li> <p>DOCX</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Data for merge]</td> 
-   <td> <p>Vul voor elke waardetag in de sjabloon die u door tekst wilt vervangen het volgende in:</p> 
-    <ul> 
-     <li> <p>[!UICONTROL Key]</p> <p>Voer een toets in. In de sjabloon is de sleutel de tekst die wordt weergegeven in de tag value. Bijvoorbeeld, als u tekst in de waardemarkering <code>&#123;&#123;name&#125;&#125;</code> wilt plaatsen, ga <code>name </code> op het belangrijkste gebied in.</p> </li> 
-     <li> <p>Type waarde</p> <p>Selecteer of de gegevens in het waardeveld een waarde, een object of een array van objecten zijn.</p> </li> 
-     <li> <p>[!UICONTROL Value]</p> <p>Typ of wijs de tekst toe die u in het gegenereerde document wilt weergeven in plaats van de waardetag.</p> </li> 
-    </ul> <p> <img src="assets/generate-with-template-350x241.png" style="width: 350;height: 241;"> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### De module [!UICONTROL Generate document] gebruiken met JSON
-
-Als u de module [!UICONTROL Generate document] wilt gebruiken met JSON, vult u de velden als volgt in:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Selecteer de verbinding die u voor deze module wilt gebruiken.</p> Zie <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" > Verbinding maken met [!DNL Adobe PDF Services]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe PDF Services] . </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Source File]</td> 
-   <td> <p>Selecteer een bronbestand uit een vorige module of wijs de naam en gegevens van het bronbestand toe.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Output Format]</td> 
-   <td> <p>Selecteer de indeling voor het gegenereerde document.</p> 
-    <ul> 
-     <li> <p>PDF</p> </li> 
-     <li> <p>DOCX</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Data for merge]</td> 
-   <td> <p>Als u JSON in deze module wilt gebruiken, moet u de toewijzing in dit veld inschakelen.</p> <p>Typ of wijs de JSON toe waaruit u het document wilt genereren. </p> <p>U kunt JSON rechtstreeks in dit veld typen of JSON-uitvoer vanuit een JSON-module toewijzen.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### [!UICONTROL Extract Text / Table]
-
-Met deze actiemodule kunt u gegevens uit een PDF-bestand extraheren. De module voert afzonderlijke tekstelementen uit, zoals een alinea of de tekst in één cel van een tabel.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Selecteer de verbinding die u voor deze module wilt gebruiken.</p> Zie <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" > Verbinding maken met [!DNL Adobe PDF Services]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe PDF Services] . </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Source file]</td> 
-   <td>Selecteer een bronbestand uit een vorige module of wijs de naam en gegevens van het bronbestand toe.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Elements that should be extracted as JSON]</td> 
-   <td> 
-    <ul> 
-     <li> <p>[!UICONTROL Text]</p> </li> 
-     <li> <p>[!UICONTROL Tables]</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Extract Bounding boxes?]</td> 
-   <td>Schakel deze optie in om gegevens over het selectiekader van de tekst op te halen.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Include styling information for output?]</td> 
-   <td>Schakel deze optie in om opmaakgegevens toe te voegen aan de uitvoer-JSON.</td> 
-  </tr> 
- </tbody> 
-</table>
 
 ### [!UICONTROL Combine PDF files]
 
@@ -545,6 +424,127 @@ Een bestand met de naam &#39;TestFile&#39; met 8 pagina&#39;s zou bijvoorbeeld 8
      <li>PNG</li> 
      <li>JPEG</li> 
     </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### [!UICONTROL Extract Text / Table]
+
+Met deze actiemodule kunt u gegevens uit een PDF-bestand extraheren. De module voert afzonderlijke tekstelementen uit, zoals een alinea of de tekst in één cel van een tabel.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Selecteer de verbinding die u voor deze module wilt gebruiken.</p> Zie <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" > Verbinding maken met [!DNL Adobe PDF Services]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe PDF Services] . </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Source file]</td> 
+   <td>Selecteer een bronbestand uit een vorige module of wijs de naam en gegevens van het bronbestand toe.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Elements that should be extracted as JSON]</td> 
+   <td> 
+    <ul> 
+     <li> <p>[!UICONTROL Text]</p> </li> 
+     <li> <p>[!UICONTROL Tables]</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Extract Bounding boxes?]</td> 
+   <td>Schakel deze optie in om gegevens over het selectiekader van de tekst op te halen.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Include styling information for output?]</td> 
+   <td>Schakel deze optie in om opmaakgegevens toe te voegen aan de uitvoer-JSON.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### [!UICONTROL Generate document]
+
+De module [!UICONTROL Generate document] is een krachtige manier om een PDF te maken die door u geselecteerde gegevens bevat. U kunt het opmaken met behulp van een [!DNL Microsoft Word] -sjabloon of door gegevens in JSON-indeling op te geven.
+
+Voor meer informatie over de [!UICONTROL [!DNL Adobe PDF Services] Generate document] functionaliteit, zie het [ Overzicht van de Generatie van het Document ](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html) in de [!DNL Adobe Document Services] documentatie.
+
+* [ Gebruik de [!UICONTROL Generate document] module met a  [!DNL Microsoft Word]  malplaatje ](#use-the-generate-document-module-with-a-microsoft-word-template)
+* [De module [!UICONTROL Generate document] gebruiken met JSON](#use-the-generate-document-module-with-json)
+
+#### De module [!UICONTROL Generate document] gebruiken met een [!DNL Microsoft Word] -sjabloon
+
+<!--
+>[!NOTE]
+>
+>For a discussion of Microsoft Word templates, see [Microsoft Word Template modules](../../workfront-fusion/apps-and-their-modules/microsoft-word-templates-modules.md). 
+>
+>You do not need to use Microsoft Word template modules to use a Microsoft Word template with the PDF Services Generate document module.
+-->
+
+Als u de module [!UICONTROL Generate document] met een [!UICONTROL Microsoft Word] -sjabloon wilt gebruiken, moet u eerst de sjabloon maken. Zoek naar &quot;Een sjabloon maken&quot; in de [!DNL Microsoft Office] -documentatie voor instructies.
+
+Vul de velden van de module [!UICONTROL Generate document] als volgt in:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Selecteer de verbinding die u voor deze module wilt gebruiken.</p> Zie <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" > Verbinding maken met [!DNL Adobe PDF Services]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe PDF Services] . </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Source File]</td> 
+   <td> <p>Selecteer een bronbestand uit een vorige module of wijs de naam en gegevens van het bronbestand toe.</p> <p>Dit brondossier is het [!DNL Microsoft Word ] malplaatje dat de module gebruikt om nieuwe PDF te produceren.</p> <p>We raden u aan een project te maken in [!DNL Workfront] voor de [!DNL Microsoft Word] -sjablonen die u gebruikt in [!DNL Workfront Fusion] . Vervolgens kunt u de module [!DNL Workfront] &gt; [!UICONTROL Download document] gebruiken om de juiste sjabloon in uw scenario te plaatsen.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Output Format]</td> 
+   <td> <p>Selecteer de indeling voor het gegenereerde document.</p> 
+    <ul> 
+     <li> <p>PDF</p> </li> 
+     <li> <p>DOCX</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Data for merge]</td> 
+   <td> <p>Vul voor elke waardetag in de sjabloon die u door tekst wilt vervangen het volgende in:</p> 
+    <ul> 
+     <li> <p>[!UICONTROL Key]</p> <p>Voer een toets in. In de sjabloon is de sleutel de tekst die wordt weergegeven in de tag value. Bijvoorbeeld, als u tekst in de waardemarkering <code>&#123;&#123;name&#125;&#125;</code> wilt plaatsen, ga <code>name </code> op het belangrijkste gebied in.</p> </li> 
+     <li> <p>Type waarde</p> <p>Selecteer of de gegevens in het waardeveld een waarde, een object of een array van objecten zijn.</p> </li> 
+     <li> <p>[!UICONTROL Value]</p> <p>Typ of wijs de tekst toe die u in het gegenereerde document wilt weergeven in plaats van de waardetag.</p> </li> 
+    </ul> <p> <img src="assets/generate-with-template-350x241.png" style="width: 350;height: 241;"> </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### De module [!UICONTROL Generate document] gebruiken met JSON
+
+Als u de module [!UICONTROL Generate document] wilt gebruiken met JSON, vult u de velden als volgt in:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Selecteer de verbinding die u voor deze module wilt gebruiken.</p> Zie <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" > Verbinding maken met [!DNL Adobe PDF Services]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe PDF Services] . </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Source File]</td> 
+   <td> <p>Selecteer een bronbestand uit een vorige module of wijs de naam en gegevens van het bronbestand toe.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Output Format]</td> 
+   <td> <p>Selecteer de indeling voor het gegenereerde document.</p> 
+    <ul> 
+     <li> <p>PDF</p> </li> 
+     <li> <p>DOCX</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Data for merge]</td> 
+   <td> <p>Als u JSON in deze module wilt gebruiken, moet u de toewijzing in dit veld inschakelen.</p> <p>Typ of wijs de JSON toe waaruit u het document wilt genereren. </p> <p>U kunt JSON rechtstreeks in dit veld typen of JSON-uitvoer vanuit een JSON-module toewijzen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
