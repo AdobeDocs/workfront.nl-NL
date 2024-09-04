@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
+source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
 workflow-type: tm+mt
-source-wordcount: '2622'
+source-wordcount: '2620'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
    <td role="rowheader"><p>Planning van Adobe Workfront*</p></td> 
    <td> 
 <p>Alle </p> 
-<p>Voor meer informatie over wat in elk Plan van de Planning van Workfront inbegrepen is, zie <a href="https://business.adobe.com/products/workfront/pricing.html"> Adobe Workfront tarifering en verpakking </a>. </p> 
+<p>Neem contact op met uw Workfront-accountmanager voor meer informatie over wat er in elk Workfront-planningsplan is opgenomen. </p> 
    </td> 
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-platform</p></td> 

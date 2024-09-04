@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,7 @@ ht-degree: 0%
 
 # De details van een record exporteren
 
-Als u efficiënter wilt samenwerken met anderen die mogelijk geen Workfront-account hebben, kunt u de gegevens van een record exporteren naar een Word-document en deze delen met hen.
-
-<!--replace the above with this, when we release export to PDF:
-
-To collaborate more efficiently with others that might not have a Workfront account, you can export a record's details to a file and share it with them.-->
+Als u efficiënter wilt samenwerken met anderen die mogelijk geen Workfront-account hebben, kunt u de gegevens van een record exporteren naar een bestand en deze delen met hen.
 
 ## Toegangsvereisten
 
@@ -54,7 +50,7 @@ U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
    <td role="rowheader"><p>Planning van Adobe Workfront*</p></td> 
    <td> 
 <p>Alle </p> 
-<p>Voor meer informatie over wat in elk Plan van de Planning van Workfront inbegrepen is, zie <a href="https://business.adobe.com/products/workfront/pricing.html"> Adobe Workfront tarifering en verpakking </a>. </p> 
+<p>Neem contact op met uw Workfront-accountmanager voor meer informatie over wat er in elk Workfront-planningsplan is opgenomen. </p> 
    </td> 
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-platform</p></td> 
@@ -150,16 +146,12 @@ U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
 
 ## Overwegingen bij het exporteren van de details van een record:
 
-* U kunt de details van een record exporteren naar een Word-document.
+* U kunt de details van een record exporteren naar de volgende bestandsindelingen:
 
-<!--replace the first bullet with this, when it's possible:
+   * .docx Word
+   * .pdf
 
-* You can export a record's details to the following file formats:
-
-    * Word
-    * PDF -->
-
-* U kunt de pagina Details van de pagina van een record exporteren. U kunt het tabblad Verbindingen niet exporteren.
+* U kunt het tabblad Details van de recordpagina exporteren. U kunt het tabblad Verbindingen niet exporteren.
 
 * In het geëxporteerde bestand blijft de indeling van de recordpagina behouden, inclusief de miniatuur en de omslagafbeeldingen.
 
@@ -182,10 +174,15 @@ De recordtypepagina wordt geopend en alle records van dat type worden weergegeve
 
 1. Kies het **Details** lusje. Het tabblad Details moet standaard worden geopend.
 
-1. Klik het **pictogram van de Uitvoer** ![](assets/export-icon-in-record-details-page.png) of in de voorproef of de pagina van het verslag.
+1. Klik het **pictogram van de Uitvoer** ![](assets/export-icon-in-record-details-page.png) of in de voorproef of de pagina van het verslag, dan klik één van het volgende:
 
-   Een Word-bestand (.docx) wordt gedownload en opgeslagen op uw computer.
+   * **Word van Microsoft**
+   * **Adobe PDF**
+
+   Een Word- (.docx) of een PDF-bestand wordt gedownload en opgeslagen op uw computer.
+
+   De naam van het geëxporteerde bestand is het primaire veld van de record.
 
    ![](assets/exported-word-file.png)
 
-1. (Optioneel) Ga naar het gedownloade bestand, open het en bewerk het of deel het met anderen.
+1. (Optioneel) Ga naar het gedownloade bestand, open het en bewerk het bestand (als het een Word-bestand is) of deel het met anderen.
