@@ -4,9 +4,9 @@ description: Verbeteringen beheerder vierde kwartaal 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ffa599ff0e25ba960ce01f3f492482ee2e747122
+source-git-commit: 95726a46a0f18353cfee67b69cc94d39d85f111f
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,21 @@ Op deze pagina worden alle beheerderverbeteringen beschreven die zijn aangebrach
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2024 versiecyclus, zie [ Vierde Kwartaal 2024 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 
+## De optie Alles selecteren is nu beschikbaar in lay-outsjablonen
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 29 augustus 2024; Productieversie voor alle klanten: 29 augustus 2024
+
+Om u gemakkelijker te helpen gebieden met lay-outmalplaatjes tonen en verbergen, a **Uitgezocht al** controledoos werd toegevoegd aan het Overzicht en de gebieden van Financiën van de mening van Details in een lay-outmalplaatje. Deze optie is beschikbaar wanneer u Project, Taak, Uitgave, Portfolio, of Programma onder **hebt geselecteerd aanpassen welke gebruikers** zien. Niet alle objecten tonen het gebied Financiën en de velden in elk gebied zijn afhankelijk van het object.
+
+Voor meer informatie, zie [ de mening van Details aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+
 ## Omgevingsbevorderingspakketten terugdraaien
 
 >[!NOTE]
 >
 >Voorvertoningsrelease: 29 augustus 2024; productie voor snelle release: met de release van 24.9 (12 september 2024); productie voor driemaandelijkse release: met de release van 24.10 (oktober 2024)
->
 
 Om de bevordering van het milieu flexibeler en gemakkelijker te gebruiken te maken, hebben wij terugschroeven van prijzen functionaliteit toegelaten. Nu kunt u pakketten binnen 24 uur terugdraaien, zodat u eerdere configuraties die zijn beïnvloed door een milieubevorderingspakket eenvoudiger kunt herstellen.
 

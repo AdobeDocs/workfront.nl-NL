@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: d4aa6bee72ac1f17884ae38d24bd094c0b62336a
+source-git-commit: 95726a46a0f18353cfee67b69cc94d39d85f111f
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -38,11 +38,23 @@ Voor informatie over eigenschappen inbegrepen in deze versie, zie [ de versieact
 
 Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront na de algemene beschikbaarheidsversie op 28 augustus, 2024 worden vrijgegeven, zie [ de versieactiviteit van de Planning van Adobe Workfront: artikelindex ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Recorddetails exporteren naar PDF
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 3 september 2024; productie voor snelle release: met de release van 24.9 (12 september 2024); productie voor driemaandelijkse release: met de release van 24.10 (oktober 2024)
+
+U kunt nu de detailpagina van een record exporteren of een voorvertoning weergeven in een PDF-document.
+
+Voordat u deze upgrade uitvoert, kunt u het tabblad Details van een record alleen exporteren naar een Word-bestand (.docx).
+
+Voor meer informatie, zie [ de details van een verslag uitvoeren ](/help/quicksilver/planning/records/export-the-record-page.md).
+
 ## Algemene beschikbaarheid van Adobe Workfront Planning
 
 >[!NOTE]
 >
->Preview and Production release: 28 augustus 2024
+>Voorvertoningsrelease: 28 augustus 2024; Productieversie voor alle klanten: 28 augustus 2024
 
 Adobe Workfront Planning is een nieuw aanbod van Adobe Workfront. Het doel van de Planning van Workfront is uitvoerige zicht in de operationele details van een organisatie te ontsluiten, en kritieke bedrijfsvragen in elke fase van de het werkbeheerlevenscyclus te beantwoorden.
 

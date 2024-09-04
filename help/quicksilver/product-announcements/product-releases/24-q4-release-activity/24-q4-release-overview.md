@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 621e208a17a3a285dda0dc97cbe83638af2de1a5
+source-git-commit: 95726a46a0f18353cfee67b69cc94d39d85f111f
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1447'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,23 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
                     <td>
                         <p><span class="bold"> de data van de Versie </span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}"> A "Uitgezocht allen"optie is nu beschikbaar in lay-outmalplaatjes </a></p>
+                        [!BADGE in productie ]{type=Informative}
+                        <p>Om u gemakkelijker te helpen gebieden met lay-outmalplaatjes tonen en verbergen, werd een "Uitgezocht allen"controlevakje toegevoegd aan de het Overzicht en van Financiën gebieden van de mening van Details in een lay-outmalplaatje. Deze optie is beschikbaar wanneer u Project, Taak, Uitgave, Portfolio, of Programma onder "Aanpassen wat de gebruikers zien"hebt geselecteerd.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 29 augustus 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Productieversie voor alle afnemers: 6 augustus 2024</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -117,6 +134,7 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}"> Verbeteringen van de de integratielogin van Vooruitzichten </a></p>
+                        [!BADGE in productie ]{type=Informative}
                         <p>De login ervaring voor de integratie van Vooruitzichten is gestroomlijnd zodat alle klanten de zelfde knoop zien aan login aan Workfront al dan niet zij IMS-Toegelaten zijn. De volgende aanmeldstappen verschillen voor IMS- en niet-IMS-instanties, maar de eerste pagina is voor alle gebruikers hetzelfde.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
