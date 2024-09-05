@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 5113771baf269405e758307d11a392f95ee870fe
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '793'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ U kunt beheren welke informatie gebruikers voor andere gebruikers kunnen bekijke
       <td> <p>Hiermee kunnen gebruikers het volgende doen voor alle gebruikers in Workfront:</p> 
        <ul> 
         <li>De gebruiker bewerken, verwijderen of deactiveren</li> 
-        <li>Aanmelden als gebruiker</li> 
+        <li>Aanmelden als gebruiker<p><b> NOTA </b>: U kunt niet login als om het even welke gebruiker die een systeembeheerder is.</p></li> 
         <li>Het wachtwoord van de gebruiker opnieuw instellen</li> 
        </ul> <p>Deze optie is standaard uitgeschakeld.</p> </td> 
      </tr> 

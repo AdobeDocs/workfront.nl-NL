@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 5113771baf269405e758307d11a392f95ee870fe
 workflow-type: tm+mt
-source-wordcount: '1891'
+source-wordcount: '1919'
 ht-degree: 0%
 
 ---
@@ -357,7 +357,7 @@ Gebruikers met een licentie voor abonnementen kunnen volledige toegang krijgen t
   </tr> 
   <tr> 
    <td>Het wachtwoord voor een gebruiker bewerken, verwijderen, deactiveren, aanmelden als of opnieuw instellen</td> 
-   <td>✓*</td> 
+   <td>✓*<p><b> NOTA </b>: U kunt niet login als om het even welke gebruiker die een systeembeheerder is.</p></td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -365,7 +365,7 @@ Gebruikers met een licentie voor abonnementen kunnen volledige toegang krijgen t
   </tr> 
   <tr> 
    <td>Bewerk, verwijder, deactiveer, meld u aan als gebruiker of stel het wachtwoord opnieuw in voor elke gebruiker in een groep die hij of zij beheert</td> 
-   <td>✓*</td> 
+   <td>✓*<p><b> NOTA </b>: U kunt niet login als om het even welke gebruiker die een systeembeheerder is.</p></td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
