@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: 6437fe98-2c2b-4b49-97e2-f94b23da93fd
-source-git-commit: ed7ea1d3409c39caea5fe8b107b7b2907dc87d76
+source-git-commit: 3abfa92e6ad33243a1cdd19de25bbe04a8e81425
 workflow-type: tm+mt
-source-wordcount: '1763'
+source-wordcount: '1778'
 ht-degree: 0%
 
 ---
@@ -96,7 +96,7 @@ Als u [!DNL Jira Software] wilt verbinden met [!DNL Workfront Fusion] , moet u e
 1. Voeg in [!DNL Workfront Fusion] een [!DNL Jira] -module toe aan een scenario om het vak **[!UICONTROL Create a connection]** te openen.
 1. Geef de volgende informatie op:
 
-   * **[!UICONTROL Service URL]**
+   * **[!UICONTROL Service URL]:** dit is de basis-URL die u gebruikt om toegang te krijgen tot uw Jira-account. Voorbeeld: `yourorganization.atlassian.net`
    * **[!UICONTROL Username]**
    * **[!UICONTROL API token]:** dit is het API teken u in [ creeerde een API teken in  [!DNL Jira]](#create-an-api-token-in-jira) sectie van dit artikel.
 
@@ -231,7 +231,7 @@ bestand.
      </tr> 
      <tr> 
       <td role="rowheader">[!DNL Service URL]</td> 
-      <td>Voer de URL van de [!DNL Jira] -instantie in. </td> 
+      <td>Voer de URL van de [!DNL Jira] -instantie in. Voorbeeld: <code>yourorganization.atlassian.net</code></td> 
      </tr> 
     </tbody> 
    </table>
@@ -378,9 +378,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
    <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Opmerking:  <p>Wanneer u voorwaardelijke instructies gebruikt, zoals <code>if</code> in uw JSON, plaatst u de aanhalingstekens buiten de voorwaardelijke instructie.</p> 
-     <div class="example" data-mc-autonum="<b>Example: </b>"> 
-      <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
-     </div> </p> </td> 
+     <img src="assets/quotes-in-json-350x120.png">  </td> 
   </tr> 
  </tbody> 
 </table>
