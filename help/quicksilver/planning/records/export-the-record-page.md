@@ -5,15 +5,17 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
+source-git-commit: 3823afdc14aaf5646d8edc60f5ad633e48336af7
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
 
-
 # De details van een record exporteren
+
+<span class="preview"> de informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Sandbox van de Voorproef.</span>
 
 Als u efficiënter wilt samenwerken met anderen die mogelijk geen Workfront-account hebben, kunt u de gegevens van een record exporteren naar een bestand en deze delen met hen.
 
@@ -149,7 +151,7 @@ U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
 * U kunt de details van een record exporteren naar de volgende bestandsindelingen:
 
    * .docx Word
-   * .pdf
+   * <span class="preview">.pdf</span>
 
 * U kunt het tabblad Details van de recordpagina exporteren. U kunt het tabblad Verbindingen niet exporteren.
 
@@ -177,12 +179,18 @@ De recordtypepagina wordt geopend en alle records van dat type worden weergegeve
 1. Klik het **pictogram van de Uitvoer** ![](assets/export-icon-in-record-details-page.png) of in de voorproef of de pagina van het verslag, dan klik één van het volgende:
 
    * **Word van Microsoft**
-   * **Adobe PDF**
+   * <span class="preview">**Adobe PDF**</span>
 
-   Een Word- (.docx) of een PDF-bestand wordt gedownload en opgeslagen op uw computer.
+   Een Word (.docx) <span class="preview"> of een PDF </span> dossier downloadt en aan uw computer bewaard.
 
    De naam van het geëxporteerde bestand is het primaire veld van de record.
 
    ![](assets/exported-word-file.png)
 
+   >[!NOTE]
+   >
+   >    Aanvullende informatie die niet op de pagina wordt weergegeven en alleen zichtbaar is nadat u op Meer tonen op het tabblad Details hebt geklikt, wordt niet weergegeven in het geëxporteerde PDF-bestand. Alleen de informatie die op de pagina zichtbaar is, wordt weergegeven in het geëxporteerde bestand.
+
+
 1. (Optioneel) Ga naar het gedownloade bestand, open het en bewerk het bestand (als het een Word-bestand is) of deel het met anderen.
+

@@ -6,9 +6,9 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 3232676a77c8e9fcb58e97374a4e7686620136da
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '666'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,15 @@ ht-degree: 0%
 >
 >De informatie in dit artikel verwijst naar Adobe Workfront Planning, een nieuwe aanbieding van Adobe Workfront.
 >
->U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
+>Uw bedrijf moet een extra licentie voor Workfront Planning aanschaffen om toegang te krijgen tot zijn mogelijkheden.
 >
->* Een nieuw Workfront-plan en -licentie. Workfront Planning is niet beschikbaar voor oudere Workfront-plannen of -licenties.
->* Een extra licentie voor Workfront Planning.
->* De instantie van uw organisatie van Workfront moet aan de Adobe Verenigde Ervaring worden genegeerd.
+>Neem voor meer informatie contact op met uw accountmanager
 >
 >Voor meer informatie over de Planning van Workfront, zie [ het Overzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
 
 Er gelden beperkingen voor licenties en deelmachtigingen voor het gebruik van Adobe Workfront Planning.
+
+In dit artikel worden de toegang en instellingen beschreven die u nodig hebt om de mogelijkheden van Workfront Planning te kunnen gebruiken.
 
 ## Toegangsvereisten
 
@@ -112,7 +112,12 @@ U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
   </tr>
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Alle gebruikers, met inbegrip van de beheerders van Workfront, moeten een lay-outmalplaatje worden toegewezen dat het Gebied van de Planning in het Belangrijkste Menu en het Gebied van de Planning voor de voorwerpen omvat die met de Planning van Workfront kunnen verbinden: projecten, portefeuilles, en programma's. </p> <p>Voor informatie, zie <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md"> het Belangrijkste Menu aanpassen gebruikend een lay-outmalplaatje </a> en <a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md"> wijs gebruikers aan een lay-outmalplaatje </a> toe. </p>  
+   <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die de planningsoptie in de volgende gebieden bevat:</p>
+   <ul><li>Hoofdmenu</li>
+   <li>Deelvenster links van projecten, portfolio's en programma's</li>
+   <li>Openingspagina</li>
+   <li>Punten</li></ul>
+   <p>Voor meer informatie, zie <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md"> lay-outmalplaatjes </a> creëren en beheren.</p> 
 </td>
   </tr>
  </tbody>
@@ -189,19 +194,24 @@ You must have the following to be able to access Workfront Planning:
 
 *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  -->
 
-
-
-## Het gedeelte Planning in het hoofdmenu delen met anderen
+## Het planningsgebied delen met een lay-outsjabloon
 
 <!--First, contact your account manager to obtain access to the current Workfront Planning program.-->
 
-Nadat uw organisatie in het Programma van de Planning van Workfront is ingeschreven, kunt u het Gebied van de Planning aan het Belangrijkste Menu van alle gebruikers toevoegen door een lay-outmalplaatje te gebruiken.
+Nadat uw organisatie een extra vergunning van de Planning van Workfront heeft gekocht, kan uw systeembeheerder de optie van de Planning aan de volgende gebieden toevoegen door u aan een lay-outmalplaatje te wijzigen en toe te wijzen:
+
+* Hoofdmenu
+* Openingspagina
+* Deelvenster Links voor projecten, portfolio&#39;s en programma&#39;s
+* Punten
+
+Workfront-planningsgebieden toevoegen aan uw Workfront-exemplaar:
 
 1. Login aan **Workfront** als beheerder van Workfront.
 
-1. Voeg het **Planning** pictogram ![](assets/planning-icon.png) aan het **Belangrijkste Menu** toe gebruikend het Malplaatje van de Lay-out van de a ****.
+1. Ga naar **Belangrijkste menu** > **Opstelling** > **Interface** > **Malplaatjes van de Lay-out** en open of creeer een lay-outmalplaatje.
 
-   Voor informatie, zie [ het Belangrijkste Menu aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+   Voor informatie over het aanpassen van een lay-outmalplaatje, zie [ lay-outmalplaatjes ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
 
 1. Wijs het lay-outmalplaatje aan de gebruikers toe die u toegang tot de Planning van Workfront wilt hebben.
 

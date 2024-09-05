@@ -5,9 +5,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
+source-git-commit: 3823afdc14aaf5646d8edc60f5ad633e48336af7
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1159'
 ht-degree: 0%
 
 ---
@@ -130,7 +131,17 @@ U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
 
    Het aanvraagformulier bevat standaard de volgende informatie:
 
-   * Alle recordvelden in de tabelweergave van het geselecteerde recordtype.
+   * De gebieden van het verslag beschikbaar in de lijstmening van het geselecteerde verslagtype. <!--they are working on removing the limitation below-->
+
+     >[!IMPORTANT]
+     >
+     >   Velden van de volgende typen worden niet weergegeven in het aanvraagformulier:
+     >
+     >    * Mensen
+     >    * Verbonden velden (omvat verbindingen met Experience Manager-elementen)
+     >    * Verbonden opzoekvelden
+     >    * Formule
+
    * **Standaard sectie**: Dit is de standaardsectieonderbreking die Workfront op de verzoekvorm van toepassing is. De standaardsectie kan niet worden anders genoemd of worden verwijderd.
    * **Onderwerp** gebied: Het gebied dat het verzoek in Workfront zal identificeren. Deze mogelijkheid is nog niet beschikbaar.
    * Alle velden die aan het recordtype zijn gekoppeld.
@@ -199,6 +210,3 @@ U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
    >
    >Er zijn aanwijzingen dat de link in dit geval openbaar wordt gedeeld.
    >![](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
-
-
-

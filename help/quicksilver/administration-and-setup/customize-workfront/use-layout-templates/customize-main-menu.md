@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -113,6 +113,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    * Mijn updates
    * Borden
    * Blauwdrukken
+   * Planning
+
+     >[!NOTE]
+     >
+     >Voor planning is een aanvullende licentie vereist. Voor informatie over de Planning van Workfront, zie [ Overzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md)
 
 1. Voer een van de volgende handelingen uit:
 

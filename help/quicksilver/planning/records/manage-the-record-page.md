@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1357'
 ht-degree: 0%
 
 ---
@@ -216,7 +216,7 @@ De volgende dingen doen zich voor:
    * Het Workfront-object wordt ook verwijderd uit het verbonden veld van de record uit Workfront Planning.
    * De waarden voor de opzoekvelden van Workfront die zijn verbonden met de planningsrecord, worden ook verwijderd.
 
-## Velden in de voorvertoning of pagina van de record opnieuw rangschikken
+## Velden opnieuw rangschikken op het tabblad Details van de record
 
 {{step1-to-planning}}
 
@@ -240,11 +240,11 @@ De volgende dingen doen zich voor:
 
 1. (Facultatief) klik **Open in nieuw lusje** pictogram ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in de hoger-juiste hoek van de verslagvoorproef om de pagina van het verslag in een nieuw lusje te openen.
 
-   De recordpagina wordt geopend.
+   Het **lusje van Details** van het verslag opent door gebrek.
 
    ![](assets/details-page.png)
 
-1. In de verslagvoorproef of de pagina, klik **greep** pictogram ![](assets/grab-icon.png) links van een gebiedsnaam, dan belemmering en laat vallen het in een gewenste plaats. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
+1. In het verslag **Details** lusje, klik de **greep** pictogram ![](assets/grab-icon.png) links van een gebiedsnaam, dan belemmering en laat vallen het op een gewenste plaats. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
 
    De nieuwe positie van het veld wordt bijgewerkt in zowel de voorvertoning als de pagina van alle records van hetzelfde type voor alle gebruikers die de records bekijken.
 

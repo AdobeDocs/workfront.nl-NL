@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '7446'
+source-wordcount: '7484'
 ht-degree: 0%
 
 ---
@@ -144,6 +144,13 @@ De volgende mogelijkheden zijn opgenomen in deze update:
 * Als werkruimtemanager kunt u een aanvraagformulier maken en dit koppelen aan een recordtype. U kunt een koppeling naar dit formulier delen met anderen, waaronder externe gebruikers.
 
 * Wanneer gebruikers het formulier openen, invullen en verzenden, wordt een record gemaakt voor het recordtype dat aan het aanvraagformulier is gekoppeld.
+
+* Afhankelijk van hoe het wordt gevormd, kan het verzoekformulier alle gebieden van het verslagtype, behalve gebieden van de volgende types tonen:
+
+   * Mensen
+   * Verbonden velden (omvat verbindingen met Experience Manager-elementen)
+   * Verbonden opzoekvelden
+   * Formule
 
 Voor informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
 

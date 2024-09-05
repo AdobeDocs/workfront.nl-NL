@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -64,11 +64,38 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
 
 1. Voer een van de volgende handelingen uit in het keuzemenu dat wordt weergegeven:
 
-   * Klik op een hoofdmenu-item.
+   * Selecteer een van de volgende gebieden:
 
-     >[!IMPORTANT]
-     >
-     >Voor het weergeven van de gebieden Scenario&#39;s en Doelen zijn aanvullende licenties vereist. Voor informatie over de Doelen van Workfront, zie [ Overzicht van de Doelen van Adobe Workfront ](../../../workfront-goals/goal-management/wf-goals-overview.md) of voor informatie over de Planner van het Scenario van Workfront, zie [ het overzicht van de Planner van het Scenario ](../../../scenario-planner/scenario-planner-overview.md).
+      * Analyse
+      * Kalenders
+      * Dashboards
+      * Documenten
+      * Doelen
+      * Home
+      * Mijn updates
+      * Portfolio&#39;s
+      * Programma&#39;s
+      * Projecten
+      * Rapporten
+      * Verzoeken
+      * Bronnen
+      * Scenarios
+      * Teams
+      * Sjablonen
+      * Timesheets
+      * Gebruikers
+      * Blauwdrukken
+      * Planning
+
+   >[!IMPORTANT]
+   >
+   >Voor het weergeven van de scenario&#39;s, doelen en planningsgebieden zijn aanvullende licenties vereist.
+   >
+   >* Voor informatie over de Doelen van Workfront, zie [ overzicht van de Doelen van Adobe Workfront ](../../../workfront-goals/goal-management/wf-goals-overview.md).
+   >
+   >* Voor informatie over de Planner van het Scenario van Workfront, zie [ het overzicht van de Planner van het Scenario ](../../../scenario-planner/scenario-planner-overview.md).
+   >
+   >* Voor informatie over de Planning van Workfront, zie [ het Overzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
 
    * Klik **toevoegen een Dashboard**, dan typ een beschrijvende **de sectietitel van de Douane** en voeg het dashboard toe.
 

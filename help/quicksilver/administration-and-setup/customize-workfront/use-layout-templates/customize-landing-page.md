@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,11 @@ ht-degree: 0%
 # De landingspagina aanpassen met een lay-outsjabloon
 
 Als Adobe Workfront-beheerder kunt u een lay-outsjabloon gebruiken om het gebied op te geven dat gebruikers moeten zien telkens wanneer ze zich aanmelden bij Workfront.
+
+Gebruikers kunnen een van de volgende opties openen:
+
+* Een aangewezen Workfront-gebied
+* Een aangepast dashboard.
 
 Voor informatie over het creëren van lay-outmalplaatjes, zie [ lay-outmalplaatjes ](../use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
 
@@ -62,9 +67,38 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
 1. Begin werkend aan een lay-outmalplaatje, zoals die in [ wordt beschreven creeer en beheer lay-outmalplaatjes ](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 1. In het **Hoogste gebied van de Navigatie**, klik **Uitgezochte het landen pagina**, dan selecteer het gebied u gebruikers wilt zien wanneer zij login.
 
+   Selecteer een van de volgende gebieden of voeg een aangepast dashboard toe:
+
+   * Analyse
+   * Kalenders
+   * Dashboards
+   * Documenten
+   * Doelen
+   * Home
+   * Mijn updates
+   * Portfolio&#39;s
+   * Programma&#39;s
+   * Projecten
+   * Rapporten
+   * Verzoeken
+   * Bronnen
+   * Scenarios
+   * Teams
+   * Sjablonen
+   * Timesheets
+   * Gebruikers
+   * Blauwdrukken
+   * Planning
+
    >[!IMPORTANT]
    >
-   >Voor het weergeven van de gebieden Scenario&#39;s en Doelen zijn aanvullende licenties vereist. Voor informatie over de Doelen van Workfront, zie [ Overzicht van de Doelen van Adobe Workfront ](../../../workfront-goals/goal-management/wf-goals-overview.md) of voor informatie over de Planner van het Scenario van Workfront, zie [ het overzicht van de Planner van het Scenario ](../../../scenario-planner/scenario-planner-overview.md).
+   >Voor het weergeven van de scenario&#39;s, doelen en planningsgebieden zijn aanvullende licenties vereist.
+   >
+   >* Voor informatie over de Doelen van Workfront, zie [ overzicht van de Doelen van Adobe Workfront ](../../../workfront-goals/goal-management/wf-goals-overview.md).
+   >
+   >* Voor informatie over de Planner van het Scenario van Workfront, zie [ het overzicht van de Planner van het Scenario ](../../../scenario-planner/scenario-planner-overview.md).
+   >
+   >* Voor informatie over de Planning van Workfront, zie [ het Overzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
 
 1. Blijf het lay-outmalplaatje aanpassen.
 
