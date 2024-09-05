@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 95726a46a0f18353cfee67b69cc94d39d85f111f
+source-git-commit: 0c37044aaffbe6ebb22af3877c93d5c65d40de98
 workflow-type: tm+mt
 source-wordcount: '1447'
 ht-degree: 0%
@@ -68,7 +68,7 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
                                 <p>Voorvertoningsrelease: 29 augustus 2024</p>
                             </li>
                             <li>
-                                <p><span class="preview">Productieversie voor alle afnemers: 6 augustus 2024</span></p>
+                                <p><span class="preview">Productieversie voor alle afnemers: 29 augustus 2024</span></p>
                             </li>
                         </ul>
                     </td>

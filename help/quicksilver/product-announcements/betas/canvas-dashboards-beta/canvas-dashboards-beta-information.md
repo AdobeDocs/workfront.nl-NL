@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: 0c37044aaffbe6ebb22af3877c93d5c65d40de98
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,15 @@ Voor een lijst van alle documentatie van de Dashboards van het Canvas, zie [ Ove
 
 **status van Beta**
 
-Canvasdashboards bevinden zich momenteel in een openbare bètatestfase en kunnen daarom vaak worden gewijzigd. Zie hieronder voor instructies over het inschrijven in de bètaversie.
+Canvasdashboards bevinden zich momenteel in een gesloten bètatestfase en kunnen daarom vaak worden gewijzigd. Zie hieronder voor instructies over het inschrijven in de bètaversie.
 
 ## Deelnemen aan de bètaversie
+
+>[!IMPORTANT]
+>
+>Canvas-dashboards bevinden zich momenteel in gesloten bèta en zijn daarom alleen beschikbaar voor specifieke organisaties. We blijven organisaties rechtstreeks uitnodigen voor de bètaversie van een takenlijst van hen die belangstelling hebben getoond. U kunt uw organisatie aan de wachtlijst toevoegen door [ voor te leggen deze Adobe terugkoppelt programmavorm ](https://www.feedbackprogram.adobe.com/c/r/Workfront-Canvas-Dashboards-Visualizations-Beta). Bovendien hebben organisaties die Workfront Planning hebben aangeschaft als onderdeel van hun pakket bètatoegang gekregen om de mogelijkheden voor productrapportering te testen.
+>
+>Uiteindelijk zullen wij overgang aan een open bèta, waarbij het inschrijvingsproces aan alle organisaties beschikbaar zal worden.
 
 ### Inschrijven
 
@@ -33,11 +39,7 @@ Inschrijven in de bètaversie:
 
 1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Dashboards**.
 
-1. Klik **toetreden tot de bètaknoop van de Dashboards van het Canvas** in de hoger-juiste hoek van de pagina.
-
-   >[!NOTE]
-   >
-   >Deze knoop is beschikbaar slechts als uw organisatie in gesloten bèta is goedgekeurd. Wanneer de open bètaversie begint, is deze beschikbaar voor alle organisaties.
+1. Klik **toetreden tot de bètaknoop van de Dashboards van het Canvas** in de hoger-juiste hoek van de pagina. Deze knop is alleen beschikbaar als uw organisatie is uitgenodigd voor de gesloten bètaversie.
 
 1. Lees de termijnen, dan klik **Accepteren**. U bent nu ingeschreven voor de bètaversie. Het duurt echter een paar minuten voordat uw Workfront-gegevens volledig toegankelijk zijn in Canvas-dashboards.
 
