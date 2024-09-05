@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: c08bd3311892d24a9bd40af138169957f5ea2ca4
+source-git-commit: d92dc8581bef1f5fdbef7a853ac27ffc3fa7ddbe
 workflow-type: tm+mt
-source-wordcount: '2147'
+source-wordcount: '2157'
 ht-degree: 0%
 
 ---
@@ -452,6 +452,12 @@ Bijvoorbeeld, kan een **UPDATE - TASK** gebeurtenisabonnement worden geplaatst o
 * Het toepassen van veelvoudige filters op één enkel abonnement is een praktijk gelijkwaardig aan het gebruiken van een **EN** logische exploitant.
 * Meerdere gebeurtenisabonnementen kunnen op één object worden toegepast zolang er een of meer parameters voor het abonnementsveld voor gebeurtenissen verschillen tussen de abonnementen voor elke gebeurtenis.
 * Wanneer meerdere gebeurtenisabonnementen worden toegewezen aan één object, kunnen alle gebeurtenisabonnementen die aan dat object zijn gekoppeld, worden geretourneerd naar één eindpunt. Deze praktijk kan als gelijkwaardig substituut voor logische exploitant **worden gebruikt OF** die niet kan worden geplaatst gebruikend filterparameters.
+* De volgende velden kunnen niet worden gefilterd:
+
+   * DOCU.groups
+   * RECORD.data
+   * RECORD_TYPE.data
+   * RECORD_TYPE.fields
 
 ### Vergelijkingsoperatoren gebruiken
 
