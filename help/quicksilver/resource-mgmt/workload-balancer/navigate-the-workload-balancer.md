@@ -6,9 +6,9 @@ description: Gebruik de werklastbalans om de beschikbaarheid van uw bronnen te b
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
-source-wordcount: '4146'
+source-wordcount: '4068'
 ht-degree: 0%
 
 ---
@@ -21,47 +21,9 @@ De werklastbalans is beschikbaar in meerdere gebieden van Adobe Workfront. Navig
 
 Voor meer informatie over waar de Balancer van de Werklast wordt gevestigd, zie [ plaats van de Balancer van de Werkbelasting ](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer.html?lang=en).
 
-
 ## Toegangsvereisten
 
-<!--drafted - replace table for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-<td><p>Current license: Standard </p>
-    Or 
-<p>Legacy license:</p>
-    <ul>
-    <li><p>Plan, when using the Workload Balancer for a team or in the Resourcing area </p></li>
-    <li><p>Work, when using the Workload Balancer of a project </p></li>
-    </ul>
- </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to the following:</p> 
-    <ul> 
-     <li> <p>Resource Management</p> </li> 
-     <li> <p>Projects</p> </li> 
-     <li> <p>Tasks</p> </li> 
-     <li> <p>Issues</p> </li> 
-    </ul> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to the projects, tasks, and issues </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -70,33 +32,37 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan, wanneer het gebruiken van de Balancer van de Werkbelasting in het gebied van de Middelen</p>
-   <p>Het werk, wanneer het gebruiken van de Balancer van de Werkbelasting van een team of een project</p>
- </td> 
-  </tr> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td><p>Nieuw: Standaard</p>
+       <p>of</p>
+       <p>Huidig: Plan, wanneer het gebruiken van de Balancer van de Werkbelasting in het gebied van de Middelen;</br>
+       Het werk, wanneer het gebruiken van de Balancer van de Werkbelasting van een team of een project</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot het volgende weergeven of vergroten:</p> 
     <ul> 
-     <li> <p>Bronbeheer</p> </li> 
-     <li> <p>Projecten</p> </li> 
-     <li> <p>Taken</p> </li> 
-     <li> <p>Problemen</p> </li> 
-    </ul> <p>Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+     <li>Bronbeheer</li> 
+     <li>Projecten</li> 
+     <li>Taken</li> 
+     <li>Problemen</li> 
+    </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Bekijk of hoger toestemmingen aan de projecten, de taken, en de kwesties </p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td>Bekijk of hoger toestemmingen aan de projecten, de taken, en de kwesties</td> 
   </tr> 
  </tbody> 
 </table>
 
-*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Overwegingen bij het weergeven van items in de werklastbalans
 
@@ -156,7 +122,8 @@ Nadat u de instellingen hebt geselecteerd die u op de weergave wilt toepassen, o
 
 Om de Balancer van de Werkbelasting voor veelvoudige projecten te navigeren:
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Workfront, dan klik **Resourcing**.
+{{step1-to-resourcing}}
+
 1. Klik **de Balancer van de Werkbelasting** in het linkerpaneel.
 
    ![ de Balancer van de Werkbelasting ](assets/nwe-balancer-global.png)
@@ -433,9 +400,11 @@ U kunt meer informatie bekijken over de taken en de problemen in Workload Balanc
 
 Het navigeren van de Balancer van de Werkbelasting van een team is gelijkaardig aan hoe u de Balancer van de Werkbelasting voor veelvoudige projecten navigeert. Voor informatie, zie de sectie [ de Balancer van de Werklast voor veelvoudige projecten ](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) in dit artikel navigeren.
 
-1. Klik het **Belangrijkste menu** pictogram ![ Belangrijkste menu ](assets/main-menu-icon.png), dan klik **Teams**.
+{{step1-to-team}}
+
 De pagina van uw Team van het Huis toont door gebrek.
-1. Klik **de Balancer van de Werkbelasting** in het linkerpaneel. De taakverdeler van een team zou door gebrek moeten tonen.
+
+1. Klik **de Balancer van de Werkbelasting** in het linkerpaneel.
 
    ![ de Balancer van de Werkbelasting van een team ](assets/nwe-balancer-team-350x172.png)
 
@@ -448,7 +417,8 @@ De pagina van uw Team van het Huis toont door gebrek.
 
 ## Navigeer de Balancer van de Werkbelasting van één enkel project
 
-1. Klik het **Belangrijkste menu** pictogram ![ Belangrijkste menu ](assets/main-menu-icon.png), dan klik **Projecten**.
+{{step1-to-projects}}
+
 1. Klik op de naam van een project om de projectpagina te openen.
 1. Klik **de Balancer van de Werkbelasting** in het linkerpaneel. U zou **kunnen moeten klikken tonen meer**, dan **de Balancer van de Werkbelasting**.
 

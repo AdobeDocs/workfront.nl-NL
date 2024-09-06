@@ -7,15 +7,14 @@ description: U kunt de taakverdeler gebruiken om middelen voor het werk te plann
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
 
 # De werklastbalans zoeken
-
 
 U kunt de taakverdeler gebruiken om middelen voor het werk te plannen of hun beschikbaarheid en huidige toewijzingen te herzien.
 
@@ -36,9 +35,10 @@ In dit artikel worden de gebieden beschreven waar u toegang kunt krijgen tot Wor
 >* [ navigeer de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
 >* [ Overzicht van het toewijzen van het werk in de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 >* [ beheer gebruikerstoewijzingen in de Balancer van de Werklast ](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
->
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -47,35 +47,35 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan, wanneer het gebruiken van de Balancer van de Werkbelasting in het gebied van de Middelen</p>
-   <p>Het werk, wanneer het gebruiken van de Balancer van de Werkbelasting van een team of een project</p>
- </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td><p>Nieuw: Standaard</p>
+       <p>of</p>
+       <p>Huidig: Plan, wanneer het gebruiken van de Balancer van de Werkbelasting in het gebied van de Middelen;</br>
+       Het werk, wanneer het gebruiken van de Balancer van de Werkbelasting van een team of een project</p></td>
   </tr> 
-  <tr> 
-   <td role="rowheader">Toegangsniveau*</td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot het volgende weergeven of vergroten:</p> 
     <ul> 
-     <li> <p>Bronbeheer</p> </li> 
-     <li> <p>Projecten</p> </li> 
-     <li> <p>Taken</p> </li> 
-     <li> <p>Problemen</p> </li> 
-    </ul> <p><b> OPMERKING</b>
-
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
-</tr> 
+     <li>Bronbeheer</li> 
+     <li>Projecten</li> 
+     <li>Taken</li> 
+     <li>Problemen</li> 
+    </ul> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Toestemmingen van de mening of hoger aan de projecten, de taken, en de kwesties </p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td>Toestemmingen van de mening of hoger aan de projecten, de taken, en de kwesties</td> 
   </tr> 
  </tbody> 
 </table>
 
-*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Toegang tot werklastbalans in vooraf gedefinieerde gebieden
 
@@ -83,7 +83,8 @@ In de volgende secties ziet u waar u toegang kunt krijgen tot Workload Balancer 
 
 ### Heb toegang tot de Balancer van de Werkbelasting voor veelvoudige projecten in het gebied van de Middelen
 
-1. Klik het **Belangrijkste menu** pictogram ![](assets/main-menu-icon.png), dan klik **Middelen**.
+{{step1-to-resourcing}}
+
 1. Klik **de Balancer van de Werkbelasting** in het linkerpaneel.
 
    ![](assets/nwe-balancer-global.png)
@@ -97,27 +98,27 @@ In de volgende secties ziet u waar u toegang kunt krijgen tot Workload Balancer 
 
 ### Toegang tot de werklastbalans voor een team
 
-1. Klik het **Belangrijkste menu** pictogram ![](assets/main-menu-icon.png), dan klik Teams.
+{{step1-to-team}}
+
 De pagina van uw Home Team wordt weergegeven.
 
-   De werklastbalans voor het team wordt standaard weergegeven.
-
-   ![](assets/nwe-balancer-team-350x172.png)
-
-   De werklastbalans van een team geeft standaard de volgende informatie weer:
-
-   * **Niet toegewezen Werk**: Punten die aan het team worden toegewezen en niet aan gebruikers worden toegewezen.
-   * **Toegewezen Werk**: Alle leden van het team met al hun taken.
-
-     >[!TIP]
-     >
-     >De leden van het team zouden aan het werk ook kunnen worden toegewezen dat aan het team of aan het werk wordt toegewezen aan andere teams of rollen.
-
-
+     klik **Werklastverdeler *** in het linkerpaneel.
+    
+    ![] (assets/nwe-balancer-team-350x172.png) 
+    
+     de Balancer van de Werkbelasting van een team toont de volgende informatie, door gebrek:
+    
+     * * * Niet toegewezen Werk*: Punten die aan het team worden toegewezen en niet aan gebruikers worden toegewezen.
+    * **Toegewezen Werk**: Alle leden van het team met al hun taken.
+    
+    >[!TIP] 
+    > 
+    >De leden van het team zouden aan het werk kunnen worden toegewezen dat ook aan het team wordt toegewezen of aan het werk dat aan andere teams of rollen wordt toegewezen.
 
 ### Heb toegang tot de Balancer van de Werkbelasting voor een project
 
-1. Klik het **Belangrijkste menu** pictogram ![](assets/main-menu-icon.png), dan klik **Projecten**.
+{{step1-to-projects}}
+
 1. Klik op de naam van een project om de projectpagina te openen.
 1. Klik **de Balancer van de Werkbelasting** in het linkerpaneel. U zou **kunnen moeten klikken tonen meer**, dan **de Balancer van de Werkbelasting**.
 

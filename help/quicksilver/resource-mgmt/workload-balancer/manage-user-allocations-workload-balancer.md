@@ -1,12 +1,12 @@
 ---
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Toewijzingen van gebruikers beheren in Workload Balancer
+title: Gebruikerstoewijzingen beheren in Workload Balancer
 description: Als Manager van het Middel, kunt u werk aan gebruikers toewijzen en hun dagelijkse, wekelijkse, of maandelijkse toewijzingen van de Balancer van de Werkbelasting beheren.
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
 source-wordcount: '2898'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Als Manager van het Middel, kunt u werk aan gebruikers toewijzen en hun dagelijk
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet het volgende hebben:
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,26 +35,21 @@ U moet het volgende hebben:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td>
-   <p>Als u de werklastbalans gebruikt in het gebied Bronnen, hebt u het volgende nodig:</p>
-   <p>Nieuw: Standaard</p>
-   <p>of</p>
-   <p>Huidig: Plan</p>
-   <p>Wanneer het gebruiken van de Balancer van de Werkbelasting van een team of een project, hebt u nodig:</p>
-   <p>Nieuw: Standaard</p>
-   <p>of</p>
-   <p>Huidig: Werk</p>
- </td> 
-  </tr> 
+   <td><p>Nieuw: Standaard</p>
+       <p>of</p>
+       <p>Huidig: Plan, wanneer het gebruiken van de Balancer van de Werkbelasting in het gebied van de Middelen;</br>
+       Het werk, wanneer het gebruiken van de Balancer van de Werkbelasting van een team of een project</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Configuratie op toegangsniveau</td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot het volgende bewerken:</p> 
     <ul> 
-     <li> <p>Bronbeheer</p> </li> 
-     <li> <p>Projecten</p> </li> 
-     <li> <p>Taken</p> </li> 
-     <li> <p>Problemen</p> </li> 
-    </ul> </td> 
+     <li>Bronbeheer</li> 
+     <li>Projecten</li> 
+     <li>Taken</li> 
+     <li>Problemen</li> 
+    </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 

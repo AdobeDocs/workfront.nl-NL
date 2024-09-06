@@ -1,14 +1,14 @@
 ---
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: De werklastbalans delen met een koppeling
+title: De Balancer van de Werkbelasting van het aandeel met een Verbinding
 description: U kunt de werklastbalans delen met andere gebruikers die mogelijk niet over het gebied Bronnen beschikken. Zie Navigeren in Workload Balancer voor informatie over het gebruik van Workload Balancer.
 author: Lisa
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ U kunt de werklastbalans delen met andere gebruikers die mogelijk niet over het 
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -26,34 +28,37 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Elk abonnement</p> </td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan, wanneer het gebruiken van de Balancer van de Werkbelasting in het gebied van de Middelen</p>
-   <p>Het werk, wanneer het gebruiken van de Balancer van de Werkbelasting van een team of een project</p> </td> 
-  </tr> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td><p>Nieuw: Standaard</p>
+       <p>of</p>
+       <p>Huidig: Plan, wanneer het gebruiken van de Balancer van de Werkbelasting in het gebied van de Middelen;</br>
+       Het werk, wanneer het gebruiken van de Balancer van de Werkbelasting van een team of een project</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot het volgende weergeven of vergroten:</p> 
     <ul> 
-     <li> <p>Bronbeheer</p> </li> 
-     <li> <p>Projecten</p> </li> 
-     <li> <p>Taken</p> </li> 
-     <li> <p>Problemen</p> </li> 
-    </ul> <p><b>OPMERKING</b>
-
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
-</tr> 
+     <li>Bronbeheer</li> 
+     <li>Projecten</li> 
+     <li>Taken</li> 
+     <li>Problemen</li> 
+    </ul>
+   </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Bekijk of hoger toestemmingen aan de projecten, de taken, en de kwesties </p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td>Bekijk of hoger toestemmingen aan de projecten, de taken, en de kwesties</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Informatie die is opgenomen in de werklastbalans wanneer deze wordt weergegeven via een gedeelde koppeling
 

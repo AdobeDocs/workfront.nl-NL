@@ -9,14 +9,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ed40984f-602a-46e9-a72b-141936de8fcb
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '562'
 ht-degree: 0%
 
 ---
 
-# Historische gegevens exporteren uit [!DNL Adobe Workfron] t: Pros en cons
+# Historische gegevens exporteren uit [!DNL Adobe Workfront]: Pros en cons
 
 In dit artikel worden de voor- en nadelen beschreven van vier opties waarmee u historische gegevens kunt exporteren uit [!DNL Workfront] .
 
@@ -32,11 +32,11 @@ In dit artikel worden de voor- en nadelen beschreven van vier opties waarmee u h
 
 ## Vraag een [!DNL Postgres] gegevensdumpbestand aan van ons databaseteam
 
-Uw Account Executive kan een verzoek indienen bij ons databaseteam om een databasedumpdump-bestand (.dmp [!DNL Postgres] -bestand) met uw gegevens te exporteren. Een extra aanvraag gaat naar ons AOS-team om alle opgeslagen documenten op te halen.
+U moet een verzoek indienen bij ons Customer Support-team, dat vervolgens een aanvraag zal indienen bij ons databaseteam om een databasedumpdump-bestand (.dmp [!DNL Postgres] -bestand) met uw gegevens te exporteren. Een extra verzoek zal naar ons team NOC gaan om al uw opgeslagen documenten terug te winnen.
 
 * **Pros**: U krijgt uw volledige gegevenslading, met inbegrip van douanegebieden, evenals documenten die in het systeem worden opgeslagen.
 
-* **Kons**: Het gegevensbestanddossier is moeilijk te lezen: er is geen manier u dit dossier kunt lezen tenzij u het aan een [!DNL Postgres] gegevensbestand uploadt en de verhoudingen tussen de lijsten herstelt. De documenten worden opgeslagen op een aparte bestandsserver en moeten door het AOS-team apart worden uitgepakt. Hierbij, is er geen organisatie aan de documenten, en zij worden allen van verwijzingen voorzien door hun GUID.
+* **Kons**: Het gegevensbestanddossier is moeilijk te lezen: er is geen manier u dit dossier kunt lezen tenzij u het aan een [!DNL Postgres] gegevensbestand uploadt en de verhoudingen tussen de lijsten herstelt. De documenten worden opgeslagen op een afzonderlijke dossierserver en moeten afzonderlijk worden gehaald gebruikend een afzonderlijk proces door het team NOC. Hierbij, is er geen organisatie aan de documenten, en zij worden allen van verwijzingen voorzien door hun GUID.
 
 * **Kosten**: Er zijn kosten verbonden aan deze download, afhankelijk van hoe lang het team duurt om het dossier tot stand te brengen. Raadpleeg uw AE/CAE voor meer informatie of om dit proces op gang te brengen.
 

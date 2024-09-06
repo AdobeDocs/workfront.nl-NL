@@ -1,14 +1,14 @@
 ---
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Gegevens in de werklastbalans filteren
+title: Informatie over filters in de werklastverdeling
 description: We raden u ten zeerste aan filters te gebruiken in Workload Balancer om werkitems efficiënt te zoeken en u te concentreren op de gebruikers of items die u beheert.
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: b255a3140629a488d24d1df980ba81faa1064d16
 workflow-type: tm+mt
-source-wordcount: '2489'
+source-wordcount: '2462'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,9 @@ Dit artikel bevat informatie over filters in Workload Balancer. Voor informatie 
 
 ## Toegangsvereisten
 
-U moet het volgende hebben:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,38 +45,40 @@ U moet het volgende hebben:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Elk abonnement</p> </td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan, wanneer het gebruiken van de Balancer van de Werkbelasting in het gebied van de Middelen</p>
-   <p>Het werk, wanneer het gebruiken van de Balancer van de Werkbelasting van een team of een project</p>
- </td> 
-  </tr> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td><p>Nieuw: Standaard</p>
+       <p>of</p>
+       <p>Huidig: Plan, wanneer het gebruiken van de Balancer van de Werkbelasting in het gebied van de Middelen;</br>
+       Het werk, wanneer het gebruiken van de Balancer van de Werkbelasting van een team of een project</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Toegangsniveau*</td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot het volgende weergeven of vergroten:</p> 
     <ul> 
-     <li> <p>Bronbeheer</p> </li> 
-     <li> <p>Projecten</p> </li> 
-     <li> <p>Taken</p> </li> 
-     <li> <p>Problemen</p> </li> 
-     <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Filters, Weergaven en Groepen</p> </li> 
-    </ul> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"><span> geeft toegang tot Filters, Weergaven, en Groepen uit wanneer het bouwen van of het uitgeven van filters </span> uit </p> <p><b>OPMERKING</b>
-
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
-</tr> 
+     <li>Bronbeheer</li> 
+     <li>Projecten</li> 
+     <li>Taken</li> 
+     <li>Problemen</li>
+     <li>Filters, Weergaven en Groepen</li>
+    </ul>
+    <p>Toegang tot filters, weergaven en groepen bewerken tijdens het maken of bewerken van filters </p> </td>
+  </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
    <td> <p>De toestemmingen van de mening of hoger aan de projecten, taken, kwesties</p>
    <p>Rechten beheren voor de filters die u wilt bewerken of verwijderen</p>
-     </p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Overzicht van filters in de werklastverdeler
 

@@ -1,27 +1,27 @@
 ---
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Werk toewijzen in Workload Balancer door slepen en neerzetten
+title: Werk toewijzen in de werklastverdeler door slepen en neerzetten
 description: U kunt werkitems toewijzen met de Adobe Workfront Workload Balancer door werkitems naar de juiste gebruikers te slepen en neer te zetten.
 author: Lisa
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '867'
 ht-degree: 0%
 
 ---
 
 # Werk toewijzen in Workload Balancer door slepen en neerzetten
 
-<!--remove production and preview preferences at release-->
-
 U kunt werkitems toewijzen met de Adobe Workfront Workload Balancer door werkitems naar de juiste gebruikers te slepen en neer te zetten.
 
 Voor algemene informatie over het toewijzen van het werk aan gebruikers die de Balancer van de Werklast gebruiken, zie [ Overzicht van het toewijzen van het werk in de Balancer van de Werklast ](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -30,35 +30,37 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan, om werk in de Balancer van de Werkbelasting in het gebied van de Middelen toe te wijzen</p>
-   <p>Het werk, om het werk in de Balancer van de Werkbelasting van een team of een project toe te wijzen</p>
- </td> 
-  </tr> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td><p>Nieuw: Standaard</p>
+       <p>of</p>
+       <p>Huidig: Plan, om het werk in de Balancer van de Werkbelasting op het gebied van de Middelen toe te wijzen;</br>
+       Het werk, om het werk in de Balancer van de Werkbelasting van een team of een project toe te wijzen</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Toegangsniveau*</td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot het volgende bewerken:</p> 
     <ul> 
-     <li> <p>Bronbeheer</p> </li> 
-     <li> <p>Projecten</p> </li> 
-     <li> <p>Taken</p> </li> 
-     <li> <p>Problemen</p> </li> 
-    </ul> <p><b>OPMERKING</b>
-
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
-</tr> 
+     <li>Bronbeheer</li> 
+     <li>Projecten</li> 
+     <li>Taken</li> 
+     <li>Problemen</li> 
+    </ul>
+   </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Contribute-machtigingen of hoger voor de projecten, taken en problemen die Toewijzingen maken bevatten</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td>Contribute-machtigingen of hoger voor de projecten, taken en problemen die Toewijzingen maken bevatten</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Een item toewijzen door het te slepen en neer te zetten
 

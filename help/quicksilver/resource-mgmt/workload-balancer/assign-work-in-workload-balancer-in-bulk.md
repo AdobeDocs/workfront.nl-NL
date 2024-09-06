@@ -1,14 +1,14 @@
 ---
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Werk in bulk toewijzen met Werklastverdeling
+title: Werk in bulk toewijzen met werklastverdeling
 description: Met de Adobe Workfront Workload Balancer kunt u resources toewijzen aan meerdere taken en problemen in bulk.
 author: Lisa
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
-source-wordcount: '1499'
+source-wordcount: '1521'
 ht-degree: 0%
 
 ---
@@ -17,10 +17,6 @@ ht-degree: 0%
 
 <!--Audited: 07/2024-->
 
-<!--drafted
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
--->
-
 Met de Adobe Workfront Workload Balancer kunt u resources toewijzen aan meerdere taken en problemen in bulk.
 
 Voor algemene informatie over het toewijzen van het werk aan gebruikers die de Balancer van de Werklast gebruiken, zie [ Overzicht van het toewijzen van het werk in de Balancer van de Werklast ](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
@@ -28,6 +24,8 @@ Voor algemene informatie over het toewijzen van het werk aan gebruikers die de B
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,36 +36,31 @@ Voor algemene informatie over het toewijzen van het werk aan gebruikers die de B
    <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> 
-   <p>Nieuw: Standaard</p>
-   <p>Huidige:</p>
-   <ul>
-   <li><p>Plan, wanneer het gebruiken van de Balancer van de Werkbelasting in het gebied van de Middelen</p></li>
-   <li><p>Het werk, wanneer het gebruiken van de Balancer van de Werkbelasting van een team of een project</p></li></ul>
-
-</td> 
-  </tr> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td><p>Nieuw: Standaard</p>
+       <p>of</p>
+       <p>Huidig: Plan, wanneer het gebruiken van de Balancer van de Werkbelasting in het gebied van de Middelen;</br>
+       Het werk, wanneer het gebruiken van de Balancer van de Werkbelasting van een team of een project</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Toegangsniveau</td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot het volgende bewerken:</p> 
     <ul> 
-     <li> <p>Bronbeheer</p> </li> 
-     <li> <p>Projecten</p> </li> 
-     <li> <p>Taken</p> </li> 
-     <li> <p>Problemen</p> </li> 
+     <li>Bronbeheer</li> 
+     <li>Projecten</li> 
+     <li>Taken</li> 
+     <li>Problemen</li> 
     </ul>
-
-</td> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Contribute-machtigingen of hoger voor de projecten, taken en problemen die Toewijzingen maken bevatten</p> </td> 
+   <td>Contribute-machtigingen of hoger voor de projecten, taken en problemen die Toewijzingen maken bevatten</td> 
   </tr> 
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -100,27 +93,27 @@ Voor algemene informatie over het toewijzen van het werk aan gebruikers die de B
 
 1. (Voorwaardelijk) als u tot de Balancer van de Werkbelasting van het Bronsgebied of voor een team toegang hebt, breid het **Project uit: Naam** drop-down menu en gebruik de filterbepalingen om het project of de projecten te selecteren waarvoor u taken wilt maken. U kunt projecten op Naam (dit is de standaardoptie) of door Status selecteren.
 
-Voor informatie over de filterbepalingen van Workfront, zie [ Filters en voorwaardenbepalingen ](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   Voor informatie over de filterbepalingen van Workfront, zie [ Filters en voorwaardenbepalingen ](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
->[!NOTE]
->
->De naam van het Project wordt geselecteerd door gebrek wanneer u tot de Balancer van de Werkbelasting voor een project toegang hebt.
+   >[!NOTE]
+   >
+   >De naam van het Project wordt geselecteerd door gebrek wanneer u tot de Balancer van de Werkbelasting voor een project toegang hebt.
 
-![](assets/project-name-status-dropdown-bulk-assignments-wb-nwe-350x133.png)
+   ![](assets/project-name-status-dropdown-bulk-assignments-wb-nwe-350x133.png)
 
 1. (Facultatief) klik **Uitgezochte projecttaken** om de taak of de taken te selecteren die u taken voor, dan in de **Taak wilt maken: Naam** drop-down menu, uitgezochte taken door Naam (dit is de standaardoptie) of Status en de filterbepalingen gebruiken om naar specifieke taken te zoeken.
 
-Voor informatie over de filterbepalingen van Workfront, zie [ Filters en voorwaardenbepalingen ](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   Voor informatie over de filterbepalingen van Workfront, zie [ Filters en voorwaardenbepalingen ](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
->[!NOTE]
->
->U kunt geen taken in de status Voltooid selecteren.
+   >[!NOTE]
+   >
+   >U kunt geen taken in de status Voltooid selecteren.
 
-![](assets/task-name-status-dropdown-bulk-assignments-wb-nwe-350x102.png)
+   ![](assets/task-name-status-dropdown-bulk-assignments-wb-nwe-350x102.png)
 
->[!TIP]
->
->Laat deze selectie leeg als u niet alleen taken maar ook taken in grote hoeveelheden wilt toewijzen.
+   >[!TIP]
+   >
+   >Laat deze selectie leeg als u niet alleen taken maar ook taken in grote hoeveelheden wilt toewijzen.
 
 1. (Facultatief) klik **Schrapping** pictogram ![](assets/delete.png) naast één van de geselecteerde criteria
 
