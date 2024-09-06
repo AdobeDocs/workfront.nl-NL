@@ -7,9 +7,9 @@ description: In dit artikel wordt beschreven waarom actieve of gedeactiveerde sc
 author: Becky
 feature: Workfront Fusion
 exl-id: b3eea763-f0bf-4037-8d73-20d112dc5ac3
-source-git-commit: 0f6d02733f091d7e548db6005eebb3a24087799a
+source-git-commit: b1764e443ebb0ad48ca4ae0263d326f4156fb155
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ U kunt met scenario&#39;s of in een actieve of inactieve staat werken:
 
 * Een inactief scenario wordt slechts uitgevoerd wanneer u het manueel in werking stelt.
 
-  Dit is nuttig wanneer u het scenario slechts op bepaalde tijden wilt in werking stellen.
+  Dit is handig wanneer u het scenario elke keer handmatig wilt uitvoeren.
 
 U kunt een scenario op elk ogenblik activeren of deactiveren, afhankelijk van hoe u het scenario wilt gebruiken.
 
