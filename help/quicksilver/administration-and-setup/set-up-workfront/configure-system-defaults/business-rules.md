@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: 0a50e3aef47720d78e798f6111ee503389dde984
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1152'
 ht-degree: 0%
 
 ---
@@ -74,10 +74,17 @@ Voor informatie over op datum-gebaseerde vervangingen, zie [ Op datum-gebaseerde
 
 Een API-jokerteken is ook beschikbaar in bedrijfsregels. U kunt `$$ISAPI` gebruiken om de regel alleen in de gebruikersinterface of alleen in de API te activeren.
 
+De jokertekens `$$BEFORE_STATE` en `$$AFTER_STATE` worden in expressies gebruikt om de veldwaarden van het object te benaderen voor en na elke bewerking.
+
+* Deze jokertekens zijn beide beschikbaar voor de bewerktrigger. De standaardstatus voor de bewerktrigger (als er geen status is opgenomen in de expressie) is `$$AFTER_STATE` .
+* De trigger voor het maken van objecten staat alleen de instructie `$$AFTER_STATE` toe, omdat de status before niet bestaat.
+* De trigger voor het verwijderen van objecten staat alleen de instructie `$$BEFORE_STATE` toe, omdat de status after niet bestaat.
+
+
 Sommige eenvoudige bedrijfsregelscenario&#39;s zijn:
 
 * De gebruikers kunnen geen nieuwe uitgaven tijdens de laatste week van Februari toevoegen. Deze formule kan worden weergegeven als: `IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")`
-* Gebruikers kunnen een project in de status Voltooid niet bewerken. Deze formule kan worden weergegeven als: `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
+* De gebruikers kunnen niet de projectnaam van een project in Volledige status uitgeven. Deze formule kan worden weergegeven als: `IF({status} = "CPL" && {name} != $$BEFORE_STATE.{name}, "You cannot edit the project name.")`
 
 Een scenario met geneste IF-instructies is:
 

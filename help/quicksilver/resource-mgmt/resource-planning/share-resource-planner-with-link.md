@@ -1,14 +1,14 @@
 ---
 product-area: resource-management
 navigation-topic: resource-planning
-title: De gebruikersweergave van de bronnenplanner delen met een koppeling
+title: Deel de Mening van de Gebruiker van de Planner van het Middel met een Verbinding
 description: Adobe Workfront kan een unieke URL genereren voor de gebruikersweergave van de bronnenplanner die u als externe pagina kunt insluiten in een dashboard, of deze afzonderlijk openen in een nieuw browsertabblad. Dit is nuttig wanneer het delen van de informatie van de Planner van het Middel met gebruikers die geen directe toegang tot het gebied van de Middel zouden kunnen hebben.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
-source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -21,32 +21,40 @@ Adobe Workfront kan een unieke URL genereren voor de gebruikersweergave van de b
 
 ## Toegangsvereisten
 
-U moet het volgende hebben:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Pro en hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
+    <td><p>Nieuw: alle</p>
+       <p>of</p>
+       <p>Huidig: Pro of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td><p>Nieuw: Standaard</p>
+       <p>of</p>
+       <p>Huidig: Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>De mening of hogere toegang tot het Beheer van het Middel, Projecten, en Gebruikers</p> <p>Toegang tot financiële gegevens bekijken om kosteninformatie weer te geven </p> <p><b> NOTA </b> als u nog geen toegang hebt, vraag uw beheerder van Workfront als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>De mening of hogere toegang tot het Beheer van het Middel, Projecten, en Gebruikers</p> <p>Toegang tot financiële gegevens bekijken om kosteninformatie weer te geven</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>De mening of hogere toestemmingen aan de projecten u in de Planner van het Middel wilt tonen</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>De mening of hogere toestemmingen aan de projecten u in de Planner van het Middel wilt tonen</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 
 Overweeg het volgende wanneer het produceren van unieke URL voor de Mening van de Gebruiker van de Planner van het Middel:
@@ -62,10 +70,9 @@ Overweeg het volgende wanneer het produceren van unieke URL voor de Mening van d
 
 U kunt als volgt een unieke URL opvragen in de weergave Gebruiker van de functie voor het plaatsen van bronnen en deze delen met andere gebruikers:
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.
+{{step1-to-resourcing}}
 
-1. Klik **Middelen**.
-1. In, uitgezochte **Mening door Gebruiker**.
+1. Selecteer **Mening door Gebruiker**.
 1. (Optioneel) Selecteer de tijdlijn waarbinnen u de informatie wilt weergeven in de functie Bronnen. Selecteer een van de volgende opties:
 
    * Week

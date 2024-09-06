@@ -1,14 +1,14 @@
 ---
 product-area: resource-management
 navigation-topic: resource-planning
-title: Gegevens filteren in de bronnenplanner
-description: '''(AL:*Interactief op dit artikel: filteren op aangepaste gegevens. Andere verbeteringen? Speciale tekens kunnen veranderen. Volg het artikel om te weten wanneer. Oorspronkelijk kwam het in Beta 3 17.3.)"'
-author: Alina
+title: Informatie filteren in de bronnenplanner
+description: Gebruikend filters, kunt u wijzigen welke informatie in de Planner van het Middel van alle informatie toont die in het systeem wordt opgeslagen.
+author: Lisa
 feature: Resource Management
 exl-id: 7186cae5-1e16-421e-b26d-afb50aa7f6eb
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
 workflow-type: tm+mt
-source-wordcount: '2416'
+source-wordcount: '2374'
 ht-degree: 0%
 
 ---
@@ -23,38 +23,40 @@ Gebruikend filters, kunt u wijzigen welke informatie in de Planner van het Midde
 
 ## Toegangsvereisten
 
-U moet het volgende hebben:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Pro en hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td><p>Nieuw: alle</p>
+       <p>of</p>
+       <p>Huidig: Pro of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Controleren of hoger<!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-        (this seems to be the case in NWE only, not classic. Waiting on Vazgen's response for this)
-      </MadCap:conditionalText>
-     --></p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td><p>Nieuw: Licht of hoger</p>
+       <p>of</p>
+       <p>Huidig: Controleren of hoger</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>De mening of hogere toegang tot Projecten, Gebruikers, en het Beheer van het Middel </p> <p><b>OPMERKING</b>
-
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
-</tr> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>De toegang van de mening of hoger tot Projecten, Gebruikers, en het Beheer van het Middel</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Toestemmingen of hoger van de mening voor projecten</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Toestemmingen of hoger van de mening voor projecten</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Overzicht van de filters Bronnen
 
@@ -117,18 +119,16 @@ Houd rekening met het volgende wanneer u een filter maakt:
 
 Een filter maken in de bronnenplanner:
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.
+{{step1-to-resourcing}}
 
-1. Klik **Middelen**.
+De **vertoningen van de Planner** door gebrek.
 
-   De **vertoningen van de Planner** door gebrek.
+Door gebrek, de eerste keer u tot de Planner van het Middel toegang hebt, wordt de <strong> StandaardFilter </strong> toegepast.<br> voor meer informatie over de Standaardfilter, zie het <a href="#overview-of-the-default-filter-in-the-resource-planner" class="MCXref xref"> Overzicht van de StandaardFilter in de 2} sectie van de Planner van het Middel {in dit artikel.</a>
 
-   Door gebrek, de eerste keer u tot de Planner van het Middel toegang hebt, wordt de <strong> StandaardFilter </strong> toegepast.<br> voor meer informatie over de Standaardfilter, zie het <a href="#overview-of-the-default-filter-in-the-resource-planner" class="MCXref xref"> Overzicht van de StandaardFilter in de 2} sectie van de Planner van het Middel {in dit artikel.</a>
-
-1. In de upper-left hoek van, klik het **pictogram van de Filter**.\
-   ![ filter_icon.png ](assets/filter-icon.png)\
-   of\
-   Vouw het **drop-down menu van de Filter** uit en klik **voeg Nieuwe Filter** toe.\
+1. In de upper-left hoek van, klik het **pictogram van de Filter**.
+   ![ filter_icon.png ](assets/filter-icon.png)
+of
+Vouw het **drop-down menu van de Filter** uit en klik **voeg Nieuwe Filter** toe.
    ![](assets/rp-filter-dropdown-expanded-with-default-filter-selected-350x283.png)
 
 1. Als u een filter wilt maken aan de hand van de ingebouwde criteria, geeft u een van de volgende velden op:

@@ -2,12 +2,12 @@
 content-type: reference
 product-area: resource-management
 navigation-topic: resource-planning
-title: Overzicht van het berekenen van uren en FTE voor gebruikers en rollen in de Planner van het Middel
+title: Overzicht van het Berekenen van Uren en FTE voor Gebruikers en Rollen in de Planner van het Middel
 description: Overzicht van het berekenen van uren en FTE voor gebruikers en rollen in de Planner van het Middel
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 10b0e507-658e-4d12-994a-e38da6111f5d
-source-git-commit: de015496d4cb960b10368e4dfa0f7abec1b7d989
+source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
 workflow-type: tm+mt
 source-wordcount: '1392'
 ht-degree: 0%

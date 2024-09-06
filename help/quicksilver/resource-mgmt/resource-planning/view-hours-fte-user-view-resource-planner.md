@@ -2,12 +2,12 @@
 content-type: reference
 product-area: resource-management;user-management
 navigation-topic: resource-planning
-title: Beschikbare, geplande en Werkelijke uren of FTE weergeven in de bronnenplanner bij gebruik van de gebruikersweergave
+title: Beschikbare, geplande en Werkelijke uren of VTE van de mening van het Middel in de Planner van het Middel wanneer het Gebruiken van de Mening van de Gebruiker
 description: De mening Beschikbare, Geplande, en Ware Uren of FTE in de Planner van het Middel wanneer het gebruiken van de gebruiker viewPlanning"in RP" - misschien "het opnemen van middelen in RP"of "het Leiden Middelen in RP." etc.. - of zou moeten worden hergebruikt van een andere POV?!)"
-author: Alina
+author: LIsa
 feature: Resource Management
 exl-id: 6b532aa2-435f-4fda-b7ce-abe0a785638f
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
 workflow-type: tm+mt
 source-wordcount: '1739'
 ht-degree: 0%
