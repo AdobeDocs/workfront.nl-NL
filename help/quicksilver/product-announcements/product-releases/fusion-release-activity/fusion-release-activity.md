@@ -9,9 +9,9 @@ author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
-source-git-commit: 35ec37253655d05a8ce24a5c928b1d5377f7abef
+source-git-commit: 6912878642008bb56b9265db2348b7c38b674bcd
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '749'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,7 @@ Voor informatie over hoe te om de Fusie van Workfront te gebruiken, zie [ de Fus
 
 ### augustus 2024
 
+* [Workfront Fusion release activity: Week van 19 augustus 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-8-19.md)
 * [Workfront Fusion release activity: Week van 5 augustus 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-8-5.md)
 
 ### juli 2024
