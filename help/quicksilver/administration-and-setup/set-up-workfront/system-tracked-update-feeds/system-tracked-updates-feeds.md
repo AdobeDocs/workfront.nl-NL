@@ -3,14 +3,14 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: set-up-workfront
-title: Door het systeem bijgehouden feeds voor updates
+title: Door het systeem bijgehouden bijwerkingsfeeds
 description: Adobe Workfront logt de activiteit die plaatsvindt op bepaalde objecten in hun [!UICONTROL Updates] -gebied uit. Een systeemupdate bevat een korte beschrijving van het type wijziging dat is opgetreden met het object. [!DNL Workfront]  de beheerders kunnen bepalen welk type van veranderingen het systeem in de [!UICONTROL Updates] sectie zou moeten volgen.
 author: Alina
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: b43b8583-41cb-4a96-8e61-77208eaa219a
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 0%

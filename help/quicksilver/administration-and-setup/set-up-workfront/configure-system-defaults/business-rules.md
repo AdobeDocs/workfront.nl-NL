@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 0a50e3aef47720d78e798f6111ee503389dde984
+source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
 workflow-type: tm+mt
 source-wordcount: '1152'
 ht-degree: 0%
@@ -80,7 +80,6 @@ De jokertekens `$$BEFORE_STATE` en `$$AFTER_STATE` worden in expressies gebruikt
 * De trigger voor het maken van objecten staat alleen de instructie `$$AFTER_STATE` toe, omdat de status before niet bestaat.
 * De trigger voor het verwijderen van objecten staat alleen de instructie `$$BEFORE_STATE` toe, omdat de status after niet bestaat.
 
-
 Sommige eenvoudige bedrijfsregelscenario&#39;s zijn:
 
 * De gebruikers kunnen geen nieuwe uitgaven tijdens de laatste week van Februari toevoegen. Deze formule kan worden weergegeven als: `IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")`
@@ -92,7 +91,7 @@ De gebruikers kunnen voltooide projecten niet uitgeven en kunnen geen projecten 
 
 ```
 IF(
-    {status}="CPL",
+    $$AFTER_STATE.{status}="CPL",
     "You cannot edit a completed project",
     IF(
         MONTH({plannedCompletionDate})=3,

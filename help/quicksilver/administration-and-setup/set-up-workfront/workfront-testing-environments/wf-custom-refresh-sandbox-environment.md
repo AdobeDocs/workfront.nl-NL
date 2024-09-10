@@ -3,15 +3,15 @@ user-type: administrator
 content-type: overview;how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
-title: Het  [!DNL Adobe Workfront]  milieu van de Douane verfrist Sandbox
+title: ' [!DNL Adobe Workfront]  de Douane verfrist Sandbox Milieu'
 description: De aangepaste sandbox Vernieuwen is een omgeving waarin u gegevens uit uw productieomgeving kunt testen en gebruiken. Het is ook ideaal voor het uitvoeren van trainingen en het bepalen van instelfunctionaliteit.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '1594'
+source-wordcount: '1610'
 ht-degree: 0%
 
 ---
@@ -31,12 +31,11 @@ De aangepaste sandbox Vernieuwen is een omgeving waarin u gegevens uit uw produc
 >
 >  Voor meer informatie over de zandbak van de Voorproef, zie [ het  [!DNL Adobe Workfront]  Milieu van de Voorproef Sandbox ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
-
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet het volgende hebben om de stappen in dit artikel uit te voeren:
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -56,6 +55,8 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
   </tr> 
  </tbody> 
 </table>
+
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

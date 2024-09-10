@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1045'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Als [!DNL Adobe Workfront] beheerder of een gebruiker met administratieve toegan
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet het volgende hebben:
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,17 +40,18 @@ U moet het volgende hebben:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
    <td>
-   <p>Nieuw: Standaard</p>
+   <p>Nieuw: [!UICONTROL Standard]</p>
+   <p>of</p>
    <p>Huidige: [!UICONTROL Plan]</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>Administratieve toegang tot functies</p> </td> 
+   <td>Administratieve toegang tot taakrollen</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

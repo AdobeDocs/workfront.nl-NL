@@ -5,13 +5,13 @@ product-area: system-administration
 navigation-topic: workfront-testing-environments
 title: Het  [!DNL Adobe Workfront]  Milieu van de zandbak van de Voorproef
 description: De voorvertoningssandbox is een testomgeving die fungeert als replica van uw live omgeving. Het wordt elk weekend vernieuwd door Workfront. Gegevens die op vrijdag aan uw live omgeving zijn toegevoegd, worden op de volgende maandag in de voorvertoningssandbox weergegeven. Alle ondersteuningspakketten hebben toegang tot deze sandbox.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1151'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ Als [!DNL Workfront] beheerder hebt u via de [!DNL Workfront] -interface toegang
 
 De voorvertoningssandbox openen:
 
-1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
 1. Klik op **[!UICONTROL System]** > **[!UICONTROL Preferences]** .
 

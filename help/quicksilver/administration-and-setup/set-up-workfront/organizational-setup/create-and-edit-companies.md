@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 1b3e0ab2d8ee37b7583d0b8fb0472b2fc9623da0
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '1401'
+source-wordcount: '1347'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Een bedrijf is een organisatorische eenheid in [!DNL Adobe Workfront] die uw org
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet over het volgende beschikken om bedrijven te kunnen beheren in [!DNL Workfront] :
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -38,9 +38,9 @@ U moet over het volgende beschikken om bedrijven te kunnen beheren in [!DNL Work
    <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!DNL Adobe Workfront] licentie*</p> </td> 
+   <td role="rowheader"> <p>[!DNL Adobe Workfront] licentie</p> </td> 
    <td><p>Huidige: [!UICONTROL Plan]</p>
-   of
+   <p>of</p>
    <p>Nieuw: [!UICONTROL Standard]</p>
    </td> 
   </tr> 
@@ -48,22 +48,23 @@ U moet over het volgende beschikken om bedrijven te kunnen beheren in [!DNL Work
    <td role="rowheader">Configuratie op toegangsniveau</td> 
    <td> <p>Een van de volgende opties:</p> 
     <ul> 
-     <li> <p>Het toegangsniveau van [!UICONTROL System Administrator], dat u toestaat om het even welk bedrijf in het systeem uit te geven. Voor meer informatie, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md"> een gebruiker volledige administratieve toegang verlenen </a>. </p> </li> 
-     <li> <p>Administratieve toegang om bedrijven te beheren, die u toestaat om het even welk bedrijf in het systeem uit te geven. Voor meer informatie, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md"> gebruikers administratieve toegang van de Verlening tot bepaalde gebieden </a>.</p> </li> 
+     <li> <p>Het toegangsniveau van [!UICONTROL System Administrator], dat u toestaat om het even welk bedrijf in het systeem uit te geven.</p> </li> 
+     <li> <p>Administratieve toegang om bedrijven te beheren, die u toestaat om het even welk bedrijf in het systeem uit te geven.</p> </li> 
     </ul> <p><b> NOTA </b>:  
      <ul> 
       <li> <p>U kunt ook bedrijven beheren die zijn gekoppeld aan een groep waaraan u als groepsbeheerder bent toegewezen.</p> </li> 
       <li> <p>Als u gebruikers wilt toevoegen aan en verwijderen uit het [!DNL Workfront] -systeem, moet u een van de volgende opties hebben:</p> 
        <ul> 
-        <li> <p>Het toegangsniveau van [!UICONTROL System Administrator]. Voor meer informatie, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref"> een gebruiker volledige administratieve toegang verlenen </a>. </p> </li> 
+        <li> <p>Het toegangsniveau van [!UICONTROL System Administrator]. </p> </li> 
         <li> <p>In uw toegangsniveau, moet [!UICONTROL Edit] voor het [!UICONTROL Users] plaatsen worden geselecteerd. Voor de instelling [!UICONTROL Users] onder [!UICONTROL Fine-tune your settings] <img src="assets/gear-icon-in-access-levels.png"> moeten ook de optie [!UICONTROL Create] en ten minste een van de twee opties [!UICONTROL User Admin] zijn ingeschakeld. </p> <p> <img src="assets/access-req-users.png"> </p> <p>Als u de optie [!UICONTROL User Admin (Group Users)] gebruikt, moet u een groepsbeheerder van een groep zijn waar de gebruiker een lid is.</p> </li> 
-       </ul> <p>Voor informatie over de Gebruikers die in een toegangsniveau plaatsen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref"> toegang van de Verlening tot gebruikers </a>.</p> </li> 
+       </ul>
+       </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, licentietype, of configuraties van het toegangsniveau u hebt, contacteer uw [!DNL Workfront] beheerder. Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -91,11 +92,12 @@ Standaard wordt het bedrijf dat aan uw instantie van [!DNL Workfront] is gekoppe
 
 Een bedrijf toevoegen of bewerken:
 
-{#step-1-to-setup}
+{{step-1-to-setup}}
 
 1. Klik op **[!UICONTROL Companies]**.
 
    Er wordt een lijst met bedrijven weergegeven.
+
 1. Als u een bedrijf toevoegt, klikt u op **[!UICONTROL New Company]** .
 
    of

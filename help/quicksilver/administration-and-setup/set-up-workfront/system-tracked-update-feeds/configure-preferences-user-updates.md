@@ -4,13 +4,13 @@ product-area: system-administration;setup
 navigation-topic: system-tracked-update-feeds
 title: Voorkeuren voor gebruikersupdates configureren
 description: U kunt voorkeuren configureren die toegang geven tot bepaalde functies wanneer gebruikers opmerkingen toevoegen in het gebied [!UICONTROL Updates] van een object.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d6d18423-d13c-42e8-b8ee-43e6842b6481
-source-git-commit: fd876089c964d57224452023b4656cd6df40b5a3
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 U kunt voorkeuren configureren die gebruikers toegang geven tot bepaalde functies wanneer ze opmerkingen toevoegen in het gebied [!UICONTROL Updates] van een object.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -33,14 +35,21 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
-   <td>[!UICONTROL Plan]</td> 
-  </tr> 
+   <td><p>Nieuw: [!UICONTROL Standard]</p>
+   of
+   <p>Huidige: [!UICONTROL Plan]</p>
+   </td> 
+  </tr>  
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U hebt het toegangsniveau [!UICONTROL System Administrator] nodig om deze stappen op systeemniveau uit te voeren.</p><p>Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> <p><b> NOTA </b>: Als u nog geen toegang hebt, vraag uw [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td><p>U hebt het toegangsniveau [!UICONTROL System Administrator] nodig om deze stappen op systeemniveau uit te voeren.</p><p>Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p></td>
   </tr> 
  </tbody> 
 </table>
+
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Gebruikers toestaan afbeeldingen toe te voegen in updates
 
