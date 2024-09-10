@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 809dea922f02fe3be0e8417fb04629b395164882
+source-git-commit: d43bc45ca400846307958fc15e04e16ef37eff11
 workflow-type: tm+mt
-source-wordcount: '14369'
+source-wordcount: '14372'
 ht-degree: 0%
 
 ---
@@ -1451,6 +1451,7 @@ ht-degree: 0%
          * [Een project uit een portfolio verwijderen](manage-work/portfolios/create-and-manage-portfolios/remove-project-from-portfolio.md)
          * [Gevraagde projecten controleren](manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md)
       * Programma&#39;s maken en beheren {#create-and-manage-programs}
+         * [Overzicht van programma&#39;s in  [!DNL Adobe Workfront]](manage-work/portfolios/create-and-manage-programs/programs-overview.md)
          * [Programma&#39;s maken en beheren](manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)
          * [Een programma maken](manage-work/portfolios/create-and-manage-programs/create-program.md)
          * [Programma&#39;s bewerken](manage-work/portfolios/create-and-manage-programs/edit-programs.md)

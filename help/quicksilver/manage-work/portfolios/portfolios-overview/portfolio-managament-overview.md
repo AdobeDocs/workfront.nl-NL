@@ -6,20 +6,24 @@ description: Het beheer van Portfolio of het Portfolio van het Project (PPM) is 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 26fb28ce-0957-4db6-a275-174b1d149180
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
 
 # Overzicht van het beheer van Portfolio&#39;s
 
-<!--Audited: 12/2023-->
+<!--Audited: 09/2024-->
 
 ## Overzicht van Project Portfolio Management (PPM)
 
-Het beheer van Portfolio of het Portfolio van het Project (PPM) is het proces van het prioriteren en het beheren van een lijst van projecten om specifieke bedrijfsdoelstellingen te bereiken. Aldus, is een portefeuille een inzameling van projecten met gemeenschappelijke bedrijfsdoelstellingen. Het resultaat van een effectieve PPM-methodologie stelt uitvoerende organen in staat om:
+Het beheer van Portfolio of het Portfolio van het Project (PPM) is het proces van het prioriteren en het beheren van een lijst van projecten om specifieke bedrijfsdoelstellingen te bereiken.
+
+In dit artikel worden de algemene concepten voor portefeuillebeheer beschreven. Voor algemene informatie over het beheer van portefeuilles in Adobe Workfront, zie [ overzicht van het Portfolio in Adobe Workfront ](/help/quicksilver/manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+
+Een portefeuille is een inzameling van projecten met gemeenschappelijke bedrijfsdoelstellingen. Het resultaat van een effectieve PPM-methodologie stelt uitvoerende organen in staat om:
 
 * Alle projecten in een portfolio identificeren.
 * Begrijp het effect van elk project op middelen, kosten, en opbrengst.
@@ -40,12 +44,12 @@ U kunt aan uw projecten voorrang geven en ervoor zorgen dat zij aan uw bedrijfsd
 
 Het volgende diagram illustreert het overzicht op hoog niveau van het PPM-proces in [!DNL Workfront]:
 
-![](assets/pm1-350x88.png)
+![](assets/project-portfolio-management-process-diagram.png)
 
 * [Projectaanvraag](#project-request)
 * [Projectbeoordeling](#project-review)
 * [Portfolio optimaliseren](#portfolio-optimization)
-* [Bronplanning](#resource-planning)
+* [Bronbeheer](#resource-management)
 * [Uitvoering van project](#project-execution)
 * [Projectpost](#project-postmortem)
 
@@ -59,7 +63,7 @@ Voor meer informatie over het creëren van een bedrijfsgeval en een projectverzo
 
 Nadat u het projectverzoek indient, herziet de Manager van het Portfolio of een uitvoerend team het, en besluit of om het project goed te keuren. Als zij het project goedkeuren, wordt het project geselecteerd voor een Portfolio van het bedrijfProject.
 
-Voor meer informatie over portefeuilles, zie [ overzicht van het Portfolio in  [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md) voor meer informatie over het goedkeuren van een BedrijfsGeval, zie [ een BedrijfsGeval ](../../../manage-work/projects/define-a-business-case/approve-business-case.md) goedkeuren.
+Voor meer informatie over portefeuilles, zie [ overzicht van het Portfolio in  [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md). Voor meer informatie over het goedkeuren van een BedrijfsGeval, zie [ een BedrijfsGeval ](../../../manage-work/projects/define-a-business-case/approve-business-case.md) goedkeuren.
 
 ### Portfolio optimaliseren {#portfolio-optimization}
 
@@ -67,7 +71,7 @@ Na het toevoegen van alle projecten aan de portefeuille, optimaliseert de Manage
 
 Voor meer informatie over portefeuillestimalisatie, zie [ projecten in Portfolio optimaliseren ](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md).
 
-### Bronplanning {#resource-planning}
+### Bronbeheer {#resource-management}
 
 Samen met het optimaliseren van de prestaties van de portefeuille en het prioriteren van de projecten, zorgt de Manager van het Middel ervoor dat de juiste middelen aan de projecten worden toegewezen. Ze evalueren de beschikbaarheid en toewijzing van de bronnen met behulp van de hulpmiddelen voor hulpbronnenbeheer die beschikbaar zijn in [!DNL Workfront] .
 
@@ -79,7 +83,8 @@ Voor meer informatie over het Beheer van het Middel, zie [ middelen ](../../../r
 
 Na het ontvangen van de projectgoedkeuring van de Manager van het Portfolio en de bevestiging van de middelen van de Manager van het Middel, als Eigenaar van het Project, kunt u het project in de status van [!UICONTROL Current] plaatsen en uw gebruikers kunnen het werk beginnen om het project te voltooien. Wij adviseren dat u een basislijn van het project in deze fase vangt, om een verwijzingspunt voor het project, in zijn originele staat te hebben.
 
-Voor meer informatie over het beheren van projecten in [!DNL Workfront], zie [ projecten beheren: artikelindex ](../../../manage-work/projects/manage-projects/manage-projects-overview.md).\
+Voor meer informatie over het beheren van projecten in [!DNL Workfront], zie [ projecten beheren: artikelindex ](../../../manage-work/projects/manage-projects/manage-projects-overview.md).
+
 Voor meer informatie over het creëren van basislijnen op projecten, zie [ projectbasislijnen ](../../../manage-work/projects/create-projects/create-baselines.md) creëren.
 
 ### Projectpost {#project-postmortem}

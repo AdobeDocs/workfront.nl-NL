@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
 workflow-type: tm+mt
 source-wordcount: '3620'
 ht-degree: 0%
@@ -247,7 +247,7 @@ In alineasvelden wordt aanvullende alfanumerieke informatie over een record vast
 >
 >* U kunt maximaal 20 alineasvelden hebben voor één recordtype.
 >
->* De inhoud van een alinea-veld kan maximaal 100.000 tekens bevatten.
+>* De inhoud van een alinea-veld kan maximaal 10.000 tekens bevatten.
 >* U kunt RTF-opmaak gebruiken om de inhoud van alineasvelden te verbeteren wanneer deze worden weergegeven in de tabelweergave of op de pagina Details van een record. Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.
 >
 

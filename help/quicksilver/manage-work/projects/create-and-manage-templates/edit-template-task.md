@@ -7,16 +7,18 @@ description: Nadat u een sjabloon hebt gemaakt, kunt u informatie over de sjablo
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
 workflow-type: tm+mt
-source-wordcount: '2385'
+source-wordcount: '2409'
 ht-degree: 0%
 
 ---
 
 # Een sjabloontaak bewerken
 
-Nadat u een sjabloon hebt gemaakt, kunt u informatie over de sjabloontaken bewerken. De informatie u op een malplaatjetaak bijwerkt wordt geassocieerd met projecttaken nadat u het malplaatje gebruikt om een project tot stand te brengen of u het malplaatje aan een project vastmaakt.
+<!--Audited: 09/2024-->
+
+Nadat u een sjabloon hebt gemaakt, kunt u de informatie van de sjabloontaken bewerken. De informatie u op een malplaatjetaak bijwerkt wordt geassocieerd met projecttaken nadat u het malplaatje gebruikt om een project tot stand te brengen of u het malplaatje aan een project vastmaakt.
 
 Voor informatie over het creëren van een malplaatje, zie [ een projectmalplaatje ](../../../manage-work/projects/create-and-manage-templates/create-template.md) creëren.
 
@@ -28,6 +30,8 @@ U kunt de sjabloontaak bewerken of sjabloontaken bulksgewijs bewerken.
 
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -55,7 +59,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegangsniveau u hebt. Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vereisten
 
@@ -88,7 +94,7 @@ U kunt een sjabloontaak bewerken met de gebieden Sjabloontaak bewerken of Sjablo
 
    >[!TIP]
    >
-   >Voor informatie over alle gebieden die in het gebied van Details tonen, ga verder met het uitgeven van alle gebieden gebruikend het Edit de Taakvakje van het Malplaatje hieronder.
+   >Voor informatie over alle velden die in het gebied Details worden weergegeven, gaat u verder met het bewerken van alle velden via het vak Sjabloontaak bewerken, zoals hieronder wordt beschreven.
 
 1. (Voorwaardelijk) om alle informatie over de malplaatjetaak uit te geven, klik **Meer** menu ![](assets/qs-more-icon-on-an-object.png) naast de naam van de malplaatjetaak, dan klik **uitgeven**.
 
@@ -212,7 +218,7 @@ U kunt een sjabloontaak bewerken met de gebieden Sjabloontaak bewerken of Sjablo
 
 ### Financiën {#finance}
 
-1. Beginnen met het bewerken van een taak zoals hierboven beschreven.
+1. Beginnen met het bewerken van een sjabloontaak zoals hierboven beschreven.
 1. Klik **Financiën**.
 
    ![ edit_task_finance.png ](assets/edit-task-finance-350x216.png)
@@ -259,7 +265,7 @@ U kunt een sjabloontaak bewerken met de gebieden Sjabloontaak bewerken of Sjablo
 
 ### Instellingen {#settings}
 
-1. Beginnen met het bewerken van een taak zoals hierboven beschreven.
+1. Beginnen met het bewerken van een sjabloontaak zoals hierboven beschreven.
 1. Klik **Montages**.
 
    ![](assets/edit-template-tasks-settings-classic-350x231.png)
@@ -319,7 +325,7 @@ U kunt een sjabloontaak bewerken met de gebieden Sjabloontaak bewerken of Sjablo
 
 ### Toewijzingen {#assignments}
 
-1. Beginnen met het bewerken van een taak zoals hierboven beschreven.
+1. Beginnen met het bewerken van een sjabloontaak zoals hierboven beschreven.
 1. Klik **Taken**.
 
    ![ toewijzingen_edit_tasks.png ](assets/assignments-edit-tasks-350x87.png)
@@ -343,14 +349,22 @@ U kunt een sjabloontaak bewerken met de gebieden Sjabloontaak bewerken of Sjablo
 
 ### Aangepaste Forms {#custom-forms}
 
-U kunt aangepaste standaardformulieren definiëren die automatisch aan taken worden gekoppeld wanneer de taken aan een project worden toegevoegd. Voor informatie over vestiging het project om de vormen van de standaardtaakdouane te omvatten, zie de &quot;sectie van Taken&quot;in het artikel [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+U kunt aangepaste formulieren definiëren die automatisch aan taken worden gekoppeld wanneer de taken aan een project worden toegevoegd. Voor informatie over vestiging het project om de vormen van de standaardtaakdouane te omvatten, zie de &quot;sectie van Taken&quot;in het artikel [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
-1. Beginnen met het bewerken van een taak zoals hierboven beschreven. test
+U kunt ook aangepaste formulieren toevoegen aan de toekomstige taken van een project wanneer het project wordt gemaakt op basis van een sjabloon, door de aangepaste formulieren toe te voegen aan de sjabloontaken.
+
+1. Beginnen met het bewerken van een sjabloontaak zoals hierboven beschreven.
 1. Klik **Aangepaste Forms**.
 
    ![ custom_forms_edit_task.png ](assets/custom-forms-edit-task-350x136.png)
 
-1. Selecteer het aangepaste formulier of de formulieren die u aan de sjabloontaak wilt koppelen. U moet aangepaste formulieren maken voordat u ze in dit veld kunt selecteren. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Voor meer informatie over de bouw van douanevormen, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). U kunt maximaal tien aangepaste formulieren toevoegen aan een sjabloontaak. De formulieren worden automatisch toegevoegd aan de taken die op basis van de sjabloon worden gemaakt.
+1. Selecteer het aangepaste formulier of de formulieren die u aan de sjabloontaak wilt koppelen.
+
+   U moet aangepaste formulieren maken voordat u ze in dit veld kunt selecteren.
+Alleen actieve aangepaste formulieren worden in de lijst weergegeven.
+Voor meer informatie over de bouw van douanevormen, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+U kunt maximaal tien aangepaste formulieren toevoegen aan een sjabloontaak.
+De formulieren worden automatisch toegevoegd aan de taken die op basis van de sjabloon worden gemaakt.
 1. (Voorwaardelijk en optioneel) Als u een aangepast formulier aan de sjabloontaak hebt gekoppeld, bewerkt u alle velden op het formulier. U moet alle vereiste velden opgeven voordat u de sjabloontaak kunt opslaan.
 
    >[!NOTE]
@@ -368,14 +382,12 @@ U kunt aangepaste standaardformulieren definiëren die automatisch aan taken wor
 
 ### Opmerking {#comment}
 
-1. Beginnen met het bewerken van een taak zoals hierboven beschreven.
+1. Beginnen met het bewerken van een sjabloontaak zoals hierboven beschreven.
 1. Klik **Commentaar**.
 
    ![ comment_edit_task.png ](assets/comment-edit-task-350x138.png)
 
 1. Geef een opmerking op die u in de updatestream van de sjabloontaak wilt weergeven in het beschikbare veld. Deze opmerking is zichtbaar voor iedereen met Weergavetoegang tot de sjabloon en de sjabloontaak en met toegang tot weergavenotities.
 1. Klik **sparen Veranderingen**.
-
-   Uw wijzigingen worden verzonden voor deze sjabloontaak.
 
    Wanneer u of een andere gebruiker een project van dit malplaatje creeert, worden alle montages u op malplaatjetaken toepaste de montages voor de projecttaken.
