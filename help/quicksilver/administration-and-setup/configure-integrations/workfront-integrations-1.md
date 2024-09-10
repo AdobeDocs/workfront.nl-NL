@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: ac349d205d7526b03bebc497883f9ed1682191ad
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1244'
 ht-degree: 0%
 
 ---
@@ -101,6 +101,18 @@ Wij begrijpen dat de beschikbare ingebouwde (native) integratie mogelijk niet aa
      <p>Voor informatie en instructies, zie <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref"> de [!DNL Adobe Workfront] stop voor [!DNL Creative Cloud] Toepassingen </a> installeren</p> 
      </td>  <td> </td> 
    <td> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Adobe Experience Manager Assets en Assets Essentials </p>  </p> </td> 
+   <td> 
+    <ul> 
+     <li>Automatisch mappen maken die zijn gekoppeld tussen Workfront en Adobe Experience Manager 
+      <li>Metagegevens synchroniseren voor bestaande gekoppelde elementen</p></li>
+      <li>Werk automatisch de metagegevens van portfolio, programma, project, taak, uitgave en documenten bij wanneer deze worden gewijzigd in Workfront.</li>
+      <li>Maak vloeiend verbinding tussen verschillende Experience Manager Assets-opslagruimten en één Workfront-omgeving of verschillende Workfront-omgevingen met één Experience Manager Assets-opslagplaats via organisatie-id's</li></ul>
+     <p>Voor informatie en instructies, zie <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md" class="MCXref xref"> Overzicht van de integratie van Adobe Experience Manager Assets </a></p> 
+     </td>
+   <td><ul><li>Workfront moet zich in een Admin Console met een toegewezen organisatie-id bevinden.</li><li>Workfront en Experience Manager Assets of Assets Essentials moeten als product worden toegewezen aan de gebruiker die de integratie configureert.</li></ul></td>   <td> </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Box]</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 

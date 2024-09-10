@@ -6,9 +6,9 @@ description: De toegang tot van  [!DNL Workfront]  door Adobe Experience Cloud g
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: ca74ef02b83a76fad92d2bc8b1a9afc3927693ec
+source-git-commit: 84b63191d2f288b2c280a2634d551d89d594a9f6
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '513'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Als u [!DNL Workfront] tot en met [!DNL Adobe Experience Cloud] opent, hebt u een naadloze, uniforme ervaring voor het beheer van al uw [!DNL Adobe] -toepassingen. Met Single Identity Management kunt u zich op één locatie aanmelden, zonder meerdere URL&#39;s of aanmeldings-id&#39;s.
 
-Om te bepalen of uw organisatie op de Adobe Verenigde Ervaring is, onderzoek URL die u gebruikt om tot Workfront toegang te hebben.
+Als uw organisatie op de Adobe Verenigde Ervaring is, begint URL die u gebruikt om tot Workfront toegang te hebben met `experience.adobe.com`.
 
 | URL | Ervaring met Adobe |
 |------------|------------|
@@ -109,3 +109,4 @@ Als uw wachtwoord door [!DNL Adobe] wordt beheerd, kunt u het wachtwoord in uw r
 [ zie dit artikel voor het veranderen van uw wachtwoord van de Adobe.](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html) {target="_blank"}
 
 Neem contact op met de beheerder voor meer informatie over het wijzigen van het wachtwoord.
+

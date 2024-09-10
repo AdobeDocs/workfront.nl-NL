@@ -7,9 +7,9 @@ description: U kunt  [!DNL Adobe Workfront]  met derdetoepassingen integreren. D
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: ac349d205d7526b03bebc497883f9ed1682191ad
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,17 @@ De volgende ingebouwde integraties zijn momenteel beschikbaar in Workfront.
      </ul>
      <li><p>Download/installeer van <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref"> Adobe Exchange </a>.</p></li></ul>
      <p>Voor informatie en instructies, zie <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref"> de [!DNL Adobe Workfront] stop voor [!DNL Creative Cloud] Toepassingen </a> installeren.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Adobe Experience Manager Assets en Assets Essentials </p>  </p> </td> 
+   <td> 
+    <ul> 
+     <li>Automatisch mappen maken die zijn gekoppeld tussen Workfront en Adobe Experience Manager 
+      <li>Metagegevens synchroniseren voor bestaande gekoppelde elementen</p></li>
+      <li>Werk automatisch de metagegevens van portfolio, programma, project, taak, uitgave en documenten bij wanneer deze worden gewijzigd in Workfront.</li>
+      <li>Maak vloeiend verbinding tussen verschillende Experience Manager Assets-opslagruimten en één Workfront-omgeving of verschillende Workfront-omgevingen met één Experience Manager Assets-opslagplaats via organisatie-id's</li></ul>
+     <p>Voor informatie en instructies, zie <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md" class="MCXref xref"> Overzicht van de integratie van Adobe Experience Manager Assets </a></p> 
+     </td>
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Box</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 
@@ -142,7 +153,7 @@ De volgende ingebouwde integraties zijn momenteel beschikbaar in Workfront.
      <li>[!DNL Workfront] -meldingen ontvangen in [!DNL Slack] </li> 
      <li>Goedkeuringen beheren in Slack </li> 
      <li>[!DNL Workfront] taken en problemen maken vanuit [!DNL Slack] </li> 
-     <li>Post maakt opmerkingen over een project of taak van Slack</li> 
+     <li>Opmerkingen van Slack naar een project of taak verzenden</li> 
     </ul> </td> 
   </tr> 
   <tr> 

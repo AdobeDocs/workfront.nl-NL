@@ -3,21 +3,21 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
 title: Afzonderlijke onderliggende objecten herstellen
-description: In dit document wordt beschreven hoe u hulp kunt krijgen bij het herstellen van afzonderlijke onderliggende objecten die minder dan 30 dagen geleden zijn verwijderd uit uw Adobe Workfront Production- of Preview-omgeving.
+description: In dit artikel wordt beschreven hoe u hulp kunt krijgen bij het herstellen van afzonderlijke onderliggende objecten die minder dan 30 dagen geleden zijn verwijderd uit uw Adobe Workfront Production- of Preview-omgeving.
 feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: e2e4fbb7-5433-4d88-8e36-d82f4cc8a194
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '638'
 ht-degree: 0%
 
 ---
 
 # Afzonderlijke onderliggende objecten herstellen
 
-In dit document wordt beschreven hoe u hulp kunt krijgen bij het herstellen van afzonderlijke onderliggende objecten die minder dan 30 dagen geleden zijn verwijderd uit uw Adobe Workfront Production- of Preview-omgeving.
+In dit artikel wordt beschreven hoe u hulp kunt krijgen bij het herstellen van afzonderlijke onderliggende objecten die minder dan 30 dagen geleden zijn verwijderd uit uw Adobe Workfront Production- of Preview-omgeving.
 
 Een beheerder van Workfront kan projecten, taken, kwesties, en documenten in elke instantie van Workfront herstellen, zoals die in [ wordt beschreven herstelt geschrapte punten ](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md). Maar alleen het Workfront-databaseteam kan objecten zoals taken, uitgaven, documenten, aangepaste formulieren, uren en notities, onafhankelijk van het bovenliggende object herstellen.
 
@@ -42,6 +42,39 @@ Voor meer informatie over de vensters van onderhoud voor het milieu van Sandbox 
 >[!IMPORTANT]
 >
 >Documenten vormen een uitzondering op deze herstelmethoden. U kunt ze handmatig downloaden vanuit de voorvertoningsomgeving en ze opnieuw uploaden naar de productieomgeving. Als u documenten bulksgewijs wilt downloaden en uploaden, moet u Workfront om gegevensherstel vragen.
+
+## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td>Alle</td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td><p>Nieuw: Standaard</p>
+       <p>of</p>
+       <p>Huidig: Plan</p></td>
+  </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td>[!UICONTROL System Administrator]</td>
+  </tr> 
+ </tbody> 
+</table>
+
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Informatie nodig voor het terugzetten van gegevens
 
