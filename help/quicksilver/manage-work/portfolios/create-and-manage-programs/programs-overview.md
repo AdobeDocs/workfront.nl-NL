@@ -6,7 +6,7 @@ title: Overzicht van programma's in  [!DNL Adobe Workfront]
 description: Een programma is een inzameling van projecten die verenigende kenmerken hebben. Deze projecten concurreren doorgaans met dezelfde middelen, hetzelfde budget of dezelfde tijd. Programma's zijn een subgroep van portefeuilles. U kunt projecten aan programma's associëren alvorens zij aan een portefeuille worden toegevoegd.
 author: Alina
 feature: Work Management, Strategic Planning
-source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%
@@ -34,12 +34,12 @@ U moet de volgende toegang hebben om portfolio&#39;s te maken en te beheren:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>Nieuw: alle</p>
-   <p>Huidig:[!UICONTROL Business] of hoger</p> </td> 
+   <p>Huidig: [!UICONTROL Business] of hoger</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
    <td> <p>Nieuw: [!UICONTROL Standard]</p>
-   <p>Huidig:[!UICONTROL Plan] </p> </td> 
+   <p>Huidig: [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 

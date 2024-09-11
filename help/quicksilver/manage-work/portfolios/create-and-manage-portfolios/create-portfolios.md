@@ -6,9 +6,9 @@ description: Een Portfolio is een verzameling projecten die met dezelfde middele
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,7 @@ U kunt Portfolio&#39;s gebruiken om projecten te groeperen die tot de zelfde pro
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Nieuw: alle</p>
-   <p>Huidig:[!UICONTROL Business] of hoger</p> </td> 
+   <td> <p>Alle</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
@@ -53,6 +52,27 @@ U kunt Portfolio&#39;s gebruiken om projecten te groeperen die tot de zelfde pro
 *For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+## Manieren om portfolio&#39;s te maken
+
+U kunt op een van de volgende manieren een portfolio&#39;s maken in Workfront:
+
+* Maak een geheel nieuw portfolio, te beginnen in het gedeelte Portfolio&#39;s van het hoofdmenu. In dit artikel wordt beschreven hoe u een geheel nieuw portfolio kunt maken.
+
+* Importeer een portfolio met de functie voor het starten.
+
+  Als Workfront-beheerder kunt u portfolio&#39;s importeren met behulp van een trap-start.
+
+  Voor informatie over het invoeren van gegevens gebruikend schop-begin in Workfront, zie [ Gegevens van de Invoer in Adobe Workfront gebruikend een Kick-Begin malplaatje ](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+
+* Voeg portefeuilles toe aangezien u hen van een verslagtype in de Planning van Workfront verbindt.
+
+  U moet een nieuwe Workfront-licentie en een extra Workfront Planning-licentie voor Workfront Planning hebben.
+
+  Voor informatie over toegang tot de Planning van Workfront, zie [ Overzicht van de Toegang ](/help/quicksilver/planning/access/access-overview.md).
+
+  Voor informatie over het creëren van portefeuilles door hen aan verslagen toe te voegen, zie de sectie &quot;verslagen tot stand brengen aangezien u hen&quot;in artikel [ verbindt tot verslagen ](/help/quicksilver/planning/records/create-records.md).
+
 
 ## Een portfolio maken
 

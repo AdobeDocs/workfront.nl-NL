@@ -6,9 +6,9 @@ description: U kunt een project uit een portfolio verwijderen en dit koppelen aa
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 8982097e-76ee-497a-aa7c-74c6fbd3002d
-source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '208'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,8 @@ U kunt ook projecten uit een portfolio verwijderen, zodat deze ook uit [!DNL Ado
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Nieuw: alle</p>
-   <p>Huidig: [!UICONTROL Business] of hoger</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 

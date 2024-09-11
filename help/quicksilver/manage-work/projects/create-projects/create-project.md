@@ -6,9 +6,9 @@ description: Een project is een grote eenheid werk in Adobe Workfront. U kunt ge
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1295'
 ht-degree: 0%
 
 ---
@@ -112,7 +112,22 @@ U kunt een project in Workfront tot stand brengen gebruikend één van de volgen
 
   Voor informatie over het invoeren van projecten die schoppen-begin gebruiken, zie [ Kick-Begint scenario: het eenvoudige project en de voorbereiding van de taakinvoer ](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
 
-* Publish een initiatief uit een scenario in de Adobe Workfront Scenario Planner. Voor de Scenario Planner is een aanvullende licentie vereist. Voor informatie over de Planner van het Scenario van Workfront, zie [ het overzicht van de Planner van het Scenario ](../../../scenario-planner/scenario-planner-overview.md). Voor informatie over het creëren van projecten van het publiceren initiatieven, zie [ Update of creeer projecten door initiatieven in de Planner van het Scenario te publiceren ](../../../scenario-planner/publish-scenarios-update-projects.md).
+* Publish een initiatief uit een scenario in de Adobe Workfront Scenario Planner.
+
+  Voor de functie Scenario Planner is een van de volgende opties vereist:
+
+   * Een aanvullende licentie voor de huidige Workfront-licentiestructuur.
+   * Een ultieme licentie voor de nieuwe Workfront-licentiestructuur.
+
+  Voor informatie over de Planner van het Scenario van Workfront, zie [ het overzicht van de Planner van het Scenario ](../../../scenario-planner/scenario-planner-overview.md). Voor informatie over het creëren van projecten van het publiceren initiatieven, zie [ Update of creeer projecten door initiatieven in de Planner van het Scenario te publiceren ](../../../scenario-planner/publish-scenarios-update-projects.md).
+
+* Voeg projecten toe aangezien u hen van een verslagtype in de Planning van Workfront verbindt. U kunt slechts projecten zonder malplaatjes van de Planning van Workfront tot stand brengen.
+
+  U moet een nieuwe Workfront-licentie en een extra Workfront Planning-licentie voor Workfront Planning hebben.
+
+  Voor informatie over toegang tot de Planning van Workfront, zie [ Overzicht van de Toegang ](/help/quicksilver/planning/access/access-overview.md).
+
+  Voor informatie over het creëren van projecten door hen aan verslagen toe te voegen, zie de sectie &quot;verslagen tot stand brengen aangezien u hen&quot;in artikel [ verbindt creeert verslagen ](/help/quicksilver/planning/records/create-records.md).
 
 ## Vereisten
 

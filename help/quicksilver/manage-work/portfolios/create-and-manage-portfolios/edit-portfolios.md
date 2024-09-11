@@ -6,9 +6,9 @@ description: U kunt gegevens bewerken over portfolio's die u hebt gemaakt of die
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '928'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,8 @@ U kunt een [!UICONTROL portfolio] in de portfoliopagina bewerken of portfolio&#3
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Nieuw: alle</p>
-   <p>Huidig:[!UICONTROL Business] of hoger</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Alle</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe [!DNL Workfront] licenties*</td> 

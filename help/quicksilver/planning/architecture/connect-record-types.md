@@ -6,15 +6,17 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 969f7c609afcc0029fa9ba054de113904a10917b
 workflow-type: tm+mt
-source-wordcount: '2135'
+source-wordcount: '2197'
 ht-degree: 0%
 
 ---
 
 
 # Verbind recordtypen
+
+<span class="preview"> de informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Sandbox van de Voorproef.</span>
 
 {{planning-important-intro}}
 
@@ -183,8 +185,7 @@ U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
 
    * Een ander recordtype uit de geselecteerde werkruimte
 
-     ![](assets/new-connection-tab-fields-with-another-record-selected.png)
-
+     <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
      >[!TIP]
      >
      > 
@@ -193,7 +194,7 @@ U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
 
    * Een recordtype van een andere werkruimte die werd gevormd om van andere werkruimten te verbinden. Voor informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/edit-record-types.md) uitgeven.
 
-     ![](assets/connect-record-from-another-workspace-new-connection-tab.png)
+     <span class="preview">![](assets/new-connection-allow-multiple-records-box.png)</span>
 
      >[!TIP]
      >
@@ -206,7 +207,7 @@ U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
 
    * **Experience Manager Assets** van de **sectie van de Toepassingen van de Adobe**.
 
-     ![](assets/aem-assets-connection-selection.png)
+     <span class="preview">![](assets/aem-assets-connection-selection.png)</span>
 
 1. Werk de volgende gegevens bij:
 
@@ -221,7 +222,7 @@ U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
 
      Deze optie is alleen beschikbaar wanneer u records verbindt vanuit twee verschillende werkruimten of een record en een Adobe Experience Manager-asset-object.
 
-     ![](assets/new-connection-allow-multiple-records-box.png)
+     <span class="preview">![](assets/new-connection-allow-multiple-records-box.png)</span>
 
    * **het type van Verbinding**: Selecteer één van de volgende opties om erop te wijzen hoeveel verslagen zij met en van kunnen verbinden:
 
@@ -232,7 +233,7 @@ U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
 
      Deze optie is alleen beschikbaar wanneer u records verbindt vanuit dezelfde werkruimte of een record en een Workfront-objecttype.
 
-     ![](assets/many-to-many-connection-picker.png)
+     <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
 
      Voor meer informatie over verbindingstypes, zie [ Verbonden overzicht van verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
@@ -259,13 +260,21 @@ U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
    >
    >Uw Workfront-beheerder kan Workfront-planningsvelden toewijzen aan Experience Manager Assets-velden via de metagegevenstoewijzing in Workfront. Voor meer informatie, zie [ activa meta-gegevensafbeelding tussen Adobe Workfront en Experience Manager Assets ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en) vormen.
 
-1. (Voorwaardelijk) als u selecteerde om met Experience Manager Assets of met een het verslagtype van de Planning van Workfront te verbinden, schrap de **knevel van de Titel** in het **verschijning van het Verslag** gebied, als u niet de titel van verbonden verslagen of activa op het verbonden gebied wilt tonen. Als deze optie is uitgeschakeld, worden alleen de miniaturen van records weergegeven in de gekoppelde velden. Records zonder miniatuurafbeelding geven in plaats daarvan een afbeeldingspictogram weer. De schakeloptie is standaard geselecteerd. Een voorbeeld van hoe de verbonden verslagen in het **vormgeving van het Verslag** gebied zullen tonen.
+1. (Voorwaardelijk) als u selecteerde om met Experience Manager Assets of met een het verslagtype van de Planning van Workfront te verbinden, selecteer één van de volgende opties op het **vormgeving van het Verslag** gebied:
+
+   * <span class="preview">**Naam en beeld**: Zowel zullen de naam als de duimnagel of het pictogram van de verbonden verslagen op het verbonden verslaggebied tonen. Dit is de standaardoptie. </span>
+   * <span class="preview">**Naam**: Slechts zal de naam van de verbonden verslagen op het verbonden verslaggebied tonen.</span>
+   * <span class="preview">**Beeld**: Slechts zullen de duimnagel of het pictogram van de verbonden verslagen op het verbonden verslaggebied tonen.</span>
+
+   Records zonder miniatuurafbeelding geven in plaats daarvan het pictogram voor het recordtype weer. Een voorbeeld van hoe de verbonden verslagen in het **vormgeving van het Verslag** gebied zullen tonen.
 
    >[!TIP]
    >
    >    Wanneer u meerdere records toestaat om te worden gekoppeld, bespaart de weergave van alleen de miniatuur ruimte in kleinere gebieden, zoals in recordweergaven.
    >
-   >De titel van een record is het primaire veld van de record. Voor meer informatie, zie [ Primair gebiedsoverzicht ](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >De naam van een record is het primaire veld in de record. Voor meer informatie, zie [ Primair gebiedsoverzicht ](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >
+   >Een recordweergave selecteren is niet beschikbaar wanneer u Workfront-objecttypen selecteert.
 
 1. Klik **creëren**.
 
@@ -286,7 +295,7 @@ U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
    >    Iedereen met Weergave of hogere machtigingen voor de werkruimte kan de informatie in de gekoppelde velden weergeven, ongeacht de machtigingen of het toegangsniveau in de toepassing van de gekoppelde objecttypen.
 
 
-1. (Facultatief) klik **Overslaan** om het toevoegen van gebieden van het verbonden verslag of objecten type over te slaan. De **Naam** of de **Titel** van het verbonden verslag is het enige zichtbare gebied in de lijstmening van het verslagtype u van verbindt.
+1. (Facultatief) klik **Overslaan** om het toevoegen van gebieden van het verbonden verslag of objecten type over te slaan. De naam of het primaire veld van de gekoppelde record is het enige zichtbare veld in de tabelweergave van het recordtype waarmee u verbinding maakt.
 
 1. (Optioneel en voorwaardelijk) Als u een getal, valuta, percentage of datumveld wilt koppelen, selecteert u ook een aggregatorwaarde om meerdere waarden samen te vatten. De waarden voor de gekoppelde velden worden gescheiden door komma&#39;s of als een samengevatte waarde weergegeven volgens de door u gekozen aggregator, wanneer gebruikers meer dan één gekoppelde record selecteren in het veld voor gekoppelde records.
 

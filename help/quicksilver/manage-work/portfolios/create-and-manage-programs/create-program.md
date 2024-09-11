@@ -6,9 +6,9 @@ description: Een programma vertegenwoordigt een inzameling van projecten die een
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1118'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,18 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+## Manieren om programma&#39;s te maken
+
+U kunt in Workfront een programma maken met een van de volgende methoden:
+
+* Maak een geheel nieuw programma dat begint in het gedeelte Programma&#39;s van het hoofdmenu of in de sectie Programma&#39;s van een portfolio. In dit artikel wordt beschreven hoe u een geheel nieuw programma kunt maken.
+
+* Importeer een programma met de functie voor het starten van een toepassing.
+
+  Als Workfront-beheerder kunt u programma&#39;s importeren met behulp van een startfunctie.
+
+  Voor informatie over het invoeren van gegevens gebruikend schop-begin in Workfront, zie [ Gegevens van de Invoer in Adobe Workfront gebruikend een Kick-Begin malplaatje ](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
 ## Een programma maken
 
