@@ -5,18 +5,26 @@ author: Courtney
 draft: Probably
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 35c80f6a-419b-4237-8139-f59ab7bbd5c7
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: dd8718b00a310bee6caa13db7644b86174b476f4
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
+
 
 # Elementen en mappen koppelen met de verbeterde aansluiting
 
 U kunt een middel of een omslag van Experience Manager Assets aan om het even welk voorwerp van Workfront verbinden dat documenten steunt. Assets die vanuit Experience Manager Assets wordt verzonden, telt niet mee voor uw totale documentopslag in Workfront. Documenten die van Workfront naar Experience Manager Assets zijn geüpload en verzonden, tellen wel mee voor de totale opslag.
 
+
+>[!NOTE]
+>
+>Excel-bestanden die via de verbeterde aansluiting zijn gekoppeld, kunnen niet worden voorvertoond in Workfront. U moet het bestand downloaden om het te kunnen openen.
+
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -30,7 +38,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Aanvraag of hoger</p> </td> 
+   <td> <p>Huidig: Verzoek of hoger</p> 
+   of
+   <p>Nieuw: Medewerker of hoger</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
@@ -48,6 +58,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 &#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
++++
 
 ## Vereisten
 
