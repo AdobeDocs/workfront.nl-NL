@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 0c37044aaffbe6ebb22af3877c93d5c65d40de98
+source-git-commit: 57c08a06a57bebfaa81035e4fe801f3077e6a829
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1588'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,9 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
 * [Verbeteringen voor integratie](#integration-enhancements)
 * [Projectverbeteringen](#project-enhancements)
 * [Verbeteringen voor proefdrukken](#proofing-enhancements)
+* [Verbeteringen voor rapport en dashboard](#report-and-dashboard-enhancements)
 * [Andere verbeteringen](#other-enhancements)
+
 
 ### Beheerdersverbeteringen
 
@@ -259,6 +261,39 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
                                 <p><span class="preview">Productieversie voor alle afnemers: 29 augustus 2024</span></p>
                             </li>
                         </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
+### Verbeteringen voor rapport en dashboard
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold"> Eigenschap </span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold"> de data van de Versie </span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}"> de Gegevens van Workfront verbinden beschikbaar voor nieuwe plannen </a></p>
+                        <p>Workfront Data Connect wordt beschikbaar voor organisaties op een van de nieuwe Workfront-plannen. Met Data Connect hebben organisaties toegang tot hun gegevens als een beveiligd en schaalbaar gegevenspeer, dat kan worden geanalyseerd en weergegeven met behulp van zakelijke intelligentiegereedschappen of extern kan worden opgeslagen. Bovendien kunnen organisaties Data Connect gebruiken om gegevensanalyses weer te geven die voorheen niet beschikbaar waren, zoals tijdgebaseerde trendanalyse, variabele mapping en analyse van externe systeemgegevens in combinatie met Workfront-gegevens.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p><span class="preview">Productieversie voor alle klanten: met de release van 24.10 (oktober 2024)</span></p>
+                            </li>
+                        </ul>
+                        <p><i>Alleen beschikbaar voor organisaties op een van de nieuwe Adobe Workfront-plannen. Gegevens verbinden is opgenomen in het Ultimate-abonnement of kan worden aangeschaft als een invoegtoepassing voor de Premier- en Select-plannen.</i></p>
                     </td>
                 </tr>
            </tbody>
