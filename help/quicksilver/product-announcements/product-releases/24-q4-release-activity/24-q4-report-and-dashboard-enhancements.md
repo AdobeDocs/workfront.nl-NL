@@ -4,9 +4,9 @@ description: Rapport en verbeteringen van dashboard voor vierde kwartaal 2024
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 57c08a06a57bebfaa81035e4fe801f3077e6a829
+source-git-commit: 2c6d01d009e3dc09b65d7c414e1a3d8536d384e0
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -27,4 +27,4 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwar
 
 Workfront Data Connect wordt beschikbaar voor klanten met een van de nieuwe Workfront-plannen. Met Data Connect hebben organisaties toegang tot hun gegevens als een beveiligd en schaalbaar gegevenspeer, dat kan worden geanalyseerd en weergegeven met behulp van zakelijke intelligentiegereedschappen of extern kan worden opgeslagen. Bovendien kunnen organisaties Data Connect gebruiken om gegevensanalyses weer te geven die voorheen niet beschikbaar waren, zoals tijdgebaseerde trendanalyse, variabele mapping en analyse van externe systeemgegevens in combinatie met Workfront-gegevens.
 
-Neem contact op met uw accountvertegenwoordiger voor meer informatie over uw huidige Adobe Workfront-abonnement en hoe u invoegtoepassingen kunt kopen. Voor meer informatie over de Gegevens van Workfront verbinden, zie [ overzicht van de Vorm van de Douane ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).
+Neem contact op met uw accountvertegenwoordiger voor meer informatie over uw huidige Adobe Workfront-abonnement en hoe u invoegtoepassingen kunt kopen. Voor meer informatie over de Gegevens van Workfront verbinden, zie [ Gegevens van Workfront verbinden overzicht ](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).

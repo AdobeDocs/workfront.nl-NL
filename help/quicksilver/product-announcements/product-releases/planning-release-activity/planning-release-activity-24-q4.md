@@ -1,18 +1,18 @@
 ---
 content-type: release-notes
-title: "Adobe Workfront Planning Release Activity for the 24.10 Release"
+title: Adobe Workfront Planning Release Activity for the 24.10 Release
 description: Dit is de versieactiviteit voor het product van de Planning van Adobe Workfront voor het Vierde Kwartaal van 2024.
 author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 95726a46a0f18353cfee67b69cc94d39d85f111f
+exl-id: d27f937b-e179-4f67-aebd-ed351440cb0f
+source-git-commit: 2c6d01d009e3dc09b65d7c414e1a3d8536d384e0
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
-
 
 # Vierde kwartaal 2024 publicatieactiviteit voor Adobe Workfront Planning
 
@@ -37,6 +37,22 @@ Voor informatie over eigenschappen inbegrepen in deze versie, zie [ de versieact
 <!--remove the general activity mention after fourth quarter 2024 is released-->
 
 Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront na de algemene beschikbaarheidsversie op 28 augustus, 2024 worden vrijgegeven, zie [ de versieactiviteit van de Planning van Adobe Workfront: artikelindex ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Weergaveopties voor verbonden records
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 9 september 2024; Productieversie voor alle klanten: met de release van 24.10 (oktober 2024)
+
+We hebben het weergavegebied Opnemen opnieuw ontworpen wanneer we recordtypen verbinden. Wanneer u nu bepaalt hoe de verbonden records in de verbonden velden worden weergegeven, kunt u een van de volgende opties selecteren:
+
+* Naam
+* Naam en afbeelding
+* Afbeelding
+
+Vóór deze verbetering, kon u of deselecteren de knevel van de Titel om de naam van de verslagen te tonen of enkel het pictogram of de duimnagel te tonen. De schakeloptie Titel is verwijderd.
+
+Voor meer informatie, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ## Recorddetails exporteren naar PDF
 
@@ -67,4 +83,3 @@ Hieronder vindt u een aantal van de belangrijkste mogelijkheden van Adobe Workfr
 * Verbind met objecten types van andere systemen, die tot een samenhangend kader voor al uw processen leiden.
 
 Voor meer informatie over de Planning van Workfront, zie [ het Overzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
-
