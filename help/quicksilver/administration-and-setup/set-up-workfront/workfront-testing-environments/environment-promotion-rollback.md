@@ -9,16 +9,17 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 84a72ab4547a582707351948052fdd59cc57a9d5
+exl-id: 70f7e2a8-bb27-4546-afb7-53e0eec30bf1
+source-git-commit: 7e15301dae4b761d19c85a3581bfdb4540ed40fd
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
 
 # Een milieubevorderingspakket terugdraaien
 
-<span class="preview"> de informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Sandbox van de Voorproef.</span>
+
 
 Nadat u een pakket hebt geïnstalleerd, kunt u het terugdraaien. Hiermee verwijdert u de wijzigingen die het pakket in de doelomgeving heeft aangebracht en herstelt u de betrokken objecten in hun vorige configuraties.
 
@@ -86,10 +87,3 @@ Om te weten of een specifieke pakketplaatsing kan worden teruggedraaid, overweeg
 
 1. (Optioneel) In het gedeelte Voorvertoning terugdraaien kunt u de wijzigingen bekijken die optreden wanneer de implementatie wordt teruggedraaid.
 1. Klik **Terugrol** in de hoger-juiste hoek van het scherm.
-
-
-
-
-
-
-
