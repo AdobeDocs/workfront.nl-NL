@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 5138321543175cac3e51cc21c8309cbefd8bc1e8
+source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Voor een lijst van alle veranderingen beschikbaar met het Vierde Kwartaal 2024 v
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 18 juli 2024; productie voor snelle release: met de release van 24.9 (september 2024); productie voor driemaandelijkse release: met de release van 24.10 (oktober 2024)
+>Voorvertoningsrelease: 18 juli 2024; productie voor snelle release: met de release van 24.9 (12 september 2024); productie voor driemaandelijkse release: met de release van 24.10 (oktober 2024)
 
 We hebben de pagina Setup > System > Preferences bijgewerkt naar een modern ontwerp dat aansluit bij andere gebieden van Workfront.
 

@@ -4,9 +4,10 @@ description: Verbeteringen beheerder vierde kwartaal 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 95726a46a0f18353cfee67b69cc94d39d85f111f
+exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
+source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
@@ -38,6 +39,8 @@ Om de bevordering van het milieu flexibeler en gemakkelijker te gebruiken te mak
 Eerder, zouden de configuraties manueel, of door een ander milieubevorderingspakket worden hersteld.
 
 Voor meer informatie bij het terugrollen van een pakket van de milieubevordering, zie [ Terugschroeven van een pakket van de milieubevordering ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-rollback.md).
+
+[ Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3434025/){target=_blank}
 
 ## Met de knop Indeling in de aangepaste formulierontwerper zijn twee of drie kolommen mogelijk
 

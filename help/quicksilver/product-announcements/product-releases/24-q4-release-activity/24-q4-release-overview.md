@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 57c08a06a57bebfaa81035e4fe801f3077e6a829
+source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
 workflow-type: tm+mt
-source-wordcount: '1588'
+source-wordcount: '1606'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
 * [Verbeteringen voor proefdrukken](#proofing-enhancements)
 * [Verbeteringen voor rapport en dashboard](#report-and-dashboard-enhancements)
 * [Andere verbeteringen](#other-enhancements)
-
+* [Functionaliteit die binnenkort uit Workfront wordt verwijderd](#functionality-soon-to-be-removed-from-workfront)
 
 ### Beheerdersverbeteringen
 
@@ -78,6 +78,7 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}"> het milieu bevorderingspakketten van de Terugdraaiing </a></p>
+                        [!BADGE in productie voor Snelle Versie ]{type=Positive}
                         <p>Om de bevordering van het milieu flexibeler en gemakkelijker te gebruiken te maken, hebben wij terugschroeven van prijzen functionaliteit toegelaten. Nu kunt u pakketten binnen 24 uur terugdraaien, zodat u eerdere configuraties die zijn beïnvloed door een milieubevorderingspakket eenvoudiger kunt herstellen.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -192,7 +193,7 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}"> relevantere slimme taken </a></p>
-                        [!BADGE in productie ]{type=Informative}
+                        [!BADGE in productie voor Snelle Versie ]{type=Positive}
                         <p>We hebben het algoritme gewijzigd dat Workfront gebruikt om slimme toewijzingen voor taken te berekenen en voor te stellen. Het nieuwe algoritme is van toepassing op de volgende gebieden in Workfront waar u een taak toewijst: taaklijsten, het gebied van Toewijzingen in de taakkopbal, Huis, en het Summiere paneel.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -362,6 +363,14 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
            </tbody>
         </table>
 
+### Functionaliteit die binnenkort uit Workfront wordt verwijderd
+
+De volgende functionaliteit wordt binnenkort verwijderd uit Workfront:
+
+#### Veroudering van de oudere Home-ervaring met 24.10
+
+Met de release van 24.10 zullen we de oude Home-ervaringen officieel verouderd hebben. Gebruikers wordt aangeraden om nieuwe introducties te gebruiken. Deze worden dan nog steeds uitgebreid met extra functies voordat de site wordt vervangen. Voor meer informatie over de overgang, met inbegrip van advies over wat de gebruikers en de beheerders kunnen doen om voor te bereiden, zie {de Verouderde gids van het Huis van de Verouderde ](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).[
+
 ## Aankondigingen
 
 ### Workfront Fusion-verbeteringen
@@ -399,11 +408,3 @@ Voor informatie over de onderhoudsupdates die tijdens de Vierde Versie van het K
 ### Training-updates
 
 Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Tutorials van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html) Nieuw is.
-
-### Functionaliteit die binnenkort uit Workfront wordt verwijderd
-
-De volgende functionaliteit wordt binnenkort verwijderd uit Workfront:
-
-#### Veroudering van de oudere Home-ervaring met 24.10
-
-Met de release van 24.10 zullen we de oude Home-ervaringen officieel verouderd hebben. Gebruikers wordt aangeraden om nieuwe introducties te gebruiken. Deze worden dan nog steeds uitgebreid met extra functies voordat de site wordt vervangen. Voor meer informatie over de overgang, met inbegrip van advies over wat de gebruikers en de beheerders kunnen doen om voor te bereiden, zie {de Verouderde gids van het Huis van de Verouderde ](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).[
