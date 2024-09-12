@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Als beheerder van Adobe Workfront, kunt u gebruiker-veranderingen volgen die in het systeem tijdens de afgelopen 90 dagen worden teweeggebracht gebruikend controlelogboeken.
-author: Lisa
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1530'
 ht-degree: 0%
 
 ---
@@ -65,10 +65,11 @@ De volgende gebieden worden geregistreerd in elke ingang van het controlelogboek
 ## Controlelogbestandstypen en de acties die deze activeren
 
 * [ Niveau van de Toegang ](#access-level)
+* [Zakelijke regels](#business-rules)
 * [ Bedrijf ](#company)
 * [ Voorwaarde ](#condition)
 * [ Douane Gebied ](#custom-field)
-* [ Aangepaste Forms ](#custom-forms)
+* [ Vorm van de Douane ](#custom-forms)
 * [ Sectie van de Douane ](#custom-section)
 * [ Wisselkoers ](#exchange-rate)
 * [ Groep ](#group)
@@ -97,6 +98,21 @@ Het systeem produceert een het logboekingang van het Niveau van de Toegang wanne
      >Het systeem registreert geen toestemmingsveranderingen in Financiële Gegevens of binnen de volgende toegangstypes: Mening en geeft uit.
      >
      >Als een gebruiker bijvoorbeeld het toegangstype Planner wijzigt van Weergave in Bewerken, geeft het systeem geen informatie weer die in het vervolgkeuzemenu Instellingen nauwkeurig instellen staat.
+
+### Zakelijke regels
+
+Zakelijke regels zijn alleen beschikbaar voor klanten die een Ultimate Workfront-abonnement hebben aangeschaft. Voor meer informatie, zie [ bedrijfsregels ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md) creëren en uitgeven.
+
+Het systeem produceert een ingang van het de controlelogboek van de BedrijfsRegel wanneer een gebruiker één van het volgende doet:
+
+* Creeert een bedrijfsregel
+* Bewerkt een bedrijfsregel:
+
+   * Wijzigt de naam
+   * Expressies toevoegen of verwijderen
+   * Hiermee wordt een trigger gewijzigd
+
+* Verwijdert een bedrijfsregel
 
 ### Bedrijf {#company}
 
@@ -160,7 +176,7 @@ Het systeem genereert een controlelogbestandvermelding Aangepast veld wanneer ee
 * Hiermee verwijdert u een aangepast veld
 * Deelt een aangepast veld
 
-### Aangepaste Forms {#custom-forms}
+### Aangepast formulier {#custom-form}
 
 Het systeem genereert een aangepaste Forms-controlelogbestandvermelding wanneer een gebruiker een van de volgende handelingen uitvoert:
 

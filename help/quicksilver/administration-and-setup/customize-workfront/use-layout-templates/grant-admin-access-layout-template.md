@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 066a55ef-1904-4678-8866-c59428f78bc1
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -40,15 +40,20 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td><p>Nieuw: Standaard</p>
+  <p> Huidig: Plan</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td><p>Het toegangsniveau van de Beheerder van het Systeem</p><p><b> NOTA </b>: Als u nog geen toegang hebt, vraag uw beheerder van Workfront als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td> <p>Om deze stappen op systeemniveau uit te voeren, hebt u het toegangsniveau van de Beheerder van het Systeem nodig.
+Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,4 +71,4 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >   
    >* Als u geen administratieve toegang tot de groepsbeheerders in een bepaalde groep verleent, hebben alle gebruikers die gebruikersrekeningen kunnen uitgeven administratieve toegang tot het lay-outmalplaatje. Sommige Workfront-beheerders geven bewust geen beheertoegang voor een lay-outsjabloon om er een lay-outsjabloon op systeemniveau van te maken.
 
-1. U kunt op elk gewenst moment op Opslaan klikken om de voortgang op te slaan en de sjabloon later blijven wijzigen.
+1. U kunt **klikken sparen** op elk ogenblik om uw vooruitgang te bewaren, dan blijven het malplaatje later wijzigen.

@@ -7,9 +7,9 @@ description: U kunt een abonnement dat u hebt gemaakt in de Adobe Workfront Scen
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: b8bbb533-4384-414c-8574-4e137962b8ca
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '879'
 ht-degree: 0%
 
 ---
@@ -34,8 +34,10 @@ U kunt een abonnement in de [!DNL Adobe Workfront Scenario Planner] delen met an
  <tbody> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
-   <td> <p>Huidig: [!UICONTROL Business] of hoger</p>
-   <p>Nieuw: Ultimate </p>
+   <td> <ul></li>
+   <li><p>Nieuw: Ultimate </p></li>
+   <p>Het Scenario-abonnement is niet beschikbaar voor het nieuwe Workfront Select- of Workfront-abonnement. </p>
+   <li><p>Huidig: [!UICONTROL Business] of hoger</p></ul>
    </td> 
   </tr> 
   <tr> 
@@ -45,9 +47,11 @@ U kunt een abonnement in de [!DNL Adobe Workfront Scenario Planner] delen met an
   </tr> 
   <tr> 
    <td>Product* </td> 
-   <td> 
-   <p>Voor de huidige plannen van Workfront: </p>
-   <p>U moet een extra licentie voor de [!DNL Adobe Workfront Scenario Planner] aanschaffen om toegang te krijgen tot de functionaliteit die in dit artikel wordt beschreven.</p> <p>Voor informatie over toegang en toestemmingen voor [!DNL Workfront Scenario Planner], zie <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref"> Toegang nodig om [!DNL Scenario Planner]</a> te gebruiken. </p> </td> 
+   <td> <ul><li><p>Voor de nieuwe plannen van Workfront:</p><p> Adobe Workfront</li></p>
+   <li><p>Voor de huidige plannen van Workfront: </p>
+   <p>Adobe Workfront</p> <p>Adobe Workfront Scenario Planner</p></li></ul>
+
+<p>Voor meer informatie, zie <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref"> Toegang nodig om [!DNL Scenario Planner]</a> te gebruiken. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Toegangsniveau </td> 

@@ -6,9 +6,9 @@ description: Nadat u projecten en initiatieven verbindt, kunt u hun middeltoewij
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 77152e46-0b7b-4937-9d16-1a20c2a7fdf1
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '639'
 ht-degree: 0%
 
 ---
@@ -33,8 +33,10 @@ Voor algemene informatie over het verzoenen van middelen tussen projecten en ini
  <tbody> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
-   <td> <p>Huidig: [!UICONTROL Business] of hoger</p>
-   <p>Nieuw: Ultimate </p>
+   <td> <ul></li>
+   <li><p>Nieuw: Ultimate </p></li>
+   <p>Het Scenario-abonnement is niet beschikbaar voor het nieuwe Workfront Select- of Workfront-abonnement. </p>
+   <li><p>Huidig: [!UICONTROL Business] of hoger</p></ul>
    </td> 
   </tr> 
   <tr> 
@@ -44,17 +46,19 @@ Voor algemene informatie over het verzoenen van middelen tussen projecten en ini
   </tr> 
   <tr> 
    <td>Product* </td> 
-   <td> 
-   <p>Voor de huidige plannen van Workfront: </p>
-   <p>U moet een extra licentie voor de [!DNL Adobe Workfront Scenario Planner] aanschaffen om toegang te krijgen tot de functionaliteit die in dit artikel wordt beschreven.</p> <p>Voor informatie over toegang en toestemmingen voor [!DNL Workfront Scenario Planner], zie <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref"> Toegang nodig om [!DNL Scenario Planner]</a> te gebruiken. </p> </td> 
+   <td> <ul><li><p>Voor de nieuwe plannen van Workfront:</p><p> Adobe Workfront</li></p>
+   <li><p>Voor de huidige plannen van Workfront: </p>
+   <p>Adobe Workfront</p> <p>Adobe Workfront Scenario Planner</p></li></ul>
+
+<p>Voor meer informatie, zie <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref"> Toegang nodig om [!DNL Scenario Planner]</a> te gebruiken. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Toegangsniveau </td> 
-   <td> <p>[!UICONTROL View] of een betere toegang tot [!UICONTROL Projects]</p> </td> 
+   <td> <p>De mening of hogere toegang tot Projecten.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Objectmachtigingen </p> </td> 
-   <td> <p>[!UICONTROL View] machtigingen voor een project</p> </td> 
+   <td> <p> Weergave of hogere machtigingen voor een project.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -67,7 +71,7 @@ Voor algemene informatie over het verzoenen van middelen tussen projecten en ini
 
 Als uw bedrijf een [!DNL Workfront Scenario Planner] -licentie heeft aangeschaft, kunt u de brontoewijzingen afstemmen tussen het initiatief en het project dat eraan is gekoppeld in het [!UICONTROL Tasks] -gedeelte van het project.
 
-1. (Voorwaardelijk) verbind een project met een initiatief gebruikend één van de methodes die in [ worden beschreven tonen roltoewijzing voor projecten en initiatieven in de taaklijst ](#Connect) van dit artikel.
+1. (Voorwaardelijk) een project moet met een initiatief worden verbonden gebruikend één van de methodes die in de sectie [ worden beschreven tonen roltoewijzing voor projecten en initiatieven in de taaklijst ](#show-role-allocation-for-projects-and-initiatives-in-the-task-list) van dit artikel.
 
    >[!IMPORTANT]
    >

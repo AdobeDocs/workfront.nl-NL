@@ -1,14 +1,14 @@
 ---
 title: Recordweergaven beheren
-description: U kunt records in een tabel-, tijdlijn- of kalenderweergave weergeven wanneer u Adobe Workfront-planning gebruikt.
+description: U kunt records in een tabel-, tijdlijn- of kalenderweergave weergeven wanneer u Adobe Workfront-planning gebruikt. In dit artikel wordt beschreven hoe u een weergave kunt maken en een bestaande weergave kunt bewerken of verwijderen.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '1390'
+source-wordcount: '1406'
 ht-degree: 0%
 
 ---

@@ -1,14 +1,14 @@
 ---
 title: De tijdlijnweergave beheren
-description: Open en bewerk records in een tijdlijnweergave op de pagina met recordtypen voor Adobe Workfront Planning. Pas de tijdlijn aan met filters, groepen en instellingen. Gebruik de functie Onderverdeling om verbonden records weer te geven.
+description: Open en bewerk records in een tijdlijnweergave op de pagina met recordtypen voor Adobe Workfront Planning. In dit artikel wordt beschreven hoe u een tijdlijnweergave kunt maken en een bestaande weergave kunt bewerken of verwijderen. Pas de tijdlijn aan met filters, groepen en instellingen. Gebruik de functie Onderverdeling om verbonden records weer te geven.
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '2620'
+source-wordcount: '2637'
 ht-degree: 0%
 
 ---

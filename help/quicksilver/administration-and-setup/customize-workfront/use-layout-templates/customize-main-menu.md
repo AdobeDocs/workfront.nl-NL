@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '630'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Als Adobe Workfront-beheerder of groepsbeheerder kunt u een lay-outsjabloon gebr
 >[!NOTE]
 >
 >De belangrijkste opties van het Menu die de gebruikers zien hangen van hun vergunningstype af en welke montages in hun toegangsniveau worden gevormd. Sommige gebruikers die deze lay-outsjabloon gebruiken, zien mogelijk niet alle opties die u hier kiest. Voor meer informatie zie [ hoe de toegangsniveaus en de toestemmingen samen ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md) en [ Configureerbare toegang tot functionaliteit voor elk objecten type ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md) werken.
+>
+>U zou verschillende opties in het Belangrijkste Menu kunnen zien als uw organisatie op de Adobe Workfront Verenigde Ervaring is ingezien. Voor informatie, zie [ Adobe Verenigde Ervaring voor Workfront ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 Voor informatie over het creëren van lay-outmalplaatjes, zie [ lay-outmalplaatjes ](../use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
 

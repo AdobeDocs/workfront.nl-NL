@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
@@ -38,29 +38,29 @@ Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veran
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 
-<table>
-  <tr>
-   <td><strong> plan van Adobe Workfront </strong>
-   </td>
-   <td>Alle
-   </td>
-  </tr>
-  <tr>
-   <td><strong> Adobe Workfront vergunning </strong>
-   </td>
-   <td>Plan
-   </td>
-  </tr>
-  <tr>
-   <td><strong> het niveauconfiguraties van de Toegang </strong>
-   </td>
-   <td>U moet Workfront of een groepsbeheerder zijn.
-<p>
-   </td>
-  </tr>
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td>Alle</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td><p>Nieuw: Standaard</p>
+  <p> Huidig: Plan</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Om deze stappen op systeemniveau uit te voeren, hebt u het toegangsniveau van de Beheerder van het Systeem nodig.
+Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> </td> 
+  </tr> 
+ </tbody> 
 </table>
 
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie [ tot douanetoegangsniveaus ](../../add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
+*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -9,16 +9,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
 
 # De standaard Adobe Workfront-lay-out
 
-De standaardindeling is de rangschikking van het Hoofdmenu ![](assets/main-menu-icon.png) , het linkerdeelvenster en de weergaven, groeperingen en filters voordat een Adobe Workfront-beheerder wijzigingen aanbrengt met behulp van een lay-outsjabloon.
+De standaardindeling is de rangschikking van het Hoofdmenu ![](assets/main-menu-icon.png) of het Hoofdmenu ![](assets/lines-main-menu.png) (indien beschikbaar), het linkerdeelvenster en de weergaven, groeperingen en filters voordat een Adobe Workfront-beheerder wijzigingen aanbrengt met behulp van een lay-outsjabloon.
 
 Voor informatie over hoe een beheerder van Workfront de standaardlay-out van een gebruiker kan wijzigen door de gebruiker een lay-outmalplaatje toe te wijzen, zie [ gebruikers aan een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md) toewijzen.
 
@@ -30,7 +30,7 @@ Voor informatie over hoe een beheerder van Workfront de standaardlay-out van een
 
 De standaardlay-out van elke gebruiker hangt van hun toegangsniveau af. Sommige gebruikers zien bepaalde gebieden mogelijk niet in het hoofdmenu of bepaalde linkerdeelvensteritems, afhankelijk van het toegangsniveau dat aan hen is toegewezen.
 
-In de volgende tabel wordt standaard aangegeven welke items van het linkerdeelvenster worden weergegeven voor elk toegangsniveau. Het standaardlandingsgebied voor elk toegangsniveau wordt ook aangegeven:
+In de volgende tabel wordt het standaardlandingsgebied weergegeven en worden de items van het linkerdeelvenster weergegeven voor elk toegangsniveau:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,8 +45,8 @@ In de volgende tabel wordt standaard aangegeven welke items van het linkerdeelve
   <tr> 
    <th>Gebied</th> 
    <th> Items van het linkerdeelvenster </th> 
-   <th> <p>Systeembeheerder</p> </th> 
-   <th> <p>Planner</p> </th> 
+   <th> Systeembeheerder</th> 
+   <th> Planner </th> 
    <th>Worker</th> 
    <th>Revisor</th> 
    <th>Aanvrager</th> 
@@ -150,7 +150,7 @@ In de volgende tabel wordt standaard aangegeven welke items van het linkerdeelve
   </tr> 
   <tr> 
    <td rowspan="3"><strong> Verzoeken </strong> </td> 
-   <td><strong> Nieuw Verzoek </strong> </td> 
+   <td>Nieuwe aanvraag </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 

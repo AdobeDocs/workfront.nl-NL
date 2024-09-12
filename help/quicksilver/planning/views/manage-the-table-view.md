@@ -1,14 +1,14 @@
 ---
 title: De tabelweergave beheren
-description: U kunt records en de bijbehorende velden in een tabelweergave weergeven wanneer u de pagina met recordtypen opent in Adobe Workfront Planning.
+description: U kunt records en de bijbehorende velden in een tabelweergave weergeven wanneer u de pagina met recordtypen opent in Adobe Workfront Planning. In dit artikel wordt beschreven hoe u een tabelweergave kunt maken en een bestaande weergave kunt bewerken of verwijderen.
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '2784'
+source-wordcount: '2801'
 ht-degree: 0%
 
 ---

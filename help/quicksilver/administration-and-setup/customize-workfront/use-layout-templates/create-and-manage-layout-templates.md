@@ -9,9 +9,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
@@ -52,20 +52,20 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td role="rowheader">Adobe Workfront-licentie*</td> 
    <td><p>Nieuw: Standaard</p>
-   of
-   <p>Huidig: Plan</p></td> 
+  <p> Huidig: Plan</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>Om deze stappen op systeemniveau uit te voeren, hebt u het toegangsniveau van de Beheerder van het Systeem nodig.</p>
-<p>Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> <p><b> NOTA </b>:</p> <p>Als u geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt.
-
-Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
-</tr> 
+   <td> <p>Om deze stappen op systeemniveau uit te voeren, hebt u het toegangsniveau van de Beheerder van het Systeem nodig.
+Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
+
+*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -108,7 +108,7 @@ Voor meer informatie over lay-outmalplaatjes, zie [ malplaatjes van de Lay-out ]
 
 1. Test de lay-outsjabloon en stel deze ter beschikking van gebruikers, zoals in de volgende artikelen wordt beschreven:
 
-   * [ het Testen van een nieuw lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)
+   * [ Test een nieuw lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)
    * [ verlenen administratieve toegang voor een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
    * [Gebruikers toewijzen aan een lay-outsjabloon](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
 

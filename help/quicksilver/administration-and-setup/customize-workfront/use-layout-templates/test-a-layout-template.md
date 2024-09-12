@@ -8,16 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8786648a-3630-4aa9-8e85-9df47a9e4609
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
 
 # Een nieuwe lay-outsjabloon testen
 
-Het is belangrijk om het nieuwe sjabloon of lay-outsjabloon te testen voordat u het toewijst aan gebruikers.
+Het is belangrijk dat u de nieuwe lay-outsjabloon test voordat u deze toewijst aan gebruikers.
 
 Voor meer informatie over lay-outmalplaatjes, zie [ lay-outmalplaatjes ](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
 

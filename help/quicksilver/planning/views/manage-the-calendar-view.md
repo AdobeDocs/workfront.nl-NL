@@ -1,14 +1,14 @@
 ---
 title: De kalenderweergave beheren
-description: U kunt records en de bijbehorende velden weergeven in een kalenderweergave.
+description: U kunt records en de bijbehorende velden weergeven in een kalenderweergave. In dit artikel wordt beschreven hoe u een kalenderweergave kunt maken en een bestaande weergave kunt bewerken of verwijderen.
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---

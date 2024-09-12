@@ -8,16 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
 
 # Vastgezette pagina&#39;s aanpassen met behulp van een lay-outsjabloon
 
-In een lay-outsjabloon kunt u de pagina&#39;s vastzetten die gebruikers altijd beschikbaar moeten hebben boven aan Adobe Workfront. Dit kunnen pagina&#39;s zijn die via het hoofdmenu ![](assets/main-menu-icon.png) of dashboards worden benaderd.
+In een lay-outsjabloon kunt u de pagina&#39;s vastzetten die gebruikers altijd beschikbaar moeten hebben boven aan Adobe Workfront. Dit kunnen pagina&#39;s zijn die via het hoofdmenu ![](assets/main-menu-icon.png) of het hoofdmenu ![](assets/lines-main-menu.png) worden geopend, indien beschikbaar, of dashboards.
 
 Om het even welke spelden die uw gebruikers op hun hebben toegevoegd worden getoond rechts van de spelden u in het lay-outmalplaatje toevoegt.
 
@@ -44,16 +44,20 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td><p>Nieuw: Standaard</p>
+  <p> Huidig: Plan</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Om deze stappen op systeemniveau uit te voeren, hebt u het toegangsniveau van de Beheerder van het Systeem nodig.
-Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> <p><b> NOTA </b>: Als u nog geen toegang hebt, vraag uw beheerder van Workfront als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
