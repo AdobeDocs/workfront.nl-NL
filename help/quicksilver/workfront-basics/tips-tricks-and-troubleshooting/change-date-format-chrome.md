@@ -6,9 +6,9 @@ title: De datumnotatie wijzigen in  [!DNL Adobe Workfront]
 description: Om het datumformaat voor de data in  [!DNL Adobe Workfront]  te veranderen moet u de taalmontages in uw browser veranderen.
 feature: Get Started with Workfront
 exl-id: 9fac92fb-e3d1-4537-b324-4b35447cef28
-source-git-commit: e9a96b6952ca3f128cc723df68787f40c8dcf604
+source-git-commit: ba67bb2a77247a1cbface139e3ec0afeced65aa3
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,11 @@ ht-degree: 0%
 # De datumnotatie wijzigen in [!DNL Adobe Workfront]
 
 <!--this article used to be called "Change the date format in Adobe Workfront when using Chrome". The team decieded to make it more generic and hide the steps. Also see drafted content below-->
+
+>[!IMPORTANT]
+>
+> De informatie in dit artikel is slechts op organisaties van toepassing die nog niet aan de Adobe Verenigde Ervaring zijn ingezien.
+> Als uw organisatie aan de Adobe Verenigde Ervaring is bezet, wordt uw datumvoorkeur gecontroleerd door uw taalvoorkeur die in Adobe Verenigde Shell wordt geplaatst. De standaardtaalinstelling en dus de standaarddatuminstelling is `en-US` .
 
 U kunt de datumnotatie van datums wijzigen in [!DNL Adobe Workfront], zoals [!UICONTROL Planned Completion Date] , [!UICONTROL Actual Completion Date] of [!UICONTROL Projected Completion Date] .
 
