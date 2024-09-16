@@ -6,9 +6,9 @@ description: Enkele eigenschappen zijn verschillend tussen  [!DNL Workfront]  en
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: b4c1f9c29dd6ad1e07acc741ab52e95a7bae7f67
+source-git-commit: be60ec38495a7c25d88e325cf4ba96decf083ea3
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ In deze tabel worden enkele functies beschreven die verschillen tussen de twee e
 | De Help is toegankelijk via het navigatiegebied [!UICONTROL Main Menu] en boven. | De Help is toegankelijk via de navigatiebalk [!UICONTROL Main Menu] en [!DNL Workfront] |
 | De proefdrukviewer wordt geopend op een nieuw tabblad | De proefdrukviewer wordt geopend in Workfront |
 | URL voor toegang tot Workfront is `experience.adobe.com` | URL voor toegang tot Workfront is `(CompanyName).my.workfront.com` |
-| De datumnotatie (zoals DD-MM-JJJJ) is gebaseerd op de browservoorkeuren | Datumnotatie (zoals MM/DD/JJJJ) is gebaseerd op de taalinstellingen voor Unified Experience. Als de gebruiker zijn taalinstellingen niet heeft bijgewerkt, worden `en-US` -instellingen gebruikt. |
+| Datumnotatie (zoals MM/DD/JJJJ) is gebaseerd op de taalinstellingen voor Unified Experience. Als de gebruiker zijn taalinstellingen niet heeft bijgewerkt, worden `en-US` -instellingen gebruikt. | De datumnotatie (zoals DD-MM-JJJJ) is gebaseerd op de browservoorkeuren |
 
 {style="table-layout:auto"}
 
