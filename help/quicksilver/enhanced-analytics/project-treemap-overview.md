@@ -7,9 +7,9 @@ description: De het treemapvisualisatie van het Project is een mening van uren-o
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6216465e-c3bb-4f2f-b71c-766ad0c2ed40
-source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
+source-git-commit: 364b668f23f5437e5cca0c4cc4793b17d444fb56
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '828'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,9 @@ De het treemapvisualisatie van het Project is een mening van uren-of dagen-die i
 
 ## Toegangsvereisten
 
-U moet het volgende hebben:
++++ Vouw uit om de vereisten voor toegang weer te geven.
+
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -54,6 +56,8 @@ U moet het volgende hebben:
 </table>
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vereisten
 

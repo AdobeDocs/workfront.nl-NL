@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: f2da081c-bdce-4012-9797-75be317079ef
-source-git-commit: ffa599ff0e25ba960ce01f3f492482ee2e747122
+source-git-commit: 364b668f23f5437e5cca0c4cc4793b17d444fb56
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Uw organisatie gebruikt een douanevorm genoemd de Integratie van de Financiën. 
 * **ProjectID** - een douanegebied dat een numeriek koord bevat.
 * **Uitgebreide Naam van het Project** - een berekend gebied van douanegegevens dat de waarden van BedrijfsEenheid, ProjectID, en de inheemse het projectnaam van Workfront in één enkel koord aaneenschakelt.
 
-U moet deze informatie opnemen in de reactie voor een query op Data Connect. De gegevenswaarden van de douane voor een verslag in het gegevensmeer zijn bevat in een kolom genoemd `parameterValues`. Deze kolom wordt opgeslagen als een JSON-object.
+U moet deze informatie opnemen in de reactie voor een query op Data Connect. De gegevenswaarden van de douane voor een verslag in het gegevensmeer zijn bevat in een kolom genoemd `parametervalues`. Deze kolom wordt opgeslagen als een JSON-object.
 
 ### Query:
 
@@ -40,14 +40,14 @@ SELECT
     projectid,
     parametervalues,
     name,
-    parametervalues:"DE:Business Unit" :: int as BusinessUnit,
-    parametervalues:"DE:Project ID" :: int as ProjectID,
-    parametervalues:"DE:Expanded Project Name" :: text as ExpandedProjectName
+    parametervalues:"DE:Business Unit"::int as BusinessUnit,
+    parametervalues:"DE:Project ID"::int as ProjectID,
+    parametervalues:"DE:Expanded Project Name"::text as ExpandedProjectName
 FROM PROJECTS_CURRENT
 WHERE ExpandedProjectName is not null
 ```
 
-### Antwoord
+### Reactie:
 
 De bovenstaande query retourneert de volgende gegevens:
 
@@ -57,6 +57,37 @@ De bovenstaande query retourneert de volgende gegevens:
 * `Business Unit` - een aangepaste gegevenswaarde die in het `parametervalues` -object wordt opgenomen
 * `Project ID` - een aangepaste gegevenswaarde die in het `parametervalues` -object wordt opgenomen
 * `Expanded Project Name` - een aangepaste gegevenswaarde die in het `parametervalues` -object wordt opgenomen
+
+### Uitleg:
+
+Wanneer u het JSON-object `parametervalues` opvraagt, kunt u elk aangepast gegevensveld benaderen als een kolom met behulp van de volgende code:
+
+`<field_name>:"<parameter_name>"::<data_type> as <column_name>`
+
+* `<field_name>` is de naam van het JSON-object in de tabel die wordt opgevraagd. In het geval van aangepaste gegevens is dit altijd `parametervalues` .
+* `<parameter_name>` is de `parametername` -tekenreeks die wordt gevonden in het gereedschap Formulierconfiguratie, hoewel deze mogelijk niet altijd overeenkomt met deze waarde.
+
+>[!NOTE]
+>
+>Als de naam van de parameter wordt gewijzigd in het Workfront-formulierconfiguratieprogramma, wordt deze weergegeven als een nieuwe kolom in het JSON-object. Daarom raden we u aan de naam van een kolom niet te wijzigen als deze eenmaal is gemaakt met het gereedschap Formulierconfiguratie. Het label kan echter worden gewijzigd zonder dat dit van invloed is op het JSON-object.
+>
+>Als de tekstreeks voor de parameternaam onjuist is, retourneert de kolom de waarde NULL in plaats van een fout.
+
+* `<data_type>` converteert de waarde die wordt geretourneerd van het JSON-object naar een gegevenstype dat geschikt is voor het veld. Als u een niet-compatibel gegevenstype kiest voor de waarde die wordt geretourneerd, treedt er een fout op bij een datatype dat niet overeenkomt. Mogelijke gegevenstypen zijn:
+
+   * `text`
+   * `varchar`
+   * `int`
+   * `float`
+   * `number(len,precision)` (`Number(32,4)` retourneert bijvoorbeeld 1234.0987)
+   * `date`
+   * `timestamp`
+
+* `<column_name>` is het label dat u voor elke kolom met aangepaste gegevens maakt.
+
+>[!NOTE]
+>
+>Alleen parameters waaraan waarden in het formulier zijn toegewezen, worden opgenomen in het JSON-object. Als een aangepast gegevensveld leeg is op het formulier, wordt het niet weergegeven.
 
 <!--## Task query 
 
