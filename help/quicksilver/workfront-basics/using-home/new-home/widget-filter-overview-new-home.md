@@ -5,9 +5,10 @@ title: Overzicht van nieuwe widget-thuisfilters
 description: U kunt kiezen uit een aantal widgets om de inhoud aan te passen die op uw startpagina wordt weergegeven. U kunt de grootte van deze widgets wijzigen en deze op uw startpagina rangschikken.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: a1fcaaa9695fb059ffa9dc670ae4fe3e5609aa23
+exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
+source-git-commit: 6fe37148bbb242f3a954a4fd26284fd7e70a5cdf
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
@@ -19,6 +20,7 @@ U kunt filters op de volgende widgets gebruiken om werk te zoeken en te organise
 * [Mijn projecten](#my-projects)
 * [Mijn taken](#my-tasks)
 * [Mijn problemen](#my-issues)
+* [ Mijn Werk ]
 
 ## Mijn projecten
 
@@ -229,4 +231,52 @@ U kunt de volgende filters gebruiken in Mijn Kwesties widget:
     <td>Niet toegewezen in mijn rol</td>
     <td>Hiermee geeft u alle problemen weer waarvoor geen primaire gebruiker is toegewezen, maar waaraan wel een rol is toegewezen </td>
   </tr>
+</table>
+
+## Mijn werk
+
+U kunt de volgende filters in Mijn werk widget gebruiken:
+
+<table>
+  <tbody>
+    <tr>
+      <td>Werken met</td>
+      <td>Hiermee geeft u items weer waaraan u momenteel werkt</td>
+    </tr>
+    <tr>
+      <td>Gereed om te starten</td>
+      <td>Items weergeven met 
+      <ul>
+      <li>Geen onvolledige voorgangers of taakbeperkingen</li>
+      <li>De geplande begindatum ligt in het verleden of maximaal twee weken in de toekomst</li>
+      </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Niet klaar</td>
+      <td>Hiermee geeft u items weer die
+       <ul>
+      <li>Onvolledige voorgangers of taakbeperkingen die verhinderen dat het item wordt bewerkt</li>
+      of
+      <li>De geplande begindatum meer dan twee weken in de toekomst</li>
+      </ul>
+       </td>
+    </tr>
+    <tr>
+      <td>Gevraagd</td>
+      <td>Hier worden problemen weergegeven waaraan u nog niet hebt gewerkt</td>
+    </tr>
+    <tr>
+      <td>Gedelegeerde</td>
+      <td>Hiermee geeft u items weer die u aan andere gebruikers hebt gedelegeerd</td>
+    </tr>
+    <tr>
+      <td>Aan mij gedelegeerd</td>
+      <td>Hier worden items weergegeven die gebruikers aan u hebben gedelegeerd</td>
+    </tr>
+    <tr>
+      <td>Voltooid</td>
+      <td>Hiermee geeft u werk weer dat in de laatste twee weken is voltooid. Deze filteroptie omvat geen goedkeuringen.</td>
+    </tr>
+  </tbody>
 </table>
