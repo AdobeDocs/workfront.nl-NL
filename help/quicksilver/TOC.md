@@ -3,7 +3,7 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 2f731d1ee8381df6a9d0d767743dc8b5b52f4a1b
+source-git-commit: d996e2777060ccd7d264af7f61261737b36a616b
 workflow-type: tm+mt
 source-wordcount: '14404'
 ht-degree: 0%
@@ -414,10 +414,10 @@ ht-degree: 0%
    * Aankondigingen {#announcements}
       * [Aankondigingen](product-announcements/announcements/announcements.md)
       * [Planning van functies wordt niet meer ondersteund](product-announcements/announcements/feature-removal-timeline.md)
+      * [Verouderde handleiding voor afgekeurde startpagina](product-announcements/announcements/legacy-home-deprecation.md)
       * [Veelgestelde vragen over het venster Onderhoud](product-announcements/announcements/maintenance-window-faq.md)
       * [Wijziging vereist voor het toevoegen van proefdrukken aan uw lijst van gewenste personen](product-announcements/announcements/proofhq-domain-change-workfront.md)
       * [Abonnement op berichten van het Aankondigingscentrum opzeggen in de nieuwe Adobe Workfront-ervaring](product-announcements/announcements/unsubscribe-from-ac-messages.md)
-      * [Verouderde handleiding voor afgekeurde startpagina](product-announcements/announcements/legacy-home-deprecation.md)
       * Aankondigingsarchief {#announcement-archive}
          * [Aankondigingsarchief](product-announcements/announcements/announcement-archive/announcement-archive.md)
          * [Verbeteringen voor aangepaste formulieren](product-announcements/announcements/announcement-archive/custom-form-enhancements.md)

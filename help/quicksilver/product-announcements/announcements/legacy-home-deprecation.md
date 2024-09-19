@@ -5,9 +5,10 @@ title: Verouderde handleiding voor afgekeurde startpagina
 description: Deze pagina bevat informatie over de aanstaande veroudering van verouderd startpunt.
 author: Nolan
 feature: Product Announcements
-source-git-commit: 84f7f80314e4acafb0414b806f7b1e1e4b2845fc
+exl-id: 1fef08c9-624d-4783-a0bd-8009413fc2bd
+source-git-commit: 629fc09ded495e9add5f24144c4fdffc31e40552
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '853'
 ht-degree: 0%
 
 ---
@@ -79,6 +80,10 @@ Bijna, behalve:
 * Er zijn momenteel geen tijdstempels beschikbaar voor de vervaldatums van objecten.
 
 * De datum waarop u bent vastgelegd, wordt momenteel niet weergegeven in de updatefeed. Er is echter wel een tijdelijke oplossing beschikbaar: u kunt de datum waarop u bent vastgelegd, in de koptekst weergeven via aanpassing van de lay-outsjabloon.
+* De goedkeuringen die ik heb ingediend worden momenteel niet gesteund in Nieuwe Huis. Als u deze functie nodig hebt, kunt u hier een opmerking plaatsen of plaatsen op de volgende communautaire posten:
+   * [ voeg &quot;Goedkeuringen toe I voorlegde&quot;Widget aan Nieuw Huis ](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/add-quot-approvals-i-submitted-quot-widget-to-new-home/idc-p/704664#M25269)
+   * [ voeg &quot;Goedkeuringen toe ik&quot;aan het nieuwe Huis ](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/add-quot-approvals-i-submitted-quot-widget-to-new-home/idc-p/704664#M25269) heb voorgelegd
+
 +++
 
 +++Hoe kan ik bepalen tot welke widgets gebruikers toegang hebben in nieuw Huis?
