@@ -5,7 +5,7 @@ title: Verplaatsen van Legacy home naar New Home
 description: Legacy Home wordt op 10/17 uit Workfront verwijderd met de Q4-release. Dit artikel bevat informatie over de functionaliteit die beschikbaar is in een nieuwe introductiepagina en aanbevelingen voor het verplaatsen van gebruikers naar de nieuwe introductieprestaties.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: b34de7dc66d69b030e313ee891a7404e1d5470e8
+source-git-commit: 69b264ac060a7c76a151536df622011b5eeb7953
 workflow-type: tm+mt
 source-wordcount: '1596'
 ht-degree: 0%
