@@ -9,7 +9,7 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion
 exl-id: 5e520aab-8307-4a52-96b6-13b284f9cb53
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
 workflow-type: tm+mt
 source-wordcount: '1494'
 ht-degree: 0%
@@ -96,7 +96,7 @@ Deze module activeert wanneer een nieuwe uitgave wordt toegevoegd of een bestaan
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL GitHub] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL GitHub] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL I want to watch]</td> 
@@ -146,7 +146,7 @@ Deze module activeert wanneer een opslagplaats wordt gemaakt of gewijzigd.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL GitHub] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL GitHub] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Maximum number of returned repositories]</td> 
@@ -169,7 +169,7 @@ Deze module activeert wanneer een nieuwe vork wordt gemaakt.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL GitHub] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL GitHub] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Repository]</td> 
@@ -192,7 +192,7 @@ Deze module activeert wanneer een nieuwe opmerking wordt toegevoegd of een besta
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL GitHub] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL GitHub] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Repository]</td> 
@@ -223,7 +223,7 @@ Deze module activeert wanneer een nieuwe pull-aanvraag wordt toegevoegd of een b
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL GitHub] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL GitHub] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Repository]</td> 
@@ -267,7 +267,7 @@ Deze module zoekt naar problemen die voldoen aan uw zoekcriteria.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL GitHub] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL GitHub] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Maximum number of returned issues]</td> 
@@ -304,7 +304,7 @@ Deze module maakt een nieuwe uitgave in de geselecteerde repository.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL GitHub] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL GitHub] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Repository]</td> 
@@ -343,7 +343,7 @@ Deze module werkt een bestaand [!DNL GitHub] -probleem bij.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL GitHub] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL GitHub] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Repository]</td> 
@@ -390,7 +390,7 @@ Deze module wint details over de gespecificeerde kwestie terug
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL GitHub] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL GitHub] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Repository]</td> 
@@ -413,7 +413,7 @@ Deze module voegt toewijzingen toe aan de opgegeven uitgave
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL GitHub] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL GitHub] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Repository]</td> 
@@ -440,7 +440,7 @@ Deze module verwijdert toewijzingen uit de opgegeven uitgave.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL GitHub] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL GitHub] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Repository]</td> 
@@ -467,7 +467,7 @@ Deze module voegt labels toe aan een uitgave. Labels worden gedefinieerd op het 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL GitHub] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL GitHub] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Repository]</td> 
@@ -494,7 +494,7 @@ Deze module verwijdert één label uit een uitgave.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL GitHub] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL GitHub] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Repository]</td> 
@@ -521,7 +521,7 @@ In deze module wordt een opmerking over het opgegeven probleem gemaakt.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL GitHub] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL GitHub] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Repository]</td> 
@@ -548,7 +548,7 @@ In deze module worden alle opmerkingen over het opgegeven probleem weergegeven.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL GitHub] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL GitHub] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Repository]</td> 

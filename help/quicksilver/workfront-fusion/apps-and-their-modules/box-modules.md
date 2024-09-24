@@ -9,7 +9,7 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion
 exl-id: 965ce570-40bf-474d-b318-0d2de8be6b9d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
 workflow-type: tm+mt
 source-wordcount: '979'
 ht-degree: 0%
@@ -106,7 +106,7 @@ Deze triggermodule start een scenario wanneer een nieuw bestand wordt toegevoegd
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Box] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Box] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   <tr> 
    <td role="rowheader">Controle</td> 
    <td> <p>Selecteer het type bestanden dat u wilt bekijken.</p> 
@@ -145,7 +145,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Box] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Box] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -177,7 +177,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Box] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Box] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   <tr> 
    <td role="rowheader">[!UICONTROL File ID]</td> 
    <td>Voer de unieke id in of wijs deze toe aan het bestand dat u wilt bijwerken in de module.</td> 
@@ -205,7 +205,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Box] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Box] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   <tr> 
    <td role="rowheader">[!UICONTROL File ID]</td> 
    <td>Voer de unieke id in of wijs deze toe aan het bestand dat u wilt bijwerken in de module.</td> 
@@ -233,7 +233,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Box] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Box] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   <tr> 
    <td role="rowheader">[!UICONTROL File ID]</td> 
    <td>Voer de unieke id in of wijs deze toe aan het bestand dat u wilt bijwerken in de module.</td> 

@@ -9,7 +9,7 @@ description: Met de Adobe Workfront Fusion Google Slides-modules kunt u presenta
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 680a5328-1d50-4434-beda-7a4670a6e458
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
 workflow-type: tm+mt
 source-wordcount: '1217'
 ht-degree: 0%
@@ -99,7 +99,7 @@ Triggers wanneer een nieuwe presentatie wordt gecreeerd of bijgewerkt.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google Slides] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Google Slides] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Watch] </td> 
@@ -126,7 +126,7 @@ Hiermee wordt een lijst met alle presentaties opgehaald.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google Slides] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Google Slides] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Choose a drive location]</td> 
@@ -158,7 +158,7 @@ Hiermee wordt de laatste versie van een opgegeven presentatie opgehaald.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google Slides] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Google Slides] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Choose a drive]</td> 
@@ -186,7 +186,7 @@ Hiermee wordt de laatste versie van de opgegeven pagina of van de miniatuur van 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google Slides] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Google Slides] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Presentation ID]</td> 
@@ -213,7 +213,7 @@ Hiermee maakt u een nieuwe presentatie door alle tags, zoals `{{Name}}` en `{{Em
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google Slides] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Google Slides] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Title] </td> 
@@ -286,7 +286,7 @@ Uploadt een afbeelding met de verschafte gegevens.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google Slides] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Google Slides] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Choose a Presentation]</td> 
@@ -330,7 +330,7 @@ Hiermee vernieuwt u de diagramgegevens die zijn opgeslagen in een presentatie di
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google Slides] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Google Slides] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Choose a drive]</td> 
@@ -362,7 +362,7 @@ Hiermee maakt u een lege dia of verwijdert u een bestaande dia uit de opgegeven 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google Slides] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Google Slides] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Select the method]</td> 
@@ -407,7 +407,7 @@ Voert een willekeurige geautoriseerde API-aanroep uit.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google Slides] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Google Slides] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
@@ -461,7 +461,7 @@ In deze module worden alle koppelingen in een presentatie aanklikbaar gemaakt of
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google Slides] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Google Slides] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Choose a Presentation]</td> 

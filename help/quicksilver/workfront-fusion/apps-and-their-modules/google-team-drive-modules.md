@@ -9,7 +9,7 @@ description: De  [!DNL Adobe Workfront Fusion Google Team Drive]  modules laten 
 author: Becky
 feature: Workfront Fusion
 exl-id: 8b4c057f-bb98-44d1-9b71-cbeaa402a1c3
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 0%
@@ -93,7 +93,7 @@ Retourneert de bestandsgegevens wanneer een nieuw bestand wordt toegevoegd en/of
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google Team Drive] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Google Team Drive] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Team Drive]</td> 
@@ -155,7 +155,7 @@ Uploadt een bestand naar het opgegeven gedeelde station.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google Team Drive] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Google Team Drive] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Team Drive] </td> 
@@ -190,7 +190,7 @@ Hiermee kunt u de bestandsnaam en/of bestandsinhoud wijzigen.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google Team Drive] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Google Team Drive] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Team Drive]</td> 
@@ -229,7 +229,7 @@ Hiermee wordt een opgegeven bestand naar de geselecteerde map gekopieerd.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google Team Drive] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Google Team Drive] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Team Drive]</td> 
@@ -260,7 +260,7 @@ Hiermee wordt een opgegeven bestand verwijderd.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google Team Drive] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Google Team Drive] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL File ID]</td> 
@@ -279,7 +279,7 @@ Hiermee wordt een opgegeven bestand naar de prullenbak verplaatst.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google Team Drive] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Google Team Drive] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL File ID]</td> 
@@ -298,7 +298,7 @@ Hiermee worden gegevens over het opgegeven bestand opgehaald.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google Team Drive] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Google Team Drive] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Convert [!DNL Google Documents] bestanden om op te maken] </td> 
@@ -333,7 +333,7 @@ Hiermee haalt u op basis van de zoekterm de gegevens van de bestanden en/of mapp
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google Team Drive] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Google Team Drive] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Team Drive]</td> 
@@ -377,7 +377,7 @@ Maakt een nieuwe map.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google Team Drive] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Google Team Drive] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Team Drive]</td> 

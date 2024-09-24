@@ -9,9 +9,9 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
-source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
+source-git-commit: 74aba3bbb0a6aface10559bf84fe3467c5469714
 workflow-type: tm+mt
-source-wordcount: '2688'
+source-wordcount: '2742'
 ht-degree: 0%
 
 ---
@@ -155,7 +155,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Workfront Proof] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Workfront Proof] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Recordtype</td> 
@@ -188,7 +188,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Workfront Proof] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Workfront Proof] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Webhook]</td> 
@@ -215,7 +215,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Workfront Proof] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Workfront Proof] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Activity type]</td> 
@@ -254,7 +254,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Workfront Proof] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Workfront Proof] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Proof Type]</td> 
@@ -401,7 +401,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Workfront Proof] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Workfront Proof] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Method]</td> 
@@ -441,7 +441,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Workfront Proof] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Workfront Proof] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Proof ID]</td> 
@@ -468,7 +468,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Workfront Proof] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Workfront Proof] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Record Type]</td> 
@@ -503,7 +503,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Workfront Proof] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Workfront Proof] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Proof ID]</td> 
@@ -539,7 +539,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Workfront Proof] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Workfront Proof] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Proof ID]</td> 
@@ -626,7 +626,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Workfront Proof] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Workfront Proof] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Source file]</td> 
@@ -679,7 +679,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Workfront Proof] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Workfront Proof] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Zoeken naar</td> 
@@ -700,6 +700,29 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Sorting Direction]</td> 
    <td> <p>Selecteer of u resultaten wilt sorteren oplopend of aflopend.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL List Workflow Templates]
+
+In deze zoekmodule worden alle beschikbare werkstroomsjablonen weergegeven.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!DNL Connection]</td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Workfront Proof] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Outputs]</td> 
+   <td> <p>Selecteer de informatie die u in de uitvoerbundel voor deze module wilt opnemen.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Limit]</td> 
+   <td> <p>Ga of kaart het maximumaantal malplaatjes in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</p> </td> 
   </tr> 
  </tbody> 
 </table>
