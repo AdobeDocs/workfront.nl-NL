@@ -5,9 +5,9 @@ title: Uw werk beheren met de widget Mijn werk
 description: Met de widget Mijn werk worden alle toegewezen taken, problemen en verzoeken op één locatie weergegeven. Hier, kunt u uw werk filteren en organiseren, logboektijd, updates maken, en het werkpunten volledig merken.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: c96169186af3bc83b823ec8870173911cf546091
+source-git-commit: 09dd8d24d021e8a25b3a7a63fe93d074f8a8ee0c
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -74,6 +74,7 @@ U kunt de Mijn filters van het Werk verfijnen om zich op specifieke punten in uw
       <td>Items weergeven met 
       <ul>
       <li>Geen onvolledige voorgangers of taakbeperkingen</li>
+      <p>en</p>
       <li>De geplande begindatum ligt in het verleden of maximaal twee weken in de toekomst</li>
       </ul>
       </td>
@@ -83,7 +84,7 @@ U kunt de Mijn filters van het Werk verfijnen om zich op specifieke punten in uw
       <td>Hiermee geeft u items weer die
        <ul>
       <li>Onvolledige voorgangers of taakbeperkingen die verhinderen dat het item wordt bewerkt</li>
-      of
+      <p>of</p>
       <li>De geplande begindatum meer dan twee weken in de toekomst</li>
       </ul>
        </td>
@@ -127,7 +128,7 @@ Eerdere items geven een waarschuwingspictogram weer naast de datum. Workfront ge
 
 >[!TIP]
 >
->Als u een lijst wilt maken waarin alle items worden weergegeven die in het verleden verschuldigd zijn boven aan de widget Mijn werk, sorteert u op Vervaldatum en past u geen groep toe.
+>Als u een lijst wilt maken waarin alle items worden weergegeven die in het verleden verschuldigd zijn boven aan de widget Mijn werk, sorteert u deze op Datum verstreken en past u geen groepering toe.
 
 
 ![](assets/sort-my-work-widget.png)
@@ -156,7 +157,7 @@ U kunt het deelvenster Samenvatting openen om informatie in een taak of uitgave 
 * Een update toevoegen
 * Navigeer naar het gebied Document om een document te uploaden
 * Details van werkitems weergeven en aangepaste velden bijwerken
-Workfront-beheerders kunnen aanpassen welke velden worden weergegeven in de sjabloon Overzicht in de lay-outsjabloon. Voor meer informatie, zie [ Huis en Samenvatting aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+Workfront-beheerders kunnen aanpassen welke velden worden weergegeven in het overzicht in de lay-outsjabloon. Voor meer informatie, zie [ Huis en Samenvatting aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 * De status van het werkitem wijzigen
 * Subtaken weergeven
 * Logtijd

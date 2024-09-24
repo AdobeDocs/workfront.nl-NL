@@ -6,9 +6,9 @@ description: Het nieuwe Home-programma is een krachtige nieuwe functie voor het 
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 60ff39c7a8c4736e1a176dd22bd0be5ab804223f
+source-git-commit: 233016ccc574118df705b857092d647767c05835
 workflow-type: tm+mt
-source-wordcount: '1140'
+source-wordcount: '1173'
 ht-degree: 0%
 
 ---
@@ -33,10 +33,13 @@ Widgets vormen de basis van het nieuwe startpunt. Door widgets aan uw startpagin
 
 Voor informatie bij het toevoegen van, het bewegen van, het resizing van, of het schrappen van widgets, zie [ toevoegen, uitgeven, of verwijder widgets in Nieuw Huis ](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
 
-Hieronder ziet u de tien widgets die u momenteel kunt kiezen en een overzicht van de informatie die ze weergeven:
+Hieronder vindt u een overzicht van de 11 widgets die u momenteel kunt kiezen, en een overzicht van de gegevens die worden weergegeven:
 
 * **Mijn Werk**\
     Deze widget is een ideale plaats om te beginnen met het beheer van een groot aantal verschillende taken, problemen en verzoeken. U kunt op de knop Werken aan een onderdeel klikken om te beginnen werken aan een onderdeel of op de knop Gereed om de onderdelen te markeren. U kunt ook informatie (Status, Voorwaarde, Percentage voltooid) bijwerken over taken en problemen, logtijd en updates toevoegen vanaf de widget Mijn werk.
+
+* **Boards**\
+    Hiermee geeft u alle borden weer die u hebt gemaakt of die u hebt uitgenodigd om te gebruiken. U kunt ook een nieuw bord maken op basis van de volgende sjablonen: Basisbord, Kanban-bord, Retrospectief, Dynamisch bord
 
 * **Mijn projecten**\
     De projecten van vertoningen u of projecten bezit u in een lijst bent. U kunt bestaande filters, weergaven of groepen gebruiken om de lijst aan te passen, of u kunt een project rechtstreeks vanuit de widget maken.
@@ -48,7 +51,7 @@ Hieronder ziet u de tien widgets die u momenteel kunt kiezen en een overzicht va
     Hiermee geeft u problemen weer die aan u zijn toegewezen in een lijst. U kunt bestaande filters, weergaven of groepen gebruiken om de lijst aan te passen, of u kunt een uitgave rechtstreeks vanuit de widget maken. Deze widget bevat alleen problemen waarvan de bijbehorende projecten zijn ingesteld op Huidig en die geen voltooide projecten bevatten. U kunt uw kwesties ook delegeren terwijl u weg van het bureau bent.
 
 * **Mijn verzoeken**\
-    Toont alle verzoeken u hebt voorgelegd, een filter om open verzoeken slechts te tonen, en een knoop die de summiere ruit voor een verzoek opent.
+    Hiermee geeft u alle verzoeken weer die u hebt verzonden, een filter om alleen open aanvragen weer te geven en een knop waarmee het overzichtsvenster voor een aanvraag wordt geopend.
 
 * **verzoeken van het Team**\
     Toont alle hangende verzoeken om teams die u op gesorteerd door team bent, evenals knopen om een verzoek aan een gebruiker direct toe te wijzen of aan het zelf te werken.
@@ -57,10 +60,10 @@ Hieronder ziet u de tien widgets die u momenteel kunt kiezen en een overzicht va
     Toont al uw in behandeling zijnde toegewezen of gedelegeerde goedkeuringen, een knoop om goedkeuringen te delegeren, en knopen om goedkeuringsbesluiten direct binnen widget te nemen.
 
 * **Alle goedkeuringen**\
-        <span class="preview"> Toont 2 grafieken met informatie over gemiddelde goedkeuringstijd en besluiten evenals lijstmeningen van hangende en achterstallige goedkeuringen.</span> <span style="color: #ff0000;"> deze eigenschap maakt deel uit van een gefaseerde versie en is momenteel slechts beschikbaar voor specifieke klanten.</span>
+        Toont 2 grafieken met informatie over gemiddelde goedkeuringstijd en besluiten evenals lijstmeningen van hangende en achterstallige goedkeuringen. <span style="color: #ff0000;"> deze eigenschap maakt deel uit van een gefaseerde versie en is momenteel slechts beschikbaar voor specifieke klanten.</span>
 
 * **Vermeldingen**\
-    Geeft recente commentaarthreads van over Workfront weer, net als de pagina Mijn updates. U kunt de antwoordknoop gebruiken om een antwoord binnen widget samen te stellen. Deze widget bevat ook opmerkingen over taken en problemen die u hebt toegewezen, die u hebt toegewezen aan een andere gebruiker, die u hebt, waarop u primair contact hebt gemaakt of die u hebt gemaakt, zolang de taak of uitgave in de afgelopen 30 dagen is bijgewerkt.
+    Geeft recente commentaarthreads van over Workfront weer, vergelijkbaar met de pagina Mijn updates. U kunt de antwoordknoop gebruiken om een antwoord binnen widget samen te stellen. Deze widget bevat ook opmerkingen over taken en problemen die u hebt toegewezen, die u hebt toegewezen aan een andere gebruiker, die u hebt, waarop u primair contact hebt gemaakt of die u hebt gemaakt, zolang de taak of uitgave in de afgelopen 30 dagen is bijgewerkt.
 
 * **aan-doet**\
     Met deze unieke widget kunt u items toevoegen aan een persoonlijke controlelijst die u kunt bewerken. To-dos worden bijgehouden als taken in uw persoonlijke project, en blijven tot twee weken na voltooiing.
