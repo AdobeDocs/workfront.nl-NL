@@ -8,9 +8,9 @@ author: Lisa and Alina
 feature: Get Started with Workfront
 role: User
 exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
-source-git-commit: a634e29df16d401812fb87ea53521d5028f7fd20
+source-git-commit: f5632af0fb87739fc41c4e2f41dc8ebab0f8be8b
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '816'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,14 @@ Wanneer u aan een taak of een kwestie wordt toegewezen, kunt u een contextafhank
 
 Met de contextafhankelijke knop kunt u werkitems accepteren of voltooien, zodat Adobe Workfront verschillende velden op de items kan bijwerken zonder deze handmatig bij te werken.
 
+De knoppen Werk aan en Gereed zijn zichtbaar voor gebruikers die beschikken over:
+
+* Een standaardlicentie (nieuw) of een abonnement- of werkvergunning (huidig)
+* Beperkte bewerkingstoegang of hoger op de taak of uitgave
+
 ## De knopnamen Aan het gereedschap en Gereed
 
-Afhankelijk van welk gebied van Workfront u tot uw taak of kwestie van toegang hebt, kan het Werk aan het of Gereed knoop namen veranderen, zoals die in de volgende scenario&#39;s wordt beschreven: 
+Afhankelijk van welk gebied van Workfront u tot uw taak of kwestie van toegang hebt, kan het Werk aan het of Gereed knoop namen veranderen, zoals die in de volgende scenario&#39;s wordt beschreven:
 
 * Wanneer de taak of kwestie voor het eerst aan u wordt toegewezen en de status Nieuw is, toont de knoop als Werk aan het.
 

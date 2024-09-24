@@ -7,9 +7,9 @@ description: U kunt desgewenst een inlaatkolom toevoegen aan uw board die taken 
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 0c0c1f538cfd12e18c504fcb42ee424789d1cde8
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1073'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,8 @@ Problemen:
 >[!IMPORTANT]
 >
 >Het wordt aanbevolen om het bord regelmatig te vernieuwen als meerdere gebruikers tegelijkertijd aan het bord werken. Door de pagina te vernieuwen, kunt u de visuele wijzigingen op het bord up-to-date houden en voorkomen dat problemen zoals dubbele kaarten uit de inlaatkolom naar het bord worden verplaatst.
+>
+>Als u wilt synchroniseren met Workfront en nieuwe taken en problemen wilt overbrengen naar het board of de inlaatkolom, klikt u op het **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) naast de naam van het board en selecteert u **[!UICONTROL Sync connected items]** .
 
 Voor meer informatie over kolommen, zie [ de kolommen van het Comité beheren ](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). Voor informatie over verbonden kaarten, zie [ Gebruik verbonden kaarten op raad ](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 

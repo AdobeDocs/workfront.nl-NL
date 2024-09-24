@@ -6,9 +6,9 @@ description: U kunt een kaart aan uw bord toevoegen die met bestaande taken en k
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 0c0c1f538cfd12e18c504fcb42ee424789d1cde8
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: '1362'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ Wanneer een van de volgende gegevens voor de kaart op de ene locatie wordt bijge
 * [!UICONTROL Estimation] / [!UICONTROL Story Points]
 * [!UICONTROL Subtasks]
 * [!UICONTROL Documents]
+
+Als u verbonden kaarten wilt synchroniseren met Workfront, klikt u op het menu **[!UICONTROL More]** ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) naast de naam van het tekengebied en selecteert u **[!UICONTROL Sync connected items]** .
 
 >[!NOTE]
 >
