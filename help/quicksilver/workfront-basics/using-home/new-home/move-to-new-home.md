@@ -5,9 +5,9 @@ title: Verplaatsen van Legacy home naar New Home
 description: Legacy Home wordt op 10/17 uit Workfront verwijderd met de Q4-release. Dit artikel bevat informatie over de functionaliteit die beschikbaar is in een nieuwe introductiepagina en aanbevelingen voor het verplaatsen van gebruikers naar de nieuwe introductieprestaties.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 69b264ac060a7c76a151536df622011b5eeb7953
+source-git-commit: 8666870341227f2bdcd08ad77753a28748ed9847
 workflow-type: tm+mt
-source-wordcount: '1596'
+source-wordcount: '1632'
 ht-degree: 0%
 
 ---
@@ -185,7 +185,7 @@ Hieronder vindt u een overzicht van de 11 widgets die u momenteel kunt kiezen, e
 
 +++
 
-  ![](assets/widgets-menu.png)
+![](assets/widgets-menu.png)
 
 ### Widgets weergeven die beschikbaar zijn voor elk type licentie
 
@@ -262,3 +262,17 @@ We raden beheerders aan:
 1. Wijs de rest van de gebruikers opnieuw toe aan de lay-out Nieuwe startpagina.
 
 Als u dit zo snel mogelijk doet, hebben uw gebruikers de tijd om zich aan de nieuwe ervaring aan te passen en hun nieuwe homepages aan te passen aan hun individuele behoeften. Zie [ verwijderen, toevoegen en herrangschikken widgets in nieuw Huis ](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md) voor informatie over hoe een gebruiker widgets op hun eigen nieuwe homepage kan aanpassen.
+
+### Bronnen voor eindgebruikers
+
+**de artikelen van de Hulp**
+
+* [Uw werk beheren met de widget Mijn werk](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)
+
+**Opleiding**
+
+* {de Grondbeginselen van de Arbeider van 0} in Adobe Workfront ](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)[
+
+>[!IMPORTANT]
+>
+>Dit is een vrije cursus, maar u moet login en inschrijven om tot het toegang te hebben.
