@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: ad5d49baddcacaf59c0194fcd3335e71448ae5f7
+source-git-commit: 9a8498adb51f5bc18747667865ebf4b248e57bb5
 workflow-type: tm+mt
-source-wordcount: '5546'
+source-wordcount: '5541'
 ht-degree: 0%
 
 ---
@@ -151,9 +151,9 @@ U kunt verschillende tekstvelden toevoegen aan een aangepast formulier.
 
 +++ **breid uit om beschrijvingen van beschikbare tekstgebieden** te zien
 
-* **Enige Gebied van de Tekst van de Lijn**: Staat gebruikers toe om één enkele lijn van tekst op het gebied te typen.
-* **Gebied van de Tekst van de Paragraaf**: Staat gebruikers toe om veelvoudige lijnen van tekst op het gebied te typen.
-* **Gebied van de Tekst met het Formatteren**: Staat gebruikers toe om veelvoudige lijnen van tekst op het gebied te typen en de tekst met vette, cursieve, onderstreepte, kogels, nummering, hyperlinks, en blokcitaten te formatteren. Een tekenlimiet van 15.000 staat voor veel tekst en opmaak toe.
+* **Enige gebied van de lijntekst**: Staat gebruikers toe om één enkele lijn van tekst op het gebied te typen.
+* **gebied van de Paragraaf**: Staat gebruikers toe om veelvoudige lijnen van tekst op het gebied te typen.
+* **gebied van de Tekst met het formatteren**: Staat gebruikers toe om veelvoudige lijnen van tekst op het gebied te typen en de tekst met vette, cursieve, onderstreepte, kogels, nummering, hyperlinks, en blokcitaten te formatteren. Een tekenlimiet van 15.000 staat voor veel tekst en opmaak toe.
 
   Dit aangepaste veldtype wordt niet ondersteund in filters in lijsten en rapporten.
 
@@ -172,8 +172,8 @@ Een tekstveld toevoegen:
 1. Zoek links in het scherm een van de volgende tekstvelden en sleep deze naar een sectie op het canvas:
 
    * Tekst met één regel
-   * Alineatekst
-   * Tekstveld met opmaak
+   * Alinea
+   * Tekst met opmaak
    * Beschrijvende tekst
 
    ![](assets/drag-field-to-section.png)
@@ -192,7 +192,7 @@ Een tekstveld toevoegen:
    </td>
     <td><ul>
     <li>Tekst met één regel</li>
-    <li>Alineatekst</li>
+    <li>Alinea</li>
     <li>Tekst met opmaak</li>
     <li>Beschrijvende tekst</li>
     </ul></td>
@@ -203,7 +203,7 @@ Een tekstveld toevoegen:
     <p>BELANGRIJK: gebruik geen speciale tekens in dit label. Ze worden niet correct weergegeven in rapporten. Voor meer informatie, zie <a href="design-a-form.md#notes-on-field-names-and-labels"> Nota's op gebiedsnamen en etiketten </a>.</p></td>
     <td><ul>
     <li>Tekst met één regel</li>
-    <li>Alineatekst</li>
+    <li>Alinea</li>
     <li>Tekst met opmaak</li>
     </ul></td>
     </tr>
@@ -214,7 +214,7 @@ Een tekstveld toevoegen:
     </td>
     <td><ul>
     <li>Tekst met één regel</li>
-    <li>Alineatekst</li>
+    <li>Alinea</li>
     <li>Tekst met opmaak</li>
     <li>Beschrijvende tekst</li>
     </ul></td>
@@ -226,7 +226,7 @@ Een tekstveld toevoegen:
     </td>
     <td><ul>
     <li>Tekst met één regel</li>
-    <li>Alineatekst</li>
+    <li>Alinea</li>
     <li>Tekst met opmaak</li>
     </ul></td>
     </tr>
@@ -240,7 +240,7 @@ Een tekstveld toevoegen:
      </ul></p></td> </td>
     <td><ul>
     <li>Tekst met één regel</li>
-    <li>Alineatekst</li>
+    <li>Alinea</li>
     </ul></td>
     </tr>
     <tr>
@@ -248,7 +248,7 @@ Een tekstveld toevoegen:
     <td>Schakelen tussen tekstvelden met één regel en alineatekst.</td>
     <td><ul>
     <li>Tekst met één regel</li>
-    <li>Alineatekst</li>
+    <li>Alinea</li>
     </ul></td>
     </tr>
     <tr>
@@ -285,9 +285,9 @@ U kunt keuzerondjes, groepen selectievakjes, vervolgkeuzelijsten en meerkeuzevel
 +++ **breid uit om beschrijvingen van beschikbare gebieden** te zien
 
 * **Keuzerondjes**: Vereist gebruikers om slechts één keus te selecteren.
-* **Checkbox Groep**: Staat gebruikers toe om veelvoudige keuzen te selecteren.
-* **Dropdown**: Verstrekt een lijst van dropdown keuzen.
-* **Multi-Select Vervolgkeuzelijst**: Staat gebruikers toe om veelvoudige keuzen van een dropdown lijst te selecteren.
+* **Checkbox groep**: Staat gebruikers toe om veelvoudige keuzen te selecteren.
+* **enig-uitgezochte dropdown**: Verstrekt een lijst van dropdown keuzen.
+* **multi-uitgezochte dropdown**: Staat gebruikers toe om veelvoudige keuzen van een dropdown lijst te selecteren.
 
 +++
 
@@ -301,8 +301,8 @@ Keuzerondjes, groepen selectievakjes en downloads toevoegen:
 
    * Keuzerondjes
    * Groep selectievakjes
-   * Vervolgkeuzelijst
-   * Meerdere selecties opheffen
+   * Vervolgkeuzelijst met één keuze
+   * Vervolgkeuzelijst met meerdere selecties
 
    ![ belemmering een gebied op het canvas ](assets/drag-field-to-section.png)
 
@@ -321,8 +321,8 @@ Keuzerondjes, groepen selectievakjes en downloads toevoegen:
      <td><ul>
     <li>Keuzerondjes</li>
     <li>Groep selectievakjes</li>
-    <li>Vervolgkeuzelijst</li>
-    <li>Meerdere selecties opheffen</li>
+    <li>Vervolgkeuzelijst met één keuze</li>
+    <li>Vervolgkeuzelijst met meerdere selecties</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -332,8 +332,8 @@ Keuzerondjes, groepen selectievakjes en downloads toevoegen:
      <td><ul>
     <li>Keuzerondjes</li>
     <li>Groep selectievakjes</li>
-    <li>Vervolgkeuzelijst</li>
-    <li>Meerdere selecties opheffen</li>
+    <li>Vervolgkeuzelijst met één keuze</li>
+    <li>Vervolgkeuzelijst met meerdere selecties</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -344,8 +344,8 @@ Keuzerondjes, groepen selectievakjes en downloads toevoegen:
     <td><ul>
     <li>Keuzerondjes</li>
     <li>Groep selectievakjes</li>
-    <li>Vervolgkeuzelijst</li>
-    <li>Meerdere selecties opheffen</li>
+    <li>Vervolgkeuzelijst met één keuze</li>
+    <li>Vervolgkeuzelijst met meerdere selecties</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -359,18 +359,18 @@ Keuzerondjes, groepen selectievakjes en downloads toevoegen:
      <td><ul>
     <li>Keuzerondjes</li>
     <li>Groep selectievakjes</li>
-    <li>Vervolgkeuzelijst</li>
-    <li>Meerdere selecties opheffen</li>
+    <li>Vervolgkeuzelijst met één keuze</li>
+    <li>Vervolgkeuzelijst met meerdere selecties</li>
     </ul></td>
     </tr> 
     <tr> 
      <td role="rowheader">Weergavetype</td> 
-    <td>Schakel tussen keuzerondjes, groepen selectievakjes, vervolgkeuzelijsten of meerkeuzevelden voor het veld.</td> 
+    <td>Schakel tussen keuzerondjes, groep selectievakjes, vervolgkeuzelijst met één keuze of vervolgkeuzelijst met meerdere keuzerondjes voor het veld.</td> 
     <td><ul>
     <li>Keuzerondjes</li>
     <li>Groep selectievakjes</li>
-    <li>Vervolgkeuzelijst</li>
-    <li>Meerdere selecties opheffen</li>
+    <li>Vervolgkeuzelijst met één keuze</li>
+    <li>Vervolgkeuzelijst met meerdere selecties</li>
     </ul></td>
     </tr> 
      <tr> 
@@ -379,8 +379,8 @@ Keuzerondjes, groepen selectievakjes en downloads toevoegen:
     <td><ul>
     <li>Keuzerondjes</li>
     <li>Groep selectievakjes</li>
-    <li>Vervolgkeuzelijst</li>
-    <li>Meerdere selecties opheffen</li>
+    <li>Vervolgkeuzelijst met één keuze</li>
+    <li>Vervolgkeuzelijst met meerdere selecties</li>
     </ul></td>
      </tr> 
     <tr> 
@@ -404,8 +404,8 @@ Keuzerondjes, groepen selectievakjes en downloads toevoegen:
     <td><ul>
     <li>Keuzerondjes</li>
     <li>Groep selectievakjes</li>
-    <li>Vervolgkeuzelijst</li>
-    <li>Meerdere selecties opheffen</li>
+    <li>Vervolgkeuzelijst met één keuze</li>
+    <li>Vervolgkeuzelijst met meerdere selecties</li>
     </ul></td>
      </tr> 
     </tbody> 
@@ -441,7 +441,7 @@ U kunt datum- en tekstvelden toevoegen aan een aangepast formulier.
    * Team
    * Sjabloon
    * Bedrijf
-* **het Gebied van de Datum**: Toont een kalender waar de gebruikers een datum en een tijd kunnen selecteren.
+* **Datum**: Toont een kalender waar de gebruikers een datum en een tijd kunnen selecteren.
 
 +++
 
@@ -450,7 +450,7 @@ U voegt als volgt velden voor typekop en datum toe:
 1. Zoek aan de linkerkant van het scherm een van de volgende velden en sleep deze naar een sectie op het canvas.
 
    * Typeahead
-   * Datumveld
+   * Datum
 
    ![](assets/drag-field-to-section.png)
 
@@ -468,7 +468,7 @@ U voegt als volgt velden voor typekop en datum toe:
       <td> <p>(Vereist) Typ een beschrijvend label dat boven het aangepaste veld wordt weergegeven. U kunt het label op elk gewenst moment wijzigen.</p> <p><b> BELANGRIJK </b>: Gebruik geen speciale karakters in dit etiket. Ze worden niet correct weergegeven in rapporten. Voor meer informatie, zie <a href="design-a-form.md#notes-on-field-names-and-labels"> Nota's op gebiedsnamen en etiketten </a>.</p> </td> 
        <td><ul>
     <li>Typeahead</li>
-    <li>Datumveld</li>
+    <li>Datum</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -477,7 +477,7 @@ U voegt als volgt velden voor typekop en datum toe:
       <p>Voor meer informatie, zie <a href="design-a-form.md#notes-on-field-names-and-labels"> Nota's op gebiedsnamen en etiketten </a>.</p> </td>
     <td><ul>
     <li>Typeahead</li>
-    <li>Datumveld</li>
+    <li>Datum</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -487,14 +487,14 @@ U voegt als volgt velden voor typekop en datum toe:
       </td> 
          <td><ul>
     <li>Typeahead</li>
-    <li>Datumveld</li>
+    <li>Datum</li>
     </ul></td>
      </tr> 
      <tr> 
       <td role="rowheader">Tijd van dag weergeven</td> 
       <td>Selecteer deze optie als u de tijd van dag samen met de datum in het gebied wilt tonen.</td> 
          <td><ul>
-    <li>Datumveld</li>
+    <li>Datum</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -532,7 +532,7 @@ U voegt als volgt velden voor typekop en datum toe:
       <td>Selecteer deze optie als u wilt dat het veld verplicht is zodat de gebruiker het aangepaste formulier kan invullen. </td> 
        <td><ul>
     <li>Typeahead</li>
-    <li>Datumveld</li>
+    <li>Datum</li>
     </ul></td>
      </tr> 
     </tbody> 
@@ -807,7 +807,7 @@ Deze tabel bevat een lijst met de beschikbare native velden voor specifieke Work
 
 +++
 
-1. Op de linkerkant van het scherm, vind **Inheems gebied** en sleep het aan een sectie op het canvas.
+1. Voor de linkerkant van het scherm, vind **Inheemse gebiedsverwijzing** en sleep het aan een sectie op het canvas.
 1. Configureer rechts in het scherm de opties voor het aangepaste veld:
 
    <table style="table-layout:auto"> 

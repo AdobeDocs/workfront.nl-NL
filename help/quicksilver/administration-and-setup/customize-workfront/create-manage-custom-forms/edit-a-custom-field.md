@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: aee8673337b7e5294331bc2d571a6bee57114df5
+source-git-commit: 2e526059e240c45ca333bb52cd57e61f87a032f2
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 1. Klik **Nieuw Gebied van de Douane**.
 1. Voer in het vak dat wordt weergegeven de vereiste en optionele informatie in voor het item dat u toevoegt.
 
-   Voor meer informatie, zie [ Ontwerp een vorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   Voor meer informatie, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Klik **creëren**.
 
@@ -77,6 +77,6 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 1. Selecteer het douanegebied, de sectieonderbreking, of widget, dan klik ![ uitgeven pictogram ](assets/edit-icon.png).
 1. Wijzig in het vak dat wordt weergegeven de opties die beschikbaar zijn voor het item dat u bewerkt.
 
-   Voor meer informatie, zie [ Ontwerp een vorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   Voor meer informatie, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Wanneer u wordt gebeëindigd, geeft de klik **** uit.

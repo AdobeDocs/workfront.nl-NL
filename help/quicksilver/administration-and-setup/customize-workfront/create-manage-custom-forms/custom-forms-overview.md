@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 8e6caabfaa347f0595657078e2d08ce70c0cb697
+source-git-commit: 8d9a9d8356f195d1e1fcbf0ae6c9b08f20ba4bbf
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Bijvoorbeeld, kunt u een douaneformulier met de naam &quot;het Onderzoek van de 
 
 De formulierontwerper heeft een werkruimte in canvasstijl waarmee u de velden, het canvas en de veldinstellingen tegelijkertijd kunt bekijken. U kunt ook velden in de secties slepen en neerzetten terwijl u het formulier ontwerpt. U kunt de grootte aan de rechterkant van het scherm aanpassen om meer ruimte voor de veldopties te bieden.
 
-<span class="preview"> A **knoop van de Lay-out** (niet getoond in dit beeld) staat u toe om van een twee of drie-kolom het werk gebied te kiezen. De knop geeft aan welke indeling momenteel is geselecteerd. In de indeling met drie kolommen worden de veldinstellingen uiterst rechts weergegeven. In de twee-kolom lay-out, worden de gebiedsmontages getoond naast de gebiedsbibliotheek in de uiterst linkerkolom.</span>
+<span class="preview"> de knoop van de Lay-out van A (niet getoond in dit beeld) staat u toe om van een twee of drie-kolom het werk gebied te kiezen. De knop geeft aan welke indeling momenteel is geselecteerd. In de indeling met drie kolommen worden de veldinstellingen uiterst rechts weergegeven. In de twee-kolom lay-out, worden de gebiedsmontages getoond naast de gebiedsbibliotheek in de uiterst linkerkolom.</span>
 
 Voor meer informatie, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
@@ -48,15 +48,15 @@ In een aangepast formulier kunt u extra velden maken die gebruikers vragen om in
 In Workfront kunt u de volgende typen aangepaste velden toevoegen aan een aangepast formulier:
 
 * Tekst met één regel
-* Alineatekst
+* Alinea
 * Tekst met opmaak
-* Vervolgkeuzelijst
-* Meerdere selecties opheffen
+* Vervolgkeuzelijst met één keuze
+* Vervolgkeuzelijst met meerdere selecties
 * Externe zoekopdracht
-* Oorspronkelijk veld
+* Referentie van native veld
 * Typeahead
 * Berekend
-* Datumveld
+* Datum
 * Groep selectievakjes
 * Keuzerondjes
 * Beschrijvende tekst
