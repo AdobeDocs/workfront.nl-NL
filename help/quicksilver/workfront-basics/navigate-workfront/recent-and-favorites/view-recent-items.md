@@ -6,16 +6,16 @@ description: Het menu [!UICONTROL Recents] bevindt zich op de bovenste navigatie
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 531b6b77-bf54-4ab3-a757-5c59fc0586a6
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 4bd88c0e4a3d27e30580fefea993224fe5446e32
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
 
 # Recente objecten weergeven
 
-Het menu [!UICONTROL Recents] bevindt zich op de bovenste navigatiebalk. In dit menu ziet u onlangs bekeken projecten, rapporten, dashboards, taken, problemen, enzovoort.
+Het menu [!UICONTROL Recents] bevindt zich op de bovenste navigatiebalk. In dit menu ziet u onlangs bekeken projecten, rapporten, dashboards, taken, problemen, enzovoort. Alleen objecten die in de afgelopen twee weken zijn weergegeven, worden opgenomen, maximaal twintig per objecttype, en worden weergegeven in volgorde van de meest recente weergave.
 
 ## Toegangsvereisten
 

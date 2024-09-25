@@ -6,9 +6,9 @@ description: U kunt een proefdrukdocument rechtstreeks vanuit de mobiele app del
 author: Nolan
 feature: Get Started with Workfront
 exl-id: a97ddd1e-1cae-49a8-b3a4-7c9850169179
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 4bd88c0e4a3d27e30580fefea993224fe5446e32
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Met deze optie verzendt u een e-mail met een openbare proefkoppeling naar een co
 
 ## De proefdruk downloaden
 
-U kunt een kopie van het proefdrukdocument downloaden naar uw mobiele apparaat.
+U kunt een kopie van het proefdrukdocument downloaden naar uw mobiele apparaat. Hoewel u geen voorvertoning van videobestanden kunt weergeven, kunt u deze wel downloaden.
 
 1. Open de documentproef en selecteer het **[!UICONTROL More]** menu ![ Meer menu ](assets/mobile-verticalmoremenu-20x33.png) op het hogere recht van het document. Selecteer vervolgens **[!UICONTROL More]** .
 1. Selecteer **[!UICONTROL Download]** .

@@ -6,9 +6,9 @@ description: Plan een automatische levering van rapporten
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 4bd88c0e4a3d27e30580fefea993224fe5446e32
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1172'
 ht-degree: 0%
 
 ---
@@ -130,7 +130,7 @@ Om een rapport voor automatische levering te plannen of een bestaande rapportlev
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Tijd</p> </td> 
-      <td> <p>Selecteer de tijd van de dag waarop de levering moet worden verzonden.</p> <p>Tip: Omdat systeemladingen de tijden van de rapportlevering kunnen beïnvloeden, kan er een vertraging tussen de geplande tijd en de daadwerkelijke leveringstijd zijn. Als u een rapport nodig hebt dat tegen een specifieke tijd wordt geleverd, adviseren wij de levering voorafgaand aan de tijd te plannen dat het nodig is. Bijvoorbeeld, adviseren wij de levering een dag voorafgaand aan de datum te plannen wanneer het nodig is.</p> </td> 
+      <td> <p>Selecteer de tijd van de dag waarop de levering moet worden verzonden.</p> <p>Tip: Omdat systeembelastingen de leveringstijden van het rapport kunnen beïnvloeden, kan er een vertraging van maximaal 24 uren tussen de geplande tijd en de daadwerkelijke leveringstijd zijn. Als u een rapport nodig hebt dat tegen een specifieke tijd wordt geleverd, adviseren wij de levering voorafgaand aan de tijd te plannen dat het nodig is. Over het algemeen raden we aan de levering ten minste een dag vóór de datum te plannen waarop deze nodig is.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Herhaalt op</p> </td> 
