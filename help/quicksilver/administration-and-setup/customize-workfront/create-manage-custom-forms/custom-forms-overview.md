@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 8d9a9d8356f195d1e1fcbf0ae6c9b08f20ba4bbf
+source-git-commit: db7b5213fb58e219fdabbacfa5bddac7b9da0b00
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 0%
@@ -92,4 +92,5 @@ Gebruikers kunnen aangepaste formulieren koppelen aan de volgende objecttypen:
 Voor meer informatie over het vastmaken van douaneformulieren aan voorwerpen, zie [ een douaneformulier aan een voorwerp ](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toevoegen.
 
 Voor informatie over wat aan douaneformulieren wanneer het omzetten van een voorwerp gebeurt, zie [ de gegevens van de douanevorm van de Overdracht wanneer het omzetten van een voorwerp ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
+
 
