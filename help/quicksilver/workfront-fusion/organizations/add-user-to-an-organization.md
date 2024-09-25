@@ -7,9 +7,9 @@ description: U kunt gebruikers toevoegen aan organisaties in Adobe Workfront Fus
 author: Becky
 feature: Workfront Fusion
 exl-id: 98248cca-98f5-4eb5-b203-67e261df33f1
-source-git-commit: 1b4a6d2b2ad57ddf1afd5dadf8b1fed358f95b61
+source-git-commit: 5cdc438c6757d438b2c09796cf77e59dc19c45d9
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
@@ -93,6 +93,9 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 <p><strong>Add a user to an organization that has not been onboarded to the Adobe Business Console</strong></p>
 
 -->
+>[!NOTE]
+>
+>Als uw organisatie momenteel bezig is met het verplaatsen naar de Adobe Admin Console, kunt u gebruikers in Workfront niet beheren (gebruikers toevoegen of verwijderen). U kunt deze handelingen uitvoeren in de Adobe Admin Console nadat de migratie is voltooid.
 
 Als u gebruikers wilt toevoegen aan de organisatie, moet u een beheerder zijn bij de organisatie waaraan u gebruikers wilt toevoegen. Voor informatie over rollen, zie {de rollen van 0} Organisatie in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/organizations/organization-roles.md).[
 
