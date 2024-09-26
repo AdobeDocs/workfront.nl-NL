@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 8dac7959919014d7bfbbbd39d193d026ca31c4b2
+source-git-commit: 0e7651389a8762a2b09b0bcf87bf08c7be72adee
 workflow-type: tm+mt
-source-wordcount: '2319'
+source-wordcount: '2353'
 ht-degree: 0%
 
 ---
@@ -279,6 +279,8 @@ Een berekening begint gewoonlijk met een expressie, gevolgd door haakjes die de 
 +++
 
    1. Klik in het grote tekstvakje, dan klik **Uitdrukkingen** en **Gebieden** die beschikbaar zijn om hen aan uw berekening toe te voegen.
+
+      Breid een objecten naam onder **Gebieden** uit om alle gebieden beschikbaar voor dat voorwerp te zien. De lijst mag uit maximaal 200 items bestaan. Als u de veldnaam kent, kunt u ernaar zoeken.
 
       U kunt ook een expressie of veld in het grote tekstvak typen en deze selecteren wanneer deze wordt weergegeven. Elk item wordt weergegeven met een &#39;F&#39; voor een veld of een &#39;E&#39; voor een expressie.
 
