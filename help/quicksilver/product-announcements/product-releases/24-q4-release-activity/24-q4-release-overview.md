@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
+source-git-commit: d3df6dca10054970feca493d27639cb8235ca5f5
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: '1600'
 ht-degree: 0%
 
 ---
@@ -103,16 +103,16 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoningsrelease: 12 augustus 2024</p>
+                                <p><s>Voorvertoningsrelease: 12 augustus 2024</s></p>
                             </li>
                             <li>
-                                <p>Productie voor snelle release: met de release van 24,9 (12 september 2024)</p>
+                                <p>Productie voor snelle afgifte: n.v.t.</p>
                             </li>
                             <li>
-                                <p>Productieversie voor alle klanten: TBD</p>
+                                <p>Productieversie voor alle klanten: n.v.t.</p>
                             </li>
                         </ul>
-                        <p><i>Deze functie maakt deel uit van een gefaseerde release en zal in september beschikbaar zijn voor een beperkt aantal klanten.</i></p>
+                        <p><i>Deze functie is verwijderd uit Voorvertoning en wordt niet vrijgegeven bij toekomstige releases.</i></p>
                     </td>
                 </tr>
            </tbody>
