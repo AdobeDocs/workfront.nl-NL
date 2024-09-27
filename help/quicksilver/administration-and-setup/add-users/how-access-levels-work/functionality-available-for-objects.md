@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 60e56dce7c4d0da07ba2d463766c8309e8aca23d
+source-git-commit: 56f59e901e4c20159cd8b40cea0cbbe24271099b
 workflow-type: tm+mt
-source-wordcount: '1612'
+source-wordcount: '1646'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,11 @@ ht-degree: 0%
 De volgende lijsten maken een lijst van de functionaliteit beschikbaar voor elk objecten type in de diverse toegangsniveaus.
 
 Het geeft ook aan welke handelingen Workfront-beheerders kunnen uitschakelen of inschakelen met behulp van een toegangsniveau.
+
+>[!NOTE]
+>
+>Dit artikel beschrijft functionaliteit beschikbaar aan toegangsniveaus in het huidige het planmodel van Workfront. Om functionaliteit beschikbaar in het nieuwe planmodel te zien, zie [ Functionaliteit beschikbaar voor elk objecten type voor diverse toegangsniveaus ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+
 
 ## Projecten
 
