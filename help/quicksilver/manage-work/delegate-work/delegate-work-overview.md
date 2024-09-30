@@ -7,9 +7,9 @@ description: Wanneer u van plan bent om voor een korte periode uit het bureau te
 author: Lisa
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 70e20df7c9738f33496e37b31b6e11caf0ac2f0f
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '870'
 ht-degree: 0%
 
 ---
@@ -28,13 +28,13 @@ U kunt de volgende objecten delegeren in [!DNL Adobe Workfront] :
 
 * Taken die aan u zijn toegewezen
 * Aan u toegewezen problemen
-* Goedkeuringen voor projecten, taken, uitgaven en documenten die aan u zijn toegewezen.
+* Goedkeuringen voor projecten, taken of uitgaven die aan u zijn toegewezen.
 
 Dit artikel bevat algemene informatie over het delegeren van taken en kwesties.
 
-Voor informatie over het delegeren van project, taak, kwestie, en documentgoedkeuringen, zie [ de goedkeuringsverzoek van de Afgevaardigde ](../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+Voor informatie over het delegeren van project, taak, en geeft goedkeuringen uit, zie [ de goedkeuringsverzoek van de Afgevaardigde ](../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 
-Voor informatie over hoe te om taken en kwesties te delegeren zie [ de taken en kwesties van de Afgevaardigde ](../../manage-work/delegate-work/how-to-delegate-work.md).
+Voor informatie over hoe te om taken en kwesties te delegeren, zie [ de taken en kwesties van de Afgevaardigde ](../../manage-work/delegate-work/how-to-delegate-work.md).
 
 ## Overzicht van werkzaamheden delegeren
 
@@ -43,6 +43,7 @@ Overweeg het volgende wanneer u taken en kwesties delegeert:
 * Uw [!DNL Workfront] - of groepsbeheerder moet de delegatievoorkeuren in het [!UICONTROL Setup] -gebied inschakelen voordat u uw werk aan anderen kunt delegeren.
 
   Voor informatie, zie [ de taak en de uitgevende voorkeur van het systeem brede ](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) vormen.
+
 * U kunt taken en problemen alleen delegeren vanuit het [!UICONTROL Home] -gebied.
 * Er zijn uitzonderingen voor de volgende licentietypen:
 
