@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: d3df6dca10054970feca493d27639cb8235ca5f5
+source-git-commit: 0ef7c526b06fc4f040a41e12e2eeec08c486137e
 workflow-type: tm+mt
-source-wordcount: '1600'
+source-wordcount: '1731'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,7 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
 
 * [Beheerdersverbeteringen](#administrator-enhancements)
 * [Verbeteringen voor integratie](#integration-enhancements)
+* [Verbeteringen voor startpagina](#home-enhancements)
 * [Projectverbeteringen](#project-enhancements)
 * [Verbeteringen voor proefdrukken](#proofing-enhancements)
 * [Verbeteringen voor rapport en dashboard](#report-and-dashboard-enhancements)
@@ -154,6 +155,48 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
            </tbody>
         </table>
 
+### Verbeteringen voor startpagina
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold"> Eigenschap </span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold"> de data van de Versie </span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md"> introducerend Prioriteiten: een eenvoudigere, gestroomlijnde, en intuïtieve ervaring van Workfront voor taakeigenaars.</a></p>
+                        <p>De prioriteiten verbeteren nadruk en productiviteit om klanten te helpen meer in minder tijd verwezenlijken.</p>
+                        <p>Met Prioriteiten kunt u genieten van:</p>
+                        <ul>
+                        <li>Dagelijkse taken beheren en prioriteit geven: uw dag of week ordenen met geconsolideerde navigatie voor meer duidelijkheid</li>
+                        <li>Grotere productiviteit: Toegang tot projectcontext en voer taken sneller uit met minder klikken</li>
+                        <li>Persoonlijke functies: profiteer van functies die speciaal voor taakeigenaars zijn ontworpen</li>
+                        </ul>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 3 oktober 2024</p>
+                            </li>
+                            <li>
+                                <p>Productieversie voor alle afnemers: 17 oktober 2024</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
+
 ### Projectverbeteringen
 
 <table>
@@ -227,6 +270,23 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
                     <td>
                         <p><span class="bold"> de data van de Versie </span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}"> de kwestie van het Exemplaar/van de deeg moeilijke situatie voor de Kijker van het Proofing van de Desktop </a></p>
+                        <p>Er is een probleem opgelost waarbij inhoud onjuist wordt geplakt in het gedeelte Updates van de Desktop Proofing Viewer.</p>
+                        <p>Nieuwe versie: 2.1.39</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 2 oktober 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Productieversie voor alle afnemers: 2 oktober 2024</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>

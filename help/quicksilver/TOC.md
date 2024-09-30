@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: b9a01dd8b46a4af195c00858ed91ad3b4995d51b
+source-git-commit: fe7ed0282a857fb8b7e0c2cfefb2accd17d88def
 workflow-type: tm+mt
-source-wordcount: '14419'
+source-wordcount: '14437'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 0%
          * [Overzicht van de release 2024 Q4](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
          * [2024 Q4 Verbeteringen voor beheerders](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md)
          * [Verbeteringen voor 2024 Q4-integratie](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md)
+         * [2024 Q4 Verbeteringen aan startpagina](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md)
          * [Verbeteringen van het Q4-project in 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md)
          * [Verbeteringen voor 2024 Q4-proefdrukken](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md)
          * [2024 Q4-rapport en verbeteringen in dashboard](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-report-and-dashboard-enhancements.md)
@@ -877,6 +878,9 @@ ht-degree: 0%
       * [De navigatie voor een gebruiker van een werkvergunning begrijpen](workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
       * [De navigatie voor een gebruiker van een revisielicentie begrijpen](workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
       * [Overzicht van de project-, taak- en emissiedata in Workfront](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
+   * Prioriteiten {#priorities}
+      * [Prioriteiten: artikelindex](workfront-basics/priorities/priorities-toc.md)
+      * [Aan de slag met prioriteiten](workfront-basics/priorities/get-started-with-priorities.md)
    * Home {#home}
       * [Home](workfront-basics/using-home/home.md)
       * Nieuwe startpagina {#new-home}
@@ -888,6 +892,7 @@ ht-degree: 0%
       * Het gebied Home gebruiken {#use-home-area}
          * [Het gebied Home gebruiken](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
          * [Verplaatsen van Legacy home naar New Home](workfront-basics/using-home/new-home/move-to-new-home.md)
+         * [Ga van Legacy naar Prioriteiten](workfront-basics/priorities/move-from-legacy-home-to-priorities.md)
          * [Aan de slag met Home](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
          * [Items weergeven in de werklijst in het gebied Home](workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
          * [Prioriteit geven aan werkzaamheden in het thuisgebied](workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)
