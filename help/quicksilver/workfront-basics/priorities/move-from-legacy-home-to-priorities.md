@@ -5,9 +5,9 @@ description: Legacy Home wordt op 10/17 uit Workfront verwijderd met de Q4-relea
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 3b530431ea9db318e03ac1f348e40cfbdedefc01
+source-git-commit: e0eeb62dc1e29849258fa7b111ccce6480767812
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
@@ -49,9 +49,7 @@ Groepen
 
 #### Werk delegeren
 
-Gebruikers kunnen op dit moment gedelegeerde werkzaamheden in Prioriteiten niet delegeren of bekijken.
-
-Gebruikers kunnen hun werk nog steeds delegeren vanuit New Home in de volgende widgets:
+Gebruikers kunnen op dit moment gedelegeerde werkzaamheden in Prioriteiten niet delegeren of bekijken. Gebruikers kunnen het werk echter wel delegeren vanuit New Home in de volgende widgets:
 
 * Mijn werk
 * Mijn taken
