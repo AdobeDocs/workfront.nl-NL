@@ -2,16 +2,16 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Een module genereren met behulp van AI
+title: Een scenario-segment genereren met behulp van AI
 description: U kunt een tekstherinnering ingaan om een module tot stand te brengen van HTTP die aan de herinnering wordt gevormd.
 author: Becky
 feature: Workfront Fusion
 hide: true
 hidefromtoc: true
 exl-id: 899641a0-a104-4be9-b423-34a32e985b53
-source-git-commit: 67e1d158b09ca339d25473ebedf8851155b2c1c0
+source-git-commit: 7013c8a88f047c5c8e769a4d7b71f2033c767b4a
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
@@ -93,6 +93,7 @@ Tekstopdrachten moeten minimaal de volgende informatie bevatten:
 >Dit omvat de toepassing `Workfront Planning` en de handeling `get field details` .
 >
 >Het volgende voorbeeld is NOT correct:
+>
 >* `Generate an image in Adobe Firefly and upload it to Dropbox`
 >
 >    Dit voorbeeld is onjuist omdat het meerdere toepassingen bevat
