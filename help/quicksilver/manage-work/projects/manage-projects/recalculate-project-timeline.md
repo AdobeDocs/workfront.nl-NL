@@ -6,9 +6,9 @@ description: Door de tijdlijnen opnieuw te berekenen kunnen beheerders zien hoe 
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
-source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
+source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1058'
 ht-degree: 0%
 
 ---
@@ -94,6 +94,11 @@ Door gebrek, worden de projectchronologie automatisch opnieuw berekend dagelijks
 
 * [ Automatische herberekening van projectchronologie ](#automatic-recalculation-of-project-timelines)
 * [Handelingen die een automatische herberekening van projecttijdlijnen activeren](#actions-that-trigger-an-automatic-recalculation-of-project-timelines)
+
+
+>[!IMPORTANT]
+>
+>Voor de milieu&#39;s van de Sandbox van de Voorproef en van de Douane verfrissen, wordt de niight herberekening onbruikbaar gemaakt, en de projectchronologie worden niet automatisch opnieuw berekend. U moet de projectchronologie voor de Voorproef en de Douane manueel opnieuw berekenen vernieuwt Sandbox milieu&#39;s.
 
 ### Automatische herberekening van projecttijdlijnen {#automatic-recalculation-of-project-timelines}
 

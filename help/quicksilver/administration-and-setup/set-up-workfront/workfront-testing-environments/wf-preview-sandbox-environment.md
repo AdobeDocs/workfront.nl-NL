@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1257'
 ht-degree: 0%
 
 ---
@@ -168,6 +168,16 @@ Wanneer uw zandbak van de Voorproef (elk weekend) verfrist, wordt de informatie 
 De stappen voor het vormen van enig teken-binnen in de zandbak van de Voorproef zijn gelijkaardig aan die voor het vormen van het in het milieu van de Productie.
 
 Voor meer informatie over het vormen [!DNL Workfront] met SSO, zie [ Overzicht van enige teken-op in Adobe Workfront ](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+
+## Automatische herberekening van projecttijdlijnen
+
+Het opnieuw berekenen van chronologie staat managers toe om te zien hoe de krachten buiten het project de chronologie van het project beïnvloeden. De tijdlijn van een project verwijst naar de geplande en geplande data voor het project.
+
+Als Workfront-beheerder kunt u configureren wanneer Workfront de projecttijdlijnen automatisch opnieuw berekent. Workfront kan projectchronologie of elke nacht opnieuw berekenen of wanneer het projectwerkingsgebied verandert, of allebei.
+
+Voor informatie, zie [ chronologieherberekeningen voor projecten ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md) vormen.
+
+Voor de omgeving van de Voorproef, wordt de niight herberekening onbruikbaar gemaakt, en de projectchronologie worden niet automatisch opnieuw berekend. U moet de projectchronologie voor het milieu van de Voorproef manueel opnieuw berekenen. Voor informatie, zie [ projectchronologie ](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md) opnieuw berekenen.
 
 ## Voorbeeld van prestaties en beschikbaarheid van omgeving
 

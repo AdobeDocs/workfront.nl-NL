@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
 workflow-type: tm+mt
-source-wordcount: '1610'
+source-wordcount: '1720'
 ht-degree: 0%
 
 ---
@@ -199,6 +199,16 @@ Voor meer informatie over het vormen [!DNL Workfront] met SSO, zie [ Overzicht v
 >[!NOTE]
 >
 >Dit is niet beschikbaar als de [!DNL Workfront] -instantie van uw organisatie is ingeschakeld met Adobe IMS. Zie uw netwerk of beheerder van IT als u meer informatie nodig hebt.
+
+## Automatische herberekening van projecttijdlijnen
+
+Het opnieuw berekenen van chronologie staat managers toe om te zien hoe de krachten buiten het project de chronologie van het project beïnvloeden. De tijdlijn van een project verwijst naar de geplande en geplande data voor het project.
+
+Als Workfront-beheerder kunt u configureren wanneer Workfront de projecttijdlijnen automatisch opnieuw berekent. Workfront kan projectchronologie of elke nacht opnieuw berekenen of wanneer het projectwerkingsgebied verandert, of allebei.
+
+Voor informatie, zie [ chronologieherberekeningen voor projecten ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md) vormen.
+
+In de omgeving van Aangepaste sandbox vernieuwen is het nippertje opnieuw berekenen uitgeschakeld en worden de projecttijdlijnen niet automatisch opnieuw berekend. U moet de projectchronologie voor de Douane manueel opnieuw berekenen vernieuwt Sandbox milieu. Voor informatie, zie [ projectchronologie ](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md) opnieuw berekenen.
 
 ## Beoogd gebruik en beschikbaarheid
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 67028988-6ac3-48d4-957e-1b5202d33c48
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -77,6 +77,11 @@ Voor informatie over de Types van Update van het project, zie [ Overzicht van he
 1. Klik op **[!UICONTROL Save]**.
 
    De chronologie van alle projecten in het systeem herberekent automatisch gebaseerd op het Type van Update van elk project.
+
+>[!IMPORTANT]
+>
+>Voor de milieu&#39;s van de Sandbox van de Voorproef en van de Douane verfrissen, wordt de niight herberekening onbruikbaar gemaakt, en de projectchronologie worden niet automatisch opnieuw berekend. U moet de projectchronologie voor de Voorproef en de Douane manueel opnieuw berekenen vernieuwt Sandbox milieu&#39;s. Voor informatie, zie [ projectchronologie ](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md) opnieuw berekenen.
+
 
 ## Tijdlijnen voor de gehele [!DNL Workfront] -instantie opnieuw berekenen
 
