@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: db7b5213fb58e219fdabbacfa5bddac7b9da0b00
+source-git-commit: a9cc21d182051410c87e1b6a4fbe8fd8cbe2a178
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
@@ -18,10 +18,6 @@ ht-degree: 0%
 # Overzicht van aangepaste formulieren
 
 <!--Audited: 12/2023-->
-
-{{highlighted-preview}}
-
-{{form-designer-default}}
 
 U kunt een aangepast formulier maken dat gebruikers aan een Adobe Workfront-object kunnen koppelen. Gebruikers die aan het object werken, kunnen het aangepaste formulier invullen om informatie over het object te geven.
 
@@ -32,8 +28,6 @@ Bijvoorbeeld, kunt u een douaneformulier met de naam &quot;het Onderzoek van de 
 ## Een aangepast formulier maken
 
 De formulierontwerper heeft een werkruimte in canvasstijl waarmee u de velden, het canvas en de veldinstellingen tegelijkertijd kunt bekijken. U kunt ook velden in de secties slepen en neerzetten terwijl u het formulier ontwerpt. U kunt de grootte aan de rechterkant van het scherm aanpassen om meer ruimte voor de veldopties te bieden.
-
-<span class="preview"> de knoop van de Lay-out van A (niet getoond in dit beeld) staat u toe om van een twee of drie-kolom het werk gebied te kiezen. De knop geeft aan welke indeling momenteel is geselecteerd. In de indeling met drie kolommen worden de veldinstellingen uiterst rechts weergegeven. In de twee-kolom lay-out, worden de gebiedsmontages getoond naast de gebiedsbibliotheek in de uiterst linkerkolom.</span>
 
 Voor meer informatie, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
