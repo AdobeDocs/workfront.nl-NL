@@ -8,28 +8,30 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: cf722e3dc021cf4302e9542fd65a0e5dd0043de5
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '808'
 ht-degree: 0%
 
 ---
 
 # Nieuwe startpagina aanpassen met een lay-outsjabloon
 
-Met een lay-outsjabloon kunt u configureren wat gebruikers zien wanneer ze nieuwe startpagina openen.
+Met een lay-outsjabloon kunt u configureren wat gebruikers zien wanneer ze nieuwe startpagina voor het eerst openen.
 
 U kunt configureren:
 
-* Welke widgets standaard in de werkruimte worden weergegeven en de lay-out ervan op de pagina
+* Welke widgets standaard in de werkruimte worden weergegeven
 * Welke achtergrond is geselecteerd
 * Specifieke widgetinstellingen, waaronder de filters en groepen die beschikbaar zijn voor de widgets Mijn projecten, Mijn taken en Mijn problemen, en de standaardwaarden
 
 >[!IMPORTANT]
 >
->De sjablonen voor de beheerderslay-out die op deze pagina worden beschreven, hebben voorrang op de aanpassingsopties van individuele gebruikers.
->
->Wanneer wijzigingen in een lay-outsjabloon worden opgeslagen, wordt de nieuwe startpagina van gebruikers in die lay-outsjabloon aangepast aan de lay-outsjabloon en worden hun bestaande widgetselecties onder aan de pagina geplaatst. Widgets die door de beheerder zijn geselecteerd, kunnen door een gebruiker worden verplaatst en van grootte worden gewijzigd, maar kunnen niet worden verwijderd.
+>Eindgebruikers kunnen hun achtergrond en widgets opnieuw ordenen op de pagina wijzigen nadat het Lay-outsjabloon is toegepast. Ze kunnen geen widgets verwijderen die door een Workfront-beheerder zijn opgenomen.
+> <br>
+>Beheerders kunnen nieuwe widgets toevoegen aan gebruikers. Als een eindgebruiker echter zijn widgetvolgorde of achtergrondselectie al heeft aangepast, worden deze specifieke aanpassingen niet gewijzigd.
+
+
 
 Voor informatie over nieuw Huis, zie [ begonnen worden met Nieuw Huis ](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
@@ -72,6 +74,8 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
 +++
 
 ## Nieuwe startpagina aanpassen met een lay-outsjabloon
+
+Nieuwe startpagina aanpassen met een lay-outsjabloon:
 
 1. Begin werkend aan een lay-outmalplaatje, zoals die in [ wordt beschreven creeer en beheer lay-outmalplaatjes ](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
