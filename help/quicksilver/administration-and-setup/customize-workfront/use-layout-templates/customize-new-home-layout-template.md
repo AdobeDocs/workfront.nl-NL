@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: cf722e3dc021cf4302e9542fd65a0e5dd0043de5
+source-git-commit: 21e81e6395680e3ea7ffd05424217e5352fff0f6
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -114,7 +114,7 @@ Nieuwe startpagina aanpassen met een lay-outsjabloon:
       <p>Nadat u de widget hebt geselecteerd die u wilt bewerken, worden de beschikbare opties rechts weergegeven. Deze opties omvatten <b> Filters </b>, <b> Kolommen </b>, en <b> Groepen </b>. U kunt:</p>
       <ul>
       <li><p><b>Selecteer en bestel filters, kolommen of groepen die beschikbaar zijn voor gebruikers:</b></p>
-      <p>Schakel het vakje naast alle opties in de lijst in die gebruikers mogen gebruiken. Niet-geselecteerde opties worden niet weergegeven voor gebruikers. Met de opties voor slepen en neerzetten in de lijst kunt u een volgorde instellen.</li></p>
+      <p>Schakel het vakje naast alle opties in de lijst in die gebruikers mogen gebruiken. Deze opties gelden niet voor het deelvenster Samenvatting. U moet dat gebied configureren op het tabblad Samenvatting in het Lay-outsjabloon. Niet-geselecteerde opties worden niet weergegeven voor gebruikers. Met de opties voor slepen en neerzetten in de lijst kunt u een volgorde instellen.</li></p>
       <p>
 
 >[!IMPORTANT]
