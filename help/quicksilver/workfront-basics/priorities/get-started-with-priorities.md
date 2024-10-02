@@ -5,9 +5,9 @@ description: Prioriteiten zijn een gestroomlijnde, intuïtieve ervaring die is a
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: fa7bb26215caba62edfbe8eabc15526427abd0b8
+source-git-commit: 08221eb867a052187138be5c51a8720bb095f31b
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '832'
 ht-degree: 0%
 
 ---
@@ -182,6 +182,7 @@ Met de functie Ophalen kunt u zien wat u hebt gemist. Vangst me omhoog zal updat
 
 ## Overwegingen
 
+* Workfront-beheerders kunnen op dit moment geen prioriteiten aanpassen via de lay-outsjabloon.
 * Toegang tot taken in Prioriteiten is op verschillende tabbladen beschikbaar. We zijn van plan om in de toekomst extra tabbladen toe te voegen, zoals Documenten, Subtaken, Goedkeuringen, enzovoort. Laat ons weten u deze punten nodig hebt door terug te geven gebruikend **geef Terugkoppeling** knoop.
 
 

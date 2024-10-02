@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: a3b172a40dc539504da356f37377d2332edad4dc
 workflow-type: tm+mt
 source-wordcount: '1729'
 ht-degree: 0%
@@ -41,9 +41,9 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
 * [Verbeteringen voor proefdrukken](#proofing-enhancements)
 * [Verbeteringen voor rapport en dashboard](#report-and-dashboard-enhancements)
 * [Andere verbeteringen](#other-enhancements)
-* [Functionaliteit binnenkort verwijderd uit Workfront](#functionality-soon-to-be-removed-from-workfront)
+* [Functionaliteit die binnenkort uit Workfront wordt verwijderd](#functionality-soon-to-be-removed-from-workfront)
 
-### Verbeteringen voor beheerders
+### Beheerdersverbeteringen
 
 <table>
             <col style="width: 50%;" />
@@ -61,7 +61,7 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}"> A "selecteer allen"optie is nu beschikbaar in lay-outmalplaatjes </a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}"> A "Uitgezocht allen"optie is nu beschikbaar in lay-outmalplaatjes </a></p>
                         [!BADGE in productie ]{type=Informative}
                         <p>Om u gemakkelijker te helpen gebieden met lay-outmalplaatjes tonen en verbergen, werd een "Uitgezocht allen"controlevakje toegevoegd aan de het Overzicht en van Financiën gebieden van de mening van Details in een lay-outmalplaatje. Deze optie is beschikbaar wanneer u Project, Taak, Uitgave, Portfolio, of Programma onder "Aanpassen wat de gebruikers zien"hebt geselecteerd.</p>
                     </td>
@@ -173,7 +173,7 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md"> introducerend Prioriteiten: een eenvoudigere, gestroomlijnde, en intuïtieve ervaring van Workfront voor taakeigenaars.</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md"> introducerend Prioriteiten: een eenvoudigere, gestroomlijnde, en intuïtieve ervaring van Workfront voor taakeigenaars </a></p>
                         <p>De prioriteiten verbeteren nadruk en productiviteit om klanten te helpen meer in minder tijd verwezenlijken.</p>
                         <p>Met Prioriteiten kunt u genieten van:</p>
                         <ul>
@@ -237,18 +237,18 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}"> relevantere slimme taken </a></p>
                         [!BADGE in productie voor Snelle Versie ]{type=Positive}
-                        <p>We hebben het algoritme gewijzigd dat Workfront gebruikt om slimme toewijzingen voor taken te berekenen en voor te stellen. Het nieuwe algoritme is van toepassing op de volgende gebieden in Workfront waar u een taak toewijst: taaklijsten, het gebied Toewijzingen in de taakkoptekst, Home en het deelvenster Samenvatting.</p>
+                        <p>We hebben het algoritme gewijzigd dat Workfront gebruikt om slimme toewijzingen voor taken te berekenen en voor te stellen. Het nieuwe algoritme is van toepassing op de volgende gebieden in Workfront waar u een taak toewijst: taaklijsten, het gebied van Toewijzingen in de taakkopbal, Huis, en het Summiere paneel.</p>
                     </td>
-                    <td><p><b>Beschikbaar op deze datums:</b></p>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
                                 <p>Voorvertoningsrelease: 21 december 2023</p>
                             </li>
                             <li>
-                                <p>Productie voor snelle release: met de 24.5-versie (16 mei 2024)</p>
+                                <p>Productie voor snelle release: met 24,5 release (16 mei 2024)</p>
                             </li>
                             <li>
-                                <p>Productieversie voor alle klanten: met de 24.10-versie (17 oktober 2024)</p>
+                                <p>Productieversie voor alle klanten: met de release van 24.10 (17 oktober 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -296,20 +296,20 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
                         <p>We hebben een probleem verholpen met de nieuwe versie van 2.1.36 Desktop Proofing Viewer. Hierdoor kregen sommige Windows-gebruikers een leeg scherm te zien nadat ze de viewer hadden geopend. </p>
                         <p>Nieuwe versie voor Windows-gebruikers: 2.1.37</p>
                     </td>
-                    <td><p><b>Beschikbaar op deze datums:</b></p>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
                                 <p>Voorvertoningsrelease: 30 augustus 2024</p>
                             </li>
                             <li>
-                                <p><span class="preview">Productieversie voor alle klanten: 30 augustus 2024</span></p>
+                                <p><span class="preview">Productieversie voor alle afnemers: 30 augustus 2024</span></p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}"> Chromiumupdate voor de Desktop Proofing Viewer </a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}"> Chromium update voor de Desktop Proofing Viewer </a></p>
                         [!BADGE in productie ]{type=Informative}
                         <p>We upgraden de Desktop Proofing Viewer naar ondersteuning voor Chromium 126.0.6478.127, waarmee problemen met UI-elementen in interactieve proefdrukken worden opgelost.</p>
                     </td>
@@ -423,7 +423,7 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
            </tbody>
         </table>
 
-### Functionaliteit binnenkort verwijderd uit Workfront
+### Functionaliteit die binnenkort uit Workfront wordt verwijderd
 
 De volgende functionaliteit wordt binnenkort verwijderd uit Workfront:
 
@@ -449,7 +449,7 @@ Er zijn op dit punt in de release geen Scenario Planner-updates. Dit gebied word
 
 Er zijn op dit moment geen Workfront Proof-updates beschikbaar. Dit gebied wordt bijgewerkt wanneer er updates beschikbaar zijn.
 
-### Verbeteringen aan Workfront-doelen
+### Verbeteringen voor Workfront-doelen
 
 Er zijn op dit moment geen updates voor Workfront Goals beschikbaar in de release. Dit gebied wordt bijgewerkt wanneer er updates beschikbaar zijn.
 
