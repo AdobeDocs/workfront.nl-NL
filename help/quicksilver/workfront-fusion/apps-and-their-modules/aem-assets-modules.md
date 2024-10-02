@@ -10,9 +10,9 @@ description: Met de  [!DNL Adobe Experience Manager Assets]  schakelaar voor  [!
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
+source-git-commit: 993d10a93eca28573aaa38e4ce76e5a1b30ec42e
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1456'
 ht-degree: 0%
 
 ---
@@ -127,20 +127,28 @@ Verbinding maken voor uw [!DNL Adobe Experience Manager Assets] -modules:
                   <td>Voer de URL voor de instantie [!DNL Adobe Experience Manager] in. Plaats geen schuine streep <code>/</code> aan het einde van de URL.</td>
               </tr>
               <tr>
+                  <td role="rowheader">[!UICONTROL Account details fill options]</td>
+                  <td>Selecteer of u JSON wilt opgeven met een beschrijving van uw accountgegevens of dat u de gegevens handmatig wilt invoeren.</td>
+              </tr>
+              <tr>
+                  <td role="rowheader">[!UICONTROL Technical account details in JSON format]</td>
+                  <td>Als u JSON opgeeft, voert u de JSON in of plakt u deze met een beschrijving van uw accountgegevens.</td>
+              </tr>
+              <tr>
                   <td role="rowheader">[!UICONTROL Client ID]</td>
-                  <td>Voer de client-id in die in de setup van [!UICONTROL Server-to-server] wordt gegenereerd.</td>
+                  <td>Als u de details handmatig invoert, voert u de client-id in die is gegenereerd in de setup van [!UICONTROL Server-to-server] .</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Client Secret]</td>
-                  <td>Voer het clientgeheim in dat in de [!UICONTROL Server-to-server] -instelling wordt gegenereerd.</td>
+                  <td>Als u de details handmatig invoert, voert u het clientgeheim in dat in de setup van [!UICONTROL Server-to-server] wordt gegenereerd.</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Technical account ID]</td>
-                  <td>Voer de id van de technische rekening in. Dit is het veld "[!UICONTROL id]" in het JSON-bestand met clientreferenties.</td>
+                  <td>Voer de id van de technische account in als u de gegevens handmatig invoert. Dit is het veld "[!UICONTROL id]" in het JSON-bestand met clientreferenties.</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Org ID]</td>
-                  <td class="">Voer de id van uw organisatie in. Dit is het veld "[!UICONTROL org]" in het JSON-bestand met clientreferenties.</td>
+                  <td class="">Voer de id van uw organisatie in als u de gegevens handmatig invoert. Dit is het veld "[!UICONTROL org]" in het JSON-bestand met clientreferenties.</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Meta Scopes]</td>
