@@ -7,9 +7,9 @@ description: Een kalenderrapport is een dynamisch rapport dat een visuele verteg
 author: Lisa
 feature: Reports and Dashboards
 exl-id: c65cf8ab-e37f-42a4-9a81-70962629e9ba
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,3 @@ Binnen elk kalenderrapport, kunt u groepen punten tot stand brengen die u toesta
 >[!NOTE]
 >
 >Als u een 504 fout wanneer het runnen van een kalenderrapport ziet, hebt u waarschijnlijk teveel filters in het rapport. Door het aantal filters te verminderen, kan het rapport worden uitgevoerd.
-
-## Uw kalenders toevoegen aan een dashboard
-
-U kunt uw kalenderrapporten snel toegang hebben door hen op een dashboard te tonen. Leren hoe te om een kalender aan een dashboard toe te voegen, zie [ een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md) uitgeven.

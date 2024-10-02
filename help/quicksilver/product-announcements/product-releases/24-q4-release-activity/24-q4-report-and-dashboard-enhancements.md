@@ -4,9 +4,9 @@ description: Rapport en verbeteringen van dashboard voor vierde kwartaal 2024
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2c6d01d009e3dc09b65d7c414e1a3d8536d384e0
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwar
 
 >[!NOTE]
 >
->Productieversie voor alle klanten: met de release van 24.10 (oktober 2024)
+>Productieversie voor alle klanten: met de release van 24.10 (17 oktober 2024)
 >
 >_slechts beschikbaar voor organisaties op één van de nieuwe plannen van Adobe Workfront. Gegevens verbinden is inbegrepen in het Ultimate plan of kan als toe:voegen-op aan de Primaire en Uitgezochte plannen worden gekocht._
 

@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,45 @@ Om uw Gegevens aan te sluiten verbind gegevens meer met een extern product, moet
 >Zodra één ingang aan de IP lijst van gewenste personen wordt toegevoegd, zijn alle andere IP adressen niet meer toegestaan. Zorg ervoor dat u alle vereiste IP-adressen hebt ingevoerd, zowel voor het maken als voor het lezen van uw visualisatieprogramma, voordat u het gereedschap gaat gebruiken. Als dat niet het geval is, kan er een fout optreden met betrekking tot ongeldige referenties.
 >
 >Als u geen IP adressen inbegrepen in uw lijst van gewenste personen hebt maar nog problemen heeft die met een hulpmiddel verbinden BI, controleer de configuratie van de volmachtsserver voor het hulpmiddel van BI.
+
+## Toegangsvereisten
+
++++ Vouw uit om de vereisten voor toegang weer te geven.
+
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td><p>Opgenomen in de volgende plannen:</p>
+    <ul>
+        <li>Ultieme</li> 
+    </ul>    
+   <p>Kan worden aangeschaft als een toevoeging bij de volgende plannen:</p> 
+    <ul>
+        <li>Selecteren</li> 
+        <li>Eerste</li>
+    </ul> 
+    <p>Workfront Data Connect is niet beschikbaar voor oudere Workfront-plannen.</p> 
+   </td> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td>Plan</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>U moet een Workfront-beheerder zijn.</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Voeg IPs aan de lijst van gewenste personen toe
 

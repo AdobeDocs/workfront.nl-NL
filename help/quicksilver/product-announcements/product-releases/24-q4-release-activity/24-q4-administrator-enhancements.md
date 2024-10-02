@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: b0b56dfb8d50fbbd40e2a1de82f95352c182615a
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Voor meer informatie, zie [ de mening van Details aanpassen gebruikend een lay-o
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 29 augustus 2024; productie voor snelle release: met de release van 24.9 (12 september 2024); productie voor driemaandelijkse release: met de release van 24.10 (oktober 2024)
+>Voorvertoningsrelease: 29 augustus 2024; productie voor snelle release: met de release van 24.9 (12 september 2024); productie voor driemaandelijkse release: met de release van 24.10 (17 oktober 2024)
 
 Om de bevordering van het milieu flexibeler en gemakkelijker te gebruiken te maken, hebben wij terugschroeven van prijzen functionaliteit toegelaten. Nu kunt u pakketten binnen 24 uur terugdraaien, zodat u eerdere configuraties die zijn beïnvloed door een milieubevorderingspakket eenvoudiger kunt herstellen.
 

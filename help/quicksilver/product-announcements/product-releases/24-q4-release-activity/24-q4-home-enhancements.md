@@ -4,9 +4,9 @@ description: Verbeteringen startpunt vierde kwartaal 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c32d08a0b32c6695a29ef45400a7eb1e10e665fd
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,10 @@ Op deze pagina worden alle Home-verbeteringen beschreven die zijn aangebracht me
 Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2024 versiecyclus, zie [ Vierde Kwartaal 2024 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 
 ## Vereenvoudig de Workfront-ervaring voor taakeigenaars met prioriteiten
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 3 oktober 2024; Productieversie voor alle klanten: met de release van 24.10 (17 oktober 2024).
 
 Introductie van Prioriteiten: een eenvoudigere, gestroomlijnde en intuïtievere Workfront-ervaring voor taakeigenaars.
 

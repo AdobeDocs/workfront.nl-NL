@@ -6,9 +6,9 @@ description: Plan een automatische levering van rapporten
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: 4bd88c0e4a3d27e30580fefea993224fe5446e32
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1272'
 ht-degree: 0%
 
 ---
@@ -160,6 +160,12 @@ Om een rapport voor automatische levering te plannen of een bestaande rapportlev
    De rapportvertoningen in de **Herhalende Leveringen** sectie (in **verzenden het de dialoogvakje van het Rapport**) en het zal op de geplande tijd verzenden.
 
    Voor informatie over groottebeperkingen die de levering van uw rapporten kunnen beïnvloeden, zie de de leveringsgrenzen van het sectierapport [ ](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#understanding-export-limits) en [ de grenzen van de Uitvoer ](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#export).
+
+>[!IMPORTANT]
+>
+>Geplande rapporten zijn onderworpen aan een interne tijdslimiet wanneer zij voor levering worden verwerkt. Als een rapport langer duurt dan de te verzenden limiet, ontvangt u een melding en wordt het rapport niet meer bezorgd, ongeacht de resterende geplande leveringen. Om het rapport verder te verzenden, probeer eerst de grootte van het rapport door filters en meningen te verminderen, dan creeer een nieuwe geplande levering.
+>
+>Als u een gepland rapport gebruikt om Workfront-gegevens te analyseren met een BI-programma, raden we u aan in plaats daarvan Workfront Data Connect te gebruiken. Voor meer informatie, zie [ de Gegevens van Workfront verbinden overzicht ](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
 
 1. (Optioneel) Een geplande levering verwijderen:
 

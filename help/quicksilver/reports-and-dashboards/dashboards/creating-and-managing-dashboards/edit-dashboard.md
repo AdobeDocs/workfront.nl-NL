@@ -6,9 +6,9 @@ description: Het doel van het dashboard is om snel toegang tot informatie te bie
 author: Nolan
 feature: Reports and Dashboards
 exl-id: de15ab45-4bcd-4638-b3d7-fc70a0866d2d
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -21,10 +21,6 @@ Het doel van het dashboard is om snel toegang tot informatie te bieden. In Adobe
 
   Voor meer informatie over het creëren van rapporten, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
-* Kalenders
-
-  Voor meer informatie over het creëren van kalenders, zie [ Kalenders: artikelindex ](../../../reports-and-dashboards/reports/calendars/calendars.md).
-
 * Externe pagina&#39;s
 
   Voor meer informatie over het creëren van externe pagina&#39;s, zie [ een externe Web-pagina in een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md) inbedden.
@@ -33,7 +29,7 @@ Nadat u deze items hebt gemaakt en deze aan een dashboard hebt toegevoegd, kunt 
 
 Wijzigingen die worden aangebracht in een dashboard, zijn van invloed op alle gebruikers die toegang hebben tot dat dashboard.
 
-Wanneer u een dashboard met gebruikers deelt, worden alle rapporten, kalenders, en externe pagina&#39;s ook gedeeld met de zelfde gebruikers.
+Wanneer u een dashboard met gebruikers deelt, worden alle rapporten en externe pagina&#39;s ook gedeeld met de zelfde gebruikers.
 
 ## Toegangsvereisten
 
@@ -86,7 +82,7 @@ Voor informatie bij het creëren van dashboards, zie [ een dashboard ](../../../
    * **Naam**: geef de naam van het dashboard uit.
    * **Beschrijving**: Specificeer een beschrijving voor het dashboard.
 
-1. In de **Beschikbare Rapporten &amp; Calendars** sectie, begin de naam van een rapport, een kalender, of externe pagina in het **Onderzoek door naam of type...** gebied, dan belemmering en laat vallen het rapport of de kalender in de lay-outruit aan het recht.
+1. In de **Beschikbare sectie van Rapporten**, begin de naam van een rapport of externe pagina in het **Onderzoek door naam of type te typen..** gebied, dan belemmering en laat vallen het rapport in de lay-outruit aan het recht.
 
    >[!NOTE]
    >
