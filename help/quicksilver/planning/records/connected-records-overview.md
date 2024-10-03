@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
+source-git-commit: 64a8d2ff8546874cf829738dcea03b2946c360cb
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
-
 
 # Overzicht van verbonden records
 
@@ -30,9 +30,9 @@ Voor informatie over hoe u verslagen met elkaar of met een ander voorwerp kunt v
 * U kunt records en objecten van de gekoppelde record- en objecttypen bladeren en deze toevoegen vanuit de gekoppelde recordvelden.
 * U kunt velden (opzoekvelden) van de gekoppelde recordtypen toevoegen aan de tabel van het recordtype waarvan u een koppeling maakt.
 
-  U kunt velden (opzoekvelden) toevoegen van de recordtypen die u koppelt in de tabel van het recordtype waarnaar u een koppeling maakt.
+  U kunt ook velden (opzoekvelden) toevoegen van de recordtypen die u koppelt in de tabel van het recordtype waarnaar u een koppeling maakt.
 
-  Als u bijvoorbeeld het recordtype product van het recordtype Campagne koppelt, kunt u de velden Product voor campagnes en Campagne voor Producten weergeven.
+  Als u bijvoorbeeld het recordtype product van het recordtype Campagne koppelt, kunt u zowel productvelden voor campagnes als campagnevelden voor producten weergeven.
 * U kunt de waarden van opzoekvelden in de records waarvan u een koppeling maakt, niet handmatig bijwerken.
 
   De waarden van de opzoekvelden vullen de Workfront-planningsrecord die u koppelt automatisch nadat deze zijn bijgewerkt in de oorspronkelijke record of het oorspronkelijke object.
@@ -54,4 +54,3 @@ U kunt records in de volgende gebieden verbinden met andere records of met objec
 * U kunt Workfront-objecten verbinden met Workfront Planning-records in de volgende gebieden:
 
    * Vanuit het gedeelte Planning van een Workfront-object.
-

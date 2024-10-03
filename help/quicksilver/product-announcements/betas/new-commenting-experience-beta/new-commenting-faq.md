@@ -9,9 +9,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 5ce15530-0858-44a4-b928-779654310dee
-source-git-commit: 3bb0baa2e8831827f32156b1772fa9ee33694950
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ We zijn niet van plan om de mogelijkheid om deze handelingen uit te voeren terug
 
 ## Zijn er plannen om een gecombineerde mening van commentaren en systeemupdates te hebben?
 
-Er zijn momenteel geen plannen om een gecombineerde weergave te maken. Geef feedback en gebruik uw kwesties via de feedbackknop Feedback geven in de app of verzend aanvragen in het gebied Workfront Ideas van de community, zodat we beter kunnen begrijpen hoe nodig de functionaliteit is.
+Er zijn momenteel geen plannen om een gecombineerde weergave te maken. Gelieve te dienen een verzoek bij het team van de Steun indien nodig, zodat wij kunnen beter begrijpen hoe vereist de functionaliteit is.
 
 ## Zal u de functionaliteit van het ongedaan maken van een geposte opmerking terugbrengen?
 
@@ -40,11 +40,11 @@ We hebben de functionaliteit voor het ongedaan maken van een geposte opmerking v
 
 ## Zal de functionaliteit van het verwijderen van draaddeelnemers tot specifieke vergunningstypes worden beperkt?
 
-Er zijn momenteel geen plannen om toestemmings of toegangscontroles toe te voegen voor wie deze onlangs geïntroduceerde functionaliteit kan gebruiken. Geef feedback en gebruik uw kwesties via de feedbackknop in de app of verzend aanvragen in het gebied Workfront Ideas van de community, zodat we beter kunnen begrijpen hoe belangrijk deze functionaliteit is.
+Er zijn momenteel geen plannen om toestemmings of toegangscontroles toe te voegen voor wie deze onlangs geïntroduceerde functionaliteit kan gebruiken. Gelieve te dienen een verzoek bij het team van de Steun, indien nodig, zodat wij kunnen beter begrijpen hoe belangrijk deze functionaliteit is.
 
 ## Is er een manier om te bepalen wie opmerkingen kan bewerken?
 
-Er zijn momenteel geen plannen om machtigingen of toegangscontroles toe te voegen over wie opmerkingen kan bewerken. Geef feedback en gebruik uw kwesties via de feedbackknop in de app of verzend aanvragen in het gebied Workfront Ideas van de community, zodat we beter kunnen begrijpen hoe belangrijk deze functionaliteit is.
+Er zijn momenteel geen plannen om machtigingen of toegangscontroles toe te voegen over wie opmerkingen kan bewerken. Gelieve te dienen een verzoek bij het team van de Steun, indien nodig, zodat wij kunnen beter begrijpen hoe belangrijk deze functionaliteit is.
 
 ## Kunnen opmerkingen worden doorzocht of gefilterd?
 

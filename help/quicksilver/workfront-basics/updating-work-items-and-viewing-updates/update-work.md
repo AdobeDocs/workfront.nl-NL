@@ -6,9 +6,9 @@ description: U kunt een update toevoegen aan een Adobe Workfront-object (project
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '3007'
+source-wordcount: '3037'
 ht-degree: 0%
 
 ---
@@ -130,12 +130,19 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    * Vanuit een Workfront-object, in de sectie Updates (voor projecten, taken en problemen)
    * Vanuit het thuisgebied (voor taken en problemen)
+
+     Voor informatie, zie [ uw werk met Mijn widget van het Werk ](/help/quicksilver/workfront-basics/using-home/new-home/my-work-widget.md) leiden.
    * Vanuit het deelvenster Samenvatting op de volgende gebieden (voor taken, problemen en documenten):
 
       * Een lijst met objecten
       * Een tijdschema
       * Home
       * De werklastbalans
+
+     Raadpleeg de volgende artikelen voor meer informatie:
+
+      * [Overzicht van samenvattingen](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+      * [Werk de werkitems in de werklastbalans bij met de samenvatting](/help/quicksilver/resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
 
 <!--info for April 11: hide the section below: add an update to a work item-->
 

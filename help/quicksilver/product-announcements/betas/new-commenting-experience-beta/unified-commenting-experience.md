@@ -9,9 +9,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1071'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,8 @@ ht-degree: 0%
 >Het bètaprogramma voor de nieuwe opmerkingservaring begon in april 2023 en eindigde in oktober 2023, met de release van oktober 2023.
 >
 >Sinds 11 april 2024 zijn alle functies voor de nieuwe opmerkingervaring beschikbaar in de productieomgeving voor alle klanten.
+>
+> De vorige opmerkingervaring is uit Workfront verwijderd.
 
 ## Functies
 
@@ -47,7 +49,7 @@ De nieuwe ervaringen met opmerkingen bevatten onder andere de volgende verbeteri
 * Real-time indicator wanneer nieuwe opmerkingen worden toegevoegd aan een object
 * Opmerkingen bewerken na verzending
 
-De volgende functies zijn verwijderd of worden vervangen door de nieuwe ervaring:
+De volgende functies zijn verwijderd uit de nieuwe ervaring:
 
 * Opmerking over een systeemupdate. Opmerkingen die in het verleden aan de systeemupdates zijn toegevoegd, zijn geïmporteerd als alleen-lezen opmerkingen op het nieuwe tabblad Systeemactiviteit.
 * Mogelijkheid om Status, Voorwaarde, Datum vastleggen en Percentage van voltooiing te bewerken tijdens het plaatsen van opmerkingen over taken en problemen.
@@ -81,17 +83,14 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
   <tr>
    <td><strong> Functie </strong>
    </td>
-   <td><strong> Bestaat in oude het becommentariëren ervaring </strong>
+   <td><strong> Bestaand in oude ervaring met opmerkingen </strong>
    </td>
    <td><strong> Bestaat in de nieuwe het becommentariëren ervaring </strong>
    </td>
-   <td><strong> Wordt geïntroduceerd in de nieuwe opmerkingervaring </strong>
+
+<td><strong> Inleiding in de nieuwe het becommentariëren ervaring </strong>
    </td>
-   <td><strong> Wanneer wordt geïntroduceerd in de nieuwe opmerkingervaring </strong>
-   </td>
-   <td><strong> In onderzoek </strong>
-   </td>
-  </tr>
+   </tr>
   <tr>
    <td>Opmerkingen maken/lezen/beantwoorden/verwijderen 
    </td>
@@ -99,13 +98,11 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
   </td>
    <td>✓ 
    </td>
-   <td> 
+
+<td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>RTF-tekst (exclusief aanhalingstekens en emojis)
    </td>
@@ -113,12 +110,10 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td>✓
    </td>
-   <td> 
+
+<td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
+   &gt;
   </tr>
 
 <tr>
@@ -130,11 +125,8 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
 
 <tr>
    <td>RTF-tekst (blokaanhalingen)
@@ -143,13 +135,10 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td> ✓
    </td>
-   <td> 
+    <td> 2e kwartaal 2023
    </td>
-   <td> 2e kwartaal 2023
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
 <tr>
    <td> Opmerkingen prijsopgave
@@ -158,13 +147,10 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td> ✓
    </td>
-   <td> 
-   </td>
    <td> 2e kwartaal 2023
    </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>Reageren op opmerkingen (zoals) 
    </td>
@@ -174,11 +160,8 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>Afbeeldingen aan opmerkingen koppelen 
    </td>
@@ -186,13 +169,10 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td>✓ 
    </td>
-   <td> 
+      <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>Tags toewijzen aan personen in opmerkingen 
    </td>
@@ -202,11 +182,8 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>Deelnemers aan verbindingen verwijderen
    </td>
@@ -216,23 +193,13 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
   </tr>
-
-
-<tr>
+  <tr>
    <td>Automatisch alle deelnemers aan de verbinding labelen
    </td>
    <td> 
    </td>
    <td>✓
-   </td>
-   <td> 
-   </td>
-   <td> 
    </td>
    <td> 
    </td>
@@ -247,10 +214,6 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
   </tr>
   <tr>
    <td>Publiceren van een opmerking ongedaan maken 
@@ -259,11 +222,7 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td>Vervangen door bewerkingsopmerking 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
+     <td> 
    </td>
   </tr>
   <tr>
@@ -275,11 +234,7 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
   <tr>
    <td>Opmerkingen bewerken 
    </td>
@@ -289,11 +244,7 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
   <tr>
    <td>Concepten van opmerkingen opslaan wanneer u van de pagina af navigeert 
    </td>
@@ -303,21 +254,13 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
   <tr>
    <td>Nieuwe opmerkingen in real-time bekijken (zoals wanneer een opmerking wordt verwijderd)
    </td>
    <td> 
    </td>
    <td>✓
-   </td>
-   <td> 
-   </td>
-   <td> 
    </td>
    <td> 
    </td>
@@ -331,10 +274,6 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
   </tr>
     <tr>
    <td>Verbindingskoppeling kopiëren 
@@ -343,11 +282,7 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td> Vervangen door koppeling Kopiëren
    </td>
-   <td> 
-   </td>
    <td>2e kwartaal 2023 
-   </td>
-   <td> 
    </td>
   </tr>
   <tr>
@@ -359,11 +294,7 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
   <tr>
    <td>Tekst voor opmerkingen bij aanhalingstekens 
    </td>
@@ -371,13 +302,9 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td>✓
    </td>
-   <td> 
+  <td>2e kwartaal 2023 
    </td>
-   <td>2e kwartaal 2023 
-   </td>
-   <td> 
-   </td>
-  </tr>
+   </tr>
   <tr>
    <td>Platte tekst kopiëren 
    </td>
@@ -385,13 +312,9 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td> ✓
    </td>
-   <td> 
-   </td>
    <td>
    </td>
-   <td> 
-   </td>
-  </tr>
+   </tr>
     <tr>
    <td>Zoeken in opmerkingen 
    </td>
@@ -399,13 +322,10 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td> ✓
    </td>
-   <td> 
-   </td>
    <td>1e kwartaal 2024 
    </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
 
 <tr>
    <td>Afbeeldingen kopiëren en plakken in een opmerking
@@ -414,13 +334,9 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td> ✓
    </td>
-   <td> 
-   </td>
    <td>1e kwartaal 2024 
    </td>
-   <td> 
-   </td>
-  </tr>
+     </tr>
 
 <tr>
    <td>Afbeeldingen in een opmerking slepen en neerzetten
@@ -429,22 +345,14 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td> ✓
    </td>
-   <td> 
-   </td>
    <td>1e kwartaal 2024 
    </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
 
 <tr>
    <td>Aangepast formulier bewerken 
    </td>
    <td>✓ 
-   </td>
-   <td> 
-   </td>
-   <td> 
    </td>
    <td> 
    </td>
@@ -460,10 +368,6 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td>
-   </td>
   </tr>
 <tr>
    <td>Reageren op systeemupdates 
@@ -472,11 +376,7 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
    <td>
-   </td>
-   <td> 
    </td>
   </tr>
 <tr>
@@ -486,11 +386,7 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td> ✓
    </td>
-   <td> 
-   </td>
    <td>
-   </td>
-   <td> 
    </td>
   </tr>
 
@@ -499,13 +395,9 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td> ✓
    </td>
-   <td> Kan later worden vrijgegeven
-   </td>
    <td> 
    </td>
-   <td>
-   </td>
-   <td> ✓
+   <td> 
    </td>
   </tr>
 </table>
@@ -519,41 +411,41 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
 >Voor meer informatie over het beheren van updates voor de voorwerpen van Workfront, zie [ het werk van de Update ](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 
-Hieronder volgt een gepland tijdschema met de belangrijkste mijlpalen voor het vrijgeven van de nieuwe opmerkingservaring voor de productieomgeving. Naast de onderstaande mijlpalen zullen we de ervaring met opmerkingen verder verbeteren met kleinere verbeteringen.
+In de volgende informatie wordt de tijdlijn beschreven met de belangrijkste mijlpalen voor het vrijgeven van de nieuwe opmerkingservaring voor de productieomgeving. Naast de onderstaande mijlpalen zullen we de ervaring met opmerkingen verder verbeteren met kleinere verbeteringen.
 
-Raadpleeg de overzichtspagina van de huidige release voor informatie over de functies die na het sluiten van de bètaperiode worden vrijgegeven voor de nieuwe opmerkingervaring.
+Raadpleeg de overzichtspagina van de huidige release voor informatie over de functies die na het sluiten van de bètaperiode worden vrijgegeven voor de nieuwe opmerkingervaring. Voor meer informatie, zie {de versies van het 0} Product ](/help/quicksilver/product-announcements/product-releases/product-releases.md).[
 
-Hier volgt een geplande tijdlijn voor de release van de nieuwe opmerkingervaring:
+Hieronder volgt een geplande tijdlijn voor de release van de nieuwe opmerkingervaring:
 
 * Met de release van 23.2 (6 april 2023):
-   * Beta voor opmerkingen starten voor problemen
-   * De nieuwe ervaring met opmerkingen opheffen voor doelen (als enige ervaring)
+   * Beta heeft opmerkingen gemaakt voor problemen
+   * De nieuwe opmerkingervaring voor doelen uitgebracht (als enige ervaring)
 * Met 23.3 release (20 juli 2023):
-   * Start de opmerkingervaring in Beta voor projecten, taken en documenten.
-   * De nieuwe opmerkingervaring opheffen voor kaarten in het gebied Boards (als enige ervaring)
+   * Beta is gestart met opmerkingen voor projecten, taken en documenten.
+   * De nieuwe opmerkingervaring voor kaarten in het gebied van de Raad van Bestuur (als enige ervaring) vrijgegeven
 * Tijdens de release van het vierde kwartaal van 2023 (beperkte release, alleen beschikbaar voor klanten die de snelle release kiezen):
-   * De nieuwe ervaring met opmerkingen opheffen voor sjablonen, sjabloontaken, programma&#39;s, portfolio&#39;s, teams, gebruikers en tijdbladen (als enige ervaring)
-   * Werk de opmerkingervaring in Beta bij zodat projecten, taken, problemen en documenten de standaardoptie worden. Het label &quot;Beta&quot; wordt verwijderd.
+   * De nieuwe opmerkingervaring voor sjablonen, sjabloontaken, programma&#39;s, portfolio&#39;s, teams, gebruikers en tijdbladen uitgebracht (als enige ervaring)
+   * De commentaarervaring in Beta is bijgewerkt, zodat projecten, taken, problemen en documenten de standaardoptie worden. Het label &quot;Beta&quot; is verwijderd.
 * In de vierde release van 23.10 uur in 2023 (26 oktober 2023)
-   * Laat de nieuwe opmerkingervaring voor sjablonen, sjabloontaken, programma&#39;s, portfolio&#39;s, teams, gebruikers en tijdbladen (als enige ervaring) aan alle klanten los.
+   * De nieuwe ervaring met opmerkingen voor sjablonen, sjabloontaken, programma&#39;s, portfolio&#39;s, teams, gebruikers en tijdbladen (als enige ervaring) is vrijgegeven aan alle klanten.
    * Maak de nieuwe opmerkingervaring voor projecten, taken, kwesties, en documenten de standaardoptie.
 
   >[!IMPORTANT]
   >
-  >    Hiermee wordt de Beta-fase van de nieuwe ervaringen met opmerkingen afgesloten.
+  >    Hiermee werd de Beta-fase van de nieuwe ervaringen met opmerkingen afgesloten.
 
-   * Maak alle functies die voor de nieuwe opmerkingervaring worden vrijgegeven vanaf deze datum onderdeel van de huidige reguliere maandelijkse en driemaandelijkse releases.
+   * Alle functies die voor de nieuwe opmerkingervaring zijn uitgebracht, zijn vanaf deze datum onderdeel geworden van de huidige reguliere maandelijkse en driemaandelijkse releases.
 * Eind 2023:
-   * Houd de oudere ervaring met opmerkingen als een secundaire optie voor de volgende objecten: projecten, taken, problemen en documenten. De nieuwe ervaring met opmerkingen is de standaardoptie voor alle gebruikers van deze objecten.
-   * Maak de nieuwe opmerkingervaring de enige ervaring voor alle andere voorwerpen.
-
-  >[!NOTE]
-  >
-  >    Herhalingen zullen de oudere ervaring met opmerkingen blijven gebruiken. De nieuwe ervaring met opmerkingen is niet beschikbaar voor herhalingen.
+   * Behoud de ervaring met oudere opmerkingen als een secundaire optie voor de volgende objecten: projecten, taken, problemen en documenten. De nieuwe ervaring met opmerkingen is de standaardoptie voor alle gebruikers van deze objecten.
+   * De nieuwe ervaring met opmerkingen is de enige ervaring voor alle andere objecten.
 
 * Met de tweede release van 2024 (11 april 2024):
 
-  Verwijder de optie om terug te schakelen naar de oudere opmerkingsstroom en de nieuwe opmerkingstroom de enige ervaring te maken voor alle objecten.
+  Verwijderd de optie om terug te schakelen naar de oudere opmerkingstroom en de nieuwe opmerkingstroom de enige ervaring te maken voor alle objecten.
+
+* 3 oktober 2024:
+
+  De knop Feedback geven is verwijderd in het gedeelte Updates.
 
 ## De nieuwe ervaring met opmerkingen opzoeken
 

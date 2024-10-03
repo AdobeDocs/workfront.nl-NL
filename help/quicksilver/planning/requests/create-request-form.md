@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 3823afdc14aaf5646d8edc60f5ad633e48336af7
+source-git-commit: 7c2fa065045f434b3a761f4742ca496670bfd6b2
 workflow-type: tm+mt
-source-wordcount: '1159'
+source-wordcount: '1290'
 ht-degree: 0%
 
 ---
@@ -146,17 +146,33 @@ U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
    * **Onderwerp** gebied: Het gebied dat het verzoek in Workfront zal identificeren. Deze mogelijkheid is nog niet beschikbaar.
    * Alle velden die aan het recordtype zijn gekoppeld.
 
-   De velden in het aanvraagformulier zijn zichtbaar voor iedereen die een aanvraag naar dit recordtype indient.
+     De velden in het aanvraagformulier zijn zichtbaar voor iedereen die een aanvraag naar dit recordtype indient.
 
 1. (Optioneel) Houd de muisaanwijzer boven alle velden in het formulier die u wilt verwijderen en klik vervolgens op het pictogram **x** om deze te verwijderen. Zij worden toegevoegd aan het **lusje van Gebieden** links van de vorm.
 
    Bijvoorbeeld, verwijder het **Onderwerp** gebied, aangezien dit niet in de Planning van Workfront zichtbaar is. <!--remove this step when we connect intake with the Requests area in Workfront-->
-1. Klik op een veld en gebruik vervolgens de besturingselementen aan de rechterkant van het formulier om de grootte van het formulier te definiëren, of een van de volgende gegevens over de velden:
+1. Klik op een veld en gebruik vervolgens de besturingselementen in het rechterdeelvenster van het formulier om de grootte van het veld te definiëren, of een van de volgende gegevens:
 
    * **Etiket**: dit is de naam van het gebied aangezien het op de verzoekvorm zal verschijnen. Hiermee wijzigt u de naam van het recordveld niet.
    * **Instructies**: Voeg meer informatie over het gebied toe.
    * **maak een vereist gebied**: Wanneer geselecteerd, moet het gebied een waarde hebben. Anders kan het formulier niet worden verzonden.
    * **voegt logica** toe: Bepaal welke voorwaarden moeten worden voldaan opdat het gebied tonen of verborgen zijn.
+
+   Het veldtype van elk veld wordt boven in het rechtervenster weergegeven, nadat u het veld op het formulier hebt geselecteerd. De namen van de veldtypen op het aanvraagformulier verschillen van de namen in de tabelweergave. In de volgende tabel worden de verschillen beschreven tussen de namen van de veldtypen in de tabelweergave en de namen van dezelfde velden in het aanvraagformulier van het recordtype:
+
+   | Het veldtype Workfront Planning | Formulierveldtype aanvragen |
+   |-------------------------------|-------------------------|
+   | Tekst met één regel | Tekst met één regel |
+   | Alinea | Tekst met opmaak |
+   | Valuta, getal, percentage | Tekst met één regel |
+   | Enkel selecteren | Vervolgkeuzelijst met één keuze |
+   | Meerdere selecties | Vervolgkeuzelijst met meerdere selecties |
+   | Selectievakje | Groep selectievakjes |
+
+   >[!NOTE]
+   >
+   >   De opmaak van de velden blijft behouden. Hoewel Valuta en percentage bijvoorbeeld worden weergegeven als tekstvelden met één regel, wordt de informatie in de velden weergegeven als valuta en als een percentagewaarde.
+
 
 1. (Facultatief) klik de **elementen van de Inhoud** tabel op de linkerkant van de vorm, en voeg om het even welke volgende elementen toe:
 

@@ -1,12 +1,12 @@
 ---
 product-area: projects
 navigation-topic: update-work-in-a-project
-title: Voorwaarde voor bijwerken voor taken en problemen
+title: Voorwaarde voor taken en problemen bijwerken
 description: De voorwaarde van een taak of een kwestie is een vlag die op het wordt geplaatst om erop te wijzen hoe het gaat. Dit is anders dan de status van het werkitem, die de huidige fase van de ontwikkeling van het item aangeeft.
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
 source-wordcount: '1020'
 ht-degree: 0%

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 969f7c609afcc0029fa9ba054de113904a10917b
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '2197'
+source-wordcount: '2196'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 <!--
 You can use Adobe Workfront Planning to design fully-customizable workspaces that contain record types needed in your organization. A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Workfront Planning record types with object types from other applications to enhance your users' experience and keep their focus in one application. -->
 
-U kunt recordtypen met elkaar verbinden of typen opnemen met objecttypen van andere toepassingen.
+U kunt recordtypen met elkaar verbinden of u kunt recordtypen met objecttypen van andere toepassingen verbinden.
 
 In dit artikel wordt beschreven hoe u twee recordtypen van Workfront Planning of een recordtype van Workfront Planning kunt verbinden met een object van een andere toepassing.
 
@@ -183,7 +183,7 @@ U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
 
 1. Op het **type van Verslag** gebied, onderzoek naar een verslagtype, of selecteer één van het volgende:
 
-   * Een ander recordtype uit de geselecteerde werkruimte
+   * Een ander recordtype uit de huidige werkruimte
 
      <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
      >[!TIP]
@@ -218,7 +218,7 @@ U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
    >U kunt meerdere verbindingen met hetzelfde record- of objecttype hebben. Als u de naam van het verbonden veld niet bewerkt, voegt Workfront een cijfer toe achter de naam van de verbonden record om het aantal verbonden recordtypen aan te geven met dezelfde naam.
 
    * **Beschrijving**: De extra informatie over het verbonden verslaggebied. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
-   * **staat veelvoudige verslagen** toe: Selecteer deze optie om erop te wijzen dat u toestaat dat de gebruikers veelvoudige verslagen kunnen toevoegen wanneer de verbonden verslagen van het verslagtype op de originele verslagen tonen. Dit is standaard geselecteerd.
+   * **staat veelvoudige verslagen** toe: Selecteer deze optie om erop te wijzen dat u gebruikers toestaat om veelvoudige verslagen toe te voegen wanneer het verbonden verslagtype gebiedvertoningen op de originele verslagen. Dit is standaard geselecteerd.
 
      Deze optie is alleen beschikbaar wanneer u records verbindt vanuit twee verschillende werkruimten of een record en een Adobe Experience Manager-asset-object.
 
@@ -237,7 +237,7 @@ U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
 
      Voor meer informatie over verbindingstypes, zie [ Verbonden overzicht van verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
-   * **Uitgezochte raadplegingsgebieden**: Selecteer deze optie om gebieden van het geselecteerde verslagtype toe te voegen. De opzoekvelden zijn velden die zijn gekoppeld aan het record- of objecttype waarnaar u een koppeling maakt. Als u deze koppelt, wordt informatie weergegeven uit de record of het object waarnaar u een koppeling maakt in de record waarvan u een koppeling wilt maken. Dit is standaard geselecteerd.
+   * **Uitgezochte raadplegingsgebieden**: Selecteer deze optie om gebieden van het geselecteerde verslagtype toe te voegen. De opzoekvelden zijn velden die zijn gekoppeld aan het record- of objecttype waarnaar u een koppeling maakt. Als u deze koppelt, wordt informatie weergegeven uit de record of het object waarnaar u een koppeling maakt in de record waarvan u een koppeling maakt. Dit is standaard geselecteerd.
 
      >[!TIP]
      >
@@ -305,7 +305,7 @@ U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
 
    * Records worden gegroepeerd per unieke combinatie van veldwaarden
 
-   * De tijdlijnweergave is gebaseerd op de eerste datumwaarde.
+   * De tijdlijnweergave is gebaseerd op de eerste datumwaarde
 
    >[!IMPORTANT]
    >
@@ -331,7 +331,7 @@ U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
 
    >[!NOTE]
    >
-   >U kunt bijvoorbeeld een koppeling maken naar de productrecord (gekoppelde record) in de campagnerecord (oorspronkelijke record) en deze de naam &quot;Productveld&quot; geven. U kunt er ook voor kiezen om het veld Begroting van de productrecord te koppelen aan de campagnerecord en deze &quot;Productbudget&quot; te noemen. Als u meerdere records in het veld &quot;Product&quot; mocht selecteren, kunt u Product 1 selecteren met een budget van € 100.000 en Product 2 met een budget van € 110.000 en Product 3 met een budget van € 100.000. U kunt de volgende begrotingsinformatie in het gekoppelde veld van de oorspronkelijke record weergeven, afhankelijk van de aggregator die u kiest:
+   >U kunt bijvoorbeeld de productrecord (gekoppelde record) van de campagnerecord (oorspronkelijke record) koppelen en deze de naam &quot;Productveld&quot; geven. U kunt er ook voor kiezen om het veld Begroting van de productrecord te koppelen aan de campagnerecord en deze &quot;Productbudget&quot; te noemen. Als u meerdere records in het veld &quot;Product&quot; mocht selecteren, kunt u Product 1 selecteren met een budget van € 100.000 en Product 2 met een budget van € 110.000 en Product 3 met een budget van € 100.000. U kunt de volgende begrotingsinformatie in het gekoppelde veld van de oorspronkelijke record weergeven, afhankelijk van de aggregator die u kiest:
    >
    >* **niets**: $100.000, $10.000, $100.000
    >* **MAX**: $110.000
@@ -353,11 +353,11 @@ U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
 
      `<Name of the original field on the linked record> (from <Name of your linked field>)`
 
-     Bijvoorbeeld, als u een type van het verslagverslag van de Campagne met een type van het Verslag van het Programma koppelde en het Programma verbonden verslaggebied &quot;Informatie van het Programma&quot;noemt, dan uitgezocht om het gebied van de Begroting van het Programma in de de lijstmening van de Campagne ook te tonen, wordt het verbonden gebied automatisch genoemd `Budget (from Program information)` in de de lijstmening van de campagne.
+     Bijvoorbeeld, als u een type van het verslagverslag van de Campagne met een type van het Verslag van het Programma koppelde en het Programma verbonden verslaggebied &quot;Informatie van het Programma,&quot;toen selecteerde om het gebied van de Begroting van het Programma in de de lijstmening van de Campagne ook te tonen, wordt het verbonden gebied automatisch genoemd `Budget (from Program information)` in de de lijstmening van de campagne.
 
    * Wanneer u recordtypen aan elkaar koppelt, wordt ook een gekoppeld recordveld toegevoegd aan het recordtype waarnaar u een koppeling maakt. De naam van het gekoppelde recordveld in het gekoppelde recordtype is de naam van het recordtype dat u koppelt.
 
-     Als u bijvoorbeeld het recordtype &quot;Product&quot; koppelt aan het recordtype &quot;Campagne&quot; en u het verbonden veld van de campagne &quot;Gekoppeld product&quot; een naam geeft, wordt een veld &quot;Campagne&quot; met gekoppelde records gemaakt voor het recordtype product.
+     Als u bijvoorbeeld het recordtype &quot;Product&quot; koppelt aan het recordtype &quot;Campagne&quot; en u het gekoppelde veld van de campagne &quot;Gekoppeld product&quot; een naam hebt gegeven, wordt een veld &quot;Campagne&quot; met gekoppelde records gemaakt voor het recordtype product.
 
      >[!TIP]
      >
@@ -365,7 +365,7 @@ U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
 
 1. (Optioneel en voorwaardelijk) Klik in de tabelweergave van het oorspronkelijke recordtype of het gekoppelde recordtype op de pijl omlaag in de koptekst van de gekoppelde recordvelden en klik vervolgens op een van de volgende opties:
 
-   * **geef gebied** uit: U kunt de **Naam** en de **Beschrijving** informatie van het gebied bijwerken.
+   * **geef gebied** uit: Werk de **Naam** en de **Beschrijving** informatie van het gebied bij.
    * **geeft raadplegingsgebieden** uit: Voeg of verwijder om het even welke verbonden gebieden van het verslag toe.
 
    ![](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)

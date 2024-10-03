@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 64a8d2ff8546874cf829738dcea03b2946c360cb
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '797'
 ht-degree: 0%
 
 ---
@@ -110,14 +110,16 @@ U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
 
 ## Overwegingen over de sectie Planning van Workfront-objecten
 
-* Workfront Planning-recordtypen moeten zijn verbonden met Workfront-objecttypen.
+Overweeg het volgende wanneer u de verslagen van de Planning van Workfront van de sectie van de Planning van een voorwerp van Workfront bekijkt:
+
+* Workfront Planning-recordtypen moeten eerst worden verbonden met Workfront-objecttypen.
 
   Raadpleeg de volgende artikelen voor meer informatie:
 
    * [Verbind recordtypen](/help/quicksilver/planning/architecture/connect-record-types.md)
    * [Connect-records](/help/quicksilver/planning/records/connect-records.md)
-* U kunt de sectie Planning weergeven in een Workfront-object, zelfs als er geen records zijn gekoppeld aan het Workfront-object.
-* U kunt Planningsrecords verbinden met Workfront-objecten vanuit Workfront, in de sectie Planning wanneer ten minste één record is verbonden met het Workfront-object.
+* U kunt de sectie Planning weergeven vanuit een Workfront-object, zelfs als er geen records zijn gekoppeld aan het Workfront-object.
+* Naast het verbinden van de voorwerpen van Workfront van het Gebied van de Planning van Workfront, kunt u de verslagen van de Planning met de voorwerpen van Workfront van Workfront van de sectie van de Planning verbinden.
 
 ## Records beheren in de sectie Planning
 
@@ -132,11 +134,15 @@ U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
 1. Klik op de naam van een Workfront-object in het verbonden recordveld.
 De objectpagina wordt geopend in Workfront.
 
+   >[!NOTE]
+   >
+   >  Als u een Workfront-object kent dat al is verbonden met een planningsrecord, kunt u vanuit het Workfront-object naar de sectie Planning navigeren.
+
 1. Klik **Planning** in het linkerpaneel.
 
    >[!NOTE]
    >
-   >   Uw Workfront of groepsbeheerder moet de sectie Planning toevoegen aan uw lay-outmalplaatje alvorens het voor een project, een portefeuille, of een programma van de Wereld toont.
+   >   Uw Workfront of groepsbeheerder moet de sectie Planning toevoegen aan uw lay-outsjabloon voordat deze wordt weergegeven voor een Workfront-project, -portfolio of -programma.
 
    Het gedeelte Planning wordt weergegeven met de volgende informatie:
 
@@ -152,7 +158,7 @@ De objectpagina wordt geopend in Workfront.
 1. Klik op een opnamekaart voor meer informatie over de record. Het voorvertoningsvak voor records wordt weergegeven.
 1. (Optioneel) Wijzig de velden in het voorvertoningsvak van de record. Uw wijzigingen worden automatisch opgeslagen.
 1. (Facultatief) klik **Open in een nieuw lusje** pictogram ![](assets/open-details-in-a-new-tab-icon.png) in de hoger-juiste hoek van de voorproefdoos om de de detailspagina van het verslag te openen. De detailpagina van het verslag opent in de Planning van Workfront.
-1. Beweeg over een verslagkaart, dan klik los verslagpictogram **-**, dan klik **losmaakt**.
+1. (Optioneel) Houd de muisaanwijzer boven een opnamekaart en klik op het pictogram voor het verbreken van de verbinding **-** en klik vervolgens op **Verbinding verbreken** .
 De volgende dingen doen zich voor:
    * De record is niet meer verbonden met het Workfront-object.
    * Het Workfront-object wordt ook verwijderd uit het verbonden veld van de record uit Workfront Planning.

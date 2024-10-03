@@ -6,9 +6,9 @@ description: U kunt opmerkingen toevoegen aan alle doelen die u kunt weergeven i
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,8 @@ After the monthly releases to Production, the same features are also available i
 U kunt opmerkingen toevoegen aan alle doelen die u kunt weergeven in Adobe Workfront Goals.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de handelingen uit te voeren die in dit artikel worden beschreven:
 
@@ -87,6 +89,8 @@ U moet de volgende toegang hebben om de handelingen uit te voeren die in dit art
 </table>
 
 *Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Doelopmerkingen beheren
 
