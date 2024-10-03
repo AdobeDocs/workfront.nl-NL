@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: e9df34c206dd65ccc2edec00087248eb4ed16f54
+source-git-commit: 2801c18cebbc7e1338c29652bc87303029a2e289
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,10 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. Op het **gebied van de naam van het Pakket** {, ga een naam voor het pakket in.
 1. Op het **gebied van de Beschrijving**, ga een beschrijving voor dit pakket in.
-1. Om een voorwerp aan het pakket toe te voegen, klik **voegt Voorwerpen** in de linkernavigatie toe en selecteert het type van voorwerp u wilt toevoegen.
-1. Selecteer een of meer objecten in de lijst of typ de naam in de zoekbalk en selecteer het object wanneer het in de lijst wordt weergegeven. U kunt meerdere objecten in de lijst selecteren.
+1. Als u een object aan het pakket wilt toevoegen, selecteert u in de linkernavigatie het type object dat u wilt toevoegen.
+1. Selecteer een of meer objecten in de lijst die wordt weergegeven of typ de naam in de zoekbalk en selecteer het object wanneer dit in de lijst wordt weergegeven. U kunt meerdere objecten in de lijst selecteren.
+
+   De lijst bevat maximaal 500 objecten van het geselecteerde objecttype. Als u een object wilt zoeken dat niet in de lijst voorkomt, gebruikt u de zoekbalk.
 1. Klik **toevoegen (de Voorwerpen van X)** om de geselecteerde voorwerpen aan het pakket toe te voegen.
 
    >[!INFO]
