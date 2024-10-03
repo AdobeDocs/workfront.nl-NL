@@ -5,17 +5,15 @@ description: Legacy Home wordt op 10/17 uit Workfront verwijderd met de Q4-relea
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: e0eeb62dc1e29849258fa7b111ccce6480767812
+source-git-commit: 4e2b59a93137e6b4cbe9dab0d4e6c1467bc0cc4b
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
 
 
 # Van verouderd startpunt naar prioriteiten
-
-<span class="preview"> de Prioriteiten zullen in Voorproef op 10/3/2024 </span> beschikbaar zijn
 
 Legacy Home wordt op 10/17 uit Workfront verwijderd met de Q4-release. Dit artikel bevat informatie over welke functionaliteit beschikbaar zal zijn in Prioriteiten en aanbevelingen voor Workfront-beheerders die gebruikers naar Prioriteiten verplaatsen.
 

@@ -4,9 +4,9 @@ description: Verbeteringen startpunt vierde kwartaal 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: 0d2bb434b1b52ea175ad912c554b4aa07d5d2f7d
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -38,3 +38,15 @@ Prioriteiten zijn bedoeld ter vervanging van Legacy Home en nieuwe functies word
 Voor meer informatie, zie [ begonnen worden met Prioriteiten ](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md)
 
 [ Bekijk een videodemonstratie van deze eigenschap ](https://video.tv.adobe.com/v/3434848/){target=_blank}
+
+## Veroudering van de oudere Home-ervaring met 24.10
+
+Met de release van 24.10 zullen we de oude Home-ervaringen officieel verouderd hebben.
+
+Met deze verandering, zullen het _Huis en Samenvatting_ gebied in het Malplaatje van de Lay-out worden anders genoemd aan _Samenvattend paneel_. Aanpassingen op dit gebied zijn nog steeds van toepassing op het deelvenster Samenvatting in nieuwe startpagina. Voor meer informatie, zie [ Huis en Samenvatting aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+
+Gebruikers wordt aangeraden om nieuwe introducties te gebruiken. Deze worden dan nog steeds uitgebreid met extra functies voordat de site wordt vervangen. Voor meer informatie over de overgang, met inbegrip van advies over wat de gebruikers en de beheerders kunnen doen om voor te bereiden, zie {de Verouderde gids van het Huis van de Verouderde ](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).[
+
+>[!NOTE]
+>
+>Nadat het huis van de Verouderde is afgekeurd, _zal het nieuwe Huis_ als _Huis_ in Workfront worden bedoeld. Alle _nieuwe documentatie van het Huis_ zal anders genoemd worden aan _Huis_.

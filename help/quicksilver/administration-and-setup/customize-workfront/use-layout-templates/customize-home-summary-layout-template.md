@@ -8,14 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: 115757a829b92c13cb684369120e26602b9a1782
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '1006'
 ht-degree: 0%
 
 ---
 
 # Home en overzicht aanpassen met een lay-outsjabloon
+
+<span class="preview"> Dit artikel zal worden anders genoemd om &quot;het Summiere paneel aan te passen gebruikend een lay-outmalplaatje&quot;wanneer het Huis van de Oudheid van Workfront met Q4 versie op 17 oktober wordt verwijderd. 2024.</span>
 
 U kunt een Malplaatje van de Lay-out gebruiken om te vormen wat de gebruikers zien wanneer zij een taak of een kwestie in Huis en in de Samenvatting klikken. Elke configuratie die u uitvoert met de onderstaande stappen, heeft op dezelfde manier invloed op het gebied Home en het deelvenster Samenvatting. Deze aanpassingen zijn niet van toepassing op het deelvenster Documentoverzicht.
 

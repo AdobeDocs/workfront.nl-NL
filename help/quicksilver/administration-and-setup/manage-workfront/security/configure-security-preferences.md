@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
+source-git-commit: 21c8c8d6aed7620dc2d7b99fd01c6be41f918eeb
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '905'
 ht-degree: 0%
 
 ---
@@ -128,8 +128,12 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
       <td>Hier kunt u opgeven of gebruikers standaard de Nieuwe startervaring zien. Wanneer toegelaten, zullen de gebruikers de Nieuwe ervaring van het Huis door gebrek zien, maar kunnen nog verkiezen om Nieuwe Huis op individuele basis toe te laten of onbruikbaar te maken. Als deze optie is uitgeschakeld, zien gebruikers niet de banner waarmee ze naar Nieuwe startpagina kunnen schakelen. Ze kunnen echter wel handmatig naar de nieuwe startpagina navigeren door <code>/home/workspaces</code> aan het einde van de instantie-URL in te voeren. Deze instelling is standaard ingeschakeld.</td> 
      </tr>
      <tr> 
+      <td role="rowheader">De werklijst Prioriteiten inschakelen </td> 
+      <td>Hiermee kunt u ervoor kiezen om de werklijstervaring Prioriteiten in of uit te schakelen voor uw gebruikers. <!--Users will still see the Priorities icons in Workfront, but they will not have access to the functionality.--> voor meer informatie over Prioriteiten, zie <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md"> begonnen worden met Prioriteiten </a>.</td> 
+     </tr>
+     <tr> 
       <td role="rowheader">Testomgevingen</td> 
-      <td>Hiermee hebt u toegang tot uw Workfront-testomgevingen. Voor meer informatie, zie <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md"> het Milieu van Sandbox van de Voorproef van Adobe Workfront </a>.</p></td> 
+      <td>Hiermee hebt u toegang tot uw Workfront-testomgevingen. Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md"> het Milieu van Sandbox van de Voorproef van Adobe Workfront </a>.</p></td> 
     </tbody> 
    </table>
 

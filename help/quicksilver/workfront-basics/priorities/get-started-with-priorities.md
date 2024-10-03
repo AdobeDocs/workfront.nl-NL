@@ -5,17 +5,15 @@ description: Prioriteiten zijn een gestroomlijnde, intuïtieve ervaring die is a
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 08221eb867a052187138be5c51a8720bb095f31b
+source-git-commit: 4e2b59a93137e6b4cbe9dab0d4e6c1467bc0cc4b
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
 
 
 # Aan de slag met prioriteiten
-
-<span class="preview"> de Prioriteiten zullen in Voorproef op 10/3/2024 </span> beschikbaar zijn
 
 Prioriteiten zijn een gestroomlijnde, intuïtieve ervaring die is afgestemd op taakeigenaars. Prioriteiten worden in fasen ingevoerd, te beginnen met de werklijst.
 
@@ -118,6 +116,16 @@ De kalenderweergave biedt een visuele weergave van uw taken en problemen. U kunt
 ## Werk aan taken en problemen
 
 In Prioriteiten, kunt u het werkpunten bijwerken om uw details van het het werkpunt huidig te houden, tijd registreren om uw werkuren nauwkeurig te volgen, activa te uploaden zonder het moeten aan een project navigeren, en snelle verbindingen toe te voegen voor gemakkelijke toegang tot vaak gebruikte middelen.
+
+>[!NOTE]
+>
+>Licenties voor licht, revisie, contribuant en aanvrager hebben beperkte toegang tot Prioriteiten. Zie voor meer informatie over hoe deze licentietypen kunnen werken met taken en problemen
+>
+>* [ Toegang tot voorwerpen en gebieden door voor nieuwe vergunningen ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+>* [ Functionaliteit beschikbaar voor elk objecten type voor nieuwe toegangsniveaus ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
+>* [ Toegang tot voorwerpen en gebieden door vergunningstype ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
+>* [ Functionaliteit beschikbaar voor elk objecten type ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
+
 
 ### Updates toevoegen en weergeven
 
