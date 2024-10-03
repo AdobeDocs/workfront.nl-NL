@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: ada8aa9f72b57d6008473c6d9dcc17765d8656c4
+source-git-commit: a2810eae52a0392107a214967e50a662239e1e5f
 workflow-type: tm+mt
-source-wordcount: '14445'
+source-wordcount: '14455'
 ht-degree: 0%
 
 ---
@@ -925,6 +925,7 @@ ht-degree: 0%
       * [Andere tags toepassen op updates](workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
       * [Alle updates in een notitierapport weergeven](workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
       * [Overzicht van de knop Aan de slag en Gereed](workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
+      * [Updates samenvatten met AI Assistant](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/summarize-updates-ai-assistant.md)
    * Werken met aangepaste formulieren {#work-with-custom-forms}
       * [Werken met aangepaste formulieren](workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
       * [Een aangepast formulier toevoegen aan een object](workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)
@@ -1246,6 +1247,7 @@ ht-degree: 0%
          * [Een project beheren in de Google View](manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
          * [Overzicht van projectmetriek](manage-work/projects/manage-projects/project-metrics.md)
          * [Overzicht van projectlimieten](manage-work/projects/manage-projects/project-maximums.md)
+         * [Updates samenvatten met AI Assistant](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)
       * Projectsjablonen maken en beheren {#create-and-manage-project-templates}
          * [Projectsjablonen maken en beheren: artikelindex](manage-work/projects/create-and-manage-templates/create-manage-templates.md)
          * [Overzicht van de projectsjabloon](manage-work/projects/create-and-manage-templates/project-template-overview.md)

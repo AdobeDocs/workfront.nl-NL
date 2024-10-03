@@ -1,31 +1,24 @@
 ---
-title: Samenvatten met AI-assistent
-content-type: reference
-description: U kunt werkitems en documenten snel samenvatten met de functie Overzicht van deze functie.
+product-area: projects
+navigation-topic: update-work-items-and-view-updates
+title: Projecten samenvatten met AI Assistant
+description: De projectkopbal omvat een knoop die de Medewerker van AI gebruikt om projecten samen te vatten.
 author: Becky
 feature: Get Started with Workfront
-exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
 source-git-commit: bec1318d83938964697d76b83062ef11745802e3
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
 
-# Samenvatten met AI-assistent
+# Updates samenvatten met AI Assistant
+
+De Medewerker van Workfront AI kan projecten samenvatten, toestaand u om projectinformatie, zoals projectdoel en status snel te begrijpen, geeft voorbeelden van taken die worden voltooid en die nog in behandeling zijn, en verstrekt sommige extra details en nota&#39;s.
+
+U kunt de knoop van het Overzicht van het Project gebruiken om een samenvatting te produceren, of u kunt een herinnering in AI Medewerker ingaan.
 
 <span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Sandbox van de Voorproef.</span>
-
-In Workfront AI Assistant kunt u een overzicht geven van bepaalde objecten, zodat u een overzicht op hoog niveau hebt van de intentie of details van het object.
-
-Bijvoorbeeld, als u de Medewerker van AI vraagt om een project samen te vatten, keert het korte beschrijvingen van het doel en de status van het project terug, geeft voorbeelden van taken die worden voltooid en die nog in behandeling zijn, en verstrekt sommige extra details en nota&#39;s.
-
-In de AI-assistent kunt u de volgende objecten samenvatten:
-
-* Projecten
-* Taken
-* Problemen
-* Documenten
 
 >[!NOTE]
 >
@@ -53,6 +46,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
        <p>of</p>
        <p>Huidig: Niet beschikbaar</p></td>
   </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td><p>Nieuw: Standaard</p>
+       <p>of</p>
+       <p>Huidig: Niet beschikbaar</p></td>
+  </tr> 
+ </tbody> 
  </tbody> 
 </table>
 
@@ -67,27 +67,21 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
   Voor meer informatie, zie [ toelaten of AI Medewerker ](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) onbruikbaar maken.
 
+
+
 <div class="preview">
 
-## Samenvatten met de knoppen Samenvatten
+## Samenvatten met de knop Projectoverzicht
 
-De volgende gebieden hebben knopen die samenvattingen gebruikend AI Medewerker produceren:
+1. Navigeer naar de updatestroom die u wilt samenvatten.
+1. Klik de **Samenvatting van het Project** knoop.
 
-* Projectkoptekst: Projectoverzicht
-* Updates, gebied: Inhoud samenvatten
-
-De knop Projectoverzicht of Inhoud samenvatten gebruiken:
-
-1. Klik op de knop.
-
-   AI Assistant wordt geopend met de vraag of het project of de laatste 7 dagen van opmerkingen over de updatestream moeten worden samengevat.
+   De Medewerker van AI opent, met een herinnering om het project samen te vatten.
 
    Het kan enige tijd duren voordat de samenvatting wordt gegenereerd, afhankelijk van de grootte of complexiteit van het object.
 
 1. Bekijk het AI overzicht in het AI Hulppaneel.
 1. (Optioneel) Verfijn de vraag zodat u de benodigde informatie krijgt.
-
-   U kunt bijvoorbeeld de vraag Inhoud samenvatten verfijnen om opmerkingen voor de laatste 14 dagen samen te vatten in plaats van de laatste 7 dagen.
 
    </div>
 

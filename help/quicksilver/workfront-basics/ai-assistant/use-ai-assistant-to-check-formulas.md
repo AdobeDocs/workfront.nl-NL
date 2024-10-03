@@ -5,9 +5,9 @@ description: U kunt de Medewerker van AI gebruiken om fouten in uw ongeldige dou
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5f144a6f-5c2a-42fc-a961-ab9066432d93
-source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
+source-git-commit: bec1318d83938964697d76b83062ef11745802e3
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Een berekende veldexpressie genereren
+## Vereisten
+
+* Uw Workfront-beheerder moet AI Assistant hebben ingeschakeld voor uw organisatie.
+
+  Voor meer informatie, zie [ Vereisten aan AI Medewerker ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) in het artikelAI Hulpoverzicht.
+* Uw Workfront-beheerder moet AI Assistant hebben ingeschakeld voor uw toegangsniveau.
+
+  Voor meer informatie, zie [ toelaten of AI Medewerker ](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) onbruikbaar maken.
+
+<!--## Generate a calculated field expression-->
 
 ## Een berekende veldexpressie herzien
 
