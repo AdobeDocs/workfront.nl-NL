@@ -5,14 +5,14 @@ title: Projecten samenvatten met AI Assistant
 description: De projectkopbal omvat een knoop die de Medewerker van AI gebruikt om projecten samen te vatten.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: bec1318d83938964697d76b83062ef11745802e3
+source-git-commit: df10444228de70dd460c4df72c4ba7dba6455f15
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 0%
 
 ---
 
-# Updates samenvatten met AI Assistant
+# Projecten samenvatten met AI Assistant
 
 De Medewerker van Workfront AI kan projecten samenvatten, toestaand u om projectinformatie, zoals projectdoel en status snel te begrijpen, geeft voorbeelden van taken die worden voltooid en die nog in behandeling zijn, en verstrekt sommige extra details en nota&#39;s.
 
