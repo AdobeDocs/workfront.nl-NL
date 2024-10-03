@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '480'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,18 @@ ht-degree: 0%
 Op deze pagina worden alle beheerderverbeteringen beschreven die zijn aangebracht met de release van het vierde kwartaal van 2024 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2024 versiecyclus, zie [ Vierde Kwartaal 2024 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
+
+## Een teller op aangepaste formulieren geeft het aantal velden weer
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 1 oktober 2024; Productieversie voor alle klanten: met de release van 24.10 (17 oktober 2024)
+
+Aangepaste formulieren zijn beperkt tot 500 velden. In een lang formulier kan het moeilijk zijn om te weten hoeveel velden er op het formulier staan en of u de limiet bijna hebt bereikt.
+
+Linksonder is een teller toegevoegd aan aangepaste formulieren. De teller geeft weer hoeveel velden er op het formulier worden gebruikt en deze is altijd zichtbaar wanneer u in de formulierontwerper schuift.
+
+Voor meer informatie, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## De optie Alles selecteren is nu beschikbaar in lay-outsjablonen
 

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: a3b172a40dc539504da356f37377d2332edad4dc
+source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '2017'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,7 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
 ## Verbeteringen voor Adobe Workfront
 
 * [Beheerdersverbeteringen](#administrator-enhancements)
+* [Verbeteringen voor documentbeheer](#document-management-enhancements)
 * [Verbeteringen voor integratie](#integration-enhancements)
 * [Verbeteringen voor startpagina](#home-enhancements)
 * [Projectverbeteringen](#project-enhancements)
@@ -46,8 +47,8 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
 ### Beheerdersverbeteringen
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -57,6 +58,22 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
                     <td>
                         <p><span class="bold"> de data van de Versie </span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}"> Teller A op douanevormen toont het aantal gebieden </a></p>
+                        <p>Aangepaste formulieren zijn beperkt tot 500 velden. In een lang formulier kan het moeilijk zijn om te weten hoeveel velden er op het formulier staan en of u de limiet bijna hebt bereikt. Linksonder is een teller toegevoegd aan aangepaste formulieren. De teller geeft weer hoeveel velden er op het formulier worden gebruikt en deze is altijd zichtbaar wanneer u in de formulierontwerper schuift.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 1 oktober 2024</p>
+                            </li>
+                            <li>
+                                <p>Productieversie voor alle klanten: met de release van 24.10 (17 oktober 2024)</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -117,13 +134,68 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
+
+### Verbeteringen voor documentbeheer
+
+>[!IMPORTANT]
+>
+>De eigenschappen die in **worden vermeld de beheerverhogingen van het Document** maken deel uit van een gefaseerde versie en zijn slechts beschikbaar voor specifieke klanten.
+
+<table>
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold"> Eigenschap </span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold"> de data van de Versie </span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md"> de beslissingsstatus van het document van de Mening direct in de documentlijst </a></p>
+                        <p>U kunt de beslissingsstatus van een document nu rechtstreeks in de documentlijst bekijken.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 3 oktober 2024</p>
+                            </li>
+                            <li>
+                                <p>Productieversie voor alle klanten: met de release van 24.10 (17 oktober 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md"> voeg snel vorige recensenten en fiatteurs aan nieuwe documentversies toe </a></p>
+                        <p>U kunt nu snel revisoren en fiatteurs toevoegen uit eerdere documentversies.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 3 oktober 2024</p>
+                            </li>
+                            <li>
+                                <p>Productieversie voor alle klanten: met de release van 24.10 (17 oktober 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+</table>
 
 ### Verbeteringen voor integratie
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -153,13 +225,13 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
 
 ### Verbeteringen voor startpagina
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -194,14 +266,14 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
 
 
 ### Projectverbeteringen
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -254,13 +326,13 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
 
 ### Verbeteringen voor proefdrukken
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -275,6 +347,7 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}"> de kwestie van het Exemplaar/van de deeg moeilijke situatie voor de Kijker van het Proofing van de Desktop </a></p>
+                        [!BADGE in productie ]{type=Informative}
                         <p>Er is een probleem opgelost waarbij inhoud onjuist wordt geplakt in het gedeelte Updates van de Desktop Proofing Viewer.</p>
                         <p>Nieuwe versie: 2.1.39</p>
                     </td>
@@ -325,13 +398,13 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
 
 ### Verbeteringen voor rapport en dashboard
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -351,21 +424,37 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p><span class="preview">Productieversie voor alle klanten: met de release van 24.10 (17 oktober 2024)</span></p>
+                                <p>Productieversie voor alle klanten: met de release van 24.10 (17 oktober 2024)</p>
                             </li>
                         </ul>
                         <p><i>Alleen beschikbaar voor organisaties op een van de nieuwe Adobe Workfront-plannen. Gegevens verbinden is opgenomen in het Ultimate-abonnement of kan worden aangeschaft als een invoegtoepassing voor de Premier- en Select-plannen.</i></p>
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
 
 ### Andere verbeteringen
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}"> vat projecten of updates met één klik samen </a></p>
+                        <p>Om het gemakkelijker te maken om hoogtepunten van een project of een updatestroom snel te zien, hebben wij samengevatte knopen aan die gebieden van Workfront toegevoegd. U kunt nu op de knop klikken om een overzicht te genereren in de AI-assistent.</p><p>Eerder konden gebruikers AI Assistant openen en een vraag typen om een overzicht van het project of de updatestream te maken.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 3 oktober 2024</p>
+                            </li>
+                            <li>
+                                <p>Productieversie voor alle klanten: met de release van 24.10 (17 oktober 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md" class="MCXref xref" xrefformat="{para}"> Algemene beschikbaarheid van de Planning van Adobe Workfront </a></p>
@@ -421,7 +510,7 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
                     </td>
                 </tr>                            
            </tbody>
-        </table>
+</table>
 
 ### Functionaliteit die binnenkort uit Workfront wordt verwijderd
 
