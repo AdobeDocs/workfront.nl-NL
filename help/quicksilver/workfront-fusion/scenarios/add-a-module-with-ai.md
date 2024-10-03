@@ -9,9 +9,9 @@ feature: Workfront Fusion
 hide: true
 hidefromtoc: true
 exl-id: 899641a0-a104-4be9-b423-34a32e985b53
-source-git-commit: 7013c8a88f047c5c8e769a4d7b71f2033c767b4a
+source-git-commit: 5de5b96bc74ce9b819acfa7b5f16652509ccade1
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -63,9 +63,9 @@ De Fusion AI kan momenteel modules genereren die verbinding maken met de volgend
 
    Voor uiteinden op herinneringen, zie [ Uiteinden voor het creëren van tekstherinneringen ](#tips-for-creating-text-prompts) in dit artikel.
 
-   De module of set modules wordt gegenereerd.
+   AI Assistant genereert de module of set modules.
 1. (Voorwaardelijk) Voeg indien nodig uw API-token voor de toepassing toe aan de modules.
-1. Controleer de modules om ervoor te zorgen dat zij voor de aangewezen toepassing en de actie moeten worden gevormd.
+1. Controleer de modules om ervoor te zorgen dat zij voor de aangewezen toepassing en de actie worden gevormd.
 1. (Voorwaardelijk) als de geproduceerde scenario sectie niet in bijlage aan uw scenario is, sleep het in plaats.
 
 Wij adviseren het testen van de modules om ervoor te zorgen dat zij zoals bedoeld presteren.
