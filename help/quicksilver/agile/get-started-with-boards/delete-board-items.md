@@ -6,9 +6,9 @@ description: Wanneer u een kaart van een bord schrapt, wordt het permanent gesch
 author: Lisa
 feature: Agile
 exl-id: 68b7d2e5-92f0-462d-8122-eaecb1e6b87c
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 81e87793905fd925db00c7a0ac107150263a1365
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Als u een aangesloten kaart van een dynamische raad schrapt, zal het opnieuw ver
 Wanneer u een aangesloten kaart van een ander bordtype schrapt dat een inputkolom heeft, zal de kaart opnieuw in de inputkolom verschijnen wanneer u de raad verfrist als de verbonden taak of de kwestie nog niet duidelijk volledig is. Voor meer informatie over innamekolommen, zie [ een inlaatkolom aan een raad ](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md) toevoegen.
 
 Als u een kaart archiveert, wordt deze naar het archief verzonden en kunt u deze later terugzetten op het bord.
+
+Gearchiveerde kaarten synchroniseren niet met Workfront-taken en -problemen. Als u een kaart herstelt, wordt deze opnieuw gesynchroniseerd.
 
 ## Toegangsvereisten
 
@@ -71,7 +73,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. Om een gearchiveerde kaart te herstellen, klik het **[!UICONTROL More]** menu ![ Meer menu ](assets/more-icon-spectrum.png) op de kaart en selecteer **[!UICONTROL Restore]**.
 
-## Een kaart filteren om gearchiveerde kaarten weer te geven {#filter-a-board-to-show-archived-cards}
+## Een kaart filteren om gearchiveerde kaarten weer te geven
 
 Standaard worden alleen actieve kaarten op een bord weergegeven. U kunt het bord filteren om ook gearchiveerde kaarten weer te geven.
 

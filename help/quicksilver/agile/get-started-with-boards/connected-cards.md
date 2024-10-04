@@ -6,9 +6,9 @@ description: U kunt een kaart aan uw bord toevoegen die met bestaande taken en k
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 0c0c1f538cfd12e18c504fcb42ee424789d1cde8
+source-git-commit: f8feca57e039e34c320f2b967c58c5fc0862f665
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: '1381'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Wanneer een van de volgende gegevens voor de kaart op de ene locatie wordt bijge
 * [!UICONTROL Subtasks]
 * [!UICONTROL Documents]
 
-Als u verbonden kaarten wilt synchroniseren met Workfront, klikt u op het menu **[!UICONTROL More]** ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) naast de naam van het tekengebied en selecteert u **[!UICONTROL Sync connected items]** .
+Als u verbonden kaarten wilt synchroniseren met Workfront, klikt u op het menu **[!UICONTROL More]** ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) naast de naam van het tekengebied en selecteert u **[!UICONTROL Sync connected items]** . Gearchiveerde kaarten synchroniseren niet met Workfront-taken en -problemen. Als u een kaart herstelt, wordt deze opnieuw gesynchroniseerd.
 
 >[!NOTE]
 >
