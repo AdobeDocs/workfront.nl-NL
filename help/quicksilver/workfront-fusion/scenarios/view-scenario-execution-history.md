@@ -2,23 +2,29 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: De uitvoeringsgeschiedenis van een scenario weergeven in Adobe Workfront Fusion
+title: De geschiedenis van een scenario weergeven in Adobe Workfront Fusion
 description: U kunt informatie over alle looppas voor een scenario tonen, of u kunt alle uitvoeringen van het scenario voor specifieke gegevens zoeken.
 author: Becky
 feature: Workfront Fusion
 exl-id: cc2c3f87-34dc-4a06-9f5f-1a7fb10a3b82
-source-git-commit: 1b729960a23e43252bda16d9bfb7ca9656a115a1
+source-git-commit: 2e26c4e4b5f331ed2e609381ef442f45e90c4faa
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
 
-# De uitvoeringsgeschiedenis van een scenario weergeven in [!DNL Adobe Workfront Fusion]
+# De geschiedenis van een scenario weergeven in [!DNL Adobe Workfront Fusion]
 
-U kunt informatie over alle looppas voor een scenario tonen, of u kunt alle uitvoeringen van het scenario voor specifieke gegevens zoeken.
+U kunt informatie over de gebeurtenissen of de uitvoeringen van een scenario tonen, of u kunt alle uitvoeringen van het scenario voor specifieke gegevens zoeken.
 
-De uitvoeringshistorie van een scenario toont alle executies van een scenario voor de laatste 30 dagen.
+De uitvoering van een scenario vertegenwoordigt één uitvoering van het scenario.
+
+Een scenario-gebeurtenis is een wijziging in het scenario, zoals bewerken, activeren of deactiveren.
+
+>[!NOTE]
+>
+>De geschiedenis van een scenario toont alle gebeurtenissen en executies van een scenario voor de laatste 30 dagen.
 
 ## Toegangsvereisten
 
@@ -59,9 +65,9 @@ Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnem
 
 Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Alle uitvoeringen van een scenario weergeven
+## Geschiedenis van scenario&#39;s weergeven
 
-### De uitvoeringshistorie van scenario&#39;s weergeven op de [!UICONTROL Scenario Detail] -pagina
+### Geschiedenis van scenario&#39;s weergeven op de [!UICONTROL Scenario Detail] -pagina
 
 1. Klik op de tab **[!UICONTROL Scenario]** in het linkerdeelvenster en klik vervolgens op het scenario.
 
@@ -69,9 +75,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 
    Als u aan het scenario in de redacteur Scenario werkt, klik de linkerpijl ![](assets/exit-editing-arrow.png) dichtbij de upper-left hoek van het venster.
 
-1. Bekijk de informatie in de lijst aan de rechterkant.
-
-   U kunt ook klikken om een volledige paginaweergave van deze gegevens te bekijken. In de weergave van de volledige pagina kunt u de geschiedenis filteren om bepaalde uitvoeringen weer te geven.
+1. Bekijk de uitvoeringsgeschiedenis in het **lusje van de Geschiedenis** van het paneel op het recht.
 
    De volgende details zijn vermeld voor elke uitvoering van het scenario:
 
@@ -80,13 +84,16 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
    * Uitvoeren **[!UICONTROL Duration]**
    * Aantal **[!UICONTROL Operations]**
    * Grootte van **[!UICONTROL Data Transfer]**
-   * Koppeling naar **[!UICONTROL Details]**
 
->[!NOTE]
->
->De scenario-geschiedenis toont a **badge van de a** Verwerking naast scenario&#39;s die onlangs hebben uitgevoerd, terwijl de uitvoeringsdetails aan opslag worden geschreven. De verwerking vindt onmiddellijk plaats nadat het scenario wordt uitgevoerd. en mag niet langer duren dan een paar minuten. Details van de uitvoering van het scenario zijn mogelijk niet zichtbaar terwijl de uitvoering wordt verwerkt.
+   >[!NOTE]
+   >
+   >De scenario-geschiedenis toont a **badge van de a** Verwerking naast scenario&#39;s die onlangs hebben uitgevoerd, terwijl de uitvoeringsdetails aan opslag worden geschreven. De verwerking vindt onmiddellijk plaats nadat het scenario wordt uitgevoerd. en mag niet langer duren dan een paar minuten. Details van de uitvoering van het scenario zijn mogelijk niet zichtbaar terwijl de uitvoering wordt verwerkt.
 
-### De uitvoeringshistorie van scenario&#39;s weergeven op het tabblad [!UICONTROL History]
+1. Als u details voor een specifieke uitvoering van een scenario wilt weergeven, klikt u op die uitvoering in het rechterdeelvenster.
+1. Om gebeurtenissen te bekijken, klik het **** lusje van Gebeurtenissen van het paneel op het recht.
+
+
+### Geschiedenis van scenario&#39;s weergeven op het tabblad [!UICONTROL History]
 
 Het tabblad [!UICONTROL History] bevat meer details dan beschikbaar zijn op de pagina van [!UICONTROL Scenario detail] . U kunt de uitvoeringen ook filteren en sorteren op het tabblad [!UICONTROL History] .
 
@@ -97,7 +104,7 @@ Het tabblad [!UICONTROL History] bevat meer details dan beschikbaar zijn op de p
    Als u aan het scenario in de redacteur Scenario werkt, klik de linkerpijl ![](assets/exit-editing-arrow.png) dichtbij de upper-left hoek van het venster.
 
 1. Klik op de tab **[!UICONTROL History]** in de linkerbovenhoek van de pagina
-1. (Optioneel) Klik op de koppeling **[!UICONTROL Details]** voor meer informatie over een geselecteerd scenario dat wordt uitgevoerd, inclusief de bundels die zijn verwerkt.
+1. (Optioneel) Klik op de knop **[!UICONTROL Details]** in de regel voor die uitvoering voor meer informatie over een geselecteerd scenario dat wordt uitgevoerd, inclusief de bundels die zijn verwerkt.
 
    Voor meer informatie bij verwerkingsbundels, zie [ de uitvoeringsstroom van het Scenario in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-flow.md).
 
@@ -106,6 +113,8 @@ Het tabblad [!UICONTROL History] bevat meer details dan beschikbaar zijn op de p
    >* De koppeling [!UICONTROL details] is alleen zichtbaar als er details beschikbaar zijn voor de uitvoering.
    >
    >* De de geschiedenisvertoningen van het scenario a **Verwerkingsgeschiedenis** badge naast scenario&#39;s die onlangs hebben uitgevoerd, terwijl de uitvoeringsdetails aan opslag worden geschreven. De verwerking vindt onmiddellijk plaats nadat het scenario wordt uitgevoerd. en mag niet langer duren dan een paar minuten. Details van de uitvoering van het scenario zijn mogelijk niet zichtbaar terwijl de uitvoering wordt verwerkt.
+
+1. Om gebeurtenissen te bekijken, laat **gebeurtenissen** knevel van de Show toe.
 
 ## De uitvoeringshistorie van het scenario filteren
 
@@ -128,13 +137,7 @@ U kunt de geschiedenis van de uitvoering van het scenario sorteren.
 
 ## Alle uitvoeringen van een scenario doorzoeken
 
-1. Klik op het pictogram **[!UICONTROL Scenario]** ![](assets/scenarios-icon.png) in het linkerdeelvenster en klik vervolgens op het scenario.
-
-   of
-
-   Als u aan het scenario in de redacteur Scenario werkt, klik de linkerpijl ![](assets/exit-editing-arrow.png) dichtbij de upper-left hoek van het venster.
-
-1. Klik op de tab **[!UICONTROL History]** in de linkerbovenhoek van het scherm.
+1. Open de full-page geschiedenis voor een scenario zoals die in [ de uitvoeringshistorie van het scenario van de Mening op het [!UICONTROL History] lusje ](#view-scenario-execution-history-on-the-history-tab) in dit artikel wordt beschreven.
 1. Klik op **[!UICONTROL Fulltext search]** boven aan de lijst met uitvoeringen.
 
    of
