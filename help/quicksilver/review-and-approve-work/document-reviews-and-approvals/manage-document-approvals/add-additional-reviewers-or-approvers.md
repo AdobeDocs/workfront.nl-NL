@@ -6,9 +6,9 @@ description: U kunt extra fiatteurs of revisoren toevoegen aan een document dat 
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
-source-git-commit: 850d21fafcf2192600f9011ee936a9bc40f969a4
+source-git-commit: a1a5c2bb9395748c4e0103d10dcf66624238032b
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
@@ -75,6 +75,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. De rol neer aan de **goedkeurt** sectie in de Summiere ruit van het Document, waar alle bestaande fiatteurs en recensenten vermeld zijn. Om een fiatteur toe te voegen, zorg ervoor dat **Approver** checkbox dan begint het typen in het **de tekstvakje van Reviewers** wordt gecontroleerd. U kunt Workfront-gebruikers of -teams op naam toevoegen. Als u een recensent in plaats daarvan zou willen toevoegen, uncheck eenvoudig **Approver** checkbox alvorens te typen.
 
 1. Herhaal de vorige stap om extra fiatteurs of revisoren toe te voegen.
+
+## Aanvullende revisies en fiatteurs toevoegen uit een vorige versie
+
+Als u goedkeuring voor een nieuwe documentversie nodig hebt, kunt u eenvoudig toevoegen
 
 <!--
 ## Add additional approvers or reviewers from Home

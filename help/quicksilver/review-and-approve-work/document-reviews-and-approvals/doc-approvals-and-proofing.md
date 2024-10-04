@@ -5,13 +5,13 @@ title: Goedkeuring van nieuwe documenten en proefdrukken samen gebruiken
 description: U kunt goedkeuringen voor nieuwe documenten gebruiken met proefdrukken.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 8dc9df69bbce86f141ac451381fcc41a112ca0bc
+exl-id: be484629-6e70-4809-ad4c-a489d5814da6
+source-git-commit: bea547e7a7400798d4544fb4f299f72e18a700be
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '940'
 ht-degree: 0%
 
 ---
-
 
 # Goedkeuring van nieuwe documenten en proefdrukken samen gebruiken
 
@@ -85,9 +85,9 @@ Een nieuwe versie toevoegen:
 
 1. (Optioneel) Stel een deadline in voor de goedkeuring. Gebruikers en teams worden 72 uur per e-mail op de hoogte gesteld en 24 uur vóór de opgegeven deadline.
 
-1. Als u een fiatteur wilt toevoegen, klikt u op de knop fiatteur en typt u een gebruiker- of teamnaam.
+1. Om een fiatteur toe te voegen, klik de Approver knoop en begin in een gebruiker of teamnaam te typen, <span class="preview"> of een fiatteur van de vorige versie te kiezen.</span>
 
-1. Als u een revisor wilt toevoegen, klikt u op de knop Revisor en typt u de naam van een gebruiker of team.
+1. Als u een revisor wilt toevoegen, klikt u op de knop Revisor en typt u een gebruiker- of teamnaam <span class="preview"> of kiest u een revisor uit de vorige versie. </span>
 
    ![](assets/add-approvers.png)
 
@@ -125,4 +125,3 @@ Een document controleren en goedkeuren:
    * **het werk van behoeften**: Het document vereist veranderingen en is niet klaar voor gebruik. Nadat de opgegeven wijzigingen zijn aangebracht, moet het document worden geüpload als een nieuwe versie en door een andere goedkeuringsronde worden geleid. Voor meer informatie bij het uploaden van een nieuwe versie, zie [ een nieuwe versie creëren zoals nodig ](#create-a-new-version-as-needed) in dit artikel.
 
 Nadat u een beslissing hebt genomen, wordt de eigenaar van het document via e-mail op de hoogte gesteld.
-

@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 298411941cafb96ab2c3b7e611dc1fb9db8ec31f
+source-git-commit: 8a69b640d90471b042ed1ecfaa1c0eb6d7eb24a4
 workflow-type: tm+mt
-source-wordcount: '14460'
+source-wordcount: '14469'
 ht-degree: 0%
 
 ---
@@ -1834,6 +1834,7 @@ ht-degree: 0%
          * [fiatteurs of revisoren verwijderen uit een middel of document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
          * [Een goedkeuringssjabloon maken voor elementen en documenten](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
          * [Goedkeuring van nieuwe documenten en proefdrukken samen gebruiken](review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
+         * [Een nieuwe documentversie uploaden en goedkeuring aanvragen](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)
       * Elementen en documenten controleren en goedkeuren {#review-and-approve-documents}
          * [Documenten controleren en goedkeuren: artikelindex](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
          * [Een document reviseren](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)

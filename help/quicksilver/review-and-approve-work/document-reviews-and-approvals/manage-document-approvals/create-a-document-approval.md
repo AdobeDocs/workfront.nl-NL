@@ -6,7 +6,7 @@ description: U kunt goedkeuring aanvragen bij andere gebruikers voor een documen
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: 796955fb073905337755fc04e9fb43dbc85b6450
+source-git-commit: a1a5c2bb9395748c4e0103d10dcf66624238032b
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Een documentrevisie of goedkeuringsaanvraag maken
 
-cU kunt andere gebruikers of teams om goedkeuring vragen voor een document in Adobe Workfront, of ze vragen een document te reviseren zonder het te moeten goedkeuren.
+U kunt goedkeuring aanvragen bij andere gebruikers of teams voor een document in Adobe Workfront, of ze vragen een document te bekijken zonder het goed te keuren.
 
 >[!IMPORTANT]
 >
@@ -75,7 +75,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Herhaal de vorige stap om extra fiatteurs of revisoren toe te voegen.
 
-## Een documentrevisie of goedkeuringsaanvraag maken in het deelvenster Documentoverzicht
+## Een documentrevisie of goedkeuringsaanvraag maken in het deelvenster Documentsamenvatting
 
 1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten**.
 
@@ -96,6 +96,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    ![](assets/add-approver-and-deadline.png)
 
 1. Herhaal de vorige stap om extra fiatteurs of revisoren toe te voegen.
+
+
+
+
 
 <!--
 ## Resubmit an approval on a new version
