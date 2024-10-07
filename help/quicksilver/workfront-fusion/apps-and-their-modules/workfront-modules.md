@@ -9,9 +9,9 @@ description: Met de Adobe Workfront Fusion Adobe Workfront-connector kunt u uw p
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
+source-git-commit: 3eb7f8988f441cfa5b353274526450510810b156
 workflow-type: tm+mt
-source-wordcount: '5804'
+source-wordcount: '6020'
 ht-degree: 0%
 
 ---
@@ -744,7 +744,7 @@ Zie een lijst van de [!DNL Workfront] objecten types waarvoor u deze module in [
 
 +++ **[!UICONTROL Upload Document]**
 
-Deze actiemodule uploadt een document naar een [!DNL Workfront] -object, zoals een project, taak of uitgave.
+Deze actiemodule uploadt een document naar een [!DNL Workfront] -object, zoals een project, taak of uitgave. Deze module uploadt het document in delen, waardoor het uploadproces voor Workfront soepeler verloopt.
 
 U geeft de locatie voor het document, het bestand dat u wilt uploaden en een optionele nieuwe naam voor het bestand op.
 
@@ -767,6 +767,51 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   <tr> 
    <td>[!UICONTROL Related Record Type]</td> 
    <td>Selecteer het type [!DNL Workfront] -record waarin u het document wilt uploaden door de module.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Folder ID]</td> 
+   <td>Afhankelijk van het type verwante record moet u mogelijk een map-id invoeren of toewijzen.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Source file]</td> 
+   <td> <p>Selecteer een bronbestand uit een vorige module of wijs de naam en gegevens van het bronbestand toe.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Zie een lijst van de [!DNL Workfront] objecten types waarvoor u deze module in [[!DNL Workfront]  objecten types beschikbaar voor elke  [!DNL Workfront]  module ](#workfront-object-types-available-for-each-workfront-module) kunt gebruiken.
+
++++
+
++++ **[!UICONTROL Upload Document (Legacy)]**
+
+Deze actiemodule uploadt een document naar een [!DNL Workfront] -object, zoals een project, taak of uitgave. Het gehele document tegelijk uploadt.
+
+U geeft de locatie voor het document, het bestand dat u wilt uploaden en een optionele nieuwe naam voor het bestand op.
+
+De module retourneert de id van het document en de bijbehorende velden, samen met aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
+
+Als u deze module configureert, worden de volgende velden weergegeven.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+   <td> <p>Zie <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Workfront] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Workfront] -app met [!DNL Workfront Fusion] .</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Related Record ID]</td> 
+   <td>Voer de unieke [!DNL Workfront] -id in van de record waarnaar u het document wilt uploaden.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Related Record Type]</td> 
+   <td>Selecteer het type [!DNL Workfront] -record waarin u het document wilt uploaden door de module.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Folder ID]</td> 
+   <td>Afhankelijk van het type verwante record moet u mogelijk een map-id invoeren of toewijzen.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Source file]</td> 
