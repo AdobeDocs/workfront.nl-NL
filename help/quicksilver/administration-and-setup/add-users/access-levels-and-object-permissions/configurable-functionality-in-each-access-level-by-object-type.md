@@ -5,16 +5,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 94e0b205-140c-41c9-bb5a-f89b4c3aaea0
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 5d924e510ad94098b9f417494f9fc6e8696c90d6
 workflow-type: tm+mt
-source-wordcount: '3436'
+source-wordcount: '3485'
 ht-degree: 0%
 
 ---
 
 # Configureerbare toegang tot functionaliteit voor elk objecttype
 
-Dit artikel verklaart wat u als beheerder van Adobe Workfront voor elk objecten type, op elk toegangsniveau kunt toestaan. Het verklaart ook wat de standaardconfiguratie voor elk type van toegangsniveau is.
+Wanneer het vormen van een toegangsniveau voor uw organisatie, kunt u bepalen welke specifieke acties aan het toegangsniveau beschikbaar zijn.
+
+In dit artikel worden de opties uitgelegd die een Adobe Workfront-beheerder voor elk objecttype op elk toegangsniveau kan selecteren. Het verklaart ook wat de standaardconfiguratie voor elk type van toegangsniveau is.
+
+Bijvoorbeeld, als een beheerder van Workfront &quot;Mening&quot;voor projecten in een bepaald toegangsniveau selecteert, zullen de gebruikers met dat toegangsniveau projecten kunnen slechts bekijken, niet hen uitgeven.
 
 Voor informatie over alle functionaliteit beschikbaar voor een objecten type in elk toegangsniveau, zie [ Functionaliteit beschikbaar voor elk objecten type ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 

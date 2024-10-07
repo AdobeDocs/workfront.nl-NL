@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 3c87c88245e79581c2a880c13038bcedb24caf4b
 workflow-type: tm+mt
-source-wordcount: '1656'
+source-wordcount: '1689'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->De nieuwe [!DNL SharePoint] -integratie is vrijgegeven voor productie met de release van 22.3 (juli 2022). Hoewel uw gebruikers nog steeds toegang hebben tot documenten die via de verouderde [!DNL SharePoint] -integratie zijn gekoppeld, moeten ze de nieuwe [!DNL SharePoint] -integratie gebruiken om documenten van SharePoint te koppelen.
+>De nieuwe [!DNL SharePoint] -integratie is vrijgegeven voor productie met de release van 22.3 (juli 2022).
+>
+>* Hoewel uw gebruikers nog steeds toegang hebben tot documenten die via de verouderde [!DNL SharePoint] integratie zijn gekoppeld, kunnen ze er geen documenten doorheen koppelen. ze moeten de nieuwe [!DNL SharePoint] -integratie gebruiken om documenten uit SharePoint te koppelen.
+>
+>* Als u geen bestaande SharePoint-integratie hebt geconfigureerd, kunt u deze niet toevoegen. U moet de nieuwe SharePoint-integratie gebruiken om documenten aan SharePoint te koppelen.
 >
 >* Voor de nieuwe SharePoint-integratie is mogelijk geen configuratie van een beheerder vereist en deze kan door individuele gebruikers worden ingesteld. Voor een vloeiende overgang naar de nieuwe SharePoint-integratie moet een Workfront-beheerder echter kleine wijzigingen aanbrengen in het gedeelte Workfront Setup.
 >

@@ -6,9 +6,9 @@ description: Als Adobe Workfront-klant kunt u telefonisch contact opnemen met he
 feature: Get Started with Workfront
 author: Becky
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
-source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
+source-git-commit: 5d924e510ad94098b9f417494f9fc6e8696c90d6
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -52,19 +52,14 @@ U kunt een ondersteuningsticket verzenden via de portal voor zelfbediening [!DNL
 
    Vanuit de [!UICONTROL Support] -startpagina kunt u naar de geopende ondersteuningsgevallen navigeren, een nieuw geval registreren, de bovenste [!UICONTROL Support] -artikelen weergeven of aanvullende leerbronnen openen.
 
-1. Als u een hoofdlettergebruik wilt verzenden, selecteert u de optie **[!UICONTROL Open a support case]** en klikt u op **[!UICONTROL Sign]In** .
+<!--1. To submit a case, select the option **[!UICONTROL Open a support case]**, then click **[!UICONTROL Sign] In**.-->
 
-1. Klik op **[!UICONTROL Open case]** in de linkerzijbalk.
-
-<!--
-   ![](assets/left-nav-bar-for-exl-support-portal.png)
--->
-
+1. Klik op **[!UICONTROL Open Ticket]** in de linkerzijbalk.
 De pagina [!UICONTROL case creation] wordt geopend waar u de productnaam ([!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion], enz.), de titel van het geval en de beschrijving van het geval kunt invoeren.
 
->[!TIP]
->
->Wees zo beschrijvend mogelijk wanneer u het probleem beschrijft waarmee u wordt geconfronteerd om ons te helpen het het oplossen van problemenproces te versnellen.
+   >[!TIP]
+   >
+   >Wees zo beschrijvend mogelijk wanneer u het probleem beschrijft waarmee u wordt geconfronteerd om ons te helpen het het oplossen van problemenproces te versnellen.
 
 
 1. Vul de gegevens in voor de volgende velden om ons meer specifieke details te geven:
@@ -87,7 +82,7 @@ Als u vragen hebt of problemen hebt met het indienen van een aanvraag, belt u he
 
 ## Bekijk en beheer uw ondersteuningszaken
 
-1. Navigeer naar de pagina **[!UICONTROL My cases]** . Deze pagina wordt geopend wanneer u een kwestie verzendt, of u kunt het openen door **[!UICONTROL My cases]** in de linkernavigatie te klikken.
+1. Navigeer naar de pagina **[!UICONTROL My Cases]** . Deze pagina wordt geopend wanneer u een kwestie verzendt, of u kunt het openen door **[!UICONTROL My Cases]** in de linkernavigatie te klikken.
 
 1. (Facultatief) gebruik de opties bij de bovenkant van de pagina aan filter door **Product ([!DNL Experience Cloud] oplossing)** of geval **[!UICONTROL Status]** ([!UICONTROL Open] of Cl  gebruikt). U kunt ook het vak [!UICONTROL search] gebruiken om te zoeken naar trefwoorden die betrekking hebben op ondersteuningsgevallen.
 
@@ -97,9 +92,9 @@ Als u vragen hebt of problemen hebt met het indienen van een aanvraag, belt u he
 
 1. (Optioneel) Controleer in de weergave Case de meest recente opmerkingen met de toegewezen eigenaar van het geval en voeg aanvullende bijlagen of reacties toe.
 
-1. (Optioneel) Als u het hoofdlettergebruik wilt laten escaleren, klikt u op **[!UICONTROL Escalate to management]** aan de rechterkant van de pagina onder **[!UICONTROL Case Detail] .
+1. (Optioneel) Als u het hoofdlettergebruik wilt laten escaleren, klikt u op **[!UICONTROL Escalate to management]** aan de rechterkant van de pagina onder **[!UICONTROL Case Detail]** .
 
-1. Klik op de knop **[!UICONTROL Close case]** om de kwestie te sluiten.
+1. (Optioneel) Klik op de knop **[!UICONTROL Close case]** om het hoofdlettergebruik te sluiten.
 
 
 <!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)
