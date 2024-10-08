@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 83827c24bd9157d2a4fb151e61c38cd6892a7c86
 workflow-type: tm+mt
-source-wordcount: '1448'
+source-wordcount: '1512'
 ht-degree: 0%
 
 ---
@@ -23,13 +23,11 @@ In de Planning van Adobe Workfront, is een verslag een geval van een verslagtype
 
 U kunt records maken door een van de volgende handelingen uit te voeren:
 
-* Records toevoegen vanaf de pagina met recordtypen in de tabelweergave
-* Een lijst met records uit een externe lijst kopiëren en plakken
-* Records dupliceren vanuit een tabelweergave
-* Records maken terwijl u deze verbindt met andere records
-* Maak ze door een aanvraagformulier naar een recordtype te verzenden
-
-In dit artikel wordt beschreven hoe u records kunt maken.
+* [Records toevoegen vanaf de pagina met recordtypen in de tabelweergave](#create-records-by-adding-them-to-a-record-type-in-a-record-type-table)
+* [Een lijst met records uit een externe lijst kopiëren en plakken](#create-records-by-copying-and-pasting-them-from-an-external-list)
+* [Records dupliceren vanuit een tabelweergave](#create-records-by-duplicating-them)
+* [Records maken terwijl u deze verbindt met andere records](#create-records-as-you-connect-them)
+* [Maak ze door een aanvraagformulier naar een recordtype te verzenden](#create-records-by-submitting-a-request-form-to-a-record-type)
 
 Raadpleeg de volgende artikelen voor informatie over het beheren van records in de tabel- of tijdlijnweergaven:
 
@@ -106,62 +104,6 @@ U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
 </table>
 
 *Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-<!--OLD info: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p>
-   <p>Current: Plan</p>  
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configurations</p></td>
-   <td> <p>There are no access controls for Adobe Workfront Planning </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Contribute or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-
- </tbody>
-</table>
-
-*For more information, see [Access requirements for Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 +++
 
@@ -305,6 +247,15 @@ Om verslagen tot stand te brengen aangezien u hen van andere verslagen verbindt:
    ![](assets/add-button-to-create-records-in-context-highlighted.png)
 
    De record wordt gemaakt en toegevoegd aan het verbonden recordveld.
+
+   >[!IMPORTANT]
+   >
+   >* U kunt alleen projecten en portfolio&#39;s maken in Workfront wanneer u deze via een record verbindt.
+   >
+   >* U kunt geen programma&#39;s, groepen, of bedrijven tot stand brengen wanneer het verbinden hen van een verslag in de Planning van Workfront.
+   >
+   >* U kunt geen project van een malplaatje tot stand brengen wanneer u projecten door hen van een verslag te verbinden creeert. U moet taken en projectinformatie of een malplaatje aan het nieuwe project manueel toevoegen nadat u het aan het verslag toevoegt.
+
 1. (Optioneel) Ga naar de tabelweergave van het recordtype waarvan u de record hebt gemaakt. Een nieuwe record wordt weergegeven in de laatste rij van de weergave.
 1. (Optioneel) Voeg informatie voor de nieuwe record toe in de tabelweergave
 of

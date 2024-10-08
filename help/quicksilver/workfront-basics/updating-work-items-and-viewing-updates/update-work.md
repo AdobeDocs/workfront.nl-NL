@@ -6,9 +6,9 @@ description: U kunt een update toevoegen aan een Adobe Workfront-object (project
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
 workflow-type: tm+mt
-source-wordcount: '3037'
+source-wordcount: '3075'
 ht-degree: 0%
 
 ---
@@ -51,11 +51,15 @@ ht-degree: 0%
 ><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. </span>
 -->
 
-U kunt een update toevoegen aan een Adobe Workfront-object om anderen te informeren over de voortgang van het object. Voor meer informatie over welke voorwerpen u updates aan in Workfront kunt toevoegen, zie [ overzicht van de sectie van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+U kunt een update aan een Adobe Workfront-object toevoegen door er een opmerking aan toe te voegen om anderen te informeren over de status of de voortgang van het object, of om meer informatie of aanvullende bronnen te vragen.
 
-De informatie in dit artikel beschrijft hoe u informatie voor projecten, taken, en kwesties kunt commentaren en bijwerken. Gebruikers die zijn toegewezen aan of geabonneerd op het object, kunnen uw update weergeven. U kunt gebruikers ook labelen om de update onder de aandacht te brengen.
+Voor meer informatie over welke voorwerpen u updates aan in Workfront kunt toevoegen, zie [ overzicht van de sectie van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-Het toevoegen van opmerkingen aan andere objecten is vergelijkbaar met het bijwerken van projecten, taken en problemen. Zie ook de volgende artikelen voor meer informatie over opmerkingen over kaarten en doelen:
+De informatie in dit artikel beschrijft hoe u op projecten, taken, en kwesties kunt commentaren. Gebruikers die zijn toegewezen aan of geabonneerd op het object, kunnen uw update weergeven. U kunt gebruikers ook labelen om de update onder de aandacht te brengen.
+
+Het toevoegen van opmerkingen aan andere Workfront-objecten lijkt op het bijwerken van projecten, taken en problemen.
+
+Zie ook de volgende artikelen voor meer informatie over opmerkingen over kaarten, doelen en records in Workfront Planning:
 
 * [ beheer doelcommentaren in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/manage-goal-comments.md).
 
@@ -65,7 +69,7 @@ Het toevoegen van opmerkingen aan andere objecten is vergelijkbaar met het bijwe
 
 * [Gekoppelde kaarten op borden gebruiken](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)
 
-<!--Add a bullet for record comments when Planning is in GA: help/quicksilver/planning/records/manage-record-comments.md-->
+* [Opnameopmerkingen beheren](/help/quicksilver/planning/records/manage-record-comments.md)
 
 ## Toegangsvereisten
 
@@ -84,7 +88,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-licentie</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront-licentie*</strong></td> 
    <td> 
    <p>Huidig: Verzoek of hoger voor uitgaven en documenten; Controleren of hoger voor alle andere objecten</p>
    <p>Nieuw: Medewerker of hoger voor uitgaven en documenten: licht of hoger voor alle andere objecten</p> 
@@ -101,11 +105,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Overwegingen bij het bijwerken van werkzaamheden
+## Overwegingen bij opmerkingen over objecten
 
 * In de sectie Updates kunt u opmerkingen toevoegen aan de meeste objecten in Adobe Workfront. Voor meer informatie over welke voorwerpen de sectie van Updates tonen, zie [ het sectieoverzicht van Updates ](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
@@ -234,23 +238,13 @@ You can add updates to the following objects:
 
 <!--info for April 11: reword the title of this section to: "Add an update to a work item"; take out the step that says you need to enable the "New commenting" toggle (I think it is step 3??)-->
 
-## Een update toevoegen aan een werkitem
+## Een opmerking toevoegen aan een tijdelijk item
 
-In dit artikel wordt beschreven hoe u project, taken of problemen kunt bijwerken. Het bijwerken van de meeste andere objecten is vergelijkbaar.
+In dit artikel wordt beschreven hoe u projecten, taken of problemen kunt bijwerken. Het bijwerken van de meeste andere objecten is vergelijkbaar.
 
-1. Zoek het object dat u wilt bijwerken en klik op de naam van het object om de objectpagina te openen.
+1. Zoek het object waaraan u een opmerking wilt toevoegen en klik op de naam van het object om de objectpagina te openen.
 1. Klik **Updates** in het linkerpaneel.
 Het **lusje van Commentaren** wordt geselecteerd door gebrek.
-
-   <!--
-   1. (Conditional) If the **New commenting** option is disabled, click to enable it. 
-
-      This enables the new commenting experience. 
-
-         >[!TIP]
-         >
-         ><span class="preview">The New commenting option has been removed in the Preview environment.</span>
-   -->
 
 1. Begin een commentaar in de **Nieuwe commentaardoos** in te gaan.
 
@@ -329,12 +323,12 @@ Het **lusje van Commentaren** wordt geselecteerd door gebrek.
    >
    >U kunt niet reageren op opmerkingen of andere gebruikers tags toewijzen aan bestaande opmerkingen op het tabblad Alles. Om op een commentaar op het Al lusje te antwoorden, klik **Reageren in Commentaren** om de commentaar in de Commentaren tabel te openen.
 
-## RTF-bestanden gebruiken in een Workfront-update{#use-rich-text-in-a-workfront-update}
+## RTF-commentaar gebruiken in een Workfront-commentaar{#use-rich-text-in-a-workfront-comment}
 
-U kunt uw updates verbeteren met RTF-bestanden of door er verschillende items aan toe te voegen, zoals emojis, koppelingen of afbeeldingen.
+U kunt uw commentaren verbeteren door RTF te gebruiken, of diverse punten toe te voegen aan het, zoals emojis, verbindingen, of beelden.
 
-1. Ga naar het **gebied van Updates** van een voorwerp van Workfront en begin een commentaar te typen.
-1. (Optioneel) Om RTF-opmaak aan uw update toe te voegen, gebruikt u alle kenmerken op de **Rich Text** -werkbalk terwijl u typt.
+1. Ga naar het **gebied van Updates** van een voorwerp van Workfront, open het **3} lusje van Commentaren {en begin een commentaar te typen.**
+1. (Facultatief) om Rich Tekst het formatteren aan uw commentaar toe te voegen, gebruik om het even welke attributen op de **Rich Text** toolbar aangezien u typt.
 
    ![](assets/rich-text-toolbar.png)
 
@@ -444,19 +438,17 @@ U kunt een opmerking of antwoord zoeken in de sectie Updates van een object.
 
 <!-- when we release search to production, check above and make sure you don't have to add that the users tagged/ owners are also searchable-->
 
-## Updates kopiëren
+## Opmerkingen kopiëren
 
-U kunt een update op verschillende manieren kopiëren.
+U kunt een opmerking op verschillende manieren kopiëren.
 
-U kunt een koppeling naar de update kopiëren of de inhoud van een update kopiëren en deze gebruiken in een nieuwe update.
+U kunt een koppeling naar de opmerking kopiëren of de inhoud van de opmerking kopiëren en deze gebruiken in een nieuwe update.
 
 <!--Copying an update differs depending on which commenting experience you use.-->
 
 <!--info for April 11: take the sentence above out and reword the section title below to: Copy an update-->
 
-### Een update kopiëren <!--in the new commenting experience-->
-
-<!--For information about what features are available for the new commenting experience and for what objects, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).-->
+### Een opmerking kopiëren
 
 U kunt informatie uit een bestaande opmerking kopiëren door een van de volgende handelingen uit te voeren:
 
@@ -466,11 +458,11 @@ U kunt informatie uit een bestaande opmerking kopiëren door een van de volgende
 
 ![](assets/copy-comment-ways-from-more-menu-on-comment.png)
 
-#### Koppeling kopiëren
+#### Koppeling naar opmerking kopiëren
 
 Met de koppelingsoptie Kopiëren kopieert u de opmerking of de koppeling naar het klembord, zodat u de opmerking of de volledige verbinding met andere gebruikers kunt delen.
 
-1. Ga naar de update waarvan u de koppeling wilt kopiëren.
+1. Ga naar de opmerking waarvan u de koppeling wilt kopiëren.
 
 1. Klik het **Meer** menu, dan klik **verbinding van het Exemplaar**.
 
@@ -484,16 +476,16 @@ Met de koppelingsoptie Kopiëren kopieert u de opmerking of de koppeling naar he
 
 #### Platte tekst kopiëren
 
-Met de optie Tekst kopiëren wordt de tekst van een specifieke update naar het klembord gekopieerd.
+Met de tekstoptie Kopiëren kopieert u de tekst van een bepaalde opmerking naar het klembord.
 
-1. Ga naar de update of het antwoord dat u wilt kopiëren.
+1. Ga naar de opmerking of het antwoord dat u wilt kopiëren.
 1. Klik het **Meer** menu, dan klik **lichaamstekst van het Exemplaar**.
 
 #### Offerteantwoord
 
 Met de antwoordoptie Citaat kopieert u de oorspronkelijke opmerking naar een nieuw antwoord als een blokcitaat.
 
-1. Ga naar de update of het antwoord dat u wilt kopiëren.
+1. Ga naar de opmerking of het antwoord dat u wilt kopiëren.
 1. Klik het **Meer** menu, dan klik **antwoord van het Citaat**.
 
    Er wordt een nieuw opmerkingsvak geopend en het geciteerde antwoord wordt opgenomen in de nieuwe opmerking en gemarkeerd als een blokcitaat.
@@ -563,14 +555,16 @@ The Quote Reply option copies the original comment to a new reply as a block quo
 1. Continue adding your update and click **Reply** to add the comment.
 -->
 
-## Een update of antwoord verwijderen
+## Een opmerking of antwoord verwijderen
 
-Afhankelijk van de toegang die uw Workfront-beheerder u biedt, kunt u mogelijk updates verwijderen die u hebt toegevoegd op het tabblad Updates van een object. Voor meer informatie, zie [ tot douanetoegangsniveaus ](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) in het artikel [ leiden of wijzigen tot douanetoegangsniveaus ](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+Afhankelijk van de toegang die uw Workfront-beheerder u biedt, kunt u mogelijk opmerkingen verwijderen die u hebt toegevoegd in de sectie Updates van een object.
+
+Voor meer informatie, zie [ tot douanetoegangsniveaus ](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) in het artikel [ leiden of wijzigen tot douanetoegangsniveaus ](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 Geen enkele Workfront-gebruiker (inclusief de Workfront-beheerder) kan updates van een andere gebruiker verwijderen. Nochtans, als het de toegangsniveau van een gebruiker hen toestaat om hun eigen updates te schrappen, kan de beheerder van Workfront login als die gebruiker en schrapt updates zij aanbrachten. Voor meer informatie, zie [ tot douanetoegangsniveaus ](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) leiden of wijzigen en [ login als een andere gebruiker ](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
-1. Ga naar de update of het antwoord dat u wilt verwijderen.
-1. Klik het **Meer** menu naast de update of het antwoord u wenst om te schrappen, dan **Schrapping** te klikken.
+1. Ga naar de opmerking of het antwoord dat u wilt verwijderen.
+1. Klik het **Meer** menu naast de commentaar of het antwoord u wenst om te schrappen, dan **Schrapping** te klikken.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -608,7 +602,7 @@ In de sectie Updates van een Workfront-object worden twee soorten gegevens weerg
    * Sjabloontaak
    * Ad-hockaart
 
-Voor meer informatie over systeemupdates in de sectie van Updates, zie [ overzicht van de sectie van Updates ](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
+Voor meer informatie over gebruiker en systeemupdates en hoe zij in de sectie van Updates van de voorwerpen van Workfront tonen, zie [ het sectieoverzicht van Updates ](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 
 <!--

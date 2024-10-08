@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '980'
 ht-degree: 0%
 
 ---
@@ -96,60 +96,6 @@ U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
 
 +++
 
-<!--OLD: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configuration</p></td>
-   <td> <p>There are no access level controls in Workfront Planning. </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
- </tbody>
-</table>
--->
-
 ## Overwegingen bij opmerkingen in een record
 
 * U kunt opmerkingen en antwoorden toevoegen aan records in Workfront Planning, in de sectie Opmerkingen van een record.
@@ -166,16 +112,11 @@ U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
 
 * U kunt gebruikers tags toewijzen om hun aandacht te vestigen op een update. Gelabelde gebruikers ontvangen geen melding in de app of een e-mail over uw update. <!--this might change??-->
 
-<!--replace the bullet above with this: * You can tag users to bring their attention to an update. Tagged users receive an in-app notification or an email notification about your update. 
-   The following scenario exists:   
+* U kunt gebruikers tags toewijzen om hun aandacht te vestigen op een update. Gelabelde gebruikers ontvangen een melding in de app of een e-mailmelding over uw update.
 
-   * Adobe Unified Experience users receive both an in-app notification and an email notification. 
-   * Users who are not in the Adobe Unified Experience receive only an email notification. 
-
-      For information, see [Adobe Workfront Planning notifications: article index](/help/quicksilver/planning/notifications/notifications-information.md)
-   
-      To determine whether your company is using the Adobe Unified Experience, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
-      -->
+  >[!NOTE]
+  >
+  >   Slechts ontvangen de gebruikers van klanten die met de Adobe Verenigde Ervaring zijn ingegaan zowel een in-app bericht als een e-mailbericht. Om te bepalen of uw bedrijf de Adobe Verenigde Ervaring gebruikt, zie [ Adobe Verenigde Ervaring voor Workfront ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 * U kunt een update aan verslagen toevoegen en de geschiedenis van veranderingen van de volgende gebieden van de Planning van Workfront herzien:
 
@@ -211,54 +152,58 @@ De recordtypepagina wordt geopend en alle records van dat type worden weergegeve
 1. (Optioneel) Als u een wijziging ongedaan wilt maken of opnieuw wilt uitvoeren, gebruikt u de volgende sneltoetsen:
    * CTRL + Z ( ⌘+z voor Mac) om een wijziging ongedaan te maken
    * CTRL + Y ( ⌘+y voor Mac) om een wijziging opnieuw uit te voeren
-1. (Optioneel) Voeg **@** toe, gevolgd door de naam van een gebruiker, om een tag toe te wijzen aan iemand in de update.
+1. (Optioneel en voorwaardelijk) Als uw Workfront-instantie deel uitmaakt van de Adobe Unified Experience, voegt u **@** toe, gevolgd door de naam van een gebruiker om een tag toe te wijzen aan iemand in de update. Voor meer informatie, zie de sectie [ Overwegingen over het becommentariëren over een verslag ](#considerations-about-commenting-on-a-record) in dit artikel.
 
-   <!--Adobe Unified Experience users can receive an in-app and an email notification when they are tagged. All other users receive an email when they are tagged. For more information, see the section [Considerations about commenting on a record](#considerations-about-commenting-on-a-record) in this article. -->
+1. (Optioneel) Gebruik de opties op de werkbalk RTF om de tekst op te maken, emoties, koppelingen of afbeeldingen aan de update toe te voegen om de inhoud te verbeteren.
 
-1. (Optioneel) Gebruik de opties op de werkbalk RTF om de tekst op te maken, emoties, koppelingen of afbeeldingen aan de update toe te voegen om de inhoud te verbeteren. Voor meer informatie, zie de &quot;Rijke Tekst van het Gebruik in een update van Workfront&quot;sectie in het artikel [ werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. Voeg verder opmerkingen toe aan de record.
 
-   >[!TIP]
-   >
-   >Als een andere gebruiker een opmerking verzendt naar hetzelfde item dat u bijwerkt, wordt er een rode lijn weergegeven met de indicator &quot;Nieuw&quot; om u op de hoogte te brengen van de nieuwere opmerkingen.
-   >
-   >De indicator wordt alleen weergegeven nadat de opmerking op het item is verzonden, en niet wanneer de opmerking nog steeds wordt samengesteld.
-   >
-   >![](assets/new-line-indicator-comments.png)
+   Voor meer informatie over het bijwerken van voorwerpen, met inbegrip van de verslagen van de Planning van Workfront, zie [ het werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. Klik **voorleggen** om de update aan het verslag toe te voegen.
-1. (Facultatief) om een commentaar uit te geven, klik **Meer** menu ![](assets/more-menu.png) in de hoger-juiste hoek van de commentaar, dan klik **uitgeven**.
+<!--
+      >[!TIP]
+      >
+      >If another user submits a comment to the same item you are updating, there is a red line with a "New" indicator to inform you of the newer comments. 
+      >
+      >The indicator displays only after the comment was submitted on the item, and not when the comment is still composed. 
+      >
+      >![](assets/new-line-indicator-comments.png)
+
+1. Click **Submit** to add the update to the record. 
+1. (Optional) To edit a comment, click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the comment, then click **Edit**.
 
    >[!IMPORTANT]
    >
-   >Je kunt je opmerking alleen binnen 15 minuten bewerken nadat je deze hebt verzonden.
+   >You can edit your comment only within 15 minutes from submitting it.  
 
-1. Bewerk de informatie in de opmerking, voeg afbeeldingen toe of verwijder afbeeldingen of verwijder een van de getagde gebruikers. Links van de opmerking wordt een indicator &quot;bewerkt&quot; toegevoegd.
+1. Edit the information in the comment, add or remove images or remove any of the tagged users. An "edited" indicator is added to the left of the comment.
+   
+      >[!TIP]
+      >
+      >Comments from the current year do not display the year in the date stamp. Hovering over a timestamp displays the full date, including the year.
 
-   >[!TIP]
-   >
-   >Opmerkingen van het lopende jaar worden niet in het datumstempel weergegeven. Als u de muis boven een tijdstempel houdt, wordt de volledige datum weergegeven, inclusief het jaar.
-
-1. (Facultatief en voorwaardelijk) aan onderzoek naar een bestaande commentaar, begin een sleutelwoord in het onderzoeksvakje in de hoger-juiste hoek van het **gebied van Commentaren** te typen.
+1. (Optional and conditional) To search for an existing comment, start typing a keyword in the search box in the upper-right corner of the **Comments** area.     
 
    ![](assets/search-box-for-comments-area.png)
+     
+1. (Optional) Click **Reply** or start typing a comment in the **Add reply ...** area, to reply to an existing comment, then follow steps 4-8 above. (**************accurate??***********)
 
-1. (Facultatief) klik **Reageren** of beginnen een commentaar in **te typen toevoegt antwoord...** gebied, om op een bestaande commentaar te antwoorden, dan stappen 4-8 hierboven te volgen. <!--(**************accurate??***********)-->
+1. (Conditional and optional) If other users have added comments that display outside of the visible area in the Comments section while you were adding your comments, click **View** inside the **new comments banner** at the bottom of the screen  to display these comments.
 
-1. (Voorwaardelijk en facultatief) als andere gebruikers commentaren hebben toegevoegd die buiten het zichtbare gebied in de sectie van Commentaren tonen terwijl u uw commentaren toevoegde, **Mening** binnen de **nieuwe commentaarbanner** bij de bodem van het scherm klikken om deze commentaren te tonen.
+    ![](assets/new-comments-banner-on-record.png)
 
-   ![](assets/new-comments-banner-on-record.png)
+    Additional comments display at the bottom of the screen.
+  
+1. (Optional) Click the **Like** icon to like an update or acknowledge that you read it. The icon updates with the number of likes.
+1. (Conditional and optional) If you included additional people in your comment, click the avatars of the users included in the update to display a list of users that the comment is shared with. 
+1. (Optional) Click the **More** icon ![](assets/more-menu.png) in the upper-right corner of the comment and click one of the following options, to copy a information from a comment: 
 
-   Aanvullende opmerkingen worden onder in het scherm weergegeven.
+    * **Copy link**: This copies a link to the comment to your clipboard.
+    * **Copy body text**: This copies the text of the comment to your clipboard.
+    * **Quote reply**: This copies the content of your comment into a new reply. Images are not included in the copied reply. 
 
-1. (Facultatief) klik het **als** pictogram om van een update te houden of te erkennen dat u het leest. Het pictogram wordt bijgewerkt met het aantal ‘like’.
-1. (Voorwaardelijk en optioneel) Als u extra personen hebt toegevoegd aan uw opmerking, klikt u op de avatars van de gebruikers die zijn opgenomen in de update om een lijst weer te geven met gebruikers waarmee de opmerking wordt gedeeld.
-1. (Facultatief) klik **Meer** pictogram ![](assets/more-menu.png) in de hoger-juiste hoek van de commentaar en klik één van de volgende opties, om een informatie van een commentaar te kopiëren:
+    For more information, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md). -->
 
-   * **verbinding van het Exemplaar**: Dit kopieert een verbinding aan de commentaar aan uw klembord.
-   * **het lichaamstekst van het Exemplaar**: Dit kopieert de tekst van de commentaar aan uw klembord.
-   * **het antwoord van het Citaat**: Dit kopieert de inhoud van uw commentaar in een nieuw antwoord. Afbeeldingen worden niet opgenomen in het gekopieerde antwoord.
-
-   Voor meer informatie, zie [ het werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Optioneel) Klik op het **Meer** pictogram ![](assets/more-menu.png) in de rechterbovenhoek van de opmerking en klik vervolgens op **Verwijderen** om de opmerking te verwijderen.
 1. (Optioneel) Klik op het **pictogram ![](assets/hide-comments-icon.png) Opmerkingen verbergen** om het rechterdeelvenster te sluiten.
 

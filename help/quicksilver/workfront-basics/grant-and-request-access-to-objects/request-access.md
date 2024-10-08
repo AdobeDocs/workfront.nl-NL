@@ -6,9 +6,9 @@ description: De zichtbaarheid van objecten in Adobe Workfront is afhankelijk van
 author: Alina
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
 workflow-type: tm+mt
-source-wordcount: '1429'
+source-wordcount: '1416'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,12 @@ De zichtbaarheid van objecten in Adobe Workfront is afhankelijk van de toegang t
 
 >[!NOTE]
 >
->In dit artikel wordt beschreven hoe u machtigingen kunt aanvragen voor alle objecten, behalve voor plannen in de Adobe Workfront Scenario Planner. Voor informatie over het verzoeken van toegang tot plannen, zie [ toegang van het Verzoek tot een plan in de Planner van het Scenario ](../../scenario-planner/request-access-to-plan.md). Hiervoor is een aanvullende licentie vereist.
+>In dit artikel wordt beschreven hoe u machtigingen kunt aanvragen voor alle objecten, behalve voor het volgende:
+>
+>* Scenario Planner is van plan in het Adobe Workfront Scenario Planner. Voor meer informatie, zie [ toegang van het Verzoek tot een plan in de Planner van het Scenario ](../../scenario-planner/request-access-to-plan.md). Hiervoor is een aanvullende licentie vereist.
+>
+>* Weergaven en werkruimten in Workfront Planning. Voor meer informatie, zie [ Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront ](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+
 
 Uw Workfront-beheerder configureert uw toegang tot een type object op uw toegangsniveau. Voor meer informatie, zie [ hoe de toegangsniveaus en de toestemmingen samen ](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md) werken.
 
@@ -31,33 +36,7 @@ Bijvoorbeeld, zou u de toestemmingen van de Mening aan een project kunnen hebben
 
 ## Toegangsvereisten
 
-<!--drafted for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard</p> 
-   Or
-   <p>Legacy license: Work or higher</p> 
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access or higher to the objects you request permissions to</p> <p><b>NOTE</b> 
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
--->
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben om objecten te delen:
 
@@ -66,23 +45,25 @@ U moet het volgende hebben om objecten te delen:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Werk of hoger</p> </td> 
+   <td> <p>Nieuw: Standaard</p> 
+   <p>Huidig: Werk of hoger</p> 
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot of hoger weergeven voor objecten waarvoor u machtigingen aanvraagt</p> <p><b>OPMERKING</b>
-
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
-</tr> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot of hoger weergeven voor objecten waarvoor u machtigingen aanvraagt</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Standaarden voor delen begrijpen
 

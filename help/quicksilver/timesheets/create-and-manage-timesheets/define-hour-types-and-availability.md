@@ -1,19 +1,21 @@
 ---
 product-area: timesheets;system-administration
 navigation-topic: create-and-manage-timesheets
-title: De types en beschikbaarheid van uren bepalen
+title: Bepaal de Types en Beschikbaarheid van Uur
 description: Een Type van Uur is een etiket dat u toestaat om tijdingang te categoriseren. Afhankelijk van de rapporteringsvereisten van uw organisatie voor uren, kan dit een essentieel deel van registrerentijd zijn.
 author: Alina
 feature: Timesheets
 exl-id: 3c07a6b0-4751-4fce-ac28-6a83084025d4
-source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
+source-git-commit: 83827c24bd9157d2a4fb151e61c38cd6892a7c86
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: '1509'
 ht-degree: 0%
 
 ---
 
 # De types en beschikbaarheid van uren bepalen
+
+<!--Audited: 10/2024-->
 
 Een Type van Uur is een etiket dat u toestaat om tijdingang te categoriseren. Afhankelijk van de rapporteringsvereisten van uw organisatie voor uren, kan dit een essentieel deel van registrerentijd zijn.
 
@@ -34,6 +36,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
+U moet over de volgende toegang en machtigingen beschikken om de in dit artikel beschreven stappen uit te voeren:
+
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -41,15 +45,17 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan of hoger</p> </td> 
+   <td> <p>Nieuw: Standaard</p> 
+   <p>Huidig: Plan</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>De beheerdertoegang van het systeem om systeem-brede uurtypes te bepalen en alle gebruikers uit te geven</p> </td> 
   </tr> 
   <tr> 
@@ -59,7 +65,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan of vergunningstype u hebt, contacteer uw beheerder van Workfront.
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -72,24 +78,32 @@ De systeembeheerder bepaalt welke project-specifieke uurtypes beschikbaar worden
 De projecteigenaar bepaalt of alle die uurtypes op het systeemniveau worden bepaald op het project (en taken en kwesties binnen het project) beschikbaar zijn, of slechts een ondergroep van die uurtypes beschikbaar zijn.
 
 1. Ga naar het project waar u de beschikbaarheid van uurtypes wilt bepalen.
-1. Klik het **Meer** menu naast de taaknaam, dan klik **uitgeven**.
+1. Klik het **Meer** menu naast de projectnaam in de kopbal, dan klik **uitgeven**.
+Het **geeft de doos van het Project** uit opent.
 
-1. Klik **uitgeven Project**.
-1. In de **sectie van Montages**, bepaal de plaats van de **optie van de Types van Uur van de Filter**.
+1. In de **sectie van de Montages van het Project**, bepaal de plaats van de **Types van Uur van de Filter**.
 
 1. Selecteer **Nr** om alle project-specifieke uurtypes beschikbaar te maken op het project.
 
    of
 
-   Selecteer **ja** om slechts een ondergroep van de project-specifieke uurtypes beschikbaar op het project te maken, dan de uurtypes te selecteren u beschikbaar wilt maken. (Houd Shift ingedrukt als u meerdere uurtypen wilt selecteren.)
+   Selecteer **ja** om slechts een ondergroep van de project-specifieke uurtypes beschikbaar op het project te maken, dan de uurtypes te selecteren u beschikbaar wilt maken.
 
-   Als u deze optie selecteert, worden alleen de uurstypen die u selecteert, beschikbaar gemaakt om te selecteren wanneer u zich aanmeldt in uren voor het project (of voor taken en problemen binnen het project). Als u deze optie selecteert en u geen uurtypes selecteert, toont het project slechts algemene uurtypes.
+   Houd Shift ingedrukt als u meerdere uurtypen wilt selecteren.
 
-   De zelfde selecties moeten op het individuele gebruikersniveau worden gemaakt opdat de gebruiker deze uurtypeopties op het project ziet.
+   >[!NOTE]
+   >
+   >   Overweeg het volgende:
+   >   
+   >   * Als u **ja** selecteert, slechts worden de uurtypes u uitgezocht ter beschikking gesteld om te selecteren wanneer het registreren van uren op het project (of op taken en kwesties binnen het project).
+   >   
+   >   * Als u **ja** selecteert en u geen uurtypes selecteert, toont het project slechts algemene uurtypes.
+   >
+   >   * De zelfde selecties moeten op het individuele gebruikersniveau worden gemaakt opdat de gebruiker deze uurtypeopties op het project ziet.
+   >
+   >   * Wanneer het Type van Uur van het Standaard van de gebruiker en een project Gefilterde Type van Uur aanpast, wordt dat uurtype geselecteerd door gebrek wanneer het registreren tijd.
 
-   Wanneer het Type van Uur van de gebruiker Standaard en een project Gefilterde Type van Uur aanpast, wordt dat uurtype geselecteerd door gebrek wanneer het registreren tijd.
-
-1. Klik **sparen Veranderingen**.
+1. Klik **sparen**.
 
 ## Beschikbaarheid op gebruikersniveau definiëren
 
@@ -99,12 +113,21 @@ Als u een uurtype op het gebruikersniveau beschikbaar maakt zoals die in deze se
 
 Om de uurtypes te bepalen die aan een gebruiker beschikbaar zijn:
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik uw gebruikersavatar in de upper-left hoek
 
-1. Klik op de gebruikersavatar in de linkerbovenhoek.
+   of
+
+   Klik het **Belangrijkste pictogram van het Menu** ![](assets/adobe-main-menu.png) in de hoger-juiste hoek, als beschikbaar, dan klik **het Profiel van Workfront**.
+
 1. Klik het **Meer** menu naast de gebruikersnaam, dan klik **uitgeven**.
 
-1. Alleen een systeembeheerder kan andere gebruikers bewerken. Als u een licentie voor abonnementen hebt, kunt u de uurtypen in uw eigen profiel bewerken.
+   Het **geeft Persoon** vakje uit opent.
+
+   >[!IMPORTANT]
+   >
+   >Alleen een systeembeheerder kan andere gebruikers bewerken. Als u een licentie voor abonnementen hebt, kunt u de uurtypen in uw eigen profiel bewerken.
+
+
 1. In de **Planning van het Middel** sectie, in **Beschikbare types van Uur** drop-down menu, doe één van beiden van het volgende, afhankelijk van welke uurtypes u beschikbaar wilt maken wanneer het registreren van tijd op een project, een taak, of een kwestie:
 
    * **om alle uurtypes ter beschikking te stellen voor de gebruiker:** selecteer alle uurtypes.\
@@ -119,8 +142,7 @@ Om de uurtypes te bepalen die aan een gebruiker beschikbaar zijn:
 
 1. Klik **sparen Veranderingen**.
 
-   Nu wanneer u uren op een project, een taak, of een kwestie registreert, zijn de uurtypes u uitgezocht beschikbaar als die zelfde uurtypes op het projectniveau beschikbaar zijn gemaakt.
-
+   Nu, wanneer u uren op een project, een taak, of een kwestie registreert, zijn de uurtypes u uitgezocht beschikbaar als die zelfde uurtypes op het projectniveau beschikbaar zijn gemaakt.
 
 ## Hoe gebruiker-niveau en project-niveau de types van uren samenwerken
 

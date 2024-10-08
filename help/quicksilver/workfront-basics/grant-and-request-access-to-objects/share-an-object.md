@@ -6,9 +6,9 @@ description: Uw Adobe Workfront-beheerder verleent gebruikers toegang tot weerga
 author: Alina, Nolan
 feature: Get Started with Workfront
 exl-id: 27a1beb9-e83a-4ef6-bf5f-ad52575a993c
-source-git-commit: 310935c7ad1cc97a7d26fc2ff40d2d68d192bb39
+source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
 workflow-type: tm+mt
-source-wordcount: '1954'
+source-wordcount: '1971'
 ht-degree: 0%
 
 ---
@@ -51,11 +51,22 @@ Zie ook de volgende artikelen voor informatie over het delen van alle andere obj
 * Voor documentomslagen, zie [ een documentomslag ](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md) delen.
 * Voor plannen, zie [ een plan in de Planner van het Scenario ](../../scenario-planner/share-a-plan.md) delen.
 
-  Hiervoor is een aanvullende licentie vereist.
+  Voor Workfront Scenario Planner is mogelijk een aanvullende licentie vereist.
 
-* Voor doelstellingen, zie [ een doel in de Doelen van Workfront delen ](../../workfront-goals/workfront-goals-settings/share-a-goal.md). Hiervoor is een aanvullende licentie vereist.
+* Voor doelstellingen, zie [ een doel in de Doelen van Workfront delen ](../../workfront-goals/workfront-goals-settings/share-a-goal.md).
+
+  Voor Workfront Goals is mogelijk een extra licentie nodig.
+
+* Zie de volgende artikelen voor Workfront Planning-objecten:
+
+   * [Weergaven delen](/help/quicksilver/planning/access/share-views.md)
+   * [Werkruimten delen](/help/quicksilver/planning/access/share-workspaces.md)
+
+  Voor toegang tot Workfront Planning is een extra licentie vereist.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben om objecten te delen:
 
@@ -85,7 +96,9 @@ U moet het volgende hebben om objecten te delen:
  </tbody> 
 </table>
 
-*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt. Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Een project, taak of uitgave delen vanaf de bijbehorende pagina
 
@@ -176,7 +189,7 @@ U moet het volgende hebben om objecten te delen:
 
    Klik de **knoop van het Aandeel** naast de objecten naam.
 
-   ![](assets/new-share-button.png)
+   ![](assets/new-share-button-on-portfolio.png)
 
    of
 
@@ -186,20 +199,15 @@ U moet het volgende hebben om objecten te delen:
 
    ![](assets/share-a-document-350x160.png)
 
-1. In **geef &lt; de Naam van Objecten > toegang tot** doos, begin typend de naam van de gebruiker, het team, de rol, de groep, of het bedrijf met wie u het voorwerp wilt delen, dan klik de naam wanneer het in de drop-down lijst verschijnt.
+1. In **geef &lt; de Naam van Objecten > toegang tot** gebied, begin typend de naam van de gebruiker, het team, de rol, de groep, of het bedrijf met wie u het voorwerp wilt delen, dan klik de naam wanneer het in de drop-down lijst verschijnt.
 
-   ![](assets/list-share-add-people.png){width="350"}
-
-   >[!TIP]
-   >
-   >U kunt een object alleen delen met actieve gebruikers, teams, rollen of bedrijven.
-
-
+   ![](assets/portfolio-access-box.png)
 
    >[!TIP]
    >
-   >Als u meerdere entiteiten een soortgelijke naam hebt gegeven, worden deze allemaal vermeld onder hun type. De namen van de entiteiten worden in alfabetische volgorde weergegeven. De volgorde waarin de entiteitstypen worden weergegeven, is echter willekeurig.
+   >* Als u meerdere entiteiten een soortgelijke naam hebt gegeven, worden deze allemaal vermeld onder hun type. De namen van de entiteiten worden in alfabetische volgorde weergegeven. De volgorde waarin de entiteitstypen worden weergegeven, is echter willekeurig.
    >
+   >* U kunt een object alleen delen met actieve gebruikers, teams, rollen of bedrijven.
 
 1. (Optioneel) Herhaal stap 3 voor elke gebruiker, elk team, elke rol of elke groep aan wie u toegang tot het object wilt verlenen.
 
@@ -216,14 +224,12 @@ U moet het volgende hebben om objecten te delen:
      >
      >De Workfront-beheerder of de maker van het object kan machtigingen van deze entiteiten verwijderen.
 
-     ![](assets/screen-shot-2013-12-04-at-1.13.11-pm.png)
+     ![](assets/view-manage-sharing-options-for-portfolio-or-document.png)
 
 1. (Facultatief) klik **Geavanceerde Montages** om specifieke toestemmingen op het voorwerp te vormen.
 
-   Afhankelijk van het geselecteerde object zijn er verschillende geavanceerde opties voor weergave, beheer en Contribute.\
+   Afhankelijk van het geselecteerde object zijn er verschillende geavanceerde opties voor weergave en beheer.\
    Voor meer informatie over de toestemmingsniveaus, zie [ Overzicht van het delen van toestemmingen op voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
-
-   ![](assets/screen-shot-2013-12-04-at-1.14.11-pm.png)
 
 1. (Facultatief) om dit voorwerp ter beschikking te stellen van alle gebruikers in het systeem, klik **het pictogram van het Verraad** ![](assets/gear-icon-settings-with-dn-arrow.jpg), dan in het drop-down menu klikt **maakt dit zichtbare systeem-breed**.
 
@@ -255,19 +261,20 @@ U moet het volgende hebben om objecten te delen:
 
 1. Klik checkbox naast de voorwerp(s) u zou willen delen, dan het **pictogram van het Aandeel** ![](assets/share-icon.png) bij de bovenkant van de pagina klikken.
 
+   Het vak **&lt; Object > Toegang** wordt geopend.
+
    ![](assets/list-share-object-select.png){width="350"}
 
-1. In het **&lt; Voorwerp > het venster van de Toegang** verschijnt, begin typend in **uitgeeft &lt; de Naam van Objecten > toegang voor** doos de naam van de gebruiker, het team, de rol, de groep, of het bedrijf met wie u de voorwerpen wilt delen, dan klik de naam wanneer het in de drop-down lijst verschijnt.
+1. In **geef &lt; de Naam van Objecten > toegang voor** doos uit, begin typend de naam van de gebruiker, het team, de rol, de groep, of het bedrijf met wie u de voorwerpen wilt delen, dan klik de naam wanneer het in de drop-down lijst verschijnt.
 
    ![](assets/list-share-add-people.png){width="350"}
 
    >[!TIP]
    >
-   >U kunt een object alleen delen met actieve gebruikers, teams, rollen of bedrijven.
-
-   >[!TIP]
+   >* U kunt een object alleen delen met actieve gebruikers, teams, rollen of bedrijven.
    >
-   >Als u meerdere entiteiten een soortgelijke naam hebt gegeven, worden deze allemaal vermeld onder hun type. De namen van de entiteiten worden in alfabetische volgorde weergegeven. De volgorde waarin de entiteitstypen worden weergegeven, is echter willekeurig.
+   >
+   >* Als u meerdere entiteiten een soortgelijke naam hebt gegeven, worden deze allemaal vermeld onder hun type. De namen van de entiteiten worden in alfabetische volgorde weergegeven. De volgorde waarin de entiteitstypen worden weergegeven, is echter willekeurig.
    >
 
 1. (Optioneel) Herhaal stap 3 voor elke gebruiker, team, rol of groep aan wie u toegang wilt verlenen tot de objecten.

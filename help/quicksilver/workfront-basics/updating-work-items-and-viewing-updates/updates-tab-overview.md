@@ -7,9 +7,9 @@ description: In de sectie Updates van een object worden opmerkingen weergegeven 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '1088'
 ht-degree: 0%
 
 ---
@@ -75,8 +75,12 @@ De volgende objecten hebben een sectie Updates waarin u opmerkingen kunt toevoeg
 * Timesheets
 * Teams
 * Doelen
-* Kaarten in het gebied van de kamers
 * Herhalingen
+
+De volgende objecten hebben gebieden waar u opmerkingen kunt toevoegen en systeemupdates kunt controleren:
+
+* Kaarten op planken
+* Records in Workfront Planning
 
 <!--info for April 11: remove all the information below, all the way down to the following section: -->
 
@@ -127,13 +131,17 @@ Depending on what objects you access the commenting experience for, you might fi
 * In de sectie Updates wordt informatie weergegeven op de volgende tabbladen:
 
    * **Commentaren**: De commentaren van vertoningen die door gebruikers worden gemaakt en antwoorden op die commentaren. Met het tabblad Opmerkingen kunt u nieuwe opmerkingen toevoegen of reageren op bestaande opmerkingen. Voor informatie over het bijwerken van voorwerpen, zie [ het werk van de Update ](../updating-work-items-and-viewing-updates/update-work.md).
-   * **Activiteit van het Systeem**: De updates van het systeem van vertoningen die informatieve berichten zijn die Workfront creeert om bepaalde gebeurtenissen op een voorwerpen te registreren. Wijzigingen in status, naam of aangepaste velden worden bijvoorbeeld vastgelegd met systeemupdates. Uw Workfront- of groepsbeheerder kan systeemupdates voor uw objecten inschakelen. Om het even welke antwoorden die aan de verslagen van de systeemactiviteit in de erfenis opmerkingservaring werden gemaakt worden bevolkt op het lusje van de Activiteit van het Systeem als read-only. Voor meer informatie, zie [ systeemupdates ](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md) vormen.
+   * **activiteit van het Systeem**: De systeemupdates van vertoningen die informatieve berichten zijn die Workfront creeert om bepaalde gebeurtenissen op een voorwerpen te registreren. Wijzigingen in status, naam of aangepaste velden worden bijvoorbeeld vastgelegd met systeemupdates. Uw Workfront- of groepsbeheerder kan systeemupdates voor uw objecten inschakelen. Om het even welke antwoorden die aan de verslagen van de systeemactiviteit in de erfenis opmerkingservaring werden gemaakt zijn bevolkt op het de activiteitlusje van het Systeem als read-only. Voor meer informatie, zie [ systeemupdates ](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md) vormen.
    * **allen (read-only)**: Toont zowel gebruikerscommentaren als commentaren van de systeemactiviteit in één plaats. Dit is een alleen-weergeven tabblad. U kunt niet reageren op opmerkingen of andere gebruikers tags toewijzen aan bestaande opmerkingen op het tabblad Alles. Als u wilt reageren op een bepaalde opmerking, gebruikt u de koppeling van het tabblad Alles naar het tabblad Opmerkingen. Voor informatie over het bijwerken van voorwerpen, zie [ het werk van de Update ](../updating-work-items-and-viewing-updates/update-work.md).
 
      >[!NOTE]
      >
-     >De tabbladen Opmerkingen en Systeemactiviteit worden in real-time bijgewerkt. U moet het tabblad Alles vernieuwen om de meest recente updates weer te geven.
+     >De commentaren en de activiteitenlusjes van het Systeem werken in real time bij. U moet het tabblad Alles vernieuwen om de meest recente updates weer te geven.
 
+
+### Gelijkaardigheden en verschillen tussen de gebieden Updates van verschillende objecten
+
+Er zijn verschillen tussen de manier waarop opmerkingen en updates worden weergegeven voor verschillende objecten.
 
 * De volgende objecten hebben vergelijkbare ervaringen op alle drie tabbladen in de sectie Updates:
 
@@ -145,17 +153,30 @@ Depending on what objects you access the commenting experience for, you might fi
    * Gebruikers
    * Timesheets
 
-* De volgende objecten hebben geen tabblad Systeemactiviteit of Alles en de ervaring op het tabblad Opmerkingen komt overeen met die van alle andere objecten:
+* De volgende objecten hebben geen tabblad Systeemactiviteit of een tabblad Alles en de ervaring op het tabblad Opmerkingen komt overeen met die van alle andere objecten:
 
    * Team
    * Sjabloon
    * Sjabloontaak
 
 * De volgende objecten hebben geen tabblad Systeemactiviteit of Alles en de ervaring op het tabblad Opmerkingen verschilt van die van alle andere objecten:
+
    * Herhalingen
-   * Ad-hockaart
+   * Ad-hockaarten in het gebied van de raden van bestuur
 
      Voor meer informatie over updates op kaarten, zie [ een ad hoc kaart aan een raad ](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) toevoegen.
+
+* De volgende objecten hebben een tabblad Systeemactiviteit en hebben geen tabblad Alles:
+
+   * Aangesloten kaarten in het gebied van de kamers
+
+     Voor informatie, zie [ Verbonden kaarten van het Gebruik op raad ](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+
+* De volgende objecten hebben een tabblad Historie dat het tabblad Systeemactiviteit vervangt:
+
+   * Records in Workfront Planning
+
+     Voor informatie, zie [ het sectieoverzicht van de Geschiedenis ](/help/quicksilver/planning/records/history-section-overview.md).
 
 * De volgende objecten hebben geen tabblad Alles en de ervaring op het tabblad Opmerkingen komt overeen met die van de meeste objecten:
 
