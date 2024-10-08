@@ -9,9 +9,9 @@ description: Met de Adobe Workfront Fusion Adobe Workfront-connector kunt u uw p
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 3eb7f8988f441cfa5b353274526450510810b156
+source-git-commit: 3fde10cfa0428971b289a9de57cf49e24a15a0e8
 workflow-type: tm+mt
-source-wordcount: '6020'
+source-wordcount: '6060'
 ht-degree: 0%
 
 ---
@@ -324,6 +324,10 @@ Deze actiemodule maakt een van de volgende omzettingen:
 * Probleem converteren naar taak
 * Taak omzetten in project
 
+>[!NOTE]
+>
+>Vanaf juli 2024 kunnen aangepaste formulieren worden opgenomen bij de conversie van een object.
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -603,6 +607,10 @@ Zie een lijst van de [!DNL Workfront] objecten types waarvoor u deze module in [
 +++ **[!UICONTROL Misc Action]**
 
 Met deze actiemodule kunt u handelingen uitvoeren met de API.
+
+>[!NOTE]
+>
+>Vanaf juli 2024 bevat de handeling `convertToProject` het veld `copyCategories` . Als u deze instelt op `TRUE` , worden aangepaste formulieren opgenomen in het project waarnaar de uitgave wordt geconverteerd.
 
 Als u deze module configureert, worden de volgende velden weergegeven.
 
