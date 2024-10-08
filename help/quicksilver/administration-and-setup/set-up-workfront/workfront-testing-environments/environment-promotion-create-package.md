@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: 2801c18cebbc7e1338c29652bc87303029a2e289
+source-git-commit: 2e4bcd6400971104e9138fab0faf20d33af32e51
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,9 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 ## Een bestaand pakket bewerken of samenvoegen
 
-1. Ga naar de omgeving waarin u het pakket wilt maken. Dit is het milieu dat u voorwerpen **van** kopieert.
+Een pakket moet de status `DRAFT` hebben om te kunnen worden bewerkt.
+
+1. Ga naar de omgeving waarin u het pakket wilt bewerken. Dit is de omgeving waarin het pakket oorspronkelijk is gemaakt.
 1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Setup]** ![ pictogram van de Opstelling ](/help/_includes/assets/gear-icon-setup.png).
 1. Selecteer **Systeem** in de linkernavigatie, dan selecteren **Bevordering van het Milieu**.
 1. Selecteer het pakket in de weergegeven lijst.
@@ -99,6 +101,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 1. (Facultatief) om de inhoud, met inbegrip van alle voorwerpen en hun sub-voorwerpen te bekijken, klik de drop-down pijl naast het objecten type in de **sectie van de Inhoud**.
 1. (Facultatief) om vorige installaties en installatiepogingen van dit pakket te bekijken, klik **Plaatsingen**.
 1. (Facultatief) om het pakket uit te geven, klik **uitgeven Pakket** bij het hoger-recht van het scherm.
+Een pakket moet de status `DRAFT` hebben om te kunnen worden bewerkt. Om het pakket aan `DRAFT` status, op het **2} gebied van de Status te bewegen {, selecteer `Draft`.** U kunt het pakket vervolgens blijven bewerken.
 1. Om het pakket te installeren, klik **installeer** bij het hoger-recht van het scherm.
 
    Voor instructies bij het installeren van een pakket, zie [ een pakket van de milieubevordering installeren ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md).
