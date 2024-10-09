@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 21c8c8d6aed7620dc2d7b99fd01c6be41f918eeb
+source-git-commit: 222e940432f9cdea2b7da7fefbb429d75a3824d7
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '923'
 ht-degree: 0%
 
 ---
@@ -129,7 +129,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
      </tr>
      <tr> 
       <td role="rowheader">De werklijst Prioriteiten inschakelen </td> 
-      <td>Hiermee kunt u ervoor kiezen om de werklijstervaring Prioriteiten in of uit te schakelen voor uw gebruikers. <!--Users will still see the Priorities icons in Workfront, but they will not have access to the functionality.--> voor meer informatie over Prioriteiten, zie <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md"> begonnen worden met Prioriteiten </a>.</td> 
+      <td>Hiermee kunt u ervoor kiezen om de werklijstervaring Prioriteiten in of uit te schakelen voor uw gebruikers. Gebruikers zien nog steeds de Prioriteitspictogrammen in Workfront, maar ze hebben geen toegang tot de functionaliteit. Voor meer informatie over Prioriteiten, zie <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md"> begonnen worden met Prioriteiten </a>.</td> 
      </tr>
      <tr> 
       <td role="rowheader">Testomgevingen</td> 
