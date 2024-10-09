@@ -6,9 +6,9 @@ description: In [!UICONTROL Work List] in het [!UICONTROL Home] -gebied worden a
 author: Nolan
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: d614d5cbded1de6fd899a47495a6e058f9eaf3cf
 workflow-type: tm+mt
-source-wordcount: '1558'
+source-wordcount: '1564'
 ht-degree: 0%
 
 ---
@@ -94,6 +94,7 @@ U kunt items filteren in de [!UICONTROL Work List] om alleen bepaalde typen item
         <p>Hiermee geeft u alleen taken weer die u kunt starten. Beide volgende instructies moeten waar zijn:</p> 
         <ul> 
          <li> <p>De taken en hun ouders hebben geen voorgangers of taakbeperkingen die hen beletten om aan te werken.</p> </li> 
+         <li> <p>Alle voorgaande taken zijn voltooid.</p> </li> 
          <li> <p>De [!UICONTROL Planned Start Date] van de taken is in het verleden of tot twee weken in de toekomst.</p> </li> 
         </ul> 
        </div> </td> 

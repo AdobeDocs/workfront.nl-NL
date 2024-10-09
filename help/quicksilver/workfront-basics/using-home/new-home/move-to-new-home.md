@@ -5,9 +5,9 @@ title: Verplaatsen van Legacy home naar New Home
 description: Legacy Home wordt op 10/17 uit Workfront verwijderd met de Q4-release. Dit artikel bevat informatie over de functionaliteit die beschikbaar is in een nieuwe introductiepagina en aanbevelingen voor het verplaatsen van gebruikers naar de nieuwe introductieprestaties.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 8666870341227f2bdcd08ad77753a28748ed9847
+source-git-commit: 9a71080c732363bf346b18d3bf61353c6c3859f7
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: '1641'
 ht-degree: 0%
 
 ---
@@ -271,6 +271,7 @@ Als u dit zo snel mogelijk doet, hebben uw gebruikers de tijd om zich aan de nie
 
 **Opleiding**
 
+* [ verwijder, voeg, en herschik widgets in het leerprogramma van het Huis toe ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
 * {de Grondbeginselen van de Arbeider van 0} in Adobe Workfront ](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)[
 
 >[!IMPORTANT]

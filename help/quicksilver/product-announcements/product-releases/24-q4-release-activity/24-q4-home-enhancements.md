@@ -4,9 +4,9 @@ description: Verbeteringen startpunt vierde kwartaal 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0d2bb434b1b52ea175ad912c554b4aa07d5d2f7d
+source-git-commit: 9de54aafb07d5c5858494c51356ae9322e1a0f79
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,10 @@ Voor meer informatie, zie [ begonnen worden met Prioriteiten ](/help/quicksilver
 
 Met de release van 24.10 zullen we de oude Home-ervaringen officieel verouderd hebben.
 
-Met deze verandering, zullen het _Huis en Samenvatting_ gebied in het Malplaatje van de Lay-out worden anders genoemd aan _Samenvattend paneel_. Aanpassingen op dit gebied zijn nog steeds van toepassing op het deelvenster Samenvatting in nieuwe startpagina. Voor meer informatie, zie [ Huis en Samenvatting aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+Met deze wijziging wordt de naam van de volgende gebieden van de lay-outsjabloon gewijzigd:
+
+* Het _werkruimte van het Huis_ gebied zal worden anders genoemd aan _Huis_.
+* Het _Huis en Samenvatting_ gebied zullen worden anders genoemd aan _Samenvatting paneel_. Aanpassingen op dit gebied zijn nog steeds van toepassing op het deelvenster Samenvatting in nieuwe startpagina. Voor meer informatie, zie [ Huis en Samenvatting aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 Gebruikers wordt aangeraden om nieuwe introducties te gebruiken. Deze worden dan nog steeds uitgebreid met extra functies voordat de site wordt vervangen. Voor meer informatie over de overgang, met inbegrip van advies over wat de gebruikers en de beheerders kunnen doen om voor te bereiden, zie {de Verouderde gids van het Huis van de Verouderde ](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).[
 
