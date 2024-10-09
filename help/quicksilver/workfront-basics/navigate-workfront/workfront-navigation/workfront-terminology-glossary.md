@@ -6,9 +6,9 @@ description: De  [!DNL Adobe Workfront]  verklarende woordenlijst lijsten algeme
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
+source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
 workflow-type: tm+mt
-source-wordcount: '16806'
+source-wordcount: '17341'
 ht-degree: 0%
 
 ---
@@ -629,8 +629,37 @@ De volgende tabel bevat een lijst met veelgebruikte termen in Adobe Workfront:
   <tr> 
    <td>[!UICONTROL Condition Update]</td> 
    <td> <p>Dit gebied toont de huidige staat van taken, projecten of kwesties. Deze optie toont de meest recente updates die de eigenaars van taken, projecten of problemen hebben verstrekt op het [!UICONTROL Update Status] gebied, samen met de nieuwe voorwaarde.</p> <p>Opmerkingen die zijn gemaakt tijdens voorwaarde-updates worden niet weergegeven in de kolom [!UICONTROL Condition Update] . Alleen de hoofdupdate wordt weergegeven.</p> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Connected record types]</td> 
+   <td> <p>In de Planning van Workfront, kunt u een verbinding tussen één van het volgende tot stand brengen: </p>
+   <ul>
+   <li>Twee recordtypen</li>
+   <li>Een recordtype en een Workfront-objecttype</li>
+   <li>Een recordtype en een Adobe Experience Manager-element</li></ul>
+   <p>Door recordtypen te verbinden, kunt u informatie van het ene record of objecttype weergeven op een ander recordtype.</p>
+   <p>Voor informatie, zie <a href="/help/quicksilver/planning/architecture/connect-record-types-overview.md"> Verbonden verslagtypes overzicht </a>  </p>
+  <p>Voor Workfront Planning is een extra licentie vereist. </p>
+ </td> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Connected records]</td> 
+   <td> <p>In de Planning van Workfront, nadat u twee verslagtypes verbindt, kunt u twee individuele verslagen van die types met elkaar verbinden.  </p>
+   <p>Door records te verbinden, kunt u gegevens van een record of object vanuit een andere toepassing in een andere record weergeven.</p>
+   <p>Voor informatie, zie <a href="/help/quicksilver/planning/records/connected-records-overview.md"> Verbonden verslagenoverzicht </a>. </p>
+
+<p>Voor Workfront Planning is een extra licentie vereist. </p>
+ </td> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Connections]</td> 
+   <td> <p>In de Planning van Workfront, kunnen de verbindingen naar verbonden verslagtypes of verbonden verslagen verwijzen. Voor Workfront Planning is een extra licentie vereist.</p> </td> 
+  </tr>
+
+<tr> 
    <td>[!UICONTROL Constraint Date]</td> 
    <td> <p>Als u een [!UICONTROL Task Constraint] gebruikt die is gekoppeld aan een bepaalde datum, zoals [!UICONTROL Must Start On] , wordt die specifieke datum de [!UICONTROL Constraint Date] van de taak.</p> <p>Met de volgende taakbeperkingen wordt het veld [!UICONTROL Constraint Date] bijgewerkt:</p> 
     <ul> 
@@ -882,11 +911,11 @@ De volgende tabel bevat een lijst met veelgebruikte termen in Adobe Workfront:
 
 <p>Voor meer informatie, zie <a href="../../../wf-api/general/api-explorer.md"> API Ontdekkingsreiziger </a> en <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md"> Overzicht van de Wijze van de Tekst </a>.</p>
 
-<p>Workfront wordt standaard geleverd met een set velden die zowel objecten als hun gegevens definiëren. U kunt ook aangepaste velden maken om objecten te definiëren, maar u kunt geen aangepaste objecten maken.</p> 
-   </td> 
-  </tr>
+<p>Workfront wordt standaard geleverd met een set velden die zowel objecten als hun gegevens definiëren. U kunt ook aangepaste velden maken om objecten te definiëren, maar u kunt geen aangepaste objecten maken.</p>
 
-<tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
+<p>In Workfront Planning kunt u aangepaste velden maken voor alle recordtypen. Workfront-recordtypen bevatten een zeer beperkt aantal velden. U moet alle velden helemaal opnieuw maken en deze koppelen aan recordtypen. Voor informatie, zie <a href="/help/quicksilver/planning/fields/fields-overview.md"> overzicht van het Gebied </a>. </p> <p>Voor Workfront Planning is een extra licentie vereist. </p>   
+  </tr>
+  <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Filter]</td> 
    <td> <p>Één van de belangrijkste bouwstenen van een rapport of een lijstelement dat bepaalt welke informatievertoningen op het scherm. Voor meer informatie over het melden van elementen, zie <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref"> Rapporterende elementen: filters, meningen, en groeperingen </a>.</p> <p>De filter bepaalt de resultaten die in een rapport of op een [!DNL Workfront] paneellijst, zoals projecten, taken, of kwesties tonen.</p> </td> 
   </tr> 
@@ -1032,7 +1061,6 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
    <li><b> in rekening gebracht en Goedgekeurd </b>: de uren zijn geregistreerd, door de Eigenaar van het Project goedgekeurd, en de het registrerende verslagstatus is duidelijk zoals Gevuld.</li>
    </ul>
 
-
 <p>Wanneer de uren deel van een facturerings verslag uitmaken, wijst de Status van het Uur erop of de uren zijn goedgekeurd of als het het FactureringsVerslag van hen tot behoren in rekening is gebracht. De Status van het uur van een ureningang is slechts zichtbaar in een uurlijst of een rapport. </p>
 
 <p>Voor meer informatie over het toevoegen van uren aan het factureren verslagen, zie de sectie "Uren aan het factureren verslagen"in artikel <a href="../../../manage-work/projects/project-finances/create-billing-records.md" > creëren het facturerings verslagen </a>.</p>
@@ -1043,8 +1071,6 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
 
 <p>De algemene uren die niet direct op het werkpunten worden geregistreerd tonen geen Status van het Uur. </p> </td> 
   </tr>
-
-
 
 <tr> 
    <td>[!UICONTROL Hour Type]</td> 
@@ -1248,6 +1274,14 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   <tr> 
    <td>[!UICONTROL List Controls]</td> 
    <td> <p>Een onderdeel van [!UICONTROL Interface Setup] dat het mogelijk maakt aangepaste filters, weergaven en groepen te koppelen aan individuele gebruikers of globaal aan alle gebruikers.</p> </td> 
+  </tr> 
+<tr> 
+   <td>[!UICONTROL Lookup fields]</td> 
+   <td> <p>In de Planning van Workfront, nadat u de verbinding tussen twee verslagtypes vestigt en u individuele verslagen verbindt samen, kunt u de verbonden verslagen' gebieden op het verslag van verwijzingen voorzien u van verbindt.</p>
+   <p>Bijvoorbeeld, als u een type van het verslag van de Campagne met een de objecten van het Project van Workfront type verbindt, kunt u het gebied van de Begroting van verbonden projecten op de campagneverslagen tonen. Het projectgebied van de Begroting is een raadplegingsgebied van projecten op een campagne.</p> <p>De waarden van opzoekvelden worden automatisch ingevuld in de records waarmee ze zijn verbonden.</p>
+   <p>Voor informatie, zie <a href="/help/quicksilver/planning/records/connected-records-overview.md"> Verbonden verslagenoverzicht </a>.</p>
+   <p>Voor Workfront Planning is een extra licentie vereist.</p>
+    </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1798,8 +1832,26 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   <tr> 
    <td>[!UICONTROL Ready]</td> 
    <td> <p>In dit veld op een taakrapport wordt aangegeven of een [!UICONTROL Agile] -taak op de achtergrond is gemarkeerd als [!UICONTROL Ready] . Deze markering is alleen van toepassing op [!UICONTROL Agile] -taken. Dit zijn taken die zijn toegewezen aan een [!UICONTROL Agile] -team. </p> </td> 
-  </tr> 
-  <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Record]</td> 
+   <td> <p>In de Planning van Workfront, is een verslag een uniek geval van een verslagtype.</p>
+<p>Nadat u een recordtype aan een werkruimte hebt toegevoegd, kunt u records van dat type op de pagina van het recordtype toevoegen.</p>
+<p>'Campagne' kan bijvoorbeeld een recordtype zijn en 'Summer Campaign for EMEA' is een record van het type Campagne-record.</p>
+<p>Voor informatie over het creëren van verslagen, zie <a href="/help/quicksilver/planning/records/create-records.md"> verslagen </a> creëren. </p> <p>Voor Workfront Planning is een extra licentie vereist. </p></td> 
+  </tr>
+
+
+<tr> 
+   <td>[!UICONTROL Record type]</td> 
+   <td> <p>Het objecttype van Workfront Planning.</p>
+<p>In tegenstelling tot Workfront, waar de objecten types vooraf bepaald zijn, in de Planning van Workfront, kunt u uw eigen objecten types tot stand brengen.Workfront de objecten van de Planning worden genoemd verslagtypes.</p>
+<p>In Workfront zijn bijvoorbeeld al de objecttypen Programma, Portfolio, Project, Taak of Probleem gemaakt.</p>
+<p>In de Planning van Workfront, kunt u om het even welke verslagtypes tot stand brengen die aan de werkschema's van uw organisatie voldoen. Later kunt u bepalen hoe de recordtypen op elkaar betrekking hebben of hoe afhankelijk van het formulier is.</p> Voor informatie over het creëren van verslagtypes, zie <a href="/help/quicksilver/planning/architecture/create-record-types.md"> recordtypes </a> creëren. </p> <p>Voor Workfront Planning is een extra licentie vereist. </p></td> 
+  </tr>
+
+<tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td>[!UICONTROL Recurrence Frequency]</td> 
    <td> <p>Een veld dat wordt weergegeven in het vak [!UICONTROL Task Details] of [!UICONTROL Edit Task] van een bovenliggend item van terugkerende taken. Het is de frequentie waarmee de taken in de herhaling voorkomen. Voor informatie over het creëren van terugkomende taken, zie <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref"> terugkomende taken </a> creëren. </p> </td> 
   </tr> 
@@ -2340,7 +2392,14 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   <tr> 
    <td>[!UICONTROL View]</td> 
    <td> <p>De meningen verwijzen naar een rapporterend element dat u toestaat om de kolommen in een rapport of in een lijst van voorwerpen te wijzigen.</p> 
-   <p> De mening verwijst ook naar het recht van een gebruiker om informatie over een voorwerp slechts te bekijken, volgens hun toegangsniveau of op een toestemmingendelend niveau op dat voorwerp.</p> </td> 
+   <p> De mening verwijst ook naar het recht van een gebruiker om informatie over een voorwerp slechts te bekijken, volgens hun toegangsniveau of op een toestemmingendelend niveau op dat voorwerp.</p> 
+   <p>In de Planning van Workfront, verslagenvertoning op de verslagtype pagina in één van de volgende meningstypes:</p>
+   <ul><li>Tabel</li>
+   <li>Tijdlijn</li>
+   <li>Kalender</li></ul>
+   <p>In de Planning van Workfront, omvatten de meningen de filters, de groeperingen, het sorteren, en andere montages die op de verslagen op het scherm worden toegepast.</p> <p>Voor informatie, zie <a href="/help/quicksilver/planning/views/manage-record-views.md"> verslagmeningen </a> leiden.</p>   
+   <p>Voor Workfront Planning is een extra licentie vereist.</p>
+   </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL View Icons]</td> 
@@ -2481,6 +2540,15 @@ U moet de extra <code>[!UICONTROL usewidths=true]</code> coderegel gebruiken om 
    <p>valueformat=HTML</p>
    </code>
     <p>Voor informatie over het gebruiken van tekstwijze, zie <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref"> overzicht van de wijzesyntaxis van de Tekst </a>. </p> </td> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Workspace] </td> 
+   <td> <p>In de Planning van Workfront, is een werkruimte een inzameling van verslagtypes die de operationele levenscyclus van een bepaalde organisatie bepalen. Een werkruimte is het werkkader van een organisatorische eenheid.</p>
+   <p>Voor Workfront Planning is een extra licentie vereist. </p>
+   <p>Voor informatie, zie <a href="/help/quicksilver/planning/architecture/create-workspaces.md"> werkruimten </a> creëren. </p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+

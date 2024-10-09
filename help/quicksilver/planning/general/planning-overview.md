@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
 workflow-type: tm+mt
 source-wordcount: '2102'
 ht-degree: 0%
@@ -183,7 +183,7 @@ Hieronder vindt u de belangrijkste Workfront-planningsobjecten en -concepten:
 
   Voor meer informatie, zie [ werkruimten ](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
 
-* **Type van Verslag**: Het objecten type of de Planning van Workfront.
+* **Type van Verslag**: Het objecttype van de Planning van Workfront.
 
   In tegenstelling tot Workfront, waar de objecttypen vooraf zijn gedefinieerd, kunt u in Workfront Planning uw eigen objecttypen maken.
 
@@ -199,7 +199,7 @@ Hieronder vindt u de belangrijkste Workfront-planningsobjecten en -concepten:
 
   Nadat u een recordtype aan een werkruimte hebt toegevoegd, kunt u records van dat type op de pagina van het recordtype toevoegen.
 
-  &#39;Campagne&#39; kan bijvoorbeeld een recordtype zijn en &#39;Zomercampagne voor EMEA&#39; is een record van het type Campagne-record.
+  &#39;Campagne&#39; kan bijvoorbeeld een recordtype zijn en &#39;Summer Campaign for EMEA&#39; is een record van het type Campagne-record.
 
   Voor meer informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-records.md) creëren.
 

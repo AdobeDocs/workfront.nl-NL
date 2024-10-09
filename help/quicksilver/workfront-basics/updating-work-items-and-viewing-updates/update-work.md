@@ -6,9 +6,9 @@ description: U kunt een update toevoegen aan een Adobe Workfront-object (project
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
+source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
 workflow-type: tm+mt
-source-wordcount: '3075'
+source-wordcount: '3065'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,6 @@ Het toevoegen van opmerkingen aan andere Workfront-objecten lijkt op het bijwerk
 Zie ook de volgende artikelen voor meer informatie over opmerkingen over kaarten, doelen en records in Workfront Planning:
 
 * [ beheer doelcommentaren in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/manage-goal-comments.md).
-
-  U moet een extra licentie hebben om toegang te krijgen tot Workfront Goals.
 
 * [Een ad-hockaart aan een kaart toevoegen](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md)
 

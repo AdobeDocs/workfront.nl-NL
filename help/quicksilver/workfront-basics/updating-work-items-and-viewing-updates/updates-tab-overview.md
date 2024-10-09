@@ -7,7 +7,7 @@ description: In de sectie Updates van een object worden opmerkingen weergegeven 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
+source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
 workflow-type: tm+mt
 source-wordcount: '1088'
 ht-degree: 0%
@@ -128,16 +128,15 @@ Depending on what objects you access the commenting experience for, you might fi
 
 ![ sectie van Updates ](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
-* In de sectie Updates wordt informatie weergegeven op de volgende tabbladen:
+In de sectie Updates wordt informatie weergegeven op de volgende tabbladen:
 
-   * **Commentaren**: De commentaren van vertoningen die door gebruikers worden gemaakt en antwoorden op die commentaren. Met het tabblad Opmerkingen kunt u nieuwe opmerkingen toevoegen of reageren op bestaande opmerkingen. Voor informatie over het bijwerken van voorwerpen, zie [ het werk van de Update ](../updating-work-items-and-viewing-updates/update-work.md).
-   * **activiteit van het Systeem**: De systeemupdates van vertoningen die informatieve berichten zijn die Workfront creeert om bepaalde gebeurtenissen op een voorwerpen te registreren. Wijzigingen in status, naam of aangepaste velden worden bijvoorbeeld vastgelegd met systeemupdates. Uw Workfront- of groepsbeheerder kan systeemupdates voor uw objecten inschakelen. Om het even welke antwoorden die aan de verslagen van de systeemactiviteit in de erfenis opmerkingservaring werden gemaakt zijn bevolkt op het de activiteitlusje van het Systeem als read-only. Voor meer informatie, zie [ systeemupdates ](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md) vormen.
-   * **allen (read-only)**: Toont zowel gebruikerscommentaren als commentaren van de systeemactiviteit in één plaats. Dit is een alleen-weergeven tabblad. U kunt niet reageren op opmerkingen of andere gebruikers tags toewijzen aan bestaande opmerkingen op het tabblad Alles. Als u wilt reageren op een bepaalde opmerking, gebruikt u de koppeling van het tabblad Alles naar het tabblad Opmerkingen. Voor informatie over het bijwerken van voorwerpen, zie [ het werk van de Update ](../updating-work-items-and-viewing-updates/update-work.md).
+* **Commentaren**: De commentaren van vertoningen die door gebruikers worden gemaakt en antwoorden op die commentaren. Met het tabblad Opmerkingen kunt u nieuwe opmerkingen toevoegen of reageren op bestaande opmerkingen. Voor informatie over het bijwerken van voorwerpen, zie [ het werk van de Update ](../updating-work-items-and-viewing-updates/update-work.md).
+* **activiteit van het Systeem**: De systeemupdates van vertoningen die informatieve berichten zijn die Workfront creeert om bepaalde gebeurtenissen op een voorwerpen te registreren. Wijzigingen in status, naam of aangepaste velden worden bijvoorbeeld vastgelegd met systeemupdates. Uw Workfront- of groepsbeheerder kan systeemupdates voor uw objecten inschakelen. Om het even welke antwoorden die aan de verslagen van de systeemactiviteit in de erfenis opmerkingservaring werden gemaakt zijn bevolkt op het de activiteitlusje van het Systeem als read-only. Voor meer informatie, zie [ systeemupdates ](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md) vormen.
+* **allen (read-only)**: Toont zowel gebruikerscommentaren als commentaren van de systeemactiviteit in één plaats. Dit is een alleen-weergeven tabblad. U kunt niet reageren op opmerkingen of andere gebruikers tags toewijzen aan bestaande opmerkingen op het tabblad Alles. Als u wilt reageren op een bepaalde opmerking, gebruikt u de koppeling van het tabblad Alles naar het tabblad Opmerkingen. Voor informatie over het bijwerken van voorwerpen, zie [ het werk van de Update ](../updating-work-items-and-viewing-updates/update-work.md).
 
-     >[!NOTE]
-     >
-     >De commentaren en de activiteitenlusjes van het Systeem werken in real time bij. U moet het tabblad Alles vernieuwen om de meest recente updates weer te geven.
-
+  >[!NOTE]
+  >
+  >De commentaren en de activiteitenlusjes van het Systeem werken in real time bij. U moet het tabblad Alles vernieuwen om de meest recente updates weer te geven.
 
 ### Gelijkaardigheden en verschillen tussen de gebieden Updates van verschillende objecten
 
