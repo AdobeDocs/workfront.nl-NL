@@ -2,15 +2,14 @@
 content-type: overview;reference
 product-area: reports and dashboards
 navigation-topic: data connect
-title: Een verbinding tot stand brengen met het datumpigment van Workfront
-description: Met Workfront-datumpigment kunt u de Workfront-gegevens van uw organisatie gebruiken met populaire tools voor bedrijfsintelligentie of deze opslaan in een extern gegevenspakhuis.
+title: Verbinding maken met Workfront Data Connect
+description: Met Workfront Data Connect kunt u de Workfront-gegevens van uw organisatie gebruiken met de tools voor bedrijfsintelligentie of deze opslaan in een extern gegevenspakhuis.
 author: Nolan
 feature: Reports and Dashboards
-recommendations: noDisplay, noCatalog
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '583'
 ht-degree: 0%
 
 ---
@@ -103,16 +102,16 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 ## Gegevens delen met Business Intelligence-tools
 
-Een aantal gemeenschappelijke hulpmiddelen van de bedrijfsintelligentie wordt hieronder vermeld; de verbindingen zullen u aan de documentatieplaats van de dienst nemen om meer over het verbinden met uw gegevens meer te leren.
+Een aantal gemeenschappelijke hulpmiddelen van de bedrijfsintelligentie wordt hieronder vermeld; bezoek hun documentatieplaatsen om meer te leren over het verbinden met uw gegevens meer.
 
-* [ Tableau ](https://help.tableau.com/current/pro/desktop/en-us/basicconnectoverview.htm)
-* [ Power BI ](https://learn.microsoft.com/power-query/connectors/snowflake)
-* [ Domo ](https://www.domo.com/appstore/connector/snowflake-connector/overview)
+* Tableau
+* Power BI
+* Domo
 * SAP HANA
 
 ## Gegevens opslaan in een extern gegevenspakhuis
 
-Een aantal gemeenschappelijke gegevenspakhuizen wordt hieronder vermeld; de verbindingen zullen u aan de documentatieplaats van elke dienst brengen waar u meer over het verbinden met uw gegevens meer kunt leren.
+Een aantal gemeenschappelijke gegevensopslagplaatsen zijn hieronder vermeld; bezoek hun documentatieplaatsen om meer te leren over het verbinden met uw gegevens meer.
 
-* [ Gegevensbestanden ](https://docs.databricks.com/en/connect/index.html)
-* [ AWS Redshift ](https://docs.aws.amazon.com/redshift/latest/gsg/federated-query.html)
+* Databricks
+* AWS Redshift

@@ -1,7 +1,7 @@
 ---
-source-git-commit: 385dbe63d0db9b13692fb6f5c78ed56bd0d823c4
+source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
 workflow-type: tm+mt
-source-wordcount: '2381'
+source-wordcount: '2412'
 ht-degree: 0%
 
 ---
@@ -154,6 +154,10 @@ Gekoppelde mappen instellen:
 >* Vervang deze door een afbeelding die is aangepast om uw organisatie te illustreren. In dit geval ziet het pictogram er anders uit dan in dit artikel wordt weergegeven.
 >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **[!UICONTROL Main Menu]** ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Home]**.
 >
+
+## Stap 1 - Voorrang krijgen - {#step1-to-priorities}
+
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Priorities]**.
 
 <!-- Integrations -->
 
