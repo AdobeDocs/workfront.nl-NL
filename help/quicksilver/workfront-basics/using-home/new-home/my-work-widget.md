@@ -5,9 +5,9 @@ title: Uw werk beheren met de widget Mijn werk
 description: Met de widget Mijn werk worden alle toegewezen taken, problemen en verzoeken op één locatie weergegeven. Hier, kunt u uw werk filteren en organiseren, logboektijd, updates maken, en het werkpunten volledig merken.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 20791e9f2cc0716b9b0ddd8f98c31ae0bea7ff45
+source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '699'
 ht-degree: 0%
 
 ---
@@ -185,7 +185,7 @@ Houd de muisaanwijzer boven het werkitem om het menu met snelle acties te zoeken
 
 De goedkeuringen en de teamverzoeken worden niet weergegeven in Mijn werk widget. Als u regelmatig met goedkeuringen en teamverzoeken werkt, adviseren wij u de volgende widgets aan uw Nieuwe Homepage toe te voegen:
 
-* In afwachting van mijn goedkeuring
+* Mijn goedkeuring
 * Alle goedkeuringen
 * Teamverzoeken
 

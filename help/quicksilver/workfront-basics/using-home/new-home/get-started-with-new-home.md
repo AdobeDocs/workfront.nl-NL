@@ -6,9 +6,9 @@ description: Het nieuwe Home-programma is een krachtige nieuwe functie voor het 
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 233016ccc574118df705b857092d647767c05835
+source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1168'
 ht-degree: 0%
 
 ---
@@ -56,8 +56,8 @@ Hieronder vindt u een overzicht van de 11 widgets die u momenteel kunt kiezen, e
 * **verzoeken van het Team**\
     Toont alle hangende verzoeken om teams die u op gesorteerd door team bent, evenals knopen om een verzoek aan een gebruiker direct toe te wijzen of aan het zelf te werken.
 
-* **wachtend op mijn goedkeuring**\
-    Toont al uw in behandeling zijnde toegewezen of gedelegeerde goedkeuringen, een knoop om goedkeuringen te delegeren, en knopen om goedkeuringsbesluiten direct binnen widget te nemen.
+* **Mijn goedkeuring**\
+    Toont al uw hangende, toegewezen, gedelegeerde en verzonden goedkeuringen; een knoop om goedkeuringen te delegeren; en knopen om goedkeuringsbesluiten direct binnen widget te nemen.
 
 * **Alle goedkeuringen**\
         Toont 2 grafieken met informatie over gemiddelde goedkeuringstijd en besluiten evenals lijstmeningen van hangende en achterstallige goedkeuringen. <span style="color: #ff0000;"> deze eigenschap maakt deel uit van een gefaseerde versie en is momenteel slechts beschikbaar voor specifieke klanten.</span>
@@ -85,15 +85,15 @@ Standaard bevat de startpagina een aantal specifieke widgets, gebaseerd op het t
     </tr>
     <tr>
         <td>Licht</td>
-        <td>Mijn werk, in afwachting van mijn goedkeuring</td>
+        <td>Mijn werk, mijn goedkeuring</td>
     </tr>
     <tr>
         <td>Medewerker</td>
-        <td>Mijn verzoeken, opmerkingen in afwachting van mijn goedkeuring, raden van bestuur</td>
+        <td>Mijn verzoeken, opmerkingen, mijn goedkeuring, raden van bestuur</td>
     </tr>
     <tr>
         <td>Extern</td>
-        <td>In afwachting van mijn goedkeuring</td>
+        <td>Mijn goedkeuring</td>
     </tr>
 </table>
 
@@ -116,7 +116,7 @@ Standaard bevat de startpagina een aantal specifieke widgets, gebaseerd op het t
     </tr>
     <tr>
         <td>Verzoek</td>
-        <td>Mijn projecten, in afwachting van mijn goedkeuring</td>
+        <td>Mijn projecten, mijn goedkeuring</td>
     </tr>
     <tr>
         <td>Contribute</td>
@@ -124,7 +124,7 @@ Standaard bevat de startpagina een aantal specifieke widgets, gebaseerd op het t
     </tr>
     <tr>
         <td>Extern</td>
-        <td>In afwachting van mijn goedkeuring</td>
+        <td>Mijn goedkeuring</td>
     </tr>
 </table>
 

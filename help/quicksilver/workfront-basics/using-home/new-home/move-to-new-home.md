@@ -5,9 +5,9 @@ title: Verplaatsen van Legacy home naar New Home
 description: Legacy Home wordt op 10/17 uit Workfront verwijderd met de Q4-release. Dit artikel bevat informatie over de functionaliteit die beschikbaar is in een nieuwe introductiepagina en aanbevelingen voor het verplaatsen van gebruikers naar de nieuwe introductieprestaties.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 9a71080c732363bf346b18d3bf61353c6c3859f7
+source-git-commit: e63180a5d2b542f98c96ec5a2bd2fb0df078bb11
 workflow-type: tm+mt
-source-wordcount: '1641'
+source-wordcount: '1596'
 ht-degree: 0%
 
 ---
@@ -51,12 +51,12 @@ Gebruikers kunnen hun werk nog steeds delegeren vanuit New Home in de volgende w
 * Mijn werk
 * Mijn taken
 * Mijn problemen
-* In afwachting van mijn goedkeuring
+* Mijn goedkeuring
 
 Gebruikers kunnen zoeken naar werk dat aan hen is gedelegeerd in de volgende widgets:
 
 * Mijn werkwidget gebruiken het filter &#39;Aan mij gedelegeerd&#39;
-* Wachtend op mijn goedkeuring met het filter Gedelegeerde goedkeuringen
+* Mijn goedkeuringen die het filter Gedelegeerde goedkeuringen gebruiken
 
 | **Verouderd Huis** | **Nieuw Huis** |
 |------------|-----------|
@@ -72,10 +72,7 @@ Gebruikers kunnen een persoonlijke taak niet meer op dezelfde manier maken als i
 
 #### Goedkeuringen bekijken die ik heb verzonden
 
-Gebruikers kunnen geen goedkeuringen bekijken die ze in New Home hebben verzonden. Als gebruikers in uw organisatie deze functionaliteit nodig hebben, kunt u een goedkeuringenrapport opstellen als tijdelijke oplossing of een opmerking uploaden of hier een opmerking plaatsen op de volgende communityplaatsen:
-
-* [ voeg &quot;Goedkeuringen toe I voorlegde&quot;Widget aan Nieuw Huis ](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/add-quot-approvals-i-submitted-quot-widget-to-new-home/idc-p/704664#M25269)
-* [ voeg &quot;Goedkeuringen toe ik&quot;aan het nieuwe Huis ](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/add-quot-approvals-i-submitted-quot-widget-to-new-home/idc-p/704664#M25269) heb voorgelegd
+De gebruikers kunnen goedkeuringen bekijken die zij in Nieuw Huis in Mijn goedkeurings widget hebben voorgelegd gebruikend de Goedkeuringen I heb voorgelegd filter.
 
 #### Items toevoegen aan Mijn prioriteit
 
@@ -131,7 +128,7 @@ Houd de muisaanwijzer boven het werkitem om het menu met snelle acties te zoeken
 
 Gebruikers kunnen goedkeuringen en teamverzoeken in New Home nog steeds beheren met behulp van de volgende widgets:
 
-* In afwachting van mijn goedkeuring
+* Mijn goedkeuring
 * Alle goedkeuringen
 * Teamverzoeken
 
@@ -167,7 +164,7 @@ Hieronder vindt u een overzicht van de 11 widgets die u momenteel kunt kiezen, e
 * **verzoeken van het Team**\
     Toont alle hangende verzoeken om teams die u op gesorteerd door team bent, evenals knopen om een verzoek aan een gebruiker direct toe te wijzen of aan het zelf te werken.
 
-* **wachtend op mijn goedkeuring**\
+* **Mijn goedkeuring**\
     Toont al uw in behandeling zijnde toegewezen of gedelegeerde goedkeuringen, een knoop om goedkeuringen te delegeren, en knopen om goedkeuringsbesluiten direct binnen widget te nemen.
 
 * **Alle goedkeuringen**\
@@ -202,15 +199,15 @@ Standaard bevat de startpagina een aantal specifieke widgets, gebaseerd op het t
     </tr>
     <tr>
         <td>Licht</td>
-        <td>Mijn werk, in afwachting van mijn goedkeuring</td>
+        <td>Mijn werk, mijn goedkeuring</td>
     </tr>
     <tr>
         <td>Medewerker</td>
-        <td>Mijn verzoeken, opmerkingen in afwachting van mijn goedkeuring, raden van bestuur</td>
+        <td>Mijn verzoeken, opmerkingen, mijn goedkeuring, raden van bestuur</td>
     </tr>
     <tr>
         <td>Extern</td>
-        <td>In afwachting van mijn goedkeuring</td>
+        <td>Mijn goedkeuring</td>
     </tr>
 </table>
 
@@ -233,7 +230,7 @@ Standaard bevat de startpagina een aantal specifieke widgets, gebaseerd op het t
     </tr>
     <tr>
         <td>Verzoek</td>
-        <td>Mijn projecten, in afwachting van mijn goedkeuring</td>
+        <td>Mijn projecten, mijn goedkeuring</td>
     </tr>
     <tr>
         <td>Contribute</td>
@@ -241,7 +238,7 @@ Standaard bevat de startpagina een aantal specifieke widgets, gebaseerd op het t
     </tr>
     <tr>
         <td>Extern</td>
-        <td>In afwachting van mijn goedkeuring</td>
+        <td>Mijn goedkeuring</td>
     </tr>
 </table>
 

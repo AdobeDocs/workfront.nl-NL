@@ -5,9 +5,9 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f69cbb95-e7fe-4f8f-a7e7-7693c968e76c
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '851'
 ht-degree: 0%
 
 ---
@@ -32,13 +32,13 @@ Voor meer informatie over widgets beschikbaar in Nieuw Huis, zie [ begonnen word
 
 ## Nieuwe standaardlandingspagina van contribuant: Nieuwe startpagina
 
-New Home is nu de standaard landingspagina voor Contribute/Request-accounts. Deze nieuwe standaardstartpagina bevat een aantal widgets die speciaal zijn geselecteerd om Medewerkers in staat te stellen hun werk direct te beheren. Op hun eerste bezoek aan de pagina, zullen de Medewerkers ook worden geïnstrueerd over het gebruiken van Nieuw Huis en specifieke widgets beschikbaar door gebrek in een aangepaste analyse. Deze standaardwidgets voor Medewerkers zijn: Mijn verzoeken, Opmerkingen, In afwachting van mijn goedkeuring, en Boards. Merk op dat als een lay-out met een douane homepage momenteel door een contributorrekening wordt gebruikt, het hun homepage zal blijven.
+New Home is nu de standaard landingspagina voor Contribute/Request-accounts. Deze nieuwe standaardstartpagina bevat een aantal widgets die speciaal zijn geselecteerd om Medewerkers in staat te stellen hun werk direct te beheren. Op hun eerste bezoek aan de pagina, zullen de Medewerkers ook worden geïnstrueerd over het gebruiken van Nieuw Huis en specifieke widgets beschikbaar door gebrek in een aangepaste analyse. Deze standaardwidgets voor Medewerkers zijn: Mijn verzoeken, Opmerkingen, Mijn goedkeuring, en Boards. Merk op dat als een lay-out met een douane homepage momenteel door een contributorrekening wordt gebruikt, het hun homepage zal blijven.
 
 Voor meer informatie bij het gebruiken van Nieuw Huis, zie [ begonnen worden met Nieuw Huis ](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Wijzigingen voor werkregistratie in Nieuwe startpagina
 
-Op basis van gebruikersfeedback hebben we het tijdbereikfilter en de overzichtsbalk voor de hele pagina verwijderd, waarin taken werden beschreven die moesten worden uitgevoerd en voltooid. De widgets van het project, van de Taak, en van de Kwestie elk hebben ingebouwde het filtreren eigenschappen die u toestaan om hun werkingsgebied op een individuele basis aan te passen. Bovendien bevatten deze widgets nu alleen inhoud die momenteel actief is op basis van status, zodat het werk dat ze bijhouden altijd relevant is. We hebben ook beperkt welke widgets het aantal items weergeven tot diegenen die het nuttigst zijn: Mijn werk, Opmerkingen, Op mijn goedkeuring wachten en Op-weg.
+Op basis van gebruikersfeedback hebben we het tijdbereikfilter en de overzichtsbalk voor de hele pagina verwijderd, waarin taken werden beschreven die moesten worden uitgevoerd en voltooid. De widgets van het project, van de Taak, en van de Kwestie elk hebben ingebouwde het filtreren eigenschappen die u toestaan om hun werkingsgebied op een individuele basis aan te passen. Bovendien bevatten deze widgets nu alleen inhoud die momenteel actief is op basis van status, zodat het werk dat ze bijhouden altijd relevant is. We hebben ook beperkt welke widgets het aantal items weergeven tot diegenen die het nuttigst zijn: Mijn werk, Opmerkingen, Mijn goedkeuring en Aan-Uit.
 
 Voor meer informatie bij het volgen van het werk in Nieuw Huis, zie [ begonnen worden met Nieuw Huis ](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 

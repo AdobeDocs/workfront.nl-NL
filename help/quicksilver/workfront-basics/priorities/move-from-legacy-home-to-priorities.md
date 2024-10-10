@@ -5,9 +5,9 @@ description: Legacy Home wordt op 10/17 uit Workfront verwijderd met de Q4-relea
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 4e2b59a93137e6b4cbe9dab0d4e6c1467bc0cc4b
+source-git-commit: e63180a5d2b542f98c96ec5a2bd2fb0df078bb11
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
@@ -80,13 +80,13 @@ Gebruikers kunnen werk met hoge prioriteit markeren met de volgende opties:
 
 #### Goedkeuringen bekijken die ik heb verzonden
 
-Gebruikers kunnen geen goedkeuringen bekijken die ze in Prioriteiten hebben verzonden. Als tijdelijke oplossing kunnen gebruikers een goedkeuringsrapport maken om deze informatie weer te geven.
+Gebruikers kunnen geen goedkeuringen bekijken die ze in Prioriteiten hebben verzonden. Als tussenoplossing, kunnen de gebruikers deze informatie in Mijn goedkeurings widget in Huis bekijken gebruikend de Goedkeuringen I heb voorgelegd filteroptie.
 
 ### Goedkeuringen en teamverzoeken weergeven
 
 De gebruikers kunnen niet met goedkeuringen en teamverzoeken in Prioriteiten in wisselwerking staan. Ze kunnen echter wel goedkeurings- en teamaanvragen in New Home beheren met de volgende widgets:
 
-* In afwachting van mijn goedkeuring
+* Mijn goedkeuring
 * Alle goedkeuringen
 * Teamverzoeken
 

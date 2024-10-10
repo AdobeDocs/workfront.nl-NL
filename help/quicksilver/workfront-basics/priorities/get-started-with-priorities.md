@@ -5,9 +5,9 @@ description: Prioriteiten zijn een gestroomlijnde, intuïtieve ervaring die is a
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 4e2b59a93137e6b4cbe9dab0d4e6c1467bc0cc4b
+source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
@@ -176,7 +176,7 @@ U kunt veelgebruikte koppelingen insluiten in de detailpagina van het werkitem. 
 
 De mogelijkheid om middelen te beoordelen en goed te keuren staat op de routekaart voor prioriteiten.
 
-We raden u momenteel aan de widgets Wachtende op mijn goedkeuring en Alle goedkeuringen te gebruiken in Nieuwe startpagina.
+Voor nu, adviseren wij het gebruiken van Mijn goedkeuring en Alle widgets van Goedkeuring in Nieuwe Huis.
 
 Voor meer informatie, zie [ toevoegen, geef, of verwijder widgets in Nieuw Huis ](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md) uit.
 

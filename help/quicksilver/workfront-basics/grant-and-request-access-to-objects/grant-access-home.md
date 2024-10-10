@@ -6,9 +6,9 @@ description: Gebruikers kunnen toegang aanvragen tot objecten in Adobe Workfront
 author: Alina
 feature: Get Started with Workfront
 exl-id: e0a69ed5-57c3-47ac-bb7a-65495f93b3e3
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 
 1. (Voorwaardelijk) Ga als volgt te werk vanuit het nieuwe gebied Home:
 
-   1. Ga naar **wachtend op mijn goedkeuring** widget en vind het verzoek om meer toegang, dan klik **de toegang van de Verlening**.
+   1. Ga naar **Mijn goedkeuring** widget en vind het verzoek om meer toegang, dan klik **de toegang van de Verlening**.
 
       ![](assets/request-for-access-to-project-in-new-home-approvals-widget.png)
 
