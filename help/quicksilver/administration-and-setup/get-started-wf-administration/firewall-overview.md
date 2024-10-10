@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: 5cd1cbd1976d5574668098be53daee780a9cc1fb
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '724'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Omdat Adobe Workfront communiceert met het netwerk van uw organisatie, moet de f
 Dit wordt verwezenlijkt door een lijst van gewenste personen, die hoofdzakelijk een &quot;lijst&quot;van plaatsen is die &quot;toegestaan&quot;zijn om gegevens door de firewall te verzenden of te ontvangen. De plaatsen kunnen op één van twee manieren worden geïdentificeerd:
 
 * **IP adres**: een reeks aantallen zoals 52.31.132.175
-* **Domein**: deel van een URL, zoals &quot;dit domein&quot;in www.thisdomain.com
+* **Domein**: deel van een URL, zoals `thisdomain` in `www.thisdomain.com`.
 
 Workfront gebruikt specifieke IP-adressen en -domeinen voor webcommunicatie. Deze moeten aan de lijst van gewenste personen van uw organisatie worden toegevoegd alvorens u Workfront in uw organisatie kunt gebruiken.
 

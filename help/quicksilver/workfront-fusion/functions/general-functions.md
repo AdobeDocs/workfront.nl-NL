@@ -8,9 +8,9 @@ description: De volgende algemene functies zijn beschikbaar in het Adobe Workfro
 author: Becky
 feature: Workfront Fusion
 exl-id: 74bfda4e-5690-4b8c-ac58-20cf261f188d
-source-git-commit: 4cca9738ad9537247234faa0b1c441163d4e315f
+source-git-commit: 5cd1cbd1976d5574668098be53daee780a9cc1fb
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -161,3 +161,8 @@ Hiermee worden alleen de opgegeven toetsen van het object geselecteerd.
 >`pick(` E-mail met het `;` wachtwoord `;` van de gebruiker `)`
 >
 >Retourneert alleen een verzameling van het wachtwoord en het e-mailadres van de gebruiker.
+
+## mergeCollections(collection1; collection2)
+
+Voegt twee verzamelingen samen door hun sleutel-waarde paren te combineren. Als beide verzamelingen dezelfde sleutel bevatten, overschrijft de waarde van de tweede verzameling die waarde van de eerste verzameling.
+
