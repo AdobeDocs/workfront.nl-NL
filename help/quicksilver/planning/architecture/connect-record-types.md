@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 7b5441b2aa17b22f0fd54cfe4921aa5dab2e0461
 workflow-type: tm+mt
-source-wordcount: '2196'
+source-wordcount: '2222'
 ht-degree: 0%
 
 ---
@@ -268,13 +268,15 @@ U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
 
    Records zonder miniatuurafbeelding geven in plaats daarvan het pictogram voor het recordtype weer. Een voorbeeld van hoe de verbonden verslagen in het **vormgeving van het Verslag** gebied zullen tonen.
 
-   >[!TIP]
+   >[!NOTE]
    >
-   >    Wanneer u meerdere records toestaat om te worden gekoppeld, bespaart de weergave van alleen de miniatuur ruimte in kleinere gebieden, zoals in recordweergaven.
+   >* Wanneer u meerdere records toestaat om te worden gekoppeld, bespaart de weergave van alleen de miniatuur ruimte in kleinere gebieden, zoals in recordweergaven.
    >
-   >De naam van een record is het primaire veld in de record. Voor meer informatie, zie [ Primair gebiedsoverzicht ](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >* De naam van een record is het primaire veld in de record. Voor meer informatie, zie [ Primair gebiedsoverzicht ](/help/quicksilver/planning/fields/primary-field-overview.md).
    >
-   >Een recordweergave selecteren is niet beschikbaar wanneer u Workfront-objecttypen selecteert.
+   >* Een recordweergave selecteren is niet beschikbaar wanneer u Workfront-objecttypen selecteert.
+   >
+   >* Wat u in het vormgevingsgebied Opnemen selecteert, bepaalt hoe de records overal in het systeem worden weergegeven in verbindingen, inclusief alle weergaven en detailpagina&#39;s.
 
 1. Klik **creëren**.
 

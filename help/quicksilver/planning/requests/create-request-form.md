@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 7c2fa065045f434b3a761f4742ca496670bfd6b2
+source-git-commit: 7b5441b2aa17b22f0fd54cfe4921aa5dab2e0461
 workflow-type: tm+mt
-source-wordcount: '1290'
+source-wordcount: '1282'
 ht-degree: 0%
 
 ---
@@ -137,13 +137,15 @@ U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
      >
      >   Velden van de volgende typen worden niet weergegeven in het aanvraagformulier:
      >
-     >    * Mensen
-     >    * Verbonden velden (omvat verbindingen met Experience Manager-elementen)
+     >    * Personen (inclusief Gemaakt door en Laatst gewijzigd door)
+     >    * Verbonden velden (bevat verbindingen met Workfront en Experience Manager-elementen)
      >    * Verbonden opzoekvelden
      >    * Formule
+     >    * Aanmaakdatum
+     >    * Laatst gewijzigd
 
    * **Standaard sectie**: Dit is de standaardsectieonderbreking die Workfront op de verzoekvorm van toepassing is. De standaardsectie kan niet worden anders genoemd of worden verwijderd.
-   * **Onderwerp** gebied: Het gebied dat het verzoek in Workfront zal identificeren. Deze mogelijkheid is nog niet beschikbaar.
+   * **Onderwerp** gebied: Het gebied dat het verzoek in Workfront zal identificeren. Deze mogelijkheid is nog niet beschikbaar. De configuratie en de waarde van het onderwerpveld kunnen niet worden bewerkt.
    * Alle velden die aan het recordtype zijn gekoppeld.
 
      De velden in het aanvraagformulier zijn zichtbaar voor iedereen die een aanvraag naar dit recordtype indient.
@@ -158,21 +160,23 @@ U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
    * **maak een vereist gebied**: Wanneer geselecteerd, moet het gebied een waarde hebben. Anders kan het formulier niet worden verzonden.
    * **voegt logica** toe: Bepaal welke voorwaarden moeten worden voldaan opdat het gebied tonen of verborgen zijn.
 
-   Het veldtype van elk veld wordt boven in het rechtervenster weergegeven, nadat u het veld op het formulier hebt geselecteerd. De namen van de veldtypen op het aanvraagformulier verschillen van de namen in de tabelweergave. In de volgende tabel worden de verschillen beschreven tussen de namen van de veldtypen in de tabelweergave en de namen van dezelfde velden in het aanvraagformulier van het recordtype:
-
-   | Het veldtype Workfront Planning | Formulierveldtype aanvragen |
-   |-------------------------------|-------------------------|
-   | Tekst met één regel | Tekst met één regel |
-   | Alinea | Tekst met opmaak |
-   | Valuta, getal, percentage | Tekst met één regel |
-   | Enkel selecteren | Vervolgkeuzelijst met één keuze |
-   | Meerdere selecties | Vervolgkeuzelijst met meerdere selecties |
-   | Selectievakje | Groep selectievakjes |
-
    >[!NOTE]
    >
-   >   De opmaak van de velden blijft behouden. Hoewel Valuta en percentage bijvoorbeeld worden weergegeven als tekstvelden met één regel, wordt de informatie in de velden weergegeven als valuta en als een percentagewaarde.
-
+   >   Het veldtype van elk veld wordt boven in het rechtervenster weergegeven, nadat u het veld op het formulier hebt geselecteerd.
+   >   
+   >
+   >   In de onderstaande tabel worden de namen van de veldtypen weergegeven in de tabelweergave en de namen van dezelfde velden in het aanvraagformulier van het recordtype. De indelingen van elk veld komen overeen tussen de tabelweergave en het aanvraagformulier.
+   >
+   >   | Het veldtype Workfront Planning | Formulierveldtype aanvragen |
+   >   |-------------------------------|-------------------------|
+   >   | Tekst met één regel | Tekst met één regel |
+   >   | Alinea | Alinea |
+   >   | Valuta, getal, percentage | Tekst met één regel (de notaties van deze velden blijven valuta, getal en percentage) |
+   >   | Enkel selecteren | Enkel selecteren |
+   >   | Meerdere selecties | Meerdere selecties |
+   >   | Selectievakje | Selectievakje |
+   >   | Datum | Datum |
+   >
 
 1. (Facultatief) klik de **elementen van de Inhoud** tabel op de linkerkant van de vorm, en voeg om het even welke volgende elementen toe:
 

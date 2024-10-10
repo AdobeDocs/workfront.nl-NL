@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 39ea0d53-ec31-4644-b772-cfe260b8e013
-source-git-commit: 85e27a1e7979eadf2731be9aaca9279a82587bbf
+source-git-commit: 7b5441b2aa17b22f0fd54cfe4921aa5dab2e0461
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,7 @@ Sommige rijen bevatten informatie met de labels &quot;Nieuw&quot; en &quot;Huidi
    <li>Workfront Fusion</li>
    <li>Workfront-doelen</li>
    <li>Workfront Scenario Planner</li>
+   <li>Workfront Planning</li>
    </ul>
    <p>Neem contact op met uw Workfront-beheerder als u wilt weten of uw organisatie een van deze extra producten heeft aangeschaft.</p></td> 
   </tr> 
