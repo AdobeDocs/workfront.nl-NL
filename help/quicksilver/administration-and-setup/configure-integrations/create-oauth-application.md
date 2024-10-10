@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 09f7e854c2df1291feb150d2169fa6ccd5cdb1d6
 workflow-type: tm+mt
-source-wordcount: '1807'
+source-wordcount: '1831'
 ht-degree: 0%
 
 ---
@@ -177,6 +177,14 @@ De **Nieuwe OAuth2 toepassings** vakvertoningen.
 Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 met gebruikersgeloofsbrieven (de stroom van de vergunningscode), zie [ vormen en gebruiken de douane OAuth 2 van uw organisatie toepassingen gebruikend stroom JWT ](../../wf-api/api/oauth-app-jwt-flow.md).
 
 ### Een OAuth2-toepassing maken met gebruikersgegevens (doorloop machtigingscode) {#create-an-oauth2-application-using-user-credentials-authorization-code-flow}
+
+>[!NOTE]
+>
+>Als u een toepassing maakt om verbinding te maken met Workfront Fusion, gebruikt u een van de volgende omleidings-URL&#39;s:
+>
+>* `https://app.workfrontfusion.com/oauth/cb/workfront-workfront`
+>* `https://app-eu.workfrontfusion.com/oauth/cb/workfront-workfront` (EU-datacenter)
+>* `https://app-az.workfrontfusion.com/oauth/cb/workfront-workfront` (Azure Data Center)
 
 {{step-1-to-setup}}
 
