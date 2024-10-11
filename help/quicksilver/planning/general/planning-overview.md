@@ -1,14 +1,14 @@
 ---
 title: Overzicht van Adobe Workfront-planning
-description: Adobe Workfront Planning is een nieuw aanbod van Adobe Workfront. U kunt volledig-klantgerichte werkruimten tot stand brengen om werkschema's te bepalen die aan de behoeften van elke organisatorische eenheid in uw onderneming voldoen.
+description: Adobe Workfront Planning is een extra mogelijkheid van Adobe Workfront. U kunt volledig-klantgerichte werkruimten tot stand brengen om werkschema's te bepalen die aan de behoeften van elke organisatorische eenheid in uw onderneming voldoen.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
-source-wordcount: '2102'
+source-wordcount: '2116'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->De informatie in dit artikel verwijst naar Adobe Workfront Planning, een nieuwe aanbieding van Adobe Workfront.
+>De informatie in dit artikel verwijst naar Adobe Workfront Planning, een extra mogelijkheid van Adobe Workfront.
 >
 >U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
 >
@@ -44,9 +44,9 @@ Voor de volledige lijst van artikelen die documentatie voor de Planning van Work
 
 ## Inleiding tot Adobe Workfront Planning
 
-Adobe Workfront Planning is een nieuw aanbod van Adobe Workfront. Het doel van de Planning van Workfront is uitvoerige zicht in de operationele details van een organisatie te ontsluiten, en kritieke bedrijfsvragen in elke fase van de het werkbeheerlevenscyclus te beantwoorden.
+Adobe Workfront Planning is een extra mogelijkheid van Adobe Workfront. Het doel van de Planning van Workfront is uitvoerige zicht in de operationele details van een organisatie te ontsluiten, en kritieke bedrijfsvragen in elke fase van de het werkbeheerlevenscyclus te beantwoorden.
 
-Teams en leiderschap hebben duidelijke antwoorden nodig op vragen als:
+Workfront Planning kan vragen als:
 
 * Hoeveel campagnes voeren we in EMEA voor het vierde kwartaal?
 * Hebben we publiek overlappingen tussen gezamenlijke campagnes?
@@ -92,7 +92,7 @@ De volgende functies zijn momenteel beschikbaar in Workfront Planning:
 * De lay-out van de pagina van een record aanpassen
 * Werkruimten delen
 * Weergaven delen
-* Weergaven openbaar delen met externe bronnen
+* Weergaven openbaar delen met externe bronnen, zelfs met mensen die geen Workfront-gebruikers zijn
 * Weergaven dupliceren
 * Aanvragen verzenden om records te maken
 * De verslagdetails van de uitvoer aan Word <span class="preview"> en PDF.</span>
@@ -161,11 +161,11 @@ De volgende functies zijn momenteel beschikbaar in Workfront Planning:
 
 ## Workfront Planning inschakelen voor de gebruikers in uw Workfront-exemplaar
 
-Nadat uw organisatie een licentie voor Workfront Planning heeft aangeschaft, moet het volgende zijn ingesteld voordat u toegang krijgt tot Workfront Planning:
+Nadat uw organisatie een vergunning voor de Planning van Workfront, als beheerder van Workfront koopt, moet u het volgende verzekeren zijn op zijn plaats alvorens de gebruikers tot de Planning van Workfront kunnen toegang hebben:
 
-* Uw Workfront-beheerder moet u toewijzen aan een lay-outsjabloon die Planning bevat in het Hoofdmenu. Voor meer informatie, zie [ het Belangrijkste Menu aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) en [ wijs gebruikers aan een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md) toe.
+* Wijs de gebruikers toe die toegang tot de Planning van een lay-outmalplaatje nodig hebben dat Planning in het Belangrijkste Menu omvat. Voor meer informatie, zie [ het Belangrijkste Menu aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) en [ wijs gebruikers aan een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md) toe.
 
-* Uw Workfront-beheerder moet u een Workfront-licentie en Workfront-planningsbevoegdheden toewijzen waarmee u objecten kunt weergeven of maken in Workfront Planning. Voor meer informatie over het verlenen van toegang tot en het toelaten van anderen om de Planning van Workfront te gebruiken, zie [ Overzicht van de Toegang ](/help/quicksilver/planning/access/access-overview.md).
+* Wijs gebruikers een Workfront-licentie en Workfront Planning-machtigingen toe waarmee u 5554hview kunt weergeven of objecten kunt maken in Workfront Planning. Voor meer informatie over het verlenen van toegang tot en het toelaten van anderen om de Planning van Workfront te gebruiken, zie [ Overzicht van de Toegang ](/help/quicksilver/planning/access/access-overview.md).
 
 ## Workfront Planning terminologie
 
@@ -183,7 +183,7 @@ Hieronder vindt u de belangrijkste Workfront-planningsobjecten en -concepten:
 
   Voor meer informatie, zie [ werkruimten ](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
 
-* **Type van Verslag**: Het objecttype van de Planning van Workfront.
+* **Type van Verslag**: De naam van objecten types in de Planning van Workfront.
 
   In tegenstelling tot Workfront, waar de objecttypen vooraf zijn gedefinieerd, kunt u in Workfront Planning uw eigen objecttypen maken.
 
@@ -298,7 +298,7 @@ Hieronder vindt u de belangrijkste Workfront-planningsobjecten en -concepten:
 
   ![](assets/view-types-drop-down-from-record-type-list.png)
 
-  Weergaven bevatten gepersonaliseerde instellingen van een specifiek weergavetype, zoals de lijst met velden (kolommen), een lijst met records (rijen), de volgorde (sortering), een toegepast of toepasselijk filter en groepering.
+  Weergaven bevatten gepersonaliseerde instellingen van een specifiek weergavetype, zoals de lijst met velden (kolommen), een lijst met records (rijen), de volgorde (sortering), een toegepast of toepasselijk filter en een groep.
 
   Hieronder ziet u weergavetypen die u kunt toepassen op de pagina met recordtypen:
 
@@ -318,7 +318,7 @@ Voor meer informatie, zie [ verslagmeningen ](/help/quicksilver/planning/views/m
 
 ## Adobe Workfront-planning zoeken
 
-Zorg ervoor dat uw organisatie toegang tot de Planning van Workfront heeft ontvangen en dat uw systeem of groepsbeheerder het Gebied van de Planning aan uw Belangrijkste Menu heeft toegevoegd. Voor informatie, zie [ overzicht van de Toegang ](/help/quicksilver/planning/access/access-overview.md).
+Om van de Planning van de Adobe de plaats te bepalen, zorg ervoor dat uw organisatie toegang tot de Planning van Workfront heeft ontvangen en dat uw systeem of groepsbeheerder het gebied van de Planning aan uw Belangrijkste Menu heeft toegevoegd. Voor informatie, zie [ overzicht van de Toegang ](/help/quicksilver/planning/access/access-overview.md).
 
 Workfront-planning zoeken:
 

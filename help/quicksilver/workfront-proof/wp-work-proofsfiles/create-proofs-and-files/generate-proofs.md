@@ -7,9 +7,9 @@ description: Met Workfront Proof kunt u proefdrukken maken van documenten of web
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 49657851-2948-4d3b-b2ce-c8359eeb315b
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
-source-wordcount: '2155'
+source-wordcount: '2159'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Met [!DNL Workfront Proof] kunt u proefdrukken maken van documenten of websites 
 
 1. Als u een of meer documenten wilt proefdrukken, voegt u documenten toe die op een van de volgende manieren moeten worden gecontroleerd (herhaalt u dit proces om meerdere te controleren documenten toe te voegen):
 
-   * Sleep een document van uw bestandssysteem naar het gebied voor slepen en neerzetten in het **[!UICONTROL Add Files]** -gebied.
+   * Sleep een document van het bestandssysteem naar het gebied voor slepen en neerzetten in het **[!UICONTROL Add Files]** -gebied.
    * Klik in het gebied voor slepen en neerzetten in het gebied **[!UICONTROL Add Files]** en blader naar het document dat u wilt uploaden en selecteer het in het bestandssysteem op uw werkstation.
 
      ![ proof_document_upload.png ](assets/proof-document-upload-350x64.png)
@@ -61,15 +61,15 @@ Met [!DNL Workfront Proof] kunt u proefdrukken maken van documenten of websites 
 
    1. (Optioneel) Schakel de optie in **[!UICONTROL Combine all compatible files into single proof]** .
 
-      **wanneer deze optie wordt toegelaten:** Alle statische dossiers en websites zijn beschikbaar in één enkele proef, en u kunt tot 50 dossiers tegelijkertijd uploaden.
+      **wanneer deze optie wordt toegelaten:** Alle statische dossiers en websites zijn beschikbaar in één enkele proef, en u kunt tot 50 dossiers in een bepaalde tijd uploaden.
 
       >[!NOTE]
       >
-      >Interactieve bestanden, waaronder video&#39;s en interactieve websites, kunnen niet worden gecombineerd tot één proefdruk.
+      >Interactieve bestanden, zoals video&#39;s en interactieve websites, kunnen niet worden gecombineerd tot één proefdruk.
 
-      **wanneer deze optie wordt onbruikbaar gemaakt:** Alle documenten en websites worden geproduceerd als individuele proef, en u kunt tot 20 dossiers in een bepaalde tijd uploaden.
+      **wanneer deze optie wordt onbruikbaar gemaakt:** Alle documenten en websites worden geproduceerd als individuele proeven, en u kunt tot 20 dossiers in een bepaald ogenblik uploaden.
 
-      Alle geüploade bestanden en websites combineren tot één proefdruk:
+      Alle geüploade bestanden en websites combineren in één proefdruk:
 
       1. Schakel de optie **[!UICONTROL Combine all compatible files into single proof]** in.
       1. Geef in het veld **[!UICONTROL Proof name]** een nieuwe naam op voor de gecombineerde proefdruk.
@@ -81,7 +81,7 @@ Met [!DNL Workfront Proof] kunt u proefdrukken maken van documenten of websites 
 
      Voor meer informatie over het delen van een proef, zie &quot;Toevoegend Gebruikers aan een Bewijs&quot;in [ Deel een proef binnen  [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
 
-   * **Geautomatiseerd:** selecteer deze optie om inhoudsoverzicht en goedkeuring te beheren wanneer u complexe overzichtsprocessen hebt, of als u inhoud voor overzicht naar de zelfde groepen regelmatig verzendt. Met de geautomatiseerde workflow wordt de proefdruk verplaatst van het werkgebied naar het werkgebied tot de definitieve goedkeuring. De relevante gebruikers worden op elk moment dat zij een goedkeuring moeten verlenen, op de hoogte gebracht.
+   * **Geautomatiseerd:** selecteer deze optie om inhoudsoverzicht en goedkeuring te beheren wanneer u complexe overzichtsprocessen hebt, of als u inhoud voor overzicht naar de zelfde groepen regelmatig verzendt. Met een geautomatiseerde workflow wordt de proefdruk verplaatst van het werkgebied naar het werkgebied tot de definitieve goedkeuring. De betrokken gebruikers worden op elk moment op de hoogte gebracht dat zij een goedkeuring moeten verlenen.
 
      Voor meer informatie over het creëren van een Geautomatiseerd Werkschema, zie [ Opstelling een bewijs met een Geautomatiseerde Werkschema in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md#create2).
 
@@ -106,7 +106,7 @@ Met [!DNL Workfront Proof] kunt u proefdrukken maken van documenten of websites 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Slechts één besluit vereist voor dit bewijs</td> 
+      <td role="rowheader">Voor dit bewijs is slechts één besluit vereist</td> 
       <td> <p>Wanneer deze optie is geselecteerd, wordt de evaluatie voltooid nadat een van de besluitvormers zijn besluit heeft genomen.</p> <p>Deze optie is standaard uitgeschakeld.</p> </td> 
      </tr> 
      <tr> 
@@ -122,11 +122,11 @@ Met [!DNL Workfront Proof] kunt u proefdrukken maken van documenten of websites 
       <td> <p><strong></strong> Als deze optie is geselecteerd, kunnen revisoren het originele bestand downloaden van waaruit de proefdruk is gemaakt.</p> <p>Wanneer deze optie is uitgeschakeld, is het pictogram Downloaden niet meer zichtbaar.<br> Deze optie wordt toegelaten door gebrek.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Proef delen via openbare URL of insluitcode</td> 
+      <td role="rowheader">Proef delen via een openbare URL of insluitcode</td> 
       <td>Als deze optie is geselecteerd, kan de proefdruk worden gedeeld via een openbare URL of insluitcode.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Abonneren op bewijs via openbare URL of insluitcode</td> 
+      <td role="rowheader">Abonneren op bewijs via een openbare URL of insluitcode</td> 
       <td> <p>Als deze optie is geselecteerd, kunnen personen die niet expliciet aan de proefdruk zijn toegevoegd, zich op de proefdruk abonneren. De persoon die zich op de proef abonneert, krijgt de rol en e-mail die u in de volgende montages bepaalt:</p> 
        <ul> 
         <li><strong> rol van de Abonnee </strong>: De standaardproefdrukrol die aan alle recensenten wordt toegewezen die aan de proef intekenen.</li> 
@@ -147,9 +147,9 @@ Met [!DNL Workfront Proof] kunt u proefdrukken maken van documenten of websites 
 
    Het document wordt weergegeven in het proefdrukprogramma.
 
-   Gebruikers die geen proefdrukken hebben ingeschakeld voor hun account, kunnen het document nog steeds bekijken en opmerkingen toevoegen aan de proefdruk.
+   Gebruikers die geen proefdrukken op hun account hebben ingeschakeld, kunnen het document nog steeds bekijken en opmerkingen naar de proefdruk maken.
 
-## Een proefdruk van een URL genereren {#generate-a-proof-for-a-url}
+## Een proef voor een URL genereren {#generate-a-proof-for-a-url}
 
 U kunt voor het eerst een proef voor een URL produceren. U kunt ook een nieuwe versie van een URL-proefdruk genereren waarvoor eerder een proefdruk is gegenereerd.
 
@@ -159,14 +159,14 @@ U kunt voor het eerst een proef voor een URL produceren. U kunt ook een nieuwe v
 
 Een proef voor een URL produceren:
 
-1. Voer een van de volgende handelingen uit om een nieuwe proefdruk te maken en de [!UICONTROL New Proof] -pagina weer te geven:
+1. Voer een van de volgende handelingen uit om een nieuwe proefdruk te maken en de pagina [!UICONTROL New Proof] weer te geven:
 
    * Klik op de groene **[!UICONTROL New proof]** knop in de linkerbovenhoek van een pagina.
    * Klik in het gebied **[!UICONTROL Dashboard]** op de tab **[!UICONTROL Overview]** op de koppeling **[!UICONTROL New proof]** .
 
-   * Verzenden via Dropzone (functie Enterprise).
+   * Verzenden via Dropzone (Enterprise-functie).
 
-1. (Voorwaardelijk) Maak op de pagina **[!UICONTROL New proof]** die verschijnt een nieuwe versie van een bestaande proefdruk:
+1. (Voorwaardelijk) Maak op de pagina **[!UICONTROL New proof]** die wordt weergegeven een nieuwe versie van een bestaande proefdruk:
 
    1. Selecteer de proefdruk URL waar u een nieuwe versie wilt toevoegen.
    1. Klik op de knop **[!UICONTROL New Version]** boven aan de pagina.
@@ -183,7 +183,7 @@ Een proef voor een URL produceren:
 
    ![ proof_upload_website_modify.png ](assets/proof-upload-website-modify-350x185.png)
 
-1. Geef een **[!UICONTROL Proof name]** op voor de proefdruk.
+1. Geef een **[!UICONTROL Proof name]** voor de proefdruk op.
 
    Standaard is de proefdruknaam dezelfde als de URL van de site.
 
@@ -195,11 +195,11 @@ Een proef voor een URL produceren:
     <tbody> 
      <tr> 
       <td role="rowheader">Schermopname vastleggen</td> 
-      <td>Hiermee maakt u een proefdruk van een statische afbeelding van de voorpagina van de URL.</td> 
+      <td>Maakt een proefdruk van een statische afbeelding van de voorpagina van de URL.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Interactief</td> 
-      <td> <p>Hiermee maakt u een proefdruk waarmee revisoren door de site kunnen navigeren, HTML5-afbeeldingen, Flash-elementen enzovoort kunnen bekijken.</p> <p>Als u een interactieve proefdruk wilt maken, moet de website worden gehost met een beveiligd protocol (https). Bovendien kunnen websites die niet in een iframe kunnen worden ingesloten, niet worden gegenereerd als een interactieve proefdruk (beperkingen voor het insluiten van iframes worden beheerd door de website die u wilt insluiten).</p> <p>Nadat de eerste proefdruk is gemaakt, kan deze instelling niet worden gewijzigd wanneer u volgende versies maakt.</p> <p>Voor meer informatie over het interactieve proef, zie <a href="#generate-a-proof-for-interactive-content" class="MCXref xref"> een proef voor interactieve inhoud </a> produceren.</p> </td> 
+      <td> <p>Hiermee maakt u een proefdruk waarmee revisoren door de site kunnen navigeren, HTML5-afbeeldingen, Flash-elementen enzovoort kunnen bekijken.</p> <p>Als u een interactief proefdrukken wilt maken, moet de website worden gehost met een beveiligd protocol (https). Bovendien kunnen websites die niet in een iframe kunnen worden ingesloten, niet worden gegenereerd als een interactieve proefdruk (beperkingen voor het insluiten van iframes worden bepaald door de website die u probeert in te sluiten).</p> <p>Nadat de eerste proefdruk is gemaakt, kan deze instelling niet worden gewijzigd wanneer u volgende versies maakt.</p> <p>Voor meer informatie over het interactieve proef, zie <a href="#generate-a-proof-for-interactive-content" class="MCXref xref"> een proef voor interactieve inhoud </a> produceren.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Schermresolutie</td> 
@@ -220,7 +220,7 @@ Een proef voor een URL produceren:
 
 1. Klik op **[!UICONTROL Done]**.
 
-   Als u een nieuwe versie toevoegt aan een bestaande URL-proefdruk, blijven de opties die op de oorspronkelijke proefdruk of vorige versie zijn geconfigureerd, behouden in deze versie. Als u een nieuwe versie toevoegt aan een bestaande URL-proefdruk, blijven de opties die op de oorspronkelijke proefdruk of op de vorige versie zijn geconfigureerd, behouden in deze versie.
+   Als u een nieuwe versie toevoegt aan een bestaande URL-proefdruk, blijven de opties die op de oorspronkelijke proefdruk of vorige versie zijn geconfigureerd, behouden in deze versie. Als u een nieuwe versie toevoegt aan een bestaande URL-proefdruk, blijven de opties die op de oorspronkelijke proefdruk of vorige versie zijn geconfigureerd, behouden in deze versie.
 
 1. Klik op **[!UICONTROL Create Proof]**.
 
@@ -248,9 +248,9 @@ Voor informatie over hoe te om een interactieve proef toe te voegen URL, zie [ e
    * Klik op de groene **[!UICONTROL New proof]** knop in de linkerbovenhoek van een pagina.
    * Klik in het gebied **[!UICONTROL Dashboard]** op de tab **[!UICONTROL Overview]** op de koppeling **[!UICONTROL New proof]** .
 
-   * Verzenden via Dropzone (functie Enterprise).
+   * Verzenden via Dropzone (Enterprise-functie).
 
-1. Sleep op de pagina **[!UICONTROL New proof]** die wordt weergegeven uw interactieve ZIP-bundel naar het **[!UICONTROL Add files]** -gebied.
+1. Sleep op de pagina **[!UICONTROL New proof]** die wordt weergegeven de interactieve ZIP-bundel naar het **[!UICONTROL Add files]** -gebied.
 
 1. (Optioneel) Configureer eventuele geavanceerde opties voor proefdrukken, zoals het delen van de proefdruk, het toevoegen van een geautomatiseerde workflow of het instellen van toegangs- en abonnementsinstellingen. Raadpleeg de volgende artikelen voor meer informatie over deze opties:
 

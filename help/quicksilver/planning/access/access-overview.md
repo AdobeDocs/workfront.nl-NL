@@ -6,7 +6,7 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 3232676a77c8e9fcb58e97374a4e7686620136da
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->De informatie in dit artikel verwijst naar Adobe Workfront Planning, een nieuwe aanbieding van Adobe Workfront.
+>De informatie in dit artikel verwijst naar Adobe Workfront Planning, een extra mogelijkheid van Adobe Workfront.
 >
 >Uw bedrijf moet een extra licentie voor Workfront Planning aanschaffen om toegang te krijgen tot zijn mogelijkheden.
 >

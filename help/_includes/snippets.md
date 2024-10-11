@@ -1,5 +1,5 @@
 ---
-source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
 source-wordcount: '2412'
 ht-degree: 0%
@@ -281,7 +281,7 @@ U moet de juiste insteekmodule installeren voor de Adobe Creative Cloud-toepassi
 
 >[!IMPORTANT]
 >
->De informatie in dit artikel verwijst naar Adobe Workfront Planning, een nieuwe aanbieding van Adobe Workfront.
+>De informatie in dit artikel verwijst naar Adobe Workfront Planning, een extra mogelijkheid van Adobe Workfront.
 >
 >U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
 >

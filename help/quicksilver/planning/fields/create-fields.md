@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
-source-wordcount: '3620'
+source-wordcount: '3611'
 ht-degree: 0%
 
 ---
@@ -277,8 +277,8 @@ U kunt een veld met meerdere selecties gebruiken om aanvullende informatie in el
 1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
    * **Naam**: De naam van het gebiedstype, aangezien het in een lijst of de pagina van Details van het verslag zal verschijnen. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
-   * **Keuzen**: De opties beschikbaar om van het drop-down menu te selecteren nadat het gebied wordt bewaard. U kunt zowel cijfers als letters voor de naam van elke keus hebben.
-1. Klik **toevoegen keus** om zo vele keuzen toe te voegen zoals nodig. Er geldt geen limiet voor het aantal keuzen dat u kunt toevoegen aan een veld met meerdere selecties.
+   * **Keuzen**: De opties die de gebruikers kunnen selecteren wanneer het bijwerken van dit gebied. U kunt zowel cijfers als letters gebruiken voor de naam van elke keuze.
+1. Klik **toevoegen keus** om meer keuzen toe te voegen. Er geldt geen limiet voor het aantal keuzen dat u kunt toevoegen aan een veld met meerdere selecties.
 1. (Optioneel) Sleep een keuze handmatig in de gewenste volgorde of selecteer de optie
    **de keuzen van de Soort a-z** optie als u de keuzen automatisch in alfabetische orde wilt worden vermeld. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. (Facultatief) om een keus te verwijderen, klik het **x** pictogram rechts van het.
@@ -301,7 +301,7 @@ Met velden die een enkele selectie maken, wordt aanvullende informatie in elke g
    * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
    * **Keuzen**: De opties beschikbaar om van het drop-down menu te selecteren nadat het gebied wordt bewaard. U kunt zowel cijfers als letters voor de naam van elke keus hebben.
 
-1. Klik **toevoegen keus** om zo vele keuzen toe te voegen zoals nodig. Er geldt geen limiet voor het aantal keuzen dat u kunt toevoegen aan een veld voor één keuze.
+1. Klik **toevoegen keus** om meer keuzen toe te voegen. Er geldt geen limiet voor het aantal keuzen dat u kunt toevoegen aan een veld voor één keuze.
 1. (Facultatief) sleep en laat manueel elke keus in de gewenste orde vallen, of selecteer de **optie van de Soort A-Z** als u de keuzen automatisch in alfabetische orde wilt worden vermeld. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. (Facultatief) om een keus te verwijderen, klik het **x** pictogram rechts van het.
 1. Klik op het kleurstaal links van een keuze om de kleurkiezer uit te vouwen en de kleur van elke optie aan te passen.
@@ -450,7 +450,10 @@ Voor meer informatie, zie [ overzicht van de gebieden van de Formule ](/help/qui
    >
    >* U kunt geen multiselect-tekstvelden toevoegen aan een formule.
    >
-   >* U kunt verwijzen naar een veld dat zich op maximaal 4 niveaus van het huidige recordtype bevindt. Bijvoorbeeld, als u een formuleringsgebied voor een type van het verslag van de Activiteit creeert, en de Activiteit wordt verbonden met het type van het Verslag van het Product dat met het verslagtype van de Campagne wordt verbonden dat met een Project van Workfront wordt verbonden, kunt u het Begroting van het project in de formule verwijzen u voor het type van het verslag van de Activiteit creeert.
+   >* U kunt verwijzen naar een veld dat maximaal vier velden (en objecten) verwijderd is van het huidige recordtype. Bijvoorbeeld, als u een formuleringsgebied voor een type van het Verslag van de Activiteit creeert (1), en de Activiteit wordt verbonden met het type van het verslag van de Campagne (2) dat met een Project van Workfront (3) wordt verbonden, kunt u het gebied van de Begroting van het project (4) in de formule verwijzen u voor het verslagtype van de Activiteit creeert.
+   >
+   >![](assets/formula-example-project-budget-four-fields-removed.png)
+   >
 
 1. Op het **gebied van het Formaat**, selecteer van de volgende keuzen om het formaat van het resultaat te identificeren dat op het formule-type gebied wordt getoond:
 
@@ -604,7 +607,7 @@ Met het veldtype Laatst gewijzigd kunt u de datum toevoegen waarop een record vo
 
 U kunt gekoppelde recordvelden maken wanneer u een nieuwe verbinding toevoegt tussen twee recordtypen of een recordtype en een objecttype vanuit andere toepassingen.
 
-Voor informatie over het verbinden van het verslagtypes van de Planning van Workfront, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md)
+Voor informatie over het verbinden van het verslagtypes van de Planning van Workfront, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 <!--## Create fields by importing record types using an Excel or CSV file
 

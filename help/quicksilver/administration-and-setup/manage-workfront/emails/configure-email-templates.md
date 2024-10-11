@@ -8,14 +8,18 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 0%
 
 ---
 
+
 # E-mailsjablonen configureren
+
+<!--Audited: 10/2024-->
+
 
 Als Adobe Workfront-beheerder kunt u e-mailsjablonen configureren ter ondersteuning van herinneringsberichten.
 
@@ -40,9 +44,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td><p>Huidig: Plan</p>
+   <td><p>Nieuw: Standaard</p>
    of
-   <p>Nieuw: Standaard</p></td> 
+   <p>Huidig: Plan</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuratie op toegangsniveau</td> 

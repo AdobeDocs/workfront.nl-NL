@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 7b5441b2aa17b22f0fd54cfe4921aa5dab2e0461
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1236'
 ht-degree: 0%
 
 ---
@@ -165,18 +165,7 @@ U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
    >   Het veldtype van elk veld wordt boven in het rechtervenster weergegeven, nadat u het veld op het formulier hebt geselecteerd.
    >   
    >
-   >   In de onderstaande tabel worden de namen van de veldtypen weergegeven in de tabelweergave en de namen van dezelfde velden in het aanvraagformulier van het recordtype. De indelingen van elk veld komen overeen tussen de tabelweergave en het aanvraagformulier.
-   >
-   >   | Het veldtype Workfront Planning | Formulierveldtype aanvragen |
-   >   |-------------------------------|-------------------------|
-   >   | Tekst met één regel | Tekst met één regel |
-   >   | Alinea | Alinea |
-   >   | Valuta, getal, percentage | Tekst met één regel (de notaties van deze velden blijven valuta, getal en percentage) |
-   >   | Enkel selecteren | Enkel selecteren |
-   >   | Meerdere selecties | Meerdere selecties |
-   >   | Selectievakje | Selectievakje |
-   >   | Datum | Datum |
-   >
+   >   De velden Valuta, Nummer en Percentage worden weergegeven als een tekstveldtype voor één regel. De veldindeling blijft echter behouden en de waarden binnen deze velden worden weergegeven als de waarden Valuta, Nummer en Percentage.
 
 1. (Facultatief) klik de **elementen van de Inhoud** tabel op de linkerkant van de vorm, en voeg om het even welke volgende elementen toe:
 

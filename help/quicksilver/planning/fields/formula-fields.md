@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '591'
 ht-degree: 0%
 
 ---
@@ -175,7 +175,7 @@ OLD:
 
 ## Ondersteunde formules
 
-In velden van de Adobe Workfront-planningsformule worden alle expressies van de berekende Workfront-velden ondersteund. Voor meer informatie, zie [ Overzicht van berekende gegevensuitdrukkingen ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+In velden van de Adobe Workfront-planningsformule worden alle expressies van de berekende Workfront-velden ondersteund. Voor een lijst van de uitdrukkingen van Workfront, zie [ Overzicht van berekende gegevensuitdrukkingen ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 Daarnaast ondersteunen we de volgende expressies voor velden van de Workfront-planningsformule:
 

@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8a3830e8-0d9a-4ede-a1b6-b80dd4686bc6
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
 source-wordcount: '2981'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 ><span class="preview"> Dit artikel maakt een lijst van de eigenschappen die tijdens de bètafase voor de Planning van Workfront, in 2023 werden vrijgegeven.</span>
->De informatie in dit artikel verwijst naar Adobe Workfront Planning, een nieuwe aanbieding van Adobe Workfront.
+>De informatie in dit artikel verwijst naar Adobe Workfront Planning, een extra mogelijkheid van Adobe Workfront.
 >
 >U moet een Workfront-planningsplan aanschaffen, in aanvulling op een Workfront-plan om toegang te krijgen tot Workfront-planningsmogelijkheden en deze te kunnen gebruiken.
 >
