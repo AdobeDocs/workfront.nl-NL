@@ -4,9 +4,9 @@ description: Verbeteringen startpunt vierde kwartaal 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 9de54aafb07d5c5858494c51356ae9322e1a0f79
+source-git-commit: e48ef14cc3d0377a6d95f68b502f952ffe4880c4
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,19 @@ ht-degree: 0%
 Op deze pagina worden alle Home-verbeteringen beschreven die zijn aangebracht met de release van het vierde kwartaal van 2024 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2024 versiecyclus, zie [ Vierde Kwartaal 2024 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
+
+## Updates van de wachtende goedkeuringswidget in nieuw Home
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 10 oktober 2024; Productieversie voor alle klanten: 10 oktober 2024.
+
+We hebben de volgende wijzigingen aangebracht in de wachtende goedkeuringswidget:
+
+* **anders genoemd widget**: De naam van deze widget is nu Mijn goedkeuringen.
+* **toegevoegde Goedkeuringen ik als filteroptie** heb voorgelegd: U kunt goedkeuringen nu bekijken u in nieuw Huis met dit widget hebt voorgelegd.
+
+Voor meer informatie, zie [ begonnen worden met nieuw Huis ](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Vereenvoudig de Workfront-ervaring voor taakeigenaars met prioriteiten
 

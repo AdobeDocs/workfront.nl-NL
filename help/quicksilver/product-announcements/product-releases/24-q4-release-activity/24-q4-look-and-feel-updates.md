@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
+source-git-commit: 2d5cfabe17e4bc0f82c412e9144488160f13c717
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -22,28 +22,29 @@ Voor een lijst van alle veranderingen beschikbaar met het Vierde Kwartaal 2024 v
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 26 september 2024; Productieversie voor alle klanten: met de release van 24.10 (17 oktober 2024)
+>Voorvertoningsrelease: 15 oktober; Productieversie voor alle klanten: met de release van 24.10 (17 oktober 2024)
 
 We hebben de dashboardinterface op verschillende manieren bijgewerkt om het ontwerp van andere delen van Workfront aan te passen, waaronder verbeteringen aan het afdrukvoorvertoningsscherm bij het afdrukken van een dashboard.
 
-Als gevolg van deze wijzigingen kunnen kalenders niet meer in dashboards worden geplaatst. Bestaande kalenders op dashboards zullen in plaats daarvan een verbinding aan de kalender tonen.
-
 Voor meer informatie over dashboards, zie [ dashboards ](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md) creëren en beheren. Voor meer informatie over kalenders, zie [ overzicht van de rapporten van de Kalender ](/help/quicksilver/reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
-<!--
-
-## Look and feel updates for reports
+## Updates weergeven voor rapporten
 
 >[!NOTE]
 >
->Preview release: September 19, 2024; Production release for all customers: With the 24.10 release (October 17, 2024)
+>Voorvertoningsrelease: vanaf 12 september 2024; Productieversie voor alle klanten: gevarieerd, alle updates zijn beschikbaar op 8 november 2024
 
-We have made a variety of updates to the reports interface to match the design of other areas of Workfront, including:
+We hebben verschillende updates van de interface voor rapporten gemaakt die aansluiten bij het ontwerp van andere gebieden van Workfront. Deze updates bevatten enkele aanvullende wijzigingen in verschillende rapportfuncties, waaronder:
 
-* changes to existing reports that improve their use in Canvas Dashboards
-* an expanded color palette for conditional formatting rules in reports
+* Een nieuwe knoop om tekstwijze in te gaan wanneer het uitgeven van een rapportkolom
+* Kleine wijzigingen in de functie van jokertekens voor relatieve datums en sneltoetsen voor jokertekens
+* Voor voorwaardelijke regels hoeft u niet langer op een knop Gereed te klikken om te worden gemaakt
+* Een uitgebreid kleurenpalet voor voorwaardelijke opmaakregels in rapporten
+* Wijzigingen in bestaande rapporten die het gebruik ervan in de dashboards van het canvas verbeteren
 
-For more information about -->
+Deze updates worden afzonderlijk geïmplementeerd in voorvertoning en productie vanaf 12 september 2024. Alle updates zullen volledig in productie voor alle klant tegen 8 November 2024 worden uitgevoerd.
+
+Voor meer informatie over het melden in Workfront, zie [ begonnen worden met rapporten ](/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
 
 ## De blik-en-voelt updates voor de pagina van de Voorkeur van het Systeem
 

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
+source-git-commit: e48ef14cc3d0377a6d95f68b502f952ffe4880c4
 workflow-type: tm+mt
-source-wordcount: '2017'
+source-wordcount: '2098'
 ht-degree: 0%
 
 ---
@@ -36,8 +36,8 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
 
 * [Beheerdersverbeteringen](#administrator-enhancements)
 * [Verbeteringen voor documentbeheer](#document-management-enhancements)
-* [Verbeteringen voor integratie](#integration-enhancements)
 * [Verbeteringen voor startpagina](#home-enhancements)
+* [Verbeteringen voor integratie](#integration-enhancements)
 * [Projectverbeteringen](#project-enhancements)
 * [Verbeteringen voor proefdrukken](#proofing-enhancements)
 * [Verbeteringen voor rapport en dashboard](#report-and-dashboard-enhancements)
@@ -164,6 +164,23 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
+                                <p><s>Voorvertoningsrelease: 3 oktober 2024</s></p>
+                            </li>
+                            <li>
+                                <p>Productieversie voor alle klanten: met de release van 24.10 (17 oktober 2024)</p>
+                            </li>
+                            <p><i>Deze functie is tijdelijk verwijderd uit Voorvertoning.</i></p>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md"> voeg snel vorige recensenten en fiatteurs aan nieuwe documentversies toe </a></p>
+                        <p>U kunt nu snel revisoren en fiatteurs toevoegen uit eerdere documentversies.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
                                 <p>Voorvertoningsrelease: 3 oktober 2024</p>
                             </li>
                             <li>
@@ -172,10 +189,56 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
                         </ul>
                     </td>
                 </tr>
+           </tbody>
+</table>
+
+### Verbeteringen voor startpagina
+
+<table>
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
+            <tbody>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md"> voeg snel vorige recensenten en fiatteurs aan nieuwe documentversies toe </a></p>
-                        <p>U kunt nu snel revisoren en fiatteurs toevoegen uit eerdere documentversies.</p>
+                        <p><span class="bold"> Eigenschap </span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold"> de data van de Versie </span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md"> Updates aan Awaiting my goedkeuring widget in nieuw Huis </a></p>
+                        [!BADGE in productie ]{type=Informative}
+                        <p>We hebben de volgende wijzigingen aangebracht in de wachtende goedkeuringswidget:</p>
+                            <ul>
+                                <li>De naam van de widget is gewijzigd. De naam van deze widget is Mijn goedkeuring.</li>
+                                <li>Toegevoegde goedkeuringen die ik als filteroptie heb verzonden: u kunt nu goedkeuringen bekijken die u in nieuw Huis met deze widget hebt verzonden.</li>
+                            </ul>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 10 oktober 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Productieversie voor alle afnemers: 10 oktober 2024</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md"> introducerend Prioriteiten: een eenvoudigere, gestroomlijnde, en intuïtieve ervaring van Workfront voor taakeigenaars </a></p>
+                        <p>De prioriteiten verbeteren nadruk en productiviteit om klanten te helpen meer in minder tijd verwezenlijken.</p>
+                        <p>Met Prioriteiten kunt u genieten van:</p>
+                            <ul>
+                                <li>Dagelijkse taken beheren en prioriteit geven: organiseer uw dag of week met geconsolideerde navigatie voor meer duidelijkheid.</li>
+                                <li>Grotere productiviteit: Toegang tot projectcontext en voer taken sneller uit met minder klikken.</li>
+                                <li>Persoonlijke functies: profiteer van functies die speciaal voor taakeigenaars zijn ontworpen.</li>
+                            </ul>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -226,48 +289,6 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
                 </tr>
            </tbody>
 </table>
-
-### Verbeteringen voor startpagina
-
-<table>
-        <col style="width: 50%;" />
-        <col style="width: 50%;" />
-            <tbody>
-                <tr>
-                    <td>
-                        <p><span class="bold"> Eigenschap </span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold"> de data van de Versie </span>
-                        </p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md"> introducerend Prioriteiten: een eenvoudigere, gestroomlijnde, en intuïtieve ervaring van Workfront voor taakeigenaars </a></p>
-                        <p>De prioriteiten verbeteren nadruk en productiviteit om klanten te helpen meer in minder tijd verwezenlijken.</p>
-                        <p>Met Prioriteiten kunt u genieten van:</p>
-                        <ul>
-                        <li>Dagelijkse taken beheren en prioriteit geven: uw dag of week ordenen met geconsolideerde navigatie voor meer duidelijkheid</li>
-                        <li>Grotere productiviteit: Toegang tot projectcontext en voer taken sneller uit met minder klikken</li>
-                        <li>Persoonlijke functies: profiteer van functies die speciaal voor taakeigenaars zijn ontworpen</li>
-                        </ul>
-                    </td>
-                    <td><p><b>Beschikbaar op deze data:</b></p>
-                        <ul>
-                            <li>
-                                <p>Voorvertoningsrelease: 3 oktober 2024</p>
-                            </li>
-                            <li>
-                                <p>Productieversie voor alle klanten: met de release van 24.10 (17 oktober 2024)</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-           </tbody>
-</table>
-
 
 ### Projectverbeteringen
 
@@ -542,11 +563,11 @@ Er zijn op dit moment geen Workfront Proof-updates beschikbaar. Dit gebied wordt
 
 Er zijn op dit moment geen updates voor Workfront Goals beschikbaar in de release. Dit gebied wordt bijgewerkt wanneer er updates beschikbaar zijn.
 
-### API-versie 18
+### API-versie 19
 
-Voor API versie 18 hebben we een aantal bronnen en eindpunten gewijzigd. Sommige wijzigingen ondersteunen nieuwe functionaliteit en andere maken het voor u gemakkelijker om de informatie te gebruiken die beschikbaar is via de API.
+Voor API versie 19 hebben we een aantal bronnen en eindpunten gewijzigd. Sommige wijzigingen ondersteunen nieuwe functionaliteit en andere maken het voor u gemakkelijker om de informatie te gebruiken die beschikbaar is via de API.
 
-Voor informatie over wat nieuw en bijgewerkt is, zie [ wat in API versie 18 ](/help/quicksilver/wf-api/api/new-api-version-18.md) nieuw is.
+Voor informatie over wat nieuw en bijgewerkt is, zie [ wat in API versie 19 ](/help/quicksilver/wf-api/api/new-api-version-19.md) nieuw is.
 
 Voor informatie over API versies, zie [ API versioning en steunprogramma ](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
