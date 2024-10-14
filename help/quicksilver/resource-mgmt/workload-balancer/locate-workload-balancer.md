@@ -7,9 +7,9 @@ description: U kunt de taakverdeler gebruiken om middelen voor het werk te plann
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '704'
 ht-degree: 0%
 
 ---
@@ -102,18 +102,18 @@ In de volgende secties ziet u waar u toegang kunt krijgen tot Workload Balancer 
 
 De pagina van uw Home Team wordt weergegeven.
 
-     klik **Werklastverdeler *** in het linkerpaneel.
-    
-    ![] (assets/nwe-balancer-team-350x172.png) 
-    
-     de Balancer van de Werkbelasting van een team toont de volgende informatie, door gebrek:
-    
-     * * * Niet toegewezen Werk*: Punten die aan het team worden toegewezen en niet aan gebruikers worden toegewezen.
-    * **Toegewezen Werk**: Alle leden van het team met al hun taken.
-    
-    >[!TIP] 
-    > 
-    >De leden van het team zouden aan het werk kunnen worden toegewezen dat ook aan het team wordt toegewezen of aan het werk dat aan andere teams of rollen wordt toegewezen.
+1. Klik **de Balancer van de Werkbelasting** in het linkerpaneel.
+
+![](assets/nwe-balancer-team-350x172.png)
+
+De werklastbalans van een team geeft standaard de volgende informatie weer:
+
+* **Niet toegewezen Werk**: Punten die aan het team worden toegewezen en niet aan gebruikers worden toegewezen.
+* **Toegewezen Werk**: Alle leden van het team met al hun taken.
+
+  >[!TIP]
+  >
+  >De leden van het team zouden aan het werk ook kunnen worden toegewezen dat aan het team of aan het werk wordt toegewezen aan andere teams of rollen.
 
 ### Heb toegang tot de Balancer van de Werkbelasting voor een project
 

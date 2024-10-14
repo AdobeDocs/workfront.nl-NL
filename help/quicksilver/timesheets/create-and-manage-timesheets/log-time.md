@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
-source-wordcount: '3854'
+source-wordcount: '3828'
 ht-degree: 0%
 
 ---
@@ -335,10 +335,8 @@ Om een punt uit timesheet te verwijderen dat manueel werd toegevoegd:
 
 U kunt project-specifieke tijd in Huis registreren.
 
-Zie de volgende secties voor algemene informatie over het gebruik van het gebied Home:
+Voor algemene informatie over het gebruiken van het gebied van het Huis, zie [ Gebruik het gebied van het Huis ](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
 
-* Voor informatie over het gebruiken van het gebied van het erfenisHuis, zie [ Gebruik het gebied van het Huis ](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
-* Voor informatie over het gebruiken van het nieuwe gebied van het Huis, zie [ begonnen worden met Nieuw Huis ](../../workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 #### De tijd van het logboek op een het werkpunt van het nieuwe gebied van het Huis
 

@@ -6,14 +6,16 @@ description: De toegang tot van  [!DNL Workfront]  door Adobe Experience Cloud g
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: e6688408c3316a3f99fdb051adeb306f359057d1
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Unified Experience] for [!DNL Workfront]
+
+<!--Audited: 10/2024-->
 
 Als u [!DNL Workfront] tot en met [!DNL Adobe Experience Cloud] opent, hebt u een naadloze, uniforme ervaring voor het beheer van al uw [!DNL Adobe] -toepassingen. Met Single Identity Management kunt u zich op één locatie aanmelden, zonder meerdere URL&#39;s of aanmeldings-id&#39;s.
 
@@ -25,6 +27,8 @@ Als uw organisatie op de Adobe Verenigde Ervaring is, begint URL die u gebruikt 
 | experience.adobe.com | Adobe Unified Experience |
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -38,23 +42,26 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
-   <td> <p>[!UICONTROL Request] of hoger</p> </td> 
+   <td> <p>Nieuw: [!UICONTROL Contributor] of hoger</p> 
+   <p>Huidig: [!UICONTROL Request] of hoger</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
+*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vereisten
 
-De instantie van [!DNL Workfront] van uw organisatie moet zijn ingeschakeld bij de map [!DNL Adobe Business Platform] / [!DNL Adobe Admin Console] .
+De instantie van [!DNL Workfront] van uw organisatie moet aan [!DNL Adobe Business Platform] of [!DNL Adobe Admin Console] worden genegeerd.
 
 Als u vragen over het aan boord gaan aan [!DNL Adobe Admin Console] hebt, zie [[!DNL Adobe Unified Experience]  FAQ ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md/).
 
 ## Aanmelden bij [!DNL Adobe Experience Cloud]
 
 1. Open een browservenster en ga naar <https://experience.adobe.com> .
-1. Typ uw e-mailadres in het scherm [!UICONTROL Sign in] en klik op **[!UICONTROL Continue]** .
+1. Voor het [!UICONTROL **Teken binnen**] scherm, typ uw e-mailadres en klik **[!UICONTROL Continue]**.
 
    ![ Aanmelden bij [!DNL Adobe Experience Cloud]](assets/aec-login-page.png)
 

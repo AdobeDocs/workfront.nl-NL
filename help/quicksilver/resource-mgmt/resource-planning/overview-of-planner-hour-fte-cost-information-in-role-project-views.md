@@ -7,7 +7,7 @@ description: Overzicht van uren, FTE, en kosteninformatie in de mening van het P
 author: Lisa
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
 source-wordcount: '2977'
 ht-degree: 0%
@@ -329,7 +329,7 @@ Deze optie wordt toegepast slechts wanneer u de mening in de Vertoning geselecte
 
 >[!NOTE]
 >
->**wanneer de NETTO Uren, FTE, of vertoning van Kosten in rood, er niet genoeg Beschikbare tijd of begroting is om of de begrote** of de Geplande tijd of kosten verbonden aan het werk te behandelen. In dit geval worden de middelen oververdeeld.
+>Wanneer de NETTO Uren, VTE, of de vertoning van Kosten in rood, er niet genoeg Beschikbare tijd of begroting is om of de begrote of Geplande tijd of kosten verbonden aan het werk te behandelen. In dit geval worden de middelen oververdeeld.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(the table below is ideal but it does not transfer to Markdown)</p>

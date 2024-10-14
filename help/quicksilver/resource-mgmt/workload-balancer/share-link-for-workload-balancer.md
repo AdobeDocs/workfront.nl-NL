@@ -6,7 +6,7 @@ description: U kunt de werklastbalans delen met andere gebruikers die mogelijk n
 author: Lisa
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 0%
@@ -136,4 +136,4 @@ U hebt de volgende toegang nodig om informatie in het werklastevenwicht te bekij
 
      >[!IMPORTANT]
      >
-     >Wanneer u werklastbalans toevoegt aan de aangepaste sectie van een object, wordt de informatie in Workload Balancer niet gefilterd door het object. In Workload Balancer wordt de informatie weergegeven die door de oorspronkelijk toegepaste filters is gefilterd.
+     >Wanneer u werklastbalans toevoegt aan de aangepaste sectie van een object, wordt de informatie in Workload Balancer niet gefilterd door het object. In Workload Balancer wordt de informatie weergegeven die door de oorspronkelijk toegepaste filters is gefilterd.

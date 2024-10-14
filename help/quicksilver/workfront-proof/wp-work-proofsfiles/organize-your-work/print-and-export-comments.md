@@ -7,9 +7,9 @@ description: Het overzicht met opmerkingen is toegankelijk in Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 212d465c-5605-4bb9-af5a-cea377619cfe
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -30,13 +30,13 @@ U hebt rechtstreeks vanuit de volgende gebieden toegang tot het overzicht met op
 
 ### De Proefweergave {#the-proof-viewer}
 
-U kunt het overzicht met opmerkingen van de proefdruk, inclusief de miniaturen of de volledige weergave van de proefdruk, afdrukken door op het pictogram **[!UICONTROL Print]** in de Proefweergave te klikken. (1)
+U kunt het overzicht met opmerkingen van de proefdruk, inclusief de miniaturen of de volledige weergave van de proefdruk, afdrukken door op het pictogram **[!UICONTROL Print]** in de Proefweergave te klikken.
 
 ![ PV_print_all_comm.png ](assets/pv-print-all-comm-350x158.png)
 
 ### De pagina Proefgegevens {#the-proof-details-page}
 
-U kunt de samenvatting van de opmerkingen van de proefdruk afdrukken door op het pictogram **[!UICONTROL Print]** op de pagina Proefgegevens te klikken. (2)
+U kunt de samenvatting van de opmerkingen van de proefdruk afdrukken door op het pictogram **[!UICONTROL Print]** op de pagina Proefgegevens te klikken.
 
 ![ proof_details_page.png ](assets/proof-details-page-350x231.png)
 
@@ -46,17 +46,18 @@ U kunt het overzicht met opmerkingen van de proefdruk afdrukken door op het pict
 
 U kunt als volgt de pagina [!UICONTROL Comments Summary] openen vanuit een lijstweergave:
 
-1. Klik op het menu **[!UICONTROL Actions]** . (3)
-1. Selecteer **[!UICONTROL Print comments]** . (4)
+1. Klik op het menu **[!UICONTROL Actions]** .
+1. Selecteer **[!UICONTROL Print comments]** .
 
-![ List_view.png ](assets/list-view-350x155.png)\
-Op de overzichtspagina met opmerkingen kunt u uit de volgende afdrukopties kiezen:
+   ![ List_view.png ](assets/list-view-350x155.png)
 
-* Miniatuurweergave (1)
-* Volledige paginaweergave (2)
-* De pagina afdrukken (3)
-* De proefdruk met opmerkingen exporteren naar een PDF-bestand (4)
-* De proefdrukopmerkingen exporteren naar een [!DNL Excel] -bestand (5)
+   Op de overzichtspagina met opmerkingen kunt u uit de volgende afdrukopties kiezen:
+
+   * Miniatuurweergave (1)
+   * Volledige paginaweergave (2)
+   * De pagina afdrukken (3)
+   * De proefdruk met opmerkingen exporteren naar een PDF-bestand (4)
+   * De proefdrukopmerkingen exporteren naar een [!DNL Excel] -bestand (5)
 
 ![ PV_thumb_full_option_callouts.png ](assets/pv-thumb-full-option-callouts-350x154.png)
 
@@ -89,7 +90,8 @@ U kunt als volgt het [!DNL Excel] -overzicht downloaden:
 U kunt als volgt het overzicht van [!DNL Excel] downloaden van de pagina Proefgegevens:
 
 1. Klik op het pictogram Naar **[!DNL Excel]** exporteren. (2)
-1. ![ Export_to_excel.png ](assets/export-to-excel-350x185.png)
+
+   ![ Export_to_excel.png ](assets/export-to-excel-350x185.png)
 
 ## Exporteren naar PDF
 
