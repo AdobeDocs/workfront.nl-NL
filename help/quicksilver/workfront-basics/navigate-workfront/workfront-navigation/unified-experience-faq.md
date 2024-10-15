@@ -6,9 +6,9 @@ description: Enkele eigenschappen zijn verschillend tussen  [!DNL Workfront]  en
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: be60ec38495a7c25d88e325cf4ba96decf083ea3
+source-git-commit: d4ae54f14c2328888ce80902275b0d390fb4fbb7
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1346'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,7 @@ In deze tabel worden enkele functies beschreven die verschillen tussen de twee e
 | De proefdrukviewer wordt geopend op een nieuw tabblad | De proefdrukviewer wordt geopend in Workfront |
 | URL voor toegang tot Workfront is `experience.adobe.com` | URL voor toegang tot Workfront is `(CompanyName).my.workfront.com` |
 | Datumnotatie (zoals MM/DD/JJJJ) is gebaseerd op de taalinstellingen voor Unified Experience. Als de gebruiker zijn taalinstellingen niet heeft bijgewerkt, worden `en-US` -instellingen gebruikt. | De datumnotatie (zoals DD-MM-JJJJ) is gebaseerd op de browservoorkeuren |
+| De integratie met JumpSeat wordt niet ondersteund | De integratie met Jumpseats wordt ondersteund |
 
 {style="table-layout:auto"}
 

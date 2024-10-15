@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion vereist naast een Adobe Workfront-licentie e
 author: Becky
 feature: Workfront Fusion
 exl-id: f6295cc7-367f-4c8b-891b-cc11ff42a225
-source-git-commit: 55a4fda46f6d314c71d9ef98864b21b84f946b09
+source-git-commit: d4ae54f14c2328888ce80902275b0d390fb4fbb7
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,28 @@ ht-degree: 0%
 >[!DNL Adobe Workfront Fusion] vereist een [!DNL Adobe Workfront Fusion] licentie naast een [!DNL Adobe Workfront license] .
 
 Als uw firewall of postserver wordt gevormd om toegang tot slechts bepaalde verkopers toe te staan, moet u bepaalde IP adressen aan zijn lijst van gewenste personen toevoegen om open communicatie tussen uw milieu en [!DNL Adobe Workfront Fusion] toe te staan.
+
+## Identificeer uw datacenter
+
+De IP adressen variëren gebaseerd op waar uw gegevens worden opgeslagen.
+
+Als u via een URL toegang hebt tot Fusion, kunt u de URL onderzoeken om uw datacenter te zoeken.
+
+| URL | Datacenter |
+| --- | --- |
+| `https://app.workfrontfusion.com/` | VS-datacenter |
+| `https://app-eu.workfrontfusion.com/` | EU-datacenter |
+| `https://app-az.workfrontfusion.com/` | Azure-datacenter |
+
+Als u tot Fusion door experience.adobe.com toegang hebt, kunt u het netwerklusje in uw browser controleren om datacenter te identificeren.
+
+| URL | Datacenter |
+| --- | --- |
+| Oproepen aan `https://fusion.adobe.com` | VS-datacenter |
+| Oproepen aan `https://eu.fusion.adobe.com` | EU-datacenter |
+| Oproepen aan `https://az.fusion.adobe.com` | Azure-datacenter |
+
+## IP-adressen voor Workfront Fusion
 
 Voeg de volgende IP adressen aan uw lijst van gewenste personen toe om [!DNL Workfront Fusion] toe te laten om tot uw systeem toegang te hebben.
 
