@@ -6,9 +6,9 @@ description: Wanneer u  [!DNL Jira]  kwesties met  [!DNL Adobe Workfront]  taken
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 79ac6ff1-2f7d-4abc-8735-398f6aac5191
-source-git-commit: e01f5eaf3133fa1bdaedf4dad56e9a8175b70667
+source-git-commit: 99924f690c53584c090d19fff90d23d84ec306d4
 workflow-type: tm+mt
-source-wordcount: '1399'
+source-wordcount: '1405'
 ht-degree: 0%
 
 ---
@@ -122,7 +122,7 @@ In de volgende lijst wordt aangegeven welke [!DNL Workfront] -velden worden gesy
   </tr> 
   <tr> 
    <td>[!UICONTROL Comments]</td> 
-   <td> <p>De opmerking wordt toegevoegd aan het tabblad <strong>[!DNL Workfront]</strong> van de [!DNL Jira] -uitgave. Het wordt niet toegevoegd aan het tabblad <strong>[!UICONTROL Comments]</strong> van het [!DNL Jira] -probleem</p> <p>Opmerking: wanneer u twee bestaande items handmatig koppelt, worden de opmerkingen die aan het [!DNL Workfront] -item zijn toegevoegd voordat u het item koppelt aan [!DNL Jira] , niet gesynchroniseerd met het [!DNL Jira] -probleem. </p> </td> 
+   <td> <p>De opmerking wordt toegevoegd aan het tabblad <strong>[!DNL Workfront]</strong> van de [!DNL Jira] -uitgave. Het wordt niet toegevoegd aan het tabblad <strong>[!UICONTROL Comments]</strong> van het [!DNL Jira] -probleem</p> <p>Opmerking: wanneer u twee bestaande items handmatig koppelt, worden de opmerkingen die aan het [!DNL Workfront] -item zijn toegevoegd voordat u het item koppelt aan [!DNL Jira] , niet gesynchroniseerd met het [!DNL Jira] -probleem. </p> <p>Jira-opmerkingen worden wel gesynchroniseerd met Workfront.</td> 
   </tr> 
  </tbody> 
 </table>

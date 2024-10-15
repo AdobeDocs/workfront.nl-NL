@@ -6,9 +6,9 @@ description: U kunt uw werk met uw inhoud in  [!DNL Experience Manager Assets] v
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 99924f690c53584c090d19fff90d23d84ec306d4
 workflow-type: tm+mt
-source-wordcount: '1637'
+source-wordcount: '1650'
 ht-degree: 0%
 
 ---
@@ -242,9 +242,11 @@ When this option is enabled, any asset that has been pushed to Adobe Experience 
 
 ## Workflows instellen (optioneel)
 
-Een werkstroom is een reeks acties die Workfront verbinden met Adobe Experience Manager as a Cloud Service. Als Workfront-beheerder kunt u workflows configureren in Workfront en deze vervolgens toewijzen aan projectsjablonen. Wanneer een Project wordt gecreeerd gebruikend een Malplaatje van het Project waaraan een werkschema wordt toegewezen, worden de acties die in het werkschema worden bepaald teweeggebracht.
+Een werkstroom is een reeks acties die Workfront verbinden met Adobe Experience Manager as a Cloud Service. Als Workfront-beheerder kunt u workflows configureren in Workfront en deze vervolgens toewijzen aan projectsjablonen.
 
-Workflows worden ingeschakeld en geconfigureerd voor de Adobe Experience Manager als geheel. Deze werkschema&#39;s kunnen dan op projectmalplaatjes worden toegepast, en op het malplaatje of projectniveau worden aangepast of worden aangepast.
+Wanneer een Project wordt gecreeerd gebruikend een Malplaatje van het Project waaraan een werkschema wordt toegewezen, worden de acties die in het werkschema worden bepaald teweeggebracht.
+
+Workflows worden ingeschakeld en geconfigureerd voor de Adobe Experience Manager als geheel. Deze werkschema&#39;s kunnen dan op projectmalplaatjes worden toegepast. Zij kunnen op het malplaatjeniveau, of op het projectniveau worden aangepast of worden aangepast wanneer een project van dat malplaatje wordt gecreeerd.
 
 De volgende workflows zijn beschikbaar in de Adobe Experience Manager-integratie:
 
