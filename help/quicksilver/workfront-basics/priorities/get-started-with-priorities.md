@@ -5,15 +5,15 @@ description: Prioriteiten zijn een gestroomlijnde, intuïtieve ervaring die is a
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
+source-git-commit: 00a1876e005f0f0c47bdebaab77bbcfe42318612
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '955'
 ht-degree: 0%
 
 ---
 
 
-# Aan de slag met prioriteiten
+# Aan de slag met [!DNL Priorities]
 
 Prioriteiten zijn een gestroomlijnde, intuïtieve ervaring die is afgestemd op taakeigenaars. Prioriteiten worden in fasen ingevoerd, te beginnen met de werklijst.
 
@@ -80,6 +80,10 @@ Zoek uw belangrijkste werk met filters. U kunt taken en kwesties filteren die aa
     <td>Status</td>
     <td>Hiermee geeft u taken of problemen in nieuwe, actieve en volledige status weer</td>
     </tr>
+     <tr>
+    <td>Mijn focus</td>
+    <td>Hiermee worden taken of problemen weergegeven waaraan focusniveaus zijn toegewezen. Focusniveaus worden toegewezen en beheerd door de individuele gebruiker.</td>
+    </tr>
   </tbody>
 </table>
 
@@ -88,11 +92,12 @@ Zoek uw belangrijkste werk met filters. U kunt taken en kwesties filteren die aa
 Nadat je werk hebt gefilterd, kun je objecten groeperen op
 
 * Geen
+* Mijn focus
 * Te betalen week
 * Status
 * Project
 
-<!--For more information, see [Find and organize your work in Priorities]().-->
+Voor meer informatie, zie [ Filter en groepeer uw werk in Prioriteiten ](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
 
 ### Prioriteit geven aan belangrijke werkitems met Mijn focus
 
@@ -105,7 +110,7 @@ Mijn focus is een kolom in de werklijst die u helpt bij het bepalen van de prior
 
 Zodra u nadrukniveaus aan uw het werkpunten hebt toegewezen, kunt u de kolom aan oppervlakte urgente punten bij de bovenkant van uw werklijst sorteren.
 
-<!--For more information, see [Prioritize important work items with My Focus]().-->
+Voor meer informatie, zie [ belangrijke het werkpunten ](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md) Prioriteit geven.
 
 ![](assets/my-focus-column.png)
 
@@ -133,7 +138,7 @@ Voeg een update van een taak of kwestie toe om uw vooruitgang aan anderen mee te
 
 In de sectie Updates worden systeemupdates weergegeven en maximaal 200 van de meest recente updates die gebruikers in de afgelopen 90 dagen hebben uitgevoerd.
 
-<!--For more information, see [Add and view updates in Priorities]().-->
+Voor meer informatie, zie [ commentaren in Prioriteiten toevoegen en bekijken ](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md).
 
 ![](assets/new-update.png)
 
@@ -141,7 +146,7 @@ In de sectie Updates worden systeemupdates weergegeven en maximaal 200 van de me
 
 U kunt tijd voor het werkpunten registreren om op het aantal uren te wijzen u het werken aan hen doorbrengt. U kunt tijd ook registreren die niet met het werk, zoals vakantie, zieke tijd, of tijd verwant is u in vergaderingen doorbrengt. De tijd u registreert toont in uw timesheet.
 
-<!--For more information, see [Log time in Priorities]().-->
+Voor meer informatie, zie [ tijd van het Logboek in Prioriteiten ](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md).
 
 ![](assets/log-time.png)
 
@@ -154,7 +159,7 @@ Upload bestanden rechtstreeks naar het gebied Documenten van de taak of uitgave,
 * Extra bestanden toevoegen
 * Bestanden importeren uit de integratie van verbonden documenten
 
-<!--For more information, see [Upload files in Priorities]().-->
+Voor meer informatie, zie [ dossiers in Prioriteiten ](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md) uploaden.
 
 ![](assets/upload-file.png)
 
@@ -170,7 +175,7 @@ U kunt veelgebruikte koppelingen insluiten in de detailpagina van het werkitem. 
 
 ![](assets/quick-links.png)
 
-<!--For more information, see [Add and manage quick links in Priorities]().-->
+Voor meer informatie, zie [ snelle verbindingen in Prioriteiten toevoegen en beheren ](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md).
 
 ### Herzie en keur activa [!BADGE  spoedig ] goed{type=Informative}
 
@@ -181,9 +186,9 @@ Voor nu, adviseren wij het gebruiken van Mijn goedkeuring en Alle widgets van Go
 Voor meer informatie, zie [ toevoegen, geef, of verwijder widgets in Nieuw Huis ](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md) uit.
 
 
-## Vangst van het gebruik me omhoog om te zien wat u [!BADGE  het missen spoedig ] komt{type=Informative}
+## Het gebruik [!DNL Catch me up] om te zien wat u [!BADGE  het Binnenkort komen ] miste{type=Informative}
 
-Met de functie Ophalen kunt u zien wat u hebt gemist. Vangst me omhoog zal updates, geüploade documenten, goedkeuringen, en andere opmerkelijke veranderingen over uw projecten binnen de volgende termijnen samenvatten: 24 uren, 3 dagen, 7 dagen.
+Met de functie [!DNL Catch me up] kunt u zien wat u hebt gemist. Vangst me omhoog zal updates, geüploade documenten, goedkeuringen, en andere opmerkelijke veranderingen over uw projecten binnen de volgende termijnen samenvatten: 24 uren, 3 dagen, 7 dagen.
 
 
 ![](assets/catch-me-up.png)

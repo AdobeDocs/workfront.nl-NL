@@ -5,9 +5,9 @@ description: Legacy Home wordt op 10/17 uit Workfront verwijderd met de Q4-relea
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: e63180a5d2b542f98c96ec5a2bd2fb0df078bb11
+source-git-commit: 00a1876e005f0f0c47bdebaab77bbcfe42318612
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ De de lijstmening van Prioriteiten toont taken en kwesties die aan u of uw team 
 
 | **Filter** | **Groepering** |
 |------------|-----------|
-| - Werken met <br> - Klaar om te starten <br> - Niet gereed <br> - Gevraagd <br> - Gereed <br> - Project <br> - Vervaldatum <br> - Status | - Geen <br> - Vervallen week <br> - Status <br> - Project |
+| - Werken met <br> - Klaar om <br> te starten - Niet gereed <br> - Gevraagd <br> - Gereed <br> - Project <br> - Vervaldatum <br> - Status <br> - Mijn focus | - Geen <br> - Mijn focus <br> - Beëindigde week <br> - Status <br> - Project |
 
 
 **het filter en groeperen van het Huis van de Oudheid opties niet beschikbaar in Prioriteiten**
