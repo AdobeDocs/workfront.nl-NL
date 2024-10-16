@@ -6,16 +6,14 @@ description: Hoewel er geen grens aan hoeveel gebruikers u in een middelpool kun
 author: Lisa
 feature: Resource Management
 exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: 854197fcb8c4d3a87e4d93fe2ae9e968a3254027
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
 
 # Gebruikers verwijderen uit bronnenpools
-
-{{preview-and-fast-release-Q424}}
 
 Hoewel er geen grens aan hoeveel gebruikers u in een middelpool kunt hebben, toont de lijst van gebruikers slechts de eerste 2000 die gebruikers, alfabetisch worden vermeld.
 
@@ -73,15 +71,10 @@ of\
    of\
    Begin de naam van een bedrijf, baanrol, team, of groep te typen, als u alle gebruikers verbonden aan die entiteiten wilt verwijderen.
 
-   <span class="preview"> beeld van de Steekproef in het milieu van de Voorproef:<span>
-
    ![ verwijdert gebruikers uit de Pool van het Middel ](assets/remove-users-from-resource-pool.png)
 
-   Voorbeeldafbeelding in de productieomgeving:
-   ![ Onderzoek in de Pool van het Middel ](assets/search-inside-new-resource-pool-350x314.png)
-
-1. Klik op het pictogram &#39;x&#39; op gebruikersniveau om een gebruiker uit de bronnenpool te verwijderen. Ze worden verwijderd uit alle lijsten waarin ze voorkomen.\
-   of\
-   Om alle gebruikers te verwijderen verbonden aan een baanrol, groep, team, of bedrijf, **verwijdert** bij de baanrol, de groep, het teamniveau, of het bedrijfsniveau. Dit verwijdert alle gebruikers verbonden aan die baanrol, groep, team, of bedrijf uit de Pool van het Middel.
+1. Klik op het X-pictogram op gebruikersniveau om een gebruiker uit de bronnenpool te verwijderen. Ze worden verwijderd uit alle lijsten waarin ze voorkomen.
+   <!--Or  
+   To remove all users associated with a job role, group, team, or company, click **Remove** at the job role, group, team level, or company level. This removes all the users associated with that job role, group, team, or company from the Resource Pool.-->
 
 1. Klik **sparen**.

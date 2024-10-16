@@ -6,9 +6,9 @@ description: Brongroepen zijn verzamelingen gebruikers die u helpen bronnen gema
 author: Lisa
 feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
-source-git-commit: 2f5e0b8ba4ec4f32ae0457a6a901a43d03389773
+source-git-commit: 854197fcb8c4d3a87e4d93fe2ae9e968a3254027
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -19,8 +19,6 @@ ht-degree: 0%
 >id="wf_resource_pools"
 >title="Brongroepen"
 >abstract="Een pool van het Middel is een inzameling van gebruikers die tezelfdertijd voor de voltooiing van een project nodig zijn. Nadat u een middelpool creeert, kunt u het met projecten en malplaatjes associëren."
-
-{{preview-and-fast-release-Q424}}
 
 Brongroepen zijn verzamelingen gebruikers die u helpen bronnen gemakkelijker te beheren in Adobe Workfront. Voor meer informatie over middelpools, zie [ overzicht van de pools van het Middel ](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
 
@@ -66,14 +64,10 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 {{step1-to-resourcing}}
 
 1. Klik **Pools van het Middel** in het linkerpaneel.
-
-   <span class="preview"> beeld van de Steekproef in het milieu van de Voorproef:</span>
-   <span class="preview">![ Pools van het Middel ](assets/list-of-resource-pools.png)</span>
-
-   Voorbeeldafbeelding in de productieomgeving:
-   ![ Pools van het Middel ](assets/resource-pools-tab-350x198.png)
-
 1. Klik **Nieuwe Pool van het Middel**.
+
+   ![ Pools van het Middel ](assets/list-of-resource-pools.png)
+
 1. Geef het volgende op:
 
    <table style="table-layout:auto">
@@ -108,11 +102,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    >
    >Er is geen limiet voor het aantal gebruikers dat u in een bronnenpool kunt hebben. Nochtans, adviseren wij niet teveel gebruikers aan een Pool van het Middel toe te voegen, aangezien het Beheer van het Middel een uitdaging anders zou kunnen worden. In de lijst met gebruikers worden alleen de eerste 2000 gebruikers in de bronnenpool weergegeven. Deze gebruikers worden in alfabetische volgorde weergegeven.
 
-   <span class="preview"> beeld van de Steekproef in het milieu van de Voorproef:</span>
-   <span class="preview">![ Gebruikers die aan de Pool van het Middel ](assets/users-in-resource-pool2.png)</span> worden toegevoegd
-
-   Voorbeeldafbeelding in de productieomgeving:
-   ![ Gebruikers die aan de Pool van het Middel ](assets/resource-pools-new---undo-button-for-teams-groups-etc-350x113.png) worden toegevoegd
+   ![ Gebruikers die aan de Pool van het Middel ](assets/users-in-resource-pool2.png) worden toegevoegd
 
 1. (Optioneel) Klik op het X-pictogram rechts van de naam van een gebruiker om een gebruiker te verwijderen. Voor meer informatie over het verwijderen van gebruikers uit een middelpool, zie [ gebruikers uit middelpools ](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md) verwijderen.
 1. (Facultatief) gebruik de **optie van het Onderzoek** om een gebruiker in de Pool van het Middel te vinden.

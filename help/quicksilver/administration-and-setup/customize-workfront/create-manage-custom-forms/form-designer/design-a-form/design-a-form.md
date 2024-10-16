@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: eee683edc36b33b74d67a9ffbcab9697826e3a86
+source-git-commit: 854197fcb8c4d3a87e4d93fe2ae9e968a3254027
 workflow-type: tm+mt
-source-wordcount: '5575'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Een formulier ontwerpen met de formulierontwerper
-
-{{highlighted-preview}}
 
 U kunt een aangepast formulier ontwerpen met de formulierontwerper. U kunt aangepaste formulieren aan verschillende Workfront-objecten koppelen om gegevens over die objecten vast te leggen.
 
@@ -92,7 +90,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 U kunt nieuwe of bestaande velden gebruiken bij het ontwerpen van uw aangepaste formulier.
 
-<span class="preview"> de vormen van de Douane zijn beperkt tot 500 gebieden. Een teller linksonder toont hoeveel gebieden op de vorm worden gebruikt, en het is altijd zichtbaar aangezien u binnen de vormontwerper scrolt.</span>
+Aangepaste formulieren zijn beperkt tot 500 velden. Een teller linksonder geeft aan hoeveel velden er op het formulier worden gebruikt. De teller is altijd zichtbaar wanneer u schuift in de formulierontwerper.
 
 ### Een bestaand veld of een bestaande widget opnieuw gebruiken die al in een ander aangepast formulier wordt gebruikt
 
