@@ -5,7 +5,7 @@ description: U kunt werkitems en documenten snel samenvatten met de functie Over
 author: Becky
 feature: Get Started with Workfront
 exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
-source-git-commit: bec1318d83938964697d76b83062ef11745802e3
+source-git-commit: bbe4ad6a8528e7d0e3a5f6f2b669c1b5d8d2e313
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
@@ -73,10 +73,10 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 De volgende gebieden hebben knopen die samenvattingen gebruikend AI Medewerker produceren:
 
-* Projectkoptekst: Projectoverzicht
-* Updates, gebied: Inhoud samenvatten
+* Projectkoptekst: Project samenvatten
+* Updates, gebied: opmerkingen samenvatten
 
-De knop Projectoverzicht of Inhoud samenvatten gebruiken:
+De knop Project samenvatten of Opmerkingen samenvatten gebruiken:
 
 1. Klik op de knop.
 
