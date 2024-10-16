@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '2116'
+source-wordcount: '2100'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 <!--do not use the snippet for IMPORTANT as it links to this article-->
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Voorproef voor alle klanten, of in het milieu van de Productie voor klanten die snelle versies toeliet.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken.</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview"> voor informatie over de huidige versie, zie [ Vierde Kwartaal 2023 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>-->
 
 >[!IMPORTANT]
 >
@@ -86,7 +86,9 @@ De volgende functies zijn momenteel beschikbaar in Workfront Planning:
 * Verbind verslagen die tot de zelfde werkruimte behoren
 * Verbind verslagen die tot verschillende werkruimten behoren
 * Connect Workfront-planningsrecords verbinden met Workfront-projecten, -programma&#39;s, -portfolio&#39;s, -bedrijven en -groepen
-* Connect Workfront Planning-records verbinden met Adobe Experience Manager-middelen
+* Connect Workfront Planning-records verbinden met Adobe Experience Manager-middelen\
+  U moet een Adobe Experience Manager Assets-licentie hebben en een integratie tussen AEM Assets en Workfront.
+Voor informatie, zie [ Adobe Workfront voor Experience Manager Assets en Assets Essentials: artikelindex ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md).
 * Opnamegegevens weergeven op het tabblad Details
 * Recordverbindingen weergeven op het tabblad Verbindingen
 * De lay-out van de pagina van een record aanpassen
@@ -95,7 +97,7 @@ De volgende functies zijn momenteel beschikbaar in Workfront Planning:
 * Weergaven openbaar delen met externe bronnen, zelfs met mensen die geen Workfront-gebruikers zijn
 * Weergaven dupliceren
 * Aanvragen verzenden om records te maken
-* De verslagdetails van de uitvoer aan Word <span class="preview"> en PDF.</span>
+* Exporteer recordgegevens naar Word en PDF.
 * Opmerkingen toevoegen aan records
 * In-app meldingen ontvangen
 * E-mailberichten ontvangen
@@ -108,7 +110,8 @@ De volgende functies zijn momenteel beschikbaar in Workfront Planning:
 * Workfront Planning Public API
 * Adobe Workfront-planningsmodules voor Adobe Workfront Fusion
 * Workfront Planning AI Assistant
-* Rapportering over planningsinformatie voor Workfront (Canvas-dashboard)
+* Rapportering over planningsinformatie voor Workfront
+U kunt op de informatie van de Planning rapporteren gebruikend het dashboard van het Canvas. Voor informatie, zie [ Overzicht van de Dashboards van het Canvas ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 
 <!--OLD: 
 
@@ -375,7 +378,7 @@ Voor een bijgewerkte lijst van vrijgegeven eigenschappen, zie [ de versieactivit
 
 ## Aanvullende bronnen voor Workfront Planning
 
-* [ Planning van Adobe Workfront: artikelindex ](/help/quicksilver/planning/planning-information.md): Een index met alle artikelen die documentatie over de Planning van Workfront bevatten, die door gebied van belang wordt gegroepeerd.
+* [ Planning van Adobe Workfront: artikelindex ](/help/quicksilver/planning/planning-information.md): Een index van alle artikelen die documentatie over de Planning van Workfront bevatten, die door gebied van belang wordt gegroepeerd.
 * [ de Planning AI van Adobe Workfront Hulpoverzicht ](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): Met de Medewerker van Workfront AI voor de Planning kunt u naar verslagen zoeken, of, verslagen tot stand brengen bijwerken en schrappen door bevelen te gebruiken en de medewerker het werk voor u te laten doen.
   <!--
     >[!NOTE]

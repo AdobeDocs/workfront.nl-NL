@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: '1237'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Voor informatie over het voorleggen van een verzoek aan een verslagtype om een v
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto">
  <col>

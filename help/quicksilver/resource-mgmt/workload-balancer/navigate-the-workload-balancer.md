@@ -6,9 +6,9 @@ description: Gebruik de werklastbalans om de beschikbaarheid van uw bronnen te b
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '4068'
+source-wordcount: '4067'
 ht-degree: 0%
 
 ---
@@ -323,7 +323,7 @@ In het gedeelte Niet toegewezen werk worden standaard geen werkitems weergegeven
 
      >[!TIP]
      >
-     >Als uw Workfront- of groepsbeheerder delegaties in uw omgeving heeft ingeschakeld, gebruikt u het tabblad Toewijzingen om gebruikers toe te wijzen aan de taak of uitgave. Voor informatie over het delegeren van het werk, zie [ taak beheren en de delegatie van de kwestie ](../../manage-work/delegate-work/how-to-delegate-work.md).
+     >Als uw Workfront- of groepsbeheerder delegaties in uw omgeving heeft ingeschakeld, gebruikt u het tabblad Toewijzingen om gebruikers toe te wijzen aan de taak of uitgave. Voor informatie over het delegeren van het werk, zie [ de taken en kwesties van de Afgevaardigde ](../../manage-work/delegate-work/how-to-delegate-work.md).
 
    * **geeft toewijzingen** uit, dan geef de dagelijkse of wekelijkse toewijzingen voor de gebruiker uit. Voor informatie over het beheren van gebruikerstoewijzingen, zie [ gebruikerstoewijzingen in de Balancer van de Werklast beheren ](../workload-balancer/manage-user-allocations-workload-balancer.md).
 

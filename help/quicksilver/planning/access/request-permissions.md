@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '614'
 ht-degree: 0%
 
 ---
-
 
 # Machtigingen aanvragen voor een weergave of werkruimte
 
@@ -38,7 +38,7 @@ Zie de volgende artikelen voor informatie over het verlenen van machtigingen aan
 
 +++ Breid uit om toegangsvereisten voor de Planning van Workfront te bekijken.
 
-U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -131,5 +131,3 @@ Wanneer iemand met u een koppeling deelt naar een werkruimte of een weergave waa
      ![](assets/email-notification-for-access-request.png)
 
 1. (Voorwaardelijk) Wanneer de weergave of werkruimtenmanager u machtigingen verleent aan de weergave of werkruimte, ontvangt u een e-mailmelding en een melding in de app met een bevestiging dat de machtiging is verleend. <!--check this - I was not able to test this, but Isk confirmed.-->
-
-

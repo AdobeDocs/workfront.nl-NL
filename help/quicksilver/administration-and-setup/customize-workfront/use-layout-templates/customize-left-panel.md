@@ -8,14 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '774'
 ht-degree: 0%
 
 ---
 
 # Het linkerdeelvenster aanpassen met een lay-outsjabloon
+
+<!--Audited: 10/2024-->
 
 In een lay-outsjabloon kunt u aanpassen wat gebruikers in het linkerdeelvenstergebied in [!DNL Adobe Workfront] zien.
 
@@ -68,26 +70,19 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
 ## Pas het linkerdeelvenster aan voor een gebied in [!DNL Workfront] :
 
 1. Begin werkend aan een lay-outmalplaatje, zoals die in [ wordt beschreven creeer en beheer lay-outmalplaatjes ](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Klik op de pijl-omlaag ![](assets/dropdown-arrow.png) onder **[!UICONTROL Customize what users see]** en klik vervolgens op het linkerdeelvenster dat u wilt aanpassen.
+1. Klik op de pijl-omlaag ![](assets/dropdown-arrow.png) onder **[!UICONTROL Customize what users see]** en klik vervolgens op de naam van een objecttype of een [!DNL Workfront] -gebied waarvan u het linkerdeelvenster wilt aanpassen.
 
-   >[!NOTE]
-   >
-   >Voor informatie over de [!UICONTROL Home] optie in deze drop-down lijst, zie [ aanpassen [!UICONTROL Home] en [!UICONTROL Summary] gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md). Voor informatie over de optie van Lijsten, zie [ Filters, Mening, en Groepen aanpassen gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+   De objecttypen en [!DNL Workfront] -gebieden waarvan u het linkerdeelvenster kunt aanpassen, worden in de volgende tabel weergegeven:
 
-1. Voer in de lijst **[!UICONTROL Left panel]** een van de volgende handelingen uit om te bepalen wat gebruikers in het linkerdeelvenster zien voor de optie ([!DNL Workfront] gebied of objecttype) die u hebt geselecteerd:
-
-   * ![](assets/add-secondary-nav-item.png) items tonen of verbergen ![](assets/delete-secondary-nav-item.png) . Een item zonder ![](assets/add-secondary-nav-item.png) of ![](assets/delete-secondary-nav-item.png) kan niet worden verborgen.
-
-   * Sleep items ![](assets/move-icon---dots.png) om de volgorde in het linkerdeelvenster te wijzigen.
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <col> 
     <thead> 
      <tr> 
-      <th>Optie</th> 
+      <th>Objecttype of [!DNL Workfront] -gebied</th> 
       <th>Wanneer gebruikers op het volgende klikken...</th> 
-      <th>De linkerdeelvensteritems die u kiest, worden als volgt weergegeven:</th> 
+      <th>Secties in het linkerdeelvenster die gebruikers zien nadat u ze in de lay-outsjabloon weergeeft:</th> 
      </tr> 
     </thead> 
     <tbody> 
@@ -206,24 +201,38 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
 
    *Uw bedrijf moet een extra licentie voor Workfront Planning aanschaffen om dit gebied toe te voegen aan het linkerdeelvenster met projecten, portfolio&#39;s en programma&#39;s. Voor meer informatie, zie [ het Overzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md)
 
+
+1. Voer in de lijst **[!UICONTROL Left panel]** een van de volgende handelingen uit om te bepalen welke gebruikers in het linkerdeelvenster zien voor het [!DNL Workfront] -gebied of objecttype dat u hebt geselecteerd:
+
+   * Klik **tonen** ![](assets/add-secondary-nav-item.png) of **verbergen** ![](assets/delete-secondary-nav-item.png) pictogrammen om secties in het linkerpaneel te tonen of te verbergen. U kunt geen punten verbergen die a **hebben tonen** of **** pictogram verbergen.
+
+   * Sleep items ![](assets/move-icon---dots.png) om de volgorde in het linkerdeelvenster te wijzigen.
+
    >[!NOTE]
    >
-   >De laatste 3 items in de vervolgkeuzelijst **[!UICONTROL Customize what users see]** ( [!UICONTROL Lists] , [!UICONTROL Home and Summary] en [!UICONTROL Branding] ) zijn bedoeld voor het configureren van andere gebieden dan het linkerdeelvenster. Raadpleeg de volgende artikelen voor meer informatie over deze artikelen:
+   >De volgende items in de vervolgkeuzelijst **[!UICONTROL Customize what users see]** verwijzen naar andere gebieden dan het linkerdeelvenster:
+   >* [!UICONTROL Lists]
+   >* [!UICONTROL Summary panel]
+   >* [!UICONTROL Home]
+   >* [!UICONTROL Branding]
+   > 
+   >Raadpleeg de volgende artikelen voor informatie over het aanpassen van de extra gebieden:
    >
    >* [ pas Filters, Weergaven, en Groepen aan gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-   >* [ pas [!UICONTROL Home] aan en [!UICONTROL Summary] gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   >* [ pas [!UICONTROL Summary panel] aan gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   >* [ pas Huis aan gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
    >* [ Adobe van het Merk  [!DNL Workfront]  gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
 1. (Optioneel) Als u een item uit het linkerdeelvenster wilt toevoegen dat is gekoppeld aan een van de dashboards van uw organisatie, klikt u op **[!UICONTROL Add custom section]** , typt u een **[!UICONTROL Custom section title]** voor het item en voegt u het dashboard toe.
 
-   De dashboarditems worden onder in het linkerdeelvenster weergegeven. Gebruikers zien de titel van de sectie Aangepast die u typt naast het dashboarditem wanneer ze de muisaanwijzer op het linkerdeelvenster plaatsen.
+   De dashboarditems worden onder in het linkerdeelvenster weergegeven. Gebruikers zien de titel van de sectie Aangepast die u typt naast het dashboarditem wanneer ze de muisaanwijzer boven het item in het linkerdeelvenster plaatsen.
 
    >[!NOTE]
    >
-   >Gebruikers kunnen aangepaste dashboarditems aan hun linkerdeelvenster toevoegen. Wanneer u aangepaste dashboarditems toevoegt aan een lay-outsjabloon, worden de items samengevoegd met de bijbehorende items zonder ze te overschrijven of opnieuw in te stellen. Dit geldt ook als u gebruikers toewijst aan een nieuwe lay-outsjabloon met aangepaste dashboarditems. Voor informatie over hoe de gebruikers het linkerpaneel kunnen aanpassen, zie [ douanetabellen of secties ](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) creëren.
-
-   Voor informatie over dashboards, zie [ dashboards ](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
+   >Gebruikers kunnen aangepaste dashboarditems aan hun linkerdeelvenster toevoegen. Wanneer u aangepaste dashboarditems toevoegt aan een lay-outsjabloon, worden de items naast de items weergegeven die ze toevoegen, zonder ze te overschrijven of opnieuw in te stellen. Dit geldt ook als u gebruikers toewijst aan een nieuwe lay-outsjabloon met aangepaste dashboarditems. Voor informatie over hoe de gebruikers het linkerpaneel kunnen aanpassen, zie [ douanetabellen of secties ](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) creëren.
+   >
+   >Voor informatie over dashboards, zie [ dashboards ](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
 
 1. Blijf het lay-outmalplaatje aanpassen.
 
@@ -233,4 +242,4 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
 
    >[!TIP]
    >
-   >U kunt op elk gewenst moment op [!UICONTROL Save] klikken om de voortgang op te slaan en de sjabloon later blijven wijzigen.
+   >U kunt [!UICONTROL **klikken sparen**] op elk ogenblik om uw vooruitgang te bewaren, die de redacteur van het lay-outmalplaatje sluit, dan het malplaatje later blijven wijzigen.

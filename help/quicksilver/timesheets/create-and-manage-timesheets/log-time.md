@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '3828'
+source-wordcount: '3648'
 ht-degree: 0%
 
 ---
@@ -46,9 +46,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren en 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Nieuw: </p>
-   <p>Licht of hoger om uren op een project, een taak, een kwestie, of Algemene Uren op een timesheet te registreren</p>
+   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td> <p>Nieuw: Licht of hoger om uren op een project, een taak, een kwestie, of Algemene Uren op een timesheet te registreren</p>
    <p>Huidige: 
    <ul><li>Controle of hoger aan logboek Algemene Uren in een timesheet</li>
    <li>Werk of hoger om uren aan een project, een taak of een kwestie te registreren</li></ul> </td> 
@@ -64,7 +63,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren en 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -338,15 +337,15 @@ U kunt project-specifieke tijd in Huis registreren.
 Voor algemene informatie over het gebruiken van het gebied van het Huis, zie [ Gebruik het gebied van het Huis ](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
 
 
-#### De tijd van het logboek op een het werkpunt van het nieuwe gebied van het Huis
+<!--#### Log time on a work item from the new Home area-->
 
 U kunt de tijd aan taken en kwesties in om het even welke widgets registreren gebruikend het Summiere paneel in het gebied van het Huis. Voor informatie, zie de [ Summiere paneel ](#summary-panel) sectie in dit artikel.
 
 Daarnaast kunt u als volgt de tijd vastleggen voor een item in de widget Mijn werk:
 
-1. Ik heb aan het **1} gebied van het Huis {.**
+1. Ga naar het **Begin** gebied.
 1. Voeg **Mijn werk** widget aan uw Huis toe.
-1. (Facultatief) selecteer een taak, kwestie, of verzoek in een lijst, dan klik **Werk op het**
+1. (Facultatief) selecteer een taak, kwestie, of verzoek in een lijst, dan klik **Werk op het**.
 1. Beweeg over de taak of de kwestie u tijd voor wilt registreren, dan het **pictogram ![](assets/log-time-icon-in-new-home.png) van de Tijd van het Logboek** {aan het recht van de taakinformatie klikken.
 
    ![](assets/log-time-ui-for-task-from-new-home.png)
@@ -355,19 +354,19 @@ Daarnaast kunt u als volgt de tijd vastleggen voor een item in de widget Mijn we
 
    De geregistreerde tijdvertoningen in de sectie van de Uren van de objecten, en in uw timesheet.
 
-#### De tijd van het logboek op een het werkpunt van het erfenisHuis
+<!--#### Log time on a work item from the legacy Home area
 
-1. In het **gebied van de Lijst van het Werk**, selecteer het punt waar u tijd wilt registreren.
-1. In het juiste paneel, klik **Tijd van het Logboek**.
+1. In the **Work List** area, select the item where you want to log time.
+1. In the right panel, click **Log Time**.  
+  
+   ![](assets/log-time-home-350x181.png)  
 
-   ![](assets/log-time-home-350x181.png)
+1. In the **Enter Hours** drop-down menu, select the appropriate hour type.  
+   Hour types are available depending on what has been defined at the system, project, and user levels, as described in [Define hour types and availability](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+1. (Conditional) If your Workfront or group administrator has enabled the **Assign job roles to hour entries manually** setting, select a job role from the drop-down menu. The role specified when you are assigned to the work item displays by default. If you are not assigned a role on the object, your Primary Role displays as the default. For more information on this setting, see the article [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+1. Specify the time you want to log, then click **Log Time**.
 
-1. In **ga Uren** drop-down menu in, selecteer het aangewezen uurtype.\
-   De types van uren zijn beschikbaar afhankelijk van wat bij het systeem, het project, en gebruikersniveaus is bepaald, zoals die in [ worden beschreven bepaalt uurtypes en beschikbaarheid ](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
-1. (Voorwaardelijk) als uw Workfront of groepsbeheerder **heeft toegelaten wijs baanrollen aan uuringangen manueel toe** plaatsen, selecteer een baanrol van het drop-down menu. De rol die wordt gespecificeerd wanneer u aan de het werkpuntvertoningen door gebrek wordt toegewezen. Als u geen rol op het voorwerp wordt toegewezen, toont uw Primaire Rol als gebrek. Voor meer informatie over dit plaatsen, zie het artikel [ timesheet en uurvoorkeur ](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen.
-1. Specificeer de tijd u wilt registreren, dan klik **Tijd van het Logboek**.
-
-   De geregistreerde tijdvertoningen in de sectie van de Uren van de objecten, en in uw timesheet.
+   The logged time displays in the object's Hours section, nad in your timesheet. -->
 
 ### Project, taak of uitgave {#project-task-or-issue}
 

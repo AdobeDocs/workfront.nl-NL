@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '2637'
+source-wordcount: '2638'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Voor informatie over verslagmeningen, zie [ verslagmeningen ](/help/quicksilver/
 
 +++ Breid uit om toegangsvereisten voor de Planning van Workfront te bekijken.
 
-U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
 <col> 

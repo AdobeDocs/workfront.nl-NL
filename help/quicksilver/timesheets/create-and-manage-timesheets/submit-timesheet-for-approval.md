@@ -6,9 +6,9 @@ description: Door uw tijdspagina ter goedkeuring in te dienen, krijgt uw manager
 author: Alina
 feature: Timesheets
 exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '855'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td role="rowheader">Adobe Workfront-licentie*</td> 
    <td> <p>Nieuw: Licht of hoger </p>
    <p>Huidig: Controleren of hoger </p>
   </tr> 
@@ -49,7 +49,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -72,7 +72,7 @@ Een tijdschema ter goedkeuring indienen:
 
    **voorlegt voor goedkeuring** knoop wordt vervangen door **goedkeuren**, **Afwijzen**, en **Recall** knopen. Het statuut van timesheet verandert in **Voorgelegd**.
 
-   Wanneer uw timesheet voor goedkeuring wordt voorgelegd, ziet de fiatteur timesheet dat in het **wordt vermeld goedkeurt** gebied op de **3} pagina van het Huis.** De volgende dingen kunnen zich voordoen:
+   Wanneer uw timesheet voor goedkeuring wordt voorgelegd, ziet de fiatteur timesheet dat in **wordt vermeld Mijn goedkeurt** widget in het **3} gebied van het Huis.** De volgende dingen kunnen zich voordoen:
 
    * Als zij het goedkeuren, verandert de **Herinnerde** knoop in **heropenen** en de updates van de timesheet status aan **Open**.
    * Als zij het verwerpen, **voorlegt voor goedkeuring** knoop vervangt de **Recall** knoop en de updates van de timesheet status aan **Verworpen**.

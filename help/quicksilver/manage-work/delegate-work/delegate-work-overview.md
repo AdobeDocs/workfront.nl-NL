@@ -7,9 +7,9 @@ description: Wanneer u van plan bent om voor een korte periode uit het bureau te
 author: Lisa
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
-source-git-commit: 70e20df7c9738f33496e37b31b6e11caf0ac2f0f
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
@@ -30,13 +30,18 @@ U kunt de volgende objecten delegeren in [!DNL Adobe Workfront] :
 * Aan u toegewezen problemen
 * Goedkeuringen voor projecten, taken of uitgaven die aan u zijn toegewezen.
 
-Dit artikel bevat algemene informatie over het delegeren van taken en kwesties.
+  >[!TIP]
+  >
+  >   U kunt geen timesheet-, document- of proefdrukgoedkeuringen delegeren.
+
+
+Dit artikel bevat algemene informatie over het delegeren van taken en kwesties die aan u worden toegewezen.
 
 Voor informatie over het delegeren van project, taak, en geeft goedkeuringen uit, zie [ de goedkeuringsverzoek van de Afgevaardigde ](../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 
 Voor informatie over hoe te om taken en kwesties te delegeren, zie [ de taken en kwesties van de Afgevaardigde ](../../manage-work/delegate-work/how-to-delegate-work.md).
 
-## Overzicht van werkzaamheden delegeren
+## Overzicht van taken en problemen delegeren
 
 Overweeg het volgende wanneer u taken en kwesties delegeert:
 
@@ -62,7 +67,7 @@ Overweeg het volgende wanneer u taken en kwesties delegeert:
 * Als extra taken en kwesties aan u tijdens de tijd worden toegewezen u hebt geselecteerd om uw werk aan andere gebruikers te laten afgevaardigen, wordt het nieuwe toegewezen werk automatisch gedelegeerd aan de zelfde persoon voor het tijdkader u selecteerde als de taak of de uitgiftedata binnen dat tijdkader zijn.
 * De zelfde gebruiker kan als afgevaardigde door veelvoudige gebruikers worden geselecteerd.
 * Gedelegeerde taken en uitgaven worden niet weergegeven in hulpmiddelen voor resourcebeheer, zoals de [!UICONTROL Workload Balancer] of de [!UICONTROL Resource Planner] voor gedelegeerde gebruikers.
-* U kunt gedelegeerde werk en gedelegeerde namen bekijken in verschillende gebieden van [!DNL Workfront] . Voor meer informatie, zie de sectie &quot;van de plaats de plaats bepalen van gedelegeerd werk en van afgevaardigden informatie&quot;in artikel [ de taak van het leiden en de delegatie van de kwestie ](../delegate-work/how-to-delegate-work.md).
+* U kunt gedelegeerde werk en gedelegeerde namen bekijken in verschillende gebieden van [!DNL Workfront] . Voor meer informatie, zie de sectie &quot;van de plaats bepalen van gedelegeerd werk en van afgevaardigden informatie&quot;in het artikel [ de taken en de kwesties van de Afgevaardigde ](../delegate-work/how-to-delegate-work.md).
 
 
   >[!IMPORTANT]

@@ -6,20 +6,20 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '480'
 ht-degree: 0%
 
 ---
 
 # De details van een record exporteren
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Voorproef voor alle klanten, of in het milieu van de Productie voor klanten die snelle versies toeliet.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken.</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview"> voor informatie over de huidige versie, zie [ Vierde Kwartaal 2023 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>-->
 
 
 Als u efficiënter wilt samenwerken met anderen die mogelijk geen Workfront-account hebben, kunt u de gegevens van een record exporteren naar een bestand en deze delen met hen.
@@ -28,7 +28,7 @@ Als u efficiënter wilt samenwerken met anderen die mogelijk geen Workfront-acco
 
 +++ Breid uit om toegangsvereisten voor de Planning van Workfront te bekijken.
 
-U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -156,7 +156,7 @@ U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
 * U kunt de details van een record exporteren naar de volgende bestandsindelingen:
 
    * .docx Word
-   * <span class="preview">.pdf</span>
+   * .pdf
 
 * U kunt het tabblad Details van de recordpagina exporteren. U kunt het tabblad Verbindingen niet exporteren.
 
@@ -184,9 +184,9 @@ De recordtypepagina wordt geopend en alle records van dat type worden weergegeve
 1. Klik het **pictogram van de Uitvoer** ![](assets/export-icon-in-record-details-page.png) of in de voorproef of de pagina van het verslag, dan klik één van het volgende:
 
    * **Word van Microsoft**
-   * <span class="preview">**Adobe PDF**</span>
+   * **Adobe PDF**
 
-   Een Word (.docx) <span class="preview"> of een PDF </span> dossier downloadt en aan uw computer bewaard.
+   Een Word- (.docx) of een PDF-bestand wordt gedownload en opgeslagen op uw computer.
 
    De naam van het geëxporteerde bestand is het primaire veld van de record.
 
@@ -194,7 +194,7 @@ De recordtypepagina wordt geopend en alle records van dat type worden weergegeve
 
    >[!NOTE]
    >
-   >    Aanvullende informatie die niet op de pagina wordt weergegeven en alleen zichtbaar is nadat u op Meer tonen op het tabblad Details hebt geklikt, wordt niet weergegeven in het geëxporteerde PDF-bestand. Alleen de informatie die op de pagina zichtbaar is, wordt weergegeven in het geëxporteerde bestand.
+   >    Aanvullende informatie die niet op de pagina wordt weergegeven en alleen zichtbaar is als u op Meer weergeven in het gebied met recorddetails klikt, wordt niet weergegeven in het geëxporteerde PDF-bestand. Alleen de informatie die op de pagina zichtbaar is, wordt weergegeven in het geëxporteerde bestand.
 
 
 1. (Optioneel) Ga naar het gedownloade bestand, open het en bewerk het bestand (als het een Word-bestand is) of deel het met anderen.

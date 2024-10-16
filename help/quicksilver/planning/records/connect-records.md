@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '2713'
+source-wordcount: '2793'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ U kunt het volgende verbinden:
 
 +++ Breid uit om toegangsvereisten voor de Planning van Workfront te bekijken.
 
-U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -70,7 +70,12 @@ U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
    <p> Producten</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+   <li><p> Adobe Workfront Planning<p></li>
+   <li><p>Adobe Experience Manager Assets, als u AEM elementen wilt koppelen aan planningsrecords<p>
+   <p>U moet een Adobe Experience Manager Assets-licentie hebben en een integratie tussen AEM Assets en Workfront.
+    Voor informatie, zie <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md"> Adobe Workfront voor Experience Manager Assets en Assets Essentials: artikelindex </a>. </p>
+   </li>  
+   </ul></td> 
   </tr>   
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-abonnement*</p></td> 
@@ -146,7 +151,7 @@ U kunt verslagen van de Planning van Workfront op de volgende gebieden van een v
 * De voorvertoning of pagina van de record in de verbonden recordvelden op het tabblad Details.
 * De voorvertoning of pagina van de record op het tabblad Verbindingen.
 
-### Connect Adobe Workfront Planning-records vanuit de tabelweergave of het tabblad Details van de recordpagina
+### Connect Adobe Workfront Planning-records vanuit de tabelweergave of het gebied Details
 
 {{step1-to-planning}}
 
@@ -164,6 +169,11 @@ U kunt verslagen van de Planning van Workfront op de volgende gebieden van een v
 
    * Klik in de lijst op de naam van een verbonden record om deze aan de geselecteerde record toe te voegen. De record wordt automatisch toegevoegd.
    * Typ de naam van een record en klik erop wanneer deze in de lijst wordt weergegeven. De record wordt automatisch toegevoegd.
+
+   >[!TIP]
+   >
+   >    Als alleen de afbeelding van de record is geselecteerd om te worden weergegeven wanneer de recordtypen zijn verbonden, wordt alleen de miniatuur of het pictogram van de record weergegeven in het verbonden veld. Voor meer informatie, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
+
 
 1. (Optioneel) Als u een record of een object dat u wilt verbinden niet kunt vinden en u wilt deze toevoegen, klikt u op **+ Toevoegen** om een nieuwe record toe te voegen. Voor meer informatie, zie de sectie &quot;verslagen creëren aangezien u hen&quot;in artikel [ verbindt creeert verslagen ](/help/quicksilver/planning/records/create-records.md).
 

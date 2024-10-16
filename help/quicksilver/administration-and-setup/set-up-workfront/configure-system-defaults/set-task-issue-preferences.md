@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '1743'
+source-wordcount: '1771'
 ht-degree: 0%
 
 ---
@@ -193,15 +193,22 @@ Als u de instelling **[!UICONTROL Allow users to delegate their tasks & issues]*
 
 Wanneer deze instelling is ingeschakeld, kunnen gebruikers het volgende zien:
 
-* De koppeling [!UICONTROL Delegate] in het bijbehorende [!UICONTROL Home] -gebied. Zij kunnen goedkeuringen delegeren, of taak en taken van hier uitgeven.
+* De [!UICONTROL **Afgevaardigde**] verbinding in hun [!UICONTROL My Work], [!UICONTROL My Tasks], of [!UICONTROL My Issues] widgets in het [!UICONTROL Home] gebied. Zij kunnen taak delegeren en taken van daar uitgeven.
+
+  >[!NOTE]
+  >
+  >  De [!UICONTROL **toestemmingen van de Afgevaardigde**] verbinding wordt altijd toegelaten in het [!UICONTROL Home] gebied.
+
 * Een indicatie dat een taak of kwestie aan een andere gebruiker in het [!UICONTROL Assignments and delegations] gebied in de taak of uitgiftekopbal wordt gedelegeerd.
+* Een indicatie dat een taak of kwestie aan een andere gebruiker in hun [!UICONTROL My Work] widget in [!UICONTROL Home] wordt gedelegeerd.
 
   Als u de instelling [!UICONTROL Allow users to delegate their tasks & issues] uitschakelt, worden de delegaties die momenteel zijn gepland, gestopt en ontvangen de gedelegeerde gebruikers een e-mail met de melding dat de delegatie is gestopt.
 
 Raadpleeg de volgende artikelen voor informatie over het delegeren van werk aan anderen:
 
 * [Overzicht van werkzaamheden delegeren](../../../manage-work/delegate-work/delegate-work-overview.md)
-* [Taak beheren en taken delegeren](../../../manage-work/delegate-work/how-to-delegate-work.md)
+* [Taken en problemen delegeren](../../../manage-work/delegate-work/how-to-delegate-work.md)
+
 
 <!--
 <p><strong>Work On It</strong></p>

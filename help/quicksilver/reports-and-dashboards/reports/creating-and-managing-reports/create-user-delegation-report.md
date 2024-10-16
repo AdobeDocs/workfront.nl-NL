@@ -2,19 +2,21 @@
 product-area: reporting
 keywords: gebruiker,delegatie,rapport,afgevaardigde,goedkeuring
 navigation-topic: create-and-manage-reports
-title: Een gebruikersdelegatierapport maken
+title: Rapport gebruikersdelegatie maken
 description: Een gebruikersdelegatierapport maken
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c860574b-0488-499e-8d36-d0f3f85aac2d
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
 
 # Een gebruikersdelegatierapport maken
+
+<!--Audited: 10/2024-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider moving this to the Custom&nbsp;View, Filter, Grouping Samples section as an example of a report)</p>
@@ -39,6 +41,8 @@ Meer leren over het delegeren van goedkeuringen, zie [ de goedkeuringsverzoek va
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -46,12 +50,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Nieuw: Standaard </p>
+   <p>Huidig: Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
@@ -64,7 +69,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt.
++++
 
 ## Een gebruikersdelegatierapport maken
 
@@ -79,14 +85,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    |---|---|
    | **van Gebruiker** | Dit is de gebruiker die hun taak, kwestie, en projectgoedkeuringen aan een andere gebruiker delegeert. |
    | **aan Gebruiker** | Dit is de gebruiker die taak, kwestie, en projectgoedkeuringen heeft die aan hen worden gedelegeerd. |
-   | **Begin** | Dit is het begin van de wachttijd voor de gebruiker die de delegaties heeft gemaakt. |
-   | **Eind** | Dit is het einde van de wachttijd voor de gebruiker die de delegaties heeft gemaakt. |
+   | **Datum van het Begin** | Dit is het begin van de wachttijd voor de gebruiker die de delegaties heeft gemaakt. |
+   | **Datum van het Eind** | Dit is het einde van de wachttijd voor de gebruiker die de delegaties heeft gemaakt. |
 
    {style="table-layout:auto"}
 
 1. (Optioneel) In de rapportbuilder wijzigt u het volgende:
 
-   * Kolommen
+   * Kolommen (weergave)
    * Groepen
    * Filters
    * Diagram
@@ -94,7 +100,5 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    Meer over deze eigenschappen leren, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 1. Nadat u klaar bent met het bouwen van uw rapport, klik **sparen + Sluiten**.
-
-1. Ga een nieuwe naam op het **gebied van de Naam van het Rapport** in, dan klik **sparen Rapport**.
 
    Het rapport wordt weergegeven.

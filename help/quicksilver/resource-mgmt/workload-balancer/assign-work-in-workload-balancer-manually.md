@@ -7,9 +7,9 @@ author: Lisa
 feature: Resource Management
 role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ U kunt werkitems toewijzen die nog niet aan een gebruiker zijn toegewezen of ite
 
    >[!TIP]
    >
-   > Als uw Workfront- of groepsbeheerder delegaties in uw omgeving heeft ingeschakeld, gebruikt u het tabblad Toewijzingen om gebruikers toe te wijzen aan de taak of uitgave. Gebruik het tabblad Delegaties om gebruikers weer te geven die zijn gedelegeerd aan het werkitem. Voor informatie over het delegeren van het werk, zie [ taak beheren en de delegatie van de kwestie ](../../manage-work/delegate-work/how-to-delegate-work.md).
+   > Als uw Workfront- of groepsbeheerder delegaties in uw omgeving heeft ingeschakeld, gebruikt u het tabblad Toewijzingen om gebruikers toe te wijzen aan de taak of uitgave. Gebruik het tabblad Delegaties om gebruikers weer te geven die zijn gedelegeerd aan het werkitem. Voor informatie over het delegeren van het werk, zie [ de taken en kwesties van de Afgevaardigde ](../../manage-work/delegate-work/how-to-delegate-work.md).
 
 
    Hiermee wijst u het werkitem toe aan of wijst u het toe aan de opgegeven toewijzingen.

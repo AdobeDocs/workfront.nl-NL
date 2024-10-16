@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 7b5441b2aa17b22f0fd54cfe4921aa5dab2e0461
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '2222'
+source-wordcount: '2248'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Verbind recordtypen
 
-<span class="preview"> de informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Sandbox van de Voorproef.</span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>-->
 
 {{planning-important-intro}}
 
@@ -41,7 +41,7 @@ Voor een voorbeeld van het verbinden van verslagtypes en verslagen, zie [ Voorbe
 
 +++ Breid uit om toegangsvereisten voor de Planning van Workfront te bekijken.
 
-U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -55,7 +55,12 @@ U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
    <p> Producten</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+   <li><p> Adobe Workfront Planning<p></li>
+   <li><p> Adobe Experience Manager Assets, als u AEM elementen wilt verbinden met de recordtypen voor planning<p>
+   <p>U moet een Adobe Experience Manager Assets-licentie hebben en een integratie tussen AEM Assets en Workfront.
+    Voor informatie, zie <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md"> Adobe Workfront voor Experience Manager Assets en Assets Essentials: artikelindex </a>. </p>
+   </li>
+   </ul></td> 
   </tr>   
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-abonnement*</p></td> 
@@ -185,7 +190,8 @@ U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
 
    * Een ander recordtype uit de huidige werkruimte
 
-     <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
+     ![](assets/many-to-many-connection-picker.png)
+
      >[!TIP]
      >
      > 
@@ -194,7 +200,7 @@ U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
 
    * Een recordtype van een andere werkruimte die werd gevormd om van andere werkruimten te verbinden. Voor informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/edit-record-types.md) uitgeven.
 
-     <span class="preview">![](assets/new-connection-allow-multiple-records-box.png)</span>
+     ![](assets/new-connection-allow-multiple-records-box.png)
 
      >[!TIP]
      >
@@ -207,7 +213,7 @@ U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
 
    * **Experience Manager Assets** van de **sectie van de Toepassingen van de Adobe**.
 
-     <span class="preview">![](assets/aem-assets-connection-selection.png)</span>
+     ![](assets/aem-assets-connection-selection.png)
 
 1. Werk de volgende gegevens bij:
 
@@ -222,7 +228,7 @@ U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
 
      Deze optie is alleen beschikbaar wanneer u records verbindt vanuit twee verschillende werkruimten of een record en een Adobe Experience Manager-asset-object.
 
-     <span class="preview">![](assets/new-connection-allow-multiple-records-box.png)</span>
+     ![](assets/new-connection-allow-multiple-records-box.png)
 
    * **het type van Verbinding**: Selecteer één van de volgende opties om erop te wijzen hoeveel verslagen zij met en van kunnen verbinden:
 
@@ -233,7 +239,7 @@ U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
 
      Deze optie is alleen beschikbaar wanneer u records verbindt vanuit dezelfde werkruimte of een record en een Workfront-objecttype.
 
-     <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
+     ![](assets/many-to-many-connection-picker.png)
 
      Voor meer informatie over verbindingstypes, zie [ Verbonden overzicht van verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
@@ -262,9 +268,9 @@ U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
 
 1. (Voorwaardelijk) als u selecteerde om met Experience Manager Assets of met een het verslagtype van de Planning van Workfront te verbinden, selecteer één van de volgende opties op het **vormgeving van het Verslag** gebied:
 
-   * <span class="preview">**Naam en beeld**: Zowel zullen de naam als de duimnagel of het pictogram van de verbonden verslagen op het verbonden verslaggebied tonen. Dit is de standaardoptie. </span>
-   * <span class="preview">**Naam**: Slechts zal de naam van de verbonden verslagen op het verbonden verslaggebied tonen.</span>
-   * <span class="preview">**Beeld**: Slechts zullen de duimnagel of het pictogram van de verbonden verslagen op het verbonden verslaggebied tonen.</span>
+   * **Naam en beeld**: Zowel zullen de naam als de duimnagel of het pictogram van de verbonden verslagen op het verbonden verslaggebied tonen. Dit is de standaardoptie.
+   * **Naam**: Slechts zal de naam van de verbonden verslagen op het verbonden verslaggebied tonen.
+   * **Beeld**: Slechts zullen de duimnagel of het pictogram van de verbonden verslagen op het verbonden verslaggebied tonen.
 
    Records zonder miniatuurafbeelding geven in plaats daarvan het pictogram voor het recordtype weer. Een voorbeeld van hoe de verbonden verslagen in het **vormgeving van het Verslag** gebied zullen tonen.
 

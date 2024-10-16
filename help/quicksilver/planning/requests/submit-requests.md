@@ -5,9 +5,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+exl-id: 635045c5-17e6-483e-912b-4e9617571137
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -30,7 +31,7 @@ Voor informatie over hoe een werkruimtemanager een verzoekvorm kan tot stand bre
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto">
  <col>
@@ -136,8 +137,3 @@ U moet het volgende opgeven voordat u een aanvraag kunt indienen bij een Workfro
 1. Klik **voorleggen**.
 
    Uw formulier wordt verzonden en er wordt een nieuwe record toegevoegd aan het recordtype dat aan het formulier is gekoppeld.
-
-
-
-
-

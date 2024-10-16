@@ -1,14 +1,14 @@
 ---
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
-title: Een tijdschema goedkeuren
+title: Een tijdpagina goedkeuren
 description: Het proces om timesheets goed te keuren geeft managers zichtbaarheid in de werkuren van hun directe rapporten. De fiatteurs kunnen controleren of alle geregistreerde tijd in de juiste gebieden is toegewezen en of er gedurende de periode een voldoende aantal uren is geregistreerd.
 author: Alina
 feature: Timesheets
 exl-id: b27b3307-f61b-456d-8076-590d1c391b4b
-source-git-commit: 1a46fa3a8e87a5f345558cef57a4d66171320c9b
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '685'
 ht-degree: 0%
 
 ---
@@ -67,15 +67,20 @@ Voor meer informatie over het aanwijzen van timesheet fiatteurs, zie de sectie [
 
 ## Een tijdschema goedkeuren
 
-U kunt alle tijdbladen goedkeuren die zijn verzonden waar u als fiatteur bent aangewezen. Wanneer een timesheet voor goedkeuring wordt voorgelegd, is timesheet vermeld in het **goedkeurt** gebied op uw **3} pagina van het Huis.** Voor meer informatie, zie [ het goedkeuren van het werk ](../../review-and-approve-work/manage-approvals/approving-work.md).
+U kunt alle tijdbladen goedkeuren die zijn verzonden waar u als fiatteur bent aangewezen. Wanneer een timesheet voor goedkeuring wordt voorgelegd, is timesheet vermeld in **Mijn goedkeurt** widget in uw **3} gebied van het Huis.** Voor meer informatie, zie [ het goedkeuren van het werk ](../../review-and-approve-work/manage-approvals/approving-work.md).
 
-Als de beheerder van Workfront de Goedkeuring van de Tijdopmaak aan Gebruiker en de Afwijzing van de Chronologie aan de gebeurtenismanagers van de Gebruiker heeft toegelaten, wordt u op de hoogte gebracht nadat timesheet wordt goedgekeurd of verworpen. Voor informatie over het toelaten van gebeurtenisberichten, zie [ de berichttypes van de Gebeurtenis ](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Als de volgende meldingsinstellingen aanwezig zijn, ontvangt de gebruiker die het tijdspad ter goedkeuring indient een e-mail nadat een tijdsplaat is goedgekeurd:
 
-Een tijdschema goedkeuren:
+* De beheerder van Workfront heeft de Goedkeuring van de Tijdopmaak aan Gebruiker en de Afwijzing van de Chronologie aan de gebeurtenismanagers van de Gebruiker toegelaten. Voor informatie over het toelaten van gebeurtenisberichten, zie [ de berichttypes van de Gebeurtenis ](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+* Mijn timesheet wordt goedgekeurd persoonlijk bericht wordt toegelaten op de de profielpagina van de gebruiker. Voor meer informatie, zie [ uw eigen e-mailberichten wijzigen ](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+
+### Een tijdpagina goedkeuren vanuit het gebied Timesheets
 
 {{step1-to-timesheets}}
 
 Het **gebied van Tijdopnemers** opent.
+
+1. (Voorwaardelijk) als de laatste tijd u toegang had opent, klik **terug naar timesheets** in de upper-left hoek van het scherm.
 
 1. Selecteer **Mijn Goedkeuringen van het Tijdoppervlak** in de hoger-juiste hoek van de pagina om slechts timesheets te bekijken die u goedkeurt
 
@@ -87,11 +92,9 @@ Het **gebied van Tijdopnemers** opent.
 
    >[!NOTE]
    >
-   >De Mijn optie van Goedkeuringen Timesheet toont niet bij de bovenkant van timesheet lijst of in de lijst van filters als uw beheerder van Workfront of een groepsbeheerder de Mijn filter van de Goedkeuringen van Timesheet van of de Controles van de Lijst in het gebied van de Opstelling of van uw Malplaatje van de Lay-out verwijderde. Zie de volgende artikelen voor meer informatie:
+   >De Mijn optie van Goedkeuringen Timesheet toont niet bij de bovenkant van timesheet lijst of in de lijst van filters als uw beheerder van Workfront of een groepsbeheerder de Mijn filter van de Goedkeuringen van Timesheet van of de Controles van de Lijst in het gebied van de Opstelling of van uw Malplaatje van de Lay-out verwijderde.
    >
-   >   
-   >   
-   >   * [ pas Filters, Weergaven, en Groepen aan gebruikend een lay-outmalplaatje ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >Voor meer informatie zie [ Filters, Meningen, en Groepen aanpassen gebruikend een lay-outmalplaatje ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >   
    >
 
@@ -112,3 +115,21 @@ Het **gebied van Tijdopnemers** opent.
    Indien goedgekeurd, verandert de chronologiestatus in **Gesloten**.
 
    Indien verworpen, verandert de chronologiestatus in **Verworpen**.
+
+### Een tijdpagina&#39;s uit het thuisgebied goedkeuren
+
+{{step1-to-home}}
+
+Het gebied Home wordt geopend.
+
+1. Verzeker u **Mijn goedkeurt** widget hebt die aan uw gebied van het Huis wordt toegevoegd. Voor meer informatie, zie [ toevoegen, geef, of verwijder widgets in Nieuw Huis ](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md) uit.
+1. Zoek naar een timesheet goedkeuring in uw Mijn widget Goedkeuringen.
+1. (Facultatief) breid het drop-down menu aan het recht van goedkeurt of verwerpt knopen uit om een commentaar over uw besluit toe te voegen, dan klik **toevoegen**.
+1. Klik op een van de volgende knoppen om een goedkeuringsbesluit te nemen:
+
+   * Goedkeuren
+   * Afwijzen
+
+   De goedkeuring wordt verwijderd uit **Mijn goedkeurt** widget.
+
+
