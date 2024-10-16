@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 70cbeaa132127d1fc879b04fb6b5eb339945ff78
+source-git-commit: 7a1df83c0dd7ddf7dd6cf41643ba65c5903d6eba
 workflow-type: tm+mt
-source-wordcount: '4395'
+source-wordcount: '4419'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,11 @@ Elk object in het systeem krijgt een unieke URI die bestaat uit het objecttype e
 
 Het objecttype is niet hoofdlettergevoelig en kan de afgekorte ObjCode (zoals proj) of de alternatieve objectnaam (project) zijn.
 
-Zie voor een lijst met geldige ObjCodes  [ API Ontdekkingsreiziger ](../../wf-api/general/api-explorer.md).
+Zie voor een lijst met objecten, geldige ObjCodes en objectvelden  [ API Ontdekkingsreiziger ](../../wf-api/general/api-explorer.md).
+
+>[!NOTE]
+>
+>In de context van de Workfront API is een aangepast formulier een `Category` -object en een aangepast veld is een `Parameter` -object.
 
 ### Bewerkingen
 

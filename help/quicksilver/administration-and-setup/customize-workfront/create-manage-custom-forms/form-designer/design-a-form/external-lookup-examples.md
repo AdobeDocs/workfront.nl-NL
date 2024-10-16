@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: bcc0054f761101ac19d1ced241329fce95be4e99
+source-git-commit: 7a1df83c0dd7ddf7dd6cf41643ba65c5903d6eba
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1314'
 ht-degree: 0%
 
 ---
@@ -35,10 +35,10 @@ In dit voorbeeld wordt getoond hoe u de Workfront API aanroept en gegevens uit h
 1. Op de linkerkant van het scherm, vind **Externe raadpleging** en sleep het aan een sectie op het canvas.
 1. Ga het **Etiket** en **Naam** voor het gebied in.
 1. Selecteer het **Formaat** voor het gebied.
-1. Ga de API URL vraag op het **Basis API URL** gebied in.
+1. Ga de API vraag op het **Basis API URL** gebied in.
 
-   * U kunt $$HOST toevoegen om naar dezelfde instantie te verwijzen.
-   * U kunt $$QUERY toevoegen om de resultaten te filteren op basis van het opvragen van een ander veld.
+   * Als u wilt verwijzen naar hetzelfde exemplaar van Workfront waarin het aangepaste formulier zich bevindt, gebruikt u $$HOST voor de URL.
+   * Voeg $$QUERY toe als u de resultaten wilt filteren op basis van het opvragen van een ander veld.
 
    **Voorbeeld**
    `$$HOST/attask/api/v15.0/project/search?status={DE:StatusQuery}&$$QUERY`
