@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
 workflow-type: tm+mt
-source-wordcount: '1358'
+source-wordcount: '1361'
 ht-degree: 0%
 
 ---
@@ -198,7 +198,7 @@ Alle secties worden standaard uitgevouwen.
 
    Alle wijzigingen in secties en de veldvolgorde worden automatisch opgeslagen.
 
-1. (Optioneel) Klik op het **pictogram ![](assets/export-icon-in-record-details-page.png) Exporteren** om het tabblad Details te exporteren naar een Word-bestand. Voor meer informatie, zie [ de details van een verslag uitvoeren ](/help/quicksilver/planning/records/export-the-record-page.md).
+1. (Optioneel) Klik op het **menu ![](assets/export-icon-in-record-details-page.png) Exporteren** om het tabblad Details te exporteren naar een Word- of PDF-bestand. Voor meer informatie, zie [ de details van een verslag uitvoeren ](/help/quicksilver/planning/records/export-the-record-page.md).
 
 1. (Facultatief) klik het **lusje van Verbindingen** naast **Details** tabel. U zou **Meer** kunnen moeten klikken alvorens de **Verbindingen** tabel te klikken.
 

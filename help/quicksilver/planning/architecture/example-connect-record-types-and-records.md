@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 425c3d3afb892ac83a10bbd36efb4c7d9712c4dc
+source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
 workflow-type: tm+mt
-source-wordcount: '1949'
+source-wordcount: '1957'
 ht-degree: 0%
 
 ---
@@ -55,10 +55,13 @@ Dit doet u als volgt:
      >
      >Het **type van Verbinding** optie is niet beschikbaar wanneer het verbinden van verslagen van verschillende werkruimten of wanneer het verbinden van de activa van de Experience Manager. Voor meer informatie, zie [ Verbonden overzicht van recordtypes ](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
-   * **de verschijning van het Verslag**: Schrap **Titel** knevel als u niet de naam van producten wilt tonen wanneer het toevoegen van hen aan het de informatiegebied van het Product van de campagne. Als deze optie is ingeschakeld, worden in de records zowel de miniatuur als de titel weergegeven. De schakeloptie is standaard ingeschakeld.
+   * **verschijning van het Verslag**: Kies van de volgende opties:
+      * **Naam en beeld**: Toont de naam en de duimnagel of het pictogram van de verbonden verslagen. Dit is standaard geselecteerd.
+      * **Naam**: Toont slechts de naam van de verbonden verslagen.
+      * **Beeld**: Toont slechts de duimnagel of het pictogram van de verbonden verslagen.
    * **Uitgezochte raadplegingsgebieden**: Als u deze geselecteerde optie verlaat, **voegt raadplegingsgebieden** volgende doos toe, om u toe te staan om de gebieden van het Product met het verslagtype van de Campagne te verbinden. U kunt **Skip** klikken om deze stap over te slaan en de gebieden van het Product later toe te voegen.
 
-   ![](assets/new-connection-with-product-record-type.png)
+     ![](assets/new-connection-with-product-record-type.png)
 
 1. (Voorwaardelijk) als u de **Uitgezochte raadplegingsgebieden optie** in de vorige stap selecteerde, van de lijst van gebieden verbonden aan het **het verslagtype van het Product**, klik het **+** pictogram voor het **7} gebied van de Begroting {, dan klik** voegt gebieden **toe.** Dit leidt tot een gebied genoemd **Begroting (van de informatie van het Product)**, die de naam van het verbonden gebied is. Alle informatie voor het productbudget wordt in dit veld weergegeven voor de campagnebestanden.
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 7a1df83c0dd7ddf7dd6cf41643ba65c5903d6eba
+source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1321'
 ht-degree: 0%
 
 ---
@@ -111,13 +111,15 @@ In dit voorbeeld ziet u hoe u de Workfront API aanroept en gegevens van een aang
 
 ## Een extern opzoekveld instellen voor de API voor Workfront-planning
 
-Een eindpunt is beschikbaar in de [ Planning API van Workfront ](/help/quicksilver/planning/general/planning-api-basics.md) aan onderzoeksverslagen door verslagtype identiteitskaart door Get methode. U kunt dit eindpunt gebruiken om de verslagen van de Planning in Externe raadplegingsgebieden van verwijzingen te voorzien.
+Een eindpunt is beschikbaar in de Planning API van Workfront aan onderzoeksverslagen door verslagtype identiteitskaart door Get methode. U kunt dit eindpunt gebruiken om de verslagen van de Planning in Externe raadplegingsgebieden van verwijzingen te voorzien.
 
 * **Basis API URL:** `$$HOST/maestro/api/v1/records/search?recordTypeId={recordTypeID}`
 * **Methode van HTTP:** krijgt
 * **Weg JSON:** `$.records[*].data.{fieldID}`
 
   **{fieldID}** is het gebied om in de Externe resultaten van het raadplegingsonderzoek op de douanevorm voor eind te tonen - gebruikers.
+
+Voor meer informatie, zie [ de Planning API van Workfront ](/help/quicksilver/planning/general/planning-api-basics.md).
 
 ## Een extern opzoekveld instellen voor een openbare API
 
