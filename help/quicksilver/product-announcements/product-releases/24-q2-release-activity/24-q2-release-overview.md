@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '2246'
+source-wordcount: '2240'
 ht-degree: 0%
 
 ---
@@ -372,7 +372,7 @@ U kunt ook [ een dossier van de PDF ](https://acrobat.adobe.com/id/urn:aaid:sc:U
                                 <p>Productie voor snelle release: met 24,5 release (16 mei 2024)</p>
                             </li>
                             <li>
-                                <p>Productieversie voor alle klanten: met de release van 24.10 (oktober 2024)</p>
+                                <p>Productieversie voor alle afnemers: Te publiceren</p>
                             </li>
                         </ul>
                     </td>
@@ -392,7 +392,7 @@ U kunt ook [ een dossier van de PDF ](https://acrobat.adobe.com/id/urn:aaid:sc:U
                                 <p>Productie voor snelle release: met 24,5 release (16 mei 2024)</p>
                             </li>
                             <li>
-                                <p>Productieversie voor alle klanten: met de release van 24.10 (oktober 2024)</p>
+                                <p>Productieversie voor alle afnemers: Te publiceren</p>
                             </li>
                         </ul>
                     </td>

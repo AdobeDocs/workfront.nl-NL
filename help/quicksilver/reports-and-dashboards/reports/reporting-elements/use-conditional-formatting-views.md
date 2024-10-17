@@ -6,9 +6,9 @@ description: Als u uw rapporten deelt met andere gebruikers in Adobe Workfront, 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1218'
 ht-degree: 0%
 
 ---
@@ -139,7 +139,7 @@ Voor informatie bij het creëren van een rapport, zie [ een rapport ](../../../r
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Tekstkleur</strong></td> 
-      <td> <p>Selecteer de kleur waarin de tekst wordt weergegeven. Er zijn 8 kleuren beschikbaar.</p> <p><b>OPMERKING</b></p> <p> Als het veld een hyperlink bevat, worden de tekstkleurselecties niet toegepast op dit veld.</p> </td> 
+      <td> <p>Selecteer met de kleurkiezer de kleur waarin de tekst wordt weergegeven.</p> <p><b>OPMERKING</b></p> <p> Als het veld een hyperlink bevat, worden de tekstkleurselecties niet toegepast op dit veld.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Tekstindeling</strong></td> 
@@ -151,7 +151,7 @@ Voor informatie bij het creëren van een rapport, zie [ een rapport ](../../../r
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Achtergrond</strong></td> 
-      <td>Selecteer de kleur van de achtergrond voor de tekst. Er zijn 8 kleuren beschikbaar.</td> 
+      <td>Selecteer de kleur van de achtergrond voor de tekst met de kleurenkiezer.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Pictogram tonen</strong></td> 
@@ -189,6 +189,6 @@ Voor informatie bij het creëren van een rapport, zie [ een rapport ](../../../r
    * Voeg opnieuw de kolomregel voor de rode achtergrond op late projecten toe.
    * Wanneer u de regels en de weergave opslaat, wordt de rode achtergrond niet toegepast op een geannuleerd project.
 
-1. Klik **Gedaan**.
+1. Klik **sparen**.
 1. Klik **sparen + Sluiten**.\
    In het rapport zien gebruikers wijzigingen in de indeling als aan de opgegeven voorwaarden is voldaan.

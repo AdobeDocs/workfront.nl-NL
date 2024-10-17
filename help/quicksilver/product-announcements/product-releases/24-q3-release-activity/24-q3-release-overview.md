@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 634b4dc9a75b306c46168848807faff80ab2eced
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '1830'
+source-wordcount: '1824'
 ht-degree: 0%
 
 ---
@@ -296,7 +296,7 @@ Het levende 24.7 versiewebinar werd geannuleerd, maar u kunt nog [ op een videod
                                 <p>Productie voor snelle release: met 24,5 release (16 mei 2024)</p>
                             </li>
                             <li>
-                                <p>Productieversie voor alle klanten: met de release van 24.10 (oktober 2024)</p>
+                                <p>Productieversie voor alle afnemers: Te publiceren</p>
                             </li>
                         </ul>
                     </td>
@@ -316,7 +316,7 @@ Het levende 24.7 versiewebinar werd geannuleerd, maar u kunt nog [ op een videod
                                 <p>Productie voor snelle release: met 24,5 release (16 mei 2024)</p>
                             </li>
                             <li>
-                                <p>Productieversie voor alle klanten: met de release van 24.10 (oktober 2024)</p>
+                                <p>Productieversie voor alle afnemers: Te publiceren</p>
                             </li>
                         </ul>
                     </td>

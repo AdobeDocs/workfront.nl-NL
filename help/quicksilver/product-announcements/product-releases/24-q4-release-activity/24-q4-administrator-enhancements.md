@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: e48ef14cc3d0377a6d95f68b502f952ffe4880c4
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '567'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,18 @@ ht-degree: 0%
 Op deze pagina worden alle beheerderverbeteringen beschreven die zijn aangebracht met de release van het vierde kwartaal van 2024 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2024 versiecyclus, zie [ Vierde Kwartaal 2024 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
+
+## Toegangsniveau dat nu beschikbaar is in het kader van milieubescherming
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 17 oktober 2024; Productieversie voor alle klanten: met de release van 24.10 (17 oktober 2024)
+
+Om de mogelijkheden van de functionaliteit van de milieubevordering uit te breiden, hebben wij de capaciteit toegevoegd om toegangsniveaus te omvatten. Nu, kunt u een toegangsniveau in een milieu vormen Sandbox, en dan dat toegangsniveau bevorderen aan uw productiemilieu.
+
+Eerder waren de toegangsniveaus niet beschikbaar voor milieubevordering.
+
+Voor meer informatie over voorwerpen beschikbaar voor milieubevordering, zie [ Gesteunde voorwerpen voor milieubevordering ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion) in het de bevorderingsoverzicht van het Milieu van het artikel.
 
 ## Een teller op aangepaste formulieren geeft het aantal velden weer
 

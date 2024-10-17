@@ -6,9 +6,9 @@ description: Uw Adobe Workfront-beheerder verleent gebruikers toegang tot rappor
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 225e815a-0354-493d-bbcf-59304ef77570
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '817'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ Het delen van een rapport of meerdere rapporten uit een lijst is identiek.
 
      >[!NOTE]
      >
-     >Als het rapport een herinnering heeft en u het openbaar deelt, moeten de gebruikers die het rapport in werking stellen aan Workfront worden geregistreerd om het rapport te kunnen in werking stellen gebruikend de herinnering. Als ze zich niet kunnen aanmelden bij Workfront, wordt het rapport weergegeven zonder dat er een melding verschijnt. Voor meer informatie over beperkingen om rapporten met herinneringen te delen, zie de sectie [ Beperkingen van het delen veroorzaakt rapporten ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports) in het artikel [ een herinnering aan een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) toevoegen.
+     >Als het rapport een herinnering heeft en u het openbaar deelt, zullen de gebruikers die het rapport door de openbare aandeelverbinding in werking stellen het rapport niet kunnen in werking stellen gebruikend de herinnering. Zij zullen het rapport zien zonder de herinnering op het wordt toegepast tenzij zij login aan Workfront en toegang tot het rapport zonder de openbare aandeelverbinding te gebruiken. Voor meer informatie over de beperkingen om rapporten met herinneringen te delen, zie de sectie [ Beperkingen van het delen veroorzaakt rapporten ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports) in het artikel [ een herinnering aan een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) toevoegen.
 
    * **maak dit zichtbaar systeem-breed:** selecteer deze optie zodat iedereen in Workfront met toegang tot rapporten het rapport kan zien.
 

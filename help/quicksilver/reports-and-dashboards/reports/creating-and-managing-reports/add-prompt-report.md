@@ -6,9 +6,9 @@ description: Filters en herinneringen zijn gelijkaardig in die zin dat zij alleb
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b4058fb3-7360-474f-8be1-1c6b584749b0
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '1251'
+source-wordcount: '1301'
 ht-degree: 0%
 
 ---
@@ -75,9 +75,9 @@ Voor instructies bij het creëren van een rapport, zie [ een rapport ](../../../
 1. Ga naar het rapport waar u een herinnering wilt toevoegen.
 1. Breid {de Acties van het 0} Rapport **uit, en klik dan** uitgeven **.**
 
-1. Klik **Montages van het Rapport**.
-1. In het **Prompts van het Rapport** gebied, klik **voeg een Herinnering** toe.\
-   ![](assets/qs-add-a-prompt-350x216.png)
+1. Klik de **knoop van de Montages van het Rapport**.
+1. Klik het **Prompts van het Rapport** lusje, dan klik **toevoegen een Herinnering**.\
+   ![](assets/create-report-prompt-tab.png)
 
 1. (Voorwaardelijk) Selecteer het gebied dat u de herinnering wilt worden gebaseerd op. Typ de naam van het veld en klik om het te selecteren wanneer het veld in de lijst wordt weergegeven.\
    Welke opties beschikbaar zijn voor gebruikers die het rapport uitvoeren, is afhankelijk van het veld dat u selecteert.\
@@ -92,8 +92,9 @@ Voor instructies bij het creëren van een rapport, zie [ een rapport ](../../../
    Geef de volgende informatie op voor de aangepaste prompt: de voorwaarde van een aangepaste prompt kan alleen worden bewerkt in de tekstmodus. Hierdoor kunnen meerdere voorwaarden op één veld worden toegepast.
 
    * **Naam van het Gebied:** dit is de naam van de herinnering, aangezien u het ziet alvorens u het rapport in werking stelt.
-   * **Etiket:** dit is de naam van één van de opties binnen de herinnering aangezien u het ziet alvorens u het rapport in werking stelt.
+   * **het Etiket van het Punt van de Dropdown:** dit is de naam van één van de opties binnen de herinnering aangezien u het ziet alvorens u het rapport in werking stelt.
    * **Voorwaarde:** ga een voorwaarde in die de herinnering bepaalt.
+   * **Gebrek:** u kunt één punt selecteren om de standaardoptie voor deze herinnering te zijn.
 
    Gebruik dezelfde syntaxis als u zou gebruiken bij het invoeren van een tekstmodusfilter en sluit u uw instructies aan op &quot;&amp;&quot;. Voor meer informatie over het uitgeven van een filter op tekstwijze, zie [ een filter uitgeven gebruikend tekstwijze ](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
@@ -128,7 +129,7 @@ Om een rapport met een herinnering in werking te stellen:
 
 1. Ga naar het rapport met de prompt.
 
-   ![](assets/qs-prompt-drop-downs-350x229.png)
+   ![](assets/run-report-prompts.png)
 
 1. Kies een voorwaarde voor één of alle herinneringen die op **worden getoond Vragen** tabel.\
    (Optioneel) U kunt de vragen leeg laten en het rapport niet filteren op basis van de voorwaarden voor de vraag.
@@ -145,13 +146,14 @@ Om een rapport met een herinnering in werking te stellen:
 
 >[!CAUTION]
 >
->Wanneer u een veroorzaakt rapport buiten Workfront deelt, moet de gebruiker die het rapport bekijkt aan Workfront worden het programma geopend om het rapport in werking te stellen gebruikend de herinnering. Als de gebruiker die het rapport bekijkt niet het programma wordt geopend, alle resultaten van de rapportvertoning zonder de herinnering toe te passen.
+>Wanneer u een veroorzaakt rapport deelt, zowel het programma geopende als niet het programma geopende gebruikers die het rapport bekijken gebruikend de openbare aandeelverbinding kan niet het rapport in werking stellen gebruikend zijn herinneringen. In dit geval, zullen de resultaten van de rapportvertoning zonder enige herinneringen toe te passen, en de getoonde informatie in plaats daarvan op het toegangsniveau en de toestemmingen van de gebruiker of de Looppas van het rapport als het toegangsniveau van de Gebruiker en toestemmingen, als wordt geplaatst.
 
 Hieronder volgt een beperking voor het delen van rapporten die worden gevraagd door Workfront:
 
-* Wanneer u een rapport openbaar deelt kunnen de gebruikers niet het rapport in werking stellen door de herinnering toe te passen, tenzij zij de geloofsbrieven van Workfront en login eerst hebben om het rapport in Workfront te bekijken.
+* Wanneer u een rapport openbaar deelt, kunnen de gebruikers niet het rapport met toegepaste herinneringen in werking stellen, tenzij zij: hebben de geloofsbrieven van Workfront, login eerst, en navigeren aan het rapport direct in Workfront (niet door de openbare aandeelverbinding).
 
   Voor meer informatie over het delen van rapporten, zie het artikel [ een rapport in Adobe Workfront ](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md) delen.
-* Wanneer u een veroorzaakt rapport voor levering plant, omvat het rapport in de e-mailgehechtheid de gegevens van het rapport genummerd. Wanneer de gebruiker de verbinding in e-mail klikt om tot het rapport toegang te hebben, moeten zij login eerst om het rapport te bekijken en de herinnering zelf in werking te stellen.
+
+* Wanneer u een veroorzaakt rapport voor levering plant omvat het rapport in de e-mailgehechtheid ongevraagd de gegevens van het rapport. Wanneer de gebruiker de verbinding in e-mail klikt om tot het rapport toegang te hebben, moeten zij login eerst om het rapport te bekijken en de herinnering zelf in werking te stellen.
 
   Voor informatie over het plannen van een geleverd rapport, zie [ Plan een automatische rapportlevering ](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).

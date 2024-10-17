@@ -6,9 +6,9 @@ description: '''OPMERKING: voeg een sectie toe in dit artikel: /Content/Reports 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
@@ -97,13 +97,11 @@ Voor informatie over het creëren van een rapport, zie [ een douanerapport ](../
    >
    >Als u een weergave wilt bewerken in de tekstmodus, moet u één kolom tegelijk bewerken.
 
-1. Klik **Schakelaar aan de Wijze van de Tekst** in de hoger-juiste hoek van de bouwer.
+1. Klik **Schakelaar aan de Wijze van de Tekst** in de hoger-juiste hoek van de bouwer, dan klik **uitgeven de Wijze van de Tekst**.
 
    >[!NOTE]
    >
    >Wanneer u een kolom bewerkt in de tekstmodus, voegt Workfront de coderegel `textmode=true` toe aan de kolom. Dit geeft aan dat de kolom wordt gewijzigd in de tekstmodus.
-
-   ![](assets/switch-to-text-mode-in-view-nwe-highlighted-350x447.png)
 
    In de volgende tabel worden de belangrijkste regels in een weergave in tekstmodus weergegeven:
 

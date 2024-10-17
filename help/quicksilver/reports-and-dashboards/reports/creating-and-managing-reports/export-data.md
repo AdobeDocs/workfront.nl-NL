@@ -6,9 +6,9 @@ description: U kunt Adobe Workfront-gegevens uit verschillende lijsten, rapporte
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '2164'
+source-wordcount: '2255'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,6 @@ Er gelden verschillende beperkingen voor de manier waarop rapporten in Workfront
   >Het uitvoeren van een rapport dat een inzamelingsverwijzing binnen een kolom omvat kan in een fout resulteren, zelfs als het rapport anders binnen de vermelde uitvoergrenzen is. Als de verzameling waarnaar wordt verwezen te groot is, wordt het exportproces onderbroken en resulteert dit in een fout.
   >
   >U voorkomt deze fout door kolommen die verwijzen naar grote verzamelingen uit te sluiten of de grootte van de verzamelingen waarnaar wordt verwezen, te reduceren voordat u gaat exporteren.
-  >
 
   Als uw rapport meer items bevat dan deze limiet, wordt een fout weergegeven als u wilt dat het exporteren niet is gelukt. Verlaag het aantal items dat u op het scherm ziet tot een getal dat kleiner is dan of gelijk is aan deze limiet om de resultaten te kunnen exporteren.
 
@@ -151,6 +150,14 @@ Er gelden verschillende beperkingen voor de manier waarop rapporten in Workfront
 * **10MB dossiergrootte:** de groottelimiet van het Dossier voor om het even welk uitgevoerd rapport dat voor levering wordt gepland. Als een geëxporteerd bestand dat is gekoppeld aan een e-mailbericht groter is dan 5 MB, wordt een koppeling waarnaar het bestand kan worden gedownload per e-mail verzonden in plaats van het bijgevoegde geëxporteerde rapport.
 * **65.530 hyperlinks:** dit is een grens die door Excel op documenten wordt opgelegd die meer dan 65.530 hyperlinks bevatten. Deze documenten kunnen niet worden geopend wanneer ze handmatig worden geëxporteerd of in een bezorgd rapport worden verzonden. Een Excel-document kan slechts 200 rijen gegevens bevatten, maar als het document meer dan 65.530 koppelingen bevat, wordt het document niet geopend. Deze limiet geldt alleen voor Excel-bestanden en niet voor de andere ondersteunde indelingen. 
 * **256 kolommen**: Dit is een grens die door Excel op documenten wordt opgelegd die meer dan 256 kolommen bevatten. Deze documenten kunnen niet handmatig worden geëxporteerd of in een bezorgd rapport worden verzonden. Deze limiet geldt alleen voor Excel-bestanden en niet voor de andere ondersteunde indelingen.
+
+  >[!IMPORTANT]
+  >
+  >Het uitvoeren van een rapport dat een kolom van Rapporten omvat kan in een fout resulteren zelfs als het rapport anders binnen de vermelde uitvoergrenzen is.
+  >
+  >Als u de de uitvoereigenschap gebruikt om een rapport te delen dat een kolom van Rapporten met anderen bevat, denk na delend het rapport door het openbaar te maken in plaats daarvan. Voor meer informatie bij het maken van een rapport openbaar, zie [ een rapport in Adobe Workfront ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/share-report.md) delen.
+  >
+  >Als u de exportfunctie gebruikt om gegevens extern te evalueren, raden we u aan in plaats daarvan Workfront Data Connect te gebruiken. Voor meer informatie, zie [ de Gegevens van Workfront verbinden overzicht ](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
 
 Als u probeert gegevens te exporteren die de limiet overschrijden, ontvangt u mogelijk niet alle verwachte gegevens in de exportbewerking. In plaats daarvan wordt een gewijzigd verslag binnen de limiet opgesteld.
 

@@ -6,9 +6,9 @@ description: U kunt een rapport generaliseren door vervangingen in plaats van sp
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 759b0bea-729e-4206-808c-0a7216ded4ff
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,6 @@ Om op datum-gebaseerde vervanging in een rapport op te nemen:
 
 1. Ga naar een rapport waarvoor u op datum-gebaseerde vervanging wilt opnemen.
 1. Klik **de Acties van het Rapport**, dan **uitgeven**.
-
 1. Klik de **Filters** tabel.
 1. Klik **toevoegen een Regel van de Filter**.
 1. Typ de naam van het veld waarop u wilt filteren.\
@@ -79,7 +78,7 @@ Om op datum-gebaseerde vervanging in een rapport op te nemen:
    >
    >U moet altijd de **Gelijke** filtervariabele selecteren wanneer het werken met vervangingen in Adobe Workfront.
 
-1. In het **Begin typend naam...** doos, type: `$$TODAY` als u informatie over iets wilt tonen dat de zelfde dag voorkomt dat het rapport in werking wordt gesteld.
+1. Klik de **Vastgestelde relatieve datum** knevel, dan in het tekstvakje dat type lijkt: `$$TODAY` als u informatie over iets wilt tonen dat de zelfde dag voorkomt dat het rapport in werking wordt gesteld.
 
    of
 
@@ -91,8 +90,6 @@ Om op datum-gebaseerde vervanging in een rapport op te nemen:
 1. (Optioneel) Als u informatie wilt weergeven over iets dat is opgetreden binnen een tijdsbestek vóór de datum waarop het rapport wordt uitgevoerd, typt u `$$TODAY-1w` om informatie van de vorige week weer te geven of `$$TODAY-2m` om informatie van de vorige twee maanden weer te geven. U kunt ook tijdframes voor kwartalen, uren, dagen of jaren aangeven.
 
    Voor een volledige lijst van attributen, kwaliteiten, en exploitanten die u in op datum-gebaseerde vervangingen kunt gebruiken, zie het artikel [ overzicht van de de filtervariabelen van de vervanging ](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
-
-   ![](assets/video-date-based-wildcard-in-task-filter-350x81.png)
 
 1. Klik **sparen + Sluiten**.
 

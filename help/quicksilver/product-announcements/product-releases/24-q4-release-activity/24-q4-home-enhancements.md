@@ -4,9 +4,9 @@ description: Verbeteringen startpunt vierde kwartaal 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: e48ef14cc3d0377a6d95f68b502f952ffe4880c4
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,7 @@ We hebben de volgende wijzigingen aangebracht in de wachtende goedkeuringswidget
 
 * **anders genoemd widget**: De naam van deze widget is nu Mijn goedkeuringen.
 * **toegevoegde Goedkeuringen ik als filteroptie** heb voorgelegd: U kunt goedkeuringen nu bekijken u in nieuw Huis met dit widget hebt voorgelegd.
+* **Deadline**: U kunt de proefdeadline nu zien als één is geplaatst. Als een deadline niet is ingesteld, wordt de deadline standaard ingesteld op de aanmaakdatum.
 
 Voor meer informatie, zie [ begonnen worden met nieuw Huis ](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 

@@ -6,7 +6,7 @@ description: U kunt de hoeveelheid informatie beperken die u op het scherm weerg
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
 source-wordcount: '2461'
 ht-degree: 0%
@@ -399,7 +399,7 @@ Ongeacht de methode die u gebruikt om filters te maken, lijkt het alsof u een ge
      >
      >Wanneer u een groep EN verklaringen door veelvoudige OF verklaringen verbindt, moet u de gebieden herhalen die niet tussen OF verklaringen voor elke groep verklaringen veranderen.
      >
-     >![ Verbonden filterverklaringen ](assets/filters-and-statements-connected-by-or-statements-builder-ui-old-filters-2022.png)
+     >![ Verbonden filterverklaringen ](assets/filters-and-statements-connected-by-or-statements-builder-ui-legacy-filters.png)
      >
      >Wanneer u een filter voor taken bouwt die het woord &quot;marketing&quot;bevatten en in projecten met een status van Huidige of Planning zijn, moet u de volgende filterregels hebben:
      >
