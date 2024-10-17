@@ -9,9 +9,9 @@ description: In een scenario van de Fusie van Adobe Workfront, kunt u werkschema
 author: Becky
 feature: Workfront Fusion
 exl-id: 66d2e59e-0945-4a6b-a0fe-5c313051ad4e
-source-git-commit: 57a9667edea9067f14a6c40a75f6cf56a00d5e7d
+source-git-commit: ff66cacc86532092e7a6805b7bf3c26d4437d9e9
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,45 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 
 Als u [!DNL NetSuite] -modules wilt gebruiken, moet u een [!DNL NetSuite] -account hebben.
 
+## Verbinding maken met NetSuite
 
+Verbinding maken voor uw [!DNL NetSuite] -modules:
+
+1. Klik in de module [!DNL NetSuite] op **[!UICONTROL Add]** naast het vak Verbinding.
+
+1. Vul de volgende velden in:
+
+   <table style="table-layout:auto"> 
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+      </col>
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+      </col>
+      <tbody>
+        <tr>
+          <td role="rowheader">[!UICONTROL Connection name]</td>
+          <td>
+            <p>Voer een naam in voor deze verbinding.</p>
+          </td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Type] </td>
+          <td>Selecteer of u verbinding maakt met een serviceaccount of een persoonlijke account.</p>
+        </tr>
+       <tr>
+          <td role="rowheader">[!UICONTROL Account ID] </td>
+          <td>Voer de id voor uw NetSuite-account in.</p>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Client ID]</td>
+          <td>Voer de client-id voor uw NetSuite-account in. Dit vindt u in uw clientgegevens van de NetSuite.</p></td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Client Secret]</td>
+          <td>Voer het clientgeheim voor uw NetSuite-account in.</p>
+        </tr>
+        </tbody>
+    </table>
+1. Klik op **[!UICONTROL Continue]** om de verbinding op te slaan en terug te keren naar de module.
 
 ## [!DNL NetSuite] modules en hun velden
 
@@ -92,7 +130,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het verbinden van uw [!DNL NetSuite] rekening met Workfront Fusion, zie <a href="#create-a-connection-to-netsuite-in-a-workfront-fusion-netsuite-module" class="MCXref xref"> een verbinding tot [!DNL NetSuite] in een module van de Fusie van Workfront NetSuite </a> in dit artikel tot stand brengen.</p> </td> 
+   <td> <p>Zie <a href="#create-a-connection-to-netsuite" class="MCXref xref"> Verbinding maken met [!DNL NetSuite]</a> in dit artikel voor instructies over het verbinden van uw [!DNL NetSuite] -account met Workfront Fusion.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
