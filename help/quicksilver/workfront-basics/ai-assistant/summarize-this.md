@@ -5,16 +5,14 @@ description: U kunt werkitems en documenten snel samenvatten met de functie Over
 author: Becky
 feature: Get Started with Workfront
 exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
-source-git-commit: bbe4ad6a8528e7d0e3a5f6f2b669c1b5d8d2e313
+source-git-commit: 59c74b6530df09cb664e146b611d246465cf0116
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
 
 # Samenvatten met AI-assistent
-
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Sandbox van de Voorproef.</span>
 
 In Workfront AI Assistant kunt u een overzicht geven van bepaalde objecten, zodat u een overzicht op hoog niveau hebt van de intentie of details van het object.
 
@@ -67,8 +65,6 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
   Voor meer informatie, zie [ toelaten of AI Medewerker ](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) onbruikbaar maken.
 
-<div class="preview">
-
 ## Samenvatten met de knoppen Samenvatten
 
 De volgende gebieden hebben knopen die samenvattingen gebruikend AI Medewerker produceren:
@@ -88,8 +84,6 @@ De knop Project samenvatten of Opmerkingen samenvatten gebruiken:
 1. (Optioneel) Verfijn de vraag zodat u de benodigde informatie krijgt.
 
    U kunt bijvoorbeeld de vraag Inhoud samenvatten verfijnen om opmerkingen voor de laatste 14 dagen samen te vatten in plaats van de laatste 7 dagen.
-
-   </div>
 
 ## Een object in AI-assistent samenvatten
 
