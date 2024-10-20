@@ -6,9 +6,9 @@ description: Het doel van het dashboard is om snel toegang tot informatie te bie
 author: Nolan
 feature: Reports and Dashboards
 exl-id: de15ab45-4bcd-4638-b3d7-fc70a0866d2d
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: 008713ef6587041310388c05909ad5f78fb9fa4c
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Voor informatie bij het creëren van dashboards, zie [ een dashboard ](../../../
    * **Naam**: geef de naam van het dashboard uit.
    * **Beschrijving**: Specificeer een beschrijving voor het dashboard.
 
-1. In de **Beschikbare sectie van Rapporten**, begin de naam van een rapport of externe pagina in het **Onderzoek door naam of type te typen..** gebied, dan belemmering en laat vallen het rapport in de lay-outruit aan het recht.
+1. In de **Beschikbare Rapporten &amp; Calendars** sectie, begin de naam van een rapport, een kalender, of een externe pagina in de onderzoeksbar te typen, dan belemmering en laat vallen het rapport, de kalender, of de externe pagina in de lay-outruit aan het recht.
 
    >[!NOTE]
    >

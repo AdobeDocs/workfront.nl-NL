@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5224c12a-7879-491b-87ec-6173bcf9525c
-source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
+source-git-commit: 1713a5855b8798d888866447338291975ff69cb7
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,6 @@ Abonnees kunnen hun zakelijke inlichtingenprogramma naar keuze (Tableau, Power B
 
 Raadpleeg de volgende artikelen voor meer informatie over Data Connect:
 
-* [Workfront Data Connect bèta-informatie](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
 * [Een reader-account (service) maken voor Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)
 * [Verbinding maken met Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)
 * [Workfront Data Connect-gegevenswoordenboek](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md)

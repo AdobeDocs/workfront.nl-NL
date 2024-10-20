@@ -6,9 +6,9 @@ description: U kunt dashboards tot stand brengen om tot informatie in Adobe Work
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 008713ef6587041310388c05909ad5f78fb9fa4c
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
@@ -102,13 +102,13 @@ U kunt bestaande externe pagina&#39;s toevoegen aan een dashboard of u kunt een 
    Consider adding the information from this article above here, at some point, instead of linking to it.)
    -->
 
-1. Onderzoek naar rapporten, kalenders, of externe pagina&#39;s in het **Onderzoek door naam of type...** gebied, dan sleep hen aan de lay-outruit, wanneer zij in de lijst verschijnen.
+1. In de **Beschikbare Rapporten &amp; Calendars** sectie, begin de naam van een rapport, een kalender, of een externe pagina in de onderzoeksbar te typen, dan belemmering en laat vallen het rapport, de kalender, of de externe pagina in de lay-outruit aan het recht.
 
    >[!NOTE]
    >
    >Wanneer het zoeken naar een punt, keert het onderzoek om het even welke 2000 onlangs gecreeerd rapporten terug. Rapportnamen met Unicode-tekens worden niet geretourneerd in zoekresultaten. U kunt het beste Unicode-tekens niet opnemen bij het benoemen van objecten in Workfront door namen te typen in plaats van namen van een andere bron te kopiëren en te plakken.
 
-   ![ Onderzoek naar rapporten ](assets/qs-new-dashboard-ui-0722.png)
+   ![ Onderzoek naar rapporten ](assets/unshimmed-dashboard-ui.png)
 
 1. (Optioneel) Klik op **Externe pagina toevoegen** om een nieuwe externe pagina aan het dashboard toe te voegen.
 

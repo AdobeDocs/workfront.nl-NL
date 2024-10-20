@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 426b7f7d556933dea26d27c82aa2082738d39767
+source-git-commit: 393405424c0ce3334304643c9474369e12417406
 workflow-type: tm+mt
-source-wordcount: '14529'
+source-wordcount: '14505'
 ht-degree: 0%
 
 ---
@@ -445,8 +445,6 @@ ht-degree: 0%
          * [Nieuwe ervaring met opmerkingen](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
          * [Nieuwe releaseactiviteit voor opmerkingervaring](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
          * [Nieuwe veelgestelde vragen over opmerkingen](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
-      * Workfront Data Connect bèta {#data-lake-beta}
-         * [Workfront Data Connect bèta-informatie](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
 * Beheer en installatie {#administration-and-setup}
    * [Beheer en instellingen: artikelindex](administration-and-setup/administration-and-setup.md)
    * Aan de slag met beheer {#get-started-administration}
@@ -894,22 +892,18 @@ ht-degree: 0%
       * [Snelle koppelingen toevoegen en beheren in Prioriteiten](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md)
    * Home {#home}
       * [Home](workfront-basics/using-home/home.md)
-      * Nieuwe startpagina {#new-home}
-         * [Nieuwe startpagina](workfront-basics/using-home/new-home/new-home.md)
-         * [Aan de slag met Nieuwe startpagina](workfront-basics/using-home/new-home/get-started-with-new-home.md)
-         * [Widgets toevoegen, bewerken of verwijderen in Nieuwe startpagina](workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
-         * [Overzicht van nieuwe widget-thuisfilters](workfront-basics/using-home/new-home/widget-filter-overview-new-home.md)
-         * [Uw werk beheren met de widget Mijn werk](workfront-basics/using-home/new-home/my-work-widget.md)
       * Het gebied Home gebruiken {#use-home-area}
          * [Het gebied Home gebruiken](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
-         * [Verplaatsen van Legacy home naar New Home](workfront-basics/using-home/new-home/move-to-new-home.md)
          * [Ga van Legacy naar Prioriteiten](workfront-basics/priorities/move-from-legacy-home-to-priorities.md)
          * [Aan de slag met Home](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
+         * [Widgets toevoegen, bewerken of verwijderen in Nieuwe startpagina](workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)
          * [Items weergeven in de werklijst in het gebied Home](workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
+         * [Overzicht van widgetfilters thuis](workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md)
+         * [Uw werk beheren met de widget Mijn werk](workfront-basics/using-home/using-the-home-area/my-work-widget.md)
          * [Prioriteit geven aan werkzaamheden in het thuisgebied](workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)
          * [Werk- en teamaanvragen beheren in het gebied Home](workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
          * [Een tijdelijk onderdeel bijwerken of bewerken in het gebied Home](workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)
-         * [Werkitems maken vanuit het gebied Home](workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
+         * [Werkitems en projecten maken vanuit het thuisgebied](workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
          * [De tijd van het logboek op een het werkpunt van het Huis](workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
          * [Een item markeren als Gereed in het gebied Home](workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)
          * [Startkalender, weergave](workfront-basics/using-home/using-the-home-area/home-calendar-view.md)

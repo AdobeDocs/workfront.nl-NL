@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 008713ef6587041310388c05909ad5f78fb9fa4c
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1085'
 ht-degree: 0%
 
 ---
@@ -18,17 +18,17 @@ Deze pagina beschrijft kleine updates van de blik en het gevoel van diverse gebi
 
 Voor een lijst van alle veranderingen beschikbaar met het Vierde Kwartaal 2024 versie, zie [ Vierde Kwartaal 2024 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 
-## Updates weergeven voor rapporten
+## Updates voor rapporten weergeven en weergeven
 
 >[!NOTE]
 >
 >Productieversie voor alle klanten: In toenemende mate vanaf de release van 24.10 (17 oktober 2024), volledige beschikbaarheid tegen 8 november 2024
 
-We hebben verschillende updates van de rapportinterface uitgevoerd die overeenkomen met het ontwerp van andere gebieden van Workfront. Deze updates bevatten enkele aanvullende wijzigingen in verschillende rapportfuncties, waaronder:
+We hebben de rapportinterface bijgewerkt en aangepast aan het ontwerp van andere gebieden van Workfront. Deze updates bevatten aanvullende wijzigingen in de rapportfuncties:
 
-* Er is een uitgevouwen kleurenpalet toegevoegd voor voorwaardelijke opmaakregels in rapporten. Voor meer informatie over voorwaardelijk het formatteren, zie [ Voorwaardelijk het Gebruik formatteren in meningen ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
-* Er is een nieuwe knop Tekstmodus bewerken toegevoegd om de tekstmodus te activeren wanneer u een kolom bewerkt in de rapportbuilder. Voor meer informatie over het uitgeven van rapportmeningen op tekstwijze, zie [ een mening uitgeven gebruikend tekstwijze ](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
-* Een nieuwe knevel is toegevoegd aan de interface van de rapportfilter om tussen een selecteur van de kalenderdatum en een relatief gebied van de datumvervanging te schakelen wanneer het filtreren door een datumgebied. Bovendien, die een relatieve kortere weg van het datumvervanging in de interface van de rapportfilter selecteert bevolkt nu automatisch de bijbehorende vervangingsgebieden die op uw selectie worden gebaseerd. Voor meer informatie over het gebruiken van relatieve datumvervangingen in rapportfilters, zie [ Op datum-gebaseerde vervangingen van het Gebruik om rapporten ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md) te generaliseren.
+* Er is een uitgebreid kleurenpalet voor voorwaardelijke opmaakregels toegevoegd aan rapporten. Voor meer informatie over voorwaardelijk het formatteren, zie [ Voorwaardelijk het Gebruik formatteren in meningen ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+* Wij hebben een nieuwe &quot;Edit knoop van de Wijze van de Tekst&quot;toegevoegd om tekstwijze in te gaan wanneer het uitgeven van een kolom in de rapportbouwer. Voor meer informatie over het uitgeven van rapportmeningen op tekstwijze, zie [ een mening uitgeven gebruikend tekstwijze ](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
+* Wij hebben een nieuwe knevel aan de interface van de rapportfilter toegevoegd om tussen een selecteur van de kalenderdatum en een relatief gebied van de datumvervanging te schakelen wanneer het filtreren door een datumgebied. Bovendien, die een relatieve kortere weg van het datumvervanging in de interface van de rapportfilter selecteert bevolkt nu automatisch de bijbehorende vervangingsgebieden die op uw selectie worden gebaseerd. Voor meer informatie over het gebruiken van relatieve datumvervangingen in rapportfilters, zie [ Op datum-gebaseerde vervangingen van het Gebruik om rapporten ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md) te generaliseren.
 * Op gebruiker gebaseerde jokertekens in rapportfilters stellen nu relevante jokertekens voor voor automatisch aanvullen op basis van het geselecteerde veldtype. Voor meer informatie over op gebruiker-gebaseerde vervangingen in rapportfilters, zie [ Op gebruiker-gebaseerde vervangingen van het Gebruik om rapporten ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md) te generaliseren.
 * De rapporten met herinneringen die openbaar worden gedeeld zullen nu worden getoond zonder herinneringen die voor alle gebruikers worden toegepast die tot het door de openbare aandeelverbinding toegang hebben. Wordt geregistreerd in gebruikers die rechtstreeks toegang hebben tot het rapport, kunnen nog steeds vragen toepassen. Voor informatie over rapportherinneringen, zie [ een herinnering aan een rapport ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) toevoegen.
 * Wijzigingen in bestaande rapporten die de compatibiliteit met Canvasdashboards verbeteren.
@@ -41,25 +41,26 @@ _Deze updates worden uitgevoerd incrementeel in productie beginnend met 24.10 ve
 >
 >Productieversie voor alle klanten: In toenemende mate vanaf de release van 24.10 (17 oktober 2024), volledige beschikbaarheid tegen 8 november 2024
 
-We hebben verschillende updates van de dashboardinterface uitgevoerd die overeenkomen met het ontwerp van andere gebieden van Workfront. Deze updates bevatten enkele aanvullende wijzigingen in verschillende dashboardfuncties, waaronder:
+We hebben de dashboardinterface bijgewerkt en aangepast aan het ontwerp van andere gebieden van Workfront. Deze updates bevatten aanvullende wijzigingen in dashboardfuncties:
 
-* Het afdrukvoorvertoningsscherm tijdens het afdrukken van een dashboard is verbeterd. Zie [] voor informatie over het afdrukken van een dashboard
+* Het afdrukvoorvertoningsscherm is verbeterd wanneer u een dashboard afdrukt. Voor informatie over het drukken van een dashboard, zie [ een dashboard ](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md) drukken.
+* We hebben de tabbladen Alles, Rapporten en Kalenders verwijderd uit de Dashboard-editor onder Beschikbare rapporten en kalenders. Voor meer informatie over het toevoegen van rapporten en kalenders aan een dashboard, zie [ een dashboard ](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md) uitgeven.
 
 Voor algemene informatie over dashboards, zie [ dashboards ](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md) creëren en beheren.
 
 _Deze updates worden uitgevoerd incrementeel in productie beginnend met 24.10 versie op 17 oktober 2024. De veranderingen zullen aan slechts een klein aantal klanten in eerste instantie beschikbaar zijn, die in tijd steeds meer beschikbaar worden tot volledig beschikbaar voor alle klanten tegen 8 November, 2024._
 
-## Zoeken in updates voor filters en weergaven
+## Zoeken in updates voor weergaven, groeperingen en verouderde filters in lijsten
 
 >[!NOTE]
 >
 >Productieversie voor alle klanten: In toenemende mate vanaf de release van 24.10 (17 oktober 2024), volledige beschikbaarheid tegen 8 november 2024
 
-We hebben verschillende updates van de filters en weergaven uitgevoerd, zodat deze overeenkomen met het ontwerp van andere gebieden van Workfront. Deze updates bevatten enkele aanvullende wijzigingen in weergaven en de oudere filterinterface, waaronder:
+We hebben de weergaven, groeperingen en verouderde filters in lijsten bijgewerkt zodat deze overeenkomen met het ontwerp van andere gebieden van Workfront. Deze updates bevatten aanvullende wijzigingen in weergaven, groepen en verouderde filters in lijsten:
 
-* Er is een uitgevouwen kleurenpalet toegevoegd voor voorwaardelijke opmaakregels in rapporten. Voor meer informatie over voorwaardelijk het formatteren, zie [ Voorwaardelijk het Gebruik formatteren in meningen ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
-* Er is een nieuwe knop Tekstmodus bewerken toegevoegd om de tekstmodus te activeren wanneer u een kolom bewerkt terwijl u een nieuwe weergave maakt. Voor meer informatie over het uitgeven van meningen op tekstwijze, zie [ een mening uitgeven gebruikend tekstwijze ](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md).
-* Er is een nieuwe schakeloptie toegevoegd aan de oudere filterinterface om te schakelen tussen een kalenderdatumkiezer en een tekstveld met een relatief datumjokerteken bij het filteren op een datumveld. Bovendien, die een relatieve kortere weg van het datumvervanging in de interface van de rapportfilter selecteert bevolkt nu automatisch de bijbehorende vervangingsgebieden die op uw selectie worden gebaseerd.
+* Een uitgevouwen kleurenpalet voor voorwaardelijke opmaakregels in rapporten. Voor meer informatie over voorwaardelijk het formatteren, zie [ Voorwaardelijk het Gebruik formatteren in meningen ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+* Een nieuwe knop Tekstmodus bewerken om de tekstmodus te activeren wanneer u een kolom bewerkt terwijl u een nieuwe weergave maakt. Voor meer informatie over het uitgeven van meningen op tekstwijze, zie [ een mening uitgeven gebruikend tekstwijze ](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md).
+* Een nieuwe knevel aan de interface van de erfenisfilter om tussen een selecteur van de kalenderdatum en een relatief gebied van de datumvervanging te schakelen wanneer het filtreren door een datumgebied. Bovendien, die een relatieve kortere weg van het datumvervanging in de interface van de rapportfilter selecteert bevolkt nu automatisch de bijbehorende vervangingsgebieden die op uw selectie worden gebaseerd.
 * Op gebruiker gebaseerde jokertekens in verouderde filters suggereren nu relevante jokertekens voor automatisch aanvullen op basis van het geselecteerde veldtype. Voor meer informatie over het gebruiken van erfenisfilters, zie [ filters in Adobe Workfront ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md) creëren of uitgeven.
 
 _Deze updates worden uitgevoerd incrementeel in productie beginnend met 24.10 versie op 17 oktober 2024. De veranderingen zullen aan slechts een klein aantal klanten in eerste instantie beschikbaar zijn, die in tijd steeds meer beschikbaar worden tot volledig beschikbaar voor alle klanten tegen 8 November, 2024._
