@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 507145d1afb1f497dc34072d455ee443263361fe
+source-git-commit: 43cf88c533b80324266f0660648c6a1ab13ca8fc
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '905'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
 
 1. Klik de benedenpijl ![](assets/dropdown-arrow.png) onder **aanpassen welke gebruikers** zien, dan klik **Samenvattend paneel**.
 
-1. In de lijst op de linkerzijde, klik het objecten type (**Taken**, **Kwesties**, **Projecten**, **Documenten**, of **Versies van het Document**) dat u in Huis en Samenvatting wilt aanpassen.
+1. In de lijst op de linkerzijde, klik het objecten type (**Taken**, **Kwesties**, **Projecten**, **Documenten**, of **Versies van het Document**) dat u in het Summiere paneel wilt aanpassen.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -115,7 +115,7 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
 
    ![](assets/choose-cat-cstmz-nwe-adobe-branding.png)
 
-1. (Voorwaardelijk) als de **Vastgestelde primaire actieknoop** drop-down menu verschijnt (als u **Taken** of **Kwesties** in de lijst op de linkerzijde) selecteert, klik de primaire actie (**Gereed** of **Status**) die u beschikbaar voor gebruikers in het gebied van het Huis en in het Summiere paneel wilt wanneer zij een taak of een kwestie bekijken.
+1. (Voorwaardelijk) als de **Vastgestelde primaire actieknoop** drop-down menu verschijnt (als u **Taken** of **Kwesties** in de lijst op de linkerzijde) selecteert, klik de primaire actie (**Gedaan** of **Status**) die u beschikbaar voor gebruikers in het Samenvattende paneel wilt wanneer zij een taak of een kwestie bekijken.
 
    ![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
 
@@ -124,7 +124,7 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
    ![](assets/lt-home-add-hide-fields-adobe-branding.png)
 
 1. Herhaal stap 3-6 om het deelvenster Samenvatting aan te passen voor andere objecttypen.
-1. Klik **Globale montages**, dichtbij de lagere linkerhoek, dan toelaten of onbruikbaar maken om het even welke volgende opties met betrekking tot de voorwerpen van Adobe Workfront in Huis en Samenvatting:
+1. Klik **Globale montages**, dichtbij de lagere linkerhoek, dan toelaten of onbruikbaar maken om het even welke volgende opties met betrekking tot de voorwerpen van Adobe Workfront in de Samenvatting:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -132,7 +132,7 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
     <tbody> 
      <tr> 
       <td role="rowheader">Updates tonen voor werk</td> 
-      <td>Hiermee geeft u updates weer voor een geselecteerde taak of uitgave in Home of Summary. Dit omvat zowel systeemupdates als updates die door een gebruiker zijn gemaakt. De gebruikers kunnen systeemupdates nog uit filtreren, zoals die in <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable" class="MCXref xref"> worden beschreven toelaten of systeemupdates </a> in <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref"> werk van de Update </a> onbruikbaar maken.</td> 
+      <td>Hiermee geeft u updates weer voor een geselecteerde taak of uitgave in het deelvenster Samenvatting. Dit omvat zowel systeemupdates als updates die door een gebruiker zijn gemaakt. De gebruikers kunnen systeemupdates nog uit filtreren, zoals die in <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable" class="MCXref xref"> worden beschreven toelaten of systeemupdates </a> in <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref"> werk van de Update </a> onbruikbaar maken.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Logtijd van arbeid</td> 
@@ -140,16 +140,16 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
      </tr> 
      <tr> 
       <td role="rowheader">Documenten weergeven die zijn gekoppeld aan werk</td> 
-      <td>Hiermee geeft u een gebied Documenten weer in Home en Overzicht wanneer een taak of uitgave is geselecteerd en geeft u een lijst weer van de documenten die aan de taak of uitgave zijn gekoppeld. Gebruikers kunnen op documenten klikken om deze weer te geven in een voorvertoningsvenster.</td> 
+      <td>Hiermee geeft u een gebied Documenten in het deelvenster Samenvatting weer wanneer een taak of uitgave is geselecteerd en alle documenten worden weergegeven die aan de taak of uitgave zijn gekoppeld. Gebruikers kunnen op documenten klikken om deze weer te geven in een voorvertoningsvenster.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Tijdstempel verbergen</td> 
-      <td>Hiermee verbergt u tijdstempels voor de volgende datumvelden in Home en Summary:
+      <td>Hiermee verbergt u tijdstempels voor de volgende datumvelden in het deelvenster Samenvatting:
        <ul>
         <li>Geplande afsluitdatum</li>
         <li>Vastlegdatum</li>
         <li>Verzenddatum</li>
-       </ul><p><b> NOTA </b>:</p> <p> Wanneer deze optie is ingeschakeld, worden de tijdelijke items die achterstallig worden, verplaatst naar de laatste groep in de lijst met thuiswerk, die alleen op datum is gebaseerd, en niet op tijd.</p></td> 
+       </ul></td> 
      </tr> 
     </tbody> 
    </table>

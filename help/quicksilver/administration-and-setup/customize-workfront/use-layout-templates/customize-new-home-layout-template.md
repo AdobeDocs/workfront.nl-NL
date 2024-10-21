@@ -3,21 +3,21 @@ title: Nieuwe startpagina aanpassen met een lay-outsjabloon
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: Met een lay-outsjabloon kunt u configureren wat gebruikers zien wanneer ze nieuwe startpagina openen.
+description: Met een lay-outsjabloon kunt u configureren wat gebruikers zien wanneer ze Home openen.
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 1426f806b72d740712eba5e337c8424f8af6c9dc
+source-git-commit: 0a19683e2311b1acc57423f5cb5a7dd141c8b79c
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '841'
 ht-degree: 0%
 
 ---
 
-# Nieuwe startpagina aanpassen met een lay-outsjabloon
+# Home aanpassen met een lay-outsjabloon
 
-Met een lay-outsjabloon kunt u configureren wat gebruikers zien wanneer ze nieuwe startpagina voor het eerst openen.
+Met een lay-outsjabloon kunt u configureren wat gebruikers zien wanneer ze voor het eerst Home openen.
 
 U kunt configureren:
 
@@ -33,7 +33,7 @@ U kunt configureren:
 
 
 
-Voor informatie over nieuw Huis, zie [ begonnen worden met Huis ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
+Voor informatie over huis, zie [ begonnen worden met Huis ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
 Voor informatie over het creëren van lay-outmalplaatjes, zie [ lay-outmalplaatjes ](../use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
 
@@ -73,9 +73,9 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
 
 +++
 
-## Nieuwe startpagina aanpassen met een lay-outsjabloon
+## Home aanpassen met een lay-outsjabloon
 
-Nieuwe startpagina aanpassen met een lay-outsjabloon:
+Home aanpassen met een lay-outsjabloon:
 
 1. Begin werkend aan een lay-outmalplaatje, zoals die in [ wordt beschreven creeer en beheer lay-outmalplaatjes ](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -91,13 +91,13 @@ Nieuwe startpagina aanpassen met een lay-outsjabloon:
       <td role="rowheader">Ontwerp en lay-out</td> 
       <td>
       <p>Selecteer welke widgets in de werkruimten van de gebruikers aanwezig zullen zijn, hun positie, en kies een achtergrond. Hoewel gebruikers de geselecteerde widgets niet kunnen verwijderen, kunnen ze deze wel verplaatsen, de grootte ervan wijzigen en extra widgets toevoegen.</p>
-      <p>Dit lusje functioneert hoofdzakelijk als kleine nieuwe werkruimte van het Huis; als dusdanig, kan het volgens de stappen worden aangepast die in <a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md" class="MCXref xref"> worden beschreven toevoegen, uitgeven, of verwijder widgets in Huis </a>. Selecteer widgets en rangschik de werkruimte zoals u deze voor gebruikers wilt weergeven.</p>
+      <p>Dit lusje functioneert hoofdzakelijk als kleine werkruimte van het Huis; als dusdanig, kan het volgens de stappen worden aangepast die in <a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md" class="MCXref xref"> worden beschreven toevoegen, uitgeven, of verwijder widgets in Huis </a>. Selecteer widgets en rangschik de werkruimte zoals u deze voor gebruikers wilt weergeven.</p>
       <p>Om de achtergrond te veranderen, volg de stappen onder <b> aanpassing van de Achtergrond </b> in <a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md" class="MCXref xref"> begonnen worden met Huis </a>.</p>
       <p>
 
 >[!NOTE]
 >
->Alleen het verplaatsen of vergroten of verkleinen van widgets in de Lay-outsjabloon leidt ertoe dat de nieuwe startpagina&#39;s van gebruikers hun lay-out niet bijwerken. Als u echter een widget toevoegt of verwijdert, wordt de pagina&#39;s van de gebruiker bijgewerkt.
+>Alleen het verplaatsen of vergroten of verkleinen van widgets in de Lay-outsjabloon activeert de homepages van gebruikers niet om hun lay-out bij te werken. Als u echter een widget toevoegt of verwijdert, wordt de pagina&#39;s van de gebruiker bijgewerkt.
 
 </p>
      </td> 
@@ -119,7 +119,8 @@ Nieuwe startpagina aanpassen met een lay-outsjabloon:
 
 >[!IMPORTANT]
 >
->Gebruikers moeten ten minste toegang tot weergaven maken hebben om de configuratie van de beheerderskolom correct toe te passen op hun nieuwe startpagina&#39;s.
+>* De opties Filter, Kolommen en Groep zijn gekoppeld aan de opties voor het aanpassen van de lijst in het Lay-outsjabloon. Wijzigingen die u hier aanbrengt, worden ook op deze instellingen toegepast.
+>* Gebruikers moeten ten minste toegang tot weergaven maken hebben om de configuratie van de beheerderskolom correct toe te passen op hun startpagina&#39;s.
 
 </p>
       <li><p><b>Stel een standaardfilter of -groep in voor de widget:</b></p>
@@ -147,4 +148,4 @@ Nieuwe startpagina aanpassen met een lay-outsjabloon:
 
 >[!IMPORTANT]
 >
->U moet de nieuwe startpagina vernieuwen om aanpassingen in de lay-outsjabloon te kunnen zien.
+>U moet de startpagina vernieuwen om aanpassingen in de lay-outsjabloon te kunnen zien.
