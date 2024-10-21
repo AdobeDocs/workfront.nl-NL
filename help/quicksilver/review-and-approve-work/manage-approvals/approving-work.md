@@ -6,9 +6,9 @@ description: Goedkeuring van de werkzaamheden
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6e43edbb-14dd-493d-a76b-84be6c3bef82
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: 216bf9ea9cb58294b42cc41d70ca0ab99b6dc827
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '893'
 ht-degree: 0%
 
 ---
@@ -66,68 +66,75 @@ Voor meer informatie over het bekijken van punten die op goedkeuring wachten of 
 
 ## Werk goedkeuren vanuit het thuisgebied
 
-1. Klik het **pictogram van het Huis** ![](assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.
+1. Klik op **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek en klik vervolgens op **[!UICONTROL Home]** .
+1. (Voorwaardelijk) klik **aanpassen** om **Mijn goedkeurt** widget toe te voegen.
+1. (Voorwaardelijk) klik het **drop-down menu van de Filter**, dan selecteer **allen** om goedkeuringen te zien die aan u worden toegewezen en worden gedelegeerd.
 
    >[!NOTE]
    >
-   >Uw Workfront-beheerder kan de volgende wijzigingen aanbrengen in het pictogram Home in uw omgeving:
-   >
-   >   
-   >* Vervang deze door een afbeelding die is aangepast om uw organisatie te illustreren. In dit geval ziet het pictogram er anders uit dan in dit artikel.
-   >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **Belangrijkste Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik **Huis**.
+   >Goedkeuringen die zijn toegewezen aan taakrollen of -groepen worden niet weergegeven in Home. De goedkeuringen die aan de vertoning van Teams in Mijn widget Goedkeuren voor elk teamlid worden toegewezen.
 
-1. Klik het **drop-down menu van de Filter**.
 
-   ![](assets/displaying-work-items-filters-nwe-350x401.png)
-
-1. Selecteer **Goedkeuringen**.\
-   Alle werkitems waarvoor goedkeuring is vereist, worden weergegeven. 
-
-   >[!NOTE]
-   >
-   >Goedkeuringen die zijn toegewezen aan taakrollen of -groepen worden niet weergegeven in Home. De goedkeuringen die aan Teams worden toegewezen tonen in de Groep van het Verzoek van het Team in de Lijst van het Werk.
-
-1. (Facultatief) verander de orde waarin de goedkeuringen worden getoond, zoals die in de sectie &quot;Groep en soort door Datum, Project, of Prioriteit&quot;in de punten van de artikel [ Vertoning in de Lijst van het Werk in het gebied van het Huis ](../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md) worden beschreven.
 1. Selecteer het item waarop u een goedkeuringsbesluit wilt nemen.
 
-   ![](assets/task-approval-home-350x127.png)
+   ![](assets/my-approvals-widget.png)
 
 1. Klik op een van de beschikbare opties wanneer u een goedkeuringsbesluit neemt in het rechterdeelvenster. De volgende opties worden in de rechterbovenhoek van de pagina weergegeven, afhankelijk van het type item dat u goedkeurt:
 
-   * **Projecten:** klik **goedkeuren** of **verwerpen**.
+   <table>
+   <tr>
+      <td>
+      <p><strong>Toegang</strong></p>
+      </td>
+      <td>
+      <p><strong>Werkitems</strong></p>
+      </td>
+      <td>
+      <p><strong>Documenten</strong></p>
+      </td>
+      <td>
+      <p><strong>Proefdrukken</strong></p>
+      </td>
+   </tr>
+   <tr>
+      <td>
+       <ul>
+      <li>Subsidie</li>
+      <li>Negeren</li>
+      </ul>
+      U kunt het niveau van toegang in het <b> toegang van de Verandering </b> drop-down menu indien gewenst aanpassen.
+      </td>
+      <td>
+         <ul>
+         <li>Goedkeuren</li>
+         <li>Afwijzen</li>
+         </ul>
+      U kunt een commentaar met uw besluit verlaten door het drop-down menu in de beslissingsknoop te klikken.
+      </td>
+      <td>
+   Toegewezen als fiatteur
+         <ul>
+         <li>Goedkeuren</li>
+         <li>Goedkeuren met wijzigingen</li>
+         <li>Werking vereist</li>
+         </ul>
+   Toegewezen als revisor
+         <ul>
+         <li>Mijn revisie voltooien</li>
+         </ul>
+      De opties in deze kolom zijn alleen van toepassing op goedkeuringen voor nieuwe documenten. Goedkeuringen van oudere documenten zijn hetzelfde als goedkeuringen van werkitems. 
+      </td>
+      <td>
+         <ul>
+         <li>Ga naar proefdruk</li>
+         </ul>
+         U neemt uw besluit in de bewijsviewer. Voor informatie over het herzien van een proef, zie <a href="../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md"> proefdrukken van het Overzicht binnen Adobe Workfront </a>.
+      </td>
+   </tr>
+   </table>
 
-   * **Taken:** klik **goedkeuren** of **verwerpen**.
+Nadat u een beslissing hebt genomen, wordt de goedkeuring verwijderd uit de Mijn widget Goedkeuring.
 
-   * **Kwesties:** klik **goedkeuren** of **verwerping**.
-
-   * **Tijdopnemers:** klik **goedkeuren** of **verwerping**.
-
-   * **Documenten:** klik **goedkeuren**, **verwerping**, of **Veranderingen**.\
-      Houd rekening met het volgende wanneer u de afbeelding bekijkt  goedkeuringen:
-
-      * De goedkeuringen van het bewijs tonen hier wanneer een gebruiker een proef met u deelt, zoals die in de sectie &quot;een proefverbinding&quot;in het artikel [ wordt beschreven Deel een proef binnen Adobe Workfront ](../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
-      * Goedkeuringen voor proefdrukken worden alleen weergegeven in het gedeelte Home als uw Workfront-omgeving is geïntegreerd met een Workfront Proof Premium-account. Neem contact op met de Workfront-beheerder als u geen gebruik kunt maken van de hier beschreven proefdrukken.
-      * U ontvangt een melding in de app waarin u op de hoogte wordt gebracht van de goedkeuring voor proefdrukken.\
-        Voor meer informatie over in-app berichten, zie [ Mening en beheer in-app berichten ](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
-
-      * De naam van de gebruiker die goedkeuring heeft aangevraagd, wordt weergegeven naast de miniatuurafbeelding in het gebied Home, met de volgende tekst:\
-        &quot;*Gebruiker A* zou uw goedkeuring willen op...&quot;
-
-        <!--      
-        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">      
-        (NOTE:&nbsp;From&nbsp;Courtney: Is this true?)      
-        </MadCap:conditionalText>      
-        -->
-
-        Als de gebruikersnaam niet beschikbaar is, wordt de volgende tekst weergegeven:\
-        &quot;Een nieuwe versie van een proefdruk kan worden weergegeven&quot;
-      * Om een goedkeuringsbesluit over de proef te maken, klik **gaan naar Bewijs**, **de overzicht van de Voltooiing**, dan klik één van de beschikbare opties. De beschikbare opties wanneer het goedkeuren van een proef zijn: **Goedgekeurd**, **goedgekeurd met veranderingen**, **vereiste Veranderingen**, en **niet relevant**.
-
-      * Nadat een besluit op het bewijs wordt genomen, blijft het bewijs in het Mijn lusje van Goedkeuringen met de tekst &quot;Beslissing Made&quot;tot u **klikt verfrissen** knoop, of tot u de browser pagina vernieuwt.
-
-        Voor informatie over het herzien van een proef, zie [ proefdrukken van het Overzicht binnen Adobe Workfront ](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
-
-   * **Toegang:** selecteer het niveau van toegang om in het **toegang van de Verandering** drop-down menu te verlenen, dan klik **Toegang van de Verlening**. Of, klik **negeren**.
 
 ## Het werk rechtstreeks vanuit een project, taak of probleem goedkeuren
 

@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 7bae31a9454c88bd0e5525f4b4d11cd9e76ccd39
+source-git-commit: 1426f806b72d740712eba5e337c8424f8af6c9dc
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '824'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ U kunt configureren:
 
 
 
-Voor informatie over nieuw Huis, zie [ begonnen worden met Nieuw Huis ](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+Voor informatie over nieuw Huis, zie [ begonnen worden met Huis ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
 Voor informatie over het creëren van lay-outmalplaatjes, zie [ lay-outmalplaatjes ](../use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
 
@@ -91,8 +91,8 @@ Nieuwe startpagina aanpassen met een lay-outsjabloon:
       <td role="rowheader">Ontwerp en lay-out</td> 
       <td>
       <p>Selecteer welke widgets in de werkruimten van de gebruikers aanwezig zullen zijn, hun positie, en kies een achtergrond. Hoewel gebruikers de geselecteerde widgets niet kunnen verwijderen, kunnen ze deze wel verplaatsen, de grootte ervan wijzigen en extra widgets toevoegen.</p>
-      <p>Dit lusje functioneert hoofdzakelijk als kleine nieuwe werkruimte van het Huis; als dusdanig, kan het volgens de stappen worden aangepast die in <a href="/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md" class="MCXref xref"> worden beschreven toevoegen, uitgeven, of verwijder widgets in nieuw Huis </a>. Selecteer widgets en rangschik de werkruimte zoals u deze voor gebruikers wilt weergeven.</p>
-      <p>Om de achtergrond te veranderen, volg de stappen onder <b> aanpassing van de Achtergrond </b> in <a href="/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md" class="MCXref xref"> begonnen worden met Nieuw Huis </a>.</p>
+      <p>Dit lusje functioneert hoofdzakelijk als kleine nieuwe werkruimte van het Huis; als dusdanig, kan het volgens de stappen worden aangepast die in <a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md" class="MCXref xref"> worden beschreven toevoegen, uitgeven, of verwijder widgets in Huis </a>. Selecteer widgets en rangschik de werkruimte zoals u deze voor gebruikers wilt weergeven.</p>
+      <p>Om de achtergrond te veranderen, volg de stappen onder <b> aanpassing van de Achtergrond </b> in <a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md" class="MCXref xref"> begonnen worden met Huis </a>.</p>
       <p>
 
 >[!NOTE]

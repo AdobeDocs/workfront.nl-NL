@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: use-the-home-area
 title: Een item markeren als Gereed in het gebied Home
 description: U kunt een taak of een kwestie merken zoals Gedaan als u de taak of uitgeverij bent. Wanneer u een taak of kwestie als Gedaan markeert, wordt de status van de taak of de kwestie veranderd in Voltooid.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 4c3638aa-5ee3-422a-9fee-41c4749fe48b
-source-git-commit: 073e6c7d4e830dfd2b8920a20e1490c5524d71bd
+source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '787'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ U kunt een taak of een kwestie merken zoals Gedaan als u de taak of uitgeverij b
 >[!NOTE]
 >
 >U ziet de knop [!UICONTROL Done] alleen als u een van de bronnen bent die aan de taak of de uitgave zijn toegewezen.
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 ## Toegangsvereisten
 
@@ -52,18 +54,27 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 &#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
-## Een taak of probleem markeren als [!UICONTROL Done]
++++
 
-Alleen de gebruiker die aan de taak of uitgave is toegewezen, kan deze markeren als [!UICONTROL Done] .
+## Een tijdelijk item markeren als Gereed in de widget Mijn werk
 
 1. Klik op **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek en klik vervolgens op **[!UICONTROL Home]** .
-1. Zoek in de **[!UICONTROL Work List]** een of meer items die wachten op bewerking.
-1. Voer een van de volgende handelingen uit:
+1. (Voorwaardelijk) klik **aanpassen** om **Mijn werk** widget toe te voegen.
+1. Zoek het werkitem en klik op **[!UICONTROL Mark as Done]** op het werkitem.
+Zie [ de opties van de [!UICONTROL Done] knoop ](#understand-the-options-of-the-done-button) voor meer gedetailleerde informatie over hoe deze knoop zou kunnen verschijnen.
+   ![](assets/my-work-done.png)
 
-* Klik op **[!UICONTROL Done]** op het werkitem.\
-   Zie [ de opties van de [!UICONTROL Done] knoop ](#understand-the-options-of-the-done-button) voor meer gedetailleerde informatie over hoe deze knoop zou kunnen verschijnen.
 
-* Selecteer het item dat u wilt markeren, klik vervolgens in het rechterdeelvenster op **[!UICONTROL Update Status]** en wijzig de status van het item in een status die gelijk is aan [!UICONTROL Complete] of [!UICONTROL Closed] .
+## Een werkitem markeren dat is voltooid in het deelvenster Samenvatting
+
+U kunt een werkitem markeren als Gereed in de widget Mijn taken en Mijn problemen via het deelvenster Samenvatting.
+
+1. Klik op **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek en klik vervolgens op **[!UICONTROL Home]** .
+1. (Voorwaardelijk) klik **aanpassen** om **Mijn Taken** toe te voegen of **Mijn Kwesties** widgets.
+1. Beweeg over het het werkpunt, dan klik het **Summiere** pictogram.
+   ![](assets/open-summary-new-home.png)
+1. Klik **Teken zoals gedaan** bij de bovenkant van het Summiere paneel.
+
 
 ## De opties van de knop [!UICONTROL Done] begrijpen
 
@@ -81,7 +92,7 @@ Afhankelijk van het aantal statussen dat aan de knop [!UICONTROL Done] is gekopp
 
 Wanneer de knop [!UICONTROL Done] aan één status is gekoppeld en het werkitem alleen aan u is toegewezen, wordt **[!UICONTROL Done]** op de knop weergegeven. Wanneer u erop klikt, wordt de status van de taak of uitgave gewijzigd in de status die aan de knop [!UICONTROL Done] is gekoppeld.
 
-![ Gereed knoop ](assets/Done.png)
+![ Gereed knoop ](assets/done-button-status.png)
 
 Om te begrijpen welke status met de [!UICONTROL Done] knoop wordt geassocieerd, controleer [!UICONTROL Team Settings] van uw Team van het Huis voor de [!UICONTROL Done Button] sectie, zoals die in [ wordt beschreven geef teammontages ](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md) uit.
 
@@ -93,17 +104,14 @@ Wanneer de knop [!UICONTROL Done] aan meer dan één status is gekoppeld, wordt 
 
 Om te begrijpen hoe u veelvoudige statussen met de [!UICONTROL Done] knoop kunt associëren, zie [ de [!UICONTROL Done] knoop voor taken ](../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md) vormen en [ de [!UICONTROL Done] knoop voor kwesties ](../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md) vormen.
 
-<!--
-<img src="assets/marking-an-item-done-multiple-statuses-350x171.png" style="width: 350;height: 171;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
--->
-
 ### [!UICONTROL Done] voor items die zijn toegewezen aan meerdere bronnen
 
-Wanneer de taak of de kwestie aan meer dan één middel wordt toegewezen, toont de knoop het woord **[!UICONTROL Done]** dat door een drop-down menu wordt gevolgd. In het vervolgkeuzemenu kunt u kiezen tussen **[!UICONTROL Done with my part]** (wat teamleden laat weten dat u helemaal klaar bent met het gedeelte van de taak) of de status die aan de knop [!UICONTROL Done] is gekoppeld (waarmee het item wordt voltooid). Nadat u **[!UICONTROL Done with my part]** selecteert, wordt het het werkpunt verwijderd uit uw Lijst van het Werk, maar blijft in de Lijst van het Werk van die nog toegewezen aan het het werkpunt.\
+Wanneer de taak of de kwestie aan meer dan één middel wordt toegewezen, toont de knoop het woord **[!UICONTROL Done]** dat door een drop-down menu wordt gevolgd. In het vervolgkeuzemenu kunt u kiezen tussen **[!UICONTROL Done with my part]** (wat teamleden laat weten dat u helemaal klaar bent met uw gedeelte van de taak) of de status die is gekoppeld aan de knop [!UICONTROL Done] (die het onderdeel voltooit). Nadat u **[!UICONTROL Done with my part]** selecteert, wordt het het werkpunt verwijderd uit uw Lijst van het Werk, maar blijft in de Lijst van het Werk van die nog toegewezen aan het het werkpunt.\
 Als de Gedaan knoop met veelvoudige statussen wordt geassocieerd, zijn zij vermeld onder **Gedaan met mijn deel**.
 
 >[!NOTE]
 >
 >Bij een taak of kwestie met veelvoudige toegewezen, is elke gebruiker verantwoordelijk voor het erop wijzen dat hun eigen taak op de taak of de kwestie eigenlijk is voltooid. Daarom moet elke ontvanger op [!UICONTROL Done] klikken om te tonen dat hij of zij het werk heeft voltooid dat aan hem of haar is toegewezen op het item.
 
-![](assets/marking-an-item-done-with-my-part-grop-by-drop-down-nwe-350x266.png)
+![](assets/done-with-my-part.png)
+

@@ -6,7 +6,7 @@ description: U kunt het werk tijdelijk delegeren u aan wordt toegewezen terwijl 
 author: Alina
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 9d0caff0381ee50bf8dd7060bebafb5354c0f0d8
 workflow-type: tm+mt
 source-wordcount: '1477'
 ht-degree: 0%
@@ -107,7 +107,7 @@ Uw taken en problemen delegeren aan anderen:
 1. Ga naar het [!UICONTROL **Begin**] gebied.
 1. Verzeker u [!UICONTROL **Mijn Werk**] hebt, [!UICONTROL **Mijn Taken**], of [!UICONTROL **Mijn Uitgeven**] widgets toegevoegd aan uw [!UICONTROL **Huis**].
 
-   Voor informatie, zie [ toevoegen, uitgeven, of verwijder widgets in Huis ](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
+   Voor informatie, zie [ toevoegen, uitgeven, of verwijder widgets in Huis ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)
 
 1. Klik [!UICONTROL **Afgevaardigde**] in de upper-left hoek van [!UICONTROL **Mijn Werk**], [!UICONTROL **Mijn Taken**], of [!UICONTROL **Mijn Kwesties**] widgets.
 

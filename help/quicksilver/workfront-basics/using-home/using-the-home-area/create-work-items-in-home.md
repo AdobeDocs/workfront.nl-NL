@@ -1,25 +1,26 @@
 ---
 product-area: projects
 navigation-topic: use-the-home-area
-title: Werkitems maken vanuit het gebied Home
-description: U kunt werkitems maken vanuit het [!UICONTROL Home] -gebied. U kunt persoonlijke taken voor uzelf maken, werk aanvragen bij andere gebruikers of taken toevoegen aan specifieke projecten.
-author: Nolan
+title: Werkitems en projecten maken vanuit het thuisgebied
+description: U kunt werkitems en projecten maken vanuit het [!UICONTROL Home] -gebied.
+author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 644e2487dae0d3b2f7931660fb8e6ed68e6b8b93
+source-git-commit: 5ff0fabb60cb9e7c2a7b3506693efdb6c5d8e956
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
 
-# Werkitems maken vanuit het gebied Home
+# Werkitems en projecten maken vanuit het thuisgebied
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: From Courtney: Need to rename)</p>
--->
+U kunt werkitems en projecten maken vanuit het [!UICONTROL Home] -gebied. Vanaf Home kunt u
 
-U kunt werkitems maken vanuit het [!UICONTROL Home] -gebied. U kunt persoonlijke taken voor uzelf maken, werk aanvragen bij andere gebruikers of taken toevoegen aan specifieke projecten.
+* Persoonlijke handelingen voor uzelf maken
+* Verzoeken verzenden
+* Taken en problemen toevoegen aan specifieke projecten
+* Creeer projecten van een malplaatje, leeg project, of voer een project van MS in.
 
 ## Toegangsvereisten
 
@@ -51,71 +52,117 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 &#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
-## Een persoonlijke taak maken
+## Een persoonlijk te-doen item maken
 
-U kunt een persoonlijke taak maken die alleen voor u beschikbaar is in het gebied [!UICONTROL Home] :
-
-1. Klik op **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek en klik vervolgens op **[!UICONTROL Home]** .
-1. Klik op **[!UICONTROL New Task]** > **[!UICONTROL Personal]** .
-
-   ![](assets/creating-work-items-new-task-personal-nwe-350x228.png)
-
-1. Geef in het veld **[!UICONTROL Name]** een naam voor de taak op.
-1. (Optioneel) Klik op **[!UICONTROL Select date]** en selecteer de datum waarop de taak moet worden uitgevoerd. Hiermee stelt u de [!UICONTROL Planned Completion Date] voor de taak in.\
-   U kunt de **[!UICONTROL Planned Completion Date]** wijzigen door op de datum in het rechterdeelvenster te klikken of door de **[!UICONTROL This will be done by]** -datum rechtstreeks in de taak te bewerken.
-
-1. Klik op **[!UICONTROL Create]** om de taak op te slaan.\
-   De taak wordt aan u toegewezen en is beschikbaar in het [!UICONTROL Home] -gebied.
-
->[!NOTE]
->
->* Wanneer u een persoonlijke taak maakt, wordt deze opgeslagen in een &quot;verborgen&quot; project waarin niet kan worden gezocht in [!UICONTROL Workfront] . Het project krijgt de naam &quot;&lt; Gebruikersnaam > Taken&quot;. De &quot;Naam van de Gebruiker&quot;is de volledige naam van de gebruiker die de taak creeerde. U hebt alleen toegang tot dit project als u in het gebied [!UICONTROL Home] op de persoonlijke taak klikt, bijvoorbeeld via de broodkruimel van de taak.
->
->* In tegenstelling tot gewone projecttaken, hebben de persoonlijke taken een beperkte reeks gebieden die in de interface van Workfront zichtbaar zijn, en beïnvloeden niet de chronologie of de vooruitgang van om het even welk project. Het opnieuw toewijzen van een persoonlijke taak aan een andere gebruiker voegt alle taakgebieden aan een persoonlijke taak toe, maar de taak blijft op het persoonlijke project van de gebruiker die de taak creeerde.
->
->
->* De persoonlijke taken tonen slechts op timesheets wanneer zij het programma geopende uren hebben of zij worden vastgezet aan timesheet. U kunt een persoonlijke taak aan een timesheet slechts vastzetten wanneer er uren voor de taak het programma worden geopend. Voor meer informatie, zie [ tijd van het Logboek ](../../../timesheets/create-and-manage-timesheets/log-time.md).
-> 
->* Wij adviseren dat u een project creeert en om het even welke persoonlijke taken naar het verplaatst, als u persoonlijke taken een deel van het regelmatige werkschema wilt maken.
->
-> ![[!UICONTROL Project for personal tasks]](assets/createworkitems-personal--project-350x105.png)
-
-## Werk aanvragen van een andere gebruiker
-
-U kunt rechtstreeks vanuit het gebied Home een verzoek indienen bij een andere gebruiker. Wanneer u het werk van een andere gebruiker zoals die in deze sectie wordt beschreven verzoekt, wordt de taak getoond als verzoek in het gebied van het Huis van de gebruiker tot de gebruiker **[!UICONTROL Work On It]** klikt.
-
-U kunt als volgt het werk aanvragen bij een andere gebruiker vanuit het [!UICONTROL Home] -gebied:
+U kunt een persoonlijk item maken dat alleen voor u beschikbaar is in het gebied [!UICONTROL Home] :
 
 1. Klik op **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek en klik vervolgens op **[!UICONTROL Home]** .
-1. Klik op **[!UICONTROL New Task]** en selecteer vervolgens **[!UICONTROL Request]** .
+1. (Voorwaardelijk) Voeg de te doen widget aan uw huisscherm toe. Klik **aanpassen**, en vinden **aan-doet**.
+1. Ga naar **** widget, dan klik **toevoegen aan-doe**.
+1. Typ de
+1. (Facultatief) klik het **pictogram van de Datum** ![](assets/date-icon.png) om een vervaldatum voor het punt toe te voegen.
+   ![](assets/my-work-to-dos.png)
 
-   ![](assets/creating-work-items-new-task-request-nwe-350x283.png)
 
-1. Geef in het veld **[!UICONTROL Name]** een naam voor de taak op.
-1. Typ in het veld **[!UICONTROL Assign to]** de naam van de gebruiker, het team of de rol die u wilt toewijzen en klik vervolgens op de naam wanneer deze wordt weergegeven in het keuzemenu.
-1. Selecteer in de vervolgkeuzelijst [!UICONTROL Add As] of u een taak of uitgave wilt toevoegen.
-1. Klik op **[!UICONTROL Select date]** en selecteer vervolgens de datum en tijd waarop de taak moet worden uitgevoerd.
-1. Klik op **[!UICONTROL Create]** om de taak op te slaan.\
-   De taak wordt als een werkverzoek weergegeven in het [!UICONTROL Home] -gebied van de gebruiker die u hebt toegewezen.
 
-## Een taak of uitgave toevoegen aan een project
+## Een taak toevoegen aan een project
 
-U kunt een taak of een kwestie aan een bestaand project direct van het gebied van het Huis toevoegen:
+U kunt een taak aan een bestaand project direct van het gebied van het Huis toevoegen:
 
-1. Klik **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **Huis**.
-1. Klik op **[!UICONTROL New Task]** en selecteer vervolgens **[!UICONTROL Project Task]** .
+1. Klik op **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek en klik vervolgens op **[!UICONTROL Home]** .
+1. (Voorwaardelijk) voeg **Mijn Taken** widget aan uw huisscherm toe. Klik **aanpassen**, en vinden **Mijn Taken**.
+1. Ga naar **Mijn Taken** widget, dan klik **Nieuw**.
+   ![](assets/create-new-task.png)
+1. In het **Nieuwe de dialoogvakje van de Taak**, ga de taaknaam in.
+1. Typ een projectnaam en selecteer vervolgens de naam in de lijst.
+1. (Optioneel) Voer gegevens in de volgende velden in:
 
-   ![](assets/creating-work-items-new-project-task-nwe-350x358.png)
+   | Veld | Instructies |
+   |----------|----------|
+   | **Beschrijving** | Voer een beschrijving in. |
+   | **Taken** | Wijs gebruikers toe. |
+   | **Duur** | Voer de duur in. |
+   | **Geplande de Datum van de Voltooiing** | Kies een geplande voltooiingsdatum. |
+   | **Meer opties** | Kies meer opties om meer instellingen voor de taak te configureren. Voor meer informatie bij het creëren van taken, zie [ taken ](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven. |
 
-1. Geef in het veld **[!UICONTROL Name]** een naam op voor de taak of uitgave.
-1. Typ in het veld **[!UICONTROL Assign to]** de naam van de gebruiker, het team of de rol die u wilt toewijzen en klik vervolgens op de naam wanneer deze wordt weergegeven in het keuzemenu.
-1. Typ de naam van het project waar u de taak of uitgave wilt maken en klik vervolgens op de naam wanneer deze wordt weergegeven in het keuzemenu.
+1. Klik **creëren taak**.
 
-   >[!IMPORTANT]
-   >
-   >De taak of het probleem wordt alleen weergegeven op de [!UICONTROL Work List] als het project [!UICONTROL Status] is ingesteld op [!UICONTROL Current] .
 
-1. (Voorwaardelijk) Als u een uitgave wilt maken, selecteert u **[!UICONTROL Issue]** in de vervolgkeuzelijst **[!UICONTROL Add As]** . Standaard is **[!UICONTROL Task]** geselecteerd.
+## Een probleem toevoegen aan een project
 
-1. Klik op **[!UICONTROL Select date]** en selecteer vervolgens de datum en tijd waarop de taak moet worden uitgevoerd.
-1. Klik op **[!UICONTROL Create]** om de taak op te slaan.
+U kunt een kwestie aan een bestaand project direct van het gebied van het Huis toevoegen:
+
+1. Klik op **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek en klik vervolgens op **[!UICONTROL Home]** .
+1. (Voorwaardelijk) voeg **Mijn Uitgaven** widget aan uw huisscherm toe. Klik **aanpassen**, en vinden **Mijn Kwesties**.
+1. Ga naar **Mijn Kwesties** widget, dan klik **Nieuw**.
+   ![](assets/create-new-issue.png)
+1. In het **Nieuwe de dialoogvakje van de kwestie**, begin typend een projectnaam, dan selecteer de naam van de lijst.
+1. Voer een naam in voor de uitgave.
+1. (Optioneel) Voer gegevens in de volgende velden in:
+
+   | Veld | Instructies |
+   |----------|----------|
+   | **Beschrijving** | Voer een beschrijving in. |
+   | **Taken** | Wijs gebruikers toe. |
+   | **Prioriteit** | Kies een prioriteitsniveau. |
+   | **Documenten** | Upload een document. |
+
+1. Klik **sparen nieuwe kwestie**.
+
+## Een aanvraag maken
+
+U kunt een aanvraag rechtstreeks vanuit het gebied Home maken:
+
+1. Klik op **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek en klik vervolgens op **[!UICONTROL Home]** .
+1. (Voorwaardelijk) voeg **Mijn Verzoeken** widget aan uw huisscherm toe. Klik **aanpassen**, en vinden **Mijn Verzoeken**.
+1. Ga naar **Mijn Verzoeken** widget, dan klik **Nieuw**.
+   ![](assets/create-new-request.png)
+
+1. In de **Nieuwe verzoek** dialoog, begin typend de naam van de verzoekrij.
+1. Vul de relevante velden in.
+1. Klik **voorleggen**.
+
+Voor meer informatie over het voorleggen van verzoeken, zie [ verzoeken ](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
+
+## Een project maken
+
+U kunt een project direct van het gebied van het Huis tot stand brengen:
+
+1. Klik op **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek en klik vervolgens op **[!UICONTROL Home]** .
+1. (Voorwaardelijk) voeg **Mijn Projecten** widget aan uw huisscherm toe. Klik **aanpassen**, en vinden **Mijn Projecten**.
+1. Ga naar **Mijn Projecten** widget, dan klik **Nieuw**.
+   ![](assets/create-new-project.png)
+1. Kies een van de volgende opties:
+
+   | Veld | Instructies |
+   |----------|----------|
+   | Van een sjabloon | Ga naar [ creeer een project gebruikend een malplaatje ](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md) voor gedetailleerde instructies bij het creëren van een project van een malplaatje. |
+   | Leeg project | Ga naar [ creeer een project van kras ](/help/quicksilver/manage-work/projects/create-projects/create-project.md#create-a-project-from-scratch) voor gedetailleerde instructies bij het creëren van een leeg project. |
+   | MS-project importeren | Ga naar [ de Invoer een project van het Project van Microsoft ](/help/quicksilver/manage-work/projects/create-projects/import-project-from-ms-project.md) voor gedetailleerde instructies bij het invoeren van een project van MS. |
+
+
+<!--
+## Create a board
+
+You can create a board directly from the Home area:
+
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. (Conditional) Add the **Boards** widget to your home screen. Click **Customize**, and find **Boards**. -->
+
+
+
+
+
+<!--
+## Delete a to-do item
+
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Go to the to-do widget.
+1. Hover over the item, then click the **Delete** icon ![](assets/delete-to-do.png). 
+
+## Edit a to-do item
+
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Go to the to-do widget.
+1. Edit the item name.
+1. Click on the **Date** icon ![](assets/date-icon.png) to add or adjust a due date. -->

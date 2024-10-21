@@ -2,176 +2,225 @@
 content-type: overview
 navigation-topic: use-the-home-area
 title: Aan de slag met [!UICONTROL Home]
-description: Het [!UICONTROL Home] -gebied is uw one-stop shop waar u taken, problemen en goedkeuringen kunt vinden die aan u zijn toegewezen. Er zijn twee manieren om uw werk in het [!UICONTROL Home] gebied, of van [!UICONTROL Work List] of [!UICONTROL Calendar] te bekijken.
-author: Nolan
+description: Met Home kunt u uw werk beheren. U kunt deze flexibele ruimte aanpassen om het werk te benadrukken dat voor u het belangrijkst is en uw taak, kwestie, verzoek, en goedkeuringsbeheer te stroomlijnen.
+author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 9d0caff0381ee50bf8dd7060bebafb5354c0f0d8
 workflow-type: tm+mt
-source-wordcount: '1123'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
 
-# Aan de slag met [!UICONTROL Home]
+# Aan de slag met Home
 
 <!--Audited: 12/2023-->
 
-In dit artikel wordt een overzicht gegeven van het huidige [!UICONTROL Home] -gebied in [!DNL Adobe Workfront] . Voor informatie over het werken in nieuw [!UICONTROL Home], zie [ begonnen worden met Nieuw Huis ](../new-home/get-started-with-new-home.md).
-
-U kunt uw werk op twee manieren bekijken in het huidige [!UICONTROL Home] -gebied:
-
-* Van [!UICONTROL Work List]
-* Van [!UICONTROL Calendar].
-
-## [!UICONTROL Work List]
-
-U kunt al uw toegewezen werk op één plaats bekijken, in [!UICONTROL Work List]:
-
-![[!UICONTROL Work List] deelvensters ](assets/worklist-and-right-panel-home.png)
-
-Bekijk de volgende secties in het huidige [!UICONTROL Home] gebied, zoals gemarkeerd in de bovenstaande afbeelding:
-
-* **A**: Gebruik het linkerpaneel aan filter, soort, en selecteer het werk dat aan u wordt toegewezen.
-
-* **B**: Na het selecteren van een het werkpunt in het linkerpaneel, gebruik het juiste paneel om met douanevelden in wisselwerking te staan, updates, en logboektijd te maken.
-
-Raadpleeg de volgende artikelen voor meer informatie over het gebruik van de [!UICONTROL Home Work List] :
-
-* [Items weergeven in het [!UICONTROL Work List] gebied in het [!UICONTROL Home] gebied](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
-* [Werkitems maken vanuit het gebied [!UICONTROL Home]](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
-
-## [!UICONTROL Calendar]
-
-U kunt uw werk visualiseren door te tonen wanneer de het werkpunten worden verwacht en u kunt tijd blokkeren om hen te voltooien, door uw werk in [!UICONTROL Calendar] in het [!UICONTROL Home] gebied te herzien:
-
-![](assets/calendar-home-nwe-350x114.png)
-
-Bekijk de volgende secties in het huidige [!UICONTROL Home] gebied, zoals gemarkeerd in de bovenstaande afbeelding:
-
-* **A**: Gebruik de [!UICONTROL Calendar] mening om een visuele kaart van het werk tot stand te brengen u moet voltooien. U kunt gewoon klikken en werkitems slepen van de [!UICONTROL Work List] naar de [!UICONTROL Calendar] om de werktijd te blokkeren.
-
-* **B**: Gebruik de de synchronisatieoptie van [!UICONTROL Calendar] aan synchronisatie met uw [!DNL Outlook] kalender. Vergaderingen beheren en op één locatie werken.
-
-* **C**: Gebruik de [!UICONTROL Details] knoop om een nieuw juist paneel te openen waar u meer informatie over het het werkpunt kunt bekijken.
-
-* **D**: Gebruik de due bar om spoor van te houden wanneer het werk aan u wordt toegewezen verschuldigd is.
-
-Voor meer informatie over hoe te om de Kalender van het Huis te gebruiken, zie [ Gebruik de [!UICONTROL Home Calendar] mening ](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md).
-
-## Uw werk zoeken
-
-Het [!UICONTROL Home] -gebied is uw one-stop shop waar u taken, problemen en goedkeuringen kunt vinden die aan u zijn toegewezen. De filter, groepering, en sorteeropties werken samen om u te steunen in het organiseren van uw het werkpunten zoals u wilt. U kunt groepen gebruiken om items te groeperen, filters om de focus in te stellen op werk dat moet worden voltooid en ten slotte items in oplopende of aflopende volgorde van de groepering te sorteren.
-
->[!NOTE]
+>[!IMPORTANT]
 >
->De filter- en sorteeropties worden opgeslagen in de browser. Als u consequent dezelfde browser gebruikt op dezelfde computer (en de sitegegevens niet wist), veranderen de filters en de sortering niet, maar als u van browser of computer verandert, zijn de filters en de sortering verschillend.
+>Inhoud in dit artikel is vervangen door inhoud uit het artikel Aan de slag met een nieuw artikel Home. Nieuwe startpagina wordt nu Home genoemd.
 
-### Gelijkaardige het werkpunten van de groep samen met groepen
+De nieuwe Home-ervaring in Adobe Workfront is bedoeld om de huidige Home-ervaring te verbeteren en biedt een flexibelere manier om u te richten op het juiste werk.
 
-U kunt groeperingen gebruiken om als punten onder een gemeenschappelijke kopbal in de Lijst van het Werk te tonen. U kunt items groeperen door:
+Het nieuwe Home-programma is een krachtige nieuwe functie voor het beheer van uw werk. U kunt deze flexibele ruimte aanpassen om het werk te benadrukken dat voor u het belangrijkst is en uw taak, kwestie, verzoek, en goedkeuringsbeheer te stroomlijnen.
 
-* [!UICONTROL Planned Completion]
-* [!UICONTROL Planned Start]
-* [!UICONTROL Commit Date]
-* [!UICONTROL Project]
-* [!UICONTROL My Priority]
+## De nieuwe startpagina aanpassen
 
-Voor meer informatie over hoe te om groeperingen te gebruiken, zie [ punten van de Vertoning in [!UICONTROL Work List] in het [!UICONTROL Home] gebied ](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+Het nieuwe Huis wordt ontworpen om hoogst aanpasbaar te zijn, toestaand u om widgets te selecteren die uw belangrijkste werk volgen, het werkingsgebied van dat werk filtreren dat op wanneer het wordt gebaseerd, en zelfs een splash van kleur toe te voegen.
 
-![](assets/group-by-drop-down-expanded-in-home-with-planned-start-date-nwe-350x273.png)
+### Widgets
 
-### Verfijn uw focus met filters
+Widgets vormen de basis van het nieuwe startpunt. Door widgets aan uw startpagina toe te voegen, kunt u het type informatie kiezen dat wordt weergegeven om optimaal aan uw werkbehoeften te voldoen. Sommige widgets zijn alleen beschikbaar voor specifieke licentietypen, aangezien de objecten die ze bijhouden alleen beschikbaar zijn voor die licenties.
 
-Met het filter [!UICONTROL Work List] kunt u de focus beperken tot specifieke werkitems.
+Voor informatie bij het toevoegen van, het bewegen van, het resizing van, of het schrappen van widgets, zie [ toevoegen, uitgeven, of verwijder widgets in Nieuw Huis ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
 
-Hieronder ziet u voorbeelden van het filteren van items die u in Home bekijkt:
+Hieronder vindt u een overzicht van de 11 widgets die u momenteel kunt kiezen, en een overzicht van de gegevens die worden weergegeven:
 
-* Filteren op itemtype en -status.
+* **Mijn Werk**\
+    Deze widget is een ideale plaats om te beginnen met het beheer van een groot aantal verschillende taken, problemen en verzoeken. U kunt op de knop Werken aan een onderdeel klikken om te beginnen werken aan een onderdeel of op de knop Gereed om de onderdelen te markeren. U kunt ook informatie (Status, Voorwaarde, Percentage voltooid) bijwerken over taken en problemen, logtijd en updates toevoegen vanaf de widget Mijn werk.
 
-  Als u bijvoorbeeld alle taken wilt weergeven, kunt u het filter [!UICONTROL Tasks] selecteren. Als u specifieker wilt zijn dan dit en alleen taken wilt weergeven die klaar zijn om aan te gaan werken, selecteert u de [!UICONTROL Ready to Start] -filters onder het [!UICONTROL Tasks] -filter.
+* **Boards**\
+    Hiermee geeft u alle borden weer die u hebt gemaakt of die u hebt uitgenodigd om te gebruiken. U kunt ook een nieuw bord maken op basis van de volgende sjablonen: Basisbord, Kanban-bord, Retrospectief, Dynamisch bord
 
-* Alleen filteren op itemtype.
+* **Mijn projecten**\
+    De projecten van vertoningen u of projecten bezit u in een lijst bent. U kunt bestaande filters, weergaven of groepen gebruiken om de lijst aan te passen, of u kunt een project rechtstreeks vanuit de widget maken.
 
-  U kunt bijvoorbeeld [!UICONTROL Issues] selecteren om alle problemen in alle frames weer te geven ( [!UICONTROL Working On] of [!UICONTROL Requested] ), of [!UICONTROL Approvals] om alle werkitems, verzoeken om toegang, tijdschriften, documenten en proefdrukgoedkeuringen weer te geven.
+* **Mijn taken**\
+    De taken van vertoningen die aan u in een lijst worden toegewezen. U kunt bestaande filters, weergaven of groepen gebruiken om de lijst aan te passen, of u kunt een taak rechtstreeks vanuit de widget maken. U kunt uw taken ook delegeren terwijl u weg van het bureau bent.
 
-Voor meer informatie over hoe te om filters te gebruiken, zie [ punten van de Vertoning in [!UICONTROL Work List] in het [!UICONTROL Home] gebied ](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+* **Mijn kwesties**\
+    Hiermee geeft u problemen weer die aan u zijn toegewezen in een lijst. U kunt bestaande filters, weergaven of groepen gebruiken om de lijst aan te passen, of u kunt een uitgave rechtstreeks vanuit de widget maken. Deze widget bevat alleen problemen waarvan de bijbehorende projecten zijn ingesteld op Huidig en die geen voltooide projecten bevatten. U kunt uw kwesties ook delegeren terwijl u weg van het bureau bent.
 
-![](assets/displaying-work-items-filters-nwe-350x401.png)
+* **Mijn verzoeken**\
+    Hiermee geeft u alle verzoeken weer die u hebt verzonden, een filter om alleen open aanvragen weer te geven en een knop waarmee het overzichtsvenster voor een aanvraag wordt geopend.
 
-### Het werk van de toegang aan uw team wordt toegewezen
+* **verzoeken van het Team**\
+    Toont alle hangende verzoeken om teams die u op gesorteerd door team bent, evenals knopen om een verzoek aan een gebruiker direct toe te wijzen of aan het zelf te werken.
 
-Het gebied [!UICONTROL Home] heeft een permanente groepering ([!UICONTROL Team Requests]) die taken en kwesties toont die aan uw teams worden toegewezen. Teams worden in deze sectie weergegeven. Het klikken van de naam van een team opent de pagina van de Verzoeken van het Team van dat team.
+* **Mijn goedkeuring**\
+    Toont al uw hangende, toegewezen, gedelegeerde en verzonden goedkeuringen; een knoop om goedkeuringen te delegeren; en knopen om goedkeuringsbesluiten direct binnen widget te nemen.
 
->[!NOTE]
->
->De filter- en sorteeropties hebben geen invloed op de groepering [!UICONTROL Team Requests] . Deze groepering is zichtbaar zolang u werk hebt toegewezen aan uw team.
+* **Alle goedkeuringen**\
+        Toont 2 grafieken met informatie over gemiddelde goedkeuringstijd en besluiten evenals lijstmeningen van hangende en achterstallige goedkeuringen. <span style="color: #ff0000;"> deze eigenschap maakt deel uit van een gefaseerde versie en is momenteel slechts beschikbaar voor specifieke klanten.</span>
 
-Voor meer informatie bij de toegang tot van teamverzoeken, zie het artikel [[!UICONTROL Manage] werk en teamverzoeken in het [!UICONTROL Home] gebied ](../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md).
+* **Vermeldingen**\
+    Geeft recente commentaarthreads van over Workfront weer, vergelijkbaar met de pagina Mijn updates. U kunt de antwoordknoop gebruiken om een antwoord binnen widget samen te stellen. Deze widget bevat ook opmerkingen over taken en problemen die u hebt toegewezen, die u hebt toegewezen aan een andere gebruiker, die u hebt, waarop u primair contact hebt gemaakt of die u hebt gemaakt, zolang de taak of uitgave in de afgelopen 30 dagen is bijgewerkt.
 
-![](assets/team-requests-expanded-home-group-by-drop-down-nwe-350x314.png)
-
-### Het werk controleren dat u hebt verzonden
-
-Houd het werk bij dat u rechtstreeks vanuit [!UICONTROL Work List] hebt verzonden voor goedkeuring. Er is een permanente groepering voor [!UICONTROL Approvals I've Submitted] wanneer u selecteert om [!UICONTROL Approvals] in [!UICONTROL Work List] te bekijken. U kunt de fiatteur herinneren aan het werk dat goedkeuring nodig heeft. U kunt de goedkeuring ook herinneren indien nodig.
-
->[!NOTE]
->
->Het filter en de sortering hebben geen invloed op de groepering [!UICONTROL Approvals I've Submitted] . Deze groepering is zichtbaar zolang u werk op goedkeuring wacht.
->
->Het aantal goedkeuringen in het filter [!UICONTROL Approvals] geeft niet het aantal items weer dat u ter goedkeuring hebt ingediend. Het filter [!UICONTROL Approvals] geeft alleen de items weer die op uw goedkeuring wachten.
-
-![](assets/approvals-expanded-home-group-by-drop-down-nwe-350x415.png)
-
-## Prioriteit geven aan wat belangrijk voor u is
-
-Met de [!UICONTROL Work List] -code kunt u werk dat voor u van belang is, oppervlakkig maken en de prioriteit ervan bepalen. [!UICONTROL My Priority] U kunt maximaal 20 items toevoegen aan uw [!UICONTROL My Priority] -lijst.
-
->[!NOTE]
->
->Alle werkitems die aan [!UICONTROL My Priority] zijn toegevoegd, zijn alleen voor u zichtbaar en niemand kan voorrang geven aan uw werk.
-
-Voor meer informatie over hoe te om [!UICONTROL My Priority] te gebruiken, zie [ werk in het [!UICONTROL Home] gebied ](../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md) Prioritize.
-
-![](assets/prioritizing-in-home-group-by-drop-down-nwe-350x412.png)
-
-## Klaar maken
-
-Nadat u op de naam van een item in de [!UICONTROL Work List] hebt geklikt, gebruikt u het rechterdeelvenster in [!UICONTROL Home] om uw werk bij te werken en te voltooien.
-
-### Werken in een ruimte die voor u is aangepast
-
-Uw [!DNL Workfront] beheerder kan tot 16 douanegebieden aan punten in [!UICONTROL Work List] toevoegen om het gemakkelijker te maken om de informatie te vinden en bij te werken u wenst. De meeste velden zijn bewerkbaar, dus u hoeft niet in het werkitem te navigeren.
-
-Als u een van de velden in dit gebied wilt bijwerken, klikt u gewoon op een veld. Als het veld bewerkbaar is, kunt u het in het rechterdeelvenster wijzigen.
-
->[!NOTE]
->
->U kunt de [!UICONTROL Commit Date] niet bijwerken als dit veld vanuit een lay-outsjabloon wordt toegevoegd aan een tijdelijk item.
-
-![](assets/16-fields-home-350x137.png)
-
-### Anderen met belangrijke informatie bijwerken
-
-Communiceer snel en efficiënt met anderen vanuit het [!UICONTROL Home] -gebied. Met behulp van het gebied met opmerkingen van een werkitem kunt u vragen stellen, anderen op de hoogte stellen van recente updates of directe opmerkingen in het gebied [!UICONTROL Home] beantwoorden. Bovendien kunt u anderen op de vooruitgang bijwerken u door maakt:
-
-* De [!UICONTROL Commit Date] bijwerken in het gebied met opmerkingen
+* **aan-doet**\
+    Met deze unieke widget kunt u items toevoegen aan een persoonlijke controlelijst die u kunt bewerken. To-dos worden bijgehouden als taken in uw persoonlijke project, en blijven tot twee weken na voltooiing.
 
   >[!NOTE]
   >
-  >   Dit is de enige plaats waar u de Vastlegdatum in Huis kunt bijwerken.
+  >U moet over machtigingen beschikken om taken te maken om taken te kunnen uitvoeren in de widget Aan/uit en alleen persoonlijke taken die door de huidige gebruiker zijn ingevoerd, worden in de widget weergegeven.
 
-* Rapportage over hoe u het gevoel hebt dat de dingen gaan door een opmerking toe te voegen of de [!UICONTROL Condition] van een item bij te werken
-* Het percentage voltooide balk bijwerken
+Standaard bevat de startpagina een aantal specifieke widgets, gebaseerd op het type licentie. In de onderstaande tabellen ziet u welke widgets gebruikers van elk licentietype zien wanneer ze voor het eerst naar New Home navigeren.
 
-Voor meer informatie bij het communiceren in het [!UICONTROL Home] gebied, zie [ het werk van de Update ](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+<table border="1" class="inlineTable">
+    <tr>
+        <td><b>Nieuw type licentie</b></td>
+        <td><b>Standaardwidgets</b></td>
+    </tr>
+    <tr>
+        <td>Standaard</td>
+        <td>Mijn projecten, mijn werk, herinneringen, opdrachten</td>
+    </tr>
+    <tr>
+        <td>Licht</td>
+        <td>Mijn werk, mijn goedkeuring</td>
+    </tr>
+    <tr>
+        <td>Medewerker</td>
+        <td>Mijn verzoeken, opmerkingen, mijn goedkeuring, raden van bestuur</td>
+    </tr>
+    <tr>
+        <td>Extern</td>
+        <td>Mijn goedkeuring</td>
+    </tr>
+</table>
 
-![](assets/updates-home-350x198.png)
+<table border="1" class="inlineTable">
+    <tr>
+        <td><b>Huidig licentietype</b></td>
+        <td><b>Standaardwidgets</b></td>
+    </tr>
+    <tr>
+        <td>Plan</td>
+        <td>Mijn projecten, opmerkingen, opdrachten</td>
+    </tr>
+    <tr>
+        <td>Werk</td>
+        <td>Mijn werk, herinneringen, opdrachten</td>
+    </tr>
+    <tr>
+        <td>Controleren</td>
+        <td>Mijn werk, opmerkingen</td>
+    </tr>
+    <tr>
+        <td>Verzoek</td>
+        <td>Mijn projecten, mijn goedkeuring</td>
+    </tr>
+    <tr>
+        <td>Contribute</td>
+        <td>Mijn werk, opmerkingen</td>
+    </tr>
+    <tr>
+        <td>Extern</td>
+        <td>Mijn goedkeuring</td>
+    </tr>
+</table>
 
-### Uw tijd vastleggen
+### Achtergrondaanpassing
 
-Houd de uren bij u aan individuele het werkpunten hebt gewerkt. U kunt een algemeen uurtype kiezen, zoals [!UICONTROL Task Time] , of u kunt een projectspecifiek uurtype kiezen dat door uw [!DNL Workfront] beheerder wordt ingesteld.
+U kunt een beetje persoonlijke flakkering aan uw Homepage toevoegen door een kleurrijke banner voor de bovenkant van de pagina te selecteren.
 
-Voor meer informatie over hoe te om tijd in het [!UICONTROL Home] gebied te registreren, zie het sectie [ Huis ](../../../timesheets/create-and-manage-timesheets/log-time.md#home) in de tijd van het artikel [ Logboek ](../../../timesheets/create-and-manage-timesheets/log-time.md).
+**om de kleur van uw achtergrond van het Huis te veranderen:**
 
-![](assets/log-time-home-350x181.png)
+1. Ga naar uw startpagina door een van de volgende handelingen uit te voeren:
+
+   * Als het Huis als uw het landen pagina wordt geplaatst, klik het **pictogram van Adobe Workfront ![ het Pictogram van Adobe Workfront ](assets/home-icon-30x29.png) in de upper-left hoek van uw scherm.**
+   * Klik het **Belangrijkste pictogram van het Menu** in de hoger-juiste hoek van het scherm, of het **Belangrijkste pictogram van het Menu** pictogram van het Menu ![ Hoofd ](assets/main-menu-icon.png) in de upper-left hoek, als beschikbaar, dan klik **Huis**.
+
+1. Klik **aanpassen** bij de hoger-juiste hoek van het scherm.
+
+   ![ pas Knoop ](assets/customize-button.png) aan
+
+   Het deelvenster Aanpassen wordt geopend.
+
+1. In de **sectie van de Achtergrond** van **pas** paneel aan, klik de kleur u voor uw achtergrond van het Huis zou willen selecteren. U kunt **niets** ook klikken om de achtergrond te verwijderen.
+
+## Terugkeren naar de huidige Home-ervaring
+
+Als u liever de bestaande Home-ervaring wilt gebruiken, kunt u de nieuwe Home-ervaring uitschakelen.
+
+Ga terug naar de huidige Home-ervaring:
+
+1. Ga naar uw startpagina door een van de volgende handelingen uit te voeren:
+
+   * Als het Huis als uw het landen pagina wordt geplaatst, klik het **pictogram van Adobe Workfront ![ het Pictogram van Adobe Workfront ](assets/home-icon-30x29.png) in de upper-left hoek van uw scherm.**
+   * Klik het **Belangrijkste pictogram van het Menu** in de hoger-juiste hoek van het scherm, of het **Belangrijkste pictogram van het Menu** pictogram van het Menu ![ Hoofd ](assets/main-menu-icon.png) in de upper-left hoek, als beschikbaar, dan klik **Huis**.
+
+1. Klik op **ga terug naar de huidige 1} knoop van het Huis {in de bodem-juiste hoek van de pagina.**
+
+   ![ ga terug naar huidige knoop van het Huis ](assets/customize-button.png)
+
+   Er wordt een bevestigingsvenster weergegeven.
+
+1. Neem een kort onderzoek over uw ervaring met het nieuwe Huis of klik **ga terug naar het huidige Huis** om aan de huidige ervaring van het Huis terug te keren.
+
+>[!NOTE]
+>
+> Systeembeheerders kunnen het nieuwe startpunt als standaard uitschakelen voor hun gebruikers. Voor informatie bij het veranderen van de ervaring van het standaardHuis voor gebruikers over een systeem, zie [ systeemvoorkeur ](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md) vormen.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+Home helps you manage your work. You can customize this flexible space to highlight the work that is most important to you and streamline your task, issue, request, and approval management.
+
+## Customize Home
+
+Home is designed to be highly customizable, allowing you to select the widgets that track your most important work, filter the scope of that work based on when it's due, and even add a splash of color.
+
+### Background customization
+
+You can add a bit of personal flare to your Home page by selecting a colorful banner for the top of the page.
+
+**To change the color of your Home background:**
+
+1. Go to your Home page, by doing one of the following: 
+
+    * If Home is set as your landing page, click the **Adobe Workfront** icon ![Adobe Workfront Icon](../new-home/assets/home-icon-30x29.png) in the upper-left corner of your screen.
+    * Click the **Main Menu** icon in the upper-right corner of the screen, or the **Main Menu** icon ![Main Menu Icon](../new-home/assets/main-menu-icon-left-nav.png) in the upper-left corner, if available, then click **Home**.
+
+1. Click **Customize** at the upper-right corner of the screen.
+
+    ![Customize Button](../new-home/assets/customize-button.png)
+
+    The Customize panel opens. 
+
+1. In the **Background** section of the **Customize** panel, click the color you would like to select for your Home background. You can also click **None** to remove the background.
+
+## Manage you work
+
+### Add Widgets
+
+Widgets are the foundation of the new Home. By adding widgets to your Home page, you can choose the type of information that displays to best meet your work needs. Some widgets are only available to specific license types, as the objects they track are only available to those licenses. 
+
+For information on adding, moving, resizing, or deleting widgets, see [Add, edit, or remove widgets in Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
+
+-->

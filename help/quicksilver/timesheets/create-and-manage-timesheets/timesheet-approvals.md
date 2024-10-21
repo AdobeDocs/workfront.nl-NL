@@ -6,7 +6,7 @@ description: Het proces om timesheets goed te keuren geeft managers zichtbaarhei
 author: Alina
 feature: Timesheets
 exl-id: b27b3307-f61b-456d-8076-590d1c391b4b
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 9d0caff0381ee50bf8dd7060bebafb5354c0f0d8
 workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 0%
@@ -122,7 +122,7 @@ Het **gebied van Tijdopnemers** opent.
 
 Het gebied Home wordt geopend.
 
-1. Verzeker u **Mijn goedkeurt** widget hebt die aan uw gebied van het Huis wordt toegevoegd. Voor meer informatie, zie [ toevoegen, geef, of verwijder widgets in Nieuw Huis ](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md) uit.
+1. Verzeker u **Mijn goedkeurt** widget hebt die aan uw gebied van het Huis wordt toegevoegd. Voor meer informatie, zie [ toevoegen, geef, of verwijder widgets in Nieuw Huis ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md) uit.
 1. Zoek naar een timesheet goedkeuring in uw Mijn widget Goedkeuringen.
 1. (Facultatief) breid het drop-down menu aan het recht van goedkeurt of verwerpt knopen uit om een commentaar over uw besluit toe te voegen, dan klik **toevoegen**.
 1. Klik op een van de volgende knoppen om een goedkeuringsbesluit te nemen:

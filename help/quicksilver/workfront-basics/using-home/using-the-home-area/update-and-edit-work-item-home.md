@@ -6,9 +6,9 @@ description: U kunt updates van een werkitem weergeven en toevoegen in het gebie
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
+source-git-commit: 3786f62c16c7d295de3b19fd6b7ea5ec21fc8ce6
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '637'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 <!--Audited: April 2024-->
 
 U kunt updates van een werkitem weergeven en toevoegen in het [!UICONTROL Home] -gebied in [!DNL Adobe Workfront] . U kunt andere gegevens met betrekking tot het het werkpunt ook uitgeven als u toegang hebt om het uit te geven.
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 ## Toegangsvereisten
 
@@ -53,6 +55,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 *Neem contact op met de [!DNL Workfront] -beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt. Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## Updates van een tijdelijk item weergeven
 
 U kunt updates van elk werkitem weergeven in de [!UICONTROL Work List] :
@@ -61,41 +65,60 @@ U kunt updates van elk werkitem weergeven in de [!UICONTROL Work List] :
 1. Selecteer in het gebied **[!UICONTROL Work List]** het item waar u de updates wilt weergeven.\
    Updates worden weergegeven in het rechterdeelvenster.
 
-1. (Optioneel) Schakel **[!UICONTROL Show System Updates]** in op Uit om systeemupdates te filteren zodat alleen gebruikersupdates worden weergegeven.
 
-   ![](assets/show-system-updates-home-350x114.png)
 
-## Updates op een werkitem opgeven
+## Een opmerking toevoegen aan een tijdelijk item
 
 U kunt updates opgeven voor elk werkitem in de [!UICONTROL Work] lijst:
 
-1. Klik **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de hoger-juiste hoek, of het **Belangrijkste Menu** ![](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar, dan klik **[!UICONTROL Home]**.
-1. Selecteer in het gebied **[!UICONTROL Work List]** het item waar u een update wilt uitvoeren.
-1. Klik in het rechterdeelvenster op **[!UICONTROL Update]** om een tekstveld weer te geven.
+1. Klik op **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek en klik vervolgens op **[!UICONTROL Home]** .
+1. (Voorwaardelijk) klik **aanpassen** om het even welke volgende widgets toe te voegen:
 
-   ![](assets/make-an-update-box-expanded-home-nwe-350x204.png)
+   | Widget | Beschrijving |
+   |--------------|---------------------------------------------------------------------------------------------------|
+   | Borden | Hiermee geeft u alle borden weer die u hebt gemaakt of die u hebt uitgenodigd te gebruiken |
+   | Mijn werk | Hiermee geeft u taken en problemen weer die aan u zijn toegewezen |
+   | Mijn projecten | De projecten van vertoningen die u hebt of projecten u hebt |
+   | Mijn taken | Hiermee geeft u aan u toegewezen taken weer |
+   | Mijn problemen | Hier ziet u de problemen die aan u zijn toegewezen |
+   | Mijn verzoeken | Alle verzoeken weergeven die u hebt verzonden |
+   | Mijn goedkeuring | Toont al uw hangende, toegewezen, gedelegeerde en verzonden goedkeuringen |
 
-1. Geef in het opgegeven veld de update op.
-1. (Optioneel) Geef een of meer van de volgende gegevens op:\
-   **[!UICONTROL Commit Date]:** selecteer een datum van de datumkiezer wanneer u toezegt om het het werkpunt te voltooien.\
-   **[!UICONTROL How's it going?]:** selecteer een nieuwe voorwaarde voor de taak of de kwestie. Voor meer informatie over taak en uitgevende voorwaarden, zie [ Voorwaarde van de Update voor taken en kwesties ](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).\
-   **[!UICONTROL Status]:** selecteer een nieuwe status voor de taak of de kwestie. Voor meer informatie over taakstatussen, zie [ de taakstatus van de Update ](../../../manage-work/projects/updating-work-in-a-project/update-task-status.md). Voor meer informatie over uitgiftestatussen, zie [ Toegang tot de lijst van de statussen van de systeemkwestie ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).\
-   **[!UICONTROL Completion Bar]:** Geef het percentage op van het werk dat is voltooid door de voortgangsbalk naar het gewenste percentage te verschuiven. U kunt ook dubbelklikken op de voltooiingsbalk en het percentage invoeren dat is voltooid.
+1. Zoek het werkitem dat u wilt bijwerken.
+1. Beweeg over de naam, dan klik **nieuwe update** toevoegen.
+   ![](assets/add-update-on-widget.png)
+1. Typ uw opmerking.
+1. (Facultatief) in de **mensen of teams van de Markering** doos, begin de naam of e-mail van een gebruiker, of een team te typen dat u in deze commentaar zou willen omvatten, dan het selecteren wanneer het in de lijst toont.
+1. (Optioneel) Gebruik de opties op de werkbalk RTF om de tekst op te maken, emoties, koppelingen of afbeeldingen aan uw opmerking toe te voegen om de inhoud te verbeteren.
+1. Klik **voorleggen** om de commentaar aan het het werkpunt toe te voegen.
 
-1. Klik op **[!UICONTROL Update]**.
+   >[!IMPORTANT]
+   >
+   >Je kunt je opmerking alleen binnen 15 minuten bewerken nadat je deze hebt verzonden. Om een commentaar uit te geven, klik het **Meer** menu in de hoger-juiste hoek van de commentaar, dan klik **uitgeven**.
+
+Voor meer gedetailleerde informatie over het toevoegen van updates, zie [ een update aan een het werkpunt ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md) toevoegen.
 
 ## Een tijdelijk item bewerken
 
 U kunt elk veld op elk werkitem bewerken dat u kunt bewerken.
 
-1. Klik **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de hoger-juiste hoek, of het **Belangrijkste Menu** ![](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar, dan klik **[!UICONTROL Home]**.
-1. Selecteer in het gebied **[!UICONTROL Work List]** het item dat u wilt bewerken.\
-   Alle velden die u kunt bekijken, worden weergegeven in het rechterdeelvenster.
+1. Klik op **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek en klik vervolgens op **[!UICONTROL Home]** .
+1. (Voorwaardelijk) klik **aanpassen** om het even welke volgende widgets toe te voegen:
 
-1. Houd de muisaanwijzer boven het veld dat u wilt bewerken in het rechterdeelvenster.\
-   Als u rechten hebt om het veld te bewerken, wordt het veld gemarkeerd wanneer u de cursor op het veld plaatst.
+   | Widget | Beschrijving |
+   |--------------|---------------------------------------------------------------------------------------------------|
+   | Borden | Hiermee geeft u alle borden weer die u hebt gemaakt of die u hebt uitgenodigd te gebruiken |
+   | Mijn werk | Hiermee geeft u taken en problemen weer die aan u zijn toegewezen |
+   | Mijn projecten | De projecten van vertoningen die u hebt of projecten u hebt |
+   | Mijn taken | Hiermee geeft u aan u toegewezen taken weer |
+   | Mijn problemen | Hier ziet u de problemen die aan u zijn toegewezen |
+   | Mijn verzoeken | Alle verzoeken weergeven die u hebt verzonden |
+   | Mijn goedkeuring | Toont al uw hangende, toegewezen, gedelegeerde en verzonden goedkeuringen |
 
-   ![](assets/home-350x123.png)
+1. Beweeg over het het werkpunt, dan klik het **Summiere** pictogram.
+   ![](assets/open-summary-new-home.png)
 
+1. Houd de muisaanwijzer boven het veld dat u wilt bewerken in het deelvenster Samenvatting.
+Als u rechten hebt om het veld te bewerken, wordt het veld gemarkeerd wanneer u de cursor op het veld plaatst.
 1. Klik op het veld dat u wilt bewerken en voer de gewenste update uit.
 1. Klik buiten het veld om de wijzigingen op te slaan.

@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
+source-git-commit: e68972f7334a93f7fbd3db29919a2f2746ce64fe
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '969'
 ht-degree: 0%
 
 ---
@@ -96,7 +96,6 @@ Om u te helpen uw goedkeuringsverzoeken in een oogopslag beheren en analyseren, 
 
 U kunt de bovenstaande categorieën uitnemen voor een gedetailleerdere weergave. De widget Alle goedkeuringen is beschikbaar in de nieuwe dashboards van het Huis en van het Canvas.
 
-Voor meer informatie, zie [ begonnen worden met nieuw Huis ](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ### De revisie en goedkeuringen vergrendelen zodra een algemene beslissing is genomen
 

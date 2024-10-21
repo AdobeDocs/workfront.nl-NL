@@ -5,9 +5,9 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 588dc03b-3b39-4640-8a28-023c7f4a1972
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 145dd86575951d837e66e18ceb235dc3694571cc
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,6 @@ New Home is een belangrijke nieuwe functie die we graag verder willen ontwikkele
 
 Nieuwe introductiepagina is de standaardervaring voor alle gebruikers bij de release. U kunt er echter voor kiezen om terug te keren naar de bestaande Home-ervaring terwijl we de mogelijkheden van de website blijven ontwikkelen.
 
-Voor meer informatie, zie [ begonnen worden met Nieuw Huis in Adobe Workfront ](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 [ Bekijk een videodemonstratie van deze eigenschap ](https://video.tv.adobe.com/v/3420969/){target=_blank}
 

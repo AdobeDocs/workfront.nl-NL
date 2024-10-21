@@ -4,9 +4,9 @@ description: Verbeteringen startpunt eerste kwartaal 2024
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 54bbcc0a86516f4e4b561a7fae8c73c3979e59a4
+source-git-commit: 145dd86575951d837e66e18ceb235dc3694571cc
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,6 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in het Eerste Kwar
 
 Om het voor u gemakkelijker te maken om de status van goedkeuringen en overzichten op projecten te zien u bezit, hebben wij een nieuwe Hangende widget voor Goedkeuringen aan Huis toegevoegd. Hier ziet u een lijst met gebruikers die zijn toegewezen aan het goedkeuren of reviseren van documenten over projecten die u hebt, de status van hun controle of goedkeuring bekijken en revisoren en fiatteurs eraan herinneren de revisie of goedkeuring te voltooien.
 
-Voor meer informatie over Home widgets, zie [ begonnen worden met het nieuwe Huis ](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Beheerdersbesturingselementen voor nieuwe startpagina met lay-outsjablonen
 
@@ -34,5 +33,3 @@ Voor meer informatie, zie [ nieuw Huis aanpassen gebruikend een lay-outmalplaatj
 ## De knoppen voor snelle actie voor Mijn werk zijn gewijzigd en alleen weergegeven bij mouseover
 
 Om de prestaties te verbeteren, worden de knoppen voor snelle actie die beschikbaar zijn in de widget Mijn werk nu alleen weergegeven wanneer een tijdelijk item met de muis wordt aangeraakt.
-
-Voor meer informatie over de snelle actieknoppen beschikbaar in Mijn widget van het Werk, zie [ begonnen worden met Nieuw Huis ](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).

@@ -3,21 +3,18 @@ product-area: projects
 navigation-topic: use-the-home-area
 title: Het gebied Mijn updates gebruiken
 description: U kunt het [!UICONTROL My Updates] gebied gebruiken om de goedkeuringen snel te herzien die op uw besluit wachten of de gesprekken u in inbegrepen bent.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
+source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
 
 # Het [!UICONTROL My Updates] -gebied gebruiken
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: there is a similar article like this in the "My Work" folder that is conditioned for Classic only)</p>
--->
 
 U kunt het [!UICONTROL My Updates] gebied gebruiken om de goedkeuringen snel te herzien die op uw besluit wachten of de gesprekken u in inbegrepen bent.
 
@@ -28,6 +25,8 @@ Voor informatie over [!DNL Adobe Workfront] vergunningen, zie [[!DNL Adobe Workf
 Als u een ander licentietype hebt dan Revisie, moet de beheerder van [!DNL Workfront] of Groep het [!UICONTROL My Updates] -gebied aan uw lay-outsjabloon toevoegen om het in het hoofdmenu weer te geven. Voor informatie, zie [ [!UICONTROL Main Menu] aanpassen gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -57,6 +56,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 *Neem contact op met de [!DNL Workfront] -beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt. Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vereisten
 

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 29d8b581-27c9-4215-8147-8044b3e2bc5e
-source-git-commit: fcd3e565c10a952bd78b4f628b071c6718c92747
+source-git-commit: 145dd86575951d837e66e18ceb235dc3694571cc
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,6 @@ Voor meer informatie, zie [ Nieuwe het becommentariëren ervaring ](/help/quicks
 
 Wij hebben nu de nieuwe het becommentariëren functionaliteit aan **toegevoegd voeg nieuwe update** snelle actieknoop in Mijn Werk, Mijn Projecten, Mijn Taken, en Mijn Kwesties widgets in nieuw Huis toe.
 
-Voor meer informatie, zie [ begonnen worden met het nieuwe Huis ](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Aanvullende informatie over opmerkingen beschikbaar in de nieuwe ervaring met opmerkingen
 

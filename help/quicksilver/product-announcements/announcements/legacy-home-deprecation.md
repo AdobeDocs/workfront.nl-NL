@@ -6,9 +6,9 @@ description: Deze pagina bevat informatie over de aanstaande veroudering van ver
 author: Nolan
 feature: Product Announcements
 exl-id: 1fef08c9-624d-4783-a0bd-8009413fc2bd
-source-git-commit: 695674b1f89aa116e592081d72403b4be568f931
+source-git-commit: e68972f7334a93f7fbd3db29919a2f2746ce64fe
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Toch weten we dat een verandering als deze ontwrichtend kan zijn, en we willen u
 
 **wat kan ik in plaats daarvan gebruiken?**
 
-* Nieuwe startpagina is al beschikbaar als vervanging. Zie [ begonnen worden met het nieuwe Huis ](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md) voor meer informatie over het gebruiken van nieuw Huis. Het kan door zowel gebruikers door verpersoonlijkingsopties als beheerders door lay-outmalplaatjes worden aangepast.
+* Nieuwe startpagina is al beschikbaar als vervanging. Zie [ begonnen worden met het nieuwe Huis ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md) voor meer informatie over het gebruiken van nieuw Huis. Het kan door zowel gebruikers door verpersoonlijkingsopties als beheerders door lay-outmalplaatjes worden aangepast.
 
 * De prioriteiten zijn in ontwikkeling en zullen ook een onderdeel vormen van de gestroomlijnde werkbeheerervaring in Adobe Workfront.
 
@@ -54,13 +54,13 @@ We raden beheerders aan:
 
 1. Wijs de rest van uw gebruikers opnieuw toe aan de nieuwe lay-out Startpagina.
 
-Als u dit zo snel mogelijk doet, hebben uw gebruikers de tijd om zich aan de nieuwe ervaring aan te passen en hun nieuwe homepages aan te passen aan hun individuele behoeften. Zie [ verwijderen, toevoegen en herrangschikken widgets in nieuw Huis ](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md) voor informatie over hoe een gebruiker widgets op hun eigen nieuwe homepage kan aanpassen.
+Als u dit zo snel mogelijk doet, hebben uw gebruikers de tijd om zich aan de nieuwe ervaring aan te passen en hun nieuwe homepages aan te passen aan hun individuele behoeften. Zie [ verwijderen, toevoegen en herrangschikken widgets in nieuw Huis ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md) voor informatie over hoe een gebruiker widgets op hun eigen nieuwe homepage kan aanpassen.
 
 ### Meer informatie over wat er beschikbaar is in de nieuwe prioriteiten en introducties
 
 In de volgende artikelen wordt informatie gegeven over de functionaliteit die beschikbaar is in de nieuwe prioriteiten en thuisfuncties:
 
-* [Van verouderd startpunt naar nieuw startpunt](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)
+<!--* [Move from Legacy Home to New Home](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)-->
 * [Van verouderd startpunt naar prioriteiten](/help/quicksilver/workfront-basics/priorities/move-from-legacy-home-to-priorities.md)
 
 ### Volg de Home-ervaring tijdens de ontwikkeling

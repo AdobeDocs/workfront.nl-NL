@@ -6,7 +6,7 @@ description: U kunt een update toevoegen aan een Adobe Workfront-object (project
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
+source-git-commit: 1426f806b72d740712eba5e337c8424f8af6c9dc
 workflow-type: tm+mt
 source-wordcount: '3065'
 ht-degree: 0%
@@ -133,7 +133,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    * Vanuit een Workfront-object, in de sectie Updates (voor projecten, taken en problemen)
    * Vanuit het thuisgebied (voor taken en problemen)
 
-     Voor informatie, zie [ uw werk met Mijn widget van het Werk ](/help/quicksilver/workfront-basics/using-home/new-home/my-work-widget.md) leiden.
+     Voor informatie, zie [ uw werk met Mijn widget van het Werk ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-work-widget.md) leiden.
    * Vanuit het deelvenster Samenvatting op de volgende gebieden (voor taken, problemen en documenten):
 
       * Een lijst met objecten

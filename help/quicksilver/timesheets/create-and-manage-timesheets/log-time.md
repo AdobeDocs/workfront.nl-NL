@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 114fb6282924cde478f17a1b754157b6e47a7e3b
 workflow-type: tm+mt
-source-wordcount: '3648'
+source-wordcount: '3650'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren en 
 * De tijdbladen bevatten de totale tijd voor alle geregistreerde datums. Weekends zijn altijd inbegrepen, zelfs wanneer de chronologieberekeningen zijn gevormd om hen (zoals die in [ worden beschreven vormen systeem-brede projectvoorkeur ](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)) uit te sluiten.
 * Het maximumaantal punten dat in een timesheet wordt getoond is 45. Als er meer dan 45 punten zijn de waarvan data het timesheet tijdkader aanpassen, slechts de onlangs bijgewerkte punten tonen.
 * Uur-items die in factureringsrecords zijn opgenomen, worden grijs weergegeven en kunnen niet worden bewerkt in de tijdpagina. Voor meer informatie, zie [ het factureren verslagen ](../../manage-work/projects/project-finances/create-billing-records.md) creëren.
-* De persoonlijke taken tonen niet in timesheet door gebrek. De persoonlijke taken tonen in timesheet slechts wanneer zij tijd het programma wordt geopend. Nadat u de tijd op een persoonlijke taak registreert, kunt u de taak aan timesheet vastzetten en het zal op timesheet blijven als het vastgezet blijft. Voor meer informatie, zie [ het werkpunten van het gebied van het Huis ](../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md) creëren.
+* De persoonlijke taken tonen niet in timesheet door gebrek. De persoonlijke taken tonen in timesheet slechts wanneer zij tijd het programma wordt geopend. Nadat u de tijd op een persoonlijke taak registreert, kunt u de taak aan timesheet vastzetten en het zal op timesheet blijven als het vastgezet blijft. Voor meer informatie, zie [ het werkpunten en projecten van het gebied van het Huis ](../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md) creëren.
 
 ## Logtijd {#log-time-section}
 
@@ -335,7 +335,6 @@ Om een punt uit timesheet te verwijderen dat manueel werd toegevoegd:
 U kunt project-specifieke tijd in Huis registreren.
 
 Voor algemene informatie over het gebruiken van het gebied van het Huis, zie [ Gebruik het gebied van het Huis ](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
-
 
 <!--#### Log time on a work item from the new Home area-->
 
