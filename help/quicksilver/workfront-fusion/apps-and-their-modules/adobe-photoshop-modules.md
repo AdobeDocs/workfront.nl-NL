@@ -9,7 +9,7 @@ description: Met de Adobe Photoshop-modules kunt u een Adobe Workfront Fusion-sc
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: f20192ea-e363-4fba-8bd2-b1d50443918d
-source-git-commit: cfd13f8eb422401644f7a1abf54e909218b2e8bf
+source-git-commit: c3187e3dc21b4705a0e249ed8cc6df66575ef06b
 workflow-type: tm+mt
 source-wordcount: '3689'
 ht-degree: 0%
@@ -240,7 +240,7 @@ In deze actiemodule worden diverse bewerkingen op document- en laagniveau toegep
       <td role="rowheader">
         <p>[!UICONTROL (Options) Fonts]</p>
       </td>
-   <td> Voor elk lettertype dat het document nodig heeft, klikt u op Item toevoegen en voert u de opslaglocatie en bestandslocatie van het lettertype in. </td> 
+   <td> Voor elk lettertype dat het document nodig heeft, klikt u op Item toevoegen en geeft u de opslaglocatie en bestandslocatie van het lettertype op. </td> 
     </tr>
     <tr>
       <td role="rowheader">
