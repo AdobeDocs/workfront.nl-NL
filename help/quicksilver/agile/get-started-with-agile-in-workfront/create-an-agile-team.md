@@ -6,9 +6,9 @@ description: Met Adobe Workfront kunnen mobiele teams hun werk op een incremente
 author: Lisa
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '933'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Voor meer informatie, zie [ Overzicht van de de burndown grafiek van de Gelijkhe
 
 1. Klik het **[!UICONTROL Switch Teams]** pictogram van het pictogram ![ team van de Schakelaar ](assets/switch-team-icon.png), dan klik **[!UICONTROL Create new team]**.
 
-   ![ Uitgezocht creeer nieuw team.](assets/create-new-team-350x198.png)
+   ![ Uitgezocht creeer nieuw team ](assets/create-new-team.png)
 
    Het vak Nieuw team wordt weergegeven.
 
@@ -158,7 +158,7 @@ U kunt een bestaand team omzetten in een flexibel team:
 1. Klik op het menu **[!UICONTROL More]** en selecteer vervolgens **[!UICONTROL Edit]** .
 
    Deze optie wordt alleen weergegeven voor teamleden met een licentie [!UICONTROL Standard] , [!UICONTROL Plan] of [!UICONTROL Work] .
-   ![](assets/edit-team-settings-350x205.png)
+   ![ Uitgezochte geeft uit ](assets/edit-team-settings.png)
 
 1. Selecteer **[!UICONTROL This is an Agile Team]** in de sectie **[!UICONTROL Agile]** .
 

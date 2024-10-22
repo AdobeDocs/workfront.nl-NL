@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 854197fcb8c4d3a87e4d93fe2ae9e968a3254027
+source-git-commit: 5180bbad9ae2767ebc540127bc92fb688431b5d1
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '5540'
 ht-degree: 0%
 
 ---
@@ -562,9 +562,8 @@ Voor voorbeelden om het Externe raadplegingsgebied te gebruiken om de zelfde ins
 
 >[!NOTE]
 >
->* Externe opzoekvelden van aangepaste formulieren worden momenteel niet ondersteund in dashboards. U kunt de veldwaarde niet inline bewerken en deze wordt mogelijk niet correct weergegeven in een dashboard. (Externe opzoekvelden worden ondersteund in Canvasdashboards.)
 >* Externe opzoekvelden worden niet ondersteund in de Outlook-insteekmodule.
->* Externe opzoekvelden zijn beschikbaar in lijsten, tenzij het veld afhankelijk is van een ander veld.
+>* Externe opzoekvelden zijn niet beschikbaar in lijsten als het veld afhankelijk is van een ander veld.
 
 Een externe zoekopdracht toevoegen:
 

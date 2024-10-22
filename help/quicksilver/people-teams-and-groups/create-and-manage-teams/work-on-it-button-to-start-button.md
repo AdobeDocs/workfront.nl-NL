@@ -6,7 +6,7 @@ description: De standaardconfiguratie van Adobe Workfront omvat het Werk aan het
 author: Lisa
 feature: People Teams and Groups
 exl-id: 9387c5ae-2835-4d8f-80ec-22fcd16c5b6e
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 0%
@@ -75,7 +75,7 @@ De knop Start configureren:
 
 1. Selecteer een team in de vervolgkeuzelijst **[!UICONTROL Teams]** .\
    of\
-   Klik op **[!UICONTROL Create Team]**.
+   Klik op **[!UICONTROL Create new team]**.
 
 1. Klik op het pictogram **[!UICONTROL More]** ![](assets/more-icon.png) en klik vervolgens op **[!UICONTROL Edit]** .
 

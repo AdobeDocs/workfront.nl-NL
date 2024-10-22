@@ -1,19 +1,19 @@
 ---
 product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
-title: Een team deactiveren
+title: Een team deactiveren of verwijderen
 description: U kunt teams deactiveren die u niet meer gebruikt, terwijl de bijbehorende historische gegevens behouden blijven. Adobe Workfront-beheerders kunnen een team op elk gewenst moment vanuit het gedeelte Teams in Setup opnieuw activeren.
 author: Lisa
 feature: People Teams and Groups
 exl-id: 634e4c0f-aa1d-4197-92e3-54f414344ac0
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
 
-# Een team deactiveren
+# Een team deactiveren of verwijderen
 
 U kunt teams deactiveren die u niet meer gebruikt, terwijl de bijbehorende historische gegevens behouden blijven. [!DNL Adobe Workfront] beheerders kunnen een team op elk ogenblik van het gebied van Teams in Opstelling opnieuw activeren. Als u een team deactiveert, wordt het team niet meer weergegeven op de volgende gebieden:
 
@@ -53,7 +53,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront-plan</p> </td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td>Alle</td> 
   </tr> 
   <tr> 
@@ -62,7 +62,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <p>Nieuw: Standaard</p>
    <p>of</p>
    <p>Huidig: Plan</p></td>
-  </tr> 
+  </tr>
+  <tr>
+   <td>Configuraties op toegangsniveau</td>
+   <td><p>Voor het deactiveren van een team zijn geen configuraties vereist.</p>
+   <p>Om een team te schrappen, moet u een systeembeheerder zijn.</p></td>
+  </tr>
  </tbody> 
 </table>
 
@@ -85,13 +90,28 @@ Wanneer het gebruiken van verzoekrijen, als u een team deactiveert dat als stand
 1. Klik op het pictogram **[!DNL Switch team]** en selecteer vervolgens een nieuw team in het keuzemenu of zoek naar een team op de zoekbalk.
 1. Klik op het menu **[!UICONTROL More]** en selecteer vervolgens **[!UICONTROL Edit]** .
 
-   ![](assets/edit-team-settings-350x205.png)
+   ![](assets/edit-team-settings.png)
 
-1. Schakel het selectievakje **[!UICONTROL Is Active]** uit.
+1. Schakel het selectievakje **[!UICONTROL Is Active]** uit in de teaminstellingen.
 1. Klik op **[!UICONTROL Save changes]**.
 
-## Bekende beperkingen
+## Bekende beperkingen om een team te deactiveren
 
 Gedetactiveerde teams worden weergegeven in de volgende gebieden:
 
 * Het veld Eigenaar in [!DNL Workfront Goals] . Hiervoor is een extra licentie vereist voor [!DNL Adobe Workfront Goals] . Voor meer informatie, zie [ begonnen worden met  [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
+
+## Een team verwijderen
+
+Alleen een systeembeheerder kan een team verwijderen. Als u een teameigenaar bent (maar geen beheerder) en u probeert om een team te schrappen, zult u een foutenmelding zien.
+
+Een team verwijderen:
+
+{{step1-to-team}}
+
+1. Klik op het pictogram **[!DNL Switch team]** en selecteer vervolgens een nieuw team in het keuzemenu of zoek naar een team op de zoekbalk.
+1. Klik op het menu **[!UICONTROL More]** en selecteer vervolgens **[!UICONTROL Delete]** .
+
+   ![](assets/edit-team-settings.png)
+
+1. Klik [!UICONTROL **bevestigen**] op het bevestigingsbericht om het team permanent te schrappen. Verwijderde teams kunnen niet worden hersteld.

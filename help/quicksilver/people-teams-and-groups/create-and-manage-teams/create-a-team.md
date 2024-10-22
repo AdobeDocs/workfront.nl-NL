@@ -6,7 +6,7 @@ description: Wanneer u een team creeert wordt u de Eigenaar van het Team, door g
 author: Lisa
 feature: People Teams and Groups
 exl-id: 4bef734c-de86-4c58-a0e8-fbb3c5785f4c
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. Klik het **[!UICONTROL Switch Teams]** pictogram van het pictogram ![ team van de Schakelaar ](assets/switch-team-icon.png), dan klik **[!UICONTROL Create New Team]**.
 
-   ![ Uitgezocht creeer nieuw team.](assets/create-new-team-350x198.png)
+   ![ Uitgezocht creeer nieuw team.](assets/create-new-team.png)
 
 1. Voer in het vak **[!UICONTROL New Team]** dat wordt weergegeven de volgende informatie in:
 

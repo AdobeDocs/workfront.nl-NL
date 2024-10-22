@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 393405424c0ce3334304643c9474369e12417406
+source-git-commit: 5180bbad9ae2767ebc540127bc92fb688431b5d1
 workflow-type: tm+mt
-source-wordcount: '14505'
+source-wordcount: '14507'
 ht-degree: 0%
 
 ---
@@ -1515,7 +1515,7 @@ ht-degree: 0%
       * [Agile-teams maken en beheren](people-teams-and-groups/create-and-manage-teams/create-and-manage-agile-teams.md)
       * [Teaminstellingen bewerken](people-teams-and-groups/create-and-manage-teams/edit-team-settings.md)
       * [Beheer waaraan uw team werkt](people-teams-and-groups/create-and-manage-teams/manage-what-your-team-is-working-on.md)
-      * [Een team deactiveren](people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md)
+      * [Een team deactiveren of verwijderen](people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md)
       * [De knop Gereed configureren voor taken](people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
       * [De knop Gereed configureren voor problemen](people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
       * [De knop Aan de werkbalk vervangen door de knop Start](people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)

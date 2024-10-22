@@ -6,9 +6,9 @@ description: U kunt een kalenderweergave zien van taken en problemen waaraan uw 
 author: Lisa
 feature: People Teams and Groups
 exl-id: 4bdec4b9-18b0-4981-a067-f47e259bc708
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
@@ -21,4 +21,4 @@ U kunt niet-toegewezen items toewijzen, de huidige toewijzingen aanpassen, de hu
 
 Zie [[!UICONTROL Workload Balancer]](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md) voor meer informatie over het beheren van taken die aan uw team zijn toegewezen.
 
-![](assets/team-page-with-team-requests-and-balancer-sections-left.png)
+![ pagina van het Team die de Balancer van de Werkbelasting toont ](assets/team-page-workload-balancer.png)
