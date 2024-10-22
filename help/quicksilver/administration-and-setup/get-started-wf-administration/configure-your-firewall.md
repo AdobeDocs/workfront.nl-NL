@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: d7565c00c7c81110e1292d8a1d6057d75036dd43
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1623'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Voor meer informatie, zie de sectie [ de cluster van uw organisatie en het plan 
 
 ### IP-adressen voor clusters 1, 2, 3, 5, 7, 8 en 9 {#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9}
 
-Als uw milieu van de Productie op Cluster 1, 2, 3, 5, of 7 is moet u de volgende IP adressen toestaan.
+Als uw milieu van de Productie op Cluster 1, 2, 3, 5, 7, 8, of 9 is moet u de volgende IP adressen toestaan.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -622,4 +622,4 @@ E-mails van de Workfront-toepassing worden versleuteld met de poorten 465 en 587
 
 ## E-mailmeldingen van Workfront-ondersteuning
 
-Als u geen e-mails van de Steun van Workfront ontvangt, zorg ervoor dat u de IP van Salesforce adressen en domeinen toevoegt die u nodig hebt. Voor meer informatie, zie het de hulpartikel van Salesforce over IP van Salesforce adressen en domeinen toe te staan.
+Als u geen e-mails ontvangt van Workfront Support, moet u de Salesforce IP-adressen en -domeinen toevoegen die u nodig hebt. Raadpleeg het Help-artikel van Salesforce over Salesforce IP-adressen en -domeinen die u wilt toestaan voor meer informatie.
