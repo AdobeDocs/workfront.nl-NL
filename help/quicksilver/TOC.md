@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 5180bbad9ae2767ebc540127bc92fb688431b5d1
+source-git-commit: 5183c9ce50c043dd3053826d4942960ebcf7efbd
 workflow-type: tm+mt
-source-wordcount: '14507'
+source-wordcount: '14521'
 ht-degree: 0%
 
 ---
@@ -1342,7 +1342,7 @@ ht-degree: 0%
          * [Overzicht van taak Oorspronkelijke Duur en Oorspronkelijke Geplande Uren](manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)
          * [Verschil tussen Geplande Duur en Duur voor taken](manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md)
       * Taken maken {#create-tasks}
-         * [Taken maken](manage-work/tasks/create-tasks/create-tasks-overview-1.md)
+         * [Taken maken: artikelindex](manage-work/tasks/create-tasks/create-tasks-overview-1.md)
          * [Overzicht van taken maken](manage-work/tasks/create-tasks/create-tasks-overview.md)
          * [Taken maken in een project](manage-work/tasks/create-tasks/create-tasks-in-project.md)
          * [Subtaken maken](manage-work/tasks/create-tasks/create-subtasks.md)
@@ -1933,6 +1933,7 @@ ht-degree: 0%
             * [Vorige proefdrukversies weergeven in de proefdrukviewer](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-previous-version.md)
             * [De resolutie voor interactieve proefdrukken wijzigen in de proefdrukviewer](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md)
             * [De instellingen voor de proefdrukviewer configureren](review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)
+            * [Interactieve inhoud reviseren met het Adobe Workfront-revisieprogramma](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md)
          * Opmerking over een proefdruk {#comment-on-a-proof}
             * [Opmerking over proefdrukken: artikelindex](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)
             * [Opmerking over een proefdruk](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md)
@@ -2092,7 +2093,7 @@ ht-degree: 0%
       * [Overzicht van primair veld](planning/fields/primary-field-overview.md)
    * Adobe Workfront Planning Access {#adobe-workfront-planning-access}
       * [Adobe Workfront Planning Access Information: artikelindex](planning/access/access-information.md)
-      * [Overzicht van toegang](planning/access/access-overview.md)
+      * [Toegangsoverzicht voor Adobe Workfront Planning](planning/access/access-overview.md)
       * [Overzicht van het delen van machtigingen in Adobe Workfront Planning](planning/access/sharing-permissions-overview.md)
       * [Overzicht van licentietype bij gebruik van Adobe Workfront Planning](planning/access/license-type-overview.md)
       * [Werkruimten delen](planning/access/share-workspaces.md)
