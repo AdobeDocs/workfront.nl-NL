@@ -9,14 +9,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: a46c6d1f8a0ae58e07f0fb9d14ecdd06a856223f
+source-git-commit: bff394325882dae7b447c319db9cad8c196340d3
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1041'
 ht-degree: 0%
 
 ---
 
 # Overzicht van het verplaatsen van objecten tussen Workfront-omgevingen (milieubevordering)
+
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Sandbox van de Voorproef.</span>
 
 Met de functie voor milieubescherming kunt u objecten van de ene Workfront-omgeving naar de andere verplaatsen. U kunt bijvoorbeeld een sjabloon maken en deze configureren in de sandboxomgeving, in de wetenschap dat het testen geen invloed heeft op de feitelijke gegevens van uw organisatie. Nadat het malplaatje wordt gevormd en getest, kunt u het naar uw productiemilieu bewegen, klaar om te gebruiken.
 
@@ -98,7 +100,7 @@ Omdat de bevordering van het milieu objecten configuratie behandelt, zijn de tra
 | Type risico (RSKTYP) | Type risico |
 | Bronpool (RSPL) | Bronpool |
 | Toegangsniveau (ACSLVL) | Toegangsniveau |
-| Rate Card (RTCRD) | Creditcard |
+| <span class="preview"> Kaart van het Tarief (RTCRD) </span> | <span class="preview"> Kaart van het Tarief </span> |
 
 \* Momenteel niet beschikbaar
 
