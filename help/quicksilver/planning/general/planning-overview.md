@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
 workflow-type: tm+mt
-source-wordcount: '2100'
+source-wordcount: '2108'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 >* Een extra licentie voor Workfront Planning.
 >* De instantie van uw organisatie van Workfront moet aan de Adobe Verenigde Ervaring worden genegeerd.
 >
-> Voor een volledige lijst van vereisten om tot de Planning van Workfront toegang te hebben, zie [ Overzicht van de Toegang ](/help/quicksilver/planning/access/access-overview.md).
+> Voor een volledige lijst van vereisten om tot de Planning van Workfront toegang te hebben, zie [ de toegangsoverzicht van de Planning van de Adobe ](/help/quicksilver/planning/access/access-overview.md).
 > 
 
 Dit artikel bevat algemene informatie over Workfront Planning.
@@ -105,7 +105,7 @@ Voor informatie, zie [ Adobe Workfront voor Experience Manager Assets en Assets 
 * De geschiedenis van wijzigingen in een record weergeven
 * RTF-opmaak voor alineasvelden
 * Toegang tot planningsrecords van Workfront-objecten
-* Connect-planningsrecords van Workfront-objecten
+* Planningsrecords verbinden en loskoppelen van Workfront-objecten
 * Planning maken door een aanvraagformulier in te dienen
 * Workfront Planning Public API
 * Adobe Workfront-planningsmodules voor Adobe Workfront Fusion
@@ -168,7 +168,7 @@ Nadat uw organisatie een vergunning voor de Planning van Workfront, als beheerde
 
 * Wijs de gebruikers toe die toegang tot de Planning van een lay-outmalplaatje nodig hebben dat Planning in het Belangrijkste Menu omvat. Voor meer informatie, zie [ het Belangrijkste Menu aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) en [ wijs gebruikers aan een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md) toe.
 
-* Wijs gebruikers een Workfront-licentie en Workfront Planning-machtigingen toe waarmee u 5554hview kunt weergeven of objecten kunt maken in Workfront Planning. Voor meer informatie over het verlenen van toegang tot en het toelaten van anderen om de Planning van Workfront te gebruiken, zie [ Overzicht van de Toegang ](/help/quicksilver/planning/access/access-overview.md).
+* Wijs gebruikers een Workfront-licentie en Workfront Planning-machtigingen toe waarmee u 5554hview kunt weergeven of objecten kunt maken in Workfront Planning. Voor meer informatie over het verlenen van toegang tot en het toelaten van anderen om de Planning van Workfront te gebruiken, zie [ het Overzicht van de toegang van de Planning van de Adobe ](/help/quicksilver/planning/access/access-overview.md).
 
 ## Workfront Planning terminologie
 
@@ -321,7 +321,7 @@ Voor meer informatie, zie [ verslagmeningen ](/help/quicksilver/planning/views/m
 
 ## Adobe Workfront-planning zoeken
 
-Om van de Planning van de Adobe de plaats te bepalen, zorg ervoor dat uw organisatie toegang tot de Planning van Workfront heeft ontvangen en dat uw systeem of groepsbeheerder het gebied van de Planning aan uw Belangrijkste Menu heeft toegevoegd. Voor informatie, zie [ overzicht van de Toegang ](/help/quicksilver/planning/access/access-overview.md).
+Om van de Planning van de Adobe de plaats te bepalen, zorg ervoor dat uw organisatie toegang tot de Planning van Workfront heeft ontvangen en dat uw systeem of groepsbeheerder het gebied van de Planning aan uw Belangrijkste Menu heeft toegevoegd. Voor informatie, zie [ de toegangsoverzicht van de Planning van de Adobe ](/help/quicksilver/planning/access/access-overview.md).
 
 Workfront-planning zoeken:
 

@@ -6,9 +6,9 @@ description: Het proces voor het creëren van en het leiden van uitgaven is het 
 author: Alina
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '577'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    * **Billable:** selecteer deze optie als u deze uitgave wilt factureren. Het categoriseren van een uitgave als factureerbaar is belangrijk wanneer het creëren van factureringsverslagen.
    * **Terugbetaalbaar:** selecteer deze optie als de uitgave moet worden vergoed. Vervolgens kunt u de kosten als vergoed markeren nadat de kosten zijn vergoed.
 
-1. Selecteer de Vorm van de Douane van a **** en specificeer om het even welke extra vereiste informatie. U moet een aangepast formulier maken voordat u het aan een uitgave kunt koppelen. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Voor informatie over het creëren van douaneformulieren, zie het artikel [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Selecteer de Vorm van de Douane van a **** en specificeer om het even welke extra vereiste informatie. U moet een aangepast formulier maken voordat u het aan een uitgave kunt koppelen. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Voor informatie over het creëren van douaneformulieren, zie het artikel [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 1. Klik **sparen Veranderingen**.
 

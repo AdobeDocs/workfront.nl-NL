@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a297ee8d-d949-45ab-a219-437316fa8fa3
-source-git-commit: a1386652f5181d4aa94ddab8e4f9714ef1c08b73
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Voor meer informatie bij het voorvertonen van een douanevorm in de vormontwerper
 
 Geavanceerde aangepaste formulierfuncties, zoals Externe opzoekvelden en eigen Workfront-velden, zijn nu beschikbaar wanneer u een aangepast formulier koppelt aan een bedrijf of gebruiker. De geavanceerde eigenschappen zijn beschikbaar op de pagina&#39;s van de Details van het Bedrijf en van de Details van de Gebruiker, niet op Edit Bedrijf en geef de dialogen van de Gebruiker uit. Het aangepaste formulier moet in de nieuwe formulierontwerper worden gemaakt om deze veldtypen te kunnen gebruiken.
 
-Voor meer informatie over de gebieden van de douanevorm, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Voor meer informatie over de gebieden van de douanevorm, zie [ een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 ## JumpSeat-integratie is nu beschikbaar voor nieuwe pakkettypen
 
@@ -64,7 +64,7 @@ Native velden die worden gebruikt in aangepaste formulieren, worden beschikbaar 
 
 Deze functie is alleen beschikbaar in de bètaversie van de formulierontwerper, niet in de verouderde formulierbuilder.
 
-Voor meer informatie, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Voor meer informatie, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 [ Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3427702/){target=_blank}
 

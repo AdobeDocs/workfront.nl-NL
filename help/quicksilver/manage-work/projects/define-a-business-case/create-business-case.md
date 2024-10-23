@@ -5,9 +5,9 @@ description: U kunt de BedrijfsGeval gebruiken om een project te verzoeken en he
 author: Alina
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '828'
 ht-degree: 0%
 
 ---
@@ -106,7 +106,7 @@ Overweeg het volgende wanneer het verzoeken van een project door een BedrijfsGev
 
    Aangepaste Forms moet worden gemaakt voordat deze aan projecten kunnen worden gekoppeld.
 
-   Voor meer informatie over Aangepast Forms, zie het artikel [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   Voor meer informatie over de Forms van de Douane, zie het artikel [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 1. Klik **voorleggen**.
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1321'
+source-wordcount: '1318'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Een extern opzoekveld in een aangepast formulier roept een externe API aan en re
 
 Dit artikel bevat voorbeelden van het gebruik van het externe opzoekveld om dezelfde instantie van Workfront of een openbare API aan te roepen. U kunt de Externe raadpleging ook gebruiken om met een extern systeem zoals Jira, Salesforce, of ServiceNow te communiceren.
 
-Voor meer informatie over het toevoegen van een Extern raadplegingsgebied aan een douanevorm en extra definities van de externe raadplegingscomponenten, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Voor meer informatie over het toevoegen van een Extern raadplegingsgebied aan een douaneformulier en extra definities van de externe raadplegingscomponenten, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 ## Een extern opzoekveld instellen voor dezelfde instantie van Workfront
 

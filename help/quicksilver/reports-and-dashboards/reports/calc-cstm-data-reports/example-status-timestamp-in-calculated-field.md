@@ -7,9 +7,9 @@ description: In het volgende berekende veld wordt de datum weergegeven waarop de
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 55817a68-3655-4288-8cc7-48547829c46e
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,8 @@ Als u een berekend veld met de bewerkingsgeschiedenis van een veld wilt toevoege
 
 1. Ga naar een aangepast formulier waaraan u het veld wilt toevoegen.
 1. Klik **Berekend** om een berekend douanegebied aan de vorm toe te voegen.
-1. Typ a **Etiket** voor het douanegebied, zoals *Gebied van de Tijdstempel van de Status {*.
-1. Klik **Gedaan**, dan klik **sparen+Sluiten**.
+1. Typ a **Etiket** voor het douanegebied. Bijvoorbeeld &#39;Aangepast veld voor tijdstempel van status&#39;.
+1. Klik **sparen+Sluiten**.
 1. Heropen de douanevorm, dan selecteer het nieuwe **Gebied van de Tijdstempel van de Status Tijdstempel van de Status** op de vorm.
 1. In het **vakje van de Berekening**, kopieer en kleef de volgende berekening voor uw douanegebied:
 

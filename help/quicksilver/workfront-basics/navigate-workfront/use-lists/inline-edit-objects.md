@@ -6,9 +6,9 @@ description: U kunt objecten inline bewerken wanneer ze in een lijst of rapport 
 feature: Get Started with Workfront
 author: Lisa
 exl-id: a94b5aaf-71de-4fcd-946b-459ca3edf7e4
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '732'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >[!NOTE]
    >
    >Als een aangepast veld is geconfigureerd voor opmaak, kunt u tekst vet maken, cursief maken of onderstrepen wanneer u het veld inline bewerkt in een bijgewerkte lijst.
-   >Voor informatie bij het vormen van het formatteren voor een douanegebied, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   >Voor informatie bij het vormen van het formatteren voor een douanegebied, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
    >Voor informatie over bijgewerkte lijsten, zie de sectie &quot;het verschil tussen de bijgewerkte en erfenislijsten&quot;in artikel [ worden begonnen met lijsten in  [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 1. Druk op [!UICONTROL Tab] om naar de volgende bewerkbare cel te gaan.

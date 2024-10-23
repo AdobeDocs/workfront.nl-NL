@@ -6,9 +6,9 @@ description: Overzicht van veelvoorkomende toepassingen voor de tekstmodus
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 81512837-1ec4-4dbc-ace4-bdf08fe667ce
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ U kunt de tekstmodus gebruiken wanneer u in Workfront het volgende wilt bereiken
 
 U kunt de tekstmodus gebruiken om een berekend aangepast veld toe te voegen aan een aangepast formulier.
 
-Voor meer informatie over het toevoegen van een berekend douanegebied aan een Vorm van de Douane, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Voor meer informatie over het toevoegen van een berekend douanegebied aan een Vorm van de Douane, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 Voor meer informatie over het creëren van een berekend douanegebied op tekstwijze, zie [ berekende gebieden aan een vorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen.
 

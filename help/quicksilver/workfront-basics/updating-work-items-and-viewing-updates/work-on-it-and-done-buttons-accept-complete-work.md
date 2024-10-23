@@ -8,9 +8,9 @@ author: Lisa and Alina
 feature: Get Started with Workfront
 role: User
 exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
-source-git-commit: f5632af0fb87739fc41c4e2f41dc8ebab0f8be8b
+source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '768'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,10 @@ De knoppen Werk aan en Gereed zijn zichtbaar voor gebruikers die beschikken over
 * Een standaardlicentie (nieuw) of een abonnement- of werkvergunning (huidig)
 * Beperkte bewerkingstoegang of hoger op de taak of uitgave
 
+>[!NOTE]
+>
+>De knop Gereed wordt in alle gebieden van Workfront weergegeven als Markeren.
+
 ## De knopnamen Aan het gereedschap en Gereed
 
 Afhankelijk van welk gebied van Workfront u tot uw taak of kwestie van toegang hebt, kan het Werk aan het of Gereed knoop namen veranderen, zoals die in de volgende scenario&#39;s wordt beschreven:
@@ -38,19 +42,20 @@ Afhankelijk van welk gebied van Workfront u tot uw taak of kwestie van toegang h
   >
   >U kunt de knop Aan de werkbalk vervangen door de knop Start. Voor informatie over het vervangen van het Werk op het knoop met een knoop van het Begin, zie [ het Werk op het knoop met een knoop van het Begin vervangen ](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
 
-* Nadat u op Aan werken hebt geklikt, wordt de knop gewijzigd in Markeren zoals voltooid of Gereed, afhankelijk van de locatie in Workfront waar u de taak of het probleem opent. Voor informatie over waar u tot het Werk op de knoop van het kunt toegang hebben, zie de sectie [ van het Werk op het vinden en de Gedaan knoop ](#locate-the-work-on-it-and-done-button) in dit artikel.
+* Nadat u op de knop Aan werken hebt geklikt, wordt de knop op de juiste manier gemarkeerd. Voor informatie over waar u tot het Werk op de knoop van het kunt toegang hebben, zie de sectie [ van het Werk op het vinden en de Gedaan knoop ](#locate-the-work-on-it-and-done-button) in dit artikel.
 
   ![](assets/nwe-mark-as-done-button-350x122.png)
 
-* Als u niet de enige bent die aan de taak of de kwestie wordt toegewezen en u tot uw het werkpunt van de Lijst van het Werk in het gebied van het Huis toegang hebt, verandert de knoop in Gedaan met mijn deel.
 
-  ![](assets/home-left-done-with-my-part-button-350x184.png)
+<!--If you are not the only one assigned to the task or issue and you are accessing your work item from the My Work widget in the Home area, the button changes to Done with my part.
+
+  ![](assets/home-left-done-with-my-part-button-350x184.png)-->
 
 ## De knoppen Aan werken en Gereed zoeken {#locate-the-work-on-it-and-done-button}
 
 U kunt de knoppen Werk aan en Gereed vinden in de volgende Workfront-gebieden:
 
-* Het gebied Home, zowel in de Lijst van het Werk als in het paneel van details
+* Het gebied Home in de widget Mijn werk
 
   Voor informatie over het merken van een punt zoals Gedaan op het gebied van het Huis, zie [ Teken een punt zoals Gedaan in het gebied van het Huis ](../../workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md).
 
@@ -58,11 +63,11 @@ U kunt de knoppen Werk aan en Gereed vinden in de volgende Workfront-gebieden:
 
   Voor informatie over de objecten kopballen, zie [ Nieuwe objecten kopballen ](../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
 
-* In het deelvenster Overzicht van taak of uitgave in een lijst of in het deelvenster Werklastverdeling
+* In het deelvenster Overzicht van taak of uitgave
 
   Voor informatie over het gebruiken van het Summiere paneel, zie [ Overzicht ](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
-## Overzicht van velden die automatisch worden bijgewerkt wanneer u op de knop Aan werken en Gereed klikt
+## Overzicht van velden die automatisch worden bijgewerkt wanneer u op de knoppen Aan werken of Gereed klikt
 
 Het voordeel van de knoppen Werk aan en Gereed is dat u Workfront kunt toestaan om automatisch gegevens bij te werken over het aan u toegewezen werkitem.
 
@@ -111,7 +116,7 @@ Naast de velden die worden bijgewerkt wanneer u op de knop Aan de taak werken kl
 
 ### De knop Gereed {#the-done-button}
 
-Als u toegang hebt tot bewerkingsteams, kunt u de knop Gereed voor een team configureren om de taak bij te werken of status uit te geven wanneer u een onderdeel markeert als voltooid. Wanneer gebruikers met dat team als hun Team van het Huis op de Gedaan knoop op hun punten klikken werken de volgende gebieden automatisch op een taak of een kwestie bij:
+Als u toegang hebt tot bewerkingsteams, kunt u de knop Gereed voor een team configureren om de taak bij te werken of status uit te geven wanneer u een onderdeel markeert als voltooid. Wanneer gebruikers met dat team als hun Team van het Huis op het Markeren zoals gedaan op hun punten klikken de volgende gebieden automatisch op een taak of een kwestie bijwerken:
 
 * Status
 * De updates van de Status van de toewijzing van het Werk aan Gedaan

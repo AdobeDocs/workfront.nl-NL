@@ -7,9 +7,9 @@ description: Wanneer een taak klaar is om te beginnen, voegt Adobe Workfront een
 author: Alina
 feature: Work Management
 exl-id: 158f8370-9717-4c61-99fa-e3b76a9e61cb
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,9 @@ Wanneer de taak klaar is om aan worden gewerkt, wordt het gebied van de Begin va
 
 Workfront controleert de volgende dingen alvorens het een taak als Waar voor het gebied van het Begin van het Kan merkt:
 
-* Als de taak een ouder heeft, controleert het om te zien of de waarde van kan Begin voor de ouder het aan Waar plaatsen. Als de waarde voor de ouder Vals is, dan hebben alle subtaken de waarde van kan Begin aan Vals, eveneens wordt geplaatst. 
-* Het controleert ook of de voorgangers van de taak en de voorgangers van hun ouders compleet zijn. Als zij volledig zijn, kan de waarde van het Begin voor de taak worden geplaatst aan Waar. Als om het even welke taak predecessors of hun ouderpredecessors niet volledig zijn, of een status van Volledige In afwachting van Goedkeuring hebben, dan kan de waarde van het Begin voor de taak worden geplaatst aan Vals. 
+* Of de waarde van Can Start voor de ouder het plaatste aan Waar, als de taak een ouder heeft. Als de waarde voor de ouder Vals is, dan hebben alle subtaken de waarde van kan Begin aan Vals, eveneens wordt geplaatst.
+* Of de voorgangers van de taak en de voorgangers van hun ouders compleet zijn. Als zij volledig zijn, kan de waarde van het Begin voor de taak worden geplaatst aan Waar. Als om het even welke taak predecessors of hun ouderpredecessors niet volledig zijn, of een status van Volledige In afwachting van Goedkeuring hebben, dan kan de waarde van het Begin voor de taak worden geplaatst aan Vals.
+* Of het type van taakgebiedsdeel of Begin-Begin of Begin-Afwerking is. Als het gebiedstype begin-Begin of begin-Afwerking is, zal de afhankelijke taak de vlag &quot;kunnen&quot;hebben die aan Waar wordt geplaatst nadat de voorgangerstaak lopend is (of nadat het percentage voltooide van de voorgangertaak groter is dan 1%).
 
   Voor informatie over taakvoordecessors, zie [ Overzicht van taakvoordecessors ](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 

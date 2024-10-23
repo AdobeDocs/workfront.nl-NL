@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: be398d7f-7bc3-4a27-bc17-ffa4054d81ac
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
@@ -34,4 +34,4 @@ De e-mailsjablonen voor het toevoegen van een fiatteur aan een middel en voor he
 
 We hebben de tabbladen voor Forms, Fields en secties in het gebied Setup > Custom Forms bijgewerkt naar een moderner ontwerp dat consistent is met andere gebieden van Workfront. U hebt nu toegang tot de drie gebieden via het navigatiemenu links. Filters, weergaven en groepen zijn nog steeds beschikbaar voor de lijsten. Het bijgewerkte ontwerp is van toepassing op aangepaste formulieren, velden en secties die zijn gemaakt in zowel de nieuwe formulierontwerper als de oudere formulierontwerper.
 
-Voor informatie, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Voor informatie, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.

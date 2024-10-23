@@ -6,9 +6,9 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 hidefromtoc: true
 hide: true
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Als u een lijst weergeeft met aangepaste formulieren van uw organisatie en de aangepaste velden en widgets die eraan zijn toegevoegd, kunt u opties in de werkbalk gebruiken om de eigenschappen te bewerken, te beperken wie er mee wordt gedeeld, deze te kopiëren en te verwijderen. U kunt ook andere informatie weergeven in de kolommen die worden weergegeven, zoals welke objecttypen elk aangepast formulier bevat.
 
-Voor informatie over douanegebieden en widgets in douanevormen, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Voor informatie over douanegebieden en widgets in douanevormen, zie [ een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 ## Toegangsvereisten
 
@@ -55,7 +55,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
    Raadpleeg de volgende artikelen voor informatie over wat u kunt doen wanneer u een aangepast formulier in de lijst selecteert:
 
-   * [Een formulier ontwerpen met de formulierontwerper](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
+   * [Een aangepast formulier maken](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
    * [ Deel een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
    * [ Kopieer een douanevorm om nieuwe te creëren ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/list-edit-share-custom-forms-and-custom-fields.md)
    * [Een aangepast formulier verwijderen of deactiveren](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)

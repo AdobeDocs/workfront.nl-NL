@@ -3,12 +3,12 @@ product-area: user-management;setup
 navigation-topic: configure-your-user-profile
 title: Mijn instellingen configureren
 description: Uw  [!DNL Adobe Workfront]  profiel bevat informatie over zich (bijvoorbeeld, uw naam, e-mailadres, adres, telefoonaantal, titel, enz.). Het bevat ook informatie over uw interactie met  [!DNL Workfront]  en andere gebruikers in uw bedrijf.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: ecf0aba451d530fa3be258d954f827e7cfc6b198
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '2901'
+source-wordcount: '2891'
 ht-degree: 0%
 
 ---
@@ -345,7 +345,7 @@ In deze subsectie kunt u de volgende opties wijzigen:
 
 <tr> 
    <td role="rowheader"><strong>[!UICONTROL Send work assigned to myself to my Working On tab]</strong> </td> 
-   <td>Selecteer dit veld om het werk weer te geven dat u rechtstreeks aan uzelf toewijst op het tabblad [!UICONTROL Working On] in plaats van op het tabblad [!UICONTROL Work Requests] .</td> 
+   <td>Dit veld verwijst naar een vervangen functie die is verwijderd uit [!DNL Workfront] .</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>(Voorwaardelijk) Automatisch proefdrukken genereren bij het uploaden van documenten</strong></td> 
@@ -524,7 +524,7 @@ U moet over een van de volgende toegangsrechten of machtigingen beschikken om ee
 
 Alle gebruikers kunnen aangepaste formulieren zien die zijn gekoppeld aan hun profielen.
 
-Uw [!DNL Workfront] -beheerder moet aangepaste formulieren voor het gebruikersobject configureren, zodat u een aangepast formulier aan uw gebruikersprofiel kunt koppelen. Voor meer informatie over het creëren van douanevormen, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Uw [!DNL Workfront] -beheerder moet aangepaste formulieren voor het gebruikersobject configureren, zodat u een aangepast formulier aan uw gebruikersprofiel kunt koppelen. Voor meer informatie over het creëren van douaneformulieren, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 ### [!UICONTROL Comment]
 

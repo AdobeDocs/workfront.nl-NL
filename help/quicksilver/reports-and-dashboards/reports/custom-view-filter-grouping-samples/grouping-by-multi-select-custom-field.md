@@ -7,9 +7,9 @@ description: U kunt alleen in de tekstmodus groeperen met de waarde in een aange
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 Als u wilt groeperen op een aangepast veld met meerdere selecties, moet u aan de volgende voorwaarden voldoen:
 
 * Maak het aangepaste veld voor meerdere selecties in een aangepast formulier.\
-  Voor informatie over de bouw van douaneformulieren en het toevoegen van douanegebieden aan hen, zie het artikel [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  Voor informatie over de bouw van douaneformulieren en het toevoegen van douanevelden aan hen, zie het artikel [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 * Koppel het aangepaste formulier aan objecten.
 * Vul het aangepaste veld voor meerdere selecties met een waarde voor elk object. 

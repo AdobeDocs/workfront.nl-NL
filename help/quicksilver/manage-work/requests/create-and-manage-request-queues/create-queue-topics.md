@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    * [ creeer Verpletterend Regels ](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
    * [ creeer de Groepen van het Onderwerp ](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
-   * [Een formulier ontwerpen met de formulierontwerper](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
+   * [Een aangepast formulier maken](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
 
 1. Ga naar het project u verkoos om als Rij van het Verzoek van de Hulp toe te laten en waar u een nieuw rijonderwerp wilt creëren.\
    Voor meer informatie over hoe te om een project als Rij van het Verzoek van de Hulp aan te wijzen, zie [ een Rij van het Verzoek van de Vraag ](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.

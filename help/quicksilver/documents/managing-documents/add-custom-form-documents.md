@@ -6,9 +6,9 @@ description: U kunt een aangepast formulier toevoegen aan een document of aan ee
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 6c974293-1f54-447b-8d42-8d039f7911f1
-source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Een aangepast formulier toevoegen aan een document:
 
    >[!NOTE]
    >
-   >Alleen actieve aangepaste formulieren worden weergegeven in de vervolgkeuzelijst. U kunt maximaal 10 aangepaste formulieren per document toevoegen. Als u een douanevorm moet tot stand brengen, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   >Alleen actieve aangepaste formulieren worden weergegeven in de vervolgkeuzelijst. U kunt maximaal 10 aangepaste formulieren per document toevoegen. Als u een douaneformulier moet creëren, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 ## Een aangepast formulier bewerken
 

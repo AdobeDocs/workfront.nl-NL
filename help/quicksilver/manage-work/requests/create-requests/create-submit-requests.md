@@ -6,9 +6,9 @@ description: Geplande werkzaamheden worden in Adobe Workfront vertegenwoordigd d
 author: Lisa
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '2303'
+source-wordcount: '2300'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ Een Workfront-beheerder moet de volgende componenten van een aanvraagwachtrij ma
   Voor meer informatie, zie het artikel [ creëren de Groepen van het Onderwerp ](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 
 * (Optioneel) Aangepast formulier aanvragen.\
-  Voor meer informatie, zie het artikel [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  Voor meer informatie, zie het artikel [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 * (Optioneel) Verzoek om goedkeuring.\
   Voor meer informatie, zie het artikel [ een goedkeuringsproces voor het werkpunten ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) creëren.
@@ -342,7 +342,7 @@ U kunt aanvragen verzenden met alle toepassingen die zijn geïntegreerd met Work
 * U kunt een aangepaste integratie maken tussen Workfront en een andere toepassing waarmee u aanvragen naar Workfront kunt verzenden vanuit de andere toepassing.\
   Voor meer informatie over de integratie van douaneWorkfront, zie de artikel [ integratie van Adobe Workfront ](../../../administration-and-setup/configure-integrations/workfront-integrations-1.md).
 
-* U kunt aanvragen van Salesforce indienen als u de Workfront-app voor Salesforce hebt geïnstalleerd.\
+* U kunt aanvragen van Salesforce verzenden als u de Workfront-app voor Salesforce hebt geïnstalleerd.\
   Voor informatie over het voorleggen van verzoeken van Salesforce die onze Workfront app voor Salesforce gebruiken, zie het artikel [ verzoeken van Adobe Workfront van Salesforce indienen voorwerpen ](../../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md).
 
 ## Verzonden aanvragen zoeken
