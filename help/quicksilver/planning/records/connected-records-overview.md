@@ -6,16 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: e82cf1b586ea3b08f419802bd1e88c6567b61b95
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
 
 # Overzicht van verbonden records
 
-<!--for the Planning connection field, see commented out below; also add preview tags-->
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken.</span>
 
 {{planning-important-intro}}
 
@@ -56,6 +58,6 @@ U kunt records in de volgende gebieden verbinden met andere records of met objec
 * U kunt Workfront-objecten verbinden met Workfront Planning-records in de volgende gebieden:
 
    * Vanuit het gedeelte Planning van een Workfront-object.
-  <!--* From a Planning connection field on a Workfront object's custom form. -->
+   * <span class="preview"> van een de verbindingsgebied van de Planning op de douanevorm van een voorwerp van Workfront. </span>
 
   Voor informatie, zie [ recordverbindingen van de voorwerpen van Workfront beheren ](/help/quicksilver/planning/records/manage-records-in-planning-section.md)

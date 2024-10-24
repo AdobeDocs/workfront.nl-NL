@@ -8,14 +8,18 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: e82cf1b586ea3b08f419802bd1e88c6567b61b95
 workflow-type: tm+mt
-source-wordcount: '5537'
+source-wordcount: '6294'
 ht-degree: 0%
 
 ---
 
 # Een aangepast formulier maken
+
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken.</span>
 
 U kunt een aangepast formulier ontwerpen met de formulierontwerper in Adobe Workfront. U kunt aangepaste formulieren aan verschillende Workfront-objecten koppelen om gegevens over die objecten vast te leggen.
 
@@ -84,8 +88,8 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    * [Externe opzoekvelden toevoegen](#add-external-lookup-fields)
    * [Afbeeldingen, PDF en video&#39;s toevoegen](#add-images-pdfs-and-videos)
    * [Native Workfront-velden toevoegen](#add-workfront-native-fields)
-   * [ voeg de dossiers van Adobe XD ](#add-adobe-xd-files) toe
-     <!--* [Add Planning connection fields](#add-planning-connection-fields)-->
+   * [Adobe XD-bestanden toevoegen](#add-adobe-xd-files)
+   * <span class="preview">[ voeg de verbindingsgebieden van de Planning toe ](#add-planning-connection-fields)</span>
 
 ## Nieuwe of bestaande velden toevoegen aan uw aangepaste formulier
 
@@ -903,36 +907,36 @@ Een Adobe XD-bestand toevoegen:
 
    Klik **sparen en Sluiten**.
 
-<!--
-### Add Planning connection fields
+<div class="preview">
+
+### Verbindingsvelden voor planning toevoegen
 
 >[!IMPORTANT]
 >
->The information in this section refers to Adobe Workfront Planning, an additional capability from Adobe Workfront. 
+>De informatie in deze sectie verwijst naar Adobe Workfront Planning, een extra mogelijkheid van Adobe Workfront.
 >
->You must have the following to access Workfront Planning:
+>U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
 >
->* A new Workfront plan and license. Workfront Planning is not available for legacy Workfront plans or licenses. 
->* An additional license for Workfront Planning. 
->* Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience.
+>* Een nieuw Workfront-plan en -licentie. Workfront Planning is niet beschikbaar voor oudere Workfront-plannen of -licenties.
+>* Een extra licentie voor Workfront Planning.
+>* De instantie van uw organisatie van Workfront moet aan de Adobe Verenigde Ervaring worden genegeerd.
 >
-> For a complete list of requirements to access Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
+> Voor een volledige lijst van vereisten om tot de Planning van Workfront toegang te hebben, zie [ het toegangsoverzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/access/access-overview.md).
 > 
->For more information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
+>Voor meer informatie over de Planning van Workfront, zie [ het Overzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
 
-You can view records connected from Workfront Planning in a custom field on a Workfront object by adding a  Planning connection custom field to an object's custom form. 
+U kunt records die zijn verbonden via Workfront Planning weergeven in een aangepast veld op een Workfront-object door een aangepast veld voor de planningsverbinding toe te voegen aan het aangepaste formulier van een object.
 
-You can add the Planning connection field to all objects' custom forms. However, you can display connected records only on the custom forms associated with Workfront objects that can be connected from Workfront Planning. 
+U kunt het veld Verbinding plannen toevoegen aan aangepaste formulieren van alle objecten. U kunt gekoppelde records echter alleen weergeven op de aangepaste formulieren die zijn gekoppeld aan Workfront-objecten die kunnen worden verbonden via Workfront Planning.
 
 >[!NOTE]
 >
->Users viewing information in the custom field must have access to Workfront Planning and to the workspaces that contain the record types connected to Workfront objects.
+>Gebruikers die gegevens in het aangepaste veld weergeven, moeten toegang hebben tot de Workfront-planning en tot de werkruimten waarin de recordtypen staan die zijn verbonden met Workfront-objecten.
 
+Een verbindingsveld voor planning toevoegen:
 
-To add a Planning connection field:
-
-1. On the left side of the screen, find **Planning connection** and drag it to a section on the canvas. 
-1. On the right side of the screen, configure the options for the custom field:
+1. Op de linkerkant van het scherm, vind **Verbinding van de Planning** en sleep het aan een sectie op het canvas.
+1. Configureer rechts in het scherm de opties voor het aangepaste veld:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -940,65 +944,65 @@ To add a Planning connection field:
     <tbody> 
      <tr> 
       <td role="rowheader">Label</td> 
-      <td> <p>(Required) Type a descriptive label to display above the field. You can change the label at any time.</p> <p><b>IMPORTANT</b>:</p> <p>Avoid using special characters in this label.</p> 
-      <p>We recommend that you choose a label by which you can easily identify where the Planning record is coming from. Add information like the name of the workspace or the name of the record type. </p>   </td> 
+      <td> <p>(Vereist) Typ een beschrijvend label dat boven het veld wordt weergegeven. U kunt het label op elk gewenst moment wijzigen.</p> <p><b> BELANGRIJK </b>:</p> <p>Gebruik geen speciale tekens in dit label.</p> 
+      <p>Wij adviseren dat u een etiket kiest waardoor u gemakkelijk kunt identificeren waar het verslag van de Planning van herkomst is. Voeg informatie toe zoals de naam van de werkruimte of de naam van het recordtype. </p>   </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Name</td>
-      <td> <p>(Required) The name is how the system identifies the field. When you are configuring the field for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p></td> 
+      <td role="rowheader">Naam</td>
+      <td> <p>(Vereist) De naam is hoe het systeem het veld identificeert. Wanneer u het veld voor het eerst configureert en u typt het label, wordt het veld Naam automatisch aangepast. Maar de gebieden van het Etiket en van de Naam zijn niet gesynchroniseerd-dit geeft u de vrijheid om het etiket te veranderen dat uw gebruikers zien zonder het moeten de naam veranderen die het systeem ziet.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Instructions</td> 
-      <td> <p>(Recommended) Type any additional information about the field. When users fill out the custom form, they can hover over the question mark icon to view a tool tip containing the information you type here.</p>
-      <p>Here, you can add explicit information about the record and the objects you are connecting. </p>
+      <td role="rowheader">Instructies</td> 
+      <td> <p>(Aanbevolen) Typ aanvullende informatie over het veld. Wanneer gebruikers het aangepaste formulier invullen, kunnen ze de muisaanwijzer boven het pictogram van het vraagteken plaatsen om knopinfo weer te geven met de informatie die u hier typt.</p>
+      <p>Hier kunt u expliciete informatie toevoegen over de record en de objecten die u verbindt. </p>
       </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Object type</td> 
-      <td><p>(Required) Select a Workfront object type that is connected to a record type in Workfront Planning.</p>
-      You may select from the following object types:
+      <td role="rowheader">Objecttype</td> 
+      <td><p>(Vereist) Selecteer een Workfront-objecttype dat is verbonden met een recordtype in Workfront Planning.</p>
+      U kunt de volgende objecttypen selecteren:
       <ul><li> Project</li>
-      <li> Portfolio</li><li> Program</li><li> Company</li><li> Group</li></ul>
-       <p>Only Workfront object types for the form's object types are available.</p> <p> For example, if the Object Types list at the top of the form designer shows Project, you can only select Project in this field, and you cannot select Portfolios, although portfolios can also be connected to record types.</p>
+      <li> Portfolio</li><li> Programma</li><li> Bedrijf</li><li> Groep</li></ul>
+       <p>Alleen Workfront-objecttypen voor de objecttypen van het formulier zijn beschikbaar.</p> <p> Als de lijst Objecttypen bijvoorbeeld boven aan de formulierontwerper Project weergeeft, kunt u alleen Project in dit veld selecteren en kunt u geen Portfolio's selecteren, hoewel portfolio's ook kunnen worden verbonden met recordtypen.</p>
       </td>
      </tr>
      <tr> 
       <td role="rowheader">Workspace</td> 
-      <td> <p>(Required) Select the workspace where the records you want to display in Workfront come from in Workfront Planning.</p> <p> Only workspaces that are connected to the object types you selected in the I=Object type field display. </td> 
+      <td> <p>(Vereist) Selecteer de werkruimte Planning waar de records die u in Workfront wilt weergeven, vandaan komen.</p> <p> Alleen werkruimten die zijn verbonden met de objecttypen die u hebt geselecteerd in de weergave van het veld Objecttype. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Record Type</td> 
-      <td><p>(Required) Select the Workfornt Planning record type whose records are connected to the Workfront object associated with this form.</p><p>Only record types that have connections to the object type you selected in the Object type field display. </p></td> 
+      <td role="rowheader">Recordtype</td> 
+      <td><p>(Vereist) Selecteer het recordtype Workfront Planning dat een verbinding heeft met het objecttype Workfront.</p><p>Alleen recordtypen die verbindingen hebben met het objecttype dat u hebt geselecteerd in de weergave van het veld Objecttype. </p></td> 
      </tr>
      <tr> 
-      <td role="rowheader">Connection field</td> 
-      <td><p>(Required) Select the Workfront Planning connection field that displays the Workfront objects that are associated with this form.</p> <p> <b>NOTE</b></p><p>You can have multiple connection fields between the same object and record types.</p>  </td> 
+      <td role="rowheader">Verbindingsveld</td> 
+      <td><p>(Vereist) Selecteer het verbindingsveld tussen het geselecteerde Planningsrecordtype dat u wilt weergeven op de Workfront-objecten en het Workfront-objecttype. </p> <p> <b> NOTA </b></p><p>U kunt meerdere verbindingsvelden hebben tussen hetzelfde object en dezelfde recordtypen, maar u kunt slechts één veld selecteren.</p>  </td> 
      </tr>
     </tbody> 
    </table>
 
-1. (Optional) Repeat the previous steps to add any other fields. 
+1. (Optioneel) Herhaal de vorige stappen om andere velden toe te voegen.
 
-    or
+   of
 
-    To copy a field, hover over a field, and click the copy icon.
+   Als u een veld wilt kopiëren, plaatst u de muis boven een veld en klikt u op het pictogram Kopiëren.
 
-    ![copy icon](assets/copy-field.png)
+   ![ exemplaarpictogram ](assets/copy-field.png)
 
-1. To save your changes, click **Apply** and move on to another section to continue building your form.
+1. Om uw veranderingen te bewaren, **van toepassing is** en zich op een andere sectie te bewegen om uw vorm verder te bouwen.
 
-    or
+   of
 
-    Click **Save and Close**.
+   Klik **sparen en Sluiten**.
 
-    You can now attach the form to an object connected from Workfront Planning and do one of the following:
+   U kunt het formulier nu koppelen aan een object dat is verbonden via Workfront Planning en een van de volgende handelingen uitvoeren:
 
-    * View Workfront Planning record types connected to the Workfront object
-    * Connect or disconnect records from the Workfront object associated with the form. 
+   * Bekijk Workfront Planning-recordtypen die zijn verbonden met het Workfront-object, als er recordtypen zijn.
+   * Verbind of maak verslagen van het voorwerp van Workfront los.
 
-    For more information, see [Manage record connections from Workfront objects](/help/quicksilver/planning/records/manage-records-in-planning-section.md)
+   Voor meer informatie, zie [ recordverbindingen van de voorwerpen van Workfront beheren ](/help/quicksilver/planning/records/manage-records-in-planning-section.md)
 
--->
+</div>
 
 ## Een formulier organiseren en een voorbeeld bekijken met de formulierontwerper
 
