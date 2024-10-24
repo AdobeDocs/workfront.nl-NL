@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8a3830e8-0d9a-4ede-a1b6-b80dd4686bc6
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '2981'
+source-wordcount: '2983'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >U moet een Workfront-planningsplan aanschaffen, in aanvulling op een Workfront-plan om toegang te krijgen tot Workfront-planningsmogelijkheden en deze te kunnen gebruiken.
 >
->Voor een volledige lijst van vereisten om tot de Planning van Workfront toegang te hebben, zie [ Overzicht van de Toegang ](/help/quicksilver/planning/access/access-overview.md).
+>Voor een volledige lijst van vereisten om tot de Planning van Workfront toegang te hebben, zie [ de toegangsoverzicht van de Planning van de Adobe ](/help/quicksilver/planning/access/access-overview.md).
 >Voor een overzicht van de Planning van Workfront, zie [ het Overzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
 >
 

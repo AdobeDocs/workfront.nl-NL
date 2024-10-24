@@ -7,7 +7,7 @@ description: De datum van het Vastleggen is de datum waaraan een gebruiker aan t
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
 workflow-type: tm+mt
 source-wordcount: '895'
 ht-degree: 0%
@@ -61,7 +61,7 @@ Voor informatie, zie [ Update Commit Dates op taken en kwesties ](/help/quicksil
 U kunt de Vastlegdatum aan taken en kwesties op de volgende gebieden van Workfront vinden:
 
 * De pagina Details
-* Het deelvenster Samenvatting nadat een Workfront- of groepsbeheerder het heeft toegevoegd aan uw lay-outsjabloon. Voor informatie, zie [ Huis en Samenvatting aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+* Het deelvenster Samenvatting nadat een Workfront- of groepsbeheerder het heeft toegevoegd aan uw lay-outsjabloon. Voor informatie, zie [ het Summiere paneel aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 * De koptekst van een taak of uitgave, nadat een Workfront of een groepsbeheerder deze aan uw lay-outmalplaatje toevoegt. Voor informatie, zie [ objecten kopballen aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 ## Meldingen en updates die worden geactiveerd door het wijzigen van de Vastlegdatum {#notifications-and-updates-triggered-by-changing-the-commit-date}
@@ -93,7 +93,7 @@ Als u de datum vastleggen voor een taak of uitgave handmatig instelt, worden de 
   >Raadpleeg de volgende artikelen voor meer informatie:
   >
   >* [ Overzicht van de Samenvatting ](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
-  >* [ pas Huis en Samenvatting aan gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+  >* [ pas het Summiere paneel aan gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
   >* [ pas objecten kopballen aan gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 <!--this is no longer possible: 

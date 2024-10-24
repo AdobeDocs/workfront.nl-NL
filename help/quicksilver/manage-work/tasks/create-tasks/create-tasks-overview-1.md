@@ -2,22 +2,24 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: tasks
-title: Taken maken
-description: U kunt taken in een specifiek project creëren, of u kunt taken van het gebied van het Huis creëren.
+title: "Taken maken: artikelindex"
+description: U kunt taken in een specifiek project tot stand brengen.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 5776570c-f303-4e62-bc80-5038191a83fd
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '46'
 ht-degree: 0%
 
 ---
 
-# Taken maken
+# Taken maken: artikelindex
 
-U kunt taken in een specifiek project creëren, of u kunt taken van het gebied van het Huis creëren.
+<!--Audited: 10/2024-->
+
+U kunt taken maken in een specifiek project in Adobe Workfront.
 
 Deze sectie bevat de volgende artikelen:
 

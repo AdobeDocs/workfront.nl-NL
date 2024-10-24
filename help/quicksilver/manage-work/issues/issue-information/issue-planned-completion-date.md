@@ -6,7 +6,7 @@ description: De geplande afgiftedatum is de datum waarop de afgifte naar verwach
 author: Alina
 feature: Work Management
 exl-id: bdb206dc-18f8-4f8a-862b-e881408a8408
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 0%
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 De geplande afgiftedatum is de datum waarop de afgifte naar verwachting zal zijn voltooid.
 
-U kunt de Geplande Voltooiingsdatum van een kwestie specificeren, of u kunt het aan Adobe Workfront verlaten om het te berekenen afhankelijk van bepaalde criteria. 
+U kunt de Geplande Voltooiingsdatum van een kwestie specificeren, of u kunt het aan Adobe Workfront verlaten om het te berekenen afhankelijk van bepaalde criteria.
 
-De geplande uitvoeringstermijnen hebben geen invloed op de geplande uitvoeringsdatum van het project. Alleen de geplande voltooiingsdatums van de taken zijn van invloed op de geplande uitvoeringsdatum van het project. Voor meer informatie over het project Geplande Datum van de Voltooiing, zie [ plaatsen het project Geplande Datum van de Voltooiing ](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md).
+De geplande uitvoeringstermijnen hebben geen invloed op de geplande uitvoeringsdatum van het project. Alleen de geplande voltooiingsdatums van de taken zijn van invloed op de geplande uitvoeringsdatum van het project. Voor meer informatie over het project Geplande Datum van de Voltooiing, zie [ plaatsen het project Geplande Datum van de Voltooiing ](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md).
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ U moet over Edit toegang tot Kwesties en Beheren toestemmingen op de kwestie heb
 
 U kunt de Geplande Datum van Voltooiing van een kwestie in de volgende gebieden van Workfront manueel plaatsen:
 
-* In het vak Uitgave bewerken of in het gebied Details van uitgave bij het maken of bewerken van een uitgave. Voor informatie, zie [ kwesties ](../../../manage-work/issues/manage-issues/edit-issues.md) uitgeven.
+* In het vak Uitgave bewerken of in het gebied Details van uitgave bij het maken of bewerken van een uitgave. Voor informatie, zie [ kwesties ](../../../manage-work/issues/manage-issues/edit-issues.md) uitgeven.
 * In het gebied van het Huis als de Geplande Datum van de Voltooiing wanneer het bekijken van een kwestie verschijnt. Voor informatie, zie [ Update of geef een het werkpunt op het gebied van het Huis ](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md) uit.
 * In de uitgiftekop. Voor informatie, zie [ Nieuwe objecten kopballen ](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
 * In een uitgiftenlijst of rapport wanneer het Geplande gebied van de Datum van de Voltooiing in de mening toont.
@@ -54,13 +54,13 @@ Wanneer Workfront automatisch de Geplande Voltooiingsdatum van een kwestie berek
 
   De ingangsdatum en de geplande begindatum moeten overeenkomen met een uitgave wanneer u de uitgave voor het eerst maakt.
 
-* De standaardduur zoals die in de sectie van de Details van de Rij van het project wordt gevormd. Voor informatie, zie [ een Rij van het Verzoek ](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
+* De standaardduur zoals die in de sectie van de Details van de Rij van het project wordt gevormd. Voor informatie, zie [ een Rij van het Verzoek ](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
 
   Als de standaardduur 0 dagen is, komt de geplande uitvoeringsdatum overeen met de geplande begindatum van de uitgave.
 
 * Projectplanning
 
-Wanneer deze optie automatisch wordt ingesteld, wordt de geplande datum van voltooiing bepaald op basis van de volgende berekening: 
+Wanneer deze optie automatisch wordt ingesteld, wordt de geplande datum van voltooiing bepaald op basis van de volgende berekening:
 
 ```
 Planned Completion Date = Planned Start Date (or Entry Date + Default Duration
@@ -77,4 +77,4 @@ De volgende situaties bestaan:
 >
 >Workfront houdt bij het berekenen van Geplande Voltooiingsdata rekening met uitzonderingen op het Plan, zoals feestdagen en weekends.
 
- 
+

@@ -6,7 +6,7 @@ description: De voorwaarde van een taak of een kwestie is een vlag die op het wo
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
 workflow-type: tm+mt
 source-wordcount: '1020'
 ht-degree: 0%
@@ -83,7 +83,7 @@ U vindt de voorwaarde voor taken en problemen in de volgende gebieden van Workfr
 
 * De koptekst van een taak of uitgave, nadat een Workfront of een groepsbeheerder deze aan uw lay-outmalplaatje toevoegt. Voor informatie, zie [ objecten kopballen aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
-* Het deelvenster Samenvatting nadat een Workfront- of groepsbeheerder het heeft toegevoegd aan uw lay-outsjabloon. Voor informatie, zie [ Huis en Samenvatting aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+* Het deelvenster Samenvatting nadat een Workfront- of groepsbeheerder het heeft toegevoegd aan uw lay-outsjabloon. Voor informatie, zie [ het Summiere paneel aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 * Hiermee worden rapporten en lijsten weergegeven wanneer u het veld Voorwaarde weergeeft in een weergave of Groepering.
 
@@ -116,7 +116,7 @@ U kunt de Voorwaarde van een taak of kwestie in een taak of een uitgiftenrapport
 >Raadpleeg de volgende artikelen voor meer informatie:
 >
 >* [ Overzicht van de Samenvatting ](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
->* [ pas Huis en Samenvatting aan gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+>* [ pas het Summiere paneel aan gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 
 <!--old Condition update - in the commenting stream: 

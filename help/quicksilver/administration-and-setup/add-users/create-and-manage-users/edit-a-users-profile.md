@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '3298'
+source-wordcount: '3264'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
       </li>
 
    </li> 
-       <li><b> verzend het werk ik aan mezelf toewijst aan mijn het Werken aan lusje </b>: Controleer deze optie als u alles wilt dat de gebruiker aan zich toewijst om direct op het Werken aan lijst in het gebied van het Huis te verschijnen. Standaard wordt alles vermeld dat aan een gebruiker is toegewezen op de lijsten Ready to Start of Not Ready in het gebied Home.</li> 
+       <li><b> verzend het werk ik aan mezelf toewijs aan mijn het Werken op lusje </b>: Dit het plaatsen verwijst naar een verouderde eigenschap die uit Workfront is verwijderd.</li> 
        <li><b> produceert automatisch proeven wanneer het uploaden van documenten </b>: Controle deze optie als u de documenten wilt die de gebruiker uploadt om een proef onmiddellijk te produceren. </li>
        </ul> </td> 
      </tr> 
@@ -153,7 +153,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
       <li><b> Directe Rapporten:</b> als u een bedrijf voor de gebruiker specificeerde, kunt u de directe rapporten van de gebruiker ook specificeren. Een gebruiker kan meerdere directe rapporten hebben. Dit veld wordt niet weergegeven als de gebruiker niet eerst aan een bedrijf is gekoppeld.</li> 
       <li><b> Team van het Huis </b>: Specificeer het huisteam voor de gebruiker. Gebruikers kunnen slechts één huisteam hebben. Het Team van het Huis is belangrijk wanneer het toewijzen van een lay-outmalplaatje of wanneer het bepalen van het Werk aan het knoop voor de taken en kwesties die aan de gebruiker worden toegewezen. </li> 
       <li><b> Andere Teams </b>: De gebruikers kunnen tot veelvoudige teams behoren. Een gebruiker kan werkitems bekijken die zijn toegewezen aan een van de teams in het thuisgebied. </li> 
-      <li> <p><b> Groep van het Huis:</b> selecteer een aangewezen groep om de gebruiker toe te wijzen. Hierdoor heeft de gebruiker toegang tot objecten die met de groep worden gedeeld. U kunt lay-outsjablonen ook delen met de thuisgroep van de gebruiker.</p> <p>Dit is een verplicht veld. Elke gebruiker moet met een homegroep worden geassocieerd. Als u geen selecteert, wordt uw groep toegewezen als homegroep van de nieuwe gebruiker.</p> <p><b> NOTA </b>:</p> 
+      <li> <p><b> Groep van het Huis:</b> selecteer een aangewezen groep om de gebruiker toe te wijzen. Hierdoor heeft de gebruiker toegang tot objecten die met de groep worden gedeeld. U kunt lay-outsjablonen ook delen met de thuisgroep van de gebruiker.</p> <p>Dit is een verplicht veld. Elke gebruiker moet met een homegroep worden geassocieerd. Als u er geen selecteert, wordt de startgroep toegewezen als de startgroep van de nieuwe gebruiker.</p> <p><b> NOTA </b>:</p> 
       <p> U kunt een groep alleen aan een gebruiker toewijzen als een van de volgende situaties true is:</p>
       <ul><li>u bent een Workfront-beheerder</li>
       <li>u bent de beheerder van de groep</li>

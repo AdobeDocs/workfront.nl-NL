@@ -9,9 +9,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,7 @@ Als Adobe Workfront-beheerder of groepsbeheerder kunt u lay-outsjablonen maken e
 * Hoofdmenu
 * Linkernavigatievenster
 * Thuisgebied
+* Het deelvenster Samenvatting
 * Weergaven, filters en groepen die mensen gebruiken met lijsten en rapporten.
 * Schermterminologie
 * Project-, taak- en uitgavekoppen
@@ -101,7 +102,8 @@ Voor meer informatie over lay-outmalplaatjes, zie [ malplaatjes van de Lay-out ]
    * [ pas het linkerpaneel aan gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
    * [ pas vastgezette pagina&#39;s gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md) aan
    * [ pas de mening van Details aan gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
-   * [ pas Huis en Samenvatting aan gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   * [ pas het Summiere paneel aan gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   * [Home aanpassen met een lay-outsjabloon](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
    * [ pas de het landen pagina gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md) aan
    * [ pas Filters, Weergaven, en Groepen aan gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    * [De terminologie van de gebruikersinterface aanpassen met behulp van een lay-outsjabloon](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)

@@ -6,9 +6,9 @@ description: De  [!DNL Adobe Workfront]  verklarende woordenlijst lijsten algeme
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '17341'
+source-wordcount: '17321'
 ht-degree: 0%
 
 ---
@@ -471,7 +471,9 @@ De volgende tabel bevat een lijst met veelgebruikte termen in Adobe Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Calendar]</td> 
-   <td> <p>[!DNL Workfront] bevat twee soorten kalenders: de [!UICONTROL Home Calendar] - en kalenderrapporten.</p> <p>[!UICONTROL Home Calendar] is een persoonlijke kalender waarmee een gebruiker zijn werklast kan afstemmen op de beschikbare uren in [!DNL Workfront] . Gebruikers kunnen ook hun [!UICONTROL Home Calendar] met [!DNL Outlook] ([!DNL Google] en [!DNL Microsoft] toekomstige integratie) integreren. </p> <p>Voor meer informatie over [!UICONTROL Home Calendar], zie <a href="../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md" class="MCXref xref">[!UICONTROL Home Calendar] mening </a>.</p> <p>Een kalenderrapport is een dynamisch rapport waarin gebruikers de datum en andere belangrijke details van een gebeurtenis kunnen bekijken, met inbegrip van de vervaldatum, de status van het werk, en de gebruiker aan wie de gebeurtenis wordt toegewezen.</p> <p> Voor meer informatie over kalenderrapporten, zie <a href="../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md" class="MCXref xref"> overzicht van de rapporten van de Kalender </a>.</p> </td> 
+   <td> <p>In Workfront is een kalenderrapport een dynamisch rapport waarin gebruikers de datum en andere belangrijke details van een gebeurtenis kunnen bekijken, waaronder de vervaldatum, de status van het werk en de gebruiker aan wie de gebeurtenis is toegewezen.</p> <p> Voor meer informatie over kalenderrapporten, zie <a href="../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md" class="MCXref xref"> overzicht van de rapporten van de Kalender </a>.</p>
+   <p> In de Planning van Workfront, is een mening van de Kalender een type van mening voor een verslagtype dat verslagen op een kalender toont. U moet een extra licentie hebben om toegang te krijgen tot Workfront Planning. </p>
+    </td> 
   </tr> 
    <tr> 
    <td>[!UICONTROL Can Start]</td> 
@@ -1644,7 +1646,7 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   </tr> 
   <tr> 
    <td>[!UICONTROL Portal Profile]</td> 
-   <td>Een door de beheerder gedefinieerde verzameling met tabs en portalsecties die wordt weergegeven in de [!DNL Workfront] toepassing [!UICONTROL Home] en andere dashboards.</td> 
+   <td>Een door de beheerder gedefinieerde verzameling met tabs en secties die wordt weergegeven in [!DNL Workfront] .</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Portal Section]</td> 

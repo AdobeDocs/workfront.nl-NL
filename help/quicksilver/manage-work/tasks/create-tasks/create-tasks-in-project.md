@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: 9f351a16c2a741b922e8ee51efb3ea3d7d2d18e1
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '718'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ U kunt taken in een project slechts tot stand brengen nadat u het project creeer
 
 Bijvoorbeeld, na het creëren van een project, zou u taken kunnen willen toevoegen en hen wijzigen om het projectplan te organiseren. Voor meer informatie over het creëren van een project, zie [ een project ](../../../manage-work/projects/create-projects/create-project.md) creëren.
 
-Voor informatie over het creëren van persoonlijke taken die niet in een project zijn, zie [ een persoonlijke taak ](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-personal-task) sectie in het artikel [ creëren het werkpunten en projecten van het gebied van het Huis ](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+<!--Not possible anymore, after new Home: For information about creating personal tasks that are not in a project, see the [Create a personal task](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-personal-task) section in the article [Create work items and projects from the Home area](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).-->
 
 In dit artikel wordt beschreven hoe u geheel nieuwe taken maakt. U kunt taken ook op de volgende manieren maken:
 

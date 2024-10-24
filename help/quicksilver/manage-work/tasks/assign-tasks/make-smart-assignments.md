@@ -6,9 +6,9 @@ description: U kunt slimme toewijzingen gebruiken om te bepalen wie de beste geb
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,6 @@ Slimme toewijzingen zijn beschikbaar op de meeste locaties waar u toewijzingen k
    * Een taak- of uitgiftekoptekst
    * Het deelvenster Overzicht van taken of uitgaven
    * <span class="preview"> Een Nieuwe Taak </span> of Nieuwe doos van de Uitgave, aangezien u <span class="preview"> een nieuwe taak </span> of een kwestie aan een project toevoegt
-   * Het veld Toewijzingen voor een item dat wordt vermeld in het gebied Home
    * Een taak of probleem in het werklastevenwicht
 
 1. Plaats de cursor in het veld Toewijzingen en wacht twee seconden.

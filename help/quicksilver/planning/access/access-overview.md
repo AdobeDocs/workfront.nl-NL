@@ -1,20 +1,20 @@
 ---
-title: Overzicht van toegang
+title: Overzicht Adobe Workfront Planning Access
 description: Niet alle gebruikers in de organisatie hebben de zelfde toegang en de toestemmingen om de Planning van Adobe Workfront te gebruiken. In dit artikel worden de toegang en machtigingen beschreven die gebruikers kunnen hebben om de mogelijkheden van Adobe Workfront Planning te gebruiken.
 author: Alina
 feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '673'
 ht-degree: 0%
 
 ---
 
 
-# Overzicht van toegang
+# Toegangsoverzicht voor Adobe Workfront Planning
 
 <!--do not use the snippet for IMPORTANT , as it links to this article-->
 

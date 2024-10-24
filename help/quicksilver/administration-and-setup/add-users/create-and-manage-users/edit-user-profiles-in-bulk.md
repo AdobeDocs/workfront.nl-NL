@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '2236'
+source-wordcount: '2213'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
        <ul> 
         <li><b> Tijdzone van de Tijd:</b> de tijdzone van de gebruikers.</li> 
         <li><b> Landinstelling </b>: De geprefereerde landinstelling van de gebruikers. Dit is van invloed op de notatie van getallen en datums in de e-mails van Workfront.</li> 
-        <li><b> verzend het werk ik aan mezelf toewijst aan mijn het Werken aan lusje </b>: Controleer deze optie als u alles wilt dat de gebruikers aan zich toewijzen om direct op hun het Werken aan tabel te verschijnen. Standaard wordt alles weergegeven dat aan een gebruiker is toegewezen op het tabblad Werkaanvraag.</li> 
+        <li><b> verzend het werk ik aan mezelf toewijs aan mijn het Werken op lusje </b>: Dit het plaatsen verwijst naar een verouderde eigenschap die uit Workfront is verwijderd.</li> 
        </ul> </td> 
      </tr> 
      <tr> 

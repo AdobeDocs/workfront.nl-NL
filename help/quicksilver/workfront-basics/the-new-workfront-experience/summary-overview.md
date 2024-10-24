@@ -5,9 +5,9 @@ description: U kunt het Summiere paneel gebruiken om de informatie van het het w
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '846'
 ht-degree: 0%
 
 ---
@@ -187,9 +187,7 @@ Gebruik de sectie [!UICONTROL Documents] van de [!UICONTROL Summary] om document
 
 In de sectie [!UICONTROL Details] van de [!UICONTROL Summary] kunt u gedetailleerde gegevens van het tijdelijke item weergeven, toewijzingen maken of begindatums toevoegen. Klik op **[!UICONTROL See all]** om rechtstreeks naar het tabblad [!UICONTROL Details] van de taak of uitgave te gaan.
 
->[!NOTE]
->
->De velden in deze sectie zijn dezelfde velden die in het rechterdeelvenster van Home worden weergegeven. U kunt deze gebieden [ aanpassen [!UICONTROL Home] en [!UICONTROL Summary] gebruikend een lay-outmalplaatje ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+
 
 ![ sectie van Details in Samenvattend paneel ](assets/summary-details-section.png)
 

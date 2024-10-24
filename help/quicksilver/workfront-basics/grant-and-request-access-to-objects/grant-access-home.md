@@ -6,52 +6,26 @@ description: Gebruikers kunnen toegang aanvragen tot objecten in Adobe Workfront
 author: Alina
 feature: Get Started with Workfront
 exl-id: e0a69ed5-57c3-47ac-bb7a-65495f93b3e3
-source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
 
 # Toegang verlenen tot objecten in het gebied Home
 
-Gebruikers kunnen toegang aanvragen tot objecten in Adobe Workfront. Voor meer informatie over het vragen van toegang, zie  [ toegang van het Verzoek tot voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/request-access.md).
+<!--Audited: 10/2024-->
+
+Gebruikers kunnen toegang aanvragen tot objecten in Adobe Workfront.
+
+Voor meer informatie over het verzoeken van toegang, zie [ Toegang van het Verzoek tot voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/request-access.md).
 
 Als u de eigenaar van een object bent, kunt u toegang tot items vanuit uw thuisgebied verlenen of weigeren.
 
 ## Toegangsvereisten
 
-<!--drafted for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard</p> 
-   Or
-   <p>Legacy license: Work or higher</p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access or higher to projects, tasks, issues, or documents</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions or higher to projects, tasks, issues, or documents</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
--->
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -60,31 +34,34 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Werk of hoger</p> </td> 
+   <td> <p>Nieuw: Standaard</p> 
+   <p>Huidig: Werk of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot of hoger weergeven voor projecten, taken, problemen of documenten</p> <p><b>OPMERKING</b>
-
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
-</tr> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot of hoger weergeven voor projecten, taken, problemen of documenten</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen of hoger weergeven voor projecten, taken, problemen of documenten</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Machtigingen of hoger weergeven voor projecten, taken, problemen of documenten</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Toegang verlenen tot objecten in het gebied Home
 
-1. Klik het **pictogram van het Huis** ![](assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.
+1. Klik het **Belangrijkste menu** ![](assets/dots-main-menu.png) in de hoger-juiste hoek van het scherm, of het **Belangrijkste menu** ![](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar, dan klik **Huis**
+of
+Klik het **Punt** pictogram van het Huis ![](assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.
 
    >[!NOTE]
    >
@@ -93,27 +70,9 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
    >* Vervang deze door een afbeelding die is aangepast om uw organisatie te illustreren. In dit geval ziet het pictogram er anders uit dan in dit artikel.
    >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **Belangrijkste Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik **Huis**.
 
-1. (Voorwaardelijk) Ga als volgt te werk vanuit het verouderde gebied Start:
+1. Ga als volgt te werk:
 
-   1. In de **Lijst van het Werk**, selecteer het toegangsverzoek u in de **goedkeurt** sectie wilt beheren.
-
-   ![ Screen_Shot_2018-07-02_at_11.35.29_AM.png ](assets/screen-shot-2018-07-02-at-11.35.29-am-350x242.png)
-
-   Het verzoek wordt rechts van de Werklijst weergegeven.
-
-   1. Klik in de rechterbovenhoek op de knop voor toegang tot subsidies.\
-      Afhankelijk van het type gevraagde toegang, verandert de knoopnaam. Bijvoorbeeld, als de aanvrager om de toegang van de Mening vraagt, zegt de knoop {de Toegang van de Mening van 0} Verlening **.**\
-      ![ Grant_Access_2.png ](assets/grant-access-2-350x98.png)
-
-   1. (Facultatief) om een verschillend niveau van toegang te verlenen dan gevraagd, klik de pijl naast de knoop van de subsidietoegang en selecteer de nieuwe toegang, dan klik **Verlenen &lt; het niveau van de Toestemming > Toegang >**.\
-      Er wordt een bericht weergegeven waarin wordt bevestigd dat toegang is verleend.
-
-   1. (Facultatief) klik **negeren** om toegang te ontkennen.\
-      Er verschijnt een bericht dat bevestigt dat toegang is genegeerd.
-
-1. (Voorwaardelijk) Ga als volgt te werk vanuit het nieuwe gebied Home:
-
-   1. Ga naar **Mijn goedkeuring** widget en vind het verzoek om meer toegang, dan klik **de toegang van de Verlening**.
+   1. Ga naar **Mijn goedkeurt** widget en vind het verzoek om meer toegang, dan klik **de toegang van de Verlening**.
 
       ![](assets/request-for-access-to-project-in-new-home-approvals-widget.png)
 
@@ -121,15 +80,38 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 
       Het toegangsverzoek wordt verleend en het verdwijnt uit de lijst van goedkeuringsverzoeken.
 
-   1. (Facultatief) klik **negeren** om toegang te ontkennen. Het toegangsverzoek wordt niet verleend en het verzoek verdwijnt uit de lijst van goedkeuringsverzoeken.
+1. (Facultatief) klik **negeren** om toegang te ontkennen. Het toegangsverzoek wordt niet verleend en het verzoek verdwijnt uit de lijst van goedkeuringsverzoeken.
 
-## E-mailmeldingen voor verzoeken configureren
+## E-mailmeldingen configureren voor verzoeken om toegang
 
 U kunt configureren of u e-mailmeldingen ontvangt voor toegangsverzoeken. Uw beheerder van Workfront kan deze functionaliteit onbruikbaar maken (zoals die in [ wordt beschreven vormt gebeurtenisberichten voor iedereen in het systeem ](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+1. Ga naar uw gebruikersprofiel door één van het volgende te doen:
 
-1. Klik **Voorkeur**, of rol aan de sectie van Voorkeur.
-1. In **e-mail me wanneer** drop-down lijst, selecteer of schrap **Iemand om toegang van me** verzoekt, afhankelijk van of u e-mailberichten wilt ontvangen wanneer een andere gebruiker toegang van u vraagt of niet.
+   * Klik het **Belangrijkste menu** ![](assets/dots-main-menu.png) in de hoger-juiste hoek van het scherm, dan klik uw naam.
+   * Klik het Adobe **Belangrijkste menu** ![](assets/adobe-blue-main-menu.png) in de hoger-juiste hoek, als beschikbaar, dan klik **Profiel van Workfront**.
+
+1. Klik **Meer** menu ![](assets/more-icon.png) aan het recht van uw naam in de kopbal, dan klik **uitgeven**.
+1. Klik **Meldingen**, en selecteer of schrap **Iemand verzoekt toegang van me** in de **Nodig Actie** sectie, afhankelijk van of u e-mailberichten wilt ontvangen wanneer een andere gebruiker toegang van u vraagt of niet.
+
+   U kunt een dagelijkse of onmiddellijke melding inschakelen.
 
 1. Klik **sparen Veranderingen**.
+
+<!--1. (Conditional) From the legacy Home area, do the following: 
+   
+   1. In the **Work List**, select the access request you want to manage in the **Approvals** section.  
+
+   ![Screen_Shot_2018-07-02_at_11.35.29_AM.png](assets/screen-shot-2018-07-02-at-11.35.29-am-350x242.png)
+
+   The request displays on the right of the Work List. 
+
+   1. In the upper-right corner, click the grant access button.  
+   Depending on the type of access requested, the button name changes. For example, if the requestor asks for View access, the button says **Grant View Access**.  
+   ![Grant_Access_2.png](assets/grant-access-2-350x98.png)
+
+   1. (Optional) To grant a different level of access than requested, click the arrow next to the grant access button and select the new access, then click **Grant < Permission level > Access >**.  
+   A message appears confirming access was granted.  
+   
+   1. (Optional) Click **Ignore** to deny access.  
+   A message appears confirming access was ignored.-->

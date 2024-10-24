@@ -4,10 +4,11 @@ navigation-topic: the-new-workfront-experience
 title: Overzicht van objectkoppen
 description: U kunt informatie bij een blik over voorwerpen in  [!DNL Adobe Workfront]  bekijken wanneer u hun kopbal herzien. De informatie in een kopbal kan de eigenaar van het voorwerp, de status, of het volledige percentage omvatten.
 feature: Get Started with Workfront
+author: Courtney
 exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
-source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '3212'
+source-wordcount: '3213'
 ht-degree: 0%
 
 ---
@@ -31,12 +32,12 @@ Bijvoorbeeld, om tot de kopbal van een project toegang te hebben:
 
    ![](assets/project-header-350x18.png)
 
-## [!UICONTROL Home] koptekstoverzicht
+<!--## [!UICONTROL Home] header overview 
 
-De volgende headers zijn beschikbaar in Home:
+The following headers are available in Home:
 
-* Taak: Voor meer informatie over hoe u deze kopbal kunt gebruiken, zie het [ overzicht van de kopbal van de Taak ](#task-header-overview) in dit artikel.
-* Uitgave: Voor meer informatie over hoe u deze kopbal kunt gebruiken, zie het [ de kopbaloverzicht van de Uitgave ](#issue-header-overview) in dit artikel.
+* Task: For more information on how you can use this header, see the [Task header overview](#task-header-overview) in this article.
+* Issue: For more information on how you can use this header, see the [Issue header overview](#issue-header-overview) in this article.-->
 
 ## Aanpasbare koppen
 
@@ -80,8 +81,8 @@ De projectheader toont de volgende informatie, door gebrek:
    <td> <p>De tekst "[!UICONTROL PROJECT]"toont boven de projectnaam in de kopbal.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Het actiegebied van de taak</td> 
-   <td> <p>Naast de naam van het project wordt het actiegebied weergegeven.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p>  </td> 
+   <td role="rowheader">Het actiegebied van het project</td> 
+   <td> <p>Naast de naam van het project, de vertoningen van het actiegebied die <b> de optie van het Aandeel </b> omvatten.</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Percent Complete]</td> 
@@ -144,7 +145,7 @@ De taakkopbal omvat standaard de volgende informatie:
   </tr> 
   <tr> 
    <td role="rowheader">Het actiegebied van de taak</td> 
-   <td> <p>Naast de naam van de taak wordt het gebied [!UICONTROL actions] weergegeven.</p> <p> <img src="assets/nwe-dependency-action-area.png"> </p> <p>Als het pictogram Afhankelijkheid wordt weergegeven, kunt u op het pictogram klikken om eventuele voorgangers of opvolgers voor de taak weer te geven.</p> </td> 
+   <td> <p>Naast de naam van de taak, de vertoningen van het actiegebied die <b> de optie van het Aandeel </b> omvatten.</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </p> <p>Als het pictogram Afhankelijkheid wordt weergegeven, kunt u op het pictogram klikken om eventuele voorgangers of opvolgers voor de taak weer te geven.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Percent Complete]</td> 
@@ -207,7 +208,7 @@ De uitgiftheader bevat standaard de volgende informatie:
   </tr> 
   <tr> 
    <td role="rowheader">Het actiegebied van de kwestie</td> 
-   <td> <p>Naast de naam van de uitgave wordt het gebied [!UICONTROL actions] weergegeven.</p> <p> <img src="assets/nwe-dependency-action-area.png"> </p> <p>Als het pictogram [!UICONTROL Dependency] wordt weergegeven, kunt u op het pictogram klikken om eventuele voorgangers of opvolgers voor de uitgave weer te geven.</p>  </td> 
+   <td> <p>Naast de naam van de kwestie, de vertoningen van het actiegebied die <b> de optie van het Aandeel </b> omvatten.</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> <p>Als het pictogram [!UICONTROL Dependency] wordt weergegeven, kunt u op het pictogram klikken om eventuele voorgangers of opvolgers voor de uitgave weer te geven.</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Percent Complete]</td> 
@@ -274,7 +275,7 @@ De programmakoptekst bevat de volgende informatie:
   </tr> 
   <tr> 
    <td role="rowheader">Het actiegebied van het programma</td> 
-   <td> <p>Naast de naam van het programma wordt het gebied [!UICONTROL actions] weergegeven.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p> </td> 
+   <td> <p>Naast de naam van het programma, de vertoningen van het actiegebied die <b> de optie van het Aandeel </b> omvatten.</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Percent Complete]</td> 
@@ -328,8 +329,8 @@ De portfoliokop van het portfolio bevat de volgende informatie:
    <td> <p>Als het portfolio is gedeactiveerd, wordt de tekst "[!UICONTROL PORTFOLIO DEACTIVATED]" weergegeven boven de naam van het portfolio in de koptekst.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Het [!UICONTROL actions] -gebied van het portfolio</td> 
-   <td> <p>Naast de naam van het portfolio wordt het gebied [!UICONTROL actions] weergegeven.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p></td> 
+   <td role="rowheader">Het actiegebied van het portfolio</td> 
+   <td> <p>Naast de naam van het portfolio wordt het gebied [!UICONTROL actions] weergegeven.</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Portfolio Manager]</td> 
@@ -370,12 +371,12 @@ De sjabloonkoptekst bevat de volgende informatie:
  <thead> 
   <tr> 
    <th>Koptekstgegevens</th> 
-   <th>Opmerkingen</th> 
+   <th>Notities</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Object icon </td> 
+   <td role="rowheader">Object, pictogram </td> 
    <td> <p>Het groene [!UICONTROL Template] pictogram <img src="assets/nwe-templates-icon.png"> toont links van de malplaatjenaam.</p> </td> 
   </tr> 
   <tr> 
@@ -388,11 +389,11 @@ De sjabloonkoptekst bevat de volgende informatie:
   </tr> 
   <tr> 
    <td role="rowheader">Activeringsstatus</td> 
-   <td> <p>Als de sjabloon is gedeactiveerd, wordt de tekst "[!UICONTROL TEMPLATE DEACTIVATED]" weergegeven boven de sjabloonnaam in de koptekst.</p> </td> 
+   <td> <p>Als het malplaatje wordt gedeactiveerd, toont de tekst "[!UICONTROL TEMPLATE DEACTIVATED]"boven de malplaatjenaam in de kopbal.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Het actiegebied van de sjabloon</td> 
-   <td> <p>Naast de naam van de sjabloon wordt het actiegebied weergegeven.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p> </td> 
+   <td> <p>Naast de naam van de sjabloon wordt het actiegebied weergegeven.</p> <p> <img src="assets/actions-area-icons-without-share-button.png"> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Template Owner]</td> 
@@ -439,7 +440,7 @@ De kopbal van de malplaatjetaak toont de volgende informatie:
   </tr> 
   <tr> 
    <td role="rowheader">Het actiegebied van de sjabloontaak</td> 
-   <td> <p>Naast de naam van de sjabloontaak wordt het actiegebied weergegeven.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p> </td> 
+   <td> <p>Naast de naam van de sjabloontaak wordt het actiegebied weergegeven.</p> <p> <img src="assets/actions-area-icons-without-share-button.png"> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Assignments]</td> 
@@ -485,12 +486,15 @@ De koptekst van de factureringsrecord bevat de volgende informatie:
    <td> <p>De tekst "[!UICONTROL BILLING RECORD]"toont boven de het facturerings verslagnaam in de kopbal.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Het actiegebied van het factureringsverslag</td> 
+   <td role="rowheader">Het menu Meer voor de factureringsrecord</td> 
    <td> <p>Naast de naam van de factureringsrecord wordt het [!UICONTROL More] menu <img src="assets/more-menu.png"> weergegeven. Hierin kunt u de volgende opties selecteren:</p> 
     <ul> 
      <li> <p>[!UICONTROL Edit]</p> </li> 
-     <li> <p> </p> </li> 
-    </ul> </td> 
+     <li> <p> Verwijderen </p> </li> 
+    </ul>
+    <p><b>OPMERKING</b></p>
+    <p>Het menu Meer wordt niet weergegeven voor factureringsrecords met de status Opgevuld. U kunt gefactureerde records niet bewerken of verwijderen.</p>
+     </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Billing Record Total]</td> 
@@ -542,7 +546,7 @@ De gebruikerskopbal toont de volgende informatie:
   </tr> 
   <tr> 
    <td role="rowheader">Het actiegebied van de gebruiker</td> 
-   <td> <p>Naast de naam van de gebruiker wordt het actiegebied weergegeven.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p></td> 
+   <td> <p>Naast de naam van de gebruiker wordt het actiegebied weergegeven.</p> <p> <img src="assets/actions-area-icons-without-share-button.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">E-mailadres</td> 
@@ -589,7 +593,7 @@ De teamkopbal toont de volgende informatie:
   </tr> 
   <tr> 
    <td role="rowheader">Het actiegebied van het team</td> 
-   <td> <p>Naast de naam van het team wordt het gebied [!UICONTROL actions] weergegeven.</p> <p> <img src="assets/nwe-switch-team-actions-area.png"> </p></td> 
+   <td> <p>Naast de naam van het team wordt het actiegebied weergegeven.</p> <p> <img src="assets/actions-area-icons-for-a-team.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Profielen van teamleden</td> 
@@ -632,8 +636,7 @@ In de iteratiekop wordt de volgende informatie weergegeven:
   </tr> 
   <tr> 
    <td role="rowheader">Het actiegebied van de herhaling</td> 
-   <td> <p>In de rechterbovenhoek van de koptekst wordt het actiegebied weergegeven.</p> <p> <img src="assets/nwe-iteration-action-area.png"> </p></td> 
-  </tr> 
+   <td> <p>Naast de naam van de herhaling wordt het actiegebied weergegeven.</p> <p> <img src="assets/actions-area-icons-for-an-iteration.png">
   <tr> 
    <td role="rowheader">Eigenaar</td> 
    <td>Dit is de [!UICONTROL Owner] van de herhaling. U kunt de [!UICONTROL Owner] in de koptekst niet bewerken.</td> 
@@ -692,16 +695,16 @@ De groepsheader toont de volgende informatie:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Licenses in use] </td> 
-   <td> <p>In het vak [!UICONTROL Licenses in use] ziet u het aantal [!UICONTROL Plan] - en [!UICONTROL Work] -gebruikers in de groep en de bijbehorende subgroepen. U kunt op de nummers klikken om deze informatie weer te geven voor alle vijf de licentietypen.</p> <p>Voor meer informatie, zie <a href="../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md" class="MCXref xref"> Mening het aantal vergunningen die in een groep in de nieuwe [!DNL Adobe Workfront] ervaring </a> worden toegewezen en worden gebruikt.</p> </td> 
+   <td> <p>In het vak [!UICONTROL Licenses in use] ziet u het aantal [!UICONTROL Plan] - en [!UICONTROL Work] -gebruikers in de groep en de bijbehorende subgroepen. U kunt de aantallen klikken om deze informatie voor alle 5 vergunningstypes te zien.</p> <p>Voor meer informatie, zie <a href="../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md" class="MCXref xref"> Mening het aantal vergunningen die in een groep in de nieuwe [!DNL Adobe Workfront] ervaring </a> worden toegewezen en worden gebruikt.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Group Administrators]</td> 
-   <td>U kunt de groepsbeheerders in de koptekst bewerken.</td> 
+   <td>U kunt de groepbeheerders in de koptekst bewerken.</td> 
   </tr> 
  </tbody> 
 </table>
 
-## Overzicht van documentkoptekst
+## Overzicht van de koptekst van het document
 
 ![](assets/document-header-350x19.png)
 
@@ -719,7 +722,7 @@ In de koptekst van het document wordt de volgende informatie weergegeven:
  <tbody> 
   <tr> 
    <td role="rowheader">Broodkruimel met bovenliggende objecten</td> 
-   <td> <p>De bovenliggende objecten van het document worden in de breadcrumb weergegeven. Wanneer u op de naam van een bovenliggend object klikt, wordt dat bovenliggende object geopend.</p> <p>Voor meer informatie, zie <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref"> overzicht van Broodkruimels </a>.</p> </td> 
+   <td> <p>De bovenliggende objecten van het document worden in de breadcrumb weergegeven. Wanneer u op de naam van een bovenliggend object klikt, wordt dat bovenliggende object geopend.</p> <p>Voor meer informatie, zie <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref"> Overzicht van Broodkruimels </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object, pictogram </td> 
@@ -735,7 +738,7 @@ In de koptekst van het document wordt de volgende informatie weergegeven:
   </tr> 
   <tr> 
    <td role="rowheader">Het actiegebied van het document</td> 
-   <td> <p>Naast de naam van het document wordt het actiegebied weergegeven.</p> <p> <img src="assets/nwe-doc-version-actions-area.png"> </p></td> 
+   <td> <p>Naast de naam van het document wordt het actiegebied weergegeven.</p> <p> <img src="assets/actions-area-icons-for-a-document.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Het goedkeuringsgebied [!UICONTROL Decision]</td> 
@@ -773,7 +776,7 @@ De bedrijfsheader toont de volgende informatie:
    <td> <p>De tekst "[!UICONTROL COMPANY]"toont boven de bedrijfsnaam in de kopbal.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Het actiegebied van de onderneming</td> 
+   <td role="rowheader">Het menu Meer van het bedrijf</td> 
    <td> <p>Naast de naam van het bedrijf wordt het [!UICONTROL More] menu <img src="assets/more-menu.png"> weergegeven. Hierin kunt u de volgende opties selecteren:</p> 
     <ul> 
      <li> <p>[!UICONTROL Edit]</p> </li> 
@@ -819,7 +822,7 @@ De plankopbal toont de volgende informatie:
   </tr> 
   <tr> 
    <td role="rowheader">Het actiegebied van het plan</td> 
-   <td> <p>Naast de naam van het plan wordt het actiegebied weergegeven.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p></td> 
+   <td> <p>Naast de naam van het plan wordt het actiegebied weergegeven.</p> <p> <img src="assets/actions-area-icons-without-share-button.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Aanvullende abonnementsacties</td> 
@@ -836,11 +839,11 @@ De plankopbal toont de volgende informatie:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Financial] informatie</td> 
-   <td>In het vak [!UICONTROL Financial] ziet u het budget, de kosten en het gebruikspercentage voor het abonnement. Als u op het vakje klikt, kunt u het begrotingsbedrag aanpassen en bepalen of de kosten voor personen in het lidmaatschap zijn opgenomen.</td> 
+   <td>In de doos [!UICONTROL Financial], kunt u het budget, de kosten, en het gebruikspercentage voor het plan zien. Als u op het vakje klikt, kunt u het begrotingsbedrag aanpassen en bepalen of de kosten voor personen in het abonnement zijn opgenomen.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Net Value]</td> 
-   <td>In het vak [!UICONTROL Net Value] ziet u de nettowaarde van het abonnement op basis van het budget en de kosten die u voor het lidmaatschap hebt ingevoerd.</td> 
+   <td>In het vak [!UICONTROL Net Value] ziet u de nettowaarde van het abonnement op basis van het budget en de kosten die u voor het abonnement hebt ingevoerd.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Shared with] informatie</td> 
@@ -858,9 +861,9 @@ De plankopbal toont de volgende informatie:
 
 ![](assets/goal-header.png)
 
-Je kunt strategische doelen maken wanneer je bedrijf toegang heeft tot Workfront Goals. Voor meer informatie over [!DNL Workfront Goals], zie [ begonnen worden met  [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
+U kunt strategische doelen maken wanneer uw bedrijf toegang heeft tot Workfront-doelen. Voor meer informatie over [!DNL Workfront Goals], zie [ begonnen worden met  [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
 
-De doelkoptekst bevat de volgende informatie:
+De doelkopbal toont de volgende informatie:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -885,9 +888,9 @@ De doelkoptekst bevat de volgende informatie:
    <td> <p>De tekst "[!UICONTROL GOAL]"toont boven de doelnaam in de kopbal.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Het actiegebied van het doel</td> 
-   <td> <p>Naast de naam van het doel wordt het actiegebied weergegeven.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p>
-   U kunt de volgende acties van het actiegebied van het doel uitvoeren:
+   <td role="rowheader">Het menu Meer van het doel</td> 
+   <td> <p>Naast de naam van het doel wordt het menu Meer <img src="assets/more-icon.png"> weergegeven.</p> </p>
+   U kunt de volgende acties van het Meer menu van een doel uitvoeren:
    <ul><li>[!UICONTROL Edit]</li>
    <li>[!UICONTROL Copy goal]</li>
    <li>[!UICONTROL Delete goal]</li>

@@ -7,9 +7,9 @@ description: De geplande voltooiingsdatum van een taak is de datum waarop de taa
 author: Alina
 feature: Work Management
 exl-id: b0522db5-9c68-4b1a-82c8-5a9e613eb2ff
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 De geplande voltooiingsdatum van een taak is de datum waarop de taak wordt voltooid.
 
-U kunt de Geplande Voltooiingsdatum van een taak specificeren, of u kunt het aan Adobe Workfront verlaten om het te berekenen afhankelijk van bepaalde criteria. 
+U kunt de Geplande Voltooiingsdatum van een taak specificeren, of u kunt het aan Adobe Workfront verlaten om het te berekenen afhankelijk van bepaalde criteria.
 
-De geplande voltooiingsdata van taken op een project bepalen de Geplande Voltooiingsdatum van een project wanneer het project van de Datum van het Begin wordt gepland. Voor meer informatie over het project Geplande Datum van de Voltooiing, zie [ plaatsen het project Geplande Datum van de Voltooiing ](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md).
+De geplande voltooiingsdata van taken op een project bepalen de Geplande Voltooiingsdatum van een project wanneer het project van de Datum van het Begin wordt gepland. Voor meer informatie over het project Geplande Datum van de Voltooiing, zie [ plaatsen het project Geplande Datum van de Voltooiing ](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md).
 
 >[!NOTE]
 >
@@ -38,19 +38,19 @@ De geplande voltooiingsdata van taken op een project bepalen de Geplande Voltooi
 
 U moet over Edit toegang tot Taken en beheertoestemmingen op de taak hebben om de Geplande Datum van Voltooiing van de taak bij te werken.
 
-Het plaatsen van de Geplande Datum van de Voltooiing van een taak hangt van het type van de Beperking van de Taak af u aan de taak toewijst. 
+Het plaatsen van de Geplande Datum van de Voltooiing van een taak hangt van het type van de Beperking van de Taak af u aan de taak toewijst.
 
 U kunt de Geplande Datum van de Voltooiing in de volgende gebieden van Workfront manueel plaatsen:
 
-* Selecteer in het vak Taak bewerken wanneer u een taak maakt of bewerkt. Voor informatie, zie [ taken ](../../../manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
+* Selecteer in het vak Taak bewerken wanneer u een taak maakt of bewerkt. Voor informatie, zie [ taken ](../../../manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
 * In het gebied van de Details van de Taak. Voor informatie, zie [ taakinformatie in het gebied van het Overzicht van de Details van de Taak beheren ](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md).
-* In het gebied Home als de Geplande Datum van Voltooiing wanneer het bekijken van een taak toont. Voor informatie, zie [ Update of geef een het werkpunt op het gebied van het Huis ](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md) uit.
+* In het gebied Home als de Geplande Datum van Voltooiing wanneer het bekijken van een taak in het Summiere paneel toont. Voor informatie, zie [ Update of geef een het werkpunt op het gebied van het Huis ](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md) uit.
 * In de taakkoptekst. Voor informatie, zie [ Nieuwe objecten kopballen ](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
 * In een taaklijst of rapport wanneer het Geplande gebied van de Datum van de Voltooiing in de mening toont.
 
   Voor informatie, zie [ taken in een lijst ](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md) uitgeven.
 
-U kunt de Geplande Datum van de Voltooiing manueel specificeren wanneer u om het even welke volgende Beperkingen van de Taak selecteert: 
+U kunt de Geplande Datum van de Voltooiing manueel specificeren wanneer u om het even welke volgende Beperkingen van de Taak selecteert:
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
@@ -96,7 +96,7 @@ Wanneer het automatisch door het systeem wordt berekend, kan het volgende de Gep
 
 * De hoeveelheid tijd die aan goedkeuringsinstellingen is gekoppeld als de taak aan een goedkeuring is gekoppeld. Voor meer informatie, zie [ globale goedkeuringsmontages ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md) vormen.
 
-Wanneer deze optie automatisch wordt ingesteld, wordt de geplande datum van voltooiing bepaald op basis van de volgende berekening: 
+Wanneer deze optie automatisch wordt ingesteld, wordt de geplande datum van voltooiing bepaald op basis van de volgende berekening:
 
 ```
 Planned Completion Date = Planned Start Date + Duration
@@ -106,5 +106,5 @@ Als uw taak bijvoorbeeld een startdatum van 16 september en een duur van 10 dage
 
 >[!NOTE]
 >
-> Het Type van Update voor het project moet aan Automatisch en bij Verandering of automatisch worden geplaatst om de Geplande Uren en Duur automatisch aan te passen.\
+> Het Type van Update voor het project moet aan Automatisch en bij Verandering of automatisch worden geplaatst om de Geplande Uren en Duur automatisch aan te passen.\
 >Voor meer informatie over het Type van Update, zie het artikel [ het Type van projectupdate ](../../../manage-work/projects/manage-projects/select-project-update-type.md) selecteren.

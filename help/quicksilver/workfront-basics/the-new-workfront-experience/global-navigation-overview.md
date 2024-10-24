@@ -3,9 +3,9 @@ content-type: overview
 title: Overzicht van de bovenste navigatiebalk
 description: De hoogste navigatiebar — die bij de bovenkant van uw scherm in  [!DNL Adobe Workfront]  verschijnt — staat u toe om gemakkelijk naar andere gebieden van het platform te vinden en te navigeren.
 feature: Get Started with Workfront
-author: Nolan
+author: Courtney
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 0a50e3aef47720d78e798f6111ee503389dde984
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 0%

@@ -7,9 +7,9 @@ description: Wanneer u van plan bent om voor een korte periode uit het bureau te
 author: Lisa
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '886'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Overweeg het volgende wanneer u taken en kwesties delegeert:
   Voor informatie, zie [ de taak en de uitgevende voorkeur van het systeem brede ](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) vormen.
 
 * U kunt taken en problemen alleen delegeren vanuit het [!UICONTROL Home] -gebied.
-* Er zijn uitzonderingen voor de volgende licentietypen:
+* Bij het delegeren van werk, zijn er uitzonderingen voor de volgende vergunningstypes:
 
    * U kunt het werk delegeren aan Revisoren of Aanvragers, hoewel [!DNL Workfront] het niet aanbeveelt.
    * Revisoren kunnen het werk delegeren aan anderen. Ze kunnen werkitems in hun [!UICONTROL Home] -gebied niet weergeven. Ze kunnen alleen goedkeuringen bekijken.

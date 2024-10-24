@@ -5,16 +5,16 @@ description: Nadat u de Business Case voor een projectverzoek hebt voltooid en i
 author: Alina
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '733'
 ht-degree: 0%
 
 ---
 
 # Een bedrijfscase goedkeuren
 
-Nadat u de Business Case voor een projectverzoek hebt voltooid en ingediend, moet de Business Case zijn goedgekeurd. Dit hangt van het werkschema in uw organisatie af. Een project kan zonder de BedrijfsGeval beginnen die moet worden goedgekeurd, maar uw beheerder van Adobe Workfront en projecteigenaars zouden het niet ideaal kunnen vinden om dit te doen. 
+Nadat u de Business Case voor een projectverzoek hebt voltooid en ingediend, moet de Business Case zijn goedgekeurd. Dit hangt van het werkschema in uw organisatie af. Een project kan zonder de BedrijfsGeval beginnen die moet worden goedgekeurd, maar uw beheerder van Adobe Workfront en projecteigenaars zouden het niet ideaal kunnen vinden om dit te doen.
 
 Voor meer informatie over de voltooiing van en het voorleggen van een BedrijfsGeval, zie het artikel [ een BedrijfsGeval voor een project ](../../../manage-work/projects/define-a-business-case/create-business-case.md) creëren.
 
@@ -51,16 +51,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 Overweeg het volgende wanneer het goedkeuren van een BedrijfsGeval van een project:
 
-* U moet over beheerdersmachtigingen voor een project beschikken om de Business Case voor het project goed te keuren. 
-* U zult niet de projecten kunnen zien die op de BedrijfsGeval wachten om onder uw Goedkeuringen in Huis worden goedgekeurd.
+* U moet over beheerdersmachtigingen voor een project beschikken om de Business Case voor het project goed te keuren.
+* U zult niet de projecten kunnen zien die op het BedrijfsGeval wachten om onder Mijn Goedkeuringen widget in Huis worden goedgekeurd.
 * U moet manueel naar de individuele projecten gaan die goedkeuring van het BedrijfsGeval nodig hebben om te zien dat zij in afwachting van goedkeuring zijn. Er is geen Workfront-meldingsmechanisme waarmee iemand wordt gewaarschuwd dat hij of zij de Business Case van een project moet goedkeuren.
-* U kunt de projecten vinden die op de goedkeuring van het BedrijfsGeval wachten of door een projectrapport te bouwen, of door tot de portefeuille toegang te hebben zij met worden geassocieerd. 
+* U kunt de projecten vinden die op de goedkeuring van het BedrijfsGeval wachten of door een projectrapport te bouwen, of door tot de portefeuille toegang te hebben zij met worden geassocieerd.
 
   Voor meer informatie over Portfolio&#39;s, zie het artikel [ overzicht van het Portfolio in Adobe Workfront ](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
 ## De bedrijfscase goedkeuren door een projectrapport op te stellen
 
-U kunt een rapport voor projecten bouwen om te zien welke projecten hun goedgekeurd BedrijfsGeval nodig hebben. 
+U kunt een rapport voor projecten bouwen om te zien welke projecten hun goedgekeurd BedrijfsGeval nodig hebben.
 
 Een rapport opstellen voor projecten die in afwachting zijn van de goedkeuring van hun zaken:
 
@@ -72,23 +72,23 @@ Een rapport opstellen voor projecten die in afwachting zijn van de goedkeuring v
 
 1. Begin typend &quot;Status&quot;in **tonen in dit kolom** gebied, en selecteer dit gebied wanneer het in de lijst verschijnt.
 
-    Deze kolom zal de status van de projecten tonen.
+   Deze kolom zal de status van de projecten tonen.
 
 1. Selecteer het **lusje van Filters** van het rapport, dan klik **voeg een Regel van de Filter** toe.
 
 1. Begin typend &quot;Status&quot;in **toont me slechts Projecten waarin het...** gebied, en selecteert het wanneer het in de lijst verschijnt.
 1. Selecteer **Gelijk** voor de filterbepaling.
-1. Typ &quot;Gevraagd&quot; in het beschikbare veld. 
+1. Typ &quot;Gevraagd&quot; in het beschikbare veld.
 
    Dit zorgt ervoor dat het rapport slechts projecten omvat die in de Gevraagde status zijn.
 
-     ![ requested_projects_filter.png ](assets/requested-projects-filter-350x14.png)
+   ![ requested_projects_filter.png ](assets/requested-projects-filter-350x14.png)
 
 1. (Facultatief) klik **voeg een andere Regel van de Filter toe**.
 
    U kunt extra filters toevoegen om alleen projecten te tonen waar u de eigenaar van het project bent, of de sponsor van het project of de eigenaar van het Portfolio.
 
-   U kunt bijvoorbeeld de volgende filterinstructies gebruiken: 
+   U kunt bijvoorbeeld de volgende filterinstructies gebruiken:
 
    ```
    Project Sponsor ID Equals $$USER.ID
@@ -106,7 +106,7 @@ Een rapport opstellen voor projecten die in afwachting zijn van de goedkeuring v
    Project Portfolio Owner ID Equals $$USER. ID
    ```
 
-   om te tonen waar u als Manager van het Portfolio wordt aangewezen. 
+   om te tonen waar u als Manager van het Portfolio wordt aangewezen.
 
 1. Klik **sparen+Sluiten**.
 
