@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 2b1a066bb769b46d50c45f087ccd668266b4639c
+source-git-commit: d3151a23f18ec91420f7f9b53f84386d8adc2bb1
 workflow-type: tm+mt
-source-wordcount: '14549'
+source-wordcount: '14559'
 ht-degree: 0%
 
 ---
@@ -423,6 +423,7 @@ ht-degree: 0%
    * Aankondigingen {#announcements}
       * [Aankondigingen](product-announcements/announcements/announcements.md)
       * [Planning van functies wordt niet meer ondersteund](product-announcements/announcements/feature-removal-timeline.md)
+      * [Verbeterde handleiding voor Analytics-veroudering](product-announcements/announcements/enhanced-analytics-deprecation.md)
       * [Verouderde handleiding voor afgekeurde startpagina](product-announcements/announcements/legacy-home-deprecation.md)
       * [Veelgestelde vragen over het venster Onderhoud](product-announcements/announcements/maintenance-window-faq.md)
       * [Wijziging vereist voor het toevoegen van proefdrukken aan uw lijst van gewenste personen](product-announcements/announcements/proofhq-domain-change-workfront.md)
@@ -929,6 +930,7 @@ ht-degree: 0%
       * [Overzicht van de sectie Updates](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
       * [Werk bijwerken](workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
       * [Tekenbeperkingen in velden](workfront-basics/updating-work-items-and-viewing-updates/character-limits-in-fields.md)
+      * [Persoonlijke taken maken](workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md)
       * [Reageren op updates](workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md)
       * [E-mailberichten beantwoorden](workfront-basics/updating-work-items-and-viewing-updates/reply-to-email-notifications.md)
       * [Andere tags toepassen op updates](workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
@@ -1619,6 +1621,7 @@ ht-degree: 0%
          * [Voorbeelden van aangepaste weergaven, filters en groepen: artikelindex](reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
          * [Rapporten of lijsten: gebruikers weergeven die zijn gekoppeld aan een object](reports-and-dashboards/reports/custom-view-filter-grouping-samples/display-object-users-in-report.md)
          * [Filter: onvolledige voordecessors voor meerdere projecten weergeven](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-predecessors.md)
+         * [Filter: persoonlijke taken](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md)
          * [Filter: onvolledige opvolgers voor meerdere projecten weergeven](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-successors.md)
          * [Filter: uw huidige projecten weergeven in afwachting van goedkeuring](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-current-projects-pending-approval.md)
          * [Filter: alleen items weergeven in een goedkeuringsstatus](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-for-items-in-approval-status.md)
