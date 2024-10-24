@@ -7,10 +7,10 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 505a9602-580c-4932-a85c-6c9a7c8af457
-source-git-commit: 32107381545777cbe7a6696f7a384287ef781a1a
+source-git-commit: cafb8aa532647f878bc66d983023141e0c2faeba
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 11%
+source-wordcount: '257'
+ht-degree: 10%
 
 ---
 
@@ -31,14 +31,21 @@ Voor informatie bij het helpen van uw organisatie aanpassen regelmatig aan nieuw
    <td>Andere productreleases</td> 
   </tr> 
   <tr data-mc-conditions=""> 
+   <td> <p>Uitzettingen in 2025</p> 
+    <ul> 
+    <li> <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md" class="MCXref xref" xrefformat="{para}"> Eerste Kwartaal 2025 releaseoverzicht </a> </p> </li>
+    <td> <ul>     
+     <li> <p><a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md" class="MCXref xref" xrefformat="{para}"> Adobe Workfront die Eerste Kwartaal 2025 versieactiviteit </a> plant </p> </li></ul>   </td>    </tr>
+  <tr data-mc-conditions=""> 
    <td> <p>Uitzettingen in 2024</p> 
     <ul> 
-    <li> <p><a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md" class="MCXref xref" xrefformat="{para}"> Eerste Kwartaal 2024 releaseoverzicht </a> </p> </li>
-      <li> <p><a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md" class="MCXref xref" xrefformat="{para}"> Tweede Kwartaal 2024 releaseoverzicht </a> </p> </li>
-      <li> <p><a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md" class="MCXref xref" xrefformat="{para}"> Derde Kwartaal 2024 versieoverzicht </a> </p> </li>
        <li> <p><a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md" class="MCXref xref" xrefformat="{para}"> Vierde Kwartaal 2024 versieoverzicht </a> </p> </li>
-   <td> <ul>    <li> <p><a href="../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md" class="MCXref xref" xrefformat="{para}"> de versieactiviteit van de Fusie van Adobe Workfront </a> </p> </li> 
+      <li> <p><a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md" class="MCXref xref" xrefformat="{para}"> Derde Kwartaal 2024 versieoverzicht </a> </p> </li>
+      <li> <p><a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md" class="MCXref xref" xrefformat="{para}"> Tweede Kwartaal 2024 releaseoverzicht </a> </p> </li>
+      <li> <p><a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md" class="MCXref xref" xrefformat="{para}"> Eerste Kwartaal 2024 releaseoverzicht </a> </p> </li>
+ <td> <ul>    <li> <p><a href="../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md" class="MCXref xref" xrefformat="{para}"> de versieactiviteit van de Fusie van Adobe Workfront </a> </p> </li> 
    <li> <p><a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md" class="MCXref xref" xrefformat="{para}"> Adobe Workfront die Vierde Kwartaal 2024 versieactiviteit </a> plant </p> </li></ul>   </td> 
+   </tr>
   <tr data-mc-conditions=""> 
    <td> <p>Uitzettingen in 2023</p> 
     <ul> 
