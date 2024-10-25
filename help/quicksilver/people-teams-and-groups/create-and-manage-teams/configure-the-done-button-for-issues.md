@@ -6,9 +6,9 @@ description: Met de knop Gereed kunt u automatisch de status van een taak of een
 author: Lisa
 feature: People Teams and Groups
 exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 0%
 # De knop [!UICONTROL Done] configureren voor problemen
 
 Met de knop [!UICONTROL Done] kunt u automatisch de status van een taak of een uitgave instellen. Standaard markeert [!DNL Adobe Workfront] een uitgave als [!UICONTROL Resolved] wanneer een toegewezen persoon [!UICONTROL Done] op het werkitem klikt.
+
+>[!NOTE]
+>
+>De knop Gereed wordt in alle gebieden van Workfront weergegeven als Markeren.
 
 ## Overzicht
 

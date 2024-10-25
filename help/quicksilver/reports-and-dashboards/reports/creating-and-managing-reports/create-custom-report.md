@@ -6,7 +6,7 @@ description: U kunt toegang tot de informatie geven die uw organisatie nodig hee
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
 workflow-type: tm+mt
 source-wordcount: '1828'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Een aangepast rapport maken
 
-<!--Audited: 12/2023-->
+<!--Audited: 10/2024-->
 
 U kunt toegang tot de informatie verlenen die uw organisatie in Adobe Workfront nodig heeft door rapporten te maken. U kunt alle ingebouwde rapporten gebruiken die beschikbaar zijn in Workfront, of u kunt uw aangepaste rapporten helemaal zelf samenstellen.
 
@@ -126,7 +126,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    of
 
-   Om een bestaande kolom te veranderen, klik de kolom, **verwijder** pictogram ![](assets/x-icon-circled.png) links van het huidige gebied in **tonen op dit kolomgebied** doos in de upper-left hoek van de rapportbouwer, en begin een nieuw gebied te typen, dan het te klikken wanneer het in de lijst toont.
+   Om een bestaande kolom te veranderen, klik de kolom, **verwijder** pictogram ![](assets/remove-column-icon.png) aan het recht van het huidige gebied in **tonen op dit kolomgebied** in de upper-left hoek van de rapportbouwer, en begin een nieuw gebied te typen, dan het te klikken wanneer het in de lijst toont.
 
    Voor meer informatie over de gebieden u in de kolommen ziet, zie [ Verklarende woordenlijst van de terminologie van Adobe Workfront ](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
@@ -196,7 +196,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Begin creërend een rapport zoals die in [ wordt beschreven creeer een rapport ](#create-a-report) sectie in dit artikel.
 1. In de rapportbouwer, selecteer het **lusje van Groepen** om te identificeren hoe u punten in het rapport wilt groeperen.
-1. Klik **toevoegen Groepering** om een nieuwe groepering toe te voegen.
+1. Klik **toevoegen groepering** om een nieuwe groepering toe te voegen.
 
    of
 

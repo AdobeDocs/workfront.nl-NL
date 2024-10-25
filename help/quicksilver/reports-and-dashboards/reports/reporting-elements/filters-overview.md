@@ -7,9 +7,9 @@ description: U kunt filters in Adobe Workfront gebruiken om de hoeveelheid infor
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
 workflow-type: tm+mt
-source-wordcount: '1807'
+source-wordcount: '1821'
 ht-degree: 0%
 
 ---
@@ -71,8 +71,8 @@ Zie de volgende artikelen voor meer informatie over filters in lijsten en rappor
 
 U kunt ingebouwde filters gebruiken of aangepaste filters bouwen in de volgende gebieden van Workfront:
 
-<!--* Home   
-  For information, see the [Filter the Work List](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md#filter-the-work-list) section in the article [Display items in the Work List in the Home area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).-->
+* Home\
+  Voor informatie, zie [ punten van de Vertoning in de Lijst van het Werk in het gebied van het Huis ](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 * Verzoeken. U kunt filters niet aanpassen in het gebied Verzoeken.
 
   Voor informatie, zie [ plaats voorgelegde verzoeken ](../../../manage-work/requests/create-requests/locate-submitted-requests.md).

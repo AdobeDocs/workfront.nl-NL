@@ -6,9 +6,9 @@ description: U kunt updates van een werkitem weergeven en toevoegen in het gebie
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: 3786f62c16c7d295de3b19fd6b7ea5ec21fc8ce6
+source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ U kunt updates van elk werkitem weergeven in de [!UICONTROL Work List] :
 
 U kunt updates opgeven voor elk werkitem in de [!UICONTROL Work] lijst:
 
-1. Klik op **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek en klik vervolgens op **[!UICONTROL Home]** .
+1. Klik **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de hoger-juiste hoek, of het **Belangrijkste Menu** ![](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) klik **aanpassen** om het even welke volgende widgets toe te voegen:
 
    | Widget | Beschrijving |
@@ -102,7 +102,7 @@ Voor meer gedetailleerde informatie over het toevoegen van updates, zie [ een up
 
 U kunt elk veld op elk werkitem bewerken dat u kunt bewerken.
 
-1. Klik op **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek en klik vervolgens op **[!UICONTROL Home]** .
+1. Klik **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de hoger-juiste hoek, of het **Belangrijkste Menu** ![](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) klik **aanpassen** om het even welke volgende widgets toe te voegen:
 
    | Widget | Beschrijving |

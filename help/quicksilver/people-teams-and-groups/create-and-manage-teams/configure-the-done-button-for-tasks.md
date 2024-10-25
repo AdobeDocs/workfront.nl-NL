@@ -6,20 +6,24 @@ description: Met de knop Gereed kunt u automatisch de status van een taak of een
 author: Lisa
 feature: People Teams and Groups
 exl-id: 55cc5562-13d5-4089-8937-f33d0cde3cac
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
 
 # De knop [!UICONTROL Done] voor taken configureren
 
-Met de knop [!UICONTROL Done] kunt u automatisch de status van een taak of een uitgave instellen. Standaard markeert [!UICONTROL Adobe Workfront] een taak als [!UICONTROL Completed] wanneer een toegewezen persoon op Gereed klikt voor het desbetreffende werkitem.
+Met de knop [!UICONTROL Done] kunt u automatisch de status van een taak of een uitgave instellen. Standaard markeert [!UICONTROL Adobe Workfront] een taak als [!UICONTROL Completed] wanneer een toegewezen op Markeren klikt zoals deze op het werkitem is uitgevoerd.
+
+>[!NOTE]
+>
+>De knop Gereed wordt in alle gebieden van Workfront weergegeven als Markeren.
 
 ## Overzicht
 
-Gebruikers met bepaalde machtigingen kunnen de knop [!UICONTROL Done] zo configureren dat bepaalde statussen in het systeem worden weerspiegeld. Er zijn twee verschillende manieren waarop de knop [!UICONTROL Done] werkt voor taken in [!UICONTROL Workfront] :
+Gebruikers met bepaalde machtigingen kunnen de knop [!UICONTROL Done] configureren om deze te koppelen aan bepaalde statussen in het systeem. Er zijn twee verschillende manieren waarop de knop [!UICONTROL Done] werkt voor taken in [!UICONTROL Workfront] :
 
 * Als de gebruiker een toegewezen Home Team heeft, kan een [!DNL Workfront] beheerder of een gebruiker met een [!UICONTROL Plan] vergunning de [!UICONTROL Done] knoop vormen om op bepaalde statussen voor teamleden te wijzen. Zie [ de [!UICONTROL Done] knoop voor een Team ](#configure-the-uicontrol-done-button-for-a-team) in dit artikel vormen.
 * Als de gebruiker geen [!UICONTROL Home Team] heeft maar [!UICONTROL Other Teams] in zijn profiel, zoekt Workfront naar de instelling van de knop [!UICONTROL Done] in een van de teams die aan de gebruiker zijn gekoppeld. De selectie is willekeurig en de status verbonden aan om het even welke teams wordt gebruikt voor de taak.
@@ -98,7 +102,7 @@ Om gebruikers met een Team van het Huis te associëren:
 1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] .
 
 1. Klik op **[!UICONTROL Users]** en selecteer vervolgens de gebruiker of gebruikers die u aan een Home-team wilt koppelen.
-1. Klik op het menu **[!UICONTROL More]** en selecteer vervolgens **[!UICONTROL Edit]** .\
+1. Klik op het menu **[!UICONTROL More]** en klik vervolgens op **[!UICONTROL Edit]** .\
    ![](assets/user-settings-nwe-350x291.png)
 
 1. Selecteer in de sectie **[!UICONTROL Organization]** het veld **[!UICONTROL Home Team]** . Begin de naam van het team te typen waarvan montages u met de gebruikers wilt associëren. Klik op de naam van het team wanneer deze wordt weergegeven in de lijst.
