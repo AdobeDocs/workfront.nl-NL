@@ -7,24 +7,41 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
 
 # Taken maken in een project
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 10/2024 -->
 
-U kunt taken in een project slechts tot stand brengen nadat u het project creeert.
+U kunt taken in Adobe Workfront op de volgende manieren maken:
 
-Bijvoorbeeld, na het creëren van een project, zou u taken kunnen willen toevoegen en hen wijzigen om het projectplan te organiseren. Voor meer informatie over het creëren van een project, zie [ een project ](../../../manage-work/projects/create-projects/create-project.md) creëren.
+* Maak een geheel nieuwe taak in een project nadat het project is gemaakt.
 
-<!--Not possible anymore, after new Home: For information about creating personal tasks that are not in a project, see the [Create a personal task](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-personal-task) section in the article [Create work items and projects from the Home area](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).-->
+  Na het creëren van een project, kunt u taken toevoegen en hen wijzigen om het projectplan te organiseren. Voor meer informatie over het creëren van een project, zie [ een project ](../../../manage-work/projects/create-projects/create-project.md) creëren.
 
-In dit artikel wordt beschreven hoe u geheel nieuwe taken maakt. U kunt taken ook op de volgende manieren maken:
+* Maak taken door een sjabloon aan een project toe te voegen.
+
+  Voor informatie, zie [ een malplaatje aan een project ](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md) vastmaken.
+
+* Persoonlijke taken maken en deze naar een project verplaatsen.
+
+  U kunt persoonlijke taken maken door een van de volgende handelingen uit te voeren:
+
+   * Een ad-hocaanvraag maken en deze naar een gebruiker sturen
+   * Een uit te voeren item maken in het gebied Home
+
+  Voor informatie over het creëren van persoonlijke taken die niet op een project zijn, zie [ persoonlijke taken ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md) creëren.
+
+  U kunt persoonlijke taken naar een project verplaatsen en deze worden werktaken.
+
+In dit artikel wordt beschreven hoe u geheel nieuwe taken maakt en hoe u persoonlijke taken naar een project kunt verplaatsen.
+
+U kunt taken ook op de volgende manieren maken:
 
 * Door bestaande taken te kopiëren of te dupliceren. Voor informatie, zie [ het Exemplaar en dupliceert taken ](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 * Door taken van het ene project naar het andere te verplaatsen. Voor informatie, zie [ de taken van de Beweging ](../../../manage-work/tasks/manage-tasks/move-tasks.md).
@@ -152,3 +169,21 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
          * Klik **ongedaan maken** op elk ogenblik om uw laatste verandering om te keren, of **annuleert** om alle veranderingen in te keren u aan de taaklijst aanbracht.
          * Als u eerder **** klikte ongedaan maken, klik **opnieuw** om de laatste verandering toe te passen u geannuleerd.
          * Klik **sparen** om uw veranderingen in de taaklijst te bewaren.
+
+## Taken maken door een persoonlijke taak naar een project te verplaatsen
+
+1. (Voorwaardelijk) Zorg ervoor dat u of andere gebruikers persoonlijke taken hebben gemaakt.
+
+   Voor informatie, zie [ persoonlijke taken ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md) creëren.
+1. Maak een filter voor persoonlijke taken en pas dit toe op een taakrapport of lijst.
+
+   Voor informatie, zie [ Filter: persoonlijke taken ](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).
+
+   ![](assets/personal-tasks-report.png)
+1. Klik op een taaknaam in het persoonlijke taakrapport om het te openen.
+
+   Workfront slaat persoonlijke taken op in een niet-vermeld persoonlijk project dat altijd een naam heeft op basis van dit patroon: &quot;&lt; Volledige naam van gebruiker > Taken. Bijvoorbeeld, zou een persoonlijk project &quot;Taken van Rick&quot;kunnen worden genoemd.
+
+1. Van de taakpagina, klik het **Meer menu** ![](assets/more-icon.png), dan klik **Beweging**. Voor meer informatie over het bewegen van taken, zie [ de taken van de Beweging ](/help/quicksilver/manage-work/tasks/manage-tasks/move-tasks.md).
+
+   Nadat u de taak hebt verplaatst, wordt de taak weergegeven in het project dat u hebt geselecteerd. De tijdlijn van het project kan worden beïnvloed door de tijdlijn van de nieuwe taak.

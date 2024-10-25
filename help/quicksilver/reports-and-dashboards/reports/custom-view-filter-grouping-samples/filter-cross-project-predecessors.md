@@ -7,9 +7,9 @@ description: Deze taakfilter retourneert onvolledige voordecessors voor meerdere
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 7ee2432c-1d82-454e-a73a-f1f6b6a5c10d
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---
@@ -54,11 +54,11 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 
 Dit filter toepassen:
 
-1. Ga naar een takenlijst.
-1. Van het **drop-down menu van de Filter**, uitgezochte **Nieuwe Filter**.
+1. Ga naar een lijst met taken of een taakrapport.
+1. Van het **drop-down menu van de Filter**, uitgezochte **Nieuwe filter**.
 
-1. Klik **Schakelaar aan de Wijze van de Tekst**.
-1. In het **plaats de Regels van de Filter voor uw gebied van het Rapport**, kleef de volgende code:
+1. (Voorwaardelijk) klik **wijze van de Tekst** als u de filter van een lijst of **Schakelaar aan de Wijze van de Tekst** opende, als u de filter van een rapport opende.
+1. Plak in het nieuwe gebied de volgende code:
    <pre>predecessorsMM:projectID=FIELD:projectID <br> predecessorsMM:projectID_Mod=ne <br> percentComplete=100 <br> percentComplete_Mod=ne</pre>
 
-1. Klik **sparen Filter**.
+1. (Voorwaardelijk) klik **sparen Filter** als u tot de filter van een rapport toegang had, of **** van toepassing is, dan **sparen als nieuw** als u tot de filter van een taaklijst toegang had.

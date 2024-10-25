@@ -6,9 +6,9 @@ description: De geplande afgiftedatum is de datum waarop de afgifte naar verwach
 author: Alina
 feature: Work Management
 exl-id: bdb206dc-18f8-4f8a-862b-e881408a8408
-source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
+source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ U moet over Edit toegang tot Kwesties en Beheren toestemmingen op de kwestie heb
 U kunt de Geplande Datum van Voltooiing van een kwestie in de volgende gebieden van Workfront manueel plaatsen:
 
 * In het vak Uitgave bewerken of in het gebied Details van uitgave bij het maken of bewerken van een uitgave. Voor informatie, zie [ kwesties ](../../../manage-work/issues/manage-issues/edit-issues.md) uitgeven.
-* In het gebied van het Huis als de Geplande Datum van de Voltooiing wanneer het bekijken van een kwestie verschijnt. Voor informatie, zie [ Update of geef een het werkpunt op het gebied van het Huis ](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md) uit.
+* In het gebied van het Huis als de Geplande Datum van de Voltooiing in het Summiere paneel van een kwestie verschijnt. Voor informatie, zie [ Update of geef een het werkpunt op het gebied van het Huis ](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md) uit.
 * In de uitgiftekop. Voor informatie, zie [ Nieuwe objecten kopballen ](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
 * In een uitgiftenlijst of rapport wanneer het Geplande gebied van de Datum van de Voltooiing in de mening toont.
 

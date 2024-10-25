@@ -6,9 +6,9 @@ description: U kunt werkitems en projecten maken vanuit het [!UICONTROL Home] -g
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 5ff0fabb60cb9e7c2a7b3506693efdb6c5d8e956
+source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '737'
 ht-degree: 0%
 
 ---
@@ -54,16 +54,20 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Een persoonlijk te-doen item maken
 
-U kunt een persoonlijk item maken dat alleen voor u beschikbaar is in het gebied [!UICONTROL Home] :
+U kunt een persoonlijk item maken in het [!UICONTROL Home] -gebied. De te doen punten zijn persoonlijke taken die u voor zich creeert.
 
-1. Klik op **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek en klik vervolgens op **[!UICONTROL Home]** .
-1. (Voorwaardelijk) Voeg de te doen widget aan uw huisscherm toe. Klik **aanpassen**, en vinden **aan-doet**.
+U en andere gebruikers kunnen uw persoonlijke taken in een persoonlijk taakrapport bekijken. Daar kunnen ze ze, indien nodig, aan projecten toevoegen.
+
+Een te-do-item maken:
+
+1. Klik **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de hoger-juiste hoek, of het **Belangrijkste menu** ![](assets/lines-main-menu.png) in de hoger-linkerhoek, als beschikbaar, dan klik **[!UICONTROL Home]**.
+1. (Voorwaardelijk) klik **aanpassen**, dan klik **aan-doet** om widget aan uw huisscherm toe te voegen.
 1. Ga naar **** widget, dan klik **toevoegen aan-doe**.
-1. Typ de
+1. Typ de naam voor het persoonlijke aan-doe item en klik op Enter.
 1. (Facultatief) klik het **pictogram van de Datum** ![](assets/date-icon.png) om een vervaldatum voor het punt toe te voegen.
    ![](assets/my-work-to-dos.png)
-
-
+1. (Optioneel) Maak een persoonlijk taakrapport of filter. Voor informatie over het creëren van een persoonlijke taakfilter, zie [ Filter: persoonlijke taak ](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).
+U kunt uw aan-doe punten evenals andere gebruikers aan-doe punten in het persoonlijke taakrapport bekijken.
 
 ## Een taak toevoegen aan een project
 
