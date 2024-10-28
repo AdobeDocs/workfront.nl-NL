@@ -6,9 +6,9 @@ description: In de volgende berichten wordt u op de hoogte gebracht van verzoeke
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 42771f71-dbf8-4e73-9a0e-8efea612af4a
-source-git-commit: 9f351a16c2a741b922e8ee51efb3ea3d7d2d18e1
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '1299'
+source-wordcount: '1284'
 ht-degree: 0%
 
 ---
@@ -45,18 +45,18 @@ Zie ook [ de berichten van de Gebeurtenis ](../../workfront-basics/using-notific
    <td><strong> Onmiddellijk </strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong> Een persoonlijke taak ik aan iemand anders heb toegewezen wordt voltooid </strong> </p> <p>Een bericht wordt verzonden naar de gebruiker die een ad-hoctaak aan iemand anders toewees wanneer die taak wordt voltooid. </p> <p>Voor meer informatie over ad hoc taken, zie <a href="../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md" class="MCXref xref"> het werkpunten en projecten van het [!UICONTROL Home] gebied </a> creëren.</p> <p>Het onderwerp van het onmiddellijke bericht e-mail is: <em> Voltooiing van de Taak: &lt;Naam van de Taak&gt; </em></p> <p> <p>Opmerking: u kunt dit bericht niet configureren voor een e-mailbericht met dagelijkse samenvatting.</p> </p> </td> 
+   <td> <p><strong> Een persoonlijke taak ik aan iemand anders heb toegewezen wordt voltooid </strong> </p> <p>Een bericht wordt verzonden naar de gebruiker die een persoonlijk het werkverzoek aan iemand anders toewees wanneer dat verzoek wordt voltooid. </p>  <p>Het onderwerp van het onmiddellijke bericht e-mail is: <em> Voltooiing van de Taak: &lt;Naam van de Taak&gt; </em></p> <p> <p>Opmerking: u kunt dit bericht niet configureren voor een e-mailbericht met dagelijkse samenvatting.</p> </p> </td> 
    <td> Taaknaam<br>Standaardprojectnaam (persoonlijk project van de gebruiker die de persoonlijke taak heeft ontvangen)<br>Taakreferentienummer<br>Naam van taakeigenaar<br>Nieuwe taakstatus<br>Datum en tijd waarop de taak is voltooid<br>Knop Vorige taakstatus<br><strong>[!UICONTROL See More Details]</strong><br><br><br></td> 
    <td><strong> Onmiddellijk </strong> </td> 
   </tr> 
   <tr> 
    <td> <p><strong> Een kwestie waarvoor ik het primaire contact ben wordt voltooid </strong> </p> <p>De primaire contactpersoon voor een uitgave ontvangt een melding wanneer de uitgave is voltooid.</p> <p>Er wordt alleen een melding verzonden als de projectstatus [!UICONTROL Current] of [!UICONTROL Planning] is.</p> <p>Het onderwerp van de e-mail met onmiddellijke kennisgeving is: <em>[!UICONTROL Issue Completion]: &lt;Naam van Uitgave&gt; </em></p> <p>Het onderwerp van het dagelijkse samenvattingsbericht is:<em> Samenvatting van uw Verzoeken &lt;Datum van de dagelijkse samenvatting&gt; </em></p> <p> </p> </td> 
-   <td> Probleemnaam<br>Projectnaam<br>Uitgavenummer<br>Naam van de gebruiker die het probleem heeft opgelost<br>Nieuwe status<br> Datum en tijd waarop het probleem is opgelost<br> Vorige uitgiftestatus<br><strong>[!UICONTROL See More Details]</strong> knop <br>*Projectnaam<br>*Projectreferentienummer<br>*Totaal aantal voltooide problemen<br>*Uitgavenaam<br>*Naam van de gebruiker die het probleem heeft opgelost<br>*Datum van dagelijkse samenvatting </td> 
+   <td> Probleemnaam<br>Projectnaam<br>Uitgavenummer<br>Naam van de gebruiker die het probleem heeft opgelost<br>Nieuwe status<br> Datum en tijd waarop het probleem is opgelost<br>Vorige uitgiftestatus<br><strong>[!UICONTROL See More Details]</strong> knop <br>*Projectnaam<br>*Projectreferentienummer<br>*Totaal aantal voltooide problemen<br>*Uitgavenaam<br>*Naam van de gebruiker die het probleem heeft opgelost<br>*Datum van dagelijkse samenvatting </td> 
    <td><strong> Onmiddellijk </strong> </td> 
   </tr> 
   <tr> 
    <td> <p><strong> ik voeg een kwestie aan een project toe </strong> </p> <p>Het primaire contact op een kwestie ontvangt een bericht wanneer hij of zij een kwestie in een project toevoegt.</p> <p>Er wordt alleen een melding verzonden als de projectstatus [!UICONTROL Current] of [!UICONTROL Planning] is.</p> <p>Het onderwerp van de directe melding-e-mail is: <em>[!UICONTROL Issue submitted]: &lt;Issue Name&gt; op &lt;Project Name&gt; </em></p> <p>Het onderwerp van het dagelijkse samenvattingsbericht is:<em> Samenvatting van uw Verzoeken &lt;Datum van de dagelijkse samenvatting&gt; </em></p> </td> 
-   <td> Projectnaam<br>Naam Portfolio<br>Referentienummer probleem<br>Uw naam <br>Naam probleem<br>Datum ingevoerd <br>Prioriteit probleem<br>Status probleem<br>Toegewezen aan naam<br>Primair contact<br>*Projectnaam<br>*Projectreferentienummer<br>*Totaal aantal toegevoegde problemen<br>*Naam probleem<br>*Datum van overzicht </td> 
+   <td> Projectnaam<br>Naam Portfolio<br>Referentienummer probleem<br>Uw naam <br>Naam probleem<br>Datum ingevoerd <br>Prioriteit probleem<br>Status probleem<br>Toegewezen aan naam<br>Primair contact<br>*Projectnaam<br>*Projectreferentienummer<br>*Totaal aantal toegevoegde problemen<br>*Naam probleem<br>*Datum dagelijks overzicht </td> 
    <td> <p><strong> Onmiddellijk </strong> </p> <p><strong> en Dagelijks </strong> </p> </td> 
   </tr> 
   <tr> 
@@ -66,12 +66,12 @@ Zie ook [ de berichten van de Gebeurtenis ](../../workfront-basics/using-notific
   </tr> 
   <tr> 
    <td> <p><strong> Mijn verzoek is gesloten (bevestiging) </strong> </p> <p>De primaire contactpersoon van de uitgave ontvangt een e-mailbericht wanneer de aanvraag wordt gesloten.</p> <p>Een bericht wordt verzonden slechts als de projectstatus Huidig is en als het project opstelling als a [!UICONTROL Help Request Queue] is (zoals die in <a href="../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref"> wordt beschreven creeer een Rij van het Verzoek </a>).</p> <p>Het onderwerp van de directe bericht e-mail is: <em>[!UICONTROL Your request has been closed]: "&lt;Request Name&gt;"</em></p> <p>Het onderwerp van het dagelijkse samenvattingsbericht is:<em> [!UICONTROL Digest of your Requests] &lt;Date of the daily digest&gt; </em></p> </td> 
-   <td> Aanvraagnaam<br>Projectnaam<br>Aanvraagreferentienummer<br>Naam van de gebruiker die de aanvraag heeft gesloten<br>Probleemstatus<br>Datum en tijd waarop de aanvraag is gesloten<br>Vorige aanvraagstatus<br><strong>[!UICONTROL See More Details]</strong> knop<br>*Projectreferentienummer<br>*Projectnaam<br>*Totaal aantal gesloten aanvragen<br>*Aanvraagnaam<br>*Naam van de gebruiker die de aanvraag heeft gesloten<br>*Datum van overzicht </td> 
+   <td> Aanvraagnaam<br>Projectnaam<br>Aanvraagreferentienummer<br>Naam van de gebruiker die de aanvraag heeft gesloten<br>Afgiftestatus<br>Datum en tijd waarop de aanvraag is gesloten<br>Vorige aanvraagstatus<br><strong>[!UICONTROL See More Details]</strong> knop<br>*Projectreferentienummer<br>*Projectnaam<br>*Totaal aantal gesloten aanvragen<br>*Aanvraagnaam<br>*Naam van de gebruiker die de aanvraag heeft gesloten<br>*Datum van overzicht </td> 
    <td><strong> Onmiddellijk </strong> </td> 
   </tr> 
   <tr> 
    <td> <p><strong> Iemand wordt toegewezen aan mijn verzoek </strong> </p> <p>De primaire contactpersoon voor de uitgave ontvangt een e-mailbericht wanneer een gebruiker aan de uitgave wordt toegewezen, tenzij de primaire contactpersoon en de toegewezen gebruiker dezelfde gebruiker zijn.</p> <p>Er wordt alleen een melding verzonden als de projectstatus Huidig is en als het project is ingesteld als een [!UICONTROL Help Request Queue] (zoals beschreven in <a href="../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">[!UICONTROL Create a Request Queue]</a> ).</p> <p>Het onderwerp van de directe bericht e-mail is: <em> &lt;Naam van de gebruiker die aan uw verzoek wordt toegewezen&gt; [!UICONTROL has been assigned to your request]: "&lt;Naam van het Verzoek&gt;"</em></p> <p>Het onderwerp van het dagelijkse samenvattingsbericht is:<em> [!UICONTROL Digest of your Requests] &lt;Date of the daily digest&gt; </em></p> </td> 
-   <td> <p>De Naam van het dossier <br> Naam van het Project van de 1} Uitgave van het Referentienummer <br> het Type van het Verzoek <br> Toegelaten Datum van het Verzoek <br> <br> Uitgave Prioriteit 6} Primair contact <br> Geplande Status van de Voltooiing <br><strong> zie Meer Details </strong> knoop <br>*De Naam van het Project <br>*Het Aantal van de Verwijzing van het Project <br>*Totaal van 13} Uitgave van 13} Uitgeven aan verzoeken 4}*Naam van verzoek <br>*Toegewezen aan Naam <br>*Datum van dagelijkse samenvatting<br><br><br><br></p> </td> 
+   <td> <p>Probleem naam<br>Projectnaam<br>Uitgavenummer<br>Aanvraagnaam<br>Aanvraagtype<br>Datum ingevoerd<br>Uitgifteprioriteit<br>Primair contact<br>Geplande voltooiingsdatum<br>Uitgiftestatus<br><strong>Zie meer informatie</strong> knop <br>*Projectnaam<br>*Projectreferentienummer<br>*Totaal aantal toegewezen aanvragen <br>*Aanvraagnaam <br>*Toegewezen aan naam<br>*Datum van dagelijks overzicht</p> </td> 
    <td><strong> Dagelijks </strong> </td> 
   </tr> 
   <tr> 
@@ -81,7 +81,7 @@ Zie ook [ de berichten van de Gebeurtenis ](../../workfront-basics/using-notific
   </tr> 
   <tr> 
    <td> <p><strong> de statusveranderingen op mijn verzoek </strong> </p> <p>De primaire contactpersoon van de uitgave ontvangt een e-mailbericht wanneer de status van de uitgave verandert, tenzij de gebruiker die de status heeft gewijzigd ook de primaire contactpersoon is.</p> <p>Er wordt alleen een melding verzonden als de projectstatus Huidig is en het project is ingesteld als een [!UICONTROL Help Request Queue] (zoals beschreven in <a href="../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">[!UICONTROL Create a Request Queue]</a> ).</p> <p>Het onderwerp van de directe bericht e-mail is: <em> &lt;Request Name&gt; is &lt;New Status&gt; </em></p> <p>Het onderwerp van het dagelijkse samenvattingsbericht is:<em> Samenvatting van uw Verzoeken &lt;Datum van de dagelijkse samenvatting&gt; </em></p> </td> 
-   <td> Aanvraagnaam<br>Projectnaam<br>Aanvraagreferentienummer<br>Naam van de gebruiker die de status van de aanvraag heeft gewijzigd<br>Nieuwe status<br>Datum en tijd waarop de status van de aanvraag is gewijzigd<br>Vorige aanvraagstatus<br><strong>[!UICONTROL See More Details]</strong> knop<br>*Projectnaam<br>*Projectreferentienummer<br>*Totaal aantal aanvragen waarvan de status is gewijzigd<br>*Aanvraagnaam<br>*Vorige aanvraagstatus<br>*Nieuw Status aanvragen<br>*Naam van de gebruiker die de status<br>*Datum van het dagelijks overzicht heeft gewijzigd<br></td> 
+   <td> Aanvraagnaam<br>Projectnaam<br>Aanvraagreferentienummer<br>Naam van de gebruiker die de status van de aanvraag heeft gewijzigd<br>Nieuwe status<br>Datum en tijd waarop de status van de aanvraag is gewijzigd<br> Vorige aanvraagstatus<br><strong>[!UICONTROL See More Details]</strong> knop<br>*Projectnaam<br>*Projectreferentienummer<br>*Totaal aantal aanvragen waarvan de status is gewijzigd<br>*Aanvraagnaam<br>*Vorige aanvraagstatus<br>*Nieuw Status aanvragen<br>*Naam van de gebruiker die de status<br>*Datum van het dagelijkse overzicht heeft gewijzigd<br></td> 
    <td> <p><strong> Dagelijks </strong> </p> <p> </p> </td> 
   </tr> 
  </tbody> 
