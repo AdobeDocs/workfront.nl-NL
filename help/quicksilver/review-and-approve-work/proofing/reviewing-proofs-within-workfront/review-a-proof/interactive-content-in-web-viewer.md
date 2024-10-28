@@ -6,14 +6,19 @@ description: We raden u aan alle interactieve inhoud te controleren met de Deskt
 author: Courtney
 feature: Digital Content and Documents
 exl-id: daddc225-62df-4e1a-98fd-8bb7c7c5553b
-source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
+source-git-commit: eeaf2f2cec65fae9e4b898ed43d8c9b781b29d9e
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
 
 # Proofing van interactieve inhoud instellen in webproefdrukviewer
+
+>[!IMPORTANT]
+>
+>Dit is een oudere browserextensie die niet meer wordt ondersteund. Wij adviseren installerend de nieuwe browser uitbreiding momenteel in bèta: [ Adobe Workfront overzichtshulpmiddel ](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md).
+
 
 We raden u aan alle interactieve inhoud te controleren met de Desktop Proofing Viewer. Als dit echter door het beleid van uw organisatie wordt verhinderd, kan uw Workfront-beheerder uw systeem zodanig configureren dat de webtestviewer wordt gebruikt voor interactieve proefdrukken. Voor vergelijkende informatie over deze twee kijkers, zie [ Verschillen tussen de Web Proofing Kijker en het Overzicht van de Kijker van de Desktop Proofing ](../../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
 
@@ -47,5 +52,3 @@ De webproefdrukviewer heeft de volgende beperkingen:
 1. In de Web Proofing Kijker, klik **opnieuw laden de proef**.
 
 Met de uitbreiding die op uw browser wordt geïnstalleerd, neemt de het proef kijker een statisch schermafbeelding van uw inhoud telkens als u **klikt toevoegt commentaar**. In deze schermafbeelding kunt u opmerkingen toevoegen met markeringen.
-
- 
