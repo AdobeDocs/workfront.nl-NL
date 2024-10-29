@@ -4,17 +4,19 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: Een rapport groeperen op basis van een aangepast veld met meerdere selecties
 description: U kunt alleen in de tekstmodus groeperen met de waarde in een aangepast veld met meerdere selecties in een Adobe Workfront-rapport.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '513'
 ht-degree: 0%
 
 ---
 
 # Een rapport groeperen op basis van een aangepast veld met meerdere selecties
+
+<!--Audited: 10/2024-->
 
 U kunt alleen in de tekstmodus groeperen met de waarde in een aangepast veld met meerdere selecties in een Adobe Workfront-rapport.
 
@@ -37,6 +39,8 @@ Voor informatie over het gebruiken van tekstwijze, zie het overzicht van de Wijz
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -44,28 +48,34 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Verzoek om een groepering te wijzigen </p>
-   <p>Plan om een rapport te wijzigen</p> </td> 
+   <td> 
+    <p>Nieuw:</p>
+   <ul><li><p>Medewerker om een filter te wijzigen </p></li>
+   <li><p>Standaard voor het wijzigen van een rapport</p></li> </ul>
+
+<p>Huidige:</p>
+   <ul><li><p>Verzoek om een filter te wijzigen </p></li>
+   <li><p>Plan om een rapport te wijzigen</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een rapport te wijzigen</p> <p>Toegang tot filters, weergaven en groepen bewerken om een groep te wijzigen</p> <p><b>OPMERKING</b>
-
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
-</tr>  
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een rapport te wijzigen</p> <p>Toegang tot filters, weergaven en groepen bewerken om een filter te wijzigen</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt.
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Een rapport groeperen op meerdere geselecteerde aangepaste velden
 
@@ -75,17 +85,17 @@ Als u wilt groeperen op een aangepast veld met meerdere selecties, moet u aan de
   Voor informatie over de bouw van douaneformulieren en het toevoegen van douanevelden aan hen, zie het artikel [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 * Koppel het aangepaste formulier aan objecten.
-* Vul het aangepaste veld voor meerdere selecties met een waarde voor elk object. 
+* Vul het aangepaste veld voor meerdere selecties met een waarde voor elk object.
 
 Om door een multi-select douanegebied in een rapport te groeperen:
 
 1. Maak een rapport of bewerk een bestaand rapport waaraan u een groep voor een aangepast veld met meerdere selecties wilt toevoegen.\
    Voor informatie over het creëren van rapporten, zie het artikel [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
-
+1. Klik **de Acties van het Rapport**, dan **uitgeven**.
 1. Selecteer de **Groepen** tabel.
 1. Klik **Schakelaar aan de Wijze van de Tekst**.
 
-1. Selecteer de tekst in de **Groep uw doos van het Rapport** en vervang het met de volgende code:
+1. Selecteer de tekst in de **Groep door** doos en vervang het met de volgende code:
 
    <pre>
    group.0.displayName=Multi-select Naam van aangepast veld
@@ -94,7 +104,7 @@ Om door een multi-select douanegebied in een rapport te groeperen:
    group.0.textmode=true
    </pre>
 
-1. Vervang &#39;Aangepaste veldnaam voor meerdere selecties&#39; door de werkelijke naam van het aangepaste veld voor meerdere selecties, zoals dit wordt weergegeven in Workfront.
+1. Vervang &#39;Aangepaste veldnaam voor meerdere selecties&#39; door de werkelijke naam van het aangepaste veld voor meerdere selecties, zoals deze wordt weergegeven in uw Workfront-exemplaar.
 1. Klik **sparen en Sluiten**.
 
    De objecten in het rapport worden gegroepeerd op de waarden van het aangepaste veld voor meerdere selecties.
