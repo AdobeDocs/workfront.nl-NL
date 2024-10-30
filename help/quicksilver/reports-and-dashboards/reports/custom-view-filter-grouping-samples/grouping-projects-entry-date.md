@@ -2,19 +2,21 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Groepering: projecten op datum van binnenkomst"
+title: "Groepering: projecten op ingangsdatum"
 description: In deze aangepaste projectgroep kunt u projecten weergeven die zijn gegroepeerd op hun entry-datumwaarden.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 511faad5-b5bd-4e2d-8daa-3fcde49a502c
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
 
 # Groepering: projecten op datum van binnenkomst
+
+<!--Audited: 10/2024-->
 
 In deze aangepaste projectgroep kunt u projecten weergeven die zijn gegroepeerd op hun entry-datumwaarden.
 
@@ -76,11 +78,14 @@ Deze groep toepassen:
 1. Verwijder de tekst in de **Groep door** gebied.
 1. Vervang de tekst door de volgende code:
 
+
+   ```
    group.0.linkedname=direct
-group.0.name=Project Entry
-group.0.valueexpression=IF(ABS(DATEDIFF({entryDate},$$TODAY))&lt;=30,&quot;Last 30 Days&quot;,IF(ABS(DATEDIFF({entryDate},$$TODAY))>30&amp;&amp;ABS(DATEDIFF({entryDate},$$TODAY))&lt;=60,&quot;30 -60 dagen&quot;,&quot;ouder dan 60 dagen&quot;)
-group.0.valueFormat=atDateAsMonthString
-textmode=true
+   group.0.name=Project Entry
+   group.0.valueexpression=IF(ABS(DATEDIFF({entryDate},$$TODAY))<=30,"Last 30 Days",IF(ABS(DATEDIFF({entryDate},$$TODAY))>30&&ABS(DATEDIFF({entryDate},$$TODAY))<=60,"30-60 Days","Older than 60 days"))
+   group.0.valueformat=atDateAsMonthString
+   textmode=true
+   ```
 
 1. Klik **Gedaan** > **sparen Groepering**.
 1. (Facultatief) werk de naam van de groepering bij, dan klik **sparen Groepering**.

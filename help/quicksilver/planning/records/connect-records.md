@@ -1,14 +1,14 @@
 ---
 title: Connect-records
-description: Nadat u verbindingen tussen recordtypen hebt gemaakt, kunt u afzonderlijke records met elkaar verbinden.
+description: Nadat u verbindingen tussen recordtypen hebt gemaakt, kunt u afzonderlijke records met elkaar verbinden. U kunt informatie van één verslag op een ander verslag tonen wanneer u hen aansluit.
 recommendations: noDisplay, noCatalog
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 82633fcb858273dee360fc44b031fec5a5cdff54
 workflow-type: tm+mt
-source-wordcount: '2793'
+source-wordcount: '2988'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,13 @@ ht-degree: 0%
 
 # Connect-records
 
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+
 {{planning-important-intro}}
 
-U kunt Adobe Workfront-planningsrecords met elkaar of met objecten van andere toepassingen verbinden.
+U kunt Adobe Workfront-planningsrecords met elkaar of met objecten van andere toepassingen verbinden. U kunt informatie van één verslag op een ander verslag tonen wanneer u hen aansluit.
 
 In dit artikel wordt beschreven hoe u records kunt verbinden. Voor meer algemene informatie over het verbinden van verslagen, zie [ Verbonden verslagenoverzicht ](/help/quicksilver/planning/records/connected-records-overview.md).
 
@@ -129,11 +133,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 +++
 
-## Vereisten voor het verbinden van records
+## Overwegingen bij het verbinden van records
 
-Als u records wilt verbinden met andere records of objecten, moet u over het volgende beschikken:
+* Als u records wilt verbinden met andere records of objecten, moet u over het volgende beschikken:
 
-* Ten minste één werkruimte, recordtype en record.
+   * Ten minste één werkruimte, recordtype en record.
 
   Raadpleeg de volgende artikelen voor meer informatie:
 
@@ -141,7 +145,9 @@ Als u records wilt verbinden met andere records of objecten, moet u over het vol
    * [Recordtypen maken](/help/quicksilver/planning/architecture/create-record-types.md)
    * [Records maken](/help/quicksilver/planning/records/create-records.md)
 
-* Verbindingen tussen recordtypen of tussen recordtypen en objecten uit andere toepassingen. Voor informatie, zie [ verbind verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
+   * Verbindingen tussen recordtypen of tussen recordtypen en objecten uit andere toepassingen. Voor informatie, zie [ verbind verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+* U kunt een of meer records of objecten met elkaar verbinden. Dit is afhankelijk van het verbindingstype dat u hebt geselecteerd bij het verbinden van de record- of objecttypen. Voor informatie, zie [ verbind verslagtypes overzicht ](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
 ## Connect-records van Workfront Planning
 
@@ -172,9 +178,10 @@ U kunt verslagen van de Planning van Workfront op de volgende gebieden van een v
 
    >[!TIP]
    >
-   >    Als alleen de afbeelding van de record is geselecteerd om te worden weergegeven wanneer de recordtypen zijn verbonden, wordt alleen de miniatuur of het pictogram van de record weergegeven in het verbonden veld. Voor meer informatie, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >Als alleen de afbeelding van de record is geselecteerd om te worden weergegeven wanneer de recordtypen zijn verbonden, wordt alleen de miniatuur of het pictogram van de record weergegeven in het verbonden veld. Voor meer informatie, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >
 
-
+1. <span class="preview"> (Voorwaardelijk) Als u een-op-een of een-op-een hebt geselecteerd voor het verbindingstype toen u de recordtypen aansloot en u probeert een record of een object aan te sluiten dat al ergens anders is verbonden, ontvangt u een waarschuwing dat het opnieuw verbinden de record uit de oorspronkelijke verbinding zal verwijderen. Klik **verbinden** om de verwijdering toe te staan en het verslag aan te sluiten, of **annuleert** om terug naar het gebied te gaan en een ander verslag te selecteren.</span>
 1. (Optioneel) Als u een record of een object dat u wilt verbinden niet kunt vinden en u wilt deze toevoegen, klikt u op **+ Toevoegen** om een nieuwe record toe te voegen. Voor meer informatie, zie de sectie &quot;verslagen creëren aangezien u hen&quot;in artikel [ verbindt creeert verslagen ](/help/quicksilver/planning/records/create-records.md).
 
    >[!TIP]
