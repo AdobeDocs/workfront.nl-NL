@@ -1,27 +1,29 @@
 ---
-title: Een formulier ordenen en een voorbeeld ervan bekijken
+title: Een formulier ordenen en bekijken
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: U kunt een aangepast formulier organiseren met het formulier Designer.
+description: U kunt een aangepast formulier ordenen met de Form Designer.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: bd1635dbcd9a49969b99901faf9e3a4744241001
 workflow-type: tm+mt
-source-wordcount: '1288'
+source-wordcount: '1335'
 ht-degree: 0%
 
 ---
 
 # Een formulier ordenen en een voorbeeld ervan bekijken
 
+{{highlighted-preview}}
+
 U kunt een aangepast formulier organiseren met de formulierontwerper en er een voorbeeld van bekijken om te controleren of het correct is ingesteld.
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
++++ Vouw uit om de toegangsvereisten voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
@@ -30,7 +32,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront-plan</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront-lidmaatschap</p> </td> 
    <td>Alle</td> 
   </tr> 
   <tr> 
@@ -57,19 +59,19 @@ U kunt aangepaste velden en widgets in een aangepast formulier groeperen in sect
 
 Als u bijvoorbeeld gevoelige informatie wilt bijhouden die alleen systeembeheerders mogen weergeven of bewerken, kunt u een sectie-einde maken met de machtiging Alleen beheerder en de gevoelige velden in die sectie plaatsen.
 
-De toegangsinstellingen die u voor een sectie selecteert, zijn rechtstreeks gekoppeld aan de machtigingen die gebruikers hebben voor het Workfront-object waaraan het aangepaste formulier is gekoppeld. U kunt een sectie verbergen of weergeven op basis van het feit of de gebruiker toegang heeft tot het object, een bijdrage levert aan dat object of dat object beheert. U kunt ook een sectie alleen instellen op Beheerder, zodat alleen gebruikers met een toegangsniveau van de systeembeheerder toegang hebben tot de sectie.
+De toegangsinstellingen die u voor een sectie selecteert, zijn rechtstreeks gekoppeld aan de machtigingen die gebruikers hebben voor het Workfront-object waaraan het aangepaste formulier is gekoppeld. U kunt een sectie verbergen of weergeven op basis van het feit of de gebruiker toegang heeft tot het object, een bijdrage levert aan dat object of dat object beheert. U kunt een sectie ook instellen op Alleen beheerder, zodat alleen gebruikers met een toegangsniveau van de systeembeheerder deze kunnen openen.
 
 Voor informatie over toestemmingen op voorwerpen, zie [ Overzicht van het delen van toestemmingen op voorwerpen ](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-Voor informatie over douanegebieden en widgets in douanevormen, zie [ een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+Voor informatie over douanevelden en widgets in douanevormen, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
-### Toegang voor een sectie in een aangepast formulier maken en configureren
+### Toegang tot een sectie in een aangepast formulier maken en configureren
 
-1. Begin creërend of het uitgeven van een douanevorm en het toevoegen van gebieden, zoals die in [ worden beschreven creeer een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Begin creërend of het uitgeven van een douaneformulier en het toevoegen van gebieden, zoals die in [ worden beschreven creeer een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Klik **de onderbreking van de Sectie** en sleep het in de gewenste positie op het canvas.
 
-1. In het juiste paneel, vorm de opties u voor de sectie wilt:
+1. Configureer in het rechterdeelvenster de gewenste opties voor de sectie:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -79,7 +81,7 @@ Voor informatie over douanegebieden en widgets in douanevormen, zie [ een douane
     <tbody> 
      <tr> 
       <td role="rowheader">Label</td> 
-      <td> <p>(Vereist) Typ een beschrijvend label dat boven de sectie wordt weergegeven. U kunt het label op elk gewenst moment wijzigen.</p> <p><b> BELANGRIJK </b>: Gebruik geen speciale karakters in dit etiket. Ze worden niet correct weergegeven in rapporten.</p> </td> 
+      <td> <p>(Vereist) Typ een beschrijvend label dat boven de sectie wordt weergegeven. U kunt het label op elk gewenst moment wijzigen.</p> <p><b> BELANGRIJK </b>: Vermijd gebruikend speciale karakters in dit etiket. Ze worden niet correct weergegeven in rapporten.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Beschrijving</td> 
@@ -97,21 +99,21 @@ Voor informatie over douanegebieden en widgets in douanevormen, zie [ een douane
           <li><b> geeft </b> uit: Beheer toestemmingen aan het voorwerp uit </li> 
           <li><b> slechts Admin </b>: Het toegangsniveau van de Beheerder van het systeem</li> 
          </ul> </li> 
-        <p>De volgende toestemmingen zijn beschikbaar onder <b> Gebruikers met deze toegang tot het voorwerp kunnen gebiedswaarden </b> uitgeven: </p> 
+        <p>De volgende toestemmingen zijn beschikbaar onder <b> Gebruikers met deze toegang tot het voorwerp kunnen gebiedswaarden uitgeven </b>: </p> 
          <ul> 
           <li> <p><b> Beperkte geef </b> uit: (Beschikbaar slechts als het voorwerp een project, een taak, een kwestie, of een gebruiker is):</p> 
-           <p>Als het voorwerp een project, een taak, of een kwestie, deze toestemming gebruikers toestaat om aan het voorwerp bij te dragen</p>
-          <p>Als het object een gebruiker is, kunnen gebruikers met deze machtiging het profiel bewerken of eigenaar zijn van de profielmachtiging voor het object.</p> 
-          <li><b> geeft </b> uit: Beheer toestemmingen aan het voorwerp uit </li> 
-          <li><b> slechts Admin </b>: Het toegangsniveau van de Beheerder van het systeem</li> 
+           <p>Als het object een project, taak of uitgave is, kunnen gebruikers met deze machtiging aan het object bijdragen</p>
+          <p>Als het object een gebruiker is, kunnen gebruikers het profiel bewerken of de profielmachtigingen voor het object bezitten.</p> 
+          <li><b> geef </b> uit: beheer toestemmingen aan het voorwerp </li> 
+          <li><b> Admin slechts </b>: Het toegangsniveau van de Beheerder van het systeem</li> 
          </ul> </li> 
        </ul> 
        <p>Voor informatie over toestemmingen op voorwerpen, zie <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref"> Overzicht van het delen van toestemmingen op voorwerpen </a>.</p> 
        <p><b> NOTA </b>:  
        <ul> 
        <li> <p>Gebruikers zonder de machtigingen die u hier opgeeft, kunnen de aangepaste velden en widgets niet zien in de sectie. </p> <p>Dit is ook het geval als u de waarden van de velden in rapporten weergeeft of deze in berekende velden gebruikt in tekstmodusrapportage.</p> </li> 
-       <li><p>Aangepaste formulieren aanvragen/uitgeven: als toegang weergeven nodig is om de velden in het sectie-einde te zien, maar beheerderstoegang nodig is om de velden te bewerken, zijn de sectie en alle velden niet zichtbaar voor niet-beheerders wanneer zij het formulier invullen. Zodra het verzoek is gecreeerd, dan kunnen de gebruikers met de toegang van de Mening de gebieden in de sectie bekijken.</p></li>
-       <li> <p>Als u meerdere objecttypen aan uw formulier koppelt, kunt u de weergave- en bewerkingsmachtigingen wijzigen die in deze stappen beschikbaar zijn. Voor meer informatie, zie <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref"> hoe de veelvoudige objecten types sectie kunnen beïnvloeden toestemmingen in een douanevorm </a> in dit artikel.</p> </li> 
+       <li><p>Aangepaste formulieren aanvragen/uitgeven: als toegang weergeven nodig is om de velden in het sectie-einde te zien, maar beheerderstoegang nodig is om de velden te bewerken, zijn de sectie en alle velden niet zichtbaar voor niet-beheerders wanneer zij het formulier invullen. Zodra de aanvraag is gemaakt, kunnen de gebruikers met Weergave-toegang de velden in de sectie bekijken.</p></li>
+       <li> <p>Als u meerdere objecttypen aan uw formulier koppelt, kunt u de weergave- en bewerkingsmachtigingen wijzigen die in deze stappen beschikbaar zijn. Voor meer informatie, zie <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref"> Hoe de veelvoudige objecten types sectie kunnen beïnvloeden afbrekingstoestemmingen in een douaneformulier </a> in dit artikel.</p> </li> 
         </ul> </p> </td> 
      </tr> 
      <tr> 
@@ -127,21 +129,21 @@ Voor informatie over douanegebieden en widgets in douanevormen, zie [ een douane
 
    >[!TIP]
    >
-   >U kunt **klikken toepast** op om het even welk punt terwijl u een douaneformulier creeert om uw veranderingen te bewaren en de vorm open te houden.
+   >U kunt **klikken van toepassing** op om het even welk punt terwijl u een douaneformulier creeert om uw veranderingen te bewaren en de vorm open te houden.
 
-### Hoe meerdere objecttypen de machtigingen voor secties kunnen beïnvloeden {#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form}
+### Hoe meerdere objecttypen van invloed zijn op de machtigingen voor sectie-einden {#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form}
 
-De beperkte machtiging Bewerken voor afbrekingen van aangepaste formuliersecties is alleen beschikbaar voor de typen projecten, taken, problemen en gebruikersobjecten.
+De beperkte machtiging Bewerken voor afbrekingen van aangepaste formuliersecties is alleen beschikbaar voor de objecttypen Project, Taak, Uitgave en Gebruiker.
 
-Als u in een aangepast formulier met een sectie-einde dat is geconfigureerd met de machtiging Beperkte bewerking, een van de andere objecttypen aan het formulier toevoegt (Portfolio, Programma, Document, Bedrijf, Factureringsrecord, Iteratie, Kosten of Groep), wordt u gevraagd om over te schakelen naar de machtiging Bewerken. Deze is compatibel met zowel dat objecttype als de bestaande objecttypen op het formulier.
+Als u in een aangepast formulier met een sectie-einde dat is geconfigureerd met de machtiging Beperkte bewerking, een van de andere objecttypen aan het formulier toevoegt (Portfolio, Programma, Document, Bedrijf, Factureringsrecord, Iteratie, Kosten of Groep), wordt u gevraagd om over te schakelen op de machtiging Bewerken, die compatibel is met zowel dat objecttype als de bestaande objecttypen op het formulier.
 
 >[!INFO]
 >
->**Voorbeeld:** in een douanevorm verbonden aan het de objecten van het Project type, wordt een sectieonderbreking gevormd met de Beperkte Edit toestemming.
+>**Voorbeeld:** in een douaneformulier verbonden aan het de objecten van het Project type, wordt een sectieonderbreking gevormd met de Beperkte Edit toestemming.
 >
 >U voegt het objecttype Portfolio aan het formulier toe. Dit betekent dat de optie Beperkte bewerking niet meer beschikbaar is voor het sectie-einde in het formulier.
 >
->Een bericht op het scherm zet u ertoe aan om op de Edit toestemming over te schakelen, die het minste niveau van toestemmingen compatibel met zowel het de objecten van het Project type als het Portfolio objecten type is.
+>Met een bericht op het scherm wordt u gevraagd over te schakelen op de machtiging Bewerken. Dit is het minst machtigingsniveau dat compatibel is met zowel het objecttype Project als het objecttype Portfolio.
 
 
 ## Aangepaste velden en widgets in een aangepast formulier plaatsen
@@ -156,17 +158,22 @@ Als u in een aangepast formulier met een sectie-einde dat is geconfigureerd met 
    >* U kunt de **knoop van de Voorproef** in de hoger-juiste hoek gebruiken om een idee van te krijgen hoe de douanegebieden en widgets in de vorm zullen tonen.
    >* Aangepaste velden en widgets geven het formulier mogelijk niet altijd op dezelfde manier weer, afhankelijk van hoeveel schermruimte beschikbaar is wanneer een gebruiker het formulier bekijkt. Het derde veld in een rij velden kan bijvoorbeeld omlopen naar de volgende rij velden als de horizontale ruimte beperkt is.
 
-1. (Optioneel) Als u een aangepast veld of een aangepaste widget boven of onder een ander veld of een andere widget wilt plaatsen, sleept u het onder of boven totdat er een horizontale blauwe lijn tussen de items wordt weergegeven.
+1. (Optioneel) Als u een aangepast veld of een aangepaste widget boven of onder een ander veld of een andere widget wilt plaatsen, sleept u deze boven of onder totdat er een horizontale blauwe lijn tussen de items wordt weergegeven.
+
+1. Om een douanegebied naar een andere sectie op de vorm te bewegen, kunt u het slepen en laten vallen in plaats, <span class="preview"> of de **Beweging aan** pictogram op het gebied klikken en de sectie selecteren om het te bewegen.</span>
+
+   <span class="preview"> beeld van de Steekproef in het milieu van de Voorproef:</span>
+   ![ gebied van de beweging aan een sectie ](assets/move-field-to-section.png)
 
 1. Om uw veranderingen te bewaren, klik **toepassen**
 
    of
 
-   Klik **sparen en Sluiten**.
+   Klik **sparen en sluit**.
 
 ## Een voorbeeld van een aangepast formulier bekijken
 
-1. Begin creërend of het uitgeven van een douanevorm en het toevoegen van gebieden, zoals die in [ worden beschreven creeer een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Begin creërend of het uitgeven van een douaneformulier en het toevoegen van gebieden, zoals die in [ worden beschreven creeer een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Klik **Voorproef** in de hoger-juiste hoek om te zien hoe de vorm wanneer wordt gebruikt zal kijken, dan klik **Voorproef van het Eind** om op het uitgeven van de vorm terug te keren.
+1. Klik **Voorproef** in de hoger-juiste hoek om te zien hoe de vorm wanneer gebruikt zal kijken, dan klik **Voorproef van het Eind** om op het uitgeven van de vorm terug te komen.
 
