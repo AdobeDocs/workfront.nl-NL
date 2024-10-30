@@ -3,22 +3,22 @@ content-type: reference
 product-area: user-management
 navigation-topic: people-teams-and-groups
 title: Directe berichten verzenden naar andere gebruikers
-description: Met Adobe Workfront kunt u snel en eenvoudig berichten verzenden die geen verband houden met een werkitem en deze rechtstreeks naar andere Workfront-gebruikers sturen.
+description: Met Adobe Workfront kunt u snel en eenvoudig berichten verzenden die niet samenhangen met een willekeurig werkitem, rechtstreeks naar andere Workfront-gebruikers.
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 8dd932fe0203fb4a0391f1cbc2d6b8b58a87a00a
+source-git-commit: 019701abe441169f1f898df6b5cb1a6f743753f3
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
 
-# Directe berichten verzenden naar andere gebruikers
+# Directe berichten naar andere gebruikers sturen
 
 {{highlighted-preview}}
 
-Met [!DNL Adobe Workfront] kunt u snel en eenvoudig berichten verzenden die geen verband houden met een werkitem en deze rechtstreeks naar andere [!DNL Workfront] -gebruikers sturen. Berichten die worden verzonden zoals beschreven in deze sectie, worden weergegeven op het tabblad [!UICONTROL Updates] op de profielpagina van de gebruiker en zijn zichtbaar voor alle gebruikers. Voor extra informatie over updates, zie [ het werkpunten van de Update en meningsupdates: artikelindex ](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
+Met [!DNL Adobe Workfront] kunt u snel en gemakkelijk berichten verzenden die niet samenhangen met een willekeurig werkitem en die rechtstreeks naar andere [!DNL Workfront] -gebruikers worden gestuurd. Berichten die worden verzonden zoals beschreven in deze sectie, worden weergegeven op het tabblad [!UICONTROL Updates] op de profielpagina van de gebruiker en zijn zichtbaar voor alle gebruikers. Voor extra informatie over updates, zie [ het werkpunten van de Update en meningsupdates: artikelindex ](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
 
 De gebruiker u verzendt het bericht om de volgende types van berichten te ontvangen wanneer u een bericht verzendt zoals die in deze sectie wordt beschreven:
 
@@ -38,7 +38,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-lidmaatschap</td> 
    <td>Alle</td> 
   </tr> 
   <tr> 
@@ -83,9 +83,11 @@ Deze optie is alleen beschikbaar als u een Standard-, Plan- of Werkvergunning he
 1. Selecteer de gebruiker of de gebruikers u een bericht wilt verzenden naar, en [!UICONTROL **verzenden Update naar Gebruiker**] klikken.
 1. Typ uw bericht in het [!UICONTROL Send update to user] venster.
 
+   <span class="preview"> beeld van de Steekproef in het milieu van de Voorproef:</span>
+
    <span class="preview">![ gebruiker van het Bericht op Send update aan gebruikersvenster ](assets/send-message-to-user-dialog-from-user-list.png)</span>
 
-1. (Optioneel) Zoek naar extra gebruikers die u in het bericht wilt labelen. U hoeft de gebruikers die u al in de gebruikerslijst hebt geselecteerd, niet van tags te voorzien.
-1. (Optioneel) Selecteer **[!UICONTROL Private to my company]** om dit bericht alleen zichtbaar te maken voor andere gebruikers in uw bedrijf.
+1. (Optioneel) Zoek naar extra gebruikers die u in het bericht wilt voorzien van tags. U hoeft geen tags toe te wijzen aan de gebruikers die u al in de gebruikerslijst hebt geselecteerd.
+1. (Optioneel) Selecteer **[!UICONTROL Private to my company]** als u dit bericht alleen zichtbaar wilt maken voor andere gebruikers in uw bedrijf.
 1. Klik [!UICONTROL **verzenden**].
 Het bericht wordt boven aan de lijst met berichten op het tabblad **[!UICONTROL Updates]** op de profielpagina van elke gebruiker geplaatst.
