@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion vereist naast een Adobe Workfront-licentie e
 author: Becky
 feature: Workfront Fusion
 exl-id: f6295cc7-367f-4c8b-891b-cc11ff42a225
-source-git-commit: d4ae54f14c2328888ce80902275b0d390fb4fbb7
+source-git-commit: 2f1244d15ad7729941a35a1dc7ad9f1128d24404
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,34 @@ ht-degree: 0%
 
 Als uw firewall of postserver wordt gevormd om toegang tot slechts bepaalde verkopers toe te staan, moet u bepaalde IP adressen aan zijn lijst van gewenste personen toevoegen om open communicatie tussen uw milieu en [!DNL Adobe Workfront Fusion] toe te staan.
 
-## Identificeer uw datacenter
+U kunt alle Fusion IP adressen en domeinen aan uw lijst van gewenste personen toevoegen, of u kunt van uw cluster de plaats bepalen en slechts de IP adressen en de domeinen voor die cluster toevoegen.
+
+## Alle Fusion IP-adressen en -domeinen toevoegen
+
+Voeg de volgende IP adressen aan uw lijst van gewenste personen toe:
+
+* 52 30 133 50
+* 54 220 93 204
+* 34 254 76 122
+* 54 244 142 219
+* 52 39 217 230
+* 44 241 82 96
+* 10.20.126.137
+* 34 223 32,4
+* 52 39 176 220
+* 20.36.133.48/28
+* 20.81.156.240/28
+* 172.172.84.48/28
+
+Ook, als uw organisatie uitgaande netwerk het filtreren gebruikt, voeg het volgende domein aan uw lijst van gewenste personen toe om uw systeem toe te laten om tot Workfront Fusion toegang te hebben.
+
+* hook.app.workfrontfusion.com
+* hook.app-eu.workfrontfusion.com
+* hook.app-az.workfrontfusion.com
+
+## Voeg IP van de Fusie adressen en domeinen voor uw cluster slechts toe
+
+### Identificeer uw datacenter
 
 De IP adressen variëren gebaseerd op waar uw gegevens worden opgeslagen.
 
@@ -43,7 +70,7 @@ Als u tot Fusion door experience.adobe.com toegang hebt, kunt u het netwerklusje
 | Oproepen aan `https://eu.fusion.adobe.com` | EU-datacenter |
 | Oproepen aan `https://az.fusion.adobe.com` | Azure-datacenter |
 
-## IP-adressen voor Workfront Fusion
+### IP-adressen en domeinen toevoegen voor uw datacenter
 
 Voeg de volgende IP adressen aan uw lijst van gewenste personen toe om [!DNL Workfront Fusion] toe te laten om tot uw systeem toegang te hebben.
 
