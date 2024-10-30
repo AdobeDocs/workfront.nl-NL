@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: d3151a23f18ec91420f7f9b53f84386d8adc2bb1
+source-git-commit: 88ddadb8ea00d5c45ec414837bf10aa63d11200e
 workflow-type: tm+mt
-source-wordcount: '14559'
+source-wordcount: '14564'
 ht-degree: 0%
 
 ---
@@ -545,6 +545,7 @@ ht-degree: 0%
          * [Toegang tot objecten en gebieden met nieuwe licenties](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
          * [Beschikbare functionaliteit voor elk objecttype voor nieuwe toegangsniveaus](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
          * [Schakel de optie voor automatische upgrade voor niet-betaalde gebruikers uit in het nieuwe licentieplan](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
+         * [Functionaliteit vergelijken in verschillende licentiemodellen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/comparing-old-and-new-license-models.md)
          * [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
       * De werking van toegangsniveaus {#legacy-access-levels}
          * [Hoe de toegangsniveaus werken](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
@@ -2331,7 +2332,7 @@ ht-degree: 0%
       * [Markeringsmodules](workfront-fusion/apps-and-their-modules/markdown-modules.md)
       * [Marketo-modules](workfront-fusion/apps-and-their-modules/marketo-modules.md)
       * [Math](workfront-fusion/apps-and-their-modules/math-module.md)
-      * [Microsoft Dynamics 365 modules](workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md)
+      * [Microsoft Dynamics 365-modules](workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md)
       * [Microsoft Office 365-kalender](workfront-fusion/apps-and-their-modules/microsoft-365-calendar-modules.md)
       * [Microsoft Office 365-e-mail](workfront-fusion/apps-and-their-modules/microsoft-365-email-modules.md)
       * [Microsoft Office 365 Excel-modules](workfront-fusion/apps-and-their-modules/microsoft-365-excel-modules.md)
