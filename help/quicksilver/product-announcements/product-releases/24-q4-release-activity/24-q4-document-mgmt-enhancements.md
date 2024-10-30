@@ -4,9 +4,9 @@ description: Verbeteringen voor documentbeheer in het vierde kwartaal van 2024
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: e48ef14cc3d0377a6d95f68b502f952ffe4880c4
+source-git-commit: 8bd7f0b7ed864bf8aa07dbd9ce1104b8da1edb4a
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,6 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwar
 >[!NOTE]
 >
 >~~de versie van de Voorproef: 3 Oktober, 2024~~; Productie voor alle klanten: Met de 24.10 versie (17 Oktober, 2024)
->
->_Deze eigenschap is tijdelijk verwijderd uit Voorproef._
 
 U kunt de beslissingsstatus van een document nu rechtstreeks in de documentlijst bekijken.
 
