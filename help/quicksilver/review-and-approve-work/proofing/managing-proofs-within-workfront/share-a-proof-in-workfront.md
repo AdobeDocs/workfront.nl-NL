@@ -6,9 +6,9 @@ description: U kunt een proefdocument delen in Adobe Workfront door het document
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a5438db3-6507-4ebc-a27c-65f02c45783e
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: aaf5beb8692b2fdbb797ba908796d78b4ee8866c
 workflow-type: tm+mt
-source-wordcount: '1233'
+source-wordcount: '1231'
 ht-degree: 0%
 
 ---
@@ -172,6 +172,6 @@ Voor meer informatie over het Proef keurt objecten rapport goed, zie het [ Rappo
 
 ## Een gedeelde proefdruk goedkeuren
 
-Wanneer een gebruiker u aan een proef toevoegt en of de rol Fiatteur of Reviewer &amp; Approver gebruikend Geautomatiseerde Workflow verleent, toont het goedkeuringsverzoek op het lusje van Goedkeuringen in uw Huis of Mijn Gebied van het Werk. Vervolgens kunt u het bewijs bekijken en rechtstreeks vanuit Workfront een goedkeuringsbesluit nemen over het bewijs.
+Wanneer een gebruiker u aan een proef toevoegt en of de rol Fiatteur of Reviewer &amp; Approver gebruikend Geautomatiseerde Workflow verleent, toont het goedkeuringsverzoek in Mijn widget Goedkeuringen in het gebied van het Huis. Vervolgens kunt u het bewijs bekijken en rechtstreeks vanuit Workfront een goedkeuringsbesluit nemen over het bewijs.
 
-Voor informatie over hoe te om goedkeuringsbesluiten van het Mijn gebied van het Werk te nemen, zie [ werk van het gebied van het Huis goedkeuren ](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area) of [ het werk ](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area) in [ goedkeurend werk ](../../../review-and-approve-work/manage-approvals/approving-work.md).
+Voor informatie over hoe te om goedkeuringsbesluiten van Mijn widget goedkeurt te nemen, zie [ werk van het gebied van het Huis ](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area) goedkeuren of [ werk ](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area) in [ goedkeurend werk ](../../../review-and-approve-work/manage-approvals/approving-work.md).

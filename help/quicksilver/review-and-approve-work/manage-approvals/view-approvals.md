@@ -6,9 +6,9 @@ description: De processen van de goedkeuring verstrekken de flexibiliteit om mul
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: b0b83e8a8a2a076ec20691183605e3d25d10129d
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '793'
 ht-degree: 0%
 
 ---
@@ -62,9 +62,9 @@ U kunt goedkeuringen van de volgende gebieden bekijken of beheren:
 
 * In het thuisgebied
 
-   * Alle projecten, taken, kwesties, timesheets, documenten, en toegang die op uw goedkeuring wachten worden getoond in het gebied van het Huis wanneer u selecteert om allen of Goedkeuringen te bekijken.
-   * Goedkeuringen die u ook hebt voorgelegd tonen in het gebied van het Huis, in de Goedkeuringen I sectie van de Lijst van het Werk heb voorgelegd. Voor meer informatie, zie het [ werk van het Overzicht u voor goedkeuring in het gebied van het Huis ](#review-work-you-submit-for-approval-in-the-home-area) sectie in dit artikel voorlegt.
-   * De goedkeuringen worden verwijderd uit het gebied van het Huis wanneer het bijbehorende project, de taak, of de kwestie wordt duidelijk Afgelost, op Greep, Gesloten, of Geannuleerd.
+   * Alle projecten, taken, kwesties, timesheets, documenten, en toegang die op uw goedkeuring wachten worden getoond in Mijn Bevestiging widget in het gebied van het Huis.
+   * Ga akkoord met de weergave die u zelf hebt verzonden in de widget Mijn goedkeuringen in het gebied Home wanneer u de optie Goedkeuringen die ik heb verzonden selecteert. Voor meer informatie, zie het [ werk van het Overzicht u voor goedkeuring in het gebied van het Huis ](#review-work-you-submit-for-approval-in-the-home-area) sectie in dit artikel voorlegt.
+   * De goedkeuringen worden verwijderd uit Mijn widget Goedkeuringen in het gebied van het Huis wanneer het bijbehorende project, de taak, of de kwestie wordt duidelijk Gezet, In Greep, Gesloten, of Geannuleerd.
 
   Voor informatie over het gebruiken van Huis, zie [ begonnen worden met Huis ](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
@@ -82,19 +82,10 @@ U kunt goedkeuringen van de volgende gebieden bekijken of beheren:
 
 ## Uw werk voor goedkeuring in het gebied Home controleren {#review-work-you-submit-for-approval-in-the-home-area}
 
-1. Klik het **pictogram van het Huis** ![](assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.
+1. Klik op **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek en klik vervolgens op **[!UICONTROL Home]** .
+1. (Voorwaardelijk) klik **aanpassen** om **Mijn goedkeurt** widget toe te voegen.
+1. (Voorwaardelijk) klik het **drop-down menu van de Filter**, dan uitgezochte **Goedkeuringen ik** heb voorgelegd om goedkeuringen te zien u hebt voorgelegd.
 
-   >[!NOTE]
-   >
-   >Uw Workfront-beheerder kan de volgende wijzigingen aanbrengen in het pictogram Home in uw omgeving:
-   >
-   >* Vervang deze door een afbeelding die is aangepast om uw organisatie te illustreren. In dit geval ziet het pictogram er anders uit dan in dit artikel.
-   >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **Belangrijkste Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik **Huis**.
-
-1. Selecteer **Lijst van het Werk**, dan klik het **drop-down menu van de Filter** en selecteer **Goedkeuringen**.
-1. Breid **Goedkeuringen uit ik** sectie heb voorgelegd en de goedkeuringen vinden u voorlegde.
-
-   ![](assets/approvals-submitted-section-in-home-nwe-350x401.png)
 
 ## De goedkeuringsstatus van een object weergeven
 

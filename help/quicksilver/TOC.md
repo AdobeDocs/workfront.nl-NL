@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 0a7d92d4a869e048ba11b84d5f78df06392d5f94
+source-git-commit: 45fc22a324672bced5235e3bbb0fa7c662a7fed4
 workflow-type: tm+mt
-source-wordcount: '14574'
+source-wordcount: '14534'
 ht-degree: 0%
 
 ---
@@ -888,6 +888,7 @@ ht-degree: 0%
       * [Overzicht van de project-, taak- en emissiedata in Workfront](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
    * Prioriteiten {#priorities}
       * [Prioriteiten: artikelindex](workfront-basics/priorities/priorities-toc.md)
+      * [Prioriteiten: komende releases](workfront-basics/priorities/priorities-upcoming-releases.md)
       * [Aan de slag met prioriteiten](workfront-basics/priorities/get-started-with-priorities.md)
       * [Uw werk filteren en groeperen in Prioriteiten](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
       * [De kolommen in de werklijst aanpassen](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md)
@@ -901,23 +902,16 @@ ht-degree: 0%
       * [Home](workfront-basics/using-home/home.md)
       * Het gebied Home gebruiken {#use-home-area}
          * [Het gebied Home gebruiken](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
-         * [Ga van Legacy naar Prioriteiten](workfront-basics/priorities/move-from-legacy-home-to-priorities.md)
          * [Aan de slag met Home](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
          * [Widgets toevoegen, bewerken of verwijderen in Nieuwe startpagina](workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)
          * [Items weergeven in de werklijst in het gebied Home](workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
          * [Overzicht van widgetfilters thuis](workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md)
          * [Uw werk beheren met de widget Mijn werk](workfront-basics/using-home/using-the-home-area/my-work-widget.md)
-         * [Prioriteit geven aan werkzaamheden in het thuisgebied](workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)
          * [Werk- en teamaanvragen beheren in het gebied Home](workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
          * [Een tijdelijk onderdeel bijwerken of bewerken in het gebied Home](workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)
          * [Werkitems en projecten maken vanuit het thuisgebied](workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
          * [De tijd van het logboek op een het werkpunt van het Huis](workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
          * [Een item markeren als Gereed in het gebied Home](workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)
-         * [Startkalender, weergave](workfront-basics/using-home/using-the-home-area/home-calendar-view.md)
-         * [De weergave-instellingen voor de startagenda configureren](workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md)
-         * [Thuisgebied voor revisoren](workfront-basics/using-home/using-the-home-area/home-for-reviewers.md)
-         * [De weergave Home-kalender gebruiken](workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md)
-         * [De startagenda weergeven](workfront-basics/using-home/using-the-home-area/view-home-calendar.md)
          * [Het gebied Mijn updates gebruiken](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
    * AI-assistent {#ai-assistant}
       * [AI-assistent](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
@@ -1036,7 +1030,6 @@ ht-degree: 0%
       * [Innovatie Lab](workfront-basics/tips-tricks-and-troubleshooting/idea-exchange.md)
       * [Werken in tijdzones](workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md)
       * [Problemen met Workfront Proof Manager-machtigingen oplossen](workfront-basics/tips-tricks-and-troubleshooting/wp-manager-permissions-troubleshooting.md)
-      * [Dubbele goedkeuringsprocessen die worden weergegeven in de lijst Home Work](workfront-basics/tips-tricks-and-troubleshooting/duplicate-apprval-processes-home.md)
       * [Filterknoppen worden niet weergegeven in paginakoppen](workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
       * [De projecten ik op filter zijn omvat onverwachte resultaten](workfront-basics/tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
       * [Door meerdere browsertabbladen kan Workfront zich afmelden](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)

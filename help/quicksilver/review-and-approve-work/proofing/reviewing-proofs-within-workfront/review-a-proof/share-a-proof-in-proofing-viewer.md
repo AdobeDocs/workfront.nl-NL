@@ -6,9 +6,9 @@ description: U kunt een proefdruk delen vanuit de proefdrukviewer als delen is i
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 20bd2d94-1401-4a38-9042-335d0cb32a3d
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: aaf5beb8692b2fdbb797ba908796d78b4ee8866c
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1509'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ Als de proefdruk een Geautomatiseerde Werkstroom heeft, kunt u de gebruiker aan 
 Standaard voegen gebruikers die u toevoegt aan de proefdruk:
 
 * U ontvangt een e-mailbericht met een koppeling naar de proefdruk.
-* Kan goedkeuringsbesluiten op het bewijs van het Huis of Mijn gebied van het Werk, zoals die in [ worden beschreven goedkeurend het werk ](../../../../review-and-approve-work/manage-approvals/approving-work.md).
+* Kan goedkeuringsbesluiten op de proef van het gebied van het Huis, zoals die in [ wordt beschreven goedkeurend het werk ](../../../../review-and-approve-work/manage-approvals/approving-work.md).
 * U hoeft geen proefdrukken in te schakelen om de proefdruk te kunnen controleren.
 
 Als Geautomatiseerde workflow is ingeschakeld en u een gebruiker toevoegt aan de proefdruk die geen proefdrukken heeft in Workfront, wordt een nieuw werkgebied gemaakt in de Geautomatiseerde workflow. De gebruiker die u toevoegt, wordt automatisch toegevoegd aan dit nieuwe werkgebied wanneer deze de proefdruk voor het eerst weergeeft. Voor meer informatie, zie [ Geautomatiseerd overzicht van het Werkschema ](../../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).

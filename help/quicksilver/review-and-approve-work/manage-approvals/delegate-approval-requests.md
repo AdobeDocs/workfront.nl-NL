@@ -6,16 +6,16 @@ description: Het delegeren van goedkeuringsverzoeken staat u toe om een andere g
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 69c1e99b996025615e96a84bc8e91cbe2ae6ee48
 workflow-type: tm+mt
-source-wordcount: '1261'
+source-wordcount: '1185'
 ht-degree: 0%
 
 ---
 
 # Goedkeuringsaanvraag delegeren
 
-U kunt het werk tijdelijk delegeren u aan wordt toegewezen terwijl u uit het bureau bent. U kunt taken delegeren en taken uitgeven of u kunt goedkeuringsverzoeken delegeren. Dit artikel beschrijft hoe te om goedkeuringsverzoeken te delegeren. Voor informatie over het delegeren van taak en uitgiftetaken, zie [ de taken en kwesties van de Afgevaardigde ](../../manage-work/delegate-work/how-to-delegate-work.md).
+U kunt het werk tijdelijk delegeren u aan wordt toegewezen terwijl u uit het bureau bent. U kunt taken delegeren en taken uitgeven, of u kunt goedkeuringsverzoeken delegeren. Dit artikel beschrijft hoe te om goedkeuringsverzoeken te delegeren. Voor informatie over het delegeren van taak en uitgiftetaken, zie [ de taken en kwesties van de Afgevaardigde ](../../manage-work/delegate-work/how-to-delegate-work.md).
 
 U kunt de volgende typen goedkeuringen delegeren, ongeacht hoe de goedkeuring aan u is toegewezen (of deze rechtstreeks aan u zijn toegewezen, aan een team u lid van, of aan uw baanrol):
 
@@ -81,11 +81,7 @@ Nadat de delegatie van de goedkeuring is gestopt of geannuleerd, heeft de gebrui
 * Blijft toegang tot het werk van de Mening tot\
   Gebruikers aan wie via een goedkeuringsdelegatie toegang tot objecten is verleend, behouden die toegang zelfs nadat de goedkeuringsdelegatie is gestopt of teruggeroepen. Als u toegang tot Weergave wilt verwijderen tot alle objecten waartoe de gebruiker toegang had tijdens de periode dat goedkeuringen werden gedelegeerd, moet u naar het object gaan en de toegangsrechten rechtstreeks uit het object verwijderen.
 
-## Goedkeuringsaanvragen delegeren in het thuisgebied
-
-U kunt goedkeuringsverzoeken van het gebied van het Huis delegeren.
-
-### Uw goedkeuringen delegeren aan een andere gebruiker {#delegate-your-approvals-to-another-user}
+## Uw goedkeuringen delegeren aan een andere gebruiker {#delegate-your-approvals-to-another-user}
 
 U kunt de volgende typen goedkeuringen delegeren, ongeacht hoe de goedkeuring aan u is toegewezen (of deze rechtstreeks aan u zijn toegewezen, aan een team u lid van, of aan uw baanrol):
 
@@ -103,61 +99,60 @@ Overweeg het volgende wanneer het delegeren van goedkeuringen:
 * Een maximum van 5 gebruikers kan goedkeuringen aan de zelfde gebruiker tezelfdertijd delegeren. Met andere woorden, één gebruiker kan niet tegelijkertijd worden aangewezen als tijdelijke fiatteur voor meer dan vijf gebruikers.
 * De activiteit betreffende goedkeuringen toont op de Updates tabel. Systeemupdates tonen moet zijn ingeschakeld. Zowel de gebruiker die de goedkeuring delegeert als de gebruiker aan wie goedkeuringen worden gedelegeerd, ontvangt een e-mailbericht over goedkeuringsactiviteiten.
 
+### Goedkeuringen delegeren vanuit het thuisgebied
+
+
 Goedkeuringen delegeren aan een andere gebruiker:
 
-1. Klik het **pictogram van het Huis** ![](assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.
+1. Klik op **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek en klik vervolgens op **[!UICONTROL Home]** .
+1. (Voorwaardelijk) klik **aanpassen** om **Mijn goedkeurt** widget toe te voegen.
+1. Ga naar Mijn widget Goedkeuringen, dan klik **Afgevaardigde Mijn Goedkeuringen**.
 
    >[!NOTE]
    >
-   >Uw Workfront-beheerder kan de volgende wijzigingen aanbrengen in het pictogram Home in uw omgeving:
-   >
-   >* Vervang deze door een afbeelding die is aangepast om uw organisatie te illustreren. In dit geval ziet het pictogram er anders uit dan in dit artikel.
-   >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **Belangrijkste Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik **Huis**.
+   >Workfront-beheerders kunnen goedkeuringsdelegaties uitschakelen in het installatiegebied. Als de goedkeuringsdelegaties gehandicapt zijn, zult u niet de knoop van de Goedkeuring van de Delegatie zien.
 
-   of
-
-   Klik het **Belangrijkste pictogram van het Menu** > **uw naam** > **Tijd van** in het linkerpaneel.
-
-1. (Facultatief en voorwaardelijk) op het gebied van het Huis, klik het **drop-down menu van de Filter**, dan klik **goedkeurt**.
-
-1. (Voorwaardelijk) klik **Afgevaardigde Mijn Goedkeuringen**
-
-   of
-
-   Als uw systeem of groepsbeheerder de taak en de uitgiftedelegatie toeliet, klik **Afgevaardigde**, dan klik **goedkeuringen van de Afgevaardigde**.
-
-   ![](assets/delegate-approvals-nwe.png)
+   ![](assets/delegate-approvals-home.png)
 
 1. Geef de volgende informatie op in de sectie Mijn goedkeuringen delegeren:
 
    * **Naam**: Begin typend de naam van de gebruiker die u goedkeuringen aan wilt afvaardigen, dan klik de naam wanneer het in het drop-down menu verschijnt.
    * **datum van het Begin**: Selecteer de datum voor goedkeuringen beginnen door:sturen. Het door:sturen begint om 12:00 a.m. op de datum die u selecteert.\
      De begindatum moet de huidige of toekomstige datum zijn.
-   * **einddatum**:Doe één van het volgende:
-
+   * **einddatum**: Doe één van het volgende:
       * Selecteer de datum waarop goedkeuring niet meer moet worden doorgestuurd. Het door:sturen beëindigt om 11:59 op de datum die u selecteert.
       * Selecteer **Geen einddatum** om Workfront te vormen om goedkeuringen voor onbepaalde tijd te delegeren.
 
 1. Klik **sparen**.
 
-### Een goedkeuringsdelegatie bijwerken of stoppen {#update-or-stop-an-approval-delegation}
+### Goedkeuringen van uw gebruikersprofiel delegeren
 
-1. Klik het **pictogram van het Huis** ![](assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.
+1. Klik het **Belangrijkste pictogram van het Menu** > **uw naam** > **Tijd van** in het linkerpaneel.
+1. Klik **goedkeuringen van de Afgevaardigde**.
 
    >[!NOTE]
    >
-   >Uw Workfront-beheerder kan de volgende wijzigingen aanbrengen in het pictogram Home in uw omgeving:
-   >
-   >* Vervang deze door een afbeelding die is aangepast om uw organisatie te illustreren. In dit geval ziet het pictogram er anders uit dan in dit artikel.
-   >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **Belangrijkste Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik **Huis**.
+   >Workfront-beheerders kunnen goedkeuringsdelegaties uitschakelen in het installatiegebied. Als de goedkeuringsdelegaties gehandicapt zijn, zult u niet de knoop van de Goedkeuring van de Delegatie zien.
+1. Geef de volgende informatie op in de sectie Mijn goedkeuringen delegeren:
 
-1. Klik het **drop-down menu van de Filter**, dan klik **goedkeurt**.
+   * **Naam**: Begin typend de naam van de gebruiker die u goedkeuringen aan wilt afvaardigen, dan klik de naam wanneer het in het drop-down menu verschijnt.
+   * **datum van het Begin**: Selecteer de datum voor goedkeuringen beginnen door:sturen. Het door:sturen begint om 12:00 a.m. op de datum die u selecteert.\
+     De begindatum moet de huidige of toekomstige datum zijn.
+   * **einddatum**: Doe één van het volgende:
+      * Selecteer de datum waarop goedkeuring niet meer moet worden doorgestuurd. Het door:sturen beëindigt om 11:59 op de datum die u selecteert.
+      * Selecteer **Geen einddatum** om Workfront te vormen om goedkeuringen voor onbepaalde tijd te delegeren.
 
-1. (Voorwaardelijk) klik **delegatie** uitgeven
+## Een goedkeuringsdelegatie bijwerken of stoppen {#update-or-stop-an-approval-delegation}
 
-   of
+1. Klik op **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek en klik vervolgens op **[!UICONTROL Home]** .
+1. (Voorwaardelijk) klik **aanpassen** om **Mijn goedkeurt** widget toe te voegen.
 
-   Als uw systeem of groepsbeheerder taak en uitgiftedelegatie toeliet, klik **delegatie** uitgeven, dan klik **goedkeuringen van de Afgevaardigde**.
+1. Ga naar Mijn widget Goedkeuring, dan klik **delegatie** uitgeven.
+   ![](assets/edit-delegations.png)
+<!--
+   Or
+
+   If your system or group administrator enabled task and issue delegation, click **Edit delegation**, then click **Delegate approvals**.   -->
 
 1. (Voorwaardelijk) doe één van beiden van het volgende:
 
@@ -165,11 +160,9 @@ Goedkeuringen delegeren aan een andere gebruiker:
 
    * Om de bestaande delegatie tegen te houden: Klik **delegatie van het Einde**, dan klik **delegatie van het Einde** om te bevestigen.
 
-     ![](assets/stop-delegation-nwe.png)
+## Gedelegeerde goedkeuringen weergeven {#view-delegated-approvals}
 
-### Gedelegeerde goedkeuringen weergeven {#view-delegated-approvals}
-
-In de werklijst kunt u alleen de volgende typen goedkeuringsdelegaties weergeven:
+U kunt alleen de volgende typen goedkeuringsdelegaties weergeven in de widget Mijn goedkeuringen:
 
 * Projectgoedkeuringen
 * Taken goedkeuren
@@ -177,16 +170,7 @@ In de werklijst kunt u alleen de volgende typen goedkeuringsdelegaties weergeven
 
 Gedelegeerde goedkeuringen weergeven:
 
-1. Klik het **pictogram van het Huis** ![](assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.
-
-   >[!NOTE]
-   >
-   >Uw Workfront-beheerder kan de volgende wijzigingen aanbrengen in het pictogram Home in uw omgeving:
-   >
-   >* Vervang deze door een afbeelding die is aangepast om uw organisatie te illustreren. In dit geval ziet het pictogram er anders uit dan in dit artikel.
-   >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **Belangrijkste Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik **Huis**.
-
-1. Klik het **drop-down menu van de Filter**, dan klik **goedkeurt**.\
-   Alle goedkeuringen worden standaard in de lijst weergegeven, inclusief goedkeuringen die aan u zijn toegewezen en goedkeuringen die aan u zijn gedelegeerd.
-
-   ![](assets/delegated-to-me-nwe-350x93.png)
+1. Klik op **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek en klik vervolgens op **[!UICONTROL Home]** .
+1. (Voorwaardelijk) klik **aanpassen** om **Mijn goedkeurt** widget toe te voegen.
+1. In **Mijn goedkeurt** widget, klik het **drop-down menu van de Filter**, dan klik **Gedelegeerde Goedkeuringen**.\
+   Alle goedkeuringen die aan u worden gedelegeerd, worden in de lijst weergegeven.

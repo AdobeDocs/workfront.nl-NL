@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 452fc235-ff90-4451-b48b-354671227f6f
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
@@ -49,8 +49,6 @@ We hebben alle bètatagging in het gebied Home verwijderd. Alle lay-outsjablonen
 Met de sorteeroptie Mijn prioriteit kunt u nu prioriteit geven aan elk werkitem in uw werklijst dat voor u van belang is.
 
 Eerder kon u alleen taken en problemen in het gebied Mijn werk als prioriteit instellen.
-
-Voor meer informatie, zie [ het werk in het gebied van het Huis ](../../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md) Prioriseren.
 
 ## Rollen in het gebruikersprofiel bijwerken als groepsbeheerder {#update-roles-in-the-user-profile-as-a-group-administrator}
 

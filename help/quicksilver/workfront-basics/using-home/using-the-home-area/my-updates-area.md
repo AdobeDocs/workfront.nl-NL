@@ -6,7 +6,7 @@ description: U kunt het [!UICONTROL My Updates] gebied gebruiken om de goedkeuri
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
+source-git-commit: 57b6453d4e67e1cb70c4233c1150620867f2e9d1
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 0%
@@ -146,8 +146,6 @@ U moet het volgende hebben voordat u begint:
 1. (Optioneel) Klik op **[!UICONTROL Ignore]** om het toegangsverzoek uit uw goedkeuringslijst te verwijderen zonder het toe te kennen.
 1. Klik op **[!UICONTROL Delegate my approvals]** om de goedkeuringen die u hebt ontvangen te delegeren als u nog enige tijd geen goedkeuringsbeslissingen kunt nemen. Voor meer informatie over het delegeren van goedkeuringen, zie [ de goedkeuringsverzoek van de Afgevaardigde ](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 1. Blader naar het **[!UICONTROL Mentions]** -gebied onder uw goedkeuringen. Hier, kunt u alle punten bekijken waar u in een gesprek inbegrepen bent geweest.
-
-   ![](assets/mentions-area-for-reviewers-nwe-350x191.png)
 
    >[!TIP]
    >

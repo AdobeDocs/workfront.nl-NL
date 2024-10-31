@@ -6,9 +6,9 @@ description: Goedkeuringen voor proefdrukken worden alleen weergegeven in het ge
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 3f012b1d-69a8-4426-8894-3dafb1e6b837
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: b0b83e8a8a2a076ec20691183605e3d25d10129d
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -52,26 +52,16 @@ Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licen
 
 ## Verstuurde proefdrukgoedkeuringen bekijken
 
-1. Klik het **pictogram van het Huis** ![](assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.
+1. Klik op **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek en klik vervolgens op **[!UICONTROL Home]** .
+1. (Voorwaardelijk) klik **aanpassen** om **Mijn goedkeurt** widget toe te voegen.
+1. (Voorwaardelijk) klik het **drop-down menu van de Filter**, dan uitgezochte **Goedkeuringen ik** heb voorgelegd om goedkeuringen te zien u hebt voorgelegd.
 
-   >[!NOTE]
-   >
-   >Uw Workfront-beheerder kan de volgende wijzigingen aanbrengen in het pictogram Home in uw omgeving:
-   >
-   >* Vervang deze door een afbeelding die is aangepast om uw organisatie te illustreren. In dit geval ziet het pictogram er anders uit dan in dit artikel.
-   >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **Belangrijkste Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik **Huis**.
-
-1. In het **gebied van de Lijst van het Werk**, ga naar **Goedkeuringen ik** groepering heb voorgelegd.
-
-1. Klik a **goedkeuring van het Bewijs** in de Lijst van het Werk.
-
-   Hiermee wordt de proefdrukgoedkeuring rechts van de lijst Werkwijzen geopend.
+   ![](assets/proof-approval.png)
 
    >[!NOTE]
    >
    > Als u een goedkeuring aan een gast het proef gebruiker voorlegt, verschijnt de goedkeuring niet in Huis.
 
-   ![](assets/proof-approval-pending-home-nwe-350x230.png)
 
 1. (Facultatief) klik **gaan naar Bewijs** in de hoger-juiste hoek van het juiste paneel om de het proef kijker te lanceren.
 

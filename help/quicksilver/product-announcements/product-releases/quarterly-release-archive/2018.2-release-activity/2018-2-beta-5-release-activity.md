@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0a8602aa-34c8-44d0-a102-9497d106f806
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
 workflow-type: tm+mt
-source-wordcount: '3165'
+source-wordcount: '3158'
 ht-degree: 0%
 
 ---
@@ -59,8 +59,6 @@ Nu kunt u uw persoonlijke taken en planning beheren met de Workfront Home Calend
 * Updates uitvoeren voor taken die aan u zijn toegewezen
 
 Als u een kalender in Vooruitzichten gebruikt, kunt u uw kalender integreren om uw gebeurtenissen van Vooruitzichten in uw mening van de Kalender van het Huis te tonen.
-
-Voor meer informatie, zie [ mening van de Kalender van het Huis ](../../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
 
 ## Aanvullende updates van de lijst met werkzaamheden (linkerdeelvenster) in Home {#additional-updates-to-the-work-list-left-panel-in-home}
 

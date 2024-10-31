@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: ac349d205d7526b03bebc497883f9ed1682191ad
+source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1236'
 ht-degree: 0%
 
 ---
@@ -186,7 +186,7 @@ Wij begrijpen dat de beschikbare ingebouwde (native) integratie mogelijk niet aa
     <ul> 
      <li> <p>Integreren met een webversie van [!DNL Outlook] in een door de cloud gehoste versie [!DNL Office 365] of [!DNL Outlook Live.] </p> </li> 
      <li> <p>Geef alle gebeurtenissen in uw [!DNL Outlook] -kalender en alle bijbehorende kalenders die u selecteert, zoals Verjaardagen en feestdagen, weer in uw [!UICONTROL Home Calendar] .</p> </li> 
-    </ul> <p><b> NOTA </b>: De [!UICONTROL Outlook] kalenderconfiguratie is volledig gescheiden van [!DNL Outlook] toe:voegen-binnen ([!DNL Outlook] Integratie of [!DNL Workfront for Outlook]). Er is geen installatie vereist om de kalender te configureren.</p> <p>Voor meer informatie, zie <a href="../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md" class="MCXref xref"> uw [!UICONTROL Home Calendar] meningsmontages </a> vormen.</p> </td> 
+    </ul> <p><b> NOTA </b>: De [!UICONTROL Outlook] kalenderconfiguratie is volledig gescheiden van [!DNL Outlook] toe:voegen-binnen ([!DNL Outlook] Integratie of [!DNL Workfront for Outlook]). Er is geen installatie vereist om de kalender te configureren.</p></td> 
    <td> </td> 
    <td> </td> 
   </tr> 
