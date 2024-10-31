@@ -6,9 +6,9 @@ draft: Probably
 feature: Workfront API, Workfront Proof
 role: Developer
 exl-id: fcf89bd6-0e07-42a7-9ae3-9a1309e51946
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 79b6370ec3283922a16435e8eb8069f7f9560c55
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Het neemt drie eenvoudige stappen:
 
-**Stap 1**: Upload het dossier aan Workfront Proof door het via een verzoek van Post te verzenden aan  [ https://soap.proofhq.com/upload.php ](https://soap.proofhq.com/upload.php). Wij zullen u de dossier knoeiboel terugkeren - dit is zeer belangrijk! Op dit moment ziet u niets in uw account. U hebt ons het bestand alleen maar gestuurd, maar u hebt ons niet verteld wat u ermee moet doen.
+**Stap 1**: Upload het dossier aan Workfront Proof door het via een verzoek van het Post te verzenden aan  [ https://soap.proofhq.com/upload.php ](https://soap.proofhq.com/upload.php). Wij zullen u de dossier knoeiboel terugkeren - dit is zeer belangrijk! Op dit moment ziet u niets in uw account. U hebt ons het bestand alleen maar gestuurd, maar u hebt ons niet verteld wat u ermee moet doen.
 
 **Stap 2**: Als u nog geen identiteitskaart van de Zitting hebt, verkrijg door doLogin () te gebruiken of getSessionID () methodes. Gebruik de eerste methode om u aan te melden met gebruik van het e-mailadres en wachtwoord van de gebruiker of de tweede methode als u het e-mailadres en de verificatietoken van de gebruiker hebt.
 
@@ -69,7 +69,4 @@ Bijvoorbeeld de miniproef-URL
 `https://app.proofhq.com/viewer/proofingcode?referer=closingurl.com&customparam1=somevalue&customparam2=` moet worden gecodeerd als 
 `https://app.proofhq.com/viewer/proofingcode?referer=closingurl.com%26customparam1=somevalue%26customparam2=` om de aangepaste parameters door te geven.
 
-## Hoe te om een Cliënt van de Dienst van het Web van Java tot stand te brengen?
-
-[ Deze video ](https://screencast.com/t/xsSNrqs5b) toont hoe u een cliënt van de Dienst van het Web van Java kunt tot stand brengen gebruikend Eclipse en de definitie van Workfront Proof WSDL.
 
