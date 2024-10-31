@@ -7,9 +7,9 @@ description: Rapporten geven inzicht in wat er met gebruikers en het werk gebeur
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
 workflow-type: tm+mt
-source-wordcount: '3295'
+source-wordcount: '3296'
 ht-degree: 0%
 
 ---
@@ -64,8 +64,7 @@ Om uw rapporten te verbeteren, kunt u de volgende elementen toevoegen:
 
 Wanneer het bouwen van een rapport, kunt u om het even welk van deze elementen individueel in de rapportbouwer wijzigen.
 
-Een andere manier om de relevantie van de informatie in uw rapporten te verbeteren, is door voorwaardelijke opmaak toe te passen op uw weergaven.\
-Voor informatie over het gebruiken van voorwaardelijke het formatteren, zie [ Voorwaardelijk het gebruiken formatteren in meningen ](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+Een andere manier om de relevantie van de informatie in uw rapporten te verbeteren, is door voorwaardelijke opmaak toe te passen op uw weergaven. Voor informatie over het gebruiken van voorwaardelijke het formatteren, zie [ Voorwaardelijk het gebruiken formatteren in meningen ](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
 ## Systeemrapporten
 
@@ -81,17 +80,20 @@ Naast de systeemrapporten die Workfront levert, kunt u ook uw eigen aangepaste r
 Als u een rapport wilt maken, kunt u een van de volgende handelingen uitvoeren:
 
 * Maak een volledig nieuw rapport.
-* Kopieer een bestaand rapport.\
+* Kopieer een bestaand rapport.
+
   U moet minstens toestemming van de Mening hebben om een rapport te kopiëren dat door iemand anders wordt gecreeerd. Voor meer informatie over het kopiëren van een rapport, zie [ een exemplaar van een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md) creëren.
 
-Voor informatie over het creëren van rapporten, zie [ overzicht van de rapporten van de Kalender ](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+Voor informatie over het creëren van rapporten, zie [ een douanerapport ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 ### Vereisten voor het maken van rapporten {#prerequisites-for-creating-reports}
 
-* U moet een licentie voor abonnementen (huidige licenties) of een standaardlicentie (nieuwe licenties) hebben om uw eigen rapporten te maken.\
+* U moet een licentie voor abonnementen (huidige licenties) of een standaardlicentie (nieuwe licenties) hebben om uw eigen rapporten te maken.
+
   Voor informatie over de de licentietypen van Workfront, zie [ Overzicht van Vergunningen ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) voor de huidige vergunningen, en [ het Nieuwe vergunningsoverzicht ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) voor de nieuwe vergunningen.
 
-* Uw Workfront-beheerder moet u toegang geven tot Rapporten bewerken op uw Toegangsniveau.\
+* Uw Workfront-beheerder moet u toegang geven tot Rapporten bewerken op uw Toegangsniveau.
+
   Voor informatie over het verlenen van toegang tot Edit rapporten, zie [ Toegang verlenen tot rapporten, dashboards, en kalenders ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 * Uw Workfront-beheerder moet u toegang geven tot Filters, Weergaven en Groepen bewerken in uw toegangsniveau.
@@ -109,7 +111,7 @@ Voor informatie bij het kopiëren van rapporten, zie [ een exemplaar van een rap
 
 U kunt zien wie een rapport bezit door **te herzien ingegaan door** gebied.
 
-![ ingegaan door gebied ](assets/nwe-entered-by-350x218.png)
+![ ingegaan door gebied ](assets/unshimmed-entered-by.png)
 
 ### Rapporten maken in de builderinterface {#create-reports-in-the-builder-interface}
 

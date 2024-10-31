@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: df5f37e741f5bd771f91383f9b782ffab8e6160f
+source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -34,13 +34,45 @@ In dit artikel worden de functies beschreven die tijdens de release Eerste kwart
 
 Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront na de algemene beschikbaarheidsversie op 28 augustus, 2024 worden vrijgegeven, zie [ de versieactiviteit van de Planning van Adobe Workfront: artikelindex ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Verbindingsvelden worden nu ondersteund in aanvraagformulieren
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 31 oktober 2024; productie voor snelle release: met de release van 24.11 (14 november 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
+
+U kunt nu verbonden velden voor Workfront Planning-records toevoegen aan een aanvraagformulier voor een recordtype.
+
+U kunt geen opzoekvelden voor verbindingen of verbonden velden voor Workfront-objecten toevoegen in het aanvraagformulier.
+
+Vóór deze verbetering, konden deze types van gebieden niet aan aanvraagformulieren in de Planning van Workfront worden toegevoegd.
+
+Voor informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
+
+## Verbindingswaarschuwing bij het verbinden van records die al zijn gekoppeld aan andere records
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 31 oktober 2024; productie voor snelle release: met de release van 24.11 (14 november 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
+
+Wanneer u probeert om verslagen te verbinden die reeds elders worden verbonden en die tot een verslagtype behoren dat door Één aan velen of Één aan één verbindingstype wordt aangesloten, ontvangt u nu een waarschuwing dat de verslagen reeds verbonden zijn. Als u bevestigt dat u met uw verbinding vooruit wilt gaan, worden de geselecteerde verslagen verwijderd uit het originele verslag en toegevoegd aan het verslag u momenteel uitgeeft.
+
+Voor informatie over verbindingstypes, zie [ Verbonden overzicht van recordtypes ](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+
+## Nieuw informatiepictogram met een beschrijving van velden op de detailpagina van de record
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 30 oktober 2024; productie voor snelle release: met de release van 24.11 (14 november 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
+
+Een informatiepictogram rechts van de veldnamen is toegevoegd aan een recordpagina. Als u op het informatiepictogram klikt, wordt de beschrijving van het veld weergegeven wanneer er een beschrijving bestaat. Vóór deze verbetering, de beschrijving van het gebied getoond toen u over de gebiedsnaam hield.
+
+Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.
+
 ## Nieuw Workfront-veldtype voor planningsverbindingen
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 24 oktober 2024; productie voor snelle release: met de release van 24.11 (14 november 2024); productie voor driemaandelijkse release: met de release van 25.1 (16 januari 2024)
-
-
+>Voorvertoningsrelease: 24 oktober 2024; productie voor snelle release: met de release van 24.11 (14 november 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
 
 Als u Workfront-objecten wilt blijven overbruggen naar Workfront Planning-records, hebben we een nieuw veldtype toegevoegd in aangepaste Workfront-formulieren, ofwel de planningsverbinding. Door dit veldtype toe te voegen op een aangepast Workfront-formulier en uiteindelijk op een Workfront-object, kunt u nu het volgende doen:
 
@@ -55,4 +87,3 @@ Het bewerken van de verbindingsvelden voor Planning voor Workfront-objecten in b
 Voor informatie, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 [ Bekijk een videodemonstratie van deze eigenschap ](https://video.tv.adobe.com/v/3435633/){target=_blank}
-
