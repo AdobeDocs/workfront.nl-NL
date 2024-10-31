@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: a01ca10fdd4e8faaefcac861c9d64843b71ed9c8
+source-git-commit: 523c2fe466b0afb8f65730ae8f2434f613e31439
 workflow-type: tm+mt
 source-wordcount: '1666'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Het geeft ook aan welke handelingen Workfront-beheerders kunnen uitschakelen of 
 >[!NOTE]
 >
 >* Dit artikel beschrijft functionaliteit beschikbaar aan toegangsniveaus in het nieuwe het planmodel van Workfront. Om functionaliteit beschikbaar in het huidige planmodel te zien, zie [ Functionaliteit beschikbaar voor elk objecten type voor diverse toegangsniveaus ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
-> * Voor een lijst van functionaliteit beschikbaar aan de verschillende plannen in het nieuwe planmodel, zie [ het Prijsverhoging van Adobe Workfront en het Verpakken ](https://business.adobe.com/products/workfront/pricing.html).
+>* Voor een lijst van functionaliteit beschikbaar aan de verschillende plannen in het nieuwe planmodel, zie [ het Prijsverhoging van Adobe Workfront en het Verpakken ](https://business.adobe.com/products/workfront/pricing.html).
 
 ## Projecten
 
