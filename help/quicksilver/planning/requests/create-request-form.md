@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 82633fcb858273dee360fc44b031fec5a5cdff54
+source-git-commit: a7cdee912e5047f1c8ef224aff6a41eaa3633df6
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: '1375'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,12 @@ ht-degree: 0%
 # Een aanvraagformulier maken en beheren in Adobe Workfront Planning
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
+
 <!--take Preview and Production references at Production time-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 {{planning-important-intro}}
 
@@ -140,33 +141,19 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
      >[!IMPORTANT]
      >
-     >   Velden van de volgende typen worden niet weergegeven in het aanvraagformulier:
+     > Afhankelijk van de omgeving die u gebruikt om een aanvraagformulier te maken, bestaan de volgende scenario&#39;s:
+     >
+     >* De gebieden van de volgende types worden niet getoond in de verzoekvorm <span class="preview"> in de milieu&#39;s van de Voorproef </span> of van de Productie:
      >
      >    * Personen (inclusief Gemaakt door en Laatst gewijzigd door)
-     >    * Verbonden velden (bevat verbindingen met Workfront en Experience Manager-elementen)
-     >    * Verbonden opzoekvelden
      >    * Formule
      >    * Aanmaakdatum
      >    * Laatst gewijzigd
+     >    * Gekoppelde velden of opzoekvelden van Workfront-objecten
+     >    * Met Workfront Planning&#39; verbonden opzoekvelden
+     >* De gebieden van de volgende types worden niet getoond in de verzoekvorm in het milieu van de Productie. <span class="preview"> zij tonen in het milieu van de Voorproef:</span>
+     >    * <span class="preview"> De verbonden gebieden van de verslagen van de Planning van Workfront (omvat verbindingen met Workfront, en de activa van de Experience Manager) </span>
 
-     <!--replace the above with this: 
-
-            >[!IMPORTANT]
-            >
-            > Depending on what environment you use to create a request form, the following scenarios exist:
-            >
-            >* Fields of the following types do not display in the request form in the Preview or Production environments: 
-            >
-            >    * People (includes Created by and Last modified by)
-            >    * Formula
-            >    * Created date
-            >    * Last modified date
-            >    * Workfront object connected fields
-            >    * Workfront objects connected lookup fields
-            >* <span class="preview">Fields of the following types do not display in the request form in the Production environment. They display in the Preview environment:</span>
-            >    * <span class="preview">Planning records' connected fields (includes connections with Workfront, and Experience Manager assets)</span>
-            >    * <span class="preview">Planning records' connected lookup fields</span>
-      -->
 
    * **Standaard sectie**: Dit is de standaardsectieonderbreking die Workfront op de verzoekvorm van toepassing is. De standaardsectie kan niet worden anders genoemd of worden verwijderd.
    * **Onderwerp** gebied: Het gebied dat het verzoek in Workfront zal identificeren. Deze mogelijkheid is nog niet beschikbaar. De configuratie en de waarde van het onderwerpveld kunnen niet worden bewerkt.
