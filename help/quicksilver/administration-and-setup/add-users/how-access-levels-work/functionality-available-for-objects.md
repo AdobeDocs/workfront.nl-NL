@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 06c3cb557cf35d79b09e4f68e0f3e8cb69fbe4a6
+source-git-commit: a01ca10fdd4e8faaefcac861c9d64843b71ed9c8
 workflow-type: tm+mt
-source-wordcount: '1644'
+source-wordcount: '1666'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,8 @@ Het geeft ook aan welke handelingen Workfront-beheerders kunnen uitschakelen of 
 
 >[!NOTE]
 >
->Dit artikel beschrijft functionaliteit beschikbaar aan toegangsniveaus in het nieuwe het planmodel van Workfront. Om functionaliteit te zien beschikbaar in het huidige planmodel, zie [ Functionaliteit beschikbaar voor elk objecten type voor diverse toegangsniveaus ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
-
+>* Dit artikel beschrijft functionaliteit beschikbaar aan toegangsniveaus in het nieuwe het planmodel van Workfront. Om functionaliteit beschikbaar in het huidige planmodel te zien, zie [ Functionaliteit beschikbaar voor elk objecten type voor diverse toegangsniveaus ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+> * Voor een lijst van functionaliteit beschikbaar aan de verschillende plannen in het nieuwe planmodel, zie [ het Prijsverhoging van Adobe Workfront en het Verpakken ](https://business.adobe.com/products/workfront/pricing.html).
 
 ## Projecten
 
@@ -55,24 +55,24 @@ Het geeft ook aan welke handelingen Workfront-beheerders kunnen uitschakelen of 
 | Risico&#39;s beheren | ✓ |   |   |   |
 | Financiering beheren | ✓ |   |   |   |
 | Kosten toevoegen/bewerken | ✓ |   |   |   |
-| Sjablonen koppelen | ✓ |   |   |   |
+| Sjablonen bijvoegen | ✓ |   |   |   |
 | Opslaan als sjabloon | ✓ |   |   |   |
-| Een business case toevoegen/bewerken | ✓ |   |   |   |
+| Een bedrijfscase toevoegen/bewerken | ✓ |   |   |   |
 | Projectdetails bewerken | ✓ |   |   |   |
-| Personeelsverzetting bewerken | ✓ |   |   |   |
+| Personeel bewerken | ✓ |   |   |   |
 | Exporteren naar MS-project | ✓ | ✓ |   |   |
 | Financiering/tijdlijn opnieuw berekenen | ✓ |   |   |   |
 | Wachtrij-eigenschappen instellen | ✓ |   |   |   |
 
 {style="table-layout:auto"}
 
-&#42; Met een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen.
+&#42; Met behulp van een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen.
 
-## Tasks
+## Taken
 
-| Handeling | Standaard | Licht | Medewerker | External user |
+| Handeling | Standaard | Licht | Medewerker | Externe gebruiker |
 |--------------------------------|----------|--------|-------------|---------------|
-| Create | &#42; |   |   |   |
+| Maken | ✓&#42; |   |   |   |
 | Verwijderen | ✓&#42; |   |   |   |
 | Delen | ✓&#42; |   |   |   |
 | Delen op het hele systeem | ✓&#42; |   |   |   |
@@ -82,7 +82,7 @@ Het geeft ook aan welke handelingen Workfront-beheerders kunnen uitschakelen of 
 | Een taak bewerken (exclusief status) | ✓ |   |   |   |
 | Taakstatus wijzigen | ✓ |   |   |   |
 | Documenten toevoegen | ✓ | ✓ |   |   |
-| Copy a task | ✓ |   |   |   |
+| Een taak kopiëren | ✓ |   |   |   |
 | Een taak verplaatsen | ✓ |   |   |   |
 | Logboekuren | ✓ | ✓ |   |   |
 | Een toewijzing accepteren | ✓ |   |   |   |
@@ -91,7 +91,7 @@ Het geeft ook aan welke handelingen Workfront-beheerders kunnen uitschakelen of 
 | Aangepaste velden bewerken | ✓ |   |   |   |
 | Een goedkeuringsproces maken | ✓ |   |   |   |
 | Een taak goedkeuren | ✓ | ✓ | ✓ |   |
-| Bewerking financiën | ✓ |   |   |   |
+| Financiën bewerken | ✓ |   |   |   |
 | Kosten toevoegen/bewerken | ✓ |   |   |   |
 | Financiering weergeven | ✓ | ✓ |   |   |
 | Updates/opmerkingen toevoegen | ✓ | ✓ | ✓ |   |
@@ -102,19 +102,19 @@ Het geeft ook aan welke handelingen Workfront-beheerders kunnen uitschakelen of 
 
 ## Problemen
 
-| Handeling | Standaard | Licht | Contributor | External user |
+| Handeling | Standaard | Licht | Medewerker | Externe gebruiker |
 |-------------------------------|----------|--------|-------------|---------------|
-| Create | &#42; | &#42; | &#42; |   |
+| Maken | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Bewerken | ✓ | ✓ | ✓ |   |
 | Verwijderen | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Delen | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Delen op het hele systeem | ✓&#42; |   |   |   |
-| Bekijken | ✓&#42; | ✓&#42; | ✓&#42; |   |
+| Weergave | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Aangepaste formulieren bijvoegen | ✓ | ✓ | ✓ |   |
 | Aangepaste velden bewerken | ✓ | ✓ | ✓ |   |
 | Problemen goedkeuren | ✓ | ✓ | ✓ |   |
 | Een goedkeuringsproces toevoegen | ✓ |   |   |   |
-| Add documents | ✓ | ✓ | ✓ |   |
+| Documenten toevoegen | ✓ | ✓ | ✓ |   |
 | Uitgaven kopiëren | ✓ | ✓ | ✓ |   |
 | Problemen verplaatsen | ✓ | ✓ | ✓ |   |
 | Logboekuren | ✓ |   |   |   |
@@ -122,22 +122,22 @@ Het geeft ook aan welke handelingen Workfront-beheerders kunnen uitschakelen of 
 | Een uitgave converteren naar een taak | ✓ |   |   |   |
 | Toewijzingen accepteren | ✓ |   |   |   |
 | Toewijzingen maken | ✓ |   |   |   |
-| Add updates and comments | ✓ | ✓ | ✓ |   |
+| Updates en opmerkingen toevoegen | ✓ | ✓ | ✓ |   |
 
 {style="table-layout:auto"}
 
-&#42; Met een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen.
+&#42; Met behulp van een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen.
 
 ## Portfolio&#39;s
 
-Alleen gebruikers met een standaardlicentie hebben volledige toegang tot portfolio&#39;s.
+Alleen gebruikers met een standaardlicentie kunnen volledige toegang tot portfolio&#39;s hebben.
 
 | Handeling | Standaard | Licht | Medewerker | Externe gebruiker |
 |--------------------------|----------|--------|-------------|---------------|
 | Maken | ✓&#42; |   |   |   |
 | Verwijderen | ✓&#42; |   |   |   |
 | Delen | ✓&#42; |   |   |   |
-| Delen in het hele systeem | ✓&#42; |   |   |   |
+| Delen op het hele systeem | ✓&#42; |   |   |   |
 | Weergave | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Details bewerken | ✓ |   |   |   |
 | Aangepaste formulieren bijvoegen | ✓ |   |   |   |
@@ -150,11 +150,11 @@ Alleen gebruikers met een standaardlicentie hebben volledige toegang tot portfol
 
 {style="table-layout:auto"}
 
-&#42; Met een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen.
+&#42; Met behulp van een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen.
 
 ## Programma&#39;s
 
-Alleen gebruikers met een standaardlicentie hebben volledige toegang tot programma&#39;s.
+Alleen gebruikers met een standaardlicentie kunnen volledige toegang tot programma&#39;s hebben.
 
 | Handeling | Standaard | Licht | Medewerker | Externe gebruiker |
 |------------------------------|----------|--------|-------------|---------------|
@@ -165,7 +165,7 @@ Alleen gebruikers met een standaardlicentie hebben volledige toegang tot program
 | Weergave | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Details bewerken | ✓ |   |   |   |
 | Aangepaste formulieren bijvoegen | ✓ |   |   |   |
-| Edit custom fields | ✓ |   |   |   |
+| Aangepaste velden bewerken | ✓ |   |   |   |
 | Projecten toevoegen en verwijderen | ✓ |   |   |   |
 | Projecten goedkeuren | ✓ |   |   |   |
 | Portfolio optimaliseren | ✓ |   |   |   |
@@ -187,7 +187,7 @@ Gebruikers met een standaardlicentie kunnen volledige toegang krijgen tot rappor
 | Ingebouwde rapporten weergeven | ✓&#42; |   |   |   |
 | Delen | ✓&#42; | ✓ |   |   |
 | Kalenders en rapporten openbaar delen | ✓&#42; |   |   |   |
-| Delen in het hele systeem | ✓&#42; |   |   |   |
+| Delen op het hele systeem | ✓&#42; |   |   |   |
 | Weergave | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
 | Bewerken | ✓ |   |   |   |
 | Kopiëren | ✓ |   |   |   |
@@ -220,7 +220,7 @@ Gebruikers met een standaardlicentie kunnen volledige toegang krijgen tot rappor
 | Handeling | Standaard | Licht | Medewerker | Externe gebruiker |
 |--------------------------------|----------|--------|-------------|---------------|
 | Maken | ✓&#42; | ✓&#42; | ✓&#42; |   |
-| Delete (documents and folders) | ✓&#42; | ✓&#42; | ✓&#42; |   |
+| Verwijderen (documenten en mappen) | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Delen | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Openbaar (extern) delen | ✓&#42; |   |   |   |
 | Delen op het hele systeem | ✓&#42; |   |   |   |
@@ -228,15 +228,15 @@ Gebruikers met een standaardlicentie kunnen volledige toegang krijgen tot rappor
 | Details bewerken | ✓ | ✓ | ✓ |   |
 | Downloaden | ✓ | ✓ | ✓ | ✓ |
 | Afhandeling | ✓ | ✓ | ✓ |   |
-| Fiatteurs toevoegen | ✓ | ✓ | ✓ |   |
+| fiatteurs toevoegen | ✓ | ✓ | ✓ |   |
 | Documenten goedkeuren | ✓ | ✓ | ✓ | ✓ |
-| Aangepaste formulieren toevoegen | ✓ | ✓ | ✓ |   |
+| Aangepaste formulieren bijvoegen | ✓ | ✓ | ✓ |   |
 | Aangepaste velden bewerken | ✓ | ✓ | ✓ |   |
 | Naar (object) | ✓ | ✓ | ✓ |   |
 | Naar (integratie) | ✓ | ✓ | ✓ |   |
 | Updates en opmerkingen toevoegen | ✓ | ✓ | ✓ |   |
 | Nieuwe versie uploaden | ✓ | ✓ | ✓ |   |
-| Delete a version | ✓ | ✓ | ✓ |   |
+| Een versie verwijderen | ✓ | ✓ | ✓ |   |
 | Voorvertoning | ✓ | ✓ | ✓ | ✓ |
 | Proef | ✓ | ✓ | ✓ | ✓ |
 | Proef genereren | ✓ |   |   |   |
@@ -252,7 +252,7 @@ Gebruikers met een standaardlicentie kunnen volledige toegang krijgen tot rappor
 
 ## Gebruikers
 
-| Action | Standard | Light | Contributor | External user** |
+| Handeling | Standaard | Licht | Medewerker | Externe gebruiker** |
 |----------------------------------------------------------------------------------------------------|----------|--------|-------------|-----------------|
 | Maken | ✓* |   |   |   |
 | Verwijderen | ✓* |   |   |   |
@@ -263,60 +263,60 @@ Gebruikers met een standaardlicentie kunnen volledige toegang krijgen tot rappor
 
 {style="table-layout:auto"}
 
-&#42; Met een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen.
+&#42; Met behulp van een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen.
 
 &#42;&#42; de Externe gebruikers kunnen slechts naar andere gebruikers zoeken.
 
 ## Teams
 
-| Handeling | Standaard | Licht | Medewerker | External user* |
+| Handeling | Standaard | Licht | Medewerker | Externe gebruiker* |
 |-----------------------------------------|-----------|------------|-------------|------------------|
-| Create | ✓* |   |   |   |
+| Maken | ✓* |   |   |   |
 | Verwijderen | ✓* |   |   |   |
-| Bewerk teams die ze gebruiken | ✓* |   |   |   |
+| Teams bewerken die ze hebben ingeschakeld | ✓* |   |   |   |
 | Teams bewerken in groepen die ze beheren | ✓* |   |   |   |
 | Alle teams weergeven | ✓ | ✓ | ✓ |   |
 | Teams weergeven die zijn gekoppeld aan hun groepen | ✓ | ✓ | ✓ |   |
 
 {style="table-layout:auto"}
 
-&#42;
+&#42; Met behulp van een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen.
 
-## Templates
+## Sjablonen
 
-| Action | Standaard | Licht | Medewerker | Externe gebruiker |
+| Handeling | Standaard | Licht | Medewerker | Externe gebruiker |
 |-----------------------|----------|--------|-------------|---------------|
 | Maken | ✓&#42; |   |   |   |
 | Verwijderen | ✓&#42; |   |   |   |
 | Delen | ✓&#42; |   |   |   |
-| Delen in het hele systeem | ✓&#42; |   |   |   |
+| Delen op het hele systeem | ✓&#42; |   |   |   |
 | Weergave | ✓&#42; |   |   |   |
 | Kopiëren | ✓ |   |   |   |
 | Sjabloondetails bewerken | ✓ |   |   |   |
 
 {style="table-layout:auto"}
 
-&#42;
+&#42; Met behulp van een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen.
 
-## Financial data
+## Financiële gegevens
 
 Alleen gebruikers met een standaardlicentie hebben volledige toegang tot financiële gegevens.
 
-| Handeling | Standaard | Licht | Contributor | External user |
+| Handeling | Standaard | Licht | Medewerker | Externe gebruiker |
 |--------------------------------------------------------------|----------|--------|-------------|---------------|
-| Edit role billing and cost rates | &#42; |   |   |   |
+| Rolfacturering en kostentarieven bewerken | ✓&#42; |   |   |   |
 | Facturering van gebruikers en kostentarieven bewerken | ✓&#42; |   |   |   |
 | Facturering van rollen en kostentarieven weergeven | ✓&#42; |   |   |   |
 | Facturering en kosten van gebruikers weergeven | ✓&#42; |   |   |   |
 | Factureringsrecords beheren | ✓ |   |   |   |
 | Kosten beheren | ✓ |   |   |   |
-| Financiële gegevens weergeven | ✓&#42; | &#42; |   |   |
+| Financiële gegevens weergeven | ✓&#42; | ✓&#42; |   |   |
 | <span class="preview"> beheert tariefkaarten </span> | ✓ |   |   |   |
-| View information by Cost in the Resource Planning tools | ✓ |   |   |   |
+| De informatie van de mening door Kosten in de hulpmiddelen van de Planning van het Middel | ✓ |   |   |   |
 | De Middelen van de begroting in de hulpmiddelen van de Planning van het Middel &#42;&#42; | ✓ |   |   |   |
 | De middeltoewijzing van de mening in de hulpmiddelen van de Planning van het Middel &#42; | ✓ | ✓ |   |   |
 | Risico&#39;s maken voor projecten | ✓ |   |   |   |
-| Risico&#39;s van projecten weergeven | ✓ | ✓ |   |   |
+| Risico&#39;s weergeven voor projecten | ✓ | ✓ |   |   |
 
 {style="table-layout:auto"}
 
@@ -324,15 +324,15 @@ Alleen gebruikers met een standaardlicentie hebben volledige toegang tot financi
 
 ## Bronbeheer
 
-Alleen gebruikers met een standaardlicentie hebben volledige toegang tot bronbeheer. Andere licentietypen kunnen beperkte of geen toegang hebben tot Bronbeheer in Workfront.
+Alleen gebruikers met een standaardlicentie kunnen volledige toegang tot resourcebeheer hebben. Andere licentietypen kunnen beperkte of geen toegang hebben tot Resource Management in Workfront.
 
-| Actie | Standaard | Licht | Medewerker | Externe gebruiker |
+| Handeling | Standaard | Licht | Medewerker | Externe gebruiker |
 |----------------------------------------------------------------|----------|--------|-------------|---------------|
 | Prioriteiten en begrotingstijden bewerken in de Planner | ✓&#42; |   |   |   |
 | Brongroepen maken, bewerken, verwijderen &#42;&#42; | ✓&#42; |   |   |   |
-| Geplande uren bijwerken in werklastverdeler &#42;&#42;&#42; | ✓&#42; |   |   |   |
-| Projectprioriteiten weergeven in de bronnenplanner | ✓&#42; |   |   |   |
-| Resourcetoewijzing weergeven in de hulpmiddelen voor resourceplanning | ✓&#42; | ✓&#42; |   |   |
+| Geplande uren bijwerken in werklastbalans &#42;&#42;&#42; | ✓&#42; |   |   |   |
+| Projectprioriteiten weergeven in de functie voor middelenplanner | ✓&#42; |   |   |   |
+| De middeltoewijzing van de mening in de hulpmiddelen van de Planning van het Middel | ✓&#42; | ✓&#42; |   |   |
 | Brongroepen weergeven | ✓&#42; | ✓&#42; |   |   |
 | De middelen van de begroting in de hulpmiddelen van de Planning van het Middel &#42;&#42; | ✓ |   |   |   |
 | Bronnenpools koppelen aan projecten, sjablonen en gebruikers | ✓ |   |   |   |
@@ -360,9 +360,9 @@ Alleen gebruikers met een standaardlicentie hebben volledige toegang tot bronbeh
 
 >[!NOTE]
 >
->Gebruikers kunnen alleen een lidmaatschap bekijken dat een andere gebruiker heeft gemaakt als een koppeling naar het lidmaatschap met hen wordt gedeeld.
+>De gebruikers kunnen een plan bekijken dat een andere gebruiker creeerde slechts als een verbinding aan het plan met hen wordt gedeeld.
 
-&#42; Gebruikers kunnen financiële gegevens in een plan of initiatief alleen bekijken als ze toegang hebben tot financiële gegevens. Voor meer informatie, zie [ toegang van de Verlening tot financiële gegevens ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+&#42; Gebruikers kunnen financiële gegevens alleen in een plan of initiatief bekijken als ze toegang hebben tot financiële gegevens. Voor meer informatie, zie [ toegang van de Verlening tot financiële gegevens ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 ## Gebied met Workfront-doelen
 
@@ -374,7 +374,7 @@ Alleen gebruikers met een standaardlicentie hebben volledige toegang tot bronbeh
 | Alle doelen bewerken/verwijderen |   | ✓ |
 | Doelen weergeven in het hoofdmenu | ✓ | ✓ |
 | Het gebied Doelen weergeven via een gedeelde koppeling | ✓ | ✓ |
-| Alle doelen in het systeem weergeven | ✓ | ✓ |
+| Alle doelstellingen in het systeem weergeven | ✓ | ✓ |
 | Alle doelen activeren/deactiveren/sluiten |   | ✓ |
 | Activiteiten maken/bewerken/verwijderen |   | ✓ |
 | Resultaten maken/bewerken/verwijderen |   | ✓ |
