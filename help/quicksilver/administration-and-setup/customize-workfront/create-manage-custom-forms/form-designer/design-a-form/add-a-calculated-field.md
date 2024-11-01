@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 0e7651389a8762a2b09b0bcf87bf08c7be72adee
+source-git-commit: 81b003607634f39fbe2dd0ad076f88ce86d275cb
 workflow-type: tm+mt
-source-wordcount: '2353'
+source-wordcount: '2403'
 ht-degree: 0%
 
 ---
@@ -23,20 +23,35 @@ Een berekend aangepast veld kan het volgende bevatten:
 
 * Een eenvoudige verwijzing naar één ingebouwd veld.
 
-  >[!INFO]
-  >
-  > **Voorbeeld:** om de opbrengst te berekenen die door projecten en taken wordt geproduceerd, kon u een berekend douanegebied tot stand brengen dat de ingebouwde Ware Inkomsten van het gebied bevat. Wanneer iemand de douaneformulier aan een project of een taak vastmaakt, toont de opbrengst voor het project of de taak op het gebied.
+<div style="padding-left: 2em">
+
+>[!BEGINSHADEBOX]
+
+**Voorbeeld:** om de opbrengst te berekenen die door projecten en taken wordt geproduceerd, kon u een berekend douanegebied tot stand brengen dat de ingebouwde Ware Inkomsten van het gebied bevat. Wanneer iemand de douaneformulier aan een project of een taak vastmaakt, toont de opbrengst voor het project of de taak op het gebied.
+
+>[!ENDSHADEBOX]
+
+</div>
 
 * Een expressie die naar een of meer velden verwijst. Dit kunnen aangepaste velden, andere berekende aangepaste velden en ingebouwde velden zijn.
 
-  >[!INFO]
-  >
-  >**Voorbeeld:** om de winst te berekenen die door projecten en taken wordt geproduceerd, kon u een berekend gebied tot stand brengen genoemd Winst die een wiskundige uitdrukking bevat die kosten van opbrengst aftrekt.
-  >
-  >Hiervoor kunt u de wiskundige expressie SUB (subtract) gebruiken met de ingebouwde velden Werkelijke kosten en Werkelijke inkomsten van Workfront.
-  >
-  >In de onderstaande stappen kunt u zien hoe dit voorbeeld kan worden uitgevoerd.
+<div style="padding-left: 2em">
 
+>[!BEGINSHADEBOX]
+
+**Voorbeeld:** om de winst te berekenen die door projecten en taken wordt geproduceerd, kon u een berekend gebied tot stand brengen genoemd Winst die een wiskundige uitdrukking bevat die kosten van opbrengst aftrekt.
+
+Hiervoor kunt u de wiskundige expressie SUB (subtract) gebruiken met de ingebouwde velden Werkelijke kosten en Werkelijke inkomsten van Workfront.
+
+In de onderstaande stappen kunt u zien hoe u een expressie zoals dit voorbeeld kunt maken.
+
+>[!ENDSHADEBOX]
+
+</div>
+
+>[!NOTE]
+>
+>Door wijzigingen in een direct veld wordt de waarde van het berekende veld automatisch bijgewerkt. (Directe velden zijn velden die beschikbaar zijn in de Workfront API Explorer of aangepaste velden in een aangepast formulier dat is gekoppeld aan een object.) Wijzigingen in een referentie of formule vereisen een handmatige herberekening van de veldwaarden.
 
 ## Toegangsvereisten
 
