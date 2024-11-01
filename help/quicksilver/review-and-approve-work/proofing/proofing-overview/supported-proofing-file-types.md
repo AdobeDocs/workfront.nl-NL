@@ -7,7 +7,7 @@ description: U kunt verschillende bestandstypen delen en reviseren met uw reviso
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 0a9bc92df7360565318d7776dae73b414c054fc2
+source-git-commit: b0454e68bdd6e9e78bd748868fc82a7b0cf8f379
 workflow-type: tm+mt
 source-wordcount: '1052'
 ht-degree: 0%
@@ -49,6 +49,7 @@ Workfront heeft de volgende limieten:
 > * PPSX - Microsoft PowerPoint-presentatie
 > * XLT - Microsoft Excel-sjabloon
 > * XLTX - Microsoft Excel-sjabloon
+> * EPS - Encapsulated PostScript
 
 * ABC - Geavanceerde bitmapcompressie LAADEN
 * ABIC - Adaptieve compressie op twee niveaus van afbeeldingen
@@ -181,7 +182,6 @@ Workfront heeft de volgende limieten:
 > * PPSX - Microsoft PowerPoint-presentatie
 > * XLT - Microsoft Excel-sjabloon
 > * XLTX - Microsoft Excel-sjabloon
-> * EPS - Encapsulated PostScript
 
 
 * AI - Adobe Illustrator-illustraties
