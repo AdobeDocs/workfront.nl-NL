@@ -6,9 +6,9 @@ description: Enkele eigenschappen zijn verschillend tussen  [!DNL Workfront]  en
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: d4ae54f14c2328888ce80902275b0d390fb4fbb7
+source-git-commit: 68a5bfe5d85ac530ac14faf2a6a5cccf602e6c8c
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: '1368'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,6 @@ In deze tabel worden enkele functies beschreven die verschillen tussen de twee e
 | De proefdrukviewer wordt geopend op een nieuw tabblad | De proefdrukviewer wordt geopend in Workfront |
 | URL voor toegang tot Workfront is `experience.adobe.com` | URL voor toegang tot Workfront is `(CompanyName).my.workfront.com` |
 | Datumnotatie (zoals MM/DD/JJJJ) is gebaseerd op de taalinstellingen voor Unified Experience. Als de gebruiker zijn taalinstellingen niet heeft bijgewerkt, worden `en-US` -instellingen gebruikt. | De datumnotatie (zoals DD-MM-JJJJ) is gebaseerd op de browservoorkeuren |
-| De integratie met JumpSeat wordt niet ondersteund | De integratie met Jumpseats wordt ondersteund |
 
 {style="table-layout:auto"}
 
@@ -145,3 +144,7 @@ Het bestaande URL-pad blijft beschikbaar voor API-verkeer. U zou niets moeten do
 ### Worden aanmeldingsgegevens voor [!DNL Workfront] mobiele gebruikers gewijzigd?
 
 [!DNL Workfront] mobiele gebruikers mogen niet worden beïnvloed door de migratie naar [!DNL Adobe Unified Experience] .
+
+### JumpSeat werkt niet met de [!DNL Adobe Unified Experience] , hoe los ik dit op?
+
+JumpSeat werkt met [!DNL Adobe Unified Experience], maar vereist een configuratieupdate. Wijzig de toepassings-URL met behulp van het JumpSeat-beheerdeelvenster van `workfront.com` om te eindigen met `.workfront.adobe.com`

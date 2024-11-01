@@ -4,9 +4,9 @@ description: De blik-en-voelen updates tijdens het Eerste Kwartaal 2025 de tijdk
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
+source-git-commit: 4b92c4ede61690211dad2cb908c502dbb63d7c34
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,10 @@ Voor een lijst van alle veranderingen beschikbaar met Eerste Kwartaal 2025 versi
 
 We hebben de navigatiebalk van Workfront geüpgraded om de prestaties ervan te verbeteren. De look-and-feel veranderingen zijn minimaal.
 
-De meest opvallende wijziging is dat de vervolgkeuzelijsten Favorieten en Recenten geen sluitknop meer hebben. U kunt eenvoudig buiten het scherm klikken of ESC op uw toetsenbord drukken om het te sluiten.
+De meest opvallende wijzigingen zijn:
+
+* De vervolgkeuzevensters Favorieten en Recenten hebben niet langer een sluitknop. U kunt eenvoudig buiten het scherm klikken of ESC op uw toetsenbord drukken om het te sluiten.
+* U kunt vastgezette pagina&#39;s niet meer slepen en neerzetten om ze te rangschikken. In plaats daarvan is er een vervolgkeuzemenu met knoppen waarmee u uw vastgezette pagina&#39;s kunt verplaatsen.
 
 ## Zoeken naar updates voor Send-update naar gebruikersvenster
 

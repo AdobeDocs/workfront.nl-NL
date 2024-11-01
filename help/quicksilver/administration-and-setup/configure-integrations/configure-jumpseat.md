@@ -8,9 +8,9 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 author: Nolan, Becky
 exl-id: 23edb48b-8cad-47be-8ace-5238a5869677
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 01b7eb79028eb3fe47f988a31cb62ace31bba3f1
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '259'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,12 @@ Voordat u begint, moet u
 
 * Voeg [!DNL Workfront] toe en activeer dit als een toepassing in [!DNL JumpSeat] . Voor meer informatie, zie [ hoe te om een toepassing ](https://support.jumpseat.io/article/how-to-add-an-application/) toe te voegen of te schrappen.
 
+>[!IMPORTANT]
+>
+>Als u op de Adobe Verenigde Ervaring bent, moet u volgende Toepassing URL gebruiken: `.workfront.adobe.com`.
+
+
+
 ## De integratie met [!DNL JumpSeat] configureren
 
 We raden u aan een [!DNL JumpSeat] -integratie in te stellen in zowel uw voorvertoning- als productieomgeving.
@@ -73,7 +79,15 @@ U configureert de integratie met [!DNL JumpSeat] als volgt:
 1. Klik in het linkerdeelvenster op **[!UICONTROL System]** > **[!UICONTROL [!DNL JumpSeat] Integration]** .
 1. Voer de **[!UICONTROL [!DNL JumpSeat] URL]** in die u vindt op het extensiepictogram in [!DNL JumpSeat] .
 
-   **Voorbeeld:** [!DNL https]://{mycompanyname} .spronseats.io
+>[!BEGINSHADEBOX]
+
+**Voorbeeld:**
+
+https://{mycompanyname}.spronsit.io
+
+>>
+
+>[!ENDSHADEBOX]
 
 1. Voer de **[!UICONTROL [!DNL JumpSeat] integration token]** in. U vindt dit op de pagina **[!UICONTROL Configuration]** in [!DNL JumpSeat] .
 

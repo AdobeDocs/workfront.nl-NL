@@ -4,9 +4,9 @@ description: Verbeteringen startpunt vierde kwartaal 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: e68972f7334a93f7fbd3db29919a2f2746ce64fe
+source-git-commit: 4b92c4ede61690211dad2cb908c502dbb63d7c34
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
@@ -57,10 +57,16 @@ Voor meer informatie, zie [ begonnen worden met Prioriteiten ](/help/quicksilver
 
 Met de release van 24.10 zullen we de oude Home-ervaringen officieel verouderd hebben.
 
-Met deze wijziging wordt de naam van de volgende gebieden van de lay-outsjabloon gewijzigd:
+Door deze wijziging worden de volgende gebieden beïnvloed:
+
+**Malplaatje van de Lay-out**
 
 * Het _werkruimte van het Huis_ gebied zal worden anders genoemd aan _Huis_.
 * Het _Huis en Samenvatting_ gebied zullen worden anders genoemd aan _Samenvatting paneel_. Aanpassingen op dit gebied zijn nog steeds van toepassing op het deelvenster Samenvatting in nieuwe startpagina. Voor meer informatie, zie [ Huis en Samenvatting aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+
+**beheert goedkeuringen**
+
+* U kunt gebruikers niet langer herinneren aan, herinneren aan of verwijderen uit verzonden goedkeuringen in het gebied van de Start. In plaats daarvan kunt u dit beheren bij de goedkeuring zelf.
 
 Gebruikers wordt aangeraden om nieuwe introducties te gebruiken. Deze worden dan nog steeds uitgebreid met extra functies voordat de site wordt vervangen. Voor meer informatie over de overgang, met inbegrip van advies over wat de gebruikers en de beheerders kunnen doen om voor te bereiden, zie {de Verouderde gids van het Huis van de Verouderde ](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).[
 
