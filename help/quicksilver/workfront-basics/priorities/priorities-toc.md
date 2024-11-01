@@ -5,9 +5,9 @@ description: Herzie deze gebieden om inzicht te krijgen in het prioriteitsgebied
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: b27df0431a958774b0933b8c7ea967cf34153fad
+source-git-commit: f6cd525e061ef3e33d8c8b000596aa15897b62f5
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '73'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,7 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende subsecties:
 
+* [Prioriteiten: komende releases](/help/quicksilver/workfront-basics/priorities/priorities-upcoming-releases.md)
 * [Aan de slag met prioriteiten](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md)
 * [Uw werk filteren en groeperen in Prioriteiten](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
 * [De kolommen in de werklijst Prioriteiten aanpassen](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md)
