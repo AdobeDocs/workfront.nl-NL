@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 7b9989b73f7be46690073f323203ae2d9ca1a4b5
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 0%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
+
+{{highlighted-preview}}
 
 Als Adobe Workfront-beheerder kunt u de Kick-Starts-gegevensexportfunctie gebruiken om gegevens uit Workfront te exporteren. U kunt het in andere toepassingen gebruiken nadat u het uitvoert.
 
@@ -334,11 +336,15 @@ De volgende beperkingen gelden voor het exporteren van gegevens via de functie v
 
    U kunt matrixrapporten niet exporteren. Voor meer informatie over matrixrapporten, zie [ een matrixrapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md) creëren.
 
-   Kick-Starts ondersteunt geen tekstmodusfilters. Voor een correct exporteren moeten de rapportfilters worden overgeschakeld op de standaardmodus.
+   Kick-Starts ondersteunt geen filters of groepen in de tekstmodus. Voor een geslaagde export moeten de rapportfilters en -groepen worden overgeschakeld op de standaardmodus.
 
-   U kunt maximaal 100 dashboards en 100 rapporten selecteren in één exportbewerking.
+   U kunt maximaal 100 dashboards en 100 rapporten selecteren in één export.
 
-   ![](assets/kickstart-export-350x381.png)
+   <span class="preview"> beeld van de Steekproef in het milieu van de Voorproef:</span>
+   ![ Kickstart de uitvoer ](assets/kickstart-export-spreadsheet-options.png)
+
+   Voorbeeldafbeelding in de productieomgeving:
+   ![ Kickstart de uitvoer ](assets/kickstart-export-350x381.png)
 
    U kunt meerdere objecten tegelijk exporteren.
 
@@ -346,4 +352,3 @@ De volgende beperkingen gelden voor het exporteren van gegevens via de functie v
 
    Voor grote exportbewerkingen werkt Workfront op de achtergrond om het Excel-bestand te maken. Er verschijnt dan een waarschuwingsbericht over de vertraging. Het startbestand wordt naar u gemaild wanneer het downloaden is voltooid.
 
-   ![](assets/large-kick-start-file-warning-350x65.png)

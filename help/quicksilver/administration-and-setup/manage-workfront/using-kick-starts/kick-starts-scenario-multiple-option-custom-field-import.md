@@ -9,14 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 7b9989b73f7be46690073f323203ae2d9ca1a4b5
 workflow-type: tm+mt
-source-wordcount: '2143'
+source-wordcount: '2172'
 ht-degree: 0%
 
 ---
 
 # Kick-startscenario: aangepaste velden met meerdere opties importeren in Workfront
+
+{{highlighted-preview}}
 
 U kunt aangepaste velden met meerdere opties in Adobe Workfront importeren met de functie Kick-Start.
 
@@ -86,23 +88,23 @@ Bestaande gegevens exporteren uit Workfront:
 
 1. Breid **Systeem** in het linkermenu uit, dan klik **Gegevens van de Uitvoer (Kick-Begint)**.
 
-   ![](assets/export-data-kick-starts-link-in-setup.png)
-
 1. Selecteer **Gegevens van de Douane** in **wat om** sectie te omvatten.
 
-   ![](assets/existing-custom-data-box-checked-kick-starts.png)
+   Voorbeeldafbeelding in de voorvertoningsomgeving:
+   ![ Uitgezochte Gegevens van de Douane ](assets/kickstarts-select-existing-data.png)
+
+   Voorbeeldafbeelding in de productieomgeving:
+   ![ Uitgezochte Gegevens van de Douane ](assets/existing-custom-data-box-checked-kick-starts.png)
 
 1. Kies **.xlsx- dossier** in de **3} sectie van het formaat van de Download {.**
 
    >[!TIP]
    >
-   >    Afhankelijk van hoeveel aangepaste gegevens u in uw systeem hebt, kan dit lang duren.
+   >Afhankelijk van hoeveel aangepaste gegevens u in uw systeem hebt, kan dit lang duren.
 
-   ![](assets/download-button-for-kick-starts.png)
+1. Klik **Download**. Een .xlsx-bestand wordt naar de computer gedownload. Navigeer ernaar en open het.
 
-1. Klik **Download**. Een .xlsx-bestand wordt naar de computer gedownload. Navigeer naar en open het.
-
-   ![](assets/existing-data-excel-parameter-sheet.png)
+   ![ Geëxporteerde gegevens in Excel ](assets/existing-data-excel-parameter-sheet.png)
 
 1. Onderzoek het gedownloade dossier en neem nota van de volgende details:
 
@@ -126,9 +128,10 @@ Nadat u de informatie over bestaande aangepaste velden in uw systeem hebt gescan
 
 1. Klik **de Gegevens van de Invoer (Kick-Begint)**.
 
-   ![](assets/import-data-kick-starts-link-in-setup.png)
+1. In het **Download een leeg Kick-Begin spreadsheet** gebied, selecteer het **controlevakje van de Gegevens van de Douane** en klik **Download**.
 
-1. In het **Download een lege Kick-Begin spreadsheet** gebied, kies het **controlevakje van de Gegevens van de Douane** en klik **Download**.
+   Voorbeeldafbeelding in de voorvertoningsomgeving:
+   ![ Uitgezochte Gegevens van de Douane ](assets/kickstarts-select-existing-data.png)
 
    ![](assets/blank-custom-data-option-checked-kick-starts.png)
 
@@ -280,7 +283,7 @@ Nadat u de in de vorige secties beschreven stappen hebt uitgevoerd, gaat u als v
 
 1. Klik **kiezen Dossier** onder de sectie **gegevens met Kick-Begin spreadsheet** uploadt.
 
-1. Blader naar het Excel-werkblad dat u hebt voorbereid, op uw computer en selecteer het werkblad wanneer u het hebt gevonden.  Wanneer het bestand wordt herkend door Workfront, wordt de knop Uploaden blauw.
+1. Blader naar het Excel-werkblad dat u hebt voorbereid, op uw computer en selecteer het werkblad wanneer u het hebt gevonden. Wanneer Workfront het bestand herkent, wordt de knop Uploaden blauw.
 1. Klik **uploaden.**
 
    ![](assets/kick-start-file-selected-and-upload-blue-button.png)
