@@ -8,7 +8,7 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: beac1ea6-a983-4d12-8972-91150914f731
-source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
+source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Deze sectie bevat voorbeelden van aangepaste weergaven, filters en groepen die u
 * [ Mening: bereken tijd en datumverschillen ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculate-time-and-date-differences.md)
 * [ Mening: toon het resultaat van een berekening tussen twee gebieden in een kolom ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculation-between-two-fields.md)
 * [ Mening: voeg een lijst van taakopvolgers in een kolom toe ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-list-successors.md)
-* [ Mening en groepering: De Ware Duur van het vertoningsproject die door het gemiddelde in een Groepering ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-project-average-actual-duration-aggregated-grouping.md) wordt samengevoegd
+* [ Mening en groepering: De Ware Duur van het vertoningsproject die door het gemiddelde in een groepering ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-project-average-actual-duration-aggregated-grouping.md) wordt samengevoegd
 * [ Mening: gecombineerde taak en uitgiftedetails in een lijst van het Uur ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-combined-task-issue-details-hour-list.md)
 * [ Mening: toon een beeld in plaats van een koord in een kolom ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md)
 * [ Mening: vertoningsvoorwerpen die niet inbegrepen in de standaardinterface ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-objects-not-in-standard-interface.md) zijn

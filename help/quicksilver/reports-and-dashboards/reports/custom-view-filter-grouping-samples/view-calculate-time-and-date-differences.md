@@ -2,21 +2,21 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Weergave: tijd- en datumverschillen berekenen'
+title: 'Weergave: Verschillen in tijd en datum berekenen'
 description: Leer tijd- en datumverschillen te berekenen.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '613'
 ht-degree: 0%
 
 ---
 
 # Weergave: tijd- en datumverschillen berekenen
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 11/2024 -->
 
 >[!IMPORTANT]
 >
@@ -109,10 +109,8 @@ Bijvoorbeeld, kunt u het verschil tussen de Geplande Datum van Voltooiing van ee
 
 1. Klik **toevoegen Kolom** en beginnen &quot;Geplande Datum van de Voltooiing&quot;in **tonen in dit kolom** gebied dan selecteren het wanneer het in de lijst toont.
 
-1. Klik **toevoegen Kolom**, dan klik **Schakelaar aan de Wijze van de Tekst**.
-
-1. Beweeg over het gebied van de tekstwijze, en klik **Klik om tekst** uit te geven.
-1. Verwijder de tekst u in het **vakje van de Wijze van de Tekst** vindt, en vervang het met één van de volgende codes:
+1. Klik **toevoegen Kolom**, dan klik **Schakelaar aan de Wijze van de Tekst** > **geeft de Wijze van de Tekst** uit.
+1. Verwijder de tekst u in **vindt geef de Wijze van de Tekst** vakje uit, en vervang het met één van de volgende codes:
 
    * U kunt als volgt het verschil weergeven tussen de geplande uitvoeringsdatum van het project en die van de taak:
 
@@ -131,4 +129,4 @@ Bijvoorbeeld, kunt u het verschil tussen de Geplande Datum van Voltooiing van ee
       displayname=Parent Planned Completion - Planned Completion (Days)
      ```
 
-1. Klik **sparen**, dan **sparen Mening**.
+1. Klik **Gedaan**, dan **sparen Mening**.

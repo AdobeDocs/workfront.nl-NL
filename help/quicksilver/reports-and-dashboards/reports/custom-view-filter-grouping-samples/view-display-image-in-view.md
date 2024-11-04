@@ -4,17 +4,19 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Weergave: een afbeelding weergeven in plaats van een tekenreeks in een kolom'
 description: U kunt de naam van een object in een weergave vervangen door een afbeelding in de tekstmodus. U kunt ook een koppeling naar de afbeelding toevoegen waarmee het object dat wordt vervangen, kan worden geopend.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: e1e4a993-f05c-4b6e-b00a-e96c9ab4c94f
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
 
 # Weergave: een afbeelding weergeven in plaats van een tekenreeks in een kolom
+
+<!--Audited: 11/2024-->
 
 U kunt de naam van een object in een weergave vervangen door een afbeelding in de tekstmodus. U kunt ook een koppeling naar de afbeelding toevoegen waarmee het object dat wordt vervangen, kan worden geopend.
 
@@ -26,6 +28,8 @@ U kunt de naam van een object in een weergave vervangen door een afbeelding in d
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -33,28 +37,34 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Verzoek om een weergave te wijzigen </p>
-   <p>Plan om een rapport te wijzigen</p> </td> 
+   <td> 
+    <p>Nieuw:</p>
+   <ul><li><p>Medewerker om een filter te wijzigen </p></li>
+   <li><p>Standaard voor het wijzigen van een rapport</p></li> </ul>
+
+<p>Huidige:</p>
+   <ul><li><p>Verzoek om een filter te wijzigen </p></li>
+   <li><p>Plan om een rapport te wijzigen</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een rapport te wijzigen</p> <p>Toegang tot filters, weergaven en groepen bewerken om een weergave te wijzigen</p> <p><b>OPMERKING</b>
-
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
-</tr> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een rapport te wijzigen</p> <p>Toegang tot filters, weergaven en groepen bewerken om een filter te wijzigen</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Voorbeeld: vervang de naam van een project in een projectweergave door een afbeelding:
 
@@ -79,59 +89,26 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 1. Ga naar een project, klik **Meer** menu ![](assets/more-icon-45x33.png) naast de naam van het project, dan klik **uitgeven**.
 
 1. Op het **URL** gebied, voeg de verbinding aan het beeld toe.
-1. Navigeer naar een projectweergave in een lijst of rapport en pas de weergave aan.
+1. Ga naar een projectmening in een lijst van projecten.
+1. Klik het **drop-down menu van de Mening**, dan klik **Nieuwe Mening**.
 1. Klik de kopbal van de kolom voor de **Naam van het Project**, dan klik **Schakelaar aan de Wijze van de Tekst**.
 
 1. Voeg de volgende code aan de kolom aan de bestaande code toe:
 
    ```
    displayname=Link Project
-   ```
-
-   ```
    image.name=Link Project
-   ```
-
-   ```
    image.valuefield=URL
-   ```
-
-   ```
    link.linkproperty.0.name=projectID
-   ```
-
-   ```
    link.linkproperty.0.value=ID
-   ```
-
-   ```
    link.lookup=link.edit
-   ```
-
-   ```
    link.page=/view
-   ```
-
-   ```
    link.valuefield=objCode
-   ```
-
-   ```
    link.valueformat=val
-   ```
-
-   ```
    textmode=true
-   ```
-
-   ```
    type=image
-   ```
-
-   ```
    valueformat=
    ```
 
-   Het geselecteerde beeld vervangt de Naam van het Project in de projectweergave en het beeld is een verbinding aan het project.
-
-1. Klik **sparen Mening**.
+1. Klik **Gedaan** > **sparen Mening**.
+Het geselecteerde beeld vervangt de Naam van het Project in de projectweergave en het beeld is een verbinding aan het project.

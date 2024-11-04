@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: a7cdee912e5047f1c8ef224aff6a41eaa3633df6
+source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1367'
 ht-degree: 0%
 
 ---
@@ -139,20 +139,20 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    * De gebieden van het verslag beschikbaar in de lijstmening van het geselecteerde verslagtype. <!--they are working on removing the limitation below-->
 
-     >[!IMPORTANT]
-     >
-     > Afhankelijk van de omgeving die u gebruikt om een aanvraagformulier te maken, bestaan de volgende scenario&#39;s:
-     >
-     >* De gebieden van de volgende types worden niet getoond in de verzoekvorm <span class="preview"> in de milieu&#39;s van de Voorproef </span> of van de Productie:
-     >
-     >    * Personen (inclusief Gemaakt door en Laatst gewijzigd door)
-     >    * Formule
-     >    * Aanmaakdatum
-     >    * Laatst gewijzigd
-     >    * Gekoppelde velden of opzoekvelden van Workfront-objecten
-     >    * Met Workfront Planning&#39; verbonden opzoekvelden
-     >* De gebieden van de volgende types worden niet getoond in de verzoekvorm in het milieu van de Productie. <span class="preview"> zij tonen in het milieu van de Voorproef:</span>
-     >    * <span class="preview"> De verbonden gebieden van de verslagen van de Planning van Workfront (omvat verbindingen met Workfront, en de activa van de Experience Manager) </span>
+   >[!IMPORTANT]
+   >
+   > Afhankelijk van de omgeving die u gebruikt om een aanvraagformulier te maken, bestaan de volgende scenario&#39;s:
+   >
+   >* De gebieden van de volgende types worden niet getoond in de verzoekvorm <span class="preview"> in de milieu&#39;s van de Voorproef </span> of van de Productie:
+   >
+   >    * Personen (inclusief Gemaakt door en Laatst gewijzigd door)
+   >    * Formule
+   >    * Aanmaakdatum
+   >    * Laatst gewijzigd
+   >    * Gekoppelde velden of opzoekvelden van Workfront-objecten
+   >    * Met Workfront Planning&#39; verbonden opzoekvelden
+   >* De gebieden van de volgende types worden niet getoond in de verzoekvorm in het milieu van de Productie. <span class="preview"> zij tonen in het milieu van de Voorproef:</span>
+   >    * <span class="preview"> Met Workfront Planning records verbonden velden </span>
 
 
    * **Standaard sectie**: Dit is de standaardsectieonderbreking die Workfront op de verzoekvorm van toepassing is. De standaardsectie kan niet worden anders genoemd of worden verwijderd.
