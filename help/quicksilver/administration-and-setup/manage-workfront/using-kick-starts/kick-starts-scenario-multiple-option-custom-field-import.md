@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 7b9989b73f7be46690073f323203ae2d9ca1a4b5
+source-git-commit: 7512f3e79b3a6af4917cebf631c3f8405baafa2b
 workflow-type: tm+mt
-source-wordcount: '2172'
+source-wordcount: '2181'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Bestaande gegevens exporteren uit Workfront:
 
 1. Selecteer **Gegevens van de Douane** in **wat om** sectie te omvatten.
 
-   Voorbeeldafbeelding in de voorvertoningsomgeving:
+   <span class="preview"> beeld van de Steekproef in het milieu van de Voorproef:</span>
    ![ Uitgezochte Gegevens van de Douane ](assets/kickstarts-select-existing-data.png)
 
    Voorbeeldafbeelding in de productieomgeving:
@@ -130,10 +130,11 @@ Nadat u de informatie over bestaande aangepaste velden in uw systeem hebt gescan
 
 1. In het **Download een leeg Kick-Begin spreadsheet** gebied, selecteer het **controlevakje van de Gegevens van de Douane** en klik **Download**.
 
-   Voorbeeldafbeelding in de voorvertoningsomgeving:
+   <span class="preview"> beeld van de Steekproef in het milieu van de Voorproef:</span>
    ![ Uitgezochte Gegevens van de Douane ](assets/kickstarts-select-existing-data.png)
 
-   ![](assets/blank-custom-data-option-checked-kick-starts.png)
+   Voorbeeldafbeelding in de productieomgeving:
+   ![ Uitgezochte Gegevens van de Douane ](assets/blank-custom-data-option-checked-kick-starts.png)
 
    Een leeg bestand met de startfunctie wordt naar de computer gedownload.
 
@@ -143,7 +144,7 @@ Nadat u de informatie over bestaande aangepaste velden in uw systeem hebt gescan
 
 ## Piek Excel Kick-Begint spreadsheet
 
-Download de sjabloon voor het starten van de functie voordat u het Excel-spreadsheet vult, zoals beschreven in de bovenstaande sectie.
+Download de sjabloon voor het starten van de bestanden zoals beschreven in de bovenstaande sectie voordat u het Excel-werkblad vult.
 
 >[!IMPORTANT]
 >
@@ -182,7 +183,7 @@ Om het spreadsheet van Excel met informatie voor de nieuwe douanevelden te bevol
 
      >[!TIP]
      >
-     >    Als een regel een bestaand veld vertegenwoordigt dat al in Workfront voorkomt, voert u **`isNew`** = **`FALSE`** in.
+     >Als een regel een bestaand veld vertegenwoordigt dat al in Workfront voorkomt, voert u **`isNew`** = **`FALSE`** in.
 
    * **`ID`** = moet een uniek getal zijn voor elke regel die een nieuw veld vertegenwoordigt. U kunt elk nummer gebruiken dat begint met 1, zolang elk nieuw veld een uniek nummer heeft.
    * **`setDataType`** = voor elke regel die een nieuw veld vertegenwoordigt, voert u het gegevenstype in dat het veld ondersteunt. Het gegevenstype moet worden ingevoerd zoals het in de database wordt weergegeven. Selecteer een van de volgende gegevenstypen:
