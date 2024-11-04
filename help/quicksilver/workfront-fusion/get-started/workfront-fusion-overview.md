@@ -8,9 +8,9 @@ description: De rol van  [!DNL Adobe Workfront Fusion]  moet uw processen automa
 author: Becky
 feature: Workfront Fusion
 exl-id: f1633a93-8f4e-4db0-8618-3ce7d8ba84b1
-source-git-commit: 600f5d41e1dbecf1f354805f7fc17bbcf2409aee
+source-git-commit: 7ad3fbcfa5be5074016f399560cca509d81f4714
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -77,6 +77,8 @@ Workfront Fusion biedt ook functies die scenario&#39;s ondersteunen, zoals sjabl
 Wanneer u met Workfront Fusion begint te werken, zijn wellicht de volgende bronnen nuttig:
 
 * Voor de opleidingsmiddelen van de Fusie van Workfront, zie [ het Overzicht van de Opleiding van de Fusie van Workfront ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/fusion/welcome-to-workfront-fusion/introduction-and-tech-strategy).
+
+* Voor meer informatie over scenario&#39;s, zie [ Overzicht Scenario ](/help/quicksilver/workfront-fusion/scenarios/scenario-overview.md).
 
 * Beginnen met het creëren van praktijkscenario&#39;s, zie [ praktijkscenario&#39;s ](../../workfront-fusion/get-started/build-practice-scenarios/create-practice-scenarios.md) creëren.
 

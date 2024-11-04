@@ -7,9 +7,9 @@ description: Leer hoe te om een trekkermodule toe te voegen om het scenario toe 
 author: Becky
 feature: Workfront Fusion
 exl-id: 067ee6a1-f4c1-4602-ac39-0283255cced8
-source-git-commit: 1196e2d7a6d6750944a7c6209222f07382abfee7
+source-git-commit: 7ad3fbcfa5be5074016f399560cca509d81f4714
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,7 @@ U moet het scenario tot stand brengen dat in [ wordt beschreven leidt tot een ba
 1. Selecteer **Verslag van het Controle**.
 1. Zorg ervoor dat de module de zelfde verbinding zoals de rest modules in het scenario gebruikt.
 1. Op het gebied van de Filter, uitgezochte **Alleen Nieuwe Verslagen**.
+1. Op het gebied van het Type van Verslag, uitgezochte **Uitgave**.
 1. Selecteer `ID`, `Name` en `Project ID` in het vak Uitvoer.
 1. Klik **O.K.** om de modulemontages te bewaren.
 

@@ -6,7 +6,7 @@ title: De datumnotatie wijzigen in  [!DNL Adobe Workfront]
 description: Om het datumformaat voor de data in  [!DNL Adobe Workfront]  te veranderen moet u de taalmontages in uw browser veranderen.
 feature: Get Started with Workfront
 exl-id: 9fac92fb-e3d1-4537-b324-4b35447cef28
-source-git-commit: 5d924e510ad94098b9f417494f9fc6e8696c90d6
+source-git-commit: 7ad3fbcfa5be5074016f399560cca509d81f4714
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 0%
@@ -34,7 +34,7 @@ U kunt datumnotaties op de volgende manieren wijzigen in Workfront, afhankelijk 
   Als de standaardtaal in uw browser bijvoorbeeld is ingesteld op *[!UICONTROL English (United States)]* , worden de datums weergegeven in de volgende notaties:
 
    * MM/DD/YYYY
-   * DD maand, YYYY
+   * Mon DD, YYYY
 
   Als u de taalinstellingen in [!DNL Chrome] of een andere browser wilt wijzigen, moet u de instellingen van die browser wijzigen. De stappen voor het wijzigen van de browserinstellingen variëren van browser tot browser. Raadpleeg de gebieden [!UICONTROL Help] , [!UICONTROL Preferences] of [!UICONTROL Settings] van uw browser voor informatie over het wijzigen van de instellingen.
 
