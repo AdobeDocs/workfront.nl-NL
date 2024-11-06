@@ -6,24 +6,22 @@ description: De belangrijkste elementen die elke lijst en het rapport in Workfro
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5697905e-42c0-403b-85d4-798a1a3a2e7f
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '838'
 ht-degree: 0%
 
 ---
 
 # Elementen rapporteren: filters, weergaven en groepen
 
-<!--
-<div style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>AL: Add information here about all the different kinds of FVGs: in reports, in lists, beta, etc // OR: this article should be a high-level overview of reporting elements. Then, each type of element should have:</p>
+<!-- Audited: 11/2024 -->
+
+<!--AL: Add information here about all the different kinds of FVGs: in reports, in lists, beta, etc // OR: this article should be a high-level overview of reporting elements. Then, each type of element should have:</p>
 <p>- overview for Filters</p>
 <p>- create a filter</p>
 <p>- share a filter</p>
-<p>ALL in Reporting elements but the Shared ones should be linked to Basics> Sharing; some of the articles in the Basics> Navigation> Use lists might beed to link here as well</p>
-</div>
--->
+<p>ALL in Reporting elements but the Shared ones should be linked to Basics> Sharing; some of the articles in the Basics> Navigation> Use lists might beed to link here as well-->
 
 Er zijn verschillende elementen die een lijst of rapport in Adobe Workfront mogelijk maken. De belangrijkste elementen die elke lijst en het rapport moeten hebben zijn een filter, een mening, en een groepering. Elk element verstrekt verschillende informatie binnen om het even welk rapport.
 
@@ -56,11 +54,10 @@ Enkele kenmerken van filters zijn:
 
   Voor meer informatie over filters, zie het artikel [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-![ pictogram van de Filter ](assets/projects-list-with-filter-drop-down-highlighted-nwe.png)
-
 ## Weergaven
 
-Door de mening van een rapport te bepalen, bepaalt u welke informatie u in het rapport omvat. Net als alle rapportelementen zijn weergaven gebaseerd op één objecttype.\
+Door de mening van een rapport te bepalen, bepaalt u welke informatie u in het rapport omvat. Net als alle rapportelementen zijn weergaven gebaseerd op één objecttype.
+
 Een weergave voor een taakrapport kan bijvoorbeeld de vervaldatum weergeven, belangrijke financiële details zoals Kosten bevatten of worden gebruikt om de details van de toewijzingen en de leveringsdatum weer te geven. De meningen kunnen worden gebruikt om een verscheidenheid van details over de gegevens in het rapport te leveren.
 
 Enkele weergavekenmerken zijn:

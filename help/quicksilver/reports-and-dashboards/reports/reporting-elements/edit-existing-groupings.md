@@ -4,22 +4,24 @@ description: Bestaande groepen bewerken
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bd9e6794-3196-4a73-a86a-9ba6048e613b
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
 
 # Bestaande groepen bewerken
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This is the third part of a former artcle split in 3: two how-tos and one refernece article about creating and customizing groupings)</p>
--->
+<!-- Audited: 11/2024 -->
+
+<!--NOTE: This is the third part of a former article split in 3: two how-tos and one reference article about creating and customizing groupings)-->
 
 U kunt een bestaande groep aanpassen die u oorspronkelijk hebt gemaakt of die met u is gedeeld. Vervolgens kunt u de groep opslaan als een nieuwe groep.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -33,20 +35,31 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-licentie*</strong></td> 
-   <td> <p>Aanvraag of hoger </p> </td> 
+   <td> 
+      <p>Nieuw:</p>
+         <ul>
+         <li><p>Medewerker of hoger</p></li>
+         </ul>
+      <p>Huidige:</p>
+         <ul>
+         <li><p>Aanvraag of hoger</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een groep in een rapport te bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een groep in een rapport te bewerken</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
-   <td> <p>Rechten beheren voor een rapport om een groep in een rapport te bewerken</p> <p>Rechten voor een groep beheren </p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Rechten beheren voor een rapport om een groep in een rapport te bewerken</p> <p>Rechten voor een groep beheren</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vereisten
 
@@ -58,7 +71,7 @@ Voor informatie bij het creëren van een groepering, zie [ groepen in Adobe Work
 
 1. Ga naar een lijst met objecten die de groepering bevat die u wilt aanpassen.
 1. Klik het **Groeperen** pictogram.
-1. Selecteer de groepering die u wilt aanpassen, dan klik **uitgeven** pictogram.
+1. Selecteer de groepering die u wilt aanpassen, dan **uitgeven** pictogram ![ geeft pictogram ](assets/edit-icon.png) uit.
 
    ![ selecteer uitgeven pictogram.](assets/customizegrouping-nwe-standard-350x291.png)
 
@@ -83,4 +96,4 @@ Voor informatie bij het creëren van een groepering, zie [ groepen in Adobe Work
 1. Herhaal stap 4, 5 en 6 om extra groepen te definiëren.\
    U kunt maximaal drie groepen definiëren voor het ordenen van informatie. U kunt uw gegevens verder ordenen met maximaal vier groepen door een matrixrapport te maken. Voor meer informatie over matrixrapporten, zie [ een matrixrapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md) creëren.
 
-1. Klik **sparen als Nieuwe Groepering** om de huidige groepering met uw veranderingen te vervangen.
+1. Klik **sparen Groepering** om de huidige groepering met uw veranderingen te vervangen.

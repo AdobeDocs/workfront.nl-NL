@@ -7,18 +7,18 @@ description: U kunt groepen toevoegen om de indeling van de gegevens in uw rappo
 author: Nolan
 feature: Reports and Dashboards
 exl-id: d050372e-c4a0-4c49-b220-5b35334ab8d0
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
 
 # Overzicht van groepen in Adobe Workfront
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This article was supposed to be replaced by "Groupings overview", but decided to keep this here because this is linked in too many places. "Create groupings" and "Edit existing groupings" have been added also (with videos) to replace portions of the old content here.) </p>
--->
+<!-- Audited: 11/2024 -->
+
+<!--(NOTE: This article was supposed to be replaced by "Groupings overview", but decided to keep this here because this is linked in too many places. "Create groupings" and "Edit existing groupings" have been added also (with videos) to replace portions of the old content here.)-->
 
 U kunt groepen toevoegen om de indeling van de gegevens in uw rapporten en lijsten te beheren.
 
@@ -32,13 +32,13 @@ U kunt op de volgende manieren groepen aan rapporten toevoegen:
 
   Voor informatie over het creëren van een groepering van kras, zie [ groepen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md) creëren.
 
-Standaard worden groepen in een grijze of blauwe markering in uw rapport of lijst weergegeven. De resultaten van het rapport of de lijst worden vermeld onder hun individuele groepering, zonder nadruk.
+Standaard worden groepen weergegeven in een grijze markering in uw rapport of lijst. De resultaten van het rapport of de lijst worden vermeld onder hun individuele groepering, zonder nadruk.
+
+![ het voorbeeld van Groepen ](assets/grouping-example-blue.png)
 
 U kunt maximaal drie groepen aan een rapport toevoegen. U kunt uw informatie met maximaal vier groepen organiseren door een matrixrapport te maken. Voor meer informatie over matrixrapporten, zie [ een matrixrapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md) creëren.
 
-In een standaardgroeperingsrapport is de eerste groepering een donkerdere kleur, de tweede en derde groep zijn lichter. U kunt de kleur van de markering voor de groepering of het lettertype van de groepsnaam niet aanpassen. Het getal tussen haakjes achter de naam van de groep geeft het aantal resultaten onder die groep aan. Als uw rapport veelvoudige pagina&#39;s overspant, zorg ervoor dat u *allen* de resultaten in het rapport of de lijst toont om een nauwkeurige telling voor uw resultaten onder elke groepering te krijgen.
-
-![ Groepering van de Steekproef ](assets/grouping-example-blue.png)
+Het getal tussen haakjes achter de naam van de groep geeft het aantal resultaten onder die groep aan. Als uw rapport veelvoudige pagina&#39;s overspant, zorg ervoor dat u *allen* de resultaten in het rapport of de lijst toont om een nauwkeurige telling voor uw resultaten onder elke groepering te krijgen.
 
 Houd rekening met het volgende wanneer u werkt met groepen:
 

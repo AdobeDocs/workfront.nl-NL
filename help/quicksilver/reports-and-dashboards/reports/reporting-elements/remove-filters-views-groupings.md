@@ -6,20 +6,24 @@ description: U kunt een filter, weergave of groep verwijderen uit lijsten en rap
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 422d262e-e19d-4070-85f1-77ecb7430342
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
 
 # Filters, weergaven en groepen verwijderen
 
+<!-- Audited: 11/2024 -->
+
 U kunt een filter, weergave of groep verwijderen uit lijsten en rapporten als u deze hebt gemaakt of als ze met u zijn gedeeld. U kunt geen standaardfilters, weergaven of groepen verwijderen.
 
 ## Toegangsvereisten
 
-U moet het volgende hebben:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,20 +37,32 @@ U moet het volgende hebben:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-licentie*</strong></td> 
-   <td> <p>Aanvraag of hoger</p> </td> 
+   <td> 
+      <p>Nieuw:</p>
+         <ul>
+         <li><p>Medewerker of hoger</p></li>
+         </ul>
+      <p>Huidige:</p>
+         <ul>
+         <li><p>Aanvraag of hoger</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>Toegang tot filters, weergaven, groepen weergeven of vergroten</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td><p>Toegang tot filters, weergaven, groepen weergeven of vergroten</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
-   <td> <p>Machtigingen weergeven met toegang tot het filter, de weergave of de groep die u wilt verwijderen</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td><p>Machtigingen weergeven met toegang tot het filter, de weergave of de groep die u wilt verwijderen</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Een filter verwijderen of verwijderen met de standaardbuilder
 
@@ -69,9 +85,6 @@ De volgende scenario&#39;s bestaan wanneer u verwijdert of een filter verwijdert
 1. Ga naar een lijst met projecten, taken, problemen, portfolio&#39;s, programma&#39;s, gebruikers, sjablonen of groepen.
 1. Klik het **pictogram van de Filter** pictogram ![ van de Filter ](assets/filter-nwepng.png).
 1. Beweeg over een filter onder **Gedeeld met me**, klik **Meer** menu ![ Meer pictogram ](assets/more-icon-spectrum.png), dan klik **verwijderen**.
-
-   ![ verwijder filter ](assets/new-filters-more-menu-remove-filter.png)
-
 1. Selecteer **verwijderen** op het bevestigingsbericht om de filter permanent te verwijderen.
 
 ### Een filter verwijderen met de standaardbuilder

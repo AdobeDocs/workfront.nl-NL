@@ -7,7 +7,7 @@ description: U kunt filters in Adobe Workfront gebruiken om de hoeveelheid infor
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
 source-wordcount: '1821'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Overzicht van filters
 
-<!-- Audited: 01/2024 -->
+<!-- Audited: 11/2024 -->
 
 U kunt filters in Adobe Workfront gebruiken om de hoeveelheid informatie te verminderen u op het scherm in lijsten, rapporten, of andere gebieden toont.
 
@@ -71,13 +71,16 @@ Zie de volgende artikelen voor meer informatie over filters in lijsten en rappor
 
 U kunt ingebouwde filters gebruiken of aangepaste filters bouwen in de volgende gebieden van Workfront:
 
-* Home\
+* Home
+
   Voor informatie, zie [ punten van de Vertoning in de Lijst van het Werk in het gebied van het Huis ](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+
 * Verzoeken. U kunt filters niet aanpassen in het gebied Verzoeken.
 
   Voor informatie, zie [ plaats voorgelegde verzoeken ](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
-* Resource Planner\
+* Resource Planner
+
   Voor informatie, zie de artikel [ informatie van de Filter in de Planner van het Middel ](../../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
 * Gebruiksrapport
@@ -104,9 +107,7 @@ U kunt ingebouwde filters gebruiken of aangepaste filters bouwen in de volgende 
   >
   >U kunt filters niet aanpassen in de Planner van het Scenario.
 
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the tip above: this might change with the beta filters??)</p>
-  -->
+  <!--(NOTE: the tip above: this might change with the beta filters??)-->
 
   U kunt ingebouwde filters voor plannen, initiatieven, of projecten gebruiken en u kunt projectfilters in de Planner van het Scenario aanpassen.
 

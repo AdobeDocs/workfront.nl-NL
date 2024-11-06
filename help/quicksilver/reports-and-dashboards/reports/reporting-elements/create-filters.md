@@ -6,16 +6,16 @@ description: U kunt de hoeveelheid informatie beperken die u op het scherm weerg
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '2461'
+source-wordcount: '2419'
 ht-degree: 0%
 
 ---
 
 # Filters maken of bewerken in Adobe Workfront
 
-<!--Audited: 12/2023-->
+<!-- Audited: 11/2024 -->
 
 U kunt de hoeveelheid informatie beperken die u op het scherm weergeeft in een lijst met items met een filter. U kunt bepaalde criteria definiëren op basis van bepaalde gegevens over een object en alleen de objecten weergeven die aan deze criteria voldoen.
 
@@ -47,42 +47,36 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-licentie*</strong></td> 
-   <td> <p>Nieuw: Medewerker of hoger</p>
-
-of
-
-<p>Huidig: Verzoek of hoger</p>
-
-<p><b>OPMERKING:</b></p>
-
-Als u een filter in een rapport wilt bewerken, hebt u de volgende licentie nodig:
-
-<p>Nieuw: Standaard</p>
-
-of
-
-<p>Huidig: Plan</p>
-
-</td> 
+   <td> 
+      <p>Nieuw:</p>
+         <ul>
+         <li><p>Medewerker om een filter te wijzigen</p></li>
+         <li><p>Standaard om een filter in een rapport te wijzigen</p></li>
+         </ul>
+      <p>Huidige:</p>
+         <ul>
+         <li><p>Verzoek om een filter te wijzigen</p></li>
+         <li><p>Plan om een filter in een rapport te wijzigen</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
    <td> <ul><li><p>Toegang tot filters, weergaven en groepen bewerken</p></li></ul>
-    <p><b>OPMERKING:</b></p>
-   Om een filter in een rapport uit te geven, moet u de volgende configuratie van het toegangsniveau hebben, naast Edit toegang tot Filters, Weergaven, en Groepen:
 
-<ul><li><p>Toegang tot rapporten, dashboards en kalenders bewerken</p></li></ul>
+Om een filter in een rapport uit te geven, moet u de volgende configuratie van het toegangsniveau hebben, naast Edit toegang tot Filters, Weergaven, en Groepen:
 
-<p><b>OPMERKING:</b></p> <p> Als u geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+<ul><li><p>Toegang tot rapporten, dashboards en kalenders bewerken</p></li></ul>   
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
-   <td> <p>Rechten voor een filter beheren</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td role="rowheader"><strong>Objectmachtigingen*</strong></td> 
+   <td> <p>Rechten voor een filter beheren</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -369,19 +363,17 @@ U kunt oudere filters op de volgende manieren maken in lijsten en rapporten:
 Ongeacht de methode die u gebruikt om filters te maken, lijkt het alsof u een geheel nieuw filter maakt of een bestaand filter gebruikt.
 
 1. Ga naar een lijst of een rapport die het filter bevat dat u wilt aanpassen.
-1. Klik het **pictogram van de Filter** pictogram ![ van de Filter ](assets/filter-nwepng.png).
+1. Klik het **pictogram van de Filter ![ ](assets/filter-nwepng.png) pictogram van de Filter** {, dan klik het **Meer** pictogram ![ Meer pictogram ](assets/more-icon.png) en klik **Ga terug naar Verouderde Filters**.
 
    >[!TIP]
    >
    >De rapportmaker moet ervoor zorgen dat filters worden bewerkt om de vervolgkeuzelijst Filter in een rapport te kunnen bekijken. Het filter Standaard rapporteren wordt standaard toegepast op een rapport. Het filter Standaard rapporteren kan alleen worden aangepast wanneer u het rapport bewerkt.
 
-   ![ drop-down van de Filter ](assets/filter-drop-down-expanded-nwe.png)
-
-1. Klik **Nieuwe Filter** bij de bovenkant van de lijst van filters.
+1. Klik op **+ Nieuw filter** boven aan de lijst met filters.
 
    of
 
-   Beweeg over de filter die u wilt wijzigen en **klikken geeft** pictogram ![](assets/edit-icon.png) uit.
+   Beweeg over de filter die u wilt wijzigen en **klikken geeft** pictogram ![ uit pictogram ](assets/edit-icon.png) uit.
 
    De builder voor het aanpassen van de filterlanceringen.
 
@@ -423,7 +415,7 @@ Ongeacht de methode die u gebruikt om filters te maken, lijkt het alsof u een ge
 
    of
 
-   Klik **sparen als Nieuwe Filter** om een filter van geselecteerde tot stand te brengen.
+   Klik **sparen als Nieuwe Filter** om een nieuw filter van geselecteerde tot stand te brengen.
 
    Het nieuwe filter wordt weergegeven in de lijst met filters en wordt automatisch toegepast op de lijst of het rapport dat u hebt geselecteerd.
 

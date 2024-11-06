@@ -6,16 +6,16 @@ description: Als u uw rapporten deelt met andere gebruikers in Adobe Workfront, 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '1218'
+source-wordcount: '1162'
 ht-degree: 0%
 
 ---
 
 # Voorwaardelijke opmaak gebruiken in weergaven
 
-<!--Audited: 01/2024-->
+<!-- Audited: 11/2024 -->
 
 Als u uw rapporten deelt met andere gebruikers in Adobe Workfront, kunt u overwegen de weergave van de rapporten aan te passen om bepaalde informatie beter leesbaar te maken, of gewoon op te vallen.
 
@@ -54,24 +54,23 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td> <p>Nieuw:</p> 
    <ul><li>Standaard voor rapportweergaven</li>
   <li> Medewerker of hoger voor lijstweergaven</li></ul>
-
-<p>Huidige:</p>
+   <p>Huidige:</p>
    <ul>
     <li> Plan voor rapportmeningen </li>
     <li> Aanvraag of hoger voor lijstweergaven </li> </ul></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een weergave in een rapport te bewerken</p> <p><b>OPMERKING</b></p> <p>Als u geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een weergave in een rapport te bewerken</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
-   <td> <p>Rechten voor een rapport beheren om een weergave in een rapport te maken of te bewerken</p> <p>Rechten beheren voor een weergave</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Rechten voor een rapport beheren om een weergave in een rapport te maken of te bewerken</p> <p>Rechten beheren voor een weergave</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

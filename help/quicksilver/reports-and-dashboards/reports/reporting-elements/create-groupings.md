@@ -6,24 +6,26 @@ description: U kunt een aangepaste groepering helemaal opnieuw maken of een best
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 64cc52b7-d97b-4b41-9101-530e7db2d26e
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
 
 # Groepen maken in Adobe Workfront
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This is a third part of an article split in 3 about creating and customizing groupings (2 how-tos and one reference) </p>
--->
+<!-- Audited: 11/2024 -->
+
+<!--(NOTE: This is a third part of an article split in 3 about creating and customizing groupings (2 how-tos and one reference)-->
 
 De resultaten van een rapport of een lijst kunnen met een groepering worden georganiseerd. Groepen categoriseren informatie op basis van een bepaalde informatie.
 
 U kunt een aangepaste groepering helemaal opnieuw maken of een bestaande groepering aanpassen. Voer de onderstaande stappen uit om een geheel nieuwe groep te maken.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -37,20 +39,31 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-licentie*</strong></td> 
-   <td> <p>Aanvraag of hoger </p> </td> 
+   <td> 
+      <p>Nieuw:</p>
+         <ul>
+         <li><p>Medewerker of hoger</p></li>
+         </ul>
+      <p>Huidige:</p>
+         <ul>
+         <li><p>Aanvraag of hoger</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een groep in een rapport te maken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een groep in een rapport te maken</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
-   <td> <p>Rechten beheren voor een rapport om een groep in een rapport te bewerken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td><p>Rechten beheren voor een rapport om een groep in een rapport te bewerken</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Een groep maken
 
@@ -59,10 +72,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    ![ Uitgezochte Nieuwe Groepering ](assets/newgrouping-nwe-standard-350x304.png)
 
-1. Klik **Nieuwe Groepering**.
+1. Klik op **+ Nieuwe groepering** .
 De interfacebouwer voor het creëren van de groeperingslanceringen.
 
-1. In de **sectie van de Voorproef van de Groepering**, klik **Voeg Groepering** toe om te bepalen hoe u informatie in het rapport wilt worden georganiseerd. Hieronder ziet u een voorbeeld van hoe de groep er in het rapport uitziet.
+1. In het **gebied van de Voorproef van de Groepering**, klik **Voeg Groepering** toe om te bepalen hoe u informatie in het rapport wilt worden georganiseerd. Hieronder ziet u een voorbeeld van hoe de groep er in het rapport uitziet.
 
 1. Typ de naam van het veld dat de manier aangeeft waarop u de gegevens in het rapport wilt indelen en klik vervolgens op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst.
 1. (Facultatief en voorwaardelijk) wanneer het bouwen van een groepering in een bijgewerkte lijst, uitgezochte **Vouw deze groepering door gebrek** samen als u de resultaten in de groepering wilt doen ineenstorten eerder dan uitgevouwen tonen. Deze instelling is standaard uitgeschakeld en de resultaten van de groepering worden altijd weergegeven in de uitgevouwen lijst.

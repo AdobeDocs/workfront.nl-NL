@@ -6,14 +6,16 @@ description: Lees dit artikel voor meer informatie over de richtlijnen voor kolo
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ece3f908-a0da-45d4-9f4f-0b34c69ce8fa
-source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1010'
 ht-degree: 0%
 
 ---
 
 # Kolombreedte en -volgorde wijzigen
+
+<!-- Audited: 11/2024 -->
 
 Hieronder volgen enkele richtlijnen voor de werking van kolombreedten in Adobe Workfront:
 
@@ -36,6 +38,8 @@ Hieronder volgen enkele richtlijnen voor de werking van kolombreedten in Adobe W
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -48,20 +52,31 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-licentie*</strong></td> 
-   <td> <p>Aanvraag of hoger </p> </td> 
+   <td> 
+      <p>Nieuw:</p>
+         <ul>
+         <li><p>Medewerker of hoger</p></li>
+         </ul>
+      <p>Huidige:</p>
+         <ul>
+         <li><p>Aanvraag of hoger</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Toegang tot rapporten, dashboards, kalenders bewerken om de weergave in een rapport te bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Toegang tot rapporten, dashboards, kalenders bewerken om de weergave in een rapport te bewerken</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
-   <td> <p>Rechten beheren voor een rapport om een weergave in een rapport te bewerken</p> <p>Machtigingen beheren voor een weergave om deze te bewerken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Rechten beheren voor een rapport om een weergave in een rapport te bewerken</p> <p>Machtigingen beheren voor een weergave om deze te bewerken</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Kolombreedte en -volgorde wijzigen
 
@@ -113,17 +128,13 @@ Voor meer informatie over het uitvoeren van gegevens van lijsten en rapporten, z
 #### Kolommen tijdelijk vergroten/verkleinen {#resize-columns-temporarily}
 
 1. Ga naar de lijst die u wilt wijzigen.
-1. Sleep de rand van een kolom tot de kolom de gewenste grootte heeft bereikt.\
+1. Sleep de rand van een kolomkop tot de kolom de gewenste grootte heeft bereikt.\
    ![](assets/column-resize-350x124.png)
 
 #### Kolommen tijdelijk opnieuw ordenen {#reorder-columns-temporarily}
 
 1. Ga naar de lijst die u wilt wijzigen.
-1. Klik op een kolom die u naar een andere locatie wilt verplaatsen om de kolom te kiezen.
-1. Sleep de kolom naar de juiste locatie.
-1. Zet de kolom neer in de plaats, om het te bewegen.
-
-   ![](assets/column-reorder-350x118.png)
+1. Klik en sleep de kolomkop die u naar de gewenste locatie wilt verplaatsen.
 
 >[!TIP]
 >

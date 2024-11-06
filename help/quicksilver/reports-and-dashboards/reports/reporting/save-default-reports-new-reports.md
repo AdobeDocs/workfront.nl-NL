@@ -6,7 +6,7 @@ description: U kunt een exemplaar van een standaardrapport wijzigen dat met uw g
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e3fa0bc6-a8c3-408e-924f-228c270ff579
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # Standaardrapporten opslaan als nieuwe rapporten
+
+<!-- Audited: 11/2024 -->
 
 U kunt een exemplaar van een standaardrapport wijzigen dat met uw geval van Adobe Workfront inbegrepen is en het opslaan als nieuw rapport.
 

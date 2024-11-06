@@ -6,7 +6,7 @@ description: U kunt de mening van de Mijlpaal op een projectlijst of een rapport
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
 source-wordcount: '1302'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # De milestone-weergave gebruiken
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 11/2024 -->
 
 U kunt de mening van de Mijlpaal op een projectlijst of een rapport toepassen.
 
@@ -42,8 +42,15 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-licentie</strong></td> 
    <td> 
-   <p>Nieuw: Standaard</p>
-   <p>Huidig: Werk of hoger </p> </td> 
+      <p>Nieuw:</p>
+         <ul>
+         <li><p>Standaard</p></li>
+         </ul>
+      <p>Huidige:</p>
+         <ul>
+         <li><p>Werk of hoger</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 

@@ -6,14 +6,16 @@ description: U kunt het type informatie aanpassen dat u op het scherm weergeeft 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '1788'
+source-wordcount: '1718'
 ht-degree: 0%
 
 ---
 
 # Weergaven maken of bewerken in Adobe Workfront
+
+<!-- Audited: 11/2024 -->
 
 U kunt het type informatie aanpassen dat u op het scherm weergeeft met behulp van weergaven. In Adobe Workfront kunt u verschillende typen weergaven gebruiken.
 
@@ -30,25 +32,36 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-abonnement*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront-plan</strong></td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-licentie*</strong></td> 
-   <td> <p>Aanvraag of hoger</p> </td> 
+   <td> 
+      <p>Nieuw:</p>
+         <ul>
+         <li><p>Medewerker of hoger</p></li>
+         </ul>
+      <p>Huidige:</p>
+         <ul>
+         <li><p>Aanvraag of hoger</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een weergave in een rapport te maken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een weergave in een rapport te maken</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
-   <td> <p>Rechten voor een rapport beheren om een weergave in een rapport te maken of te bewerken</p> <p>Machtigingen beheren voor een weergave om deze te bewerken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td role="rowheader"><strong>Objectmachtigingen*</strong></td> 
+   <td> <p>Rechten voor een rapport beheren om een weergave in een rapport te maken of te bewerken</p> <p>Machtigingen beheren voor een weergave om deze te bewerken</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -64,10 +77,11 @@ Het proces voor het maken of aanpassen van een weergave is afhankelijk van het f
 U kunt een nieuwe standaardweergave maken of een bestaande standaardweergave aanpassen die u eerder hebt gemaakt.
 
 1. Klik het **drop-down menu van de Mening** op om het even welke lijst waar u een mening tot stand wilt brengen of aanpassen.
-1. (Optioneel) Als u een bestaande weergave wilt aanpassen, selecteert u de standaardweergave die u wilt aanpassen.\
-   De standaardmeningen zijn beschikbaar op om het even welk type van lijst in Workfront, zoals een rapport, een projectlijst, of taaklijst.
-1. Klik het **drop-down menu van de Mening**, dan klik **aanpassen Mening** of **Nieuwe Mening**.\
-   **past de vertoningen van de de dialoogdoos van de Mening** aan.
+
+1. Klik op de knop **+ Nieuwe weergave** om een nieuwe weergave te maken.
+of
+Klik **uitgeven** pictogram ![ geeft pictogram ](assets/edit-icon.png) uit dat op muis over rechts van een bestaande mening verschijnt u wilt uitgeven.
+**past de vertoningen van de de dialoogdoos van de Mening** aan.
 
 1. In de **sectie van de Voorproef van de Kolom**, doe om het even welke volgend:
 
@@ -121,7 +135,7 @@ U kunt een nieuwe standaardweergave maken of een bestaande standaardweergave aan
           </tr> 
           <tr> 
            <td role="rowheader"><strong>Kolomregels</strong></td> 
-           <td><p>Klik <strong> voeg een Regel voor deze Kolom </strong> toe om een regel voor de kolom te bepalen. Nadat u een regel hebt toegevoegd, kunt u veld- en tekststijlen definiëren voor de weergave van velden die overeenkomen met die regel. Klik <strong> toevoegen Regel </strong> nadat u het bepalen van de regel hebt gebeëindigd.</p></td> 
+           <td><p>Klik <strong>+ voeg een Regel voor deze Kolom </strong> toe om een regel voor de kolom te bepalen. Nadat u een regel hebt toegevoegd, kunt u veld- en tekststijlen definiëren voor de weergave van velden die overeenkomen met die regel. Klik <strong> toevoegen Regel </strong> nadat u het bepalen van de regel hebt gebeëindigd.</p></td> 
           </tr> 
          </tbody> 
         </table>
@@ -234,7 +248,7 @@ U kunt als volgt een eenvoudige weergave maken of aanpassen:
     </tbody> 
    </table>
 
-1. In de **sectie 0} van het Gangs {, op het** Extra Gebieden **gebied, klik** voeg Gebied **toe, dan selecteer het gebied u aan verhaalkaarten wilt toevoegen.** (Dit zijn de zelfde gebieden u kunt toevoegen wanneer het creëren van het aanpassen van een mening of het creëren van kolommen voor een rapport.)\
+1. Op het **Extra Gebieden** gebied, klik **voegt Gebied** toe, dan selecteer het gebied u aan verhaalkaarten wilt toevoegen. (Dit zijn de zelfde gebieden u kunt toevoegen wanneer het creëren van het aanpassen van een mening of het creëren van kolommen voor een rapport.)\
    Herhaal dit proces om maximaal drie extra velden aan de artikelkaarten toe te voegen.\
    Wanneer u velden toevoegt aan artikelkaarten, zijn velden alleen-weergeven en alleen weergeven wanneer het veld is gevuld.
 
