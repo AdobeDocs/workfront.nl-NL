@@ -9,9 +9,9 @@ description: Met de Adobe Workfront Fusion Adobe Workfront-connector kunt u uw p
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 38b6fef43157f47c93dcd9cf543f1001142d86dd
+source-git-commit: d14ea876ef58c190a38f1b3b1bfc205df5681bca
 workflow-type: tm+mt
-source-wordcount: '6123'
+source-wordcount: '6299'
 ht-degree: 0%
 
 ---
@@ -282,7 +282,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
-   <td> <p>(Toont nadat u a <strong> Filter </strong> kiest.) Selecteer het type [!DNL Workfront] record dat u in de module wilt bekijken.</p> <p>Als u bijvoorbeeld elke keer dat een nieuw project wordt gemaakt het scenario wilt starten, selecteert u [!UICONTROL Project]</p> </td> 
+   <td> <p>(Vertoningen nadat u a <strong> Filter </strong> kiest.) Selecteer het type van [!DNL Workfront] verslag dat u de module wilt letten op.</p> <p>Als u bijvoorbeeld elke keer dat een nieuw project wordt gemaakt het scenario wilt starten, selecteert u [!UICONTROL Project]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Outputs]</td> 
@@ -631,7 +631,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Action]</td> 
-   <td> <p>Selecteer de actie u de module wilt uitvoeren.</p> <p>Afhankelijk van de opties [!UICONTROL Record Type] en [!UICONTROL Action] die u kiest, moet u mogelijk extra velden invullen. Sommige combinaties van deze twee instellingen vereisen mogelijk alleen een record-id, terwijl andere (zoals Project voor de <strong>[!UICONTROL Record Type]</strong> en [!UICONTROL Attach Template] for the <strong>[!UICONTROL Action]</strong> ) aanvullende informatie vereisen (zoals een object-id en een sjabloon-id).</p> <p>Voor details over individuele gebieden, zie de <a href="http://developer.workfront.com/"> de ontwikkelaarsdocumentatie van Workfront </a>. <p><strong> Nota </strong>: De plaats van de ontwikkelaardocumentatie omvat informatie slechts door API versie 14, maar bevat nog waardevolle informatie voor API vraag. </p> 
+   <td> <p>Selecteer de actie u de module wilt uitvoeren.</p> <p>Afhankelijk van de opties [!UICONTROL Record Type] en [!UICONTROL Action] die u kiest, moet u mogelijk extra velden invullen. Sommige combinaties van deze twee instellingen vereisen mogelijk alleen een record-id, terwijl andere (zoals Project voor de <strong>[!UICONTROL Record Type]</strong> en [!UICONTROL Attach Template] for the <strong>[!UICONTROL Action]</strong> ) aanvullende informatie vereisen (zoals een object-id en een sjabloon-id).</p><p>Voor opties beschikbaar aan sommige acties, zie <a href="#misc-action-options" class="MCXref xref"> Diverse actieopties </a> in dit artikel.</p> <p>Voor details over individuele gebieden, zie de <a href="http://developer.workfront.com/"> de ontwikkelaarsdocumentatie van Workfront </a>. <p><strong> Nota </strong>: De plaats van de ontwikkelaardocumentatie omvat informatie slechts door API versie 14, maar bevat nog waardevolle informatie voor API vraag. </p> 
     <ol> 
      <li value="1"> <p>Selecteer het recordtype in de linkernavigatie op de documentatiepagina voor ontwikkelaars van [!DNL Workfront] . De volgende typen hebben hun eigen pagina's:</p> 
       <ul> 
@@ -653,6 +653,156 @@ Als u deze module configureert, worden de volgende velden weergegeven.
 </table>
 
 Zie een lijst van de [!DNL Workfront] objecten types waarvoor u deze module in [[!DNL Workfront]  objecten types beschikbaar voor elke  [!DNL Workfront]  module ](#workfront-object-types-available-for-each-workfront-module) kunt gebruiken.
+
+#### Handelingsopties
+
+##### Taak
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <th>Handeling</th> 
+   <th>Opties</th> 
+  </tr> 
+  <tr> 
+   <td>Kopiëren</td> 
+   <td>
+   <ul>
+   <li>clearApprovers</li>
+   <li>clearAssignment</li>
+   <li>clearConstraints</li>
+   <li>clearCustomData</li>
+   <li>clearDocuments</li>
+   <li>clearExpenses</li>
+   <li>clearFinancials<p>Wist financiële gegevens</p></li>
+   <li>clearPermissions</li>
+   <li>clearPredecessors</li>
+   <li>clearProgress</li>
+   <li>clearTimedNotifications<p>Hiermee wist u herinneringsmeldingen</p></li>
+   </ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td>Verplaatsen</td> 
+   <td>
+   <ul>
+   <li>clearApprovers</li>
+   <li>clearAssignment</li>
+   <li>clearDocuments</li>
+   <li>clearConstraints</li>
+   <li>clearExpenses</li>
+   <li>clearFinancials<p>Wist financiële gegevens</p></li>
+   <li>clearPermissions</li>
+   <li>clearPredecessors</li>
+   <li>clearProgress</li>
+   <li>clearTimedNotifications<p>Hiermee wist u herinneringsmeldingen</p></li>
+   </ul>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+##### Probleem
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <th>Handeling</th> 
+   <th>Opties</th> 
+  </tr> 
+  <tr> 
+   <td>Kopiëren</td> 
+   <td>
+   <ul>
+   <li>clearApprovers</li>
+   <li>clearAssignment</li>
+   <li>clearCustomData</li>
+   <li>clearDocuments</li>
+   <li>clearPermissions</li>
+   <li>clearProgress</li>
+   </ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td>Omzetten in taak</td> 
+   <td>
+   <ul>
+   <li>preserveIssue<p>Behoud het oorspronkelijke probleem en koppel zijn resolutie aan deze taak</p></li>
+   <li>preservePrimaryContact<p>De primaire contactpersoon van de problemen toegang geven tot deze taak</p></li>
+   <li>preserveCompletionDate<p>Behoud de geplande afsluitdatum van de uitgave</p></li>
+   </ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td>Omzetten in project</td> 
+   <td>
+   <ul>
+   <li>preserveIssue<p>Behoud het oorspronkelijke probleem en koppel zijn resolutie aan deze taak</p></li>
+   <li>preservePrimaryContact<p>De primaire contactpersoon van de problemen toegang geven tot deze taak</p></li>
+   </ul>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+##### Project
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <th>Handeling</th> 
+   <th>Opties</th> 
+  </tr> 
+  <tr> 
+   <td>Kopiëren</td> 
+   <td>
+   <ul>
+   <li>clearApprovers</li>
+   <li>clearAssignment</li>
+   <li>clearCustomData</li>
+   <li>clearDocuments</li>
+   <li>clearExpenses</li>
+   <li>clearFinancials<p>Wist financiële gegevens</p></li>
+   <li>clearPermissions</li>
+   <li>clearPredecessors</li>
+   <li>clearProgress</li>
+   <li>clearTimedNotifications<p>Hiermee wist u herinneringsmeldingen</p></li>
+   </ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td>Sjabloon bijvoegen / Opslaan als sjabloon</td> 
+   <td>
+   <ul>
+   <li>clearApprovers</li>
+   <li>clearAssignment</li>
+   <li>clearBillingRates</li>
+   <li>clearConstraints</li>
+   <li>clearDeliverables<p>Duidelijke doelstellingen</p></li>
+   <li>clearDocuments</li>
+   <li>clearExpenses</li>
+   <li>clearFinancials<p>Wist financiële gegevens</p></li>
+   <li>clearHourTypes</li>
+   <li>clearIssueSetup<p>Wist wachtrijeigenschappen en configuratie van problemen</p></li>
+   <li>clearPredecessors</li>
+   <li>clearRisks</li>
+   <li>clearSharingOptions</li>
+   <li>clearTimedNotifications<p>Hiermee wist u herinneringsmeldingen</p></li>
+   </ul>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
 
 +++
 
@@ -929,7 +1079,8 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
  </tbody> 
 </table>
-++
+
++++
 
 +++ **[!UICONTROL Search (Legacy)]**
 
