@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 114fb6282924cde478f17a1b754157b6e47a7e3b
+source-git-commit: 17a277a5a63a521ec7285e3f5051bfd42fc204bf
 workflow-type: tm+mt
-source-wordcount: '3650'
+source-wordcount: '3655'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren en 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Nieuw: Licht of hoger om uren op een project, een taak, een kwestie, of Algemene Uren op een timesheet te registreren</p>
+   <td> <p>Nieuw:</p>
+   <ul><li><p> Licht of hoger om uren op een taak, kwestie, of Algemene Uren op timesheet te registreren</p>
+   <li><p>Norm om uren op projecten te registreren</p></li></ul>
+   <p>
    <p>Huidige: 
    <ul><li>Controle of hoger aan logboek Algemene Uren in een timesheet</li>
    <li>Werk of hoger om uren aan een project, een taak of een kwestie te registreren</li></ul> </td> 
