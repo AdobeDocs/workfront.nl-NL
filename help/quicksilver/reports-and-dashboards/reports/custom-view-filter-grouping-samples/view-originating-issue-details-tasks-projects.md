@@ -2,19 +2,21 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Weergave: details over de oorsprong van uitgaven voor taken en projecten'
+title: 'Weergave: brongegevens van uitgave voor taken en projecten'
 description: Wanneer een kwestie in een taak of een project wordt omgezet wordt een het oplossen van objecten verhouding gevestigd tussen de taak of het project en de kwestie. In deze weergave worden de velden van de uitgave weergegeven die automatisch worden voltooid wanneer de taak of het project is voltooid.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 5fefb174-3a18-408f-aa12-3f4aff23acfa
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
 
 # Weergave: details over de oorsprong van taken en projecten
+
+<!--Audited: 11/2024-->
 
 Wanneer een kwestie in een taak of een project wordt omgezet wordt een het oplossen van objecten verhouding gevestigd tussen de taak of het project en de kwestie. In deze weergave worden de volgende velden van de uitgave weergegeven die automatisch worden voltooid wanneer de taak of het project is voltooid:
 
@@ -28,9 +30,11 @@ Wanneer een kwestie in een taak of een project wordt omgezet wordt een het oplos
 
 ![ task_with_resolving_issue_fields.png ](assets/task-with-resolving-issue-fields-350x38.png)
 
-Voor meer informatie, zie ook [ Mening: toon originele uitgifteinformatie over taak en projectlijsten ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md).
+Voor meer informatie, zie ook [ Mening: toon originele uitgifteinformatie over taak of projectlijsten ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -39,40 +43,113 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Verzoek om een weergave te wijzigen </p>
-   <p>Plan om een rapport te wijzigen</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p> Huidige: 
+   <ul>
+   <li>Verzoek om een weergave te wijzigen</li> 
+   <li>Plan om een rapport te wijzigen</li>
+   </ul>
+     </p>
+     <p> Nieuw: 
+   <ul>
+   <li>Medewerker om een weergave te wijzigen</li> 
+   <li>Standaard voor het wijzigen van een rapport</li>
+   </ul>
+     </p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een rapport te wijzigen</p> <p>Toegang tot filters, weergaven en groepen bewerken om een weergave te wijzigen</p> <p><b>OPMERKING</b>
-
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
-</tr>  
+   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een rapport te wijzigen</p> <p>Toegang tot filters, weergaven en groepen bewerken om een weergave te wijzigen</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Uitstekende details voor taken en projecten weergeven
 
 1. Ga naar een lijst met taken of een lijst met projecten.
 1. Van het **drop-down menu van de Mening**, uitgezochte **Nieuwe Mening**.
-
 1. In het **gebied van de Voorproef van de Kolom**, elimineer alle kolommen behalve één.
-1. Klik de kopbal van de resterende kolom, dan klik **Schakelaar aan de Wijze van de Tekst**.
-1. De muis over het gebied van de tekstwijze, en klikt **klikt om tekst** uit te geven.
-1. Verwijder de tekst u in het **vakje van de Wijze van de Tekst** vindt, en vervang het met de volgende code:
+1. Klik de kopbal van de resterende kolom en klik **Schakelaar aan de Wijze van de Tekst**, dan **geeft de Wijze van de Tekst** uit.
+1. Verwijder de tekst u in **vindt geef de Wijze van de Tekst** vakje uit, en vervang het met de volgende code:
 
-   <!-- [Copy](javascript:void(0);) -->
-   <pre><code>column.0.textmode=false<br>column.0.valuefield=name<br>column.0.valueformat=HTML<br>column.0.descriptionkey=name<br>column.0.linkedname=direct<br>column.0.listsort=string(name)<br>column.0.namekey=name<br>column.0.querysort=name<br>column.0.shortview=false<br>column.0.stretch=100<br>column.0.width=150<br>column.1.displayname=Resolvables (Issues)<br>column.1.listdelimiter=<br><br>column.1.listmethod=nested(resolvables).lists<br>column.1.textmode=true<br>column.1.type=iterate<br>column.1.valueexpression={name}<br>column.1.valueformat=HTML<br>column.2.displayname=Resolvables Entry Date<br>column.2.listdelimiter=<br><br>column.2.listmethod=nested(resolvables).lists<br>column.2.textmode=true<br>column.2.type=iterate<br>column.2.valueexpression={entryDate}<br>column.2.valueformat=HTML<br>column.3.displayname=Resolvables Due Date<br>column.3.listdelimiter=<br><br>column.3.listmethod=nested(resolvables).lists<br>column.3.textmode=true<br>column.3.type=iterate<br>column.3.valueexpression={plannedCompletionDate}<br>column.3.valueformat=HTML<br>column.4.displayname=Resolvables Actual Completion Date<br>column.4.listdelimiter=<br><br>column.4.listmethod=nested(resolvables).lists<br>column.4.textmode=true<br>column.4.type=iterate<br>column.4.valueexpression={actualCompletionDate}<br>column.4.valueformat=HTML<br>column.5.displayname=Resolvables Request Type<br>column.5.listdelimiter=<br><br>column.5.listmethod=nested(resolvables).lists<br>column.5.textmode=true<br>column.5.type=iterate<br>column.5.valueexpression={opTaskType}<br>column.5.valueformat=HTML<br>column.6.displayname=Resolvables Originator<br>column.6.listdelimiter=<br><br>column.6.listmethod=nested(resolvables).lists<br>column.6.textmode=true<br>column.6.type=iterate<br>column.6.valueexpression={owner}.{name}<br>column.6.valueformat=HTML<br>column.7.descriptionkey=assignedto<br>column.7.linkedname=assignedTo<br>column.7.listsort=nested(assignedTo).string(name)<br>column.7.namekey=assignedto<br>column.7.querysort=assignedTo:name<br>column.7.shortview=false<br>column.7.stretch=0<br>column.7.textmode=true<br>column.7.valuefield=assignedTo:name<br>column.7.valueformat=HTML<br>column.7.width=150</code></pre>
+   ```
+   column.0.textmode=false
+   column.0.valuefield=name
+   column.0.valueformat=HTML
+   column.0.descriptionkey=name
+   column.0.linkedname=direct
+   column.0.listsort=string(name)
+   column.0.namekey=name
+   column.0.querysort=name
+   column.0.shortview=false
+   column.0.stretch=100
+   column.0.width=150
+   column.1.displayname=Resolvables (Issues)
+   column.1.listdelimiter=
+   column.1.listmethod=nested(resolvables).lists
+   column.1.textmode=true
+   column.1.type=iterate
+   column.1.valueexpression={name}
+   column.1.valueformat=HTML
+   column.2.displayname=Resolvables Entry Date
+   column.2.listdelimiter=
+   column.2.listmethod=nested(resolvables).lists
+   column.2.textmode=true
+   column.2.type=iterate
+   column.2.valueexpression={entryDate}
+   column.2.valueformat=HTML
+   column.3.displayname=Resolvables Due Date
+   column.3.listdelimiter=
+   column.3.listmethod=nested(resolvables).lists
+   column.3.textmode=true
+   column.3.type=iterate
+   column.3.valueexpression={plannedCompletionDate}
+   column.3.valueformat=HTML
+   column.4.displayname=Resolvables Actual Completion Date
+   column.4.listdelimiter=
+   column.4.listmethod=nested(resolvables).lists
+   column.4.textmode=true
+   column.4.type=iterate
+   column.4.valueexpression={actualCompletionDate}
+   column.4.valueformat=HTML
+   column.5.displayname=Resolvables Request Type
+   column.5.listdelimiter=
+   column.5.listmethod=nested(resolvables).lists
+   column.5.textmode=true
+   column.5.type=iterate
+   column.5.valueexpression={opTaskType}
+   column.5.valueformat=HTML
+   column.6.displayname=Resolvables Originator
+   column.6.listdelimiter=
+   column.6.listmethod=nested(resolvables).lists
+   column.6.textmode=true
+   column.6.type=iterate
+   column.6.valueexpression={owner}.{name}
+   column.6.valueformat=HTML
+   column.7.descriptionkey=assignedto
+   column.7.linkedname=assignedTo
+   column.7.listsort=nested(assignedTo).string(name)
+   column.7.namekey=assignedto
+   column.7.querysort=assignedTo:name
+   column.7.shortview=false
+   column.7.stretch=0
+   column.7.textmode=true
+   column.7.valuefield=assignedTo:name
+   column.7.valueformat=HTML
+   column.7.width=150
+   ```
 
-1. Klik **sparen Mening**.
+1. Klik **Gedaan** > **sparen Mening**.

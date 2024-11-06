@@ -2,21 +2,21 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Weergave: gegevens uit meerdere kolommen samenvoegen in één gedeelde kolom'
+title: 'Weergave: Informatie uit meerdere kolommen samenvoegen in één gedeelde kolom'
 description: U kunt de informatie die in veelvoudige afzonderlijke kolommen wordt getoond samenvoegen en het tonen in één gedeelde kolom.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 8c51f8acbe4cefc2404709d9b52c2fe5ec3c7fca
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
 
 # Weergave: gegevens uit meerdere kolommen samenvoegen in één gedeelde kolom
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 11/2024 -->
 
 U kunt de informatie die in veelvoudige afzonderlijke kolommen wordt getoond samenvoegen en het tonen in één gedeelde kolom.
 
@@ -94,7 +94,10 @@ U kunt de gegevens van meerdere afzonderlijke kolommen samenvoegen en deze weerg
 
 Gegevens van twee kolommen samenvoegen zonder een regeleinde:
 
-1. Als u de tekstmodus voor een weergave gebruikt, voegt u de volgende tekst toe aan de eerste kolom die u wilt samenvoegen:
+1. Ga naar een lijst met objecten.
+1. Van de **drop-down Mening**, selecteer een mening, dan klik **uitgeven** pictogram ![](assets/edit-icon.png) om de mening uit te geven.
+1. Ga naar de eerste kolom u wilt samenvoegen, dan klik **Schakelaar aan de Wijze van de Tekst** > **uitgeven de Wijze van de Tekst**.
+1. Voeg de volgende tekst toe aan de eerste kolom die u wilt samenvoegen:
 
    `sharecol=true`
 
@@ -104,32 +107,31 @@ Gegevens van twee kolommen samenvoegen zonder een regeleinde:
 
    Als u meer dan één kolom deelt, zorg ervoor u het kolomaantal in de lijnen van code toevoegt die de het delen informatie voor elke kolom bevatten.
 
-   **Voorbeeld:** het volgende is de code van de tekstwijze voor een samengevoegde kolom die drie afzonderlijke kolommen bevat, die met de tweede kolom van de lijst beginnen. De samengevoegde waarden zijn Projectnaam, Geplande Begindatum en de naam van de eigenaar van het project en er is geen onderbreking tussen de drie waarden:
 
-   `column.1.valuefield=name`
+   **VOORBEELD:** het volgende is de code van de tekstwijze voor een samengevoegde kolom die drie afzonderlijke kolommen bevat, die met de tweede kolom van de lijst beginnen. De samengevoegde waarden zijn Projectnaam, Geplande Begindatum en de naam van de eigenaar van het project en er is geen onderbreking tussen de drie waarden:
 
-   `column.1.valueformat=HTML`
+   ```
+   column.1.valuefield=name
+   column.1.valueformat=HTML
+   column.1.sharecol=true
+   column.2.valuefield=plannedStartDate
+   column.2.valueformat=atDate
+   column.2.sharecol=true
+   column.3.valuefield=owner:name
+   column.3.valueformat=HTML
+   ```
 
-   `column.1.sharecol=true`
+   ![](assets/shared-column-no-line-breaks-350x142.png)
 
-   `column.2.valuefield=plannedStartDate`
 
-   `column.2.valueformat=atDate`
-
-   `column.2.sharecol=true`
-
-   `column.3.valuefield=owner:name`
-
-   `column.3.valueformat=HTML`
-
-![](assets/shared-column-no-line-breaks-350x142.png)
-
-1. Klik **sparen**, dan **sparen Mening**.
+1. Klik **Gedaan**, dan **sparen Mening**.
 
 ## Gegevens uit twee kolommen samenvoegen met een regeleinde
 
 Ga als volgt te werk om de gegevens van meerdere kolommen samen te voegen en weer te geven in één gemeenschappelijke kolom met een regeleinde tussen de waarden van elke kolom:
 
+1. Ga naar een lijst met objecten.
+1. Van de **drop-down Mening**, selecteer een mening, dan klik **uitgeven** pictogram ![](assets/edit-icon.png) om de mening uit te geven.
 1. Voeg een derde kolom toe tussen de twee kolommen die u wilt samenvoegen.
 
    >[!TIP]
@@ -137,18 +139,16 @@ Ga als volgt te werk om de gegevens van meerdere kolommen samen te voegen en wee
    >* De kolommen die u wilt samenvoegen, moeten aan elkaar grenzen.
    >* Klik op de eerste kolom die u wilt samenvoegen.
 
-1. Klik **Schakelaar aan de Wijze van de Tekst** en voeg de volgende code in de middenkolom toe die u in stap 1 toevoegde:
+1. Klik **Schakelaar aan de Wijze van de Tekst** > **uitgeven de Wijze van de Tekst**, en voeg de volgende code in de middenkolom toe die u in stap 1 toevoegde:
 
-   `value=<br>`
+   ```
+   value=<br>
+   valueformat=HTML
+   width=1
+   sharecol=true
+   ```
 
-   `valueformat=HTML`
-
-   `width=1`
-
-   `sharecol=true`
-
-
-1. Klik de eerste kolom en klik **Schakelaar aan de Wijze van de Tekst**, dan voeg de volgende tekst aan de kolom toe:
+1. Klik de eerste kolom en klik **Schakelaar aan de Wijze van de Tekst** > **uitgeven de Wijze van de Tekst**, dan voeg de volgende tekst aan de kolom toe:
 
    `sharecol=true`
 
@@ -158,49 +158,30 @@ Ga als volgt te werk om de gegevens van meerdere kolommen samen te voegen en wee
 
    Als u meer dan één kolom deelt, zorg ervoor u het kolomaantal in de lijnen van code toevoegt die de het delen informatie bevatten.
 
-   **Voorbeeld:** het volgende is de code van de tekstwijze voor een gedeelde kolom die de Naam van het Project, Geplande Datum van het Begin, en de naam van de Eigenaar van het Project met een lijnonderbreking bevat. De gedeelde kolom is de tweede kolom van een projectweergave.
+   **VOORBEELD:** het volgende is de code van de tekstwijze voor een gedeelde kolom die de Naam van het Project, Geplande Datum van het Begin, en de naam van de Eigenaar van het Project met een lijnonderbreking bevat. De gedeelde kolom is de tweede kolom van een projectweergave.
 
-
-   `column.1.displayname=Project_StartDate_Owner`
-
-   `column.1.sharecol=true`
-
-   `column.1.textmode=true`
-
-   `column.1.valuefield=name`
-
-   `column.1.valueformat=HTML`
-
-   `column.2.value=<br>`
-
-   `column.2.width=1`
-
-   `column.2.valueformat=HTML`
-
-   `column.2.sharecol=true`
-
-   `column.3.valuefield=plannedStartDate`
-
-   `column.3.valueformat=atDate`
-
-   `column.3.sharecol=true`
-
-   `column.4.value=<br>`
-
-   `column.4.width=1`
-
-   `column.4.valueformat=HTML`
-
-   `column.4.sharecol=true`
-
-   `column.5.textmode=true`
-
-   `column.5.valuefield=owner:name`
-
-   `column.5.valueformat=HTML`
-
+   ```
+   column.1.displayname=Project_StartDate_Owner
+   column.1.sharecol=true
+   column.1.textmode=true
+   column.1.valuefield=name
+   column.1.valueformat=HTML
+   column.2.value=<br>
+   column.2.width=1
+   column.2.valueformat=HTML
+   column.2.sharecol=true
+   column.3.valuefield=plannedStartDate
+   column.3.valueformat=atDate
+   column.3.sharecol=true
+   column.4.value=<br>
+   column.4.width=1
+   column.4.valueformat=HTML
+   column.4.sharecol=true
+   column.5.textmode=true
+   column.5.valuefield=owner:name
+   column.5.valueformat=HTML 
+   ```
 
    ![](assets/shared-column-with-line-breaks-350x199.png)
 
-
-1. Klik **sparen**, dan **sparen Mening**.
+1. Klik **Gedaan**, dan **sparen Mening**.

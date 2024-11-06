@@ -3,7 +3,7 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
 source-wordcount: '14547'
 ht-degree: 0%
@@ -1658,7 +1658,7 @@ ht-degree: 0%
          * [Weergave: gecombineerde taak- en uitgavedetails in een overzicht van uren](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-combined-task-issue-details-hour-list.md)
          * [Weergave: een afbeelding weergeven in plaats van een tekenreeks in een kolom](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md)
          * [Weergave: weergaveobjecten die niet zijn opgenomen in de standaardinterface](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-objects-not-in-standard-interface.md)
-         * [Weergave: oorspronkelijke informatie weergeven over taken en projectlijsten](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
+         * [Weergave: oorspronkelijke informatie over uitgaven weergeven in taak- of projectlijsten](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
          * [Weergave: informatie over programma en Portfolio weergeven in een taakweergave](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-program-portfolio-info-task-view.md)
          * [Weergeven: taakinspringingen weergeven in een takenlijst](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-task-identations.md)
          * [Weergave: de relatie bovenliggend-onderliggend item in een taak weergeven door de taken in te springen](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-parent-child-relationship-by-indenting-tasks-with-custom-view.md)

@@ -4,12 +4,12 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Weergave: weergaveobjecten die niet zijn opgenomen in de standaardinterface'
 description: U kunt objecten weergeven die niet in de standaardmodusinterface zijn opgenomen. U kunt dit alleen doen door ernaar te verwijzen via de tekstmodus.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: c0138730-494b-4443-865a-44f8f00d5342
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '451'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,8 @@ U kunt op de volgende manieren bepalen welke velden in een weergave kunnen worde
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -37,28 +39,34 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Verzoek om een weergave te wijzigen </p>
-   <p>Plan om een rapport te wijzigen</p> </td> 
+   <td> 
+    <p>Nieuw:</p>
+   <ul><li><p>Medewerker om een filter te wijzigen </p></li>
+   <li><p>Standaard voor het wijzigen van een rapport</p></li> </ul>
+
+<p>Huidige:</p>
+   <ul><li><p>Verzoek om een filter te wijzigen </p></li>
+   <li><p>Plan om een rapport te wijzigen</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een rapport te wijzigen</p> <p>Toegang tot filters, weergaven en groepen bewerken om een weergave te wijzigen</p> <p><b>OPMERKING</b>
-
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
-</tr>  
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een rapport te wijzigen</p> <p>Toegang tot filters, weergaven en groepen bewerken om een filter te wijzigen</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Voorbeeld: voeg de kolom Naam eigenaar Portfolio toe aan een projectweergave
 
@@ -67,17 +75,14 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 
 1. Klik **toevoegen Kolom** dan begin &quot;identiteitskaart van de Eigenaar van het Portfolio&quot;in **tonen in dit kolom** gebied, dan selecteren het wanneer het in de lijst toont.
 
-1. Klik **Schakelaar aan de Wijze van de Tekst**.
-1. Beweeg over het gebied van de tekstwijze, en klik **Klik om tekst** uit te geven.
+1. Klik **Schakelaar aan de Wijze van de Tekst**, dan **geef de Wijze van de Tekst** uit.
 1. Vervang de regel `valuefield` (`valuefield=portfolio:ownerID`) door de volgende regel:
 
-   ```
-   valuefield=portfolio:owner:name
-   ```
+   `valuefield=portfolio:owner:name`
 
    of
 
-   Verwijder de tekst u in het **vakje van de Wijze van de Tekst** vindt, en vervang het met de volgende code:
+   Verwijder de tekst u in **vindt geef de Wijze van de Tekst** vakje uit, en vervang het met de volgende code:
 
    ```
    valuefield=portfolio:owner:name
@@ -93,4 +98,4 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
    >
    >Als u een veld `ID` met de tekstmodus `name` wilt vervangen, vervangt u `ID` altijd door `:name` in de `valuefield` -regel.
 
-1. Klik **sparen**, dan **sparen Mening**.
+1. Klik **Gedaan**, dan **sparen Mening**.

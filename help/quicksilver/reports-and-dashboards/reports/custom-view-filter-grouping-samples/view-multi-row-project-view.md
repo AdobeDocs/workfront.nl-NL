@@ -4,42 +4,34 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Weergave: projectweergave met meerdere rijen'
 description: Meer informatie over de projectweergave in meerdere rijen vindt u in rapporten.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 3c6028c0-2c9f-4f86-aa6c-bf089844bac8
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
 
 # Weergave: projectweergave met meerdere rijen
 
+<!--Audited: 11/2024-->
+
 In deze projectweergave kunt u:
 
 * Projectinformatie weergeven in een indeling met meerdere rijen.\
-  De weergave gebruikt de
+  In de weergave wordt de tag `sharecol=true` gebruikt om meerdere velden onder dezelfde kolomkop te combineren. Meer over deze markering leren, zie [ Mening: voeg informatie van veelvoudige kolommen in één gedeelde kolom ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md) samen.
 
-  ```
-  sharecol=true
-  ```
-
-  -tag gebruiken om meerdere velden onder dezelfde kolomkop te combineren. Meer over deze markering leren, zie [ Mening: voeg informatie van veelvoudige kolommen in één gedeelde kolom ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md) samen.
-
-* Een kolom voor een plaatsaanduiding gebruiken die een HTML-regeleindtag bevat (
-
-  ```
-  <br>
-  ```
-
-  ) om de beschrijving onder de projectnaam te laten weergeven.
+* Gebruik een kolom van de plaatshouder die een markering van de de regelonderbreking van de HTML (`<br>`) bevat om de Beschrijving te dwingen om onder de projectnaam, bijvoorbeeld te tonen.
 * Geef de eigenaar van het project tussen haakjes weer achter de projectnaam.
 * Toon de Naam van het Project als verbinding aan het project.
 
 ![](assets/project-multi-row-stacked-view-350x219.png)
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -48,35 +40,156 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Verzoek om een weergave te wijzigen </p>
-   <p>Plan om een rapport te wijzigen</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p> Huidige: 
+   <ul>
+   <li>Verzoek om een weergave te wijzigen</li> 
+   <li>Plan om een rapport te wijzigen</li>
+   </ul>
+     </p>
+     <p> Nieuw: 
+   <ul>
+   <li>Medewerker om een weergave te wijzigen</li> 
+   <li>Standaard voor het wijzigen van een rapport</li>
+   </ul>
+     </p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een rapport te wijzigen</p> <p>Toegang tot filters, weergaven en groepen bewerken om een weergave te wijzigen</p> <p><b>OPMERKING</b>
-
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
-</tr> 
+   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een rapport te wijzigen</p> <p>Toegang tot filters, weergaven en groepen bewerken om een weergave te wijzigen</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Bouw een multi-rij projectweergave
 
-1. Maak een nieuwe projectweergave. Voor meer informatie over hoe u een nieuwe mening creeert, zie [ Overzicht van Meningen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
-1. Verwijder tijdens het maken van de weergave alle kolommen, behalve één.
-1. Selecteer de resterende kolom en klik **Schakelaar aan tekstwijze**.
-1. Kopieer en plak de tekstmodus onder de kolom:
-   <pre>column.0.linkedname=direct <br> column.0.link.valueformat=val <br> column.0.link.linkproperty.0.name=ID <br> column.0.link.linkproperty.0.valueField=ID <br> column.0.link.linkproperty.0.valueFormat=int <br> column.0.link.valueField=objCode 5} column.0.link.lookup=link.view <br> column.0.sharecol=true <br> column.0.descriptionkey=name <br> column.0.width=150 <br> column.0.querysort=name <br> column.0.valuefield=name <br> column.0.name=Project Naam / Manager <br> column.0.shortview=false <br> column.0.stretch=100 <br> column.0.textmode=true <br> column.0.listsort=string(name) <br> column.0.valueformat=HTML <br> column.1.valueexpression=CONCAT (", {owner}.<br>{name},") <br> column.1.listsort=nested (eigenaar).string(naam) <br> column.1.width=1 <br> column.1.linkedname=direct <br> column.1.querysort=owner:name <br> column.1.textmode=true <br> column.1.shortview=false <br> column.1.stretch=0 <br>.1.valueformat=HTML <br> column.1.sharecol=true <br> column.2.width=1 <br> column.2.value= <br><br> column.2.shortview=false <br> column.2.sharecol=true <br> column.2.stretch=0 <br> column.2.textmode=true <br> 6} column.2.valueformat=HTML <br> column.3.styledef.style=font-color:#ccc;<br> column.3.descriptionkey=description <br> column.3.linkedname=direct <br> column.3.valueField=description <br> column.3.listsort=string(beschrijving) <br> 2} column.3.querysort=description <br> column.3.namekey=description.abbr <br> column.3.textmode=true <br> column.3.sharecol=true <br> column.3.stretch=0 <br> column.3.shortview=false <br> column.3.valueformat=HTML {2 9} column.3.width=1 <br> column.4.shortview=false <br> column.4.value= <br><br> column.4.sharecol=true <br> column.4.width=1 <br> column.4.textmode=true <br> column.4.valueformat=HTML \<br> column.4.4.textmode tch=0 <br> column.5.name=Planned Dates / Duur <br> column.5.width=150 <br> column.5.querysort=SchedulStartDate <br> column.5.sharecol=true <br> column.5.stretch=0 <br> column.5.textmode=true <br>.5.shortview=false <br> column.5.linkedname=direct <br> column.5.listsort=atDateAsAtDate (scheduledStartDate) <br> column.5.valueField=SchedulStartDate <br> column.5.valueformat=atDate <br> column.6.sharecol=true 49} column.6.stretch=0 <br> column.6.width=1 <br> column.6.textmode=true <br> column.6.value=-<br> column.6.valueformat=HTML <br> column.6.shortview=false <br> column.7.namekey=planedcompltiondate.abbr <br> column.7.width=1 <br> column.7.sharecol=true <br> column.7.shortview=false <br> column.7.stretch=0 <br> column.7.listsort=atDateAsAtDate (scheduledCompletionDate) <br> column.7.linkedname=direct <br>} column.7.descriptionkey=planedcompltiondate <br> column.7.textmode=true <br> column.7.querysort=SchedulCompletionDate <br> column.7.valueformat=atDate <br> column.7.valueField=plantionalCompletionDate <br> column.8.value= <br><br> column.8.width=1 <br> column.8.textmode=true <br> column.8.sharecol=true <br> column.8.valueformat=HTML <br> column.8.stretch=0 <br> column.9.textmode=true <br> column.9.listsort=intAsInt (durationMinutes) 75} column.9.stretch=0 <br> column.9.valuefield=durationFieldLong <br> column.9.descriptionkey=duration <br> column.9.viewalias=duration <br> column.9.querysort=durationMinutes <br> column.9.sharecol=true <br> column.9.width=1 00 <br> column.9.shortview=false <br> column.9.namekey=duration.abbr <br> column.9.linkedname=direct <br> column.9.valueformat=compound <br> column.10.textmode=true <br> column.10.stretch=0<br><br><br></pre>
+1. Ga naar een lijst met projecten.
+1. Van het **drop-down menu van de Mening**, klik **Nieuwe Mening**.
+1. Verwijder alle kolommen in de weergave, behalve één.
+1. Selecteer de resterende kolom en klik **Schakelaar aan de Wijze van de Tekst**, dan **geeft de Wijze van de Tekst** uit.
+1. Verwijder de tekst op **geeft de Wijze van de Tekst** uit, dan kopieer en kleef de tekstwijze onder de kolom:
 
-1. Klik **sparen Mening**.
+   ```
+   column.0.linkedname=direct
+   column.0.link.valueformat=val
+   column.0.link.linkproperty.0.name=ID
+   column.0.link.linkproperty.0.valuefield=ID
+   column.0.link.linkproperty.0.valueformat=int
+   column.0.link.valuefield=objCode
+   column.0.link.lookup=link.view
+   column.0.sharecol=true
+   column.0.descriptionkey=name
+   column.0.width=150
+   column.0.querysort=name
+   column.0.valuefield=name
+   column.0.name=Project Name / Manager / Description
+   column.0.shortview=false
+   column.0.stretch=100
+   column.0.textmode=true
+   column.0.listsort=string(name)
+   column.0.valueformat=HTML
+   column.1.valueexpression=CONCAT(" (",{owner}.{name},")")
+   column.1.listsort=nested(owner).string(name)
+   column.1.width=1
+   column.1.linkedname=direct
+   column.1.querysort=owner:name
+   column.1.textmode=true
+   column.1.shortview=false
+   column.1.stretch=0
+   column.1.valueformat=HTML
+   column.1.sharecol=true
+   column.2.width=1
+   column.2.value=
+   column.2.shortview=false
+   column.2.sharecol=true
+   column.2.stretch=0
+   column.2.textmode=true
+   column.2.valueformat=HTML
+   column.3.styledef.style=font-color:#ccc;
+   column.3.descriptionkey=description
+   column.3.linkedname=direct
+   column.3.valuefield=description
+   column.3.listsort=string(description)
+   column.3.querysort=description
+   column.3.namekey=description.abbr
+   column.3.textmode=true
+   column.3.sharecol=true
+   column.3.stretch=0
+   column.3.shortview=false
+   column.3.valueformat=HTML
+   column.3.width=1
+   column.4.shortview=false
+   column.4.value=
+   column.4.sharecol=true
+   column.4.width=1
+   column.4.textmode=true
+   column.4.valueformat=HTML\
+   column.4.stretch=0
+   column.5.name=Planned Dates / Duration
+   column.5.width=150
+   column.5.querysort=plannedStartDate
+   column.5.sharecol=true
+   column.5.stretch=0
+   column.5.textmode=true
+   column.5.shortview=false
+   column.5.linkedname=direct
+   column.5.listsort=atDateAsAtDate(plannedStartDate)
+   column.5.valuefield=plannedStartDate
+   column.5.valueformat=atDate
+   column.6.sharecol=true
+   column.6.stretch=0
+   column.6.width=1
+   column.6.textmode=true
+   column.6.value=-
+   column.6.valueformat=HTML
+   column.6.shortview=false
+   column.7.namekey=plannedcompletiondate.abbr
+   column.7.width=1
+   column.7.sharecol=true
+   column.7.shortview=false
+   column.7.stretch=0
+   column.7.listsort=atDateAsAtDate(plannedCompletionDate)
+   column.7.linkedname=direct
+   column.7.descriptionkey=plannedcompletiondate
+   column.7.textmode=true
+   column.7.querysort=plannedCompletionDate
+   column.7.valueformat=atDate
+   column.7.valuefield=plannedCompletionDate
+   column.8.value=
+   column.8.width=1
+   column.8.textmode=true
+   column.8.sharecol=true
+   column.8.valueformat=HTML
+   column.8.stretch=0
+   column.9.textmode=true
+   column.9.listsort=intAsInt(durationMinutes)
+   column.9.stretch=0
+   column.9.valuefield=durationFieldLong
+   column.9.descriptionkey=duration
+   column.9.viewalias=duration
+   column.9.querysort=durationMinutes
+   column.9.sharecol=true
+   column.9.width=100
+   column.9.shortview=false
+   column.9.namekey=duration.abbr
+   column.9.linkedname=direct
+   column.9.valueformat=compound
+   column.10.textmode=true
+   column.10.stretch=0
+   ```
+
+
+1. Klik **Gedaan** > **sparen Mening**.

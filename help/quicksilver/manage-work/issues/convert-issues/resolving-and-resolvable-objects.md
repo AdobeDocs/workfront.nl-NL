@@ -7,7 +7,7 @@ description: Een oplosbaar object is een probleem waarvan de resolutie is gekopp
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
 source-wordcount: '1743'
 ht-degree: 0%
@@ -228,7 +228,7 @@ In de volgende tabel wordt aangegeven welke velden u kunt weergeven en in welke 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td><strong> Oorspronkelijke Naam van de Uitgave, de Oorspronkelijke Datum van de Ingang van de Uitgave, de Naam van de Afgever </strong>: Toont de naam en ingangsdatum van de originele kwestie, evenals de naam van de gebruiker die de kwestie in een tekst-wijze aangepaste mening creeerde.<br> voor meer informatie over de bouw van een de douanemening van de tekstwijze voor een project of een taakrapport of lijst om informatie over de originele kwestie te tonen, zie <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref"> Mening: toon originele uitgifteinformatie over taak en projectlijsten </a>.<br></td> 
+   <td><strong> Oorspronkelijke Naam van de Uitgave, de Oorspronkelijke Datum van de Ingang van de Uitgave, de Naam van de Afgever </strong>: Toont de naam en ingangsdatum van de originele kwestie, evenals de naam van de gebruiker die de kwestie in een tekst-wijze aangepaste mening creeerde.<br> voor meer informatie over de bouw van een de douanemening van de tekstwijze voor een project of een taakrapport of lijst om informatie over de originele kwestie te tonen, zie <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref"> Mening: toon originele uitgifteinformatie over taak of projectlijsten </a>.<br></td> 
    <td> </td> 
    <td> ✓</td> 
    <td> ✓</td> 

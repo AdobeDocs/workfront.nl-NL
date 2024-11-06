@@ -2,19 +2,19 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Weergave: oorspronkelijke informatie weergeven over taken en projectlijsten'
+title: 'Weergave: oorspronkelijke informatie over uitgave weergeven op taak- of projectlijsten'
 description: U kunt informatie van de originele kwestie op een mening van taak en projectlijsten tonen, nadat de kwestie in de taken en de projecten in de lijst is omgezet.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 235156b6-a9b6-484e-b126-54874da705c8
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 0%
 
 ---
 
-# Weergave: oorspronkelijke informatie weergeven over taken en projectlijsten
+# Weergave: oorspronkelijke informatie over uitgaven weergeven in taak- of projectlijsten
 
 U kunt de volgende informatie van de originele kwestie op een mening van taak en projectlijsten tonen, nadat de kwestie in de taken en de projecten in de lijst is omgezet:
 

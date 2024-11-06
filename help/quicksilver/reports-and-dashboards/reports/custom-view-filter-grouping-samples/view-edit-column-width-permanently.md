@@ -4,19 +4,19 @@ product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Weergave: de breedte van een kolom permanent bewerken'
 description: U kunt de breedte van kolommen tijdelijk aanpassen door de marges te slepen en neer te zetten, zodat deze overeenkomen met de gewenste breedte. Zie Kolombreedte en -volgorde wijzigen voor meer informatie.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 42633036-8e42-4cec-876c-f20a5ece2478
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: 71c0bf664af66bec7122651c1b62dd1c28022565
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
 
 # Weergave: de breedte van een kolom permanent bewerken
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 11/2024 -->
 
 U kunt de breedte van kolommen tijdelijk aanpassen door de marges te slepen en neer te zetten, zodat deze overeenkomen met de gewenste breedte. Voor meer informatie, zie [ kolombreedte en orde wijzigen ](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
@@ -73,7 +73,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    Klik op de kolomkop van een bestaande kolom.
 
 1. Klik **Schakelaar aan de Wijze van de Tekst**.
-1. Beweeg over het gebied van de tekstwijze, en klik **Klik om tekst** uit te geven.
+1. Klik **uitgeven de Wijze van de Tekst**.T
 1. Voeg de volgende code aan de tekstwijze van de kolom toe:
 
    ```
@@ -83,6 +83,6 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    Voor de **breedte** lijn, specificeer om het even welk aantal (in pixel) dat vertegenwoordigt hoe breed u de kolom in de mening wilt tonen.
 
-1. Klik **sparen**, dan **sparen Mening**.
+1. Klik **Gedaan**, dan **sparen Mening**.
 
 
