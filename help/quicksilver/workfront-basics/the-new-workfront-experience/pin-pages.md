@@ -5,9 +5,9 @@ description: U kunt uw belangrijkste werk  [!DNL Adobe Workfront]  voor verhoogd
 feature: Get Started with Workfront
 author: Nolan
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
-source-git-commit: 73c24892c3adc30e3a2f7b331b2d818ce7f157ea
+source-git-commit: b42028c7f4934d7d2538e078372dd32262232729
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -70,33 +70,32 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 U kunt de naam van een vastgezette pagina voor u betekenisvoller maken.
 
 1. Houd de muisaanwijzer boven de vastgezette pagina in de bovenste navigatie of **[!UICONTROL More menu]** .
-1. Klik op de pijl naast de naam van het punt en selecteer **[!UICONTROL Rename pin]** .
+1. Klik op het pictogram Meer ![](assets/more-icon.png) naast de naam van het punt en selecteer **[!UICONTROL Rename pin]** .
 
-   ![ noem speld anders ](assets/rename-remove-pin.png)
+   ![ noem speld anders ](assets/pin-menu.png)
 
-1. Typ de nieuwe naam van het punt en klik op het pictogram van het vinkje of druk op Enter.
+1. Typ de nieuwe speldennaam, en klik **sparen**.
 
-   ![ klik het vinkje om speld ](assets/rename-pin-click-checkmark.png) anders te noemen
+   ![ klik het vinkje om speld ](assets/new-pin-name.png) anders te noemen
 
-   Nadat u op het vinkje hebt geklikt of op Enter hebt gedrukt, wordt een klein pop-upvenster weergegeven waarin u de wijziging van de pinnaam ongedaan kunt maken voordat u deze hebt opgeslagen.
 
 ## Vastgezette pagina&#39;s opnieuw ordenen
 
 U kunt de volgorde wijzigen waarin vastgezette pagina&#39;s worden weergegeven.
 
-1. Houd de muisaanwijzer boven de vastgezette pagina in de bovenste navigatie of **[!UICONTROL More menu]** . Wanneer u de handcursor ziet, klikt u op het punt en sleept u het naar de gewenste volgorde.
+1. Plaats over de vastgezette pagina u wilt bewegen, dan **klikken meer** pictogram.
+1. Kies **Beweging verlaten** of **Beweging recht** om uw speld te bewegen.
+1. (Facultatief) kies **Beweging aan voorzijde** om uw speld aan de uiterst juiste positie van de speldbar te bewegen.
+
+   ![ bewegingspunten ](assets/pin-menu.png)
 
    De wijzigingen worden automatisch opgeslagen. De volgende keer dat u Workfront opent, worden deze wijzigingen onthouden.
 
 ## Een vastgezette pagina verwijderen
 
-1. Klik op de vastgezette pagina die u wilt vrijmaken.
-1. Klik op **[!UICONTROL Unpin current page]** boven aan het scherm.
+1. Klik op het pictogram Meer ![](assets/more-icon.png) naast het punt dat u wilt verwijderen.
+1. Klik **verwijderen speld**.
 
-   of
-
-   Klik op de pijl naast de naam van het punt en selecteer **[!UICONTROL Remove pin]** .
-
-   ![ verwijder speld ](assets/rename-remove-pin.png)
+   ![ verwijder speld ](assets/pin-menu.png)
 
    De pagina is niet meer toegankelijk vanaf de bovenkant van een pagina in [!DNL Workfront] .
