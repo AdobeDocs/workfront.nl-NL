@@ -9,9 +9,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 91b07548-059f-4eb9-bf8f-69b0bc397097
-source-git-commit: 10ff6535447bb314f08bd159132057f85e12ef71
+source-git-commit: 58d252c4945168caae8cc382db76fffa8258c20e
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
@@ -34,4 +34,5 @@ Deze sectie bevat de volgende artikelen:
 * [IP Adressen voor de toegang tot van  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/ip-addresses-for-fusion.md)
 * [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 * [Bewerkingen in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/operations-in-workfront-fusion.md)
-* [Adobe Workfront Fusion-video-overzichten](/help/quicksilver/workfront-fusion/get-started/fusion-basics-videos.md)
+* [ Werkend met grote dossiers in de Fusie van Adobe Workfront ](../../workfront-fusion/get-started/fusion-large-files.md)
+  [ de videooverzichten van de Fusie van Adobe Workfront ](/help/quicksilver/workfront-fusion/get-started/fusion-basics-videos.md)
