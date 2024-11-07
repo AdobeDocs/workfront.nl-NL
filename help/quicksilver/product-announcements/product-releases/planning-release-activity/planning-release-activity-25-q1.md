@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
+source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '695'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,6 @@ ht-degree: 0%
 >
 >Voor een volledige lijst van vereisten om tot de Planning van Workfront toegang te hebben, zie [ Overzicht van de Toegang ](/help/quicksilver/planning/access/access-overview.md).
 >Voor een overzicht van de Planning van Workfront, zie [ het Overzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
->
 
 In dit artikel worden de functies beschreven die tijdens de release Eerste kwartaal van 2025 beschikbaar zijn voor Workfront Planning.
 
@@ -33,6 +32,24 @@ In dit artikel worden de functies beschreven die tijdens de release Eerste kwart
 <!--remove the general activity mention after First Quarter 2025 is released-->
 
 Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront na de algemene beschikbaarheidsversie op 28 augustus, 2024 worden vrijgegeven, zie [ de versieactiviteit van de Planning van Adobe Workfront: artikelindex ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Nieuwe weergavetypen voor percentagetypevelden in de tabelweergave
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 7 november 2024; productie voor snelle release: met de release van 24.12 (december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
+
+Als u getallen beter leesbaar wilt maken in de tabelweergave, kunt u nu een van de volgende opties selecteren om de manier te wijzigen waarop een percentageveld wordt weergegeven in de tabelweergave:
+
+* Getal
+* Balk
+* Cirkel
+
+Dit weergavetype wordt alleen ondersteund in de tabelweergave.
+
+Vóór deze verbetering, kon u percentagewaarden slechts als aantallen tonen.
+
+Voor meer informatie, zie [ gebieden ](/help/quicksilver/planning/fields/create-fields.md) creëren.
 
 ## Verbindingsvelden worden nu ondersteund in aanvraagformulieren
 

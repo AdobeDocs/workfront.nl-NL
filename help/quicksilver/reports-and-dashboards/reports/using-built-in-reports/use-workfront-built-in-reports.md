@@ -6,16 +6,16 @@ description: Adobe Workfront heeft een uitgebreide lijst met ingebouwde rapporte
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 32a47c25-192a-4e97-9016-42e6b6e201b9
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
 workflow-type: tm+mt
-source-wordcount: '2951'
+source-wordcount: '2964'
 ht-degree: 0%
 
 ---
 
 # Ingebouwde Adobe Workfront-rapporten gebruiken
 
-<!--Audited: 07/2024-->
+<!--Audited: 11/2024-->
 
 Adobe Workfront heeft een uitgebreide lijst met ingebouwde rapporten die u kunt gebruiken.
 
@@ -27,6 +27,8 @@ Voor meer informatie over hoe te om ingebouwde rapporten te verbergen, zie [ ing
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -37,8 +39,16 @@ Voor meer informatie over hoe te om ingebouwde rapporten te verbergen, zie [ ing
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Nieuw: Medewerker of hoger</p>  
-   <p>Huidig: Verzoek of hoger</p> </td> 
+   <td> 
+      <p>Nieuw:</p>
+         <ul>
+         <li><p>Medewerker of hoger</p></li>
+         </ul>
+      <p>Huidige:</p>
+         <ul>
+         <li><p>Aanvraag of hoger</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 

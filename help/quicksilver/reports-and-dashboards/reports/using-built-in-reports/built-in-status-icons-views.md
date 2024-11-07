@@ -6,18 +6,18 @@ description: U kunt het veld Ingebouwde statuspictogrammen als een kolom in uw w
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7831d5c1-e982-4780-a5a8-54dc6decb3a1
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
 workflow-type: tm+mt
-source-wordcount: '1253'
+source-wordcount: '1213'
 ht-degree: 0%
 
 ---
 
 # Ingebouwde statuspictogrammen in weergaven
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ALina: ***Link this from the Understanding Fields in Lists and Reports.) </p>
--->
+<!-- Audited: 11/2024 -->
+
+<!--(NOTE: ALina: ***Link this from the Understanding Fields in Lists and Reports.)-->
 
 U kunt het veld Ingebouwde statuspictogrammen als een kolom in uw weergaven toevoegen om de zichtbaarheid te vergroten in belangrijke punten van uw objecten. Met Statuspictogrammen kunt u in één oogopslag zien wanneer de volgende voorwaarden bestaan:
 
@@ -26,7 +26,7 @@ U kunt het veld Ingebouwde statuspictogrammen als een kolom in uw weergaven toev
 * Aan een object zijn aanvullende notities gekoppeld
 * Een last is factureerbaar of terugbetaalbaar
 * Een taak bevindt zich op een kritiek pad
-* Een gebruiker behoort tot een bedrijf, een team, of is gevestigd in een verschillende tijdzone
+* Een gebruiker behoort tot een bedrijf, een team, of persoonlijk gevestigd in een verschillende tijdzone
 
 Overweeg het volgende:
 
@@ -45,6 +45,8 @@ Overweeg het volgende:
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -57,24 +59,31 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Aanvraag of hoger</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> </td> 
-   <td> </td> 
-  </tr> 
+   <td> 
+      <p>Nieuw:</p>
+         <ul>
+         <li><p>Medewerker of hoger</p></li>
+         </ul>
+      <p>Huidige:</p>
+         <ul>
+         <li><p>Aanvraag of hoger</p></li>
+         </ul>
+   </td>
+  </tr>
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Toegang tot rapporten, dashboards, kalenders bewerken om kolommen aan een rapport toe te voegen</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Toegang tot rapporten, dashboards, kalenders bewerken om kolommen aan een rapport toe te voegen</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen beheren voor een bestaande weergave</p> <p>Rechten beheren aan een rapport om er kolommen aan toe te voegen</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Machtigingen beheren voor een bestaande weergave</p> <p>Rechten beheren aan een rapport om er kolommen aan toe te voegen</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Het veld Statuspictogrammen toevoegen aan een weergave
 
