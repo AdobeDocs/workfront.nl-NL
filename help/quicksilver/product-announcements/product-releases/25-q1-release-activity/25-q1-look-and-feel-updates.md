@@ -4,9 +4,10 @@ description: De blik-en-voelen updates tijdens het Eerste Kwartaal 2025 de tijdk
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
+source-git-commit: 8fa0c5573008a625ae10af051eeabfb6a8519a01
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -49,19 +50,6 @@ Voor informatie over wisselkoersen, zie [ Opstelling wisselkoersen ](/help/quick
 Wij hebben de pagina van Gegevens van de Uitvoer (Kick-Begint) in het gebied van de Opstelling met een moderner ontwerp bijgewerkt dat met andere gebieden van Workfront verenigbaar is.
 
 Voor informatie, zie [ gegevens van de Uitvoer van Workfront via Kick-Begint ](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
-
-## Updates van de Workfront-navigatiebalk bekijken en weergeven
-
->[!NOTE]
->
->Productieversie voor alle klanten: vóór de release van 24.11 (14 november 2024)
-
-We hebben de navigatiebalk van Workfront geüpgraded om de prestaties ervan te verbeteren. De look-and-feel veranderingen zijn minimaal.
-
-De meest opvallende wijzigingen zijn:
-
-* De vervolgkeuzevensters Favorieten en Recenten hebben niet langer een sluitknop. U kunt eenvoudig buiten het scherm klikken of ESC op uw toetsenbord drukken om het te sluiten.
-* U kunt vastgezette pagina&#39;s niet meer slepen en neerzetten om ze te rangschikken. In plaats daarvan is er een vervolgkeuzemenu met knoppen waarmee u uw vastgezette pagina&#39;s kunt verplaatsen.
 
 ## Zoeken naar updates voor Send-update naar gebruikersvenster
 
