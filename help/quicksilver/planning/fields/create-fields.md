@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 092c94219e77ba3cef316f581646cb0b4488c5cd
+source-git-commit: 667b930290c6e2126c5dc7fa95e279ad3405901c
 workflow-type: tm+mt
 source-wordcount: '3847'
 ht-degree: 0%
@@ -334,7 +334,7 @@ U kunt een datumveld gebruiken om aanvullende informatie vast te leggen in de da
       * **Lang**: 16 mei, 2023
       * **Europees**: 16/05/2023
       * **ISO**: 2023-05-16
-   * **omvat een tijdgebied**: Selecteer deze optie als u een tijdstempel wilt omvatten. Deze optie is standaard uitgeschakeld. <!--update this setting name - submitted bug for it to be changed-->
+      * **omvat een tijdgebied**: Selecteer deze optie als u een tijdstempel wilt omvatten. Deze optie is standaard uitgeschakeld. <!--update this setting name - submitted bug for it to be changed-->
 
      Selecteer een van de volgende opties:
 
@@ -610,6 +610,7 @@ Met het veldtype Laatst gewijzigd kunt u de datum toevoegen waarop een record vo
       * **Lang**: 16 mei, 2023
       * **Europees**: 16/05/2023
       * **ISO**: 2023-05-16
+
    * **omvat een tijdgebied**: Selecteer deze optie als u een tijdstempel wilt omvatten. Deze optie is standaard uitgeschakeld. <!--submitted a UI text change for this - check the UI-->
 
      Selecteer een van de volgende opties:
