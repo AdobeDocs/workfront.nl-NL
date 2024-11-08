@@ -4,9 +4,10 @@ content-type: reference
 description: U kunt werkitems en documenten snel samenvatten met de functie Overzicht van deze functie.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 0eeee68c45003525b9593ce985729f7aa12189cf
+exl-id: 5b0e1002-b6e9-4354-9ead-643de1de5bab
+source-git-commit: e02fd7dc6f1655b69c0433465a51f4c53d486570
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
@@ -31,27 +32,29 @@ Met AI Assistant kunt u projecten, taken en problemen in Workfront zoeken.
 1. Geef het antwoord weer in het deelvenster AI Assistant.
 1. (Optioneel) Als u naar het werkitem wilt gaan, klikt u op de koppeling in het deelvenster AI-assistent.
 
-## Een tijdelijk item maken
+<!--
 
-1. Klik het **pictogram AI van de Medewerker ![ AI Medewerker pictogram ](assets/ai-assistant-icon.png) dichtbij de hoger-juiste hoek van het scherm.**
-1. Typ een vraag zoals
+## Create a work item
 
-   * Project &quot;Lentecampagne&quot; maken
-   * Probleem &quot;UI Bug&quot; toevoegen aan project &quot;New UI&quot;
-   * &quot;Fotoopnametaak&quot; maken in project &quot;Lentecampagne&quot;
+1. Click the **AI Assistant** icon ![AI Assistant icon](assets/ai-assistant-icon.png) near the upper-right corner of the screen.
+1. Enter a prompt such as 
 
-1. Controleer de AI Assistant-reactie om te controleren of deze de gewenste actie uitvoert
-1. (Voorwaardelijk) als de reactie de correcte actie beschrijft, klik **ja**.
+   * Create project "Spring campaign"
+   * Add issue "UI Bug" to project "New UI" 
+   * Create "photoshoot" task in project "Spring campaign"
 
-   AI Assistant heeft enkele ogenblikken nodig om het item te maken, afhankelijk van de grootte of complexiteit van de vraag en het aantal records dat moet worden doorzocht.
-1. (Voorwaardelijk) om de verwezenlijking van het nieuwe punt te annuleren, klik **Nr**.
-1. (Optioneel) Als u naar het werkitem wilt gaan, klikt u op de koppeling in het deelvenster AI-assistent.
+1. Check the AI Assistant response to ensure that it is taking the desired action
+1. (Conditional) If the response describes the correct action, click **Yes**.
+
+   AI Assistant may take a few moments to create the item, depending on how large or complex the prompt is and how many records it needs to search.
+1. (Conditional) To cancel the creation of the new item, click **No**.
+1. (Optional) To go to the work item, click the link in the AI Assistant panel.
 
 >[!NOTE]
 >
->We raden je aan het nieuwe object te controleren om er zeker van te zijn dat het naar behoren is gemaakt.
+>We recommend checking the new item to ensure that it was created as expected.
 
-
+-->
 
 <!--
 
