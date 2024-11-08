@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: afcb79d0fe3274f2748da535e82f2248578805e7
+source-git-commit: 7ed4b36ef9297560ce9df6aa750b2ac24ac4a129
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '921'
 ht-degree: 0%
 
 ---
@@ -135,7 +135,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}"> Nieuwe Ingetrokken status beschikbaar voor goedkeuringen van de documentversie </a></p>
-                <p>Wanneer een nieuwe versie wordt toegevoegd aan een document met openstaande goedkeuringen, worden de goedkeuringen in de vorige versie nu weergegeven als Ingetrokken. Het voorgaande goedkeuringsproces wordt afgesloten, ook al hebben sommige deelnemers nog geen besluit genomen.</p>
+                <p>Wanneer een nieuwe versie wordt toegevoegd aan een document met in behandeling zijnde goedkeuringen, wordt de goedkeuring voor de vorige versie nu weergegeven als "Ingetrokken", wat aangeeft dat het voorafgaande goedkeuringsproces is afgesloten omdat de nieuwe versie is toegevoegd.</p>
             </td>
             <td><p><b>Beschikbaar op deze data:</b></p>
                 <ul>

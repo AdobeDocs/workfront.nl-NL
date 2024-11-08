@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 413099ef0ad1cb430e3d0cbdd8f613bd8f579a44
+source-git-commit: 974af7c2dd4a54deb176aa647c033439def2ff0e
 workflow-type: tm+mt
-source-wordcount: '14567'
+source-wordcount: '14576'
 ht-degree: 0%
 
 ---
@@ -896,6 +896,7 @@ ht-degree: 0%
       * [Prioriteiten: artikelindex](workfront-basics/priorities/priorities-toc.md)
       * [Prioriteiten: komende releases](workfront-basics/priorities/priorities-upcoming-releases.md)
       * [Aan de slag met prioriteiten](workfront-basics/priorities/get-started-with-priorities.md)
+      * [Projectdetails en taakdetails weergeven in de werklijst Prioriteiten](workfront-basics/priorities/view-task-project-details.md)
       * [Uw werk filteren en groeperen in Prioriteiten](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
       * [De kolommen in de werklijst aanpassen](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md)
       * [Prioriteit geven aan belangrijke werkitems](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md)
