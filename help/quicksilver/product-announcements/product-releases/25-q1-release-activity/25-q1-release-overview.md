@@ -4,9 +4,10 @@ description: Deze pagina bevat informatie over de functionaliteit die is opgenom
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
+source-git-commit: afcb79d0fe3274f2748da535e82f2248578805e7
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '920'
 ht-degree: 0%
 
 ---
@@ -237,7 +238,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}"> AI Medewerker kan nu met projecten, taken, en kwesties werken </a></p>
-                <p>Om het gemakkelijker te maken om uw het werkpunten in Workfront te beheren, hebben wij AI Medewerker bijgewerkt om met projecten, taken, en kwesties te werken. Nu, kan de Medewerker van AI van projecten, taken, en kwesties de plaats bepalen die op criteria worden gebaseerd u, zoals "vind mijn taken die deze week worden verschuldigd."</p>
+                <p>Om het gemakkelijker te maken om uw het werkpunten in Workfront te beheren, hebben wij AI Medewerker bijgewerkt om met projecten, taken, en kwesties te werken. AI Assistant kan nu projecten, taken en problemen zoeken of maken op basis van criteria die u opgeeft.</p>
             </td>
             <td><p><b>Beschikbaar op deze data:</b></p>
                 <ul>
