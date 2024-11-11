@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 523c2fe466b0afb8f65730ae8f2434f613e31439
+source-git-commit: edbd33cbb343f8c9f3ebd09ebb067444dd9efcf5
 workflow-type: tm+mt
-source-wordcount: '1666'
+source-wordcount: '1668'
 ht-degree: 0%
 
 ---
@@ -228,7 +228,7 @@ Gebruikers met een standaardlicentie kunnen volledige toegang krijgen tot rappor
 | Details bewerken | ✓ | ✓ | ✓ |   |
 | Downloaden | ✓ | ✓ | ✓ | ✓ |
 | Afhandeling | ✓ | ✓ | ✓ |   |
-| fiatteurs toevoegen | ✓ | ✓ | ✓ |   |
+| fiatteurs (documenten) toevoegen | ✓ | ✓ | ✓ |   |
 | Documenten goedkeuren | ✓ | ✓ | ✓ | ✓ |
 | Aangepaste formulieren bijvoegen | ✓ | ✓ | ✓ |   |
 | Aangepaste velden bewerken | ✓ | ✓ | ✓ |   |
@@ -238,8 +238,8 @@ Gebruikers met een standaardlicentie kunnen volledige toegang krijgen tot rappor
 | Nieuwe versie uploaden | ✓ | ✓ | ✓ |   |
 | Een versie verwijderen | ✓ | ✓ | ✓ |   |
 | Voorvertoning | ✓ | ✓ | ✓ | ✓ |
-| Proef | ✓ | ✓ | ✓ | ✓ |
-| Proef genereren | ✓ |   |   |   |
+| Proefdrukken goedkeuren | ✓ | ✓ | ✓ | ✓ |
+| Proefdrukken genereren | ✓ |   |   |   |
 | Proef verwijderen | ✓ | ✓ | ✓ |   |
 | Toevoegen/verwijderen &#42;&#42; | ✓ | ✓ | ✓ |   |
 | Naam wijzigen &#42;&#42; | ✓ | ✓ | ✓ |   |
