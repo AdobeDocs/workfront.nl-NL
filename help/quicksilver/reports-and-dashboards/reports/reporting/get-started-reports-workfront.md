@@ -7,9 +7,9 @@ description: Rapporten geven inzicht in wat er met gebruikers en het werk gebeur
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
-source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
+source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
 workflow-type: tm+mt
-source-wordcount: '3296'
+source-wordcount: '3293'
 ht-degree: 0%
 
 ---
@@ -325,7 +325,7 @@ De volgende termen worden gebruikt voor Workfront-rapporten:
   </tr> 
   <tr> 
    <td>Velden</td> 
-   <td> <p>Verwijst naar de kenmerken van uw objecten. De status is bijvoorbeeld een veld voor projecten, taken of problemen. 'Portfolio Manager' is een veld voor het object Portfolio.</p> <p>U kunt ook aangepaste velden hebben die u zelf maakt en aan aangepaste formulieren toevoegt.<br> voor informatie over het creëren van douanevormen, zie het artikel <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"> Ontwerp een vorm met de vormontwerper </a>.</p> </td> 
+   <td> <p>Verwijst naar de kenmerken van uw objecten. De status is bijvoorbeeld een veld voor projecten, taken of problemen. 'Portfolio Manager' is een veld voor het object Portfolio.</p> <p>U kunt ook aangepaste velden hebben die u zelf maakt en aan aangepaste formulieren toevoegt.<br> voor informatie over het creëren van douaneformulieren, zie het artikel <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"> een douaneformulier </a> creëren.</p> </td> 
   </tr> 
   <tr> 
    <td>Veldnaam </td> 

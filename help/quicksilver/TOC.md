@@ -3,7 +3,7 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 974af7c2dd4a54deb176aa647c033439def2ff0e
+source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
 workflow-type: tm+mt
 source-wordcount: '14576'
 ht-degree: 0%
@@ -628,7 +628,7 @@ ht-degree: 0%
          * Een aangepast formulier ontwerpen {#design-a-form}
             * [Een formulier ontwerpen: artikelindex](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form-toc.md)
             * [Een aangepast formulier maken](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
-            * [Een formulier ontwerpen op basis van een kopie](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
+            * [Een formulier maken op basis van een kopie](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
             * [Berekende velden toevoegen aan een formulier](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
             * [Weergavelogica toevoegen en logica overslaan naar een formulier](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)
             * [Voorbeelden van het externe opzoekveld in een aangepast formulier](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)

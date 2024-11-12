@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
 workflow-type: tm+mt
-source-wordcount: '2213'
+source-wordcount: '2210'
 ht-degree: 0%
 
 ---
@@ -215,7 +215,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
        <p>Zie <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Overzicht van bronnenpools </a> voor meer informatie over bronnenpools.</p> </li> 
        <li><b> Kosten per uur </b>: De hoeveelheid kosten per uur voor de gebruiker. </li> 
        <li><b> het Factureren per Uur </b>: De hoeveelheid het factureren per uur voor de gebruiker.</li> 
-       <li><b> Aangepaste Forms </b>: Verwante een bestaande vorm van de gebruikersdouane met de gebruikers. U moet een aangepast formulier maken voordat u het aan een gebruiker kunt koppelen. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Voor informatie over het creëren van douaneformulieren, zie <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"> Ontwerp een vorm met de vormontwerper </a>.</li> 
+       <li><b> Aangepaste Forms </b>: Verwante een bestaande vorm van de gebruikersdouane met de gebruikers. U moet een aangepast formulier maken voordat u het aan een gebruiker kunt koppelen. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Voor informatie over het creëren van douaneformulieren, zie <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"> een douaneformulier </a> creëren.</li> 
        <li><b> Commentaar </b>: ga een commentaar op het verstrekte gebied in. Alle geselecteerde gebruikers ontvangen zowel een melding in de app als een e-mailbericht met uw opmerking. De opmerking wordt weergegeven op het tabblad Updates van het gebruikersprofiel.</li> 
        </ul> </td> 
      </tr> 

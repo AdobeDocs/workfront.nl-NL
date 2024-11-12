@@ -1,23 +1,23 @@
 ---
-title: Een formulier ontwerpen op basis van een kopie
+title: Een formulier maken van een kopie
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: U kunt een aangepast formulier ontwerpen op basis van een kopie met de formulierontwerper.
+description: U kunt met de formulierontwerper een aangepast formulier maken op basis van een kopie.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 578a8bd5-d93f-4327-bb4f-2c17b91b170a
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
 
-# Een formulier ontwerpen op basis van een kopie
+# Een formulier maken op basis van een kopie
 
-<!--add preview tags and see below in commet out-->
+<!--add preview tags and see below in comment out-->
 
 U kunt een nieuw aangepast formulier ontwerpen dat is gebaseerd op een bestaand formulier. U kunt aangepaste formulieren aan verschillende Workfront-objecten koppelen om gegevens over die objecten vast te leggen.
 
@@ -89,12 +89,12 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 1. Breng om het even welke veranderingen in de vorm aan, zoals die in de volgende secties van [ worden verklaard creeer een artikel van de douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md):
 
    * [Een bestaand veld of een bestaande widget opnieuw gebruiken die al in een ander aangepast formulier wordt gebruikt](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
-      * [Tekstvelden toevoegen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-text-fields)
-      * [Berekende velden toevoegen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-calculated-fields)
-      * [Keuzerondjes, groepen selectievakjes en vervolgkeuzelijsten toevoegen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkboxes-and-dropdowns)
-      * [Velden voor typekop en datum toevoegen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-typeahead-and-date-fields)
-      * [Afbeeldingen, PDF en video&#39;s toevoegen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-images-pdfs-and-videos)
-      * [ voeg de dossiers van Adobe XD ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-adobe-xd-files) toe
-        <!--* [Add Planning connection fields](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-planning-connection-fields)-->
+   * [Tekstvelden toevoegen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-text-fields)
+   * [Berekende velden toevoegen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-calculated-fields)
+   * [Keuzerondjes, groepen selectievakjes en vervolgkeuzelijsten toevoegen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkboxes-and-dropdowns)
+   * [Velden voor typekop en datum toevoegen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-typeahead-and-date-fields)
+   * [Afbeeldingen, PDF en video&#39;s toevoegen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-images-pdfs-and-videos)
+   * [ voeg de dossiers van Adobe XD ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-adobe-xd-files) toe
+     <!--* [Add Planning connection fields](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-planning-connection-fields)-->
 
-1. (Facultatief) nadat u **sparen+Close** klikt, maak de vorm aan het voorwerp vast waar u het wilt gebruiken, zoals die in [ wordt beschreven een douaneformulier aan een voorwerp ](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toevoegen.
+1. (Facultatief) nadat u **klikt sparen en sluit**, maak de vorm aan het voorwerp vast waar u het wilt gebruiken, zoals die in [ wordt beschreven een douaneformulier aan een voorwerp ](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toevoegen.

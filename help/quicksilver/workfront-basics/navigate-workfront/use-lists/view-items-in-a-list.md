@@ -5,9 +5,9 @@ description: U kunt lijsten van voorwerpen in  [!DNL Adobe Workfront]  bekijken 
 feature: Get Started with Workfront
 author: Lisa
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: 7d43486ca566ae044fac1bbe20874bb45f833ef7
+source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
 workflow-type: tm+mt
-source-wordcount: '1987'
+source-wordcount: '1985'
 ht-degree: 0%
 
 ---
@@ -622,7 +622,7 @@ In de volgende tabel ziet u een aantal verschillen tussen de verouderde en bijge
   </tr> 
   <tr> 
    <td>U kunt aangepaste velden met tekstopmaak niet inline bewerken.</td> 
-   <td> <p>Tekst in aangepaste velden met opmaak kan worden geconfigureerd om vette, cursieve, onderstreepte, opsommingstekens, nummering, hyperlinks en blokaanhalingstekens toe te staan.</p> <p>Voor meer informatie, zie <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"> Ontwerp een vorm met de vormontwerper </a>.</p> </td> 
+   <td> <p>Tekst in aangepaste velden met opmaak kan worden geconfigureerd om vette, cursieve, onderstreepte, opsommingstekens, nummering, hyperlinks en blokaanhalingstekens toe te staan.</p> <p>Voor meer informatie, zie <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"> een douaneformulier/a&gt; creëren.</p> </td> 
   </tr> 
   <tr> 
    <td>Met voorwaardelijke opmaak kunt u de tekstkleur van koppelingen in een lijst wijzigen</td> 

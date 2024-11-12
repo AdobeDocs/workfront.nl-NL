@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '842'
 ht-degree: 0%
 
 ---
@@ -128,7 +128,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
      </tr> 
      <tr> 
       <td role="rowheader"><strong> Aangepaste Forms </strong> </td> 
-      <td>Selecteer de aangepaste formulieren die u aan het onderwerp van de wachtrij wilt koppelen. U moet aangepaste formulieren maken voor problemen voordat u deze kunt koppelen aan onderwerpen in de wachtrij. Voor informatie over het creëren van douaneformulieren, zie <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"> Ontwerp een vorm met de vormontwerper </a>.</td> 
+      <td>Selecteer de aangepaste formulieren die u aan het onderwerp van de wachtrij wilt koppelen. U moet aangepaste formulieren maken voor problemen voordat u deze kunt koppelen aan onderwerpen in de wachtrij. Voor informatie over het creëren van douaneformulieren, zie <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"> een douaneformulier </a> creëren.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Standaardgoedkeuring</strong></td> 
