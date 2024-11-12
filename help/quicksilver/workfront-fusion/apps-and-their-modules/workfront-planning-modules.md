@@ -11,9 +11,9 @@ feature: Workfront Fusion
 hide: true
 hidefromtoc: true
 exl-id: 892fdaf3-935e-4e66-a01c-9e9b6e0daf3e
-source-git-commit: e067c5ff34c31060ca6fd392289d845f53a5ef3a
+source-git-commit: 8cb79a06f46c9a379f7394a6bef14f97d4ff7f98
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1018'
 ht-degree: 0%
 
 ---
@@ -65,15 +65,55 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 
 U kunt rechtstreeks vanuit een [!DNL Workfront Fusion] -module verbinding maken met uw [!DNL Workfront Planning] -account.
 
-1. Klik in een willekeurige app-module van [!DNL Workfront Planning] op **[!UICONTROL Add]** naast het vak [!UICONTROL Connection] .
-1. Voer een naam in voor deze verbinding.
-1. Selecteer of u met een productiemilieu, of een niet productiemilieu wilt verbinden.
-1. Selecteer of u verbinding maakt met een serviceaccount of een persoonlijke account.
-1. Klik op **[!UICONTROL SAML log in]** om de verbinding te maken en terug te gaan naar de module.
+1. Klik in een willekeurige [!DNL Adobe Workfront Planning] -module op **[!UICONTROL Add]** naast het vak Verbinding.
+
+1. Vul de volgende velden in:
+
+   <table style="table-layout:auto"> 
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+      </col>
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+      </col>
+      <tbody>
+        <tr>
+          <td role="rowheader">[!UICONTROL Connection name]</td>
+          <td>
+            <p>Voer een naam in voor deze verbinding.</p>
+          </td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Environment]</td>
+          <td>Selecteer of u verbinding maakt met een productie- of niet-productieomgeving.</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Type]</td>
+          <td>Geef op of u verbinding wilt maken met een serviceaccount of een persoonlijke account.</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Client ID]<p>(Optioneel)</p></td>
+          <td>Voer uw [!DNL Adobe] [!UICONTROL Client ID] in. Dit vindt u in de sectie [!UICONTROL Credentials details] van [!DNL Adobe Developer Console] .</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Client Secret]<p>(Optioneel)</p></td>
+          <td>Voer uw [!DNL Adobe] [!UICONTROL Client Secret] in. Dit vindt u in de sectie [!UICONTROL Credentials details] van [!DNL Adobe Developer Console] .
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Authentication URL]<p>(Optioneel)</p></td>
+          <td>Voer de URL in die uw instantie van Workfront gebruikt om deze verbinding te verifiëren. <p>De standaardwaarde is <code>https://oauth.my.workfront.com/integrations/oauth2</code> .</p>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Host prefix]</td>
+          <td>Voer het hostvoorvoegsel in.<p>De standaardwaarde is <code>origin-</code> .</p>
+        </tr>
+      </tbody>
+    </table>
+1. Klik op **[!UICONTROL Continue]** om de verbinding op te slaan en terug te keren naar de module.
 
 ## [!DNL Adobe Workfront Planning] modules en hun velden
 
-### Gebeurtenissen bekijken
+### Triggers
+
+#### Gebeurtenissen bekijken
 
 Deze triggermodule start een scenario wanneer een record, recordtype of werkruimte wordt gemaakt, bijgewerkt of verwijderd in Workfront Planning.
 
@@ -110,7 +150,12 @@ Deze triggermodule start een scenario wanneer een record, recordtype of werkruim
   </tbody>
 </table>
 
-### Een recordtype verwijderen
+### Handelingen
+
+* [Een recordtype verwijderen](#delete-a-record-type)
+* [Een aangepaste AI-aanroep maken](#make-a-custom-api-call)
+
+#### Een recordtype verwijderen
 
 Deze actiemodule schrapt één enkel verslagtype in de Planning van Workfront door zijn identiteitskaart
 
@@ -135,7 +180,7 @@ Deze actiemodule schrapt één enkel verslagtype in de Planning van Workfront do
   </tbody>
 </table>
 
-### Een aangepaste API-aanroep maken
+#### Een aangepaste API-aanroep maken
 
 Deze module maakt een aangepaste API-aanroep naar de [!DNL Adobe Workfront Planning] API.
 
@@ -149,26 +194,10 @@ Deze module maakt een aangepaste API-aanroep naar de [!DNL Adobe Workfront Plann
     </tr>
      <tr>
       <td role="rowheader">
-        <p>[!UICONTROL Path]</p>
+        <p>[!UICONTROL URL]</p>
       </td>
       <td>
-        <p>Voer een pad in dat is gebaseerd op https://&amp;ltWORKFRONT_DOMAIN&gt;/attask/api/&amp;ltAPI_VERSION&gt;/</p>
-      </td>
-    </tr>
-     <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL API version]</p>
-      </td>
-      <td>
-        <p>Selecteer de gewenste API-versie. Als u geen versie selecteert, wordt standaard de meest recente versie gebruikt.</p>
-      </td>
-    </tr>
-     <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL API Path override]</p>
-      </td>
-      <td>
-        <p>Voer een pad in dat is gebaseerd op https://&amp;ltWORKFRONT_DOMAIN&gt;/attask/api/&amp;ltAPI_VERSION&gt;/</p>
+        <p>Een pad invoeren ten opzichte van <code>https://(YOUR_WORKFRONT_DOMAIN)/maestro/api/</code></p>
       </td>
     </tr>
     <tr>
@@ -201,57 +230,18 @@ Deze module maakt een aangepaste API-aanroep naar de [!DNL Adobe Workfront Plann
 </table>
 
 <!--
+### Searches
 
-### Delete a field
+#### Search records
 
-This action module deletes a single field in Workfront Planning by its ID.
-
->[!WARNING]
->
->Deleting a field in Workfront Planning deletes it and any data in it from every object of that record type in Workfront Planning.
-
-<table style="table-layout:auto"> 
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions on creating a connection to [!DNL Adobe Workfront Planning], see <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Create a connection to [!DNL Adobe Workfront Planning]</a> in this article.</td>
-    </tr>
-     <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Field ID]</p>
-      </td>
-      <td>Enter or map the ID of the record type you want to delete.</td> 
-      </tr>
-  </tbody>
-</table>
-
-### Get a field 
-
-
-This action module retrieves a single field in Workfront Planning by its ID.
-
-<table style="table-layout:auto"> 
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions on creating a connection to [!DNL Adobe Workfront Planning], see <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Create a connection to [!DNL Adobe Workfront Planning]</a> in this article.</td>
-    </tr>
-     <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Field ID]</p>
-      </td>
-      <td>Enter or map the ID of the field you want to delete.</td> 
-      </tr>
-  </tbody>
-</table>
+This action module retrieves a list of records based on criteria you specify.
 
 -->
 
-### Een record maken
+### Niet gecategoriseerd
+
+
+#### Een record maken
 
 Met deze actie maakt u één record in Workfront Planning.
 
@@ -414,11 +404,3 @@ Deze actie werkt één enkel verslag in de Planning van Workfront bij.
      <tr>
   </tbody>
 </table>
-
-### Zoeken in records
-
-Deze actiemodule wint een lijst van verslagen terug die op criteria worden gebaseerd u specificeert.
-
->[!NOTE]
->
->Deze module is in aanbouw.
