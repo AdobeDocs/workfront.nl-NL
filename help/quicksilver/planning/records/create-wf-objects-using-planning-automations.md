@@ -5,19 +5,19 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
-source-git-commit: d8631e16234486479aa70233aa3770b28ea0d218
+source-git-commit: cfaacc4137ebfa7f2ed057522d43bd82715011df
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
 
 
-# Workfront-objecten maken met Workfront Planning Record-automatisering
+# Objecten maken met Workfront Planning-recordautomatisering
 
-U kunt automatiseringen in de Planning van Workfront vormen die, wanneer geactiveerd, tot voorwerpen in Workfront leiden.
+U kunt automatiseringen in de Planning van Workfront vormen die, wanneer geactiveerd, tot voorwerpen in de Planning van Workfront of Workfront leiden.
 
-U activeert de automatisering in verslagen. Het object in Workfront is verbonden met de planningsrecord waarin u de automatisering hebt geactiveerd.
+U activeert de automatisering in verslagen. Het voorwerp dat wordt gecreeerd wordt verbonden met het verslag van de Planning waar u de automatisering activeerde.
 
 U kunt bijvoorbeeld een automatisering maken die een Workfront-planningscampagne voert en een project maakt in Workfront om de voortgang van die campagne te volgen. Het project zou worden gekoppeld aan de planningscampagne van Workfront.
 
@@ -26,7 +26,7 @@ Voor meer informatie over verbonden verslagen, zie [ Verbonden verslagenoverzich
 
 ## Automatisering configureren in Workfront-planning
 
-U moet een automatisering in de Planning van Workfront vormen alvorens u het kunt gebruiken om voorwerpen van Workfront tot stand te brengen.
+U moet een automatisering in de Planning van Workfront vormen alvorens u het kunt gebruiken om voorwerpen tot stand te brengen.
 
 1. Klik **Meer** menu ![](assets/more-menu.png) en selecteer **Automaties**.
 
@@ -44,14 +44,14 @@ U moet een automatisering in de Planning van Workfront vormen alvorens u het kun
    * Programma
    * Groep
 
-1. Op **selecteer het gebied op het gebied van de projectnaam** te gebruiken, selecteer een verslaggebied. Het nieuwe project in Workfront heeft de inhoud van dit veld als naam.
-1. Op **selecteer het gebied om het gecreeerde project terug** gebied te verbinden, selecteer een verslaggebied. Het nieuwe project in Workfront wordt in dit veld weergegeven wanneer u de record weergeeft in Workfront Planning.
+1. Op **selecteer het gebied op het gebied van de projectnaam** te gebruiken, selecteer een verslaggebied. Het nieuwe object krijgt de inhoud van dit veld als naam.
+1. Op **selecteer het gebied om het gecreeerde project terug** gebied te verbinden, selecteer een verslaggebied. Het nieuwe object wordt in dit veld weergegeven wanneer u de record weergeeft in Workfront Planning.
 1. Selecteer andere opties die beschikbaar zijn voor het type object dat u maakt.
 1. Klik **creëren**
 
 De automatisering wordt weergegeven in de lijst met automatiseringen en is beschikbaar voor gebruik in records.
 
-## Een Workfront-planningsautomatisering gebruiken om een Workfront-object te maken
+## Een Workfront-planningsautomatisering gebruiken om een object te maken
 
 1. Open in Workfront Planning de pagina met recordtypen die de records bevat die u wilt gebruiken om Workfront-objecten te maken.
 1. Selecteer een of meer records.
