@@ -5,9 +5,10 @@ title: Projecten samenvatten met AI Assistant
 description: De projectkopbal omvat een knoop die de Medewerker van AI gebruikt om projecten samen te vatten.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: df10444228de70dd460c4df72c4ba7dba6455f15
+exl-id: e0ac2a50-a75b-4453-8edf-850b8de74327
+source-git-commit: 769cacc12f35b019f8c97c243681f4adb3a3c0c9
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -17,8 +18,6 @@ ht-degree: 0%
 De Medewerker van Workfront AI kan projecten samenvatten, toestaand u om projectinformatie, zoals projectdoel en status snel te begrijpen, geeft voorbeelden van taken die worden voltooid en die nog in behandeling zijn, en verstrekt sommige extra details en nota&#39;s.
 
 U kunt de knoop van het Overzicht van het Project gebruiken om een samenvatting te produceren, of u kunt een herinnering in AI Medewerker ingaan.
-
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Sandbox van de Voorproef.</span>
 
 >[!NOTE]
 >
@@ -69,8 +68,6 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 
 
-<div class="preview">
-
 ## Samenvatten met de knop Projectoverzicht
 
 1. Navigeer naar de updatestroom die u wilt samenvatten.
@@ -82,8 +79,6 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. Bekijk het AI overzicht in het AI Hulppaneel.
 1. (Optioneel) Verfijn de vraag zodat u de benodigde informatie krijgt.
-
-   </div>
 
 ## Een object in AI-assistent samenvatten
 
@@ -99,4 +94,3 @@ Een overzicht van een object weergeven:
    Het kan enige tijd duren voordat de samenvatting wordt gegenereerd, afhankelijk van de grootte of complexiteit van het object.
 
 1. Bekijk het AI overzicht in het AI Hulppaneel.
-

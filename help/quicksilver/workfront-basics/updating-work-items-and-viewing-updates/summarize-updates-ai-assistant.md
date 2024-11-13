@@ -5,9 +5,10 @@ title: Updates samenvatten met AI Assistant
 description: De updates zijn van een voorwerp omvat een knoop die de Medewerker van AI gebruikt om updates samen te vatten.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 11e7a376719e52db3f5e98afff44cb4b4d07db01
+exl-id: d0c26f90-a01b-4226-b6a0-647808f71e08
+source-git-commit: 769cacc12f35b019f8c97c243681f4adb3a3c0c9
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
@@ -17,8 +18,6 @@ ht-degree: 0%
 Workfront AI Assistant kan de inhoud van de updatestream samenvatten, zodat u snel inzicht hebt in de opmerkingen en discussies die plaatsvinden rondom een Workfront-object.
 
 U kunt de knoop van de Inhoud van de Samenvatting gebruiken om een samenvatting te produceren, of u kunt een herinnering in AI Medewerker ingaan.
-
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Sandbox van de Voorproef.</span>
 
 >[!NOTE]
 >
@@ -60,8 +59,6 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
   Voor meer informatie, zie [ toelaten of AI Medewerker ](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).s onbruikbaar maken
 
-<div class="preview">
-
 ## Samenvatten met de knop Inhoud samenvatten
 
 1. Navigeer naar de updatestroom die u wilt samenvatten.
@@ -75,8 +72,6 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 1. (Optioneel) Verfijn de vraag zodat u de benodigde informatie krijgt.
 
    U kunt bijvoorbeeld de vraag Inhoud samenvatten verfijnen om opmerkingen voor de laatste 14 dagen samen te vatten in plaats van de laatste 7 dagen.
-
-   </div>
 
 ## Een object in AI-assistent samenvatten
 
@@ -92,4 +87,3 @@ Een overzicht van een object weergeven:
    Het kan enige tijd duren voordat de samenvatting wordt gegenereerd, afhankelijk van de grootte of complexiteit van het object.
 
 1. Bekijk het AI overzicht in het AI Hulppaneel.
-
