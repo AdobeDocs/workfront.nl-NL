@@ -6,18 +6,21 @@ title: Werken met grote bestanden in Adobe Workfront Fusion
 description: Er is momenteel ondersteuning voor grote bestanden beschikbaar voor de Workfront- en HTTP-connectors.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: d9f7f1b9a97faf767965abce4f64c62cb9aad8d2
+exl-id: e0be458c-a5f4-48e4-a8fb-afd5d072b6ff
+source-git-commit: 5e32c0dd3378fc49f8687668f11daa5dc838c587
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1087'
 ht-degree: 0%
 
 ---
 
 # Werken met grote bestanden in Adobe Workfront Fusion
 
-De verbeterde mogelijkheden voor gegevensoverdracht zijn nu beschikbaar in Workfront Fusion, waardoor scenario&#39;s aanzienlijk grotere bestanden kunnen verwerken.
+>[!IMPORTANT]
+>
+>Grote bestandsmogelijkheden zijn alleen beschikbaar voor Workfront Ultimate-klanten en worden geleidelijk geïmplementeerd. Alle Fusion-organisaties met een Workfront Ultimate-plan hebben in januari 2025 een grote bestandscapaciteit.
 
-Groot bestandsvermogen is alleen beschikbaar voor Workfront Ultimate-klanten.
+De verbeterde mogelijkheden voor gegevensoverdracht zijn nu beschikbaar in Workfront Fusion, waardoor scenario&#39;s aanzienlijk grotere bestanden kunnen verwerken.
 
 Voor het verwerken van grotere bestanden moeten uw scenario&#39;s worden bijgewerkt.
 
@@ -240,7 +243,3 @@ If a file is not on this list, it does not support large files. For these connec
 This limit is based on a total memory cost. Every operation contributes to that cost. If a single file of 400 MB is downloaded and uploaded then the total cost to the file capacity would be 800 MB.
 
 -->
-
-
-
-
