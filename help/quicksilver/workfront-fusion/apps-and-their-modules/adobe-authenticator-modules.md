@@ -9,9 +9,9 @@ description: Met de Adobe Authenticator-module kunt u via één enkele verbindin
 author: Becky
 feature: Workfront Fusion
 exl-id: 74c943fb-37ad-4d91-8af7-9808ba69992e
-source-git-commit: 443bdb5caee4b8a7ba9df95b0befff27b7aaabc2
+source-git-commit: 4914e6e30d6c4a16de5bd2c91bc6f8e4f208c078
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '1105'
 ht-degree: 0%
 
 ---
@@ -178,15 +178,16 @@ Een verbinding maken:
 
 1. Klik op **[!UICONTROL Continue]** om de verbinding op te slaan en terug te keren naar de module.
 
-## Module
+## Modules
+
+* [Een aangepaste API-aanroep maken](#make-a-custom-api-call)
+* [Een aangepaste API-aanroep maken (verouderd)](#make-a-custom-api-call-legacy)
 
 ### Een aangepaste API-aanroep maken
 
-Met deze actiemodule kunt u elke Adobe-API aanroepen.
+Met deze actiemodule kunt u elke Adobe-API aanroepen. Het ondersteunt grote bestanden in plaats van tekst als enige hoofdtekst.
 
->[!TIP]
->
->U moet de volledige URL invoeren voor de API waarmee u verbinding wilt maken. Deze module accepteert geen relatieve URL&#39;s.
+Deze module is beschikbaar gesteld op 14 november 2024. Elke Adobe Authenticator > Aangepaste API-aanroep die vóór deze datum is geconfigureerd, verwerkt geen grote bestanden en wordt nu beschouwd als de module Aangepaste API-aanroep (verouderd) maken.
 
 <table>
   <col/>
@@ -198,10 +199,83 @@ Met deze actiemodule kunt u elke Adobe-API aanroepen.
     </tr>
     <tr>
       <td role="rowheader">
+        <p>[!UICONTROL Base URL]</p>
+      </td>
+      <td>
+        <p>Voer de basis-URL in van het API-punt waarmee u verbinding wilt maken.</p>
+      </td>
+    <tr>
+      <td role="rowheader">
         <p>[!UICONTROL URL]</p>
       </td>
       <td>
-        <p>Voer de volledige URL in van het API-punt waarmee u verbinding wilt maken.</p>
+        <p>Voer het pad in ten opzichte van de basis-URL.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Method]</p>
+   <td> <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Zie <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override=""> HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]</a> voor meer informatie.</p> </td> 
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Headers]</td>
+      <td>
+        <p>Voeg de kopteksten van het verzoek toe in de vorm van een standaard JSON-object.</p>
+        <p>Bijvoorbeeld: <code>{"Content-type":"application/json"}</code></p>
+        <p>Workfront Fusion voegt automatisch machtigingsheaders toe.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Query String]  </td>
+      <td>
+        <p>Voer de queryreeks voor de aanvraag in.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Body Type]</td>
+   <td> Selecteer het hoofdtype voor deze API-aanvraag:
+   <ul>
+   <li>application/x-www-form-urlencoded</li>
+   <li>Ruw</li>
+   <li>multipart/form-data</li>
+   </ul>
+      </td>
+    <tr>
+      <td role="rowheader">[!UICONTROL Fields]  </td>
+      <td>
+        <p>Voor elk dossier dat u aan het APU- verzoek wilt toevoegen, <b> klik toevoegen punt </b> en ga de tekst van het dossier (voor ruwe gegevens) in, of ga de sleutel <code>uploadedFile</code> in en kaart de gegevens van het dossier.</p>
+      </td>
+    </tr>
+    </tr>
+  </tbody>
+</table>
+
+### Een aangepaste API-aanroep maken (verouderd)
+
+Met deze actiemodule kunt u elke Adobe-API aanroepen.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+     <td role="rowheader">[!UICONTROL Connection]</td>
+     <td>Voor instructies bij het creëren van een verbinding aan de module van Adobe Authenticator, zie <a href="#create-a-connection" class="MCXref xref" > een verbinding </a> in dit artikel creëren.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Base URL]</p>
+      </td>
+      <td>
+        <p>Voer de basis-URL in van het API-punt waarmee u verbinding wilt maken.</p>
+      </td>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL URL]</p>
+      </td>
+      <td>
+        <p>Voer het pad in ten opzichte van de basis-URL.</p>
       </td>
     </tr>
     <tr>

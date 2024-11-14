@@ -7,9 +7,9 @@ description: Er is momenteel ondersteuning voor grote bestanden beschikbaar voor
 author: Becky
 feature: Workfront Fusion
 exl-id: e0be458c-a5f4-48e4-a8fb-afd5d072b6ff
-source-git-commit: 5e32c0dd3378fc49f8687668f11daa5dc838c587
+source-git-commit: 4914e6e30d6c4a16de5bd2c91bc6f8e4f208c078
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1098'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,8 @@ Voor de eerste release ondersteunen de volgende connectors grote bestanden.
 
 * Workfront > Document uploaden
 * Adobe Experience Manager Assets > Document uploaden
+* Workfront Proof > Bestand uploaden
+* Adobe Authenticator > Een aangepaste API-aanroep maken
 * HTTP
 
 Andere schakelaars zullen in toekomstige versies worden gesteund.

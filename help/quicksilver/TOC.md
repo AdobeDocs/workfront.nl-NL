@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: cfaacc4137ebfa7f2ed057522d43bd82715011df
+source-git-commit: 7f9e9a255e6abefe20ebf018cff82ccc3e4cbe20
 workflow-type: tm+mt
-source-wordcount: '14583'
+source-wordcount: '14590'
 ht-degree: 0%
 
 ---
@@ -183,7 +183,8 @@ ht-degree: 0%
          * [21.1 Andere verbeteringen](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Fusion-releaseactiviteit {#fusion-release}
          * [Adobe Workfront Fusion-releaseactiviteit](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
-         * [Workfront Fusion release activity: Week van 5 november 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-4.md)
+         * [Workfront Fusion release activity: Week van 11 november 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-11.md)
+         * [Workfront Fusion release activity: Week van 4 november 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-4.md)
          * [Workfront Fusion release activity: Week van 21 oktober 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-10-21.md)
          * [Workfront Fusion release activity: Week van 7 oktober 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-10-7.md)
          * [Workfront Fusion release activity: Week van 30 september 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-9-30.md)
