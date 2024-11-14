@@ -7,9 +7,9 @@ description: Met Adobe Workfront kunt u snel en eenvoudig berichten verzenden di
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 400ca2ac10a94ccfa79bef8daf06b924dadac230
+source-git-commit: 82dc1cef02c6724dd0bc5b98d2a8f60a420b72bd
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
@@ -44,10 +44,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
    <td>
-   <p>Nieuw: Licht of hoger</p>
-   <p>of</p>
-   <p>Huidig: Controleren of hoger</p>
-   </td>
+   <p>Om een bericht van de de profielpagina van de gebruiker te verzenden, moet u:<br> hebben
+   Nieuw: Licht of hoger <br>
+   or<br>
+   Huidig: Controleren of hoger</p>
+   <p>Om een bericht van de lijst van de Gebruiker te verzenden, moet u:<br> hebben
+   Nieuw: Standaard <br>
+   or<br>
+   Huidig: Werk of hoger</p></td>
   </tr> 
  </tbody> 
 </table>
