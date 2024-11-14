@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
-source-git-commit: 8fa0c5573008a625ae10af051eeabfb6a8519a01
+source-git-commit: 8b69fc1e20ad255cb9874b70289fc11dcb03cdb0
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,24 @@ ht-degree: 0%
 Deze pagina beschrijft kleine updates van de blik en het gevoel van diverse gebieden van de toepassing van Adobe Workfront die binnen het Eerste Kwartaal 2025 releasetijdschema werden gemaakt.
 
 Voor een lijst van alle veranderingen beschikbaar met Eerste Kwartaal 2025 versie, zie [ Eerste Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+
+## Zoeken naar updates voor documentintegratie
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 14 november 2024; Productieversie voor alle klanten: 14 november 2024
+
+Wij hebben prestatiesverbeteringen aan het gebied in Opstelling gemaakt waar u douaneintegratie vormt: Opstelling > Documenten > de Integratie van de Douane. Deze upgrade bevat kleine visuele wijzigingen in het gebied. Er is geen functionaliteit gewijzigd.
+
+## De blik-en-voelt updates voor de Leden van het Bedrijf en de pagina&#39;s van de Facturering van het Bedrijf
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 4 november 2024; productie voor snelle release: met de release van 24.12 (december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
+
+We hebben de pagina&#39;s Bedrijfsleden en Factureringstarieven bijgewerkt met een modernere opzet die consistent is met andere gebieden van Workfront. Het lidmaatschap van het bedrijf wordt betreden via Opstelling > Bedrijven > selecteert een bedrijfsnaam > de uitgezochte Leden van het Bedrijf in het linkerpaneel. Factureringssnelheden voor bedrijven zijn toegankelijk via Setup > Companies > selecteer een bedrijfsnaam > Factureringssnelheden selecteren in het linkerdeelvenster.
+
+Voor informatie, zie [ bedrijven ](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md) creëren en uitgeven en [ bedrijflidmaatschappen beheren ](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).
 
 ## De blik-en-voelen updates voor de belangrijkste en secundaire navigatiegebieden
 

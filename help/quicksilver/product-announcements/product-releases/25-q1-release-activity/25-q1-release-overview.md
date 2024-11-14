@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: e02fd7dc6f1655b69c0433465a51f4c53d486570
+source-git-commit: 8b69fc1e20ad255cb9874b70289fc11dcb03cdb0
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '1092'
 ht-degree: 0%
 
 ---
@@ -45,37 +45,32 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
 <table>
 <col style="width: 50%;" />
 <col style="width: 50%;" />
-    <tbody>
-        <tr>
-            <td>
-                <p><span class="bold"> Eigenschap </span>
-                </p>
-            </td>
-            <td>
-                <p><span class="bold"> de data van de Versie </span>
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}"> "Beweging aan"pictogram wordt toegevoegd aan douanevelden </a></p>
-                <p>Wanneer een aangepast formulier meerdere secties met veel velden bevat, kan het moeilijk zijn om een veld van de ene sectie naar de andere te verplaatsen door het te slepen en neer te zetten. Aan elk veld is een "verplaatsingspictogram" toegevoegd, waarmee u de sectie kunt selecteren waarin het veld wordt geplaatst.</p>
-            </td>
-            <td><p><b>Beschikbaar op deze data:</b></p>
-                <ul>
-                    <li>
-                        <p>Voorvertoningsrelease: 29 oktober 2024</p>
-                    </li>
-                    <li>
-                        <p>Productie voor snelle release: met de release van 24.11 (14 november 2024)</p>
-                    </li>
-                    <li>
-                        <p>Productieversie voor alle klanten: met de release van 25.1 (januari 2025)</p>
-                    </li>
-                </ul>
-            </td>
-        </tr>
-    </tbody>
+<tbody>
+    <tr>
+        <td>
+            <p><span class="bold">Functie</span></p>
+        </td>
+        <td>
+            <p><span class="bold">Releasedatums</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Pictogram "Verplaatsen naar" toegevoegd aan aangepaste velden</a></p>
+            [!BADGE in productie voor Snelle Versie ]{type=Positive}
+            <p>Wanneer een aangepast formulier meerdere secties met veel velden bevat, kan het moeilijk zijn om een veld van de ene sectie naar de andere te verplaatsen door het te slepen en neer te zetten. Aan elk veld is een "verplaatsingspictogram" toegevoegd, waarmee u de sectie kunt selecteren waarin het veld wordt geplaatst.</p>
+        </td>
+        <td>
+            <p><b>Beschikbaar op deze data:</b></p>
+            <ul>
+                <li>Voorvertoningsrelease: 29 oktober 2024</li>
+                <li>Productie voor snelle release: met de release van 24.11 (14 november 2024)</li>
+                <li>Productieversie voor alle klanten: met de release van 25.1 (januari 2025)</li>
+            </ul>
+        </td>
+    </tr>
+</tbody>
 </table>
 
 <!--### Boards enhancements
@@ -83,37 +78,31 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
 <table>
 <col style="width: 50%;" />
 <col style="width: 50%;" />
-    <tbody>
-        <tr>
-            <td>
-                <p><span class="bold">Feature</span>
-                </p>
-            </td>
-            <td>
-                <p><span class="bold">Release dates</span>
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Change the owner of a board</a></p>
-                <p>The creator of a board is the owner by default. The board owner is the only person who can delete that board or update its filters in the Configure panel. Functionality has been added to allow Workfront system administrators to change the owner of a board. The current owner of a board can also change the owner of that specific board.</p>
-            </td>
-            <td><p><b>Available on these dates:</b></p>
-                <ul>
-                    <li>
-                        <p>Preview release: October 31, 2024</p>
-                    </li>
-                    <li>
-                        <p>Production for fast release: With the 24.11 release (November 14, 2024)</p>
-                    </li>
-                    <li>
-                        <p>Production release for all customers: With the 25.1 release (January 2025)</p>
-                    </li>
-                </ul>
-            </td>
-        </tr>
-    </tbody>
+<tbody>
+    <tr>
+        <td>
+            <p><span class="bold">Feature</span></p>
+        </td>
+        <td>
+            <p><span class="bold">Release dates</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Change the owner of a board</a></p>
+            <p>The creator of a board is the owner by default. The board owner is the only person who can delete that board or update its filters in the Configure panel. Functionality has been added to allow Workfront system administrators to change the owner of a board. The current owner of a board can also change the owner of that specific board.</p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: October 31, 2024</li>
+                <li>Production for fast release: With the 24.11 release (November 14, 2024)</li>
+                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+            </ul>
+        </td>
+    </tr>
+</tbody>
 </table>-->
 
 ### Verbeteringen voor documentbeheer
@@ -121,37 +110,32 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
 <table>
 <col style="width: 50%;" />
 <col style="width: 50%;" />
-    <tbody>
-        <tr>
-            <td>
-                <p><span class="bold"> Eigenschap </span>
-                </p>
-            </td>
-            <td>
-                <p><span class="bold"> de data van de Versie </span>
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}"> Nieuwe Ingetrokken status beschikbaar voor goedkeuringen van de documentversie </a></p>
-                <p>Wanneer een nieuwe versie wordt toegevoegd aan een document met in behandeling zijnde goedkeuringen, wordt de goedkeuring voor de vorige versie nu weergegeven als "Ingetrokken", wat aangeeft dat het voorafgaande goedkeuringsproces is afgesloten omdat de nieuwe versie is toegevoegd.</p>
-            </td>
-            <td><p><b>Beschikbaar op deze data:</b></p>
-                <ul>
-                    <li>
-                        <p>Voorvertoningsrelease: 7 november 2024</p>
-                    </li>
-                    <li>
-                        <p>Productie voor snelle release: met de release van 24.11 (14 november 2024)</p>
-                    </li>
-                    <li>
-                        <p>Productieversie voor alle klanten: met de release van 25.1 (januari 2025)</p>
-                    </li>
-                </ul>
-            </td>
-        </tr>
-    </tbody>
+<tbody>
+    <tr>
+        <td>
+            <p><span class="bold">Functie</span></p>
+        </td>
+        <td>
+            <p><span class="bold">Releasedatums</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Nieuwe intrekkingsstatus beschikbaar voor goedkeuringen van documentversies</a></p>
+            [!BADGE in productie voor Snelle Versie ]{type=Positive}
+            <p>Wanneer een nieuwe versie wordt toegevoegd aan een document met in behandeling zijnde goedkeuringen, wordt de goedkeuring voor de vorige versie nu weergegeven als "Ingetrokken", wat aangeeft dat het voorafgaande goedkeuringsproces is afgesloten omdat de nieuwe versie is toegevoegd.</p>
+        </td>
+        <td>
+            <p><b>Beschikbaar op deze data:</b></p>
+            <ul>
+                <li>Voorvertoningsrelease: 7 november 2024</li>
+                <li>Productie voor snelle release: met de release van 24.11 (14 november 2024)</li>
+                <li>Productieversie voor alle klanten: met de release van 25.1 (januari 2025)</li>
+            </ul>
+        </td>
+    </tr>
+</tbody>
 </table>
 
 ### Verbeteringen voor startpagina
@@ -159,37 +143,53 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
 <table>
 <col style="width: 50%;" />
 <col style="width: 50%;" />
-    <tbody>
-        <tr>
-            <td>
-                <p><span class="bold"> Eigenschap </span>
-                </p>
-            </td>
-            <td>
-                <p><span class="bold"> de data van de Versie </span>
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}"> het projectdetails van de Mening in Prioriteiten </a></p>
-                <p>U kunt nu projectdetails en commentaren van de werklijst in Prioriteiten bekijken.</p>
-            </td>
-            <td><p><b>Beschikbaar op deze data:</b></p>
-                <ul>
-                    <li>
-                        <p>Voorvertoningsrelease: 6 november 2024</p>
-                    </li>
-                    <li>
-                        <p>Productie voor snelle release: met de release van 24.11 (14 november 2024)</p>
-                    </li>
-                    <li>
-                        <p>Productieversie voor alle klanten: met de release van 25.1 (januari 2025)</p>
-                    </li>
-                </ul>
-            </td>
-        </tr>
-    </tbody>
+<tbody>
+    <tr>
+        <td>
+            <p><span class="bold">Functie</span></p>
+        </td>
+        <td>
+            <p><span class="bold">Releasedatums</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Bijgewerkte opties in Mijn Focus kolom in Prioriteiten</a></p>
+            [!BADGE in productie ]{type=Informative}
+            <p>We hebben de opties in de kolom Mijn focus bijgewerkt om u te helpen uw werk op een intuïtievere manier te prioriteren en te sorteren. De nieuwe labels bevatten</p>
+            <ul>
+                <li>Dringend</li>
+                <li>Hoog</li>
+                <li>Normaal</li>
+                <li>Laag</li>
+            </ul>
+        </td>
+        <td>
+            <p><b>Beschikbaar op deze data:</b></p>
+            <ul>
+                <li>Voorvertoningsrelease: 14 november 2024</li>
+                <li><span class="preview">Productieversie voor alle klanten: 14 november 2024</span></li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Projectdetails in Prioriteiten weergeven</a></p>
+            [!BADGE in productie voor Snelle Versie ]{type=Positive}
+            <p>U kunt nu projectdetails en commentaren van de werklijst in Prioriteiten bekijken.</p>
+        </td>
+        <td>
+            <p><b>Beschikbaar op deze data:</b></p>
+            <ul>
+                <li>Voorvertoningsrelease: 6 november 2024</li>
+                <li>Productie voor snelle release: met de release van 24.11 (14 november 2024)</li>
+                <li>Productieversie voor alle klanten: met de release van 25.1 (januari 2025)</li>
+            </ul>
+        </td>
+    </tr>
+</tbody>
 </table>
 
 ## Verbeteringen voor proefdrukken
@@ -197,36 +197,32 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
 <table>
 <col style="width: 50%;" />
 <col style="width: 50%;" />
-    <tbody>
-        <tr>
-            <td>
-                <p><span class="bold"> Eigenschap </span>
-                </p>
-            </td>
-            <td>
-                <p><span class="bold"> de data van de Versie </span>
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}"> Nieuwe browser uitbreiding voor interactieve overzicht beschikbaar in bèta </a></p>
-                [!BADGE in productie ]{type=Informative}
-                <p>We introduceren een nieuwe browserextensie, het Adobe Workfront-revisieprogramma, ter vervanging van de oudere browserextensie voor het controleren van interactieve ZIP-inhoud. Het nieuwe Adobe Workfront-revisieprogramma ondersteunt het evalueren van ZIP-inhoud in alle algemene browsers.</p>
-                <p>De oudere browserextensie wordt verwijderd op 28 februari 2025.</p>
-            </td>
-            <td><p><b>Beschikbaar op deze data:</b></p>
-                <ul>
-                    <li>
-                        <p>Voorvertoningsrelease: 7 november 2024</p>
-                    </li>
-                    <li>
-                        <p class="preview">Productieversie voor alle klanten: 7 november 2024</p>
-                    </li>
-                </ul>
-            </td>
-        </tr>
-    </tbody>
+<tbody>
+    <tr>
+        <td>
+            <p><span class="bold">Functie</span></p>
+        </td>
+        <td>
+            <p><span class="bold">Releasedatums</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Nieuwe browserextensie voor interactieve revisie beschikbaar in bètaversie</a></p>
+            [!BADGE in productie ]{type=Informative}
+            <p>We introduceren een nieuwe browserextensie, het Adobe Workfront-revisieprogramma, ter vervanging van de oudere browserextensie voor het controleren van interactieve ZIP-inhoud. Het nieuwe Adobe Workfront-revisieprogramma ondersteunt het evalueren van ZIP-inhoud in alle algemene browsers.</p>
+            <p>De oudere browserextensie wordt verwijderd op 28 februari 2025.</p>
+        </td>
+        <td>
+            <p><b>Beschikbaar op deze data:</b></p>
+            <ul>
+                <li>Voorvertoningsrelease: 7 november 2024</li>
+                <li><span class="preview">Productieversie voor alle klanten: 7 november 2024</span></li>
+            </ul>
+        </td>
+    </tr>
+</tbody>
 </table>
 
 ### Andere verbeteringen
@@ -234,43 +230,53 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
 <table>
 <col style="width: 50%;" />
 <col style="width: 50%;" />
-    <tbody>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}"> AI Medewerker kan nu met projecten, taken, en kwesties werken </a></p>
-                <p>Om het gemakkelijker te maken om uw het werkpunten in Workfront te beheren, hebben wij AI Medewerker bijgewerkt om met projecten, taken, en kwesties te werken. Nu, kan de Medewerker van AI van projecten, taken, en kwesties de plaats bepalen die op criteria worden gebaseerd u specificeert.</p>
-            </td>
-            <td><p><b>Beschikbaar op deze data:</b></p>
-                <ul>
-                    <li>
-                        <p>Voorvertoningsrelease: 31 oktober 2024</p>
-                    </li>
-                    <li>
-                        <p>Productie voor snelle release: met de release van 24.11 (14 november 2024)</p>
-                    </li>
-                    <li>
-                        <p>Productieversie voor alle klanten: met de release van 25.1 (januari 2025)</p>
-                    </li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}"> blik-en-voelt updates tijdens Eerste Kwartaal 2025 timeframe </a></p>
-                <p>Kleine updates van de look and feel van verschillende onderdelen van de Adobe Workfront-toepassing worden uitgevoerd binnen het eerste kwartaal van 2025. Bekijk de afzonderlijke releaseopmerkingen voor specifieke releasedatums.</p>
-            </td>
-            <td><p><b>Beschikbaar op deze data:</b></p>
-                <ul>
-                    <li>
-                        <p>Voorvertoningsrelease: gedurende het eerste kwartaal van 2025, releaseperiode</p>
-                    </li>
-                    <li>
-                        <p><span class="preview">Productieversie: bekijk de opmerkingen bij de release voor specifieke datums</span></p>
-                    </li>
-                </ul>
-            </td>
-        </tr>                            
-    </tbody>
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Secties in een aangepast formulier kunnen nu worden samengevouwen en uitgebreid</a></p>
+            <p>Wanneer een aangepast formulier met meerdere secties aan een object is gekoppeld, kunt u nu alle secties samenvouwen en uitvouwen, behalve de standaardsectie boven aan het formulier. De beheerder kan deze functionaliteit ook zien wanneer u een voorbeeld van het formulier weergeeft in de formulierontwerper.</p>
+        </td>
+        <td>
+            <p><b>Beschikbaar op deze data:</b></p>
+            <ul>
+                <li>Voorvertoningsrelease: 11 november 2024</li>
+                <li>Productie voor snelle release: met de release van 24.12 (december 2024)</li>
+                <li>Productieversie voor alle klanten: met de release van 25.1 (januari 2025)</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            AI Assistant kan nu werken met projecten, taken en problemen</a></p>
+            [!BADGE in productie voor Snelle Versie ]{type=Positive}
+            <p>Om het gemakkelijker te maken om uw het werkpunten in Workfront te beheren, hebben wij AI Medewerker bijgewerkt om met projecten, taken, en kwesties te werken. Nu, kan de Medewerker van AI van projecten, taken, en kwesties de plaats bepalen die op criteria worden gebaseerd u specificeert.</p>
+        </td>
+        <td>
+            <p><b>Beschikbaar op deze data:</b></p>
+            <ul>
+                <li>Voorvertoningsrelease: 31 oktober 2024</li>
+                <li>Productie voor snelle release: met de release van 24.11 (14 november 2024)</li>
+                <li>Productieversie voor alle klanten: met de release van 25.1 (januari 2025)</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">
+            Updates weergeven en weergeven tijdens het eerste kwartaal van 2025</a></p>
+            <p>Kleine updates van de look and feel van verschillende onderdelen van de Adobe Workfront-toepassing worden uitgevoerd binnen het eerste kwartaal van 2025. Bekijk de afzonderlijke releaseopmerkingen voor specifieke releasedatums.</p>
+        </td>
+        <td>
+            <p><b>Beschikbaar op deze data:</b></p>
+            <ul>
+                <li>Voorvertoningsrelease: gedurende het eerste kwartaal van 2025, releaseperiode</li>
+                <li><span class="preview">Productieversie: bekijk de opmerkingen bij de release voor specifieke datums</span></li>
+            </ul>
+        </td>
+    </tr>                            
+</tbody>
 </table>
 
 <!--

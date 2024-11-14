@@ -4,9 +4,10 @@ description: Verbeteringen startpunt eerste kwartaal 2025
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2517e07cacf9563ca3927db0ba3415f81ab41526
+exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
+source-git-commit: 8b69fc1e20ad255cb9874b70289fc11dcb03cdb0
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
@@ -17,6 +18,21 @@ Op deze pagina worden alle Home-verbeteringen beschreven die zijn aangebracht me
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2025 versiecyclus, zie [ Eerste Kwartaal 2025 versieoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
+## Bijgewerkte opties in Mijn Focus kolom in Prioriteiten
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 14 november 2024; Productieversie voor alle klanten: 14 november 2024
+
+We hebben de opties in de kolom Mijn focus bijgewerkt om u te helpen uw werk op een intuïtievere manier te prioriteren en te sorteren. De nieuwe labels bevatten
+
+* Dringend
+* Hoog
+* Normaal
+* Laag
+
+Deze wijziging maakt het gemakkelijker om werk te bekijken en te organiseren op basis van urgentie. Voor meer informatie, zie [ belangrijke het werkpunten ](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md) Prioriteit geven.
+
 ## Projectdetails in Prioriteiten weergeven
 
 >[!NOTE]
@@ -25,4 +41,4 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal
 
 U kunt nu projectdetails en commentaren van de werklijst in Prioriteiten bekijken.
 
-<!--For more information, see [View project and task details in the Priorities worklist](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md).-->
+Voor meer informatie, zie [ project en taakdetails van de Mening in de werklijst van Prioriteiten ](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md).

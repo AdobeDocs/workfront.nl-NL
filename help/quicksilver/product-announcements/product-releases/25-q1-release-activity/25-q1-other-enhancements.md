@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 67ec1535-d374-4133-9395-626fa7ae4072
-source-git-commit: e02fd7dc6f1655b69c0433465a51f4c53d486570
+source-git-commit: 8b69fc1e20ad255cb9874b70289fc11dcb03cdb0
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,16 @@ ht-degree: 0%
 Op deze pagina worden de verbeteringen beschreven die zijn aangebracht met de release Eerste kwartaal 2025 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2025 versiecyclus, zie [ Eerste Kwartaal 2025 versieoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+
+## Secties in een aangepast formulier kunnen nu worden samengevouwen en uitgebreid
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 11 november 2024; productie voor snelle release: met de release van 24.12 (december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
+
+Wanneer een aangepast formulier met meerdere secties aan een object is gekoppeld, kunt u nu alle secties samenvouwen en uitvouwen, behalve de standaardsectie boven aan het formulier. De beheerder kan deze functionaliteit ook zien wanneer u een voorbeeld van het formulier weergeeft in de formulierontwerper.
+
+Voor informatie over het toevoegen van een sectie aan een douanevorm, zie [ organiseren en voorproef een vorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
 
 ## AI Assistant kan nu werken met projecten, taken en problemen
 
