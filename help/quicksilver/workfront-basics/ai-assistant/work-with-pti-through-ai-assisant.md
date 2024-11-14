@@ -5,19 +5,48 @@ description: U kunt werkitems en documenten snel samenvatten met de functie Over
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5b0e1002-b6e9-4354-9ead-643de1de5bab
-source-git-commit: e02fd7dc6f1655b69c0433465a51f4c53d486570
+source-git-commit: c91a0cd0987b810cc5fb3f52199dccc64bf4d0a1
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
 
 # De Medewerker van AI van het gebruik om met projecten, taken, en kwesties te werken
 
-<span class="preview"> de informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Sandbox van de Voorproef.</span>
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar in de milieu van de Voorproef voor alle klanten, en in de milieu van de Productie voor klanten die maandelijkse versies hebben toegelaten. </span>
+
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 
 Met AI Assistant kunt u projecten, taken en problemen in Workfront zoeken.
+
+## Toegangsvereisten
+
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td><p>Nieuw: alle</p>
+       <p>of</p>
+       <p>Huidig: Niet beschikbaar</p></td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td><p>Nieuw: Standaard</p>
+       <p>of</p>
+       <p>Huidig: Niet beschikbaar</p></td>
+  </tr> 
+ </tbody> 
+</table>
+
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+
 
 ## Werkitems zoeken
 
