@@ -5,13 +5,13 @@ description: Prioriteiten zijn een gestroomlijnde, intuïtieve ervaring die is a
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 75396c3f066abc6070ae2a89c2ded0255dbc0751
+exl-id: 31793b0e-444c-492c-b1a2-909a2e97628b
+source-git-commit: 2125639c11513439fdd3ae872b336814f8f77adb
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '184'
 ht-degree: 0%
 
 ---
-
 
 # Prioriteit geven aan belangrijke werkitems
 
@@ -26,14 +26,13 @@ U kunt de Mijn kolom van de Focus gebruiken om aan uw werk voorrang te geven. De
 
    | Focus | Beschrijving |
    |-----------|-------------|
-   | **Dringend** | Dringend is werk dat onmiddellijke aandacht vereist. |
-   | **Primair** | Primair is voor het werk dat u van plan bent deze week te concentreren. |
-   | **Secundair** | De tweede functie is het werk dat u wilt uitvoeren wanneer de primaire focustaken zijn voltooid. |
-   | **Normaal** | Normaal is het werk dat nog niet hoeft te worden geconcentreerd.  Normaal is de standaardinstelling voor alle taken en problemen. |
+   | **Dringend** | Dringend is voor werkpunten die directe aandacht vereisen. Urgente werkpunten moeten bovenaan alle andere staan en zo snel mogelijk worden aangepakt. |
+   | **Hoog** | Hoog is voor belangrijke het werkpunten die u van plan bent te richten nadat het dringende werk volledig is. |
+   | **Normaal** | Normaal is voor routinematige werkitems waaraan u zult werken nadat de items Dringend en Hoge prioriteit zijn voltooid. Dit is de standaardinstelling voor taken en problemen. |
+   | **Laag** | Laag is voor het werkpunten die geen directe aandacht nodig hebben en kan worden uitgesteld tot alle hoger-prioritaire het werkpunten worden gedaan. |
 
    ![](assets/my-focus.png)
 
    >[!TIP]
    >
    >U kunt uw werk filteren en groeperen op uw nadrukniveaus.
-
