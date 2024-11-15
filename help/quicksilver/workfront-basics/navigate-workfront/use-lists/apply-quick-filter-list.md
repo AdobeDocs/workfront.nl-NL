@@ -3,20 +3,18 @@ navigation-topic: use-lists
 title: Het snelle filter toepassen op een lijst
 description: U kunt het snelle filter in een lijst van voorwerpen gebruiken om u van slechts punten te helpen de plaats bepalen die voor u belangrijk zijn, zodat kunt u hen snel herzien, bijwerken, of delen met anderen.
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: 363f7ad1-f4f8-4cb1-a631-ee4e5ea28e5a
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '795'
 ht-degree: 0%
 
 ---
 
 # Het snelle filter toepassen op een lijst
 
-<!--
-{{highlighted-preview}}
--->
+<!--Audited:11/2024-->
 
 U kunt het snelle filter in een lijst van voorwerpen gebruiken om u van slechts punten te helpen de plaats bepalen die voor u belangrijk zijn, zodat kunt u hen snel herzien, bijwerken, of delen met anderen.
 
@@ -35,6 +33,7 @@ U kunt tijdelijke snelle filters in alle lijsten gebruiken, behalve het volgende
 * Het [!UICONTROL Reports] -gebied
 * Documentlijsten en -rapporten
 * Meerdere [!UICONTROL Setup] gebieden
+
   >[!NOTE]
   >
   >Snelle filters zijn beschikbaar in de volgende instellingsgebieden: [!UICONTROL Groups], [!UICONTROL Teams], [!UICONTROL Companies], [!UICONTROL Schedules], [!UICONTROL Layout Templates] en [!UICONTROL Custom Forms] .
@@ -52,6 +51,8 @@ Houd rekening met het volgende wanneer u snelle filters toepast op een lijst:
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -59,25 +60,35 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><b>[!DNL Adobe Workfront] plan*</b></td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><b>[!DNL Adobe Workfront] licentie*</b></td> 
-   <td> <p>[!UICONTROL Request] of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td> 
+    <p>Nieuw:</p>
+   <ul><li><p>Medewerker of hoger </p></li>
+   </ul>
+
+<p>Huidige:</p>
+   <ul><li><p>Aanvraag of hoger</p></li>
+    </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><b>Configuraties op toegangsniveau*</b></td> 
-   <td> <p>Toegang weergeven tot het gebied in de lijst</p> <p>Als u bijvoorbeeld een snel filter wilt toepassen op een project, hebt u [!UICONTROL View] toegang tot projecten nodig.</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de [!DNL Workfront] -beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld.<br> voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang weergeven tot het gebied in de lijst</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><b>Objectmachtigingen</b></td> 
-   <td> <p>[!UICONTROL View]</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td role="rowheader">Objectmachtigingen</td> 
+   <td> <p>[!UICONTROL View] machtigingen voor het object in de lijst</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
 
 ## Een snel filter toepassen op een lijst
 
@@ -109,7 +120,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    1. Selecteer alle of meerdere items in de lijst en klik op **[!UICONTROL Edit]** om de items in bulk te bewerken.
    1. Klik op **[!UICONTROL Save Changes]** nadat u de bewerkingen hebt voltooid.
 
-1. (Optioneel) Als u de items die door het snelfilter worden gevonden, wilt exporteren, selecteert u alle of meerdere items in de lijst en klikt u op **[!UICONTROL Export]** .
+1. (Optioneel) Als u de items die door het snelle filter worden gevonden, wilt exporteren, selecteert u alle of meerdere items in de lijst en klikt u op het pictogram **[!UICONTROL Export]** ![](assets/export.png) .
 
    ![ select_all_projects_with_highlight__1_.png ](assets/select-all-projects-with-highlight--1--350x173.png)
 
@@ -118,6 +129,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >Alleen de items die u hebt gevonden in de zoekopdracht met snel filter worden geëxporteerd naar het bestand dat u hebt geselecteerd. Als u geen items selecteert voordat u de lijst exporteert, wordt de volledige, ongefilterde lijst geëxporteerd.\
    >Voor meer informatie, zie [ Uitvoer een lijst ](../../../workfront-basics/navigate-workfront/use-lists/export-lists.md).
 
-1. (Optioneel) Als u de gefilterde resultaten wilt wissen, klikt u op het pictogram **[!UICONTROL Quick Filter]** in de rechterbovenhoek van het venster.\
-   of\
-   Vernieuw de pagina.
+1. (Optioneel) Als u de gefilterde resultaten wilt wissen, klikt u op het pictogram **[!UICONTROL Quick Filter]** in de rechterbovenhoek van het venster.
+of
+Vernieuw de pagina.

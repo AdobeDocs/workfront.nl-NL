@@ -3,16 +3,18 @@ navigation-topic: use-lists
 title: Aan de slag met lijsten in  [!DNL Adobe Workfront]
 description: U kunt lijsten van voorwerpen in  [!DNL Adobe Workfront]  bekijken om informatie over hen, zoals hun begin en vervaldata, gebruikers te krijgen die aan hen, en andere voorwerpen worden toegewezen die met hen worden geassocieerd.
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
 workflow-type: tm+mt
-source-wordcount: '1985'
+source-wordcount: '1896'
 ht-degree: 0%
 
 ---
 
 # Aan de slag met lijsten in [!DNL Adobe Workfront]
+
+<!--Audited: 11/2024-->
 
 U kunt lijsten met objecten weergeven in [!DNL Adobe Workfront] voor meer informatie over deze objecten, zoals de begin- en vervaldatum, de gebruikers die eraan zijn toegewezen en andere objecten die eraan zijn gekoppeld.
 
@@ -29,6 +31,8 @@ Hier volgen enkele kenmerken van lijsten in [!DNL Workfront] :
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -36,25 +40,64 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
-   <td> <p>[!UICONTROL Request] of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td> 
+    <p>Nieuw:</p>
+   <ul><li><p>Medewerker of hoger </p></li>
+   </ul>
+
+<p>Huidige:</p>
+   <ul><li><p>Aanvraag of hoger</p></li>
+    </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>[!UICONTROL View] of meer toegang tot filters, weergaven, groepen</p> <P>Voor items in het [!UICONTROL Setup] -gebied hebt u beheertoegang voor het item of het [!UICONTROL System Administrator] -toegangsniveau nodig.</P> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de [!DNL Workfront] -beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld.<br> voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot filters, weergaven, groepen bewerken </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
-   <td> <p>[!UICONTROL View] of hogere machtigingen met toegang tot delen</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td>
+   <td role="rowheader">Objectmachtigingen</td> 
+   <td> <p>Machtigingen weergeven of hoger voor een filter, weergave of groep met toegang tot delen </p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old access: 
+
+You must have the following access to perform the steps in this article:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
+   <td> <p>[!UICONTROL Request] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Access level configurations*</strong></td> 
+   <td> <p>[!UICONTROL View] or higher access to filters, views, groupings</p> <P>For items in the [!UICONTROL Setup] area, you need administrative access for the item or the [!UICONTROL System Administrator] access level.</P> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level.<br>For information on how a [!DNL Workfront] administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Object permissions</strong></td> 
+   <td> <p>[!UICONTROL View] or higher permissions with access to share</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td>
+  </tr> 
+ </tbody> 
+</table>
+
+To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+-->
 
 ## Objectlijsten
 
@@ -315,19 +358,23 @@ U kunt de volgende handelingen in een lijst uitvoeren:
  <tbody> 
   <tr> 
    <td><strong> Inline geeft uit </strong> </td> 
-   <td> <p>Objecten en hun gegevens rechtstreeks in de lijst bewerken.</p> <p>Voor meer informatie, zie <a href="../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md" class="MCXref xref"> gealigneerde geef punten in een lijst in [!DNL Adobe Workfront]</a> uit.</p> </td> 
+   <td> <p>Objecten en hun gegevens rechtstreeks in de lijst bewerken.</p> <p>Voor meer informatie, zie <a href="../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md" class="MCXref xref"> gealigneerde geef punten in een lijst in [!DNL Adobe Workfront]</a> uit.</p> 
+   <p><b>OPMERKING:</b></p>
+   <p>Inline bewerken is niet mogelijk in een groep.</p>
+
+</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td><strong> Update met [!UICONTROL Summary]</strong> </td> 
-   <td> <p>Werk taken en problemen op projectniveau bij met het deelvenster [!UICONTROL Summary] .</p> <p>Tip: de samenvatting is niet beschikbaar voor alle objecten en is niet beschikbaar in taak- of Issue-rapporten.</p> <p>Voor meer informatie, zie <a href="../../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref"> Overzicht van de Samenvatting </a>.</p> </td> 
+   <td> <p>Werk taken en problemen op projectniveau bij met het deelvenster [!UICONTROL Summary] .</p> <p><b>TIP:</b></p> <p>De samenvatting is niet beschikbaar voor alle objecten en is niet beschikbaar in taak- of Issue-rapporten.</p> <p>Voor meer informatie, zie <a href="../../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref"> Overzicht van de Samenvatting </a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong> pas lijstvertoning </strong> aan </td> 
-   <td> <p>Pas de vormgeving van een lijst, kolomindeling, sorteervolgorde van items of het aantal items dat wordt weergegeven aan.</p> <p>Opmerking: wijzigingen die u aanbrengt in het aantal items dat op een pagina wordt weergegeven, worden ongedaan gemaakt wanneer u zich afmeldt bij [!DNL Workfront] of de browser sluit. Wijzigingen kunnen ook na een periode van 8 uur worden teruggedraaid.</p> <p>Voor meer informatie, zie <a href="../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md" class="MCXref xref"> wijzigen zich hoe een lijstvertoningen </a>.</p> </td> 
+   <td> <p>Pas de vormgeving van een lijst, kolomindeling, sorteervolgorde van items of het aantal items dat wordt weergegeven aan.</p> <p><b>OPMERKING:</b></p> <p>Wijzigingen die u aanbrengt in het aantal items dat op een pagina wordt weergegeven, worden ongedaan gemaakt wanneer u zich afmeldt bij [!DNL Workfront] of de browser sluit. Wijzigingen kunnen ook na een periode van 8 uur worden teruggedraaid.</p> <p>Voor meer informatie, zie <a href="../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md" class="MCXref xref"> wijzigen zich hoe een lijstvertoningen </a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong> Snelle filter </strong> </td> 
-   <td> <p>Pas een snel filter toe om alleen items te zoeken die voor u van belang zijn, zodat u deze snel kunt bekijken, bijwerken of met anderen kunt delen.</p> <p>Belangrijk: u kunt items zoeken die een zoekwoord bevatten met behulp van het snelfilter. Hiermee kunt u zien of dat item zichtbaar is op het scherm of dat het wordt weergegeven nadat u naar de onderkant van de pagina hebt geschoven. Wanneer u de zoekmogelijkheden van uw browser gebruikt, kunt u alleen items vinden die al op het scherm zichtbaar zijn. Als uw lijst meerdere pagina's bevat, worden met snelfilters alleen de items op de huidige pagina gevonden.</p> <p>Voor meer informatie, zie <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref"> de snelle filter op een lijst </a> toepassen.</p> </td> 
+   <td> <p>Pas een snel filter toe om alleen items te zoeken die voor u van belang zijn, zodat u deze snel kunt bekijken, bijwerken of met anderen kunt delen.</p> <p><b>BELANGRIJK:</b></p> <p> U kunt zoeken naar items die een zoekwoord bevatten met behulp van het snelfilter, of dat item zichtbaar is op het scherm of wordt weergegeven nadat u naar de onderkant van de pagina hebt geschoven. Wanneer u de zoekmogelijkheden van uw browser gebruikt, kunt u alleen items vinden die al op het scherm zichtbaar zijn. Als uw lijst meerdere pagina's bevat, worden met snelfilters alleen de items op de huidige pagina gevonden.</p> <p>Voor meer informatie, zie <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref"> de snelle filter op een lijst </a> toepassen.</p> </td> 
   </tr> 
   <tr> 
    <td><strong> Uitvoer </strong> </td> 
@@ -443,7 +490,7 @@ In de volgende tabel staan veel van de pictogrammen die beschikbaar zijn op de w
   <tr> 
    <td> <img src="assets/summary-panel-icon.png"> </td> 
    <td>[!UICONTROL Summary]</td> 
-   <td> <p>Het vak [!UICONTROL Summary] voor het geselecteerde item weergeven of verbergen.</p> <p>Dit is alleen beschikbaar voor taken en problemen.</p> <p>Voor informatie over het [!UICONTROL Summary] paneel in de nieuwe [!DNL Adobe Workfront] ervaring, zie <a href="/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref"> Overzicht Overzicht </a>.</p> </td> 
+   <td> <p>Het vak [!UICONTROL Summary] voor het geselecteerde item weergeven of verbergen.</p> <p>Dit is alleen beschikbaar voor taken en problemen.</p> <p>Voor informatie over het [!UICONTROL Summary] paneel, zie <a href="/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref"> Overzicht van de Samenvatting </a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/remove-icon---x-in-circle.png"> </td> 
@@ -583,13 +630,6 @@ Voor meer informatie over de bouw van een rapport, zie [ een douanerapport ](../
 
   ![](assets/updated-list-screen-shot-gray-groupings-350x71.png)
 
-Beide typen lijsten worden weergegeven in de [!DNL Adobe Workfront] .
-
-Alle lijsten en rapporten in [!DNL Adobe Workfront] worden bijgewerkt, behalve de volgende:
-
-* Lijsten in het gebied [!UICONTROL Setup]
-* Lijsten in het gebied [!UICONTROL Reports]
-
 In de volgende tabel ziet u een aantal verschillen tussen de verouderde en bijgewerkte lijsten in [!DNL Workfront] :
 
 <!--
@@ -604,16 +644,7 @@ In de volgende tabel ziet u een aantal verschillen tussen de verouderde en bijge
    <td><b>Oudere lijsten</b></td> 
    <td><b>Bijgewerkte lijsten</b></td> 
   </tr> 
-  <tr> 
-   <td> <p>Oudere lettertypen, kolomkoppen, kleurenschema voor blauwe groepering</p> </td> 
-   <td> <p>Bijgewerkte lettertypen, kolomkoppen, kleurschema voor grijstinten</p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>Langzamere inline bewerking</p> </td> 
-   <td> <p>Sneller inline bewerken</p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>Vertoning <strong> 100 </strong> punten door gebrek</p> </td> 
+  <td> <p>Vertoning <strong> 100 </strong> punten door gebrek</p> </td> 
    <td> <p>Toon <strong> allen </strong> of tot <strong> 2000 </strong> punten door gebrek</p> </td> 
   </tr> 
   <tr> 
@@ -622,7 +653,7 @@ In de volgende tabel ziet u een aantal verschillen tussen de verouderde en bijge
   </tr> 
   <tr> 
    <td>U kunt aangepaste velden met tekstopmaak niet inline bewerken.</td> 
-   <td> <p>Tekst in aangepaste velden met opmaak kan worden geconfigureerd om vette, cursieve, onderstreepte, opsommingstekens, nummering, hyperlinks en blokaanhalingstekens toe te staan.</p> <p>Voor meer informatie, zie <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"> een douaneformulier/a&gt; creëren.</p> </td> 
+   <td> <p>Tekst in aangepaste velden met opmaak kan worden geconfigureerd om vette, cursieve, onderstreepte, opsommingstekens, nummering, hyperlinks en blokaanhalingstekens toe te staan.</p> <p>Voor meer informatie, zie <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"> een douaneformulier </a> creëren.</p> </td> 
   </tr> 
   <tr> 
    <td>Met voorwaardelijke opmaak kunt u de tekstkleur van koppelingen in een lijst wijzigen</td> 

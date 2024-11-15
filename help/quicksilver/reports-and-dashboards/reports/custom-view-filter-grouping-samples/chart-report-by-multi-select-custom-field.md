@@ -2,19 +2,21 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: Een rapport in een diagram weergeven op basis van een aangepast veld met meerdere selecties
+title: Een rapport in kaart brengen op basis van een aangepast veld met meerdere selecties
 description: U kunt een rapport alleen in een diagram weergeven op basis van een aangepast veld met meerdere selecties nadat u een extra berekend veld hebt gemaakt waarin de geselecteerde keuzen in het aangepaste veld met meerdere selecties worden vastgelegd.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1004'
 ht-degree: 0%
 
 ---
 
 # Een rapport in een diagram weergeven op basis van een aangepast veld met meerdere selecties
+
+<!--Audited: 11/2024-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
@@ -39,6 +41,8 @@ Als het echter niet mogelijk is afzonderlijke velden te hebben voor elke optie v
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -46,25 +50,34 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> 
+    <p>Nieuw:</p>
+   <ul><li><p>Medewerker om een filter te wijzigen </p></li>
+   <li><p>Standaard voor het wijzigen van een rapport</p></li> </ul>
+
+<p>Huidige:</p>
+   <ul><li><p>Verzoek om een filter te wijzigen </p></li>
+   <li><p>Plan om een rapport te wijzigen</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een rapport te wijzigen</p> <p>Toegang tot filters, weergaven en groepen bewerken om een filter te wijzigen</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vereisten
 
@@ -102,7 +115,7 @@ U kunt als volgt het berekende aangepaste veld bouwen dat verwijst naar het aang
 
 1. In het **vakje van het Etiket**, noem het nieuwe berekende gebied om erop te wijzen dat het multi-select douanegebied van verwijzingen voorziet.
 
-   Bijvoorbeeld: &quot;Berekend veld voor meerdere selecties.&quot;
+   Bijvoorbeeld: &quot;Berekend multiselect veld&quot;.
 
 1. In het **vakje van de Berekening**, ga de volgende code in:
 
@@ -114,12 +127,12 @@ U kunt als volgt het berekende aangepaste veld bouwen dat verwijst naar het aang
 
    ![](assets/calculated-multi-select-custom-field-nwe-350x223.png)
 
-1. (Facultatief) als multi-uitgezochte douanegebied reeds op deze vorm is en als deze vorm reeds aan voorwerpen in bijlage is, laat de **Update vorige berekeningen (op de achtergrond)** optie toe.
+1. (Facultatief) als multi-uitgezochte douanegebied reeds op deze vorm is en als deze vorm reeds in bijlage aan voorwerpen is, laat **toe van toepassing zijn op bestaande berekeningen** optie.
 
    Dit zorgt ervoor dat het nieuwe berekende veld automatisch wordt gevuld met de waarde uit het aangepaste veld voor meerdere selecties, aangezien dit veld wordt toegevoegd aan de formulieren die al aan de objecten zijn gekoppeld.
 
-1. Klik **Gedaan**.
-1. Klik **sparen + Sluiten**.
+1. Klik **toepassen**.
+1. Klik **sparen en Sluiten**.
 
    Het berekende aangepaste veld wordt toegevoegd aan het aangepaste formulier en als het formulier momenteel aan objecten is gekoppeld, wordt in het veld informatie uit het aangepaste veld met meerdere selecties ingevuld.
 
@@ -137,14 +150,14 @@ U kunt als volgt het berekende aangepaste veld bouwen dat verwijst naar het aang
 1. Klik **de Acties van het Rapport**, dan **uitgeven**.
 
 1. Selecteer het <strong> lusje van Groepen </strong>, dan klik <strong> groepering </strong> toevoegen.
-1. Voeg het <strong> Berekende Multi-uitgezochte Gebied </strong> toe u als uw groepering creeerde.
+1. Voeg het <strong> Berekende Multi uitgezochte Gebied </strong> toe u als uw groepering creeerde.
 1. Selecteer het <strong> lusje van de Grafiek </strong>, en voeg een grafiek aan uw rapport toe.
 
    Bijvoorbeeld, kies a **Kolom** grafiek.
    <br> voor informatie over het toevoegen van een grafiek aan een rapport, zie de sectie <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md#add-a-chart" class="MCXref xref"> een grafiek aan een rapport </a> in het artikel <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref"> een douanerapport </a> creëren.
-1. Op het **Onderste (X) gebied van de As**, selecteer het <strong> Berekende Multi-uitgezochte Gebied </strong> om in de grafiek te tonen.
+1. Op het **Onderste (X) gebied van de As**, selecteer het <strong> Berekende Multi uitgezochte Gebied </strong> om in de grafiek te tonen.
 1. Klik <strong> sparen + Sluiten </strong>.
 
-   Het rapport toont de resultaten die door het Berekende Multi-uitgezochte Gebied in een grafiek worden gegroepeerd.
+   Het rapport toont de resultaten die door het Berekende Multi uitgezochte Gebied in een grafiek worden gegroepeerd.
 
    ![](assets/chart-multi-select-field-column-chart-example.png)

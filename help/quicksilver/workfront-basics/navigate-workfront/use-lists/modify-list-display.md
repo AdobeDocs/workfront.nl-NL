@@ -3,16 +3,18 @@ navigation-topic: use-lists
 title: De weergave van een lijst wijzigen
 description: In  [!DNL Adobe Workfront], kunt u aanpassen hoe een lijst voor u toont. Andere gebruikers die de lijst weergeven, zien uw wijzigingen niet.
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: 3ef7ff03-7293-4b56-9481-e89e1a47a904
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '707'
 ht-degree: 0%
 
 ---
 
 # De weergave van een lijst wijzigen
+
+<!--Audited: 11/2024-->
 
 In [!DNL Adobe Workfront] kunt u aanpassen hoe een lijst voor u wordt weergegeven. Andere gebruikers die de lijst weergeven, zien uw wijzigingen niet.
 
@@ -32,6 +34,8 @@ Voor informatie bij het wijzigen van de informatie die in uw lijst toont, zie [ 
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -39,27 +43,36 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
-   <td> <p>[!UICONTROL Request] of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td> 
+    <p>Nieuw:</p>
+   <ul><li><p>Medewerker of hoger </p></li>
+   </ul>
+
+<p>Huidige:</p>
+   <ul><li><p>Aanvraag of hoger</p></li>
+    </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>[!UICONTROL View] toegang tot het gebied in de lijst</p> <p>Als u bijvoorbeeld de weergave van een project wilt wijzigen, hebt u [!UICONTROL View] toegang tot projecten nodig.</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de [!DNL Workfront] -beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld.<br> voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>[!UICONTROL View] toegang tot het gebied in de lijst</p> <p>Als u bijvoorbeeld de weergave van een project wilt wijzigen, hebt u [!UICONTROL View] toegang tot projecten nodig.</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
-   <td> <p>[!UICONTROL View] of hogere machtigingen voor de weergave die op de lijst is toegepast</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td role="rowheader">Objectmachtigingen</td> 
+   <td> <p>[!UICONTROL View] of hogere machtigingen voor de weergave die op de lijst is toegepast</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## De weergave van een lijst wijzigen
++++
+
+## Een lijst wijzigen
 
 1. Ga naar de lijst in [!DNL Workfront] die u wilt wijzigen.
 
@@ -101,7 +114,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Als u de kolommen in een lijst opnieuw wilt rangschikken, houdt u de muis boven een kolomkop om het handje weer te geven en klikt u om de kolom naar de gewenste positie te slepen.
 
-   De positie van de kolom wordt opgeslagen totdat u de pagina vernieuwt.\
+   De positie van de kolom wordt opgeslagen totdat u de pagina vernieuwt.
+
    Voor meer informatie over het aanpassen van de breedte en de orde van kolommen in een lijst, zie het artikel [ kolombreedte en orde wijzigen ](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
 1. Als u de sorteervolgorde van een lijst wilt aanpassen, klikt u op een kolomkop om deze te selecteren en houdt u vervolgens de CMD-toets (ingeschakeld [!DNL Mac]) of de CTRL-toets (ingeschakeld [!DNL Windows] ) op het toetsenbord ingedrukt en selecteert u maximaal twee extra kolomkoppen om op deze koppen te sorteren.

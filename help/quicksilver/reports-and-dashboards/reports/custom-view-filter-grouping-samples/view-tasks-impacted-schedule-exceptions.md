@@ -2,19 +2,21 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Weergave: taken die worden beïnvloed door uitzonderingen van schema'
+title: "Mening: Taken beïnvloed door de Uitzonderingen van het Programma"
 description: Deze taakmening identificeert taken die wegens weekends, Persoonlijke Tijd weg, of andere planningsuitzonderingen moeten te voltooien.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 7d7c77fa-d9a7-4e91-8dae-ad3aaca6f1da
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
 
 # Weergave: taken die worden beïnvloed door planningsuitzonderingen
+
+<!--Audited: 11/2024-->
 
 Deze taakmening identificeert taken die wegens weekends, Persoonlijke Tijd weg, of andere planningsuitzonderingen moeten te voltooien.
 
@@ -30,6 +32,8 @@ In deze weergave wordt het volgende weergegeven:
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -37,38 +41,158 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Verzoek om een weergave te wijzigen </p>
-   <p>Plan om een rapport te wijzigen</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p> Huidige: 
+   <ul>
+   <li>Verzoek om een weergave te wijzigen</li> 
+   <li>Plan om een rapport te wijzigen</li>
+   </ul>
+     </p>
+     <p> Nieuw: 
+   <ul>
+   <li>Medewerker om een weergave te wijzigen</li> 
+   <li>Standaard voor het wijzigen van een rapport</li>
+   </ul>
+     </p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een rapport te wijzigen</p> <p>Toegang tot filters, weergaven en groepen bewerken om een weergave te wijzigen</p> <p><b>OPMERKING</b>
-
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
-</tr>   
+   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een rapport te wijzigen</p> <p>Toegang tot filters, weergaven en groepen bewerken om een weergave te wijzigen</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Taken weergeven die door planningsuitzonderingen worden beïnvloed
 
 1. Ga naar een takenlijst.
 1. Van het **drop-down menu van de Mening**, uitgezochte **Nieuwe Mening**.
-
 1. In het **gebied van de Voorproef van de Kolom**, elimineer alle kolommen behalve één.
-1. Klik de kopbal van de resterende kolom, dan klik **Schakelaar aan de Wijze van de Tekst**.
-1. De muis over het gebied van de tekstwijze en klikt **om tekst** uit te geven.
-1. Verwijder de tekst u in het **vakje van de Wijze van de Tekst** vindt, en vervang het met de volgende code:
-   <pre>column.0.descriptionkey=name <br> column.0.link.linkproperty.0.name=ID <br> column.0.link.linkproperty.0.valueField=ID <br> column.0.link.linkproperty.0.valueformat=int <br> column.0.link.lookup=link.view <br> column.0.link.valueField=objCode 5} column.0.link.valueformat=val <br> column.0.linkedname=direct <br> column.0.listsort=string(naam) <br> column.0.namekey=name.abbr <br> column.0.querysort=name <br> column.0.shortview=false <br> column.0.stretch=100 {1 2} column.0.valueField=name <br> column.0.valueformat=HTML <br> column.0.width=150 <br> column.1.descriptionkey=duration <br> column.1.linkedname=direct <br> column.1.listsort=intAsInt (durationMinutes) <br> column.1.namekey=duration.abbr <br> column.1.querysort=durationMinutes <br> column.1.shortview=false <br> column.1.stretch=0 <br> column.1.valueField=durationFieldLong <br> column.1.valueformat=compound <br> column.1.viewalias duur <br> column.1.width=80 <br> column.2.descriptionkey=planedstartdate <br> column.2.linkedname=direct <br> column.2.listsort=atDateAsAtDate (scheduledStartDate) <br> column.2.namekey=planedstartdate.abbr <br> column.2.querysort=scheduledStartDate <br> column.2.shortview=false <br> column.2.stretch=0 <br> column.2.valueField=SchedulStartDate <br> column.2.valueformat=atDate <br> column.2.width=80 <br> column.3.description=planedcompltiondate <br> column.3.linkedname=direct <br> column.3.listsort=atDateAsAtDate (scheduledCompletionDate) <br> column.3.namekey=planedcompltiondate.abbr <br> column.3.querysort=scheduledCompletionDate <br> column.3.3 shortview=false <br> column.3.stretch=0 <br> column.3.valuefield=scheduledCompletionDate <br> column.3.valueformat=atDate <br> column.3.width=80 <br> column.4.aggregator.displayformat=int <br> column.4.aggregator.function SUM <br> column.4.aggregator.namekey=id <br> column.4.aggregator.valueexpression=DATEDIFF ({plannedCompletionDate}, <br> {plannedStartDate})+1 <br> column.4.aggregator.valueformat=intAsInt <br> column.4.descriptionkey=id <br> column.4.linkedname=direct <br> column.4.listsort=intAsInt (identiteitskaart) <br> column.4.name=Calendar Duur <br> column.4.querysort=ID <br> column.4.shortview=false <br> column.4.stretch=0 <br> column.4.value expression=DATETETEST DIFF ({plannedCompletionDate},{plannedStartDate}) + 1 <br> column.4.valueformat=int <br> column.4.width=80 <br> column.5.aggregator.displayformat=int <br> column.5.aggregator.function=SUM <br> column.5.aggregator.namekey=id <br> column.5.aggregator.valueexpression=DATEDIFF ({plannedStartDate}, {project}.<br><br><br> {plannedStartDate})+0 <br> column.5.aggregator.valueformat=intAsInt <br> column.5.descriptionkey=id <br> column.5.linkedname=direct <br> column.5.listsort=intAsInt (identiteitskaart) <br> column.5.name=Calendar Datum <br> column.5.querysort=ID <br> column.5.shortview=false <br> column.5.stretch=0 <br> column.5.valueexpression=DATEDIFF ({plannedStartDate}, {project}.{plannedStartDate})+0 <br> column.5.valueformat=int <br> column.5.width=80 <br> column.6.aggregator.displayformat=int <br> column.6.aggregator.function=SUM <br> column.6.aggregator.namekey=id <br> column.6.aggregator.valueexpression=WEEKDAYDIFF ({plannedStartDate},<br> {plannedCompletionDate})+0 <br> column.6.aggregator.valueformat=HTML <br> column.6.descriptionkey=id <br> column.6.linkedname=direct <br> column.6.listsort=intAsInt (identiteitskaart) <br> column.6.name=Week Duur van de Dag <br>.6.querysort=ID <br> column.6.shortview=false <br> column.6.stretch=0 <br> column.6.valueexpression=WEEKDAYDIFF ({plannedStartDate}, {plannedCompletionDate}) + 0 <br> column.6.valueFormat=int <br> column.6.width=80 <br> 3} column.7.aggregator.displayformat=int <br> column.7.aggregator.expression=IF ((WEEKDAYDIFF ({plannedStartDate}, {plannedCompletionDate}))&gt; ({duration}/480), "Uitzondering",") <br> column.7.aggregator.function=SUM <br> column.7 aggregator.namekey=id <br> column.7.aggregator.valueformat=HTML <br> column.7.linkedname=direct <br> column.7.listsort=intAsInt (identiteitskaart) <br> column.7.name=Schedule <br> column.7.querysort=ID <br> column.7.shortview=false <br> column.7.stretch=0 <br> column.7.valueexpression=IF ((WEEKDAYDIFF ({plannedStartDate}, {plannedCompletionDate}))&gt; ({duration}/480), "Uitzondering",") <br> column.7.valueformat=HTML <br> column.7.width 80</pre>
+1. Klik de kopbal van de resterende kolom, dan klik **Schakelaar aan de Wijze van de Tekst** > **geeft de Wijze van de Tekst** uit.
+1. Verwijder de tekst u in **vindt geef de Wijze van de Tekst** vakje uit, en vervang het met de volgende code:
 
-1. Klik **sparen Mening**.
+   ```
+   column.0.descriptionkey=name
+   column.0.link.linkproperty.0.name=ID
+   column.0.link.linkproperty.0.valuefield=ID
+   column.0.link.linkproperty.0.valueformat=int
+   column.0.link.lookup=link.view
+   column.0.link.valuefield=objCode
+   column.0.link.valueformat=val
+   column.0.linkedname=direct
+   column.0.listsort=string(name)
+   column.0.namekey=name.abbr
+   column.0.querysort=name
+   column.0.shortview=false
+   column.0.stretch=100
+   column.0.valuefield=name
+   column.0.valueformat=HTML
+   column.0.width=150
+   column.1.descriptionkey=duration
+   column.1.linkedname=direct
+   column.1.listsort=intAsInt(durationMinutes)
+   column.1.namekey=duration.abbr
+   column.1.querysort=durationMinutes
+   column.1.shortview=false
+   column.1.stretch=0
+   column.1.valuefield=durationFieldLong
+   column.1.valueformat=compound
+   column.1.viewalias=duration
+   column.1.width=80
+   column.2.descriptionkey=plannedstartdate
+   column.2.linkedname=direct
+   column.2.listsort=atDateAsAtDate(plannedStartDate)
+   column.2.namekey=plannedstartdate.abbr
+   column.2.querysort=plannedStartDate
+   column.2.shortview=false
+   column.2.stretch=0
+   column.2.valuefield=plannedStartDate
+   column.2.valueformat=atDate
+   column.2.width=80
+   column.3.descriptionkey=plannedcompletiondate
+   column.3.linkedname=direct
+   column.3.listsort=atDateAsAtDate(plannedCompletionDate)
+   column.3.namekey=plannedcompletiondate.abbr
+   column.3.querysort=plannedCompletionDate
+   column.3.shortview=false
+   column.3.stretch=0
+   column.3.valuefield=plannedCompletionDate
+   column.3.valueformat=atDate
+   column.3.width=80
+   column.4.aggregator.displayformat=int
+   column.4.aggregator.function=SUM
+   column.4.aggregator.namekey=id
+   column.4.aggregator.valueexpression=DATEDIFF({plannedCompletionDate},
+   {plannedStartDate})+1
+   column.4.aggregator.valueformat=intAsInt
+   column.4.descriptionkey=id
+   column.4.linkedname=direct
+   column.4.listsort=intAsInt(ID)
+   column.4.name=Calendar Duration
+   column.4.querysort=ID
+   column.4.shortview=false
+   column.4.stretch=0
+   column.4.valueexpression=DATEDIFF({plannedCompletionDate},{plannedStartDate})+1
+   column.4.valueformat=int
+   column.4.width=80
+   column.5.aggregator.displayformat=int
+   column.5.aggregator.function=SUM
+   column.5.aggregator.namekey=id
+   column.5.aggregator.valueexpression=DATEDIFF({plannedStartDate},{project}.
+   {plannedStartDate})+0
+   column.5.aggregator.valueformat=intAsInt
+   column.5.descriptionkey=id
+   column.5.linkedname=direct
+   column.5.listsort=intAsInt(ID)
+   column.5.name=Calendar Start Date
+   column.5.querysort=ID
+   column.5.shortview=false
+   column.5.stretch=0
+   column.5.valueexpression=DATEDIFF({plannedStartDate},{project}.{plannedStartDate})+0
+   column.5.valueformat=int
+   column.5.width=80
+   column.6.aggregator.displayformat=int
+   column.6.aggregator.function=SUM
+   column.6.aggregator.namekey=id
+   column.6.aggregator.valueexpression=WEEKDAYDIFF({plannedStartDate},
+   {plannedCompletionDate})+0
+   column.6.aggregator.valueformat=HTML
+   column.6.descriptionkey=id
+   column.6.linkedname=direct
+   column.6.listsort=intAsInt(ID)
+   column.6.name=Week Day Duration
+   column.6.querysort=ID
+   column.6.shortview=false
+   column.6.stretch=0
+   column.6.valueexpression=WEEKDAYDIFF({plannedStartDate},{plannedCompletionDate})+0
+   column.6.valueformat=int
+   column.6.width=80
+   column.7.aggregator.displayformat=int
+   column.7.aggregator.expression=IF((WEEKDAYDIFF({plannedStartDate},{plannedCompletionDate}))>({duration}/480),"Exception","")
+   column.7.aggregator.function=SUM
+   column.7.aggregator.namekey=id
+   column.7.aggregator.valueformat=HTML
+   column.7.linkedname=direct
+   column.7.listsort=intAsInt(ID)
+   column.7.name=Schedule
+   column.7.querysort=ID
+   column.7.shortview=false
+   column.7.stretch=0
+   column.7.valueexpression=IF((WEEKDAYDIFF({plannedStartDate},{plannedCompletionDate}))>({duration}/480),"Exception","")
+   column.7.valueformat=HTML
+   column.7.width=80
+   ```
+
+1. Klik **Gedaan** > **sparen Mening**.

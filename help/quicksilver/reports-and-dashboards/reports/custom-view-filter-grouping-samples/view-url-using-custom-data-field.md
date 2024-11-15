@@ -2,19 +2,21 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Weergave: externe URL met gebruik van aangepast gegevensveld'
+title: 'Weergave: externe URL met aangepast gegevensveld'
 description: U kunt een koppeling naar een interne aangepaste URL weergeven door in een taakweergave een berekend aangepast veld met de naam "Aangepaste URL" te gebruiken.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e402fed-71ce-438a-8da9-8f8d37550ea8
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 4247f2b437a5627ac4cba5289573eb4f1c18c583
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
 
 # Weergeven: externe URL met gebruik van aangepast gegevensveld
+
+<!--Audited: 11/2024-->
 
 U kunt een verbinding aan een interne douane URL tonen door a **Berekend Gebied van de Douane** genoemd &quot;Douane URL&quot;in de Mening van de Taak van a **te gebruiken**.
 
@@ -28,6 +30,8 @@ Met dezelfde stappen kunt u vergelijkbare berekende aangepaste velden en aangepa
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -35,28 +39,39 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Verzoek om een weergave te wijzigen </p>
-   <p>Plan om een rapport te wijzigen</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p> Huidige: 
+   <ul>
+   <li>Verzoek om een weergave te wijzigen</li> 
+   <li>Plan om een rapport te wijzigen</li>
+   </ul>
+     </p>
+     <p> Nieuw: 
+   <ul>
+   <li>Medewerker om een weergave te wijzigen</li> 
+   <li>Standaard voor het wijzigen van een rapport</li>
+   </ul>
+     </p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een rapport te wijzigen</p> <p>Toegang tot filters, weergaven en groepen bewerken om een weergave te wijzigen</p> <p><b>OPMERKING</b>
-
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
-</tr>  
+   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een rapport te wijzigen</p> <p>Toegang tot filters, weergaven en groepen bewerken om een weergave te wijzigen</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Het berekende aangepaste veld Aangepaste URL maken
 
@@ -69,15 +84,7 @@ Als u toegang hebt om een aangepast formulier te maken, kunt u een berekend aang
 
    CONCAT(&#39;&#39;https://`<domain>`.my.workfront.com&#39;,&#39;/&#39;,&#39;&#39;task/&#39;,ID,&#39;/overview&#39;&#39;)
 
-1. Vervang &quot;`<domain>`&quot;met uw daadwerkelijke domeinnaam, zonder de steunen.
-
-   De
-
-   ```
-   /overview
-   ```
-
-   Het gedeelte van dit URL leidt de verbinding aan de **sectie van het Overzicht** in het linkerpaneel van de taak.
+1. Vervang &quot;`<domain>`&quot;met uw daadwerkelijke domeinnaam, zonder de steunen. Het `/overview` gedeelte van dit URL leidt de verbinding aan de **2} sectie van het Overzicht {in het linkerpaneel van de taak.**
 
 1. Na het creëren van uw **Berekend Gebied van de Douane**, maak de **Vorm van de Douane** met dit gebied aan verscheidene taken in Adobe Workfront vast die u vertoning in uw nieuwe mening wilt.
 
@@ -94,10 +101,51 @@ Deze weergave aanpassen:
 1. Klik **aanpassen Mening**.
 1. Verwijder alle kolommen binnen de mening, behalve de eerste kolom.
 1. Klik op de kop van de eerste kolom.
-1. Klik **Schakelaar aan de Wijze van de Tekst** in de hoger-juiste hoek van de interface.
-1. Klik **klikken om tekst** uit te geven.
-1. Plak de tekstmodus hieronder in uw ene kolom.\
-   In dit voorbeeld wordt &#39;&#39;column.1&#39;&#39; toont de waarde op het gebied van &quot;Douane URL&quot;als verbinding in het 0} Overzicht van de taak **.** &quot;Kolom.2.&quot; toont de waarde die in het **wordt opgeslagen gebied URL** van de taak.
-   <pre>column.0.descriptionkey=name <br> column.0.link.linkproperty.0.name=ID <br> column.0.link.linkproperty.0.valueField=ID <br> column.0.link.linkproperty.0.valueformat= int <br> column.0.link.lookup=link.view <br> column.0.link.valueField= objCode 5} column.0.link.valueformat= val <br> column.0.linkedname=direct <br> column.0.listsort=string(name) <br> column.0.namekey=name.abbr <br> column.0.querysort=name <br> column.0.shortview=false <br> column.0.stretch=100 {1 2} column.0.valueField=name <br> column.0.valueformat=HTML <br> column.0.width=150 <br> column.1.description=Custom URL <br> column.1.link.isnewwindow=true <br> column.1.link.url=customDataLabelsAsString (Douane)<br> column.1.linkedname=direct <br> column.1.listsort=customDataLabelsAsString (Douane URL) <br> column.1.name=Custom URL <br> column.1.querysort=URL <br> column.1.shortview=false <br> column.1.stretch=0 <br> 1.valueField=Custom URL <br> column.1.valueformat=customDataLabelsAsString <br> column.1.width=150 <br> column.2.descriptionkey=url <br> column.2.linkedname=direct <br> column.2.listsort=string(URL) <br>.2.namekey=url.abbr <br> column.2.querysort=URL <br> column.2.shortview=false <br> column.2.stretch=0 <br> column.2.valueField=URL <br> column.2.valueFormat=HTML <br> column.2.width=150<br><br></pre>
+1. Klik **Schakelaar aan de Wijze van de Tekst** > **uitgeven de Wijze van de Tekst**.
+1. Verwijder de tekst in **geeft de Wijze van de Tekst** vakje uit en vervangt het met de volgende code:
 
-1. Klik **sparen Mening**.
+
+   ```
+   column.0.descriptionkey=name
+   column.0.link.linkproperty.0.name=ID
+   column.0.link.linkproperty.0.valuefield=ID
+   column.0.link.linkproperty.0.valueformat= int
+   column.0.link.lookup=link.view
+   column.0.link.valuefield= objCode
+   column.0.link.valueformat= val
+   column.0.linkedname=direct
+   column.0.listsort=string(name)
+   column.0.namekey=name.abbr
+   column.0.querysort=name
+   column.0.shortview=false
+   column.0.stretch=100
+   column.0.valuefield=name
+   column.0.valueformat=HTML
+   column.0.width=150
+   column.1.description=Custom URL
+   column.1.link.isnewwindow=true
+   column.1.link.url=customDataLabelsAsString(Custom URL)
+   column.1.linkedname=direct
+   column.1.listsort=customDataLabelsAsString(Custom URL)
+   column.1.name=Custom URL
+   column.1.querysort=URL
+   column.1.shortview=false
+   column.1.stretch=0
+   column.1.valuefield=Custom URL
+   column.1.valueformat=customDataLabelsAsString
+   column.1.width=150
+   column.2.descriptionkey=url
+   column.2.linkedname=direct
+   column.2.listsort=string(URL)
+   column.2.namekey=url.abbr
+   column.2.querysort=URL
+   column.2.shortview=false
+   column.2.stretch=0
+   column.2.valuefield=URL
+   column.2.valueformat=HTML
+   column.2.width=150
+   ```
+
+   In dit voorbeeld wordt &#39;&#39;column.1&#39;&#39; De lijnen tonen de waarde op het gebied van de &quot;Douane URL&quot;als verbinding in het 0} Overzicht van de taak **sectie; &quot;column.2.&quot;** toont de waarde die in het **wordt opgeslagen gebied URL** van de taak.
+
+1. Klik **Gedaan** > **sparen Mening**.

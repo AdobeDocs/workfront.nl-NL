@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 667b930290c6e2126c5dc7fa95e279ad3405901c
+source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
 workflow-type: tm+mt
-source-wordcount: '3847'
+source-wordcount: '4106'
 ht-degree: 0%
 
 ---
@@ -264,7 +264,7 @@ In alineasvelden wordt aanvullende alfanumerieke informatie over een record vast
 
 1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
    * **Naam**: De naam van het gebiedstype, aangezien het in een lijst of de pagina van Details van het verslag zal verschijnen. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
+   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een gebied toont wanneer u over de kolom van het gebied in een lijst beweegt, of <span class="preview"> wanneer u het informatiepictogram naast de gebiedsnaam in de de detailspagina van het verslag klikt.</span>
 1. Klik **creëren**.
 
    Het nieuwe paragraafgebied wordt toegevoegd als kolom aan het verslagtype, en zijn waarden kunnen met verslagen worden geassocieerd.
@@ -281,7 +281,7 @@ U kunt een veld met meerdere selecties gebruiken om aanvullende informatie in el
 
 1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
    * **Naam**: De naam van het gebiedstype, aangezien het in een lijst of de pagina van Details van het verslag zal verschijnen. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
+   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een gebied toont wanneer u over de kolom van het gebied in een lijst beweegt, of <span class="preview"> wanneer u het informatiepictogram naast de gebiedsnaam in de de detailspagina van het verslag klikt.</span>
    * **Keuzen**: De opties die de gebruikers kunnen selecteren wanneer het bijwerken van dit gebied. U kunt zowel cijfers als letters gebruiken voor de naam van elke keuze.
 1. Klik **toevoegen keus** om meer keuzen toe te voegen. Er geldt geen limiet voor het aantal keuzen dat u kunt toevoegen aan een veld met meerdere selecties.
 1. (Optioneel) Sleep een keuze handmatig in de gewenste volgorde of selecteer de optie
@@ -303,7 +303,7 @@ Met velden die een enkele selectie maken, wordt aanvullende informatie in elke g
 
 1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
    * **Naam**: De naam van het gebiedstype, aangezien het in een lijst of de pagina van Details van het verslag zal verschijnen. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
+   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een gebied toont wanneer u over de kolom van het gebied in een lijst beweegt, of <span class="preview"> wanneer u het informatiepictogram naast de gebiedsnaam in de de detailspagina van het verslag klikt.</span>
    * **Keuzen**: De opties beschikbaar om van het drop-down menu te selecteren nadat het gebied wordt bewaard. U kunt zowel cijfers als letters voor de naam van elke keus hebben.
 
 1. Klik **toevoegen keus** om meer keuzen toe te voegen. Er geldt geen limiet voor het aantal keuzen dat u kunt toevoegen aan een veld voor één keuze.
@@ -325,7 +325,7 @@ U kunt een datumveld gebruiken om aanvullende informatie vast te leggen in de da
 
 1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
    * **Naam**: De naam van het gebiedstype, aangezien het in een lijst of de verslagpagina zal verschijnen. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
+   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een gebied toont wanneer u over de kolom van het gebied in een lijst beweegt, of <span class="preview"> wanneer u het informatiepictogram naast de gebiedsnaam in de de detailspagina van het verslag klikt.</span>
    * **Formaat van de Datum**: Het type van datumformaat u op dit gebied wilt tonen. <!--update this casing - submitted bug for it-->
 
      Selecteer een van de volgende indelingen:
@@ -355,7 +355,7 @@ Met een getalveldtype wordt informatie vastgelegd in een getalnotatie.
 1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
 
    * **Naam**: De naam van het gebiedstype, aangezien het in een lijst of de verslagpagina zal verschijnen.
-   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
+   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een gebied toont wanneer u over de kolom van het gebied in een lijst beweegt, of <span class="preview"> wanneer u het informatiepictogram naast de gebiedsnaam in de de detailspagina van het verslag klikt.</span>
    * **Precisie**: Het aantal decimalen die u voor het gebied wilt registreren. U kunt maximaal 6 decimalen weergeven.
    * **sta negatieve aantallen** toe: selecteer deze optie als u negatieve aantallen op dit gebied wilt toestaan. Deze optie is standaard uitgeschakeld.
 
@@ -377,7 +377,7 @@ Percentageveldtypen leggen informatie vast in een getalnotatie gevolgd door een 
 
 1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
    * **Naam**: De naam van het gebiedstype, aangezien het in een lijst of de verslagpagina zal verschijnen.
-   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
+   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een gebied toont wanneer u over de kolom van het gebied in een lijst beweegt, of <span class="preview"> wanneer u het informatiepictogram naast de gebiedsnaam in de de detailspagina van het verslag klikt.</span>
    * **Precisie**: Het aantal decimalen die u voor het gebied wilt registreren. U kunt maximaal 6 decimalen weergeven.
    * **sta negatieve aantallen** toe: selecteer deze optie als u negatieve percentagewaarden op dit gebied wilt toestaan. Deze optie is standaard uitgeschakeld.
 
@@ -389,7 +389,7 @@ Percentageveldtypen leggen informatie vast in een getalnotatie gevolgd door een 
 
    * **toon als**: Van het drop-down menu, kies hoe u de percentagewaarden in de lijstmening wilt tonen. Selecteer een van de volgende opties:
       * **Aantal**: De percentagewaarde toont als aantal dat door het percentageteken wordt gevolgd.
-      * **Bar**: De percentagewaarde toont als bar naast het percentageaantal. De vulkleur van de balk geeft de percentagewaarde aan.
+      * **Bar**: De percentagewaarde toont als bar naast het percentageaantal. De vulkleur van de balk geeft de percentagewaarde aan. Dit is de standaardselectie.
       * **Cirkel**: De percentagewaarde toont als overzicht van een cirkel naast het percentageaantal. De vulkleur van de omtrek van de cirkel geeft de percentagewaarde aan.
 
    >[!NOTE]
@@ -412,7 +412,7 @@ Valutatypen leggen informatie vast in een getalnotatie voorafgegaan door een val
 
 1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
    * **Naam**: De naam van het gebiedstype, aangezien het in een lijst of de verslagpagina zal verschijnen. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
+   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een gebied toont wanneer u over de kolom van het gebied in een lijst beweegt, of <span class="preview"> wanneer u het informatiepictogram naast de gebiedsnaam in de de detailspagina van het verslag klikt.</span>
    * **Valuta**: Het type van munt u op dit gebied wilt tonen. Dit is een lijst van valuta&#39;s volgens de Internationale Organisatie voor Normalisatie (ISO).
    * **Precisie**: Het aantal decimalen die u voor het gebied wilt registreren. U kunt maximaal 6 decimalen weergeven.
    * **sta negatieve aantallen** toe: selecteer deze optie als u negatieve muntwaarden op dit gebied wilt toestaan. Deze optie is standaard uitgeschakeld.
@@ -435,7 +435,7 @@ Met het veldtype Selectievakje kunt u één optie voor het selectievakje aan een
 
 1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
    * **Naam**: De naam van het gebiedstype, aangezien het in een lijst of de verslagpagina zal verschijnen. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
+   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een gebied toont wanneer u over de kolom van het gebied in een lijst beweegt, of <span class="preview"> wanneer u het informatiepictogram naast de gebiedsnaam in de de detailspagina van het verslag klikt.</span>
 1. Klik **creëren**.
 
    Het nieuwe selectievakje wordt als kolom toegevoegd aan het recordtype en de waarden ervan kunnen aan records worden gekoppeld.
@@ -453,7 +453,7 @@ Voor meer informatie, zie [ overzicht van de gebieden van de Formule ](/help/qui
 1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
 
    * **Naam**: Ga een naam voor het nieuwe gebied in.
-   * **Beschrijving**: Voeg informatie over het nieuwe gebied toe.
+   * **Beschrijving**: Voeg informatie over het nieuwe gebied toe. De beschrijving van een gebied toont wanneer u over de kolom van het gebied in een lijst beweegt, of <span class="preview"> wanneer u het informatiepictogram naast de gebiedsnaam in de de detailspagina van het verslag klikt.</span>
    * **Formule**: Begin typend minstens één karakter om tot een uitdrukking toegang te hebben, dan selecteer het wanneer het in de lijst toont.
 
 1. Klik op de geselecteerde expressie om de definitie weer te geven en de opmaak weer te geven.
@@ -509,7 +509,7 @@ Met het veldtype Personen kunt u een gebruiker <!--, job role, or team--> aan ee
 
 1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
    * **Naam**: De naam van het gebiedstype, aangezien het in een lijst of de verslagpagina zal verschijnen.
-   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
+   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een gebied toont wanneer u over de kolom van het gebied in een lijst beweegt, of <span class="preview"> wanneer u het informatiepictogram naast de gebiedsnaam in de de detailspagina van het verslag klikt.</span>
    * **staat veelvoudige waarden** toe: Selecteer deze optie als u gebruikers wilt toestaan om meer dan één gebruiker op dit gebied toe te voegen. Deze optie is standaard uitgeschakeld.
 
    >[!NOTE]
@@ -531,7 +531,7 @@ U kunt het veld Gemaakt op veldtype gebruiken om de gebruiker die de record heef
 1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
 
    * **Naam**: De naam van het gebiedstype, aangezien het in een lijst of de verslagpagina zal verschijnen. <!--this might change and they might prepopulate it with "Created by"-->
-   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
+   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een gebied toont wanneer u over de kolom van het gebied in een lijst beweegt, of <span class="preview"> wanneer u het informatiepictogram naast de gebiedsnaam in de de detailspagina van het verslag klikt.</span>
 
 1. Klik **creëren**.
 
@@ -551,7 +551,7 @@ Met het veldtype Gemaakt datum kunt u de datum toevoegen waarop de record is gem
 1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
 
    * **Naam**: De naam van het gebiedstype, aangezien het in een lijst of de verslagpagina zal verschijnen. <!--this might change and they might prepopulate it with "Created date"-->
-   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
+   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een gebied toont wanneer u over de kolom van het gebied in een lijst beweegt, of <span class="preview"> wanneer u het informatiepictogram naast de gebiedsnaam in de de detailspagina van het verslag klikt.</span>
    * **Formaat van de Datum**: Uitgezocht van de volgende formaten:
 
       * **Landinstelling**: Gelijke aan de scène van uw browser.
@@ -582,7 +582,7 @@ U kunt de Laatst gewijzigd op veldtype gebruiken om de gebruiker die de record h
 1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
 
    * **Naam**: De naam van het gebiedstype, aangezien het in een lijst of de verslagpagina zal verschijnen. <!--this might change and they might prepopulate it with "Created by"-->
-   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
+   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een gebied toont wanneer u over de kolom van het gebied in een lijst beweegt, of <span class="preview"> wanneer u het informatiepictogram naast de gebiedsnaam in de de detailspagina van het verslag klikt.</span>
 
 1. Klik **creëren**.
 
@@ -602,7 +602,7 @@ Met het veldtype Laatst gewijzigd kunt u de datum toevoegen waarop een record vo
 1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
 
    * **Naam**: De naam van het gebiedstype, aangezien het in een lijst of de verslagpagina zal verschijnen. <!--this might change and they might prepopulate it with "Created date"-->
-   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
+   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een gebied toont wanneer u over de kolom van het gebied in een lijst beweegt, of <span class="preview"> wanneer u het informatiepictogram naast de gebiedsnaam in de de detailspagina van het verslag klikt.</span>
    * **Formaat van de Datum**: Uitgezocht van de volgende formaten:
 
       * **Landinstelling**: Gelijke aan de scène van uw browser.

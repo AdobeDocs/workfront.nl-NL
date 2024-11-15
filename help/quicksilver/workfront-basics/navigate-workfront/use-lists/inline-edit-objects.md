@@ -1,19 +1,21 @@
 ---
 product-area: projects
 navigation-topic: use-lists
-title: Items inline bewerken in een lijst in  [!DNL Adobe Workfront]
+title: Inline Edit Items in a List in  [!DNL Adobe Workfront]
 description: U kunt objecten inline bewerken wanneer ze in een lijst of rapport worden weergegeven. Wanneer u de informatie over objecten bewerkt die in een lijst of rapport worden weergegeven, wordt het object direct bijgewerkt.
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: a94b5aaf-71de-4fcd-946b-459ca3edf7e4
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '699'
 ht-degree: 0%
 
 ---
 
 # Items inline bewerken in een lijst in [!DNL Adobe Workfront]
+
+<!--Audited: 11/2024-->
 
 U kunt objecten inline bewerken wanneer ze in een lijst of rapport worden weergegeven. Wanneer u de informatie over objecten bewerkt die in een lijst of rapport worden weergegeven, wordt het object direct bijgewerkt.
 
@@ -24,14 +26,18 @@ Voor meer informatie over lijsten, zie [ begonnen worden met lijsten in  [!DNL A
 De meeste objecten die in lijsten of rapporten worden weergegeven, kunnen inline worden bewerkt in [!DNL Adobe Workfront] , maar er zijn enkele beperkingen, waaronder:
 
 * U kunt berekende velden of [!DNL Workfront] ingebouwde velden die berekeningen zijn, niet bewerken.
-* U kunt alleen velden bewerken die rechtstreeks aan de objecten in de lijst zijn gekoppeld. U kunt geen velden bewerken die behoren tot objecten die zijn gekoppeld aan de objecten in de lijst.\
-   Bijvoorbeeld, kunt u de status van een taak in een rapport van de Taak uitgeven, maar u kunt niet de naam van het project uitgeven de taak met in het zelfde rapport wordt geassocieerd. U kunt de naam van het project slechts in een rapport van het Project uitgeven.
-* U kunt velden niet inline bewerken wanneer de standaardvaluta niet wordt weergegeven in de weergave voor een lijst.\
-   Voor informatie bij het tonen van de standaardmunt, zie de sectie [ rapporten met unieke valuta ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md#editing-reports-with-unique-currencies) in het artikel [ uitgeven financiële gegevensrapporten met unieke wisselkoersen ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
+* U kunt alleen velden bewerken die rechtstreeks aan de objecten in de lijst zijn gekoppeld. U kunt geen velden bewerken die behoren tot objecten die zijn gekoppeld aan de objecten in de lijst.
+
+  Bijvoorbeeld, kunt u de status van een taak in een rapport van de Taak uitgeven, maar u kunt niet de naam van het project uitgeven de taak met in het zelfde rapport wordt geassocieerd. U kunt de naam van het project slechts in een rapport van het Project uitgeven.
+* U kunt velden niet inline bewerken wanneer de standaardvaluta niet wordt weergegeven in de weergave voor een lijst.
+
+  Voor informatie bij het tonen van de standaardmunt, zie de sectie [ rapporten met unieke valuta ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md#editing-reports-with-unique-currencies) in het artikel [ uitgeven financiële gegevensrapporten met unieke wisselkoersen ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
 * U kunt markeringen en pictogrammen die in een lijst worden weergegeven niet bewerken.
 * U kunt rapportvelden die afkomstig zijn uit andere rapporten niet inline bewerken.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -40,25 +46,34 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
-   <td> <p>[!UICONTROL Review] of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td> 
+    <p>Nieuw:</p>
+   <ul><li><p>Medewerker of hoger </p></li>
+   </ul>
+
+<p>Huidige:</p>
+   <ul><li><p>Aanvraag of hoger</p></li>
+    </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>[!UICONTROL Edit] toegang tot het gebied in de lijst</p> <p>Als u bijvoorbeeld inline bewerkingstaken in een project wilt uitvoeren, hebt u [!UICONTROL Edit] toegang tot projecten nodig.</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de [!DNL Workfront] -beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld.<br> voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>[!UICONTROL Edit] toegang tot het gebied in de lijst</p> <p>Als u bijvoorbeeld inline bewerkingstaken in een project wilt uitvoeren, hebt u [!UICONTROL Edit] toegang tot projecten nodig.</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
-   <td> <p>[!UICONTROL Manage]</p> <p>U moet ook machtigingen hebben om bepaalde velden te bewerken, zoals aangepaste velden, status, enzovoort.</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td role="rowheader">Objectmachtigingen</td> 
+   <td> <p>[!UICONTROL Manage]</p> <p>U moet ook machtigingen hebben om bepaalde velden te bewerken, zoals aangepaste velden, status, enzovoort.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Objecten inline bewerken
 
@@ -72,13 +87,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >
    >Als u meerdere pagina&#39;s hebt, kunt u een object zoeken met:
    >
-   >   
-   >   
-   >   * **Paginering**: Klik achteruit en door:sturen pijlen om tussen pagina&#39;s te navigeren.\
+   >   * **Paginering**: Klik achteruit en door:sturen pijlen om tussen pagina&#39;s te navigeren.
    >     Het gebied [!UICONTROL pagination] bevindt zich in de rechterbenedenhoek van de lijst en blijft ongewijzigd wanneer u door de lijst schuift.
-   >   * **Snelle filter**: Klik het filterpictogram of type Alt+F om de snelle filter te openen, dan tekst in te gaan om slechts punten te tonen die de ingegane tekst bevatten.\
+   >   * **Snelle filter**: Klik het filterpictogram of type Alt+F om de snelle filter te openen, dan tekst in te gaan om slechts punten te tonen die de ingegane tekst bevatten.
    >     Het snelfilter bevindt zich op de lijstwerkbalk. Voor meer informatie, zie [ de snelle filter op een lijst ](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md) toepassen.
-
 
    Als het veld kan worden bewerkt, worden het veld en alle andere velden in de lijst omgezet in bewerkbare cellen.
 
