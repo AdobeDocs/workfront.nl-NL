@@ -6,9 +6,9 @@ description: U kunt aan uw projecten in Optimizer van het Portfolio voorrang gev
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 54e33746-5995-49de-8e21-bf973f0694a6
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b07b4926ab1b1eee9b7698a445644e1cd312fa09
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>[!UICONTROL Manage] machtigingen voor het portfolio</p> <p>Contribute of hogere machtigingen voor de projecten</p>  </td> 
+   <td> <p>[!UICONTROL Manage] machtigingen voor het portfolio</p> <p>Contribute of hogere machtigingen voor de projecten</p> 
+   <p>U moet hebben leiden toestemmingen aan alle projecten in de lijst om <b> te kunnen gebruiken Vastgestelde projectprioriteit </b>.</p>
+    </td> 
   </tr> 
  </tbody> 
 </table>

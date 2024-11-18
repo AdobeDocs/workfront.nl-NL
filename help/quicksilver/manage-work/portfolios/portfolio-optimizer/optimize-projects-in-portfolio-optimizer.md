@@ -6,9 +6,9 @@ description: U kunt [!UICONTROL Portfolio Optimizer] gebruiken om aan uw project
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 25debc5b-5d7d-453f-ab0a-9bf3fba05693
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b07b4926ab1b1eee9b7698a445644e1cd312fa09
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>[!UICONTROL Manage] machtigingen voor het portfolio</p> <p>Contribute of hogere machtigingen voor de projecten</p>  </td> 
+   <td> <p>[!UICONTROL Manage] machtigingen voor het portfolio</p> <p>Contribute of hogere machtigingen voor de projecten</p> 
+   <p>U moet hebben leiden toestemmingen aan alle projecten in de lijst om <b> te kunnen gebruiken Vastgestelde projectprioriteit </b>.</p>
+    </td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,7 +61,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klik op het pictogram **[!UICONTROL Optimize]** .
 
-   ![](assets/optimize-icon-portfolio-optimizer.png)\
+   ![](assets/optimize-icon-portfolio-optimizer.png)
+
    De categorieën waarmee een project kan worden gescoord, worden links van het pictogram [!UICONTROL Optimize] weergegeven.
 
 1. Wijzig met de schuifcirkel de optimalisatie van een van de volgende categorieën:
@@ -78,9 +81,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Nadat de juiste gewichten voor de kolom **[!UICONTROL Score]** zijn ingesteld, klikt u op de kop van de kolom **[!UICONTROL Score]** om op deze kolom te sorteren. Het project met de hoogste score wordt getoond bij de bovenkant van de lijst.
 
-1. (Optioneel) Sleep projecten in de volgorde van de prioriteit.\
-   Hierdoor verandert de volgorde van de projecten in de [!UICONTROL Portfolio Optimizer] .
-1. (Optioneel) Klik op **[!UICONTROL Set Priority]** om de nieuwe prioriteit van de projecten op te slaan.\
+1. (Optioneel) Sleep projecten in de volgorde van de prioriteit.
+Hierdoor verandert de volgorde van de projecten in de [!UICONTROL Portfolio Optimizer] .
+1. (Optioneel) Klik op **[!UICONTROL Set Priority]** om de nieuwe prioriteit van de projecten op te slaan.
+
+   >[!NOTE]
+   >
+   >   U moet hebben leiden toestemmingen aan alle projecten in de lijst om **te kunnen gebruiken Vastgestelde projectprioriteit**.
+
    Voor meer informatie over het prioriteren van projecten in [!UICONTROL Portfolio Optimizer], zie het artikel [ projecten van Prioriteit in [!UICONTROL Portfolio Optimizer]](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 
 1. Klik op **[!UICONTROL Save]** om de [!UICONTROL Portfolio Optimizer] op te slaan.
