@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: 2bbfd449d913a5134c9c36b1ee10567973c56eaa
+source-git-commit: 4ea4d7d8fd16d4c4d7c2fe5f7adb15c2b44b6705
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '287'
 ht-degree: 0%
 
 ---
@@ -59,11 +59,11 @@ Ja. U kunt bijvoorbeeld een toepassing promoten van Sandox naar Productie of van
 
 Nee, delen wordt momenteel niet ondersteund.
 
-## Wanneer zou een het terugschroeven van prijzeneigenschap beschikbaar kunnen worden?
+## Is het terugdraaien van het pakket beschikbaar?
 
 ### Antwoord
 
-Terugdraaien is een topprioriteit en wordt momenteel ontwikkeld. Wij verwachten terugdraaifunctionaliteit in Q3 of Q4 2024 vrij te geven.
+Pakketterugdraaiacties zijn beschikbaar voor het meest recente pakket, binnen 24 uur na de installatie van het pakket.
 
 ## Is er een mogelijkheid om de promotie van afzonderlijke onderdelen over te slaan? Kan `Skip` worden toegevoegd waar de opties `Use Existing` , `Overwrite` en `Save with a new Name` &quot; staan, zodat u de bevordering van afzonderlijke parameters kunt overslaan?
 
