@@ -1,17 +1,22 @@
 ---
-title: 'Overzicht AI Assistant'
+title: Overzicht van AI-assistent
 content-type: reference
 description: Overzicht van AI-assistent
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
+exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
+source-git-commit: 64ad86e29bf18969f82dbdb54b98ca884d2ec26a
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '711'
 ht-degree: 0%
 
 ---
 
 # Overzicht van AI-assistent
+
+<span class="preview"> de informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar in de milieu van de Voorproef voor alle klanten, en in de milieu van de Productie voor klanten die maandelijkse versies hebben toegelaten. </span>
+
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 Met Workfront AI Assistant kunt u uw werk uitvoeren door informatie en suggesties in een gesprek in een natuurlijke taal aan te bieden. Met AI Assistant kunt u werken vloeiender maken met
 
@@ -79,6 +84,14 @@ AI Assistant biedt momenteel de volgende functionaliteit:
 
   Voor meer informatie, zie [ hulp van AI Medewerker ](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md) krijgen.
 
+<div class="preview">
+
+* Specifieke items zoeken in Workfront.
+
+  Voor meer informatie, zie [ Medewerker van het Gebruik AI om met projecten, taken, en kwesties ](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md) te werken.
+
+</div>
+
 * Formules genereren of verfijnen voor berekende aangepaste velden.
 
   >[!NOTE]
@@ -86,6 +99,20 @@ AI Assistant biedt momenteel de volgende functionaliteit:
   >Deze functionaliteit is alleen beschikbaar voor organisaties die zich op de Premier- of Ultimate Workfront-plannen bevinden.
 
   Voor meer informatie, zie [ berekende gebiedsformules met AI Medewerker ](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md) produceren of herzien.
+
+## Objecttypen beschikbaar voor AI Assistant
+
+De AI-assistent kan query&#39;s uitvoeren op gegevens die zijn gekoppeld aan de volgende objecttypen als de gebruiker over de geldige machtigingen in Workfront beschikt:
+
+* Portfolio&#39;s
+* Programma&#39;s
+* Projecten
+* Taken
+* Problemen
+* Aangepaste formulieren
+* Gebruikers
+* Workfront-planningsrecords
+
 
 ## AI-assistent openen
 
@@ -113,5 +140,3 @@ Om de Adobe Gen AI-overeenkomst te verzoeken:
 1. Voer de naam en het e-mailadres in van de persoon in uw organisatie die de Adobe Gen AI-overeenkomst zal ondertekenen.
 
    De overeenkomst wordt ter ondertekening naar deze persoon verzonden. Nadat deze is ondertekend en geretourneerd, wordt AI Assistant ingeschakeld voor uw organisatie.
-
-
