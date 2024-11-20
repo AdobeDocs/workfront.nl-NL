@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: f8f86eae11e7f175e130d7f0265d92519923402f
 workflow-type: tm+mt
-source-wordcount: '1771'
+source-wordcount: '1768'
 ht-degree: 0%
 
 ---
@@ -64,19 +64,20 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. In het linkerpaneel, klik **[!UICONTROL Project Preferences]** > **[!UICONTROL Tasks & Issues].**
 
-1. Ga op de pagina die wordt weergegeven verder met een van de vijf onderstaande secties om instellingen voor [!UICONTROL New Task Defaults] , [!UICONTROL Issues] , [!UICONTROL Deletion] , [!UICONTROL Actual Dates] en [!UICONTROL Access] te configureren:
+1. Ga op de pagina die wordt weergegeven verder met een van de zes onderstaande secties om instellingen voor [!UICONTROL New Task Defaults] , [!UICONTROL Issues] , [!UICONTROL Deletion] , [!UICONTROL Actual Dates] en [!UICONTROL Access] te configureren:
 
    * [[!UICONTROL New Task Defaults]](#new-task-defaults)
    * [[!UICONTROL Issues]](#issues)
    * [[!UICONTROL Deletion]](#deletion)
    * [[!UICONTROL Actual Dates]](#actual-dates)
    * [[!UICONTROL Delegation]](#delegation)
+   * [[!UICONTROL Access]](#access)
 
-   <!--
-<li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref"> werk op het </a> </li>
-  —&gt;
+<!--
+  <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Work On It</a> </li>
+-->
 
-* [[!UICONTROL Access]](#access)
+
 
 ### [!UICONTROL New Task Defaults] {#new-task-defaults}
 
