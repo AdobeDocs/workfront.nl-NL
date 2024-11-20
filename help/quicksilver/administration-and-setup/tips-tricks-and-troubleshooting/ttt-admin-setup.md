@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: e72018b7-5de2-4661-b27d-6da6ece5cc48
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: 806a4c4835e47da4fbbdb28ec0c35c990f70239e
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '140'
 ht-degree: 0%
 
 ---
@@ -42,4 +42,5 @@ Deze sectie bevat de volgende artikelen:
 * [ het Terugwinnen van historische gegevens van  [!DNL Adobe Workfront]: pro&#39;s en cons ](../../administration-and-setup/tips-tricks-and-troubleshooting/how-to-get-data-out-of-wf.md)
 * [ sparen een dossier van de e-mailkopbal ](../../administration-and-setup/tips-tricks-and-troubleshooting/save-an-email-header-file.md)
 * [ het Delen toont meer dan één toestemming ](../../administration-and-setup/tips-tricks-and-troubleshooting/sharing-shows-more-than-1-permission.md)
-* [Niet-geverifieerde e-mail wordt niet geaccepteerd vanwege DMARC-beleid van domein](../../administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
+* [Niet-geverifieerde e-mail wordt niet geaccepteerd vanwege het DMARC-beleid van het domein](../../administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
+* [Workfront: ZScalar-instellingen kunnen leiden tot verminderde prestaties](../../administration-and-setup/tips-tricks-and-troubleshooting/zscalar-affects-performance.md)
