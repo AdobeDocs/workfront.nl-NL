@@ -9,7 +9,7 @@ description: In a  [!DNL Adobe Workfront Fusion]  scenario, kunt u uw E-mailreke
 author: Becky
 feature: Workfront Fusion
 exl-id: 384ba60a-d79e-4126-a247-6d67b5154ede
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '2104'
 ht-degree: 0%
@@ -47,7 +47,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
+   <p>Huidige productvereiste: als u het abonnement [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
    <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
@@ -375,7 +375,7 @@ Hiermee markeert u een e-mail of concept in een geselecteerde map zoals gelezen 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Email ID (UID)]</p> </td> 
-   <td> <p>Voer de e-mailid in van het e-mailbericht dat u als gelezen wilt markeren.</p> <p>U kunt de UID van de e-mail ophalen met de module [!UICONTROL Email] &gt; [!UICONTROL Watch Email] of [!UICONTROL Search Email] .</p> </td> 
+   <td> <p>Voer de UID-mailadres in van het e-mailbericht dat u als gelezen wilt markeren.</p> <p>U kunt de UID van de e-mail ophalen met de module [!UICONTROL Email] &gt; [!UICONTROL Watch Email] of [!UICONTROL Search Email] .</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -398,7 +398,7 @@ Hiermee markeert u een e-mail of concept in een geselecteerde map als ongelezen 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Email ID (UID)]</p> </td> 
-   <td> <p>Voer de e-mailid in van het e-mailbericht dat u als ongelezen wilt markeren.</p> <p>U kunt de UID van de e-mail ophalen met de module [!UICONTROL Email] &gt; [!UICONTROL Watch Email] of [!UICONTROL Search Email] .</p> </td> 
+   <td> <p>Voer de UID-mailadres in van het e-mailbericht dat u als ongelezen wilt markeren.</p> <p>U kunt de UID van de e-mail ophalen met de module [!UICONTROL Email] &gt; [!UICONTROL Watch Email] of [!UICONTROL Search Email] .</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -425,7 +425,7 @@ Hiermee verplaatst u een gekozen e-mail of concept naar een geselecteerde map.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Email ID (UID)]</p> </td> 
-   <td> <p>Voer de e-mailid in van het e-mailbericht dat u naar de doelmap wilt verplaatsen.</p> <p>U kunt de UID van de e-mail ophalen met de module [!UICONTROL Email] &gt; [!UICONTROL Watch Email] of [!UICONTROL Search Email] .</p> </td> 
+   <td> <p>Voer de UID-mailadres in van het e-mailbericht dat u naar de doelmap wilt verplaatsen.</p> <p>U kunt de UID van de e-mail ophalen met de module [!UICONTROL Email] &gt; [!UICONTROL Watch Email] of [!UICONTROL Search Email] .</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -452,7 +452,7 @@ Hiermee kopieert u een e-mail of concept naar een geselecteerde map.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Email ID (UID)]</p> </td> 
-   <td> <p>Voer de e-mailid in van het e-mailbericht dat u naar de doelmap wilt kopiëren.</p> <p>U kunt de UID van de e-mail ophalen met de module [!UICONTROL Email] &gt; [!UICONTROL Watch Email] of [!UICONTROL Search Email] .</p> </td> 
+   <td> <p>Voer de UID-mailadres in van het e-mailbericht dat u naar de doelmap wilt kopiëren.</p> <p>U kunt de UID van de e-mail ophalen met de module [!UICONTROL Email] &gt; [!UICONTROL Watch Email] of [!UICONTROL Search Email] .</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -475,7 +475,7 @@ Hiermee verwijdert u een e-mail of concept uit de geselecteerde map.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Email ID (UID)]</p> </td> 
-   <td> <p>Voer de e-mailid in van het e-mailbericht dat u wilt verwijderen.</p> <p>U kunt de UID van de e-mail ophalen met de module [!UICONTROL Email] &gt; [!UICONTROL Watch Email] of [!UICONTROL Search Email] .</p> </td> 
+   <td> <p>Voer de UID-mailadres in van het e-mailbericht dat u wilt verwijderen.</p> <p>U kunt de UID van de e-mail ophalen met de module [!UICONTROL Email] &gt; [!UICONTROL Watch Email] of [!UICONTROL Search Email] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Expunge]</td> 
@@ -539,7 +539,7 @@ Retourneert e-mailberichten die voldoen aan de opgegeven criteria.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Email ID (UID)]</td> 
-   <td> <p> Voer de e-mailid (UID) in van het e-mailbericht waarvan u de gegevens wilt ophalen.</p> <p>U kunt de UID van de e-mail ophalen met de module [!UICONTROL  Watch Email] of [!UICONTROL Search Email] van [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p> Voer de e-mailadres (UID) in van het e-mailbericht waarvan u de gegevens wilt ophalen.</p> <p>U kunt de UID van de e-mail ophalen met de module [!UICONTROL  Watch Email] of [!UICONTROL Search Email] van [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Maximum number of results]</td> 
