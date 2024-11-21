@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 6bebe5fa42e50f7aa68b4a87069d47b6ef3323b9
 workflow-type: tm+mt
-source-wordcount: '1152'
+source-wordcount: '1223'
 ht-degree: 0%
 
 ---
 
 # Zakelijke regels maken en bewerken
+
+{{preview-fast-release-general}}
 
 Met een bedrijfsregel kunt u validatie toepassen op Workfront-objecten en voorkomen dat gebruikers een object maken, bewerken of verwijderen als aan bepaalde voorwaarden is voldaan. De bedrijfsregels helpen gegevenskwaliteit en operationele efficiency te verbeteren door acties te verhinderen die gegevensintegriteit in gevaar zouden kunnen brengen.
 
@@ -131,6 +133,10 @@ IF(
    * De &quot;actie&quot; is de trigger die u voor de regel hebt geselecteerd: maak, bewerk of verwijder het object.
    * Omdat het object en de actie al zijn gedefinieerd, neemt u ze niet op in de formule.
    * Het aangepaste foutbericht wordt aan de gebruiker weergegeven wanneer deze de bedrijfsregel activeert. Het zou duidelijke instructies moeten geven over wat er mis ging en hoe de kwestie te verhelpen.
+
+     <span class="preview"> u kunt statische URL in het foutenbericht omvatten, om aan documentatie of andere nuttige pagina&#39;s te verbinden om de gebruiker op te begeleiden hoe te om hun actie binnen de beperking van de regel te wijzigen.</span>
+
+     <span class="preview"> in dit voorbeeld, &quot;leer meer&quot;zal met URL verbinden. `"You are not allowed to add a new expense in June.[Learn more](http://url)"` De URL moet tussen haakjes staan, maar koppelingstekst tussen haakjes is niet vereist. U kunt volledige URL tonen en het zal een klikbare verbinding zijn.</span>
 
    ![ voeg bedrijfsregeldialoog ](assets/add-business-rule-dialog-no-ai-button.png) toe
 
