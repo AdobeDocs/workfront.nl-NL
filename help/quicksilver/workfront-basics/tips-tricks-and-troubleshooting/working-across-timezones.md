@@ -5,9 +5,9 @@ title: Werken in tijdzones
 description: Het kan nuttig zijn om te begrijpen hoe  [!DNL Adobe Workfront]  tijdstreken gebruikt om tijdgebieden voor voorwerpen en tijden op andere gebieden zoals e-mails te berekenen.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: ef7f5d00bd74feee5e06b935c4bb8a18ee8b08a8
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1239'
 ht-degree: 0%
 
 ---
@@ -16,12 +16,9 @@ ht-degree: 0%
 
 <!-- Audited: 2/2024 -->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
-
--->
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 Het kan handig zijn om te begrijpen hoe [!DNL Adobe Workfront] tijdzones gebruikt om het volgende te berekenen:
 
@@ -103,18 +100,16 @@ U kunt gebruikers helpen die gemakkelijker in verschillende tijdzones werken op 
    * De tijdzone voor het programma van de primaire eigenaar van de taak
    * De tijdzone voor het programma van het project.
 
-<!--
-   <div class="preview">
+  <div class="preview">
 
-   If one user is assigned to a task, the system uses one of the following, as configured in the system- or group-wide project preferences: 
+  Als één gebruiker aan een taak wordt toegewezen, gebruikt het systeem één van het volgende, zoals die in de systeem of groep brede projectvoorkeur wordt gevormd:
 
-   * The time zone for the schedule of the task's assignee
-   * The time zone for the schedule of the project.
+   * De tijdzone voor het tijdschema van de taaktoewijzing
+   * De tijdzone voor het programma van het project.
 
-   </div>
--->
+  </div>
 
-Hierdoor kunnen taakdatums veranderen.
+  Hierdoor kunnen taakdatums veranderen.
 
 >[!BEGINSHADEBOX]
 

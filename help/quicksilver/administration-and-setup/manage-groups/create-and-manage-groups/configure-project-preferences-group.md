@@ -8,20 +8,19 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: ef7f5d00bd74feee5e06b935c4bb8a18ee8b08a8
 workflow-type: tm+mt
-source-wordcount: '2648'
+source-wordcount: '2819'
 ht-degree: 0%
 
 ---
 
 # Projectvoorkeuren voor een groep configureren
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 Als u een groepsbeheerder en een beheerder van Adobe Workfront een projectvoorkeur voor alle groepen in het systeem ontgrendelt, kunt u die voorkeur voor uw groep vormen om alle verdere projecten te beïnvloeden die uw groep creeert.
 
@@ -210,12 +209,22 @@ Configureer een of meer van de volgende voorkeuren voor nieuwe projecten die aan
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p><strong> wanneer de veelvoudige gebruikers aan een taak worden toegewezen gebruik het programma van </strong> </p> </td> 
+   <td role="rowheader"> <p><strong> wanneer de veelvoudige gebruikers aan een taak worden toegewezen gebruik het programma van... </strong> </p> </td> 
    <td> <p>Als een project geen toegewezen programma heeft of als de gebruikers die aan zijn taken worden toegewezen geen Programma hebben dat aan hen wordt toegewezen, gebruikt Workfront het systeem standaardprogramma om de chronologie van de taken te berekenen.</p> <p>Als u veelvoudige gebruikers aan de zelfde taak in een project toewijst heeft toegewezen programma-en de gebruikers die aan de taken worden toegewezen hebben ook een programma toegewezen aan hen-Workfront gebruikt de volgende programma's:</p> 
     <ul> 
      <li><strong> Primaire Taak </strong>: Workfront gebruikt het programma van de Primaire Toewijzing op de taak om chronologie te berekenen.</li> 
      <li><strong> Project </strong>: Workfront gebruikt het programma van het project om de chronologie van elke taak te berekenen.</li> 
     </ul> <p>Voor meer informatie over programma's, zie <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override=""> een programma </a> creëren.</p> </td> 
+  </tr> 
+ <tr> 
+   <td role="rowheader"> <p><span class="preview"><strong> wanneer één gebruiker aan een taak wordt toegewezen, gebruik het programma van... </strong></span> </p> </td> 
+   <td> <div class="preview"><p>Als een project geen toegewezen programma heeft of als de gebruikers die aan zijn taken worden toegewezen geen Programma hebben dat aan hen wordt toegewezen, [!DNL Workfront] gebruikt het systeem standaardprogramma om de chronologie van de taken te berekenen.</p>
+
+<p>Als u één gebruiker aan een taak in een project toewijst en zowel het project als de gebruiker hebben een programma verbonden aan hen, [!UICONTROL Workfront] gebruikt de volgende programma's:</p> 
+    <ul> 
+     <li><strong>[!UICONTROL User]</strong>: Het schema van de toegewezen gebruiker op de taak om tijdlijnen te berekenen.</li> 
+     <li><strong>[!UICONTROL Project]</strong>: Het schema van het project voor het berekenen van de tijdlijn van de taak.</li> 
+    </ul> <p>Voor meer informatie over programma's, zie <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override=""> een programma </a> creëren.</p></div></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Tijdlijnberekeningen </p> </td> 
@@ -233,19 +242,6 @@ Configureer een of meer van de volgende voorkeuren voor nieuwe projecten die aan
   </tr> 
  </tbody> 
 </table>
-
-<!--Add this to the table (under the "When multiple users are assigned ..." setting):
-
-When one user is assigned to a task, use the schedule of the...
-
-
-<p>If a project does not have a schedule assigned or if the users assigned to its tasks do not have a Schedule assigned to them, [!DNL Workfront] uses the system default schedule to calculate the timeline of the tasks.</p> <p>If you assign one user to a task in a project and the project has an assigned schedule and the user assigned to the tasks also has a schedule assigned to them, [!UICONTROL Workfront] uses the following schedules:</p> 
-    <ul> 
-     <li><strong>[!UICONTROL User]</strong>: The schedule of the assigned user on the task to calculate timelines.</li> 
-     <li><strong>[!UICONTROL Project]</strong>: The schedule of the project to calculate the timeline of the task.</li> 
-    </ul> <p>For more information about schedules, see <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">Create a schedule</a>.</p>
-
--->
 
 ### Zakelijke zaken {#business-cases}
 

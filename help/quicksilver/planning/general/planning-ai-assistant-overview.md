@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: 170edee352f1219986057dbb7d77228f84d855b1
+source-git-commit: ef7f5d00bd74feee5e06b935c4bb8a18ee8b08a8
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '736'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,10 @@ ht-degree: 0%
 
 # Adobe Workfront Planning AI Assistant - overzicht
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> 
--->
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+
 
 {{planning-important-intro}}
 
@@ -66,14 +65,12 @@ Met de AI-assistent kunt u op dit moment de volgende handelingen uitvoeren:
 * Recten herstellen die u zojuist hebt verwijderd
 
 
-<!-- ## Locate the AI Assistant in Workfront Planning
+## AI Assistant zoeken in Workfront-planning
 
-You can locate the AI Assistant in the following areas of Workfront Planning:
+U kunt de AI-assistent vinden op de volgende gebieden van de Workfront-planning:
 
-* The main navigation bar, in the upper-right corner of the screen.
-* Inside the details area of a record, after you opened the record in the preview or after you opened the record's page. 
-
--->
+* De hoofdnavigatiebalk, in de rechterbovenhoek van het scherm.
+* <span class="preview"> binnen het detailsgebied van een verslag, nadat u het verslag in de voorproef opende of nadat u de pagina van het verslag opende.</span>
 
 ## De AI-assistent openen in het planningsgebied
 
@@ -87,7 +84,7 @@ You can locate the AI Assistant in the following areas of Workfront Planning:
 
 1. (Facultatief) klik a **verslag** om de 2} Details van het verslag **pagina te openen.**
 
-1. Klik het **AI Hulp pictogram** in de hoger-juiste hoek van het scherm in de globale navigatiebar <!--or in the upper-right corner of the record's preview or page.-->
+1. Klik het **AI Hulppictogram** in de hoger-juiste hoek van het scherm in de globale navigatiebar <span class="preview"> of in de hoger-juiste hoek van de voorproef of de pagina van het verslag.</span>
 
    ![](assets/ai-assistant-icon-highlighted.png)
 
