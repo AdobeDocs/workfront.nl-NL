@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 7d3d3e5ab8a0ee6dd3995ff417fb08d0d64d9a60
+source-git-commit: c34b1573b3a2dce344fcdd60ce5b3114cc095d11
 workflow-type: tm+mt
-source-wordcount: '14607'
+source-wordcount: '14611'
 ht-degree: 0%
 
 ---
@@ -612,7 +612,7 @@ ht-degree: 0%
          * [Objectkoppen aanpassen met een lay-outsjabloon](administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)
          * [Het linkerdeelvenster aanpassen](administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
          * [De weergave Details aanpassen](administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
-         * [Home en overzicht aanpassen](administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+         * [Het deelvenster Samenvatting aanpassen met een lay-outsjabloon](administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
          * [Nieuwe startpagina aanpassen](administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
          * [Vastgezette pagina&#39;s aanpassen](administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
          * [Filters, weergaven, groepen aanpassen](administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)

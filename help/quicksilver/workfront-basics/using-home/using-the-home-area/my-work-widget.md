@@ -5,13 +5,13 @@ title: Uw werk beheren met de widget Mijn werk
 description: Met de widget Mijn werk worden alle toegewezen taken, problemen en verzoeken op één locatie weergegeven. Hier, kunt u uw werk filteren en organiseren, logboektijd, updates maken, en het werkpunten volledig merken.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: de782d54a5ab6370b91e7447ed33e5d7511cc50d
+exl-id: e110f0f6-4ecb-419b-a368-c3f802de5920
+source-git-commit: 8880891c0f5fd8fecad6c2f58136d36a943105ae
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 0%
 
 ---
-
 
 # Uw werk beheren met de widget Mijn werk
 
@@ -157,7 +157,7 @@ U kunt het deelvenster Samenvatting openen om informatie in een taak of uitgave 
 * Een update toevoegen
 * Navigeer naar het gebied Document om een document te uploaden
 * Details van werkitems weergeven en aangepaste velden bijwerken
-Workfront-beheerders kunnen aanpassen welke velden worden weergegeven in het overzicht in de lay-outsjabloon. Voor meer informatie, zie [ Huis en Samenvatting aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+Workfront-beheerders kunnen aanpassen welke velden worden weergegeven in het overzicht in de lay-outsjabloon. Voor meer informatie, zie [ het Summiere paneel aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 * De status van het werkitem wijzigen
 * Subtaken weergeven
 * Logtijd
@@ -190,7 +190,3 @@ De goedkeuringen en de teamverzoeken worden niet weergegeven in Mijn werk widget
 * Teamverzoeken
 
 Voor informatie over het toevoegen van widgets aan uw Nieuwe pagina van het Huis, zie [ toevoegen, uitgeven, of verwijder widgets in Huis ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
-
-
-
-

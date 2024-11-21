@@ -8,7 +8,7 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: fec77b37-3968-4e0e-8034-63a816a7a3d5
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: 8880891c0f5fd8fecad6c2f58136d36a943105ae
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%
@@ -75,7 +75,7 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
    * [ pas het linkerpaneel aan gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
    * [ pas vastgezette pagina&#39;s gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md) aan
    * [ pas de mening van Details aan gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
-   * [ pas Huis en Samenvatting aan gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   * [ pas het Summiere paneel aan gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
    * [ pas de het landen pagina gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md) aan
    * [ pas Filters, Weergaven, en Groepen aan gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    * [De terminologie van de gebruikersinterface aanpassen met behulp van een lay-outsjabloon](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
