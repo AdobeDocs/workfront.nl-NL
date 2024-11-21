@@ -10,9 +10,9 @@ description: Adobe Workfront Fusion vereist naast een Adobe Workfront-licentie e
 author: Becky
 feature: Workfront Fusion
 exl-id: 1d78e0db-9a77-437d-a72f-88fb256981c0
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1855'
+source-wordcount: '1870'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,25 @@ U moet een Airtable-account hebben om de functionaliteit in dit artikel te kunne
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information, see the tutorial .</p>
 -->
+
+## Airtable API-informatie
+
+De Airtable schakelaar gebruikt het volgende:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Basis-URL</td> 
+   <td>https://api.airtable.com/v0</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API-tag</td> 
+   <td>v3.3.28</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Airtable aansluiten op Workfront Fusion {#connect-airtable-to-workfront-fusion}
 

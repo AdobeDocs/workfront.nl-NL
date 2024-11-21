@@ -10,9 +10,9 @@ description: Met de  [!DNL Adobe Experience Manager Assets]  schakelaar voor  [!
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: 993d10a93eca28573aaa38e4ce76e5a1b30ec42e
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1474'
 ht-degree: 0%
 
 ---
@@ -73,6 +73,21 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 * Je technische Adobe Experience Manager-account moet schrijfmachtigingen hebben.
 
   Voor instructies bij het toevoegen van schrijven toestemmingen aan uw technische rekening van Adobe Experience Manager, zie {de geloofsbrieven van de Dienst ](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials) in de documentatie van Adobe Experience Manager.[
+
+## Adobe Experience Manager Assets API-informatie
+
+De Adobe Experience Manager Assets-connector gebruikt het volgende:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API-tag</td> 
+   <td>v1.8.61</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Verbinden [!DNL Adobe Experience Manager Assets] met [!DNL Workfront Fusion] {#connect-adobe-experience-manager-assets-to-workfront-fusion}
 

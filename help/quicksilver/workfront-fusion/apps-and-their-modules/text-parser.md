@@ -8,9 +8,9 @@ description: U kunt het parserhulpmiddel van de Tekst gebruiken om tekst voor ge
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d71cf64-4f86-42c5-81e7-8fc15333cbd7
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '900'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,21 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
 Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+## API-informatie voor tekstparser
+
+De schakelaar van de parser van de Tekst gebruikt het volgende:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API-tag</td> 
+   <td>v2</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!UICONTROL Text parser] modules en hun velden
 
@@ -180,7 +195,7 @@ Een discussie over reguliere expressies valt buiten het toepassingsgebied van di
   </tr> 
   <tr> 
    <td>[!UICONTROL Singleline]</td> 
-   <td>Schakel deze optie in om ervoor te zorgen dat de periode (.) komt overeen met nieuwe-regeltekens (<code>\n</code>).</td> 
+   <td>Schakel deze optie in om ervoor te zorgen dat de punt (.) overeenkomt met nieuwe-regeltekens (<code>\n</code>).</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Continue the execution of the route even if the module returns no results]</td> 
@@ -223,7 +238,7 @@ Zoekt de ingevoerde tekst naar een opgegeven waarde of reguliere expressie en ve
   </tr> 
   <tr> 
    <td>[!UICONTROL Singleline]</td> 
-   <td>Schakel deze optie in om ervoor te zorgen dat de periode (.) komt overeen met nieuwe-regeltekens (<code>\n</code>).</td> 
+   <td>Schakel deze optie in om ervoor te zorgen dat de punt (.) overeenkomt met nieuwe-regeltekens (<code>\n</code>).</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Text] </td> 

@@ -9,9 +9,9 @@ description: In een scenario van de Fusie van Adobe Workfront, kunt u werkschema
 author: Becky
 feature: Workfront Fusion
 exl-id: 66d2e59e-0945-4a6b-a0fe-5c313051ad4e
-source-git-commit: ff66cacc86532092e7a6805b7bf3c26d4437d9e9
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,25 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 ## Vereisten
 
 Als u [!DNL NetSuite] -modules wilt gebruiken, moet u een [!DNL NetSuite] -account hebben.
+
+## Informatie over NetSuite API
+
+De NetSuite-aansluiting gebruikt het volgende:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API-versie</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-tag</td> 
+   <td>v1.0.10</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Verbinding maken met NetSuite
 

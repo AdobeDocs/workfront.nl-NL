@@ -4,9 +4,9 @@ description: De  [!DNL Adobe Workfront Fusion]  modules van HubSpot CRM laten u 
 author: Becky
 feature: Workfront Fusion
 exl-id: d58e0c12-a798-495c-8f88-fbf2a532f8a4
-source-git-commit: d550ba76a5a6c1d241d1dc73e63e49ef4c22a40d
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '5637'
+source-wordcount: '5654'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,25 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 ## Vereisten
 
 Als u [!DNL HubSpot CRM] -modules wilt gebruiken, moet u een [!DNL HubSpot CRM] -account hebben.
+
+## HubSpot CRM API-informatie
+
+De schakelaar van CRM HubSpot gebruikt het volgende:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Basis-URL</td> 
+   <td>https://api.hubapi.com</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API-tag</td> 
+   <td>v2.0.14</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Verbinden [!DNL Adobe Workfront Fusion] met [!DNL HubSpot CRM]
 

@@ -10,9 +10,9 @@ description: Met de  [!DNL Adobe Experience Manager Forms]  schakelaar voor  [!D
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 107d81f7-ca41-4d76-a6dd-e579886dc2ad
-source-git-commit: 6c7d22bea669586c56acfc23d328d7cc815b04be
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '501'
 ht-degree: 1%
 
 ---
@@ -65,6 +65,21 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 ## Vereisten
 
 * U moet een [!DNL Adobe Experience Manager Forms] -account hebben om deze module te kunnen gebruiken.
+
+## Adobe Experience Manager Assets API-informatie
+
+De Adobe Experience Manager Assets-connector gebruikt het volgende:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API-tag</td> 
+   <td>v1.2.27</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Verbinding maken met Adobe Experience Manager Forms
 

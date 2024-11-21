@@ -9,9 +9,9 @@ description: In een Adobe Workfront Fusion-scenario kunt u workflows automatiser
 author: Becky
 feature: Workfront Fusion
 exl-id: 3a747013-5fb6-4416-8d95-d656dfeeb7db
-source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1235'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,25 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 ## Vereisten
 
 Als u [!DNL OpenAI (ChatGPT & DALL-E)] -modules wilt gebruiken, hebt u een [!DNL OpenAI] -account nodig, inclusief een API-sleutel en een organisatie-id.
+
+## Informatie over de OpenAI-API (ChatGPT en DALL-E)
+
+De OpenAI-connector (ChatGPT &amp; DALL-E) gebruikt het volgende:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API-versie</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-tag</td> 
+   <td>v1.11.1</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Verbinding maken [!DNL OpenAI (ChatGPT & DALL-E)] met [!DNL Workfront Fusion]
 
@@ -330,6 +349,7 @@ In deze module vindt u een overzicht en beschrijving van de verschillende modell
     <li><p><b>Model ophalen </b></p><p>Ga of kaart identiteitskaart van het model in u wilt terugwinnen. </p></li>
    </ul>
  </td> 
+  </tr>
  </tbody> 
 </table>
 

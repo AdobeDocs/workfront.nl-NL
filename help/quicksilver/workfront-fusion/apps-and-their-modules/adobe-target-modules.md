@@ -9,9 +9,9 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
-source-git-commit: 43bd30c2db6219cd4e68380c1d9c0d1421f51592
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1899'
+source-wordcount: '1913'
 ht-degree: 0%
 
 ---
@@ -75,6 +75,21 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 Voordat u de [!DNL Adobe Target] -connector kunt gebruiken, moet u controleren of aan de volgende voorwaarden is voldaan:
 
 * U moet een actieve [!DNL Adobe Target] account hebben.
+
+## Adobe Target API-informatie
+
+De Adobe Target-connector gebruikt het volgende:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API-tag</td> 
+   <td>v1.7.3</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Verbinding maken met [!DNL Adobe Target]
 

@@ -9,9 +9,9 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion
 exl-id: 7f6dace5-ab50-45da-a926-1a8919057f7b
-source-git-commit: 7e7294e52622a6b8164fc69bbb4be576cc113f63
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '1717'
+source-wordcount: '1732'
 ht-degree: 0%
 
 ---
@@ -70,6 +70,25 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 ## Vereisten
 
 Als u [!DNL Marketo] -modules wilt gebruiken, moet u een [!DNL Marketo] -account hebben.
+
+## Marketo API-informatie
+
+De Marketo-connector gebruikt het volgende:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API-versie</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-tag</td> 
+   <td>v1.14.19</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Verbinden [!DNL Marketo] met Workfront Fusion {#connect-marketo-to-workfront-fusion}
 

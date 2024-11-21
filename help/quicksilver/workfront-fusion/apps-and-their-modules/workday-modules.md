@@ -10,9 +10,9 @@ description: In een scenario van de Fusie van Adobe Workfront, kunt u werkschema
 author: Becky
 feature: Workfront Fusion
 exl-id: 535573e0-b6ad-43a2-b7cb-ed32d1dc8d16
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '886'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,25 @@ Als u de modules [!DNL Workday] wilt gebruiken, moet u:
 * Hebt u een [!DNL Workday] -account.
 
 * Maak een OAuth-toepassing in [!DNL Workday] . Zie de documentatie van [!DNL Workday] voor instructies.
+
+## Workday API-informatie
+
+De Workday-connector gebruikt het volgende:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Basis-URL</td> 
+   <td>https://{connection.servicesUrl}/api</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API-tag</td> 
+   <td>v1.6.4</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Verbinden [!DNL Workday] met [!DNL Workfront Fusion]
 

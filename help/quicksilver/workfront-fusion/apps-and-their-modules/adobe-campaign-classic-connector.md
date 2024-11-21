@@ -9,9 +9,9 @@ description: Met de  [!DNL Adobe Campaign]  modules, kunt u een  [!DNL Adobe Wor
 author: Becky
 feature: Workfront Fusion
 exl-id: 84e8fa35-0c3c-46bd-8886-88c6d8d9e1d5
-source-git-commit: 7decc5cbf4bb2c3d4d1802dec1f369ca061f6b48
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1195'
 ht-degree: 0%
 
 ---
@@ -65,6 +65,21 @@ U moet de Fusion IP-adressen toevoegen aan [!DNL Adobe Campaign] .
 
 * Voor instructies bij het toevoegen van IP adressen aan uw lijst van gewenste personen van de Campagne, zie [ Toevoegend IP adressen aan de lijst van gewenste personen ](https://experienceleague.adobe.com/en/docs/control-panel/using/sftp-management/ip-range-allow-listing#adding-ip-addresses-allow-list) in de documentatie van Adobe Campaign.
 * Voor een lijst van IP adressen om aan de lijst van gewenste personen toe te voegen, zie [ IP Adressen voor de toegang tot van de Fusie van Adobe Workfront ](/help/quicksilver/workfront-fusion/get-started/ip-addresses-for-fusion.md).
+
+## Adobe Campaign API-informatie
+
+De Adobe Campaign-connector gebruikt het volgende:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API-tag</td> 
+   <td>v1.7.2</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Verbinden [!DNL Adobe Campaign] met [!DNL Adobe Workfront Fusion]
 

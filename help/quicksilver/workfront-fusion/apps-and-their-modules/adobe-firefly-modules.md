@@ -9,9 +9,9 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 1e131c27-571d-4099-9243-69572bdb3f5a
-source-git-commit: 7013302a6ba903b410ed1fa8948a195083004eb9
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1195'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,21 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 Voordat u de [!DNL Adobe Firefly] -connector kunt gebruiken, moet u controleren of aan de volgende voorwaarden is voldaan:
 
 * U moet een actieve [!DNL Adobe Firefly] account hebben.
+
+## Adobe Campaign API-informatie
+
+De Adobe Campaign-connector gebruikt het volgende:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API-tag</td> 
+   <td>v1.4.24</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Verbinding maken met [!DNL Adobe Firefly]
 

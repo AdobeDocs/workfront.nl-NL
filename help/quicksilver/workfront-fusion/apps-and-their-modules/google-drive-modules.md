@@ -9,9 +9,9 @@ description: De  [!DNL Adobe Workfront Fusion Google Drive]  modules laten u toe
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d620c93-d1bf-4451-9f76-1d6fd850cec9
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '2467'
+source-wordcount: '2484'
 ht-degree: 0%
 
 ---
@@ -64,6 +64,29 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
 Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+## Informatie over Google Drive API
+
+De Google Drive-aansluiting gebruikt het volgende:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Basis-URL</td> 
+   <td> https://www.googleapis.com/drive/v3</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-versie</td> 
+   <td> v3 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-tag</td> 
+   <td>v4.1.2</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 
 
@@ -867,13 +890,13 @@ Alle voorbeelden op deze pagina tonen de niet-gecodeerde `<q>q</q>` parameter, w
   <pre>fullText bevat '"hello world"'fullText bevat '"hello_world"'</pre>
 * Bestanden zoeken met een query die het teken &quot;\&quot; bevat (bijvoorbeeld &quot;\authors&quot;)
   <pre>fullText bevat '\\authors'</pre>
-* Zoeken naar bestanden die kunnen worden geschreven door de gebruiker &quot;test@example.org&quot;
+* Zoeken naar bestanden die door de gebruiker kunnen worden geschreven `test@example.org`
   <pre>'test@example.org' in [!DNL writers]</pre>
 * Zoek de id `1234567` in de `parents` -verzameling. Hiermee worden alle bestanden en mappen gevonden die zich direct in de map met de id `1234567` bevinden.
   <pre>'1234567' in [!UICONTROL parents]</pre>
 * Zoek naar alias identiteitskaart `appDataFolder` in de `parents` inzameling. Dit vindt alle dossiers en omslagen die direct onder de [ omslag van Gegevens van de Toepassing ](https://developers.google.com/drive/api/v2/appdata) worden gevestigd.
   <pre>'appDataFolder' in bovenliggende items</pre>
-* Zoeken naar bestanden die kunnen worden geschreven door de gebruikers &quot;test@example.org&quot; en &quot;test2@example.org&quot;
+* Zoeken naar bestanden die kunnen worden geschreven door de gebruikers `test@example.org` en `test2@example.org`
   <pre>'test@example.org' in schrijvers en 'test2@example.org' in schrijvers</pre>
 * Zoeken naar bestanden met de tekst &quot;belangrijk&quot; die zich in de prullenbak bevinden
   <pre>fullText bevat 'main' en traped = true</pre>

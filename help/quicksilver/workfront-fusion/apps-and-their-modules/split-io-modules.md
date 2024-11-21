@@ -9,9 +9,9 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion
 exl-id: 4576a2e4-b495-430e-a9de-4e1ec7379ab8
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: '1488'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,29 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 ## Vereisten
 
 Als u [!DNL Split.io] -modules wilt gebruiken, moet u een [!DNL Split.io] -account hebben.
+
+## API-informatie voor Split.io
+
+De Split.io-connector gebruikt het volgende:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Basis-URL</td> 
+   <td> https://api.split.io/internal/api</td>
+   </tr> 
+  <tr> 
+   <td role="rowheader">API-versie</td> 
+   <td> v2 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-tag</td> 
+   <td>v1.34.1</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Verbinden [!DNL Split.io] met [!DNL Workfront Fusion] {#connect-split-io-to-workfront-fusion}
 

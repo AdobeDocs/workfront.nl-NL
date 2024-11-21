@@ -9,9 +9,9 @@ description: Met de Adobe Authenticator-module kunt u via één enkele verbindin
 author: Becky
 feature: Workfront Fusion
 exl-id: 74c943fb-37ad-4d91-8af7-9808ba69992e
-source-git-commit: 4914e6e30d6c4a16de5bd2c91bc6f8e4f208c078
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1119'
 ht-degree: 0%
 
 ---
@@ -73,6 +73,21 @@ Om een lijst van beschikbare Adobe APIs te zien, zie [ Adobe APIs ](https://deve
    * Voeg API aan een bestaand project toe.
 
   Voor informatie bij het creëren van of het toevoegen van API aan een project op Adobe Developer Console, zie [ een project ](https://developer.adobe.com/dep/guides/dev-console/create-project/) in de documentatie van de Adobe creëren.
+
+## Adobe Authenticator API-informatie
+
+De Adobe Authenticator-connector gebruikt het volgende:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API-tag</td> 
+   <td>v1.1.4</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Verbinding maken
 

@@ -9,9 +9,9 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion
 exl-id: b362cd8b-06b3-4f4c-b405-a2afc24abddb
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1369'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,25 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 ## Vereisten
 
 Als u [!DNL ServiceNow] -modules wilt gebruiken, moet u een [!DNL ServiceNow] -account hebben.
+
+## ServiceNow API-informatie
+
+De schakelaar ServiceNow gebruikt het volgende:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Basis-URL</td> 
+   <td>https://{connection.instance}/api</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API-tag</td> 
+   <td>v1.5.13</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Verbinden [!DNL ServiceNow] met [!DNL Workfront Fusion]
 

@@ -9,9 +9,9 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion
 exl-id: ecaa93c9-47bb-4fe1-87b4-d2e117cc68ae
-source-git-commit: ed7ea1d3409c39caea5fe8b107b7b2907dc87d76
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '1541'
+source-wordcount: '1556'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,25 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 ## Vereisten
 
 Als u [!DNL Azure DevOps] -modules wilt gebruiken, hebt u een [!DNL Azure] DevOps-account nodig.
+
+## [!DNL Azure DevOps] API-informatie
+
+De Azure DevOps-connector gebruikt het volgende:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API-versie</td> 
+   <td> v5.1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-tag</td> 
+   <td>v1.29.33</td> 
+  </tr>
+ </tbody> 
+</table>
 
 ## Verbinden [!DNL Azure DevOps] met [!DNL Workfront Fusion] {#connect-azure-devops-to-workfront-fusion}
 

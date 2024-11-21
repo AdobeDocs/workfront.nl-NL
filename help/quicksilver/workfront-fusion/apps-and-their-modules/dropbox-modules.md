@@ -9,9 +9,9 @@ description: In a  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema's 
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: a35631d7-40ac-4e7f-9a37-ad3879c0b6a2
-source-git-commit: 86be8b6e1c21f3fd5f5b66afa3bf930d6bafbd63
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '2842'
+source-wordcount: '2864'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,29 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 >Dropbox moet toepassingen met meer dan 50 gebruikers goedkeuren.
 >
 >Voor meer informatie, zoek naar &quot;Goedkeuring van de Productie&quot;in de Dropbox ontwikkelaarsgids.
+
+## API-informatie voor Dropbox
+
+De verbindingslijn van de Dropbox gebruikt het volgende:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Basis-URL</td> 
+   <td> https://api.dropboxapi.com/2    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-versie</td> 
+   <td> 2 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-tag</td> 
+   <td><ul><li><p>Dropbox</p><p>v5.3.9</p></li><li><p>Dropbox Business</p><p>v1.0.12</p></li></ul></td> 
+  </tr>
+ </tbody> 
+ </table>
 
 
 ## Verbinding maken met [!DNL Dropbox]

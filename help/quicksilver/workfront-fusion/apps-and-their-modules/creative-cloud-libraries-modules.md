@@ -9,9 +9,9 @@ description: Met de  [!DNL Adobe Workfront Fusion Adobe Creative Cloud]  modules
 author: Becky
 feature: Workfront Fusion
 exl-id: 8affa34b-803d-48a5-a986-9fbe0cb8c8f5
-source-git-commit: 103a4a7b58048678739d6125c042503458ae3722
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1179'
 ht-degree: 0%
 
 ---
@@ -75,6 +75,25 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 ## Vereisten
 
 Als u [!DNL Adobe Creative Cloud Libraries] -modules wilt gebruiken, hebt u een [!UICONTROL Adobe Creative Cloud] -account nodig.
+
+## API-informatie voor Adobe Creative Cloud-bibliotheken
+
+De Adobe Creative Cloud Libraries-aansluiting gebruikt het volgende:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Basis-URL</td> 
+   <td>https://cc-libraries.adobe.io/api/v1</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API-tag</td> 
+   <td>v1.1.7</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!UICONTROL Adobe Creative Cloud Libraries] modules en hun velden
 

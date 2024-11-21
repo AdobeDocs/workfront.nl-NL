@@ -9,9 +9,9 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 03bcd0a4-c8ec-4f44-b1e1-b57e79595309
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: d281d9eae03254d9cab4ff4bd86cd2d621cc7393
 workflow-type: tm+mt
-source-wordcount: '1597'
+source-wordcount: '1616'
 ht-degree: 0%
 
 ---
@@ -69,6 +69,29 @@ Voordat u de [!DNL Anaplan] -connector kunt gebruiken, moet u controleren of aan
 
 * U moet een actieve [!UICONTROL Anaplan] account hebben.
 * U moet Workspaces, Models en andere [!DNL Anaplan] -objecten in uw [!UICONTROL Anaplan] -account configureren voordat [!DNL Workfront Fusion] met deze objecten kan communiceren.
+
+## API-informatie voor Anaplan
+
+De Anaplan schakelaar gebruikt het volgende:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Basis-URL</td> 
+   <td>https://api.anaplan.com/2/0/
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-versie</td> 
+   <td> v2 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-tag</td> 
+   <td>v1.11.5/td&gt; 
+ </tbody> 
+</table>
 
 ## Verbinden [!DNL Anaplan] met [!DNL Workfront Fusion] {#connect-anaplan-to-workfront-fusion}
 

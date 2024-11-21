@@ -9,9 +9,9 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion
 exl-id: ac966231-251e-44de-be61-00afa5ece3fd
-source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '951'
 ht-degree: 0%
 
 ---
@@ -64,6 +64,25 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 ## Vereisten
 
 Als u [!DNL Azure Active Directory] -modules wilt gebruiken, hebt u een [!DNL Azure Active Directory] -account nodig.
+
+## [!DNL Azure Active Directory] API-informatie
+
+De Azure Actieve schakelaar van de Folder gebruikt het volgende:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API-versie</td> 
+   <td> v1.0 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-tag</td> 
+   <td>v1.4.5</td> 
+  </tr>
+ </tbody> 
+</table>
 
 ## [!DNL Azure Active Directory] modules en hun velden
 

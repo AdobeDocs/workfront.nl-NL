@@ -9,9 +9,9 @@ description: Om  [!DNL Google Sheets]  met  [!DNL Adobe Workfront Fusion],you ne
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 11d62222-df34-472d-93d7-f0d53eb95c9b
-source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '3498'
+source-wordcount: '3521'
 ht-degree: 0%
 
 ---
@@ -64,6 +64,29 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 ## Vereisten
 
 Als u [!UICONTROL Google Sheets] -modules wilt gebruiken, moet u een [!UICONTROL Google] -account hebben.
+
+## Informatie over Google Sheets API
+
+De Google Sheets-connector gebruikt het volgende:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Basis-URL</td> 
+   <td> https://sheets.googleapis.com/v4</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-versie</td> 
+   <td> v4 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-tag</td> 
+   <td>v2.5.7</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Triggers
 
@@ -720,7 +743,7 @@ Gebruik de module [!UICONTROL Search Rows (Advanced)] en gebruik deze formule om
    * De naam van de functie moet overeenkomen met de naam die u in stap 9 hebt opgegeven.
    * Vervang de URL door de URL van de webhaak die u in stap 2 hebt gekopieerd.
 
-     <pre>function runScenario() {</pre><pre>UrlFetchApp.fetch("<webhook you copied>");</pre><pre>}</pre>
+     <pre>function runScenario() {</pre><pre>UrlFetchApp.fetch("&lt;webhaak u hebt gekopieerd&gt;");</pre><pre>}</pre>
 
 1. Druk op **[!UICONTROL Ctrl+S]** om het scriptbestand op te slaan, voer een projectnaam in en klik op **[!UICONTROL OK]** .
 

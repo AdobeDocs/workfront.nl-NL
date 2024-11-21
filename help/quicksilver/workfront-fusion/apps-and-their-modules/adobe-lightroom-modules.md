@@ -9,9 +9,9 @@ description: Met de Adobe Lightroom-modules kunt u een Adobe Workfront Fusion-sc
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e48bdf18-49f0-436e-9182-16c9da2b3169
-source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1917'
+source-wordcount: '1928'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,26 @@ Voordat u de [!DNL Adobe Lightroom] -connector kunt gebruiken, moet u controlere
 
 * U moet een actieve [!DNL Adobe Lightroom] account hebben.
 
-## Verbinding maken met Adobe Lightroom
+## Adobe Lightroom API-informatie
+
+De Adobe Lightroom-connector gebruikt het volgende:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Basis-URL</td> 
+   <td>https://lr.adobe.io</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API-tag</td> 
+   <td>v1.17.128</td> 
+  </tr>
+ </tbody> 
+ </table>
+
+<!--## Create a connection to Adobe Lightroom-->
 
 
 

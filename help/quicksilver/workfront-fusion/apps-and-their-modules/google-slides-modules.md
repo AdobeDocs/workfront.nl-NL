@@ -9,9 +9,9 @@ description: Met de Adobe Workfront Fusion Google Slides-modules kunt u presenta
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 680a5328-1d50-4434-beda-7a4670a6e458
-source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '1217'
+source-wordcount: '1237'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,29 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 ## Vereisten
 
 Als u [!DNL Google Slides] -modules wilt gebruiken, moet u een [!DNL Google] -account hebben.
+
+## Informatie over de Google-API voor dia&#39;s
+
+De aansluiting Google Slides gebruikt het volgende:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Basis-URL</td> 
+   <td> https://slides.googleapis.com/v1</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-versie</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-tag</td> 
+   <td>v1.5.9</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Google Slides] modules en hun velden
 
@@ -249,7 +272,7 @@ Hiermee maakt u een nieuwe presentatie door alle tags, zoals `{{Name}}` en `{{Em
    <td> <p>Voeg de waarden toe:</p> 
     <ul> 
      <li><strong>[!UICONTROL Tag]</strong>: Voer in de presentatie het label in dat u wilt vervangen. Bijvoorbeeld: <code>&#123;&#123;Name&#125;&#125;</code></li> 
-     <li><strong>[!UICONTROL Replaced Value]</strong>: Voer de waarde in waarmee de bestaande tag moet worden vervangen. Als een tekenreeks <tr><ul><tr><tr><tr><code>&#123;&#123;Name&#125;&#125;/code> in the presentation and the replaced value is Sample, then the <code>&#123;&#123;Name}}</code> will be replaced by <code>Sample</code>.</li> 
+     <li><strong>[!UICONTROL Replaced Value]</strong>: Voer de waarde in waarmee de bestaande tag moet worden vervangen. Als een tekenreeks <tr><ul><tr><tr><tr><code>&#123;&#123;Name&#125;&#125;/code> in the presentation and the replaced value is Sample, then the <code>&#123;&#123;Name&#125;&#125;</code> will be replaced by <code>Sample</code>.</li> 
     </ul> </td> 
   </tr> 
    

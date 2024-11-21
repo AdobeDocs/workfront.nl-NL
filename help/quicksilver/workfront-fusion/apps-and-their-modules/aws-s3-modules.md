@@ -9,9 +9,9 @@ description: De  [!DNL Adobe Workfront Fusion AWS]  S3 modules laten u verrichti
 author: Becky
 feature: Workfront Fusion
 exl-id: 33623b5d-d9ff-4d41-b938-33378f50539e
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1198'
+source-wordcount: '1217'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,25 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 ## Vereisten
 
 Als u [!UICONTROL AWS S3] -modules wilt gebruiken, hebt u een [!DNL Amazon Web Service] -account nodig.
+
+## AWS S3 API-informatie
+
+De AWS S3-connector gebruikt het volgende:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Basis-URL</td> 
+   <td>https://s3.{{{parameters.region}}.amazonaws.com</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API-tag</td> 
+   <td>v1.5.21</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Verbinden [!DNL AWS] met [!DNL Workfront Fusion] {#connect-aws-to-workfront-fusion}
 

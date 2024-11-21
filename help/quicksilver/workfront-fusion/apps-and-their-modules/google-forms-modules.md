@@ -9,9 +9,9 @@ description: De  [!DNL Adobe Workfront Fusion Google Forms]  modules staan u toe
 author: Becky
 feature: Workfront Fusion
 exl-id: 45c86879-bc4e-4134-b63c-02410b9de43b
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: '1238'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,21 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 ## Vereisten
 
 Als u [!DNL Google Forms] -modules wilt gebruiken, moet u een [!DNL Google] -account hebben.
+
+## Google Forms API-informatie
+
+De Google Forms-connector gebruikt het volgende:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API-tag</td> 
+   <td>2.0.10.</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Een werkblad maken op basis van het formulier
 

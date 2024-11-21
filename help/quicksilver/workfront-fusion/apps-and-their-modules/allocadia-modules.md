@@ -9,9 +9,9 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion
 exl-id: f1edefd1-9fe0-48fc-bea2-c3f9facf7363
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '1286'
+source-wordcount: '1300'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,26 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 
 ## Vereisten
 
-Als u [!DNL Allocadia] -modules wilt gebruiken, moet u een [!DNL Allocadia] -account hebben.
+Als u [!DNL Allocadia] -modules wilt gebruiken, hebt u een [!DNL Allocadia] -account nodig.
+
+## [!DNL Allocadia] API-informatie
+
+De Allocadia-aansluiting gebruikt het volgende:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API-versie</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-tag</td> 
+   <td>v1.7.6</td> 
+  </tr>
+ </tbody> 
+</table>
 
 ## Verbinden [!DNL Allocadia] met [!DNL Workfront Fusion]
 
@@ -92,7 +111,7 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
 
 #### [!UICONTROL Watch Record]
 
-Deze triggermodule voert een scenario uit wanneer objecten van een specifiek type worden toegevoegd, bijgewerkt of beide. De module retourneert alle standaardvelden die zijn gekoppeld aan de record of records, samen met aangepaste velden en waarden die de verbinding opent. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
+Deze triggermodule voert een scenario uit wanneer objecten van een specifiek type worden toegevoegd, bijgewerkt of beide. De module retourneert alle standaardvelden die zijn gekoppeld aan de record of records, samen met aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
 
 Als u deze module configureert, worden de volgende velden weergegeven.
 
@@ -209,7 +228,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
 
 Deze actiemodule maakt een record.
 
-De module retourneert de id van de record en de bijbehorende velden, samen met eventuele aangepaste velden en waarden waartoe de verbinding toegang heeft. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
+De module retourneert de id van de record en de bijbehorende velden, samen met aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
 
 Als u deze module configureert, worden de volgende velden weergegeven.
 
@@ -309,7 +328,7 @@ U kunt deze informatie in verdere modules in het scenario in kaart brengen.
 
 U geeft het gewenste type records op.
 
-Wanneer u deze module configureert, worden de volgende velden weergegeven.
+Als u deze module configureert, worden de volgende velden weergegeven.
 
 <table style="table-layout:auto">
  <col> 
@@ -321,7 +340,7 @@ Wanneer u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Entity Type]</td> 
-   <td>Selecteer het type [!DNL Allocadia] -record waarnaar u in de module wilt zoeken. </td> 
+   <td>Selecteer het type [!DNL Allocadia] record waarnaar u wilt zoeken in de module. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Budgets]</td> 
