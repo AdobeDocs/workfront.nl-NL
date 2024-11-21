@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: e82cf1b586ea3b08f419802bd1e88c6567b61b95
+source-git-commit: 5ebb756ba2f054c37d486d7f54a9f86cf8513328
 workflow-type: tm+mt
-source-wordcount: '6294'
+source-wordcount: '6537'
 ht-degree: 0%
 
 ---
@@ -263,6 +263,10 @@ Een tekstveld toevoegen:
     <td> Als u een hyperlink wilt toepassen op de beschrijvende tekst die u hebt getypt, voegt u deze hier toe. De beschrijvende tekst wordt als een koppeling weergegeven op objecten waaraan het formulier is gekoppeld.</td>
     <td><ul><li>Beschrijvende tekst</li></ul></td>
     </tr>
+    <tr> 
+      <td role="rowheader">Een vereist veld maken</td>
+      <td><p>Selecteer deze optie als u wilt dat het veld verplicht is zodat de gebruiker het aangepaste formulier kan invullen.</p></td>
+    </tr> 
    </table>
 
 1. (Optioneel) Herhaal de vorige stap om andere velden of widgets toe te voegen.
@@ -837,6 +841,27 @@ Deze tabel bevat een lijst met de beschikbare native velden voor specifieke Work
       <td role="rowheader">Referentieveld</td> 
       <td><p>(Vereist) Selecteer een eigen Workfront-veld.<p><p>Alleen native velden voor de objecten van het formulier zijn beschikbaar. Als bijvoorbeeld de lijst Objecttypen boven aan de formulierontwerper Project weergeeft, kunt u native velden selecteren voor projecten, maar niet voor velden die specifiek zijn voor taken.</p></td>
      </tr>
+     <tr>
+      <td role="rowheader"><span class="preview">Filter toevoegen</span></td>
+      <td><span class="preview"><p>Voeg een filter voor het verwijzingsgebied toe om de lijst van punten te beperken de gebruikers van kunnen kiezen wanneer zij het gebied gebruiken. </p> <p>U kunt bijvoorbeeld een veld zo instellen dat gebruikersnamen alleen kunnen worden geselecteerd als ze aan de volgende criteria voldoen:</p> 
+       <ul>
+        <li>Ze behoren tot een of meer groepen die u opgeeft</li> 
+        <li>Ze zijn gekoppeld aan een rol of functie die u opgeeft</li> 
+        <li>Zij behoren tot dezelfde groep als de persoon die het veld gebruikt</li> 
+       </ul>
+       <p>U moet het filter definiëren voor het verwijzingsveld dat u hebt geselecteerd met de syntaxis van de tekstmodus. Voor informatie over het creëren van een filter gebruikend de Wijze van de Tekst, zie <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md"> een filter uitgeven gebruikend tekstwijze </a>.</p>
+       <p><b> NOTA </b>:
+       <ul> 
+        <li>De filteroptie is alleen beschikbaar wanneer u naar een native typeahead-veld verwijst, zoals Portfolio, Bedrijf of Eigenaar.</li>
+        <li>Als u een bestaand aangepast formulier bewerkt en een filter toevoegt aan een native veld, worden objecten (buiten het bereik van het filter) die gebruikers al met het veld hebben toegevoegd, niet verwijderd.</li> 
+        <li>Dit filter is niet beschikbaar op mobiele apparaten. Als u het filter voor een native veld gebruikt, wordt het veld weergegeven op mobiele apparaten van gebruikers waarop het filter geen invloed heeft.</li> 
+        </ul></p></span></td> 
+      <td>
+     </tr>
+     <tr> 
+      <td role="rowheader">Een vereist veld maken</td>
+      <td><p>Selecteer deze optie als u wilt dat het veld verplicht is zodat de gebruiker het aangepaste formulier kan invullen.</p></td>
+     </tr> 
      <tr> 
       <td role="rowheader">Grootte</td> 
       <td>(Optioneel) Wijzig desgewenst de weergavegrootte van het veld.</td> 

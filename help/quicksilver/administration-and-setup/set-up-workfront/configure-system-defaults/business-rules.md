@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 6bebe5fa42e50f7aa68b4a87069d47b6ef3323b9
+source-git-commit: 5ebb756ba2f054c37d486d7f54a9f86cf8513328
 workflow-type: tm+mt
 source-wordcount: '1223'
 ht-degree: 0%
@@ -136,11 +136,11 @@ IF(
 
      <span class="preview"> u kunt statische URL in het foutenbericht omvatten, om aan documentatie of andere nuttige pagina&#39;s te verbinden om de gebruiker op te begeleiden hoe te om hun actie binnen de beperking van de regel te wijzigen.</span>
 
-     <span class="preview"> in dit voorbeeld, &quot;leer meer&quot;zal met URL verbinden. `"You are not allowed to add a new expense in June.[Learn more](http://url)"` De URL moet tussen haakjes staan, maar koppelingstekst tussen haakjes is niet vereist. U kunt volledige URL tonen en het zal een klikbare verbinding zijn.</span>
+     <span class="preview"> in dit voorbeeld, &quot;leer meer&quot;zal met URL verbinden. `"You are not allowed to add a new project in November.[Learn more](http://url)"` De URL moet tussen haakjes staan, maar koppelingstekst tussen haakjes is niet vereist. U kunt volledige URL tonen en het zal een klikbare verbinding zijn.</span>
 
    ![ voeg bedrijfsregeldialoog ](assets/add-business-rule-dialog-no-ai-button.png) toe
 
-   Dit voorbeeld is een bedrijfsregel voor uitgaven. Als de huidige maand Juni is, dan kunnen de gebruikers geen nieuwe uitgaven tot stand brengen, en het bericht verklaart dit.
+   Dit voorbeeld is een bedrijfsregel voor projecten. Als de huidige maand November is, dan worden de gebruikers toegelaten om geen nieuwe projecten tot stand te brengen, en het bericht verklaart dit.
 
    Voor meer voorbeelden van bedrijfsregels, zie [ Scenario&#39;s voor bedrijfsregels ](#scenarios-for-business-rules) in dit artikel.
 
