@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: 170edee352f1219986057dbb7d77228f84d855b1
 workflow-type: tm+mt
-source-wordcount: '2108'
+source-wordcount: '2106'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,8 @@ ht-degree: 0%
 >
 >U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
 >
->* Een nieuw Workfront-plan en -licentie. Workfront Planning is niet beschikbaar voor oudere Workfront-plannen of -licenties.
->* Een extra licentie voor Workfront Planning.
+>* Een nieuw Workfront-pakket en -licentie. Workfront Planning is niet beschikbaar voor verouderde Workfront-pakketten of -licenties.
+>* Een Workfront-planningspakket.
 >* De instantie van uw organisatie van Workfront moet aan de Adobe Verenigde Ervaring worden genegeerd.
 >
 > Voor een volledige lijst van vereisten om tot de Planning van Workfront toegang te hebben, zie [ de toegangsoverzicht van de Planning van de Adobe ](/help/quicksilver/planning/access/access-overview.md).

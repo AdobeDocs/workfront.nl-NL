@@ -5,9 +5,9 @@ title: Werken in tijdzones
 description: Het kan nuttig zijn om te begrijpen hoe  [!DNL Adobe Workfront]  tijdstreken gebruikt om tijdgebieden voor voorwerpen en tijden op andere gebieden zoals e-mails te berekenen.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1136'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,13 @@ ht-degree: 0%
 # Werken in tijdzones
 
 <!-- Audited: 2/2024 -->
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
+
+-->
 
 Het kan handig zijn om te begrijpen hoe [!DNL Adobe Workfront] tijdzones gebruikt om het volgende te berekenen:
 
@@ -91,20 +98,37 @@ U kunt gebruikers helpen die gemakkelijker in verschillende tijdzones werken op 
 
   Dit programma kan van een projectprogramma verschillend zijn. Bijvoorbeeld, wanneer iemand een taak in het project creeert en nog niemand aan het heeft toegewezen, gebruikt de taak het projectprogramma. Wanneer een gebruiker aan de taak wordt toegewezen, gebruikt de taak het programma van die gebruiker.
 
-  Als de veelvoudige gebruikers aan een taak worden toegewezen, gebruikt het systeem één van het volgende, zoals die in de systeembrede projectvoorkeur wordt gevormd:
+  Als de veelvoudige gebruikers aan een taak worden toegewezen, gebruikt het systeem één van het volgende, zoals die in de systeem of groepsbrede projectvoorkeur wordt gevormd:
 
    * De tijdzone voor het programma van de primaire eigenaar van de taak
    * De tijdzone voor het programma van het project.
 
-  Hierdoor kunnen taakdatums veranderen.
+<!--
+   <div class="preview">
 
-  **Voorbeeld:** Een gebruiker EST wordt toegewezen aan een eendagtaak die om bij 9:00 AM PST wordt gepland te beginnen, die niet EST is. Omdat de EST-gebruiker slechts twee werkuren voor de dag heeft, loopt de datum waarop de taak is voltooid met ongeveer zes uur door tot de volgende werkdag.
+   If one user is assigned to a task, the system uses one of the following, as configured in the system- or group-wide project preferences: 
 
-  Voor informatie over het [!UICONTROL Project Preferences] gebied van [!UICONTROL Setup], zie [ systeem-brede projectvoorkeur ](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
+   * The time zone for the schedule of the task's assignee
+   * The time zone for the schedule of the project.
 
-  Voor instructies bij het toewijzen van een programma aan een project of een gebruiker, zie [ een programma ](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren.
+   </div>
+-->
 
-  Voor informatie over hoe de tijdzone die in uw programma wordt gevormd de distributie van [!UICONTROL Planned Hours] in [!UICONTROL Workload Balancer] beïnvloedt, zie [ gebruikerstoewijzingen in [!UICONTROL Workload Balancer]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md) beheren.
+Hierdoor kunnen taakdatums veranderen.
+
+>[!BEGINSHADEBOX]
+
+**VOORBEELD:**
+Een EST-gebruiker wordt toegewezen aan een eendaagse taak die om 9:00 uur PST wordt gepland, dat is 12.00 uur EST. Omdat de EST-gebruiker slechts twee werkuren voor de dag heeft, loopt de datum waarop de taak is voltooid met ongeveer zes uur door tot de volgende werkdag.
+
+
+>[!ENDSHADEBOX]
+
+Voor informatie over het [!UICONTROL Project Preferences] gebied van [!UICONTROL Setup], zie [ systeem-brede projectvoorkeur ](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
+
+Voor instructies bij het toewijzen van een programma aan een project of een gebruiker, zie [ een programma ](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren.
+
+Voor informatie over hoe de tijdzone die in uw programma wordt gevormd de distributie van [!UICONTROL Planned Hours] in [!UICONTROL Workload Balancer] beïnvloedt, zie [ gebruikerstoewijzingen in [!UICONTROL Workload Balancer]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md) beheren.
 
 
 ### Berekende tijdvelden gebruiken in een aangepast formulier {#use-calculated-time-fields-in-a-custom-form}

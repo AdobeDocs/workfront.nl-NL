@@ -6,9 +6,9 @@ description: U kunt de datum van Vastleggen van een taak of een kwestie manueel 
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
+source-git-commit: 170edee352f1219986057dbb7d77228f84d855b1
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,9 @@ U kunt de datum van Vastleggen van een taak of een kwestie manueel bijwerken waa
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen beheren voor de taak of uitgave</p> </td> 
+   <td> <p>Machtigingen beheren voor de taak of uitgave</p>
+   <p> U moet aan de taak of de kwestie worden toegewezen om de datum bij te werken begaan </p>
+    </td> 
   </tr> 
  </tbody> 
 </table>

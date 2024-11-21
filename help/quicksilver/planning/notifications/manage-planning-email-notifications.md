@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 0%
@@ -55,7 +55,7 @@ U kunt e-mailmeldingen ontvangen van Workfront Planning wanneer de volgende scen
 <p>Workfront Planning is niet beschikbaar voor oudere Workfront-plannen</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Planning van Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront-planningspakket*</p></td> 
    <td> 
 <p>Alle </p> 
 <p>Neem contact op met uw Workfront-accountmanager voor meer informatie over wat er in elk Workfront-planningsplan is opgenomen. </p> 

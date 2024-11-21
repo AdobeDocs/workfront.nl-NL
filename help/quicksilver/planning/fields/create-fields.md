@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
-source-wordcount: '4106'
+source-wordcount: '4129'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 <p>Workfront Planning is niet beschikbaar voor oudere Workfront-plannen</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Planning van Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront-planningspakket*</p></td> 
    <td> 
 <p>Alle </p> 
 <p>Neem contact op met uw Workfront-accountmanager voor meer informatie over wat er in elk Workfront-planningsplan is opgenomen. </p> 
@@ -206,6 +206,9 @@ OLD:
    Beweeg over de kopbal van om het even welke kolom, klik de naar beneden wijzende pijl na de gebiedsnaam, dan klik links **of** Tussenvoegsel rechts **om het nieuwe gebied toe te voegen.**
 1. Op het **Nieuwe gebied** lusje, onderzoek naar een gebiedstype op het **type van Gebied** vakje, of selecteer van de volgende gebiedstypes:
 
+   Op het **Nieuwe gebied** lusje, onderzoek naar een gebiedstype op het **type van Gebied** doos <!--using any related keyword-->, of selecteer van de hieronder vermelde gebiedstypes.
+
+
    * [Tekst met één regel](#single-line-text)
    * [Alinea](#paragraph)
    * [Meerdere selecties](#multi-select)
@@ -225,6 +228,9 @@ OLD:
    >[!IMPORTANT]
    >
    >    U kunt het veldtype van het veld niet wijzigen nadat u het hebt opgeslagen.
+
+   <!--Add this to the IMPORTANT above and make it a NOTE - should do directly to Prod:
+    * You can use any keyword that might be related to any of the field type names. For example, a search for "Budget" will display the Number or Currency field type.-->
 
 1. Ga verder met het toevoegen van elk veld, zoals beschreven in de volgende secties.
 

@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 82633fcb858273dee360fc44b031fec5a5cdff54
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
 source-wordcount: '2988'
 ht-degree: 0%
@@ -91,7 +91,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 <p>Workfront Planning is niet beschikbaar voor oudere Workfront-plannen</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Planning van Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront-planningspakket*</p></td> 
    <td> 
 <p>Alle </p> 
 <p>Neem contact op met uw Workfront-accountmanager voor meer informatie over wat er in elk Workfront-planningsplan is opgenomen. </p> 

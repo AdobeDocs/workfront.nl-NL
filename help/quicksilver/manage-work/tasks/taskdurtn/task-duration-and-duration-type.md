@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1402'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,13 @@ ht-degree: 0%
 # Overzicht van het Type van Duur en van de Duur van de Taak
 
 <!-- Audited: 12/2023 -->
+
+<!--
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
+-->
 
 De taakduur is het verschil tussen de Geplande Datum van Voltooiing en de Geplande Datum van het Begin van de taak. De Duur wijst op het tijdkader dat voor de taak beschikbaar is om te worden voltooid.
 
@@ -31,7 +38,30 @@ Als de Ware Datum van het Begin en van de Werkelijke Voltooiing van de taak buit
 
 De volgende twee scenario&#39;s bestaan bij het berekenen van de duur in Adobe Workfront:
 
-* Als de taak aan een gebruiker Workfront wordt toegewezen, gebruikt één van de volgende programma&#39;s, in deze nauwkeurige orde om Duur te berekenen:
+<!--
+<div class="preview">
+* If the task is assigned to one user, the following scenarios exist based on what environment you use: 
+
+  * In the Production environment, Workfront uses one of the following schedules, in this exact order to calculate Duration:
+
+   1. Workfront takes into account the user's schedule. 
+   1. If the user is not associated with a schedule, Workfront takes into account the project's schedule.
+   1. If the project is not associated with a schedule, Workfront takes into account the Default Schedule of your system. For information about schedules, see [Create a schedule](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+
+   * In the Preview environment:
+
+      1. Workfront takes into account either the schedule of the project or that of the primary assignee.
+
+          Your Workfront or group administrator determines which schedule Workfront uses when a task is assigned to one  user. For information, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+
+      1. If the user or the project don't have a schedule, Workfront uses the system Default schedule. 
+
+      The steps are similar to the first scenario after understanding which schedule Workfront uses to calculate Duration.
+
+</div>
+-->
+
+* Als de taak aan een gebruiker wordt toegewezen, gebruikt Workfront één van de volgende programma&#39;s, in deze nauwkeurige orde om Duur te berekenen:
 
    1. Workfront houdt rekening met de planning van de gebruiker.
    1. Als de gebruiker niet met een programma wordt geassocieerd, houdt Workfront rekening met het programma van het project.
@@ -41,7 +71,9 @@ De volgende twee scenario&#39;s bestaan bij het berekenen van de duur in Adobe W
 
    1. Workfront houdt rekening met het projectschema of met dat van de primaire ontvanger.
 
-  Uw Workfront-beheerder bepaalt welk schema Workfront gebruikt wanneer een taak aan meerdere gebruikers wordt toegewezen. Voor informatie, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
+      Uw Workfront of groepsbeheerder bepaalt welk schema Workfront gebruikt wanneer een taak aan veelvoudige gebruikers wordt toegewezen. Voor informatie, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
+
+   1. Als de primaire ontvanger of het project geen programma hebben, gebruikt Workfront het systeemGebrek programma.
 
   De stappen zijn gelijkaardig aan het eerste scenario na begrip welk programma Workfront gebruikt om Duur te berekenen.
 

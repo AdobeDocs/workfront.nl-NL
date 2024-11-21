@@ -1,52 +1,166 @@
 ---
-title: Workfront-objecten maken met Workfront Planning Record-automatisering
+title: Workfront-objecten maken met Adobe Workfront Planning Record Automations
 description: U kunt automatiseringen in de Planning van Workfront vormen die, wanneer geactiveerd, tot voorwerpen in Workfront leiden.
-feature: Workfront Planning
-role: User, Admin
-author: Alina, Becky
-recommendations: noDisplay, noCatalog
-source-git-commit: cfaacc4137ebfa7f2ed057522d43bd82715011df
+hide: true
+hidefromtoc: true
+exl-id: c669217a-40e2-471f-951d-93157a34f1ee
+source-git-commit: 03eedb00ab45b95e87670872cf015c0f6840658e
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '1071'
 ht-degree: 0%
 
 ---
 
+# Objecten maken met Adobe Workfront Planning-recordautomatisering
 
-# Objecten maken met Workfront Planning-recordautomatisering
+<!--add screen shots when UI is finalized-->
+<!--when you make this public, add this to the metadata above (and take the "hide" tags out):
 
-U kunt automatiseringen in de Planning van Workfront vormen die, wanneer geactiveerd, tot voorwerpen in de Planning van Workfront of Workfront leiden.
+feature: Workfront Planning
+role: User, Admin
+author: Alina, Becky
+recommendations: noDisplay, noCatalog
 
-U activeert de automatisering in verslagen. Het voorwerp dat wordt gecreeerd wordt verbonden met het verslag van de Planning waar u de automatisering activeerde.
+-->
+
+U kunt automatiseringen in de Planning van Adobe Workfront vormen die, wanneer geactiveerd, tot voorwerpen in de Planning van Workfront of Workfront leiden.
+
+U kunt de automatisering in de verslagpagina vormen en activeren. Het object dat wordt gemaakt, wordt verbonden met de planningsrecord en wordt geplaatst in het veld dat u opgeeft in de automatisering.
 
 U kunt bijvoorbeeld een automatisering maken die een Workfront-planningscampagne voert en een project maakt in Workfront om de voortgang van die campagne te volgen. Het project zou worden gekoppeld aan de planningscampagne van Workfront.
 
 Voor meer informatie over verbonden verslagen, zie [ Verbonden verslagenoverzicht ](/help/quicksilver/planning/records/connected-records-overview.md).
+
+## Toegangsvereisten
+
++++ Breid uit om toegangsvereisten voor de Planning van Workfront te bekijken.
+
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Producten</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront-abonnement*</p></td> 
+   <td> 
+<p>Een van de volgende Workfront-plannen:</p> 
+<ul><li>Selecteren</li> 
+<li>Eerste</li> 
+<li>Ultieme</li></ul> 
+<p>Workfront Planning is niet beschikbaar voor oudere Workfront-plannen</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront-planningspakket*</p></td> 
+   <td> 
+<p>Alle </p> 
+<p>Neem contact op met uw Workfront-accountmanager voor meer informatie over wat er in elk Workfront-planningsplan is opgenomen. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront-platform</p></td> 
+   <td> 
+<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden genegeerd om tot alle mogelijkheden van de Planning van Workfront te kunnen toegang hebben.</p> 
+<p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront-licentie*</p></td> 
+   <td> Standaard
+   <p>Workfront Planning is niet beschikbaar voor oudere Workfront-licenties</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configuratie op toegangsniveau</p></td> 
+   <td> <p>Er zijn geen toegangsniveaucontroles voor de Planning van Adobe Workfront</p> 
+   <p>Bewerk de toegang in Workfront voor de objecttypen die u wilt maken (projecten, portfolio's, programma's). </p>  
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Objectmachtigingen</p></td> 
+   <td> <p>Rechten beheren in de werkruimte waaraan u records wilt toevoegen. </p>  
+   <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>
+   <p>Rechten voor Workfront-objecten (portfolio's) beheren om onderliggende objecten (projecten) toe te voegen.</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Lay-outsjabloon</p></td> 
+   <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het planningsgebied in het hoofdmenu bevat </p> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+*Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+
+## Overwegingen bij het maken van objecten en records via een automatisering
+
+* De nieuwe object- of recordnaam is gelijk aan de naam van de record waaruit u deze maakt.
+* Als in de record waarvoor u de automatisering gebruikt, al objecten van hetzelfde type zijn verbonden in het veld dat u selecteert om nieuwe objecten toe te voegen, worden de nieuwe objecten toegevoegd aan het verbindingsveld en blijven bestaande objecten ook verbonden.
 
 
 ## Automatisering configureren in Workfront-planning
 
 U moet een automatisering in de Planning van Workfront vormen alvorens u het kunt gebruiken om voorwerpen tot stand te brengen.
 
-1. Klik **Meer** menu ![](assets/more-menu.png) en selecteer **Automaties**.
+{{step1-to-planning}}
+
+1. Klik op een recordtypekaart en klik vervolgens op de naam van een record.
+
+   De pagina met recordtypen wordt geopend.
+1. Klik **Meer** menu ![](assets/more-menu.png) aan het recht van de naam van het verslagtype, dan klik **leidt automatiseringen**.
 
    De lijst met beschikbare automatiseringen wordt geopend.
 
-1. Klik **creëren nieuwe automatisering** in de hoger-juiste hoek van het scherm.
-1. Op het **gebied van de Tekst van de Knoop**, ga de tekst in die u op de knoop wilt verschijnen. Gebruikers klikken op deze knop wanneer ze de automatisering gebruiken om een Workfront-object te maken.
-1. (Optioneel) Als u een pictogram aan de knop wilt toevoegen, selecteert u een pictogram uit de beschikbare opties.
-1. Op **creeer een type van** gebied, selecteer het voorwerp dat u de automatisering wilt tot stand brengen.
+1. Klik **Nieuwe automatisering** in de hoger-juiste hoek van het scherm.
+1. Werk de volgende velden bij:
 
-   Beschikbare objecten zijn:
+   * **tekst van de Knoop**: Ga de tekst in die u op de automatiseringsknoop wilt verschijnen. Gebruikers klikken op deze knop wanneer ze de automatisering gebruiken om een Workfront-object te maken.
+   * **pictogram van de Knoop**: Selecteer een pictogram voor de knoop. Er is standaard een pictogram geselecteerd.
+   * **Type van Objecten**: Selecteer het voorwerp dat u de automatisering wilt tot stand brengen. Dit is een verplicht veld.
 
-   * Project
-   * Portfolio
-   * Programma
-   * Groep
+     U kunt de volgende objecten maken van Workfront Planning-records:
 
-1. Op **selecteer het gebied op het gebied van de projectnaam** te gebruiken, selecteer een verslaggebied. Het nieuwe object krijgt de inhoud van dit veld als naam.
-1. Op **selecteer het gebied om het gecreeerde project terug** gebied te verbinden, selecteer een verslaggebied. Het nieuwe object wordt in dit veld weergegeven wanneer u de record weergeeft in Workfront Planning.
-1. Selecteer andere opties die beschikbaar zijn voor het type object dat u maakt.
+      * Project
+      * Portfolio
+      * Programma
+      * Groep
+      * Opnemen
+1. (Voorwaardelijk) Afhankelijk van het type object dat u wilt maken, werkt u de volgende velden bij:
+
+   * **Project**:
+      * **Verbonden gebied waar het voorwerp** wordt gecreeerd: Dit is het verbonden gebied waar het nieuwe project zal tonen. Dit is een verplicht veld
+      * **Malplaatje waarvan om het project** tot stand te brengen: Selecteer een projectmalplaatje dat Workfront zal gebruiken om het project tot stand te brengen.
+   * **Portfolio**:
+      * **Verbonden gebied waar het voorwerp** wordt gecreeerd: Dit is het verbonden gebied waar de nieuwe portefeuille zal tonen. Dit is een verplicht veld.
+      * **Vorm van de Douane aan bijlage aan de nieuwe portefeuille**: Selecteer een douaneformulier om aan de nieuwe portefeuille vast te maken. U moet een aangepast portfolioformulier maken voordat u het kunt selecteren.
+   * **Programma**:
+      * **Verbonden gebied waar het voorwerp** wordt gecreeerd: Dit is het verbonden gebied waar het nieuwe programma zal tonen. Dit is een verplicht veld.
+      * **portefeuille van het Programma**: Selecteer een portefeuille waar het nieuwe programma zal worden toegevoegd. Dit is een verplicht veld.
+      * 
+         * **Vorm van de Douane aan het nieuwe programma** vast te maken: Selecteer een douanevorm om aan het nieuwe programma vast te maken. U moet een aangepast programma maken voordat u het kunt selecteren.
+   * **Groep**:
+      * **Verbonden gebied waar het voorwerp** wordt gecreeerd: Dit is het verbonden gebied waar de nieuwe groep zal tonen. Dit is een verplicht veld.
+      * **Vorm van de Douane aan de nieuwe groep** vast te maken: Selecteer een douaneformulier om aan het nieuwe programma vast te maken. U moet een aangepast programma maken voordat u het kunt selecteren.
+   * **Verslag**:
+      * **Verbonden verslagtype**: Selecteer het verslagtype u wilt tot stand brengen.
+      * **Verbonden gebied waar het verslag** wordt gecreeerd: Dit is het verbonden gebied waar het nieuwe verslag zal tonen. Dit is een verplicht veld.
+      * **gebied van de Kaart**: Selecteer gebieden van het verslagtype de automatisering voor wordt gecreeerd om hen aan de gebieden van het verbonden verslagtype in kaart te brengen.
+      * **aan verbonden verslaggebied**: Selecteer gebieden van het verbonden verslag dat aan de gebieden van het verslagtype zal beantwoorden u de automatisering voor creeert.
+1. (Facultatief en voorwaardelijk) als u geen verbindingsgebied voor een objecten van Workfront type hebt, klik **creeer een verbindingsgebied** pictogram ![](assets/create-a-connection-field-icon.png) om een gebied toe te voegen.
+1. (Facultatief en voorwaardelijk) als u selecteerde om een verslag toe te voegen, **** op de **Kaart verbonden gebieden** gebied toevoegen en in kaart brengen om extra gebieden toe te voegen.
 1. Klik **creëren**
 
 De automatisering wordt weergegeven in de lijst met automatiseringen en is beschikbaar voor gebruik in records.
@@ -54,14 +168,20 @@ De automatisering wordt weergegeven in de lijst met automatiseringen en is besch
 ## Een Workfront-planningsautomatisering gebruiken om een object te maken
 
 1. Open in Workfront Planning de pagina met recordtypen die de records bevat die u wilt gebruiken om Workfront-objecten te maken.
+1. Open de tabelweergave.
 1. Selecteer een of meer records.
-1. Klik op de automatiseringsknop in de rechterbenedenhoek van het scherm.
 
-   In dit voorbeeld is dit de knop Project maken.
+   Onder aan de tabel wordt een blauwe balk weergegeven met extra knoppen, zoals automatiseringsknoppen.
+1. Klik op de automatiseringsknop in de rechterbenedenhoek van het scherm.
 
    ![ knoop van de Automatisering ](assets/automation-custom-button.png)
 
->[!NOTE]
->
->We raden u aan te controleren of het object is gemaakt en verbonden zoals u had verwacht.
+   Het nieuwe object wordt weergegeven in het verbonden veld dat u hebt aangegeven in de instelling van de automatiseringsknop.
 
+   >[!NOTE]
+   >
+   >We raden u aan te controleren of het object is gemaakt en verbonden zoals u had verwacht.
+
+1. (Optioneel) Klik op het nieuwe object in het verbonden veld. De objectpagina wordt geopend en u kunt aanvullende wijzigingen in het nieuwe object aanbrengen.
+
+<!--you might need to add something about notifications and emails?!-->

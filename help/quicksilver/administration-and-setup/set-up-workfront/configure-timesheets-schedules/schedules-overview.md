@@ -10,7 +10,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
 source-wordcount: '732'
 ht-degree: 0%
@@ -20,6 +20,13 @@ ht-degree: 0%
 # Overzicht van schema&#39;s
 
 <!-- Audited: 1/2024 -->
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  
+
+-->
 
 U kunt uw werkweek bepalen gebruikend programma&#39;s en een programma associëren met een gebruiker of een project. Hierdoor kunnen in [!DNL Adobe Workfront] tijdlijnen en de beschikbaarheid van de gebruiker worden berekend. Voor instructies, zie [ een programma ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren.
 
@@ -60,6 +67,20 @@ Als een taak aan een gebruiker wordt toegewezen die met een programma wordt geas
 >[!DNL Workfront] gebruikt het schema van een gebruiker alleen wanneer de instelling [!UICONTROL Calculate Resource Availability Using] is ingesteld op [!UICONTROL The User's Schedule] in het [!UICONTROL Resource Management] gebied van [!UICONTROL Setup] . Voor informatie over hoe het [!UICONTROL Calculate Resource Availability Using] plaatsen beïnvloedt welk programma voor het Beheer van het Middel wordt gebruikt, zie [ de voorkeur van het Beheer van het Middel ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md) vormen.
 
 De volgorde waarin de schema&#39;s door het systeem worden gebruikt wanneer er meer dan één bestaat, is:
+
+<!--Replace the first bullet below with this when the setting releases: 
+* When one user is assigned to a task, the following scenarios exist, depending on what environment you use: 
+
+   * In the Production environment, [!DNL Workfront] uses the user's schedule for calculating the timeline of the task. This also includes the personal time of the user. The schedule of the project is ignored.
+
+      For more information about personal time, see [Configure personal time off](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+
+   * <span class="preview">In the Preview environment, [!DNL Workfront] uses either one of the following schedules, as defined in the [!UICONTROL Project Preferences] area of [!UICONTROL Setup]:</span>
+
+      * <span class="preview">The schedule of the user who is assigned to the task </span>
+      * <span class="preview">The schedule associated with the project.</span>
+
+-->
 
 * Wanneer een gebruiker aan een taak wordt toegewezen, gebruikt [!DNL Workfront] het programma van de gebruiker voor het berekenen van de chronologie van de taak. Dit omvat ook de persoonlijke tijd van de gebruiker. Het schema van het project wordt genegeerd.
 

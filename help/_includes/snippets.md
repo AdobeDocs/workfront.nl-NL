@@ -1,5 +1,5 @@
 ---
-source-git-commit: 400ca2ac10a94ccfa79bef8daf06b924dadac230
+source-git-commit: 170edee352f1219986057dbb7d77228f84d855b1
 workflow-type: tm+mt
 source-wordcount: '2474'
 ht-degree: 0%
@@ -276,7 +276,7 @@ U moet de juiste insteekmodule installeren voor de Adobe Creative Cloud-toepassi
 
    De landingspagina van Workfront Planning wordt geopend.
 
-1. (Optioneel en voorwaardelijk) Als u een Workfront-beheerder bent, klikt u op de volgende tabbladen:
+1. (Optioneel en voorwaardelijk) Als u een Workfront-beheerder bent, klikt u op een van de volgende tabbladen:
 
    * **Mijn werkruimten**: De werkruimten van vertoningen u creeerde.
    * **Andere werkruimten**: Toont alle werkruimten in de Planning van Workfront, met inbegrip van degenen die met u worden gedeeld.
@@ -291,8 +291,8 @@ U moet de juiste insteekmodule installeren voor de Adobe Creative Cloud-toepassi
 >
 >U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
 >
->* Een nieuw Workfront-plan en -licentie. Workfront Planning is niet beschikbaar voor oudere Workfront-plannen of -licenties.
->* Een extra licentie voor Workfront Planning.
+>* Een nieuw Workfront-pakket en -licentie. Workfront Planning is niet beschikbaar voor verouderde Workfront-pakketten of -licenties.
+>* Een Workfront-planningspakket.
 >* De instantie van uw organisatie van Workfront moet aan de Adobe Verenigde Ervaring worden genegeerd.
 >
 > Voor een volledige lijst van vereisten om tot de Planning van Workfront toegang te hebben, zie [ Overzicht van de Toegang ](/help/quicksilver/planning/access/access-overview.md).
