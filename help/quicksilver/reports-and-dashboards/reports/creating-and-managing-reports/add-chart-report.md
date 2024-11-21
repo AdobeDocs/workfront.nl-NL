@@ -6,16 +6,16 @@ description: U kunt uw rapporten verbeteren door een grafiek toe te voegen. U ku
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 9396cd2ac073a57b7d99618cdf09e54ddcf95130
 workflow-type: tm+mt
-source-wordcount: '2768'
+source-wordcount: '2734'
 ht-degree: 0%
 
 ---
 
 # Een diagram toevoegen aan een rapport
 
-<!--Audited: 01/2024-->
+<!--Audited: 11/2024-->
 
 U kunt uw rapporten verbeteren door een grafiek toe te voegen. U kunt grafieken toevoegen aan bestaande rapporten of aan rapporten die u creeert.
 
@@ -47,9 +47,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Huidig: Plan </p>
-   of
-   <p>Nieuw: Standaard</p> </td> 
+   <td> 
+      <p>Nieuw:</p>
+         <ul>
+         <li><p>Standaard</p></li>
+         </ul>
+      <p>Huidige:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configuratie op toegangsniveau</td> 
@@ -62,14 +69,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront. Voor meer informatie over toegangsvereisten, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
 
 ## Een diagram toevoegen aan een rapport
 
 1. Ga naar een bestaand rapport of maak een nieuw rapport. Voor meer informatie over het creëren van een nieuw rapport, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+
 1. (Voorwaardelijk) als u naar een bestaand rapport ging, klik {de Acties van het 0} Rapport **>** uitgeven **.**
 
 1. Zorg ervoor dat het **lusje van Kolommen (Mening)** is bijgewerkt om de informatie te tonen u in het rapport van een grafiek wilt voorzien.
@@ -87,8 +94,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    Voor meer informatie over het creëren van groeperingen, zie [ groepen in Adobe Workfront ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-groupings.md) creëren.
 
 1. Selecteer de **Grafiek** tabel.
+
 1. Klik op een diagramtype om dit te selecteren.\
-   ![](assets/qs-report-builder-chart-350x265.png)
+   ![ het type van Grafiek selectie ](assets/unshimmed-report-builder-chart.png)
 
 1. Selecteer een van de volgende typen grafieken:
 
@@ -106,12 +114,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 Om a **grafiek van de Kolom** aan uw rapport toe te voegen:
 
 1. Begin toevoegend een grafiek aan uw rapport, zoals die in [ wordt beschreven voeg een grafiek aan een rapport ](#add-a-chart-to-a-report) toe.
-1. Op het **Linkergebied van de As (Y)**, selecteer de waarden die u op de as van Y van de grafiek wilt omvatten, evenals hoe u de informatie wilt worden samengevat.
-1. Op het **Onderste (X) gebied van de As**, selecteer de Groepering die u in de grafiek wilt omvatten.
-1. (Facultatief) selecteer **Aangepaste Kleuren** om uw aangewezen kleuren aan elk van de kolommen toe te wijzen.\
+
+1. Op het **Linker (Y) gebied van de As**, selecteer de waarden die u op de Y as van de grafiek wilt omvatten, dan selecteren hoe u de informatie wilt worden samengevat in **die door** gebied wordt samengevat.
+
+1. (Facultatief) klik **de Kleuren van de Douane** om aangewezen kleuren aan elk van de kolommen toe te wijzen.\
    Voor meer informatie over het aanpassen van grafiekkleuren, zie [ kaartkleuren ](#customize-chart-colors) aanpassen.
 
-1. (Optioneel) Selecteer **Tonen in 3D** om de grafiek in een driedimensionale weergave weer te geven.
+1. Op het **Onderste (X) gebied van de As**, selecteer de Groepering die u in de grafiek wilt omvatten.
+
+1. (Facultatief) klik **Tonen in 3D** om de grafiek in een driedimensionale mening te tonen.
+
 1. (Facultatief) **Kolommen van de Groep**: Selecteer deze optie om te bepalen hoe u de kolommen wilt worden gegroepeerd.\
    Selecteer een van de volgende opties:
 
@@ -122,15 +134,14 @@ Om a **grafiek van de Kolom** aan uw rapport toe te voegen:
       * **Gestapeld aan 100%**
 
    * Selecteer de Groepering die u in de grafiek van de **Gegevens van de Groep door** drop-down menu wilt omvatten.
-   * (Optioneel) Selecteer **Aangepaste kleuren** om de kleuren van de kolommen aan te passen.\
+   * (Facultatief) klik **de Kleuren van de Douane** om de kleuren van de kolommen aan te passen.\
      Voor meer informatie over het aanpassen van grafiekkleuren, zie [ kaartkleuren ](#customize-chart-colors) aanpassen.
 
-1. (Facultatief) selecteer **Grafiek van de Combinatie** om een extra waarde in de grafiek te omvatten, evenals hoe u de informatie wilt worden samengevat.\
+1. (Facultatief) klik **Grafiek van de Combinatie** om een extra waarde in de grafiek te omvatten, evenals hoe u de informatie wilt worden samengevat.\
    Overweeg de volgende opties:
 
    * **Plot op Secundaire As**: Selecteer deze optie om de gegevens op de rechterkant van de grafiek te plotten.
-   * **Type van Grafiek**: Selecteer of u deze extra waarde als lijn of derde kolom wilt worden getoond.\
-     ![](assets/qs-column-chart-350x163.png)
+   * **Type van Grafiek**: Selecteer of u deze extra waarde als lijn of derde kolom wilt worden getoond.
 
 1. Klik **sparen + Sluiten** om de grafiek en het rapport te bewaren.
 
@@ -139,13 +150,17 @@ Om a **grafiek van de Kolom** aan uw rapport toe te voegen:
 Om a **grafiek van de Bar** aan uw rapport toe te voegen:
 
 1. Begin toevoegend een grafiek aan uw rapport, zoals die in [ wordt beschreven voeg een grafiek aan een rapport ](#add-a-chart-to-a-report) toe.
-1. Op het **Onderste (X) gebied van de As**, selecteer de waarden die u op de as van X van de grafiek wilt omvatten, evenals hoe u de informatie wilt worden samengevat.
-1. In het **Linkergebied (Y) van de As**, selecteer de Groepering die u in de grafiek wilt omvatten.
-1. (Optioneel) Selecteer **Aangepaste kleuren** om de kleuren van de balken aan te passen.\
+
+1. Op het **gebied van de As van 0} Onder (X), selecteer de waarden die u op de X as van de grafiek wilt omvatten, dan selecteren hoe u de informatie wilt worden samengevat in** die door **gebied wordt samengevat.**
+
+1. (Facultatief) klik **de Kleuren van de Douane** om de kleuren van de bars aan te passen.\
    Voor meer informatie over het aanpassen van grafiekkleuren, zie [ kaartkleuren ](#customize-chart-colors) aanpassen.
 
-1. (Optioneel) Selecteer **Tonen in 3D** om de grafiek in een driedimensionale weergave weer te geven.
-1. (Facultatief) selecteer **de Bars van de Groep** om te bepalen hoe u de bars wilt worden gegroepeerd.\
+1. In het **Linkergebied (Y) van de As**, selecteer de Groepering die u in de grafiek wilt omvatten.
+
+1. (Facultatief) klik **Tonen in 3D** om de grafiek in een driedimensionale mening te tonen.
+
+1. (Facultatief) klik **Bars van de Groep** om te bepalen hoe u de bars wilt worden gegroepeerd.\
    Selecteer een van de volgende opties:
 
    * Klik op een van de volgende opties om te selecteren hoe de gegroepeerde balken worden weergegeven:
@@ -155,11 +170,10 @@ Om a **grafiek van de Bar** aan uw rapport toe te voegen:
       * **Gestapeld aan 100%**
 
    * Selecteer hoe u de informatie in de grafiek van de **Gegevens van de Groep door** drop-down menu wilt groeperen.
-   * (Optioneel) Selecteer **Aangepaste kleuren** om de kleuren van uw kolommen aan te passen.\
+   * (Facultatief) klik **de Kleuren van de Douane** om de kleuren van uw kolommen aan te passen.\
      Voor meer informatie over het aanpassen van grafiekkleuren, zie [ kaartkleuren ](#customize-chart-colors) aanpassen.
 
-1. (Facultatief) selecteer **Grafiek van de Combinatie** om een extra waarde in de grafiek te omvatten, evenals hoe u de informatie wilt worden samengevat.\
-   ![](assets/qs-bar-chart-350x167.png)
+1. (Facultatief) klik **Grafiek van de Combinatie** om een extra waarde in de grafiek te omvatten, evenals hoe u de informatie wilt worden samengevat.
 
 1. Klik **sparen + Sluiten** om de grafiek en het rapport te bewaren.
 
@@ -172,18 +186,19 @@ Om a **grafiek van de Bar** aan uw rapport toe te voegen:
 Om a **Schijf** grafiek aan uw rapport toe te voegen:
 
 1. Begin toevoegend een grafiek aan uw rapport, zoals die in [ wordt beschreven voeg een grafiek aan een rapport ](#add-a-chart-to-a-report) toe.
-1. Op het **gebied van Waarden**, selecteer de waarden die u op het rapport wilt worden getoond, evenals hoe u hen wilt worden samengevat.\
+
+1. Op het **gebied van Waarden**, selecteer de waarden die u op het rapport wilt worden getoond, dan selecteren hoe u de informatie wilt worden samengevat in **samengevat door** gebied.\
    Op het **gebied van Bruiloeken**, selecteer de Groepering die u in de grafiek wilt omvatten. De Groepering wordt vertegenwoordigd door de segmenten van de grafiek.
 
-1. (Optioneel) Selecteer **Aangepaste kleuren** om de kleuren van de segmenten op de grafiek aan te passen.\
+1. (Facultatief) klik **de Kleuren van de Douane** om de kleuren van de wiggen op de grafiek aan te passen.\
    Voor meer informatie over het aanpassen van grafiekkleuren, zie [ kaartkleuren ](#customize-chart-colors) aanpassen.
 
-1. (Optioneel) Selecteer **Tonen in 3D** om de grafiek in een driedimensionale weergave weer te geven.
+1. (Facultatief) klik **Tonen in 3D** om de grafiek in een driedimensionale mening te tonen.
+
 1. Op **toon Resultaten als** gebied, selecteer hoe u de resultaten in de grafiek wilt tonen. Overweeg de volgende opties:
 
    * **Percentage**: De grafiekresultaten tonen als percentage.
-   * **Aantallen**: De grafiekresultaten tonen als aantal.\
-     ![](assets/qs-pie-chart-350x171.png)
+   * **Aantallen**: De grafiekresultaten tonen als aantal.
 
 1. Klik **sparen + Sluiten** om de grafiek en het rapport te bewaren.
 
@@ -192,19 +207,20 @@ Om a **Schijf** grafiek aan uw rapport toe te voegen:
 Om a **grafiek van de Lijn** aan uw rapport toe te voegen:
 
 1. Begin toevoegend een grafiek aan uw rapport, zoals die in [ wordt beschreven voeg een grafiek aan een rapport ](#add-a-chart-to-a-report) toe.
-1. Op het **Linkergebied van de As (Y)**, selecteer de waarden die u op de as van Y van de grafiek wilt omvatten, evenals hoe u de informatie wilt worden samengevat.
+
+1. Op het **Linker (Y) gebied van de As**, selecteer de waarden die u op de Y as van de grafiek wilt omvatten, dan selecteren hoe u de informatie wilt worden samengevat in **die door** gebied wordt samengevat.
+
 1. Op het **Onderste (X) gebied van de As**, selecteer de Groepering die u in de grafiek wilt omvatten.
-1. (Optioneel) Selecteer een kleur om de kleur van de lijn aan te passen.
-1. (Optioneel) Selecteer **Lijnen van de Groep**, om een extra groepering voor de grafiek te selecteren.\
-   (Optioneel) Selecteer **Aangepaste kleuren** om de kleuren voor uw nieuwe groepering aan te passen.\
+
+1. (Facultatief) klik **Lijnen van de Groep**, om een extra groepering voor de grafiek te selecteren.\
+   (Facultatief) klik **de Kleuren van de Douane** om de kleuren voor uw nieuwe groepering aan te passen.\
    Voor meer informatie over het aanpassen van grafiekkleuren, zie [ kaartkleuren ](#customize-chart-colors) aanpassen.
 
-1. (Optioneel) Selecteer **Grafiek van de Combinatie** om uw lijnen door een extra waarde te combineren.\
+1. (Facultatief) klik **Grafiek van de Combinatie** om uw lijnen door een extra waarde te combineren.\
    Houd rekening met de volgende opties:
 
    * Selecteer de waarde die u in het diagram wilt opnemen en hoe u de informatie wilt samenvatten.
-   * Selecteer het **Plot op Secundaire het gebied van de As** om de gegevens op de rechterkant van de grafiek te plotten.\
-     ![](assets/qs-line-chart-350x172.png)
+   * Klik het **Plot op Secundaire het gebied van de As** om de gegevens op de rechterkant van de grafiek te plotten.
 
 1. Klik **sparen + Sluiten** om de grafiek en het rapport te bewaren.
 
@@ -215,16 +231,17 @@ A **grafiek van de Gage** toont het aantal verslagen die aan een bepaalde criter
 Om a **grafiek van het 1} Grijs {aan uw rapport toe te voegen:**
 
 1. Begin toevoegend een grafiek aan uw rapport, zoals die in [ wordt beschreven voeg een grafiek aan een rapport ](#add-a-chart-to-a-report) toe.
-1. Op het **gebied van Waarden**, selecteer de waarden die u op het rapport wilt worden getoond, evenals hoe u hen wilt worden samengevat. Als u **Telling van het Verslag** selecteert, zijn de getoonde waarden het voorwerp van het rapport.
+
+1. Op het **gebied van Waarden**, selecteer de waarden die u op het rapport wilt worden getoond, dan selecteren hoe u de informatie wilt worden samengevat in **samengevat door** gebied. Als u **Telling van het Verslag** selecteert, zijn de getoonde waarden het voorwerp van het rapport.
 
 1. Op het **gebied van Indicatoren**, selecteer de Groepering die u in de grafiek wilt omvatten. De groepering wordt vertegenwoordigd door de indicatorlijn op de grafiek.\
    Als u een Groepering hebt die twee punten bevat, worden twee indicatoren getoond op de grafiek.\
    Bijvoorbeeld, als u een Groepering van de Status van het Project hebt, en er twee projectstatussen (Huidige en Op Greep) zijn, bevat uw Grafiek twee meters. Zij zullen wijzen op het aantal projecten dat in die status verkeert.\
    (Optioneel) Selecteer **Totaal** op het **3} gebied van Indicatoren {om het totaal van de voorwerpen te tonen die op het** worden geselecteerd Waarden **gebied.**
 
-1. Op het **gebied van de Waaier van de Waarde 0} {, specificeer de waaier van waarden en de kleur om die waarden te vertegenwoordigen om op de grafiek van het Grijs te tonen.**
-1. (Facultatief) klik **Voeg een andere Waaier van de Waarde** toe om extra waardewaaiers aan de grafiek toe te voegen.\
-   ![](assets/qs-gauge-chart-350x181.png)
+1. (Facultatief) klik **Voeg een andere Waaier van de Waarde** toe om een waardewaaier aan de grafiek toe te voegen.
+
+1. (Facultatief) op het **gebied van de Waaier van de Waarde 0} {, specificeer de waaier van waarden en de kleur om die waarden te vertegenwoordigen om op de grafiek van het Grijs te tonen.**
 
 1. Klik **sparen + Sluiten** om de grafiek en het rapport te bewaren.
 
@@ -235,7 +252,9 @@ U kunt tot drie gebieden van één voorwerp in a **Bubble** grafiek tonen. Dit b
 Om a **Bubble** grafiek aan uw rapport toe te voegen:
 
 1. Begin toevoegend een grafiek aan uw rapport, zoals die in [ wordt beschreven voeg een grafiek aan een rapport ](#add-a-chart-to-a-report) toe.
-1. In het **Linkergebied (Y) van de As**, selecteer de waarden die u op de as van Y van de grafiek wilt omvatten. De waarden komen uit het standpunt van het verslag. Geef op hoe de gegevens moeten worden samengevat.
+
+1. In het **Linkergebied (Y) van de As**, selecteer de waarden die u op de as van Y van de grafiek wilt omvatten. De waarden komen uit het standpunt van het verslag. Specificeer hoe u de informatie wilt worden samengevat in **samengevat door** gebied.
+
 1. Op het **gebied van de As van de Onderkant (X)**, selecteer de waarden die u op de as van X van de grafiek wilt omvatten. De waarden komen uit het standpunt van het verslag. Geef op hoe de gegevens moeten worden samengevat.
 
    >[!NOTE]
@@ -251,40 +270,20 @@ Om a **Bubble** grafiek aan uw rapport toe te voegen:
    >Voor meer informatie over het samenvatten van de informatie in een rapportkolom, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 1. Op het **gebied van Bubbles**, selecteer de Groepering die u in de grafiek wilt omvatten. De groepering wordt vertegenwoordigd door de plaatsing van de bellen op de grafiek.
+
 1. Op het **gebied van de Kleur van de Bubbel**, selecteer het gebied dat u door de kleuren van de bellen wilt worden vertegenwoordigd.
 
-   ![](assets/qs-bubble-chart-350x103.png)
+   De **Bubble Kleur** kan een Groepering zijn u in het rapport bepaalt, maar de optie is slechts beschikbaar als u een Groepering op het **Bubbles** gebied kiest dat de **Naam** van een oudervoorwerp met betrekking tot het voorwerp van het rapport, zoals **Naam van het Project** voor een taakrapport of **Naam van het Programma** voor een projectrapport bevat.
 
-
-   De **Kleur van de Bubbel** kan een Groepering zijn u in het rapport bepaalt, maar het is slechts beschikbaar wanneer u de **3} kolom van de Naam {voor het voorwerp van het rapport op het** Bubbles **gebied selecteert.**
-
-   Bijvoorbeeld, als u **Naam van de Taak** in een taakrapport selecteerde, kunt u **Status van de Taak** als **Bubble van de Kleur** gebied toevoegen.
+   Bijvoorbeeld, als u **Naam van het Project** in een taakrapport selecteerde, kunt u **Status van de Taak** als **Bubble van de Kleur** gebied toevoegen.
 
    ![](assets/bubbles-field-correct-can-select-bubbles-color-example.png)
 
-   Nochtans, als u **Status van de Taak** voor het **Bubbles** gebied selecteerde, kunt u niet het gebied van de Kleur van de Bubbel van de a **** selecteren. Ook, kunt u niet **Naam van het Project** voor het **Bubble gebied van de Kleur** selecteren, zelfs wanneer u **Naam van de Taak** voor het **Bubble** gebied selecteert.
+   Nochtans, als u **Status van de Taak** voor het **Bubbles** gebied selecteerde, kunt u niet het gebied van de Kleur van de Bubbel van de a **** selecteren. Ook, kunt u niet **Naam van het Project** voor het **Bubble gebied van de Kleur** selecteren, zelfs wanneer u **Naam van het Project** voor het **Bubbles** gebied selecteert.
 
    ![](assets/bubbles-field-wrong-cannot-select-bubbles-color-example.png)
 
-
 1. Klik **sparen + Sluiten** om de veranderingen in de interfacebouwer te bewaren.
-
-## Een diagram exporteren
-
-U kunt een grafiek naar een .pdf- dossier uitvoeren.
-
-Een diagram exporteren:
-
-1. Klik **Uitvoer** om de grafiek naar .pdf uit te voeren.\
-   Er wordt een .pdf-bestand naar uw computer gedownload.
-
-1. Open het .pdf-bestand.\
-   Het geëxporteerde bestand bevat de volgende gegevens:
-
-   * Een afbeelding van het diagram.
-   * Een titel die de naam van het rapport is.
-   * Een unieke bestandsnaam die de naam van het rapport is.
-   * Een voettekst met de datum en tijd waarop het rapport is geëxporteerd en het paginanummer.
 
 ## Grafiekkleuren aanpassen {#customize-chart-colors}
 
@@ -299,12 +298,13 @@ U kunt slechts één kleur kiezen voor velden die worden weergegeven in de weerg
 Grafiekkleuren aanpassen:
 
 1. Terwijl het bouwen van een rapport, ga naar het **lusje van de Grafiek** in de rapportbouwer.
+
 1. Selecteer een grafiektype om aan uw rapport toe te voegen.\
    Voor meer informatie over het toevoegen van een grafiek aan uw rapport, zie [ een grafiek aan een rapport ](#add-a-chart-to-a-report) toevoegen.
 
 1. Klik **de Kleuren van de Douane** wanneer dit gebied beschikbaar is.\
    Het dialoogvenster Aangepaste kleuren wordt weergegeven.\
-   ![](assets/custom-colors-in-charts-350x286.png)
+   ![](assets/unshimmed-custom-colors-in-charts.png)
 
    >[!NOTE]
    >
@@ -313,33 +313,49 @@ Grafiekkleuren aanpassen:
 1. U kunt een van de volgende opties selecteren:
 
    * **Gebruik één kleur**: Alle elementen van de grafiek zullen in de geselecteerde kleur tonen.
+   * **voegt Kleur** toe: voeg een douanekleur voor een mogelijke waarde van het geselecteerde gebied toe.
+   * **verwijder allen**: Selecteer deze optie om alle hierboven gespecificeerde gebiedswaarden en kleuren te verwijderen.
+   * **Geen Waarde**: Selecteer dit gebied en een douanekleur om de grafiekkolom te tonen die &quot;geen waarde&quot;punten groepeert. Dit zijn items die niet kunnen worden gegroepeerd met een van de opties van het veld dat in de groep is geselecteerd.
+   * **Alle Andere Waarden**: Selecteer dit gebied en een douanekleur om alle andere grafiekelementen te tonen de waarvan opties hierboven niet worden bepaald.
 
-      1. Typ de naam van een optie in het geselecteerde veld en selecteer vervolgens een kleur. Deze optie wordt weergegeven in de geselecteerde kleur op het diagram.
-      1. (Optioneel) Geef een hexadecimale kleurwaarde op voor de kleur in plaats van een kleur te selecteren uit de beschikbare kleurvoorbeelden\
-         of\
-         Klik op de kleurkiezer die wordt weergegeven nadat u op de hexadecimale code hebt geklikt en selecteer een andere kleur.
+     >[!NOTE]
+     >
+     >De kleuren u onlangs hebt uitgegeven tonen rechts van de **knoop van de Kleuren van de Douane**. Wanneer u met de muis over een kleur beweegt, wordt de naam van het bijbehorende veld weergegeven. U kunt een kleur ook klikken om het uit te geven zonder **de Kleuren van de Douane** opnieuw te openen.
 
-   * **voegt Kleur** toe: Ga verder om douanekleuren voor alle andere mogelijke opties van het geselecteerde gebied toe te voegen.
-   * **verwijder allen**: Selecteer deze optie om alle kleuren en opties van het hierboven geselecteerde gebied te verwijderen.
-   * **Geavanceerde Opties**: Uitgezocht van de volgende keuzen:
+1. Een kleur kiezen:
+Klik in de kleurkiezer om een kleur te selecteren.
+OF
+Geef een hexadecimale kleurwaarde voor de kleur op.
 
-      * **Geen Waarde**: Selecteer dit gebied en een douanekleur om de kolom van de grafiek te tonen die &quot;geen waarde&quot;punten groepeert. Dit zijn items die niet kunnen worden gegroepeerd met een van de opties van het veld dat in de groep is geselecteerd.
-      * **Alle Andere Waarden**: Selecteer dit gebied en een douanekleur om alle andere grafiekelementen te tonen de waarvan opties hierboven niet worden geselecteerd.
+1. Klik ergens buiten het dialoogvenster Aangepaste kleuren om het te sluiten. De kleuren die u hebt geselecteerd, worden automatisch opgeslagen.
 
-        >[!NOTE]
-        >
-        >De kleuren die u het laatst hebt gebruikt, worden boven in het dialoogvenster Aangepaste kleuren weergegeven. Wanneer u de muis over een kleur beweegt die onlangs is gebruikt, wordt de naam van het gebied verbonden aan het getoond.
-
-1. Klik op de X rechtsboven in het dialoogvenster Aangepaste kleuren om het dialoogvenster Aangepaste kleuren te sluiten. De kleuren die u hebt geselecteerd, worden automatisch opgeslagen.
 1. Klik **sparen + Sluiten** om de grafiek te bewaren en het rapport in werking te stellen.
+
+## Een diagram exporteren
+
+U kunt een grafiek naar een .pdf- dossier uitvoeren.
+
+Een diagram exporteren:
+
+1. Op het grafieklusje van een rapport, klik **Uitvoer** om de grafiek naar .pdf uit te voeren.\
+   Er wordt een .pdf-bestand naar uw computer gedownload.
+
+1. Open het .pdf-bestand.\
+   Het geëxporteerde bestand bevat de volgende gegevens:
+
+   * Een afbeelding van het diagram.
+   * Een titel die de naam van het rapport is.
+   * Een unieke bestandsnaam die is gebaseerd op de naam van het rapport.
+   * Een voettekst met de datum en tijd waarop het rapport is geëxporteerd en het paginanummer.
 
 ## Een diagram verwijderen uit een rapport
 
 Om een grafiek uit een rapport te verwijderen:
 
 1. Open het **lusje van de Grafiek** van de rapportbouwer.
-1. De muis over het pictogram van het grafiektype u koos en een &quot;x&quot;knoop zal op de hogere juiste hoek van het pictogram verschijnen.
-1. Klik op &quot;x&quot; om het diagram te verwijderen.
+
+1. Klik op de knop &quot;x&quot; rechts van de diagramtypen om het diagram te verwijderen.
+
 1. Klik **sparen + Sluiten**.
 
 ## Beperkingen tijdens werken met grafieken

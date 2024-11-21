@@ -6,14 +6,16 @@ description: Als er in Adobe Workfront meerdere wisselkoersen zijn geconfigureer
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a0837c70-8330-4c38-98dc-8cf2e7e2e4bd
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 2322415c173919a1fecffabb4b561645d33eea8d
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
 
 # Rapporten met financiële gegevens maken met unieke wisselkoersen
+
+<!-- Audited: 11/2024 -->
 
 Als er in Adobe Workfront meerdere wisselkoersen zijn geconfigureerd, kunt u de financiële waarden in rapporten en lijsten zodanig instellen dat deze in een andere valuta dan de standaardvaluta worden weergegeven.
 
@@ -27,6 +29,8 @@ Als het verslag projecten met één munt bevat, worden de bedragen in groepen oo
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -39,20 +43,31 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> 
+      <p>Nieuw:</p>
+         <ul>
+         <li><p>Standaard</p></li>
+         </ul>
+      <p>Huidige:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td role="rowheader">Objectmachtigingen*</td> 
+   <td> <p>Machtigingen beheren voor een rapport</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vereisten
 
@@ -125,8 +140,6 @@ Twee projecten met aangepaste valuta&#39;s weergeven in een rapport:
 1. Klik **sparen + Sluiten**.
 
    Het totaal van **Ware Kosten** wordt getoond in de Groepering die de systeemstandaardmunt, ongeacht de munt van de projecten in het rapport gebruikt.
-
-   ![ Valuta die in het groeperen ](assets/qs-currency-displayed-in-groupings-2022-350x292.png) wordt getoond
 
    Als de twee projecten verschillende valuta&#39;s van elkaar hebben, verschijnt de systeemstandaardvaluta ook in de Groepering van het rapport.
 
