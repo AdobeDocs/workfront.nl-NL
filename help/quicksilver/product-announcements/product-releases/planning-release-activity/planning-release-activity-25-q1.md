@@ -6,9 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
+source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '902'
 ht-degree: 0%
 
 ---
@@ -32,6 +33,29 @@ In dit artikel worden de functies beschreven die tijdens de release Eerste kwart
 <!--remove the general activity mention after First Quarter 2025 is released-->
 
 Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront na de algemene beschikbaarheidsversie op 28 augustus, 2024 worden vrijgegeven, zie [ de versieactiviteit van de Planning van Adobe Workfront: artikelindex ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Adobe AI Assistant beschikbaar in de detailgebieden van de record
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 21 november 2024; productie voor snelle release: met de release van 24.12 (december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
+
+Om het voor u gemakkelijker te maken om het werk te verwezenlijken, hebben wij de Medewerker van de Adobe AI aan de detailvoorproef van een verslag of de pagina van het verslag toegevoegd. U kunt de AI-assistent in een recordpagina gebruiken om informatie over de record bij te werken.
+
+Voor informatie, zie [ de Planning AI van Adobe Workfront Hulp overzicht ](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
+
+## Nieuwe ervaring bij het toevoegen van een miniatuur en een omslagafbeelding aan een recordpagina
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 20 november 2024; productie voor snelle release: met de release van 24.12 (december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
+
+Wanneer u de voorvertoning of pagina van een record opent en de record geen miniatuur of omslagafbeelding heeft, moet u de muisaanwijzer boven het gebied boven de naam van de record in de koptekst plaatsen om de opties voor het toevoegen van een omslag en een miniatuurafbeelding aan de record te bekijken. Vóór deze verbetering, de lege placeholder beelden voor de duimnagel en de omslag die boven de verslagnaam wordt getoond.
+
+Raadpleeg de volgende artikelen voor meer informatie:
+
+* [Een omslagafbeelding aan een record toevoegen](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
+* [Een miniatuurafbeelding aan een record toevoegen](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
 
 ## Nieuwe weergavetypen voor percentagetypevelden in de tabelweergave
 

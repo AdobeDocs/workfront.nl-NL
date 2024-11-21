@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: f69c974a620d5f39bc4ea18b455476c90cd4908e
+source-git-commit: 7d3d3e5ab8a0ee6dd3995ff417fb08d0d64d9a60
 workflow-type: tm+mt
-source-wordcount: '14597'
+source-wordcount: '14607'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,7 @@ ht-degree: 0%
          * [2025 Q1 Verbeteringen in documentbeheer](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md)
          * [2025 Q1 Home-verbeteringen](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md)
          * [Verbeteringen in 2025 Q1-proefdrukken](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md)
+         * [2025 Q1 rapport en verbeteringen van het dashboard](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md)
          * [Andere verbeteringen tijdens de releaseperiode van het eerste kwartaal van 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md)
          * [De blik-en-voelen updates tijdens het de versietijdkader van Q1 van 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md)
       * Release 2024 Q4 {#release-24-q4}
@@ -1768,7 +1769,7 @@ ht-degree: 0%
       * [De activiteit per teamvisualisatie bekijken in Uitgebreide analyse](enhanced-analytics/activity-by-team-overview.md)
    * Workfront Data Connect {#data-lake}
       * [Overzicht Workfront Data Connect](reports-and-dashboards/data-lake/data-lake-overview.md)
-      * [Een lezeraccount maken](reports-and-dashboards/data-lake/create-a-reader-account.md)
+      * [Een lezeraccount of verbinding voor Snowflake maken](reports-and-dashboards/data-lake/create-a-reader-account.md)
       * [Verbinding maken met Workfront Data Connect](reports-and-dashboards/data-lake/share-data-externally.md)
       * [Workfront Data Connect-gegevenswoordenboek](reports-and-dashboards/data-lake/data-dictionary.md)
       * [Voorbeelden van query&#39;s voor Workfront Data Connect](reports-and-dashboards/data-lake/basic-query-examples.md)

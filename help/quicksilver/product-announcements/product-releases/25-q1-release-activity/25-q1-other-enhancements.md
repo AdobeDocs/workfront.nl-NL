@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 67ec1535-d374-4133-9395-626fa7ae4072
-source-git-commit: 8b69fc1e20ad255cb9874b70289fc11dcb03cdb0
+source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,17 @@ ht-degree: 0%
 Op deze pagina worden de verbeteringen beschreven die zijn aangebracht met de release Eerste kwartaal 2025 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2025 versiecyclus, zie [ Eerste Kwartaal 2025 versieoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+
+## Bijwerken hoe verplaatste of verwijderde elementen in gekoppelde mappen worden beheerd
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 21 november 2024; Productieversie voor alle klanten: 5 december 2024
+
+We hebben de manier gewijzigd waarop verplaatste en verwijderde middelen worden verwerkt bij het gebruik van de Adobe Workfront-integratie met Experience Manager Assets en Assets Essentials:
+
+* Verwijderde elementen: wanneer een element wordt verwijderd uit een gekoppelde map in Assets of Assets Essentials, blijft het verwijderde element behouden in het gebied Projectdocumenten.
+* Verplaatste activa: Wanneer een activa buiten een verbonden omslag in de essentiële elementen van Assets of van Assets worden bewogen, zal het bewogen middel in het gebied van de Documenten van Projecten worden behouden.
 
 ## Secties in een aangepast formulier kunnen nu worden samengevouwen en uitgebreid
 

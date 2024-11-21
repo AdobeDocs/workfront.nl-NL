@@ -2,21 +2,23 @@
 content-type: reference
 product-area: reports and dashboards
 navigation-topic: data connect
-title: Een reader-account (service) maken voor Snowflake
+title: Een lezeraccount maken voor Snowflake
 description: Als u toegang wilt krijgen tot gegevens van Data Connect, moet u eerst een account voor een Snowflake-lezer maken.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
+source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
 
-# Een reader-account (service) maken voor Snowflake
+# Een lezeraccount of verbinding voor Snowflake maken
 
-Als u toegang wilt krijgen tot gegevens van Data Connect, moet u eerst een Snowflake reader (of service)-account maken voor elke nieuwe verbinding. Na het creëren van een verbinding, kunt u zijn bijbehorende URL en gebruikersbenaming vinden door op het op de **toegang van Gegevens** pagina (**Belangrijkste menu** > **Opstelling** > **Toegang van het Systeem** > **Gegevens**) onder **Bestaande Verbindingen** tabel te klikken.
+Als u toegang wilt krijgen tot gegevens van Data Connect, moet u eerst een Snowflake-lezer (of service)-account voor uw organisatie maken en vervolgens een nieuwe verbinding maken voor elke gebruiker of elk hulpprogramma dat u toegang wilt hebben tot Data Connect.
+
+Na het creëren van een verbinding, kunt u zijn bijbehorende URL en gebruikersbenaming vinden door op het op **Gegevens te klikken verbindt** pagina (**Belangrijkste menu** > **Opstelling** > **Systeem** > **Gegevens**) onder **Bestaande Verbindingen** tabel.
 
 Voor informatie bij het gebruiken van een pas gecreëerde verbinding met een extern product, zie [ een verbinding aan de Gegevens van Workfront vestigen verbind ](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md).
 
@@ -61,15 +63,35 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 ## Een lezeraccount maken
 
+U moet een nieuwe Snowflake-lezeraccount voor uw organisatie maken voordat u kunt beginnen met het maken van verbindingen.
+
+>[!IMPORTANT]
+>
+>Dit proces moet slechts eenmaal per organisatie worden voltooid. Als **Create de knoop van de Rekening van de Reader** niet in de hieronder beschreven plaats aanwezig is, dan is uw reader rekening reeds gecreeerd.
+
+Een lezeraccount maken:
+
 1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Opstelling**.
 
-1. In het linkerpaneel, klik **Systeem** > **Toegang van Gegevens**.
+1. In het linkerpaneel, klik **Systeem** > **Gegevens verbinden**.
+
+1. Klik de **Create knoop van de Rekening van de Reader** beginnen creërend de reader van uw organisatie rekening. Het proces verloopt automatisch, maar het kan een paar minuten duren.
+
+1. Na voltooiing wordt een dialoogvenster weergegeven waarin wordt uitgelegd dat uw lezeraccount nu actief is. Vernieuw de browser pagina om toegang tot **te krijgen creeer Nieuwe Verbinding** knoop.
+
+![ gecreeerde de rekening van de Reader dialoog ](/help/quicksilver/reports-and-dashboards/data-lake/assets/data-connect-reader-account-created.png)
+
+## Verbinding maken
+
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Opstelling**.
+
+1. In het linkerpaneel, klik **Systeem** > **Gegevens verbinden**.
 
 1. Klik **creëren Nieuwe Verbinding**
 
 1. In het venster dat verschijnt, ga een naam voor uw verbinding in **de verwijzingsbeschrijving van de Verbinding** en een gebruikersbenaming in **de gebruiker van de Verbinding** in, dan klik **produceert Verbinding**.
 
-   ![ creeer reader rekening ](/help/quicksilver/reports-and-dashboards/data-lake/assets/new-reader-connection.png) {width="500"}
+   ![ creeer nieuwe verbinding ](/help/quicksilver/reports-and-dashboards/data-lake/assets/new-reader-connection.png) {width="500"}
 
 1. A **Standaardwachtwoord** zal, evenals URL worden geproduceerd waar uw gegevens door Snowflake kunnen worden bekeken. U moet het wachtwoord gebruiken in combinatie met de gebruikersnaam die u hebt gekozen om u voor het eerst aan te melden bij de Snowflake, zodat u een record en de URL bijhoudt. Controleer de doos die u verklaart dit hebt gedaan, dan klik **dicht**.
 

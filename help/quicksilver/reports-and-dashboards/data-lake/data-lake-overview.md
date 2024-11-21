@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5224c12a-7879-491b-87ec-6173bcf9525c
-source-git-commit: 1713a5855b8798d888866447338291975ff69cb7
+source-git-commit: fec9f895113600ff6ccc795a94019a473793a226
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Workfront Data Connect biedt ongekende toegang tot Workfront-gegevens met behulp van Snowflake-technologie, zodat u bedrijfskritieke vragen kunt beantwoorden en de waarde van uw processen kunt meten. Met deze mogelijkheid kunnen zakelijke klanten hun gegevens ondervragen met behulp van gegevensvisualisatieprogramma&#39;s rechtstreeks vanuit een Workfront-datumpeer, of Workfront-gegevens exporteren naar een gegevensopslagsysteem in eigendom van de klant.
 
-Abonnees kunnen hun zakelijke inlichtingenprogramma naar keuze (Tableau, Power BI, Domo, Looker, enz.) met elkaar verbinden om gegevensvisualisaties te maken met de volgende gegevenstypen:
+Abonnees kunnen hun hulpprogramma voor bedrijfsintelligentie (Tableau, Power BI, Domo, Looker, enz.) verbinden met Data Connect om gegevensvisualisaties te maken met de volgende soorten gegevens:
 
 * Lage latentie, gegevens huidige status
 * Gebeurtenisrecords voor point-in-time vergelijkingen wijzigen
@@ -29,7 +29,7 @@ Abonnees kunnen hun zakelijke inlichtingenprogramma naar keuze (Tableau, Power B
 
 Raadpleeg de volgende artikelen voor meer informatie over Data Connect:
 
-* [Een reader-account (service) maken voor Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)
+* [Een lezeraccount of verbinding voor Snowflake maken](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)
 * [Verbinding maken met Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)
 * [Workfront Data Connect-gegevenswoordenboek](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md)
 * [Voorbeelden van query&#39;s voor Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/basic-query-examples.md)

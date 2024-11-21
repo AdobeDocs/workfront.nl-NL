@@ -7,9 +7,9 @@ description: Met Workfront Data Connect kunt u de Workfront-gegevens van uw orga
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
+source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -18,20 +18,22 @@ ht-degree: 0%
 
 Met Workfront Data Connect kunt u de Workfront-gegevens van uw organisatie gebruiken met de tools voor bedrijfsintelligentie of deze opslaan in een extern gegevenspakhuis.
 
-Om uw Gegevens aan te sluiten verbind gegevens meer met een extern product, moet u om het even welke vereiste IPs aan de lijst van gewenste personen eerst toevoegen zoals die in [ wordt beschreven toevoegt IPs aan de lijst van gewenste personen ](#add-ips-to-the-allowlist) hieronder. Bovendien zullen de meeste producten extra informatie over uw gegevens meer vereisen om een verbinding te vestigen:
+Om uw Gegevens aan te sluiten verbind gegevens meer met een extern product, moet u een verbinding eerst tot stand brengen zoals die in [ wordt beschreven leidt tot een lezerrekening of een verbinding voor Snowflake ](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md). Dan, moet u om het even welke vereiste IPs aan de lijst van gewenste personen toevoegen zoals die in [ wordt beschreven voeg IPs aan de lijst van gewenste personen ](#add-ips-to-the-allowlist) hieronder toe.
+
+De meeste producten zullen de volgende informatie over uw gegevens meer vereisen om een verbinding te vestigen:
 
 | Veldnaam | Waarde |
 |---------------|-------------|
-| Server | URL voor de verbinding, zonder het `https://` gedeelte (dat op de **toegang van Gegevens** pagina in Workfront* wordt gevonden) |
+| Server | URL voor de verbinding, zonder het `https://` gedeelte (dat op **Gegevens wordt gevonden verbindt** pagina in Workfront*) |
 | Poort | `443` |
 | Database | `WORKFRONT` |
 | Warehouse | `READER_WH` |
 | Schema | `WF` |
 | Rol | `READER_ROLE` |
-| Gebruikersnaam | De gebruikersbenaming die wanneer het creëren van de verbinding wordt gekozen (die op de **toegang van Gegevens** pagina in Workfront* wordt gevonden) |
+| Gebruikersnaam | De gebruikersbenaming die wanneer het creëren van de verbinding wordt gekozen (die op **Gegevens wordt gevonden verbindt** pagina in Workfront*) |
 | Wachtwoord | Het wachtwoord dat is gekozen bij de eerste Snowflake-aanmelding* |
 
-*For informatie over waar te om de **de toegang van Gegevens** pagina te vinden die uw Gegevens bevatten verbindt verbindingen, zie [ een lezer (dienst) rekening voor Snowflake ](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md) creëren.
+*For informatie over waar te om **Gegevens te vinden verbindt** pagina die uw verbindingen bevat, zie [ een reader rekening of verbinding voor Snowflake ](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md) creëren.
 
 >[!IMPORTANT]
 >
@@ -82,7 +84,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Opstelling**.
 
-1. In het linkerpaneel, klik **Systeem** > **Toegang van Gegevens**.
+1. In het linkerpaneel, klik **Systeem** > **Gegevens verbinden**.
 
 1. Klik op het **Toegestane IPs** lusje, dan klik op **een IP Adres aan uw Lijst van gewenste personen** knoop toevoegen.
 
@@ -94,7 +96,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Opstelling**.
 
-1. In het linkerpaneel, klik **Systeem** > **Toegang van Gegevens**.
+1. In het linkerpaneel, klik **Systeem** > **Gegevens verbinden**.
 
 1. Klik op het **Toegestane IPs** lusje, dan klik op het trashcan pictogram ![ pictogram van de Schrapping ](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png) rechts van het IP adres u zou willen verwijderen.
 

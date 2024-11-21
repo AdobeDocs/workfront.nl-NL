@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0639cb37-212c-46d5-bfe0-b524efc085d3
-source-git-commit: 7ed4b36ef9297560ce9df6aa750b2ac24ac4a129
+source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,19 @@ Op deze pagina worden alle verbeteringen in documentbeheer beschreven die zijn a
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2025 versiecyclus, zie [ Eerste Kwartaal 2025 versieoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
+## Meerdere documenten tegelijk bewerken
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 21 november 2024; productie voor snelle release: met de release van 24.12 (december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
+
+U kunt nu meerdere documenten tegelijk bewerken. U kunt de beschrijvingen bewerken en aangepaste formulieren bijwerken.
+
+<!--For more information, see [Edit documents in bulk](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md).-->
+
 >[!IMPORTANT]
 >
->De functies die op deze pagina worden vermeld, maken deel uit van een gefaseerde release en zijn alleen beschikbaar voor specifieke klanten.
+>De hieronder vermelde functies maken deel uit van een gefaseerde release en zijn alleen beschikbaar voor specifieke klanten.
 
 ## Nieuwe intrekkingsstatus beschikbaar voor goedkeuringen van documentversies
 
