@@ -71,7 +71,7 @@ De schakelaar van de Planning van Adobe Workfront gebruikt het volgende:
  <tbody> 
   <tr> 
    <td role="rowheader">Basis-URL</td> 
-   <td>https://{connection.host}/maestro/api/{{common.maestroApiVersion}}/</td> 
+   <td>https://{connection.host}/maestro/api/&lbrace;&lbrace;common.maestroApiVersion&rbrace;&rbrace;/</td> 
   </tr>
   <tr> 
    <td role="rowheader">API-tag</td> 
