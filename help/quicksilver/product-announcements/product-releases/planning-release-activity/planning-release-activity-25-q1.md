@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
+source-git-commit: 6f91c7c75c4565d5e91264481924daf50d3807ec
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '1010'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,21 @@ In dit artikel worden de functies beschreven die tijdens de release Eerste kwart
 <!--remove the general activity mention after First Quarter 2025 is released-->
 
 Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront na de algemene beschikbaarheidsversie op 28 augustus, 2024 worden vrijgegeven, zie [ de versieactiviteit van de Planning van Adobe Workfront: artikelindex ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+
+## Verwijderde records herstellen
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 22 november 2024; productie voor snelle release: met de release van 24.12 (december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
+
+Nadat de records zijn verwijderd, worden ze nu tijdelijk gedurende 30 dagen naar een onlangs verwijderde opslagplaats verplaatst. U hebt toegang tot het vak Onlangs verwijderd op de pagina van het recordtype en het vak bevat alleen records van een specifiek type.
+
+Workspace-managers kunnen gegevens uit de prullenbak herstellen tot 30 dagen nadat ze zijn verwijderd. Verbonden records en hun veldgegevens worden ook hersteld.
+
+Vóór deze verbetering konden verwijderde records niet worden hersteld.
+
+Voor meer informatie, zie [ schrapte verslagen ](/help/quicksilver/planning/records/records-information.md) herstellen.
 
 ## Adobe AI Assistant beschikbaar in de detailgebieden van de record
 

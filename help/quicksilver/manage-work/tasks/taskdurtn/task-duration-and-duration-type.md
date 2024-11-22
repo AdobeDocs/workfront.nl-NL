@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: 06b5d8d7e3f2f3d0ff7ef614861a8898dd9df4eb
+source-git-commit: 6327e5625481ce7ff8d744bc6eb50d417cbb4413
 workflow-type: tm+mt
-source-wordcount: '1557'
+source-wordcount: '1647'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,13 @@ Het Type van Duur van een taak identificeert het verband tussen het aantal midde
 
 Als de Ware Datum van het Begin en van de Werkelijke Voltooiing van de taak buiten het programma van het project, primaire toegewezen, of StandaardProgramma vallen, is de taakDuur nul.
 
-**Voorbeeld:** als u een programma hebt dat bij 9:00 AM begint en bij 12:00 PM beëindigt en een taak die om bij 2:00 PM gepland is te beginnen en bij 4:00 PM te beëindigen, is de Duur van de taak nul.
+>[!BEGINSHADEBOX]
+
+**VOORBEELD**
+Als u een programma hebt dat bij 9:00 AM begint en bij 12:00 PM beëindigt en een taak die om bij 2:00 PM en eind bij 4:00 PM gepland is te beginnen, is de Duur van de taak nul.
+
+
+>[!ENDSHADEBOX]
 
 De volgende twee scenario&#39;s bestaan bij het berekenen van de duur in Adobe Workfront:
 
@@ -70,6 +76,14 @@ De volgende twee scenario&#39;s bestaan bij het berekenen van de duur in Adobe W
 >[!NOTE]
 >
 >Wanneer rekening houdend met de tijd van de Primaire Ontvanger op een project, zouden de geplande data van de taak kunnen aanpassen, maar de Duur van de taak blijft het zelfde. Voor informatie over het nemen van rekening met de tijd van de Primaire Ontvanger wanneer het plannen van een project, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
+
+## De originele Duur van een oudertaak
+
+De Originele Duur van een taak is de Duur die een taak oorspronkelijk had alvorens het een oudertaak, in notulen werd.
+
+Wanneer een taak een ouder wordt, rolt de Duur tussen de Geplande Datum van het Begin van het vroegste kind en de Geplande Datum van de Voltooiing van het laatste kind tot de oudertaak en wordt de Duur van de oudertaak. Dit vervangt de Duur van de originele taak.
+
+Voor meer informatie, zie [ Overzicht van taak Oorspronkelijke Duur en Origineel Gepland Uren ](/help/quicksilver/manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md).
 
 ## Eenheden van tijd voor de Duur van de Taak
 

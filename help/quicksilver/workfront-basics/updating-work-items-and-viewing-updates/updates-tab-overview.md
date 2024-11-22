@@ -7,9 +7,9 @@ description: In de sectie Updates van een object worden opmerkingen weergegeven 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
+source-git-commit: 6327e5625481ce7ff8d744bc6eb50d417cbb4413
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1090'
 ht-degree: 0%
 
 ---
@@ -237,7 +237,13 @@ In de volgende tabel worden de objecten weergegeven waarvan de opmerkingen ook w
    <td>Document </td> 
    <td>Object waaraan het document is gekoppeld, Project </td> 
   </tr> 
-  <tr> 
+ </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Proef </td> 
+   <td>Document </td> 
+  </tr>
+
+<tr> 
    <td>Programma</td> 
    <td>Portfolio</td> 
   </tr> 

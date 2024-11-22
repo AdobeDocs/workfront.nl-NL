@@ -1,14 +1,14 @@
 ---
 title: Records verwijderen
-description: U kunt records verwijderen die u of een andere gebruiker heeft gemaakt. U kunt verwijderde records niet herstellen.
+description: U kunt records verwijderen die u of een andere gebruiker heeft gemaakt.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 9b528e751d23b04ae1e495f00e06ffef8aa60156
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '764'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,15 @@ ht-degree: 0%
 
 # Records verwijderen
 
+<!--take Preview and Production references out at release-->
+
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+
 {{planning-important-intro}}
 
-U kunt records verwijderen die niet meer relevant zijn in Adobe Workfront Planning.
+U kunt records verwijderen die niet meer relevant zijn in Adobe Workfront Planning. <span class="preview"> u kunt geschrapte verslagen terugkrijgen 30 dagen nadat zij werden geschrapt. Voor informatie over het terugkrijgen van geschrapte verslagen, zie [ Recover geschrapte verslagen ](/help/quicksilver/planning/records/restore-deleted-records.md). </span>
 
 ## Toegangsvereisten
 
@@ -156,10 +162,9 @@ OLD
 ## Overwegingen bij het verwijderen van records
 
 * U kunt records verwijderen die u of een andere gebruiker heeft gemaakt.
-* U kunt verwijderde records niet herstellen. <!--the above statements (and in the metadata description) will change with access levels and recycle bin??-->
+* U kunt verwijderde records niet herstellen in de productieomgeving. <span class="preview"> u kunt geschrapte verslagen in het milieu van de Voorproef terugkrijgen.</span>
 * Als de verwijderde records zijn gekoppeld aan andere records, worden de gekoppelde records niet verwijderd, maar worden de gegevens uit de verwijderde record ook verwijderd.
-* U kunt records in bulk niet verwijderen. <!--this will probably change-->
-* U kunt records niet verwijderen uit de tijdlijnweergave.
+* U kunt records niet verwijderen uit de tijdlijn of de kalenderweergaven.
 
 ## Records verwijderen
 
@@ -192,7 +197,10 @@ U kunt een record uit de volgende gebieden verwijderen:
 1. Klik **Meer** menu ![](assets/more-menu.png) aan het recht van de verslagnaam, dan klik **Schrapping**, dan **Schrapping** opnieuw om te bevestigen.
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
-De record wordt verwijderd en kan niet worden hersteld.
+De record wordt verwijderd.
+1. (Facultatief en voorwaardelijk) als u het verslag in het milieu van de Voorproef schrapt, ga naar de lijstmening van de verslagpagina, en klik **ongedaan maken** pictogram ![](assets/undo-icon.png) in de hoger-juiste hoek van de mening, dan klik **onlangs geschrapt** om de geschrapte verslagen terug te krijgen.
+
+Voor informatie over het terugkrijgen van geschrapte verslagen, zie [ Recover geschrapte verslagen ](/help/quicksilver/planning/records/restore-deleted-records.md).
 
 ### Een record verwijderen uit de tabelweergave van het recordtype
 
@@ -211,15 +219,22 @@ De record wordt verwijderd en kan niet worden hersteld.
 1. Voer een van de volgende handelingen uit:
 
    * Klik een verslagrij met de rechtermuisknop aan, dan klik **Schrapping**.
-   * Klik **Meer** menu ![](assets/more-menu.png) aan het recht van de verslagnaam, dan klik **Schrapping**
+   * Klik **Meer** menu ![](assets/more-menu.png) aan het recht van de verslagnaam, dan klik **Schrapping**.
 
      ![](assets/contextual-menu-for-record-row.png)
 
    * Klik het **Open detailleert** pictogram ![](assets/open-details-icon-in-table-name-field.png) om de doos met de gedetailleerde informatie van het verslag te openen, en klik **Meer** ![](assets/more-menu.png) rechts van de verslagnaam, dan **Schrapping**.
 
-   De record wordt verwijderd en kan niet worden hersteld.
+   De record wordt verwijderd.
 
-1. (Optioneel) Gebruik de volgende sneltoetsen om een record ongedaan te maken of opnieuw te verwijderen:
+1. (Optioneel) Voer een van de volgende handelingen uit om een record ongedaan te maken of opnieuw te verwijderen:
 
-   * CTRL + Z ( ⌘ + Z voor Mac) om een wijziging ongedaan te maken
-   * CTRL + Shift + Z ( ⌘ + Shift + Z voor Mac) om een wijziging opnieuw uit te voeren
+   * <span class="preview"> klik **ongedaan maken** pictogram ![](assets/undo-icon.png), toen **onlangs geschrapt** om de geschrapte verslagen terug te krijgen. Voor informatie over het terugkrijgen van geschrapte verslagen, zie [ Recover geschrapte verslagen ](/help/quicksilver/planning/records/restore-deleted-records.md). </span>
+   * Gebruik de volgende sneltoetsen om een record ongedaan te maken of opnieuw te verwijderen:
+
+      * CTRL + Z ( ⌘ + Z voor Mac) om het verwijderen van een record ongedaan te maken
+      * CTRL + Shift + Z ( ⌘ + Shift + Z voor Mac) om record opnieuw te verwijderen
+
+
+
+
