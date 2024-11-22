@@ -8,9 +8,9 @@ author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 985e4d3d-f07e-46df-b0e3-dd4b0ff59660
-source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
+source-git-commit: 060557085c6941fab4ca8df22641679199f5c55b
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
@@ -32,8 +32,9 @@ Deze sectie bevat de volgende artikelen: &#x200B;
 * [ upload een nieuwe versie van een document ](../../documents/managing-documents/upload-new-document-version.md)
 * [ beheer documentversies ](../../documents/managing-documents/manage-document-versions.md)
 * [ Controle uit documenten ](../../documents/managing-documents/check-out-documents.md)
-* [ de Documenten van de Download ](../../documents/managing-documents/download-documents.md)
+* [ de documenten van de Download ](../../documents/managing-documents/download-documents.md)
 * [ de documenten van de Beweging ](../../documents/managing-documents/move-documents.md)
 * [ de grenzen van de documentopslag van de Controle ](../../documents/managing-documents/check-document-storage.md)
-* [ Schrap Documenten ](../../documents/managing-documents/delete-documents.md)
+* [ Schrap documenten ](../../documents/managing-documents/delete-documents.md)
 * [Afbeeldingen plakken vanaf het Klembord](../../documents/managing-documents/paste-image-clipboard.md)
+* [Documenten bulksgewijs bewerken](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md)

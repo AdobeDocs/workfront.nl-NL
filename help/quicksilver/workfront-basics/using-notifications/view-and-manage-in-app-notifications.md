@@ -5,9 +5,9 @@ description: 'Met meldingen in de app wordt u op de hoogte gehouden van twee soo
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c5da114-33cc-422b-84f4-67bc7fcd67c6
-source-git-commit: f3ba39e02d690dd3a0d50ecdb22af0c12a3d4ffb
+source-git-commit: 3210474976f435c75c8cfa38e263f9211b9d016d
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '902'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Het genummerde pictogram in de rechterbovenhoek van [!DNL Workfront] geeft het a
 
    ![ Recente ongelezen berichten ](assets/qs-notifications-350x330.png)
 
-   Er worden maximaal 80 berichten weergegeven in een schuifbare lijst. Als u meer wilt zien, klikt u op **[!UICONTROL All notifications]** onder aan de lijst om maximaal 100 meldingen weer te geven. Meldingen worden na 30 dagen automatisch verwijderd.
+   Het getalpictogram geeft een schuifbare lijst weer met maximaal 80 meldingen. Als u meer wilt zien, klikt u op **[!UICONTROL All notifications]** onder aan de lijst om maximaal 500 meldingen weer te geven. Meldingen worden na 30 dagen automatisch verwijderd.
 
    Onder aan elke melding worden de [!UICONTROL notification type] en een bijbehorende identificatiepictogramweergave weergegeven. Deze Help u identificeren wat er met het vermelde [!DNL Workfront] item is gebeurd en waarschuwen u als u een actiepunt hebt:
 

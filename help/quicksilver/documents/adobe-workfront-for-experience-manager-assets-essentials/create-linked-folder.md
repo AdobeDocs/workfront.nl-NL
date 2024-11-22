@@ -7,9 +7,9 @@ description: U kunt in Workfront een map maken die is gekoppeld met Experience M
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: 96830bad7480a99ca8f318dbd791ebcaceddd01e
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 # Een map maken die is gekoppeld met Experience Manager Assets of Assets Essentials
 
 U kunt in Workfront een map maken die is gekoppeld met Experience Manager Assets of Assets Essentials. Omdat de map is gekoppeld, worden alle aan de map toegevoegde middelen automatisch weergegeven in zowel Workfront als Experience Manager. U hoeft het middel niet handmatig te verzenden als het zich in een gekoppelde map bevindt.
+
+Als een element wordt verwijderd of verplaatst uit een gekoppelde map in Experience Manager Assets of Assets Essentials, behoudt Workfront een kopie van het element in het gebied Project > Documenten.
 
 
 ## Toegangsvereisten

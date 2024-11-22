@@ -4,9 +4,10 @@ description: Verbeteringen startpunt vierde kwartaal 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4b92c4ede61690211dad2cb908c502dbb63d7c34
+exl-id: 9b8ec3eb-5327-4b5b-b7a9-80205b46b5e3
+source-git-commit: 01ea4c72e61cbc808ed76cb18e3f67d893bacf69
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -63,12 +64,18 @@ Door deze wijziging worden de volgende gebieden beïnvloed:
 
 * Het _werkruimte van het Huis_ gebied zal worden anders genoemd aan _Huis_.
 * Het _Huis en Samenvatting_ gebied zullen worden anders genoemd aan _Samenvatting paneel_. Aanpassingen op dit gebied zijn nog steeds van toepassing op het deelvenster Samenvatting in nieuwe startpagina. Voor meer informatie, zie [ Huis en Samenvatting aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+* De volgende tabbladen worden verwijderd uit het deelvenster Home en Overzicht:
+   * Projecten
+   * Documenten
+   * Documentversies
+
+Opmerking: de document- en documentversies zijn alleen toegepast op verouderde thuisbasis. U kunt de samenvatting dan niet aanpassen in het gebied Documenten.
 
 **beheert goedkeuringen**
 
 * U kunt gebruikers niet langer herinneren aan, herinneren aan of verwijderen uit verzonden goedkeuringen in het gebied van de Start. In plaats daarvan kunt u dit beheren bij de goedkeuring zelf.
 
-Gebruikers wordt aangeraden om nieuwe introducties te gebruiken. Deze worden dan nog steeds uitgebreid met extra functies voordat de site wordt vervangen. Voor meer informatie over de overgang, met inbegrip van advies over wat de gebruikers en de beheerders kunnen doen om voor te bereiden, zie {de Verouderde gids van het Huis van de Verouderde ](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).[
+Gebruikers wordt aangeraden om nieuwe introducties te gebruiken. Deze worden dan nog steeds uitgebreid met extra functies voordat de site wordt vervangen.
 
 >[!NOTE]
 >

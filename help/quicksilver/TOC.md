@@ -3,7 +3,7 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: c34b1573b3a2dce344fcdd60ce5b3114cc095d11
+source-git-commit: 6a881c1d2f7076f1b7f8f98706657851dc6ab454
 workflow-type: tm+mt
 source-wordcount: '14611'
 ht-degree: 0%
@@ -432,7 +432,6 @@ ht-degree: 0%
       * [Aankondigingen](product-announcements/announcements/announcements.md)
       * [Planning van functies wordt niet meer ondersteund](product-announcements/announcements/feature-removal-timeline.md)
       * [Verbeterde handleiding voor Analytics-veroudering](product-announcements/announcements/enhanced-analytics-deprecation.md)
-      * [Verouderde handleiding voor afgekeurde startpagina](product-announcements/announcements/legacy-home-deprecation.md)
       * [Veelgestelde vragen over het venster Onderhoud](product-announcements/announcements/maintenance-window-faq.md)
       * [Wijziging vereist voor het toevoegen van proefdrukken aan uw lijst van gewenste personen](product-announcements/announcements/proofhq-domain-change-workfront.md)
       * [Abonnement op berichten van het Aankondigingscentrum opzeggen in de nieuwe Adobe Workfront-ervaring](product-announcements/announcements/unsubscribe-from-ac-messages.md)
@@ -1163,6 +1162,7 @@ ht-degree: 0%
       * [Documentopslaglimieten controleren](documents/managing-documents/check-document-storage.md)
       * [Documenten verwijderen](documents/managing-documents/delete-documents.md)
       * [Afbeeldingen plakken vanaf het Klembord](documents/managing-documents/paste-image-clipboard.md)
+      * [Documenten bulksgewijs bewerken](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md)
       * [AddBuilder in Workfront-documentgegevens](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)
    * Documenten ordenen {#organize-documents}
       * [Documenten ordenen](documents/organizing-documents/organize-documents.md)
