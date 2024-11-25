@@ -9,7 +9,7 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 1e131c27-571d-4099-9243-69572bdb3f5a
-source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
+source-git-commit: a4c9f4cd4f28c28222826187a68ca4122eec1a8f
 workflow-type: tm+mt
 source-wordcount: '1195'
 ht-degree: 0%
@@ -293,7 +293,7 @@ Deze actiemodule genereert een afbeelding op basis van een vraag die u opgeeft. 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Presets]</td> 
-   <td>Als u een vooraf ingestelde stijl wilt gebruiken, voegt de klik punt toe en gaat of kaart de stijl in die u wilt gebruiken.<p>Voor een lijst van vooraf ingestelde stijlen, zie <a href="https://developer.adobe.com/firefly-services/docs/firefly-api/guides/concepts/styles/" > ModelStijlen van het Beeld </a> in de documentatie van de ontwikkelaar van de Adobe.</td> 
+   <td>Als u een vooraf ingestelde stijl wilt gebruiken, voegt de klik punt toe en gaat of kaart de stijl in die u wilt gebruiken.<p>Voor een lijst van vooraf ingestelde stijlen, zie <a href="https://developer.adobe.com/firefly-services/docs/firefly-api/guides/concepts/style-presets/" > ModelStijlen van het Beeld </a> in de documentatie van de ontwikkelaar van de Adobe.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Negative prompt]</td> 
