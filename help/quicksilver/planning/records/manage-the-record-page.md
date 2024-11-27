@@ -6,15 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1631'
 ht-degree: 0%
 
 ---
 
 
 # De lay-out van de recordpagina beheren
+
+<span class="preview"> de informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 {{planning-important-intro}}
 
@@ -249,4 +253,52 @@ De volgende dingen doen zich voor:
    De nieuwe positie van het veld wordt bijgewerkt in zowel de voorvertoning als de pagina van alle records van hetzelfde type voor alle gebruikers die de records bekijken.
 
    Alle wijzigingen in de lay-out van de recordvoorvertoning of pagina worden automatisch opgeslagen.
+
+<span class="preview">
+
+## Een verbonden weergavepagina toevoegen aan de pagina van een record
+
+U kunt een verbonden weergavepagina toevoegen aan de pagina van een record.
+
+U kunt geen verbonden weergavepagina toevoegen aan het voorvertoningsgebied van een record.
+
+Op verbonden weergavepagina&#39;s wordt één verbonden recordpagina in de tabelweergave weergegeven. De tabelweergave is alleen-lezen.
+
+U kunt één verbonden weergavepagina toevoegen per verbonden recordtype.  <!--edit this when we can remove fields from this page-->
+
+Een verbonden weergavepagina toevoegen:
+
+1. Klik in een weergave van een recordpagina op de naam van een record om deze te openen en klik vervolgens op het pictogram Openen in nieuw tabblad ![](assets/open-details-in-a-new-tab-icon.png) in de rechterbovenhoek van de voorvertoningspagina.
+1. Klik **toevoegen pagina** > **Verbonden mening**.
+1. Voeg de **naam van de Pagina** toe, dan klik **creeer**.
+
+   Er wordt een extra pagina toegevoegd aan de pagina van de record op een nieuw tabblad.
+1. Zoek of klik op de naam van een verbonden record of objecttype in de lijst.
+De tabelweergave van het geselecteerde recordtype wordt weergegeven en de verbonden records worden weergegeven in de tabelweergave.
+De tabelweergave is alleen-lezen.
+
+   ![](assets/audience-connected-table-view-under-campaign-details-page.png)
+1. (Optioneel) Dubbelklik op de naam van de tab
+
+   of
+
+   Beweeg over de naam van het lusje, dan klik **Meer** ![](assets/more-menu.png), dan klik **anders noemen** om aan nieuw Verbonden meningslusje anders te noemen.
+1. (Optioneel) Gebruik alle weergave-elementen op de werkbalk om de tabelweergave te beheren. Voor informatie, zie [ de lijstmening ](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
+
+</span>
+
+<!--
+## Add a Brief page to a record's page
+
+You can add a Brief page to the record's preview or pages. 
+
+Brief pages contain the same information as the Details tab, in a read-only format. <!--edit this when we can remove fields from this page-->
+
+<!--
+1. From a record's page view, click the name of a record to open its preview or page.
+1. Click **Add page** > **Brief**. 
+1. Add the **Page name**, then click **Create**. 
+-->
+
+
 

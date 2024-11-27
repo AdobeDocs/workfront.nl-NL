@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 88c921b00fcde7dd530e999031e0227201a7cb1a
 workflow-type: tm+mt
-source-wordcount: '4129'
+source-wordcount: '4287'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,9 @@ U kunt velden op de volgende manieren maken in Workfront Planning:
 * Door recordtypen aan te sluiten
 * Door een recordtype te maken
 * Een werkruimte maken op basis van een sjabloon
-  <!--* By importing record types using an Excel or CSV file-->
+* <span class="preview"> door recordtypes in te voeren gebruikend een Excel of Csv- dossier </span>
+* <span class="preview"> door exemplaren van bestaande gebieden van Workfront in te voeren </span>
+
 
 Voor meer informatie over de planningsgebieden van Workfront, zie [ Overzicht van het Gebied ](/help/quicksilver/planning/fields/fields-overview.md).
 
@@ -178,6 +180,8 @@ OLD:
 ## geheel nieuwe velden maken {#create-fields-from-scratch}
 
 <!--in a table (not sure if this can be done elsewhere?!-->
+
+<!--the first 3 steps are the same as in Import fields from Workfron-->
 
 {{step1-to-planning}}
 
@@ -340,7 +344,7 @@ U kunt een datumveld gebruiken om aanvullende informatie vast te leggen in de da
       * **Lang**: 16 mei, 2023
       * **Europees**: 16/05/2023
       * **ISO**: 2023-05-16
-      * **omvat een tijdgebied**: Selecteer deze optie als u een tijdstempel wilt omvatten. Deze optie is standaard uitgeschakeld. <!--update this setting name - submitted bug for it to be changed-->
+      * **omvat tijd**: Selecteer deze optie als u een tijdstempel wilt omvatten. Deze optie is standaard uitgeschakeld. U kunt geen tijd opnemen nadat u het veld hebt beveiligd.
 
      Selecteer een van de volgende opties:
 
@@ -467,6 +471,12 @@ Voor meer informatie, zie [ overzicht van de gebieden van de Formule ](/help/qui
    ![](assets/description-of-formula-expression.png)
 
    Voor meer informatie over welke uitdrukkingen worden gesteund, zie [ overzicht van de gebieden van de Formule ](/help/quicksilver/planning/fields/formula-fields.md).
+
+
+   >[!TIP]
+   >
+   ><span class="preview"> u zult een waarschuwingsbericht ontvangen wanneer het uitgeven van of het creëren van een formuleringsgebied dat een kringverwijzing naar zich of gedeelde gebieden zou kunnen veroorzaken. U kunt geen formuleringsgebied opslaan dat of naar zich of naar punten verwijst die in zijn berekening van verwijzingen worden voorzien.  </span>
+
 
 1. Voeg veldnamen toe zoals deze worden weergegeven in Workfront Planning om ernaar te verwijzen in een formule.
 
@@ -647,3 +657,21 @@ Wanneer u een recordtype maakt, worden ook een aantal velden die aan het nieuwe 
 Adobe Workfront Planning maakt velden voor recordtypen wanneer u een werkruimte maakt op basis van een sjabloon.
 
 Voor informatie, zie [ werkruimten ](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
+
+<div class="preview">
+
+## Velden maken bij het importeren van recordtypen uit een CSV- of Excel-bestand
+
+U kunt velden importeren wanneer u recordtypen importeert met een CSV- of Excel-bestand.
+
+Voor informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
+
+## Velden maken door ze vanuit Workfront te importeren
+
+U kunt kopieën van bestaande Workfront-velden importeren. Als u velden importeert uit Workfront, wordt een kopie van elk veld gemaakt voor een recordtype voor Workfront Planning.
+
+Nadat u de velden hebt gekopieerd, zijn de velden onafhankelijk van elkaar en wisselen ze geen informatie uit.
+
+Voor informatie, zie [ de gebieden van de Invoer van Workfront ](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
+
+</div>

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
 workflow-type: tm+mt
-source-wordcount: '1367'
+source-wordcount: '1397'
 ht-degree: 0%
 
 ---
@@ -145,14 +145,18 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >
    >* De gebieden van de volgende types worden niet getoond in de verzoekvorm <span class="preview"> in de milieu&#39;s van de Voorproef </span> of van de Productie:
    >
-   >    * Personen (inclusief Gemaakt door en Laatst gewijzigd door)
+   >    * Gemaakt door en laatstelijk gewijzigd door
    >    * Formule
-   >    * Aanmaakdatum
-   >    * Laatst gewijzigd
-   >    * Gekoppelde velden of opzoekvelden van Workfront-objecten
-   >    * Met Workfront Planning&#39; verbonden opzoekvelden
+   >    * Aanmaakdatum en datum van laatste wijziging
+   >    * Opzoekvelden van Workfront-objecten
+   >    * Workfront Planning connected records lookup fields
+   >    * Met AEM Assets verbonden velden
    >* De gebieden van de volgende types worden niet getoond in de verzoekvorm in het milieu van de Productie. <span class="preview"> zij tonen in het milieu van de Voorproef:</span>
    >    * <span class="preview"> Met Workfront Planning records verbonden velden </span>
+   >    * <span class="preview"> Personen </span>
+   >    * <span class="preview"> Workfront voorwerpen&#39; verbonden gebieden </span>
+   >    * <span class="preview"> Met AEM Assets verbonden velden </span>
+
 
 
    * **Standaard sectie**: Dit is de standaardsectieonderbreking die Workfront op de verzoekvorm van toepassing is. De standaardsectie kan niet worden anders genoemd of worden verwijderd.
@@ -208,7 +212,15 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >[!WARNING]
    >
    >
-   >Wanneer u **iedereen met de verbinding** selecteert, kan iedereen tot de vorm toegang hebben en een nieuw verslag voorleggen, zelfs mensen buiten uw organisatie die geen rekening van Workfront hebben.
+   >* Wanneer u **iedereen met de verbinding** selecteert, kan iedereen tot de vorm toegang hebben en een nieuw verslag voorleggen, zelfs mensen buiten uw organisatie die geen rekening van Workfront hebben.
+   >
+   > * <span class="preview"> de vorm van A die de volgende gebiedstypes bevat kan niet openbaar worden gedeeld:</span>
+   >
+   >     * <span class="preview"> Formule </span>
+   >     * <span class="preview"> de Verbindingen van Workfront of van AEM Assets </span>
+   >     * <span class="preview"> Velden van de Opzoekmachine </span>
+   >     * <span class="preview"> Mensen </span>
+   >
 
 1. (Voorwaardelijk) als u **Iedereen met de verbinding** in de vorige stap selecteerde, selecteer de **vervaldatum van de Verbinding** van de beschikbare kalender. Personen ontvangen een fout nadat de koppeling is verlopen en u moet de datum van de koppeling bijwerken voordat ze het formulier weer kunnen openen.
 

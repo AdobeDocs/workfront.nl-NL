@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 6f91c7c75c4565d5e91264481924daf50d3807ec
+source-git-commit: d27c25e4eedb6b4df67d23b997fdf1222b95da57
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1747'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,115 @@ In dit artikel worden de functies beschreven die tijdens de release Eerste kwart
 
 Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront na de algemene beschikbaarheidsversie op 28 augustus, 2024 worden vrijgegeven, zie [ de versieactiviteit van de Planning van Adobe Workfront: artikelindex ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+
+## Bestaande Workfront-velden importeren naar recordtypen voor Workfront Planning
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 27 november 2024; productie voor snelle release: met de release van 24.12 (december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
+
+Wanneer u nu velden toevoegt aan een recordtype, kunt u bestaande aangepaste of native Workfront-velden importeren en deze koppelen aan het geselecteerde recordtype.
+
+Vóór deze verbetering, moest u alle gebieden manueel tot stand brengen en hen associeerden met verslagtypes.
+
+Berekende velden worden momenteel niet ondersteund.
+
+Voor informatie, zie [ gebieden van de Invoer van Adobe Workfront ](/help/quicksilver/planning/fields/import-fields-from-workfront.md)
+
+## Recordtypen, records en velden maken door een CSV- of Excel-bestand te importeren
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 27 november 2024; productie voor snelle release: met de release van 24.12 (december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
+
+U kunt nu nieuwe recordtypen importeren door een CSV- of Excel-bestand te importeren.
+
+De volgende informatie wordt geïmporteerd:
+
+* De naam van het blad of het bestand wordt geïmporteerd als naam van het recordtype.
+
+* De eerste rij van elke kolom wordt geïmporteerd als een nieuw veld. U kunt maximaal 500 velden op elk geïmporteerd blad plaatsen.
+
+* Elke rij wordt geïmporteerd als een nieuwe record. U kunt tot 10.000 verslagen in elk blad hebben.
+
+Voor meer informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
+
+## Cirkelverwijzingen in formules vermijden
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 27 november 2024; productie voor snelle release: met de release van 24.12 (december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
+
+We hebben een waarschuwingsbericht geïntroduceerd bij het bewerken of maken van een formuleringsveld dat een cirkelverwijzing naar zichzelf of gedeelde velden kan maken. U kunt geen formuleringsgebied opslaan dat of naar zich of naar punten verwijst die in zijn berekening van verwijzingen worden voorzien.
+
+Voor informatie, zie [ gebieden ](/help/quicksilver/planning/fields/create-fields.md) creëren.
+
+## Verbonden weergavepagina&#39;s aan de pagina van een record toevoegen om de verbonden records in een tabelweergave weer te geven
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 27 november 2024; productie voor snelle release: met de release van 24.12 (december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
+
+U kunt pagina&#39;s toevoegen aan het detailgebied van een record om de gekoppelde records in een tabelweergave weer te geven. U kunt één pagina per verbonden record toevoegen.
+
+De toegevoegde pagina&#39;s zijn alleen-lezen.
+
+Voor informatie, zie [ de lay-out van de verslagpagina beheren ](/help/quicksilver/planning/records/manage-the-record-page.md).
+
+## Het nieuwe lusje van de Planning in de Verzonden sectie van het gebied van Verzoeken
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 27 november 2024; productie voor snelle release: met de release van 24.12 (december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
+
+U vindt nu aanvragen voor Workfront-planning in het gedeelte Verzoeken in Workfront. In de sectie Verzenden worden nu twee tabbladen weergegeven: de aanvragen die in Workfront zijn ingediend op het tabblad Workfront en de aanvragen die zijn ingediend via een aanvraagformulier voor Workfront-planning op het tabblad Planning.
+
+U moet een koppeling naar het aanvraagformulier gebruiken om aanvragen toe te voegen aan een recordtype voor Workfront-planning. Het indienen van een Workfront-planningsaanvraag vanuit het gebied Workfront-verzoeken is op een latere datum beschikbaar.
+
+Uw organisatie moet een pakket van de Planning van Workfront kopen alvorens het lusje van de Planning aan u op het gebied van Verzoeken beschikbaar is.
+
+Voor informatie, zie [ de Verzoeken van de Planning van Adobe Workfront voorleggen om verslagen ](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen.
+
+## Aanvullende veldtypen worden nu ondersteund in aanvraagformulieren
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 27 november 2024; productie voor snelle release: met de release van 24.12 (december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
+
+U kunt nu de volgende veldtypen toevoegen aan een aanvraagformulier voor een recordtype in Workfront Planning:
+
+* Mensen
+* Workfront-verbindingen
+
+Vóór deze verbetering, konden deze types van gebieden niet aan aanvraagformulieren in de Planning van Workfront worden toegevoegd.
+
+Zie Een aanvraagformulier maken en beheren in Adobe Workfront Planning (/help/quicksilver/planning/requests/create-request-form.md) voor meer informatie.
+
+## Openbare delen van aanvraagformulieren met bepaalde veldtypen beperken
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 27 november 2024; productie voor snelle release: met de release van 24.12 (december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
+
+U kunt een aanvraagformulier niet meer openbaar delen als het formulier een van de volgende veldtypen bevat:
+
+* Formule
+* Verbindingen
+* Velden opzoeken
+* Mensen
+
+Voor informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
+
+
+## Records in de kalenderweergave per week weergeven
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 26 november 2024; productie voor snelle release: met de release van 24.12 (december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
+
+U kunt nu records in de kalenderweergave per week weergeven. Voorafgaand aan deze verbetering, kon u de kalendermening slechts door maand tonen.
+
+Voor informatie, zie [ de kalendermening ](/help/quicksilver/planning/views/manage-the-calendar-view.md) leiden.
 
 ## Verwijderde records herstellen
 
