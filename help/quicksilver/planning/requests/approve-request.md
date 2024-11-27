@@ -3,9 +3,9 @@ title: Een aanvraag goedkeuren
 description: Wanneer een gebruiker een aanvraag indient voor een aanvraagformulier dat is gekoppeld aan een goedkeuring in Adobe Workfront Planning, ontvangen fiatteurs een melding en een e-mail over de goedkeuring die in behandeling is. Ze moeten het verzoek goedkeuren voordat Workfront Planning een object maakt.
 hide: true
 hidefromTOC: true
-source-git-commit: a999b805016361bdd101a6cd9c61967284a71014
+source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '783'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ We raden u aan ook de volgende artikelen te bekijken:
 De ingediende verzoeken worden getoond op het lusje van de Planning van de Voorgelegde sectie in het gebied van Verzoeken van Workfront met één van de volgende verzoekstatussen:
 
 * **in afwachting van overzicht**: Deze status wordt getoond wanneer geen van de fiatteurs het verzoekvoorwerp heeft geopend.
-* **In overzicht**: De status verandert in **In overzicht** wanneer minstens één fiatteur het verzoekvoorwerp opent.
+* **In overzicht**: De status verandert in **In overzicht** wanneer minstens één fiatteur het verzoekvoorwerp opent. Het statuut van het verzoek blijft **in overzicht** tot alle fiatteurs het verzoek hebben goedgekeurd.
 * **Goedgekeurd**: Wanneer een fiatteur het verzoekvoorwerp goedkeurt, wordt hun individuele status
 * **Goedgekeurd**, maar de algemene status van het verzoekvoorwerp blijft **In overzicht** tot alle fiatteurs hun besluiten hebben genomen.
 * **Voltooid**: Als alle fiatteurs het verzoekvoorwerp goedkeuren, zijn statusveranderingen in **Voltooid**, of als het verzoek geen goedkeuring verwierf.
@@ -152,7 +152,13 @@ Een verzoek goedkeuren:
 
 1. Voer een van de volgende handelingen uit:
 
-   * Van uw Workfront **HoofdMenu** ![](assets/dots-menu.png) in de hoger-juiste hoek van het scherm, of het **Belangrijkste Menu** ![](assets/lines-menu.png) in de upper-left hoek, als beschikbaar, klik **Verzoeken** > **Voorgelegde** > **Planning** en klik het verzoek met het statuut van **in overzicht**. 4}<!--did they change this to Pending approval; logged  a bug-->
+   * Als u toegang tot de Planning van Workfront hebt, klik **HoofdMenu** ![](assets/dots-menu.png) in de hoger-juiste hoek van het scherm, of het **Belangrijkste Menu** ![](assets/lines-menu.png) in de upper-left hoek, als beschikbaar, dan klik **Verzoeken** > **Voorgelegde** > **Planning**, en klik het verzoek met het statuut van **In overzicht** 13} . <!--did they change this to Pending approval; logged  a bug-->
+
+     >[!TIP]
+     >
+     >    Als u geen toegang tot de Planning van Workfront hebt, kunt u tot een verzoek slechts toegang hebben om het goed te keuren gebruikend uw berichten.
+
+
    * Ga naar het **gebied van Meldingen** in de hoger-juiste hoek van het scherm en klik het bericht over een verzoek in afwachting van uw goedkeuring om het verzoek te openen.
    * Ga naar het e-mailbericht in uw e-mail waarin u op de hoogte wordt gesteld van een aanvraag in afwachting van uw goedkeuring en klik vervolgens om de aanvraag te openen. <!--add the name of the button here, from the email-->
 
@@ -162,5 +168,5 @@ Een verzoek goedkeuren:
 1. (Facultatief) klik **goedkeurt** pictogram ![](assets/approvals-icon.png) in de hoger-juiste hoek van het verzoek om de fiatteurs te bekijken.
 1. Klik **Overzicht en keur** goed, dan kies één van het volgende: <!--did they fix the button and removed the &??-->
 
-   * **keur** goed: Om het verzoek goed te keuren. Er wordt direct een record gemaakt voor het recordtype dat aan het aanvraagformulier is gekoppeld.
-   * **Weigeren**: Om het verzoek te verwerpen. Er wordt geen record gemaakt voor het recordtype dat aan het aanvraagformulier is gekoppeld. <!--check to see if there is a notification sent to the requestor about it being rejected OR approved??-->
+   * **keur** goed: Dit keurt het verzoek goed. Er wordt direct een record gemaakt voor het recordtype dat aan het aanvraagformulier is gekoppeld.
+   * **Weigeren**: Dit verwerpt het verzoek. Er wordt geen record gemaakt voor het recordtype dat aan het aanvraagformulier is gekoppeld. <!--check to see if there is a notification sent to the requestor about it being rejected OR approved??--> <!--checking with PM what happens with the other approvers when one of them is rejecting it: does it ask them to approve it? Deleted the request? -->

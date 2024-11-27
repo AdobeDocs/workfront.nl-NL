@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: d27c25e4eedb6b4df67d23b997fdf1222b95da57
+source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
 workflow-type: tm+mt
-source-wordcount: '1747'
+source-wordcount: '1769'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront n
 >
 >Voorvertoningsrelease: 27 november 2024; productie voor snelle release: met de release van 24.12 (december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
 
-Wanneer u nu velden toevoegt aan een recordtype, kunt u bestaande aangepaste of native Workfront-velden importeren en deze koppelen aan het geselecteerde recordtype.
+Wanneer u nu velden toevoegt aan een recordtype, kunt u bestaande aangepaste of native Workfront-velden importeren en deze koppelen aan het geselecteerde recordtype. Als u bestaande velden importeert, wordt een kopie van de Workfront-velden gemaakt in Workfront Planning. De gekopieerde velden zijn onafhankelijk van de originele versies.
 
 Vóór deze verbetering, moest u alle gebieden manueel tot stand brengen en hen associeerden met verslagtypes.
 
@@ -89,13 +89,16 @@ De toegevoegde pagina&#39;s zijn alleen-lezen.
 
 Voor informatie, zie [ de lay-out van de verslagpagina beheren ](/help/quicksilver/planning/records/manage-the-record-page.md).
 
-## Het nieuwe lusje van de Planning in de Verzonden sectie van het gebied van Verzoeken
+## De nieuwe Workfront en de lusjes van de Planning in Voorgelegde sectie van het gebied van Verzoeken
 
 >[!NOTE]
 >
 >Voorvertoningsrelease: 27 november 2024; productie voor snelle release: met de release van 24.12 (december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
 
-U vindt nu aanvragen voor Workfront-planning in het gedeelte Verzoeken in Workfront. In de sectie Verzenden worden nu twee tabbladen weergegeven: de aanvragen die in Workfront zijn ingediend op het tabblad Workfront en de aanvragen die zijn ingediend via een aanvraagformulier voor Workfront-planning op het tabblad Planning.
+U vindt nu aanvragen voor Workfront-planning in het gedeelte Verzoeken in Workfront. In de sectie Verzenden worden nu de volgende tabbladen weergegeven:
+
+* Workfront: geeft aanvragen weer die zijn ingediend in Workfront.
+* Planning: de verzoeken van vertoningen die gebruikend een het verzoekformulier van de Planning van Workfront worden voorgelegd.
 
 U moet een koppeling naar het aanvraagformulier gebruiken om aanvragen toe te voegen aan een recordtype voor Workfront-planning. Het indienen van een Workfront-planningsaanvraag vanuit het gebied Workfront-verzoeken is op een latere datum beschikbaar.
 
@@ -127,7 +130,7 @@ Zie Een aanvraagformulier maken en beheren in Adobe Workfront Planning (/help/qu
 U kunt een aanvraagformulier niet meer openbaar delen als het formulier een van de volgende veldtypen bevat:
 
 * Formule
-* Verbindingen
+* Workfront- en AEM Assets-verbindingen
 * Velden opzoeken
 * Mensen
 

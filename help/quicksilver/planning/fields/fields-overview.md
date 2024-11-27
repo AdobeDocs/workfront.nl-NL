@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: fedea99941b6ecb2114d8236d54ce1af70cec6e4
+source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,10 @@ ht-degree: 0%
 
 # Overzicht van veld
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> 
--->
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+
 
 {{planning-important-intro}}
 
@@ -54,10 +53,12 @@ U kunt nieuwe gebieden in de Planning van Adobe Workfront toevoegen die op de le
 
         Voor meer informatie over het verbinden van verslagtypes, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
 
-     <!--* By importing existing fields from Workfront. 
-            For information, see [Import fields from Adobe Workfront](/help/quicksilver/planning/fields/import-fields-from-workfront.md).-->
+      * <span class="preview"> door bestaande gebieden van Workfront in te voeren. </span>
+        <span class="preview"> voor informatie, zie [ de gebieden van de Invoer van Adobe Workfront ](/help/quicksilver/planning/fields/import-fields-from-workfront.md).</span>
 
-     <!--* By importing record types using an Excel or CSV file. For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md). -->
+      * <span class="preview"> door recordtypes in te voeren gebruikend een Excel of Csv- dossier. </span>
+
+        <span class="preview"> voor meer informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.</span>
 
    * Automatisch:
 

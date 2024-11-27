@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: 6327e5625481ce7ff8d744bc6eb50d417cbb4413
+source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
 workflow-type: tm+mt
-source-wordcount: '1647'
+source-wordcount: '1677'
 ht-degree: 0%
 
 ---
@@ -106,7 +106,14 @@ Wanneer u de duur van taken in een lijst bijwerkt, kunt u de volgende afkortinge
 
 {style="table-layout:auto"}
 
-**Voorbeeld:** als u wilt erop wijzen dat de Duur van een taak 3 Verstreken Dag is, zou u &quot;3 ED&quot;op het gebied van de Duur in een taaklijst typen.  U kunt de aangewezen optie voor de Eenheid van de Duur van Tijd van het beschikbare drop-down menu ook selecteren wanneer het uitgeven van een taak of in de sectie van de Details van de Taak. Voor informatie over het uitgeven van taken, zie [ taken ](../../../manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
+>[!BEGINSHADEBOX]
+
+**VOORBEELD**
+
+Als u wilt erop wijzen dat de Duur van een taak 3 Verstreken Dag is, zou u &quot;3 ED&quot;op het gebied van de Duur in een taaklijst typen.  U kunt de aangewezen optie voor de Eenheid van de Duur van Tijd van het beschikbare drop-down menu ook selecteren wanneer het uitgeven van een taak of in de sectie van de Details van de Taak. Voor informatie over het uitgeven van taken, zie [ taken ](../../../manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
+
+
+>[!ENDSHADEBOX]
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: stays QS only forever; for the pictures below: make the first one classic at preview time and the second one stays QS always. The second one is yellow >> take out at 21.2 production!!)</p>
@@ -117,8 +124,8 @@ Wanneer u de duur van taken in een lijst bijwerkt, kunt u de volgende afkortinge
 Denk aan het volgende wanneer u de duur van een taak opgeeft:
 
 * De verstreken tijd is een eenheid van tijd voor de Duur van een taak. Dit is de tijd tussen de Geplande Datum van het Begin en de Geplande Datum van de Voltooiing van een taak die vakantie, weekends, en onderbreking omvat. Met andere woorden, de verstreken tijd is de doorloop van kalenderdagen.
-* De regelmatige tijd houdt rekening met vakantie, weekends, en onderbreking en sluit hen van de Duur van de taak uit.
-
+* De dagen vertegenwoordigen de werkdagen die in het systeem worden bepaald en het is configureerbaar in het gebied van de Opstelling. In de meeste gevallen bestaat een dag uit 8 uur.
+* De normale tijd (dagen of werkdagen) houdt rekening met feestdagen, weekends en vrije tijd en sluit deze uit van de duur van de taak.
 * Wanneer u op de Duur van een taak in weken wijst, berekent Workfront de Duur in dagen en uren gebaseerd op de Typische het werkdagen per week en Typische uren per de montages van de het werkdag die door uw beheerder van Workfront in het gebied van de Voorkeur van het Project van Opstelling worden geplaatst.
 * Workfront gebruikt de standaardduur van 4 weken gedurende één maand bij het berekenen van de Duur in maanden.
 
