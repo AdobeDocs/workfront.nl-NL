@@ -9,9 +9,9 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion
 exl-id: 116df088-20a7-40a8-8880-9f422dc37632
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: f6b00b98d3375e5660d684f1fad682fa721517aa
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1553'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ In een [!DNL Adobe Workfront Fusion] -scenario kunt u workflows automatiseren di
 >[!NOTE]
 >
 >De [!DNL Microsoft Dynamics 365] -connector biedt geen ondersteuning voor [!DNL Dynamics Finance and Operations] .
+>
+>Zie [[!DNL Microsoft Dynamics 365 Finance and Operations modules]](/help/quicksilver/workfront-fusion/apps-and-their-modules/dynamics-finance-operations-modules.md) voor Microsoft Dynamics 365 Finance and Operations-modules.
 
 Als u instructies bij het creëren van een scenario nodig hebt, zie [ een scenario in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md) creëren.
 

@@ -9,7 +9,7 @@ description: Met de Adobe Workfront Fusion Adobe Workfront-connector kunt u uw p
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: f6b00b98d3375e5660d684f1fad682fa721517aa
 workflow-type: tm+mt
 source-wordcount: '6299'
 ht-degree: 0%
@@ -824,18 +824,15 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
     <td>[!UICONTROL Connection]</td>
-
-<td> <p>Zie <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Workfront] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Workfront] -app met [!DNL Workfront Fusion] .</p> </td> 
+    <td> <p>Zie <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Workfront] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Workfront] -app met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
     <td>[!UICONTROL Record Type]</td>
-
-<td>Kies het objecttype [!DNL Workfront] dat u wilt lezen in de module.</td> 
+     <td>Kies het objecttype [!DNL Workfront] dat u wilt lezen in de module.</td> 
   </tr> 
   <tr> 
     <td>[!UICONTROL Outputs]</td>
-
-<td> <p>Selecteer de informatie die u in de uitvoerbundel voor deze module wilt opnemen.</p> </td> 
+     <td> <p>Selecteer de informatie die u in de uitvoerbundel voor deze module wilt opnemen.</p> </td> 
   </tr> 
   <tr> 
     <td>[!UICONTROL References]</td>

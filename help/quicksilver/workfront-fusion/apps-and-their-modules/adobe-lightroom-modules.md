@@ -9,9 +9,9 @@ description: Met de Adobe Lightroom-modules kunt u een Adobe Workfront Fusion-sc
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e48bdf18-49f0-436e-9182-16c9da2b3169
-source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
+source-git-commit: f6b00b98d3375e5660d684f1fad682fa721517aa
 workflow-type: tm+mt
-source-wordcount: '1928'
+source-wordcount: '2016'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,7 @@ Voordat u de [!DNL Adobe Lightroom] -connector kunt gebruiken, moet u controlere
 
 * U moet een actieve [!DNL Adobe Lightroom] account hebben.
 
+
 ## Adobe Lightroom API-informatie
 
 De Adobe Lightroom-connector gebruikt het volgende:
@@ -90,7 +91,46 @@ De Adobe Lightroom-connector gebruikt het volgende:
  </tbody> 
  </table>
 
-<!--## Create a connection to Adobe Lightroom-->
+## Verbinding maken met Adobe Lightroom
+
+Verbinding maken voor uw [!DNL Adobe Lightroom] -modules:
+
+1. Klik op **[!UICONTROL Add]** naast het vak Verbinding.
+
+1. Vul de volgende velden in:
+
+   <table style="table-layout:auto"> 
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+      </col>
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+      </col>
+      <tbody>
+        <tr>
+        <td role="rowheader">[!UICONTROL Connection name]</td>
+        <td>
+          <p>Voer een naam in voor deze verbinding.</p>
+        </td>
+        </tr>
+        <tr>
+        <td role="rowheader">[!UICONTROL Environment]</td>
+        <td>Selecteer of u verbinding maakt met een productie- of niet-productieomgeving.</td>
+        </tr>
+        <tr>
+        <td role="rowheader">[!UICONTROL Type]</td>
+        <td>Selecteer of u verbinding maakt met een serviceaccount of een persoonlijke account.</td>
+        </tr>
+        <tr>
+        <td role="rowheader">[!UICONTROL Client ID]</td>
+        <td>Voer uw [!UICONTROL Adobe] [!UICONTROL Client ID] in. Dit vindt u in het gedeelte [!UICONTROL Credentials] Details van het dialoogvenster [!DNL Adobe Developer Console]</td>
+        </tr>
+        <tr>
+        <td role="rowheader">[!UICONTROL Client Secret]</td>
+        <td>Voer uw [!DNL Adobe] [!UICONTROL Client Secret] in. Dit vindt u in het gedeelte [!UICONTROL Credentials] Details van het dialoogvenster [!DNL Adobe Developer Console]</td>
+        </tr>
+      </tbody>
+    </table>
+
+1. Klik op **[!UICONTROL Continue]** om de verbinding op te slaan en terug te keren naar de module.
 
 
 
