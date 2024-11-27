@@ -3,7 +3,7 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: e91423d1520cc5fbfa6cd5085c3d0c7315d88463
+source-git-commit: 301f8c1b55a91a93616f59e2f530ac51a3696cbf
 workflow-type: tm+mt
 source-wordcount: '14647'
 ht-degree: 0%
@@ -856,7 +856,7 @@ ht-degree: 0%
       * [Een e-mailkoptekstbestand opslaan](administration-and-setup/tips-tricks-and-troubleshooting/save-an-email-header-file.md)
       * [Bij delen worden meerdere machtigingen weergegeven](administration-and-setup/tips-tricks-and-troubleshooting/sharing-shows-more-than-1-permission.md)
       * [Niet-geverifieerde e-mail niet geaccepteerd](administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
-      * [Workfront: ZScalar-instellingen kunnen leiden tot verminderde prestaties](administration-and-setup/tips-tricks-and-troubleshooting/zscalar-affects-performance.md)
+      * [Workfront: ZScaler-instellingen kunnen leiden tot verminderde prestaties](administration-and-setup/tips-tricks-and-troubleshooting/zscaler-affects-performance.md)
       * [Gebruikersreferenties versus SAML-referenties](administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
       * [Opties voor automatisch bijwerken op toegangsniveaus bijwerken](administration-and-setup/tips-tricks-and-troubleshooting/update-auto-upgrade-in-access-levels.md)
 * Basisbegrippen voor Adobe Workfront {#basics}

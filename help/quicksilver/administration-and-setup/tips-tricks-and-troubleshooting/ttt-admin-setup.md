@@ -10,7 +10,7 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: e72018b7-5de2-4661-b27d-6da6ece5cc48
-source-git-commit: 806a4c4835e47da4fbbdb28ec0c35c990f70239e
+source-git-commit: f66b219e9fd203f108844ad397bcfa848b8f1134
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 0%
@@ -43,4 +43,4 @@ Deze sectie bevat de volgende artikelen:
 * [ sparen een dossier van de e-mailkopbal ](../../administration-and-setup/tips-tricks-and-troubleshooting/save-an-email-header-file.md)
 * [ het Delen toont meer dan één toestemming ](../../administration-and-setup/tips-tricks-and-troubleshooting/sharing-shows-more-than-1-permission.md)
 * [Niet-geverifieerde e-mail wordt niet geaccepteerd vanwege het DMARC-beleid van het domein](../../administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
-* [Workfront: ZScalar-instellingen kunnen leiden tot verminderde prestaties](../../administration-and-setup/tips-tricks-and-troubleshooting/zscalar-affects-performance.md)
+* [Workfront: ZScaler-instellingen kunnen leiden tot verminderde prestaties](../../administration-and-setup/tips-tricks-and-troubleshooting/zscaler-affects-performance.md)
