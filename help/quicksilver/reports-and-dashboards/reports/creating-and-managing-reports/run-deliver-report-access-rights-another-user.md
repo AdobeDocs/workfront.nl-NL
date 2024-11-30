@@ -6,14 +6,16 @@ description: Door gebrek, kunnen de gebruikers de voorwerpen in een rapport slec
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e5e2b683-876c-45b4-ab61-07b1ad0b5650
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1174'
 ht-degree: 0%
 
 ---
 
 # Een rapport uitvoeren en leveren met de toegangsrechten van een andere gebruiker
+
+<!-- Audited: 11/2024 -->
 
 Door gebrek, kunnen de gebruikers de voorwerpen in een rapport slechts zien dat zij toestemmingen aan Mening hebben.
 
@@ -28,6 +30,8 @@ Als u een rapport met de toegangsrechten van een andere gebruiker in werking ste
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -40,20 +44,31 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> </td> 
+      <td> 
+      <p>Nieuw:</p>
+         <ul>
+         <li><p>Standaard</p></li>
+         </ul>
+      <p>Huidige:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Toestemmingen aan een rapport (om het geleverde rapport te bekijken)</p> <p>Rechten beheren voor een rapport (om het rapport uit te voeren)</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Toestemmingen aan een rapport (om het geleverde rapport te bekijken)</p><p>Rechten beheren voor een rapport (om het rapport uit te voeren)</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Een rapport weergeven met de toegangsrechten van een andere gebruiker
 
@@ -63,7 +78,7 @@ De gebruikers die tot het rapport toegang hebben moeten minstens de toestemminge
 
 Een rapport uitvoeren met de toegangsrechten van een andere gebruiker:
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Workfront, dan klik **Rapporten**.
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Reports]**.
 
 1. Selecteer het rapport dat u wilt weergeven met de toegangsrechten van een andere gebruiker.
 1. Klik **de Acties van het Rapport**, dan klik **uitgeven**.
@@ -71,7 +86,7 @@ Een rapport uitvoeren met de toegangsrechten van een andere gebruiker:
 1. Klik **Montages van het Rapport**.
 
 1. In de **looppas dit rapport met de Rechten van de Toegang van:** gebied, begin de naam van de gebruiker te typen die u het rapport wilt tonen als, dan het selecteren wanneer u het in de lijst ziet.\
-   ![](assets/qs-access-rights-of-350x251.png)
+   ![](assets/unshimmed-access-rights-of.png)
 
    >[!NOTE]
    >
@@ -101,7 +116,7 @@ Een rapport leveren met de toegangsrechten van een andere gebruiker:
 1. Klik **verzenden Rapport**.
 
 1. In **lever dit rapport met de Rechten van de Toegang van:** gebied, begin de naam van de gebruiker te typen die u het rapport wilt tonen aangezien wanneer het in e-mail wordt geleverd, dan het selecteren wanneer u het in de lijst ziet. Het gebrek is de naam van de gebruiker die het rapport bouwt.\
-   ![](assets/qs-send-report-access-rights-of-350x446.png)
+   ![](assets/unshimmed-send-report-access-rights-of.png)
 
    >[!NOTE]
    >
@@ -111,8 +126,8 @@ Een rapport leveren met de toegangsrechten van een andere gebruiker:
 
    * HTML
    * PDF
-   * MS Excel
-   * MS Excel (.xlsx)
+   * Excel
+   * Excel (.xlsx)
    * TSV
 
 1. Klik **verzenden nu** om het onmiddellijk te verzenden.\
@@ -138,20 +153,22 @@ U kunt bijvoorbeeld het volgende toevoegen aan een rapport met een Source-kolom:
 * De kolommen van de Naam van het Project of van de Naam van de Taak aan een probleemrapport.
 * Een kolom die expressies in tekstmodus gebruikt die naar alle drie objecten verwijzen. Hieronder ziet u een voorbeeld van een uurrapport:
 
-  `displayname=Custom Source`
-
-  `linkedname=opTask`
-
-  `namekey=view.relatedcolumn`
-
-  `namekeyargkey.0=opTask`
-
-  `namekeyargkey.1=name`
-
-  `textmode=true`
-
-  `valueexpression=IF(!ISBLANK({opTaskID}),{opTask}.{name},IF(!ISBLANK({taskID}),{task}.{name},IF(!ISBLANK({projectID}),{project}.{name},IF(!ISBLANK({timesheetID}),CONCAT({owner}.{name}," ",{timesheet}.{startDate}," - ",{timesheet}.{endDate}),""))))`
-
-  `valueformat=HTML`
+  ```
+  displayname=Custom Source
+  
+  linkedname=opTask
+  
+  namekey=view.relatedcolumn
+  
+  namekeyargkey.0=opTask
+  
+  namekeyargkey.1=name
+  
+  textmode=true
+  
+  valueexpression=IF(!ISBLANK({opTaskID}),{opTask}.{name},IF(!ISBLANK({taskID}),{task}.{name},IF(!ISBLANK({projectID}),{project}.{name},IF(!ISBLANK({timesheetID}),CONCAT({owner}.{name}," ",{timesheet}.{startDate}," - ",{timesheet}.{endDate}),""))))
+  
+  valueformat=HTML
+  ```
 
   Voor informatie over de meningen van de tekstwijze, zie [ een mening uitgeven gebruikend tekstwijze ](../text-mode/edit-text-mode-in-view.md).

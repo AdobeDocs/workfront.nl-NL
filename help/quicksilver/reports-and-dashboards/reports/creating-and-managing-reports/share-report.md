@@ -6,14 +6,16 @@ description: Uw Adobe Workfront-beheerder verleent gebruikers toegang tot rappor
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 225e815a-0354-493d-bbcf-59304ef77570
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '820'
 ht-degree: 0%
 
 ---
 
 # Een rapport delen in Adobe Workfront
+
+<!-- Audited: 11/2024 -->
 
 Uw Adobe Workfront-beheerder verleent gebruikers toegang tot rapporten om deze weer te geven of te bewerken wanneer zij toegangsniveaus toewijzen. Voor meer informatie over het verlenen van toegang tot kwesties, zie [ Toegang verlenen tot rapporten, dashboards, en kalenders ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
@@ -27,6 +29,8 @@ Machtigingen gelden specifiek voor één item in Workfront en definiëren welke 
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet het volgende hebben om objecten te delen:
 
 <table style="table-layout:auto"> 
@@ -39,20 +43,31 @@ U moet het volgende hebben om objecten te delen:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Controleren of hoger</p> </td> 
+      <td> 
+      <p>Nieuw:</p>
+         <ul>
+         <li><p>Licht of hoger</p></li>
+         </ul>
+      <p>Huidige:</p>
+         <ul>
+         <li><p>Controleren of hoger</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot rapporten, dashboards, kalenders of hoger weergeven</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td> <p>Toegang tot rapporten, dashboards, kalenders of hoger weergeven</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>De toestemmingen van de mening of hoger het rapport</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>De toestemmingen van de mening of hoger het rapport</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Overwegingen bij het delen van rapporten
 
@@ -79,7 +94,7 @@ Het delen van een rapport of meerdere rapporten uit een lijst is identiek.
 
    Klik de naam van één rapport, dan klik **de Acties van het Rapport >* **het Delen**.
 
-   ![](assets/qs-report-actions-sharing.png)
+   ![](assets/unshimmed-report-actions-sharing.png)
 
 1. In de doos die toont, in **voegt mensen, teams, rollen, groepen, of bedrijven toe..** het gebiedsbegin typend de naam van de gebruiker, het team, de baanrol, de groep, of het bedrijf u het rapport met wilt delen, dan drukt **** binnen wanneer de naamvertoningen.
 
@@ -91,7 +106,7 @@ Het delen van een rapport of meerdere rapporten uit een lijst is identiek.
     <tbody> 
      <tr> 
       <td role="rowheader">Weergeven</td> 
-      <td> <p>Staat uw ontvankelijke toegang toe om het rapport in het <strong> gebied van Rapporten </strong> te zien <img src="assets/reports-in-main-menu.png"> en het in werking te stellen.</p> <p>U kunt <strong> Geavanceerde Montages </strong> klikken om te specificeren of u de gebruiker of de gebruikers <strong> </strong> het met iedereen in het systeem wilt kunnen delen.</p> </td> 
+      <td> <p>Staat uw ontvankelijke toegang toe om het rapport in het <strong> gebied van Rapporten </strong> te zien en het in werking te stellen.</p> <p>U kunt <strong> Geavanceerde Montages </strong> klikken om te specificeren of u de gebruiker of de gebruikers <strong> </strong> het met iedereen in het systeem wilt kunnen delen.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Beheren</td> 
@@ -101,9 +116,15 @@ Het delen van een rapport of meerdere rapporten uit een lijst is identiek.
    </table>
 
 1. (Optioneel) Herhaal de vorige twee stappen om andere namen aan de lijst toe te voegen en de opties te configureren.
-1. (Optioneel) Klik op het **pictogram ![](assets/gear-icon-settings-with-dn-arrow.jpg) Gear** in de rechterbovenhoek van het vak Delen en selecteer vervolgens een van de volgende opties:
+1. (Facultatief) klik **slechts uitgenodigde mensen kunnen tot** dropdown menu in het het delen vakje toegang hebben, dan tussen de volgende opties kiezen:
 
-   * **maak dit openbaar aan externe gebruikers:** selecteer deze optie om een URL te produceren die met anderen kan worden gedeeld. Iedereen met de URL heeft toegang tot het rapport, zonder een Adobe Workfront-licentie.
+   * **slechts kunnen de uitgenodigde mensen tot** toegang hebben Uitgezocht deze optie zodat slechts de gebruikers die toegang tot het rapport hebben verleend het kunnen bekijken.
+
+   * **iedereen in het systeem kan** Uitgezocht deze optie bekijken zodat iedereen in Workfront met toegang tot rapporten het rapport kan bekijken.
+
+1. (Optioneel) Klik op het **pictogram ![](assets/gear-icon-settings-with-dn-arrow.jpg) Gear** in de rechterbovenhoek van het vak Delen en selecteer desgewenst de volgende optie:
+
+   * **maak dit openbaar aan externe gebruikers** selecteer deze optie om URL te produceren die met anderen kan worden gedeeld. Iedereen met de URL heeft toegang tot het rapport, zonder een Adobe Workfront-licentie.
 
      >[!CAUTION]
      >
@@ -112,7 +133,5 @@ Het delen van een rapport of meerdere rapporten uit een lijst is identiek.
      >[!NOTE]
      >
      >Als het rapport een herinnering heeft en u het openbaar deelt, zullen de gebruikers die het rapport door de openbare aandeelverbinding in werking stellen het rapport niet kunnen in werking stellen gebruikend de herinnering. Zij zullen het rapport zien zonder de herinnering op het wordt toegepast tenzij zij login aan Workfront en toegang tot het rapport zonder de openbare aandeelverbinding te gebruiken. Voor meer informatie over de beperkingen om rapporten met herinneringen te delen, zie de sectie [ Beperkingen van het delen veroorzaakt rapporten ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports) in het artikel [ een herinnering aan een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) toevoegen.
-
-   * **maak dit zichtbaar systeem-breed:** selecteer deze optie zodat iedereen in Workfront met toegang tot rapporten het rapport kan zien.
 
 1. Klik **sparen**.

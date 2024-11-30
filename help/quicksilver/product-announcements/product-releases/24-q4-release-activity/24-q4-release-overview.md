@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 8ad2ed8389fdc00649f0853e07d2e83d21ccb385
+source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
 workflow-type: tm+mt
-source-wordcount: '2178'
+source-wordcount: '2187'
 ht-degree: 0%
 
 ---
@@ -469,7 +469,7 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
                             <p>Productieversie voor alle klanten: met de release van 24.10 (17 oktober 2024)</p>
                         </li>
                     </ul>
-                    <p><i>Alleen beschikbaar voor organisaties op een van de nieuwe Adobe Workfront-plannen. Gegevens verbinden is opgenomen in het Ultimate-abonnement of kan worden aangeschaft als een invoegtoepassing voor de Premier- en Select-plannen.</i></p>
+                    <p><i>Alleen beschikbaar voor organisaties op een van de nieuwe Adobe Workfront-plannen. Data Connect is opgenomen in het Ultimate-abonnement en wordt in de eerste helft van 2025 beschikbaar gesteld voor aankoop als toevoeging aan de Premier- en Select-plannen.</i></p>
                 </td>
             </tr>
         </tbody>
