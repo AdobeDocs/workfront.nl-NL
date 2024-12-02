@@ -1,8 +1,8 @@
 ---
 content-type: overview;reference
 navigation-topic: workfront-navigation
-title: "[!DNL Adobe Workfront] overzicht van objecten"
-description: "De informatie u in  [!DNL Adobe Workfront]  toont wordt vertegenwoordigd door voorwerpen die in het  [!DNL Workfront]  gegevensbestand worden opgeslagen. De voorwerpen zijn wat de informatie in  [!DNL Workfront] drijft. Meer informatie over deze objecten vindt u in dit artikel."
+title: Overzicht van [!DNL Adobe Workfront] objecten
+description: De informatie u in  [!DNL Adobe Workfront]  toont wordt vertegenwoordigd door voorwerpen die in het  [!DNL Workfront]  gegevensbestand worden opgeslagen. De voorwerpen zijn wat de informatie in  [!DNL Workfront] drijft. Meer informatie over deze objecten vindt u in dit artikel.
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90

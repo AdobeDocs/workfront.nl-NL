@@ -2,8 +2,8 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Groepering: uitsplitsing projectpercentage 2"
-description: 'In deze aangepaste projectgroep kunt u projecten weergeven die zijn gegroepeerd op een bereik van hun volledige percentagewaarden. De uitsplitsingen tonen een percentage complete waarde van 10 procentpunten in stappen: 0-10%, 11-20%, 21-30% enz.'
+title: 'Groepering: Uitsplitsing projectpercentage 2'
+description: 'In deze groepering van douaneproject, kunt u projecten tonen die door een waaier van hun percenten volledige waarden worden gegroepeerd. De uitsplitsingen geven het percentage aan dat de volledige waarde is in stappen van 10 procentpunten: 0-10%, 11-20%, 21-30% enz.'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7845fd66-8304-4154-8630-e72482cd753f
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 In deze groepering van douaneproject, kunt u projecten tonen die door een waaier van hun percenten volledige waarden worden gegroepeerd. De uitsplitsingen geven het percentage aan dat de volledige waarde is in stappen van 10 procentpunten: 0-10%, 11-20%, 21-30% enz.
 
-De volgende groepering organiseert projecten door de percentage volledige waarde in één van deze groeperingen:
+De volgende groepering organiseert projecten door het percentage volledige waarde in één van deze groepen:
 
 * 0%
 * 1-10%
@@ -39,7 +39,7 @@ De volgende groepering organiseert projecten door de percentage volledige waarde
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de toegangsvereisten voor de functionaliteit in dit artikel weer te geven.
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -58,13 +58,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <ul><li><p>Medewerker om een filter te wijzigen </p></li>
    <li><p>Standaard voor het wijzigen van een rapport</p></li> </ul>
 
-<p>Huidig:</p>
+<p>Huidige:</p>
    <ul><li><p>Verzoek om een filter te wijzigen </p></li>
-   <li><p>Overgaan tot wijziging van een rapport</p></li> </ul></td> 
+   <li><p>Plan om een rapport te wijzigen</p></li> </ul></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>Toegang tot rapporten, dashboards en kalenders bewerken om een rapport te wijzigen</p> <p>Toegang tot filters, weergaven en groepen bewerken om een filter te wijzigen</p> </td> 
+   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een rapport te wijzigen</p> <p>Toegang tot filters, weergaven en groepen bewerken om een filter te wijzigen</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -82,7 +82,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 Deze groep toepassen:
 
 1. Ga naar een lijst met projecten.
-1. Van het **drop-down menu van de Groepering**, uitgezochte **Nieuwe Groepering**.
+1. Van **het Groeperen** drop-down menu, uitgezochte **Nieuwe Groepering**.
 
 1. Klik **Schakelaar aan de Wijze van de Tekst**.
 1. Verwijder de tekst in het vak en plak de volgende code in de beschikbare ruimte:

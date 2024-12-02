@@ -2,7 +2,7 @@
 content-type: reference
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
-title: "Proefversies beheren: artikelindex"
+title: 'Proefversies beheren: artikelindex'
 description: Een nieuwe versie van een proefdruk maken
 author: Courtney
 feature: Digital Content and Documents

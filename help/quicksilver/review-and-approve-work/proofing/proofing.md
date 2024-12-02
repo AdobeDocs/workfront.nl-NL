@@ -2,7 +2,7 @@
 content-type: reference
 product-area: documents
 navigation-topic: documents-navigation-topic
-title: "Proofing: artikelindex"
+title: 'Proofing: artikelindex'
 description: Reviseer en becommentariëer in hetzelfde document waar de creatieve teams werken. Met Workfront Proofing, kunt u om terugkoppelen verzoeken, commentaren zien, en berichten voor hangende en voltooide goedkeuringen krijgen — allen terwijl het handhaven van een controletraject van commentaren en versies.
 author: Courtney
 feature: Digital Content and Documents

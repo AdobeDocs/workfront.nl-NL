@@ -1,7 +1,7 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: "Meldingen: Diverse informatie"
+title: 'Meldingen: Diverse informatie'
 description: In de volgende berichten wordt u gewaarschuwd voor activiteiten die plaatsvinden in een project dat u sponsort.
 author: Lisa
 feature: Get Started with Workfront

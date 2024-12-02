@@ -3,7 +3,7 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: "Foutbericht: kan de digitale XML-handtekening niet valideren"
+title: 'Foutbericht: kan de digitale XML-handtekening niet valideren'
 description: U kunt geen verbinding maken met ADFS.
 author: Lisa
 feature: System Setup and Administration

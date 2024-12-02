@@ -3,7 +3,7 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: "Foutbericht: er is een klein probleem. Dat veld wordt gebruikt in een configuratie met meerdere formulieren."
+title: 'Foutbericht: er is een klein probleem. Dat veld wordt gebruikt in een configuratie met meerdere formulieren'
 description: Wanneer u een berekening in een berekend aangepast veld wijzigt op een aangepast formulier en een foutbericht laat zien dat het veld wordt gebruikt in een configuratie met meerdere formulieren, moet u het veld vervangen door een nieuw veld dat de berekening bevat die u wilt gebruiken.
 author: Lisa
 feature: System Setup and Administration

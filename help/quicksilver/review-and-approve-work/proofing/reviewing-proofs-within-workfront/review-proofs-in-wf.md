@@ -2,7 +2,7 @@
 content-type: reference
 product-area: documents
 navigation-topic: proofing-in-workfront-navigation-topic
-title: "Proefdrukken in Adobe Workfront bekijken: artikelindex"
+title: 'Proefdrukken in Adobe Workfront bekijken: artikelindex'
 description: Klik hier als je proefdrukken in Workfront wilt bekijken.
 author: Courtney
 feature: Digital Content and Documents

@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Mening: Toon de ouder-Onderliggende Verhouding in een Taak door de Taken in te springen"
+title: 'Weergave: de relatie tussen bovenliggende en onderliggende items weergeven in een taak door de taken in te springen'
 description: U kunt het onderscheid tussen bovenliggende en onderliggende relaties in een geëxporteerde takenlijst behouden door een aangepaste weergave toe te voegen aan de takenlijst en ervoor te zorgen dat deze weergave is geselecteerd voordat u de lijst exporteert.
 author: Nolan
 feature: Reports and Dashboards

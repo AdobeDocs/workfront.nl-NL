@@ -2,7 +2,7 @@
 content-type: reference
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
-title: "Proofs beheren: artikelindex"
+title: 'Proefdrukken beheren: artikelindex'
 description: Proefdrukinstellingen bewerken
 author: Courtney
 feature: Digital Content and Documents

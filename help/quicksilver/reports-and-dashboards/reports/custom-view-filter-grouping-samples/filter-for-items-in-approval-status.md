@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Filter: alleen items in een goedkeuringsstatus weergeven'
+title: 'Filter: alleen items weergeven in een goedkeuringsstatus'
 description: U kunt alleen objecten weergeven met een bepaalde status die momenteel in behandeling is. Dit werkt hetzelfde voor elk ander object met een goedkeuringsstatus.
 author: Lisa and Nolan
 feature: Reports and Dashboards

@@ -1,7 +1,7 @@
 ---
 content-type: reference
 navigation-topic: betas
-title: 'Canvas Dashboards beta: releaseactiviteit'
+title: 'Bèta Canvas-dashboards: releaseactiviteit'
 description: Wekelijkse releaseactiviteit voor de bètaversie van Adobe Workfront Canvas Dashboards
 author: Nolan
 feature: Product Announcements

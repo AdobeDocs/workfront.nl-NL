@@ -1,7 +1,7 @@
 ---
 navigation-topic: notifications
 title: Meldingen in apps weergeven en beheren
-description: 'Met meldingen in de app wordt u op de hoogte gehouden van twee soorten informatie: aankondigingsmeldingen en meldingen over het werkitem. Deze zijn zowel beschikbaar in de webtoepassing als in de mobiele toepassing.'''
+description: 'Meldingen in de app houden u op de hoogte van twee soorten informatie: aankondigingsmeldingen en meldingen voor het werkitem. Deze zijn zowel beschikbaar in de webtoepassing als in de mobiele toepassing.'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c5da114-33cc-422b-84f4-67bc7fcd67c6

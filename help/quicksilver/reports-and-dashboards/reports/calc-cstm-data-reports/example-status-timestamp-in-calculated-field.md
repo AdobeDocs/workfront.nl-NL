@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
-title: 'Voorbeeld van berekend aangepast veld: een tijdstempel voor status weergeven in een aangepast formulier'
+title: 'Voorbeeld van een berekend aangepast veld: een statustijdstempel weergeven in een aangepast formulier'
 description: In het volgende berekende veld wordt de datum weergegeven waarop de objectstatus wordt gemarkeerd als Bezig (INP.) U kunt de zelfde informatie voor berekende douanevelden voor kwesties, taken, of projecten gebruiken.
 author: Nolan
 feature: Reports and Dashboards

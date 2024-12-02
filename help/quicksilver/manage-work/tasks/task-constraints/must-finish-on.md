@@ -2,7 +2,7 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: 'Overzicht van taakbeperking: moet voltooid zijn'
+title: 'Overzicht van taakbeperking: moet voltooien op'
 description: U kunt gebruiken moet Eindigen op (MFO) de Beperking van de Taak om een taak te plannen om op een specifieke datum te beëindigen.
 author: Alina
 feature: Work Management

@@ -2,7 +2,7 @@
 content-type: reference
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
-title: "Proofingdeadlines beheren: artikelindex"
+title: 'Proofingdeadlines beheren: artikelindex'
 description: Een deadline voor een werkgebied toevoegen, bewerken of verwijderen
 author: Courtney
 feature: Digital Content and Documents

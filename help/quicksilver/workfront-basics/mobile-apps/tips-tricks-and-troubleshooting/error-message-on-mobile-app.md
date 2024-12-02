@@ -2,8 +2,8 @@
 content-type: tips-tricks-troubleshooting
 product-previous: mobile
 navigation-topic: tips-tricks-and-troubleshooting-mobile-apps
-title: '"Het Bericht van de Fout op  [!DNL Adobe Workfront]  Mobiele App: "Uw rekening is niet toegelaten API.""'
-description: '"Het Bericht van de Fout op  [!DNL Adobe Workfront]  Mobiele App: "Uw rekening is niet toegelaten API.""'
+title: 'Het Bericht van de fout op  [!DNL Adobe Workfront]  Mobiele App: "Uw rekening is niet toegelaten API."'
+description: 'Het Bericht van de fout op  [!DNL Adobe Workfront]  Mobiele App: "Uw rekening is niet toegelaten API."'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 120e56f4-9fd5-4c41-890e-981937714db0

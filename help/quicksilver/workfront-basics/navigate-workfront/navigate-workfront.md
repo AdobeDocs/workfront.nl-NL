@@ -1,7 +1,7 @@
 ---
 content-type: reference
 navigation-topic: get-started-with-workfront
-title: "Navigate  [!DNL Adobe Workfront]: article index"
+title: 'Navigeren  [!DNL Adobe Workfront]: artikelindex'
 description: Lees deze artikelen om te begrijpen hoe u door Adobe Workfront kunt navigeren en Workfront-terminologie kunt leren.
 feature: Get Started with Workfront
 author: Lisa

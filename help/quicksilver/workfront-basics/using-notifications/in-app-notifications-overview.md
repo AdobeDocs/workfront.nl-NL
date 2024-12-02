@@ -2,7 +2,7 @@
 content-type: overview
 navigation-topic: notifications
 title: Overzicht van meldingen in de app
-description: 'Dit artikel bevat een overzicht van de meldingen in de app die u kunt ontvangen. Meldingen in de app houden u op de hoogte van twee soorten informatie: aankondigingsmeldingen en meldingen voor het werkitem. Deze zijn zowel beschikbaar in de webtoepassing als in de mobiele toepassing.'
+description: 'In dit artikel worden de meldingen in de app weergegeven die u kunt ontvangen. Meldingen in de app houden u op de hoogte van twee soorten informatie: aankondigingsmeldingen en meldingen voor het werkitem. Deze zijn zowel beschikbaar in de webtoepassing als in de mobiele toepassing.'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: afc8cfe7-d9a7-458a-b437-bd4c75838cb0

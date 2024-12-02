@@ -2,7 +2,7 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Problemen met de integratie met Adobe Experience Manager oplossen
-description: 'Probleem: Assets wordt niet opgeslagen op Adobe Experience Manager'
+description: 'Probleem: Assets wordt niet opgeslagen naar Adobe Experience Manager'
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: f7e31e20-01e3-462d-9020-005e155f0259

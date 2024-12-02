@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Weergeven: Taak met alle datumvariantie'
+title: 'Weergeven: Taak met alle datumvariaties'
 description: Deze taakweergave is vergelijkbaar met de weergave Alle datums die bij uw Adobe Workfront-account wordt geleverd. Deze weergave bevat de kolommen Variantie, die het verschil in dagen tussen datums berekenen.
 author: Nolan
 feature: Reports and Dashboards

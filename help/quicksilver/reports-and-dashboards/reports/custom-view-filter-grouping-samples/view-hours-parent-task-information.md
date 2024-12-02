@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'View: Uren with Parent Task Information'
+title: 'Weergeven: Uren met bovenliggende taakgegevens'
 description: In deze uurweergave ziet u de naam van de taak waarin de uren zijn vastgelegd, plus de naam van de bovenliggende taak.
 author: Nolan
 feature: Reports and Dashboards

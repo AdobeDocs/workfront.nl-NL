@@ -2,7 +2,7 @@
 content-type: reference
 product-area: documents
 navigation-topic: review-proofs-within-workfront
-title: "Een proefdruk controleren: artikelindex"
+title: 'Een proefdruk controleren: artikelindex'
 description: Inhoud weergeven in een proefdruk
 author: Courtney
 feature: Digital Content and Documents

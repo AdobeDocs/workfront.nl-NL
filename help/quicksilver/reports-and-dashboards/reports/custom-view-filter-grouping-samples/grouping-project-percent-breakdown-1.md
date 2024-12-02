@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Groepering: uitsplitsing projectpercentage 1"
+title: 'Groepering: Uitsplitsing projectpercentage 1'
 description: In deze groepering van douaneproject, kunt u projecten tonen die door een waaier van hun percenten volledige waarden worden gegroepeerd.
 author: Nolan
 feature: Reports and Dashboards

@@ -1,5 +1,5 @@
 ---
-title: "Een formulier ontwerpen: artikelindex"
+title: 'Een formulier ontwerpen: artikelindex'
 user-type: administrator
 content-type: reference
 product-area: system-administration

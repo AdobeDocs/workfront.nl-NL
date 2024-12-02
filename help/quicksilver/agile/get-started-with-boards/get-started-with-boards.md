@@ -1,7 +1,7 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: "Aan de slag met boeken: artikelindex"
+title: 'Aan de slag met boeken: artikelindex'
 description: Bekijk deze artikelen voor meer informatie over het gebruik van borden in Workfront.
 author: Lisa
 feature: Agile

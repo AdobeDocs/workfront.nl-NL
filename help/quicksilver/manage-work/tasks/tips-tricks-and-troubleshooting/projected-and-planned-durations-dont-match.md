@@ -3,7 +3,7 @@ content-type: tips-tricks-troubleshooting
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-tasks
 title: Geprojecteerde duur komt niet overeen met geplande duur
-description: '"U ontvangt het volgende foutbericht: ''De voorspelde duur van een taak/probleem is naar 0 gegaan en komt niet overeen met de geplande duur.'''''
+description: 'U ontvangt het volgende foutbericht: ''De voorspelde duur van een taak/probleem is naar 0 gegaan en komt niet overeen met de geplande duur.'''
 author: Alina
 feature: Work Management
 exl-id: ef135d44-3138-457d-b54a-3f1102ce3116

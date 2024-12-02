@@ -2,7 +2,7 @@
 content-type: tips-tricks-troubleshooting;reference
 product-area: timesheets
 navigation-topic: timesheets-navigation-topic
-title: "Tips, trucs en probleemoplossing voor tijdbladen: artikelindex"
+title: 'Tips, trucs en probleemoplossing voor timesheets: artikelindex'
 description: Leer meer over gemeenschappelijk timesheet gedrag of hoe te om potentiële problemen met timesheets in de volgende artikelen problemen op te lossen.
 author: Alina
 feature: Timesheets

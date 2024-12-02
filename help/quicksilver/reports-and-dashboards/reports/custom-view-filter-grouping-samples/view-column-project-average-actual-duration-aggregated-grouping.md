@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Weergave en groepering: de werkelijke duur van het project in een groep samengevoegd met het gemiddelde weergeven'
+title: 'Weergeven en groeperen: De werkelijke duur van het project weergeven, samengevoegd met het gemiddelde in een groep'
 description: U kunt de volgende kolom in een projectrapport toevoegen om de Ware Duur te tonen die als gemiddelde in een groepering wordt bijeengevoegd.
 author: Nolan
 feature: Reports and Dashboards

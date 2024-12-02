@@ -2,7 +2,7 @@
 content-type: reference;overview
 product-area: reporting;dashboards
 navigation-topic: reports-and-dashboards
-title: "Rapporten en dashboards: artikelindex"
+title: 'Rapporten en dashboards: artikelindex'
 description: In Adobe Workfront kunt u gegevens ordenen in rapporten. U kunt meerdere rapporten op een dashboard plaatsen. U kunt zowel rapporten als dashboards met anderen voor betere samenwerking delen.
 author: Nolan
 feature: Reports and Dashboards

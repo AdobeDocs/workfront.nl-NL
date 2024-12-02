@@ -2,7 +2,7 @@
 content-type: reference
 product-area: documents
 navigation-topic: proofing-in-workfront-navigation-topic
-title: "Desktop Proofing Viewer gebruiken: artikelindex"
+title: 'Desktop Proofing Viewer gebruiken: artikelindex'
 description: De Desktop Proofing Viewer installeren
 author: Courtney
 feature: Digital Content and Documents

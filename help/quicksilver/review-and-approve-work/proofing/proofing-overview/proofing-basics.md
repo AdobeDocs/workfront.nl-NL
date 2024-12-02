@@ -2,7 +2,7 @@
 content-type: reference
 product-area: documents
 navigation-topic: proofing-in-workfront-navigation-topic
-title: "Proofingoverzicht: artikelindex"
+title: 'Proofingoverzicht: artikelindex'
 description: Overzicht van machtigingsprofiel proefdrukken
 author: Courtney
 feature: Digital Content and Documents

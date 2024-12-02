@@ -2,7 +2,7 @@
 content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: "Beoordeling en goedkeuring van activa en documenten: artikelindex"
+title: 'Beoordeling en goedkeuring van activa en documenten: artikelindex'
 description: Deze sectie bevat artikelen over documentgoedkeuringen in Adobe Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents

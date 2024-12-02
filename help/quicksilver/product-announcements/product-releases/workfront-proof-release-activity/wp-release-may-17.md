@@ -2,7 +2,7 @@
 content-type: release-notes
 product-area: Workfront Proof
 navigation-topic: proof-release-activity
-title: "Workfront Proof release activity: Week 17 mei 2021"
+title: 'Workfront Proof-releaseactiviteit: week van 17 mei 2021'
 description: Deze pagina bevat een beschrijving van de wijzigingen die in de Workfront Proof zijn aangebracht (zelfstandige proefdruktoepassing). De hier beschreven wijzigingen zijn niet van toepassing op de proefdrukfunctionaliteit in de Adobe Workfront-toepassing.
 author: Luke
 feature: Product Announcements, Workfront Proof

@@ -1,7 +1,7 @@
 ---
 content-type: reference
 navigation-topic: create-and-manage-projects
-title: "Een bedrijfscase definiëren: artikelindex"
+title: 'Een bedrijfscase definiëren: artikelindex'
 description: U kunt een project formeel en efficiënt verzoeken door een BedrijfsGeval te creëren. In de volgende artikelen wordt de informatie beschreven die u nodig hebt om het bedrijfscase van een project te definiëren.
 author: Alina
 feature: Work Management

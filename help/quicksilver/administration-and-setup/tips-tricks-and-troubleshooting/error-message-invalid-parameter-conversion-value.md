@@ -3,8 +3,8 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: "Foutbericht: ongeldige parameter: conversiewaarde"
-description: '"U ontvangt het volgende foutbericht wanneer u probeert de indeling van een aangepast veld op een bestaand aangepast formulier te wijzigen: ''Ongeldige parameter: conversiewaarde ''&lt;..&gt;'''''
+title: 'Foutbericht: ongeldige parameter: conversiewaarde'
+description: 'U ontvangt het volgende foutbericht wanneer u probeert de indeling van een aangepast veld op een bestaand aangepast formulier te wijzigen: ''Ongeldige parameter: conversiewaarde `&lt;..&gt;'''''
 author: Lisa
 feature: System Setup and Administration
 role: Admin

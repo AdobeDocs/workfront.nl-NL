@@ -1,7 +1,7 @@
 ---
 content-type: reference
 navigation-topic: betas
-title: 'Canvas bèta melden: overzicht'
+title: 'Bewerken van canvas melden: overzicht'
 description: Informatie over het bètaprogramma voor het aanstaande hulpmiddel van het Canvas van de Rapportering voor Adobe Workfront
 author: Nolan
 feature: Product Announcements

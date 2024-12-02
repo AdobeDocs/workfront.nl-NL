@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Weergave: het resultaat weergeven van een berekening tussen twee velden in een kolom'
+title: 'Weergeven: het resultaat weergeven van een berekening tussen twee velden in een kolom'
 description: U kunt de tekstmodus in een kolom gebruiken om een berekening tussen twee velden weer te geven.
 author: Lisa and Nolan
 feature: Reports and Dashboards

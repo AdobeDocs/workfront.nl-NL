@@ -3,7 +3,7 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: "Foutbericht: SAML 2.0-fout: primaire statuscode"
+title: 'Foutbericht: SAML 2.0-fout: Primaire statuscode'
 description: U kunt geen verbinding maken met ADFS.
 author: Lisa
 feature: System Setup and Administration

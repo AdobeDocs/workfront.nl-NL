@@ -2,7 +2,7 @@
 content-type: reference
 product-area: templates
 navigation-topic: create-and-manage-projects
-title: "Projectsjablonen maken en beheren: artikelindex"
+title: 'Projectsjablonen maken en beheren: artikelindex'
 description: In de volgende artikelen vindt u informatie over het maken en beheren van projectsjablonen.
 author: Alina
 feature: Work Management

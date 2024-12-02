@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: kickstart,trap-start,kickstart,trap-start
 navigation-topic: use-kick-starts
-title: "Kick-Starts Scenario: Bedrijf, Groep, Rol, en de Kick-Begint Voorbereiding van de Gebruiker"
+title: 'Kick-start Scenario: Bedrijf, Groep, Rol, en de Kick-Begint Voorbereiding van de Gebruiker'
 description: Wanneer u begint met het implementeren van Adobe Workfront, in plaats van handmatig gegevens in te voeren, kunt u uw lijst met klanten, interne afdelingen, taakrollen en gebruikersgegevens importeren.
 author: Caroline
 feature: System Setup and Administration

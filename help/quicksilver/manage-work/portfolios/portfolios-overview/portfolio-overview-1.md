@@ -2,7 +2,7 @@
 content-type: overview;reference
 product-area: portfolios
 navigation-topic: portfolios-navigation-topic
-title: "Portfolio's: Artikel Index"
+title: 'Portfolio''s: Artikelindex'
 description: Een Portfolio is een inzameling van projecten die verenigende eigenschappen hebben. Meer informatie over portfolio's vindt u in de volgende artikelen.
 author: Alina
 feature: Work Management, Strategic Planning

@@ -1,5 +1,5 @@
 ---
-title: "Aangepaste Forms: artikelindex"
+title: 'Aangepaste Forms: artikelindex'
 user-type: administrator
 content-type: reference
 product-area: system-administration

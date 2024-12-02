@@ -1,5 +1,5 @@
 ---
-title: "Views: Article Index"
+title: 'Weergaven: Artikelindex'
 description: U kunt Adobe Workfront-planningsrecords weergeven in een tabel-, tijdlijn- of kalenderweergave. Dit artikel bevat koppelingen naar artikelen die beschrijven hoe u weergaven kunt maken en bestaande weergaven kunt bewerken of verwijderen.
 author: Alina
 feature: Workfront Planning

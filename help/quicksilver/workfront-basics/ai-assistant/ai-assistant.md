@@ -1,5 +1,5 @@
 ---
-title: 'AI Assistant: artikelindex'
+title: 'AI-assistent: artikelindex'
 content-type: reference
 description: Een lijst met artikelen beschikbaar over AI Assistant in Workfront bekijken
 author: Becky

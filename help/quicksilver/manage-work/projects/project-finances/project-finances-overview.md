@@ -2,7 +2,7 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: create-and-manage-projects
-title: "Projectfinanciën: artikelindex"
+title: 'Projectfinanciën: artikelindex'
 description: De volgende artikelen bevatten informatie over gebieden waar u financiële informatie over projecten kunt vinden en over hoe te om projectfinanciën te beheren.
 author: Alina
 feature: Work Management

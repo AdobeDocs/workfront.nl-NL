@@ -2,7 +2,7 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: create-and-manage-projects
-title: "Projecten maken: artikelindex"
+title: 'Projecten maken: artikelindex'
 description: Meer informatie over het maken van projecten vindt u in de volgende artikelen.
 author: Alina
 feature: Work Management

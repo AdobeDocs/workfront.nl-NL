@@ -3,7 +3,7 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: set-up-workfront
-title: "Aan de slag met Adobe Workfront Administration: Article Index"
+title: 'Aan de slag met Adobe Workfront Administration: artikelindex'
 description: In deze sectie vindt u informatie en instructies over de eerste installatie van Adobe Workfront en informatie die u als Workfront-beheerder nodig hebt.
 author: Lisa
 feature: System Setup and Administration

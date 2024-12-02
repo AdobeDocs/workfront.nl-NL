@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "View: Assigned User's Company and Home Group"
+title: 'Weergave: Bedrijf en thuisgroep van toegewezen gebruiker'
 description: Deze taakmening toont het Bedrijf en de Groep van het Huis van de Primaire Eigenaar van de taak. Dit zijn waarden die niet beschikbaar zijn in de standaardinterface, maar die wel toegankelijk zijn via de tekstmodus.
 author: Nolan
 feature: Reports and Dashboards

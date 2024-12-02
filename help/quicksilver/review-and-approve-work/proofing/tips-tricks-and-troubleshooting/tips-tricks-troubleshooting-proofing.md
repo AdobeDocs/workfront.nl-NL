@@ -1,5 +1,5 @@
 ---
-title: "Tips, trucs en probleemoplossing voor proefdrukken in Adobe Workfront: artikelindex"
+title: 'Tips, trucs en probleemoplossing voor proefdrukken in Adobe Workfront: artikelindex'
 description: Tips, trucs en probleemoplossing voor proefdrukken in Adobe Workfront
 author: Courtney
 draft: Probably

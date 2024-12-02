@@ -2,8 +2,8 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Grouping: Taakpercentage Uitsplitsing 1'
-description: 'In deze aangepaste projectgroep kunt u projecten weergeven die zijn gegroepeerd op een bereik van hun volledige percentagewaarden. De uitsplitsingen tonen een percentage complete waarde van 25 percentagestappen: 0-25%, 25-50%, enz.'
+title: 'Groepering: Taakpercentage Uitsplitsing 1'
+description: 'In deze groepering van douaneproject, kunt u projecten tonen die door een waaier van hun percenten volledige waarden worden gegroepeerd. De uitsplitsingen geven het percentage aan dat de volledige waarde is in stappen van 25 procentpunten: 0-25%, 25-50% enzovoort.'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ddb9496c-9347-4dc9-a4ce-b9017abd0bb2

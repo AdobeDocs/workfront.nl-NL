@@ -2,7 +2,7 @@
 content-type: reference
 product-area: projects
 navigation-topic: create-and-manage-projects
-title: "Werk aan een project bij: artikelindex"
+title: 'Werk aan een project bij: artikelindex'
 description: Als u de status en de voortgang van een project wilt bijwerken, moet u de status en de voortgang van de taken bijwerken. Dat rolt uiteindelijk omhoog om de vooruitgang op het project te tonen.
 author: Alina
 feature: Work Management

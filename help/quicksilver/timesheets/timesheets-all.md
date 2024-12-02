@@ -2,7 +2,7 @@
 content-type: reference
 product-area: timesheets
 navigation-topic: timesheets-navigation-topic
-title: "Timesheets: artikelindex"
+title: 'Timesheets: artikelindex'
 description: Meer informatie over het maken, bewerken, goedkeuren en beheren van tijdbladen, tijdbladprofielen en uurtypen vindt u in de volgende secties.
 author: Alina
 feature: Timesheets

@@ -4,7 +4,7 @@ content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
 title: 'Workfront Fusion release activity: Week van 19 september 2022'
-description: Deze pagina bevat een beschrijving van alle verbeteringen die in Adobe Workfront Fusion in de week van 19 september 2022 zijn aangebracht.
+description: Op deze pagina worden alle verbeteringen beschreven die in Adobe Workfront Fusion in de week van 19 september 2022 zijn aangebracht.
 author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
@@ -17,27 +17,27 @@ ht-degree: 0%
 
 ---
 
-# Workfront Fusion-releaseactiviteit: week van 19 september 2022
+# Workfront Fusion release activity: Week van 19 september 2022
 
-## Adobe Journey Optimizer-connector en -modules nu beschikbaar
+## Adobe Journey Optimizer-connector en modules nu beschikbaar
 
-Nu kunt u Workfront Fusion koppelen aan uw Adobe Journey Optimizer-account.
+Nu kunt u Workfront Fusion verbinden met uw Adobe Journey Optimizer-account.
 
 Met de Adobe Journey Optimizer-modules kunt u:
 * Records maken, lezen, bijwerken en verwijderen in Adobe Journey Optimizer
-* Adobe Journey Optimizer-records zoeken aan de hand van criteria die u opgeeft
-* Een aangepaste API-aanroep maken naar de Adobe Journey Optimizer API
+* Zoeken naar Adobe Journey Optimizer-records aan de hand van criteria die u opgeeft
+* Een aangepaste API-aanroep naar de Adobe Journey Optimizer API maken
 
-Voor meer informatie, zie [ Modules van Adobe Journey Optimizer ](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md).
+Voor meer informatie, zie {de Modules van 0} Adobe Journey Optimizer ](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md).[
 
-## Adobe Campaign Classic-connector en -modules nu beschikbaar
+## Adobe Campaign Classic-connector en modules nu beschikbaar
 
-Nu kunt u Workfront Fusion koppelen aan uw Adobe Campaign Classic-account.
+Nu kunt u Workfront Fusion verbinden met uw Adobe Campaign Classic-account.
 
 Met de Adobe Campaign Classic-modules kunt u:
 * Records maken, lezen, bijwerken en verwijderen in Adobe Campaign Classic
-* Abonneren op of zich afmelden bij een informatieservice
-* Een handeling uitvoeren vanuit de Adobe Campaign API
-* Een aangepaste API-aanroep maken naar de Adobe Campaign Classic API
+* Abonneren op of afmelden bij een informatieservice
+* Een handeling uitvoeren via de Adobe Campaign API
+* Een aangepaste API-aanroep naar de Adobe Campaign Classic API maken
 
 Voor meer informatie, zie [ modules van Adobe Campaign Classic ](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md).

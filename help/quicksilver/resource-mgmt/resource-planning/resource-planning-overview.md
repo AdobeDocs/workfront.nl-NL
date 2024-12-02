@@ -2,7 +2,7 @@
 content-type: reference;overview
 product-area: resource-management
 navigation-topic: resource-management-navigation-topic
-title: "Resource Planning: article index"
+title: 'Bronnen plannen: artikelindex'
 description: De artikelen in deze sectie bevatten informatie over de functionaliteit in de secties Planner en Resource Pools van het gebied Bronnen van Adobe Workfront.
 author: Lisa
 feature: Resource Management

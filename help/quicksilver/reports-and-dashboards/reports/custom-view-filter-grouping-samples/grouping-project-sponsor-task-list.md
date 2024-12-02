@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Grouping: Projectsponsor voor een Taaklijst'
+title: 'Groepering: Projectsponsor voor een Taaklijst'
 description: Met deze taakgroep kunt u taken groeperen op basis van de projectsponsor.
 author: Nolan
 feature: Reports and Dashboards

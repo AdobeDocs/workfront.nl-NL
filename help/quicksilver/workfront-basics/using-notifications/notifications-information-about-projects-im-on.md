@@ -1,7 +1,7 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: "Meldingen: Informatie over projecten waar ik aan sta"
+title: 'Meldingen: Informatie over projecten waar ik op sta'
 description: In de volgende meldingen wordt u gewaarschuwd voor activiteiten in projecten waaraan u werkt.
 author: Lisa
 feature: Get Started with Workfront

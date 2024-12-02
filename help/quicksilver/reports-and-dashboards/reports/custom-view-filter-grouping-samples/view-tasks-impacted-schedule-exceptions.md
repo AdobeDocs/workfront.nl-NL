@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Mening: Taken beïnvloed door de Uitzonderingen van het Programma"
+title: 'Weergave: taken die door de uitzonderingen van het Programma worden beïnvloed'
 description: Deze taakmening identificeert taken die wegens weekends, Persoonlijke Tijd weg, of andere planningsuitzonderingen moeten te voltooien.
 author: Nolan
 feature: Reports and Dashboards

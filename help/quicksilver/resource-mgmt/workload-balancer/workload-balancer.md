@@ -2,7 +2,7 @@
 content-type: reference
 product-area: resource-management
 navigation-topic: resource-management-navigation-topic
-title: "De werklastbalans: artikelindex"
+title: 'Werklastbalans: artikelindex'
 description: De werklastbalans is een hulpprogramma voor het plannen van bronnen in Adobe Workfront waarmee u taken en problemen kunt toewijzen aan bronnen van uw personeel.
 author: Lisa
 feature: Resource Management

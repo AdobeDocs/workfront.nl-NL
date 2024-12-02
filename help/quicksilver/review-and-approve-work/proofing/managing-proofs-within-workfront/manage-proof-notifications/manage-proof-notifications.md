@@ -2,7 +2,7 @@
 content-type: reference
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
-title: "Proofingmeldingen beheren: artikelindex"
+title: 'Proefdrukmeldingen beheren: artikelindex'
 description: Meldingen beheren voor proefopmerkingen en -beslissingen
 author: Courtney
 feature: Digital Content and Documents

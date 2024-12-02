@@ -2,7 +2,7 @@
 content-type: overview;reference
 product-area: documents
 navigation-topic: documents-navigation-topic
-title: "Documenten: artikelindex"
+title: 'Documenten: artikelindex'
 description: Leer hoe u documenten kunt gebruiken.
 author: Courtney
 feature: Digital Content and Documents

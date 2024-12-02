@@ -3,7 +3,7 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: 'Workfront Fusion release activity: Week van 11 januari 2021'
+title: 'Workfront Fusion releaseactiviteit: week van 11 januari 2021'
 description: Op deze pagina worden alle verbeteringen beschreven die in Adobe Workfront Fusion in de week van 11 januari 2021 zijn aangebracht.
 author: Luke
 feature: Product Announcements, Workfront Fusion
@@ -44,7 +44,7 @@ U kunt nu Workfront Fusion gebruiken om verbinding te maken met uw Datadog-accou
 
 Met de Datadog-modules kunt u:
 
-* Post-tijdlijnpunten
+* Navolgende tijdlijnpunten
 * Een aangepaste API-aanroep uitvoeren
 
 Voor informatie over modules Datadog, zie [ modules DataHond ](../../../workfront-fusion/apps-and-their-modules/datadog-modules.md).
@@ -66,13 +66,13 @@ Voor informatie over beschikbare modules van de Gebeurtenis, zie {de modules van
 
 ## Microsoft Dynamics 365-connector en -modules nu beschikbaar
 
-U kunt nu Workfront Fusion 2.0 gebruiken om verbinding te maken met uw Microsoft Dynamics 365-account. Met de modules Microsoft Dynamics 365 kunt u:
+U kunt nu Workfront Fusion 2.0 gebruiken om verbinding te maken met uw Microsoft Dynamics 365-account. Met de Microsoft Dynamics 365-modules kunt u:
 
 * Een scenario activeren wanneer records worden toegevoegd of bijgewerkt in Microsoft Dynamics 365
-* Een Microsoft Dynamics 365-record maken, lezen, bijwerken of verwijderen
+* Microsoft Dynamics 365-records maken, lezen, bijwerken of verwijderen
 * Een aangepaste API-aanroep uitvoeren
 
-Voor informatie over de beschikbare Dynamica 365 modules van Microsoft, zie {de Dynamica 365 modules van 0} Microsoft ](../../../workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md).[
+Voor informatie over beschikbare Microsoft Dynamics 365 modules, zie [ Microsoft Dynamics 365 modules ](../../../workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md).
 
 ## DocuSign-connector en -modules nu beschikbaar
 

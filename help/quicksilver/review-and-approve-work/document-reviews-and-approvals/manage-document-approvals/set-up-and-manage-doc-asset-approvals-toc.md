@@ -2,7 +2,7 @@
 content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: 'Assets- en documentgoedkeuringen instellen en beheren: artikelindex'
+title: 'Middelen- en documentgoedkeuringen instellen en beheren: artikelindex'
 description: Deze sectie bevat artikelen over het beheer van asset- en documentgoedkeuringen in Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents

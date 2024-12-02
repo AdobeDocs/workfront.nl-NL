@@ -4,7 +4,7 @@ content-type: release-notes
 product-area: workfront-integrations
 keywords: update
 navigation-topic: fusion-release-activity
-title: "Workfront Fusion release activity: Week 28 juni 2021"
+title: 'Workfront Fusion release activity: Week van 28 juni 2021'
 description: Op deze pagina worden alle verbeteringen beschreven die in Adobe Workfront Fusion in de week van 28 juni 2021 zijn aangebracht.
 author: Luke
 feature: Product Announcements, Workfront Fusion
@@ -26,13 +26,13 @@ Voor een lijst van alle recente veranderingen, zie [ de versieactiviteit van de 
 
 Voor een lijst van recente insectenmoeilijke situaties in de Fusie van Workfront, zie de [ pagina van de Updates van het Onderhoud van Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) en controleer om het even welke updates geëtiketteerd de Update van het Onderhoud van de Fusie van Workfront.
 
-## Nieuwe zoekmodule in de Salesforce-connector
+## Nieuwe zoekmodule in Salesforce-connector
 
-Om het eenvoudiger te maken om voorwerpen te zoeken Salesforce, hebben wij een andere onderzoeksmodule aan de schakelaar van Salesforce toegevoegd. Nu in plaats van het ingaan van een vraag van SOSL of SOQL, kunt u de module van het Onderzoek gebruiken om een vraag tot stand te brengen gebruikend drop-down menu&#39;s. Dit nieuwe zoekfilter lijkt op filterfunctionaliteit in andere gebieden van Workfront Fusion.
+Om het eenvoudiger te maken om Salesforce-objecten te doorzoeken, hebben we nog een zoekmodule toegevoegd aan de Salesforce-connector. Nu in plaats van het ingaan van een vraag van SOSL of SOQL, kunt u de module van het Onderzoek gebruiken om een vraag tot stand te brengen gebruikend drop-down menu&#39;s. Dit nieuwe zoekfilter lijkt op filterfunctionaliteit in andere gebieden van Workfront Fusion.
 
 Als u verkiest om de vragen in te gaan zelf, kunt u de eerder bestaande functionaliteit in het Onderzoek met de module van de Vraag gebruiken.
 
-Voor meer informatie, [ modules Salesforce ](../../../workfront-fusion/apps-and-their-modules/salesforce-modules.md).
+Voor meer informatie, [ modules van Salesforce ](../../../workfront-fusion/apps-and-their-modules/salesforce-modules.md).
 
 ## Filteren op abonnementen voor gebeurtenissen is beschikbaar in de module Workfront > Watch records
 

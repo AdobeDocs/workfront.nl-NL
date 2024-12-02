@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting
 navigation-topic: reports
-title: "Text Mode resources: article index"
+title: 'Tekstmodusbronnen: artikelindex'
 description: Bronnen voor tekstmodus
 author: Nolan
 feature: Reports and Dashboards

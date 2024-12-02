@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Grouping: Taakgroepering op vier niveaus voor eigenaar van Portfolio, eigenaar van programma, eigenaar van project en status project'
+title: 'Groepering: Taakgroepering op vier niveaus voor eigenaar van Portfolio, eigenaar van programma, eigenaar van project en status van project'
 description: Deze taakgroepering verstrekt 4 niveaus van Groepering. In dit geval worden de taken gegroepeerd door de eigenaar van het Portfolio, de programmaeigenaar, de eigenaar van het project en de projectstatus. U kunt slechts tot 3 niveaus van Groepering hebben gebruikend de standaardinterface. Als u een vierde niveau wilt toevoegen, moet u Tekstmodus gebruiken. U kunt rapporten niet groeperen met meer dan 4 criteria tezelfdertijd.
 author: Nolan
 feature: Reports and Dashboards

@@ -2,7 +2,7 @@
 content-type: reference
 product-area: documents
 navigation-topic: proofing-in-workfront-navigation-topic
-title: "Proefbestanden beheren in Adobe Workfront: artikelindex"
+title: 'Proefbestanden beheren in Adobe Workfront: artikelindex'
 description: Leer hoe u proefdrukken beheert in Adobe Workfront.
 author: Courtney
 feature: Digital Content and Documents

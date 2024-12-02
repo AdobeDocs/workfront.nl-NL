@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Weergave: Naam van bovenliggende taken weergeven als Alle hoofdletters'
+title: 'Weergeven: Naam van bovenliggende taken weergeven als Alle hoofdletters'
 description: U kunt deze kolom aan een taakmening toevoegen om de naam van de oudertaken in alle hoofdletters te tonen.
 author: Nolan
 feature: Reports and Dashboards

@@ -2,7 +2,7 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Tekstmodus in een groep bewerken
-description: 'OPMERKING: alle FVG-artikelen gelijk maken voor bewerking in tekstmodus)'
+description: 'OPMERKING: alle FVG-artikelen gelijk maken voor bewerking in tekstmodus'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf

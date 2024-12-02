@@ -3,7 +3,7 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;user-management
 navigation-topic: manage-groups
-title: "Groepen: artikelindex"
+title: 'Groepen: Artikelindex'
 description: Groepen zijn vergelijkbaar met maar verschillen van teams en bedrijven. De beheerder van Workfront verleent groepen de toegang tot de gebieden van Workfront waar zij moeten werken en communiceren.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups

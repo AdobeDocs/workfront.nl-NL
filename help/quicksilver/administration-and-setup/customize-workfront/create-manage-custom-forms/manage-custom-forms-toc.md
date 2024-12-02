@@ -1,5 +1,5 @@
 ---
-title: "Aangepaste Forms en velden beheren: artikelindex"
+title: 'Aangepaste Forms en velden beheren: artikelindex'
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms

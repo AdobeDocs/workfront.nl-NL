@@ -1,7 +1,7 @@
 ---
 content-type: reference
 navigation-topic: get-started-with-workfront
-title: "Gebruik meldingen: artikelindex"
+title: 'Meldingen gebruiken: artikelindex'
 description: Lees deze artikelen voor meer informatie over het gebruik van berichten in Adobe Workfront.
 author: Nolan
 feature: Get Started with Workfront

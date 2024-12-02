@@ -2,7 +2,7 @@
 content-type: reference
 product-area: projects
 navigation-topic: tasks
-title: "Taakbeperkingen: artikelindex"
+title: 'Taakbeperkingen: artikelindex'
 description: De Beperkingen van de taak bepalen wanneer een taak op een project zou moeten beginnen en eindigen. U kunt verscheidene Beperkingen van de Taak gebruiken om erop te wijzen wanneer een taak zou moeten beginnen en beëindigen. Raadpleeg de volgende artikelen voor meer informatie over alle Taakbeperkingen in Workfront.
 author: Alina
 feature: Work Management

@@ -1,5 +1,5 @@
 ---
-title: "Adobe Workfront Planning Notifications: Article Index"
+title: 'Adobe Workfront-planningsberichten: artikelindex'
 description: U kunt een e-mail- of een bericht in de app ontvangen wanneer iemand u in een recordopmerking van tags voorziet, of u om machtigingen vraagt of verleent aan een weergave of werkruimte. In de volgende artikelen wordt het type Workfront-planningsmeldingen beschreven dat u kunt ontvangen en hoe u uw berichtgevingsvoorkeuren kunt beheren.
 author: Alina
 feature: Workfront Planning

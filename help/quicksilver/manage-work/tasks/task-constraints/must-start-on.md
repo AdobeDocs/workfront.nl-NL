@@ -2,7 +2,7 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: 'Overzicht van taakbeperking: moet beginnen op'
+title: 'Overzicht van taakbeperking: moet worden gestart'
 description: Gebruik moet aan (MSO) de Beperking van de Taak beginnen om een taak te plannen om precies op een specifieke datum te beginnen.
 author: Alina
 feature: Work Management

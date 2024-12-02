@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Grouping: Taken per Portfolio, programma en project'
+title: 'Groeperen: Taken door Portfolio, Programma, en Project'
 description: Gebruik deze taakgroep om taken te groeperen door de portefeuille, door programma, en dan door het project zij met worden geassocieerd.
 author: Nolan
 feature: Reports and Dashboards

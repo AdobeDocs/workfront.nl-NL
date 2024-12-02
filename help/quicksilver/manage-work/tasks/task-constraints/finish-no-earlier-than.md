@@ -2,7 +2,7 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: '''Overzicht van taakbeperking: op ''Geen eerdere manier voltooien'''
+title: 'Overzicht van taakbeperking: voltooien niet eerder dan'
 description: Eindigen Neen vroeger dan (FNET) is een Restrictie van de Taak die een taak plant na de datum te voltooien u specificeert.
 author: Alina
 feature: Work Management

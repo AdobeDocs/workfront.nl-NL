@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: 2020-2-release-activity
-title: '2020.2 Verbeteringen voor hulpbronnenbeheer: de werklastbalans'
+title: '2020.2 Verbeteringen voor bronnenbeheer: de werklastbalans'
 description: Deze pagina beschrijft alle verbeteringen van het Beheer van het Middel die met versie 2020.2 aan het milieu van de Productie worden aangebracht. Deze verbeteringen zijn in de productieomgeving beschikbaar gesteld in de week van 11 mei 2020.
 author: Luke
 feature: Product Announcements

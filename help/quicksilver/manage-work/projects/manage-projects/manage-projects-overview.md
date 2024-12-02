@@ -2,7 +2,7 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: create-and-manage-projects
-title: "Projecten beheren: artikelindex"
+title: 'Projecten beheren: artikelindex'
 description: Meer informatie over het beheren van projecten vindt u in de volgende artikelen.
 author: Alina
 feature: Work Management

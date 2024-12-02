@@ -3,7 +3,7 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Groeperen: geef aan of de resultaten van een groepering moeten worden samengevouwen of uitgevouwen met de tekstmodus'
-description: 'Groeperen: aangeven of de resultaten van een groepering moeten worden samengevouwen of uitgevouwen in tekstmodus'
+description: 'Groeperen: geeft aan of de resultaten van een groepering moeten worden samengevouwen of uitgevouwen met de tekstmodus'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2880e06f-34f3-47b1-9462-5a15a20d6fee

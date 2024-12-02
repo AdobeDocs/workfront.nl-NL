@@ -2,7 +2,7 @@
 content-type: reference
 product-area: calendars
 navigation-topic: reports
-title: "Kalenders: artikelindex"
+title: 'Kalenders: artikelindex'
 description: Een kalenderrapport is een dynamisch rapport dat een visuele vertegenwoordiging van uw werk verstrekt. U kunt datuminformatie in een kalenderrapport weergeven voor projecten, taken en problemen. Bekijk deze artikelen om inzicht te krijgen in kalenderrapporten in Adobe Workfront.
 author: Lisa
 feature: Reports and Dashboards

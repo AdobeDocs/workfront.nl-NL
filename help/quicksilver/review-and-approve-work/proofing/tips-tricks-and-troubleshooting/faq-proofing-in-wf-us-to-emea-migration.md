@@ -2,7 +2,7 @@
 content-type: tips-tricks-troubleshooting
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-proofing-within-workfront
-title: 'Veelgestelde vragen: proefdrukken in Adobe Workfront - migratie van VS naar EMEA'
+title: 'Veelgestelde vragen: proefdrukken in Adobe Workfront - VS naar EMEA-migratie'
 description: Adobe Workfront neemt rechtstreeks contact op met alle organisaties die betrokken zijn bij de migratie van Workfront Proof US naar EMEA.
 author: Courtney
 feature: Digital Content and Documents

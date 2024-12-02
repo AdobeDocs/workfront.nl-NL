@@ -3,7 +3,7 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: "Workfront Fusion release activity: Week van 21 juni 2021"
+title: 'Workfront Fusion release activity: Week van 21 juni 2021'
 description: Op deze pagina worden alle verbeteringen beschreven die in Adobe Workfront Fusion in de week van 21 juni 2021 zijn aangebracht.
 author: Luke
 feature: Product Announcements, Workfront Fusion

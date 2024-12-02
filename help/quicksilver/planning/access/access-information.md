@@ -1,5 +1,5 @@
 ---
-title: "Adobe Workfront Planning Access Information: Article Index"
+title: 'Adobe Workfront Planning Access Information: Article Index'
 description: Als Workfront-beheerder moet u toegang geven tot uw gebruikers om Adobe Workfront Planning te kunnen gebruiken. De volgende artikelen bevatten informatie over welke toegang uw gebruikers nodig hebben om de Planning van Workfront te gebruiken evenals om toestemmingen te verzoeken en te verlenen wanneer de gebruikers geen toegang hebben.
 author: Alina
 feature: Workfront Planning

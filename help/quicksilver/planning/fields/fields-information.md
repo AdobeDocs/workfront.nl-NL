@@ -1,5 +1,5 @@
 ---
-title: "Fields: Article index"
+title: 'Velden: artikelindex'
 description: U kunt nieuwe gebieden in de Planning van Adobe Workfront toevoegen die op de levenscyclus van uw organisatie wijzen. Velden zijn kenmerken van recordtypen.
 feature: Workfront Planning
 role: User, Admin

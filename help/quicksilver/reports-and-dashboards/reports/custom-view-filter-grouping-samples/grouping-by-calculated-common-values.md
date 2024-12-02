@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Groeperen: lijstresultaten ordenen met een berekende waarde die wordt gedeeld door alle objecten in de groepering'
+title: 'Groeperen: lijstresultaten ordenen met een berekende waarde die wordt gedeeld door alle objecten in de groep'
 description: U zou uw taken kunnen willen bekijken die door Percentage wordt gegroepeerd Voltooien in waaiers van 0-25, 26-50, 51-75, 75-99, en 100. Hiervoor kunt u een groepering maken in de tekstmodus.
 author: Nolan
 feature: Reports and Dashboards

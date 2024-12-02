@@ -2,7 +2,7 @@
 content-type: reference
 product-area: documents
 navigation-topic: review-proofs-within-workfront
-title: "Beslissen op een bewijs: artikelindex"
+title: 'Beslissen op een bewijs: artikelindex'
 description: Een bewijs goedkeuren
 author: Courtney
 feature: Digital Content and Documents

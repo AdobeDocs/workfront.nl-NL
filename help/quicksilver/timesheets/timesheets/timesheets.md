@@ -2,7 +2,7 @@
 content-type: reference
 product-area: timesheets
 navigation-topic: timesheets-navigation-topic
-title: "Timesheet details: article index"
+title: 'Tijdlijndetails: artikelindex'
 description: Meer informatie over tijdbladen en hun lay-out vindt u in de volgende artikelen.
 author: Alina
 feature: Timesheets

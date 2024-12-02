@@ -1,5 +1,5 @@
 ---
-title: "Adobe Workfront Planning Requests: Article Index"
+title: 'Adobe Workfront-planningsverzoeken: artikelindex'
 description: U kunt voor elk recordtype een aanvraagformulier maken, dit delen met gebruikers en nieuwe records toevoegen door het formulier in te vullen en te verzenden.
 feature: Workfront Planning
 role: User, Admin

@@ -2,7 +2,7 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-duration
-title: 'Overzicht van het type Duur: de geleverde inspanning'
+title: 'Overzicht van het Duur Type: Door de inspanning gestuurde'
 description: Geforceerde inspanning is een duurtype dat u voor een taak in Adobe Workfront kunt plaatsen. Voor algemene informatie over de Types van Duur in Workfront, zie Overzicht van het Type van Duur en van de Duur van de Taak.
 author: Alina
 feature: Work Management

@@ -3,7 +3,7 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: workfront-proof-navigation-topic
-title: "Aan de slag met  [!DNL Workfront Proof]: artikelindex"
+title: 'Aan de slag met  [!DNL Workfront Proof] : artikelindex'
 description: Leer hoe je aan de slag kunt met Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents

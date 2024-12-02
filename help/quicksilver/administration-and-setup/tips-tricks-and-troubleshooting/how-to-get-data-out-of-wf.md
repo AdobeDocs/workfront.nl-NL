@@ -3,7 +3,7 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: "Historische gegevens exporteren uit Adobe Workfront: Pros en Cons"
+title: 'Historische gegevens exporteren uit Adobe Workfront: Pros en Cons'
 description: In dit artikel worden de voor- en nadelen beschreven van vier opties die u kunt gebruiken om historische gegevens uit Workfront te exporteren.
 author: Lisa
 feature: System Setup and Administration

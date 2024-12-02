@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
 title: Een herinneringsmelding aan een object koppelen
-description: "U kunt herinneringsberichten met verscheidene verschillende objecten types associëren: Projecten, Taken, Kwesties, Tijdopnamen, Malplaatjes, de Taken van het Malplaatje, en het Terugkeren de Profielen van de Chronologie."
+description: 'U kunt herinneringsberichten met verscheidene verschillende objecten types associëren: Projecten, Taken, Kwesties, Tijdopnamen, Malplaatjes, de Taken van het Malplaatje, en het Terugkeren de Profielen van de Chronologie.'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: ea04d807-1a9f-4a23-96de-cd83f0821ba0

@@ -2,7 +2,7 @@
 content-type: reference
 product-area: projects
 navigation-topic: get-started-with-workfront
-title: "Werkitems bijwerken en updates weergeven: artikelindex"
+title: 'Werkitems bijwerken en updates weergeven: artikelindex'
 description: U kunt de sectie Updates van de meeste voorwerpen gebruiken om commentaren en antwoorden toe te voegen, of systeem-bijgehouden updates over veranderingen te volgen die op het voorwerp plaatsvinden.
 author: Alina
 feature: Get Started with Workfront

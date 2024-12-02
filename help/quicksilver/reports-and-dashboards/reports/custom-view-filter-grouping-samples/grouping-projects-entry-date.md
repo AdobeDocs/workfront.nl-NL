@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Groepering: projecten op ingangsdatum"
+title: 'Groepering: projecten op ingangsdatum'
 description: In deze aangepaste projectgroep kunt u projecten weergeven die zijn gegroepeerd op hun entry-datumwaarden.
 author: Nolan
 feature: Reports and Dashboards

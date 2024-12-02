@@ -2,7 +2,7 @@
 content-type: overview;reference
 product-area: portfolios
 navigation-topic: projects-navigation-topic
-title: "Beheer van Portfolio's: artikelindex"
+title: 'Beheer van Portfolio''s: artikelindex'
 description: Een Portfolio is een inzameling van projecten die verenigende eigenschappen hebben. Meer informatie over portfoliobeheer vindt u in de volgende secties.
 author: Alina
 feature: Work Management, Strategic Planning

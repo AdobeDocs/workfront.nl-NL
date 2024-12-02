@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting
 navigation-topic: reports
-title: "Voorbeelden van aangepaste weergaven, filters en groepen: artikelindex"
+title: 'Voorbeelden van aangepaste weergaven, filters en groepen: artikelindex'
 description: Deze sectie bevat voorbeelden van aangepaste weergaven, filters en groepen die u kunt gebruiken in uw Adobe Workfront-account.
 author: Nolan
 feature: Reports and Dashboards

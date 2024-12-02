@@ -3,7 +3,7 @@ content-type: reference
 product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Groepering: Home Group of Project Owner in a List of Hours'
-description: U kunt de naam van de thuisgroep van de projecteigenaar weergeven in een lijst of rapport in een uur.
+description: U kunt de naam van de Groep van het Huis van de Eigenaar van het Project in een lijst of een rapport van het Uur tonen.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6491ab9b-c09e-4bdb-99c2-56bb44f66947
@@ -26,7 +26,7 @@ De groepering groepeert ook de resultaten door de naam van de Eigenaar van het P
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de toegangsvereisten voor de functionaliteit in dit artikel weer te geven.
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -35,7 +35,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-lidmaatschap</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
@@ -47,20 +47,20 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <p>Huidige:</p>
    <ul><li><p>Verzoek om een filter te wijzigen </p></li>
-   <li><p>Overgaan tot wijziging van een rapport</p></li> </ul></td> 
+   <li><p>Plan om een rapport te wijzigen</p></li> </ul></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>Toegang tot rapporten, dashboards en kalenders bewerken om een rapport te wijzigen</p> <p>Toegang tot filters, weergaven en groepen bewerken om een filter te wijzigen</p> </td> 
+   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een rapport te wijzigen</p> <p>Toegang tot filters, weergaven en groepen bewerken om een filter te wijzigen</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen voor een rapport beheren</p>  </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -69,7 +69,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 Deze groep toepassen:
 
 1. Ga naar een lijst met uren.
-1. Van het **drop-down menu van de Groepering**, uitgezochte **Nieuwe Groepering**.
+1. Van **het Groeperen** drop-down menu, uitgezochte **Nieuwe Groepering**.
 
 1. Klik **Schakelaar aan de Wijze van de Tekst**.
 1. Verwijder de tekst in de **Groep door** gebied.

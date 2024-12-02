@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
-title: "E-mailmeldingen: artikelindex"
+title: 'E-mailmeldingen: artikelindex'
 description: Als Adobe Workfront-beheerder kunt u de gebeurtenismeldingen, herinneringsmeldingen en e-mailsjablonen voor uw gebruikers configureren.
 author: Nolan
 feature: System Setup and Administration

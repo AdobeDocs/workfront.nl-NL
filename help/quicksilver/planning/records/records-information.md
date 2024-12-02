@@ -1,5 +1,5 @@
 ---
-title: "Records: Article Index"
+title: 'Registers: artikelindex'
 description: Nadat u recordtypes in de Planning van Adobe Workfront creeert kunt u individuele verslagen van die types tot stand brengen. In de volgende artikelen wordt beschreven hoe u records en de bijbehorende informatie kunt maken en beheren in Adobe Workfront Planning.
 author: Alina
 feature: Workfront Planning

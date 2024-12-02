@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Weergeven: problemen met het oplossen van objectdetails'
+title: 'Weergeven: Problemen met het oplossen van objectdetails'
 description: In deze weergave worden de naam en het percentage weergegeven dat is voltooid met het object dat het probleem heeft opgelost, zodat de maker van het probleem inzicht heeft in de voortgang van het probleem, zelfs zonder toegang tot de taak of het project die het probleem heeft opgelost.
 author: Nolan
 feature: Reports and Dashboards

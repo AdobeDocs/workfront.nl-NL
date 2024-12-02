@@ -3,7 +3,7 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: "Workfront Fusion release activity: Week van 3 mei 2021"
+title: 'Workfront Fusion release activity: Week van 3 mei 2021'
 description: Op deze pagina worden alle verbeteringen beschreven die in Adobe Workfront Fusion in de week van 3 mei 2021 zijn aangebracht.
 author: Luke
 feature: Product Announcements, Workfront Fusion
@@ -25,11 +25,11 @@ Voor een lijst van alle recente veranderingen, zie [ de versieactiviteit van de 
 
 Voor een lijst van recente insectenmoeilijke situaties in de Fusie van Workfront, zie de [ pagina van de Updates van het Onderhoud van Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) en controleer om het even welke updates geëtiketteerd de Update van het Onderhoud van de Fusie van Workfront.
 
-## De Salesforce-connector kan nu zoeken met SOQL
+## Salesforce-connector kan nu zoeken met SOQL
 
-In de module Salesforce > Zoeken naar records kunt u nu zoeken met SOQL (Salesforce Object Query Language). U kunt ook zoeken met de eerder beschikbare opties (SOSL en eenvoudige zoekopdrachten).
+De module Salesforce > Zoeken naar records heeft nu de optie om te zoeken met SOQL (Salesforce Object Query Language). U kunt ook zoeken met de eerder beschikbare opties (SOSL en eenvoudige zoekopdrachten).
 
-Voor meer informatie, zie {de modules van 0} Salesforce ](../../../workfront-fusion/apps-and-their-modules/salesforce-modules.md).[
+Voor meer informatie, zie [ modules van Salesforce ](../../../workfront-fusion/apps-and-their-modules/salesforce-modules.md).
 
 ## Voor een nieuw verbindingstype in de Azure DevOps-connector is minder bereik vereist
 

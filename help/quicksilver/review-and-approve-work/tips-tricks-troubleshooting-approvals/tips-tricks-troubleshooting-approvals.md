@@ -1,5 +1,5 @@
 ---
-title: "Tips, trucs en probleemoplossing voor goedkeuringen: artikelindex"
+title: 'Tips, trucs en probleemoplossing voor goedkeuringen: artikelindex'
 description: Tips, trucs en probleemoplossing voor goedkeuringen
 author: Courtney
 draft: Probably

@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Weergeven: details van vorige versie'
+title: 'Weergave: vorige details'
 description: Deze taakmening toont details van predecessors van de taken gebruikend een inzamelingsmening. In een verzamelingsweergave kunt u informatie weergeven over objecten die een 'een-op-veel'-relatie hebben. In dit geval kan elke taak (één) meerdere voordecessors (vele) hebben. De weergave bevat de naam van de taken, de namen van de voorgangers, de projectnamen van de voorgangers, de geplande afsluitdatums van de voorgangers en de statussen van de voorgangers.
 author: Nolan
 feature: Reports and Dashboards

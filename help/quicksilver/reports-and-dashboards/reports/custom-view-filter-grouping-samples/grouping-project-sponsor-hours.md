@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Grouping: Projectsponsor voor uren"
+title: 'Groeperen: projectsponsor voor uren'
 description: Deze uurgroepering organiseert uren door de sponsor van het project waar de uren worden geregistreerd. De standaardinterface van de rapportbouwer voor uurgroepen verstrekt geen afbeelding aan het gebied van de Sponsor van het Project. U moet de interface van de Wijze van de Tekst gebruiken om tot dit gebied toegang te hebben.
 author: Nolan
 feature: Reports and Dashboards

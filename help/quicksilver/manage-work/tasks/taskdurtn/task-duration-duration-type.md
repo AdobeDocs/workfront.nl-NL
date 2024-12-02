@@ -2,7 +2,7 @@
 content-type: reference
 product-area: projects
 navigation-topic: tasks
-title: "De Duur en de Types van Duur van de Taak: artikelindex"
+title: 'Duur en duur van taak: artikelindex'
 description: Het Type van Duur van een taak identificeert het verband tussen het aantal middelen die aan een taak, de totale inspanning, en de totale Duur van de taak worden toegewezen. In de volgende artikelen vindt u meer informatie over de duur en het type duur van taken.
 author: Alina
 feature: Work Management

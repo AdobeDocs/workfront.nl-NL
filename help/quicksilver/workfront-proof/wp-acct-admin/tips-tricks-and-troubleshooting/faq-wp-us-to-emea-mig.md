@@ -3,7 +3,7 @@ content-type: tips-tricks-troubleshooting
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: tips-tricks-and-troubleshooting-account-administration-workfront-proof
-title: '"Veelgestelde vragen: Workfront Proof - migratie naar EMEA'
+title: 'Veelgestelde vragen: Workfront Proof - VS naar EMEA migratie'
 description: Workfront neemt rechtstreeks contact op met alle organisaties die betrokken zijn bij de migratie van Workfront Proof US naar EMEA.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents

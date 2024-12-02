@@ -2,7 +2,7 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: tasks
-title: "Taken maken: artikelindex"
+title: 'Taken maken: artikelindex'
 description: U kunt taken in een specifiek project tot stand brengen.
 author: Alina
 feature: Work Management

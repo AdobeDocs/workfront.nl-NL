@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Mening: De Variantie van de Basislijn voor Duur en Geplande Werk in een Mening van de Taak"
+title: 'Weergave: Variantie basislijn voor duur en Gepland werk in een taakweergave'
 description: Bekijk de basislijnvariantie voor Duur en Gepland werk.
 author: Nolan
 feature: Reports and Dashboards

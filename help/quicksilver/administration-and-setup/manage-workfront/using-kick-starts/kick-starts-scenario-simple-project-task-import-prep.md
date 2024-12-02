@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;projects
 keywords: kickstart,trap-start,kickstart,trap-start
 navigation-topic: use-kick-starts
-title: "Kick-start Scenario: Eenvoudige voorbereiding van project- en taakimport"
+title: 'Kick-start Scenario: Eenvoudige voorbereiding van project- en taakimport'
 description: Beschrijft in detail de beschikbare montages en de controles voor een basisProject en de Invoer van de Taak gebruikend de methode van het Begin van de Kick.
 author: Lisa
 feature: System Setup and Administration

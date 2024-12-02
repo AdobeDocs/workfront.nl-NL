@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Weergave: een lijst met taakopvolgers toevoegen in een kolom'
+title: 'Weergave: een lijst met taakopvolgers toevoegen aan een kolom'
 description: U kunt een kolom aan een taakmening toevoegen om een lijst van de opvolgers van de taken te tonen. De kolom Opvolgers van de Taak omvat het aantal van de opvolger evenals de naam.
 author: Nolan
 feature: Reports and Dashboards

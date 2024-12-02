@@ -2,7 +2,7 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
-title: '''Praktische scenario''s maken: artikelindex'''
+title: 'Praktische scenario''s maken: artikelindex'
 description: Volg deze voorbeelden om te leren hoe u scenario's maakt in Adobe Workfront Fusion
 author: Becky
 feature: Workfront Fusion

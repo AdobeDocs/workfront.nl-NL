@@ -1,6 +1,6 @@
 ---
 navigation-topic: get-started-with-workfront
-title: "Prioriteiten: komende releases"
+title: 'Prioriteiten: komende releases'
 description: Informatie weergeven over aanstaande Prioriteitsreleases
 author: Courtney
 feature: Get Started with Workfront

@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'View: Issues with the Company Name of the Originator'
+title: 'Weergave: problemen met de bedrijfsnaam van de maker'
 description: In deze weergave wordt de bedrijfsnaam weergegeven van de gebruiker die de uitgave heeft verzonden.
 author: Nolan
 feature: Reports and Dashboards

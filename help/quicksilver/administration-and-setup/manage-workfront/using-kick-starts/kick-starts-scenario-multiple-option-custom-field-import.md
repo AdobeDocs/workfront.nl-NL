@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: kickstart,trap-start,kickstart,trap-start
 navigation-topic: use-kick-starts
-title: "Kick-start Scenario: Velden met meerdere opties importeren in Workfront"
+title: 'Kick-startscenario: aangepaste velden met meerdere opties importeren in Workfront'
 description: U kunt aangepaste velden met meerdere opties in Adobe Workfront importeren met de functie Kick-Start.
 author: Lisa
 feature: System Setup and Administration

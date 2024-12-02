@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Weergave: brongegevens van uitgave voor taken en projecten'
+title: 'Weergave: details van oorsprong van uitgave voor taken en projecten'
 description: Wanneer een kwestie in een taak of een project wordt omgezet wordt een het oplossen van objecten verhouding gevestigd tussen de taak of het project en de kwestie. In deze weergave worden de velden van de uitgave weergegeven die automatisch worden voltooid wanneer de taak of het project is voltooid.
 author: Nolan
 feature: Reports and Dashboards

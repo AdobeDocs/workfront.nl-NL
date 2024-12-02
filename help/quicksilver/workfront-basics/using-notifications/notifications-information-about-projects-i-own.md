@@ -1,7 +1,7 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: "Meldingen: Informatie over projecten die ik bezit"
+title: 'Meldingen: Informatie over projecten die ik bezit'
 description: In de volgende berichten wordt u gewaarschuwd voor activiteiten die plaatsvinden in een project dat u hebt. Zie Uw eigen e-mailmeldingen wijzigen voor informatie over het configureren van de berichten die u ontvangt.
 author: Lisa
 feature: Get Started with Workfront

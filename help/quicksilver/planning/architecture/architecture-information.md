@@ -1,5 +1,5 @@
 ---
-title: "Architectuur: artikelindex"
+title: 'Architectuur: artikelindex'
 description: De volgende artikelen beschrijven hoe u de architectuur van de Planning van Adobe Workfront kunt vormen. Als onderdeel van deze configuratie leert u hoe u werkruimten, recordtypen en aangepaste velden maakt om de workflows die u wilt beheren in Workfront Planning in kaart te brengen.
 author: Alina
 feature: Workfront Planning

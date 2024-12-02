@@ -1,7 +1,7 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: "Meldingen: Delegatie"
+title: 'Meldingen: Delegatie'
 description: In de volgende kennisgevingen wordt u op de hoogte gebracht van uw taak en worden delegaties of andere delegaties voor u in Adobe Workfront gepubliceerd.
 author: Lisa
 feature: Get Started with Workfront

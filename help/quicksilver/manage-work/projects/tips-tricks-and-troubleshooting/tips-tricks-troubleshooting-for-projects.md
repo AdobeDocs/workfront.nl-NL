@@ -1,5 +1,5 @@
 ---
-title: "Tips, trucs en probleemoplossing voor projecten: artikelindex"
+title: 'Tips, trucs en probleemoplossing voor projecten: artikelindex'
 description: Tips, trucs en probleemoplossing voor projecten
 author: Alina
 draft: Probably

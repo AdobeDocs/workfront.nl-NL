@@ -3,7 +3,7 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: "Foutbericht: SAML 2.0-fout: gebruikersnaam niet gevonden"
+title: 'Foutbericht: SAML 2.0-fout: gebruikersnaam niet gevonden'
 description: U kunt geen verbinding maken met ADFS.
 author: Lisa
 feature: System Setup and Administration

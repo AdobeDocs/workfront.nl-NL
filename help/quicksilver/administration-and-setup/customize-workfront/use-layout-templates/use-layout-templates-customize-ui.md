@@ -1,5 +1,5 @@
 ---
-title: "Layout Sjablonen: Article Index"
+title: 'Lay-outsjablonen: artikelindex'
 user-type: administrator
 content-type: reference
 product-area: system-administration;templates
