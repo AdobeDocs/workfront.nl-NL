@@ -9,9 +9,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 6e181c07-4419-486f-bde1-ace3db349a72
-source-git-commit: 75cf9af858e90a640c45b211d36f35b684128c2f
+source-git-commit: e2c8af4428fa7ef910dad3a29abcc375760855cb
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
@@ -45,3 +45,9 @@ Deze sectie bevat de volgende artikelen:
 * [Modules of scenario&#39;s van het exemplaar in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/copy-modules-or-scenarios.md)
 * [Werk een module aan een nieuwe versie in een  [!DNL Adobe Workfront Fusion]  scenario bij](../../workfront-fusion/scenarios/update-module-to-new-version.md)
 * [Vergrendelde scenario&#39;s weergeven en beheren in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-manage-locked-scenarios.md)
+* [Voer de Scenario Scoring Expert in Adobe Workfront Fusion uit](/help/quicksilver/workfront-fusion/scenarios/run-scenario-scoring.md)
+
+
+
+
+

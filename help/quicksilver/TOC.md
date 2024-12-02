@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 301f8c1b55a91a93616f59e2f530ac51a3696cbf
+source-git-commit: 2682c027b2cd248b2674cebe8f0a0b8d1006257b
 workflow-type: tm+mt
-source-wordcount: '14647'
+source-wordcount: '14666'
 ht-degree: 0%
 
 ---
@@ -2240,6 +2240,7 @@ ht-degree: 0%
       * [Een gebruiker toevoegen aan een organisatie in Adobe Workfront Fusion](workfront-fusion/organizations/add-user-to-an-organization.md)
       * [Gebruikers beheren in Adobe Workfront Fusion](workfront-fusion/organizations/manage-fusion-users.md)
       * [Organisatiefuncties in Adobe Workfront Fusion](workfront-fusion/organizations/organization-roles.md)
+      * [Activiteitenlogboeken weergeven voor een organisatie in Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/organizations/view-activity-logs-for-an-org.md)
    * Scenario&#39;s in Adobe Workfront Fusion {#scenarios-in-fusion}
       * [Scenario&#39;s in Adobe Workfront Fusion](workfront-fusion/scenarios/scenarios.md)
       * [Overzicht van Adobe Workfront Fusion-scenario](workfront-fusion/scenarios/scenario-overview.md)
@@ -2258,6 +2259,7 @@ ht-degree: 0%
       * [Een filter toevoegen aan een scenario in Adobe Workfront Fusion](workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)
       * [Foutopsporingsscenario&#39;s met Adobe Workfront Fusion DevTool](workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md)
       * [Een scenario-segment genereren met behulp van AI](/help/quicksilver/workfront-fusion/scenarios/add-a-module-with-ai.md)
+      * [Voer de Scenario Scoring Expert in Adobe Workfront Fusion uit](/help/quicksilver/workfront-fusion/scenarios/run-scenario-scoring.md)
       * Adobe Workfront Fusion-scenario-sjablonen {#fusion-scenario-templates}
          * [Scenario-sjablonen](workfront-fusion/scenarios/templates/fusion-templates.md)
          * [[!DNL Fusion] sjabloonoverzicht](/help/quicksilver/workfront-fusion/scenarios/templates/fusion-templates-overview.md)
