@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 59737844-e6ba-4f64-b2cc-a24c91525d37
-source-git-commit: d5f21f3568f72273aa0843a45b17053fc9ebf727
+source-git-commit: 1cb0a3380d21d5fe3fb2eb40c5f19ec64d8bbbb4
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1154'
 ht-degree: 1%
 
 ---
@@ -38,6 +38,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
 
 <table>
 <col style="width: 20%;" />
+<col style="width: 50%;" />
 <tbody>
     <tr>
     <td>Gebied</td>
@@ -89,7 +90,6 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Pictogram "Verplaatsen naar" toegevoegd aan aangepaste velden</a></p>
-            [!BADGE in productie voor Snelle Versie ]{type=Positive}
             <p>Wanneer een aangepast formulier meerdere secties met veel velden bevat, kan het moeilijk zijn om een veld van de ene sectie naar de andere te verplaatsen door het te slepen en neer te zetten. Aan elk veld is een "verplaatsingspictogram" toegevoegd, waarmee u de sectie kunt selecteren waarin het veld wordt geplaatst.</p>
         </td>
         <td>29 oktober 2024</td>
@@ -173,8 +173,6 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Pictogram "Verplaatsen naar" toegevoegd aan aangepaste velden</a></p>
-            [!BADGE in productie voor Snelle Versie ]{type=Positive}
             <p>Wanneer een aangepast formulier meerdere secties met veel velden bevat, kan het moeilijk zijn om een veld van de ene sectie naar de andere te verplaatsen door het te slepen en neer te zetten. Aan elk veld is een "verplaatsingspictogram" toegevoegd, waarmee u de sectie kunt selecteren waarin het veld wordt geplaatst.</p>
         </td>
         <td>29 oktober 2024</td>

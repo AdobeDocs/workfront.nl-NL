@@ -5,13 +5,13 @@ title: Interactieve inhoud controleren in de webproefdrukviewerextensie
 description: Het Adobe Workfront-revisieprogramma is een browserextensie waarmee u interactieve inhoud in een ZIP-bestand of met een URL kunt controleren.
 author: Courtney
 feature: Digital Content and Documents
-source-git-commit: 5650ebfbf115908cbf2b89ffeab0551a4ecacc2d
+exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
+source-git-commit: 9bc1502149d99624d8494aef86e11e18a95f563b
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
-
 
 # Interactieve inhoud reviseren met het Adobe Workfront-revisieprogramma
 
@@ -23,7 +23,11 @@ Het Adobe Workfront-revisieprogramma is een webbrowserextensie waarmee u interac
 * Chrome
 * Edge
 
-Voor websites die het openen van hun site in iFrames, zoals Figma, voorkomen, raden we u aan de Desktop Proof Viewer te gebruiken.
+We raden u aan de Desktop Proofing Viewer te gebruiken als de inhoud die u wilt controleren zich op een website bevindt die
+
+* SSO-verificatie vereist
+* Herinneringen die hun site openen in iFrames, zoals Figma
+
 
 
 ## Adobe Workfront-revisieprogramma instellen als standaardviewer voor URL- en ZIP-proefdrukken
@@ -69,7 +73,3 @@ Nadat u de extensie hebt geïnstalleerd, worden automatisch interactieve proefdr
 >[!IMPORTANT]
 >
 >U moet de uitbreiding van de verouderde webviewer verwijderen als u het gereedschap Adobe Workfront Review wilt gebruiken.
-
-
-
-
