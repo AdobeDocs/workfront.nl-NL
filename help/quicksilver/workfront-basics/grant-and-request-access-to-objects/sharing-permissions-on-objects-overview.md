@@ -6,9 +6,9 @@ description: U kunt machtigingen delen of verwijderen voor een object dat u hebt
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: e1ac95e8be0f6059700ddacb120b08c7c7b683b1
+source-git-commit: 56b5791fc2e4f875052692c285f43ff03fe91ea9
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1182'
 ht-degree: 0%
 
 ---
@@ -108,6 +108,7 @@ In de volgende tabel ziet u het niveau van machtigingen dat u kunt selecteren bi
     <ul> 
      <li><p>Het object weergeven</p></li> 
      <li><p>Documenten aan het object toevoegen</p></li> 
+     <li><p>Uitgaven toevoegen aan het object (als het een taak of project is)</p></li> 
      <li><p>Financiële informatie over het object weergeven</p></li> 
      <li> <p>Het object delen<br></p> <p>Wanneer u het object deelt, kunt u andere gebruikers hetzelfde machtigingsniveau geven als alleen het object, niet een hoger niveau.</p> </li> 
     </ul> </td> 
@@ -118,7 +119,6 @@ In de volgende tabel ziet u het niveau van machtigingen dat u kunt selecteren bi
     <ul> 
      <li>Alle acties inbegrepen met de toestemming van de Mening.</li> 
      <li>Voeg er kosten aan toe</li> 
-     <li>Voeg kwesties aan het (als het een taak of een project is) toe</li> 
      <li>Voeg taken aan het toe (als het een project is)</li> 
      <li>Aangepaste Forms bewerken</li> 
      <li>Logtijd van het object</li> 
