@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b698cb60-4cff-4ccc-87d7-74afb5badc49
-source-git-commit: 0325d305c892c23046739feff17d4b1fc11100cc
+source-git-commit: 05f8dc8770c185720520fc631e19c75b925a70bf
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 0%
@@ -40,6 +40,7 @@ De klanten moeten ervoor zorgen dat om het even welke eindpunten die uitgaande b
 * Een abonnement URL wordt bevroren **als het meer dan 2.000 opeenvolgende mislukkingen heeft en het laatste succes meer dan 72 uur geleden OF als het 50.000 opeenvolgende mislukkingen in om het even welk tijdkader heeft.**
 * A **gehandicapte** abonnement URL zal blijven levering proberen om de 10 minuten en zal met een succesvolle levering opnieuw worden toegelaten.
 * A **bevroren** abonnement URL zal nooit levering proberen tenzij het manueel door een API verzoek te maken wordt toegelaten.
+
 
 
 

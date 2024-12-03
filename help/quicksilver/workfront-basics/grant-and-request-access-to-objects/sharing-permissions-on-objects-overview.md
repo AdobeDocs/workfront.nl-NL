@@ -6,7 +6,7 @@ description: U kunt machtigingen delen of verwijderen voor een object dat u hebt
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: 56b5791fc2e4f875052692c285f43ff03fe91ea9
+source-git-commit: 05f8dc8770c185720520fc631e19c75b925a70bf
 workflow-type: tm+mt
 source-wordcount: '1182'
 ht-degree: 0%
@@ -166,6 +166,7 @@ Voor meer informatie over de hiërarchie en de onderlinge afhankelijkheid van vo
 Als u beheerdersmachtigingen toekent aan een groep gebruikers voor een object en u weergavemachtigingen toekent aan een individuele gebruiker in die groep voor hetzelfde object, heeft de gebruiker het hoogste machtigingsniveau (Beheren) dat is toegekend via het groepslidmaatschap voor het object. 
 
 Als u lagere toestemmingen aan een gebruiker wilt verlenen die reeds deel van een organisatorische eenheid (Groep, Team, de Rol van de Baan, of Bedrijf) met een hoger toestemmingsniveau uitmaakt, moet u de toestemmingen uit de organisatorische eenheid verwijderen, en gebruikers individueel met een lager niveau van toestemmingen toevoegen.
+
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
