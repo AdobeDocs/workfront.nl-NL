@@ -3,17 +3,19 @@ product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 title: Toegang tot objecten aanvragen
 description: De zichtbaarheid van objecten in Adobe Workfront is afhankelijk van de toegang tot dat type object en van de machtigingen die u voor een afzonderlijk object hebt.
-author: Alina
+author: Becky
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
+source-git-commit: dbdcebe0fae91e7b688cad4fd11bd5aaafe51d3b
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1454'
 ht-degree: 0%
 
 ---
 
 # Toegang tot objecten aanvragen
+
+{{preview-fast-release-general}}
 
 De zichtbaarheid van objecten in Adobe Workfront is afhankelijk van de toegang tot dat type object en van de machtigingen die u voor een afzonderlijk object hebt.
 
@@ -92,14 +94,18 @@ Aanvankelijke toegang tot een object aanvragen:
 1. Klik **Toegang van het Verzoek**.\
    Het **de dialoogvakje van de Toegang van het Verzoek** wordt getoond.
 
-1. (Voorwaardelijk) als meer dan één gebruiker de aangewezen toegang heeft om u extra toegang te verlenen, wordt een drop-down pijl getoond naast de naam van de gebruiker.
-1. Selecteer in de vervolgkeuzelijst de gebruiker die u uw toegangsverzoek wilt ontvangen.\
+1. (Voorwaardelijk) als meer dan één gebruiker de aangewezen toegang heeft om u extra toegang te verlenen, wordt een drop-down pijl getoond naast de naam van de gebruiker. Selecteer de gebruiker in de vervolgkeuzelijst die uw toegangsverzoek moet ontvangen.
+
    In de vervolgkeuzelijst worden slechts tien gebruikers weergegeven. De lijst wordt alfabetisch gesorteerd.\
    Voor meer informatie over de orde van de gebruikers die in dit drop-down menu worden vermeld, zie [ Hiërarchie van de &quot;Toegang van het Verzoek&quot;en &quot;Vraag Meer Toegang&quot;drop-down menu&#39;s ](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
 
 1. Selecteer in de vervolgkeuzelijst het type toegang dat u aanvraagt.
 1. (Facultatief) op het **P.S.** gebied, specificeer een nota aan de gebruiker betreffende waarom u extra toegang nodig hebt.
 
+   <span class="preview"> beeld van de Steekproef in het milieu van de Voorproef:</span>
+   ![ de dialoogdoos van de Toegang van het Verzoek ](assets/request-access-to-project.png)
+
+   Voorbeeldafbeelding in de productieomgeving:
    ![](assets/request-access-dialog-350x314.png)
 
 Als u geen toegangsniveaurechten voor een voorwerp hebt en u probeert om tot dat voorwerp van een verbinding toegang te hebben, wordt een scherm getoond informerend u om de beheerder van Workfront te contacteren.
@@ -115,7 +121,7 @@ Aanvullende toegang aanvragen tot een object waartoe u al beperkte toegang hebt:
 
 1. Klik het **Meer** menu rechts van de projectnaam, dan klik **Verzoek Meer Toegang**.
 
-   ![](assets/request-access-in-project-350x201.png)
+   ![ Verzoek meer Toegang ](assets/more-menu-request-more-access.png)
 
 1. (Voorwaardelijk) als meer dan één gebruiker de aangewezen toegang heeft om u extra toegang te verlenen, wordt een drop-down pijl getoond naast de naam van de gebruiker.
 1. Selecteer in de vervolgkeuzelijst de gebruiker die u uw toegangsverzoek wilt ontvangen.\
@@ -124,7 +130,12 @@ Aanvullende toegang aanvragen tot een object waartoe u al beperkte toegang hebt:
 
 1. Selecteer in de vervolgkeuzelijst het toegangsniveau dat u aanvraagt.
 1. (Facultatief) op het **P.S.** gebied, specificeer een nota betreffende waarom u extra toegang nodig hebt.
-1. Klik **Toegang van het Verzoek**.\
+1. Klik **Toegang van het Verzoek**.
+
+   <span class="preview"> beeld van de Steekproef in het milieu van de Voorproef:</span>
+   ![ de dialoogdoos van de Toegang van het Verzoek ](assets/request-access-to-project.png)
+
+   Voorbeeldafbeelding in de productieomgeving:
    ![](assets/request-access-dialog-350x314.png)
 
 ## Hiërarchie van de vervolgkeuzemenu&#39;s &quot;Toegang aanvragen&quot; en &quot;Meer toegang aanvragen&quot; {#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus}
