@@ -7,12 +7,10 @@ title: Activiteitenlogboeken weergeven voor een organisatie in Adobe Workfront F
 description: U kunt een logboek van activiteiten, zoals scenario verwezenlijking of activering, voor uw organisatie bekijken.
 author: Becky
 feature: Workfront Fusion
-hide: true
-hidefromtoc: true
 exl-id: d60dc97d-2da6-44f4-a2ee-bb5e56317695
-source-git-commit: ff455b5da1db6a4edb9f6de5d9ff50a7658f91bb
+source-git-commit: 1694d54c8b2d6ee3707e8e8bcb3b394c1dfa7a48
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '498'
 ht-degree: 0%
 
 ---
@@ -25,42 +23,47 @@ U kunt een logboek van activiteiten, zoals het creëren van een scenario of het 
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
 
-<table style="table-layout:auto">  
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!DNL Pro] of hoger</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td>
+   <td> <p>Nieuw: Ultimate</p> <p>of</p> <p>Huidig: Niet beschikbaar</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
+   <td> <p>Nieuw: [!UICONTROL Standard]</p><p>of</p><p>Huidig: Niet beschikbaar</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
-  <td>
-   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
+   <td>
+   <p>Huidig: Geen [!DNL Workfront Fusion] vereiste licentie.</p>
    <p>of</p>
-   <p>Vereiste voor verouderde licentie: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie], [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>
-   </td>  
+   <p>Verouderd: alle </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
-   <p>of</p>
-   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
+   <p>Nieuw: [!DNL Workfront Fusion] is opgenomen in het Ultimate Workfront-plan.</p> <p>of</p>
+   <p>Huidig: Niet beschikbaar</p>
    </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
++++
+
+
 
 ## De activiteitenlogboeken weergeven
 
