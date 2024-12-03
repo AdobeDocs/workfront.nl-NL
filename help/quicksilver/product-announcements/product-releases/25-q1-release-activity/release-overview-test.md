@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 59737844-e6ba-4f64-b2cc-a24c91525d37
-source-git-commit: 1cb0a3380d21d5fe3fb2eb40c5f19ec64d8bbbb4
+source-git-commit: d9bfe029f99bf4c205686dc7a30598f046977afd
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1388'
 ht-degree: 1%
 
 ---
@@ -126,7 +126,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
 
 ### Beheerdersverbeteringen
 
-<table style="table-layout:auto">
+<table>
 <col style="width: 50%;" />
 <tbody>
     <tr>
@@ -243,6 +243,53 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
 </tbody>
 </table>
 
+### Verbeteringen voor documentbeheer
+
+
+<table>
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><span class="bold">Functie</span></p>
+        </td>
+        <td>Voorvertoning</td>
+        <td>Snelle release</td>
+        <td>Driemaandelijks</td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Voorkeur om project of gebruikersprogramma voor enig-taaktaken te gebruiken</a></p>
+            <p>Als systeem of groepsbeheerder, hebt u nu een nieuwe voorkeur om erop te wijzen of Workfront het project of het programma van de gebruiker zou moeten gebruiken om de chronologie van het project te berekenen wanneer u één gebruiker aan een taak toewijst en zowel het project als de gebruiker met een programma wordt geassocieerd.</p>
+        </td>
+        <td><p>16 nov. 2024</p> <p>[!BADGE Nieuw in Voorproef ]{type=Negative}<p></td>
+        <td>dec. 2024</td>
+        <td>25,1</td>
+    </tr>     
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            De bedrijfsregels ondersteunen nu hyperlinks</a></p>
+            <p>U kunt hyperlinks in het bericht van de douanefout van een bedrijfsregel nu omvatten, om de gebruiker op te begeleiden hoe te om hun actie binnen de beperking van de regel te wijzigen. De statische URL kan worden gekoppeld aan documentatie of andere pagina's die nuttig zijn voor de gebruiker.</p>
+        </td>
+        <td>14 nov. </td>
+        <td><p>14 nov.</p> <p>[!BADGE uit-van-cyclus ]{type=Negative}</p></td>
+        <td><p>14 nov.</p> <p>[!BADGE uit-van-cyclus ]{type=Negative}</p></td>
+    </tr>    
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Pictogram "Verplaatsen naar" toegevoegd aan aangepaste velden</a></p>
+            <p>Wanneer een aangepast formulier meerdere secties met veel velden bevat, kan het moeilijk zijn om een veld van de ene sectie naar de andere te verplaatsen door het te slepen en neer te zetten. Aan elk veld is een "verplaatsingspictogram" toegevoegd, waarmee u de sectie kunt selecteren waarin het veld wordt geplaatst.</p>
+        </td>
+        <td>29 oktober</td>
+          <td><p>december 2024</p><p> [!BADGE in productie voor Snelle Versie ]{type=Positive}</p></td>
+        <td>25,1<p> [!BADGE in productie]{type=Positive}</p></td>
+    </tr>
+</tbody>
+</table>
+
 <!--
 ### Functionality soon to be removed from Workfront
 
@@ -253,6 +300,9 @@ The following functionality is soon to be removed from Workfront:
 
 * [ de versieactiviteit van de Fusie van Adobe Workfront ](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 * [ Adobe Workfront die Eerste Kwartaal 2025 versieactiviteit ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md) plant.
+
+Er zijn geen updates voor het volgende op dit punt in de versie:
+
 * Scenario Planner
 * Proef
 * Doelen
