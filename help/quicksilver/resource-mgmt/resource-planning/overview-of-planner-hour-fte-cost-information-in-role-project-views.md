@@ -7,9 +7,9 @@ description: Overzicht van uren, FTE, en kosteninformatie in de mening van het P
 author: Lisa
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: c9e77e11fafbf224639289977783e95ccb45a9e2
 workflow-type: tm+mt
-source-wordcount: '2977'
+source-wordcount: '3086'
 ht-degree: 0%
 
 ---
@@ -217,12 +217,6 @@ Houd rekening met het volgende wanneer u geplande uren bekijkt:
 
 Houd rekening met het volgende wanneer u werkt met Budgeted Hours:
 
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-(Duplicated below ??)
-</MadCap:conditionalText>
--->
-
 * U kunt middelen slechts begroten wanneer u Edit toegang tot het Beheer van het Middel en Financiële Gegevens en beheer de toestemmingen van de Financiën op de projecten hebt.
 
   Voor informatie over de toegang nodig voor het opnemen van middelen, zie de artikel [ Toegang nodig aan begrotingsmiddelen in Adobe Workfront ](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
@@ -232,15 +226,23 @@ Houd rekening met het volgende wanneer u werkt met Budgeted Hours:
   Voor meer informatie over project en rolopties, zie het sectie [ Overzicht van uren, FTE, en kosteninformatie in het Project en de meningen van de Rol van de Planner van het Middel ](#Budget) in dit artikel.
 
 * De kleinste periode u uren, VTE, of Kosten voor kunt begroten is een week. U kunt geen uren, VTE, of Kosten voor een dag begroten.
-* De begrotingsuren worden gelijkelijk verdeeld aan elke dag binnen de Duur van taken, voor elke middelen die aan hen worden toegewezen. De taakduur is gebaseerd op de geplande start- en voltooiingsdatums van de taak en omvat elke kalenderdag binnen die tijdsperiode.\
-  Workfront houdt rekening met het programma van de gebruiker of van het project wanneer het verdelen van begrotingsuren aan gebruikers of projecten. In dit geval worden de begrote uren uren gelijkelijk verdeeld over elke dag binnen de Duur van taken exclusief weekends, maar met inbegrip van tijd-off en planningsuitzonderingen.\
+* De begrotingsuren worden gelijkelijk verdeeld aan elke dag binnen de Duur van taken, voor elke middelen die aan hen worden toegewezen. De taakduur is gebaseerd op de geplande start- en voltooiingsdatums van de taak en omvat elke kalenderdag binnen die tijdsperiode.
+
+  Workfront houdt rekening met het programma van de gebruiker of van het project wanneer het verdelen van begrotingsuren aan gebruikers of projecten. In dit geval worden de begrote uren uren gelijkelijk verdeeld over elke dag binnen de Duur van taken exclusief weekends, maar met inbegrip van tijd-off en planningsuitzonderingen.
+
   Als u de Planner van het Middel door Week, bijvoorbeeld toont, en u taken hebt die veelvoudige weken overspannen, hangt het aantal Begrotingshuren per week van hoeveel dagen binnen die week deel van de taakDuur af. Deze verdeling geldt niet voor werkdagen. Dit werkt op dezelfde manier wanneer het tonen van de Planner van het Middel door Maand of Kwart en wanneer de taken veelvoudige maanden of kwartalen overspannen.
 
-* U kunt over begrotingsuren rapporteren door Budgeted Hour als uw rapportvoorwerp voor een nieuw rapport te selecteren.\
-  Voor informatie over welke voorwerpen u over in Workfront kunt rapporteren, zie de sectie &quot;Rapport over voorwerpen&quot;in het artikel [ begrijpt voorwerpen in Adobe Workfront ](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).\
+* U kunt over begrotingsuren rapporteren door Budgeted Hour als uw rapportvoorwerp voor een nieuw rapport te selecteren.
+
+  Voor informatie over welke voorwerpen u over in Workfront kunt rapporteren, zie de sectie &quot;Rapport over voorwerpen&quot;in het artikel [ begrijpt voorwerpen in Adobe Workfront ](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+
   Voor informatie over de bouw van een Gefabriceerd rapport van de Uur, zie het artikel [ Rapport: Beoogde Uur ](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md).
 
 * De uren die eerder in de begroting zijn opgenomen voor gebruikers die later zijn gedeactiveerd, worden niet weergegeven.
+
+  Merk op dat de begrote arbeidskosten van een project nog de begrote uren uren voor gebruikers omvatten die in de Planner van het Middel werden gedeactiveerd.
+
+  Bijvoorbeeld: als een rol aan twee gebruikers wordt toegewezen en begrote uren (20 uren per gebruiker, in totaal 40 uren) worden toegevoegd, en dan het totaal manueel voor de rol wordt geplaatst, leidt het deactiveren van één van de gebruikers in de Planner van het Middel ertoe dat hun uren niet meer in de berekening (dalend het totaal aan 20 uren) worden overwogen. In de projectbudgettering blijft echter het handmatig ingestelde totaal voor de rol correct behouden, zodat de uren van de gedeactiveerde gebruiker nog steeds in de berekening worden opgenomen (en blijven op 40 uur staan).
 
 ### De kolom VAR (Variantie) {#the-var-variance-column}
 
