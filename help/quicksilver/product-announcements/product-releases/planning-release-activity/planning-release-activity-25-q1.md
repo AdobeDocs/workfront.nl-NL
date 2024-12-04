@@ -7,7 +7,7 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
+source-git-commit: 5db940b197364e30ef6e1ea3e3c94ae3bda5b20c
 workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 0%
@@ -77,7 +77,7 @@ We hebben een waarschuwingsbericht geïntroduceerd bij het bewerken of maken van
 
 Voor informatie, zie [ gebieden ](/help/quicksilver/planning/fields/create-fields.md) creëren.
 
-## Verbonden weergavepagina&#39;s aan de pagina van een record toevoegen om de verbonden records in een tabelweergave weer te geven
+## Voeg de meningspagina&#39;s van de Verbinding aan de pagina van een verslag toe om verbonden verslagen in een lijstmening te tonen
 
 >[!NOTE]
 >

@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
+source-git-commit: ab78b82db567193f32f6c67880b2b037dc78e849
 workflow-type: tm+mt
 source-wordcount: '4287'
 ht-degree: 0%
@@ -298,6 +298,16 @@ U kunt een veld met meerdere selecties gebruiken om aanvullende informatie in el
    **de keuzen van de Soort a-z** optie als u de keuzen automatisch in alfabetische orde wilt worden vermeld. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. (Facultatief) om een keus te verwijderen, klik het **x** pictogram rechts van het.
 1. Klik op het kleurstaal links van een keuze om de kleurkiezer uit te vouwen en de kleur van elke optie aan te passen.
+
+   <!--
+    1. <span class="preview">Click **Swatches** to select a predefined color</span>
+
+        <span class="preview">Or</span>
+
+        <span class="preview">Click **Custom** to select a custom color using a color picker or a Hex code. 
+        </span>
+    1. <span class="preview:>Click outside the color box to close it. </span>     
+    -->
 1. Klik **creëren**.
 
    Het nieuwe multi-select gebied wordt toegevoegd als kolom aan het verslagtype, en zijn waarden kunnen met verslagen worden geassocieerd.
@@ -320,6 +330,16 @@ Met velden die een enkele selectie maken, wordt aanvullende informatie in elke g
 1. (Facultatief) sleep en laat manueel elke keus in de gewenste orde vallen, of selecteer de **optie van de Soort A-Z** als u de keuzen automatisch in alfabetische orde wilt worden vermeld. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. (Facultatief) om een keus te verwijderen, klik het **x** pictogram rechts van het.
 1. Klik op het kleurstaal links van een keuze om de kleurkiezer uit te vouwen en de kleur van elke optie aan te passen.
+
+   <!--
+        1. <span class="preview">Click **Swatches** to select a predefined color</span>
+
+            <span class="preview">Or</span>
+
+            <span class="preview">Click **Custom** to select a custom color using a color picker or a Hex code. 
+            </span>
+        1. <span class="preview:>Click outside the color box to close it. </span>     
+        -->
 1. Klik **creëren**.
 
    Het nieuwe veld Eén keuze wordt toegevoegd als kolom aan het recordtype en de waarden ervan kunnen aan records worden gekoppeld.

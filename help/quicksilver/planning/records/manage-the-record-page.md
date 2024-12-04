@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
+source-git-commit: 5db940b197364e30ef6e1ea3e3c94ae3bda5b20c
 workflow-type: tm+mt
-source-wordcount: '1631'
+source-wordcount: '1683'
 ht-degree: 0%
 
 ---
@@ -256,23 +256,29 @@ De volgende dingen doen zich voor:
 
 <span class="preview">
 
-## Een verbonden weergavepagina toevoegen aan de pagina van een record
+## Een pagina van de verbindingsweergave toevoegen aan de pagina van een record
 
-U kunt een verbonden weergavepagina toevoegen aan de pagina van een record.
+Houd rekening met het volgende wanneer u een verbindingsweergave toevoegt aan de pagina van een record:
 
-U kunt geen verbonden weergavepagina toevoegen aan het voorvertoningsgebied van een record.
+* U kunt een pagina van de mening van de Verbinding aan de pagina van een verslag toevoegen.
 
-Op verbonden weergavepagina&#39;s wordt één verbonden recordpagina in de tabelweergave weergegeven. De tabelweergave is alleen-lezen.
+* U kunt geen pagina van de mening van de Verbinding aan het voorproefgebied van een verslag toevoegen.
 
-U kunt één verbonden weergavepagina toevoegen per verbonden recordtype.  <!--edit this when we can remove fields from this page-->
+* Op pagina&#39;s in de verbindingsweergave wordt één verbonden recordpagina weergegeven in de tabelweergave. De tabelweergave is alleen-lezen.
 
-Een verbonden weergavepagina toevoegen:
+* U kunt één pagina van de mening van de Verbinding per elk verbonden verslagtype toevoegen.  <!--edit this when we can remove fields from this page-->
 
-1. Klik in een weergave van een recordpagina op de naam van een record om deze te openen en klik vervolgens op het pictogram Openen in nieuw tabblad ![](assets/open-details-in-a-new-tab-icon.png) in de rechterbovenhoek van de voorvertoningspagina.
-1. Klik **toevoegen pagina** > **Verbonden mening**.
-1. Voeg de **naam van de Pagina** toe, dan klik **creeer**.
+* Nadat u een pagina van de mening van de Verbinding aan de pagina van een verslag toevoegt, is de pagina zichtbaar van het voorproefgebied van het verslag.
 
-   Er wordt een extra pagina toegevoegd aan de pagina van de record op een nieuw tabblad.
+Een pagina van de verbindingsweergave toevoegen:
+
+1. Van een mening van de verslagpagina, klik de naam van een verslag om het te openen, dan klik **Open in nieuw lusje** pictogram ![](assets/open-details-in-a-new-tab-icon.png) in de hoger-juiste hoek van de voorproefpagina.
+1. Klik **toevoegen pagina** > **mening van de Verbinding**.
+
+   ![](assets/add-connection-view-page-modal.png)
+1. Voeg de **naam van de Pagina** toe, klik **mening van de Verbinding**, dan klik **creeer**.
+
+   Er wordt een nieuw tabblad toegevoegd aan de pagina van de record.
 1. Zoek of klik op de naam van een verbonden record of objecttype in de lijst.
 De tabelweergave van het geselecteerde recordtype wordt weergegeven en de verbonden records worden weergegeven in de tabelweergave.
 De tabelweergave is alleen-lezen.
@@ -284,6 +290,7 @@ De tabelweergave is alleen-lezen.
 
    Beweeg over de naam van het lusje, dan klik **Meer** ![](assets/more-menu.png), dan klik **anders noemen** om aan nieuw Verbonden meningslusje anders te noemen.
 1. (Optioneel) Gebruik alle weergave-elementen op de werkbalk om de tabelweergave te beheren. Voor informatie, zie [ de lijstmening ](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
+1. (Facultatief) Beweeg over de naam van het lusje, dan klik **Meer** ![](assets/more-menu.png), dan klik **Schrapping** om aan nieuw Verbonden meningslusje te verwijderen.
 
 </span>
 
