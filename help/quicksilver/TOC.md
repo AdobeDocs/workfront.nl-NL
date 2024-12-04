@@ -3,7 +3,7 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 6abcd9afbf57162ff1c2dc362e7979fab6d1d997
+source-git-commit: 7bb56395151d88595d446703d5d689c03b1e0372
 workflow-type: tm+mt
 source-wordcount: '14673'
 ht-degree: 0%
@@ -1846,7 +1846,6 @@ ht-degree: 0%
       * [Beoordeling en goedkeuring van activa en documenten: artikelindex](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * [Overzicht van documentgoedkeuringen](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * [Overzicht van de beslissingsstatus van het document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
-      * [Een rapportdashboard maken voor revisie en goedkeuring](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
       * Middelen- en documentgoedkeuringen instellen en beheren {#manage-asset-review-and-approval}
          * [Middelen- en documentgoedkeuringen instellen en beheren: artikelindex](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
          * [Een documentrevisie of goedkeuringsaanvraag maken](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
@@ -1855,6 +1854,7 @@ ht-degree: 0%
          * [Een goedkeuringssjabloon maken voor elementen en documenten](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
          * [Goedkeuring van nieuwe documenten en proefdrukken samen gebruiken](review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
          * [Een nieuwe documentversie uploaden en goedkeuring aanvragen](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)
+         * [Een rapportdashboard maken voor revisie en goedkeuring](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
       * Elementen en documenten controleren en goedkeuren {#review-and-approve-documents}
          * [Documenten controleren en goedkeuren: artikelindex](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
          * [Een document reviseren](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
