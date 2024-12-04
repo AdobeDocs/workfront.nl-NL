@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: be5c1dcba32efd95ae484c015b66977398f4b762
+source-git-commit: 6844e1cef741b60f0d2663ddb9bc9038ec88714d
 workflow-type: tm+mt
-source-wordcount: '2157'
+source-wordcount: '2173'
 ht-degree: 0%
 
 ---
@@ -648,6 +648,42 @@ Met deze connector wordt het filter toegepast op de nieuwe status of oude status
             "state": "oldState"
         }
     ]
+}
+```
+
+### Geneste filters gebruiken
+
+Met het trefwoord `fieldValue.fields` kunt u in een gebeurtenisabonnement filteren op geneste gebeurtenisvelden.
+
+```
+{
+    "objCode": "RECORD",
+    "eventType": "UPDATE",
+    "authToken": "token",
+    "url": "https://domain-for-subscription.com/API/endpoint/UpdatedRecords",
+    "filters": [
+        {
+            "fieldName": "data",
+            "fieldValue": {
+                "fields": {
+                    "customerID": "customer1234"
+                }
+            },
+            "comparison": "eq",
+            "state": "newState"
+        },
+        {
+            "fieldName": "options",
+            "fieldValue": {
+                "objects": {
+                    "projectID": "project1234"
+                }
+            },
+            "comparison": "contains",
+            "state": "newState"
+        },
+    ],
+    "filterConnector": 'AND'
 }
 ```
 
