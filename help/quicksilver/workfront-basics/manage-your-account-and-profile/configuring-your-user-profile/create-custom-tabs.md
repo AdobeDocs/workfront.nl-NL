@@ -3,10 +3,10 @@ product-area: user-management
 navigation-topic: configure-your-user-profile
 title: Aangepaste secties maken
 description: De informatie u in de  [!DNL Workfront]  Webtoepassing ziet wordt vaak getoond in de secties in het linkerpaneel door gebrek. Elke sectie bevat verschillende informatie over a  [!DNL Workfront]  gebied of voorwerp.
-author: Nolan
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
-source-git-commit: 1079f85651ec691280e2cccefaa6e48e0b9d89f8
+source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 0%

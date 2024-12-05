@@ -3,12 +3,12 @@ product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: Het wachtwoord van een gebruiker opnieuw instellen met uitgebreide verificatie
 description: Wanneer de Verbeterde Authentificatie (Auth) voor uw  [!DNL Workfront]  Milieu wordt toegelaten, a  [!DNL Workfront]  beheerder kan login geloofsbrieven voor een andere gebruiker niet terugstellen. Dit verschilt van  [!DNL Workfront]  milieu's zonder eAuth of die milieu's waarvoor Enig Sign On (SSO) wordt toegelaten.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: 72f955e9-75ff-4ff7-b434-7a2b2d5ee0e8
-source-git-commit: 633c41eeb570402254125f92f3624cad7befd609
+source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 0%

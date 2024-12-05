@@ -3,10 +3,10 @@ product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: Ontvang e-mailuitnodigingen en maak een wachtwoord voor  [!DNL Adobe Workfront]
 description: Wanneer a  [!DNL Workfront]  beheerder tot een nieuwe gebruiker leidt, kan de nieuwe gebruiker een uitnodigingsE-mail ontvangen die op verscheidene factoren wordt gebaseerd.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: a13dbe33-f283-4732-a7f2-5a94a37855f0
-source-git-commit: 0dd5577fc937a98900fab17fb434b70e023385af
+source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%

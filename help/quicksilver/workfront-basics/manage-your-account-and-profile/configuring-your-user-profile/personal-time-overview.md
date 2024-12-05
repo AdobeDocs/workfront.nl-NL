@@ -4,10 +4,10 @@ product-area: user-management
 navigation-topic: configure-your-user-profile
 title: Persoonlijke tijd uit configureren
 description: Het is belangrijk om in Adobe Workfront aan te geven wanneer goedgekeurde time-off plaatsvindt, omdat dit van invloed is op uw planning en op de geplande voltooiingsdatums van de taken waaraan u bent toegewezen.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 0%
