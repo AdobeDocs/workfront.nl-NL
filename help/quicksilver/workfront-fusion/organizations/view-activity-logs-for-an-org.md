@@ -8,9 +8,9 @@ description: U kunt een logboek van activiteiten, zoals scenario verwezenlijking
 author: Becky
 feature: Workfront Fusion
 exl-id: d60dc97d-2da6-44f4-a2ee-bb5e56317695
-source-git-commit: 1694d54c8b2d6ee3707e8e8bcb3b394c1dfa7a48
+source-git-commit: 6f4ba4cde26978305a58cedb9ed606c6032496f1
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -47,11 +47,14 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
    <p>Verouderd: alle </p>
    </td> 
   </tr> 
+   <tr> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>U moet een Fusion-beheerder zijn om het activiteitenlog te kunnen gebruiken.</p></td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Nieuw: [!DNL Workfront Fusion] is opgenomen in het Ultimate Workfront-plan.</p> <p>of</p>
-   <p>Huidig: Niet beschikbaar</p>
+   <p>Deze functionaliteit is alleen beschikbaar voor organisaties met het Ultimate Workfront-abonnement, dat [!DNL Workfront Fusion] bevat. U hoeft geen product meer aan te schaffen.</p>
    </td> 
   </tr>
  </tbody> 
