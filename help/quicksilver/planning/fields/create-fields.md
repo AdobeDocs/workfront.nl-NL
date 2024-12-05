@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: ab78b82db567193f32f6c67880b2b037dc78e849
+source-git-commit: b89f4aa6f779e09d6749e59bdf3d54f0dd9bbf03
 workflow-type: tm+mt
-source-wordcount: '4287'
+source-wordcount: '4370'
 ht-degree: 0%
 
 ---
@@ -210,7 +210,12 @@ OLD:
    Beweeg over de kopbal van om het even welke kolom, klik de naar beneden wijzende pijl na de gebiedsnaam, dan klik links **of** Tussenvoegsel rechts **om het nieuwe gebied toe te voegen.**
 1. Op het **Nieuwe gebied** lusje, onderzoek naar een gebiedstype op het **type van Gebied** vakje, of selecteer van de volgende gebiedstypes:
 
-   Op het **Nieuwe gebied** lusje, onderzoek naar een gebiedstype op het **type van Gebied** doos <!--using any related keyword-->, of selecteer van de hieronder vermelde gebiedstypes.
+   Op het **Nieuwe gebied** lusje, onderzoek naar een gebiedstype in het **type van Gebied** vakje gebruikend om het even welk verwant sleutelwoord, of selecteer van de hieronder vermelde gebiedstypes.
+
+   >[!TIP]
+   >
+   >    U kunt &quot;Begroting&quot;typen en de gebiedstypes van Aantal en Valuta tonen in een korte lijst.
+
 
 
    * [Tekst met één regel](#single-line-text)
@@ -299,15 +304,13 @@ U kunt een veld met meerdere selecties gebruiken om aanvullende informatie in el
 1. (Facultatief) om een keus te verwijderen, klik het **x** pictogram rechts van het.
 1. Klik op het kleurstaal links van een keuze om de kleurkiezer uit te vouwen en de kleur van elke optie aan te passen.
 
-   <!--
-    1. <span class="preview">Click **Swatches** to select a predefined color</span>
+1. <span class="preview"> klik **Monsters** om een vooraf bepaalde kleur </span> te selecteren
 
-        <span class="preview">Or</span>
+   <span class="preview"> Of </span>
 
-        <span class="preview">Click **Custom** to select a custom color using a color picker or a Hex code. 
-        </span>
-    1. <span class="preview:>Click outside the color box to close it. </span>     
-    -->
+   <span class="preview"> klik **Douane** om een douanekleur te selecteren gebruikend een kleurenplukker of een code van de Hexagina.
+   </span>
+1. Klik buiten het kleurvak om het te sluiten.
 1. Klik **creëren**.
 
    Het nieuwe multi-select gebied wordt toegevoegd als kolom aan het verslagtype, en zijn waarden kunnen met verslagen worden geassocieerd.
@@ -330,16 +333,13 @@ Met velden die een enkele selectie maken, wordt aanvullende informatie in elke g
 1. (Facultatief) sleep en laat manueel elke keus in de gewenste orde vallen, of selecteer de **optie van de Soort A-Z** als u de keuzen automatisch in alfabetische orde wilt worden vermeld. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. (Facultatief) om een keus te verwijderen, klik het **x** pictogram rechts van het.
 1. Klik op het kleurstaal links van een keuze om de kleurkiezer uit te vouwen en de kleur van elke optie aan te passen.
+1. <span class="preview"> klik **Monsters** om een vooraf bepaalde kleur </span> te selecteren
 
-   <!--
-        1. <span class="preview">Click **Swatches** to select a predefined color</span>
+   <span class="preview"> Of </span>
 
-            <span class="preview">Or</span>
-
-            <span class="preview">Click **Custom** to select a custom color using a color picker or a Hex code. 
-            </span>
-        1. <span class="preview:>Click outside the color box to close it. </span>     
-        -->
+   <span class="preview"> klik **Douane** om een douanekleur te selecteren gebruikend een kleurenplukker of een code van de Hexagina.
+   </span>
+1. Klik buiten het kleurvak om het te sluiten.
 1. Klik **creëren**.
 
    Het nieuwe veld Eén keuze wordt toegevoegd als kolom aan het recordtype en de waarden ervan kunnen aan records worden gekoppeld.

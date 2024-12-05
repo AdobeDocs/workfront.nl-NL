@@ -2,15 +2,15 @@
 product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Verpletterende regels maken
-description: Het verpletteren van Regels controleert wat Adobe Workfront met kwesties doet wanneer zij aan een Rij van het Verzoek worden voorgelegd. Zie Een aanvraagwachtrij maken voor meer informatie over het maken van aanvraagwachtrijen.
-author: Lisa
+description: Het verpletteren van Regels controleert wat Adobe Workfront met kwesties doet wanneer zij aan een Rij van het Verzoek worden voorgelegd.
+author: Alina
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 8ec279ece400c10a37e67664b77b1e0df6639724
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -27,73 +27,42 @@ Het verpletteren van regels verzendt kwesties naar specifieke gebruikers of baan
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-<!--drafted - replace the table at P&P:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p> Manage permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader"><p>Adobe Workfront-plan</p></td> 
    <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td>
-    <p>Nieuw: Standaard</p>
-    <p>of</p>
-    <p>Huidig: Plan</p></td> 
+   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td> <p>Nieuwe licentie: standaard </p> 
+   of
+   <p>Huidige licentie: abonnement </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td>
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot projecten bewerken</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p> Rechten voor het project beheren</p> </td>
+   <td> <p> Rechten voor het project beheren</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Creeer een Verpletterende Regel
 
-1. Ga naar het project waarin u de verpletterende regels voor uw verzoeken wilt toevoegen.
+1. Ga naar het project waarin u het verpletteren van regels voor uw verzoeken wilt toevoegen.
 1. Klik **Verpletterend Regels** in het linkerpaneel. U zou kunnen moeten klikken **Meer** tonen, dan **Verpletterend Regels**.
-1. Klik **Nieuw Verpletterend Regel** om de nieuwe regel toe te voegen.
+1. Klik **Nieuw Verpletterend Regel** om de nieuwe regel toe te voegen. Het **Nieuwe Verpletterende doos van de Regel** opent.
+
+   ![ Nieuwe Verpletterende doos van de Regel ](assets/new-routing-rule-box.png)
 1. Ga de volgende informatie voor de Verpletterende Regel in:
 
    <table style="table-layout:auto"> 
@@ -136,8 +105,6 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    >*If een gebruiker, baanrol, of een team worden gedeactiveerd nadat zij met een verpletterende regel worden geassocieerd, blijven de verzoeken aan hen worden verpletterd. U moet periodiek een inventaris van alle verpletterende regels nemen en gedeactiveerde taken vervangen met actieve degenen.
 
    Wanneer u een kwestie aan een project leidt, ontvangen de gebruikers met toestemmingen op de kwestie de toestemmingen die op dat project worden geplaatst. Voor informatie over het plaatsen van toestemmingen op projecten, zie [ een project in Adobe Workfront ](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md) delen.
-
-   ![ Nieuwe Verpletterende doos van de Regel ](assets/new-routing-rule-box.png)
 
 1. Klik **sparen**.
 

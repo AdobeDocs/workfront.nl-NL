@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
+source-git-commit: b89f4aa6f779e09d6749e59bdf3d54f0dd9bbf03
 workflow-type: tm+mt
 source-wordcount: '1397'
 ht-degree: 0%
@@ -131,7 +131,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
 
-1. Klik **creëren**. Het aanvraagformulier voor het geselecteerde recordtype wordt geopend.
+1. Klik **creëren**. Het aanvraagformulier voor het geselecteerde recordtype wordt geopend <!--<span class="preview"> in the Form tab</span>; add screen shot below with Configuration tab.--> .
 
    ![](assets/campaigns-request-form-edit-mode.png)
 
@@ -156,7 +156,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >    * <span class="preview"> Personen </span>
    >    * <span class="preview"> Workfront voorwerpen&#39; verbonden gebieden </span>
    >    * <span class="preview"> Met AEM Assets verbonden velden </span>
-
 
 
    * **Standaard sectie**: Dit is de standaardsectieonderbreking die Workfront op de verzoekvorm van toepassing is. De standaardsectie kan niet worden anders genoemd of worden verwijderd.
@@ -190,6 +189,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    Voor meer informatie over de bouw van een douaneformulier, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 1. (Facultatief) klik **Voorproef** om te bekijken hoe de vorm voor andere gebruikers zal tonen wanneer zij het zullen gebruiken om een nieuw verslag voor te leggen.
+
+   <!--
+   <div class="preview">
+   1. (Optional) Click the **Configuration** tab, then add at least one user to the **Approvers** field to approve new requests for this record form. 
+      When you associate a request form with approvers, any new request must first be approved by all approvers before it generates a new record. 
+      You can add one or several approvers to a request form. If at least one approver rejects the request, the request is rejected and the record is not created.
+   For more information about adding approvals to request forms, see [Add approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md). 
+   </div>
+   -->
+
 1. (Facultatief) klik **Meer** menu ![](assets/more-menu.png) aan het recht van de naam van de vorm in de kopbal, dan klik **uitgeven** om de naam van de vorm bij te werken.
 1. Klik **Publish** om de vorm te publiceren en een unieke verbinding voor het te verkrijgen.
 
