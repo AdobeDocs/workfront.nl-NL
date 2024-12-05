@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 7a1df83c0dd7ddf7dd6cf41643ba65c5903d6eba
+source-git-commit: a660fa9fedaf05582760029e062abb3d728106bd
 workflow-type: tm+mt
-source-wordcount: '4419'
+source-wordcount: '4383'
 ht-degree: 0%
 
 ---
@@ -26,10 +26,6 @@ Een vertrouwdheid met het schema van Workfront zal u helpen bij het begrijpen va
 Voor consistente Workfront-systeemprestaties op aanvraag beperkt de Workfront API gelijktijdige API-threads. Deze handleiding voorkomt systeemproblemen die worden veroorzaakt door foutieve API-aanroepen. De Sandbox-omgeving heeft dezelfde gelijktijdige limiet voor de API-thread, waardoor klanten en partners API-aanroepen nauwkeurig kunnen testen voordat code wordt vrijgegeven voor productie.
 
 Voor productie, voorproef, en testaandrijvingsmilieu&#39;s hebben de eindgebruikersverzoeken een maximumlengte van URI van 8892 bytes omdat zij door Workfront CDN (Akamai) worden verpletterd. Deze limiet geldt alleen voor URI&#39;s die worden gerouteerd via de CDN.
-
->[!NOTE]
->
->deze limiet is niet van toepassing op sandboxomgevingen omdat sandboxomgevingen niet worden gerouteerd via de CDN.
 
 ### Disclaimer
 
@@ -110,14 +106,6 @@ Hieronder ziet u een voorbeeld van een aanvraagkoptekst:
 ```
 GET /attask/api/v15.0/project/search
 SessionID: abc1234
-```
-
-#### Parameterverificatie aanvragen
-
-U kunt verifiëren door een verzoekparameter genoemd sessionID over te gaan, zoals aangetoond in het volgende voorbeeld: 
-
-```
-GET /attask/api/v15.0/project/4c78821c0000d6fa8d5e52f07a1d54d0?sessionID=abc1234
 ```
 
 #### Verificatie op basis van cookie
