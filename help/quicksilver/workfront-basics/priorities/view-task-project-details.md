@@ -5,13 +5,13 @@ description: U kunt project- en taakdetails weergeven in de prioriteitenwerklijs
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 8384c2ce2e83aa07c504c56193b19a557226d15a
+exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
+source-git-commit: 9af607f381ced982d72a19b2a5ce780796747c2e
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
-
 
 # Projectdetails en taakdetails weergeven in de werklijst Prioriteiten
 
@@ -67,8 +67,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    * Opmerkingen over het project weergeven en toevoegen
    * Logtijd
    * Een bestand toevoegen
+   * <span class="preview"> ga direct naar het project </span>
 
-   ![ projectdetails ](assets/project-details.png)
+<!-- ![project details](assets/project-details.png)-->
 
 ## Taakdetails weergeven
 
@@ -83,4 +84,4 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    * Een bestand toevoegen
    * Snelle koppelingen toevoegen
 
-   ![ taakdetails ](assets/task-details.png)
+   <!-- ![task details](assets/task-details.png)-->
