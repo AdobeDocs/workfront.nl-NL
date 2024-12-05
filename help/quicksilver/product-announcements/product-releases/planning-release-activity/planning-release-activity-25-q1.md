@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 5db940b197364e30ef6e1ea3e3c94ae3bda5b20c
+source-git-commit: 93fca2a98a8b9d4370841b10be10ed2ba15283c9
 workflow-type: tm+mt
-source-wordcount: '1769'
+source-wordcount: '1920'
 ht-degree: 0%
 
 ---
@@ -34,12 +34,31 @@ In dit artikel worden de functies beschreven die tijdens de release Eerste kwart
 
 Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront na de algemene beschikbaarheidsversie op 28 augustus, 2024 worden vrijgegeven, zie [ de versieactiviteit van de Planning van Adobe Workfront: artikelindex ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Intelligente zoekactie bij het zoeken naar een veldtype
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 5 december 2024; Productieversie voor alle klanten: 5 december 2024
+
+We hebben intelligente zoekfunctionaliteit toegevoegd bij het zoeken naar een veldtype in Workfront Planning. U kunt nu naar veldtypen zoeken wanneer u een trefwoord typt. Als u bijvoorbeeld &quot;Prijs&quot; typt, worden de veldtypen Aantal en Valuta gevonden. Voorafgaand aan deze verbetering, kon u slechts naar de daadwerkelijke naam van het gebiedstype zoeken.
+
+Voor informatie, zie [ gebieden ](/help/quicksilver/planning/fields/create-fields.md) creëren.
+
+## Aangepaste kleurkiezer voor kleurcoderingsopties van velden met één of meerdere selecties
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 5 december 2024; productie voor snelle release: met de release van 24.12 (12 december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
+
+U kunt nu aangepaste kleurkeuzen maken wanneer u een veld maakt of bewerkt dat uit één of meerdere selecties bestaat. Wanneer u velden maakt of bewerkt met opties voor kleurcodes, wordt een kleurkiezer geopend wanneer u op het kleurpictogram klikt. U kunt kiezen uit vooraf gedefinieerde kleuren of aangepaste kleuren maken met hexadecimale codes of een kleurenspectrum.
+
+Voor informatie, zie [ gebieden ](/help/quicksilver/planning/fields/create-fields.md) creëren.
 
 ## Bestaande Workfront-velden importeren naar recordtypen voor Workfront Planning
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 27 november 2024; productie voor snelle release: met de release van 24.12 (december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
+>Voorvertoningsrelease: 27 november 2024; productie voor snelle release: met de release van 24.12 (12 december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
 
 Wanneer u nu velden toevoegt aan een recordtype, kunt u bestaande aangepaste of native Workfront-velden importeren en deze koppelen aan het geselecteerde recordtype. Als u bestaande velden importeert, wordt een kopie van de Workfront-velden gemaakt in Workfront Planning. De gekopieerde velden zijn onafhankelijk van de originele versies.
 
@@ -53,7 +72,7 @@ Voor informatie, zie [ gebieden van de Invoer van Adobe Workfront ](/help/quicks
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 27 november 2024; productie voor snelle release: met de release van 24.12 (december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
+>Voorvertoningsrelease: 27 november 2024; productie voor snelle release: met de release van 24.12 (12 december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
 
 U kunt nu nieuwe recordtypen importeren door een CSV- of Excel-bestand te importeren.
 
@@ -71,7 +90,7 @@ Voor meer informatie, zie [ recordtypes ](/help/quicksilver/planning/architectur
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 27 november 2024; productie voor snelle release: met de release van 24.12 (december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
+>Voorvertoningsrelease: 27 november 2024; productie voor snelle release: met de release van 24.12 (12 december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
 
 We hebben een waarschuwingsbericht geïntroduceerd bij het bewerken of maken van een formuleringsveld dat een cirkelverwijzing naar zichzelf of gedeelde velden kan maken. U kunt geen formuleringsgebied opslaan dat of naar zich of naar punten verwijst die in zijn berekening van verwijzingen worden voorzien.
 
@@ -81,7 +100,7 @@ Voor informatie, zie [ gebieden ](/help/quicksilver/planning/fields/create-field
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 27 november 2024; productie voor snelle release: met de release van 24.12 (december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
+>Voorvertoningsrelease: 27 november 2024; productie voor snelle release: met de release van 24.12 (12 december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
 
 U kunt pagina&#39;s toevoegen aan het detailgebied van een record om de gekoppelde records in een tabelweergave weer te geven. U kunt één pagina per verbonden record toevoegen.
 
@@ -93,7 +112,7 @@ Voor informatie, zie [ de lay-out van de verslagpagina beheren ](/help/quicksilv
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 27 november 2024; productie voor snelle release: met de release van 24.12 (december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
+>Voorvertoningsrelease: 27 november 2024; productie voor snelle release: met de release van 24.12 (12 december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
 
 U vindt nu aanvragen voor Workfront-planning in het gedeelte Verzoeken in Workfront. In de sectie Verzenden worden nu de volgende tabbladen weergegeven:
 
@@ -110,7 +129,7 @@ Voor informatie, zie [ de Verzoeken van de Planning van Adobe Workfront voorlegg
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 27 november 2024; productie voor snelle release: met de release van 24.12 (december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
+>Voorvertoningsrelease: 27 november 2024; productie voor snelle release: met de release van 24.12 (12 december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
 
 U kunt nu de volgende veldtypen toevoegen aan een aanvraagformulier voor een recordtype in Workfront Planning:
 
@@ -125,7 +144,7 @@ Zie Een aanvraagformulier maken en beheren in Adobe Workfront Planning (/help/qu
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 27 november 2024; productie voor snelle release: met de release van 24.12 (december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
+>Voorvertoningsrelease: 27 november 2024; productie voor snelle release: met de release van 24.12 (12 december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
 
 U kunt een aanvraagformulier niet meer openbaar delen als het formulier een van de volgende veldtypen bevat:
 
@@ -141,7 +160,7 @@ Voor informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 26 november 2024; productie voor snelle release: met de release van 24.12 (december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
+>Voorvertoningsrelease: 26 november 2024; productie voor snelle release: met de release van 24.12 (12 december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
 
 U kunt nu records in de kalenderweergave per week weergeven. Voorafgaand aan deze verbetering, kon u de kalendermening slechts door maand tonen.
 
@@ -151,7 +170,7 @@ Voor informatie, zie [ de kalendermening ](/help/quicksilver/planning/views/mana
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 22 november 2024; productie voor snelle release: met de release van 24.12 (december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
+>Voorvertoningsrelease: 22 november 2024; productie voor snelle release: met de release van 24.12 (12 december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
 
 Nadat de records zijn verwijderd, worden ze nu tijdelijk gedurende 30 dagen naar een onlangs verwijderde opslagplaats verplaatst. U hebt toegang tot het vak Onlangs verwijderd op de pagina van het recordtype en het vak bevat alleen records van een specifiek type.
 
@@ -165,7 +184,7 @@ Voor meer informatie, zie [ schrapte verslagen ](/help/quicksilver/planning/reco
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 21 november 2024; productie voor snelle release: met de release van 24.12 (december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
+>Voorvertoningsrelease: 21 november 2024; productie voor snelle release: met de release van 24.12 (12 december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
 
 Om het voor u gemakkelijker te maken om het werk te verwezenlijken, hebben wij de Medewerker van de Adobe AI aan de detailvoorproef van een verslag of de pagina van het verslag toegevoegd. U kunt de AI-assistent in een recordpagina gebruiken om informatie over de record bij te werken.
 
@@ -175,7 +194,7 @@ Voor informatie, zie [ de Planning AI van Adobe Workfront Hulp overzicht ](/help
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 20 november 2024; productie voor snelle release: met de release van 24.12 (december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
+>Voorvertoningsrelease: 20 november 2024; productie voor snelle release: met de release van 24.12 (12 december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
 
 Wanneer u de voorvertoning of pagina van een record opent en de record geen miniatuur of omslagafbeelding heeft, moet u de muisaanwijzer boven het gebied boven de naam van de record in de koptekst plaatsen om de opties voor het toevoegen van een omslag en een miniatuurafbeelding aan de record te bekijken. Vóór deze verbetering, de lege placeholder beelden voor de duimnagel en de omslag die boven de verslagnaam wordt getoond.
 
@@ -188,7 +207,7 @@ Raadpleeg de volgende artikelen voor meer informatie:
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 7 november 2024; productie voor snelle release: met de release van 24.12 (december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
+>Voorvertoningsrelease: 7 november 2024; productie voor snelle release: met de release van 24.12 (12 december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
 
 Als u getallen beter leesbaar wilt maken in de tabelweergave, kunt u nu een van de volgende opties selecteren om de manier te wijzigen waarop een percentageveld wordt weergegeven in de tabelweergave:
 

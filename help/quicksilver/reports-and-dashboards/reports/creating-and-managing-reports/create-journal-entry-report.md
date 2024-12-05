@@ -5,14 +5,16 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
+source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
 workflow-type: tm+mt
-source-wordcount: '2722'
+source-wordcount: '2714'
 ht-degree: 0%
 
 ---
 
 # Rapport over het gebied Updates
+
+<!-- Audited: 11/2024 -->
 
 Het rapport Dagboekingang bevat systeemupdates van het gebied Updates van projecten, taken, problemen en andere objecten die voorheen alleen beschikbaar waren via de Adobe Workfront API. Hoewel dit een geavanceerd rapport is dat is bedoeld voor specifieke gebruiksgevallen, maakt het verteerbaardere formaat het voor u gemakkelijker om over projectactiviteit en systeemupdates binnen Workfront te rapporteren.
 
@@ -45,7 +47,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Nieuw: Standaard </p><p>of </p><p>Huidig: Plan </p> </td> 
+      <td> 
+      <p>Nieuw:</p>
+         <ul>
+         <li><p>Standaard</p></li>
+         </ul>
+      <p>Huidige:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
@@ -58,7 +69,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -439,7 +450,7 @@ Zo ziet u hoe aangepaste velden tijdens de levenscyclus van een project zijn gew
 
    * **identiteitskaart van het Project** > **Gelijk** > **`<project>`**
 
-     ![](assets/qs-custom-form-changes-filter-350x92.png)
+   ![](assets/qs-custom-form-changes-filter-350x92.png)
 
    Voor meer informatie bij het toevoegen van filters, zie [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -629,7 +640,7 @@ U kunt opstelling het rapport van de Ingang van het Dagboek om te tonen hoeveel 
    * **Naam van het Gebied** > **Gelijk** > **ownerID**
    * **identiteitskaart van het Project** > **Gelijk** > **`<project name>`**
 
-     ![](assets/qs-owner-changes-filter-350x94.png)
+   ![](assets/qs-owner-changes-filter-350x94.png)
 
    Voor meer informatie bij het toevoegen van filters, zie [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 

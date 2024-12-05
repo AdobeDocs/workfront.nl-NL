@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
-source-git-commit: 8b69fc1e20ad255cb9874b70289fc11dcb03cdb0
+source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '711'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,26 @@ ht-degree: 0%
 Deze pagina beschrijft kleine updates van de blik en het gevoel van diverse gebieden van de toepassing van Adobe Workfront die binnen het Eerste Kwartaal 2025 releasetijdschema werden gemaakt.
 
 Voor een lijst van alle veranderingen beschikbaar met Eerste Kwartaal 2025 versie, zie [ Eerste Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+
+## Bijgewerkte ervaring op de pagina van de Leveranciers van de Wolk in het gebied van de Opstelling
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 5 december 2024; Productieversie voor alle klanten: met de release van 24.12 (12 december 2024)
+
+Om de prestaties te verbeteren, hebben wij visuele updates aan de pagina van Leveranciers van de Wolk in het gebied van de Opstelling gemaakt.
+
+Er is een kleine functiewijziging toegepast op de Quip-integratie. In plaats van de client-id en het clientgeheim rechtstreeks in te voeren op de pagina met cloudproviders, moet u op het pictogram Bewerken klikken om deze velden zichtbaar te maken.
+
+## Update weergeven voor dialoogvenster Verzoek om toegang
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 28 november 2024; productie voor snelle release: met de release van 24.12 (12 december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
+
+Het dialoogvenster voor het aanvragen van toegang tot objecten is bijgewerkt tot een modern ontwerp dat aansluit bij andere gebieden van Workfront. Deze dialoog is beschikbaar wanneer u om toegang tot projecten, taken, kwesties, programma&#39;s, portefeuilles, malplaatjes, en malplaatjetaken verzoekt.
+
+Voor informatie, zie [ Toegang van het Verzoek tot voorwerpen ](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md).
 
 ## Zoeken naar updates voor documentintegratie
 
@@ -30,7 +50,7 @@ Wij hebben prestatiesverbeteringen aan het gebied in Opstelling gemaakt waar u d
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 4 november 2024; productie voor snelle release: met de release van 24.12 (december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
+>Voorvertoningsrelease: 4 november 2024; productie voor snelle release: met de release van 24.12 (12 december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
 
 We hebben de pagina&#39;s Bedrijfsleden en Factureringstarieven bijgewerkt met een modernere opzet die consistent is met andere gebieden van Workfront. Het lidmaatschap van het bedrijf wordt betreden via Opstelling > Bedrijven > selecteert een bedrijfsnaam > de uitgezochte Leden van het Bedrijf in het linkerpaneel. Factureringssnelheden voor bedrijven zijn toegankelijk via Setup > Companies > selecteer een bedrijfsnaam > Factureringssnelheden selecteren in het linkerdeelvenster.
 
@@ -53,7 +73,7 @@ De meest opvallende wijzigingen zijn:
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 4 november 2024; productie voor snelle release: met de release van 24.12 (december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
+>Voorvertoningsrelease: 4 november 2024; productie voor snelle release: met de release van 24.12 (12 december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
 
 We introduceren een nieuwe lijstopmaak in het gedeelte Workfront Setup en de lijst met wisselkoersen is de eerste pagina die deze tabelopmaak gebruikt. De functionaliteit voor het toevoegen van nieuwe wisselkoersen en het zoeken naar wisselkoersen is niet gewijzigd.
 
@@ -63,7 +83,7 @@ Voor informatie over wisselkoersen, zie [ Opstelling wisselkoersen ](/help/quick
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 4 november 2024; productie voor snelle release: met de release van 24.12 (december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
+>Voorvertoningsrelease: 4 november 2024; productie voor snelle release: met de release van 24.12 (12 december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
 
 Wij hebben de pagina van Gegevens van de Uitvoer (Kick-Begint) in het gebied van de Opstelling met een moderner ontwerp bijgewerkt dat met andere gebieden van Workfront verenigbaar is.
 

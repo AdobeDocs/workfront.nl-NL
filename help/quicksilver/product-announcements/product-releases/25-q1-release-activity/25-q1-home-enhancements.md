@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-source-git-commit: 8b69fc1e20ad255cb9874b70289fc11dcb03cdb0
+source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,16 @@ ht-degree: 0%
 Op deze pagina worden alle Home-verbeteringen beschreven die zijn aangebracht met de release First Quarter 2025 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2025 versiecyclus, zie [ Eerste Kwartaal 2025 versieoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+
+## Navigeer aan de pagina van Details van een project van Prioriteiten
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 5 december 2024; Productieversie voor alle klanten: met de release van 25.1 (januari 2025)
+
+U kunt nu rechtstreeks vanuit de prioriteitswerklijst naar een project in Workfront navigeren.
+
+Voor meer informatie, zie [ project en taakdetails van de Mening in de werklijst van Prioriteiten ](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md).
 
 ## Bijgewerkte opties in Mijn Focus kolom in Prioriteiten
 

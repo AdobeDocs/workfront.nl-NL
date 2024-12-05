@@ -6,9 +6,9 @@ description: Filters en herinneringen zijn gelijkaardig in die zin dat zij alleb
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b4058fb3-7360-474f-8be1-1c6b584749b0
-source-git-commit: 9396cd2ac073a57b7d99618cdf09e54ddcf95130
+source-git-commit: 93fca2a98a8b9d4370841b10be10ed2ba15283c9
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: '1363'
 ht-degree: 0%
 
 ---
@@ -172,3 +172,5 @@ Hieronder volgt een beperking voor het delen van rapporten die worden gevraagd d
 * Wanneer u een veroorzaakt rapport voor levering plant omvat het rapport in de e-mailgehechtheid ongevraagd de gegevens van het rapport. Wanneer de gebruiker de verbinding in e-mail klikt om tot het rapport toegang te hebben, moeten zij login eerst om het rapport te bekijken en de herinnering zelf in werking te stellen.
 
   Voor informatie over het plannen van een geleverd rapport, zie [ Plan een automatische rapportlevering ](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
+
+* Wanneer het runnen van een rapport met een op datum-gebaseerde herinnering, zullen de rapportresultaten worden gefiltreerd gebaseerd op de montages van de de tijdzone van uw browser. Dit kan lichte verschillen in de datumwaaiers veroorzaken die in een veroorzaakt rapport voor data worden getoond die aan het begin of eind van een maand zijn. Als de de tijdzonemontages van uw browser aan een specifieke plaats gebonden zijn, zullen de variaties in de lokale tijd van die plaats (zoals gehechtheid aan zomertijd) ook in de data worden verwerkt die voor een veroorzaakt rapport worden getoond. Dit kan leiden tot kleine verschillen in datumbereik tussen gebruikers in dezelfde tijdzone, maar met verschillende locatie-instellingen.

@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: fa24040d-0403-4799-b690-c3d172797115
-source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
+source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '451'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 21 november 2024; productie voor snelle release: met de release van 24.12 (december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
+>Voorvertoningsrelease: 21 november 2024; productie voor snelle release: met de release van 24.12 (12 december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
 
 Als systeem of groepsbeheerder, hebt u nu een nieuwe voorkeur om erop te wijzen of Workfront het project of het programma van de gebruiker zou moeten gebruiken om de chronologie van het project te berekenen wanneer u één gebruiker aan een taak toewijst en zowel het project als de gebruiker met een programma wordt geassocieerd. Voorafgaand aan deze verbetering, bestonden deze het plaatsen voor meervoudige gebruikerstoewijzingen. De instelling is nu beschikbaar voor toewijzingen van één gebruiker aan taken.
 
@@ -32,7 +32,7 @@ Voor meer informatie, zie [ systeem-brede projectvoorkeur ](/help/quicksilver/ad
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 21 november 2024; productie voor snelle release: met de release van 24.12 (december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
+>Voorvertoningsrelease: 21 november 2024; productie voor snelle release: met de release van 24.12 (12 december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
 
 U kunt hyperlinks in het bericht van de douanefout van een bedrijfsregel nu omvatten, om de gebruiker op te begeleiden hoe te om hun actie binnen de beperking van de regel te wijzigen. De statische URL kan worden gekoppeld aan documentatie of andere pagina&#39;s die nuttig zijn voor de gebruiker.
 
@@ -42,7 +42,7 @@ Voor informatie, zie [ bedrijfsregels ](/help/quicksilver/administration-and-set
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 21 november 2024; productie voor snelle release: met de release van 24.12 (december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
+>Voorvertoningsrelease: 21 november 2024; productie voor snelle release: met de release van 24.12 (12 december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
 
 Wanneer u een native veldverwijzing toevoegt aan een aangepast formulier en het verwijst naar een typeahead-veld (zoals Portfolio, Bedrijf of Eigenaar), is er nu een filteroptie beschikbaar. Met dit filter kunt u de objecten beperken die gebruikers kunnen kiezen wanneer ze het veld gebruiken. Dit aangepaste filter werkt hetzelfde als een filter in een aangepast tekstveld en gebruikt Tekstmodus om het filter te definiëren.
 
