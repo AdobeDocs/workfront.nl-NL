@@ -7,9 +7,9 @@ description: Via e-mailberichten die door Workfront Proof zijn gegenereerd, word
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 12f1443d69bb9306af29e4ab295f701089cdfb88
 workflow-type: tm+mt
-source-wordcount: '1860'
+source-wordcount: '1876'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ U kunt proefdrukinstellingen configureren voor proefdrukken die u maakt.
 
 <!--For information about proof settings the [!DNL Workfront] administrator or [!DNL Workfront Proof] administrator can configure, see .-->
 
-1. Klik op **[!UICONTROL Settings]** > **[!UICONTROL Personal settings]** .
+1. Klik op de profielfoto in de rechterbovenhoek en klik vervolgens op **[!UICONTROL Personal settings]** .
 
 1. Klik op de tab **[!UICONTROL Proofing defaults]** .
 1. Klik op **[!UICONTROL Default email notification settings]** om het uit te vouwen.
@@ -163,7 +163,7 @@ U kunt e-mailwaarschuwingen voor een bepaalde ontvanger wijzigen in een batchact
 
 Als u een [!DNL Workfront Proof] beheerder bent, kunt u proefdrukstandaardinstellingen instellen voor gebruikers in uw account.
 
-1. Klik op **[!UICONTROL Settings]** > **[!UICONTROL Account settings]** .
+1. Klik op **[!UICONTROL Account settings]** boven aan het scherm.
 
 1. Open de tab **[!UICONTROL Users]** .
 1. Open het **[!UICONTROL  More]** menu ![ More_button_small.png ](assets/more-button-small.png) aan het recht van de naam van de gebruiker.

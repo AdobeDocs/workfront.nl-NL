@@ -6,9 +6,9 @@ description: Met Home kunt u uw werk beheren. U kunt deze flexibele ruimte aanpa
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 9d0caff0381ee50bf8dd7060bebafb5354c0f0d8
+source-git-commit: 1347911f2d0c03874c759f02b207e3fa93ca5bb4
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1014'
 ht-degree: 0%
 
 ---
@@ -148,32 +148,6 @@ U kunt een beetje persoonlijke flakkering aan uw Homepage toevoegen door een kle
    Het deelvenster Aanpassen wordt geopend.
 
 1. In de **sectie van de Achtergrond** van **pas** paneel aan, klik de kleur u voor uw achtergrond van het Huis zou willen selecteren. U kunt **niets** ook klikken om de achtergrond te verwijderen.
-
-## Terugkeren naar de huidige Home-ervaring
-
-Als u liever de bestaande Home-ervaring wilt gebruiken, kunt u de nieuwe Home-ervaring uitschakelen.
-
-Ga terug naar de huidige Home-ervaring:
-
-1. Ga naar uw startpagina door een van de volgende handelingen uit te voeren:
-
-   * Als het Huis als uw het landen pagina wordt geplaatst, klik het **pictogram van Adobe Workfront ![ het Pictogram van Adobe Workfront ](assets/home-icon-30x29.png) in de upper-left hoek van uw scherm.**
-   * Klik het **Belangrijkste pictogram van het Menu** in de hoger-juiste hoek van het scherm, of het **Belangrijkste pictogram van het Menu** pictogram van het Menu ![ Hoofd ](assets/main-menu-icon.png) in de upper-left hoek, als beschikbaar, dan klik **Huis**.
-
-1. Klik op **ga terug naar de huidige 1} knoop van het Huis {in de bodem-juiste hoek van de pagina.**
-
-   ![ ga terug naar huidige knoop van het Huis ](assets/customize-button.png)
-
-   Er wordt een bevestigingsvenster weergegeven.
-
-1. Neem een kort onderzoek over uw ervaring met het nieuwe Huis of klik **ga terug naar het huidige Huis** om aan de huidige ervaring van het Huis terug te keren.
-
->[!NOTE]
->
-> Systeembeheerders kunnen het nieuwe startpunt als standaard uitschakelen voor hun gebruikers. Voor informatie bij het veranderen van de ervaring van het standaardHuis voor gebruikers over een systeem, zie [ systeemvoorkeur ](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md) vormen.
-
-
-
 
 
 
