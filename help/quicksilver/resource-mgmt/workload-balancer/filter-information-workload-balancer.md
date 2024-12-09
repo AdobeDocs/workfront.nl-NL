@@ -6,9 +6,9 @@ description: We raden u ten zeerste aan filters te gebruiken in Workload Balance
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: fcc4a105f0f49c34fea4bc11f4bf2c6f54cd7769
 workflow-type: tm+mt
-source-wordcount: '2459'
+source-wordcount: '2450'
 ht-degree: 0%
 
 ---
@@ -179,8 +179,6 @@ U kunt een geheel nieuw filter maken of een van de vooraf gedefinieerde filters 
 
 1. Klik **Nieuwe filter.**
 
-   ![](assets/new-filters-empty-panel-workload-balancer-350x460.png)
-
 1. Ga als volgt te werk om een filter te maken:
 
    1. Selecteer een gebiedsnaam in het eerste drop-down menu of klik **doorbladert gebieden** beginnen de naam van een gebied te typen dat niet door gebrek toont.
@@ -198,7 +196,7 @@ U kunt een geheel nieuw filter maken of een van de vooraf gedefinieerde filters 
       >U kunt een veld selecteren uit de volgende secties:
       >
       >* **Recente selecties**: de gebieden u onlangs voor hebt gefilterd.
-      >* **Voorgestelde gebieden**: de gebieden het meest meestal gebruikt.
+      >* **stelde** voor: de gebieden het meest meestal gebruikt.
 
 
    1. Selecteer een bepaling van het tweede drop-down menu. Voor informatie over de filterbepalingen van Workfront, zie [ Filters en voorwaardenbepalingen ](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
@@ -206,13 +204,13 @@ U kunt een geheel nieuw filter maken of een van de vooraf gedefinieerde filters 
 
       >[!NOTE]
       >
-      > Wanneer u werkobjecten uit een bepaald portfolio wilt weergeven, kunt u het volgende filter toepassen: &quot;Naam van Portfolio bevat marketing.&quot; Dit toont het werkpunten die tot om het even welke portefeuille behoren die &quot;marketing&quot;in de naam bevat.
+      > Wanneer u werkobjecten uit een bepaald portfolio wilt weergeven, kunt u het volgende filter toepassen: &quot;Portfolio-id is gelijk aan &lt; de naam van het portfolio >.&quot;
       >
       >![](assets/portfolio-name-filter-statement-wb-350x262.png)
-
-      >[!NOTE]
       >
       >Om projecten in een status van Op Greep uit te sluiten, moet u het volgende filter toepassen: &quot;Project: De status is niet gelijk aan Op Greep.&quot; Dit verhindert het werkpunten op de projecten van de Greep in de Balancer van de Werklast te tonen.
+      >
+      >![](assets/project-status-filter-statement-wb.png)
 
    1. (Facultatief) klik **Schrapping** pictogram ![](assets/delete.png) om een filtercriteria te verwijderen.
 
@@ -240,8 +238,8 @@ U kunt een geheel nieuw filter maken of een van de vooraf gedefinieerde filters 
    >
    >Het klikken **annuleert** op elk ogenblik, neemt u terug naar het gebied van de filterbouw.
 
-1. Selecteer **Naamloze Filter** en ga in plaats daarvan de naam van de nieuwe filter in.
-1. Selecteer een pictogram voor de nieuwe filter van het **drop-down menu van het Pictogram**.
+1. Klik binnen het **Naamloze gebied van de Filter**, en ga de naam van de nieuwe filter in.
+1. (Optioneel) Selecteer een pictogram voor het nieuwe filter in het vervolgkeuzemenu **Pictogram** .
 
    ![](assets/new-filters-select-icon-expanded-drop-down-wb.png)
 

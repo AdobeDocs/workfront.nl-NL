@@ -6,16 +6,16 @@ description: Een voorganger voor meerdere projecten is een taak waarvan een ande
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---
 
 # Predecessors voor meerdere projecten maken
 
-<!--Audited: 12/2023-->
+<!--Audited: 12/2024-->
 
 Een voorganger voor meerdere projecten is een taak waarvan een andere taak (een opvolgertaak genoemd) in een ander project afhankelijk is. De voorganger is de taak die voorrang heeft op de afhankelijke (opvolger)taak. Bijvoorbeeld, kunt u tot een gebiedsdeel leiden dat vereist dat de voorgangertaak wordt duidelijk Voltooid alvorens de afhankelijke taak kan beginnen.
 
@@ -72,12 +72,18 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 ## Een voorganger voor meerdere projecten maken
 
 1. Ga naar de taak die uw opvolger (afhankelijke taak) zal zijn.
-1. Klik **Predecessors** in het linkerpaneel.
+1. Klik **Predecessors** in het linkerpaneel. U zou **kunnen moeten klikken tonen Meer**, en dan **Predecessors**.
+
+   >[!TIP]
+   >
+   >   Uw Workfront of groepsbeheerder kon de **Predecessors** sectie of andere secties uit het linkerpaneel verwijderen.
+
 1. Klik **toevoegen Voorganger.**
 1. Op het **gebied van het Project van de Ouder 0} {, begin typend de naam van het project dat de taak bevat die u voorganger aan uw huidige taak wilt zijn.**
 1. Klik op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst.
 1. Op het **gebied van Taken**, begin typend de naam van de taak die u voorganger aan uw huidige taak wilt zijn.
 1. Geef de volgende informatie op voor het definiëren van de relatie tussen de voorganger en de afhankelijke taak:
+
 
    * **Type van Afhankelijkheid:** selecteer de verhouding die u de voorgangertaak met de afhankelijke taak wilt hebben. De standaardverhouding is &quot;eind-Begin,&quot;betekenend dat de voorgangerstaak moet beëindigen alvorens de afhankelijke taak kan beginnen. Voor meer informatie over de diverse gebiedsdeeltypes, zie [ Overzicht van de types van taakgebiedsdeel ](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 

@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 7bb56395151d88595d446703d5d689c03b1e0372
+source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
 workflow-type: tm+mt
-source-wordcount: '14673'
+source-wordcount: '14681'
 ht-degree: 0%
 
 ---
@@ -2138,6 +2138,7 @@ ht-degree: 0%
       * [Adobe Workfront-planningsverzoeken: artikelindex](planning/requests/requests-article-index.md)
       * [Een aanvraagformulier maken en beheren in Adobe Workfront Planning](planning/requests/create-request-form.md)
       * [Adobe Workfront-planningsverzoeken verzenden om records te maken](planning/requests/submit-requests.md)
+      * [Publiceren van een aanvraagformulier in Adobe Workfront Planning ongedaan maken](planning/requests/unpublish-request-form.md)
    * Weergaven Adobe Workfront Planning {#adobe-workfront-planning-views}
       * [Weergaven: artikelindex](planning/views/views-information.md)
       * [Recordweergaven beheren](planning/views/manage-record-views.md)

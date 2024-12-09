@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
+source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
 workflow-type: tm+mt
-source-wordcount: '1677'
+source-wordcount: '1791'
 ht-degree: 0%
 
 ---
@@ -76,14 +76,6 @@ De volgende twee scenario&#39;s bestaan bij het berekenen van de duur in Adobe W
 >[!NOTE]
 >
 >Wanneer rekening houdend met de tijd van de Primaire Ontvanger op een project, zouden de geplande data van de taak kunnen aanpassen, maar de Duur van de taak blijft het zelfde. Voor informatie over het nemen van rekening met de tijd van de Primaire Ontvanger wanneer het plannen van een project, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
-
-## De originele Duur van een oudertaak
-
-De Originele Duur van een taak is de Duur die een taak oorspronkelijk had alvorens het een oudertaak, in notulen werd.
-
-Wanneer een taak een ouder wordt, rolt de Duur tussen de Geplande Datum van het Begin van het vroegste kind en de Geplande Datum van de Voltooiing van het laatste kind tot de oudertaak en wordt de Duur van de oudertaak. Dit vervangt de Duur van de originele taak.
-
-Voor meer informatie, zie [ Overzicht van taak Oorspronkelijke Duur en Origineel Gepland Uren ](/help/quicksilver/manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md).
 
 ## Eenheden van tijd voor de Duur van de Taak
 
@@ -181,6 +173,27 @@ Met het type Duur kunt u de volgende vragen beantwoorden:
 ## Het type Duur van nieuwe taken
 
 Het type van Duur van een nieuwe taak past het Type van Duur aan opstelling in uw systeem aan. Het standaardtype van Duur is Berekende Toewijzing. Uw beheerder van Workfront of een groepsbeheerder kan het Type van standaardDuur voor uw systeem of voor de groep bijwerken verbonden aan het project. Voor informatie, zie [ de taak en de uitgevende voorkeur van het systeem brede ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) vormen.
+
+## De originele Duur van een oudertaak
+
+De Originele Duur van een taak is de Duur die een taak oorspronkelijk had alvorens het een oudertaak, in notulen werd.
+
+Wanneer een taak een ouder wordt, rolt de Duur tussen de Geplande Datum van het Begin van het vroegste kind en de Geplande Datum van de Voltooiing van het laatste kind tot de oudertaak en wordt de Duur van de oudertaak. Dit vervangt de Duur van de originele taak.
+
+Wanneer de kinderen de eenheid van de Duur van Verstreken Dagen gebruiken en hun ouder gebruikt de eenheid van de Duur van Dagen, zouden er discrepanties in de manier kunnen zijn Workfront de Duur van de oudertaak berekent.
+
+Overweeg het volgende:
+
+* De tijdseenheid Verstreken dagen vertegenwoordigt kalenderdagen, die altijd uit 24 uur per dag bestaat.
+* De Dagen van de duureenheid vertegenwoordigt de werkdag die in het systeem wordt bepaald en configureerbaar is. In de meeste gevallen bestaat het uit 8 uur per dag.
+* De formule om de duur van de oudertaak te berekenen is het volgende:
+
+  `Parent task duration = Planned Completion Date of the child task that is planned to end the latest - Planned Start Date of the child task that starts the earliest`
+
+* Wanneer het berekenen van de duur van de oudertaak, berekent het systeem eerst de duur door de bovengenoemde formule en dan past het het programma toe.
+
+
+Voor meer informatie, zie [ Overzicht van taak Oorspronkelijke Duur en Origineel Gepland Uren ](/help/quicksilver/manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md).
 
 ## Het type duur van een taak wijzigen
 

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
+source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
 workflow-type: tm+mt
-source-wordcount: '1803'
+source-wordcount: '1805'
 ht-degree: 0%
 
 ---
@@ -166,15 +166,15 @@ The following features are currently available in Workfront Planning:
 
 ## Workfront Planning inschakelen voor de gebruikers in uw Workfront-exemplaar
 
-Nadat uw organisatie een vergunning voor de Planning van Workfront, als beheerder van Workfront koopt, moet u het volgende verzekeren zijn op zijn plaats alvorens de gebruikers tot de Planning van Workfront kunnen toegang hebben:
+Nadat uw organisatie een pakket van de Planning van Workfront, als beheerder van Workfront koopt, moet u het volgende verzekeren zijn op zijn plaats alvorens de gebruikers tot de Planning van Workfront kunnen toegang hebben:
 
 * Wijs de gebruikers toe die toegang tot de Planning van een lay-outmalplaatje nodig hebben dat Planning in het Belangrijkste Menu omvat. Voor meer informatie, zie [ het Belangrijkste Menu aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) en [ wijs gebruikers aan een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md) toe.
 
-* Wijs gebruikers een Workfront-licentie en Workfront Planning-machtigingen toe waarmee u 5554hview kunt weergeven of objecten kunt maken in Workfront Planning. Voor meer informatie over het verlenen van toegang tot en het toelaten van anderen om de Planning van Workfront te gebruiken, zie [ het Overzicht van de toegang van de Planning van de Adobe ](/help/quicksilver/planning/access/access-overview.md).
+* Wijs gebruikers een Workfront-licentie en Workfront Planning-machtigingen toe waarmee ze objecten kunnen weergeven of maken in Workfront Planning. Voor meer informatie over het verlenen van toegang tot en het toelaten van anderen om de Planning van Workfront te gebruiken, zie [ het Overzicht van de toegang van de Planning van de Adobe ](/help/quicksilver/planning/access/access-overview.md).
 
 ## Workfront Planning terminologie
 
-Hoewel Workfront Planning onderdeel is van Workfront, wordt het geleverd met eigen concepten en terminologie. Zorg ervoor dat u bekend bent met de nieuwe concepten voordat u begint met het instellen van Workfront Planning voor uw organisatie.
+Hoewel Workfront Planning onderdeel is van Workfront, wordt het geleverd met eigen concepten en terminologie. Zorg ervoor dat u deze concepten kent voordat u begint met het instellen van Workfront Planning voor uw organisatie.
 
 Het raamwerk voor Workfront Planning is volledig aanpasbaar. U kunt alle recordtypen, hun kenmerken en alle bijbehorende velden maken op basis van de exacte behoeften van uw organisatie.
 
@@ -189,6 +189,8 @@ Hieronder vindt u de belangrijkste Workfront-planningsobjecten en -concepten:
   Voor meer informatie, zie [ werkruimten ](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
 
 * **Type van Verslag**: De naam van objecten types in de Planning van Workfront.
+
+  Met recordtypen worden werkruimten gevuld.
 
   In tegenstelling tot Workfront, waar de objecttypen vooraf zijn gedefinieerd, kunt u in Workfront Planning uw eigen objecttypen maken.
 

@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
 workflow-type: tm+mt
-source-wordcount: '2714'
+source-wordcount: '2737'
 ht-degree: 0%
 
 ---
@@ -253,7 +253,7 @@ Deze informatie kan worden gebruikt om met controle te helpen en te illustreren 
 
    Voor meer informatie bij het toevoegen van kolommen, zie [ Overzicht van Meningen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. In het **lusje van Filters**, klik **filterregel** toevoegen, dan voeg de Naam van het filterregel **Gebied** toe > **Gelijk** > **status**.
+1. In het **lusje van Filters**, klik **voegt een Regel van de Filter** toe, dan voeg de Naam van het filterregel **Gebied** toe > **Gelijk** > **status**.
 
    ![](assets/nwe-journal-entry-status-filter-rules-350x90.png)
 
@@ -339,7 +339,7 @@ Zo ziet u wanneer een taak of uitgave is verwijderd:
 1. In het **lusje van Filters**, klik **toevoegen filterregel**, dan voeg de volgende filters toe:
 
    * **Type van Verandering** > **Gelijk** > **Schrapping**
-   * **identiteitskaart van het Project** > **Gelijk** > **`<project>`**
+   * **identiteitskaart van het Project** > **Gelijk** > **&lt; projectnaam >**
 
      <!--WRITER check link; this png file has spaces
      [![](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
@@ -383,7 +383,7 @@ Zo ziet u hoe aangepaste velden tijdens de levenscyclus van een project zijn gew
 
    De rapportbuilder laadt.
 
-1. In de **Kolommen (Mening)** tabel, voeg de volgende kolommen toe:
+1. In de **Kolommen (Mening)** tabel, verzeker u hebt of klikt **kolom** toevoegen om de volgende kolommen toe te voegen:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -440,15 +440,15 @@ Zo ziet u hoe aangepaste velden tijdens de levenscyclus van een project zijn gew
 
    Voor meer informatie bij het toevoegen van kolommen, zie [ Overzicht van Meningen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. In het **lusje van Filters**, klik **toevoegen filterregel**, dan voeg de volgende filters toe:
+1. In het **lusje van Filters**, klik **voeg een Regel van de Filter** toe, dan voeg de volgende filters toe:
 
    * **>** bevat de Naam van het Gebied van de Ingang van het Dagboek **>** DE ****
 
      >[!TIP]
      >
-     >Om dit rapport tot specifieke douanegebieden te beperken, voeg de naam van het Gebied van de Ingang van het Dagboek **>** Gelijk **>**`<custom field>`**toe.**
+     >Om dit rapport tot specifieke douanegebieden te beperken, voeg de naam van het Gebied van de Ingang van het Dagboek **>** Gelijk **>** &lt; de naam van het douanegebied> **toe.**
 
-   * **identiteitskaart van het Project** > **Gelijk** > **`<project>`**
+   * **identiteitskaart van het Project** > **Gelijk** > **&lt; project >**.
 
    ![](assets/qs-custom-form-changes-filter-350x92.png)
 
@@ -546,10 +546,10 @@ U kunt opstelling het rapport van de Ingang van het Dagboek tonen hoe vaak de Ge
 
    Voor meer informatie bij het toevoegen van kolommen, zie [ Overzicht van Meningen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. In het **lusje van Filters**, klik **toevoegen filterregel**, dan voeg het volgende toe:
+1. In het **lusje van Filters**, klik **voeg een Regel van de Filter** toe, dan voeg het volgende toe:
 
    * **Naam van het Gebied** > **Gelijk** > **Datum**
-   * **identiteitskaart van het Project** > **Gelijk** > **`<project>`**
+   * **identiteitskaart van het Project** > **Gelijk** > **&lt; projectnaam >**.
 
    ![](assets/qs-planned-completion-date-change-filter-350x91.png)
 
@@ -638,7 +638,7 @@ U kunt opstelling het rapport van de Ingang van het Dagboek om te tonen hoeveel 
 1. In het **lusje van Filters**, klik **toevoegen filterregel**, dan voeg het volgende toe:
 
    * **Naam van het Gebied** > **Gelijk** > **ownerID**
-   * **identiteitskaart van het Project** > **Gelijk** > **`<project name>`**
+   * **identiteitskaart van het Project** > **Gelijk** > **&lt; projectnaam >**.
 
    ![](assets/qs-owner-changes-filter-350x94.png)
 
@@ -662,4 +662,4 @@ U kunt opstelling het rapport van de Ingang van het Dagboek om te tonen hoeveel 
 
 1. Klik **sparen + Sluiten**.
 
-   Uw nieuwe rapport wordt geladen.
+   De nieuwe vertoningen van het dagboekingrapport.
