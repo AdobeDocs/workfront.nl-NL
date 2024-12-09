@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 59737844-e6ba-4f64-b2cc-a24c91525d37
-source-git-commit: d9bfe029f99bf4c205686dc7a30598f046977afd
+source-git-commit: 9f77afbb10d51a1bc0d770862a21e158b645da36
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1381'
 ht-degree: 1%
 
 ---
@@ -38,7 +38,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
 
 <table>
 <col style="width: 20%;" />
-<col style="width: 50%;" />
+<col style="width: 75%;" />
 <tbody>
     <tr>
     <td>Gebied</td>
@@ -247,7 +247,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
 
 
 <table>
-<col style="width: 50%;" />
+<col style="width: 75%;" />
 <tbody>
     <tr>
         <td>
@@ -263,7 +263,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
             Voorkeur om project of gebruikersprogramma voor enig-taaktaken te gebruiken</a></p>
             <p>Als systeem of groepsbeheerder, hebt u nu een nieuwe voorkeur om erop te wijzen of Workfront het project of het programma van de gebruiker zou moeten gebruiken om de chronologie van het project te berekenen wanneer u één gebruiker aan een taak toewijst en zowel het project als de gebruiker met een programma wordt geassocieerd.</p>
         </td>
-        <td><p>16 nov. 2024</p> <p>[!BADGE Nieuw in Voorproef ]{type=Negative}<p></td>
+        <td><p>16 nov. 2024</p> <p>[!BADGE New]{type=Negative}<p></td>
         <td>dec. 2024</td>
         <td>25,1</td>
     </tr>     
@@ -284,8 +284,8 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
             <p>Wanneer een aangepast formulier meerdere secties met veel velden bevat, kan het moeilijk zijn om een veld van de ene sectie naar de andere te verplaatsen door het te slepen en neer te zetten. Aan elk veld is een "verplaatsingspictogram" toegevoegd, waarmee u de sectie kunt selecteren waarin het veld wordt geplaatst.</p>
         </td>
         <td>29 oktober</td>
-          <td><p>december 2024</p><p> [!BADGE in productie voor Snelle Versie ]{type=Positive}</p></td>
-        <td>25,1<p> [!BADGE in productie]{type=Positive}</p></td>
+          <td><p>december 2024</p><p> [!BADGE Production ]{type=Positive}</p></td>
+        <td>25,1<p> [!BADGE Production]{type=Positive}</p></td>
     </tr>
 </tbody>
 </table>
