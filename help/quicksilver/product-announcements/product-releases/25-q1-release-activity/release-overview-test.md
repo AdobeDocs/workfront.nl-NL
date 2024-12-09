@@ -7,10 +7,10 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 59737844-e6ba-4f64-b2cc-a24c91525d37
-source-git-commit: 9f77afbb10d51a1bc0d770862a21e158b645da36
+source-git-commit: 33b9faed6265b5e82bf768d4c8ae7f703420a7e5
 workflow-type: tm+mt
-source-wordcount: '1381'
-ht-degree: 1%
+source-wordcount: '878'
+ht-degree: 0%
 
 ---
 
@@ -33,92 +33,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
 >Voor meer informatie over het snelle versieproces, zie [ toelaten of onbruikbaar maken het snelle versieproces ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 
-## Verbeteringen voor Adobe Workfront
-
-
-<table>
-<col style="width: 20%;" />
-<col style="width: 75%;" />
-<tbody>
-    <tr>
-    <td>Gebied</td>
-        <td>
-            <p><span class="bold">Functie</span></p>
-        </td>
-        <td>Voorvertoning</td>
-        <td>Snelle release</td>
-        <td>Driemaandelijks</td>
-    </tr>
-    <tr>
-     <td>Beheer en installatie</td>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Voorkeur om project of gebruikersprogramma voor enig-taaktaken te gebruiken</a></p>
-            [!BADGE Nieuw in Voorproef ]{type=Negative}
-            <p>Als systeem of groepsbeheerder, hebt u nu een nieuwe voorkeur om erop te wijzen of Workfront het project of het programma van de gebruiker zou moeten gebruiken om de chronologie van het project te berekenen wanneer u één gebruiker aan een taak toewijst en zowel het project als de gebruiker met een programma wordt geassocieerd.</p>
-        </td>
-        <td>21 november 2024</td>
-        <td>december 2024</td>
-        <td>25,1</td>
-    </tr>     
-    <tr>
-     <td>Beheer en installatie</td>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            De bedrijfsregels ondersteunen nu hyperlinks</a></p>
-            [!BADGE uit cyclus]{type=Caution}
-            <p>U kunt hyperlinks in het bericht van de douanefout van een bedrijfsregel nu omvatten, om de gebruiker op te begeleiden hoe te om hun actie binnen de beperking van de regel te wijzigen. De statische URL kan worden gekoppeld aan documentatie of andere pagina's die nuttig zijn voor de gebruiker.</p>
-        </td>
-        <td>14 november 2024</td>
-        <td>14 november 2024</td>
-        <td>14 november 2024</td>
-    </tr>    
-    <tr>
-     <td>Beheer en installatie</td>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Filteren op eigen tekstkopvelden is nu beschikbaar</a></p>
-            [!BADGE uit-van-cyclus ]{type=Negative}
-            <p>Wanneer u een native veldverwijzing toevoegt aan een aangepast formulier en het verwijst naar een typeahead-veld (zoals Portfolio, Bedrijf of Eigenaar), is er nu een filteroptie beschikbaar. Met dit filter kunt u de objecten beperken die gebruikers kunnen kiezen wanneer ze het veld gebruiken. Dit aangepaste filter werkt hetzelfde als een filter in een aangepast tekstveld en gebruikt Tekstmodus om het filter te definiëren.</p>
-        </td>
-        <td>21 nov.</td>
-        <td>25,12</td>
-        <td>25,1</td>
-    </tr>
-    <tr>
-     <td>Beheer en installatie</td>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Pictogram "Verplaatsen naar" toegevoegd aan aangepaste velden</a></p>
-            <p>Wanneer een aangepast formulier meerdere secties met veel velden bevat, kan het moeilijk zijn om een veld van de ene sectie naar de andere te verplaatsen door het te slepen en neer te zetten. Aan elk veld is een "verplaatsingspictogram" toegevoegd, waarmee u de sectie kunt selecteren waarin het veld wordt geplaatst.</p>
-        </td>
-        <td>29 oktober 2024</td>
-          <td>december 2024</td>
-        <td>25,1</td>
-    </tr>
-</tbody>
-</table>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Verbeteringen voor Workfront
-
-
-
-
-
 
 
 * [ de verhogingen van de Beheerder ](#administrator-enhancements)<!--* [Boards enhancements](#boards-enhancements)-->
@@ -127,7 +42,10 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
 ### Beheerdersverbeteringen
 
 <table>
-<col style="width: 50%;" />
+<col style="width: 55%;" />
+<col style="width: 15%;" />
+<col style="width: 15%;" />
+<col style="width: 15%;" />
 <tbody>
     <tr>
         <td>
@@ -163,91 +81,25 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Filteren op eigen tekstkopvelden is nu beschikbaar</a></p>
-            [!BADGE uit-van-cyclus ]{type=Negative}
             <p>Wanneer u een native veldverwijzing toevoegt aan een aangepast formulier en het verwijst naar een typeahead-veld (zoals Portfolio, Bedrijf of Eigenaar), is er nu een filteroptie beschikbaar. Met dit filter kunt u de objecten beperken die gebruikers kunnen kiezen wanneer ze het veld gebruiken. Dit aangepaste filter werkt hetzelfde als een filter in een aangepast tekstveld en gebruikt Tekstmodus om het filter te definiëren.</p>
         </td>
         <td>21 nov.</td>
         <td>25,12</td>
         <td>25,1</td>
     </tr>
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            <p>Wanneer een aangepast formulier meerdere secties met veel velden bevat, kan het moeilijk zijn om een veld van de ene sectie naar de andere te verplaatsen door het te slepen en neer te zetten. Aan elk veld is een "verplaatsingspictogram" toegevoegd, waarmee u de sectie kunt selecteren waarin het veld wordt geplaatst.</p>
-        </td>
-        <td>29 oktober 2024</td>
-          <td>december 2024</td>
-        <td>25,1</td>
-    </tr>
+
 </tbody>
 </table>
+
 
 ### Verbeteringen voor documentbeheer
 
 
 <table>
-<col style="width: 50%;" />
-<tbody>
-    <tr>
-        <td>
-            <p><span class="bold">Functie</span></p>
-        </td>
-        <td>Voorvertoning</td>
-        <td>Snelle release</td>
-        <td>Driemaandelijks</td>
-    </tr>
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Voorkeur om project of gebruikersprogramma voor enig-taaktaken te gebruiken</a></p>
-            [!BADGE Nieuw in Voorproef ]{type=Negative}
-            <p>Als systeem of groepsbeheerder, hebt u nu een nieuwe voorkeur om erop te wijzen of Workfront het project of het programma van de gebruiker zou moeten gebruiken om de chronologie van het project te berekenen wanneer u één gebruiker aan een taak toewijst en zowel het project als de gebruiker met een programma wordt geassocieerd.</p>
-        </td>
-        <td>21 november 2024</td>
-        <td>december 2024</td>
-        <td>25,1</td>
-    </tr>     
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            De bedrijfsregels ondersteunen nu hyperlinks</a></p>
-            [!BADGE Nieuw in Voorproef ]{type=Caution}
-            <p>U kunt hyperlinks in het bericht van de douanefout van een bedrijfsregel nu omvatten, om de gebruiker op te begeleiden hoe te om hun actie binnen de beperking van de regel te wijzigen. De statische URL kan worden gekoppeld aan documentatie of andere pagina's die nuttig zijn voor de gebruiker.</p>
-        </td>
-        <td>14 november 2024</td>
-        <td>14 november 2024</td>
-        <td>14 november 2024</td>
-    </tr>    
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Filteren op eigen tekstkopvelden is nu beschikbaar</a></p>
-            [!BADGE uit-van-cyclus ]{type=Negative}
-            <p>Wanneer u een native veldverwijzing toevoegt aan een aangepast formulier en het verwijst naar een typeahead-veld (zoals Portfolio, Bedrijf of Eigenaar), is er nu een filteroptie beschikbaar. Met dit filter kunt u de objecten beperken die gebruikers kunnen kiezen wanneer ze het veld gebruiken. Dit aangepaste filter werkt hetzelfde als een filter in een aangepast tekstveld en gebruikt Tekstmodus om het filter te definiëren.</p>
-        </td>
-        <td>21 nov.</td>
-        <td>25,12</td>
-        <td>25,1</td>
-    </tr>
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Pictogram "Verplaatsen naar" toegevoegd aan aangepaste velden</a></p>
-            [!BADGE in productie voor Snelle Versie ]{type=Positive}
-            <p>Wanneer een aangepast formulier meerdere secties met veel velden bevat, kan het moeilijk zijn om een veld van de ene sectie naar de andere te verplaatsen door het te slepen en neer te zetten. Aan elk veld is een "verplaatsingspictogram" toegevoegd, waarmee u de sectie kunt selecteren waarin het veld wordt geplaatst.</p>
-        </td>
-        <td>29 oktober 2024</td>
-          <td>december 2024</td>
-        <td>25,1</td>
-    </tr>
-</tbody>
-</table>
-
-### Verbeteringen voor documentbeheer
-
-
-<table>
-<col style="width: 75%;" />
+<col style="width: 55%;" />
+<col style="width: 15%;" />
+<col style="width: 15%;" />
+<col style="width: 15%;" />
 <tbody>
     <tr>
         <td>
@@ -264,8 +116,8 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
             <p>Als systeem of groepsbeheerder, hebt u nu een nieuwe voorkeur om erop te wijzen of Workfront het project of het programma van de gebruiker zou moeten gebruiken om de chronologie van het project te berekenen wanneer u één gebruiker aan een taak toewijst en zowel het project als de gebruiker met een programma wordt geassocieerd.</p>
         </td>
         <td><p>16 nov. 2024</p> <p>[!BADGE New]{type=Negative}<p></td>
-        <td>dec. 2024</td>
-        <td>25,1</td>
+        <td><p>24,12</p></td>
+        <td><p>25,1</p></td>
     </tr>     
     <tr>
         <td>
@@ -273,9 +125,9 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
             De bedrijfsregels ondersteunen nu hyperlinks</a></p>
             <p>U kunt hyperlinks in het bericht van de douanefout van een bedrijfsregel nu omvatten, om de gebruiker op te begeleiden hoe te om hun actie binnen de beperking van de regel te wijzigen. De statische URL kan worden gekoppeld aan documentatie of andere pagina's die nuttig zijn voor de gebruiker.</p>
         </td>
-        <td>14 nov. </td>
-        <td><p>14 nov.</p> <p>[!BADGE uit-van-cyclus ]{type=Negative}</p></td>
-        <td><p>14 nov.</p> <p>[!BADGE uit-van-cyclus ]{type=Negative}</p></td>
+        <td><p>14 nov.</p> </td>
+        <td><p>dec. 2024</p> <p> [!BADGE Beschikbaar ]{type=Positive}</p></td>
+        <td><p>25,1</p> </td>
     </tr>    
     <tr>
         <td>
@@ -283,9 +135,29 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
             Pictogram "Verplaatsen naar" toegevoegd aan aangepaste velden</a></p>
             <p>Wanneer een aangepast formulier meerdere secties met veel velden bevat, kan het moeilijk zijn om een veld van de ene sectie naar de andere te verplaatsen door het te slepen en neer te zetten. Aan elk veld is een "verplaatsingspictogram" toegevoegd, waarmee u de sectie kunt selecteren waarin het veld wordt geplaatst.</p>
         </td>
-        <td>29 oktober</td>
-          <td><p>december 2024</p><p> [!BADGE Production ]{type=Positive}</p></td>
-        <td>25,1<p> [!BADGE Production]{type=Positive}</p></td>
+        <td><p>5 dec.</p></td>
+          <td><p>15 dec.</p><p> [!BADGE Beschikbaar ]{type=Positive}</p></td>
+        <td><p>15 dec.</p> <p> [!BADGE Beschikbaar ]{type=Positive}</p> <p>[!BADGE uit-van-cyclus ]{type=Caution}</p></td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Pictogram "Verplaatsen naar" toegevoegd aan aangepaste velden</a></p>
+            <p>Wanneer een aangepast formulier meerdere secties met veel velden bevat, kan het moeilijk zijn om een veld van de ene sectie naar de andere te verplaatsen door het te slepen en neer te zetten. Aan elk veld is een "verplaatsingspictogram" toegevoegd, waarmee u de sectie kunt selecteren waarin het veld wordt geplaatst.</p>
+        </td>
+        <td><p>5 dec.</p><p>[!BADGE uit-van-cyclus ]{type=Caution}</p></td>
+          <td><p>15 dec.</p><p> [!BADGE Beschikbaar ]{type=Positive}</p></td>
+        <td><p>15 dec.</p> <p> [!BADGE Beschikbaar ]{type=Positive}</p></td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Pictogram "Verplaatsen naar" toegevoegd aan aangepaste velden</a></p>
+            <p>Wanneer een aangepast formulier meerdere secties met veel velden bevat, kan het moeilijk zijn om een veld van de ene sectie naar de andere te verplaatsen door het te slepen en neer te zetten. Aan elk veld is een "verplaatsingspictogram" toegevoegd, waarmee u de sectie kunt selecteren waarin het veld wordt geplaatst.</p>
+        </td>
+        <td><p>1 nov.</p></td>
+          <td><p>24,11</p><p> [!BADGE Beschikbaar ]{type=Positive}</p></td>
+        <td><p>25,1</p> <p> [!BADGE Beschikbaar ]{type=Positive}</p></td>
     </tr>
 </tbody>
 </table>
