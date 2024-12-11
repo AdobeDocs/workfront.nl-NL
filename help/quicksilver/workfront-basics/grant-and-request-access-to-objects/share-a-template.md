@@ -6,9 +6,9 @@ description: Als beheerder van Adobe Workfront, kunt u gebruikers toegang tot me
 author: Alina
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,8 @@ Machtigingen gelden specifiek voor één item in Workfront en definiëren welke 
   Voor informatie over het beheren van de toegang tot malplaatjetaken en kwesties op het project dat op de toestemmingen van een gebruiker aan het project wordt gebaseerd, zie de ](../../manage-work/projects/create-and-manage-templates/edit-templates.md#access) sectie van de Toegang [ in artikel [ projectmalplaatjes ](../../manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
 
 * De Workfront-beheerder kan opgeven of documenten machtigingen van hogere objecten moeten overnemen op het toegangsniveau van de gebruiker. Voor meer informatie over het beperken van geërfte toestemmingen op documenten, zie [ tot douanetoegangsniveaus ](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
+
+* U kunt sjabloontaken niet afzonderlijk delen. Door een sjabloon te delen, worden ook de sjabloontaken gedeeld. Het delen van het project van het malplaatje deelt ook de toekomstige projecttaken.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

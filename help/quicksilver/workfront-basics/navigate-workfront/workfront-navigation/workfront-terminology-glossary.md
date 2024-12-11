@@ -6,9 +6,9 @@ description: De  [!DNL Adobe Workfront]  verklarende woordenlijst lijsten algeme
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 8df1c288eed04c7330d124e0c32c869a3e5a525b
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '17303'
+source-wordcount: '17355'
 ht-degree: 0%
 
 ---
@@ -812,7 +812,15 @@ De volgende tabel bevat een lijst met veelgebruikte termen in Adobe Workfront:
   <tr> 
    <td>[!UICONTROL Document Version]</td> 
    <td> <p>Telkens wanneer hetzelfde document naar hetzelfde object wordt geüpload, wordt er een versienummer aan toegewezen. Gebruikers kunnen verschillende opties voor een vorige versie van een document weergeven en wijzigen.</p> <p>Voor meer informatie, zie <a href="../../../documents/managing-documents/manage-document-versions.md" class="MCXref xref"> documentversies beheren </a>.</p> </td> 
-  </tr> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Due Date]</td> 
+   <td> <p>De datum waarop een taak of een kwestie moet worden voltooid. De vervaldatum van een taak of uitgifte is dezelfde datum als de geplande afsluitende datum.</p>
+    <p>De taak en het Eind van de uitgave zijn zichtbaar in taak en geeft lijsten en rapporten uit.</p> 
+    <p>Zie ook Geplande Voltooiingsdatum in deze tabel. 
+    </td> 
+  </tr>
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Duration]</td> 
    <td> <p>Het tijdsvenster dat is toegewezen voor het voltooien van een taakprobleem of project (zoals wordt bepaald door het aantal dagen tussen de [!UICONTROL Planned Start] en de geplande voltooiing).</p> 

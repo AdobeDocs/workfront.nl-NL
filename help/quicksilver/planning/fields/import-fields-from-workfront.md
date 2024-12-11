@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
+exl-id: 994594f2-a888-423a-bf66-0d14baf57c55
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '760'
 ht-degree: 0%
 
 ---
-
 
 <!--add to TOC-->
 
@@ -180,3 +180,8 @@ Alle andere Workfront-veldtypen worden niet ondersteund in Workfront Planning.
 1. Klik **+**, dan **voegt gebieden** toe.
 De velden worden toegevoegd aan de tabelweergave en aan de detailpagina&#39;s van de records.
 
+   >[!IMPORTANT]
+   >
+   >    Er geldt een limiet van 500 velden voor elk recordtype. De bestaande velden en de geïmporteerde velden dragen bij aan deze limiet.
+
+   De toegevoegde velden zijn kopieën van de Workfront-velden en maken geen verbinding meer met de oorspronkelijke velden in Workfront.

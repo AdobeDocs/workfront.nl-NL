@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 8880891c0f5fd8fecad6c2f58136d36a943105ae
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '943'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 <!--Audited: 11/2024-->
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
 
 
 U kunt een Lay-outsjabloon gebruiken om te configureren wat gebruikers in het deelvenster Overzicht zien wanneer ze op een taak of een probleem klikken. Elke configuratie die u uitvoert met de onderstaande stappen, is van invloed op het deelvenster Samenvatting. Deze aanpassingen zijn niet van toepassing op het deelvenster Documentoverzicht.
@@ -101,7 +101,7 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
       <td role="rowheader">Projecten</td> 
       <td><ul><li><p>In Huis, wanneer een gebruiker een projectgoedkeuring klikt die aan hen wordt toegewezen, beïnvloedt uw configuratie voor dit het plaatsen het gebied rechts van de goedkeuring.</p>
       <p><b> BELANGRIJK:</b> </p><p>Dit is een verouderde functie. Wijzigingen die u aanbrengt in dit gebied, zijn gerelateerd aan een functie die Workfront heeft verwijderd. Deze optie wordt uit Workfront verwijderd met een latere onderhoudsupdate.</p></li>
-      <li><span class="preview"><p>Dit gebied is verwijderd uit de voorvertoningsomgeving.</p></li></span></ul> 
+      </ul> 
       </td> 
      </tr> 
      <tr> 
@@ -109,14 +109,14 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
       <td>
      <ul><li><p>Wanneer een gebruiker in Home op een aan hem toegewezen documentgoedkeuring klikt, is de configuratie voor deze instelling van invloed op het gebied rechts van de goedkeuring.</p>
       <p><b> BELANGRIJK:</b> </p><p> Dit is een verouderde functie. Wijzigingen die u aanbrengt in dit gebied, zijn gerelateerd aan een functie die Workfront heeft verwijderd. Deze optie wordt uit Workfront verwijderd met een latere onderhoudsupdate.</p></li>
-      <li><span class="preview"><p>Dit gebied is verwijderd uit de voorvertoningsomgeving.</p></li></span></ul>
+      </ul>
       </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Documentversies</td> 
       <td><ul><li><p>Wanneer een gebruiker in Home op een goedkeuring klikt die aan hem is toegewezen voor een bepaalde versie van een document, is de configuratie voor deze instelling van invloed op het gebied rechts van de goedkeuring.</p>
       <p><p><b>BELANGRIJK:</b></p> Dit is een verouderde functie. Wijzigingen die u aanbrengt in dit gebied, zijn gerelateerd aan een functie die Workfront heeft verwijderd. Deze optie wordt uit Workfront verwijderd met een latere onderhoudsupdate.</p></li>
-      <li><span class="preview"><p>Dit gebied is verwijderd uit de voorvertoningsomgeving.</p></li></span></ul>
+      </ul>
       </td> 
      </tr> 
     </tbody> 
@@ -128,15 +128,15 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
 
 1. (Voorwaardelijk) als u Taken of Kwesties in de vorige stap klikte, selecteer de categorie van taak of kwestie die u wilt aanpassen.
 
-   <span class="preview">![](assets/choose-cat-cstmz-nwe-adobe-branding.png)</span>
+   ![](assets/choose-cat-cstmz-nwe-adobe-branding.png)
 
 1. (Voorwaardelijk) als de **Vastgestelde primaire actieknoop** drop-down menu verschijnt (als u **Taken** of **Kwesties** in de lijst op de linkerzijde) selecteert, klik de primaire actie (**Gedaan** of **Status**) die u beschikbaar voor gebruikers in het Samenvattende paneel wilt wanneer zij een taak of een kwestie bekijken.
 
-   <span class="preview">![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)</span>
+   ![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
 
 1. Voeg ![](assets/add-item-plus-in-circle-blue.png) of verberg ![](assets/close-or-hide---x.png) gebieden voor het geselecteerde objecten type toe.
 
-   <span class="preview">![](assets/lt-home-add-hide-fields-adobe-branding.png)</span>
+   ![](assets/lt-home-add-hide-fields-adobe-branding.png)
 
 1. Herhaal stap 3-6 om het deelvenster Samenvatting aan te passen voor andere objecttypen.
 1. Klik **Globale montages**, dichtbij de lagere linkerhoek, dan toelaten of onbruikbaar maken om het even welke volgende opties met betrekking tot de voorwerpen van Adobe Workfront in de Samenvatting:
