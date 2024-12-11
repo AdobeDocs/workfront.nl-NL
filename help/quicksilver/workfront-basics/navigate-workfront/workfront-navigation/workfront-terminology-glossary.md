@@ -6,9 +6,9 @@ description: De  [!DNL Adobe Workfront]  verklarende woordenlijst lijsten algeme
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 8df1c288eed04c7330d124e0c32c869a3e5a525b
 workflow-type: tm+mt
-source-wordcount: '17321'
+source-wordcount: '17303'
 ht-degree: 0%
 
 ---
@@ -1252,12 +1252,9 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
    <p>See <i>Resource Pools</i> for updated fields. </p> 
    <p>The Legacy Resource Pool is a collection&nbsp;of job roles associated with a project or a user. The functionality of the Legacy Resource Pools is displayed in the tools available in the Legacy Resource Planning tab of the People area. This is a deprecated field.</p>
     --> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Library Task]</td> 
-   <td>Een sjabloon voor één taak die wordt gebruikt voor consistente naamgeving van [!UICONTROL Tasks] en [!UICONTROL Template Tasks] in de toepassing.</td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
    <td>[!UICONTROL License Type]</td> 
    <td>Het type licentie dat is toegewezen aan een [!UICONTROL Access Level] . Het is [!UICONTROL Full User] , [!UICONTROL Limited User] of [!UICONTROL Requester] .</td> 
   </tr> 

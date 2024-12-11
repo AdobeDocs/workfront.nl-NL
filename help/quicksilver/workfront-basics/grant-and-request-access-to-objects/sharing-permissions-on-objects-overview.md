@@ -6,9 +6,9 @@ description: U kunt machtigingen delen of verwijderen voor een object dat u hebt
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: 05f8dc8770c185720520fc631e19c75b925a70bf
+source-git-commit: 8df1c288eed04c7330d124e0c32c869a3e5a525b
 workflow-type: tm+mt
-source-wordcount: '1182'
+source-wordcount: '1289'
 ht-degree: 0%
 
 ---
@@ -89,6 +89,13 @@ U kunt de volgende objecten in Workfront delen met andere gebruikers:
   >
   >* [ Deel een plan in de Planner van het Scenario ](../../scenario-planner/share-a-plan.md)
   >* [ Deel een doel in de Doelen van Workfront ](../../workfront-goals/workfront-goals-settings/share-a-goal.md)
+
+* Workfront stuurt meldingen naar gebruikers wanneer u een object met hen deelt. Meldingen gaan uit wanneer beide instellingen zijn ingeschakeld:
+
+   * Het **Aandeel van Objecten aan Gebruiker** en het **Aandeel van Objecten aan de e-mailberichten van het Team** worden toegelaten in het gebied van de Opstelling door een systeem of groepsbeheerder. Voor informatie, zie [ gebeurtenisberichten voor iedereen in het systeem ](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) vormen.
+   * **Iemand deelt een voorwerp met me** en **Iemand deelt een voorwerp met mijn team** berichten worden toegelaten in de het profielpagina van de gebruiker. Voor informatie, zie [ uw eigen e-mailberichten ](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) wijzigen.
+
+  De instellingen op systeem- of groepsniveau moeten eerst zijn ingeschakeld voordat u de meldingsinstellingen voor de gebruiker kunt inschakelen.
 
 ## Beperkingen voor delen
 

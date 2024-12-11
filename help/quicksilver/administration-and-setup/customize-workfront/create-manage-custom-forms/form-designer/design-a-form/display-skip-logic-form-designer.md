@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 8df1c288eed04c7330d124e0c32c869a3e5a525b
 workflow-type: tm+mt
-source-wordcount: '1270'
+source-wordcount: '1314'
 ht-degree: 0%
 
 ---
@@ -77,6 +77,7 @@ Selecteer een veld met toegepaste logica om de bestaande logische regels in de v
 * Als u weergavelogica wilt toevoegen aan een aangepast veld, een widget of een sectie-einde, moet ten minste één meerkeuzeveld (keuzerondjes, vervolgkeuzelijst of selectievakjes) vóór dit veld op het formulier worden geplaatst.
 Voor informatie over douanegebieden en widgets in douanevormen, zie [ een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 * U kunt geen logica overslaan toevoegen aan een widget of sectie-einde. U kunt het alleen toevoegen aan een veld met meerdere keuzen (keuzerondjes, vervolgkeuzelijst of selectievakjes).
+* U kunt geen logica weergeven of overslaan voor opties in een veld met meerdere opties. U kunt bijvoorbeeld niet de weergave beperken van de opties van een vervolgkeuzelijst, een CheckBox-groep of een keuzerondje-veld op basis van de weergave of de logica voor het overslaan van een ander veld.
 * U kunt zowel weergavelogica als logica overslaan aan een aangepast veld toevoegen als het volgende geldt voor het aangepaste veld:
 
    * Het is een meerkeuzeveld (keuzerondjes, vervolgkeuzelijst of selectievakjes)
