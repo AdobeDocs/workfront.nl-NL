@@ -3,12 +3,12 @@ title: Projectfinanciën opnieuw berekenen
 product-area: projects
 navigation-topic: financials
 description: De financiën worden berekend op een project aangezien de veranderingen in de uren voorkomen die voor het project worden geregistreerd of in de tarieven die worden gebruikt om kosten en opbrengst te berekenen.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+source-git-commit: 69afad9af3f1e703487fdab092bc84457ee00922
 workflow-type: tm+mt
-source-wordcount: '1647'
+source-wordcount: '1678'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,8 @@ Wanneer het tarief van een gebruiker of een rol tijdens het leven van een projec
 
 * Wanneer de verandering wordt aangebracht, wordt het bijgewerkte tarief gebruikt vanaf dat punt op aangezien de uren worden geregistreerd en de financiële informatie wordt berekend. Het wijzigen van de snelheid heeft geen invloed op de manier waarop de gegevens zijn berekend voordat de wijziging is aangebracht. Voor alle bestaande geregistreerde uren, wordt het oude tarief gebruikt om financiële informatie te berekenen.
 * U kunt Adobe Workfront dwingen om het nieuwe tarief voor alle uren terug te gebruiken die tot nu zijn geregistreerd, door de Recalculate optie van de Financiën te gebruiken. Dit dwingt Workfront alle eerder ingelogde uren, geplande kosten en inkomsten met terugwerkende kracht te herberekenen overeenkomstig de nieuwe tariefinformatie.
+
+Het rapporttype Project (Financiële Gegevens) wordt niet automatisch opnieuw berekend voordat de gegevens worden geladen. Als u de gegevens in dit rapporttype wilt bijwerken, moet u de financiën voor afzonderlijke projecten handmatig opnieuw berekenen.
 
 >[!CAUTION]
 >

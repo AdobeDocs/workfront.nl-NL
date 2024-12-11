@@ -6,9 +6,9 @@ description: De zichtbaarheid van objecten in Adobe Workfront is afhankelijk van
 author: Becky
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: dbdcebe0fae91e7b688cad4fd11bd5aaafe51d3b
+source-git-commit: 6409f8fa5072413444545d2d3a80935dc6e04b4c
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1398'
 ht-degree: 0%
 
 ---
@@ -108,10 +108,12 @@ Aanvankelijke toegang tot een object aanvragen:
    Voorbeeldafbeelding in de productieomgeving:
    ![](assets/request-access-dialog-350x314.png)
 
-Als u geen toegangsniveaurechten voor een voorwerp hebt en u probeert om tot dat voorwerp van een verbinding toegang te hebben, wordt een scherm getoond informerend u om de beheerder van Workfront te contacteren.
+<!--
+If you do not have access level rights to an object and you try to access that object from a link, a screen is displayed informing you to contact the Workfront administrator.
 
-Als u bijvoorbeeld geen portfoliotoegang hebt, maar u een koppeling naar een portfolio hebt gekregen, wordt het volgende bericht weergegeven:\
+For example, if you do not have portfolio access, but you were given a link to a portfolio, you would see the following message:  
 ![](assets/permission-request-initial2-350x96.png)
+-->
 
 ### Aanvullende toegang aanvragen {#request-additional-access}
 

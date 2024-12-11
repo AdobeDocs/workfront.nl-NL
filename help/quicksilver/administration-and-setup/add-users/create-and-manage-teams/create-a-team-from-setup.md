@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 29a84e52-0bd3-45c2-a8b8-80bfec894196
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 6409f8fa5072413444545d2d3a80935dc6e04b4c
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
@@ -22,8 +22,7 @@ Als beheerder van Adobe Workfront, kunt u een team van het gebied van de Opstell
 >[!NOTE]
 >
 >* Een groepsbeheerder kan een team voor een groep tot stand brengen zij van het gebied van de Opstelling beheren. Voor meer informatie, zie [ de teams van een groep ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md) creëren en wijzigen.
->* Een gebruiker met een licentie voor een abonnement kan ook een team maken vanuit het gebied Mensen. Voor meer informatie, zie [ een team ](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md) creëren.
->
+>* Een gebruiker met een Standard- of Plan-licentie kan ook een team maken vanuit het gebied Teams. Voor meer informatie, zie [ een team ](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md) creëren.
 
 ## Toegangsvereisten
 

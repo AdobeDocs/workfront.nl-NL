@@ -5,9 +5,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 648a36ce-5793-472f-9fee-9dedf71991ef
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 6409f8fa5072413444545d2d3a80935dc6e04b4c
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,7 @@ Voor informatie over teams, zie [ Overzicht van Teams ](../../../people-teams-an
 >[!NOTE]
 >
 >* Een groepsbeheerder kan de instellingen van een team bewerken voor een groep die hij of zij beheert. Voor meer informatie, zie [ de teams van een groep ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md) creëren en wijzigen.
->* Een gebruiker met een licentie voor abonnementen kan de instellingen van een team bewerken in het gebied Personen. Voor meer informatie, zie [ teammontages ](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md) uitgeven.
->
+>* Een gebruiker met een Standard- of Plan-licentie kan de instellingen van een team bewerken in het gedeelte Teams. Voor meer informatie, zie [ teammontages ](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md) uitgeven.
 
 ## Toegangsvereisten
 
