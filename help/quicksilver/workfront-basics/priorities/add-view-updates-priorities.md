@@ -5,13 +5,13 @@ description: U kunt een update toevoegen aan een taak of uitgave om anderen te i
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 75396c3f066abc6070ae2a89c2ded0255dbc0751
+exl-id: a7237746-0a18-408b-b932-8a608fd72eee
+source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 0%
 
 ---
-
 
 # Opmerkingen toevoegen en weergeven in Prioriteiten
 
@@ -65,6 +65,7 @@ U kunt een opmerking toevoegen vanuit de werklijst:
 1. Zoek het werkitem dat u wilt bijwerken.
 1. Beweeg over de naam, dan klik **nieuwe update** toevoegen.
    ![](assets/add-update.png)
+   <!--new screen for prod ![](assets/update-log-upload.png)-->
 1. Typ uw opmerking.
 1. (Facultatief) in de **mensen of teams van de Markering** doos, begin de naam of e-mail van een gebruiker, of een team te typen dat u in deze commentaar zou willen omvatten, dan het selecteren wanneer het in de lijst toont.
 1. (Optioneel) Gebruik de opties op de werkbalk RTF om de tekst op te maken, emoties, koppelingen of afbeeldingen aan uw opmerking toe te voegen om de inhoud te verbeteren.

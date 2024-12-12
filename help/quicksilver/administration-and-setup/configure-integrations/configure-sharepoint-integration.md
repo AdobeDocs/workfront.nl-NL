@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 3c87c88245e79581c2a880c13038bcedb24caf4b
+source-git-commit: ad75f6e80d0681b5a769e2fd8fc68285597dbca0
 workflow-type: tm+mt
 source-wordcount: '1689'
 ht-degree: 0%
@@ -176,7 +176,7 @@ Door de verouderde [!DNL SharePoint] integratie opnieuw te configureren, hebben 
 1. Klik op **[!UICONTROL Save]**.
 1. Selecteer **[!UICONTROL Documents]** in de linkernavigatie en selecteer vervolgens **[!UICONTROL [!DNL SharePoint] Integration]** .
 1. Selecteer links van de lijst het vinkje voor alle bestaande integratie en selecteer vervolgens **[!UICONTROL Disable]** .
-   ![](assets/disable-old-sharepoint.png)
+
 
 
 ### Configureer het clientgeheim voor continue toegang tot de oudere [!DNL SharePoint] -integratie

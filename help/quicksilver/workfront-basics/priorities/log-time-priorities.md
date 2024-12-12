@@ -5,13 +5,13 @@ description: U kunt de tijd voor het werk in Adobe Workfront registreren om op h
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 410963f404aa496b2ac4aa43098917d03fc1ca75
+exl-id: 5457f516-c213-4b82-b033-bc8db943a217
+source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 0%
 
 ---
-
 
 # Logtijd in prioriteiten
 
@@ -61,6 +61,7 @@ U kunt de tijd van het logboek rechtstreeks van de werklijst registreren:
 
 1. Beweeg over de naam, dan klik **tijd van het Logboek**.
    ![](assets/log-time.png)
+   <!--new screen for prod ![](assets/update-log-upload.png)-->
 1. In het **drop-down menu van het Type van 1 uur**, selecteer het aangewezen uurtype. De types van uren zijn beschikbaar afhankelijk van wat op het systeem, het project, en gebruikersniveaus is bepaald, zoals die in Define uurtypes en beschikbaarheid wordt beschreven.
 
 1. (Voorwaardelijk) Als uw Workfront of groepsbeheerder de optie Taak toewijzen aan uren handmatig heeft ingeschakeld, selecteert u een taakrol in het keuzemenu. De rol die wordt gespecificeerd wanneer u aan de het werkpuntvertoningen door gebrek wordt toegewezen. Als u geen rol op het voorwerp wordt toegewezen, toont uw Primaire Rol als gebrek. Als u geen primaire rol hebt toegewezen, wordt de rol Geen taak weergegeven.
@@ -83,4 +84,3 @@ U kunt de tijd in een individueel het werkpunt registreren:
 1. Ga de tijd in u wilt registreren, dan klik **tijd van het Logboek**.
 
    ![](assets/log-time-dialog.png)
-

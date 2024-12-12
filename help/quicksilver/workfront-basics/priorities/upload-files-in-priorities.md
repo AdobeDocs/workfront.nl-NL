@@ -5,13 +5,13 @@ description: U kunt bestanden uploaden van de werklijst Prioriteiten of van afzo
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 75396c3f066abc6070ae2a89c2ded0255dbc0751
+exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
+source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 0%
 
 ---
-
 
 # Bestanden uploaden in prioriteiten
 
@@ -54,6 +54,7 @@ Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licen
 
 1. Beweeg over de naam, dan klik **uploadt**.
    ![](assets/upload-file.png)
+   <!--new screen for prod ![](assets/update-log-upload.png)-->
 1. (Optioneel) Selecteer een map.
 1. Sleep het bestand of Cmd/Ctrl + V om het van het klembord te plakken
 of

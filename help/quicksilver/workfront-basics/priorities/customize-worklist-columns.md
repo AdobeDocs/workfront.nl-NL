@@ -5,15 +5,17 @@ description: U kunt de kolommen in de werklijst Prioriteiten aanpassen om de man
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 75396c3f066abc6070ae2a89c2ded0255dbc0751
+exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
+source-git-commit: abf502f2bbf48c0bd1cc5705d93d928342cd8a3b
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
 
-
 # De kolommen in de werklijst Prioriteiten aanpassen
+
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Sandbox van de Voorproef.</span>
 
 U kunt de kolommen in de werklijst Prioriteiten aanpassen om de manier te steunen u werkt.
 
@@ -59,7 +61,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 +++
 
-## Kolommen in- of uitschakelen
+## De kolommen in de werklijst Prioriteiten aanpassen in productie
+
+### Kolommen in- of uitschakelen
 
 {{step1-to-priorities}}
 
@@ -67,7 +71,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    ![](assets/columns.png)
 1. Met de schakelopties kunt u kolommen in de werklijst in- of uitschakelen.
 
-## De kolommen opnieuw ordenen
+### De kolommen opnieuw ordenen
 
 {{step1-to-priorities}}
 
@@ -75,10 +79,37 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Klik het **pictogram van de Belemmering** en beweeg de kolom aan uw gewenste plaats. Kolommen automatisch bijwerken in de werklijst verplaatsen.
    ![](assets/reorder-columns.png)
 
-## Kolombreedten opnieuw instellen
+### Kolombreedten opnieuw instellen
 
 {{step1-to-priorities}}
 
 1. Klik **Kolommen** op de rechterkant van het scherm.
 1. Klik **Meer** pictogram ![](assets/more-icon.png), en kies **de kolombreedten van het Terugstellen**.
    ![](assets/columns.png)
+
+<div class="preview">
+
+## De kolommen in de werklijst Prioriteiten aanpassen in Voorvertoning
+
+### Kolommen in- of uitschakelen
+
+{{step1-to-priorities}}
+
+1. Klik **Kolommen** op de linkerkant van het scherm.
+   ![](assets/columns-new.png)
+1. Met de schakelopties kunt u kolommen in de werklijst in- of uitschakelen.
+
+### De kolommen opnieuw ordenen
+
+{{step1-to-priorities}}
+
+1. Klik **Kolommen** op de linkerkant van het scherm.
+1. Klik het **pictogram van de Belemmering** en beweeg de kolom aan uw gewenste plaats. Kolommen automatisch bijwerken in de werklijst verplaatsen.
+   ![](assets/reorder-columns-new.png)
+
+>[!NOTE]
+>
+>De kolom Naam is vast en kan niet worden verplaatst.
+
+
+</div>

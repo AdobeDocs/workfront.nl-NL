@@ -5,15 +5,17 @@ description: Met filters kunt u zoeken naar werk en vervolgens een groep toepass
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 75396c3f066abc6070ae2a89c2ded0255dbc0751
+exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
+source-git-commit: 1f27c7e56681fe8c22141b0a98b3dcdb547366d5
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '872'
 ht-degree: 0%
 
 ---
 
-
 # Filter en groepeer uw werk met Prioriteiten
+
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Sandbox van de Voorproef.</span>
 
 U kunt filters gebruiken om het werk te vinden u zoekt en dan een groepering toepast om het te houden georganiseerd.
 
@@ -55,7 +57,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 +++
 
-## Uw werk filteren
+## Filter en groepeer uw werk met Prioriteiten in Productie
+
+### Uw werk filteren
 
 U kunt taken en kwesties filtreren die aan u worden toegewezen.
 
@@ -126,7 +130,7 @@ U kunt taken en kwesties filtreren die aan u worden toegewezen.
 
 1. (Facultatief) klik **terug aan gebrek** om uw selectie terug te stellen.
 
-## Uw werk groeperen
+### Uw werk groeperen
 
 {{step1-to-priorities}}
 
@@ -146,7 +150,7 @@ U kunt taken en kwesties filtreren die aan u worden toegewezen.
 
 +++
 
-## Uw werk sorteren
+### Uw werk sorteren
 
 Om uw werk te sorteren, open **Groep** en klik **Soort oplopend** of **Soort aflopend**.
 
@@ -158,10 +162,126 @@ Om uw werk te sorteren, open **Groep** en klik **Soort oplopend** of **Soort afl
 
 
 
-## Alle secties uitvouwen of samenvouwen
+### Alle secties uitvouwen of samenvouwen
 
 Om alle secties uit te breiden of te doen ineenstorten, open **Groep {en klik** breid allen **uit of** invouwt allen **.**
 
 ![](assets/expand-sort-groups.png)
 
+<div class="preview">
 
+## Uw werk filteren en groeperen met Prioriteiten in Voorvertoning
+
+### Uw werk filteren
+
+U kunt taken en kwesties filtreren die aan u worden toegewezen.
+
+{{step1-to-priorities}}
+
+1. Klik **Filters** in de hoogste linkerzijde van de werklijst.
+1. Selecteer een of meerdere filters om uw werkitems te beperken.
+   ![](assets/filter-new.png)
+
++++Uitbreiden om gedetailleerde informatie over beschikbare filters te zien
+<table>
+  <tbody>
+   <tr>
+   <th>Filter</th>
+   <th>Beschrijving</th>
+   </tr>
+    <tr>
+      <td>eraan werken</td>
+      <td>Hiermee geeft u items weer waaraan u momenteel werkt</td>
+    </tr>
+    <tr>
+      <td>Gereed om te starten</td>
+      <td>Items weergeven met 
+      <ul>
+      <li>Geen onvolledige voorgangers of taakbeperkingen</li>
+      <p>en</p>
+      <li>De geplande begindatum ligt in het verleden of maximaal twee weken in de toekomst</li>
+      </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Niet klaar</td>
+      <td>Hiermee geeft u items weer die
+       <ul>
+      <li>Onvolledige voorgangers of taakbeperkingen die verhinderen dat het item wordt bewerkt</li>
+      <p>of</p>
+      <li>De geplande begindatum meer dan twee weken in de toekomst</li>
+      </ul>
+       </td>
+    </tr>
+    <tr>
+      <td>Gevraagd</td>
+      <td>Hier worden problemen weergegeven waaraan u nog niet hebt gewerkt</td>
+    </tr>
+      <td>Gereed</td>
+      <td>Hiermee geeft u werk weer dat in de laatste twee weken is voltooid. Deze filteroptie omvat geen goedkeuringen.</td>
+    </tr>
+    <tr>
+    <td>Project</td>
+    <td>De projecten van vertoningen die taken of kwesties bevatten u aan bent toegewezen</td>
+    </tr>
+    <tr>
+    <td>Vervaldatum</td>
+    <td>Hiermee wordt het werk weergegeven op de geplande voltooiingsdatum</td>
+    </tr>
+    <tr>
+    <td>Status</td>
+    <td>Hiermee geeft u taken of problemen in nieuwe, actieve en volledige status weer</td>
+    </tr>
+    <tr>
+    <td>Mijn focus</td>
+    <td>Hiermee worden taken of problemen weergegeven waaraan focusniveaus zijn toegewezen. Focusniveaus worden toegewezen en beheerd door de individuele gebruiker.</td>
+    </tr>
+  </tbody>
+</table>
+
++++
+
+1. (Facultatief) klik **terug aan gebrek** om uw selectie terug te stellen.
+
+### Uw werk groeperen
+
+{{step1-to-priorities}}
+
+1. Klik **Groepen** in de hoogste linkerzijde van de werklijst.
+1. Selecteer een groep om uw werklijst te ordenen
+   ![](assets/groups-new.png)
+
++++Uitbreiden om gedetailleerde informatie over beschikbare groepen te zien
+
+| Groep | Beschrijving |
+|-----------|-------------|
+| Project | Dit groepeert punten door project. |
+| Mijn focus | Hiermee worden items gegroepeerd op basis van het focusniveau dat u toewijst. |
+| Te betalen week | Deze groepeert items op basis van de week waarin ze verschuldigd zijn. Vervaldata worden bepaald door de geplande afsluitdatum. |
+| Status | Deze groepeert items op de volgende statussen: Nieuw, Bezig, Voltooid. <br> Nota: U kunt douanestatus op dit ogenblik niet gebruiken in Prioriteiten. |
+
++++
+
+### Uw werk sorteren
+
+**Soort in groepen**
+
+Om uw werk binnen een groep te sorteren, open **Groep** en klik **Soort oplopend** of **Soort aflopend**.
+
+![](assets/sort-in-groups.png)
+
+**de kolommen van de Soort**
+
+Als u afzonderlijke kolommen wilt sorteren, gaat u naar de kolom en klikt u op de pijl omlaag.
+
+![ benedenpijl in kolom ](assets/sort-columns.png)
+
+
+
+### Alle groepssecties uitvouwen of samenvouwen
+
+Om alle groepssecties uit te breiden of te doen ineenstorten, open **Groep** en klik **breid allen uit** of **samen allen**.
+
+![](assets/expand-collapse-groups.png)
+
+</div>

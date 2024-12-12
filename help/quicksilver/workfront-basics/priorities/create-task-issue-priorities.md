@@ -5,13 +5,13 @@ description: U kunt nieuwe taken en kwesties direct van Prioriteiten tot stand b
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 75396c3f066abc6070ae2a89c2ded0255dbc0751
+exl-id: 240cda0f-0acf-4b5c-872d-b7f5cee0b769
+source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
-
 
 # Een nieuwe taak of uitgave in prioriteiten maken
 
@@ -69,6 +69,7 @@ Een taak of kwestie in een project tot stand brengen:
 
 1. Klik **creëren nieuw** in de hoger-juiste hoek.
    ![](assets/create-new.png)
+&lt;!—nieuw scherm voor prod ![](assets/create-new--.png)—>
 1. Geef de volgende informatie op:
 
    | Veld | Instructies |
@@ -81,4 +82,3 @@ Een taak of kwestie in een project tot stand brengen:
    | Vervaldatum (optioneel) | Kies een vervaldatum. |
 
 1. Klik **creëren**.
-

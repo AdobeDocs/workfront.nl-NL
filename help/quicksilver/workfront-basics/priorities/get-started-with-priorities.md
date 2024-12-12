@@ -5,13 +5,13 @@ description: Prioriteiten zijn een gestroomlijnde, intuïtieve ervaring die is a
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 61f4fef12ec53b77feb4adba7b8e4561248be2fd
+exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
+source-git-commit: edc817b305622d704a1543b1e288731fc3bbff33
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '953'
 ht-degree: 0%
 
 ---
-
 
 # Aan de slag met [!DNL Priorities]
 
@@ -91,7 +91,6 @@ Zoek uw belangrijkste werk met filters. U kunt taken en kwesties filteren die aa
 
 Nadat je werk hebt gefilterd, kun je objecten groeperen op
 
-* Geen
 * Mijn focus
 * Te betalen week
 * Status
@@ -104,15 +103,16 @@ Voor meer informatie, zie [ Filter en groepeer uw werk in Prioriteiten ](/help/q
 Mijn focus is een kolom in de werklijst die u helpt bij het bepalen van de prioriteit van uw werk. De waarde Mijn focus is persoonlijk en heeft geen invloed op project-, taak- of uitgavegegevens. U kunt de volgende focusniveaus gebruiken:
 
 * Dringend
-* Primair
-* Secundair
+* Hoog
 * Normaal (standaard)
+* Laag
 
 Zodra u nadrukniveaus aan uw het werkpunten hebt toegewezen, kunt u de kolom aan oppervlakte urgente punten bij de bovenkant van uw werklijst sorteren.
 
 Voor meer informatie, zie [ belangrijke het werkpunten ](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md) Prioriteit geven.
 
 ![](assets/my-focus-column.png)
+<!-- new screen for prod ![](assets/worklist.png) -->
 
 ### Gebruik spoedig de mening van de Kalender [!BADGE  komende ]{type=Informative}
 
@@ -141,6 +141,7 @@ In de sectie Updates worden systeemupdates weergegeven en maximaal 200 van de me
 Voor meer informatie, zie [ commentaren in Prioriteiten toevoegen en bekijken ](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md).
 
 ![](assets/new-update.png)
+<!--new screen for prod ![](assets/update-log-upload.png)-->
 
 ### Logtijd
 
@@ -149,6 +150,7 @@ U kunt tijd voor het werkpunten registreren om op het aantal uren te wijzen u he
 Voor meer informatie, zie [ tijd van het Logboek in Prioriteiten ](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md).
 
 ![](assets/log-time.png)
+<!--new screen for prod ![](assets/update-log-upload.png)-->
 
 ### Bestanden uploaden
 
@@ -162,6 +164,7 @@ Upload bestanden rechtstreeks naar het gebied Documenten van de taak of uitgave,
 Voor meer informatie, zie [ dossiers in Prioriteiten ](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md) uploaden.
 
 ![](assets/upload-file.png)
+<!--new screen for prod ![](assets/update-log-upload.png)-->
 
 ### De documenten van de mening [!BADGE  Binnenkort ]{type=Informative}
 
@@ -197,5 +200,3 @@ Met de functie [!DNL Catch me up] kunt u zien wat u hebt gemist. Vangst me omhoo
 
 * Workfront-beheerders kunnen op dit moment geen prioriteiten aanpassen via de lay-outsjabloon.
 * Toegang tot taken in Prioriteiten is op verschillende tabbladen beschikbaar. We zijn van plan om in de toekomst extra tabbladen toe te voegen, zoals Documenten, Subtaken, Goedkeuringen, enzovoort. Laat ons weten u deze punten nodig hebt door terug te geven gebruikend **geef Terugkoppeling** knoop.
-
-
