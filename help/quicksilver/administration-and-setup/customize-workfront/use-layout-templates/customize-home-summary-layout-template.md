@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
+source-git-commit: 75aaa531dba8037ed75c0d6baa6d7c69ec4cfefd
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '753'
 ht-degree: 0%
 
 ---
@@ -97,34 +97,38 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
       <td role="rowheader">Problemen</td> 
       <td><p>In een lijst met problemen beïnvloedt deze instelling het deelvenster Samenvatting dat aan de rechterkant van de pagina wordt weergegeven wanneer een gebruiker een probleem selecteert en vervolgens op het pictogram Samenvatting openen <img src="assets/summary-panel-icon.png"> klikt.</p> </td> 
      </tr> 
-     <tr> 
-      <td role="rowheader">Projecten</td> 
-      <td><ul><li><p>In Huis, wanneer een gebruiker een projectgoedkeuring klikt die aan hen wordt toegewezen, beïnvloedt uw configuratie voor dit het plaatsen het gebied rechts van de goedkeuring.</p>
-      <p><b> BELANGRIJK:</b> </p><p>Dit is een verouderde functie. Wijzigingen die u aanbrengt in dit gebied, zijn gerelateerd aan een functie die Workfront heeft verwijderd. Deze optie wordt uit Workfront verwijderd met een latere onderhoudsupdate.</p></li>
+    </tbody> 
+   </table>
+
+<!--These were removed with the new Home: 
+
+<tr> 
+      <td role="rowheader">Projects</td> 
+      <td><ul><li><p>In Home, when a user clicks a project approval assigned to them, your configuration for this setting affects the area to the right of the approval.</p>
+      <p><b>IMPORTANT:</b> </p><p>This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
       </ul> 
       </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Documenten</td> 
+      <td role="rowheader">Documents</td> 
       <td>
-     <ul><li><p>Wanneer een gebruiker in Home op een aan hem toegewezen documentgoedkeuring klikt, is de configuratie voor deze instelling van invloed op het gebied rechts van de goedkeuring.</p>
-      <p><b> BELANGRIJK:</b> </p><p> Dit is een verouderde functie. Wijzigingen die u aanbrengt in dit gebied, zijn gerelateerd aan een functie die Workfront heeft verwijderd. Deze optie wordt uit Workfront verwijderd met een latere onderhoudsupdate.</p></li>
+     <ul><li><p>In Home, when a user clicks a document approval assigned to them, your configuration for this setting affects the area to the right of the approval.</p>
+      <p><b>IMPORTANT:</b> </p><p> This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
       </ul>
       </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Documentversies</td> 
-      <td><ul><li><p>Wanneer een gebruiker in Home op een goedkeuring klikt die aan hem is toegewezen voor een bepaalde versie van een document, is de configuratie voor deze instelling van invloed op het gebied rechts van de goedkeuring.</p>
-      <p><p><b>BELANGRIJK:</b></p> Dit is een verouderde functie. Wijzigingen die u aanbrengt in dit gebied, zijn gerelateerd aan een functie die Workfront heeft verwijderd. Deze optie wordt uit Workfront verwijderd met een latere onderhoudsupdate.</p></li>
+      <td role="rowheader">Document Versions</td> 
+      <td><ul><li><p>In Home, when a user clicks an approval assigned to them for a particular version of a document, your configuration for this setting affects the area to the right of the approval.</p>
+      <p><p><b>IMPORTANT:</b></p> This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
       </ul>
       </td> 
-     </tr> 
-    </tbody> 
-   </table>
+     </tr> -->
 
-   >[!IMPORTANT]
-   >
-   >Als een taak niet toegewezen is, zal de gebruiker die aan het lay-outmalplaatje wordt toegewezen niet de gebiedsaanpassingen in de Samenvatting zien.
+
+>[!IMPORTANT]
+>
+>Als een taak niet toegewezen is, zal de gebruiker die aan het lay-outmalplaatje wordt toegewezen niet de gebiedsaanpassingen in de Samenvatting zien.
 
 1. (Voorwaardelijk) als u Taken of Kwesties in de vorige stap klikte, selecteer de categorie van taak of kwestie die u wilt aanpassen.
 
