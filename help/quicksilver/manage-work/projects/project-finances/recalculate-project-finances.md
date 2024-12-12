@@ -6,7 +6,7 @@ description: De financiën worden berekend op een project aangezien de veranderi
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: 69afad9af3f1e703487fdab092bc84457ee00922
+source-git-commit: 854844b0cb0207085a99403cf8b76573838feb41
 workflow-type: tm+mt
 source-wordcount: '1678'
 ht-degree: 0%
@@ -18,6 +18,8 @@ ht-degree: 0%
 De financiën worden berekend op een project aangezien de veranderingen in de uren voorkomen die voor het project worden geregistreerd of in de tarieven die worden gebruikt om kosten en opbrengst te berekenen.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -44,6 +46,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
 &#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Overwegingen bij het berekenen van de financiën in Adobe Workfront
@@ -58,13 +64,11 @@ Wanneer het tarief van een gebruiker of een rol tijdens het leven van een projec
 * Wanneer de verandering wordt aangebracht, wordt het bijgewerkte tarief gebruikt vanaf dat punt op aangezien de uren worden geregistreerd en de financiële informatie wordt berekend. Het wijzigen van de snelheid heeft geen invloed op de manier waarop de gegevens zijn berekend voordat de wijziging is aangebracht. Voor alle bestaande geregistreerde uren, wordt het oude tarief gebruikt om financiële informatie te berekenen.
 * U kunt Adobe Workfront dwingen om het nieuwe tarief voor alle uren terug te gebruiken die tot nu zijn geregistreerd, door de Recalculate optie van de Financiën te gebruiken. Dit dwingt Workfront alle eerder ingelogde uren, geplande kosten en inkomsten met terugwerkende kracht te herberekenen overeenkomstig de nieuwe tariefinformatie.
 
-Het rapporttype Project (Financiële Gegevens) wordt niet automatisch opnieuw berekend voordat de gegevens worden geladen. Als u de gegevens in dit rapporttype wilt bijwerken, moet u de financiën voor afzonderlijke projecten handmatig opnieuw berekenen.
+Het rapporttype Project (Financiële Gegevens) voert niet automatisch een herberekening van uw financiële gegevens uit. Als u de gegevens in dit rapporttype wilt bijwerken, moet u de financiën voor afzonderlijke projecten handmatig opnieuw berekenen.
 
 >[!CAUTION]
 >
 >Voordat u de financiën voor een bepaald project handmatig opnieuw berekent, wilt u mogelijk alle financiële gegevens behouden die al zijn berekend op basis van een eerder percentage. We raden u aan de optie Financiën opnieuw berekenen alleen te gebruiken als u zeker weet dat u geen wijzigingen aanbrengt in bestaande gegevens of alleen als dergelijke wijzigingen gewenst zijn.
->
->Merk op dat het runnen van een project (de Gegevens van de Financiën) rapport een herberekening van uw financiële gegevens uitvoert, en als dusdanig zou u de zelfde overwegingen moeten maken alvorens het rapport in werking te stellen.
 
 ## Financiële gegevens behouden voor taken met bestaande uren {#preserve-financial-data-for-tasks-with-existing-hours}
 
