@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: financials
 title: Mogelijke risicokosten berekenen
 description: Bij de potentiële risicokosten van een project wordt rekening gehouden met de potentiële kosten van de projectrisico's en de waarschijnlijkheid dat deze zich voordoen.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: f4dc1950-efd8-4936-83fd-1280ee465923
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -28,8 +28,8 @@ Potential Risk Cost =SUM(Potential Risk Costs * Risk Probability)
 
 Overweeg het volgende wanneer het herzien van de Mogelijke Kosten van het Risico van een project:
 
-* De geplande risicokosten van een project zijn gelijk aan de potentiële risicokosten. 
-* De potentiële risicokosten worden niet opgenomen in de geplande kosten van een project. Het wordt in plaats daarvan gebruikt om zijn Nettowaarde te bepalen. .
+* De geplande risicokosten van een project zijn gelijk aan de potentiële risicokosten.
+* De potentiële risicokosten worden niet opgenomen in de geplande kosten van een project. Het wordt in plaats daarvan gebruikt om zijn Nettowaarde te bepalen.
 
 ## De potentiële risicokosten van een project zoeken
 

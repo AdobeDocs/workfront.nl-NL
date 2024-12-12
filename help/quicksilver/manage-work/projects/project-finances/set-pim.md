@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: financials
 title: De PIM-methode (Performance Index) instellen
 description: De Methode van de Index van Prestaties (PIM) voor het project controleert de methode Adobe Workfront gebruikt om de metriek van projectprestaties zoals de Index van de Prestaties van de Kosten (CPI), de Index van de Prestaties van het Programma van het Programma (CSI), en Schatting bij Voltooiing (EAC) te berekenen.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: de628881-c016-4521-bc33-3bcfba19a88f
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ Workfront berekent deze waarden met behulp van het volgende:
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -31,25 +33,30 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td>
+   <p>Nieuw: Standaard</p>
+   <p>of</p>
+   <p>Huidig: Plan</p></td>  
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten en financiële gegevens bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td>Toegang tot projecten en financiële gegevens bewerken</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen voor het project beheren met beheerdersmachtigingen</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td>Machtigingen voor het project beheren met beheerdersmachtigingen</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Overwegingen bij PIM in Workfront
 

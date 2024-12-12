@@ -4,12 +4,12 @@ product-area: projects
 navigation-topic: financials
 title: Kostenprestatie-index (CPI) berekenen
 description: De kostenprestatie-index (CPI) beschrijft de relatie op het project- of taakniveau tussen de geplande kosten en de werkelijke kosten. De Managers van het project herzien dit metrisch om taken of projecten te identificeren die momenteel onder of over kosten op een bepaald punt volgen.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 7f2efe26-7292-482d-986c-2d2077a7ca52
-source-git-commit: a55041ad5a6cd41cd11ec3ade27bf5227ae0ac47
+source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '612'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Slechts kunnen de organisaties die tijdingang vereisen CPI gebruiken. Bovendien 
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -33,25 +35,30 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Controleren of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td>
+   <p>Nieuw: Licht of hoger</p>
+   <p>of</p>
+   <p>Huidig: Controleren of hoger</p></td>  
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten en financiële gegevens weergeven</p> <p> Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td>Toegang tot projecten en financiële gegevens weergeven</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>De mening of hogere toestemmingen aan het project met toestemmingen aan de Financiën van de Mening</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td>De mening of hogere toestemmingen aan het project met toestemmingen aan de Financiën van de Mening</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Overzicht van de kostenprestatie-index (CPI)
 

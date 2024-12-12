@@ -2,14 +2,14 @@
 content-type: overview
 product-area: projects
 navigation-topic: financials
-title: Overzicht van het geplande project
+title: Overzicht van het geplande voordeel van het project
 description: Het geplande voordeel is het geschatte bedrag aan geld dat een organisatie zou kunnen ontvangen als een project wordt voltooid.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 1ded9d16-57be-40e0-b083-ee5273fd9b56
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '338'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,8 @@ Voor meer informatie over het berekenen van de Netto Waarde van een project, zie
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -32,25 +34,30 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td>
+   <p>Nieuw: Standaard</p>
+   <p>of</p>
+   <p>Huidig: Plan</p></td>  
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten en financiële gegevens bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td>Toegang tot projecten en financiële gegevens bewerken</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen voor het project beheren met beheerdersmachtigingen</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td>Machtigingen voor het project beheren met beheerdersmachtigingen</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Zoek het geplande voordeel van een project
 

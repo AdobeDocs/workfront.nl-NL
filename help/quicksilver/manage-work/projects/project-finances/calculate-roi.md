@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: financials
 title: Rendement op investering berekenen (ROI)
 description: Rendement op Investering (ROI) is de metrische factor van Adobe Workfront die portefeuillebeheerders toestaat om snel te zien hoe het project tegen het oorspronkelijke Geplande Voordeel en de Gefabriceerde Kosten van het project presteert.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 1a3d16cb-8cb1-472e-8102-0ea8e0bc0edd
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%

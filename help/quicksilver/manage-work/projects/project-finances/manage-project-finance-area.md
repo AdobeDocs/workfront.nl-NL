@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: financials
 title: Informatie beheren in het gebied Projectfinanciering
-description: Informatie beheren in het gebied Projectfinanciering
-author: Alina
+description: U kunt de financiële informatie van een project bekijken of uitgeven door tot het gebied van de Financiën van de sectie van de Details van het Project toegang te hebben.
+author: Lisa
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: 647788221b4acff1cfd5e0ce14d5b99cf90ceee0
+source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
 workflow-type: tm+mt
-source-wordcount: '1304'
+source-wordcount: '1285'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ U kunt de financiële informatie van een project bekijken of uitgeven door tot h
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -30,26 +32,30 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Controleren of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td>
+   <td>
+   <p>Nieuw: Licht of hoger</p>
+   <p>of</p>
+   <p>Huidig: Controleren of hoger</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten en financiële gegevens bekijken of vergroten</p> <p>Toegang tot projecten en financiële gegevens bewerken om financiële informatie over het project te bewerken</p> <p><b>OPMERKING</b></p>
-   <p> Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot projecten en financiële gegevens bekijken of vergroten</p> <p>Toegang tot projecten en financiële gegevens bewerken om financiële informatie over het project te bewerken</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>De toestemmingen van de mening aan een project of hoger die de toestemmingen van de Financiën van de Mening omvatten</p> <p>Machtigingen beheren voor het project met onder andere de functie Financiën beheren om financiële informatie voor het project te bewerken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>De toestemmingen van de mening aan een project of hoger die de toestemmingen van de Financiën van de Mening omvatten</p> <p>Machtigingen beheren voor het project met onder andere de functie Financiën beheren om financiële informatie voor het project te bewerken</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Overzicht van het gebied Financiën
 

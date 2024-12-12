@@ -2,12 +2,12 @@
 content-type: reference
 product-area: projects
 navigation-topic: financials
-title: Projectfinanciën die in de basislijnen van projecten zijn opgenomen
+title: Projectfinancieringen opgenomen in de basislijnen van projecten
 description: Basislijnen zijn momentopnamen van hoe de prestaties van een project er op een bepaald moment uitzagen. Ze slaan belangrijke informatie over het project op, zoals belangrijke data, voortgang, kosten en inkomstenwaarden.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 705156d0-0daa-40bf-a511-144d56316136
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 0%

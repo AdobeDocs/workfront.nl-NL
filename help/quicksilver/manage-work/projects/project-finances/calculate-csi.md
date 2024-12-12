@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: financials
 title: Prestatie-index (CSI) voor kostenplanning berekenen
 description: De prestatie-index van het kostenschema (CSI) is een automatische berekening waarbij de kostenprestatie-index (CPI) en de prestatie-index (SPI) van het schema worden gecombineerd tot één algemene maatstaf die de kosten en het tijdschema in evenwicht brengt.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 38a8c5e0-b812-499d-8fe7-a71ddccb3aad
-source-git-commit: 1cf679376517293f0e0f28b461bd9ecab9283035
+source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 0%

@@ -2,12 +2,12 @@
 navigation-topic: financials
 title: Factureringsrecords maken
 description: Naast het opzetten van inkomsten en het volgen van uitgaven, kunt u het facturerings verslagen over een project voor informatie tot stand brengen die in rekening moet worden gebracht.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
 workflow-type: tm+mt
-source-wordcount: '1931'
+source-wordcount: '1896'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ U kunt geen factureringsverslagen voor taken tot stand brengen. U kunt alleen fa
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -27,25 +29,30 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td>
+   <p>Nieuw: Standaard</p>
+   <p>of</p>
+   <p>Huidig: Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten en financiële gegevens bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td>Toegang tot projecten en financiële gegevens bewerken</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen voor het project beheren met beheerdersmachtigingen</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td>Machtigingen voor het project beheren met beheerdersmachtigingen</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Overzicht van factureringsrecords
 

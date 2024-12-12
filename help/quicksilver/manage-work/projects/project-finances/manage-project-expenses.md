@@ -1,14 +1,14 @@
 ---
 product-area: projects
 navigation-topic: financials
-title: Projectkosten beheren
+title: Projectuitgaven beheren
 description: Het proces voor het creëren van en het leiden van uitgaven is het zelfde voor zowel project als taak-gerelateerde uitgaven. Eventuele kosten die in de Business Case aan het project worden toegevoegd, worden als geplande uitgaven toegevoegd aan het tabblad Uitgaven. Raadpleeg het artikel Een bedrijfscase maken voor een project voor meer informatie over de Business Case.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '542'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ Het totale bedrag van uw uitgaven van alle taken en het project draagt aan de to
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -29,25 +31,29 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Alle</p> </td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Werk of hoger </p> </td> 
+   <td>
+   <p>Nieuw: Standaard</p>
+   <p>of</p>
+   <p>Huidig: Werk of hoger</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten en financiële gegevens bewerken</p> <p><b> NOTA </b> </p>
-   <p> Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td>Toegang tot projecten en financiële gegevens bewerken</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Contribute of hogere machtigingen voor het project met machtigingen voor View of Manage Finance</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td>Contribute of hogere machtigingen voor het project met machtigingen voor View of Manage Finance</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Uitgaven toevoegen
 

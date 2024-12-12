@@ -4,12 +4,12 @@ product-area: projects
 navigation-topic: financials
 title: Berekenen van de begrote kosten van het Geplande Werk (BCWS)
 description: Ook gekend als Geplande Waarde, is de Begrotende Kosten van het Gepland Werk (BCWS) metrische projectprestaties die de hoeveelheid taak vertegenwoordigt die op het tijdstip zou moeten voltooid zijn dat deze metrisch wordt berekend.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: b9a36333-9430-42bd-99dd-3ad82803b633
-source-git-commit: 1d5de5ff0ebebd84482507c71730cfbd05c513a5
+source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ Overweeg het volgende wanneer het herzien van de waarden voor BCWS op een taak o
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -43,25 +45,30 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td>
+   <p>Nieuw: Standaard</p>
+   <p>of</p>
+   <p>Huidig: Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten bewerken</p> <p>Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td>Toegang tot projecten bewerken</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor het project beheren</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td>Rechten voor het project beheren</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Configureer hoe BCWS wordt berekend {#configure-how-bcws-is-calculated}
 

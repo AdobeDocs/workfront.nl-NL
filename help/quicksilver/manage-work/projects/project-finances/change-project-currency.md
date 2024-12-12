@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: financials
 title: De projectvaluta wijzigen
 description: Als projectmanager, kunt u een project vormen om een munt buiten de standaardmunt voor uw systeem van Adobe Workfront te gebruiken. Hierdoor kunt u financiële informatie over uw project in de gewenste valuta weergeven bij het berekenen van de arbeidskosten en -inkomsten.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: c496fe92-5c17-41a5-972b-1c063643bde3
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ Alvorens u afwisselende die valuta kunt gebruiken zoals in deze sectie wordt bes
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -28,25 +30,30 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td>
+   <p>Nieuw: Standaard</p>
+   <p>of</p>
+   <p>Huidig: Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td>Toegang tot projecten bewerken</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor een project beheren</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td>Rechten voor een project beheren</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Overwegingen bij het wijzigen van de valuta van een project in Workfront
 
