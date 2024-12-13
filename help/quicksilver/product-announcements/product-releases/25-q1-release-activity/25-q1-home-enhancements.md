@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 8b0c40d6fa5898581c50d6257bc2b2f2a4838b06
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,36 @@ ht-degree: 0%
 Op deze pagina worden alle Home-verbeteringen beschreven die zijn aangebracht met de release First Quarter 2025 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2025 versiecyclus, zie [ Eerste Kwartaal 2025 versieoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+
+## Updates van de werklijst Prioriteiten
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 12 december 2024; Productieversie voor alle klanten: met de release van 25.1 (januari 2025)
+
+We hebben de prioriteitswerklijst bijgewerkt om de mogelijkheden te verbeteren en ons aan te passen aan andere toepassingsgebieden.
+
+### Visuele wijzigingen
+
+* De filteropties, weergaven en groeperingsopties worden nu aan de linkerkant van de koptekst van de werklijst weergegeven
+* Nieuwe optie voor vervolgkeuzemenu&#39;s voor kolommen en groepen
+* Totaal aantal lijstitems nu in de rechterbenedenhoek van de werklijst
+* Nieuwe uitgevouwen zoekbalk rechts van de koptekst van de werklijst
+
+Voor meer informatie, zie [ begonnen worden met Prioriteiten ](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md).
+
+### Functionele wijzigingen
+
+U kunt nu
+
+* Items in de groepen sorteren
+* Items slepen en neerzetten tijdens groeperen op Mijn prioriteit of Status
+
+Voor meer informatie, zie [ Filter en groepeer uw werk met Prioriteiten ](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
+
+### Verwijderd
+
+* U kunt taken en problemen niet meer rechtstreeks in de werklijst maken. U moet de knop Nieuw maken in de rechterbovenhoek van Prioriteiten gebruiken.
 
 ## Navigeer aan de pagina van Details van een project van Prioriteiten
 

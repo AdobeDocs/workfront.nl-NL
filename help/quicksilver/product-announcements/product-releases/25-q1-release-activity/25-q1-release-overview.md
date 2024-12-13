@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 8b0c40d6fa5898581c50d6257bc2b2f2a4838b06
 workflow-type: tm+mt
-source-wordcount: '1651'
+source-wordcount: '1728'
 ht-degree: 0%
 
 ---
@@ -59,6 +59,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Voorkeur om project of gebruikersprogramma voor enig-taaktaken te gebruiken</a></p>
+            [!BADGE in productie voor Snelle Versie ]{type=Positive}
             <p>Als systeem of groepsbeheerder, hebt u nu een nieuwe voorkeur om erop te wijzen of Workfront het project of het programma van de gebruiker zou moeten gebruiken om de chronologie van het project te berekenen wanneer u één gebruiker aan een taak toewijst en zowel het project als de gebruiker met een programma wordt geassocieerd.</p>
         </td>
         <td>
@@ -74,6 +75,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             De bedrijfsregels ondersteunen nu hyperlinks</a></p>
+            [!BADGE in productie voor Snelle Versie ]{type=Positive}
             <p>U kunt hyperlinks in het bericht van de douanefout van een bedrijfsregel nu omvatten, om de gebruiker op te begeleiden hoe te om hun actie binnen de beperking van de regel te wijzigen. De statische URL kan worden gekoppeld aan documentatie of andere pagina's die nuttig zijn voor de gebruiker.</p>
         </td>
         <td>
@@ -169,6 +171,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Meerdere documenten tegelijk bewerken</a></p>
+            [!BADGE in productie voor Snelle Versie ]{type=Positive}
             <p>U kunt nu meerdere documenten tegelijk bewerken. U kunt de beschrijvingen bewerken en aangepaste formulieren bijwerken.</p>
         </td>
         <td>
@@ -217,8 +220,22 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Navigeer aan de pagina van Details van een project van Prioriteiten</a></p>
+            Updates van de werklijst Prioriteiten</a></p>
             [!BADGE Nieuw in Voorproef ]{type=Negative}
+            <p>We hebben de prioriteitswerklijst bijgewerkt om de mogelijkheden te verbeteren en ons aan te passen aan andere toepassingsgebieden.</p>
+        </td>
+        <td>
+            <p><b>Beschikbaar op deze data:</b></p>
+            <ul>
+                <li>Voorvertoningsrelease: 12 december 2024</li>
+                <li>Productieversie voor alle klanten: met de release van 25.1 (januari 2025)</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Navigeer aan de pagina van Details van een project van Prioriteiten</a></p>
             <p>U kunt nu rechtstreeks vanuit de prioriteitswerklijst naar een project in Workfront navigeren.</p>
         </td>
         <td>
@@ -344,6 +361,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Bijwerken hoe verplaatste of verwijderde elementen in gekoppelde mappen worden beheerd</a></p>
+            [!BADGE in productie ]{type=Informative}
             <p>We hebben de manier gewijzigd waarop verplaatste en verwijderde middelen worden verwerkt bij het gebruik van de Adobe Workfront-integratie met Experience Manager Assets en Assets Essentials:</p>
             <ul>
                 <li>Verwijderde elementen: wanneer een element wordt verwijderd uit een gekoppelde map in Assets of Assets Essentials, blijft het verwijderde element behouden in het gebied Projectdocumenten.</li>
@@ -362,6 +380,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Secties in een aangepast formulier kunnen nu worden samengevouwen en uitgebreid</a></p>
+            [!BADGE in productie voor Snelle Versie ]{type=Positive}
             <p>Wanneer een aangepast formulier met meerdere secties aan een object is gekoppeld, kunt u nu alle secties samenvouwen en uitvouwen, behalve de standaardsectie boven aan het formulier. De beheerder kan deze functionaliteit ook zien wanneer u een voorbeeld van het formulier weergeeft in de formulierontwerper.</p>
         </td>
         <td>
