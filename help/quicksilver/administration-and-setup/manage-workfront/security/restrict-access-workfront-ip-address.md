@@ -3,12 +3,12 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: security
 title: Toegang tot Adobe Workfront beperken tot IP-adres
-description: U kunt een lijst van gewenste personen vormen van Adobe Workfront IP die toegang tot Workfront tot 45 IP adressen of IP adreswaaiers beperkt die u specificeert. Dit biedt een extra beveiligingslaag voor de Workfront-toepassing.
+description: U kunt een lijst van gewenste personen vormen van Adobe Workfront IP die toegang tot Workfront tot 75 IP adressen of IP adreswaaiers beperkt die u specificeert. Dit biedt een extra beveiligingslaag voor de Workfront-toepassing.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aed65b42-d534-453a-885d-f922114987bc
-source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
+source-git-commit: 937965ad495453e185504d53f9d9c88c3cd7e201
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Toegang tot Adobe Workfront beperken tot IP-adres
 
-U kunt een lijst van gewenste personen vormen van Adobe Workfront IP die toegang tot Workfront tot 45 IP adressen of IP adreswaaiers beperkt die u specificeert. Dit biedt een extra beveiligingslaag voor de Workfront-toepassing.
+U kunt een lijst van gewenste personen vormen van Adobe Workfront IP die toegang tot Workfront tot 75 IP adressen of IP adreswaaiers beperkt die u specificeert. Dit biedt een extra beveiligingslaag voor de Workfront-toepassing.
 
 Deze IP adressen of IP adreswaaiers zouden door uw netwerkbeheerder moeten worden verstrekt.
 
@@ -77,6 +77,6 @@ Nadat u IP adressen aan de lijst van gewenste personen van Workfront toevoegt, s
 1. Klik **toevoegen IP Waaier,** dan specificeer het IP adres of de waaier van IP adressen die u tot Workfront wilt kunnen toegang hebben.
 1. (Optioneel) Herhaal de vorige stap om extra IP-adressen of IP-adresbereiken toe te voegen.
 
-   U kunt maximaal 45 adressen of bereiken toevoegen.
+   U kunt maximaal 75 adressen of bereiken toevoegen.
 
 1. Klik **sparen.**
