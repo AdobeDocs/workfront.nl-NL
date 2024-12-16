@@ -7,7 +7,7 @@ description: Als u Uitgezocht of het plan van de Premie hebt, kunt u Enige Sign-
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 52ac1919-1821-424f-89f8-72865b236e4e
-source-git-commit: 007a603ef1df2a02959d7fb623ac784bf5b9cb80
+source-git-commit: 74a877145b55ccc14b4d5aefd1889919a39e1f20
 workflow-type: tm+mt
 source-wordcount: '1195'
 ht-degree: 0%
@@ -59,12 +59,12 @@ Dit is de verbinding aan uw server SSO (bijvoorbeeld, **https://sso.mycompany.co
 1. Ga **Login URL** (3) in.
 Dit is de URL die wordt aangeroepen om de gebruikers om te leiden naar uw identiteitsprovider.
 
-1. Dit is geen daadwerkelijke URL u in browser ingaat, maar eerder een eindpunt dat de informatie zal verwerken wij het verzenden om het Login scherm voor te stellen.
+   Dit is geen daadwerkelijke URL u in browser ingaat, maar eerder een eindpunt dat de informatie zal verwerken wij het verzenden om het Login scherm voor te stellen.
 
-Ga **Logout URL** (4) in.
+1. Ga **Logout URL** (4) in.
 Dit is de URL waarnaar u terugkeert nadat u zich hebt afgemeld, bijvoorbeeld
 
-**https://www.yourcompany.com/services/logout.asp**
+   **https://www.yourcompany.com/services/logout.asp**
 
 1. Ga de **vingerafdruk van het Certificaat** (5) in.
 1. De SHA1-vingerafdruk van het SAML-certificaat dat door uw SAML Identity Provider is verstrekt.
