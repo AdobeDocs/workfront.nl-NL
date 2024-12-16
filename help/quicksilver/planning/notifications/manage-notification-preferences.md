@@ -6,15 +6,19 @@ feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '562'
 ht-degree: 0%
 
 ---
 
 
 # Voorkeuren voor Adobe Workfront-planningsberichten beheren
+
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 {{planning-important-intro}}
 
@@ -23,6 +27,14 @@ U kunt meldingen in de app of per e-mail ontvangen wanneer de volgende acties pl
 * Iemand voegt u toe aan een opmerking op de recordpagina
 * Iemand vraagt om toestemming om een weergave of werkruimte te openen
 * Iemand geeft u toestemming om een weergave of werkruimte te openen <!--I could not test this but Isk confirmed-->
+
+<div class="preview">
+
+* Je verzendt een aanvraag voor Workfront-planning.
+* Iemand keurt of verwerpt een Workfront-planningsverzoek dat u hebt ingediend goed.
+* De status verandert in een Workfront-planningsverzoek dat u hebt verzonden.
+
+</div>
 
 ## Toegangsvereisten
 
@@ -49,8 +61,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td> 
 <p>Een van de volgende Workfront-plannen:</p> 
 <ul><li>Selecteren</li> 
-<li>Eerste</li> 
-<li>Ultieme</li></ul> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
 <p>Workfront Planning is niet beschikbaar voor oudere Workfront-plannen</p> 
    </td> 
 <tr> 
@@ -172,7 +184,12 @@ Schakel de meldingen uit die u niet meer wilt ontvangen.
 1. De volgende berichten zijn beschikbaar voor Workfront:
 
    * **Vermeldingen**: U ontvangt een bericht wanneer iemand u in een commentaar in de Planning van Workfront etiketteert
-   * **Verzoeken**: U ontvangt een bericht wanneer iemand om u verzoekt of toestemming verleent aan een voorwerp van de Planning van Workfront
+   * **Verzoeken**: U ontvangt een bericht wanneer iemand één van het volgende deed:
+
+      * Verzoekt of verleent u toestemming aan een voorwerp van de Planning van Workfront
+      * <span class="preview"> u voorlegde een verzoek van de Planning van Workfront </span>
+      * <span class="preview"> het statuut van een verzoek van de Planning van Workfront dat u veranderingen </span> voorlegde
+      * <span class="preview"> Verzoeken, subsidies, of verwerpt een goedkeuring aan een verzoek van de Planning van Workfront </span>
 
    Voor meer informatie over het beheren van berichten, zie [ voorkeur en berichten van de Rekening ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 

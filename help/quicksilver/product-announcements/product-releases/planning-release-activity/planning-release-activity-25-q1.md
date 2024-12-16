@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 93fca2a98a8b9d4370841b10be10ed2ba15283c9
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
 workflow-type: tm+mt
-source-wordcount: '1920'
+source-wordcount: '2114'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,42 @@ In dit artikel worden de functies beschreven die tijdens de release Eerste kwart
 <!--remove the general activity mention after First Quarter 2025 is released-->
 
 Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront na de algemene beschikbaarheidsversie op 28 augustus, 2024 worden vrijgegeven, zie [ de versieactiviteit van de Planning van Adobe Workfront: artikelindex ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+
+## Goedkeuringen voor Workfront-planningsaanvragen configureren
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 16 december 2024; Productieversie voor alle klanten: 16 januari 2025
+
+U kunt nu een goedkeuring koppelen aan een aanvraagformulier voor Workfront-planning. U kunt alleen gebruikers toevoegen als fiatteurs van een aanvraag. Nadat het verzoek is ingediend, wordt het eerst naar alle fiatteurs verzonden om het goed te keuren alvorens het tot een verslag leidt.
+
+Voor informatie, zie [ een goedkeuring aan een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/add-approval-to-request-form.md) toevoegen.
+
+
+## Meldingen voor het indienen van aanvragen, goedkeuringen en statuswijzigingen
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 16 december 2024; Productieversie voor alle klanten: 16 januari 2025
+
+Nadat u een aanvraag hebt ingediend in Workfront Planning, ontvangt u nu zowel een in-app als een e-mailmelding voor de volgende acties:
+
+* Een aanvrager ontvangt een melding dat een aanvraag met succes is ingediend
+
+* Een aanvrager ontvangt een kennisgeving dat een verzoek is goedgekeurd of afgewezen
+
+* Een fiatteur ontvangt een kennisgeving dat een verzoek ter goedkeuring aan hem is voorgelegd.
+
+>[!NOTE]
+>
+>De instantie van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden ingezien opdat de gebruikers e-mail en in-app berichten kunnen ontvangen.
+
+Raadpleeg de volgende artikelen voor informatie over het verzenden of goedkeuren van aanvragen:
+
+* [Adobe Workfront-planningsverzoeken verzenden om records te maken](/help/quicksilver/planning/requests/submit-requests.md)
+
+* [ keur een verzoek in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/approve-request.md) goed.
 
 ## Intelligente zoekactie bij het zoeken naar een veldtype
 
@@ -138,7 +174,7 @@ U kunt nu de volgende veldtypen toevoegen aan een aanvraagformulier voor een rec
 
 Vóór deze verbetering, konden deze types van gebieden niet aan aanvraagformulieren in de Planning van Workfront worden toegevoegd.
 
-Zie Een aanvraagformulier maken en beheren in Adobe Workfront Planning (/help/quicksilver/planning/requests/create-request-form.md) voor meer informatie.
+Voor informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
 
 ## Openbare delen van aanvraagformulieren met bepaalde veldtypen beperken
 

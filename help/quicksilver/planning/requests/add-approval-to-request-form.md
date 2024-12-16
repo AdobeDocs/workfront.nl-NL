@@ -1,30 +1,19 @@
 ---
-title: Goedkeuring toevoegen aan een aanvraagformulier
+title: Goedkeuring toevoegen aan een aanvraagformulier in Adobe Workfront-planning
 description: U kunt een goedkeuringsproces aan een formulier van het de planningsverzoek van Adobe Workfront toevoegen, om een goedkeuring voor elk voorgelegd verzoek in werking te stellen, alvorens het tot een verslag leidt.
-hide: true
-hidefromTOC: true
-source-git-commit: a999b805016361bdd101a6cd9c61967284a71014
+feature: Workfront Planning
+role: User, Admin
+author: Alina
+recommendations: noDisplay, noCatalog
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '766'
 ht-degree: 0%
 
 ---
 
 
-<!--
-
----
-title: Add an Approval to a Request Form
-description: You can add an approval process to an Adobe Workfront Planning request form, to initiate an approval for every submitted request, before it creates a record. 
-feature: Workfront Planning
-role: User, Admin
-author: Alina
-recommendations: noDisplay, noCatalog
----
-
--->
-
-# Een goedkeuring toevoegen aan een aanvraagformulier
+# Goedkeuring toevoegen aan een aanvraagformulier in Adobe Workfront Planning
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
@@ -69,8 +58,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td>
 <p>Een van de volgende Workfront-plannen:</p>
 <ul><li>Selecteren</li>
-<li>Eerste</li>
-<li>Ultieme</li></ul>
+<li>Prime</li>
+<li>Ultimate</li></ul>
 <p>Workfront Planning is niet beschikbaar voor oudere Workfront-plannen</p>
    </td>
 
@@ -127,6 +116,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 * U kunt een of meerdere fiatteurs toevoegen aan een aanvraagformulier. U kunt alleen gebruikers toevoegen als fiatteurs.
 * Wanneer u meerdere fiatteurs toevoegt aan een aanvraagformulier, moeten alle fiatteurs het verzoek accepteren voordat een record wordt gemaakt in Workfront Planning.
+* Als alle fiatteurs het verzoek goedkeuren, wordt een verslag gecreeerd voor het verslagtype verbonden aan het verzoekformulier.
+* Als minstens één fiatteur het verzoek verwerpt, en alle anderen het goedkeuren, wordt een verzoek gecreeerd voor het gebied van Verzoeken in Workfront, maar geen verslag wordt gecreeerd voor het verslagtype verbonden aan het verzoekformulier.
 * Het toevoegen van goedkeuringen aan een aanvraagformulier is optioneel. Workfront Planning maakt onmiddellijk een record wanneer een aanvraag wordt ingediend, als het aanvraagformulier niet aan een goedkeuring is gekoppeld.
 
 ## Een goedkeuring toevoegen aan een aanvraagformulier
@@ -143,16 +134,31 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    Typ de naam van een fiatteur en selecteer deze vervolgens wanneer deze in de lijst wordt weergegeven.
 
-   >[!TIP]
+   <!--most of the Note below is duplicated in the Create a request form article-->
+
+   >[!NOTE]
    >
-   >    Als u meerdere fiatteurs toevoegt, moeten alle fiatteurs het verzoek goedkeuren voordat Workfront Planning een record maakt.
+   >
+   >* U kunt een of meer fiatteurs toevoegen aan een aanvraagformulier.
+   >
+   >* Als u meerdere fiatteurs toevoegt, moeten alle fiatteurs het verzoek goedkeuren voordat Workfront Planning een record maakt.
+   >
+   >* Als ten minste één fiatteur het verzoek afwijst, wordt het verzoek afgewezen en wordt de record niet gemaakt. Het verzoek blijft op het lusje van de Planning van de Verzendende sectie in het gebied van Verzoeken van Workfront.
+   >
+   >* Elke fiatteur moet een beslissing nemen voordat een verzoek wordt goedgekeurd of afgewezen.
+
 
 1. (Facultatief) klik **Publish** als u nooit de verzoekvorm vóór hebt gedeeld
 
    of
 
    Klik **Aandeel** om de vorm te delen, toen **verbinding van het Exemplaar**.
-1. (Optioneel) Nadat een gebruiker de koppeling heeft gebruikt die u deelt en een aanvraag verzendt, stuurt Workfront Planning een goedkeuringsmelding en verzendt het e-mailbericht naar de fiatteurs.
+1. (Optioneel) Nadat een gebruiker de koppeling gebruikt die u deelt en een aanvraag verzendt, verzendt Workfront Planning een melding voor goedkeuring in de app en een e-mail naar de fiatteurs.
+
+   >[!NOTE]
+   >
+   >   De instantie van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden ingezien opdat de gebruikers e-mail en in-app berichten kunnen ontvangen.
+
 
    Voor informatie over het goedkeuren van verzoeken, zie [ een verzoek ](/help/quicksilver/planning/requests/approve-request.md) goedkeuren.
 

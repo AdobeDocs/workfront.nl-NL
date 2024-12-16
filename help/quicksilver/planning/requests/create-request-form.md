@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: b89f4aa6f779e09d6749e59bdf3d54f0dd9bbf03
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
 workflow-type: tm+mt
-source-wordcount: '1397'
+source-wordcount: '1557'
 ht-degree: 0%
 
 ---
@@ -58,8 +58,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td>
 <p>Een van de volgende Workfront-plannen:</p>
 <ul><li>Selecteren</li>
-<li>Eerste</li>
-<li>Ultieme</li></ul>
+<li>Prime</li>
+<li>Ultimate</li></ul>
 <p>Workfront Planning is niet beschikbaar voor oudere Workfront-plannen</p>
    </td>
 
@@ -126,12 +126,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    De pagina met recordtypen wordt geopend in de weergave die u het laatst hebt geopend. Standaard wordt een pagina met recordtypen geopend in de tabelweergave.
 
 1. Klik **Meer** menu ![](assets/more-menu.png) aan het recht van het verslagtype naam in de paginakop, dan klik **creeer verzoekvorm**.
-1. Werk de naam van het aanvraagformulier bij. Door gebrek, is de naam van de vorm **Naamloze verzoekvorm**. <!--check this; you logged a bug to rename it to this but was it fixed?-->
+1. Werk de naam van het aanvraagformulier bij. Door gebrek, is de naam van de vorm **Naamloze vorm**. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. (Facultatief) voeg a **Beschrijving** voor de verzoekvorm toe.
 
    <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
 
-1. Klik **creëren**. Het aanvraagformulier voor het geselecteerde recordtype wordt geopend <!--<span class="preview"> in the Form tab</span>; add screen shot below with Configuration tab.--> .
+1. Klik **creëren**. Het aanvraagformulier voor het geselecteerde recordtype wordt <span class="preview"> geopend op het tabblad Formulier </span> .
 
    ![](assets/campaigns-request-form-edit-mode.png)
 
@@ -159,7 +159,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 
    * **Standaard sectie**: Dit is de standaardsectieonderbreking die Workfront op de verzoekvorm van toepassing is. De standaardsectie kan niet worden anders genoemd of worden verwijderd.
-   * **Onderwerp** gebied: Het gebied dat het verzoek in Workfront zal identificeren. Deze mogelijkheid is nog niet beschikbaar. De configuratie en de waarde van het onderwerpveld kunnen niet worden bewerkt.
+   * **Onderwerp** gebied: Het gebied dat het verzoek in Workfront zal identificeren. Deze mogelijkheid is nog niet beschikbaar in de productieomgeving. <span class="preview"> het is beschikbaar in het voorproefmilieu.</span> De configuratie en de waarde van het veld Onderwerp kunnen niet worden bewerkt.
+
+     >[!TIP]
+     >
+     >Het **Onderwerp** gebied vereist een waarde wanneer het op de verzoekvorm zichtbaar is. Nochtans, kunt u het **Onderwerp** gebied verwijderen, indien nodig, en de verzoekers zullen het niet op de vorm zien.
+
    * Alle velden die aan het recordtype zijn gekoppeld.
 
      De velden in het aanvraagformulier zijn zichtbaar voor iedereen die een aanvraag naar dit recordtype indient.
@@ -190,14 +195,19 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. (Facultatief) klik **Voorproef** om te bekijken hoe de vorm voor andere gebruikers zal tonen wanneer zij het zullen gebruiken om een nieuw verslag voor te leggen.
 
-   <!--
-   <div class="preview">
-   1. (Optional) Click the **Configuration** tab, then add at least one user to the **Approvers** field to approve new requests for this record form. 
-      When you associate a request form with approvers, any new request must first be approved by all approvers before it generates a new record. 
-      You can add one or several approvers to a request form. If at least one approver rejects the request, the request is rejected and the record is not created.
-   For more information about adding approvals to request forms, see [Add approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md). 
-   </div>
-   -->
+1. 
+   <div class="preview">(Optioneel) Klik op het tabblad **Configuration** en voeg vervolgens ten minste één gebruiker toe aan het veld **Approvers** om nieuwe aanvragen voor dit recordformulier goed te keuren.
+
+   ![](assets/configuration-tab.png)
+
+   <!--below bullet list is duplicated in the Add approval to a request form article-->
+
+   * Wanneer u een aanvraagformulier aan fiatteurs koppelt, moet elk nieuw verzoek eerst worden goedgekeurd door alle fiatteurs voordat een nieuwe record wordt gegenereerd.
+   * U kunt een of meer fiatteurs toevoegen aan een aanvraagformulier.
+   * Als ten minste één fiatteur het verzoek afwijst, wordt het verzoek afgewezen en wordt de record niet gemaakt.
+   * Elke fiatteur moet een beslissing nemen voordat een verzoek wordt goedgekeurd of afgewezen.
+
+     Voor meer informatie over het toevoegen van goedkeuringen aan aanvraagvormen, zie [ goedkeuring aan een verzoekvorm ](/help/quicksilver/planning/requests/add-approval-to-request-form.md) toevoegen. </div>
 
 1. (Facultatief) klik **Meer** menu ![](assets/more-menu.png) aan het recht van de naam van de vorm in de kopbal, dan klik **uitgeven** om de naam van de vorm bij te werken.
 1. Klik **Publish** om de vorm te publiceren en een unieke verbinding voor het te verkrijgen.
@@ -231,7 +241,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >     * <span class="preview"> Mensen </span>
    >
 
-1. (Voorwaardelijk) als u **Iedereen met de verbinding** in de vorige stap selecteerde, selecteer de **vervaldatum van de Verbinding** van de beschikbare kalender. Personen ontvangen een fout nadat de koppeling is verlopen en u moet de datum van de koppeling bijwerken voordat ze het formulier weer kunnen openen.
+1. (Voorwaardelijk) als u **Iedereen met de verbinding** in de vorige stap selecteerde, selecteer de **vervaldatum van de Verbinding** van de beschikbare kalender. Personen ontvangen een fout nadat de koppeling is verlopen en u moet de datum van de koppeling bijwerken en een nieuwe koppeling genereren om te delen voordat ze het formulier weer kunnen openen.
 
    U kunt toekomstige datums selecteren binnen 180 dagen vanaf de huidige datum.
 
@@ -241,7 +251,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    Voor informatie over het creëren van verslagen die een verbinding aan een verzoekvorm gebruiken, zie [ verzoeken van de Planning van Adobe Workfront voorleggen ](/help/quicksilver/planning/requests/submit-requests.md).
 
-1. Klik **sparen** in de laag-juiste hoek van het scherm om de vorm te bewaren.
+1. Klik **sparen** in de laag-juiste hoek van het **3} lusje van de Vorm {om de vorm te bewaren.**
 1. Klik op de pijl die naar links wijst links van de naam van het formulier in de koptekst om het formulier te sluiten.
 
    De pagina met recordtypen wordt geopend.
