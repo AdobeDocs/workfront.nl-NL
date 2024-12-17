@@ -6,14 +6,23 @@ description: U kunt kwesties tussen projecten en taken bewegen.
 author: Alina
 feature: Work Management
 exl-id: 8ab9be3e-0412-43d9-ad1e-75c43613fa82
-source-git-commit: 6c82c585376b41cff0e57b253b6a214fb00309de
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
 
 # Problemen verplaatsen
+
+<!--Audited: 12/2024-->
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 U kunt kwesties tussen de volgende voorwerpen bewegen:
 
@@ -24,6 +33,8 @@ U kunt kwesties tussen de volgende voorwerpen bewegen:
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -31,25 +42,34 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Aanvraag of hoger</p> <p>Controleer of u een hogere licentie hebt om problemen te verplaatsen in de sectie Issues van een project.</p> </td> 
+   <td> <p>Nieuw:</p> 
+   <ul><li>Medewerker of hoger</li>
+   <li>Licht of hoger om kwesties in de sectie van Kwesties van een project te bewegen</li></ul>
+   <p>Huidige:</p>
+   <ul>
+   <li><p>Aanvraag of hoger</p></li>
+   <li><p>Controleer of u een hogere licentie hebt om problemen te verplaatsen in de sectie Issues van een project.</p></li></ul>   
+     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot problemen bewerken</p> <p>De mening of hogere toegang tot Projecten en Taken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over toegang tot kwesties in uw Niveau van de Toegang, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref"> Toegang van de Verlening tot kwesties </a>. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen. </p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot problemen bewerken</p> <p>De mening of hogere toegang tot Projecten en Taken</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor het probleem beheren</p> <p>Contribute geeft toestemming aan het item waar u het probleem verplaatst met de mogelijkheid om problemen toe te voegen.</p> <p> Voor informatie over het verlenen van toestemmingen aan kwesties, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref"> een kwestie delen </a></p> <p>Voor informatie bij het vragen van extra toestemmingen, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> Toegang tot voorwerpen verzoeken </a>.</p> </td> 
+   <td> <p>Rechten voor het probleem beheren</p> <p>Contribute geeft toestemming aan het item waar u het probleem verplaatst met de mogelijkheid om problemen toe te voegen.</td> 
   </tr> 
  </tbody> 
 </table>
 
-*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt.
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Overwegingen bij het verplaatsen van problemen
 
@@ -58,6 +78,14 @@ Houd rekening met het volgende wanneer u problemen verplaatst die documenten bev
 * **wanneer een kwestie met een verzoekrij wordt geassocieerd:** wanneer u een kwestie aan een ander voorwerp beweegt en de kwestie met een verzoekrij wordt geassocieerd, wordt de verplaatste kwestie niet meer geassocieerd met de originele rij de eerste kwestie voortgekomen uit.
 * **wanneer een document aan de kwestie in bijlage is:** wanneer u een kwestie aan een ander voorwerp beweegt en de kwestie een document in bijlage aan het heeft, bewegen het document, zijn versies en de proeven zich ook naar de nieuwe kwestie. Eventuele goedkeuringen die aan het document zijn gekoppeld, worden niet verplaatst.
 * **wanneer een kwestie met een document of een omslag wordt verbonden:** wanneer u een kwestie verplaatst die documenten of omslagen verbonden aan een derdedienst zoals de Aandrijving van Google heeft, bewegen de verbindingen aan de documenten met de kwestie.
+
+<!--
+<div class="preview">
+
+* Your system or group administrator can prevent you from moving issues that have logged hours, depending on how they configure the Allow users to move tasks and issues with logged hours preference in the Setup area. For information, see [Configure system-wide task and issue preferences](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md). 
+
+</div>
+-->
 
 ## Uitgaven in een lijst verplaatsen
 
@@ -74,13 +102,7 @@ U kunt een of meerdere problemen verplaatsen vanuit een lijst met problemen of v
 
    ![](assets/copy-and-move-to-links-for-issue-in-a-list-nwe-350x119.png)
 
-1. Ga met het bewegen van de kwestie voort, zoals die in de sectie [ wordt beschreven Beweeg één enkele kwestie ](#move-a-single-issue) die met Stap 2 begint.
-
-   <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   (NOTE: ensure step stays accurate)
-   </MadCap:conditionalText>
-   -->
+1. Ga met het bewegen van de kwesties voort, zoals die in de sectie [ worden beschreven één enkele kwestie ](#move-a-single-issue) die met Stap 2 beginnen.
 
 ## Eén probleem verplaatsen {#move-a-single-issue}
 

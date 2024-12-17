@@ -5,14 +5,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '1579'
+source-wordcount: '1551'
 ht-degree: 0%
 
 ---
 
 # Volledige administratieve toegang verlenen aan een gebruiker
+
+<!--Audited: 12/2024-->
 
 >[!IMPORTANT]
 >
@@ -47,16 +49,18 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td> <p>Nieuw: Standaard</p>
+   <p>Huidig: Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een Workfront-beheerder zijn. Voor meer informatie, zie <a href="#" class="MCXref xref selected"> een gebruiker volledige administratieve toegang verlenen </a>.</p> <p><b> NOTA </b>: Als u nog geen toegang hebt, vraag uw beheerder van Workfront als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td> <p>U moet een Workfront-beheerder zijn. </td> 
   </tr> 
  </tbody> 
 </table>
 
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Volledige toegang van de Beheerder van het Systeem tot één enkele gebruiker verlenen
@@ -64,11 +68,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 {{step-1-to-users}}
 
 1. Klik op de naam van de gebruiker aan wie u beheerdersrechten wilt verlenen.
-1. Klik het Meer menu ![](assets/more-icon.png), dan klik **uitgeven**.
+1. Klik **Meer** menu ![](assets/more-icon.png) aan het recht van de gebruikersnaam, dan klik **uitgeven**.
 
-1. Op **geef Persoon** doos uit die verschijnt, klik **Toegang**.
-
-1. In het **toegangsniveau** drop-down lijst, selecteer het **toegangsniveau van de Beheerder van het Systeem**.
+   De **geeft de vertoningen van de Persoon** doos uit.
+1. Klik **Toegang** in het linkerpaneel.
+1. In het **niveau van de Toegang** drop-down lijst, selecteer het **toegangsniveau van de Beheerder van het Systeem**.
 
    Afhankelijk van de wijzigingen die in uw systeem zijn aangebracht, kan de naam van dit toegangsniveau zijn gewijzigd.
 
@@ -78,7 +82,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Toegang tot een Workfront-beheerder versus toegang tot een Abonnementsgebruiker met beheerrechten  {#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights}
 
-In de twee onderstaande tabellen ziet u het verschil tussen de toegangsrechten van een gebruiker met een Workfront-beheerdertoegangsniveau en die van een gebruiker met een licentie voor abonnementen met bepaalde beheerrechten.
+In de twee onderstaande tabellen ziet u het verschil tussen de toegangsrechten van een gebruiker met een toegangsniveau van een Workfront System Administrator en die van een gebruiker met een licentie van het Plan met bepaalde beheerrechten.
 
 Workfront-beheerders kunnen alle objecten in het systeem bekijken (ongeacht wie ze heeft gemaakt), nieuwe maken en bestaande objecten wijzigen of verwijderen. Ze hebben volledige toegang tot alle objecten in het systeem.
 

@@ -8,7 +8,7 @@ feature: System Setup and Administration
 author: Lisa
 role: Admin
 exl-id: e5b63652-ce16-44a9-a806-a41f19970ee1
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
 source-wordcount: '1049'
 ht-degree: 0%
@@ -137,7 +137,7 @@ Wanneer u een project, een taak, of een kwestie herstelt, wordt de volgende bijb
 
 * Objecten omzetten
 
-  Een het oplossen van voorwerp is een omgezet kwestie die met de optie **wordt gevormd houdt de originele kwestie en bindt zijn resolutie aan dit** &lt; **project** of **taak)**>. Als u het ouderproject of de taak schrapt, wordt de kwestie niet meer geïdentificeerd als het oplossen van voorwerp omdat er geen verbinding meer is die het met het project of de taak verbindt. Als u het bovenliggende element herstelt, wordt de koppeling niet hersteld.
+  Een het oplossen van voorwerp is een omgezet kwestie die met de optie **wordt gevormd houdt de originele kwestie en bindt zijn resolutie aan dit** &lt; **(project** of **taak)**>. Als u het ouderproject of de taak schrapt, wordt de kwestie niet meer geïdentificeerd als het oplossen van voorwerp omdat er geen verbinding meer is die het met het project of de taak verbindt. Als u het bovenliggende element herstelt, wordt de koppeling niet hersteld.
 
   Voor meer informatie over hoe een beheerder van Workfront of groepsbeheerder kwesties vormt om het oplossen van voorwerp aan te passen wanneer omgezet, zie [ taak voor het hele systeem vormen en de voorkeur van de kwestie ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) en [ taak vormen en geven voorkeur voor een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md) uit.
 

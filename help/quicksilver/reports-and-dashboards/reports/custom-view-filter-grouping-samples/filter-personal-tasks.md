@@ -7,9 +7,9 @@ description: Met dit taakfilter worden ad-hocverzoeken geretourneerd die naar ee
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 204cfae1-7c57-4223-9e00-ac94e1e2ba3a
-source-git-commit: 8428bfba81fa988cf370581af0692e4ff595c0ae
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 <!--Audited: 10/2024-->
 
-Met dit taakfilter worden ad-hocverzoeken geretourneerd die naar een gebruiker zijn verzonden, of naar-do items die door gebruikers in hun thuisgebied zijn toegevoegd.
+Dit taakfilter retourneert ad-hocwerkverzoeken die naar een gebruiker zijn verzonden of om items te doen die door gebruikers in de widget Aan/Uit in het gebied Home zijn toegevoegd.
 
 Ad-hocverzoeken voor werk en items voor taken worden in Adobe Workfront opgeslagen als persoonlijke taken.
 
-De persoonlijke taken worden niet verbonden met een project maar zij kunnen aan een project worden verplaatst, indien nodig.
+De persoonlijke taken worden niet verbonden met een project maar zij kunnen aan een project worden verplaatst, indien nodig. Voor informatie, zie [ persoonlijke taken ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md) creëren.
 
 ![](assets/personal-tasks-report.png)
 
@@ -76,7 +76,7 @@ Dit filter maken:
 1. (Voorwaardelijk) selecteer de volgende het filtreren criteria:
 
    * Van een lijstfilter: **Taak** > **Persoonlijk** **is waar**
-   * Van een rapportfilter: **Taak** > **Persoonlijk** > **evenaart** > **Waar**.
+   * Van een rapportfilter: **Taak** > **Persoonlijk** > **Gelijk (gevoelig geval)** > **Waar**.
 1. Sla het filter op.
 
    De lijst toont slechts persoonlijke taken die niet op om het even welke projecten zijn.

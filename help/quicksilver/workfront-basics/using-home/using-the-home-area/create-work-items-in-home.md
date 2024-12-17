@@ -1,21 +1,23 @@
 ---
 product-area: projects
 navigation-topic: use-the-home-area
-title: Werkitems en projecten maken vanuit het thuisgebied
+title: Werkitems en projecten maken vanuit het begingebied
 description: U kunt werkitems en projecten maken vanuit het [!UICONTROL Home] -gebied.
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '787'
 ht-degree: 0%
 
 ---
 
 # Werkitems en projecten maken vanuit het thuisgebied
 
-U kunt werkitems en projecten maken vanuit het [!UICONTROL Home] -gebied. Vanaf Home kunt u
+U kunt werkitems en projecten maken vanuit het [!UICONTROL Home] -gebied.
+
+Vanaf Home kunt u
 
 * Persoonlijke handelingen voor uzelf maken
 * Verzoeken verzenden
@@ -23,6 +25,8 @@ U kunt werkitems en projecten maken vanuit het [!UICONTROL Home] -gebied. Vanaf 
 * Creeer projecten van een malplaatje, leeg project, of voer een project van MS in.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -52,16 +56,23 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 &#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
++++
+
 ## Een persoonlijk te-doen item maken
 
-U kunt een persoonlijk item maken in het [!UICONTROL Home] -gebied. De te doen punten zijn persoonlijke taken die u voor zich creeert.
+U kunt een persoonlijk item maken dat u kunt uitvoeren in de widget Aan/Uit in het gebied [!UICONTROL Home] . De te doen punten zijn persoonlijke taken die u voor zich creeert.
 
 U en andere gebruikers kunnen uw persoonlijke taken in een persoonlijk taakrapport bekijken. Daar kunnen ze ze, indien nodig, aan projecten toevoegen.
+
+>[!TIP]
+>
+>De werkitems die u naar andere gebruikers of naar uzelf verzendt vanaf de pagina met gebruikersprofielen, worden ook weergegeven in de widget Aan/uit in het gedeelte Home van de gebruiker. Voor informatie, zie [ persoonlijke taken ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md) creëren.
+
 
 Een te-do-item maken:
 
 1. Klik **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de hoger-juiste hoek, of het **Belangrijkste menu** ![](assets/lines-main-menu.png) in de hoger-linkerhoek, als beschikbaar, dan klik **[!UICONTROL Home]**.
-1. (Voorwaardelijk) klik **aanpassen**, dan klik **aan-doet** om widget aan uw huisscherm toe te voegen.
+1. (Voorwaardelijk) klik **aanpassen**, dan klik **aan-Dozen** om toe te voegen aan-Doopwidget aan uw huisscherm.
 1. Ga naar **** widget, dan klik **toevoegen aan-doe**.
 1. Typ de naam voor het persoonlijke aan-doe item en klik op Enter.
 1. (Facultatief) klik het **pictogram van de Datum** ![](assets/date-icon.png) om een vervaldatum voor het punt toe te voegen.

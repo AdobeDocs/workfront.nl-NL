@@ -8,9 +8,9 @@ author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '923'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen z
 
 De versies vinden typisch rond 8-10 PMonberispelijke Tijd in de VS de avond vóór de versiedatum plaats.
 
-Functies in Voorvertoning worden gewoonlijk bij de volgende release beschikbaar gesteld in uw productieomgeving. In sommige gevallen worden functies echter buiten een geplande release beschikbaar gesteld in de productieomgeving. Deze wijzigingen blijven minimaal twee weken in Voorvertoning om u voldoende tijd te geven om op de hoogte te blijven van de wijzigingen. Deze wijzigingen worden ook gemeld via het Aankondigingscentrum op het moment dat ze worden toegevoegd aan Voorvertoning.
+Functies in Voorvertoning worden gewoonlijk bij de volgende release beschikbaar gesteld in uw productieomgeving. In sommige gevallen worden functies echter buiten een geplande release beschikbaar gesteld in de productieomgeving. Deze wijzigingen blijven meestal minimaal twee weken in Voorvertoning staan, zodat u voldoende tijd hebt om op de hoogte te blijven van de wijzigingen.
 
 Voor meer informatie over driemaandelijkse en snelle versieprocessen, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken.
 

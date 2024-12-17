@@ -6,14 +6,23 @@ description: U kunt taken naar verschillende projecten of naar verschillende bov
 author: Alina
 feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
-source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1442'
 ht-degree: 0%
 
 ---
 
 # Taken verplaatsen
+
+<!--Audited: 12/2024-->
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 U kunt taken in Adobe Workfront verplaatsen tussen de volgende objecten:
 
@@ -27,6 +36,8 @@ U kunt één taak verplaatsen of meerdere taken tegelijk uit een takenlijst verp
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de handelingen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -34,29 +45,29 @@ U moet de volgende toegang hebben om de handelingen in dit artikel uit te voeren
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licenties*</td> 
+   <td role="rowheader">Adobe Workfront-licentie*</td> 
    <td> <p>Nieuw abonnement: standaard </p> 
  <p>of</p>  
 <p>Huidig abonnement: Werk of hoger </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot taken en projecten bewerken</p> <p><b>OPMERKING</b>
-
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
-</tr> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot taken en projecten bewerken</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor de taken beheren</p> <p>Contribute of hogere toestemmingen aan het project met capaciteit toevoegen Taken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Rechten voor de taken beheren</p> <p>Contribute of hogere toestemmingen aan het project met capaciteit toevoegen Taken</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt.
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Overwegingen bij het verplaatsen van taken
 
@@ -75,6 +86,14 @@ Houd rekening met het volgende wanneer u een taak verplaatst:
 De volgende items worden standaard niet verplaatst met de taak:
 
 * Mijlpalen
+
+<!--
+<div class="preview">
+
+* Your system or group administrator can prevent you from moving tasks that have logged hours, depending on how they configure the Allow users to move tasks and issues with logged hours preference in the Setup area. For information, see [Configure system-wide task and issue preferences](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md). 
+
+</div>
+-->
 
 ## Taken in een lijst verplaatsen
 
@@ -100,7 +119,7 @@ De volgende items worden standaard niet verplaatst met de taak:
 
    ![](assets/move-task-in-list-nwe-350x119.png)
 
-   Het vak Taak verplaatsen wordt weergegeven
+   De **vakvertoningen van de Taak van de Beweging**
 
 1. Ga met het bewegen van de taak voort, zoals die in de sectie [ wordt beschreven Beweeg een taak op het taakniveau ](#move-a-task-at-the-task-level) in dit artikel, die met Stap 4 begint.
 
