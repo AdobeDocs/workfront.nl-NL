@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: 4ea4d7d8fd16d4c4d7c2fe5f7adb15c2b44b6705
+source-git-commit: 8fe93796b2bc89352ac2c924d6a5e3bf25551ff0
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 0%
@@ -32,7 +32,7 @@ De bevordering van een omgeving tussen domeinen wordt momenteel niet ondersteund
 
 Nee. De Bevordering van het milieu is beschikbaar voor zowel IMS-Toegelaten als niet-IMS Workfront instanties.
 
-## Hoe kunnen we erachter komen of ons Workfront-exemplaar op een Premier of Ultimate-licentie staat?
+## Hoe kunnen we erachter komen of ons Workfront-exemplaar op een Prime- of Ultimate-licentie staat?
 
 ### Antwoord
 
@@ -68,7 +68,6 @@ Pakketterugdraaiacties zijn beschikbaar voor het meest recente pakket, binnen 24
 ## Is er een mogelijkheid om de promotie van afzonderlijke onderdelen over te slaan? Kan `Skip` worden toegevoegd waar de opties `Use Existing` , `Overwrite` en `Save with a new Name` &quot; staan, zodat u de bevordering van afzonderlijke parameters kunt overslaan?
 
 ### Antwoord
-
 
 * &#39;Bestaande gebruiken&#39; is hetzelfde als &#39;de implementatie overslaan&#39; of negeren, omdat de implementatie wordt toegewezen aan het bestaande object in de doelomgeving en er geen wijzigingen in worden aangebracht.
 * Als u objecten wilt overslaan, raden we u aan

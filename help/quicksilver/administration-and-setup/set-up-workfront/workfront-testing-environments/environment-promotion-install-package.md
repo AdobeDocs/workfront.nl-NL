@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: e9df34c206dd65ccc2edec00087248eb4ed16f54
+source-git-commit: 8fe93796b2bc89352ac2c924d6a5e3bf25551ff0
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '946'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,8 @@ U moet een pakket in het milieu installeren dat u voorwerpen **aan** wilt kopië
 
 >[!IMPORTANT]
 >
->Als uw Aangepaste vernieuwingssandbox wordt vernieuwd terwijl u een object configureert voor omgevingsbevordering, gaat die configuratie verloren in de update. We raden u aan uw aangepaste vernieuwingssandbox niet te vernieuwen, tenzij alle uitstekende milieupromotieobjecten en -pakketten met succes zijn bevorderd.
+>* Als uw Aangepaste vernieuwingssandbox wordt vernieuwd terwijl u een object configureert voor omgevingsbevordering, gaat die configuratie verloren in de update. We raden u aan uw aangepaste vernieuwingssandbox niet te vernieuwen, tenzij alle uitstekende milieupromotieobjecten en -pakketten met succes zijn bevorderd.
+>* De voorwerpen die in het doelmilieu als deel van pakketinstallatie worden gecreeerd hebben **niet** zelfde identiteitskaart zoals het voorwerp in het originele milieu. Dit komt doordat id&#39;s door het systeem worden toegewezen wanneer objecten worden gemaakt.
 
 ## Toegangsvereisten
 
@@ -34,7 +35,7 @@ U moet het volgende hebben:
   <tr>
    <td><strong>[!DNL Adobe Workfront] plan </strong>
    </td>
-   <td> Premier of Ultimate (alleen nieuwe plannen)
+   <td> Prime of Ultimate (alleen nieuwe abonnementen)
    </td>
   </tr>
   <tr>
