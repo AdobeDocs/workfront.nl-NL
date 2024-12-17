@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 8475e93b27f2c47bf8a25ff3283a61830aa129de
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Voor informatie, zie [ bedrijven ](/help/quicksilver/administration-and-setup/se
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 6 november 2024; Productieversie voor alle klanten: 6 november 2024
+>Voorvertoningsrelease: tijdelijk verwijderd op 12 december 2024; opnieuw vrijgegeven voor productie voor alle klanten: 17 december 2024
 
 We hebben de belangrijkste navigatie- en secundaire navigatiegebieden van Workfront geüpgraded om de prestaties te verbeteren. De look-and-feel veranderingen zijn minimaal.
 
