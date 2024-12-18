@@ -6,16 +6,20 @@ description: Mensen moeten als leden aan de raad van bestuur worden toegevoegd v
 author: Lisa
 feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 7ac846d6224663b4e820ab45379a4ab0611514bb
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
 
 # Leden toevoegen aan of verwijderen uit een board
 
+{{highlighted-preview}}
+
 Personen en teams moeten als leden aan de raad van bestuur worden toegevoegd voordat ze de raad kunnen bekijken.
+
+De maker van een bord is standaard de eigenaar. De eigenaar van het board is de enige persoon die dat bord kan verwijderen of zijn filters in het Configure paneel kan bijwerken. <span class="preview"> slechts kan een systeembeheerder of de huidige boseigenaar de boardeigenaar veranderen.</span>
 
 ## Toegangsvereisten
 
@@ -80,3 +84,23 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    >[!NOTE]
    >
    >U kunt de eigenaar van het bord niet verwijderen.
+
+<div class="preview">
+
+## De eigenaar van het bord wijzigen
+
+>[!NOTE]
+>
+>Alleen een systeembeheerder of de huidige eigenaar van de kaart kan de eigenaar van de kaart wijzigen. Een bord kan slechts één eigenaar hebben.
+
+1. Toegang tot het bord.
+1. Klik het **[!UICONTROL More]** menu ![ Meer menu ](assets/more-icon-spectrum.png) naast de bordnaam, dan kies **[!UICONTROL Change board owner]**.
+1. Zoek en selecteer in het dialoogvenster Eigenaar Wijzigen de gebruiker die u de eigenaar wilt maken.
+
+   U kunt niet zoeken naar gebruikers die al lid zijn van de raad. Als u een bestaand lid de eigenaar wilt maken, moet u deze eerst uit de raad verwijderen. Als u van een gebruiker de eigenaar van de kaart maakt, worden deze aan de kaart toegevoegd.
+
+   Alleen een gebruiker kan de eigenaar van het bord zijn. Een team kan geen eigenaar zijn.
+
+1. Klik [!UICONTROL **Update**].
+
+</div>
