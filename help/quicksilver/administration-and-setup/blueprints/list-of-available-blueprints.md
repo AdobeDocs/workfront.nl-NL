@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 04d41a8c9c8c04f2e7ef308465328ccc57bd3195
 workflow-type: tm+mt
-source-wordcount: '1821'
+source-wordcount: '1819'
 ht-degree: 0%
 
 ---
@@ -80,11 +80,9 @@ Deze blauwdruk bevat een sjabloon die de [!DNL Workfront professional services] 
 Deze blauwdruk bevat een sjabloon die de [!DNL Workfront] -organisatie voor professionele services al jaren gebruikt tijdens implementatieafspraken met Human Resources-teams om HR-specialisten en medewerkers aan te sporen essentiële activiteiten uit te voeren om de eerste dag van een nieuwe werknemer opmerkelijk te maken.
 
 **Offboarding | Het dashboard van de Gebruiker van de scheiding**
-
 Deze blauwdruk bevat één dashboard met 13 rapporten om u te helpen, de voorwerpen en de taken vinden opnieuw toewijzen of anders beheren verbonden aan een gebruiker die Workfront vertrekt. U kunt deze rapporten ook gebruiken voor een gebruiker die naar een nieuwe rol of groep gaat om zijn werk opnieuw toe te wijzen.
 
-[!BADGE  Nieuw ]{type=negative}**Dashboard van de Manager van Mensen**
-
+**Dashboard van de Manager van Mensen**
 Deze blauwdruk bevat één dashboard met 12 rapporten om mensen managers zichtbaarheid te geven in het werk van hun directe rapporten.
 
 **[!UICONTROL Post-Implementation: New Use Case Rollout]**
@@ -138,7 +136,7 @@ Deze blauwdruk bevat één dashboard met 21 rapporten om u te helpen de Waarde v
 
 Deze blauwdruk bevat één dashboard met 8 rapporten om u te helpen de voordelen van Workfront realiseren. Deze rapporten worden ontworpen om u te helpen uw cliënt-onder ogen ziende diensten in meetbare waarde omzetten die u in tijd kunt volgen om betere resultaten te drijven.
 
-[!BADGE  Nieuw ]{type=negative}**Realisatie van de Waarde | Het dashboard voor compatibiliteitswerkstromen beheren**
+**Realisatie van de Waarde | Het dashboard voor compatibiliteitswerkstromen beheren**
 
 Deze blauwdruk bevat één dashboard met 7 rapporten om u te helpen de waarde van Workfront realiseren. Voor dagelijks gebruik of in sterk gereguleerde industrieën drijven deze tijdbesparende rapporten verantwoordingsplicht en verbeteren resultaten in tijd door te helpen werkstromen en nalevingsbehoeften volgen en te regeren.
 
