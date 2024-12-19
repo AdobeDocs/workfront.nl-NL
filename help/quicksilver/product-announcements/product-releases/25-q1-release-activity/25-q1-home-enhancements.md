@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-source-git-commit: 8b0c40d6fa5898581c50d6257bc2b2f2a4838b06
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,58 @@ ht-degree: 0%
 Op deze pagina worden alle Home-verbeteringen beschreven die zijn aangebracht met de release First Quarter 2025 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2025 versiecyclus, zie [ Eerste Kwartaal 2025 versieoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+
+<!--## Catch up on work in Priorities
+
+>[!NOTE]
+>
+>Preview release: December 20, 2024; Production release for all customers: With the 25.1 release (January 2025)
+>
+>_This feature is only available for customers on the Unified Adobe Experience using the AI Assistant._
+
+You can use Catch me up to help reduce the amount of time looking for information on active projects. 
+
+Powered by Workfront's AI Assistant, Catch me up summarizes updates, uploaded documents, and other notable changes about your projects within the following time frames: 24 hours, 3 days, or 7 days.
+
+For more information, see [Catch up on work in Priorities](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).-->
+
+## Wijzigingen live weergeven op de pagina Details in Prioriteiten
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 19 december 2024; Productieversie voor alle klanten: met de release van 25.1 (januari 2025)
+
+U kunt nu realtime updates weergeven op de pagina Details van een taak of uitgave. U kunt ook zien of anderen de pagina tegelijkertijd bekijken zoals u met real-time aanwezigheidsindicatoren hebt.
+
+Voor meer informatie, zie [ project en taakdetails van de Mening in de werklijst van Prioriteiten ](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md).
+
+## Documenten en proefdrukken uploaden en weergeven in prioriteiten
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 19 december 2024; Productieversie voor alle klanten: met de release van 25.1 (januari 2025)
+
+U kunt nu werken met documenten en proefdrukken voor taken en problemen. Op het tabblad Nieuwe documenten kunt u
+
+* Een document uploaden
+* Een proefdruk maken
+* De proefdrukviewer starten
+* En meer
+
+<!--For more information, see [Upload Documents and create proofs in Priorities](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md).-->
+
+## De kalenderweergave is nu beschikbaar in Prioriteiten
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 19 december 2024; Productieversie voor alle klanten: met de release van 25.1 (januari 2025)
+
+Volg uw werk eenvoudig met een duidelijke, visuele maandkalender. Met de Prioriteitenkalender kunt u
+
+* Filters gebruiken om uw werk te zoeken
+* Velden weergeven zoals status en focusniveau
+* Kleuren toepassen voor snelle prioritering
+* En meer
 
 ## Updates van de werklijst Prioriteiten
 

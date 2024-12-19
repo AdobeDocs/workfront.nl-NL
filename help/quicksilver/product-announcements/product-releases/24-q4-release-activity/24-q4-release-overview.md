@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '2187'
+source-wordcount: '2207'
 ht-degree: 0%
 
 ---
@@ -340,10 +340,8 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
                         <li>
                             <p>Productie voor snelle release: met 24,5 release (16 mei 2024)</p>
                         </li>
-                        <li>
-                            <p>Productieversie voor alle afnemers: Te publiceren</p>
-                        </li>
                     </ul>
+                <p><i>Deze functie wordt verwijderd uit Voorvertoning op 19 december 2024 en uit Fast release Production met 25.1 (januari 2025).</i></p>
                 </td>
             </tr>
             <tr>
@@ -360,10 +358,8 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
                         <li>
                             <p>Productie voor snelle release: met 24,5 release (16 mei 2024)</p>
                         </li>
-                        <li>
-                            <p>Productieversie voor alle afnemers: Te publiceren</p>
-                        </li>
                     </ul>
+                <p><i>Deze functie wordt verwijderd uit Voorvertoning op 19 december 2024 en uit Fast release Production met 25.1 (januari 2025).</i></p>
                 </td>
             </tr>
         </tbody>
@@ -469,7 +465,7 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
                             <p>Productieversie voor alle klanten: met de release van 24.10 (17 oktober 2024)</p>
                         </li>
                     </ul>
-                    <p><i>Alleen beschikbaar voor organisaties op een van de nieuwe Adobe Workfront-plannen. Data Connect is opgenomen in het Ultimate-abonnement en wordt in de eerste helft van 2025 beschikbaar gesteld voor aankoop als toevoeging aan de Premier- en Select-plannen.</i></p>
+                    <p><i>Alleen beschikbaar voor organisaties op een van de nieuwe Adobe Workfront-plannen. Data Connect is opgenomen in het Ultimate-abonnement en wordt in de eerste helft van 2025 beschikbaar gesteld voor aankoop als invoegtoepassing voor de Prime- en Select-plannen.</i></p>
                 </td>
             </tr>
         </tbody>
@@ -523,7 +519,7 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
                         <li>Het verstrekken van informatie van de documentatie van het Experience League, het brengen van instructies en verwijzingsmateriaal in Workfront, terwijl het verbinden aan meer diepgaande documentatie.</li>
                         <li>Formules maken en verfijnen voor berekende aangepaste formuliervelden, formules genereren op basis van tekstaanwijzingen of fouten zoeken in bestaande formules.</li>
                         </ul>
-                        <p>Uw Workfront-beheerder kan AI Assistant voor uw organisatie in- of uitschakelen. De AI-assistent is beschikbaar voor instanties met de plannen Selecteren, Primair en Ultimate.</p>
+                        <p>Uw Workfront-beheerder kan AI Assistant voor uw organisatie in- of uitschakelen. De AI-assistent is beschikbaar voor instanties met de abonnementen Selecteren, Prime en Ultimate.</p>
                     </td>
                 <td><p><b>Beschikbaar op deze data:</b></p>
                     <ul>

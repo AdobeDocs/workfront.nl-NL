@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 27d479d1-338a-429c-9703-8e72ed8d5c95
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,9 @@ Raadpleeg de volgende artikelen voor informatie over het bijwerken van Vastlegda
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 13 februari 2024; Productie voor snelle release: met de release van 24.5 (16 mei 2024); Productieversie voor alle klanten: aan te kondigen.
+>Voorvertoningsrelease: 13 februari 2024; productie voor snelle release: met 24.5 release (16 mei 2024).
+>
+>_Deze eigenschap zal van Voorproef op 19 December, 2024 en van de snelle productie van de versie met 25.1 (Januari 2025) worden verwijderd._
 
 Dezelfde functionaliteit voor meer relevante slimme toewijzingen is toegevoegd aan het veld Toewijzingen op de volgende gebieden:
 
@@ -52,7 +54,9 @@ Voor meer informatie, zie [ Slim toewijzingsoverzicht ](/help/quicksilver/manage
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 21 december 2023; Productie voor snelle release: met de release van 24.5 (16 mei 2024); Productieversie voor alle klanten: aan te kondigen.
+>Voorvertoningsrelease: 21 december 2023; productie voor snelle release: met 24,5 release (16 mei 2024).
+>
+>_Deze eigenschap zal van Voorproef op 19 December, 2024 en van de snelle productie van de versie met 25.1 (Januari 2025) worden verwijderd._
 
 We hebben het algoritme gewijzigd dat Workfront gebruikt om slimme toewijzingen voor taken te berekenen en voor te stellen. Het nieuwe algoritme is van toepassing op de volgende gebieden in Workfront waar u een taak toewijst: taaklijsten, het gebied van Toewijzingen in de taakkopbal, Huis, en het Summiere paneel.
 

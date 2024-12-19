@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 8b0c40d6fa5898581c50d6257bc2b2f2a4838b06
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '1728'
+source-wordcount: '2295'
 ht-degree: 0%
 
 ---
@@ -34,11 +34,14 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
 
 ## Verbeteringen voor Adobe Workfront
 
-* [ de verhogingen van de Beheerder ](#administrator-enhancements)<!--* [Boards enhancements](#boards-enhancements)-->
+* [Beheerdersverbeteringen](#administrator-enhancements)
+* [Verbeteringen voor borden](#boards-enhancements)
 * [Verbeteringen voor documentbeheer](#document-management-enhancements)
 * [Verbeteringen voor startpagina](#home-enhancements)
+* [Projectverbeteringen](#project-enhancements)
 * [Verbeteringen voor proefdrukken](#proofing-enhancements)
 * [Verbeteringen voor rapport en dashboard](#report-and-dashboard-enhancements)
+* [Verbeteringen voor streams bijwerken](#update-stream-enhancements)
 * [Andere verbeteringen](#other-enhancements)
 
 ### Beheerdersverbeteringen
@@ -55,6 +58,20 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
             <p><span class="bold">Releasedatums</span></p>
         </td>
     </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Verplaatsingstaken voorkomen wanneer er uren zijn geregistreerd</a></p>
+            <p>Omdat het bewegen van taken of kwesties die het programma geopend uren hebben naleving of controleproblemen soms kunnen veroorzaken, hebben wij een voorkeur in het gebied van de Voorkeur van de Taak &amp; van Kwesties van Opstelling toegevoegd die u toestaat om gebruikers te verhinderen taken en kwesties te bewegen als er uren het programma geopend op hen zijn.</p>
+        </td>
+        <td>
+            <p><b>Beschikbaar op deze data:</b></p>
+            <ul>
+                <li>Voorvertoningsrelease: 19 december 2024</li>
+                <li>Productieversie voor alle klanten: met de release van 25.1 (januari 2025)</li>
+            </ul>
+        </td>
+    </tr>  
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
@@ -121,7 +138,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
 </tbody>
 </table>
 
-<!--### Boards enhancements
+### Verbeteringen voor borden
 
 <table>
 <col style="width: 50%;" />
@@ -129,29 +146,29 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
 <tbody>
     <tr>
         <td>
-            <p><span class="bold">Feature</span></p>
+            <p><span class="bold">Functie</span></p>
         </td>
         <td>
-            <p><span class="bold">Release dates</span></p>
+            <p><span class="bold">Releasedatums</span></p>
         </td>
     </tr>
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Change the owner of a board</a></p>
-            <p>The creator of a board is the owner by default. The board owner is the only person who can delete that board or update its filters in the Configure panel. Functionality has been added to allow Workfront system administrators to change the owner of a board. The current owner of a board can also change the owner of that specific board.</p>
+            De eigenaar van een board wijzigen</a></p>
+            <p>De maker van een bord is standaard de eigenaar. De eigenaar van het board is de enige persoon die dat bord kan verwijderen of zijn filters in het Configure paneel kan bijwerken.</p>
+            <p>Er zijn functies toegevoegd waarmee Workfront-systeembeheerders de eigenaar van een board kunnen wijzigen. De huidige eigenaar van een bord kan ook de eigenaar van dat specifieke bord veranderen.</p>
         </td>
         <td>
-            <p><b>Available on these dates:</b></p>
+            <p><b>Beschikbaar op deze data:</b></p>
             <ul>
-                <li>Preview release: October 31, 2024</li>
-                <li>Production for fast release: With the 24.11 release (November 14, 2024)</li>
-                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+                <li>Voorvertoningsrelease: 18 december 2024</li>
+                <li>Productieversie voor alle klanten: met de release van 25.1 (januari 2025)</li>
             </ul>
         </td>
     </tr>
 </tbody>
-</table>-->
+</table>
 
 ### Verbeteringen voor documentbeheer
 
@@ -217,11 +234,79 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
             <p><span class="bold">Releasedatums</span></p>
         </td>
     </tr>
+    <!--<tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Catch up on work in Priorities</a></p>
+            <p>You can use Catch me up to help reduce the amount of time looking for information on active projects.</p>
+            <p>Powered by Workfront's AI Assistant, Catch me up summarizes updates, uploaded documents, and other notable changes about your projects within the following time frames: 24 hours, 3 days, or 7 days.</p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: December 20, 2024</li>
+                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+            </ul>
+        </td>
+    </tr>-->
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Wijzigingen live weergeven op de pagina Details in Prioriteiten</a></p>
+            <p>U kunt nu realtime updates weergeven op de pagina Details van een taak of uitgave. U kunt ook zien of anderen de pagina tegelijkertijd bekijken zoals u met real-time aanwezigheidsindicatoren hebt.</p>
+        </td>
+        <td>
+            <p><b>Beschikbaar op deze data:</b></p>
+            <ul>
+                <li>Voorvertoningsrelease: 19 december 2024</li>
+                <li>Productieversie voor alle klanten: met de release van 25.1 (januari 2025)</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Documenten en proefdrukken uploaden en weergeven in prioriteiten</a></p>
+            <p>U kunt nu werken met documenten en proefdrukken voor taken en problemen. Op het tabblad Nieuwe documenten kunt u</p>
+            <ul>
+                <li>Een document uploaden</li>
+                <li>Een proefdruk maken</li>
+                <li>De proefdrukviewer starten</li>
+                <li>En meer</li>
+            </ul>
+        </td>
+        <td>
+            <p><b>Beschikbaar op deze data:</b></p>
+            <ul>
+                <li>Voorvertoningsrelease: 19 december 2024</li>
+                <li>Productieversie voor alle klanten: met de release van 25.1 (januari 2025)</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            De kalenderweergave is nu beschikbaar in Prioriteiten</a></p>
+            <p>Volg uw werk eenvoudig met een duidelijke, visuele maandkalender. Met de Prioriteitenkalender kunt u</p>
+            <ul>
+                <li>Filters gebruiken om uw werk te zoeken</li>
+                <li>Velden weergeven zoals status en focusniveau</li>
+                <li>Kleuren toepassen voor snelle prioritering</li>
+                <li>En meer</li>
+            </ul>
+        </td>
+        <td>
+            <p><b>Beschikbaar op deze data:</b></p>
+            <ul>
+                <li>Voorvertoningsrelease: 19 december 2024</li>
+                <li>Productieversie voor alle klanten: met de release van 25.1 (januari 2025)</li>
+            </ul>
+        </td>
+    </tr>
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Updates van de werklijst Prioriteiten</a></p>
-            [!BADGE Nieuw in Voorproef ]{type=Negative}
             <p>We hebben de prioriteitswerklijst bijgewerkt om de mogelijkheden te verbeteren en ons aan te passen aan andere toepassingsgebieden.</p>
         </td>
         <td>
@@ -286,7 +371,38 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
 </tbody>
 </table>
 
-## Verbeteringen voor proefdrukken
+### Projectverbeteringen
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><span class="bold">Functie</span></p>
+        </td>
+        <td>
+            <p><span class="bold">Releasedatums</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Meer relevante toewijzingen verwijderd uit Voorbeeld en Productie voor omgevingen met snelle release</a></p>
+            <p>Een functionaliteit die sinds december 2023 in de voorvertoningsomgeving en sinds maart 2024 in de snelle-releaseproductieomgeving aanwezig is, is nu verwijderd. De functies voegden meer relevante suggesties voor slimme toewijzingen toe bij het toewijzen van taken.</p>
+        </td>
+        <td>
+            <p><b>Beschikbaar op deze data:</b></p>
+            <ul>
+                <li>Voorvertoningsrelease: 19 december 2024</li>
+                <li>Productieversie voor alle klanten: met de release van 25.1 (januari 2025)</li>
+            </ul>
+        </td>
+    </tr>
+</tbody>
+</table>
+
+### Verbeteringen voor proefdrukken
 
 <table>
 <col style="width: 50%;" />
@@ -319,7 +435,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
 </tbody>
 </table>
 
-## Verbeteringen voor rapport en dashboard
+### Verbeteringen voor rapport en dashboard
 
 <table>
 <col style="width: 50%;" />
@@ -336,6 +452,20 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Maximaal 25 rapporten, externe pagina's of kalenders in dashboards</a></p>
+            <p>Om de prestaties van het dashboard te handhaven, hebben wij een grens aan het totale aantal rapporten, externe pagina's, of kalenders uitgevoerd die in een dashboard kunnen worden geplaatst. Bij het maken van een nieuw dashboard kunnen maximaal 25 items worden toegevoegd.</p>
+        </td>
+        <td>
+            <p><b>Beschikbaar op deze data:</b></p>
+            <ul>
+                <li>Voorvertoningsrelease: 16 december 2024</li>
+                <li>Productieversie voor alle klanten: met de release van 25.1 (januari 2025)</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Eerste knop voor het maken van een reader-account voor Data Connect</a></p>
             [!BADGE in productie ]{type=Informative}
             <p>Beheerders die voor het eerst toegang krijgen tot Data Connect, krijgen nu de optie om een nieuwe Snowflake-lezeraccount te maken door op één knop te klikken. Het proces duurt een paar minuten om te voltooien, maar vereist geen verdere actie.</p>
@@ -345,6 +475,37 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
             <ul>
                 <li>Voorvertoningsrelease: 14 november 2024</li>
                 <li><span class="preview">Productieversie voor alle klanten: 14 november 2024</span></li>
+            </ul>
+        </td>
+    </tr>
+</tbody>
+</table>
+
+### Verbeteringen voor streams bijwerken
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><span class="bold">Functie</span></p>
+        </td>
+        <td>
+            <p><span class="bold">Releasedatums</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Bijgewerkte ervaring met opmerkingen in de widget Onthoudingen en Mijn updates</a></p>
+            <p>We werken de opmerkingervaring bij in de widget voor herinneringen in Home en de sectie voor opmerkingen in het gedeelte Mijn updates. Dezelfde ervaring in het gedeelte Updates van de meeste Workfront-objecten is nu ook beschikbaar in de widget Notities en in de sectie Notities van Mijn updates.</p>
+        </td>
+        <td>
+            <p><b>Beschikbaar op deze data:</b></p>
+            <ul>
+                <li>Voorvertoningsrelease: 19 december 2024</li>
+                <li>Productieversie voor alle klanten: met de release van 25.1 (januari 2025)</li>
             </ul>
         </td>
     </tr>

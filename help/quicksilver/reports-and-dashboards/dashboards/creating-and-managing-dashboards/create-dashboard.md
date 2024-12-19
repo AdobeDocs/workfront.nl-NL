@@ -6,9 +6,9 @@ description: U kunt dashboards tot stand brengen om tot informatie in Adobe Work
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: 008713ef6587041310388c05909ad5f78fb9fa4c
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!--Audited: 01/2024-->
 
-U kunt dashboards tot stand brengen om tot informatie in Adobe Workfront snel toegang te hebben. Rapporten, kalenders en externe pagina&#39;s kunnen worden toegevoegd aan dashboards die u met anderen kunt delen voor een optimale samenwerking.
+U kunt dashboards tot stand brengen om tot informatie in Adobe Workfront snel toegang te hebben. U kunt maximaal 25 rapporten, kalenders en externe pagina&#39;s toevoegen aan dashboards die u met anderen kunt delen voor optimale samenwerking.
 
 Meer over dashboards leren, zie [ begonnen met dashboards ](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
 

@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: fa24040d-0403-4799-b690-c3d172797115
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,16 @@ ht-degree: 0%
 Deze pagina beschrijft alle beheerderverhogingen die met Eerste Kwartaal 2025 versie aan het milieu van de Voorproef worden aangebracht. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2025 versiecyclus, zie [ Eerste Kwartaal 2025 versieoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+
+## Verplaatsingstaken voorkomen wanneer er uren zijn geregistreerd
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 19 december 2024; Productieversie voor alle klanten: met de release van 25.1 (januari 2025)
+
+Omdat het bewegen van taken of kwesties die het programma geopend uren hebben naleving of controleproblemen soms kunnen veroorzaken, hebben wij een voorkeur in het gebied van de Voorkeur van de Taak &amp; van Kwesties van Opstelling toegevoegd die u toestaat om gebruikers te verhinderen taken en kwesties te bewegen als er uren het programma geopend op hen zijn. Voorafgaand aan deze verbetering, konden de gebruikers taken en kwesties aan andere projecten bewegen, zelfs als er uren het programma werden geopend hen.
+
+Voor informatie, zie [ de taak en de uitgevende voorkeur van het systeem brede ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) vormen.
 
 ## Voorkeur om project of gebruikersprogramma voor enig-taaktaken te gebruiken
 

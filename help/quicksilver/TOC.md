@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 3f10e64745b95e4c7d668d798a6c71469948d617
+source-git-commit: 30f94553172113df71c7a5aa965d24d17fd449a1
 workflow-type: tm+mt
-source-wordcount: '14715'
+source-wordcount: '14728'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,14 @@ ht-degree: 0%
       * [Een driemaandelijkse Adobe Workfront-release voorbereiden](product-announcements/product-releases/release-readiness.md)
       * Release 2025 Q1 {#release-25-q1}
          * [Overzicht van de release Q1 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
-         * [ 2025 Q1 de verhogingen van de Beheerder ](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md)<!--* [2025 Q1 Boards enhancements](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-boards-enhancements.md)-->
+         * [2025 Q1 Beheerderverbeteringen](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md)
+         * [Verbeteringen in de Q1-raden 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-boards-enhancements.md)
          * [2025 Q1 Verbeteringen in documentbeheer](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md)
          * [2025 Q1 Home-verbeteringen](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md)
+         * [2025 Q1 Projectverbeteringen](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-project-enhancements.md)
          * [Verbeteringen in 2025 Q1-proefdrukken](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md)
          * [2025 Q1 rapport en verbeteringen van het dashboard](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md)
+         * [Verbeteringen in Q1-updatestream 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-update-stream-enhancements.md)
          * [Andere verbeteringen tijdens de releaseperiode van het eerste kwartaal van 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md)
          * [De blik-en-voelen updates tijdens het de versietijdkader van Q1 van 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md)
       * Release 2024 Q4 {#release-24-q4}

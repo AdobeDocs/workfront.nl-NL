@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '2240'
+source-wordcount: '2260'
 ht-degree: 0%
 
 ---
@@ -100,7 +100,7 @@ U kunt ook [ een dossier van de PDF ](https://acrobat.adobe.com/id/urn:aaid:sc:U
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}"> integratie JumpSeat nu beschikbaar voor nieuwe pakkettypes </a></p><p>[!BADGE in productie ]{type=Informative}</p>
-                        <p>De bestaande JumpSeat-integratie is nu beschikbaar voor accounts die een van de nieuwe pakkettypen gebruiken (selecteren, premier of Ultimate). U moet nog een actief JumpSeat-abonnement hebben om de integratie in te schakelen.</p>
+                        <p>De bestaande JumpSeat-integratie is nu beschikbaar voor accounts die een van de nieuwe pakkettypen gebruiken (zoals Select, Prime of Ultimate). U moet nog een actief JumpSeat-abonnement hebben om de integratie in te schakelen.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -371,10 +371,8 @@ U kunt ook [ een dossier van de PDF ](https://acrobat.adobe.com/id/urn:aaid:sc:U
                             <li>
                                 <p>Productie voor snelle release: met 24,5 release (16 mei 2024)</p>
                             </li>
-                            <li>
-                                <p>Productieversie voor alle afnemers: Te publiceren</p>
-                            </li>
                         </ul>
+                    <p><i>Deze functie wordt verwijderd uit Voorvertoning op 19 december 2024 en uit Fast release Production met 25.1 (januari 2025).</i></p>
                     </td>
                  </tr>
                  <tr>
@@ -391,10 +389,8 @@ U kunt ook [ een dossier van de PDF ](https://acrobat.adobe.com/id/urn:aaid:sc:U
                             <li>
                                 <p>Productie voor snelle release: met 24,5 release (16 mei 2024)</p>
                             </li>
-                            <li>
-                                <p>Productieversie voor alle afnemers: Te publiceren</p>
-                            </li>
                         </ul>
+                    <p><i>Deze functie wordt verwijderd uit Voorvertoning op 19 december 2024 en uit Fast release Production met 25.1 (januari 2025).</i></p>
                     </td>
                  </tr>
            </tbody>

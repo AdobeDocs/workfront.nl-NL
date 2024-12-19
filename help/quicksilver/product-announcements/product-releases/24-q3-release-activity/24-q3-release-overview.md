@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '1824'
+source-wordcount: '1844'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Het levende 24.7 versiewebinar werd geannuleerd, maar u kunt nog [ op een videod
                                 <p>Productieversie voor alle klanten: met de release van 24,7 (18 juli 2024)</p>
                             </li>
                         </ul>
-                        <p><i>Alleen beschikbaar voor organisaties op het nieuwe Ultimate-plan.</i></p>
+                        <p><i>Alleen beschikbaar voor organisaties in het nieuwe Ultimate-plan.</i></p>
                     </td>
                 </tr>
                 <tr>
@@ -295,10 +295,8 @@ Het levende 24.7 versiewebinar werd geannuleerd, maar u kunt nog [ op een videod
                             <li>
                                 <p>Productie voor snelle release: met 24,5 release (16 mei 2024)</p>
                             </li>
-                            <li>
-                                <p>Productieversie voor alle afnemers: Te publiceren</p>
-                            </li>
                         </ul>
+                    <p><i>Deze functie wordt verwijderd uit Voorvertoning op 19 december 2024 en uit Fast release Production met 25.1 (januari 2025).</i></p>
                     </td>
                  </tr>
                  <tr>
@@ -315,10 +313,8 @@ Het levende 24.7 versiewebinar werd geannuleerd, maar u kunt nog [ op een videod
                             <li>
                                 <p>Productie voor snelle release: met 24,5 release (16 mei 2024)</p>
                             </li>
-                            <li>
-                                <p>Productieversie voor alle afnemers: Te publiceren</p>
-                            </li>
                         </ul>
+                    <p><i>Deze functie wordt verwijderd uit Voorvertoning op 19 december 2024 en uit Fast release Production met 25.1 (januari 2025).</i></p>
                     </td>
                  </tr>
            </tbody>

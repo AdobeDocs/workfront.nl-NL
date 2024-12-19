@@ -7,9 +7,9 @@ description: Het doel van een dashboard is om snel toegang tot informatie te ver
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 ## Objecten die u kunt toevoegen aan een dashboard
 
-In Adobe Workfront kunt u een dashboard vullen met de volgende items:
+U kunt een dashboard vullen met maximaal 25 van de volgende items in Adobe Workfront:
 
 * Rapporten\
   Voor meer informatie over het creëren van rapporten, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
