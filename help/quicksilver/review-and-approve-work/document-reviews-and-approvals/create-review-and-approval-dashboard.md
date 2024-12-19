@@ -6,9 +6,9 @@ description: U kunt goedkeuringsmetriek in de dashboards van het Canvas herzien.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
-source-git-commit: 53db0a80026d003250e3b31063fb9a502d2ddce1
+source-git-commit: 9c86cf877e0d1bbb0c4700dfc362062028496e3c
 workflow-type: tm+mt
-source-wordcount: '2054'
+source-wordcount: '1991'
 ht-degree: 0%
 
 ---
@@ -45,10 +45,6 @@ Nadat u een dashboard hebt gemaakt, kunt u beginnen met het toevoegen van KPI&#3
 U kunt informatie op hoog niveau over documentgoedkeuringen met KPIs en grafieken bekijken. De bètaversie bevat momenteel geen informatie over de uitboeking.
 
 ### KPI&#39;s
-
->[!IMPORTANT]
->
->Gegevens over goedkeuringen voor nieuwe documenten worden momenteel vernieuwd tijdens de avonden in de Amerikaanse bergtijdzone. Updates in realtime worden gepland en binnenkort beschikbaar.
 
 ![ KPI voorbeelden ](assets/kpi-dashboard.png)
 
@@ -129,10 +125,6 @@ U kunt informatie op hoog niveau over documentgoedkeuringen met KPIs en grafieke
 
 ### Grafieken
 
->[!IMPORTANT]
->
->Gegevens over goedkeuringen voor nieuwe documenten worden momenteel vernieuwd tijdens de avonden in de Amerikaanse bergtijdzone. Updates in realtime worden gepland en binnenkort beschikbaar.
-
 ![ de voorbeelden van de Grafiek ](assets/chart-dashboard.png)
 
 #### Goedkeuringen op basis van het diagram van de beslissingsbalk
@@ -179,10 +171,6 @@ U kunt informatie op hoog niveau over documentgoedkeuringen met KPIs en grafieke
 1. Klik **Gedaan** in de hoger-juiste hoek van het scherm.
 
 ## Gedetailleerde revisie- en goedkeuringsinformatie toevoegen met tabellen
-
->[!IMPORTANT]
->
->Gegevens over goedkeuringen voor nieuwe documenten worden momenteel vernieuwd tijdens de avonden in de Amerikaanse bergtijdzone. Updates in realtime worden gepland en binnenkort beschikbaar.
 
 ![ lijstvoorbeeld ](assets/table-dashboard.png)
 

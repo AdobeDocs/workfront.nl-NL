@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 1f27c7e56681fe8c22141b0a98b3dcdb547366d5
+source-git-commit: 449a8bbdacb77db2f8c697573bc8fa74641522e7
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
@@ -172,13 +172,14 @@ Om alle secties uit te breiden of te doen ineenstorten, open **Groep {en klik** 
 
 ## Uw werk filteren en groeperen met Prioriteiten in Voorvertoning
 
-### Uw werk filteren
+### Uw werk filteren met standaardfilters
 
 U kunt taken en kwesties filtreren die aan u worden toegewezen.
 
 {{step1-to-priorities}}
 
 1. Klik **Filters** in de hoogste linkerzijde van de werklijst.
+1. klik **Standaardfilters**.
 1. Selecteer een of meerdere filters om uw werkitems te beperken.
    ![](assets/filter-new.png)
 
@@ -243,6 +244,23 @@ U kunt taken en kwesties filtreren die aan u worden toegewezen.
 
 1. (Facultatief) klik **terug aan gebrek** om uw selectie terug te stellen.
 
+### Uw werk filteren met slimme filters
+
+Gebruik natuurlijke taal om werk snel te filteren.
+
+{{step1-to-priorities}}
+
+1. Klik **Filters** in de hoogste linkerzijde van de werklijst.
+1. Klik **Slimme filters**.
+1. Typ hoe u uw werk wilt filteren.
+
+   U kunt dingen als
+
+   * Laatste taken weergeven
+   * Mijn topprioriteiten tonen
+   * Werk dat vandaag verschuldigd is tonen
+
+
 ### Uw werk groeperen
 
 {{step1-to-priorities}}
@@ -261,6 +279,8 @@ U kunt taken en kwesties filtreren die aan u worden toegewezen.
 | Status | Deze groepeert items op de volgende statussen: Nieuw, Bezig, Voltooid. <br> Nota: U kunt douanestatus op dit ogenblik niet gebruiken in Prioriteiten. |
 
 +++
+
+
 
 ### Uw werk sorteren
 

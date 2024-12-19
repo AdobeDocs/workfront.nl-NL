@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 30f94553172113df71c7a5aa965d24d17fd449a1
+source-git-commit: 8706a099b3f8111d78c3625ac1fce02cfbe07452
 workflow-type: tm+mt
-source-wordcount: '14728'
+source-wordcount: '14733'
 ht-degree: 0%
 
 ---
@@ -904,7 +904,7 @@ ht-degree: 0%
       * [Prioriteiten: artikelindex](workfront-basics/priorities/priorities-toc.md)
       * [Prioriteiten: komende releases](workfront-basics/priorities/priorities-upcoming-releases.md)
       * [Aan de slag met prioriteiten](workfront-basics/priorities/get-started-with-priorities.md)
-      * [Projectdetails en taakdetails weergeven in de werklijst Prioriteiten](workfront-basics/priorities/view-task-project-details.md)
+      * [Projectdetails en taakdetails weergeven in Prioriteiten](workfront-basics/priorities/view-task-project-details.md)
       * [Uw werk filteren en groeperen in Prioriteiten](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
       * [De kolommen in de werklijst aanpassen](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md)
       * [Prioriteit geven aan belangrijke werkitems](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md)
@@ -913,6 +913,7 @@ ht-degree: 0%
       * [Logtijd in prioriteiten](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md)
       * [Bestanden uploaden in prioriteiten](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md)
       * [Snelle koppelingen toevoegen en beheren in Prioriteiten](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md)
+      * [Documenten uploaden en proefdrukken maken in prioriteiten](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md)
    * Home {#home}
       * [Home](workfront-basics/using-home/home.md)
       * Het gebied Home gebruiken {#use-home-area}

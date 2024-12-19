@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: edc817b305622d704a1543b1e288731fc3bbff33
+source-git-commit: c709219fa78ed2742bd9b7286e35c09d1b3927ba
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '1002'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ In Prioriteiten kunt u uw werk filteren en groeperen om u te helpen deadlines te
 
 ### Uw werk met filters zoeken
 
-Zoek uw belangrijkste werk met filters. U kunt taken en kwesties filteren die aan u op de volgende manieren worden toegewezen:
+Zoek uw belangrijkste werk met filters. <span class="preview"> u kunt een natuurlijke taal gebruiken om het werk met het Slimme filter </span> te vinden, of u kunt de Standaardfilter gebruiken om taken en kwesties te vinden die aan u worden toegewezen:
 
 <table>
   <tbody>
@@ -166,11 +166,6 @@ Voor meer informatie, zie [ dossiers in Prioriteiten ](/help/quicksilver/workfro
 ![](assets/upload-file.png)
 <!--new screen for prod ![](assets/update-log-upload.png)-->
 
-### De documenten van de mening [!BADGE  Binnenkort ]{type=Informative}
-
-Op het tabblad Documenten kunt u alle bestanden weergeven die betrekking hebben op een tijdelijk item. U kunt documenten filteren op naam, bestandstype of persoon en sorteren op naam en uploaddatum.
-
-U kunt het document of de proefdruk ook openen.
 
 ### Snelle koppelingen toevoegen
 
@@ -180,21 +175,33 @@ U kunt veelgebruikte koppelingen insluiten in de detailpagina van het werkitem. 
 
 Voor meer informatie, zie [ snelle verbindingen in Prioriteiten toevoegen en beheren ](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md).
 
-### Herzie en keur activa [!BADGE  spoedig ] goed{type=Informative}
+### De documenten van de mening [!BADGE  beschikbaar in voorproef ]{type=Informative}
 
-De mogelijkheid om middelen te beoordelen en goed te keuren staat op de routekaart voor prioriteiten.
+Op het tabblad Documenten kunt u alle bestanden weergeven die betrekking hebben op een tijdelijk item. U kunt documenten filteren op naam, bestandstype of persoon en sorteren op naam en uploaddatum.
 
-Voor nu, adviseren wij het gebruiken van Mijn goedkeuring en Alle widgets van Goedkeuring in Nieuwe Huis.
+U kunt het document of de proefdruk ook openen.
 
-Voor meer informatie, zie [ toevoegen, geef, of verwijder widgets in Huis ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md) uit.
+### De overzicht en keurt activa [!BADGE  Beschikbaar in voorproef ] goed{type=Informative}
+
+Via het tabblad Documenten op een taak of uitgave kunt u
+
+* Eenvoudige of geavanceerde proefdrukken maken
+* De proefdrukviewer starten om opmerkingen te achterlaten en beslissingen te nemen
 
 
 ## Het gebruik [!DNL Catch me up] om te zien wat u [!BADGE  het Binnenkort komen ] miste{type=Informative}
 
 Met de functie [!DNL Catch me up] kunt u zien wat u hebt gemist. Vangst me omhoog zal updates, geüploade documenten, goedkeuringen, en andere opmerkelijke veranderingen over uw projecten binnen de volgende termijnen samenvatten: 24 uren, 3 dagen, 7 dagen.
 
+<!--For more information, see Catch up on work in Priorities /help/quicksilver/workfront-basics/priorities/catch-me-up.md.-->
 
 ![](assets/catch-me-up.png)
+
+<!--need new screen for prod-->
+
+## De updates van de mening real time op de pagina van Details [!BADGE  Beschikbaar in voorproef ]{type=Informative}
+
+U kunt realtime updates weergeven op de pagina Details van een taak of uitgave. U kunt ook zien of anderen de pagina tegelijkertijd bekijken zoals u met real-time aanwezigheidsindicatoren hebt.
 
 ## Overwegingen
 

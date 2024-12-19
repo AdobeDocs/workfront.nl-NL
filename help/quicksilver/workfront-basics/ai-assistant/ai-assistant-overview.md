@@ -5,9 +5,9 @@ description: Overzicht van AI-assistent
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 64ad86e29bf18969f82dbdb54b98ca884d2ec26a
+source-git-commit: d58088eed3c23652226f5d3f104705ed112c0b9f
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '707'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).## Vereisten voor AI-assistent
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Vereisten voor AI Assistant
 
@@ -55,7 +55,7 @@ Om AI Medewerker voor uw organisatie toe te laten, **allen** van het volgende mo
 
 * Uw organisatie moet zijn gemigreerd naar Adobe IMS (Identity Management System)
 * De Adobe Verenigde Ervaring moet worden toegelaten
-* Uw organisatie moet een Select-, Premier- of Ultimate Workfront-abonnement hebben
+* Uw organisatie moet een Select-, Prime- of Ultimate Workfront-abonnement hebben
 * Adobe moet een ondertekende Adobe-gen. AI-overeenkomst hebben in het bestand
 
   Voor meer informatie bij het ondertekenen van de overeenkomst, zie [ de Adobe Gen AI overeenkomst ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) in dit artikel ondertekenen.
@@ -96,9 +96,16 @@ AI Assistant biedt momenteel de volgende functionaliteit:
 
   >[!NOTE]
   >
-  >Deze functionaliteit is alleen beschikbaar voor organisaties die zich op de Premier- of Ultimate Workfront-plannen bevinden.
+  >Deze functionaliteit is alleen beschikbaar voor organisaties op de Prime- of Ultimate Workfront-plannen.
 
   Voor meer informatie, zie [ berekende gebiedsformules met AI Medewerker ](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md) produceren of herzien.
+
+<!--<div class="preview">
+* Summarizing updates, uploaded documents, and other notable changes about your projects within the following time frames: 24 hours, 3 days, 7 days in Priorities.
+
+For more information, see [Catch up on work in Priorities](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
+
+</div>-->
 
 ## Objecttypen beschikbaar voor AI Assistant
 

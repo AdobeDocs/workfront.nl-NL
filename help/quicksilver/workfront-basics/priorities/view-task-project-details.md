@@ -6,18 +6,18 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
-source-git-commit: cd60710c8002d090bf1ed7a300d3e600d98032b1
+source-git-commit: 5e33bdb50b2f283606d3a7a74edaec701de60bca
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
 
-# Projectdetails en taakdetails weergeven in de werklijst Prioriteiten
+# Projectdetails en taakdetails weergeven in Prioriteiten
 
 <span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Sandbox van de Voorproef.</span>
 
-U kunt project- en taakdetails weergeven in de prioriteitenwerklijst.
+U kunt project, taak, en uitgeeft details in de prioriteitenwerklijst bekijken.
 
 ## Toegangsvereisten
 
@@ -57,7 +57,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 +++
 
-## Projectdetails weergeven
+## Details weergeven in het deelvenster aan de zijkant van de werklijst
+
+### Projectdetails weergeven
 
 {{step1-to-priorities}}
 
@@ -72,7 +74,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    ![ projectdetails ](assets/project-details.png)
    <!--new screen for prod ![](assets/project-details-new.png)-->
 
-## Taakdetails weergeven
+### Taakdetails weergeven
 
 {{step1-to-priorities}}
 
@@ -80,10 +82,47 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Taak is standaard geselecteerd. Hier kunt u
    * Projectdetails en beschrijving weergeven en bewerken
    * Opmerkingen over het project weergeven en toevoegen
-   * Documenten weergeven en toevoegen
+   * <span class="preview"> Mening en voeg documenten </span> toe
+   * <span class="preview"> creeer een proef </span>
    * Logtijd
    * Een bestand toevoegen
    * Snelle koppelingen toevoegen
 
    ![ taakdetails ](assets/task-details.png)
    <!--new screen for prod ![](assets/task-details-new.png)-->
+
+### Uitgavendetails weergeven
+
+{{step1-to-priorities}}
+
+1. In de werklijst, houd over de het werknaam, dan klik **pictogram van de Samenvatting ![ open samenvattingspictogram ](assets/summary-icon.png).**
+1. Uitgave is standaard geselecteerd. Hier kunt u
+   * Projectdetails en beschrijving weergeven en bewerken
+   * Opmerkingen over het project weergeven en toevoegen
+* <span class="preview"> Mening en voeg documenten </span> toe
+* <span class="preview"> creeer een proef </span>
+   * Logtijd
+   * Een bestand toevoegen
+   * Snelle koppelingen toevoegen
+
+  <!--new screen for prod ![issue details](assets/issue-details.png)-->
+
+## Details weergeven op de pagina Details
+
+<span class="preview"> u kunt updates in real time op de pagina van Details van een taak of een kwestie bekijken. U kunt ook zien of anderen de pagina tezelfdertijd zoals u met aanwezigheidsindicatoren in real time bekijken.</span>
+
+## Details van werkonderdelen weergeven
+
+{{step1-to-priorities}}
+
+1. Klik in de werklijst op de naam van het werkitem. Op de pagina Details kunt u
+
+* Projectdetails en beschrijving weergeven en bewerken
+* Opmerkingen over het project weergeven en toevoegen
+* <span class="preview"> Mening en voeg documenten </span> toe
+* <span class="preview"> creeer een proef </span>
+* Logtijd
+* Een bestand toevoegen
+* Snelle koppelingen toevoegen
+
+<!-- screenshot for prod-->

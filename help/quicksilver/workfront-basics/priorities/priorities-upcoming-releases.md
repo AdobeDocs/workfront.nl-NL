@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 749f4da8-6ffb-4b23-bf3e-18f195df80c9
-source-git-commit: a6ab22e62fa15c6922d7f749b2df7350f6d7b5a6
+source-git-commit: 220702225d4f7986b93a43ccc4c33160f7463619
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 0%
@@ -16,6 +16,8 @@ ht-degree: 0%
 # Prioriteiten: komende releases
 
 We zijn blij u te laten zien wat we voor prioriteiten hebben. Gebruik de button Feedback in het gebied Prioriteiten van Workfront om ons te laten weten wat je wilt zien.
+
+
 
 <table>
   <tr>
@@ -37,6 +39,25 @@ We zijn blij u te laten zien wat we voor prioriteiten hebben. Gebruik de button 
 </table>
 
 
+
 >[!IMPORTANT]
 >
 >De items in deze tabel zijn gepland, maar niet gegarandeerd.
+
+
+
+
+<!--
+
+<table>
+  <tr>
+    <td><strong>Upcoming</strong>
+   <p>More upcoming features will be added soon</p>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Planned</strong>
+<p>More planned features will be added soon</p>
+    </td>
+  </tr>
+</table> -->
