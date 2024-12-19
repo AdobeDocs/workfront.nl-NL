@@ -6,9 +6,10 @@ title: Gebruik cURL om een HTTP-module toe te voegen
 description: U kunt een cURL-aanvraag in uw scenario plakken en Fusion maakt een HTTP-module die is geconfigureerd via de cURL-aanvraag.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 4cc881f4f5a28bd105e6898ad7ffb57c1dafb563
+exl-id: 5eac3e87-0dd3-4bad-ae3e-77264329b717
+source-git-commit: 785f39fabcb19233fd1bc79c14222225a3ea72a2
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
@@ -69,10 +70,6 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 Een HTTP-module maken met cURL:
 
 1. Maak de tekst van het cURL-verzoek buiten Fusion, bijvoorbeeld in een teksteditor.
-
-   >[!IMPORTANT]
-   >
-   >Als u Fusion gebruikt op een Windows-computer, mag uw cURL-aanvraag geen regeleinden bevatten.
 1. Kopieer de cURL-aanvraag naar het klembord.
 1. Klik op de tab **[!UICONTROL Scenario]** in het linkerdeelvenster.
 1. Selecteer het scenario waar u de module wilt tot stand brengen.
@@ -89,10 +86,6 @@ Een HTTP-module maken met cURL:
 
 ## Problemen oplossen
 
-Als uw cURL niet in uw scenario kleeft, controleer het volgende:
-
-* Controleer de browserinstellingen om ervoor te zorgen dat plakken vanaf het klembord is ingeschakeld.
-* Als u Windows uitvoert, controleert u het cURL-verzoek om ervoor te zorgen dat er geen regeleinden worden opgenomen.
-
+Als uw cURL niet in uw scenario kleeft, controleer uw browser montages om ervoor te zorgen dat het kleven van het klembord wordt toegelaten.
 
 
