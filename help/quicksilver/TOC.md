@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+source-git-commit: 3f10e64745b95e4c7d668d798a6c71469948d617
 workflow-type: tm+mt
-source-wordcount: '14699'
+source-wordcount: '14715'
 ht-degree: 0%
 
 ---
@@ -184,6 +184,7 @@ ht-degree: 0%
          * [21.1 Andere verbeteringen](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Fusion-releaseactiviteit {#fusion-release}
          * [Adobe Workfront Fusion-releaseactiviteit](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Workfront Fusion releaseactiviteit: week van 16 december 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-12-16.md)
          * [Workfront Fusion release activity: Week van 2 december 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-12-2.md)
          * [Workfront Fusion release activity: Week van 25 november 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-25.md)
          * [Workfront Fusion release activity: Week van 11 november 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-11.md)
@@ -2264,6 +2265,7 @@ ht-degree: 0%
       * [Foutopsporingsscenario&#39;s met Adobe Workfront Fusion DevTool](workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md)
       * [Een scenario-segment genereren met behulp van AI](/help/quicksilver/workfront-fusion/scenarios/add-a-module-with-ai.md)
       * [Voer de Scenario Scoring Expert in Adobe Workfront Fusion uit](/help/quicksilver/workfront-fusion/scenarios/run-scenario-scoring.md)
+      * [Gebruik cURL om een HTTP-module toe te voegen](/help/quicksilver/workfront-fusion/scenarios/use-curl-create-http.md)
       * Adobe Workfront Fusion-scenario-sjablonen {#fusion-scenario-templates}
          * [Scenario-sjablonen](workfront-fusion/scenarios/templates/fusion-templates.md)
          * [[!DNL Fusion] sjabloonoverzicht](/help/quicksilver/workfront-fusion/scenarios/templates/fusion-templates-overview.md)
@@ -2342,6 +2344,7 @@ ht-degree: 0%
       * [Afbeeldingsmodules](workfront-fusion/apps-and-their-modules/image-module.md)
       * [Jira-softwaremodules](workfront-fusion/apps-and-their-modules/jira-software-modules.md)
       * [JSON-modules](workfront-fusion/apps-and-their-modules/json-modules.md)
+      * [JSONata-modules](workfront-fusion/apps-and-their-modules/jsonata-module.md)
       * [JWT-modules](workfront-fusion/apps-and-their-modules/jwt-modules.md)
       * [MariaDB-modules](workfront-fusion/apps-and-their-modules/mariadb-modules.md)
       * [Markeringsmodules](workfront-fusion/apps-and-their-modules/markdown-modules.md)
