@@ -6,9 +6,9 @@ description: U kunt updates van een werkitem weergeven en toevoegen in het gebie
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
+source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '891'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,16 @@ ht-degree: 0%
 
 <!--Audited: April 2024-->
 
+
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+
 U kunt updates van een werkitem weergeven en toevoegen in het [!UICONTROL Home] -gebied in [!DNL Adobe Workfront] . U kunt andere gegevens met betrekking tot het het werkpunt ook uitgeven als u toegang hebt om het uit te geven.
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -57,36 +62,57 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 +++
 
-## Updates van een tijdelijk item weergeven
+<!--not sure if this  from the old UI: we don't have a Work List anymore - should this section come off? 
 
-U kunt updates van elk werkitem weergeven in de [!UICONTROL Work List] :
+## View updates on a work item
+
+You can view updates on any work item in the [!UICONTROL Work List]:
+
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** ![](assets/lines-main-menu.png) in the upper-left corner, if available, then click **[!UICONTROL Home]**.
+1. In the **[!UICONTROL Work List]** area, select the item where you want to view updates.\
+   Updates are displayed in the right panel.
+
+-->
+
+## Overzicht van widgets waar u opmerkingen kunt toevoegen of items kunt bewerken in het gedeelte Home
+
+U kunt opmerkingen toevoegen in de volgende widgets in het gebied Start:
+
+| Widget | Beschrijving |
+|--------------|---------------------------------------------------------------------------------------------------|
+| Borden | Hiermee geeft u alle borden weer die u hebt gemaakt of die u hebt uitgenodigd te gebruiken |
+| Mijn werk | Hiermee geeft u taken en problemen weer die aan u zijn toegewezen |
+| Mijn projecten | De projecten van vertoningen die u hebt of projecten u hebt |
+| Mijn taken | Hiermee geeft u aan u toegewezen taken weer |
+| Mijn problemen | Hier ziet u de problemen die aan u zijn toegewezen |
+| Mijn verzoeken | Alle verzoeken weergeven die u hebt verzonden |
+| Mijn goedkeuring | Toont al uw hangende, toegewezen, gedelegeerde en verzonden goedkeuringen |
+| Opmerkingen | Toont recente commentaardraden over Workfront, gelijkend op de Mijn pagina van Updates, evenals een antwoordknoop die u toestaat om een antwoord binnen widget samen te stellen. |
+
+U kunt werkitems bewerken in de volgende widgets in het gebied Start:
+
+| Widget | Beschrijving |
+|--------------|---------------------------------------------------------------------------------------------------|
+| Borden | Hiermee geeft u alle borden weer die u hebt gemaakt of die u hebt uitgenodigd te gebruiken |
+| Mijn werk | Hiermee geeft u taken en problemen weer die aan u zijn toegewezen |
+| Mijn projecten | De projecten van vertoningen die u hebt of projecten u hebt |
+| Mijn taken | Hiermee geeft u aan u toegewezen taken weer |
+| Mijn problemen | Hier ziet u de problemen die aan u zijn toegewezen |
+| Mijn verzoeken | Alle verzoeken weergeven die u hebt verzonden |
+| Mijn goedkeuring | Toont al uw hangende, toegewezen, gedelegeerde en verzonden goedkeuringen |
+
+## Een opmerking toevoegen aan een tijdelijk item in de widget Mijn werk
+
+U kunt updates opgeven voor elk werkitem in de [!UICONTROL My Work] -widget:
 
 1. Klik **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de hoger-juiste hoek, of het **Belangrijkste Menu** ![](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar, dan klik **[!UICONTROL Home]**.
-1. Selecteer in het gebied **[!UICONTROL Work List]** het item waar u de updates wilt weergeven.\
-   Updates worden weergegeven in het rechterdeelvenster.
+1. (Voorwaardelijk) klik **aanpassen** om [!UICONTROL **Mijn werk**] widget toe te voegen.
 
+1. Bepaal de plaats van het het werkpunt dat u in [!UICONTROL **Mijn werk**] widget wilt bijwerken.
+1. Beweeg over de naam, dan klik **voeg nieuw update** pictogram toe.
 
-
-## Een opmerking toevoegen aan een tijdelijk item
-
-U kunt updates opgeven voor elk werkitem in de [!UICONTROL Work] lijst:
-
-1. Klik **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de hoger-juiste hoek, of het **Belangrijkste Menu** ![](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar, dan klik **[!UICONTROL Home]**.
-1. (Voorwaardelijk) klik **aanpassen** om het even welke volgende widgets toe te voegen:
-
-   | Widget | Beschrijving |
-   |--------------|---------------------------------------------------------------------------------------------------|
-   | Borden | Hiermee geeft u alle borden weer die u hebt gemaakt of die u hebt uitgenodigd te gebruiken |
-   | Mijn werk | Hiermee geeft u taken en problemen weer die aan u zijn toegewezen |
-   | Mijn projecten | De projecten van vertoningen die u hebt of projecten u hebt |
-   | Mijn taken | Hiermee geeft u aan u toegewezen taken weer |
-   | Mijn problemen | Hier ziet u de problemen die aan u zijn toegewezen |
-   | Mijn verzoeken | Alle verzoeken weergeven die u hebt verzonden |
-   | Mijn goedkeuring | Toont al uw hangende, toegewezen, gedelegeerde en verzonden goedkeuringen |
-
-1. Zoek het werkitem dat u wilt bijwerken.
-1. Beweeg over de naam, dan klik **nieuwe update** toevoegen.
    ![](assets/add-update-on-widget.png)
+
 1. Typ uw opmerking.
 1. (Facultatief) in de **mensen of teams van de Markering** doos, begin de naam of e-mail van een gebruiker, of een team te typen dat u in deze commentaar zou willen omvatten, dan het selecteren wanneer het in de lijst toont.
 1. (Optioneel) Gebruik de opties op de werkbalk RTF om de tekst op te maken, emoties, koppelingen of afbeeldingen aan uw opmerking toe te voegen om de inhoud te verbeteren.
@@ -96,24 +122,40 @@ U kunt updates opgeven voor elk werkitem in de [!UICONTROL Work] lijst:
    >
    >Je kunt je opmerking alleen binnen 15 minuten bewerken nadat je deze hebt verzonden. Om een commentaar uit te geven, klik het **Meer** menu in de hoger-juiste hoek van de commentaar, dan klik **uitgeven**.
 
-Voor meer gedetailleerde informatie over het toevoegen van updates, zie [ een update aan een het werkpunt ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md) toevoegen.
+   Voor meer gedetailleerde informatie over het toevoegen van updates, zie [ het werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+
+## Een opmerking toevoegen aan een item in de widget Aantekeningen
+
+1. Voeg de **widget van Vermeldingen** aan uw gebied van het Huis toe.
+
+1. Zoek het item dat u hebt opgenomen in een update waarop u wilt reageren.
+
+1. Klik **Reageren**.
+
+   <div class="preview">
+
+   ![](assets/reply-to-comment-in-mentions-widget.png)
+
+   </div>
+
+1. Typ uw opmerking.
+1. (Facultatief) in de <span class="preview">**mensen van de Markering**</span> doos, begin de naam van een gebruiker of een team te typen dat u in deze commentaar zou willen omvatten, dan het selecteren wanneer het in de lijst toont.
+1. (Optioneel) Gebruik de opties op de werkbalk RTF om de tekst op te maken, emoties, koppelingen of afbeeldingen aan uw opmerking toe te voegen om de inhoud te verbeteren.
+1. <span class="preview"> klik **voorleggen** om de commentaar aan het het werkpunt toe te voegen.</span>
+
+   >[!IMPORTANT]
+   >
+   ><span class="preview"> u kunt uw commentaar slechts binnen 15 minuten uitgeven vanaf het voorleggen van het. Om een commentaar uit te geven, klik **Meer** menu in de hoger-juiste hoek van de commentaar, dan klik **uitgeven**.</span>
+
+   <span class="preview"> voor meer gedetailleerde informatie over het toevoegen van updates, zie [ het werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).</span>
 
 ## Een tijdelijk item bewerken
 
 U kunt elk veld op elk werkitem bewerken dat u kunt bewerken.
 
 1. Klik **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de hoger-juiste hoek, of het **Belangrijkste Menu** ![](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar, dan klik **[!UICONTROL Home]**.
-1. (Voorwaardelijk) klik **aanpassen** om het even welke volgende widgets toe te voegen:
-
-   | Widget | Beschrijving |
-   |--------------|---------------------------------------------------------------------------------------------------|
-   | Borden | Hiermee geeft u alle borden weer die u hebt gemaakt of die u hebt uitgenodigd te gebruiken |
-   | Mijn werk | Hiermee geeft u taken en problemen weer die aan u zijn toegewezen |
-   | Mijn projecten | De projecten van vertoningen die u hebt of projecten u hebt |
-   | Mijn taken | Hiermee geeft u aan u toegewezen taken weer |
-   | Mijn problemen | Hier ziet u de problemen die aan u zijn toegewezen |
-   | Mijn verzoeken | Alle verzoeken weergeven die u hebt verzonden |
-   | Mijn goedkeuring | Toont al uw hangende, toegewezen, gedelegeerde en verzonden goedkeuringen |
+1. (Voorwaardelijk) klik **aanpassen** om **Mijn werk** widget toe te voegen.
 
 1. Beweeg over het het werkpunt, dan klik het **Summiere** pictogram.
    ![](assets/open-summary-new-home.png)

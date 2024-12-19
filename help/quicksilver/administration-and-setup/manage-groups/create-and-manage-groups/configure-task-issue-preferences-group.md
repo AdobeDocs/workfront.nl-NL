@@ -9,14 +9,18 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
 workflow-type: tm+mt
-source-wordcount: '1885'
+source-wordcount: '2196'
 ht-degree: 0%
 
 ---
 
 # Taak- en uitgavevoorkeuren voor een groep configureren
+
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 Als de groepen in uw organisatie een taak of een uitgiftevoorkeur onafhankelijk van de manier moeten vormen het op het systeemniveau wordt gevormd, kan een beheerder van Adobe Workfront de voorkeur ontgrendelen. Dan, als groepsbeheerder, kunt u de voorkeur voor uw groep vormen en het zal alle taken of kwesties beïnvloeden verbonden aan uw groep.
 
@@ -91,10 +95,9 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    * [ Nieuwe Gebreken van de Taak ](#new-task-defaults)
    * [ Kwesties ](#issues)
    * [ Schrapping ](#deletion)
-
-   <!--* <span class="preview">[Move](#move)</span>-->
-
+   * <span class="preview">[ Beweging ](#move)</span>
    * [Werkelijke datums](#actual-dates)
+   * [Delegatie](#delegation)
    * [Toegang](#access)
 
 ### Nieuwe taakstandaardinstellingen {#new-task-defaults}
@@ -181,31 +184,27 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    </table>
 
 
-<!-- *****also replace the & with "and" in the Deletion section
-
 <div class="preview">
 
-### Move
+### Verplaatsen
 
 <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Allow users to move tasks and issues with logged hours</td> 
-      <td> <p> Lets you determine whether you allow the move of tasks or issues where hours are logged. This option is selected by default.</p> 
-       <p>Consider the following:</p> 
+      <td role="rowheader">Gebruikers toestaan taken en problemen met geregistreerde uren te verplaatsen</td> 
+      <td> <p> Hiermee kunt u bepalen of u de verplaatsing van taken of problemen toestaat waar uren worden geregistreerd. Deze optie is standaard ingeschakeld.</p> 
+       <p>Overweeg het volgende:</p> 
         <ul> 
-         <li> When it is selected, you can move tasks and issues that have time logged. The hours also move with the tasks or issues. </li>
-      <li>When you deselect this option, you receive a prohibitive warning when you move a task or issue with logged hours. The warning specifies that the administrator does not allow for tasks or issues with logged hours to be moved. The tasks or issues that have hours logged cannot be moved. </li></ul>
+         <li> Als deze optie is geselecteerd, kunt u taken en problemen met tijd verplaatsen. De uren bewegen zich ook met de taken of de kwesties. </li>
+      <li>Wanneer u deze optie uitschakelt, ontvangt u een verbodswaarschuwing wanneer u een taak of uitgave met geregistreerde uren verplaatst. De waarschuwing geeft aan dat de beheerder het verplaatsen van taken of problemen met geregistreerde uren niet toestaat. De taken of kwesties die uren het programma worden geopend kunnen niet worden verplaatst. </li></ul>
       </td> 
      </tr> 
     </tbody> 
    </table>
 
 </div>
-
--->
 
 ### Werkelijke datums {#actual-dates}
 
@@ -255,6 +254,28 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    This setting can be configured both at the system level and at the Team level. Enabling the Start button for everyone in the system automatically disables the same setting at the Team level.
    If the Work On It setting is enabled, then disabled, tasks and issues function with a Work On It button the way they did before.
    -->
+
+### Delegatie
+
+Als u de instelling **[!UICONTROL Allow users to delegate their tasks and issues]** inschakelt, kunnen alle gebruikers in de groep hun werk tijdelijk delegeren aan anderen.
+
+Wanneer deze instelling is ingeschakeld, kunnen groepsgebruikers het volgende zien:
+
+* De [!UICONTROL **Afgevaardigde**] verbinding in hun [!UICONTROL My Work], [!UICONTROL My Tasks], of [!UICONTROL My Issues] widgets in het [!UICONTROL Home] gebied. Zij kunnen taak delegeren en taken van daar uitgeven.
+
+  >[!NOTE]
+  >
+  >  De [!UICONTROL **toestemmingen van de Afgevaardigde**] verbinding wordt altijd toegelaten in het [!UICONTROL Home] gebied.
+
+* Een indicatie dat een taak of kwestie aan een andere gebruiker in het [!UICONTROL Assignments and delegations] gebied in de taak of uitgiftekopbal wordt gedelegeerd.
+* Een indicatie dat een taak of kwestie aan een andere gebruiker in hun [!UICONTROL My Work] widget in [!UICONTROL Home] wordt gedelegeerd.
+
+  Als u de instelling [!UICONTROL Allow users to delegate their tasks and issues] uitschakelt, worden de delegaties die momenteel zijn gepland, gestopt en ontvangen de gedelegeerde gebruikers een e-mail met de melding dat de delegatie is gestopt.
+
+Raadpleeg de volgende artikelen voor informatie over het delegeren van werk aan anderen:
+
+* [Overzicht van werkzaamheden delegeren](../../../manage-work/delegate-work/delegate-work-overview.md)
+* [Taken en problemen delegeren](../../../manage-work/delegate-work/how-to-delegate-work.md)
 
 ### Toegang {#access}
 

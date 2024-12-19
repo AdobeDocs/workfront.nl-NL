@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
 workflow-type: tm+mt
-source-wordcount: '1768'
+source-wordcount: '1927'
 ht-degree: 0%
 
 ---
@@ -22,12 +22,10 @@ ht-degree: 0%
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 Linked to Converting Issues.-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
--->
 
 Als [!DNL Adobe Workfront] beheerder kunt u systeembrede voorkeuren configureren voor taken en problemen. Deze voorkeuren zijn van invloed op de manier waarop uw gebruikers taken en problemen maken in [!DNL Workfront] .
 
@@ -76,9 +74,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    * [[!UICONTROL New Task Defaults]](#new-task-defaults)
    * [[!UICONTROL Issues]](#issues)
    * [[!UICONTROL Deletion]](#deletion)
-
-   <!--* <span class="preview">[Move](#move)</span>-->
-
+   * <span class="preview">[ Beweging ](#move)</span>
    * [[!UICONTROL Actual Dates]](#actual-dates)
    * [[!UICONTROL Delegation]](#delegation)
    * [[!UICONTROL Access]](#access)
@@ -159,7 +155,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ### [!UICONTROL Deletion] {#deletion}
 
-**[!UICONTROL Allow users to delete tasks & issues with logged hours]**: Hiermee kunt u bepalen of u het verwijderen van taken of problemen toestaat waarbij uren worden geregistreerd. Deze optie is standaard ingeschakeld.
+**[!UICONTROL Allow users to delete tasks and issues with logged hours]**: Hiermee kunt u bepalen of u het verwijderen van taken of problemen toestaat waarbij uren worden geregistreerd. Deze optie is standaard ingeschakeld.
 
 >[!TIP]
 >
@@ -173,21 +169,17 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 * Wanneer u deze optie deselecteert, ontvangt u een prohibitieve waarschuwing wanneer u een taak of een kwestie met geregistreerde uren schrapt, of wanneer u een project met uren schrapt die voor zijn taken of kwesties worden geregistreerd. De waarschuwing geeft aan dat de beheerder het niet toestaat dat taken of problemen met geregistreerde uren worden verwijderd. De taken, de kwesties, of de projecten die uren hebben voor taken en kwesties worden geregistreerd kunnen niet worden geschrapt.
 
-<!--*****also replace the & with "and" in the Deletion section
-
 <div class="preview">
 
-### Move
+### Verplaatsen
 
-**[!UICONTROL Allow users to move tasks and issues with logged hours]**: Lets you determine whether you allow the move of tasks or issues where hours are logged. This option is selected by default.
+**[!UICONTROL Allow users to move tasks and issues with logged hours]**: Hiermee kunt u bepalen of u het verplaatsen van taken of problemen toestaat waar uren worden vastgelegd. Deze optie is standaard ingeschakeld.
 
-* When it is selected, you can move tasks and issues that have time logged. The hours also move with the tasks or issues. 
+* Als deze optie is geselecteerd, kunt u taken en problemen met tijd verplaatsen. De uren bewegen zich ook met de taken of de kwesties.
 
-* When you deselect this option, you receive a prohibitive warning when you move a task or issue with logged hours. The warning specifies that the administrator does not allow for tasks or issues with logged hours to be moved. The tasks or issues that have hours logged cannot be moved. 
+* Wanneer u deze optie uitschakelt, ontvangt u een verbodswaarschuwing wanneer u een taak of uitgave met geregistreerde uren verplaatst. De waarschuwing geeft aan dat de beheerder het verplaatsen van taken of problemen met geregistreerde uren niet toestaat. De taken of kwesties die uren het programma worden geopend kunnen niet worden verplaatst.
 
 </div>
-
--->
 
 ### [!UICONTROL Actual Dates] {#actual-dates}
 
@@ -216,7 +208,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ### Delegatie
 
-Als u de instelling **[!UICONTROL Allow users to delegate their tasks & issues]** inschakelt, kunnen alle gebruikers tijdelijk hun werk delegeren aan anderen.
+Als u de instelling **[!UICONTROL Allow users to delegate their tasks and issues]** inschakelt, kunnen alle gebruikers in het systeem hun werk tijdelijk delegeren aan anderen.
 
 Wanneer deze instelling is ingeschakeld, kunnen gebruikers het volgende zien:
 
@@ -229,7 +221,7 @@ Wanneer deze instelling is ingeschakeld, kunnen gebruikers het volgende zien:
 * Een indicatie dat een taak of kwestie aan een andere gebruiker in het [!UICONTROL Assignments and delegations] gebied in de taak of uitgiftekopbal wordt gedelegeerd.
 * Een indicatie dat een taak of kwestie aan een andere gebruiker in hun [!UICONTROL My Work] widget in [!UICONTROL Home] wordt gedelegeerd.
 
-  Als u de instelling [!UICONTROL Allow users to delegate their tasks & issues] uitschakelt, worden de delegaties die momenteel zijn gepland, gestopt en ontvangen de gedelegeerde gebruikers een e-mail met de melding dat de delegatie is gestopt.
+  Als u de instelling [!UICONTROL Allow users to delegate their tasks and issues] uitschakelt, worden de delegaties die momenteel zijn gepland, gestopt en ontvangen de gedelegeerde gebruikers een e-mail met de melding dat de delegatie is gestopt.
 
 Raadpleeg de volgende artikelen voor informatie over het delegeren van werk aan anderen:
 

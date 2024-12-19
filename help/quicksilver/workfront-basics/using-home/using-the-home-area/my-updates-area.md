@@ -6,14 +6,19 @@ description: U kunt het [!UICONTROL My Updates] gebied gebruiken om de goedkeuri
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 57b6453d4e67e1cb70c4233c1150620867f2e9d1
+source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '768'
 ht-degree: 0%
 
 ---
 
+
 # Het [!UICONTROL My Updates] -gebied gebruiken
+
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 
 U kunt het [!UICONTROL My Updates] gebied gebruiken om de goedkeuringen snel te herzien die op uw besluit wachten of de gesprekken u in inbegrepen bent.
@@ -77,9 +82,13 @@ U moet het volgende hebben voordat u begint:
 
    De goedkeuringen en de verzoeken om toegang die aan u worden toegewezen zijn vermeld in de eerste helft van de pagina, onder **Mijn Updates**.
 
+   <div class="preview">
+
    ![](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
 
-1. (Optioneel) Blader naar de onderkant van het [!UICONTROL My Updates] -gebied en klik op de naar rechts wijzende pijl om meer goedkeuringen weer te geven die op extra pagina&#39;s worden weergegeven.
+   </div>
+
+1. (Facultatief) Schuif aan de bodem van het [!UICONTROL **Mijn gebied van Updates**] en klik de naar rechts wijzende pijl om meer goedkeuringen te tonen die op extra pagina&#39;s tonen.
 
    >[!TIP]
    >
@@ -157,7 +166,14 @@ U moet het volgende hebben voordat u begint:
    * Gebruik de werkbalk RTF om uw tekst op te maken, koppelingen, lijsten, emojis, aanhalingstekens of afbeeldingen aan uw bericht toe te voegen
    * Voeg gebruikers of teams toe om hen van uw antwoord op de hoogte te brengen.
 
-     Klik nogmaals op **[!UICONTROL Reply]** wanneer u klaar bent met het toevoegen van de reactie.
+     Voor meer informatie over het antwoorden op updates, zie [ het werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+     <span class="preview"> wanneer u klaar bent toevoegend het antwoord, klik **[!UICONTROL Submit]**.</span>
+
+     <div class="preview">
 
      ![](assets/reply-in-the-my-updates-area.png)
+
+     </div>
+
 1. (Optioneel) Klik op **[!UICONTROL Pin current page]** om het [!UICONTROL My Updates] -gebied vast te zetten op de bovenste navigatie.
