@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: c709219fa78ed2742bd9b7286e35c09d1b3927ba
+source-git-commit: b637694c598540343383af15658a069c305f6bbf
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '988'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,8 @@ In Prioriteiten kunt u uw werk filteren en groeperen om u te helpen deadlines te
 
 ### Uw werk met filters zoeken
 
-Zoek uw belangrijkste werk met filters. <span class="preview"> u kunt een natuurlijke taal gebruiken om het werk met het Slimme filter </span> te vinden, of u kunt de Standaardfilter gebruiken om taken en kwesties te vinden die aan u worden toegewezen:
+Zoek uw belangrijkste werk met filters. <!--<span class="preview">You can use a natural language to find work with the Smart filter</span>, or -->
+Met het filter Standaard kunt u zoeken naar taken en problemen die aan u zijn toegewezen:
 
 <table>
   <tbody>
