@@ -6,14 +6,16 @@ description: Gebruik de werklastbalans om de beschikbaarheid van uw bronnen te b
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
 workflow-type: tm+mt
-source-wordcount: '4067'
+source-wordcount: '4070'
 ht-degree: 0%
 
 ---
 
 # Navigeren door werklastbalans
+
+<!--Audited: 12/2024-->
 
 Gebruik de werklastbalans in Adobe Workfront om werk toe te wijzen aan gebruikers op basis van hun beschikbaarheid. In dit artikel wordt beschreven hoe u instellingen en opties kunt gebruiken om door Workload Balancer te navigeren en de informatie weer te geven die voor u van belang is. In de aanvullende artikelen die hier worden vermeld, wordt beschreven hoe u de werklastbalans kunt gebruiken om uw bronnen en hun toewijzing aan het werk te beheren.
 
@@ -36,7 +38,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td role="rowheader">Adobe Workfront-licentie*</td> 
    <td><p>Nieuw: Standaard</p>
        <p>of</p>
        <p>Huidig: Plan, wanneer het gebruiken van de Balancer van de Werkbelasting in het gebied van de Middelen;</br>
@@ -60,7 +62,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -229,7 +231,7 @@ In het gedeelte Niet toegewezen werk worden standaard geen werkitems weergegeven
 
 1. Klik op de **pijl-omlaag** links van de gebieden Niet toegewezen of Toegewezen om alle items onder de projectnamen (in het gebied Niet toegewezen) en onder de gebruikersnamen (in het gebied Toegewezen) samen te vouwen.
 
-1. De belemmering en laat vallen de **scheidingslijn** tussen het linkerpaneel en het chronologiegebied om de grootte van het linkerpaneel aan te passen.
+1. Beweeg over, dan belemmering en laat vallen de **scheidingslijn** tussen het linkerpaneel en het chronologiegebied om de grootte van het linkerpaneel aan te passen.
 
    ![ de lijn van de Scheiding ](assets/wb-adjust-panel-size.png)
 

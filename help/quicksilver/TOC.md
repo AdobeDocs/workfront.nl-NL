@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: fe41b9209d4034e6685db313c8cbfef9c13eda28
+source-git-commit: 046bbabbfe3944d9fea9008ac60547b602f95f68
 workflow-type: tm+mt
-source-wordcount: '14747'
+source-wordcount: '14757'
 ht-degree: 0%
 
 ---
@@ -918,7 +918,7 @@ ht-degree: 0%
    * Home {#home}
       * [Home](workfront-basics/using-home/home.md)
       * Het gebied Home gebruiken {#use-home-area}
-         * [Het gebied Home gebruiken](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
+         * [Het gedeelte Home gebruiken: artikelindex](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
          * [Aan de slag met Home](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
          * [Widgets toevoegen, bewerken of verwijderen in Nieuwe startpagina](workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)
          * [Items weergeven in de werklijst in het gebied Home](workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
@@ -1038,7 +1038,7 @@ ht-degree: 0%
          * [Tips, trucs en probleemoplossing voor Adobe Workfront Mobile Apps](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-mobile.md)
          * [ Bericht van de Fout op de Mobiele App van Adobe Workfront: &quot;Uw rekening is niet toegelaten API.&quot;](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md)
    * Tips, trucs en probleemoplossing voor Adobe Workfront Basics {#tips-tricks-for-basics}
-      * [Tips, trucs en probleemoplossing voor Adobe Workfront Basics](workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)
+      * [Tips, trucs en probleemoplossing voor Adobe Workfront: artikelindex](workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)
       * [Je snelle gids voor hulp in Adobe Workfront](workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md)
       * [De datumnotatie wijzigen in Adobe Workfront](workfront-basics/tips-tricks-and-troubleshooting/change-date-format-chrome.md)
       * [Contact opnemen met Klantenondersteuning](workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)
@@ -1049,7 +1049,8 @@ ht-degree: 0%
       * [Problemen met Workfront Proof Manager-machtigingen oplossen](workfront-basics/tips-tricks-and-troubleshooting/wp-manager-permissions-troubleshooting.md)
       * [Filterknoppen worden niet weergegeven in paginakoppen](workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
       * [De projecten ik op filter zijn omvat onverwachte resultaten](workfront-basics/tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
-      * [Door meerdere browsertabbladen kan Workfront zich afmelden](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)
+      * [Door meerdere browsertabbladen kan Workfront zich afmelden](workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)
+      * [Objecten delen zonder meldingen te genereren](workfront-basics/tips-tricks-and-troubleshooting/how-to-share-objects-without-sending-out-notifications.md)
 * Agile {#agile}
    * [Agile](agile/agile.md)
    * [Overzicht van de raden](agile/boards-overview.md)

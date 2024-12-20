@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
 workflow-type: tm+mt
-source-wordcount: '1441'
+source-wordcount: '1476'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,11 @@ Voor informatie over het omzetten van kwesties in projecten, zie [ een kwestie i
 
    * Tijdens de conversie wordt u mogelijk gevraagd of u het probleem en de bijbehorende resolutie wilt koppelen aan het project of de taak die u maakt.
    * Als u de kwestie houdt, werken de status en het percentage volledig van het project of de taak automatisch de status en het percentage volledig van de kwestie bij wanneer om het even welke veranderingen op het project, de taak, of de kwestie voorkomen of wanneer Workfront de chronologie opnieuw berekent.
+
+  >[!NOTE]
+  >
+  >   Nadat de status van de uitgave is afgesloten (als gevolg van het sluiten van de taak of het project), blijft de kwestie gesloten, ongeacht in welke status de taak of het project verandert nadat deze is gesloten.
+
 
 * Wanneer het omzetten van een kwestie in een taak of een project, wordt de kwestie verwijderd uit het gebied van het Huis van de gebruiker die aan de kwestie wordt toegewezen.
 

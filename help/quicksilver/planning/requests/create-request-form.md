@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
 workflow-type: tm+mt
-source-wordcount: '1557'
+source-wordcount: '1553'
 ht-degree: 0%
 
 ---
@@ -150,13 +150,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >    * Aanmaakdatum en datum van laatste wijziging
    >    * Opzoekvelden van Workfront-objecten
    >    * Workfront Planning connected records lookup fields
-   >    * Met AEM Assets verbonden velden
    >* De gebieden van de volgende types worden niet getoond in de verzoekvorm in het milieu van de Productie. <span class="preview"> zij tonen in het milieu van de Voorproef:</span>
    >    * <span class="preview"> Met Workfront Planning records verbonden velden </span>
    >    * <span class="preview"> Personen </span>
    >    * <span class="preview"> Workfront voorwerpen&#39; verbonden gebieden </span>
    >    * <span class="preview"> Met AEM Assets verbonden velden </span>
-
 
    * **Standaard sectie**: Dit is de standaardsectieonderbreking die Workfront op de verzoekvorm van toepassing is. De standaardsectie kan niet worden anders genoemd of worden verwijderd.
    * **Onderwerp** gebied: Het gebied dat het verzoek in Workfront zal identificeren. Deze mogelijkheid is nog niet beschikbaar in de productieomgeving. <span class="preview"> het is beschikbaar in het voorproefmilieu.</span> De configuratie en de waarde van het veld Onderwerp kunnen niet worden bewerkt.

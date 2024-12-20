@@ -1,22 +1,24 @@
 ---
 content-type: reference
 navigation-topic: home-navigation-topic
-title: Het gebied Home gebruiken
+title: 'Het gedeelte Home gebruiken: Artikel-index'
 description: Lees deze artikelen voor meer informatie over het gebruik van het gebied Home in Adobe Workfront.
 author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 246e3f71-6403-4381-866c-fa693fb9944d
-source-git-commit: 403fcb01d5a06c257e830724e6e02f0936cc106a
+source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
 
-# Het gebied Home gebruiken
+# Het gedeelte Home gebruiken: artikelindex
 
-Deze sectie bevat de volgende artikelen:
+<!--Audited: 12/2024-->
+
+Lees deze artikelen voor meer informatie over het gebruik van het gebied Home in Adobe Workfront.
 
 * [Aan de slag met [!UICONTROL Home]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
 * [Widgets toevoegen, bewerken of verwijderen in Nieuwe startpagina](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)

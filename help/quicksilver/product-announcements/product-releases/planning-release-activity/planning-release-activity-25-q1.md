@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
 workflow-type: tm+mt
-source-wordcount: '2114'
+source-wordcount: '2182'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,18 @@ In dit artikel worden de functies beschreven die tijdens de release Eerste kwart
 
 Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront na de algemene beschikbaarheidsversie op 28 augustus, 2024 worden vrijgegeven, zie [ de versieactiviteit van de Planning van Adobe Workfront: artikelindex ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+
+## Verbindingsvelden met Adobe Experience Manager-elementen worden nu ondersteund in aanvraagformulieren
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 20 december 2024; Productieversie voor alle klanten: 16 januari 2025
+
+U kunt nu verbindingsvelden met AEM elementen toevoegen aan een aanvraagformulier voor een recordtype in Workfront Planning.
+
+Vóór deze verbetering konden deze typen velden niet worden toegevoegd aan aanvraagformulieren.
+
+Voor informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
 
 ## Goedkeuringen voor Workfront-planningsaanvragen configureren
 
