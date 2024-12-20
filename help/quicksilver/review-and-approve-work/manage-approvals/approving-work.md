@@ -6,7 +6,7 @@ description: Goedkeuring van de werkzaamheden
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6e43edbb-14dd-493d-a76b-84be6c3bef82
-source-git-commit: 216bf9ea9cb58294b42cc41d70ca0ab99b6dc827
+source-git-commit: 7366e3dd37b686a3566ca6d39e28eb6762c6d1ff
 workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 0%
@@ -168,7 +168,7 @@ Om het werk van een project, een taak, of een kwestie direct goed te keuren:
 1. Klik **goedkeuren** of **Weigeren**, afhankelijk van of u het goedkeuringsproces wilt goedkeuren of verwerpen.\
    De goedkeuringsfase die in afwachting was van de goedkeuring wordt nu goedgekeurd en de goedkeuringsprocedure gaat naar de volgende fase. De status wordt goedgekeurd nadat alle fasen zijn goedgekeurd.
 
-## Een document rechtstreeks vanuit een document goedkeuren 
+## Een document rechtstreeks vanuit een document goedkeuren
 
 1. Ga naar het documentgebied dat het document bevat dat uw goedkeuring vereist.
 1. Selecteer het document, dan klik **goedkeuren**, **Veranderingen**, of **verwerpen**.\
