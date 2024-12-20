@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: b637694c598540343383af15658a069c305f6bbf
+source-git-commit: c0411d6384170fa0e802d32b9535c4d7235436b4
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
@@ -115,7 +115,7 @@ Voor meer informatie, zie [ belangrijke het werkpunten ](/help/quicksilver/workf
 ![](assets/my-focus-column.png)
 <!-- new screen for prod ![](assets/worklist.png) -->
 
-### Gebruik spoedig de mening van de Kalender [!BADGE  komende ]{type=Informative}
+### Gebruik de mening van de Kalender [!BADGE  Beschikbaar in voorproef ]{type=Informative}
 
 De kalenderweergave biedt een visuele weergave van uw taken en problemen. U kunt kiezen tussen de dag-, week- of maandweergave. U kunt ook items filteren op een manier die vergelijkbaar is met de werklijst.
 
@@ -190,11 +190,11 @@ Via het tabblad Documenten op een taak of uitgave kunt u
 * De proefdrukviewer starten om opmerkingen te achterlaten en beslissingen te nemen
 
 
-## Het gebruik [!DNL Catch me up] om te zien wat u [!BADGE  het Binnenkort komen ] miste{type=Informative}
+## Gebruik [!DNL Catch me up] om te zien wat u [!BADGE  Beschikbaar in voorproef ] miste{type=Informative}
 
 Met de functie [!DNL Catch me up] kunt u zien wat u hebt gemist. Vangst me omhoog zal updates, geüploade documenten, goedkeuringen, en andere opmerkelijke veranderingen over uw projecten binnen de volgende termijnen samenvatten: 24 uren, 3 dagen, 7 dagen.
 
-<!--For more information, see Catch up on work in Priorities /help/quicksilver/workfront-basics/priorities/catch-me-up.md.-->
+Voor meer informatie, zie [ Vangst op het werk in Prioriteiten ](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
 
 ![](assets/catch-me-up.png)
 

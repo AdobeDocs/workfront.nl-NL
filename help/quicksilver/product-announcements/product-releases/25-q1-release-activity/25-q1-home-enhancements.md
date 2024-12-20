@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
+source-git-commit: c0411d6384170fa0e802d32b9535c4d7235436b4
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -18,19 +18,19 @@ Op deze pagina worden alle Home-verbeteringen beschreven die zijn aangebracht me
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2025 versiecyclus, zie [ Eerste Kwartaal 2025 versieoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
-<!--## Catch up on work in Priorities
+## Vangst van werk in prioriteiten
 
 >[!NOTE]
 >
->Preview release: December 20, 2024; Production release for all customers: With the 25.1 release (January 2025)
+>Voorvertoningsrelease: 20 december 2024; Productieversie voor alle klanten: met de release van 25.1 (januari 2025)
 >
->_This feature is only available for customers on the Unified Adobe Experience using the AI Assistant._
+>_Deze eigenschap is slechts beschikbaar voor klanten op de Verenigde Ervaring van de Adobe gebruikend de Medewerker AI._
 
-You can use Catch me up to help reduce the amount of time looking for information on active projects. 
+U kunt Vangst gebruiken omhoog helpen de hoeveelheid tijd verminderen zoekend informatie over actieve projecten.
 
-Powered by Workfront's AI Assistant, Catch me up summarizes updates, uploaded documents, and other notable changes about your projects within the following time frames: 24 hours, 3 days, or 7 days.
+Met deze functie, die wordt ondersteund door Workfront AI Assistant, kunt u updates, geüploade documenten en andere belangrijke wijzigingen in uw projecten samenvatten binnen de volgende termijnen: 24 uur, 3 dagen of 7 dagen.
 
-For more information, see [Catch up on work in Priorities](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).-->
+Voor meer informatie, zie [ Vangst op het werk in Prioriteiten ](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
 
 ## Wijzigingen live weergeven op de pagina Details in Prioriteiten
 
