@@ -7,9 +7,9 @@ description: U kunt  [!DNL Adobe Workfront]  met derdetoepassingen integreren. D
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: ac349d205d7526b03bebc497883f9ed1682191ad
+source-git-commit: 502e3fae874df91d4699867dcd25812659a3ffdf
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
@@ -99,8 +99,7 @@ De volgende ingebouwde integraties zijn momenteel beschikbaar in Workfront.
    <td role="rowheader">Microsoft-kalenders (Office 365 / Outlook Live)</td> 
    <td> 
     <ul> 
-     <li> <p>Integreer met een Web-based versie van Vooruitzichten in wolk-ontvangen Bureau 365 of Vooruitzichten Live. </p> </li> 
-     <li> <p>Geef alle gebeurtenissen in uw kalender van [!DNL Outlook] en alle bijbehorende kalenders die u selecteert, zoals verjaardagen en feestdagen, weer in uw kalender.</p>  <p>Nota: De de kalenderconfiguratie van Vooruitzichten is volledig gescheiden van Vooruitzichten toe:voegen-binnen (de Integratie van Vooruitzichten of Workfront voor Vooruitzichten). Er is geen installatie vereist om de kalender te configureren.</p></li> 
+     <li> <p>Integreer met een Web-based versie van Vooruitzichten in wolk-ontvangen Bureau 365 of Vooruitzichten Live. </p>
     </ul> </td> 
   </tr> 
   <tr> 
