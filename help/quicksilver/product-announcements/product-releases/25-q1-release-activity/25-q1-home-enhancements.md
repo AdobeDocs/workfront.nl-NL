@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -48,14 +48,14 @@ Voor meer informatie, zie [ project en taakdetails van de Mening in de werklijst
 >
 >Voorvertoningsrelease: 19 december 2024; Productieversie voor alle klanten: met de release van 25.1 (januari 2025)
 
-U kunt nu werken met documenten en proefdrukken voor taken en problemen. Op het tabblad Nieuwe documenten kunt u
+U kunt nu werken met documenten en proefdrukken voor taken en problemen in de werklijst en de kalender. Op het tabblad Nieuwe documenten kunt u
 
 * Een document uploaden
 * Een proefdruk maken
 * De proefdrukviewer starten
 * En meer
 
-<!--For more information, see [Upload Documents and create proofs in Priorities](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md).-->
+Voor meer informatie, zie [ Documenten uploaden en proeven in Prioriteiten ](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md) creëren.
 
 ## De kalenderweergave is nu beschikbaar in Prioriteiten
 
@@ -63,12 +63,14 @@ U kunt nu werken met documenten en proefdrukken voor taken en problemen. Op het 
 >
 >Voorvertoningsrelease: 19 december 2024; Productieversie voor alle klanten: met de release van 25.1 (januari 2025)
 
-Volg uw werk eenvoudig met een duidelijke, visuele maandkalender. Met de Prioriteitenkalender kunt u
+U kunt uw werk nu bijhouden met een duidelijke, visuele kalender. Met de Prioriteitenkalender kunt u
 
 * Filters gebruiken om uw werk te zoeken
-* Velden weergeven zoals status en focusniveau
-* Kleuren toepassen voor snelle prioritering
+* Pas aangepaste velden zoals status en focusniveau toe om werk met hoge prioriteit te identificeren
+* Kleuren toepassen voor snelle organisatie
 * En meer
+
+Voor meer informatie, zie [ uw werk in de kalender van Prioriteiten beheren ](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md).
 
 ## Updates van de werklijst Prioriteiten
 

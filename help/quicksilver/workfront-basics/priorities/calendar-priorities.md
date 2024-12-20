@@ -1,27 +1,157 @@
 ---
 navigation-topic: get-started-with-workfront
-title: Kalender
-description: Kalender
+title: Uw werk beheren in de prioriteitenkalender
+description: Volg uw werk met een duidelijke, visuele kalender.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: a59d092e700f1f661ad8e3cb74b7d96ee2418f41
+source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '513'
 ht-degree: 0%
 
 ---
 
 
-# Kalender
+# Uw werk beheren in de prioriteitenkalender
 
 <span class="preview"> de informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Sandbox van de Voorproef.</span>
 
-De kalenderweergave is nu beschikbaar in Prioriteiten
-
-Volg uw werk eenvoudig met een duidelijke, visuele maandkalender. Met de Prioriteitenkalender kunt u
+Volg uw werk eenvoudig met een duidelijke, visuele kalender. Met de Prioriteitenkalender kunt u
 
 * Filters gebruiken om uw werk te zoeken
-* Velden weergeven zoals status en focusniveau
-* Kleuren toepassen voor snelle prioritering
-En meer!
+* Pas aangepaste velden zoals status en focusniveau toe om werk met hoge prioriteit te identificeren
+* Kleuren toepassen voor snelle organisatie
+
+## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
+
+<table style="table-layout:auto"> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront-plan</strong></td> 
+   <td> <p>Alle</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront-licentie*</strong></td> 
+   <td> 
+   <p>Huidig: Revisor of hoger</p>
+   <p>Nieuw: Licht of hoger</p> 
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Configuraties op toegangsniveau</strong></td> 
+   <td> <p>Toegang weergeven of bewerken voor het object waarop de update betrekking heeft</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
+   <td> <p>Toegang tot het object weergeven</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+## Uw werk bekijken in de agenda
+
+{{step1-to-priorities}}
+
+1. Klik op het pictogram Kalender boven aan de werklijst.
+   ![ kalenderpictogram ](assets/calendar-tab.png)
+1. Selecteer een of meerdere filters om uw werkitems te versmallen.
+
+   +++Uitbreiden om gedetailleerde informatie over beschikbare filters te zien
+   <table>
+    <tbody>
+    <tr>
+    <th>Filter</th>
+    <th>Beschrijving</th>
+    </tr>
+        <tr>
+        <td>eraan werken</td>
+        <td>Hiermee geeft u items weer waaraan u momenteel werkt</td>
+        </tr>
+        <tr>
+        <td>Gereed om te starten</td>
+        <td>Items weergeven met 
+        <ul>
+        <li>Geen onvolledige voorgangers of taakbeperkingen</li>
+        <p>en</p>
+        <li>De geplande begindatum ligt in het verleden of maximaal twee weken in de toekomst</li>
+        </ul>
+        </td>
+        </tr>
+        <tr>
+        <td>Niet klaar</td>
+        <td>Hiermee geeft u items weer die
+        <ul>
+        <li>Onvolledige voorgangers of taakbeperkingen die verhinderen dat het item wordt bewerkt</li>
+        <p>of</p>
+        <li>De geplande begindatum meer dan twee weken in de toekomst</li>
+        </ul>
+        </td>
+        </tr>
+        <tr>
+        <td>Gevraagd</td>
+        <td>Hier worden problemen weergegeven waaraan u nog niet hebt gewerkt</td>
+        </tr>
+        <td>Gereed</td>
+        <td>Hiermee geeft u werk weer dat in de laatste twee weken is voltooid. Deze filteroptie omvat geen goedkeuringen.</td>
+        </tr>
+        <tr>
+        <td>Project</td>
+        <td>De projecten van vertoningen die taken of kwesties bevatten u aan bent toegewezen</td>
+        </tr>
+        <tr>
+        <td>Vervaldatum</td>
+        <td>Hiermee wordt het werk weergegeven op de geplande voltooiingsdatum</td>
+        </tr>
+        <tr>
+        <td>Status</td>
+        <td>Hiermee geeft u taken of problemen in nieuwe, actieve en volledige status weer</td>
+        </tr>
+        <tr>
+        <td>Mijn focus</td>
+        <td>Hiermee worden taken of problemen weergegeven waaraan focusniveaus zijn toegewezen. Focusniveaus worden toegewezen en beheerd door de individuele gebruiker.</td>
+        </tr>
+    </tbody>
+    </table>
+
++++
+
+1. Klik op de werkitembalk in de kalender om het zijoverzicht te openen. Met de samenvatting van de bijwerkingen kunt u
+
+* Projectgegevens en werkitemgegevens weergeven en bewerken
+* Opmerkingen maken en weergeven
+* Documenten weergeven en uploaden
+* Een proefdruk maken
+* Ga naar de projectpagina in Workfront
+* Navigeer naar de pagina met details over het werkitem in Prioriteiten
+* Logtijd
+* Snelle koppelingen toevoegen
+
+1. (Optioneel) Klik op **Nieuw maken** om een nieuw werkitem aan de kalender toe te voegen. Voor meer informatie, zie [ een nieuwe taak of een kwestie in Prioriteiten ](/help/quicksilver/workfront-basics/priorities/create-task-issue-priorities.md) creëren.
+
+## De kalender configureren
+
+{{step1-to-priorities}}
+
+1. Klik op het pictogram Kalender boven aan de werklijst.
+   ![ kalenderpictogram ](assets/calendar-tab.png)
+1. Klik het **pictogram van Montages** in de rechterhoek van de kalender.
+
+1. Voor de **stijl van de Bar** tabel, kies tot 5 gebieden aan vertoning op de bar van het het werkpunt in de kalender.
+   ![ steekproefbar ](assets/sample-task-for-field-config.png)
+
+1. Op het **lusje van de Kleur**, kies hoe u uw het werkpunten aan vertoning zou willen. Als u bijvoorbeeld Project kiest, worden uw werkitems weergegeven volgens de kleur die is toegewezen aan het project in de werklijst.
+   ![ project van de steekproefkleur ](assets/sample-calendar-projects.png)
+

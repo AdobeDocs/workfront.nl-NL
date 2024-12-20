@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
 workflow-type: tm+mt
-source-wordcount: '2295'
+source-wordcount: '2306'
 ht-degree: 0%
 
 ---
@@ -267,7 +267,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Documenten en proefdrukken uploaden en weergeven in prioriteiten</a></p>
-            <p>U kunt nu werken met documenten en proefdrukken voor taken en problemen. Op het tabblad Nieuwe documenten kunt u</p>
+            <p>U kunt nu werken met documenten en proefdrukken voor taken en problemen in de werklijst en de kalender. Op het tabblad Nieuwe documenten kunt u</p>
             <ul>
                 <li>Een document uploaden</li>
                 <li>Een proefdruk maken</li>
@@ -287,11 +287,11 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             De kalenderweergave is nu beschikbaar in Prioriteiten</a></p>
-            <p>Volg uw werk eenvoudig met een duidelijke, visuele maandkalender. Met de Prioriteitenkalender kunt u</p>
+            <p>U kunt uw werk volgen met een duidelijke, visuele maandkalender. Met de Prioriteitenkalender kunt u</p>
             <ul>
                 <li>Filters gebruiken om uw werk te zoeken</li>
-                <li>Velden weergeven zoals status en focusniveau</li>
-                <li>Kleuren toepassen voor snelle prioritering</li>
+                <li>Pas aangepaste velden zoals status en focusniveau toe om werk met hoge prioriteit te identificeren</li>
+                <li>Kleuren toepassen voor snelle organisatie</li>
                 <li>En meer</li>
             </ul>
         </td>

@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 26f13890-5d79-44b6-9cf8-70ef05e4564d
-source-git-commit: b99e7b0f33f950c25aa83e3d1c8f13b08bc27a39
+source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Deze sectie bevat de volgende subsecties:
 
 * [Prioriteiten: komende releases](/help/quicksilver/workfront-basics/priorities/priorities-upcoming-releases.md)
 * [Aan de slag met prioriteiten](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md)
-* [Projectdetails en taakdetails weergeven in Prioriteiten](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md)
+* [Details van project- en werkitems weergeven in Prioriteiten](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md)
 * [Uw werk filteren en groeperen in Prioriteiten](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
 * [De kolommen in de werklijst Prioriteiten aanpassen](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md)
 * [Prioriteit geven aan belangrijke werkitems](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md)
@@ -30,3 +30,4 @@ Deze sectie bevat de volgende subsecties:
 * [ voeg en beheer snelle verbindingen in Prioriteiten toe ](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md)
   <!--* [Catch up on work in Priorities](/help/quicksilver/workfront-basics/priorities/catch-me-up.md)-->
 * [Documenten uploaden en proefdrukken maken in prioriteiten](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md)
+* [Uw werk beheren in de prioriteitenkalender](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md)

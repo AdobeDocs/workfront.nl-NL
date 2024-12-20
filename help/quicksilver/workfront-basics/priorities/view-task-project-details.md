@@ -1,19 +1,19 @@
 ---
 navigation-topic: get-started-with-workfront
-title: Projectdetails en taakdetails weergeven in de werklijst Prioriteiten
+title: Details van project- en werkitems weergeven in de werklijst Prioriteiten
 description: U kunt project- en taakdetails weergeven in de prioriteitenwerklijst.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
-source-git-commit: 5e33bdb50b2f283606d3a7a74edaec701de60bca
+source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
 
-# Projectdetails en taakdetails weergeven in Prioriteiten
+# Details van project- en werkitems weergeven in Prioriteiten
 
 <span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Sandbox van de Voorproef.</span>
 
@@ -80,13 +80,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. In de werklijst, houd over de het werknaam, dan klik **pictogram van de Samenvatting ![ open samenvattingspictogram ](assets/summary-icon.png).**
 1. Taak is standaard geselecteerd. Hier kunt u
-   * Projectdetails en beschrijving weergeven en bewerken
+   * Projectgegevens en taakdetails en beschrijving weergeven en bewerken
    * Opmerkingen over het project weergeven en toevoegen
    * <span class="preview"> Mening en voeg documenten </span> toe
    * <span class="preview"> creeer een proef </span>
    * Logtijd
    * Een bestand toevoegen
    * Snelle koppelingen toevoegen
+
 
    ![ taakdetails ](assets/task-details.png)
    <!--new screen for prod ![](assets/task-details-new.png)-->
@@ -97,7 +98,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. In de werklijst, houd over de het werknaam, dan klik **pictogram van de Samenvatting ![ open samenvattingspictogram ](assets/summary-icon.png).**
 1. Uitgave is standaard geselecteerd. Hier kunt u
-   * Projectdetails en beschrijving weergeven en bewerken
+   * Projectgegevens en beschrijving weergeven en bewerken
    * Opmerkingen over het project weergeven en toevoegen
 * <span class="preview"> Mening en voeg documenten </span> toe
 * <span class="preview"> creeer een proef </span>
