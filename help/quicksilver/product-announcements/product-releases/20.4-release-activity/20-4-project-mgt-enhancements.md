@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f21f33b3-5e49-4bb0-9eda-7cf4c016361c
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 66659813798d330bb441b32c692693b54d4cfad6
 workflow-type: tm+mt
-source-wordcount: '1474'
+source-wordcount: '1457'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Om tijd te besparen en het inzicht in de algemene gezondheid van een project te 
 
 U kunt selecties aanbrengen op de grafieken om verschillende aspecten van de taken en kwesties in een project te zien en bepaalde elementen te klikken om taakinformatie te tonen.
 
-Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Planner, Deel 3 het leren weg ](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-20Y0z000000bm7xEAA) op Workfront Één.
+<!--This feature is now included in the [Planner Fundamentals, Part 3 learning path](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-20Y0z000000bm7xEAA) on Workfront One. -->
 
 ## Nieuw voor beheerders: Een bedrijfsleider toewijzen aan een groep
 
