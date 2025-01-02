@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 937965ad495453e185504d53f9d9c88c3cd7e201
+source-git-commit: ee4cf80bc69416e3224c895c1f04628432ce2f4c
 workflow-type: tm+mt
-source-wordcount: '1643'
+source-wordcount: '1646'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,6 @@ Voor meer informatie, zie de sectie [ de cluster van uw organisatie en het plan 
 * [IP adressen om voor Cluster 10 toe te staan](#ip-addresses-to-allow-for-cluster-10)
 * [ IP adressen om voor een Aandrijving van de Test ](#IP%20Addre2) toe te staan
 * [ IP adressen om toe te staan wanneer het uitvoeren van gebeurtenisabonnementen ](#ip-addresses-to-allow-when-implementing-event-subscriptions)
-* [ IP adressen om voor verbeterde authentificatie ](#ip-addresses-to-allow-for-enhanced-authentication) toe te staan
 * [ IP adressen om voor de toegang tot van de Fusie van Workfront ](#ip-addresses-to-add-for-accessing-workfront-fusion) toe te voegen
 * [ IP adressen om voor het gebruiken van Workfront voor Jira toe te voegen ](#ip-addresses-to-add-for-using-workfront-for-jira)
 * [URL&#39;s die moeten worden toegevoegd voor alle clusters Workfront](#urls-to-add-for-all-clusters-workfront)
@@ -289,70 +288,6 @@ Voor alle milieu&#39;s, voeg de volgende IP adressen toe om ladingen van de gebe
  </tbody> 
 </table>
 
-### IP adressen om verbeterde authentificatie toe te staan {#ip-addresses-to-allow-for-enhanced-authentication}
-
-Voeg de volgende IP adressen toe om verbeterde authentificatie voor Voorproef of Productie te gebruiken.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Als uw omgeving zich op Cluster 1, 2, 3, 5, 7, 8 of 9 bevindt</td> 
-   <td> 
-    <ul> 
-     <li>35 167 74 121</li> 
-     <li>35.16.2012.113</li> 
-     <li>35 160 3 103</li> 
-     <li>54 183 64 135</li> 
-     <li>54 67 77 38</li> 
-     <li>54 67 15 170</li> 
-     <li>Op 54 183 204 205</li> 
-     <li>35 171 156 124</li> 
-     <li>18 233 90 226</li> 
-     <li>3 211 189 167</li> 
-     <li>18 232 225 224</li> 
-     <li>34 233 19 82</li> 
-     <li>52 204 128 250</li> 
-     <li>3 132 201,78</li> 
-     <li>3.19.44,88</li> 
-     <li>3.20.244.231</li> 
-     <li>54 244 142 219</li> 
-     <li>52 39 217 230</li> 
-     <li>44 241 82 96</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Als uw omgeving zich op Cluster 4 bevindt</td> 
-   <td> 
-    <ul> 
-     <li>52 28 56 226</li> 
-     <li>52 28 45 240</li> 
-     <li>52 16 224 164</li> 
-     <li>52.16.193,66</li> 
-     <li>34 253 4,94</li> 
-     <li>52 50 106 250</li> 
-     <li>52 211 56 181</li> 
-     <li>52 213 38 246</li> 
-     <li>52 213 74 69</li> 
-     <li>52 213 216 142</li> 
-     <li>35 156 51 163</li> 
-     <li>35 157 221,52</li> 
-     <li>52 28 184 187</li> 
-     <li>52 28 212,16</li> 
-     <li>52 29 176 99</li> 
-     <li>52 57 230 214</li> 
-     <li>54 76 184 103</li> 
-     <li>52 210 122 50</li> 
-     <li>52 208 95 174</li> 
-     <li>52 30 133 50</li> 
-     <li>54 220 93 204</li> 
-     <li>34 254 76 122</li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-
 ### IP-adressen die moeten worden toegevoegd voor toegang tot Workfront Fusion  {#ip-addresses-to-add-for-accessing-workfront-fusion}
 
 Voeg de volgende IP adressen aan uw lijst van gewenste personen toe om Workfront Fusion toe te laten om tot uw systeem toegang te hebben.
@@ -394,7 +329,7 @@ Voeg de volgende IP adressen aan uw lijst van gewenste personen toe om Workfront
  </tbody> 
 </table>
 
-Ook, als uw organisatie uitgaande netwerk het filtreren gebruikt, voeg het volgende domein aan uw lijst van gewenste personen toe om uw systeem toe te laten om tot Workfront Fusion toegang te hebben.
+Ook, als uw organisatie uitgaande netwerk het filtreren gebruikt, voeg het volgende domein aan uw lijst van gewenste personen toe om uw systeem toe te laten om tot Workfront Fusion toegang te hebben. Deze URL&#39;s worden gebruikt voor webhaken in Fusion.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -485,9 +420,12 @@ Als uw organisatie uitgaande netwerk het filtreren gebruikt, voeg de volgende do
 * auth.split.io
 * rum-http-intake.logs.datadoghq.com
 * mfe.static.workfront.com
-* https://app.pendo.io/
-* https://cdn.pendo.io/
+* fonts.gstatic.com
+* dpm.demdex.net
+* storage.googleapis.com
+* *.aptrinsic.com
 * *.static.workfront.com
+
 
   Dit is een statisch domein dat alle volgende domeinen uitcompileert. U kunt desgewenst de afzonderlijke domeinen toevoegen:
 
@@ -496,6 +434,29 @@ Als uw organisatie uitgaande netwerk het filtreren gebruikt, voeg de volgende do
    * mfe-preview-c.static.workfront.com
    * mfe-preview.static.workfront.com
    * mfe-review.static.workfront.com
+
+Als uw organisatie op de Adobe Verenigde Ervaring is, gebruikt het de volgende domeinen. Deze domeinen worden behandeld onder `*.adobe.com` , maar kunnen desgewenst worden toegevoegd.
+
+* &lt;your domain>.my.workfront.adobe.com
+* &lt;your domain>.preview.workfront.adobe.com
+* &lt;your domain>.sb01.workfront.adobe.com
+* &lt;your domain>.sb02.workfront.adobe.com
+
+
+Voeg bij Workfront Fusion de volgende domeinen toe:
+
+* Voor organisatie niet op de Adobe Verenigde Ervaring:
+   * app.workfrontfusion.com (VS AWS)
+   * app-eu.workfrontfusion.com (EU AWS)
+   * app-az.workfrontfusion.com (US Azure)
+
+* Voor organisatie op de Adobe Verenigde Ervaring
+(Deze domeinen worden behandeld onder `*.adobe.com` , maar kunnen desgewenst worden toegevoegd.)
+
+   * fusion.adobe.com
+   * app-eu.fusion.adobe.com
+   * app-az.fusion.adobe.com
+
 
 
 ## URL&#39;s die moeten worden toegevoegd voor alle clusters Workfront {#urls-to-add-for-all-clusters-workfront}
