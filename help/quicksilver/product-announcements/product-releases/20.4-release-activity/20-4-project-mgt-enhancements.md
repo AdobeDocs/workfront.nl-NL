@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f21f33b3-5e49-4bb0-9eda-7cf4c016361c
-source-git-commit: 66659813798d330bb441b32c692693b54d4cfad6
+source-git-commit: 12bab42ab13935fa284aa334120afcfb602bf412
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1365'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Het nieuwe veld Bedrijfsleader kan worden gebruikt in rapportfilters, weergaven 
 
 Voor meer informatie, zie [ Overzicht BedrijfsLeader ](../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md).
 
-Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Beheerder, Deel 1 het leren weg ](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) op Workfront Één.
+<!--This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
 ## Nieuw voor beheerders: portfolio&#39;s, programma&#39;s en bedrijven aan groepen koppelen
 
@@ -83,7 +83,7 @@ Bijvoorbeeld, kunt u van alle portefeuilles van uw organisatie in een rapport ee
 
 Voor meer informatie, zie de sectie &quot;over het associëren van een groep met een voorwerp&quot;in het artikel [ overzicht van Groepen ](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 
-Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Beheerder, Deel 1 het leren weg ](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) op Workfront Één.
+<!--This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
 ## Nieuw voor beheerders: beheerders voor een groep die aan een bedrijf wordt toegewezen kunnen het bedrijf beheren
 
@@ -93,7 +93,7 @@ Voor meer informatie, zie [ bedrijven ](../../../administration-and-setup/set-up
 
 Voor informatie over administratieve toegang tot bedrijven, zie [ gebruikers administratieve toegang van de Verlening tot bepaalde gebieden ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Beheerder, Deel 1 het leren weg ](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) op Workfront Één.
+<!--This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
 ## De knop Aan de werkbalk vervangen door de knop Start
 
@@ -103,7 +103,7 @@ Bijgewerkt op 24 september: Na het klikken van de taak van het Begin of de kwest
 
 Voor meer informatie bij het vormen van deze optie, zie [ het Werk op het knoop met een knoop van het Begin vervangen ](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
 
-Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Arbeider het leren weg ](https://one.workfront.com/s/learningpath3/worker-fundamentals-for-the-new-workfront-experience-20Y0z000000blg8EAA) en de [ Grondbeginselen van de Beheerder, Deel 1 het leren weg ](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) op Workfront Één.
+<!--This feature is now included in the [Worker Fundamentals learning path](https://one.workfront.com/s/learningpath3/worker-fundamentals-for-the-new-workfront-experience-20Y0z000000blg8EAA) and the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
 ## Meerdere concepten voor een wachtrij-onderwerp toestaan
 
@@ -111,7 +111,7 @@ Om u meer vrijheid te geven wanneer het werken met verzoeken, is er geen grens m
 
 Voorafgaand aan deze verbetering, bewaarde Workfront slechts één ontwerp voor elk rijonderwerp in uw verzoekrij.
 
-Voor informatie over het voorleggen van verzoeken, zie &quot; [ Workfront verzoeken ](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
+Voor informatie over het voorleggen van verzoeken, zie [ Workfront verzoeken ](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
 
 ## Een groep toewijzen aan een team
 
@@ -121,7 +121,7 @@ Wanneer u een team aan een groep toewijst, kunnen zijn Beheerders van de Groep h
 
 Voor meer informatie, zie [ een team ](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md) creëren.
 
-Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Beheerder, Deel 1 het leren weg ](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) op Workfront Één.
+<!--This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
 ## Met nieuwe velden kunt u gegevens rapporteren voor een groep op hoofdniveau en alle subgroepen
 
