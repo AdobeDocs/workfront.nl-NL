@@ -1,19 +1,19 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Overzicht van de goedkeuring van middelen en documenten
+title: Beschikbare functionaliteit voor het reviseren en goedkeuren van middelen en documenten
 description: Overzicht van de systemen die beschikbaar zijn voor controle en goedkeuring in Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 9bce16218e002912883994ce2ced6c9d2fce93e7
+exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
+source-git-commit: f2f58e3db7d99043281384cc2f6047fd9254f4fd
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
 
-
-# Overzicht van de goedkeuring van middelen en documenten
+# Beschikbare functionaliteit voor het reviseren en goedkeuren van middelen en documenten
 
 Er zijn momenteel drie verschillende systemen beschikbaar in Workfront for Asset en Document review en -goedkeuringen:
 
@@ -85,4 +85,6 @@ Beschikbare functies voor proefdrukken:
 
 * Standaard of geautomatiseerde workflows gebruiken
 
-
+<!--
+## Upcoming deprecations
+-->
