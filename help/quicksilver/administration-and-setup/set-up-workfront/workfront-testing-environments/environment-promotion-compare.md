@@ -8,9 +8,9 @@ description: U kunt objecten in verschillende omgevingen vergelijken om ervoor t
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: f476b1f84fcb905537bde0c10d0a322773f6af0f
+source-git-commit: 2ff7a8b0ae3cc1f641c0d7c0b1384548c9603423
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -82,6 +82,12 @@ In dit voorbeeld:
 * De derde regel toont een object dat niet aanwezig is in de doelomgeving.
 
 >[!ENDSHADEBOX]
+
+Specifieke objectverschillen weergeven:
+
+1. Klik op het vergrootglaspictogram ![](assets/compare-icon.png) op de regel voor dat object.
+
+   Er wordt een venster geopend met alle velden van dat object. verschillen zijn rood.
 
 ## Een pakket maken op basis van een objectvergelijking
 
