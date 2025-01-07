@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 4ea4d7d8fd16d4c4d7c2fe5f7adb15c2b44b6705
+source-git-commit: fa70a7ae5d8edce9dab4ca2ac4c2266b2c463734
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1063'
 ht-degree: 0%
 
 ---
@@ -101,6 +101,7 @@ Omdat de bevordering van het milieu objecten configuratie behandelt, zijn de tra
 | Bronpool (RSPL) | Bronpool |
 | Toegangsniveau (ACSLVL) | Toegangsniveau |
 | <span class="preview"> Kaart van het Tarief (RTCRD) </span> | <span class="preview"> Kaart van het Tarief </span> |
+| <span class="preview"> Plaats/Classifier (CLSF) </span> | <span class="preview"> Plaats/Classifier </span> |
 
 \* Momenteel niet beschikbaar
 
