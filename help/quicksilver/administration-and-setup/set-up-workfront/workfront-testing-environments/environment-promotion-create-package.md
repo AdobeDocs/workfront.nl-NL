@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: 2e4bcd6400971104e9138fab0faf20d33af32e51
+source-git-commit: 839b53afb9233ef0e36e981b243c8b2593b45f0f
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '787'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ U moet het volgende hebben:
   <tr>
    <td><strong>[!DNL Adobe Workfront] plan </strong>
    </td>
-   <td> Premier of Ultimate (alleen nieuwe plannen)
+   <td> Prime of Ultimate (alleen nieuwe abonnementen)
    </td>
   </tr>
   <tr>
@@ -105,3 +105,15 @@ Een pakket moet de status `DRAFT` hebben om te kunnen worden bewerkt. Om het pak
 1. Om het pakket te installeren, klik **installeer** bij het hoger-recht van het scherm.
 
    Voor instructies bij het installeren van een pakket, zie [ een pakket van de milieubevordering installeren ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md).
+
+## Een pakket maken op basis van een objectvergelijking
+
+U kunt een pakket rechtstreeks op basis van een objectvergelijking maken.
+
+1. Creeer een objecten vergelijking, zoals die in [ wordt beschreven vergelijkt voorwerpen tussen milieu&#39;s ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-compare.md).
+1. Selecteer in de gegenereerde vergelijking de objecten die u in het pakket wilt opnemen.
+1. Klik **creeer pakket** in de hoger-juiste hoek van het scherm.
+1. Voer een naam en beschrijving in voor het pakket.
+1. Klik **creeer pakket** in het Create pakketvenster.
+
+   Het pakket wordt gegenereerd.
