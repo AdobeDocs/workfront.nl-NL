@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: fa24040d-0403-4799-b690-c3d172797115
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a7a3272cb7bfa22abfee45211e3154b6e21434b8
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '749'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,34 @@ ht-degree: 0%
 Deze pagina beschrijft alle beheerderverhogingen die met Eerste Kwartaal 2025 versie aan het milieu van de Voorproef worden aangebracht. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2025 versiecyclus, zie [ Eerste Kwartaal 2025 versieoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+
+## Objecten tussen omgevingen vergelijken voor milieubescherming
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 6 januari 2024; Productieversie voor alle klanten: met de release van 25.1 (januari 2025)
+
+Om het gemakkelijker te maken om te bepalen welk voorwerp in een milieu bevorderingspakket zou moeten worden omvat, hebben wij de capaciteit toegevoegd om voorwerpen over milieu&#39;s te vergelijken. U kunt nu objecttypen en -omgevingen selecteren. Workfront genereert een lijst met objecten van dat type, ongeacht of deze aanwezig zijn in de doelomgeving en of dat object verschillen heeft tussen de bronomgeving en de doelomgeving. Vervolgens kunt u objecten rechtstreeks vanuit deze lijst aan een pakket toevoegen.
+
+Eerder, als een gebruiker voorwerpen tussen milieu&#39;s wilde vergelijken, moeten zij die voorwerpen manueel controleren.
+
+Voor meer informatie, zie [ voorwerpen tussen milieu&#39;s ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-compare.md) vergelijken.
+
+## Meer objecten beschikbaar voor milieubescherming
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 6 januari 2024; Productieversie voor alle klanten: met de release van 25.1 (januari 2025)
+
+Om de mogelijkheden van de functionaliteit van de milieubevordering uit te breiden, hebben wij meer voorwerpen toegevoegd. Nu kunt u de volgende objecten toevoegen aan een milieupromotiepakket:
+
+* Locaties
+* Snelheidskaarten
+* Toewijzingen
+
+Eerder waren deze objecten niet beschikbaar voor milieubescherming.
+
+Voor meer informatie over voorwerpen beschikbaar voor milieubevordering, zie [ Gesteunde voorwerpen voor milieubevordering ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion) in het de bevorderingsoverzicht van het Milieu van het artikel.
 
 ## Verplaatsingstaken voorkomen wanneer er uren zijn geregistreerd
 

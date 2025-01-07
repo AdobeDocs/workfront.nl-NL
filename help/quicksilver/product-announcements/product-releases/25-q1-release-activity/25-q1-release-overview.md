@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: c0411d6384170fa0e802d32b9535c4d7235436b4
+source-git-commit: 5755894ff320db368d07a3ab3ff18bbc9e157e0a
 workflow-type: tm+mt
-source-wordcount: '2380'
+source-wordcount: '2478'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,34 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+           Objecten tussen omgevingen vergelijken voor milieubescherming</a></p>
+            <p>Om het gemakkelijker te maken om te bepalen welk voorwerp in een milieu bevorderingspakket zou moeten worden omvat, hebben wij de capaciteit toegevoegd om voorwerpen over milieu's te vergelijken. Vervolgens kunt u vanuit deze vergelijking objecten rechtstreeks aan een pakket toevoegen.</p>
+        </td>
+        <td>
+            <p><b>Beschikbaar op deze data:</b></p>
+            <ul>
+                <li>Voorvertoningsrelease: 6 januari 2024</li>
+                <li>Productieversie voor alle klanten: met de release van 25.1 (januari 2025)</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Meer objecten beschikbaar voor milieubescherming</a></p>
+            <p>Om de mogelijkheden van de functionaliteit van de milieubevordering uit te breiden, hebben wij meer voorwerpen toegevoegd.</p>
+        </td>
+        <td>
+            <p><b>Beschikbaar op deze data:</b></p>
+            <ul>
+                <li>Voorvertoningsrelease: 6 januari 2024</li>
+                <li>Productieversie voor alle klanten: met de release van 25.1 (januari 2025)</li>
+            </ul>
+        </td>
+    </tr>  
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Verplaatsingstaken voorkomen wanneer er uren zijn geregistreerd</a></p>
             <p>Omdat het bewegen van taken of kwesties die het programma geopend uren hebben naleving of controleproblemen soms kunnen veroorzaken, hebben wij een voorkeur in het gebied van de Voorkeur van de Taak &amp; van Kwesties van Opstelling toegevoegd die u toestaat om gebruikers te verhinderen taken en kwesties te bewegen als er uren het programma geopend op hen zijn.</p>
         </td>
@@ -71,7 +99,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                 <li>Productieversie voor alle klanten: met de release van 25.1 (januari 2025)</li>
             </ul>
         </td>
-    </tr>  
+    </tr>
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
