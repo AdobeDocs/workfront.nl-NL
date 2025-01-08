@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: f476b1f84fcb905537bde0c10d0a322773f6af0f
+source-git-commit: 2b1b167bd3645431399c2eb60e300cd958dfa03a
 workflow-type: tm+mt
-source-wordcount: '14771'
+source-wordcount: '14782'
 ht-degree: 0%
 
 ---
@@ -187,6 +187,7 @@ ht-degree: 0%
          * [21.1 Andere verbeteringen](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Fusion-releaseactiviteit {#fusion-release}
          * [Adobe Workfront Fusion-releaseactiviteit](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Workfront Fusion releaseactiviteit: week van 6 januari 2025](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2025-1-6.md)
          * [Workfront Fusion releaseactiviteit: week van 16 december 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-12-16.md)
          * [Workfront Fusion release activity: Week van 2 december 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-12-2.md)
          * [Workfront Fusion release activity: Week van 25 november 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-25.md)
@@ -2307,6 +2308,7 @@ ht-degree: 0%
       * [Adobe PDF Services-modules](workfront-fusion/apps-and-their-modules/pdf-modules.md)
       * [Adobe Photoshop-modules](workfront-fusion/apps-and-their-modules/adobe-photoshop-modules.md)
       * [Adobe Target-modules](workfront-fusion/apps-and-their-modules/adobe-target-modules.md)
+      * [Gebruikersbeheermodules voor Adoben](workfront-fusion/apps-and-their-modules/adobe-user-management-modules.md)
       * [Airtable-modules](workfront-fusion/apps-and-their-modules/airtable-modules.md)
       * [Allocadia](workfront-fusion/apps-and-their-modules/allocadia-modules.md)
       * [Anaplan Modules](workfront-fusion/apps-and-their-modules/anaplan-modules.md)

@@ -10,9 +10,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
-source-git-commit: 4cc881f4f5a28bd105e6898ad7ffb57c1dafb563
+source-git-commit: 5b24a91a9ea5dadb071dfdd88d9f80b2589a1323
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,7 @@ Deze sectie bevat de volgende artikelen:
 * [[!DNL Adobe PDF Services]  modules ](../../workfront-fusion/apps-and-their-modules/pdf-modules.md)
 * [[!DNL Adobe Photoshop]  modules ](../../workfront-fusion/apps-and-their-modules/adobe-photoshop-modules.md)
 * [[!DNL Adobe Target]  modules ](../../workfront-fusion/apps-and-their-modules/adobe-target-modules.md)
+* [[!DNL Adobe User Management]  modules ](../../workfront-fusion/apps-and-their-modules/adobe-user-management-modules.md)
 * [[!DNL Airtable]  modules ](../../workfront-fusion/apps-and-their-modules/airtable-modules.md)
 * [[!DNL Allocadia]  modules ](../../workfront-fusion/apps-and-their-modules/allocadia-modules.md)
 * [[!DNL Anaplan]  Modules ](../../workfront-fusion/apps-and-their-modules/anaplan-modules.md)
