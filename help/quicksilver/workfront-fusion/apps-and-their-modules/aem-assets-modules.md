@@ -6,20 +6,20 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Adobe Experience Manager Assets-modules
-description: Met de  [!DNL Adobe Experience Manager Assets]  schakelaar voor  [!DNL Adobe Workfront Fusion], you can start a scenario based on events in your [!DNL Adobe Experience Manager Assets]  rekening, creeer, upload, en werk activa bij, en kopieer of verplaats omslagen en activa.
+description: Met de  [!DNL Adobe Experience Manager Assets]  schakelaar voor  [!DNL Adobe Workfront Fusion], kunt u, activa tot stand brengen uploaden en bijwerken, en omslagen en activa kopiëren of bewegen.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: a287bc6d7d4755deb19296523d1666f0fcb60526
 workflow-type: tm+mt
-source-wordcount: '1474'
+source-wordcount: '1466'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Experience Manager Assets] modules
 
-Met de [!DNL Adobe Experience Manager Assets] -connector voor [!DNL Adobe Workfront Fusion] kunt u een scenario starten op basis van gebeurtenissen in uw [!DNL Adobe Experience Manager Assets] -account, elementen maken, uploaden en bijwerken en mappen en elementen kopiëren of verplaatsen.
+Met de [!DNL Adobe Experience Manager Assets] -connector voor [!DNL Adobe Workfront Fusion] kunt u elementen maken, uploaden en bijwerken en mappen en elementen kopiëren of verplaatsen.
 
 Voor een inleiding aan de schakelaar van Adobe Experience Manager Assets, zie:
 
