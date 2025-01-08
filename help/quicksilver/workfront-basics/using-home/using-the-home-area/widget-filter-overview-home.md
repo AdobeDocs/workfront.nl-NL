@@ -6,9 +6,9 @@ description: U kunt kiezen uit een aantal widgets om de inhoud aan te passen die
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
-source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
+source-git-commit: 2d75f74c7281a3ea288c892db6895754a697e198
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '818'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,11 @@ U kunt filters op de volgende widgets gebruiken om werk te zoeken en te organise
 * [Mijn problemen](#my-issues)
 * [Mijn werk](#my-work)
 * [Mijn goedkeuring](#my-approvals)
+
+>[!IMPORTANT]
+>
+>* Voor het weergeven van taken en problemen in de Home-widgets moet het bovenliggende project de status Huidig hebben of een status die gelijk is aan de huidige status.
+>* Projecten moeten ook de status Huidig hebben of een status die gelijk is aan de huidige status om te worden weergegeven.
 
 ## Mijn projecten
 

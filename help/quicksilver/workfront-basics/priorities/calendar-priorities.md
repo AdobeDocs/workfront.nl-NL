@@ -5,13 +5,13 @@ description: Volg uw werk met een duidelijke, visuele kalender.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
+exl-id: d24ad7d1-3a88-479e-beaf-69f8264c9a6b
+source-git-commit: f20f1c5d10869901ba5284a4425e38d279265a06
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
-
 
 # Uw werk beheren in de prioriteitenkalender
 
@@ -22,6 +22,11 @@ Volg uw werk eenvoudig met een duidelijke, visuele kalender. Met de Prioriteiten
 * Filters gebruiken om uw werk te zoeken
 * Pas aangepaste velden zoals status en focusniveau toe om werk met hoge prioriteit te identificeren
 * Kleuren toepassen voor snelle organisatie
+
+>[!IMPORTANT]
+>
+>De projecten moeten in Huidige status of een status zijn die huidig om projecten evenals hun kindtaken en kwesties te tonen vergelijkt.
+
 
 ## Toegangsvereisten
 
@@ -154,4 +159,3 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Op het **lusje van de Kleur**, kies hoe u uw het werkpunten aan vertoning zou willen. Als u bijvoorbeeld Project kiest, worden uw werkitems weergegeven volgens de kleur die is toegewezen aan het project in de werklijst.
    ![ project van de steekproefkleur ](assets/sample-calendar-projects.png)
-

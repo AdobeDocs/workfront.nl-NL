@@ -6,9 +6,9 @@ description: Elke widget bevat een eigen werklijst. De werklijsten tonen alle he
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: f20f1c5d10869901ba5284a4425e38d279265a06
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,11 @@ ht-degree: 0%
 <!-- Audited: 1/2024 -->
 
 Elke widget bevat een eigen werklijst. De werklijsten tonen alle het werkpunten die aan u worden toegewezen. U kunt bepalen welke items in uw [!UICONTROL worklist] worden weergegeven met behulp van filters en groepen.
+
+>[!IMPORTANT]
+>
+>* Voor het weergeven van taken en problemen in de Home-widgets moet het bovenliggende project de status Huidig hebben of een status die gelijk is aan de huidige status.
+>* Projecten moeten ook de status Huidig hebben of een status die gelijk is aan de huidige status die wordt weergegeven in Home.
 
 ## Toegangsvereisten
 

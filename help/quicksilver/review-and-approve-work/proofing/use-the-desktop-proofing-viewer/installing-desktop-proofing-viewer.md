@@ -6,7 +6,7 @@ description: De Desktop Proofing Viewer, die voornamelijk is ontworpen voor het 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: 7a8a4709bab58e6b802f578ea47b20babeebeb1b
+source-git-commit: 2d75f74c7281a3ea288c892db6895754a697e198
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 0%
@@ -64,7 +64,7 @@ Als dit niet het geval is, kunt u de onderstaande stappen volgen.
 1. Voer een van de volgende handelingen uit om de app te downloaden:
 
    * Als u het milieu van de Productie gebruikt, klik [ de Download van de Productie van Mac voor de Desktop het Proofing Kijker.](https://app.proofhq.com/desktopviewer/mac)
-   * Als u het milieu van de Voorproef gebruikt, klik [ de Download van de Voorproef van Mac voor de Kijker van het Proofing van de Desktop.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.39.pkg)
+   * Als u het milieu van de Voorproef gebruikt, klik [ de Download van de Voorproef van Mac voor de Kijker van het Proofing van de Desktop.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.44.pkg)
 
 1. Open het bestand dat u zojuist hebt gedownload om de installatie te starten.
 1. Voor de installatievak die verschijnt, ga **** voort, dan klik **installeer**.
@@ -88,7 +88,7 @@ Als uw Workfront- of Workfront Proof-beheerder de app op uw werkstation heeft ge
 1. Voer een van de volgende handelingen uit om de app te downloaden:
 
    * In het milieu van de Productie, klik [ download van de Productie van Vensters voor de Desktop het Proofing Kijker.](https://app.proofhq.com/desktopviewer/windows)
-   * In het milieu van de Voorproef, klik [ download van de Voorproef van Vensters voor de Kijker van het Proofing van de Desktop ](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.39.exe)
+   * In het milieu van de Voorproef, klik [ download van de Voorproef van Vensters voor de Kijker van het Proofing van de Desktop ](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.44.exe)
 
 1. Open het bestand dat u zojuist hebt gedownload om de installatie te starten.
 1. Open in het installatievak dat wordt weergegeven het bestand dat u net hebt gedownload om de installatie te starten.

@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
-source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
+source-git-commit: 2d75f74c7281a3ea288c892db6895754a697e198
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,11 @@ ht-degree: 0%
 <span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Sandbox van de Voorproef.</span>
 
 U kunt project, taak, en uitgeeft details in de prioriteitenwerklijst bekijken.
+
+>[!IMPORTANT]
+>
+>De projecten moeten in Huidige status of een status zijn die huidig om projecten evenals hun kindtaken en kwesties te tonen vergelijkt.
+
 
 ## Toegangsvereisten
 

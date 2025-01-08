@@ -6,9 +6,9 @@ description: Met de widget Mijn werk worden alle toegewezen taken, problemen en 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e110f0f6-4ecb-419b-a368-c3f802de5920
-source-git-commit: 8880891c0f5fd8fecad6c2f58136d36a943105ae
+source-git-commit: f20f1c5d10869901ba5284a4425e38d279265a06
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 0%
 # Uw werk beheren met de widget Mijn werk
 
 Met de widget Mijn werk worden alle toegewezen taken, problemen en verzoeken op één locatie weergegeven. Hier, kunt u uw werk filteren en organiseren, logboektijd, updates maken, en het werkpunten volledig merken.
+
+>[!IMPORTANT]
+>
+>Als u taken en problemen wilt weergeven in de widget Mijn werk, moet het bovenliggende project de status Huidig hebben of een status die gelijk is aan de huidige status.
 
 ## Toegangsvereisten
 
