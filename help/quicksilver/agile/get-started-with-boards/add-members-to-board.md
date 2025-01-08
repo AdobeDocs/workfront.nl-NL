@@ -6,9 +6,9 @@ description: Mensen moeten als leden aan de raad van bestuur worden toegevoegd v
 author: Lisa
 feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
-source-git-commit: 7ac846d6224663b4e820ab45379a4ab0611514bb
+source-git-commit: bf8d566ba9d24310e75d2fbaf523fe5464bb6657
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -92,6 +92,8 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 >[!NOTE]
 >
 >Alleen een systeembeheerder of de huidige eigenaar van de kaart kan de eigenaar van de kaart wijzigen. Een bord kan slechts één eigenaar hebben.
+>
+>De mogelijkheid om van eigenaar te veranderen is beschikbaar op basis-, retrospectieve en Kanban-borden, maar niet op dynamische borden.
 
 1. Toegang tot het bord.
 1. Klik het **[!UICONTROL More]** menu ![ Meer menu ](assets/more-icon-spectrum.png) naast de bordnaam, dan kies **[!UICONTROL Change board owner]**.
