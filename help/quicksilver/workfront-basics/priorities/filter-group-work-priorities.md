@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: da688217a1240b74667f31d20e086164e1536576
+source-git-commit: 47469f684bf3be6c6a9d3c39ba3960ca13e43578
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '949'
 ht-degree: 0%
 
 ---
@@ -248,7 +248,7 @@ U kunt taken en kwesties filtreren die aan u worden toegewezen.
 
 ### Uw werk filteren met slimme filters
 
-Gebruik natuurlijke taal om werk snel te filteren.
+Gebruik natuurlijke taal om werk snel te filteren. Uw instantie van Workfront moet op de Adobe Verenigde Ervaring worden toegelaten. Voor meer informatie, zie [ Adobe Verenigde Ervaring voor Workfront ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 {{step1-to-priorities}}
 
