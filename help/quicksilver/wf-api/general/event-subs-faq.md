@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a6120939-5d76-4f46-a304-125de6b22502
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 77c07c7c7104d37360cc7630a89dd72836da477c
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,7 @@ Zoek de volgende scenario&#39;s en gebruik de geadviseerde oplossing:
 * De gebeurtenissen genereren mogelijk niet de manier waarop u denkt. Zorg ervoor dat u geen veronderstellingen maakt over hoe of wanneer gebeurtenissen moeten worden uitgevoerd en dat u niets doet. U zou bijvoorbeeld kunnen denken dat het bijwerken van een document op een taak een gebeurtenis van de taakupdate produceert, maar in plaats daarvan, creeert het een document tot stand brengen of gebeurtenis van de documentupdate.
 * Uw abonnement is mogelijk niet geconfigureerd zoals u verwacht. U kunt gebeurtenissenabonnementen in verschillende omgevingen maken en verwachten dat deze op dezelfde manier worden overgedragen als hun andere Workfront-gegevens. Gebeurtenisabonnementsgegevens zijn echter niet geconfigureerd voor het kopiëren of promoten van gegevens naar andere omgevingen. Zorg ervoor dat u API-verzoeken naar de juiste omgeving verzendt en dat de abonnementen in die omgeving op de verwachte wijze zijn geconfigureerd.
 * De lading werd niet ontvangen omdat het noodzakelijke adres van Workfront IP niet aan de lijst van gewenste personen op uw firewall is toegevoegd. Gebeurtenissen van het Abonnement van de gebeurtenis worden verzonden van slechts een paar IP adressen. Zorg ervoor dat het bestemmingsnetwerk alle IP uitzonderingen noodzakelijk heeft om ladingen van de Abonnementen van de Gebeurtenis van Workfront te ontvangen.
+* De lading werd niet ontvangen omdat het meer dan 1 MB was. Abonnementsberichten of -objecten voor gebeurtenissen mogen niet groter zijn dan 1 MB.
 
 ## Waarom duurt het te lang voordat mijn berichten mijn eindpunt bereiken?
 
