@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!-- Audited: 2/2024 -->
 
-De Groepen van het onderwerp worden geassocieerd met de Queues van het Verzoek. Zij staan u toe om uw Vragen van het Verzoek in veelvoudige categorieën, afhankelijk van de aard van de verzoeken te lagen.
+De Groepen van het onderwerp worden geassocieerd met de Queues van het Verzoek. U kunt uw Vragen van het Verzoek in veelvoudige categorieën, afhankelijk van de aard van de verzoeken in laag brengen door onderwerpgroepen te gebruiken.
 
 ## Toegangsvereisten
 
@@ -64,12 +64,12 @@ Bijvoorbeeld, als u een Rij van het Verzoek voor de Verzoeken van de Marketing h
 
 Voor meer informatie over hoe te om de Rijen van het Verzoek tot stand te brengen, zie [ een Rij van het Verzoek ](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
 
->[!TIP]
->
->* U kunt tot 10 rijen van Onderwerpgroepen binnen een Rij van het Verzoek tot stand brengen.
->* Er is geen grens aan het aantal Onderwerpen van de Rij die met een onderwerpgroep kunnen worden geassocieerd.
->* Onderwerpgroepen zijn een te rapporteren object.
->
+Overweeg het volgende wanneer het werken met onderwerpgroepen:
+
+* U kunt tot 10 rijen van Onderwerpgroepen binnen een Rij van het Verzoek tot stand brengen.
+* Er is geen grens aan het aantal Onderwerpen van de Rij die met een onderwerpgroep kunnen worden geassocieerd.
+* Onderwerpgroepen zijn een te rapporteren object.
+* U kunt onderwerpgroepen niet van één project naar een ander verplaatsen.
 
 ## Onderwerpgroepen maken
 

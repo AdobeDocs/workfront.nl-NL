@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 17a277a5a63a521ec7285e3f5051bfd42fc204bf
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '3655'
+source-wordcount: '3846'
 ht-degree: 0%
 
 ---
@@ -18,14 +18,10 @@ ht-degree: 0%
 
 <!--Audited: 12/2023-->
 
-<!--remove all preview and production references from this article with 23.3 release-->
+<!--remove all preview and production references if any-->
+<!--update screen shots for the general hour entries and the mixed selection of hours at production, if they fixed the bugs -->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). 
-
-<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
--->
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Voorproef voor alle klanten.</span>
 
 U kunt de tijd voor het werk in Adobe Workfront registreren om op het aantal uren te wijzen u het werken aan hen doorwerkt. U kunt tijd ook registreren die niet met het werk, zoals vakantie, zieke tijd, of tijd verwant is u in vergaderingen doorbrengt. De tijd u registreert toont in uw timesheet.
 
@@ -490,23 +486,74 @@ U kunt de volgende elementen van een uuringang uitgeven wanneer u een uuringang 
 * Aantal uren
 * Uurtype
 * De rol van de baan verbonden aan de ureningang
+* Beschrijving van het uur-item
 
-Afhankelijk van het type uren dat u bewerkt, zijn de volgende velden beschikbaar voor bewerking:
+Afhankelijk van het type uren dat u bewerkt, zijn de volgende velden beschikbaar voor bewerking in een uurlijst of een uurrapport:
 
 * Wanneer u projectspecifieke uren uitgeeft:
 
-   * U kunt het aantal uren bewerken.
-   * U kunt het Type van Uur slechts in project-specifieke types veranderen.
-   * U kunt de roltoewijzing van de Rol van het uur slechts veranderen als het in Opstelling werd toegelaten. Voor informatie, zie [ timesheet en uurvoorkeur ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen
+   * Het aantal uren
+   * Het uurtype. U kunt het Type van Uur slechts in project-specifieke types veranderen.
+   * Taak toewijzen. U kunt de taak van de Rol van de Taak slechts veranderen als het in Opstelling werd toegelaten. Voor informatie, zie [ timesheet en uurvoorkeur ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen
+   * The Description of the hour entry.
+
+<div class="preview">
+
+![](assets/edit-hour-box-project-hour-type.png)
+
+</div>
 
 * Wanneer u algemene uren bewerkt:
 
-   * U kunt het aantal uren bewerken.
-   * U kunt het Type van Uur slechts in algemene types veranderen.
-   * U kunt de roltoewijzing van de Rol van het uur niet veranderen, omdat de algemene uren niet met rollen kunnen worden geassocieerd.
+   * Het aantal uren.
+   * Het uurtype. U kunt het Type van Uur slechts in algemene types veranderen.
+   * The Description of the hour entry.
+
+>[!TIP]
+>
+> U kunt de roltoewijzing van de Rol van het uur niet veranderen, omdat de algemene uren niet met rollen kunnen worden geassocieerd.
+
+<!--update the screen shot at production - we should not see the job role field for general hours-->
+
+![](assets/edit-hour-box-general-overhead-hour-type.png)
+
 
 * Wanneer u een mengeling van algemene en projectspecifieke uren uitgeeft, in bulk:
 
-   * U kunt het aantal uren bewerken.
-   * U kunt het Type van Uur niet veranderen, omdat de types van algemene uren niet in project-specifieke types kunnen worden veranderd en de project-specifieke uurtypes kunnen niet in algemene types worden veranderd.
-   * U kunt de taakroltoewijzing niet wijzigen, omdat algemene uren niet aan rollen kunnen worden gekoppeld.
+   * Het aantal uren.
+   * The Description of the hour entry.
+
+>[!TIP]
+>
+>* U kunt het Type van Uur niet veranderen, omdat de types van algemene uren niet in project-specifieke types kunnen worden veranderd en de project-specifieke uurtypes kunnen niet in algemene types worden veranderd.
+>* U kunt de taakroltoewijzing niet wijzigen, omdat algemene uren niet aan rollen kunnen worden gekoppeld.
+
+
+<!--update the screen shot at production - we should not see the job role and the hour type fields for mixed hour types-->
+
+![](assets/edit-hour-box-mixed-hour-types-in-bulk.png)
+
+Om uurtypes in een uurrapport of een lijst uit te geven:
+
+1. Ga naar een uurlijst of rapport.
+1. Klik op het vakje links van een of meerdere uurvermeldingen om deze te selecteren.
+1. Klik het **uitgeven pictogram** ![](assets/edit-icon.png) bij de bovenkant van de lijst.
+
+   Het **geeft** uur {of **geeft de doos van Uren** uit opent.
+1. Werk een van de volgende beschikbare velden bij:
+
+   * Uren. Dit is een verplicht veld.
+   * Type uur. Dit is een verplicht veld.
+   * Functie
+   * Beschrijving
+
+   >[!TIP]
+   >
+   >   Niet alle velden zijn beschikbaar, afhankelijk van het uurtype dat aan de geselecteerde uurwaarden is gekoppeld.
+
+1. Klik **sparen <span class="preview"> veranderingen</span>**.
+
+   De informatie over het uur wordt bijgewerkt.
+Als u meer dan één uur hebt geselecteerd en het veld Uren hebt gewijzigd, wordt dezelfde hoeveelheid uren toegewezen aan alle geselecteerde uren. De oorspronkelijke uren worden vervangen door de nieuwe waarde voor alle geselecteerde uren.
+
+

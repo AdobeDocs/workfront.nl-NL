@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '975'
 ht-degree: 0%
 
 ---
@@ -149,9 +149,10 @@ U moet het volgende opgeven voordat u een aanvraag kunt indienen bij een Workfro
 
    Uw formulier wordt verzonden en de volgende dingen gebeuren:
 
-   * Als de verzoekvorm niet met een goedkeuring werd geassocieerd, of <span class="preview"> als de goedkeuring door alle fiatteurs werd verleend, </span> wordt een nieuw verslag toegevoegd aan het verslagtype verbonden aan de vorm.
+   * Als de verzoekvorm niet met een goedkeuring werd geassocieerd, wordt het verzoek toegevoegd aan het <span class="preview"> lusje van de Planning van de Voorgelegde sectie van het gebied van de Verzoeken van Workfront </span> en een nieuw verslag wordt toegevoegd aan het verslagtype verbonden aan de vorm.
 
-   * Als het aanvraagformulier niet aan een goedkeuring is gekoppeld, wordt de <span class="preview"> -aanvraag toegevoegd aan het tabblad Planning van de sectie Verzenden van het gebied Workfront Requests en wordt een nieuwe record toegevoegd aan de pagina met recordtypen.</span>
+   * Als het aanvraagformulier is gekoppeld aan een goedkeuring, wordt de aanvraag <span class="preview"> toegevoegd aan het tabblad Planning van het gedeelte Verzendd van het gebied Workfront Requests. Een nieuw verslag wordt toegevoegd aan de verslagtype pagina slechts nadat alle fiatteurs het hebben goedgekeurd.</span>
+     <span class="preview"> voor informatie, zie [ een goedkeuring aan een aanvraagvorm ](/help/quicksilver/planning/requests/add-approval-to-request-form.md) toevoegen.</span>
 
      ![](assets/planning-tab-in-requests.png)
 
@@ -159,9 +160,6 @@ U moet het volgende opgeven voordat u een aanvraag kunt indienen bij een Workfro
      >
      ><span class="preview"> Alle gebruikers die toegang tot minstens één werkruimte hebben kunnen het lusje van de Planning in het gebied van Verzoeken bekijken. U kunt alleen de aanvragen weergeven die door u of iemand anders zijn ingediend bij de werkruimten die u minstens gemachtigd zijn weer te geven. Workfront-beheerders kunnen alle aanvragen weergeven die naar elke werkruimte in het systeem worden verzonden. </span> <!--ensure this is correct; asking team in slack-->
 
-   * <span class="preview"> als het verzoekformulier met een goedkeuring werd geassocieerd, wordt het verzoek tijdelijk bewaard aan het lusje van de Planning in de Voorgelegde sectie van het gebied van de Verzoeken van Workfront. Er wordt geen record gemaakt voor het recordtype dat aan het aanvraagformulier is gekoppeld.</span>
-
-     <span class="preview"> voor informatie, zie [ een goedkeuring aan een aanvraagvorm ](/help/quicksilver/planning/requests/add-approval-to-request-form.md) toevoegen.</span>
    * <span class="preview"> u ontvangt een in-app en een e-mailbericht dat het verzoek of met succes is voorgelegd of voor overzicht verzonden.</span>
    * <span class="preview"> als het verzoekformulier met een goedkeuring werd geassocieerd, ontvangen de fiatteurs een in-app en een e-mailbericht om het verzoek te herzien en goed te keuren.</span>
 

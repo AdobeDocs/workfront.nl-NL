@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '1927'
+source-wordcount: '1944'
 ht-degree: 0%
 
 ---
@@ -177,7 +177,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 * Als deze optie is geselecteerd, kunt u taken en problemen met tijd verplaatsen. De uren bewegen zich ook met de taken of de kwesties.
 
-* Wanneer u deze optie uitschakelt, ontvangt u een verbodswaarschuwing wanneer u een taak of uitgave met geregistreerde uren verplaatst. De waarschuwing geeft aan dat de beheerder het verplaatsen van taken of problemen met geregistreerde uren niet toestaat. De taken of kwesties die uren het programma worden geopend kunnen niet worden verplaatst.
+* Wanneer u deze optie uitschakelt, ontvangt u een onophoudelijke waarschuwing wanneer u een taak of uitgave met geregistreerde uren naar een ander project verplaatst. De waarschuwing geeft aan dat de beheerder het verplaatsen van taken of problemen met geregistreerde uren niet toestaat. De taken of kwesties die uren het programma worden geopend kunnen niet worden verplaatst. U kunt taken binnen hetzelfde project verplaatsen, zelfs als deze optie is uitgeschakeld.
 
 </div>
 

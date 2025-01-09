@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '854'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 0%
 De Onderwerpen van de rij werken samen met het Verpletteren van Regels om het inkomende werk aan een gebruiker, baanrol, team automatisch toe te wijzen, of het op een project te plaatsen. De Onderwerpen van de rij bepalen de voorwaarden die voor de Verpletterende Regel moeten bestaan worden uitgevoerd.
 
 Er is geen grens aan het aantal Onderwerpen van de Rij die aan een Groep van het Onderwerp of aan een project kunnen worden toegewezen. De Onderwerpen van de rij zijn een te melden objecten type.
+
+Zodra gecreeerd, kunt u rijonderwerpen van één project aan een ander niet bewegen.
 
 ## Toegangsvereisten
 

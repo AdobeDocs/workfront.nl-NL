@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1564'
 ht-degree: 0%
 
 ---
@@ -139,33 +139,40 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    * De gebieden van het verslag beschikbaar in de lijstmening van het geselecteerde verslagtype. <!--they are working on removing the limitation below-->
 
-   >[!IMPORTANT]
-   >
-   > Afhankelijk van de omgeving die u gebruikt om een aanvraagformulier te maken, bestaan de volgende scenario&#39;s:
-   >
-   >* De gebieden van de volgende types worden niet getoond in de verzoekvorm <span class="preview"> in de milieu&#39;s van de Voorproef </span> of van de Productie:
-   >
-   >    * Gemaakt door en laatstelijk gewijzigd door
-   >    * Formule
-   >    * Aanmaakdatum en datum van laatste wijziging
-   >    * Opzoekvelden van Workfront-objecten
-   >    * Workfront Planning connected records lookup fields
-   >* De gebieden van de volgende types worden niet getoond in de verzoekvorm in het milieu van de Productie. <span class="preview"> zij tonen in het milieu van de Voorproef:</span>
-   >    * <span class="preview"> Met Workfront Planning records verbonden velden </span>
-   >    * <span class="preview"> Personen </span>
-   >    * <span class="preview"> Workfront voorwerpen&#39; verbonden gebieden </span>
-   >    * <span class="preview"> Met AEM Assets verbonden velden </span>
+<!-- when we go to prod, the Preview batch below will become the only batch-->
 
-   * **Standaard sectie**: Dit is de standaardsectieonderbreking die Workfront op de verzoekvorm van toepassing is. De standaardsectie kan niet worden anders genoemd of worden verwijderd.
-   * **Onderwerp** gebied: Het gebied dat het verzoek in Workfront zal identificeren. Deze mogelijkheid is nog niet beschikbaar in de productieomgeving. <span class="preview"> het is beschikbaar in het voorproefmilieu.</span> De configuratie en de waarde van het veld Onderwerp kunnen niet worden bewerkt.
+>[!IMPORTANT]
+>
+> Afhankelijk van de omgeving die u gebruikt om een aanvraagformulier te maken, bestaan de volgende scenario&#39;s:
+>
+>* Velden van de volgende typen worden niet in het aanvraagformulier weergegeven in de productieomgeving:
+>
+>    * Gemaakt door en laatstelijk gewijzigd door
+>    * Aanmaakdatum en datum van laatste wijziging
+>    * Formule
+>    * Mensen
+>    * Met Workfront verbonden velden
+>    * Opzoekvelden van Workfront-objecten
+>    * Met Workfront Planning records verbonden velden
+>    * Workfront Planning connected records lookup fields
+>    * AEM Assets-verbindingsvelden
+>* De gebieden van de volgende types tonen niet in de verzoekvorm in <span class="preview"> het milieu van de Voorproef:</span>
+>    * <span class="preview"> Gemaakt door en laatstelijk gewijzigd door </span>
+>    * <span class="preview"> Gemaakte datum en Laatste gewijzigde datum </span>
+>    * <span class="preview"> Formule </span>
+>    * <span class="preview"> Opzoekvelden van Workfront-objecten </span>
+>    * <span class="preview"> Workfront Planning connected records&#39; lookup fields </span>
 
-     >[!TIP]
-     >
-     >Het **Onderwerp** gebied vereist een waarde wanneer het op de verzoekvorm zichtbaar is. Nochtans, kunt u het **Onderwerp** gebied verwijderen, indien nodig, en de verzoekers zullen het niet op de vorm zien.
+* **Standaard sectie**: Dit is de standaardsectieonderbreking die Workfront op de verzoekvorm van toepassing is. De standaardsectie kan niet worden anders genoemd of worden verwijderd.
+* **Onderwerp** gebied: Het gebied dat het verzoek in Workfront zal identificeren. Deze mogelijkheid is nog niet beschikbaar in de productieomgeving. <span class="preview"> het is beschikbaar in het voorproefmilieu.</span> De configuratie en de waarde van het veld Onderwerp kunnen niet worden bewerkt.
 
-   * Alle velden die aan het recordtype zijn gekoppeld.
+  >[!TIP]
+  >
+  >Het **Onderwerp** gebied vereist een waarde wanneer het op de verzoekvorm zichtbaar is. Nochtans, kunt u het **Onderwerp** gebied verwijderen, indien nodig, en de verzoekers zullen het niet op de vorm zien.
 
-     De velden in het aanvraagformulier zijn zichtbaar voor iedereen die een aanvraag naar dit recordtype indient.
+* Alle velden die aan het recordtype zijn gekoppeld.
+
+  De velden in het aanvraagformulier zijn zichtbaar voor iedereen die een aanvraag naar dit recordtype indient.
 
 1. (Optioneel) Houd de muisaanwijzer boven alle velden in het formulier die u wilt verwijderen en klik vervolgens op het pictogram **x** om deze te verwijderen. Zij worden toegevoegd aan het **lusje van Gebieden** links van de vorm.
 
@@ -233,9 +240,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >
    > * <span class="preview"> de vorm van A die de volgende gebiedstypes bevat kan niet openbaar worden gedeeld:</span>
    >
-   >     * <span class="preview"> Formule </span>
    >     * <span class="preview"> de Verbindingen van Workfront of van AEM Assets </span>
-   >     * <span class="preview"> Velden van de Opzoekmachine </span>
    >     * <span class="preview"> Mensen </span>
    >
 

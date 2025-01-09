@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '2196'
+source-wordcount: '2215'
 ht-degree: 0%
 
 ---
@@ -198,7 +198,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
        <p>Overweeg het volgende:</p> 
         <ul> 
          <li> Als deze optie is geselecteerd, kunt u taken en problemen met tijd verplaatsen. De uren bewegen zich ook met de taken of de kwesties. </li>
-      <li>Wanneer u deze optie uitschakelt, ontvangt u een verbodswaarschuwing wanneer u een taak of uitgave met geregistreerde uren verplaatst. De waarschuwing geeft aan dat de beheerder het verplaatsen van taken of problemen met geregistreerde uren niet toestaat. De taken of kwesties die uren het programma worden geopend kunnen niet worden verplaatst. </li></ul>
+      <li>Wanneer u deze optie uitschakelt, ontvangt u een verbodswaarschuwing wanneer u een taak of uitgave met geregistreerde uren verplaatst. De waarschuwing geeft aan dat de beheerder het verplaatsen van taken of problemen met geregistreerde uren niet toestaat. De taken of de kwesties die uren het programma worden geopend kunnen niet naar een ander project worden verplaatst. U kunt taken met geregistreerde uren binnen het zelfde project bewegen, zelfs met deze optie schrapt.  </li></ul>
       </td> 
      </tr> 
     </tbody> 
