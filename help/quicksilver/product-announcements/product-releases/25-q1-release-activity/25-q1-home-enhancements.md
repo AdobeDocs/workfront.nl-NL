@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-source-git-commit: c0411d6384170fa0e802d32b9535c4d7235436b4
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,35 @@ Op deze pagina worden alle Home-verbeteringen beschreven die zijn aangebracht me
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2025 versiecyclus, zie [ Eerste Kwartaal 2025 versieoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
+## Overzicht van prioriteiten en verbeteringen
+
+Bekijk de video hieronder voor een overzicht op hoog niveau van de nieuwe functies die dit kwartaal aan Prioriteiten zijn toegevoegd.
+
+[ het overzichtsvideo van de Verbeteringen van Prioriteiten ](https://video.tv.adobe.com/v/3442750/){target=_blank}
+
+Zie [ de video van de verbeteringsdemonstratie van Prioriteiten ](#priorities-enhancements-demo-video) hieronder voor een volledige demonstratie van de eigenschappen inbegrepen in dit overzicht.
+
+## Gebruik slimme filters om uw werk in Prioriteiten te vinden
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 9 januari 2025; Productieversie voor alle klanten: met de release van 25.1 (16 januari 2025)
+
+Gebruik natuurlijke taal om werk in de werklijst Prioriteiten snel te filteren. U kunt dingen als
+
+* Laatste taken weergeven
+* Deze week verschuldigde taken weergeven
+* Prioriteiten weergeven
+
+Alleen beschikbaar voor IMS-instanties.
+
+Voor meer informatie, zie [ Filter en groepeer uw werk met Prioriteiten ](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
+
 ## Vangst van werk in prioriteiten
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 20 december 2024; Productieversie voor alle klanten: met de release van 25.1 (januari 2025)
+>Voorvertoningsrelease: 20 december 2024; Productieversie voor alle klanten: met de release van 25.1 (16 januari 2025)
 >
 >_Deze eigenschap is slechts beschikbaar voor klanten op de Verenigde Ervaring van de Adobe gebruikend de Medewerker AI._
 
@@ -36,7 +60,7 @@ Voor meer informatie, zie [ Vangst op het werk in Prioriteiten ](/help/quicksilv
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 19 december 2024; Productieversie voor alle klanten: met de release van 25.1 (januari 2025)
+>Voorvertoningsrelease: 19 december 2024; Productieversie voor alle klanten: met de release van 25.1 (16 januari 2025)
 
 U kunt nu realtime updates weergeven op de pagina Details van een taak of uitgave. U kunt ook zien of anderen de pagina tegelijkertijd bekijken zoals u met real-time aanwezigheidsindicatoren hebt.
 
@@ -46,7 +70,7 @@ Voor meer informatie, zie [ project en taakdetails van de Mening in de werklijst
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 19 december 2024; Productieversie voor alle klanten: met de release van 25.1 (januari 2025)
+>Voorvertoningsrelease: 19 december 2024; Productieversie voor alle klanten: met de release van 25.1 (16 januari 2025)
 
 U kunt nu werken met documenten en proefdrukken voor taken en problemen in de werklijst en de kalender. Op het tabblad Nieuwe documenten kunt u
 
@@ -61,7 +85,7 @@ Voor meer informatie, zie [ Documenten uploaden en proeven in Prioriteiten ](/he
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 19 december 2024; Productieversie voor alle klanten: met de release van 25.1 (januari 2025)
+>Voorvertoningsrelease: 19 december 2024; Productieversie voor alle klanten: met de release van 25.1 (16 januari 2025)
 
 U kunt uw werk nu bijhouden met een duidelijke, visuele kalender. Met de Prioriteitenkalender kunt u
 
@@ -76,7 +100,7 @@ Voor meer informatie, zie [ uw werk in de kalender van Prioriteiten beheren ](/h
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 12 december 2024; Productieversie voor alle klanten: met de release van 25.1 (januari 2025)
+>Voorvertoningsrelease: 12 december 2024; Productieversie voor alle klanten: met de release van 25.1 (16 januari 2025)
 
 We hebben de prioriteitswerklijst bijgewerkt om de mogelijkheden te verbeteren en ons aan te passen aan andere toepassingsgebieden.
 
@@ -106,7 +130,7 @@ Voor meer informatie, zie [ Filter en groepeer uw werk met Prioriteiten ](/help/
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 5 december 2024; Productieversie voor alle klanten: met de release van 25.1 (januari 2025)
+>Voorvertoningsrelease: 5 december 2024; Productieversie voor alle klanten: met de release van 25.1 (16 januari 2025)
 
 U kunt nu rechtstreeks vanuit de prioriteitswerklijst naar een project in Workfront navigeren.
 
@@ -131,8 +155,14 @@ Deze wijziging maakt het gemakkelijker om werk te bekijken en te organiseren op 
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 6 november 2024; productie voor snelle release: met de release van 24.11 (14 november 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
+>Voorvertoningsrelease: 6 november 2024; productie voor snelle release: met de release van 24.11 (14 november 2024); productie voor driemaandelijkse release: met de release van 25.1 (16 januari 2025)
 
 U kunt nu projectdetails en commentaren van de werklijst in Prioriteiten bekijken.
 
 Voor meer informatie, zie [ project en taakdetails van de Mening in de werklijst van Prioriteiten ](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md).
+
+## Video over demodemogelijkheden met prioriteiten
+
+Bekijk de onderstaande video voor een gedetailleerde demonstratie van de nieuwe functies die dit kwartaal aan Prioriteiten zijn toegevoegd.
+
+[ Van de de verhogingen van Prioriteiten video ](https://video.tv.adobe.com/v/3442751/){target=_blank}

@@ -6,16 +6,16 @@ description: U kunt dashboards tot stand brengen om tot informatie in Adobe Work
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
 
 # Een dashboard maken
 
-<!--Audited: 01/2024-->
+<!--Audited: 01/2025-->
 
 U kunt dashboards tot stand brengen om tot informatie in Adobe Workfront snel toegang te hebben. U kunt maximaal 25 rapporten, kalenders en externe pagina&#39;s toevoegen aan dashboards die u met anderen kunt delen voor optimale samenwerking.
 
@@ -38,7 +38,7 @@ U moet het volgende hebben:
    <td>Alle</td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Adobe Workfront-licentie*</strong></p> </td> 
+   <td> <p><strong>Adobe Workfront-licentie</strong></p> </td> 
    <td> <p>Huidig: Plan </p>
    of
    <p>Nieuw: Standaard </p> </td> 
@@ -54,7 +54,7 @@ U moet het volgende hebben:
  </tbody> 
 </table>
 
-*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt. Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

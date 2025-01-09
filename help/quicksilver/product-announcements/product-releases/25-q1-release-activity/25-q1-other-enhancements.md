@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 67ec1535-d374-4133-9395-626fa7ae4072
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '400'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ We hebben de manier gewijzigd waarop verplaatste en verwijderde middelen worden 
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 11 november 2024; productie voor snelle release: met de release van 24.12 (12 december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
+>Voorvertoningsrelease: 11 november 2024; productie voor snelle release: met de release van 24.12 (12 december 2024); productie voor driemaandelijkse release: met de release van 25.1 (16 januari 2025)
 
 Wanneer een aangepast formulier met meerdere secties aan een object is gekoppeld, kunt u nu alle secties samenvouwen en uitvouwen, behalve de standaardsectie boven aan het formulier. De beheerder kan deze functionaliteit ook zien wanneer u een voorbeeld van het formulier weergeeft in de formulierontwerper.
 
@@ -43,11 +43,11 @@ Voor informatie over het toevoegen van een sectie aan een douanevorm, zie [ orga
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 31 oktober 2024; productie voor snelle release: met de release van 24.11 (14 november 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
+>Voorvertoningsrelease: 31 oktober 2024; productie voor snelle release: met de release van 24.11 (14 november 2024); productie voor driemaandelijkse release: met de release van 25.1 (16 januari 2025)
 
 Om het gemakkelijker te maken om uw het werkpunten in Workfront te beheren, hebben wij AI Medewerker bijgewerkt om met projecten, taken, en kwesties te werken. Nu, kan de Medewerker van AI van projecten, taken, en kwesties de plaats bepalen die op criteria worden gebaseerd u, zoals &quot;vind mijn taken die deze week worden verschuldigd.&quot;
 Voorheen kon AI Assistant niet rechtstreeks werken met projecten, taken en problemen.
 
-Uw Workfront-beheerder kan AI Assistant voor uw organisatie in- of uitschakelen. De AI-assistent is beschikbaar voor instanties met de plannen Selecteren, Primair en Ultimate.
+Uw Workfront-beheerder kan AI Assistant voor uw organisatie in- of uitschakelen. De AI-assistent is beschikbaar voor instanties met de abonnementen Selecteren, Prime en Ultimate.
 
 Voor meer informatie, zie [ Medewerker van het Gebruik AI om met projecten, taken, en kwesties ](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md) te werken.

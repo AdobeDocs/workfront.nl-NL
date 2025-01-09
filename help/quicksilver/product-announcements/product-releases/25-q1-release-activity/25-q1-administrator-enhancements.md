@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: fa24040d-0403-4799-b690-c3d172797115
-source-git-commit: a7a3272cb7bfa22abfee45211e3154b6e21434b8
+source-git-commit: d2e3379e9390f2b419bb2d78b1999c8c2dd7d0d3
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '744'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Voor meer informatie over voorwerpen beschikbaar voor milieubevordering, zie [ G
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 19 december 2024; Productieversie voor alle klanten: met de release van 25.1 (januari 2025)
+>Voorvertoningsrelease: 19 december 2024; Productieversie voor alle klanten: met de release van 25.1 (16 januari 2025)
 
 Omdat het bewegen van taken of kwesties die het programma geopend uren hebben naleving of controleproblemen soms kunnen veroorzaken, hebben wij een voorkeur in het gebied van de Voorkeur van de Taak &amp; van Kwesties van Opstelling toegevoegd die u toestaat om gebruikers te verhinderen taken en kwesties te bewegen als er uren het programma geopend op hen zijn. Voorafgaand aan deze verbetering, konden de gebruikers taken en kwesties aan andere projecten bewegen, zelfs als er uren het programma werden geopend hen.
 
@@ -60,7 +60,7 @@ Voor informatie, zie [ de taak en de uitgevende voorkeur van het systeem brede ]
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 21 november 2024; productie voor snelle release: met de release van 24.12 (12 december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
+>Voorvertoningsrelease: 21 november 2024; productie voor snelle release: met de release van 24.12 (12 december 2024); productie voor driemaandelijkse release: met de release van 25.1 (16 januari 2025)
 
 Als systeem of groepsbeheerder, hebt u nu een nieuwe voorkeur om erop te wijzen of Workfront het project of het programma van de gebruiker zou moeten gebruiken om de chronologie van het project te berekenen wanneer u één gebruiker aan een taak toewijst en zowel het project als de gebruiker met een programma wordt geassocieerd. Voorafgaand aan deze verbetering, bestonden deze het plaatsen voor meervoudige gebruikerstoewijzingen. De instelling is nu beschikbaar voor toewijzingen van één gebruiker aan taken.
 
@@ -70,7 +70,7 @@ Voor meer informatie, zie [ systeem-brede projectvoorkeur ](/help/quicksilver/ad
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 21 november 2024; productie voor snelle release: met de release van 24.12 (12 december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
+>Voorvertoningsrelease: 21 november 2024; productie voor snelle release: met de release van 24.12 (12 december 2024); productie voor driemaandelijkse release: met de release van 25.1 (16 januari 2025)
 
 U kunt hyperlinks in het bericht van de douanefout van een bedrijfsregel nu omvatten, om de gebruiker op te begeleiden hoe te om hun actie binnen de beperking van de regel te wijzigen. De statische URL kan worden gekoppeld aan documentatie of andere pagina&#39;s die nuttig zijn voor de gebruiker.
 
@@ -80,7 +80,7 @@ Voor informatie, zie [ bedrijfsregels ](/help/quicksilver/administration-and-set
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 21 november 2024; productie voor snelle release: met de release van 24.12 (12 december 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
+>Voorvertoningsrelease: 21 november 2024; productie voor snelle release: met de release van 24.12 (12 december 2024); productie voor driemaandelijkse release: met de release van 25.1 (16 januari 2025)
 
 Wanneer u een native veldverwijzing toevoegt aan een aangepast formulier en het verwijst naar een typeahead-veld (zoals Portfolio, Bedrijf of Eigenaar), is er nu een filteroptie beschikbaar. Met dit filter kunt u de objecten beperken die gebruikers kunnen kiezen wanneer ze het veld gebruiken. Dit aangepaste filter werkt hetzelfde als een filter in een aangepast tekstveld en gebruikt Tekstmodus om het filter te definiëren.
 
@@ -90,7 +90,7 @@ Voor informatie, zie [ een douaneformulier ](/help/quicksilver/administration-an
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 29 oktober 2024; productie voor snelle release: met de release van 24.11 (14 november 2024); productie voor driemaandelijkse release: met de release van 25.1 (januari 2025)
+>Voorvertoningsrelease: 29 oktober 2024; productie voor snelle release: met de release van 24.11 (14 november 2024); productie voor driemaandelijkse release: met de release van 25.1 (16 januari 2025)
 
 Wanneer een aangepast formulier meerdere secties met veel velden bevat, kan het moeilijk zijn om een veld van de ene sectie naar de andere te verplaatsen door het te slepen en neer te zetten. Aan elk veld is een &quot;verplaatsingspictogram&quot; toegevoegd, waarmee u de sectie kunt selecteren waarin het veld wordt geplaatst.
 

@@ -6,18 +6,22 @@ description: U kunt een dashboard en al zijn inhoud (rapporten, kalenders, en ex
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a88cc171-2bb1-40f0-a778-8dac7eecb718
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '891'
 ht-degree: 0%
 
 ---
 
 # Een dashboard kopiëren
 
+<!-- Audited: 1/2025 -->
+
 U kunt een dashboard en al zijn inhoud (rapporten, kalenders, en externe pagina&#39;s) kopiëren. Wanneer u de inhoud van een dashboard kopieert, kunt u ervoor kiezen deze op het oorspronkelijke dashboard te houden, of nieuwe items te maken die kopieën zijn van de items op het oorspronkelijke dashboard. U kunt er ook voor kiezen om items niet over te brengen of te kopiëren naar het nieuwe dashboard.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben:
 
@@ -31,18 +35,31 @@ U moet het volgende hebben:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-licentie*</strong></td> 
-   <td> <p>Plan </p> </td> 
+    <td> 
+      <p>Nieuw:</p>
+         <ul>
+         <li><p>Standaard</p></li>
+         </ul>
+      <p>Huidige:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>Toegang tot rapporten, dashboards en kalenders bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td> <p>Toegang tot rapporten, dashboards en kalenders bewerken</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
-   <td> <p>Toegang tot een dashboard weergeven</p> <p>U krijgt beheertoegang tot het gekopieerde dashboard</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Toegang tot een dashboard weergeven</p> <p>U krijgt beheertoegang tot het gekopieerde dashboard</p></td> 
   </tr> 
  </tbody> 
 </table>
+
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vereisten
 
@@ -52,7 +69,7 @@ Voor informatie bij het creëren van dashboards, zie [ een dashboard ](../../../
 
 ## Een dashboard kopiëren
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png), dan klik **Dashboards**.
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Dashboards]**.
 
 1. Selecteer het dashboard dat u wilt kopiëren, dan **Exemplaar** ![](assets/copy-icon.png) klikken.\
    of\

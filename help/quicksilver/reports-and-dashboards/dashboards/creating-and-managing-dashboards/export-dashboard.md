@@ -6,14 +6,16 @@ description: U kunt een dashboard naar een .pdf- dossier uitvoeren gebruikend de
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6c8dc5be-6adb-400a-b86a-a7f7e84d0ba7
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '372'
 ht-degree: 3%
 
 ---
 
 # Een dashboard exporteren
+
+<!-- Audited: 1/2025 -->
 
 U kunt een dashboard naar een .pdf- dossier uitvoeren gebruikend de drukopties beschikbaar in uw Webbrowser.
 
@@ -24,6 +26,8 @@ U kunt een dashboard naar een .pdf- dossier uitvoeren gebruikend de drukopties b
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet het volgende hebben:
 
 <table style="table-layout:auto"> 
@@ -31,25 +35,36 @@ U moet het volgende hebben:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-abonnement*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront-plan</strong></td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-licentie*</strong></td> 
-   <td> <p>Werk of hoger</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront-licentie</strong></td> 
+    <td> 
+      <p>Nieuw:</p>
+         <ul>
+         <li><p>Standaard</p></li>
+         </ul>
+      <p>Huidige:</p>
+         <ul>
+         <li><p>Werk of hoger</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>Toegang tot rapporten, dashboards en kalenders weergeven</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader"><strong>Configuraties op toegangsniveau</strong></td> 
+   <td> <p>Toegang tot rapporten, dashboards en kalenders weergeven</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
-   <td> <p>Machtigingen weergeven voor het dashboard</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Machtigingen weergeven voor het dashboard</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vereisten
 
@@ -60,13 +75,13 @@ Voor informatie bij het creëren van dashboards, zie [ een dashboard ](../../../
 ## Een dashboard exporteren naar een .pdf-bestand:
 
 1. Ga naar het dashboard dat u wilt exporteren.
-1. Klik {de acties van 0} Dashboard **, dan selecteren** Druk **.**
+1. Klik {de acties van 0} Dashboard **, dan selecteren** Voorproef van de Druk **.**
 
    ![](assets/dashboard-actions-print-350x254.png)
 
-   Het dialoogvenster Afdrukken wordt geopend.
+   Het venster Afdrukvoorbeeld wordt geopend.
 
-1. Afhankelijk van uw webbrowser selecteert u de juiste afdrukopties om het PDF-bestand in te vullen. bestand exporteren:
+1. Klik **Druk**, dan selecteer de aangewezen die drukopties op uw Webbrowser worden gebaseerd om .pdf te voltooien. bestand exporteren:
 
    <table style="table-layout:auto"> 
     <col> 

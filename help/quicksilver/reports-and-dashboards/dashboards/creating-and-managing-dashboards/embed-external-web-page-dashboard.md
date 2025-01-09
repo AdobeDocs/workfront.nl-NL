@@ -6,16 +6,16 @@ description: U kunt een externe webpagina in een dashboard insluiten om toegang 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1011'
 ht-degree: 0%
 
 ---
 
 # Een externe webpagina insluiten in een dashboard
 
-<!--Audited: 01/2024-->
+<!--Audited: 01/2025-->
 
 U kunt een externe webpagina in een dashboard insluiten om toegang te bieden tot gerelateerde informatie van andere systemen of vanuit Adobe Workfront.
 
@@ -64,10 +64,17 @@ U moet het volgende hebben:
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-licentie*</strong></td> 
-   <td> <p>Huidig: Plan </p>
-   of
-   <p>Nieuw: Standaard </p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront-licentie</strong></td> 
+   <td> 
+      <p>Nieuw:</p>
+         <ul>
+         <li><p>Standaard</p></li>
+         </ul>
+      <p>Huidige:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraties op toegangsniveau</strong></td> 
@@ -75,12 +82,12 @@ U moet het volgende hebben:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
-   <td> </td> 
+   <td> <p>Toegang tot het dashboard bewerken</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt. Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -162,7 +169,7 @@ De gegevens bijwerken voor een externe pagina die in een dashboard wordt gebruik
 
    Het **vakje van de Details van het Dashboard** opent.
 
-1. In **Uitgezochte Lay-out/voeg Rapporten toe/voeg het gebied van Kalenders** van de **doos van de Details van het Dashboard** toe, bepaal de plaats van de externe pagina u, over het wilt bijwerken, en **klikken geeft** pictogram uit.\
+1. In **Uitgezochte Lay-out/voeg het gebied van Rapporten** van de **doos van de Details van het Dashboard** toe, bepaal de plaats van de externe pagina u, over het wilt bijwerken en **klikken geeft** pictogram uit.\
    ![](assets/nwe-inline-edit-external-page-350x226.png)
 
 1. In **geef Externe de doos van de Pagina** uit, werk de gebieden bij u wilt veranderen, dan klik **sparen**.
@@ -175,7 +182,7 @@ U kunt alle externe pagina&#39;s in Workfront weergeven in een rapport Externe p
 
 {{step1-to-reports}}
 
-1. Klik **Nieuw Rapport** > selecteren **Externe Pagina**.
+1. Klik **Nieuw Rapport** > selecteren **Externe Sectie**.
 
    ![](assets/external-page-new-report-in-dropdown-nwe.png)
 
@@ -183,8 +190,7 @@ U kunt alle externe pagina&#39;s in Workfront weergeven in een rapport Externe p
 
    Voor meer informatie, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
-1. Klik **sparen+Sluiten**.
+1. Klik **sparen + Sluiten**.
 
-   U kunt de naam en de URL die aan de externe pagina&#39;s in uw systeem zijn gekoppeld in het nieuwe rapport bekijken.
+   In het nieuwe rapport kunt u de naam en de URL weergeven die aan externe pagina&#39;s in uw systeem zijn gekoppeld.
 
-   ![](assets/external-page-report-name-url-columns-nwe-350x213.png)

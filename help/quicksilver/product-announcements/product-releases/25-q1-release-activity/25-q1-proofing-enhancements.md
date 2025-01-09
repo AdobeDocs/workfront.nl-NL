@@ -4,7 +4,8 @@ description: Verbeteringen voor proefdrukken in eerste kwartaal 2025
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+exl-id: 41eff095-ff9b-4791-81c3-758e101b3e88
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 0%
@@ -21,7 +22,7 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 30 augustus 2024; Productieversie voor alle klanten: 30 augustus 2024.
+>Voorvertoningsrelease: 7 november 2024; Productieversie voor alle klanten: 7 november 2024.
 
 We introduceren een nieuwe browserextensie, het Adobe Workfront-revisieprogramma, ter vervanging van de oudere browserextensie voor het controleren van interactieve ZIP-inhoud. De oudere browserextensie wordt verwijderd op 28 februari 2025.
 

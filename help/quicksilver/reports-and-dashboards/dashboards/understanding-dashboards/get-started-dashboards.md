@@ -7,16 +7,16 @@ description: Het doel van een dashboard is om snel toegang tot informatie te ver
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '685'
 ht-degree: 0%
 
 ---
 
 # Aan de slag met dashboards
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 1/2025 -->
 
 Het doel van een dashboard is snel toegang tot informatie te verlenen die uit veelvoudige rapporten komt. Eerst, kunt u informatie in rapporten verzamelen en u kunt veelvoudige rapporten op dashboards dan plaatsen om de informatie gemakkelijker te maken om toegang te hebben.
 
@@ -38,7 +38,16 @@ U moet het volgende hebben:
   </tr> 
   <tr> 
    <td> <p><strong>Adobe Workfront-licentie</strong></p> </td> 
-   <td> <p>Nieuw: Medewerker of hoger</p><p>of</p><p>Huidig: Controleren of hoger</p> </td> 
+      <td> 
+      <p>Nieuw:</p>
+         <ul>
+         <li><p>Medewerker of hoger</p></li>
+         </ul>
+      <p>Huidige:</p>
+         <ul>
+         <li><p>Controleren of hoger</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
    <td><strong> het niveau van de Toegang </strong> </td> 
@@ -51,7 +60,7 @@ U moet het volgende hebben:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

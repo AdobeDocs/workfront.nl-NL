@@ -4,9 +4,10 @@ description: Verbeteringen voor het eerste kwartaal van 2025
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+exl-id: 8f88e9e4-3f87-48f8-a37b-cca50348daaf
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
@@ -25,7 +26,7 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal
 
 De maker van een bord is standaard de eigenaar. De eigenaar van het board is de enige persoon die dat bord kan verwijderen of zijn filters in het Configure paneel kan bijwerken.
 
-Er zijn functies toegevoegd waarmee Workfront-systeembeheerders de eigenaar van een board kunnen wijzigen. De huidige eigenaar van een bord kan ook de eigenaar van dat specifieke bord veranderen.
+Er zijn functies toegevoegd waarmee Workfront-systeembeheerders de eigenaar van een board kunnen wijzigen. De huidige eigenaar van een bord kan ook de eigenaar van dat specifieke bord veranderen. Deze functionaliteit is beschikbaar op basis-, retrospectieve en Kanban-borden, maar niet op dynamische borden.
 
 Voorheen kon de eigenaar van de raad van bestuur niet worden gewijzigd zonder tussenkomst op de achterkant.
 

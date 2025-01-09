@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 5755894ff320db368d07a3ab3ff18bbc9e157e0a
+source-git-commit: d2e3379e9390f2b419bb2d78b1999c8c2dd7d0d3
 workflow-type: tm+mt
-source-wordcount: '2478'
+source-wordcount: '2527'
 ht-degree: 0%
 
 ---
@@ -96,7 +96,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
             <p><b>Beschikbaar op deze data:</b></p>
             <ul>
                 <li>Voorvertoningsrelease: 19 december 2024</li>
-                <li>Productieversie voor alle klanten: met de release van 25.1 (januari 2025)</li>
+                <li>Productieversie voor alle klanten: met de release van 25.1 (16 januari 2025)</li>
             </ul>
         </td>
     </tr>
@@ -112,7 +112,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
             <ul>
                 <li>Voorvertoningsrelease: 21 november 2024</li>
                 <li>Productie voor snelle release: met de release van 24.12 (12 december 2024)</li>
-                <li>Productieversie voor alle klanten: met de release van 25.1 (januari 2025)</li>
+                <li>Productieversie voor alle klanten: met de release van 25.1 (16 januari 2025)</li>
             </ul>
         </td>
     </tr>     
@@ -128,7 +128,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
             <ul>
                 <li>Voorvertoningsrelease: 21 november 2024</li>
                 <li>Productie voor snelle release: met de release van 24.12 (12 december 2024)</li>
-                <li>Productieversie voor alle klanten: met de release van 25.1 (januari 2025)</li>
+                <li>Productieversie voor alle klanten: met de release van 25.1 (16 januari 2025)</li>
             </ul>
         </td>
     </tr>    
@@ -143,7 +143,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
             <ul>
                 <li>Voorvertoningsrelease: 21 november 2024</li>
                 <li>Productie voor snelle release: met de release van 24.12 (12 december 2024)</li>
-                <li>Productieversie voor alle klanten: met de release van 25.1 (januari 2025)</li>
+                <li>Productieversie voor alle klanten: met de release van 25.1 (16 januari 2025)</li>
             </ul>
         </td>
     </tr>
@@ -159,7 +159,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
             <ul>
                 <li>Voorvertoningsrelease: 29 oktober 2024</li>
                 <li>Productie voor snelle release: met de release van 24.11 (14 november 2024)</li>
-                <li>Productieversie voor alle klanten: met de release van 25.1 (januari 2025)</li>
+                <li>Productieversie voor alle klanten: met de release van 25.1 (16 januari 2025)</li>
             </ul>
         </td>
     </tr>
@@ -185,13 +185,13 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">
             De eigenaar van een board wijzigen</a></p>
             <p>De maker van een bord is standaard de eigenaar. De eigenaar van het board is de enige persoon die dat bord kan verwijderen of zijn filters in het Configure paneel kan bijwerken.</p>
-            <p>Er zijn functies toegevoegd waarmee Workfront-systeembeheerders de eigenaar van een board kunnen wijzigen. De huidige eigenaar van een bord kan ook de eigenaar van dat specifieke bord veranderen.</p>
+            <p>Er zijn functies toegevoegd waarmee Workfront-systeembeheerders de eigenaar van een board kunnen wijzigen. De huidige eigenaar van een bord kan ook de eigenaar van dat specifieke bord veranderen. Deze functionaliteit is beschikbaar op basis-, retrospectieve en Kanban-borden, maar niet op dynamische borden.</p>
         </td>
         <td>
             <p><b>Beschikbaar op deze data:</b></p>
             <ul>
                 <li>Voorvertoningsrelease: 18 december 2024</li>
-                <li>Productieversie voor alle klanten: met de release van 25.1 (januari 2025)</li>
+                <li>Productieversie voor alle klanten: met de release van 25.1 (16 januari 2025)</li>
             </ul>
         </td>
     </tr>
@@ -224,7 +224,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
             <ul>
                 <li>Voorvertoningsrelease: 21 november 2024</li>
                 <li>Productie voor snelle release: met de release van 24.12 (12 december 2024)</li>
-                <li>Productieversie voor alle klanten: met de release van 25.1 (januari 2025)</li>
+                <li>Productieversie voor alle klanten: met de release van 25.1 (16 januari 2025)</li>
             </ul>
         </td>
     </tr>    
@@ -240,7 +240,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
             <ul>
                 <li>Voorvertoningsrelease: 7 november 2024</li>
                 <li>Productie voor snelle release: met de release van 24.11 (14 november 2024)</li>
-                <li>Productieversie voor alle klanten: met de release van 25.1 (januari 2025)</li>
+                <li>Productieversie voor alle klanten: met de release van 25.1 (16 januari 2025)</li>
             </ul>
             <p><i>Deze functie maakt deel uit van een gefaseerde release en is alleen beschikbaar voor specifieke klanten.</i></p>
         </td>
@@ -265,6 +265,25 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Gebruik slimme filters om uw werk in Prioriteiten te vinden</a></p>
+            <p>Gebruik natuurlijke taal om werk in de werklijst Prioriteiten snel te filteren. U kunt dingen als </p>
+            <ul>
+                <li>Laatste taken weergeven</li>
+                <li>Deze week verschuldigde taken weergeven</li>
+                <li>Prioriteiten weergeven</li>
+            </ul>
+        </td>
+        <td>
+            <p><b>Beschikbaar op deze data:</b></p>
+            <ul>
+                <li>Voorvertoningsrelease: 9 januari 2025</li>
+                <li>Productieversie voor alle klanten: met de release van 25.1 (16 januari 2025)</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Vangst van werk in prioriteiten</a></p>
             <p>U kunt Vangst gebruiken omhoog helpen de hoeveelheid tijd verminderen zoekend informatie over actieve projecten.</p>
             <p>Met deze functie, die wordt ondersteund door Workfront AI Assistant, kunt u updates, geüploade documenten en andere belangrijke wijzigingen in uw projecten samenvatten binnen de volgende termijnen: 24 uur, 3 dagen of 7 dagen.</p>
@@ -273,7 +292,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
             <p><b>Beschikbaar op deze data:</b></p>
             <ul>
                 <li>Voorvertoningsrelease: 20 december 2024</li>
-                <li>Productieversie voor alle klanten: met de release van 25.1 (januari 2025)</li>
+                <li>Productieversie voor alle klanten: met de release van 25.1 (16 januari 2025)</li>
             </ul>
         </td>
     </tr>
@@ -287,7 +306,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
             <p><b>Beschikbaar op deze data:</b></p>
             <ul>
                 <li>Voorvertoningsrelease: 19 december 2024</li>
-                <li>Productieversie voor alle klanten: met de release van 25.1 (januari 2025)</li>
+                <li>Productieversie voor alle klanten: met de release van 25.1 (16 januari 2025)</li>
             </ul>
         </td>
     </tr>
@@ -307,7 +326,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
             <p><b>Beschikbaar op deze data:</b></p>
             <ul>
                 <li>Voorvertoningsrelease: 19 december 2024</li>
-                <li>Productieversie voor alle klanten: met de release van 25.1 (januari 2025)</li>
+                <li>Productieversie voor alle klanten: met de release van 25.1 (16 januari 2025)</li>
             </ul>
         </td>
     </tr>
@@ -327,7 +346,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
             <p><b>Beschikbaar op deze data:</b></p>
             <ul>
                 <li>Voorvertoningsrelease: 19 december 2024</li>
-                <li>Productieversie voor alle klanten: met de release van 25.1 (januari 2025)</li>
+                <li>Productieversie voor alle klanten: met de release van 25.1 (16 januari 2025)</li>
             </ul>
         </td>
     </tr>
@@ -341,7 +360,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
             <p><b>Beschikbaar op deze data:</b></p>
             <ul>
                 <li>Voorvertoningsrelease: 12 december 2024</li>
-                <li>Productieversie voor alle klanten: met de release van 25.1 (januari 2025)</li>
+                <li>Productieversie voor alle klanten: met de release van 25.1 (16 januari 2025)</li>
             </ul>
         </td>
     </tr>
@@ -355,7 +374,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
             <p><b>Beschikbaar op deze data:</b></p>
             <ul>
                 <li>Voorvertoningsrelease: 5 december 2024</li>
-                <li>Productieversie voor alle klanten: met de release van 25.1 (januari 2025)</li>
+                <li>Productieversie voor alle klanten: met de release van 25.1 (16 januari 2025)</li>
             </ul>
         </td>
     </tr>
@@ -392,7 +411,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
             <ul>
                 <li>Voorvertoningsrelease: 6 november 2024</li>
                 <li>Productie voor snelle release: met de release van 24.11 (14 november 2024)</li>
-                <li>Productieversie voor alle klanten: met de release van 25.1 (januari 2025)</li>
+                <li>Productieversie voor alle klanten: met de release van 25.1 (16 januari 2025)</li>
             </ul>
         </td>
     </tr>
@@ -423,7 +442,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
             <p><b>Beschikbaar op deze data:</b></p>
             <ul>
                 <li>Voorvertoningsrelease: 19 december 2024</li>
-                <li>Productieversie voor alle klanten: met de release van 25.1 (januari 2025)</li>
+                <li>Productieversie voor alle klanten: met de release van 25.1 (16 januari 2025)</li>
             </ul>
         </td>
     </tr>
@@ -487,7 +506,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
             <p><b>Beschikbaar op deze data:</b></p>
             <ul>
                 <li>Voorvertoningsrelease: 16 december 2024</li>
-                <li>Productieversie voor alle klanten: met de release van 25.1 (januari 2025)</li>
+                <li>Productieversie voor alle klanten: met de release van 25.1 (16 januari 2025)</li>
             </ul>
         </td>
     </tr>
@@ -533,7 +552,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
             <p><b>Beschikbaar op deze data:</b></p>
             <ul>
                 <li>Voorvertoningsrelease: 19 december 2024</li>
-                <li>Productieversie voor alle klanten: met de release van 25.1 (januari 2025)</li>
+                <li>Productieversie voor alle klanten: met de release van 25.1 (16 januari 2025)</li>
             </ul>
         </td>
     </tr>
@@ -577,7 +596,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
             <ul>
                 <li>Voorvertoningsrelease: 11 november 2024</li>
                 <li>Productie voor snelle release: met de release van 24.12 (12 december 2024)</li>
-                <li>Productieversie voor alle klanten: met de release van 25.1 (januari 2025)</li>
+                <li>Productieversie voor alle klanten: met de release van 25.1 (16 januari 2025)</li>
             </ul>
         </td>
     </tr>
@@ -593,7 +612,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
             <ul>
                 <li>Voorvertoningsrelease: 31 oktober 2024</li>
                 <li>Productie voor snelle release: met de release van 24.11 (14 november 2024)</li>
-                <li>Productieversie voor alle klanten: met de release van 25.1 (januari 2025)</li>
+                <li>Productieversie voor alle klanten: met de release van 25.1 (16 januari 2025)</li>
             </ul>
         </td>
     </tr>

@@ -4,9 +4,10 @@ description: Verbeteringen van het eerste kwartaal van 2025-project
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+exl-id: 998f3508-623e-471b-9ab7-bded5add6b5b
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 19 december 2024; Productieversie voor alle klanten: met de release van 25.1 (januari 2025)
+>Voorvertoningsrelease: 19 december 2024; Productieversie voor alle klanten: met de release van 25.1 (16 januari 2025)
 
 Een functionaliteit die sinds december 2023 in de voorvertoningsomgeving en sinds maart 2024 in de snelle-releaseproductieomgeving aanwezig is, is nu verwijderd. De functies voegden meer relevante suggesties voor slimme toewijzingen toe bij het toewijzen van taken.
 

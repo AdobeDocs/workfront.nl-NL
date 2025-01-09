@@ -6,14 +6,16 @@ description: Uw Adobe Workfront-beheerder verleent gebruikers toegang tot weerga
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 21bd531f-8732-4d6c-b91f-990887285447
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
 
 # Een dashboard delen
+
+<!-- Audited: 1/2025 -->
 
 Uw Adobe Workfront-beheerder verleent gebruikers toegang tot weergave- of bewerkingsdashboards wanneer ze toegangsniveaus toewijzen. Voor meer informatie over het verlenen van toegang tot kwesties, zie [ Toegang verlenen tot rapporten, dashboards, en kalenders ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
@@ -27,6 +29,8 @@ Machtigingen gelden specifiek voor één item in Workfront en definiëren welke 
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet het volgende hebben om objecten te delen:
 
 <table style="table-layout:auto"> 
@@ -34,25 +38,36 @@ U moet het volgende hebben om objecten te delen:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-abonnement*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront-plan</strong></td> 
    <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-licentie*</strong></td> 
-   <td> <p>Controleren of hoger</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront-licentie</strong></td> 
+    <td> 
+      <p>Nieuw:</p>
+         <ul>
+         <li><p>Licht of hoger</p></li>
+         </ul>
+      <p>Huidige:</p>
+         <ul>
+         <li><p>Controleren of hoger</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>Toegang tot rapporten, dashboards, kalenders of hoger weergeven</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader"><strong>Configuraties op toegangsniveau</strong></td> 
+   <td> <p>Toegang tot rapporten, dashboards, kalenders of hoger weergeven</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
-   <td> <p>Machtigingen weergeven of hoger het dashboard</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Machtigingen weergeven of hoger het dashboard</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vereisten
 
@@ -83,11 +98,11 @@ Het delen van een dashboard of meerdere dashboards vanuit een lijst is identiek.
 
    of
 
-   Klik de naam van één dashboard, dan klik **Acties van het Dashboard >** **het Delen**.
+   Klik de naam van één dashboard, dan klik {de Acties van het 0} Dashboard **>** delend **.**
 
-   ![](assets/qs-dashboard-actions-menu-350x318.png)
+   ![](assets/unshimmed-share-dashboard.png)
 
-1. In **voeg mensen, teams, rollen, groepen, of bedrijven toe..** gebied, begin het typen van de naam van de gebruiker, het team, de rol, de groep, of het bedrijf dat u het dashboard met wilt delen, dan klik de naam wanneer het in de drop-down lijst verschijnt.
-1. (Facultatief) om het dashboard toegankelijk te maken voor alle gebruikers in het systeem, klik het **pictogram van Montages** in de hogere juiste hoek van de het delen dialoogdoos, dan uitgezochte **maakt dit zichtbare systeem-breed**.
+1. In **voeg mensen, teams, rollen, groepen, of bedrijven** gebied toe, begin de naam van de gebruiker, het team, de rol, de groep, of het bedrijf te typen dat u het dashboard met wilt delen, dan de naam klikken wanneer het in de drop-down lijst verschijnt.
+1. (Facultatief) om het dashboard toegankelijk te maken voor alle gebruikers in het systeem, klik **slechts uitgenodigde mensen kunnen tot** dropdown menu in het het delen dialoogvakje toegang hebben, dan selecteren **iedereen in het systeem** kan bekijken.
 
 1. Klik **sparen**.

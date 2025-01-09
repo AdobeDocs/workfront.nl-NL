@@ -6,22 +6,26 @@ description: U kunt een nieuwe verzoekrij in een dashboard inbedden om directe t
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2d129095-c7ee-45b1-94ce-055d1d91e2fe
-source-git-commit: 2894161b61a00dab04c17ef642ace4a45179eb17
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1137'
 ht-degree: 0%
 
 ---
 
 # Een aanvraagwachtrij insluiten in een dashboard
 
-U kunt een nieuwe verzoekrij in een dashboard inbedden om directe toegang tot de verzoekrij aan uw gebruikers te verlenen, zonder het moeten naar het gebied van Verzoeken gaan. 
+<!-- Audited: 1/2025 -->
+
+U kunt een nieuwe verzoekrij in een dashboard inbedden om directe toegang tot de verzoekrij aan uw gebruikers te verlenen, zonder het moeten naar het gebied van Verzoeken gaan.
 
 Bijvoorbeeld, als u een verzoekrij hebt die voor uw volledige organisatie, zoals een Rij van de Helpdesk, of een PTO rij van het Verzoek open is die iedereen op een regelmatige basis moet toegang hebben, zou het handig kunnen zijn om de verzoekrij direct in één van hun dashboards voor snelle en gemakkelijke toegang op te nemen. Het instellen van deze instelling lijkt op het maken van een externe pagina op een dashboard.
 
 Eerst, moet u URL aan de verzoekrij verkrijgen. Ten tweede kunt u de URL insluiten in een dashboard door een externe pagina toe te voegen.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -30,31 +34,43 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-abonnement*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront-plan</strong></td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-licentie*</strong></td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront-licentie</strong></td> 
+   <td> 
+      <p>Nieuw:</p>
+         <ul>
+         <li><p>Standaard</p></li>
+         </ul>
+      <p>Huidige:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader"><strong>Configuraties op toegangsniveau</strong></td> 
+   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
-   <td> <p>Rechten voor het dashboard beheren</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Rechten voor het dashboard beheren</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vereisten
 
 Beide volgende elementen moeten worden gemaakt voordat u een aanvraagwachtrij kunt insluiten in een dashboard:
 
 * **het dashboard**: Voor informatie bij het creëren van dashboards, zie [ een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md) creëren.
+
 * **de verzoekrij**: Voor informatie bij het creëren van verzoekrijen, zie [ een Rij van het Verzoek ](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren
 
 ## Verkrijg URL van de verzoekrij {#obtain-the-url-of-the-request-queue}
@@ -62,7 +78,9 @@ Beide volgende elementen moeten worden gemaakt voordat u een aanvraagwachtrij ku
 U kunt URL van een verzoekrij op veelvoudige manieren verkrijgen, afhankelijk van welk gedeelte van de verzoekrij u aan de gebruikers wilt blootstellen wanneer zij tot het van een dashboard toegang hebben.
 
 * [ verkrijg een verbinding aan een specifiek rijonderwerp met capaciteit om het verzoektype te veranderen ](#obtain-a-link-to-a-specific-queue-topic-with-ability-to-change-the-request-type)
+
 * [ verkrijg een verbinding aan een verzoekrij en capaciteit om het verzoektype te veranderen ](#obtain-a-link-to-a-request-queue-and-ability-to-change-the-request-type)
+
 * [Verkrijg een verbinding aan een verzoekrij zonder capaciteit om het verzoektype te veranderen](#obtain-a-link-to-a-request-queue-with-no-ability-to-change-the-request-type)
 
 ### Verkrijg een verbinding aan een specifiek rijonderwerp met capaciteit om het verzoektype te veranderen {#obtain-a-link-to-a-specific-queue-topic-with-ability-to-change-the-request-type}
@@ -139,8 +157,11 @@ Wanneer u een koppeling deelt naar een vooraf geselecteerd aanvraagtype, wordt h
 U kunt een verbinding aan de verzoekrij of aan een rijonderwerp inbedden dat onder een verzoekrij in een dashboard wordt genesteld om gebruikers directe toegang tot het ingaan van verzoeken te geven.
 
 1. Verkrijg een verzoekrij URL gebruikend één van de methodes die in [ worden beschreven verkrijgen URL van de 1} sectie van de verzoekrij {van dit artikel.](#obtain-the-url-of-the-request-queue)
+
 1. Klik het **Belangrijkste Menu** > **Dashboards** > **Nieuw Dashboard**.
+
 1. Typ a **Naam** voor het dashboard. Dit is een verplicht veld.
+
 1. Klik **toevoegen Externe Pagina**.
 
    ![](assets/add-external-page-highlighted---nwe-350x214.png)
@@ -150,35 +171,20 @@ U kunt een verbinding aan de verzoekrij of aan een rijonderwerp inbedden dat ond
    * **Naam**: ga de naam van de verzoekrij in aangezien u het op het dashboard wilt verschijnen. Dit is een verplicht veld.
 
    * **Beschrijving**: ga een beschrijving over dat in deze externe paginavertoningen. Dit is geen verplicht veld en is alleen voor rapportagedoeleinden van belang. Deze wordt niet weergegeven in het dashboard.
-   * **URL**: kleef URL die u gebruikend één van de methodes die in Stap 1 worden beschreven verkregen.
 
-     <!--   
-     <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   
-     <MadCap:conditionalText data-mc-conditions="">   
-     (NOTE: ensure this stays accurate)   
-     </MadCap:conditionalText>   
-     </MadCap:conditionalText>   
-     -->
+   * **URL**: kleef URL die u gebruikend één van de methodes die in Stap 1 worden beschreven verkregen.
 
    * **Hoogte**: ga de hoogte van de externe pagina in. Hiermee bepaalt u hoeveel ruimte de externe pagina met de aanvraagwachtrij inneemt op het dashboard. Dit is een verplicht veld en de standaardwaarde is 500.
 
 1. Klik **sparen**.
-1. Klik **sparen + Sluiten**. 
+
+1. Klik **sparen + Sluiten**.
 
    De verzoekrij toont in het dashboard als afzonderlijke dashboardcomponent.
 
-   ![](assets/new-dashboard-with-embedded-request-queue-nwe-350x260.png)
+1. (Facultatief) klik **Acties van het Dashboard**, dan **geef** uit om rapporten, kalenders, of extra externe pagina&#39;s aan het zelfde dashboard toe te voegen.
 
-1. (Facultatief) klik **Acties van het Dashboard**, dan **geef** uit om rapporten, kalenders, of extra externe pagina&#39;s aan het zelfde dashboard toe te voegen.\
    Voor informatie over het toevoegen van componenten aan een dashboard, zie [ een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md) creëren.
-
- 
-
- 
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted - old information)</p>
--->
 
 <!--
 <ol data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 0%
@@ -14,6 +14,7 @@ ht-degree: 0%
 
 # Overzicht van dashboards van canvas
 
+<!-- This page is hidden as it is outdated, delete once full Canvas Dashboard docs are live-->
 <!-- Audited: 12/2023 -->
 
 Canvasdashboards, een functie die momenteel wordt ontwikkeld voor dashboards, biedt een nieuwe optie voor het bouwen van effectieve dashboards in Workfront. De dashboards van het canvas zullen het Melden van de visualisaties van het Canvas toe om met bestaande rapporten gemakkelijk worden omvat, die verhoogde flexibiliteit evenals nieuwe lay-outopties verstrekken.
@@ -81,6 +82,7 @@ Een nieuwe optie voor Canvasdashboards in het linkerdeelvenster van de bestaande
 1. Begin typend in de naam van het rapport u op het **1} gebied van het Rapport van de Vondst {zou willen tonen.** Wanneer u het rapport in de lijst ziet, klik of het **Rapport van de Lijst** of **pictogram van het Rapport van de Grafiek** naast zijn naam om de informatie van dat rapport in uw gekozen formaat te tonen.
 
 >[!WARNING]
+>
 > Terwijl het toevoegen van veelvoudige widgets die informatie van het zelfde rapport tonen momenteel mogelijk is, adviseren wij slechts één keer tonend elk rapport aangezien het dashboardprestaties kan beïnvloeden.
 
 ### Een widget bewerken in een Canvasdashboard

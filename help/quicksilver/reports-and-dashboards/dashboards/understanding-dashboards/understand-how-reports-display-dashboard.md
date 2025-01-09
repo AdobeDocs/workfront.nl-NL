@@ -7,20 +7,22 @@ description: U kunt beheren hoe rapporten die aan dashboards worden toegevoegd o
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5ec2380e-e4fc-42f5-a553-b61c11573b9b
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
 
 # Begrijp hoe de rapporten op een dashboard tonen
 
+<!-- Audited: 1/2025 -->
+
 U kunt beheren hoe rapporten die aan dashboards worden toegevoegd op de dashboards tonen.
 
 Voor informatie over het uitgeven van de lay-out van rapporten over een dashboard, zie [ een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md) creëren.
 
-U kunt selecteren welke rapportkolommen op een dashboard zouden moeten tonen wanneer u een rapport creeert. Als u alle kolommen van het rapport op een dashboard altijd wilt tonen, zorg ervoor dat u dat voor elke kolom specificeert wanneer u het rapport creeert.
+U kunt selecteren welke rapportkolommen op een dashboard zouden moeten tonen wanneer u creeert of een rapport uitgeeft door op [!UICONTROL **Geavanceerde Opties**] in [!UICONTROL **Montages van de Kolom**] te klikken. Als u alle kolommen van het rapport op een dashboard wilt tonen, zorg ervoor dat u dat voor elke kolom van het rapport specificeert.
 
 Voor meer informatie over het selecteren van welke kolommen van een rapport op een dashboard zouden moeten tonen, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
