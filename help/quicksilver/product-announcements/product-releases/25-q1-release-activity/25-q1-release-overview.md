@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: d2e3379e9390f2b419bb2d78b1999c8c2dd7d0d3
+source-git-commit: 11b25decc88146568aad615eb06ef3521f7aa761
 workflow-type: tm+mt
 source-wordcount: '2527'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
 * [Beheerdersverbeteringen](#administrator-enhancements)
 * [Verbeteringen voor borden](#boards-enhancements)
 * [Verbeteringen voor documentbeheer](#document-management-enhancements)
-* [Verbeteringen voor startpagina](#home-enhancements)
+* [Verbeterde prioriteiten](#priorities-enhancements)
 * [Projectverbeteringen](#project-enhancements)
 * [Verbeteringen voor proefdrukken](#proofing-enhancements)
 * [Verbeteringen voor rapport en dashboard](#report-and-dashboard-enhancements)
@@ -248,7 +248,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
 </tbody>
 </table>
 
-### Verbeteringen voor startpagina
+### Verbeterde prioriteiten
 
 <table>
 <col style="width: 50%;" />

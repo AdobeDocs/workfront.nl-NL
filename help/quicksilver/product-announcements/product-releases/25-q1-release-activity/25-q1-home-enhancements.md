@@ -1,28 +1,26 @@
 ---
 title: Verbeteringen startpunt eerste kwartaal 2025
-description: Verbeteringen startpunt eerste kwartaal 2025
+description: Verbeteringen van prioriteiten in het eerste kwartaal van 2025
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 11b25decc88146568aad615eb06ef3521f7aa761
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '801'
 ht-degree: 0%
 
 ---
 
-# Verbeteringen startpunt eerste kwartaal 2025
+# Verbeteringen van prioriteiten in het eerste kwartaal van 2025
 
-Op deze pagina worden alle Home-verbeteringen beschreven die zijn aangebracht met de release First Quarter 2025 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
+Op deze pagina worden alle verbeteringen in Prioriteiten beschreven die zijn aangebracht met de release First Quarter 2025 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2025 versiecyclus, zie [ Eerste Kwartaal 2025 versieoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
 ## Overzicht van prioriteiten en verbeteringen
 
-Bekijk de video hieronder voor een overzicht op hoog niveau van de nieuwe functies die dit kwartaal aan Prioriteiten zijn toegevoegd.
-
-[ het overzichtsvideo van de Verbeteringen van Prioriteiten ](https://video.tv.adobe.com/v/3442750/){target=_blank}
+>[!VIDEO](https://video.tv.adobe.com/v/3442750/?quality=12&learn=on)
 
 Zie [ de video van de verbeteringsdemonstratie van Prioriteiten ](#priorities-enhancements-demo-video) hieronder voor een volledige demonstratie van de eigenschappen inbegrepen in dit overzicht.
 
@@ -165,4 +163,6 @@ Voor meer informatie, zie [ project en taakdetails van de Mening in de werklijst
 
 Bekijk de onderstaande video voor een gedetailleerde demonstratie van de nieuwe functies die dit kwartaal aan Prioriteiten zijn toegevoegd.
 
-[ Van de de verhogingen van Prioriteiten video ](https://video.tv.adobe.com/v/3442751/){target=_blank}
+>[!VIDEO](https://video.tv.adobe.com/v/3442751/?quality=12&learn=on)
+
+
