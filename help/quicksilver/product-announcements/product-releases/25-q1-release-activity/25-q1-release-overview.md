@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 11b25decc88146568aad615eb06ef3521f7aa761
+source-git-commit: 5ad96cc98e3bd8556224885940052a4f3d22697f
 workflow-type: tm+mt
-source-wordcount: '2527'
+source-wordcount: '2525'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
             <p><b>Beschikbaar op deze data:</b></p>
             <ul>
                 <li>Voorvertoningsrelease: 6 januari 2024</li>
-                <li>Productieversie voor alle klanten: met de release van 25.1 (januari 2025)</li>
+                <li>Productieversie voor alle klanten: met de release van 25.1 (16 januari 2025)</li>
             </ul>
         </td>
     </tr>
@@ -82,7 +82,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
             <p><b>Beschikbaar op deze data:</b></p>
             <ul>
                 <li>Voorvertoningsrelease: 6 januari 2024</li>
-                <li>Productieversie voor alle klanten: met de release van 25.1 (januari 2025)</li>
+                <li>Productieversie voor alle klanten: met de release van 25.1 (16 januari 2025)</li>
             </ul>
         </td>
     </tr>  

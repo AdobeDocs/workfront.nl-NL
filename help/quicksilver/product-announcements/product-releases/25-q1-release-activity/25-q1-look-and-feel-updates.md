@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 5ad96cc98e3bd8556224885940052a4f3d22697f
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,19 @@ ht-degree: 0%
 Deze pagina beschrijft kleine updates van de blik en het gevoel van diverse gebieden van de toepassing van Adobe Workfront die binnen het Eerste Kwartaal 2025 releasetijdschema werden gemaakt.
 
 Voor een lijst van alle veranderingen beschikbaar met Eerste Kwartaal 2025 versie, zie [ Eerste Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+
+
+## Updates weergeven en weergeven voor het bewerken van urenvermeldingen in een urenlijst of -rapport
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 9 januari 2025; Productieversie voor alle klanten: met de release van 25.1 (16 januari 2025)
+
+We hebben de vormgeving van het vak Tijdstip bewerken bijgewerkt. Tijdens het bewerken van uren van een urenlijst of -rapport wordt rekening gehouden met het ontwerp van andere gebieden van Workfront.
+
+Voor informatie, zie [ tijd van het Logboek ](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
+
+
 
 ## Bijgewerkte ervaring op de pagina van de Leveranciers van de Wolk in het gebied van de Opstelling
 
