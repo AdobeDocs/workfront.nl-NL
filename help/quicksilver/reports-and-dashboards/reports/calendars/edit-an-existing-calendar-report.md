@@ -6,9 +6,9 @@ description: U kunt een bestaande kalender wijzigen door een verbinding aan een 
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 494d040c-bd1d-4356-824f-a75890803617
-source-git-commit: e5a3024b1657942cd7abdfff76a7a6795127a4f5
+source-git-commit: d90459cb4f6fb1960552f0ab174e963582312b5c
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ U kunt een bestaande kalender wijzigen door een verbinding aan een project toe t
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -32,38 +34,42 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront plan]</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
+   <td><p>Nieuw: Standaard</p>
+       <p>of</p>
+       <p>Huidig: Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>[!UICONTROL Edit] toegang tot [!UICONTROL Reports] , [!UICONTROL Dashboards] en [!UICONTROL Calendars]</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de [!DNL Workfront] -beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>[!UICONTROL Edit] toegang tot [!UICONTROL Reports] , [!UICONTROL Dashboards] en [!UICONTROL Calendars]</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
-   <td> <p>[!UICONTROL Manage] toegang tot het kalenderverslag</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td role="rowheader">Objectmachtigingen</td> 
+   <td>[!UICONTROL Manage] toegang tot het kalenderverslag</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Een bestaand kalenderrapport bewerken
 
-1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Calendars]** .
+{{step1-to-calendars}}
 
-1. (Optioneel) Als u de naam van het kalenderrapport wilt wijzigen, klikt u op het veld [!UICONTROL calendar name] en brengt u de gewenste wijzigingen aan.\
-   ![ het rapportnaam van de Verandering ](assets/titlechange-250x230.png)\
-   Als u het kalenderrapport met andere gebruikers of teams hebt gedeeld, wordt de gewijzigde kalendernaam automatisch bijgewerkt in hun kalendermening.
+1. (Optioneel) Als u de naam van het kalenderrapport wilt wijzigen, klikt u op het veld [!UICONTROL calendar name] en brengt u de gewenste wijzigingen aan.
+   ![ het rapportnaam van de Verandering ](assets/titlechange-250x230.png)
+Als u het kalenderrapport met andere gebruikers of teams hebt gedeeld, wordt de gewijzigde kalendernaam automatisch bijgewerkt in hun kalendermening.
 
 1. (Optioneel) Een project aan het kalenderrapport toevoegen:
 
    1. Klik op **[!UICONTROL Add to Calendar].**
-   1. Typ in het veld **[!UICONTROL Project name]** de naam van een project waaraan u kalendergebeurtenissen wilt toevoegen en klik vervolgens op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst.\
+   1. Typ in het veld **[!UICONTROL Project name]** de naam van een project waaraan u kalendergebeurtenissen wilt toevoegen. Klik vervolgens op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst.
 
       ![ selecteer de projectnaam ](assets/calendar-project-name.png)
 De punten van het project en zijn bijbehorende taken en kwesties worden toegevoegd aan het kalenderrapport.
