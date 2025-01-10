@@ -7,9 +7,9 @@ description: Het is belangrijk om in Adobe Workfront aan te geven wanneer goedge
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: fa5a59c15395f825ad73d889d4d877224a676891
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
@@ -67,6 +67,13 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 ## Persoonlijke tijd uit configureren in [!DNL Workfront]
 
 {{step1-click-profile-pic}}
+
+>[!NOTE]
+>
+>Als u op de Adobe Verenigde Ervaring bent, kunt u tot uw profiel van Workfront toegang hebben door het de rekeningsmenu van de Adobe (uw profielbeeld) in het hoogste navigatiegebied te klikken, dan het kiezen van het Profiel van Workfront.
+>
+>![ werkfront profiel ](assets/aue-profile.png)
+
 
 1. Klik in het linkerdeelvenster op **[!UICONTROL Time Off]** .
 1. Selecteer de gewenste datum voor uw persoonlijke tijd weg.
