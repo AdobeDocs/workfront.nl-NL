@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: b333ea67bb909ca55306f6474832c275ebad590c
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -148,9 +148,11 @@ In de onderstaande tabel ziet u het hoogste toegangsniveau (Bewerken of Weergave
 
 >[!NOTE]
 >
->Gebruikers met een Light-licentie of een Contributor-licentie hebben beperkte mogelijkheden voor delen. Voor meer informatie, zie [ overzicht van Vergunningen ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+>* Gebruikers met een Light-licentie of een Contributor-licentie hebben beperkte mogelijkheden voor delen. Voor meer informatie, zie [ overzicht van Vergunningen ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 >
->Externe gebruikers kunnen niet zoeken naar items in Workfront. Ze kunnen documenten en kalenders weergeven die specifiek met hen worden gedeeld. Ze kunnen ook de gebruikers zien die items met hen delen.
+>* Externe gebruikers kunnen niet zoeken naar items in Workfront. Ze kunnen documenten en kalenders weergeven die specifiek met hen worden gedeeld. Ze kunnen ook de gebruikers zien die items met hen delen.
+>
+>* Gebruikers van de contribuant en externe gebruikers kunnen geen inhoud zien die voor het hele systeem wordt gedeeld.  Het moet expliciet met hen worden gedeeld.
 
 In de volgende artikelen vindt u gedetailleerde informatie over wat de toegangsniveaus voor elk object en gebied toestaan:
 
