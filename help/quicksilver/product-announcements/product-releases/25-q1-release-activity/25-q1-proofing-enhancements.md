@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 41eff095-ff9b-4791-81c3-758e101b3e88
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: f5eb5165183986f55919bdf2c59a31c12a1c64fe
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,15 @@ ht-degree: 0%
 Op deze pagina worden alle testverbeteringen beschreven die zijn aangebracht met de release First Quarter 2025 voor de voorvertoningsomgeving. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de release Eerste kwartaal 2025.
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2025 versiecyclus, zie [ Eerste Kwartaal 2025 versieoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+
+## Desktop Proofing Viewer-upgrade
+
+We hebben de Desktop Viewer bijgewerkt met de nieuwste versie van Electron 33.3.0 die Chromium 130.0.6723.152 gebruikt.
+
+Voor informatie over het installeren van de Desktop het Proofing Kijker, zie [ de Desktop het Proofing Kijker ](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md) installeren.
+
+
+Laatste versie: 2.1.44
 
 ## Nieuwe browserextensie voor interactieve revisie beschikbaar in bètaversie
 

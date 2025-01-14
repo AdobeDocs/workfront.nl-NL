@@ -5,21 +5,24 @@ title: Een nieuwe documentversie uploaden en goedkeuring aanvragen
 description: U kunt een nieuwe documentversie uploaden en goedkeuring aanvragen bij andere gebruikers in Adobe Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: cf2a6353df0ea0e3e1c473092dab5f263a98a2fd
+exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
+source-git-commit: 162f63d52c97c6d4894d35565c68eb2858369b53
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
 
-
 # Een nieuwe documentversie uploaden en goedkeuring aanvragen
 
-Als een document is gemarkeerd en u wilt werken in een vorige revisie, kunt u een nieuwe versie uploaden naar het oorspronkelijke document en een volgende goedkeuringsronde starten.
+Als een document is gemarkeerd en u wilt werken in een vorige revisie, kunt u een nieuwe versie uploaden naar het oorspronkelijke document en een volgende goedkeuringsronde starten. Nadat u een nieuwe versie van het document hebt geüpload, zijn de vorige versies vergrendeld.
 
 Als de bestandsnaam van de nieuwe versie afwijkt van de bestandsnaam van de vorige versie, geeft Workfront het document weer met de nieuwere bestandsnaam.
 
 Wanneer een nieuwe versie wordt toegevoegd aan een document met openstaande goedkeuringen, wordt de goedkeuring van de vorige versie weergegeven als Ingetrokken. Het voorgaande goedkeuringsproces wordt afgesloten, ook al hebben sommige deelnemers nog geen besluit genomen.
+
+Als de nieuwste documentversie wordt verwijderd, blijven de vorige versies vergrendeld. Als u een vorige versie moet bewerken, moet u deze handmatig ontgrendelen.
+
 
 ## Toegangsvereisten
 

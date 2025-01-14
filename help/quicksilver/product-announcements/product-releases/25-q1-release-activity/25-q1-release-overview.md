@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 5ad96cc98e3bd8556224885940052a4f3d22697f
+source-git-commit: a91ca50cacb1f48d49fd70e9612297438bbddd83
 workflow-type: tm+mt
-source-wordcount: '2525'
+source-wordcount: '2570'
 ht-degree: 0%
 
 ---
@@ -455,6 +455,30 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
+<tr>
+        <td>
+            <p><span class="bold">Functie</span></p>
+        </td>
+        <td>
+            <p><span class="bold">Releasedatums</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Desktop Proofing Viewer-upgrade</a></p>
+            [!BADGE in productie ]{type=Informative}
+            <p>We hebben de Desktop Viewer bijgewerkt met de nieuwste versie van Electron 33.3.0 die Chromium 130.0.6723.152 gebruikt. </p>
+            <p>Laatste versie: 2.1.44 </p>
+        </td>
+        <td>
+            <p><b>Beschikbaar op deze data:</b></p>
+            <ul>
+                <li>Voorvertoningsrelease: 2 januari 2024</li>
+                <li><span class="preview">Productieversie voor alle klanten: 9 januari 2025</span></li>
+            </ul>
+        </td>
+    </tr>
     <tr>
         <td>
             <p><span class="bold">Functie</span></p>
