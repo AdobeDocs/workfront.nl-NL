@@ -1,11 +1,11 @@
 ---
-title: '[!DNL Adobe Workfront] documentation'
+title: '[!DNL Adobe Workfront] documentatie'
 description: Documentatie voor  [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: cafb8aa532647f878bc66d983023141e0c2faeba
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Welkom bij de startpagina voor Adobe Workfront-producten en technische documenta
  </td>
     <td>
         <ul>
-        <li><a href="/help/quicksilver/workfront-basics/workfront-basics.md">Aan de slag met Workfront</a></li>
+        <li><a href="/help/quicksilver/workfront-basics/workfront-basics.md">Basisbeginselen van Adobe Workfront: artikelindex</a></li>
         <li><a href="/help/quicksilver/manage-work/manage-work.md">Aan de slag met het beheer van het werk</a></li>
         <li><a href="/help/quicksilver/reports-and-dashboards/reports-and-dashboards-overview.md">Aan de slag met rapporten en dashboards</a></li>
         <li><a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/text-mode-resources.md">Aan de slag met de tekstmodus</a></li>

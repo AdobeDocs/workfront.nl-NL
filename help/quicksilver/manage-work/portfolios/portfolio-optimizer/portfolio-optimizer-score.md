@@ -7,7 +7,7 @@ description: U kunt de score van de Optimizer van het Portfolio in de Optimizer 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 4451b1a3-57ae-4c66-a6a1-a85bd51a1648
-source-git-commit: b6defd7dba91a06feb365ead74bd9c48f5165c77
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # Overzicht van de [!UICONTROL Portfolio Optimizer] score
+
+<!--Audited: 01/2025-->
 
 U kunt de [!UICONTROL Portfolio Optimizer] score vinden in [!UICONTROL Portfolio Optimizer] . Deze wordt in de kolom **[!UICONTROL Score]** voor elk project weergegeven. Dit vertegenwoordigt een score voor elk project in de portefeuille.
 
@@ -26,7 +28,8 @@ Voor informatie over hoe [!DNL Adobe Workfront] de Score van het project en ande
 
 Er is een verschil tussen de uitlijningsscore en de optimaliseringsscore van een project voor het portfolio.
 
-De groeperingsscore van een project wordt berekend gebaseerd op de punten die na de voltooiing van scorecard worden verkregen. Deze score wordt vervolgens gebruikt om de uitlijningsscore van het portfolio te bepalen. De uitlijningsscore wordt weergegeven als een percentage.\
+De groeperingsscore van een project wordt berekend gebaseerd op de punten die na de voltooiing van scorecard worden verkregen. Deze score wordt vervolgens gebruikt om de uitlijningsscore van het portfolio te bepalen. De uitlijningsscore wordt weergegeven als een percentage.
+
 De uitlijningsscore van een project wordt weergegeven in de kolom **[!UICONTROL Alignment]** van het [!UICONTROL Portfolio Optimizer] -veld of in het [!UICONTROL Alignment] -veld van het [!UICONTROL Business Case Summary] -project.
 
 ![](assets/business-case-summary-aligned-field-highlighted.png)
@@ -68,7 +71,13 @@ Ga als volgt te werk om de positie van een project te bepalen:
 
 Bij het algoritme voor de berekening van de scores wordt rekening gehouden met de waarden die in de zakelijke gevallen van de projecten worden geschetst en met de gewichten die zij dragen. Het geeft elk project in optimizer een score en normaliseert die score zodat is er altijd een project met een score van 100. Dit geeft een hoge score aan het beste project.
 
-**Voorbeeld:** Bijvoorbeeld, als u [!UICONTROL higher alignment] de enige te overwegen factor maakt, krijgt het project met de hoogste groepering de score 100.
+>[!BEGINSHADEBOX]
+
+**VOORBEELD**
+
+Als u bijvoorbeeld [!UICONTROL higher alignment] als enige factor in overweging neemt, krijgt het project met de hoogste uitlijning de score 100.
+
+>[!ENDSHADEBOX]
 
 Hieronder volgt een overzicht van de criteria waaraan u een project kunt voldoen:
 

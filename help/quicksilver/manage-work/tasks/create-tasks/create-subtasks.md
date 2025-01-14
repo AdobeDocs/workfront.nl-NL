@@ -2,22 +2,22 @@
 product-area: projects
 navigation-topic: create-tasks
 title: Subtaken maken
-description: In Workfront kunnen taken bovenliggende en onderliggende relaties hebben. Onderliggende taken worden subtaken genoemd. U kunt subtaken op de takenlijst tot stand brengen door van een hoofdtaak een subtaak te maken. U kunt een subtaak ook tot een hoofdtaak maken.
+description: In Adobe Workfront kunnen taken bovenliggende en onderliggende relaties hebben. Onderliggende taken worden subtaken genoemd. U kunt subtaken op de takenlijst tot stand brengen door van een hoofdtaak een subtaak te maken. U kunt een subtaak ook tot een hoofdtaak maken.
 author: Alina
 feature: Work Management
 exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '562'
 ht-degree: 0%
 
 ---
 
 # Subtaken maken
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 01/2025 -->
 
-In Workfront kunnen taken bovenliggende en onderliggende relaties hebben. Onderliggende taken worden subtaken genoemd. U kunt subtaken op de takenlijst tot stand brengen door van een hoofdtaak een subtaak te maken. U kunt een subtaak ook tot een hoofdtaak maken.
+In Adobe Workfront kunnen taken bovenliggende en onderliggende relaties hebben. Onderliggende taken worden subtaken genoemd. U kunt subtaken op de takenlijst tot stand brengen door van een hoofdtaak een subtaak te maken. U kunt een subtaak ook tot een hoofdtaak maken.
 
 ## Toegangsvereisten
 
@@ -62,7 +62,7 @@ U kunt subtaken maken in de takenlijst of de taaksubtaaksectie.
 
 1. Ga naar het project waar u subtaken wilt tot stand brengen.
 1. Klik de **sectie van Taken** in het linkerpaneel.
-1. (Voorwaardelijk) als de taak die u wilt maken de kindtaak niet direct onder de taak wordt gevestigd die u de ouder wilt maken, sleep het aan de aangewezen plaats in de takenlijst.
+1. (Voorwaardelijk) als de taak die u wilt maken de kindtaak niet direct onder de taak wordt gevestigd die u de ouder wilt maken, sleep en laat vallen het aan de aangewezen plaats in de takenlijst.
 1. Selecteer de taak die u een subtaak wilt maken en voer een van de volgende handelingen uit:
 
    * Klik **Inspringen** pictogram ![](assets/indent-icon-nwe-33x29.png) om van de geselecteerde taak een subtaak aan de taak direct boven het te maken.
@@ -70,7 +70,7 @@ U kunt subtaken maken in de takenlijst of de taaksubtaaksectie.
 
      >[!TIP]
      >
-     >De sneltoetsen werken niet wanneer u taken bewerkt in inline bewerken. In dit geval gebruikt u het pictogram Inspringen ![](assets/cs1.png) om subtaken te maken.
+     >De sneltoetsen werken niet wanneer u taken bewerkt in inline bewerken. In dit geval gebruikt u het pictogram Inspringen ![](assets/indent-icon-nwe-33x29.png) om subtaken te maken.
 
    * Sleep de taak over de taak die u als bovenliggende taak wilt aanwijzen.
 
@@ -80,15 +80,19 @@ U kunt subtaken maken in de takenlijst of de taaksubtaaksectie.
 
 ### Subtaken maken vanuit de sectie Subtaken voor taken {#create-subtasks-from-the-task-subtasks-section}
 
+>[!NOTE]
+>
+>Uw Workfront of groepsbeheerder kan de sectie Subtaken in uw omgeving verbergen.
+
 1. Ga naar het project waar u subtaken wilt tot stand brengen.
 1. Klik de **sectie van Taken** in het linkerpaneel.
 1. Klik op de naam van de taak waar u een subtaak wilt maken.
-1. Klik de **subtasks** sectie in het linkerpaneel.
+1. Klik **subtasks** sectie in het linkerpaneel, als heden.
 1. Klik **Nieuwe Taak.**
 
    Volg de stappen in het volgende artikel blijven creërend subtask: [ creeer taken in een project ](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
-1. Klik **sparen Taak.**
+1. Klik **creëren taak.**
 
 ## Een subtaak als hoofdtaak instellen
 

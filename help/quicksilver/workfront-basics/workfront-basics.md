@@ -1,20 +1,24 @@
 ---
 content-type: reference
 navigation-topic: get-started-with-workfront
-title: Basisbegrippen voor Adobe Workfront
-description: Bekijk deze gebieden om inzicht te krijgen in de grondbeginselen van Adobe Workfront.
+title: 'Basisbeginselen van Adobe Workfront: artikelindex'
+description: Bekijk deze gebieden om inzicht te krijgen in de basisbeginselen van Adobe Workfront en leer hoe u basisfuncties kunt uitvoeren, zoals het gebied Home of Prioriteiten gebruiken, uw accountprofiel beheren, de AI-assistent gebruiken of begrijpen wat de browservereisten en ondersteunde talen zijn. Raadpleeg de Verklarende woordenlijst van Workfront voor meer informatie over algemene terminologie in Workfront.
 author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
-source-git-commit: fe7ed0282a857fb8b7e0c2cfefb2accd17d88def
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 14%
+source-wordcount: '192'
+ht-degree: 0%
 
 ---
 
-# Basisbegrippen voor Adobe Workfront
+# Basisbeginselen van Adobe Workfront: artikelindex
+
+<!--Audited: 01/2025-->
+
+Bekijk deze gebieden om inzicht te krijgen in de basisbeginselen van Adobe Workfront en leer hoe u basisfuncties kunt uitvoeren, zoals het gebied Home of Prioriteiten gebruiken, uw accountprofiel beheren, de AI-assistent gebruiken of begrijpen wat de browservereisten en ondersteunde talen zijn. Raadpleeg de Verklarende woordenlijst van Workfront voor meer informatie over algemene terminologie in Workfront.
 
 Deze sectie bevat de volgende subsecties:
 

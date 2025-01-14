@@ -6,9 +6,9 @@ description: U kunt een update toevoegen aan een Adobe Workfront-object (project
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 1426f806b72d740712eba5e337c8424f8af6c9dc
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '3065'
+source-wordcount: '3104'
 ht-degree: 0%
 
 ---
@@ -382,16 +382,26 @@ U kunt uw commentaren verbeteren door RTF te gebruiken, of diverse punten toe te
    1. Onder **Tekst om** te tonen, typ of kleef de verbindingstekst.
    1. Klik **sparen**.
 
-1. (Optioneel) Voer een van de volgende handelingen uit om een afbeelding aan de update te koppelen:
+1. (Optioneel) Koppel een afbeelding aan een update.
+
+   >[!WARNING]
+   >
+   >U kunt geen afbeelding aan het updategebied van de volgende objecten koppelen:
+   >
+   >* Doelen
+   >* Ad-hockaarten op borden
+   >* Records in Workfront Planning. Voor informatie, zie [ overzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md)
+   >
+
+   Voer een van de volgende handelingen uit om een afbeelding aan de update toe te voegen:
 
    * Sla de afbeelding op onze computer op en sleep deze naar het gebied Nieuwe opmerking.
    * Kopieer een schermafbeelding van uw computer en plak deze vervolgens in de opmerking.
    * Klik **voeg beeld** pictogram ![](assets/add-image-mountain-with-plus-icon.png) toe en doorblader aan het beeld op uw computer.
 
 
-   >[!NOTE]
+   >[!IMPORTANT]
    >
-   >**BELANGRIJK**
    >
    ><!--<span class="preview">You cannot add images to goals or ad-hoc cards on boards.</span> -->
    >
@@ -598,7 +608,7 @@ In de sectie Updates van een Workfront-object worden twee soorten gegevens weerg
    * Team
    * Sjabloon
    * Sjabloontaak
-   * Ad-hockaart
+   * Ad-hockaart op een kaart
 
 Voor meer informatie over gebruiker en systeemupdates en hoe zij in de sectie van Updates van de voorwerpen van Workfront tonen, zie [ het sectieoverzicht van Updates ](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 

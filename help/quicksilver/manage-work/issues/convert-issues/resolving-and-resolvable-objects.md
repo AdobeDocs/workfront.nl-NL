@@ -7,9 +7,9 @@ description: Een oplosbaar object is een probleem waarvan de resolutie is gekopp
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '1743'
+source-wordcount: '1771'
 ht-degree: 0%
 
 ---
@@ -120,11 +120,13 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 
 ### Statussen synchroniseren wanneer het oplossen van object een probleem is {#synchronize-statuses-when-the-resolving-object-is-an-issue}
 
-Als een kwestie manueel aan een andere kwestie wordt verbonden, teweegbrengt de status van de tweede kwestie (het Oplossen van Voorwerp) een verandering in de status van de eerste kwestie (Oplosbaar Voorwerp). De status van de eerste uitgave komt overeen met de status waarnaar de tweede uitgave wordt gewijzigd. Dit geldt zowel voor de standaardstatus als voor de aangepaste uitgiftestatus.
+Wanneer een uitgave handmatig aan een andere uitgave is gekoppeld, wordt door de status van de tweede uitgave (Object oplossen) een wijziging in de status van de eerste uitgave (Oplosbaar object) veroorzaakt. De status van de eerste uitgave komt overeen met de status waarnaar de tweede uitgave wordt gewijzigd. Dit geldt zowel voor de standaardstatus als voor de aangepaste uitgiftestatus.
 
 ### Synchroniseer statussen wanneer het Oplossende Voorwerp een taak of een project is {#synchronize-statuses-when-the-resolving-object-is-a-task-or-a-project}
 
 Wanneer een kwestie het Oplosbare Voorwerp van een taak of een project is, brengen de veranderingen in het statuut van de taken en de projecten veranderingen in het statuut van de kwestie teweeg. Standaardstatussen worden anders geactiveerd dan aangepaste statussen, in dit geval.
+
+Wanneer de status van de projectdouane aan een standaardstatus evenaart die geen verandering in de uitgiftestatus teweegbrengt, brengt het geen verandering in status voor de kwestie teweeg.
 
 * [ synchroniseer de Standaardstatus van het Resolving Voorwerp met de StandaardStatus van het Resolvable Voorwerp ](#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object)
 * [Synchroniseer de Status van de Douane van het Resolving Voorwerp met de Status van de Douane van het Oplosbare Voorwerp](#synchronize-the-custom-status-of-the-resolving-object-with-the-custom-status-of-the-resolvable-object)

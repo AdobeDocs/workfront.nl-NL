@@ -4,16 +4,16 @@ description: U kunt automatiseringen in de Planning van Workfront vormen die, wa
 hide: true
 hidefromtoc: true
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 03eedb00ab45b95e87670872cf015c0f6840658e
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1252'
 ht-degree: 0%
 
 ---
 
 # Objecten maken met Adobe Workfront Planning-recordautomatisering
 
-<!--add screen shots when UI is finalized-->
+<!--add screen shots when UI is finalized AND redo all the steps - some things got changed and moved around-->
 <!--when you make this public, add this to the metadata above (and take the "hide" tags out):
 
 feature: Workfront Planning
@@ -23,9 +23,11 @@ recommendations: noDisplay, noCatalog
 
 -->
 
+<!-- if they give access to use the automation to people with LESS than Manage permissions to a workspace, split this article in two: the Configure section should be for admins and the "Use a Workfront Planning automation to create an object" should be for all other users-->
+
 U kunt automatiseringen in de Planning van Adobe Workfront vormen die, wanneer geactiveerd, tot voorwerpen in de Planning van Workfront of Workfront leiden.
 
-U kunt de automatisering in de verslagpagina vormen en activeren. Het object dat wordt gemaakt, wordt verbonden met de planningsrecord en wordt geplaatst in het veld dat u opgeeft in de automatisering.
+U kunt de automatisering in de verslagpagina vormen en activeren. Het object dat wordt gemaakt, wordt verbonden met de planningsrecord en in het veld geplaatst dat u opgeeft in de automatisering.
 
 U kunt bijvoorbeeld een automatisering maken die een Workfront-planningscampagne voert en een project maakt in Workfront om de voortgang van die campagne te volgen. Het project zou worden gekoppeld aan de planningscampagne van Workfront.
 
@@ -56,8 +58,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td> 
 <p>Een van de volgende Workfront-plannen:</p> 
 <ul><li>Selecteren</li> 
-<li>Eerste</li> 
-<li>Ultieme</li></ul> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
 <p>Workfront Planning is niet beschikbaar voor oudere Workfront-plannen</p> 
    </td> 
 <tr> 
@@ -110,7 +112,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 * De nieuwe object- of recordnaam is gelijk aan de naam van de record waaruit u deze maakt.
 * Als in de record waarvoor u de automatisering gebruikt, al objecten van hetzelfde type zijn verbonden in het veld dat u selecteert om nieuwe objecten toe te voegen, worden de nieuwe objecten toegevoegd aan het verbindingsveld en blijven bestaande objecten ook verbonden.
 
-
 ## Automatisering configureren in Workfront-planning
 
 U moet een automatisering in de Planning van Workfront vormen alvorens u het kunt gebruiken om voorwerpen tot stand te brengen.
@@ -124,11 +125,17 @@ U moet een automatisering in de Planning van Workfront vormen alvorens u het kun
 
    De lijst met beschikbare automatiseringen wordt geopend.
 
-1. Klik **Nieuwe automatisering** in de hoger-juiste hoek van het scherm.
+1. Klik **Nieuwe automatisering** in de hoger-juiste hoek van het scherm. Het **Nieuwe automatiserings** vakje opent.
 1. Werk de volgende velden bij:
 
-   * **tekst van de Knoop**: Ga de tekst in die u op de automatiseringsknoop wilt verschijnen. Gebruikers klikken op deze knop wanneer ze de automatisering gebruiken om een Workfront-object te maken.
-   * **pictogram van de Knoop**: Selecteer een pictogram voor de knoop. Er is standaard een pictogram geselecteerd.
+   * Vervang **Naamloze automatisering** met de tekst die u op de automatiseringsknoop wilt verschijnen. Gebruikers klikken op deze knop wanneer ze de automatisering gebruiken om een Workfront-object te maken.
+   * **Beschrijving**: Voeg een beschrijving toe om het doel van de automatisering te identificeren.
+
+1. Voor de detailspagina van de automatisering, werk de volgende gebieden in de **1} sectie van Trekkers bij {:**
+
+   * **Trekker**: Selecteer de actie die de automatisering zal teweegbrengen. Bijvoorbeeld, uitgezochte **Knoop klikt**. <!--update this step with a list of all possible triggers; right not only Button click is available-->
+
+1. Werk de volgende gebieden in de **sectie van Acties** bij:
    * **Type van Objecten**: Selecteer het voorwerp dat u de automatisering wilt tot stand brengen. Dit is een verplicht veld.
 
      U kunt de volgende objecten maken van Workfront Planning-records:
@@ -160,10 +167,17 @@ U moet een automatisering in de Planning van Workfront vormen alvorens u het kun
       * **gebied van de Kaart**: Selecteer gebieden van het verslagtype de automatisering voor wordt gecreeerd om hen aan de gebieden van het verbonden verslagtype in kaart te brengen.
       * **aan verbonden verslaggebied**: Selecteer gebieden van het verbonden verslag dat aan de gebieden van het verslagtype zal beantwoorden u de automatisering voor creeert.
 1. (Facultatief en voorwaardelijk) als u geen verbindingsgebied voor een objecten van Workfront type hebt, klik **creeer een verbindingsgebied** pictogram ![](assets/create-a-connection-field-icon.png) om een gebied toe te voegen.
-1. (Facultatief en voorwaardelijk) als u selecteerde om een verslag toe te voegen, **** op de **Kaart verbonden gebieden** gebied toevoegen en in kaart brengen om extra gebieden toe te voegen.
-1. Klik **creëren**
+1. (Facultatief en voorwaardelijk) als u selecteerde om een verslag toe te voegen, **** op het **gebied van de Kaart** toevoegen en in kaart te brengen om extra gebieden toe te voegen, dan selecteren een gebied aan **Overdracht van** en een gebied aan **Overdracht aan** om te wijzen op welk gebied van het oorspronkelijk geselecteerde verslag op welk gebied van het verbonden verslag zou moeten tonen.
+1. Klik **sparen**.
 
-De automatisering wordt weergegeven in de lijst met automatiseringen en is beschikbaar voor gebruik in records.
+   De automatisering wordt weergegeven in de lijst met automatiseringen en is beschikbaar voor gebruik in records.
+1. (Optioneel) Ga als volgt te werk om een automatisering te bewerken, uit te schakelen of te verwijderen:
+
+   Van de lijst van automatiseringen, houd over de naam van een bewaarde automatisering, dan klik **Meer** menu ![](assets/more-menu.png), dan kies één van de volgende opties:
+
+   * **geeft** uit: De informatie van de update over en vormt gebieden op de automatisering.
+   * **maak** onbruikbaar: De automatisering zal niet als optie in de toolbar van de de lijstmening van verslagen tonen en de gebruikers kunnen het niet meer gebruiken om verslagen of voorwerpen tot stand te brengen. Om het opnieuw beschikbaar te maken, klik **Meer** menu ![](assets/more-menu.png) opnieuw, dan klik **activeert**.
+   * **Schrapping**: De automatisering wordt geschrapt en kan niet worden teruggekregen. Records die zijn gemaakt met de automatisering, blijven verbonden met de oorspronkelijk geselecteerde record.
 
 ## Een Workfront-planningsautomatisering gebruiken om een object te maken
 

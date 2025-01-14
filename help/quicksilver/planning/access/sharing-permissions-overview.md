@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 0%
@@ -38,15 +38,13 @@ U kunt de volgende objecten delen:
 
    * U kunt werkruimten delen met personen binnen uw organisatie.
    * Wanneer u een werkruimte deelt, worden ook alle recordtypen, records en velden gedeeld die aan de werkruimten zijn gekoppeld.
-
-     Als u een werkruimte deelt, worden de weergaven niet gedeeld. Weergaven worden afzonderlijk gedeeld.
+   * Als u een werkruimte deelt, worden de weergaven niet gedeeld. Weergaven worden afzonderlijk gedeeld.
 
 * Weergaven
 
-   * U moet gebruikers, inclusief systeembeheerders, machtigingen geven om toegang te krijgen tot weergaven die los staan van hun machtigingen voor toegang tot werkruimten.
+   * U moet gebruikers, met inbegrip van de Beheerders van het Systeem, toestemmingen verlenen om tot meningen los van hun toestemmingen toegang te hebben tot werkruimten.
    * Wanneer u een weergave deelt, worden alle weergave-elementen gedeeld, inclusief filters, groeperen, sorteren of Instellingen.
-
-     Wanneer u een weergave deelt, worden de records die zichtbaar zijn in de weergave niet gedeeld. Records moeten worden gedeeld door werkruimten te delen.
+   * Wanneer u een weergave deelt, worden de records die zichtbaar zijn in de weergave niet gedeeld. Records moeten worden gedeeld door werkruimten te delen.
    * U kunt een mening openbaar delen, met mensen buiten uw organisatie wanneer u een openbare verbinding voor een mening produceert.De mensen die tot de verslagpagina van een openbare verbinding toegang hebben kunnen alle verslagen en hun gebieden, met inbegrip van verbonden verslagen en gebieden bekijken.
 
   Voor informatie, zie [ meningen van het Aandeel ](/help/quicksilver/planning/access/share-views.md).
