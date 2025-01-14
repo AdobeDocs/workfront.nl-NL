@@ -7,7 +7,7 @@ description: Nadat de projectmanagers het werk op projecten door taken te creër
 author: Lisa
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: 233e61c011cc87f49d0d4082a20b7790104c96c8
 workflow-type: tm+mt
 source-wordcount: '1176'
 ht-degree: 0%
@@ -64,7 +64,7 @@ Houd rekening met de volgende voordelen wanneer u de werklastverdeling gebruikt:
 
 * De managers kunnen geschikte personeelsbesluiten door transparantie in maken hoe de mensen in hun organisatie worden gebruikt.
 * De leden van het team profiteren van betere samenwerking, aangezien zij allen kunnen bekijken wat hun medewerkers op elk bepaald ogenblik werken aan. Voor informatie over de toegang nodig om middelen in de Balancer van de Werklast te bekijken of te beheren, zie [ Toegang nodig om middelen in de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md) te beheren.
-* U deelt de bron met iedereen die geen toegang heeft tot het brongebied door er een koppeling naar in te sluiten in een aangepast tabblad. Voor informatie, zie [ de Balancer van de Werkbelasting met een verbinding ](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md) delen
+* U kunt de toepassing delen met iedereen die geen resource heeft in het hoofdmenu door een koppeling naar de resource in te sluiten in een aangepast tabblad. Voor informatie, zie [ de Balancer van de Werklast met een verbinding ](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md) delen.
 * U kunt de werklasten en de vraag van mensen visualiseren en beheren in één weergave op algemeen, projectniveau of teamniveau, afhankelijk van uw rol. Bij het beheren van projecten omvat dit niet alleen de toewijzing van middelen voor het project, maar ook het visualiseren van de toewijzing van middelen uit de Adobe Workfront Scenario Planner. Personenmanagers gebruiken de Workfront Scenario Planner om baanvaardigheden in de hele organisatie te beheren. De Scenario Planner is alleen beschikbaar in de nieuwe Adobe Workfront-ervaring.
 
   >[!NOTE]
