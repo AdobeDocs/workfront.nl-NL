@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Voorkeuren voor Adobe Workfront-planningsberichten beheren
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -27,14 +27,9 @@ U kunt meldingen in de app of per e-mail ontvangen wanneer de volgende acties pl
 * Iemand voegt u toe aan een opmerking op de recordpagina
 * Iemand vraagt om toestemming om een weergave of werkruimte te openen
 * Iemand geeft u toestemming om een weergave of werkruimte te openen <!--I could not test this but Isk confirmed-->
-
-<div class="preview">
-
 * Je verzendt een aanvraag voor Workfront-planning.
 * Iemand keurt of verwerpt een Workfront-planningsverzoek dat u hebt ingediend goed.
 * De status verandert in een Workfront-planningsverzoek dat u hebt verzonden.
-
-</div>
 
 ## Toegangsvereisten
 
@@ -187,9 +182,9 @@ Schakel de meldingen uit die u niet meer wilt ontvangen.
    * **Verzoeken**: U ontvangt een bericht wanneer iemand één van het volgende deed:
 
       * Verzoekt of verleent u toestemming aan een voorwerp van de Planning van Workfront
-      * <span class="preview"> u voorlegde een verzoek van de Planning van Workfront </span>
-      * <span class="preview"> het statuut van een verzoek van de Planning van Workfront dat u veranderingen </span> voorlegde
-      * <span class="preview"> Verzoeken, subsidies, of verwerpt een goedkeuring aan een verzoek van de Planning van Workfront </span>
+      * Je hebt een aanvraag voor een Workfront-planning verzonden
+      * De status van een Workfront-planningsverzoek dat u hebt ingediend
+      * Aanvragen, subsidies of afwijzing van een aanvraag voor een Workfront-planning
 
    Voor meer informatie over het beheren van berichten, zie [ voorkeur en berichten van de Rekening ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '1564'
+source-wordcount: '1429'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,11 @@ ht-degree: 0%
 
 <!--take Preview and Production references at Production time-->
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 {{planning-important-intro}}
 
@@ -131,7 +133,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
 
-1. Klik **creëren**. Het aanvraagformulier voor het geselecteerde recordtype wordt <span class="preview"> geopend op het tabblad Formulier </span> .
+1. Klik **creëren**. Het aanvraagformulier voor het geselecteerde recordtype wordt geopend op het tabblad Formulier.
 
    ![](assets/campaigns-request-form-edit-mode.png)
 
@@ -139,40 +141,44 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    * De gebieden van het verslag beschikbaar in de lijstmening van het geselecteerde verslagtype. <!--they are working on removing the limitation below-->
 
-<!-- when we go to prod, the Preview batch below will become the only batch-->
+   <!-- when we go to prod, the Preview batch below will become the only batch-->
 
->[!IMPORTANT]
->
-> Afhankelijk van de omgeving die u gebruikt om een aanvraagformulier te maken, bestaan de volgende scenario&#39;s:
->
->* Velden van de volgende typen worden niet in het aanvraagformulier weergegeven in de productieomgeving:
->
->    * Gemaakt door en laatstelijk gewijzigd door
->    * Aanmaakdatum en datum van laatste wijziging
->    * Formule
->    * Mensen
->    * Met Workfront verbonden velden
->    * Opzoekvelden van Workfront-objecten
->    * Met Workfront Planning records verbonden velden
->    * Workfront Planning connected records lookup fields
->    * AEM Assets-verbindingsvelden
->* De gebieden van de volgende types tonen niet in de verzoekvorm in <span class="preview"> het milieu van de Voorproef:</span>
->    * <span class="preview"> Gemaakt door en laatstelijk gewijzigd door </span>
->    * <span class="preview"> Gemaakte datum en Laatste gewijzigde datum </span>
->    * <span class="preview"> Formule </span>
->    * <span class="preview"> Opzoekvelden van Workfront-objecten </span>
->    * <span class="preview"> Workfront Planning connected records&#39; lookup fields </span>
+   >[!IMPORTANT]
+   >
+   >Velden van de volgende typen worden niet weergegeven in het aanvraagformulier:
+   >
+   >* Gemaakt door en laatstelijk gewijzigd door
+   >* Aanmaakdatum en datum van laatste wijziging
+   >* Formule
+   >* Opzoekvelden van Workfront-objecten
+   >* Workfront Planning connected records lookup fields
+   >
 
-* **Standaard sectie**: Dit is de standaardsectieonderbreking die Workfront op de verzoekvorm van toepassing is. De standaardsectie kan niet worden anders genoemd of worden verwijderd.
-* **Onderwerp** gebied: Het gebied dat het verzoek in Workfront zal identificeren. Deze mogelijkheid is nog niet beschikbaar in de productieomgeving. <span class="preview"> het is beschikbaar in het voorproefmilieu.</span> De configuratie en de waarde van het veld Onderwerp kunnen niet worden bewerkt.
+   <!--before release to prod: 
+    > Depending on what environment you use to create a request form, the following scenarios exist:
+   >
+   >* Fields of the following types do not display in the request form in the Production environment: 
+   >
+   >    * Created by and Last modified by
+   >    * Created date and Last modified date
+   >    * Formula
+   >    * People 
+   >    * Workfront connected fields
+   >    * Workfront objects' lookup fields
+   >    * Workfront Planning records' connected fields
+   >    * Workfront Planning connected records' lookup fields
+   >    * AEM Assets connection fields-->
 
-  >[!TIP]
-  >
-  >Het **Onderwerp** gebied vereist een waarde wanneer het op de verzoekvorm zichtbaar is. Nochtans, kunt u het **Onderwerp** gebied verwijderen, indien nodig, en de verzoekers zullen het niet op de vorm zien.
+   * **Standaard sectie**: Dit is de standaardsectieonderbreking die Workfront op de verzoekvorm van toepassing is. De standaardsectie kan niet worden anders genoemd of worden verwijderd.
+   * **Onderwerp** gebied: Het gebied dat het verzoek in Workfront zal identificeren. De configuratie en de waarde van het onderwerpveld kunnen niet worden bewerkt.
 
-* Alle velden die aan het recordtype zijn gekoppeld.
+     >[!TIP]
+     >
+     >Het **Onderwerp** gebied vereist een waarde wanneer het op de verzoekvorm zichtbaar is. Nochtans, kunt u het **Onderwerp** gebied verwijderen, indien nodig, en de verzoekers zullen het niet op de vorm zien wanneer zij het verzoek voorleggen.
 
-  De velden in het aanvraagformulier zijn zichtbaar voor iedereen die een aanvraag naar dit recordtype indient.
+   * Alle velden die aan het recordtype zijn gekoppeld.
+
+     De velden in het aanvraagformulier zijn zichtbaar voor iedereen die een aanvraag naar dit recordtype indient.
 
 1. (Optioneel) Houd de muisaanwijzer boven alle velden in het formulier die u wilt verwijderen en klik vervolgens op het pictogram **x** om deze te verwijderen. Zij worden toegevoegd aan het **lusje van Gebieden** links van de vorm.
 
@@ -194,14 +200,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. (Facultatief) klik de **elementen van de Inhoud** tabel op de linkerkant van de vorm, en voeg om het even welke volgende elementen toe:
 
    * **Beschrijvende tekst**
-   * **Sectieonderbreking**
+   * **de onderbreking van de Sectie**
 
    Voor meer informatie over de bouw van een douaneformulier, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 1. (Facultatief) klik **Voorproef** om te bekijken hoe de vorm voor andere gebruikers zal tonen wanneer zij het zullen gebruiken om een nieuw verslag voor te leggen.
 
-1. 
-   <div class="preview">(Optioneel) Klik op het tabblad **Configuration** en voeg vervolgens ten minste één gebruiker toe aan het veld **Approvers** om nieuwe aanvragen voor dit recordformulier goed te keuren.
+1. (Facultatief) klik het **lusje van de Configuratie**, dan voeg minstens één gebruiker aan het **Approvers** gebied toe om nieuwe verzoeken voor deze verslagvorm goed te keuren.
 
    ![](assets/configuration-tab.png)
 
@@ -212,7 +217,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    * Als ten minste één fiatteur het verzoek afwijst, wordt het verzoek afgewezen en wordt de record niet gemaakt.
    * Elke fiatteur moet een beslissing nemen voordat een verzoek wordt goedgekeurd of afgewezen.
 
-     Voor meer informatie over het toevoegen van goedkeuringen aan aanvraagvormen, zie [ goedkeuring aan een verzoekvorm ](/help/quicksilver/planning/requests/add-approval-to-request-form.md) toevoegen. </div>
+     Voor meer informatie over het toevoegen van goedkeuringen aan aanvraagvormen, zie [ goedkeuring aan een verzoekvorm ](/help/quicksilver/planning/requests/add-approval-to-request-form.md) toevoegen.
 
 1. (Facultatief) klik **Meer** menu ![](assets/more-menu.png) aan het recht van de naam van de vorm in de kopbal, dan klik **uitgeven** om de naam van de vorm bij te werken.
 1. Klik **Publish** om de vorm te publiceren en een unieke verbinding voor het te verkrijgen.
@@ -235,20 +240,19 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    >[!WARNING]
    >
-   >
    >* Wanneer u **iedereen met de verbinding** selecteert, kan iedereen tot de vorm toegang hebben en een nieuw verslag voorleggen, zelfs mensen buiten uw organisatie die geen rekening van Workfront hebben.
    >
-   > * <span class="preview"> de vorm van A die de volgende gebiedstypes bevat kan niet openbaar worden gedeeld:</span>
+   > * Een formulier dat de volgende veldtypen bevat, kan niet openbaar worden gedeeld:
    >
-   >     * <span class="preview"> de Verbindingen van Workfront of van AEM Assets </span>
-   >     * <span class="preview"> Mensen </span>
+   >     * Workfront- of AEM Assets-verbindingen
+   >     * Mensen
    >
 
 1. (Voorwaardelijk) als u **Iedereen met de verbinding** in de vorige stap selecteerde, selecteer de **vervaldatum van de Verbinding** van de beschikbare kalender. Personen ontvangen een fout nadat de koppeling is verlopen en u moet de datum van de koppeling bijwerken en een nieuwe koppeling genereren om te delen voordat ze het formulier weer kunnen openen.
 
    U kunt toekomstige datums selecteren binnen 180 dagen vanaf de huidige datum.
 
-1. Klik **sparen en kopieer verbinding** om de het delen details voor de vorm te bewaren.
+1. Klik **sparen en kopieer verbinding** om de het delen details voor de vorm te bewaren. Als de vorm eerder werd bewaard, klik **verbinding van het Exemplaar**.
 
    De opties voor het delen van formulieren worden opgeslagen en de koppeling wordt naar het klembord gekopieerd. U kunt deze nu delen met anderen.
 
@@ -260,7 +264,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    De pagina met recordtypen wordt geopend.
 1. (Facultatief) klik **Meer** menu ![](assets/more-menu.png) rechts van de naam van het verslagtype in de kopbal, dan doe één van het volgende:
    * Klik **de verzoekvorm van de Update** om het even welke veranderingen in de verzoekvorm aan te brengen.
-   * Klik **verbinding van het Exemplaar aan de verzoekvorm** om de verbinding aan de vorm met anderen te delen.
+   * Klik **verbinding van het Exemplaar om vorm** te verzoeken om de verbinding met de vorm met anderen te delen.
 
    >[!TIP]
    >

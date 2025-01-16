@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '1944'
+source-wordcount: '1884'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 0%
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 Linked to Converting Issues.-->
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 Als [!DNL Adobe Workfront] beheerder kunt u systeembrede voorkeuren configureren voor taken en problemen. Deze voorkeuren zijn van invloed op de manier waarop uw gebruikers taken en problemen maken in [!DNL Workfront] .
@@ -74,15 +74,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    * [[!UICONTROL New Task Defaults]](#new-task-defaults)
    * [[!UICONTROL Issues]](#issues)
    * [[!UICONTROL Deletion]](#deletion)
-   * <span class="preview">[ Beweging ](#move)</span>
+   * [Verplaatsen](#move)
    * [[!UICONTROL Actual Dates]](#actual-dates)
    * [[!UICONTROL Delegation]](#delegation)
    * [[!UICONTROL Access]](#access)
-
-<!--
-  <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Work On It</a> </li>
--->
-
 
 
 ### [!UICONTROL New Task Defaults] {#new-task-defaults}
@@ -169,8 +164,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 * Wanneer u deze optie deselecteert, ontvangt u een prohibitieve waarschuwing wanneer u een taak of een kwestie met geregistreerde uren schrapt, of wanneer u een project met uren schrapt die voor zijn taken of kwesties worden geregistreerd. De waarschuwing geeft aan dat de beheerder het niet toestaat dat taken of problemen met geregistreerde uren worden verwijderd. De taken, de kwesties, of de projecten die uren hebben voor taken en kwesties worden geregistreerd kunnen niet worden geschrapt.
 
-<div class="preview">
-
 ### Verplaatsen
 
 **[!UICONTROL Allow users to move tasks and issues with logged hours]**: Hiermee kunt u bepalen of u het verplaatsen van taken of problemen toestaat waar uren worden vastgelegd. Deze optie is standaard ingeschakeld.
@@ -178,8 +171,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 * Als deze optie is geselecteerd, kunt u taken en problemen met tijd verplaatsen. De uren bewegen zich ook met de taken of de kwesties.
 
 * Wanneer u deze optie uitschakelt, ontvangt u een onophoudelijke waarschuwing wanneer u een taak of uitgave met geregistreerde uren naar een ander project verplaatst. De waarschuwing geeft aan dat de beheerder het verplaatsen van taken of problemen met geregistreerde uren niet toestaat. De taken of kwesties die uren het programma worden geopend kunnen niet worden verplaatst. U kunt taken binnen hetzelfde project verplaatsen, zelfs als deze optie is uitgeschakeld.
-
-</div>
 
 ### [!UICONTROL Actual Dates] {#actual-dates}
 

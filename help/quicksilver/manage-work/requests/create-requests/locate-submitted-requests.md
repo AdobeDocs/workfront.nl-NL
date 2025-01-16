@@ -8,9 +8,9 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '949'
 ht-degree: 0%
 
 ---
@@ -21,12 +21,19 @@ ht-degree: 0%
 
 U kunt de volgende typen verzoeken zoeken die u of iemand anders heeft verzonden, of aanvragen die u hebt gestart maar die u nooit hebt verzonden. U kunt deze aanvragen vinden in de volgende gebieden van Adobe Workfront:
 
-* **voorgelegde sectie**: Alle verzoeken die u of iemand anders voorlegde en u toegang tot minstens Mening hebt.
-* **sectie van het Ontwerp**: Alle verzoeken die u begon maar u nooit beëindigde en u voorlegde nooit. Voor meer informatie over ontwerp verzoeken, zie [ Adobe Workfront verzoeken ](../../../manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
+* Het **Workfront** lusje van het gebied van Verzoeken in Workfront: Zoek verzoeken die aan de verzoekrijen van Workfront in de volgende secties worden voorgelegd:
+   * **voorgelegde sectie**: Alle verzoeken die u of iemand anders voorlegde en u toegang tot minstens Mening hebt.
+   * **sectie van het Ontwerp**: Alle verzoeken die u begon maar u nooit beëindigde en u voorlegde nooit. Voor meer informatie over ontwerp verzoeken, zie [ Adobe Workfront verzoeken ](../../../manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
 
   >[!TIP]
   >
   >U kunt alleen uw eigen conceptaanvragen bekijken.
+
+* Het **Planning** lusje van het gebied van Verzoeken in Workfront: plaats verzoeken die aan de aanvraagformulieren van de Planning van Workfront worden voorgelegd. Uw organisatie moet een pakket voor Workfront-planning aanschaffen. Raadpleeg de volgende artikelen voor meer informatie:
+
+   * [Een aanvraagformulier maken en beheren in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
+   * [Adobe Workfront-planningsverzoeken verzenden om records te maken](/help/quicksilver/planning/requests/submit-requests.md)
+
 
 ## Toegangsvereisten
 
@@ -70,6 +77,7 @@ Om van verzoeken de plaats te bepalen die u of andere gebruikers hebben voorgele
 
 {{step1-to-requests}}
 
+1. (Voorwaardelijk) als uw organisatie een pakket van de Planning van Workfront kocht, klik het **Workfront** lusje om de verzoeken van Workfront te bekijken.
 1. Klik **Voorgelegd** in het linkerpaneel om alle voorgelegde verzoeken te bekijken.
 
    U kunt maximaal 2000 verzoeken weergeven en deze kunnen op meerdere pagina&#39;s worden weergegeven.
@@ -191,6 +199,12 @@ Om van verzoeken de plaats te bepalen die u of andere gebruikers hebben voorgele
    -->
 
 1. Klik **Concepten** om alle opgestelde verzoeken te bekijken. Workfront slaat een onbeperkt aantal concepten op voor elke aanvraagwachtrij in deze map. Wanneer u een nieuw verzoek voor een rijonderwerp ingaat dat reeds een ontwerp heeft, zult u worden ertoe aangezet om een bestaand ontwerp te gebruiken. Voor meer informatie, zie [ verzoeken van concepten ](../../../manage-work/requests/create-requests/create-requests-from-drafts.md) creëren.
+
+1. (Facultatief en voorwaardelijk) als uw organisatie een pakket van de Planning van Workfront kocht, klik het **Planning** lusje, dan klik **voorgelegde** in het linkerpaneel om de verzoeken van de Planning van Workfront te bekijken.
+
+   ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
+
+   Voor informatie, zie [ de Verzoeken van de Planning van Adobe Workfront voorleggen om verslagen ](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen.
 
  
 

@@ -6,9 +6,9 @@ description: Geplande werkzaamheden worden in Adobe Workfront vertegenwoordigd d
 author: Lisa
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '2300'
+source-wordcount: '2411'
 ht-degree: 0%
 
 ---
@@ -30,11 +30,12 @@ Geplande werkzaamheden worden in Adobe Workfront vertegenwoordigd door projecten
 Nadat u een verzoek in een Rij van het Verzoek creeert, kunt u of het toewijzen om worden voltooid of u kunt het in een taak of een project omzetten.\
 Voor meer informatie over het omzetten van kwesties in een taak of een project, zie het artikel [ Overzicht van het omzetten van kwesties in Adobe Workfront ](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-U kunt op de volgende manieren een aanvraag maken:
+U kunt op de volgende manieren een Workfront-aanvraag maken:
 
 * Geheel opnieuw, zoals beschreven in dit artikel.
 * Van concepten. Voor informatie, zie [ verzoeken van concepten ](../../../manage-work/requests/create-requests/create-requests-from-drafts.md) creëren.
 * Van een bestaand verzoek, door een exemplaar te kopiëren en voor te leggen. Voor informatie, zie [ Exemplaar en leg verzoeken ](../../../manage-work/requests/create-requests/copy-and-submit-requests.md) voor.
+* Vanuit een aanvraagformulier voor Workfront-planning maakt u records in Workfront Planning. Uw organisatie moet een pakket voor Workfront-planning aanschaffen. Voor informatie, zie [ de Verzoeken van de Planning van Adobe Workfront voorleggen om verslagen ](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen.
 
 ## Toegangsvereisten
 
@@ -343,7 +344,18 @@ U kunt aanvragen verzenden met alle toepassingen die zijn geïntegreerd met Work
   Voor meer informatie over de integratie van douaneWorkfront, zie de artikel [ integratie van Adobe Workfront ](../../../administration-and-setup/configure-integrations/workfront-integrations-1.md).
 
 * U kunt aanvragen van Salesforce verzenden als u de Workfront-app voor Salesforce hebt geïnstalleerd.\
-  Voor informatie over het voorleggen van verzoeken van Salesforce die onze Workfront app voor Salesforce gebruiken, zie het artikel [ verzoeken van Adobe Workfront van Salesforce indienen voorwerpen ](../../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md).
+  Voor informatie over het voorleggen van verzoeken van Salesforce die onze Workfront app voor Salesforce gebruiken, zie het artikel [ verzoeken van Adobe Workfront van de voorwerpen van Salesforce voorleggen ](../../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md).
+
+## Verzoeken maken met een Workfront-aanvraagformulier voor planning
+
+U kunt een aanvraag toevoegen met een aanvraagformulier voor Workfront Planning. Het toevoegen van de verzoeken van de Planning van Workfront zou tot verslagen van de Planning kunnen leiden, als het verzoekformulier wordt goedgekeurd of als het geen goedkeuring vereist.
+
+Uw organisatie moet een Workfront-planningspakket aanschaffen om planningsaanvragen te kunnen indienen.
+
+Raadpleeg de volgende artikelen voor meer informatie:
+
+* [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
+* [ legt de Verzoeken van de Planning van Adobe Workfront voor om verslagen ](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen.
 
 ## Verzonden aanvragen zoeken
 

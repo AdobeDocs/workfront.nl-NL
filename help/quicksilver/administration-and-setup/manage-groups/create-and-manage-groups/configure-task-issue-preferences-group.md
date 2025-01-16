@@ -9,18 +9,18 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '2215'
+source-wordcount: '2155'
 ht-degree: 0%
 
 ---
 
 # Taak- en uitgavevoorkeuren voor een groep configureren
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Als de groepen in uw organisatie een taak of een uitgiftevoorkeur onafhankelijk van de manier moeten vormen het op het systeemniveau wordt gevormd, kan een beheerder van Adobe Workfront de voorkeur ontgrendelen. Dan, als groepsbeheerder, kunt u de voorkeur voor uw groep vormen en het zal alle taken of kwesties beïnvloeden verbonden aan uw groep.
 
@@ -95,7 +95,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    * [ Nieuwe Gebreken van de Taak ](#new-task-defaults)
    * [ Kwesties ](#issues)
    * [ Schrapping ](#deletion)
-   * <span class="preview">[ Beweging ](#move)</span>
+   * [Verplaatsen](#move)
    * [Werkelijke datums](#actual-dates)
    * [Delegatie](#delegation)
    * [Toegang](#access)
@@ -184,8 +184,6 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    </table>
 
 
-<div class="preview">
-
 ### Verplaatsen
 
 <table style="table-layout:auto"> 
@@ -203,8 +201,6 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
      </tr> 
     </tbody> 
    </table>
-
-</div>
 
 ### Werkelijke datums {#actual-dates}
 

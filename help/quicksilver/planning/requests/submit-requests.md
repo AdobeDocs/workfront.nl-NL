@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '975'
+source-wordcount: '915'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 <!--take Preview and Prod references out when releasing to Prod all-->
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -126,9 +126,9 @@ U moet het volgende opgeven voordat u een aanvraag kunt indienen bij een Workfro
 
 * U hebt alleen toegang tot een aanvraagformulier voor Workfront-planningsaanvragen via een specifieke koppeling naar het formulier.
 * U kunt een aanvraag niet bewerken nadat u deze hebt verzonden naar Workfront Planning.
-* Elk voorgelegd verzoek leidt tot een verslag voor het verslagtype verbonden aan de vorm u <span class="preview"> gebruikt als de vorm niet met een goedkeuring wordt geassocieerd, of als de goedkeuring door alle fiatteurs is verleend.</span>
+* Elk ingediend verzoek maakt een record voor het recordtype dat is gekoppeld aan het formulier dat u gebruikt als het formulier niet aan een goedkeuring is gekoppeld of als de goedkeuring door alle fiatteurs is verleend.
 * Records die zijn gemaakt door het verzenden van aanvraagformulieren, kunnen niet worden onderscheiden van records die via een andere methode zijn toegevoegd. Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-records.md) creëren.
-* <span class="preview"> voorgelegde verzoeken tonen op het lusje van de Planning van de Voorgelegde sectie in het gebied van Verzoeken van Workfront </span>.
+* Verzonden verzoeken worden weergegeven op het tabblad Planning van het gedeelte Ingediend in het gebied Verzoeken van Workfront.
 
 <!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.-->
 
@@ -149,23 +149,24 @@ U moet het volgende opgeven voordat u een aanvraag kunt indienen bij een Workfro
 
    Uw formulier wordt verzonden en de volgende dingen gebeuren:
 
-   * Als de verzoekvorm niet met een goedkeuring werd geassocieerd, wordt het verzoek toegevoegd aan het <span class="preview"> lusje van de Planning van de Voorgelegde sectie van het gebied van de Verzoeken van Workfront </span> en een nieuw verslag wordt toegevoegd aan het verslagtype verbonden aan de vorm.
+   * Als het aanvraagformulier niet aan een goedkeuring is gekoppeld, wordt het verzoek toegevoegd aan het tabblad Planning van het gedeelte Verzenden van het gebied Workfront-verzoeken en wordt een nieuwe record toegevoegd aan het recordtype dat aan het formulier is gekoppeld.
 
-   * Als het aanvraagformulier is gekoppeld aan een goedkeuring, wordt de aanvraag <span class="preview"> toegevoegd aan het tabblad Planning van het gedeelte Verzendd van het gebied Workfront Requests. Een nieuw verslag wordt toegevoegd aan de verslagtype pagina slechts nadat alle fiatteurs het hebben goedgekeurd.</span>
-     <span class="preview"> voor informatie, zie [ een goedkeuring aan een aanvraagvorm ](/help/quicksilver/planning/requests/add-approval-to-request-form.md) toevoegen.</span>
+   * Als het aanvraagformulier is gekoppeld aan een goedkeuring, wordt het verzoek toegevoegd aan het tabblad Planning van het gedeelte Verzendd van het gebied Workfront Requests. Een nieuwe record wordt pas aan de recordtypepagina toegevoegd nadat alle fiatteurs de record hebben goedgekeurd.
+
+     Voor informatie, zie [ een goedkeuring aan een verzoekvorm ](/help/quicksilver/planning/requests/add-approval-to-request-form.md) toevoegen.
 
      ![](assets/planning-tab-in-requests.png)
 
      >[!IMPORTANT]
      >
-     ><span class="preview"> Alle gebruikers die toegang tot minstens één werkruimte hebben kunnen het lusje van de Planning in het gebied van Verzoeken bekijken. U kunt alleen de aanvragen weergeven die door u of iemand anders zijn ingediend bij de werkruimten die u minstens gemachtigd zijn weer te geven. Workfront-beheerders kunnen alle aanvragen weergeven die naar elke werkruimte in het systeem worden verzonden. </span> <!--ensure this is correct; asking team in slack-->
+     >Alle gebruikers die toegang tot minstens één werkruimte hebben kunnen het lusje van de Planning in het gebied van Verzoeken bekijken. U kunt alleen de aanvragen weergeven die door u of iemand anders zijn ingediend bij de werkruimten die u minstens gemachtigd zijn weer te geven. Workfront-beheerders kunnen alle aanvragen weergeven die naar elke werkruimte in het systeem worden verzonden. <!--ensure this is correct; asking team in slack-->
 
-   * <span class="preview"> u ontvangt een in-app en een e-mailbericht dat het verzoek of met succes is voorgelegd of voor overzicht verzonden.</span>
-   * <span class="preview"> als het verzoekformulier met een goedkeuring werd geassocieerd, ontvangen de fiatteurs een in-app en een e-mailbericht om het verzoek te herzien en goed te keuren.</span>
+   * U ontvangt een melding in de app en een e-mail dat de aanvraag met succes is verzonden of ter controle is verzonden.
+   * Als het aanvraagformulier aan een goedkeuring is gekoppeld, ontvangen de fiatteurs een in-app en een e-mailmelding om de aanvraag te beoordelen en goed te keuren.
 
      >[!NOTE]
      >
-     ><span class="preview"> de e-mail en in-app berichten zijn zichtbaar slechts wanneer de instantie van uw organisatie van Workfront aan de Adobe Verenigde Ervaring wordt genegeerd.</span>
+     >De e-mail en in-app berichten zijn zichtbaar slechts wanneer het geval van Workfront van uw organisatie aan de Adobe Verenigde Ervaring wordt genegeerd.
 
 
 

@@ -6,9 +6,9 @@ description: U kunt het [!UICONTROL My Updates] gebied gebruiken om de goedkeuri
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Het [!UICONTROL My Updates] -gebied gebruiken
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 U kunt het [!UICONTROL My Updates] gebied gebruiken om de goedkeuringen snel te herzien die op uw besluit wachten of de gesprekken u in inbegrepen bent.
@@ -82,11 +82,7 @@ U moet het volgende hebben voordat u begint:
 
    De goedkeuringen en de verzoeken om toegang die aan u worden toegewezen zijn vermeld in de eerste helft van de pagina, onder **Mijn Updates**.
 
-   <div class="preview">
-
    ![](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
-
-   </div>
 
 1. (Facultatief) Schuif aan de bodem van het [!UICONTROL **Mijn gebied van Updates**] en klik de naar rechts wijzende pijl om meer goedkeuringen te tonen die op extra pagina&#39;s tonen.
 
@@ -168,12 +164,8 @@ U moet het volgende hebben voordat u begint:
 
      Voor meer informatie over het antwoorden op updates, zie [ het werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-     <span class="preview"> wanneer u klaar bent toevoegend het antwoord, klik **[!UICONTROL Submit]**.</span>
-
-     <div class="preview">
+     Klik op **[!UICONTROL Submit]** als u klaar bent met het toevoegen van de reactie.
 
      ![](assets/reply-in-the-my-updates-area.png)
-
-     </div>
 
 1. (Optioneel) Klik op **[!UICONTROL Pin current page]** om het [!UICONTROL My Updates] -gebied vast te zetten op de bovenste navigatie.

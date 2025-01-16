@@ -1,26 +1,25 @@
 ---
 product-area: projects
 navigation-topic: use-the-home-area
-title: Een tijdelijk onderdeel bijwerken of bewerken in het gebied Home
+title: Een tijdelijk item bijwerken of bewerken in het begingebied
 description: U kunt updates van een werkitem weergeven en toevoegen in het gebied [!UICONTROL Home] in Adobe Workfront. U kunt andere gegevens met betrekking tot het het werkpunt ook uitgeven als u toegang hebt om het uit te geven.
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '831'
 ht-degree: 0%
 
 ---
 
 # Een tijdelijk item bijwerken of bewerken in het gebied [!UICONTROL Home]
 
-<!--Audited: April 2024-->
+<!--Audited: 04/2024-->
 
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
-
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 U kunt updates van een werkitem weergeven en toevoegen in het [!UICONTROL Home] -gebied in [!DNL Adobe Workfront] . U kunt andere gegevens met betrekking tot het het werkpunt ook uitgeven als u toegang hebt om het uit te geven.
 
@@ -133,22 +132,18 @@ U kunt updates opgeven voor elk werkitem in de [!UICONTROL My Work] -widget:
 
 1. Klik **Reageren**.
 
-   <div class="preview">
-
    ![](assets/reply-to-comment-in-mentions-widget.png)
 
-   </div>
-
 1. Typ uw opmerking.
-1. (Facultatief) in de <span class="preview">**mensen van de Markering**</span> doos, begin de naam van een gebruiker of een team te typen dat u in deze commentaar zou willen omvatten, dan het selecteren wanneer het in de lijst toont.
+1. (Facultatief) in de **mensen van de Markering** doos, begin de naam van een gebruiker of een team te typen dat u in deze commentaar zou willen omvatten, dan het selecteren wanneer het in de lijst toont.
 1. (Optioneel) Gebruik de opties op de werkbalk RTF om de tekst op te maken, emoties, koppelingen of afbeeldingen aan uw opmerking toe te voegen om de inhoud te verbeteren.
-1. <span class="preview"> klik **voorleggen** om de commentaar aan het het werkpunt toe te voegen.</span>
+1. Klik **voorleggen** om de commentaar aan het het werkpunt toe te voegen.
 
    >[!IMPORTANT]
    >
-   ><span class="preview"> u kunt uw commentaar slechts binnen 15 minuten uitgeven vanaf het voorleggen van het. Om een commentaar uit te geven, klik **Meer** menu in de hoger-juiste hoek van de commentaar, dan klik **uitgeven**.</span>
+   >Je kunt je opmerking alleen binnen 15 minuten bewerken nadat je deze hebt verzonden. Om een commentaar uit te geven, klik het **Meer** menu in de hoger-juiste hoek van de commentaar, dan klik **uitgeven**.
 
-   <span class="preview"> voor meer gedetailleerde informatie over het toevoegen van updates, zie [ het werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).</span>
+   Voor meer gedetailleerde informatie over het toevoegen van updates, zie [ het werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Een tijdelijk item bewerken
 

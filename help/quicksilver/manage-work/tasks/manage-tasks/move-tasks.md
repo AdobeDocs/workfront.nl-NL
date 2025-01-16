@@ -6,9 +6,9 @@ description: U kunt taken naar verschillende projecten of naar verschillende bov
 author: Alina
 feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '1487'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 <!--Audited: 12/2024-->
 
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 U kunt taken in Adobe Workfront verplaatsen tussen de volgende objecten:
@@ -72,6 +72,8 @@ U moet de volgende toegang hebben om de handelingen in dit artikel uit te voeren
 
 Houd rekening met het volgende wanneer u een taak verplaatst:
 
+* Uw systeem of groepsbeheerder kan u verhinderen taken te bewegen die het programma geopende uren, afhankelijk van hoe zij vormen toestaan gebruikers om taken en kwesties met geregistreerde urenvoorkeur in het gebied van de Opstelling te bewegen. Voor informatie, zie [ de taak en de uitgevende voorkeur van het systeem brede ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) vormen.
+
 * Wanneer u een taak van één project aan een ander verplaatst, zouden de taakdata kunnen worden herberekend. Bij de herberekening wordt rekening gehouden met het tijdschema dat voor het nieuwe project wordt gebruikt en met het tijdschema voor het project op basis van informatie.
 
 * U hebt de kans om sommige punten te selecteren verbonden aan de taak naar de verplaatste taak tijdens het het bewegen proces te verplaatsen. De volgende objecten worden echter standaard overgebracht naar de verplaatste taak:
@@ -82,16 +84,9 @@ Houd rekening met het volgende wanneer u een taak verplaatst:
    * Aangepaste formulieren en aangepaste veldgegevens
    * Subtaken
 
-De volgende items worden standaard niet verplaatst met de taak:
+* De volgende items worden standaard niet verplaatst met de taak:
 
-* Mijlpalen
-
-<div class="preview">
-
-* Uw systeem of groepsbeheerder kan u verhinderen taken te bewegen die het programma geopende uren, afhankelijk van hoe zij vormen toestaan gebruikers om taken en kwesties met geregistreerde urenvoorkeur in het gebied van de Opstelling te bewegen. Voor informatie, zie [ de taak en de uitgevende voorkeur van het systeem brede ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) vormen.
-
-</div>
-
+   * Mijlpalen
 
 ## Taken in een lijst verplaatsen
 

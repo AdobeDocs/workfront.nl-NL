@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # E-mailberichten voor Adobe Workfront Planning beheren
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -29,15 +29,9 @@ U kunt e-mailmeldingen ontvangen van Workfront Planning wanneer de volgende scen
   Voor informatie over het etiketteren van anderen in een verslagcommentaar, zie [ recordcommentaren beheren ](/help/quicksilver/planning/records/manage-record-comments.md).
 * Iemand vraagt uw toestemming om een mening of een werkruimte te openen
 * Iemand bevestigt dat uw toegang is verleend voor een weergave of werkruimte <!--Isk confirmed that there is nno email for denying access but did not test-->
-
-<div class="preview">
-
 * Je verzendt een aanvraag voor Workfront-planning. Voor informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md)
 * Iemand keurt of verwerpt een Workfront-planningsverzoek dat u hebt ingediend goed. Voor informatie, zie [ een verzoek in de Planning van Adobe Workfront goedkeuren ](/help/quicksilver/planning/requests/approve-request.md)
 * De status verandert in een Workfront-planningsverzoek dat u hebt verzonden.
-
-</div>
-
 
 ## Toegangsvereisten
 

@@ -6,9 +6,9 @@ description: In Adobe Workfront kunnen taken bovenliggende en onderliggende rela
 author: Alina
 feature: Work Management
 exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ U kunt subtaken maken in de takenlijst of de taaksubtaaksectie.
 
 >[!NOTE]
 >
->Uw Workfront of groepsbeheerder kan de sectie Subtaken in uw omgeving verbergen.
+>Uw Workfront- of groepsbeheerder kan de sectie Subtaken in uw omgeving verwijderen met behulp van een lay-outsjabloon.
 
 1. Ga naar het project waar u subtaken wilt tot stand brengen.
 1. Klik de **sectie van Taken** in het linkerpaneel.

@@ -6,9 +6,9 @@ description: U kunt kwesties tussen projecten en taken bewegen.
 author: Alina
 feature: Work Management
 exl-id: 8ab9be3e-0412-43d9-ad1e-75c43613fa82
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '868'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 <!--Audited: 12/2024-->
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 U kunt kwesties tussen de volgende voorwerpen bewegen:
 
@@ -72,15 +72,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 Houd rekening met het volgende wanneer u problemen verplaatst die documenten bevatten of die zijn gekoppeld aan een aanvraagwachtrij:
 
+* Uw systeem of groepsbeheerder kan u verhinderen kwesties te bewegen die het programma geopende uren, afhankelijk van hoe zij vormen toestaan gebruikers om taken en kwesties met geregistreerde urenvoorkeur in het gebied van de Opstelling te bewegen. Voor informatie, zie [ de taak en de uitgevende voorkeur van het systeem brede ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) vormen.
+
 * **wanneer een kwestie met een verzoekrij wordt geassocieerd:** wanneer u een kwestie aan een ander voorwerp beweegt en de kwestie met een verzoekrij wordt geassocieerd, wordt de verplaatste kwestie niet meer geassocieerd met de originele rij de eerste kwestie voortgekomen uit.
 * **wanneer een document aan de kwestie in bijlage is:** wanneer u een kwestie aan een ander voorwerp beweegt en de kwestie een document in bijlage aan het heeft, bewegen het document, zijn versies en de proeven zich ook naar de nieuwe kwestie. Eventuele goedkeuringen die aan het document zijn gekoppeld, worden niet verplaatst.
 * **wanneer een kwestie met een document of een omslag wordt verbonden:** wanneer u een kwestie verplaatst die documenten of omslagen verbonden aan een derdedienst zoals de Aandrijving van Google heeft, bewegen de verbindingen aan de documenten met de kwestie.
-
-<div class="preview">
-
-* Uw systeem of groepsbeheerder kan u verhinderen kwesties te bewegen die het programma geopende uren, afhankelijk van hoe zij vormen toestaan gebruikers om taken en kwesties met geregistreerde urenvoorkeur in het gebied van de Opstelling te bewegen. Voor informatie, zie [ de taak en de uitgevende voorkeur van het systeem brede ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) vormen.
-
-</div>
 
 ## Uitgaven in een lijst verplaatsen
 
@@ -103,9 +99,9 @@ U kunt een of meerdere problemen verplaatsen vanuit een lijst met problemen of v
 
 U kunt één probleem verplaatsen wanneer u het bekijkt.
 
-### Eén probleem verplaatsen in de voorvertoningsomgeving
+### Eén probleem verplaatsen
 
-1. Ga naar een kwestie die u wilt kopiëren, **Meer** menu ![](assets/more-icon.png) aan het recht van de voorwaardennaam klikken, dan **Beweging** aan selecteren.
+1. Ga naar een kwestie die u wilt bewegen, **Meer** menu ![](assets/more-icon.png) aan het recht van de uitgevende naam klikken, dan **Beweging aan** klikken.
 
    ![](assets/nwe-move-at-issue-level-highlighted-350x579.png)
 

@@ -7,9 +7,9 @@ description: Een oplosbaar object is een probleem waarvan de resolutie is gekopp
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '1771'
+source-wordcount: '1778'
 ht-degree: 0%
 
 ---
@@ -126,7 +126,7 @@ Wanneer een uitgave handmatig aan een andere uitgave is gekoppeld, wordt door de
 
 Wanneer een kwestie het Oplosbare Voorwerp van een taak of een project is, brengen de veranderingen in het statuut van de taken en de projecten veranderingen in het statuut van de kwestie teweeg. Standaardstatussen worden anders geactiveerd dan aangepaste statussen, in dit geval.
 
-Wanneer de status van de projectdouane aan een standaardstatus evenaart die geen verandering in de uitgiftestatus teweegbrengt, brengt het geen verandering in status voor de kwestie teweeg.
+Wanneer de douanestatus van een project aan een standaardstatus evenaart die geen verandering in de uitgiftestatus teweegbrengt, brengt de verandering in de projectstatus geen verandering in status voor de kwestie teweeg.
 
 * [ synchroniseer de Standaardstatus van het Resolving Voorwerp met de StandaardStatus van het Resolvable Voorwerp ](#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object)
 * [Synchroniseer de Status van de Douane van het Resolving Voorwerp met de Status van de Douane van het Oplosbare Voorwerp](#synchronize-the-custom-status-of-the-resolving-object-with-the-custom-status-of-the-resolvable-object)
