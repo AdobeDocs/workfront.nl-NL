@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Adobe Lightroom-modules
-description: Met de Adobe Lightroom-modules kunt u een Adobe Workfront Fusion-scenario starten op basis van gebeurtenissen in uw Adobe Lightroom-account.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e48bdf18-49f0-436e-9182-16c9da2b3169
-source-git-commit: 6f4ba4cde26978305a58cedb9ed606c6032496f1
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '2016'
+source-wordcount: '2069'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Lightroom] modules
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ modules van Adobe Lightroom ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/adobe-lightroom-modules.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 
 In een [!DNL Adobe Workfront Fusion] -scenario kunt u workflows automatiseren die [!DNL Adobe Lightroom] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.

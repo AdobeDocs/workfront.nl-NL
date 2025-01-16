@@ -5,19 +5,31 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: HTTP-modules
-description: Adobe Workfront Fusion vereist naast een Adobe Workfront-licentie een Adobe Workfront Fusion-licentie.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 64dc0892-4d05-410b-ab30-aa4b21f759d0
-source-git-commit: 45540ccc3b9fca98f8aaae86ac4d6574a067a6e4
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
 
 # HTTP-modules
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ Universele schakelaars ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/apps-and-modules-toc.html#universal-connectors)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 >[!NOTE]
 >

@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Scenario-uitvoeringsstroom in Adobe Workfront Fusion
-description: In dit artikel wordt uitgelegd hoe een scenario wordt uitgevoerd en hoe de gegevens erin stromen. Hier wordt ook uitgelegd waar u informatie kunt vinden over uw verwerkte gegevens en hoe u deze kunt lezen.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 95c6e969-66b4-4b57-9e62-aae0cfb9bf98
-source-git-commit: 75cf9af858e90a640c45b211d36f35b684128c2f
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
 
 # Uitvoeringsstroom van scenario&#39;s in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ de uitvoeringsstroom van het Scenario ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/scenarios/scenario-execution-flow.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 In dit artikel wordt uitgelegd hoe een scenario wordt uitgevoerd en hoe de gegevens erin stromen. Hier wordt ook uitgelegd waar u informatie kunt vinden over uw verwerkte gegevens en hoe u deze kunt lezen.
 

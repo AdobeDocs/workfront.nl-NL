@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
 title: Organisatierollen in  [!DNL Adobe Workfront Fusion]
-description: Dit artikel omvat informatie over de toegang en de toestemmingen van de rollen in  [!DNL Adobe]  de Fusie van Workfront.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 0370fa9d-6680-4724-a431-8df884ce4f9a
-source-git-commit: cb093fcecd5defd9dbdbb955ad5158d4a794f005
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
 
 # Organisatie- en teamrollen in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ Organisatie en teamrollen ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/licenses-and-roles/organization-roles.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 In dit artikel worden de toegang en functionaliteit beschreven die beschikbaar zijn voor de verschillende teams- en organisatiefuncties in [!DNL Workfront Fusion] .
 

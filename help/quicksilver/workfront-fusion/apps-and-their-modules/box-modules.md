@@ -5,18 +5,30 @@ product-area: workfront-integrations;documents
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Box-modules
-description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema's automatiseren die Doos gebruiken, evenals het met veelvoudige derdetoepassingen en de diensten verbinden. bewaakt een opgegeven map om te controleren op bestandswijzigingen, om bestaande bestanden te wijzigen en te verwijderen of om nieuwe bestanden te uploaden naar een map.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 965ce570-40bf-474d-b318-0d2de8be6b9d
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '1026'
 ht-degree: 0%
 
 ---
 
 # Box-modules
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ modules van de Doos ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/box-modules.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 In een [!DNL Adobe Workfront Fusion] -scenario kunt u workflows automatiseren die [!DNL Box] gebruiken en deze koppelen aan meerdere toepassingen en services van derden. bewaakt een opgegeven map om te controleren op bestandswijzigingen, om bestaande bestanden te wijzigen en te verwijderen of om nieuwe bestanden te uploaden naar een map.
 

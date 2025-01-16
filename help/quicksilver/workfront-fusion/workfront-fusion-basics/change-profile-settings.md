@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: workfront-fusion-basics
 title: Profielinstellingen wijzigen in  [!DNL Adobe Workfront Fusion]
-description: U kunt informatie in uw  [!DNL Adobe Workfront Fusion]  rekeningsprofiel veranderen.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 590c8549-0877-46f4-bf73-174b6b10638c
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
 
 # Profielinstellingen wijzigen in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ de profielmontages van de Verandering ](https://experienceleague.adobe.com/docs/workfront-fusion/using/get-started-with-fusion/navigate-workfront-fusion/change-profile-settings.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 U kunt gegevens wijzigen in het accountprofiel van [!DNL Adobe Workfront Fusion] .
 

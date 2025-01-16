@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Herstel een scenario versie in  [!DNL Adobe Workfront Fusion]
-description: U kunt een vorige versie van een scenario herstellen. Op deze manier kunt u wijzigingen aanbrengen in een scenario en deze wijzigingen eenvoudig herstellen als u de vorige functionaliteit wilt herstellen.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 8885fe4e-a9ae-4cfa-895f-68a2f8228034
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---
 
 # Een versie van een scenario herstellen in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ herstel een scenario versie ](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/restore-a-scenario-version.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 ## Toegangsvereisten
 

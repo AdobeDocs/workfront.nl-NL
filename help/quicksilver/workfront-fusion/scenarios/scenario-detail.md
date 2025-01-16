@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Scenario-details in  [!DNL Adobe Workfront Fusion]
-description: Scenario-details in  [!DNL Adobe Workfront Fusion]
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 1d8a3492-d609-43c8-a486-a401a597f160
-source-git-commit: 28b422b818cd3e6774c28aae994526a0e7d0420c
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
 
 # Scenario-details in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ Overzicht van de details van het Scenario ](https://experienceleague.adobe.com/docs/workfront-fusion/using/get-started-with-fusion/navigate-workfront-fusion/scenario-details.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 De pagina met de details van het scenario is de startpagina van een specifiek scenario. Het verleent toegang tot specifieke informatie voor het scenario dat op de pagina wordt vertegenwoordigd.
 

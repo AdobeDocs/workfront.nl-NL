@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: XML
-description: Met de XML-toepassing kunt u tekst met XML-opmaak parseren via XML &gt; XML-module parseren en omzetten in een bundel om de gegevens beschikbaar te maken voor andere modules. U kunt een bundel ook omzetten in een tekst met XML-indeling via de XML-&gt; XML-module maken
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 3459e930-8156-4171-8920-34f4e07bc530
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1290'
+source-wordcount: '1310'
 ht-degree: 1%
 
 ---
 
 # XML
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ XML ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/tools-and-transformers/xml-modules.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 Met de app [!UICONTROL XML] kunt u tekst met XML-opmaak parseren via de module [!UICONTROL XML] > [!UICONTROL Parse XML] en deze converteren naar een bundel om de gegevens beschikbaar te maken voor andere modules. U kunt een bundel ook omzetten in tekst met XML-indeling via de module [!UICONTROL XML] > [!UICONTROL Create XML]
 

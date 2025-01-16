@@ -5,18 +5,30 @@ product-area: workfront-integrations;documents
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Google Forms-modules
-description: De  [!DNL Adobe Workfront Fusion Google Forms]  modules staan u toe om reacties op uw Google Forms te controleren, te selecteren, toe te voegen, bij te werken of te schrappen.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 45c86879-bc4e-4134-b63c-02410b9de43b
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1238'
+source-wordcount: '1296'
 ht-degree: 0%
 
 ---
 
 # [!DNL Google Forms] modules
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ modules van Google Forms ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-forms-modules.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 Met de modules [!DNL Adobe Workfront Fusion] [!DNL Google Forms] kunt u reacties op uw [!DNL Google Forms] controleren, selecteren, toevoegen, bijwerken of verwijderen.
 

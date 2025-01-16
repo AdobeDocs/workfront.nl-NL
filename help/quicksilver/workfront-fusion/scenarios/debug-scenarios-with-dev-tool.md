@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Foutopsporingsscenario's met Adobe Workfront Fusion Devtool
-description: Met Adobe Workfront Fusion Devtool kunt u scenario's begrijpen en problemen oplossen. Met het gereedschap Ontwikkelen voegt u een extra deelvenster toe aan de Chrome Developer Tools. Gebruikend dit debugger paneel, kunt u alle handlooppas van uw scenario controleren, alle uitgevoerde verrichtingen herzien, en de details van elke uitgevoerde API vraag zien. U kunt zien welke module, verrichting, of enige reactie de fout veroorzaakte, en die kennis gebruiken om uw scenario te verfijnen.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: 6edcb5b826bdcf37b62396a926c923875a3a1436
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1700'
+source-wordcount: '1703'
 ht-degree: 0%
 
 ---
 
 # Foutopsporingsscenario&#39;s met het gereedschap [!DNL Adobe Workfront Fusion] Ontwikkelen
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ zuivert een scenario ](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/debug-a-scenario.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 Met het gereedschap [!DNL Adobe Workfront Fusion] Ontwikkelen kunt u scenario&#39;s begrijpen en problemen oplossen. Met het gereedschap Ontwikkelen voegt u een extra deelvenster toe aan de [!DNL Chrome Developer Tools] . Gebruikend dit debugger paneel, kunt u alle handlooppas van uw scenario controleren, alle uitgevoerde verrichtingen herzien, en de details van elke uitgevoerde API vraag zien. U kunt zien welke module, verrichting, of enige reactie de fout veroorzaakte, en die kennis gebruiken om uw scenario te verfijnen.
 
@@ -25,7 +37,7 @@ Met het gereedschap [!DNL Adobe Workfront Fusion] Ontwikkelen kunt u scenario&#3
 Ga voor een video-introductie en doorloop van het Fusion Devtool naar
 
 * [ het Hulpmiddel van de Ontwikkeling van de Fusie ](https://video.tv.adobe.com/v/3427031/){target=_blank}.
-* [ Devtool walkthrough ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/troubleshooting-and-error-handling/dev-tool-walkthrough.html?lang=en)
+* [ Devtool walkthrough ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/troubleshooting-and-error-handling/dev-tool-walkthrough.html)
 
 ## Toegangsvereisten
 

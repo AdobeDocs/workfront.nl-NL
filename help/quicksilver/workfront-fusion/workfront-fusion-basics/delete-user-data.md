@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: workfront-fusion-basics
 title: Gebruikersgegevens verwijderen in  [!DNL Adobe Workfront Fusion]
-description: U kunt gebruikersgegevens in uw  [!DNL Adobe Workfront Fusion]  rekening opslaan en schrappen.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 4b0a0abe-a913-429b-b02e-809b2e7410af
-source-git-commit: 759472ada4595625e3a02b55c455564e24343743
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
 
 # Gebruikersgegevens verwijderen in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ schrap scenario elementen ](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/delete-scenario-elements.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 U kunt gebruikersgegevens opslaan en verwijderen in de volgende gebieden van uw [!DNL Adobe Workfront Fusion] -account:
 

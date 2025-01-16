@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: JWT-modules
-description: De  [!DNL Adobe Workfront Fusion] [!UICONTROL JWT] app verstrekt een module die tot tokens JWT leidt die op het verstrekte algoritme worden gebaseerd.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 1c09967e-a236-404f-bf3e-9de66118e77b
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL JWT] module
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ module JWT ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/tools-and-transformers/jwt-modules.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 De app [!DNL Adobe Workfront Fusion] [!UICONTROL JWT] biedt een module die JWT-tokens maakt op basis van het opgegeven algoritme.
 

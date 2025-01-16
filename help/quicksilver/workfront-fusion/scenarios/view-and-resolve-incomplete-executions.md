@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Onvolledige uitvoeringen weergeven en oplossen in  [!DNL Adobe Workfront Fusion]
-description: In de map [!UICONTROL Incomplete executions] worden scenario-uitvoeringen opgeslagen die niet zijn voltooid vanwege een fout. Elke opgeslagen onvolledige uitvoering kan handmatig of automatisch worden opgelost.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 60fcda91-b725-4ada-a42c-5c05720d68c2
-source-git-commit: 53582d36ef2256f6073705ce3eabe8cd61c9b2cc
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
 
 # Onvolledige uitvoeringen weergeven en oplossen in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ Mening en los onvolledige uitvoeringen ](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/view-and-resolve-incomplete-executions.html) op
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 In de map [!UICONTROL Incomplete executions] worden scenario-uitvoeringen opgeslagen die niet zijn voltooid vanwege een fout. Elke opgeslagen onvolledige uitvoering kan handmatig of automatisch worden opgelost.
 

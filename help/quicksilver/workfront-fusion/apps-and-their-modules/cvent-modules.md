@@ -5,18 +5,30 @@ product-area: workfront-integrations;documents
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Cilummodules
-description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema's automatiseren die Cvent gebruiken, evenals het met veelvoudige derdetoepassingen en de diensten verbinden.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: c95b9764-29a5-4d8c-8e6d-68a3969129e0
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '987'
 ht-degree: 0%
 
 ---
 
 # [!DNL Cvent] modules
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ de modules van de Gebeurtenis ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/cvent-modules.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 In een [!DNL Adobe Workfront Fusion] -scenario kunt u workflows automatiseren die [!DNL Cvent] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 

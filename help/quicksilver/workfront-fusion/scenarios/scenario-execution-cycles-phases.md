@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: De uitvoering van het scenario, cycli, en fasen in  [!DNL Adobe Workfront Fusion]
-description: Dit artikel beschrijft gebeurtenissen die voorkomen terwijl een  [!DNL Adobe Workfront Fusion]  scenario, zoals initialisering, verrichtingen, begaat, en terugdraaiversies loopt.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 5403f476-226d-4268-affc-8e06b1117684
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '583'
 ht-degree: 0%
 
 ---
 
 # Uitvoering, cycli en fasen van scenario [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ uitvoering van het scenario, cycli, en fasen ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/scenarios/scenario-execution-cycles-phases.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 [!DNL Adobe Workfront Fusion] is een transactiesysteem, vergelijkbaar met relationele databases. Elke uitvoering van het scenario begint met de initialisatiefase, gaat verder met minstens één cyclus die uit de verrichtings en verbind/terugschroeven van prijzen fasen wordt samengesteld, en eindigt met de finalisatiefase:
 

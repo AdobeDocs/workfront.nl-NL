@@ -4,18 +4,30 @@ product-area: workfront-integrations
 keywords: scenario,prestaties
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Adobe Workfront Fusion-prestatiehandleidingen
-description: Adobe Workfront Fusion vereist naast een Adobe Workfront-licentie een Adobe Workfront Fusion-licentie.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: 7c27dc98c4ce59d598be537a1f09c6eddf9bce42
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion] prestatieaanwijzingen
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ de prestatiesbegeleiding van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/scenarios/fusion-performance-guardrails.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 >[!NOTE]
 >
@@ -50,7 +62,7 @@ Voor werkautomatisering is snelle verwerking vereist, dus [!DNL Adobe Workfront 
 ## Bestanden
 
 * De totale verwerkingscapaciteit van de fusie voor dossiers is **1 GB**. De limiet is gebaseerd op de totale geheugenkosten. Elke operatie draagt aan die kosten bij. Als één bestand van 400 MB wordt gedownload en geüpload, kost de totale bestandscapaciteit 800 MB.
-* Organisaties met het Workfront Ultimate-abonnement hebben toegang tot meer dan 1 GB aan bestandsverwerking. Het Fusion-platform kan ondersteuning bieden voor afzonderlijke bestanden van maximaal 15 GB voor één actie (bijvoorbeeld uploadbestand), maar er zijn andere factoren die van invloed zijn op de gegevensoverdracht. De maximale bestandsgrootte van één actie is afhankelijk van de verbinding die Fusion voor webservices maakt. Gegevensoverdracht is de totale verwerking voor één uitvoering. Dit betekent dat meerdere acties in één uitvoering bijdragen aan de totale gegevensoverdracht. Fusion verwerkt bestanden totdat de uitvoerlimiet van 40 minuten is bereikt.
+* Organisaties op het Workfront Ultimate-plan hebben toegang tot meer dan 1 GB aan bestandsverwerking. Het Fusion-platform kan ondersteuning bieden voor afzonderlijke bestanden van maximaal 15 GB voor één actie (bijvoorbeeld uploadbestand), maar er zijn andere factoren die van invloed zijn op de gegevensoverdracht. De maximale bestandsgrootte van één actie is afhankelijk van de verbinding die Fusion voor webservices maakt. Gegevensoverdracht is de totale verwerking voor één uitvoering. Dit betekent dat meerdere acties in één uitvoering bijdragen aan de totale gegevensoverdracht. Fusion verwerkt bestanden totdat de uitvoerlimiet van 40 minuten is bereikt.
 
   Voor meer informatie, zie [ Werkend met grote dossiers in de Fusie van Adobe Workfront ](/help/quicksilver/workfront-fusion/get-started/fusion-large-files.md).
 

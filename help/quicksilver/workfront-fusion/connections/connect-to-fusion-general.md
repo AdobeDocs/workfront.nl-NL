@@ -4,18 +4,30 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: connections-annd-webhooks
 title: Verbinding maken met  [!DNL Adobe Workfront Fusion]  - Basisinstructies
-description: Vele  [!DNL Adobe Workfront Fusion]  schakelaars vereisen geen douaneconfiguratie wanneer het creëren van een verbinding. In dit artikel wordt het standaardproces voor het maken van verbindingen beschreven.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 6576a515-a1a1-4613-8d04-3c9d36bb1ed9
-source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
 
 # Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ creeer een verbinding - Basisinstructies ](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/connect-to-applications/connect-to-fusion-general.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 ## Toegangsvereisten
 

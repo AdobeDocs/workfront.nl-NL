@@ -3,18 +3,31 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: connections-annd-webhooks
 title: Instant triggers (webhooks) in  [!DNL Adobe Workfront Fusion]
-description: Veel services bieden websites voor het direct verzenden van meldingen wanneer zich een bepaalde wijziging in de service voordoet. Om deze berichten te verwerken, adviseren wij dat u onmiddellijke trekkers gebruikt. In dit artikel worden het gebruik en de functionaliteit beschreven van instant-triggers in Adobe Workfront Fusion.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 13b3a1bf-9856-4d2c-b1a5-13b044a7c2e5
-source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '931'
 ht-degree: 0%
 
 ---
 
 # Instant triggers (webhaken) in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in de artikelen:
+>
+>* [ Onmiddellijke trekkers (webhooks) ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/modules/webhooks-reference.html)
+>* [ Mening de rij van een webhaak ](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/view-webhook-queue.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 Veel services bieden websites voor het direct verzenden van meldingen wanneer zich een bepaalde wijziging in de service voordoet. Om deze berichten te verwerken, adviseren wij dat u onmiddellijke trekkers gebruikt. U kunt deze gemakkelijk herkennen in [!DNL Adobe Workfront Fusion] vanwege de tag:
 

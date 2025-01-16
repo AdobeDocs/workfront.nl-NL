@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: http-modules
 title: HTTP&gt; een aanvraagmodule voor clientcertificaten maken
-description: Deze  [!DNL Adobe Workfront Fusion]  module laat u toe om een verzoek van HTTP met de vergunning van het de cliëntcertificaat van HTTP te vormen en het voor te leggen aan een server. De ontvangen HTTP-respons wordt vervolgens opgenomen in de uitvoerbundel.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: c0b0057f-3db0-4c10-a274-ebaec1a5b87b
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '854'
 ht-degree: 0%
 
 ---
 
 # HTTP >[!UICONTROL Make a Client Certificate Authorization request] module
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ HTTP > maak een de verzoekmodule van de Vergunning van het Certificaat van de Cliënt ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/universal-connectors/http-module-make-a-client-cert-auth-request.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 >[!NOTE]
 >

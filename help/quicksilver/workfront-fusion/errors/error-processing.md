@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: errors
 title: Fout bij verwerken in  [!DNL Adobe Workfront Fusion]
-description: Soms kan een fout tijdens de uitvoering van een scenario voorkomen. Dit gebeurt gewoonlijk als een service niet beschikbaar is omdat er geen verbinding is met een service of als een validatie mislukt. In dit artikel worden de algemene fouten besproken die u kunt tegenkomen.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 468d7460-3853-4016-bff9-b9d3b87198ed
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1201'
+source-wordcount: '1231'
 ht-degree: 0%
 
 ---
 
 # Fout bij verwerken in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ types van Fout ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/errors/error-processing.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 Soms kan een fout tijdens de uitvoering van een scenario voorkomen. Dit gebeurt gewoonlijk als een service niet beschikbaar is omdat er geen verbinding is met een service of als een validatie mislukt. In dit artikel worden de algemene fouten besproken die u kunt tegenkomen.
 

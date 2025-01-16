@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: HTTP&gt; Overige modules
-description: De  [!DNL Adobe Workfront Fusion]  app van HTTP verstrekt diverse modules voor mededeling die op het protocol van de Overdracht van de Hypertext (HTTP) wordt gebaseerd. HTTP is de stichting van gegevensmededeling voor het World Wide Web. U kunt de modules gebruiken om Web-pagina's en dossiers te downloaden, Web-haken en API eindpunten te roepen, etc.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: ff2cd098-d1d7-43a3-9f00-15e0f6e92332
-source-git-commit: 45540ccc3b9fca98f8aaae86ac4d6574a067a6e4
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
 
 # HTTP > Overige modules
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ HTTP > Andere modules ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/universal-connectors/http-modules.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 >[!NOTE]
 >

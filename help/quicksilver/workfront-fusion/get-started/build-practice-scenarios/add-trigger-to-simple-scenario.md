@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Een triggermodule toevoegen aan een basisscenario
-description: Leer hoe te om een trekkermodule toe te voegen om het scenario toe te staan om periodiek naar nieuwe verzoeken te zoeken en hen in projecten om te zetten.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 067ee6a1-f4c1-4602-ac39-0283255cced8
-source-git-commit: 7ad3fbcfa5be5074016f399560cca509d81f4714
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
 
 # Een triggermodule toevoegen aan een basisscenario
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ voeg een trekkermodule aan een basisscenario ](https://experienceleague.adobe.com/docs/workfront-fusion/using/build-practice-scenarios/add-trigger-to-basic-scenario.html) toe
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 De triggermodules worden aan het begin van een scenario geplaatst. Deze modules beginnen een scenario uitvoering wanneer specifieke criteria wanneer er een verandering in een bepaalde dienst is geweest. De wijziging kan bestaan uit het maken van nieuwe records, het verwijderen van records, het bijwerken van records, enzovoort.
 

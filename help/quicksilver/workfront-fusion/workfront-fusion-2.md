@@ -4,25 +4,37 @@ product-area: workfront-integrations
 keywords: fusie
 navigation-topic: workfront-fusion-navigation-topic
 title: Adobe Workfront Fusion
-description: Adobe Workfront Fusion vereist naast een Adobe Workfront-licentie een Adobe Workfront Fusion-licentie.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: d28b6344-070a-4cfc-ab5a-b5c279a8b805
-source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]
 
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ de documentatie van de Fusie van Workfront ](https://experienceleague.adobe.com/docs/workfront-fusion/using/home.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
+
 >[!NOTE]
 >
 >[!DNL Adobe Workfront Fusion] vereist een [!DNL Adobe Workfront Fusion] licentie naast een [!DNL Adobe Workfront] licentie.
 
-Voor trainingsmateriaal met betrekking tot [!DNL Adobe Workfront Fusion], zie [ de opleidingsoverzicht van de Fusie van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/welcome-to-workfront-fusion/workfront-fusion-overview.html?lang=en).
+Voor trainingsmateriaal met betrekking tot [!DNL Adobe Workfront Fusion], zie [ de opleidingsoverzicht van de Fusie van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/welcome-to-workfront-fusion/workfront-fusion-overview.html).
 
 Voor informatie over de recentste verhogingen met de Fusie van Workfront, zie [[!DNL Adobe Workfront Fusion]  versieactiviteit ](../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 

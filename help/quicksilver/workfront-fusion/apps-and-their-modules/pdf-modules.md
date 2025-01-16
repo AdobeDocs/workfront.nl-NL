@@ -1,18 +1,30 @@
 ---
 title: Adobe PDF Services
-description: Adobe PDF Services
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e0a5736b-dbdb-43c6-83ff-e88a5625a5bf
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '3241'
+source-wordcount: '3312'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe PDF Services]
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ de Diensten van Adobe PDF ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/pdf-modules.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 Met [!DNL Adobe Workfront Fusion] [!DNL Adobe PDF Services] kunt u gegevens uit een PDF-bestand extraheren of een nieuw PDF-bestand genereren op basis van gegevens die u opgeeft. Daarnaast kunt u verschillende bestandstypen omzetten in PDF of PDF in andere bestandstypen. Met PDF Services kunt u ook metagegevens voor een PDF-bestand combineren, comprimeren of lezen, en wachtwoordbeveiliging voor het bestand instellen.
 

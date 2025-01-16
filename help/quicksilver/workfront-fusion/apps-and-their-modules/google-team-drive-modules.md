@@ -5,13 +5,13 @@ product-area: workfront-integrations;agile-and-teams;user-management
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Google Team Drive-modules
-description: De  [!DNL Adobe Workfront Fusion Google Team Drive]  modules laten u toe om, dossiers te controleren, bij te werken, te kopiëren, te schrappen of terug te winnen en omslagen in uw  [!DNL Google Shared]  Aandrijving te creëren.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 8b4c057f-bb98-44d1-9b71-cbeaa402a1c3
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1110'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,18 @@ ht-degree: 0%
 # [!DNL Google Team Drive] modules
 
 Met de modules [!DNL Adobe Workfront Fusion] [!DNL Google Team Drive] kunt u bestanden controleren, uploaden, bijwerken, kopiëren, verwijderen of ophalen en kunt u mappen maken in uw [!DNL Google Shared Drive] .
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ modules van de Aandrijving van het Team van Google ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-team-drive-modules.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 Als u [!DNL Google Team Drive] met [!DNL Adobe Workfront Fusion] wilt gebruiken, hebt u een [!DNL Google Workspace] -account nodig. Als u geen hebt, kunt u a [!DNL Google Workspace] rekening bij [[!DNL Google Workspace]  creëren onderteken omhoog plaats ](https://workspace.google.com/business/signup/welcome).
 

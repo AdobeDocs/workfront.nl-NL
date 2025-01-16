@@ -3,17 +3,29 @@ product-area: workfront-navigation
 product-previous: workfront-fusion
 navigation-topic: workfront-fusion-2-0
 title: Navigeren door dashboards in Workfront Fusion
-description: Meer informatie over dashboards in Workfront Fusion
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 9f7597103e06f3f273dc400440ffa5db6742427b
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '727'
 ht-degree: 0%
 
 ---
 
 # Navigeren door dashboards in Workfront Fusion
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ navigeren de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/docs/workfront-fusion/using/get-started-with-fusion/navigate-workfront-fusion/navigate-workfront-fusion.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 Wanneer u zich aanmeldt bij Workfront Fusion, gaat u naar het dashboard van uw organisatie. Van hier, kunt u aan verschillende gebieden van Fusie navigeren door op de gebieden in de linkernavigatie te klikken.
 

@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: http-modules
 title: HTTP &gt; een OAuth 2.0-aanvraagmodule maken
-description: Om een  [!DNL Adobe Workfront Fusion]  HTTP(S) verzoek aan servers te maken die een vergunning OAuth 2.0 vereisen, moet u eerst een verbinding OAuth tot stand brengen. [!DNL Adobe Workfront Fusion]  zorgt ervoor dat alle vraag die met deze verbinding wordt gemaakt de aangewezen vergunningskopballen heeft en automatisch bijbehorende tokens verfrist wanneer vereist.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 6c68c9b9-9f74-44a7-94ed-3785081b8331
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1937'
+source-wordcount: '1971'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request] module
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ HTTP > maakt een OAuth 2.0 verzoekmodule ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/universal-connectors/http-module-make-an-oauth-2-request.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 >[!NOTE]
 >

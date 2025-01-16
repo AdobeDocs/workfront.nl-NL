@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: De geschiedenis van een scenario weergeven in Adobe Workfront Fusion
-description: U kunt informatie over alle looppas voor een scenario tonen, of u kunt alle uitvoeringen van het scenario voor specifieke gegevens zoeken.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: cc2c3f87-34dc-4a06-9f5f-1a7fb10a3b82
-source-git-commit: 2e26c4e4b5f331ed2e609381ef442f45e90c4faa
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
 
 # De geschiedenis van een scenario weergeven in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ Mening de uitvoeringsgeschiedenis van een scenario ](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/view-scenario-execution-history.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 U kunt informatie over de gebeurtenissen of de uitvoeringen van een scenario tonen, of u kunt alle uitvoeringen van het scenario voor specifieke gegevens zoeken.
 

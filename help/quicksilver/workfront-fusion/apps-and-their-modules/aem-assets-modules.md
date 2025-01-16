@@ -6,18 +6,30 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Adobe Experience Manager Assets-modules
-description: Met de  [!DNL Adobe Experience Manager Assets]  schakelaar voor  [!DNL Adobe Workfront Fusion], kunt u, activa tot stand brengen uploaden en bijwerken, en omslagen en activa kopiëren of bewegen.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: a287bc6d7d4755deb19296523d1666f0fcb60526
+source-git-commit: 3983d811a849c01b3c34b1cd6ee895e5552225a6
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1524'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Experience Manager Assets] modules
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ modules van Adobe Experience Manager Assets ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/aem-assets-modules.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 Met de [!DNL Adobe Experience Manager Assets] -connector voor [!DNL Adobe Workfront Fusion] kunt u elementen maken, uploaden en bijwerken en mappen en elementen kopiëren of verplaatsen.
 

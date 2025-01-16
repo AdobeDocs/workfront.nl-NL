@@ -5,18 +5,30 @@ product-area: workfront-integrations;documents
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Dropbox
-description: In a  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema's automatiseren die Dropbox gebruiken, evenals het verbinden met veelvoudige derdetoepassingen en de diensten.Dit staat u toe om activiteiten zoals controle, het zoeken, het terugwinnen van, het een lijst maken van, en het uitgeven van dossiers en omslagen in uw Dropbox te automatiseren.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: a35631d7-40ac-4e7f-9a37-ad3879c0b6a2
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '2864'
+source-wordcount: '2896'
 ht-degree: 0%
 
 ---
 
 # [!DNL Dropbox] modules
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ modules van de Dropbox ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/dropbox-modules.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 In een [!DNL Adobe Workfront Fusion] -scenario kunt u workflows automatiseren die [!UICONTROL Dropbox] of [!DNL Dropbox Business] gebruiken en deze koppelen aan meerdere toepassingen en services van derden. Hierdoor kunt u activiteiten zoals het controleren, zoeken, ophalen, weergeven, maken en bewerken van bestanden en mappen in uw [!UICONTROL Dropbox] automatiseren.
 

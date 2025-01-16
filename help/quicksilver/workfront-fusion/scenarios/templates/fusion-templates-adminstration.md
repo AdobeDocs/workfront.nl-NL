@@ -3,18 +3,31 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Adobe Workfront Fusion Templates-beheer
-description: Als beheerder hebt u toestemming om sjablonen die door anderen zijn gemaakt, weer te geven, te wijzigen, te hernoemen, te publiceren, goed te keuren en te verwijderen. U kunt deze acties van de [!UICONTROL Templates] pagina op het  [!DNL Adobe Workfront Fusion Administration]  gebied uitvoeren.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 63c14183-0d22-44f3-87e5-c311cfbf5540
-source-git-commit: 2b67b5fb951b5ae7867144c444411ebd1c299e75
+source-git-commit: 8163f9f12bb27bbc8adfde34fc1e1f0f8c8be7f9
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '639'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion] Sjabloonbeheer
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in de artikelen:
+>
+>* [ keur of verwerp malplaatjes voor het Openbare lusje goed ](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/manage-templates-admin/approve-templates.html)
+>* [ geeft malplaatjes uit ](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/manage-templates-admin/edit-templates.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 Als beheerder hebt u toestemming om sjablonen die door anderen zijn gemaakt, weer te geven, te wijzigen, te hernoemen, te publiceren, goed te keuren en te verwijderen. U kunt deze handelingen uitvoeren vanaf de pagina [!UICONTROL Templates] in het [!DNL Adobe Workfront Fusion Administration] -gebied.
 

@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
 title: Items toewijzen met behulp van functies in  [!DNL Adobe Workfront Fusion]
-description: Wanneer u items toewijst, kunt u functies gebruiken om eenvoudige of complexe formules te maken.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: e64d9b1e-8576-43db-ac29-0d386a482fbc
-source-git-commit: d175a3d43f13338661d8b7e1cb79038a36522ff9
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
 
 # Items toewijzen met behulp van functies in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ kaart een punt gebruikend functies ](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/map-data/map-using-functions.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 Wanneer u items toewijst, kunt u functies gebruiken om eenvoudige of complexe formules te maken. De functies die beschikbaar zijn in [!DNL Adobe Workfront Fusion] zijn vergelijkbaar met functies in Excel en in sommige programmeertalen:
 

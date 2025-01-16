@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Adobe Campaign v7/v8-modules
-description: Met de  [!DNL Adobe Campaign]  modules, kunt u een  [!DNL Adobe Workfront Fusion]  scenario beginnen dat op gebeurtenissen in uw  [!DNL Adobe Campaign]  rekening wordt gebaseerd, overeenkomsten en andere verslagen tot stand brengen, lezen of bijwerken, onderzoek naar verslagen gebruikend criteria u plaatst, en documenten uploadt.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 84e8fa35-0c3c-46bd-8886-88c6d8d9e1d5
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1195'
+source-wordcount: '1237'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Campaign] modules
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ modules van Adobe Campaign ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/adobe-campaign-classic-connector.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 Met de [!DNL Adobe Campaign] -modules kunt u een [!DNL Adobe Workfront Fusion] -scenario starten op basis van gebeurtenissen in uw [!DNL Adobe Campaign v7/v8] -account, records maken, lezen of bijwerken, records zoeken aan de hand van criteria die u instelt en aangepaste API-aanroepen uitvoeren.
 

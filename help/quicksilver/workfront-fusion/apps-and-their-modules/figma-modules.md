@@ -5,18 +5,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Figuurmodules
-description: Met de  [!DNL Adobe Workfront Fusion]  modules van Figma, kunt u lijsten van commentaren, dossiers, dossierversies, of projecten terugwinnen. U kunt ook een opmerking plaatsen of een aanroep van de figma-API maken.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: d88db592-32d4-4765-952f-9ffb58cf1720
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '2025'
+source-wordcount: '2069'
 ht-degree: 0%
 
 ---
 
 # [!DNL Figma] Modules
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* {de Modules van 0} Cijfers ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/figma-modules.html)[
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 Met de modules [!DNL Adobe Workfront Fusion] [!DNL Figma] kunt u lijsten met opmerkingen, bestanden, bestandsversies of projecten ophalen. U kunt ook een opmerking plaatsen of de [!DNL Figma] API aanroepen.
 

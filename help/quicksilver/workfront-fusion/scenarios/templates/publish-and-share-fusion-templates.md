@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Publish en deel  [!DNL Adobe Workfront Fusion]  malplaatjes
-description: Wanneer u een malplaatje creeert, wordt uw malplaatje beschikbaar voor al uw teamleden. Als u het malplaatje met iemand buiten uw team wilt delen, moet u het eerst publiceren.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: aaa59a1e-aa16-41f5-9f56-ce0615c1b685
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
 
 # Publish en delen van [!DNL Adobe Workfront Fusion] sjablonen
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ Publish en aandeelmalplaatjes ](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-and-manage-templates/publish-and-share-fusion-templates.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 Wanneer u een malplaatje creeert, wordt uw malplaatje beschikbaar voor al uw teamleden. Als u het malplaatje met iemand buiten uw team wilt delen, moet u het eerst publiceren.
 

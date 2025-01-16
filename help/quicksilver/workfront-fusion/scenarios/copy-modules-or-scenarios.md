@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Modules of scenario's van het exemplaar in  [!DNL Adobe Workfront Fusion]
-description: Modules of scenario's van het exemplaar in  [!DNL Adobe Workfront Fusion]
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 24e77a56-d676-4cf1-a801-1c328ffd0c4e
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
 
 # Modules of scenario&#39;s kopiëren in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ modules of scenario&#39;s van het Exemplaar ](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/add-modules/copy-modules-or-scenarios.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 U kunt modules, groepen modules, of volledige scenario&#39;s in [!DNL Adobe Workfront Fusion] kopiëren. Deze capaciteit staat u toe om scenario&#39;s of delen van scenario&#39;s opnieuw te gebruiken zonder het moeten hen opnieuw bouwen
 

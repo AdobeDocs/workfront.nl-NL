@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: AWS S3-modules
-description: De  [!DNL Adobe Workfront Fusion AWS]  S3 modules laten u verrichtingen op uw S3 emmers uitvoeren.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 33623b5d-d9ff-4d41-b938-33378f50539e
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1217'
+source-wordcount: '1280'
 ht-degree: 0%
 
 ---
 
 # AWS S3-modules
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ AWS S3 modules ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/aws-s3-modules.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 Met de [!DNL Adobe Workfront Fusion AWS] S3-modules kunt u bewerkingen op uw S3-emmers uitvoeren.
 
@@ -73,7 +85,7 @@ De AWS S3-connector gebruikt het volgende:
  <tbody> 
   <tr> 
    <td role="rowheader">Basis-URL</td> 
-   <td>https://s3.&lbrace;&lbrace;parameter.region&rbrace;&rbrace;.amazonaws.com</td> 
+   <td>https://s3.{{{parameters.region}}.amazonaws.com</td> 
   </tr>
   <tr> 
    <td role="rowheader">API-tag</td> 

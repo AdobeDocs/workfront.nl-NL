@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: mapping
 title: Typedruk in Adobe Workfront Fusion
-description: Dit document beschrijft hoe  [!DNL Adobe Workfront Fusion]  zich in situaties gedraagt wanneer het waarden in verwachte en onverwachte gegevensformaten ontvangt.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 847a17c9-bd67-4132-81a8-2a5fe8d516cb
-source-git-commit: d09174b874ff59676a28881de02ae4e7196d0f80
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
 
 # Type afgedwongen omzetting in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ Druk van het Type ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/mapping-panel/data-types/type-coercion.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 ## Toegangsvereisten
 

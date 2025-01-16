@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Modules archiveren
-description: In a  [!DNL Adobe Workfront Fusion]  scenario, kunt u een archief, zoals een gecomprimeerd dossier, met veelvoudige derdetoepassingen en de diensten verbinden. U kunt bijvoorbeeld een scenario configureren dat
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: e29b6d39-3666-4d6d-a178-1983ae9f3aa9
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '534'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Archive] modules
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ modules van het Archief ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/tools-and-transformers/archive-modules.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 In een [!DNL Adobe Workfront Fusion] scenario, kunt u een archief, zoals een gecomprimeerd dossier, in uw scenario gebruiken, toestaand u om het in uw automatiseringen of integraties te gebruiken.
 

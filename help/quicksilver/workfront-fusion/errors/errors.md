@@ -4,21 +4,32 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: workfront-fusion-2-0
 title: Fouten in Adobe Workfront Fusion
-description: Adobe Workfront Fusion vereist naast een Adobe Workfront-licentie een Adobe Workfront Fusion-licentie.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 16205e28-92e3-4c90-afa5-35eb793b239b
-source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
+source-git-commit: 4ce5ccc67a1f9cb32e07d956746a7d0d7c7ccbe1
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
 
 # Fouten in Adobe Workfront Fusion
 
->[!NOTE]
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in de artikelen:
+>
+>* [ vorm fout behandeling: artikelindex ](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/configure-error-handling/config-error-handling-toc.html)
+>* [ Verwijzingen van de Fout: artikelindex ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/errors/errors-toc.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 >
 >[!DNL Adobe Workfront Fusion] vereist een [!DNL Adobe Workfront Fusion] licentie naast een [!DNL Adobe Workfront license] .
 

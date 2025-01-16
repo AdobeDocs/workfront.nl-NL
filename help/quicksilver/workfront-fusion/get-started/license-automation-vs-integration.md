@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Adobe Workfront Fusion-licenties
-description: Adobe Workfront Fusion biedt twee verschillende licenties die bepalen welke functionaliteit u kunt gebruiken. Uw organisatie koos één van deze vergunningen toen het Workfront Fusion kocht.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 37fecce9-c1b8-474b-abc2-09398bfcc629
-source-git-commit: 1b90566477eb57b97f3484ed7f0eeed5c88c495f
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '625'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion] licenties
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ de Vergunningen van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 [!DNL Workfront Fusion] heeft twee licentiemodellen, een nieuw op bewerkingen gebaseerd model en een verouderd op connectors gebaseerd model.
 
@@ -23,7 +35,7 @@ ht-degree: 0%
 
 Het nieuwe [!DNL Workfront Fusion] -licentiemodel is gebaseerd op het aantal bewerkingen dat uw organisatie gebruikt. In dit model hebben alle organisaties toegang tot dezelfde functionaliteit.
 
-Als uw organisatie een Workfront Ultimate-plan heeft, wordt uw Fusion-exemplaar in uw abonnement opgenomen en is een onbeperkt aantal Fusion-bewerkingen per maand toegestaan. Als uw organisatie een Workfront Premier- of Select-abonnement heeft, kan Fusion worden aangeschaft en wordt de prijs gebaseerd op het aantal bewerkingen dat in een maand wordt uitgevoerd.
+Als uw organisatie een Workfront Ultimate-plan heeft, wordt uw Fusion-exemplaar opgenomen in uw abonnement en wordt een onbeperkt aantal Fusion-bewerkingen per maand toegestaan. Als uw organisatie een Workfront Prime- of Select-abonnement heeft, kan Fusion worden aangeschaft en wordt de prijs gebaseerd op het aantal bewerkingen dat binnen een maand wordt uitgevoerd.
 
 Voor informatie over wat als verrichting onder het nieuwe verlenen van vergunningen model telt, zie [ Verrichtingen in  [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/operations-in-workfront-fusion.md).
 

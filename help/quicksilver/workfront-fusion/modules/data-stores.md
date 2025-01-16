@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
 title: Gegevensopslag in  [!DNL Adobe Workfront Fusion]
-description: Een gegevensopslag, gelijkend op een gegevensbestand of een eenvoudige lijst, kan gegevens van scenario's opslaan, die het mogelijk maken om gegevens tussen individuele scenario's of scenario looppas over te brengen. U kunt een gegevensopslag gebruiken om nieuwe gegevens van diverse systemen tijdens synchronisatie op te slaan.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: 00a969175626d27b70d516921097725fdf818799
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1277'
 ht-degree: 0%
 
 ---
 
 # Gegevensopslag in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ creeer en beheer gegevensopslag ](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/map-data/data-stores.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 Een gegevensopslag, gelijkend op een gegevensbestand of een eenvoudige lijst, kan gegevens van scenario&#39;s opslaan, die het mogelijk maken om gegevens tussen individuele scenario&#39;s of scenario looppas over te brengen. U kunt een gegevensopslag gebruiken om nieuwe gegevens van diverse systemen tijdens synchronisatie op te slaan.
 
@@ -78,18 +90,18 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 
 <!--If your organization is on the new Workfront plan model (Select, Prime, and Ultimate packages), your total data store size is:-->
 
-Als uw organisatie zich op het nieuwe het planmodel van Workfront (Uitgezochte, Primaire, en Ultimate pakketten) bevindt, beïnvloedt het plan van uw organisatie de grootte en het aantal gegevensopslag beschikbaar uw instantie van Fusion.
+Als uw organisatie zich op het nieuwe het planmodel van Workfront (Uitgezochte, Prime, en de pakketten van Ultimate) bevindt, beïnvloedt het plan van uw organisatie de grootte en het aantal gegevensopslag beschikbaar uw instantie van Fusion.
 
-### Ultieme planning
+### Ultimate-plan
 
 Fusion-instanties op het Ultimate-pakket ontvangen:
 
 * 100 MB aan ruimte
 * 50 gegevensopslag
 
-### Abonnementen selecteren en voorbereiden
+### Abonnementen selecteren en Prime
 
-Fusion-instanties op de Select- of Primaire pakketten ontvangen:—>
+Fusion-instanties op de pakketten Select of Prime ontvangen:—>
 
 * 100 MB voor de eerste 500K verrichtingen.
 

@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: AI Assistant in Workfront Fusion
-description: AI Assistant in Workfront Fusion
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 99d614da-e900-448b-ab80-13f002638670
-source-git-commit: 2b455fb2d3892c6bb796aa7ea57a60c861c3d599
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
 
 # AI Assistant in Workfront Fusion
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ AI Medewerker in de Fusie van Workfront ](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/fusion-ai-assistant.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 AI Assistant kan informatie zoeken in Workfront-documentatie, zodat u Adobe Experience League niet hoeft te bezoeken om de hulp te krijgen die u nodig hebt.
 

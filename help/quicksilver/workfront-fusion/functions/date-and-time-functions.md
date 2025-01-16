@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
 title: Datum- en tijdfuncties in Adobe Workfront Fusion
-description: De volgende datum- en tijdfuncties zijn beschikbaar in het Adobe Workfront Fusion-toewijzingspaneel.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 76c63afc-4bb6-4895-9bba-6b3913ecbcf6
-source-git-commit: 6374a1a0ca49507872c71eaebd5227e88e3225b7
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1869'
+source-wordcount: '1929'
 ht-degree: 0%
 
 ---
 
 # Datum- en tijdfuncties in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ functies van de Datum en van de tijd ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/mapping-panel/functions/date-and-time-functions.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 ## Toegangsvereisten
 

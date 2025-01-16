@@ -5,18 +5,30 @@ product-area: workfront-integrations;documents
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Google Slides-modules
-description: Met de Adobe Workfront Fusion Google Slides-modules kunt u presentaties maken, bijwerken, weergeven en/of verwijderen en afbeeldingen uploaden naar presentaties in uw Google Slides-account.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 680a5328-1d50-4434-beda-7a4670a6e458
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1284'
 ht-degree: 0%
 
 ---
 
 # [!DNL Google Slides] modules
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ Google Slides modules ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-slides-modules.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 Met de modules [!DNL Adobe Workfront Fusion] [!DNL Google Slides] kunt u presentaties maken, bijwerken, weergeven en/of verwijderen en afbeeldingen uploaden naar presentaties in uw [!DNL Google Slides] -account.
 

@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Afbeeldingsmodules
-description: Met de Adobe Workfront Fusion Image-modules kunt u informatie ophalen over een bepaalde afbeelding (afmetingen, type, enzovoort), een afbeelding omzetten in een andere bestandsindeling en de grootte van de afbeelding rechtstreeks wijzigen.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 89efa9d5-00c9-4bb5-97b3-2b2f9d73721d
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '832'
 ht-degree: 0%
 
 ---
 
 # Afbeeldingsmodules
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ modules van het Beeld ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/tools-and-transformers/image-module.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 [!DNL Adobe Workfront Fusion] [!UICONTROL Image] -modules kunt u informatie ophalen over een bepaalde afbeelding (afmetingen, type, enzovoort), een afbeelding omzetten in een andere bestandsindeling en de grootte van de afbeelding rechtstreeks wijzigen.
 

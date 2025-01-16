@@ -9,16 +9,28 @@ author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
-source-git-commit: 6470ea408bfd354707387f7916edb08b4879168c
+source-git-commit: 3983d811a849c01b3c34b1cd6ee895e5552225a6
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
 
 # Overzicht van Adobe Workfront Fusion-releaseactiviteit
 
-Adobe Workfront Fusion maakt naadloos verbinding tussen uw apps en webservices, zodat u zich kunt concentreren op nieuwe taken in plaats van dezelfde taken steeds opnieuw uit te voeren.
+
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ overzicht van de de versieactiviteit van Adobe Workfront Fusion ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt binnenkort verwijderd. Adobe Workfront Fusion maakt naadloos verbinding met uw apps en webservices, zodat u zich kunt concentreren op nieuwe taken in plaats van dezelfde taken steeds opnieuw uit te voeren.
 
 Voor informatie over hoe te om de Fusie van Workfront te gebruiken, zie [ de Fusie van Adobe Workfront ](../../../workfront-fusion/workfront-fusion-2.md).
 

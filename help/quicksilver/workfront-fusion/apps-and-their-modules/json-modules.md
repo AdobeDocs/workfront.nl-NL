@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: JSON-modules
-description: De Adobe Workfront Fusion JSON-app biedt modules voor het verwerken van gegevens in JSON-indeling, zodat Adobe Workfront Fusion verder kan werken met de gegevensinhoud of nieuwe JSON-inhoud kan maken.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 60540608-9d2e-4e10-9fb2-5388dda64784
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1135'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL JSON] modules
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ JSON modules ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/tools-and-transformers/json-modules.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 De app [!DNL Adobe Workfront Fusion] [!UICONTROL JSON] biedt modules voor het verwerken van gegevens in JSON-indeling, zodat [!DNL Adobe Workfront Fusion] verder kan werken met de gegevensinhoud of nieuwe JSON-inhoud kan maken.
 
@@ -88,7 +100,7 @@ Als het JSON-tekenreeksveld een verzameling `{ ... }` bevat, bestaat de uitvoer 
 >       "name" : "Peter",
 >
 >    
->   "ID" : 1
+   "ID" : 1
 >}
 >```
 >
@@ -108,7 +120,7 @@ Als het JSON-tekenreeksveld een array `[ ... ]` bevat, bestaat de uitvoer uit ee
 >   },
 >
 >  
-> {
+ {
 >       "name" : "Mike",
 >       "ID" : 2
 >   }
@@ -248,26 +260,25 @@ Deze actiemodule transformeert een object naar een json-tekenreeks.
 >
 **Voorbeeld:**
 >
->     ```
->     {
->     
->     "books": [
->     
->     {
->     
->     "id": "ID",
->     
->     "title": "Title",
->     
->     "author": "Author"
->     
->     }
->     
->     ]
->     
->     }
->     
->     ```
+```
+{
+
+"books": [
+
+{
+
+"id": "ID",
+
+"title": "Title",
+
+"author": "Author"
+
+}
+
+]
+
+}
+```
 >
 1. Klik op **[!UICONTROL Save]**. Het veld [!UICONTROL Specification] in de gegevensstructuur bevat nu de gegenereerde structuur.
 1. Wijzig de naam van de gegevensstructuur in een specifiekere naam en klik op **[!UICONTROL Save]** . Een veld dat overeenkomt met het kenmerk van de hoofdarray wordt als een toewijzingsveld weergegeven in de instellingen van de JSON-module.

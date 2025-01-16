@@ -4,18 +4,31 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
 title: Adobe Workfront Fusion organisaties en teams
-description: Met de functies van Adobe Workfront Fusion Organisation en Teams kunnen ondernemingen de toegang tot scenario's en andere functies in Fusion controleren.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: 063c4a885d43b41ba6ff72ac22a1552486531fa6
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1237'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion] organisaties en teams
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in de artikelen:
+>
+>* [ overzicht van de organisaties en de teams van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/org-and-team-overview.html)
+>* [ plaats de Opties van het Bericht van het Team ](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/set-team-notification-options.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 Met de functies Organisatie en Teams van [!DNL Adobe Workfront Fusion] kunnen bedrijven de toegang tot scenario&#39;s en andere functies in Fusion beheren.
 

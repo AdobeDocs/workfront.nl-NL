@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Een praktijkintegratiescenario maken in Adobe Workfront Fusion
-description: In dit artikel wordt beschreven hoe u een integratiescenario kunt maken met Adobe Workfront Fusion. Met integratiescenario's worden afzonderlijke apps met elkaar verbonden, zodat uw gegevens door verschillende toepassingen kunnen worden geleid.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 643bb1d5-d7bc-402b-8ed1-9ca9a30e4560
-source-git-commit: cb4edb02aad8a0738ea80f058fcc2bc016832ce1
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '2013'
+source-wordcount: '2062'
 ht-degree: 0%
 
 ---
 
 # Een praktijkintegratiescenario maken in Adobe Workfront Fusion
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ Werkschema voor het creëren van een scenario ](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/plan-a-scenario/create-a-scenario-workflow.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 In dit artikel wordt beschreven hoe u een integratiescenario kunt maken met Adobe Workfront Fusion. Met integratiescenario&#39;s worden afzonderlijke apps met elkaar verbonden, zodat uw gegevens door verschillende toepassingen kunnen worden geleid.
 

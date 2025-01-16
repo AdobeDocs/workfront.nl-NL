@@ -3,13 +3,13 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: De scenario redacteur in  [!DNL Adobe]  Fusion van Workfront
-description: De scenario redacteur staat u toe om scenario's in een visuele interface tot stand te brengen en uit te geven.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 4377303d-7615-41eb-b0cc-4bf884899361
-source-git-commit: cb4edb02aad8a0738ea80f058fcc2bc016832ce1
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1080'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,18 @@ ht-degree: 0%
 # De scenario-editor in [!DNL Adobe Workfront Fusion]
 
 De scenario redacteur staat u toe om scenario&#39;s in een visuele interface tot stand te brengen en uit te geven.
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ de scenarioredacteur in de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/docs/workfront-fusion/using/get-started-with-fusion/navigate-workfront-fusion/scenario-editor.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 ![](assets/scenario-editor.jpg)
 

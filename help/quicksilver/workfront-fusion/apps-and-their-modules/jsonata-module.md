@@ -1,16 +1,29 @@
 ---
 title: JSONata-modules
-description: De Adobe Workfront Fusion JSONata-connector biedt een module voor het verwerken van gegevens in JSON-indeling, zodat Adobe Workfront Fusion verder kan werken met de gegevensinhoud.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: b7a6ecd9089c3a5517c56b849b860d57a900dade
+exl-id: 5fd835a2-04cd-427c-a99f-985a99ecef0d
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL JSONata] modules
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ modules JSONata ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/tools-and-transformers/jsonata-module.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 Met de [!DNL Adobe Workfront Fusion] [!UICONTROL JSONata] -connector kunt u zoeken naar JSON-objecten. Voor deze module is geen verbinding vereist.
 

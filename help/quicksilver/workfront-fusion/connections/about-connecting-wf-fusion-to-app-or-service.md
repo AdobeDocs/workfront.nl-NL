@@ -3,18 +3,31 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: connections-annd-webhooks
 title: Overzicht van verbindingen
-description: Voor de meeste apps, is het noodzakelijk om een verbinding tot stand te brengen, waardoor  [!DNL Adobe Workfront Fusion]  met de bepaalde derdedienst volgens de montages van het specifieke scenario kan communiceren.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 2d5cf083-9893-45e8-8f7d-0f8f5a74eef3
-source-git-commit: b90343eab40e91c6f5cddeaa960ce9c9c97b1d29
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
 
 # Overzicht van verbindingen
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in de artikelen:
+>
+>* [ Overzicht van de Verbinding ](https://experienceleague.adobe.com/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/connection-overview.html)
+>* [ beheert verbindingen ](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/connect-to-applications/manage-connections.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 <!-- Audited: 3/2024-->
 

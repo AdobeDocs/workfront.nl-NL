@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Momenteel beschikbare Adobe Workfront Fusion-sjablonen
-description: De volgende openbare sjablonen zijn momenteel beschikbaar in Adobe Workfront Fusion.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 3c22860b1a9bdc653a772a48ccfcbb4456b11c8c
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1323'
 ht-degree: 0%
 
 ---
 
 # Momenteel beschikbare Adobe Workfront Fusion-sjablonen
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ momenteel beschikbare malplaatjes van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-and-manage-templates/currently-available-fusion-templates.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 De volgende openbare sjablonen zijn momenteel beschikbaar in Adobe Workfront Fusion.
 

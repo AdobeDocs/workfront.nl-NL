@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Een triggermodule toevoegen aan een basisscenario
-description: Leer hoe te om een trekkermodule toe te voegen om het scenario toe te staan om periodiek naar nieuwe verzoeken te zoeken en hen in projecten om te zetten.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: f4588063-024f-4520-986e-45342a6b6777
-source-git-commit: 1196e2d7a6d6750944a7c6209222f07382abfee7
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '553'
 ht-degree: 0%
 
 ---
 
 # Een functie gebruiken om een project in een eenvoudig scenario bij te werken in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ Gebruik een functie om een project in een basisscenario bij te werken ](https://experienceleague.adobe.com/docs/workfront-fusion/using/build-practice-scenarios/use-function-to-build-practice-scenario.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 Het bijwerken van een Workfront-werkitem is een veelgebruikte manier om Workfront Fusion te gebruiken. In dit voorbeeld gebruikt u een functie om de naam van een project in hoofdletters te wijzigen.
 

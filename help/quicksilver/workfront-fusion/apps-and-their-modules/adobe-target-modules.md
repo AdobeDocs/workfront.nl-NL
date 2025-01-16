@@ -5,18 +5,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Adobe Target-modules
-description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema's automatiseren die  [!DNL Adobe Target], as well as connect it to multiple third-party applications and services. [!DNL Adobe Target]  modules gebruiken u toestaan om, verslagen tot stand te brengen te lezen, bij te werken of te schrappen, van alle verslagen van een bepaald type een lijst te maken, onderzoeksverslagen die op criteria worden gebaseerd u specificeert, of een douane API vraag aan  [!DNL Adobe Target]  API uit te voeren.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1913'
+source-wordcount: '1945'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Target] Modules
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ Modules van Adobe Target ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/adobe-target-modules.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 In een [!DNL Adobe Workfront Fusion] -scenario kunt u workflows automatiseren die [!DNL Adobe Target] gebruiken en deze koppelen aan meerdere toepassingen en services van derden. Met [!DNL Adobe Target] -modules kunt u records maken, lezen, bijwerken of verwijderen, alle records van een bepaald type weergeven, zoekrecords weergeven op basis van criteria die u opgeeft, of een aangepaste API-aanroep naar de [!DNL Adobe Target] API uitvoeren.
 

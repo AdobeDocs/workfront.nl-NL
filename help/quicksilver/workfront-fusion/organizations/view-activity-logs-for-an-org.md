@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
 title: Activiteitenlogboeken weergeven voor een organisatie in Adobe Workfront Fusion
-description: U kunt een logboek van activiteiten, zoals scenario verwezenlijking of activering, voor uw organisatie bekijken.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: d60dc97d-2da6-44f4-a2ee-bb5e56317695
-source-git-commit: 6f4ba4cde26978305a58cedb9ed606c6032496f1
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
 
 # Activiteitenlogboeken weergeven voor een organisatie in Adobe Workfront Fusion
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ activiteitenlogboeken van de Mening voor een organisatie ](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/view-activity-logs-for-an-org.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 <!--Move to new repo-->
 
@@ -54,7 +66,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Deze functionaliteit is alleen beschikbaar voor organisaties met het Ultimate Workfront-abonnement, dat [!DNL Workfront Fusion] bevat. U hoeft geen product meer aan te schaffen.</p>
+   <p>Deze functionaliteit is alleen beschikbaar voor organisaties met het Ultimate Workfront-plan, dat [!DNL Workfront Fusion] bevat. U hoeft geen product meer aan te schaffen.</p>
    </td> 
   </tr>
  </tbody> 

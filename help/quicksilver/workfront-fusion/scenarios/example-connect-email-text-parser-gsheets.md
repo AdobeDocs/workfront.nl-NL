@@ -3,18 +3,22 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: 'Voorbeeld van Adobe Workfront Fusion-scenario: Connect-e-mail, Text Parser en Google Sheets'
-description: Dit scenario helpt u een logboek van alle e-mailberichten tot stand brengen en hen etiketteren voor verdere actie in een spreadsheet. Hierbij wordt een e-mailhoofdtekst in twee afzonderlijke tabellen in een spreadsheet vastgelegd met Regular Expressions (Regex) als zoekpatronen. Het eerste patroon zoekt naar een uitdrukking en het tweede zoekt naar dezelfde uitdrukking en een e-mailadres.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen.
 author: Becky
 feature: Workfront Fusion
 exl-id: ebcfa3b9-3207-441c-9ce5-9af696c0119d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1099'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion] scenario-voorbeeld: Connect email, [!UICONTROL Text Parser] en [!DNL Google Sheets]
+
+>[!IMPORTANT]
+>
+>Dit artikel wordt in de nabije toekomst verwijderd.
 
 Dit scenario helpt u een logboek van alle e-mailberichten tot stand brengen en hen etiketteren voor verdere actie in een spreadsheet. Hierbij wordt een e-mailhoofdtekst in twee afzonderlijke tabellen in een spreadsheet vastgelegd met Regular Expressions (Regex) als zoekpatronen. Het eerste patroon zoekt naar een uitdrukking en het tweede zoekt naar dezelfde uitdrukking en een e-mailadres.
 

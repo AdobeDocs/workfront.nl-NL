@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: connections-annd-webhooks
 title: Verbind  [!DNL Adobe Workfront Fusion]  met de Webdienst die de tokenvergunning van API gebruikt
-description: Sommige diensten staan integratieoplossingen zoals  [!DNL Adobe Workfront Fusion]  niet toe om een app tot stand te brengen die u in uw scenario kunt gemakkelijk gebruiken.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 0feb745a-1ee0-4b29-92ab-14c12a8647d4
-source-git-commit: e61dc6646e221cffb30aad055663dcf8fd3299e2
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '905'
 ht-degree: 0%
 
 ---
 
 # Verbind [!DNL Adobe Workfront Fusion] met een Webdienst die API tokenvergunning gebruikt
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ verbind de Fusie van Adobe Workfront met de Webdienst die API tokenvergunning gebruikt ](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/connect-to-applications/connect-wf-web-service-uses-api-token-auth.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 Bij sommige services is het niet mogelijk om met integratieoplossingen zoals [!DNL Adobe Workfront Fusion] een app te maken die u eenvoudig kunt gebruiken in uw scenario.
 
@@ -42,7 +54,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
    <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
-   <p>Of</p>
+   <p>of</p>
    <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
    </td> 
   </tr> 
@@ -85,7 +97,7 @@ De procedure voor het verbinden van de service via een API-token is vergelijkbaa
 1. Meld u aan bij uw [!DNL Pushover] -account.
 1. Klik op **[!UICONTROL Create an Application/API Token]** onder aan de pagina.
 1. Vul de toepassingsgegevens in en klik op **[!UICONTROL Create an Application]** .
-1. Sla het verschafte API-token op een veilige plaats op. U zult het voor de [!DNL Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL Make a Request] module nodig hebben om met de gewenste Webdienst ([!DNL Pushover], in dit geval) te verbinden.
+1. Sla de opgegeven API-token op een veilige plaats op. U zult het voor de [!DNL Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL Make a Request] module nodig hebben om met de gewenste Webdienst ([!DNL Pushover], in dit geval) te verbinden.
 
 ## De module [!UICONTROL HTTP] instellen
 

@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Door SDL beheerde vertaalmodules
-description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u uw SDL Beheerde rekening van de Vertaling met veelvoudige derdetoepassingen en de diensten verbinden.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: e1ef114f-8ce4-4210-b176-727dc4f5e561
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '560'
 ht-degree: 0%
 
 ---
 
 # [!DNL SDL Managed Translation] modules
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ SDL Beheerde Vertaalmodules ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/sdl-managed-translation-modules.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 In een [!DNL Adobe Workfront Fusion] -scenario kunt u uw [!DNL SDL Managed Translation] -account verbinden met meerdere toepassingen en services van derden.
 

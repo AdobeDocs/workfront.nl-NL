@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: errors
 title: Foutafhandeling opnieuw proberen in  [!DNL Adobe Workfront Fusion]
-description: In sommige gevallen is het nuttig om een falende module voor een paar keer opnieuw uit te voeren als er een kans is dat de reden voor de mislukking over tijd zou kunnen overgaan.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 1058905c-6c95-4a8c-8956-e1606f1486d9
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
 
 # Foutafhandeling opnieuw proberen in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ vorm `retry` fout behandelende werkaround ](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/configure-error-handling/retry.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 In sommige gevallen is het nuttig om een falende module opnieuw uit te voeren als er een kans is dat de reden voor de mislukking over tijd zou kunnen overgaan.
 

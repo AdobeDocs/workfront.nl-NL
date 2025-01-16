@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Creeer een scenario van de praktijkautomatisering in  [!DNL Adobe Workfront Fusion]
-description: In dit artikel wordt beschreven hoe u een automatiseringsscenario kunt maken met Adobe Workfront Fusion. Automatiseringsscenario's automatiseren Workfront-processen, waaronder gegevensmanipulatie en -transformatie. Dit voorbeeld neemt u door het proces om een scenario tot stand te brengen dat naar een project zoekt en dan alle taken verbonden aan dat project terugkeert.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: f6a6eb28-9b0b-48ea-af11-f55009a01178
-source-git-commit: 8769ed5844e340e007f844370791e93393696819
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1482'
 ht-degree: 0%
 
 ---
 
 # Een praktijkautomatiseringsscenario maken in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ Werkschema voor het creëren van een scenario ](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/plan-a-scenario/create-a-scenario-workflow.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 Automatiseringsscenario&#39;s automatiseren Workfront-processen, waaronder gegevensmanipulatie en -transformatie. Dit artikel neemt u door het proces om een scenario te creëren dat naar een project zoekt en dan alle taken verbonden aan dat project terugkeert.
 
@@ -56,7 +68,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
     <tr>  
       <td>Product</td>  
       <td> 
-        Nieuw: Select- of Premiere Workfront-abonnement: uw organisatie moet Adobe Workfront Fusion aanschaffen.<br>
+        Nieuw: Select- of Prime Workfront-abonnement: uw organisatie moet Adobe Workfront Fusion aanschaffen.<br>
         Ultimate Workfront Plan: Workfront Fusion is inbegrepen.<br>
         Of<br>
         Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.

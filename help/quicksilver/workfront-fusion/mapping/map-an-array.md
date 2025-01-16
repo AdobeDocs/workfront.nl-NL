@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: mapping
 title: Wijs een serie in  [!DNL Adobe]  de Fusie van Workfront toe
-description: U kunt een array toewijzen aan een moduleveld in Adobe Workfront Fusion.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 725e0c24-cb4b-46c4-9c00-4f9cc334fbc7
-source-git-commit: f87bc22f4ce70f266a199fcb54c5a74f9e3ba914
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '907'
 ht-degree: 0%
 
 ---
 
 # Een array toewijzen in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ Kaart een serie of serieelement ](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/map-data/map-an-array.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 Een array is een speciaal type item dat het volgende kan bevatten:
 

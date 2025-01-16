@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: MIME-modules
-description: U kunt MIME-typen gebruiken in Adobe Workfront Fusion. MIME-typen (Multipurpose Internet Mail Extension) zijn labels waarmee software verschillende typen gegevens kan identificeren die op internet worden gedeeld. Webservers en browsers gebruiken het MIME-type om te bepalen wat er met een bestand moet worden gedaan. Een bestand met het MIME-type text/html wordt bijvoorbeeld anders verwerkt in een browser dan een bestand met het MIME-type image/jpeg. MIME-typen werken onafhankelijk van het besturingssysteem en de hardware.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: ebbf6ad0-a1d0-47f8-849f-7bba1e0763d3
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL MIME] modules
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ MIME modules ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/tools-and-transformers/mime.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 U kunt MIME-typen gebruiken in Adobe Workfront Fusion. MIME-typen (Multipurpose Internet Mail Extension) zijn labels waarmee software verschillende typen gegevens kan identificeren die op internet worden gedeeld. Webservers en browsers gebruiken het MIME-type om te bepalen wat er met een bestand moet worden gedaan. Een bestand met het MIME-type `text/html` wordt bijvoorbeeld anders verwerkt in een browser dan een bestand met het MIME-type `image/jpeg` . MIME-typen werken onafhankelijk van het besturingssysteem en de hardware.
 

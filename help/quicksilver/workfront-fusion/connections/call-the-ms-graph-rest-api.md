@@ -1,17 +1,29 @@
 ---
 title: Roep de WEERGAVE API van de Grafiek van MS via  [!DNL Adobe Workfront Fusion]  HTTP &gt; maak een OAuth 2.0 verzoekmodule
-description: Roep de WEERGAVE API van de Grafiek van MS via  [!DNL Adobe Workfront Fusion]  HTTP &gt; maak een OAuth 2.0 verzoekmodule
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: adae390d-8b9e-4dab-8551-605e50af5a1e
-source-git-commit: b90343eab40e91c6f5cddeaa960ce9c9c97b1d29
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 1%
+source-wordcount: '502'
+ht-degree: 0%
 
 ---
 
 # Roep de module [!UICONTROL  MS Graph REST API] aan via de module [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request] .
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ Vraag de REST API van de Grafiek van MS ](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/connect-to-applications/call-the-ms-graph-rest-api.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 <!-- Audited: 3/2024-->
 

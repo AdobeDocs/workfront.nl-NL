@@ -1,17 +1,29 @@
 ---
 title: HubSpot CRM-modules
-description: De  [!DNL Adobe Workfront Fusion]  modules van HubSpot CRM laten u toe om gebeurtenissen, verslagen, contacten, overeenkomsten, dossier en vormvoorlegging te controleren, of, verslagen, contacten, overeenkomsten, gebeurtenissen, of dossiers in uw  [!DNL HubSpot CRM]  rekening te creëren, terug te winnen, bij te werken en te schrappen.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: d58e0c12-a798-495c-8f88-fbf2a532f8a4
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '5654'
+source-wordcount: '5697'
 ht-degree: 0%
 
 ---
 
 # [!DNL HubSpot CRM] modules
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ modules HubSpot CRM ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/hubspot-crm-modules.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 Met de modules [!DNL Adobe Workfront Fusion] [!DNL HubSpot CRM] kunt u gebeurtenissen, records, contactpersonen, services, bestanden en formulierverzendingen controleren, of records, contactpersonen, services, gebeurtenissen of bestanden in uw [!DNL HubSpot CRM] -account maken, ophalen, bijwerken en verwijderen.
 

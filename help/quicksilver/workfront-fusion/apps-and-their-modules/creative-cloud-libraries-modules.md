@@ -5,18 +5,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Adobe Creative Cloud-bibliotheekmodules
-description: Met de  [!DNL Adobe Workfront Fusion Adobe Creative Cloud]  modules van Bibliotheken, kunt u een scenario beginnen wanneer een element of een bibliotheek worden gecreeerd of bijgewerkt. U kunt ook uploaden, terugwinnen, archiveren, of lijstelementen, of een vraag aan  [!DNL Adobe Creative Cloud Libraries]  API maken.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 8affa34b-803d-48a5-a986-9fbe0cb8c8f5
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1179'
+source-wordcount: '1221'
 ht-degree: 0%
 
 ---
 
 # Adobe Creative Cloud-bibliotheekmodules
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ Modules van de Bibliotheken van Adobe Creative Cloud ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/creative-cloud-libraries-modules.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 Met de modules [!DNL Adobe Workfront Fusion] [!DNL Adobe Creative Cloud Libraries] kunt u een scenario starten wanneer een element of bibliotheek wordt gemaakt of bijgewerkt. U kunt ook elementen uploaden, ophalen, archiveren of een lijst maken of een aanroep naar de API van [!DNL Adobe Creative Cloud Libraries] maken.
 

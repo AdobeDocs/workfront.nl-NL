@@ -1,18 +1,30 @@
 ---
 title: DocuSign-modules
-description: De  [!DNL Adobe Workfront Fusion DocuSign]  modules laten u toe om envelopstatus te controleren en terug te winnen, enveloppen te zoeken en terug te winnen, of een document te downloaden en te verzenden om in uw  [!DNL DocuSign]  rekening te ondertekenen.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: a6ebfe6f-dc3f-41f7-8129-bbc5775cff33
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1663'
+source-wordcount: '1711'
 ht-degree: 0%
 
 ---
 
 # DocuSign-modules
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ modules DocuSign ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/docusign-modules.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 Met de modules [!DNL Adobe Workfront Fusion] [!DNL DocuSign] kunt u de envelopstatus controleren en ophalen, enveloppen zoeken en ophalen, of een document downloaden en verzenden voor aanmelding in uw [!DNL DocuSign] -account.
 

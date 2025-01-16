@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Voer de Scenario Scoring Expert in Adobe Workfront Fusion uit
-description: De het Scoren Deskundige van het Scenario kan u helpen ervoor zorgen dat uw scenario op een manier wordt gevormd die beste praktijken volgt. Het controleert uw scenario en geeft aanbevelingen voor zijn structuur en organisatie.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 144c8dbd-a3e9-4267-b3db-0768dac8f384
-source-git-commit: 2b455fb2d3892c6bb796aa7ea57a60c861c3d599
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '358'
 ht-degree: 0%
 
 ---
 
 # Voer de Scenario Scoring Expert in Adobe Workfront Fusion uit
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ stel de Deskundige van het Score van het Scenario in werking ](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/run-scenario-scoring.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 De het Scoren Deskundige van het Scenario kan u helpen ervoor zorgen dat uw scenario op een manier wordt gevormd die beste praktijken volgt. Het controleert uw scenario en geeft aanbevelingen voor zijn structuur en organisatie.
 

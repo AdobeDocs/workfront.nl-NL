@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
 title: Gegevensstructuren in  [!DNL Adobe Workfront Fusion]
-description: Een gegevensstructuur is een document waarin de indeling van de gegevens die worden overgedragen naar Adobe Workfront Fusion in detail wordt beschreven. Gebaseerd op dit document, kan de scenario redacteur erachter komen welke module terugkeert of ontvangt welk soort gegevens. De documenten van de gegevensstructuur worden het meest meestal gebruikt voor het in series vervaardigen/ontleden van gegevensformaten zoals JSON, XML, CSV en anderen.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 35a7e906-7ca2-433d-87a9-bbb01babffb0
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
 
 # Gegevensstructuren in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ creeer en beheer gegevensopslag ](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/map-data/data-stores.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 Een gegevensstructuur is een document waarin de indeling van de gegevens die worden overgedragen naar [!DNL Adobe Workfront Fusion] in detail wordt beschreven. Gebaseerd op dit document, kan de scenario redacteur erachter komen welke module terugkeert of ontvangt welk soort gegevens. De documenten van de gegevensstructuur worden het meest meestal gebruikt voor het in series vervaardigen/ontleden van gegevensformaten zoals JSON, XML, CSV en anderen.
 

@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Qualtriciteitsmodules
-description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema's automatiseren die Qualtrics gebruiken, evenals het met veelvoudige derdetoepassingen en de diensten verbinden.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 146802cd-b863-4c93-b767-50e05892c4de
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
 
 # Qualtriciteitsmodules
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ modules van Qualtrics ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/qualtrics-modules.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 In een [!DNL Adobe Workfront Fusion] -scenario kunt u workflows automatiseren die [!DNL Qualtrics] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 
@@ -77,7 +89,7 @@ De schakelaar van Qualtrics gebruikt het volgende:
  <tbody> 
   <tr> 
    <td role="rowheader">Basis-URL</td> 
-   <td> https://&lbrace;&lbrace;connection.dataCenterCode&rbrace;&rbrace;.qualtrics.com/API/v3 </td> 
+   <td> https://{connection.dataCenterCode}}.qualtrics.com/API/v3 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">API-versie</td> 

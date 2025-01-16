@@ -5,18 +5,30 @@ product-area: workfront-integrations;documents
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Google Docs-modules
-description: De fusie van Adobe Workfront  [!DNL Google Docs]  modules laten u toe om te controleren, tot stand te brengen, en documenten in uw  [!DNL Google Docs]  uit te geven en terug te winnen en  [!DNL Google Docs]  (voor  [!DNL Google Workspace]  gebruikers).
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: fbe7d628-d833-43ce-83b8-8e4e6a812fd1
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '3341'
+source-wordcount: '3396'
 ht-degree: 0%
 
 ---
 
 # [!DNL Google Docs] modules
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ modules van Google Docs ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-docs-modules.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 Met de modules [!DNL Adobe Workfront Fusion] [!DNL Google Docs] kunt u documenten in uw [!DNL Google Docs] - en [!DNL Google Docs] -documenten (voor [!DNL Google Workspace] -gebruikers) controleren, maken, bewerken en ophalen.
 
@@ -69,7 +81,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 
 Als u [!DNL Google Docs] -modules wilt gebruiken, hebt u een Google-account nodig.
 
-## Informatie over Google Docs API
+## Google Docs API-informatie
 
 De Google Docs-connector gebruikt het volgende:
 
@@ -604,7 +616,7 @@ Met deze actiemodule kunt u een aangepaste API-aanroep uitvoeren.
  </tbody> 
 </table>
 
-**Voorbeeld:** de volgende API vraag wint de details voor het gespecificeerde document in uw Docs van Google terug:
+**Voorbeeld:** de volgende API vraag wint de details voor het gespecificeerde document in uw Google Docs terug:
 
 **URL:**
 

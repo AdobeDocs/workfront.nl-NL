@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: http-modules
 title: HTTP&gt; een module voor basisautorisatieverzoeken maken
-description: Adobe Workfront Fusion vereist naast een Adobe Workfront-licentie een Adobe Workfront Fusion-licentie.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: df8b53de-1af2-4026-b7dd-ff5133b4aac2
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '834'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL HTTP] > [!UICONTROL Make a Basic Authorization request] module
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ HTTP >Make a Basic Authorization request module ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/universal-connectors/http-module-make-a-basic-auth-request.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 Met deze [!DNL Adobe Workfront Fusion] -module kunt u een HTTP-aanvraag configureren met HTTP-basisverificatie en deze naar een server verzenden. De ontvangen HTTP-respons wordt vervolgens opgenomen in de uitvoerbundel.
 

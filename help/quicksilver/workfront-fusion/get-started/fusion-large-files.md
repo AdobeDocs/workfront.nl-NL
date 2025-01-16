@@ -3,18 +3,32 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Werken met grote bestanden in Adobe Workfront Fusion
-description: Er is momenteel ondersteuning voor grote bestanden beschikbaar voor de Workfront- en HTTP-connectors.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: e0be458c-a5f4-48e4-a8fb-afd5d072b6ff
-source-git-commit: 4914e6e30d6c4a16de5bd2c91bc6f8e4f208c078
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1161'
 ht-degree: 0%
 
 ---
 
 # Werken met grote bestanden in Adobe Workfront Fusion
+
+
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ Werkend met grote dossiers ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/scenarios/fusion-large-files.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 >[!IMPORTANT]
 >

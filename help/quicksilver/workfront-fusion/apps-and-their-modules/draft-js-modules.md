@@ -4,17 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Draft.js-modules
-description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u de modules gebruiken Draft.js om Draft.js in HTML en HTML in Draft.js om te zetten.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 8c57f1eb409cd2186fa60a4ba3a7047e9b572871
+exl-id: 5f4634ed-0861-4c21-8cfe-da5a5e633ff8
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Draft.js] modules
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ modules Draft.js ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/tools-and-transformers/draft-js-modules.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 In een [!DNL Adobe Workfront Fusion] -scenario kunt u de [!UICONTROL Draft.js] -modules gebruiken om Draft.js om te zetten in HTML en HTML in Draft.js. U kunt dit in combinatie met Workfront-modules gebruiken om RTF-tekst toe te voegen aan of te lezen uit Workfront-velden.
 

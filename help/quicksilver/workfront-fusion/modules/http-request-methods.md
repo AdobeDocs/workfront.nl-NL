@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
 title: Methoden voor HTTP-aanvragen in  [!DNL Adobe Workfront Fusion]
-description: Wanneer u een API vraag in een module vormt, moet u het gebied voor de HTTP- verzoekmethode invullen.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 20b3c0f4-4a4c-4ba0-8570-ac39573ef1c0
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
 
 # Methoden voor HTTP-aanvragen in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ HTTP- verzoekmethodes ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/modules/http-request-methods.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 Wanneer u een API vraag in een module vormt, moet u het gebied voor de HTTP- verzoekmethode invullen.
 

@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;setup
 navigation-topic: connections-annd-webhooks
 title: Verbind  [!DNL Adobe Workfront Fusion]  met  [!DNL Google Services]  gebruikend een cliënt van douaneOAuth
-description: U kunt  [!DNL Adobe Workfront Fusion]  gebruiken om met  [!DNL Google Services]  te verbinden gebruikend een cliënt van douaneOAuth. Deze procedure vereist een bestaande  [!DNL Google]  rekening.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 5efc0001-a8cd-4ffc-b074-3536f095727b
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '839'
 ht-degree: 0%
 
 ---
 
 # Verbind [!DNL Adobe Workfront Fusion] met [!DNL Google Services] gebruikend een douaneOAuth cliënt
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ verbind Adobe Workfront Fusion met de Diensten van Google gebruikend een douaneOAuth cliënt ](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/connect-to-applications/connect-fusion-to-google-using-oauth.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 ## Toegangsvereisten
 

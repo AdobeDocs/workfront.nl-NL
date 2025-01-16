@@ -4,18 +4,22 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: fusion-in-admin-console
 title: Platformgebaseerde verschillen in beheer (Adobe Workfront Fusion/Adobe Business Platform)
-description: Als Adobe Workfront Fusion-beheerder verschillen uw beheerverantwoordelijkheden en -procedures afhankelijk van het feit of uw organisatie is aangemeld bij het Adobe Business Platform. Dit artikel bevat een lijst met de procedures die verschillend moeten worden afgehandeld en koppelingen naar instructies voor processen in zowel Workfront Fusion als Adobe Admin Console.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 86f8cc24-c1a2-4f47-bd08-39bb0f6b2940
-source-git-commit: 392eee3c7b1aacf92d7877f07a8154924f3926a0
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
 
 # Op platform-gebaseerde beleidsverschillen ([!DNL Adobe Workfront Fusion]/[!DNL Adobe Admin Console])
+
+>[!IMPORTANT]
+>
+>Dit artikel wordt in de nabije toekomst verwijderd wanneer alle organisaties naar de Adobe Admin Console worden verplaatst.
 
 Als uw organisatie is aangemeld bij de [!DNL Adobe Admin Console] , gebruiken uw gebruikers [!DNL Adobe Admin Console] om toegang te krijgen tot [!DNL Adobe Workfront Fusion] . Dit betekent dat:
 

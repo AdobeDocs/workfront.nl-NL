@@ -3,18 +3,31 @@ product-area: workfront-navigation
 product-previous: workfront-fusion
 navigation-topic: workfront-fusion-2-0
 title: Adobe Unified Experience for Workfront Fusion
-description: Toegang tot Workfront Fusion via Adobe Experience Cloud biedt u een naadloze, uniforme ervaring voor het beheer van al uw Adobe toepassingen.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: ea89cf36-f08d-4f4c-b89f-4895b5947e7a
-source-git-commit: 1e8ea4b1f53a19a5872e39f7671b1b4e047f31d1
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Unified Experience] for [!DNL Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in de artikelen:
+>
+>* [ de profielmontages van de Verandering ](https://experienceleague.adobe.com/docs/workfront-fusion/using/get-started-with-fusion/navigate-workfront-fusion/change-profile-settings.html)
+>* [ plaats de Opties van het Bericht van het Team ](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/set-team-notification-options.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 Als u [!DNL Workfront Fusion] tot en met [!DNL Adobe Experience Cloud] opent, hebt u een naadloze, uniforme ervaring voor het beheer van al uw [!DNL Adobe] -toepassingen. Met Single Identity Management kunt u zich op één locatie aanmelden, zonder meerdere URL&#39;s of aanmeldings-id&#39;s.
 
@@ -108,7 +121,7 @@ U kunt uw berichten en aankondigingen op het gebied van Meldingen van Verenigde 
 
 Om uw berichten te bekijken, klik het pictogram van Meldingen ![ pictogram van Meldingen ](assets/notifications-icon.png) dichtbij de hoger-juiste hoek van het scherm. Een rode stip op het pictogram Meldingen geeft aan dat u ongelezen meldingen of aankondigingen hebt.
 
-Voor instructies bij het vormen van uw berichten in Adobe Experience Cloud, zie [ Configuratie van het Bericht ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/notifications.html?lang=en#:~:text=You%20can%20customize%20how%20you,how%20you%20receive%20your%20notifications.) in de documentatie van de Adobe.
+Voor instructies bij het vormen van uw berichten in Adobe Experience Cloud, zie [ Configuratie van het Bericht ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/notifications.html#:~:text=You%20can%20customize%20how%20you,how%20you%20receive%20your%20notifications.) in de documentatie van de Adobe.
 
 Let bij het configureren op het volgende:
 

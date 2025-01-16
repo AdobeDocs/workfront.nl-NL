@@ -4,13 +4,13 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
 title: Beheer  [!DNL Adobe Workfront Fusion]  gebruikers in uw organisatie
-description: Beheer  [!DNL Adobe Workfront Fusion]  gebruikers in uw organisatie
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: fbb858a6-1230-41b4-892a-4ffeb2711922
-source-git-commit: 5cdc438c6757d438b2c09796cf77e59dc19c45d9
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '517'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,19 @@ ht-degree: 0%
 # [!DNL Adobe Workfront Fusion] -gebruikers in uw organisatie beheren
 
 [!DNL Adobe Workfront Fusion] -beheerders kunnen gebruikersrollen beheren binnen [!DNL Workfront Fusion] .
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ Mening of geef gebruikersrollen ](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-orgs-and-teams/manage-users-and-teams/view-or-edit-user-roles.html) uit
+>* [ Mening of geef gebruikersdetails uit ](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-orgs-and-teams/manage-users-and-teams/view-or-edit-user-details.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 <!--
 

@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Nieuwe sjablonen maken in  [!DNL Adobe Workfront Fusion]
-description: U kunt nieuwe scenario malplaatjes in  [!DNL Adobe]  de Fusie van Workfront tot stand brengen.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: fdfa509c-30c6-431e-89f3-a4bf50261e8a
-source-git-commit: f3f34e807228b299c0570e63bdf329f4e20e0340
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '794'
 ht-degree: 0%
 
 ---
 
 # Nieuwe sjablonen maken in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ creeer nieuwe malplaatjes ](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-and-manage-templates/create-new-fusion-templates.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 U kunt nieuwe scenario-sjablonen maken in [!DNL Adobe] Workfront Fusion.
 

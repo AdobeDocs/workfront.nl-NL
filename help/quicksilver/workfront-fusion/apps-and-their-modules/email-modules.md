@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: E-mailmodules
-description: In a  [!DNL Adobe Workfront Fusion]  scenario, kunt u uw E-mailrekening met veelvoudige derdetoepassingen en de diensten verbinden. Dit staat u toe om e-mails via IMAP te downloaden, e-mails via SMTP te verzenden, nieuwe ontwerpen te creëren, e-mails van één omslag naar een andere omslag te verplaatsen en te kopiëren, e-mails als gelezen of ongelezen te merken, en e-mails te schrappen.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 384ba60a-d79e-4126-a247-6d67b5154ede
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '2104'
+source-wordcount: '2129'
 ht-degree: 0%
 
 ---
 
 # E-mailmodules
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ E-mailmodules ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/email-modules.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 In een [!DNL Adobe Workfront Fusion] -scenario kunt u uw e-mailaccount verbinden met meerdere toepassingen en services van derden. Hierdoor kunt u e-mails downloaden via IMAP, e-mails verzenden via SMTP, nieuwe concepten maken, e-mails verplaatsen en kopiëren van de ene map naar de andere, e-mails markeren als gelezen of ongelezen en e-mails verwijderen.
 

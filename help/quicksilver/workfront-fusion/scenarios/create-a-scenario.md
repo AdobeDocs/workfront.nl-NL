@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Een scenario maken in Adobe Workfront Fusion
-description: De volgende taken verklaren hoe te om a  [!DNL Adobe Workfront Fusion]  scenario tot stand te brengen.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: adf66cfc-ccaf-4b29-9199-c13260695569
-source-git-commit: ee2283ac159ca26ca473cac28ec4bed85d1dea04
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1331'
+source-wordcount: '1398'
 ht-degree: 0%
 
 ---
 
 # Een scenario maken in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ Werkschema voor het creëren van een scenario ](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/plan-a-scenario/create-a-scenario-workflow.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 De volgende taken verklaren hoe te om een [!DNL Adobe Workfront Fusion] scenario tot stand te brengen.
 
@@ -57,7 +69,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
     <tr>  
       <td>Product</td>  
       <td> 
-        Nieuw: Select- of Premiere Workfront-abonnement: uw organisatie moet Adobe Workfront Fusion aanschaffen.<br>
+        Nieuw: Select- of Prime Workfront-abonnement: uw organisatie moet Adobe Workfront Fusion aanschaffen.<br>
         Ultimate Workfront Plan: Workfront Fusion is inbegrepen.<br>
         Of<br>
         Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.

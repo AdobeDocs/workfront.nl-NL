@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
 title: Kies waar een triggermodule begint in Adobe Workfront Fusion
-description: Met bepaalde triggermodules kunt u de eerste bundel selecteren waaruit u het ophalen van bundels wilt laten starten.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 5ab7cac4-8d50-4be0-b26b-b832544f18f7
-source-git-commit: 489ed23fe0d7945753b59810ff9da084bd3e92e4
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
 
 # Kies waar een triggermodule begint in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in het artikel:
+>
+>* [ kies waar een trekkermodule ](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/add-modules/choose-where-trigger-module-starts.html) begint
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 Met bepaalde triggermodules kunt u de eerste bundel selecteren waaruit u het ophalen van bundels wilt laten starten.
 

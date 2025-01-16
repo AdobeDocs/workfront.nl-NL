@@ -3,18 +3,31 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: connections-annd-webhooks
 title: Verbind  [!DNL Adobe Workfront Fusion]  met om het even welke Webdienst
-description: Als  [!DNL Adobe Workfront Fusion]  geen app voor de Webdienst aanbiedt u in uw scenario zou willen gebruiken, kunt u met de Webdienst verbinden gebruikend  [!DNL Workfront Fusion]  modules HTTP en Webhooks, zoals die in dit artikel worden beschreven.
+description: De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Dit artikel is vervangen, maar bevat een koppeling naar het nieuwe artikel dat deze functionaliteit behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 8b2a7d85-e20e-4836-8418-3463d284194e
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '259'
 ht-degree: 0%
 
 ---
 
 # Verbind [!DNL Adobe Workfront Fusion] met om het even welke Webdienst
+
+>[!IMPORTANT]
+>
+>De Adobe Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie.
+>
+>De informatie in dit artikel is nu te vinden in de artikelen:
+>
+>* [ verbind de Fusie van Adobe Workfront met de Webdienst die API tokenvergunning gebruikt ](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/connect-to-applications/connect-wf-web-service-uses-api-token-auth.html)
+>* [ vorm een webhaak voor een Webdienst zonder een schakelaar ](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/add-modules/receive-a-webhook-from-a-web-service.html)
+>
+>Werk eventuele bladwijzers bij.
+>
+>Dit artikel wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
 ## Toegangsvereisten
 
