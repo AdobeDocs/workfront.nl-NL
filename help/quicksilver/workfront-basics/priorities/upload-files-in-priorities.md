@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 0%
@@ -53,8 +53,7 @@ Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licen
 {{step1-to-priorities}}
 
 1. Beweeg over de naam, dan klik **uploadt**.
-   ![](assets/upload-file.png)
-   <!--new screen for prod ![](assets/update-log-upload.png)-->
+   ![](assets/update-log-upload.png)
 1. (Optioneel) Selecteer een map.
 1. Sleep het bestand of Cmd/Ctrl + V om het van het klembord te plakken
 of

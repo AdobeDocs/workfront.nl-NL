@@ -5,17 +5,15 @@ description: Documenten
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: a59d092e700f1f661ad8e3cb74b7d96ee2418f41
+exl-id: 63aa5e45-e51d-4049-a5d9-18dfaaa79647
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '498'
 ht-degree: 0%
 
 ---
 
-
 # Documenten uploaden en proefdrukken maken in prioriteiten
-
-<span class="preview"> de informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Sandbox van de Voorproef.</span>
 
 U kunt documenten uploaden en proefdrukken maken met Prioriteiten.
 
@@ -182,6 +180,3 @@ U kunt documenten sorteren op
 
 * Datum toegevoegd
 * Bestandstype
-
-
-

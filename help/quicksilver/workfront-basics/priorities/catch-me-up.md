@@ -5,17 +5,15 @@ description: Vang me op
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: ccdbc3402164bba66c08b8b97fdfdd2013ad884e
+exl-id: c3ff90cc-2a9b-472e-ac6c-88b8ec93c8fb
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
 
-
 # Vangst van werk in prioriteiten
-
-<span class="preview"> de informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Sandbox van de Voorproef.</span>
 
 Vang me omhoog—-aangedreven door Workfront AI Medewerker-vat updates, geüploade documenten, en andere opmerkelijke veranderingen over uw projecten binnen de volgende tijdkaders samen: 24 uren, 3 dagen, 7 dagen, wat de hoeveelheid tijd helpt verminderen die naar informatie over actieve projecten zoekt.
 

@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: da688217a1240b74667f31d20e086164e1536576
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '999'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ In Prioriteiten kunt u uw werk filteren en groeperen om u te helpen deadlines te
 
 ### Uw werk met filters zoeken
 
-Zoek uw belangrijkste werk met filters. <span class="preview"> u kunt een natuurlijke taal gebruiken om het werk met het Slimme filter </span> te vinden, of
+Zoek uw belangrijkste werk met filters. U kunt een natuurlijke taal gebruiken om werk met het Slimme filter te vinden, of
 Met het filter Standaard kunt u zoeken naar taken en problemen die aan u zijn toegewezen:
 
 <table>
@@ -112,10 +112,9 @@ Zodra u nadrukniveaus aan uw het werkpunten hebt toegewezen, kunt u de kolom aan
 
 Voor meer informatie, zie [ belangrijke het werkpunten ](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md) Prioriteit geven.
 
-![](assets/my-focus-column.png)
-<!-- new screen for prod ![](assets/worklist.png) -->
+![](assets/worklist.png)
 
-### Gebruik de mening van de Kalender [!BADGE  Beschikbaar in voorproef ]{type=Informative}
+### De kalenderweergave gebruiken
 
 De kalenderweergave biedt een visuele weergave van uw taken en problemen. U kunt kiezen tussen de dag-, week- of maandweergave. U kunt ook items filteren op een manier die vergelijkbaar is met de werklijst.
 
@@ -141,8 +140,7 @@ In de sectie Updates worden systeemupdates weergegeven en maximaal 200 van de me
 
 Voor meer informatie, zie [ commentaren in Prioriteiten toevoegen en bekijken ](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md).
 
-![](assets/new-update.png)
-<!--new screen for prod ![](assets/update-log-upload.png)-->
+![](assets/update-log-upload.png)
 
 ### Logtijd
 
@@ -150,8 +148,7 @@ U kunt tijd voor het werkpunten registreren om op het aantal uren te wijzen u he
 
 Voor meer informatie, zie [ tijd van het Logboek in Prioriteiten ](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md).
 
-![](assets/log-time.png)
-<!--new screen for prod ![](assets/update-log-upload.png)-->
+![](assets/update-log-upload.png)
 
 ### Bestanden uploaden
 
@@ -164,8 +161,7 @@ Upload bestanden rechtstreeks naar het gebied Documenten van de taak of uitgave,
 
 Voor meer informatie, zie [ dossiers in Prioriteiten ](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md) uploaden.
 
-![](assets/upload-file.png)
-<!--new screen for prod ![](assets/update-log-upload.png)-->
+![](assets/update-log-upload.png)
 
 
 ### Snelle koppelingen toevoegen
@@ -176,13 +172,13 @@ U kunt veelgebruikte koppelingen insluiten in de detailpagina van het werkitem. 
 
 Voor meer informatie, zie [ snelle verbindingen in Prioriteiten toevoegen en beheren ](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md).
 
-### De documenten van de mening [!BADGE  beschikbaar in voorproef ]{type=Informative}
+### Documenten weergeven
 
 Op het tabblad Documenten kunt u alle bestanden weergeven die betrekking hebben op een tijdelijk item. U kunt documenten filteren op naam, bestandstype of persoon en sorteren op naam en uploaddatum.
 
 U kunt het document of de proefdruk ook openen.
 
-### De overzicht en keurt activa [!BADGE  Beschikbaar in voorproef ] goed{type=Informative}
+### Elementen controleren en goedkeuren
 
 Via het tabblad Documenten op een taak of uitgave kunt u
 
@@ -190,7 +186,7 @@ Via het tabblad Documenten op een taak of uitgave kunt u
 * De proefdrukviewer starten om opmerkingen te achterlaten en beslissingen te nemen
 
 
-## Gebruik [!DNL Catch me up] om te zien wat u [!BADGE  Beschikbaar in voorproef ] miste{type=Informative}
+## Gebruik [!DNL Catch me up] om te zien wat u hebt gemist
 
 Met de functie [!DNL Catch me up] kunt u zien wat u hebt gemist. Vangst me omhoog zal updates, geüploade documenten, goedkeuringen, en andere opmerkelijke veranderingen over uw projecten binnen de volgende termijnen samenvatten: 24 uren, 3 dagen, 7 dagen.
 
@@ -200,7 +196,7 @@ Voor meer informatie, zie [ Vangst op het werk in Prioriteiten ](/help/quicksilv
 
 <!--need new screen for prod-->
 
-## De updates van de mening real time op de pagina van Details [!BADGE  Beschikbaar in voorproef ]{type=Informative}
+## Updates in real time weergeven op de pagina Details
 
 U kunt realtime updates weergeven op de pagina Details van een taak of uitgave. U kunt ook zien of anderen de pagina tegelijkertijd bekijken zoals u met real-time aanwezigheidsindicatoren hebt.
 

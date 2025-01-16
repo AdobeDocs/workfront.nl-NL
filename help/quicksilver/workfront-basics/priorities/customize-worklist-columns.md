@@ -6,16 +6,14 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
-source-git-commit: abf502f2bbf48c0bd1cc5705d93d928342cd8a3b
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
 
 # De kolommen in de werklijst Prioriteiten aanpassen
-
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Sandbox van de Voorproef.</span>
 
 U kunt de kolommen in de werklijst Prioriteiten aanpassen om de manier te steunen u werkt.
 
@@ -87,9 +85,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Klik **Meer** pictogram ![](assets/more-icon.png), en kies **de kolombreedten van het Terugstellen**.
    ![](assets/columns.png)
 
-<div class="preview">
-
-## De kolommen in de werklijst Prioriteiten aanpassen in Voorvertoning
+## De kolommen in de werklijst Prioriteiten aanpassen
 
 ### Kolommen in- of uitschakelen
 
@@ -110,6 +106,3 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 >[!NOTE]
 >
 >De kolom Naam is vast en kan niet worden verplaatst.
-
-
-</div>

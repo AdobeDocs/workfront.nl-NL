@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 5457f516-c213-4b82-b033-bc8db943a217
-source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 0%
@@ -60,8 +60,7 @@ U kunt de tijd van het logboek rechtstreeks van de werklijst registreren:
 {{step1-to-priorities}}
 
 1. Beweeg over de naam, dan klik **tijd van het Logboek**.
-   ![](assets/log-time.png)
-   <!--new screen for prod ![](assets/update-log-upload.png)-->
+   ![](assets/update-log-upload.png)
 1. In het **drop-down menu van het Type van 1 uur**, selecteer het aangewezen uurtype. De types van uren zijn beschikbaar afhankelijk van wat op het systeem, het project, en gebruikersniveaus is bepaald, zoals die in Define uurtypes en beschikbaarheid wordt beschreven.
 
 1. (Voorwaardelijk) Als uw Workfront of groepsbeheerder de optie Taak toewijzen aan uren handmatig heeft ingeschakeld, selecteert u een taakrol in het keuzemenu. De rol die wordt gespecificeerd wanneer u aan de het werkpuntvertoningen door gebrek wordt toegewezen. Als u geen rol op het voorwerp wordt toegewezen, toont uw Primaire Rol als gebrek. Als u geen primaire rol hebt toegewezen, wordt de rol Geen taak weergegeven.
