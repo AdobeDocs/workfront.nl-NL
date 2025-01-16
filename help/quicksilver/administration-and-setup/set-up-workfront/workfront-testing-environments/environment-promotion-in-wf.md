@@ -9,16 +9,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: fa70a7ae5d8edce9dab4ca2ac4c2266b2c463734
+source-git-commit: 9a588df1ef48b40056c5228c8ff03b5819eb4410
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1041'
 ht-degree: 0%
 
 ---
 
 # Overzicht van het verplaatsen van objecten tussen Workfront-omgevingen (milieubevordering)
-
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Sandbox van de Voorproef.</span>
 
 Met de functie voor milieubescherming kunt u objecten van de ene Workfront-omgeving naar de andere verplaatsen. U kunt bijvoorbeeld een sjabloon maken en deze configureren in de sandboxomgeving, in de wetenschap dat het testen geen invloed heeft op de feitelijke gegevens van uw organisatie. Nadat het malplaatje wordt gevormd en getest, kunt u het naar uw productiemilieu bewegen, klaar om te gebruiken.
 
@@ -100,8 +98,8 @@ Omdat de bevordering van het milieu objecten configuratie behandelt, zijn de tra
 | Type risico (RSKTYP) | Type risico |
 | Bronpool (RSPL) | Bronpool |
 | Toegangsniveau (ACSLVL) | Toegangsniveau |
-| <span class="preview"> Kaart van het Tarief (RTCRD) </span> | <span class="preview"> Kaart van het Tarief </span> |
-| <span class="preview"> Plaats/Classifier (CLSF) </span> | <span class="preview"> Plaats/Classifier </span> |
+| Rate Card (RTCRD) | Creditcard |
+| Locatie/classificator (CLSF) | Locatie/classificator |
 
 \* Momenteel niet beschikbaar
 

@@ -5,18 +5,14 @@ description: Overzicht van AI-assistent
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 47469f684bf3be6c6a9d3c39ba3960ca13e43578
+source-git-commit: 9a588df1ef48b40056c5228c8ff03b5819eb4410
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
 
 # Overzicht van AI-assistent
-
-<span class="preview"> de informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar in de milieu van de Voorproef voor alle klanten, en in de milieu van de Productie voor klanten die maandelijkse versies hebben toegelaten. </span>
-
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 Met Workfront AI Assistant kunt u uw werk uitvoeren door informatie en suggesties in een gesprek in een natuurlijke taal aan te bieden. Met AI Assistant kunt u werken vloeiender maken met
 
@@ -84,13 +80,9 @@ AI Assistant biedt momenteel de volgende functionaliteit:
 
   Voor meer informatie, zie [ hulp van AI Medewerker ](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md) krijgen.
 
-<div class="preview">
-
 * Specifieke items zoeken in Workfront.
 
   Voor meer informatie, zie [ Medewerker van het Gebruik AI om met projecten, taken, en kwesties ](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md) te werken.
-
-</div>
 
 * Formules genereren of verfijnen voor berekende aangepaste velden.
 
@@ -100,12 +92,10 @@ AI Assistant biedt momenteel de volgende functionaliteit:
 
   Voor meer informatie, zie [ berekende gebiedsformules met AI Medewerker ](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md) produceren of herzien.
 
-<div class="preview">
 * Het samenvatten van updates, geüploade documenten, en andere opmerkelijke veranderingen over uw projecten binnen de volgende termijnen: 24 uren, 3 dagen, 7 dagen in Prioriteiten.
 
 Voor meer informatie, zie [ Vangst op het werk in Prioriteiten ](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
 
-</div>
 
 ## Objecttypen beschikbaar voor AI Assistant
 
