@@ -6,7 +6,7 @@ description: Datums kunnen zo worden geconfigureerd dat ze in verschillende inde
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ff0686aa-b306-4954-8f9b-3e98bf8cff22
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # Datums opmaken in tekstmodusrapporten
+
+<!-- Audited: 1/2025 -->
 
 Datums kunnen zo worden geconfigureerd dat ze in verschillende indelingen worden weergegeven in rapporten en lijsten in Adobe Workfront. Als u een datumnotatie wilt instellen, moet u de regel `valueformat` van de code in de tekstmodus wijzigen.
 
@@ -33,13 +35,7 @@ valuefield=plannedCompletionDate
 
 Voor meer informatie over het toepassen van voorwaardelijk formatteren in de rapporten en lijsten van Workfront die tekstwijze gebruiken, zie [ Voorwaardelijk het formatteren van het Gebruik in de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
 
-U kunt datums als volgt opmaken
-
-```
-valueformat
-```
-
- waarden voor de tekstmodus:
+U kunt datums opmaken met de volgende waarden in de tekstmodus `valueformat` :
 
 | **Formaat** | Voorbeeld  | ***valueformat=*** |
 |---|---|---|

@@ -7,9 +7,9 @@ description: Deze pagina bevat informatie over de structuur en inhoud van de geg
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '4294'
+source-wordcount: '4609'
 ht-degree: 0%
 
 ---
@@ -177,7 +177,23 @@ De volgende tabel correleert objectnamen in Workfront (en hun namen in de interf
         <td>BOOKN | Boking</td>
         <td>BOOKINGS_CURRENT <br> BOOKINGS_EVENT<br></td>
         <td>BOOKINGID (zelf) <br> ENTEREDBYID <br> LASTUPDATEDBYID <br> NLBRCATEGORYID <br> NONLABORRESOURCEID <br> OBJID <br> PROJECTID <br> SYSID <br> TASKID <br> TEMPLATEID <br> TEMPLATETASKID <br> TOTASKID POBJID</td>
-        <td>Zelf <br> USERS_CURRENT | USERID <br> USERS_CURRENT | USERID <br> niet-arbeidsLijst van het Middel momenteel niet gesteund <br> NONLABORRESOURCES_CURRENT | NONLABORRESOURCEID <br> identiteitskaart van het voorwerp dat op het gebied OBJOBJCODE <br> wordt geïdentificeerd PROJECTS_CURRENT | PROJECTID <br> geen verhouding; gebruikt voor interne toepassingsdoeleinden <br> TASKS_CURRENT | TASKID     <br> TEMPLATES_CURRENT | TEMPLATEID <br> TEMPLATETASKS_CURRENT | TEMPLATETASKID <br> identiteitskaart van het voorwerp dat in het TOPOBJCODE- gebied wordt geïdentificeerd</td>
+        <td>Zelf <br> USERS_CURRENT | USERID <br> USERS_CURRENT | USERID <br> niet-arbeidsLijst van het Middel momenteel niet gesteund <br> NONLABORRESOURCES_CURRENT | NONLABORRESOURCEID <br> identiteitskaart van het voorwerp dat op het gebied OBJOBJCODE <br> wordt geïdentificeerd PROJECTS_CURRENT | PROJECTID <br> geen verhouding; gebruikt voor interne toepassingsdoeleinden <br> TASKS_CURRENT | TASKID <br> TEMPLATES_CURRENT | TEMPLATEID <br> TEMPLATETASKS_CURRENT | TEMPLATETASKID <br> identiteitskaart van het voorwerp dat in het TOPOBJCODE- gebied wordt geïdentificeerd</td>
+    </tr>
+    <tr>
+        <td>Bedrijfsprofiel</td>
+        <td>Bedrijfsprofiel</td>
+        <td>BSNPRF | BusinessProfile</td>
+        <td>BUSINESSPROFILE_CURRENT <br> BUSINESSPROFILE_DAILY_HISTORY <br> BUSINESSPROFILE_EVENT</td>
+        <td>ACCESSLEVELID <br> BUSINESSPROFILEID (zelf) <br> ENTEREDBYID <br> GROUPID <br> LASTUPDATEDBYID <br> SYSID</td>
+        <td>ACCESSLEVELS_CURRENT | ACCESSLEVELID <br> ZELFDE <br> USERS_CURRENT | USERID <br> GROUPS_CURRENT | GROUPID <br> USERS_CURRENT | USERID <br> niet een verhouding; gebruikt voor interne toepassingsdoeleinden</td>
+    </tr>
+    <tr>
+        <td>Zakelijke regel</td>
+        <td>Zakelijke regel</td>
+        <td>BSNRUL | Zakelijke regel</td>
+        <td>BUSINESSRULE_CURRENT <br> BUSINESSRULE_DAILY_HISTORY <br> BUSINESSRULE_EVENT</td>
+        <td>BUSINESSRULEID (zelf) <br> ENTEREDBYID <br> LASTUPDATEDBYID <br> SYSID</td>
+        <td>Zelf <br> USERS_CURRENT | USERID <br> USERS_CURRENT | USERID <br> niet een verhouding; gebruikt voor interne toepassingsdoeleinden</td>
     </tr>
     <tr>
         <td>Categorie</td>
@@ -185,15 +201,23 @@ De volgende tabel correleert objectnamen in Workfront (en hun namen in de interf
         <td>CTGIE | Categorie</td>
         <td>CATEGORIEËN_CURRENT <br> CATEGORIEËN_DAILY_HISTORY <br> CATEGORIEËN_EVENT</td>
         <td>CATEGORYID (zelf) <br> ENTEREDBYID <br> GROUPID <br> LASTUPDATEDBYID <br> SYSID</td>
-        <td>Zelf <br> USERS_CURRENT | USERID <br> GROUPS_CURRENT | GROUPID <br> USERS_CURRENT | USERID <br> Geen relatie; gebruikt voor interne toepassingsdoeleinden</td>
+        <td>Zelf <br> USERS_CURRENT | USERID <br> GROUPS_CURRENT | GROUPID <br> USERS_CURRENT | USERID <br> geen verhouding; gebruikt voor interne toepassingsdoeleinden</td>
     </tr>
     <tr>
         <td>Categorieparameter</td>
         <td>Aangepaste formuliervelden</td>
         <td>CTGYPA | Categorieparameter</td>
         <td>CATEGORIESPARAMETERS_CURRENT <br> CATEGORIESPARAMETERS_DAILY_HISTORY <br> CATEGORIESPARAMETERS_EVENT</td>
-        <td>CATEGORIESPARAMETERID (zelf) <br> CATEGORYID <br> PARAMETERGROUPID <br> PARAMETERIE    <br> SYSID</td>
+        <td>CATEGORIESPARAMETERID (zelf) <br> CATEGORYID <br> PARAMETERGROUPID <br> PARAMETERID <br> SYSID</td>
         <td>Zelf <br> CATEGORIEËN_CURRENT | CATEGORYID <br> Lijst van de Groep van de Parameter niet momenteel <br> PARAMETERS_CURRENT | PARAMETERS    <br> Geen relatie; wordt gebruikt voor interne toepassingsdoeleinden</td>
+    </tr>
+    <tr>
+        <td>Klassificator</td>
+        <td>Locatie</td>
+        <td>CLSF | Locatie</td>
+        <td>CLASSIFIER_CURRENT <br> CLASSIFIER_DAILY_HISTORY <br> CLASSIFIER_EVENT</td>
+        <td>CLASSIFIERID (zelf) <br> ENTEREDBYID <br> LASTUPDATEDBYID <br> PARENTID <br> SYSID</td>
+        <td>Zelf <br> USERS_CURRENT | USERID <br> USERS_CURRENT | USERID <br> CLASSIFIER_CURRENT | CLASSIFIERID <br> geen verhouding; gebruikt voor interne toepassingsdoeleinden</td>
     </tr>
     <tr>
         <td>Bedrijf</td>
@@ -369,7 +393,15 @@ De volgende tabel correleert objectnamen in Workfront (en hun namen in de interf
         <td>NLBR | Bron voor niet-arbeid</td>
         <td>NONLABORRESOURCES_CURRENT <br> NONLABORRESOURCES_DAILY_HISTORY <br> NONLABORRESOURCES_EVENT</td>
         <td>CATEGORYID <br> NONLABORRESOURCEID (zelf) <br> ENTEREDBYID <br> HOMEGROUPID <br> LASTUPDATEDBYID <br> NONLABORRESOURCECATEGORYID <br> SYSID  </td>
-        <td>CATEGORIEËN_HUIDIGE | CATEGORYID <br> Zelf <br> USERS_CURRENT | USERID <br> GROUPS_CURRENT | GROUPID <br> USERS_CURRENT | De <br> lijst van de Categorie van het Middel van USERID niet <br> momenteel wordt gesteund geen verhouding; gebruikt voor interne toepassingsdoeleinden    </td>
+        <td>CATEGORIEËN_HUIDIGE | CATEGORYID <br> Zelf <br> USERS_CURRENT | USERID <br> GROUPS_CURRENT | GROUPID <br> USERS_CURRENT | USERID <br> niet-arbeidsLijst van het Middel momenteel niet gesteund <br> geen verhouding; gebruikt voor interne toepassingsdoeleinden</td>
+    </tr>
+    <tr>
+        <td>Niet-arbeidsuitrustingscategorie</td>
+        <td>Niet-arbeidsuitrustingscategorie</td>
+        <td>NLBRCY | Broncategorie voor niet-arbeid</td>
+        <td>NLBRCATEGORIES_CURRENT <br> NLBRCATEGORIES_DAILY_HISTORY <br> NLBRCATEGORIES_EVENT</td>
+        <td>CATEGORYID <br> ENTEREDBYID <br> LASTUPDATEDBYID <br> NLBRCATEGORYID (zelf) <br> PRIVATERATECARDID <br> SCHEDULEID <br> SYSID</td>
+        <td>CATEGORIEËN_HUIDIGE | CATEGORIE <br> USERS_CURRENT | USERID <br> USERS_CURRENT | USERID <br> Zelf <br> RATECARD_CURRENT | RATECARDID <br> USERS_CURRENT | USERID <br> geen verhouding; gebruikt voor interne toepassingsdoeleinden</td>
     </tr>
     <tr>
         <td>Onwerkdag</td>
@@ -492,6 +524,22 @@ De volgende tabel correleert objectnamen in Workfront (en hun namen in de interf
         <td>Geen relatie van Workfront; gebruikt voor integratie aan externe systemen <br> Scorecard lijst momenteel niet gesteund <br> GOEDKEURINGPROCESSES_CURRENT | ERKVALPROCESSID <br> RATECARD_CURRENT | RATECARDID <br> CATEGORIEËN_CURRENT | CATEGORYID <br> COMPANIES_CURRENT | COMPANYID <br> OPTASK_CURRENT | OPTASKID <br> USER_CURRENT | USERID <br> GOEDKEURINGSSTEPS_CURRENT | GOEDGEKEURDE <br> Scorecard- lijst momenteel niet gesteund <br> USER_CURRENT | USERID <br> GROUP_CURRENT | GROUPID <br> NOTE_CURRENT | NOTEID <br> NOTE_CURRENT | NOTEID <br> USER_CURRENT | USERID <br> MILESTONEPATH_CURRENT | MILESTONEPATHID <br> USER_CURRENT | USERID <br> Pop de lijst van de Rekening momenteel niet gesteund <br> PORTFOLIO_CURRENT | PORTFOLIOID <br> RATECARD_CURRENT | RATECARDID <br> PROGRAM_CURRENT | PROGRAMID <br> Zelf <br> lijst van de Definitie van de Rij die momenteel niet wordt gesteund <br> OPTASK_CURRENT | OPTASKID <br> RESOURCEPOLS_CURRENT | RESOURCEPOLID <br> SCHEDULE_CURRENT | SCHEDULEID <br> USER_CURRENT | USERID <br> USER_CURRENT | USERID <br> TEAM_CURRENT | TEAMID <br> TEMPLATES_CURRENT | TEMPLATEID</td>
     </tr>
     <tr>
+        <td>Projectteamgebruiker</td>
+        <td>Projectteamgebruiker</td>
+        <td>PRTU | Projectgebruiker</td>
+        <td>PROJECTSUSERS_CURRENT <br> PROJECTSUSERS_DAILY_HISTORY <br> PROJECTSUSERS_EVENT</td>
+        <td>PROJECTID <br> PROJECTSUSERID (zelf) <br> SYSID <br> TMPUSERID <br> GEBRUIKERSNAAM</td>
+        <td>PROJECTS_CURRENT | PROJECTID <br> Zelf <br> geen verhouding; gebruikt voor interne toepassingsdoeleinden <br> TEMPLATES_CURRENT | TEMPLATEID <br> USERS_CURRENT | USERID</td>
+    </tr>
+    <tr>
+        <td>Gebruikersrol projectteam</td>
+        <td>Gebruikersrol projectteam</td>
+        <td>PTEAM | ProjectUserRole</td>
+        <td>PROJECTSUSERSROLES_CURRENT <br> PROJECTSUSERSROLES_DAILY_HISTORY <br> PROJECTSUSERSROLES_EVENT</td>
+        <td>PROJECTID <br> PROJECTSUSERSROLEID (zelf) <br> ROLEID <br> SYSID <br> GEBRUIKERSNAAM</td>
+        <td>PROJECTS_CURRENT | PROJECTID <br> Zelf <br> ROLES_CURRENT | ROLEID <br> niet een verhouding; gebruikt voor interne toepassingsdoeleinden <br> USERS_CURRENT | USERID</td>
+    </tr>
+    <tr>
         <td>RateCard</td>
         <td>Creditcard</td>
         <td>RTCRD |Creditcard</td>
@@ -504,16 +552,40 @@ De volgende tabel correleert objectnamen in Workfront (en hun namen in de interf
         <td>Rapportmap</td>
         <td>RPTFDR | Rapportmap</td>
         <td>REPORTFOLDERS_CURRENT <br> REPORTFOLDERS_DAILY_HISTORY <br> REPORTFOLDERS_EVENT</td>
-        <td>REPORTFOLDERID (zelf) <br> SYSID  </td>
-        <td>Zelf <br> geen verhouding; gebruikt voor interne toepassingsdoeleinden  </td>
+        <td>REPORTFOLDERID (zelf) <br> SYSID</td>
+        <td>Zelf <br> geen verhouding; gebruikt voor interne toepassingsdoeleinden</td>
+    </tr>
+    <tr>
+        <td>Statistisch aantal rapportweergave</td>
+        <td>Statistisch aantal rapportweergave</td>
+        <td>PLSVST | PortalSectionStatisticInfo</td>
+        <td>REPORTVIEWSTATISTICCOUNTS_CURRENT <br> REPORTVIEWSTATISTICCOUNTS_DAILY_HISTORY <br> REPORTVIEWSTATISTICCOUNTS_EVENT</td>
+        <td>RAPPORTID <br> REPORTVIEWSTATISTICCOUNTID (zelf) <br> SYSID</td>
+        <td>PORTALSECTIONS_CURRENT | PORTALSECTIONID <br> Zelf <br> geen verhouding; gebruikt voor interne toepassingsdoeleinden</td>
+    </tr>
+    <tr>
+        <td>Te rapporteren begrotingsuren</td>
+        <td>Te rapporteren begrotingsuren</td>
+        <td>RPBGHR | Budgeted Hour</td>
+        <td>REPORTABLEBUDGETEDHOURS_CURRENT <br> REPORTABLEBUDGETEDHOURS_DAILY_HISTORY <br> REPORTABLEBUDGETEDHOURS_EVENT</td>
+        <td>PROJECTID <br> REPORTABLEBUDGETEDHOURID (zelf) <br> ROLEID <br> SYSID <br> GEBRUIKERSNAAM</td>
+        <td>PROJECTS_CURRENT | PROJECTID <br> Zelf <br> ROLES_CURRENT | ROLEID <br> niet een verhouding; gebruikt voor interne toepassingsdoeleinden <br> USERS_CURRENT | USERID</td>
     </tr>
     <tr>
         <td>Gereserveerde tijd</td>
         <td>(Persoonlijk) Tijd weg</td>
         <td>HERVATTEN | Tijd uit</td>
         <td>RESERVEDTIMES_CURRENT <br> RESERVEDTIMES_DAILY_HISTORY <br> RESERVEDTIMES_EVENT</td>
-        <td>RESERVEDTIMEID (zelf) <br> SYSID <br> TASKID <br> GEBRUIKERSNAAM  </td>
-        <td>Zelf <br> geen verhouding; gebruikt voor interne toepassingsdoeleinden <br> TASKS_CURRENT | TASKID <br> USERS_CURRENT | USERID  </td>
+        <td>RESERVEDTIMEID (zelf) <br> SYSID <br> TASKID <br> GEBRUIKERSNAAM</td>
+        <td>Zelf <br> geen verhouding; gebruikt voor interne toepassingsdoeleinden <br> TASKS_CURRENT | TASKID <br> USERS_CURRENT | USERID</td>
+    </tr>
+    <tr>
+        <td>Resource Manager</td>
+        <td>Resource Manager</td>
+        <td>RESMGR | Resource Manager</td>
+        <td>RESOURCEMANAGERS_CURRENT <br> RESOURCEMANAGERS_DAILY_HISTORY <br> RESOURCEMANAGERS_EVENT</td>
+        <td>ID (zelf) <br> PROJECTID <br> RESOURCEMANAGERID <br> SYSID <br> TEMPLATEID</td>
+        <td>Zelf <br> PROJECTS_CURRENT | PROJECTID <br> USERS_CURRENT | USERID <br> niet een verhouding; gebruikt voor interne toepassingsdoeleinden <br> TEMPLATES_CURRENT | TEMPLATEID</td>
     </tr>
     <tr>
         <td>Bronpool</td>
@@ -528,8 +600,8 @@ De volgende tabel correleert objectnamen in Workfront (en hun namen in de interf
         <td>RTF-notitie</td>
         <td>RHNOTE | RTF-notitie</td>
         <td>RESERVEDTEXTNOTES_CURRENT <br> RESERVEDTEXTNOTES_DAILY_HISTORY <br> RESERVEDTEXTNOTES_EVENT</td>
-        <td>RICHTEXTNOTEID (zelf) <br> SYSID  </td>
-        <td>Zelf <br> geen verhouding; gebruikt voor interne toepassingsdoeleinden  </td>
+        <td>RICHTEXTNOTEID (zelf) <br> SYSID</td>
+        <td>Zelf <br> geen verhouding; gebruikt voor interne toepassingsdoeleinden</td>
     </tr>
     <tr>
         <td>Waarde van RTF-parameter</td>
@@ -722,6 +794,14 @@ De volgende tabel correleert objectnamen in Workfront (en hun namen in de interf
         <td>USERSGROUPS_CURRENT <br> USERSGROUPS_DAILY_HISTORY <br> USERSGROUPS_EVENT</td>
         <td>GROUPID <br> SYSID <br> GEBRUIKERSGROUPID <br> (zelf)</td>
         <td>GROUPS_CURRENT | GROUPID <br> geen verhouding; gebruikt voor interne toepassingsdoeleinden <br> USERS_CURRENT | USERID <br> Zelf</td>
+    </tr>
+    <tr>
+        <td>Locatie gebruiker</td>
+        <td>Locatie gebruiker</td>
+        <td>USRLOC | UserLocation</td>
+        <td>USERLOCATIONS_CURRENT <br> USERLOCATIONS_DAILY_HISTORY <br> USERLOCATIONS_EVENT</td>
+        <td>CLASSIFIERID <br> SYSID <br> GEBRUIKERSNAAM <br> (zelf) GEBRUIKERSONDERZOEK</td>
+        <td>CLASSIFIER_CURRENT | CLASSIFIERID <br> geen verhouding; gebruikt voor interne toepassingsdoeleinden <br> USERS_CURRENT | USERID <br> Zelf</td>
     </tr>
     <tr>
         <td>Gebruikersrol</td>

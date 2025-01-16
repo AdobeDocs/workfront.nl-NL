@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 10ab6466780d9fe88604bf781c153cde89f1e454
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1188'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Voor een lijst van alle veranderingen beschikbaar met het Vierde Kwartaal 2024 v
 
 >[!NOTE]
 >
->Productieversie voor alle klanten: In toenemende mate vanaf de release van 24.10 (17 oktober 2024), volledige beschikbaarheid tegen 8 november 2024
+>Productieversie voor alle klanten: in toenemende mate vanaf de release van 24.10 (17 oktober 2024)
 
 We hebben de rapportinterface bijgewerkt en aangepast aan het ontwerp van andere gebieden van Workfront. Deze updates bevatten aanvullende wijzigingen in de rapportfuncties:
 

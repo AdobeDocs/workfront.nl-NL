@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: fa24040d-0403-4799-b690-c3d172797115
-source-git-commit: d2e3379e9390f2b419bb2d78b1999c8c2dd7d0d3
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '834'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,25 @@ Deze pagina beschrijft alle beheerderverhogingen die met Eerste Kwartaal 2025 ve
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2025 versiecyclus, zie [ Eerste Kwartaal 2025 versieoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
+## Zakelijke regels worden nu ondersteund voor meer objecten
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 16 januari 2025; Productieversie voor alle klanten: met de release van 25.1 (januari 2025)
+>
+>_slechts beschikbaar voor organisaties op het plan van Ultimate._
+
+U kunt nu bedrijfsregels maken en validatie toepassen op deze extra objecten: Company, Iteration, Non-Labour Resource Categorie, Job Role, User, Assignment, Resource Pool, Time Off, Document en Uour.
+
+De volgende voorwerpen werden reeds gesteund voor bedrijfsregels: Project, Taak, Verzoek, Portfolio, Programma, Uitgaven, het Verslag van de Facturering, Groep, Risico, en Kaart van het Tarief.
+
+Voor meer informatie, zie [ bedrijfsregels ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md) creëren en uitgeven.
+
 ## Objecten tussen omgevingen vergelijken voor milieubescherming
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 6 januari 2024; Productieversie voor alle klanten: met de release van 25.1 (januari 2025)
+>Voorvertoningsrelease: 6 januari 2025; Productieversie voor alle klanten: met de release van 25.1 (januari 2025)
 
 Om het gemakkelijker te maken om te bepalen welk voorwerp in een milieu bevorderingspakket zou moeten worden omvat, hebben wij de capaciteit toegevoegd om voorwerpen over milieu&#39;s te vergelijken. U kunt nu objecttypen en -omgevingen selecteren. Workfront genereert een lijst met objecten van dat type, ongeacht of deze aanwezig zijn in de doelomgeving en of dat object verschillen heeft tussen de bronomgeving en de doelomgeving. Vervolgens kunt u objecten rechtstreeks vanuit deze lijst aan een pakket toevoegen.
 
@@ -34,7 +48,7 @@ Voor meer informatie, zie [ voorwerpen tussen milieu&#39;s ](/help/quicksilver/a
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 6 januari 2024; Productieversie voor alle klanten: met de release van 25.1 (januari 2025)
+>Voorvertoningsrelease: 6 januari 2025; Productieversie voor alle klanten: met de release van 25.1 (januari 2025)
 
 Om de mogelijkheden van de functionaliteit van de milieubevordering uit te breiden, hebben wij meer voorwerpen toegevoegd. Nu kunt u de volgende objecten toevoegen aan een milieupromotiepakket:
 
@@ -46,7 +60,7 @@ Eerder waren deze objecten niet beschikbaar voor milieubescherming.
 
 Voor meer informatie over voorwerpen beschikbaar voor milieubevordering, zie [ Gesteunde voorwerpen voor milieubevordering ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion) in het de bevorderingsoverzicht van het Milieu van het artikel.
 
-## Verplaatsingstaken voorkomen wanneer er uren zijn geregistreerd
+## Verplaatsen van taken voorkomen wanneer er uren zijn vastgelegd
 
 >[!NOTE]
 >

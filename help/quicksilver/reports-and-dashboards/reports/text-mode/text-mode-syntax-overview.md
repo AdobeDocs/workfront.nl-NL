@@ -7,7 +7,7 @@ author: Nolan
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
 source-wordcount: '1862'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Overzicht van syntaxis in tekstmodus
 
-<!--Audited: 12/2023-->
+<!--Audited: 1/2025-->
 
 U kunt de interface van de tekstwijze gebruiken om complexere meningen, filters, groeperingen, en aangepaste herinneringen in lijsten en rapporten tot stand te brengen. Met de tekstmodus hebt u toegang tot velden en de bijbehorende kenmerken die niet beschikbaar zijn in de standaardmodus.
 
@@ -29,7 +29,7 @@ Ga naar de sectie Leren op de Adobe Experience League-site voor meer informatie 
 ## Overwegingen bij de syntaxis van de tekstmodus
 
 * U moet de syntaxis van Adobe Workfront begrijpen voordat u rapportelementen kunt gaan maken in de tekstmodus. De Workfront-syntaxis voor de tekstmodus is uniek voor deze toepassing en heeft unieke kenmerken waarmee u vertrouwd moet zijn.
-* Voordat u de tekstmodus in uw rapporten gaat gebruiken, raden we u ten zeerste aan onze klassen voor geavanceerde rapportage te gebruiken om meer inzicht te krijgen in de taal van de tekstmodus. <!--outdated link: For training materials on reporting see [Workfront Reports and Dashboards Learning Paths](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).-->
+* Voordat u de tekstmodus in uw rapporten gaat gebruiken, raden we u ten zeerste aan onze klassen voor geavanceerde rapportage te gebruiken om meer inzicht te krijgen in de taal van de tekstmodus.
 * U kunt weergaven, filters en groepen aanpassen met de standaardmodusinterface. U kunt echter alleen aangepaste vragen maken met behulp van de tekstmodus.
 
 ## Gemeenschappelijke richtsnoeren voor het samenstellen van rapporteringselementen in tekstmodus
@@ -44,13 +44,11 @@ De volgende richtlijnen gelden voor het samenstellen van rapporten of lijsteleme
 
   **Voorbeeld:** u kunt de naam of GUID van de Eigenaar van het Portfolio in een taakmening tonen:
 
-
   `valuefield=project:portfolio:ownerID`
 
   U kunt niet groeperen, filteren of vragen voor de Eigenaar van het Portfolio in een taakmening:
 
   `project:portfolio:ownerID=5808f4bc00790b270a9629dd128e63fa`
-
 
   In deze voorbeelden bevindt de Portfolio-eigenaar-id zich op drie objecten afstand van het object in de lijst.
 
@@ -90,7 +88,7 @@ De volgende overeenkomsten bestaan tussen de syntaxis van de hieronder vermelde 
   Voor informatie over de belangrijkste lijnen van codes voor meningen en groeperingen wanneer het bouwen van hen op tekstwijze, zie:
 
    * [ geef een mening uit gebruikend tekstwijze ](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
-   * [Tekstmodus in een groep bewerken](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
+   * [Een groep bewerken in de tekstmodus](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 
 * De regels van code en syntaxis zijn gelijkaardig voor filters en douaneherinneringen.
 

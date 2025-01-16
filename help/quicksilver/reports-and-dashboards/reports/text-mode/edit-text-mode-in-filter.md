@@ -6,20 +6,16 @@ description: U kunt een filter in een lijst of rapport uitgeven gebruikend tekst
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1042'
 ht-degree: 0%
 
 ---
 
 # Een filter bewerken in de tekstmodus
 
-<!-- Audited: 01/2024 -->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">NOTE: add a section in this article: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-fitlers.html; *** Also, draft this area in the Text Mode overview article)</p>
--->
+<!-- Audited: 1/2025 -->
 
 U kunt een filter in een lijst of rapport uitgeven gebruikend tekstwijze om tot gebieden toegang te hebben die niet beschikbaar in de standaardinterface zijn en complexere filters creëren.
 
@@ -29,7 +25,7 @@ Voor meer tekst-wijze voorbeelden wanneer het creëren van een filter, zie ook d
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
+U moet het volgende hebben:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,9 +37,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td><p>Nieuw: Standaard</p>
-    <p>of</p>
-    <p>Huidig: Plan</p> </td> 
+   <td> 
+      <p>Nieuw:</p>
+         <ul>
+         <li><p>Standaard</p></li>
+         </ul>
+      <p>Huidige:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
@@ -56,7 +59,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -84,12 +87,20 @@ Voor informatie over het creëren van een rapport, zie [ een douanerapport ](../
 
 1. Voer een van de volgende handelingen uit:
 
-   1. Om tot de filter van een rapport toegang te hebben, ga naar het rapport, dan klik **de Acties van het Rapport** > **uitgeven** > **Filters** tabel.
-   1. Om tot de filter van een lijst toegang te hebben, ga naar de lijst en van het **menu van de Filter**, beweegt over de filter die u wilt wijzigen en **klikken geeft** pictogram ![](assets/edit-icon.png) uit.
+   Om tot de filter van een lijst toegang te hebben, ga naar de lijst en klik het **pictogram van de Filter**, dan over de filter in het zij **paneel van Filters** dat u wilt wijzigen en **klikken geeft** pictogram ![](assets/edit-icon.png) uit. Of het **zijpaneel van Filters** toont uw geselecteerde filter of de bouwer van de erfenisfilter opent.
 
-      De filterbuilder wordt geopend.
+   OF
 
-1. Klik **toevoegen een Regel van de Filter** om de voorwaarden van uw filter toe te voegen, dan klik **wijze van de Tekst** of **Schakelaar aan de Wijze van de Tekst** op de rechterkant van de bouwer.
+   Om tot de filter van een rapport toegang te hebben, ga naar het rapport, dan klik **de Acties van het Rapport** > **uitgeven** > **Filters** tabel.
+
+1. Voer een van de volgende handelingen uit:
+
+   Als u het **paneel van de Filters** zij op een lijst gebruikt, klik **wijze van de Tekst**.
+
+   OF
+
+   Als u de bouwer van de erfenisfilter of in een rapport gebruikt, klik **voeg een Regel van de Filter** toe om de voorwaarden van uw filter toe te voegen. Dan, klik **Schakelaar aan de Wijze van de Tekst** toen **de Wijze van de Tekst** op de rechterkant van de bouwer uitgeven.
+
 1. Voeg filterinstructies toe in de tekstmodus. Elke filterinstructie kan de volgende regels en aanvullende informatie bevatten:
 
    <table style="table-layout:auto"> 
@@ -175,7 +186,7 @@ Voor informatie over het creëren van een rapport, zie [ een douanerapport ](../
       >`OR:2:plannedCompletionDate=$$TODAY`
       >`OR:2:plannedCompletionDate_Mod=eq`
 
-1. Klik **de tekstwijze van de Uitgang** of **Gedaan** om uw veranderingen van de tekstwijze te bewaren en het rapport of de filter verder uit te geven.
+1. Klik **toepassen** of **Gereed** om uw veranderingen van de tekstwijze te bewaren en het rapport of de filter verder uit te geven.
 1. Klik **sparen + Sluiten** om uw rapport of **sparen Filter** te bewaren om de filter in de lijst te bewaren.
 
 

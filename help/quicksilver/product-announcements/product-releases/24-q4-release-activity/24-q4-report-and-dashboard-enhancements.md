@@ -4,9 +4,10 @@ description: Rapport en verbeteringen van dashboard voor vierde kwartaal 2024
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+exl-id: d4b7b926-f747-4aee-b983-fe6b5f2e0dfd
+source-git-commit: 1f33ef44b8e5d703c5407cdd2fc8ca24fba48bb1
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
@@ -23,7 +24,7 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwar
 >
 >Productieversie voor alle klanten: met de release van 24.10 (17 oktober 2024)
 >
->_slechts beschikbaar voor organisaties op één van de nieuwe plannen van Adobe Workfront. Gegevens verbinden is inbegrepen in het Ultimate plan of kan als toe:voegen-op aan de Primaire en Uitgezochte plannen worden gekocht._
+>_slechts beschikbaar voor organisaties op één van de nieuwe plannen van Adobe Workfront. Data Connect is opgenomen in het Ultimate-abonnement en wordt in de eerste helft van 2025 beschikbaar gesteld voor aankoop als invoegtoepassing voor de Prime- en Select-plannen._
 
 Workfront Data Connect wordt beschikbaar voor klanten met een van de nieuwe Workfront-plannen. Met Data Connect hebben organisaties toegang tot hun gegevens als een beveiligd en schaalbaar gegevenspeer, dat kan worden geanalyseerd en weergegeven met behulp van zakelijke intelligentiegereedschappen of extern kan worden opgeslagen. Bovendien kunnen organisaties Data Connect gebruiken om gegevensanalyses weer te geven die voorheen niet beschikbaar waren, zoals tijdgebaseerde trendanalyse, variabele mapping en analyse van externe systeemgegevens in combinatie met Workfront-gegevens.
 

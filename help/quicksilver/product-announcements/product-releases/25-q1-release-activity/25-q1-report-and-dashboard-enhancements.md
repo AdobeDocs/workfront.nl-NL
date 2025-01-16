@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3c0b4797-594c-44d0-b3ad-a64384b6c4a8
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,31 @@ ht-degree: 0%
 Deze pagina beschrijft alle rapport en dashboardverhogingen die met Eerste Kwartaal 2025 versie aan het milieu van de Voorproef worden gemaakt. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2025 versiecyclus, zie [ Eerste Kwartaal 2025 versieoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+
+## Nieuwe entiteiten beschikbaar in Data Connect
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 15 januari 2025; Productieversie voor alle klanten: 15 januari 2025
+
+We hebben ondersteuning toegevoegd voor de volgende entiteiten in Data Connect:
+
+* Projectteamgebruiker
+* Gebruikersrol projectteam
+* Te rapporteren begrotingsuren
+* Statistisch aantal rapportweergave
+* Resource Manager
+* RTF-notitie
+
+We hebben ook steun toegevoegd aan de volgende agentschappen:
+
+* Bedrijfsprofiel
+* Zakelijke regel
+* Locatie
+* Niet-arbeidsuitrustingscategorie
+* Locatie gebruiker
+
+Voor meer informatie, zie [ Gegevens van Workfront verbinden gegevenswoordenboek ](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md).
 
 ## Maximaal 25 rapporten, externe pagina&#39;s of kalenders in dashboards
 

@@ -6,45 +6,60 @@ description: Met voorwaardelijke opmaak kunt u twee verschillende velden in een 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: da4447ba-6e76-4701-88ee-87a30393bed9
-source-git-commit: 89a6d856f9f87a67b6a2ccfb4282f9f6200b977c
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
 
 # Velden in voorwaardelijke opmaak vergelijken
 
+<!-- Audited: 1/2025 -->
+
 Met voorwaardelijke opmaak kunt u twee verschillende velden in een weergave vergelijken en markeren als aan bepaalde criteria is voldaan tussen de velden.
 
 ## Toegangsvereisten
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
+U moet het volgende hebben:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> 
+      <p>Nieuw:</p>
+         <ul>
+         <li><p>Standaard</p></li>
+         </ul>
+      <p>Huidige:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Toegang tot rapporten, dashboards, kalenders bewerken om de weergave in een rapport te bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Toegang tot rapporten, dashboards, kalenders bewerken om de weergave in een rapport te bewerken</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten beheren voor een rapport om de weergave in een rapport te bewerken</p> <p>Rechten beheren voor een weergave</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Rechten beheren voor een rapport om de weergave in een rapport te bewerken</p> <p>Rechten beheren voor een weergave</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Voorbeeld: werkelijke begindatum en geplande begindatum vergelijken
 
@@ -53,27 +68,28 @@ Als de werkelijke begindatum van een taak bijvoorbeeld na de geplande begindatum
 U kunt als volgt de geplande begindatum en de werkelijke begindatum vergelijken met voorwaardelijke opmaak:
 
 1. Ga naar een taakmening of een rapport.
-1. (Voorwaardelijk) als u met een rapport werkt, van de **Kolommen (Mening)** tabel, klik de kopbal van de kolom u voorwaardelijk wilt formatteren om het te selecteren.\
+1. (Voorwaardelijk) als u met een rapport werkt, van het **lusje van Kolommen (Mening)** in de rapportredacteur, klik de kopbal van de kolom u voorwaardelijk wilt formatteren om het te selecteren.\
    Bijvoorbeeld, selecteer de **Ware kolom van de Datum van het Begin** als u het voorwaardelijke formatteren aan het wilt toevoegen door de Geplande Datum van het Begin en de Ware gebieden van de Datum van het Begin te vergelijken.
 
 1. Klik **Geavanceerde Opties**, dan klik toevoegen a **Regel voor deze Kolom**.
 
 1. Voer de vergelijkingscriteria in op basis van bestaande waarden in de builder en geef de voorwaardelijke opmaak op.\
-   We willen bijvoorbeeld taken markeren waarbij de werkelijke begindatum later is dan (of hoger is dan) de geplande begindatum. Selecteer de optie Groter dan en selecteer een werkelijke datum in het datumveld.\
-     ![](assets/cond-format-1-350x84.png)
+   We willen bijvoorbeeld taken markeren waarbij de werkelijke begindatum later is dan (of hoger is dan) de geplande begindatum. Selecteer de optie Groter dan en selecteer een werkelijke datum in het datumveld.
+
+   ![](assets/cond-format-1-350x84.png)
 
 1. (Optioneel) Selecteer **Toepassen op volledige rij** als u de opmaak op de volledige rij wilt toepassen.
-1. Klik **toevoegen Regel**, dan **Gedaan**.
+1. Klik **sparen**.
 
 1. Selecteer de **Ware kolom van de Datum van het Begin**, dan klik **Schakelaar aan de Wijze van de Tekst**.
 
-1. **klik om tekst** wijze uit te geven dan de volgende lijn van tekst toe te voegen:
+1. Klik **uitgeven de Wijze van de Tekst**, dan voeg de volgende lijn van tekst toe:
 
    ```
    styledef.case.0.comparison.rightmethod= <field to compare>
    ```
 
-   In ons voorbeeld: 
+   In ons voorbeeld:
 
    ```
    styledef.case.0.comparison.rightmethod=plannedStartDate

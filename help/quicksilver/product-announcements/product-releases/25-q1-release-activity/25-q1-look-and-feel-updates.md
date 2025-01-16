@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
-source-git-commit: 5ad96cc98e3bd8556224885940052a4f3d22697f
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 0%
@@ -28,7 +28,6 @@ Voor een lijst van alle veranderingen beschikbaar met Eerste Kwartaal 2025 versi
 We hebben de vormgeving van het vak Tijdstip bewerken bijgewerkt. Tijdens het bewerken van uren van een urenlijst of -rapport wordt rekening gehouden met het ontwerp van andere gebieden van Workfront.
 
 Voor informatie, zie [ tijd van het Logboek ](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
-
 
 
 ## Bijgewerkte ervaring op de pagina van de Leveranciers van de Wolk in het gebied van de Opstelling
