@@ -6,7 +6,7 @@ description: U kunt kalenderrapporten en gebeurtenisdetails bekijken die u creee
 author: Lisa
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: d90459cb4f6fb1960552f0ab174e963582312b5c
+source-git-commit: 9ddbe09ab99b6b151fc2d052b4c53e004eb0fa44
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 0%
@@ -63,6 +63,7 @@ Afhankelijk van uw toegangsniveau, zou u de volgende vermelde kalenders kunnen z
 * Uw standaardkalender [!DNL Adobe Workfront]
 
   Workfront maakt een kalender voor u op basis van de projecten, taken en problemen die aan u zijn toegewezen of die zijn toegewezen aan teams, groepen of rollen waaraan u bent toegewezen.
+
 * Door u gemaakte kalenders
 
   Om over het creëren van kalenders te leren, zie [ overzicht van de rapporten van de Kalender ](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
