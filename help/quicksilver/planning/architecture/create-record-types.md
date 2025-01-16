@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1394'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 # Recordtypen maken
 
-<span class="preview"> de informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -53,8 +53,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td> 
 <p>Een van de volgende Workfront-plannen:</p> 
 <ul><li>Selecteren</li> 
-<li>Eerste</li> 
-<li>Ultieme</li></ul> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
 <p>Workfront Planning is niet beschikbaar voor oudere Workfront-plannen</p> 
    </td> 
 <tr> 
@@ -108,11 +108,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
         Voor informatie, zie [ werkruimten ](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
 
-      * <span class="preview"> wanneer u hen gebruikend een dossier van Excel of CSV invoert. </span>
+      * Wanneer u ze importeert met een Excel- of CSV-bestand.
 
      >[!TIP]
      >
-     ><span class="preview"> wanneer u een verslagtype van een dossier van Excel of CSV invoert, zouden de verslagen en de gebieden ook kunnen worden ingevoerd.</span>
+     >Wanneer u een recordtype uit een Excel- of CSV-bestand importeert, kunt u ook records en velden importeren.
 
    * Handmatig:
 
@@ -147,7 +147,7 @@ Voor informatie over welke verslagtypes met elk malplaatje inbegrepen zijn, zie 
 
    Vouw in een werkruimte de pijl omlaag naar rechts uit, zoek naar een werkruimte en selecteer deze wanneer de werkruimte in de lijst wordt weergegeven.
 1. (Facultatief) klik **sectie** toevoegen om een nieuwe sectie aan de werkruimte toe te voegen.
-1. Klik **recordtype** toevoegen, toen <span class="preview">**Nieuw**</span>.
+1. Klik **recordtype** toevoegen, toen **Nieuw**.
 
    Het vak Recordtype toevoegen wordt geopend.
    <!--1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. -->
@@ -207,8 +207,6 @@ De beschrijving van het recordtype wordt weergegeven op de kaart.
    * [Recordtypen verwijderen](/help/quicksilver/planning/architecture/delete-record-types.md)
    * [Recordtypen bewerken](/help/quicksilver/planning/architecture/edit-record-types.md)
    * [ beheer verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md)
-
-<div class="preview">
 
 ## Recordtypen maken door een Excel- of CSV-bestand te importeren
 
@@ -278,6 +276,3 @@ Recordtypen importeren met een Excel- of CSV-bestand:
    U kunt velden en records op de recordtypepagina&#39;s gaan beheren.
 
    Iedereen met toegang tot de Planning van Workfront kan nu de ingevoerde verslagtypes en hun informatie bekijken en uitgeven.
-
-</div>
-

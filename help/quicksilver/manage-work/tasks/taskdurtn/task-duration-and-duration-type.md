@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '1791'
+source-wordcount: '1649'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 <!-- Audited: 12/2023 -->
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 De taakduur is het verschil tussen de Geplande Datum van Voltooiing en de Geplande Datum van het Begin van de taak. De Duur wijst op het tijdkader dat voor de taak beschikbaar is om te worden voltooid.
 
@@ -41,17 +41,7 @@ Als u een programma hebt dat bij 9:00 AM begint en bij 12:00 PM beëindigt en ee
 
 De volgende twee scenario&#39;s bestaan bij het berekenen van de duur in Adobe Workfront:
 
-* Als de taak aan één gebruiker wordt toegewezen, bestaan de volgende scenario&#39;s gebaseerd op welke milieu u gebruikt:
-
-   * In de productieomgeving gebruikt Workfront een van de volgende schema&#39;s, in deze exacte volgorde om de duur te berekenen:
-
-   1. Workfront houdt rekening met de planning van de gebruiker.
-   1. Als de gebruiker niet met een programma wordt geassocieerd, houdt Workfront rekening met het programma van het project.
-   1. Als het project niet aan een programma wordt geassocieerd, houdt Workfront rekening met het Standaard Programma van uw systeem. Voor informatie over programma&#39;s, zie [ een programma ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren.
-
-<div class="preview">
-
-* In de voorvertoningsomgeving:
+* Als de taak aan één gebruiker wordt toegewezen:
 
    1. Workfront houdt rekening met of het programma van het project of dat van de gebruiker die aan de taak wordt toegewezen.
 
@@ -60,8 +50,6 @@ De volgende twee scenario&#39;s bestaan bij het berekenen van de duur in Adobe W
    1. Als de gebruiker of het project geen programma hebben, gebruikt Workfront het systeemGebrek programma.
 
       De stappen zijn gelijkaardig aan het eerste scenario na begrip welk programma Workfront gebruikt om Duur te berekenen.
-
-</div>
 
 * Als de taak aan meerdere gebruikers wordt toegewezen:
 

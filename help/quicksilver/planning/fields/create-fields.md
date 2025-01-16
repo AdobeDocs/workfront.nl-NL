@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: b89f4aa6f779e09d6749e59bdf3d54f0dd9bbf03
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '4370'
+source-wordcount: '4310'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 0%
 
 # Velden maken
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
 
 
 {{planning-important-intro}}
@@ -39,9 +39,8 @@ U kunt velden op de volgende manieren maken in Workfront Planning:
 * Door recordtypen aan te sluiten
 * Door een recordtype te maken
 * Een werkruimte maken op basis van een sjabloon
-* <span class="preview"> door recordtypes in te voeren gebruikend een Excel of Csv- dossier </span>
-* <span class="preview"> door exemplaren van bestaande gebieden van Workfront in te voeren </span>
-
+* Door recordtypen te importeren met een Excel- of CSV-bestand
+* Door kopieën van bestaande Workfront-velden te importeren
 
 Voor meer informatie over de planningsgebieden van Workfront, zie [ Overzicht van het Gebied ](/help/quicksilver/planning/fields/fields-overview.md).
 
@@ -70,8 +69,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td> 
 <p>Een van de volgende Workfront-plannen:</p> 
 <ul><li>Selecteren</li> 
-<li>Eerste</li> 
-<li>Ultieme</li></ul> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
 <p>Workfront Planning is niet beschikbaar voor oudere Workfront-plannen</p> 
    </td> 
 <tr> 
@@ -253,7 +252,7 @@ Tekstvelden van één regel bevatten beperkte alfanumerieke informatie. U kunt b
 
 1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
    * **Naam**: De naam van het gebiedstype, aangezien het in een lijst of de pagina van Details van het verslag zal verschijnen. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een gebied toont wanneer u over de de kolomkopbal van het gebied in een lijst beweegt, of <span class="preview"> wanneer u het informatiepictogram naast de gebiedsnaam in de detailspagina van het verslag klikt.</span>
+   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolomkop van het veld in een tabel plaatst of wanneer u op het informatiepictogram naast de veldnaam op de detailpagina van de record klikt.
 1. Klik **creëren**.
 
    Het nieuwe veld met één regel wordt toegevoegd als een kolom aan het recordtype en de waarden ervan kunnen aan records worden gekoppeld.
@@ -279,7 +278,7 @@ In alineasvelden wordt aanvullende alfanumerieke informatie over een record vast
 
 1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
    * **Naam**: De naam van het gebiedstype, aangezien het in een lijst of de pagina van Details van het verslag zal verschijnen. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een gebied toont wanneer u over de kolom van het gebied in een lijst beweegt, of <span class="preview"> wanneer u het informatiepictogram naast de gebiedsnaam in de de detailspagina van het verslag klikt.</span>
+   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst of wanneer u op het informatiepictogram naast de veldnaam op de detailpagina van de record klikt.
 1. Klik **creëren**.
 
    Het nieuwe paragraafgebied wordt toegevoegd als kolom aan het verslagtype, en zijn waarden kunnen met verslagen worden geassocieerd.
@@ -296,7 +295,7 @@ U kunt een veld met meerdere selecties gebruiken om aanvullende informatie in el
 
 1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
    * **Naam**: De naam van het gebiedstype, aangezien het in een lijst of de pagina van Details van het verslag zal verschijnen. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een gebied toont wanneer u over de kolom van het gebied in een lijst beweegt, of <span class="preview"> wanneer u het informatiepictogram naast de gebiedsnaam in de de detailspagina van het verslag klikt.</span>
+   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst of wanneer u op het informatiepictogram naast de veldnaam op de detailpagina van de record klikt.
    * **Keuzen**: De opties die de gebruikers kunnen selecteren wanneer het bijwerken van dit gebied. U kunt zowel cijfers als letters gebruiken voor de naam van elke keuze.
 1. Klik **toevoegen keus** om meer keuzen toe te voegen. Er geldt geen limiet voor het aantal keuzen dat u kunt toevoegen aan een veld met meerdere selecties.
 1. (Optioneel) Sleep een keuze handmatig in de gewenste volgorde of selecteer de optie
@@ -304,12 +303,11 @@ U kunt een veld met meerdere selecties gebruiken om aanvullende informatie in el
 1. (Facultatief) om een keus te verwijderen, klik het **x** pictogram rechts van het.
 1. Klik op het kleurstaal links van een keuze om de kleurkiezer uit te vouwen en de kleur van elke optie aan te passen.
 
-1. <span class="preview"> klik **Monsters** om een vooraf bepaalde kleur </span> te selecteren
+1. Klik **Monsters** om een vooraf bepaalde kleur te selecteren
 
-   <span class="preview"> Of </span>
+   of
 
-   <span class="preview"> klik **Douane** om een douanekleur te selecteren gebruikend een kleurenplukker of een code van de Hexagina.
-   </span>
+   Klik **Douane** om een douanekleur te selecteren gebruikend een kleurenplukker of een code van de Hexagina.
 1. Klik buiten het kleurvak om het te sluiten.
 1. Klik **creëren**.
 
@@ -326,19 +324,19 @@ Met velden die een enkele selectie maken, wordt aanvullende informatie in elke g
 
 1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
    * **Naam**: De naam van het gebiedstype, aangezien het in een lijst of de pagina van Details van het verslag zal verschijnen. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een gebied toont wanneer u over de kolom van het gebied in een lijst beweegt, of <span class="preview"> wanneer u het informatiepictogram naast de gebiedsnaam in de de detailspagina van het verslag klikt.</span>
+   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst of wanneer u op het informatiepictogram naast de veldnaam op de detailpagina van de record klikt.
    * **Keuzen**: De opties beschikbaar om van het drop-down menu te selecteren nadat het gebied wordt bewaard. U kunt zowel cijfers als letters voor de naam van elke keus hebben.
 
 1. Klik **toevoegen keus** om meer keuzen toe te voegen. Er geldt geen limiet voor het aantal keuzen dat u kunt toevoegen aan een veld voor één keuze.
 1. (Facultatief) sleep en laat manueel elke keus in de gewenste orde vallen, of selecteer de **optie van de Soort A-Z** als u de keuzen automatisch in alfabetische orde wilt worden vermeld. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. (Facultatief) om een keus te verwijderen, klik het **x** pictogram rechts van het.
 1. Klik op het kleurstaal links van een keuze om de kleurkiezer uit te vouwen en de kleur van elke optie aan te passen.
-1. <span class="preview"> klik **Monsters** om een vooraf bepaalde kleur </span> te selecteren
+1. Klik **Monsters** om een vooraf bepaalde kleur te selecteren
 
-   <span class="preview"> Of </span>
+   of
 
-   <span class="preview"> klik **Douane** om een douanekleur te selecteren gebruikend een kleurenplukker of een code van de Hexagina.
-   </span>
+   Klik **Douane** om een douanekleur te selecteren gebruikend een kleurenplukker of een code van de Hexagina.
+
 1. Klik buiten het kleurvak om het te sluiten.
 1. Klik **creëren**.
 
@@ -355,7 +353,7 @@ U kunt een datumveld gebruiken om aanvullende informatie vast te leggen in de da
 
 1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
    * **Naam**: De naam van het gebiedstype, aangezien het in een lijst of de verslagpagina zal verschijnen. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een gebied toont wanneer u over de kolom van het gebied in een lijst beweegt, of <span class="preview"> wanneer u het informatiepictogram naast de gebiedsnaam in de de detailspagina van het verslag klikt.</span>
+   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst of wanneer u op het informatiepictogram naast de veldnaam op de detailpagina van de record klikt.
    * **Formaat van de Datum**: Het type van datumformaat u op dit gebied wilt tonen. <!--update this casing - submitted bug for it-->
 
      Selecteer een van de volgende indelingen:
@@ -385,7 +383,7 @@ Met een getalveldtype wordt informatie vastgelegd in een getalnotatie.
 1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
 
    * **Naam**: De naam van het gebiedstype, aangezien het in een lijst of de verslagpagina zal verschijnen.
-   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een gebied toont wanneer u over de kolom van het gebied in een lijst beweegt, of <span class="preview"> wanneer u het informatiepictogram naast de gebiedsnaam in de de detailspagina van het verslag klikt.</span>
+   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst of wanneer u op het informatiepictogram naast de veldnaam op de detailpagina van de record klikt.
    * **Precisie**: Het aantal decimalen die u voor het gebied wilt registreren. U kunt maximaal 6 decimalen weergeven.
    * **sta negatieve aantallen** toe: selecteer deze optie als u negatieve aantallen op dit gebied wilt toestaan. Deze optie is standaard uitgeschakeld.
 
@@ -401,21 +399,19 @@ Met een getalveldtype wordt informatie vastgelegd in een getalnotatie.
 
 Percentageveldtypen leggen informatie vast in een getalnotatie gevolgd door een percentageteken.
 
-1. Begin creërend een gebied zoals die in de sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer het **3} gebiedstype van het Percentage {. <!--change screen shot for preview-->**
+1. Begin creërend een gebied zoals die in de sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer het **3} gebiedstype van het Percentage {.**
 
    ![](assets/percentage-field-type.png)
 
 1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
    * **Naam**: De naam van het gebiedstype, aangezien het in een lijst of de verslagpagina zal verschijnen.
-   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een gebied toont wanneer u over de kolom van het gebied in een lijst beweegt, of <span class="preview"> wanneer u het informatiepictogram naast de gebiedsnaam in de de detailspagina van het verslag klikt.</span>
+   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst of wanneer u op het informatiepictogram naast de veldnaam op de detailpagina van de record klikt.
    * **Precisie**: Het aantal decimalen die u voor het gebied wilt registreren. U kunt maximaal 6 decimalen weergeven.
    * **sta negatieve aantallen** toe: selecteer deze optie als u negatieve percentagewaarden op dit gebied wilt toestaan. Deze optie is standaard uitgeschakeld.
 
      >[!NOTE]
      >
      >Als u negatieve getallen toestaan selecteert en negatieve waarden worden opgeslagen in de records waaraan het veld is gekoppeld, kunt u de instelling in de toekomst niet meer uitschakelen.
-
-   <div class="preview">
 
    * **toon als**: Van het drop-down menu, kies hoe u de percentagewaarden in de lijstmening wilt tonen. Selecteer een van de volgende opties:
       * **Aantal**: De percentagewaarde toont als aantal dat door het percentageteken wordt gevolgd.
@@ -426,7 +422,6 @@ Percentageveldtypen leggen informatie vast in een getalnotatie gevolgd door een 
    >
    >* De selectie die u maakt in het veld Tonen als, geldt alleen voor het percentage dat zichtbaar is in de tabelweergave. De percentagewaarde van het gebied toont als aantal gevolgd door het percentageteken overal anders in de Planning van Workfront. Dit is ook op het percentage-type gebied van toepassing wanneer het als raadplegingsgebied in de lijstmeningen van andere verslagen toont.
    >* U kunt de optie Tonen als selectie wijzigen wanneer u het veld later bewerkt.
-   </div>
 
 1. Klik **creëren**.
 
@@ -442,7 +437,7 @@ Valutatypen leggen informatie vast in een getalnotatie voorafgegaan door een val
 
 1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
    * **Naam**: De naam van het gebiedstype, aangezien het in een lijst of de verslagpagina zal verschijnen. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een gebied toont wanneer u over de kolom van het gebied in een lijst beweegt, of <span class="preview"> wanneer u het informatiepictogram naast de gebiedsnaam in de de detailspagina van het verslag klikt.</span>
+   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst of wanneer u op het informatiepictogram naast de veldnaam op de detailpagina van de record klikt.
    * **Valuta**: Het type van munt u op dit gebied wilt tonen. Dit is een lijst van valuta&#39;s volgens de Internationale Organisatie voor Normalisatie (ISO).
    * **Precisie**: Het aantal decimalen die u voor het gebied wilt registreren. U kunt maximaal 6 decimalen weergeven.
    * **sta negatieve aantallen** toe: selecteer deze optie als u negatieve muntwaarden op dit gebied wilt toestaan. Deze optie is standaard uitgeschakeld.
@@ -465,7 +460,7 @@ Met het veldtype Selectievakje kunt u één optie voor het selectievakje aan een
 
 1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
    * **Naam**: De naam van het gebiedstype, aangezien het in een lijst of de verslagpagina zal verschijnen. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een gebied toont wanneer u over de kolom van het gebied in een lijst beweegt, of <span class="preview"> wanneer u het informatiepictogram naast de gebiedsnaam in de de detailspagina van het verslag klikt.</span>
+   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst of wanneer u op het informatiepictogram naast de veldnaam op de detailpagina van de record klikt.
 1. Klik **creëren**.
 
    Het nieuwe selectievakje wordt als kolom toegevoegd aan het recordtype en de waarden ervan kunnen aan records worden gekoppeld.
@@ -483,7 +478,7 @@ Voor meer informatie, zie [ overzicht van de gebieden van de Formule ](/help/qui
 1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
 
    * **Naam**: Ga een naam voor het nieuwe gebied in.
-   * **Beschrijving**: Voeg informatie over het nieuwe gebied toe. De beschrijving van een gebied toont wanneer u over de kolom van het gebied in een lijst beweegt, of <span class="preview"> wanneer u het informatiepictogram naast de gebiedsnaam in de de detailspagina van het verslag klikt.</span>
+   * **Beschrijving**: Voeg informatie over het nieuwe gebied toe. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst of wanneer u op het informatiepictogram naast de veldnaam op de detailpagina van de record klikt.
    * **Formule**: Begin typend minstens één karakter om tot een uitdrukking toegang te hebben, dan selecteer het wanneer het in de lijst toont.
 
 1. Klik op de geselecteerde expressie om de definitie weer te geven en de opmaak weer te geven.
@@ -495,7 +490,7 @@ Voor meer informatie, zie [ overzicht van de gebieden van de Formule ](/help/qui
 
    >[!TIP]
    >
-   ><span class="preview"> u zult een waarschuwingsbericht ontvangen wanneer het uitgeven van of het creëren van een formuleringsgebied dat een kringverwijzing naar zich of gedeelde gebieden zou kunnen veroorzaken. U kunt geen formuleringsgebied opslaan dat of naar zich of naar punten verwijst die in zijn berekening van verwijzingen worden voorzien.  </span>
+   >U ontvangt een waarschuwingsbericht wanneer u een formuleveld bewerkt of maakt dat een cirkelverwijzing naar zichzelf of gedeelde velden kan veroorzaken. U kunt geen formuleringsgebied opslaan dat of naar zich of naar punten verwijst die in zijn berekening van verwijzingen worden voorzien.
 
 
 1. Voeg veldnamen toe zoals deze worden weergegeven in Workfront Planning om ernaar te verwijzen in een formule.
@@ -545,7 +540,7 @@ Met het veldtype Personen kunt u een gebruiker <!--, job role, or team--> aan ee
 
 1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
    * **Naam**: De naam van het gebiedstype, aangezien het in een lijst of de verslagpagina zal verschijnen.
-   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een gebied toont wanneer u over de kolom van het gebied in een lijst beweegt, of <span class="preview"> wanneer u het informatiepictogram naast de gebiedsnaam in de de detailspagina van het verslag klikt.</span>
+   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst of wanneer u op het informatiepictogram naast de veldnaam op de detailpagina van de record klikt.
    * **staat veelvoudige waarden** toe: Selecteer deze optie als u gebruikers wilt toestaan om meer dan één gebruiker op dit gebied toe te voegen. Deze optie is standaard uitgeschakeld.
 
    >[!NOTE]
@@ -567,7 +562,7 @@ U kunt het veld Gemaakt op veldtype gebruiken om de gebruiker die de record heef
 1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
 
    * **Naam**: De naam van het gebiedstype, aangezien het in een lijst of de verslagpagina zal verschijnen. <!--this might change and they might prepopulate it with "Created by"-->
-   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een gebied toont wanneer u over de kolom van het gebied in een lijst beweegt, of <span class="preview"> wanneer u het informatiepictogram naast de gebiedsnaam in de de detailspagina van het verslag klikt.</span>
+   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst of wanneer u op het informatiepictogram naast de veldnaam op de detailpagina van de record klikt.
 
 1. Klik **creëren**.
 
@@ -587,7 +582,7 @@ Met het veldtype Gemaakt datum kunt u de datum toevoegen waarop de record is gem
 1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
 
    * **Naam**: De naam van het gebiedstype, aangezien het in een lijst of de verslagpagina zal verschijnen. <!--this might change and they might prepopulate it with "Created date"-->
-   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een gebied toont wanneer u over de kolom van het gebied in een lijst beweegt, of <span class="preview"> wanneer u het informatiepictogram naast de gebiedsnaam in de de detailspagina van het verslag klikt.</span>
+   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst of wanneer u op het informatiepictogram naast de veldnaam op de detailpagina van de record klikt.
    * **Formaat van de Datum**: Uitgezocht van de volgende formaten:
 
       * **Landinstelling**: Gelijke aan de scène van uw browser.
@@ -618,7 +613,7 @@ U kunt de Laatst gewijzigd op veldtype gebruiken om de gebruiker die de record h
 1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
 
    * **Naam**: De naam van het gebiedstype, aangezien het in een lijst of de verslagpagina zal verschijnen. <!--this might change and they might prepopulate it with "Created by"-->
-   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een gebied toont wanneer u over de kolom van het gebied in een lijst beweegt, of <span class="preview"> wanneer u het informatiepictogram naast de gebiedsnaam in de de detailspagina van het verslag klikt.</span>
+   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst of wanneer u op het informatiepictogram naast de veldnaam op de detailpagina van de record klikt.
 
 1. Klik **creëren**.
 
@@ -638,7 +633,7 @@ Met het veldtype Laatst gewijzigd kunt u de datum toevoegen waarop een record vo
 1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
 
    * **Naam**: De naam van het gebiedstype, aangezien het in een lijst of de verslagpagina zal verschijnen. <!--this might change and they might prepopulate it with "Created date"-->
-   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een gebied toont wanneer u over de kolom van het gebied in een lijst beweegt, of <span class="preview"> wanneer u het informatiepictogram naast de gebiedsnaam in de de detailspagina van het verslag klikt.</span>
+   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst of wanneer u op het informatiepictogram naast de veldnaam op de detailpagina van de record klikt.
    * **Formaat van de Datum**: Uitgezocht van de volgende formaten:
 
       * **Landinstelling**: Gelijke aan de scène van uw browser.
@@ -678,7 +673,7 @@ Adobe Workfront Planning maakt velden voor recordtypen wanneer u een werkruimte 
 
 Voor informatie, zie [ werkruimten ](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
 
-<div class="preview">
+
 
 ## Velden maken bij het importeren van recordtypen uit een CSV- of Excel-bestand
 
@@ -696,4 +691,4 @@ Nadat u de velden hebt gekopieerd, zijn de velden onafhankelijk van elkaar en wi
 
 Voor informatie, zie [ de gebieden van de Invoer van Workfront ](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
 
-</div>
+

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 5db940b197364e30ef6e1ea3e3c94ae3bda5b20c
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '1683'
+source-wordcount: '1624'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # De lay-out van de recordpagina beheren
 
-<span class="preview"> de informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -63,8 +63,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td>
 <p>Een van de volgende Workfront-plannen:</p>
 <ul><li>Selecteren</li>
-<li>Eerste</li>
-<li>Ultieme</li></ul>
+<li>Prime</li>
+<li>Ultimate</li></ul>
 <p>Workfront Planning is niet beschikbaar voor oudere Workfront-plannen</p>
    </td>
 
@@ -254,8 +254,6 @@ De volgende dingen doen zich voor:
 
    Alle wijzigingen in de lay-out van de recordvoorvertoning of pagina worden automatisch opgeslagen.
 
-<span class="preview">
-
 ## Een pagina van de verbindingsweergave toevoegen aan de pagina van een record
 
 Houd rekening met het volgende wanneer u een verbindingsweergave toevoegt aan de pagina van een record:
@@ -292,7 +290,7 @@ De tabelweergave is alleen-lezen.
 1. (Optioneel) Gebruik alle weergave-elementen op de werkbalk om de tabelweergave te beheren. Voor informatie, zie [ de lijstmening ](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
 1. (Facultatief) Beweeg over de naam van het lusje, dan klik **Meer** ![](assets/more-menu.png), dan klik **Schrapping** om aan nieuw Verbonden meningslusje te verwijderen.
 
-</span>
+
 
 <!--
 ## Add a Brief page to a record's page

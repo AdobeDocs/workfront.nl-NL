@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: ef7f5d00bd74feee5e06b935c4bb8a18ee8b08a8
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '2277'
+source-wordcount: '2217'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 <!--Audited: 12/2023-->
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 Als [!DNL Adobe Workfront] beheerder, kunt u de standaardvoorkeur voor alle projecten vormen die door het systeem worden gecreeerd. Deze voorkeuren zijn van invloed op het project, de taak en het gedrag van problemen.
@@ -217,8 +217,8 @@ Configureer een of meer van de volgende voorkeuren voor nieuwe projecten in het 
 
 </tr> 
   <tr> 
-   <td role="rowheader"> <p><span class="preview">Wanneer één gebruiker aan een taak wordt toegewezen, gebruik het programma van..</span></p> </td> 
-   <td> <div class="preview">
+   <td role="rowheader"> <p>Wanneer één gebruiker aan een taak wordt toegewezen, gebruik het programma van..</p> </td> 
+   <td> 
 <p>Als een project geen toegewezen programma heeft of als de gebruikers die aan zijn taken worden toegewezen geen Programma hebben dat aan hen wordt toegewezen, [!DNL Workfront] gebruikt het systeem standaardprogramma om de chronologie van de taken te berekenen.</p>
 
 <p>Als u één gebruiker aan een taak in een project toewijst en zowel het project als de gebruiker die aan de taken wordt toegewezen hebben programma's verbonden aan hen, [!UICONTROL Workfront] gebruikt de volgende programma's:</p> 
@@ -226,7 +226,7 @@ Configureer een of meer van de volgende voorkeuren voor nieuwe projecten in het 
      <li><strong>[!UICONTROL User]</strong>: [!DNL Workfront] gebruikt het schema van de toegewezen gebruiker op de taak om tijdlijnen te berekenen.</li> 
      <li><strong>[!UICONTROL Project]</strong>: [!DNL Workfront] gebruikt het schema van het project om de tijdlijn van de taak te berekenen.</li> 
     </ul> <p>Voor meer informatie over programma's, zie <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override=""> een programma </a> creëren.</p>
-</div></td> 
+</td> 
   </tr>
 
 <tr data-mc-conditions=""> 

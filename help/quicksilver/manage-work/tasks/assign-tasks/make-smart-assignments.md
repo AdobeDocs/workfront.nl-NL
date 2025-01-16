@@ -6,9 +6,9 @@ description: U kunt slimme toewijzingen gebruiken om te bepalen wie de beste geb
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
@@ -19,17 +19,17 @@ ht-degree: 0%
 
 <!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit beschikbaar slechts in het milieu van de Productie voor klanten die snelle versies toeliet.</span>
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit beschikbaar slechts in het milieu van de Voorproef.</span>
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken.</span>
+<!--<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview"> Deze functionaliteit wordt verwijderd uit de productieomgeving voor klanten die in januari 2025 snelle release met de release 25.1 hebben ingeschakeld. Voor informatie over de versie 25.1, zie [ Eerste Kwartaal 2025 overzicht van de versie ](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+<span class="preview"> This functionality will be removed from the Production environment for customers who enabled fast release with the 25.1 release in January 2025. For information about the 25.1 release, see [First Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md). -->
 
 U kunt slimme toewijzingen gebruiken om te bepalen wie de beste gebruiker het werk moet voltooien.
 
 De slimme taken zijn suggesties voor gebruikers, rollen, of teams die Adobe Workfront aan u voorstelt wanneer u het werkpunten aan middelen toewijst. Workfront baseert zijn suggesties op een algoritme dat de meest aangewezen bron voor de baan bepaalt.
 
-<span class="preview"> er zijn twee afzonderlijke algoritmen in Workfront die slimme taken berekenen die verschillend voor taken en voor kwesties werken.</span>
+<!--<span class="preview">There are two separate algorithms in Workfront that calculate smart assignments that work differently for tasks and for issues.</span> -->
 
 Voor meer informatie over de criteria die in het bepalen van slimme taken worden gebruikt, zie [ Slim toewijzingsoverzicht ](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
 
@@ -75,24 +75,22 @@ Slimme toewijzingen zijn beschikbaar op de meeste locaties waar u toewijzingen k
    * Een taak- of uitgiftenlijst of rapport
    * Een taak- of uitgiftekoptekst
    * Het deelvenster Overzicht van taken of uitgaven
-   * <span class="preview"> Een Nieuwe Taak </span> of Nieuwe doos van de Uitgave, aangezien u <span class="preview"> een nieuwe taak </span> of een kwestie aan een project toevoegt
    * Een taak of probleem in het werklastevenwicht
+     <!--* <span class="preview">A New Task</span> or New Issue box, as you add <span class="preview">a new task</span> or issue to a project-->
 
 1. Plaats de cursor in het veld Toewijzingen en wacht twee seconden.
 
-   Voor problemen worden de slimme toewijzingen weergegeven in de volgende secties:
+   <!--For issues, the smart assignments display in the following sections: 
+      * **Users and teams**
+      * **Job roles**
+        ![](assets/smart-assignments-issue-header.png)-->
 
-   * **Gebruikers en teams**
-   * **de rollen van de Baan**
+   De slimme toewijzingsvertoningen tonen in de volgende secties <!--, depending on which phase of the algorithm's calculation identified the assignments-->:
 
-   ![](assets/smart-assignments-issue-header.png)
+   <!--* <span class="preview">**Suggested assignments**: Displays assignments identified in the first phase of the task smart assignment algorithm.</span> -->
+   * **Gebruikers en teams**, **de rollen van de Baan**, of <span class="preview">**de baanrollen van de kaart van het Tarief**</span>: <!--Assignments identified in the second phase of the task smart assignment's algorithm calculation.-->
 
-   Voor taken worden de slimme toewijzingen weergegeven in de volgende secties, afhankelijk van de fase van de berekening van het algoritme waarin de toewijzingen zijn geïdentificeerd:
-
-   * <span class="preview">**Voorgestelde taken**: De taken van vertoningen die in de eerste fase van het taak slimme toewijzingsalgoritme worden geïdentificeerd.</span>
-   * **Gebruikers en teams**, **de rollen van de Baan**, of <span class="preview">**de baanrollen van de kaart van het Tarief**</span>: Taken die in de tweede fase van de het algoritmeberekening van de taak slimme taak worden geïdentificeerd.
-
-   <span class="preview">![](assets/smart-assignments-task-list.png)</span>
+   ![](assets/smart-assignments-task-list.png)
 
    Voor meer informatie, zie [ Slim toewijzingsoverzicht ](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 

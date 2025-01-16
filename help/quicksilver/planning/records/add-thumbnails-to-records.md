@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '872'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Een miniatuur toevoegen aan een record
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -55,8 +55,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td> 
 <p>Een van de volgende Workfront-plannen:</p> 
 <ul><li>Selecteren</li> 
-<li>Eerste</li> 
-<li>Ultieme</li></ul> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
 <p>Workfront Planning is niet beschikbaar voor oudere Workfront-plannen</p> 
    </td> 
 <tr> 
@@ -184,11 +184,7 @@ U kunt op de volgende manieren een miniatuur toevoegen:
 
    De detailpagina van de record wordt geopend.
 
-1. (Voorwaardelijk) in de verslagvoorproef of de pagina, houd over het duimnagelbeeld of pictogram ![](assets/record-thumbnail-icon-on-details-page.png), dan klik het **Meer** menu ![](assets/more-menu.png) > **geeft duimnagel** in het milieu van de Productie uit
-
-   of
-
-   <span class="preview"> Hover over de ruimte boven de verslagnaam, dan klik **duimnagel** toevoegen of **geeft duimnagel** in het milieu van de Voorproef uit.</span>
+1. (Voorwaardelijk) in de verslagvoorproef of detailspagina, houd over het duimnagelbeeld of pictogram ![](assets/record-thumbnail-icon-on-details-page.png), dan beweegt over de ruimte boven de verslagnaam, dan klik **duimnagel** toevoegen of **geeft duimnagel** uit.
 
    Het **uploadt** lusje opent door gebrek in de **duimnagel van het Verslag** doos.
 

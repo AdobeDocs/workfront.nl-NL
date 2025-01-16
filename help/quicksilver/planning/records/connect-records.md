@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '2988'
+source-wordcount: '2928'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Connect-records
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -86,8 +86,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td> 
 <p>Een van de volgende Workfront-plannen:</p> 
 <ul><li>Selecteren</li> 
-<li>Eerste</li> 
-<li>Ultieme</li></ul> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
 <p>Workfront Planning is niet beschikbaar voor oudere Workfront-plannen</p> 
    </td> 
 <tr> 
@@ -181,7 +181,7 @@ U kunt verslagen van de Planning van Workfront op de volgende gebieden van een v
    >Als alleen de afbeelding van de record is geselecteerd om te worden weergegeven wanneer de recordtypen zijn verbonden, wordt alleen de miniatuur of het pictogram van de record weergegeven in het verbonden veld. Voor meer informatie, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
    >
 
-1. <span class="preview"> (Voorwaardelijk) Als u een-op-een of een-op-een hebt geselecteerd voor het verbindingstype toen u de recordtypen aansloot en u probeert een record of een object aan te sluiten dat al ergens anders is verbonden, ontvangt u een waarschuwing dat het opnieuw verbinden de record uit de oorspronkelijke verbinding zal verwijderen. Klik **verbinden** om de verwijdering toe te staan en het verslag aan te sluiten, of **annuleert** om terug naar het gebied te gaan en een ander verslag te selecteren.</span>
+1. (Voorwaardelijk) Als u bij het verbindingstype de optie Een op velen of Een op één hebt geselecteerd en u probeert een record of een object te verbinden dat al ergens anders is verbonden, ontvangt u een waarschuwing dat het opnieuw verbinden van de record de record uit de oorspronkelijke verbinding zal verwijderen. Klik **verbinden** om de verwijdering toe te staan en het verslag aan te sluiten, of **annuleert** om terug naar het gebied te gaan en een ander verslag te selecteren.
 1. (Optioneel) Als u een record of een object dat u wilt verbinden niet kunt vinden en u wilt deze toevoegen, klikt u op **+ Toevoegen** om een nieuwe record toe te voegen. Voor meer informatie, zie de sectie &quot;verslagen creëren aangezien u hen&quot;in artikel [ verbindt creeert verslagen ](/help/quicksilver/planning/records/create-records.md).
 
    >[!TIP]

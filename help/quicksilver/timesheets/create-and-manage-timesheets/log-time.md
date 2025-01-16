@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '3846'
+source-wordcount: '3822'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,6 @@ ht-degree: 0%
 
 <!--remove all preview and production references if any-->
 <!--update screen shots for the general hour entries and the mixed selection of hours at production, if they fixed the bugs -->
-
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Voorproef voor alle klanten.</span>
 
 U kunt de tijd voor het werk in Adobe Workfront registreren om op het aantal uren te wijzen u het werken aan hen doorwerkt. U kunt tijd ook registreren die niet met het werk, zoals vakantie, zieke tijd, of tijd verwant is u in vergaderingen doorbrengt. De tijd u registreert toont in uw timesheet.
 
@@ -497,11 +495,8 @@ Afhankelijk van het type uren dat u bewerkt, zijn de volgende velden beschikbaar
    * Taak toewijzen. U kunt de taak van de Rol van de Taak slechts veranderen als het in Opstelling werd toegelaten. Voor informatie, zie [ timesheet en uurvoorkeur ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen
    * The Description of the hour entry.
 
-<div class="preview">
 
-![](assets/edit-hour-box-project-hour-type.png)
-
-</div>
+  ![](assets/edit-hour-box-project-hour-type.png)
 
 * Wanneer u algemene uren bewerkt:
 
@@ -551,7 +546,7 @@ Om uurtypes in een uurrapport of een lijst uit te geven:
    >
    >   Niet alle velden zijn beschikbaar, afhankelijk van het uurtype dat aan de geselecteerde uurwaarden is gekoppeld.
 
-1. Klik **sparen <span class="preview"> veranderingen</span>**.
+1. Klik **sparen veranderingen**.
 
    De informatie over het uur wordt bijgewerkt.
 Als u meer dan één uur hebt geselecteerd en het veld Uren hebt gewijzigd, wordt dezelfde hoeveelheid uren toegewezen aan alle geselecteerde uren. De oorspronkelijke uren worden vervangen door de nieuwe waarde voor alle geselecteerde uren.

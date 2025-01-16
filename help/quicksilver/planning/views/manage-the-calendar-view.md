@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '781'
 ht-degree: 0%
 
 ---
 
 # De kalenderweergave beheren
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
 
 {{planning-important-intro}}
 
@@ -50,8 +50,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td> 
 <p>Een van de volgende Workfront-plannen:</p> 
 <ul><li>Selecteren</li> 
-<li>Eerste</li> 
-<li>Ultieme</li></ul> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
 <p>Workfront Planning is niet beschikbaar voor oudere Workfront-plannen</p> 
    </td> 
 <tr> 
@@ -185,13 +185,12 @@ Een kalenderweergave beheren:
 
       * **Maand**: De vertoningen van verslagen in een maandelijkse kalender.
 
-     <div class="preview">
 
       * **Week**: De vertoning van verslagen op de volgende gebieden:
 
          * Records die zich uitstrekken over meerdere dagen worden boven aan de kalender weergegeven.
          * Records die een dag of minder duren, worden weergegeven in de onderste helft van de kalenderweergave. Als u hebt opgegeven dat u het uur van de begin- en einddatum wilt weergeven, wordt de record op het juiste tijdstip weergegeven binnen de dag dat deze plaatsvindt.
-     </div>
+
 
 1. Werk de volgende weergave-elementen bij zoals in de onderstaande subsecties wordt beschreven:
    * [Filters](#add-filters)

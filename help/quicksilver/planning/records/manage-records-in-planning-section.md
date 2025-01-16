@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1433'
 ht-degree: 0%
 
 ---
@@ -18,16 +18,16 @@ ht-degree: 0%
 
 # Recordverbindingen beheren vanuit Workfront-objecten
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken.</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
 
 {{planning-important-intro}}
 
 U kunt Workfront Planning-records en de bijbehorende records die zijn verbonden met Adobe Workfront-objecten weergeven in de volgende gebieden in Workfront:
 
 * Het gedeelte Planning van een Workfront-object: geeft alle recordtypen weer die zijn verbonden met een object en de bijbehorende gekoppelde records.
-* <span class="preview"> het gebied van de Verbindingsdouane van de Planning: Toont één verslagtype en zijn respectieve verbonden verslagen. </span>
+* A Planning connection custom field: Toont één recordtype en zijn respectieve verbonden verslagen.
 
 ## Toegangsvereisten
 
@@ -54,8 +54,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td>
 <p>Een van de volgende Workfront-plannen:</p>
 <ul><li>Selecteren</li>
-<li>Eerste</li>
-<li>Ultieme</li></ul>
+<li>Prime</li>
+<li>Ultimate</li></ul>
 <p>Workfront Planning is niet beschikbaar voor oudere Workfront-plannen</p>
    </td>
 
@@ -180,8 +180,6 @@ De volgende dingen doen zich voor:
    * Het Workfront-object wordt toegevoegd aan het veld voor het maken van een verbinding in het Workfront-planningsrecord.
    * De waarden voor de opzoekvelden van Workfront die zijn verbonden met de planningsrecord, worden ingevuld in Workfront Planning.
 
-<div class="preview">
-
 ## Records beheren in het verbindingstype Planning
 
 U kunt een aangepast veld voor de planningsverbinding op een Workfront-object gebruiken om één recordtype en de bijbehorende records die met het Workfront-object zijn verbonden, weer te geven.
@@ -254,5 +252,3 @@ U kunt informatie over de record controleren of naar de pagina met recordtypen n
 
 1. (Facultatief) van de douanevorm in Workfront, klik **verwijderen** pictogram ![](assets/remove-icon.png) op een verslag om het uit het de verbindingsgebied van de Planning te verwijderen en het van het voorwerp van Workfront los te maken.
 Het Workfront-object wordt losgekoppeld van de planningsrecord en alle opzoekgegevens uit Workfront worden uit de record verwijderd.
-
-</div>

@@ -7,9 +7,9 @@ description: Bij het beheren van taken en uitgaven kunt u slimme toewijzingen ge
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,15 @@ ht-degree: 0%
 
 <!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit beschikbaar slechts in het milieu van de Productie voor klanten die snelle versies toeliet.</span>
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit beschikbaar slechts in het milieu van de Voorproef.</span>
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken.</span>
+<!--<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview"> Deze functionaliteit wordt verwijderd uit de productieomgeving voor klanten die in januari 2025 snelle release met de release 25.1 hebben ingeschakeld. Voor informatie over de versie 25.1, zie [ Eerste Kwartaal 2025 overzicht van de versie ](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+<span class="preview"> This functionality will be removed from the Production environment for customers who enabled fast release with the 25.1 release in January 2025. For information about the 25.1 release, see [First Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md). -->
 
-Bij het beheren van taken en uitgaven kunt u slimme toewijzingen gebruiken om te bepalen wie de beste bron is om het werk te voltooien. De slimme taken zijn suggesties die Adobe Workfront aan u voorstelt wanneer u het werkpunten aan middelen toewijst die op een algoritme worden gebaseerd dat het meest aangewezen middel voor de baan bepaalt. De slimme taken kunnen gebruikers, baanrollen, of teams zijn.
+Bij het beheren van taken en uitgaven kunt u slimme toewijzingen gebruiken om te bepalen wie de beste bron is om het werk te voltooien.
+
+De slimme taken zijn suggesties die Adobe Workfront aan u voorstelt wanneer u het werkpunten aan middelen toewijst die op een algoritme worden gebaseerd dat het meest aangewezen middel voor de baan bepaalt. De slimme taken kunnen gebruikers, baanrollen, of teams zijn.
 
 >[!NOTE]
 >
@@ -38,7 +40,7 @@ Dit artikel bevat algemene informatie over slimme toewijzingen. Voor informatie 
 
 Houd rekening met het volgende wanneer u werkt met slimme toewijzingen:
 
-* <span class="preview"> het algoritme werkt onafhankelijk voor taken en kwesties. Dit betekent dat de lijst met voorgestelde gebruikers voor problemen kan afwijken van de lijst met voorgestelde gebruikers voor een taak, omdat Workfront de lijsten samenstelt op basis van criteria die betrekking hebben op problemen en taken afzonderlijk. </span>
+<!--* <span class="preview">The algorithm works independently for tasks and issues. This means that the list of suggested users for issues might differ from the list of suggested users for a task because Workfront builds the lists according to criteria pertaining to issues and tasks separately. </span>-->
 <!--not sure this is accurate: * Smart assignments do not recommend job roles or teams. Instead, they are suggestions of users who are best fit to complete a task or an issue. -->
 * De voorgestelde taken zijn altijd actieve gebruikers, baanrollen, of teams.
 * De bron die eerst wordt vermeld zou de beste gelijke voor de taak moeten zijn.
@@ -51,11 +53,11 @@ U kunt slimme toewijzingen weergeven op de volgende plaatsen waar u taken of pro
 
   ![](assets/smart-assignments-issue-list.png)
 
-* <span class="preview"> de taaklijst of het rapport van A in de kolom van Taken </span>
+* Een taaklijst of rapport in de kolom van Taken
 
   ![](assets/smart-assignments-task-list.png)
 
-* <span class="preview"> de taakkopbal van A op het gebied van Taken </span>
+* Een taakkoptekst in het veld Toewijzingen
 
   ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
@@ -67,9 +69,9 @@ U kunt slimme toewijzingen weergeven op de volgende plaatsen waar u taken of pro
 
   ![](assets/issue-assignments-summary-panel.png)
 
-* <span class="preview"> het gebied van Taken in de Nieuwe doos van de Taak, wanneer het toevoegen van een taak aan een project </span>
+<!--* The Assignments field in the New Task box, when adding a task to a project
 
-  ![](assets/smart-assignments-new-task-modal.png)
+  ![](assets/smart-assignments-new-task-modal.png)-->
 
 <!--this is not possible in the new home  - we have Summary there: 
 * The Assignments field for an item listed in the Home area, when you open a task or issue
@@ -77,77 +79,79 @@ U kunt slimme toewijzingen weergeven op de volgende plaatsen waar u taken of pro
   ![](assets/smart-assignments-in-home-nwe-350x216.png)
 -->
 
-* <span class="preview"> de Balancer van de Werkbelasting in Toegewezen dit aan gebied wanneer u een taak of een kwestie </span> toewijst
+* Werklastverdeling in het gedeelte Toegewezen aan als u een taak of uitgave toewijst
 
   ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 
 ## Criteria voor slimme toewijzingen
 
-Slimme toewijzingen werken anders voor taken dan voor problemen.
+<!--Smart assignments work differently for tasks than for issues.  -->
 
-### Slimme toewijzingscriteria voor taken
+<!--### Smart assignments criteria for tasks
 
-De taak slimme toewijzingsberekening werkt in <span class="preview"> twee fasen die twee verschillende algoritmen gebruiken.</span>
+The task smart assignments calculation works in <span class="preview">two phases which use two different algorithms.</span>
 
-<span class="preview"> Afhankelijk van welk algoritme de slimme taak vindt, zijn de taken vermeld onder twee afzonderlijke secties op het gebied van Taken.</span> voor informatie, zie [ Slimme taken ](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md) maken.
+<span class="preview">Depending on which algorithm finds the smart assignment, the assignments are listed under two separate sections in the Assignments field.</span> For information, see [Make smart assignments](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md). 
 
 ![](assets/smart-assignments-task-list.png)
 
 <div class="preview">
 
-#### Eerste fase van berekening van slimme toewijzing voor taken
+#### First phase of smart assignment calculation for tasks 
 
-In de eerste fase van het berekenen van slimme toewijzingen, berekent Workfront een gelijkheidsscore voor elke taak.
+In the first phase of calculating smart assignments, Workfront calculates a similarity score for every assignment. 
 
 >[!NOTE]
 >
->De eerste fase van de berekening van de slimme toewijzingen is niet van toepassing op de volgende taakgebieden:
+>The first phase of the smart assignments calculation does not apply to the following task areas:
 >
->* Bulktoewijzingen in Workload Balancer.
->* Aangesloten kaarten op borden.
+>* Bulk Assignments in the Workload Balancer.
+>* Connected cards on boards.
 
 
-Bij de berekening van de score op basis van gelijkenis en de volgorde waarin de toewijzingen worden vermeld, wordt rekening gehouden met het volgende:
+The calculation for the similarity score and the order in which the assignments are listed take into account the following:  
 
-* Een score van 100% wordt gegeven aan een bestaande taak waar de taak, het project, en de portefeuillenamen identiek aan de taak zijn u probeert toe te wijzen. De project- en portfolionamen van de taak van een bestaande toewijzing moeten ook overeenkomen met het project en de portfolio van de taak die u wilt toewijzen.
+* A score of 100% is given to an existing assignment where the task, project, and portfolio names are identical to the task you're trying to assign. The project and portfolio names of the task of an existing assignment must also match the project and portfolio of the task you are trying to assign.   
 
-* Als slechts een deel van deze informatie uit andere toewijzingen overeenkomt met de bestaande taken, kan de score lager zijn dan 100%.
+* If only some of this information from other assignments matches on the existing tasks, the score might be lower than 100%.  
 
-  Als u bijvoorbeeld een taak toewijst met de naam &quot;Mijn tweede taak&quot; voor een project met de naam &quot;Mijn project&quot; in een portfolio met de naam &quot;Mijn portfolio&quot; en u een bestaande taak hebt met de naam &quot;Mijn taak&quot; in een ander project met de naam &quot;Mijn project&quot;, krijgt de gebruiker met de naam &quot;Mijn taak&quot; een score van 95% omdat de naam van de bestaande taak en de taak die u nu wilt toewijzen vergelijkbaar zijn, maar niet identiek.
+  For example, if you are assigning a task called "My second task" on a project called "My project" in a portfolio called "My portfolio" and you have an existing task called "My task" in another project called "My project" in a portfolio called "My portfolio", the user assigned to "My task" might get a score of 95% because the name of the existing task and the task you're trying to assign now are similar, but not identical.  
+ 
+    >[!TIP]
+    >
+    >  Workfront looks for matches only in the Name fields of tasks, projects, and portfolios and not in any other fields. 
 
-  >[!TIP]
-  >
-  >  Workfront zoekt alleen naar overeenkomsten in de velden Naam van taken, projecten en portfolio&#39;s en niet op andere velden.
+* An assignment could get a higher score when they are assigned to a lot of tasks in the system that have similar names. For example, if a team called "Development" is assigned to 50% of the tasks in the system containing "AI" in the name and you are now assigning another task with "AI" in the name, the score of the "Development" team is higher. In this case, the names of  projects and portfolios are not as important.  
 
-* Een toewijzing zou een hogere score kunnen krijgen wanneer zij aan veel taken in het systeem worden toegewezen die gelijkaardige namen hebben. Als bijvoorbeeld een team met de naam &quot;Ontwikkeling&quot; wordt toegewezen aan 50% van de taken in het systeem die &quot;AI&quot; in de naam bevatten en u nu een andere taak toewijst met &quot;AI&quot; in de naam, is de score van het team &quot;Ontwikkeling&quot; hoger. In dit geval zijn de namen van projecten en portefeuilles niet zo belangrijk.
+* Taking into account this scoring system, the first 7 suggestions are listed as smart assignments, in the descending order of their scores. Assignments with scores lower than 40% do not display.  
 
-* Rekening houdend met dit scoresysteem worden de eerste 7 suggesties vermeld als slimme toewijzingen, in dalende volgorde van hun scores. Toewijzingen met scores lager dan 40% worden niet weergegeven.
+* If several assignments have identical scores, they display in order of the date on which the assignments were made, starting from the most recent date.  
 
-* Als meerdere toewijzingen identieke scores hebben, worden deze weergegeven in volgorde van de datum waarop de toewijzingen zijn gedaan, te beginnen op de meest recente datum.
+  For example, if Rick was assigned to a similar task earlier today and Jennifer was assigned to a similar task two days ago, Rick displays first.  
 
-  Bijvoorbeeld, als Rick eerder vandaag aan een gelijkaardige taak werd toegewezen en Jennifer twee dagen geleden aan een gelijkaardige taak werd toegewezen, toont Rick eerst.
+* Assignments identified in this phase are listed in the    **Suggested assignments**  section of the Assignments field for tasks. 
 
-* In deze fase geïdentificeerde toewijzingen worden vermeld in de    **stelde de 1} sectie van taken {van de taken {van het gebied van Toewijzingen voor taken voor.**
-
-* Als er geen gelijken gebruikend deze berekening zijn, begint de tweede fase van slimme taken die gebruikend een verschillend algoritme wordt berekend.
+* If there are no matches using this calculation, the second phase of smart assignments starts which is calculated using a different algorithm.  
 
 </div>
 
-#### Tweede fase van berekening van slimme toewijzing voor taken
+#### Second phase of smart assignment calculation for tasks-->
 
-Als de eerste stap van taak slimme taken geen gelijken heeft gevonden, berekent Workfront slimme taken voor taken op dezelfde manier als ze voor problemen worden berekend.
+<!--If the first step of task smart assignments has found no matches,-->
 
-Voor meer informatie, zie de sectie [ Slimme toewijzingscriteria voor taken en kwesties ](#smart-assignments-criteria-for-tasks-and-issues) in dit artikel.
+Workfront berekent slimme toewijzingen voor taken op dezelfde manier als voor uitgaven.
 
-De taken die in deze fase worden geïdentificeerd zijn vermeld in de **Gebruikers en teams**, **de roltoewijzingen van de Taak**, en <span class="preview">**de kaartrollen van het Tarief**</span> secties van het gebied van Taken. <span class="preview"> voor meer informatie over tariefkaarten, zie [ tariefkaarten beheren ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)</span>. <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
+<!--For more information, see the section [Smart assignments criteria for tasks and issues](#smart-assignments-criteria-for-tasks-and-issues) in this article. -->
 
-### Criteria voor slimme toewijzingen voor taken en problemen
+De geïdentificeerde taken worden vermeld in de **Gebruikers en teams**, **de roltaken van de Taak**, en <span class="preview">**de kaartrollen van het Tarief**</span> secties van het gebied van Taken. <span class="preview"> voor meer informatie over tariefkaarten, zie [ tariefkaarten beheren ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)</span>. <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
 
+<!--
+### Smart assignments criteria for tasks and issues 
 
 >[!NOTE]
 >
->De volgende criteria zijn alleen van toepassing op taken wanneer de eerste fase van de berekening van de intelligente taak geen overeenkomsten heeft gevonden. Voor informatie, zie de sectie [ Eerste fase van slimme toewijzingsberekening voor taken ](#first-phase-of-smart-assignment-calculation-for-tasks) in dit artikel. De volgende criteria zijn standaard altijd van toepassing op problemen.
+>The following criteria applies for tasks only when the first phase of the task smart assignment calculation did not find any matches. For information, see the section [First phase of smart assignment calculation for tasks](#first-phase-of-smart-assignment-calculation-for-tasks) in this article. The following criteria always applies for issues, by default. -->
 
 ![](assets/smart-assignments-issue-header.png)
 

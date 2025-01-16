@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Een omslagafbeelding aan een record toevoegen
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -55,8 +55,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td> 
 <p>Een van de volgende Workfront-plannen:</p> 
 <ul><li>Selecteren</li> 
-<li>Eerste</li> 
-<li>Ultieme</li></ul> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
 <p>Workfront Planning is niet beschikbaar voor oudere Workfront-plannen</p> 
    </td> 
 <tr> 
@@ -148,7 +148,7 @@ U kunt een record personaliseren door een omslagafbeelding boven aan de voorvert
 
    ![](assets/details-page.png)
 
-1. In de verslagvoorproef of pagina, klik **omslag** in het milieu van de Productie toevoegen, <span class="preview"> of over de ruimte boven de verslagnaam, dan klik **omslag** in het milieu van de Voorproef </span> toevoegen.
+1. In de verslagvoorproef of detailspagina, houd over de ruimte boven de verslagnaam, dan klik **omslag** toevoegen.
 
    of
 
@@ -167,7 +167,7 @@ De **omslag van het Verslag** doos opent in **uploadt** tabel.
 
 1. Klik **beeld van het Gebruik**.
 
-   De afbeelding wordt boven aan de voorvertoning of pagina van de record geüpload en de wijzigingen worden automatisch opgeslagen.
+   De afbeelding wordt boven aan de recordvoorvertoning geüpload of de detailpagina wordt automatisch opgeslagen.
 
    ![](assets/record-page-with-cover-image.png)
 

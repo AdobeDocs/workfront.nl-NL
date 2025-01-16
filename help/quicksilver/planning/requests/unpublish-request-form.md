@@ -5,22 +5,22 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
+exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
-
 
 # Publiceren van een aanvraagformulier in Adobe Workfront Planning ongedaan maken
 
 
 <!--take Preview and Production references at Production time-->
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -53,8 +53,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td>
 <p>Een van de volgende Workfront-plannen:</p>
 <ul><li>Selecteren</li>
-<li>Eerste</li>
-<li>Ultieme</li></ul>
+<li>Prime</li>
+<li>Ultimate</li></ul>
 <p>Workfront Planning is niet beschikbaar voor oudere Workfront-plannen</p>
    </td>
 
@@ -157,4 +157,4 @@ Wanneer een aanvraagformulier irrelevant wordt en u wilt dat niemand er langer t
 
    Alle records die u eerder met het aanvraagformulier hebt toegevoegd, blijven op de recordtypepagina staan.
 
-   <span class="preview"> om het even welke eerder toegevoegde verzoeken blijven op het gebied van Verzoeken van Workfront, op het lusje van de Planning.</span>
+   Alle eerder toegevoegde verzoeken blijven op het tabblad Planning in het gebied Verzoeken van Workfront.

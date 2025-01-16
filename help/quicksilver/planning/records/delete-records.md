@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 9b528e751d23b04ae1e495f00e06ffef8aa60156
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '704'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 <!--take Preview and Production references out at release-->
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
-U kunt records verwijderen die niet meer relevant zijn in Adobe Workfront Planning. <span class="preview"> u kunt geschrapte verslagen terugkrijgen 30 dagen nadat zij werden geschrapt. Voor informatie over het terugkrijgen van geschrapte verslagen, zie [ Recover geschrapte verslagen ](/help/quicksilver/planning/records/restore-deleted-records.md). </span>
+U kunt records verwijderen die niet meer relevant zijn in Adobe Workfront Planning. U kunt verwijderde records herstellen gedurende 30 dagen nadat ze zijn verwijderd. Voor informatie over het terugkrijgen van geschrapte verslagen, zie [ Recover geschrapte verslagen ](/help/quicksilver/planning/records/restore-deleted-records.md).
 
 ## Toegangsvereisten
 
@@ -51,8 +51,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td> 
 <p>Een van de volgende Workfront-plannen:</p> 
 <ul><li>Selecteren</li> 
-<li>Eerste</li> 
-<li>Ultieme</li></ul> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
 <p>Workfront Planning is niet beschikbaar voor oudere Workfront-plannen</p> 
    </td> 
 <tr> 
@@ -96,73 +96,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 +++
 
-
-<!--
-
-OLD
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p>
-   </td>
-   <td>
-   <p>New: Standard</p>
-   <p>Current: Plan</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configurations</p></td>
-   <td> <p>There are no access level controls for Adobe Workfront Planning </p>  
-</td>
-  </tr>
-
-  <tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Contribute or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-
- </tbody>
-</table>
-
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-
--->
-
 ## Overwegingen bij het verwijderen van records
 
 * U kunt records verwijderen die u of een andere gebruiker heeft gemaakt.
-* U kunt verwijderde records niet herstellen in de productieomgeving. <span class="preview"> u kunt geschrapte verslagen in het milieu van de Voorproef terugkrijgen.</span>
+* U kunt verwijderde records niet herstellen in de productieomgeving. U kunt verwijderde records herstellen in de voorvertoningsomgeving.
 * Als de verwijderde records zijn gekoppeld aan andere records, worden de gekoppelde records niet verwijderd, maar worden de gegevens uit de verwijderde record ook verwijderd.
 * U kunt records niet verwijderen uit de tijdlijn of de kalenderweergaven.
 
@@ -229,7 +166,7 @@ Voor informatie over het terugkrijgen van geschrapte verslagen, zie [ Recover ge
 
 1. (Optioneel) Voer een van de volgende handelingen uit om een record ongedaan te maken of opnieuw te verwijderen:
 
-   * <span class="preview"> klik **ongedaan maken** pictogram ![](assets/undo-icon.png), toen **onlangs geschrapt** om de geschrapte verslagen terug te krijgen. Voor informatie over het terugkrijgen van geschrapte verslagen, zie [ Recover geschrapte verslagen ](/help/quicksilver/planning/records/restore-deleted-records.md). </span>
+   * Klik **ongedaan maken** pictogram ![](assets/undo-icon.png), dan **onlangs geschrapt** om de geschrapte verslagen terug te krijgen. Voor informatie over het terugkrijgen van geschrapte verslagen, zie [ Recover geschrapte verslagen ](/help/quicksilver/planning/records/restore-deleted-records.md).
    * Gebruik de volgende sneltoetsen om een record ongedaan te maken of opnieuw te verwijderen:
 
       * CTRL + Z ( ⌘ + Z voor Mac) om het verwijderen van een record ongedaan te maken

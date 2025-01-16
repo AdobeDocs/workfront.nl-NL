@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
-source-git-commit: ef7f5d00bd74feee5e06b935c4bb8a18ee8b08a8
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '2819'
+source-wordcount: '2759'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 # Projectvoorkeuren voor een groep configureren
 
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Als u een groepsbeheerder en een beheerder van Adobe Workfront een projectvoorkeur voor alle groepen in het systeem ontgrendelt, kunt u die voorkeur voor uw groep vormen om alle verdere projecten te beïnvloeden die uw groep creeert.
 
@@ -217,14 +217,14 @@ Configureer een of meer van de volgende voorkeuren voor nieuwe projecten die aan
     </ul> <p>Voor meer informatie over programma's, zie <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override=""> een programma </a> creëren.</p> </td> 
   </tr> 
  <tr> 
-   <td role="rowheader"> <p><span class="preview"><strong> wanneer één gebruiker aan een taak wordt toegewezen, gebruik het programma van... </strong></span> </p> </td> 
-   <td> <div class="preview"><p>Als een project geen toegewezen programma heeft of als de gebruikers die aan zijn taken worden toegewezen geen Programma hebben dat aan hen wordt toegewezen, [!DNL Workfront] gebruikt het systeem standaardprogramma om de chronologie van de taken te berekenen.</p>
+   <td role="rowheader"> <p><strong> wanneer één gebruiker aan een taak wordt toegewezen, gebruik het programma van... </strong> </p> </td> 
+   <td> <p>Als een project geen toegewezen programma heeft of als de gebruikers die aan zijn taken worden toegewezen geen Programma hebben dat aan hen wordt toegewezen, [!DNL Workfront] gebruikt het systeem standaardprogramma om de chronologie van de taken te berekenen.</p>
 
 <p>Als u één gebruiker aan een taak in een project toewijst en zowel het project als de gebruiker hebben een programma verbonden aan hen, [!UICONTROL Workfront] gebruikt de volgende programma's:</p> 
     <ul> 
      <li><strong>[!UICONTROL User]</strong>: Het schema van de toegewezen gebruiker op de taak om tijdlijnen te berekenen.</li> 
      <li><strong>[!UICONTROL Project]</strong>: Het schema van het project voor het berekenen van de tijdlijn van de taak.</li> 
-    </ul> <p>Voor meer informatie over programma's, zie <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override=""> een programma </a> creëren.</p></div></td> 
+    </ul> <p>Voor meer informatie over programma's, zie <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override=""> een programma </a> creëren.</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Tijdlijnberekeningen </p> </td> 

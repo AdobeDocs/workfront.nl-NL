@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Overzicht van veld
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
 
 
 {{planning-important-intro}}
@@ -45,39 +45,43 @@ U kunt nieuwe gebieden in de Planning van Adobe Workfront toevoegen die op de le
 
    * Handmatig:
 
-      * Door kolommen toe te voegen in de tabelweergave van een pagina met recordtypen. De kolommen van de lijst zijn de gebieden verbonden aan het verslagtype. Het zijn dezelfde velden die op de pagina van een record worden weergegeven.
+      * Wanneer u kolommen toevoegt in de tabelweergave van een recordtypepagina. De kolommen van de lijst zijn de gebieden verbonden aan het verslagtype. Het zijn dezelfde velden die op de pagina van een record worden weergegeven.
 
         U kunt geen velden maken van de recordpagina.
 
-      * Door recordtypen aan te sluiten. U kunt gekoppelde recordvelden maken wanneer u een nieuwe verbinding toevoegt tussen twee recordtypen of een recordtype en een objecttype vanuit andere toepassingen.
+      * Wanneer u recordtypen verbindt. U kunt gekoppelde recordvelden maken wanneer u een nieuwe verbinding toevoegt tussen twee recordtypen of een recordtype en een objecttype vanuit andere toepassingen.
 
         Voor meer informatie over het verbinden van verslagtypes, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
 
-      * <span class="preview"> door bestaande gebieden van Workfront in te voeren. </span>
-        <span class="preview"> voor informatie, zie [ de gebieden van de Invoer van Adobe Workfront ](/help/quicksilver/planning/fields/import-fields-from-workfront.md).</span>
+      * Wanneer u bestaande velden uit Workfront importeert.
 
-      * <span class="preview"> door recordtypes in te voeren gebruikend een Excel of Csv- dossier. </span>
+        Voor informatie, zie [ de gebieden van de Invoer van Adobe Workfront ](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
 
-        <span class="preview"> voor meer informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.</span>
 
    * Automatisch:
 
-     Hieronder vindt u standaardvelden die standaard worden gemaakt voor elk nieuw recordtype:
+      * Wanneer u een recordtype maakt:
 
-      * Naam
-      * Beschrijving
-      * Begindatum
-      * Einddatum
-      * Status. De standaardwaarden voor recordstatussen zijn:
-         * Ontwikkeling
-         * Geplant
-         * Actief
-         * Voltooid
-         * In de wachtstand
+         * Naam
+         * Beschrijving
+         * Begindatum
+         * Einddatum
+         * Status. De standaardwaarden voor recordstatussen zijn:
+            * Ontwikkeling
+            * Geplant
+            * Actief
+            * Voltooid
+            * In de wachtstand
 
         U kunt meer waarden toevoegen of de naam van de bestaande waarden wijzigen.
 
-     Workfront Planning maakt velden voor recordtypen wanneer u een werkruimte maakt op basis van een sjabloon. Voor informatie, zie [ werkruimten ](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
+      * Wanneer u een werkruimte maakt op basis van een sjabloon.
+
+        Voor informatie, zie [ werkruimten ](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
+
+      * Wanneer u recordtypen importeert met een Excel- of CSV-bestand.
+
+        Voor meer informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
 
 * De gebieden van de Planning van Workfront zijn niet toegankelijk van Workfront.
 
