@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: 7b9989b73f7be46690073f323203ae2d9ca1a4b5
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1011'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,6 @@ ht-degree: 0%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
-
-{{highlighted-preview}}
 
 Als Adobe Workfront-beheerder kunt u de Kick-Starts-gegevensexportfunctie gebruiken om gegevens uit Workfront te exporteren. U kunt het in andere toepassingen gebruiken nadat u het uitvoert.
 
@@ -340,11 +338,7 @@ De volgende beperkingen gelden voor het exporteren van gegevens via de functie v
 
    U kunt maximaal 100 dashboards en 100 rapporten selecteren in één export.
 
-   <span class="preview"> beeld van de Steekproef in het milieu van de Voorproef:</span>
    ![ Kickstart de uitvoer ](assets/kickstart-export-spreadsheet-options.png)
-
-   Voorbeeldafbeelding in de productieomgeving:
-   ![ Kickstart de uitvoer ](assets/kickstart-export-350x381.png)
 
    U kunt meerdere objecten tegelijk exporteren.
 

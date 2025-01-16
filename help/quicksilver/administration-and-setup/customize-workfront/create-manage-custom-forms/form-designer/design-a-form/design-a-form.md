@@ -8,18 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 75aaa531dba8037ed75c0d6baa6d7c69ec4cfefd
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
-source-wordcount: '6534'
+source-wordcount: '6474'
 ht-degree: 0%
 
 ---
 
 # Een aangepast formulier maken
-
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
-
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken.</span>
 
 U kunt een aangepast formulier ontwerpen met de formulierontwerper in Adobe Workfront. U kunt aangepaste formulieren aan verschillende Workfront-objecten koppelen om gegevens over die objecten vast te leggen.
 
@@ -847,8 +843,8 @@ Deze tabel bevat een lijst met de beschikbare native velden voor specifieke Work
       <td><p>(Vereist) Selecteer een eigen Workfront-veld.<p><p>Alleen native velden voor de objecten van het formulier zijn beschikbaar. Als bijvoorbeeld de lijst Objecttypen boven aan de formulierontwerper Project weergeeft, kunt u native velden selecteren voor projecten, maar niet voor velden die specifiek zijn voor taken.</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview">Filter toevoegen</span></td>
-      <td><span class="preview"><p>Voeg een filter voor het verwijzingsgebied toe om de lijst van punten te beperken de gebruikers van kunnen kiezen wanneer zij het gebied gebruiken. </p> <p>U kunt bijvoorbeeld een veld zo instellen dat gebruikersnamen alleen kunnen worden geselecteerd als ze aan de volgende criteria voldoen:</p> 
+      <td role="rowheader">Filter toevoegen</td>
+      <td><p>Voeg een filter voor het verwijzingsgebied toe om de lijst van punten te beperken de gebruikers van kunnen kiezen wanneer zij het gebied gebruiken. </p> <p>U kunt bijvoorbeeld een veld zo instellen dat gebruikersnamen alleen kunnen worden geselecteerd als ze aan de volgende criteria voldoen:</p> 
        <ul>
         <li>Ze behoren tot een of meer groepen die u opgeeft</li> 
         <li>Ze zijn gekoppeld aan een rol of functie die u opgeeft</li> 
@@ -860,7 +856,7 @@ Deze tabel bevat een lijst met de beschikbare native velden voor specifieke Work
         <li>De filteroptie is alleen beschikbaar wanneer u naar een native typeahead-veld verwijst, zoals Portfolio, Bedrijf of Eigenaar.</li>
         <li>Als u een bestaand aangepast formulier bewerkt en een filter toevoegt aan een native veld, worden objecten (buiten het bereik van het filter) die gebruikers al met het veld hebben toegevoegd, niet verwijderd.</li> 
         <li>Dit filter is niet beschikbaar op mobiele apparaten. Als u het filter voor een native veld gebruikt, wordt het veld weergegeven op mobiele apparaten van gebruikers waarop het filter geen invloed heeft.</li> 
-        </ul></p></span></td> 
+        </ul></p></td> 
       <td>
      </tr>
      <tr> 
@@ -936,8 +932,6 @@ Een Adobe XD-bestand toevoegen:
    of
 
    Klik **sparen en Sluiten**.
-
-<div class="preview">
 
 ### Verbindingsvelden voor planning toevoegen
 
@@ -1031,8 +1025,6 @@ Een verbindingsveld voor planning toevoegen:
    * Verbind of maak verslagen van het voorwerp van Workfront los.
 
    Voor meer informatie, zie [ recordverbindingen van de voorwerpen van Workfront beheren ](/help/quicksilver/planning/records/manage-records-in-planning-section.md)
-
-</div>
 
 ## Een formulier organiseren en een voorbeeld bekijken met de formulierontwerper
 

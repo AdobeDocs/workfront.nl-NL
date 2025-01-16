@@ -6,16 +6,14 @@ description: De zichtbaarheid van objecten in Adobe Workfront is afhankelijk van
 author: Becky
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: 6409f8fa5072413444545d2d3a80935dc6e04b4c
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: '1380'
 ht-degree: 0%
 
 ---
 
 # Toegang tot objecten aanvragen
-
-{{preview-fast-release-general}}
 
 De zichtbaarheid van objecten in Adobe Workfront is afhankelijk van de toegang tot dat type object en van de machtigingen die u voor een afzonderlijk object hebt.
 
@@ -102,11 +100,7 @@ Aanvankelijke toegang tot een object aanvragen:
 1. Selecteer in de vervolgkeuzelijst het type toegang dat u aanvraagt.
 1. (Facultatief) op het **P.S.** gebied, specificeer een nota aan de gebruiker betreffende waarom u extra toegang nodig hebt.
 
-   <span class="preview"> beeld van de Steekproef in het milieu van de Voorproef:</span>
    ![ de dialoogdoos van de Toegang van het Verzoek ](assets/request-access-to-project.png)
-
-   Voorbeeldafbeelding in de productieomgeving:
-   ![](assets/request-access-dialog-350x314.png)
 
 <!--
 If you do not have access level rights to an object and you try to access that object from a link, a screen is displayed informing you to contact the Workfront administrator.
@@ -134,11 +128,8 @@ Aanvullende toegang aanvragen tot een object waartoe u al beperkte toegang hebt:
 1. (Facultatief) op het **P.S.** gebied, specificeer een nota betreffende waarom u extra toegang nodig hebt.
 1. Klik **Toegang van het Verzoek**.
 
-   <span class="preview"> beeld van de Steekproef in het milieu van de Voorproef:</span>
+   Voorbeeldafbeelding in de voorvertoningsomgeving:
    ![ de dialoogdoos van de Toegang van het Verzoek ](assets/request-access-to-project.png)
-
-   Voorbeeldafbeelding in de productieomgeving:
-   ![](assets/request-access-dialog-350x314.png)
 
 ## Hiërarchie van de vervolgkeuzemenu&#39;s &quot;Toegang aanvragen&quot; en &quot;Meer toegang aanvragen&quot; {#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus}
 

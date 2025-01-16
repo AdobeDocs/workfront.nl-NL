@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 400ca2ac10a94ccfa79bef8daf06b924dadac230
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1329'
 ht-degree: 0%
 
 ---
 
 # Een formulier ordenen en een voorbeeld ervan bekijken
-
-{{preview-fast-release-general}}
 
 U kunt een aangepast formulier organiseren met de formulierontwerper en er een voorbeeld van bekijken om te controleren of het correct is ingesteld.
 
@@ -160,9 +158,8 @@ Als u in een aangepast formulier met een sectie-einde dat is geconfigureerd met 
 
 1. (Optioneel) Als u een aangepast veld of een aangepaste widget boven of onder een ander veld of een andere widget wilt plaatsen, sleept u het onder of boven totdat er een horizontale blauwe lijn tussen de items wordt weergegeven.
 
-1. Om een douanegebied naar een andere sectie op de vorm te bewegen, kunt u het slepen en laten vallen in plaats, <span class="preview"> of de **Beweging aan** pictogram op het gebied klikken en de sectie selecteren om het te bewegen.</span>
+1. Om een douanegebied naar een andere sectie op de vorm te bewegen, kunt u het slepen en laten vallen in plaats, of de **Beweging aan** pictogram op het gebied klikken en de sectie selecteren om het te bewegen naar.
 
-   <span class="preview"> beeld van de Steekproef in het milieu van de Voorproef:</span>
    ![ gebied van de beweging aan een sectie ](assets/move-field-to-section.png)
 
 1. Om uw veranderingen te bewaren, klik **toepassen**

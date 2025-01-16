@@ -7,16 +7,14 @@ description: Met Adobe Workfront kunt u snel en eenvoudig berichten verzenden di
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 82dc1cef02c6724dd0bc5b98d2a8f60a420b72bd
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
 
 # Directe berichten verzenden naar andere gebruikers
-
-{{preview-fast-release-general}}
 
 Met [!DNL Adobe Workfront] kunt u snel en eenvoudig berichten verzenden die geen verband houden met een werkitem en deze rechtstreeks naar andere [!DNL Workfront] -gebruikers sturen. Berichten die worden verzonden zoals beschreven in deze sectie, worden weergegeven op het tabblad [!UICONTROL Updates] op de profielpagina van de gebruiker en zijn zichtbaar voor alle gebruikers. Voor extra informatie over updates, zie [ het werkpunten van de Update en meningsupdates: artikelindex ](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
 
@@ -87,9 +85,7 @@ Deze optie is alleen beschikbaar als u een Standard-, Plan- of Werkvergunning he
 1. Selecteer de gebruiker of de gebruikers u een bericht wilt verzenden naar, en [!UICONTROL **verzenden Update naar Gebruiker**] klikken.
 1. Typ uw bericht in het [!UICONTROL Send update to user] venster.
 
-   <span class="preview"> beeld van de Steekproef in het milieu van de Voorproef:</span>
-
-   <span class="preview">![ gebruiker van het Bericht op Send update aan gebruikersvenster ](assets/send-message-to-user-dialog-from-user-list.png)</span>
+   ![ gebruiker van het Bericht op Send update aan gebruikersvenster ](assets/send-message-to-user-dialog-from-user-list.png)
 
 1. (Optioneel) Zoek naar extra gebruikers die u in het bericht wilt labelen. U hoeft de gebruikers die u al in de gebruikerslijst hebt geselecteerd, niet van tags te voorzien.
 1. (Optioneel) Selecteer **[!UICONTROL Private to my company]** om dit bericht alleen zichtbaar te maken voor andere gebruikers in uw bedrijf.

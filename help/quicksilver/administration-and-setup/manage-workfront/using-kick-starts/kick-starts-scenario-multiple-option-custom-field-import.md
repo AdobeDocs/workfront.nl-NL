@@ -9,16 +9,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 310333b71d2a92d71a0d8caf73ee8609ed6edd83
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
-source-wordcount: '2182'
+source-wordcount: '2152'
 ht-degree: 0%
 
 ---
 
 # Kick-startscenario: aangepaste velden met meerdere opties importeren in Workfront
-
-{{highlighted-preview}}
 
 U kunt aangepaste velden met meerdere opties in Adobe Workfront importeren met de functie Kick-Start.
 
@@ -90,11 +88,7 @@ Bestaande gegevens exporteren uit Workfront:
 
 1. Selecteer **Gegevens van de Douane** in **wat om** sectie te omvatten.
 
-   <span class="preview"> beeld van de Steekproef in het milieu van de Voorproef:</span>
    ![ Uitgezochte Gegevens van de Douane ](assets/kickstarts-select-existing-data.png)
-
-   Voorbeeldafbeelding in de productieomgeving:
-   ![ Uitgezochte Gegevens van de Douane ](assets/existing-custom-data-box-checked-kick-starts.png)
 
 1. Kies **.xlsx- dossier** in de **3} sectie van het formaat van de Download {.**
 
@@ -130,11 +124,7 @@ Nadat u de informatie over bestaande aangepaste velden in uw systeem hebt gescan
 
 1. In het **Download een leeg Kick-Begin spreadsheet** gebied, selecteer het **de controlevakje van Gegevens van de Douane** en klik **Download**.
 
-   <span class="preview"> beeld van de Steekproef in het milieu van de Voorproef:</span>
    ![ Uitgezochte Gegevens van de Douane ](assets/kickstarts-select-existing-data.png)
-
-   Voorbeeldafbeelding in de productieomgeving:
-   ![ Uitgezochte Gegevens van de Douane ](assets/blank-custom-data-option-checked-kick-starts.png)
 
    Een leeg bestand met de startfunctie wordt naar de computer gedownload.
 

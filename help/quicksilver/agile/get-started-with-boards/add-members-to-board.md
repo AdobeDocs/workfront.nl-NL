@@ -6,7 +6,7 @@ description: Mensen moeten als leden aan de raad van bestuur worden toegevoegd v
 author: Lisa
 feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
-source-git-commit: bf8d566ba9d24310e75d2fbaf523fe5464bb6657
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
 source-wordcount: '476'
 ht-degree: 0%
@@ -15,11 +15,9 @@ ht-degree: 0%
 
 # Leden toevoegen aan of verwijderen uit een board
 
-{{highlighted-preview}}
-
 Personen en teams moeten als leden aan de raad van bestuur worden toegevoegd voordat ze de raad kunnen bekijken.
 
-De maker van een bord is standaard de eigenaar. De eigenaar van het board is de enige persoon die dat bord kan verwijderen of zijn filters in het Configure paneel kan bijwerken. <span class="preview"> slechts kan een systeembeheerder of de huidige boseigenaar de boardeigenaar veranderen.</span>
+De maker van een bord is standaard de eigenaar. De eigenaar van het board is de enige persoon die dat bord kan verwijderen of zijn filters in het Configure paneel kan bijwerken. Alleen een systeembeheerder of de huidige eigenaar van de kaart kan de eigenaar van de kaart wijzigen.
 
 ## Toegangsvereisten
 
@@ -85,8 +83,6 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    >
    >U kunt de eigenaar van het bord niet verwijderen.
 
-<div class="preview">
-
 ## De eigenaar van het bord wijzigen
 
 >[!NOTE]
@@ -104,5 +100,3 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    Alleen een gebruiker kan de eigenaar van het bord zijn. Een team kan geen eigenaar zijn.
 
 1. Klik [!UICONTROL **Update**].
-
-</div>
