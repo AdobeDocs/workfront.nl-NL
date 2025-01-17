@@ -6,9 +6,10 @@ feature: Product Announcements
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
+source-git-commit: 6d90f544b73f79b545fbcafbc18d7a653554d75f
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -23,16 +24,43 @@ Deze pagina bevat een overzicht van de interface-updates die we in Adobe Workfro
 
 Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product ](/help/quicksilver/product-announcements/product-releases/product-releases.md).[
 
-## Tekstmodus voor filters en groepen
+## Beheer en installatie
 
-**de versie van de Voorproef: 9 Januari, 2025; De versie van de Productie: 9 Januari, 2025**
+### Interface-update voor dialoogvenster SharePoint toevoegen
+
+**de versie van de Voorproef: 16 Januari, 2025; De versie van de Productie: TBD**
+
+We hebben het dialoogvenster SharePoint toevoegen in Setup > Documenten > SharePoint-integratie bijgewerkt met een modern ontwerp dat consistent is met andere gebieden van Workfront.
+
+Deze update bevat visuele wijzigingen in het gebied. Er is geen functionaliteit gewijzigd.
+
+### De update van de interface voor het gebied van Goedkeuringen in de Opstelling
+
+**de versie van de Voorproef: 16 Januari, 2025; De versie van de Productie: TBD**
+
+We hebben de lijsten met projecten, taken en goedkeuringen voor uitgaven bijgewerkt in Setup > Processen > Goedkeuringen met een modern ontwerp dat aansluit bij andere onderdelen van Workfront.
+
+Deze update bevat visuele wijzigingen in het gebied. Er is geen functionaliteit gewijzigd.
+
+## Rapporten en dashboards
+
+### Tekstmodus voor filters en groepen
+
+**de versie van de Voorproef: 9 Januari, 2025; De versie van de Productie: Begin 9 Januari, 2025**
 
 Er is een nieuwe knop Tekstmodus bewerken en modaal bewerken toegevoegd aan de volgende gebieden:
 
 * Oudere filters
 * Groepen
 
-Zie voor meer informatie:
+### Bijgewerkte goedkeuringsrapporten met nieuwe opmaak
 
-* [Een filter bewerken in de tekstmodus](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
-* [Een groep bewerken in de tekstmodus](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
+**de versie van de Voorproef: 16 Januari, 2025; De versie van de Productie: TBD**
+
+We hebben de interface van de volgende goedkeuringsrapporten bijgewerkt:
+
+* Rapport met gebruikersbeslissingen
+* Rapport met gebruikersinstellingen
+* Goedkeuringsprocesrapport
+
+Deze updates bevatten visuele wijzigingen in het gebied. Er is geen functionaliteit gewijzigd.
