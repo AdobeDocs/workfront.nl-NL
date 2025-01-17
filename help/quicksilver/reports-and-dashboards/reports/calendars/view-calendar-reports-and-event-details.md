@@ -6,9 +6,9 @@ description: U kunt kalenderrapporten en gebeurtenisdetails bekijken die u creee
 author: Lisa
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: 9ddbe09ab99b6b151fc2d052b4c53e004eb0fa44
+source-git-commit: eebece1ba576d9c654ac0fd9763ae646ce3be5a5
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
@@ -56,21 +56,23 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 ## Een kalenderrapport weergeven
 
-{{step1-to-calendars}}
+<!--{{step1-to-calendars}}-->
 
-Afhankelijk van uw toegangsniveau, zou u de volgende vermelde kalenders kunnen zien:
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Calendars]**.
 
-* Uw standaardkalender [!DNL Adobe Workfront]
+   Afhankelijk van uw toegangsniveau, zou u de volgende vermelde kalenders kunnen zien:
 
-  Workfront maakt een kalender voor u op basis van de projecten, taken en problemen die aan u zijn toegewezen of die zijn toegewezen aan teams, groepen of rollen waaraan u bent toegewezen.
+   * Uw standaardkalender [!DNL Adobe Workfront]
 
-* Door u gemaakte kalenders
+     Workfront maakt een kalender voor u op basis van de projecten, taken en problemen die aan u zijn toegewezen of die zijn toegewezen aan teams, groepen of rollen waaraan u bent toegewezen.
 
-  Om over het creëren van kalenders te leren, zie [ overzicht van de rapporten van de Kalender ](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+   * Door u gemaakte kalenders
 
-* Kalenders die andere gebruikers met u hebben gedeeld
+     Om over het creëren van kalenders te leren, zie [ overzicht van de rapporten van de Kalender ](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
-  Zie [[!UICONTROL Share a calendar] report ](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md) voor meer informatie over het delen van kalenders.
+   * Kalenders die andere gebruikers met u hebben gedeeld
+
+     Zie [[!UICONTROL Share a calendar] report ](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md) voor meer informatie over het delen van kalenders.
 
 1. (Voorwaardelijk) klik **[!UICONTROL View]** drop-down, dan selecteer de kalenderduur u wilt bekijken.
    ![ de duur van de Kalender ](assets/view-menu-calendar-report-350x189.png)
