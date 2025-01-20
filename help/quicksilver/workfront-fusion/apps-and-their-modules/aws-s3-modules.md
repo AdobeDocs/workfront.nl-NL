@@ -85,7 +85,7 @@ De AWS S3-connector gebruikt het volgende:
  <tbody> 
   <tr> 
    <td role="rowheader">Basis-URL</td> 
-   <td>https://s3.{{{parameters.region}}.amazonaws.com</td> 
+   <td>https://s3.{&lbrace;&lbrace;parameters.region&rbrace;&rbrace;.amazonaws.com</td> 
   </tr>
   <tr> 
    <td role="rowheader">API-tag</td> 
