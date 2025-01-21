@@ -1,8 +1,8 @@
 ---
 content-type: api
 navigation-topic: general-api
-title: Basisbeginselen van API
-description: Basisbeginselen van API
+title: Basisprincipes van API's
+description: Basisprincipes van API's
 author: Becky
 feature: Workfront API
 role: Developer
@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# Basisbeginselen van API
+# Basisprincipes van API&#39;s
 
 Het doel voor de Adobe Workfront API is het vereenvoudigen van de integratie van gebouwen met Workfront door de introductie van een REST-ful architectuur die werkt via HTTP. In dit document wordt ervan uitgegaan dat u bekend bent met REST- en JSON-reacties en wordt de aanpak beschreven die door de Workfront API wordt gevolgd.
 
