@@ -7,7 +7,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 6d90f544b73f79b545fbcafbc18d7a653554d75f
+source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 0%
@@ -44,15 +44,6 @@ Deze update bevat visuele wijzigingen in het gebied. Er is geen functionaliteit 
 
 ## Rapporten en dashboards
 
-### Tekstmodus voor filters en groepen
-
-**de versie van de Voorproef: 9 Januari, 2025; De versie van de Productie: Begin 9 Januari, 2025**
-
-Er is een nieuwe knop Tekstmodus bewerken en modaal bewerken toegevoegd aan de volgende gebieden:
-
-* Oudere filters
-* Groepen
-
 ### Bijgewerkte goedkeuringsrapporten met nieuwe opmaak
 
 **de versie van de Voorproef: 16 Januari, 2025; De versie van de Productie: TBD**
@@ -64,3 +55,12 @@ We hebben de interface van de volgende goedkeuringsrapporten bijgewerkt:
 * Goedkeuringsprocesrapport
 
 Deze updates bevatten visuele wijzigingen in het gebied. Er is geen functionaliteit gewijzigd.
+
+### Tekstmodus voor filters en groepen
+
+**de versie van de Voorproef: 9 Januari, 2025; De versie van de Productie: Begin 9 Januari, 2025**
+
+Er is een nieuwe knop Tekstmodus bewerken en modaal bewerken toegevoegd aan de volgende gebieden:
+
+* Oudere filters
+* Groepen

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 260e629d-361b-4022-8be0-7d2e7d66770f
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in het Eerste Kwar
 >
 >Voorvertoningsrelease: 21 december 2023; productie voor snelle release: met de release van 24.3 (maart 2024).
 >
->_Deze eigenschap zal van Voorproef op 19 December, 2024 en van de snelle productie van de versie met 25.1 (Januari 2025) worden verwijderd._
+>_Deze eigenschap is verwijderd uit Voorproef en snelle de Productie van de versie._
 
 We hebben het algoritme gewijzigd dat Workfront gebruikt om slimme toewijzingen voor taken te berekenen en voor te stellen. Het nieuwe algoritme is van toepassing op de volgende gebieden in Workfront waar u een taak toewijst: taaklijsten, het gebied van Toewijzingen in de taakkopbal, Huis, en het Summiere paneel.
 

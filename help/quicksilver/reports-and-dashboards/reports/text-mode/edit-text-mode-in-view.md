@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Een weergave bewerken in de tekstmodus
-description: 'NOTA: voeg een sectie in dit artikel toe: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-views.html *** Ook, ontwerp dit gebied in het het overzichtsartikel van de Wijze van de Tekst)'
+description: U kunt een weergave in een lijst of rapport bewerken met de tekstmodus om toegang te krijgen tot velden die niet beschikbaar zijn in de standaardinterface en om complexere weergaven te maken.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---

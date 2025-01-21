@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Een groep bewerken in de tekstmodus
-description: 'OPMERKING: alle FVG-artikelen gelijk maken voor bewerking in tekstmodus'
+description: U kunt een groepering in een lijst of een rapport uitgeven gebruikend tekstwijze om tot gebieden toegang te hebben die niet beschikbaar in de standaardinterface zijn en complexere groeperingen tot stand brengen.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
 workflow-type: tm+mt
-source-wordcount: '1520'
+source-wordcount: '1537'
 ht-degree: 0%
 
 ---
