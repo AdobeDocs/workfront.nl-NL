@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a6120939-5d76-4f46-a304-125de6b22502
-source-git-commit: 77c07c7c7104d37360cc7630a89dd72836da477c
+source-git-commit: 074f78e27d2ab1cb1d1b8216f14557b91d9afd00
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '973'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Neem contact op met Workfront Support. Leren hoe te om steun te contacteren, zie
 
 ## Welke verschillende verificatietypen kan ik gebruiken met Workfront Event Subscriptions?
 
-U kunt om het even welke authentificatie gebruiken die een dragertoken gebruikt. Het **authToken** gebied van een abonnement is een koord dat een token vertegenwoordigt OAuth2 dat wordt gebruikt om met URL voor authentiek te verklaren die in het **wordt gespecificeerd url** gebied. In theorie, zou deze symbolische waarde om het even wat kunnen zijn zolang het bestemmingshindpunt zich van bewust is hoe te om zijn het coderen te behandelen, die **utf-8** is.
+U kunt om het even welke authentificatie gebruiken die een dragertoken gebruikt. Het **authToken** gebied van een abonnement is een koord dat een token vertegenwoordigt OAuth2 dat wordt gebruikt om met URL voor authentiek te verklaren die in het **wordt gespecificeerd url** gebied. In theorie, zou deze symbolische waarde om het even wat onder 255 karakters kunnen zijn zolang het bestemmingshindpunt zich van bewust is hoe te om zijn het coderen te behandelen, die **utf-8** is.
 
 ## Hoe lang moet het zijn voordat ik mijn gebeurtenislading van Workfront Event Abonnementen ontvang?
 
