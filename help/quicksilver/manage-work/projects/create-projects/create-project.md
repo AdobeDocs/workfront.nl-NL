@@ -6,20 +6,22 @@ description: Een project is een grote eenheid werk in Adobe Workfront. U kunt ge
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
 workflow-type: tm+mt
-source-wordcount: '1295'
+source-wordcount: '1378'
 ht-degree: 0%
 
 ---
 
 # Een project maken
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:this is linked from the UI from the Projects global nav section in classic. Do not change/ remove)</p>
--->
+<!--remove Preview and Production references-->
 
 <!-- Audited: 12/2023 -->
+
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 Projecten vormen een groot deel van het werk dat in Adobe Workfront moet worden verricht.
 
@@ -117,17 +119,17 @@ U kunt een project in Workfront tot stand brengen gebruikend één van de volgen
   Voor de functie Scenario Planner is een van de volgende opties vereist:
 
    * Een aanvullende licentie voor de huidige Workfront-licentiestructuur.
-   * Een ultieme licentie voor de nieuwe Workfront-licentiestructuur.
+   * An Ultimate license for the new Workfront License structure.
 
   Voor informatie over de Planner van het Scenario van Workfront, zie [ het overzicht van de Planner van het Scenario ](../../../scenario-planner/scenario-planner-overview.md). Voor informatie over het creëren van projecten van het publiceren initiatieven, zie [ Update of creeer projecten door initiatieven in de Planner van het Scenario te publiceren ](../../../scenario-planner/publish-scenarios-update-projects.md).
 
-* Voeg projecten toe aangezien u hen van een verslagtype in de Planning van Workfront verbindt. U kunt slechts projecten zonder malplaatjes van de Planning van Workfront tot stand brengen.
+* Voeg projecten toe aangezien u hen van een verslagtype in de Planning van Workfront verbindt. In het milieu van de Productie, kunt u slechts projecten zonder malplaatjes van de Planning van Workfront tot stand brengen. <span class="preview"> u kunt projecten tot stand brengen gebruikend een malplaatje in het milieu van de Voorproef.</span>
 
   U moet een nieuwe Workfront-licentie en een extra Workfront Planning-licentie voor Workfront Planning hebben.
 
   Voor informatie over toegang tot de Planning van Workfront, zie [ Overzicht van de Toegang ](/help/quicksilver/planning/access/access-overview.md).
 
-  Voor informatie over het creëren van projecten door hen aan verslagen toe te voegen, zie de sectie &quot;verslagen tot stand brengen aangezien u hen&quot;in artikel [ verbindt creeert verslagen ](/help/quicksilver/planning/records/create-records.md).
+  Voor informatie over het creëren van projecten door hen aan verslagen toe te voegen, zie de sectie &quot;projecten creëren wanneer het verbinden van hen met verslagen van de Planning van Workfront&quot;in artikel [ de voorwerpen van Workfront van de Planning van Workfront ](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md) creëren
 
 ## Vereisten
 

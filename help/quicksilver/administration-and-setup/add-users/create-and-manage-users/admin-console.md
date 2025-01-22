@@ -5,14 +5,18 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1170'
 ht-degree: 0%
 
 ---
 
-# Systeembeheerders beheren in de Adobe Admin Console
+# Gebruikers beheren in de Adobe Admin Console
+
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 >[!IMPORTANT]
 >
@@ -25,6 +29,10 @@ Als beheerder van een Adobe kunt u Adobe Workfront-systeembeheerders maken met d
 >[!NOTE]
 >
 >We raden u aan om gebruikers die geen systeembeheerders zijn, rechtstreeks toe te voegen in Workfront. Het is mogelijk om gebruikers toe te voegen in de Adobe Admin Console, maar als u ze toevoegt in Workfront, kunt u hun toegangsniveau instellen terwijl u ze maakt. Op die manier kunt u tijd besparen.
+
+<!--
+<span class="preview">When making any changes to users from the Admin Console, an update is added to the System activity tab of the user in Workfront indicating that there is an update from the "System". This refers to the Adobe Admin Console administrator and not to the Workfront main Administrator.</span> 
+-->
 
 ## Toegangsvereisten
 

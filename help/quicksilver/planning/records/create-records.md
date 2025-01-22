@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: d962d60294295dd1f3771d1f0b737c9d1f03dfef
+source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1553'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # Records maken
 
-<span class="preview"> de informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -32,7 +32,7 @@ U kunt records maken door een van de volgende handelingen uit te voeren:
 * [Records dupliceren vanuit een tabelweergave](#create-records-by-duplicating-them)
 * [Records maken terwijl u deze verbindt met andere records](#create-records-as-you-connect-them)
 * [Maak ze door een aanvraagformulier naar een recordtype te verzenden](#create-records-by-submitting-a-request-form-to-a-record-type)
-* <span class="preview">[ creeer verslagen wanneer het invoeren van verslagtypes van een CSV of dossier van Excel ](#create-records-when-importing-record-types-from-a-csv-or-excel-file)</span>
+* [Records maken bij het importeren van recordtypen uit een CSV- of Excel-bestand](#create-records-when-importing-record-types-from-a-csv-or-excel-file)
 
 
 Raadpleeg de volgende artikelen voor informatie over het beheren van records in de tabel- of tijdlijnweergaven:
@@ -65,8 +65,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td> 
 <p>Een van de volgende Workfront-plannen:</p> 
 <ul><li>Selecteren</li> 
-<li>Eerste</li> 
-<li>Ultieme</li></ul> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
 <p>Workfront Planning is niet beschikbaar voor oudere Workfront-plannen</p> 
    </td> 
 <tr> 
@@ -233,34 +233,46 @@ Voor informatie over het dupliceren van verslagen, zie [ Dubbele verslagen ](/he
 
 ## Records maken terwijl u ze verbindt
 
-U kunt records of Workfront-objecten maken terwijl u deze verbindt vanuit andere records.
+U kunt de volgende objecttypen maken terwijl u deze verbindt vanuit andere records:
 
-U moet het volgende hebben voordat u nieuwe records of Workfront-objecten kunt toevoegen door deze te verbinden vanuit bestaande records:
+* Workfront-planningsrecords
+* Workfront-objecten
 
-* Verbonden recordtypen. Voor informatie, zie [ verbind verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
-* Verbonden records. Voor informatie, zie [ verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md).
-* De correcte toegang en de toestemmingen in de Planning van Workfront en Workfront, zoals die in de sectie [ vereisten van de Toegang ](#access-requirements) in dit artikel worden beschreven.
+In deze sectie wordt beschreven hoe u Workfront Planning-records kunt maken terwijl u deze verbindt vanuit andere records.
 
 >[!NOTE]
 >
 >Het maken van Workfront-projecten en -portfolio&#39;s wanneer u deze koppelt aan Workfront-planningsrecords, lijkt op het maken van planningsrecords wanneer u deze verbindt met andere records.
+>
+>Voor informatie over het creëren van de voorwerpen van Workfront van de Planning van Workfront, zie [ de voorwerpen van Workfront van Workfront Planning ](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md) creëren.
+
+U moet het volgende hebben voordat u nieuwe records kunt toevoegen door deze te verbinden vanuit bestaande records:
+
+* Verbonden recordtypen. Voor informatie, zie [ verbind verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
+* Records.
+* De correcte toegang en de toestemmingen in de Planning van Workfront en Workfront, zoals die in de sectie [ vereisten van de Toegang ](#access-requirements) in dit artikel worden beschreven.
 
 Om verslagen tot stand te brengen aangezien u hen van andere verslagen verbindt:
 
-1. Begin verbindend de verslagen van de Planning van Workfront, zoals die in het artikel [ worden beschreven verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md).
-1. (Voorwaardelijk) als u geen verslag kunt vinden wanneer het proberen om het van het verbonden verslaggebied van een ander verslag toe te voegen, onderzoek naar een verslag, dan klik **+ toevoegen**. De knop **+ Toevoegen** wordt gevolgd door de naam van het recordtype waarmee u verbinding maakt.
+1. Begin verbindend de verslagen van de Planning van Workfront, zoals die in het artikel [ worden beschreven verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md). U kunt records verbinden vanuit een verbindingsveld in de volgende gebieden van Workfront Planning:
+
+   * De tabelweergave
+   * De detailpagina of het voorvertoningsvak van een record
+
+1. (Voorwaardelijk) als u geen verslag kunt vinden wanneer het proberen om het van het verbonden verslaggebied van een ander verslag toe te voegen, onderzoek naar een verslag, dan klik **+ toevoegen**. De knop **+ Toevoegen** wordt gevolgd door de naam van het recordtype waarmee u verbinding maakt. Bijvoorbeeld, &quot;voeg merken&quot;toe wanneer het toevoegen van een merk aan een bestaande campagne.
 
    ![](assets/add-button-to-create-records-in-context-highlighted.png)
 
    De record wordt gemaakt en toegevoegd aan het verbonden recordveld.
 
-   >[!IMPORTANT]
-   >
-   >* U kunt alleen projecten en portfolio&#39;s maken in Workfront wanneer u deze via een record verbindt.
-   >
-   >* U kunt geen programma&#39;s, groepen, of bedrijven tot stand brengen wanneer het verbinden hen van een verslag in de Planning van Workfront.
-   >
-   >* U kunt geen project van een malplaatje tot stand brengen wanneer u projecten door hen van een verslag te verbinden creeert. U moet taken en projectinformatie of een malplaatje aan het nieuwe project manueel toevoegen nadat u het aan het verslag toevoegt.
+   <!--
+    >[!IMPORTANT]
+    >
+    >* You can create only projects and portfolios in Workfront when connecting them from a record. 
+    >
+    >* You cannot create programs, groups, or companies when connecting them from a record in Workfront Planning. 
+    >
+    >* You cannot create a project from a template when when you create projects by connecting them from a record. You must manually add tasks and project information or a template to the new project after you add it to the record. -->
 
 1. (Optioneel) Ga naar de tabelweergave van het recordtype waarvan u de record hebt gemaakt. Een nieuwe record wordt weergegeven in de laatste rij van de weergave.
 1. (Optioneel) Voeg informatie voor de nieuwe record toe in de tabelweergave
@@ -277,12 +289,9 @@ Zowel Workfront-gebruikers als gebruikers buiten uw organisatie kunnen aanvragen
 
 Voor informatie, zie [ de Verzoeken van de Planning van Adobe Workfront voorleggen om verslagen ](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen.
 
-<div class="preview">
-
 ## Records maken bij het importeren van recordtypen uit een CSV- of Excel-bestand
 
 U kunt records importeren wanneer u recordtypen importeert met een CSV- of Excel-bestand.
 
 Voor informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
 
-</div>

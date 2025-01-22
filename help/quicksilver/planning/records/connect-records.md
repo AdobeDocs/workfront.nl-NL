@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
 workflow-type: tm+mt
-source-wordcount: '2928'
+source-wordcount: '2912'
 ht-degree: 0%
 
 ---
@@ -228,7 +228,7 @@ U kunt verslagen van de Planning van Workfront op de volgende gebieden van een v
 
    Bericht dat het **verbonden verslaggebied van de Campagne** {de namen van de campagnes toont u met producten in de het verslagtype van het Product pagina verbond. Wanneer u de Campagnegegevens bijwerkt, wordt het aan Campagne gekoppelde recordveld voor het type productrecord automatisch bijgewerkt.
 
-### Connect Adobe Workfront Planning-records vanuit de tabelweergave of het tabblad Details van de recordpagina verbinden met Workfront-objecten
+### Connect Adobe Workfront Planning-records vanuit de tabelweergave of de detailpagina van een record verbinden met Workfront-objecten
 
 <!--when we will have more applications to link to from Planning, change the title to something like: Connect Workfront Planning records to objects from other applications-->
 
@@ -264,7 +264,7 @@ Nadat u een verbinding hebt gemaakt tussen een recordtype en een Workfront-objec
 
 1. (Optioneel) Als u een object niet kunt vinden om verbinding te maken en u wilt het object toevoegen, klikt u op **+ Toevoegen** om een nieuw project of portfolio te maken en toe te voegen.
 
-   U kunt projecten zonder een malplaatje of portefeuilles slechts toevoegen wanneer het verbinden van hen met de verslagen van de Planning. U kunt geen nieuwe programma&#39;s, groepen, of bedrijven toevoegen.
+   Voor informatie, zie [ de voorwerpen van Workfront van de Planning van Workfront ](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md) creëren
 
 1. (Facultatief) klik **zie allen** om alle voorwerpen te tonen u minstens toestemmingen aan mening hebt.
 

@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1550'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 >De op deze pagina beschreven procedure is alleen van toepassing op organisaties die nog niet aan de Admin Console zijn geregistreerd. Als uw organisatie is aangemeld bij de Adobe Admin Console, moet u deze handeling uitvoeren via de Adobe Admin Console.
 >
->Voor instructies bij het verlenen van volledige beheerdertoegang in Adobe Admin Console, zie [ systeembeheerders in Adobe Admin Console beheren ](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+>Voor instructies bij het verlenen van volledige beheerdertoegang in Adobe Admin Console, zie [ gebruikers in Adobe Admin Console beheren ](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 >
 >Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan Adobe Admin Console is genegeerd, zie [ Op platform-gebaseerde beleidsverschillen (Adobe Workfront/Adobe Bedrijfs Platform) ](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
