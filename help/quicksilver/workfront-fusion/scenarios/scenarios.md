@@ -9,9 +9,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 6e181c07-4419-486f-bde1-ace3db349a72
-source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
+source-git-commit: dee1c75e134309a25ba6c739059048972696f2c1
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,6 @@ Deze sectie bevat de volgende artikelen:
 * [[!DNL Adobe Workfront Fusion] scenario example: Connect email, [!UICONTROL Text Parser] en  [!DNL Google Sheets]](../../workfront-fusion/scenarios/example-connect-email-text-parser-gsheets.md)
 * [Herstel een scenario versie in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/restore-a-scenario-version.md)
 * [Modules of scenario&#39;s van het exemplaar in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/copy-modules-or-scenarios.md)
-* [Werk een module aan een nieuwe versie in een  [!DNL Adobe Workfront Fusion]  scenario bij](../../workfront-fusion/scenarios/update-module-to-new-version.md)
 * [Vergrendelde scenario&#39;s weergeven en beheren in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-manage-locked-scenarios.md)
 * [Voer de Scenario Scoring Expert in Adobe Workfront Fusion uit](/help/quicksilver/workfront-fusion/scenarios/run-scenario-scoring.md)
 * [Gebruik cURL om een HTTP-module toe te voegen](/help/quicksilver/workfront-fusion/scenarios/use-curl-create-http.md)

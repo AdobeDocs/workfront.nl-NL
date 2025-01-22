@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: d87e7aab75c65796e9d4ef04c46aef295dbd898f
+source-git-commit: dee1c75e134309a25ba6c739059048972696f2c1
 workflow-type: tm+mt
-source-wordcount: '14788'
+source-wordcount: '14778'
 ht-degree: 0%
 
 ---
@@ -2270,7 +2270,6 @@ ht-degree: 0%
       * [De uitvoeringsgeschiedenis van een scenario weergeven in Adobe Workfront Fusion](workfront-fusion/scenarios/view-scenario-execution-history.md)
       * [Onvolledige uitvoeringen weergeven en oplossen in Adobe Workfront Fusion](workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md)
       * [ Mening en beheer gesloten scenario&#39;s in  [!DNL Adobe Workfront Fusion]](workfront-fusion/scenarios/view-and-manage-locked-scenarios.md)
-      * [ werk een module aan een nieuwe versie in een  [!DNL Adobe Workfront Fusion]  scenario ](workfront-fusion/scenarios/update-module-to-new-version.md) bij
       * [Een scenario plannen in Adobe Workfront Fusion](workfront-fusion/scenarios/schedule-a-scenario.md)
       * [Een scenario activeren of deactiveren in Adobe Workfront Fusion](workfront-fusion/scenarios/activate-or-inactivate-scenario.md)
       * [Een filter toevoegen aan een scenario in Adobe Workfront Fusion](workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)
@@ -2767,7 +2766,7 @@ ht-degree: 0%
       * [Nieuw in API-versie 6](wf-api/api/new-api-version-6.md)
    * Algemene API-informatie {#api-general-information}
       * [Algemene API-informatie](wf-api/general/api-general.md)
-      * [Basisbeginselen van API](wf-api/general/api-basics.md)
+      * [Basisprincipes van API&#39;s](wf-api/general/api-basics.md)
       * [API Explorer](wf-api/general/api-explorer.md)
       * [De API Explorer gebruiken](wf-api/general/using-api-explorer.md)
       * [Rijke tekstvelden in de Adobe Workfront API](wf-api/general/rich-text-field-api.md)
