@@ -6,9 +6,9 @@ description: U kunt extra fiatteurs of revisoren toevoegen aan een document dat 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 1fbb5cb2082e6b926930793984bd34a759c7eec7
+source-git-commit: 5027807d93994b9ce9954be461b571379b36c960
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '610'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,9 @@ Goedkeuring van nieuwe documenten is een volledig herontwerp van het bestaande g
 
 * De beslissingsknoppen voor documentgoedkeuring zijn niet beschikbaar in de proefdrukviewer. Besluiten kunnen worden genomen in de documentoverzicht, de Workfront Home-widgets of op de pagina Documentdetails.
 * Deelnemers aan documentgoedkeuring worden weergegeven in het overzicht van het document, niet op het tabblad voor de proefwerkstroom.
-* Goedkeuringen nieuw document worden niet ondersteund in het huidige rapportagegereedschap. De widget Alle goedkeuringen beschikbaar in de nieuwe dashboards van het Huis en van het Canvas verstrekt de volgende details over de Goedkeuringen van Nieuw Document:
+* Goedkeuringen nieuw document worden niet ondersteund in het huidige rapportagegereedschap.
+
+  U kunt zich bij de nieuwe bèta van de Dashboards van het Canvas aansluiten om [ een rapportdashboard voor overzicht en goedkeuringen ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) tot stand te brengen, of u kunt allen gebruiken goedkeurt widget beschikbaar in nieuwe Dashboards van het Huis en van het Canvas verstrekt de volgende details over Nieuwe Goedkeuringen van het Document:
 
    * Goedkeuring bij besluit
    * Gemiddelde goedkeuringstijd
