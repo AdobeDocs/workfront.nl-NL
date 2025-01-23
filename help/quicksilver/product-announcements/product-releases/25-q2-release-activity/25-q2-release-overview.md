@@ -4,9 +4,10 @@ description: Deze pagina bevat informatie over de functionaliteit die is opgenom
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
+exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
+source-git-commit: ef390581f250515983ba51fb4b1f9ee53fcff693
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -46,15 +47,15 @@ Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen z
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            AI Assistant kan nu werken met projecten, taken en problemen</a></p>
-            <p>Om het gemakkelijker te maken om uw het werkpunten in Workfront te beheren, hebben wij AI Medewerker bijgewerkt om met projecten, taken, en kwesties te werken. Nu, kan de Medewerker van AI van projecten, taken, en kwesties de plaats bepalen die op criteria worden gebaseerd u specificeert.</p>
+            Adobe Admin Console-gebruikerswijzigingen vertegenwoordigen als "Systeem" in de Workfront-updatefeed</a></p>
+            <p>Nu, wanneer de beheerder van de Adobe Admin Console een verandering in de gebruikersinformatie van een gebruiker van Workfront aanbrengt, registreert Workfront deze verandering in het de activiteitslusje van het Systeem van het gebied van de Updates van de gebruiker zoals die tot het "Systeem"behoort. Dit verwijst naar de Adobe Admin Console-beheerder.</p>
         </td>
         <td>
             <p><b>Beschikbaar op deze data:</b></p>
             <ul>
-                <li>Voorvertoningsrelease: 31 oktober 2024</li>
-                <li>Productie voor snelle release: met de release van 24.11 (14 november 2024)</li>
-                <li>Productieversie voor alle klanten: met de release van 25.1 (16 januari 2025)</li>
+                <li>Voorvertoningsrelease: 23 januari 2025</li>
+                <li>Productie voor snelle release: met 25.2 release (februari 2025)</li>
+                <li>Productieversie voor alle klanten: met de release van 25.4 (april 2025)</li>
             </ul>
         </td>
     </tr>
