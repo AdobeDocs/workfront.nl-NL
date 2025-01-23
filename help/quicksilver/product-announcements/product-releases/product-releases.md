@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 505a9602-580c-4932-a85c-6c9a7c8af457
-source-git-commit: cafb8aa532647f878bc66d983023141e0c2faeba
+source-git-commit: 3c06f5969c9b7aa254bc2231146783a215689911
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '262'
 ht-degree: 10%
 
 ---
@@ -43,7 +43,7 @@ Voor informatie bij het helpen van uw organisatie aanpassen regelmatig aan nieuw
       <li> <p><a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md" class="MCXref xref" xrefformat="{para}"> Derde Kwartaal 2024 versieoverzicht </a> </p> </li>
       <li> <p><a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md" class="MCXref xref" xrefformat="{para}"> Tweede Kwartaal 2024 releaseoverzicht </a> </p> </li>
       <li> <p><a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md" class="MCXref xref" xrefformat="{para}"> Eerste Kwartaal 2024 releaseoverzicht </a> </p> </li>
- <td> <ul>    <li> <p><a href="../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md" class="MCXref xref" xrefformat="{para}"> de versieactiviteit van de Fusie van Adobe Workfront </a> </p> </li> 
+ <td> <ul>    <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity" xrefformat="{para}"> de versieactiviteit van de Fusie van Adobe Workfront </a> </p> </li> 
    <li> <p><a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md" class="MCXref xref" xrefformat="{para}"> Adobe Workfront die Vierde Kwartaal 2024 versieactiviteit </a> plant </p> </li></ul>   </td> 
    </tr>
   <tr data-mc-conditions=""> 
@@ -56,7 +56,7 @@ Voor informatie bij het helpen van uw organisatie aanpassen regelmatig aan nieuw
     </ul> </td> 
    <td>    <ul> 
      <li> <p><a href="../../product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-release.md" class="MCXref xref" xrefformat="{para}"> de Doelen van Adobe Workfront met 23.3 versie </a> </p> </li> 
-     <li> <p><a href="../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md" class="MCXref xref" xrefformat="{para}"> de versieactiviteit van de Fusie van Adobe Workfront </a> </p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity" xrefformat="{para}"> de versieactiviteit van de Fusie van Adobe Workfront </a> </p> </li> 
     </ul></td> 
   </tr>
   <tr data-mc-conditions=""> 
@@ -68,7 +68,7 @@ Voor informatie bij het helpen van uw organisatie aanpassen regelmatig aan nieuw
      <li> <p><a href="../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md" class="MCXref xref" xrefformat="{para}"> 22.1 Overzicht van de Versie </a> </p> </li> 
     </ul> </td> 
    <td><ul> 
-     <li> <p><a href="../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md" class="MCXref xref" xrefformat="{para}"> de versieactiviteit van de Fusie van Adobe Workfront </a> </p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity" xrefformat="{para}"> de versieactiviteit van de Fusie van Adobe Workfront </a> </p> </li> 
     </ul></td> 
   </tr> 
   <tr> 
@@ -82,7 +82,7 @@ Voor informatie bij het helpen van uw organisatie aanpassen regelmatig aan nieuw
    <td> 
     <ul> 
      <li> <p><a href="../../product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-release-21-2.md" class="MCXref xref" xrefformat="{para}"> de Doelen van Adobe Workfront met 21.2 versie </a> </p> </li> 
-     <li> <p><a href="../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md" class="MCXref xref" xrefformat="{para}"> de versieactiviteit van de Fusie van Adobe Workfront </a> </p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity" xrefformat="{para}"> de versieactiviteit van de Fusie van Adobe Workfront </a> </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -98,7 +98,7 @@ Voor informatie bij het helpen van uw organisatie aanpassen regelmatig aan nieuw
     </ul> </td> 
    <td> 
     <ul> 
-     <li><a href="../../product-announcements/product-releases/goals-release-activity/goals-release-activity.md" class="MCXref xref" xrefformat="{para}"> de versieactiviteit van de Doelstellingen van Adobe Workfront </a> <li><a href="../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md" class="MCXref xref" xrefformat="{para}"> de versieactiviteit van het Plan van het Scenario van Adobe Workfront </a> </li> <li><a href="../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md" class="MCXref xref" xrefformat="{para}"> de versieactiviteit van de Fusie van Adobe Workfront </a> </li> </li> 
+     <li><a href="/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-release-activity.md"> de versieactiviteit van de Doelstellingen van Adobe Workfront </a> <li><a href="../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md" class="MCXref xref" xrefformat="{para}"> de versieactiviteit van het Plan van het Scenario van Adobe Workfront </a> </li> <li><a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity" class="MCXref xref" xrefformat="{para}"> de versieactiviteit van de Fusie van Adobe Workfront </a> </li> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

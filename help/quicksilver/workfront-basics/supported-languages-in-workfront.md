@@ -6,9 +6,9 @@ description: U kunt de taal wijzigen waarin u Adobe Workfront en e-mails uit Wor
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: cac27d995a1b5295e05ea1f67990b05f28b66211
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1072'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ Workfront Fusion biedt momenteel alleen ondersteuning voor Engels.
 * Workfront Fusion ondersteunt het gebruik van niet-Engelse teksttekens in door gebruikers ingevoerde velden niet.
 
 Uw bedrijf moet een Workfront Fusion-licentie aanschaffen om toegang te krijgen tot Workfront Fusion.\
-Voor meer informatie over de Fusie van Workfront, zie [ het overzicht van de Fusie van Adobe Workfront ](../workfront-fusion/get-started/workfront-fusion-overview.md).
+Voor meer informatie over de Fusie van Workfront, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ## De taal wijzigen
 

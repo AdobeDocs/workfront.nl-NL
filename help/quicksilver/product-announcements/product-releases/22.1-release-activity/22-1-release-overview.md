@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: daf977fe-957a-40ad-a37f-1c164cb4ada3
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
 workflow-type: tm+mt
-source-wordcount: '4757'
+source-wordcount: '4758'
 ht-degree: 0%
 
 ---
@@ -196,7 +196,7 @@ For specific release dates and times for each cluster, see the
    <td><strong> Beschikbaar op deze data:</strong> <p>Voorvertoningsrelease: 18 november 2021 <br></p> <p>Productieversie: met 22.1 release </p> <p><strong> Beschikbaar in deze milieu's:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-project-enhancements.md#new2" class="MCXref xref" xrefformat="{para}"> Nieuwe ervaring wanneer het bewegen van één of veelvoudige taken van een lijst </a> </p> <p>Om een consistente ervaring te bieden bij het uitvoeren van dezelfde taak, hebben we nu de interface bijgewerkt voor het verplaatsen van een of meerdere taken uit een lijst, zodat deze overeenkomt met de ervaring bij het verplaatsen van de taak op taakniveau. (We hebben de ervaring voor het verplaatsen van een taak op taakniveau bijgewerkt in een vorige Preview-release.)</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-project-enhancements.md#new2" class="MCXref xref" xrefformat="{para}"> Nieuwe ervaring wanneer het bewegen van één of veelvoudige taken van een lijst </a> </p> <p>Om een verenigbare ervaring te bieden wanneer het uitvoeren van de zelfde taak, hebben wij nu de interface voor het bewegen van één of meerdere taken van een lijst bijgewerkt om de ervaring aan te passen wanneer het bewegen van de taak op het taakniveau. (We hebben de ervaring voor het verplaatsen van een taak op taakniveau bijgewerkt in een vorige Preview-release.)</p> </td> 
    <td><strong> Beschikbaar op deze data:</strong> <p>Voorvertoningsrelease: 4 november 2021 <br></p> <p>Productieversie: met 22.1 release </p> <p><strong> Beschikbaar in deze milieu's:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -237,7 +237,7 @@ For specific release dates and times for each cluster, see the
    <td><strong> Beschikbaar op deze data:</strong> <p>Voorvertoningsrelease: 2 december 2021<br></p> <p>Productieversie: met 22.1 release </p> <p><strong> Beschikbaar in deze milieu's:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-resource-mgt-enhancements.md#override" class="MCXref xref" xrefformat="{para}"> met voeten treedt munt wanneer het beheren van baanrollen </a> </p> <p>Om je te helpen de kosten en factureringskosten eenvoudig te beheren voor alle internationale organisaties, hebben we de valuta van een functie overschreven. Met deze functie kunt u nu kosten- en factureringssnelheden instellen voor functies in de valuta die overeenkomen met de locatie van de taakrol. Dit zal de systeemvaluta in alle financiële berekeningen voor de taakrol met voeten treden.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-resource-mgt-enhancements.md#override" class="MCXref xref" xrefformat="{para}"> treedt munt met voeten wanneer het beheren van baanrollen </a> </p> <p>Om u te helpen kosten en factureringspercentages eenvoudig te beheren in wereldwijde organisaties, hebben we de valuta van een functie overschreven. Met deze functie kunt u nu kosten- en factureringssnelheden instellen voor functies in de valuta die overeenkomen met de locatie van de taakrol. Dit zal de systeemvaluta in alle financiële berekeningen voor de baanrol met voeten treden.</p> </td> 
    <td><strong> Beschikbaar op deze data:</strong> <p>Voorvertoningsrelease: 2 december 2021 <br></p> <p>Productieversie: met 22.1 release </p> <p><strong> Beschikbaar in deze milieu's:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> <p>De Klassieke van Adobe Workfront (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank"> Workfront Klassiek zal in Maart 2022 </a> worden onderbroken, die kort door de eind-van-levensdatum voor Workfront Klassiek in Juli 2022 wordt gevolgd.)</p> </td> 
   </tr> 
  </tbody> 
@@ -289,7 +289,7 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-proofing-enhancements.md#electron" class="MCXref xref" xrefformat="{para}"> Elektronische de Verbeteringen van de Handtekening voor proeven </a> </p> <p>We hebben het voor gebruikers eenvoudiger gemaakt om proefdrukken elektronisch te ondertekenen. Gebruikers kunnen nu hun Workfront-gegevens gebruiken om een beslissing op een bewijs te ondertekenen.</p> <p>Als u een bewijs elektronisch wilt ondertekenen met SSO-gegevens, moet u een SSO instellen in Workfront Proof. </p> <p>Eerder moesten gebruikers Workfront Proof-gebruikersgegevens gebruiken. Deze zijn anders dan hun Workfront-gegevens.</p> </td> 
-   <td><strong> Beschikbaar op deze data:</strong> <p>Voorvertoningsrelease: 2 december 2021 <b style="color: #ff0000;"> (beschikbaar voor zowel EMEA- als Amerikaanse klanten) </b><br></p> <p>Productieversie: TBD <b style="color: #ff0000;"> (beschikbaar voor klanten in EMEA op 21 december 2021; beschikbaar voor alle resterende klanten op 3 februari 2022) </b></p> <p><strong> Beschikbaar in deze milieu's:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> <p>Adobe Workfront Klassiek (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank"> Workfront Classic zal in Maart 2022 worden gestopt </a>, die kort door de eind-van-levensdatum voor Workfront Classic in Juli 2022 wordt gevolgd.)</p> </td> 
+   <td><strong> Beschikbaar op deze data:</strong> <p>Voorvertoningsrelease: 2 december 2021 <b style="color: #ff0000;"> (beschikbaar voor zowel EMEA- als VS-klanten) </b><br></p> <p>Productieversie: TBD <b style="color: #ff0000;"> (beschikbaar voor klanten in EMEA op 21 december 2021; beschikbaar voor alle resterende klanten op 3 februari 2022) </b></p> <p><strong> Beschikbaar in deze milieu's:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> <p>De Klassieke van Adobe Workfront (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank"> Workfront Klassiek zal in Maart 2022 </a> worden onderbroken, die kort door de eind-van-levensdatum voor Workfront Klassiek in Juli 2022 wordt gevolgd.)</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-proofing-enhancements.md#desktop" class="MCXref xref" xrefformat="{para}"> Verbetering van de Kijker van de Desktop </a> </p> <p>We hebben de Desktop Proofing Viewer geüpgraded voor ondersteuning tot Chrome versie 91 voor meer compatibiliteit met interactieve proefdrukken.</p> <p>Windows-gebruikers moeten de bureaubladviewer handmatig opnieuw installeren om een upgrade naar de nieuwste versie uit te voeren. Hierna worden toekomstige updates van de Desktop Proofing Viewer automatisch uitgevoerd.</p> <p>Mac-gebruikers worden automatisch bijgewerkt naar de nieuwste versie.</p> </td> 
@@ -332,10 +332,10 @@ For specific release dates and times for each cluster, see the
      <li> <p>De voettekst die de tijdbladknoppen bevat, blijft nu behouden, zodat u altijd toegang hebt om op te slaan en te annuleren zonder naar de onderkant van de pagina te schuiven. Er is ook een nieuwe knop Terug naar boven toegevoegd in dit gebied om snel terug te keren naar de bovenkant van de pagina.</p> </li> 
      <li> <p>Een nieuw waarschuwingsbericht geeft nu een waarschuwing voor niet-opgeslagen wijzigingen, zodat u geen gegevens meer kwijtraakt wanneer u van het tijdblad af navigeert.</p> </li> 
     </ul> </td> 
-   <td><strong> Beschikbaar op deze data:</strong> <p>Voorvertoningsrelease: 2 december 2021<br></p> <p>Productieversie: met 22.1 release</p> <p><strong> Beschikbaar in deze milieu's:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> <p>Adobe Workfront Klassiek (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank"> Workfront Classic zal in Maart 2022 worden gestopt </a>, die kort door de eind-van-levensdatum voor Workfront Classic in Juli 2022 wordt gevolgd.)</p> </td> 
+   <td><strong> Beschikbaar op deze data:</strong> <p>Voorvertoningsrelease: 2 december 2021<br></p> <p>Productieversie: met 22.1 release</p> <p><strong> Beschikbaar in deze milieu's:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> <p>De Klassieke van Adobe Workfront (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank"> Workfront Klassiek zal in Maart 2022 </a> worden onderbroken, die kort door de eind-van-levensdatum voor Workfront Klassiek in Juli 2022 wordt gevolgd.)</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-other-enhancements.md#updated" class="MCXref xref" xrefformat="{para}"> Bijgewerkt menu van de Hulp </a> </p> <p>Wanneer u nu op de koppeling Help in de bovenste navigatiebalk klikt, verschijnt een bijgewerkt, gestroomlijnder menu. Het nieuwe menu biedt dezelfde informatie, maar met minder navigatieniveaus, waardoor minder klikken nodig is om relevante inhoud weer te geven.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-other-enhancements.md#updated" class="MCXref xref" xrefformat="{para}"> Bijgewerkt menu van de Hulp </a> </p> <p>Wanneer u nu op de koppeling Help in de bovenste navigatiebalk klikt, wordt een bijgewerkt, gestroomlijnder menu weergegeven. Het nieuwe menu biedt dezelfde informatie, maar met minder navigatieniveaus, waardoor minder klikken nodig is om relevante inhoud te zien.</p> </td> 
    <td><strong> Beschikbaar op deze data:</strong> <p>Voorvertoning release: n.v.t.<br></p> <p>Productieversie: met 22.1 release</p> <p><strong> Beschikbaar in deze milieu's:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> </td> 
   </tr> 
  </tbody> 
@@ -365,7 +365,7 @@ For specific release dates and times for each cluster, see the
 
 ## Workfront Fusion-verbeteringen
 
-Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de releaseplanning van 22.1. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de releaseplanning van 22.1. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ## Verbeteringen in Workfront Scenario Planner
 

@@ -6,9 +6,9 @@ description: Als u een project via Workfront Fusion maakt en Adobe Experience Ma
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '896'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ U moet het volgende hebben:
      <p>Nieuw:</p>
      <ul>
        <li>
-         <p>Select or Prime Workfront Plan: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
+         <p>Selecteer of Prime Workfront Plan: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
        </li>
        <li> 
          <p>Ultimate Workfront Plan: Workfront Fusion is inbegrepen.</p>
@@ -93,7 +93,7 @@ Als u in Workfront Fusion een project wilt maken dat Adobe Experience Manager-wo
 1. Voeg de **Workfront** > **Diverse module van de Actie** aan uw scenario toe.
 1. Op het **gebied van de Verbinding**, selecteer de verbinding van Workfront die met de rekening verbindt deze module zal gebruiken.
 
-   Voor instructies bij het creëren van een verbinding, zie [  [!DNL Workfront]  verbinden met  [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#connect-workfront-to-workfront-fusion) in de modules van artikelWorkfront.
+   Voor instructies bij het creëren van een verbinding, zie [  [!DNL Workfront]  verbinden  [!DNL Workfront Fusion] ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) in de modules van artikelWorkfront.
 
    Voor instructies bij het creëren van identiteitskaart van de Cliënt en Geheime cliënt zult u een verbinding moeten creëren, zie [ een toepassing OAuth ](#create-an-oauth-application) in dit artikel creëren.
 
@@ -175,4 +175,4 @@ Voor de verbinding van deze module moet u in Workfront een OAuth-toepassing inst
 
 U zult deze identiteitskaart van de Cliënt en het geheim van de Cliënt gebruiken wanneer het vormen van de verbinding van de module in Fusion.
 
-Voor instructies bij het creëren van een verbinding, zie [  [!DNL Workfront]  verbinden met  [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#connect-workfront-to-workfront-fusion) in de modules van artikelWorkfront.
+Voor instructies bij het creëren van een verbinding, zie [  [!DNL Workfront]  verbinden  [!DNL Workfront Fusion] ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) in de modules van artikelWorkfront.

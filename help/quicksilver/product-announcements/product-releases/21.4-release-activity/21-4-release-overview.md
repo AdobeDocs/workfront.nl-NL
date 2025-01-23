@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0897b269-c6f3-4b63-8956-b7f9fbe0a553
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
 workflow-type: tm+mt
-source-wordcount: '4717'
+source-wordcount: '4718'
 ht-degree: 0%
 
 ---
@@ -141,7 +141,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-admin-enhancements.md#when" class="MCXref xref" xrefformat="{para}"> wanneer het associëren van een malplaatje met een groep, selecteer een proces van de groepsgoedkeuring in de Details van de Rij en de Onderwerpen van de Rij </a> </p> <p>We hebben een nieuwe optie toegevoegd aan het proces waarbij een sjabloon aan een groep wordt gekoppeld. Nu kunt u groep-specifieke goedkeuringsprocessen voor kwesties in de Details van de Rij van het malplaatje of in één van zijn Onderwerpen van de Rij selecteren.</p> <p>In 21.3, toen wij de capaciteit toevoegden om een groepsmalplaatje met een groep te associëren, kon u een groep-specifiek goedkeuringsproces in het malplaatje selecteren, maar u kon dit niet in de Details van de Rij van het malplaatje of de Onderwerpen van de Rij doen.</p> </td> 
-   <td><strong> Beschikbaar op deze data:</strong> <p>Voorvertoningsrelease: 1 juli 2021<br></p> <p>Productieversie: met de 21.4-versie</p> <p><strong> Beschikbaar in deze milieu's:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> <p>Adobe Workfront Classic </p> </td> 
+   <td><strong> Beschikbaar op deze data:</strong> <p>Voorvertoningsrelease: 1 juli 2021<br></p> <p>Productieversie: met de release van 21.4</p> <p><strong> Beschikbaar in deze milieu's:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -244,8 +244,8 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
    <td> <p><strong> de data en de milieu's van de Versie </strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-agile-enhancements.md#user" class="MCXref xref" xrefformat="{para}"> de taken van de Gebruiker op Kanban en de Borden van de Trommel </a> </p> <p>We hebben de kaarten met verhalen op Kanban- en Scrum-boards bijgewerkt om het gemakkelijker te maken om een gebruiker aan het verhaal toe te wijzen. U kunt nu op een team of een gebruikersavatar klikken om een toewijzing toe te voegen wanneer de artikelkaart wordt uitgevouwen. Eerder moest u een apart plusteken vinden en hierop klikken.</p> </td> 
-   <td> <p>Voorvertoningsrelease: 9 september 2021 <br></p> <p>Productieversie: met de 21.4-versie</p> <p><strong> Beschikbaar in deze milieu's:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-agile-enhancements.md#user" class="MCXref xref" xrefformat="{para}"> de taken van de Gebruiker op Kanban en de Borden van de Trommel </a> </p> <p>We hebben de artikelkaarten op Kanban- en Scrum-borden bijgewerkt om het gemakkelijker te maken om een gebruiker aan het artikel toe te wijzen. Nu kunt u op een team of gebruikersavatar klikken om een toewijzing toe te voegen wanneer de artikelkaart wordt uitgevouwen. Eerder moest u van een afzonderlijk plusteken de plaats bepalen en klikken.</p> </td> 
+   <td> <p>Voorvertoning release: 9 september 2021 <br></p> <p>Productieversie: met de release van 21.4</p> <p><strong> Beschikbaar in deze milieu's:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-agile-enhancements.md#configur" class="MCXref xref" xrefformat="{para}"> vormt hoe de data worden toegepast wanneer het toevoegen van het werkpunten aan een herhaling van het Trommel </a> </p> <p>Wanneer u een werkitem aan een herhaling toevoegt, worden de geplande begindatum en de geplande voltooiingsdatum voor het werkitem standaard gewijzigd zodat deze overeenkomen met het begin en de datum van de herhaling. Nu kunt u verkiezen om de originele Geplande Datum van het Begin en Geplande Datum van de Voltooiing op alle het werkpunten voor een team te houden.</p> <p>Deze optie is alleen van toepassing op rumteams en niet op Kanban-teams.</p> </td> 
@@ -301,7 +301,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-requests-enhancements.md#improved" class="MCXref xref" xrefformat="{para}"> Verbeterd onderzoek naar verzoeken omvat nu speciale karakters </a> </p> <p>Om het vinden verzoekrijen sneller en gemakkelijker te maken wanneer het voorleggen van verzoeken, hebben wij het onderzoeksalgoritme verbeterd om rijen nu te vinden die om het even welke speciale karakters zouden kunnen bevatten.</p> <p>U kunt bijvoorbeeld een aanvraagwachtrij met de naam "*Workfront" vinden door "*Workfront" of "Workfront" te typen in het veld Request Type.</p> <p>Alle speciale tekens worden ondersteund.</p> </td> 
-   <td><strong> Beschikbaar op deze data:</strong> <p>Voorvertoningsrelease: 9 september 2021<br></p> <p>Productieversie: met de 21.4-versie</p> <p><strong> Beschikbaar in deze milieu's:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> </td> 
+   <td><strong> Beschikbaar op deze data:</strong> <p>Voorvertoning release: 9 september 2021<br></p> <p>Productieversie: met de release van 21.4</p> <p><strong> Beschikbaar in deze milieu's:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-requests-enhancements.md#new" class="MCXref xref" xrefformat="{para}"> Nieuwe blik en voelt voor ingebedde verzoekrijen in de nieuwe ervaring van Workfront </a> </p> <p>Om de blik en het gevoel te houden voor het voorleggen van verzoeken het zelfde overal in de nieuwe ervaring van Workfront, hebben wij de interface voor het toevoegen van verzoeken aan een ingebedde verzoekrij opnieuw ontworpen. Voorafgaand aan deze verbetering, paste de interface voor het toevoegen van verzoeken van een dashboard de klassieke milieu van Workfront aan.</p> </td> 
@@ -355,7 +355,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
    <td><strong> Beschikbaar op deze data:</strong> <p>Voorvertoningsrelease: 29 juli 2021<br></p> <p>Productieversie: 29 juli 2021</p> <p><strong> Beschikbaar in deze milieu's:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-integration-enhancements.md#api" class="MCXref xref" xrefformat="{para}"> API zeer belangrijke authentificatie niet meer noodzakelijk voor integraties </a> </p> <p>Workfront-integratie is onlangs begonnen met het gebruik van OAuth2 voor meer veiligheid en bruikbaarheid. Als onderdeel van deze stap vereist Workfront niet langer API-sleutels voor integratieverificatie.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-integration-enhancements.md#api" class="MCXref xref" xrefformat="{para}"> API zeer belangrijke authentificatie niet meer noodzakelijk voor integratie </a> </p> <p>Workfront-integratie is onlangs begonnen met het gebruik van OAuth2 voor meer veiligheid en bruikbaarheid. Als onderdeel van deze stap vereist Workfront niet langer API-sleutels voor integratieverificatie.</p> </td> 
    <td><strong> Beschikbaar op deze data:</strong> <p>Voorvertoningsrelease: 5 augustus 2021<br></p> <p>Productieversie: 5 augustus 2021</p> <p><strong> Beschikbaar in deze milieu's:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 
@@ -413,7 +413,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
 
 ## Workfront Fusion-verbeteringen
 
-Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de releaseplanning van 21.4. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de releaseplanning van 21.4. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ## Verbeteringen in Workfront Scenario Planner
 

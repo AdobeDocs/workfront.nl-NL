@@ -7,9 +7,9 @@ description: Verschillende functies worden geleidelijk uit het Adobe Workfront-p
 author: Luke
 feature: Product Announcements
 exl-id: 119d65c7-2925-4b36-832a-ee06a718ce7e
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '259'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Verschillende functies worden geleidelijk uit het Adobe Workfront-product verwij
    <td> <p>Niet meer ondersteund op 9 november 2020 (met de release 20.4)</p> <p>—</p> <p>Verwijderd van het Workfront-platform na de eerste helft van 2022</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Verouderde Workfront Fusion</p> <p>Workfront Fusion biedt een verbeterde ervaring met Legacy Workfront Fusion.</p> <p>Voor meer informatie over de Fusie van Workfront, zie <a href="../../workfront-fusion/workfront-fusion-2.md" class="MCXref xref"> de Fusie van Adobe Workfront </a>.</p> </td> 
+   <td> <p>Verouderde Workfront Fusion</p> <p>Workfront Fusion biedt een verbeterde ervaring met Legacy Workfront Fusion.</p> <p>Voor meer informatie over de Fusie van Workfront, zie <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home"> de Fusie van Adobe Workfront </a>.</p> </td> 
    <td> </td> 
    <td>Op 31 maart 2021 is het Workfront-platform verwijderd</td> 
   </tr> 

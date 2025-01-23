@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
+source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
 workflow-type: tm+mt
-source-wordcount: '1830'
+source-wordcount: '1831'
 ht-degree: 0%
 
 ---
@@ -499,7 +499,7 @@ Het levende 24.7 versiewebinar werd geannuleerd, maar u kunt nog [ op een videod
 
 ### Workfront Fusion-verbeteringen
 
-De nieuwe eigenschappen in Workfront Fusion zijn beschikbaar in Productie bij een kadence buiten het Derde Kwart de versieschema van 2024. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+De nieuwe eigenschappen in Workfront Fusion zijn beschikbaar in Productie bij een kadence buiten het Derde Kwart de versieschema van 2024. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Verbeteringen in Workfront Scenario Planner
 
