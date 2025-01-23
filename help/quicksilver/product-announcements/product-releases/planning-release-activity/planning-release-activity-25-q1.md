@@ -7,33 +7,20 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
+source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
 workflow-type: tm+mt
-source-wordcount: '2182'
+source-wordcount: '2112'
 ht-degree: 0%
 
 ---
 
 # Eerste kwartaal van 2025: releaseactiviteit voor Adobe Workfront Planning
 
-<!--remove this important intro after the 25.1 release-->
-
->[!IMPORTANT]
->
->De informatie in dit artikel verwijst naar Adobe Workfront Planning, een nieuwe aanbieding van Adobe Workfront.
->
->U moet een Workfront-planningsplan aanschaffen, in aanvulling op een Workfront-plan om toegang te krijgen tot Workfront-planningsmogelijkheden en deze te kunnen gebruiken.
->
->Voor een volledige lijst van vereisten om tot de Planning van Workfront toegang te hebben, zie [ Overzicht van de Toegang ](/help/quicksilver/planning/access/access-overview.md).
->Voor een overzicht van de Planning van Workfront, zie [ het Overzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
-
 In dit artikel worden de functies beschreven die tijdens de release Eerste kwartaal van 2025 beschikbaar zijn voor Workfront Planning.
 
 <!--keep the sentence below for all future quarterly release pages-->
-<!--remove the general activity mention after First Quarter 2025 is released-->
 
-Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront na de algemene beschikbaarheidsversie op 28 augustus, 2024 worden vrijgegeven, zie [ de versieactiviteit van de Planning van Adobe Workfront: artikelindex ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
-
+Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront worden vrijgegeven, zie [ de versieactiviteit van de Planning van Adobe Workfront: artikelindex ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
 ## Verbindingsvelden met Adobe Experience Manager-elementen worden nu ondersteund in aanvraagformulieren
 

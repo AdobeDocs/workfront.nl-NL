@@ -3,13 +3,11 @@ title: Interface-updates
 description: Deze pagina bevat een overzicht van de interface-updates die we in Adobe Workfront uitvoeren om de gebruikerservaring te verbeteren en deze te verenigen met andere Adobe-toepassingen.
 author: Nolan
 feature: Product Announcements
-hidefromtoc: true
-hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
+source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
@@ -28,7 +26,7 @@ Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Pr
 
 ### Interface-update voor dialoogvenster SharePoint toevoegen
 
-**de versie van de Voorproef: 16 Januari, 2025; De versie van de Productie: TBD**
+**de versie van de Voorproef: 16 Januari, 2025; De versie van de productie: Te aankondigen**
 
 We hebben het dialoogvenster SharePoint toevoegen in Setup > Documenten > SharePoint-integratie bijgewerkt met een modern ontwerp dat consistent is met andere gebieden van Workfront.
 
@@ -36,7 +34,7 @@ Deze update bevat visuele wijzigingen in het gebied. Er is geen functionaliteit 
 
 ### De update van de interface voor het gebied van Goedkeuringen in de Opstelling
 
-**de versie van de Voorproef: 16 Januari, 2025; De versie van de Productie: TBD**
+**de versie van de Voorproef: 16 Januari, 2025; De versie van de productie: Te aankondigen**
 
 We hebben de lijsten met projecten, taken en goedkeuringen voor uitgaven bijgewerkt in Setup > Processen > Goedkeuringen met een modern ontwerp dat aansluit bij andere onderdelen van Workfront.
 
@@ -44,9 +42,19 @@ Deze update bevat visuele wijzigingen in het gebied. Er is geen functionaliteit 
 
 ## Rapporten en dashboards
 
+### Bijgewerkt iteratierapport met nieuwe opmaak
+
+**de versie van de Voorproef: 17 Januari, 2025; De versie van de productie: Te aankondigen**
+
+We hebben het Interferation-rapport bijgewerkt met een modernere opzet die aansluit bij andere gebieden van Workfront.
+
+Deze update bevat visuele wijzigingen in het rapport. Er is geen functionaliteit gewijzigd.
+
+Als u een iteratierapport wilt maken, gaat u naar Rapporten > Nieuw rapport > Herhaling.
+
 ### Bijgewerkte goedkeuringsrapporten met nieuwe opmaak
 
-**de versie van de Voorproef: 16 Januari, 2025; De versie van de Productie: TBD**
+**de versie van de Voorproef: 16 Januari, 2025; De versie van de productie: Te aankondigen**
 
 We hebben de interface van de volgende goedkeuringsrapporten bijgewerkt:
 

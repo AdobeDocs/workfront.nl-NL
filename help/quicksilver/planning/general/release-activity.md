@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
 workflow-type: tm+mt
-source-wordcount: '7488'
+source-wordcount: '7392'
 ht-degree: 0%
 
 ---
@@ -18,22 +18,9 @@ ht-degree: 0%
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
->[!IMPORTANT]
->
-><span class="preview"> Dit artikel maakt een lijst van de eigenschappen die tijdens de vroege fase voor de Planning van Workfront, in 2024, voorafgaand aan de algemene beschikbaarheidsversie op 28 augustus, 2024 werden vrijgegeven.</span>
->
->De informatie in dit artikel verwijst naar Adobe Workfront Planning, een extra mogelijkheid van Adobe Workfront.
->
->U moet een Workfront-planningsplan aanschaffen, in aanvulling op een Workfront-plan om toegang te krijgen tot Workfront-planningsmogelijkheden en deze te kunnen gebruiken.
->
->Voor een volledige lijst van vereisten om tot de Planning van Workfront toegang te hebben, zie [ de toegangsoverzicht van de Planning van de Adobe ](/help/quicksilver/planning/access/access-overview.md).
->Voor een overzicht van de Planning van Workfront, zie [ het Overzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
->
+In dit artikel worden de functies weergegeven die in de beginfase van Workfront Planning zijn uitgebracht in 2024, voorafgaand aan de algemene beschikbaarheidsrelease op 28 augustus 2024.
 
-Raadpleeg ook de volgende artikelen voor meer informatie over Workfront Planning-releases:
-
-* [ de versieactiviteit van de Planning van Adobe Workfront voor 2023 ](/help/quicksilver/planning/general/release-activity-archives-2023.md) voor eigenschappen die tijdens de bètaversie, tijdens 2023 worden vrijgegeven.
-* [ de versieactiviteit van de Planning van Adobe Workfront: artikelindex ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) voor eigenschappen momenteel vrijgegeven aan de Planning van Workfront, nadat het algemeen beschikbaar werd gemaakt op 28 augustus 2024.
+Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront worden vrijgegeven, zie [ de versieactiviteit van de Planning van Adobe Workfront: artikelindex ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
 ## Tijdlijn release Workfront Planning
 

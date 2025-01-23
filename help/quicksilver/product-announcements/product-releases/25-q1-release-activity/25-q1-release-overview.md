@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: 46faf723ea7a8e9dfa02c0f2bed1f5f450976fc8
 workflow-type: tm+mt
-source-wordcount: '2782'
+source-wordcount: '2775'
 ht-degree: 0%
 
 ---
@@ -614,14 +614,13 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Bijgewerkte ervaring met opmerkingen in de widget Onthoudingen en Mijn updates</a></p>
-            [!BADGE in productie ]{type=Informative}
             <p>We werken de opmerkingervaring bij in de widget voor herinneringen in Home en de sectie voor opmerkingen in het gedeelte Mijn updates. Dezelfde ervaring in het gedeelte Updates van de meeste Workfront-objecten is nu ook beschikbaar in de widget Notities en in de sectie Notities van Mijn updates.</p>
         </td>
         <td>
             <p><b>Beschikbaar op deze data:</b></p>
             <ul>
                 <li>Voorvertoningsrelease: 19 december 2024</li>
-                <li>Productieversie voor alle klanten: met de release van 25.1 (16 januari 2025)</li>
+                <li>Productieversie voor alle afnemers: Te publiceren</li>
             </ul>
         </td>
     </tr>
