@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 9db8ea3f26dd7e8b4c8aa52fb9902832db7a6a5c
 workflow-type: tm+mt
-source-wordcount: '1889'
+source-wordcount: '2007'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # Records bewerken
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 {{planning-important-intro}}
 
@@ -243,6 +243,16 @@ Voor meer informatie, zie [ verslagmeningen ](/help/quicksilver/planning/views/m
 
      ![](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
 
+   <div class="preview">
+
+   * Kopieer een of meerdere cellen van een externe bron (bijvoorbeeld een Excel-bestand) en plak ze in een van de volgende veldtypen:
+
+      * Workfront Planning connection fields.
+      * Personenvelden. Alleen velden met één waarde worden ondersteund.
+
+     U kunt geen informatie van een externe bron kopiëren en deze in andere veldtypen plakken, zoals Workfront- of AEM Assets-verbindingsvelden.
+   </div>
+
    >[!NOTE]
    >
    >Overweeg het volgende:
@@ -254,8 +264,7 @@ Voor meer informatie, zie [ verslagmeningen ](/help/quicksilver/planning/views/m
    >* U kunt geen veldwaarden kopiëren en plakken op de recordpagina. Deze functionaliteit wordt alleen ondersteund in de tabelweergave van een recordtype.
    >* U kunt geen veldwaarden kopiëren en plakken voor de volgende veldtypen:
    >
-   >
-   >    * Gekoppelde velden (of opzoekvelden) die worden gemaakt door het verbinden van recordtypen. U kunt gekoppelde recordvelden kopiëren en plakken. Voor meer informatie, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >    * Velden opzoeken die worden gemaakt bij het verbinden van recordtypen. U kunt gekoppelde recordvelden kopiëren en plakken. Voor meer informatie, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
    >    * Velden van de volgende typen: Gemaakt door, Gemaakt op, Laatst gewijzigd door, Datum Laatst gewijzigd
 
 1. (Optioneel) Gebruik de volgende sneltoetsen om het bewerken of kopiëren en plakken van recordgegevens ongedaan te maken of opnieuw uit te voeren:
