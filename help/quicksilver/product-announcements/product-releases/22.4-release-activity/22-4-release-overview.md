@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
 workflow-type: tm+mt
-source-wordcount: '3271'
+source-wordcount: '3272'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Deze pagina bevat informatie over functionaliteit die is opgenomen in de release
 
 Deze verbeteringen zijn beschikbaar gesteld in de productieomgeving met de release 22,4 op 6 en 7 oktober 2022.
 
-## Verbeteringen voor Adobe Workfront
+## Adobe Workfront Fusion
 
 * [Beheerdersverbeteringen](#administrator-enhancements)
 
@@ -664,19 +664,19 @@ Campagnes zijn in juli 2022 vrijgegeven voor Preview beta met de release 22.3.</
 
     &lt;/td> 
      &lt;p>&lt;b>Beschikbaar op deze data:&lt;/b>&lt;/p> 
-     &lt;ul> 
+     &lt;ul>
      &lt;li> 
-     &lt;p>Voorproefversie:&amp;#160;Door 22.4 versietimeframe&lt;br />&lt;/p> 
-    &lt;/li> 
-     &lt;li> 
-     &lt;p>Productieversie:&amp;#160;TBD&lt;/p>
-    &lt;/li> 
-    &lt;/ul> 
-    &lt;/td> 
+     &lt;p>Voorproefversie:&amp;#GenStudio for Performance Marketers&amp;-160;Through the 2.4 release timeframe&lt;br />&lt;/p>
+    &lt;/li>
+     &lt;li>
+     &lt;p>Production release:&amp;#GenStudio for Performance Marketers&amp;-160;TBD&lt;/p>
+    &lt;/li>
+    &lt;/ul>
+    &lt;/td>
     &lt;/tr> 
      &lt;tr> 
      &lt;td> 
-     &lt;a href=&quot;../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Uitgebreide teambeschrijving&lt;/a>&lt;/p> 
+     &lt;a href= &quot;../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md&quot; class=&quot;MCXref xref xrefformat=&quot;{para}&quot;>Uitgebreide teambeschrijving&lt;/a>&lt;/p> 
      &lt;p>In het gebied van Teams, kunt u de volledige teambeschrijving nu bekijken door de beschrijving te klikken om het in pop-up te tonen. U kunt op URL&#39;s in de beschrijving klikken in het pop-upvenster en in de beschrijvingstekst klikken om deze te bewerken (als u toegang hebt om de teaminstellingen te bewerken).&lt;/p> 
      &lt;p>Eerder, scrollend door de beschrijving in een smal gebied was de enige manier om alle inhoud te zien.&lt;/p>
 <p>Deze verbetering van de beschrijving is van toepassing op zowel mobiele als niet-flexibele teams.</p>
@@ -710,7 +710,7 @@ Met deze upgrade biedt de Desktop Proofing Viewer ondersteuning voor Chrome vers
 
 ### Workfront Fusion-verbeteringen
 
-Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de releaseplanning van 22.4. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de releaseplanning van 22.4. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Verbeteringen in WorkfrontScenario-planner
 
