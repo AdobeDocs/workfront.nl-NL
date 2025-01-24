@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 90405d79f605d788331cb7a04ebf354dc4379bf5
 workflow-type: tm+mt
-source-wordcount: '2217'
+source-wordcount: '2249'
 ht-degree: 0%
 
 ---
@@ -246,13 +246,6 @@ Configureer een of meer van de volgende voorkeuren voor nieuwe projecten in het 
  </tbody> 
 </table>
 
-
-
-
-
-
-
-
 ### [!UICONTROL Business Cases] {#business-cases}
 
 U kunt een BedrijfsGeval voor pas gecreëerde projecten door het systeem tot stand brengen om projectverzoeken voor te leggen. U kunt voorkeuren definiëren om te bepalen welke gebieden zichtbaar zijn op het **[!UICONTROL Business Case]** -formulier. We raden u aan deze opties in te schakelen, zodat andere gereedschappen, zoals de [!UICONTROL Portfolio Optimizer] , correct worden bijgewerkt. Voor meer informatie over wat elke gebiedsvertoningen, zie [ een BedrijfsGeval bepalen: artikelindex ](../../../manage-work/projects/define-a-business-case/define-business-case.md).
@@ -279,11 +272,12 @@ Configureer een of meer van de volgende voorkeuren voor nieuwe projecten in het 
    <td role="rowheader"> <p>[!UICONTROL After a Project is marked Complete, Dead, or it is Pending Approval, people can still]</p> </td> 
    <td> <p>Bepaal de regels voor uw organisatie (of groep, als u projectvoorkeur voor een groep) betreffende wat met taken, kwesties, documenten, en andere voorwerpen in een project gebeurt nadat de projectstatus <strong>[!UICONTROL Complete]</strong> is gemerkt, <strong>[!UICONTROL Dead]</strong>, of is <strong>[!UICONTROL Pending Approval]</strong>.</p> 
     <ul> 
-     <li><strong>[!UICONTROL Add and edit tasks]</strong> Hiermee kunnen gebruikers:
+     <li><strong>[!UICONTROL Add and edit tasks:]</strong> Hiermee kunnen gebruikers:
       <ul>
-       <li>Taken in een project bewerken nadat het project is gemarkeerd als [!UICONTROL Complete] , [!UICONTROL Dead] of [!UICONTROL Pending Approval] . Dit omvat het toevoegen van uren en het veranderen van uitgaveningangen op een taak.</li>
+       <li><p>Taken in een project bewerken nadat het project is gemarkeerd als [!UICONTROL Complete] , [!UICONTROL Dead] of [!UICONTROL Pending Approval] .</p>
+           <p>Opmerking: zelfs als deze optie niet is geselecteerd, kunnen gebruikers uitgaven-items toevoegen en bewerken. Logboekuren hebben een andere instelling. Om gebruikers toe te staan of te verhinderen tijd op projecten met een Volledige of Dode status te registreren, zie <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md"> timesheet en uurvoorkeur </a> vormen.</p></li>
        <li>Voeg taken aan een project toe.</li>
-      </ul></li> 
+      </ul></li>
      <li><strong>[!UICONTROL Add and edit issues]</strong>: Hiermee kunnen gebruikers:
       <ul>
        <li>Bewerk problemen in een project nadat het project is gemarkeerd als [!UICONTROL Complete] , [!UICONTROL Dead] of [!UICONTROL Pending Approval] .</li>
