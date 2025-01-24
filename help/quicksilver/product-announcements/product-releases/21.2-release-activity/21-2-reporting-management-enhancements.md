@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1d5f76ef-bea7-4630-8051-454b0d109341
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -80,5 +80,5 @@ U kunt dit rapport bijvoorbeeld zo instellen dat activiteit wordt weergegeven ro
 
 Eerder kon u alleen via de Workfront API rapporteren over systeemupdates.
 
-Meer over dit rapport leren en wat u het kunt gebruiken, zie [ Rapport over het gebied van Updates ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+Meer over dit rapport leren en wat u het kunt gebruiken, zie [ Rapport over het gebied van Updates met een rapport van de Ingang van het Dagboek ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 

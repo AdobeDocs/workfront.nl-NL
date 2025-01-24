@@ -1,18 +1,18 @@
 ---
-title: Rapport over het gebied Updates
+title: Rapport van het Gebied van Updates met een Rapport van de Ingang van het Dagboek
 description: Het rapport Dagboekingang bevat systeemupdates van het gebied Updates van projecten, taken, problemen en andere objecten die voorheen alleen beschikbaar waren via de Adobe Workfront API. Hoewel dit een geavanceerd rapport is dat is bedoeld voor specifieke gebruiksgevallen, maakt het verteerbaardere formaat het voor u gemakkelijker om over projectactiviteit en systeemupdates binnen Workfront te rapporteren.
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '2737'
+source-wordcount: '2747'
 ht-degree: 0%
 
 ---
 
-# Rapport over het gebied Updates
+# Rapport over het gebied van Updates met een Rapport van de Ingang van het Dagboek
 
 <!-- Audited: 11/2024 -->
 

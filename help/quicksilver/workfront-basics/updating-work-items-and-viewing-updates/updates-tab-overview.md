@@ -7,9 +7,9 @@ description: In de sectie Updates van een object worden opmerkingen weergegeven 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 6327e5625481ce7ff8d744bc6eb50d417cbb4413
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1095'
 ht-degree: 0%
 
 ---
@@ -345,4 +345,4 @@ Met het rapport kunt u zien:
 * Indien de prioriteit tijdens een project is gewijzigd
 * Als de eigenaar van een project is gewijzigd
 
-Voor meer informatie, zie [ Rapport over het gebied van Updates ](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+Voor meer informatie, zie [ Rapport over het gebied van Updates met een rapport van de Ingang van het Dagboek ](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).

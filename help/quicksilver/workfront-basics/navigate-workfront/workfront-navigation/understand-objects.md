@@ -6,9 +6,9 @@ description: De informatie u in  [!DNL Adobe Workfront]  toont wordt vertegenwoo
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: 25939493f6ffed31ae1bdaf26d417ce4e5e5c004
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '2127'
+source-wordcount: '2133'
 ht-degree: 0%
 
 ---
@@ -283,7 +283,7 @@ U kunt de volgende objecten rapporteren wanneer u de rapportbuilder in de [!DNL 
 * [!UICONTROL Iteration]
 * [!UICONTROL Job Role]
 * [!UICONTROL Journal Entry]
-   * U kunt meldingen weergeven over bijgehouden systeemupdates in het [!UICONTROL Updates] -gebied van objecten zoals taken, projecten, problemen, enzovoort. Voor meer informatie, zie [ Rapport over het [!UICONTROL Updates] gebied ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+   * U kunt meldingen weergeven over bijgehouden systeemupdates in het [!UICONTROL Updates] -gebied van objecten zoals taken, projecten, problemen, enzovoort. Voor meer informatie, zie [ Rapport over het gebied van Updates met een rapport van de Ingang van het Dagboek ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 
 * [!UICONTROL Layout Template]
 * [!UICONTROL Milestone]

@@ -6,9 +6,9 @@ description: De  [!DNL Adobe Workfront]  verklarende woordenlijst lijsten algeme
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '17356'
+source-wordcount: '17362'
 ht-degree: 0%
 
 ---
@@ -1168,7 +1168,7 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>[!UICONTROL Journal Entry]</p> </td> 
-   <td> <p>Een te rapporteren object dat u informatie geeft over systeemupdates voor bijgehouden velden die worden weergegeven in het gebied [!UICONTROL Updates] met projecten, taken, problemen en andere objecten.</p> <p>Meer leren, zie <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md" class="MCXref xref"> Rapport over het [!UICONTROL Updates] gebied </a>.</p> </td> 
+   <td> <p>Een te rapporteren object dat u informatie geeft over systeemupdates voor bijgehouden velden die worden weergegeven in het gebied [!UICONTROL Updates] met projecten, taken, problemen en andere objecten.</p> <p>Meer leren, zie <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md" class="MCXref xref"> Rapport over het gebied van Updates met een rapport van de Ingang van het Dagboek </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Kanban Flag]</td> 

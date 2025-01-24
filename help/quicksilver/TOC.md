@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 46faf723ea7a8e9dfa02c0f2bed1f5f450976fc8
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '13008'
+source-wordcount: '13013'
 ht-degree: 0%
 
 ---
@@ -1538,7 +1538,7 @@ ht-degree: 0%
          * [Rapporten met financiële gegevens maken met unieke wisselkoersen](reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)
          * [Rapportinstellingen bewerken](reports-and-dashboards/reports/creating-and-managing-reports/edit-report-settings.md)
          * [De eigenaar van een rapport wijzigen](reports-and-dashboards/reports/creating-and-managing-reports/change-owner-report.md)
-         * [Rapport over het gebied Updates](reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)
+         * [Rapport over het gebied van Updates met een Rapport van de Ingang van het Dagboek](reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)
          * [Een gebruikersdelegatierapport maken](reports-and-dashboards/reports/creating-and-managing-reports/create-user-delegation-report.md)
       * Berekende aangepaste gegevens in rapporten {#calculated-custom-data}
          * [Berekende aangepaste gegevens in rapporten](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
