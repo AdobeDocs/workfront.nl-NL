@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
+source-git-commit: 5620b1023e5708b7acf3aa2304b28a83112dbe55
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '807'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,65 @@ Deze pagina bevat een overzicht van de interface-updates die we in Adobe Workfro
 Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product ](/help/quicksilver/product-announcements/product-releases/product-releases.md).[
 
 ## Beheer en installatie
+
+### Interface-update voor de pagina Proefrollen in Setup
+
+**de versie van de Voorproef: 23 Januari, 2025; De versie van de productie: Te aankondigen**
+
+We hebben de look-and-feel van de pagina met proefdrukken van rollen bijgewerkt met een modern ontwerp dat aansluit bij andere gebieden van Workfront.
+
+In plaats van keuzerondjes te selecteren, gebruikt u nu vervolgkeuzemenu&#39;s om proefdrukrollen te kiezen voor nieuwe en gastgebruikers.
+
+Ga naar Instellingen > Revisie en goedkeuring om deze wijziging weer te geven.
+
+### Interface-update voor de pagina Automatische herinneringen in Setup
+
+**de versie van de Voorproef: 23 Januari, 2025; De versie van de productie: Te aankondigen**
+
+We hebben de pagina Automatische herinneringen bijgewerkt met een moderner ontwerp dat aansluit bij andere gebieden van Workfront.
+Ga naar Instellen > E-mail > Automatische herinneringen om deze pagina weer te geven.
+Deze update bevat visuele wijzigingen in het gebied. Er is geen functionaliteit gewijzigd.
+
+### Interface-update voor de pagina E-mailsjablonen in Setup
+
+**de versie van de Voorproef: 23 Januari, 2025; De versie van de productie: Te aankondigen**
+
+We hebben de pagina E-mailsjablonen bijgewerkt met een moderner ontwerp dat aansluit bij andere gebieden van Workfront.
+
+In plaats van rechtstreeks op de sjabloonnaam te klikken om de sjabloon te bewerken, moet u het selectievakje inschakelen en vervolgens op het pictogram Bewerken op de werkbalk klikken.
+
+Ga naar Instellingen > E-mail > Meldingen > E-mailsjablonen om deze pagina weer te geven.
+
+### Interface-update voor de pagina E-mailuitnodigingen in Setup
+
+**de versie van de Voorproef: 23 Januari, 2025; De versie van de productie: Te aankondigen**
+
+We hebben de e-mailuitnodigingspagina bijgewerkt met een modernere opzet die aansluit bij andere gebieden van Workfront.
+
+Ga naar Instellingen > E-mail > Uitnodigingen om deze pagina weer te geven.
+
+Deze update bevat visuele wijzigingen in het gebied. Er is geen functionaliteit gewijzigd.
+
+### Interface-updates voor de pagina Gebeurtenismeldingen in een groep
+
+**de versie van de Voorproef: 23 Januari, 2025; De versie van de productie: Te aankondigen**
+
+We hebben de pagina Gebeurtenismelding in een groep bijgewerkt met een moderner ontwerp dat consistent is met andere gebieden van Workfront.
+
+Ga naar Setup > Groepen > Een groep selecteren > Gebeurtenismeldingen om deze pagina weer te geven
+
+Deze update bevat kleine visuele wijzigingen in het gebied. Er is geen functionaliteit gewijzigd.
+
+
+### Interface-updates voor het tabblad Herinneringsmeldingen in Setup
+
+**de versie van de Voorproef: 23 Januari, 2025; De versie van de productie: Te aankondigen**
+
+Het tabblad Meldingen voor herinneringen en de dialoogvensters voor toevoegen en bewerken zijn bijgewerkt met een modern ontwerp dat aansluit bij andere gebieden van Workfront.
+
+In plaats van rechtstreeks op de berichtnaam te klikken om het bericht uit te geven, moet u checkbox selecteren, dan klik uitgeven pictogram in de toolbar.
+
+Ga naar Instellingen > E-mail > Meldingen > Herinneringsmeldingen om deze pagina weer te geven.
 
 ### Interface-update voor dialoogvenster SharePoint toevoegen
 
@@ -42,6 +101,17 @@ Deze update bevat visuele wijzigingen in het gebied. Er is geen functionaliteit 
 
 ## Rapporten en dashboards
 
+## Bijgewerkte e-mailrapporten met nieuwe opmaak
+
+**de versie van de Voorproef: 23 Januari, 2025; De versie van de productie: Te aankondigen**
+
+De interface van de volgende e-mailrapporten is bijgewerkt:
+
+* E-mailsjabloonrapport
+* Meldingsrapport herinnering
+
+Deze update bevat visuele wijzigingen in het gebied. Er is geen functionaliteit gewijzigd.
+
 ### Bijgewerkt iteratierapport met nieuwe opmaak
 
 **de versie van de Voorproef: 17 Januari, 2025; De versie van de productie: Te aankondigen**
@@ -54,7 +124,7 @@ Als u een iteratierapport wilt maken, gaat u naar Rapporten > Nieuw rapport > He
 
 ### Bijgewerkte goedkeuringsrapporten met nieuwe opmaak
 
-**de versie van de Voorproef: 16 Januari, 2025; De versie van de productie: Te aankondigen**
+**de versie van de Voorproef: 16 Januari, 2025; De versie van de Productie: Beginnend de week van 20 Januari, 2025**
 
 We hebben de interface van de volgende goedkeuringsrapporten bijgewerkt:
 
@@ -66,7 +136,7 @@ Deze updates bevatten visuele wijzigingen in het gebied. Er is geen functionalit
 
 ### Tekstmodus voor filters en groepen
 
-**de versie van de Voorproef: 9 Januari, 2025; De versie van de Productie: Begin 9 Januari, 2025**
+**de versie van de Voorproef: 9 Januari, 2025; De versie van de Productie: Beginnend de week van 6 Januari, 2025**
 
 Er is een nieuwe knop Tekstmodus bewerken en modaal bewerken toegevoegd aan de volgende gebieden:
 
