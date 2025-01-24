@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
+source-git-commit: bb81e32263348128b7661db6102ad5ac14e9a434
 workflow-type: tm+mt
-source-wordcount: '1720'
+source-wordcount: '1710'
 ht-degree: 0%
 
 ---
@@ -118,11 +118,11 @@ Via een URL toegang krijgen tot uw aangepaste sandbox Vernieuwen:
 
 1. Navigeer naar deze URL als u slechts één aangepaste vernieuwingssandbox hebt:
 
-   https://companyname.sb01.workfront.com (oude URL :https: /cr1.attasksandbox.com/.)
+   `https://companyname.sb01.workfront.com` (oude URL:`https://cr1.attasksandbox.com/`.)
 
    Of als u twee aangepaste vernieuwingssandboxen hebt, in aanvulling op de bovenstaande URL&#39;s, kunt u ook naar de volgende URL gaan om toegang te krijgen tot uw tweede aangepaste vernieuwingssandbox:
 
-   https://companyname.sb02.workfront.com (oude URL :https: /cr2.attasksandbox.com/)
+   `https://companyname.sb02.workfront.com` (oude URL:`https://cr2.attasksandbox.com/`)
 
 1. Meld u in het aanmeldingsscherm aan met uw aanmeldingsgegevens voor Aangepast vernieuwen in sandbox.
 1. Uw referenties voor Aangepaste sandbox vernieuwen zijn gelijk aan de gegevens voor uw productie, tenzij u uw productiereferenties hebt gewijzigd sinds de aangepaste sandbox voor het vernieuwen van uw product voor het laatst is vernieuwd. De logins worden alleen gesynchroniseerd wanneer het vernieuwen plaatsvindt. Ze worden niet automatisch gesynchroniseerd.
@@ -137,15 +137,15 @@ Via een URL toegang krijgen tot uw aangepaste sandbox Vernieuwen:
 
 1. Navigeer naar deze URL als u slechts één aangepaste vernieuwingssandbox hebt:
 
-   https://companyname.sb01.workfront.com (oude URL :https://cr3.attasksandbox.com)
+   `https://companyname.sb01.workfront.com` (oude URL:`https://cr3.attasksandbox.com`)
 
    of
 
    Ga naar een van deze URL&#39;s als u twee aangepaste vernieuwingssandboxen hebt:
 
-   https://companyname.sb01.workfront.com (oude URL :https://cr3.attasksandbox.com)
+   `https://companyname.sb01.workfront.com` (oude URL:`https://cr3.attasksandbox.com`)
 
-   https://companyname.sb02.workfront.com (oude URL :https://cr4.attasksandbox.com)
+   `https://companyname.sb02.workfront.com` (oude URL:`https://cr4.attasksandbox.com`)
 
 1. Meld u in het aanmeldingsscherm aan met uw aanmeldingsgegevens voor Aangepast vernieuwen in sandbox.
 

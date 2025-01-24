@@ -8,9 +8,9 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 author: Becky
 exl-id: 158430e5-8857-4bd8-86a6-2ba106b1638c
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: bb81e32263348128b7661db6102ad5ac14e9a434
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '630'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,6 @@ Voor meer informatie, zie [ toepassingen OAuth2 voor  [!DNL Workfront]  integrat
 {{step-1-to-setup}}
 
 1. Klik in het navigatievenster aan de linkerkant op **[!UICONTROL System]** en selecteer vervolgens **[!UICONTROL OAuth Applications]** .
-1. Klik op ** **.
 1. Houd de muis boven de toepassing en klik op **[!UICONTROL Delete]** ![](assets/delete.png) wanneer deze helemaal rechts wordt weergegeven.
 
 ## Clientgeheimen beheren in OAuth2-toepassingen
