@@ -6,9 +6,9 @@ description: U kunt meerdere instructies opnemen wanneer u een filter maakt in l
 author: Nolan
 feature: Reports and Dashboards
 exl-id: be145e22-d66c-4a74-af0e-8bb0598b4d67
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -19,12 +19,12 @@ U kunt meerdere instructies opnemen wanneer u een filter maakt in lijsten en rap
 
 Zie de volgende artikelen voor informatie over het maken van filters:
 
-* [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
-* [Een filter bewerken in de tekstmodus](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
+* [ Overzicht van Filters ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [Een filter bewerken in de tekstmodus](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
 
 ## Operatoren voor het filter Tekstmodus
 
-Voor informatie over de filterexploitanten van Adobe Workfront in de standaardfilterinterface, zie [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Voor informatie over de filterexploitanten van Adobe Workfront in de standaardfilterinterface, zie [ Overzicht van Filters ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 Workfront heeft 2 filteroperatoren die elke filterinstructie verbinden:
 
@@ -36,7 +36,12 @@ Workfront heeft 2 filteroperatoren die elke filterinstructie verbinden:
 
   **Voorbeeld:** om voor taken te filtreren die een Geplande Datum van de Voltooiing van Vandaag hebben en een Percentage voltooide lager dan 100% gebruik de volgende code van de tekstwijze:
 
-  <pre>scheduledCompletionDate=$$TODAY</pre><pre>scheduledCompletionDate_Mod=eq</pre><pre>percentComplete=100</pre><pre>percentComplete_Mod=lt</pre>
+  ```
+  plannedCompletionDate=$$TODAY
+  plannedCompletionDate_Mod=eq 
+  percentComplete=100 percent
+  Complete_Mod=lt
+  ```
 
 * **OF**: Wanneer u zich bij 2 filterverklaringen door OF exploitant aansluit geeft u aan dat u één van beide verklaring wilt worden ontmoet.
 
@@ -48,7 +53,12 @@ Workfront heeft 2 filteroperatoren die elke filterinstructie verbinden:
 
   **Voorbeeld:** om voor taken te filtreren die een Geplande Datum van de Voltooiing van Vandaag of een Percentage Voltooien hebben lager dan 100% gebruik de volgende code van de tekstwijze:
 
-  <pre>scheduledCompletionDate=$$TODAY</pre><pre>scheduledCompletionDate_Mod=eq</pre><pre>OF:1: percentComplete=100</pre><pre>OF:1: percentComplete_Mod=lt</pre>
+  ```
+  plannedCompletionDate=$$TODAY
+  plannedCompletionDate_Mod=eq
+  OR:1:percentComplete=100
+  OR:1:percentComplete_Mod=lt
+  ```
 
 ## Syntaxis tekstmodus voor OR-filters
 
@@ -58,7 +68,12 @@ De syntaxis van de tekstmodus voor een OR-filter moet het volgende bevatten:
 
   Volg dit patroon wanneer het bouwen van een OF filter:
 
-  <pre><field name in camel case>=<value></pre><pre><field name in camel case>_Mod=<modifier value></pre><pre>OF:1:<field name in camel case>=<value></pre><pre>OF:1:<field name in camel case>_Mod=<modifier value></pre>
+  ```
+  <field name in camel case>=<value>
+  <field name in camel case>_Mod=<modifier value>
+  OR:1:<field name in camel case>=<value>
+  OR:1:<field name in camel case>_Mod=<modifier value>
+  ```
 
   >[!TIP]
   >
@@ -68,11 +83,25 @@ De syntaxis van de tekstmodus voor een OR-filter moet het volgende bevatten:
 
   **Voorbeeld:** om voor taken te filtreren die een Geplande Datum van de Voltooiing van vandaag of een Percentage hebben voltooit lager dan 100% OF een Status van Nieuw gebruik de volgende code van de tekstwijze:
 
-  <pre>scheduledCompletionDate=$$TODAY</pre><pre>scheduledCompletionDate_Mod=eq</pre><pre>OF:1: status=NEW</pre><pre>OF:1: status_Mod=in</pre><pre>OF:2: percentComplete=100</pre><pre>OF:2: percentComplete_Mod=lt</pre>
+  ```
+  plannedCompletionDate=$$TODAY
+  plannedCompletionDate_Mod=eq
+  OR:1:status=NEW
+  OR:1:status_Mod=in
+  OR:2:percentComplete=100
+  OR:2:percentComplete_Mod=lt
+  ```
 
 * De naam van de velden of de kenmerken waarnaar u in een filter verwijst, moet in kameelletters worden geschreven. Voor informatie over camel geval, zie [ overzicht van de wijzesyntaxis van de Tekst ](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
 * Wanneer u naar aangepaste velden in een OR-filter verwijst, moet u de volgende code invoegen: tussen de syntaxis van de OR-modifier en de naam van het aangepaste veld. U moet de naam van het aangepaste veld spellen zoals deze wordt weergegeven in de Workfront-interface.
 
   **Voorbeeld:** om voor taken te filtreren die een Status van Nieuw OF een Percentage Volledige lager dan 100% OF een douanegebied genoemd &quot;het Type van Rekening&quot;met een waarde van &quot;Gelijk&quot;hebben, gebruik de volgende code van de tekstwijze:
 
-  <pre>status=NEW</pre><pre>status_Mod=in</pre><pre>OF:1: percentComplete=100</pre><pre>OF:1: percentComplete_Mod=lt</pre><pre>OF:2: DE:Accounttype=Capital</pre><pre>OF:2: DE:Accounttype_Mod=in</pre>
+  ```
+  status=NEW
+  status_Mod=in
+  OR:1:percentComplete=100
+  OR:1:percentComplete_Mod=lt
+  OR:2:DE:Account Type=Capital
+  OR:2:DE:Account Type_Mod=in
+  ```

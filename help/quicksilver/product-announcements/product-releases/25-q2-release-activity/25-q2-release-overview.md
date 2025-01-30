@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: ef390581f250515983ba51fb4b1f9ee53fcff693
+source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '728'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,31 @@ Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen z
 
 ## Verbeteringen voor Adobe Workfront
 
+* [Beheerdersverbeteringen](#administrator-enhancements)
 * [Andere verbeteringen](#other-enhancements)
+
+### Beheerdersverbeteringen
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Adobe Admin Console-gebruikerswijzigingen vertegenwoordigen als "Systeem" in de Workfront-updatefeed</a></p>
+            <p>Nu, wanneer de beheerder van de Adobe Admin Console een verandering in de gebruikersinformatie van een gebruiker van Workfront aanbrengt, registreert Workfront deze verandering in het de activiteitslusje van het Systeem van het gebied van de Updates van de gebruiker zoals die tot het "Systeem"behoort. Dit verwijst naar de Adobe Admin Console-beheerder.</p>
+        </td>
+        <td>
+            <p><b>Beschikbaar op deze data:</b></p>
+            <ul>
+                <li>Voorvertoningsrelease: 30 januari 2025</li>
+                <li><span class="preview">Productieversie voor alle klanten: 30 januari 2025</span></li>
+            </ul>
+        </td>
+    </tr>                          
+</tbody>
+</table>
 
 ### Andere verbeteringen
 
@@ -61,18 +85,18 @@ Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen z
     </tr>
     <!--<tr>
         <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">
-            Look-and-feel updates during the First Quarter 2025 timeframe</a></p>
-            <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the First Quarter 2025 timeframe. Review the individual release notes for specific release dates.</p>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">
+            Look-and-feel updates during the Second Quarter 2025 timeframe</a></p>
+            <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the Second Quarter 2025 timeframe. Review the individual release notes for specific release dates.</p>
         </td>
         <td>
             <p><b>Available on these dates:</b></p>
             <ul>
-                <li>Preview release: Throughout the First Quarter 2025 release timeframe</li>
+                <li>Preview release: Throughout the Second Quarter 2025 release timeframe</li>
                 <li><span class="preview">Production release: Review the release notes for specific dates</span></li>
             </ul>
         </td>
-    </tr>-->                            
+    </tr>-->
 </tbody>
 </table>
 
@@ -86,7 +110,7 @@ The following functionality is soon to be removed from Workfront:
 
 ### Modernisering van de interface
 
-We werken de interface in Adobe Workfront bij om de gebruikerservaring te verbeteren en deze te verenigen met andere Adobe toepassingen. Deze veranderingen worden vrijgegeven buiten het standaardversieschema. Voor een lijst van deze veranderingen, zie [ Modernisering van de Interface ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)
+We werken de interface in Adobe Workfront bij om de gebruikerservaring te verbeteren en deze te verenigen met andere Adobe toepassingen. Deze veranderingen worden vrijgegeven buiten het standaardversieschema. Voor een lijst van deze veranderingen, zie [ Modernisering van de Interface ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
 ### Workfront Fusion-verbeteringen
 

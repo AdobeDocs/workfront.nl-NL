@@ -6,16 +6,16 @@ description: U kunt complexe filters van de Wijze van de Tekst tot stand brengen
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 106f7c9d-46cc-46c5-ae34-93fd13a36c14
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
 workflow-type: tm+mt
-source-wordcount: '2660'
+source-wordcount: '2668'
 ht-degree: 0%
 
 ---
 
 # Complexe tekstmodusfilters maken met EXISTS-instructies
 
-<!-- Audited: 01/2024 -->
+<!-- Audited: 01/2025 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: do not EVER&nbsp;delete this article as long as Text Mode still exists in the system.&nbsp;Google ordered this article to be written and we wrote it with the help of consultants, so the use case is very complex and very hard to understand without this. It is also very much used by many customers)</p>
@@ -92,7 +92,7 @@ Houd rekening met de volgende regels wanneer u EXISTS-instructies in een filter 
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
+U moet het volgende hebben:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -104,12 +104,19 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td><p>Nieuw: Standaard</p>
-       <p>of</p>
-       <p>Huidig: Plan</p> </td> 
+   <td> 
+      <p>Nieuw:</p>
+         <ul>
+         <li><p>Standaard</p></li>
+         </ul>
+      <p>Huidige:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Toegang tot rapporten, dashboards, kalenders bewerken om filters in een rapport te bewerken</p></td> 
   </tr> 
   <tr> 
@@ -119,7 +126,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -156,14 +163,14 @@ Een filter maken dat zich uitstrekt over meerdere niveaus in de objecthiërarchi
    Maak bijvoorbeeld een filter Uitgave.\
    Voor informatie over het creëren van filters, zie [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Klik **Schakelaar aan de Wijze van de Tekst**.
+1. Klik **Schakelaar aan de Wijze van de Tekst** dan **uitgeven de Wijze van de Tekst**.
 1. Plak het volgende voorbeeld van de formule in de tekstmodusinterface van het nieuwe filter en vervang de voorbeeldtekst door de juiste objecten en velden:
 
-   `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
-
-   `EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object>`
-
-   `EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>`
+   ```
+   EXISTS:A:$$OBJCODE=<Object code of the Linking Object>
+   EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object>
+   EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>
+   ```
 
    Voor een voorbeeld dat de gebieden gebruikt wij hierboven hebben geïdentificeerd, zie [ Voorbeeld 1: Filter voor kwesties door de sectie van de Naam van de Eigenaar van het Portfolio ](#example-1-filter-for-issues-by-portfolio-owner-name) in dit artikel.
 
@@ -204,12 +211,14 @@ Een filter maken dat naar ontbrekende objecten verwijst:
    Maak bijvoorbeeld een parameterfilter.\
    Voor informatie over het creëren van filters, zie [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Klik **Schakelaar aan de Wijze van de Tekst**.
+1. Klik **Schakelaar aan de Wijze van de Tekst** dan **uitgeven de Wijze van de Tekst**.
 1. (Voorwaardelijk) Als u filtert voor objecten die ontbreken, plakt u het volgende voorbeeld van de formule in de tekstmodusinterface van het nieuwe filter en vervangt u de voorbeeldtekst door de juiste objecten en velden:
 
-   `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
-
-   `EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
+   ```
+   EXISTS:A:$$OBJCODE=<Object code of the Linking Object>
+   EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object>
+   EXISTS:A:$$EXISTSMOD=NOTEXISTS
+   ```
 
    Voor een voorbeeld om op de Gebieden van de Douane te melden die niet met Douane Forms worden geassocieerd, zie [ Voorbeeld 2: Filter voor ontbrekende voorwerpen: douanegebieden die niet in om het even welke 1} sectie van douaneformulieren {in dit artikel verschijnen.](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms)
 
@@ -228,22 +237,22 @@ Om kwesties door de Naam van de Eigenaar van het Portfolio te filtreren:
 1. Maak een filter Uitgave.\
    Voor informatie over het creëren van filters, zie [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Klik **Schakelaar aan de Wijze van de Tekst**.
+1. Klik **Schakelaar aan de Wijze van de Tekst** dan **uitgeven de Wijze van de Tekst**.
 1. Raadpleeg de volgende algemene code:
 
-   `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
-
-   `EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object>`
-
-   `EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>`
+   ```
+   EXISTS:A:$$OBJCODE=<Object code of the Linking Object>
+   EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object>
+   EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>
+   ```
 
 1. Plak de volgende code in de **Vastgestelde Regels van de Filter voor uw gebied van het Rapport** hierboven om de generische code te vervangen:
 
-   `EXISTS:A:$$OBJCODE=PROJ`
-
-   `EXISTS:A:ID=FIELD:projectID`
-
-   `EXISTS:A:portfolio:ownerID=4d94d7da001699b19edf50de15682221`
+   ```
+   EXISTS:A:$$OBJCODE=PROJ
+   EXISTS:A:ID=FIELD:projectID
+   EXISTS:A:portfolio:ownerID=4d94d7da001699b19edf50de15682221
+   ```
 
    >[!NOTE]
    >
@@ -270,20 +279,22 @@ Filteren voor aangepaste velden die niet zijn gekoppeld aan een aangepast formul
 1. Maak een parameter of een filter Aangepast veld.\
    Voor informatie over het creëren van filters, zie [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Klik **Schakelaar aan de Wijze van de Tekst**.
+1. Klik **Schakelaar aan de Wijze van de Tekst** dan **uitgeven de Wijze van de Tekst**.
 1. Raadpleeg de volgende algemene code:
 
-   `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
-
-   `EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
+   ```
+   EXISTS:A:$$OBJCODE=<Object code of the Linking Object>
+   EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object>
+   EXISTS:A:$$EXISTSMOD=NOTEXISTS
+   ```
 
 1. Plak de volgende code in de **Vastgestelde Regels van de Filter voor uw gebied van het Rapport** hierboven om de generische code te vervangen:
 
-   `EXISTS:A:$$OBJCODE=CTGYPA`
-
-   `EXISTS:A:parameterID=FIELD:ID`
-
-   `EXISTS:A:$$EXISTSMOD=NOTEXISTS`
+   ```
+   EXISTS:A:$$OBJCODE=CTGYPA
+   EXISTS:A:parameterID=FIELD:ID
+   EXISTS:A:$$EXISTSMOD=NOTEXISTS
+   ```
 
    >[!NOTE]
    >
@@ -305,16 +316,25 @@ Hiermee filtert u voor gebruikers die zich vorige week niet hebben aangemeld:
 1. Maak een gebruikersfilter.\
    Voor informatie over het creëren van filters, zie [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Klik **Schakelaar aan de Wijze van de Tekst**.
+1. Klik **Schakelaar aan de Wijze van de Tekst** dan **uitgeven de Wijze van de Tekst**.
 1. Raadpleeg de volgende algemene code:
 
-   `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
-
-   `EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
+   ```
+   EXISTS:A:$$OBJCODE=<Object code of the Linking Object>
+   EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object>
+   EXISTS:A:$$EXISTSMOD=NOTEXISTS
+   ```
 
 1. Plak de volgende code in de **Vastgestelde Regels van de Filter voor uw gebied van het Rapport** hierboven om de generische code te vervangen:
 
-   `EXISTS:A:$$OBJCODE=HOUR<br>EXISTS:A:ownerID=FIELD:ID<br>EXISTS:A:entryDate=$$TODAYb-1w<br>EXISTS:A:entryDate_Range=$$TODAYe-1w<br>EXISTS:A:entryDate_Mod=between<br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
+   ```
+   EXISTS:A:$$OBJCODE=HOUR
+   EXISTS:A:ownerID=FIELD:ID
+   EXISTS:A:entryDate=$$TODAYb-1w
+   EXISTS:A:entryDate_Range=$$TODAYe-1w
+   EXISTS:A:entryDate_Mod=between
+   EXISTS:A:$$EXISTSMOD=NOTEXISTS
+   ```
 
    >[!NOTE]
    >
@@ -343,16 +363,18 @@ Om taken door de Naam van de Eigenaar van het Portfolio en identiteitskaart van 
 1. Maak een taakfilter.\
    Voor informatie over het creëren van filters, zie [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Klik **Schakelaar aan de Wijze van de Tekst**.
+1. Klik **Schakelaar aan de Wijze van de Tekst** dan **uitgeven de Wijze van de Tekst**.
 1. Plak de volgende code in het **Vastgestelde Regels van de Filter voor uw gebied van het Rapport**:
 
-   `EXISTS:A:$$OBJCODE=PROJ`
-   `EXISTS:A:ID=FIELD:projectID`
-   `EXISTS:A:portfolio:ownerID=4d80ce5200000528787d57807732a33f`
-   `AND:A:EXISTS:A:$$EXISTSMOD=NOTEXISTS`
-   `AND:A:EXISTS:A:$$OBJCODE=PROJ`
-   `AND:A:EXISTS:A:ID=FIELD:projectID`
-   `AND:A:EXISTS:A:portfolio:alignmentScoreCardID=4da387b00001cbc732bb259355c33dad`
+   ```
+   EXISTS:A:$$OBJCODE=PROJ
+   EXISTS:A:ID=FIELD:projectID
+   EXISTS:A:portfolio:ownerID=4d80ce5200000528787d57807732a33f
+   AND:A:EXISTS:A:$$EXISTSMOD=NOTEXISTS
+   AND:A:EXISTS:A:$$OBJCODE=PROJ
+   AND:A:EXISTS:A:ID=FIELD:projectID
+   AND:A:EXISTS:A:portfolio:alignmentScoreCardID=4da387b00001cbc732bb259355c33dad
+   ```
 
    >[!NOTE]
    >

@@ -6,14 +6,16 @@ description: Referentieverzamelingen in een rapport
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
 workflow-type: tm+mt
-source-wordcount: '2598'
+source-wordcount: '2539'
 ht-degree: 0%
 
 ---
 
 # Referentieverzamelingen in een rapport
+
+<!-- Audited: 1/2025 -->
 
 Wanneer u een rapport maakt in Adobe Workfront, kunt u een set objecten, hun respectievelijke velden of gekoppelde objecten weergeven in een lijst, raster of diagramindeling.
 
@@ -23,32 +25,41 @@ Voor meer informatie over de bouw van een rapport in Workfront, zie [ een douane
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
+U moet het volgende hebben:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> 
+      <p>Nieuw:</p>
+         <ul>
+         <li><p>Standaard</p></li>
+         </ul>
+      <p>Huidige:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen beheren voor een rapport</p> <p>Machtigingen beheren voor een weergave, filter of groep </p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p> <p>Machtigingen beheren voor een weergave, filter of groep </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -128,8 +139,9 @@ Bijvoorbeeld, kunt u taak tonen of informatie in een projectrapport uitgeven, do
 
 U kunt informatie over de taken of de kwesties, zoals namen, data, primaire wijzers, volledig percentage, enz. in de inzamelingsmening tonen.
 
-De mening toont taak of geeft informatie uit in een lijstformaat, met elke lijn van de lijst die informatie over een taak of een kwestie vertegenwoordigt. De lijst met taken of problemen en de bijbehorende velden wordt weergegeven op dezelfde regel als het project waartoe de taken of problemen behoren.\
-![ issue_and_tasks_collections_in_reports.png ](assets/issue-and-tasks-collections-in-reports-350x171.png)
+De mening toont taak of geeft informatie uit in een lijstformaat, met elke lijn van de lijst die informatie over een taak of een kwestie vertegenwoordigt. De lijst met taken of problemen en de bijbehorende velden wordt weergegeven op dezelfde regel als het project waartoe de taken of problemen behoren.
+
+![ issue_and_tasks_collections_in_reports.png ](assets/issue-and-tasks-collections-in-reports-350x171.png) {width= 400}
 
 * [ voeg een inzamelingskolom in een rapportMening ](#add-a-collection-column-in-a-report-view) toe
 * [ begrijp de lijnen van een inzamelingsmening op de Wijze van de Tekst ](#understand-the-lines-of-a-collection-view-in-text-mode)
@@ -144,7 +156,8 @@ Om een inzamelingskolom in een rapportmening toe te voegen:
 1. Selecteer het voorwerp van uw rapport.
 1. Navigeer weg van uw rapport, en gebruikend [ API Ontdekkingsreiziger ](../../../wf-api/general/api-explorer.md), bepaal welke inzamelingen voor het voorwerp beschikbaar zijn u voor uw rapport selecteerde.
 
-   Voor meer informatie over het selecteren van het voorwerp van uw inzameling, zie de sectie [ inzamelingsvoorwerpen van de Vondst en hun gebieden in de API Ontdekkingsreiziger ](#find-collection-objects-and-their-fields-in-the-api-explorer) in dit artikel.\
+   Voor meer informatie over het selecteren van het voorwerp van uw inzameling, zie de sectie [ inzamelingsvoorwerpen van de Vondst en hun gebieden in de API Ontdekkingsreiziger ](#find-collection-objects-and-their-fields-in-the-api-explorer) in dit artikel.
+
    Noteer de naam van het object voor de verzameling.
 
 1. Gebruikend de [ API Ontdekkingsreiziger ](../../../wf-api/general/api-explorer.md), ga naar de lijst van gebieden voor het voorwerp u in de inzameling wilt tonen.
@@ -155,7 +168,7 @@ Om een inzamelingskolom in een rapportmening toe te voegen:
 
 1. Navigeer terug naar uw rapport, en in de **Kolommen (Mening)** lusje, klik **toevoegen Kolom**.
 1. Klik **Schakelaar aan de Wijze van de Tekst**.
-1. De muis over de dialoogdoos, en klikt **om tekst** uit te geven.
+1. Klik **uitgeven de Wijze van de Tekst**.
 1. Selecteer alle tekst in de **dialoogdoos van de Wijze van de Tekst 0} {en verwijder het, dan kleef de volgende code als u naar een gebied van het inzamelingsvoorwerp van verwijzingen voorziet:**
 
    ```
@@ -223,7 +236,7 @@ Om een inzamelingskolom in een rapportmening toe te voegen:
 
 1. De volgende kolomvertoningen in het projectrapport, die van alle taken in elk project naast hun primaire wijzers een lijst maken:
 
-   ![](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png)
+   ![](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png){width=400}
 
 1. Klik **sparen**.
 1. (Optioneel) Ga door met het bewerken van het rapport.
@@ -311,7 +324,7 @@ Een verwijzing naar een inzameling in een rapportfilter toevoegen:
 
    Noteer het veld dat u in de verzameling wilt weergeven.
 
-1. Navigeer terug naar uw rapport, en op het **lusje van Filters**, klik **Schakelaar aan de Wijze van de Tekst**.
+1. Navigeer terug naar uw rapport, en op het **lusje van Filters**, klik **Schakelaar aan de Wijze van de Tekst** toen **de Wijze van de Tekst** uitgeven.
 
 1. In het **plaats de Regels van de Filter voor uw gebied van het Rapport**, kleef de volgende code:
 
@@ -337,7 +350,7 @@ Een verwijzing naar een inzameling in een rapportfilter toevoegen:
 
    In dit rapport worden alleen projecten weergegeven met ten minste één taak waarvoor het woord &quot;marketing&quot; in de naam voorkomt.
 
-   ![](assets/marketing-only-tasks-in-project-report-nwe-350x309.png)
+   ![](assets/marketing-only-tasks-in-project-report-nwe-350x309.png){width=400}
 
 1. Gebruik de volgende code om te filteren op de naam van een uitgave:
 
@@ -391,7 +404,7 @@ Om een verwijzing naar een inzameling in de douaneherinnering van een rapport to
    ```
 
 1. (Optioneel) Geef op of deze optie standaard wordt weergegeven in de vraag.
-1. Vervang **naam van het inzamelingsvoorwerp** met de naam van uw inzamelingsvoorwerp aangezien het in [ API Ontdekkingsreiziger ](../../../wf-api/general/api-explorer.md) verschijnt. Deze waarde is doorgaans de meervoudige vorm van de naam van het verzamelingsobject.
+1. Vervang **naam van het inzamelingsvoorwerp** met de naam van uw inzamelingsvoorwerp aangezien het in [ API Ontdekkingsreiziger ](../../../wf-api/general/api-explorer.md) verschijnt. Deze waarde is doorgaans de meervoudige vorm van de naam van het verzamelingsobject.
 1. Vervang **gebied van de inzamelingsobjecten** met de naam van het gebied van uw inzamelingsvoorwerp, aangezien het in de [ API Ontdekkingsreiziger ](../../../wf-api/general/api-explorer.md) verschijnt.
 1. Vervang **waarde van het inzamelingsvoorwerp** met de waarde van het inzamelingsvoorwerp aangezien het in Workfront verschijnt.
 
@@ -399,7 +412,7 @@ Om een verwijzing naar een inzameling in de douaneherinnering van een rapport to
 
 1. Vervang **waarde van de bepaling** met een geldige bepaling.
 
-   Zie voor een lijst met wijzigingstoetsen  [ de filters van de Filter en van de voorwaarde ](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   Voor een lijst van bepalingen, zie [ Filter en voorwaardenbepalingen ](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
    **Voorbeeld:** Bijvoorbeeld, om een projectrapport met een douaneherinnering te bouwen waar u slechts projecten wilt tonen die minstens één taak hebben die aan een specifieke gebruiker wordt toegewezen, gebruik hieronder de code:
 
@@ -423,7 +436,7 @@ Om een verwijzing naar een inzameling in de douaneherinnering van een rapport to
 
    >[!NOTE]
    >
-   >Bericht dat u **kwesties** voor de naam van het inzamelingsvoorwerp moet gebruiken. De API Explorer  biedt momenteel geen verzamelingsobjectnaam voor problemen.
+   >Bericht dat u **kwesties** voor de naam van het inzamelingsvoorwerp moet gebruiken. De API Explorer biedt momenteel geen naam voor verzamelingsobjecten voor problemen.
 
 1. Klik **Gedaan**.
 1. (Optioneel) Ga door met het bewerken van het rapport.

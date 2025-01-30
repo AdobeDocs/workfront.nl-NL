@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 5620b1023e5708b7acf3aa2304b28a83112dbe55
+source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '867'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,6 @@ Ga naar Setup > Groepen > Een groep selecteren > Gebeurtenismeldingen om deze pa
 
 Deze update bevat kleine visuele wijzigingen in het gebied. Er is geen functionaliteit gewijzigd.
 
-
 ### Interface-updates voor het tabblad Herinneringsmeldingen in Setup
 
 **de versie van de Voorproef: 23 Januari, 2025; De versie van de productie: Te aankondigen**
@@ -99,9 +98,21 @@ We hebben de lijsten met projecten, taken en goedkeuringen voor uitgaven bijgewe
 
 Deze update bevat visuele wijzigingen in het gebied. Er is geen functionaliteit gewijzigd.
 
+## Agile
+
+### Interface-update voor de lijst met herhalingen
+
+**de versie van de Voorproef: 23 Januari, 2025; De versie van de productie: Te aankondigen**
+
+We hebben de lijst Teams > Interferenties bijgewerkt met een modernere opzet die aansluit bij andere gebieden van Workfront.
+
+Deze update bevat visuele wijzigingen in het gebied. Er is geen functionaliteit gewijzigd.
+
+Ga naar Teams > kies een team > Herhalingen om deze wijziging weer te geven.
+
 ## Rapporten en dashboards
 
-## Bijgewerkte e-mailrapporten met nieuwe opmaak
+### Bijgewerkte e-mailrapporten met nieuwe opmaak
 
 **de versie van de Voorproef: 23 Januari, 2025; De versie van de productie: Te aankondigen**
 
@@ -114,7 +125,7 @@ Deze update bevat visuele wijzigingen in het gebied. Er is geen functionaliteit 
 
 ### Bijgewerkt iteratierapport met nieuwe opmaak
 
-**de versie van de Voorproef: 17 Januari, 2025; De versie van de productie: Te aankondigen**
+**de versie van de Voorproef: 17 Januari, 2025; De versie van de Productie: Beginnend de week van 20 Januari, 2025**
 
 We hebben het Interferation-rapport bijgewerkt met een modernere opzet die aansluit bij andere gebieden van Workfront.
 
