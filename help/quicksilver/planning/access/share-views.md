@@ -6,15 +6,19 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: cf3b5d3f8e3a8a1922da757a41b4c5e0ee84e6fd
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1519'
 ht-degree: 0%
 
 ---
 
 
 # Weergaven delen
+
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 {{planning-important-intro}}
 
@@ -31,7 +35,7 @@ U kunt een weergave met anderen delen om samenwerking te garanderen wanneer u we
 
 U kunt een weergave delen met de volgende entiteiten:
 
-* Intern, met Workfront-gebruikers en -groepen
+* Intern, met de gebruikers van Workfront, groepen, <span class="preview"> teams, bedrijven, en baanrollen </span>
 * Openbaar, met gebruikers buiten Workfront
 
 <!--
@@ -64,8 +68,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td> 
 <p>Een van de volgende Workfront-plannen:</p> 
 <ul><li>Selecteren</li> 
-<li>Eerste</li> 
-<li>Ultieme</li></ul> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
 <p>Workfront Planning is niet beschikbaar voor oudere Workfront-plannen</p> 
    </td> 
 <tr> 
@@ -182,7 +186,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Rechten delen met een weergave intern
 
-U kunt weergaven die u hebt gemaakt of weergaven waarop u beheermachtigingen hebt, delen met gebruikers of groepen in Workfront.
+U kunt meningen delen u creeerde of meningen u beheerst toestemmingen aan met gebruikers, groepen, <span class="preview"> teams, bedrijven, en baanrollen </span> in Workfront hebt.
 
 >[!NOTE]
 >
@@ -204,12 +208,16 @@ U kunt weergaven die u hebt gemaakt of weergaven waarop u beheermachtigingen heb
 
 1. (Facultatief) op **die toegang** gebied heeft, selecteer van de volgende opties:
 
-   * **slechts kunnen de uitgenodigde mensen tot** toegang hebben: U moet gebruikers of groepen specificeren die u de mening met wilt delen. Dit is de standaardoptie.
+   * **slechts kunnen de uitgenodigde mensen tot** toegang hebben: U moet gebruikers, groepen, <span class="preview"> team, bedrijf, of baanrol </span> specificeren die u de mening met wilt delen. Dit is de standaardoptie.
    * **iedereen in de werkruimte kan** bekijken: Alle gebruikers die Mening of hogere toestemmingen aan werkruimten hebben kunnen tot de mening toegang hebben.
 
-1. In de **de meningstoegang van de Verlening tot** gebied, begin de naam van een gebruiker of een groep te typen, dan het te klikken wanneer het in de lijst toont.
+1. In de **de meningstoegang van de Verlening tot** gebied, begin het typen van de naam van een gebruiker, een groep, <span class="preview"> team, bedrijf, of baanrol </span> dan het wanneer het in de lijst toont.
+
+   <div class="preview">
 
    ![](assets/sharing-a-view-ui-with-groups.png)
+
+   </div>
 
 1. Selecteer een van de volgende machtigingsniveaus in het keuzemenu:
    * Weergave
@@ -308,7 +316,7 @@ Van het e-mailbericht, klik **Mening alle berichten**, dan klik het bericht in d
 1. Ga als volgt te werk om het interne delen van een weergave te verwijderen:
 
    1. Verzeker het **Interne delen** lusje wordt geselecteerd.
-   1. Vind de gebruiker of de groep wat u wilt verwijderen, breid het toestemmingendrop-down menu rechts van de naam van de gebruiker of van de groep uit, dan klik **verwijdert**.
+   1. Vind de gebruiker, de groep, <span class="preview"> team, het bedrijf, of baanrol </span> wat u wilt verwijderen, breid het toestemmingendrop-down menu rechts van de naam van de entiteit uit u de mening deelt met, dan klikt **verwijdert**.
 
 1. Ga als volgt te werk om het delen van een weergave door het publiek te verwijderen:
 

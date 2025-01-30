@@ -6,14 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: cf3b5d3f8e3a8a1922da757a41b4c5e0ee84e6fd
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
 
 # Werkruimten delen
+
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 {{planning-important-intro}}
 
@@ -52,8 +56,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td> 
 <p>Een van de volgende Workfront-plannen:</p> 
 <ul><li>Selecteren</li> 
-<li>Eerste</li> 
-<li>Ultieme</li></ul> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
 <p>Workfront Planning is niet beschikbaar voor oudere Workfront-plannen</p> 
    </td> 
 <tr> 
@@ -173,9 +177,13 @@ Een werkruimte delen met anderen:
 
    ![](assets/share-button-on-workspace-top-right.png)
 
-1. In de **werkruimtetoegang van de Verlening tot** gebied, begin de naam van een gebruiker of een groep te typen, dan het te klikken wanneer het in de lijst toont.
+1. In de **werkruimtetoegang van de Verlening tot** gebied, begin de naam van een gebruiker, een groep, <span class="preview"> team, een bedrijf, of baanrol </span> dan het te typen wanneer het in de lijst toont.
+
+   <div class="preview">
 
    ![](assets/sharing-ui-with-groups.png)
+
+   </div>
 
 1. Selecteer een van de volgende machtigingsniveaus in het keuzemenu:
    * Weergave
@@ -221,7 +229,7 @@ Van het e-mailbericht, klik **Mening alle berichten**, dan klik het bericht in d
 {{step1-to-planning}}
 
 1. Open de werkruimte u toestemmingen aan wilt verwijderen, dan **Aandeel** in de hoger-juiste hoek van het scherm klikken.
-1. Klik het drop-down menu aan het recht van een gebruiker of groepsnaam, dan klik **verwijderen**.
+1. Klik het drop-down menu rechts van de naam van een entiteit u de werkruimte met deelt, dan klik **verwijderen**.
 1. Klik **sparen**.
 
-   De gebruiker of de gebruikers die tot de verwijderde groep behoren, hebben niet langer toegang tot de werkruimte of de objecten ervan.
+   De verwijderde gebruikers hebben geen toegang meer tot de werkruimte of de bijbehorende objecten.
