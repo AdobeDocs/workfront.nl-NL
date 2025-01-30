@@ -6,14 +6,16 @@ description: Risico's zijn mogelijke gebeurtenissen of factoren die verhinderen 
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 8611c7bf8be6405f8ec8462ff2fd0f5998e8a995
+source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1036'
 ht-degree: 0%
 
 ---
 
 # Risico&#39;s maken en bewerken voor projecten
+
+<!--Audited: 01/2025-->
 
 Risico&#39;s zijn mogelijke gebeurtenissen of factoren die verhinderen dat een project op tijd of binnen het budget wordt afgerond. De risico&#39;s kunnen als deel van het creëren van het BedrijfsGeval van een project of door het lusje van Risken te gebruiken worden geregistreerd. Risico&#39;s worden alleen op een project gecreëerd. U kunt risico&#39;s niet koppelen aan taken of problemen.
 
@@ -27,30 +29,35 @@ Risico&#39;s kunnen verband houden met kosten, maar de werkelijke risicokosten h
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Nieuw: Standaard </p>
+   <p>Huidig: Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten en financiële gegevens bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot projecten en financiële gegevens bewerken</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p> Machtigingen beheren die onder meer de functie Financiën beheren voor het project waarvoor u risico's wilt maken of bewerken </p> <p>Voor meer informatie over projecttoestemmingen, zie het artikel <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref"> een project in Adobe Workfront </a> delen.</p> </td> 
+   <td> <p> Machtigingen beheren die onder meer de functie Financiën beheren voor het project waarvoor u risico's wilt maken of bewerken </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Risico&#39;s maken en bewerken in Business Case
 

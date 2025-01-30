@@ -5,14 +5,16 @@ description: Als deel van middelplanning, kunt u de project-vlakke Planner van h
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
+source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1237'
 ht-degree: 0%
 
 ---
 
 # De middelen van de begroting in BedrijfsGeval die de Planner van het Middel gebruiken
+
+<!--Audited: 01/2025-->
 
 Als deel van middelplanning, kunt u de project-vlakke Planner van het Middel gebruiken om de baanrollen noodzakelijk voor de voltooiing van het werk in een project te voorzien wanneer u het bedrijfscase bouwt.
 
@@ -26,37 +28,47 @@ U kunt middelen in de bedrijfscase ook begroten gebruikend de Planner van het Sc
 
 ## Toegangsvereisten
 
-U moet het volgende hebben:
+U moet het volgende hebben om de stappen in dit artikel uit te voeren:
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank"> plan van Adobe Workfront </a>*</td> 
-   <td> <p>Pro of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td> <p>Prime of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref"> het vergunningsoverzicht van Adobe Workfront </a>*</td> 
-   <td> <p>Controleren of hoger</p> <p>Belangrijk: u moet een licentie voor het abonnement hebben om de budgetteringsgegevens voor bronnen te wijzigen. </p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td> <p>Nieuw: Licht of hoger</p>
+   <p>Huidig: Controleren of hoger</p>
+
+<p><b>BELANGRIJK:</b></p> 
+   <p>Nieuw: u moet een standaardlicentie hebben om de budgetteringsgegevens voor bronnen te wijzigen. </p> 
+   <p>Huidig: U moet een licentie voor het abonnement hebben om de budgetteringsgegevens voor bronnen te wijzigen. </p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot het volgende bewerken: </p> 
     <ul> 
      <li> <p>Projecten</p> </li> 
      <li> <p>Bronbeheer</p> </li> 
      <li> <p>Financiële gegevens</p> </li> 
-    </ul> <p>Voor informatie over de toegang nodig aan begrotingsmiddelen, zie ook <a href="../../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md" class="MCXref xref"> Toegang nodig aan begrotingsmiddelen in Adobe Workfront </a>.</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Adobe Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+    </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor het project beheren</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Rechten voor het project beheren</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vereisten
 
