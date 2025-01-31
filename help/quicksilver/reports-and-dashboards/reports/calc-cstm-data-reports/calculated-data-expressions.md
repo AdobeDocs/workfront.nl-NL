@@ -7,9 +7,9 @@ description: U kunt gegevensexpressies gebruiken om berekende aangepaste gegeven
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: b60a1e74d62e9b3945f69dc590f8cc202302c5af
 workflow-type: tm+mt
-source-wordcount: '2165'
+source-wordcount: '2425'
 ht-degree: 0%
 
 ---
@@ -131,6 +131,13 @@ U kunt een datum- of tijdberekend aangepast veld maken met de volgende expressie
 
 <p><code>ADDYEARS(date, number)</code></p> </td> 
   </tr> 
+  <tr> 
+   <td><strong> ADDHOUR </strong> </td> 
+   <td> <p>Voegt het aantal uren aan de datum toe en is geformatteerd als volgt:</p>
+
+<p><code>ADDHOUR(date, number)</code></p>
+   <p>Opmerking: deze functie wordt niet ondersteund in Workfront Planning.</p></td> 
+  </tr>
   <tr> 
    <td><strong> CLEARTIME </strong> </td> 
    <td> <p>Wist het tijdgedeelte van een datum en is als volgt opgemaakt. In dit voorbeeld is de datum de ingangsdatum voor een werkobject.</p>
@@ -378,6 +385,42 @@ U kunt een berekend aangepast veld maken waarin een waarde met tekstopmaak wordt
  </thead> 
  <tbody> 
   <tr> 
+   <td><strong> ARRAY </strong> </td> 
+   <td> <p>Zet een tekenreeks om in een array. Het scheidingsteken kan elke tekenreeks zijn.</p> 
+   <p>De expressie wordt als volgt opgemaakt:</p>
+   <p><code>ARRAY(string1, "delimiter")</code></p> 
+   </td> 
+  </tr>
+  <tr> 
+   <td><strong> ARRAYLENGTH </strong> </td> 
+   <td> <p>Retourneert het aantal elementen in de array en is als volgt opgemaakt:</p>
+   <p><code>ARRAYLENGTH(array)</code></p> 
+   </td> 
+  </tr>
+  <tr> 
+   <td><strong> ARRAYELEMENT </strong> </td> 
+   <td> <p>Retourneert het element bij het opgegeven getal in de array. Als de index buiten de grenzen valt, wordt leeg geretourneerd.</p> 
+   <p>De expressie wordt als volgt opgemaakt:</p>
+   <p><code>ARRAYELEMENT(array, number)</code></p> 
+   </td> 
+  </tr>
+  <tr> 
+   <td><strong> SORTASCARRAY </strong> </td> 
+   <td> <p>De arrayelementen worden in oplopende volgorde gesorteerd en omgezet in het type van het eerste element.</p>
+   <p>De expressie wordt als volgt opgemaakt:</p>
+   <p><code>SORTASCARRAY(array)</code></p>
+   <p>["-12.6", -13.0] wordt bijvoorbeeld ["-12.6", "-13"].</p>
+   <p>Opmerking: deze functie wordt niet ondersteund in Workfront Planning.</p></td> 
+  </tr>
+  <tr> 
+   <td><strong> SORTDESCARRAY </strong> </td> 
+   <td> <p>De arrayelementen worden in aflopende volgorde gesorteerd en omgezet in het type van het eerste element.</p>
+   <p>De expressie wordt als volgt opgemaakt:</p>
+   <p><code>SORTDESCARRAY(array)</code></p>
+   <p>["-12.6", -13.0] wordt bijvoorbeeld ["-13", "-12.6"].</p>
+   <p>Opmerking: deze functie wordt niet ondersteund in Workfront Planning.</p></td> 
+  </tr>
+  <tr>   
    <td><strong> ZAAK </strong> </td> 
    <td> <p>Wordt gebruikt met andere expressies om een waarde in een lijst te kiezen op basis van een indexnummer. </p>
    <p>Een indexnummer is een veld of functie die een numerieke waarde retourneert (gewoonlijk in een bekend bereik).</p> 
@@ -413,6 +456,13 @@ U kunt een berekend aangepast veld maken waarin een waarde met tekstopmaak wordt
 
 <p><code>ENCODEURL(string)</code></p></td> 
   </tr> 
+  <tr> 
+   <td><strong> FORMAAT </strong> </td> 
+   <td><p>Retourneert opgemaakte tekst. Kleuropties zijn $$POSITIVE, $$INFORMATIVE, $$NEGATIVE, $$NOTICE en de andere opmaakopties zijn $$BOLD, $$ITALIC, $$UNDERLINE. Per functie mag slechts één kleuroptie worden gebruikt, samen met maximaal drie andere opmaakopties. Als er geen kleuroptie is opgegeven, wordt de standaardkleur van het systeem toegepast.</p>
+   <p>De expressie wordt als volgt opgemaakt:</p>
+   <p><code>FORMAT($$POSITIVE, $$BOLD, $$ITALIC)</code></p>
+   <p>Opmerking: deze functie wordt niet ondersteund in Workfront Planning.</p></td> 
+  </tr>   
   <tr> 
    <td><strong> IF</strong> </td> 
    <td> <p>Evalueert een voorwaarde die u specificeert en de waarde van trueExpression terugkeert als het waar is, of de waarde van falseExpression als het vals is.</p>
@@ -504,18 +554,16 @@ U kunt een berekend aangepast veld maken waarin een waarde met tekstopmaak wordt
    <td> <p>Zet een getal om in een tekenreeks en is als volgt opgemaakt:</p>
 
 <p><code>STRING(number)</code></p> </td> 
-  </tr> 
+  </tr>
   <tr> 
    <td><strong> SORTASCSTRING </strong> </td> 
    <td> <p>Hiermee wordt een lijst met tekenreeksen oplopend gesorteerd. De lijst is als volgt opgemaakt:</p>
-
-<p><code>SORTASCSTRING(string1, string2, ...)</code></p> </td> 
-  </tr> 
+   <p><code>SORTASCSTRING(string1, string2, ...)</code></p> </td> 
+  </tr>
   <tr> 
    <td><strong> SORTDESCSTRING </strong> </td> 
    <td> <p> Sorteert een lijst van koorden in dalende orde en is geformatteerd als volgt:</p>
-
-<p><code>SORTDESCSTRING(string1, string2, ...)</code></p> </td> 
+   <p><code>SORTDESCSTRING(string1, string2, ...)</code></p> </td> 
   </tr> 
   <tr> 
    <td><strong> SUBSTR </strong> </td> 
@@ -523,6 +571,13 @@ U kunt een berekend aangepast veld maken waarin een waarde met tekstopmaak wordt
 
 <p><code>SUBSTR({string}, number of start position, number of end position)</code></p> </td> 
   </tr> 
+  <tr> 
+   <td><strong> SCHAKEL </strong> </td> 
+   <td> <p>Evalueert de expressie aan de hand van een lijst met waarden en retourneert het resultaat dat overeenkomt met de eerste overeenkomende waarde.</p>
+   <p>De expressie is als volgt opgemaakt:</p>
+   <p><code>SWITCH(expression, value1, result1, [value2, result2], ...)</code></p>
+   <p>Deze functie wordt niet ondersteund in Workfront Planning.</p></td> 
+  </tr>   
   <tr> 
    <td><strong> TRIM </strong> </td> 
    <td> <p>Verwijdert witruimte aan het begin en einde van een tekenreeks en wordt als volgt opgemaakt:</p>
