@@ -6,9 +6,9 @@ description: Elke widget bevat een eigen werklijst. De werklijsten tonen alle he
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: f20f1c5d10869901ba5284a4425e38d279265a06
+source-git-commit: 107bb601b8d4fd9376657b5cf5840cee5d086613
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
@@ -59,6 +59,40 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+## Vereisten voor werkitems die in de werklijst moeten worden weergegeven
+
+Er zijn ingebouwde vereisten waarvoor de het werkpunten in bepaalde widgetwerklijst tonen. De werkpunten moeten aan deze vereisten voldoen om in de volgende werklijsten van widget te verschijnen.
+
+### Mijn taakwidget
+
+De taken moeten aan de volgende vereisten voldoen om in Mijn widget van Taken te verschijnen:
+
+* De taakstatus komt niet overeen met Voltooid.
+* De aangemelde gebruiker moet aan de taak worden toegewezen.
+* De taakstatus is niet gelijk aan Gereed.
+* Het project de taak tot behoort moet in een status zijn die met Huidig vergelijkt.
+
+
+### Widget Mijn problemen
+
+De problemen moeten aan de volgende vereisten voldoen om in Mijn Kwesties widget te verschijnen:
+
+* De aangemelde gebruiker moet aan de uitgave worden toegewezen.
+* De uitgiftestatus komt niet overeen met Voltooid.
+* Er is geen onopgelost object gekoppeld aan het probleem.
+* De uitgiftestatus is niet gelijk aan Done.
+* Het project tot de kwestie behoort moet in een status zijn die met Huidig vergelijkt.
+
+### Widget Mijn teams
+
+De verzoeken van het team moeten aan de volgende vereisten voldoen om in Mijn widget van Teams te verschijnen:
+
+* De aangemelde gebruiker behoort tot het team waaraan het werkitem is toegewezen.
+* De status van het werkitem komt niet overeen met Voltooid.
+* Aan het werkitem is geen onopgeloste goedkeuringsprocedure gekoppeld.
+* Het het werkpunt is geen terugkomende taak.
+* Het project het het werkpunt tot behoort moet in een status zijn die met Huidig vergelijkt.
 
 ## Uw werk filteren
 

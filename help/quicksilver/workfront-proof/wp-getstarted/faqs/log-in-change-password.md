@@ -8,7 +8,7 @@ description: De Workfront Proof-beheerder kan persoonlijke branding instellen vo
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c67d411e-1cea-4a89-94a3-7503c4ce2eb7
-source-git-commit: 0de21a39e2a4d2239e89eb2b10e44d9c9aa91a27
+source-git-commit: e842e6714d6fa9c3944f03723f95029af1a85379
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 0%
@@ -22,6 +22,7 @@ ht-degree: 0%
 >Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Aanmelden
+
 
 1. Ga naar [ de login pagina ](https://app.proofhq.com/login).
 
@@ -45,6 +46,7 @@ Voor [!UICONTROL Enterprise] - en [!UICONTROL Unlimited] -plannen bieden we SSO-
 ## Wanneer u uw wachtwoord vergeet {#when-you-forget-your-password}
 
 Als u uw wachtwoord bent vergeten, kunt u via [!DNL Workfront Proof] een e-mailbericht voor het opnieuw instellen laten verzenden.
+
 
 1. Ga naar [ de login pagina ](https://app.proofhq.com/login).
 
