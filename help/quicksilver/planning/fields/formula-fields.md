@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
+source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
@@ -181,18 +181,16 @@ OLD:
 
 De de formules van de Planning van Adobe Workfront gebieden steunen de meeste uitdrukkingen van Workfront berekende gebieden.
 
-<!-- make the note available when WF releases the expressions listed in it: 
-
 >[!NOTE]
 >
->The following Workfront expressions are not supported for Workfront Planning formula fields: 
+>De volgende Workfront-expressies worden niet ondersteund voor velden in de Workfront-planningsformule:
 >
 >* SORTASCARRAY
 >* SORTDESCARRAY
 >* ADDHOUR
->* SWITCH
->* FORMAT
--->
+>* SCHAKELEN
+>* INDELING
+
 
 Voor een volledige lijst van de uitdrukkingen van Workfront, zie [ Overzicht van berekende gegevensuitdrukkingen ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
@@ -211,21 +209,6 @@ Daarnaast ondersteunen we de volgende expressies voor velden in de formule Workf
  </thead> 
  <tbody>
 
-<tr>
-   <td><strong> ARRAY </strong> </td>
-   <td> <p>Zet een tekenreeks om in een array. Het scheidingsteken kan elke tekenreeks zijn.</p>
-   <p>De expressie wordt als volgt opgemaakt:</p>
-   <p><code>ARRAY(string1, "delimiter")</code></p>
-   </td>
-  </tr>
-  <tr>
-   <td><strong> ARRAYELEMENT </strong> </td>
-   <td> <p>Retourneert het element bij het opgegeven getal in de array. Als de index buiten de grenzen valt, wordt leeg geretourneerd.</p>
-   <p>De expressie wordt als volgt opgemaakt:</p>
-   <p><code>ARRAYELEMENT(array, number)</code></p>
-   </td>
-  </tr>
-
 <tr> 
    <td><strong> ARRAYJOIN </strong> </td> 
    <td> <p>Retourneert een samengevoegde tekenreeks met scheidingsteken.</p> <p>De expressie wordt als volgt opgemaakt:
@@ -233,14 +216,7 @@ Daarnaast ondersteunen we de volgende expressies voor velden in de formule Workf
 <code> ARRAYJOIN (delimiter, serie)</code>
 </p>
    </td></tr>
-  <tr>
-   <td><strong> ARRAYLENGTH </strong> </td>
-   <td> <p>Retourneert het aantal elementen in de array en is als volgt opgemaakt:</p>
-   <p><code>ARRAYLENGTH(array)</code></p>
-   </td>
-  </tr>
-
-<tr> 
+    <tr> 
    <td><strong> ARRAYUNIQUE </strong> </td> 
    <td> <p>Retourneert een array met unieke waarden.</p> <p>De expressie wordt als volgt opgemaakt:
 

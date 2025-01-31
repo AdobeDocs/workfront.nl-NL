@@ -6,9 +6,9 @@ description: De vooruitgang van het doel wordt gedreven door vooruitgangsindicat
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,11 @@ Uw organisatie moet het volgende hebben om de functionaliteit te gebruiken die i
 
 * Voor het nieuwe plan en de nieuwe licentiestructuur:
 
-   * Een ultiem plan
+   * Een Ultimate-abonnement
 
      of
 
-     Een extra licentie voor Adobe Workfront Goals voor de Adobe Workfront-plannen voor de Premier of Select. Voor informatie, zie [ plan van Adobe Workfront ](https://www.workfront.com/plans).
+     Een extra licentie voor Adobe Workfront Goals voor de Prime- of Select Adobe Workfront-plannen.
 
 * Voor het huidige plan en de licentiestructuur:
 
