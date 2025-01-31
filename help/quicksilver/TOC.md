@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: af7cca08b80dff1baa9a2d9dad421920db008981
+source-git-commit: a9c2abc7f0d75eb9f90a9437eff7ac4d35fbb431
 workflow-type: tm+mt
-source-wordcount: '13017'
+source-wordcount: '13025'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,8 @@ ht-degree: 0%
       * Release 2025 Q2 {#release-25-q2}
          * [Overzicht van de release 2025 Q2](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)
          * [2025 Q2 Beheerverbeteringen](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md)
-         * [ Andere verhogingen tijdens het Tweede Kwartaal 2025 versietimeframe ](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md)<!--* [Look-and-feel updates during the 2025 Q2 release timeframe](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-look-and-feel-updates.md)-->
+         * [Andere verbeteringen tijdens de releaseperiode van het tweede kwartaal van 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md)
+         * [Updates weergeven en weergeven tijdens de releaseperiode van 2025 Q2](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-look-and-feel-updates.md)
       * Release 2025 Q1 {#release-25-q1}
          * [Overzicht van de release Q1 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
          * [2025 Q1 Beheerderverbeteringen](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md)

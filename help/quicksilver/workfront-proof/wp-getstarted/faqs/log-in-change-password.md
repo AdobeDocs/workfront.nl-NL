@@ -8,9 +8,9 @@ description: De Workfront Proof-beheerder kan persoonlijke branding instellen vo
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c67d411e-1cea-4a89-94a3-7503c4ce2eb7
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 0de21a39e2a4d2239e89eb2b10e44d9c9aa91a27
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## Aanmelden
 
-1. Ga naar [ de login pagina ](https://www.proofhq.com/login) (of naar onze website in [ www.proofhq.com ](https://www.proofhq.com/)).
+1. Ga naar [ de login pagina ](https://app.proofhq.com/login).
 
 1. Klik op de knop [!UICONTROL login] rechtsboven.
 1. Voer uw e-mailadres en wachtwoord in.\
@@ -46,7 +46,7 @@ Voor [!UICONTROL Enterprise] - en [!UICONTROL Unlimited] -plannen bieden we SSO-
 
 Als u uw wachtwoord bent vergeten, kunt u via [!DNL Workfront Proof] een e-mailbericht voor het opnieuw instellen laten verzenden.
 
-1. Ga naar [ de login pagina ](https://www.proofhq.com/login) (of naar onze website in [ www.proofhq.com ](https://www.proofhq.com/)).
+1. Ga naar [ de login pagina ](https://app.proofhq.com/login).
 
 1. Klikken **[!UICONTROL Forgot password?]**
 1. Typ in het vak dat wordt weergegeven uw e-mailadres en klik op **[!UICONTROL Get Link]** .
