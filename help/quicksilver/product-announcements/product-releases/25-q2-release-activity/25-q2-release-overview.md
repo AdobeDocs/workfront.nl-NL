@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: a7166f04f5916aebc07d5a5f73fa4f1f74b7a4a8
+source-git-commit: af7cca08b80dff1baa9a2d9dad421920db008981
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -36,10 +36,10 @@ Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen z
 
 ## Verbeteringen voor Adobe Workfront
 
-<!--* [Administrator enhancements](#administrator-enhancements)-->
+* [Beheerdersverbeteringen](#administrator-enhancements)
 * [Andere verbeteringen](#other-enhancements)
 
-<!--### Administrator enhancements
+### Beheerdersverbeteringen
 
 <table>
 <col style="width: 50%;" />
@@ -48,19 +48,19 @@ Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen z
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Represent Adobe Admin Console user changes as "System" in the Workfront update feed</a></p>
-            <p>Now, when the administrator of the Adobe Admin Console makes a change to the user information of a Workfront user, Workfront records this change in the System activity tab of the user's Updates area as belonging to the "System". This refers to the Adobe Admin Console administrator.</p>
+            Expressies die worden toegevoegd aan berekende aangepaste velden</a></p>
+            <p>De volgende expressies zijn nu beschikbaar in door Workfront berekende aangepaste velden: ARRAY, FORMAT, SWITCH, SORTASCARRAY, SORTDESCARRAY, ARRAYLENGTH, ARRAYELEMENT en ADDHOUR. Definities en voorbeelden van elke expressie zijn beschikbaar in de berekeningseditor en op het Experience League.</p>
         </td>
         <td>
-            <p><b>Available on these dates:</b></p>
+            <p><b>Beschikbaar op deze data:</b></p>
             <ul>
-                <li>Preview release: January 30, 2025</li>
-                <li><span class="preview">Production release for all customers: January 30, 2025</span></li>
+                <li>Voorvertoningsrelease: 31 januari 2025</li>
+                <li><span class="preview">Productieversie voor alle klanten: 31 januari 2025</span></li>
             </ul>
         </td>
     </tr>                          
 </tbody>
-</table>-->
+</table>
 
 ### Andere verbeteringen
 
