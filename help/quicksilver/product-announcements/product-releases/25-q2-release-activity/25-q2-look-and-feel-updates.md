@@ -4,9 +4,10 @@ description: De blik-en-voelen updates tijdens het Tweede Kwartaal 2025 versieti
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 31d8528c5e6d31e59492f869a426dc0a5d484edb
+exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
+source-git-commit: dcfae507d531e0062bfa9552f6c397be3e8bb007
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '76'
 ht-degree: 0%
 
 ---
@@ -17,13 +18,13 @@ Deze pagina beschrijft kleine updates van de blik en het gevoel van diverse gebi
 
 Voor een lijst van alle veranderingen beschikbaar met het Tweede Kwartaal 2025 versie, zie [ Tweede Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
 
-## Nieuwe vormgeving voor het dialoogvenster Delen
+<!--## New look and feel for the Share dialog 
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 30 januari 2025; productie voor snelle release: met de release van 25.2 (februari 2025); productie voor driemaandelijkse release: met de release van 25.4 (april 2025)
+>Preview release: January 30, 2025; Production for fast release: With the 25.2 release (February 2025); Production for quarterly release: With the 25.4 release (April 2025)
 
-We hebben de blik en het gevoel van de dialoog voor delen geactualiseerd, een modern ontwerp dat aansluit bij andere gebieden van Workfront. Er zijn kleine visuele verschillen, waaronder:
+We have updated the look and feel of the Share dialog modern design that is consistent with other areas of Workfront. There are slight visual differences including:
 
-* Met de optie &quot;Zichtbaar voor het hele systeem&quot; wordt nu &quot;Iedereen in het systeem kan het zien&quot; weergegeven. Deze optie werkt nog steeds zoals voorheen.
-* Er is een nieuw pictogram voor toegang tot geavanceerde instellingen voor delen.
+* The "Visible system-wide" option now displays "Everyone in the system can view". This option still functions as it did previously. 
+* There is a new icon to access advanced share settings.-->

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 99431b88648919c5f4f90228dbedd97cd2efbd65
+source-git-commit: d8a76c9afacde32336fb8de4da531173e323112a
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1134'
 ht-degree: 0%
 
 ---
@@ -109,6 +109,17 @@ We hebben de lijsten met projecten, taken en goedkeuringen voor uitgaven bijgewe
 Deze update bevat visuele wijzigingen in het gebied. Er is geen functionaliteit gewijzigd.
 
 ## Agile
+
+## Interface-update voor de Teams > Backloggebied
+
+**de versie van de Voorproef: 23 Januari, 2025; De versie van de Productie: Beginnend de week van 13 Februari, 2025**
+
+We hebben het gebied Teams > Backlog bijgewerkt met een moderner ontwerp dat aansluit bij andere gebieden van Workfront.
+
+Deze update bevat de volgende wijzigingen:
+
+* Visuele verbeteringen op het tabblad Artikelen en Problemen en in het dialoogvenster Artikelen opsplitsen
+* Een nieuw dialoogvenster voor het gereedschap Overgangen plannen
 
 ### Interface-update voor de lijst met herhalingen
 
