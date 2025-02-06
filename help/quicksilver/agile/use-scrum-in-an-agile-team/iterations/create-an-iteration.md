@@ -6,9 +6,9 @@ description: Herhalingen vormen een sleutelcomponent voor de ploegen van de Trom
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '989'
 ht-degree: 0%
 
 ---
@@ -48,18 +48,19 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 ## Een herhaling toevoegen
 
-Met de functie [!UICONTROL Add Iteration] kunt u snel een herhaling maken en later taken en problemen toevoegen.
+U kunt een herhaling in de lijst toevoegen om snel een herhaling te maken en er later taken en problemen aan toe te voegen.
 
 {{step1-to-team}}
 
 1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![ Schakelaar teampictogram ](assets/switch-team-icon.png), dan of selecteer een nieuw team van het Trommel van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
 
-1. Klik op het tabblad **[!UICONTROL Iterations]** op **[!UICONTROL Add Iteration]** .
-   ![](assets/add-iteration-adobe-350x275.png)
+1. Klik op het tabblad **[!UICONTROL Iterations]** op **[!UICONTROL Add iteration]** .
+
+   ![ klik toevoegen herhaling ](assets/click-add-iteration.png)
 
 1. Geef het volgende op:
 
-   <table style="table-layout:auto"> 
+   <table style="table-layout:auto">
     <col> 
     <col> 
     <tbody> 
@@ -90,7 +91,7 @@ Met de functie [!UICONTROL Add Iteration] kunt u snel een herhaling maken en lat
     </tbody> 
    </table>
 
-1. Klik op **[!UICONTROL Submit]**. Nu je een herhaling hebt gemaakt, moet je verhalen toevoegen. Voor meer informatie, zie [ verhalen aan een bestaande herhaling ](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md) toevoegen.
+1. Klik op **[!UICONTROL Add iteration]**. Nu je een herhaling hebt gemaakt, moet je verhalen toevoegen. Voor meer informatie, zie [ verhalen aan een bestaande herhaling ](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md) toevoegen.
 
 ## Een herhaling plannen op het tabblad [!UICONTROL Backlog]
 

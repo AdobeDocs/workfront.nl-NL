@@ -6,9 +6,9 @@ description: U kunt een herhaling voor uw agile team schrappen als het niet meer
 author: Lisa
 feature: Agile
 exl-id: db7fbafd-9d22-4035-a130-60ec2e4ad347
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
@@ -57,4 +57,4 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![ Schakelaar teampictogram ](assets/switch-team-icon.png), dan of selecteer een nieuw team van het Trommel van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
 
 1. Selecteer **[!UICONTROL Iterations]** in het linkerdeelvenster.
-1. Selecteer de herhaling die u wilt verwijderen en klik op **[!UICONTROL Delete]** .
+1. Selecteer de herhaling die u wilt schrappen, dan klik het **]pictogram van de Schrapping ![ pictogram van de Schrapping ](assets/delete-icon.png).[!UICONTROL **

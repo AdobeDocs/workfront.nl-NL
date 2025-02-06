@@ -6,7 +6,7 @@ description: U kunt alle herhalingen voor een bepaald team bekijken, of u kunt e
 author: Lisa
 feature: Agile
 exl-id: 1ee14c40-8047-4885-96f0-cddfc2617028
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 0%
@@ -54,7 +54,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. Selecteer in het linkerdeelvenster **[!UICONTROL Iterations]** om een specifieke herhaling te kiezen of selecteer **[!UICONTROL Current Iteration]** .
 
-   ![ Lijst van de Interlatie ](assets/view-iteration-NWE.png)
+   ![ Lijst van de Interlatie ](assets/view-iteration-list.png)
 
    >[!NOTE]
    >
