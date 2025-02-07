@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: d8a76c9afacde32336fb8de4da531173e323112a
+source-git-commit: 36ec1b2e8bdd499718c1a46d2549b46ddce3b4aa
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,14 @@ Deze pagina bevat een overzicht van de interface-updates die we in Adobe Workfro
 Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product ](/help/quicksilver/product-announcements/product-releases/product-releases.md).[
 
 ## Beheer en installatie
+
+### Interface-update voor instellingen voor goedkeuringsproces in Setup
+
+**de versie van de Voorproef: 6 Februari, 2025; De versie van de productie: Te aankondigen**
+
+Het dialoogvenster met goedkeuringsinstellingen is bijgewerkt met een modern ontwerp dat aansluit bij andere gebieden van Workfront.
+
+Als u de instellingen wilt weergeven, gaat u naar Instellingen > Voorkeuren > Goedkeuringen > Selecteer het pictogram Instellingen boven aan de pagina.
 
 ### Interface-update voor het gebied Goedkeuringen in Setup > Groepen
 
@@ -110,7 +118,17 @@ Deze update bevat visuele wijzigingen in het gebied. Er is geen functionaliteit 
 
 ## Agile
 
-## Interface-update voor de Teams > Backloggebied
+### Artikelen en problemen toevoegen aan een herhaling
+
+**de versie van de Voorproef: 6 Februari, 2025; De versie van de productie: Te aankondigen**
+
+We hebben het dialoogvenster Artikel toevoegen en Probleem toevoegen bijgewerkt met een modern ontwerp dat aansluit bij andere gebieden van Workfront.
+
+Deze update bevat visuele wijzigingen in het gebied. Er is geen functionaliteit gewijzigd.
+
+Om deze verandering te bekijken, ga naar Teams > kies een team > Herhalingen > kies een herhaling, dan klik **Nieuw verhaal** of **Nieuwe kwestie**.
+
+### Interface-update voor de Teams > Backloggebied
 
 **de versie van de Voorproef: 23 Januari, 2025; De versie van de Productie: Beginnend de week van 13 Februari, 2025**
 
@@ -123,7 +141,7 @@ Deze update bevat de volgende wijzigingen:
 
 ### Interface-update voor de lijst met herhalingen
 
-**de versie van de Voorproef: 23 Januari, 2025; De versie van de productie: Te aankondigen**
+**de versie van de Voorproef: 23 Januari, 2025; De versie van de Productie: Beginnend de week van 3 Februari, 2025**
 
 We hebben de lijst Teams > Interferenties bijgewerkt met een modernere opzet die aansluit bij andere gebieden van Workfront.
 
