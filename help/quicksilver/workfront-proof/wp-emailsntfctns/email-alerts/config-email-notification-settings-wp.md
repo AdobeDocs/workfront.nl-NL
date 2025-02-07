@@ -7,9 +7,9 @@ description: Via e-mailberichten die door Workfront Proof zijn gegenereerd, word
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
-source-git-commit: 12f1443d69bb9306af29e4ab295f701089cdfb88
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '1876'
+source-wordcount: '1878'
 ht-degree: 0%
 
 ---
@@ -151,7 +151,7 @@ U kunt proefdrukinstellingen configureren voor proefdrukken die u maakt.
 U kunt e-mailwaarschuwingen voor een bepaalde ontvanger wijzigen in een batchactie.
 
 1. Klik op **[!UICONTROL Contacts]** in het navigatievenster aan de linkerkant.
-1. Klik op het **[!UICONTROL More]** menu ![](assets/more-button-small.png) voor de ontvanger en klik vervolgens op **[!UICONTROL View member details]** in het vervolgkeuzemenu.
+1. Klik het **[!UICONTROL More]** menu ![ Meer menu ](assets/more-button-small.png) voor de ontvanger, dan klik **[!UICONTROL View member details]** in het dropdown menu.
 
 1. Open de sectie **[!UICONTROL Shared items]** .
 1. Schakel het selectievakje links van elk item waarvoor u de e-mailwaarschuwing wilt wijzigen in.

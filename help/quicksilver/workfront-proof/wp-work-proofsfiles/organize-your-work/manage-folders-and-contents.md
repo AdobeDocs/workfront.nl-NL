@@ -7,9 +7,9 @@ description: Een van de voordelen van het organiseren van projecten en proefdruk
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cec385de-f1b9-4e28-8493-987536c04905
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1142'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ U kunt uw bestanden eenvoudig beheren vanaf de pagina [!UICONTROL Folder details
    * Zie de naam van de 2} creator van de omslag ****.
 
 1. (Optioneel) Als u de informatie wilt wijzigen die aan een item in de map is gekoppeld, klikt u op het pictogram **[!UICONTROL More]** rechts van het item en gebruikt u een van de opties die worden weergegeven.\
-   ![](assets/more-button-small.png)\
+   ![ Meer menu ](assets/more-button-small.png)\
    Welke opties worden weergegeven, is afhankelijk van het feit of het een proefdruk of een bestand is.
 
    * **[!UICONTROL View proof details]** of **[!UICONTROL View file details]** : opent de pagina Proefgegevens of Bestandsdetails. Voor meer informatie, zie [ Dossiers in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md) beheren of [ Beheert de Details van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
@@ -111,9 +111,9 @@ U kunt uw bestanden eenvoudig beheren vanaf de pagina [!UICONTROL Folder details
 1. (Optioneel) Klik op **[!UICONTROL Activity]** om alle acties in de map in chronologische volgorde weer te geven.
 1. (Optioneel) Klik op de sectie **[!UICONTROL Messages]** om de berichten weer te geven die naar gebruikers in de map zijn verzonden.\
    Wanneer u over een bericht beweegt, kunt u het **i** pictogram aan het recht klikken om het volledige bericht te bekijken.\
-   ![](assets/messages-1-350x74.png)\
+   ![ Berichten ](assets/messages-1-350x74.png)\
    Een pop-up met de volledige e-mailvertoningen:\
-   ![](assets/messages-2-350x252.png)
+   ![ popup van het Bericht ](assets/messages-2-350x252.png)
 
 ## Submappen beheren
 

@@ -7,9 +7,9 @@ description: Revisoren met bewerkingsrechten op een proefdruk kunnen een kopie v
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 7d2db918-ebf0-4c52-9039-54c3eb5515f0
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ De controleurs die zich op de oorspronkelijke proefdruk bevonden, worden automat
 1. Ga naar om het even welke **[!UICONTROL Views]** pagina&#39;s, zoals die in [ worden beschreven leidt Punten op de Pagina van Bekijken in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md).
 
 1. Open het menu **[!UICONTROL More]** voor de proefdruk.\
-   ![](assets/more-button-small.png)
+   ![ Meer menu ](assets/more-button-small.png)
 
 1. Kies **[!UICONTROL Copy]** in het vervolgkeuzemenu.
 1. Geef op de pagina **[!UICONTROL Copy proof]** die wordt weergegeven op of u de kopie wilt maken als een nieuwe versie van de bestaande proefdruk of als een nieuwe proefdruk.\
@@ -77,7 +77,7 @@ Bestaande proefdrukinstellingen kopiëren voor een nieuwe proefdruk:
 1. Ga naar om het even welke **[!UICONTROL Views]** pagina&#39;s, zoals die in [ worden beschreven leidt Punten op de Pagina van Bekijken in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md).
 
 1. Open het menu **[!UICONTROL More]** voor de proefdruk.\
-   ![](assets/more-button-small.png)
+   ![ Meer menu ](assets/more-button-small.png)
 
 1. Kies **[!UICONTROL View proof details]** in het vervolgkeuzemenu.
 1. Klik op **[!UICONTROL More]**.\

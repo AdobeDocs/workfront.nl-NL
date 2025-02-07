@@ -7,9 +7,9 @@ description: Als u bewerkingsrechten hebt op een proefdruk, kunt u de proefdruk 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bc145c50-9ab5-4ee8-9ed7-d307da6b0e8f
-source-git-commit: 178fcf680fbf97e3fa634182f161ba3c73439fe5
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ U kunt controleurs aan een proef toevoegen wanneer u een nieuw proef creeert of 
 ## Revisoren toevoegen aan een bestaand proefexemplaar
 
 1. Klik op het dashboard of een lijstweergave op de knop **[!UICONTROL More]** rechts van de proefdruk.\
-   ![](assets/more-button-small.png)
+   ![ Meer menu ](assets/more-button-small.png)
 
 1. Klik op **[!UICONTROL Share]** in de vervolgkeuzelijst.
 1. Voeg op de pagina **[!UICONTROL Share this version]** die wordt weergegeven revisoren toe door hun e-mailadressen toe te voegen.\

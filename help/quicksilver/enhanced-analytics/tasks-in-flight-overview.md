@@ -7,9 +7,9 @@ description: De taken in vluchtvisualisatie tonen hoeveel taken (binnen de toege
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cc738450-362a-49e8-836f-611fa82057b5
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '749'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 De taken in vluchtvisualisatie tonen hoeveel taken (binnen de toegepaste filtercriteria) voor een project, het percentage van het werk dat voor elke taak wordt voltooid, en hoe op programma lopend zijn de taken.
 
-![](assets/tasks-in-flight-possible-replacement-350x104.png)
+![ Taken in vlucht ](assets/tasks-in-flight-possible-replacement-350x104.png)
 
 ## Toegangsvereisten
 
@@ -59,15 +59,15 @@ De taken in de visualisatie van het vliegplan tonen de volgende taakdetails:
 
 * **Geplande taakduur**: De lengte van een taakbar wijst op de geplande duur, die op de de begindatum en voltooiingsdatum van de taak gebaseerd is.
 
-  ![](assets/tasks-in-flight-duration-350x80.png)
+  ![ Taken in vluchtduur ](assets/tasks-in-flight-duration-350x80.png)
 
 * **voltooide de inspanning van het Werk**: De donkerblauwe kleur binnen een taakbar wijst op de hoeveelheid werk dat voor een taak wordt voltooid. Dit voltooiingspercentage wordt rechts van de taakbalk weergegeven.
 
-  ![](assets/tasks-in-flight-dark-blue-350x35.png)
+  ![ Taken in vlucht donkerblauw ](assets/tasks-in-flight-dark-blue-350x35.png)
 
 * **de inspanning die van het Werk** blijft: De lichtblauwe kleur binnen een taakbar wijst op de hoeveelheid werk die voor een taak moet worden voltooid.
 
-  ![](assets/tasks-in-flight-light-blue-350x35.png)
+  ![ Taken in lucht lichtblauw ](assets/tasks-in-flight-light-blue-350x35.png)
 
 Aan de hand van deze gegevens kunt u bepalen:
 
@@ -80,10 +80,10 @@ Leren hoe te om de beste gegevens voor deze visualisatie te krijgen, zie [ Verbe
 
 ## De taken in de vluchtvisualisatie weergeven
 
-1. Klik het Belangrijkste pictogram van het Menu ![](assets/main-menu-icon-16x12.png), dan uitgezochte **Analytics**.
+1. Klik het Belangrijkste pictogram van het Menu ![ Belangrijkste menupictogram ](assets/main-menu-icon-16x12.png), dan uitgezochte **Analytics**.
 1. (Optioneel) Als u een ander datumbereik wilt gebruiken, selecteert u nieuwe begin- en einddatums in het filter voor het datumbereik.
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![ Uitgezochte datumwaaier ](assets/filters-select-date-range-350x344.png)
 
    Voor informatie bij het gebruiken van de filter van de datumwaaier, zie [ filters in Verbeterde analyses toepassen ](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
@@ -113,7 +113,7 @@ Leren hoe te om de beste gegevens voor deze visualisatie te krijgen, zie [ Verbe
 
    Alle andere visualisaties worden bijgewerkt naar hetzelfde datumbereik en er wordt een tijdframefilter gemaakt.
 
-   ![](assets/timeframe-filter-350x220.png)
+   ![ filter Tijdframe ](assets/timeframe-filter-350x220.png)
 
 1. (Facultatief) om te veranderen hoe de taken worden gesorteerd, klik de **Soort door** menu, dan selecteer een nieuwe sorteeroptie:
 
@@ -125,13 +125,13 @@ Leren hoe te om de beste gegevens voor deze visualisatie te krijgen, zie [ Verbe
 
 1. Controleer de voortgang van de taken in het geselecteerde project en houd de muisaanwijzer boven een specifieke taak om het aantal geplande uren, de geplande vervaldatum en het voltooiingspercentage te zien.
 
-   ![](assets/tasks-in-flight-task-details-350x242.png)
+   ![ Taken in vluchtdetails ](assets/tasks-in-flight-task-details-350x242.png)
 
 1. Klik op een taak om de taakdetails aan de rechterkant van het scherm te openen. Hier kunt u meer informatie over de taak zien, updates weergeven of invoeren of wijzigingen in de taak aanbrengen.
 
-   ![](assets/task-details-qs-350x675.png)
+   ![ de details van de Taak ](assets/task-details-qs-350x675.png)
 
-1. (Facultatief) om de visualisatiegegevens uit te voeren, klik het **pictogram van de Uitvoer** ![](assets/export.png) in de hoger-juiste hoek van de visualisatie, dan selecteer het uitvoerformaat:
+1. (Facultatief) om de visualisatiegegevens uit te voeren, klik het **pictogram van de Uitvoer** ![ pictogram van de Uitvoer ](assets/export.png) in de hoogste juiste hoek van de visualisatie, dan selecteer het uitvoerformaat:
 
    * **Grafiek (PNG)**
    * **Lijst van Gegevens (XSLX)**

@@ -7,9 +7,9 @@ description: De activiteit door teamvisualisatie toont activiteiten die tijdens 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c4f9886c-ce76-43a8-bd43-cb64fff27e79
-source-git-commit: 364b668f23f5437e5cca0c4cc4793b17d444fb56
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '727'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ De activiteit door teamvisualisatie toont activiteiten die tijdens een specifiek
 >De activiteitenvisualisatie van het Project is gelijkaardig aan deze visualisatie, maar het toont activiteit die op mensen wordt gebaseerd die aan projecten eerder dan aan mensen worden toegewezen aan een huisteam wordt toegewezen.\
 >Voor informatie over de activiteitenvisualisatie van het Project, zie [ de activiteitenvisualisatie van het Project in Verbeterde analyses ](../enhanced-analytics/project-activity-overview.md) bekijken.
 
-![](assets/activity-by-team-350x113.png){width="700"}
+![ Activiteit door team ](assets/activity-by-team-350x113.png){width="700"}
 
 ## Toegangsvereisten
 
@@ -75,15 +75,15 @@ De verschillende activiteiten worden in verschillende kleuren weergegeven om een
 
 * **Gebruikers het programma opende**: De paarse dozen tonen dat de mensen op het huisteam op die dag het programma opende. Een donkerdere tint geeft een groter aantal personen aan die zich aanmelden.
 
-  ![](assets/project-activity-users-logged-in.png)
+  ![ Gebruikers het programma geopend ](assets/project-activity-users-logged-in.png)
 
 * **verandering van de status van de Taak**: De roze dozen tonen dat de mensen op het huisteam de status van een taak op die dag veranderden. Een donkerdere schaduw geeft aan dat er een groter aantal taakstatussen wordt gewijzigd.
 
-  ![](assets/project-activity-task-status-changes.png)
+  ![ de statusveranderingen van de Taak ](assets/project-activity-task-status-changes.png)
 
 * **voltooide Taken**: De blauwe dozen tonen dat de mensen op het huisteam een taak op die dag voltooiden. Een donkerdere schaduw geeft een hoger aantal taken aan die worden voltooid.
 
-  ![](assets/project-activity-tasks-completed.png)
+  ![ voltooide Taken ](assets/project-activity-tasks-completed.png)
 
 Als u de muisaanwijzer boven een vak houdt, wordt exact aangegeven hoe vaak de handeling op een bepaalde dag is voltooid. U kunt een team selecteren om een onderbreking van deze activiteiten door elke persoon op het huisteam te zien.
 
@@ -97,14 +97,14 @@ Leren hoe te om de beste gegevens voor deze visualisatie te krijgen, zie [ Verbe
 
 ## De activiteit per teamvisualisatie weergeven
 
-1. Klik het Belangrijkste pictogram van het Menu ![](assets/main-menu-icon-16x12.png), dan uitgezochte **Analytics**.
+1. Klik het Belangrijkste pictogram van het Menu ![ Belangrijkste menupictogram ](assets/main-menu-icon-16x12.png), dan uitgezochte **Analytics**.
 1. In het linkerpaneel, uitgezochte **Mensen**.
 
-   ![](assets/people-area-cropped-qs-350x276.png)
+   ![ Gebied van Mensen ](assets/people-area-cropped-qs-350x276.png)
 
 1. (Optioneel) Als u een ander datumbereik wilt gebruiken, selecteert u nieuwe begin- en einddatums in het filter voor het datumbereik.
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![ Uitgezochte datumwaaier ](assets/filters-select-date-range-350x344.png)
 
    Voor informatie bij het gebruiken van de filter van de datumwaaier, zie [ filters in Verbeterde analyses toepassen ](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
@@ -118,7 +118,7 @@ Leren hoe te om de beste gegevens voor deze visualisatie te krijgen, zie [ Verbe
 
    Alle andere visualisaties worden bijgewerkt naar hetzelfde datumbereik en er wordt een tijdframefilter gemaakt.
 
-   ![](assets/timeframe-filter-350x220.png)
+   ![ filter Tijdframe ](assets/timeframe-filter-350x220.png)
 
 1. Klik op een teamnaam
 
@@ -140,9 +140,9 @@ Leren hoe te om de beste gegevens voor deze visualisatie te krijgen, zie [ Verbe
 
    Donkere kleuren geven een hogere activiteit aan.
 
-   ![](assets/activity-by-team-activity-pop-up-350x155.png)
+   ![ Activiteit door team ](assets/activity-by-team-activity-pop-up-350x155.png)
 
-1. (Optioneel) Als u de visualisatiegegevens wilt exporteren, klikt u op het pictogram Exporteren ![](assets/export.png) in de rechterbovenhoek van de visualisatie en selecteert u de exportindeling:
+1. (Facultatief) om de visualisatiegegevens uit te voeren, klik het pictogram van de Uitvoer ![ ](assets/export.png) in de hoogste juiste hoek van de visualisatie, dan selecteer het uitvoerformaat:
 
    * **Grafiek (PNG)**
    * **Lijst van Gegevens (XSLX)**

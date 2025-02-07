@@ -7,9 +7,9 @@ description: U kunt de recente activiteit voor een bepaald bewijs bekijken. Dit 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e99f4e8f-eb3f-4575-83fb-97acb8932e25
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ U kunt de recente activiteit voor een bepaald bewijs bekijken. Dit omvat alle ac
 
 1. Als de linkerwerkbalk niet wordt weergegeven, klikt u op het pictogram **[!UICONTROL Menu]** in de linkerbovenhoek van de proefdrukviewer.
 
-   ![](assets/menu-icon-in-proofing-viewer-350x188.png)
+   ![ het Proofing van de kijker menu ](assets/menu-icon-in-proofing-viewer-350x188.png)
 
 1. Klik op de werkbalk links van de proefdrukviewer op de knop **[!UICONTROL Proof Details]** .
 

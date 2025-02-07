@@ -7,9 +7,9 @@ description: Op de pagina Proefdrukgegevens kunt u een bestaande proefdruk beher
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e9530c2f-03ff-42f5-acbf-afe303e234e3
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '1123'
+source-wordcount: '1129'
 ht-degree: 0%
 
 ---
@@ -33,10 +33,10 @@ Om te weten te komen hoe te om de Geautomatiseerde proefdrukken van het Werksche
 ## De pagina Proofdetails openen vanuit de proefdrukviewer
 
 1. als de linkerwerkbalk niet wordt weergegeven, klikt u op het pictogram **[!UICONTROL Menu]** in de linkerbovenhoek.\
-   ![](assets/menu-icon-in-proofing-viewer-350x188.png)
+   ![ het Proofing van de kijker menu ](assets/menu-icon-in-proofing-viewer-350x188.png)
 
 1. Klik met de muis op de linkerwerkbalk en klik vervolgens op **[!UICONTROL Proof details]** .\
-   ![](assets/proof-details-in-proofing-viewer-350x215.png)
+   ![ het Proofing de details van de kijker ](assets/proof-details-in-proofing-viewer-350x215.png)
 
    >[!NOTE]
    >

@@ -7,9 +7,9 @@ description: Gebruikers die bewerkingsrechten hebben op een proefdruk, kunnen de
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 0b2a953f-bd70-4606-b327-57412b0d2095
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Voor informatie over het Afval, zie [ herstellen en het Afval in  [!DNL Workfron
 ## Een proefafdruk verwijderen
 
 1. Klik in een lijstweergave op het menu **[!UICONTROL More]** rechts van de proefdruk.\
-   ![](assets/more-button-small.png)
+   ![ Meer menu ](assets/more-button-small.png)
 
 1. Klik op **[!UICONTROL View proof details]** in het vervolgkeuzemenu dat wordt weergegeven.
 1. Klik op de knop **[!UICONTROL Delete]** rechtsboven op de pagina.

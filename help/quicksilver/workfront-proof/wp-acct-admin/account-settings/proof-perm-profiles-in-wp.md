@@ -8,9 +8,9 @@ description: Als Workfront-beheerder of Workfront Proof-beheerder kunt u een pro
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 249aa332-c051-49ac-be85-264d8babfcad
-source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '1758'
+source-wordcount: '1918'
 ht-degree: 0%
 
 ---
@@ -36,12 +36,12 @@ In de volgende tabel worden de machtigingen weergegeven die beschikbaar zijn bij
 | **Eigen Punten** |  |  |  |  | **Andere Punten van Gebruikers** |  |  | **Admin** | **Facturering** |
 |---|---|---|---|---|---|---|---|---|---|
 |   | **voeg toe** | **Mening** | **geeft** uit | **Schrapping** | **Mening** | **geeft** uit | **Schrapping** | **geef uit en schrap** | **geeft** uit |
-| Factureringsbeheer | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) |
-| Beheerder | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) |   |
-| Toezichthouder | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) |   |   |
-| Manager | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) |   |   |   |   |   |
-| Waarnemer |   | ![](assets/cleaner2.png) |   |   |   |   |   |   |   |
-| Bezoeker |   | ![](assets/cleaner2.png) |   |   |   |   |   |   |   |
+| Factureringsbeheer | ![ Vinkje ](assets/cleaner2.png) | ![ Vinkje ](assets/cleaner2.png) | ![ Vinkje ](assets/cleaner2.png) | ![ Vinkje ](assets/cleaner2.png) | ![ Vinkje ](assets/cleaner2.png) | ![ Vinkje ](assets/cleaner2.png) | ![ Vinkje ](assets/cleaner2.png) | ![ Vinkje ](assets/cleaner2.png) | ![ Vinkje ](assets/cleaner2.png) |
+| Beheerder | ![ Vinkje ](assets/cleaner2.png) | ![ Vinkje ](assets/cleaner2.png) | ![ Vinkje ](assets/cleaner2.png) | ![ Vinkje ](assets/cleaner2.png) | ![ Vinkje ](assets/cleaner2.png) | ![ Vinkje ](assets/cleaner2.png) | ![ Vinkje ](assets/cleaner2.png) | ![ Vinkje ](assets/cleaner2.png) |   |
+| Toezichthouder | ![ Vinkje ](assets/cleaner2.png) | ![ Vinkje ](assets/cleaner2.png) | ![ Vinkje ](assets/cleaner2.png) | ![ Vinkje ](assets/cleaner2.png) | ![ Vinkje ](assets/cleaner2.png) | ![ Vinkje ](assets/cleaner2.png) | ![ Vinkje ](assets/cleaner2.png) |   |   |
+| Manager | ![ Vinkje ](assets/cleaner2.png) | ![ Vinkje ](assets/cleaner2.png) | ![ Vinkje ](assets/cleaner2.png) | ![ Vinkje ](assets/cleaner2.png) |   |   |   |   |   |
+| Waarnemer |   | ![ Vinkje ](assets/cleaner2.png) |   |   |   |   |   |   |   |
+| Bezoeker |   | ![ Vinkje ](assets/cleaner2.png) |   |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -66,35 +66,35 @@ In de volgende secties worden elk profiel en de machtigingen beschreven die aan 
 
 De facturerende Beheerders hebben toegang tot [ montages van de Rekening in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md) and [The [!DNL Workfront Proof]  het Factureren Pagina ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md), en hebben de volgende toestemmingen:
 
-![](assets/cleaner2.png) kan proefdrukken produceren, dossiers uploaden, en omslagen tot stand brengen. Voor meer informatie, zie [ Proefdrukken in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) produceren, [ uploadt Dossiers en de Inhoud van het Web aan  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md), en [ creeer Omslagen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
+![ Vinkje ](assets/cleaner2.png) kan proeven produceren, dossiers uploaden, en omslagen creëren. Voor meer informatie, zie [ Proefdrukken in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) produceren, [ uploadt Dossiers en de Inhoud van het Web aan  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md), en [ creeer Omslagen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
 
-![](assets/cleaner2.png) kan, eigen proeven en dossiers bekijken uitgeven en schrappen zij creëren.
+![ Vinkje ](assets/cleaner2.png) kan, eigen proeven en dossiers bekijken uitgeven en schrappen zij creëren.
 
-![](assets/cleaner2.png) kan, proeven en dossiers bekijken uitgeven en schrappen die door alle gebruikers in de organisatie worden gecreeerd.
+![ Vinkje ](assets/cleaner2.png) kan, proeven en dossiers bekijken uitgeven en schrappen die door alle gebruikers in de organisatie worden gecreeerd.
 
-![](assets/cleaner2.png) kan de openbare omslagen van andere gebruikers schrappen. Voor meer informatie, zie [ Mappen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) beheren.
+![ Vinkje ](assets/cleaner2.png) kan de openbare omslagen van andere gebruikers schrappen. Voor meer informatie, zie [ Mappen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) beheren.
 
-![](assets/cleaner2.png) heeft uitgeeft rechten op alle proeven die in de rekening worden gecreeerd.
+![ Vinkje ](assets/cleaner2.png) heeft rechten op alle proeven uitgeven die in de rekening worden gecreeerd.
 
-![](assets/cleaner2.png) kan als eigenaar worden geplaatst Dropzone. Voor meer informatie, zie [ dropzone binnen vormen  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
+![ Vinkje ](assets/cleaner2.png) kan als eigenaar worden geplaatst Dropzone. Voor meer informatie, zie [ dropzone binnen vormen  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 
-![](assets/cleaner2.png) kan tot de het factureren pagina toegang hebben en de het facturerings details uitgeven. Voor meer informatie, zie [ de  [!DNL Workfront Proof]  Facturerende Pagina ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
+![ Checkmark ](assets/cleaner2.png) kan tot de het factureren pagina toegang hebben en de het factureren details uitgeven. Voor meer informatie, zie [ de  [!DNL Workfront Proof]  Facturerende Pagina ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
-![](assets/cleaner2.png) kan tot de pagina van de Montages van de Rekening toegang hebben en de rekeningsdetails uitgeven. Voor meer informatie, zie [ montages van de Rekening in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
+![ Vinkje ](assets/cleaner2.png) kan tot de pagina van de Montages van de Rekening toegang hebben en de rekeningsdetails uitgeven. Voor meer informatie, zie [ montages van de Rekening in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 
-![](assets/cleaner2.png) kan het afval leegmaken. Voor meer informatie, zie [ Herstel en Leeg het Afval in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
+![ Vinkje ](assets/cleaner2.png) kan het afval leeg maken. Voor meer informatie, zie [ Herstel en Leeg het Afval in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
 
-![](assets/cleaner2.png) kan, gebruikers toevoegen uitgeven en schrappen.
+![ Vinkje ](assets/cleaner2.png) kan toevoegen, uitgeven en gebruikers schrappen.
 
-![](assets/cleaner2.png) kan groepen tot stand brengen en nieuwe contacten toevoegen.
+![ Checkmark ](assets/cleaner2.png) kan groepen tot stand brengen en nieuwe contacten toevoegen.
 
-![](assets/cleaner2.png) kan contacten schrappen.
+![ Checkmark ](assets/cleaner2.png) kan contacten schrappen.
 
-![](assets/cleaner2.png) kan proefdrukken uitgeven als er geen antwoorden op hen zijn.
+![ Vinkje ](assets/cleaner2.png) kan proeven uitgeven als er geen antwoorden op hen zijn.
 
-![](assets/no2.png) kan proefdrukantwoorden niet uitgeven.
+![ Rood X ](assets/no2.png) kan proefdrukantwoorden niet uitgeven.
 
-![](assets/no2.png) kan niet de privé omslagen van andere Gebruikers schrappen. Voor meer informatie, zie [ Mappen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) beheren.
+![ Rood X ](assets/no2.png) kan niet de privé omslagen van andere Gebruikers schrappen. Voor meer informatie, zie [ Mappen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) beheren.
 
 Voor informatie over de montages van de Rekening, zie [ montages van de Rekening in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 
@@ -104,127 +104,127 @@ Voor informatie bij het Factureren, zie [ de  [!DNL Workfront Proof]  Factureren
 
 De beheerders hebben toegang tot [ montages van de Rekening ](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) en hebben de volgende toestemmingen:
 
-![](assets/cleaner2.png) kan proefdrukken tot stand brengen, dossiers uploaden, en omslagen tot stand brengen. Voor meer informatie, zie [ Proefdrukken in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) produceren, [ uploadt Dossiers en de Inhoud van het Web aan  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md), en [ creeer Omslagen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
+![ Vinkje ](assets/cleaner2.png) kan proeven tot stand brengen, dossiers uploaden, en omslagen creëren. Voor meer informatie, zie [ Proefdrukken in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) produceren, [ uploadt Dossiers en de Inhoud van het Web aan  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md), en [ creeer Omslagen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
 
-![](assets/cleaner2.png) kan, proeven en dossiers bekijken uitgeven en schrappen zij creeerden.
+![ Vinkje ](assets/cleaner2.png) kan, proeven en dossiers bekijken uitgeven en schrappen zij creeerden.
 
-![](assets/cleaner2.png) kan, proeven en dossiers bekijken uitgeven en schrappen die door alle gebruikers in de organisatie worden gecreeerd.
+![ Vinkje ](assets/cleaner2.png) kan, proeven en dossiers bekijken uitgeven en schrappen die door alle gebruikers in de organisatie worden gecreeerd.
 
-![](assets/cleaner2.png) kan de openbare omslagen van andere Gebruikers schrappen. Voor meer informatie, zie [ Mappen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) beheren.
+![ Vinkje ](assets/cleaner2.png) kan de openbare omslagen van andere Gebruikers schrappen. Voor meer informatie, zie [ Mappen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) beheren.
 
-![](assets/cleaner2.png) heeft uitgeeft rechten op alle proeven die in de rekening worden gecreeerd.
+![ Vinkje ](assets/cleaner2.png) heeft rechten op alle proeven uitgeven die in de rekening worden gecreeerd.
 
-![](assets/cleaner2.png) kan als eigenaar worden geplaatst Dropzone. Voor meer informatie, zie [ dropzone binnen vormen  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
+![ Vinkje ](assets/cleaner2.png) kan als eigenaar worden geplaatst Dropzone. Voor meer informatie, zie [ dropzone binnen vormen  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 
-![](assets/cleaner2.png) kan tot de pagina van de Montages van de Rekening toegang hebben en de rekeningsdetails uitgeven. Voor meer informatie, zie [ montages van de Rekening in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
+![ Vinkje ](assets/cleaner2.png) kan tot de pagina van de Montages van de Rekening toegang hebben en de rekeningsdetails uitgeven. Voor meer informatie, zie [ montages van de Rekening in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 
-![](assets/cleaner2.png) kan het afval leegmaken. Voor meer informatie, zie [ Herstel en Leeg het Afval in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
+![ Vinkje ](assets/cleaner2.png) kan het afval leeg maken. Voor meer informatie, zie [ Herstel en Leeg het Afval in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
 
-![](assets/cleaner2.png) kan, gebruikers toevoegen uitgeven en schrappen.
+![ Vinkje ](assets/cleaner2.png) kan toevoegen, uitgeven en gebruikers schrappen.
 
-![](assets/cleaner2.png) kan groepen tot stand brengen en nieuwe contacten toevoegen.
+![ Checkmark ](assets/cleaner2.png) kan groepen tot stand brengen en nieuwe contacten toevoegen.
 
-![](assets/cleaner2.png) kan contacten schrappen.
+![ Checkmark ](assets/cleaner2.png) kan contacten schrappen.
 
-![](assets/cleaner2.png) kan proefdrukken uitgeven als er geen antwoorden op hen zijn.
+![ Vinkje ](assets/cleaner2.png) kan proeven uitgeven als er geen antwoorden op hen zijn.
 
-![](assets/no2.png) kan proefdrukantwoorden niet uitgeven.
+![ Rood X ](assets/no2.png) kan proefdrukantwoorden niet uitgeven.
 
-![](assets/no2.png) kan niet de privé omslagen van andere Gebruikers schrappen. Voor meer informatie, zie [ Mappen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) beheren.
+![ Rood X ](assets/no2.png) kan niet de privé omslagen van andere Gebruikers schrappen. Voor meer informatie, zie [ Mappen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) beheren.
 
-![](assets/no2.png) kan tot de het Factureren pagina toegang hebben of de het factureringsdetails uitgeven. Voor meer informatie, zie [ de  [!DNL Workfront Proof]  Facturerende Pagina ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
+![ Rood X ](assets/no2.png) kan tot de het Factureren pagina toegang hebben of de het facturerende details uitgeven. Voor meer informatie, zie [ de  [!DNL Workfront Proof]  Facturerende Pagina ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
 ### Toezichthouder {#supervisor}
 
 De toezichthouders hebben de volgende toestemmingen:
 
-![](assets/cleaner2.png) kan proefdrukken tot stand brengen, dossiers uploaden, en omslagen tot stand brengen. Voor meer informatie, zie [ Proefdrukken in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) produceren, [ uploadt Dossiers en de Inhoud van het Web aan  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md), en [ creeer Omslagen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
+![ Vinkje ](assets/cleaner2.png) kan proeven tot stand brengen, dossiers uploaden, en omslagen creëren. Voor meer informatie, zie [ Proefdrukken in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) produceren, [ uploadt Dossiers en de Inhoud van het Web aan  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md), en [ creeer Omslagen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
 
-![](assets/cleaner2.png) kan, eigen proeven en dossiers bekijken uitgeven en schrappen zij creeerden.
+![ Vinkje ](assets/cleaner2.png) kan, eigen proeven en dossiers bekijken uitgeven en schrappen zij creeerden.
 
-![](assets/cleaner2.png) kan, proeven en dossiers bekijken uitgeven en schrappen die door alle gebruikers in de organisatie worden gecreeerd.
+![ Vinkje ](assets/cleaner2.png) kan, proeven en dossiers bekijken uitgeven en schrappen die door alle gebruikers in de organisatie worden gecreeerd.
 
-![](assets/cleaner2.png) kan de openbare omslagen van andere Gebruikers schrappen. Voor meer informatie, zie [ Mappen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) beheren.
+![ Vinkje ](assets/cleaner2.png) kan de openbare omslagen van andere Gebruikers schrappen. Voor meer informatie, zie [ Mappen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) beheren.
 
-![](assets/cleaner2.png) heeft uitgeeft rechten op alle proeven die in de rekening worden gecreeerd.
+![ Vinkje ](assets/cleaner2.png) heeft rechten op alle proeven uitgeven die in de rekening worden gecreeerd.
 
-![](assets/cleaner2.png) kan als eigenaar worden geplaatst Dropzone. Voor meer informatie, zie [ dropzone binnen vormen  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
+![ Vinkje ](assets/cleaner2.png) kan als eigenaar worden geplaatst Dropzone. Voor meer informatie, zie [ dropzone binnen vormen  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 
-![](assets/cleaner2.png) kan groepen tot stand brengen en nieuwe contacten toevoegen.
+![ Checkmark ](assets/cleaner2.png) kan groepen tot stand brengen en nieuwe contacten toevoegen.
 
-![](assets/cleaner2.png) kan contacten schrappen.
+![ Checkmark ](assets/cleaner2.png) kan contacten schrappen.
 
-![](assets/cleaner2.png) kan proefdrukken uitgeven als er geen antwoorden op hen zijn.
+![ Vinkje ](assets/cleaner2.png) kan proeven uitgeven als er geen antwoorden op hen zijn.
 
-![](assets/no2.png) kan proefdrukantwoorden niet uitgeven.
+![ Rood X ](assets/no2.png) kan proefdrukantwoorden niet uitgeven.
 
-![](assets/no2.png) kan niet de privé omslagen van andere Gebruikers schrappen. Voor meer informatie, zie [ Omslagen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md).
+![ Rood X ](assets/no2.png) kan niet de privé omslagen van andere Gebruikers schrappen. Voor meer informatie, zie [ Omslagen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md).
 
-![](assets/no2.png) kan tot de het Factureren pagina of montages van de Rekening toegang hebben niet. Voor meer informatie, zie [ de  [!DNL Workfront Proof]  Facturerende Pagina ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) en [ montages van de Rekening in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
+![ Rood X ](assets/no2.png) kan tot de het Factureren pagina of montages van de Rekening toegang hebben. Voor meer informatie, zie [ de  [!DNL Workfront Proof]  Facturerende Pagina ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) en [ montages van de Rekening in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 
-![](assets/no2.png) kan gebruikers toevoegen, uitgeven of schrappen niet.
+![ Rood X ](assets/no2.png) kan toevoegen, uitgeven of gebruikers schrappen niet.
 
-![](assets/no2.png) kan het afval niet leeg maken. Voor meer informatie, zie [ Herstel en Leeg het Afval in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
+![ Rood X ](assets/no2.png) kan het afval niet leeg. Voor meer informatie, zie [ Herstel en Leeg het Afval in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
 
 ### Manager {#manager}
 
 Managers hebben de volgende machtigingen:
 
-![](assets/cleaner2.png) kan proefdrukken tot stand brengen, dossiers uploaden, en omslagen tot stand brengen. Voor meer informatie, zie [ Proefdrukken in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) produceren, [ uploadt Dossiers en de Inhoud van het Web aan  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md), en [ creeer Omslagen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
+![ Vinkje ](assets/cleaner2.png) kan proeven tot stand brengen, dossiers uploaden, en omslagen creëren. Voor meer informatie, zie [ Proefdrukken in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) produceren, [ uploadt Dossiers en de Inhoud van het Web aan  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md), en [ creeer Omslagen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
 
-![](assets/cleaner2.png) kan, eigen proeven en dossiers bekijken uitgeven en schrappen zij creëren of bezitten.
+![ Vinkje ](assets/cleaner2.png) kan, eigen proeven en dossiers bekijken uitgeven en schrappen zij creëren of bezitten.
 
-![](assets/cleaner2.png) kan, proef van andere gebruikers zien herzien en goedkeuren die uitdrukkelijk met hen (read-only rechten op alles in een gedeelde omslag) worden gedeeld. Voor meer informatie, zie [ Beheer de Rollen van het Bewijs binnen  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+![ Vinkje ](assets/cleaner2.png) kan, proef van andere gebruikers zien herzien en goedkeuren die uitdrukkelijk met hen (read-only rechten op alles in een gedeelde omslag) worden gedeeld. Voor meer informatie, zie [ Beheer de Rollen van het Bewijs binnen  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
-![](assets/cleaner2.png) kan groepen tot stand brengen en een nieuw contact toevoegen.
+![ Vinkje ](assets/cleaner2.png) kan groepen tot stand brengen en een nieuw contact toevoegen.
 
-![](assets/no2.png) kan niet, proeven en dossiers bekijken uitgeven of schrappen die door andere gebruikers in de organisatie worden gecreeerd.
+![ Rood X ](assets/no2.png) kan niet, proeven en dossiers bekijken uitgeven of schrappen die door andere gebruikers in de organisatie worden gecreeerd.
 
-![](assets/no2.png) kan geen proefdrukken of antwoorden uitgeven.
+![ Rood X ](assets/no2.png) kan geen proeven of antwoorden uitgeven.
 
-![](assets/no2.png) kan niet de privé omslagen van andere Gebruikers schrappen. Voor meer informatie, zie [ Mappen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) beheren.
+![ Rood X ](assets/no2.png) kan niet de privé omslagen van andere Gebruikers schrappen. Voor meer informatie, zie [ Mappen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) beheren.
 
-![](assets/no2.png) kan niet de openbare omslagen van andere Gebruikers schrappen. Voor meer informatie, zie [ Mappen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) beheren.
+![ Rood X ](assets/no2.png) kan niet de openbare omslagen van andere Gebruikers schrappen. Voor meer informatie, zie [ Mappen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) beheren.
 
-![](assets/no2.png) kan tot de het Factureren pagina of montages van de Rekening toegang hebben niet. Voor meer informatie, zie [ de  [!DNL Workfront Proof]  Facturerende Pagina ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) en [ montages van de Rekening in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
+![ Rood X ](assets/no2.png) kan tot de het Factureren pagina of montages van de Rekening toegang hebben. Voor meer informatie, zie [ de  [!DNL Workfront Proof]  Facturerende Pagina ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) en [ montages van de Rekening in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 
-![](assets/no2.png) kan niet als eigenaar worden geplaatst Dropzone. Voor meer informatie, zie [ dropzone binnen vormen  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
+![ Rood X ](assets/no2.png) kan niet als eigenaar worden geplaatst Dropzone. Voor meer informatie, zie [ dropzone binnen vormen  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 
-![](assets/no2.png) kan het afval niet leeg maken. Voor meer informatie, zie [ Herstel en Leeg het Afval in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
+![ Rood X ](assets/no2.png) kan het afval niet leeg. Voor meer informatie, zie [ Herstel en Leeg het Afval in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
 
-![](assets/no2.png) kan gebruikers toevoegen, uitgeven of schrappen niet.
+![ Rood X ](assets/no2.png) kan toevoegen, uitgeven of gebruikers schrappen niet.
 
-![](assets/no2.png) kan geen contacten schrappen.
+![ Rood X ](assets/no2.png) kan geen contacten schrappen.
 
 ### Waarnemer {#observer}
 
 Waarnemers hebben de volgende machtigingen:
 
-![](assets/cleaner2.png) kan, proef van andere gebruikers zien herzien en goedkeuren die uitdrukkelijk met hen (read-only rechten aan alles in een gedeelde omslag) worden gedeeld. Voor meer informatie, zie [ Beheer de Rollen van het Bewijs binnen  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+![ Vinkje ](assets/cleaner2.png) kan, proef van andere gebruikers zien herzien en goedkeuren die uitdrukkelijk met hen worden gedeeld (Read-only rechten op alles in een gedeelde omslag). Voor meer informatie, zie [ Beheer de Rollen van het Bewijs binnen  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
-![](assets/cleaner2.png) kan dossiers bekijken die uitdrukkelijk met hen worden gedeeld.
+![ Vinkje ](assets/cleaner2.png) kan dossiers bekijken die uitdrukkelijk met hen worden gedeeld.
 
-![](assets/cleaner2.png) Kan contactpersonen en groepen weergeven
+![ Vinkje ](assets/cleaner2.png) kan contacten en groepen bekijken
 
-![](assets/no2.png) kan geen proefdrukken tot stand brengen, dossiers uploaden, en omslagen tot stand brengen. Voor meer informatie, zie [ Dossiers en de Inhoud van het Web aan  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) uploaden.
+![ Rood X ](assets/no2.png) kan geen proefdrukken tot stand brengen, dossiers uploaden, en omslagen creëren. Voor meer informatie, zie [ Dossiers en de Inhoud van het Web aan  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) uploaden.
 
-![](assets/no2.png) kan niet, proeven en dossiers bekijken uitgeven of schrappen die door andere gebruikers in de organisatie worden gecreeerd.
+![ Rood X ](assets/no2.png) kan niet, proeven en dossiers bekijken uitgeven of schrappen die door andere gebruikers in de organisatie worden gecreeerd.
 
-![](assets/no2.png) kan geen proefdrukken of antwoorden uitgeven.
+![ Rood X ](assets/no2.png) kan geen proeven of antwoorden uitgeven.
 
-![](assets/no2.png) kan geen punten schrappen die in de organisatie worden gecreeerd.
+![ Rood X ](assets/no2.png) kan om het even welke punten schrappen die in de organisatie worden gecreeerd.
 
-![](assets/no2.png) kan tot de het Factureren pagina of montages van de Rekening toegang hebben niet. Voor meer informatie, zie [ de  [!DNL Workfront Proof]  Facturerende Pagina ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) en [ montages van de Rekening in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
+![ Rood X ](assets/no2.png) kan tot de het Factureren pagina of montages van de Rekening toegang hebben. Voor meer informatie, zie [ de  [!DNL Workfront Proof]  Facturerende Pagina ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) en [ montages van de Rekening in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 
-![](assets/no2.png) kan niet als eigenaar worden geplaatst Dropzone. Voor meer informatie, zie [ dropzone binnen vormen  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
+![ Rood X ](assets/no2.png) kan niet als eigenaar worden geplaatst Dropzone. Voor meer informatie, zie [ dropzone binnen vormen  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 
-![](assets/no2.png) kan het afval niet leeg maken. Voor meer informatie, zie [ Herstel en Leeg het Afval in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
+![ Rood X ](assets/no2.png) kan het afval niet leeg. Voor meer informatie, zie [ Herstel en Leeg het Afval in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
 
-![](assets/no2.png) kan gebruikers toevoegen, uitgeven of schrappen niet.
+![ Rood X ](assets/no2.png) kan toevoegen, uitgeven of gebruikers schrappen niet.
 
-![](assets/no2.png) kan geen groepen tot stand brengen of nieuwe contacten toevoegen.
+![ Rood X ](assets/no2.png) kan geen groepen tot stand brengen of nieuwe contacten toevoegen.
 
-![](assets/no2.png) kan geen contacten schrappen.
+![ Rood X ](assets/no2.png) kan geen contacten schrappen.
 
 >[!NOTE]
 >
@@ -238,31 +238,31 @@ Waarnemers hebben de volgende machtigingen:
 
 Bezoekers hebben de volgende machtigingen:
 
-![](assets/cleaner2.png) kan, proef van andere gebruikers zien herzien en goedkeuren die uitdrukkelijk met hen (read-only rechten op alles in een gedeelde omslag) worden gedeeld. Voor meer informatie, zie [ Beheer de Rollen van het Bewijs binnen  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+![ Vinkje ](assets/cleaner2.png) kan, proef van andere gebruikers zien herzien en goedkeuren die uitdrukkelijk met hen (read-only rechten op alles in een gedeelde omslag) worden gedeeld. Voor meer informatie, zie [ Beheer de Rollen van het Bewijs binnen  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
-![](assets/cleaner2.png) kan dossiers bekijken die uitdrukkelijk met hen worden gedeeld.
+![ Vinkje ](assets/cleaner2.png) kan dossiers bekijken die uitdrukkelijk met hen worden gedeeld.
 
-![](assets/no2.png) Kan geen contactpersonen en groepen weergeven
+![ Rood X ](assets/no2.png) kan geen contacten en groepen bekijken
 
-![](assets/no2.png) kan geen proefdrukken tot stand brengen, dossiers uploaden, en omslagen tot stand brengen. Voor meer informatie, zie [ Dossiers en de Inhoud van het Web aan  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) uploaden.
+![ Rood X ](assets/no2.png) kan geen proefdrukken tot stand brengen, dossiers uploaden, en omslagen creëren. Voor meer informatie, zie [ Dossiers en de Inhoud van het Web aan  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) uploaden.
 
-![](assets/no2.png) kan niet, proeven en dossiers bekijken uitgeven of schrappen die door andere gebruikers in de organisatie worden gecreeerd.
+![ Rood X ](assets/no2.png) kan niet, proeven en dossiers bekijken uitgeven of schrappen die door andere gebruikers in de organisatie worden gecreeerd.
 
-![](assets/no2.png) kan geen proefdrukken of antwoorden uitgeven.
+![ Rood X ](assets/no2.png) kan geen proeven of antwoorden uitgeven.
 
-![](assets/no2.png) kan geen punten schrappen die in de organisatie worden gecreeerd.
+![ Rood X ](assets/no2.png) kan om het even welke punten schrappen die in de organisatie worden gecreeerd.
 
-![](assets/no2.png) kan tot de het Factureren pagina of montages van de Rekening toegang hebben niet. Voor meer informatie, zie [ de  [!DNL Workfront Proof]  Facturerende Pagina ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) en [ montages van de Rekening in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
+![ Rood X ](assets/no2.png) kan tot de het Factureren pagina of montages van de Rekening toegang hebben. Voor meer informatie, zie [ de  [!DNL Workfront Proof]  Facturerende Pagina ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) en [ montages van de Rekening in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 
-![](assets/no2.png) kan niet als eigenaar worden geplaatst Dropzone. Voor meer informatie, zie [ dropzone binnen vormen  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
+![ Rood X ](assets/no2.png) kan niet als eigenaar worden geplaatst Dropzone. Voor meer informatie, zie [ dropzone binnen vormen  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 
-![](assets/no2.png) kan het afval niet leeg maken. Voor meer informatie, zie [ Herstel en Leeg het Afval in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
+![ Rood X ](assets/no2.png) kan het afval niet leeg. Voor meer informatie, zie [ Herstel en Leeg het Afval in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
 
-![](assets/no2.png) kan gebruikers toevoegen, uitgeven of schrappen niet.
+![ Rood X ](assets/no2.png) kan toevoegen, uitgeven of gebruikers schrappen niet.
 
-![](assets/no2.png) kan geen groepen tot stand brengen of nieuwe contacten toevoegen.
+![ Rood X ](assets/no2.png) kan geen groepen tot stand brengen of nieuwe contacten toevoegen.
 
-![](assets/no2.png) kan geen contacten schrappen.
+![ Rood X ](assets/no2.png) kan geen contacten schrappen.
 
 >[!NOTE]
 >
@@ -276,15 +276,15 @@ Bezoekers hebben de volgende machtigingen:
 
 Met het gastprofiel krijgt u toegang tot proefdrukken voor revisoren die geen eigen Workfront Proof-account hebben. Gasten hebben rechtstreeks toegang tot proefdrukken die met hen worden gedeeld via hun persoonlijke e-mailberichten.
 
-![](assets/cleaner2.png) kan, proefdrukken bekijken herzien en goedkeuren die uitdrukkelijk met hen worden gedeeld.
+![ Vinkje ](assets/cleaner2.png) kan, proef bekijken en goedkeuren die uitdrukkelijk met hen worden gedeeld.
 
-![](assets/cleaner2.png) kan dossiers bekijken die uitdrukkelijk met hen worden gedeeld.
+![ Vinkje ](assets/cleaner2.png) kan dossiers bekijken die uitdrukkelijk met hen worden gedeeld.
 
-![](assets/no2.png) kan tot het Dashboard toegang hebben niet.
+![ Rood X ](assets/no2.png) heeft geen toegang tot het dashboard.
 
-![](assets/no2.png) kan geen die omslagen hebben met hen worden gedeeld. Voor meer informatie, zie [ Mappen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) beheren.
+![ Rood X ](assets/no2.png) kan geen omslagen hebben die met hen worden gedeeld. Voor meer informatie, zie [ Mappen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) beheren.
 
-![](assets/no2.png) kan niet als Auteurs of Moderators aan de proeven worden toegevoegd. Voor meer informatie, zie [ Beheer de Rollen van het Bewijs binnen  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+![ Rood X ](assets/no2.png) kan niet als Auteurs of Moderators aan de proeven worden toegevoegd. Voor meer informatie, zie [ Beheer de Rollen van het Bewijs binnen  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
 >[!NOTE]
 >
@@ -300,11 +300,11 @@ Beheerders en factureringsbeheerders kunnen de machtigingsprofielen van alle geb
 
    * Ga naar de pagina **[!UICONTROL Contacts]** .
 
-1. Klik op de naam van de gebruiker wiens machtigingen u wilt bewerken. ![](assets/screenshot-2018-03-30-14-16-05a-350x69.png)
+1. Klik op de naam van de gebruiker wiens machtigingen u wilt bewerken. ![ Uitgezochte gebruiker ](assets/screenshot-2018-03-30-14-16-05a-350x69.png)
 
 1. Klik op het vervolgkeuzemenu **[!UICONTROL Permissions profile]** en selecteer een nieuw machtigingsprofiel. :
 
-   ![ Screenshot_2018-03-30_14-18-03.png ](assets/screenshot-2018-03-30-14-18-03a.png)
+   ![ het profiel van Toestemmingen ](assets/screenshot-2018-03-30-14-18-03a.png)
 
    De profielen van de toestemming zijn Beheerder, Supervisor, Manager, en Waarnemer.
 

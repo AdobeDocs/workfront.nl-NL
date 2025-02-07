@@ -7,9 +7,9 @@ description: Met Workfront Proof kunt u proefdrukken maken van documenten of web
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 49657851-2948-4d3b-b2ce-c8359eeb315b
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '2159'
+source-wordcount: '2161'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Met [!DNL Workfront Proof] kunt u proefdrukken maken van documenten of websites 
 
    Voor meer details over het proefdrukken van websites, zie [ een proef voor een URL ](#generate-a-proof-for-a-url) produceren.
 
-   ![](assets/proof-website-350x65.png)
+   ![ Website van het proef ](assets/proof-website-350x65.png)
 
 1. (Optioneel) Wijzig de bestandsnamen van geüploade bestanden:
 

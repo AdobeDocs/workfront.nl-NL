@@ -7,9 +7,9 @@ description: U kunt vergelijkingen van twee proefdrukken naast elkaar weergeven.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d4ec0c53-1451-4475-aa38-2319c6432936
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '939'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ U kunt vergelijkingen van twee proefdrukken naast elkaar weergeven. Dit kunnen t
 1. Open de proefdruk met meerdere versies die u wilt vergelijken.
 1. Klik in de linkerbovenhoek van de proefdrukviewer die wordt weergegeven op de naam van de proefdruk. Dan, in de lijst van versies die verschijnt, klik **vergelijk** pictogram naast de versie u wilt openen en vergelijken.
 
-   ![](assets/compare-proofs-choose-version-350x115.jpg)
+   ![ vergelijkt proefdrukken kiezen versie ](assets/compare-proofs-choose-version-350x115.jpg)
 
    De proefdrukken worden naast elkaar weergegeven, met de nieuwere versie aan de linkerkant.
 

@@ -7,9 +7,9 @@ description: U kunt dossiers aan  [!DNL Workfront Proof]  uploaden zonder een pr
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 88693211-b5f5-4f99-97a9-5c29039f4f01
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ U kunt [!DNL Workfront Proof] ook gebruiken als cloudopslag voor bestanden zonde
 Een bestand uploaden naar [!DNL Workfront Proof] :
 
 1. Klik in de linkerbovenhoek van [!DNL Workfront Proof] op de pijl-omlaag op de knop **[!UICONTROL New proof]** en klik vervolgens op **[!UICONTROL Upload file]** in het menu dat wordt weergegeven.\
-   ![](assets/new-proof-button-menu.png)
+   ![ Nieuwe proefdrukknop ](assets/new-proof-button-menu.png)
 
 1. De pagina **[!DNL New File]** wordt weergegeven.
 1. Voer een van de volgende handelingen uit om de inhoud te uploaden of toe te voegen die u nodig hebt als proefdruk:

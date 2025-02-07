@@ -7,9 +7,9 @@ description: Als a [!DNL Workfront Proof]  beheerder, kunt u uw openbare en priv
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bb4cfe03-d2c8-47f5-8c5c-de5218935ab5
-source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -41,10 +41,10 @@ Op de pagina [!UICONTROL Groups] kunt u:
       * De privé Groepen zijn zichtbaar slechts aan hun scheppers.
       * Verwijder de geselecteerde groepen.
 
-        ![](assets/trash-button.png)
+        ![ pictogram van de Schrapping ](assets/trash-button.png)
    * U kunt acties uitvoeren op Groepen ook op elke Groep afzonderlijk van hun eigen **[!UICONTROL More]** (drie punten) menu:
 
-     ![](assets/more-button-small.png)
+     ![ Meer menu ](assets/more-button-small.png)
 
       * Groepdetails weergeven.
 
@@ -102,7 +102,7 @@ Op de pagina die wordt weergegeven, kunt u alle personen weergeven die zich mome
 
 1. Schakel de selectievakjes in naast de naam of namen van de contactpersonen die u aan een groep wilt toevoegen.
 1. Klik op **[!UICONTROL Add to group]** .
-   ![](assets/screenshot-2018-04-06-15-27-17.png)
+   ![ toevoegen aan groep ](assets/screenshot-2018-04-06-15-27-17.png)
 Het dialoogvenster **[!UICONTROL Add to group]** wordt weergegeven.
 
 1. In de sectie **[!UICONTROL People]** :

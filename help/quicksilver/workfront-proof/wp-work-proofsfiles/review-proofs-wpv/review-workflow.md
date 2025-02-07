@@ -7,9 +7,9 @@ description: In het deelvenster Workflow wordt de workflow van uw proefdruk weer
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 4e6736bb-2859-4309-841b-67ed83dab6a0
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Het deelvenster [!UICONTROL Workflow] openen:
 
    Het deelvenster **[!UICONTROL Workflow]** wordt weergegeven.
 
-   ![](assets/workflow-panel-350x115.png)
+   ![ paneel van het Werkschema ](assets/workflow-panel-350x115.png)
 
    In elke sectie in het deelvenster Workflow worden de voortgang en status van de proefdruk, de proeffasen en de controleurs weergegeven.
 

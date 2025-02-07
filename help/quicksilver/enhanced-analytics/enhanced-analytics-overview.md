@@ -7,9 +7,9 @@ description: Verbeterde analyses zijn een krachtig hulpmiddel in Adobe Workfront
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a14ad57c-859b-43df-84c0-575ccda86e50
-source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1204'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Uitgebreide analyses kunnen u helpen identificeren:
 * Hoe vaak de gebruikers specifieke acties tijdens een project voltooien
 * De voortgang van projecten en de individuele taken binnen een project
 
-![](assets/nwe-full-screen-analytics-350x222.png)
+![ Analytics ](assets/nwe-full-screen-analytics-350x222.png)
 
 Om gebruiksgevallen te zien of meer te leren over het beheren van huidig werk en het plannen voor toekomstig werk met Verbeterde analyses, zie [ Verbeterde analytische het Leren Wegen ](https://one.workfront.com/s/enhanced-analytics-program).
 

@@ -7,9 +7,9 @@ description: U kunt aangepaste weergaven van uw bestanden en proefdrukken maken 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 7c6f3fdd-f767-4e8d-937a-1c7645aba55b
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '2360'
+source-wordcount: '2374'
 ht-degree: 0%
 
 ---
@@ -46,10 +46,10 @@ Een aangepaste weergave maken:
 
    * Als u een nieuwe aangepaste weergave wilt maken op basis van een bestaande standaardweergave, selecteert u in het keuzemenu de bestaande standaardweergave die u als basis voor de nieuwe aangepaste weergave wilt gebruiken. Klik op het pictogram **[!UICONTROL View Settings]** en klik vervolgens op **[!UICONTROL Copy]** om een nieuwe aangepaste weergave te maken.
 
-   * ![](assets/proof-custom-view-icon.png)
+   * ![ pictogram van de Mening van de Douane ](assets/proof-custom-view-icon.png)
 
    * Als u een geheel nieuwe aangepaste weergave wilt maken, klikt u op het pictogram **[!UICONTROL New View]** .
-   * ![](assets/proof-newview.png)
+   * ![ Nieuwe mening ](assets/proof-newview.png)
 
 1. Geef in de sectie **[!UICONTROL Details]** de volgende informatie op:
 
@@ -59,7 +59,7 @@ Een aangepaste weergave maken:
 1. Bepaal in de sectie **[!UICONTROL Columns]** welke kolommen u in de aangepaste weergave wilt opnemen.
 
    1. Klik op het pictogram Pijl-rechts.
-   1. ![](assets/proof-view-rightarrow.png)
+   1. ![ Juiste pijl ](assets/proof-view-rightarrow.png)
 
    1. Klik de naam van de geselecteerde kolom tweemaal.
    1. U moet ten minste één kolom selecteren en er kan slechts één kolom worden toegevoegd.
@@ -274,10 +274,10 @@ U kunt een aangepaste weergave gemakkelijk bewerken. Een aangepaste weergave bew
 
 1. Klik op de knop [!UICONTROL Views] (1)
 1. Selecteer de weergave die u wilt bewerken in het keuzemenu.\
-   ![](assets/proof-view-edit.png)
+   ![ geef mening ](assets/proof-view-edit.png) uit
 
 1. Klik op de knop **[!UICONTROL View Options]** en klik vervolgens op **[!UICONTROL Edit view]** .\
-   ![](assets/proof-view-options.png)\
+   ![ de opties van de Mening ](assets/proof-view-options.png)\
    De pagina Aangepaste weergave bewerken wordt weergegeven.
 
 1. Klik op het menu [!UICONTROL Actions] . (3)\
@@ -312,7 +312,7 @@ Een aangepaste weergave kopiëren:
    ![ het kopiëren_custom_view.png ](assets/copying-custom-view-350x258.png)
 
 1. Op de aangepaste weergavepagina Kopiëren worden alle oorspronkelijke instellingen gevuld. Wijzig de weergave Aangepast naar keuze en klik op de knop **[!UICONTROL Copy view]** . U wordt direct naar de nieuwe weergave geleid.\
-   ![](assets/copy-custom-view-page-350x542.png)
+   ![ de douanemening van het Exemplaar ](assets/copy-custom-view-page-350x542.png)
 
 ## Aangepaste weergaven delen
 

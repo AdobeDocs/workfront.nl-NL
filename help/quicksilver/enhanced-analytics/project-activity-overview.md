@@ -7,9 +7,9 @@ description: De de activiteitenvisualisatie van het Project toont een gezamenlij
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9ef52be8-48d0-4f83-a214-dd32e794c73e
-source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
@@ -68,15 +68,15 @@ Projectactiviteiten worden in verschillende kleuren weergegeven om een overzicht
 
 * **Gebruikers het programma opende**: De paarse dozen tonen dat de mensen aan het project dat op die dag het programma worden geopend worden toegewezen. Een donkerdere tint geeft een groter aantal personen aan die zich aanmelden.
 
-  ![](assets/project-activity-users-logged-in.png)
+  ![ Gebruikers het programma geopend ](assets/project-activity-users-logged-in.png)
 
 * **de statusverandering van de Taak**: De roze dozen tonen dat de mensen het statuut van een taak voor het project op die dag veranderden. Een donkerdere schaduw geeft aan dat er een groter aantal taakstatussen wordt gewijzigd.
 
-  ![](assets/project-activity-task-status-changes.png)
+  ![ de statusverandering van de Taak ](assets/project-activity-task-status-changes.png)
 
 * **voltooide Taken**: De blauwe dozen tonen dat de mensen een taak voor het project voltooiden. Een donkerdere schaduw geeft een hoger aantal taken aan die worden voltooid.
 
-  ![](assets/project-activity-tasks-completed.png)
+  ![ voltooide Taken ](assets/project-activity-tasks-completed.png)
 
 Als u de muisaanwijzer boven een vak houdt, wordt exact aangegeven hoe vaak de handeling op een bepaalde dag is voltooid. U kunt een project selecteren om een verdeling van deze activiteiten door elke individuele medewerker op het project te zien.
 
@@ -90,10 +90,10 @@ Leren hoe te om de beste gegevens voor deze visualisatie te krijgen, zie [ Verbe
 
 ## De projectactiviteit visualiseren
 
-1. Klik het Belangrijkste pictogram van het Menu ![](assets/main-menu-icon-16x12.png), dan uitgezochte **Analytics**.
+1. Klik het Belangrijkste pictogram van het Menu ![ Belangrijkste menupictogram ](assets/main-menu-icon-16x12.png), dan uitgezochte **Analytics**.
 1. (Optioneel) Als u een ander datumbereik wilt gebruiken, selecteert u nieuwe begin- en einddatums in het filter voor het datumbereik.
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![ Uitgezochte datumwaaier ](assets/filters-select-date-range-350x344.png)
 
    Voor informatie bij het gebruiken van de filter van de datumwaaier, zie [ filters in Verbeterde analyses toepassen ](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
@@ -111,7 +111,7 @@ Leren hoe te om de beste gegevens voor deze visualisatie te krijgen, zie [ Verbe
 
    Alle andere visualisaties worden bijgewerkt naar hetzelfde datumbereik en er wordt een tijdframefilter gemaakt.
 
-   ![](assets/timeframe-filter-350x220.png)
+   ![ filter Tijdframe ](assets/timeframe-filter-350x220.png)
 
 1. (Facultatief) om te veranderen hoe de projecten worden gesorteerd, klik de **Soort door** menu, dan selecteer een nieuwe sorteeroptie:
 
@@ -126,7 +126,7 @@ Leren hoe te om de beste gegevens voor deze visualisatie te krijgen, zie [ Verbe
 
    Alle andere visualisaties op de pagina worden bijgewerkt zodat deze overeenkomen met de geselecteerde pagina.
 
-   ![](assets/pagination-350x118.png)
+   ![ Paginering ](assets/pagination-350x118.png)
 
 1. Klik een project in visualisatie om meer details voor het project te zien.
 
@@ -134,9 +134,9 @@ Leren hoe te om de beste gegevens voor deze visualisatie te krijgen, zie [ Verbe
 
 1. Plaats de muis boven een vak om de datum te zien waarop de gebruikers een handeling hebben uitgevoerd en het aantal keren dat de handeling voor die dag is voltooid.
 
-   ![](assets/project-activity-activity-pop-up-350x137.png)
+   ![ popup van de Activiteit ](assets/project-activity-activity-pop-up-350x137.png)
 
-1. (Facultatief) om de visualisatiegegevens uit te voeren, klik het **pictogram van de Uitvoer** ![](assets/export.png) in de hoger-juiste hoek van de visualisatie, dan selecteer het uitvoerformaat:
+1. (Facultatief) om de visualisatiegegevens uit te voeren, klik het **pictogram van de Uitvoer** ![ pictogram van de Uitvoer ](assets/export.png) in de hoogste juiste hoek van de visualisatie, dan selecteer het uitvoerformaat:
 
    * **Grafiek (PNG)**
    * **Lijst van Gegevens (XSLX)**

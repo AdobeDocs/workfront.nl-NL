@@ -7,9 +7,9 @@ description: In  [!DNL Workfront Proof], bestaan de proefdrukken in verschillend
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cd120e53-d6c2-4929-904f-a9f72903f074
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
@@ -71,14 +71,14 @@ Voor informatie over het bekijken van een lijst van alle proeven in een specifie
 
 1. Klik op de pijl **[!UICONTROL Dashboard]** naast de proefdruk die u wilt weergeven of wijzig de status van de proefdruk.**[!UICONTROL Expand]**
 
-   ![](assets/screen-shot-2018-05-02-at-11.31.29-am-350x85.png)
+   ![ uitbreiden ](assets/screen-shot-2018-05-02-at-11.31.29-am-350x85.png)
 
    De sectie **[!UICONTROL Workflow process]** wordt weergegeven.
 
-   ![](assets/screen-shot-2018-05-02-at-11.33.20-am-350x226.png)
+   ![ proces van het Werkschema ](assets/screen-shot-2018-05-02-at-11.33.20-am-350x226.png)
 
 1. Bekijk **[!UICONTROL State]** in **[!UICONTROL Workflow process]**.
 
 1. (Optioneel) Als u de status wilt wijzigen, plaatst u de muis boven de huidige status **[!UICONTROL State]** en klikt u op de vervolgkeuzelijst. Selecteer vervolgens een nieuwe status.
 
-   ![](assets/screen-shot-2018-05-02-at-11.35.30-am.png)
+   ![ Nieuwe staat ](assets/screen-shot-2018-05-02-at-11.35.30-am.png)

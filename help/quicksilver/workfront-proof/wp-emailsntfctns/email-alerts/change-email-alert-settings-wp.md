@@ -7,9 +7,9 @@ description: U kunt het  [!DNL Workfront Proof]  e-mailalarm ook veranderen u vo
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ac24a339-6f9f-4452-a37b-023752447700
-source-git-commit: c989687e9adaf12a31a920921bf8fb69425ca1c5
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ U kunt ook de e-mailwaarschuwingen van [!DNL Workfront Proof] wijzigen die u ont
 
 ## De e-mailwaarschuwingen voor de controleurs wijzigen op een proefdruk
 
-1. Klik in een lijstweergave op het menu **[!UICONTROL More]** rechts van de proefdruk. ![](assets/more-button-small.png)
+1. Klik in een lijstweergave op het menu **[!UICONTROL More]** rechts van de proefdruk. ![ Meer menu ](assets/more-button-small.png)
 
 1. Klik op **[!UICONTROL View proof details]**.
 1. Open op de pagina **[!UICONTROL Proof details]** het vervolgkeuzemenu van [!UICONTROL email alert] voor een revisor en selecteer vervolgens de nieuwe instelling.

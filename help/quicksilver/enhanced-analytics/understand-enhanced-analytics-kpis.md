@@ -7,9 +7,9 @@ description: Boven aan het scherm in het gedeelte Enhanced Analytics worden vier
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 44e43618-9a0b-4585-8659-c1fe055516be
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '524'
 ht-degree: 0%
 
 ---
@@ -29,22 +29,22 @@ Leren hoe te om filters toe te voegen, zie [ filters in Verbeterde analyses toep
 
 Uit de voltooide KPI-projecten blijkt hoeveel projecten binnen de gefilterde periode zijn voltooid en hoe het percentage is gestegen of gedaald sinds de vorige periode. Onder deze aantallen, kunt u het aantal projecten zien die in de vorige tijdspanne, evenals het aantal dagen in de vorige tijdspanne werden voltooid.
 
-![](assets/kpi-projects-completed-350x182.png)
+![ voltooide projecten KPI ](assets/kpi-projects-completed-350x182.png)
 
 ## Projecten tijdig voltooid
 
 De projecten die tijdig zijn voltooid, geven het percentage van de projecten binnen de gefilterde periode aan die op tijd zijn voltooid, en de mate waarin het percentage is gestegen of gedaald sinds de vorige periode. Onder deze aantallen, kunt u het percentage projecten zien die op tijd in de vorige tijdspanne, evenals het aantal dagen in de vorige tijdspanne werden voltooid.
 
-![](assets/kpi-projects-completed-on-time-350x180.png)
+![ KPI projecten die op tijd worden voltooid ](assets/kpi-projects-completed-on-time-350x180.png)
 
 ## Gem. projectduur
 
 Het Gem. De projectduur KPI toont de gemiddelde hoeveelheid voltooiingstijd-in dagen, weken, of jaar-voor projecten met daadwerkelijke einddata binnen de gefilterde tijdspanne, evenals hoe het percentage sinds de vorige tijdspanne steeg of daalde. Onder deze aantallen, kunt u de gemiddelde hoeveelheid voltooiingstijd voor projecten met daadwerkelijke einddata in de vorige tijdspanne zien, evenals het aantal dagen in de vorige tijdspanne.
 
-![](assets/kpi-avg.-project-duration-350x168.png)
+![ KPI gemiddelde projectduur ](assets/kpi-avg.-project-duration-350x168.png)
 
 ## Gem. taken per project
 
 Het gemiddelde, de taken per project KPI toont het gemiddelde aantal taken die aan projecten binnen de gefilterde tijdspanne worden toegewezen, evenals hoe het percentage sinds de vorige tijdspanne steeg of daalde. Onder deze aantallen, kunt u het gemiddelde aantal taken zien die aan projecten in de vorige tijdspanne worden toegewezen, evenals het aantal dagen in de vorige tijdspanne.
 
-![](assets/kpi-average-tasks-per-project-350x179.png)
+![ KPI gemiddelde taken per project ](assets/kpi-average-tasks-per-project-350x179.png)

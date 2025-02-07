@@ -7,9 +7,9 @@ description: Uit de visualisatie van het vliegplan blijkt hoeveel projecten (bin
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c64ed752-151a-40f7-ab18-684e2cd032bc
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '885'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Uit de visualisatie van het vliegplan blijkt hoeveel projecten (binnen de toegepaste filtercriteria) op de vlucht waren, welke veranderingen in de toestand zich gedurende de gehele looptijd van deze projecten hebben voorgedaan en in hoeverre deze projecten zich aan de geplande uiterste uitvoeringstermijnen hebben gehouden.
 
-![](assets/flight-plan-350x132.png)
+![ vliegplan ](assets/flight-plan-350x132.png)
 
 ## Toegangsvereisten
 
@@ -67,11 +67,11 @@ De visualisatie van het vliegplan toont de volgende projectdetails:
 
 * **Geplande duur**: De horizontale blauwe lijn vertegenwoordigt de geplande lengte van het project, met de driehoeken bij één van beide eind van de lijn die op de begindatum en einddatum wijzen.
 
-  ![](assets/planned-duration-line-350x37.png)
+  ![ Geplande duur ](assets/planned-duration-line-350x37.png)
 
 * **Ware duur**: De dikke, gekleurde lijn onder de geplande duur vertegenwoordigt de daadwerkelijke lengte van het project. De kleur van de lijn verandert afhankelijk van de voorwaarde van het project op dat specifieke tijdstip in het leven van het project.
 
-  ![](assets/actual-duration-line.png)
+  ![ Ware duur ](assets/actual-duration-line.png)
 
 * **Ware voorwaarde**: De dikke, gekleurde lijn toont ook de voorwaarde van een project op verschillende momenten in tijd. De kleur van de lijn verandert afhankelijk van de voorwaarde van het project:
 
@@ -79,7 +79,7 @@ De visualisatie van het vliegplan toont de volgende projectdetails:
    * **Oranje**: Bij Risico
    * **Rood**: In Problemen
 
-  ![](assets/actual-condition-color.png)
+  ![ Ware voorwaarde ](assets/actual-condition-color.png)
 
 Door over een projectrij in de visualisatie van het Plan van de Vlucht te bewegen, kunt u informatie over geplande timeframe van het project, de huidige projectvoorwaarde, en-indien van toepassing-de douanevoorwaarde zien. Voor een diepgaandere weergave van wat de duur of de voorwaarde kan hebben beïnvloed, kunt u naar de andere visualisaties in het gedeelte Uitgebreide analyse kijken.
 
@@ -95,10 +95,10 @@ Voor informatie over hoe te om de beste gegevens voor deze visualisatie te krijg
 
 ## De visualisatie van het vliegplan bekijken
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon-16x12.png), dan uitgezochte **Analytics**.
+1. Klik het **pictogram ![ Belangrijkste het menupictogram van het 1} Hoofdmenu ](assets/main-menu-icon-16x12.png), dan uitgezochte** Analytics **.**
 1. (Optioneel) Als u een ander datumbereik wilt gebruiken, selecteert u nieuwe begin- en einddatums in het filter voor het datumbereik.
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![ Uitgezochte datumwaaier ](assets/filters-select-date-range-350x344.png)
 
    Voor informatie bij het gebruiken van de filter van de datumwaaier, zie [ filters in Verbeterde analyses toepassen ](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
@@ -112,7 +112,7 @@ Voor informatie over hoe te om de beste gegevens voor deze visualisatie te krijg
 
    Alle andere visualisaties worden bijgewerkt naar hetzelfde datumbereik en er wordt een tijdframefilter gemaakt.
 
-   ![](assets/timeframe-filter-350x220.png)
+   ![ filter Tijdframe ](assets/timeframe-filter-350x220.png)
 
 1. (Facultatief) om te veranderen hoe de projecten worden gesorteerd, klik de **Soort door** menu in de hoger-juiste hoek van de visualisatie van het vliegplan, dan selecteer een nieuwe sorterende optie:
 
@@ -127,7 +127,7 @@ Voor informatie over hoe te om de beste gegevens voor deze visualisatie te krijg
 
    Alle andere visualisaties op de pagina worden bijgewerkt zodat deze overeenkomen met de geselecteerde pagina.
 
-   ![](assets/pagination-350x118.png)
+   ![ Paginering ](assets/pagination-350x118.png)
 
 1. Houd de muisaanwijzer boven het diagram van de projectbalk om de blauwe datumlijn en de volgende details weer te geven:
 
@@ -135,9 +135,9 @@ Voor informatie over hoe te om de beste gegevens voor deze visualisatie te krijg
    * Huidige voorwaarde
    * Aangepaste voorwaarde (indien van toepassing)
 
-   ![](assets/project-bar-graph-350x143.png)
+   ![ grafiek van de bar van het Project ](assets/project-bar-graph-350x143.png)
 
-1. (Facultatief) om de visualisatiegegevens uit te voeren, klik het **pictogram van de Uitvoer ![](assets/export.png) in de hoger-juiste hoek van de visualisatie, dan selecteer het uitvoerformaat:**
+1. (Facultatief) om de visualisatiegegevens uit te voeren, klik het **pictogram van de Uitvoer ![ pictogram van de Uitvoer ](assets/export.png) in de hoogste juiste hoek van de visualisatie, dan selecteer het uitvoerformaat:**
 
    * **Grafiek (PNG)**
    * **Lijst van Gegevens (XSLX)**
