@@ -6,7 +6,7 @@ description: Overzicht van levering rapporteren
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: a2cb33150ae50b00485f894dc81d7c719524a182
 workflow-type: tm+mt
 source-wordcount: '1531'
 ht-degree: 0%
@@ -43,11 +43,11 @@ Overweeg het volgende wanneer het plannen van rapporten voor levering:
 
 Er zijn verscheidene groottegrenzen die beïnvloeden hoe de rapporten in Workfront tonen en hoe zij door een handuitvoer, een geleverd rapport, of door API uitvoeren:
 
-* **5MB dossiergrootte:** de groottelimiet van het Dossier voor om het even welk uitgevoerd rapport dat voor levering wordt gepland. Als een geëxporteerd bestand dat is gekoppeld aan een e-mailbericht groter is dan 5 MB, wordt een koppeling waarnaar het bestand kan worden gedownload per e-mail verzonden in plaats van het bijgevoegde geëxporteerde rapport.
+* **10MB dossiergrootte:** de groottelimiet van het Dossier voor om het even welk uitgevoerd rapport dat voor levering wordt gepland. Als een geëxporteerd bestand dat is gekoppeld aan een e-mailbericht groter is dan 5 MB, wordt een koppeling waarnaar het bestand kan worden gedownload per e-mail verzonden in plaats van het bijgevoegde geëxporteerde rapport.
 
   >[!NOTE]
   >
-  >Excel .xlsx-bestanden die groter zijn dan 5MB, genereren geen e-mail. U kunt het rapport handmatig naar deze indeling exporteren. Voor informatie over het uitvoeren van rapporten, zie [ gegevens van de Uitvoer ](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+  >Excel .xlsx-bestanden die groter zijn dan 10 MB, genereren geen e-mail. U kunt het rapport handmatig naar deze indeling exporteren. Voor informatie over het uitvoeren van rapporten, zie [ gegevens van de Uitvoer ](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
 * **50.000 rijen:** het aantal rijen van gegevens toegestaan in een rapportuitvoer voor .pdf en Van het Lusje Gescheiden dossiers.
 
