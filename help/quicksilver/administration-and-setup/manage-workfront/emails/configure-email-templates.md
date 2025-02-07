@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '828'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. In het linkerpaneel, klik **E-mail** > **Meldingen** > **E-mailMalplaatjes**.
 
-   ![](assets/email-templates-tab-under-setup-email-notifications-area.png)
+   ![ E-mailmalplaatjes tabel ](assets/email-templates-tab-under-setup-email-notifications-area.png)
 
 1. Klik **Nieuw E-mailMalplaatje**.
 
@@ -239,7 +239,7 @@ Een project dat u beheert is te laat geworden
 
 Dit produceert een e-mail gelijkend op het volgende:
 
-![](assets/project-became-late-email.png)
+![ Project werd late e-mail ](assets/project-became-late-email.png)
 
 #### Herinnering voor taak of probleem bij starten {#task-or-issue-about-to-start-reminder-example}
 

@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 9bdaec2f-acdf-4cbf-a308-ebcc861dbb89
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1441'
+source-wordcount: '1443'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Toegang krijgen tot uitgiftestatussen op systeemniveau:
 
 1. Klik het **lusje van Kwesties** om de uitgevende statussen beschikbaar in Workfront te zien.
 
-   ![](assets/issue-status.png)
+   ![ status van de Uitgave ](assets/issue-status.png)
 
 ## Statussen van systeemuitgiften
 

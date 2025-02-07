@@ -6,9 +6,9 @@ navigation-topic: configure-proofing-functionality
 title: Configureer of er automatisch proefdrukken worden gegenereerd
 description: U kunt configureren of het systeem automatisch proefdrukken genereert wanneer gebruikers die u opgeeft documenten aan Workfront toevoegen. Deze instelling is standaard uitgeschakeld.
 author: Courtney
-source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -45,17 +45,17 @@ U moet het volgende hebben:
 
 ## Configureer of er automatisch proeven worden gegenereerd voor één gebruiker
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Gebruikers** ![](assets/users-icon-in-main-menu.png).
+1. Klik het **pictogram 1} van het Belangrijkste Menu ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** Gebruikers **![ Gebruikers ](assets/users-icon-in-main-menu.png).**
 1. Selecteer een gebruiker met het proef toegang, dan klik **uitgeven**.
 1. In de **sectie van de Voorkeur**, laat toe of maak **automatisch produceren proeven wanneer het uploaden van documenten** checkbox onbruikbaar.
 
-   ![](assets/autogenerate-proofs-350x216.png)
+   ![ autogenerate proefdrukken ](assets/autogenerate-proofs-350x216.png)
 
 1. Klik **sparen Veranderingen**.
 
 ## Configureer of er automatisch proeven worden gegenereerd voor meerdere gebruikers
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Gebruikers** ![](assets/users-icon-in-main-menu.png).
+1. Klik het **pictogram 1} van het Belangrijkste Menu ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** Gebruikers **![ pictogram van Gebruikers ](assets/users-icon-in-main-menu.png).**
 1. Selecteer gebruikers met het proef toegang, dan klik **uitgeven**.
 
    >[!IMPORTANT]
@@ -64,7 +64,7 @@ U moet het volgende hebben:
 
 1. In de **sectie van de Voorkeur**, laat **automatisch proeven toe wanneer het uploaden van documenten** checkbox, dan uitgezochte **ja** of **Nr**.
 
-   ![](assets/autogenerate-proofs-bulk-350x285.png)
+   ![ Bulk autogenerate proefdrukken ](assets/autogenerate-proofs-bulk-350x285.png)
 
 1. Klik **sparen Veranderingen**.
 

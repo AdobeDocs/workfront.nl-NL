@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6fee45a6-1a55-4351-8b08-88244c742ed5
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '517'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Als beheerder van Workfront, kunt u de orde van project, taak veranderen, en sta
 
 <!--The system version of this snippet mentions a single group because a sysadmin call also reorder statuses there. Group admin version of this article is still needed.-->
 
-![](assets/statuses.png)
+![ Statussen ](assets/statuses.png)
 
 >[!NOTE]
 >
@@ -125,7 +125,7 @@ Statussen worden standaard in de volgende volgorde weergegeven:
 1. In het linkerpaneel, klik **Voorkeur van het Project > Statussen**.
 1. (Voorwaardelijk) als u statussen voor een groep opnieuw rangschikt, begin de naam van de groep in het vakje in de hoger-juiste hoek te typen, dan klik de naam wanneer het verschijnt.
 
-   ![](assets/system-statuses-in-upper-rt-corner-group.jpg)
+   ![ status van het Systeem ](assets/system-statuses-in-upper-rt-corner-group.jpg)
 
 1. Boven de lijst van Statussen die toont, klik de **Projecten** of **Taken** tabel.
 
@@ -137,12 +137,12 @@ Statussen worden standaard in de volgende volgorde weergegeven:
 
 ## Statussen opnieuw ordenen voor problemen
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+1. Klik het **pictogram 1} van het Belangrijkste Menu ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** de montages van de Opstelling **![ Gear pictogram ](assets/gear-icon-settings.png).**
 
 1. Klik **Voorkeur van het Project > Statussen.**
 1. (Voorwaardelijk) als u statussen voor een groep opnieuw rangschikt, begin de naam van de groep in het vakje in de hoger-juiste hoek te typen, dan klik de naam wanneer het verschijnt.
 
-   ![](assets/issue-statuses-group-name.png)
+   ![ status van de Uitgave voor groep ](assets/issue-statuses-group-name.png)
 
 1. Klik de **Kwesties** tabel.
 1. (Facultatief) selecteer een type van kwestie (**Bug Rapport**, **de Orde van de Verandering**, **Uitgave**, of **Verzoek**).

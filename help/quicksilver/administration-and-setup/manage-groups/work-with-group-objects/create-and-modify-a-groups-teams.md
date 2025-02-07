@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51967cd7-962e-4354-a04b-6df4e31e70c6
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1018'
 ht-degree: 0%
 
 ---
@@ -54,10 +54,10 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **Groepen** ![](assets/groups-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![ Groepen ](assets/groups-icon.png).
 
 1. Klik op de naam van de groep waarvoor u teams wilt maken of wijzigen.
-1. In het linkerpaneel, klik **Teams** ![](assets/teams.png) om van de teams een lijst te maken verbonden aan de groep en met om het even welke subgroups het kan hebben.
+1. In het linkerpaneel, klik **Teams** ![ Teams ](assets/teams.png) om van de teams een lijst te maken verbonden aan de groep en met om het even welke subgroups het kan hebben.
 
 1. Voer een van de volgende handelingen uit:
 
@@ -100,7 +100,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
       </tbody> 
      </table>
 
-   * **geeft teams** uit: Selecteer minstens één team, klik **** uitgeven pictogram ![](assets/edit-icon.png), dan gebruik de volgende opties om het te vormen:
+   * **geeft teams** uit: Selecteer minstens één team, klik **het** pictogram ![ uitgeven pictogram ](assets/edit-icon.png) uit, dan gebruik de volgende opties om het te vormen:
 
      <table style="table-layout:auto"> 
       <col> 
@@ -149,5 +149,5 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
       </tbody> 
      </table>
 
-   * **de teams van de Schrapping**: Selecteer minstens één team, dan klik het pictogram van de Schrapping ![](assets/delete.png).
-   * **Uitvoer de lijst van teams**: Klik **Uitvoer** ![](assets/export.png), dan selecteer het dossierformaat u voor de uitgevoerde lijst wilt.
+   * **de teams van de Schrapping**: Selecteer minstens één team, dan klik het pictogram van de Schrapping ![ pictogram van de Schrapping ](assets/delete.png).
+   * **Uitvoer de lijst van teams**: Klik **het pictogram van de Uitvoer** ![ Uitvoer ](assets/export.png), dan selecteer het dossierformaat u voor de uitgevoerde lijst wilt.

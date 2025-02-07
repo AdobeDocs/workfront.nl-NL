@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '2155'
+source-wordcount: '2159'
 ht-degree: 0%
 
 ---
@@ -82,13 +82,13 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **Groepen** ![](assets/groups-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![ pictogram van Groepen ](assets/groups-icon.png).
 
 1. Klik op de naam van de groep waarvoor u de ontgrendelde taak en voorkeuren voor uitgaven wilt configureren.
 1. Op de pagina die voor de groep, in het linkerpaneel toont, klik **de Voorkeur van de Taak &amp; van de Kwestie**.
 1. Op de pagina die verschijnt, ga met één van de 5 die secties onder deze stappen worden vermeld om montages voor de Gebieden Nieuwe Gebieden te vormen de Gebreken van de Taak, Kwesties, Schrapping, Ware Datums, en Toegang, dan klik **sparen**.
 
-   Als u de muisaanwijzer boven het vergrendelingspictogram ![](assets/lock-toggle-button-dimmed.png) houdt voor een voorkeur die u moet configureren en knopinfo weergeeft om aan te geven dat deze vergrendeld is, kunt u de Workfront-beheerder vragen deze voor alle groepen in de organisatie te ontgrendelen.
+   Als u over het slotpictogram ![ pictogram van het Slot ](assets/lock-toggle-button-dimmed.png) voor een voorkeur beweegt die u moet vormen en toont van een hulpmiddeluiteinde om u te vertellen dat gesloten is, kunt u uw beheerder van Workfront vragen om het voor alle groepen in de organisatie te ontgrendelen.
 
    Wanneer deze ontgrendeld is, kunnen u en andere groepsbeheerders deze afzonderlijk configureren voor uw eigen groepen. U kunt deze ook vergrendelen voor uw groep en voor alle subgroepen onder uw groep.
 

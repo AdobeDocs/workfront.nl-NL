@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51111523-8fb7-4379-995e-1834cac51872
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **Groepen** ![](assets/groups-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![ Groepen ](assets/groups-icon.png).
 
 1. Klik op de naam van de groep waarvoor u programma&#39;s wilt maken of wijzigen.
 1. In het linkerpaneel, klik **Programma&#39;s** om van de programma&#39;s een lijst te maken verbonden aan de groep die u toegang tot mening (en om het even welke subgroepen onder het) hebt.

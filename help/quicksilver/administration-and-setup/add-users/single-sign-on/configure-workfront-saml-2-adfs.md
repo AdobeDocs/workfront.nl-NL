@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9bc5987b-6e32-47df-90c8-08ea4b1b7451
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
@@ -151,7 +151,7 @@ Voer de volgende secties in om verificatie in te schakelen voor de Workfront-web
 
 1. Klik **Verbinding van de Test**. Indien correct ingesteld, ziet u een pagina die vergelijkbaar is met de hieronder weergegeven pagina:
 
-   ![](assets/success-saml-2.png)
+   ![ SAML 2 succesbericht ](assets/success-saml-2.png)
 
    >[!NOTE]
    >

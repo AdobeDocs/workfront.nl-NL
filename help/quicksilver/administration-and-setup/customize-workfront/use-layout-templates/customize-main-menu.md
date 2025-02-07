@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '639'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
      >[!NOTE]
      >
-     >Alleen gebruikers met een licentie voor abonnementen (in het huidige licentiemodel) of gebruikers met een standaardlicentie (in het nieuwe licentiemodel) kunnen het gedeelte Gebruikers ![](assets/users-icon-in-main-menu.png) in het hoofdmenu zien.
+     >Slechts kunnen de gebruikers met een vergunning van het Plan (in het huidige vergunningsmodel), of de gebruikers met een Standaardvergunning (in het nieuwe vergunningsmodel) het pictogram van Gebruikers van het gebied van Gebruikers ![ ](assets/users-icon-in-main-menu.png) in het Belangrijkste Menu zien.
 
    * Verzoeken
    * Timesheets
@@ -123,9 +123,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Voer een van de volgende handelingen uit:
 
-   * Verberg ![](assets/remove-icon---x-in-circle.png) **Actieve punten** die u niet wilt tonen
-   * Toon ![](assets/add-icon-plus-in-circle.png) **Beschikbare punten** die u op het Belangrijkste Menu wilt tonen.
-   * Sleep ![](assets/move-icon---dots.png) **Actieve punten** om hun vertoningsorde op het Belangrijkste Menu te veranderen.
+   * Verberg ![ pictogram van de Verbergen ](assets/remove-icon---x-in-circle.png) **Actieve punten** dat u niet wilt tonen
+   * Toon ![ pictogram van de Show ](assets/add-icon-plus-in-circle.png) **Beschikbare punten** die u op het Belangrijkste Menu wilt tonen.
+   * De belemmering ![ pictogram van de belemmering ](assets/move-icon---dots.png) **Actieve punten** om hun vertoningsorde op het Belangrijkste Menu te veranderen.
 
 1. Klik **Gedaan**.
 

@@ -8,9 +8,9 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2fb0c647-bb6d-46d0-a985-6ab820b4a7f2
-source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '900'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klik **Processen** > **goedkeurt**.
 
-1. Klik het **pictogram van Montages** ![](assets/gear-icon-settings.png) naast de **goedkeurt** gebiedsnaam.
+1. Klik het **pictogram van Montages** pictogram ![ Gear montagespictogram ](assets/gear-icon-settings.png) naast de **goedkeurt** gebiedsnaam.
 
 1. In het **vakje van de Montages van de Goedkeuring** dat verschijnt, specificeer de volgende informatie:
 

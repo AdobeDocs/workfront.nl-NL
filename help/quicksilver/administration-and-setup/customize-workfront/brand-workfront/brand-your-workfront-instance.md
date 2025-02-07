@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 94603393-bdea-4673-9256-08da14f6916e
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '902'
 ht-degree: 0%
 
 ---
@@ -31,19 +31,19 @@ Als Workfront-beheerder kunt u Workfront op de volgende plaatsen voorzien van lo
 
 * Aanmeldingsscherm
 
-  ![](assets/brand-login-screen-nwe-adobe.jpg)
+  ![ Merk in login scherm ](assets/brand-login-screen-nwe-adobe.jpg)
 
 * Bovenste navigatiegebied
 
-  ![](assets/brand-top-nav-area-nwe-adobe.jpg)
+  ![ Merk in hoogste navigatie ](assets/brand-top-nav-area-nwe-adobe.jpg)
 
 * Hoofdmenu
 
-  ![](assets/brand-main-menu-adobe.jpg)
+  ![ Merk in hoofdmenu ](assets/brand-main-menu-adobe.jpg)
 
 U kunt ook de achtergrondafbeelding en -kleur van het aanmeldingsscherm wijzigen:
 
-![](assets/wf_banner_on_login_screen-adobe.png)
+![ Banner op login scherm ](assets/wf_banner_on_login_screen-adobe.png)
 
 >[!NOTE]
 >

@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1fc91438-1ead-40d2-b0aa-863c1125c2fb
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Voor informatie over het uitgeven van een systeemstatus en het creëren van doua
 
    De projectstatussen die beschikbaar zijn in Workfront, worden weergegeven op dit tabblad.
 
-   ![](assets/project-status.png)
+   ![ status van het Project ](assets/project-status.png)
 
    Voor details over elk van de ingebouwde statussen van het systeemproject, zie [ Overzicht van de statussen van het systeemproject ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md).
 

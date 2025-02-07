@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: 5cd1cbd1976d5574668098be53daee780a9cc1fb
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '728'
 ht-degree: 0%
 
 ---
@@ -105,10 +105,10 @@ Geef uw netwerkbeheerder de volgende informatie:
 
    Uw clustervertoningen dichtbij het hoger-recht van de **Basis Info** sectie.
 
-   ![](assets/locate-cluster.png)
+   ![ plaats cluster ](assets/locate-cluster.png)
 
 1. Om uw plan van Workfront te bekijken, selecteer **Vergunningen**.
 
    Uw plan wordt in de rechterbovenhoek van de pagina weergegeven.
 
-   ![](assets/locate-plan.png)
+   ![ plaats plan ](assets/locate-plan.png)

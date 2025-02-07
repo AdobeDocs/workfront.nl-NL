@@ -9,9 +9,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -37,13 +37,13 @@ Het gebied [!UICONTROL Updates] bevat de volgende typen updates:
 
   Voor meer informatie over het vormen van gebruikersupdates, zie [ voorkeur voor gebruikersupdates ](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md) vormen.
 
-  ![](assets/updates-qs-350x125.png)
+  ![ Updates ](assets/updates-qs-350x125.png)
 
 * **de updates van het Systeem:** automatisch gemaakt door het systeem. Een systeemupdate bevat een korte beschrijving van het type wijziging dat met het item is opgetreden. De updates van het systeem tonen in de Activiteit van het Systeem en de Alle lusjes van de sectie van Updates van een voorwerp.
 
   Voor meer informatie over de feeds van de systeemupdate en hoe te om hen toe te laten, zie [ systeemupdates ](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md) vormen.
 
-  ![](assets/system-updates-example-unified-stream.png)
+  ![ het updatevoorbeeld van het Systeem ](assets/system-updates-example-unified-stream.png)
 
 
   <!--

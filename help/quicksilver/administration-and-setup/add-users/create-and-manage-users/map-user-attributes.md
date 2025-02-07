@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3d523584-dcb8-4aa6-8217-611f22dc1450
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '974'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Om te bepalen of uw organisatie op de Adobe verenigde ervaring is, onderzoek URL
 
 ### Gebruikerskenmerken toewijzen in de klassieke ervaring
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+1. Klik het **pictogram 1} van het Belangrijkste Menu ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** de montages van de Opstelling **![ Gear pictogram ](assets/gear-icon-settings.png).**
 
 1. Klik **Systeem** > **Enige Sign-On (SSO)**.
 
@@ -85,7 +85,7 @@ Om te bepalen of uw organisatie op de Adobe verenigde ervaring is, onderzoek URL
 
 1. Klik **de Attributen van de Gebruiker van de Kaart**.
 
-   ![](assets/map-user-attributes.png)
+   ![ de gebruikersattributen van de Kaart ](assets/map-user-attributes.png)
 
 1. Wijs in de rij met opties die wordt weergegeven de kenmerken toe die u voor uw Workfront-gebruikers nodig hebt.
 
@@ -123,7 +123,7 @@ Om te bepalen of uw organisatie op de Adobe verenigde ervaring is, onderzoek URL
    1. Kies in de vervolgkeuzelijst de kenmerkoptie die u wilt gebruiken.
    1. Typ in de twee velden rechts de waarde van het directorykenmerk en de waarde die u wilt vervangen.
 
-      ![](assets/rule-fields.png)
+      ![ de gebieden van de Regel ](assets/rule-fields.png)
 
    U kunt **klikken voegt Regel** toe om meer regels aan de attributen toe te voegen.
 
@@ -132,7 +132,7 @@ Om te bepalen of uw organisatie op de Adobe verenigde ervaring is, onderzoek URL
 
 ### Gebruikerskenmerken toewijzen in de verenigde Adobe
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-left.png) in de upper-left hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+1. Klik het **pictogram 1} van het Belangrijkste Menu ![ Belangrijkste menupictogram ](assets/main-menu-left.png) in de upper-left hoek van Adobe Workfront, dan klik** de montages van de Opstelling **![ Gear pictogram ](assets/gear-icon-settings.png).**
 
 1. Klik **Systeem** > **Enige Sign-On (SSO)**.
 

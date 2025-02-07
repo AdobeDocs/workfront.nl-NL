@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c43ea6b2-7d5b-46f0-a092-f57128de60f0
-source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ U kunt aanvullende objecttypen aan het formulier toevoegen zodat het aan meerder
 
 1. Bij de bovenkant van de vorm, klik het plusteken + na **Types van Objecten**, dan selecteer het type u in het menu wilt dat toont. U kunt dit herhalen om zoveel objecttypen toe te voegen als u wilt.
 
-   ![](assets/add-new-object.png)
+   ![ voeg nieuw voorwerp ](assets/add-new-object.png) toe
 
 1. Klik **sparen en Sluiten**.
 
@@ -98,7 +98,7 @@ Een objecttype verwijderen:
 1. Selecteer de douanevorm u wilt uitgeven, dan klik ![ uitgeven pictogram ](assets/edit-icon2.png).
 1. Klik X op om het even welke **Types van Objecten** die u van de vorm wilt schrappen.
 
-   ![](assets/delete-object-types.png)
+   ![ de objecten van de Schrapping types ](assets/delete-object-types.png)
 
 1. (Optioneel) Herhaal de vorige stap voor elk ander objecttype dat u uit het formulier wilt verwijderen.
 1. Klik **toepassen**, dan klik **sparen en sluit**.

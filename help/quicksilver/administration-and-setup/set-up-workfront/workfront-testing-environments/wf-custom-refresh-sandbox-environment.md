@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: bb81e32263348128b7661db6102ad5ac14e9a434
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '1710'
+source-wordcount: '1716'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ Als [!DNL Workfront] beheerder kunt u tot uw Douane toegang hebben vernieuwt San
 
 Ga als volgt te werk om uw aangepaste vernieuwingssandbox te openen:
 
-1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png) .
+1. Klik het **[!UICONTROL Main Menu]** pictogram van het pictogram ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van [!DNL Adobe Workfront], dan klik **[!UICONTROL Setup]** ![ het montagespictogram van het Gear ](assets/gear-icon-settings.png).
 
 1. Klik **[!UICONTROL System]** > **[!UICONTROL Preferences]**.
 

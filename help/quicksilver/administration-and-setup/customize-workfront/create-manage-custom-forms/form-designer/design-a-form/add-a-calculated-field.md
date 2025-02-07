@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 57b76a404b0c965038d48a52a20521883c9f4b53
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '2403'
+source-wordcount: '2422'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ U kunt ook een andere berekening voor hetzelfde veld uitvoeren op het nieuwe for
 >
 >Door wijzigingen in berekende expressies kan de veldwaarde van objecten verouderd raken. Voer een van de volgende handelingen uit om ervoor te zorgen dat u altijd de bijgewerkte berekening in deze velden weergeeft:
 >
->* Nadat u een object hebt opgeslagen waar u gegevens hebt bewerkt in een aangepast formulier, klikt u op het pictogram Meer ![](assets/more-icon.png) op de hoofdpagina van het object en herberekent u Aangepaste expressies.
+>* Na het bewaren van een voorwerp waar u gegevens in een douanevorm in bijlage hebt uitgegeven, klik het Meer pictogram ![ Meer pictogram ](assets/more-icon.png) op de belangrijkste pagina van de objecten, dan herberekenen de Uitdrukkingen van de Douane.
 >* Selecteer de optie Aangepaste expressies opnieuw berekenen wanneer u objecten bulksgewijs bewerkt.
 >* Selecteer de optie Vorige berekeningen bijwerken wanneer u een berekend aangepast veld op een aangepast formulier bewerkt.
 
@@ -104,7 +104,7 @@ Een bestaand berekend aangepast veld opnieuw gebruiken:
 
 1. Op de top-linkerkant van het scherm, klik **bibliotheek van het Gebied**.
 
-   ![](assets/field-library.png)
+   ![ bibliotheek van het Gebied ](assets/field-library.png)
 
 1. Gebruik het onderzoeksvakje of breid **Berekende** sectie uit om van het berekende gebied de plaats te bepalen u nodig hebt, dan sleep het gebied waar u het in de douanevorm wilt verschijnen.
 
@@ -142,7 +142,7 @@ Een bestaand berekend aangepast veld opnieuw gebruiken:
 
 1. Op de linkerkant van het scherm, vind **Berekend** en sleep het aan een sectie op het canvas.
 
-   ![](assets/drag-field-to-section.png)
+   ![ gebied van de belemmering aan sectie ](assets/drag-field-to-section.png)
 
 1. Configureer rechts in het scherm de opties die beschikbaar zijn voor het type aangepast veld dat u toevoegt:
 
@@ -296,14 +296,14 @@ Een berekening begint gewoonlijk met een expressie, gevolgd door haakjes die de 
       >U kunt een van de volgende handelingen uitvoeren om hulp te krijgen bij uw berekening:
       > 
       >* Beweeg over een uitdrukking in uw berekening om een beschrijving te zien, een voorbeeld dat toont hoe het kan worden gebruikt, en een &quot;Leer meer&quot;verbinding aan meer informatie in het artikel [ Overzicht van berekende gegevensuitdrukkingen ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
-      >  ![](assets/hover-expression-help-text.jpg)
+      >  ![ de hulptekst van de Uitdrukking ](assets/hover-expression-help-text.jpg)
       >* Gebruik de kleurcodering om de componenten te identificeren die u hebt toegevoegd. Expressies worden in blauw weergegeven en velden in groen.
-      >  ![](assets/colors-fields-expressions.jpg)
+      >  ![ Kleuren voor gebiedsuitdrukkingen ](assets/colors-fields-expressions.jpg)
       >* Zoek rekenfouten die roze gemarkeerd zijn. U kunt de muisaanwijzer boven een gemarkeerde fout plaatsen om een korte beschrijving van de oorzaak ervan weer te geven.
-      >  ![](assets/error-help.png)
+      >  ![ Hulp van de Fout ](assets/error-help.png)
       >* Geef een voorvertoning van de resultaten weer in het gebied onder de berekening.
       ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
-      >  ![](assets/preview-calc.jpg)
+      >  ![ berekening van de Voorproef ](assets/preview-calc.jpg)
       >* Verwijzingsexpressies in een lange berekening met behulp van de regelnummers die aan de linkerkant worden weergegeven.
 
 +++

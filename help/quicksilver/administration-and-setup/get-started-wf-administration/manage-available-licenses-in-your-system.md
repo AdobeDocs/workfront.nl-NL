@@ -8,9 +8,9 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1216'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 >2. Systeembeheerders kunnen alleen het totale aantal licenties zien dat wordt gebruikt voor alle Thuisgroepen.
 >3. Groepbeheerders hebben helemaal geen toegang tot de pagina Licenties.
 >
->Voor de eerste en uiteindelijke plannen:
+>Voor de plannen van Prime en Ultimate:
 >
 >1. Systeembeheerders kunnen Thuisgroepen toevoegen aan de pagina Licenties om het gebruik van licenties in deze groepen weer te geven en kunnen ook licentielimieten instellen.
 >2. Groepbeheerders kunnen toegang krijgen tot de pagina Licenties en het gebruik bekijken van licenties in de groepen die ze beheren en die door systeembeheerders zijn toegevoegd aan de pagina Licenties.
@@ -89,7 +89,7 @@ U kunt als volgt de licentiegegevens in uw systeem weergeven:
 
    >[!NOTE]
    >
-   >Voor de nieuwe plannen, staat het Uitgezochte plan beheerders niet toe om vergunningen door de Groep van het Huis te bekijken. U kunt alleen het totale aantal gebruikte licenties zien. Met de Premier- en Ultimate-plannen kunt u het maximumaantal licenties per thuisgroep instellen.
+   >Voor de nieuwe plannen, staat het Uitgezochte plan beheerders niet toe om vergunningen door de Groep van het Huis te bekijken. U kunt alleen het totale aantal gebruikte licenties zien. De plannen van Prime en Ultimate bieden de mogelijkheid om het maximumaantal licenties per thuisgroep in te stellen.
 
 ## Informatie weergeven over licenties voor Workfront-invoegtoepassingen
 
@@ -186,7 +186,7 @@ Het maximale aantal licenties voor een thuisgroep instellen:
 1. In de **Max** kolom van de groep, klik de waarde die u een maximum voor wilt plaatsen.
 1. Typ het maximale getal en druk op Enter.
 
-   ![](assets/updated-max.png)
+   ![ Maximum vergunningen voor groep ](assets/updated-max.png)
 
    >[!NOTE]
    >

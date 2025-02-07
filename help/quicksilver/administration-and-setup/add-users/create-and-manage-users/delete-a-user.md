@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '871'
 ht-degree: 0%
 
 ---
@@ -132,7 +132,7 @@ U kunt gebruikers een voor een permanent verwijderen of u kunt meerdere gebruike
 
 {{step-1-to-users}}
 
-1. Selecteer minstens één gebruiker die u wilt schrappen, het Meer menu ![](assets/more-icon.png) klikken, dan **Schrapping** klikken.
+1. Selecteer minstens één gebruiker die u wilt schrappen, het Meer menu ![ Meer pictogram ](assets/more-icon.png) klikken, dan **Schrapping** klikken.
 1. In de doos die verschijnt, klik **Schrapping** om de schrapping te bevestigen.
 
    Het verwijderen van gebruikers wordt als een achtergrondproces uitgevoerd, zodat u Workfront kunt blijven gebruiken terwijl de gebruiker of gebruikers worden verwijderd.

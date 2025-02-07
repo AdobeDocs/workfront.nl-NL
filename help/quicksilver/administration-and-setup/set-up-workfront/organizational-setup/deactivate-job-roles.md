@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 934cef1a-8157-45db-b000-24a08a94dd18
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
@@ -114,7 +114,7 @@ We raden u aan het volgende te doen voordat u een ongebruikte taakrol deactiveer
 1. Klik op de naam van de taakrol die u wilt deactiveren.
 1. Selecteer **[!UICONTROL No]** in de vervolgkeuzelijst **[!UICONTROL Is Active]** .
 
-   ![](assets/deactivate-job-role-edit-role-box-nwe.png)
+   ![ Deactivate baanrol ](assets/deactivate-job-role-edit-role-box-nwe.png)
 
 1. Klik op **[!UICONTROL Save Changes]**.
 

@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
 ## Merk Adobe Workfront met een lay-outsjabloon
 
 1. Begin werkend aan een lay-outmalplaatje, zoals die in [ wordt beschreven creeer en beheer lay-outmalplaatjes ](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Klik de benedenpijl ![](assets/dropdown-arrow.png) onder **aanpassen wat de gebruikers** zien, dan **Brandend** klikken.
+1. Klik de benedenpijl ![ benedenpijl ](assets/dropdown-arrow.png) onder **aanpassen wat de gebruikers** zien, dan **Brandend** klikken.
 1. Breng een van de volgende wijzigingen aan om Workfront aan te passen met brandingafbeeldingen voor diegenen aan wie deze lay-outsjabloon is toegewezen.
 
    <table style="table-layout:auto"> 

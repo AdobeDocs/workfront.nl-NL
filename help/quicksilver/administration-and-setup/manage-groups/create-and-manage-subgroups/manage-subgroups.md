@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5186d266-fa9f-445d-9dcc-bc07eb147b60
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1251'
 ht-degree: 1%
 
 ---
@@ -63,7 +63,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **Groepen** ![](assets/groups-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![ Groepen ](assets/groups-icon.png).
 
    In de lijst die wordt weergegeven, ziet u de groepen die u beheert, samen met eventuele subgroepen die u beheert. Adobe Workfront-beheerders kunnen alle groepen zien.
 
@@ -153,9 +153,9 @@ U kunt van een subgroep een groep op hoofdniveau maken door deze uit de bovenlig
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **Groepen** ![](assets/groups-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![ Groepen ](assets/groups-icon.png).
 
-1. Selecteer de bovenliggende groep van de groep die u als bovenste groep wilt instellen en klik op het pictogram Bewerken ![](assets/edit-icon.png) .
+1. Selecteer de oudergroep van de groep u een top-level groep wilt maken, dan klik het Edit pictogram ![ uitgeven pictogram ](assets/edit-icon.png).
 1. In **geef de doos van de Groep** uit die, onder **Leden van de Groep en de Beheerders van de Groep** verschijnt, begin de naam van subgroup die u een top-level groep wilt maken, dan klik X aan het recht van zijn naam het wanneer het verschijnt.
 1. Klik **sparen**.
 

@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 62aa8ac0-7e8a-4df6-b5d4-a32fa86a4597
-source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1950'
+source-wordcount: '1955'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ U moet het volgende hebben:
 
    Als u een goedkeuringsproces op groepsniveau bewerkt, doet u het volgende:
 
-   1. In het linkerpaneel, klik **Groepen** ![](assets/groups-icon.png).
+   1. In het linkerpaneel, klik **Groepen** ![ pictogram van Groepen ](assets/groups-icon.png).
    1. Klik op de naam van de groep waarvoor u de goedkeuringsprocessen voor groepen wilt weergeven of beheren.
    1. In het linkerpaneel, klik **goedkeurt**. U zou kunnen moeten klikken **tonen meer** eerst.
 
@@ -80,7 +80,7 @@ U moet het volgende hebben:
 
 1. Selecteer het goedkeuringsproces u wilt uitgeven, dan klik **uitgeven** bij de bovenkant van de lijst. Het vak Goedkeuringsproces bewerken wordt weergegeven.
 
-   ![](assets/edit-approval-process-global-area-new.png)
+   ![ geef goedkeuringsproces ](assets/edit-approval-process-global-area-new.png) uit
 
 1. Geef de volgende informatie op in het vak dat wordt weergegeven:
 

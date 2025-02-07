@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Als Adobe Workfront-beheerder of groepsbeheerder kunt u een lay-outsjabloon gebr
 >
 >Het aanpassen van objecten kopballen is momenteel beschikbaar voor projecten, taken, en kwesties.
 
-![](assets/object-header-fields.png)
+![ de kopbalgebieden van Objecten ](assets/object-header-fields.png)
 
 Voor informatie over het creëren van lay-outmalplaatjes, zie [ lay-outmalplaatjes ](../use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
 
@@ -80,7 +80,7 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
 
    <!--(NOTE: make sure the default names of these fields have not changed; otherwise, update screen shot)-->
 
-   ![](assets/object-header-field-x-and-grab-icons-in-lt.png)
+   ![ de kopbalgebieden van Objecten verbergen en bewegen pictogrammen ](assets/object-header-field-x-and-grab-icons-in-lt.png)
 
 1. U kunt maximaal vijf velden in de koptekst van een object opnemen.
 Als u al vijf velden hebt geselecteerd, moet u een veld verwijderen voordat u een nieuw veld kunt toevoegen.
@@ -95,7 +95,7 @@ Als u al vijf velden hebt geselecteerd, moet u een veld verwijderen voordat u ee
    >* Wanneer u het veld &quot;Opgelost door&quot; toevoegt aan de koptekst van een probleem, verandert het veld in &quot;Probleem oplossen, Taak of Project&quot; wanneer er een object is dat is gekoppeld aan het probleem.
 
 
-   ![](assets/add-field-to-header-in-lt-list.png)
+   ![ voeg gebied aan kopbal toe ](assets/add-field-to-header-in-lt-list.png)
 
 
 1. (Optioneel) Sleep de toegevoegde velden in een andere volgorde.

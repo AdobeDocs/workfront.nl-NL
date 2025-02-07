@@ -9,9 +9,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Instellingen voor e-mailmeldingen voor meerdere gebruikers wijzigen:
 
 1. Vouw een categorie uit om meldingsinstellingen voor die categorie weer te geven.
 
-   Als er ten minste één gebruiker is geselecteerd die niet overeenkomt met de meldingen van de andere geselecteerde gebruikers, bevat het selectievakje voor categorie van die melding een horizontale lijn ![](assets/straight-line-instead-of-checkmark.jpg) in plaats van een vinkje.
+   Als er minstens één gebruiker wordt geselecteerd waar de berichten niet de berichten van de andere geselecteerde gebruikers aanpassen, bevat het vakje van de categoriecontrole voor dat bericht een horizontale lijn ![ Lijn in plaats van controle ](assets/straight-line-instead-of-checkmark.jpg) in plaats van een vinkje.
 
 
 1. Klik op de berichten die de gebruikers dagelijks of direct moeten ontvangen of op de berichten die u niet meer wilt ontvangen.
@@ -80,7 +80,7 @@ Instellingen voor e-mailmeldingen voor meerdere gebruikers wijzigen:
 
 1. Als u berichten selecteerde die als dagelijkse samenvatting moeten worden verzonden, selecteer de tijd van de dag u de samenvatting wilt die bij de bovenkant van de **sectie van Meldingen** in de **E-mail Dagelijkse Samenvatting na** menu wordt geleverd.
 
-   ![](assets/daily-digest-time.png)
+   ![ Dagelijkse samenvattingstijd ](assets/daily-digest-time.png)
 
    De dagelijkse samenvatting bevat gebeurtenissen die 24 uur vóór de geselecteerde tijd voldoen aan de criteria voor de meldingen. Gebruikers ontvangen één e-mail met dagelijkse samenvatting voor elk berichttype.
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    >
    >* Als u een groepsbeheerder bent, kunt u zich slechts als gebruikers in de groepen aanmelden u beheert. Ook, moet de toestemming van Admin van de Gebruiker (de Gebruikers van de Groep) op uw toegangsniveau worden toegelaten:
    >   
-   >  ![](assets/group-admin-user.png)
+   >  ![ Admin gebruiker van de Groep ](assets/group-admin-user.png)
    >   
    >  Deze instelling is standaard uitgeschakeld. Voor meer informatie, zie [ tot douanetoegangsniveaus ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
    >   
@@ -153,7 +153,7 @@ Bijvoorbeeld, als u op een punt terwijl het programma geopend als een andere geb
 ### Controlegegevens weergeven {#view-audit-information}
 
 1. Meld u aan bij Workfront als Workfront-beheerder of groepsbeheerder.
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+1. Klik het **pictogram 1} van het Belangrijkste Menu ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** de montages van de Opstelling **![ Gear pictogram ](assets/gear-icon-settings.png).**
 
 1. Klik **Login als,** dan klik het **Logboek van de Toegang** tabel.
 

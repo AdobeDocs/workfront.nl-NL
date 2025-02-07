@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1344'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **Groepen** ![](assets/groups-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![ Groepen ](assets/groups-icon.png).
 
 1. Klik op de naam van de groep waar u statussen wilt maken of aanpassen.
 1. In het linkerpaneel, klik **Statussen**.
@@ -87,7 +87,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. (Voorwaardelijk) als de status een uitgevende status is, zorg ervoor dat **Hoofdlijst** wordt geselecteerd.
 
-   ![](assets/master-list.png)
+   ![ Hoofdlijst ](assets/master-list.png)
 
    Voor informatie over het aanpassen van de andere uitgevende types (het Rapport van de Bug, de Orde van de Verandering, Uitgave, Verzoek), zie [ standaardkwesties ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md) aanpassen.
 
@@ -97,7 +97,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    Om een bestaande status uit te geven, muis over de status u wilt uitgeven, dan klik **uitgeven** optie die aan uiterst rechts toont.
 
-   ![](assets/group-statuses-edit.jpg)
+   ![ status van de Groep ](assets/group-statuses-edit.jpg)
 
    >[!NOTE]
    >U kunt een status voor uw groep alleen bewerken als:
@@ -173,11 +173,11 @@ Als u een groepsbeheerder (of een beheerder van Workfront) bent, kunt u een doua
 1. In de doos in de hoger-juiste hoek, schrap **Statussen van het Systeem**, begin typend de naam van een groep waar u de status wilt verbergen, dan klik de naam wanneer het verschijnt.
 1. Beweeg over de status u van de groep wilt verbergen, dan **** klikken uitgeven wanneer het verschijnt.
 
-   ![](assets/hover-click-edit.jpg)
+   ![ geeft status ](assets/hover-click-edit.jpg) uit
 
 1. Laat de **optie van de Status van de Verbergen** toe die verschijnt.
 
-   ![](assets/hide-group-status.png)
+   ![ de status van de Huid ](assets/hide-group-status.png)
 
 1. Klik **sparen**.
 

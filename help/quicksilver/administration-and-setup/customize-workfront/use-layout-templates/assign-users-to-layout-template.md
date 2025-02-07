@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '919'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
 
    Onlangs toegevoegde namen worden weergegeven met een blauwe achtergrond. Dit is handig wanneer u een bestaande lay-outsjabloon bewerkt, omdat u de namen die u zojuist hebt toegevoegd kunt onderscheiden van de namen die al in de lijst stonden.
 
-   Een pictogram van Info ![](assets/info-icon.png) toont rechts van de naam van om het even welke gebruiker, baanrol, team, of groep die reeds aan een ander lay-outmalplaatje wordt toegewezen. Als u de muisaanwijzer op het pictogram plaatst, ziet u de naam van de lay-outsjabloon en bepaalt u of u de bestaande toewijzing wilt overschrijven.
+   Een pictogram van Info ![ pictogram van Info ](assets/info-icon.png) toont rechts van de naam van om het even welke gebruiker, baanrol, team, of groep die reeds aan een ander lay-outmalplaatje wordt toegewezen. Als u de muisaanwijzer op het pictogram plaatst, ziet u de naam van de lay-outsjabloon en bepaalt u of u de bestaande toewijzing wilt overschrijven.
 
 1. Herhaal de twee vorige stappen om de lay-outsjabloon desgewenst toe te wijzen aan andere gebruikers, taakrollen, teams of groepen.
 

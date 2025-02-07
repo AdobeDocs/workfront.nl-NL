@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8f7b0183-6035-4dd4-8e42-fd65485449bf
-source-git-commit: 63c2206905f4ebbc35cb162ae6e895b98b5d20eb
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -73,16 +73,16 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. Voer een van de volgende handelingen uit:
 
-   * Selecteer een lid in de lijst en klik vervolgens op Bewerken ![](assets/edit-icon.png) om het gebruikersprofiel van die persoon te wijzigen.
+   * Selecteer een lid in de lijst, dan klik uitgeven ![ pictogram ](assets/edit-icon.png) uitgeven om het gebruikersprofiel van die persoon te wijzigen.
 
      Voor meer informatie, zie [ het profiel van een gebruiker ](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven of [ gebruikersprofielen in bulk ](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md) uitgeven.
 
-   * Selecteer een willekeurig aantal leden in de lijst en klik vervolgens op Bijwerken ![](assets/comment-icon.png) om een opmerking toe te voegen aan hun gebruikersprofielen.
+   * Selecteer om het even welk aantal leden in de lijst, dan klik het pictogram van de Commentaar van de Update ![ ](assets/comment-icon.png) om een commentaar aan hun gebruikersprofielen toe te voegen.
 
      De gebruiker of gebruikers ontvangen een melding in de app en een e-mailbericht met uw opmerking. De opmerking wordt weergegeven in het gedeelte Updates van het gebruikersprofiel.
 
-   * Selecteer een willekeurig aantal leden in de lijst en klik vervolgens op Deactiveren ![](assets/deactivate-user.png) of Activeren ![](assets/activate-user.png) .
+   * Selecteer om het even welk aantal leden in de lijst, dan klik Deactivate ![ gebruiker ](assets/deactivate-user.png) of activeer ![ gebruiker ](assets/activate-user.png).
 
      Voor meer informatie, zie [ een gebruiker ](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md) deactiveren of reactiveren.
 
-   * Exporteer ![](assets/export.png) de lijst met leden.
+   * De uitvoer ![ Uitvoer ](assets/export.png) de lijst van leden.

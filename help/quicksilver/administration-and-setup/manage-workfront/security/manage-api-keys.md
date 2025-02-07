@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1330'
 ht-degree: 0%
 
 ---
@@ -107,7 +107,7 @@ U kunt API-sleutels voor gebruikers in andere rollen dan Workfront-beheerders ge
    1. Breid **Systeem** uit, dan klik **Enige Sign-On (SSO)**.
    1. Op het **gebied van het Type**, selecteer het type van SSO uw organisatiegebruik.
    1. Met het geselecteerde type, scrol neer en ontruim **** checkbox toelaten.
-      ![](assets/sysadmin-security-sso-disable-31620-350x320.png)
+      ![ laat SSO ](assets/sysadmin-security-sso-disable-31620-350x320.png) toe
    1. Klik **sparen**.
 
 
@@ -187,7 +187,7 @@ Vraag een geldig X.509-certificaat aan van een vertrouwde certificeringsinstanti
 
 Nadat u het X.509-certificaat van uw certificeringsinstantie hebt ontvangen, moet u het uploaden naar Workfront.
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+1. Klik het **pictogram 1} van het Belangrijkste Menu ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** de montages van de Opstelling **![ Gear pictogram ](assets/gear-icon-settings.png).**
 
 1. Breid **Systeem** uit, dan klik **Info van de Klant**.
 

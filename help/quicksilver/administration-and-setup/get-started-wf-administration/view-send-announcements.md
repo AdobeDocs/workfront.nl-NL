@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 413e3051-fcb5-44d7-b6bd-6b05d39935e8
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ U kunt gemakkelijk berichten die u van Workfront aan gebruikers in uw systeem on
 
 1. Ga naar de pagina van Mededelingen door het **pictogram van het Bericht** in de hoger-juiste hoek van de interface van Workfront te klikken, dan klik **Alle Mededelingen**.
 
-   ![](assets/announcement-access-350x212.png)
+   ![ Alle aankondigingen ](assets/announcement-access-350x212.png)
 
 1. Voor de **pagina van Mededelingen**, selecteer het bericht dat u wilt door:sturen.
 1. Klik **vooruit**.
@@ -79,7 +79,7 @@ U kunt gemakkelijk berichten die u van Workfront aan gebruikers in uw systeem on
 
 1. Ga naar de pagina van Mededelingen door het **pictogram van het Bericht** in de hoger-juiste hoek van de interface van Workfront te klikken, dan klik **Alle Mededelingen**.
 
-   ![](assets/announcement-access-350x212.png)
+   ![ Alle aankondigingen ](assets/announcement-access-350x212.png)
 
 1. Op de **Mededelingen** pagina, klik **Nieuwe Aankondiging.**
 

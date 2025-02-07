@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: bfce0325-fe6e-459f-96ca-9a5c94c61ed3
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 1. In het linkerpaneel klik **Statussen**.
 1. In de lijst van statussen die toont, over de status bewegen u wilt schrappen, dan **Schrapping** klikken wanneer het aan uiterst rechts verschijnt.
 
-   ![](assets/hover-click-delete.jpg)
+   ![ Schrapping ](assets/hover-click-delete.jpg)
 
 1. In de doos die toont, selecteer een status om een vervangingsstatus voor voorwerpen (projecten, taken, kwesties, en goedkeuringsprocessen) aan te wijzen die de status gebruikten die u schrapt.
 

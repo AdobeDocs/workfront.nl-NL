@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d2b63508-1943-4f9e-888e-8f1bfb54c33e
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Als u een aangepaste interne Help-site maakt die informatie bevat over hoe uw organisatie Workfront gebruikt, kunt u het pictogram Hoofdmenu Help configureren om naar die site te gaan.
 
-![](assets/custom-help-button.png)
+![ knoop van de Hulp van de Douane ](assets/custom-help-button.png)
 
 Dit heeft geen invloed op contextgevoelige Help-koppelingen in Workfront, die gebruikers naar de Help-site van Workfront brengen.
 

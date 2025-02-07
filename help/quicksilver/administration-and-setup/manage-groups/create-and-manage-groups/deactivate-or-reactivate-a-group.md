@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 99b81090-8d09-4130-a746-44ed1d76f971
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. Klik op de naam van de groep om de pagina te openen.
 
-1. Klik het Meer menu ![](assets/more-icon.png) naast de naam van de groep, dan klik **Deactivate** of **Reactivate**.
+1. Klik het Meer menu ![ Meer pictogram ](assets/more-icon.png) naast de naam van de groep, dan klik **Deactivate** of **Reactivate**.
 
    >[!NOTE]
    >
@@ -92,7 +92,7 @@ Overweeg het volgende over een groep die u door de Is Actieve optie onbruikbaar 
 
   Voor informatie over het opnieuw activeren van een subgroep in deze situatie, zie [ Ongeveer het opnieuw activeren van een subgroep onder een inactieve oudergroep ](#about-reactivating-a-subgroup-below-an-inactive-parent-group) in dit artikel.
 
-* Wanneer u naar het gebied Groepen in Opstelling gaat, kunt u slechts actieve groepen in de lijst zien omdat Actief het standaardfilter ![](assets/filter-nwepng.png) voor het is. Als u alle groepen wilt zien die u beheert, inclusief de niet-actieve groepen, kunt u het filter Alles gebruiken. U kunt ook het filter Inactief gebruiken om alleen de inactieve filters weer te geven.
+* Wanneer u naar het gebied van Groepen in Opstelling gaat, kunt u slechts actieve groepen in de lijst zien omdat Actief het standaardfilter ![ pictogram van de Filter ](assets/filter-nwepng.png) voor het is. Als u alle groepen wilt zien die u beheert, inclusief de niet-actieve groepen, kunt u het filter Alles gebruiken. U kunt ook het filter Inactief gebruiken om alleen de inactieve filters weer te geven.
 
   Voor meer informatie over filters in lijsten, zie [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 

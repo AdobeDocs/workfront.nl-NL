@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: cfccb120-8759-49f2-8b7b-dabcd57d4fda
-source-git-commit: 5676910e53f1c4f49cab196e42bfbce8704887ca
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
@@ -125,15 +125,15 @@ Om proefdrukbesluiten te vormen:
       >
       >Behoud de logica voor een besluit wanneer u het anders noemt. Bijvoorbeeld, kon het afgewezen standaardbesluit in *Nieuwe vereiste versie* worden veranderd, maar het zou niet moeten worden veranderd in *verzenden naar Printers*.
 
-      ![](assets/rename-decision-350x109.png)
+      ![ noem besluit ](assets/rename-decision-350x109.png) anders
 
    1. **herschikt de besluitvormingsorde**: Sleep de besluitvormingsvakjes in de orde u hen in de het proef kijker wilt verschijnen.
 
-      ![](assets/move-decision-350x110.png)
+      ![ besluit van de beweging ](assets/move-decision-350x110.png)
 
    1. **verberg een besluit**: Beweeg over de besluitvormingsdoos, en klik het pictogram van de Huid in de hoger-juiste hoek.
 
-      ![](assets/hide-decision-350x109.png)
+      ![ besluit van de Huid ](assets/hide-decision-350x109.png)
 
 1. (Facultatief) om terug naar de gebreken van Workfront te gaan, klik **herstellen gebreken**.
 1. Klik **sparen**.

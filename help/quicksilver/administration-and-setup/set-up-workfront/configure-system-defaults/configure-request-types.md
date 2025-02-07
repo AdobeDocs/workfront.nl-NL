@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 81e74a70-ea7e-4ed8-8b30-f01df0e73645
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ U kunt als volgt de namen van de aanvraagtypen aanpassen:
 1. Klik op de tab **[!UICONTROL Issues]** .
 1. Plaats de aanwijzer boven aan het tabblad **[!UICONTROL Issues]** boven de naam van een aanvraagtype en klik vervolgens op het pictogram **[!UICONTROL Edit]** dat wordt weergegeven.
 
-   ![](assets/edit-request-type-name-nwe.png)
+   ![ geef verzoektype naam ](assets/edit-request-type-name-nwe.png) uit
 
 1. Typ een nieuwe naam in het vak dat wordt weergegeven en druk op **[!UICONTROL Enter]** .
 

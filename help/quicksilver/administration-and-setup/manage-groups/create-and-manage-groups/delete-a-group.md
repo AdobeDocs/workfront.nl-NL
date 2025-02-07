@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f92eb1f5-fe98-4c7e-8ef7-8ed7134db8d4
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
@@ -58,9 +58,9 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **Groepen** ![](assets/groups-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![ Groepen ](assets/groups-icon.png).
 
-1. Selecteer de groep die u wilt verwijderen en klik op het pictogram Verwijderen ![](assets/delete.png) .
+1. Selecteer de groep u wilt schrappen, dan het pictogram van de Schrapping ![ Schrapping ](assets/delete.png) klikken.
 
    >[!IMPORTANT]
    >
@@ -68,6 +68,6 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. In het **vakje van de Groep van de Schrapping** dat verschijnt, beginnend typend en dan de naam van de groep waar u de leden, de werkpunten, en de subgroepen van de groep wilt bewegen u schrapt.
 
-   U kunt ervoor zorgen dat u de juiste groep selecteert door de muisaanwijzer boven de groep te plaatsen en op het informatiepictogram ![](assets/info-icon.png) naast de groep te klikken. Hier wordt knopinfo weergegeven met informatie over de groep, zoals de hiërarchie van de bovenliggende groepen en de bijbehorende beheerders.
+   U kunt ervoor zorgen u de juiste groep selecteert door over het te hangen en het pictogram van Info ![ te klikken ](assets/info-icon.png) dat naast het toont. Hier wordt knopinfo weergegeven met informatie over de groep, zoals de hiërarchie van de bovenliggende groepen en de bijbehorende beheerders.
 
 1. Klik **schrapping hen**.

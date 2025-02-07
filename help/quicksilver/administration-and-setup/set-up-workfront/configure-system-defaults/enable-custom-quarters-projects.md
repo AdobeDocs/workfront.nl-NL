@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f643d36-6235-4fd3-b6d3-54fbd03c9b33
-source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -66,14 +66,14 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 1. Typ een naam voor het aangepaste kwartaal, bijvoorbeeld &quot;Fiscaal Q1 2021&quot;.
 1. Selecteer de begin- en einddatum voor het aangepaste kwartaal.
 
-   ![](assets/custom-quarters-nwe.png)
+   ![ Aangepaste kwarten ](assets/custom-quarters-nwe.png)
 
 1. (Optioneel) Klik op **[!UICONTROL Add Custom Quarter]** om extra aangepaste vierkanten aan het systeem toe te voegen.
 1. (Optioneel) Maak een rapporteringselement dat betrekking heeft op de belastingkwartalen.
 
    **Voorbeeld:** creeer een filter voor een [!UICONTROL project] lijst en omvat de Geplande Datum van de Voltooiing van een project dat van de douanekwartalen van verwijzingen voorziet.
 
-   ![](assets/example-of-project-filter-with-custom-quarters.png)
+   ![ filter van het Project met douanekwartalen ](assets/example-of-project-filter-with-custom-quarters.png)
 
    De verwijzingen naar &quot;Dit Kwartaal&quot;, &quot;Volgende Kwartaal&quot; en &quot;Laatste Kwartaal&quot; worden vervangen door nieuwe verwijzingen naar de aangepaste kwartalen.
 

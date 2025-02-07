@@ -8,9 +8,9 @@ author: Alina and Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: '1271'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. (Facultatief) in de **het onderzoekvakje van de Tijdopnamen en van de Huren van het Systeem**, begin de naam van een groep te typen, dan het te selecteren wanneer het in de lijst toont.
 
-   ![](assets/search-for-group-box-in-timesheets-preferences-page.png)
+   ![ Onderzoek naar groepsdoos ](assets/search-for-group-box-in-timesheets-preferences-page.png)
 
    De pagina met voorkeuren voor tijdbladen en uren wordt bijgewerkt met de voorkeuren voor de groep die u hebt geselecteerd. Voorkeuren op systeemniveau moeten zijn ontgrendeld om voorkeuren op groepsniveau te kunnen wijzigen. Voor meer informatie, zie de sectie [ timesheet en uurvoorkeur voor groepen ](#unlock-timesheet-and-hour-preferences-for-groups) in dit artikel ontgrendelen.
 
@@ -212,8 +212,8 @@ Een projectvoorkeur ontgrendelen zodat groepen deze kunnen configureren:
 
 1. Voer een van de volgende handelingen uit:
 
-   * Als u groepsbeheerders een voorkeur voor hun groepen wilt kunnen vormen, klik **ontgrendelen** knevel ![](assets/unlock-toggle-button.png) om het te ontgrendelen.
-   * Als u wilt dat alle groepen uw configuratie voor een voorkeur gebruiken, zorg ervoor dat het de knevel gesloten ![](assets/locked-preference-toggle.png) is (dit is het gebrek).
+   * Als u groepsbeheerders een voorkeur voor hun groepen wilt kunnen vormen, klik **ontgrendelen** knevel ![ ontgrendelen knevel ](assets/unlock-toggle-button.png) om het te ontgrendelen.
+   * Als u alle groepen uw configuratie voor een voorkeur wilt gebruiken, zorg ervoor dat het knevel gesloten ![ Vergrendelde voorkeurknevel ](assets/locked-preference-toggle.png) is (dit is het gebrek).
 
      >[!IMPORTANT]
      >

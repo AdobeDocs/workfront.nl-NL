@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 407f6631-ecc1-4ed8-bfec-6d726ae87a3d
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **Groepen** ![](assets/groups-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![ Groepen ](assets/groups-icon.png).
 
 1. Klik op de naam van de groep waarvoor u bedrijven wilt maken of wijzigen.
 1. In het linkerpaneel, klik **Bedrijven** om van de bedrijven een lijst te maken verbonden aan de groep en om het even welke subgroups het kan hebben.
@@ -86,8 +86,8 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
    >
    >Als u administratieve toegang tot bedrijven in uw toegangsniveau hebt, kunt u ook klikken toevoegt Meer Bedrijven bij de bodem van de lijst. Dit voegt een rij toe waar u het nieuwe bedrijf kunt snel vormen.
 
-1. (Optioneel) Als u bedrijven wilt bewerken of verwijderen, selecteert u ten minste één bedrijf en gebruikt u de werkbalkknoppen om ![](assets/edit-icon.png) het bedrijf te bewerken of te verwijderen. ![](assets/delete.png)
+1. (Facultatief) om bedrijven uit te geven of te schrappen, om minstens één bedrijf te selecteren, dan de toolbarknopen gebruiken om ![ uit te geven pictogram ](assets/edit-icon.png) uitgeven of ![ schrap pictogram ](assets/delete.png) het.
 
    Voor informatie over het uitgeven van een bedrijf, zie de sectie [ een bedrijf in Workfront ](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md#adding-a-company-to-workfront) in het artikel [ creëren en uitgeven bedrijven ](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
-1. (Optioneel) Als u de lijst met bedrijven wilt exporteren, klikt u op het pictogram Exporteren ![](assets/export.png) en selecteert u de gewenste bestandsindeling voor de geëxporteerde lijst.
+1. (Facultatief) om de lijst van bedrijven uit te voeren, klik het pictogram van de Uitvoer ![ ](assets/export.png), dan selecteer het dossierformaat u voor de uitgevoerde lijst wilt.

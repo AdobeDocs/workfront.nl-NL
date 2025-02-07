@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5fbd4989-460b-4380-a136-8a9f6b79787d
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. Selecteer het lusje van het objecten type (**Project**, **Taak**, of **Uitgave**) waar de voorwaarde die u wilt schrappen wordt gevestigd.
 
-1. Beweeg over de voorwaarde u wilt schrappen, dan **Schrapping** pictogram ![](assets/delete.png) klikken dat op uiterst rechts verschijnt.
+1. Beweeg over de voorwaarde u wilt schrappen, dan de **Schrapping** pictogram ![ Schrapping ](assets/delete.png) klikken die op uiterst rechts verschijnt.
 1. In het bevestigingsbericht dat verschijnt, klik **Voorwaarde van de Schrapping**.
 
 1. In het **vakje van de Voorwaarde van de Schrapping** dat verschijnt, selecteer een nieuwe voorwaarde in de drop-down lijst voor alle projecten die de voorwaarde gebruikten die u schrapt.

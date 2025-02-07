@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 532a7badf236d0d9568bc6c632b7badf3576cce3
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '3273'
+source-wordcount: '3275'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 {{step-1-to-users}}
 
-1. Selecteer de gebruiker, dan klik **uitgeven** pictogram ![](assets/edit-icon.png).
+1. Selecteer de gebruiker, dan klik **uitgeven** pictogram ![ pictogram ](assets/edit-icon.png) uitgeeft.
 
    Het vak Gebruiker bewerken wordt weergegeven.
 

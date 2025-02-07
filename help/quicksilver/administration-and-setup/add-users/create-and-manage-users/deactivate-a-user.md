@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1084'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Een gebruiker deactiveren:
 
 {{step-1-to-users}}
 
-1. Selecteer een gebruiker, klik het **Meer** pictogram ![](assets/more-icon.png), dan klik **Deactivate**.
+1. Selecteer een gebruiker, klik het **Meer** pictogram ![ Meer pictogram ](assets/more-icon.png), dan klik **Deactivate**.
 
 1. Klik **Deactivate** in de doos die verschijnt.
 
@@ -118,7 +118,7 @@ Een gebruiker plannen voor deactivering:
 
    (Optioneel) Selecteer meerdere gebruikers om ze bulksgewijs te deactiveren.
 
-1. Klik op het pictogram Bewerken ![](assets/edit-icon.png) .
+1. Klik het Edit pictogram ![ uitgeven pictogram ](assets/edit-icon.png).
 1. In het Edit vakje van de Gebruiker dat toont, klik **Planning van het Middel** om naar dat gebied te gaan.
 1. Laat de **optie van de Deactivering van het Programma** toe.
 
@@ -139,7 +139,7 @@ Wij adviseren dat u een rapport voor gebruikers bouwt die u voor deactivering he
 
 {{step-1-to-users}}
 
-1. Selecteer een gebruiker, klik het Meer pictogram ![](assets/more-icon.png), dan klik **activeer**.
+1. Selecteer een gebruiker, klik het Meer pictogram ![ Meer pictogram ](assets/more-icon.png), dan klik **activeren**.
 
 1. Wijs een nieuw **niveau van de Toegang** in het drop-down menu toe, dan klik **** Reactivate.
 <!--

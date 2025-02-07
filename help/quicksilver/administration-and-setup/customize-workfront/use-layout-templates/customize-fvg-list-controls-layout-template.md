@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Als Adobe Workfront-beheerder kunt u een lay-outsjabloon gebruiken om op te geven welke lijstbesturingselementen worden weergegeven in de vervolgkeuzemenu&#39;s Filter, Weergave en Groeperen. Deze menu&#39;s worden boven op lijsten in Workfront weergegeven, zoals de lijst met taken voor een project:
 
-![](assets/filter-view-grouping-layout-templates.png)
+![ de mening die van de Filter lay-outmalplaatjes groeperen ](assets/filter-view-grouping-layout-templates.png)
 
 Voor meer informatie over lay-outmalplaatjes, zie [ lay-outmalplaatjes ](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
 
@@ -62,25 +62,25 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
 ## Besturingselementen voor filters, weergave en groeperingslijsten aanpassen:
 
 1. Begin werkend aan een lay-outmalplaatje, zoals die in [ wordt beschreven creeer en beheer lay-outmalplaatjes ](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Klik de benedenpijl ![](assets/down-arrow-blue.png) onder **aanpassen wat de gebruikers** zien, dan klik **Lijsten** in het drop-down menu dat toont.
+1. Klik de benedenpijl ![ benedenpijl ](assets/down-arrow-blue.png) onder **aanpassen welke gebruikers** zien, dan klik **Lijsten** in het drop-down menu dat toont.
 
-   ![](assets/customize-what-users-see-dropdown-on-pg-adobe-branding.png)
+   ![ pas aan wat de gebruikers ](assets/customize-what-users-see-dropdown-on-pg-adobe-branding.png) zien
 
-1. Klik de benedenpijl ![](assets/down-arrow-blue.png) onder **selecteer een lijst om** aan te passen, dan selecteer het type van voorwerp van Workfront waarvoor u de de lijstcontroles van de Filter, van de Mening, en van de Groepering wilt aanpassen.
+1. Klik de benedenpijl ![ benedenpijl ](assets/down-arrow-blue.png) onder **selecteer een lijst om** aan te passen, dan selecteer het type van voorwerp van Workfront waarvoor u de Filter, de Mening, en de de lijstcontroles van de Groepering wilt aanpassen.
 
-   ![](assets/select-a-list-to-customize-menu-on-pg-adobe-branding.png)
+   ![ selecteer een lijst om ](assets/select-a-list-to-customize-menu-on-pg-adobe-branding.png) aan te passen
 
    >[!NOTE]
    >
    >Als u Projecten als lijst selecteert om aan te passen, dan Projecten onbruikbaar te maken ik of Projecten in de sectie van de Filter ben, zullen de gebruikers niet meer zien of die filter kunnen gebruiken:
    >
-   >* In de lijst met filters die worden weergegeven wanneer ze op het filterpictogram ![](assets/filter-nwepng.png) boven een lijst klikken:
+   >* In de lijst van filters die toont wanneer zij het pictogram van de filter ![ Filter ](assets/filter-nwepng.png) boven een lijst klikken:
    >   
-   >  ![](assets/disable-filters-projects-im-on-or-own.png)
+   >  ![ maak filters ](assets/disable-filters-projects-im-on-or-own.png) onbruikbaar
    >   
    >* In de koptekst van het gebied Projecten:
    >   
-   >  ![](assets/disable-filter-pills.png)
+   >  ![ maak filterknoop ](assets/disable-filter-pills.png) onbruikbaar
 
 1. (Facultatief) als u de standaardfilter, mening, of groepering voor het lay-outmalplaatje wilt veranderen, over de filter, de mening, of het groeperen, dan klik **Reeks als gebrek**.
 

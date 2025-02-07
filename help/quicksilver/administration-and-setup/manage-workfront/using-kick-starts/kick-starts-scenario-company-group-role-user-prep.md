@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1147'
 ht-degree: 0%
 
 ---
@@ -183,69 +183,69 @@ In de volgende tabellen worden de te importeren gebruikers en diverse gebruikers
 
 1. Ga naar het blad &#39;CMPY Company&#39;.
 
-   Het zou leeg moeten zijn tenzij de bedrijven reeds in het systeem zijn. ![](assets/cmpysheet-350x16.png)
+   Het zou leeg moeten zijn tenzij de bedrijven reeds in het systeem zijn. ![ blad van het Bedrijf ](assets/cmpysheet-350x16.png)
 
-   ![](assets/companyid--1--350x78.png)
+   ![ identiteitskaart van het Bedrijf ](assets/companyid--1--350x78.png)
 
 1. Specificeer WAAR in de **isNew** kolom.
 1. Herhaal deze handeling voor elk bedrijf dat wordt toegevoegd. (In dit voorbeeld voert u deze handeling uit voor de rijen 3-6, omdat er vier bedrijven worden toegevoegd.)
 
-   ![](assets/cmpyisnew-350x86.png)
+   ![ Bedrijf is nieuw ](assets/cmpyisnew-350x86.png)
 
 1. Geef een unieke id op.
 
    Dit moet voor elke rij voor de kolom van identiteitskaart worden gedaan. Gehele getallen die bij 1 beginnen, werken goed bij het maken van nieuwe records.
 
-   ![](assets/cmpyisnew-350x86.png)
+   ![ Bedrijf is nieuw ](assets/cmpyisnew-350x86.png)
 
 1. Stel een naam in.
 
    Specificeer de namen van elke klant in de **setName** kolom.
 
-   ![](assets/companyid-350x78.png)
+   ![ identiteitskaart van het Bedrijf ](assets/companyid-350x78.png)
 
 1. Ga naar het groepsblad van de GROEP.
 
    Tenzij u al groepen hebt gemaakt in Workfront, wordt op dit blad alleen de standaardgroep weergegeven die is ingericht voor elke account van Workfront.
 
-   ![](assets/groupsheet-350x15.png) ![](assets/emptygroupsheet-350x85.png)
+   ](assets/groupsheet-350x15.png) ![ Lege groepsblad van 0} Groep ](assets/emptygroupsheet-350x85.png)![
 
 1. Plaats **isNew** column.Volgens het scenario, zullen 4 groepen worden ingevoerd, zo specificeer WAAR in rijen 4 door 7 voor de &quot;isNew&quot;kolom.
 1. Geef een unieke id op.
 
    Dit moet voor elke rij voor de kolom van identiteitskaart worden gedaan. Gehele getallen die bij 1 beginnen, werken goed bij het maken van nieuwe records.
 
-   ![](assets/groupids-350x85.png)
+   ![ Groep IDs ](assets/groupids-350x85.png)
 
 1. Stel een naam in.
 
    Specificeer de namen van elke afdeling in de **setName** kolom.
 
-   ![](assets/groupnames-350x85.png)
+   ![ de namen van de Groep ](assets/groupnames-350x85.png)
 
    Rolgegevens opgeven. Ga naar het Rolblad van de ROL.
 
 1. Tenzij u al rollen in uw account hebt gemaakt of verwijderd, moet dit blad 8 rollen weergeven die zijn ingericht voor elke account van Workfront.
 
-   ![](assets/groupnames-350x85.png)
+   ![ de namen van de Groep ](assets/groupnames-350x85.png)
 
 1. True instellen, instructie.
 
    Zeven de Rollen van de Baan invoeren, input WAAR in rijen 12 door 18 voor de &quot;isNew&quot;kolom.
 
-   ![](assets/roleisnew-350x104.png)
+   ![ Rol is nieuw ](assets/roleisnew-350x104.png)
 
 1. Geef een unieke id op.
 
    Dit moet voor elke rij voor de kolom van identiteitskaart worden gedaan. Gehele getallen die bij 1 beginnen, werken goed bij het maken van nieuwe records.
 
-   ![](assets/usersheet-350x16.png)
+   ![ Gebruikersblad ](assets/usersheet-350x16.png)
 
-   ![](assets/roleisnew--1--350x104.png)
+   ![ Rol is nieuw ](assets/roleisnew--1--350x104.png)
 
 1. Geef een naam voor elke rol op door deze in de kolom setName te typen.
 
-   ![](assets/roleisnew-350x104.png)
+   ![ Rol is nieuw ](assets/roleisnew-350x104.png)
 
 1. Geef zo nodig aanvullende gegevens op.
 
@@ -255,23 +255,23 @@ In de volgende tabellen worden de te importeren gebruikers en diverse gebruikers
 
    Tenzij u al gebruikers in uw account hebt gemaakt, wordt op dit blad alleen de Admin-gebruiker weergegeven die voor elke account van Workfront is ingericht.
 
-   ![](assets/rolenames-350x104.png) ![](assets/emptyusersheet-350x52.png)
+   ](assets/rolenames-350x104.png) ![ Lege gebruikersblad van de Rol 0} ](assets/emptyusersheet-350x52.png)![
 
 1. Stel de waarde True in door TRUE op te geven in de rijen 4 tot en met 9 voor de kolom &#39;isNew&#39;, aangezien er 6 gebruikers worden geïmporteerd.
 
-   ![](assets/userisnew-350x52.png)
+   ![ Gebruiker is nieuw ](assets/userisnew-350x52.png)
 
 1. Stel een unieke id in door in elke rij een unieke id voor de kolom Id op te geven. Gewoonlijk werken gehele getallen vanaf 1 goed voor nieuwe records.
 
-   ![](assets/userisnew-350x52.png)
+   ![ Gebruiker is nieuw ](assets/userisnew-350x52.png)
 
 1. Voer de namen van elke gebruiker in de kolommen &#39;setFirstName&#39; en &#39;setLastName&#39; in.
 
-   ![](assets/usernames-350x52.png)
+   ![ Gebruikersnamen ](assets/usernames-350x52.png)
 
 1. Stel detailwaarden in door waarden op te geven in de kolommen &#39;setEmail&#39;, &#39;setPassword&#39; en &#39;setGebruikersnaam&#39;.
 
-   ![](assets/usercredentials-350x52.png)
+   ![ geloofsbrieven van de Gebruiker ](assets/usercredentials-350x52.png)
 
 1. Geef waarden op voor Toegangsniveau.
 
@@ -279,13 +279,13 @@ In de volgende tabellen worden de te importeren gebruikers en diverse gebruikers
 
    Herhaal deze stap voor elke gebruiker en toegangsniveau.
 
-   ![](assets/copyalid-350x171.png) ![](assets/pastealid-350x59.png)
+   ![ identiteitskaart van het de toegangsniveau van het Exemplaar ](assets/copyalid-350x171.png) ![ identiteitskaart van het de toegangsniveau van het Deeg ](assets/pastealid-350x59.png)
 
 1. Geef de gegevens van de thuisgroep op.
 
    Volgens het scenario behoort Chris Manning tot de marketinggroep. Op het blad van de Groep van de GROEP, bepaal de plaats van identiteitskaart voor de groep van de Marketing, kopieer het in het klembord, en op het blad van de Gebruiker kleeft het in **setHomeGroupID** kolom op Chris&#39; rij. &#x200B;Herhaal deze stap voor elke gebruiker en groepstoewijzing.
 
-   ![](assets/copygroupid-1-350x133.png) ![](assets/pastegroupid-350x59.png)
+   ![ de groepsidentiteitskaart van het Exemplaar ](assets/copygroupid-1-350x133.png) ![ groepsidentiteitskaart van het Deeg ](assets/pastegroupid-350x59.png)
 
 1. Geef bedrijfsgegevens op.
 
@@ -293,17 +293,17 @@ In de volgende tabellen worden de te importeren gebruikers en diverse gebruikers
 
    Herhaal deze stap voor elke gebruiker en groepstoewijzing.
 
-   ![](assets/companyid--1--350x78.png)
+   ![ identiteitskaart van het Bedrijf ](assets/companyid--1--350x78.png)
 
-   ![](assets/pastecompanyid-350x84.png)
+   ![ bedrijf identiteitskaart van het Deeg ](assets/pastecompanyid-350x84.png)
 
 1. Geef taakroldetails op.
 
    Volgens het scenario, zal Chris Manning de rol van BedrijfsAnalyst hebben. Voor het blad van de Rol van de ROL van de ROL, bepaal de plaats identiteitskaart voor de rol BedrijfsAnalyst, kopieer het in het klembord, en op het blad van de Gebruiker kleef het in de kolom &quot;setRoleID&quot;op Chris&#39; rij. &#x200B;Herhaal deze stap voor elke gebruiker en groepstoewijzing.
 
-   ![](assets/copyroleid-350x149.png)
+   ![ identiteitskaart van de rol van het Exemplaar ](assets/copyroleid-350x149.png)
 
-   ![](assets/pasteroleid-350x95.png)
+   ![ identiteitskaart van de rol van het Deeg ](assets/pasteroleid-350x95.png)
 
 1. Vul desgewenst andere gebruikersgegevens in en sla het bestand op.
 1. Het Excel-bestand importeren.

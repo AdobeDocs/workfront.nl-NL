@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: 90405d79f605d788331cb7a04ebf354dc4379bf5
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '2249'
+source-wordcount: '2251'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 1. Klik in het linkerdeelvenster op **[!UICONTROL Project Preferences]** > **[!UICONTROL Projects]** .
 
 1. Op de **pagina van de Voorkeur van het Project**, ga met één van de 4 hieronder vermelde secties verder om voorkeur voor [!UICONTROL Project Status], [!UICONTROL Timelines], [!UICONTROL Business Cases], en [!UICONTROL Life after Death] te vormen.
-1. Als u wilt dat alle groepen in de hele organisatie dezelfde projectvoorkeuren gebruiken, controleert u of elke voorkeur is vergrendeld ![](assets/lock-toggle-button.png) (dit is de standaardinstelling).
+1. Als u alle groepen door de organisatie wilt om de zelfde projectvoorkeur te gebruiken, zorg ervoor dat elke voorkeur gesloten ![ knevel van het Slot ](assets/lock-toggle-button.png) is (dit is het gebrek).
 
    >[!IMPORTANT]
    >

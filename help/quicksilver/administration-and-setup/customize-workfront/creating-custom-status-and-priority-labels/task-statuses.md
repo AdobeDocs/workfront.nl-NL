@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2cdedc67-b7b0-4e83-a446-d71e3afe255c
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Voor informatie over het uitgeven van de systeemstatussen of het creëren van ni
 
    De taakstatussen die beschikbaar zijn in Workfront, worden weergegeven op dit tabblad.
 
-   ![](assets/task-status.png)
+   ![ status van de Taak ](assets/task-status.png)
 
    Voor details over elk van de ingebouwde statussen van de systeemtaak, zie [ de taakstatussen van het Systeem ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-task-statuses.md).
 

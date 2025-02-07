@@ -5,9 +5,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ U moet meldingen inschakelen in het gedeelte Setup van Workfront voordat gebruik
 
 1. Klik **E-mail** > **Meldingen**.
 
-   ![](assets/notifications-area-under-setup-emails.png)
+   ![ gebied van Meldingen onder opstellingsE-mail ](assets/notifications-area-under-setup-emails.png)
 
 
 1. Zorg ervoor de **Berichten van de Gebeurtenis** tabel open is.
@@ -88,7 +88,7 @@ U moet meldingen inschakelen in het gedeelte Setup van Workfront voordat gebruik
 
    Voor meer informatie over het aanpassen van de onderwerplijnen van e-mailberichten, zie [ E-mailonderwerpen voor gebeurtenisberichten aanpassen ](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md).
 
-1. (Optioneel) Als u de configuratie voor een e-mailbericht wilt ontgrendelen zodat groepsbeheerders de configuratie voor hun groepen afzonderlijk kunnen configureren, klikt u op de knop ![](assets/lock-toggle-button.png) rechts van het bericht om deze naar de ontgrendelde positie te verplaatsen ![](assets/unlock-toggle-button.png) .
+1. (Facultatief) als u configuratie voor een e-mailbericht wilt ontgrendelen zodat de groepsbeheerders het voor hun groepen afzonderlijk kunnen vormen, klik de knoop ![ knevel van het Slot ](assets/lock-toggle-button.png) rechts van het bericht om het aan de ontgrendelde schakelaar ![ te schakelen Ontgrendelt knevel ](assets/unlock-toggle-button.png).
 
    >[!NOTE]
    >

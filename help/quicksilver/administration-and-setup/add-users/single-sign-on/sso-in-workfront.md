@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87f1b6c0-6b74-4eac-87cd-899b1c74af25
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Als u de SSO-functionaliteit in Workfront wilt gebruiken, moet uw organisatie ee
 
 Met federatieve oplossingen kunnen gebruikers zich aanmelden bij al hun toepassingen door hun gebruikersnaam en wachtwoord in te voeren in een gecentraliseerd aanmeldingsportal.
 
-![](assets/overview-sso-wf-fed-only.png)
+![ SSO federated ](assets/overview-sso-wf-fed-only.png)
 
 
 ## Uw firewall configureren

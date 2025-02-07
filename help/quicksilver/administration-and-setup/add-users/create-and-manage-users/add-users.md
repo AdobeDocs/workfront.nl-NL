@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1130'
 ht-degree: 0%
 
 ---
@@ -151,7 +151,7 @@ Nieuwe gebruiker maken door een bestaande gebruiker te kopiëren:
 
 {{step-1-to-users}}
 
-1. Selecteer de gebruiker die u wilt kopiëren en klik op het pictogram Kopiëren ![](assets/copy-icon.png) .
+1. Selecteer de gebruiker die u wilt kopiëren, dan het pictogram van het Exemplaar ![ pictogram van het Exemplaar ](assets/copy-icon.png) klikken.
 1. In het **vakje van de Gebruiker van het Exemplaar** dat toont, geef de gebieden beschikbaar voor de nieuwe gebruiker uit.
 
    Voor informatie over alle gebieden verbonden aan een gebruiker, zie [ het profiel van een gebruiker ](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.

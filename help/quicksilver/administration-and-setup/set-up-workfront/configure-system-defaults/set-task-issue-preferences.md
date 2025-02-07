@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1884'
+source-wordcount: '1886'
 ht-degree: 0%
 
 ---
@@ -300,7 +300,7 @@ Een taak of een uitgiftevoorkeur vergrendelen of ontgrendelen zodat groepen deze
 
 1. Voer een van de volgende handelingen uit:
 
-   * Als u wilt dat beheerders van groepen onder uw groep een voorkeur voor hun groepen kunnen vormen, ontgrendel het ![](assets/unlock-toggle-button.png).
+   * Als u beheerders van groepen onder uw groep een voorkeur voor hun groepen wilt kunnen vormen, ontgrendel het ![ knevel van de Ontgrendeling ](assets/unlock-toggle-button.png).
    * Als u wilt dat de groep en alle onderliggende groepen uw configuratie voor een voorkeur gebruiken, moet u controleren of deze is vergrendeld (dit is de standaardinstelling).
 
      >[!IMPORTANT]

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: af8c9fc1-8398-437e-b326-3b94f6e7e7e5
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **Groepen** ![](assets/groups-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![ Groepen ](assets/groups-icon.png).
 
 1. Klik de naam van de groep waarvoor u een groepsbeheerder wilt toewijzen.
 1. In de kopbal, dichtbij de hoger-juiste hoek, klik één van de beelden van het gebruikersprofiel onder **Beheerders van de Groep**.

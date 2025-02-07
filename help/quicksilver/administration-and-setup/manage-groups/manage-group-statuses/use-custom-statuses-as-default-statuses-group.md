@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51018635-cd9a-402d-a136-c5bec4707cda
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '685'
 ht-degree: 0%
 
 ---
@@ -66,14 +66,14 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 Als de aangepaste status de status Uitgave is, moeten alle vier de uitgiftetypen hiervoor zijn ingeschakeld (Foutenrapport, Wijzigingsvolgorde, Uitgave en Verzoek). In de onderstaande status van de uitgave kan de status Opnieuw geopend bijvoorbeeld niet als standaardstatus worden gebruikt omdat het type Uitgave volgorde wijzigen niet is geselecteerd:
 
-![](assets/all-4-issue-types-enabled.png)
+![ Alle toegelaten uitgiftetypen ](assets/all-4-issue-types-enabled.png)
 
 ## Een aangepaste status instellen als standaardstatus voor een groep
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **Groepen** ![](assets/groups-icon.png), dan klik de naam van de groep waar u statussen creëren of wilt aanpassen.
-1. In het linkerpaneel, klik **Statussen** ![](assets/gear-icon-settings.png).
+1. In het linkerpaneel, klik **Groepen** ![ Groepen ](assets/groups-icon.png), dan klik de naam van de groep waar u statussen creëren of wilt aanpassen.
+1. In het linkerpaneel, klik **Statussen** ![ het montagespictogram van het Gear ](assets/gear-icon-settings.png).
 1. Open het **Project**, **Taken**, of **Kwesties** lusje, afhankelijk van het type van status u als standaardstatus wilt plaatsen.
 1. Klik **Vastgestelde StandaardStatussen** dichtbij de hoger-juiste hoek.
 1. Selecteer in het vervolgkeuzemenu dat wordt weergegeven, naast de status waar u de standaardstatus wilt instellen, de standaardstatus die u wilt instellen.
@@ -90,7 +90,7 @@ Als de aangepaste status de status Uitgave is, moeten alle vier de uitgiftetypen
    >Als u het project aan een verschillende groep toewijst, zal de projectstatus opnieuw laden en kon veranderen.
 
    1. Ga naar het project waar u de douanestatus wilt gebruiken.
-   1. Klik het Meer menu ![](assets/more-icon.png), dan klik **uitgeven**.
+   1. Klik het Meer menu ![ Meer pictogram ](assets/more-icon.png), dan klik **uitgeven**.
    1. In **geef de doos van het Project** uit die, op het **3} gebied van de Groep {onder** de vereniging van het Project **toont, de groep selecteren die de douanestatus met wordt geassocieerd.**
 
    1. Klik **sparen Veranderingen**.
@@ -109,4 +109,4 @@ Als u een standaardstatus verbergt (door de statusoptie Verbergen hiervoor in te
 
 Als er geen beschikbare status van het gelijkwaardige type is, toont het statustype als **Verborgen** en is niet beschikbaar voor het werkpunten.
 
-![](assets/when-hide-default-status-no-equivalent.png)
+![ Geen beschikbare status ](assets/when-hide-default-status-no-equivalent.png)

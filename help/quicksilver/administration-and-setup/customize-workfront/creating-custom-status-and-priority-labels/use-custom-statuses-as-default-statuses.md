@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5b137cee-e03a-4176-a683-b77f2b27f5ce
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '810'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Als u een groepsbeheerder bent, zie [ Plaats een status als standaardstatus voor
 
 Als de aangepaste status de status Uitgave is, moeten alle vier de uitgiftetypen hiervoor zijn ingeschakeld (Foutenrapport, Wijzigingsvolgorde, Uitgave en Verzoek). In de onderstaande status van de uitgave kan de status Opnieuw geopend bijvoorbeeld niet als standaardstatus worden gebruikt omdat het type Uitgave volgorde wijzigen niet is geselecteerd:
 
-![](assets/all-4-issue-types-enabled.png)
+![ Alle toegelaten uitgiftetypen ](assets/all-4-issue-types-enabled.png)
 
 ## Een aangepaste status instellen als standaardstatus
 
@@ -101,6 +101,6 @@ Als de aangepaste status de status Uitgave is, moeten alle vier de uitgiftetypen
    >Als u de douanestatus voor een groep plaatst, en u later het project aan een verschillende groep toewijst, zal de projectstatus opnieuw laden en kon veranderen.
 
    1. Ga naar het project waar u de douanestatus wilt gebruiken.
-   1. Klik het Meer menu ![](assets/more-icon.png), dan klik **uitgeven**.
+   1. Klik het Meer menu ![ Meer pictogram ](assets/more-icon.png), dan klik **uitgeven**.
    1. In **geef de doos van het Project** uit die, op het **3} gebied van de Groep {onder** de vereniging van het Project **toont, selecteer de groep waar de status verblijft.**
    1. Klik **sparen Veranderingen**.

@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8a55d364-962a-4eef-8968-b2233a71cf31
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >
    >Als u de optie **toelaat het inbedden van Workfront in een iframe**, staat de optie **SAML 2.0 authentificatie in Bureau 365 toe:voegen-ins** toe en wordt toegelaten.
    >
-   >![](assets/if-you-enable.png)
+   >![ staat het inbedden optie ](assets/if-you-enable.png) toe
    >
 
 1. Klik **sparen**.

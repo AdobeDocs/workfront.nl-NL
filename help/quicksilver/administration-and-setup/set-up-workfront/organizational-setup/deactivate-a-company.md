@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 479dfb9d-0e47-4790-a33a-336b415fbf6e
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 {{step-1-to-setup}}
 
-1. Klik in het linkerdeelvenster op **[!UICONTROL Companies]** ![](assets/companies-icon-left-panel.png) .
+1. In het linkerpaneel, klik **[!UICONTROL Companies]** ![ pictogram van Bedrijven ](assets/companies-icon-left-panel.png).
 
 1. Selecteer een of meer bedrijven om te deactiveren of opnieuw te activeren.
 1. Klik op **[!UICONTROL Edit]**.

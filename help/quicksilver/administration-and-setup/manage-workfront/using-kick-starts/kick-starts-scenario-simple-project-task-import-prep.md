@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c095ce9d-b189-449b-bd13-2633837697ed
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1493'
 ht-degree: 0%
 
 ---
@@ -277,10 +277,10 @@ Ga naar de Kick-Starts pagina. Selecteer het Bedrijf, de Groep, het Project, de 
 
 Open het Workfront.xlsx-bestand dat u net hebt gedownload. Ga naar het PROJ-projectblad.
 
-![](assets/im2.png)
+![ PROJ projectreeks ](assets/im2.png)
 Tenzij u reeds projecten in Workfront hebt gecreeerd, zou het leeg moeten zijn.
 
-![](assets/im10.png)
+![ Leeg projectblad ](assets/im10.png)
 
 Stel de waarden in voor de volgende projectvelden:
 
@@ -305,7 +305,7 @@ Voer de geplande begindatum in voor elk project in de kolom setPlannedStartDate.
 * **plaats andere vereiste details.**
 Vul desgewenst andere gegevens in, zoals een beschrijving of de huidige status. Zoek omhoog IDs van de Groep voor elk project op het blad van de Groep van de GROEP en input hen in de setGroupID kolom voor de respectieve projecten. Zoek omhoog identiteitskaart van het Bedrijf voor de projecten op het blad van het Bedrijf CMPY en input het in de kolom setCompanyID. Zoek de Gebruiker - identiteitskaart voor elke projecteigenaar op het Gebruikersblad van de GEBRUIKER en voer het in de setOwnerID kolom in. Zoek de gebruikersnaam voor elke projectsponsor op het gebruikersblad en voer deze in de kolom setSponsorID in.
 
-![](assets/im9.png)
+![ vastgestelde waarden ](assets/im9.png)
 
 >[!NOTE]
 >
@@ -319,11 +319,11 @@ Open het Workfront.xlsx-bestand dat u net hebt gedownload. **ga naar het Taakbla
 
 Dit blad moet leeg zijn, tenzij u al taken hebt gemaakt in Workfront.
 
-![](assets/im8.png)
+![ Taakblad ](assets/im8.png)
 
-![](assets/im7.png)
+![ Lege taakblad ](assets/im7.png)
 
-![](assets/im6.png)
+![ de kolommen van het taakblad ](assets/im6.png)
 
 De gemakkelijkste manier om taken in kaart te brengen is één project in een tijd (vooral wanneer de taken het zelfde op elk project zijn). U kunt het taakplan voor het eerste project dan kopiëren en kleine aanpassingen aan het taakplan voor de verdere projecten aanbrengen. Bij de overige stappen wordt ervan uitgegaan dat u alleen taken voor het Workfront-project implementeren maakt. Volgens het scenario, zult u 9 taken per project invoeren, zodat inputWAAR in rijen 3 door 11 voor de isNew kolom.
 
@@ -364,7 +364,7 @@ Stel de duur voor elke taak in door het aantal uren, dagen, weken of maanden voo
 * Voer de gehele numerieke representatie in van het percentage dat is voltooid in het veld setPercentComplete voor elke taak. Deze waarde mag het percentagesymbool (%) niet bevatten.
 * Voeg desgewenst een beschrijving en andere details toe voor elke taak die u maakt.
 
-  ![](assets/im5.png)
+  ![ voeg details ](assets/im5.png) toe
 
 * De kolommen setPlannedStartDate en setTaskConstraint worden niet gebruikt om de chronologie van dit project uit te bouwen omdat wij op predecessor verhoudingen vertrouwen. In plaats daarvan kunt u een datum invoeren voor elke taak. Als u dit doet, zeker ben u ook een geldige taakbeperking in de setTaskConstraint kolom verstrekt. Controleer de Taakbeperking en verwante artikelen voor details over geldige waarden voor dit gebied.
 

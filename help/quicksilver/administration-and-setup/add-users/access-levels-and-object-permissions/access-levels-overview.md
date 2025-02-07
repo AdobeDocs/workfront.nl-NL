@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Elk van de zes ingebouwde toegangsniveaus is verbonden aan één van de vijf Wor
 
 External is een niet-betaalde licentie die voornamelijk is ontworpen voor het delen van documenten met medewerkers die geen Workfront gebruiken.
 
-![](assets/access-levels-and-licenses-old.png)
+![ de toegangsniveaus en vergunningen van de Oudheid ](assets/access-levels-and-licenses-old.png)
 
 Raadpleeg de volgende artikelen voor informatie over onderwerpen die betrekking hebben op toegangsniveaus:
 

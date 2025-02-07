@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d6d18423-d13c-42e8-b8ee-43e6842b6481
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Standaard kunnen gebruikers geen afbeeldingen in updates toevoegen. Wanneer u de
 >* Afbeeldingen zijn toegankelijk via het tabblad [!UICONTROL Updates] op een object en zijn ook beschikbaar in het [!UICONTROL Documents] -gebied onder [!UICONTROL Main Menu] .
 >
 
-1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png) .
+1. Klik het **[!UICONTROL Main Menu]** pictogram van het pictogram ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van [!DNL Adobe Workfront], dan klik **[!UICONTROL Setup]** ![ het montagespictogram van het Gear ](assets/gear-icon-settings.png).
 1. Selecteer **[!UICONTROL Interface]** > **[!UICONTROL Update Feeds]** in het linkerdeelvenster.
 1. Selecteer de tab **[!UICONTROL Preferences]** .
 

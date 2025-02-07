@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '1685'
+source-wordcount: '1715'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Het ingebouwde toegangsniveau van de Beheerder van het Systeem, verbonden aan de
 
 Gebruikers met het toegangsniveau voor systeembeheerders kunnen alles doen in Workfront. Ze kunnen alle Workfront-objecten en informatie die door alle andere gebruikers in Workfront is ingevoerd, weergeven en bewerken.
 
-Zij hebben ook volledige toegang tot het gebied van de Opstelling, waar zij om het even welk plaatsen op het systeemniveau kunnen veranderen. En ze hebben toegang tot alle gebieden in het hoofdmenu ![](assets/main-menu-icon.png) of het hoofdmenu ![](assets/lines-main-menu.png) , indien beschikbaar.
+Zij hebben ook volledige toegang tot het gebied van de Opstelling, waar zij om het even welk plaatsen op het systeemniveau kunnen veranderen. En zij kunnen tot alle gebieden in het Belangrijkste Menu ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) of tot het Belangrijkste het menupictogram van het Menu ![ toegang hebben ](assets/main-menu-icon.png), als beschikbaar.
 
 Voor meer informatie, zie [ een gebruiker volledige administratieve toegang verlenen ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
@@ -86,7 +86,7 @@ Het toegangsniveau van de Planner is ook gekoppeld aan de licentie voor abonneme
 * Iedereen die verantwoordelijk is voor het plannen, maken en beheren van taken, projecten, portfolio&#39;s en programma&#39;s
 * Iedereen die verantwoordelijk is voor het toewijzen van werk (taken en problemen) aan andere gebruikers
 * Gebruikers die rapporten maken en die tijdbladen, werkitems en documenten goedkeuren
-* Gebruikers die toegang tot alle gebieden in het hoofdmenu ![](assets/main-menu-icon.png) of het hoofdmenu ![](assets/lines-main-menu.png) nodig hebben, indien beschikbaar
+* Gebruikers die toegang tot alle gebieden in het Belangrijkste het menupictogram van het Menu ![ Belangrijkste ](assets/main-menu-icon.png) of het Belangrijkste het menupictogram ![ Belangrijkste ](assets/main-menu-icon.png) nodig hebben, als beschikbaar
 
 U kunt een aangepaste versie van het ingebouwde toegangsniveau van de Planner maken en de mate van toegang bepalen die het toestaat voor de verschillende Workfront-objecttypen. Voor meer informatie, zie [ douanetoegangsniveaus ](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) creëren en wijzigen.
 
@@ -122,7 +122,7 @@ Gebruikers met dit toegangsniveau:
 * Werk en documenten kunnen worden goedgekeurd, maar geen timesheets
 * Kan rapporten openen en delen
 * Kan communiceren met andere gebruikers in het systeem
-* Kan niet alle gebieden in het hoofdmenu ![](assets/main-menu-icon.png) of het hoofdmenu ![](assets/lines-main-menu.png) openen, indien beschikbaar, en het gebied &quot;Gebruikers&quot; heeft de naam Teams. In het gebied van Teams, kunnen de gebruikers met dit toegangsniveau slechts teams bekijken die zij tot behoren, samen met het werk dat aan die teams wordt toegewezen.
+* Kan tot alle gebieden in het Belangrijkste het menupictogram van het Menu ![ Belangrijkste ](assets/main-menu-icon.png) of tot het Belangrijkste het menupictogram van het Menu ![ toegang hebben ](assets/main-menu-icon.png), als beschikbaar, en hun &quot;Gebruikers&quot;gebied wordt genoemd Teams. In het gebied van Teams, kunnen de gebruikers met dit toegangsniveau slechts teams bekijken die zij tot behoren, samen met het werk dat aan die teams wordt toegewezen.
 * Heb beperkte capaciteit om tot voorwerp-zij tot stand te brengen geen projecten, portefeuilles, programma&#39;s, of rapporten kunnen leiden.
 
 U kunt een aangepaste versie van het ingebouwde toegangsniveau van de Worker maken en de mate van toegang bepalen die dit toestaat voor de verschillende Workfront-objecttypen. Voor meer informatie, zie [ douanetoegangsniveaus ](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) creëren en wijzigen.
@@ -158,7 +158,7 @@ Een belanghebbende met dit toegangsniveau kan zich bijvoorbeeld aanmelden bij Wo
 Gebruikers met het toegangsniveau van de Revisor:
 
 * Kan geen werkitems toewijzen of tijdbladen goedkeuren
-* Toegang krijgen tot de gebieden Aanvragen en Documenten in het Hoofdmenu ![](assets/main-menu-icon.png) of het Hoofdmenu ![](assets/lines-main-menu.png), indien beschikbaar
+* Kan tot de gebieden van Verzoeken en van Documenten in het Belangrijkste Menu ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) of het Belangrijkste het menupictogram van het Menu ![ toegang hebben ](assets/main-menu-icon.png), als beschikbaar
 * Heb beperkte capaciteit om tot voorwerp-zij tot stand te brengen geen projecten, portefeuilles, programma&#39;s, of rapporten kunnen leiden.
 
 U kunt een aangepaste versie van het ingebouwde toegangsniveau van Reviewer maken en bepalen hoeveel toegang er wordt verleend voor de verschillende Workfront-objecttypen. Voor meer informatie, zie [ douanetoegangsniveaus ](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) creëren en wijzigen.
@@ -285,7 +285,7 @@ Gebruikers met dit toegangsniveau:
 * Documenten uploaden en goedkeuren
 * Kan de status van de verzonden problemen bekijken
 * Kan niet toewijzen aan werkitems
-* U hebt alleen toegang tot aanvragen via het gedeelte Verzoeken in het hoofdmenu ![](assets/main-menu-icon.png) of het hoofdmenu ![](assets/lines-main-menu.png) , indien beschikbaar. Voor meer informatie over verzoekrijen, zie [ een Rij van het Verzoek ](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
+* Kan verzoeken slechts van het gebied van Verzoeken in het Belangrijkste het menupictogram van het Menu ![ Belangrijkste ](assets/main-menu-icon.png) of het Belangrijkste het menupictogram van het Menu ![ toegang hebben ](assets/main-menu-icon.png), als beschikbaar. Voor meer informatie over verzoekrijen, zie [ een Rij van het Verzoek ](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
 
 U kunt een aangepaste versie van het ingebouwde toegangsniveau voor de aanvrager maken en bepalen hoeveel toegang er wordt verleend voor de verschillende Workfront-objecttypen. Voor meer informatie, zie [ douanetoegangsniveaus ](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) creëren en wijzigen.
 

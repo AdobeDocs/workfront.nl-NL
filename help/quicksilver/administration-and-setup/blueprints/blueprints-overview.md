@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4c487598-2066-4507-8dfe-1a54d38f5eea
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Blauwdrukken zijn sets Workfront-objecten die betrekking hebben op veelvoorkomende gebruiksgevallen in Workfront. U kunt een blauwdruk downloaden en installeren, en dan de voorwerpen voor uw specifiek gebruiksgeval vormen.
 
-![](assets/blueprints-main-page-catalog.png)
+![ de belangrijkste pagina van blauwdrukken ](assets/blueprints-main-page-catalog.png)
 
 >[!INFO]
 >

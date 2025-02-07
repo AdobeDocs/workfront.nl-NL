@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 9db8ea3f26dd7e8b4c8aa52fb9902832db7a6a5c
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1284'
 ht-degree: 0%
 
 ---
@@ -102,13 +102,13 @@ Voordat u de Admin Console voor Workfront gaat gebruiken, ontvangt u een e-mail 
 
 1. Van de [ pagina van Adobe Admin Console ](https://adminconsole.adobe.com/), selecteer het **Producten** lusje in de hoogste navigatiebar, en selecteer dan **Workfront**.
 
-   <!--![](assets/admin-product-1.png)-->
+   <!--![Admin Console product](assets/admin-product-1.png)-->
 
 1. Selecteer in de lijst die wordt weergegeven de koppeling bovenaan.
 
    Dit is uw instantie van de Productie waar uw gebruikers werken.
 
-   <!--![](assets/instances-1.png)-->
+   <!--![Admin Console instances](assets/instances-1.png)-->
 
    >[!TIP]
    >
@@ -119,7 +119,7 @@ Voordat u de Admin Console voor Workfront gaat gebruiken, ontvangt u een e-mail 
 
 1. In de lijst die toont, met het **geselecteerde lusje van Profielen van het 0} Product {, klik de naam van de verbinding van het Profiel van het Product van Workfront.**
 
-   ![](assets/prod-profile-1.png)
+   ![ Profielen van het Product ](assets/prod-profile-1.png)
 
    Deze lijst bevat alle gebruikers die al zijn toegewezen aan uw productie-instantie van Workfront.
 
@@ -145,7 +145,7 @@ U moet een gebruiker aan uw instantie van de Productie van Workfront toevoegen a
 1. Selecteer **Admin** toevoegen.
 1. In **voeg de beheerders van het productprofiel** doos toe, ga de e-mailadressen of de namen van de beheerders in u, dan uitgezocht **sparen** wilt toevoegen.
 
-   ![](assets/add-admin-1.png)
+   ![ voeg admin ](assets/add-admin-1.png) toe
 
    De systeembeheerders worden in Workfront gemaakt.
 
@@ -205,7 +205,7 @@ Een gebruiker goedkeuren:
 
 {{step-1-to-users}}
 
-1. Selecteer de gebruiker, dan klik **Meer** pictogram ![](assets/more-icon.png).
+1. Selecteer de gebruiker, dan klik het **Meer** pictogram ![ Meer pictogram ](assets/more-icon.png).
 
 1. Om de gebruiker goed te keuren, klik **goedkeuren**, dan klik **voorleggen**.
 

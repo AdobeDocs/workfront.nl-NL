@@ -8,9 +8,10 @@ description: U kunt objecten in verschillende omgevingen vergelijken om ervoor t
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 2ff7a8b0ae3cc1f641c0d7c0b1384548c9603423
+exl-id: 085b0f04-5a9c-49b9-86d7-2363731ee067
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
@@ -85,7 +86,7 @@ In dit voorbeeld:
 
 Specifieke objectverschillen weergeven:
 
-1. Klik op het vergrootglaspictogram ![](assets/compare-icon.png) op de regel voor dat object.
+1. Klik het vergrootglaspictogram ![ vergelijken pictogram ](assets/compare-icon.png) in de lijn voor dat voorwerp.
 
    Er wordt een venster geopend met alle velden van dat object. verschillen zijn rood.
 

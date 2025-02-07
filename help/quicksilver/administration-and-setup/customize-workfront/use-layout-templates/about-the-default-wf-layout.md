@@ -9,16 +9,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: 52877ab16210699019c82e709f288b5f98e7d811
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
 
 # De standaard Adobe Workfront-lay-out
 
-De standaardindeling is de rangschikking van het Hoofdmenu ![](assets/main-menu-icon.png) of het Hoofdmenu ![](assets/lines-main-menu.png) (indien beschikbaar), het linkerdeelvenster en de weergaven, groeperingen en filters voordat een Adobe Workfront-beheerder wijzigingen aanbrengt met behulp van een lay-outsjabloon.
+De standaardlay-out is de regeling van het Belangrijkste het menupictogram van het Menu ![ Belangrijkste ](assets/main-menu-icon.png) of het Belangrijkste het menupictogram van het Menu ![ ](assets/main-menu-icon.png), als beschikbaar, het linkerpaneel, en de meningen, groeperingen, en filters alvorens een beheerder van Adobe Workfront om het even welke veranderingen gebruikend een lay-outmalplaatje aanbrengt.
 
 Voor informatie over hoe een beheerder van Workfront de standaardlay-out van een gebruiker kan wijzigen door de gebruiker een lay-outmalplaatje toe te wijzen, zie [ gebruikers aan een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md) toewijzen.
 

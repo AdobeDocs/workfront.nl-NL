@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '785'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ In een lay-outsjabloon kunt u aanpassen wat gebruikers in het linkerdeelvensterg
 
 U kunt bijvoorbeeld bepalen welke van de volgende items gebruikers in het linkerdeelvenster zien wanneer ze een taak bekijken:
 
-![](assets/left-panel-adobe-branding.png)
+![ brandend linkerpaneel ](assets/left-panel-adobe-branding.png)
 
 >[!IMPORTANT]
 >
@@ -70,7 +70,7 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
 ## Pas het linkerdeelvenster aan voor een gebied in [!DNL Workfront] :
 
 1. Begin werkend aan een lay-outmalplaatje, zoals die in [ wordt beschreven creeer en beheer lay-outmalplaatjes ](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Klik op de pijl-omlaag ![](assets/dropdown-arrow.png) onder **[!UICONTROL Customize what users see]** en klik vervolgens op de naam van een objecttype of een [!DNL Workfront] -gebied waarvan u het linkerdeelvenster wilt aanpassen.
+1. Klik de benedenpijl ![ benedenpijl ](assets/dropdown-arrow.png) onder **[!UICONTROL Customize what users see]**, dan klik de naam van een objecten type of een [!DNL Workfront] gebied waarvan linkerpaneel wilt aanpassen u.
 
    De objecttypen en [!DNL Workfront] -gebieden waarvan u het linkerdeelvenster kunt aanpassen, worden in de volgende tabel weergegeven:
 
@@ -204,9 +204,9 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
 
 1. Voer in de lijst **[!UICONTROL Left panel]** een van de volgende handelingen uit om te bepalen welke gebruikers in het linkerdeelvenster zien voor het [!DNL Workfront] -gebied of objecttype dat u hebt geselecteerd:
 
-   * Klik **tonen** ![](assets/add-secondary-nav-item.png) of **verbergen** ![](assets/delete-secondary-nav-item.png) pictogrammen om secties in het linkerpaneel te tonen of te verbergen. U kunt geen punten verbergen die a **hebben tonen** of **** pictogram verbergen.
+   * Klik **tonen** ![ tonen pictogram ](assets/add-secondary-nav-item.png) of **Verbergen** ![ pictogram van de Verbergen ](assets/delete-secondary-nav-item.png) pictogrammen om secties in het linkerpaneel te tonen of te verbergen. U kunt geen punten verbergen die a **hebben tonen** of **** pictogram verbergen.
 
-   * Sleep items ![](assets/move-icon---dots.png) om de volgorde in het linkerdeelvenster te wijzigen.
+   * De punten van de belemmering ![ pictogram van de Beweging ](assets/move-icon---dots.png) om hun orde op het linkerpaneel te veranderen.
 
    >[!NOTE]
    >

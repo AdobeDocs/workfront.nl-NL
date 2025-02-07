@@ -8,9 +8,9 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 7cf4787d-7cff-489e-bd5b-69db3ff09f6e
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Voordat u velden kunt toewijzen voor het toewijzen van metagegevens, moet u de t
 
 1. Klik in het linkerdeelvenster op **[!UICONTROL Documents]** > **[!UICONTROL Metadata Mapping]** .
 
-   ![](assets/metadata-mapping.png)
+   ![ de afbeelding van Meta-gegevens ](assets/metadata-mapping.png)
 
 1. Typ in het vak **[!UICONTROL Select Source Field for Mapping]** de naam van het Workfront-veld dat u wilt toewijzen aan [!DNL Workfront DAM] en selecteer het veld wanneer het in de lijst wordt weergegeven.
 1. Selecteer in het vak **[!UICONTROL Select Target Field for Mapping]** het veld dat u wilt vullen met de gegevens in het geselecteerde [!DNL Workfront] -veld.

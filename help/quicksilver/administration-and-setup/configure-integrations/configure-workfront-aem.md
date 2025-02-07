@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 024b8606-a9b7-413a-b393-8e5cdff37dd4
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1651'
+source-wordcount: '1653'
 ht-degree: 0%
 
 ---
@@ -323,7 +323,7 @@ Voor meer informatie over [!DNL Workfront] toestemmingen, zie [ tot douanetoegan
 
 1. Klik op de tab **[!UICONTROL Groups]** .
 
-   ![](assets/groupstab.png)
+   ![ het lusje van Groepen ](assets/groupstab.png)
 
 1. Zorg ervoor dat de gebruiker tot minstens één [!DNL Workfront] -groep behoort die toegangsniveaus heeft die de machtigingen [!UICONTROL Create] en [!UICONTROL Delete] bevatten.
 

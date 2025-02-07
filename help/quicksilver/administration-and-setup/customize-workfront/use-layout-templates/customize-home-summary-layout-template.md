@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 75aaa531dba8037ed75c0d6baa6d7c69ec4cfefd
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
 
 1. Begin werkend aan een lay-outmalplaatje, zoals die in [ wordt beschreven creeer en beheer lay-outmalplaatjes ](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-1. Klik de benedenpijl ![](assets/dropdown-arrow.png) onder **aanpassen welke gebruikers** zien, dan klik **Samenvattend paneel**.
+1. Klik de benedenpijl ![ benedenpijl ](assets/dropdown-arrow.png) onder **aanpassen welke gebruikers** zien, dan klik **Samenvattend paneel**.
 
 1. Klik in de lijst die eronder wordt weergegeven op het objecttype waarvoor u het deelvenster Samenvatting wilt aanpassen.
 
@@ -132,15 +132,15 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
 
 1. (Voorwaardelijk) als u Taken of Kwesties in de vorige stap klikte, selecteer de categorie van taak of kwestie die u wilt aanpassen.
 
-   ![](assets/choose-cat-cstmz-nwe-adobe-branding.png)
+   ![ verkies categorie om aan te passen ](assets/choose-cat-cstmz-nwe-adobe-branding.png)
 
 1. (Voorwaardelijk) als de **Vastgestelde primaire actieknoop** drop-down menu verschijnt (als u **Taken** of **Kwesties** in de lijst op de linkerzijde) selecteert, klik de primaire actie (**Gedaan** of **Status**) die u beschikbaar voor gebruikers in het Samenvattende paneel wilt wanneer zij een taak of een kwestie bekijken.
 
-   ![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
+   ![ plaats primaire actie ](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
 
-1. Voeg ![](assets/add-item-plus-in-circle-blue.png) of verberg ![](assets/close-or-hide---x.png) gebieden voor het geselecteerde objecten type toe.
+1. Voeg ![ punt ](assets/add-item-plus-in-circle-blue.png) toe of verberg ![ punt ](assets/close-or-hide---x.png) gebieden van de Huid voor het geselecteerde objecten type.
 
-   ![](assets/lt-home-add-hide-fields-adobe-branding.png)
+   ![ voeg en verberg gebieden toe ](assets/lt-home-add-hide-fields-adobe-branding.png)
 
 1. Herhaal stap 3-6 om het deelvenster Samenvatting aan te passen voor andere objecttypen.
 1. Klik **Globale montages**, dichtbij de lagere linkerhoek, dan toelaten of onbruikbaar maken om het even welke volgende opties met betrekking tot de voorwerpen van Adobe Workfront in de Samenvatting:

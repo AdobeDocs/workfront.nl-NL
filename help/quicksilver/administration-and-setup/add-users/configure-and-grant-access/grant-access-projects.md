@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ba6a9e68-68a1-4152-b024-cd39e06d556f
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -61,9 +61,9 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 ## Vorm gebruikerstoegang tot projecten gebruikend een niveau van de douanetoegang
 
 1. Beginnen creërend of het uitgeven van het toegangsniveau, zoals die in [ wordt verklaard creeer of wijzig douanetoegangsniveaus ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-1. Klik het tandwielpictogram ![](assets/gear-icon-settings.png) op de **Mening** of **geef** knoop aan het recht van Projecten uit, dan selecteer de capaciteiten u onder **wilt verlenen - verbeter uw montages**.
+1. Klik het de montagespictogram van het tandwielpictogram ![ Gear ](assets/gear-icon-settings.png) op de **Mening** of **geef** knoop rechts van Projecten uit, dan selecteer de capaciteiten u onder **wilt verlenen fijn-stemt uw montages**.
 
-   ![](assets/planner-fine-tune-your-settings-with-copy-projects.png)
+   ![ Eet montages voor het kopiëren projecten ](assets/planner-fine-tune-your-settings-with-copy-projects.png)
 
    >[!NOTE]
    >

@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: a1ead3895afaf8b601a9c53e08d41b1cab51cb48
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '2191'
+source-wordcount: '2193'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   <tr> 
    <td role="rowheader">Adobe Workfront-plan</td> 
    <td><p>Goedkeuringsprocedure op systeemniveau of voor eenmalig gebruik:</p>
-   <p>Goedkeuringsproces op groepsniveau: Premier of Ultimate</p></td> 
+   <p>Goedkeuringsprocedure op groepsniveau: Prime of Ultimate</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
@@ -82,10 +82,10 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    of
 
-   Als u een groep-vlakke goedkeuringsproces creeert, klik **Groepen** ![](assets/groups-icon.png), klik de naam van de groep, dan klik **goedkeurt**.
+   Als u een groep-vlakke goedkeuringsproces creeert, klik **Groepen** ![ pictogram van Groepen ](assets/groups-icon.png), klik de naam van de groep, dan klik **goedkeurt**.
 
    <!--hidden for the new tab redesign - August 2023: 
-   ![](assets/approvals-area-in-setup-processes.png)
+   ![Approvals area in setup](assets/approvals-area-in-setup-processes.png)
    -->
 
 1. Kies of de **Goedkeuringen van het Project**, **Taak goedkeurt**, of **Goedkeuringen van de Uitgave** tabel.

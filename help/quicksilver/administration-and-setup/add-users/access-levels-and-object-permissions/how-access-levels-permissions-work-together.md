@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ De beheerder van Adobe Workfront bepaalt welk toegangsniveau elke gebruiker zou 
 Gebruikers krijgen ook toegang tot afzonderlijke objecten wanneer andere gebruikers bepaalde machtigingen voor die objecten delen en verlenen.
 
 
-![](assets/security-model-hierachy.png)
+![ het modelhiërarchie van de Veiligheid ](assets/security-model-hierachy.png)
 
 Bijvoorbeeld, als uw toegangsniveau zegt dat u taken kunt tot stand brengen, maar de toestemmingen u op een specifiek project ontvangt staan u niet toe om taken aan het toe te voegen, kunt u geen taken op het project toevoegen alhoewel u taken elders in Workfront kunt tot stand brengen.
 

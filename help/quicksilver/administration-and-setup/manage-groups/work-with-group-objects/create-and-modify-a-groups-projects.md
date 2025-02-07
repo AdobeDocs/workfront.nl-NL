@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: db90cf52-7c8f-4972-b67f-401657ba9b13
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
@@ -62,10 +62,10 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **Groepen** ![](assets/groups-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![ Groepen ](assets/groups-icon.png).
 
 1. Klik op de naam van de groep waarvoor u projecten wilt maken, weergeven of bewerken.
-1. In het linkerpaneel, klik **Projecten** ![](assets/projects-in-main-menu.png) om een lijst van de projecten te bekijken verbonden aan de groep.
+1. In het linkerpaneel, klik **Projecten** ![ Projecten in het Belangrijkste Menu ](assets/projects-in-main-menu.png) om een lijst van de projecten te bekijken verbonden aan de groep.
 
 1. Voer een van de volgende handelingen uit:
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    >
    >De opties in het keuzemenu Type actie variëren afhankelijk van het geselecteerde controlelogboek.
 
-   ![](assets/audit-logs.jpg)
+   ![ Logboeken van de Controle ](assets/audit-logs.jpg)
 
 1. Klik **toepassen**.
 1. (Facultatief) klik **Duidelijke Filters** om veranderingen terug te stellen die aan de filters worden aangebracht.

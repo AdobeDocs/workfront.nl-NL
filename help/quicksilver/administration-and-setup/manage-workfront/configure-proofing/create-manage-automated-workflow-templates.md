@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: a9f182c0-11cb-4e94-be86-b19ba5102faa
-source-git-commit: 7a2cfddf4683b5b49121bbe3987498297b963ffa
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '2075'
+source-wordcount: '2079'
 ht-degree: 0%
 
 ---
@@ -209,7 +209,7 @@ Als Workfront Proof-beheerder kunt u een automatische werkstroomsjabloon wijzige
     </tbody> 
    </table>
 
-1. In de **sectie van het Werkschema**, verander de naam van om het even welk stadium en breid het montages ![](assets/arrow-button.png) uit om het even welke noodzakelijke veranderingen aan te brengen:
+1. In de **sectie van het Werkschema**, verander de naam van om het even welk stadium en breid het montages ![ uit breid knoop ](assets/arrow-button.png) uit om het even welke nodig veranderingen aan te brengen:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -256,7 +256,7 @@ Als Workfront Proof-beheerder kunt u een automatische werkstroomsjabloon wijzige
 
    Als u niet het diagram moet zien, kunt u **Diagram van de Verbergen** klikken.
 
-1. In **Gedeeld met** sectie, als u een gebruiker wilt schrappen, klik de Meer ![](assets/more-icon.png) knoop aan het recht, dan klik **verwijderen**.
+1. In **Gedeeld met** sectie, als u een gebruiker wilt schrappen, klik de Meer ![ Meer pictogram ](assets/more-icon.png) knoop aan het recht, dan klik **verwijderen**.
 
 ## Geautomatiseerde workflowsjabloongroepen maken {#create-automated-workflow-template-groups}
 

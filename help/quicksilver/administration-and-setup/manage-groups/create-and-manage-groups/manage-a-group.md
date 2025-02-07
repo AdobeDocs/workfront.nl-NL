@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 86c120de-16b8-4ca8-a7a1-76ece70c0505
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1315'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ U kunt de groep snel bewerken, kopiëren of verwijderen zonder de hoofdpagina va
 
    In de lijst die wordt weergegeven, ziet u de groepen die u beheert, samen met eventuele subgroepen die u beheert. Adobe Workfront-beheerders kunnen alle groepen zien.
 
-1. Selecteer de groep en klik op het pictogram Bewerken ![](assets/edit-icon.png) , Kopiëren ![](assets/copy-icon.png) of Verwijderen ![](assets/delete.png) .
+1. Selecteer de groep, dan klik uitgeven ![ pictogram ](assets/edit-icon.png), het pictogram van het Exemplaar ![ ](assets/copy-icon.png), of schrap ![ pictogram van de Schrapping ](assets/delete.png).
 
    Raadpleeg een van de volgende opties als u informatie nodig hebt over het gebruik van het vak dat wordt weergegeven:
 

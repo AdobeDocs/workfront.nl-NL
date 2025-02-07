@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: e13e3479-391f-4aec-b998-e9b6057f256b
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '932'
 ht-degree: 0%
 
 ---
@@ -88,9 +88,9 @@ E-mailuitnodigingen handmatig genereren voor bestaande niet-geregistreerde gebru
 
 1. Selecteer de gebruiker die het **Niet geregistreerde** etiket na hun naam toont.
 
-   ![](assets/unreg-user-qs-350x221.png)
+   ![ Niet geregistreerd ](assets/unreg-user-qs-350x221.png)
 
-1. Klik het Meer pictogram ![](assets/more-icon.png), dan klik **herinnering gebruiker om** te registreren.
+1. Klik het Meer pictogram ![ Meer pictogram ](assets/more-icon.png), dan klik **herinnering gebruiker om** te registreren.
 
    Er wordt een e-mailuitnodiging verzonden naar de nieuwe gebruiker met een nieuwe koppeling waarmee deze zijn Workfront-wachtwoord kan maken.
 

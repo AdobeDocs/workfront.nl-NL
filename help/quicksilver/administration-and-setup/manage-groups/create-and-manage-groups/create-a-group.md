@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 4a039619-0943-4b5b-ba7a-1ad9b5c11df0
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1652'
+source-wordcount: '1656'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ U moet een beheerder van Workfront zijn om een top-level groep tot stand te bren
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **Groepen** ![](assets/groups-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![ Groepen ](assets/groups-icon.png).
 
 1. Boven de lijst van groepen, klik **Nieuwe Groep**.
 
@@ -141,11 +141,11 @@ Een nieuwe bovenste groep maken door een groep of subgroep te kopiëren:
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **Groepen** ![](assets/groups-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![ groepen ](assets/groups-icon.png).
 
    In de lijst die wordt weergegeven, ziet u de groepen die u beheert, samen met eventuele subgroepen die u beheert. Adobe Workfront-beheerders kunnen alle groepen zien.
 
-1. Selecteer de groep die u wilt kopiëren en klik op het pictogram Kopiëren ![](assets/copy-icon.png) .
+1. Selecteer de groep u wilt kopiëren, dan het pictogram van het Exemplaar ![ pictogram van het Exemplaar ](assets/copy-icon.png) klikken.
 1. In het **vakje van de Groep van het 0} Exemplaar dat verschijnt, typ de Naam van de a** Groep **voor de gekopieerde groep.**
 
 1. Geef de volgende informatie op:

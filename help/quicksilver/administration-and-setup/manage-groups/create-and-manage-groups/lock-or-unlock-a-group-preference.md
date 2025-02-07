@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 05c32b6f-52e1-46a7-9011-633713422f3d
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '594'
 ht-degree: 0%
 
 ---
@@ -85,8 +85,8 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. Voer op de pagina die wordt weergegeven een van de volgende handelingen uit voor een voorkeur die op systeemniveau is ontgrendeld of voor een groep boven uw groep:
 
-   * Als u wilt dat beheerders van groepen onder uw groep een voorkeur voor hun groepen kunnen vormen, ontgrendel het ![](assets/unlock-toggle-button.png).
-   * Als u wilt dat alle groepen onder de uwe uw configuratie voor een voorkeur gebruiken, zorg ervoor dat het gesloten is ![](assets/lock-toggle-button.png).
+   * Als u beheerders van groepen onder uw groep een voorkeur voor hun groepen wilt kunnen vormen, ontgrendel het ![ knevel van de Ontgrendeling ](assets/unlock-toggle-button.png).
+   * Als u alle groepen onder van u uw configuratie voor een voorkeur wilt gebruiken, zorg ervoor dat het gesloten ![ knevel van het Slot ](assets/lock-toggle-button.png) is.
 
      >[!IMPORTANT]
      >

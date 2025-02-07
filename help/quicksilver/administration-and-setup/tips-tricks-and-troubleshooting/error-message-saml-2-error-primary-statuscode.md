@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1ec18638-97b8-4307-9cea-05b28395eaee
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -70,8 +70,8 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 1. Selecteer **[!UICONTROL Trust Relationship]** > **[!UICONTROL Relying Party Trusts]** in het linkerdeelvenster.
 
 1. Klik met de rechtermuisknop op het vertrouwen van de betrouwbare partij dat betrekking heeft op [!DNL Adobe Workfront] en selecteer vervolgens **[!UICONTROL Properties]** .
-1. Klik op de tab **[!UICONTROL Advanced]** en selecteer vervolgens **[!UICONTROL SHA-1]** in de vervolgkeuzelijst **[!UICONTROL Secure hash algorithm]** .\
-   ![](assets/1-350x287.png)
+1. Klik op de tab **[!UICONTROL Advanced]** en selecteer vervolgens **[!UICONTROL SHA-1]** in de vervolgkeuzelijst **[!UICONTROL Secure hash algorithm]** .
+   ![ SHA-1 ](assets/1-350x287.png)
 
 ## Oorzaak 2: ADFS-ondertekeningscertificaat verloopt binnenkort en is vervangen door een nieuw certificaat met overlappende datums
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 76ac1f4e-8323-45d1-81f3-6a07e4e2e080
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '390'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **Groepen** ![](assets/groups-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![ Groepen ](assets/groups-icon.png).
 
 1. Klik op de naam van de groep waarvoor u portfolio&#39;s wilt maken, weergeven of bewerken.
 1. In het linkerpaneel, klik **Portfolio&#39;s** om van de portefeuilles een lijst te maken verbonden aan de groep (en om het even welke subgroups onder het).

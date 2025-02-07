@@ -8,9 +8,9 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 author: Becky
 exl-id: 158430e5-8857-4bd8-86a6-2ba106b1638c
-source-git-commit: bb81e32263348128b7661db6102ad5ac14e9a434
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '634'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Voor meer informatie, zie [ toepassingen OAuth2 voor  [!DNL Workfront]  integrat
 
 1. Klik in het navigatievenster aan de linkerkant op **[!UICONTROL System]** en selecteer vervolgens **[!UICONTROL OAuth Applications]** .
 1. Klik op **[!UICONTROL Create app integration]**.
-1. Houd de muis boven de toepassing en klik op **[!UICONTROL Edit]** ![](assets/edit-icon.png) wanneer deze helemaal rechts wordt weergegeven.
+1. Beweeg over de toepassing en klik **[!UICONTROL Edit]** ![ uitgeven pictogram ](assets/edit-icon.png) wanneer het op uiterst rechts verschijnt.
 1. (Optioneel) Bewerk de toepassingsdetails.
 
    Voor gebieden met betrekking tot OAuth2 en JWT apps, zie [ toepassingen OAuth2 voor  [!DNL Workfront]  integraties ](../../administration-and-setup/configure-integrations/create-oauth-application.md) creëren.
@@ -87,7 +87,7 @@ Voor meer informatie, zie [ toepassingen OAuth2 voor  [!DNL Workfront]  integrat
 {{step-1-to-setup}}
 
 1. Klik in het navigatievenster aan de linkerkant op **[!UICONTROL System]** en selecteer vervolgens **[!UICONTROL OAuth Applications]** .
-1. Houd de muis boven de toepassing en klik op **[!UICONTROL Delete]** ![](assets/delete.png) wanneer deze helemaal rechts wordt weergegeven.
+1. Beweeg over de toepassing en klik **[!UICONTROL Delete]** ![ Schrapping ](assets/delete.png) wanneer het op uiterst rechts verschijnt.
 
 ## Clientgeheimen beheren in OAuth2-toepassingen
 
@@ -143,4 +143,4 @@ Voor meer informatie, zie [ toepassingen OAuth2 voor  [!DNL Workfront]  integrat
 1. Klik op **[!UICONTROL Create app integration]**.
 1. Houd de muisaanwijzer boven de toepassing en klik op het pictogram **[!UICONTROL Edit]** wanneer deze helemaal rechts wordt weergegeven.
 1. Zoek het clientgeheim dat u wilt verwijderen.
-1. Klik op het pictogram **[!UICONTROL Delete]** ![](assets/delete.png) naast Client Secret.
+1. Klik het **[!UICONTROL Delete]** pictogram ![ Schrapping ](assets/delete.png) naast het Geheim van de Cliënt.

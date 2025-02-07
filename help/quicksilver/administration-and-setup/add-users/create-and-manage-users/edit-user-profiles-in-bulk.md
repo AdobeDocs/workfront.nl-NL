@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '2210'
+source-wordcount: '2212'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 {{step-1-to-users}}
 
-1. Selecteer meerdere gebruikers en klik op het pictogram Bewerken ![](assets/edit-icon.png) .
+1. Selecteer meer dan één gebruiker, dan klik het Edit pictogram ![ uitgeven pictogram ](assets/edit-icon.png).
 
 1. In **geef Gebruiker** doos uit die verschijnt, verander om het even welke volgende opties:
 

@@ -10,9 +10,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 7d909976-d3ff-4e60-9158-c3bffe498e6e
-source-git-commit: 321ffac87bd694325dfb05e4019b25479f58684a
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -97,9 +97,9 @@ Gebruikers van Frame.io inschakelen:
 
 {{step-1-to-users}}
 
-1. Selecteer één of meerdere gebruikers, dan klik **uitgeven** pictogram ![](assets/edit-icon.png).
+1. Selecteer één of meerdere gebruikers, dan klik **uitgeven** pictogram ![ pictogram ](assets/edit-icon.png) uitgeeft.
 1. In de sectie van de Toegang, laat toe toevoegen aan projecten in Frame.io checkbox, dan selecteren **ja** in het drop-down menu.
-   ![](assets/add-to-frame-project.png)
+   ![ voeg aan het project van het Kader toe ](assets/add-to-frame-project.png)
 
    >[!NOTE]
    >

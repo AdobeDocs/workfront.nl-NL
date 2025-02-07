@@ -5,9 +5,9 @@ author: Alina, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1226'
+source-wordcount: '1232'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ Voor informatie over hoe te om een e-mailmalplaatje tot stand te brengen, zie [ 
 
 1. Klik **E-mail** > **Meldingen** > **Meldingen van de Herinnering**.
 
-   ![](assets/remider-notifications-tab-in-setup-email-notifications-area.png)
+   ![ Herinneringsberichten tabel ](assets/remider-notifications-tab-in-setup-email-notifications-area.png)
 
 1. Klik **Nieuw Bericht van de Herinnering**.
 
@@ -176,4 +176,4 @@ Een herinnering handmatig activeren:
 
    De gebruikers die in het herinneringsbericht zijn aangewezen, ontvangen een e-mail.
 
-![](assets/reminder-test.png)
+![ test van het Bericht van de Herinnering ](assets/reminder-test.png)

@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 14124911-e5e1-4a4f-9b25-8b4fab0329e1
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    U ontvangt een reactie die vergelijkbaar is met het volgende:
 
-   ![](assets/get-guid.png)
+   ![ krijgt GUID ](assets/get-guid.png)
 
    De terugkeer voor &quot;gebruikersbenaming&quot;is GUID van de gebruiker.
 
@@ -98,7 +98,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. In het **Uw login e-mailadres** vakje, verifieer dat het e-mailadres van de gebruiker correct is, dan klik **Rekening van de Update**.
 
-   ![](assets/guidusername-350x272.png)
+   ![ Gebruikersnaam ](assets/guidusername-350x272.png)
 
    De gebruikersnaam van de gebruiker wordt gewijzigd in het Workfront-e-mailadres.
 
@@ -106,7 +106,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 >
 >De id van een gebruiker zoeken:
 >
->1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Gebruikers** ![](assets/users-icon-in-main-menu.png).
+>1. Klik het **pictogram 1} van het Belangrijkste Menu ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** Gebruikers **![ pictogram van Gebruikers ](assets/users-icon-in-main-menu.png).**
 >
 >1. Selecteer de gebruiker.
 >

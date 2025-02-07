@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 2fa590235063e194d6277394f13b3d6be752ec4f
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '1953'
+source-wordcount: '1956'
 ht-degree: 0%
 
 ---
@@ -546,7 +546,7 @@ Slechts kunnen de gebruikers met een vergunning van het Plan volledige toegang t
 | Taakrolinformatie toevoegen of bewerken over plannen en initiatieven &#42; | ✓ | ✓ | ✓ |   |   |
 | Kosteninformatie over plannen en initiatieven toevoegen of bewerken &#42; | ✓ | ✓ | ✓ |   |   |
 | Plannen en initiatieven verwijderen | ✓ | ✓ | ✓ |   |   |
-| Scenario&#39;s weergeven in het hoofdmenu ![](assets/esp-icon-in-main-menu.png) | ✓ | ✓ | ✓ | |   |
+| Scenario&#39;s van de mening in het Belangrijkste de plannerpictogram van het Menu ![ Scenario ](assets/esp-icon-in-main-menu.png) | ✓ | ✓ | ✓ | |   |
 | De plannen en de initiatieven van de mening die de gebruiker &#42; creeerde | ✓ | ✓ | ✓ |   |   |
 
 {style="table-layout:auto"}

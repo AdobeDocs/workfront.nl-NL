@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f5227454-457d-40d3-865c-c2551471d83e
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -64,9 +64,9 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **Groepen** ![](assets/groups-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![ Groepen ](assets/groups-icon.png).
 
-1. Selecteer de doelgroep waarnaar u de groep wilt verplaatsen en klik op het pictogram Bewerken ![](assets/edit-icon.png) .
+1. Selecteer de bestemmingsgroep waar u de groep wilt bewegen, dan klik het Edit pictogram ![ uitgeven pictogram ](assets/edit-icon.png).
 1. In **geef de doos van de Groep** uit die, onder **Leden van de Groep en de Beheerders van de Groep** verschijnt, begin de naam van de groep te typen u wilt bewegen, dan het klikken wanneer het verschijnt.
 1. Klik **sparen**.
 

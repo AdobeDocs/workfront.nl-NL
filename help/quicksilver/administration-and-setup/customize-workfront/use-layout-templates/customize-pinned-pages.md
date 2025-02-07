@@ -8,16 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
 
 # Vastgezette pagina&#39;s aanpassen met behulp van een lay-outsjabloon
 
-In een lay-outsjabloon kunt u de pagina&#39;s vastzetten die gebruikers altijd beschikbaar moeten hebben boven aan Adobe Workfront. Dit kunnen pagina&#39;s zijn die via het hoofdmenu ![](assets/main-menu-icon.png) of het hoofdmenu ![](assets/lines-main-menu.png) worden geopend, indien beschikbaar, of dashboards.
+In een lay-outsjabloon kunt u de pagina&#39;s vastzetten die gebruikers altijd beschikbaar moeten hebben boven aan Adobe Workfront. Deze kunnen of pagina&#39;s zijn die via het Belangrijkste het menupictogram van het Menu ![ Belangrijkste ](assets/main-menu-icon.png) of het Belangrijkste het menupictogram van het Menu ![ ](assets/main-menu-icon.png) worden betreden wanneer beschikbaar, of dashboards.
 
 Om het even welke spelden die uw gebruikers op hun hebben toegevoegd worden getoond rechts van de spelden u in het lay-outmalplaatje toevoegt.
 

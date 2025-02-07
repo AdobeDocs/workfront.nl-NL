@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
-Als Adobe Workfront-beheerder kunt u een lay-outsjabloon gebruiken om te bepalen welke informatie wordt weergegeven wanneer een gebruiker op het pictogram Details ![](assets/project-details-icon.png) in het linkerdeelvenster klikt terwijl een taak, uitgave, document, programma of portfolio wordt weergegeven.
+Als beheerder van Adobe Workfront, kunt u een lay-outmalplaatje gebruiken om te bepalen welke informatie verschijnt wanneer een gebruiker het pictogram van Details ![ pictogram van Details ](assets/project-details-icon.png) in het linkerpaneel klikt terwijl het bekijken van een taak, een kwestie, een document, een programma, of een portefeuille.
 
 <!--
 or billing record
@@ -38,22 +38,22 @@ De wijzigingen die u aanbrengt in de weergave Details voor een object, bepalen o
 
 * &quot;Object maken&quot;-vakken, zoals Taak maken
 
-  ![](assets/new-task-dialog.png)
+  ![ Nieuwe taakdialoog ](assets/new-task-dialog.png)
 
 
 * Schermen &quot;Object bewerken&quot; tijdens het bewerken van een object, zoals Taak bewerken, Probleem bewerken en Project bewerken
 
-  ![](assets/edit-task-screen.png)
+  ![ geef taakscherm ](assets/edit-task-screen.png) uit
 
 
 * &quot;Objecten bewerken&quot; wordt weergegeven in schermen wanneer objecten bulksgewijs worden bewerkt. Momenteel wordt dit ondersteund voor het bulksgewijs bewerken van projecten.
 
-  ![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)
+  ![ pas uitgeeft projecten ](assets/customize-edit-projects-in-bulk-box-with-layout-template.png) aan
 
 
-* Het deelvenster Samenvatting ![](assets/summary-panel-icon.png) voor lijsten met taken en problemen
+* Samenvattings paneel ![ Samenvattings paneel ](assets/summary-panel-icon.png) voor lijsten van taken en kwesties
 
-  ![](assets/summary-area.png)
+  ![ Samenvattingsgebied ](assets/summary-area.png)
 
   >[!NOTE]
   >
@@ -100,14 +100,14 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
 ## Aanpassen wat gebruikers zien in de weergave Details
 
 1. Begin werkend aan een lay-outmalplaatje, zoals die in [ wordt beschreven creeer en beheer lay-outmalplaatjes ](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Klik de benedenpijl ![](assets/dropdown-arrow-12x12.png) onder **aanpassen wat gebruikers** zien, dan klik **Project**, **Taak**, **Uitgave**, **Programma**, of **Portfolio.**
+1. Klik de benedenpijl ![ onderaan pijl ](assets/dropdown-arrow-12x12.png) onder **aanpassen welke gebruikers** zien, dan klikken **Project**, **Taak**, **Uitgave**, **Programma**, of **Portfolio.**
 <!--
 , or billing record
 -->
 
 1. In de **sectie van Details**, doe om het even welke volgend om aan te passen wat de gebruikers in de mening van Details zien:
 
-   * Sleep sectiekoppen ![](assets/move-icon---dots.png) om de volgorde te wijzigen.
+   * Sleep om het even welke sectiekopballen ![ pictogram van de Beweging ](assets/move-icon---dots.png) om hun orde te veranderen.
    * Laat of maak opties onder de diverse gebieden (zoals **Overzicht**, **Financiën**, en **Douane Forms**) toe onbruikbaar om hen te tonen of te verbergen.
 
      Als u alle velden in een van deze secties verbergt, wordt de volledige sectie verborgen.

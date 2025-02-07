@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '841'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ U kunt velden toevoegen die u in [!DNL Workfront] voor een bepaald type object w
 >
 >U kunt maximaal 300 ingebouwde en aangepaste velden bijhouden in de updatefeed. Als u het maximumaantal velden bijhoudt en aanvullende velden wilt bijhouden die niet op het subtabblad [!UICONTROL All Fields] worden weergegeven, moet u eerst enkele bijgehouden velden verwijderen om nieuwe velden bij te houden. Voor meer informatie over het verwijderen van gebieden uit de updategebieden, zie [ gebieden verwijderen die u niet gevolgd ](#remove-fields-that-you-don-t-want-tracked) wilt.
 
-1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png) .
+1. Klik het **[!UICONTROL Main Menu]** pictogram van het pictogram ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van [!DNL Adobe Workfront], dan klik **[!UICONTROL Setup]** ![ het montagespictogram van het Gear ](assets/gear-icon-settings.png).
 
 1. Klik in het linkerdeelvenster op **[!UICONTROL Interface]** > **[!UICONTROL Update Feeds]** .
 
@@ -111,7 +111,7 @@ U kunt velden toevoegen die u in [!DNL Workfront] voor een bepaald type object w
 
 U kunt velden verwijderen die het systeem niet voor een bepaald type object hoeft bij te houden in de gehele interface van [!DNL Workfront] .
 
-1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png) .
+1. Klik het **[!UICONTROL Main Menu]** pictogram van het pictogram ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van [!DNL Adobe Workfront], dan klik **[!UICONTROL Setup]** ![ het montagespictogram van het Gear ](assets/gear-icon-settings.png).
 
 1. Klik op **[!UICONTROL Interface]** > **[!UICONTROL Update Feeds]** .
 
@@ -198,7 +198,7 @@ U kunt bijvoorbeeld [!DNL Workfront] elke keer dat een gebruiker een toewijzing 
 
 Om te vormen welke acties u [!DNL Workfront] wilt volgen:
 
-1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png) .
+1. Klik het **[!UICONTROL Main Menu]** pictogram van het pictogram ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van [!DNL Adobe Workfront], dan klik **[!UICONTROL Setup]** ![ het montagespictogram van het Gear ](assets/gear-icon-settings.png).
 
 1. Klik op **[!UICONTROL Interface]** > **[!UICONTROL Update Feeds]** .
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '6474'
+source-wordcount: '6492'
 ht-degree: 0%
 
 ---
@@ -60,10 +60,10 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 1. Klik **Nieuwe Vorm van de Douane.**
 1. Selecteer welke objecten types u de douaneformulier aan wilt vastmaken, dan **blijven** klikken.
 
-   ![](assets/choose-object-type.jpg)
+   ![ kies objecten type ](assets/choose-object-type.jpg)
 
 1. Op **Titel wordt vereist** gebied, typ de titel van de douanevorm.
-1. (Facultatief) als u meer objecten types aan de vorm wilt toevoegen zodat het aan meer voorwerpen kan worden vastgemaakt, **** pictogram ![](assets/add-objects-icon.png) na **de Types van Objecten** klikken, dan het type selecteert u in het menu wilt dat toont. U kunt dit herhalen om zoveel objecttypen toe te voegen als u wilt.
+1. (Facultatief) als u meer objecten types aan de vorm wilt toevoegen zodat het aan meer voorwerpen kan worden vastgemaakt, **** pictogram ![ toevoegen ](assets/add-objects-icon.png) na **de Types van Objecten**, dan selecteren het type u in het menu wilt dat toont. U kunt dit herhalen om zoveel objecttypen toe te voegen als u wilt.
 
    U kunt ook op de X op een objecttype klikken om het uit het formulier te verwijderen.
 
@@ -179,7 +179,7 @@ Een tekstveld toevoegen:
    * Tekst met opmaak
    * Beschrijvende tekst
 
-   ![](assets/drag-field-to-section.png)
+   ![ gebied van de belemmering aan sectie ](assets/drag-field-to-section.png)
 
 1. Configureer rechts in het scherm de opties die beschikbaar zijn voor het type aangepast veld dat u toevoegt:
 
@@ -464,7 +464,7 @@ U voegt als volgt velden voor typekop en datum toe:
    * Typeahead
    * Datum
 
-   ![](assets/drag-field-to-section.png)
+   ![ gebied van de belemmering aan sectie ](assets/drag-field-to-section.png)
 
 1. Configureer rechts in het scherm de opties die beschikbaar zijn voor het type aangepast veld dat u toevoegt:
 
@@ -698,7 +698,7 @@ Afbeeldingen, PDF of video&#39;s toevoegen:
    * PDF
    * Video
 
-   ![](assets/drag-field-to-section.png)
+   ![ gebied van de belemmering aan sectie ](assets/drag-field-to-section.png)
 
 1. Typ of bewerk een van de volgende eigenschappen voor de widget:
 

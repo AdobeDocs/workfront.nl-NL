@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '630'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    Om een bestaande voorwaarde uit te geven, over de voorwaarde te bewegen u wilt uitgeven, dan **uitgeven** pictogram klikken dat aan uiterst rechts verschijnt.
 
-   ![](assets/custom-condition-edit-nwe.jpg)
+   ![ de voorwaarde van de Douane ](assets/custom-condition-edit-nwe.jpg)
 
 1. Configureer uw aangepaste voorwaarde met behulp van de volgende opties:
 
@@ -110,21 +110,21 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    >
    >U kunt de terminologie en de kleuren van voorwaarden standaardiseren voor alle drie de objecttypen. Om dit te doen, kopieer de voorwaardenNaam en de hexadecimale code van de Kleur van één lusje (Project, Taak, Kwestie) aan de overeenkomstige voorwaarde op de andere twee lusjes.
 
-1. (Optioneel) Sleep ![](assets/move-icon---dots.png) een voorwaarde naar een nieuwe positie om de volgorde van de lijst te wijzigen.
+1. (Facultatief) sleep ![ pictogram van de Beweging ](assets/move-icon---dots.png) om het even welke voorwaarde aan een nieuwe positie om de lijst opnieuw in orde te brengen.
 
    Dit verandert de orde waarin de voorwaarden in projecten, taken en kwesties tonen:
 
    * Wanneer een gebruiker een project bewerkt
 
-     ![](assets/change-condition-edit-project.png)
+     ![ voorwaarde van de Verandering wanneer het uitgeven van project ](assets/change-condition-edit-project.png)
 
    * Wanneer een gebruiker de voorwaarde voor een taak of kwestie op het lusje van Updates verandert:
 
-     ![](assets/change-condition-update-comment.png)
+     ![ voorwaarde van de Verandering wanneer het bijwerken van commentaar ](assets/change-condition-update-comment.png)
 
    * Wanneer een gebruiker de voorwaarde voor een taak of kwestie in een lijstmening wijzigt:
 
-     ![](assets/change-conditions-list-dropdown-only.png)
+     ![ voorwaarde van de Verandering in lijst ](assets/change-conditions-list-dropdown-only.png)
 
 1. Klik **sparen**.
 

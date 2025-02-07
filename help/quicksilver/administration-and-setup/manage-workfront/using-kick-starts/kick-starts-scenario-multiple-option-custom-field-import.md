@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '2152'
+source-wordcount: '2178'
 ht-degree: 0%
 
 ---
@@ -154,7 +154,7 @@ Om het spreadsheet van Excel met informatie voor de nieuwe douanevelden te bevol
    >
    >Voor informatie over de namen van de voorwerpen in het gegevensbestand van Workfront, zie de [ API Ontdekkingsreiziger ](../../../wf-api/general/api-explorer.md).
    >
-   >![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
+   >![ Bladen inbegrepen in gegevensuitvoer ](assets/sheets-included-in-custom-data-export-kick-start-file.png)
 
 
 1. Zorg ervoor dat de volgende informatie correct is opgemaakt:
@@ -206,7 +206,7 @@ Om het spreadsheet van Excel met informatie voor de nieuwe douanevelden te bevol
 
    Voor meer informatie, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
-   ![](assets/parameter-sheet-filled-out-kick-starts.png)
+   ![ Gevulde het blad van de Parameter ](assets/parameter-sheet-filled-out-kick-starts.png)
 
 1. Selecteer het **`POPT Parameter Options`** -werkblad en voeg in de volgende vereiste kolommen informatie toe over de opties van elk aangepast veld:
 
@@ -228,7 +228,7 @@ Om het spreadsheet van Excel met informatie voor de nieuwe douanevelden te bevol
    * De kolommen **`setLabel`** en `**setValue`** bevatten doorgaans dezelfde informatie en moeten de namen weerspiegelen die u in de gebruikersinterface van Workfront wilt gebruiken. De waarde van een optie is de naam die in rapporten wordt weergegeven, terwijl het label in de aangepaste formulieren wordt weergegeven wanneer het aan een object is gekoppeld. Voor meer informatie, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
    * **`setIsHidden`** = ga `TRUE` in als u om het even welke opties wilt worden verborgen.
 
-   ![](assets/parameter-option-sheet-filled-out-kick-starts.png)
+   ![ Gevulde het blad van de Parameter ](assets/parameter-option-sheet-filled-out-kick-starts.png)
 
 
 1. (Optioneel) Als u ook een aangepast formulier wilt maken waarin u de nieuwe velden later kunt toevoegen, selecteert u het **`CTGY Category`** -werkblad en werkt u de volgende vereiste kolommen bij voor de aangepaste formuliergegevens:
@@ -239,7 +239,7 @@ Om het spreadsheet van Excel met informatie voor de nieuwe douanevelden te bevol
 
    Als u `ID` van een groep wilt achterhalen, maakt u een groepsrapport en voegt u het veld `ID` toe in de weergave of navigeert u naar een groep en zoekt u de URL voor de groep. De groep-id staat in de URL van de pagina van de groep. Als de URL van de groep bijvoorbeeld `https://companyName.my.workfront.com/group/575b000800467a6f66e747932c807464/members` is, is de groep-id `575b000800467a6f66e747932c807464` .
 
-   * **`setCatObjCode` **= dit is de objectcode voor het objecttype waarvoor u het formulier wilt maken. Voer een code uit de volgende opties in:
+   * **`setCatObjCode`**= dit is de objectcode voor het objecttype waarvoor u het formulier wilt maken. Voer een code uit de volgende opties in:
       * **`CMPY`** voor bedrijf
       * **`TASK`** voor taak
       * **`PROJ`** voor project
@@ -259,7 +259,7 @@ Om het spreadsheet van Excel met informatie voor de nieuwe douanevelden te bevol
 
    * **`setName`** = dit is de naam van het aangepaste formulier zoals u het wilt weergeven in de Workfront-interface.
 
-     ![](assets/category-sheet-filled-out-kick-starts.png)
+     ![ Gevulde het blad van de Categorie ](assets/category-sheet-filled-out-kick-starts.png)
 
 1. Sla het spreadsheet op als een .xls- of .xlsx-bestand op uw computer. Uw Excel-werkblad is ingevuld en kan nu worden geïmporteerd in Workfront.
 
@@ -277,11 +277,11 @@ Nadat u de in de vorige secties beschreven stappen hebt uitgevoerd, gaat u als v
 1. Blader naar het Excel-werkblad dat u hebt voorbereid, op uw computer en selecteer het werkblad wanneer u het hebt gevonden. Wanneer Workfront het bestand herkent, wordt de knop Uploaden blauw.
 1. Klik **uploaden.**
 
-   ![](assets/kick-start-file-selected-and-upload-blue-button.png)
+   ![ Geselecteerd Dossier en upload knoop ](assets/kick-start-file-selected-and-upload-blue-button.png)
 
 1. Er wordt een melding weergegeven dat het importeren is gelukt. Afhankelijk van hoeveel informatie u invoert, zou deze stap een paar seconden aan een minuut kunnen vergen.
 
-   ![](assets/kick-start-successful.png)
+   ![ Kick-start succesvol ](assets/kick-start-successful.png)
 
    De nieuwe aangepaste velden en formulieren staan nu in uw Workfront-systeem. U kunt ze vinden in het gedeelte Aangepaste Forms van Setup.
 
@@ -294,7 +294,7 @@ Nadat u de in de vorige secties beschreven stappen hebt uitgevoerd, gaat u als v
 
 1. (Voorwaardelijk) Als het importeren niet is gelukt, wordt een foutbericht weergegeven waarin het probleem is aangegeven. Probeer het veld, het blad en het rijnummer te identificeren waarin het probleem is opgetreden en corrigeer de gegevens in het Excel-bestand. Probeer het bestand vervolgens nog een keer te importeren.
 
-   ![](assets/kick-start-error.png)
+   ![ Kick-start fout ](assets/kick-start-error.png)
 
 1. (Voorwaardelijk) Afhankelijk van wat het probleem is, zoals vermeld in het foutbericht, kunnen sommige gegevens al worden geïmporteerd. U moet een van de volgende handelingen uitvoeren voordat u het blad opnieuw kunt importeren:
 

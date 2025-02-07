@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '641'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
 1. Klik **Vastgestelde Terminologie** dichtbij de hoger-juiste hoek van de pagina.
 1. Voer een van de volgende handelingen uit:
 
-   * Als u een andere term wilt gebruiken die door Workfront wordt geboden, klikt u op de pijl-omlaag ![](assets/dropdown-arrow.png) naast het label en klikt u vervolgens op het alternatieve label dat u in de vervolgkeuzelijst wilt gebruiken.
+   * Om een alternatieve termijn te gebruiken die door Workfront wordt verstrekt, klik de benedenpijl ![ neer pijl ](assets/dropdown-arrow.png) naast het etiket, dan klik het alternatieve etiket u in de drop-down lijst wilt.
 
      >[!NOTE]
      >

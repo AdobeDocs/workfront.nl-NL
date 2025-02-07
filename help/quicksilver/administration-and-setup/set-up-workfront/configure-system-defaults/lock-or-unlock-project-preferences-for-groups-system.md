@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f5a94eaf-ebb8-424b-80ff-ba40cc985a6e
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Voor instructies bij het sluiten van of het ontgrendelen van een systeem-vlakke 
 
 1. Voer een van de volgende handelingen uit:
 
-   * Als u wilt dat groepsbeheerders een voorkeur voor hun groepen kunnen vormen, ontgrendel het ![](assets/unlock-toggle-button.png).
+   * Als u groepsbeheerders een voorkeur voor hun groepen wilt kunnen vormen, ontgrendel het ![ knevel van de Ontgrendeling ](assets/unlock-toggle-button.png).
    * Als u wilt dat alle groepen uw configuratie voor een voorkeur gebruiken, zorg ervoor dat het gesloten is (dit is het gebrek).
 
      >[!IMPORTANT]

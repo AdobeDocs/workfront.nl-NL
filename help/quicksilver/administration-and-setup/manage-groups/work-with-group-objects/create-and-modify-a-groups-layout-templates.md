@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 2be211a8-df84-49c3-827f-1215c77159e0
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '369'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
    In de lijst die wordt weergegeven, ziet u de groepen die u beheert, samen met eventuele subgroepen die u beheert. Adobe Workfront-beheerders kunnen alle groepen zien.
 
 1. Klik op de naam van de groep waarvoor u lay-outsjablonen wilt maken of wijzigen.
-1. In het linkerpaneel, klik **Malplaatjes van de Lay-out** ![](assets/layout-templates-icon.png).
+1. In het linkerpaneel, klik **![ pictogram van de malplaatjes van de Lay-out** Malplaatjes van de Lay-out ](assets/layout-templates-icon.png).
 
 1. Voer een van de volgende handelingen uit:
 

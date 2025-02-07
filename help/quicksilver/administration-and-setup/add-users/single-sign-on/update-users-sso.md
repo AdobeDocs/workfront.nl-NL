@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f9c543a-2ae2-4c2c-9c4d-647079263a7e
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '816'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ U kunt uw importbestand voorbereiden door een rapport van alle gebruikers in Wor
    | ID | De id is de alfanumerieke GUID van Workfront. |
    | SSO-gebruikersnaam | Door het veld SSO-gebruikersnaam toe te voegen, weet u zeker dat u geen gebruikersnamen overschrijft met het importeren. Dit veld moet leeg zijn voor alle gebruikers als uw gebruikers nog niet zijn bijgewerkt voor SSO. |
 
-   ![](assets/users-with-sso-username-and-no-sso-access-only-field.png)
+   ![ Gebruikers met gebruikersbenaming SSO maar geen toegang ](assets/users-with-sso-username-and-no-sso-access-only-field.png)
 
 1. Sla het rapport op.
 1. Klik **Uitvoer** bij de bovenkant van het rapport en voer het rapport naar Excel uit.
@@ -112,7 +112,7 @@ U kunt uw importbestand voorbereiden door een rapport van alle gebruikers in Wor
    * De tweede kolom moet de Sso- Gebruikersnaam bevatten, aangezien het in uw SSO systeem toont.
    * De kolommen mogen geen kopteksten hebben en er mogen geen lege rijen boven aan de lijst met namen staan.
 
-     ![](assets/update-users-for-sso-csv-file-for-import.png)
+     ![ de gebruikers CSV van de Update ](assets/update-users-for-sso-csv-file-for-import.png)
 
 1. Sla het rapport op als een CSV- of TSV-bestand op uw computer.
 
@@ -145,6 +145,6 @@ Voor instructies bij de bouw van een gebruikersrapport dat Sso- Gebruikersnaam i
 1. Zorg ervoor dat de waarden voor de kolom Gebruikersnaam SSO overeenkomen met de gebruikersnaam van SSO op uw SSO-server.
 1. Als de kolom Gebruikersnaam SSO leeg is, werkt u de SSO-gebruikersnamen van uw gebruikers bij.
 
-   ![](assets/users-with-sso-field-updated.png)
+   ![ Gebruikers met gebied SSO ](assets/users-with-sso-field-updated.png)
 
    Voor instructies bij het bijwerken van uw gebruikers voor SSO, zie [ Update uw gebruikers voor SSO ](#update-your-users-for-sso).

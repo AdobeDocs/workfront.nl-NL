@@ -8,9 +8,9 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 9243ee60-006b-4628-bde7-5b037dde7511
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 ## Gebruik diagnostiek om geautomatiseerde processen te activeren
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+1. Klik het **pictogram 1} van het Belangrijkste Menu ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** de montages van de Opstelling **![ Gear pictogram ](assets/gear-icon-settings.png).**
 
 1. Breid **Systeem** uit, dan klik **Diagnostiek**.
 1. Selecteer een van de volgende opties:

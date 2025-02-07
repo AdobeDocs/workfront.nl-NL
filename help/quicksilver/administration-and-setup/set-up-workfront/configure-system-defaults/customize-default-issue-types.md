@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: caed65ab-a787-437b-9f5f-b3d4135bb980
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Als u toegang hebt tot [!DNL Adobe Workfront] [!UICONTROL administrator] , zijn 
 * **[!UICONTROL Issue]** Een object in [!DNL Workfront] dat ongeplande werkzaamheden communiceert, een probleem dat optreedt of iets dat moet worden opgelost om een taak voort te zetten.
 * **[!UICONTROL Request]** Een type uitgave dat van toepassing is op een aanvraagwachtrij waar gebruikers aanvragen indienen in Workfront.
 
-![](assets/default-issue-types.png)
+![ Standaard uitgiftetypen ](assets/default-issue-types.png)
 
 ## Een type uitgave aanpassen
 
@@ -86,8 +86,8 @@ U kunt als volgt een type uitgave aanpassen:
 1. Klik op de tab **[!UICONTROL Issues]** .
 1. Voer een van de volgende handelingen uit:
 
-   * Houd de muisaanwijzer boven het type uitgave dat u wilt aanpassen, klik op het [!UICONTROL Edit] pictogram ![](assets/edit-icon.png) dat uiterst rechts wordt weergegeven en typ een nieuwe naam voor het type uitgave.
+   * Beweeg over het uitgevende type u wilt aanpassen, [!UICONTROL Edit] pictogram ![ klikken geeft pictogram ](assets/edit-icon.png) uit dat aan uiterst rechts verschijnt, dan een nieuwe naam voor het uitgevende type.
 
-     ![](assets/customize-issue-type.png)
+     ![ pas uitgaven type ](assets/customize-issue-type.png) aan
 
    * Klik op een [!UICONTROL issue type] om de bijbehorende status weer te geven en sleep vervolgens de grepen die worden weergegeven wanneer u de muisaanwijzer op de status plaatst. Zet deze vervolgens neer in de volgorde waarin u ze wilt weergeven in de vervolgkeuzelijst met uitgaven van uw gebruikers **[!UICONTROL Status]** .

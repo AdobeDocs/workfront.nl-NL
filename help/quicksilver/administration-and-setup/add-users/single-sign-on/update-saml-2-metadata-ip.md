@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 75cd0ab5-8d76-40a4-96a8-00e9f0f4fec6
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Door gebrek, wordt ADFS gevormd om updates aan elk van zijn het vertrouwen van d
 1. Selecteer het vertrouwen van de afhankelijke partij dat u eerder om met Workfront, dan in het rechterpaneel werd gevormd te worden gebruikt, **Update van Metagegevens van de Federatie** klikken.
 1. (Voorwaardelijk) Als deze optie grijs wordt weergegeven (wat betekent dat het vertrouwen van de betrouwbare partij eerder is geconfigureerd met een metagegevensbestand), voert u het volgende in.
 
-   1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+   1. Klik het **pictogram 1} van het Belangrijkste Menu ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** de montages van de Opstelling **![ Gear pictogram ](assets/gear-icon-settings.png).**
 
    1. Klik **Systeem** > **Enig Teken (SSO)**.
 

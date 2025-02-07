@@ -5,9 +5,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8d1870ea-3f9e-4358-8e14-3dcfc3805637
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
@@ -59,14 +59,14 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **Groepen** ![](assets/groups-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![ Groepen ](assets/groups-icon.png).
 
 1. Klik op de naam van de groep.
 1. Op de pagina die, in het kopbalgebied dichtbij de hoger-juiste hoek toont, bekijk de **Vergunningen in gebruik** gebied om het aantal **Plan** en **het werk** vergunningen te zien momenteel worden gebruikt.
 
    Als u een groep op hoofdniveau bekijkt en de beheerder van Workfront een maximumaantal van elk vergunningstype voor de groep bepaalde, worden deze aantallen ook getoond. In de onderstaande groep kunnen maximaal 10 gebruikers bijvoorbeeld een licentie voor een abonnement hebben en 15 gebruikers kunnen een werkvergunning hebben:
 
-   ![](assets/licenses-used-allocated.png)
+   ![ Toegewezen vergunningen ](assets/licenses-used-allocated.png)
 
    Voor informatie over hoe een beheerder van Workfront een maximumaantal toegewezen vergunningen voor een groep bepaalt, zie de sectie [ de maximumvergunningstelling voor een Groep van het Huis ](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md#set) in het artikel [ beheert beschikbare vergunningen in uw systeem ](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
 
@@ -74,15 +74,15 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    >
    >Als de groep die u bekijkt een subgroep is, kunt u alleen het aantal gebruikte licenties weergeven en niet het maximumaantal licenties dat voor de groep is toegewezen. Workfront-beheerders definiëren namelijk geen maximumaantal licenties voor een subgroep.
    >
-   >![](assets/subgroup-used-licenses-only.png)
+   >![ Gebruikte vergunningen in subgroup ](assets/subgroup-used-licenses-only.png)
    >
 
 1. Voor afzonderlijke tellingen van elk type van vergunning momenteel gebruikt in de groep (met inbegrip van Overzicht en Verzoek), klik het tekstgebied direct onder **Vergunningen in gebruik:**
 
-   ![](assets/click-text-to-see-more.png)
+   ![ klik om meer ](assets/click-text-to-see-more.png) te zien
 
    Het vak dat wordt weergegeven, bevat dezelfde informatie voor alle vier de Workfront-licentietypen: Overzicht, Werkplan, Revisie en Verzoek. Onder aan het vak ziet u het totale aantal licenties dat door leden van deze groep of een van de subgroepen wordt gebruikt:
 
-   ![](assets/more-license-info.png)
+   ![ Meer vergunningsinformatie ](assets/more-license-info.png)
 
    Voor Revisie- en Request-licenties wordt in de kolom Max altijd Onbeperkt weergegeven.

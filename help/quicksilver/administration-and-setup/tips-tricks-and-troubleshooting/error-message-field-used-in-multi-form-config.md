@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 43668525-5572-4d82-8eed-0e320249f296
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1195'
+source-wordcount: '1197'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ In dit artikel wordt uitgelegd hoe u het object kunt vinden en het probleem verv
 
    **Voorbeeld:** Gebied 1 op Vorm 1 = ja, Gebied 2 op Vorm 2 = ja, Gebied 3 op Vorm 3 = ja. Dit betekent ‘Het berekende aangepaste veld bestaat op formulier 1’ of ‘Het berekende aangepaste veld bestaat op formulier 2’, enzovoort.
 
-1. Klik in de **[!UICONTROL Search icon]** ![](assets/search-icon.png) rechtsboven in het scherm op **[!UICONTROL Advanced Search]** .
+1. In het **[!UICONTROL Search icon]** ![ pictogram van het Onderzoek ](assets/search-icon.png) in de hoger-juiste hoek van het scherm, klik **[!UICONTROL Advanced Search]**.
 1. Klik op het object van het aangepaste formulier (bijvoorbeeld Issue), klik op **[!UICONTROL Filter your results]** en klik vervolgens op **[!UICONTROL Add a filter]** .
 1. Typ de naam van een veld Selectievakje in het veld **[!UICONTROL Start typing field name]** en selecteer het veld wanneer het wordt weergegeven in de lijst. Selecteer vervolgens **[!UICONTROL Equal]** en typ **[!UICONTROL Yes]** (zonder aanhalingstekens) in het volgende vak.
 

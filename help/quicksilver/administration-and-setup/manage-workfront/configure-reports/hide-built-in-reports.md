@@ -8,9 +8,9 @@ feature: System Setup and Administration
 role: Admin
 author: Nolan, Lisa
 exl-id: d48b0dd7-933e-4e91-a2f1-8d64b1c6dbb3
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,6 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 1. Selecteer het toegangsniveau waarvoor u ingebouwde rapporten wilt verbergen, dan **uitgeven**.
 1. Voor het **voorwerp van Rapporten**, klik het **pictogram van Montages** naast het hoogste niveau van beschikbare toegang, dan schrap **Mening Ingebouwde Rapporten**.
 
-   ![](assets/edit-access-level.png)
+   ![ geef toegangsniveau ](assets/edit-access-level.png) uit
 
 1. Klik **sparen**.

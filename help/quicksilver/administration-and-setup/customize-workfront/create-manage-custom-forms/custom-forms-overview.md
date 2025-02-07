@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ U kunt een aangepast formulier maken dat gebruikers aan een Adobe Workfront-obje
 
 Bijvoorbeeld, kunt u een douaneformulier met de naam &quot;het Onderzoek van de Inhoud van de Marketing&quot;aan een project vastmaken zodat de gebruikers op het project marketinginhoud voor het project kunnen verzoeken:
 
-![](assets/see-image-details-page.png)
+![ pagina van Details ](assets/see-image-details-page.png)
 
 ## Een aangepast formulier maken
 

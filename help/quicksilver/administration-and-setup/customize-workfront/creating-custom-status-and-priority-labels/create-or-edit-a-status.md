@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 35c804b5-569d-4ba8-84b8-6129f0ffbc7f
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '958'
 ht-degree: 0%
 
 ---
@@ -72,13 +72,13 @@ Wanneer u een douanestatus voor de volledige organisatie creeert, kunt u het vor
 
 1. (Voorwaardelijk) als u creeert of een status voor gebruik systeembreed uitgeeft, zorg ervoor dat **de Statussen van het Systeem** in de doos in de hoger-juiste hoek wordt geselecteerd.
 
-   ![](assets/system-statuses-in-upper-rt-corner-new.jpg)
+   ![ status van het Systeem ](assets/system-statuses-in-upper-rt-corner-new.jpg)
 
    of
 
    Als de status voor een groep of subgroep is, typt u de naam van de groep in de rechterbovenhoek en selecteert u de naam wanneer deze wordt weergegeven.
 
-   ![](assets/system-statuses-in-upper-rt-corner-group.jpg)
+   ![ de statussen van het Systeem voor groep ](assets/system-statuses-in-upper-rt-corner-group.jpg)
 
 1. Selecteer het lusje van het objecten type (**Project**, **Taken**, of **Kwesties**) dat u met de status wilt associëren.
 
@@ -88,7 +88,7 @@ Wanneer u een douanestatus voor de volledige organisatie creeert, kunt u het vor
 
    Als u een bestaande status uitgeeft, beweegt over het, dan klik **** pictogram uitgeven dat aan uiterst rechts toont.
 
-   ![](assets/custom-status-edit.png)
+   ![ geef douanestatus ](assets/custom-status-edit.png) uit
 
 1. Configureer de status met behulp van de volgende opties:
 
