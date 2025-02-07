@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: a9c2abc7f0d75eb9f90a9437eff7ac4d35fbb431
+source-git-commit: c67affb14c237f8e4a6cf8a44c707a5ab5893364
 workflow-type: tm+mt
-source-wordcount: '13025'
+source-wordcount: '13028'
 ht-degree: 0%
 
 ---
@@ -2464,6 +2464,7 @@ ht-degree: 0%
       * [Aanbevolen werkwijzen voor abonnementen op gebeurtenissen](wf-api/general/event-sub-best-practice.md)
       * [Vereisten voor levering van abonnementen](wf-api/general/setup-event-sub-endpoint.md)
       * [Abonnementspogingen voor gebeurtenissen opnieuw proberen](wf-api/api/event-sub-retries.md)
+      * [Abonnementsversie voor gebeurtenissen](/help/quicksilver/wf-api/general/event-subs-versioning.md)
       * [Uitgaande berichtindeling voor gebeurtenisabonnementen](wf-api/api/message-format-event-subs.md)
       * [Veelgestelde vragen - Abonnementen voor gebeurtenissen](wf-api/general/event-subs-faq.md)
    * Document Webhooks-API {#document-webhooks-api}

@@ -1,0 +1,247 @@
+---
+content-type: api
+navigation-topic: general-api
+title: Abonnementsversie voor gebeurtenis
+description: API voor abonnementen voor gebeurtenissen
+author: Becky
+feature: Workfront API
+role: Developer
+source-git-commit: e93634acdf2a97344f014c28ff9bbf43f1392e53
+workflow-type: tm+mt
+source-wordcount: '1100'
+ht-degree: 0%
+
+---
+
+
+# Versiering van abonnement op gebeurtenissen
+
+Workfront heeft twee versies van gebeurtenisabonnementen. In dit artikel worden de verschillen tussen de koppelingen beschreven.
+
+Dit is geen wijziging van de Workfront API, maar een wijziging van de functionaliteit voor het abonnementsformulier voor gebeurtenissen.
+
+De capaciteit om gebeurtenisabonnementen te bevorderen of te degraderen zorgt ervoor dat wanneer de veranderingen in de structuur van gebeurtenissen worden aangebracht, de bestaande abonnementen niet breken, toestaand u om aan de nieuwe versie zonder een hiaat in uw Abonnement van de Gebeurtenis te testen en te bevorderen.
+
+>[!IMPORTANT]
+>
+>De volgende releases zijn van invloed op het versiebeheer van abonnementen voor gebeurtenissen:
+>
+>* **25.2 Versie** (10 April, 2025): Alle nieuwe abonnementen die na de versie 25.2 worden gecreeerd worden gecreeerd als Versie 2.
+>* **25.3 Versie** (17 Juli, 2025): De Abonnementen kunnen niet meer aan Versie 1 na de versie 25.3 worden gedowngraded.
+
+## Wijzigingen tussen versie 1 en versie 2
+
+De volgende wijzigingen zijn aangebracht voor gebeurtenisabonnementen versie 2
+
+
+### Algemene wijzigingen
+
+
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th> <p><b>Betrokken velden</b></p> </th> 
+   <th> <p><b>Versie 1 (vorig gedrag)</b></p> </th> 
+   <th> <p><b>Versie 2 (wijzigen)</b></p> </th> 
+   <th> <p><b>Actie tot herstel</b></p> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>Parameterwaarden</p> </td> 
+   <td> <p>Voor elk object dat is gemaakt op basis van een sjabloon met een aangepast formulier, is een gebeurtenis <code>CREATE</code> verzonden en is vervolgens een gebeurtenis <code>UPDATE</code> verzonden met de parameterwaarden (inclusief berekende velden en de waarden ervan).    </p> </td> 
+   <td> <p>Er wordt alleen een gebeurtenis <code>CREATE</code> verzonden die parameterwaarden bevat, inclusief berekende velden.</p> </td> 
+   <td> <p>Als u een filter op <code>UPDATE</code> -gebeurtenissen met parameterwaarden (inclusief berekende aangepaste velden) hebt en verwacht dat dit filter wordt ontvangen na een object <code>CREATE</code> -gebeurtenis die parameterwaarden bevat, ontvangt u niet langer die <code>UPDATE</code> -gebeurtenis. Als u parameterwaarden wilt zien bij het maken van objecten, moet u een extra <code>CREATE</code> -abonnement maken.</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Tekstvelden met meerdere selecties</p> </td> 
+   <td> <p>Voor elk type gebeurtenis dat een wijziging bevat op een tekstveld met meerdere selecties geldt dat als het veld slechts één waarde bevat, deze waarde wordt omgezet in en verzonden als een tekenreeks. Anders wordt het als een array verzonden. </p><p>Voorbeelden:</p><ul><li><code>myMultiSelectField: ["oneValue"]</code> wordt geconverteerd en verzonden als <code>myMultiSelectField: "oneValue"</code> .</li><li><code>myMultiSelectField: ["first", "second"]</code> wordt verzonden als <code>myMultiSelectField: ["first", "second"]</code>.</li></ul> </td> 
+   <td> <p>Ongeacht het aantal waarden in de array, wordt deze als een array verzonden. </p><p>Voorbeelden:</p><ul><li><code>myMultiSelectField: ["oneValue"]</code> wordt verzonden als <code>myMultiSelectField: ["oneValue"]</code>.</li><li><code>myMultiSelectField: ["first", "second"]</code> wordt verzonden als <code>myMultiSelectField: ["first", "second"]</code>.</li></ul> </td> 
+   <td> <p>Als u een abonnement hebt met een filter op een veld met meerdere keuzen en de waarde als tekenreeks, moet u een nieuw abonnement maken met hetzelfde filter dat de waarde als een array heeft. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Objectspecifieke wijzigingen
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th> <b> de code van Objecten </b> </th> 
+   <th> <b> Betrokken gebieden </b> </th> 
+   <th> <b> Versie 1 (Vorig gedrag) </b></th> 
+   <th> <b> Versie 2 (Verandering) </b> </th> 
+   <th> <b> de actie van de Vergoeding </b> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <th rowspan="1">ASSGN</th> 
+   <td>
+    <ul>
+     <li><code>projectID</code></li>
+     <li><code>taskID</code></li>
+     <li><code>opTaskID</code></li>
+     <li><code>customerID</code></li>
+    </ul> 
+   </td> 
+   <td>Wanneer dit object is bijgewerkt, geeft de gebeurtenis <code>UPDATE</code> soms ten onrechte aan dat de desbetreffende velden zijn gewijzigd van <code>null</code> in <code>ID value</code> .</td> 
+   <td>Alle <code>UPDATE</code> -gebeurtenissen geven de juiste waarde voor de desbetreffende velden aan.</td> 
+   <td>Geen. Als u een filter op de betrokken gebieden hebt, ontvangt u een gebeurtenis <code>UPDATE</code> slechts als deze gebieden werkelijk zijn veranderd, niet als een andere waarde is veranderd.
+   </td> 
+  </tr> 
+  <tr> 
+   <th rowspan="2">DOCU</th> 
+   <td>
+    <ul>
+     <li><code>referenceObjID</code></li>
+    </ul> 
+   </td> 
+   <td>Wanneer een parameterwaarde op dit object is bijgewerkt, geeft de gebeurtenis <code>UPDATE</code> een onjuiste wijziging van het desbetreffende veld van <code>null</code> in <code>object id</code> weer. </td> 
+   <td>Alle <code>UPDATE</code> -gebeurtenissen geven de juiste waarde voor de desbetreffende velden aan.</td> 
+   <td>Geen. Als u een filter op de betrokken gebieden hebt, ontvangt u een gebeurtenis <code>UPDATE</code> slechts als deze gebieden werkelijk zijn veranderd, niet als een andere waarde is veranderd.
+  </tr> 
+  <tr> 
+  <td>
+    <ul>
+     <li><code>groups</code></li>
+    </ul> 
+   </td> 
+   <td>Wanneer een document is verwijderd, wordt het desbetreffende veld door de gebeurtenis <code>DELETE</code> onjuist weergegeven als een lege array in de status voor.    </td> 
+   <td>De gebeurtenis <code>DELETE</code> geeft het desbetreffende veld correct vóór de status weer.</td> 
+   <td>Geen. De gebeurtenis <code>DELETE</code> wordt wel verzonden, maar nu worden de juiste gegevens voor het desbetreffende veld weergegeven. 
+</td> 
+  </tr> 
+  <tr> 
+   <th rowspan="1">DOCV</th> 
+  <td>
+    <ul>
+     <li><code>proofDecision</code></li>
+     <li><code>proofName</code></li>
+     <li><code>proofProgress</code></li>
+    </ul> 
+   </td> 
+   <td>Wanneer dit object werd bijgewerkt, worden twee <code>UPDATE</code> -gebeurtenissen verzonden. Het eerste veld bevatte niet de betrokken velden, terwijl het tweede evenement dat wel deed.</td> 
+   <td>Alle veldupdates, inclusief de betrokken velden, zijn aanwezig in slechts één <code>UPDATE</code> -gebeurtenis en er wordt geen tweede onnodige gebeurtenis verzonden.     </td> 
+   <td>Geen. Als u een filter op de betrokken gebieden hebt, worden de gebeurtenissen geleverd in de eerste gebeurtenis. 
+</td> 
+  </tr> 
+  <tr> 
+   <th rowspan="2">EXPNS</th> 
+  <td>
+    <ul>
+     <li><code>topReferenceObjCode</code></li>
+     <li><code>referenceObjectName</code></li>
+    </ul> 
+   </td> 
+   <td>Wanneer een willekeurige parameterwaarde op een kostenwaarde is bijgewerkt, heeft de gebeurtenis <code>UPDATE</code> een onjuiste wijziging van topReferenceObjCode van <code>EXPNS</code> naar <code>PROJ</code> getoond en wordt <code>referenceObjectName</code> gewijzigd van <code>null</code> naar <code>string value of project name</code> .      </td> 
+   <td>Alle <code>UPDATE</code> -gebeurtenissen geven de juiste waarde voor de desbetreffende velden aan.</td> 
+   <td>Geen. Als u een filter op de betrokken gebieden hebt, ontvangt u een gebeurtenis <code>UPDATE</code> slechts als deze gebieden werkelijk zijn veranderd, niet als een andere waarde is veranderd.
+  </tr> 
+  <tr> 
+  <td>
+    <ul>
+     <li><code>topReferenceObjCode</code></li>
+     <li><code>referenceObjectName</code></li>
+    </ul> 
+   </td> 
+   <td>Wanneer een object Expense werd verwijderd, werd een gebeurtenis <code>UPDATE</code> verzonden waarbij de betrokken velden werden gewijzigd in null voordat de gebeurtenis <code>DELETE</code> werd verzonden.    </td> 
+   <td>De extra <code>UPDATE</code> -gebeurtenis wordt niet verzonden. De gebeurtenis <code>DELETE</code> heeft juiste waarden voor de desbetreffende velden in de status vóór. </td> 
+   <td>Als u een filter hebt voor de desbetreffende velden op <code>UPDATE</code> -gebeurtenissen en verwacht dat u dit filter ontvangt wanneer het object wordt verwijderd, ontvangt u niet langer de gebeurtenis <code>UPDATE</code> . Als u deze velden wilt zien wanneer het object wordt verwijderd, moet u een extra abonnement voor <code>DELETE</code> maken.
+</td> 
+  </tr> 
+  <tr> 
+   <th rowspan="1">UUR</th> 
+  <td>
+    <ul>
+     <li><code>projectID </code></li>
+     <li><code>taskID </code></li>
+     <li><code>roleID</code></li>
+     <li><code>timesheetID</code></li>
+     <li><code>hourTypeID </code></li>
+     <li><code>projectOverheadID</code></li>
+     <li><code>referenceObjID</code></li>
+     <li><code>referenceObjCode</code></li>
+     <li><code>securityRootID</code></li>
+    </ul> 
+   </td> 
+   <td>Wanneer dit object is verwijderd, worden de desbetreffende velden door de gebeurtenis <code>DELETE</code> onjuist weergegeven als <code>null</code> in de status voor. </td> 
+   <td>De gebeurtenis <code>DELETE</code> geeft de desbetreffende velden correct weer in de toestand Voor.</td> 
+   <td>Geen. De gebeurtenis <code>DELETE</code> wordt nog steeds verzonden, maar geeft nu de juiste gegevens voor de desbetreffende velden weer. </td> 
+  </tr> 
+  <tr> 
+   <th rowspan="2">OPTASK</th> 
+  <td>
+    <ul>
+     <li><code>rootGroupID</code></li>
+    </ul> 
+   </td> 
+   <td>Wanneer een parameterwaarde op dit object is bijgewerkt, geeft de gebeurtenis <code>UPDATE</code> een onjuiste wijziging van het desbetreffende veld van <code>null</code> in <code>ID value</code> weer. </td> 
+   <td>Alle <code>UPDATE</code> -gebeurtenissen geven de juiste waarde voor het desbetreffende veld aan.</td> 
+   <td>Geen. Als u een filter op het beïnvloede gebied hebt, ontvangt u een <code>UPDATE</code> gebeurtenis slechts als dat gebied eigenlijk is veranderd, niet als een andere parameterwaarde is veranderd.
+</td> 
+  </tr> 
+  <tr> 
+  <td>
+    <ul>
+     <li><code>resolveProjectID</code></li>
+     <li><code>resolveTaskID</code></li>
+     <li><code>resolvingObjID</code></li>
+    </ul> 
+   </td> 
+   <td>Wanneer dit object is bijgewerkt, geeft de gebeurtenis <code>UPDATE</code> soms ten onrechte aan dat de desbetreffende velden zijn gewijzigd van <code>null</code> in <code>ID value</code> .</td> 
+   <td>In alle <code>UPDATE</code> -gebeurtenissen wordt de juiste waarde voor de desbetreffende velden weergegeven.    </td> 
+   <td></td> 
+  </tr> 
+  <tr> 
+   <th rowspan="2">PROJ</th> 
+  <td>
+    <ul>
+     <li><code>rootGroupID</code></li>
+    </ul> 
+   <td>Wanneer een parameterwaarde op dit object is bijgewerkt, geeft de gebeurtenis <code>UPDATE</code> een onjuiste wijziging van het desbetreffende veld van <code>null</code> in <code>ID value</code> weer. </td> 
+   <td>Alle <code>UPDATE</code> -gebeurtenissen geven de juiste waarde voor het desbetreffende veld aan.</td> 
+   <td>Geen. Als u een filter op het beïnvloede gebied hebt, ontvangt u een <code>UPDATE</code> gebeurtenis slechts als dat gebied eigenlijk is veranderd, niet als een andere parameterwaarde is veranderd.
+  </tr> 
+  <tr> 
+  <td>
+    <ul>
+     <li><code>convertedOpTaskID</code></li>
+    </ul> 
+   </td> 
+   <td>Wanneer dit object is bijgewerkt, geeft de gebeurtenis <code>UPDATE</code> soms ten onrechte aan dat de desbetreffende velden zijn gewijzigd van <code>null</code> in <code>ID value</code> .</td> 
+   <td>Alle <code>UPDATE</code> -gebeurtenissen geven de juiste waarde voor het desbetreffende veld aan.</td> 
+   <td>Geen. Als u een filter op het beïnvloede gebied hebt, ontvangt u een <code>UPDATE</code> gebeurtenis slechts als dat gebied eigenlijk is veranderd, niet als een andere parameterwaarde is veranderd.
+  </tr> 
+  <tr> 
+   <th rowspan="2">TAAK</th> 
+  <td>
+    <ul>
+     <li><code>rootGroupID</code></li>
+    </ul> 
+   </td> 
+   <td>Wanneer een parameterwaarde op dit object is bijgewerkt, geeft de gebeurtenis <code>UPDATE</code> een onjuiste wijziging van het desbetreffende veld van <code>null</code> in <code>ID value</code> weer. </td> 
+   <td>Alle <code>UPDATE</code> -gebeurtenissen geven de juiste waarde voor het desbetreffende veld aan.</td> 
+   <td>Geen. Als u een filter op het beïnvloede gebied hebt, ontvangt u een <code>UPDATE</code> gebeurtenis slechts als dat gebied eigenlijk is veranderd, niet als een andere parameterwaarde is veranderd.
+  </tr> 
+  <tr> 
+  <td>
+    <ul>
+     <li><code>convertedOpTaskID</code></li>
+    </ul> 
+   </td> 
+   <td>Wanneer dit object is bijgewerkt, geeft de gebeurtenis <code>UPDATE</code> soms ten onrechte aan dat de desbetreffende velden zijn gewijzigd van <code>null</code> in <code>ID value</code> .</td> 
+   <td>Alle <code>UPDATE</code> -gebeurtenissen geven de juiste waarde voor het desbetreffende veld aan.</td> 
+   <td>Geen. Als u een filter op het beïnvloede gebied hebt, ontvangt u een <code>UPDATE</code> gebeurtenis slechts als dat gebied eigenlijk is veranderd, niet als een andere parameterwaarde is veranderd.
+ </tbody> 
+</table>

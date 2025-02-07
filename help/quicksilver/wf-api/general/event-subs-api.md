@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 2e72dd6a4ef91a11627a48b52e96033410c4435c
+source-git-commit: adde34e472a762274b00f5c050b76e71002cea15
 workflow-type: tm+mt
-source-wordcount: '2198'
+source-wordcount: '2362'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 {{highlighted-preview}}
 -->
 
-Wanneer een actie op een voorwerp van Adobe Workfront voorkomt dat door gebeurtenisabonnementen wordt gesteund, kunt u Workfront vormen om een reactie naar uw gewenste eindpunt te verzenden. Dit betekent dat toepassingen van derden updates van Workfront-interacties kunnen ontvangen via de Workfront API kort nadat ze zich voordoen. Over het algemeen kunt u verwachten dat u binnen 5 seconden vanaf het moment dat de gegevenswijziging wordt geregistreerd, webhaakmeldingen ontvangt. Gemiddeld ontvangen klanten binnen minder dan 1 seconde berichten via een webhaak vanaf de gegevenswijziging die wordt geregistreerd.  
+Wanneer een actie op een voorwerp van Adobe Workfront voorkomt dat door gebeurtenisabonnementen wordt gesteund, kunt u Workfront vormen om een reactie naar uw gewenste eindpunt te verzenden. Dit betekent dat toepassingen van derden updates van Workfront-interacties kunnen ontvangen via de Workfront API kort nadat ze zich voordoen. Over het algemeen kunt u verwachten dat u binnen 5 seconden vanaf het moment dat de gegevenswijziging wordt geregistreerd, webhaakmeldingen ontvangt. Gemiddeld ontvangen klanten binnen minder dan 1 seconde berichten via een webhaak vanaf de gegevenswijziging die wordt geregistreerd.
 
 Als u via uw firewall gebeurtenisabonnementen wilt ontvangen, moet u de volgende IP-adressen aan uw lijst van gewenste personen toevoegen:
 
@@ -83,7 +83,7 @@ Uw Workfront-gebruiker heeft het volgende nodig om een gebeurtenissenabonnement 
 
   Voor meer informatie, zie [ Authentificatie ](api-basics.md#authentication) in [ API Grondbeginselen ](api-basics.md).
 
-## Het vormen van het Middel van het Abonnement
+## De abonnementsbron opmaken
 
 De abonnementsbron bevat de volgende velden.
 
@@ -110,7 +110,7 @@ De abonnementsbron bevat de volgende velden.
         <td scope="col"><p>ASSGN</p></td> 
        </tr> 
        <tr> 
-        <td scope="col">Bedrijf </td> 
+        <td scope="col">Bedrijf </td> 
         <td scope="col"><p>CMPY</p></td> 
        </tr> 
        <tr> 
@@ -119,7 +119,7 @@ De abonnementsbron bevat de volgende velden.
        </tr> 
        <tr> 
         <td scope="col"><p>Document</p></td> 
-        <td scope="col">DOCU </td> 
+        <td scope="col">DOCU </td> 
        </tr> 
        <tr> 
         <td scope="col"><p>Kosten</p></td> 
@@ -193,7 +193,7 @@ De abonnementsbron bevat de volgende velden.
    * **Koord** - een waarde die het type van gebeurtenis vertegenwoordigt waarop het voorwerp wordt ingetekend. De beschikbare gebeurtenistypen zijn:
 
       * MAKEN
-      * DELETE 
+      * DELETE
       * BIJWERKEN
 
 * url (vereist)
@@ -202,7 +202,7 @@ De abonnementsbron bevat de volgende velden.
 
 * authToken (vereist)
 
-   * **Koord** - het token OAuth2 dat wordt gebruikt om met URL voor authentiek te verklaren die op het &quot;URL&quot;gebied wordt gespecificeerd. 
+   * **Koord** - het token OAuth2 dat wordt gebruikt om met URL voor authentiek te verklaren die op het &quot;URL&quot;gebied wordt gespecificeerd.
 
 ## API-aanvragen voor abonnementen voor gebeurtenissen maken
 
@@ -210,14 +210,14 @@ Nadat u ervoor hebt gezorgd dat de gebruiker beheerderstoegang heeft en de abonn
 
 Gebruik de volgende syntaxis om de URL samen te stellen.
 
-**Verzoek URL:**
+**Verzoek URL**
 
 
 ```
 POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 ```
 
-**Kopballen van het Verzoek:**
+**de kopballen van het Verzoek**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -253,6 +253,15 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
             }
 ```
 
+**het lichaamshoofdvoorbeeld van de Reactie**
+
+```
+{
+    "id": <NEW SUBSCRIPTION ID>,
+    "version": <NEW SUBSCRIPTION VERSION>
+}
+```
+
 | Antwoordcode | Beschrijving |
 |---|---|
 | 201 | Het gebeurtenisabonnement is gemaakt. |
@@ -264,7 +273,7 @@ Als u een abonnementsbron doorgeeft als de hoofdtekst van een aanvraag (waarbij 
 
 >[!NOTE]
 >
-> De responsheader &#39;Locatie&#39; bevat de URI van het zojuist gemaakte gebeurtenisabonnement.
+> De responsheader &#39;Locatie&#39; bevat de URI van het zojuist gemaakte gebeurtenisabonnement.
 
 **Voorbeeld van de Kopballen van de Reactie:**
 
@@ -288,7 +297,7 @@ U kunt alle gebeurtenissenabonnementen voor een klant vragen, of het volgende ge
 
 De aanvraagsyntaxis voor het aanbieden van alle gebeurtenisabonnementen voor een specifieke klant is als volgt:
 
-**Verzoek URL:**
+**Verzoek URL**
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -315,7 +324,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
  </tbody> 
 </table>
 
-**Codes van de Reactie:**
+**Codes van de Reactie**
 
 | Antwoordcode | Beschrijving |
 |---|---|
@@ -324,7 +333,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 | 403 (verboden) | De gebruiker, die verstrekte sessionID aanpast, heeft beheerdertoegang niet. |
 
 
-**Voorbeeld van de Kopballen van de Reactie:**
+**Voorbeeld van de Kopballen van de Reactie**
 
 | Reactiekoptekst | Voorbeeld |
 |---|---|
@@ -334,7 +343,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 | Overdrachtscodering | `→chunked` |
 
 
-**Voorbeeld van het Lichaam van de Reactie:**
+**Voorbeeld van het Lichaam van de Reactie**
 
 ```
 {
@@ -368,7 +377,7 @@ Wanneer
 
 U kunt zoeken naar gebeurtenisabonnementen op basis van de id van het abonnement op de gebeurtenis. De aanvraagsyntaxis voor abonnementen op gebeurtenissen ziet er als volgt uit:
 
-**Verzoek URL:**
+**Verzoek URL**
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -376,7 +385,7 @@ U kunt zoeken naar gebeurtenisabonnementen op basis van de id van het abonnement
 GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTION ID>
 ```
 
-**Kopballen van het Verzoek:**
+**Kopballen van het Verzoek**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -395,7 +404,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
  </tbody> 
 </table>
 
-**Codes van de Reactie:**
+**Codes van de Reactie**
 
 | Antwoordcode | Beschrijving |
 |---|---|
@@ -404,7 +413,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 | 403 (verboden) | De gebruiker, die verstrekte sessionID aanpast, heeft beheerdertoegang niet. |
 
 
-**Voorbeeld van het Lichaam van de Reactie:**
+**Voorbeeld van het Lichaam van de Reactie**
 
 
 
@@ -429,6 +438,95 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
    }
 }
 ```
+
+## Abonnementsversie voor gebeurtenissen
+
+Workfront heeft twee versies van gebeurtenisabonnementen.
+
+De capaciteit om gebeurtenisabonnementen te bevorderen of te degraderen zorgt ervoor dat wanneer de veranderingen in de structuur van gebeurtenissen worden aangebracht, de bestaande abonnementen niet breken, toestaand u om aan de nieuwe versie zonder een hiaat in uw gebeurtenisabonnement te testen en te bevorderen.
+
+Voor meer informatie over gebeurtenisabonnement versioning, met inbegrip van specifieke verschillen tussen de versie en belangrijke data, zie [ het abonnement van de Gebeurtenis versioning ](/help/quicksilver/wf-api/general/event-subs-versioning.md).
+
+### Versie van één abonnement wijzigen
+
+De aanvraagsyntaxis voor het wijzigen van de versie voor één abonnement is:
+
+**Verzoek URL**
+
+```
+PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTION ID>/version 
+```
+
+**het verzoeklichaam van het Voorbeeld**
+
+```
+{
+    "version": "v2" 
+}
+```
+
+
+**het reactielichaam van het Voorbeeld (200)**
+
+```
+{
+    "id": <SUBSCRIPTION ID>,
+    "version": "v2" 
+}
+```
+
+**Mogelijke antwoordcodes**
+
+* 200
+* 400
+* 404
+
+
+### Meerdere versies met abonnement wijzigen
+
+Dit eindpunt verandert de versie van veelvoudige abonnementen, door lijst van abonnementen of de abonnementenvlag van alle klant.
+
+De aanvraagsyntaxis voor het wijzigen van de versie voor één abonnement is:
+
+**Verzoek URL**
+
+```
+PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
+```
+
+**de organen van het de verzoekverzoek van het Voorbeeld**
+
+* Instantie van het verzoek voor lijst van abonnementen
+
+  ```
+  {
+      "subscriptionIds": [<SUBSCRIPTION ID 1>, <SUBSCRIPTION ID 2>],
+      "version": "v2" 
+  }
+  ```
+
+* Instantie aanvragen voor alle abonnementen van de klant
+
+  ```
+  {
+      "allCustomerSubscriptions": true,
+      "version": "v2" 
+  }
+  ```
+
+**het reactielichaam van het Voorbeeld (200)**
+
+```
+{
+    "subscription_ids": [<SUBSCRIPTION ID 1>, <SUBSCRIPTION ID 2>, ...],
+    "version": "v2" 
+}
+```
+
+**Mogelijke antwoordcodes**
+
+* 200
+* 400
 
 ## Filteren op abonnementen voor gebeurtenissen
 
@@ -760,7 +858,7 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
  <thead> 
   <tr> 
    <th> <p>Antwoordcode</p> </th> 
-   <th> Beschrijving</th> 
+   <th> Beschrijving</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -1001,7 +1099,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
  <thead> 
   <tr> 
    <th> <p>Antwoordcode</p> </th> 
-   <th> Beschrijving</th> 
+   <th> Beschrijving</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -1020,7 +1118,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
  </tbody> 
 </table>
 
- 
+
 
 ### Voorbeeld van reactieorgaan
 
