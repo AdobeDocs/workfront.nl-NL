@@ -7,9 +7,9 @@ description: U kunt externe e-mail (niet geproduceerd door  [!DNL Adobe Workfron
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7a15f557-67d8-4be8-8538-4bce06536c0a
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
@@ -56,10 +56,10 @@ Voordat u een uitgave kunt maken van [!DNL Google Workspace] , moet u
 
 ## Een [!DNL Adobe Workfront] uitgave in [!DNL Google Workspace] maken met e-mailinhoud
 
-1. Als het deelvenster [!UICONTROL Workfront for Google Workspace] niet wordt weergegeven, klikt u op het [!DNL Workfront] pictogram ![](assets/wf-lion-icon.png) in de zijbalk met invoegtoepassingen uiterst rechts op de pagina. [!DNL Google Workspace]
+1. Als het [!UICONTROL Workfront for Google Workspace] paneel niet wordt getoond, klik het [!DNL Workfront] pictogram ![ pictogram van Workfront ](assets/wf-lion-icon.png) in [!DNL Google Workspace] toe:voegen-ons sidebar bij uiterst rechts van de pagina.
 1. Open het e-mailbericht in [!DNL Google Workspace] en klik op een optie in [!DNL Workfront for Google Workspace] om het e-mailbericht om te zetten in een nieuwe [!DNL Workfront] -uitgave.
 
-   ![](assets/convert-email-task-issue-update.png)
+   ![ zet e-mail ](assets/convert-email-task-issue-update.png) om
 
 1. Als u de uitgave aan een ouderproject wilt vastmaken, klik **[!UICONTROL Project name]**, begin de naam van het project te typen waar u de kwestie wilt, dan klik de projectnaam wanneer het in de hieronder lijst verschijnt.
 1. Breng een van de volgende wijzigingen aan:

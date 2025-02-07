@@ -4,9 +4,9 @@ description: De volgende belangrijke verbeteringen zijn aangebracht voor het beh
 author: Luke
 feature: Product Announcements, Custom Forms
 exl-id: 81568eab-8a65-4767-b8ab-fb9353a90bb6
-source-git-commit: 8dac7959919014d7bfbbbd39d193d026ca31c4b2
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1117'
 ht-degree: 0%
 
 ---
@@ -19,17 +19,17 @@ De volgende belangrijke verbeteringen zijn aangebracht voor het beheer van aange
 
 U kunt de afbeelding insluiten in uw aangepaste formulieren. Op deze manier kunt u interactiever en visueel communiceren met aangepaste formuliergebruikers. Binnenkort zijn er nog meer widgettypen beschikbaar.
 
-![](assets/image-in-custom-form.png)
+![ Beeld in douanevorm ](assets/image-in-custom-form.png)
 
 Wanneer een aangepast formulier met een widget aan een object is gekoppeld, kunnen gebruikers die met het object werken dit in de volgende gebieden zien:
 
 * Het gebied Details van het object (bijvoorbeeld voor een project, het gebied Projectdetails) &#x200B;
 
-  ![](assets/see-image-details-page.png)
+  ![ de details van het Beeld ](assets/see-image-details-page.png)
 
 * Het vak Bewerken voor het object als dit de nieuwe Adobe Workfront-ervaring bevat (bijvoorbeeld de vakken Project bewerken en Taak bewerken) &#x200B;
 
-  ![](assets/image-see-in-edit.png)
+  ![ Beeld geeft uit ](assets/image-see-in-edit.png)
 
 Gebruikers kunnen de widget momenteel niet zien in de volgende gebieden: &#x200B;
 
@@ -42,11 +42,11 @@ Gebruikers kunnen de widget momenteel niet zien in de volgende gebieden: &#x200B
 
 U kunt meerdere objecttypen koppelen aan elk nieuw aangepast formulier:
 
-![](assets/new-custom-form-object-types.png)
+![ de types van vormobjecten van de Douane ](assets/new-custom-form-object-types.png)
 
 Of een bestaand aangepast formulier:
 
-![](assets/add-object-type-existing-form.png)
+![ voeg objecten type aan vorm ](assets/add-object-type-existing-form.png) toe
 
 Op deze manier kunt u één aangepast formulier maken dat u kunt gebruiken voor projecten, taken, uitgaven en andere typen objecten die worden ondersteund voor aangepaste formulieren.
 
@@ -76,11 +76,11 @@ Houd rekening met het volgende wanneer u een aangepast formulier met meerdere ob
 
 De set opties voor machtigingen voor sectie-einden die beschikbaar zijn voor de typen Uitgave-, Taak-, Project- en Gebruikersobjecten heeft één andere machtigingsoptie dan de set met machtigingsopties voor alle andere objecttypen: Beperkte bewerking.
 
-![](assets/section-break-permissions-limited-edit.png)
+![ de onderbreking van de Sectie met beperkte geeft uit ](assets/section-break-permissions-limited-edit.png)
 
 De reeks toestemmingen van de sectieonderbreking beschikbaar voor alle andere objecten types (Portfolio, Document, Programma, Uitgaven, Bedrijf, Herhaling, het Verslag van de Facturering, en Groep) omvat geen Beperkte Edit:
 
-![](assets/section-break-permissions-no-limited-edit.png)
+![ de onderbreking van de Sectie zonder beperkte geeft uit ](assets/section-break-permissions-no-limited-edit.png)
 
 In een aangepast formulier dat is gekoppeld aan objecttypen uit beide groepen, gebruikt het systeem een algemene set machtigingen voor secties-einden die werken voor alle objecttypen. Met name in plaats van de optie Beperkte bewerkingsmachtigingen te gebruiken, vervangt deze algemene set de optie Bewerken met machtiging door de optie Beperkte bewerkingsmachtigingen. De optie Bewerken is compatibel met alle objecttypen.
 

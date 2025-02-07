@@ -6,9 +6,9 @@ description: U kunt informatie over projecten, taken, kwesties, en documenten va
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: a53a716f-4faf-4ea7-a4fc-ad8d87634267
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '555'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klik op het pictogram **[!UICONTROL Menu]** in de rechterbovenhoek en selecteer vervolgens **[!UICONTROL Work List]** . U kunt het menu ook gebruiken om naar bovenliggende objecten te navigeren.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![ Terugkeer aan de Lijst van het Werk ](assets/go-back-to-work-list-350x314.png)
 
 1. Selecteer het werkitem dat u wilt weergeven.
 
@@ -74,7 +74,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >
    >Gebruik het pictogram **[!UICONTROL Menu]** om naar de bovenliggende objecten van het werkitem te gaan.
 
-1. Klik op het pictogram **[!UICONTROL Details]** ![](assets/details.png) op de navigatiebalk om het weer te geven:
+1. Klik het **[!UICONTROL Details]** pictogram ![ Details ](assets/details.png) in de navigatiebar aan mening:
 
    * [!UICONTROL Description]
    * [!UICONTROL Planned Completion Date]
@@ -87,7 +87,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klik op het pictogram **[!UICONTROL Menu]** in de rechterbovenhoek en selecteer vervolgens **[!UICONTROL Work List]** . U kunt het menu ook gebruiken om naar bovenliggende objecten te navigeren.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![ Terugkeer aan de Lijst van het Werk ](assets/go-back-to-work-list-350x314.png)
 
 1. Selecteer het werkitem dat u wilt weergeven.
 
@@ -95,7 +95,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >
    >Gebruik het pictogram **[!UICONTROL Menu]** om naar de bovenliggende objecten van het werkitem te gaan.
 
-1. Klik op het pictogram **[!UICONTROL Document]** ![](assets/documents.png) op de navigatiebalk en dubbelklik vervolgens op een document om het weer te geven:
+1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1} Document ](assets/documents.png) in de navigatiebar, dan klik op een document aan mening tweemaal:![
 
    * [!UICONTROL Description]
    * [!UICONTROL File Type]
@@ -108,7 +108,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klik op het pictogram **[!UICONTROL Menu]** in de rechterbovenhoek en selecteer vervolgens **[!UICONTROL Work List]** . U kunt het menu ook gebruiken om naar bovenliggende objecten te navigeren.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![ Terugkeer aan de Lijst van het Werk ](assets/go-back-to-work-list-350x314.png)
 
 1. Selecteer het werkitem dat u wilt weergeven.
 
@@ -116,7 +116,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >
    >Gebruik het pictogram **[!UICONTROL Menu]** om naar de bovenliggende objecten van het werkitem te gaan.
 
-1. Klik op het pictogram **[!UICONTROL Document]** ![](assets/documents.png) op de navigatiebalk en dubbelklik vervolgens op een proefdruk.
+1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1} Document ](assets/documents.png) in de navigatiebar, dan klik op een proef tweemaal.![
 
 1. Klik op het pijlpictogram in de rechterbovenhoek van de miniatuur om de proefdrukdetails te openen in [!DNL Workfront] .
 
@@ -126,7 +126,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klik op het pictogram **[!UICONTROL Menu]** in de rechterbovenhoek en selecteer vervolgens **[!UICONTROL Work List]** . U kunt het menu ook gebruiken om naar bovenliggende objecten te navigeren.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![ Terugkeer aan de Lijst van het Werk ](assets/go-back-to-work-list-350x314.png)
 
 1. Selecteer het werkitem dat u wilt weergeven.
 
@@ -134,17 +134,17 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >
    >Gebruik het pictogram **[!UICONTROL Menu]** om naar de bovenliggende objecten van het werkitem te gaan.
 
-1. Klik op het pictogram **[!UICONTROL Document]** ![](assets/documents.png) op de navigatiebalk en dubbelklik vervolgens op een proefdruk.
+1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1} Document ](assets/documents.png) in de navigatiebar, dan klik op een proef tweemaal.![
 
 1. Blader naar de onderkant om de huidige status van de proefdruk weer te geven. Voor meer informatie over Verzonden, Geopende, Commentaar, Besluit (SOCD) details, zie [ Overzicht van de Details van het Document ](/help/quicksilver/documents/managing-documents/document-details-overview.md).
 
-![](assets/proof-status.png)
+![ status van het Bewijs ](assets/proof-status.png)
 
 ## Subtaken en problemen weergeven
 
 1. Klik op het pictogram **[!UICONTROL Menu]** in de rechterbovenhoek en selecteer vervolgens **[!UICONTROL Work List]** . U kunt het menu ook gebruiken om naar bovenliggende objecten te navigeren.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![ Terugkeer aan de Lijst van het Werk ](assets/go-back-to-work-list-350x314.png)
 
 1. Selecteer het werkitem dat u wilt weergeven.
 
@@ -152,9 +152,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >
    >Gebruik het pictogram **[!UICONTROL Menu]** om naar de bovenliggende objecten van het werkitem te gaan.
 
-1. Klik het **[!UICONTROL Issue]** pictogram ![](assets/issues.png) of **Subtask** pictogram ![](assets/subtasks.png).
+1. Klik het **[!UICONTROL Issue]** pictogram ![ pictogram van Kwesties ](assets/issues.png) of **subtask** pictogram ![ Subtask pictogram ](assets/subtasks.png).
 
-1. Selecteer de taak of het probleem en klik op het pictogram **[!UICONTROL Details]** ![](assets/details.png) op de navigatiebalk om het weer te geven:
+1. Selecteer de taak of de kwestie, dan klik het **[!UICONTROL Details]** pictogram ![ Details ](assets/details.png) in de navigatiebar aan mening:
 
    * [!UICONTROL Planned Completion Date]
    * [!UICONTROL Status]

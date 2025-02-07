@@ -6,9 +6,9 @@ description: U kunt  [!DNL Jira]  kwesties aan  [!DNL Adobe Workfront]  taken of
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
-source-git-commit: f2169acfbcbf6a1497bd35de01821a09c7b3d59c
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '1197'
+source-wordcount: '1199'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Als u een [!DNL Workfront] -taak automatisch wilt koppelen aan een [!DNL Jira] -
 
    Voor meer informatie over toegang tot taken, zie [ Toegang van de Verlening tot taken ](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md).
 
-1. Ga naar een project en selecteer **[!UICONTROL Tasks]** ![](assets/tasks-icon-in-left-panel-14x14.png) in het linkerdeelvenster.
+1. Ga naar een project en selecteer **[!UICONTROL Tasks]** ![ pictogram van Taken ](assets/tasks-icon-in-left-panel-14x14.png) in het linkerpaneel.
 
 1. Klikken **[!UICONTROL New Task]**
 

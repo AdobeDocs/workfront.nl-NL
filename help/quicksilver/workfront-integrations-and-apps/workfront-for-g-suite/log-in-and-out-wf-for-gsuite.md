@@ -7,9 +7,9 @@ description: Dit artikel beschrijft hoe te om in of uit de  [!DNL Adobe Workfron
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 8a91f1d9-bc67-4c27-a6c0-2482488c670b
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Voordat u zich kunt aanmelden of afmelden bij [!DNL Workfront for Google Workspa
 
 ## Aanmelden bij [!DNL Adobe Workfront for Google Workspace]
 
-1. Klik op het pictogram [!DNL Workfront] ![](assets/wf-lion-icon.png) in de zijbalk met invoegtoepassingen helemaal rechts van [!DNL Gmail] , [!DNL Google Calendar] of [!DNL Google Drive] . [!DNL Google Workspace]
+1. Klik het [!DNL Workfront] pictogram van Workfront ![ pictogram ](assets/wf-lion-icon.png) in [!DNL Google Workspace] toe:voegen-ons sidebar bij uiterst rechts van [!DNL Gmail], [!DNL Google Calendar], of [!DNL Google Drive].
 
    Als u zojuist de invoegtoepassing [!DNL Workfront for Google Workspace] hebt geïnstalleerd en dit pictogram niet wordt weergegeven, kunt u de browserpagina vernieuwen.
 
@@ -66,7 +66,7 @@ Voordat u zich kunt aanmelden of afmelden bij [!DNL Workfront for Google Workspa
 
 ## Afmelden bij [!DNL Workfront for Google Workspace]
 
-1. Als het deelvenster [!UICONTROL Workfront for Google Workspace] niet wordt weergegeven, klikt u op het [!DNL Workfront] pictogram ![](assets/wf-lion-icon.png) in de zijbalk met invoegtoepassingen uiterst rechts op de pagina. [!DNL Google Workspace]
+1. Als het [!UICONTROL Workfront for Google Workspace] paneel niet wordt getoond, klik het [!DNL Workfront] pictogram ![ pictogram van Workfront ](assets/wf-lion-icon.png) in [!DNL Google Workspace] toe:voegen-ons sidebar bij uiterst rechts van de pagina.
 1. Klik op het pictogram **[!UICONTROL More actions]** boven in het deelvenster [!DNL Workfront for Google Workspace] .
 
 1. Klik op **[!UICONTROL Logout]** in het menu dat wordt weergegeven.

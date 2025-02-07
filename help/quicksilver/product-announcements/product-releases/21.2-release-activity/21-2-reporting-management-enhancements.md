@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1d5f76ef-bea7-4630-8051-454b0d109341
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Om de moderne blik van andere gebieden in de nieuwe ervaring van Workfront aan t
 
 Voor meer informatie over taken in lijsten, zie [ taken toewijzen ](../../../manage-work/tasks/assign-tasks/assign-tasks.md) of [ kwesties toewijzen ](../../../manage-work/issues/manage-issues/assign-issues.md).
 
-![](assets/assignments-updates-350x193.png)
+![ de updates van Taken ](assets/assignments-updates-350x193.png)
 
 ## Nieuwe vormgeving voor typekop-kopvelden in bijgewerkte lijsten en rapporten
 
@@ -64,7 +64,7 @@ Om de moderne blik van andere gebieden in de nieuwe ervaring van Workfront aan t
 
 Voor informatie over bijgewerkte lijsten, zie het [ verschil tussen de bijgewerkte en erfenislijsten ](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) sectie in het artikel [ begonnen worden met lijsten in Adobe Workfront ](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-![](assets/typeahead-updates-350x336.png)
+![ gebied Typeahead ](assets/typeahead-updates-350x336.png)
 
 ## Rapport over systeemupdates
 

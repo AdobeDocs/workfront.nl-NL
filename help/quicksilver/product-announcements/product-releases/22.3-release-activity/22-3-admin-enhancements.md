@@ -6,9 +6,9 @@ draft: false
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4607703a-d70e-432c-9fa2-bd43af5a870e
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -96,7 +96,7 @@ Voor meer informatie, zie [ systeem-brede projectvoorkeur ](/help/quicksilver/ad
 
 ## Een groep deactiveren op de pagina Groepen
 
-Onlangs hebben we de mogelijkheid toegevoegd om groepen te deactiveren en opnieuw te activeren. Om die actie sneller en gemakkelijker te maken, hebben wij het aan de pagina van een groep toegevoegd. Nadat u op de naam van een groep hebt geklikt om naar de bijbehorende pagina te gaan, kunt u het menu Meer ![](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/assets/main-menu-icon.png) naast de naam van de groep selecteren en vervolgens Deactiveren of Opnieuw activeren selecteren.
+Onlangs hebben we de mogelijkheid toegevoegd om groepen te deactiveren en opnieuw te activeren. Om die actie sneller en gemakkelijker te maken, hebben wij het aan de pagina van een groep toegevoegd. Nu, nadat u de naam van een groep klikt om naar zijn pagina te gaan, kunt u het Meer menu ![ Belangrijkste menupictogram ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/assets/main-menu-icon.png) naast de naam van de groep selecteren, dan Deactiveren of Reactivate selecteren.
 
 Eerder kon u een groep alleen deactiveren of opnieuw activeren met het selectievakje Is actief op de pagina Details.
 

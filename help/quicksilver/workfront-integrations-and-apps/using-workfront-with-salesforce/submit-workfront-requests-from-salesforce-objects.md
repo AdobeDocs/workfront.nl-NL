@@ -6,9 +6,9 @@ description: Na het installeren van  [!DNL Adobe Workfront]  voor  [!DNL Salesfo
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 84f8cb15-4840-4fe1-bf60-93bc4283b564
-source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '519'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ Als u een [!DNL Workfront] -aanvraag van een [!DNL Salesforce] Opportunity of Ac
 
    >[!NOTE]
    >
-   >Verzoeken die naar deze aanvraagwachtrij in de webtoepassing worden verzonden, worden niet weergegeven in deze lijst in Salesforce.
+   >Aanvragen die in de webtoepassing naar deze wachtrij met aanvragen worden verzonden, worden niet in deze lijst in Salesforce weergegeven.
 
    ![ salesforce_submitted_Requests.png ](assets/salesforce-submitted-requests-350x58.png)
 
@@ -107,8 +107,8 @@ Als u een [!DNL Workfront] -aanvraag van een [!DNL Salesforce] Opportunity of Ac
 1. (Optioneel) Klik op **[!UICONTROL Go to [!DNL Salesforce]]** om toegang te krijgen tot de Opportunity or Account waar het probleem is ontstaan in de volgende Workfront-regio&#39;s:
 
    * In de sectie [!UICONTROL Details] van het probleem
-   * Klik in het deelvenster Samenvatting nadat u op [!UICONTROL Open Summary] ![](assets/summary-panel-icon.png) op de werkbalk van de lijst hebt geklikt om het probleem in een lijst te selecteren.
-   * Wanneer het veld [!UICONTROL Integrations] beschikbaar is in de uitgiftekop. Uw systeem- of groepsbeheerder moet het veld [!UICONTROL Integrations] toevoegen aan uw lay-outsjabloon om de koppeling Ga naar Salesforce weer te geven in de uitgiftheader. Voor meer informatie, zie [ objecten kopballen aanpassen gebruikend een lay-outmalplaatje ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+   * In het Summiere paneel wanneer het selecteren van de kwestie in een lijst, na het klikken [!UICONTROL Open Summary] ![ Summiere het paneelpictogram van de Samenvatting ](assets/summary-panel-icon.png) in de toolbar van de lijst.
+   * Wanneer het veld [!UICONTROL Integrations] beschikbaar is in de uitgiftekop. Uw systeem- of groepsbeheerder moet het veld [!UICONTROL Integrations] toevoegen aan uw lay-outsjabloon om de koppeling Ga naar Salesforce in de uitgiftheader weer te geven. Voor meer informatie, zie [ objecten kopballen aanpassen gebruikend een lay-outmalplaatje ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
    >[!NOTE]
    >

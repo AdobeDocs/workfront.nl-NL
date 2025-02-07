@@ -6,7 +6,7 @@ description: We brengen twee wijzigingen aan in de manier waarop Adobe Workfront
 author: Luke
 feature: Product Announcements
 exl-id: 9110f04d-b7a9-428b-928c-c4eb746fec3f
-source-git-commit: 1bc7334423c567ef5f7fd9bcbc28de267e035c0a
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 0%
@@ -19,11 +19,11 @@ We brengen twee wijzigingen aan in de manier waarop Adobe Workfront e-mail verze
 
 ## Uitgaande e-mail van Workfront
 
-Om ervoor te zorgen dat e-mails met succes worden geleverd, elimineren we spoofing van e-mailberichten, die vaak als spam worden gelabeld (zie E-mailspoofing). Alle e-mailberichten van Workfront worden verzonden van notifications@my.workfront.com, inclusief zowel automatische waarschuwingen als gebruikerscommunicatie. Een voorbeeld-e-mail van Joan Harris ziet er zo uit in het gebied van uw e-mail:
+Om ervoor te zorgen dat e-mails met succes worden geleverd, elimineren we spoofing van e-mailberichten, die vaak als spam worden gelabeld (zie E-mailspoofing). Alle e-mailberichten van Workfront worden vanuit `notifications@my.workfront.com` verzonden, inclusief zowel automatische waarschuwingen als gebruikerscommunicatie. Een voorbeeld-e-mail van Joan Harris ziet er zo uit in het gebied van uw e-mail:
 
-![](assets/noreply.png)
+![ E-mail van het Voorbeeld ](assets/noreply.png)
 
-*wij adviseren hoogst dat u uit naar uw team van IT* reist om ervoor te zorgen dat e-mail van notifications@my.workfront.com niet voor inkomende e-mail aan uw systeem zal worden geblokkeerd. U kunt [ ook van verwijzingen voorzien vormt de lijst van gewenste personen van uw firewall ](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) voor details over welke IP adressen ons verkeer en e-mail uit komen.
+*wij adviseren hoogst dat u uit aan uw team van IT* reist om ervoor te zorgen dat e-mail van `notifications@my.workfront.com` niet voor inkomende e-mail aan uw systeem zal worden geblokkeerd. U kunt [ ook van verwijzingen voorzien vormt de lijst van gewenste personen van uw firewall ](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) voor details over welke IP adressen ons verkeer en e-mail uit komen.
 
 ## Binnenkomende e-mailantwoorden op meldingen (POP-antwoord)
 

@@ -7,9 +7,9 @@ description: U kunt een bestaand project, een bestaande taak of een bestaand pro
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 2ac392f5-98a3-4ab6-a0e3-cda378f0f68b
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Voordat u een [!DNL Workfront] -item kunt bijwerken met e-mailinhoud uit [!DNL G
 
 ## Een [!DNL Workfront] -item bijwerken met e-mailinhoud uit [!DNL Google Workspace]
 
-1. Als het deelvenster [!UICONTROL Workfront for Google Workspace] niet wordt weergegeven, klikt u op het Workfront-pictogram ![](assets/wf-lion-icon.png) in de zijbalk met invoegtoepassingen uiterst rechts op de pagina. [!DNL Google Workspace]
+1. Als het [!UICONTROL Workfront for Google Workspace] paneel niet wordt getoond, klik het pictogram van Workfront ![ Workfront ](assets/wf-lion-icon.png) in [!DNL Google Workspace] toe:voegen-ons sidebar bij uiterst rechts van de pagina.
 1. Open het e-mailbericht in [!DNL Google Workspace] en klik op **[!UICONTROL Post as a new update]** in het deelvenster [!DNL Google Workspace] .
 1. Klik onder **[!UICONTROL Type]** op de vervolgkeuzepijl en klik vervolgens op het type object waar u de update wilt toevoegen.
 1. Klik op de optie **[!UICONTROL Search for]** , typ de naam van het object waaraan u de update wilt toevoegen en selecteer het item wanneer dit in de onderstaande lijst wordt weergegeven.

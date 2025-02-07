@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 67fc34dc-0722-4419-8254-0371ad5abfc3
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Sommige objecten in Adobe Workfront maken het mogelijk tekst met opmaak op te sl
 
 Een douanegebied met rijk-text het formatteren wordt genoemd **Gebied met rijke tekst** en kan de volgende waarden verbonden aan het hebben:
 
-![](assets/rich-text-example-350x158.png)
+![ Rich- tekstvoorbeeld ](assets/rich-text-example-350x158.png)
 
 **Voorbeeld:** een basisverzoek van de GET om de waarde van het gebied van de douanevorm **Gebied met rijke tekst** terug te winnen:
 
@@ -48,7 +48,7 @@ Een blok is een JSON-object dat een enkele regel opgemaakte tekst vertegenwoordi
 
 **Voorbeeld:** hier, wijst elke lijn van tekst van een douanegebied aan een blokelement in de serieblokken toe
 
-![](assets/copy-of-rich-text-mapping-350x159.png)
+![ rijke tekstafbeelding ](assets/copy-of-rich-text-mapping-350x159.png)
 
 Aangezien elk blokelement ook een voorwerp JSON is, is elk blok samengesteld uit de elementen: **sleutel**, **tekst**, **type**, **diepte**, **inlineStyleRanges**, **entityRanges**, en **gegevens**. Elk van deze elementen werkt als volgt:
 
@@ -61,7 +61,7 @@ Aangezien elk blokelement ook een voorwerp JSON is, is elk blok samengesteld uit
 
 **Voorbeeld:** hier is een array inlineStyleRanges die elke stijl op het karakterniveau beschrijft. In dit geval: 9 karakters (lengte: 9) die van index 0 (offset: 0) beginnen hadden de stijl **Vet** toegepast:
 
-![](assets/copy-of-rich-text-mapping-2-350x136.png)
+![ rijke tekstafbeelding ](assets/copy-of-rich-text-mapping-2-350x136.png)
 
 Wanneer meerdere typen opmaak zijn toegepast op één regel, worden stijlen toegewezen aan extra elementen in de** inlineStyleRanges**-array.
 

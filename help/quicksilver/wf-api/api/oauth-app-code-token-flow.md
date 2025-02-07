@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a1ab60c4-4255-4d80-87f1-f36d325254c2
-source-git-commit: e41b0df5ee0ce092f0811b18c57f6865bbb3abee
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '726'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ De externe toepassing kan configuratie vereisen. De volgende lijst bevat informa
 
 ## Stroom van machtigingscode instellen
 
-![](assets/oauth-2-authorization-code-flow.png)
+![ OAuth codestroom ](assets/oauth-2-authorization-code-flow.png)
 
 Om uw gebruikers binnen met OAuth2 te registreren, gebruik het volgende proces:
 
@@ -93,7 +93,7 @@ Om uw gebruikers binnen met OAuth2 te registreren, gebruik het volgende proces:
 
    Als de gebruiker al is aangemeld bij Workfront op dezelfde browser of als de gebruiker zich met succes heeft aangemeld bij Workfront, wordt de gebruiker omgeleid naar het instemmingsscherm:
 
-   ![](assets/consent-screen-350x227.png)
+   ![ Consent scherm ](assets/consent-screen-350x227.png)
 
 1. Als de gebruiker de toegang toestaat, wordt de pagina omgeleid naar `redirect_url`. Het omleiden moet de volgende vraagparameters omvatten:
 
@@ -172,7 +172,7 @@ Om uw gebruikers binnen met OAuth2 te registreren, gebruik het volgende proces:
 
 ## Toegangstoken vernieuwen instellen
 
-![](assets/refresh-access-token-flow-350x142.png)
+![ verfrist de stroom van het toegangstoken ](assets/refresh-access-token-flow-350x142.png)
 
 Om access_token te verfrissen moeten wij opnieuw een &quot;POST&quot;vraag aan het symbolische eindpunt doen. Deze keer sturen we een andere formuliergegevens als volgt:
 

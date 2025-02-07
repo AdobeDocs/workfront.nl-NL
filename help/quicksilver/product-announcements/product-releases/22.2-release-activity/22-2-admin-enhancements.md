@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 55fb0b85-937d-4903-8a64-6f627dd4291f
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '934'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Eerder waren aangepaste formulieren volledig gebaseerd op tekst.
 
 ## Nieuwe standaardconfiguraties op toegangsniveau
 
-Om beter aan de behoeften van de meeste beheerders aan te passen die nieuwe toegangsniveaus creëren, hebben wij de standaardconfiguratie voor de &quot;verfijnen uw montages&quot;hieronder vermelde opties veranderd. Deze worden weergegeven wanneer u op het tandwielpictogram ![](assets/gear-icon-in-access-levels.png) op de knop Bewerken klikt.
+Om beter aan de behoeften van de meeste beheerders aan te passen die nieuwe toegangsniveaus creëren, hebben wij de standaardconfiguratie voor de &quot;verfijnen uw montages&quot;hieronder vermelde opties veranderd. Deze vertoning wanneer u het tandwielpictogram van de Niveaus van de Toegang ](assets/gear-icon-in-access-levels.png) op een Edit knoop klikt.![
 
 Met al deze wijzigingen wordt een optie uitgeschakeld die eerder standaard was ingeschakeld. Als dit niet aan de behoeften van uw organisatie past, kunt u hen toelaten wanneer u opstelling een nieuw toegangsniveau, of om het even welk tijd later.
 
@@ -100,7 +100,7 @@ Wanneer u een blauwdruk installeert, toont een bericht nu de specifieke voorwerp
 
 Voor meer informatie, zie [ een blauwdruk ](../../../administration-and-setup/blueprints/blueprints-install.md) installeren.
 
-![](assets/blueprints-installation-history-350x95.png)
+![ de installatiegeschiedenis van blauwdrukken ](assets/blueprints-installation-history-350x95.png)
 
 ## Er wordt nu een waarschuwing weergegeven wanneer u een alleen voorbeeldontwerp in productie installeert
 

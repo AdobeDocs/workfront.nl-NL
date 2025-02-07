@@ -1,19 +1,19 @@
 ---
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-slack
-title: Een opmerking van een Slack als een update Post
+title: Opmerkingen van Slacks als een update plaatsen
 description: U kunt een opmerking van een Slack toevoegen als een update voor een bepaald project, een bepaalde taak of een specifieke uitgave in Adobe Workfront.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 18b22f2c-2490-41e2-afb9-0551f9579973
-source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
 
-# Een [!DNL Slack] -opmerking Post als een update
+# [!DNL Slack] opmerkingen als een update plaatsen
 
 U kunt een [!DNL Slack] -opmerking toevoegen als een update voor een bepaald project, een bepaalde taak of een bepaalde uitgave in [!DNL Adobe Workfront] .
 
@@ -43,7 +43,7 @@ Voordat u een [!DNL Slack] -opmerking kunt plaatsen als een update, moet u
 * Configureren [!DNL Workfront for Slack]\
    Voor instructies bij het vormen [!DNL Workfront for Slack], zie [ vormen  [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
-## Een [!DNL Slack] -opmerking Post als een update in [!DNL Workfront]
+## [!DNL Slack] -opmerkingen als een update plaatsen in [!DNL Workfront]
 
 1. Houd de cursor boven een opmerking die u in een [!DNL Slack] -kanaal hebt toegevoegd en klik op het pictogram **[!UICONTROL More actions]** (met drie punten).
 
@@ -64,4 +64,4 @@ Voordat u een [!DNL Slack] -opmerking kunt plaatsen als een update, moet u
 
    Wanneer een opmerking afkomstig is uit [!DNL Slack] , wordt het bericht &quot; [!UICONTROL Posted from [!DNL Slack]]&quot; weergegeven in [!DNL Workfront] .
 
-   ![](assets/slack-update-posted-from-slack-350x112.png)
+   ![ gepost Update van Slack ](assets/slack-update-posted-from-slack-350x112.png)

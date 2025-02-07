@@ -6,9 +6,9 @@ description: U kunt uw werk bijwerken met de Adobe Workfront-insteekmodule.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 865beaa8-a585-4bdd-9d04-b5fbdf40748c
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
@@ -86,11 +86,11 @@ Een update plaatsen:
 
 1. Klik op het pictogram **[!UICONTROL Menu]** in de rechterbovenhoek en selecteer vervolgens **[!UICONTROL Work List]** . U kunt het menu ook gebruiken om naar bovenliggende objecten te navigeren.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![ Terugkeer aan de Lijst van het Werk ](assets/go-back-to-work-list-350x314.png)
 
 1. Selecteer in het **[!UICONTROL Work List]** het werkitem waarnaar u een update wilt posten.
 1. Klik op **[!UICONTROL Update]** in de navigatiebalk.\
-   ![](assets/photoshop-update-350x295.png)
+   ![ de update van Photoshop ](assets/photoshop-update-350x295.png)
 
 1. Klik op **[!UICONTROL New Update]**.
 1. Typ de update.

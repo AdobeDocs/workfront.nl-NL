@@ -3,13 +3,13 @@ content-type: overview
 product-area: workfront-integrations
 navigation-topic: workfront-for-salesforce
 title: Overzicht Adobe Workfront for Salesforce
-description: U kunt  [!DNL Adobe Workfront]  voor Salesforce installeren om uw gebruikers toe te staan Salesforce om  [!DNL Workfront]  verzoeken voor te leggen en automatisch projecten tot stand te brengen zonder ooit Salesforce te verlaten.
+description: U kunt  [!DNL Adobe Workfront]  voor Salesforce installeren om uw gebruikers van Salesforce toe te staan om  [!DNL Workfront]  verzoeken voor te leggen en automatisch projecten tot stand te brengen zonder ooit Salesforce te verlaten.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 65d4cdae-1d34-4a8a-a1c0-706cd41fc75e
-source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -72,13 +72,13 @@ Houd rekening met het volgende wanneer u werkt met [!DNL Workfront] for [!DNL Sa
 
   U kunt geen informatie weergeven over de [!DNL Salesforce] items in [!DNL Workfront] , maar u hebt een koppeling naar het [!UICONTROL Salesforce] -item in [!DNL Workfront] om deze te bekijken in [!DNL Salesforce] .
 
-  [!UICONTROL The **ga naar Salesforce**] verbindingsvertoningen in de volgende gebieden:
+  [!UICONTROL The **ga naar de verbindingsvertoningen van Salesforce**] op de volgende gebieden:
 
    * De [!UICONTROL Details] -sectie van een project of uitgave
    * De kopbal van een project of een kwestie.
 
      Uw systeem- of groepsbeheerder moet het veld [!UICONTROL Integrations] toevoegen aan uw lay-outsjabloon om de koppeling [!UICONTROL Go to Salesforce] weer te geven in de project- of uitgiftheader.
-   * Het deelvenster [!DNL Summary] van een probleem wanneer u een probleem in een lijst selecteert nadat u op [!UICONTROL Open Summary] ![](assets/summary-panel-icon.png) op de werkbalk van de lijst hebt geklikt.
+   * Het [!DNL Summary] paneel van een kwestie wanneer het selecteren van de kwestie in een lijst, na het klikken [!UICONTROL Open Summary] ![ Summiere paneelpictogram ](assets/summary-panel-icon.png) in de toolbar van de lijst.
 
      >[!NOTE]
      >

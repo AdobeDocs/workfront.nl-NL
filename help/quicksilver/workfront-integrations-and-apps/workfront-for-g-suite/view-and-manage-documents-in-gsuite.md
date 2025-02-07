@@ -7,9 +7,9 @@ description: U kunt documenten bekijken en leiden verbonden aan a  [!DNL Adobe W
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 20c9e1a6-fce0-44a2-a4c3-f89c94db6635
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Voordat u [!DNL Workfront] -documenten kunt weergeven of beheren in [!DNL Google
 
 ## [!DNL Workfront] -documenten weergeven en beheren in [!DNL Google Workspace]
 
-1. Als het deelvenster [!UICONTROL Workfront for Google Workspace] niet wordt weergegeven, klikt u op het [!DNL Workfront] pictogram ![](assets/wf-lion-icon.png) in de zijbalk met invoegtoepassingen uiterst rechts op de pagina. [!DNL Google Workspace]
+1. Als het [!UICONTROL Workfront for Google Workspace] paneel niet wordt getoond, klik het [!DNL Workfront] pictogram ![ pictogram van Workfront ](assets/wf-lion-icon.png) in [!DNL Google Workspace] toe:voegen-ons sidebar bij uiterst rechts van de pagina.
 1. Ga naar de [!DNL Workfront] taak of kwestie binnen [!DNL Google Workspace], zoals die in [ wordt beschreven Toegang  [!DNL Adobe Workfront] [!UICONTROL Home] inhoud van  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md).
 1. Klik op **[!UICONTROL Documents]**.
 
@@ -68,11 +68,11 @@ Voordat u [!DNL Workfront] -documenten kunt weergeven of beheren in [!DNL Google
 
    Als u informatie over het posten van updates of antwoorden nodig hebt, zie [ Update a  [!DNL Adobe Workfront]  voorwerp van  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md).
 
-1. (Optioneel) Klik op het pictogram **[!UICONTROL Download]** ![](assets/download-icon.png) om een document in de lijst te downloaden.
+1. (Facultatief) klik het **[!UICONTROL Download]** pictogram ![ pictogram van de Download ](assets/download-icon.png) om een document in de lijst te downloaden.
 
    of
 
-   Als het document is opgeslagen op een cloud-station, klikt u op het pictogram **[!UICONTROL Open]** ![](assets/open-icon.png) .
+   Als het document op een wolkenaandrijving wordt bewaard, klik het **[!UICONTROL Open]** pictogram ![ Open pictogram ](assets/open-icon.png).
 
 1. Klik op **[!UICONTROL View in Workfront]** om naar de pagina Documentdetails voor het document in [!DNL Workfront] te gaan.
 

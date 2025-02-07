@@ -6,9 +6,9 @@ description: U kunt tijd voor projecten, taken, en kwesties registreren u werkt 
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 4c5bd7ca-18f2-4a47-9e79-c39d5852aab5
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
@@ -68,16 +68,16 @@ U kunt als volgt de tijd vastleggen met de Workfront-insteekmodule:
 
 1. Klik op het pictogram **[!UICONTROL Menu]** in de rechterbovenhoek en selecteer vervolgens **[!UICONTROL Work List]** . U kunt het menu ook gebruiken om naar bovenliggende objecten te navigeren.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![ Terugkeer aan de Lijst van het Werk ](assets/go-back-to-work-list-350x314.png)
 
 1. Selecteer in het **[!UICONTROL Work List]** het werkitem waarnaar u zich wilt aanmelden.
 1. Klik op **[!UICONTROL Time]** in de navigatiebalk.
 
-   ![](assets/log-time-350x337.png)
+   ![ tijd van het Logboek ](assets/log-time-350x337.png)
 
 1. (Optioneel) Kies de optie **[!UICONTROL Hour Type]** in de keuzelijst.
 1. Voer de tijd in uren in voor de dag die u nodig hebt.
 
-   ![](assets/copy-of-log-hours-350x236.png)
+   ![ de uren van het Logboek ](assets/copy-of-log-hours-350x236.png)
 
 1. Klik op **[!UICONTROL Submit]**.

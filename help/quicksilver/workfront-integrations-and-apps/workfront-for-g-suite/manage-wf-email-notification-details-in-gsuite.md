@@ -7,9 +7,9 @@ description: In Google Workspace, wanneer u een bericht e-mailbericht  [!DNL Wor
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: d5ca31d8-3667-4405-a523-3dc248a94746
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '420'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Voordat u meldingsgegevens kunt beheren vanuit [!DNL Google Workspace] , moet u
 
 ## [!DNL Adobe Workfront] -meldingsgegevens beheren vanuit [!DNL Google Workspace]
 
-1. Als het deelvenster [!DNL Workfront for Google Workspace] niet wordt weergegeven, klikt u op het [!DNL Workfront] pictogram ![](assets/wf-lion-icon.png) in de zijbalk met invoegtoepassingen uiterst rechts op de pagina. [!DNL Google Workspace]
+1. Als het [!DNL Workfront for Google Workspace] paneel niet wordt getoond, klik het [!DNL Workfront] pictogram ![ pictogram van Workfront ](assets/wf-lion-icon.png) in [!DNL Google Workspace] toe:voegen-ons sidebar bij uiterst rechts van de pagina.
 1. Open in [!DNL Google Workspace] een [!DNL Workfront] -meldingsbericht.
 1. Klik op **[!UICONTROL View all updates]** als deze boven in het deelvenster wordt weergegeven.
 1. Klik op **[!UICONTROL Details]**.

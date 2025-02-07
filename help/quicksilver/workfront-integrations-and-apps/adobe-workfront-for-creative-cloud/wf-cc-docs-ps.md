@@ -6,9 +6,9 @@ description: U kunt uw projecten uploaden als documenten voor een snelle control
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d26850d8-9594-4848-b263-6f71e6c52e9b
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
@@ -64,10 +64,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klik op het pictogram **[!UICONTROL Menu]** in de rechterbovenhoek en selecteer vervolgens **[!UICONTROL Work List]** . U kunt het menu ook gebruiken om naar bovenliggende objecten te navigeren.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![ Terugkeer aan de Lijst van het Werk ](assets/go-back-to-work-list-350x314.png)
 
 1. Ga naar het werkitem waar u een document wilt uploaden.
-1. Klik op het pictogram **[!UICONTROL Document]** ![](assets/documents.png) op de navigatiebalk.
+1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1} Document ](assets/documents.png) in de navigatiebar.![
 
 1. Klik op **[!UICONTROL New File]** onder aan de plug-in.
 1. Kies de **[!UICONTROL Asset Type]** in de vervolgkeuzelijst.

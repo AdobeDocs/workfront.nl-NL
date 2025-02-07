@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: dcb7dadb-4dd8-48da-a559-cbe8ad99ff9e
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
@@ -22,12 +22,12 @@ Wanneer u de Adobe Workfront Core API gebruikt, is de API Explorer een verouderd
 ## Open de API Explorer:
 
 1. Gebruik Webbrowser om aan de [ API Ontdekkingsreiziger ](https://developer.adobe.com/workfront/api-explorer/) te navigeren\
-   ![](assets/mceclip1-350x149.png)
+   ![ ga aan API Ontdekkingsreiziger ](assets/mceclip1-350x149.png)
 
 1. In het hogere recht van de API Ontdekkingsreiziger, selecteer de gewensteWorkfront **API Versie**, door gebrek wordt de huidigste versie automatisch geselecteerd
 1. Het **gebied van de Filter**, kan worden gebruikt om de voorwerpen te filtreren die door naam worden vermeld en zal de lijst van dienovereenkomstig getoonde voorwerpen beknotten:
 
-   ![](assets/mceclip2-350x147.png)
+   ![ API de gebieden van de Ontdekkingsreiziger ](assets/mceclip2-350x147.png)
 
    * **Gebieden**: Beschikbare gebieden binnen het gespecificeerde voorwerp.
    * **Verwijzingen**: Beschikbare verwijzingsvariabelen voor het gespecificeerde voorwerp. Een verwijzing is een alias voor een variabele. Na initialisatie kan een verwijzing worden gebruikt met de variabelenaam. Een verwijzing gebruikt geïnitialiseerd geheugen.
@@ -36,7 +36,7 @@ Wanneer u de Adobe Workfront Core API gebruikt, is de API Explorer een verouderd
    * **Acties**: De gesteunde acties voor het voorwerp. Handelingen kunnen eenvoudige of complexe procedures zijn die worden uitgevoerd met behulp van een bron of een reeks bronnen. Een bepaalde actie kan ook gevolgen hebben voor de bijbehorende middelen.
 
 1. Open een tabblad en klik vervolgens op Object-id om de toepasselijke variabelen weer te geven.\
-   ![](assets/approval-350x89.png)\
+   ![ variabelen van de Mening ](assets/approval-350x89.png)\
    Afhankelijk van het geselecteerde object kunnen de volgende variabelen worden toegepast:
 
    | Variabele | Definitie |

@@ -7,9 +7,9 @@ description: Wanneer u een bericht over een update in  [!DNL Adobe] [!DNL Workfr
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b39c53b5-02b6-4c13-9f25-83cb3e3096d8
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Voordat u een [!DNL Workfront] -taak kunt maken in [!DNL Google Workspace] , moe
 
 ## Reageren op een updatemelding van [!DNL Google Workspace]
 
-1. Als het deelvenster [!UICONTROL Workfront for Google Workspace] niet wordt weergegeven, klikt u op het [!DNL Workfront] pictogram ![](assets/wf-lion-icon.png) in de zijbalk met invoegtoepassingen uiterst rechts op de pagina. [!DNL Google Workspace]
+1. Als het [!UICONTROL Workfront for Google Workspace] paneel niet wordt getoond, klik het [!DNL Workfront] pictogram ![ pictogram van Workfront ](assets/wf-lion-icon.png) in [!DNL Google Workspace] toe:voegen-ons sidebar bij uiterst rechts van de pagina.
 1. Open het e-mailbericht van [!DNL Workfront] dat de update bevat.
 1. Klik onder aan het deelvenster [!UICONTROL Workfront for Google Workspace] op **[!UICONTROL Post a comment]** en typ vervolgens uw antwoord.
 1. (Optioneel) Als u bepaalde gebruikers op de hoogte wilt stellen van uw antwoord, klikt u op **[!DNL Notify people and teams]**, typt u een naam en klikt u vervolgens op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst.

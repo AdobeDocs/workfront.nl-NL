@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] [!DNL Outlook] toe:voegen-binnen laat u de
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: bcf03609e0503a5db0384fd573066467a1feb341
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
@@ -112,7 +112,7 @@ U kunt Workfront toe:voegen-binnen voor Vooruitzichten van de [ opslag van Micro
 
 ### [!DNL Workfront] for [!DNL Outlook 365] {#workfront-for-outlook-365}
 
-1. Klik in [!DNL Outlook 365] op het **[!UICONTROL Browse Add-ins]** pictogram ![](assets/outlook-add-in-26x26.png) boven aan de Office 365-interface en klik vervolgens op **[!UICONTROL Manage add-ins]** .
+1. In [!DNL Outlook 365], klik het **[!UICONTROL Browse Add-ins]** pictogram ![ doorbladert toe:voegen-ins ](assets/outlook-add-in-26x26.png) bij de bovenkant van de interface van Bureau 365, dan klik **[!UICONTROL Manage add-ins]**.
 
 1. Zoek in het vak **[!UICONTROL Search add-ins]** naar **[!DNL Workfront]** en druk op [!UICONTROL Enter] .
 
@@ -121,7 +121,7 @@ U kunt Workfront toe:voegen-binnen voor Vooruitzichten van de [ opslag van Micro
 ### [!DNL Workfront] for [!DNL Outlook] on the Web {#workfront-for-outlook-on-the-web}
 
 1. Open [!DNL Microsoft Outlook] in een webbrowser.
-1. Klik op het pictogram **[!UICONTROL Browse]add-ins** ![](assets/outlook-add-in-web-version-20x20.png) .
+1. Klik **[!UICONTROL Browse]toe:voegen-ins** pictogram ![ doorbladeren toe:voegen-ins ](assets/outlook-add-in-web-version-20x20.png).
 
    Om van het pictogram de plaats te bepalen, zie [ Gebruikend toe:voegen-ins in  [!DNL Outlook]  op het Web ](https://support.microsoft.com/en-us/office/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce#bkmk_addaddinsicon) in de documentatie van Microsoft.
 

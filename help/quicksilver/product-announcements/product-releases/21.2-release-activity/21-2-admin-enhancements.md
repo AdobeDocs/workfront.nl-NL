@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 7ae5a04a-a9bc-4a85-8651-2b912f7fd7e4
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '1521'
+source-wordcount: '1525'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ Om beheerders in het gebied van de Opstelling beter te oriënteren en consistent
 * Hiërarchiegegevens boven de naam van elke subpagina (bijvoorbeeld op de pagina voor één groep)
 * Moderne lettertypestijlen en -grootten
 
-  ![](assets/updated-headers-in-setup-02-29-21-350x214.png)
+  ![ Bijgewerkte kopballen in opstelling ](assets/updated-headers-in-setup-02-29-21-350x214.png)
 
 Voor meer informatie over het gebied van de Opstelling, zie [ Beleid en opstelling ](../../../administration-and-setup/administration-and-setup.md).
 

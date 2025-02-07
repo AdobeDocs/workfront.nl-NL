@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
 exl-id: 8b148684-28bf-40e8-8014-d6458c8d14e1
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
@@ -33,4 +33,4 @@ Voor het beheren van grote vervolgkeuzemenu&#39;s die alle gebruikers in het sys
 
 Eerder werden in alle vervolgkeuzelijsten voor het zoeken naar profielen alle gebruikers in het systeem weergegeven, waardoor een groot menu werd gemaakt.
 
-![](assets/user-profile-typeahead-350x142.png)
+![ het profieltypeahead van de Gebruiker ](assets/user-profile-typeahead-350x142.png)

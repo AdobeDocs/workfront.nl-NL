@@ -6,9 +6,9 @@ description: U kunt de Adobe Workfront for Photoshop-insteekmodule installeren v
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ U kunt de [!DNL Adobe Workfront for Photoshop] -insteekmodule voor uzelf install
 
 1. Klik in het bovenste menu op **[!UICONTROL Plugins]** > **[!UICONTROL Plugins Panel]** .
 
-   ![](assets/plugins-panel-ps.png)
+   ![ het paneel van Insteekmodules ](assets/plugins-panel-ps.png)
 
 1. Kies in **[!UICONTROL Plugins Panel]** de tab **[!UICONTROL Plugins]** en zoek **[!UICONTROL Workfront for Adobe Photoshop]** .
 
@@ -107,7 +107,7 @@ U kunt de [!DNL Adobe Workfront for Photoshop] -insteekmodule voor uzelf install
    >[!TIP]
    >
    >* Als u uw domein wilt zoeken, opent u een browser, navigeert u naar de instantie [!DNL Workfront] en kopieert u het eerste deel van de URL:\
-   >![](assets/domain-350x50.png)
+   >![ plaats van domein ](assets/domain-350x50.png)
    >
    > * Als uw Workfront-exemplaar is geïntegreerd met Experience Cloud, vraagt u uw beheerder om u het Workfront-domein te verschaffen dat u kunt vinden onder Product > Workfront in de Admin Console.
 

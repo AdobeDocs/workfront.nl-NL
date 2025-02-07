@@ -7,9 +7,9 @@ description: Op deze pagina worden alle verbeteringen beschreven die in de week 
 author: Luke
 feature: Product Announcements, Workfront Goals
 exl-id: 9596ff23-6dd7-4608-9655-410482d56663
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -38,4 +38,4 @@ Om de verwarring van het tonen van een leeg lusje te elimineren, hebben wij het 
 
 Voor informatie over welke informatievertoningen in de Doelen van Workfront, zie [ informatie van de Filter in de Doelen van Adobe Workfront ](../../../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
-![](assets/goals-page-with-no-my-teams-tab-350x114.png)
+![ pagina van Doelstellingen ](assets/goals-page-with-no-my-teams-tab-350x114.png)

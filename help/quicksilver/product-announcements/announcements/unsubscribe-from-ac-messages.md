@@ -6,9 +6,9 @@ description: Berichten van het Aankondigingscentrum zijn berichten die van Adobe
 author: Luke
 feature: Product Announcements
 exl-id: a9922e91-c58c-4c25-968c-ab70fa8d8916
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
@@ -25,16 +25,16 @@ Berichten van het Aankondigingscentrum zijn berichten die van Adobe Workfront na
 
 Om af te melden van het ontvangen van berichten van het Aankondigingscentrum:
 
-1. Klik op het genummerde pictogram ![](assets/notifications-icon-jewel.jpg) rechtsboven in Workfront om de lijst met meldingen te openen.
+1. Klik het genummerde pictogram ![ pictogram van Meldingen ](assets/notifications-icon-jewel.jpg) in de hoger-juiste hoek van Workfront om uw lijst van berichten te openen.
 1. Klik **Alle Mededelingen** bij de bodem van de lijst.
 
    De **pagina van Mededelingen** verschijnt, die van elk van uw aankondigingen een lijst maken.
 
-   ![](assets/announcements-page-qs-350x210.png)
+   ![ de pagina van Mededelingen ](assets/announcements-page-qs-350x210.png)
 
 1. Klik **Montages** in de hoger-juiste hoek van de pagina van Mededelingen, dan selecteren **Nieuwe Versies** of **Opleiding**, afhankelijk van het type van aankondigingen u niet meer wilt ontvangen.
 
-   ![](assets/announcementcenter-settings-350x187.png)
+   ![ montages van het het centrum van de Aankondiging ](assets/announcementcenter-settings-350x187.png)
 
 1. Klik **sparen Montages**.
 

@@ -8,9 +8,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 7ac2c6c8-1cb8-49df-8d63-a6b47ad02a13
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '3620'
+source-wordcount: '3627'
 ht-degree: 0%
 
 ---
@@ -851,10 +851,10 @@ name=Folder B ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­
 (Releasedatum - TBD) Met dit eindpunt kan een Workfront-gebruiker (of misschien een geautomatiseerde workflowgebeurtenis) een actie uitvoeren in het externe systeem. Het /customAction eindpunt keurt een &quot;naam&quot;parameter goed, die de websiteleverancier toestaat om veelvoudige douaneverrichtingen uit te voeren.
 
 De websiteleverancier registreert douaneacties met Workfront door de acties in de /serviceInfo reactie onder customActions te omvatten. Workfront laadt deze lijst bij het instellen of vernieuwen van de websiteprovider onder Instellen > Documenten > Aangepaste integratie.\
-![](assets/mceclip0-350x262.png)
+![ voer een douaneactie ](assets/mceclip0-350x262.png) uit
 
 Gebruikers kunnen de aangepaste handeling activeren door de sectie onder &quot;Documenthandelingen&quot; te selecteren\
-![](assets/mceclip1-350x95.png)
+![ de douaneacties van de trekker ](assets/mceclip1-350x95.png)
 
 **URL**
 

@@ -6,9 +6,9 @@ description: U kunt uw tekengebieden uploaden als documenten die u snel kunt bek
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: e98f27d4-7c07-44cc-8df5-e04472ec946e
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
@@ -64,10 +64,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klik op het pictogram **[!UICONTROL Menu]** in de rechterbovenhoek en selecteer vervolgens **[!UICONTROL Work List]** . U kunt het menu ook gebruiken om naar bovenliggende objecten te navigeren.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![ Terugkeer aan de Lijst van het Werk ](assets/go-back-to-work-list-350x314.png)
 
 1. Ga naar het werkitem waar u een proefdruk wilt uploaden.
-1. Klik op het pictogram **[!UICONTROL Document]** ![](assets/documents.png) op de navigatiebalk.
+1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1} Document ](assets/documents.png) in de navigatiebar.![
 1. Klik op **[!UICONTROL New File]** onder aan de plug-in.
 1. Schakel de **[!UICONTROL Create a proof]** -schakeloptie in.
 1. (Optioneel) Typ een naam voor de proefdruk in het tekstvak **[!UICONTROL Proof Name]** .
@@ -75,14 +75,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. (Optioneel) Voeg fiatteurs toe.
 1. (Optioneel) Typ een opmerking in het **[!UICONTROL Updates]** -gebied.
 
-   ![](assets/add-comment.png)
+   ![ voeg een commentaar ](assets/add-comment.png) toe
 
 1. Kies de **[!UICONTROL Asset Type]** in de vervolgkeuzelijst.
 
 1. (Optioneel) Selecteer **[!UICONTROL Add outside file]** om een bestand van uw computer toe te voegen.
 1. Klik op **[!UICONTROL Upload]** en configureer de gewenste exportopties op basis van het hierboven gekozen elementtype.
 
-   ![](assets/plugin-files-350x307.png)\
+   ![ Dossiers in plugin ](assets/plugin-files-350x307.png)\
    Het document wordt weergegeven in het gebied [!UICONTROL Documents] in de plug-in en de bureaubladtoepassing.
 
 
@@ -90,10 +90,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klik op het pictogram **[!UICONTROL Menu]** in de rechterbovenhoek en selecteer vervolgens **[!UICONTROL Work List]** . U kunt het menu ook gebruiken om naar bovenliggende objecten te navigeren.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![ Terugkeer aan de Lijst van het Werk ](assets/go-back-to-work-list-350x314.png)
 
 1. Ga naar het werkitem waar u een proefdruk wilt uploaden.
-1. Klik op het pictogram **[!UICONTROL Document]** ![](assets/documents.png) op de navigatiebalk.
+1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1} Document ](assets/documents.png) in de navigatiebar.![
 
 1. Klik op **[!UICONTROL New File]** onder aan de plug-in.
 1. Schakel de **[!UICONTROL Create a proof]** -schakeloptie in.
@@ -110,7 +110,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. (Optioneel) Typ een opmerking in het **[!UICONTROL Updates]** -gebied.
 
-   ![](assets/add-comment-automated-approval.png)
+   ![ voeg commentaar aan geautomatiseerde goedkeuring toe ](assets/add-comment-automated-approval.png)
 
 1. Kies de **[!UICONTROL Asset Type]** in de vervolgkeuzelijst.
 1. (Optioneel) Selecteer **[!UICONTROL Add outside file]** om een bestand van uw computer toe te voegen.
@@ -123,10 +123,10 @@ U kunt een nieuwe versie van een proefdruk uploaden. De plug-in onthoudt de test
 
 1. Klik op het pictogram **[!UICONTROL Menu]** in de rechterbovenhoek en selecteer vervolgens **[!UICONTROL Work List]** . U kunt het menu ook gebruiken om naar bovenliggende objecten te navigeren.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![ Terugkeer aan de Lijst van het Werk ](assets/go-back-to-work-list-350x314.png)
 
 1. Ga naar het werkitem waarnaar u een document moet uploaden.
-1. Klik op het **[!UICONTROL Document]** pictogram ![](assets/documents.png) op de navigatiebalk.
+1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1} Document ](assets/documents.png) in de navigatiebar.![
 
 1. Klik op **[!UICONTROL New Version]** onder aan de plug-in.
 1. Schakel de **[!UICONTROL Create a proof]** -schakeloptie in.

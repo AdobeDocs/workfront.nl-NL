@@ -6,9 +6,9 @@ description: U kunt in Adobe Creative Cloud-toepassingen blijven en uw werk naad
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d94a2b10-51d5-4995-b7b3-793d7911fca9
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnem
 
 1. Klik op het pictogram **[!UICONTROL Menu]** in de rechterbovenhoek en selecteer vervolgens **[!UICONTROL Work List]** . U kunt het menu ook gebruiken om naar bovenliggende objecten te navigeren.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![ Terugkeer aan de Lijst van het Werk ](assets/go-back-to-work-list-350x314.png)
 
 1. Selecteer in het **[!UICONTROL Work List]** de taak of uitgave die u als voltooid wilt markeren.
 1. Klik op **[!UICONTROL Done]** .  Als u de enige gebruiker bent die aan deze taak of uitgave is toegewezen, markeert dit het item [!UICONTROL Complete] of [!UICONTROL Resolved] in [!DNL Workfront] .
@@ -75,6 +75,6 @@ Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnem
    >[!NOTE]
    >
    >Als het werkitem voorgangers heeft, is de knop Gereed grijs totdat deze voorgangers zijn gemarkeerd als voltooid. Als u voorgangers in [!DNL Workfront] wilt weergeven, klikt u op de naam van de taak.
-   >![](assets/navigate-to-workfront.png)
+   >![ ga aan Workfront ](assets/navigate-to-workfront.png)
 
-<!-- I dont think we need this one ![](assets/complete-work-350x529.png) -->
+<!-- I dont think we need this one ![Complete work](assets/complete-work-350x529.png) -->

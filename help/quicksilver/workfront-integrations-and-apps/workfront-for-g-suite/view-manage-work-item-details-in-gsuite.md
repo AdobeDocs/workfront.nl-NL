@@ -7,9 +7,9 @@ description: U kunt de details van een tijdelijk object weergeven en beheren zon
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 0f15b05f-3b4a-4f0b-9d9a-21a0f97de1ea
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Voordat u de details van het werkitem kunt weergeven en beheren in [!DNL Google 
 
 ## Details van het werkitem weergeven en beheren in [!DNL Google Workspace]
 
-1. Als het deelvenster [!UICONTROL Workfront for Google Workspace] niet wordt weergegeven, klikt u op het [!DNL Workfront] pictogram ![](assets/wf-lion-icon.png) in de zijbalk met invoegtoepassingen uiterst rechts op de pagina. [!DNL Google Workspace]
+1. Als het [!UICONTROL Workfront for Google Workspace] paneel niet wordt getoond, klik het [!DNL Workfront] pictogram ![ pictogram van Workfront ](assets/wf-lion-icon.png) in [!DNL Google Workspace] toe:voegen-ons sidebar bij uiterst rechts van de pagina.
 1. Ga naar de [!DNL Workfront] taak of kwestie binnen [!DNL Google Workspace], zoals die in [ wordt beschreven Toegang  [!DNL Adobe Workfront] [!UICONTROL Home] inhoud van  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md).
 
    Wanneer u een taak of uitgave selecteert, is het tabblad **[!UICONTROL Details]** geopend. In het gebied boven het tabblad **[!UICONTROL Details]** worden de naam van het bovenliggende object, de naam van de taak of uitgave en [!UICONTROL Due date] (als het een taak is) of [!UICONTROL Priority date] (als het een uitgave is) weergegeven.

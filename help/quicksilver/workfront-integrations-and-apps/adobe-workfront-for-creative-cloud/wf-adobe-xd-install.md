@@ -6,9 +6,9 @@ description: U kunt de Adobe Workfront for XD plug-in installeren via de Adobe M
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ U kunt de [!DNL Adobe Workfront for XD] -insteekmodule voor uzelf installeren va
 
 1. In de bodem-linkerhoek, klik het **Plugins** pictogram.
 
-![](assets/xd-plugin-window-350x620.png)
+![ XD insteekmodulevenster ](assets/xd-plugin-window-350x620.png)
 
 1. Zoek **[!UICONTROL Adobe Workfront for XD]** in de **[!UICONTROL Plugins Panel]** .
 
@@ -103,7 +103,7 @@ U kunt de [!DNL Adobe Workfront for XD] -insteekmodule voor uzelf installeren va
    >[!TIP]
    >
    >* Als u uw domein wilt zoeken, opent u een browser, navigeert u naar de instantie [!DNL Workfront] en kopieert u het eerste deel van de URL:\
-   >![](assets/domain-350x50.png)
+   >![ plaats van domein ](assets/domain-350x50.png)
    >
    > * Als uw Workfront-exemplaar is geïntegreerd met Experience Cloud, vraagt u uw beheerder om u het Workfront-domein te verschaffen dat u kunt vinden onder Product > Workfront in de Admin Console.
 

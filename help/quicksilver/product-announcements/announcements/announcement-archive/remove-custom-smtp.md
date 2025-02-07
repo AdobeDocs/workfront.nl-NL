@@ -6,9 +6,9 @@ description: Met de release van 20.3 (bedoeld voor augustus 2020) gaat Adobe Wor
 author: Luke
 feature: Product Announcements
 exl-id: 73abd185-81c6-43fc-b8b0-cad14d15b348
-source-git-commit: 9bc394c718becbac2848c2d91ba3202483699b6f
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Met de release van 20.3 (bedoeld voor augustus 2020) gaat Adobe Workfront over n
 
 Deze functie is toegankelijk door u aan te melden als systeembeheerder en te navigeren naar Setup > E-mail > Setup. Hier is een schermafbeelding die de functie markeert:
 
-![](assets/email-server-settings-350x226.png)
+![ de servermontages van de E-mail ](assets/email-server-settings-350x226.png)
 
 De instelling die in deze schermafbeelding wordt gemarkeerd, zal automatisch een overgang maken naar de optie Workfront Mail Server met de versie 20.3.
 

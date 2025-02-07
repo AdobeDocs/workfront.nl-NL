@@ -8,9 +8,9 @@ author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -97,4 +97,4 @@ De releaseopmerkingen bevatten een tabel met een lijst met functies in de linker
 
 Bijvoorbeeld:
 
-![](assets/release-notes-350x189.png)
+![ de versienota van het Voorbeeld ](assets/release-notes-350x189.png)

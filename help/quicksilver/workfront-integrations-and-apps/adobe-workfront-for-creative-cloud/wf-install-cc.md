@@ -6,9 +6,9 @@ description: U kunt  [!DNL Adobe Workfront for design and video]  van de Marketp
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -102,7 +102,7 @@ U kunt [!DNL Adobe Workfront for design and video] voor uzelf installeren vanuit
    >
    >Als u Premiere Pro gebruikt, moet u een project open hebben om tot dit menu toegang te hebben.
 
-   ![](assets/adobe-workfront-menu.png)
+   ![ het menu van Workfront ](assets/adobe-workfront-menu.png)
 
 
    >[!TIP]
@@ -121,7 +121,7 @@ U kunt [!DNL Adobe Workfront for design and video] voor uzelf installeren vanuit
    >[!TIP]
    >
    >* Als u uw domein wilt zoeken, opent u een browser, navigeert u naar de instantie [!DNL Workfront] en kopieert u het eerste deel van de URL:\
-   >![](assets/domain-350x50.png)
+   >![ plaats van domein ](assets/domain-350x50.png)
    >
    > * Als uw Workfront-exemplaar is geïntegreerd met Experience Cloud, vraagt u uw beheerder om u het Workfront-domein te verschaffen dat u kunt vinden onder Product > Workfront in de Admin Console.
 

@@ -7,9 +7,9 @@ description: U kunt een externe e-mail (niet geproduceerd door Adobe  [!DNL Work
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 6bbb4301-2791-4d72-bad8-fef63d6e892a
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Voordat u een [!DNL Workfront] -taak kunt maken in [!DNL Google Workspace] , moe
 
 ## Een [!DNL Adobe Workfront] taak maken in [!DNL Google Workspace] met e-mailinhoud
 
-1. Als het deelvenster [!UICONTROL Workfront for Google Workspace] niet wordt weergegeven, klikt u op het [!DNL Workfront] pictogram ![](assets/wf-lion-icon.png) in de zijbalk met invoegtoepassingen uiterst rechts op de pagina. [!DNL Google Workspace]
+1. Als het [!UICONTROL Workfront for Google Workspace] paneel niet wordt getoond, klik het [!DNL Workfront] pictogram ![ pictogram van Workfront ](assets/wf-lion-icon.png) in [!DNL Google Workspace] toe:voegen-ons sidebar bij uiterst rechts van de pagina.
 1. Open het e-mailbericht in [!DNL Google Workspace] en klik op een optie in [!DNL Workfront for Google Workspace] om het e-mailbericht om te zetten in een nieuwe [!DNL Workfront] -taak.
 
 1. Selecteer een optie **[!UICONTROL Create new]** om aan te geven of de taak deel gaat uitmaken van een project of van een persoonlijke taak die onafhankelijk is van een project.
