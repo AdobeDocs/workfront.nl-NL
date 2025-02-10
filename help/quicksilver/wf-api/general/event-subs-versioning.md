@@ -6,21 +6,23 @@ description: API voor abonnementen voor gebeurtenissen
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: e93634acdf2a97344f014c28ff9bbf43f1392e53
+exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
+source-git-commit: 0b8c327f5ab541358649474b405b881dac06c1aa
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1124'
 ht-degree: 0%
 
 ---
 
-
-# Versiering van abonnement op gebeurtenissen
+# Abonnementsversie voor gebeurtenissen
 
 Workfront heeft twee versies van gebeurtenisabonnementen. In dit artikel worden de verschillen tussen de koppelingen beschreven.
 
-Dit is geen wijziging van de Workfront API, maar een wijziging van de functionaliteit voor het abonnementsformulier voor gebeurtenissen.
+De nieuwe versie is geen wijziging in de Workfront API, maar een wijziging in de functionaliteit voor abonnementen voor gebeurtenissen.
 
-De capaciteit om gebeurtenisabonnementen te bevorderen of te degraderen zorgt ervoor dat wanneer de veranderingen in de structuur van gebeurtenissen worden aangebracht, de bestaande abonnementen niet breken, toestaand u om aan de nieuwe versie zonder een hiaat in uw Abonnement van de Gebeurtenis te testen en te bevorderen.
+De capaciteit om gebeurtenisabonnementen te bevorderen of te degraderen zorgt ervoor dat wanneer de veranderingen in de structuur van gebeurtenissen worden aangebracht, de bestaande abonnementen niet breken, toestaand u om aan de nieuwe versie zonder een hiaat in uw gebeurtenisabonnement te testen en te bevorderen.
+
+Voor informatie over de eindpunten die voor bevordering of het degraderen van gebeurtenisabonnementen worden gebruikt, zie [ het abonnement van de Gebeurtenis versioning ](/help/quicksilver/wf-api/general/event-subs-api.md#event-subscription-versioning) in het abonnement API van de artikelgebeurtenis.
 
 >[!IMPORTANT]
 >
@@ -35,7 +37,6 @@ De volgende wijzigingen zijn aangebracht voor gebeurtenisabonnementen versie 2
 
 
 ### Algemene wijzigingen
-
 
 
 <table style="table-layout:auto"> 
