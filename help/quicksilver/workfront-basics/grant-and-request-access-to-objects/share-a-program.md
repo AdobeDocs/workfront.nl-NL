@@ -7,16 +7,14 @@ description: Uw Adobe Workfront-beheerder kan u toegang verlenen tot weergave- o
 author: Alina
 feature: Get Started with Workfront
 exl-id: bfa6ce97-24ad-44b3-9c2f-7fac6b748f94
-source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
+source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
 
 # Een programma delen
-
-{{highlighted-preview}}
 
 Uw Adobe Workfront-beheerder kan u toegang verlenen tot weergave- of bewerkingsprogramma&#39;s wanneer u uw toegangsniveau toewijst. U moet een licentie voor het abonnement hebben om toegang te hebben tot het bewerken van een programma. Voor meer informatie, zie [ toegang van de Verlening tot programma&#39;s ](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md).
 
@@ -41,9 +39,6 @@ Naast de overwegingen hieronder, zie ook [ Overzicht van het delen van toestemmi
 * U kunt alleen weergavemachtigingen of beheermachtigingen voor programma&#39;s verlenen.
 
   ![](assets/screen-shot-2014-01-23-at-12.45.15-pm.png)    ![](assets/screen-shot-2014-01-22-at-10.03.43-am-190x167.png)
-
-  <span class="preview"> in voorproef:
-  ![](assets/program-permissions.png)
 
 * Wanneer u een programma deelt, erven de gebruikers de zelfde toestemmingen aan alle kindvoorwerpen verbonden aan het programma, door gebrek.
 

@@ -6,7 +6,7 @@ description: U kunt een map en de inhoud ervan delen vanuit het gebied Documente
 author: Alina
 feature: Get Started with Workfront
 exl-id: c0d318a8-b1cf-4522-b478-acf092687658
-source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
+source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 0%
@@ -132,8 +132,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. (Facultatief) als u iedereen in het systeem de omslag en zijn inhoud wilt kunnen bekijken, klik het tandwielpictogram ![](assets/gear-icon-settings-with-dn-arrow.jpg) in de hogere juiste hoek van de het delen doos, dan klik **maak dit zichtbaar systeem-breed.**
 
    Als u uw mening verandert, kunt u, **klikken verwijdert toegang voor het hele systeem** (de standaardoptie).
-
-<!--1. (Optional) If you want everyone in the system to be able to view the folder and its contents, choose **Everyone in the System can view** in the **Who has access** drop-down menu. -->
 
 ## Hoe gebruikers tot de inhoud van een omslag toegang hebben die met hen wordt gedeeld
 

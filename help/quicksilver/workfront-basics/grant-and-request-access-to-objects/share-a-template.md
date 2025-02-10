@@ -6,16 +6,14 @@ description: Als beheerder van Adobe Workfront, kunt u gebruikers toegang tot me
 author: Alina
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
+source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
 
 # Een sjabloon delen
-
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Sandbox van de Voorproef.</span>
 
 Als beheerder van Adobe Workfront, kunt u gebruikers toegang tot mening verlenen of malplaatjes uitgeven wanneer u hun toegangsniveau toewijst. Een gebruiker moet een licentie voor een abonnement hebben om toegang te hebben tot Sjablonen bewerken.
 
@@ -42,13 +40,12 @@ Machtigingen gelden specifiek voor één item in Workfront en definiëren welke 
      U kunt de volgende machtigingen aan een sjabloon verlenen:
 
       * Weergave
+
+        ![](assets/view-on-template-262x221.png)
+
       * Beheren
 
-        ![](assets/view-on-template-262x221.png) ![](assets/manage-on-template-225x280.png)
-
-     <span class="preview"> in voorproef:
-     ![](assets/template-permissions.png)
-  </span>
+        ![](assets/manage-on-template-225x280.png)
 
    * De toekomstige projecten die gebruikend het malplaatje worden gecreeerd. U kunt de zelfde niveaus van toestemmingen aan projecten geven die van een malplaatje worden gecreeerd zoals u een individueel project. 
 
