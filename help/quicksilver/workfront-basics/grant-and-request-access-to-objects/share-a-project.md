@@ -6,20 +6,22 @@ description: Uw Adobe Workfront-beheerder kan u toegang verlenen tot weergave- o
 author: Alina
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '1014'
 ht-degree: 0%
 
 ---
 
 # Een project delen in Adobe Workfront
 
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Sandbox van de Voorproef.</span>
+
 <!-- Audited: 1/2024 -->
 
 Uw Adobe Workfront-beheerder kan u toegang verlenen tot weergave- of bewerkingsprojecten wanneer u uw toegangsniveau toewijst. Voor meer informatie, zie [ toegang van de Verlening tot projecten ](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
-Samen met het toegangsniveau dat de gebruikers worden verleend, kunt u hen toestemmingen aan Mening, Contribute, of beheer specifieke projecten ook verlenen die u toegang hebt om te delen.
+Samen met het toegangsniveau dat gebruikers worden verleend, kunt u hen toestemmingen aan Mening verlenen, bijdragen, of beheren specifieke projecten die u toegang hebt om te delen.
 
 Machtigingen gelden specifiek voor één item in Workfront en definiëren welke handelingen u op dat item kunt uitvoeren.
 
@@ -29,7 +31,7 @@ Naast de overwegingen hieronder, zie ook [ Overzicht van het delen van toestemmi
 
 * Door gebrek, heeft de schepper van een project toestemmingen om het project te beheren en ook aangewezen als Eigenaar van het Project. Als het project aan een andere eigenaar wordt toegewezen, heeft die gebruiker ook toestemmingen om het project te beheren. Wanneer de projectmaker (of eigenaar) het project met andere gebruikers deelt, verlenen zij bepaalde toestemmingen aan die gebruikers om te controleren wat zij kunnen doen aangezien zij aan het project werken.
 
-  Als de eigenaar van een project echter geen Planner-licentie heeft, hebben deze geen volledige toegang om het project te beheren. Slechts kan een gebruiker met een vergunning van het Plan toestemmingen hebben om een project te beheren. Voor meer informatie, zie [ hoe de toegangsniveaus en de toestemmingen samen ](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md) werken.
+  Als een eigenaar van een project echter geen plan- of standaardlicentie heeft, hebben hij of zij geen volledige toegang om het project te beheren. Alleen gebruikers met een licentie voor het abonnement of de standaardlicentie kunnen machtigingen hebben om een project te beheren. Voor meer informatie, zie [ hoe de toegangsniveaus en de toestemmingen samen ](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md) werken.
 
 * U kunt projecten afzonderlijk delen, maar u kunt ook verschillende projecten tegelijk delen. Projecten delen is hetzelfde als andere objecten delen. Voor meer informatie over het delen van punten in Workfront, zie [ een voorwerp ](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md) delen.
 * U kunt de volgende toestemmingen aan een project verlenen:
@@ -39,6 +41,10 @@ Naast de overwegingen hieronder, zie ook [ Overzicht van het delen van toestemmi
    * Contribute
 
      ![](assets/view-on-projects-190x207.png) ![](assets/contribute-on-projects-159x243.png) ![](assets/manage-on-projects-178x230.png)
+
+     <span class="preview"> in voorproef:
+     ![](assets/project-permissions.png)
+  </span>
 
 * Wanneer u een project deelt, erven alle taken, kwesties, en de documenten de zelfde toestemmingen, tenzij anders gespecificeerd.
 
@@ -106,7 +112,7 @@ U kunt een project op de volgende manieren delen:
 
 * De gebruikers met een vergunning van de Arbeider hebben geen toestemmingen om projecten te beheren. Voor Workers is Contribute de hoogste machtiging voor delen.
 * De gebruikers met een vergunning van het Verzoek kunnen projectinformatie bekijken, maar zij hebben beperkte projecttoegang.
-* Een uitzondering op het wijzigen van de status van een project treedt op wanneer een gebruiker met de machtiging Weergeven of Contribute ook is opgenomen in een goedkeuringsproces. Zij kunnen het project goedkeuren, dat de status van het project verandert, maar de status is de vooraf bepaalde status voor goedkeuring of voor verwerping.
+* Een uitzondering op het wijzigen van de status van een project treedt op wanneer een gebruiker met de machtiging Weergeven of Contribute ook wordt opgenomen in een goedkeuringsproces. Zij kunnen het project goedkeuren, dat de status van het project verandert, maar de status is de vooraf bepaalde status voor goedkeuring of voor verwerping.
 * Om een project te kunnen kopiëren, moet een gebruiker ook toegang hebben om projecten in hun Niveau van de Toegang tot stand te brengen.
 
 <!--
@@ -144,7 +150,7 @@ De volgende lijst maakt een lijst van de toestemmingen die de gebruikers kunnen 
   <tr> 
    <th> <p><strong> Acties </strong> </p> </th> 
    <th> <p><strong> leiden </strong> </p> </th> 
-   <th> <p><strong> Contribute </strong> </p> </th> 
+   <th> <p><strong> draagt </strong> bij </p> </th> 
    <th> <p><strong> Mening </strong> </p> </th> 
   </tr> 
  </thead> 

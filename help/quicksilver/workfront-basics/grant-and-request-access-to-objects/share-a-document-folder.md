@@ -6,7 +6,7 @@ description: U kunt een map en de inhoud ervan delen vanuit het gebied Documente
 author: Alina
 feature: Get Started with Workfront
 exl-id: c0d318a8-b1cf-4522-b478-acf092687658
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 0%
@@ -133,6 +133,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    Als u uw mening verandert, kunt u, **klikken verwijdert toegang voor het hele systeem** (de standaardoptie).
 
+<!--1. (Optional) If you want everyone in the system to be able to view the folder and its contents, choose **Everyone in the System can view** in the **Who has access** drop-down menu. -->
+
 ## Hoe gebruikers tot de inhoud van een omslag toegang hebben die met hen wordt gedeeld
 
 <!--
@@ -160,8 +162,8 @@ Voor informatie over het runnen van een rapport, zie het sectie [ Rapport over v
 Wanneer u een object deelt dat een documentmap heeft, krijgen de ontvangers ook toegang tot de map:
 
 * Als u aan uw ontvangersToegang van de Mening tot het oudervoorwerp verleent, hebben zij de toegang van de Mening tot de omslag.
-* Als u de ontvangers Contribute of Manage toegang tot het bovenliggende object geeft, hebben ze beheertoegang tot de map.
-* Als u één type toegang (Weergave, Contribute of Beheren) verleent aan het bovenliggende object en een ander type aan de map, hebben de ontvangers de hoogste van deze twee typen toegang tot documenten in de map
+* Als u ontvangers Contribute of Manage toegang tot het bovenliggende object geeft, hebben ze beheertoegang tot de map.
+* Als u één type toegang (Weergave, Contribute of Beheren) verleent aan het bovenliggende object en een ander type aan de map, hebben uw ontvangers de hoogste van deze twee typen toegang tot documenten in de map
 
   Als u bijvoorbeeld het bovenliggende object deelt met Weergavetoegang en de map met de toegang Beheren, hebben de ontvangers de optie Beheren voor de documenten in de map.
 

@@ -6,18 +6,21 @@ description: Uw Adobe Workfront-beheerder kan u toegang verlenen tot weergave- o
 author: Alina
 feature: Get Started with Workfront
 exl-id: 45da15cb-8880-41f7-a0de-939882c1f154
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '667'
 ht-degree: 0%
 
 ---
 
 # Een taak delen
 
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Sandbox van de Voorproef.</span>
+
+
 Uw Adobe Workfront-beheerder kan u toegang verlenen tot weergave- of bewerkingstaken wanneer zij toegangsniveaus toewijzen. Voor meer informatie over het verlenen van toegang tot taken, zie [ Toegang van de Verlening tot taken ](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md).
 
-Samen met het toegangsniveau dat de gebruikers worden verleend, kunt u hen toestemmingen aan Mening, Contribute, of Manage ook verlenen specifieke taken die u toegang hebt om te delen.
+Samen met het toegangsniveau dat gebruikers worden verleend, kunt u hen toestemmingen aan Mening, Contribute, of Manage ook verlenen specifieke taken die u toegang hebt om te delen.
 
 Machtigingen gelden specifiek voor één item in Workfront en definiëren welke handelingen u op dat item kunt uitvoeren.
 
@@ -35,6 +38,10 @@ Naast de overwegingen hieronder, zie ook [ Overzicht van het delen van toestemmi
    * Beheren
    * Contribute\
      ![](assets/screen-shot-2014-05-30-at-11.37.24-am-175x192.png) ![](assets/screen-shot-2014-01-23-at-1.12.40-pm-154x258.png) ![](assets/screen-shot-2014-01-22-at-10.53.00-am-182x252.png)
+
+     <span class="preview"> in voorproef:
+     ![](assets/task-permissons.png)
+  </span>
 
 * Wanneer u een taak deelt, erven de gebruikers de zelfde toestemmingen op alle kindvoorwerpen verbonden aan de taak, door gebrek. Ze nemen bijvoorbeeld dezelfde machtigingen over voor de onderliggende taken, problemen en documenten die aan de taak zijn gekoppeld.\
   Zie voor meer informatie over de hiërarchie van objecten in Workfront  [ Begrijp voorwerpen in Adobe Workfront ](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
@@ -65,7 +72,7 @@ U kunt een taak op de volgende manieren delen:
 
 ## Taakmachtigingen
 
-In de volgende tabel wordt weergegeven welke machtigingen u gebruikers kunt verlenen wanneer u hen toestaat een taak weer te geven, te Contribute of te beheren:
+In de volgende tabel wordt weergegeven welke machtigingen u gebruikers kunt verlenen wanneer u hen toestaat een taak weer te geven, bij te dragen of te beheren:
 
 <table border="2" cellspacing="15" cellpadding="1"> 
  <col> 
@@ -76,7 +83,7 @@ In de volgende tabel wordt weergegeven welke machtigingen u gebruikers kunt verl
   <tr> 
    <th><strong> Actie </strong> </th> 
    <th><strong> leiden </strong> </th> 
-   <th><strong> Contribute </strong> </th> 
+   <th><strong> draagt </strong> bij </th> 
    <th><strong> Mening </strong> </th> 
   </tr> 
  </thead> 

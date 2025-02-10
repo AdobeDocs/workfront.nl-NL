@@ -6,9 +6,9 @@ description: Uw Adobe Workfront-beheerder kan u toegang verlenen tot financiële
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
@@ -102,10 +102,14 @@ Financiële machtigingen verlenen aan een object:
 1. Als rechts van de geselecteerde naam een vervolgkeuzelijst wordt weergegeven, klikt u op een van de volgende beschikbare opties:
 
    * **Mening het**
-   * **Contribute aan het**
+   * **draagt aan het bij**
    * **leidt het**
 
      ![](assets/12.png)      ![](assets/13.png) ![](assets/14.png)
+
+   <span class="preview"> In voorvertoning:
+   ![](assets/project-permissions.png)
+   </span>
 
 1. In het zelfde drop-down menu, klik **Geavanceerde Montages**, dan doe één van het volgende:
 
@@ -127,7 +131,7 @@ In de volgende tabel wordt weergegeven welke financiële machtigingen gebruikers
   <tr> 
    <th><strong> Acties </strong> </th> 
    <th><strong> leiden </strong> </th> 
-   <th><strong> Contribute </strong> </th> 
+   <th><strong> draagt </strong> bij </th> 
    <th><strong> Mening </strong> </th> 
   </tr> 
  </thead> 

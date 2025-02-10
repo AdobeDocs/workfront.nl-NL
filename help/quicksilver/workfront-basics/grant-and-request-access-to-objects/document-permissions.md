@@ -7,14 +7,16 @@ description: Uw Adobe Workfront-beheerder verleent gebruikers toegang tot weerga
 author: Alina
 feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '640'
 ht-degree: 0%
 
 ---
 
 # Een document delen
+
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Sandbox van de Voorproef.</span>
 
 Uw beheerder van Adobe Workfront verleent gebruikers toegang tot mening of geeft documenten uit wanneer zij toegangsniveaus, zoals die in [ worden verklaard de toegang van de Verlening tot documenten ](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md) toewijzen.
 
@@ -39,6 +41,10 @@ Naast de overwegingen hieronder, zie ook [ Overzicht van het delen van toestemmi
 
    * Weergave
    * Beheren
+
+  <span class="preview"> in voorproef:
+  ![](assets/document-permissions.png)
+</span>
 
 * U kunt een document ook openbaar of systeembreed delen.
 

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 36ec1b2e8bdd499718c1a46d2549b46ddce3b4aa
+source-git-commit: a601b47f10de19fa99ecd4fdd4bbf8247dde4d48
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -34,13 +34,11 @@ Als u de instellingen wilt weergeven, gaat u naar Instellingen > Voorkeuren > Go
 
 ### Interface-update voor het gebied Goedkeuringen in Setup > Groepen
 
-**de versie van de Voorproef: 30 Januari, 2025; De versie van de productie: Te aankondigen**
+**de versie van de Voorproef: 6 Februari, 2025; De versie van de productie: Te aankondigen**
 
-We hebben de lijsten met projecten, taken en goedkeuringen voor uitgaven bijgewerkt in Setup > Groepen > Goedkeuringen met een modern ontwerp dat aansluit bij andere gebieden van Workfront.
+Het dialoogvenster met goedkeuringsinstellingen is bijgewerkt met een modern ontwerp dat aansluit bij andere gebieden van Workfront.
 
-Ga naar Instellingen > Groepen > Goedkeuringen om deze wijziging weer te geven.
-
-Deze update bevat visuele wijzigingen in het gebied. Er is geen functionaliteit gewijzigd.
+Als u de instellingen wilt weergeven, gaat u naar Instellingen > Voorkeuren > Goedkeuringen > Selecteer het pictogram Instellingen boven aan de pagina.
 
 ### Interface-update voor de pagina Proefrollen in Setup
 
@@ -54,7 +52,7 @@ Ga naar Instellingen > Revisie en goedkeuring om deze wijziging weer te geven.
 
 ### Interface-update voor de pagina Automatische herinneringen in Setup
 
-**de versie van de Voorproef: 23 Januari, 2025; De versie van de Productie: Beginnend de week van 30.2025**
+**de versie van de Voorproef: 23 Januari, 2025; De versie van de productie: Te aankondigen**
 
 We hebben de pagina Automatische herinneringen bijgewerkt met een moderner ontwerp dat aansluit bij andere gebieden van Workfront.
 Ga naar Instellen > E-mail > Automatische herinneringen om deze pagina weer te geven.
@@ -62,7 +60,7 @@ Deze update bevat visuele wijzigingen in het gebied. Er is geen functionaliteit 
 
 ### Interface-update voor de pagina E-mailsjablonen in Setup
 
-**de versie van de Voorproef: 23 Januari, 2025; De versie van de Productie: Beginnend de week van 30 Januari, 2025**
+**de versie van de Voorproef: 23 Januari, 2025; De versie van de productie: Te aankondigen**
 
 We hebben de pagina E-mailsjablonen bijgewerkt met een moderner ontwerp dat aansluit bij andere gebieden van Workfront.
 
@@ -90,9 +88,10 @@ Ga naar Setup > Groepen > Een groep selecteren > Gebeurtenismeldingen om deze pa
 
 Deze update bevat kleine visuele wijzigingen in het gebied. Er is geen functionaliteit gewijzigd.
 
+
 ### Interface-updates voor het tabblad Herinneringsmeldingen in Setup
 
-**de versie van de Voorproef: 23 Januari, 2025; De versie van de Productie: Beginnend de week van 30 Januari, 2025**
+**de versie van de Voorproef: 23 Januari, 2025; De versie van de productie: Te aankondigen**
 
 Het tabblad Meldingen voor herinneringen en de dialoogvensters voor toevoegen en bewerken zijn bijgewerkt met een modern ontwerp dat aansluit bij andere gebieden van Workfront.
 
@@ -110,7 +109,7 @@ Deze update bevat visuele wijzigingen in het gebied. Er is geen functionaliteit 
 
 ### De update van de interface voor het gebied van Goedkeuringen in de Opstelling
 
-**de versie van de Voorproef: 16 Januari, 2025; De versie van de Productie: Beginnend de week van 30 Januari, 2025**
+**de versie van de Voorproef: 16 Januari, 2025; De versie van de productie: Te aankondigen**
 
 We hebben de lijsten met projecten, taken en goedkeuringen voor uitgaven bijgewerkt in Setup > Processen > Goedkeuringen met een modern ontwerp dat aansluit bij andere onderdelen van Workfront.
 
@@ -159,20 +158,10 @@ Deze update bevat visuele wijzigingen in het gebied. Er is geen functionaliteit 
 
 Om deze verandering te bekijken, ga naar Teams > kies een team > Achtergrond, dan klik **Nieuw verhaal** of **Nieuwe kwestie**.
 
+
 ## Rapporten en dashboards
 
-### Het bijgewerkte Rapport van het Team met nieuwe het formatteren
-
-**de versie van de Voorproef: 30 Januari, 2025; De versie van de productie: Te aankondigen**
-
-We hebben het Team-rapport bijgewerkt met een moderner ontwerp dat aansluit bij andere gebieden van Workfront.
-
-Deze update bevat visuele wijzigingen in het rapport. Er is geen functionaliteit gewijzigd.
-
-Als u een teamrapport wilt maken, gaat u naar Rapporten > Nieuw rapport > Team.
-
-
-### Bijgewerkte e-mailrapporten met nieuwe opmaak
+## Bijgewerkte e-mailrapporten met nieuwe opmaak
 
 **de versie van de Voorproef: 23 Januari, 2025; De versie van de productie: Te aankondigen**
 
@@ -185,7 +174,7 @@ Deze update bevat visuele wijzigingen in het gebied. Er is geen functionaliteit 
 
 ### Bijgewerkt iteratierapport met nieuwe opmaak
 
-**de versie van de Voorproef: 17 Januari, 2025; De versie van de Productie: Beginnend de week van 20 Januari, 2025**
+**de versie van de Voorproef: 17 Januari, 2025; De versie van de productie: Te aankondigen**
 
 We hebben het Interferation-rapport bijgewerkt met een modernere opzet die aansluit bij andere gebieden van Workfront.
 
