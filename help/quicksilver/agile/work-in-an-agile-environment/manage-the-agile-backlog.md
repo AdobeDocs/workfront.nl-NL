@@ -6,9 +6,9 @@ description: Taken en problemen kunnen worden toegewezen aan een flexibel team e
 author: Lisa
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 6ae8e48361114e897d0be83ae81f8344074a5ec2
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1253'
 ht-degree: 0%
 
 ---
@@ -115,7 +115,7 @@ U kunt nieuwe artikelen op de achtergrond maken door het artikel rechtstreeks va
 
 ### Een artikel maken op basis van de historie {#create-a-story-from-the-backlog}
 
-Wanneer u een artikel maakt op basis van de achterstand, wordt het artikel gemaakt als een taak of uitgave in een project. U kunt geen artikel maken op basis van de achterstand.
+Wanneer u een artikel maakt op basis van de achterstand, wordt het artikel gemaakt als een taak of uitgave in een project.
 
 Een artikel maken op basis van de historie:
 
@@ -189,11 +189,11 @@ De taak of kwestie is nu beschikbaar op de teamachterstand.
 
 ## Artikelen naar of van de achtergrond verplaatsen
 
-* [Artikelen van de achtergrond verplaatsen naar een herhaling of een toetsenbord](#move-stories-from-the-backlog-to-an-iteration-or--board)
+* [Artikelen van de achtergrond verplaatsen naar een herhaling of board](#move-stories-from-the-backlog-to-an-iteration-or--board)
 * [Bestaande artikelen naar de achtergrond verplaatsen](#move-existing-stories-to-the-backlog)
 * [Artikelen exporteren uit de logbestandweergave](#export-stories-from-the-backlog)
 
-### Artikelen van de achtergrond verplaatsen naar een herhaling of een toetsenbord
+### Artikelen van de achtergrond verplaatsen naar een herhaling of board
 
 1. Ga naar de achtergrond van het agile team.
 1. Selecteer de artikelen die u naar een herhaling of Kanban-bord wilt verplaatsen en klik op **[!UICONTROL More]** > **[!UICONTROL Move to]** .

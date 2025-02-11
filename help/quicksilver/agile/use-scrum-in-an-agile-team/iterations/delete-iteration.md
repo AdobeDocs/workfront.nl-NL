@@ -6,9 +6,9 @@ description: U kunt een herhaling voor uw agile team schrappen als het niet meer
 author: Lisa
 feature: Agile
 exl-id: db7fbafd-9d22-4035-a130-60ec2e4ad347
-source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
+source-git-commit: 95208e0f396d8eab9a71ca156c616891a7f56f7a
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # Een herhaling verwijderen
 
 U kunt een herhaling voor uw agile team schrappen als het niet meer nodig is.
+
+Wanneer u een herhaling verwijdert, worden alle artikelen in de herhaling naar de achtergrond verplaatst. De taken en kwesties blijven ook bij hun projecten.
 
 >[!NOTE]
 >

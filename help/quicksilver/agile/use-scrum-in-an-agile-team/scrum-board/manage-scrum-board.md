@@ -6,9 +6,9 @@ description: U kunt een artikel of uitgave van het Klembord naar een andere herh
 author: Lisa
 feature: Agile
 exl-id: 72990251-0264-4e68-83ef-1a9cde5b685c
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 95208e0f396d8eab9a71ca156c616891a7f56f7a
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # Artikelen en problemen beheren op het [!UICONTROL Scrum] -bord
 
 U kunt een artikel of uitgave van het [!UICONTROL Scrum] board naar een andere herhaling of naar de achtergrond verplaatsen, of het verwijderen van de [!UICONTROL Scrum] board. Wanneer u een artikel of uitgave verwijdert, wordt het artikel of de uitgave 30 dagen naar de prullenbak verplaatst en kan het alleen door de systeembeheerder worden hersteld.
+
+Om een taak of een kwestie uit de herhaling te verwijderen zonder het te schrappen of het te verzenden naar de backlog, ga naar het project en verwijder het flexibele team uit de taakkolom. Hierdoor wordt de taak of het probleem verwijderd van het Klembord, maar blijft het bestand op het project staan.
 
 ## Toegangsvereisten
 

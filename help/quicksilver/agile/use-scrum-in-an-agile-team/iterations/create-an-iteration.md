@@ -6,9 +6,9 @@ description: Herhalingen vormen een sleutelcomponent voor de ploegen van de Trom
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
+source-git-commit: 6ae8e48361114e897d0be83ae81f8344074a5ec2
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '992'
 ht-degree: 0%
 
 ---
@@ -156,6 +156,6 @@ Wanneer u een taak als een artikel toevoegt aan een herhaling, wordt de beperkin
 
 [!UICONTROL Iteration End Date] minus (-) [!UICONTROL Task Duration] is gelijk aan (=) [!UICONTROL Task Planned Start Date]
 
-De lus [!UICONTROL Project End Date] wordt gebruikt in plaats van de   als de begindatum van het project na de begindatum van de herhaling valt en de einddatum van het project na de einddatum van de herhaling valt.
+[!UICONTROL Project End Date] wordt gebruikt in plaats van de Einddatum van de Interferatie als de begindatum van het project na de begindatum van de iteratie is, en de einddatum van het project is na de einddatum van de herhaling.
 
 U kunt de individuele teams van het Trommel vormen om de projectdata door gebrek, eerder dan de herhalingsdata te gebruiken. Voor informatie, zie de sectie [ vormen hoe de data worden toegepast wanneer het toevoegen van het werkpunten aan een herhaling ](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration) in artikel [ Scrum ](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md) vormt.
