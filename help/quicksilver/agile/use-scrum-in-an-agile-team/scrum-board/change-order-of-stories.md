@@ -6,16 +6,18 @@ description: De volgorde waarin artikelen op het artikelbord worden weergegeven,
 author: Lisa
 feature: Agile
 exl-id: 326d78e0-06de-4b98-8fa6-102e0fd89d76
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 4dc2d81cd6dc4249f96925b6339fb837c4f67254
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
 
 # De volgorde van artikelen op het [!UICONTROL Scrum] -bord wijzigen
 
-De volgorde waarin artikelen op het artikelbord worden weergegeven, geeft geen prioriteit aan. Het kan echter de waargenomen prioriteit beïnvloeden door de artikelen beter zichtbaar te maken. Standaard worden artikelen in alfabetische volgorde weergegeven in elke statuskolom op het artikelbord. (Artikelen met swimlanes worden boven aan het artikelbord weergegeven en artikelen zonder swimlanes worden afzonderlijk onder de swimlanes weergegeven.)
+De volgorde waarin artikelen op het artikelbord worden weergegeven, geeft geen prioriteit aan. Het kan echter de waargenomen prioriteit beïnvloeden door de artikelen beter zichtbaar te maken. De prioriteit wordt gedefinieerd in de achterstand en wanneer artikelen op de artikelkaart worden geplaatst, hebben ze geen ingestelde prioriteit omdat ze tijdens de herhalingstijd worden bewerkt. Als de verhalen aan de achterstand worden teruggekeerd, dan kunt u hen daar opnieuw rangschikken om de prioriteit te tonen.
+
+Standaard worden artikelen in alfabetische volgorde weergegeven in elke statuskolom op het artikelbord. Artikelen met stalen worden boven aan het artikelbord weergegeven en artikelen zonder stalen worden afzonderlijk onder de zwembaden weergegeven.
 
 Wanneer u de volgorde van de kolommen op het artikelbord wijzigt, worden alle aangebrachte wijzigingen opgeslagen in de herhaling of het project. De wijzigingen blijven dus behouden wanneer u of een andere gebruiker het artikelbord opnieuw bekijkt. (Wijzigingen die u aanbrengt, worden niet teruggedraaid wanneer u de cache van de browser wist.)
 
