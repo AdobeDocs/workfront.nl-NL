@@ -6,9 +6,9 @@ description: In het menu Favorieten hebt u snel toegang tot items. De punten bli
 feature: Get Started with Workfront
 author: Lisa
 exl-id: bf9dc447-751c-4802-9e6a-ecd31538dba4
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 Als je een eerder toegevoegd object wilt bekijken als favoriet:
 
-1. Klik op het **[!UICONTROL Favorites]** pictogram ![](assets/favorites-icon.png) rechtsboven op een [!DNL Adobe Workfront] -pagina.
+1. Klik het **[!UICONTROL Favorites]** pictogram ![ Favorieten ](assets/favorites-icon.png) in de hoger-juiste hoek van om het even welke [!DNL Adobe Workfront] pagina.
 
 1. Klik in de lijst [!UICONTROL Favorites] op het item dat u wilt weergeven.
 
@@ -69,7 +69,7 @@ U kunt recente items of de huidige pagina toevoegen aan het menu [!UICONTROL Fav
 ### Het huidige item toevoegen als een favoriet
 
 1. Ga naar de pagina die u als favoriet wilt toevoegen.
-1. Klik op het **[!DNL Favorites]** pictogram ![](assets/favorites-icon.png) in de rechterbovenhoek van een [!DNL Workfront] -pagina en klik vervolgens op **[!UICONTROL Add Current Page]** .
+1. Klik het **[!DNL Favorites]** pictogram ![ Favorieten ](assets/favorites-icon.png) in de hoger-juiste hoek van om het even welke [!DNL Workfront] pagina, dan klik **[!UICONTROL Add Current Page]**.
 
    ![ voeg huidige pagina aan favorieten toe ](assets/add-current-page-favorite-2022-350x147.png)
 
@@ -77,19 +77,19 @@ U kunt recente items of de huidige pagina toevoegen aan het menu [!UICONTROL Fav
 
    of
 
-   Klik op het **[!UICONTROL Favorites]** pictogram ![](assets/favorites-icon.png) rechts van de objectnaam.
+   Klik het **[!UICONTROL Favorites]** pictogram ![ Favorieten ](assets/favorites-icon.png) rechts van de objecten naam.
 
    >[!NOTE]
    >
    >Als u op het pictogram **[!UICONTROL Favorites]** klikt op een object dat u al als favoriet hebt toegevoegd, wordt het object verwijderd uit het menu [!UICONTROL Favorites] .\
-   >![](assets/nwe-remove-from-favorites-350x52.png)
+   >![ verwijder uit favorieten ](assets/nwe-remove-from-favorites-350x52.png)
 
 ## Een item verwijderen uit het menu [!UICONTROL Favorites]
 
-1. Klik op het **[!UICONTROL Favorites]** pictogram ![](assets/favorites-icon.png) rechtsboven op een [!DNL Workfront] -pagina.
+1. Klik het **[!UICONTROL Favorites]** pictogram ![ Favorieten ](assets/favorites-icon.png) in de hoger-juiste hoek van om het even welke [!DNL Workfront] pagina.
 
 1. Beweeg over het punt dat u als favoriet wilt verwijderen, dan **X** naast het klikken.
 
    of
 
-   Als u zich op de pagina bevindt die u als favoriet wilt verwijderen, klikt u op het pictogram **[!UICONTROL Favorites]** ![](assets/favorites-icon.png) naast de objectnaam om deze te verwijderen uit het menu Favorieten.
+   Als u op de pagina bent die u als favoriet wilt verwijderen, klik het **[!UICONTROL Favorites]** pictogram ![ Favorieten ](assets/favorites-icon.png) naast de objecten naam om het uit het menu van Favorieten te verwijderen.

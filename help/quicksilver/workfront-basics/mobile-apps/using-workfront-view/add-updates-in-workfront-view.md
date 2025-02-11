@@ -7,9 +7,9 @@ description: U kunt updates aan projecten herzien en toevoegen u in  [!DNL Adobe
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 5d0260ad-7049-42c6-a8a0-9b53fb115ec6
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ U moet in [!DNL Workfront] de volgende toegang hebben om de stappen in dit artik
 
 1. Typ een update.
 1. (Optioneel) Neem andere bestanden op in de update door op het pictogram [!UICONTROL people] te tikken en de naam van een andere gebruiker op te geven.\
-   ![](assets/screen-shot-2014-002-21-at-2.57.44-pm-350x222.png)
+   ![ Updates in mobiele app ](assets/screen-shot-2014-002-21-at-2.57.44-pm-350x222.png)
 
 1. Tik op **[!UICONTROL Post]** .\
    De update wordt in de **[!UICONTROL Updates]** -widget in het project weergegeven.

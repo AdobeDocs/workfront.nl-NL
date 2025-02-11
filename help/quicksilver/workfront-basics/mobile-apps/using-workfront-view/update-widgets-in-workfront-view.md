@@ -6,9 +6,9 @@ description: U kunt aanvullende informatie over de [!UICONTROL project] weergeve
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 593dc4a2-20aa-44d3-b819-1d4b160095ed
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ U moet in [!DNL Workfront] de volgende toegang hebben om de stappen in dit artik
 1. Tik op de tab onderaan in het midden van het scherm.\
    Het gebied [!UICONTROL widget] wordt weergegeven.\
    Blader door de widgets door van links naar rechts te vegen.\
-   ![](assets/screen-shot-2013-009-11-at-8.25.01-am-350x262.png)
+   ![ Widgets ](assets/screen-shot-2013-009-11-at-8.25.01-am-350x262.png)
 
 1. Sleep een widget om de lay-out van uw projectpagina aan te passen.\
    U kunt maximaal vier widgets tegelijk weergeven.\

@@ -6,9 +6,9 @@ description: In  [!DNL Adobe Workfront], worden de punten geïdentificeerd als v
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 94f5a174-21cc-4c10-88ed-89a8014d28f4
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Referentienummers worden standaard weergegeven voor taken en problemen. U kunt [
 
 Referentienummers worden standaard weergegeven wanneer u een taak of uitgave weergeeft.  Als u het referentienummer wilt zien, klikt u op **[!UICONTROL Task Details]** of **[!UICONTROL Issue Details]** in het linkerdeelvenster en zoekt u de sectie **[!UICONTROL Basic Information]** in het overzicht.
 
-![](assets/reference-number-nwe-350x184.png)
+![ Aantal van de Verwijzing ](assets/reference-number-nwe-350x184.png)
 
 ### Referentienummers voor andere objecten weergeven
 

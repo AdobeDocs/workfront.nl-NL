@@ -6,9 +6,9 @@ description: Dit artikel verstrekt definities aan de gemeenschappelijkste data v
 feature: Get Started with Workfront
 author: Alina
 exl-id: 3808200f-a573-4c39-8965-b254f69c893c
-source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '2070'
+source-wordcount: '2126'
 ht-degree: 0%
 
 ---
@@ -47,9 +47,9 @@ Voor meer informatie, zie [ Overzicht van het project [!UICONTROL Actual Start D
 >
 >De [!UICONTROL Must Start On] -taak of de Vaste datumbeperkingen hebben invloed op de [!UICONTROL Planned Start Date] -status van een taak, niet op de [!UICONTROL Actual Start Date] -taak. Hiermee werkt u [!UICONTROL Planned Start Date] bij naar een datum die u opgeeft. [!UICONTROL Actual Start Date] wordt onafhankelijk van [!UICONTROL Planned Start Date] bijgewerkt, zoals hierboven beschreven.
 
-![](assets/actual-start-date-on-edit-task-highlighted-nwe-350x251.png)
+![ Ware begindatum op geef taak uit ](assets/actual-start-date-on-edit-task-highlighted-nwe-350x251.png)
 
-![](assets/actual-start-date-on-task-details-highlighted-nwe-350x191.png)
+![ Ware begindatum op taak ](assets/actual-start-date-on-task-details-highlighted-nwe-350x191.png)
 
 ## [!UICONTROL Actual Completion Date]
 
@@ -68,7 +68,7 @@ U kunt handmatig aangeven wanneer een taak of een probleem is voltooid. [!UICONT
 
 Voor meer informatie, zie [ Overzicht van het project [!UICONTROL Actual Completion Date]](../../../manage-work/projects/planning-a-project/project-actual-completion-date.md).
 
-![](assets/actual-completion-date-task-details-highlighted-nwe-350x189.png)
+![ Ware voltooiingsdatum in Details ](assets/actual-completion-date-task-details-highlighted-nwe-350x189.png)
 
 ## Voltooiingsdatum goedkeuringspad
 
@@ -152,7 +152,7 @@ De [!UICONTROL Entry Date] is de datum waarop een project, taak of uitgave is ge
 
 De instructie [!UICONTROL Entry Date] heeft geen invloed op de tijdlijn van projecten, taken of problemen, maar is wel belangrijk voor het bijhouden en rapporteren van gegevens. [!DNL Workfront] genereert automatisch [!UICONTROL Entry Date] wanneer het object wordt gemaakt en u kunt het niet handmatig bewerken.
 
-![](assets/entry-date-in-task-details-highlighted-nwe.png)
+![ Datum van de Ingang in taakdetails ](assets/entry-date-in-task-details-highlighted-nwe.png)
 
 ## Geschatte vervaldatum
 
@@ -184,7 +184,7 @@ Dit is een handmatige schatting en er wordt geen rekening gehouden met de werkel
 
 De Vaste Datum van het Eind van een project is zichtbaar in de Van Bedrijfs het Geval sectie van het project evenals in projectlijsten en rapporten.
 
-![](assets/fixed-end-date-business-case-highlight.png)
+![ Vaste einddatum ](assets/fixed-end-date-business-case-highlight.png)
 
 ## Vaste begindatum
 
@@ -194,7 +194,7 @@ Dit is een handmatige schatting en er wordt geen rekening gehouden met de werkel
 
 De Vaste Datum van het Begin van een project is zichtbaar in de Van Bedrijfs het Geval sectie van het project evenals in projectlijsten en rapporten.
 
-![](assets/fixed-start-date-business-case-highlight.png)
+![ Vaste begindatum ](assets/fixed-start-date-business-case-highlight.png)
 
 ## Handoff-datum
 
@@ -252,9 +252,9 @@ Raadpleeg de volgende artikelen voor meer informatie:
 * [Het project instellen [!UICONTROL Planned Completion Date]](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)
 * [Overzicht van het probleem [!UICONTROL Planned Completion Date]](../../../manage-work/issues/issue-information/issue-planned-completion-date.md)
 
-![](assets/project-header-planned-completion-date-highlighted-nwe-350x34.png)
+![ Geplande vergelijkingsdatum in kopbal ](assets/project-header-planned-completion-date-highlighted-nwe-350x34.png)
 
-![](assets/planned-completion-date-in-task-list-highlighted-nwe-350x183.png)
+![ Geplande voltooiingsdatum in taaklijst ](assets/planned-completion-date-in-task-list-highlighted-nwe-350x183.png)
 
 
 ## Geplande datumuitlijning
@@ -277,9 +277,9 @@ Afhankelijk van de instructie [!UICONTROL Task Constraint] kunt u de [!UICONTROL
 
 Voor meer informatie, zie [ Overzicht van het project [!UICONTROL Planned Start Date]](../../../manage-work/projects/planning-a-project/project-planned-start-date.md).
 
-![](assets/planned-start-date-on-edit-task-highlighted-nwe.png)
+![ Geplande begindatum op geef taak uit ](assets/planned-start-date-on-edit-task-highlighted-nwe.png)
 
-![](assets/planned-start-date-in-task-list-highlighted-nwe-350x167.png)
+![ de begindatum van Plaatsen in taaklijst ](assets/planned-start-date-in-task-list-highlighted-nwe-350x167.png)
 
 ## [!UICONTROL Projected Completion Date]
 
@@ -289,7 +289,7 @@ Als alles vloeiend en volgens plan verloopt, moet de [!UICONTROL Projected Compl
 
 Voor meer informatie, zie [ Overzicht van [!UICONTROL Projected Completion Date] voor projecten, taken, en kwesties ](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
 
-![](assets/projected-completion-date-in-task-details-highlighted-nwe-350x187.png)
+![ Geprojecteerde voltooiingsdatum ](assets/projected-completion-date-in-task-details-highlighted-nwe-350x187.png)
 
 ## [!UICONTROL Projected Start Date]
 
@@ -305,19 +305,19 @@ Voor een taak kan een [!UICONTROL Projected Start Date] ook afwijken van de [!UI
 
 Voor meer informatie, zie [ Overzicht van het project [!UICONTROL Projected Start Date]](../../../manage-work/projects/planning-a-project/project-projected-start-date.md).
 
-![](assets/projected-start-date-in-task-details-highlighted-nwe-350x188.png)
+![ Geprojecteerde begindatum ](assets/projected-start-date-in-task-details-highlighted-nwe-350x188.png)
 
 <!--## Rejection Date-->
 
-## Datum Slack
+## Slack-datum
 
 Taken kunnen soms worden gestart en laat worden voltooid zonder dat dit gevolgen heeft voor de Voltooiingsdatum van het project.
 
-De datum van de Slack toont de nauwkeurige datum wanneer een taak de Datum van de Voltooiing van het project beslist zou kunnen beïnvloeden.
+De datum van Slack toont de nauwkeurige datum wanneer een taak beslist de Datum van de Voltooiing van het project zou kunnen beïnvloeden.
 
-Voor informatie over de Datum van de Slack van een taak, zie [ Overzicht van de Datum van de Slack van de Taak ](/help/quicksilver/manage-work/tasks/task-information/task-slack-date.md).
+Voor informatie over de Datum van Slack van een taak, zie {het overzicht van de Datum van de Datum van Slack van 0} Taak ](/help/quicksilver/manage-work/tasks/task-information/task-slack-date.md).[
 
-De Datums van de Slack van de taak zijn zichtbaar in taaklijsten en rapporten.
+De Datums van de Taak Slack zijn zichtbaar in taaklijsten en rapporten.
 
 ## Starten bij
 

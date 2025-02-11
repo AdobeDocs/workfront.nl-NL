@@ -6,9 +6,9 @@ description: Om veiligheidsredenen, is het belangrijk om uit  [!DNL Adobe Workfr
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 3b457a44-53a1-44c5-99ce-445ab1463303
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
@@ -58,5 +58,5 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Afmelden bij uw [!DNL Workfront] -account
 
-1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Logout]** ![](assets/logout-icon.png) .
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van [!DNL Adobe Workfront], dan klik **[!UICONTROL Logout]** ![ Logout pictogram ](assets/logout-icon.png).
 1. Hiermee keert u terug naar de aanmeldingspagina waar u uw gebruikersnaam en wachtwoord opnieuw kunt invoeren.

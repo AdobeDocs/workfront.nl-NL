@@ -6,9 +6,9 @@ description: Herzie dit artikel om een bètameetapparaat van iOS voor  [!DNL Ado
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b02119ab-f4ea-4249-8d2c-b26df47e770d
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ U moet de app [!DNL Workfront] en de app [!DNL TestFlight] op uw iOS-apparaat he
 
 U kunt ook de onderstaande QR-code scannen om u aan te melden voor de bètaversie en de app downloaden:
 
-![](assets/ios-qr-code-350x397.png)
+![ QR van iOS code ](assets/ios-qr-code-350x397.png)
 
 ## Laat ons weten hoe we het doen
 

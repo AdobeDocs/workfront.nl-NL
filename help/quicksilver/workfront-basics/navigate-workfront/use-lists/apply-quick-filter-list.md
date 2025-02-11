@@ -5,9 +5,9 @@ description: U kunt het snelle filter in een lijst van voorwerpen gebruiken om u
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 363f7ad1-f4f8-4cb1-a631-ee4e5ea28e5a
-source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Een snel filter toepassen op een lijst
 
-1. Ga naar een lijst of een rapport dat snelle filters steunt, dan klik het **[!UICONTROL Quick Filter]pictogram** ![](assets/qs-quick-filter-icon.png) in de toolbar.
+1. Ga naar een lijst of een rapport dat snelle filters steunt, dan klik het **[!UICONTROL Quick Filter]pictogram** ![ Snelle filterpictogram ](assets/qs-quick-filter-icon.png) in de toolbar.
 
    of
 
@@ -120,7 +120,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    1. Selecteer alle of meerdere items in de lijst en klik op **[!UICONTROL Edit]** om de items in bulk te bewerken.
    1. Klik op **[!UICONTROL Save Changes]** nadat u de bewerkingen hebt voltooid.
 
-1. (Optioneel) Als u de items die door het snelle filter worden gevonden, wilt exporteren, selecteert u alle of meerdere items in de lijst en klikt u op het pictogram **[!UICONTROL Export]** ![](assets/export.png) .
+1. (Facultatief) om de punten uit te voeren die door de snelle filter worden gevonden, selecteer allen of verscheidene punten in de lijst, dan klik het **[!UICONTROL Export]** pictogram ![ pictogram van de Uitvoer ](assets/export.png).
 
    ![ select_all_projects_with_highlight__1_.png ](assets/select-all-projects-with-highlight--1--350x173.png)
 

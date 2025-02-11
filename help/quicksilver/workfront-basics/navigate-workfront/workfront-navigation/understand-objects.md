@@ -6,9 +6,9 @@ description: De informatie u in  [!DNL Adobe Workfront]  toont wordt vertegenwoo
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '2133'
+source-wordcount: '2217'
 ht-degree: 0%
 
 ---
@@ -161,21 +161,21 @@ Hieronder volgt een lijst met objecten en de bijbehorende pictogrammen in Workfr
 
 | **Voorwerp** | **Pictogram** | **Aanpasbare objecten naam** |
 |---|---|---|
-| [!UICONTROL Company] | ![](assets/company-icon-nwe.png) , ![](assets/nwe-company-icon-54x54.png) |  |
-| [!UICONTROL Dashboard] | ![](assets/dashboard-icon-nwe.png) , ![](assets/nwe-dashboards-icon.png) |  |
-| [!UICONTROL Goal] | ![](assets/nwe-goal-icon.png) | ✔ |
-| [!UICONTROL Group] | ![](assets/groups-icon-nwe.png) , ![](assets/nwe-group-icon.png) |  |
-| [!UICONTROL Issue] | ![](assets/issue-icon-nwe.png) , ![](assets/nwe-issues-icon.png) | ✔ |
-| [!UICONTROL Job Role] | ![ job_role_icon.png ](assets/job-role-icon-52x50.png), ![ job_role_icon__1_.png ](assets/job-role-icon--1--53x44.png), ![](assets/job-role-nwe-no-color.png), ![](assets/job-role-icon-nwe-color.png) |  |
-| [!UICONTROL Plan] | ![](assets/plan-icon.png), ![](assets/nwe-plan-icon-60x57.png) |  |
-| [!UICONTROL Portfolio] | ![](assets/portfolio-icon-nwe.png) , ![](assets/nwe-portfolios-icon.png) | ✔ |
-| [!UICONTROL Program] | ![](assets/program-icon-nwe.png) , ![](assets/nwe-programs-icon.png) | ✔ |
-| [!UICONTROL Project] | ![](assets/project-icon-nwe.png) , ![](assets/nwe-projects-icon.png) | ✔ |
-| [!UICONTROL Report] | ![](assets/report-icon-nwe.png) , ![](assets/nwe-reports-icon.png) |  |
-| [!UICONTROL Task] | ![](assets/task-icon-new.png) , ![](assets/nwe-tasks-icon.png) | ✔ |
-| [!UICONTROL Team] | ![](assets/team-icon-nwe.png), ![](assets/team-icon-nwe-color.png) , ![](assets/nwe-teams-icon.png) |  |
-| [!UICONTROL Template] | ![](assets/template-icon-nwe.png) , ![](assets/nwe-templates-icon.png) |  |
-| [!UICONTROL User] | ![](assets/users-icon-gray.png) , ![](assets/user-icon-blue.png) , ![](assets/user-icon-initials.png) , ![](assets/user-avatar.png) , ![](assets/user-main-menu-area.png) |  |
+| [!UICONTROL Company] | ![ het pictogram van het Bedrijf ](assets/company-icon-nwe.png), ![ het pictogram blauw van het Bedrijf ](assets/nwe-company-icon-54x54.png) |  |
+| [!UICONTROL Dashboard] | ![ pictogram van het Dashboard ](assets/dashboard-icon-nwe.png), ![ het pictogram van Dashboards blauw ](assets/nwe-dashboards-icon.png) |  |
+| [!UICONTROL Goal] | ![ het pictogram van het Doel ](assets/nwe-goal-icon.png) | ✔ |
+| [!UICONTROL Group] | ![ pictogram van Groepen ](assets/groups-icon-nwe.png), ![ pictogram van de Groep ](assets/nwe-group-icon.png) |  |
+| [!UICONTROL Issue] | ![ pictogram van de Uitgave ](assets/issue-icon-nwe.png), ![ het pictogram van de Uitgave roze ](assets/nwe-issues-icon.png) | ✔ |
+| [!UICONTROL Job Role] | ![ job_role_icon.png ](assets/job-role-icon-52x50.png), ![ job_role_icon__1_.png ](assets/job-role-icon--1--53x44.png), ![ het rolpictogram van de Taak ](assets/job-role-nwe-no-color.png), ![ kleur van het de rolpictogram van de Taak ](assets/job-role-icon-nwe-color.png) |  |
+| [!UICONTROL Plan] | ![ pictogram van het Plan ](assets/plan-icon.png), ![ het pictogram van het Plan blauw ](assets/nwe-plan-icon-60x57.png) |  |
+| [!UICONTROL Portfolio] | ![ Portfolio ](assets/portfolio-icon-nwe.png), ![ Portfolio pictogram blauw ](assets/nwe-portfolios-icon.png) | ✔ |
+| [!UICONTROL Program] | ![ pictogram van het Programma ](assets/program-icon-nwe.png), ![ het pictogram van het Programma oranje ](assets/nwe-programs-icon.png) | ✔ |
+| [!UICONTROL Project] | ![ pictogram van het Project ](assets/project-icon-nwe.png), ![ pictogram van het Project paars ](assets/nwe-projects-icon.png) | ✔ |
+| [!UICONTROL Report] | ![ pictogram van het Rapport ](assets/report-icon-nwe.png), ![ het pictogram van het Rapport groen ](assets/nwe-reports-icon.png) |  |
+| [!UICONTROL Task] | ![ het pictogram van de Taak ](assets/task-icon-new.png), ![ groene het pictogram van de Taak ](assets/nwe-tasks-icon.png) | ✔ |
+| [!UICONTROL Team] | ![ pictogram van het Team ](assets/team-icon-nwe.png), ![ pictogram van het Team rond ](assets/team-icon-nwe-color.png), ![ pictogram van Teams ](assets/nwe-teams-icon.png) |  |
+| [!UICONTROL Template] | ![ pictogram van het Malplaatje ](assets/template-icon-nwe.png), ![ groene het pictogram van het Malplaatje ](assets/nwe-templates-icon.png) |  |
+| [!UICONTROL User] | ![ grijs het pictogram van de Gebruiker ](assets/users-icon-gray.png), ![ het pictogram van de Gebruiker blauw ](assets/user-icon-blue.png), ![ pictogram van de Gebruiker met initialen ](assets/user-icon-initials.png), ![ Avatar ](assets/user-avatar.png), ![ het belangrijkste menu van het gebruikerspictogram ](assets/user-main-menu-area.png) |  |
 
 ## Referentienummers van objecten
 

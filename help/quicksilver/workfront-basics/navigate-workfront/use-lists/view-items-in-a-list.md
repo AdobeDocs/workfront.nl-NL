@@ -5,9 +5,9 @@ description: U kunt lijsten van voorwerpen in  [!DNL Adobe Workfront]  bekijken 
 feature: Get Started with Workfront
 author: Nolan
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '1896'
+source-wordcount: '1902'
 ht-degree: 0%
 
 ---
@@ -331,7 +331,7 @@ Hieronder vindt u de elementen van een lijst:
 
 Deze elementen worden standaard boven aan elke lijst weergegeven. Ze zijn vast en bewegen niet als u door de lijst schuift. Plaats de muis boven het pictogram voor elk element om het te identificeren.
 
-![](assets/nwe-list-elements.png)
+![ de elementen van de Lijst ](assets/nwe-list-elements.png)
 
 U kunt lijstelementen in de volgende gebieden aanpassen en hen met andere gebruikers delen:
 
@@ -455,7 +455,7 @@ In de volgende tabel staan veel van de pictogrammen die beschikbaar zijn op de w
   <tr> 
    <td> <img src="assets/export.png"> </td> 
    <td>[!UICONTROL Export]</td> 
-   <td>Exporteer de lijst naar PDF-, Excel- of tabgescheiden bestanden.</td> 
+   <td>Exporteer de lijst naar PDF, Excel of bestanden met tabs als scheidingsteken.</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/qs-agile-icon-in-new-toolbar-task-list.png"> </td> 
@@ -624,11 +624,11 @@ Voor meer informatie over de bouw van een rapport, zie [ een douanerapport ](../
 
 * Oudere lijsten
 
-  ![](assets/legacy-list-screen-shot-blue-groupings-350x101.png)
+  ![ Blauwe groeperingen ](assets/legacy-list-screen-shot-blue-groupings-350x101.png)
 
 * Bijgewerkte lijsten
 
-  ![](assets/updated-list-screen-shot-gray-groupings-350x71.png)
+  ![ Grijze groeperingen ](assets/updated-list-screen-shot-gray-groupings-350x71.png)
 
 In de volgende tabel ziet u een aantal verschillen tussen de verouderde en bijgewerkte lijsten in [!DNL Workfront] :
 

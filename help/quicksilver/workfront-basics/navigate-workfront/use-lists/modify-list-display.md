@@ -5,9 +5,9 @@ description: In  [!DNL Adobe Workfront], kunt u aanpassen hoe een lijst voor u t
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 3ef7ff03-7293-4b56-9481-e89e1a47a904
-source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '711'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. (Facultatief en voorwaardelijk) als u een specifiek aantal punten op het scherm wilt tonen, klik het **[!UICONTROL Showing]** drop-down menu in de laag-juiste hoek van het scherm, dan selecteren om **100**, **250**, **500**, **[!UICONTROL All]**, of **2000** punten te tonen.
 
-   ![](assets/list-number-page-350x119.png)
+   ![ aantal van de Lijst op pagina ](assets/list-number-page-350x119.png)
 
    >[!TIP]
    >

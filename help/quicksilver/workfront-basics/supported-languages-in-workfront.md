@@ -6,9 +6,9 @@ description: U kunt de taal wijzigen waarin u Adobe Workfront en e-mails uit Wor
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1075'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ U kunt derden contracteren om de Workfront-interface en de uitgaande e-mails van
 >   * Projectnamen
 >   * Taaknamen
 >   * Namen van uitgaven
->   * Portfolio&#39;s
+>   * Portfolio-namen
 >   * Programmanamen
 >   * Goedkeuringsnamen
 >   * Beschrijvingen
@@ -98,7 +98,7 @@ Voor meer informatie over de Fusie van Workfront, zie [ het overzicht van de Fus
 U kunt de taal wijzigen waarin u Workfront weergeeft en de taal van de uitgaande e-mails door de volgende instellingen te wijzigen:
 
 * De taal op uw browser (voor gebruikers die zich niet op IMS bevinden)
-* De primaire en secundaire taal van uw AEM (voor gebruikers op IMS)
+* De primaire en secundaire taal van uw AEM-profiel (voor gebruikers met IMS)
 * De landinstellingen voor klantgegevens en e-maillandinstellingen voor gebruikers in uw Workfront-account.
 
 Als u alle beschikbare vertalingen voor uw gekozen taal wilt bekijken, moet zowel de landinstelling van Workfront als de landinstelling van de browser zijn ingesteld op dezelfde taal.
@@ -138,7 +138,7 @@ Wanneer u de standaard Workfront Email Locale wijzigt, wijzigt u de taal-, datum
 De standaard Workfront-e-maillandinstelling wijzigen:
 
 1. Meld u aan bij Workfront als Workfront-beheerder.
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** Opstelling **![](assets/gear-icon-settings.png).**
 
 1. Klik **Systeem** > **Info van de Klant.**
 
@@ -152,7 +152,7 @@ Wanneer u de landinstelling van uw e-mailadres voor gebruikers wijzigt, wijzigt 
 
 >[!NOTE]
 >
->Wanneer uw organisatie op de Adobe Verenigde Ervaring is, worden de taalvoorkeur opgeslagen in uw profiel van de Adobe en e-mailscène wordt niet gebruikt. Zie [ Verandering de taal van Adobe Experience Cloud ](#change-the-adobe-experience-cloud-language) in dit artikel.
+>Als uw organisatie zich op de Adobe Unified Experience bevindt, worden taalvoorkeuren opgeslagen in uw Adobe-profiel en wordt de e-maillandinstelling niet gebruikt. Zie [ Verandering de taal van Adobe Experience Cloud ](#change-the-adobe-experience-cloud-language) in dit artikel.
 
 Zo wijzigt u de landinstelling van uw e-mailadres:
 

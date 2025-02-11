@@ -6,9 +6,9 @@ description: In het gedeelte [!UICONTROL My Work] van het gebied [!UICONTROL Hom
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 006f6f5e-fe10-4530-a22a-4ab33a4e0da5
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ In het gedeelte [!UICONTROL My Work] van het gebied [!UICONTROL Home] worden uw 
 >
 >[!UICONTROL My Work] in de mobiele app gescheiden is van [!UICONTROL My Work] in de desktopversie van [!UICONTROL Adobe Workfront] .
 
-![](assets/home-myworksection-338x379.png)
+![ Mijn Werk ](assets/home-myworksection-338x379.png)
 
 ## De sectie [!UICONTROL My Work] aanpassen
 
@@ -36,4 +36,4 @@ U kunt kiezen welke menu-items u wilt weergeven in [!UICONTROL My Work] en de vo
    >
    >Het menu-item [!UICONTROL Tasks and Issues] wordt altijd weergegeven en u kunt het item niet verbergen.
 
-   ![](assets/mobile-settings-338x366.png)
+   ![ Mobiele montages ](assets/mobile-settings-338x366.png)

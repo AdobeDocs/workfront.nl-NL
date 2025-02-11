@@ -6,9 +6,9 @@ description: U kunt objecten inline bewerken wanneer ze in een lijst of rapport 
 feature: Get Started with Workfront
 author: Nolan
 exl-id: a94b5aaf-71de-4fcd-946b-459ca3edf7e4
-source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '701'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    Als het veld kan worden bewerkt, worden het veld en alle andere velden in de lijst omgezet in bewerkbare cellen.
 
-   ![](assets/nwe-editable-cells-350x131.png)
+   ![ Bewerkbare cellen ](assets/nwe-editable-cells-350x131.png)
 
 1. Bewerk de informatie in deze cel en druk op [!UICONTROL Enter] .
 

@@ -2,13 +2,13 @@
 product-area: workfront-navigation
 navigation-topic: workfront-navigation
 title: Adobe Unified Experience for  [!DNL Workfront]
-description: De toegang tot van  [!DNL Workfront]  door Adobe Experience Cloud geeft u een naadloze, verenigde ervaring voor het beheren van al uw toepassingen van de Adobe.
+description: De toegang tot van  [!DNL Workfront]  door Adobe Experience Cloud geeft u een naadloze, verenigde ervaring voor het beheren van al uw toepassingen van Adobe.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 Als u [!DNL Workfront] tot en met [!DNL Adobe Experience Cloud] opent, hebt u een naadloze, uniforme ervaring voor het beheer van al uw [!DNL Adobe] -toepassingen. Met Single Identity Management kunt u zich op één locatie aanmelden, zonder meerdere URL&#39;s of aanmeldings-id&#39;s.
 
-Als uw organisatie op de Adobe Verenigde Ervaring is, begint URL die u gebruikt om tot Workfront toegang te hebben met `experience.adobe.com`.
+Als uw organisatie zich op de Verenigde Ervaring van Adobe bevindt, begint de URL die u gebruikt om Workfront te openen met `experience.adobe.com`.
 
-| URL | Ervaring met Adobe |
+| URL | Adobe-ervaring |
 |------------|------------|
 | (Bedrijfsnaam).my.workfront.com | Workfront-ervaring |
 | experience.adobe.com | Adobe Unified Experience |
@@ -85,7 +85,7 @@ Nadat u zich hebt aangemeld bij [!DNL Adobe Experience Cloud] , kunt u alle [!DN
 
 ## Navigeren [!DNL Workfront]
 
-Gebruik het [!UICONTROL Main Menu] pictogram ![](assets/main-menu-icon-left-nav.png) links van de [!DNL Workfront] navigatiebalk om naar pagina&#39;s te navigeren waartoe u toegang hebt. De opties die beschikbaar zijn in de [!UICONTROL Main Menu] zijn afhankelijk van:
+Gebruik het [!UICONTROL Main Menu] pictogram van het pictogram ![ Belangrijkste Menu ](assets/main-menu-icon-left-nav.png) op de linkerzijde van de [!DNL Workfront] navigatiebar om aan om het even welke pagina&#39;s te navigeren die u toegang tot hebt. De opties die beschikbaar zijn in de [!UICONTROL Main Menu] zijn afhankelijk van:
 
 * **de malplaatjeconfiguraties van de Lay-out**: Om te leren hoe een [!DNL Workfront] beheerder [!UICONTROL Main Menu] van een lay-outmalplaatje kan wijzigen, zie [ [!UICONTROL Main Menu] aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 * **het type van Vergunning**: Om de standaardconfiguraties voor verschillende vergunningstypes te leren, zie [ de navigatie voor a [!UICONTROL Review] - vergunning gebruiker ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) begrijpen of [ de navigatie voor a [!UICONTROL Work] - vergunning gebruiker ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md) begrijpen.
@@ -94,7 +94,7 @@ Gebruik het [!UICONTROL Main Menu] pictogram ![](assets/main-menu-icon-left-nav.
 
 ## Uw profiel en voorkeuren openen
 
-U hebt toegang tot uw profiel- en voorkeursopties door in het bovenste navigatiegebied op het menu voor een Adobe-account (uw profielfoto) te klikken.
+U hebt toegang tot uw profiel- en voorkeursopties door in het bovenste navigatiegebied op het menu Adobe-account (uw profielafbeelding) te klikken.
 
 ![ het menu van het Profiel ](assets/aec-profile-picture-menu.png)
 
@@ -102,7 +102,7 @@ In dit menu kunt u:
 
 * Kies **[!UICONTROL Dark theme]** opmaak voor [!DNL Adobe Experience Cloud] .
 * Stel **[!UICONTROL Preferences]** in voor [!DNL Adobe Experience Cloud] , inclusief voorkeuren voor primaire en secundaire talen.
-* Open uw **[!UICONTROL [!DNL Workfront] Profile]**. Wanneer u zich in het profiel bevindt, klikt u op het menu **[!UICONTROL More]** ![](assets/more-icon.png) en selecteert u **[!UICONTROL Edit]** . Voor meer informatie over het profiel, zie [ Mijn Montages ](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md) vormen.
+* Open uw **[!UICONTROL [!DNL Workfront] Profile]**. Zodra u op het profiel bent, klik het **[!UICONTROL More]** menu ![ Meer menu ](assets/more-icon.png) en selecteer **[!UICONTROL Edit]**. Voor meer informatie over het profiel, zie [ Mijn Montages ](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md) vormen.
 * **[!UICONTROL Sign out]** van Adobe Experience Cloud.
 
 ## Uw wachtwoord beheren
@@ -115,9 +115,9 @@ Uw wachtwoord wordt niet beheerd in [!DNL Workfront] .
 
 Als uw organisatie een afzonderlijke toepassing gebruikt om wachtwoorden te beheren, zult u uw wachtwoord door die leverancier veranderen.
 
-Als uw wachtwoord door [!DNL Adobe] wordt beheerd, kunt u het wachtwoord in uw rekening van de Adobe veranderen.
+Als uw wachtwoord wordt beheerd door [!DNL Adobe] , kunt u het wachtwoord wijzigen in uw Adobe-account.
 
-[ zie dit artikel voor het veranderen van uw wachtwoord van de Adobe.](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html) {target="_blank"}
+[ zie dit artikel voor het veranderen van uw wachtwoord van Adobe.](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html) {target="_blank"}
 
 Neem contact op met de beheerder voor meer informatie over het wijzigen van het wachtwoord.
 

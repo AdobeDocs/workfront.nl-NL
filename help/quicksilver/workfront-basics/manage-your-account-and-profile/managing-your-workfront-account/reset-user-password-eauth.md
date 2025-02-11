@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: 72f955e9-75ff-4ff7-b434-7a2b2d5ee0e8
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '204'
 ht-degree: 0%
 
 ---
@@ -48,17 +48,17 @@ Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnem
 
 ## Het wachtwoord van een gebruiker opnieuw instellen in een omgeving die geschikt is voor eAuth
 
-1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Workfront] en klik vervolgens op **[!UICONTROL Users]** ![](assets/users-icon-in-main-menu.png) .
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van [!DNL Workfront], dan klik **[!UICONTROL Users]** ![ pictogram van Gebruikers ](assets/users-icon-in-main-menu.png).
 
-   ![](assets/main-menu-options-350x481.png)
+   ![ Belangrijkste menuopties ](assets/main-menu-options-350x481.png)
 
 1. Selecteer **[!UICONTROL User]** waarvoor opnieuw wachtwoord moet worden ingesteld.
-   ![](assets/100520classicnweselectuser-350x105.png)
+   ![ selecteer de gebruiker ](assets/100520classicnweselectuser-350x105.png)
 
 1. Klik op de knop **[!UICONTROL More]** die verschijnt nadat u de gewenste **[!UICONTROL User]** optie hebt gekozen en selecteer de optie **[!UICONTROL Send Forgot Password Email]** in het keuzemenu.
 
-   ![](assets/100520classicnwesendemail-350x134.png)
+   ![ verzend Forgot wachtwoord e-mail ](assets/100520classicnwesendemail-350x134.png)
 
 Nadat u de optie **[!UICONTROL Send Forgot Password Email]** hebt geselecteerd, wordt een e-mail verzonden naar de geselecteerde gebruiker die instructies bevat waarmee deze zijn of haar eigen wachtwoord kan wijzigen.
 
-![](assets/pwresetemail-resized-350x461.png)
+![ E-mail van het Terugstellen ](assets/pwresetemail-resized-350x461.png)

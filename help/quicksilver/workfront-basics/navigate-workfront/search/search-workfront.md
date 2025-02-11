@@ -5,9 +5,9 @@ description: U kunt van punten in  [!DNL Adobe Workfront]  gemakkelijk de plaats
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 7c856349-c79f-40d8-9c96-b32bfb6d5417
-source-git-commit: 073e6c7d4e830dfd2b8920a20e1490c5524d71bd
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '1575'
+source-wordcount: '1597'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ U kunt items gemakkelijk vinden in [!DNL Adobe Workfront] door te zoeken naar it
 
 U kunt het vak [!UICONTROL Search] in de rechterbovenhoek van elke pagina in [!DNL Workfront] zien.
 
-![](assets/search-globalnavigationbar-350x62.png)
+![ pictogram van het Onderzoek in navigatiebar ](assets/search-globalnavigationbar-350x62.png)
 
 U moet over machtigingen beschikken om een object weer te geven voordat u het in een zoekopdracht kunt vinden. Om deze reden, variëren de onderzoeksresultaten van gebruiker aan gebruiker.
 
@@ -185,15 +185,15 @@ U kunt een basiszoekopdracht op een van de volgende manieren uitvoeren:
 
 Een basiszoekopdracht uitvoeren:
 
-1. Klik op het vergrootglas ![](assets/search-icon.png) rechtsboven op de pagina. U kunt ook **[!UICONTROL ALT + /]** of **[!UICONTROL Option + /]** typen om het menu [!UICONTROL Search] te openen.
+1. Klik het vergrootglas ![ pictogram van het Onderzoek ](assets/search-icon.png) in de hoger-juiste hoek van de pagina. U kunt ook **[!UICONTROL ALT + /]** of **[!UICONTROL Option + /]** typen om het menu [!UICONTROL Search] te openen.
 
 1. (Optioneel) Als u naar een specifiek object wilt zoeken, klikt u op de vervolgkeuzelijst **[!UICONTROL All]** en selecteert u het object dat u wilt zoeken.
 
-   ![](assets/search-objecttype.png)
+   ![ Onderzoek door objecten type ](assets/search-objecttype.png)
 
 1. Typ in het vak **[!UICONTROL Search]** de informatie die u zoekt.\
    Voor informatie over welke gebieden in [!DNL Workfront] worden gezocht, zie [ Onderzoek ](#understand-search) begrijpen.\
-   ![](assets/qs-search-drop-down-highlighted-350x234.png)\
+   ![ drop-down van het Onderzoek ](assets/qs-search-drop-down-highlighted-350x234.png)\
    Terwijl u begint te typen in de zoekbalk, geeft [!DNL Workfront] aanbevelingen op basis van uw weergavegeschiedenis en wordt het gewenste trefwoord in blauw gemarkeerd.
 
 1. Als het item dat u zoekt wordt weergegeven in het menu [!UICONTROL typeahead] , klikt u erop.
@@ -232,7 +232,7 @@ Een zoekopdracht verfijnen:
 1. Klik in een van de velden die beschikbaar zijn om de lijst met resultaten te verkorten.\
    De selecties die u maakt, worden in blauw gemarkeerd en de veldwaarden die u niet selecteert, worden verborgen.\
    Nadat u elke nieuwe waarde hebt geselecteerd, worden de resultaten aan de rechterkant dynamisch bijgewerkt.\
-   ![](assets/qs-refine-search-350x175.png)
+   ![ verfijnen onderzoek ](assets/qs-refine-search-350x175.png)
 
 1. (Optioneel) Klik op de geselecteerde waarden om deze te deselecteren en alle waarden voor elk veld opnieuw weer te geven.
 
@@ -253,16 +253,16 @@ Dit type zoekopdracht is handig wanneer u een trefwoord dat aan een object is ge
 
 Een geavanceerde zoekopdracht uitvoeren:
 
-1. Klik in de rechterbovenhoek van een pagina in [!DNL Workfront] op het **[!UICONTROL Search]** pictogram ![](assets/search-icon.png) . Het menu [!DNL Search] wordt weergegeven.
+1. In de hoger-juiste hoek van om het even welke pagina in [!DNL Workfront], klik het **[!UICONTROL Search]** pictogram ![ pictogram van het Onderzoek ](assets/search-icon.png). Het menu [!DNL Search] wordt weergegeven.
 
 1. Klik onder aan het menu [!UICONTROL Search] op **[!UICONTROL Advanced Search]** .\
-   ![](assets/qs-advanced-search-350x224.png)\
+   ![ Geavanceerd onderzoek ](assets/qs-advanced-search-350x224.png)\
    De pagina [!UICONTROL Advanced Search] wordt geopend vanaf rechts en bedekt het grootste deel van de vorige pagina.
 
 1. Selecteer het type object waarnaar u zoekt.\
    **[!UICONTROL Projects]** is standaard geselecteerd.
 
-   ![](assets/advanced-search-objects-qs-remove-after-prod-release.png)
+   ![ Geavanceerde onderzoeksvoorwerpen ](assets/advanced-search-objects-qs-remove-after-prod-release.png)
 
 1. (Optioneel) Typ een trefwoord in het veld boven aan de lijst.
 1. (Optioneel) Klik op **[!UICONTROL Filter your results]** om de zoekresultaten te filteren op basis van specifieke veldtypen en selecteer vervolgens een veld in de lijst. Selecteer zo nodig ook een waarde voor het veld.\

@@ -6,9 +6,9 @@ description: U kunt bestaande opmerkingen op een proefdruk controleren en oploss
 author: Nolan
 feature: Get Started with Workfront
 exl-id: c38f0d80-11e0-4d5a-9591-602543177fe6
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ In de lijst [!UICONTROL comment] kunt u verschillende handelingen uitvoeren, zoa
 
    Deze optie is alleen beschikbaar als u ongelezen opmerkingen hebt geselecteerd.
 
-1. Als u de geselecteerde opmerkingen wilt verwijderen, selecteert u het **[!UICONTROL Delete]** pictogram ![](assets/delete-30x28.png) op de onderste werkbalk. Selecteer vervolgens **[!UICONTROL Delete]** in het bevestigingsbericht om de opmerking permanent te verwijderen.
+1. Om de geselecteerde commentaren te schrappen, selecteer het **[!UICONTROL Delete]** pictogram ![ pictogram van de Schrapping ](assets/delete-30x28.png) in de bodemtoolbar. Selecteer vervolgens **[!UICONTROL Delete]** in het bevestigingsbericht om de opmerking permanent te verwijderen.
 
 ## Opmerking over een proefdruk
 
@@ -82,7 +82,7 @@ U kunt uw proefdrukopmerkingen koppelen aan een specifiek gebied in het document
 
    ![ het hulpmiddelmontages van de Teken ](assets/ios-drawingtoolsettings-350x359.png)
 
-1. Draw de vorm op het proefdrukdocument. Selecteer het **[!UICONTROL Undo]** pictogram ![ ongedaan maken ](assets/android-undo-icon-30x31.png) om de tekening ongedaan te maken.
+1. Teken de vorm op het proefdrukdocument. Selecteer het **[!UICONTROL Undo]** pictogram ![ ongedaan maken ](assets/android-undo-icon-30x31.png) om de tekening ongedaan te maken.
 1. (Voorwaardelijk) Selecteer de vorm en kies **[!UICONTROL Settings]** om de vorminstellingen te bewerken of **[!UICONTROL Remove]** om de vorm te verwijderen.
 
    ![ het menu van de Teken ](assets/ios-drawing-settingsremove-350x190.png)

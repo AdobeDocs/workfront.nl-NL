@@ -6,9 +6,9 @@ description: U kunt uw  [!DNL Adobe Workfront]  wachtwoord terugstellen. Als bel
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
@@ -50,15 +50,15 @@ Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnem
 
 ## Uw wachtwoord opnieuw instellen in [!DNL Adobe Workfront]
 
-1. Klik op het pictogram **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op uw gebruikersnaam naast de profielafbeelding.
+1. Klik het **[!UICONTROL Main Menu]** pictogram van het pictogram ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van [!DNL Adobe Workfront], dan klik uw gebruikersnaam naast uw profielfoto.
 
    ![ open het belangrijkste menu en selecteer uw gebruikersnaam.](assets/main-menu-options-350x481.png)
 
-1. Klik op **[!UICONTROL More menu]** ![](assets/more-icon.png) en vervolgens op **[!UICONTROL Edit]** .
+1. Klik **[!UICONTROL More menu]** ![ Meer pictogram ](assets/more-icon.png), dan klik **[!UICONTROL Edit]**.
 
 1. Klik onder **[!UICONTROL Personal Info]** in het vak **[!UICONTROL Edit Person]** dat wordt weergegeven op **[!UICONTROL Reset Password]** .
 
-   ![](assets/edit-person-box-350x196.jpg)
+   ![ geef persoon ](assets/edit-person-box-350x196.jpg) uit
 
    Als uw organisatie [!DNL Workfront] met een oplossing SSO heeft geïntegreerd, kunt u worden verpletterd om uw wachtwoorden door uw SSO systeem terug te stellen wanneer u **[!UICONTROL Reset Password]** klikt. Hiermee wordt uw SSO-wachtwoord opnieuw ingesteld, wat invloed heeft op het aanmelden bij al uw andere toepassingen binnen uw organisatie.
 

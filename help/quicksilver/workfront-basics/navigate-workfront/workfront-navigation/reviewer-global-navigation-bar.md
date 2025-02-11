@@ -6,9 +6,9 @@ description: Het Belangrijkste Menu verandert met het toegangsniveau u door uw  
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c646b3d2-2eca-47ef-b181-9358cef03ed7
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ De volgende gebieden worden opgenomen in de standaardlay-out van een [!UICONTROL
 * **[!UICONTROL Blueprints]**: controleer bestaande blauwdrukken in uw systeem en verzoek om te worden geïnstalleerd, als de [!DNL Workfront] beheerder de verzoekrij voor blauwdrukken vormde. Voor meer informatie, zie [ Overzicht van Vervagen ](../../../administration-and-setup/blueprints/blueprints-overview.md).
 
 
-![](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
+![ heb toegang tot mijn updates van het Belangrijkste menu ](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
 
 ## Uw standaard aanpassen [!UICONTROL Main Menu]
 
