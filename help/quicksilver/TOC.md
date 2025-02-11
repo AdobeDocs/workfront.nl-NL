@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: c67affb14c237f8e4a6cf8a44c707a5ab5893364
+source-git-commit: 7a2549e0d523f211ee13bf13fdc9a54aa7cf4572
 workflow-type: tm+mt
-source-wordcount: '13028'
+source-wordcount: '13030'
 ht-degree: 0%
 
 ---
@@ -365,7 +365,7 @@ ht-degree: 0%
          * [Bijgewerkte mobiele app voor iOS en Android (begin augustus 2017)](product-announcements/announcements/announcement-archive/updated-mobile-app.md)
          * [TLS 1.2 is vereist in Adobe Workfront](product-announcements/announcements/announcement-archive/tls-1-disabled.md)
          * [Outlook 365-invoegtoepassing is nu beschikbaar](product-announcements/outlook-365-add-in/outlook-365-add-in-now-available.md)
-         * [Vervanging van gereedschappen op basis van Flash in Adobe Workfront](product-announcements/announcements/announcement-archive/replace-flash-tools.md)
+         * [Vervanging van Flash-gereedschappen in Adobe Workfront](product-announcements/announcements/announcement-archive/replace-flash-tools.md)
          * [Nieuw Adobe Workfront-systeem dat POP-e-mail voor aanvraaglijsten vervangt door 21.1](product-announcements/announcements/announcement-archive/pop-removal-request-queue.md)
          * [Nieuwe IP-adressen voor Adobe Workfront-e-mailberichten met de release 21.1](product-announcements/announcements/announcement-archive/new-email-ip-21-1.md)
          * [E-mailspoofing en verwijdering van POP-antwoorden](product-announcements/announcements/announcement-archive/email-spoofing-pop-reply-message.md)
@@ -732,7 +732,7 @@ ht-degree: 0%
    * Integraties configureren {#configure-integrations}
       * [Integraties configureren](administration-and-setup/configure-integrations/workfront-integrations.md)
       * [Adobe Workfront-integratie](administration-and-setup/configure-integrations/workfront-integrations-1.md)
-      * [De as a Cloud Service integratie van Experience Manager Assets configureren](administration-and-setup/configure-integrations/configure-aacs-integration.md)
+      * [De Experience Manager Assets as a Cloud Service-integratie configureren](administration-and-setup/configure-integrations/configure-aacs-integration.md)
       * [De integratie met Experience Manager Assets Essentials configureren](documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
       * [Workfront configureren met verouderde Adobe Experience Manager-aansluiting](administration-and-setup/configure-integrations/configure-workfront-aem.md)
       * [Gebruikers toegang geven tot de mobiele toepassing](administration-and-setup/configure-integrations/enable-users-access-mobile-app.md)
@@ -741,7 +741,7 @@ ht-degree: 0%
       * [Documentintegratie uitschakelen](administration-and-setup/configure-integrations/disable-document-integrations.md)
       * [De SharePoint-integratie configureren](administration-and-setup/configure-integrations/configure-sharepoint-integration.md)
       * [Metagegevenstoewijzing instellen](administration-and-setup/configure-integrations/set-up-metadata-mapping.md)
-      * [Adobe Workfront-Creatives Cloud maken voor uw gebruikers in Adobe Admin Console](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
+      * [Adobe Workfront Creative Cloud-pakketten maken voor uw gebruikers in Adobe Admin Console](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
       * [OAuth2-toepassingen maken voor Workfront-integratie](administration-and-setup/configure-integrations/create-oauth-application.md)
       * [Aangepaste OAuth2-toepassingen weergeven en beheren](administration-and-setup/configure-integrations/manage-custom-oauth2-apps.md)
       * [De integratie met JumpSeat configureren](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)
@@ -1108,21 +1108,21 @@ ht-degree: 0%
          * [Bewijs van een gekoppeld element met de verbeterde connector](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-proof-asset.md)
          * [Een gekoppeld element met de verbeterde connector weergeven of downloaden](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-view-download-asset.md)
       * Adobe Workfront for Experience Manager Assets en Assets Essentials {#wf-aem-essentials}
-         * [Adobe Workfront voor Experience Manager Assets en Assets Essentials: artikelindex](documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
+         * [Adobe Workfront for Experience Manager Assets and Assets Essentials: artikelindex](documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
          * [Overzicht van Adobe Experience Manager Assets-integratie](documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
          * [Elementen en mappen koppelen vanuit Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
-         * [Toegewezen metagegevens voor Experience Manager Assets of Assets Essentials weergeven](documents/adobe-workfront-for-experience-manager-assets-essentials/view-asset-metadata.md)
+         * [Toegewezen metagegevens voor Experience Manager Assets of Elementen weergeven](documents/adobe-workfront-for-experience-manager-assets-essentials/view-asset-metadata.md)
          * [Een gekoppeld element weergeven of downloaden van Experience Manager Assets of Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/view-download-asset.md)
-         * [Een document verzenden naar Experience Manager Assets of Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
+         * [Een document verzenden naar Experience Manager Assets of Elementen](documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
          * [Bewijs van een gekoppeld actief voor Experience Manager Assets of Asset Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
          * [Een map maken die is gekoppeld met Experience Manager Assets of Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
-         * [Elementen en mappen ontkoppelen of verwijderen uit Experience Manager Assets of Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/unlink-or-delete-aem-assets.md)
+         * [Elementen en mappen ontkoppelen of verwijderen uit Experience Manager Assets of Elementen.](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/unlink-or-delete-aem-assets.md)
          * [Workflows gebruiken in de integratie met Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
          * [Workfront Fusion gebruiken om een Workfront-uitgave om te zetten in een project dat Adobe Experience Manager-workflows bevat](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-fusion-to-create-project-with-workflows.md)
          * [ los de Integratie van Adobe Experience Manager ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md) problemen op
    * Migreren vanaf verouderde of verbeterde connectors {#migrate-from-legacy-enhanced-connectors}
       * [Migreren vanaf verouderde of verbeterde connectors](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
-      * [Migreren van de verouderde of verbeterde aansluiting naar Workfront voor Adobe Experience Manager as a Cloud Service integratie](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
+      * [Migreren van de verouderde of verbeterde aansluiting naar Workfront for Adobe Experience Manager as a Cloud Service-integratie](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
       * [Migreren van de verouderde aansluiting naar de verbeterde aansluiting](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-to-enhanced.md)
       * [De Workfront verwijderen met de verouderde Adobe Experience Manager-aansluiting](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-legacy-connector.md)
       * [De Workfront verwijderen met de Adobe Experience Manager Enhanced-aansluiting](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-enhanced-connector.md)
@@ -1274,7 +1274,7 @@ ht-degree: 0%
          * [Overzicht van de geplande startdatum van de taak](manage-work/tasks/task-information/task-planned-start-date.md)
          * [Overzicht van de geplande voltooiing van de taak](manage-work/tasks/task-information/task-planned-completion-date.md)
          * [Overzicht van afhandelingsdatum taak](manage-work/tasks/task-information/handoff-task-date.md)
-         * [Overzicht van Datum Slack taak](manage-work/tasks/task-information/task-slack-date.md)
+         * [Slack-datumoverzicht taak](manage-work/tasks/task-information/task-slack-date.md)
          * [Overzicht van &quot;Kan starten&quot; voor taken](manage-work/tasks/task-information/can-start-task-overview.md)
          * [Traceermodus instellen voor taken](manage-work/tasks/task-information/set-tracking-mode-for-tasks.md)
          * [Vertraging taakniveaus bijwerken](manage-work/tasks/task-information/task-leveling-delay.md)
@@ -1392,14 +1392,14 @@ ht-degree: 0%
          * [Informatie weergeven in de Gantt-grafiek](manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md)
          * [Informatie bijwerken in de Gantt-grafiek van de takenlijst](manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)
          * [Niveaubronnen in de Gantt-grafiek](manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md)
-         * [De Gantt-grafiek exporteren naar PDF](manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)
-   * Beheer van Portfolio&#39;s {#portfolio-management}
-      * [Beheer van Portfolio&#39;s](manage-work/portfolios/portfolio-management-overview.md)
-      * Overzicht van Portfolio&#39;s in Adobe Workfront {#portfolio-overview-in-adobe-workfront}
+         * [Gantt-diagram exporteren naar PDF](manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)
+   * Portfolio Management {#portfolio-management}
+      * [Portfolio Management](manage-work/portfolios/portfolio-management-overview.md)
+      * Portfolio-overzicht in Adobe Workfront {#portfolio-overview-in-adobe-workfront}
          * [Portfolio&#39;s](manage-work/portfolios/portfolios-overview/portfolio-overview-1.md)
          * [Navigeren binnen een portfolio](manage-work/portfolios/portfolios-overview/navigate-within-portfolio.md)
-         * [Overzicht van het beheer van Portfolio&#39;s](manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md)
-         * [Overzicht van Portfolio&#39;s in Adobe Workfront](manage-work/portfolios/portfolios-overview/portfolio-overview.md)
+         * [Overzicht van Portfolio Management](manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md)
+         * [Portfolio-overzicht in Adobe Workfront](manage-work/portfolios/portfolios-overview/portfolio-overview.md)
       * Portfolio&#39;s maken en beheren {#create-and-manage-portfolios}
          * [Portfolio&#39;s maken en beheren](manage-work/portfolios/create-and-manage-portfolios/create-and-manage-portfolios.md)
          * [Een portfolio maken](manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
@@ -1416,13 +1416,13 @@ ht-degree: 0%
          * [Een bestaand programma toevoegen aan een portfolio](manage-work/portfolios/create-and-manage-programs/move-program.md)
          * [Een project toevoegen aan een programma](manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
          * [Een project uit een programma verwijderen](manage-work/portfolios/create-and-manage-programs/remove-project-from-program.md)
-      * Projecten beheren in Portfolio optimaliseren {#manage-projects-in-portfolio-optimizer}
-         * [Projecten beheren in Portfolio optimaliseren](manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)
-         * [Overzicht van Portfolio optimaliseren](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
-         * [De functie Portfolio optimaliseren vinden](manage-work/portfolios/portfolio-optimizer/locate-portfolio-optimizer.md)
+      * Projecten beheren in Portfolio Optimizer {#manage-projects-in-portfolio-optimizer}
+         * [Projecten beheren in Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)
+         * [Overzicht van Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
+         * [De Portfolio Optimizer zoeken](manage-work/portfolios/portfolio-optimizer/locate-portfolio-optimizer.md)
          * [Overzicht van de Portfolio Optimizer Score](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md)
-         * [Prioriteit geven aan projecten in Portfolio optimaliseren](manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)
-         * [Projecten optimaliseren in Portfolio optimaliseren](manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)
+         * [Prioriteit geven aan projecten in Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)
+         * [Projecten optimaliseren in Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)
          * [Het risico voor de nettowaarde in een portefeuille berekenen](manage-work/portfolios/portfolio-optimizer/calculate-risk-to-net-value-in-portfolio.md)
    * Verzoeken {#requests}
       * [Verzoeken](manage-work/requests/requests-overview.md)
@@ -1566,7 +1566,7 @@ ht-degree: 0%
          * [Filter: weergaverapporten die zijn gepland voor levering](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-report-delivery-filter.md)
          * [Filter: items weergeven op basis van dezelfde naam wanneer de statussen zijn gekoppeld aan verschillende groepen](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-same-name-statuses-from-different-groups.md)
          * [Een rapport groeperen op basis van een aangepast veld met meerdere selecties](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-multi-select-custom-field.md)
-         * [Groepering: taakgroepering op vier niveaus voor eigenaar van Portfolio, eigenaar van programma, eigenaar van project en status van project](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-4-level-task-grouping.md)
+         * [Groepering: taakgroepering op vier niveaus voor Portfolio-eigenaar, programmaeigenaar, projecteigenaar en projectstatus](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-4-level-task-grouping.md)
          * [Groeperen: een vierde groep toevoegen aan een lijst](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-add-fourth-grouping.md)
          * [Groeperen: lijstresultaten ordenen met een berekende waarde die hetzelfde is voor alle objecten in de groep](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-calculated-common-values.md)
          * [Groeperen: het resultaat weergeven van het samenvoegen van meerdere berekende waarden in een groep](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md)
@@ -1596,7 +1596,7 @@ ht-degree: 0%
          * [Weergave: een afbeelding weergeven in plaats van een tekenreeks in een kolom](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md)
          * [Weergave: weergaveobjecten die niet zijn opgenomen in de standaardinterface](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-objects-not-in-standard-interface.md)
          * [Weergave: oorspronkelijke informatie over uitgaven weergeven in taak- of projectlijsten](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
-         * [Weergave: informatie over programma en Portfolio weergeven in een taakweergave](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-program-portfolio-info-task-view.md)
+         * [Weergave: geef Program- en Portfolio-informatie weer in een taakweergave](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-program-portfolio-info-task-view.md)
          * [Weergeven: taakinspringingen weergeven in een takenlijst](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-task-identations.md)
          * [Weergave: de relatie bovenliggend-onderliggend item in een taak weergeven door de taken in te springen](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-parent-child-relationship-by-indenting-tasks-with-custom-view.md)
          * [Weergeven: documentrapport met koppeling naar proefdruk](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-document-report-with-proof-link.md)
@@ -1698,7 +1698,7 @@ ht-degree: 0%
       * [De activiteit per teamvisualisatie bekijken in Uitgebreide analyse](enhanced-analytics/activity-by-team-overview.md)
    * Workfront Data Connect {#data-lake}
       * [Overzicht Workfront Data Connect](reports-and-dashboards/data-lake/data-lake-overview.md)
-      * [Een lezeraccount of verbinding voor Snowflake maken](reports-and-dashboards/data-lake/create-a-reader-account.md)
+      * [Een reader-account of -verbinding maken voor Snowflake](reports-and-dashboards/data-lake/create-a-reader-account.md)
       * [Verbinding maken met Workfront Data Connect](reports-and-dashboards/data-lake/share-data-externally.md)
       * [Workfront Data Connect-gegevenswoordenboek](reports-and-dashboards/data-lake/data-dictionary.md)
       * [Voorbeelden van query&#39;s voor Workfront Data Connect](reports-and-dashboards/data-lake/basic-query-examples.md)
@@ -1755,7 +1755,7 @@ ht-degree: 0%
       * [Werk de werkitems in de werklastbalans bij met de samenvatting](resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
 * Werk controleren en goedkeuren {#review-and-approve-work}
    * [Werk beoordelen en goedkeuren](review-and-approve-work/review-and-approve-work.md)
-   * [Programma Alpha - Goedkeuringen document](review-and-approve-work/Documents/doc-approvals-alpha.md)
+   * [Alpha-programma - Goedkeuringen document](review-and-approve-work/Documents/doc-approvals-alpha.md)
    * [Overzicht van beperkte documenten en bewijsmiddelen voor niet-betaalde gebruikers](review-and-approve-work/proof-doc-decision-limits.md)
    * Goedkeuringen voor werk {#work-approvals}
       * [Goedkeuring van werkzaamheden](review-and-approve-work/manage-approvals/manage-approvals.md)
@@ -2086,13 +2086,13 @@ ht-degree: 0%
    * [Overzicht van ingebouwde Adobe Workfront-integratie](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
    * [Adobe Workfront-integratiemethoden](workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md)
    * Adobe Workfront for Creative Cloud {#workfront-for-creative-cloud}
-      * [Adobe Workfront for Creative Cloud](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)
-      * De Adobe Workfront-insteekmodule voor Creatives Cloud toepassingen installeren {#install-wf-cc}
+      * [Adobe Workfront voor Creative Cloud](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)
+      * De Adobe Workfront-insteekmodule voor Creative Cloud-toepassingen installeren {#install-wf-cc}
          * [Adobe Workfront for Creative Cloud-toepassingen installeren](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
          * [Adobe Workfront voor Photoshop installeren en openen](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
          * [Adobe Workfront voor XD installeren en openen](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
          * [Installeren en openen  [!DNL Adobe Workfront for design and video]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
-      * Werken beheren met de Adobe Workfront-insteekmodule voor Creatives Cloud toepassingen {#manage-wf-cc}
+      * Werken beheren met de Adobe Workfront-insteekmodule voor Creative Cloud-toepassingen {#manage-wf-cc}
          * [Werken beheren met de Adobe Workfront-insteekmodule voor Creative Cloud-toepassingen](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
          * [Uw werk zoeken met de Adobe Workfront-insteekmodule](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-find-work.md)
          * [Gegevens over het werkitem weergeven met de Adobe Workfront-insteekmodule](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-view-work-info.md)
@@ -2100,14 +2100,14 @@ ht-degree: 0%
          * [Werkitems markeren die zijn voltooid met de Adobe Workfront-insteekmodule](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
          * [Logtijd met de Adobe Workfront-insteekmodule](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
          * [ [!DNL Adobe Workfront]  berichten van Adobe Creative Cloud beheren](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
-      * Documenten en proefdrukken uploaden met de Adobe Workfront-insteekmodule voor Creatives Cloud toepassingen {#upload-docs-proofs-wf-cc}
+      * Documenten en proefdrukken uploaden met de Adobe Workfront-insteekmodule voor Creative Cloud-toepassingen {#upload-docs-proofs-wf-cc}
          * [Upload documenten en proef van  [!DNL Adobe Workfront plugin]  aan  [!DNL Creative Cloud]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Documenten en proefdrukken uploaden met de Adobe Workfront-insteekmodule voor Creative Cloud-toepassingen](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
          * [Proefbestanden uploaden vanuit Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs-ps.md)
          * [Documenten uploaden vanuit Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-ps.md)
-         * [XD tekengebieden als proefdrukken uploaden naar Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-proofs.md)
-         * [XD tekengebieden uploaden naar Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
-         * [Proefdrukken van InDesign uploaden](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-id.md)
+         * [XD-tekengebieden als proefdrukken uploaden naar Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-proofs.md)
+         * [XD-tekengebieden als documenten uploaden naar Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
+         * [Proefbestanden uploaden vanuit InDesign](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-id.md)
          * [Documenten uploaden vanuit InDesign](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-docs-id.md)
          * [Proefdrukken uploaden vanuit  [!DNL Illustrator]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
          * [Documenten uploaden vanuit  [!DNL Illustrator]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-ai-docs.md)
@@ -2149,11 +2149,11 @@ ht-degree: 0%
       * [Outlook inschakelen voor Office voor gebruik met Adobe Workfront en SAML 2.0](workfront-integrations-and-apps/using-workfront-with-outlook/enable-outlook-for-office-for-use-with-wf-and-saml-2.md)
    * Adobe Workfront for Microsoft Teams {#workfront-for-microsoft-teams}
       * [[!DNL Adobe Workfront for Microsoft Teams]: artikelindex](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md)
-      * [Overzicht van Adobe-werkfronten voor Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/workfront-for-microsoft-teams.md)
-      * [Adobe Workfront for Microsoft Teams installeren](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)
-      * [Adobe Workfront benaderen vanuit Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/access-workfront-from-ms-teams.md)
+      * [Overzicht Adobe-werkfronten voor Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/workfront-for-microsoft-teams.md)
+      * [Adobe Workfront voor Microsoft Teams installeren](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)
+      * [Adobe Workfront openen vanuit Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/access-workfront-from-ms-teams.md)
       * [Adobe Workfront-objecten zoeken en delen in Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md)
-      * [Adobe Workfront-taken maken van Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md)
+      * [Adobe Workfront-taken maken vanuit Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md)
       * [Adobe Workfront-verzoeken vanuit Microsoft Teams verzenden](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/submit-workfront-requests-from-ms-teams.md)
       * [Adobe Workfront-meldingen beheren in Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md)
    * Adobe Workfront for Salesforce {#workfront-for-salesforce}
@@ -2164,15 +2164,15 @@ ht-degree: 0%
       * [Adobe Workfront-aanvragen verzenden vanuit Salesforce-objecten](workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md)
       * [Adobe Workfront-projecten maken van Salesforce-objecten](workfront-integrations-and-apps/using-workfront-with-salesforce/create-wf-projects-from-salesforce-objects.md)
    * Adobe Workfront for Slack {#workfront-for-slack}
-      * [Adobe Workfront for Slack](workfront-integrations-and-apps/using-workfront-with-slack/use-workfront-for-slack.md)
-      * [Adobe Workfront for Slack configureren](workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)
-      * [Heb toegang tot uw favorieten en recente punten van Slack](workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md)
-      * [Uw werk en goedkeuringen beheren vanuit de Slack](workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md)
+      * [Adobe Workfront voor Slack](workfront-integrations-and-apps/using-workfront-with-slack/use-workfront-for-slack.md)
+      * [Adobe Workfront voor Slack configureren](workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)
+      * [Open je favoriete en recente objecten van Slack](workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md)
+      * [Uw werk en goedkeuringen beheren vanuit Slack](workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md)
       * [Taken en problemen maken vanuit Slack](workfront-integrations-and-apps/using-workfront-with-slack/create-tasks-and-issues-from-slack.md)
-      * [Zoeken naar Adobe Workfront-objecten van Slack](workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md)
-      * [Adobe Workfront-objecten benaderen via een gedeelde koppeling in Slack](workfront-integrations-and-apps/using-workfront-with-slack/access-wf-objects-from-shared-linked-in-slack.md)
-      * [Adobe Workfront benaderen vanuit Slack](workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)
-      * [Opmerkingen van Slacks als een update plaatsen](workfront-integrations-and-apps/using-workfront-with-slack/post-a-slack-comment-as-an-update.md)
+      * [Zoeken naar Adobe Workfront-objecten vanuit Slack](workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md)
+      * [Adobe Workfront-objecten openen via een gedeelde koppeling in Slack](workfront-integrations-and-apps/using-workfront-with-slack/access-wf-objects-from-shared-linked-in-slack.md)
+      * [Adobe Workfront openen vanuit Slack](workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)
+      * [Slack-commentaar verzenden als update](workfront-integrations-and-apps/using-workfront-with-slack/post-a-slack-comment-as-an-update.md)
       * [Adobe Workfront-berichten ontvangen in Slack](workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md)
    * Adobe Workfront met Anaplan {#workfront-with-anaplan}
       * [Adobe Workfront met Anaplan](workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md)
@@ -2460,6 +2460,7 @@ ht-degree: 0%
       * [De API gebruiken om gegevens voor programma&#39;s en services te synchroniseren](wf-api/general/api-sync-data.md)
       * [Een gebruiker deactiveren via de API](wf-api/general/deactivate-user-api.md)
    * Gebeurtenisabonnementen {#event-subscriptions}
+      * [Gebeurtenisabonnementen](wf-api/api/event-subscriptions.md)
       * [API voor abonnementen voor gebeurtenissen](wf-api/general/event-subs-api.md)
       * [Aanbevolen werkwijzen voor abonnementen op gebeurtenissen](wf-api/general/event-sub-best-practice.md)
       * [Vereisten voor levering van abonnementen](wf-api/general/setup-event-sub-endpoint.md)

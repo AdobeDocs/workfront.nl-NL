@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: adde34e472a762274b00f5c050b76e71002cea15
+source-git-commit: 193a1ecafb5dd919a2fa760ce5ab2a9903881900
 workflow-type: tm+mt
 source-wordcount: '2362'
 ht-degree: 0%
@@ -286,7 +286,7 @@ Als u een abonnementsbron doorgeeft als de hoofdtekst van een aanvraag (waarbij 
 
 ## Abonnementen voor opvragen van gebeurtenissen
 
-Bij het opvragen van Workfront HTTP gebruikt u de methode GET. Er zijn twee manieren om te zoeken naar gebeurtenisabonnementen: query op abonnement-id (zie hieronder) of vraag naar alle gebeurtenisabonnementen.
+Gebruik de GET-methode wanneer u Workfront HTTP opvraagt. Er zijn twee manieren om te zoeken naar gebeurtenisabonnementen: query op abonnement-id (zie hieronder) of vraag naar alle gebeurtenisabonnementen.
 
 ### Query uitvoeren op alle abonnementen voor gebeurtenissen
 
@@ -438,6 +438,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
    }
 }
 ```
+
 
 ## Abonnementsversie voor gebeurtenissen
 
@@ -821,7 +822,7 @@ In het veld `filterConnector` op de payload van het abonnement kunt u kiezen hoe
 
 ## Gebeurtenisabonnementen verwijderen
 
-Bij het verwijderen van Workfront HTTP gebruikt u de methode DELETE. De aanvraagsyntaxis voor het verwijderen van één gebeurtenisabonnement op basis van abonnement-id ziet er als volgt uit:
+Gebruik de DELETE-methode wanneer u Workfront HTTP verwijdert. De aanvraagsyntaxis voor het verwijderen van één gebeurtenisabonnement op basis van abonnement-id ziet er als volgt uit:
 
 **Verzoek URL:**
 

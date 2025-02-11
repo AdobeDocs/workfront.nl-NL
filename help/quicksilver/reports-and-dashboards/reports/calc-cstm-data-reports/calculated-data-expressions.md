@@ -7,7 +7,7 @@ description: U kunt gegevensexpressies gebruiken om berekende aangepaste gegeven
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: b60a1e74d62e9b3945f69dc590f8cc202302c5af
+source-git-commit: e66d4223b13bcd4813156f147769e7ee99c3f8ef
 workflow-type: tm+mt
 source-wordcount: '2425'
 ht-degree: 0%
@@ -132,11 +132,11 @@ U kunt een datum- of tijdberekend aangepast veld maken met de volgende expressie
 <p><code>ADDYEARS(date, number)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong> ADDHOUR </strong> </td> 
+   <td><strong> ADDHOURS </strong> </td> 
    <td> <p>Voegt het aantal uren aan de datum toe en is geformatteerd als volgt:</p>
 
 <p><code>ADDHOUR(date, number)</code></p>
-   <p>Opmerking: deze functie wordt niet ondersteund in Workfront Planning.</p></td> 
+   <p>Opmerking: deze expressie wordt niet ondersteund in Workfront Planning.</p></td> 
   </tr>
   <tr> 
    <td><strong> CLEARTIME </strong> </td> 
@@ -410,7 +410,7 @@ U kunt een berekend aangepast veld maken waarin een waarde met tekstopmaak wordt
    <p>De expressie wordt als volgt opgemaakt:</p>
    <p><code>SORTASCARRAY(array)</code></p>
    <p>["-12.6", -13.0] wordt bijvoorbeeld ["-12.6", "-13"].</p>
-   <p>Opmerking: deze functie wordt niet ondersteund in Workfront Planning.</p></td> 
+   <p>Opmerking: deze expressie wordt niet ondersteund in Workfront Planning.</p></td> 
   </tr>
   <tr> 
    <td><strong> SORTDESCARRAY </strong> </td> 
@@ -418,7 +418,7 @@ U kunt een berekend aangepast veld maken waarin een waarde met tekstopmaak wordt
    <p>De expressie wordt als volgt opgemaakt:</p>
    <p><code>SORTDESCARRAY(array)</code></p>
    <p>["-12.6", -13.0] wordt bijvoorbeeld ["-13", "-12.6"].</p>
-   <p>Opmerking: deze functie wordt niet ondersteund in Workfront Planning.</p></td> 
+   <p>Opmerking: deze expressie wordt niet ondersteund in Workfront Planning.</p></td> 
   </tr>
   <tr>   
    <td><strong> ZAAK </strong> </td> 
@@ -461,7 +461,7 @@ U kunt een berekend aangepast veld maken waarin een waarde met tekstopmaak wordt
    <td><p>Retourneert opgemaakte tekst. Kleuropties zijn $$POSITIVE, $$INFORMATIVE, $$NEGATIVE, $$NOTICE en de andere opmaakopties zijn $$BOLD, $$ITALIC, $$UNDERLINE. Per functie mag slechts één kleuroptie worden gebruikt, samen met maximaal drie andere opmaakopties. Als er geen kleuroptie is opgegeven, wordt de standaardkleur van het systeem toegepast.</p>
    <p>De expressie wordt als volgt opgemaakt:</p>
    <p><code>FORMAT($$POSITIVE, $$BOLD, $$ITALIC)</code></p>
-   <p>Opmerking: deze functie wordt niet ondersteund in Workfront Planning.</p></td> 
+   <p>Opmerking: deze expressie wordt niet ondersteund in Workfront Planning.</p></td> 
   </tr>   
   <tr> 
    <td><strong> IF</strong> </td> 
@@ -576,7 +576,7 @@ U kunt een berekend aangepast veld maken waarin een waarde met tekstopmaak wordt
    <td> <p>Evalueert de expressie aan de hand van een lijst met waarden en retourneert het resultaat dat overeenkomt met de eerste overeenkomende waarde.</p>
    <p>De expressie is als volgt opgemaakt:</p>
    <p><code>SWITCH(expression, value1, result1, [value2, result2], ...)</code></p>
-   <p>Deze functie wordt niet ondersteund in Workfront Planning.</p></td> 
+   <p>Deze expressie wordt niet ondersteund in Workfront Planning.</p></td> 
   </tr>   
   <tr> 
    <td><strong> TRIM </strong> </td> 

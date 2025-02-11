@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
+source-git-commit: 98040582995af736d3716e24c7530dd4cda4d3a6
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '364'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 De Planning van Adobe Workfront heeft grenzen voor hoeveel voorwerpen u in uw geval kunt tot stand brengen. Objectlimieten zijn ingesteld om de productprestaties te verbeteren en uw ervaring met Workfront Planning te verbeteren.
 
-In de volgende tabel staan de limieten voor het aantal objecten dat u kunt maken in Workfront Planning. De beperkingen zijn aan verandering onderhevig naarmate we de volgende ontwikkelingsfasen ingaan.
+In de volgende tabel staan de limieten voor het aantal objecten dat u kunt maken in Workfront Planning. De beperkingen kunnen worden gewijzigd.
 
 | Object Adobe Workfront Planning | Limiet |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
@@ -34,7 +34,7 @@ In de volgende tabel staan de limieten voor het aantal objecten dat u kunt maken
 | Aantal recordtypen voor één werkruimte | 1.000 (dit omvat recordtypen van alle secties en die die wanneer het gebruiken van een werkruimtesjabloon worden gecreeerd) |
 | Aantal records voor één recordtype | 25.000 |
 | Aantal records voor één werkruimte | 25.000 voor klanten met Planning <br> 500.000 voor klanten met Planning Plus |
-| Aantal totale records voor één instantie van Workfront Planning | 500.000 voor klanten met het Plan van de Planning <br> 2 miljoen voor klanten met Planning plus |
+| Aantal totale records voor één instantie van Workfront Planning | 500.000 voor klanten met Planning <br> 2 miljoen voor klanten met Planning plus |
 | Aantal velden voor één recordtype of taxonomie | 500 |
 | Aantal tekens voor een tekstveld met één regel | 1.000 tekens |
 | Aantal tekens voor een alineasveld | 10.000 tekens |

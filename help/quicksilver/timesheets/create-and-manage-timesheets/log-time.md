@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 98040582995af736d3716e24c7530dd4cda4d3a6
 workflow-type: tm+mt
-source-wordcount: '3822'
+source-wordcount: '3824'
 ht-degree: 0%
 
 ---
@@ -51,11 +51,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren en 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>Geef toegang tot het type van het werkpunt uit u tijd voor registreert </p> <p>U hebt bijvoorbeeld toegang tot problemen bewerken nodig om u aan te melden bij problemen</p> </td> 
+   <td> <p>De mening of de hogere toegang tot het type van het werkpunt u tijd voor registreert </p> <p>U hebt bijvoorbeeld toegang tot weergave nodig voor problemen om u aan te melden</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Contribute- of hogere machtigingen voor het werkitem waarvoor u de tijd registreert, zijn onder andere geldig voor het aantal loguren</p> </td> 
+   <td> <p>Draag of hogere toestemmingen op het het werkpunt bij u tijd voor dat omvat toestemmingen aan Loguren</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -420,7 +420,7 @@ of
 U moet alle volgende opties hebben:
 
 * Een licentie voor abonnementen met beheerdersrechten voor timesheets en -uren. Voor meer informatie over het verlenen van administratieve toegang tot Chronologie &amp; uren, zie [ gebruikers administratieve toegang van de Verlening tot bepaalde gebieden ](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
-* Contribute of hogere toestemmingen aan het project met toegang tot Loguren. Voor meer informatie over het verlenen van toestemmingen op projecten, zie [ een project in Adobe Workfront ](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md) delen.
+* Draag of hogere toestemmingen aan het project met toegang tot de Uren van het Logboek bij. Voor meer informatie over het verlenen van toestemmingen op projecten, zie [ een project in Adobe Workfront ](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md) delen.
 * Uw beheerder van Workfront moet de tijd van het Logboek direct op projecten toelaten die in de **Chronologie &amp; Uren > sectie van de Voorkeur** van het gebied van de Opstelling plaatsen, als u tijd aan een project direct wilt registreren. Voor meer informatie over het toestaan van gebruikers om uren aan projecten direct te registreren, zie [ timesheet en uurvoorkeur ](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen.
 
 Om tijd in de sectie van Uren van een project, een taak, of een kwestie te registreren:
