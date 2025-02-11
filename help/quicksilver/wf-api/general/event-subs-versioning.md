@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: 0b8c327f5ab541358649474b405b881dac06c1aa
+source-git-commit: 3e082ddde7cb84fb8bf3b5a23c363fd3b4cfe3d2
 workflow-type: tm+mt
 source-wordcount: '1124'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Voor informatie over de eindpunten die voor bevordering of het degraderen van ge
 
 ## Wijzigingen tussen versie 1 en versie 2
 
-De volgende wijzigingen zijn aangebracht voor gebeurtenisabonnementen versie 2
+De volgende wijzigingen zijn aangebracht voor gebeurtenisabonnementen versie 2:
 
 
 ### Algemene wijzigingen
