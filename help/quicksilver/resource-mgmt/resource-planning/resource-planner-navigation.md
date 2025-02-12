@@ -7,9 +7,9 @@ description: Met de Adobe Workfront Resource Planner kunt u eenvoudig de beschik
 author: Lisa
 feature: Resource Management
 exl-id: 5a1be723-e3ac-443a-9c09-85e8839fcbef
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '2621'
+source-wordcount: '2652'
 ht-degree: 0%
 
 ---
@@ -24,13 +24,13 @@ Met de Adobe Workfront Resource Planner kunt u eenvoudig de beschikbaarheid van 
 
 U moet aan de eerste vereisten voldoen nodig om de Planner van het Middel volledig te gebruiken. Voor meer informatie over de Planner van het Middel, zie [ Overzicht van de Planner van het Middel ](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-![](assets/rp-project-view-all-functionality-350x117.png)
+![ Planner van het Middel ](assets/rp-project-view-all-functionality-350x117.png)
 
 In de volgende secties worden alle gebieden van de bronnenplanner beschreven.
 
 ## Tijdlijn van projecten
 
-![](assets/timeline-calendar-resource-planner-nwe-350x25.png)
+![ kalender van de Chronologie ](assets/timeline-calendar-resource-planner-nwe-350x25.png)
 
 
 
@@ -77,7 +77,7 @@ Navigeren door de tijdlijn:
 
 ## Project/ Rol/ Selectie van gebruikersweergave
 
-![](assets/nwe-project-role-user-view-selection-resource-planner.png)
+![ Mening door project, rol, of gebruiker ](assets/nwe-project-role-user-view-selection-resource-planner.png)
 
 U kunt de weergave in de functie Bronnen wijzigen, afhankelijk van de manier waarop de informatie moet worden weergegeven.
 
@@ -194,7 +194,7 @@ Houd rekening met het volgende wanneer u de gebruikersweergave in de functie voo
    * Wanneer u toestemmingen hebt om de projecten, maar geen taken of kwesties op de projecten te zien, de vertoningen van de projectnaam, en de taken en de kwesties zijn vermeld onder de **Ontoegankelijke Punten** sectie.\
      Voor meer informatie over toestemmingen in Workfront, zie [ Overzicht van het delen van toestemmingen op voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-     ![](assets/inaccessible-items-in-rp-with---column-and-red-outline--1--350x187.png)
+     ![ Ontoegankelijke punten ](assets/inaccessible-items-in-rp-with---column-and-red-outline--1--350x187.png)
 
    
 
@@ -210,7 +210,7 @@ Houd rekening met het volgende wanneer u de gebruikersweergave in de functie voo
 
 ## Projectnaam
 
-![](assets/project-name-highlighted-resource-planner-350x445.png)
+![ de naam van het Project ](assets/project-name-highlighted-resource-planner-350x445.png)
 
 U kunt de volgende projecten in de Planner van het Middel zien:
 
@@ -232,13 +232,13 @@ U kunt de volgende projecten in de Planner van het Middel zien:
 
 De projecten zijn vermeld in orde van prioriteit in de Planner van het Middel met het belangrijkste project bij de bovenkant. De prioriteit wordt aangegeven door een getal vóór de projectnaam.
 
-![](assets/rp-planner-priority-highlighted-350x186.png)
+![ Prioriteit van de Planning van het Project ](assets/rp-planner-priority-highlighted-350x186.png)
 
 U kunt een instelling ook inschakelen om de projectprioriteiten weer te geven op basis van hun portfolio&#39;s, wanneer deze aan een portfolio zijn gekoppeld. Voor informatie over het prioriteren van projecten en het tonen van portfolioprioriteiten in de Planner van het Middel, zie [ projecten in de Planner van het Middel ](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md) Prioriseren.
 
 ## Functienaam
 
-![](assets/role-highlighted-resource-planner-350x243.png)
+![ de rolnaam van de Baan ](assets/role-highlighted-resource-planner-350x243.png)
 
 De volgende categorieën van baanrollen zijn vermeld in de Planner van het Middel:
 
@@ -254,7 +254,7 @@ De volgende categorieën van baanrollen zijn vermeld in de Planner van het Midde
 
 ## Gebruikersnaam
 
-![](assets/user-highlighted-resource-planner-350x272.png)
+![ Naam van de Gebruiker ](assets/user-highlighted-resource-planner-350x272.png)
 
 De gebruikers die in de mening van het Project en van de Rol in de Planner van het Middel worden vermeld behoren tot de middelgroepen verbonden aan de projecten.\
 Voor meer informatie over het bevolken van middelpools met gebruikers, zie [ Associeer middelpools met gebruikers ](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md).
@@ -310,11 +310,11 @@ Om montages in de Planner van het Middel toe te laten:
 1. Open de bronnenplanner.
 1. Klik het **pictogram van Montages**.
 
-   ![](assets/rp-settings-icon-edit-1.png)
+   ![ de montagespictogram van de Planner van het Middel ](assets/rp-settings-icon-edit-1.png)
 
    Het vak Instellingen van de bronnenplanner wordt weergegeven.
 
-   ![](assets/rp-settings-without-actual-hours-350x211.png)
+   ![ montages van de Planner van het Middel ](assets/rp-settings-without-actual-hours-350x211.png)
 
 1. Laat **omvatten uren van Kwesties** plaatsen toe om Geplande Uren van kwesties in de Planner van het Middel te tonen. Deze instelling is standaard uitgeschakeld.
 
@@ -327,7 +327,7 @@ Om montages in de Planner van het Middel toe te laten:
      >
      >**wanneer de kwestie Geplande Datum van het Begin en van de Voltooiing buiten de chronologie van het project zijn, de Geplande Uren voor de uitgiftevertoning volgens de data van de kwestie. Bijvoorbeeld, als de projectchronologie tussen Januari en Maart is, maar de chronologie van de kwesties in Augustus is, verschijnen de Geplande Uren voor de kwesties in de tijdspanne van Augustus.**
 
-1. (Voorwaardelijk en optioneel) Als u de projectweergave hebt geselecteerd, schakelt u de instelling Prioriteiten Portfolio weergeven in om de projectprioriteiten weer te geven op basis van het Portfolio waaraan ze zijn toegewezen. De prioriteit van de projecten volgens hun portefeuilles toont naast de prioriteit van de Planner van het Middel. Deze instelling is standaard uitgeschakeld.
+1. (Voorwaardelijk en optioneel) Als u de projectweergave hebt geselecteerd, schakelt u de instelling Portfolio-prioriteiten weergeven in om de projectprioriteiten weer te geven volgens de Portfolio waaraan ze zijn toegewezen. De prioriteit van de projecten volgens hun portefeuilles toont naast de prioriteit van de Planner van het Middel. Deze instelling is standaard uitgeschakeld.
 
    Voor informatie over het prioriteren van projecten in de Planner van het Middel, zie [ projecten in de Planner van het Middel ](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md) Prioritiseren.
 
@@ -348,7 +348,7 @@ De functie voor het weergeven van de bronnenplanner op volledig scherm:
 
 ## Exporteren, optie
 
-![](assets/export-button-highlighted-resource-planner-350x92.png)
+![ de knoop van de Uitvoer ](assets/export-button-highlighted-resource-planner-350x92.png)
 
 U kunt informatie naar een dossier van Excel (.xlsx) van om het even welke mening van de Planner van het Middel uitvoeren.\
 Voor informatie over het uitvoeren van informatie van de Planner van het Middel, zie [ informatie van de Uitvoer van de Planner van het Middel ](../../resource-mgmt/resource-planning/export-resource-planner.md).

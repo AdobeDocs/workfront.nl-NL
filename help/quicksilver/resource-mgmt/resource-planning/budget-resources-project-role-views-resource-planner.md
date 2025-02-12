@@ -6,9 +6,9 @@ description: U kunt middelen in de Planner van het Middel van Adobe Workfront be
 author: Lisa
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '2121'
+source-wordcount: '2127'
 ht-degree: 0%
 
 ---
@@ -160,7 +160,7 @@ Voor informatie over de toegang nodig voor het opnemen van middelen, zie de arti
 
 Aan begrotingstoewijzingen in de Planner van het Middel in de*** mening van de Rol:
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.
+1. Klik het **pictogram 1} van het Belangrijkste Menu ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.**
 
 1. Klik **Middelen**.
 1. De **vertoningen van de Planner** door gebrek.
@@ -225,7 +225,7 @@ Voor meer informatie over het begrip van het gebied van de Begroting van het Mid
 
 U kunt begrotingstoewijzingen voor uw middelen in bulk wanneer het gebruiken van snelle verbindingen. De snelle verbindingen zijn beschikbaar slechts voor de Mening van het Project en van de Rol.
 
-![](assets/rp-project-view-with-automatic-budgeting-options-on-project-350x173.png)
+![ Automatische het opnemen opties ](assets/rp-project-view-with-automatic-budgeting-options-on-project-350x173.png)
 
 >[!NOTE]
 >

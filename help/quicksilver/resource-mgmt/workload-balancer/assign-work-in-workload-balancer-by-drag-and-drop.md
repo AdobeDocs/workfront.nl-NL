@@ -6,9 +6,9 @@ description: U kunt werkitems toewijzen met de Adobe Workfront Workload Balancer
 author: Lisa
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td>Contribute-machtigingen of hoger voor de projecten, taken en problemen die Toewijzingen maken bevatten</td> 
+   <td>Contribute-machtigingen of hoger voor projecten, taken en problemen die Toewijzingen maken bevatten</td> 
   </tr> 
  </tbody> 
 </table>
@@ -76,13 +76,13 @@ U kunt een item uit het gebied Niet toegewezen werk toewijzen aan een gebruiker 
 
    Ga naar het **Toegewezen gebied van het Werk** en breid de naam van een gebruiker uit om de het werkpunten te bekijken die aan hen worden toegewezen, als u hun punten opnieuw wilt toewijzen.
 
-1. (Voorwaardelijk) in de Balancer van de Werklast van een project, klik **toon alle gebruikers** pictogram ![](assets/show-all-users-icon-project-workload-balancer.png) om alle gebruikers van Workfront te tonen.
+1. (Voorwaardelijk) in de Balancer van de Werklast van een project, klik **toon alle gebruikers** pictogram ![ tonen alle gebruikers ](assets/show-all-users-icon-project-workload-balancer.png) om alle gebruikers van Workfront te tonen.
 
    Alle gebruikers die toegang hebben tot de weergave worden dan weergegeven.
 
    De gebruikers die ook deel uitmaken van het projectteam en reeds aan punten op het project worden toegewezen hebben het projectpictogram rechts van hun naam in het Toegewezen gebied van het Werk.
 
-   ![](assets/user-on-the-project-indicator-highlighted-project-workload-balancer.png)
+   ![ Gebruiker op het project ](assets/user-on-the-project-indicator-highlighted-project-workload-balancer.png)
 
 
    >[!TIP]
@@ -100,7 +100,7 @@ U kunt een item uit het gebied Niet toegewezen werk toewijzen aan een gebruiker 
    >
    >De Geplande Uren voor de gebruiker u over update in echt - tijd met het aantal dagelijkse Geplande Uren van het het werkpunt beweegt, om erop te wijzen wat het effect van het toevoegen van een nieuw punt aan hun algemene toewijzing zou kunnen zijn.
 
-   ![](assets/drag-drop-item-from-unassigned-to-assigned-wb-nwe-350x152.png)
+   ![ punt van de Daling aan toegewezen ](assets/drag-drop-item-from-unassigned-to-assigned-wb-nwe-350x152.png)
 
 1. Als u klaar bent, zet u het geselecteerde werkitem neer op dezelfde regel als de naam van de gebruiker in het Toegewezen gebied. Het punt wordt toegewezen en de toegewezen Geplande Uren worden bijgewerkt voor de gebruiker met de nieuwe uren van het het werkpunt.
 
@@ -118,7 +118,7 @@ U kunt een item uit het gebied Niet toegewezen werk toewijzen aan een gebruiker 
 
 
 1. (Optioneel) Klik op de balk van een tijdelijk item onder de naam van een gebruiker in het gebied Toegewezen werk en sleep het item vervolgens over het gebied Niet toegewezen werk om de toewijzing ongedaan te maken. Het punt is unassigned van de gebruiker, maar het zou nog aan een baanrol kunnen worden toegewezen waarin het in het Unassigned gebied van het Werk toont. Als het punt aan een andere gebruiker wordt toegewezen, blijft het in het Toegewezen gebied van het Werk onder de naam van de gebruiker die nog wordt toegewezen.
-1. (Facultatief) klik het **pictogram van de Toon toewijzingen** ![](assets/show-allocations-icon-small.png), dan klik het **Meer menu** ![](assets/qs-more-menu.png) > **geeft toewijzingen** uit.
+1. (Facultatief) klik het **pictogram van de Toon toewijzingen** ![ toewijzingspictogram ](assets/show-allocations-icon-small.png) tonen, dan klik het **Meer menu** ![ Meer menu ](assets/qs-more-menu.png) > **geeft toewijzingen** uit.
 
    <!--
    (make sure these are still called this, and that the icon has not changed)

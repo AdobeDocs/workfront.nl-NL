@@ -6,9 +6,9 @@ description: Als Manager van het Middel, kunt u werk aan gebruikers toewijzen en
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
 workflow-type: tm+mt
-source-wordcount: '2898'
+source-wordcount: '2909'
 ht-degree: 0%
 
 ---
@@ -191,11 +191,11 @@ Als onderdeel van het toewijzen van werk aan gebruikers, kunt u gebruikerstoewij
    >
    >U kunt gebruikerstoewijzingen alleen wijzigen voor taken en problemen. U kunt gebruikerstoewijzingen voor projecten niet wijzigen.
 
-1. (Facultatief) klik **Show toewijzingen** pictogram ![](assets/show-allocations-icon-small.png) aan vertoningstoewijzingen voor alle het werkpunten.
+1. (Facultatief) klik de **Show toewijzingen** pictogram ![ tonen toewijzingspictogram ](assets/show-allocations-icon-small.png) aan vertoningstoewijzingen voor alle het werkpunten.
 
    De naam van de taken en van de projecten wordt vervangen door de toewijzing van de gebruiker voor de taak of het project.
 
-1. (Facultatief) klik het **pictogram van Montages** ![](assets/gear-icon-settings.png) en selecteer om het even welke volgende opties:
+1. (Facultatief) klik het **pictogram van Montages ![ pictogram van Montages ](assets/gear-icon-settings.png) en selecteer om het even welke volgende opties:**
 
    1. **omvat uren van kwesties**. Hierdoor kunt u niet alleen taaktoewijzingen maar ook toewijzingen van uitgaven beheren.
    1. **toon voltooid werk**. Op deze manier worden items weergegeven die zijn voltooid en gepland tijdens de tijdlijn waarvoor u toewijzingen beheert.
@@ -212,7 +212,7 @@ Als onderdeel van het toewijzen van werk aan gebruikers, kunt u gebruikerstoewij
       >
       >De beheerder van Workfront beslist welk programma over uw systeem voor het berekenen van de capaciteit van de gebruiker op het gebied van het Beheer van het Middel van Opstelling te gebruiken. Voor meer informatie, zie [ de voorkeur van het Beheer van het Middel ](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md) vormen.
 
-1. Klik **Meer** menu ![](assets/qs-more-menu.png) voor een het werkpunt, dan klik **geeft toewijzingen** uit.
+1. Klik **Meer** menu ![ Meer menu ](assets/qs-more-menu.png) voor een het werkpunt, dan klik **toewijzingen** uitgeven.
 
    ![ Meer menu voor het werkpunt ](assets/more-menu-on-task-wb-nwe.png)
 
@@ -222,11 +222,11 @@ Als onderdeel van het toewijzen van werk aan gebruikers, kunt u gebruikerstoewij
 
    De toewijzingsvakken kunnen worden bewerkt.
 
-1. Klik binnen de doos van elke dagelijkse, wekelijkse, of maandelijkse toewijzing om de hoeveelheid uren of de percentagewaarde manueel bij te werken waarvoor u de gebruiker elke dag, week, of maand wilt worden toegewezen, dan klik **sparen** pictogram ![](assets/checkmark-icon.png).
+1. Klik binnen de doos van elke dagelijkse, wekelijkse, of maandelijkse toewijzing om de hoeveelheid uren of de percentagewaarde manueel bij te werken waarvoor u de gebruiker elke dag, week, of maand wilt worden toegewezen, dan klik **sparen** pictogram ![ sparen pictogram ](assets/checkmark-icon.png).
 
    >[!TIP]
    >
-   >Klik **annuleren** pictogram ![](assets/cancel-allocations-wb.png) om de toewijzingen te verwijderen u aanpast.
+   >Klik **annuleren** pictogram ![ pictogram ](assets/cancel-allocations-wb.png) om de toewijzingen te verwijderen u aanpast.
 
    ![ sparen of annuleer aangepaste toewijzingen ](assets/wb-contouring-with-check-and-x-boxes-350x63.png)
 

@@ -7,9 +7,9 @@ description: U kunt de taakverdeler gebruiken om middelen voor het werk te plann
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 3d7708e674af716657cc287c9f54a8cf56278da3
+source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ In de volgende secties ziet u waar u toegang kunt krijgen tot Workload Balancer 
 
 1. Klik **de Balancer van de Werkbelasting** in het linkerpaneel.
 
-   ![](assets/nwe-balancer-global.png)
+   ![ de Balancer van de Werkbelasting ](assets/nwe-balancer-global.png)
 
    In Workload Balancer wordt standaard het volgende weergegeven op basis van informatie in het gebied Bronnen:
 
@@ -104,7 +104,7 @@ De pagina van uw Home Team wordt weergegeven.
 
 1. Klik **de Balancer van de Werkbelasting** in het linkerpaneel.
 
-   ![](assets/nwe-balancer-team-350x172.png)
+   ![ de Balancer van de Werkbelasting voor team ](assets/nwe-balancer-team-350x172.png)
 
    De werklastbalans van een team geeft standaard de volgende informatie weer:
 
@@ -124,7 +124,7 @@ De pagina van uw Home Team wordt weergegeven.
 
    De werklastbalans voor de projectweergave.
 
-   ![](assets/nwe-balancer-project-350x152.png)
+   ![ de Balancer van de Werklast voor Project ](assets/nwe-balancer-project-350x152.png)
 
    De taakverdeler van een project toont het volgende door informatie, door gebrek:
 

@@ -6,9 +6,9 @@ description: U kunt de werklastbalans delen met andere gebruikers die mogelijk n
 author: Lisa
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
-source-git-commit: 233e61c011cc87f49d0d4082a20b7790104c96c8
+source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
@@ -123,7 +123,7 @@ U hebt de volgende toegang nodig om informatie in het werklastevenwicht te bekij
 
      Voor informatie over het filtreren van informatie in de Balancer van de Werkbelasting, zie [ informatie van de Filter in de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
-1. Klik het **verbindingspictogram** ![](assets/wb-shearable-link-icon-small.png).
+1. Klik het **koppelingspictogram** ![ pictogram van de Verbinding ](assets/wb-shearable-link-icon-small.png).
 
    Hiermee voegt u de koppeling naar het klembord toe.
 

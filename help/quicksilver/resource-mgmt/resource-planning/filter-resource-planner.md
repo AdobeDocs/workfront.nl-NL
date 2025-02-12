@@ -6,9 +6,9 @@ description: Gebruikend filters, kunt u wijzigen welke informatie in de Planner 
 author: Lisa
 feature: Resource Management
 exl-id: 7186cae5-1e16-421e-b26d-afb50aa7f6eb
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '2371'
+source-wordcount: '2390'
 ht-degree: 0%
 
 ---
@@ -129,7 +129,7 @@ Door gebrek, de eerste keer u tot de Planner van het Middel toegang hebt, wordt 
    ![ filter_icon.png ](assets/filter-icon.png)
 of
 Vouw het **drop-down menu van de Filter** uit en klik **voeg Nieuwe Filter** toe.
-   ![](assets/rp-filter-dropdown-expanded-with-default-filter-selected-350x283.png)
+   ![ dropdown van de Filter ](assets/rp-filter-dropdown-expanded-with-default-filter-selected-350x283.png)
 
 1. Als u een filter wilt maken aan de hand van de ingebouwde criteria, geeft u een van de volgende velden op:
 
@@ -214,7 +214,7 @@ U kunt de naam van een filter wijzigen zonder de criteria te wijzigen. We raden 
 1. Vouw het **drop-down menu van de Filter** uit. Zoek het filter waarvan u de naam wilt wijzigen en houd het boven de naam.
 1. Selecteer **anders noemen filter** pictogram naast de naam van de filter.
 
-   ![](assets/rp-filter-options-edit-350x154.png)
+   ![ geef filteropties uit ](assets/rp-filter-options-edit-350x154.png)
 
 1. Specificeer een nieuwe naam voor de filter in de **Naam van de Filter** doos.
 1. Klik **sparen**.\
@@ -253,7 +253,7 @@ U kunt een bestaand filter dupliceren. De oorspronkelijke filtercriteria blijven
 1. Houd de muis boven de naam van een opgeslagen filter dat u wilt dupliceren.
 1. Klik het **Dubbele** pictogram.
 
-   ![](assets/rp-filter-options---duplicate-350x154.png)\
+   ![ Dupliceer filter ](assets/rp-filter-options---duplicate-350x154.png)\
    Het vak Filter dupliceren wordt weergegeven.
 
 1. Op het **gebied van de Naam van de Filter**, specificeer een nieuwe naam voor de gedupliceerde filter.\
@@ -280,7 +280,7 @@ Een filter verwijderen:
 1. Zoek het filter dat u wilt verwijderen en houd de muisaanwijzer boven de naam van het filter.
 1. Selecteer het **filter van de Schrapping** pictogram naast de naam van de filter.
 
-   ![](assets/rp-filter-options---delete-350x154.png)
+   ![ filter van de Schrapping ](assets/rp-filter-options---delete-350x154.png)
 
 1. Klik **Schrapping** in het **de dialoogvakje van de Filter van de Schrapping**.
 
@@ -303,13 +303,13 @@ Voor informatie over het dupliceren van filters, zie [ een filter ](#duplicate-a
 1. Zoek het filter dat u wilt delen en houd de muisaanwijzer boven de naam van het filter.
 1. Selecteer het **filter van het Aandeel** pictogram naast de naam van de filter.
 
-   ![](assets/rp-filter-options---share-350x154.png)
+   ![ filter van het Aandeel ](assets/rp-filter-options---share-350x154.png)
 
    Het dialoogvenster Filtertoegang wordt weergegeven.
 
 1. (Facultatief) om de filter ter beschikking te stellen van alle gebruikers van de Planner van het Middel, klik het **pictogram van Montages**, dan uitgezocht **maak dit zichtbare systeem-breed**.
 
-   ![](assets/make-this-visible-system-wide-350x119.png)
+   ![ maak zichtbaar systeem-breed ](assets/make-this-visible-system-wide-350x119.png)
 
 1. In **geef de filtertoegang van de middelplanner tot:** doos, begin de namen van gebruikers, teams, rollen, groepen, of bedrijven te typen die u de filter met wilt delen.
 1. Selecteer een van de volgende machtigingsniveaus:
@@ -321,10 +321,10 @@ Voor informatie over het dupliceren van filters, zie [ een filter ](#duplicate-a
 
 1. (Facultatief) klik **Geavanceerde Plaatsende** s om toestemmingen voor elk niveau toe te voegen door hen te selecteren of toestemmingen voor elk niveau te verwijderen door hen te deselecteren.
 
-   ![](assets/rp-share-filter-manage-advanced-settings-350x271.png)
+   ![ filter van het Aandeel ](assets/rp-share-filter-manage-advanced-settings-350x271.png)
 
 1. Klik **sparen**.
 
    Het filter wordt gedeeld met de entiteiten die u selecteerde en het verschijnt in het **Gedeeld met me** gebied.
 
-   ![](assets/rp-shared-with-me-area.png)
+   ![ Gedeeld met me ](assets/rp-shared-with-me-area.png)

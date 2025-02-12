@@ -6,9 +6,9 @@ description: De projecten zijn vermeld in orde van prioriteit in de Planner van 
 author: Lisa
 feature: Resource Management
 exl-id: fe9c8cf9-f1e0-4cd5-9299-0f04893d71a5
-source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1308'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ De projectplanningsprioriteit bewerken:
 1. Ga naar de **Planner van het Middel**.
 
 1. Klik binnen het gebied links van de projectnaam die een aantal bevat, en ga een aantal in om de Prioriteit van de Planning te veranderen, dan te drukken binnengaan.\
-   ![](assets/mceclip4.png)\
+   ![ Prioriteit van de Planning van de Verandering ](assets/mceclip4.png)\
    of\
    Houd de muisaanwijzer boven de naam van het project en klik op de indicator links van de naam van het project en sleep het project naar de juiste plaats om de prioriteit te wijzigen.
 
@@ -106,25 +106,25 @@ De projectplanningsprioriteit bewerken:
 1. Klik **sparen**.\
    De orde van de projecten verandert volgens uw selecties en dit wordt uw prioriteit van het douaneproject in de Planner van het Middel. Andere gebruikers kunnen uw orde van prioriteit voor de projecten in de Planner van het Middel niet zien, hoewel zij de zelfde projecten in hun Planners van het Middel zouden kunnen bekijken.
 
-## Projecten bestellen volgens hun prioriteit voor Portfolio&#39;s in de functie voor middelenplanning
+## Projecten bestellen volgens hun Portfolio-prioriteit in de functie voor middelenplanner
 
 >[!IMPORTANT]
 >
->Uw bedrijf moet een Bedrijfs of hoger plan van Workfront hebben om projecten in de Optimizer van het Portfolio voorrang te geven.
+>Uw bedrijf moet een bedrijfs of hoger plan van Workfront hebben om projecten in Portfolio Optimizer voorrang te geven.
 >
 >Voor meer informatie over de plannen van Workfront, zie [ Onze Abonnementen ](https://www.workfront.com/plans).
 >
->Voor informatie over het prioriteren van projecten in de Optimizer van het Portfolio, zie [ projecten in de Optimizer van het Portfolio voorrang geven ](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
+>Voor informatie over het prioriteren van projecten in Portfolio optimaliseert, zie [ projecten in de Optimizer van Portfolio ](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md) Prioritize.
 
 1. Open de **Planner van het Middel** in de **Mening van het Project**.
 1. Klik het **pictogram van Montages**.
-1. Laat de **Prioriteiten van het Portfolio van de Vertoning** plaatsen toe om de projectprioriteiten volgens het Portfolio te tonen zij aan worden toegewezen. De prioriteit van de projecten volgens hun portefeuilles toont naast de prioriteit van de Planner van het Middel. Deze instelling is standaard uitgeschakeld.
+1. Laat **het plaatsen van de Prioriteiten van Portfolio van de Vertoning** toe om de projectprioriteiten volgens Portfolio te tonen zij aan worden toegewezen. De prioriteit van de projecten volgens hun portefeuilles toont naast de prioriteit van de Planner van het Middel. Deze instelling is standaard uitgeschakeld.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: check screen shot to see if this is accurate still - should say Order, and not Sort:)</p>
    -->
 
-   ![](assets/rp-portfolio-priority-unordered-edit-350x180.png)
+   ![ prioriteit van Portfolio ](assets/rp-portfolio-priority-unordered-edit-350x180.png)
 
    De portefeuilleprioriteiten van de projecten worden alleen weergegeven in de projectweergave van de bronnenplanner.
 
@@ -136,13 +136,13 @@ De projectplanningsprioriteit bewerken:
    1. Geplande begindatum
    1. Projectnaam
 
-   ![](assets/rp-portfolio-priority-ordered-350x198.png)
+   ![ Portfolio prioriteit bevolen ](assets/rp-portfolio-priority-ordered-350x198.png)
 
 1. Klik **sparen**.
 
 ## Het effect van het veranderen van de Prioriteit van de Planning van het Project op Beschikbare Uren van de Gebruiker
 
-De prioriteit van de Planning van het Project beïnvloedt de Beschikbare Uren van gebruikers. De gebruikers verbonden aan het project met de hoogste prioriteit tonen hun volledige beschikbaarheid voor de Beschikbare (AVL) kolom van Uren voor dit project, volgens hun programma&#39;s.
+De prioriteit van de Planning van het Project beïnvloedt de Beschikbare Uren van gebruikers. De gebruikers verbonden aan het project met de hoogste prioriteit tonen hun volledige beschikbaarheid voor de Beschikbare kolom van Uren (AVL) voor dit project, volgens hun programma&#39;s.
 
 Dezelfde gebruikers die bij het tweede project in volgorde van prioriteit betrokken zijn, zullen een waarde van Beschikbare uren laten zien, die het verschil is tussen hun volledige bedrag van Beschikbare Uren en wat reeds voor het eerste project in de kolom Begrotingsuren is begroot, etc. Voor informatie over het opnemen van middelen in de Planner van het Middel, zie [ middelen van de Begroting in de Planner van het Middel gebruikend de meningen van het Project en van de Rol ](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 

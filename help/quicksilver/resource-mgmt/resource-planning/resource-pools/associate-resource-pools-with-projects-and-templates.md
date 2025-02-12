@@ -6,9 +6,9 @@ description: Brongroepen zijn verzamelingen gebruikers die u helpen bij het behe
 author: Lisa
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '630'
 ht-degree: 0%
 
 ---
@@ -80,14 +80,14 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 U kunt middelpools met een malplaatje op de zelfde manier associëren u middelpools met een project. Dit artikel beschrijft hoe u middelgroepen met projecten kunt associëren.
 
-1. Ga naar een project en klik **Meer** pictogram ![](assets/more-icon.png) naast de projectnaam, dan klik **uitgeven**.
+1. Ga naar een project en klik **Meer** pictogram ![ Meer pictogram ](assets/more-icon.png) naast de projectnaam, dan klik **uitgeven**.
 
 1. Klik **Montages van het Project**.
 
 1. Begin de naam van een middelpool op het **gebied van de Pools van het Middel 0} te typen, dan het van de lijst te selecteren wanneer het verschijnt.**\
    U kunt veelvoudige middelpools met één project of malplaatje associëren.
 
-   ![](assets/nwe-project-settings-in-edit-project-box-350x380.png)
+   ![ montages van het Project ](assets/nwe-project-settings-in-edit-project-box-350x380.png)
 
 1. Klik **sparen**.
 
@@ -104,7 +104,7 @@ U kunt middelpools met malplaatjes op de zelfde manier associëren u middelpools
 Om middelgroepen met verscheidene projecten in bulk te associëren:
 
 1. Ga naar een lijst met projecten.
-1. Selecteer veelvoudige projecten, dan klik **uitgeven** pictogram ![](assets/edit-icon.png) bij de bovenkant van de lijst.
+1. Selecteer veelvoudige projecten, dan klik **uitgeven** pictogram ![ pictogram ](assets/edit-icon.png) bij de bovenkant van de lijst uitgeven.
 
 1. Klik **Montages**.
 1. Begin de naam van een middelpool op het **gebied van de Pools van het Middel 0} te typen, dan het van de lijst te selecteren wanneer het verschijnt.**\

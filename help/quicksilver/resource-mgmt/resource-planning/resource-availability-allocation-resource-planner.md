@@ -6,9 +6,9 @@ description: U kunt de beschikbaarheid van uw middelen en de hoeveelheid gepland
 author: Lisa
 feature: Resource Management
 exl-id: 5b3e52a6-af9b-4e68-8d6e-43a5151a2a2c
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1243'
 ht-degree: 0%
 
 ---
@@ -148,7 +148,7 @@ Overweeg het volgende wanneer het veranderen van uw mening in de Planner van het
 
 1. (Voorwaardelijk) als u **** selecteerde, wijs opties op **toont getoonde metriek** doos aan opstelling uw douanemening aan.
 
-   ![](assets/planner-customize-view-box-350x114.png)
+   ![ pas meningsdoos ](assets/planner-customize-view-box-350x114.png) aan
 
 1. In het **type van Mening** kolom op de linkerzijde, selecteer één van de volgende meningen:
 
@@ -189,7 +189,7 @@ Overweeg het volgende wanneer het veranderen van uw mening in de Planner van het
    >
    >U kunt slechts één aangepaste weergave hebben.
 
-   ![](assets/planner-hours-drop-down-with-custom-and-customize-option-183x281.png)
+   ![ de urendropdown van de Planner ](assets/planner-hours-drop-down-with-custom-and-customize-option-183x281.png)
 
 ## Het diagram Gebruikerstoewijzing weergeven
 

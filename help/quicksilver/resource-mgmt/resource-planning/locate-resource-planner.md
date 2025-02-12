@@ -6,9 +6,9 @@ description: U kunt de Planner van het Middel gebruiken om de toewijzing van uw 
 author: Lisa
 feature: Resource Management
 exl-id: 0de749df-5af9-4124-8539-06b82dca2ec4
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '506'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ De sectie Planner openen in het gebied Bronnen:
 
 Standaard wordt de Planner weergegeven.  Voor informatie over het opnemen van middelen in de Planner van het Middel, zie de artikel [ middelen van de Begroting in de Planner van het Middel gebruikend de meningen van het Project en van de Rol ](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
-![](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
+![ planner van het Middel als gebrek ](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
 
 1. Klik **Pools van het Middel** in het linkerpaneel.
 Voor informatie over het creëren van middelpools, zie [ middelpools ](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md) creëren.
@@ -105,6 +105,6 @@ Wanneer het gebruiken van de Planner van het Middel voor één project, vertegen
    >
    >U kunt een middelpool in het het Lagen van het Middel gebied van het BedrijfsGeval slechts toevoegen wanneer het project geen middelgroepen verbonden aan het heeft. Wanneer het project reeds een Pool van het Middel heeft, tonen de gebruikers in de pool en hun baanrollen in het het Leiden van het Middel gebied door gebrek.
 
-   ![](assets/resource-budgeting-area-on-project-350x70.png)
+   ![ het in de begroting opnemen van het Middel ](assets/resource-budgeting-area-on-project-350x70.png)
 
    Voor informatie over het opnemen van middelen voor één project, zie de middelen van de artikel [ Begroting in het BedrijfsGeval ](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).

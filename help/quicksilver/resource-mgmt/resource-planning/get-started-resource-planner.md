@@ -7,9 +7,9 @@ description: U kunt de toewijzing van uw middelen aan de projecten schatten en b
 author: Lisa
 feature: Resource Management
 exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '2075'
+source-wordcount: '2082'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ Om de Planner van het Middel voor het opnemen van uw middelen met succes te gebr
 >Als om het even welke volgende voorwaarden ontbreken, zou u kunnen vinden dat sommige informatie over de toewijzing of de beschikbaarheid van de middelen ontbreekt of een nul waarde heeft.\
 >Houd de muisaanwijzer boven de velden voor meer informatie over het waarom van velden gegevens ontbreken of geen waarden hebben.
 
-![](assets/no-users-with-this-role-in-the-res-pool-350x57.png)
+![ Geen gebruikers met deze rol ](assets/no-users-with-this-role-in-the-res-pool-350x57.png)
 
 >[!NOTE]
 >
@@ -187,7 +187,7 @@ Zorg ervoor dat de volgende taak en probleeminstellingen aanwezig zijn voordat u
 
 U moet begrijpen hoe uw instantie van Workfront de beschikbaarheid van de gebruiker volgens de Voorkeuren van het Beheer van het Middel in uw systeem berekent. Workfront kan de beschikbaarheid van de gebruiker berekenen aan de hand van het schema van de gebruiker zoals gedefinieerd op de pagina Gebruikersprofiel of het standaardschema van uw systeem.
 
-![](assets/resource-management-preferences-section-in-setup-350x89.png)
+![ de voorkeur van het Beheer ](assets/resource-management-preferences-section-in-setup-350x89.png)
 
 Uw Workfront-beheerder configureert de voorkeuren voor het beheer van bronnen.
 

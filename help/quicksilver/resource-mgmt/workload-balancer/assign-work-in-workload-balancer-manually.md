@@ -7,9 +7,9 @@ author: Lisa
 feature: Resource Management
 role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '733'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td>Contribute-machtigingen of hoger voor de projecten, taken en problemen die Toewijzingen maken bevatten</td> 
+   <td>Contribute-machtigingen of hoger voor projecten, taken en problemen die Toewijzingen maken bevatten</td> 
   </tr> 
  </tbody> 
 </table>
@@ -77,9 +77,9 @@ U kunt werkitems toewijzen die nog niet aan een gebruiker zijn toegewezen of ite
 
    Ga naar het **Toegewezen gebied van het Werk** en breid de naam van een gebruiker uit om de het werkpunten te bekijken die aan hen worden toegewezen, als u hun punten opnieuw wilt toewijzen.
 
-1. Klik het **Meer menu** ![](assets/qs-more-menu.png) aan de linkerzijde van de naam van het het werkpunt, dan klik **toewijzen dit aan**.
+1. Klik het **Meer menu** ![ Meer menu ](assets/qs-more-menu.png) aan de linkerzijde van de naam van het het werkpunt, dan klik **toewijzen dit aan**.
 
-   ![](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
+   ![ wijs dit aan ](assets/assign-this-to-link-from-task-wb-nwe-350x104.png) toe
 
    >[!TIP]
    >
@@ -101,7 +101,7 @@ U kunt werkitems toewijzen die nog niet aan een gebruiker zijn toegewezen of ite
    > De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Voor informatie, zie [ toegang van de Verlening tot gebruikers ](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
-   ![](assets/assignments-box-with-advanced-assignments-delegations-wb.png)
+   ![ Geavanceerde taken ](assets/assignments-box-with-advanced-assignments-delegations-wb.png)
 
    >[!TIP]
    >
@@ -130,7 +130,7 @@ U kunt werkitems toewijzen die nog niet aan een gebruiker zijn toegewezen of ite
 
      Voor meer informatie over het maken van Geavanceerde Taken, zie [ Geavanceerde taken ](../../manage-work/tasks/assign-tasks/create-advanced-assignments.md) creëren.
 
-1. (Facultatief) klik het **pictogram van de Toon toewijzingen** ![](assets/show-allocations-icon-small.png), dan klik het **Meer menu** ![](assets/qs-more-menu.png) > **geeft toewijzingen** uit.
+1. (Facultatief) klik het **pictogram van de Toon toewijzingen** ![ toewijzingspictogram ](assets/show-allocations-icon-small.png) tonen, dan klik het **Meer menu** ![ Meer menu ](assets/qs-more-menu.png) > **geeft toewijzingen** uit.
 
    of
 

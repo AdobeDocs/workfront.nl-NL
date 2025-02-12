@@ -6,9 +6,9 @@ description: Als u vindt dat er overtoewijzingen van uw middelen zijn nadat u he
 author: Lisa
 feature: Resource Management
 exl-id: bc49d45a-73a5-4b02-9054-9c9dbb54224d
-source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    De tijdlijn voor projecttoewijzing wordt weergegeven.\
    Het tijdsbestek waarin de uren momenteel in de begroting zijn opgenomen, wordt oranje gemarkeerd als er sprake is van een begrotingsconflict en blauw als er geen conflicten zijn.
 
-   ![](assets/rp-adjust-budgeting-dates-with-no-done-button-350x63.png)
+   ![ Adjust in de begroting stellende data ](assets/rp-adjust-budgeting-dates-with-no-done-button-350x63.png)
 
 1. Sleep het gemarkeerde tijdframe naar een ander tijdstip om te begrijpen waar er geen begrotingsconflicten zijn voor het geselecteerde project. Wanneer u een tijdkader vindt waar de Netto waarde positief is, verandert het benadrukte tijdkader in blauw.
 1. Klik op de &#39;x&#39; in de rechterbovenhoek van de tijdlijn van de projecttoewijzing om deze te sluiten.

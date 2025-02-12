@@ -6,9 +6,9 @@ description: U kunt het deelvenster Samenvatting openen in Workload Balancer om 
 author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -78,11 +78,11 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    of
 
-   Klik **Open Samenvatting** pictogram ![](assets/summary-panel-icon.png), dan klik de bar van een taak of kwestie om het Summiere paneel te openen.
+   Klik **Open Samenvatting** pictogram ![ Open Samenvattend pictogram ](assets/summary-panel-icon.png), dan klik de bar van een taak of kwestie om het Summiere paneel te openen.
 
    of
 
-   Klik **Meer** menu ![](assets/more-icon.png) aan het recht van een taak of kwestie, dan klik **Open Samenvatting**.
+   Klik het **Meer** menu ![ Meer pictogram ](assets/more-icon.png) aan het recht van een taak of een kwestie, dan klik **Open Samenvatting**.
 
    Het deelvenster Samenvatting wordt aan de rechterkant geopend.
 
@@ -97,4 +97,4 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    Voor meer informatie over het bijwerken van informatie die de Samenvatting gebruiken, zie [ Overzicht van de Samenvatting ](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 1. (Voorwaardelijk) als u om het even welke secties van het het werkpunt opende, klik uw browser **Achterknoop** om aan de Balancer van de Werklast terug te keren.
-1. Klik het **Dichte pictogram** ![](assets/close-icon.png) in de hoger-juiste hoek van de Samenvatting, om het te sluiten.
+1. Klik het **Dichte pictogram** ![ Dichte pictogram ](assets/close-icon.png) in de hoger-juiste hoek van de Samenvatting, om het te sluiten.

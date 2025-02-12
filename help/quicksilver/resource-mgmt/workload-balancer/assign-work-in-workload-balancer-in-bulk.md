@@ -6,9 +6,9 @@ description: Met de Adobe Workfront Workload Balancer kunt u resources toewijzen
 author: Lisa
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '1521'
+source-wordcount: '1551'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td>Contribute-machtigingen of hoger voor de projecten, taken en problemen die Toewijzingen maken bevatten</td> 
+   <td>Contribute-machtigingen of hoger voor projecten, taken en problemen die Toewijzingen maken bevatten</td> 
   </tr> 
  </tbody> 
 </table>
@@ -87,7 +87,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    U kunt werk aan gebruikers toewijzen gebruikend de Balancer van de Werkbelasting in het gebied van het Middelen, op het project, of op het teamniveau. Voor meer informatie over waar de Balancer van de Werkbelasting in Workfront wordt gevestigd, zie [ plaats van de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 
-1. Klik **BulkToewijzingen** ![](assets/bulk-assignments-wb.png) bij de bovenkant van de Balancer van de Werklast.
+1. Klik **![ Bulktoewijzingen ](assets/bulk-assignments-wb.png) bij de bovenkant van de Balancer van de Werklast.**
 
    Het deelvenster Bulktoewijzingen wordt rechts van Workload Balancer geopend.
 
@@ -99,7 +99,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    >
    >De naam van het Project wordt geselecteerd door gebrek wanneer u tot de Balancer van de Werkbelasting voor een project toegang hebt.
 
-   ![](assets/project-name-status-dropdown-bulk-assignments-wb-nwe-350x133.png)
+   ![ naam van het Project in bulktaken ](assets/project-name-status-dropdown-bulk-assignments-wb-nwe-350x133.png)
 
 1. (Facultatief) klik **Uitgezochte projecttaken** om de taak of de taken te selecteren die u taken voor, dan in de **Taak wilt maken: Naam** drop-down menu, uitgezochte taken door Naam (dit is de standaardoptie) of Status en de filterbepalingen gebruiken om naar specifieke taken te zoeken.
 
@@ -109,13 +109,13 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    >
    >U kunt geen taken in de status Voltooid selecteren.
 
-   ![](assets/task-name-status-dropdown-bulk-assignments-wb-nwe-350x102.png)
+   ![ status van de Taak in bulktaken ](assets/task-name-status-dropdown-bulk-assignments-wb-nwe-350x102.png)
 
    >[!TIP]
    >
    >Laat deze selectie leeg als u niet alleen taken maar ook taken in grote hoeveelheden wilt toewijzen.
 
-1. (Facultatief) klik **Schrapping** pictogram ![](assets/delete.png) naast één van de geselecteerde criteria
+1. (Facultatief) klik het **pictogram van de Schrapping** ![ pictogram van de Schrapping ](assets/delete.png) naast één van de geselecteerde criteria
 
    of
 
@@ -149,7 +149,7 @@ Om een gebruiker aan werkpunten toe te wijzen die eerder aan baanrollen worden t
 
 1. Op het **gebied van de Rol 0} {, klik de drop-down pijl om van een lijst van rollen te kiezen.** Slechts worden de rollen momenteel toegewezen binnen de gespecificeerde projecten getoond. Dit is een verplicht veld.
 
-   ![](assets/bulk-assignments-workload-balancer-assign-selected.png)
+   ![ de taak van de Rol ](assets/bulk-assignments-workload-balancer-assign-selected.png)
 
 1. In de **Gebruiker om** gebied toe te wijzen, klik de drop-down pijl om van een lijst van gesuggereerde gebruikers te kiezen of een naam van een andere gebruiker te typen.
 
@@ -176,7 +176,7 @@ Om een gebruiker aan werkpunten toe te wijzen die eerder aan baanrollen worden t
 
    Je ontvangt een bevestiging over hoeveel tijdelijke objecten de geselecteerde rol hebben vervangen door de geselecteerde gebruiker.
 
-   ![](assets/bulk-assign-user-confirmation-before-assigning-nwe-350x83.png)
+   ![ Bulk toewijzingsbevestiging ](assets/bulk-assign-user-confirmation-before-assigning-nwe-350x83.png)
 
 ### Gebruiker vervangen {#replace-user}
 
@@ -194,13 +194,13 @@ Een gebruiker vervangen door een andere gebruiker:
 1. Begin het toewijzen van het werkpunten in de Balancer van de Werkbelasting zoals hierboven beschreven en selecteer **Vervangen**.
 1. Op het **momenteel toegewezen gebruiker** gebied, klik de drop-down pijl om van een lijst van gebruikers te kiezen. Slechts worden de gebruikers momenteel toegewezen aan onvolledige het werkpunten binnen de gespecificeerde projecten getoond. Dit is een verplicht veld.
 
-   ![](assets/bulk-assignments-workload-balancer-replace-selected-350x345.png)
+   ![ vervang gebruiker ](assets/bulk-assignments-workload-balancer-replace-selected-350x345.png)
 
 1. In de **Gebruiker om** gebied toe te wijzen, klik de drop-down pijl om van een lijst van gesuggereerde gebruikers te kiezen of een andere gebruikersnaam te typen. Gebruikers die standaard in de lijst worden vermeld, komen overeen met de criteria voor slimme toewijzingen. Voor meer informatie, zie [ Slim toewijzingsoverzicht ](../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
    Workfront geeft een notitie weer over het aantal items waar de momenteel toegewezen gebruiker de tweede gebruiker vervangt en welke rollen deze zal vervangen.
 
-   ![](assets/bulk-replace-user-confirmation-before-replacing-nwe-350x49.png)
+   ![ Bulk vervangt gebruikersbevestiging ](assets/bulk-replace-user-confirmation-before-replacing-nwe-350x49.png)
 
 1. Klik **vervangen**.
 
@@ -227,11 +227,11 @@ Om een gebruiker van het werkpunten in de geselecteerde projecten of voor de ges
 
 1. In de **Gebruiker om** gebied ongedaan te maken, klik de drop-down pijl om van een lijst van gebruikers te kiezen. Alleen gebruikers die momenteel zijn toegewezen aan onvolledige werkitems binnen de opgegeven projectweergave. Dit is een verplicht veld.
 
-   ![](assets/bulk-assignments-workload-balancer-unassign-selected-350x318.png)
+   ![ wijs gebruiker ](assets/bulk-assignments-workload-balancer-unassign-selected-350x318.png) ongedaan
 
    Workfront geeft een notitie weer over het aantal items waarvoor de momenteel toegewezen gebruiker niet is toegewezen.
 
-   ![](assets/bulk-unassign-user-confirmation-before-assigning-nwe-350x45.png)
+   ![ Bulk unassign bevestiging ](assets/bulk-unassign-user-confirmation-before-assigning-nwe-350x45.png)
 
 1. Klik **unassign**.\
    U ontvangt een bevestiging over het aantal werkitems waarop de opgegeven gebruiker is verwijderd.

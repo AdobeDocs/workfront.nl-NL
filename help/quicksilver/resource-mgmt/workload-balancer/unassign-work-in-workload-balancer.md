@@ -6,9 +6,9 @@ description: U kunt de toewijzing van gebruikers ongedaan maken uit werkitems in
 author: Lisa
 feature: Resource Management
 exl-id: e4293d4a-afb8-48ef-8a8e-6fad2ef82a25
-source-git-commit: 196d0aa4ed67cf564c823625515ef49d811e0e06
+source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td>Contribute-machtigingen of hoger voor de projecten, taken en problemen die Toewijzingen maken bevatten</td> 
+   <td>Contribute-machtigingen of hoger voor projecten, taken en problemen die Toewijzingen maken bevatten</td> 
   </tr> 
  </tbody> 
 </table>
@@ -75,9 +75,9 @@ U kunt als volgt de toewijzing van werkitems door gebruikers ongedaan maken:
 1. Voer een van de volgende handelingen uit:
 
    * Zoek het item dat u wilt vrijmaken in het gebied van de gebruiker, klik erop en sleep het item naar het gebied Niet toegewezen of naar het gebied van een andere gebruiker.
-   * Klik **Meer** pictogram ![](assets/more-icon-task-list.png) aan het recht van de naam van een het werkpunt, klik **toewijzen dit aan**, dan verwijderen de naam van de entiteiten die aan het het werkpunt worden toegewezen of een andere naam ingaan, en klikken **sparen**.
+   * Klik het **Meer** pictogram ![ Meer pictogram ](assets/more-icon-task-list.png) aan het recht van de naam van een het werkpunt, klik **toewijzen dit aan**, dan verwijder de naam van de entiteiten die aan het het werkpunt worden toegewezen of ga een andere naam in, en klik **sparen**.
 
-     ![](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
+     ![ wijs dit aan ](assets/assign-this-to-link-from-task-wb-nwe-350x104.png) toe
 
    Het punt toont in het Niet toegewezen gebied van het Werk als het de het filtreren criteria voor dat gebied aanpast en het niet aan andere gebruikers wordt toegewezen, of het toont in het gebruikersgebied als het aan een andere gebruiker wordt toegewezen.
 
