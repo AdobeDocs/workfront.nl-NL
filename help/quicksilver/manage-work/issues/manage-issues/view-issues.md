@@ -6,9 +6,9 @@ description: U kunt kwesties bekijken die met een project, een taak, of een herh
 author: Alina
 feature: Work Management
 exl-id: b6791c8f-b356-4235-8b0e-952e29a88952
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1038'
 ht-degree: 0%
 
 ---
@@ -142,7 +142,7 @@ U kunt pictogrammen toevoegen in de weergave van een project of taakrapport of l
 
 Om pictogrammen toe te voegen die tonen of een project kwesties in een projectrapport heeft:
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.
+1. Klik het **pictogram 1} van het Belangrijkste Menu ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.**
 1. Klik **Meldend** > **Nieuw Rapport** > **Rapport van het Project**.
 1. In **toon in dit kolom** gebied, begin **Pictogrammen van de Status** te typen, dan het te selecteren wanneer het in de lijst verschijnt.
 

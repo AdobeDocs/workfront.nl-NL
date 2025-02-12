@@ -6,9 +6,9 @@ description: Als er meer moet worden gedaan om een probleem op te lossen nadat h
 author: Alina
 feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '1009'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Klik op de uitgave die u wilt converteren om naar de openingspagina van de uitgave te gaan.
 1. Klik het [!UICONTROL **Meer**] menu op de kwestie, dan [!UICONTROL **zet in Taak**] om.
 
-   ![](assets/qs-issue-more-menu-highlighted-350x469.png)
+   ![ Uitgave Meer menu ](assets/qs-issue-more-menu-highlighted-350x469.png)
 
    >[!TIP]
    >
@@ -62,7 +62,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Werk de taaknaam bij in de sectie [!UICONTROL Task Name] . Standaard krijgt de taak dezelfde naam als de oorspronkelijke uitgave.
 
-   ![](assets/convert-to-task-box-nwe.png)
+   ![ Bekeerling aan taakdoos ](assets/convert-to-task-box-nwe.png)
 
 1. Klik [!UICONTROL **Project van de Bestemming**], dan begin de naam van het project te typen waar u de nieuwe taak in het [!UICONTROL **gebied van het Project van de Bestemming**] wilt plaatsen en het selecteren wanneer het in de lijst toont. Het project van de kwestie wordt geselecteerd door gebrek.
 

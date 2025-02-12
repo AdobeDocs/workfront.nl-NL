@@ -6,9 +6,9 @@ description: U kunt gegevens bewerken over portfolio's die u hebt gemaakt of die
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
@@ -32,13 +32,13 @@ U kunt een [!UICONTROL portfolio] in de portfoliopagina bewerken of portfolio&#3
    <td> <p>Alle</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe [!DNL Workfront] licenties*</td> 
+   <td role="rowheader">Adobe [!DNL Workfront] -licenties*</td> 
    <td> <p>Nieuw: Standaard</p>
    <p>Huidig: [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Toegangsniveau</td> 
-   <td> <p>[!UICONTROL Edit] toegang tot Portfolio's</p>  </td> 
+   <td> <p>[!UICONTROL Edit] toegang tot portfolio's</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -59,7 +59,7 @@ U kunt een [!UICONTROL portfolio] in de portfoliopagina bewerken of portfolio&#3
 1. Klik op de naam van een portfolio om het te openen.
 1. (Optioneel) Als u de beperkte informatie over het portfolio wilt bewerken, klikt u op **[!UICONTROL Portfolio Details]** in het linkerdeelvenster.
 
-   ![](assets/portfolio-details-tab-nwe-350x163.png)
+   ![ Portfolio details tabel ](assets/portfolio-details-tab-nwe-350x163.png)
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the note below will also be true for Edit Portfolio box)</p>
@@ -72,18 +72,18 @@ U kunt een [!UICONTROL portfolio] in de portfoliopagina bewerken of portfolio&#3
    Ga als volgt te werk om informatie in de sectie [!UICONTROL Details] te bewerken:
 
    1. (Optioneel) Klik op het pictogram **[!UICONTROL Collapse All]** in de rechterbovenhoek om alle gebieden samen te vouwen.
-   1. (Facultatief en voorwaardelijk) wanneer een gebied wordt doen ineenstorten, klik de **juist-richt pijl** ![](assets/right-pointing-arrow.png) naast elk gebied om het gebied uit te breiden u wilt uitgeven.
+   1. (Facultatief en voorwaardelijk) wanneer een gebied wordt doen ineenstorten, klik de **juist-richt pijl** ![ juist richtende pijl ](assets/right-pointing-arrow.png) naast elk gebied om het gebied uit te breiden u wilt uitgeven.
    1. Voor informatie over de velden die zichtbaar zijn in de sectie [!UICONTROL Portfolio Details] , gaat u verder met het bewerken van het portfolio in het vak [!UICONTROL Edit Portfolio] , zoals hieronder wordt beschreven.
    1. (Optioneel) Als er geen aangepaste formulieren aan het portfolio zijn gekoppeld, typt u de naam van een formulier in het veld **[!UICONTROL Add custom form]** , selecteert u het formulier wanneer het in de lijst wordt weergegeven en klikt u op **[!UICONTROL Save Changes]** .
-   1. (Optioneel) Klik op het pictogram **[!UICONTROL Export]** ![](assets/export.png) om de [!UICONTROL Overview] -gegevens en aangepaste formuliergegevens te exporteren naar een PDF-bestand en klik vervolgens op **[!UICONTROL Export]** . Selecteer een van de volgende opties:
+   1. (Facultatief) klik het **[!UICONTROL Export]** pictogram ![ pictogram van de Uitvoer ](assets/export.png) om de [!UICONTROL Overview] en informatie van de douaneformulieren naar een dossier van PDF uit te voeren, dan klik **[!UICONTROL Export]**. Selecteer een van de volgende opties:
 
       * Alles selecteren (wordt alleen weergegeven als er ten minste één aangepast formulier is gekoppeld)
       * Overzicht
       * De naam van een of meerdere aangepaste formulieren
 
-      Het PDF-bestand wordt naar de computer gedownload.
+      Het PDF-bestand wordt naar uw computer gedownload.
 
-      ![](assets/export-portfolio-details-box-with-export-button-350x368.png)
+      ![ de portefeuilledetails van de Uitvoer ](assets/export-portfolio-details-box-with-export-button-350x368.png)
 
       Voor meer informatie, zie [ de douaneformulieren en objecten details van de Uitvoer ](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
@@ -100,14 +100,14 @@ U kunt een [!UICONTROL portfolio] in de portfoliopagina bewerken of portfolio&#3
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will change in NWE with a new Edit Portfolio UI)</p>   
      -->
 
-   * Ga naar een lijst met portfolio&#39;s en selecteer een of meer portfolio die u wilt bewerken. Klik vervolgens op het pictogram **[!UICONTROL Edit]** ![](assets/edit-icon.png) boven aan de lijst.
+   * Ga naar een lijst van portefeuilles en selecteer één of meerdere portefeuille die u wilt uitgeven, dan klik het **[!UICONTROL Edit]** pictogram ![ uitgeven pictogram ](assets/edit-icon.png) bij de bovenkant van de lijst.
 
      <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will need to split into another section when they release the new [!UICONTROL Edit Portfolio] UI)</p>   
      -->
    Het dialoogvenster **[!UICONTROL Edit Portfolio]** wordt weergegeven.
 
-   ![](assets/edit-portfolio-box-classic-350x224.png)
+   ![ geef portefeuillevak ](assets/edit-portfolio-box-classic-350x224.png) uit
 
    Alle portfoliovelden zijn beschikbaar in het vak [!UICONTROL Edit Portfolio] en worden gegroepeerd op de gebieden in het linkerdeelvenster.
 
@@ -143,7 +143,7 @@ U kunt een [!UICONTROL portfolio] in de portfoliopagina bewerken of portfolio&#3
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Description]</td> 
-      <td> <p>Typ een beschrijving voor het Portfolio om aan te geven wat er uniek aan is. </p> </td> 
+      <td> <p>Typ een beschrijving voor de Portfolio om aan te geven wat er uniek aan is. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Portfolio Manager]</td> 
@@ -184,7 +184,7 @@ U kunt een [!UICONTROL portfolio] in de portfoliopagina bewerken of portfolio&#3
 1. Een portfolio bewerken zoals hierboven beschreven.
 1. Klik op **[!UICONTROL Comment]**.
 
-   ![](assets/comment-box-edit-portfolio-classic-350x227.png)
+   ![ geef de doos van de portefeuillecommentaar uit ](assets/comment-box-edit-portfolio-classic-350x227.png)
 
 1. Voeg een opmerking toe in het veld **[!UICONTROL Post an update to the portfolio]** .
 1. (Optioneel) Klik op het pictogram **[!UICONTROL People]** om een gebruiker of een team aan de opmerking toe te voegen.

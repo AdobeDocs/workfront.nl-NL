@@ -6,9 +6,9 @@ description: Projectverzoeken worden weergegeven als projecten met de status [!U
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1acfb885-0da3-495d-ba66-e80e339e90de
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>[!UICONTROL View] toegang tot Portfolio's of hoger</p> <p>[!UICONTROL Edit] toegang tot projecten</p>  </td> 
+   <td> <p>[!UICONTROL View] toegang tot of hoger voor portfolio's</p> <p>[!UICONTROL Edit] toegang tot projecten</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -77,7 +77,7 @@ Voor meer informatie over het goedkeuren van projectverzoeken door een projectra
 
    >[!TIP]
    >
-   > Naast het hebben van een Status van **[!UICONTROL Requested]**, moeten de projecten met het geselecteerde Portfolio worden geassocieerd om in deze lijst te tonen.
+   > Naast het hebben van een Status van **[!UICONTROL Requested]**, moeten de projecten met geselecteerde Portfolio worden geassocieerd om in deze lijst te tonen.
 
 1. Klik op de naam van een project in de lijst om het te openen.
 1. Klik op **[!UICONTROL Project Details]** in het linkerdeelvenster.
@@ -99,7 +99,7 @@ Voor meer informatie over het goedkeuren van projectverzoeken door een projectra
 
    * Wijzig de status van het project in een andere status in de vervolgkeuzelijst **[!UICONTROL Status]** .
 
-     ![](assets/project-status-change-from-drop-down-in-header-nwe-350x294.png)
+     ![ het projectstatus van de Verandering van dropdown ](assets/project-status-change-from-drop-down-in-header-nwe-350x294.png)
  
 
  

@@ -6,9 +6,9 @@ description: Een uitgave converteren naar een project in Adobe Workfront
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1906'
+source-wordcount: '1924'
 ht-degree: 0%
 
 ---
@@ -69,12 +69,12 @@ U kunt een uitgave in een leeg project omzetten.
 1. Ga naar een project en klik op **[!UICONTROL Issues]** in het linkerdeelvenster.
 1. Voer een van de volgende handelingen uit in de lijst met weergegeven problemen:
 
-   * Als u een uitgave wilt omzetten in een leeg project, klikt u op de naam van de uitgave, klikt u op het **[!UICONTROL More]** menu ![](assets/more-icon.png) rechts van de naam van de uitgave en klikt u vervolgens op **[!UICONTROL Convert to a blank project]** .
+   * Om een kwestie in een leeg project om te zetten, klik de naam van de kwestie, klik het **[!UICONTROL More]** menu ![ Meer menu ](assets/more-icon.png) rechts van de uitgevende naam, dan klik **[!UICONTROL Convert to a blank project]**.
 
 
      of
 
-     Selecteer het probleem in de lijst met uitgaven, klik op het **[!UICONTROL More]** menu ![](assets/more-icon.png) boven aan de lijst en klik vervolgens op **[!UICONTROL Convert to a blank project]** .
+     Selecteer de kwestie in de lijst van kwestie, klik het **[!UICONTROL More]** menu ![ Meer menu ](assets/more-icon.png) bij de bovenkant van de lijst, dan klik **[!UICONTROL Convert to a blank project]**.
 
      >[!IMPORTANT]
      >
@@ -122,7 +122,7 @@ U kunt een uitgave in een leeg project omzetten.
    * Bekijk de aangepaste formulieren die aan de uitgave zijn gekoppeld. Zij zullen naar het nieuwe project, als zij ook projectdouaneformulieren zijn overbrengen.
    * Meer aangepaste formulieren toevoegen
    * Controleer of alle vereiste velden geldige gegevens bevatten.
-   * U kunt de aangepaste formulieren opnieuw rangschikken door deze ![](assets/drag-object-icon.png) naar de gewenste positie te slepen.
+   * Herschik de douanevormen door hen ![ pictogram van de Belemmering ](assets/drag-object-icon.png) te slepen waar u hen wilt.
    * Klik het **x** pictogram aan het recht van om het even welke vorm die u niet naar het project wilt overbrengen. Hiermee verwijdert u het formulier uit het project.
    * Indien nodig, breng de informatie van de douaneformulier van de kwestie aan het project over.
 
@@ -153,7 +153,7 @@ U kunt een uitgave in een leeg project omzetten.
 U kunt een uitgave in een project omzetten gebruikend een malplaatje.
 
 1. Ga naar een project en klik op **[!UICONTROL Issues]** in het linkerdeelvenster.
-1. In de lijst van kwesties die toont, klik de naam van de kwestie, klik het **[!UICONTROL More]** menu ![](assets/more-icon.png) rechts van de uitgevende naam, dan klik **Bekeerling aan project van Malplaatje** en begin de naam van een malplaatje in het **Sjabloon van het Onderzoek** vakje te typen, dan klik de naam van het malplaatje wanneer het in de lijst toont. Ga verder met stap 3.
+1. In de lijst van kwesties die toont, klik de naam van de kwestie, klik het **[!UICONTROL More]** menu ![ Meer menu ](assets/more-icon.png) rechts van de uitgevende naam, dan klik **Bekeerling aan project van Malplaatje** en begin de naam van een malplaatje in het **Sjabloon van het Onderzoek** vakje te typen, dan klik de naam van het malplaatje wanneer het in de lijst toont. Ga verder met stap 3.
 
    >[!TIP]
    >
@@ -161,7 +161,7 @@ U kunt een uitgave in een project omzetten gebruikend een malplaatje.
 
    Het vak Nieuw project van sjabloon wordt weergegeven.
 
-   ![](assets/new-project-from-template-small-box-with-template-details-panel-nwe-350x279.png)
+   ![ Nieuw project van malplaatje ](assets/new-project-from-template-small-box-with-template-details-panel-nwe-350x279.png)
 
    >[!TIP]
    >
@@ -180,7 +180,7 @@ U kunt een uitgave in een project omzetten gebruikend een malplaatje.
    * Het aantal taken in de sjabloon
    * De namen van de aangepaste sjabloonformulieren
 
-1. (Optioneel) Plaats de muis boven de naam van een sjabloon en klik op het pictogram **Favorieten ![](assets/favorites-icon-small.png) om het als favoriet voor toekomstig gebruik te markeren.**
+1. (Facultatief) muis over de naam van een malplaatje en klik het **pictogram van Favorieten ![ ](assets/favorites-icon-small.png) om het als favoriet voor toekomstig gebruik te merken.**
 
    >[!TIP]
    >
@@ -190,7 +190,7 @@ U kunt een uitgave in een project omzetten gebruikend een malplaatje.
 
    Het vak [!UICONTROL Convert to Project] wordt geopend.
 
-   ![](assets/convert-to-project-from-template-large-project-box-nwe-350x291.png)
+   ![ Bekeerling aan project ](assets/convert-to-project-from-template-large-project-box-nwe-350x291.png)
 
 1. Als een veld al in de sjabloon is ingevuld, wordt het veld vooraf ingevuld in het vak [!UICONTROL Convert to project] . U kunt de vooraf ingevulde waarden bewerken zodat deze beter overeenkomen met uw project. Voor meer informatie, zie [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
@@ -230,7 +230,7 @@ U kunt een uitgave in een project omzetten gebruikend een malplaatje.
       * Bekijk de aangepaste formulieren die aan de sjabloon zijn gekoppeld. Zij zullen worden overgedragen naar het nieuwe project.
       * Bekijk de aangepaste formulieren die aan de uitgave zijn gekoppeld. Zij zullen naar het project worden overgedragen als het ook projectvormen zijn.
       * Controleer of alle vereiste velden geldige gegevens bevatten.
-      * U kunt de aangepaste formulieren opnieuw rangschikken door deze ![](assets/drag-object-icon.png) naar de gewenste positie te slepen.
+      * Herschik de douanevormen door hen ![ pictogram van de Belemmering ](assets/drag-object-icon.png) te slepen waar u hen wilt.
       * Klik het **x** pictogram aan het recht van om het even welke vorm die u niet naar het project wilt overbrengen.
       * Indien nodig, breng de informatie van de douaneformulier van de kwestie aan het project over.
 

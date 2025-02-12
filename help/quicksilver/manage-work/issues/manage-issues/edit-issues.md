@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '2523'
+source-wordcount: '2551'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Contribute geeft een machtiging aan een uitgave om de volgende velden in het gebied Details te bewerken: </p>
+   <td> <p>Contribute-machtigingen voor een uitgave om de volgende velden in het gebied Details te bewerken: </p>
    <ul>
    <li>Beschrijving</li>
    <li>Status</li>
@@ -74,7 +74,7 @@ U kunt een uitgave bewerken met de gebieden Probleem bewerken of Details van pro
 1. (Facultatief) klik **Taken**, dan klik de naam van een taak om de taak te openen.
 1. Klik **Kwesties** in het linkerpaneel.
 
-   ![](assets/qs-issues-icon-highlighted-on-project-350x278.png)
+   ![ pictogram van Kwesties ](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
 1. (Facultatief) om beperkte informatie over een kwestie uit te geven, klik **Details van de Uitgave** in het linkerpaneel.
 
@@ -85,17 +85,17 @@ U kunt een uitgave bewerken met de gebieden Probleem bewerken of Details van pro
    Ga als volgt te werk om de gegevens in de sectie Details te bewerken:
 
    1. (Optioneel) Klik op het pictogram **Alles samenvouwen** rechtsboven om alle gebieden samen te vouwen.
-   1. (Facultatief en voorwaardelijk) wanneer een gebied wordt doen ineenstorten, klik de **juist-richt pijl** ![](assets/right-pointing-arrow.png) naast elk gebied om het gebied uit te breiden u wilt uitgeven.
+   1. (Facultatief en voorwaardelijk) wanneer een gebied wordt doen ineenstorten, klik de **juist-richt pijl** ![ juist richtende pijl ](assets/right-pointing-arrow.png) naast elk gebied om het gebied uit te breiden u wilt uitgeven.
    1. (Facultatief) om een douaneformulier vast te maken, begin de naam van een vorm in **te typen voeg douaneformulier** toe, dan selecteer het wanneer het in de lijst toont, dan klik **sparen Veranderingen**.
-   1. (Facultatief) klik het **pictogram van de Uitvoer ![](assets/export.png) om het Overzicht en de informatie van de douaneformulieren naar een dossier van de PDF uit te voeren, dan klik** Uitvoer **.** Selecteer een van de volgende opties:
+   1. (Facultatief) klik het **pictogram van de Uitvoer ![ pictogram van de Uitvoer ](assets/export.png) om het Overzicht en de informatie van de douaneformulieren naar een dossier van PDF uit te voeren, dan klik** Uitvoer **.** Selecteer een van de volgende opties:
 
       * Alles selecteren (wordt alleen weergegeven als er ten minste één aangepast formulier is gekoppeld)
       * Overzicht
       * De naam van een of meerdere aangepaste formulieren
 
-      Het PDF-bestand wordt naar de computer gedownload.
+      Het PDF-bestand wordt naar uw computer gedownload.
 
-      ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
+      ![ de kwesties van de Uitvoer details ](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
       Voor meer informatie, zie [ de douaneformulieren en objecten details van de Uitvoer ](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
@@ -134,7 +134,7 @@ U kunt een uitgave bewerken met de gebieden Probleem bewerken of Details van pro
 1. Bewerk een uitgave zoals hierboven beschreven.
 1. Klik **Naam van de Uitgave**.
 
-   ![](assets/issue-name-section-edit-issue-box-nwe-350x127.png)
+   {de naamsectie van 0} Uitgave ](assets/issue-name-section-edit-issue-box-nwe-350x127.png)![
 
 1. Werk het **gebied van de Naam van de Uitgave** bij.
 1. Klik **sparen** of blijf het uitgeven van de volgende secties.
@@ -144,7 +144,7 @@ U kunt een uitgave bewerken met de gebieden Probleem bewerken of Details van pro
 1. Bewerk een uitgave zoals hierboven beschreven.
 1. Klik **Overzicht**.
 
-   ![](assets/overview-section-edit-issue-box-nwe-350x284.png)
+   ![ de overzichtssectie van de Uitgave ](assets/overview-section-edit-issue-box-nwe-350x284.png)
 
 1. Werk of herzie om het even welke gebieden in de volgende lijst bij:
 
@@ -271,7 +271,7 @@ U kunt een uitgave bewerken met de gebieden Probleem bewerken of Details van pro
 1. Bewerk de uitgave zoals hierboven beschreven.
 1. Klik **Toewijzingen** in het linkerpaneel.
 
-   ![](assets/assignments-section-edit-issue-box-nwe-350x230.png)
+   ![ sectie van de Toewijzingen van de Uitgave ](assets/assignments-section-edit-issue-box-nwe-350x230.png)
 
 1. Klik **mensen van het Onderzoek, rol en teams** en begin de naam van een gebruiker, een rol, of een team te typen dat u aan de taak wilt toewijzen, dan het klikken of drukken binnengaan wanneer het op de lijst toont.
 
@@ -322,7 +322,7 @@ U kunt een uitgave bewerken met de gebieden Probleem bewerken of Details van pro
 1. Bewerk een uitgave zoals hierboven beschreven.
 1. Klik **Aangepaste Forms**.
 
-   ![](assets/custom-forms-section-edit-issue-box-nwe-350x132.png)
+   ![ uitgeeft de sectie van de douanevormen ](assets/custom-forms-section-edit-issue-box-nwe-350x132.png)
 
 1. In **voeg douaneformulier** gebied toe, selecteer de douanevorm of de vormen die u met de kwestie wilt associëren. U moet aangepaste formulieren maken voordat u ze in dit veld kunt selecteren. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Voor meer informatie over de bouw van douaneformulieren, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren. U kunt maximaal tien aangepaste formulieren toevoegen aan een uitgave.
 
@@ -339,7 +339,7 @@ U kunt een uitgave bewerken met de gebieden Probleem bewerken of Details van pro
 1. Bewerk een uitgave zoals hierboven beschreven.
 1. Klik **Montages**.
 
-   ![](assets/settings-section-edit-issue-box-nwe-350x240.png)
+   ![ pictogram van de montages van de Kwestie ](assets/settings-section-edit-issue-box-nwe-350x240.png)
 
    Werk de volgende gegevens bij:
 
@@ -383,7 +383,7 @@ U kunt een beperkte hoeveelheid informatie in de uitgiftheader bewerken.
 
 Uw systeem- of groepsbeheerder kan de velden die u in de uitgiftekop ziet, aanpassen. Voor informatie, zie [ objecten kopballen aanpassen gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
-![](assets/issue-header-350x19.png)
+![ kopbal van de Uitgave ](assets/issue-header-350x19.png)
 
 De volgende velden worden standaard opgenomen in de uitgiftheader:
 

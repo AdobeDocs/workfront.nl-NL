@@ -5,9 +5,9 @@ description: De de vertoningsinformatie van de Grafiek van Gantt van de taaklijs
 author: Alina
 feature: Work Management
 exl-id: e6b55699-0831-40d4-a997-6fe3f8828ee1
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '818'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ Om taken in een project van een lijst van projecten te bekijken:
 
    Een lijst met projecten wordt weergegeven.
 
-1. Klik op het **[!UICONTROL Gantt chart]** pictogram ![](assets/gantt-icon-nwe.png) in de rechterbovenhoek van het scherm.
+1. Klik het **[!UICONTROL Gantt chart]** pictogram ![ Gantt pictogram ](assets/gantt-icon-nwe.png) in de hoger-juiste hoek van het scherm.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: images conditioned for classic and nwe) <br></p>
@@ -113,7 +113,7 @@ U kunt de tijdsperiode aanpassen die op [!UICONTROL Gantt Chart] wordt weergegev
 
 1. Klik in het [!UICONTROL Gantt Chart] op de vervolgkeuzelijst voor het tijdframe.
 
-   ![](assets/timeline-options.png)
+   ![ opties van de Chronologie ](assets/timeline-options.png)
 
 1. Selecteer een tijdkader uit de volgende beschikbare opties:
 
@@ -156,7 +156,7 @@ De filters en de groeperingen die u op de lijst toepast worden weerspiegeld op z
    Groepen die u op de lijst toepast, worden weergegeven in de [!UICONTROL Gantt Chart] .\
    Voor informatie over het toepassen van een Groepering, zie [ Overzicht van Groepen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-Weergaven worden niet weerspiegeld in de [!UICONTROL Gantt Chart] . Nochtans, wanneer u [!UICONTROL Gantt Chart] (zoals die in [ wordt beschreven Uitvoer [!UICONTROL Gantt Chart] naar PDF ](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)) uitvoert, wordt de taaklijst uitgevoerd naast [!UICONTROL Gantt chart], met de huidige Mening die op de lijst wordt toegepast.
+Weergaven worden niet weerspiegeld in de [!UICONTROL Gantt Chart] . Nochtans, wanneer u [!UICONTROL Gantt Chart] (zoals die in [ wordt beschreven de Uitvoer [!UICONTROL Gantt Chart] naar PDF ](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)) uitvoert, wordt de taaklijst uitgevoerd naast [!UICONTROL Gantt chart], met de huidige Mening die op de lijst wordt toegepast.
 
 ## Weergaveopties configureren
 

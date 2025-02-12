@@ -2,14 +2,14 @@
 content-type: overview
 product-area: portfolios
 navigation-topic: portfolio-optimizer
-title: Overzicht van Portfolio optimaliseren
+title: Overzicht van Portfolio Optimizer
 description: '[!UICONTROL Portfolio Optimizer] is het hulpmiddel dat voor projectevaluatie en vergelijking wordt gebruikt. Het proces om de waarden van BedrijfsGeval voor projecten te herzien en te vergelijken die aan een portefeuille worden toegewezen is hoe een portefeuillemanager projecten kan voorrang geven en de meeste waarde voor een organisatie produceert.'
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1e48a24c-65de-49c2-85a8-dc931ac40c52
-source-git-commit: b07b4926ab1b1eee9b7698a445644e1cd312fa09
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1325'
+source-wordcount: '1333'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 [!UICONTROL Portfolio Optimizer] is het hulpmiddel dat voor projectevaluatie en vergelijking wordt gebruikt. Bij het evalueren en vergelijken van [!UICONTROL Business Case] -waarden voor projecten die zijn toegewezen aan een portfolio, kan een portfoliobeheerder prioriteit geven aan projecten en de meeste waarde voor een organisatie genereren.
 
-![](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
+![ Portfolio optimizer met projecten ](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
 
 Het doel van [!UICONTROL portfolio optimizer] is een interface te verstrekken waarmee een portefeuillebeheerder, stuurcomité, of het bureau van het productbeheer summiere informatie over het bedrijfscase van elk project kan bekijken. De projecten kunnen dan worden geprioriteerd volgens strategische waarden en doelstellingen, of volgens hun algemene score.
 
@@ -49,7 +49,7 @@ Houd rekening met het volgende wanneer u werkt met financiën in de [!UICONTROL 
 
 U kunt financiële informatie in de volgende gebieden van [!UICONTROL Portfolio Optimizer] bekijken:
 
-* **[!UICONTROL Portfolio Header]**: Dit gebied bevat financiële informatie die is verzameld voor alle projecten in het portfolio. Deze wordt op elk tabblad van het object Portfolio weergegeven.
+* **[!UICONTROL Portfolio Header]**: Dit gebied bevat financiële informatie die is verzameld voor alle projecten in het portfolio. Deze wordt weergegeven op elk tabblad van het Portfolio-object.
 * **[!UICONTROL Portfolio Finances for Selected Projects]**: In dit gebied wordt financiële informatie weergegeven die is verzameld voor de projecten die zijn geselecteerd in [!UICONTROL Portfolio Optimizer] . U kunt projecten toevoegen of verwijderen en begrijpen hoe dit de financiën van de portefeuille door de informatie op dit gebied te bekijken zal beïnvloeden.
 * **[!UICONTROL Projects Finances]**: In dit gebied worden de financiële gegevens van elk project weergegeven dat in de [!UICONTROL Portfolio Optimizer] wordt weergegeven.
 
@@ -57,12 +57,12 @@ U kunt financiële informatie in de volgende gebieden van [!UICONTROL Portfolio 
 
 De volgende financiële velden worden weergegeven in de [!UICONTROL Portfolio Optimizer] :
 
-* [Koptekst Portfolio](#portfolio-header)
+* [Portfolio header](#portfolio-header)
 * [Portfolio financiert geselecteerde projecten](#portfolio-finances-for-selected-projects)
 
-#### Koptekst Portfolio {#portfolio-header}
+#### Portfolio header {#portfolio-header}
 
-![](assets/portfolio-header-nwe-350x14.png)
+![ de kopbal van Portfolio ](assets/portfolio-header-nwe-350x14.png)
 
 [!DNL Adobe Workfront] berekent de financiële velden in de portfoliokop met behulp van gegevens uit projecten met statussen die alleen overeenkomen met [!UICONTROL Approved] of [!UICONTROL Current] .
 
@@ -86,7 +86,7 @@ De volgende financiële velden worden weergegeven in de [!UICONTROL Portfolio Op
   </tr> 
   <tr> 
    <td>ROI (voor portefeuille)</td> 
-   <td> <p>Het [!UICONTROL Return on Investment] (ROI) voor het portfolio wordt berekend met inachtneming van het totaal [!UICONTROL Benefit] van de [!UICONTROL Portfolio] en het totaal van de [!UICONTROL Budgeted Costs] van de projecten. Dit is zichtbaar vanaf elk tabblad in een portfolio.</p> <p>De ROI-waarde van het Portfolio wordt berekend met behulp van de volgende formule:</p> <p><em> Portfolio ROI = ([!UICONTROL Total Benefit] - [!UICONTROL Total Budgeted Cost])/ [!UICONTROL Total Cost] * 100 </em> </p> <p>Voor meer informatie over hoe ROI voor een project wordt berekend, zie het artikel <a href="../../../manage-work/projects/project-finances/calculate-roi.md" class="MCXref xref"> Rendement van Investering (ROI) berekenen </a>.</p> </td> 
+   <td> <p>Het [!UICONTROL Return on Investment] (ROI) voor het portfolio wordt berekend met inachtneming van het totaal [!UICONTROL Benefit] van de [!UICONTROL Portfolio] en het totaal van de [!UICONTROL Budgeted Costs] van de projecten. Dit is zichtbaar vanaf elk tabblad in een portfolio.</p> <p>De ROI-waarde van Portfolio wordt berekend met behulp van de volgende formule:</p> <p><em> Portfolio ROI = ([!UICONTROL Total Benefit] - [!UICONTROL Total Budgeted Cost])/ [!UICONTROL Total Cost] * 100 </em> </p> <p>Voor meer informatie over hoe ROI voor een project wordt berekend, zie het artikel <a href="../../../manage-work/projects/project-finances/calculate-roi.md" class="MCXref xref"> Rendement van Investering (ROI) berekenen </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Aligned] of [!UICONTROL Alignment Score] </td> 
@@ -101,7 +101,7 @@ De volgende financiële velden worden weergegeven in de [!UICONTROL Portfolio Op
 
 #### Portfolio financiert geselecteerde projecten {#portfolio-finances-for-selected-projects}
 
-![](assets/portfolio-finances-for-selected-projects-in-optimizer-nwe-350x29.png)
+![ Portfolio financiert ](assets/portfolio-finances-for-selected-projects-in-optimizer-nwe-350x29.png)
 
 <table style="table-layout:auto"> 
  <col> 
@@ -128,7 +128,7 @@ De volgende financiële velden worden weergegeven in de [!UICONTROL Portfolio Op
   </tr> 
   <tr> 
    <td>[!UICONTROL Remaining]</td> 
-   <td> <p>Het resterende budget na alle [!UICONTROL Budgeted Costs] voor alle projecten binnen de portefeuille is afgetrokken van de begroting van de portefeuille.</p> <p>[!UICONTROL Remaining Portfolio Budget] wordt berekend met behulp van de volgende formule:</p> <p><em>[!UICONTROL Remaining Portfolio Budget] = [!UICONTROL Total Portfolio Budget] - Totaal [!UICONTROL Budgeted Cost] van Alle projecten van het Portfolio </em> </p> <p>Het totaal [!UICONTROL Budgeted Cost] van alle projecten in de portefeuille wordt weergegeven in de indicatorbalk onder het veld Begroting. </p> <p>Voor meer informatie over het volgen van kosten op een project, zie <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref"> Kosten van het Spoor </a>.</p> </td> 
+   <td> <p>Het resterende budget na alle [!UICONTROL Budgeted Costs] voor alle projecten binnen de portefeuille is afgetrokken van de begroting van de portefeuille.</p> <p>[!UICONTROL Remaining Portfolio Budget] wordt berekend met behulp van de volgende formule:</p> <p><em>[!UICONTROL Remaining Portfolio Budget] = [!UICONTROL Total Portfolio Budget] - Totaal [!UICONTROL Budgeted Cost] van alle Portfolio-projecten </em> </p> <p>Het totaal [!UICONTROL Budgeted Cost] van alle projecten in de portefeuille wordt weergegeven in de indicatorbalk onder het veld Begroting. </p> <p>Voor meer informatie over het volgen van kosten op een project, zie <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref"> Kosten van het Spoor </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Total Cost]</td> 
@@ -161,7 +161,7 @@ De volgende pictogrammen en opties zijn beschikbaar voor [!UICONTROL Portfolio O
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>Pictogram in Portfolio optimaliseren</strong></td> 
+   <td><strong>Pictogram in de Portfolio Optimizer</strong></td> 
    <td><strong>Naam</strong></td> 
    <td><strong>Functie</strong></td> 
   </tr> 

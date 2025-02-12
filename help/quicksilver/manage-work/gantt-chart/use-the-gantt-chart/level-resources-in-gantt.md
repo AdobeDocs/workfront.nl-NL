@@ -6,9 +6,9 @@ description: Informatie over hoe te om middelen in de Grafiek van Gantt te nivel
 author: Alina
 feature: Work Management
 exl-id: ba96c01d-03b8-4728-b5e3-b10d227f51b0
-source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '530'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Overweeg het volgende wanneer het nivelleren van middelen op een project:
 * Eerdere relaties hebben voorrang op bronnenniveau.
 * **[!UICONTROL Resource Leveling]** moet voor het project worden ingesteld op **[!UICONTROL Manual]** om het niveau in de [!UICONTROL Gantt chart] aan te passen. Als u beheerdersmachtigingen voor het project hebt, kunt u ervoor zorgen dat het systeem bronnen automatisch op niveau brengt door deze instelling aan te passen op het project en **[!UICONTROL Automatic]** te selecteren in plaats van **[!UICONTROL Manual]** in het vak **[!UICONTROL Edit Project]** .
 
-  ![](assets/resource-leveling-mode-350x177.png)
+  ![ het niveauwijze van het Middel ](assets/resource-leveling-mode-350x177.png)
 
 * Als projecteigenaar, of de taak toegewezen, kunt u een nivellerende vertraging voor een taak introduceren om erop te wijzen dat er een grote kans is dat de taak extra tijd zou kunnen vereisen. Voor informatie over het toevoegen van een nivellerende vertraging aan een taak, zie [ de taak Levende Vertraging van de Update ](../../../manage-work/tasks/task-information/task-leveling-delay.md).
 
@@ -83,7 +83,7 @@ U kunt de Taaklijst [!UICONTROL Gantt Chart] gebruiken om uw middelen te nivelle
    >
    >U kunt resources niet in de [!UICONTROL Gantt Chart] nivelleren wanneer de optie [!UICONTROL Autosave] is ingeschakeld.
 
-   ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![ Toegelaten het Handmatig plaatsen ](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. Klik op de vervolgkeuzelijst **[!UICONTROL Level Resources]** .
 

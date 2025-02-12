@@ -6,9 +6,9 @@ description: Portfolio's zijn verzamelingen van projecten of programma's in Adob
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>[!UICONTROL Edit] toegang tot projecten en Portfolio's</p>  </td> 
+   <td> <p>[!UICONTROL Edit] toegang tot projecten en portfolio's</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -81,12 +81,12 @@ Wanneer u een portfolio deactiveert, hebt u nog steeds toegang tot dit portfolio
 
 1. Klik op **[!UICONTROL Portfolios]** .
 1. Klik op de naam van het portfolio.
-1. Klik **Meer** menu ![](assets/more-icon.png) rechts van de portefeuillenaam, dan klik **[!UICONTROL Deactivate Portfolio]**.
+1. Klik **Meer** menu ![ Meer menu ](assets/more-icon.png) rechts van de portefeuillenaam, dan klik **[!UICONTROL Deactivate Portfolio]**.
 
 ## Een portfolio verwijderen
 
 {{step1-click-main-menu}}
 
 1. Klik op **[!UICONTROL Portfolios]** .
-1. Selecteer het portfolio en klik op **[!UICONTROL Delete]** &#x200B; het [!UICONTROL Delete] pictogram ![](assets/delete.png) .
+1. Selecteer de portefeuille, dan klik **[!UICONTROL Delete]** &#x200B; het [!UICONTROL Delete] pictogram ![ pictogram van de Schrapping ](assets/delete.png).
 1. Klik op **[!UICONTROL Yes, Delete It]** om te bevestigen.

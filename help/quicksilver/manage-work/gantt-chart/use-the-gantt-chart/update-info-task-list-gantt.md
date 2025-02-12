@@ -6,9 +6,9 @@ description: De van de taaklijst Gantt- Grafiek toont details over taken die op 
 author: Alina
 feature: Work Management
 exl-id: 0a8e6fd5-985c-49e5-842d-67ade29ee1c9
-source-git-commit: e2f6eada24b4e48bce58189ec16447eda89f4a09
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ U moet het volgende hebben om de stappen in dit artikel te volgen:
 1. Ga naar het project u wilt wijzigen.
 1. Klik op **[!UICONTROL Tasks]** in het linkerdeelvenster.
 
-   ![](assets/qs-tasks-area-highlighted-in-the-secondary-nav-350x206.png)
+   ![ gebied van Taken ](assets/qs-tasks-area-highlighted-in-the-secondary-nav-350x206.png)
 
 1. Klik op het pictogram **[!UICONTROL Gantt chart]** .
 
@@ -73,7 +73,7 @@ U moet het volgende hebben om de stappen in dit artikel te volgen:
 
 1. (Optioneel) Klik op het pictogram **[!UICONTROL Plan mode]** en selecteer **[!UICONTROL Manual save Standard]** of **[!UICONTROL Timeline Planning]** om de wijzigingen handmatig op te slaan.
 
-   ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![ Toegelaten het Handmatig plaatsen ](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. Houd de cursor boven de tijdlijn van een taak en sleep de tijdlijnindicator naar een andere datum.
 1. Zet de indicator neer wanneer u de correcte nieuwe Datum van Voltooiing voor de taak hebt bereikt.
@@ -103,7 +103,7 @@ U moet het volgende hebben om de stappen in dit artikel te volgen:
 
 1. (Optioneel) Klik op het pictogram **[!UICONTROL Plan mode]** en selecteer **[!UICONTROL Manual save Standard]** of **[!UICONTROL Timeline Planning]** om de wijzigingen handmatig op te slaan.
 
-   ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![ Toegelaten het Handmatig plaatsen ](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. Als u een voorgaande relatie wilt maken, klikt u op het beginpunt van een taak en sleept u deze naar het eindpunt van de taak.
 1. Als u een eerdere relatie wilt verwijderen, klikt u op een eerdere regel die twee taken met elkaar verbindt om deze te selecteren en drukt u vervolgens op **[!UICONTROL Delete]** op het toetsenbord.\
@@ -135,7 +135,7 @@ U moet het volgende hebben om de stappen in dit artikel te volgen:
 
 1. (Optioneel) Klik op het pictogram **[!UICONTROL Plan mode]** en selecteer **[!UICONTROL Manual save Standard]** of **[!UICONTROL Timeline Planning]** om de wijzigingen handmatig op te slaan.
 
-   ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![ Toegelaten het Handmatig plaatsen ](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. Houd de muisaanwijzer boven het midden van de taak en zoek de pijl met meerdere richtingen.
 1. Klik en sleep de taak naar de gewenste datum.

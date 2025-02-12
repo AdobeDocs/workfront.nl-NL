@@ -6,9 +6,9 @@ description: U kunt een afzonderlijke uitgave bewerken of uitgaven in een lijst 
 author: Alina
 feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
-source-git-commit: 24cc3ece515fd778a9bc9e8afbcd534f48b24230
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '896'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ U moet de volgende toegang hebben om de handelingen in dit artikel uit te voeren
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Contribute of hogere machtigingen voor de uitgave</p> <p> Voor informatie over het verlenen van toestemmingen aan kwesties, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref"> een kwestie delen </a></p> <p>Voor informatie bij het vragen van extra toestemmingen, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> Toegang tot voorwerpen verzoeken </a>.</p> </td> 
+   <td> <p>Contribute of hoger machtigingen voor de uitgave</p> <p> Voor informatie over het verlenen van toestemmingen aan kwesties, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref"> een kwestie delen </a></p> <p>Voor informatie bij het vragen van extra toestemmingen, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> Toegang tot voorwerpen verzoeken </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,7 +65,7 @@ Een uitgave inline bewerken:
 1. Ga naar een lijst met problemen in een project of taak.
 1. Klik in een veld waarvoor u gemachtigd bent om handmatig bij te werken. Het veld wordt bewerkbaar en u kunt de wijzigingen aanbrengen.
 
-   ![](assets/edit-issues-inline-350x34.png)
+   ![ geeft kwesties inline uit ](assets/edit-issues-inline-350x34.png)
 
 1. Druk op Enter wanneer u de wijzigingen wilt accepteren. Wijzigingen worden direct opgeslagen.
 
@@ -76,9 +76,9 @@ Een uitgave inline bewerken:
 1. Ga naar een lijst met problemen in een project of taak.
 1. Voer een van de volgende handelingen uit
 
-   * Selecteer het probleem in de lijst en klik op het pictogram Bewerken ![](assets/qs-edit-icon.png) op de werkbalk.
-   * Klik het **Meer menu** ![](assets/more-icon-task-list.png) aan het recht van de uitgevende naam, dan klik **Open in een nieuw lusje**. Hierdoor wordt de uitgavepagina op een nieuw tabblad geopend. Klik **Meer** > **uitgeven** van de uitgevende pagina.
-   * Klik het **Meer menu** ![](assets/more-icon-task-list.png) aan het recht van de voorwaardennaam, dan klik **uitgeven**.
+   * Selecteer de kwestie in de lijst, dan klik uitgeven pictogram ![ pictogram ](assets/qs-edit-icon.png) in de toolbar uitgeven.
+   * Klik het **Meer menu** ![ Meer menu ](assets/more-icon-task-list.png) aan het recht van de voorwaardennaam, dan klik **Open in een nieuw lusje**. Hierdoor wordt de uitgavepagina op een nieuw tabblad geopend. Klik **Meer** > **uitgeven** van de uitgevende pagina.
+   * Klik het **Meer menu** ![ Meer menu ](assets/more-icon-task-list.png) aan het recht van de voorwaardennaam, dan klik **uitgeven**.
 
      Met een van deze handelingen wordt het vak Probleem bewerken geopend.
 
@@ -93,7 +93,7 @@ U kunt een uitgave in een lijst bewerken met de samenvatting.
 
    De lijst met problemen in het project wordt weergegeven.
 
-1. Selecteer een kwestie die u wilt uitgeven, dan het **Open Samenvatting** pictogram ![](assets/qs-open-summary-icon-in-new-toolbar-small.png) in de hoger-juiste hoek van de voorwaardenlijst klikken.
+1. Selecteer een kwestie die u wilt uitgeven, dan het **Open Samenvattende** pictogram ![ Open Samenvattingspictogram ](assets/qs-open-summary-icon-in-new-toolbar-small.png) in de hoger-juiste hoek van de voorwaardenlijst klikken.
 
    Het **Samenvatting** opent.
 
@@ -119,7 +119,7 @@ Uitgave bulksgewijs bewerken:
 1. Klik op de naam van een project om het project te openen.
 1. Klik **Kwesties** in het linkerpaneel.
 1. Selecteer verschillende problemen in de lijst.
-1. Klik **uitgeven** pictogram ![](assets/edit-icon.png).
+1. Klik **uitgeven** pictogram ![ uitgeven pictogram ](assets/edit-icon.png).
 
    Het **geeft de dialoogdoos uit van Kwesties** opent.
 

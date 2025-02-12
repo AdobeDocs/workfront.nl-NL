@@ -6,9 +6,9 @@ description: Navigeren binnen een portfolio
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '555'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 In [!DNL Adobe Workfront], vertegenwoordigt een portefeuille een inzameling van projecten die voor de zelfde middelen, begroting, programma, en prioriteit concurreren. Het belangrijkste doel van de portefeuille is om leidinggevenden en projectmanagers bij te staan bij het selecteren van projecten die de organisatie het meest ten goede komen.
 
-Voor meer informatie over portefeuilles, zie [ overzicht van het Portfolio in  [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+Voor meer informatie over portefeuilles, zie [ overzicht van Portfolio in  [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
 ## Toegangsvereisten
 
@@ -45,7 +45,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>[!UICONTROL Edit] toegang tot projecten en Portfolio's</p>  </td> 
+   <td> <p>[!UICONTROL Edit] toegang tot projecten en portfolio's</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -60,7 +60,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Navigeren binnen een portfolio
 
-1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] .
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek van [!DNL Adobe Workfront].
 
 1. Klik op [!UICONTROL Portfolios].
 1. Selecteer de volgende opties in het vervolgkeuzemenu **[!UICONTROL Filter]** :
@@ -109,17 +109,17 @@ Voor informatie over programma&#39;s, zie [ programma&#39;s ](../../../manage-wo
 
 1. (Optioneel) Klik op **[!UICONTROL Portfolio Optimization]** in het linkerdeelvenster om de prestaties van het portfolio te optimaliseren.
 
-   ![](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
+   ![ Portfolio optimizer met projecten ](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
 
    >[!IMPORTANT]
    >
    >Uw bedrijf moet een [!UICONTROL Business] of hoger [!DNL Workfront] abonnement hebben om toegang te hebben tot [!UICONTROL Portfolio Optimizer] .
 
-   Voor informatie over het gebruiken van Portfolio Optimizer, zie [ projecten in de Optimizer van het Portfolio ](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md) sectie leiden.
+   Voor informatie over het gebruiken van de Optimizer van Portfolio, zie [ projecten in de Optimizer van Portfolio ](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md) sectie leiden.
 
 1. (Facultatief) klik **Documenten** in het linkerpaneel om documenten aan de portefeuille vast te maken.
 1. (Optioneel) Klik op **[!UICONTROL Updates]** in het linkerdeelvenster om opmerkingen toe te voegen aan de updatestream van het portfolio. Voor informatie, zie [ het werk van de Update ](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. (Optioneel) Klik op het **[!UICONTROL More]menu** om een van de volgende handelingen uit te voeren: ![](assets/qs-more-icon-on-an-object.png)
+1. (Facultatief) klik het **[!UICONTROL More]menu** ![ Meer menu ](assets/qs-more-icon-on-an-object.png) om één van het volgende te doen:
 
    * Deactiveer het portfolio. Wanneer een portefeuille wordt gedeactiveerd, kunt u het niet meer associëren met projecten op het projectniveau.
    * Het portfolio verwijderen.
@@ -130,4 +130,4 @@ Voor informatie over programma&#39;s, zie [ programma&#39;s ](../../../manage-wo
 
    * Het portfolio delen met andere gebruikers.
 
-1. (Facultatief) klik de **pictogram van de Ster** ![](assets/qs-star-icon-favorites-39x38.png) rechts van de portefeuillenaam om de portefeuille aan uw lijst van favorieten toe te voegen.
+1. (Facultatief) klik het **pictogram van de Ster ![ Ster ](assets/qs-star-icon-favorites-39x38.png) rechts van de portefeuillenaam om de portefeuille aan uw lijst van favorieten toe te voegen.**

@@ -3,13 +3,13 @@ content-type: overview
 product-area: portfolios
 navigation-topic: portfolio-optimizer
 title: Overzicht van de Portfolio Optimizer Score
-description: U kunt de score van de Optimizer van het Portfolio in de Optimizer van het Portfolio vinden. Deze wordt in de kolom [!UICONTROL Score] voor elk project weergegeven. Dit vertegenwoordigt een score voor elk project in de portefeuille.
+description: U vindt de Portfolio Optimizer score in de Portfolio Optimizer. Deze wordt in de kolom [!UICONTROL Score] voor elk project weergegeven. Dit vertegenwoordigt een score voor elk project in de portefeuille.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 4451b1a3-57ae-4c66-a6a1-a85bd51a1648
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -32,9 +32,9 @@ De groeperingsscore van een project wordt berekend gebaseerd op de punten die na
 
 De uitlijningsscore van een project wordt weergegeven in de kolom **[!UICONTROL Alignment]** van het [!UICONTROL Portfolio Optimizer] -veld of in het [!UICONTROL Alignment] -veld van het [!UICONTROL Business Case Summary] -project.
 
-![](assets/business-case-summary-aligned-field-highlighted.png)
+![ Overzicht van bedrijfscase ](assets/business-case-summary-aligned-field-highlighted.png)
 
-![](assets/project-alignment-score-portfolio-optimizer-highlighted-350x174.png)
+![ de groeperingsscore van het Project ](assets/project-alignment-score-portfolio-optimizer-highlighted-350x174.png)
 
 Voor meer informatie over het produceren van de groeperingsscore van een project, zie het artikel [ een scorecard op een project toepassen en een Score van de Uitlijning ](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md) produceren.
 
@@ -44,7 +44,7 @@ De [!UICONTROL portfolio optimizer] score is een positie die automatisch wordt b
 >
 >Een project kan in [!UICONTROL Portfolio Optimizer] slechts worden gescoord als zijn BedrijfsGeval is voltooid. Voor meer informatie over de voltooiing van een Bedrijfs Geval, zie het artikel [[!UICONTROL Create a Business Case] voor een project ](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-![](assets/portfolio-optimizer-project-score-highlighted-350x132.png)
+![ score van het Project ](assets/portfolio-optimizer-project-score-highlighted-350x132.png)
 
 De score voor elk project wordt berekend op basis van het belang van de volgende categorieën:
 
@@ -87,7 +87,7 @@ Hieronder volgt een overzicht van de criteria waaraan u een project kunt voldoen
 * [!UICONTROL Risk to Benefit]
 * [!UICONTROL ROI]
 
-![](assets/optimizer-sliding-value-options-350x77.png)
+![ het Schuiven waardeopties ](assets/optimizer-sliding-value-options-350x77.png)
 
 Voor informatie over hoe te om projecten in de portefeuille te optimaliseren, zie [ projecten in [!UICONTROL Portfolio Optimizer]](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md) optimaliseren.
 

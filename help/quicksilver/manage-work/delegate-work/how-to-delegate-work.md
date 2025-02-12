@@ -6,9 +6,9 @@ description: U kunt het werk tijdelijk delegeren u aan wordt toegewezen terwijl 
 author: Alina
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: 9d0caff0381ee50bf8dd7060bebafb5354c0f0d8
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1506'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ Uw taken en problemen delegeren aan anderen:
 
 1. Klik [!UICONTROL **Afgevaardigde**] in de upper-left hoek van [!UICONTROL **Mijn Werk**], [!UICONTROL **Mijn Taken**], of [!UICONTROL **Mijn Kwesties**] widgets.
 
-   ![](assets/delegate-button-on-my-work-widget.png)
+   ![ de knoop van de Afgevaardigde ](assets/delegate-button-on-my-work-widget.png)
 
 1. Werk het volgende bij:
 
@@ -133,7 +133,7 @@ Uw taken en problemen delegeren aan anderen:
      >
      >Als u het veld Einddatum leeg laat en de optie Geen einddatum is niet geselecteerd, wordt de delegatie alleen voor de huidige dag ingesteld.
 
-     ![](assets/delegate-box-expanded-in-home.png)
+     ![ Uitgebreide doos van de Afgevaardigde ](assets/delegate-box-expanded-in-home.png)
      <!--check screen shot - submitted bug for casing-->
 
 1. Klik [!UICONTROL **sparen**].
@@ -158,7 +158,7 @@ Uw taken en problemen delegeren aan anderen:
       </MadCap:conditionalText>
       -->
 
-     ![](assets/edit-delegation-button-on-my-work-widget.png)
+     ![ geef delegatieknoop ](assets/edit-delegation-button-on-my-work-widget.png) uit
 
    * Als uw gebeurtenismeldingen en uw persoonlijke meldingen zijn ingeschakeld, ontvangt u ook een e-mailbevestiging van uw delegatie.
 
@@ -179,7 +179,7 @@ U kunt een delegatie laten verlopen, als u een Einddatum selecteerde, of u kunt 
    >
    >    U kunt alleen de einddatum van een delegatie bewerken als de delegatie al is gestart.
 
-   ![](assets/stop-delegation-box-new-home-tasks-and-issues.png)
+   ![ de delegatieknoop van het Einde ](assets/stop-delegation-box-new-home-tasks-and-issues.png)
 
 1. (Voorwaardelijk) klik [!UICONTROL **sparen**] om de nieuwe delegatiedata te bewaren
 
@@ -213,11 +213,11 @@ U kunt het vak [!UICONTROL Assignments] openen in de volgende gebieden:
 
   Het veld [!UICONTROL Assignments] in de taak- of uitgiftekop verandert in [!UICONTROL Assignments and delegations] .
 
-  ![](assets/assignments-and-delegates-panel-in-task-header.png)
+  ![ Taken en afgevaardigden paneel in taakkopbal ](assets/assignments-and-delegates-panel-in-task-header.png)
 
 * De [!UICONTROL Workload Balancer] bij het handmatig toewijzen van taken of uitgaven
 
-  ![](assets/assignments-and-delegates-panel-in-workload-balancer.png)
+  ![ de Taken en het paneel van delegaties in Balancer ](assets/assignments-and-delegates-panel-in-workload-balancer.png)
 
 >[!NOTE]
 >
@@ -240,7 +240,7 @@ Als een taak of een kwestie wordt gedelegeerd en subtab [!UICONTROL Delegations]
    * [!UICONTROL ****] Gedelegeerde aan me: aan meningstaken en kwesties die aan u door een andere gebruiker worden gedelegeerd.
    * [!UICONTROL **Gedelegeerde door me**]: aan meningstaken en kwesties die door u aan andere gebruikers worden gedelegeerd.
 
-     ![](assets/delegated-tasks-and-issues-new-home-filter.png)
+     ![ Gedelegeerde taken en geeft filter ](assets/delegated-tasks-and-issues-new-home-filter.png) uit
 
 1. (Optioneel) Klik op het vervolgkeuzemenu **]Sorteren[!UICONTROL ** om de lijst op de volgende criteria te sorteren:
    * [!UICONTROL Due Date]. Dit is de standaardoptie voor sorteren.

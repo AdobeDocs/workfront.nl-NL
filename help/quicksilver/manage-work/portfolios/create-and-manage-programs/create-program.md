@@ -6,9 +6,9 @@ description: Een programma vertegenwoordigt een inzameling van projecten die een
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1120'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Programma&#39;s zijn een onderverdeling van portefeuilles en kunnen niet bestaan
 
 U kunt programma&#39;s maken om uw portfolio&#39;s te organiseren wanneer deze te groot worden.
 
-Bijvoorbeeld, kunt u een Portfolio van het Begrotingsjaar 2024 van de Marketing hebben dat alle projecten van uw afdeling van de Marketing bevat. Misschien wilt u overwegen uw projecten verder te organiseren in fiscale kringen en marketingprogramma&#39;s voor het fiscale kwartaal 1-4 2024 toe te voegen binnen het Portfolio 2024 voor het verkoopseizoen.
+Bijvoorbeeld, kunt u een het Belastingjaar 2024 Portfolio hebben van de Marketing die alle projecten van uw afdeling van de Marketing bevat. Misschien wilt u overwegen om uw projecten verder te organiseren in fiscale kringen en om de programma&#39;s voor marketingbudgettaire kwartaal 1-4 2024 toe te voegen binnen het verkoopseizoen 2024 Portfolio.
 
 ## Toegangsvereisten
 
@@ -45,7 +45,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>[!UICONTROL Edit] toegang tot Portfolio's en programma's </p>  </td> 
+   <td> <p>[!UICONTROL Edit] toegang tot portfolio's en programma's </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -80,7 +80,7 @@ U kunt in Workfront een programma maken met een van de volgende methoden:
 
       1. Klik op **[!UICONTROL Programs]** in het hoofdmenu.
       1. Klik op **[!UICONTROL New Program]**.
-      1. Typ in het vak dat wordt weergegeven de naam van een bestaand Portfolio in het veld **[!UICONTROL Select Portfolio]** .
+      1. Typ in het vak dat wordt weergegeven de naam van een bestaande Portfolio in het veld **[!UICONTROL Select Portfolio]** .
       1. Typ de naam van het nieuwe programma in het veld **[!UICONTROL Name]** .
       1. Klik op **[!UICONTROL Save]**.
    * Een programma maken vanuit het gebied [!UICONTROL Portfolios] :
@@ -146,7 +146,7 @@ U kunt de volgende informatie opgeven:
    Voor informatie over het toevoegen van projecten aan programma&#39;s, zie [ een project aan een programma ](../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md) toevoegen.
 
 1. Klik op **[!UICONTROL Save Changes]**.
-1. (Optioneel) Klik op **[!UICONTROL More menu]** ![](assets/more-icon.png) naast de naam van het programma en klik op **[!UICONTROL Deactivate Program]** .
+1. (Facultatief) klik **[!UICONTROL More menu]** ![ Meer menu ](assets/more-icon.png) naast de programmanaam en klik **[!UICONTROL Deactivate Program]**.
 
    Wanneer u een programma deactiveert, wordt het programma niet meer weergegeven in een lijst met programma&#39;s wanneer gebruikers het aan een project proberen toe te voegen. U hebt nog steeds toegang tot het programma vanuit het [!UICONTROL Programs] -gebied.
 

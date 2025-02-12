@@ -6,9 +6,9 @@ description: U kunt informatie bewerken over programma's die u hebt gemaakt of o
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >
    >Ga naar stap 4 als u alle informatie over het programma wilt bewerken.
 
-   ![](assets/program-details-with-a-custom-form-section-nwe-350x137.png)
+   ![ de details van het programma met de sectie van de douanevorm ](assets/program-details-with-a-custom-form-section-nwe-350x137.png)
 
    >[!NOTE]
    >
@@ -81,30 +81,30 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    Ga als volgt te werk om informatie in de sectie [!UICONTROL Details] te bewerken:
 
    1. (Optioneel) Klik op het pictogram **[!UICONTROL Collapse All]** in de rechterbovenhoek om alle gebieden samen te vouwen.
-   1. (Facultatief en voorwaardelijk) wanneer een gebied wordt doen ineenstorten, klik de **juist-richt pijl** ![](assets/right-pointing-arrow.png) naast elk gebied om het gebied uit te breiden u wilt uitgeven.
+   1. (Facultatief en voorwaardelijk) wanneer een gebied wordt doen ineenstorten, klik de **juist-richt pijl** ![ juist richtende pijl ](assets/right-pointing-arrow.png) naast elk gebied om het gebied uit te breiden u wilt uitgeven.
    1. Voor informatie over de velden die zichtbaar zijn in de sectie [!UICONTROL Program Details] , gaat u verder met het bewerken van het programma in het vak [!UICONTROL Edit Program] , zoals hieronder wordt beschreven.
    1. (Optioneel) Als er geen aangepaste formulieren aan het programma zijn gekoppeld, typt u de naam van een formulier in het veld **[!UICONTROL Add custom form]** , selecteert u het formulier wanneer het in de lijst wordt weergegeven en klikt u op **[!UICONTROL Save Changes]** .
-   1. (Optioneel) Klik op het pictogram **[!UICONTROL Export]** ![](assets/export.png) om de [!UICONTROL Overview] -gegevens en aangepaste formuliergegevens te exporteren naar een PDF-bestand en klik vervolgens op **[!UICONTROL Export]** . Selecteer een van de volgende opties:
+   1. (Facultatief) klik het **[!UICONTROL Export]** pictogram ![ pictogram van de Uitvoer ](assets/export.png) om de [!UICONTROL Overview] en informatie van de douaneformulieren naar een dossier van PDF uit te voeren, dan klik **[!UICONTROL Export]**. Selecteer een van de volgende opties:
 
       * Alles selecteren (wordt alleen weergegeven als er ten minste één aangepast formulier is gekoppeld)
       * [!UICONTROL Overview]
       * De naam van een of meerdere aangepaste formulieren
 
-      Het PDF-bestand wordt naar de computer gedownload.
+      Het PDF-bestand wordt naar uw computer gedownload.
 
-      ![](assets/export-portfolio-details-box-with-export-button-350x368.png)
+      ![ de portefeuilledetails van de Uitvoer ](assets/export-portfolio-details-box-with-export-button-350x368.png)
 
       Voor meer informatie, zie [ de douaneformulieren en objecten details van de Uitvoer ](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
 
 1. Voer een van de volgende handelingen uit als u alle informatie over een of meer programma&#39;s wilt bewerken:
 
-   * Klik op het **[!UICONTROL More]** menu ![](assets/more-icon.png) naast de naam van het programma en &#x200B; **[!UICONTROL Edit].**
-   * Ga naar een lijst met programma&#39;s en selecteer een of meer programma&#39;s die u wilt bewerken. Klik vervolgens op het pictogram **[!UICONTROL Edit]** ![](assets/edit-icon.png) boven aan de lijst.
+   * Klik het **[!UICONTROL More]** menu ![ Meer menu ](assets/more-icon.png) naast de programmanaam, toen &#x200B; **[!UICONTROL Edit].**
+   * Ga naar een lijst van programma&#39;s en selecteer één of meerdere programma dat u wilt uitgeven, dan klik het **[!UICONTROL Edit]** pictogram ![ uitgeven pictogram ](assets/edit-icon.png) bij de bovenkant van de lijst.
 
    Het dialoogvenster **[!UICONTROL Edit Program]** wordt weergegeven.
 
-   ![](assets/edit-program-box-nwe-350x236.png)
+   ![ geef programmadoos ](assets/edit-program-box-nwe-350x236.png) uit
 
    Alle programmavelden zijn beschikbaar in het vak [!UICONTROL Edit Program] en worden gegroepeerd op de gebieden die in het linkerdeelvenster worden vermeld.
 
@@ -140,7 +140,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Description]</td> 
-      <td> <p>Typ een beschrijving voor het Portfolio om aan te geven wat er uniek aan is. </p> </td> 
+      <td> <p>Typ een beschrijving voor de Portfolio om aan te geven wat er uniek aan is. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Program Manager]</td> 
@@ -177,7 +177,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Bewerk een programma zoals hierboven beschreven.
 1. Klik op **[!UICONTROL Comment]** .
 
-   ![](assets/comment-box-in-program-edit-box-classic-350x195.png)
+   ![ doos van de Commentaar in geef programmadoos uit ](assets/comment-box-in-program-edit-box-classic-350x195.png)
 
 1. Voeg een opmerking toe in het veld **[!UICONTROL Post an update to the program]** .
 1. (Optioneel) Klik op het pictogram **[!UICONTROL People]** om een gebruiker of een team aan de opmerking toe te voegen.

@@ -7,9 +7,9 @@ description: Een oplosbaar object is een probleem waarvan de resolutie is gekopp
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1778'
+source-wordcount: '1788'
 ht-degree: 0%
 
 ---
@@ -79,10 +79,10 @@ Afhankelijk van de manier waarop de Workfront of de groepsbeheerder de systeem- 
 De volgende scenario&#39;s bestaan:
 
 * Als de Workfront of de groepsbeheerder de **originele kwestie heeft behouden en zijn resolutie aan de taak** en **binden houd de originele kwestie en verbind zijn resolutie aan het geselecteerde project** en **staan deze montages toe om tijdens omzetting** worden veranderd niet geselecteerd, zult u niet deze montages kunnen veranderen aangezien u kwesties in taken of projecten omzet.\
-  ![](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
+  ![ gebied van de voorkeurenkwesties van het Project ](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
 
 * Als Workfront of de groepsbeheerder de **originele kwestie heeft behouden en zijn resolutie aan de taak** binden en **de originele kwestie houden en zijn resolutie aan het project** of geselecteerde of unselected en **toestaan deze montages om tijdens geselecteerde omzetting** worden veranderd, zult u deze montages kunnen veranderen aangezien u kwesties in taken of projecten omzet.\
-  ![](assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png)
+  ![ Optie om kwestie ](assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png) te houden
 
 Voor meer informatie over het omzetten van kwesties in taken en projecten, zie [ Overzicht van het omzetten van kwesties in Adobe Workfront ](../../../manage-work/issues/convert-issues/convert-issues.md).
 
@@ -202,7 +202,7 @@ Het vinden van het het oplossen van voorwerp is identiek voor taken en projecten
 
 In een lijst van kwesties, kunt u kwesties identificeren die als het oplossen van voorwerpen via statuspictogrammen door dit pictogram in de **pictogrammen van de Status** of **kolommen van Vlaggen** worden geëtiketteerd:
 
-![](assets/ro1.png)
+![ Resolving voorwerp ](assets/ro1.png)
 
 ## De informatie van Objecten van de mening Oplosbaar en van het Oplossen in een rapport
 

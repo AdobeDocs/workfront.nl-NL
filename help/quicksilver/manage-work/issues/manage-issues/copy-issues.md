@@ -6,9 +6,9 @@ description: U kunt een uitgave of een verzoek kopiëren en hen op het zelfde of
 author: Alina
 feature: Work Management
 exl-id: a28adc22-825f-401e-9ed2-efddaa297b8d
-source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1064'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor het probleem beheren</p> <p>Contribute geeft toestemming aan het item waarnaar u het probleem kopieert, met de mogelijkheid om problemen toe te voegen.</p> <p> Voor informatie over het verlenen van toestemmingen aan kwesties, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref"> een kwestie delen </a></p> <p>Voor informatie bij het vragen van extra toestemmingen, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> Toegang tot voorwerpen verzoeken </a>.</p> </td> 
+   <td> <p>Rechten voor het probleem beheren</p> <p>Contribute-machtigingen voor het item waarnaar u het probleem kopieert, met de mogelijkheid om problemen toe te voegen.</p> <p> Voor informatie over het verlenen van toestemmingen aan kwesties, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref"> een kwestie delen </a></p> <p>Voor informatie bij het vragen van extra toestemmingen, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> Toegang tot voorwerpen verzoeken </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -95,7 +95,7 @@ U kunt een of meerdere uitgaven kopiëren uit een lijst met problemen of uit een
 1. Als u selecteerde om naar een project te gaan, klik **Kwesties** in het linkerpaneel.
 1. Selecteer de kwestie of de kwesties die u wilt kopiëren en **klikken Meer menu** bij de bovenkant van de lijst van de kwestie, dan klik **Exemplaar aan**.
 
-   ![](assets/copy-issue-in-list-nwe-350x169.png)
+   ![ kwestie van het Exemplaar in lijst ](assets/copy-issue-in-list-nwe-350x169.png)
 
 1. Ga met het kopiëren van de kwestie voort, zoals die in de sectie [ wordt beschreven Kopieer één enkele kwestie ](#copy-a-single-issue) die met Stap 2 begint.
 
@@ -109,13 +109,13 @@ U kunt een of meerdere uitgaven kopiëren uit een lijst met problemen of uit een
 
 U kunt één uitgave kopiëren wanneer het bekijken.
 
-1. Ga naar een kwestie die u wilt kopiëren, dan **klikken Meer** menu ![](assets/more-icon.png) aan het recht van de voorwaardennaam, dan **Exemplaar** aan.
+1. Ga naar een kwestie die u wilt kopiëren, dan **Meer** menu ![ ](assets/more-icon.png) aan het recht van de uitgevende naam, dan **Exemplaar** aan klikken.
 
-   ![](assets/nwe-copy-at-issue-level-highlighted-350x580.png)
+   ![ Exemplaar op uitgiftenniveau ](assets/nwe-copy-at-issue-level-highlighted-350x580.png)
 
    De **vertoningen van de Kwestie van het Exemplaar**.
 
-   ![](assets/copy-issue-box-nwe-350x285.png)
+   ![ de uitgiftedoos van het Exemplaar ](assets/copy-issue-box-nwe-350x285.png)
 
 1. In de **Uitgezochte sectie van het Project van de Bestemming**, specificeer de naam van het project waar u de kwesties wilt kopiëren. De naam van het huidige project toont door gebrek.
 
@@ -126,7 +126,7 @@ U kunt één uitgave kopiëren wanneer het bekijken.
 1. (Voorwaardelijk) klik **verzoektoegang** als u geen toegang hebt om kwesties aan het project te kopiëren.
 1. (Voorwaardelijk) blijf de kwestie aan het geselecteerde bestemmingsproject kopiëren zonder toegang te vragen als u toegang hebt om kwesties aan één van de taken op het bestemmingsproject toe te voegen.
 
-   ![](assets/copy-issue-request-access-from-project-nwe-350x125.png)
+   ![ Uitgave van het Exemplaar en verzoek toegang ](assets/copy-issue-request-access-from-project-nwe-350x125.png)
 
    >[!TIP]
    >

@@ -1,14 +1,14 @@
 ---
 product-area: portfolios;projects
 navigation-topic: portfolio-optimizer
-title: De functie Portfolio optimaliseren vinden
+title: De Portfolio Optimizer zoeken
 description: U kunt de [!UICONTROL Portfolio Optimizer] vinden wanneer u tot een portefeuille toegang hebt.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: de9abb4e-0bf2-4673-8be1-3f0f35e17eaf
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>[!UICONTROL Edit] toegang tot Portfolio's en projecten</p>  </td>
+   <td> <p>[!UICONTROL Edit] toegang tot portfolio's en projecten</p>  </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -63,4 +63,4 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    De [!UICONTROL Portfolio Optimizer] wordt weergegeven.
 
-   ![](assets/nwe-portfolio-optimizer-350x83.png)
+   ![ optimizer van Portfolio ](assets/nwe-portfolio-optimizer-350x83.png)

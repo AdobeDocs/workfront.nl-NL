@@ -6,9 +6,9 @@ description: Gebruikerstoewijzingen wijzigen voor meerdere uitgaven in een lijst
 author: Alina
 feature: Work Management
 exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '751'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Voor algemene informatie over het toewijzen van kwesties, zie [ Overzicht van he
 
 >[!NOTE]
 >
->U moet ten minste over Contribute-machtigingen beschikken om een uitgave te kunnen toewijzen aan het probleem.
+>U moet ten minste over Contribute-machtigingen beschikken om een uitgave te kunnen toewijzen aan de uitgave.
 
 ## Toegangsvereisten
 
@@ -54,7 +54,7 @@ Voor algemene informatie over het toewijzen van kwesties, zie [ Overzicht van he
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor het probleem beheren</p> <p>Contribute-machtigingen of hoger voor het project of de taak waar het probleem zich bevindt, wanneer u meerdere problemen toewijst.</p>  </td> 
+   <td> <p>Rechten voor het probleem beheren</p> <p>Contribute-machtigingen of hoger voor het project of de taak waar de uitgave zich bevindt, wanneer u meerdere uitgaven toewijst.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -102,13 +102,13 @@ Voor algemene informatie over het toewijzen van kwesties, zie [ Overzicht van he
    1. Typ de naam van de gebruiker of rol waarvoor u wilt filteren en klik vervolgens op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst.
    1. Klik **sparen Filter.**
 
-1. Selecteer de kwesties waarvoor u taken wilt wijzigen, dan klik **uitgeven** pictogram ![](assets/qs-edit-icon.png).
+1. Selecteer de kwesties waarvoor u taken wilt wijzigen, dan klik **uitgeven** pictogram ![ uitgeven pictogram ](assets/qs-edit-icon.png).
 
    **geeft Kwesties** vertoningen uit. De items die worden bewerkt, worden in de linkerbovenhoek van de pagina weergegeven.
 
 1. Ga naar de **sectie van Taken**, dan uitgezochte **Ontvanger**.
 
-   ![](assets/classic-assignmens-area-on-edit-box-350x119.png)
+   ![ gebied van Taken ](assets/classic-assignmens-area-on-edit-box-350x119.png)
 
 1. Voer een van de volgende handelingen uit:
 

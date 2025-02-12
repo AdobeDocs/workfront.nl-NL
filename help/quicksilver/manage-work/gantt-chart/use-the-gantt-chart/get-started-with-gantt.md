@@ -6,9 +6,9 @@ description: De Gantt-grafieken in Adobe Workfront geven een visuele weergave va
 author: Alina
 feature: Work Management
 exl-id: 96c4e254-ebbe-41d8-a178-7a79ac0abbbd
-source-git-commit: 30eb12a4155b218b001b4d235229fbb0fbe40a45
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -69,9 +69,9 @@ U kunt als volgt de takenlijst [!UICONTROL Gantt Chart] van een project of sjabl
    * Een taak of malplaatjetaak, dan klik [!UICONTROL **Subtasks**] in het linkerpaneel.
    * Een taakrapport
 
-1. Klik het [!UICONTROL **Gantt**] pictogram ![](assets/gantt-icon-nwe.png) bij de bovenkant van de taaklijst.
+1. Klik het **]pictogram van de Gantt ![ Gantt ](assets/gantt-icon-nwe.png) bij de bovenkant van de taaklijst.[!UICONTROL **
 
-   ![](assets/task-list-gantt.png)
+   ![ Gantt van de Lijst van de Taak ](assets/task-list-gantt.png)
 
    De takenlijst [!UICONTROL Gantt Chart] wordt rechts van de takenlijst geopend.
 
@@ -114,7 +114,7 @@ De projectlijst openen [!UICONTROL Gantt Chart] :
 
 1. Klik het [!UICONTROL **Gantt**] pictogram bij de bovenkant van de projectlijst.
 
-   ![](assets/project-list-gantt.png)
+   ![ de lijst Gantt van het Project ](assets/project-list-gantt.png)
 
    De projectlijst [!UICONTROL Gantt Chart] wordt geopend.
 

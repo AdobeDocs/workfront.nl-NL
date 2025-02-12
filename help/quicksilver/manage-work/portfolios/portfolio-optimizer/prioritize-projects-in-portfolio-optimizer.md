@@ -1,14 +1,14 @@
 ---
-title: Prioriteit geven aan projecten in Portfolio optimaliseren
+title: Prioriteit geven aan projecten in Portfolio Optimizer
 product-area: portfolios;projects
 navigation-topic: portfolio-optimizer
-description: U kunt aan uw projecten in Optimizer van het Portfolio voorrang geven, om de orde te vestigen waarin zij zouden moeten worden voltooid.
+description: U kunt prioriteiten stellen aan uw projecten in Portfolio Optimizer, om de orde te bepalen waarin zij zouden moeten worden voltooid.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 54e33746-5995-49de-8e21-bf973f0694a6
-source-git-commit: b07b4926ab1b1eee9b7698a445644e1cd312fa09
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ U kunt aan uw projecten in [!UICONTROL Portfolio Optimizer] voorrang geven, om d
 
 Houd rekening met het volgende wanneer u [!UICONTROL Portfolio Optimizer] gebruikt:
 
-* De projecten boven aan de [!UICONTROL Portfolio Optimizer] worden belangrijker geacht dan de projecten onder aan de lijst. Het Portfolio kan alleen worden geoptimaliseerd als de projecten zijn voltooid op volgorde van prioriteit in de [!UICONTROL Portfolio Optimizer] .
+* De projecten boven aan de [!UICONTROL Portfolio Optimizer] worden belangrijker geacht dan de projecten onder aan de lijst. U moet de projecten voltooien in volgorde van prioriteit in de [!UICONTROL Portfolio Optimizer] om de Portfolio te optimaliseren.
 * De prioriteit van projecten in [!UICONTROL Portfolio Optimizer] is niet gerelateerd aan het veld [!UICONTROL Priority] op het tabblad [!UICONTROL Project Details] van een project.
 
   Het veld [!UICONTROL Priority] op het tabblad [!UICONTROL Project Details] is een visuele markering die u handmatig opgeeft om te begrijpen hoe belangrijk een project moet zijn.
@@ -51,11 +51,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>[!UICONTROL Edit] toegang tot projecten en Portfolio's</p></td> 
+   <td> <p>[!UICONTROL Edit] toegang tot projecten en portfolio's</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>[!UICONTROL Manage] machtigingen voor het portfolio</p> <p>Contribute of hogere machtigingen voor de projecten</p> 
+   <td> <p>[!UICONTROL Manage] machtigingen voor het portfolio</p> <p>Contribute of hoger machtigingen voor de projecten</p> 
    <p>U moet hebben leiden toestemmingen aan alle projecten in de lijst om <b> te kunnen gebruiken Vastgestelde projectprioriteit </b>.</p>
     </td> 
   </tr> 
@@ -68,7 +68,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## De prioriteit van de projecten in de [!UICONTROL Portfolio Optimizer] wijzigen
 
-1. Klik op het pictogram **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront.
+1. Klik het **[!UICONTROL Main Menu]** pictogram van het pictogram ![ Belangrijkste Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.
 
 1. Klik op **[!UICONTROL Portfolios]**.
 1. (Optioneel) Selecteer het juiste filter in de vervolgkeuzelijst **[!UICONTROL Filter]** om de juiste lijst met portfolio&#39;s weer te geven.
@@ -76,7 +76,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Klik op **[!UICONTROL Portfolio Optimization]** in het linkerdeelvenster.
 1. Wijzig in het gebied [!UICONTROL project optization] de prioriteit van uw projecten door de projecten in volgorde van prioriteit te slepen en vervolgens naar de gewenste weergavepositie te slepen.
 
-   ![](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
+   ![ Portfolio optimizer met projecten ](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
 
    Klik op **[!UICONTROL Set Priority]** in het gebied voor projectoptimalisatie wanneer u klaar bent met het herschikken van uw projecten. De projecten krijgen een nieuw nummer op basis van de nieuwe bestelling.
 

@@ -6,9 +6,9 @@ description: We raden u aan projecten aan portfolio's toe te voegen wanneer u de
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Houd rekening met het volgende wanneer u projecten aan portfolio&#39;s toevoegt:
   </tr> 
   <tr> 
    <td role="rowheader">Toegangsniveau</td> 
-   <td> <p>[!UICONTROL Edit] Portfolio's voor toegang</p> <p>[!UICONTROL Edit] toegang tot projecten</p> </td> 
+   <td> <p>[!UICONTROL Edit] toegang tot portfolio's</p> <p>[!UICONTROL Edit] toegang tot projecten</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -61,7 +61,7 @@ Houd rekening met het volgende wanneer u projecten aan portfolio&#39;s toevoegt:
 
 1. Ga naar een portfolio en klik op **[!UICONTROL Projects]** in het linkerdeelvenster.
 
-   ![](assets/qs-portfolio-with-projects-350x90.png)
+   ![ Portfolio met projecten ](assets/qs-portfolio-with-projects-350x90.png)
 
 1. Klik op **[!UICONTROL New Project]** en selecteer een methode om een project toe te voegen.
 
@@ -98,11 +98,11 @@ Houd rekening met het volgende wanneer u projecten aan portfolio&#39;s toevoegt:
     </tbody> 
    </table>
 
-   ![](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
+   ![ Nieuwe projectdropdown ](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
 1. (Voorwaardelijk) Als u hebt geselecteerd om een bestaand project toe te voegen, begint u de naam van een project in het vak **[!UICONTROL Add Projects]** te typen en klikt u vervolgens op de naam wanneer deze in de lijst wordt weergegeven. U kunt meerdere projecten tegelijk toevoegen.
 
-   ![](assets/add-existing-project-from-portfolio-window-nwe-350x545.png)
+   ![ voeg bestaand project ](assets/add-existing-project-from-portfolio-window-nwe-350x545.png) toe
 
 1. Klik op **[!UICONTROL Add Projects]**.
 

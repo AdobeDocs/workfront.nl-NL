@@ -2,13 +2,13 @@
 product-area: portfolios
 navigation-topic: create-and-manage-portfolios
 title: Een portfolio maken
-description: Een Portfolio is een verzameling projecten die met dezelfde middelen, budget en planning concurreren. De projecten in een Portfolio zijn gelijkaardig genoeg dat zij de zelfde Pool van het Middel zouden gebruiken en tegen zelfde scorecard worden gemeten.
+description: Een Portfolio is een verzameling projecten die met dezelfde middelen, budget en planning concurreert. De projecten in een Portfolio zijn gelijkaardig genoeg dat zij de zelfde Pool van het Middel zouden gebruiken en tegen de zelfde scorecard worden gemeten.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '624'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 <!--Audited: 7/2024-->
 
-Een Portfolio is een verzameling projecten die met dezelfde middelen, budget en planning concurreren. De projecten in een Portfolio zijn gelijkaardig genoeg dat zij de zelfde Pool van het Middel zouden gebruiken en tegen zelfde scorecard worden gemeten.
+Een Portfolio is een verzameling projecten die met dezelfde middelen, budget en planning concurreert. De projecten in een Portfolio zijn gelijkaardig genoeg dat zij de zelfde Pool van het Middel zouden gebruiken en tegen de zelfde scorecard worden gemeten.
 
-U kunt Portfolio&#39;s gebruiken om projecten te groeperen die tot de zelfde productlijnen, afdelingen, afdelingen, bedrijven, of andere bedrijfseenheden behoren.
+U kunt Portfolio&#39;s gebruiken om projecten te groeperen die tot dezelfde productlijnen, afdelingen, afdelingen, bedrijven of andere bedrijfseenheden behoren.
 
 ## Toegangsvereisten
 
@@ -40,7 +40,7 @@ U kunt Portfolio&#39;s gebruiken om projecten te groeperen die tot de zelfde pro
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>[!UICONTROL Edit] toegang tot Portfolio's</p>  </td> 
+   <td> <p>[!UICONTROL Edit] toegang tot portfolio's</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -57,7 +57,7 @@ U kunt Portfolio&#39;s gebruiken om projecten te groeperen die tot de zelfde pro
 
 U kunt op een van de volgende manieren een portfolio&#39;s maken in Workfront:
 
-* Maak een geheel nieuw portfolio, te beginnen in het gedeelte Portfolio&#39;s van het hoofdmenu. In dit artikel wordt beschreven hoe u een geheel nieuw portfolio kunt maken.
+* Maak een geheel nieuw portfolio, te beginnen in het gedeelte Portfolio&#39;s van het Hoofdmenu. In dit artikel wordt beschreven hoe u een geheel nieuw portfolio kunt maken.
 
 * Importeer een portfolio met de functie voor het starten.
 
@@ -86,7 +86,7 @@ U kunt op een van de volgende manieren een portfolio&#39;s maken in Workfront:
 
 1. (Optioneel) Klik op de naam onder **[!UICONTROL Portfolio Manager]** in de koptekst boven aan de pagina om een andere beheerder voor het portfolio toe te wijzen.
 
-   ![](assets/portfolio-manager-name-350x51.jpg)
+   ![ de managernaam van Portfolio ](assets/portfolio-manager-name-350x51.jpg)
 
    Als de maker van het portfolio wordt u standaard toegewezen als vermogensbeheerder.
 
@@ -99,7 +99,7 @@ U kunt op een van de volgende manieren een portfolio&#39;s maken in Workfront:
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL Description]</td> 
-      <td> <p>Typ een beschrijving voor het Portfolio om aan te geven wat er uniek aan is. </p> </td> 
+      <td> <p>Typ een beschrijving voor de Portfolio om aan te geven wat er uniek aan is. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Portfolio Manager]</td> 
@@ -125,7 +125,7 @@ U kunt op een van de volgende manieren een portfolio&#39;s maken in Workfront:
 
 1. (Optioneel) Klik op **[!UICONTROL Projects]** in het linkerdeelvenster en **[!UICONTROL Add Projects]** om projecten toe te voegen aan het portfolio.
 
-   Voor meer informatie over het toevoegen van projecten aan een Portfolio, zie [ projecten aan een portefeuille ](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md) toevoegen.
+   Voor meer informatie over het toevoegen van projecten aan Portfolio, zie [ projecten aan een portefeuille ](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md) toevoegen.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

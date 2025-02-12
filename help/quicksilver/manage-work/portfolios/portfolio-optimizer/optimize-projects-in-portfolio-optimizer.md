@@ -1,14 +1,14 @@
 ---
 product-area: portfolios;projects
 navigation-topic: portfolio-optimizer
-title: Projecten optimaliseren in Portfolio optimaliseren
+title: Projecten optimaliseren in Portfolio Optimizer
 description: U kunt [!UICONTROL Portfolio Optimizer] gebruiken om aan uw projecten voorrang te geven die op hun scores en andere waarden worden gebaseerd. Optimizer houdt rekening met belangrijke projectinformatie zoals de kosten, de groepering, het risico en het ROI om de projecten volgens wat voor u belangrijker is voorrang te geven.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 25debc5b-5d7d-453f-ab0a-9bf3fba05693
-source-git-commit: b07b4926ab1b1eee9b7698a445644e1cd312fa09
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
@@ -38,11 +38,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>[!UICONTROL Edit] toegang tot projecten en Portfolio's</p> </td> 
+   <td> <p>[!UICONTROL Edit] toegang tot projecten en portfolio's</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>[!UICONTROL Manage] machtigingen voor het portfolio</p> <p>Contribute of hogere machtigingen voor de projecten</p> 
+   <td> <p>[!UICONTROL Manage] machtigingen voor het portfolio</p> <p>Contribute of hoger machtigingen voor de projecten</p> 
    <p>U moet hebben leiden toestemmingen aan alle projecten in de lijst om <b> te kunnen gebruiken Vastgestelde projectprioriteit </b>.</p>
     </td> 
   </tr> 
@@ -53,7 +53,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 +++
 
-## Projecten optimaliseren in Portfolio optimaliseren
+## Projecten optimaliseren in Portfolio Optimizer
 
 1. Open een Portfolio en klik vervolgens op **[!UICONTROL Portfolio Optimization]** in het linkerdeelvenster.
 
@@ -61,7 +61,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klik op het pictogram **[!UICONTROL Optimize]** .
 
-   ![](assets/optimize-icon-portfolio-optimizer.png)
+   ![ optimaliseer pictogram ](assets/optimize-icon-portfolio-optimizer.png)
 
    De categorieën waarmee een project kan worden gescoord, worden links van het pictogram [!UICONTROL Optimize] weergegeven.
 

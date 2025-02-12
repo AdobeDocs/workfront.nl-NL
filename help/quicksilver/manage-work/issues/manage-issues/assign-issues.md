@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: 830ad0411084844ace1e1e543c3ebefcb558af80
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1412'
+source-wordcount: '1419'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Het toewijzen van problemen en taken is vergelijkbaar in Adobe Workfront. Voor a
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor het probleem beheren</p> <p> Toestemmingen van de mening of hoger aan het project of de taak waar de kwestie wordt gevestigd, wanneer het toewijzen van één kwestie</p><p>Contribute-machtigingen of hoger voor het project of de taak waar het probleem zich bevindt, wanneer u meerdere problemen toewijst.</p> </td> 
+   <td> <p>Rechten voor het probleem beheren</p> <p> Toestemmingen van de mening of hoger aan het project of de taak waar de kwestie wordt gevestigd, wanneer het toewijzen van één kwestie</p><p>Contribute-machtigingen of hoger voor het project of de taak waar de uitgave zich bevindt, wanneer u meerdere uitgaven toewijst.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -166,7 +166,7 @@ Om kwesties in een lijst toe te wijzen:
 
    * Klik binnen **Toegewezen aan** of **toegewezen** gebieden en begin de naam van een actieve gebruiker te typen die u aan de kwestie wilt toewijzen, dan het te klikken wanneer het in de lijst toont.
 
-     ![](assets/assigned-to-field-task-list-nwe.png)
+     ![ Toegewezen aan gebied ](assets/assigned-to-field-task-list-nwe.png)
 
    * Klik binnen het **gebied van Taken** en begin de naam van een actieve gebruiker, baanrol, of actief team te typen dat u aan de kwestie wilt toewijzen, dan het klikken wanneer het in de lijst toont.
 
@@ -181,7 +181,7 @@ Om kwesties in een lijst toe te wijzen:
    >De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Voor informatie, zie [ toegang van de Verlening tot gebruikers ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
-1. (Voorwaardelijk) wanneer zichtbaar op het gebied van Taken, klik het **pictogram van Mensen** ![](assets/teams.png) in de hoger-juiste hoek van de toewijzingsdoos om de Geavanceerde doos van Toewijzingen te openen en geavanceerde taken tot stand te brengen. Voor meer informatie, zie [ Geavanceerde taken ](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md) creëren.
+1. (Voorwaardelijk) wanneer zichtbaar op het gebied van Taken, klik het **pictogram van Mensen** ![ pictogram van Mensen ](assets/teams.png) in de hoger-juiste hoek van de toewijzingsdoos om de Geavanceerde doos van Toewijzingen te openen en geavanceerde taken tot stand te brengen. Voor meer informatie, zie [ Geavanceerde taken ](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md) creëren.
 
    >[!TIP]
    >
@@ -193,7 +193,7 @@ Om kwesties in een lijst toe te wijzen:
 
 1. Ga naar een lijst met problemen die u bulksgewijs wilt toewijzen.
 1. Selecteer verschillende problemen in de lijst.
-1. Klik het **uitgeven pictogram** ![](assets/qs-edit-icon.png).
+1. Klik het **uitgeven pictogram** ![ uitgeven pictogram ](assets/qs-edit-icon.png).
 
    Het **geeft de dialoogdoos uit van Kwesties** opent.
 

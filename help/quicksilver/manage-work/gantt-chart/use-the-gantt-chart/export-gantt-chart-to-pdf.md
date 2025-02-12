@@ -1,13 +1,13 @@
 ---
 navigation-topic: use-the-gantt-chart
-title: De Gantt-grafiek exporteren naar PDF
-description: U kunt het Gantt-diagram exporteren naar een PDF. Nadat u het Gantt-diagram naar PDF hebt geëxporteerd, kunt u het afdrukken of als bijlage aan een e-mail toevoegen om het met andere gebruikers te delen.
+title: Gantt-diagram exporteren naar PDF
+description: U kunt het Gantt-diagram exporteren naar een PDF. Nadat u het Gantt-diagram naar PDF hebt geëxporteerd, kunt u het afdrukken of als bijlage aan een e-mailbericht toevoegen om het met andere gebruikers te delen.
 author: Alina
 feature: Work Management
 exl-id: 91aad9e0-25c9-4eae-aa66-8aab763d3b76
-source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ U moet het volgende hebben om de stappen in dit artikel te volgen:
 
    >[!NOTE]
    >
-   >Als u [!UICONTROL Gantt chart] van een lijst van projecten uitvoert, bevat het dossier van de PDF enkel de projecten in de lijst, niet de taken op elk project. Als u een lijst van taken wilt uitvoeren, kunt u dit van het project doen zij met, of door een taakrapport te bouwen en de resultaten van het rapport in [!UICONTROL Gantt View] te tonen worden geassocieerd.
+   >Als u [!UICONTROL Gantt chart] uit een lijst van projecten uitvoert, bevat het dossier van PDF enkel de projecten in de lijst, niet de taken op elk project. Als u een lijst van taken wilt uitvoeren, kunt u dit van het project doen zij met, of door een taakrapport te bouwen en de resultaten van het rapport in [!UICONTROL Gantt View] te tonen worden geassocieerd.
 
    Configureer een van de volgende gegevens:
 
@@ -75,7 +75,7 @@ U moet het volgende hebben om de stappen in dit artikel te volgen:
 
    * Selecteer de **Schakelaar aan Geprojecteerde Datums** optie om Geprojecteerde eerder dan Geplande Datums te bekijken. Standaard worden Geplande datums weergegeven.
 
-   * Klik het **pictogram van Montages** ![](assets/settings-icon.png) in de hoger-juiste hoek van de grafiek van Gantt en selecteer welke informatie u in de grafiek van Gantt wilt bekijken. Zodra deze optie is geselecteerd, wordt deze informatie opgenomen in het geëxporteerde Gantt PDF-bestand.
+   * Klik het **pictogram van Montages ![ pictogram van Montages ](assets/settings-icon.png) in de hoger-juiste hoek van de grafiek van Gantt en selecteer welke informatie u in de grafiek van Gantt wilt bekijken.** Zodra deze optie is geselecteerd, wordt deze informatie opgenomen in het geëxporteerde Gantt PDF-bestand.
 
      Selecteer een van de volgende opties:
 
@@ -109,7 +109,7 @@ U moet het volgende hebben om de stappen in dit artikel te volgen:
 
    Als u bijvoorbeeld [!UICONTROL Gantt chart] weergeeft voor een project dat 50 taken bevat, maar u wilt slechts 10 taken weergeven voor het geëxporteerde project [!UICONTROL Gantt chart] , selecteert u de 10 taken die u wilt weergeven.
 
-1. Klik op het printerpictogram ![](assets/printer-icon.png) in de rechterbovenhoek van het Gantt-diagram.
+1. Klik het pictogram van de printer ![ Printer ](assets/printer-icon.png) in de hoger-juiste hoek van de grafiek van Gantt.
 Het dialoogvenster **[!UICONTROL Export to PDF]** wordt weergegeven.
 
    ![ export_gantt_UI.png ](assets/exported-gantt-ui-350x225.png)
@@ -140,7 +140,7 @@ Het dialoogvenster **[!UICONTROL Export to PDF]** wordt weergegeven.
      >   * Als het meer dan 500 items bevat
 
 
-1. Als de PDF wordt afgedrukt nadat deze naar PDF is geëxporteerd, selecteert u in de vervolgkeuzelijst **[!UICONTROL Page Size]** het papierformaat waarnaar u wilt afdrukken.
+1. Als de PDF wordt afgedrukt nadat deze is geëxporteerd naar PDF, selecteert u in de vervolgkeuzelijst **[!UICONTROL Page Size]** het papierformaat waarnaar u wilt afdrukken.
 U kunt uit de volgende opties selecteren:
 
    * **[!UICONTROL Letter]**

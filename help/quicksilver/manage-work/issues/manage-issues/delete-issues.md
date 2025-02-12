@@ -6,9 +6,9 @@ description: In Adobe Workfront kunt u problemen of aanvragen verwijderen als u 
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor het probleem beheren</p> <p>Contribute of hogere machtigingen voor het project of de taak</p> <p> Voor informatie over het verlenen van toestemmingen aan kwesties, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref"> een kwestie delen </a></p> </td> 
+   <td> <p>Rechten voor het probleem beheren</p> <p>Contribute of hoger machtigingen voor het project of de taak</p> <p> Voor informatie over het verlenen van toestemmingen aan kwesties, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref"> een kwestie delen </a></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -110,7 +110,7 @@ Afhankelijk van hoe uw Workfront of groepsbeheerder het Project, de Taak, of de 
 1. Klik **Projecten**.
 1. Klik op de projectnaam die de problemen bevat die u wilt verwijderen.
 1. Klik **Kwesties** in het linkerpaneel.
-1. Selecteer een kwestie, dan klik het **pictogram van de Schrapping** ![](assets/delete.png) bij de bovenkant van de lijst.
+1. Selecteer een kwestie, dan klik het **pictogram van de Schrapping ![ pictogram van de Schrapping ](assets/delete.png) bij de bovenkant van de lijst.**
 
 1. Als de schrapping wordt toegestaan, klik ja **, schrap het**.\
    Uw Workfront-beheerder staat mogelijk niet toe dat problemen worden verwijderd waarvoor uren zijn geregistreerd.\
@@ -123,12 +123,12 @@ Afhankelijk van hoe uw Workfront of groepsbeheerder het Project, de Taak, of de 
 1. Klik de projectnaam die de kwestie bevat u wilt schrappen.
 1. Klik **Kwesties** in het linkerpaneel.
 
-   ![](assets/qs-issues-icon-highlighted-on-project-350x278.png)
+   ![ pictogram van Kwesties ](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
 1. Klik op de naam van het probleem dat u wilt verwijderen.
 1. Klik het **Meer** menu rechts van de voorwaardennaam.
 
-   ![](assets/qs-issue-more-menu-highlighted-350x469.png)
+   ![ Uitgave Meer menu ](assets/qs-issue-more-menu-highlighted-350x469.png)
 
 1. Klik **Uitgave van de Schrapping**.
 1. Als de schrapping wordt toegestaan, klik ja **, schrap het**.

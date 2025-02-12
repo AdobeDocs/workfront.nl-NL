@@ -6,9 +6,9 @@ description: U kunt kwesties tussen projecten en taken bewegen.
 author: Alina
 feature: Work Management
 exl-id: 8ab9be3e-0412-43d9-ad1e-75c43613fa82
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '887'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor het probleem beheren</p> <p>Contribute geeft toestemming aan het item waar u het probleem verplaatst met de mogelijkheid om problemen toe te voegen.</td> 
+   <td> <p>Rechten voor het probleem beheren</p> <p>Contribute-machtigingen voor het item waarnaar u het probleem verplaatst, met de mogelijkheid om problemen toe te voegen.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -91,7 +91,7 @@ U kunt een of meerdere problemen verplaatsen vanuit een lijst met problemen of v
 1. Als u selecteerde om naar een project te gaan, klik **Kwesties** in het linkerpaneel.
 1. Selecteer de kwestie of de kwesties die u wilt bewegen en **Meer menu** bij de bovenkant van de lijst van de kwestie klikken, dan **Beweging aan** klikken.
 
-   ![](assets/copy-and-move-to-links-for-issue-in-a-list-nwe-350x119.png)
+   ![ Exemplaar en Beweging aan verbindingen ](assets/copy-and-move-to-links-for-issue-in-a-list-nwe-350x119.png)
 
 1. Ga met het bewegen van de kwesties voort, zoals die in de sectie [ worden beschreven één enkele kwestie ](#move-a-single-issue) die met Stap 2 beginnen.
 
@@ -101,13 +101,13 @@ U kunt één probleem verplaatsen wanneer u het bekijkt.
 
 ### Eén probleem verplaatsen
 
-1. Ga naar een kwestie die u wilt bewegen, **Meer** menu ![](assets/more-icon.png) aan het recht van de uitgevende naam klikken, dan **Beweging aan** klikken.
+1. Ga naar een kwestie die u wilt bewegen, **klikken Meer** menu ![ ](assets/more-icon.png) rechts van de uitgevende naam, dan klik **Beweging aan**.
 
-   ![](assets/nwe-move-at-issue-level-highlighted-350x579.png)
+   ![ Beweging op uitgaand niveau ](assets/nwe-move-at-issue-level-highlighted-350x579.png)
 
    De **vertoningen van de Kwestie van de Beweging** doos.
 
-   ![](assets/move-issue-box-nwe-350x280.png)
+   ![ Verplaats de kwestie doos ](assets/move-issue-box-nwe-350x280.png)
 
 1. In de **Uitgezochte sectie van het Project van de Bestemming**, specificeer de naam van het project waar u de kwesties wilt bewegen. De naam van het huidige project toont door gebrek.
 
@@ -118,7 +118,7 @@ U kunt één probleem verplaatsen wanneer u het bekijkt.
 1. (Voorwaardelijk) klik **verzoektoegang** als u geen toegang hebt om kwesties aan het project te bewegen.
 1. (Voorwaardelijk) blijf de kwestie op het geselecteerde bestemmingsproject bewegen zonder toegang te vragen als u toegang hebt om kwesties aan één van de taken op het bestemmingsproject toe te voegen.
 
-   ![](assets/move-issue-request-access-from-project-nwe-350x118.png)
+   ![ de kwestie van de beweging en verzoek toegang ](assets/move-issue-request-access-from-project-nwe-350x118.png)
 
    >[!TIP]
    >

@@ -6,9 +6,9 @@ description: U kunt een project uit een portfolio verwijderen en dit koppelen aa
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 8982097e-76ee-497a-aa7c-74c6fbd3002d
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ U kunt ook projecten uit een portfolio verwijderen, zodat deze ook uit [!DNL Ado
   </tr> 
   <tr> 
    <td role="rowheader">Toegangsniveau</td> 
-   <td> <p>[!UICONTROL Edit] toegang tot projecten</p> <p>[!UICONTROL Edit] toegang tot Portfolio's</p>  </td> 
+   <td> <p>[!UICONTROL Edit] toegang tot projecten</p> <p>[!UICONTROL Edit] toegang tot portfolio's</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -59,9 +59,9 @@ U kunt ook projecten uit een portfolio verwijderen, zodat deze ook uit [!DNL Ado
 1. Ga naar een Portfolio en klik op **[!UICONTROL Projects]** in het linkerdeelvenster.
 1. Selecteer het project dat u wilt verwijderen. 
 
-   ![](assets/nwe-remove-projects-button-inside-portfolio-350x141.png)
+   ![ verwijdert projectknoop ](assets/nwe-remove-projects-button-inside-portfolio-350x141.png)
 
 1. Klik op **[!UICONTROL Remove Projects]** .
-1. Klik op **[!UICONTROL Delete]** om het project uit [!DNL Workfront] te verwijderen of op **[!UICONTROL Remove]** **[!UICONTROL from Portfolio]** om het uit het geselecteerde Portfolio te verwijderen.
+1. Klik op **[!UICONTROL Delete]** om het project uit [!DNL Workfront] te verwijderen of op **[!UICONTROL Remove]** **[!UICONTROL from Portfolio]** om het uit de geselecteerde Portfolio te verwijderen.
 
 1. (Optioneel en voorwaardelijk) Zoek het project dat u uit het portfolio hebt verwijderd en koppel het aan een ander portfolio. Voor informatie over het associëren van projecten met portefeuilles zie [ projecten aan een portefeuille ](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md) toevoegen.
