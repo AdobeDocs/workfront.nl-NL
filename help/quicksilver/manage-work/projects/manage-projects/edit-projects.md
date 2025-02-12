@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 0a7bb953e7e02e24857bfb7ff671538e184bda17
 workflow-type: tm+mt
-source-wordcount: '7528'
+source-wordcount: '7694'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,9 @@ ht-degree: 0%
 
 <!--Audited: 07/2024-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
 
 <!--
 <p>***Linked to many articles,</p>
@@ -98,7 +100,7 @@ Voor informatie over het creëren van een project van een malplaatje, zie [ een 
 
 1. (Facultatief) klik **Projecten I** of **Projecten I Bezit** in de hoger-juiste hoek om projecten te tonen waar u de eigenaar of de projecten bent waar u deel van het projectteam uitmaakt.
 
-   ![](assets/projects-on-my-own-buttons-350x302.png)
+   ![ Projecten op mijn eigen knopen ](assets/projects-on-my-own-buttons-350x302.png)
 
    >[!NOTE]
    >
@@ -108,7 +110,7 @@ Voor informatie over het creëren van een project van een malplaatje, zie [ een 
 
 1. (Facultatief) om beperkte informatie over een project uit te geven, klik **Details van het Project** in het linkerpaneel. Ga naar stap 5 als u alle informatie over het project wilt bewerken. <!--accurate?!-->
 
-   ![](assets/nwe-project-details-expanded-350x298.png)
+   ![ uitgevouwen de details van het Project ](assets/nwe-project-details-expanded-350x298.png)
 
    >[!NOTE]
    >
@@ -116,32 +118,32 @@ Voor informatie over het creëren van een project van een malplaatje, zie [ een 
 
    Ga als volgt te werk om de gegevens in de sectie Details te bewerken:
 
-   1. (Facultatief) klik **Vouw Alle** pictogram ![](assets/collapse-icon.png) in de hoger-juiste hoek samen om alle gebieden samen te vouwen.
-   1. (Facultatief en voorwaardelijk) wanneer een gebied wordt doen ineenstorten, klik de **juist-richt pijl** ![](assets/right-pointing-arrow.png) naast elk gebied om het gebied uit te breiden u wilt uitgeven.
+   1. (Facultatief) klik **Vouw Alle** pictogram ![ samen vouwt al pictogram ](assets/collapse-icon.png) in de hoger-juiste hoek om alle gebieden samen te vouwen.
+   1. (Facultatief en voorwaardelijk) wanneer een gebied wordt doen ineenstorten, klik de **juist-richt pijl** ![ juist richtende pijl ](assets/right-pointing-arrow.png) naast elk gebied om het gebied uit te breiden u wilt uitgeven.
    1. Raadpleeg de volgende artikelen voor meer informatie over het bewerken van informatie op het tabblad Projectdetails:
 
       * [ beheert informatie in het gebied van het projectoverzicht ](../../../manage-work/projects/manage-projects/understand-project-overview-area.md)
       * [Informatie beheren in het gebied Projectfinanciering](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
 
    1. (Facultatief) om een douaneformulier vast te maken, begin de naam van een vorm in **te typen voeg douaneformulier** toe, dan selecteer het wanneer het in de lijst toont, dan klik **sparen Veranderingen**.
-   1. (Facultatief) klik het **pictogram van de Uitvoer ![](assets/export.png) om het Overzicht en de informatie van de douaneformulieren naar een dossier van de PDF uit te voeren, dan klik** Uitvoer **.** Selecteer een van de volgende opties:
+   1. (Facultatief) klik het **pictogram van de Uitvoer ![ pictogram van de Uitvoer ](assets/export.png) om het Overzicht en de informatie van de douaneformulieren naar een dossier van PDF uit te voeren, dan klik** Uitvoer **.** Selecteer een van de volgende opties:
 
       * Alles selecteren (wordt alleen weergegeven als er ten minste één aangepast formulier is gekoppeld)
       * Overzicht
       * De naam van een of meerdere aangepaste formulieren
 
-      Het PDF-bestand wordt naar de computer gedownload.
+      Het PDF-bestand wordt naar uw computer gedownload.
 
-      ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
+      ![ de doos van de de vertoningdetails van de Uitvoer met de uitvoerknoop ](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
       Voor meer informatie, zie [ de douaneformulieren en objecten details van de Uitvoer ](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
    Voor informatie over de gebieden zichtbaar in de sectie van de Details van het Project, ga met het uitgeven van het project in het Edit vakje van het Project zoals hieronder beschreven verder.
-1. Om alle informatie over het project uit te geven, klik **Meer** menu ![](assets/qs-more-menu.png) naast de naam van het project, dan klik **uitgeven**.
+1. Om alle informatie over het project uit te geven, klik **Meer** menu ![ ](assets/qs-more-menu.png) naast de naam van het project, dan klik **uitgeven**.
 
    of
 
-   Van een lijst van projecten, selecteer één of veelvoudige projecten, dan klik **uitgeven** pictogram ![](assets/edit-icon.png) bij de bovenkant van de lijst.
+   Van een lijst van projecten, selecteer één of veelvoudige projecten, dan klik **uitgeven** pictogram ![ pictogram ](assets/edit-icon.png) bij de bovenkant van de lijst uitgeven.
 
    Voor meer informatie over het uitgeven van projecten in bulk, zie de sectie [ projecten in bulk ](#edit-projects-in-bulk) in dit artikel uitgeven.
 
@@ -167,6 +169,9 @@ Voor informatie over het creëren van een project van een malplaatje, zie [ een 
    * [ Montages van de Taak ](#task-settings)
    * [ Montages van de Uitgave ](#issue-settings)
    * [Toegang](#access)
+   * [ Gekoppelde omslagen ](#linked-folders-conditional-availability) (voorwaardelijke beschikbaarheid)
+     <!--* <span class="preview">[Comment](#comment)</span>-->
+
 
    >[!NOTE]
    >
@@ -177,7 +182,7 @@ Voor informatie over het creëren van een project van een malplaatje, zie [ een 
 1. Bewerk uw project zoals hierboven beschreven.
 1. Klik **Naam van het Project** in het linkerpaneel.
 
-   ![](assets/nwe-project-name-in-edit-project-box-350x125.png)
+   ![ het naamgebied van het Project in geeft projectdoos uit ](assets/nwe-project-name-in-edit-project-box-350x125.png)
 
 1. Werk de naam van het project bij.
 
@@ -188,7 +193,7 @@ Voor informatie over het creëren van een project van een malplaatje, zie [ een 
 1. Bewerk uw project zoals hierboven beschreven.
 1. Klik **Overzicht** in het linkerpaneel.
 
-   ![](assets/nwe-overview-in-edit-project-box-350x172.png)
+   ![ gebied van het Overzicht in project geeft doos uit ](assets/nwe-overview-in-edit-project-box-350x172.png)
 
 1. Werk de volgende informatie over het project bij:
 
@@ -242,14 +247,14 @@ Voor informatie over het creëren van een project van een malplaatje, zie [ een 
       </tr> 
       <tr> 
          <td role="rowheader"><strong>Portfolio</strong></td> 
-         <td>Geef een Portfolio aan waartoe het project behoort. U moet eerst een Portfolio maken voordat het in de vervolgkeuzelijst wordt weergegeven. Alleen actieve portfolio's kunnen aan een project worden gekoppeld. Zie <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref"> Een portfolio maken </a> voor meer informatie over het maken van portfolio's.
+         <td>Geef een Portfolio aan waartoe het project behoort. U moet eerst een Portfolio maken voordat deze in de vervolgkeuzelijst wordt weergegeven. Alleen actieve portfolio's kunnen aan een project worden gekoppeld. Zie <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref"> Een portfolio maken </a> voor meer informatie over het maken van portfolio's.
          <p><b>OPMERKING</b></p>
          <p>U moet over beheerdersmachtigingen voor het portfolio beschikken om het aan het project toe te voegen of te verwijderen.</p>
       </td> 
       </tr> 
       <tr> 
          <td role="rowheader"><strong>Programma</strong></td> 
-         <td> <p>Als u een Portfolio voor het project selecteerde, specificeer een Programma voor het project. Sommige Portfolio's hebben mogelijk geen programma's. U moet eerst een programma maken voordat het in deze vervolgkeuzelijst wordt weergegeven. Alleen actieve programma's kunnen aan een project worden gekoppeld. </p> <p>Voor meer informatie over het creëren van programma's, zie <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref"> een programma </a> creëren.</p> 
+         <td> <p>Als u een Portfolio voor het project selecteert, specificeer een Programma voor het project. Niet alle portfolio's hebben een programma. U moet eerst een programma maken voordat het in deze vervolgkeuzelijst wordt weergegeven. Alleen actieve programma's kunnen aan een project worden gekoppeld. </p> <p>Voor meer informatie over het creëren van programma's, zie <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref"> een programma </a> creëren.</p> 
       <p><b>OPMERKING</b></p>
          <p>U moet over beheerdersmachtigingen voor het programma beschikken om het aan het project toe te voegen of te verwijderen.</p>   
       </td> 
@@ -334,7 +339,7 @@ Informatie over aangepaste formulieren bewerken tijdens het bewerken van een pro
 1. Bewerk uw project zoals hierboven beschreven.
 1. Klik **Forms van de Douane** in het linkerpaneel.
 
-   ![](assets/nwe-custom-forms-in-edit-project-box-350x170.png)
+   ![ Douane vormen in uitgeeft projectvakje ](assets/nwe-custom-forms-in-edit-project-box-350x170.png)
 
 1. Klik **voeg de doos van de douanevorm** toe en selecteer een vorm van de lijst om het aan het project vast te maken. Standaard worden de eerste 40 formulieren in alfabetische volgorde weergegeven. Als het formulier niet in de lijst wordt weergegeven, typt u de naam en selecteert u het vervolgens wanneer het in de lijst wordt weergegeven.
 
@@ -369,7 +374,7 @@ Velden bewerken in het gebied Financiën:
 1. Bewerk uw project zoals hierboven beschreven.
 1. Klik **Financiën** in het linkerpaneel.
 
-   ![](assets/nwe-finance-in-edit-project-box-350x183.png)
+   ![ het gebied van de Financiën in het project geeft doos uit ](assets/nwe-finance-in-edit-project-box-350x183.png)
 
 1. Werk de volgende financiële informatie voor het project bij:
 
@@ -399,7 +404,7 @@ Velden bewerken in het gebied Financiën:
      </tr> 
      <tr> 
       <td role="rowheader"><strong> Gepland Voordeel </strong> </td> 
-      <td> <p>Schatting wat het geplande voordeel van het project is. Dit wordt gebruikt in het Bedrijfs Geval van het project en Portfolio Optimizer. Voor meer informatie over het Geplande Voordeel van een project, zie <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref"> Overzicht van project Gepland Voordeel </a>. Bij de berekening van de nettowaarde van een project wordt rekening gehouden met het geplande voordeel van een project. </p> <p>Voor meer informatie, zie <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref"> projecten in Portfolio Optimizer </a> leiden.<br></p> </td> 
+      <td> <p>Schatting wat het geplande voordeel van het project is. Dit wordt gebruikt in het BedrijfsGeval van het project en Portfolio Optimizer. Voor meer informatie over het Geplande Voordeel van een project, zie <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref"> Overzicht van project Gepland Voordeel </a>. Bij de berekening van de nettowaarde van een project wordt rekening gehouden met het geplande voordeel van een project. </p> <p>Voor meer informatie, zie <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref"> projecten in de Optimizer van Portfolio </a> leiden.<br></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong> Ware Voordelen </strong> </td> 
@@ -427,7 +432,7 @@ Velden bewerken in het gebied Financiën:
 1. Bewerk uw project zoals hierboven beschreven.
 1. Klik **Montages van het Project** in het linkerpaneel.
 
-   ![](assets/nwe-project-settings-in-edit-project-box-350x380.png)
+   ![ gebied van de montages van het Project in het project geeft doos uit ](assets/nwe-project-settings-in-edit-project-box-350x380.png)
 
 1. Werk de volgende gegevens bij:
 
@@ -551,7 +556,7 @@ Voor informatie over hoe deze montages het creëren van nieuwe taken beïnvloede
 1. Bewerk uw project zoals hierboven beschreven.
 1. Klik **Montages van de Taak** in het linkerpaneel.
 
-   ![](assets/nwe-task-settings-in-edit-project-box-350x211.png)
+   ![ de montages van de Taak in uitgeeft projectdoos ](assets/nwe-task-settings-in-edit-project-box-350x211.png)
 
 1. In het **vakje van het Proces van de Goedkeuring van het Standaard van de Taak 0}, selecteer het proces van de taakgoedkeuring u met alle nieuwe taken wilt associëren wanneer u hen aan het project toevoegt.**
 
@@ -565,7 +570,7 @@ Voor informatie over hoe deze montages het creëren van nieuwe taken beïnvloede
 1. In het **vakje van de Aangepaste Forms van het Standaard van de Taak 0}, selecteer de douanevorm of de vormen die u met alle nieuwe taken wilt associëren wanneer u hen aan het project toevoegt.** U moet aangepaste formulieren maken voordat u ze in dit veld kunt selecteren. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Voor meer informatie over de bouw van douaneformulieren, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren. U kunt maximaal tien aangepaste formulieren aan een taak koppelen.
 1. (Optioneel) Selecteer **Werkinspanning van het Gebruik om taak Geplande Uren** automatisch te berekenen als u het beheren van taakinspanning wilt toelaten door de Werkinspanning in plaats van Geplande Uren te gebruiken.
 
-   ![](assets/nwe-work-effort-on-projects-350x182.png)
+   ![ de inspanning van het Werk in uitgeeft projectdoos ](assets/nwe-work-effort-on-projects-350x182.png)
 
 1. (Voorwaardelijk en optioneel) Als u Werkinspanning gebruiken hebt geselecteerd om taken Geplande uren automatisch te berekenen, klikt u op het vervolgkeuzemenu voor elk inspanningsniveau en selecteert u een percentage voor elk niveau. De volgende percentagewaarden zijn standaardwaarden:
 
@@ -590,7 +595,7 @@ Voor informatie over hoe deze montages het creëren van nieuwe taken beïnvloede
 1. Bewerk uw project zoals hierboven beschreven.
 1. Klik **Montages van de Uitgave** in het linkerpaneel.
 
-   ![](assets/nwe-issue-settings-in-edit-project-box-350x306.png)
+   ![ uitgeeft montages in uitgeeft projectdoos ](assets/nwe-issue-settings-in-edit-project-box-350x306.png)
 
 1. (Facultatief) schrap **staat gebruikers toe om kwesties binnen** optie toe te voegen. Deze optie is standaard geselecteerd.
 
@@ -622,7 +627,7 @@ Voor informatie over hoe deze montages het creëren van nieuwe taken beïnvloede
 1. Bewerk uw project zoals hierboven beschreven.
 1. Klik **Toegang** in het linkerpaneel.
 
-   ![](assets/nwe-access-in-edit-project-box-350x262.png)
+   ![ het gebied van de Toegang in uitgeeft projectdoos ](assets/nwe-access-in-edit-project-box-350x262.png)
 
 1. Specificeer de volgende **informatie van de Toegang** voor het project:
 
@@ -632,23 +637,23 @@ Voor informatie over hoe deze montages het creëren van nieuwe taken beïnvloede
     <tbody> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Wanneer iemand is toegewezen aan een taak</strong></td> 
-      <td><p>Selecteer van <strong> Mening </strong>, <strong> Contribute, </strong> of <strong> leiden </strong> toegang tot een taak. De gebruiker die aan een taak wordt toegewezen wordt automatisch verleend deze toegang tot de taak.</p></td> 
+      <td><p>Selecteer van <strong> Mening </strong>, <strong> bijdragen, </strong> of <strong> leiden </strong> toegang tot een taak. De gebruiker die aan een taak wordt toegewezen wordt automatisch verleend deze toegang tot de taak.</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Ook toegang verlenen tot het project</strong></td> 
-      <td><p>Selecteer van <strong> Mening </strong>, <strong> Contribute </strong>, of <strong> leiden </strong> toegang tot het project. De gebruiker die aan een taak wordt toegewezen wordt automatisch deze toegang tot het project, eveneens verleend.<br></p></td> 
+      <td><p>Selecteer van <strong> Mening </strong>, <strong> bijdragen </strong>, of <strong> leiden </strong> toegang tot het project. De gebruiker die aan een taak wordt toegewezen wordt automatisch deze toegang tot het project, eveneens verleend.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Wanneer iemand aan een kwestie wordt toegewezen</strong></td> 
-      <td><p>Selecteer van <strong> Mening </strong>, <strong> Contribute, </strong> of <strong> leiden </strong> toegang tot een kwestie. De gebruiker aan een kwestie wordt toegewezen wordt automatisch verleend deze toegang tot de kwestie. Voor meer informatie, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref"> een kwestie delen </a>.<br></p></td> 
+      <td><p>Selecteer van <strong> Mening </strong>, <strong> bijdragen, </strong> of <strong> leiden </strong> toegang tot een kwestie. De gebruiker aan een kwestie wordt toegewezen wordt automatisch verleend deze toegang tot de kwestie. Voor meer informatie, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref"> een kwestie delen </a>.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Ook toegang verlenen tot het project</strong></td> 
-      <td><p>Selecteer van <strong> Mening </strong>, <strong> Contribute </strong>, of <strong> leiden </strong> toegang tot het project. De gebruiker die aan een kwestie wordt toegewezen wordt automatisch deze toegang tot het project, eveneens verleend.<br></p></td> 
+      <td><p>Selecteer van <strong> Mening </strong>, <strong> bijdragen </strong>, of <strong> leiden </strong> toegang tot het project. De gebruiker die aan een kwestie wordt toegewezen wordt automatisch deze toegang tot het project, eveneens verleend.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Wanneer iemand een aanvraag indient: geef ze toegang</strong></td> 
-      <td><p>Selecteer van <strong> Mening </strong>, <strong> Contribute </strong>, of <strong> leiden </strong> toegang tot het verzoek. Wanneer het project ook een verzoekrij is en een gebruiker een verzoek aan het project voorlegt, worden zij deze toegang tot het verzoek verleend zij voorlegden. Voor informatie over vestiging een project als verzoekrij, zie <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref"> een Rij van het Verzoek </a> creëren.<br></p></td> 
+      <td><p>Selecteer van <strong> Mening </strong>, <strong> bijdragen </strong>, of <strong> leiden </strong> toegang tot het verzoek. Wanneer het project ook een verzoekrij is en een gebruiker een verzoek aan het project voorlegt, worden zij deze toegang tot het verzoek verleend zij voorlegden. Voor informatie over vestiging een project als verzoekrij, zie <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref"> een Rij van het Verzoek </a> creëren.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>De mensen van het zelfde bedrijf zullen de zelfde toestemmingen voor alle verzoeken erven.</strong></td> 
@@ -663,7 +668,7 @@ Voor informatie over hoe deze montages het creëren van nieuwe taken beïnvloede
 
 1. Klik **sparen**.
 
-### Gekoppelde mappen
+### Gekoppelde mappen (voorwaardelijke beschikbaarheid) {#linked-folders}
 
 De functionaliteit van een gekoppelde map maakt automatisch mappen in Adobe Experience Manager Assets en verbindt deze met Workfront.
 
@@ -673,11 +678,28 @@ Deze sectie wordt alleen weergegeven als alle volgende opties van toepassing zij
 * Uw organisatie heeft integratie met Adobe Experience Manager ingeschakeld en geconfigureerd
 * Het malplaatje dat wordt gebruikt om dit project tot stand te brengen heeft toegelaten en verbonden omslagen gevormd.
 
-Voor instructies bij het uitgeven van Gekoppelde omslagen, zie [ werkschemawaarden in een project ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project) in de werkschema&#39;s van het artikelGebruik in de integratie van Experience Manager Assets uitgeven.
+Voor instructies bij het uitgeven van Gekoppelde omslagen, zie [ werkschemawaarden in een project ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project) in het artikel [ werkschema&#39;s van het Gebruik in de integratie van Experience Manager Assets ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md) uitgeven.
 
 >[!NOTE]
 >
 >Omdat gekoppelde mappen worden gemaakt wanneer het project wordt gemaakt, is het bewerken van de gekoppelde mapworkflow voor een bestaand project niet effectief. Deze waarden bewerken wanneer u projectfuncties maakt zoals u had verwacht.
+
+<!--
+<div class="preview">
+
+### Comment
+
+1. Begin editing your project as described above.
+1. Click **Comment** in the left panel.
+
+   ![project-comment-in-edit-project-box](assets/project-comment-in-edit-project-box.png)
+
+1. Add a comment in the space provided. Workfront adds the comment in the Updates area of the project. For more information about updating work, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. Click **Save**. 
+
+</div>
+
+-->
 
 ## Een project bewerken in de projectheader (beperkt)
 
@@ -685,7 +707,7 @@ U kunt een beperkte hoeveelheid informatie in de projectheader uitgeven.
 
 Uw systeem of groepsbeheerder kan de gebieden aanpassen u in de projectkopbal ziet.
 
-![](assets/project-header-350x18.png)
+![ kopbal van het Project ](assets/project-header-350x18.png)
 
 De volgende gebieden zijn inbegrepen in de projectheader, door gebrek.
 
@@ -719,21 +741,21 @@ Houd rekening met het volgende wanneer u projecten bulksgewijs bewerkt:
 
 * Wanneer u projecten selecteert die verschillende waarden voor het zelfde gebied hebben, toont het gebied een &quot;Veelvoudige waarde&quot;indicator in het Edit de projectvakje. Naast velden die selectievakjes, keuzerondjes en schakelingen zijn, staat een indicator &quot;Meerdere waarden&quot;.
 
-  ![](assets/multiple-values-indicator-dates-bulk-edit-projects.png)
+  ![ Veelvoudige waardeindicator voor data in bulk geeft projectdoos uit ](assets/multiple-values-indicator-dates-bulk-edit-projects.png)
 
 * Naast de indicator &quot;Meerdere waarden&quot; worden velden met meerdere opties op een van de volgende manieren weergegeven wanneer de gekozen opties verschillen op ten minste een van de geselecteerde projecten:
 
    * Velden voor selectievakjes hebben een regel in plaats van een selectievakje voor de optie die voor sommige maar niet voor alle geselecteerde projecten is ingeschakeld.
 
-     ![](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
+     ![ Veelvoudige de controledozen van de waardeindicator in bulk geeft projectdoos uit ](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
 
    * Velden van het type van-/uitschakelen worden grijs weergegeven, met de knevel in het midden voor de optie die voor sommige maar niet voor alle geselecteerde projecten is ingeschakeld.
 
-  ![](assets/multiple-values-highlighted-bulk-edit-projects.png)
+  ![ Veelvoudige die waarden in bulk worden benadrukt geeft projecten ](assets/multiple-values-highlighted-bulk-edit-projects.png) uit
 
    * In velden van het type keuzerondje waarin sommige opties zijn geselecteerd, maar niet alle opties, worden alle keuzerondjes als leeg weergegeven.
 
-     ![](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
+     ![ Veelvoudige de radioknopen van de waardeindicator bulksgewijs uitgeeft projectvakje ](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
 
 * Wanneer u een optie bijwerkt in een veld met meerdere opties (zoals een veld dat wordt weergegeven als een set gereedschappen of selectievakjes), moeten alle andere opties overeenkomen met de geselecteerde projecten.
 
@@ -748,10 +770,10 @@ Projecten in bulk bewerken:
 {{step1-to-projects}}
 
 1. Selecteer meerdere projecten in de lijst.
-1. Klik **uitgeven** pictogram ![](assets/edit-icon.png) bij de bovenkant van de lijst.
+1. Klik **uitgeven** pictogram ![ uitgeven pictogram ](assets/edit-icon.png) bij de bovenkant van de lijst.
 **geeft Projecten** dialoogdoos uit opent.
 
-   ![](assets/edit-projects-in-bulk-modal-unshimmed.png)
+   ![ geef projecten in bulk modaal ](assets/edit-projects-in-bulk-modal-unshimmed.png) uit
 
 Afhankelijk van de manier waarop uw Workfront-beheerder of groepsbeheerder uw lay-outsjabloon heeft gewijzigd, kunnen de gebieden in het linkerdeelvenster van het vak Project bewerken of de velden in deze gebieden opnieuw worden gerangschikt of niet worden weergegeven. Voor informatie, zie [ de mening van Details aanpassen gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
@@ -765,7 +787,7 @@ Afhankelijk van de manier waarop uw Workfront-beheerder of groepsbeheerder uw la
 
    De douaneformulieren die aan alle geselecteerde projecten in bijlage zijn tonen in de **vormen van de Douane in gemeenschappelijke** onderafdeling in het **gebied van de Douane Forms**.
 
-   ![](assets/custom-forms-in-common-unshimmed.png)
+   ![ de vormen van de Douane in bulk geven projecten uit ](assets/custom-forms-in-common-unshimmed.png)
 
    >[!TIP]
    >
@@ -774,7 +796,7 @@ Afhankelijk van de manier waarop uw Workfront-beheerder of groepsbeheerder uw la
 1. Begin typend de naam van een douanevorm in het **toevoegen douanevorm** gebied.
 
 
-   ![](assets/forms-already-attached-indication-in-bulk-editing-projects-unshimmed.png)
+   ![ Forms reeds in bijlage indicator in bulk het uitgeven projecten ](assets/forms-already-attached-indication-in-bulk-editing-projects-unshimmed.png)
 
    De douaneformulieren die reeds in bijlage aan de geselecteerde projecten zijn tonen in de **Verbonden vormen** onderafdeling in **voegen douaneformulier** gebied toe.
 
@@ -802,9 +824,10 @@ Voor meer informatie over het uitgeven van het gebied van de Montages van de Taa
 Voor meer informatie over het uitgeven van het gebied van de Montages van de Uitgave, zie de sectie [ Montages van de Uitgave ](#issue-settings) in dit artikel.
 1. Klik **Toegang** om de toegangsmontages voor alle geselecteerde projecten uit te geven.
 Voor meer informatie over het uitgeven van het gebied van de Toegang, zie de sectie [ Toegang ](#access) in dit artikel.
+   <!--1. <span class="preview">Click **Comment**, then add a comment in the space provided. Workfront adds the comment in the **Updates** area of each project. For information about updating work, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).</span>-->
 1. (Facultatief) om het even welke informatie te verwijderen u in de Edit doos van Projecten toevoegde, beweegt over een uitgegeven gebied, dan klik **x** verwerpen pictogram aan het hoger-recht van het gebied.
 
-   ![](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)
+   ![ verwerp pictogram voor gebied uitgeeft projecten in bulk ](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)
 
 1. (Facultatief) klik **annuleren** bij de bodem van **projecten** pagina uitgeven om alle veranderingen te verwijderen die aan alle projecten worden aangebracht.
 1. Klik **sparen**.

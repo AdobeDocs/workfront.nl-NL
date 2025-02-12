@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 7ef4d6c852328ff30e8b8c21398100f2f73e0dea
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '743'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ Reageren op een opmerking in de sectie Updates van een object is vergelijkbaar v
 1. (Facultatief) om tekst van een vorige update in uw antwoord te omvatten, klik het **Meer** menu in de hoger-juiste hoek van de commentaar u wilt antwoorden aan, dan **antwoord van het Citaat** klikken. De tekst van de vorige update wordt weergegeven in het invoergebied, gemarkeerd met een verticale grijze lijn.
 1. Klik **Reageren**.
 
-   ![](assets/reply-to-update-empty-box.png)
+   ![ Antwoord om lege doos ](assets/reply-to-update-empty-box.png) bij te werken
 
    U kunt de gebruikers zien die actief in het gesprek bij de bodem van **betrokken zijn voeg antwoord toe..** doos en u kunt meer toevoegen, of degenen verwijderen die niet meer relevant zijn. Deze gebruikers ontvangen, samen met gebruikers die op het object zijn geabonneerd, een melding wanneer het object wordt bijgewerkt of geantwoord. U kunt ook tags toewijzen aan meer gebruikers om deze in uw antwoord op te nemen.  Om meer gebruikers te etiketteren, zie [ Tags anderen op updates ](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
@@ -115,7 +115,7 @@ Reageren op een opmerking in de sectie Updates van een object is vergelijkbaar v
 
 1. Klik **voorleggen** om het antwoord te bewaren.
 
-1. (Facultatief) klik **Meer** menu ![](assets/more-menu.png) in de hoger-juiste hoek van de commentaar u voor meer opties wilt antwoorden om het antwoord te beheren. Voor meer informatie, zie [ het werk van de Update ](../updating-work-items-and-viewing-updates/update-work.md).
+1. (Facultatief) klik het **Meer** menu ![ Meer menu ](assets/more-menu.png) in de hoger-juiste hoek van de commentaar u voor meer opties wilt antwoorden om het antwoord te beheren. Voor meer informatie, zie [ het werk van de Update ](../updating-work-items-and-viewing-updates/update-work.md).
 
 <!--
 ### Reply to an update or reply in the legacy Updates section

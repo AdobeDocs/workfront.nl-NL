@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: 7ef4d6c852328ff30e8b8c21398100f2f73e0dea
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '954'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-platform</p></td> 
    <td> 
-<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden genegeerd om tot alle mogelijkheden van de Planning van Workfront te kunnen toegang hebben.</p> 
+<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden bezeten om tot alle mogelijkheden van de Planning van Workfront toegang te hebben.</p> 
 <p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
    </td> 
    </tr> 
@@ -116,7 +116,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
   >[!NOTE]
   >
-  >   Slechts ontvangen de gebruikers van klanten die met de Adobe Verenigde Ervaring zijn ingegaan zowel een in-app bericht als een e-mailbericht. Om te bepalen of uw bedrijf de Adobe Verenigde Ervaring gebruikt, zie [ Adobe Verenigde Ervaring voor Workfront ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+  >   Alleen gebruikers van klanten die aan boord zijn gegaan met de Adobe Unified Experience ontvangen zowel een melding in de app als een e-mailmelding. Om te bepalen of uw bedrijf de Adobe Verenigde Ervaring gebruikt, zie [ de Verenigde Ervaring van Adobe voor Workfront ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 * U kunt een update aan verslagen toevoegen en de geschiedenis van veranderingen van de volgende gebieden van de Planning van Workfront herzien:
 
@@ -143,7 +143,7 @@ De recordtypepagina wordt geopend en alle records van dat type worden weergegeve
 
 1. Begin een commentaar in de **Nieuwe commentaardoos** in te gaan.
 
-   ![](assets/empty-comment-box-on-record.png)
+   ![ Lege commentaardoos op verslag ](assets/empty-comment-box-on-record.png)
 
    >[!TIP]
    >
