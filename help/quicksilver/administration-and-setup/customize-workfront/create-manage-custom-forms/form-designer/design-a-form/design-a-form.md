@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
 workflow-type: tm+mt
-source-wordcount: '6492'
+source-wordcount: '6493'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ U kunt een aangepast formulier ontwerpen met de formulierontwerper in Adobe Work
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet het volgende hebben om de stappen in dit artikel uit te voeren:
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -82,7 +82,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    * [Keuzerondjes, groepen selectievakjes en vervolgkeuzelijsten toevoegen](#add-radio-buttons-checkboxes-and-dropdowns)
    * [Velden voor typekop en datum toevoegen](#add-typeahead-and-date-fields)
    * [Externe opzoekvelden toevoegen](#add-external-lookup-fields)
-   * [Afbeeldingen, PDF en video&#39;s toevoegen](#add-images-pdfs-and-videos)
+   * [Afbeeldingen, PDF&#39;s en video&#39;s toevoegen](#add-images-pdfs-and-videos)
    * [Native Workfront-velden toevoegen](#add-workfront-native-fields)
    * [Adobe XD-bestanden toevoegen](#add-adobe-xd-files)
    * [Verbindingsvelden voor planning toevoegen](#add-planning-connection-fields)
@@ -513,7 +513,7 @@ U voegt als volgt velden voor typekop en datum toe:
       <td role="rowheader">Type object waarnaar wordt verwezen</td> 
       <td> <p>Selecteer het objecttype dat u aan het veld wilt koppelen.</p> <p>Nadat u op Toepassen of Opslaan+Sluiten hebt geklikt, kunt u het objecttype voor het veld niet meer wijzigen.</p> <p><b> NOTA </b>:   
         <ul> 
-         <li>Als uw Workfront-beheerder de naam voor Portfolio's, Programma's of Projecten heeft aangepast in de Workfront-gebruikersinterface, wordt de standaardnaam voor Workfront voor het object weergegeven in deze vervolgkeuzelijst en niet de aangepaste naam. Raadpleeg uw Workfront-beheerder als u hier hulp bij nodig hebt.<br></li> 
+         <li>Als uw Workfront-beheerder de naam voor portfolio's, programma's of projecten heeft aangepast in de Workfront-gebruikersinterface, wordt de standaard Workfront-naam voor het object weergegeven in deze vervolgkeuzelijst, niet de aangepaste naam. Raadpleeg uw Workfront-beheerder als u hier hulp bij nodig hebt.<br></li> 
          <li>De volgende objecttypen worden ondersteund in de mobiele apps van iOS en Android Workfront: Gebruiker, Bedrijf, Groep, Functie, Portfolio, Programma, Project en Sjabloon.</li> 
         </ul> </p> </td> 
          <td><ul>
@@ -668,9 +668,9 @@ Een externe zoekopdracht toevoegen:
 >* Wacht een tijd tussen pogingen: 500 ms
 >* Verwachte reactiestatus: 2xx
 
-### Afbeeldingen, PDF en video&#39;s toevoegen
+### Afbeeldingen, PDF&#39;s en video&#39;s toevoegen
 
-U kunt afbeeldingen, PDF en video&#39;s toevoegen aan een aangepast formulier. Gebruikers die werken met het object waaraan het aangepaste formulier is gekoppeld, kunnen de afbeelding, de PDF of de video alleen in de volgende gebieden bekijken:
+U kunt afbeeldingen, PDF&#39;s en video&#39;s toevoegen aan een aangepast formulier. Gebruikers die werken met het object waaraan het aangepaste formulier is gekoppeld, kunnen de afbeelding, PDF of video alleen in de volgende gebieden bekijken:
 
 * Het gebied van Details van het voorwerp (bijvoorbeeld, voor een project, het gebied van de Details van het Project)
 * Het vak Bewerken voor het object als dit de nieuwe Adobe Workfront-ervaring bevat die er uitziet (bijvoorbeeld de vakken Project bewerken en Taak bewerken)
@@ -685,12 +685,12 @@ The Workfront Mobile app -->
 +++ **breid uit om beschrijvingen van beschikbare gebieden** te zien
 
 * **Beeld**: Staat gebruikers toe om beelddossiers toe te voegen.
-* **PDF**: Staat gebruikers toe om PDF toe te voegen
+* **PDF**: Staat gebruikers toe om PDFs toe te voegen
 * **Video&#39;s**: Staat gebruikers toe om videodossiers toe te voegen.
 
 +++
 
-Afbeeldingen, PDF of video&#39;s toevoegen:
+Afbeeldingen, PDF&#39;s of video&#39;s toevoegen:
 
 1. Zoek aan de linkerkant van het scherm een van de volgende velden en sleep deze naar een sectie op het canvas.
 
@@ -853,7 +853,7 @@ Deze tabel bevat een lijst met de beschikbare native velden voor specifieke Work
        <p>U moet het filter definiëren voor het verwijzingsveld dat u hebt geselecteerd met de syntaxis van de tekstmodus. Voor informatie over het creëren van een filter gebruikend de Wijze van de Tekst, zie <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md"> een filter uitgeven gebruikend tekstwijze </a>.</p>
        <p><b> NOTA </b>:
        <ul> 
-        <li>De filteroptie is alleen beschikbaar wanneer u naar een native typeahead-veld verwijst, zoals Portfolio, Bedrijf of Eigenaar.</li>
+        <li>De filteroptie is alleen beschikbaar wanneer u naar een native typeahead-veld verwijst, zoals Portfolio, Company of Owner.</li>
         <li>Als u een bestaand aangepast formulier bewerkt en een filter toevoegt aan een native veld, worden objecten (buiten het bereik van het filter) die gebruikers al met het veld hebben toegevoegd, niet verwijderd.</li> 
         <li>Dit filter is niet beschikbaar op mobiele apparaten. Als u het filter voor een native veld gebruikt, wordt het veld weergegeven op mobiele apparaten van gebruikers waarop het filter geen invloed heeft.</li> 
         </ul></p></td> 
@@ -903,7 +903,7 @@ Een Adobe XD-bestand toevoegen:
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
-      <td> <p>(Vereist) Typ of plak een geldige XD prototypekoppeling.</p> 
+      <td> <p>(Vereist) Typ of plak een geldige XD-prototypekoppeling.</p> 
       <p>Opmerking: de instelling Koppelingstoegang op het tabblad Delen in Adobe XD moet zijn ingesteld op Iedereen met de koppeling. Anders kunnen gebruikers het prototype niet bekijken. 
    </td> 
      </tr> 
@@ -943,7 +943,7 @@ Een Adobe XD-bestand toevoegen:
 >
 >* Een nieuw Workfront-plan en -licentie. Workfront Planning is niet beschikbaar voor oudere Workfront-plannen of -licenties.
 >* Een extra pakket voor Workfront Planning.
->* De instantie van uw organisatie van Workfront moet aan de Adobe Verenigde Ervaring worden genegeerd.
+>* Het geval van Workfront van uw organisatie moet aan de Verenigde Ervaring van Adobe worden genegeerd.
 >
 > Voor een volledige lijst van vereisten om tot de Planning van Workfront toegang te hebben, zie [ het toegangsoverzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/access/access-overview.md).
 > 
@@ -987,7 +987,7 @@ Een verbindingsveld voor planning toevoegen:
       U kunt de volgende objecttypen selecteren:
       <ul><li> Project</li>
       <li> Portfolio</li><li> Programma</li><li> Bedrijf</li><li> Groep</li></ul>
-       <p>Alleen Workfront-objecttypen voor de objecttypen van het formulier zijn beschikbaar.</p> <p> Als de lijst Objecttypen bijvoorbeeld boven aan de formulierontwerper Project weergeeft, kunt u alleen Project in dit veld selecteren en kunt u geen Portfolio's selecteren, hoewel portfolio's ook kunnen worden verbonden met recordtypen.</p>
+       <p>Alleen Workfront-objecttypen voor de objecttypen van het formulier zijn beschikbaar.</p> <p> Als bijvoorbeeld de lijst Objecttypen boven aan de formulierontwerper Project weergeeft, kunt u alleen Project in dit veld selecteren en kunt u geen Portfolio's selecteren, hoewel portfolio's ook kunnen worden verbonden met recordtypen.</p>
       </td>
      </tr>
      <tr> 

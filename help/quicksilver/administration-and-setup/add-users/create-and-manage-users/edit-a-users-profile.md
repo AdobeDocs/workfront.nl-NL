@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
 workflow-type: tm+mt
-source-wordcount: '3275'
+source-wordcount: '3276'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Voor informatie over gebruikers die hun eigen profielen bijwerken, zie [ mijn mo
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet het volgende hebben om de stappen in dit artikel uit te voeren:
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -100,7 +100,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
         <p>Als u een groepsbeheerder bent en u de toestemming van de Gebruiker Admin (Alle Gebruikers) op uw toegangsniveau wordt toegelaten, kunt u de &lt;SSO Configuratie&gt; gebieden voor alle gebruikers uitgeven.</p> </li> 
         <li><b> Info van de Baan:</b> Informatie over de baan, als de baantitel (op het <b> gebied van de Titel </b>), en welk gebied van deskundigheid de gebruiker verantwoordelijk is (in het <b> Bespreking aan me over </b> gebied).</li> 
         <li><p><b> Info van het Contact </b>: Het de telefoonaantal van de gebruiker (in het <b> aantal van de Telefoon, Ext.</b>, en <b> Mobiel aantal </b> gebieden) en adres (in het <b> Adres, Stad, Staat, Postcode, Land </b> gebieden).</p>
-        <p>Als de gebruiker voor het Verenigde Beheer van de Gebruiker (UUM) of het Systeem van Identity Management van de Adobe (IMS) wordt toegelaten, keurt het </b> gebied van het Land <b> in de sectie van het Info van het Contact slechts landcodewaarden (bijvoorbeeld, US, GB, IN) goed.</p></li>
+        <p>Als de gebruiker voor het Verenigde Beheer van de Gebruiker (UUM) of het Systeem van Adobe Identity Management (IMS) wordt toegelaten, keurt het </b> gebied van het Land <b> in de sectie van Info van het Contact slechts landcodewaarden (bijvoorbeeld, V.S., GB, IN) goed.</p></li>
        </ul> </td> 
      </tr> 
      <tr> 
@@ -110,7 +110,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
       <li> <p><b> Tijdzone van de Tijd:</b> de tijdzone van de gebruiker.</p> <p>Voor informatie over het helpen van gebruikers samenwerken in Workfront over tijdzones, zie <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref"> Werkend over tijdzones </a>.</p> </li>
 
    <li><p><b> Landinstelling E-mail </b>: De aangewezen e-maillandinstelling van de gebruiker. Dit is van invloed op de notatie van getallen en datums in de e-mails die van Workfront naar deze gebruiker komen.</p>
-      <p><b> NOTA:</b> wanneer uw organisatie op de Adobe Verenigde Ervaring is, worden de de taalvoorkeur van de gebruiker opgeslagen in hun profiel van de Adobe en e-mailscène wordt niet gebruikt. Voor informatie over de toegang tot van deze voorkeur, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>.</p></li>
+      <p><b> NOTA:</b> wanneer uw organisatie op de Adobe Verenigde Ervaring is, worden de de taalvoorkeur van de gebruiker opgeslagen in hun profiel van Adobe en e-mailscène wordt niet gebruikt. Voor informatie over de toegang tot van deze voorkeur, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>.</p></li>
 
    <li><b> ontvangt e-mails van dit testmilieu </b>: Controleer deze optie als u e-mailberichten van het milieu wilt ontvangen dat u momenteel het programma wordt geopend.
       <p><b>OPMERKING</b></p>
