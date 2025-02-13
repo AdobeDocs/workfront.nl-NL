@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 222e940432f9cdea2b7da7fefbb429d75a3824d7
+source-git-commit: d4ebdcc942f119dc229e2a3216dbe82b3d701cba
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '951'
 ht-degree: 0%
 
 ---
@@ -113,11 +113,11 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
      </tr> 
      <tr> 
       <td role="rowheader">Gebruikers automatisch afmelden na</td> 
-      <td> Hier kunt u opgeven wanneer een gebruiker na een periode van inactiviteit uit Workfront wordt afgemeld. Standaard worden gebruikers afgemeld na 8 uur inactiviteit. <p>Deze optie is ook van toepassing op Workfront-klanten die één aanmeldingsoplossing gebruiken.</p> </td> 
+      <td> Hier kunt u opgeven wanneer een gebruiker na een periode van inactiviteit uit Workfront wordt afgemeld. Standaard worden gebruikers afgemeld na 8 uur inactiviteit. <p>Deze optie is ook van toepassing op Workfront-klanten die één aanmeldingsoplossing gebruiken.</p> <p>Deze instelling is niet beschikbaar voor organisaties die zijn gemigreerd naar Adobe IMS.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Mobiele gebruikers automatisch afmelden na </td> 
-      <td>Hier kunt u opgeven wanneer een gebruiker na een periode van inactiviteit uit de Workfront-toepassing wordt afgemeld. Gebruikers worden standaard afgemeld na 7 dagen inactiviteit. <p>Deze optie is ook van toepassing op Workfront-klanten die één aanmeldingsoplossing gebruiken.</p></td> 
+      <td>Hier kunt u opgeven wanneer een gebruiker na een periode van inactiviteit uit de Workfront-toepassing wordt afgemeld. Gebruikers worden standaard afgemeld na 7 dagen inactiviteit. <p>Deze optie is ook van toepassing op Workfront-klanten die één aanmeldingsoplossing gebruiken.</p> <p>Deze instelling is niet beschikbaar voor organisaties die zijn gemigreerd naar Adobe IMS.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Aangepaste Help-URL</td> 
