@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '546'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veran
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
+U moet het volgende hebben:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,10 +44,17 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td><p>Nieuw: Standaard</p>
-  <p> Huidig: Plan</p>
-   </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> 
+      <p>Nieuw:</p>
+         <ul>
+         <li><p>Standaard</p></li>
+         </ul>
+      <p>Huidige:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
@@ -57,7 +64,7 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
  </tbody> 
 </table>
 
-*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -91,23 +98,28 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
       * Blauwdrukken
       * Planning
 
-   >[!IMPORTANT]
-   >
-   >Voor het weergeven van de scenario&#39;s, doelen en planningsgebieden zijn aanvullende licenties vereist.
-   >
-   >* Voor informatie over de Doelen van Workfront, zie [ overzicht van de Doelen van Adobe Workfront ](../../../workfront-goals/goal-management/wf-goals-overview.md).
-   >
-   >* Voor informatie over de Planner van het Scenario van Workfront, zie [ het overzicht van de Planner van het Scenario ](../../../scenario-planner/scenario-planner-overview.md).
-   >
-   >* Voor informatie over de Planning van Workfront, zie [ het Overzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
+     >[!IMPORTANT]
+     >
+     >Voor het weergeven van de doelen, scenario&#39;s en planningsgebieden zijn aanvullende licenties vereist.
+     >
+     >* Voor informatie over de Doelen van Workfront, zie [ overzicht van de Doelen van Adobe Workfront ](../../../workfront-goals/goal-management/wf-goals-overview.md).
+     >
+     >* Voor informatie over de Planner van het Scenario van Workfront, zie [ het overzicht van de Planner van het Scenario ](../../../scenario-planner/scenario-planner-overview.md).
+     >
+     >* Voor informatie over de Planning van Workfront, zie [ het Overzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
 
-   * Klik **toevoegen een Dashboard**, dan typ een beschrijvende **de sectietitel van de Douane** en voeg het dashboard toe.
+   * Klik **toevoegen een Dashboard**
+      * Typ een beschrijvende naam op het <!--**Quick link name**-->**Naam van de Douane** gebied
+      * Selecteer een dashboard op **toevoegen een dashboard** gebied <!-- dropdown for existing or canvas dashboard, called "Choose a dashboard" now -->
+      * Klik **toevoegen**.
 
 1. Herhaal de vorige stap om andere pagina&#39;s vast te zetten.
 
-1. (Facultatief) om een speld anders te noemen, over het speld te bewegen, klik de pijl naast de speldnaam, en selecteer **anders noemen speld**. Typ de nieuwe naam van het punt en klik op het pictogram van het vinkje of druk op Enter.
+1. (Facultatief) om een speld te bewegen, over het speld te bewegen en het Meer menupictogram ![ Meer pictogram ](assets/more-icon.png) naast de speldnaam te klikken, dan **Beweging links** of **Beweging** om het speld in de gekozen richting te verschuiven of **Beweging aan voorzijde** te klikken om het speld aan de meest linkse positie te verschuiven.
 
-   Nadat u op het vinkje hebt geklikt of op Enter hebt gedrukt, wordt een klein pop-upvenster weergegeven waarin u de wijziging van de pinnaam ongedaan kunt maken voordat u deze hebt opgeslagen.
+1. (Facultatief) om een speld anders te noemen, over het speld te bewegen en het Meer menupictogram ![ Meer pictogram ](assets/more-icon.png) naast de speldnaam te klikken, dan **anders noemt speld**. Ga een nieuwe naam in, dan klik **sparen**.
+
+1. (Facultatief) om een speld te schrappen, over het speld te bewegen en het Meer menupictogram ![ Meer pictogram ](assets/more-icon.png) naast de speldnaam te klikken, dan **verwijdert speld**.
 
 1. Blijf het lay-outmalplaatje aanpassen.
 

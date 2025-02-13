@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
+source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,16 @@ In dit artikel worden de functies beschreven die tijdens de release van het twee
 <!--keep the sentence below for all future quarterly release pages-->
 
 Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront worden vrijgegeven, zie [ de versieactiviteit van de Planning van Adobe Workfront: artikelindex ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Handelingen van AI Assistant controleren en bevestigen
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 13 februari 2025; productie voor snelle release: met de release van 25.3 (maart 2025); productie voor driemaandelijkse release: met de release van 25.4 (april 2025)
+
+Om ervoor te zorgen dat AI Assistant de gewenste acties uitvoert, kunt u deze acties nu onderzoeken en bevestigen voordat deze worden uitgevoerd. Nu, wanneer u een herinnering ingaat die een actie zoals het creëren van, het bijwerken van, of het schrappen van een verslag uitvoert, toont de Medewerker AI de acties het zal nemen en vraagt om bevestiging dat die de correcte acties zijn.
+
+Eerder was deze bevestigingsstap niet beschikbaar.
 
 ## Functies die zijn toegevoegd aan formuliervelden
 
@@ -48,7 +58,7 @@ For information, see [Edit records](/help/quicksilver/planning/records/edit-reco
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 30 januari 2025; productie voor snelle release: met de release van 25.2 (februari 2025); productie voor driemaandelijkse release: met de release van 25.4 (april 2025)
+>Voorvertoningsrelease: 30 januari 2025; productie voor snelle release: met de release van 25.2 (13 februari 2025); productie voor driemaandelijkse release: met de release van 25.4 (april 2025)
 
 U kunt meningen en werkruimten met teams, baanrollen, en bedrijven, in de Planning van Workfront delen. Voorafgaand aan deze verbetering, kon u meningen en werkruimten met gebruikers en groepen delen.
 
@@ -62,7 +72,7 @@ Raadpleeg de volgende artikelen voor meer informatie:
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 23 januari 2025; productie voor snelle release: met de release van 25.2 (februari 2025); productie voor driemaandelijkse release: met de release van 25.4 (april 2025)
+>Voorvertoningsrelease: 23 januari 2025; productie voor snelle release: met de release van 25.2 (13 februari 2025); productie voor driemaandelijkse release: met de release van 25.4 (april 2025)
 
 U kunt nu tekst kopiëren van een externe bron naar Workfront en deze plakken in een veld voor Workfront Planning verbonden of in een veld van het type Mensen. Deze verbetering is beschikbaar wanneer het uitgeven van verslagen in de lijstmening.  De tekst moet overeenkomen met een bestaande gebruiker (voor velden van het type Mensen) of een bestaande record of een bestaand object (voor een verbonden record). U kunt meerdere waarden voor meerdere velden kopiëren en plakken en records bulksgewijs bijwerken.
 
@@ -74,7 +84,7 @@ Voor meer informatie, zie [ verslagen ](/help/quicksilver/planning/records/edit-
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 23 januari 2025; productie voor snelle release: met de release van 25.2 (februari 2025); productie voor driemaandelijkse release: met de release van 25.4 (april 2025)
+>Voorvertoningsrelease: 23 januari 2025; productie voor snelle release: met de release van 25.2 (13 februari 2025); productie voor driemaandelijkse release: met de release van 25.4 (april 2025)
 
 Met deze versie hebben we de filterbuilder in Workfront Planning bijgewerkt om meerlaagse filters mogelijk te maken.
 
@@ -92,7 +102,7 @@ Voor meer informatie, zie [ de lijstmening ](/help/quicksilver/planning/views/ma
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 22 januari 2025; productie voor snelle release: met de release van 25.2 (februari 2025); productie voor driemaandelijkse release: met de release van 25.4 (april 2025)
+>Voorvertoningsrelease: 22 januari 2025; productie voor snelle release: met de release van 25.2 (13 februari 2025); productie voor driemaandelijkse release: met de release van 25.4 (april 2025)
 
 U kunt projecten nu tot stand brengen gebruikend een malplaatje terwijl u projecten met bestaande verslagen verbindt.
 
@@ -106,7 +116,7 @@ Voor informatie, zie [ de voorwerpen van Workfront van de Planning van Workfront
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 22 januari 2025; productie voor snelle release: met de release van 25.2 (februari 2025); productie voor driemaandelijkse release: met de release van 25.4 (april 2025)
+>Voorvertoningsrelease: 22 januari 2025; productie voor snelle release: met de release van 25.2 (13 februari 2025); productie voor driemaandelijkse release: met de release van 25.4 (april 2025)
 
 Om u een betere zichtbaarheid te geven bij het opnemen van titels in de koptekst van de weergavepagina, hebben we een verbetering doorgevoerd om titels meer ruimte te geven, overlappingen te voorkomen en afbreking netjes af te handelen.
 

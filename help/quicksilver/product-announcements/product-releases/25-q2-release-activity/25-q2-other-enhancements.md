@@ -4,9 +4,10 @@ description: Andere verbeteringen tijdens de releaseperiode van het tweede kwart
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 00445ffce2a494952a1d7dd9c02de2ddf6019472
+exl-id: 214f0e67-1da4-4abd-b942-09889e8bd92b
+source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -21,10 +22,10 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwar
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 23 januari 2025; productie voor snelle release: met de release van 25.2 (februari 2025); productie voor driemaandelijkse release: met de release van 25.4 (april 2025)
+>Voorvertoningsrelease: 23 januari 2025; productie voor snelle release: met de release van 25.2 (13 februari 2025); productie voor driemaandelijkse release: met de release van 25.4 (april 2025)
 
 Nu, wanneer de beheerder van de Adobe Admin Console een verandering in de gebruikersinformatie van een gebruiker van Workfront aanbrengt, registreert Workfront deze verandering in het de activiteitslusje van het Systeem van het gebied van de Updates van de gebruiker zoals die tot het &quot;Systeem&quot;behoort. Dit verwijst naar de Adobe Admin Console-beheerder.
 
-Vóór deze update werden gebruikerswijzigingen die door de beheerder van de Admin Console zijn aangebracht, vastgelegd zoals deze door de hoofdsysteembeheerder van Workfront zijn aangebracht.
+Voorafgaand aan deze update werden gebruikerswijzigingen die door de beheerder van de Admin Console zijn aangebracht, vastgelegd zoals deze door de hoofdsysteembeheerder van Workfront zijn aangebracht.
 
 Voor informatie over het beheren van gebruikers in Adobe Admin Console, zie [ gebruikers in Adobe Admin Console beheren ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)

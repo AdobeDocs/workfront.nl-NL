@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: dcfae507d531e0062bfa9552f6c397be3e8bb007
+source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '965'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen z
 
 | Maandelijkse release | Driemaandelijkse release |
 | ----------------- | ----------------- |
-| <ul><li>25.2 (februari 2025)</li><li>25.3 (maart 2025)</li><li>25.4 (april 2025)</li></ul> | <ul><li>25.4 (april 2025)</li></ul> |
+| <ul><li>25.2 (13 februari 2025)</li><li>25.3 (maart 2025)</li><li>25.4 (april 2025)</li></ul> | <ul><li>25.4 (april 2025)</li></ul> |
 
 >[!NOTE]
 >
@@ -37,6 +37,7 @@ Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen z
 ## Verbeteringen voor Adobe Workfront
 
 * [Beheerdersverbeteringen](#administrator-enhancements)
+* [Projectverbeteringen](#project-enhancements)
 * [Andere verbeteringen](#other-enhancements)
 
 ### Beheerdersverbeteringen
@@ -49,13 +50,39 @@ Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen z
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Expressies die worden toegevoegd aan berekende aangepaste velden</a></p>
-            <p>De volgende expressies zijn nu beschikbaar in door Workfront berekende aangepaste velden: ARRAY, FORMAT, SWITCH, SORTASCARRAY, SORTDESCARRAY, ARRAYLENGTH, ARRAYELEMENT en ADDHOUR. Definities en voorbeelden van elke expressie zijn beschikbaar in de berekeningseditor en op het Experience League.</p>
+            [!BADGE in productie ]{type=Informative}
+            <p>De volgende expressies zijn nu beschikbaar in door Workfront berekende aangepaste velden: ARRAY, FORMAT, SWITCH, SORTASCARRAY, SORTDESCARRAY, ARRAYLENGTH, ARRAYELEMENT en ADDHOUR. Definities en voorbeelden van elke expressie zijn beschikbaar in de rekeneditor en op Experience League.</p>
         </td>
         <td>
             <p><b>Beschikbaar op deze data:</b></p>
             <ul>
                 <li>Voorvertoningsrelease: 31 januari 2025</li>
                 <li><span class="preview">Productieversie voor alle klanten: 31 januari 2025</span></li>
+            </ul>
+        </td>
+    </tr>                          
+</tbody>
+</table>
+
+### Projectverbeteringen
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Een opmerking toevoegen aan projecten wanneer u deze bewerkt in het vak Project bewerken</a></p>
+            [!BADGE Nieuw in Voorproef ]{type=Negative}
+            <p>U kunt nu een opmerking aan een project toevoegen terwijl u deze bewerkt in het vak Project bewerken. U kunt ook een opmerking toevoegen aan meerdere projecten tegelijk wanneer u ze bulksgewijs bewerkt. Vóór deze update bestond deze functionaliteit niet tijdens het bewerken van projecten.</p>
+        </td>
+        <td>
+            <p><b>Beschikbaar op deze data:</b></p>
+            <ul>
+                <li>Voorvertoningsrelease: 13 februari 2025</li>
+                <li>Productie voor snelle release: met 25.3 release (maart 2025)</li>
+                <li>Productieversie voor alle klanten: met de release van 25.4 (april 2025)</li>
             </ul>
         </td>
     </tr>                          
@@ -72,45 +99,50 @@ Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen z
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Adobe Admin Console-gebruikerswijzigingen vertegenwoordigen als "Systeem" in de Workfront-updatefeed</a></p>
+            [!BADGE in productie voor Snelle Versie ]{type=Positive}
             <p>Nu, wanneer de beheerder van de Adobe Admin Console een verandering in de gebruikersinformatie van een gebruiker van Workfront aanbrengt, registreert Workfront deze verandering in het de activiteitslusje van het Systeem van het gebied van de Updates van de gebruiker zoals die tot het "Systeem"behoort. Dit verwijst naar de Adobe Admin Console-beheerder.</p>
         </td>
         <td>
             <p><b>Beschikbaar op deze data:</b></p>
             <ul>
                 <li>Voorvertoningsrelease: 23 januari 2025</li>
-                <li>Productie voor snelle release: met 25.2 release (februari 2025)</li>
+                <li>Productie voor snelle release: met 25.2 release (13 februari 2025)</li>
                 <li>Productieversie voor alle klanten: met de release van 25.4 (april 2025)</li>
             </ul>
         </td>
     </tr>
-    <!--<tr>
+    <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">
-            Look-and-feel updates during the Second Quarter 2025 timeframe</a></p>
-            <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the Second Quarter 2025 timeframe. Review the individual release notes for specific release dates.</p>
+            Updates weergeven en weergeven tijdens het tweede kwartaal van 2025</a></p>
+            <p>Kleine updates van het uiterlijk van verschillende onderdelen van de Adobe Workfront-toepassing worden uitgevoerd binnen het tweede kwartaal van 2025. Bekijk de afzonderlijke releaseopmerkingen voor specifieke releasedatums.</p>
         </td>
         <td>
-            <p><b>Available on these dates:</b></p>
+            <p><b>Beschikbaar op deze data:</b></p>
             <ul>
-                <li>Preview release: Throughout the Second Quarter 2025 release timeframe</li>
-                <li><span class="preview">Production release: Review the release notes for specific dates</span></li>
+                <li>Voorvertoningsrelease: gedurende de gehele releaseperiode van het tweede kwartaal van 2025</li>
+                <li><span class="preview">Productieversie: bekijk de opmerkingen bij de release voor specifieke datums</span></li>
             </ul>
         </td>
-    </tr>-->
+    </tr>
 </tbody>
 </table>
 
-<!--
-### Functionality soon to be removed from Workfront
+### Functionaliteit die binnenkort uit Workfront wordt verwijderd
 
-The following functionality is soon to be removed from Workfront:
--->
+De volgende functionaliteit wordt binnenkort verwijderd uit Workfront:
+
+#### We verwijderen de oudere versie van de Agile-weergave in een project
+
+De oudere versie van Agile in een project wordt verwijderd uit Workfront met de release van 25.3 op 13 maart 2025. U kunt uw taken nog steeds bekijken in een mobiele weergave in een project door op het pictogram Boven te klikken.
+
+Voor meer informatie over het gebruiken van de mening van de Gelijkheid, zie [ een project in de Mening van de Gelijkheid beheren ](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
 ## Aankondigingen
 
 ### Modernisering van de interface
 
-We werken de interface in Adobe Workfront bij om de gebruikerservaring te verbeteren en deze te verenigen met andere Adobe toepassingen. Deze veranderingen worden vrijgegeven buiten het standaardversieschema. Voor een lijst van deze veranderingen, zie [ Modernisering van de Interface ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+We werken de interface in Adobe Workfront bij om de gebruikerservaring te verbeteren en deze te verenigen met andere Adobe-toepassingen. Deze veranderingen worden vrijgegeven buiten het standaardversieschema. Voor een lijst van deze veranderingen, zie [ Modernisering van de Interface ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
 ### Workfront Fusion-verbeteringen
 
@@ -154,4 +186,4 @@ Voor informatie over de onderhoudsupdates die tijdens de Tweede Kwartaal 2025 ve
 
 ### Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Tutorials van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html) Nieuw is.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html) Nieuw is.
