@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: cf3b5d3f8e3a8a1922da757a41b4c5e0ee84e6fd
+source-git-commit: ddcefb0baf10df9ae9ac3b29d7da1e2a070101c8
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
@@ -69,8 +69,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-platform</p></td> 
    <td> 
-<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden genegeerd om tot alle mogelijkheden van de Planning van Workfront te kunnen toegang hebben.</p>
-<p>Uw organisatie moet aan de Adobe Verenigde Ervaring voor gebruikers worden bezet om toestemmingen aan een werkruimte van een toestemmingsverzoek te kunnen verzoeken en verlenen. </p> 
+<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden bezeten om tot alle mogelijkheden van de Planning van Workfront toegang te hebben.</p>
+<p>Uw organisatie moet aan de Verenigde Ervaring van Adobe worden bezet voor gebruikers om toestemmingen aan een werkruimte van een toestemmingsverzoek te kunnen verzoeken en verlenen. </p> 
 <p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
    </td> 
    </tr> 
@@ -175,15 +175,11 @@ Een werkruimte delen met anderen:
 
 1. Open de werkruimte u wilt delen, dan **Aandeel** in de hoger-juiste hoek van het scherm klikken.
 
-   ![](assets/share-button-on-workspace-top-right.png)
+   ![ knoop van het Aandeel op werkruimte het hoogste recht ](assets/share-button-on-workspace-top-right.png)
 
-1. In de **werkruimtetoegang van de Verlening tot** gebied, begin de naam van een gebruiker, een groep, <span class="preview"> team, een bedrijf, of baanrol </span> dan het te typen wanneer het in de lijst toont.
+1. In de **toegang van de Verlening tot dit werkruimte** gebied, begin het typen van de naam van een gebruiker, een groep, <span class="preview"> team, een bedrijf, of baanrol </span> dan het wanneer het in de lijst toont.
 
-   <div class="preview">
-
-   ![](assets/sharing-ui-with-groups.png)
-
-   </div>
+   ![ delend UI met groepen ](assets/sharing-ui-with-groups.png)
 
 1. Selecteer een van de volgende machtigingsniveaus in het keuzemenu:
    * Weergave
@@ -202,20 +198,20 @@ Gebruikers die een koppeling openen naar een werkruimte waarvoor zij geen machti
 1. (Voorwaardelijk) Als u de manager van een werkruimte bent, zou u een verzoek van een andere gebruiker kunnen ontvangen om tot de mening op de volgende gebieden toegang te hebben:
 
    * Een melding in de app
-     ![](assets/in-app-notification-for-access-request.png)
+     ![ In-app bericht voor toegangsverzoek ](assets/in-app-notification-for-access-request.png)
    * Een e-mailmelding
-     ![](assets/email-notification-for-access-request.png)
+     ![ E-mailbericht voor toegangsverzoek ](assets/email-notification-for-access-request.png)
 1. (Voorwaardelijk) Klik in het systeemvak in Workfront op de melding in de app.
 of
 Van het e-mailbericht, klik **Mening alle berichten**, dan klik het bericht in de lijst.
 
    De **hangende toegangsverzoeken** vakvertoningen.
 
-   ![](assets/notifications-list-approval-box.png)
+   ![ de lijstgoedkeuringsdoos van Meldingen ](assets/notifications-list-approval-box.png)
 
 1. (Optioneel) Voor de gebruiker wiens machtigingen u wilt goedkeuren, selecteert u een van de volgende opties in het vervolgkeuzemenu rechts van de gebruikersnaam:
    * **Mening**
-   * **Contribute**
+   * **draagt** bij
    * **leiden**
 1. Selecteer de gebruiker voor wie u de toestemming goedkeuren of wilt ontkennen, dan klik **allen** goedkeuren of **ontkennen allen**.
 1. Klik de verlaten-richt pijl aan de linkerzijde van **Hangende toegangsverzoeken**, dan klik **sparen**.

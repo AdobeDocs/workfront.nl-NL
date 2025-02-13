@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: cf3b5d3f8e3a8a1922da757a41b4c5e0ee84e6fd
+source-git-commit: ddcefb0baf10df9ae9ac3b29d7da1e2a070101c8
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1583'
 ht-degree: 0%
 
 ---
@@ -81,8 +81,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-platform</p></td> 
    <td> 
-<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden genegeerd om tot alle mogelijkheden van de Planning van Workfront te kunnen toegang hebben.</p> 
-<p>Uw organisatie moet aan de Adobe Verenigde Ervaring voor gebruikers worden bezet om toestemmingen aan een mening van een toestemmingsverzoek te kunnen verzoeken en verlenen. </p>
+<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden bezeten om tot alle mogelijkheden van de Planning van Workfront toegang te hebben.</p> 
+<p>Uw organisatie moet aan de Verenigde Ervaring van Adobe voor gebruikers worden bezet om toestemmingen aan een mening van een toestemmingsverzoek te kunnen verzoeken en verlenen. </p>
 <p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
    </td> 
    </tr> 
@@ -200,9 +200,9 @@ U kunt meningen delen u creeerde of meningen u beheerst toestemmingen aan met ge
 
    Hierdoor wordt de pagina met recordtypen geopend.
 
-1. Van het meningslusje, houd over de mening u **Meer** menu ![](assets/more-menu.png) aan het recht van de meningsnaam delen en wilt klikken, dan **Aandeel** klikken.
+1. Van het meningslusje, beweeg over de mening u **Meer** menu ![ Meer menu ](assets/more-menu.png) aan het recht van de meningsnaam wilt delen en klikken, dan **Aandeel**.
 
-   ![](assets/more-menu-for-views-expanded-with-share-option.png)
+   ![ Meer menu voor meningen die met aandeeloptie ](assets/more-menu-for-views-expanded-with-share-option.png) worden uitgebreid
 
    Het **Interne delende** lusje zou door gebrek moeten worden geselecteerd.
 
@@ -211,13 +211,9 @@ U kunt meningen delen u creeerde of meningen u beheerst toestemmingen aan met ge
    * **slechts kunnen de uitgenodigde mensen tot** toegang hebben: U moet gebruikers, groepen, <span class="preview"> team, bedrijf, of baanrol </span> specificeren die u de mening met wilt delen. Dit is de standaardoptie.
    * **iedereen in de werkruimte kan** bekijken: Alle gebruikers die Mening of hogere toestemmingen aan werkruimten hebben kunnen tot de mening toegang hebben.
 
-1. In de **de meningstoegang van de Verlening tot** gebied, begin het typen van de naam van een gebruiker, een groep, <span class="preview"> team, bedrijf, of baanrol </span> dan het wanneer het in de lijst toont.
+1. In de **toegang van de Verlening tot dit mening** gebied, begin het typen van de naam van een gebruiker, een groep, <span class="preview"> team, bedrijf, of baanrol </span> dan het wanneer het in de lijst toont.
 
-   <div class="preview">
-
-   ![](assets/sharing-a-view-ui-with-groups.png)
-
-   </div>
+   ![ delend een mening met groepen ](assets/sharing-a-view-ui-with-groups.png)
 
 1. Selecteer een van de volgende machtigingsniveaus in het keuzemenu:
    * Weergave
@@ -230,7 +226,7 @@ U kunt meningen delen u creeerde of meningen u beheerst toestemmingen aan met ge
 1. Klik **verbinding van het Exemplaar** om een verbinding aan de mening aan uw klembord te kopiëren.
 1. Klik **sparen**.
 
-   De weergave wordt bijgewerkt met het pictogram voor personen ![](assets/view-shared-with-others-people-icon.png) om aan te geven dat de weergave nu wordt gedeeld met andere gebruikers.
+   De meningsupdates met een mensen pictogram ![ Mening die met anderen pictogram ](assets/view-shared-with-others-people-icon.png) wordt gedeeld om erop te wijzen dat de mening nu met andere gebruikers wordt gedeeld.
 
    >[!TIP]
    >
@@ -255,25 +251,25 @@ Een weergave openbaar delen in Workfront Planning:
 
    Hierdoor wordt de pagina met recordtypen geopend.
 
-1. Van het meningslusje, houd over de mening u **Meer** menu ![](assets/more-menu.png) aan het recht van de meningsnaam delen en wilt klikken, dan **Aandeel** klikken.
+1. Van het meningslusje, beweeg over de mening u **Meer** menu ![ Meer menu ](assets/more-menu.png) aan het recht van de meningsnaam wilt delen en klikken, dan **Aandeel**.
 
-   ![](assets/more-menu-for-views-expanded-with-share-option.png)
+   ![ Meer menu voor meningen die met aandeeloptie ](assets/more-menu-for-views-expanded-with-share-option.png) worden uitgebreid
 
 1. Klik **Openbaar het delen**.
 
-   ![](assets/public-sharing-tab-for-views.png)
+   ![ Openbaar delend lusje voor meningen ](assets/public-sharing-tab-for-views.png)
 
 1. Laat **toe creeer openbare verbinding** plaatsen.
 
    Er wordt een koppeling beschikbaar. Dit is een openbare link. Als de koppeling wordt gedeeld, heeft iedereen met deze koppeling, dus ook mensen van buiten uw organisatie, toegang tot de pagina met recordtypen en kunnen records en velden op de pagina worden weergegeven.
 
-1. Klik het **pictogram van de verbinding van het 0} Exemplaar ![](assets/copy-link-view.png) om de verbinding aan uw klembord te kopiëren.**
+1. Klik de **pictogram van het 1} verbinding van het Exemplaar ![ verbindingsmening van het Exemplaar ](assets/copy-link-view.png) om de verbinding aan uw klembord te kopiëren.**
 
 1. Voer manueel een datum in, of gebruik de kalender op het **gebied van de Vervaldatum van de Verbinding** om een vervaldatum voor de openbare verbinding te selecteren. De weergave van de recordpagina is na de geselecteerde datum niet toegankelijk.
 
 1. Klik **sparen**.
 
-   De weergave wordt bijgewerkt met een algemeen pictogram ![](assets/public-shared-view-icon-highlighted.png) om aan te geven dat de weergave openbaar wordt gedeeld.
+   De meningsupdates met een globaal pictogram ![ Openbaar gedeeld meningspictogram benadrukte ](assets/public-shared-view-icon-highlighted.png) om erop te wijzen dat de mening openbaar wordt gedeeld.
 
    >[!TIP]
    >
@@ -289,16 +285,16 @@ Gebruikers die een koppeling openen naar een weergave waarvoor zij geen machtigi
 1. (Voorwaardelijk) Als u de manager van een mening bent, zou u een verzoek van een andere gebruiker kunnen ontvangen om tot de mening op de volgende gebieden toegang te hebben:
 
    * Een melding in de app
-     ![](assets/in-app-notification-for-access-request-for-view.png)
+     ![ In-app bericht voor toegangsverzoek voor mening ](assets/in-app-notification-for-access-request-for-view.png)
    * Een e-mailmelding
-     ![](assets/in-app-notification-for-access-request-for-view.png)
+     ![ In-app bericht voor toegangsverzoek voor mening ](assets/in-app-notification-for-access-request-for-view.png)
 1. (Voorwaardelijk) Klik in het systeemvak in Workfront op de melding in de app.
 of
 Van het e-mailbericht, klik **Mening alle berichten**, dan klik het bericht in de lijst.
 
    De **hangende toegangsverzoeken** vakvertoningen.
 
-   ![](assets/notifications-list-approval-box.png)
+   ![ de lijstgoedkeuringsdoos van Meldingen ](assets/notifications-list-approval-box.png)
 1. (Optioneel) Voor de gebruiker wiens machtigingen u wilt goedkeuren, selecteert u een van de volgende opties in het vervolgkeuzemenu rechts van de gebruikersnaam:
    * **Mening**
    * **leiden**
@@ -312,7 +308,7 @@ Van het e-mailbericht, klik **Mening alle berichten**, dan klik het bericht in d
 {{step1-to-planning}}
 
 1. Open de werkruimte waarvan u de weergave niet meer wilt delen en klik op een opnametype-kaart. Hierdoor wordt de pagina met recordtypen geopend.
-1. Beweeg over de lusjenaam van de mening u het delen uit wilt verwijderen en **Meer** menu ![](assets/more-menu.png) klikken, dan **Aandeel** klikken.
+1. Beweeg over de lusjenaam van de mening u het delen uit wilt verwijderen en **Meer** menu ![ ](assets/more-menu.png) klikken Meer menu, dan **Aandeel** klikken.
 1. Ga als volgt te werk om het interne delen van een weergave te verwijderen:
 
    1. Verzeker het **Interne delen** lusje wordt geselecteerd.

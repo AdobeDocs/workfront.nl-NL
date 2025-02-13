@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 0a7bb953e7e02e24857bfb7ff671538e184bda17
+source-git-commit: ddcefb0baf10df9ae9ac3b29d7da1e2a070101c8
 workflow-type: tm+mt
-source-wordcount: '7694'
+source-wordcount: '7828'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 <!--Audited: 07/2024-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 <!--
 <p>***Linked to many articles,</p>
@@ -170,7 +170,7 @@ Voor informatie over het creëren van een project van een malplaatje, zie [ een 
    * [ Montages van de Uitgave ](#issue-settings)
    * [Toegang](#access)
    * [ Gekoppelde omslagen ](#linked-folders-conditional-availability) (voorwaardelijke beschikbaarheid)
-     <!--* <span class="preview">[Comment](#comment)</span>-->
+   * <span class="preview">[ Commentaar ](#comment)</span>
 
 
    >[!NOTE]
@@ -684,22 +684,19 @@ Voor instructies bij het uitgeven van Gekoppelde omslagen, zie [ werkschemawaard
 >
 >Omdat gekoppelde mappen worden gemaakt wanneer het project wordt gemaakt, is het bewerken van de gekoppelde mapworkflow voor een bestaand project niet effectief. Deze waarden bewerken wanneer u projectfuncties maakt zoals u had verwacht.
 
-<!--
 <div class="preview">
 
-### Comment
+### Opmerking
 
-1. Begin editing your project as described above.
-1. Click **Comment** in the left panel.
+1. Bewerk uw project zoals hierboven beschreven.
+1. Klik **Commentaar** in het linkerpaneel.
 
-   ![project-comment-in-edit-project-box](assets/project-comment-in-edit-project-box.png)
+   ![ project-commentaar-in-geef-project-doos ](assets/project-comment-in-edit-project-box.png)
 
-1. Add a comment in the space provided. Workfront adds the comment in the Updates area of the project. For more information about updating work, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. Click **Save**. 
+1. Voeg een opmerking toe aan de beschikbare ruimte. Workfront voegt de opmerking toe in het gedeelte Updates van het project. Voor meer informatie over het bijwerken van het werk, zie [ het werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. Klik **sparen**.
 
 </div>
-
--->
 
 ## Een project bewerken in de projectheader (beperkt)
 
@@ -824,7 +821,7 @@ Voor meer informatie over het uitgeven van het gebied van de Montages van de Taa
 Voor meer informatie over het uitgeven van het gebied van de Montages van de Uitgave, zie de sectie [ Montages van de Uitgave ](#issue-settings) in dit artikel.
 1. Klik **Toegang** om de toegangsmontages voor alle geselecteerde projecten uit te geven.
 Voor meer informatie over het uitgeven van het gebied van de Toegang, zie de sectie [ Toegang ](#access) in dit artikel.
-   <!--1. <span class="preview">Click **Comment**, then add a comment in the space provided. Workfront adds the comment in the **Updates** area of each project. For information about updating work, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).</span>-->
+1. <span class="preview"> klik **Commentaar**, dan voeg een commentaar in de verstrekte ruimte toe. Workfront voegt de commentaar in het **** gebied van Updates van elk project toe. Voor informatie over het bijwerken van het werk, zie [ Werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).</span>
 1. (Facultatief) om het even welke informatie te verwijderen u in de Edit doos van Projecten toevoegde, beweegt over een uitgegeven gebied, dan klik **x** verwerpen pictogram aan het hoger-recht van het gebied.
 
    ![ verwerp pictogram voor gebied uitgeeft projecten in bulk ](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)
