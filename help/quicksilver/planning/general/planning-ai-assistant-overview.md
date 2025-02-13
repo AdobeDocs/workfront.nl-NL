@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 6e772ed53cca2fe3756fc15b715693b8b1fbef34
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '764'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Adobe Workfront Planning AI Assistant - overzicht
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 
 {{planning-important-intro}}
@@ -45,6 +45,8 @@ De bevelen van de gebruiker en de uitvoering van AI van die bevelen werken samen
 
 * Met opdrachten kunt u handelingen ongedaan maken. U kunt bijvoorbeeld &quot;Laatste wijziging ongedaan maken&quot; typen om de wijziging ongedaan te maken.
 
+* <span class="preview"> Wanneer u een object maakt, bijwerkt of verwijdert via AI Assistant, geeft AI Assistant de beoogde acties weer en wordt om bevestiging gevraagd. U kunt de acties vervolgens bevestigen of annuleren. </span>
+
 ## Momenteel beschikbare functionaliteit voor de AI-assistent
 
 Momenteel is de AI Assistant beschikbaar in het planningsgebied van Workfront voor de volgende pagina&#39;s:
@@ -59,7 +61,7 @@ Met de AI-assistent kunt u op dit moment de volgende handelingen uitvoeren:
 * Records maken. Een id met een koppeling naar de nieuwe record wordt weergegeven nadat de record is gemaakt. U kunt opgeven welke velden u wilt bijwerken tijdens het maken, zoals datums of beschrijving.
 * Maak records op basis van een document dat u uploadt. Workfront ondersteunt de volgende documentindelingen voor de AI Assistant:
 
-  .pptx, .pdf, .docx, .xlsx, .ppt, .doc, .txt en de meeste afbeeldingsindelingen
+  PPTX, PDF, DOCX, XLSX, PPT, DOC, TXT en de meeste afbeeldingsindelingen
 * Velden bijwerken voor de records die u op het scherm ziet
 * Records verwijderen
 * Recten herstellen die u zojuist hebt verwijderd
