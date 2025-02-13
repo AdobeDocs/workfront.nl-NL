@@ -2,20 +2,20 @@
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
 title: Installeren en openen  [!DNL Adobe Workfront for design and video]
-description: U kunt  [!DNL Adobe Workfront for design and video]  van de Marketplace van de Adobe installeren.
+description: U kunt  [!DNL Adobe Workfront for design and video]  van de Marketplace van Adobe installeren.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 9473926f1b90f4e76c82b7e5dd15c50a667102df
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '631'
 ht-degree: 0%
 
 ---
 
 # Installeren en openen [!DNL Adobe Workfront for design and video]
 
-U kunt [!DNL Adobe Workfront for design and video] installeren vanaf [!DNL Adobe Marketplace] . Deze plug-in ondersteunt de volgende Creatives Cloud:
+U kunt [!DNL Adobe Workfront for design and video] installeren vanaf [!DNL Adobe Marketplace] . Deze plug-in ondersteunt de volgende Creative Cloud-toepassingen:
 
 {{cc-plugin-app-list}}
 
@@ -57,7 +57,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> -->
   <tr> 
    <td role="rowheader">Product</td> 
-   <td><p>U moet een [!DNL Adobe Creative Cloud] licentie hebben naast een [!DNL Workfront] licentie.</p><p>Voor meer informatie, zie <a href="https://helpx.adobe.com/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}"> Beleid van de Steun van het Creative Cloud </a>.</p></td> 
+   <td><p>U moet een [!DNL Adobe Creative Cloud] licentie hebben naast een [!DNL Workfront] licentie.</p><p>Voor meer informatie, zie <a href="https://helpx.adobe.com/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}"> het Beleid van de Steun van Creative Cloud </a>.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -82,7 +82,7 @@ Als u een [!DNL Adobe Admin Console] beheerder bent, kunt u [!DNL Adobe Workfron
 
 U kunt [!DNL Adobe Workfront for design and video] voor uzelf installeren vanuit de map [!DNL Adobe Exchange] .
 
-1. Ga naar [ Adobe Workfront voor Ontwerp en Video installeert pagina ](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&amp;workflow=share) op de Adobe Exchange.
+1. Ga naar [ Adobe Workfront voor Ontwerp en Video installeert pagina ](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&amp;workflow=share) op Adobe Exchange.
 1. In de dialoog die verschijnt, klik **Open [!DNL Adobe Creative Cloud] Desktop app**.
 1. Klik op **[!UICONTROL Install]** als [!DNL Adobe Creative Cloud] Plug-inbeheer wordt geopend.
 1. Lees de informatie in het dialoogvenster en klik op **[!UICONTROL OK]** .
@@ -92,7 +92,7 @@ U kunt [!DNL Adobe Workfront for design and video] voor uzelf installeren vanuit
 
 ## Openen [!DNL Adobe Workfront for design and video]
 
-1. Open de Creative Cloud plug-in die u wilt gebruiken.
+1. Open de Creative Cloud-insteekmodule die u wilt gebruiken.
 
 1. Maak een nieuw project of open een bestaand project.
 
@@ -107,7 +107,7 @@ U kunt [!DNL Adobe Workfront for design and video] voor uzelf installeren vanuit
 
    >[!TIP]
    >
-   >Als u [!DNL Adobe Workfront for design and video] niet ziet nadat u deze hebt geopend in het menu Extensies, bevindt deze zich mogelijk achter de Creative Cloud-app. Probeer de toepassing te minimaliseren om de plug-in te vinden.
+   >Als u [!DNL Adobe Workfront for design and video] niet ziet nadat u deze hebt geopend in het menu Extensies, bevindt deze zich mogelijk achter de Creative Cloud-toepassing. Probeer de toepassing te minimaliseren om de plug-in te vinden.
 
 1. Ga naar de volgende sectie voor informatie over hoe u zich aanmeldt bij [!DNL Adobe Workfront for design and video] .
 
@@ -123,7 +123,7 @@ U kunt [!DNL Adobe Workfront for design and video] voor uzelf installeren vanuit
    >* Als u uw domein wilt zoeken, opent u een browser, navigeert u naar de instantie [!DNL Workfront] en kopieert u het eerste deel van de URL:\
    >![ plaats van domein ](assets/domain-350x50.png)
    >
-   > * Als uw Workfront-exemplaar is geïntegreerd met Experience Cloud, vraagt u uw beheerder om u het Workfront-domein te verschaffen dat u kunt vinden onder Product > Workfront in de Admin Console.
+   > * Als uw Workfront-exemplaar is geïntegreerd met Experience Cloud, vraagt u uw beheerder om het Workfront-domein dat u kunt vinden onder Product > Workfront in de Admin Console.
 
 1. Voer in de browser uw [!DNL Workfront] -gegevens in en klik op **[!UICONTROL Log in]** . Als uw bedrijf één enkel teken-op (SSO) gebruikt, zult u aan de pagina van uw leverancier worden geleid SSO om zich aan te melden.
 
@@ -141,3 +141,25 @@ U kunt [!DNL Adobe Workfront for design and video] voor uzelf installeren vanuit
 1. Klik op **[!UICONTROL Allow Access]** om het aanmelden te voltooien.
 1. Ga terug naar [!DNL Adobe Photoshop] om uw werk te bekijken.
 
+### Problemen met aanmeldfouten oplossen
+
+**Er is iets fout gegaan en er wordt een fout weergegeven bij het aanmelden**
+
+
+U kunt een URL die begint met `experience.adobe.com` niet gebruiken om u aan te melden bij de plug-in.
+
+![ login fout ](assets/plugin-log-in-error.png) ![ domein ](assets/incorrect-domain.png)
+
+
+U kunt dit probleem als volgt oplossen:
+
+1. Verwijder de map waarin het domein voor de plug-in is opgeslagen.
+
+   >[!TIP]
+   >
+   >Voor Mac, ga naar Vinder, druk **Command+Shift+.** om verborgen omslagen te tonen, navigeer aan **/Users//Library/Application Support**, dan schrap de **Workfront** omslag.
+
+
+1. Ga terug naar de plug-in en voer uw Workfront-domein in. Het domein moet `company-name.my.workfront.com` zijn en niet `experience.adobe.com`.
+
+   Om [ uw domein van Workfront ](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md) te vinden als u op de Adobe Verenigde Ervaring bent, ga naar Opstelling, de info van de Klant.

@@ -6,9 +6,9 @@ description: U kunt een document voorvertonen vanuit het gebied Documenten. Dit 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1e12003d-4ea6-4449-9536-05feca793c44
-source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
+source-git-commit: f8ce7b64b117b709328be982339fd28ef4a741a7
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
@@ -54,8 +54,20 @@ U moet het volgende hebben:
 
 ## Een voorbeeld van een document bekijken
 
+U kunt een voorvertoning van een document weergeven in Workfront.
+
 1. In een documentlijst, houd de muisaanwijzer boven de rij die het document bevat en klik vervolgens op **Documentdetails** .
 1. Klik op de pagina die wordt weergegeven op de miniatuurafbeelding van het document.
 
    * Als u het document niet hebt voorbereid voor revisie, wordt het weergegeven in een nieuw browsertabblad.
    * Als u het document hebt voorbereid voor revisie, wordt de proefdrukviewer geopend en weergegeven.
+
+De volgende bestandsindelingen kunnen niet worden weergegeven in het voorvertoningsvenster:
+
+* .mp4
+* .gif
+* .jpeg
+* .png
+* .tiff
+* .plain
+* .pdf

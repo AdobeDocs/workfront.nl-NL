@@ -2,20 +2,20 @@
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
 title: Adobe Workfront voor XD installeren en openen
-description: U kunt de Adobe Workfront for XD plug-in installeren via de Adobe Marketplace.
+description: U kunt de Adobe Workfront for XD-insteekmodule installeren vanaf de Adobe Marketplace.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: a5c4479833243bb5817196a3af8acaa063a16747
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
 
 # Installeren en openen [!DNL Adobe Workfront for XD]
 
-U kunt de plug-in [!DNL Adobe Workfront for XD] installeren via de Adobe Marketplace. De plug-in ondersteunt de volgende talen:
+U kunt de plug-in [!DNL Adobe Workfront for XD] installeren vanaf de Adobe Marketplace. De plug-in ondersteunt de volgende talen:
 
 * Engels
 * Frans
@@ -50,7 +50,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> -->
   <tr> 
    <td role="rowheader">Product</td> 
-   <td><p>U moet een [!DNL Adobe Creative Cloud] licentie hebben naast een [!DNL Workfront] licentie.</p><p>Voor meer informatie, zie <a href="https://helpx.adobe.com/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}"> Beleid van de Steun van het Creative Cloud </a>.</p></td> 
+   <td><p>U moet een [!DNL Adobe Creative Cloud] licentie hebben naast een [!DNL Workfront] licentie.</p><p>Voor meer informatie, zie <a href="https://helpx.adobe.com/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}"> het Beleid van de Steun van Creative Cloud </a>.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -75,7 +75,7 @@ Als u een [!DNL Adobe Admin Console] -beheerder bent, kunt u de plug-in opnemen 
 
 U kunt de [!DNL Adobe Workfront for XD] -insteekmodule voor uzelf installeren vanuit de [!DNL Adobe Exchange] .
 
-1. Ga naar [ Adobe Workfront voor XD installeer pagina ](https://exchange.adobe.com/apps/cc/4c3566f9?pluginId=4c3566f9&amp;workflow=share) op de Adobe Exchange.
+1. Ga naar [ Adobe Workfront voor XD installeert pagina ](https://exchange.adobe.com/apps/cc/4c3566f9?pluginId=4c3566f9&amp;workflow=share) op Adobe Exchange.
 1. In de dialoog die verschijnt, klik **Open [!DNL Adobe Creative Cloud] Desktop app**.
 1. Klik op **[!UICONTROL Install]** als [!DNL Adobe XD] Plug-inbeheer wordt geopend.
 1. Lees de informatie in het dialoogvenster en klik op **[!UICONTROL OK]** .
@@ -89,7 +89,7 @@ U kunt de [!DNL Adobe Workfront for XD] -insteekmodule voor uzelf installeren va
 
 1. In de bodem-linkerhoek, klik het **Plugins** pictogram.
 
-![ XD insteekmodulevenster ](assets/xd-plugin-window-350x620.png)
+![ XD plugin venster ](assets/xd-plugin-window-350x620.png)
 
 1. Zoek **[!UICONTROL Adobe Workfront for XD]** in de **[!UICONTROL Plugins Panel]** .
 
@@ -105,7 +105,7 @@ U kunt de [!DNL Adobe Workfront for XD] -insteekmodule voor uzelf installeren va
    >* Als u uw domein wilt zoeken, opent u een browser, navigeert u naar de instantie [!DNL Workfront] en kopieert u het eerste deel van de URL:\
    >![ plaats van domein ](assets/domain-350x50.png)
    >
-   > * Als uw Workfront-exemplaar is geïntegreerd met Experience Cloud, vraagt u uw beheerder om u het Workfront-domein te verschaffen dat u kunt vinden onder Product > Workfront in de Admin Console.
+   > * Als uw Workfront-exemplaar is geïntegreerd met Experience Cloud, vraagt u uw beheerder om het Workfront-domein dat u kunt vinden onder Product > Workfront in de Admin Console.
 
 1. Voer in de browser uw [!DNL Workfront] -gegevens in en klik op **[!DNL Log in]** . Als uw bedrijf één enkel teken-op (SSO) gebruikt, zult u aan de pagina van uw leverancier worden geleid SSO om zich aan te melden.
 
@@ -122,4 +122,20 @@ U kunt de [!DNL Adobe Workfront for XD] -insteekmodule voor uzelf installeren va
 
 1. Klik op **[!UICONTROL Allow Access]** om uw aanmelding te voltooien en ga terug naar [!DNL Adobe XD] om uw werk te bekijken.
 
- 
+### Problemen met aanmeldingsfouten oplossen
+
+**Er is iets fout gegaan en er wordt een fout weergegeven bij het aanmelden**
+
+
+U kunt een URL die begint met `experience.adobe.com` niet gebruiken om u aan te melden bij de plug-in.
+
+![ login fout ](assets/plugin-log-in-error.png) ![ domein ](assets/incorrect-domain.png)
+
+
+U kunt dit probleem als volgt oplossen:
+
+1. Verwijder de Adobe Workfront for XD-plug-in en installeer deze opnieuw om het domein en de fout te wissen.
+
+1. Voer uw Workfront-domein in. Het domein moet `company-name.my.workfront.com` zijn en niet `experience.adobe.com`.
+
+Ga naar
