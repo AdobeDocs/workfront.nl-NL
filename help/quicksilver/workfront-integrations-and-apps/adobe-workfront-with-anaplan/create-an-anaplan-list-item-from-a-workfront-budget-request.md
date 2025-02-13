@@ -6,9 +6,9 @@ description: Dit integratiescenario verbindt een  [!DNL Adobe Workfront]  projec
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: e6505ece-21aa-4397-8d68-543bf89d2f00
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: d6fd224fb8a7b8094946814ae905bc0ff6e8223c
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Dit scenario wordt gepland om de 15 minuten uit te voeren.
 
 U moet het volgende in [!DNL Workfront] hebben om dit scenario te gebruiken:
 
-* Een gebruikersprofiel in [!DNL Workfront] genoemd * [!UICONTROL *[!DNL Anaplan] Integration] ***, dat systeembeheerderrechten heeft.
+* Een gebruikersprofiel in [!DNL Workfront] genoemd **[!DNL Anaplan]Integratie**, dat systeembeheerderrechten heeft.
 
   Voor informatie bij het creëren van een gebruiker in [!DNL Workfront], zie [ gebruikers ](../../administration-and-setup/add-users/create-and-manage-users/add-users.md) toevoegen.
 

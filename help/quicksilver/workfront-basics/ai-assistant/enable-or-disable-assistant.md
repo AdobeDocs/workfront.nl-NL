@@ -5,9 +5,9 @@ description: U kunt bepalen welke toegangsniveaus in uw organisatie toegang hebb
 author: Becky
 feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: 88efd929f48ba73993a2bb503b6c3fa3420f90d2
+source-git-commit: d6fd224fb8a7b8094946814ae905bc0ff6e8223c
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,10 @@ AI Assistant uitschakelen voor een bepaald toegangsniveau:
 1. Selecteer **Niveaus van de Toegang** in de linkernavigatie.
 1. Selecteer het toegangsniveau waarvoor u AI Medewerker wilt toelaten.
 1. In het Edit venster van het Niveau van de Toegang, scrol neer aan de bodem van het venster en klik **Reeks extra beperkingen...**.
-1. In het Vastgestelde extra beperkingsgebied, laat de optie **toe onbruikbaar maakt de Medewerker van Workfront AI**.
+1. In het Vastgestelde extra beperkingsgebied, laat de optie **toe onbruikbaar maakt AI Eigenschappen**.
 1. Klik **sparen**.
 1. Herhaal stap 3-6 voor elk toegangsniveau waarvoor u AI medewerker wilt onbruikbaar maken.
 
+>[!NOTE]
+>
+>Wanneer AI-functies aan Workfront worden toegevoegd, zullen sommige AI-functies de basis vormen voor de werking van Workfront. De mogelijkheid om alle AI-functies uit te schakelen wordt in de nabije toekomst waarschijnlijk verouderd.
