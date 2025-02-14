@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
+source-git-commit: 7b40bd67529e62e7b08ba3076a707ba14edd6824
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 0%
@@ -24,7 +24,9 @@ Voor een lijst van alle veranderingen beschikbaar met het Tweede Kwartaal 2025 v
 >
 >Voorvertoningsrelease: 13 februari 2025; Productieversie voor alle klanten: 13 februari 2025
 
-E-mails die betrekking hebben op het toevoegen of delen van documenten, hebben niet langer een miniatuurafbeelding in de hoofdtekst van de e-mail. Sommige klanten zullen ook de erfenistaak zien en geven toewijding e-mail uit, die slechts avatar van de ontvanger toont.
+E-mails die betrekking hebben op het toevoegen of delen van documenten, hebben niet langer een miniatuurafbeelding in de hoofdtekst van de e-mail.
+
+Sommige klanten zullen ook de erfenistaak zien en geven toewijding e-mail uit, die slechts avatar van de ontvanger toont.
 
 Deze wijzigingen zijn tijdelijk omdat we vertragingen in e-mailberichten onderzoeken.
 
