@@ -6,9 +6,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f39a091-aec2-4013-a835-0ab1c8789dc3
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 3c8438fef3333c5f7ceab7b19b6755d4e4246cb9
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '614'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Sommige gebeurtenismeldingen hebben meerdere onderwerpregel&#39;s, afhankelijk v
 
 &#39;Iemand neemt mij bijvoorbeeld op in een gestuurde update&#39; heeft twee verschillende onderwerpregel: ten eerste voor taken, uitgaven, sjabloontaken en documenten (ook wel &#39;referenceObject&#39; genoemd) en ten tweede voor objecten waarmee gebruikers opmerkingen kunnen maken, zoals een portfolio, programma, enzovoort (ook wel &#39;topReferenceObject&#39; genoemd).
 
-![ Gebeurtenis niet veelvoudige onderwerplijnen ](assets/Ev-not-mult-subj-lines.png)
+![ Gebeurtenis niet veelvoudige onderwerplijnen ](assets/ev-multiple-subject.png)
 
 Als een gebruiker in een gesprek over de taak, de kwestie, de malplaatjetaak, of het document inbegrepen is, zal een e-mail met de eerste onderwerpregel produceren. De onderwerpregel bevat &quot;referenceObject:name&quot; en het systeem definieert het object en geeft de juiste naam weer in het onderwerpveld. De e-mailonderwerpregel zou er ongeveer als volgt uitzien: &quot;Opmerking bij taak 123 op project ABC.&quot;
 
@@ -96,6 +96,8 @@ Sommige gebeurtenismeldingen hebben ook meerdere e-mailonderwerpen om de verschi
 
 Het aanvragen van een document om aan een uitgave toe te voegen, is bijvoorbeeld een gebeurtenis die twee verschillende e-mails kan activeren: een gebeurtenis die aangeeft wanneer het document wordt toegevoegd en een gebeurtenis die aangeeft wanneer het document wordt bewerkt.
 
-![ Gebeurtenis verschillende acties ](assets/ev-not-mult-subj-lines-diff-actions.png)
+
+
+![ Gebeurtenis niet veelvoudige onderwerplijnen ](assets/Ev-not-mult-subj-lines.png)
 
 Om de e-mailonderwerplijnen uit te geven en extra gebieden aan één van beide onderwerplijnen toe te voegen, zie [ onderwerplijnen e-mail voor gebeurtenisberichten ](#customize-email-subject-lines-for-event-notifications) in dit artikel aanpassen.
