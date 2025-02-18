@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
+source-git-commit: 597d8db034269e673dbe46e8c0f4934bf9509e2f
 workflow-type: tm+mt
-source-wordcount: '1562'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,10 @@ U kunt records maken door een van de volgende handelingen uit te voeren:
 * [Een lijst met records uit een externe lijst kopiëren en plakken](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [Records dupliceren vanuit een tabelweergave](#create-records-by-duplicating-them)
 * [Records maken terwijl u deze verbindt met andere records](#create-records-as-you-connect-them)
-* [Maak ze door een aanvraagformulier naar een recordtype te verzenden](#create-records-by-submitting-a-request-form-to-a-record-type)
+* [Records maken door een aanvraagformulier naar een recordtype te verzenden](#create-records-by-submitting-a-request-form-to-a-record-type)
 * [Records maken bij het importeren van recordtypen uit een CSV- of Excel-bestand](#create-records-when-importing-record-types-from-a-csv-or-excel-file)
+
+<!--* <span class="preview">[Create records by using automations](#create-records-by-using-automations)</span>-->
 
 
 Raadpleeg de volgende artikelen voor informatie over het beheren van records in de tabel- of tijdlijnweergaven:
@@ -78,7 +80,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-platform</p></td> 
    <td> 
-<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden genegeerd om tot alle mogelijkheden van de Planning van Workfront te kunnen toegang hebben.</p> 
+<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden bezeten om tot alle mogelijkheden van de Planning van Workfront toegang te hebben.</p> 
 <p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
    </td> 
    </tr> 
@@ -137,9 +139,9 @@ Alle records van het geselecteerde type worden in de weergave weergegeven.
       * Klik **Nieuw verslag** in de laatste rij van de lijst
 
       * Klik **Verschuiving + gaat** op uw toetsenbord van om het even welke kolom of rij van de lijst binnen. Hiermee voegt u een lege rij toe onder de record waaruit u begint.
-      * Beweeg over het primaire gebied van een verslag, klik **Meer** menu ![](assets/more-menu.png) aan het recht van het gebied, dan klik **verslag van het Tussenvoegsel hierboven** of **hieronder verslag van het Tussenvoegsel**.
+      * Beweeg over het primaire gebied van een verslag, klik **Meer** menu ![ Meer menu ](assets/more-menu.png) aan het recht van het gebied, dan klik **verslag van het Tussenvoegsel boven** of **hieronder verslag van het Tussenvoegsel**.
 
-     ![](assets/adding-a-new-campaign-in-table-row.png)
+     ![ Toevoegend een nieuwe campagne in lijstrij ](assets/adding-a-new-campaign-in-table-row.png)
 
    * Vanuit elke weergave:
 
@@ -162,14 +164,14 @@ Alle records van het geselecteerde type worden in de weergave weergegeven.
 
    of
 
-   Klik de naam van het nieuwe verslag of **Open details** pictogram ![](assets/open-details-icon-in-table-name-field.png) links van de verslagnaam. In de tabel wordt een voorvertoning geopend met de gedetailleerde informatie van de record.
+   Klik de naam van het nieuwe verslag of **Open detailleert** pictogram ![ Open detailspictogram op het gebied van de lijstnaam ](assets/open-details-icon-in-table-name-field.png) links van de verslagnaam. In de tabel wordt een voorvertoning geopend met de gedetailleerde informatie van de record.
 
    >[!TIP]
    >
    >U kunt tot het **Open pictogram van Details** slechts van het naamgebied van het verslag toegang hebben wanneer het gebied van de Naam een primair gebied is.
 
 1. Bewerk de recordgegevens in de voorvertoning van de record. Workfront slaat uw wijzigingen automatisch op.
-1. (Facultatief) klik **Open in nieuw lusje** pictogram ![](assets/open-details-in-a-new-tab-icon.png) in de hoger-juiste hoek van de voorproef van het verslag om de pagina van het verslag in een nieuw lusje te openen. Ga door met het bewerken van de record op de recordpagina. Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.
+1. (Facultatief) klik **Open in nieuw lusje** pictogram ![ Open details in een nieuw lusjepictogram ](assets/open-details-in-a-new-tab-icon.png) in de hoger-juiste hoek van de voorproef van het verslag om de pagina van het verslag in een nieuw lusje te openen. Ga door met het bewerken van de record op de recordpagina. Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.
 
 1. (Optioneel) Gebruik de volgende sneltoetsen om nieuwe records of de bijbehorende informatie ongedaan te maken of opnieuw toe te voegen wanneer u deze in de tabelweergave toevoegt:
 
@@ -263,7 +265,7 @@ Om verslagen tot stand te brengen aangezien u hen van andere verslagen verbindt:
 
    <!--remove the first part of the step above to say just Click Add when the button will be persistent, for preview and production-->
 
-   ![](assets/add-button-to-create-records-in-context-highlighted.png)
+   ![ voeg knoop toe om verslagen in benadrukte context te creëren ](assets/add-button-to-create-records-in-context-highlighted.png)
 
    De record wordt gemaakt en toegevoegd aan het verbonden recordveld.
 
@@ -297,3 +299,17 @@ U kunt records importeren wanneer u recordtypen importeert met een CSV- of Excel
 
 Voor informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
 
+<!--
+<div class="preview">
+
+## Create records by using automations
+
+You can configure automations in Workfront Planning that, when activated, create records when triggered from a Planning record. The created records are automatically connected to the records you are triggering the automation from.
+
+You can configure and activate the automation in the record's page in Workfront Planning. The connected record that is created is placed in the connected field of the record type you run the automation from.
+
+For information, see [Create objects using Adobe Workfront Planning record automations](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md). 
+
+</div>
+
+-->

@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 98040582995af736d3716e24c7530dd4cda4d3a6
+source-git-commit: f6484489f4726b606cc9840beed77ec8ab48a518
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ In de volgende tabel staan de limieten voor het aantal objecten dat u kunt maken
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 | Aantal werkruimten voor één Workfront-instantie | onbeperkt* |
 | Aantal secties voor één werkruimte | 50 |
-| Aantal recordtypen voor één werkruimte | 1.000 (dit omvat recordtypen van alle secties en die die wanneer het gebruiken van een werkruimtesjabloon worden gecreeerd) |
+| Aantal recordtypen voor één werkruimte | 100 (dit omvat recordtypen van alle secties en die die worden gecreeerd wanneer het gebruiken van een werkruimtesjabloon) |
 | Aantal records voor één recordtype | 25.000 |
 | Aantal records voor één werkruimte | 25.000 voor klanten met Planning <br> 500.000 voor klanten met Planning Plus |
 | Aantal totale records voor één instantie van Workfront Planning | 500.000 voor klanten met Planning <br> 2 miljoen voor klanten met Planning plus |
