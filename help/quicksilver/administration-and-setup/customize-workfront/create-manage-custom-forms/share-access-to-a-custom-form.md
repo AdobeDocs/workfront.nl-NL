@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: 2a356b2cc98f8226d2a616cdd907a3aebaeecee0
 workflow-type: tm+mt
-source-wordcount: '1419'
+source-wordcount: '1530'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,11 @@ Eerder dan het verlaten van een douanevorm in het gebrek delend staat (die in [ 
     <tbody> 
      <tr> 
       <td role="rowheader">Weergeven</td> 
-      <td> <p>U kunt het aangepaste formulier weergeven en invullen op objecten.</p> <p><b> NOTA </b>: Voor gebruikers met Lichte en Medewerker vergunningen (of het Werk, het Overzicht, en de vergunningen van het Verzoek), is dit de hoogste beschikbare optie.</p> <p>Klik <strong> Geavanceerde Montages </strong> om te specificeren of u het volgende wilt toestaan:</p> 
+      <td> <p>Met deze optie kunt u het aangepaste formulier weergeven en invullen op objecten. Op het objecten niveau, moeten de gebruikers minstens Contribute toegang met <strong> hebben uitgeeft de geavanceerd plaatsen van de douanevorm </strong>. Als het formulier bijvoorbeeld is gekoppeld aan een project, moeten gebruikers Contribute-toegang hebben tot dat project, anders kunnen ze het formulier niet invullen.</p>
+
+   <p><b> NOTA </b>: Voor gebruikers met Lichte en Medewerker vergunningen (of het Werk, het Overzicht, en de vergunningen van het Verzoek), is dit de hoogste beschikbare optie.</p>
+
+   <p>Klik <strong> Geavanceerde Montages </strong> om te specificeren of u het volgende wilt toestaan:</p> 
        <ul> 
         <li><strong> Band aan douanegegevens </strong>: Mogelijkheid om de douanevorm aan projecten, taken, en kwesties vast te maken waarvoor zij hebben leiden toegang</li> 
         <li> <p><strong> Aandeel </strong>: Mogelijkheid om de douanevorm met anderen in het systeem te delen</p> <p>Gebruikers met een licentie voor licht of contribuant (of een licentie voor werken, revisie of aanvragen) kunnen een aangepast formulier alleen delen via de API of een aangepast formulierrapport.</p> </li>
@@ -85,7 +89,7 @@ Eerder dan het verlaten van een douanevorm in het gebrek delend staat (die in [ 
      </tr> 
      <tr> 
       <td role="rowheader">Beheren</td> 
-      <td> <p>Alleen beschikbaar voor gebruikers met een Standard- of Plan-licentie. </p> <p>Gebruikers kunnen het formulier niet alleen toevoegen aan objecten die ze kunnen bewerken, maar kunnen ook het aangepaste formulier volledig bewerken, zoals velden toevoegen, bewerken en verwijderen.</p> <p>Klik <strong> Geavanceerde Montages </strong> om te specificeren of u het volgende wilt toestaan:</p> 
+      <td> <p>Deze optie is alleen beschikbaar voor gebruikers met een Standard- of Plan-licentie. </p> <p>Gebruikers kunnen het formulier niet alleen toevoegen aan objecten die ze kunnen bewerken, maar kunnen ook het aangepaste formulier volledig bewerken, zoals velden toevoegen, bewerken en verwijderen.</p> <p>Klik <strong> Geavanceerde Montages </strong> om te specificeren of u het volgende wilt toestaan:</p> 
        <ul> 
         <li> <p><strong> Band aan douanegegevens </strong>: Mogelijkheid om de douanevorm aan projecten, taken, en kwesties vast te maken waarvoor zij hebben leiden toegang</p> </li> 
         <li><strong> Schrapping </strong>: Schrap de douanevorm van het systeem</li> 
@@ -127,7 +131,9 @@ Eerder dan het verlaten van een douanevorm in het gebrek delend staat (die in [ 
     <tbody> 
      <tr> 
       <td role="rowheader">Weergeven</td> 
-      <td> <p>U kunt het aangepaste formulier weergeven en invullen op objecten.</p> <p><b> NOTA </b>: Voor gebruikers met Lichte en Medewerker vergunningen (of het Werk, het Overzicht, en de vergunningen van het Verzoek), is dit de hoogste beschikbare optie.</p> <p>Klik <strong> Geavanceerde Montages </strong> om te specificeren of u het volgende wilt toestaan:</p> 
+      <td> <p>Met deze optie kunt u het aangepaste formulier weergeven en invullen op objecten. Op het objecten niveau, moeten de gebruikers minstens Contribute toegang met <strong> hebben uitgeeft de geavanceerd plaatsen van de douanevorm </strong>. Als het formulier bijvoorbeeld is gekoppeld aan een project, moeten gebruikers Contribute-toegang hebben tot dat project, anders kunnen ze het formulier niet invullen.</p>
+
+   <p><b> NOTA </b>: Voor gebruikers met Lichte en Medewerker vergunningen (of het Werk, het Overzicht, en de vergunningen van het Verzoek), is dit de hoogste beschikbare optie.</p> <p>Klik <strong> Geavanceerde Montages </strong> om te specificeren of u het volgende wilt toestaan:</p> 
        <ul> 
         <li><strong> Band aan douanegegevens </strong>: Mogelijkheid om de douanevorm aan projecten, taken, en kwesties vast te maken waarvoor zij hebben leiden toegang</li> 
         <li> <p><strong> Aandeel </strong>: Mogelijkheid om de douanevorm met anderen in het systeem te delen</p> <p>Gebruikers met een licentie voor licht of contribuant (of een licentie voor werken, revisie of aanvragen) kunnen een aangepast formulier alleen delen via de API of een aangepast formulierrapport.</p> </li>
@@ -135,7 +141,7 @@ Eerder dan het verlaten van een douanevorm in het gebrek delend staat (die in [ 
      </tr> 
      <tr> 
       <td role="rowheader">Beheren</td> 
-      <td> <p>Alleen beschikbaar voor gebruikers met een Standard- of Plan-licentie. </p> <p>Gebruikers kunnen het formulier niet alleen toevoegen aan objecten die ze kunnen bewerken, maar kunnen ook het aangepaste formulier volledig bewerken, zoals velden toevoegen, bewerken en verwijderen.</p> <p>Klik <strong> Geavanceerde Montages </strong> om te specificeren of u het volgende wilt toestaan:</p> 
+      <td> <p>Deze optie is alleen beschikbaar voor gebruikers met een Standard- of Plan-licentie. </p> <p>Gebruikers kunnen het formulier niet alleen toevoegen aan objecten die ze kunnen bewerken, maar kunnen ook het aangepaste formulier volledig bewerken, zoals velden toevoegen, bewerken en verwijderen.</p> <p>Klik <strong> Geavanceerde Montages </strong> om te specificeren of u het volgende wilt toestaan:</p> 
        <ul> 
         <li> <p><strong> Band aan douanegegevens </strong>: Mogelijkheid om de douanevorm aan projecten, taken, en kwesties vast te maken waarvoor zij hebben leiden toegang</p> </li> 
         <li><strong> Schrapping </strong>: Schrap de douanevorm van het systeem</li> 
