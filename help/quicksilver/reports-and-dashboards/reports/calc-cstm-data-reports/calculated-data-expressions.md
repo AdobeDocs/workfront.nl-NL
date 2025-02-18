@@ -7,9 +7,9 @@ description: U kunt gegevensexpressies gebruiken om berekende aangepaste gegeven
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: e66d4223b13bcd4813156f147769e7ee99c3f8ef
+source-git-commit: 6a46486b62974f1cc7033b4497d32ab787b05bf2
 workflow-type: tm+mt
-source-wordcount: '2425'
+source-wordcount: '2433'
 ht-degree: 0%
 
 ---
@@ -458,7 +458,8 @@ U kunt een berekend aangepast veld maken waarin een waarde met tekstopmaak wordt
   </tr> 
   <tr> 
    <td><strong> FORMAAT </strong> </td> 
-   <td><p>Retourneert opgemaakte tekst. Kleuropties zijn $$POSITIVE, $$INFORMATIVE, $$NEGATIVE, $$NOTICE en de andere opmaakopties zijn $$BOLD, $$ITALIC, $$UNDERLINE. Per functie mag slechts één kleuroptie worden gebruikt, samen met maximaal drie andere opmaakopties. Als er geen kleuroptie is opgegeven, wordt de standaardkleur van het systeem toegepast.</p>
+   <td><p>Retourneert opgemaakte tekst. Alleen de hier vermelde parameteropties zijn toegestaan met INDELING.</p>
+   <p>De kleuropties zijn $$POSITIVE, $$INFORMATIVE, $$NEGATIVE, $$NOTICE en de andere opmaakopties zijn $$BOLD, $$ITALIC, $$UNDERLINE. Er is slechts één kleuroptie toegestaan, samen met maximaal drie andere opmaakopties. Als er geen kleuroptie is opgegeven, wordt de standaardkleur van het systeem toegepast.</p>
    <p>De expressie wordt als volgt opgemaakt:</p>
    <p><code>FORMAT($$POSITIVE, $$BOLD, $$ITALIC)</code></p>
    <p>Opmerking: deze expressie wordt niet ondersteund in Workfront Planning.</p></td> 
