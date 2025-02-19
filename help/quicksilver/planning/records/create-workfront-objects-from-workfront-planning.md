@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 597d8db034269e673dbe46e8c0f4934bf9509e2f
+source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '854'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,8 @@ U kunt de volgende typen Workfront-objecten maken vanuit Workfront Planning wann
 U kunt projecten en portefeuilles <!--<span class="preview"> and programs </span>--> van een verbindingsgebied op de volgende gebieden van de Planning van Workfront verbinden:
 
 * De tabelweergave van een recordtype
-* De detailpagina of het voorvertoningsvak van een record
+* De pagina Details of het voorvertoningsvak van een record
+* Het tabblad Verbindingen van een record
 
 Voor informatie over het verbinden van verslagen van de Planning met de voorwerpen van Workfront, zie [ verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md).
 

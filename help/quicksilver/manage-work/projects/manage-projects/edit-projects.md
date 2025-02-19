@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: ddcefb0baf10df9ae9ac3b29d7da1e2a070101c8
+source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
 workflow-type: tm+mt
-source-wordcount: '7828'
+source-wordcount: '7703'
 ht-degree: 0%
 
 ---
@@ -169,7 +169,6 @@ Voor informatie over het creëren van een project van een malplaatje, zie [ een 
    * [ Montages van de Taak ](#task-settings)
    * [ Montages van de Uitgave ](#issue-settings)
    * [Toegang](#access)
-   * [ Gekoppelde omslagen ](#linked-folders-conditional-availability) (voorwaardelijke beschikbaarheid)
    * <span class="preview">[ Commentaar ](#comment)</span>
 
 
@@ -667,22 +666,6 @@ Voor informatie over hoe deze montages het creëren van nieuwe taken beïnvloede
    </table>
 
 1. Klik **sparen**.
-
-### Gekoppelde mappen (voorwaardelijke beschikbaarheid) {#linked-folders}
-
-De functionaliteit van een gekoppelde map maakt automatisch mappen in Adobe Experience Manager Assets en verbindt deze met Workfront.
-
-Deze sectie wordt alleen weergegeven als alle volgende opties van toepassing zijn:
-
-* Uw organisatie is gemigreerd naar de Adobe Admin Console
-* Uw organisatie heeft integratie met Adobe Experience Manager ingeschakeld en geconfigureerd
-* Het malplaatje dat wordt gebruikt om dit project tot stand te brengen heeft toegelaten en verbonden omslagen gevormd.
-
-Voor instructies bij het uitgeven van Gekoppelde omslagen, zie [ werkschemawaarden in een project ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project) in het artikel [ werkschema&#39;s van het Gebruik in de integratie van Experience Manager Assets ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md) uitgeven.
-
->[!NOTE]
->
->Omdat gekoppelde mappen worden gemaakt wanneer het project wordt gemaakt, is het bewerken van de gekoppelde mapworkflow voor een bestaand project niet effectief. Deze waarden bewerken wanneer u projectfuncties maakt zoals u had verwacht.
 
 <div class="preview">
 

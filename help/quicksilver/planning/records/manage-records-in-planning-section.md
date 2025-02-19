@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1475'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 <tr>
    <td role="rowheader"><p>Adobe Workfront-platform</p></td>
    <td>
-<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden genegeerd om tot alle mogelijkheden van de Planning van Workfront te kunnen toegang hebben.</p>
+<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden bezeten om tot alle mogelijkheden van de Planning van Workfront toegang te hebben.</p>
 <p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p>
    </td>
 
@@ -84,7 +84,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>
   <tr>
    <td role="rowheader"><p>Configuratie op toegangsniveau</p></td>
-   <td> <p>De mening of hogere toegang tot Projecten, Programma's, en Portfolio's</p>  
+   <td> <p>Toegang tot projecten, programma's en portfolio's weergeven of vergroten</p>  
 </td>
   </tr>
 <tr>
@@ -97,7 +97,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Om het planningsgebied of de sectie van de Planning voor een voorwerp van Workfront te bekijken, moeten alle gebruikers, met inbegrip van de beheerders van Workfront, een lay-outmalplaatje worden toegewezen dat het gebied van de Planning in het Belangrijkste Menu en het gebied van de Planning voor projecten, portefeuilles, en programma's omvat. </p> Voor meer informatie, zie <a href="/help/quicksilver/planning/access/access-overview.md"> Adobe plannend toegangsoverzicht </a>. </p>  </p>  
+   <td> <p>Om het planningsgebied of de sectie van de Planning voor een voorwerp van Workfront te bekijken, moeten alle gebruikers, met inbegrip van de beheerders van Workfront, een lay-outmalplaatje worden toegewezen dat het gebied van de Planning in het Belangrijkste Menu en het gebied van de Planning voor projecten, portefeuilles, en programma's omvat. </p> Voor meer informatie, zie <a href="/help/quicksilver/planning/access/access-overview.md"> Adobe die toegangsoverzicht van de Planning </a>. </p>  </p>  
 </td>
   </tr>
  </tbody>
@@ -172,7 +172,10 @@ De volgende dingen doen zich voor:
    * De record is niet meer verbonden met het Workfront-object.
    * Het Workfront-object wordt ook verwijderd uit het verbonden veld van de record uit Workfront Planning.
    * De waarden voor de opzoekvelden van Workfront die zijn verbonden met de planningsrecord, worden ook verwijderd.
-1. Klik **verbinden** om meer verslagen voor de verbonden verslagtypes te verbinden. Voor meer informatie, zie [ verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md).
+1. Klik **verbinden** om meer verslagen voor de verbonden verslagtypes te verbinden.
+
+   Voor meer informatie, zie [ verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md).
+1. (Optioneel) Als u een record niet kunt vinden om verbinding te maken en u wilt deze toevoegen, klikt u op **+ Toevoegen** om een nieuwe record toe te voegen. Voor meer informatie, zie de sectie &quot;verslagen tot stand brengen aangezien u hen van andere verslagen&quot;in het artikel [ verbindt tot verslagen ](/help/quicksilver/planning/records/create-records.md).
 
    De volgende dingen doen zich voor:
 
@@ -204,7 +207,7 @@ Overweeg het volgende wanneer u de verslagen van de Planning van Workfront van e
 * U moet een douaneformulier met een de verbindingsdouane van de Planning aan een voorwerp van Workfront vastmaken dat van de Planning van Workfront kan worden verbonden, als u de correcte toegang hebt.
 * Workfront Planning-recordtypen moeten eerst worden verbonden met Workfront-objecttypen. Voor informatie, zie [ verbind verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
 * U kunt records van het verbindingsveld Planning van een Workfront-object alleen verbinden of verbreken voor objecten die Workfront-planningsverbindingen kunnen hebben.
-* U moet Contribute toestemmingen voor een werkruimte in de Planning van Workfront hebben om verslagen van het de verbindingsgebied van de Planning van een voorwerp van Workfront te kunnen verbinden of los te maken.
+* U moet Contribute-machtigingen hebben voor een werkruimte in Workfront Planning om verbinding te kunnen maken met records in het veld voor planningsverbinding van een Workfront-object of om de verbinding met records te verbreken.
 * U kunt een veld voor de planningsverbinding niet bewerken als u Workfront-objecten bulksgewijs bewerkt.
 
 ### Recordverbindingen beheren vanuit het type Verbindingsveld Planning
@@ -233,7 +236,7 @@ Overweeg het volgende wanneer u de verslagen van de Planning van Workfront van e
    >
    >U kunt geen verslagen aan de Verbindingsgebieden van de Planning toevoegen die met de voorwerpen van Workfront buiten het voorwerp worden geassocieerd u selecteerde toen het gebied werd gevormd.
    >
-   >U kunt bijvoorbeeld geen records toevoegen aan een veld voor een planningsverbinding dat is gemaakt voor een Portfolio-verbinding vanuit het aangepaste formulier van een project.
+   >U kunt bijvoorbeeld geen records vanuit het aangepaste formulier van een project toevoegen aan een verbindingsveld voor planning dat is gemaakt voor een Portfolio-verbinding.
    >
    >Er is een aanwijzing dat het object van het veld en het object dat u hebt geselecteerd niet overeenkomen.
    >

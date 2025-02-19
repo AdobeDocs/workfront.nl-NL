@@ -7,9 +7,9 @@ description: Adobe Workfront bepaalt de Voortgangsstatus van een project door de
 author: Alina
 feature: Work Management
 exl-id: 922ca4cf-c526-4704-9966-de67b0c36a2a
-source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
+source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Hieronder vindt u de stand van de projecten in Workfront:
   </tr> 
   <tr> 
    <td>Risico</td> 
-   <td> De Voortgangsstatus van een project is <strong> bij Risico </strong> als <strong> allen </strong> van het volgende waar zijn:<ul><li>Zowel de geschatte als de verwachte voltooiingsdata zijn in de toekomst</li><li> Zowel de geschatte als de voorspelde voltooiingsdatums zijn later dan de geplande voltooiingsdatum</li><li> De geschatte voltooiingsdatum valt later dan de verwachte afsluitdatum</li></ul><p> <img src="assets/project-at-risk-progress-status-350x67.png" style="width: 350;height: 67;"> </p> </td> 
+   <td> De Voortgangsstatus van een project is <strong> bij Risico </strong> als <strong> allen </strong> van het volgende waar zijn:<ul><li>Zowel de geschatte als de verwachte voltooiingsdata zijn in de toekomst</li><li> De geschatte voltooiingsdatum valt later dan zowel de geplande uitvoeringsdatum als de verwachte uitvoeringsdatum </li></ul><p> <img src="assets/project-at-risk-progress-status-350x67.png" style="width: 350;height: 67;"> </p> </td> 
   </tr> 
   <tr> 
    <td>Achter</td> 

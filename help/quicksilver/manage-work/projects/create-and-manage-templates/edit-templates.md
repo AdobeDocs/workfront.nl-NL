@@ -6,9 +6,9 @@ description: U kunt projectmalplaatjes uitgeven om op veranderingen in projectpr
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
 workflow-type: tm+mt
-source-wordcount: '4720'
+source-wordcount: '4809'
 ht-degree: 0%
 
 ---
@@ -592,6 +592,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
    * [ Montages van Taken ](#task-settings)
    * [ Montages van de Uitgave ](#issue-settings)
    * [ Toegang ](#access-preview)
+   * [ Gekoppelde omslagen ](#linked-folders-conditional-availability) (voorwaardelijke beschikbaarheid)
 
 
 ### Sjabloonnaam{#template-name}
@@ -658,11 +659,11 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
    <tr> 
          <td role="rowheader"><strong>Portfolio</strong></td> 
-         <td><p>Specificeer een Portfolio voor de projecten die van dit malplaatje worden gecreeerd. U moet eerst een Portfolio maken voordat het in de vervolgkeuzelijst wordt weergegeven. </p><p>Alleen actieve portfolio's worden in de lijst weergegeven. Zie <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref"> Een portfolio maken </a> voor meer informatie over het maken van portfolio's.</p></td> 
+         <td><p>Geef een Portfolio op voor de projecten die op basis van deze sjabloon worden gemaakt. U moet eerst een Portfolio maken voordat deze in de vervolgkeuzelijst wordt weergegeven. </p><p>Alleen actieve portfolio's worden in de lijst weergegeven. Zie <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref"> Een portfolio maken </a> voor meer informatie over het maken van portfolio's.</p></td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Programma</strong></td> 
-         <td><p>Als u een Portfolio voor het malplaatje selecteerde, specificeer a <strong> Programma </strong> voor het toekomstige project. Sommige Portfolio's hebben mogelijk geen programma's. U moet eerst een programma maken voordat het in deze vervolgkeuzelijst wordt weergegeven. Alleen actieve programma's worden in de lijst weergegeven.</p><p>Voor meer informatie over het creëren van programma's, zie <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref"> een programma </a> creëren.</p></td> 
+         <td><p>Als u een Portfolio voor het malplaatje selecteerde, specificeer a <strong> Programma </strong> voor het toekomstige project. Niet alle portfolio's hebben een programma. U moet eerst een programma maken voordat het in deze vervolgkeuzelijst wordt weergegeven. Alleen actieve programma's worden in de lijst weergegeven.</p><p>Voor meer informatie over het creëren van programma's, zie <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref"> een programma </a> creëren.</p></td> 
        </tr>  
        <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
          <td role="rowheader"><strong>Groep</strong></td> 
@@ -991,23 +992,23 @@ Door publicatie-instellingen te bewerken, kunt u voorkomen dat gebruikers inline
        <tbody> 
        <tr> 
          <td role="rowheader"><strong> wanneer iemand aan een taak </strong> wordt toegewezen </td> 
-         <td> <p>Selecteer van <strong> Mening </strong>, <strong> Contribute, </strong> of <strong> leiden </strong> toegang tot een taak. De gebruiker die aan een taak wordt toegewezen wordt automatisch verleend deze toegang tot de taak. </p> </td> 
+         <td> <p>Selecteer van <strong> Mening </strong>, <strong> bijdragen, </strong> of <strong> leiden </strong> toegang tot een taak. De gebruiker die aan een taak wordt toegewezen wordt automatisch verleend deze toegang tot de taak. </p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong> verleent ook toegang tot het project </strong> </td> 
-         <td> <p> Selecteer van <strong> Mening </strong>, <strong> Contribute </strong>, of <strong> leiden </strong> toegang tot het project. De gebruiker die aan een taak wordt toegewezen wordt automatisch deze toegang tot het project, eveneens verleend. </p> </td> 
+         <td> <p> Selecteer van <strong> Mening </strong>, <strong> bijdragen </strong>, of <strong> leiden </strong> toegang tot het project. De gebruiker die aan een taak wordt toegewezen wordt automatisch deze toegang tot het project, eveneens verleend. </p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong> wanneer iemand aan een kwestie </strong> wordt toegewezen </td> 
-         <td> <p>Selecteer van <strong> Mening </strong>, <strong> Contribute, </strong> of <strong> leiden </strong> toegang tot een kwestie. De gebruiker aan een kwestie wordt toegewezen wordt automatisch verleend deze toegang tot de kwestie. </p> </td> 
+         <td> <p>Selecteer van <strong> Mening </strong>, <strong> bijdragen, </strong> of <strong> leiden </strong> toegang tot een kwestie. De gebruiker aan een kwestie wordt toegewezen wordt automatisch verleend deze toegang tot de kwestie. </p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong> verleent ook toegang tot het project </strong> </td> 
-         <td> <p> Selecteer van <strong> Mening </strong>, <strong> Contribute </strong>, of <strong> leiden </strong> toegang tot het project. De gebruiker die aan een kwestie wordt toegewezen wordt automatisch deze toegang tot het project, eveneens verleend. </p> </td> 
+         <td> <p> Selecteer van <strong> Mening </strong>, <strong> bijdragen </strong>, of <strong> leiden </strong> toegang tot het project. De gebruiker die aan een kwestie wordt toegewezen wordt automatisch deze toegang tot het project, eveneens verleend. </p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong> wanneer iemand een verzoek voorlegt: Geef hen toegang </strong> </td> 
-         <td> <p> Selecteer van <strong> Mening </strong>, <strong> Contribute </strong>, of <strong> leiden </strong> toegang tot het verzoek. Wanneer zij een verzoek indienen bij het project, krijgen zij toegang tot het door hen ingediende verzoek. Voor meer informatie, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref"> een kwestie delen </a>.</p> </td> 
+         <td> <p> Selecteer van <strong> Mening </strong>, <strong> bijdragen </strong>, of <strong> leiden </strong> toegang tot het verzoek. Wanneer zij een verzoek indienen bij het project, krijgen zij toegang tot het door hen ingediende verzoek. Voor meer informatie, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref"> een kwestie delen </a>.</p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong> de Mensen van het zelfde bedrijf zullen de zelfde toestemmingen voor alle verzoeken </strong> erven </td> 
@@ -1030,6 +1031,23 @@ Door publicatie-instellingen te bewerken, kunt u voorkomen dat gebruikers inline
 
    Nu, wanneer u dit malplaatje gebruikt om een project tot stand te brengen zullen al deze montages aan het nieuwe project overbrengen.
 
+
+### Gekoppelde mappen (voorwaardelijke beschikbaarheid) {#linked-folders}
+
+De functionaliteit van een gekoppelde map maakt automatisch mappen in Adobe Experience Manager Assets en verbindt deze met Workfront.
+
+Deze sectie wordt alleen weergegeven als alle volgende opties van toepassing zijn:
+
+* Uw organisatie is gemigreerd naar de Adobe Admin Console
+* Uw organisatie heeft integratie met Adobe Experience Manager ingeschakeld en geconfigureerd
+* De sjabloon heeft gekoppelde mappen ingeschakeld en geconfigureerd.
+
+Voor instructies bij het uitgeven van Gekoppelde omslagen, zie [ werkschemawaarden in een project ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project) in het artikel [ werkschema&#39;s van het Gebruik in de integratie van Experience Manager Assets ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md) uitgeven.
+
+<!--I don't think this note is valid anymore - this note was on Edit project when this section was in that article, by mistake: 
+>[!NOTE]
+>
+>Because linked folders are created when the project is created, editing the linked folder workflow on an existing project is ineffective. Editing these values when creating a project functions as expected.-->
 
 ## Sjablonen bulksgewijs bewerken
 

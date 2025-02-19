@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 597d8db034269e673dbe46e8c0f4934bf9509e2f
+source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1621'
 ht-degree: 0%
 
 ---
@@ -256,10 +256,16 @@ U moet het volgende hebben voordat u nieuwe records kunt toevoegen door deze te 
 
 Om verslagen tot stand te brengen aangezien u hen van andere verslagen verbindt:
 
-1. Begin verbindend de verslagen van de Planning van Workfront, zoals die in het artikel [ worden beschreven verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md). U kunt records verbinden vanuit een verbindingsveld in de volgende gebieden van Workfront Planning:
+1. Begin verbindend de verslagen van de Planning van Workfront, zoals die in het artikel [ worden beschreven verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md). U kunt records verbinden vanuit de volgende gebieden:
 
-   * De tabelweergave
-   * De detailpagina of het voorvertoningsvak van een record
+   * Een verbindingsveld in de volgende gebieden van Workfront Planning:
+
+      * De tabelweergave
+      * De detailpagina of het voorvertoningsvak van een record
+
+   * Een verbindingsveld in het gedeelte Planning van een project, portfolio of programma in Workfront.
+
+     Voor informatie, zie [ recordverbindingen van de voorwerpen van Workfront beheren ](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
 
 1. (Voorwaardelijk) als u geen verslag kunt vinden wanneer het proberen om het van het verbonden verslaggebied van een ander verslag toe te voegen, onderzoek naar een verslag, dan klik **+ toevoegen**. De knop **+ Toevoegen** wordt gevolgd door de naam van het recordtype waarmee u verbinding maakt. Bijvoorbeeld, &quot;voeg merken&quot;toe wanneer het toevoegen van een merk aan een bestaande campagne. De naam die u hebt getypt, volgt ook de knop Toevoegen.
 
