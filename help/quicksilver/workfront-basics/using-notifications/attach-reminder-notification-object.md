@@ -7,9 +7,9 @@ description: 'U kunt herinneringsberichten met verscheidene verschillende object
 author: Lisa
 feature: Get Started with Workfront
 exl-id: ea04d807-1a9f-4a23-96de-cd83f0821ba0
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
@@ -56,14 +56,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 ## Herinneringsmeldingen aan een object koppelen
 
 1. Ga naar het object waar u de herinneringsmelding wilt bijvoegen.
-1. Klik op het pictogram Bewerken ![](assets/edit-icon.png) .
+1. Klik het Edit pictogram ![ uitgeven pictogram ](assets/edit-icon.png).
 1. Klik in het linkerdeelvenster van het vak **[!UICONTROL Edit]** dat wordt weergegeven op **[!UICONTROL Settings]** .
 
 1. Selecteer onder **[!UICONTROL Reminder Notification]** de meldingen die u aan het object wilt koppelen.
 
    In dit voorbeeld is het object dat wordt bewerkt een taak:
 
-   ![](assets/reminder-notification-select-one-350x213.png)
+   ![ het bericht van de Herinnering ](assets/reminder-notification-select-one-350x213.png)
 
    Als de [!DNL Workfront] -beheerder meerdere herinneringsmeldingen heeft gemaakt, kunt u meerdere meldingen aan één object koppelen.
 

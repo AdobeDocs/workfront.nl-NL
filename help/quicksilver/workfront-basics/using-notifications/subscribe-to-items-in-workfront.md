@@ -5,9 +5,9 @@ description: Adobe Workfront stuurt meldingen over objecten die je hebt toegewez
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 5eee62b8-d72e-4263-a0c5-749047bc6812
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '1508'
+source-wordcount: '1537'
 ht-degree: 0%
 
 ---
@@ -75,12 +75,12 @@ Als u bijvoorbeeld een abonnement wilt nemen op een uitgave:
    >
    >Als u zich wilt abonneren op projecten, kunt u een van de volgende handelingen uitvoeren:
    >
-   >* Ga naar het project waarop u zich wilt abonneren, klik op het **[!UICONTROL More]** pictogram ![](assets/qs-more-menu.png) rechts van de projectnaam en klik vervolgens op **[!UICONTROL Subscribe]** .
-   >* Ga naar een projectlijst of rapport en selecteer een project, klik op het **[!UICONTROL More]** pictogram ![](assets/qs-more-menu.png) boven aan de lijst en klik vervolgens op **[!UICONTROL Subscribe]** . Dit is alleen beschikbaar in een lijst met projecten.
+   >* Ga naar het project u wilt intekenen aan, klik het **[!UICONTROL More]** pictogram ![ Meer menu ](assets/qs-more-menu.png) rechts van de projectnaam, toen **[!UICONTROL Subscribe]**.
+   >* Ga naar een projectlijst of een rapport en selecteer een project, klik het **[!UICONTROL More]** pictogram ![ Meer menu ](assets/qs-more-menu.png) bij de bovenkant van de lijst, dan klik **[!UICONTROL Subscribe]**. Dit is alleen beschikbaar in een lijst met projecten.
 
-1. Klik op **[!UICONTROL More]** ![](assets/more-icon.png) en vervolgens op **[!UICONTROL Subscribe]** .
+1. Klik **[!UICONTROL More]** ![ Meer pictogram ](assets/more-icon.png), dan klik **[!UICONTROL Subscribe]**.
 
-   ![](assets/subscribe-to-a-work-item-350x258.png)
+   ![ Abonneren aan een het werkpunt ](assets/subscribe-to-a-work-item-350x258.png)
 
    Er verschijnt een vinkje op de bel en het nummer naast de bel wordt bijgewerkt om u toe te voegen aan het aantal geabonneerde gebruikers.
 
@@ -102,12 +102,12 @@ Als u bijvoorbeeld uw abonnement op een uitgave wilt opzeggen:
    >
    >Als u uw abonnement op projecten wilt opzeggen, kunt u een van de volgende handelingen uitvoeren:
    >
-   >* Ga naar het project waarvan u het abonnement wilt opzeggen, klik dan **[!UICONTROL More]** pictogram ![](assets/qs-more-menu.png) rechts van de projectnaam, dan **[!UICONTROL Unsubscribe]**.
-   >* Ga naar een projectlijst of rapport en selecteer een project, klik op het **[!UICONTROL More]** pictogram ![](assets/qs-more-menu.png) boven aan de lijst en klik vervolgens op **[!UICONTROL Unsubscribe]** . Dit is alleen beschikbaar in een lijst met projecten.
+   >* Ga naar het project u van wilt afmelden, klik het **[!UICONTROL More]** pictogram ![ Meer pictogram ](assets/qs-more-menu.png) rechts van de projectnaam, toen **[!UICONTROL Unsubscribe]**.
+   >* Ga naar een projectlijst of een rapport en selecteer een project, klik het **[!UICONTROL More]** pictogram ![ Meer pictogram ](assets/qs-more-menu.png) bij de bovenkant van de lijst, dan klik **[!UICONTROL Unsubscribe]**. Dit is alleen beschikbaar in een lijst met projecten.
 
-1. Klik op **[!UICONTROL More]** ![](assets/more-icon.png) en vervolgens op **[!UICONTROL Unsubscribe]** .
+1. Klik **[!UICONTROL More]** ![ Meer pictogram ](assets/more-icon.png), dan klik **[!UICONTROL Unsubscribe]**.
 
-   ![](assets/unsubscribe-to-a-work-item-350x258.png)
+   ![ Unsubscribe van een het werkpunt ](assets/unsubscribe-to-a-work-item-350x258.png)
 
 1. Je kunt je abonnement op een object waarop je bent geabonneerd, ook opzeggen door op de koppeling [!UICONTROL Unsubscribe] in het e-mailbericht met abonnement te klikken.
 
@@ -136,7 +136,7 @@ Alle abonnees krijgen [!UICONTROL View] toestemming voor het geabonneerde item. 
    >   
    >* Ga naar een projectlijst of rapport en selecteer een project.
 
-1. Klik op **[!UICONTROL More]** ![](assets/more-icon.png) .
+1. Klik **[!UICONTROL More]** ![ Meer pictogram ](assets/more-icon.png).
 1. Klik op de nummerballon naast de koppeling **[!UICONTROL Subscribe]** .
 1. Typ in het vak dat wordt weergegeven de naam van de gebruiker in het vak **[!UICONTROL Subscribe others]** en selecteer vervolgens de gebruiker in de weergegeven opties.
 
@@ -159,7 +159,7 @@ Wanneer iemand een opmerking toevoegt aan het tabblad [!UICONTROL Updates] van h
    >   
    >* Ga naar een projectlijst of rapport en selecteer een project.
 
-1. Klik op **[!UICONTROL More]** ![](assets/more-icon.png) .
+1. Klik **[!UICONTROL More]** ![ Meer pictogram ](assets/more-icon.png).
 1. Klik op de nummerballon naast de koppeling **[!UICONTROL Subscribe]** of **[!UICONTROL Unsubscribe]** .
 1. Klik op de pagina **[!UICONTROL Subscribers]** die wordt weergegeven op de X naast de naam van de gebruiker die u het abonnement wilt opzeggen.
 
@@ -175,7 +175,7 @@ Wanneer iemand een opmerking toevoegt aan het tabblad [!UICONTROL Updates] van h
 
 Onmiddellijk nadat iemand een opmerking heeft geplaatst over een object waarop u bent geabonneerd, ontvangt u een bericht in de app.
 
-![](assets/in-app-not---cmmnt-sbscibd-to-350x164.png)
+![ in toepassingsbericht ](assets/in-app-not---cmmnt-sbscibd-to-350x164.png)
 
 Voor meer informatie, zie [ Mening en beheer in-app berichten ](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 

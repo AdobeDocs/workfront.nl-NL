@@ -5,9 +5,9 @@ description: 'Meldingen in de app houden u op de hoogte van twee soorten informa
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c5da114-33cc-422b-84f4-67bc7fcd67c6
-source-git-commit: 3210474976f435c75c8cfa38e263f9211b9d016d
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Het genummerde pictogram in de rechterbovenhoek van [!DNL Workfront] geeft het a
 >
 >U kunt alle meldingen in de app weergeven, zowel vanuit de webtoepassing als vanuit de mobiele toepassing. Slechts enkele van deze meldingen worden als pushberichten verzonden in de mobiele toepassing. Voor meer informatie over berichten in mobiele app, zie [[!DNL Adobe Workfront]  voor iOS ](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md) of [[!DNL Adobe Workfront]  voor Android ](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md).
 
-1. Klik op het genummerde pictogram ![](assets/notifications-icon-jewel.jpg) in de rechterbovenhoek van [!DNL Workfront] om de lijst met meldingen te openen.
+1. Klik het genummerde pictogram ![ pictogram van Meldingen ](assets/notifications-icon-jewel.jpg) in de hoger-juiste hoek van [!DNL Workfront] om uw lijst van berichten te openen.
 
    De meest recente ongelezen meldingen worden weergegeven onder het genummerde pictogram, met de meest recente bovenaan.
 
@@ -67,7 +67,7 @@ Het genummerde pictogram in de rechterbovenhoek van [!DNL Workfront] geeft het a
 
    Onder aan elke melding worden de [!UICONTROL notification type] en een bijbehorende identificatiepictogramweergave weergegeven. Deze Help u identificeren wat er met het vermelde [!DNL Workfront] item is gebeurd en waarschuwen u als u een actiepunt hebt:
 
-   * Aankondigingsmeldingen worden aangegeven met het pictogram [!UICONTROL announcements] . ![](assets/announcement.png)
+   * Aankondigingsmeldingen worden aangegeven met het pictogram [!UICONTROL announcements] . ![ pictogram van de Aankondiging ](assets/announcement.png)
 
    * Alle andere meldingen worden aangegeven met pictogrammen die aangeven met welk type werkitem ze worden geassocieerd.
 
@@ -80,21 +80,21 @@ Het pictogram rechts van de blauwe stip geeft een van de volgende opties weer:
 
 1. (Optioneel) Als u de datum wilt bekijken waarop u een melding hebt ontvangen, plaatst u de muis boven de dag- of tijdindicator in de rechterbovenhoek van het bericht.
 
-   ![](assets/hoveroverdate-350x437.png)
+   ![ Hover over datum ](assets/hoveroverdate-350x437.png)
 
 1. Klik op het bericht dat u wilt weergeven:
 
    * Als het bericht waarop u klikt, over een tijdelijk item gaat, wordt het gekoppelde [!DNL Workfront] -object geopend en wordt het volledige bericht op het tabblad **[!UICONTROL Updates]** weergegeven. U kunt **[!UICONTROL Start a new update area]** of **[!UICONTROL Type a reply]**.
 
-     ![](assets/object-opens-click-work-ntfctn-qs-350x183.png)
+     ![ Update of antwoord ](assets/object-opens-click-work-ntfctn-qs-350x183.png)
 
-   * Als het bericht waarop u klikt voor een aankondiging ![](assets/announcement.png) is, wordt de pagina **[!UICONTROL Announcements]** weergegeven met al uw aankondigingen. De aankondiging u klikte wordt geselecteerd op de linkerzijde en het bericht wordt getoond op het recht.
+   * Als het bericht u klikt voor een aankondiging ![ pictogram van de Aankondiging ](assets/announcement.png) is, verschijnt de **[!UICONTROL Announcements]** pagina, die van al uw aankondigingen een lijst maken. De aankondiging u klikte wordt geselecteerd op de linkerzijde en het bericht wordt getoond op het recht.
 
-     ![](assets/announcements-page-qs-350x210.png)
+     ![ de pagina van Mededelingen ](assets/announcements-page-qs-350x210.png)
 
 1. (Optioneel) Download alle bijlagen die in het meldingsbericht zijn opgenomen of download alle bijlagen als ZIP-bestand.
 
-   ![](assets/download-attachments-350x106.png)
+   ![ de gehechtheid van de Download ](assets/download-attachments-350x106.png)
 
 ## Kennisgevingen bevestigen
 
@@ -111,7 +111,7 @@ Als u op het genummerde pictogram klikt om de lijst met meldingen te openen, wor
 
 Een melding bevestigen en deze uit de lijst met meldingen wissen:
 
-1. Klik op het genummerde pictogram ![](assets/notifications-icon-jewel.jpg) in de rechterbovenhoek van [!DNL Workfront] om de lijst met meldingen te openen.
+1. Klik het genummerde pictogram ![ pictogram van Meldingen ](assets/notifications-icon-jewel.jpg) in de hoger-juiste hoek van [!DNL Workfront] om uw lijst van berichten te openen.
 1. Voer een van de volgende handelingen uit:
 
    * Klik op de blauwe stip in de linkerbovenhoek van het bericht.
@@ -123,7 +123,7 @@ Een melding bevestigen en deze uit de lijst met meldingen wissen:
 
 Meldingen weergeven die u al hebt bevestigd:
 
-1. Klik op het genummerde pictogram ![](assets/notifications-icon-jewel.jpg) in de rechterbovenhoek van [!DNL Workfront] om de lijst met meldingen te openen.
+1. Klik het genummerde pictogram ![ pictogram van Meldingen ](assets/notifications-icon-jewel.jpg) in de hoger-juiste hoek van [!DNL Workfront] om uw lijst van berichten te openen.
 1. Klik op **[!UICONTROL All Notifications]** rechtsonder in de lijst met meldingen.
 1. Schuif omlaag op de pagina **[!UICONTROL Notifications]** die wordt weergegeven om uw oude meldingen weer te geven.
 1. (Optioneel) Klik op de blauwe cirkel naast de melding als u een bevestiging van de melding wilt terugbrengen naar de lijst met meldingen.
@@ -139,7 +139,7 @@ U kunt echter wel een aankondigingsbericht verwijderen. U kunt ook een aankondig
 
 ### Een aankondiging verwijderen
 
-1. Klik op het genummerde pictogram ![](assets/notifications-icon-jewel.jpg) in de rechterbovenhoek van [!DNL Workfront] om de lijst met meldingen te openen.
+1. Klik het genummerde pictogram ![ pictogram van Meldingen ](assets/notifications-icon-jewel.jpg) in de hoger-juiste hoek van [!DNL Workfront] om uw lijst van berichten te openen.
 1. Klik op **[!UICONTROL Announcements]** of **[!UICONTROL View All Announcements]** .
 
 1. Klik op de pagina **[!DNL Announcements]** die wordt weergegeven op de aankondiging die u wilt verwijderen in de lijst aan de linkerkant en klik vervolgens op **[!UICONTROL Delete]** rechtsboven op de pagina.
@@ -148,7 +148,7 @@ U kunt echter wel een aankondigingsbericht verwijderen. U kunt ook een aankondig
 
 U kunt een melding openen die u de afgelopen 30 dagen hebt verwijderd.
 
-1. Klik op het genummerde pictogram ![](assets/notifications-icon-jewel.jpg) in de rechterbovenhoek van [!DNL Workfront] om de lijst met meldingen te openen.
+1. Klik het genummerde pictogram ![ pictogram van Meldingen ](assets/notifications-icon-jewel.jpg) in de hoger-juiste hoek van [!DNL Workfront] om uw lijst van berichten te openen.
 1. Klik op **[!UICONTROL Announcements]** of **[!UICONTROL View All Announcements]** .
 
 1. Klik op **[!UICONTROL Deleted]** op de pagina die **[!UICONTROL Announcements]** wordt weergegeven.

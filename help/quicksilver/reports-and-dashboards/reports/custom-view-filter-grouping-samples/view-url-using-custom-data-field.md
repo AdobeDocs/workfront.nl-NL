@@ -7,9 +7,9 @@ description: U kunt een koppeling naar een interne aangepaste URL weergeven door
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e402fed-71ce-438a-8da9-8f8d37550ea8
-source-git-commit: 4247f2b437a5627ac4cba5289573eb4f1c18c583
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ Als u toegang hebt om een aangepast formulier te maken, kunt u een berekend aang
 
 De taak **Mening** in het voorbeeld hieronder toont het **Berekende Gebied van de Douane** geroepen &quot;Douane URL&quot;als directe verbinding aan het **Overzicht** subtab binnen de taak **Details** tabel, evenals het **URL** gebied van de taak.
 
-![](assets/task-view-with-custom-url-field-quicksilver-350x70.png)
+assets/task-view-with-custom-url-field-quicksilver-350x70.png)
 
 Deze weergave aanpassen:
 
