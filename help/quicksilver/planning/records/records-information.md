@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
 recommendations: noDisplay, noCatalog
-source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
+source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,8 @@ Nadat u recordtypes in de Planning van Adobe Workfront creeert, kunt u individue
 In de volgende artikelen wordt beschreven hoe u records en de bijbehorende informatie kunt maken en beheren in Adobe Workfront Planning:
 
 * [Records maken](/help/quicksilver/planning/records/create-records.md)
-* [Workfront-objecten maken van Workfront Planning](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
+* [Workfront-objecten maken vanuit Workfront Planning wanneer u deze verbindt met records](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
+* [Objecten maken met Adobe Workfront Planning-recordautomatisering](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
 * [Records bewerken](/help/quicksilver/planning/records/edit-records.md)
 * [Records verwijderen](/help/quicksilver/planning/records/delete-records.md)
 * [Verwijderde records herstellen](/help/quicksilver/planning/records/restore-deleted-records.md)

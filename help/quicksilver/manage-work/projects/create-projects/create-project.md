@@ -6,9 +6,9 @@ description: Een project is een grote eenheid werk in Adobe Workfront. U kunt ge
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
+source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
 workflow-type: tm+mt
-source-wordcount: '1378'
+source-wordcount: '1384'
 ht-degree: 0%
 
 ---
@@ -114,7 +114,7 @@ U kunt een project in Workfront tot stand brengen gebruikend één van de volgen
 
   Voor informatie over het invoeren van projecten die schoppen-begin gebruiken, zie [ Kick-Begint scenario: het eenvoudige project en de voorbereiding van de taakinvoer ](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
 
-* Publish een initiatief uit een scenario in de Adobe Workfront Scenario Planner.
+* Publiceer een initiatief van een scenario in de Planner van het Scenario van Adobe Workfront.
 
   Voor de functie Scenario Planner is een van de volgende opties vereist:
 
@@ -129,7 +129,7 @@ U kunt een project in Workfront tot stand brengen gebruikend één van de volgen
 
   Voor informatie over toegang tot de Planning van Workfront, zie [ Overzicht van de Toegang ](/help/quicksilver/planning/access/access-overview.md).
 
-  Voor informatie over het creëren van projecten door hen aan verslagen toe te voegen, zie de sectie &quot;projecten creëren wanneer het verbinden van hen met verslagen van de Planning van Workfront&quot;in artikel [ de voorwerpen van Workfront van de Planning van Workfront ](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md) creëren
+  Voor informatie over het creëren van projecten door hen aan verslagen toe te voegen, zie de sectie &quot;projecten creëren wanneer het verbinden van hen met verslagen van de Planning van Workfront&quot;in het artikel [ creeer de voorwerpen van Workfront van Workfront Planning aangezien u hen met verslagen ](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md) verbindt
 
 ## Vereisten
 

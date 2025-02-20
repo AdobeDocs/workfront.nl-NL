@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
+source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
 workflow-type: tm+mt
-source-wordcount: '2956'
+source-wordcount: '3082'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Connect-records
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 {{planning-important-intro}}
 
@@ -112,7 +112,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Configuratie op toegangsniveau</p></td> 
-   <td> <p>Er zijn geen toegangsniveaucontroles voor de voorwerpen van de Planning van Adobe Workfront</p>   
+   <td> <p>Er zijn geen toegangsniveaucontroles voor de voorwerpen van de Planning van Adobe Workfront</p> 
+   <p>Geef de objecttypen die u vanuit Workfront wilt koppelen weer of geef deze machtigingen een hogere of hogere waarde op.</p>   
 </td> 
   </tr> 
 <tr> 
@@ -169,7 +170,7 @@ U kunt verslagen van de Planning van Workfront op de volgende gebieden van een v
 1. (Optioneel) Voeg records toe aan het recordtype dat u hebt geselecteerd door een nieuwe rij aan de tabel toe te voegen. Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-records.md) creëren.
 1. (Voorwaardelijk) nadat u het geselecteerde verslagtype met een ander verslagtype verbindt, ga naar het verbonden gebied van een verslag en klik binnen het gebied of klik **verbind** om verslag toe te voegen.
 
-   ![](assets/connect-other-records-smaller-box-in-table-view.png)
+   ![ verbind andere verslagen in lijstmening ](assets/connect-other-records-smaller-box-in-table-view.png)
 
 1. Voer een van de volgende handelingen uit:
 
@@ -182,7 +183,13 @@ U kunt verslagen van de Planning van Workfront op de volgende gebieden van een v
    >
 
 1. (Voorwaardelijk) Als u bij het verbindingstype de optie Een op velen of Een op één hebt geselecteerd en u probeert een record of een object te verbinden dat al ergens anders is verbonden, ontvangt u een waarschuwing dat het opnieuw verbinden van de record de record uit de oorspronkelijke verbinding zal verwijderen. Klik **verbinden** om de verwijdering toe te staan en het verslag aan te sluiten, of **annuleert** om terug naar het gebied te gaan en een ander verslag te selecteren.
-1. (Optioneel) Als u een record of een object dat u wilt verbinden niet kunt vinden en u wilt deze toevoegen, klikt u op **+ Toevoegen** om een nieuwe record toe te voegen. Voor meer informatie, zie de sectie &quot;verslagen tot stand brengen aangezien u hen van andere verslagen&quot;in het artikel [ verbindt tot verslagen ](/help/quicksilver/planning/records/create-records.md).
+1. (Facultatief) als u geen voorwerp kunt vinden om te verbinden, en u het wilt toevoegen, <span class="preview"> klikken **+ voegt toe**</span>
+
+   of
+
+   Typ een naam voor het object en klik op **+ Toevoegen** om het object te maken en toe te voegen.
+
+   Voor meer informatie, zie de sectie &quot;verslagen tot stand brengen aangezien u hen van andere verslagen&quot;in het artikel [ verbindt tot verslagen ](/help/quicksilver/planning/records/create-records.md).
 
    >[!TIP]
    >
@@ -251,7 +258,7 @@ Nadat u een verbinding hebt gemaakt tussen een recordtype en een Workfront-objec
 
 1. (Voorwaardelijk) nadat u het geselecteerde verslagtype met een objecten van Workfront type verbindt, ga naar het verbonden gebied op een verslag en of klik het gebied, of klik **verbinden** om de voorwerpen van Workfront toe te voegen.
 
-   ![](assets/connect-projects-smaller-box-in-table-view.png)
+   ![ verbind projecten in lijstmening ](assets/connect-projects-smaller-box-in-table-view.png)
 
 1. Voer een van de volgende handelingen uit:
 
@@ -262,7 +269,11 @@ Nadat u een verbinding hebt gemaakt tussen een recordtype en een Workfront-objec
    >
    >U kunt de pagina van een verslag van de mening openen, het verbonden verslaggebied tweemaal klikken, of **verbinden** op het gebied klikken om voorwerpen van het verbonden objecten type toe te voegen.
 
-1. (Optioneel) Als u een object niet kunt vinden om verbinding te maken en u wilt het object toevoegen, klikt u op **+ Toevoegen** om een nieuw project of portfolio te maken en toe te voegen.
+1. (Facultatief) als u geen voorwerp kunt vinden om te verbinden, en u het wilt toevoegen, <span class="preview"> klikken **+ voegt toe**</span>
+
+   of
+
+   Begin een naam voor het voorwerp te typen, dan klik **+ toevoegen** om een nieuw project, een portefeuille, of een programma tot stand te brengen en toe te voegen.
 
    Voor informatie, zie [ de voorwerpen van Workfront van de Planning van Workfront ](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md) creëren
 
@@ -415,7 +426,7 @@ Om records te verbinden met Experience Manager-elementen:
 1. (Facultatief) klik **Open in nieuw lusje** pictogram ![](assets/open-details-in-a-new-tab-icon.png) om de pagina van het verslag te openen.
 1. Klik het **lusje van Verbindingen** in de voorproef of de pagina van het verslag.
 
-   ![](assets/connections-tab-on-record-in-workfront-planning.png)
+   ![ het lusje van Verbindingen op verslag in de Planning van Workfront ](assets/connections-tab-on-record-in-workfront-planning.png)
 
    Alle record- of objecttypen die aan het geselecteerde recordtype zijn gekoppeld, worden als secties weergegeven. Verbonden records of objecten worden onder hun naam voor een record of objecttype op kaarten weergegeven.
 
@@ -428,7 +439,13 @@ Om records te verbinden met Experience Manager-elementen:
 1. (Optioneel) Klik op de pijl omlaag links van een sectie om deze samen te vouwen.
 
 1. (Voorwaardelijk) klik **verbinden** om meer verslagen of voorwerpen van het zelfde type toe te voegen.
-1. (Optioneel) Als u een record of een object dat u wilt verbinden niet kunt vinden en u wilt deze toevoegen, klikt u op **+ Toevoegen** om een nieuwe record toe te voegen. Voor meer informatie, zie de sectie &quot;verslagen tot stand brengen aangezien u hen van andere verslagen&quot;in het artikel [ verbindt tot verslagen ](/help/quicksilver/planning/records/create-records.md).
+1. (Facultatief) als u een verslag of een voorwerp niet kunt vinden om te verbinden, en u het wilt toevoegen, <span class="preview"> klikken **+ toevoegen**</span>
+
+   of
+
+   Typ een naam voor het object en klik op **+ Toevoegen** om het object te maken en aan de record toe te voegen.
+
+   Voor meer informatie, zie de sectie &quot;verslagen tot stand brengen aangezien u hen van andere verslagen&quot;in het artikel [ verbindt tot verslagen ](/help/quicksilver/planning/records/create-records.md).
 1. Voer de stappen uit die in de vorige secties zijn beschreven om records van Workfront Planning of objecten van Workfront of Experience Manager Assets te verbinden.
 De records en objecten worden direct toegevoegd.
 1. (Optioneel) Houd de muisaanwijzer boven de verbonden kaart van een record of object en klik vervolgens op het pictogram **Verbinding met record verbreken ![](assets/disconnect-icon-with-tooltip.png) om het record los te koppelen van het geselecteerde record.**
