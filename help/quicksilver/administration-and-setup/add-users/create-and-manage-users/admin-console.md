@@ -1,13 +1,13 @@
 ---
 title: Gebruikers in de Adobe Admin Console beheren
-description: Als beheerder van een Adobe kunt u Adobe Workfront-gebruikers en -systeembeheerders maken met de Adobe Admin Console.
+description: Als Adobe-beheerder kunt u Adobe Workfront-gebruikers en -systeembeheerders maken met de Adobe Admin Console.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: f9dea6c80c0d681e3638c9baf36e6e511693b59c
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1322'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,15 @@ ht-degree: 0%
 >
 >De functionaliteit in dit artikel is alleen beschikbaar als het exemplaar van Workfront van uw organisatie is aangemeld bij het Adobe Business Platform.
 >
->Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan het Bedrijfs Platform van de Adobe is genegeerd, zie [ Op platform-gebaseerde beleidsverschillen (Adobe Workfront/Adobe Bedrijfs Platform) ](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan het Van Bedrijfs Adobe Platform is genegeerd, zie [ Op platform-gebaseerde beleidsverschillen (Adobe Workfront/Adobe Bedrijfs Platform) ](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-Als beheerder van een Adobe kunt u Adobe Workfront-systeembeheerders maken met de Adobe Admin Console. De console is een centrale plaats voor het beheren van de rechten van de Adobe over uw organisatie. Voor meer informatie, zie het [ Overzicht van de Admin Console ](https://helpx.adobe.com/nl/enterprise/using/admin-console.html).
+Als Adobe-beheerder kunt u Adobe Workfront-systeembeheerders maken met de Adobe Admin Console. De console is een centrale locatie voor het beheer van de Adobe-rechten in uw hele organisatie. Voor meer informatie, zie het [ Overzicht van Admin Console ](https://helpx.adobe.com/nl/enterprise/using/admin-console.html).
 
 >[!NOTE]
 >
 >We raden u aan om gebruikers die geen systeembeheerders zijn, rechtstreeks toe te voegen in Workfront. Het is mogelijk om gebruikers toe te voegen in de Adobe Admin Console, maar als u ze toevoegt in Workfront, kunt u hun toegangsniveau instellen terwijl u ze maakt. Op die manier kunt u tijd besparen.
 
-<span class="preview"> wanneer het aanbrengen van veranderingen in gebruikersprofielen van de Admin Console, wordt een update toegevoegd aan het de activiteitslusje van het Systeem van de gebruiker in Workfront. De update wordt weergegeven zoals deze door het &quot;Systeem&quot; is gemaakt. Dit verwijst naar de beheerder van Adobe Admin Console en niet naar de belangrijkste Beheerder van Workfront.</span>
+<span class="preview"> wanneer het aanbrengen van veranderingen in gebruikersprofielen van Admin Console, wordt een update toegevoegd aan het de activiteitslusje van het Systeem van de gebruiker in Workfront. De update wordt weergegeven zoals deze door het &quot;Systeem&quot; is gemaakt. Dit verwijst naar de beheerder van Adobe Admin Console en niet naar de belangrijkste Beheerder van Workfront.</span>
 
 ## Toegangsvereisten
 
@@ -50,7 +50,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe-beheerdersrechten</td> 
-   <td> <p>U moet een Beheerder van de Configuratie van het Product voor de producten van de Adobe voor uw organisatie zijn</p> </td> 
+   <td> <p>U moet een beheerder van de Configuratie van het Product van de producten van Adobe voor uw organisatie zijn</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,13 +61,13 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 ## Vereisten
 
-Voordat u de Admin Console voor Workfront gaat gebruiken, ontvangt u een e-mail waarin u wordt uitgenodigd naar de console.
+Voordat u de Admin Console for Workfront gebruikt, ontvangt u een e-mail waarin u wordt uitgenodigd naar de console.
 
-1. Als u nog niet eerder Adobe hebt en u een e-mail hebt ontvangen waarin u wordt meegedeeld dat u nu beheerrechten hebt voor het beheer van Adobe-software en -services voor uw organisatie, klikt u op de knop in de e-mail om een account voor Adoben te maken en opent u de Admin Console.
+1. Als u nog geen ervaring hebt met Adobe en u een e-mail hebt ontvangen met de mededeling dat u nu beheerrechten hebt voor Adobe-software en -services voor uw organisatie, klikt u op de knop in de e-mail om een Adobe-account te maken en opent u de Admin Console.
 
    of
 
-   Als u reeds een rekening van de Adobe hebt, ga naar de [ pagina van Adobe Admin Console ](https://adminconsole.adobe.com/).
+   Als u reeds een rekening van Adobe hebt, ga naar de [ pagina van Adobe Admin Console ](https://adminconsole.adobe.com/).
 
 ## Meer informatie over de Adobe Admin Console
 
@@ -77,7 +77,7 @@ Voordat u de Admin Console voor Workfront gaat gebruiken, ontvangt u een e-mail 
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about deactivating a user in Workfront, see </p>
   -->
 
-* De gebruiker **Groep van het Huis** wordt bepaald gebaseerd op de gebruiker die hen creeerde. Dit kan niet vanuit de Admin Console worden aangepast.
+* De gebruiker **Groep van het Huis** wordt bepaald gebaseerd op de gebruiker die hen creeerde. Dit kan niet worden aangepast vanuit de Admin Console.
 * Het toegangsniveau van de Beheerder van het Systeem van Workfront kan slechts van binnen Adobe Admin Console worden uitgegeven.
 
   <!--
@@ -86,7 +86,7 @@ Voordat u de Admin Console voor Workfront gaat gebruiken, ontvangt u een e-mail 
   
   -->
 
-* Het veranderen van de toegang van een gebruiker van de Beheerder van het Systeem in een ander toegangsniveau moet eerst door de Admin Console worden gedaan.
+* Het veranderen van de toegang van een gebruiker van de Beheerder van het Systeem in een ander toegangsniveau moet eerst door Admin Console worden gedaan.
 
   <!--
    This is not clear
@@ -97,6 +97,8 @@ Voordat u de Admin Console voor Workfront gaat gebruiken, ontvangt u een e-mail 
   >[!IMPORTANT]
   >
   >Breng geen wijzigingen aan in het productprofiel zelf.
+
+* Adobe Admin Console-beheerders kunnen automatische toewijzingsregels instellen om het toewijzen van Adobe-producten aan gebruikers in hun organisatie te automatiseren. Voor meer informatie en instructies, zie [ automatische toewijzingsregels beheren ](https://helpx.adobe.com/enterprise/using/automatic-assignment-rules.html) in de documentatie van Adobe.
 
 ## Open het gebied voor gebruikers en beheerders van uw Production-instantie van Workfront {#access-the-user-and-admin-area-for-your-production-instance-of-workfront}
 
@@ -140,7 +142,7 @@ Het toegangsniveau van de Beheerder van het Systeem wordt verleend slechts op de
 
 U moet een gebruiker aan uw instantie van de Productie van Workfront toevoegen alvorens u tot de gebruiker een het systeembeheerder van Workfront kunt maken.
 
-1. Ga naar het gebruiker en admin gebied in de Admin Console, zoals die in de sectie [ wordt beschreven toegang tot het gebruiker en het admin gebied voor uw instantie van de Productie van Workfront ](#access-the-user-and-admin-area-for-your-production-instance-of-workfront) in dit artikel.
+1. Ga naar het gebruiker en admin gebied in Admin Console, zoals die in de sectie [ wordt beschreven toegang tot het gebruiker en het admin gebied voor uw instantie van de Productie van Workfront ](#access-the-user-and-admin-area-for-your-production-instance-of-workfront) in dit artikel.
 1. Selecteer het **Admins** lusje boven de lijst van gebruikers.
 1. Selecteer **Admin** toevoegen.
 1. In **voeg de beheerders van het productprofiel** doos toe, ga de e-mailadressen of de namen van de beheerders in u, dan uitgezocht **sparen** wilt toevoegen.
@@ -165,7 +167,7 @@ U moet een gebruiker aan uw instantie van de Productie van Workfront toevoegen a
 
 ### Gebruikers rechtstreeks in Workfront maken in de Adobe Admin Console
 
-1. Ga naar het gebruiker en admin gebied in de Admin Console, zoals die in de sectie [ wordt beschreven toegang tot het gebruiker en het admin gebied voor uw instantie van de Productie van Workfront ](#access-the-user-and-admin-area-for-your-production-instance-of-workfront) in dit artikel.
+1. Ga naar het gebruiker en admin gebied in Admin Console, zoals die in de sectie [ wordt beschreven toegang tot het gebruiker en het admin gebied voor uw instantie van de Productie van Workfront ](#access-the-user-and-admin-area-for-your-production-instance-of-workfront) in dit artikel.
 1. Met het **lusje van Gebruikers** dat boven de lijst wordt geselecteerd, **voegt Gebruiker** toe.
 1. In **voeg gebruikers aan dit productprofiel** doos toe, ga het e-mailadres of de naam van een gebruiker in u wilt toevoegen, dan selecteren **sparen**.
 
@@ -183,9 +185,9 @@ U moet een gebruiker aan uw instantie van de Productie van Workfront toevoegen a
 
    >[!NOTE]
    >
-   >Voor nieuwe gebruikers van de Adobe levert de Admin Console een e-mail om hen uit te nodigen om het registratieproces te voltooien. Alle gebruikers moeten het registratieproces voltooien om tot om het even welke toepassing van de Adobe toegang te hebben.
+   >Voor nieuwe Adobe-gebruikers stuurt de Admin Console een e-mail om hen uit te nodigen het registratieproces te voltooien. Alle gebruikers moeten het registratieproces voltooien om toegang te krijgen tot een Adobe-toepassing.
    >
-   >Voor bestaande gebruikers van de Adobe kan de gebruiker al dan niet een e-mail ontvangen over de beschikbaarheid van Workfront. Dit is een voorkeur die door de beheerder van de Adobe voor het product wordt gecontroleerd. Uw beheerder van de Adobe kan een andere persoon zijn dan uw beheerder van Workfront.
+   >Voor bestaande Adobe-gebruikers kan de gebruiker al dan niet een e-mail ontvangen over de beschikbaarheid van Workfront. Deze voorkeur wordt door de Adobe-beheerder voor het product bepaald. Uw Adobe-beheerder kan een andere persoon zijn dan uw Workfront-beheerder.
 
 ### Gebruikers maken in Workfront en ze goedkeuren voor de Adobe Admin Console
 
