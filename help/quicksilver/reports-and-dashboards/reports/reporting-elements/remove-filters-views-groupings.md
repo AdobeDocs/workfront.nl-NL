@@ -6,9 +6,9 @@ description: U kunt een filter, weergave of groep verwijderen uit lijsten en rap
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 422d262e-e19d-4070-85f1-77ecb7430342
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '811'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,7 @@ De volgende scenario&#39;s bestaan wanneer u een filter, een mening, of een groe
 ### Een filter, weergave of groep verwijderen met de verouderde builder
 
 1. Ga naar een lijst met objecten of een rapport.
-1. (Voorwaardelijk) van een lijst, klik de **Filter**, **Mening**, of **Groepering** pictogram, dan greep over de filter, de mening, of het groeperen u wilt verwijderen, klik het **Meer** pictogram ![](assets/more-icon.png), dan **verwijdert**. Het filter, de weergave of de groep wordt verwijderd.
+1. (Voorwaardelijk) van een lijst, klik de **Filter**, **Mening**, of **Groepering** pictogram, dan greep over de filter, de mening, of het groeperen u wilt verwijderen, klik het **Meer** pictogram ![ Meer pictogram ](assets/more-icon.png), dan **verwijdert**. Het filter, de weergave of de groep wordt verwijderd.
 1. (Voorwaardelijk) van een rapport, klik de **Groepering**, **Filter**, of **Mening** drop-down menu en uitgezocht **verwijdert Groepering**, **verwijdert Filter**, of **verwijdert Mening**.
 
    **Mijn Groepen**, **Mijn Filters,** of **Mijn de vertoningen van de de dialoogdoos van Meningen**.

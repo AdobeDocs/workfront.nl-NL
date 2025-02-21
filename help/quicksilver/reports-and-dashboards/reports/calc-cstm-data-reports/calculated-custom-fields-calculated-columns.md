@@ -7,9 +7,9 @@ description: Als u meerdere velden in Adobe Workfront wilt samenvoegen en die ge
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '817'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Voor meer informatie over de syntaxis moet u in een berekende douanekolom gebrui
 
 ## Handelingen die de update van een berekend aangepast veld activeren
 
-* Op de belangrijkste pagina van een voorwerp, klikkend het Meer pictogram ![](assets/more-icon.png), dan klikkend **opnieuw berekend Uitdrukkingen**
+* Op de belangrijkste pagina van een voorwerp, klikkend het Meer pictogram ![ Meer pictogram ](assets/more-icon.png), dan klikkend **Uitdrukkingen** opnieuw berekenen
 
 * Onk die veelvoudige voorwerpen uitgeven wanneer **de Uitdrukkingen van de Douane** opnieuw berekenen wordt toegelaten
 * Het uitgeven van een douaneformulier wanneer **vorige berekeningen** bijwerken wordt toegelaten voor het berekende douanegebied

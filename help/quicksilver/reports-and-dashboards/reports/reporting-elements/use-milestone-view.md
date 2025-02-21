@@ -6,9 +6,9 @@ description: U kunt de mening van de Mijlpaal op een projectlijst of een rapport
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1302'
+source-wordcount: '1312'
 ht-degree: 0%
 
 ---
@@ -126,16 +126,16 @@ Wanneer het bekijken van een projectlijst of een projectrapport in de mening van
 * **de statuspictogrammen van de Taak:** A statuspictogram wordt getoond naast elk project en taak in de mening van de Mijlpaal.
 
    * Op tijd\
-     ![](assets/gantt-ontime.png)
+     ![ op tijdpictogram ](assets/gantt-ontime.png)
 
    * Achter\
-     ![](assets/gantt-behind.png)
+     ![ Achter pictogram ](assets/gantt-behind.png)
 
    * Risico\
-     ![](assets/gantt-atrisk.png)
+     ![ Bij risicopictogram ](assets/gantt-atrisk.png)
 
    * Late\
-     ![](assets/gantt-late.png)
+     ![ Te laat pictogram ](assets/gantt-late.png)
 
   U kunt deze statuspictogrammen van worden getoond onbruikbaar maken, zoals die in de sectie [ wordt beschreven vormt welke informatie in de mening van de Mijlpaal ](#configure-what-information-displays-in-the-milestone-view) in dit artikel toont.\
   Voor meer gedetailleerde informatie over elk statustype, zie het overzicht van de Status van de Voortgang van de taak van artikel [ ](../../../manage-work/tasks/task-information/task-progress-status.md).

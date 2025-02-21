@@ -4,9 +4,9 @@ description: Een rapport exporteren in Rapportcanvas
 hidefromtoc: true
 hide: true
 exl-id: bd9e2e6f-338e-4cfc-aee5-6de6ecff4f09
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
 ## Een rapport exporteren
 
 1. Navigeer naar het rapport dat u wilt exporteren.
-1. In de rapportkopbal, klik **Meer** pictogram ![](assets/more-icon-27x15.png), klik **Uitvoer**, dan selecteer het dossierformaat u wilt tot stand brengen.
+1. In de rapportkopbal, klik het **Meer** pictogram ![ Meer pictogram ](assets/more-icon-27x15.png), klik **Uitvoer**, dan selecteer het dossierformaat u wilt creëren.
 
    >[!NOTE]
    >

@@ -7,9 +7,9 @@ description: U kunt de naam van een object in een weergave vervangen door een af
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e1e4a993-f05c-4b6e-b00a-e96c9ab4c94f
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ U kunt de naam van een object in een weergave vervangen door een afbeelding in d
 >
 >Afbeeldingen worden weergegeven in de werkelijke resolutie, dus probeer kleine afbeeldingen te gebruiken.
 
-![](assets/replace-project-name-with-image-and-link-350x125.png)
+![ vervang projectnaam met beeld en verbinding ](assets/replace-project-name-with-image-and-link-350x125.png)
 
 ## Toegangsvereisten
 
@@ -86,7 +86,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    1. Klik met de rechtermuisknop en selecteer **het beeldplaats van het Exemplaar**, of **krijg verbinding**, afhankelijk van uw browser. U hebt nu de URL voor die specifieke afbeelding en kunt deze plakken vanaf het klembord.
    1. Zorg ervoor dat iedereen met die verbinding toestemmingen heeft om het beeld te bekijken door enkel naar de verbinding te gaan en zij hebben geen login nodig om tot het toegang te hebben.
 
-1. Ga naar een project, klik **Meer** menu ![](assets/more-icon-45x33.png) naast de naam van het project, dan klik **uitgeven**.
+1. Ga naar een project, klik **Meer** menu ![ Meer pictogram ](assets/more-icon-45x33.png) naast de naam van het project, dan klik **uitgeven**.
 
 1. Op het **URL** gebied, voeg de verbinding aan het beeld toe.
 1. Ga naar een projectmening in een lijst van projecten.

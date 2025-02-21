@@ -7,9 +7,9 @@ description: U kunt de namen van groepen in lijsten en rapporten wijzigen in iet
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 072d3c2b-9ede-4bb9-9a27-dc77ceb732c4
-source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 U kunt de namen van groepen wijzigen in iets wat de gebruikers beter bekend is.
 
-Bijvoorbeeld, wanneer u de standaardgroepering van de Naam van het Portfolio op een lijst van projecten toepast, verschijnt de naam van de groepering als *Portfolio: Naam:`<name of portfolio>`*.
+Bijvoorbeeld, wanneer u de standaardPortfolio Naam groepering op een lijst van projecten toepast, verschijnt de naam van de groepering als *Portfolio: Naam:`<name of portfolio>`*.
 
-![](assets/grouping-unedited-name-350x167.png)
+![ Groepering door onuitgegeven naam ](assets/grouping-unedited-name-350x167.png)
 
 U kunt deze groepering wijzigen door in de tekstmodus een naam weer te geven die beter leesbaar is.
 
-![](assets/grouping-edited-name-350x160.png)
+![ Groepering door uitgegeven naam ](assets/grouping-edited-name-350x160.png)
 
 ## Toegangsvereisten
 
@@ -75,7 +75,7 @@ De weergavenaam wijzigen in een projectgroep:
 1. Ga naar een lijst met projecten.
 1. Van **het Groeperen** drop-down menu, uitgezochte **Nieuwe Groepering**.
 
-1. Klik **toevoegen groepering**, en beginnen &quot;Naam van het Portfolio&quot;in de **Groep te typen door:** gebied, dan selecteer het wanneer het in de lijst toont.
+1. Klik **toevoegen groepering**, en beginnen &quot;Naam van Portfolio&quot;in de **Groep te typen door:** gebied, dan selecteer het wanneer het in de lijst toont.
 
 1. Klik **Schakelaar aan de Wijze van de Tekst**.
 1. Voer een van de volgende handelingen uit:
@@ -103,7 +103,7 @@ De weergavenaam wijzigen in een projectgroep:
      >U kunt ook de regels `group.0.name=` en `group.0.displayname=` leeg laten. In dat geval geeft de groepering de waarde weer waarop u groepeert.
 
 
-     ![](assets/grouping-edited-name-no-name-350x162.png)
+     ![ Groepering door uitgegeven naam zonder naam ](assets/grouping-edited-name-no-name-350x162.png)
 
 1. Klik **Gedaan**, dan **sparen Groepering**.
 1. (Facultatief) werk de groeperingsnaam bij, dan klik **sparen Groepering**.

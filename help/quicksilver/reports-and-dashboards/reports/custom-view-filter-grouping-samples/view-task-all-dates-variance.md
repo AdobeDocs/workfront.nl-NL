@@ -7,9 +7,9 @@ description: Deze taakweergave is vergelijkbaar met de weergave Alle datums die 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 20df7cd8-113e-4c0d-b3f5-1def7db968a5
-source-git-commit: 4247f2b437a5627ac4cba5289573eb4f1c18c583
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Deze weergave vertegenwoordigt een voorbeeld van berekende kolommen, waarin u de
 
 Voor meer informatie over het gebruiken van berekeningen in een Mening, zie het [ Overzicht van gemeenschappelijk gebruik voor de sectie van de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md) in  [ Overzicht van gemeenschappelijk gebruik voor de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 
-![](assets/view-task-with-all-dates-variance.png)
+![ taak van de Mening met alle data ](assets/view-task-with-all-dates-variance.png)
 
 ## Toegangsvereisten
 

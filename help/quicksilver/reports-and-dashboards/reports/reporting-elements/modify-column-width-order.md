@@ -6,9 +6,9 @@ description: Lees dit artikel voor meer informatie over de richtlijnen voor kolo
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ece3f908-a0da-45d4-9f4f-0b34c69ce8fa
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1012'
 ht-degree: 0%
 
 ---
@@ -129,7 +129,7 @@ Voor meer informatie over het uitvoeren van gegevens van lijsten en rapporten, z
 
 1. Ga naar de lijst die u wilt wijzigen.
 1. Sleep de rand van een kolomkop tot de kolom de gewenste grootte heeft bereikt.\
-   ![](assets/column-resize-350x124.png)
+   ![ Resize kolom ](assets/column-resize-350x124.png)
 
 #### Kolommen tijdelijk opnieuw ordenen {#reorder-columns-temporarily}
 

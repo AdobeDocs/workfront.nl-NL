@@ -6,9 +6,9 @@ description: Referentieverzamelingen in een rapport
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '2539'
+source-wordcount: '2560'
 ht-degree: 0%
 
 ---
@@ -151,7 +151,7 @@ De mening toont taak of geeft informatie uit in een lijstformaat, met elke lijn 
 
 Om een inzamelingskolom in een rapportmening toe te voegen:
 
-1. Klik het **Belangrijkste** menu ![](assets/main-menu-icon.png), dan klik **Rapporten**.
+1. Klik het **Belangrijkste** menu ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png), dan klik **Rapporten**.
 1. Klik **Nieuw Rapport**.
 1. Selecteer het voorwerp van uw rapport.
 1. Navigeer weg van uw rapport, en gebruikend [ API Ontdekkingsreiziger ](../../../wf-api/general/api-explorer.md), bepaal welke inzamelingen voor het voorwerp beschikbaar zijn u voor uw rapport selecteerde.
@@ -236,7 +236,7 @@ Om een inzamelingskolom in een rapportmening toe te voegen:
 
 1. De volgende kolomvertoningen in het projectrapport, die van alle taken in elk project naast hun primaire wijzers een lijst maken:
 
-   ![](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png){width=400}
+   ![ het rapport van het Project met taak en toegewezen inzameling ](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png) {width= 400}
 
 1. Klik **sparen**.
 1. (Optioneel) Ga door met het bewerken van het rapport.
@@ -309,7 +309,7 @@ Bijvoorbeeld, kunt u voor taak filtreren of informatie in een projectrapport uit
 
 Een verwijzing naar een inzameling in een rapportfilter toevoegen:
 
-1. Klik het **Belangrijkste** menu ![](assets/main-menu-icon.png), dan klik **Rapporten**.
+1. Klik het **Belangrijkste** menu ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png), dan klik **Rapporten**.
 1. Klik **Nieuw Rapport**.
 1. Selecteer het voorwerp van uw rapport.
 1. Navigeer weg van uw rapport, en gebruikend [ API Ontdekkingsreiziger ](../../../wf-api/general/api-explorer.md), bepaal welke inzamelingen voor het voorwerp beschikbaar zijn u voor uw rapport selecteerde.
@@ -350,7 +350,7 @@ Een verwijzing naar een inzameling in een rapportfilter toevoegen:
 
    In dit rapport worden alleen projecten weergegeven met ten minste één taak waarvoor het woord &quot;marketing&quot; in de naam voorkomt.
 
-   ![](assets/marketing-only-tasks-in-project-report-nwe-350x309.png){width=400}
+   ![ Marketing slechts taken in project ](assets/marketing-only-tasks-in-project-report-nwe-350x309.png) {width= 400}
 
 1. Gebruik de volgende code om te filteren op de naam van een uitgave:
 
@@ -386,7 +386,7 @@ Voor meer informatie over de bouw van een filterverklaring met een inzamelingsve
 
 Om een verwijzing naar een inzameling in de douaneherinnering van een rapport toe te voegen:
 
-1. Klik het **Belangrijkste** menu ![](assets/main-menu-icon.png), dan klik **Rapporten**.
+1. Klik het **Belangrijkste** menu ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png), dan klik **Rapporten**.
 1. Klik **Nieuw Rapport**.
 1. Selecteer het voorwerp van uw rapport.
 1. Bouw een filter met een inzamelingsverwijzing zoals die in de sectie [ Verwijzing een inzameling in de Filter van een rapport ](#reference-a-collection-in-the-filter-of-a-report) in dit artikel wordt beschreven.

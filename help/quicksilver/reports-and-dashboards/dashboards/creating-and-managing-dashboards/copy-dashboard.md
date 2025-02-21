@@ -6,9 +6,9 @@ description: U kunt een dashboard en al zijn inhoud (rapporten, kalenders, en ex
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a88cc171-2bb1-40f0-a778-8dac7eecb718
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '893'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ Voor informatie bij het creëren van dashboards, zie [ een dashboard ](../../../
 
 1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Dashboards]**.
 
-1. Selecteer het dashboard dat u wilt kopiëren, dan **Exemplaar** ![](assets/copy-icon.png) klikken.\
+1. Selecteer het dashboard dat u wilt kopiëren, dan klik **![ het pictogram van het Exemplaar ](assets/copy-icon.png).**\
    of\
    Open het dashboard dat u wilt kopiëren, dan klik **Acties van het Dashboard** > **Exemplaar**.\
    Het dialoogvenster Kopiëren van dashboard wordt weergegeven. Alle items op het oorspronkelijke dashboard worden weergegeven.

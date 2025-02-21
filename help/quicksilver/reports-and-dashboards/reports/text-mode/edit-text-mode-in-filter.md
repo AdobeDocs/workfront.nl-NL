@@ -6,9 +6,9 @@ description: U kunt een filter in een lijst of rapport uitgeven gebruikend tekst
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1044'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ Voor informatie over het creëren van een rapport, zie [ een douanerapport ](../
 
 1. Voer een van de volgende handelingen uit:
 
-   Om tot de filter van een lijst toegang te hebben, ga naar de lijst en klik het **pictogram van de Filter**, dan over de filter in het zij **paneel van Filters** dat u wilt wijzigen en **klikken geeft** pictogram ![](assets/edit-icon.png) uit. Of het **zijpaneel van Filters** toont uw geselecteerde filter of de bouwer van de erfenisfilter opent.
+   Om tot de filter van een lijst toegang te hebben, ga naar de lijst en klik het **pictogram van de Filter**, dan over de filter in het zij **paneel van Filters** dat u wilt wijzigen en **klikken geeft** pictogram ![ uit uitgeven pictogram ](assets/edit-icon.png) uit. Of het **zijpaneel van Filters** toont uw geselecteerde filter of de bouwer van de erfenisfilter opent.
 
    OF
 

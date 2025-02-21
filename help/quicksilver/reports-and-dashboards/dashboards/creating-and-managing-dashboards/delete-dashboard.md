@@ -6,9 +6,9 @@ description: Als u een dashboard niet meer gebruikt, kunt u het uit Adobe Workfr
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 706a3e16-34d7-49d8-9688-109ce4f95c2f
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Een dashboard verwijderen:
 1. Ga naar het dashboard dat u wilt bewerken.
 1. Klik **Acties van het Dashboard**, dan klik **Schrapping**.
 
-   ![](assets/unshimmed-delete-dashboard.png)
+   ![ Schrap dashboard ](assets/unshimmed-delete-dashboard.png)
 
 1. Om te bevestigen dat u het dashboard wilt schrappen, klik **ja, schrap het.**
 Het dashboard wordt verwijderd uit Workfront.
@@ -84,9 +84,9 @@ Als u meerdere dashboards verwijdert, kunt u de dashboards van het gebied van Da
 Meerdere dashboards verwijderen:
 
 1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Dashboards]**.
-1. Selecteer elk dashboard in de lijst die u wilt schrappen, dan **Schrapping** ![](assets/delete.png) klikken.
+1. Selecteer elk dashboard in de lijst die u wilt schrappen, dan **Schrapping** ![ schrapt pictogram ](assets/delete.png).
 
-   ![](assets/unshimmed-delete-dashboard-list.png)
+   ![ Schrap dashboard ](assets/unshimmed-delete-dashboard-list.png)
 
 1. Om te bevestigen dat u het dashboard wilt schrappen, klik **ja, schrap het.**
 Het dashboard wordt verwijderd uit Workfront.

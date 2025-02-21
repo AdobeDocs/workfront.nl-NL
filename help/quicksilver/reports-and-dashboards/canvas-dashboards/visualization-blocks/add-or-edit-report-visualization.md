@@ -4,9 +4,9 @@ description: Een visualisatieblok toevoegen of bewerken in Rapportcanvas
 hidefromtoc: true
 hide: true
 exl-id: 14750eb1-d0a3-42ea-bd2e-100b633322ff
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -32,12 +32,12 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
 >
 >Alle wijzigingen worden automatisch opgeslagen wanneer u de blokken in uw rapport maakt en bewerkt.
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Meldend**.
+1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** Meldend **.**
 1. Klik **Nieuw rapport**, creeer dan een rapport met lijsten die gegevens bevatten, zoals die in [ worden beschreven bouw een rapport in het Melden van Canvas ](../../../reports-and-dashboards/reporting-canvas/manage-reports/build-report.md) en [ voeg of geef een lijstblok in het Melden van Canvas ](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md) toe uit.
 
    of
 
-   In een bestaand rapport met lijsten die gegevens bevatten, klik het **Meer pictogram van het Menu** ![](assets/more-icon.png) in de rapportkopbal, dan uitgezocht **geeft** uit.
+   In een bestaand rapport met lijsten die gegevens bevatten, klik het **Meer pictogram van het Menu** ![ Meer pictogram ](assets/more-icon.png) in de rapportkopbal, dan uitgezocht **geeft** uit.
 
 1. Op de rechterkant van het scherm, onder **voeg een Blok** toe, of:
 
@@ -57,7 +57,7 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
 
 1. (Voorwaardelijk) als het rapport meer dan één lijst bevat, in **bouwt uw visualisatie** doos die toont, selecteer de bronlijst voor de visualisatie.
 
-   ![](assets/select-table-on-vis-350x155.png)
+   ![ Uitgezochte lijst op visualisatie ](assets/select-table-on-vis-350x155.png)
 
    >[!NOTE]
    >
@@ -65,7 +65,7 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
 
 1. Selecteer het type visualisatie dat u wilt toevoegen.
 
-   ![](assets/select-vis-type-350x205.png)
+   ![ Uitgezochte visualisatietype ](assets/select-vis-type-350x205.png)
 
    Uw visualisatie wordt weergegeven, die de gegevens vertegenwoordigt van de tabel die u hebt geselecteerd.
 

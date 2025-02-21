@@ -6,9 +6,9 @@ description: Als er in Adobe Workfront meerdere wisselkoersen zijn geconfigureer
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a0837c70-8330-4c38-98dc-8cf2e7e2e4bd
-source-git-commit: 2322415c173919a1fecffabb4b561645d33eea8d
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '984'
 ht-degree: 0%
 
 ---
@@ -117,13 +117,13 @@ Twee projecten met aangepaste valuta&#39;s weergeven in een rapport:
 
 1. Maak twee projecten met verschillende toegepaste valuta.
 
-   ![](assets/qs-currency-350x217.png)
+   ![ Valuta ](assets/qs-currency-350x217.png)
 
 1. Log uren op beide projecten.
 
    Voor meer informatie over logboektijd, zie [ tijd van het Logboek ](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png), dan klik **Meldend**.
+1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png), dan klik** Meldend **.**
 1. Klik **Nieuw Rapport**, toen **Rapport van het Project**.
 1. In de **Kolommen (Mening)** tabel, voeg een **Ware Kostenkolom** toe en vat het door **Som** samen.
 
@@ -182,6 +182,6 @@ Een financieel veld in een rapport online bewerken:
 1. Klik **Montages van het Rapport**.
 1. Klik de **drop-down Van de StandaardValuta**, dan uitgezochte **Oorspronkelijke Valuta van het Project**.
 
-   ![](assets/qs-report-settings-default-currency-350x370.png)
+   ![ Standaardmunt ](assets/qs-report-settings-default-currency-350x370.png)
 
 1. Klik **Gedaan**.

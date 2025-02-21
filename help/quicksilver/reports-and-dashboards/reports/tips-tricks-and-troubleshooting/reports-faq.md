@@ -7,9 +7,9 @@ description: Veelgestelde vragen over rapporten
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1519'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Voor informatie bij het wijzigen van filters en groeperingen, zie het overzicht 
 ### Antwoord
 
 Het rapport of de kalender zouden een variabele van de vervangingsfilter kunnen hebben die aan de gebruiker richt die het programma wordt geopend. In dit geval, toont het rapport informatie die op de gebruiker wordt gebaseerd die het programma wordt geopend. Pas het filter aan om het jokerteken te verwijderen dat naar de aangemelde gebruiker wijst.\
-![](assets/qs--user.id-filter-variable-350x79.png)
+![ de filtervariabele van identiteitskaart van de Gebruiker ](assets/qs--user.id-filter-variable-350x79.png)
 
 Voor een volledige lijst van op gebruiker-gebaseerde het filtervariabelen overzicht van de Vervanging, zie [ overzicht van de de filtervariabelen van de Vervanging ](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
@@ -122,7 +122,7 @@ Om alle taken of kwesties te zien die aan u worden toegewezen, of u de Eigenaar 
 1. Selecteer de **Gelijke** bepaling.
 1. Typ *$$USER.ID* in het tekstvak en selecteer het in de vervolgkeuzelijst die wordt weergegeven.\
    Dit zorgt ervoor dat u alle taken en kwesties ziet die aan de het programma geopende gebruiker worden toegewezen. U kunt het jokerteken vervangen door een specifieke gebruikersnaam.\
-   ![](assets/qs-tasks-assigned-to-me-assignment-users-name-filter-350x63.png)
+   ![ Taken die aan me ](assets/qs-tasks-assigned-to-me-assignment-users-name-filter-350x63.png) worden toegewezen
 
 1. Klik **sparen + Sluiten**.
 
@@ -143,7 +143,7 @@ Er zijn echter een paar dingen die voorkomen dat deze koppelingen worden weergeg
 * Als u a **Mening** hebt die op deze lijsten wordt toegepast die een valuta anders dan de standaardmunt voor het project heeft geselecteerd, tonen de verbindingen niet. Verander de **Mening** aan **Originele Munt van het Project** en de verbindingen zouden moeten tonen zodat kunt u kwesties en taken aan uw projecten toevoegen.\
   Voor meer informatie bij het veranderen van de munt in uw Mening, zie [ financiële gegevensrapporten met unieke wisselkoersen ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md) creëren.
 
-![](assets/nwe-project-original-currency-350x229.png)
+![ de munteenheid van het Project ](assets/nwe-project-original-currency-350x229.png)
 
 ## Vernieuwt de informatie in mijn rapport of dashboard automatisch?
 

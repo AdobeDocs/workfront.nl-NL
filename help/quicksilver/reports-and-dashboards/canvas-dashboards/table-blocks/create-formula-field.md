@@ -4,9 +4,9 @@ description: Bouw een formules gebied in het Rapporteren van Canvas
 hidefromtoc: true
 hide: true
 exl-id: 22a2c3d7-39db-4f5d-94f3-222ca3ee0615
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
@@ -22,16 +22,16 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
 ## Een veld met een formule maken
 
 1. Creeer of navigeer aan een lijstblok, zoals die in [ wordt beschreven voeg of geef een lijstblok in het Melden van Canvas ](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md) toe uit.
-1. Voor de lijstkopbal in het rapport, klik **uitgeven** pictogram ![](assets/edit-icon.png).
+1. Voor de lijstkopbal in het rapport, klik **uitgeven** pictogram ![ pictogram geeft pictogram ](assets/edit-icon.png) uit.
 
-   ![](assets/edit-icon-table-header-350x71.png)
+   ![ geef pictogram in lijstkopbal uit ](assets/edit-icon-table-header-350x71.png)
 
    >[!NOTE]
    >
    >Als u de tabel hebt gemaakt en nog geen velden hebt toegevoegd, klikt u in plaats daarvan op de knop Bewerken in het midden van de tabel.
 
 1. Klik **Nieuw +** bij de bovenkant van de **lijst van Gebieden** op het juiste paneel.
-1. In de nieuwe pagina die opent, klik **geeft** pictogram ![](assets/edit-icon.png) naast de gebiedsnaam in de top-left hoek uit om de naam van het formuleringsgebied te veranderen.
+1. In de nieuwe pagina die opent, **uitgeeft** pictogram ![ geeft pictogram ](assets/edit-icon.png) naast de gebiedsnaam in de top-left hoek uit om de naam van het formuleringsgebied te veranderen.
 1. Sleep **Functies** of **Gebieden** van het linkerpaneel op de gebiedsbouwer in het centrum om hen aan uw formuleringsgebied toe te voegen.
 
 

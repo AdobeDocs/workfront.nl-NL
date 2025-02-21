@@ -4,9 +4,9 @@ description: Vorm een bar visualisatie in het Rapporterende Canvas
 hidefromtoc: true
 hide: true
 exl-id: 7dc4f156-d262-482f-aa82-c905f0d1b20f
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
 
 1. Begin door een visualisatieblok met het **visualisatietype 0} Bar {aan een rapport toe te voegen, zoals die in [ wordt verklaard voeg of geef een visualisatieblok in het Melden van Canvas ](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md) toe uit.**
 
-1. Klik op het pictogram Visualisatie bewerken ![](assets/edit-icon.png) in de rechterbovenhoek van de visualisatie en voer een van de volgende handelingen uit.
+1. Klik het Edit visualisatiepictogram ![ uitgeven pictogram ](assets/edit-icon.png) in de hoger-juiste hoek van visualisatie, dan doe om het even welk volgend.
 
    1. Op het **lusje van Montages**:
 

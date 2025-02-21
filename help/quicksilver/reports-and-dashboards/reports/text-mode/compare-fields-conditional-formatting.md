@@ -6,9 +6,9 @@ description: Met voorwaardelijke opmaak kunt u twee verschillende velden in een 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: da4447ba-6e76-4701-88ee-87a30393bed9
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ U kunt als volgt de geplande begindatum en de werkelijke begindatum vergelijken 
 1. Voer de vergelijkingscriteria in op basis van bestaande waarden in de builder en geef de voorwaardelijke opmaak op.\
    We willen bijvoorbeeld taken markeren waarbij de werkelijke begindatum later is dan (of hoger is dan) de geplande begindatum. Selecteer de optie Groter dan en selecteer een werkelijke datum in het datumveld.
 
-   ![](assets/cond-format-1-350x84.png)
+   ![ Voorwaardelijke het formatteren voor daadwerkelijke begindatum ](assets/cond-format-1-350x84.png)
 
 1. (Optioneel) Selecteer **Toepassen op volledige rij** als u de opmaak op de volledige rij wilt toepassen.
 1. Klik **sparen**.
@@ -104,7 +104,7 @@ U kunt als volgt de geplande begindatum en de werkelijke begindatum vergelijken 
 
 1. Zorg ervoor dat de coderegel `righttext` overeenkomt met de instructie in de coderegel `rightmethod` .
 
-   ![](assets/cond-format-2-350x171.png)
+   ![ Voorwaardelijke het formatteren ](assets/cond-format-2-350x171.png)
 
 1. Klik **sparen**.
 1. Klik **sparen + Sluiten**.

@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Verslag: Budgeted Hour"
-description: "Verslag: Budgeted Hour"
+title: 'Verslag: Budgeted Hour'
+description: 'Verslag: Budgeted Hour'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2c0b60a6-fae4-4b29-8243-2a7f7d1f574b
-source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '670'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Wanneer u de informatie van het BoedgetedUur met andere gebruikers wilt delen di
 >
 >De begrote Uren worden normaal elk uur bijgewerkt (zelden, kan het een maximum van drie uren) in het gegevensbestand van Adobe Workfront vergen. Het verfrissen van het rapport verfrist noodzakelijk niet de uurinformatie in het. U kunt de tijd bekijken die sinds de laatste update in de hoger-juiste hoek van elk Boekgeted rapport van het Uur is verlopen. Als u het rapport vernieuwt, wordt de informatie in het rapport alleen vernieuwd als er meer dan een uur is verstreken sinds de laatste update.
 >
->![](assets/budgeted-hour-report-time-sync-warning-350x74.png)
+>![ de synchronisatiewaarschuwing van de het rapporttijd van het begrote uur tijd ](assets/budgeted-hour-report-time-sync-warning-350x74.png)
 
 ## Toegangsvereisten
 
@@ -72,7 +72,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Een rapport over een &#39;Budgeted Hour&#39; maken
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek, of het **Belangrijkste pictogram van het Menu** ![](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar, dan klik **Rapporten**.
+1. Klik het **pictogram van het 1} Belangrijkste Menu ![ pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, of het** Belangrijkste pictogram van het Menu **pictogram ![ Belangrijkste lijnen van het Menu ](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar, dan klik** Rapporten **.**
 
 1. Klik **Nieuw Rapport** > **Meer** > **Beoogde Uur**.
 

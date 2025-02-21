@@ -7,9 +7,9 @@ description: U kunt zien of een rapport aan een dashboard in Adobe Workfront wor
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce00c307-9e64-49f5-997b-f7fc461c960c
-source-git-commit: d738ef3f6642d5b1a646f58896575a2971bbc06a
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 Een mening met dashboardinformatie voor een rapportlijst bouwen:
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Workfront, dan klik **Rapporten**.
+1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Workfront, dan klik** Rapporten **.**
 1. Voor de lijst van rapporten, klik het **drop-down menu van de Mening**.
 1. Klik **Nieuwe Mening**.
 1. Klik **toevoegen Kolom**.
@@ -77,13 +77,13 @@ Een mening met dashboardinformatie voor een rapportlijst bouwen:
 
 1. Klik **sparen Mening**.\
    De dashboards dat een rapport op vertoning in de kolom van Dashboards van de rapportlijst verschijnt.\
-   ![](assets/qs-dashboards-in-report-view.png)
+   ![ dashboards in rapport ](assets/qs-dashboards-in-report-view.png)
 
 ## Een rapportlijst filteren op dashboardgegevens
 
 Een lijst met rapporten filteren op dashboardgegevens:
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Workfront, dan klik **Rapporten**.
+1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Workfront, dan klik** Rapporten **.**
 
 1. Voor de lijst van rapporten, klik het **drop-down menu van de Filter**.
 1. Klik **Nieuwe Filter**, dan klik **voegt een Regel van de Filter** toe.
@@ -93,7 +93,7 @@ Een lijst met rapporten filteren op dashboardgegevens:
 1. Onder het **voorwerp van Dashboards**, uitgezochte **Naam**.
 
 1. Selecteer **Gelijk** in het bepalingsdrop-down menu, dan begin de naam van het dashboard te typen u wilt filtreren door. U kunt meerdere dashboards voor uw filter selecteren.\
-   ![](assets/qs-dashboards-in-report-filters-350x143.png)
+   ![ dashboards in rapportfilters ](assets/qs-dashboards-in-report-filters-350x143.png)
 
 1. Klik **sparen + Sluiten**.\
    Dit toont een lijst van rapporten die slechts op de gespecificeerde dashboards vermeld zijn.\

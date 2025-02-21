@@ -6,9 +6,9 @@ description: Filters en herinneringen zijn gelijkaardig in die zin dat zij alleb
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b4058fb3-7360-474f-8be1-1c6b584749b0
-source-git-commit: 93fca2a98a8b9d4370841b10be10ed2ba15283c9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1369'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ Voor instructies bij het creëren van een rapport, zie [ een rapport ](../../../
 
 1. Klik de **knoop van de Montages van het Rapport**.
 1. Klik het **Prompts van het Rapport** lusje, dan klik **toevoegen een Herinnering**.\
-   ![](assets/create-report-prompt-tab.png)
+   ![ de herinneringen van het Rapport tabel ](assets/create-report-prompt-tab.png)
 
 1. (Voorwaardelijk) Selecteer het gebied dat u de herinnering wilt worden gebaseerd op. Typ de naam van het veld en klik om het te selecteren wanneer het veld in de lijst wordt weergegeven.\
    Welke opties beschikbaar zijn voor gebruikers die het rapport uitvoeren, is afhankelijk van het veld dat u selecteert.\
@@ -144,7 +144,7 @@ Om een rapport met een herinnering in werking te stellen:
 
 1. Ga naar het rapport met de prompt.
 
-   ![](assets/run-report-prompts.png)
+   ![ het rapportherinneringen van de Looppas ](assets/run-report-prompts.png)
 
 1. Kies een voorwaarde voor één of alle herinneringen die op **worden getoond Vragen** tabel.\
    (Optioneel) U kunt de vragen leeg laten en het rapport niet filteren op basis van de voorwaarden voor de vraag.

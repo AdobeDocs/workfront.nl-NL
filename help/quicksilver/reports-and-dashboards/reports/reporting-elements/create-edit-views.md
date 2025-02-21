@@ -6,9 +6,9 @@ description: U kunt het type informatie aanpassen dat u op het scherm weergeeft 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1718'
+source-wordcount: '1731'
 ht-degree: 0%
 
 ---
@@ -123,7 +123,7 @@ Klik **uitgeven** pictogram ![ geeft pictogram ](assets/edit-icon.png) uit dat o
          <tbody> 
           <tr> 
            <td role="rowheader"><strong>Aangepast kolomlabel</strong></td> 
-           <td><p>Geef een aangepast label voor de kolom op. Dit label vervangt het standaardlabel.</p></td> 
+           <td><p>Geef een aangepast label voor de kolom op. Dit label vervangt het standaardlabel. We raden u aan alleen UTF-8-tekens te gebruiken om compatibiliteitsproblemen te voorkomen.</p></td> 
           </tr> 
           <tr> 
            <td role="rowheader"><strong>Veldindeling</strong></td> 
@@ -179,7 +179,7 @@ U kunt als volgt een eenvoudige weergave maken of aanpassen:
       U kunt de standaardweergave Gelijk niet aanpassen.
 
    1. Klik opnieuw het **drop-down menu van de Mening**, dan klik **aanpassen Mening**.\
-      ![](assets/view-agile-customize.png)
+      ![ pas mening ](assets/view-agile-customize.png) aan
 
 1. (Voorwaardelijk) om een nieuwe Gelijke mening tot stand te brengen, klik **Nieuwe Mening**.\
    Het **** de dialoogvakje van de Mening van de Gelijkheid aanpassen.

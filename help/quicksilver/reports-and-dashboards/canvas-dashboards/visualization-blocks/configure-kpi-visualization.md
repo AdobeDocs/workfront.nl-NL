@@ -4,9 +4,9 @@ description: Vorm een KPI visualisatie in het Melden van Canvas
 hidefromtoc: true
 hide: true
 exl-id: 38beccf6-d7bc-478f-8bba-56607d315e6f
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
 
 1. Begin door een visualisatieblok met **KPI** visualisatietype aan een rapport toe te voegen, zoals verklaard in [ voeg of geef een visualisatieblok in het Melden van Canvas ](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md) toe uit.
 
-1. Klik op het pictogram Visualisatie bewerken ![](assets/edit-icon.png) in de rechterbovenhoek van de visualisatie en voer een van de volgende handelingen uit.
+1. Klik het Edit visualisatiepictogram ![ uitgeven pictogram ](assets/edit-icon.png) in de hoger-juiste hoek van visualisatie, dan doe om het even welk volgend.
 
    1. Op het **lusje van Montages**:
 

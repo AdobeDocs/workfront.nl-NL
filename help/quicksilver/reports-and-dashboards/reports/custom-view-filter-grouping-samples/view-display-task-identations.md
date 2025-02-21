@@ -7,9 +7,9 @@ description: In deze taakmening, kunt u code aan de kolom van de Naam van de Taa
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f7f43e1e-db32-48b8-9a23-ff9fa6195386
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 In deze taakmening, kunt u code aan de kolom van de Naam van de Taak toevoegen om de taken te tonen die volgens de Structuur van de Onderverdeling van het Werk van het project worden ingesprongen.
 
-![](assets/view-text-mode-indentation-task-list-350x171.png)
+![ de taakinspringing van de Mening ](assets/view-text-mode-indentation-task-list-350x171.png)
 
 ## Toegangsvereisten
 

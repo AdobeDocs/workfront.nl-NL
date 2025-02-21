@@ -6,9 +6,9 @@ description: Het doel van het dashboard is om snel toegang tot informatie te bie
 author: Nolan
 feature: Reports and Dashboards
 exl-id: de15ab45-4bcd-4638-b3d7-fc70a0866d2d
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ Voor informatie bij het creëren van dashboards, zie [ een dashboard ](../../../
 1. Ga naar het dashboard dat u wilt bewerken.
 1. Klik **Acties van het Dashboard**, dan klik **uitgeven**.
 
-   ![](assets/unshimmed-edit-dashboard.png)
+   ![ geef dashboard ](assets/unshimmed-edit-dashboard.png) uit
 
    >[!TIP]
    >

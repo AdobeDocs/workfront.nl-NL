@@ -6,9 +6,9 @@ description: U kunt een rapport filteren tegen het tijdkader van een datum die o
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1024'
 ht-degree: 0%
 
 ---
@@ -70,14 +70,14 @@ Voor meer informatie bij het creëren van rapporten, zie [ een rapport ](../../.
 
 ## Een rapport filteren op het tijdframe van een datum {#filter-a-report-by-the-time-frame-of-a-date}
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png), dan klik **Meldend**.
+1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png), dan klik** Meldend **.**
 
 1. Klik **Nieuw Rapport**, dan selecteer het type van rapport u wilt.\
    Bijvoorbeeld, uitgezochte **Rapport van het Uur**.
 
 1. Selecteer de **Filters** tabel.
 1. Klik **toevoegen een Regel van de Filter**, dan selecteren **Datum van de Ingang van het Uur**.\
-   ![](assets/qs-filtering-hour-report-by-timeframe-350x357.png)
+   ![ het Filtreren het rapport van uur door timeframe ](assets/qs-filtering-hour-report-by-timeframe-350x357.png)
 
 1. Selecteer in het volgende keuzemenu een van de volgende opties:
 

@@ -7,9 +7,9 @@ description: Meer informatie over de projectweergave in meerdere rijen vindt u i
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 3c6028c0-2c9f-4f86-aa6c-bf089844bac8
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -23,11 +23,11 @@ In deze projectweergave kunt u:
 * Projectinformatie weergeven in een indeling met meerdere rijen.\
   In de weergave wordt de tag `sharecol=true` gebruikt om meerdere velden onder dezelfde kolomkop te combineren. Meer over deze markering leren, zie [ Mening: voeg informatie van veelvoudige kolommen in één gedeelde kolom ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md) samen.
 
-* Gebruik een kolom van de plaatshouder die een markering van de de regelonderbreking van de HTML (`<br>`) bevat om de Beschrijving te dwingen om onder de projectnaam, bijvoorbeeld te tonen.
+* Gebruik een kolom van de plaatshouder die een markering van de de regelonderbreking van HTML (`<br>`) bevat om de Beschrijving te dwingen om onder de projectnaam, bijvoorbeeld te tonen.
 * Geef de eigenaar van het project tussen haakjes weer achter de projectnaam.
 * Toon de Naam van het Project als verbinding aan het project.
 
-![](assets/project-multi-row-stacked-view-350x219.png)
+![ rij van het Project met gestapelde mening ](assets/project-multi-row-stacked-view-350x219.png)
 
 ## Toegangsvereisten
 

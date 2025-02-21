@@ -7,9 +7,9 @@ description: U kunt een rapport alleen in een diagram weergeven op basis van een
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '1019'
 ht-degree: 0%
 
 ---
@@ -125,7 +125,7 @@ U kunt als volgt het berekende aangepaste veld bouwen dat verwijst naar het aang
 
 1. Vervang &quot;Aangepast veld met meerdere selecties&quot; door de werkelijke naam van het aangepaste veld met meerdere selecties, zoals dit wordt weergegeven in Workfront.
 
-   ![](assets/calculated-multi-select-custom-field-nwe-350x223.png)
+   ![ Berekende multi-uitgezochte gebied van de douane ](assets/calculated-multi-select-custom-field-nwe-350x223.png)
 
 1. (Facultatief) als multi-uitgezochte douanegebied reeds op deze vorm is en als deze vorm reeds in bijlage aan voorwerpen is, laat **toe van toepassing zijn op bestaande berekeningen** optie.
 
@@ -140,11 +140,11 @@ U kunt als volgt het berekende aangepaste veld bouwen dat verwijst naar het aang
 
 1. (Facultatief) om ervoor te zorgen dat alle berekende gebieden die u door wilt in kaart brengen met waarden bevolkt zijn, van het lusje van Details van het rapport selecteert alle voorwerpen die de douanevorm met zowel het multi-uitgezochte douanegebied als het berekende douanegebied bevatten, dan klik **geeft** uit.
 1. (Facultatief en voorwaardelijk) selecteer **opnieuw berekend het gebied van de Uitdrukkingen van de Douane**, dan klik **sparen Veranderingen**.\
-   ![](assets/recalculate-custom-expressions-350x259.png)
+   ![ herberekenen douaneuitdrukkingen ](assets/recalculate-custom-expressions-350x259.png)
 
    >[!NOTE]
    >
-   >Deze optie is verwijderd uit het bulksgewijs bewerken van projecten.  U kunt uitdrukkingen voor projecten in massa nog opnieuw berekenen door **Meer** pictogram ![](assets/more-icon-45x33.png) bij de bovenkant van een projectlijst te klikken, dan **opnieuw te berekenen Uitdrukkingen**.
+   >Deze optie is verwijderd uit het bulksgewijs bewerken van projecten.  U kunt uitdrukkingen voor projecten in massa nog opnieuw berekenen door **Meer** pictogram ![ ](assets/more-icon-45x33.png) bij de bovenkant van een projectlijst te klikken, toen **Uitdrukkingen** opnieuw berekenen.
 
 1. Ga naar het rapport waar u de grafiek voor het berekende gebied wilt toevoegen dat multi-select douaneveld van verwijzingen voorziet.
 1. Klik **de Acties van het Rapport**, dan **uitgeven**.
@@ -160,4 +160,4 @@ U kunt als volgt het berekende aangepaste veld bouwen dat verwijst naar het aang
 
    Het rapport toont de resultaten die door het Berekende Multi uitgezochte Gebied in een grafiek worden gegroepeerd.
 
-   ![](assets/chart-multi-select-field-column-chart-example.png)
+   ![ Multi uitgezochte gebied in grafiek ](assets/chart-multi-select-field-column-chart-example.png)

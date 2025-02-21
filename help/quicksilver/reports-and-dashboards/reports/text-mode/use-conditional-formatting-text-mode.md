@@ -6,9 +6,9 @@ description: Voorwaardelijke opmaak gebruiken in tekstmodus
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1682'
+source-wordcount: '1734'
 ht-degree: 0%
 
 ---
@@ -189,10 +189,10 @@ styledef.case.0.comparison.trueproperty.0.value=03a219
 >* Terwijl deze verklaring op een kolom van de Naam van het Bedrijf kon worden toegepast, kon het ook op een andere kolom op het rapport worden toegepast. De groene tekst zou slechts worden getoond als het project een Bedrijf verbonden aan het had. Onthoud het station `[field name]` , `[value]` en `[qualifier]` , ongeacht of de conditionering uiteindelijk op de kolom wordt weergegeven.
 >* Als u met kwalificatietoetsen werkt, raden we u aan `cicontains` te gebruiken in plaats van `equal` . Standaard zoekt `equal` naar id-nummers. Met de kwalificatie `cicontains` hebt u toegang tot items op basis van hun naam.
 
-![](assets/screen-shot-2013-08-15-at-2.53.51-pm-350x199.png){width="500"}
+![ de wijzevoorbeeld van de Tekst ](assets/screen-shot-2013-08-15-at-2.53.51-pm-350x199.png){width="500"}
 
 
-![](assets/screen-shot-2013-08-15-at-2.54.08-pm-350x185.png){width="400"}
+![ resultaten van het de wijzevoorbeeld van de Tekst ](assets/screen-shot-2013-08-15-at-2.54.08-pm-350x185.png){width="400"}
 
 Of Tekstkleur, Uitlijning, Lettertypestijl of Achtergrondkleur nu worden toegepast op een tekstmodus, dezelfde instructie (hierboven weergegeven) wordt gebruikt.
 
@@ -297,9 +297,9 @@ styledef.case.0.comparison.truetext=not today
 >
 >De regels die beginnen met `case.0.` gebruiken hoofdlettervergelijkingen met het identificeren van het gebruik van tekst. De regels die beginnen met `styledef.case.0.` zijn vroege voorwaardelijke opmaakinstructies waarin we het gebruik van tekst identificeren via de `truetext` -expressie. Stel `truetext` in op een waarde in plaats van deze leeg te laten.
 
-![](assets/screen-shot-2013-08-15-at-3.22.02-pm-350x196.png){width="500"}
+![ pas tekstvoorbeeld ](assets/screen-shot-2013-08-15-at-3.22.02-pm-350x196.png){width="500"} toe
 
-![](assets/screen-shot-2013-08-15-at-3.22.16-pm-350x151.png){width="400"}
+![ pas tekstresultaten ](assets/screen-shot-2013-08-15-at-3.22.16-pm-350x151.png){width="400"} toe
 
 #### Rijindelingen toepassen {#apply-row-formats}
 
@@ -359,30 +359,30 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
 >
 >De instructie gebruikt de expressie `icon=true` . Deze instructie verschilt ook van andere instructies voor voorwaardelijke opmaak, omdat deze niet de `style.def` -indeling gebruikt, maar een unieke afbeeldingsindeling.
 
-![](assets/screen-shot-2013-08-15-at-3.35.08-pm-350x199.png){width="500"}
+![ de tekstwijze van het Pictogram ](assets/screen-shot-2013-08-15-at-3.35.08-pm-350x199.png){width="500"}
 
-![](assets/screen-shot-2013-08-15-at-3.35.22-pm-1-350x167.png){width="400"}
+![ de resultaten van de de tekstwijze van het Pictogram ](assets/screen-shot-2013-08-15-at-3.35.22-pm-1-350x167.png){width="400"}
 
 Als u de beschikbare afbeeldingen wilt gebruiken, past u de volgende code en waarden toe:
 
 | **Pictogram** | **Lijn: image.case.0.compare.truetext=** |
 |---|---|
-| Voorkant ![](assets/face-sad.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_frown.gif` |
-| Fijne kant ![](assets/face-happy.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_smile.gif` |
-| Blauwe vlag ![](assets/flag-blue-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_blue.gif` |
-| Groene vlag ![](assets/flag-green-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_green.gif` |
-| Rode vlag ![](assets/flag-red-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_red.gif` |
-| Gele markering ![](assets/flag-yellow-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_yellow.gif` |
-| Zwarte cirkel ![](assets/dot-black.png) | =`/interface/images/v4_redux/icons/casebuilder/light_black.gif` |
-| Blauwe cirkel ![](assets/dot-blue.png) | =`/interface/images/v4_redux/icons/casebuilder/light_blue.gif` |
-| Grijze cirkel ![](assets/dot-gray.png) | =`/interface/images/v4_redux/icons/casebuilder/light_grey.gif` |
-| Groene cirkel ![](assets/dot-green.png) | =`/interface/images/v4_redux/icons/casebuilder/light_green.gif` |
-| Oranje cirkel ![](assets/dot-orange.png) | =`/interface/images/v4_redux/icons/casebuilder/light_orange.gif` |
-| Roze cirkel ![](assets/dot-pink.png) | =`/interface/images/v4_redux/icons/casebuilder/light_pink.gif` |
-| Paarse cirkel ![](assets/dot-purple.png) | =`/interface/images/v4_redux/icons/casebuilder/light_purple.gif` |
-| Rode cirkel ![](assets/dot-red.png) | =`/interface/images/v4_redux/icons/casebuilder/light_red.gif` |
-| Witte cirkel ![](assets/dot-white.png) | =`/interface/images/v4_redux/icons/casebuilder/light_white.gif` |
-| Gele cirkel ![](assets/dot-yellow.png) | =`/interface/images/v4_redux/icons/casebuilder/light_yellow.gif` |
+| Van het Gezicht van de voorzijde ![ Voorzijde ](assets/face-sad.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_frown.gif` |
+| Fijne Gezicht ![ Fijne gezicht ](assets/face-happy.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_smile.gif` |
+| Blauwe vlag ![ Blauwe vlag ](assets/flag-blue-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_blue.gif` |
+| Groene Vlag ![ Groene vlag ](assets/flag-green-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_green.gif` |
+| De rode vlag van de Vlag ![ Rode vlag ](assets/flag-red-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_red.gif` |
+| De gele vlag van de Vlag ![ Gele vlag ](assets/flag-yellow-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_yellow.gif` |
+| De zwarte cirkel ![ Zwarte cirkel ](assets/dot-black.png) | =`/interface/images/v4_redux/icons/casebuilder/light_black.gif` |
+| Blauwe cirkel ![ Blauwe cirkel ](assets/dot-blue.png) | =`/interface/images/v4_redux/icons/casebuilder/light_blue.gif` |
+| Grijze cirkel ![ Grijze cirkel ](assets/dot-gray.png) | =`/interface/images/v4_redux/icons/casebuilder/light_grey.gif` |
+| Groene Cirkel ![ Groene cirkel ](assets/dot-green.png) | =`/interface/images/v4_redux/icons/casebuilder/light_green.gif` |
+| Oranje cirkel ![ Oranje cirkel ](assets/dot-orange.png) | =`/interface/images/v4_redux/icons/casebuilder/light_orange.gif` |
+| Roze Cirkel ![ Roze cirkel ](assets/dot-pink.png) | =`/interface/images/v4_redux/icons/casebuilder/light_pink.gif` |
+| Paarse Cirkel ![ Paarse cirkel ](assets/dot-purple.png) | =`/interface/images/v4_redux/icons/casebuilder/light_purple.gif` |
+| Rode cirkel ![ Rode cirkel ](assets/dot-red.png) | =`/interface/images/v4_redux/icons/casebuilder/light_red.gif` |
+| Witte cirkel ![ Witte cirkel ](assets/dot-white.png) | =`/interface/images/v4_redux/icons/casebuilder/light_white.gif` |
+| Gele Cirkel ![ Gele cirkel ](assets/dot-yellow.png) | =`/interface/images/v4_redux/icons/casebuilder/light_yellow.gif` |
 
 {style="table-layout:auto"}
 

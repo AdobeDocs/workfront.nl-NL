@@ -7,9 +7,9 @@ description: U zou uw taken kunnen willen bekijken die door Percentage wordt geg
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 93b743ce-7e54-4a96-933b-912e2107a84f
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 U zou uw taken kunnen willen bekijken die door Percentage wordt gegroepeerd Voltooien in waaiers van 0-25, 26-50, 51-75, 75-99, en 100. Hiervoor kunt u een groepering maken in de tekstmodus.
 
-![](assets/grouping-calculated-value-column-to-all-objects.png)
+![ Groepering door berekende waarde ](assets/grouping-calculated-value-column-to-all-objects.png)
 
 ## Toegangsvereisten
 

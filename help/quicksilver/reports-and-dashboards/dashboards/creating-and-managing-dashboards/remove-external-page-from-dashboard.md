@@ -6,9 +6,9 @@ description: U kunt een externe pagina van een dashboard verwijderen als het nie
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9e400b8a-bbb8-4d1f-b419-d4a4518c0b2e
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -69,11 +69,11 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 1. Klik **Acties van het Dashboard**, dan klik **uitgeven**.
 
-   ![](assets/unshimmed-edit-dashboard.png)
+   ![ geef dashboard ](assets/unshimmed-edit-dashboard.png) uit
 
-1. Op de rechterkant van het scherm, bepaal de plaats van de externe pagina u **schrapt** pictogram ![](assets/delete.png) wilt verwijderen en klikken van de Schrapping.
+1. Op de rechterkant van het scherm, bepaal de plaats van de externe pagina u **schrapt en klikt pictogram van de Schrapping** ![ pictogram van de Schrapping ](assets/delete.png).
 
-   ![](assets/delete-external-page-icon-inside-dashboard-nwe-350x284.png)
+   ![ Schrap extern paginapictogram binnen dashboard ](assets/delete-external-page-icon-inside-dashboard-nwe-350x284.png)
 
 1. Klik **sparen + Sluiten** in de laag-linkerhoek.
 

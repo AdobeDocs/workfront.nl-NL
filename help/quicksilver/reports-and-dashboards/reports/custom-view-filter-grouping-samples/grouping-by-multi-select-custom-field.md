@@ -7,9 +7,9 @@ description: U kunt alleen in de tekstmodus groeperen met de waarde in een aange
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '518'
 ht-degree: 0%
 
 ---
@@ -100,7 +100,7 @@ Om door een multi-select douanegebied in een rapport te groeperen:
    <pre>
    group.0.displayName=Multi-select Naam van aangepast veld
    group.0.valueexpression={DE:Multi-select Naam van aangepast veld}
-   groep.0.valueFormat=HTML
+   group.0.valueformat=HTML
    group.0.textmode=true
    </pre>
 
@@ -109,7 +109,7 @@ Om door een multi-select douanegebied in een rapport te groeperen:
 
    De objecten in het rapport worden gegroepeerd op de waarden van het aangepaste veld voor meerdere selecties.
 
-   ![](assets/grouping-by-multi-select-field-text-mode-ui-example.png)
+   ![ Groepering mijn multi-select gebied ](assets/grouping-by-multi-select-field-text-mode-ui-example.png)
 
    De naam van de groepen in het rapport zijn de namen van het aangepaste veld met meerdere selecties, gevolgd door de waarden die in het veld zijn geselecteerd.
 

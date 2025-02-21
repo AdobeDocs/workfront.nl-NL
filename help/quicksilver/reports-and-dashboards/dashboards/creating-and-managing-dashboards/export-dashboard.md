@@ -6,9 +6,9 @@ description: U kunt een dashboard naar een .pdf- dossier uitvoeren gebruikend de
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6c8dc5be-6adb-400a-b86a-a7f7e84d0ba7
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '375'
 ht-degree: 3%
 
 ---
@@ -77,7 +77,7 @@ Voor informatie bij het creëren van dashboards, zie [ een dashboard ](../../../
 1. Ga naar het dashboard dat u wilt exporteren.
 1. Klik {de acties van 0} Dashboard **, dan selecteren** Voorproef van de Druk **.**
 
-   ![](assets/dashboard-actions-print-350x254.png)
+   ![ de drukvoorproef van het dashboard ](assets/dashboard-actions-print-350x254.png)
 
    Het venster Afdrukvoorbeeld wordt geopend.
 
@@ -107,7 +107,7 @@ Voor informatie bij het creëren van dashboards, zie [ een dashboard ](../../../
       <td>Internet Explorer, Microsoft Edge en Mozilla Firefox</td> 
       <td> <p>Opmerking: als u Internet Explorer versie 11 gebruikt, kunt u de functie Afdrukken naar PDF mogelijk niet gebruiken zonder een plug-in van derden te installeren.</p> 
        <ol> 
-        <li value="1">In het <strong> Printer </strong> of <strong> Uitgezochte het 3} gebied van de Printer {, de uitgezochte <strong> Afdruk van Microsoft aan PDF </strong>, wijzigt dan om het even welke andere drukopties u wilt veranderen.</strong></li> 
+        <li value="1">In het <strong> Printer </strong> of <strong> Uitgezochte het 3} gebied van de Printer, de uitgezochte <strong> Afdruk van Microsoft aan PDF </strong>, dan wijzigt om het even welke andere drukopties u wilt veranderen.</strong></li> 
         <li value="2">Klik <strong> Druk </strong>.</li> 
         <li value="3">Ga a <strong> Naam van het Dossier </strong> in</li> 
         <li value="4">(Optioneel) Selecteer een nieuwe mapbestemming voor het bestand.</li> 

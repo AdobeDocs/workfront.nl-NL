@@ -6,9 +6,9 @@ description: U kunt toegang tot de informatie geven die uw organisatie nodig hee
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1828'
+source-wordcount: '1817'
 ht-degree: 0%
 
 ---
@@ -24,41 +24,40 @@ Voor meer informatie over ingebouwde rapporten, zie [ de ingebouwde rapporten va
 
 Voor informatie over het creëren van een rapport door het te kopiëren, zie [ een exemplaar van een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md) creëren.
 
-Zie de sectie Leren op de Adobe Experience League-site voor meer informatie over het maken en beheren van rapporten, waaronder klassen, video&#39;s en zelfstudies.
+Zie de sectie Leren op de website van Adobe Experience League voor meer informatie over het maken en beheren van rapporten, waaronder klassen, video&#39;s en zelfstudies.
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
+U moet het volgende hebben:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> <p>Nieuw: Standaard </p>
    of
    <p>Huidig: Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p><b>OPMERKING</b></p>
-   <p> Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>U krijgt beheermachtigingen voor de rapporten die u maakt.</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>U krijgt beheermachtigingen voor de rapporten die u maakt.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -72,11 +71,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    Voor specifieke informatie over beschikbare objecten rapporten, zie het sectie [ Rapport over voorwerpen ](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects) in het artikel [ voorwerpen in Adobe Workfront ](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) begrijpen.
 
-   ![](assets/nwe-select-new-report-350x666.png)
+   ![ Uitgezochte nieuw rapport ](assets/nwe-select-new-report-350x666.png)
 
    >[!TIP]
    >
    >U kunt ook een rapport maken door een kopie van een bestaand rapport te maken. Voor meer informatie, zie [ een exemplaar van een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md) creëren.
+
+1. (Optioneel) Als u de titel van uw nieuwe rapport wilt bewerken, voert u de gewenste rapporttitel in het tekstveld in de linkerbovenhoek van de rapportbuilder in. We raden u aan alleen UTF-8-tekens te gebruiken om compatibiliteitsproblemen te voorkomen.
 
 1. In de rapportaannemer, voeg het volgende aan uw rapport toe:
 
@@ -126,11 +127,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    of
 
-   Om een bestaande kolom te veranderen, klik de kolom, **verwijder** pictogram ![](assets/remove-column-icon.png) aan het recht van het huidige gebied in **tonen op dit kolomgebied** in de upper-left hoek van de rapportbouwer, en begin een nieuw gebied te typen, dan het te klikken wanneer het in de lijst toont.
+   Om een bestaande kolom te veranderen, klik de kolom, **verwijdert** pictogram ![ verwijdert kolompictogram ](assets/remove-column-icon.png) aan het recht van het huidige gebied in **tonen op dit kolomgebied** gebied in de upper-left hoek van de rapportbouwer, en begint een nieuw gebied te typen, dan het te klikken wanneer het in de lijst toont.
 
    Voor meer informatie over de gebieden u in de kolommen ziet, zie [ Verklarende woordenlijst van de terminologie van Adobe Workfront ](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-   ![](assets/nwe-add-column-typeahead-350x459.png)
+   ![ voeg kolomtypeahead ](assets/nwe-add-column-typeahead-350x459.png) toe
 
 1. (Facultatief) in het **gebied van de Montages van de Kolom**, uitgezochte **Soort door deze kolom** om de waarden in de kolom of in het stijgen op dalende alfabetische orde te sorteren, dan erop te wijzen of de lijst deze kolom als zijn eerste soort zou moeten gebruiken.
 
@@ -202,7 +203,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    Kies **een Bestaande Groepering** toepassen om een bestaande groepering te selecteren wanneer het in de lijst toont.
 
-   ![](assets/nwe-add-grouping-350x230.png)
+   ![ voeg groepering ](assets/nwe-add-grouping-350x230.png) toe
 
 1. Typ het veld dat u als groep wilt toevoegen. Als het veld beschikbaar is, wordt het gevuld voor elk object waaraan het kan worden gekoppeld. Klik op de naam van het veld om het aan die groep toe te voegen.
 1. (Facultatief) u kunt verkiezen om een groepering op tekstwijze te bouwen, door **Schakelaar aan de Wijze van de Tekst te klikken**. Voor meer informatie over het gebruiken van tekstwijze, zie [ Overzicht van de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
@@ -234,7 +235,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    of\
    Kies **een Bestaande Filter** toepassen om een bestaand filter te gebruiken.
 
-   ![](assets/nwe-add-a-filter-350x93.png)
+   ![ voeg een filter ](assets/nwe-add-a-filter-350x93.png) toe
 
 1. Als u **klikte voeg een Regel van de Filter** toe, begin het gebied te typen dat u als filter wilt toevoegen. Als het veld beschikbaar is, wordt het gevuld voor elk object waaraan het kan worden gekoppeld. Klik op de naam van het veld om het aan dat filter toe te voegen.\
    Gebruik filtermodifiers om het filter te maken. Voor meer informatie over filterbepalingen, zie [ Filter en voorwaardenbepalingen ](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
@@ -254,7 +255,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Begin creërend een rapport zoals die in [ wordt beschreven creeer een rapport ](#create-a-report) sectie in dit artikel.
 1. In de rapportbouwer, selecteer het **lusje van de Grafiek**, dan selecteer het type van grafiek u wilt toevoegen.
 
-   ![](assets/nwe-add-a-chart-350x247.png)
+   ![ voeg een grafiek ](assets/nwe-add-a-chart-350x247.png) toe
 
    Voor meer informatie over de bouw van een grafiek in een rapport, zie [ een grafiek aan een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md) toevoegen.
 

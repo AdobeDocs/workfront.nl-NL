@@ -6,9 +6,9 @@ description: Door gebrek, kunnen de gebruikers de voorwerpen in een rapport slec
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e5e2b683-876c-45b4-ab61-07b1ad0b5650
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1174'
+source-wordcount: '1188'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ Een rapport uitvoeren met de toegangsrechten van een andere gebruiker:
 1. Klik **Montages van het Rapport**.
 
 1. In de **looppas dit rapport met de Rechten van de Toegang van:** gebied, begin de naam van de gebruiker te typen die u het rapport wilt tonen als, dan het selecteren wanneer u het in de lijst ziet.\
-   ![](assets/unshimmed-access-rights-of.png)
+   ![ Looppas met toegangsrechten van ](assets/unshimmed-access-rights-of.png)
 
    >[!NOTE]
    >
@@ -108,7 +108,7 @@ U kunt rapporten instellen die als bijlage bij een e-mailbericht moeten worden b
 
 Een rapport leveren met de toegangsrechten van een andere gebruiker:
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Workfront, dan klik **Rapporten**.
+1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Workfront, dan klik** Rapporten **.**
 
 1. Selecteer het rapport dat u wilt leveren met de toegangsrechten van een andere gebruiker.
 1. Klik op de naam van het rapport om het te selecteren.
@@ -116,7 +116,7 @@ Een rapport leveren met de toegangsrechten van een andere gebruiker:
 1. Klik **verzenden Rapport**.
 
 1. In **lever dit rapport met de Rechten van de Toegang van:** gebied, begin de naam van de gebruiker te typen die u het rapport wilt tonen aangezien wanneer het in e-mail wordt geleverd, dan het selecteren wanneer u het in de lijst ziet. Het gebrek is de naam van de gebruiker die het rapport bouwt.\
-   ![](assets/unshimmed-send-report-access-rights-of.png)
+   ![ Verzonden rapport met toegangsrechten van ](assets/unshimmed-send-report-access-rights-of.png)
 
    >[!NOTE]
    >

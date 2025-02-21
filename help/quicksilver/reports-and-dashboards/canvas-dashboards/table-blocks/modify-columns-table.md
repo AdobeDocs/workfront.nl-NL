@@ -4,9 +4,9 @@ description: Een tabelkolom configureren in het rapportcanvas
 hidefromtoc: true
 hide: true
 exl-id: ce33888f-344d-4f69-b527-9679340d134b
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1052'
 ht-degree: 0%
 
 ---
@@ -28,10 +28,10 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
 
 ## Kolommen in een tabel wijzigen
 
-1. Ga naar een bestaand rapport, klik het **Meer pictogram van het Menu** ![](assets/more-icon.png) in de rapportkopbal, dan uitgezocht **geeft** uit.
-1. Voor de lijstkopbal in het rapport, klik **uitgeven** pictogram ![](assets/edit-icon.png).
+1. Ga naar een bestaand rapport, klik het **Meer pictogram van het Menu** ![ Meer pictogram ](assets/more-icon.png) in de rapportkopbal, dan uitgezocht **geef** uit.
+1. Voor de lijstkopbal in het rapport, klik **uitgeven** pictogram ![ pictogram geeft pictogram ](assets/edit-icon.png) uit.
 
-   ![](assets/edit-icon-table-header-350x71.png)
+   ![ geef pictogram in lijstkopbal uit ](assets/edit-icon-table-header-350x71.png)
 
    >[!NOTE]
    >

@@ -7,9 +7,9 @@ description: Leer tijd- en datumverschillen te berekenen.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 U kunt bijvoorbeeld het verschil berekenen tussen de Geplande Voltooiingsdatum en de Werkelijke Voltooiingsdatum van een taak.
 
-![](assets/view-planned-actual-completion-dates-datediff-column-new.png)
+![ de datumverschil van de Mening ](assets/view-planned-actual-completion-dates-datediff-column-new.png)
 
 1. Ga naar een takenlijst.
 1. Van het **drop-down menu van de Mening**, klik **Nieuwe Mening**.
@@ -100,7 +100,7 @@ U kunt bijvoorbeeld het verschil berekenen tussen de Geplande Voltooiingsdatum e
 Voor een lijst van voorwerpen en hun ouders, zie het &quot;Begrijpen van de Interdependentie en de Hiërarchie van de sectie van Objecten&quot;in [ voorwerpen in Adobe Workfront ](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) begrijpen.\
 Bijvoorbeeld, kunt u het verschil tussen de Geplande Datum van Voltooiing van een taak en de Geplande Datum van Voltooiing van zijn oudertaak, of van het project berekenen dat de taak is.
 
-![](assets/view-project-planned-task-planned-completion-dates-datediff-column-new.png)
+![ Mening gepland verschil van de voltooiingsdatum ](assets/view-project-planned-task-planned-completion-dates-datediff-column-new.png)
 
 1. Ga naar een takenlijst.
 1. Van het **drop-down menu van de Mening**, klik **Nieuwe Mening**.

@@ -7,9 +7,9 @@ description: U kunt de informatie die in veelvoudige afzonderlijke kolommen word
 author: Nolan
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: 8c51f8acbe4cefc2404709d9b52c2fe5ec3c7fca
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1091'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ U kunt de gegevens van meerdere afzonderlijke kolommen samenvoegen en deze weerg
 Gegevens van twee kolommen samenvoegen zonder een regeleinde:
 
 1. Ga naar een lijst met objecten.
-1. Van de **drop-down Mening**, selecteer een mening, dan klik **uitgeven** pictogram ![](assets/edit-icon.png) om de mening uit te geven.
+1. Van de **drop-down Mening**, selecteer een mening, dan klik **uitgeven** pictogram ![ uitgeven pictogram ](assets/edit-icon.png) om de mening uit te geven.
 1. Ga naar de eerste kolom u wilt samenvoegen, dan klik **Schakelaar aan de Wijze van de Tekst** > **uitgeven de Wijze van de Tekst**.
 1. Voeg de volgende tekst toe aan de eerste kolom die u wilt samenvoegen:
 
@@ -121,7 +121,7 @@ Gegevens van twee kolommen samenvoegen zonder een regeleinde:
    column.3.valueformat=HTML
    ```
 
-   ![](assets/shared-column-no-line-breaks-350x142.png)
+   ![ Gedeelde kolom zonder lijnonderbrekingen ](assets/shared-column-no-line-breaks-350x142.png)
 
 
 1. Klik **Gedaan**, dan **sparen Mening**.
@@ -131,7 +131,7 @@ Gegevens van twee kolommen samenvoegen zonder een regeleinde:
 Ga als volgt te werk om de gegevens van meerdere kolommen samen te voegen en weer te geven in één gemeenschappelijke kolom met een regeleinde tussen de waarden van elke kolom:
 
 1. Ga naar een lijst met objecten.
-1. Van de **drop-down Mening**, selecteer een mening, dan klik **uitgeven** pictogram ![](assets/edit-icon.png) om de mening uit te geven.
+1. Van de **drop-down Mening**, selecteer een mening, dan klik **uitgeven** pictogram ![ uitgeven pictogram ](assets/edit-icon.png) om de mening uit te geven.
 1. Voeg een derde kolom toe tussen de twee kolommen die u wilt samenvoegen.
 
    >[!TIP]
@@ -182,6 +182,6 @@ Ga als volgt te werk om de gegevens van meerdere kolommen samen te voegen en wee
    column.5.valueformat=HTML 
    ```
 
-   ![](assets/shared-column-with-line-breaks-350x199.png)
+   ![ Gedeelde kolom met lijnonderbrekingen ](assets/shared-column-with-line-breaks-350x199.png)
 
 1. Klik **Gedaan**, dan **sparen Mening**.

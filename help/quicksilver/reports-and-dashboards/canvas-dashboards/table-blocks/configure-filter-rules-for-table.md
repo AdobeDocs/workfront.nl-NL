@@ -4,9 +4,9 @@ description: Een tabel filteren in Rapportcanvas
 hidefromtoc: true
 hide: true
 exl-id: 1838b142-d845-4795-b27f-80bfba18e9d4
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '871'
 ht-degree: 0%
 
 ---
@@ -46,19 +46,19 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
 
 ## Filterregels voor een tabel configureren
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Meldend**.
+1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** Meldend **.**
 
 1. Klik **Nieuw rapport**.
 
    of
 
-   Ga naar een bestaand rapport, klik het **Meer pictogram van het Menu** ![](assets/more-icon.png) in de rapportkopbal, dan uitgezocht **geeft** uit.
+   Ga naar een bestaand rapport, klik het **Meer pictogram van het Menu** ![ Meer pictogram ](assets/more-icon.png) in de rapportkopbal, dan uitgezocht **geef** uit.
 
 1. Als u rijen op een nieuwe tabel wilt groeperen, sleept u een tabelblok naar het canvas of dubbelklikt u erop.
 
    of
 
-   Om rijen op een bestaande lijst te groeperen, klik **uitgeven** pictogram ![](assets/edit-icon.png) in de lijstkopbal.
+   Om rijen op een bestaande lijst te groeperen, klik **uitgeven** pictogram ![ pictogram ](assets/edit-icon.png) in de lijstkopbal uitgeven.
 
 1. Zoek in het rechterdeelvenster het veld waarmee u de tabel wilt filteren en sleep deze naar de sectie Filter.
 

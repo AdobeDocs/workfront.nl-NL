@@ -1,17 +1,17 @@
 ---
-title: Een rapport samenstellen in Rapportage canvas
-description: Een rapport samenstellen in Rapportage canvas
+title: Bouw een rapport in het Rapporteren van Canvas
+description: Bouw een rapport in het Rapporteren van Canvas
 hidefromtoc: true
 hide: true
 exl-id: eac210d8-0e25-4aae-94f4-b26a81240482
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
 
-# Een rapport samenstellen in Rapportage canvas
+# Bouw een rapport in het Rapporteren van Canvas
 
 U kunt een rapport maken door unieke blokken naar het canvas te slepen die uw gegevens op zinvolle manieren vertegenwoordigen.
 
@@ -25,17 +25,17 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
 >
 >Alle wijzigingen worden automatisch opgeslagen wanneer u de blokken in uw rapport maakt en bewerkt.
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Meldend**.
+1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** Meldend **.**
 1. Klik **Nieuw rapport**.
 1. Typ in de linkerbovenhoek van het bewerkingscanvas een naam voor uw rapport.
 
-   U kunt de naam van het rapport op elk ogenblik veranderen door **te klikken geeft** pictogram ![](assets/edit-icon.png) naast zijn naam uit.
+   U kunt de naam van het rapport op elk ogenblik veranderen door **te klikken geeft** pictogram ![ uit geeft pictogram ](assets/edit-icon.png) naast zijn naam uit.
 
 1. Sleep vanaf de rechterkant van het scherm de blokken die u wilt toevoegen naar het canvas.
 
    >[!TIP]
    >
-   >Op elk ogenblik, klik **Voorproef** in de hoger-juiste hoek om te zien hoe uw rapport buiten het uitgeven wijze kijkt.
+   >Op elk ogenblik, klik **Voorproef** in de hoger-juiste hoek om te zien wat uw rapport als buiten het uitgeven wijze kijkt.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -55,7 +55,7 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
       </tr>
      <tr data-mc-conditions=""> 
       <td role="rowheader">Webinhoud</td> 
-      <td> <p>Voeg een externe bron, zoals een webpagina, toe aan het rapport.</p> <p>Voor meer informatie, zie <a href="../../../reports-and-dashboards/reporting-canvas/other-blocks/add-or-edt-web-content-block.md" class="MCXref xref"> een blok van de Webinhoud in het Melden van het Canvas </a> toevoegen of uitgeven.</p> </td> 
+      <td> <p>Voeg een externe bron-zulke als Web-pagina-in het rapport toe.</p> <p>Voor meer informatie, zie <a href="../../../reports-and-dashboards/reporting-canvas/other-blocks/add-or-edt-web-content-block.md" class="MCXref xref"> een blok van de Webinhoud in het Melden van Canvas </a> toevoegen of uitgeven.</p> </td> 
      </tr>
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader">Canvas, filter</td> 
@@ -76,15 +76,15 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
      </tr> 
      <tr> 
       <td role="rowheader">Een blok dupliceren</td> 
-      <td>Klik het <strong> Meer menu </strong> pictogram <img src="assets/more-icon.png"> op de kopbal van het blok, dan selecteer <strong> blok van het Exemplaar </strong>.</td> 
+      <td>Klik het <strong> Meer menu </strong> pictogram <img src="assets/more-icon.png"> op de kopbal van het blok, dan uitgezochte <strong> blok van het Exemplaar </strong>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Een blok verwijderen</td> 
-      <td>Klik het <strong> Meer menu </strong> pictogram <img src="assets/more-icon.png"> op de kopbal van het blok, dan selecteer <strong> blok van de Schrapping </strong>.</td> 
+      <td>Klik het <strong> Meer menu </strong> pictogram <img src="assets/more-icon.png"> op de kopbal van het blok, dan uitgezocht <strong> blok van de Schrapping </strong>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Een blok verplaatsen</td> 
-      <td> Selecteer een blok, klik en sleep de greep <img src="assets/widget-drag-icon.png" style="max-width: 16px;"> in de linkerbovenhoek van het blok om het boven, onder of naast een ander blok te verplaatsen.</td> 
+      <td> Selecteer een blok, klik en sleep de handgreep <img src="assets/widget-drag-icon.png" style="max-width: 16px;"> in de linkerbovenhoek van het blok om deze boven, onder of naast een ander blok te verplaatsen.</td> 
      </tr> 
     </tbody> 
    </table>
@@ -105,7 +105,7 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
      </tr> 
      <tr> 
       <td role="rowheader">Favoriet het rapport</td> 
-      <td>Na het verlaten van de het uitgeven ruit, klik het <strong> Ster </strong> pictogram naast de naam van het rapport om het aan uw lijst van favoriete rapporten toe te voegen.</td> 
+      <td>Na het verlaten van het uitgeven ruit, klik het <strong> Ster </strong> pictogram naast de naam van het rapport om het aan uw lijst van favoriete rapporten toe te voegen.</td> 
      </tr> 
     </tbody> 
    </table>

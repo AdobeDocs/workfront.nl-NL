@@ -6,9 +6,9 @@ description: U kunt naar de aangepaste formulieren van een object verwijzen in d
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8b0d2e7f-cc92-4f43-a91c-ab2b2d8a1c01
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '967'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Wanneer u het rapport maakt, gebruikt u gewoon het objecttype van het formulier 
 
 Bijvoorbeeld, zou u een douanevorm kunnen hebben die op alle projecten wordt toegepast die de adviseur van het douanegebied **** omvat. Om een rapport tot stand te brengen dat van alle projecten een lijst maakt waar Olivia Kim de consultant is, gebruik het **objecten van het 0} Project {als gebiedsbron, en gebruik** Consultant **als gebiedsnaam.** Plaats het filterbepaler aan **Gelijk**, toen type Olivia Kim.
 
-![](assets/qs-consultant-filter-example-350x126.png)
+![ Consultant filter ](assets/qs-consultant-filter-example-350x126.png)
 
 Voor meer informatie over het creëren van een rapport, zie het artikel [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
@@ -111,13 +111,13 @@ Alle aangepaste formulieren weergeven die aan een object zijn gekoppeld:
 1. Begin creërend een rapport zoals die in het artikel [ wordt beschreven creeer een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. Op het **lusje van Kolommen**, breid het objecten type uit dat de douanevorm die u wilt van verwijzingen voorzien wordt toegepast op, dan klik **Naam van de Categorie**.\
    Bijvoorbeeld, om alle douaneformulieren te tonen verbonden aan een taak, breid de **het gebiedsbron van de Taak** {uit, dan klik de **Naam van de Categorie** gebiedsnaam.\
-   ![](assets/qs-category-name-column-350x267.png)
+   ![ de naamkolom van de Categorie ](assets/qs-category-name-column-350x267.png)
 
 Alleen het primaire aangepaste formulier weergeven dat aan het object is gekoppeld:
 
 1. Begin creërend een rapport zoals die in het artikel [ wordt beschreven creeer een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. Op het **lusje van Kolommen**, breid de **bron van het Categorie** gebied uit, dan klik de **Naam** gebiedsnaam.\
-   ![](assets/qs-category-name-column-2-350x248.png)
+   ![ Naam van de Categorie ](assets/qs-category-name-column-2-350x248.png)
 
 ### Verwijzing douaneformulieren in een rapportfilter {#reference-custom-forms-in-a-report-filter}
 
@@ -125,7 +125,7 @@ Filteren op alle aangepaste formulieren die aan het objecttype zijn gekoppeld:
 
 1. Begin creërend een rapport zoals die in het artikel [ wordt beschreven creeer een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. Op het **lusje van Filters**, breid **Categorieën** uit, dan klik **Naam**.\
-   ![](assets/qs-categories-name-filter-350x311.png)
+   ![ de naamfilter van de Categorie ](assets/qs-categories-name-filter-350x311.png)
 
 1. Selecteer de voorwaarde-aanduiding die u wilt gebruiken:
 
@@ -150,7 +150,7 @@ Alleen filteren op het primaire aangepaste formulier dat is gekoppeld aan het ob
 
 1. Begin creërend een rapport zoals die in het artikel [ wordt beschreven creeer een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. Op het **lusje van Filters**, breid de **bron van het Categorie** gebied uit, dan klik de **Naam** gebiedsnaam.\
-   ![](assets/qs-category-name-filter-350x437.png)
+   ![ de naamfilter van de Categorie ](assets/qs-category-name-filter-350x437.png)
 
 1. Selecteer de voorwaarde-aanduiding die u wilt gebruiken:
 
@@ -175,4 +175,4 @@ Alleen filteren op het primaire aangepaste formulier dat is gekoppeld aan het ob
 
 1. Begin creërend een rapport zoals die in het artikel [ wordt beschreven creeer een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. Op het **lusje van Groepen**, breid **Categorie** uit, dan klik **Naam**.\
-   ![](assets/qs-category-name-grouping-350x373.png)
+   ![ Naam groepering van de Categorie ](assets/qs-category-name-grouping-350x373.png)

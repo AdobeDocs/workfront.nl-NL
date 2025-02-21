@@ -7,9 +7,9 @@ description: Met dit taakfilter worden ad-hocverzoeken geretourneerd die naar ee
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 204cfae1-7c57-4223-9e00-ac94e1e2ba3a
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Ad-hocverzoeken voor werk en items voor taken worden in Adobe Workfront opgeslag
 
 De persoonlijke taken worden niet verbonden met een project maar zij kunnen aan een project worden verplaatst, indien nodig. Voor informatie, zie [ persoonlijke taken ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md) creëren.
 
-![](assets/personal-tasks-report.png)
+![ Persoonlijke takenrapport ](assets/personal-tasks-report.png)
 
 ## Toegangsvereisten
 

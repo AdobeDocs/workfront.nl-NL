@@ -6,9 +6,9 @@ description: Rapportgebruik weergeven
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 51d9067c-8c55-433e-b560-7da241ef33ae
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1011'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## De informatie van het rapportgebruik van de vertoning in de Mening van een rapportlijst
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Workfront, dan klik **Rapporten**.
+1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Workfront, dan klik** Rapporten **.**
 
 1. Voor de lijst van rapporten, klik het **drop-down menu van de Mening**.
 1. (Facultatief) selecteer de **mening van het Gebruik van het 0} Rapport om de gemeenschappelijkste informatie van het rapportgebruik te tonen.**\
@@ -97,7 +97,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Een rapportlijst filteren op gebruiksgegevens {#filter-a-report-list-by-usage-information}
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Workfront, dan klik **Rapporten**.
+1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Workfront, dan klik** Rapporten **.**
 1. Voor de lijst van rapporten, klik het **drop-down menu van de Filter**.
 1. Klik **Nieuwe Filter**, dan klik **voegt een Regel van de Filter** toe.
 1. Begin om het even welke volgende gebieden te typen, en hen te selecteren wanneer zij in de lijst onder het **1} voorwerp van het Rapport {verschijnen om hen als nieuwe filterregel toe te voegen:**
@@ -112,7 +112,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    * **Laatste Bekeken Datum**: Toont de datum toen het rapport het laatst werd bekeken
 
 1. Selecteer een bepaling voor uw gebied, dan specificeer een waarde, wanneer ertoe aangezet.\
-   ![](assets/qs-report-usage-filter-statistics-350x150.png)
+   ![ de statistieken van de het gebruiksfilter van het Rapport ](assets/qs-report-usage-filter-statistics-350x150.png)
 
 1. Klik **sparen Filter**.\
    Dit toont een lijst van rapporten die de gebruiksinformatie ontmoeten u hebt bepaald.\

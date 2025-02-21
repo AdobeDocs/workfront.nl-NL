@@ -6,9 +6,9 @@ description: Uw Adobe Workfront-beheerder verleent gebruikers toegang tot rappor
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 225e815a-0354-493d-bbcf-59304ef77570
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '823'
 ht-degree: 0%
 
 ---
@@ -122,7 +122,7 @@ Het delen van een rapport of meerdere rapporten uit een lijst is identiek.
 
    * **iedereen in het systeem kan** Uitgezocht deze optie bekijken zodat iedereen in Workfront met toegang tot rapporten het rapport kan bekijken.
 
-1. (Optioneel) Klik op het **pictogram ![](assets/gear-icon-settings-with-dn-arrow.jpg) Gear** in de rechterbovenhoek van het vak Delen en selecteer desgewenst de volgende optie:
+1. (Facultatief) klik het **pictogram van het Gear ![ pictogram ](assets/gear-icon-settings-with-dn-arrow.jpg) pictogrammontages van het Gear in de hoger-juiste hoek van de het delen doos, dan naar keuze de volgende optie selecteren:**
 
    * **maak dit openbaar aan externe gebruikers** selecteer deze optie om URL te produceren die met anderen kan worden gedeeld. Iedereen met de URL heeft toegang tot het rapport, zonder een Adobe Workfront-licentie.
 

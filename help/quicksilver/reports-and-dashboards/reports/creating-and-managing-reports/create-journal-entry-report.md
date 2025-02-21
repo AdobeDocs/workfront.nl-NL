@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '2747'
+source-wordcount: '2778'
 ht-degree: 0%
 
 ---
@@ -181,7 +181,7 @@ Deze informatie kan worden gebruikt om met controle te helpen en te illustreren 
 1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Rapporten**.
 1. Klik **Nieuw Rapport**, dan uitgezochte **Ingang van het Dagboek**.
 
-   ![](assets/nwe-select-journal-entry-350x273.png)
+   ![ Uitgezochte dagboekingang ](assets/nwe-select-journal-entry-350x273.png)
 
    De rapportbuilder laadt.
 
@@ -255,7 +255,7 @@ Deze informatie kan worden gebruikt om met controle te helpen en te illustreren 
 
 1. In het **lusje van Filters**, klik **voegt een Regel van de Filter** toe, dan voeg de Naam van het filterregel **Gebied** toe > **Gelijk** > **status**.
 
-   ![](assets/nwe-journal-entry-status-filter-rules-350x90.png)
+   ![ filter van de de ingangsstatus van het Dagboek ](assets/nwe-journal-entry-status-filter-rules-350x90.png)
 
    >[!TIP]
    >
@@ -295,7 +295,7 @@ Zo ziet u wanneer een taak of uitgave is verwijderd:
 1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Rapporten**.
 1. Klik **Nieuw Rapport**, dan uitgezochte **Ingang van het Dagboek**.
 
-   ![](assets/nwe-select-journal-entry-350x273.png)
+   ![ Uitgezochte dagboekingang ](assets/nwe-select-journal-entry-350x273.png)
 
    De rapportbuilder laadt.
 
@@ -342,7 +342,7 @@ Zo ziet u wanneer een taak of uitgave is verwijderd:
    * **identiteitskaart van het Project** > **Gelijk** > **&lt; projectnaam >**
 
      <!--WRITER check link; this png file has spaces
-     [![](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
+     [![Task or issue deleted](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
 
    Voor meer informatie bij het toevoegen van filters, zie [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -379,7 +379,7 @@ Zo ziet u hoe aangepaste velden tijdens de levenscyclus van een project zijn gew
 1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Rapporten**.
 1. Klik **Nieuw Rapport**, dan uitgezochte **Ingang van het Dagboek**.
 
-   ![](assets/nwe-select-journal-entry-350x273.png)
+   ![ Uitgezochte dagboekingang ](assets/nwe-select-journal-entry-350x273.png)
 
    De rapportbuilder laadt.
 
@@ -450,7 +450,7 @@ Zo ziet u hoe aangepaste velden tijdens de levenscyclus van een project zijn gew
 
    * **identiteitskaart van het Project** > **Gelijk** > **&lt; project >**.
 
-   ![](assets/qs-custom-form-changes-filter-350x92.png)
+   ![ de vormveranderingen van de Douane filter ](assets/qs-custom-form-changes-filter-350x92.png)
 
    Voor meer informatie bij het toevoegen van filters, zie [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -481,7 +481,7 @@ U kunt opstelling het rapport van de Ingang van het Dagboek tonen hoe vaak de Ge
 1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Rapporten**.
 1. Klik **Nieuw Rapport**, dan uitgezochte **Ingang van het Dagboek**.
 
-   ![](assets/nwe-select-journal-entry-350x273.png)
+   ![ Uitgezochte dagboekingang ](assets/nwe-select-journal-entry-350x273.png)
 
    De rapportbuilder laadt.
 
@@ -551,7 +551,7 @@ U kunt opstelling het rapport van de Ingang van het Dagboek tonen hoe vaak de Ge
    * **Naam van het Gebied** > **Gelijk** > **Datum**
    * **identiteitskaart van het Project** > **Gelijk** > **&lt; projectnaam >**.
 
-   ![](assets/qs-planned-completion-date-change-filter-350x91.png)
+   ![ Geplande filter van de de veranderingsdatum van de voltooiingsdatum ](assets/qs-planned-completion-date-change-filter-350x91.png)
 
    Voor meer informatie bij het toevoegen van filters, zie [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -582,7 +582,7 @@ U kunt opstelling het rapport van de Ingang van het Dagboek om te tonen hoeveel 
 1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Rapporten**.
 1. Klik **Nieuw Rapport**, dan uitgezochte **Ingang van het Dagboek**.
 
-   ![](assets/nwe-select-journal-entry-350x273.png)
+   ![ Uitgezochte dagboekingang ](assets/nwe-select-journal-entry-350x273.png)
 
    De rapportbuilder laadt.
 
@@ -640,7 +640,7 @@ U kunt opstelling het rapport van de Ingang van het Dagboek om te tonen hoeveel 
    * **Naam van het Gebied** > **Gelijk** > **ownerID**
    * **identiteitskaart van het Project** > **Gelijk** > **&lt; projectnaam >**.
 
-   ![](assets/qs-owner-changes-filter-350x94.png)
+   ![ de veranderingsfilter van de Eigenaar ](assets/qs-owner-changes-filter-350x94.png)
 
    Voor meer informatie bij het toevoegen van filters, zie [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 

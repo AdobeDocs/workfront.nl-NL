@@ -6,9 +6,9 @@ description: U kunt een externe webpagina in een dashboard insluiten om toegang 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1030'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Als uw organisatie bijvoorbeeld een op het web gebaseerde opslagplaats voor docu
 >[!IMPORTANT]
 >
 >* Vanwege beveiligingsredenen kunt u met bepaalde websites geen webpagina&#39;s insluiten als een iframe. Als de webpagina die u in een dashboard wilt insluiten dit niet toestaat, wordt de pagina niet weergegeven in het dashboard. U kunt de externe pagina echter nog steeds openen door op de naam van het dashboard te klikken.\
->![](assets/qs-empty-external-page-report-350x165.png)\
+>![ Leeg extern paginarapport ](assets/qs-empty-external-page-report-350x165.png)\
 >Om het inbedden voor een website toe te staan u bezit, werk met uw Webbeheerder om **x-kader-Opties** het plaatsen aan te passen. Voor meer informatie, zie [ x-kader-Opties ](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options).
 >
 >
@@ -118,7 +118,7 @@ of\
 
 1. Klik **toevoegen Externe Pagina** onder **Uitgezochte Lay-out/voeg Rapporten/toevoegt Calendars** gebied toe.
 
-   ![](assets/qs-add-external-page-350x239.png)
+   ![ voeg externe pagina ](assets/qs-add-external-page-350x239.png) toe
 
    **voegt Externe de vakvertoningen van de Pagina** toe.
 
@@ -132,7 +132,7 @@ of\
 
       * Een (gecodeerde) https-URL naar een webpagina.\
         Alleen https-pagina&#39;s (versleuteld) worden met de URL geladen.\
-        ![](assets/add-external-page-dialog-qs-350x247.png)
+        ![ voeg externe paginadialoog ](assets/add-external-page-dialog-qs-350x247.png) toe
 
       * Een sjabloon-URL die sessiegegevens voor een specifieke website bevat.\
         Bijvoorbeeld: *https://localhost/?session={!$$SESSION}*
@@ -170,10 +170,10 @@ De gegevens bijwerken voor een externe pagina die in een dashboard wordt gebruik
    Het **vakje van de Details van het Dashboard** opent.
 
 1. In **Uitgezochte Lay-out/voeg het gebied van Rapporten** van de **doos van de Details van het Dashboard** toe, bepaal de plaats van de externe pagina u, over het wilt bijwerken en **klikken geeft** pictogram uit.\
-   ![](assets/nwe-inline-edit-external-page-350x226.png)
+   ![ Inline geeft externe pagina uit ](assets/nwe-inline-edit-external-page-350x226.png)
 
 1. In **geef Externe de doos van de Pagina** uit, werk de gebieden bij u wilt veranderen, dan klik **sparen**.
-1. (Facultatief) klik **Schrapping** pictogram ![](assets/delete.png) om de externe pagina uit het dashboard te verwijderen. Voor meer informatie, zie [ een Externe Pagina uit een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md) verwijderen.
+1. (Facultatief) klik het **pictogram van de Schrapping ![ pictogram van de Schrapping ](assets/delete.png) om de externe pagina uit het dashboard te verwijderen.** Voor meer informatie, zie [ een Externe Pagina uit een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md) verwijderen.
 1. Klik **sparen + Sluiten**.
 
 ## Externe pagina&#39;s in een rapport weergeven
@@ -184,7 +184,7 @@ U kunt alle externe pagina&#39;s in Workfront weergeven in een rapport Externe p
 
 1. Klik **Nieuw Rapport** > selecteren **Externe Sectie**.
 
-   ![](assets/external-page-new-report-in-dropdown-nwe.png)
+   ![ Externe sectie ](assets/external-page-new-report-in-dropdown-nwe.png)
 
 1. (Optioneel) Werk de tabbladen Weergave, Filters of Groepen van het rapport bij.
 

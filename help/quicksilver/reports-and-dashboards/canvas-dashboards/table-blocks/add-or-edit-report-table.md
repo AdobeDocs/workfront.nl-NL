@@ -4,9 +4,9 @@ description: Een tabelblok toevoegen of bewerken in het rapportcanvas
 hidefromtoc: true
 hide: true
 exl-id: d706659c-457f-4da0-a6e7-03ea29cab700
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
@@ -21,20 +21,20 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
 
 ## Een tabelblok toevoegen of bewerken
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Meldend**.
+1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** Meldend **.**
 1. Klik **Nieuw rapport**.
 
    of
 
-   Ga naar een bestaand rapport, klik **Meer** pictogram ![](assets/more-icon-27x15.png) in de rapportkopbal, dan klik **uitgeven**.
+   Ga naar een bestaand rapport, klik **Meer** pictogram ![ Meer pictogram ](assets/more-icon-27x15.png) in de rapportkopbal, dan klik **uitgeven**.
 
 1. Op de rechterkant van het scherm onder **voeg een blok** toe, of:
 
-   Sleep het **pictogram van de Lijst** ![](assets/table-icon.png) op het canvas direct aan uw gewenste plaats.
+   Sleep het **pictogram van de Lijst** pictogram van de Lijst ![ ](assets/table-icon.png) op het canvas direct aan uw gewenste plaats.
 
    of
 
-   Dubbelklik het **pictogram van de Lijst** ![](assets/table-icon.png) om een lijst aan de bovenkant van het canvas toe te voegen.
+   Dubbelklik het **pictogram van de Lijst** pictogram van de Lijst ![ ](assets/table-icon.png) om een lijst aan de bovenkant van het canvas toe te voegen.
 
    >[!TIP]
    >
@@ -42,14 +42,14 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
 
 1. Klik **Naamloze lijst** in de lijstkopbal, dan typ een titel voor de lijst.
 
-   ![](assets/table-name-350x142.png)
+   ![ de naam van de Lijst ](assets/table-name-350x142.png)
 
 1. Klik **uitgeven** in het centrum van het lijstblok om de lijst te vormen.
 
    >[!NOTE]
    >
-   >Als de lijst reeds deel van het canvas (zoals wanneer het uitgeven van een bestaand rapport) was, geeft **uit** knoop niet in het centrum van het blok toont. Om de lijst uit te geven, klik **geef** pictogram ![](assets/edit-icon.png) in plaats daarvan in de lijstkopbal uit.
-   >![](assets/edit-icon-table-header-350x71.png)
+   >Als de lijst reeds deel van het canvas (zoals wanneer het uitgeven van een bestaand rapport) was, geeft **uit** knoop niet in het centrum van het blok toont. Om de lijst uit te geven, klik **uitgeven** pictogram ![ pictogram ](assets/edit-icon.png) in plaats daarvan in de lijstkopbal.
+   >![ geef pictogram in lijstkopbal uit ](assets/edit-icon-table-header-350x71.png)
 
 1. In het **paneel van Gebieden** op het recht, bepaal de plaats van een gebied dat u als kolom aan de lijst wilt toevoegen, dan of sleep het op de lijst waar u het wilt of het tweemaal klikken om het als laatste kolom in de lijst toe te voegen.
 

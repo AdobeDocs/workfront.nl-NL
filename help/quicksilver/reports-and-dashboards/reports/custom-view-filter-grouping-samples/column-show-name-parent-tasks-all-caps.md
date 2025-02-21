@@ -7,9 +7,9 @@ description: U kunt deze kolom aan een taakmening toevoegen om de naam van de ou
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bb489920-6b17-4689-b432-b0c28bcb5d10
-source-git-commit: a7cdee912e5047f1c8ef224aff6a41eaa3633df6
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 U kunt deze kolom aan een taakmening toevoegen om de naam van de oudertaken in alle hoofdletters te tonen.
 
-![](assets/column-task-with-all-caps-parent-350x112.png)
+![ Kolom met oudertaak in alle kapitalen ](assets/column-task-with-all-caps-parent-350x112.png)
 
 ## Toegangsvereisten
 
@@ -67,7 +67,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 Deze kolom bouwen in een taakmening:
 
 1. Ga naar een takenlijst.
-1. Van het **drop-down menu van de Mening**, selecteer een mening, dan klik **uitgeven** pictogram ![](assets/edit-icon.png).
+1. Van het **drop-down menu van de Mening**, selecteer een mening, dan klik **uitgeven** pictogram ![ uitgeven pictogram ](assets/edit-icon.png).
 of\
    Van het **drop-down menu van de Mening**, uitgezochte **Nieuwe Mening**.
 

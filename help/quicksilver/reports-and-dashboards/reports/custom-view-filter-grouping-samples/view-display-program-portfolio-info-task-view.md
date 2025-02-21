@@ -2,25 +2,25 @@
 content-type: reference
 product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Weergave: Informatie over programma en Portfolio weergeven in een taakweergave'
-description: Deze taakmening toont het Programma en het Portfolio die met het project van de taak worden geassocieerd. Deze informatie is niet beschikbaar in de rapportaannemer wanneer het bouwen van een taakmening. Deze informatie is alleen beschikbaar in de tekstmodus.
+title: 'Weergeven: Program en Portfolio-informatie weergeven in een Taakweergave'
+description: Deze taakmening toont het Programma en Portfolio die met het project van de taak worden geassocieerd. Deze informatie is niet beschikbaar in de rapportaannemer wanneer het bouwen van een taakmening. Deze informatie is alleen beschikbaar in de tekstmodus.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cdd5a1e9-3cbf-4951-b803-fca544b2519a
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
 
-# Weergave: informatie over programma en Portfolio weergeven in een taakweergave
+# Weergave: geef Program- en Portfolio-informatie weer in een taakweergave
 
-Deze taakmening toont het Programma en het Portfolio die met het project van de taak worden geassocieerd. Deze informatie is niet beschikbaar in de rapportaannemer wanneer het bouwen van een taakmening. Deze informatie is alleen beschikbaar in de tekstmodus.
+Deze taakmening toont het Programma en Portfolio die met het project van de taak worden geassocieerd. Deze informatie is niet beschikbaar in de rapportaannemer wanneer het bouwen van een taakmening. Deze informatie is alleen beschikbaar in de tekstmodus.
 
-De weergave bevat ook koppelingen naar het project, het programma en het Portfolio in een takenlijst.
+De weergave bevat ook koppelingen naar het project, het programma en Portfolio vanuit een taaklijst.
 
-![](assets/view--program-and-portfolio-350x116.png)
+![ het programma en de portefeuille van de Mening ](assets/view--program-and-portfolio-350x116.png)
 
 ## Toegangsvereisten
 
@@ -62,7 +62,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 +++
 
-## Programma- en Portfolio-informatie weergeven in een taakweergave
+## Het Programma en de informatie van Portfolio van de vertoning in een taakmening
 
 1. Ga naar een takenlijst.
 1. Van het **drop-down menu van de Mening**, uitgezochte **Nieuwe Mening**.

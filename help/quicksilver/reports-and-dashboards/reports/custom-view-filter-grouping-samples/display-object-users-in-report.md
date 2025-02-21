@@ -7,9 +7,9 @@ description: U kunt gebruikers, baanrollen, en teams tonen verbonden aan voorwer
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 9abdaafb-da2c-4b5d-9117-59afa4a1e71f
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '674'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ U kunt door gebruikers, baanrollen, of teams tonen of filtreren verbonden aan de
 
 U kunt alle gebruikers tonen verbonden aan in het project in de mening van een projectlijst of een rapport. Dit omvat alle gebruikers die in de sectie van Mensen van het project worden vermeld. U kunt de rollen ook bekijken zij met wanneer toegewezen aan taken of kwesties op het project in een projectrapport worden geassocieerd.
 
-![](assets/project-with-user-and-role-information-report-350x100.png)
+![ Project met gebruiker en rolinformatie ](assets/project-with-user-and-role-information-report-350x100.png)
 
 Voor informatie over de bouw van een projectrapport om alle gebruikers en hun rollen op het project te tonen, zie [ Mening: lijst van projectgebruikers met baanrollen ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md).
 
@@ -65,7 +65,7 @@ U kunt niet filteren voor gebruikers of baanrollen verbonden aan projecten in ee
 
 U kunt alle gebruikers, rollen, of teams tonen die aan een taak in de mening van een taaklijst of een rapport worden toegewezen door het gebied van Toewijzingen aan de mening toe te voegen.
 
-![](assets/assignments-field-task-view-350x124.png)
+![ gebied van de Toewijzing ](assets/assignments-field-task-view-350x124.png)
 
 U kunt filteren door de gebruikers, de baanrollen, of de teams die aan taken worden toegewezen door de volgende gebieden in een taakfilter van verwijzingen te voorzien:
 
@@ -73,7 +73,7 @@ U kunt filteren door de gebruikers, de baanrollen, of de teams die aan taken wor
 * Toewijzingsrollen
 * Team
 
-![](assets/assignment-users-roles-task-filter-350x334.png)
+![ de gebruikers en rollen van de Taak in taakfilter ](assets/assignment-users-roles-task-filter-350x334.png)
 
 ## Alle gebruikers, taakrollen of teams weergeven die aan een probleem zijn toegewezen
 

@@ -6,9 +6,9 @@ description: Overzicht van levering rapporteren
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
-source-git-commit: a2cb33150ae50b00485f894dc81d7c719524a182
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1534'
 ht-degree: 0%
 
 ---
@@ -133,7 +133,7 @@ Voor meer informatie over de onderwerpregel van het geleverde rapport e-mail, zi
 
 De naam van het in bijlage rapport is: *The_Name_Of_The_Report* die door het uitgevoerde dossierformaat wordt gevolgd.
 
-Als u het geleverde rapport opmaakt als een PDF- of HTML-bestand, krijgt het rapport de volgende titel:
+Als u het geleverde rapport wilt opmaken als PDF- of HTML-bestand, krijgt u de volgende titel van het rapport:
 
 *De Naam van het Rapport.*
 
@@ -141,7 +141,7 @@ Rapporten die gepland zijn voor levering in Excel, Excel (.xlsx), of formaat TSV
 
 >[!NOTE]
 >
->Als het rapport een beschrijving heeft, wordt het opgenomen in het geëxporteerde bestand als het bestand is opgemaakt als een PDF- of HTML-bestand.
+>Als het rapport een beschrijving bevat, wordt het opgenomen in het geëxporteerde bestand als het bestand is opgemaakt als een PDF- of HTML-bestand.
 
 ### Tijdstempels {#timestamps}
 
@@ -174,7 +174,7 @@ Voor meer informatie over het selecteren van het standaardlusje van een rapport 
 
 ### Koppelingen {#links}
 
-Wanneer u een rapport van Workfront naar PDF of formaat van Excel verzendt, blijven om het even welke werkende verbindingen die in het originele document bestaan levend in het verzonden dossier. Koppelingen kunnen verwijzen naar elk object in Workfront dat koppelingen ondersteunt.
+Als u een rapport verzendt van Workfront naar PDF of Excel, blijven werkkoppelingen in het oorspronkelijke document actief in het verzonden bestand. Koppelingen kunnen verwijzen naar elk object in Workfront dat koppelingen ondersteunt.
 
 De naam van het rapport in het e-mailbericht is ook een koppeling.
 
@@ -189,7 +189,7 @@ U kunt zien of een rapport is gevormd om te worden geleverd door het volgende te
 
 * **de Filter van A** voor het voorwerp van het Rapport: Creeer een filter op een lijst van rapporten of in een rapport over rapporten met de volgende verklaring: *Geplande identiteitskaart van het Rapport is niet leeg*.\
   Hiermee worden alleen rapporten weergegeven die in uw lijst of rapport zijn gepland.\
-  ![](assets/qs-scheduled-report-filter-350x101.png)\
+  ![ Gepland rapportfilter ](assets/qs-scheduled-report-filter-350x101.png)\
   Voor meer informatie over het creëren van rapporten, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren. Voor informatie bij het creëren van een rapport over rapporten, zie [ een rapport over het melden van activiteiten ](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md) creëren.
 
 <!--

@@ -6,9 +6,9 @@ description: Adobe Workfront heeft een uitgebreide lijst met ingebouwde rapporte
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 32a47c25-192a-4e97-9016-42e6b6e201b9
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '2964'
+source-wordcount: '2970'
 ht-degree: 0%
 
 ---
@@ -82,20 +82,20 @@ De volgende verslagen gaan over het Workfront-pakket. De rapporten zijn beschikb
  </thead> 
  <tbody> 
   <tr> 
-   <td>Werkelijke kosten Portfolio per programma</td> 
-   <td>Een projectrapport met de geplande kosten en de werkelijke kosten van de projecten. Het rapport wordt gegroepeerd door de Naam van het Programma, die door de Naam van het Portfolio wordt veroorzaakt, en het omvat een grafiek.</td> 
+   <td>Feitelijke Portfolio-kosten per programma</td> 
+   <td>Een projectrapport met de geplande kosten en de werkelijke kosten van de projecten. Het rapport wordt gegroepeerd door de Naam van het Programma, die door de Naam van Portfolio wordt veroorzaakt, en het omvat een grafiek.</td> 
   </tr> 
   <tr> 
-   <td>Werkelijke kosten Portfolio per project</td> 
-   <td>Een projectrapport met de geplande kosten en de werkelijke kosten van de projecten. Het rapport wordt gegroepeerd door de Naam van het Project, die door de Naam van het Portfolio wordt veroorzaakt, en het omvat een grafiek.</td> 
+   <td>Werkelijke Portfolio-kosten per project</td> 
+   <td>Een projectrapport met de geplande kosten en de werkelijke kosten van de projecten. Het rapport wordt gegroepeerd door de Naam van het Project, die door de Naam van Portfolio wordt veroorzaakt, en het omvat een grafiek.</td> 
   </tr> 
   <tr> 
-   <td>Werkelijke ontvangsten uit Portfolio's per programma</td> 
-   <td>Een projectrapport met de geplande inkomsten en de werkelijke inkomsten van de projecten. Het rapport wordt gegroepeerd door de Naam van het Programma, die door de Naam van het Portfolio wordt veroorzaakt, en het omvat een grafiek.</td> 
+   <td>Werkelijke Portfolio-inkomsten per programma</td> 
+   <td>Een projectrapport met de geplande inkomsten en de werkelijke inkomsten van de projecten. Het rapport wordt gegroepeerd door de Naam van het Programma, die door de Naam van Portfolio wordt veroorzaakt, en het omvat een grafiek.</td> 
   </tr> 
   <tr> 
-   <td>Werkelijke ontvangsten uit Portfolio's per project</td> 
-   <td>Een projectrapport met de geplande inkomsten en de werkelijke inkomsten van de projecten. Het rapport wordt gegroepeerd door de Naam van het Project, die door de Naam van het Portfolio wordt veroorzaakt, en het omvat een grafiek.</td> 
+   <td>Werkelijke Portfolio-inkomsten per project</td> 
+   <td>Een projectrapport met de geplande inkomsten en de werkelijke inkomsten van de projecten. Het rapport wordt gegroepeerd door de Naam van het Project, die door de Naam van Portfolio wordt veroorzaakt, en het omvat een grafiek.</td> 
   </tr> 
   <tr> 
    <td>Werkelijke ontvangsten per onderneming</td> 
@@ -115,7 +115,7 @@ De volgende verslagen gaan over het Workfront-pakket. De rapporten zijn beschikb
   </tr> 
   <tr> 
    <td>Risicoprojecten</td> 
-   <td>Een rapport van het Project dat Huidige en Plannende projecten toont die een Voorwaarde van Bij Risico of in Problemen hebben. Het rapport bevat de volgende velden: Beschrijving, Geplande Voltooiingsdatum, Geprojecteerde Voltooiingsdatum, Percentage voltooid, Status en Prioriteit van de projecten. Het rapport wordt gegroepeerd door de Naam van het Portfolio.</td> 
+   <td>Een rapport van het Project dat Huidige en Plannende projecten toont die een Voorwaarde van Bij Risico of in Problemen hebben. Het rapport bevat de volgende velden: Beschrijving, Geplande Voltooiingsdatum, Geprojecteerde Voltooiingsdatum, Percentage voltooid, Status en Prioriteit van de projecten. Het rapport is gegroepeerd op Portfolio Name.</td> 
   </tr> 
   <tr> 
    <td>Factureringsopbrengsten per onderneming</td> 
@@ -162,19 +162,19 @@ De volgende verslagen gaan over het Workfront-pakket. De rapporten zijn beschikb
    <td>Een matrixrapport van de Kwestie dat de Status van kwesties in Huidige projecten en de Naam van het Project toont. Het rapport wordt gegroepeerd door de Naam van het Project en Status van de kwesties.</td> 
   </tr> 
   <tr> 
-   <td>Arbeidskosten vs. onkosten per Portfolio</td> 
-   <td>Een projectrapport waarin de geplande loonkosten, de werkelijke loonkosten, de geplande onkostenkosten en de werkelijke kosten van de projecten worden weergegeven. Het rapport wordt gegroepeerd door de Naam van het Portfolio, en het omvat een grafiek.</td> 
+   <td>Arbeidskosten vs. onkosten door Portfolio</td> 
+   <td>Een projectrapport waarin de geplande loonkosten, de werkelijke loonkosten, de geplande onkostenkosten en de werkelijke kosten van de projecten worden weergegeven. Het rapport wordt gegroepeerd door de Naam van Portfolio, en het omvat een grafiek.</td> 
   </tr> 
   <tr> 
    <td>Arbeidskosten vs. onkosten per programma</td> 
-   <td>Een projectrapport waarin de geplande loonkosten, de werkelijke loonkosten, de geplande onkostenkosten en de werkelijke kosten van de projecten worden weergegeven. Het rapport wordt gegroepeerd door de Naam van het Portfolio en de Naam van het Programma, en het omvat een grafiek.</td> 
+   <td>Een projectrapport waarin de geplande loonkosten, de werkelijke loonkosten, de geplande onkostenkosten en de werkelijke kosten van de projecten worden weergegeven. Het rapport wordt gegroepeerd door de Naam van Portfolio en de Naam van het Programma, en het omvat een grafiek.</td> 
   </tr> 
   <tr> 
-   <td>Voorziene maandelijkse Portfolio's kosten in verhouding tot werkelijke kosten per project</td> 
+   <td>Maandelijkse geplande Portfolio-kosten in verhouding tot werkelijke kosten per project</td> 
    <td>Een matrixprojectrapport (financiële gegevens) met de datum van toewijzing, de totale geplande kosten, de totale werkelijke kosten en de totale kostenvariatie van de projecten. Het rapport wordt gegroepeerd op de Naam van het Project, het kwartaal en de maand van de Datum van Toewijzing.</td> 
   </tr> 
   <tr> 
-   <td>Voorziene jaarlijkse Portfolio's ontvangsten t.o.v. daadwerkelijk per project</td> 
+   <td>Voorziene jaarlijkse Portfolio-inkomsten vs. Werkelijk per project</td> 
    <td>Een matrixprojectrapport (financiële gegevens) met de datum van toewijzing, de totale geplande inkomsten, de totale werkelijke inkomsten en de variatie van de totale opbrengsten van de projecten. Het rapport wordt gegroepeerd op de Naam van het Project, het kwartaal en de maand van de Datum van Toewijzing.</td> 
   </tr> 
   <tr> 
@@ -198,8 +198,8 @@ De volgende verslagen gaan over het Workfront-pakket. De rapporten zijn beschikb
    <td>Een rapport van de Kwestie dat onvolledige Kwesties toont die aan de gebruiker worden toegewezen die het programma wordt geopend. In het rapport worden de volgende velden weergegeven: Source-naam, Type uitgave, primaire toewijzing, Invoerdatum, Status en Prioriteit van de problemen.</td> 
   </tr> 
   <tr> 
-   <td>Mijn Portfolio's</td> 
-   <td>Een rapport van het Portfolio dat actieve Portfolio's toont waar de het programma geopende gebruiker de Manager van het Portfolio is.</td> 
+   <td>Mijn portfolio's</td> 
+   <td>Een Portfolio-rapport waarin actieve portfolio's worden weergegeven waarin de aangemelde gebruiker Portfolio Manager is.</td> 
   </tr> 
   <tr> 
    <td>Mijn programma's</td> 
@@ -242,68 +242,68 @@ De volgende verslagen gaan over het Workfront-pakket. De rapporten zijn beschikb
    <td>Een rapport Tijdschema dat Open Timesheets toont. Het rapport geeft de volgende velden weer: Datumbereik, Eigenaar, Totaal aantal uren, Overwerk, Naam fiatteur, Status van de tijdbladen. Het rapport wordt veroorzaakt door: De Datum van het Begin van de Tijdopmaak, de Datum van het Eind van de Tijdopmaak, de Naam van de Approver van de Tijdopmaak, en Naam van de Gebruiker.</td> 
   </tr> 
   <tr> 
-   <td>Boekprojecten per Portfolio</td> 
-   <td>Een projectrapport waarin de geplande kosten en de werkelijke kosten van de projecten worden weergegeven. Het rapport wordt gegroepeerd door de Naam van het Portfolio.</td> 
+   <td>Overdrachtsprojecten van Portfolio</td> 
+   <td>Een projectrapport waarin de geplande kosten en de werkelijke kosten van de projecten worden weergegeven. Het rapport is gegroepeerd op Portfolio Name.</td> 
   </tr> 
   <tr> 
-   <td>Voorziene kosten Portfolio per programma</td> 
-   <td>Een projectrapport waarin de geplande kosten en de werkelijke kosten van de projecten worden weergegeven. Het rapport wordt veroorzaakt door de Naam van het Portfolio, die door de Naam van het Programma wordt gegroepeerd, en het omvat een grafiek.</td> 
+   <td>Geplande Portfolio-kosten per programma</td> 
+   <td>Een projectrapport waarin de geplande kosten en de werkelijke kosten van de projecten worden weergegeven. Het rapport wordt veroorzaakt door de Naam van Portfolio, die door de Naam van het Programma wordt gegroepeerd, en het omvat een grafiek.</td> 
   </tr> 
   <tr> 
-   <td>Voorziene kosten Portfolio per project</td> 
-   <td>Een projectrapport waarin de geplande kosten en de werkelijke kosten van de projecten worden weergegeven. Het rapport wordt veroorzaakt door de Naam van het Portfolio, die door de Naam van het Project wordt gegroepeerd, en het omvat een grafiek.</td> 
+   <td>Geplande Portfolio-kosten per project</td> 
+   <td>Een projectrapport waarin de geplande kosten en de werkelijke kosten van de projecten worden weergegeven. Het rapport wordt veroorzaakt door de Naam van Portfolio, die door de Naam van het Project wordt gegroepeerd, en het omvat een grafiek.</td> 
   </tr> 
   <tr> 
-   <td>Geplande ontvangsten Portfolio per programma</td> 
-   <td>Een projectrapport met de geplande inkomsten en werkelijke inkomsten van de projecten. Het rapport wordt veroorzaakt door de Naam van het Portfolio, die door de Naam van het Programma wordt gegroepeerd, en het omvat een grafiek.</td> 
+   <td>Geplande Portfolio-inkomsten per programma</td> 
+   <td>Een projectrapport met de geplande inkomsten en werkelijke inkomsten van de projecten. Het rapport wordt veroorzaakt door de Naam van Portfolio, die door de Naam van het Programma wordt gegroepeerd, en het omvat een grafiek.</td> 
   </tr> 
   <tr> 
-   <td>Geplande inkomsten uit Portfolio per project</td> 
-   <td>Een projectrapport met de geplande inkomsten en werkelijke inkomsten van de projecten. Het rapport wordt veroorzaakt door de Naam van het Portfolio, die door de Naam van het Project wordt gegroepeerd, en het omvat een grafiek.</td> 
+   <td>Geplande Portfolio-inkomsten per project</td> 
+   <td>Een projectrapport met de geplande inkomsten en werkelijke inkomsten van de projecten. Het rapport wordt veroorzaakt door de Naam van Portfolio, die door de Naam van het Project wordt gegroepeerd, en het omvat een grafiek.</td> 
   </tr> 
   <tr> 
-   <td>Geplande versus werkelijke kosten per Portfolio</td> 
-   <td>Een projectrapport met de geplande kosten en werkelijke kosten van de projecten per Portfolio. Het rapport wordt gegroepeerd door de Naam van het Portfolio, en het omvat een grafiek.</td> 
+   <td>Geplande versus werkelijke kosten door Portfolio</td> 
+   <td>Een projectrapport met de geplande kosten en werkelijke kosten van de projecten door Portfolio. Het rapport wordt gegroepeerd door de Naam van Portfolio, en het omvat een grafiek.</td> 
   </tr> 
   <tr> 
    <td>Geplande versus werkelijke kosten per programma</td> 
-   <td>Een projectrapport met de geplande kosten en werkelijke kosten van de projecten per programma. Het rapport wordt gegroepeerd door de Naam van het Portfolio, en het omvat een grafiek.</td> 
+   <td>Een projectrapport met de geplande kosten en werkelijke kosten van de projecten per programma. Het rapport wordt gegroepeerd door de Naam van Portfolio, en het omvat een grafiek.</td> 
   </tr> 
   <tr> 
-   <td>Geplande versus werkelijke inkomsten per Portfolio</td> 
-   <td>Een projectrapport met de geplande inkomsten en de werkelijke inkomsten van de projecten. Het rapport wordt gegroepeerd door de Naam van het Portfolio, en het omvat een grafiek.</td> 
+   <td>Geplande versus werkelijke inkomsten van Portfolio</td> 
+   <td>Een projectrapport met de geplande inkomsten en de werkelijke inkomsten van de projecten. Het rapport wordt gegroepeerd door de Naam van Portfolio, en het omvat een grafiek.</td> 
   </tr> 
   <tr> 
    <td>Geplande versus werkelijke inkomsten per programma</td> 
    <td>Een projectrapport met de geplande inkomsten en de werkelijke inkomsten van de projecten. Het rapport wordt gegroepeerd door de Naam van het Programma, en het omvat een grafiek.</td> 
   </tr> 
   <tr> 
-   <td>Kosten Portfolio gegroepeerd per programma en per maand</td> 
-   <td>Een matrixprojectrapport waarin de geplande kosten, de begrote kosten en de werkelijke kosten van de projecten worden weergegeven. Het rapport wordt gegroepeerd op de Naam van het Portfolio, de Naam van het Programma en de maand van de Geplande Datum van het Begin van de projecten.</td> 
+   <td>Portfolio-kosten per programma en per maand</td> 
+   <td>Een matrixprojectrapport waarin de geplande kosten, de begrote kosten en de werkelijke kosten van de projecten worden weergegeven. Het rapport wordt gegroepeerd op Portfolio-naam, programmanaam en de maand van de geplande begindatum van de projecten.</td> 
   </tr> 
   <tr> 
-   <td>Projecten Portfolio per status gegroepeerd op programma</td> 
+   <td>Portfolio-projecten per status gegroepeerd op programma</td> 
    <td>Een rapport van het Project dat de Status van de projecten toont. Het rapport wordt gegroepeerd door de Naam van het Programma en de Status van het Project, en het omvat een grafiek.</td> 
   </tr> 
   <tr> 
-   <td>Portfolio Projecten gegroepeerd op status en Portfolio</td> 
-   <td>Een rapport van het Project dat de Naam van het Portfolio en de Status van de projecten toont. Het rapport wordt gegroepeerd door de Naam van het Portfolio en de Status van de projecten, en het omvat een grafiek.</td> 
+   <td>Portfolio Projecten gegroepeerd op Status en Portfolio</td> 
+   <td>Een rapport van het Project dat de Naam van Portfolio en de Status van de projecten toont. Het rapport wordt gegroepeerd door de Naam van Portfolio en de Status van de projecten, en het omvat een grafiek.</td> 
   </tr> 
   <tr> 
-   <td>Ontvangsten Portfolio per programma</td> 
-   <td>Een projectrapport met de naam van het Portfolio, de naam van het programma, de geplande inkomsten en de werkelijke inkomsten van de projecten. Het rapport wordt gegroepeerd door de Naam van het Portfolio en de Naam van het Programma, en het omvat een grafiek.</td> 
+   <td>Portfolio-inkomsten per programma</td> 
+   <td>Een projectrapport met de naam, de naam van het programma, de geplande inkomsten en de werkelijke inkomsten van de projecten. Het rapport wordt gegroepeerd door de Naam van Portfolio en de Naam van het Programma, en het omvat een grafiek.</td> 
   </tr> 
   <tr> 
-   <td>Portfolio-inkomsten gegroepeerd per programma en per maand</td> 
-   <td>Een matrixprojectrapport met de geplande inkomsten, werkelijke inkomsten, naam van het Portfolio en naam van het programma. Het rapport wordt gegroepeerd op de Naam van het Portfolio, de Naam van het Programma en de maand van de Geplande Datum van het Begin van de projecten.</td> 
+   <td>Portfolio Revenue gegroepeerd per programma en per maand</td> 
+   <td>Een matrixprojectrapport met de geplande inkomsten, werkelijke inkomsten, Portfolio-naam en programmanaam. Het rapport wordt gegroepeerd op de naam van Portfolio, de naam van het programma en de maand van de geplande begindatum van de projecten.</td> 
   </tr> 
   <tr> 
    <td>Projectkosten en ontvangsten per taakstatus</td> 
    <td>Een matrixtaakrapport waarin de geplande kosten, werkelijke kosten, geplande inkomsten, werkelijke inkomsten en de projectnaam van de taken worden weergegeven. Het rapport wordt gegroepeerd door de Naam en Status van het Project van de taken.</td> 
   </tr> 
   <tr> 
-   <td>Projectkosten versus inkomsten per Portfolio</td> 
-   <td>Een projectrapport met de naam van het Portfolio, de werkelijke kosten en de werkelijke inkomsten van de projecten. Het rapport wordt gegroepeerd door de Naam van het Portfolio, en het omvat een grafiek.</td> 
+   <td>Projectkosten versus inkomsten van Portfolio</td> 
+   <td>Een projectrapport met de naam van de Portfolio, de werkelijke kosten en de werkelijke inkomsten van de projecten. Het rapport wordt gegroepeerd door de Naam van Portfolio, en het omvat een grafiek.</td> 
   </tr> 
   <tr> 
    <td>Projectkosten per maand en per kwartaal</td> 
@@ -383,7 +383,7 @@ De volgende verslagen gaan over het Workfront-pakket. De rapporten zijn beschikb
 1. Onder het **voorwerp van het Rapport**, uitgezochte **Globale identiteitskaart**.
 
 1. In het drop-down menu van de filterbepaling, uitgezocht **is niet Leeg**.\
-   ![](assets/qs-global-id-filter-for-system-reports-350x179.png)
+   ![ Globale filter van identiteitskaart voor systeemrapporten ](assets/qs-global-id-filter-for-system-reports-350x179.png)
 
 1. Klik **sparen Filter**.\
    De rapportenlijst toont slechts ingebouwde rapporten.\

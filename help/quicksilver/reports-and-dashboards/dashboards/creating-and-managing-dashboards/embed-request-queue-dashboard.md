@@ -6,9 +6,9 @@ description: U kunt een nieuwe verzoekrij in een dashboard inbedden om directe t
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2d129095-c7ee-45b1-94ce-055d1d91e2fe
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1150'
 ht-degree: 0%
 
 ---
@@ -100,7 +100,7 @@ De gebruikers kunnen het verzoektype veranderen of een ander onderwerp kiezen al
 
    Dit kopieert de verbinding aan de verzoekrij of het rijonderwerp aangezien u het op het scherm toont. De gebruikers kunnen het Type van Verzoek of om het even welke onderwerpgroepen en rijonderwerpen bijwerken beschikbaar.
 
-   ![](assets/share-request-queue-with-share-path-link-embedded-in-dashboard-nwe-350x116.png)
+   ![ rij van het Verzoek met aandeelweg ](assets/share-request-queue-with-share-path-link-embedded-in-dashboard-nwe-350x116.png)
 
 ### Verkrijg een verbinding aan een verzoekrij en capaciteit om het verzoektype te veranderen {#obtain-a-link-to-a-request-queue-and-ability-to-change-the-request-type}
 
@@ -121,7 +121,7 @@ Wanneer u een koppeling naar een aanvraagtype deelt, wordt het aanvraagtype gese
 
    De gebruikers kunnen om het even welk onderwerpgroep of rijonderwerp selecteren zij hebben vereist, of zij kunnen een ander verzoektype kiezen.
 
-   ![](assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png)
+   ![ de rij URL van het Verzoek ](assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png)
 
 ### Verkrijg een verbinding aan een verzoekrij zonder capaciteit om het verzoektype te veranderen {#obtain-a-link-to-a-request-queue-with-no-ability-to-change-the-request-type}
 
@@ -150,7 +150,7 @@ Wanneer u een koppeling deelt naar een vooraf geselecteerd aanvraagtype, wordt h
 
    De gebruikers kunnen om het even welk onderwerpgroep of rijonderwerp selecteren zij voor het geselecteerde verzoektype nodig hebben. Gebruikers kunnen geen ander aanvraagtype selecteren.
 
-   ![](assets/share-request-queue-with-embedded-code-embedded-in-dashboard-nwe-350x210.png)
+   ![ de rijcode van het Verzoek ](assets/share-request-queue-with-embedded-code-embedded-in-dashboard-nwe-350x210.png)
 
 ## Een aanvraagwachtrij insluiten in een dashboard
 
@@ -164,7 +164,7 @@ U kunt een verbinding aan de verzoekrij of aan een rijonderwerp inbedden dat ond
 
 1. Klik **toevoegen Externe Pagina**.
 
-   ![](assets/add-external-page-highlighted---nwe-350x214.png)
+   ![ Externe pagina ](assets/add-external-page-highlighted---nwe-350x214.png)
 
 1. In **voeg Externe de doos van de Pagina** toe, geef de volgende gebieden uit:
 

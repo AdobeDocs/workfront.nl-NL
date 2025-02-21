@@ -6,9 +6,9 @@ description: U kunt een groepering in een lijst of een rapport uitgeven gebruike
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf
-source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: '1539'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Voor informatie over het creëren van een rapport, zie [ een douanerapport ](../
 1. Voer een van de volgende handelingen uit:
 
    1. Om tot de groepering van een rapport toegang te hebben, ga naar het rapport, dan klik **de Acties van het 0} Rapport** uitgeven **>** Groepen **tabel.**
-   1. Om tot het groeperen van een lijst toegang te hebben, ga naar de lijst en van **het Groeperen** drop-down menu, muis over de groepering die u wilt wijzigen en **klikken geeft** pictogram ![](assets/edit-icon.png) uit.
+   1. Om tot het groeperen van een lijst toegang te hebben, ga naar de lijst en van het **Groeperen** drop-down menu, muis over de groepering die u wilt wijzigen en **klikken geeft** pictogram ![ pictogram uit ](assets/edit-icon.png).
 
       De groeperingsbouwer wordt geopend.
 
@@ -194,7 +194,7 @@ Voor informatie over het creëren van een rapport, zie [ een douanerapport ](../
        <ol> 
         <li value="1"> <p> Als de naam van het veld dat u weergeeft een woordgroep is in plaats van een enkel zelfstandig naamwoord, moet u de syntaxis van camelhoofdletters gebruiken voor de <code>valuefield</code> . Voor de geplande begindatum van een taak is de code bijvoorbeeld:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b> Voorbeeld: </b></span></span><code>group.0.valuefield=plannedStartDate</code> </p> </li> 
         <li value="2"> <p>Als u een aangepast veld wilt weergeven, is de <code>valuefield</code> -waarde de werkelijke naam van het veld, zoals deze wordt weergegeven in de interface. Voor een aangepast veld met de naam "Meer informatie" is de code bijvoorbeeld:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b> Voorbeeld: </b></span></span><code>group.0.valuefield=More information</code> </p> </li> 
-        <li value="3"> <p>Als u wilt groeperen door objecten die verwant zijn aan andere objecten met behulp van de coderegel <code>valuefield</code> , worden de objectnamen en -kenmerken gescheiden door dubbele punten.</p> <p>Bijvoorbeeld, heeft een groepering door de Naam van het Portfolio voor een taaklijst de volgende waarde voor de waardegebiedlijn:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b> Voorbeeld: </b></span></span><code>group.0.valuefield=project:portfolio:name</code> </p> <p>Dit wijst erop dat van het voorwerp van het rapport (taak), u tot het volgende verwante voorwerp (project) kunt toegang hebben; van daar, kunt u tot het volgende verwante voorwerp van project (portefeuille) toegang hebben; dan de portefeuillenaam (naam).</p> </li> 
+        <li value="3"> <p>Als u wilt groeperen door objecten die verwant zijn aan andere objecten met behulp van de coderegel <code>valuefield</code> , worden de objectnamen en -kenmerken gescheiden door dubbele punten.</p> <p>Een groepering op Portfolio Name voor een takenlijst heeft bijvoorbeeld de volgende waarde voor de waardeveldregel:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b> Voorbeeld: </b></span></span><code>group.0.valuefield=project:portfolio:name</code> </p> <p>Dit wijst erop dat van het voorwerp van het rapport (taak), u tot het volgende verwante voorwerp (project) kunt toegang hebben; van daar, kunt u tot het volgende verwante voorwerp van project (portefeuille) toegang hebben; dan de portefeuillenaam (naam).</p> </li> 
        </ol> <p>Voor informatie over hoe de voorwerpen met elkaar verbinden, zie de sectie <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects" class="MCXref xref"> Interdependentie en hiërarchie van voorwerpen </a> in <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref"> voorwerpen in Adobe Workfront </a> begrijpen.</p> <p>Opmerking: als u in de tekstmodus een veld kiest dat niet geldig is in de standaardinterface en u overschakelt naar de standaardinterface, wordt de groepering verwijderd.</p> </td> 
      </tr> 
      <tr> 

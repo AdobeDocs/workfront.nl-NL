@@ -7,9 +7,9 @@ description: Wanneer u een rapport over rapporten creeert, kunt u specifieke rap
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 3861ac81-d2e4-4dec-b9cd-96eee0b66a38
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '659'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Rapport maken over bestaande rapporten {#create-the-report-about-existing-reports}
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.
+1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.**
 1. Klik **Rapporten**, dan **Nieuw Rapport**.
 1. In het **Nieuwe drop-down menu van het Rapport**, uitgezochte **Rapport** om een rapport over bestaande rapporten tot stand te brengen.
 

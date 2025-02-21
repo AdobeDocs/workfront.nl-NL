@@ -6,9 +6,9 @@ description: De informatie op deze pagina verwijst naar functionaliteit die alle
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 568360df-bec9-4767-8b5a-32a294d05d47
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '625'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Of een geleverd rapport wordt geproduceerd of niet in het milieu van de Voorproe
 
 Voor informatie over het toelaten van e-mails van het milieu Sandbox zie [ levering van e-mails van het milieu van de zandbak van de Voorproef ](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md) toelaten.
 
-![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
+![ ontvang e-mails van zandbakoptie ](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
 Het plannen van rapporten voor levering in het milieu van de Voorproef is identiek aan het plannen van rapporten in het milieu van de Productie. Voor informatie over het plannen van een rapport voor levering, zie [ de leveringsoverzicht van het Rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
@@ -100,7 +100,7 @@ Of een geleverd rapport wordt geproduceerd of niet in de Douane verfrist Sandbox
 
 Voor informatie over het toelaten van e-mails van het milieu van de Voorproef zie de sectie [ Mening en wijzig uw montages van het e-mailbericht ](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view) in het artikel [ uw eigen e-mailberichten ](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) wijzigen.
 
-![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
+![ ontvang e-mails van zandbakoptie ](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
 Het plannen van rapporten voor levering in het milieu van de Zandbak van de Douane verfrist zich is identiek aan het plannen van rapporten in het milieu van de Productie. Voor informatie over het plannen van een rapport voor levering, zie [ de leveringsoverzicht van het Rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 

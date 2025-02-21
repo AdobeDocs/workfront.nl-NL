@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Weergeven: documentrapport met koppeling naar proefafdruk'
-description: 'Weergeven: documentrapport met koppeling naar bewijs'
+title: 'Weergeven: Documentrapport met koppeling naar proefafdruk'
+description: 'Weergeven: documentrapport met koppeling naar proefdruk'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a38c5e86-9789-41ca-a832-2ee5eb0a570b
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 In deze documentweergave kunt u een koppeling invoegen naar een proefdruk van de huidige versie van het document.
 
-![](assets/view-document-with-proof-link-350x92.png)
+![ document van de Mening met proefdruk verbinding ](assets/view-document-with-proof-link-350x92.png)
 
 ## Toegangsvereisten
 

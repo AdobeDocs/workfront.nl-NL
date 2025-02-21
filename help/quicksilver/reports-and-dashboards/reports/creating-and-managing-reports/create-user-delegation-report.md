@@ -7,9 +7,9 @@ description: Een gebruikersdelegatierapport maken
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c860574b-0488-499e-8d36-d0f3f85aac2d
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -83,11 +83,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Een gebruikersdelegatierapport maken
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Rapporten**.
+1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** Rapporten **.**
 
 1. Klik **Nieuw Rapport**, dan uitgezochte **Delegatie van de Gebruiker**.
 
-   ![](assets/classic-new-report-user-delegation-350x644.png)
+   ![ Nieuwe delegatie van de rapportgebruiker ](assets/classic-new-report-user-delegation-350x644.png)
 
    De volgende gebieden tonen in dit rapport door gebrek:
 

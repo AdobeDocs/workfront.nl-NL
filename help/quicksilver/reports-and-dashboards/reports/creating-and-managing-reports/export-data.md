@@ -6,7 +6,7 @@ description: U kunt Adobe Workfront-gegevens uit verschillende lijsten, rapporte
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
 source-wordcount: '2247'
 ht-degree: 0%
@@ -97,7 +97,7 @@ Voor meer informatie bij het creëren van rapporten, zie [ een douanerapport ](/
 
 De informatie kan in de volgende formaten worden uitgevoerd:
 
-* PDF (Letter liggend of Staand, Legal, Ledger en A4)
+* PDF (Letter Landscape of Portrait, Legal, Ledger en A4)
 * Excel (.xls)
 * Excel (.xlsx)
 * Door tabs gescheiden
@@ -190,7 +190,7 @@ Neem contact op met de technische ondersteuning van Workfront als u problemen he
    >[!NOTE]
    >
    >To export a Dashboard report, you must have a Plan license.  
-   >![](assets/nwe-dashboard-export-note-350x271.png)
+   >![Export dashboard note](assets/nwe-dashboard-export-note-350x271.png)
    -->
 
    of
@@ -249,10 +249,10 @@ Wanneer u een lijst van taak of kwesties uitvoert, kan de **Naam van het Dossier
    * **The_project_name_the_task_name_Exported_Tasks** (*in PDF, Excel, Excel (.xlsx), of Door tabs afgebakende formaten)*
    * **The_project_name_the_task_name_Exported_Issues** (*in PDF, Excel, Excel (.xlsx), of Door tabs afgebakende formaten)*
 
-Wanneer u een lijst met andere objecten uit een project naar een PDF-bestand exporteert, geeft de bestandsnaam van het geëxporteerde document het type object aan dat u hebt geëxporteerd.\
+Wanneer u een lijst met andere objecten uit een project naar een PDF-bestand exporteert, geeft de bestandsnaam van het geëxporteerde document het type objecten aan dat u hebt geëxporteerd.\
 De bestandsnaam kan bijvoorbeeld als volgt zijn:
 
-* *Exported_Users*, wanneer het uitvoeren van het lusje van Mensen op het project (*in PDF, Excel, Excel (.xlsx), of Door tabs afgebakende formaten)*
+* *Exported_Users*, wanneer het uitvoeren van het lusje van Mensen op het project (*in PDF, Excel, Excel (.xlsx), of Door het Lusje afgebakende formaten)*
 * *Exported_Risks*, wanneer het uitvoeren van een lijst van Risken op het project (*in PDF, Excel, Excel (.xlsx), of Door tabs afgebakende formaten)*
 
 #### Bestandsnamen voor geëxporteerde rapporten {#file-names-for-exported-reports}
@@ -263,11 +263,11 @@ Wanneer u een rapport exporteert, krijgt het geëxporteerde rapport de volgende 
 
 ### Titels {#titles}
 
-Wanneer u een lijst met objecten exporteert, heeft alleen het bestand in de indeling PDF een titel. Als u een lijst of een rapport naar Excel, Excel (.xlsx), of Door tabs gescheiden formaten uitvoert, heeft het dossier geen titel.
+Wanneer u een lijst met objecten exporteert, heeft alleen het bestand in de PDF-indeling een titel. Als u een lijst of een rapport naar Excel, Excel (.xlsx), of Door tabs gescheiden formaten uitvoert, heeft het dossier geen titel.
 
 #### Titels voor geëxporteerde lijsten {#titles-for-exported-lists}
 
-Wanneer u taak en uitgeeft lijsten in een project naar een dossier van PDF uitvoert, is de titel van het uitgevoerde document één van het volgende:
+Wanneer u taak- en uitgavelijsten in een project exporteert naar een PDF-bestand, is de titel van het geëxporteerde document een van de volgende:
 
 * *naam van het Project - de Uitgevoerde Taken*
 * *naam van het Project - de Uitgevoerde Kwesties*
@@ -285,7 +285,7 @@ De titel kan bijvoorbeeld als volgt zijn:
 
 #### Titels voor geëxporteerde rapporten {#titles-for-exported-reports}
 
-Een rapport dat naar een PDF-bestand wordt geëxporteerd, heeft een titel.
+Een rapport dat naar een PDF-bestand wordt geëxporteerd, krijgt een titel.
 
 Als het rapport wordt uitgevoerd naar Excel, Excel (.xlsx) of Door tabs gescheiden formaten, zal het uitgevoerde rapport geen titel hebben. De titel van het geëxporteerde bestand is de naam van het rapport zoals deze wordt weergegeven in de Workfront-webtoepassing.
 

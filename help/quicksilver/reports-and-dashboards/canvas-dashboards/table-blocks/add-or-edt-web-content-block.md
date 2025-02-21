@@ -4,9 +4,9 @@ description: De de inhoudsblokken van het Web staan u toe om informatie van exte
 hidefromtoc: true
 hide: true
 exl-id: 29f0c2e1-1644-4989-81b1-c6db6bfec905
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -21,12 +21,12 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
 
 ## Een webinhoud-blok toevoegen of bewerken
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Meldend**.
+1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** Meldend **.**
 1. Klik **Nieuw rapport**.
 
    of
 
-   Ga naar een bestaand rapport, klik **Meer** pictogram ![](assets/more-icon-27x15.png) in de rapportkopbal, dan klik **uitgeven**.
+   Ga naar een bestaand rapport, klik **Meer** pictogram ![ Meer pictogram ](assets/more-icon-27x15.png) in de rapportkopbal, dan klik **uitgeven**.
 
 1. Op de rechterkant van het scherm, onder **voeg een Blok** toe, of:
 
@@ -41,9 +41,9 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
    >U kunt de grootte van het blok wijzigen nadat het is geplaatst door de hoekgrepen te slepen.
 
 1. Klik **Naamloze Webinhoud** in de blokkopbal, dan typ een titel voor het blok.
-1. Klik **uitgeven** pictogram ![](assets/edit-icon.png) in de blokkopbal.
+1. Klik **uitgeven** pictogram ![ uitgeven pictogram ](assets/edit-icon.png) in de blokkopbal.
 
-   ![](assets/web-content-block-header-350x76.png)
+   ![ geef pictogram in blokkopbal uit ](assets/web-content-block-header-350x76.png)
 
 1. In het **paneel van Montages** dat opent, ga volledige URL voor de pagina in die u (met inbegrip van &quot;https://&quot;) op het **URL** gebied zou willen tonen.
 

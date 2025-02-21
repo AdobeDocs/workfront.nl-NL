@@ -6,9 +6,9 @@ description: U kunt uw rapporten verbeteren door een grafiek toe te voegen. U ku
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '2734'
+source-wordcount: '2747'
 ht-degree: 0%
 
 ---
@@ -277,11 +277,11 @@ Om a **Bubble** grafiek aan uw rapport toe te voegen:
 
    Bijvoorbeeld, als u **Naam van het Project** in een taakrapport selecteerde, kunt u **Status van de Taak** als **Bubble van de Kleur** gebied toevoegen.
 
-   ![](assets/bubbles-field-correct-can-select-bubbles-color-example.png)
+   ![ status van de Taak als bel kleur ](assets/bubbles-field-correct-can-select-bubbles-color-example.png)
 
    Nochtans, als u **Status van de Taak** voor het **Bubbles** gebied selecteerde, kunt u niet het gebied van de Kleur van de Bubbel van de a **** selecteren. Ook, kunt u niet **Naam van het Project** voor het **Bubble gebied van de Kleur** selecteren, zelfs wanneer u **Naam van het Project** voor het **Bubbles** gebied selecteert.
 
-   ![](assets/bubbles-field-wrong-cannot-select-bubbles-color-example.png)
+   ![ kan bellen kleur ](assets/bubbles-field-wrong-cannot-select-bubbles-color-example.png) niet selecteren
 
 1. Klik **sparen + Sluiten** om de veranderingen in de interfacebouwer te bewaren.
 
@@ -304,7 +304,7 @@ Grafiekkleuren aanpassen:
 
 1. Klik **de Kleuren van de Douane** wanneer dit gebied beschikbaar is.\
    Het dialoogvenster Aangepaste kleuren wordt weergegeven.\
-   ![](assets/unshimmed-custom-colors-in-charts.png)
+   ![ de kleuren van de Douane in grafieken ](assets/unshimmed-custom-colors-in-charts.png)
 
    >[!NOTE]
    >

@@ -6,9 +6,9 @@ description: Matrix-rapporten bevatten samenvattingsgegevens in een samengevoegd
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 714f2802-089f-4a41-8205-f397cf474a24
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1091'
 ht-degree: 0%
 
 ---
@@ -23,14 +23,14 @@ U kunt een matrixrapport voor om het even welk rapport tot stand brengen dat 2 o
 
 Bijvoorbeeld, wilt u een rapport van het Uur tot stand brengen dat de uren toont die tijdens een periode van drie maanden worden geregistreerd, en u wilt dat het rapport volgens wie de uren, evenals door maand en week ingaan wordt georganiseerd.
 
-![](assets/report-matrix-overview-350x123.png)
+![ de matrixoverzicht van het Rapport ](assets/report-matrix-overview-350x123.png)
 
 ## Hoe gegevens in een matrixrapport worden weergegeven
 
 De informatie in het matrixrapport wordt altijd getoond als numerieke waarde. In de meeste gevallen, zijn de kolommen die een numerieke waarde bevatten best voor het tonen in een matrixrapport (zoals het geregistreerde uren en daadwerkelijke kosten).
 
 Andere kolommen (zoals Status) kunnen echter nog steeds worden weergegeven in het matrixrapport, zoals in de volgende afbeelding wordt getoond:\
-![](assets/report-matrix-status-350x73.png)
+![ status van de Matrijs ](assets/report-matrix-status-350x73.png)
 
 ## Toegangsvereisten
 
@@ -91,7 +91,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
       >
       >Als deze optie niet is geselecteerd, wordt de informatie uit de kolom niet correct weergegeven in het matrixrapport.
 
-      ![](assets/qs-report-matrix-summarized-350x392.png)
+      ![ Samengevatte Matrijs ](assets/qs-report-matrix-summarized-350x392.png)
 
    1. Herhaal dit proces voor elke kolom in het lusje van Kolommen (Mening), dan klik **Gedaan**.
 
@@ -105,10 +105,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    1. In de **sectie van de Groepen van de Kolom**, identificeer de kolomgroepering, die de verticale groeperingen van de lijst vestigt.
    1. (Facultatief) om een extra kolom toe te voegen groeperen, **voeg secundaire Kolomgroepering** toe.
    1. (Voorwaardelijk) Als u een groepering door datum toevoegt, specificeer ook of de resultaten door dag, week, maand, kwartaal of jaar worden gegroepeerd.\
-      ![](assets/qs-grouping-by-date-options-for-matrix-report-350x450.png)
+      ![ Groepering door datumopties ](assets/qs-grouping-by-date-options-for-matrix-report-350x450.png)
 
    1. (Voorwaardelijk) als u aan groep door datum selecteerde en resultaten door kwartaal te tonen, bijvoorbeeld, specificeer of u kwarten zonder gegevens wilt tonen door **te selecteren toont kwarten zonder resultaten** checkbox.\
-      ![](assets/qs-show-quarters-with-no-results-on-matrix-report-350x175.png)
+      ![ toon kwarten zonder resultaten ](assets/qs-show-quarters-with-no-results-on-matrix-report-350x175.png)
 
       >[!NOTE]
       >

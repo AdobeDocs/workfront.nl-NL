@@ -6,9 +6,9 @@ description: Met rapporten in Adobe Workfront kunt u informatie over objecten in
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a444d863-12a8-43d0-ae84-ee24863ad87b
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 Om tot rapporten toegang te hebben die u hebt gecreeerd of die met u gedeeld of openbaar gedeeld:
 
-1. Van het **Belangrijkste Menu** ![](assets/main-menu-icon.png), klik **Rapporten**.
+1. Van het **Belangrijkste Menu** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png), klik **Rapporten**.
 
 1. Klik op een van de volgende opties, afhankelijk van het rapport dat u wilt weergeven:
 
@@ -67,10 +67,10 @@ U kunt mappen gebruiken om de rapporten te ordenen die u maakt. U kunt geen rapp
 
 ### Nieuwe map maken voor rapporten {#create-a-new-folder-for-reports}
 
-1. Van het **Belangrijkste Menu** ![](assets/main-menu-icon.png), klik **Rapporten**.
+1. Van het **Belangrijkste Menu** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png), klik **Rapporten**.
 
 1. Klik het **Nieuwe pictogram van de Omslag**.\
-   ![](assets/nwe-new-folder-350x346.png)
+   ![ Nieuw omslagpictogram ](assets/nwe-new-folder-350x346.png)
 
 1. Geef een naam voor de nieuwe map op en druk op Enter.
 1. Van de **Mijn omslag van Rapporten**, voeg rapporten aan de nieuwe omslag toe.\
@@ -82,7 +82,7 @@ U kunt mappen gebruiken om de rapporten te ordenen die u maakt. U kunt geen rapp
 
 ### Rapporten toevoegen aan een map {#add-reports-to-a-folder}
 
-1. Van het **Belangrijkste Menu** ![](assets/main-menu-icon.png), klik **Rapporten**.
+1. Van het **Belangrijkste Menu** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png), klik **Rapporten**.
 
 1. Klik **Mijn Rapporten**.\
    of\
@@ -94,4 +94,4 @@ U kunt mappen gebruiken om de rapporten te ordenen die u maakt. U kunt geen rapp
    >
    >U kunt rapporten van **slechts bewegen Mijn die Rapporten** omslag aan andere die omslagen onder **worden genesteld Mijn Rapporten**. U kunt geen rapporten van of aan **bewegen met me** wordt gedeeld of **Alle Rapporten** omslag aan of van andere omslagen die.
 
-   ![](assets/nwe-drag-report-to-folder-350x292.png)
+   ![ het rapport van de Belemmering aan omslag ](assets/nwe-drag-report-to-folder-350x292.png)

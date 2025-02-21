@@ -6,9 +6,9 @@ description: U kunt een weergave in een lijst of rapport bewerken met de tekstmo
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
-source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ Voor informatie over het creëren van een rapport, zie [ een douanerapport ](../
 1. Voer een van de volgende handelingen uit:
 
    1. Om tot de mening van een rapport toegang te hebben, ga naar het rapport, dan klik **de Acties van het 0} Rapport** uitgeven **>** Kolommen (Mening) **tabel.**
-   1. Om tot de mening van een lijst toegang te hebben, ga naar de lijst en van het **drop-down menu van de Mening**, muis over de mening die u wilt wijzigen en **klikken geeft** pictogram ![](assets/edit-icon.png) uit.
+   1. Om tot de mening van een lijst toegang te hebben, ga naar de lijst en van het **drop-down menu van de Mening**, muis over de mening die u wilt wijzigen en **klikken geeft** pictogram ![ pictogram uit ](assets/edit-icon.png).
 
       De weergavebuilder wordt geopend.
 

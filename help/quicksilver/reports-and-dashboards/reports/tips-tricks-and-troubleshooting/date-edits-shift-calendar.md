@@ -7,9 +7,9 @@ description: Bij inline bewerkingsdatums in een lijst met objecten worden in de 
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 6d053968-1578-4c20-b2a7-43634481696f
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '159'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 ## Probleem
 
 Bij inline bewerkingsdatums in een lijst met objecten worden in de kalender meer datums weergegeven dan u zou mogen. Hierdoor worden de dagen buiten het kalendervak weergegeven.\
-![](assets/calendar-view-350x134.png)
+![ de mening van de Kalender ](assets/calendar-view-350x134.png)
 
 ## Oorzaak
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '639'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Een nieuwe optie voor Canvasdashboards in het linkerdeelvenster van de bestaande
 
 1. Klik op **aanpassen welke gebruikers** dropdown menu zien, dan **Dashboards** klikken.
 
-1. In de **Linkerpaneel** lijst die hieronder verschijnt, klik het ![](assets/delete-secondary-nav-item.png) pictogram naast **de Dashboards van het Canvas**. Het pictogram verandert in ![](assets/add-secondary-nav-item.png) om aan te geven dat het nu zichtbaar is in het linkerdeelvenster van het dashboard.
+1. In de **Linkerpaneel** lijst die hieronder verschijnt, klik het ![ secundaire nav punt van de Schrapping ](assets/delete-secondary-nav-item.png) pictogram naast **Dashboards van het Canvas**. Het pictogram zal in ![ veranderen voeg secundair nav punt ](assets/add-secondary-nav-item.png) toe om te tonen dat het nu zichtbaar in het verlaten paneel van Dashboards is.
 
 1. Klik **sparen** bij de bodem van het scherm.
 
@@ -49,7 +49,7 @@ Een nieuwe optie voor Canvasdashboards in het linkerdeelvenster van de bestaande
 
 1. Controleer of u de optie Canvasdashboards hebt ingeschakeld in uw lay-outsjabloon. Zie **Toevoegend de Dashboards van het Canvas aan het menu van Dashboards** hierboven voor instructies.
 
-1. Klik het Belangrijkste pictogram van het Menu ![](assets/main-menu-icon.png), dan klik **Dashboards**.
+1. Klik het Belangrijkste pictogram van het Menu ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png), dan klik **Dashboards**.
 
 1. In het linkerpaneel, klik **de Dashboards van het Canvas**.
 
