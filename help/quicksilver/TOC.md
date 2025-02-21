@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
+source-git-commit: 34fe190983a165a69f9dfbb49f619e84f6216fa8
 workflow-type: tm+mt
-source-wordcount: '13034'
+source-wordcount: '13007'
 ht-degree: 0%
 
 ---
@@ -1487,10 +1487,10 @@ ht-degree: 0%
       * Rapporttypen voor Canvas-dashboard {#report-types}
          * [Overzicht van de rapporttypen voor Canvas-dashboard](reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
          * [Een bestaand rapport toevoegen aan een Canvasdashboard](reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
-         * [Bouw een KPI- rapport in een dashboard van het Canvas](reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
-         * [Bouw een grafiekrapport in een dashboard van het Canvas](reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
-         * [Een tabelrapport maken op een canvasdashboard](reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
-         * [Een goedkeuringsrapport in behandeling toevoegen aan een Canvasdashboard](reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)
+        <!--* [Build a KPI report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
+      * [Build a chart report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
+      * [Build a table report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
+      * [Add a pending approvals report to a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)-->
    * Rapporten {#reports}
       * [Rapporten](reports-and-dashboards/reports/reports-overview.md)
       * Grondbeginselen van rapporten {#report-basics}
@@ -2062,7 +2062,7 @@ ht-degree: 0%
       * [De lay-out van de recordpagina beheren](planning/records/manage-the-record-page.md)
       * [Records beheren in het gedeelte Planning van Adobe Workfront-objecten](planning/records/manage-records-in-planning-section.md)
       * [De details van een record exporteren](planning/records/export-the-record-page.md)
-      * [Workfront-objecten maken van Workfront Planning](planning/records/create-workfront-objects-from-workfront-planning.md)
+      * [Workfront-objecten maken vanuit Workfront Planning wanneer u deze verbindt met records](planning/records/create-workfront-objects-from-workfront-planning.md)
       * [Objecten maken met Workfront Planning-recordautomatisering](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
    * Adobe Workfront-planningsaanvragen {#adobe-workfront-planning-requests}
       * [Adobe Workfront-planningsverzoeken: artikelindex](planning/requests/requests-article-index.md)

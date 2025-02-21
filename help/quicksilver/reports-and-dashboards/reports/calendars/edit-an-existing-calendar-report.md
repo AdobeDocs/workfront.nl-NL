@@ -6,9 +6,9 @@ description: U kunt een bestaande kalender wijzigen door een verbinding aan een 
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 494d040c-bd1d-4356-824f-a75890803617
-source-git-commit: d90459cb4f6fb1960552f0ab174e963582312b5c
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
@@ -62,9 +62,11 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 {{step1-to-calendars}}
 
-1. (Optioneel) Als u de naam van het kalenderrapport wilt wijzigen, klikt u op het veld [!UICONTROL calendar name] en brengt u de gewenste wijzigingen aan.
+1. (Optioneel) Als u de naam van het kalenderrapport wilt wijzigen, klikt u op het veld [!UICONTROL calendar name] en brengt u de gewenste wijzigingen aan. We raden u aan alleen UTF-8-tekens te gebruiken om compatibiliteitsproblemen te voorkomen.
+
    ![ het rapportnaam van de Verandering ](assets/titlechange-250x230.png)
-Als u het kalenderrapport met andere gebruikers of teams hebt gedeeld, wordt de gewijzigde kalendernaam automatisch bijgewerkt in hun kalendermening.
+
+   Als u het kalenderrapport met andere gebruikers of teams hebt gedeeld, wordt de gewijzigde kalendernaam automatisch bijgewerkt in hun kalendermening.
 
 1. (Optioneel) Een project aan het kalenderrapport toevoegen:
 

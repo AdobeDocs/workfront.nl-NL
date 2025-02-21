@@ -6,9 +6,9 @@ description: Nadat u een Canvas-dashboard hebt gemaakt, kunt u er rapporten aan 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 840f2e1f-592f-44c1-b2e9-7201e424209a
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. In **voeg rapport** venster toe dat verschijnt, **** onder het type van rapport toe u aan uw Dashboard van het Canvas zou willen toevoegen.
 
-1. Ga door met het instellen van het rapport op basis van het type rapport dat u hebt geselecteerd. Voor gedetailleerde informatie over vestiging elk type van rapport, zie [ het rapporttypes van het Dashboard van het Canvas ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md). Als u het venster sluit voordat u de installatie voltooit, wordt er nog steeds een leeg rapport toegevoegd aan het dashboard van het canvas. U kunt vestiging later beëindigen door de **knoop van de Configuratie** in het centrum van het lege rapport te klikken.
+1. Ga door met het instellen van het rapport op basis van het type rapport dat u hebt geselecteerd. <!--For detailed information about setting up each type of report, see [Canvas Dashboard report types](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md).--> Als u het venster sluit voordat u de installatie hebt voltooid, wordt er nog steeds een leeg rapport toegevoegd aan het dashboard voor het canvas. U kunt vestiging later beëindigen door de **knoop van de Configuratie** in het centrum van het lege rapport te klikken.
 
 ## Rapporten verplaatsen of vergroten of verkleinen in een Canvasdashboard
 

@@ -6,9 +6,9 @@ description: U kunt een rapport rechtstreeks vanuit een rapport toevoegen aan ee
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 42d5945d-66c5-430b-8a37-dca9c2973716
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!-- Audited: 1/2025 -->
 
-U kunt een rapport rechtstreeks vanuit een rapport toevoegen aan een nieuw of bestaand dashboard. U kunt een bestaand rapport aan een dashboard ook toevoegen, zoals die in [ wordt beschreven creeer een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+U kunt een rapport rechtstreeks vanuit een rapport toevoegen aan een nieuw of bestaand dashboard. U kunt een bestaand rapport aan een dashboard ook toevoegen, zoals die in [ wordt beschreven creeer een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md). U kunt maximaal 25 rapporten, kalenders of externe pagina&#39;s aan één dashboard toevoegen.
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 U moet een rapport maken voordat u het aan een dashboard kunt toevoegen.
 
-Voor informatie bij het creëren van een rapport, zie [ een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md) creëren.
+Voor informatie bij het creëren van een rapport, zie [ een rapport ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-report.md) creëren.
 
 ## Een rapport toevoegen aan een bestaand dashboard
 

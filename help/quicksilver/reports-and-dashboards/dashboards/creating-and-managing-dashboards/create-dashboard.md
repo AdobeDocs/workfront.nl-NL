@@ -6,9 +6,9 @@ description: U kunt dashboards tot stand brengen om tot informatie in Adobe Work
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ U kunt bestaande externe pagina&#39;s toevoegen aan een dashboard of u kunt een 
     <tbody>
      <tr>
       <td role="rowheader"><strong>Naam</strong></td>
-      <td><p>Dit is de naam van het dashboard.</p><p>Als u geen naam opgeeft, wordt de naam van het eerste rapport op het dashboard standaard de naam van het dashboard.</p></td>
+      <td><p>Dit is de naam van het dashboard. We raden u aan alleen UTF-8-tekens te gebruiken om compatibiliteitsproblemen te voorkomen.</p><p>Als u geen naam opgeeft, wordt de naam van het eerste rapport op het dashboard standaard de naam van het dashboard.</p></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>Beschrijving (optioneel)</strong></td>

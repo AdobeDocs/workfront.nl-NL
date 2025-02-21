@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '1093'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,56 @@ In dit artikel worden de functies beschreven die tijdens de release van het twee
 <!--keep the sentence below for all future quarterly release pages-->
 
 Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront worden vrijgegeven, zie [ de versieactiviteit van de Planning van Adobe Workfront: artikelindex ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Nieuwe expressie die wordt toegevoegd aan formuliervelden
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 20 februari 2025; Productieversie voor alle klanten: 20 februari 2025
+
+We hebben de expressie JSONELEMENT toegevoegd aan formuleringsvelden. Deze uitdrukking keert de gegevens van JSON door verstrekte JSONPath terug.
+
+Voor informatie, zie [ overzicht van de gebieden van de Formule ](/help/quicksilver/planning/fields/formula-fields.md).
+
+## aanwezigheidsindicatoren in realtime in de detailvoorvertoning of pagina van een record
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 20 februari 2025; productie voor snelle release: met de release van 25.3 (maart 2025); productie voor driemaandelijkse release: met de release van 25.4 (april 2025)
+
+Om te begrijpen welke informatie door andere gebruikers wanneer het werken in de voorproef van een verslag of detailspagina wordt uitgegeven, hebben wij aanwezigheidsindicatoren in real time voor dit gebied van de Planning van Workfront geïntroduceerd.
+
+Het veld dat door een andere gebruiker wordt bewerkt, wordt nu gemarkeerd en de avatars van andere gebruikers zijn voor u zichtbaar in de rechterbovenhoek van de voorvertoning of detailpagina.
+
+Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.
+
+## Verbeteringen voor het maken van Workfront-objecten wanneer deze worden verbonden met planningsrecords
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 20 februari 2025; productie voor snelle release: met de release van 25.3 (maart 2025); productie voor driemaandelijkse release: met de release van 25.4 (april 2025)
+
+U kunt nu gemakkelijk projecten, portfolio&#39;s en programma&#39;s maken terwijl u deze koppelt aan een record vanuit een bestaand verbindingsveld.
+
+De volgende functies zijn beschikbaar met deze verbetering:
+
+* Een blijvende Add knoop wanneer het verbinden met een Planningsverslag een Workfront project, een portefeuille, of een ander verslag van de Planning
+
+* Mogelijkheid om programma&#39;s toe te voegen en deze te koppelen aan een portfolio met een knop voor permanent toevoegen in een verbindingsveld.
+
+Voor informatie, zie [ de voorwerpen van Workfront van de Planning van Workfront ](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md) creëren.
+
+## Automatisering configureren om objecten en records te maken op basis van een bestaande record
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 20 februari 2025; productie voor snelle release: met de release van 25.3 (maart 2025); productie voor driemaandelijkse release: met de release van 25.4 (april 2025)
+
+Als werkruimtemanager, kunt u douaneautomatiseringen voor een verslagtype nu vormen om of een verbonden voorwerp van Workfront of een verslag van de Planning automatisch tot stand te brengen.
+
+De gemaakte objecten of records worden direct verbonden met de record waarin de automatisering is geconfigureerd en geactiveerd.
+
+Voor informatie, zie [ voorwerpen creëren gebruikend het verslag van de Planning van Adobe Workfront automatiseringen ](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
 ## Handelingen van AI Assistant controleren en bevestigen
 
@@ -41,18 +91,6 @@ Eerder was deze bevestigingsstap niet beschikbaar.
 De volgende expressies zijn nu beschikbaar in Workfront-formulervelden: ARRAY, ARRAYLENGTH, ARRAYELEMENT. Definities en voorbeelden van elke expressie zijn beschikbaar in de formulereditor.
 
 Voor informatie, zie [ overzicht van de gebieden van de Formule ](/help/quicksilver/planning/fields/formula-fields.md).
-
-<!--## Real-time presence indicators in a record's details preview or page
-
->[!NOTE]
->
->Preview release: January 30, 2025; Production for fast release: With the 25.2 release (February 2025); Production for quarterly release: With the 25.4 release (April 2025)
-
-To understand what information is edited by other users when working in a record's preview or details page, we have introduced real-time presence indicators for this area of Workfront Planning.
-
-The field edited by another user will now be highlighted, and other users' avatars will be visible to you in the upper-right corner of the preview or details page.
-
-For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).-->
 
 ## Workfront-planningsitems delen met teams, functies en bedrijven
 
