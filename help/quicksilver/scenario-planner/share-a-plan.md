@@ -7,9 +7,9 @@ description: U kunt een abonnement dat u hebt gemaakt in de Adobe Workfront Scen
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: b8bbb533-4384-414c-8574-4e137962b8ca
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ U kunt een abonnement in de [!DNL Adobe Workfront Scenario Planner] delen met an
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
    <td> <ul></li>
    <li><p>Nieuw: Ultimate </p></li>
-   <p>De Scenario Planner is niet beschikbaar voor de nieuwe Workfront Select- of Workfront-plannen. </p>
+   <p>De Scenario Planner is niet beschikbaar voor de nieuwe Workfront Select- of Workfront Prime-plannen. </p>
    <li><p>Huidig: [!UICONTROL Business] of hoger</p></ul>
    </td> 
   </tr> 
@@ -157,7 +157,7 @@ De volgende lijst maakt een lijst van de toestemmingen die u kunt verlenen wanne
    <td> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Publish-scenario's**</td> 
+   <td>Publicatiescenario's**</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
@@ -186,7 +186,7 @@ Voor informatie over projecttoestemmingen, zie [ een project in  [!DNL Adobe Wor
    >
    >U kunt een plan delen door de avatars van gebruikers te klikken met wie het plan in de hoger-juiste hoek van de plankopbal wordt gedeeld.
 
-1. (Voorwaardelijk) Als u een abonnement hebt geopend, klikt u op het pictogram **[!UICONTROL More]** ![](assets/more-icon.png) rechts van de naam [!UICONTROL Plan] en vervolgens klikt u op **[!UICONTROL Share]**
+1. (Voorwaardelijk) als u een plan opende, klik het **[!UICONTROL More]** pictogram ![ Meer pictogram ](assets/more-icon.png) rechts van de [!UICONTROL Plan] naam, dan klik **[!UICONTROL Share]**
 
    of
 

@@ -7,9 +7,9 @@ description: Wanneer u de langetermijnstrategie van uw bedrijf plant, is er veel
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 9a79ef81-6271-4cc9-b701-3ba0aeafb324
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '915'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Wanneer u de langetermijnstrategie van uw bedrijf plant, is er veel informatie d
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
    <td> <ul></li>
    <li><p>Nieuw: Ultimate </p></li>
-   <p>De Scenario Planner is niet beschikbaar voor de nieuwe Workfront Select- of Workfront-plannen. </p>
+   <p>De Scenario Planner is niet beschikbaar voor de nieuwe Workfront Select- of Workfront Prime-plannen. </p>
    <li><p>Huidig: [!UICONTROL Business] of hoger</p></ul>
    </td> 
   </tr> 
@@ -79,7 +79,7 @@ Een scenario is een exemplaar van een plan. U kunt zoveel scenario&#39;s maken a
 
 1. Klik op de pijl omlaag naast een bestaand scenario en klik vervolgens op het pictogram **[!UICONTROL Copy]** .
 
-   ![](assets/copy-scenarios-ui-and-highlighted-icon-350x95.png)
+   ![ scenario van het Exemplaar ](assets/copy-scenarios-ui-and-highlighted-icon-350x95.png)
 
    Dit leidt tot een nieuw scenario met de zelfde informatie zoals het gekopieerde scenario. Het wordt automatisch genoemd &quot;[!UICONTROL Scenario 2]&quot;als het het tweede scenario van uw plan, &quot;[!UICONTROL Scenario 3]&quot;is als het de derde, etc. is. U kunt de naam van uw scenario&#39;s niet wijzigen. Er is geen limiet voor het aantal exemplaren dat u kunt maken.
 
@@ -116,7 +116,7 @@ Nadat u uw scenario&#39;s hebt gemaakt, kunt u deze vergelijken om de beste voor
 
    Alle bestaande scenario&#39;s voor de planvertoning in een zij-aan-zij kaartformaat. Het aanvankelijke scenario wordt altijd eerst vermeld en het is statisch.
 
-   ![](assets/scenario-cards-overlapping-350x166.png)
+   ![ de kaarten van Senario ](assets/scenario-cards-overlapping-350x166.png)
 
 1. (Optioneel) Schuif naar rechts om alle scenario-kaarten weer te geven.
 
@@ -174,7 +174,7 @@ Nadat u uw scenario&#39;s hebt gemaakt, kunt u deze vergelijken om de beste voor
    >Wanneer de informatie tussen het aanvankelijke scenario en extra scenario&#39;s verschilt, een omhoog of omlaag pijlvertoningen naast de waarde die om op een verhoging of een daling van die waarde, in vergelijking met het aanvankelijke scenario wordt veranderd te wijzen.
    >
    >
-   >![](assets/arrows-on-scenario-cards-highlighted-350x70.png)
+   >![ pijlen op scenarioKaarten ](assets/arrows-on-scenario-cards-highlighted-350x70.png)
    >
    >Bijvoorbeeld de begroting, het aantal functies, het aantal initiatieven kan van het ene scenario naar het andere veranderen.
 
@@ -188,9 +188,9 @@ Nadat u uw scenario&#39;s hebt gemaakt, kunt u deze vergelijken om de beste voor
 
    Klik op het beschrijvingsveld om het bij te werken en klik vervolgens ergens op het scherm om de wijzigingen op te slaan.
 
-1. (Optioneel) Klik op het **[!UICONTROL More]** menu ![](assets/more-icon.png) naar **[!UICONTROL Copy]** of **[!UICONTROL Delete]** het scenario.
+1. (Facultatief) klik het **[!UICONTROL More]** menu ![ Meer pictogram ](assets/more-icon.png) aan **[!UICONTROL Copy]** of **[!UICONTROL Delete]** het scenario.
 
-   ![](assets/copy-or-delete-scenario-links-from-card-350x109.png)
+   ![ het scenario van het Exemplaar of schrapt ](assets/copy-or-delete-scenario-links-from-card-350x109.png)
 
    Wanneer u een scenario kopieert, verschijnt het automatisch op de kaartpagina en volgens dit patroon anders genoemd: &quot;[!UICONTROL Scenario] `<next number in order>`&quot;.
 

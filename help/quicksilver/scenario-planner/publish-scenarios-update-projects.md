@@ -7,9 +7,9 @@ description: U kunt projecten van bestaande initiatieven tot stand brengen evena
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 46d3666a-4454-4a84-8c02-a79f3947a18f
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '1558'
+source-wordcount: '1616'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Wanneer u een scenario publiceert vanuit de [!DNL Adobe Workfront Scenario Plann
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
    <td> <ul></li>
    <li><p>Nieuw: Ultimate </p></li>
-   <p>De Scenario Planner is niet beschikbaar voor de nieuwe Workfront Select- of Workfront-plannen. </p>
+   <p>De Scenario Planner is niet beschikbaar voor de nieuwe Workfront Select- of Workfront Prime-plannen. </p>
    <li><p>Huidig: [!UICONTROL Business] of hoger</p></ul>
    </td> 
   </tr> 
@@ -97,7 +97,7 @@ Voordat u begint:
 
 
 
-## Publish-initiatieven
+## Initiatieven publiceren
 
 >[!IMPORTANT]
 >
@@ -105,7 +105,7 @@ Voordat u begint:
 
 {{step1-to-scenario-planner}}
 
-1. (Optioneel en voorwaardelijk) Als u vanuit een bestaand abonnement wilt publiceren, klikt u op het pictogram **[!UICONTROL Filter]** ![](assets/filter-nwepng.png) rechtsboven in het abonnement en selecteert u een van de volgende opties:
+1. (Facultatief en voorwaardelijk) als u van een bestaand plan wilt publiceren, klik het **[!UICONTROL Filter]** pictogram ![ pictogram van de Filter ](assets/filter-nwepng.png) in de hoger-juiste hoek van het plan en selecteer één van de volgende opties:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -126,9 +126,9 @@ Voordat u begint:
     </tbody> 
    </table>
 
-   ![](assets/plans-filters-dropdown-options-scenario-planer.png)
+   ![ dropdown opties van de Filter ](assets/plans-filters-dropdown-options-scenario-planer.png)
 
-1. (Optioneel) Klik op het pictogram **[!UICONTROL Search]** ![](assets/search-icon.png) en typ de naam van een abonnement om het snel in de lijst te vinden.
+1. (Facultatief) klik het **[!UICONTROL Search]** pictogram ![ onderzoekspictogram ](assets/search-icon.png) en begin de naam van een plan te typen om het in de lijst snel te vinden.
 1. (Voorwaardelijk) om van een nieuw plan te publiceren, creeer een plan.
 
    Voor informatie over het creëren van plannen, zie [ plannen in  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) creëren en uitgeven.
@@ -142,21 +142,21 @@ Voordat u begint:
    Voor informatie over het creëren van initiatieven, zie [ initiatieven in  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md) creëren en uitgeven.
 
 1. Klik op **[!UICONTROL Save plan]**.
-1. Selecteer in het keuzemenu **[!UICONTROL Initial scenario]** het scenario dat u wilt publiceren en klik vervolgens op **[!UICONTROL Go to Publish]** rechtsboven in het scherm. ![](assets/go-to-publish-button-icon.png)
+1. Selecteer het scenario u van het **[!UICONTROL Initial scenario]** drop-down menu wilt publiceren, dan klik **[!UICONTROL Go to Publish]** ![ gaan ](assets/go-to-publish-button-icon.png) in de hoger-juiste hoek publiceren.
 
    of
 
-   Klik op **[!UICONTROL Compare scenarios]**, houd de muisaanwijzer boven de scenario-kaart waarvan u de gegevens wilt publiceren en klik vervolgens op **[!UICONTROL Go to Publish]** ![](assets/go-to-publish-button-icon.png) .
+   Klik **[!UICONTROL Compare scenarios]**, beweegt over de scenario kaart die u van wilt publiceren, dan **[!UICONTROL Go to Publish]** ![ ](assets/go-to-publish-button-icon.png) gaan publiceren.
 
-   De pagina [!UICONTROL Publish initiatives] wordt weergegeven met een lijst met alle initiatieven in het scenario. Als een van de initiatieven eerder is gepubliceerd, wordt het projectpictogram ![](assets/project-icon-sp.png) weergegeven na de naam en wordt de datum **[!UICONTROL Last published]** in de lijst geplaatst.
+   De pagina [!UICONTROL Publish initiatives] wordt weergegeven met een lijst met alle initiatieven in het scenario. Als om het even welke initiatieven eerder werden gepubliceerd, de pictogrammen van het Project ](assets/project-icon-sp.png) vertoningen van het 0} pictogram van het Project na hun naam en de **[!UICONTROL Last published]** datum is bevolkt in de lijst.![
 
    >[!TIP]
    >
-   >Initiatieven die zijn gemaakt door projecten te importeren, geven rechts van hun naam ook het projectpictogram ![](assets/project-icon-sp.png) weer
+   >De initiatieven die door projecten in te voeren ook worden gecreeerd tonen het pictogram van het projectpictogram ![ Project ](assets/project-icon-sp.png) aan het recht van hun naam
 
-   ![](assets/project-icons-and-last-published-date-in-publish-initiative-page-350x63.png)
+   ![ pictogram van het Project en laatst gepubliceerde datum ](assets/project-icons-and-last-published-date-in-publish-initiative-page-350x63.png)
 
-1. (Optioneel en voorwaardelijk) Als u vanuit een bestaand abonnement wilt publiceren, klikt u op het pictogram **[!UICONTROL Filter]** ![](assets/filter-nwepng.png) rechtsboven in het abonnement en selecteert u een van de volgende opties:
+1. (Facultatief en voorwaardelijk) als u van een bestaand plan wilt publiceren, klik het **[!UICONTROL Filter]** pictogram ![ pictogram van de Filter ](assets/filter-nwepng.png) in de hoger-juiste hoek van het plan en selecteer één van de volgende opties:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -177,9 +177,9 @@ Voordat u begint:
     </tbody> 
    </table>
 
-   ![](assets/initiatives-fitler-in-publishing-screen-scenario-planner.png)
+   ![ filter van Initiatieven ](assets/initiatives-fitler-in-publishing-screen-scenario-planner.png)
 
-1. (Optioneel) Klik op het pictogram **[!UICONTROL Search]** ![](assets/search-icon.png) en typ de naam van een initiatief om dit snel in de lijst te vinden.
+1. (Facultatief) klik het **[!UICONTROL Search]** pictogram van het pictogram ![ Onderzoek ](assets/search-icon.png) en begin de naam van een initiatief te typen om het in de lijst snel te vinden.
 1. Selecteer een of meerdere initiatieven om er projecten van te publiceren en te maken of bij te werken, en klik vervolgens op **[!UICONTROL Publish initiatives]** .
 
    Dit leidt tot een nieuw project van elke geselecteerde initiatieven of werkt de bestaande verwante projecten bij, als de gepubliceerde initiatieven reeds met een project verbonden waren.
@@ -193,17 +193,17 @@ Voordat u begint:
    * Als u één initiatief hebt gepubliceerd, klikt u op **[!UICONTROL See associated project]** om het project te openen dat is gemaakt of bijgewerkt op basis van het initiatief.
    * Als u meerdere initiatieven hebt gepubliceerd, klikt u op **[!UICONTROL See associated projects]** om een lijst met projecten te openen die zijn gepubliceerd op basis van initiatieven. [!DNL Workfront] past standaard het filter [!DNL Scenario Planner] Projecten toe op de lijst met projecten. De projecten die het laatst zijn gepubliceerd, worden boven aan de lijst weergegeven.
 
-     ![](assets/scenario-planner-filter-after-publishing-initiatives-350x81.png)
+     ![ de planner van het Scenario na het publiceren initiatieven ](assets/scenario-planner-filter-after-publishing-initiatives-350x81.png)
 
 1. Ga naar de volgende gebieden om initiatiefinformatie over het project te bekijken:
 
    * **de [!UICONTROL Updates] sectie**: Een update publiceert om erop te wijzen dat het project van het initiatief werd gecreeerd of werd bijgewerkt. De update bevat de naam van het initiatief dat het project heeft gemaakt of bijgewerkt en de gekoppelde naam van het plan dat het initiatief bevat. U kunt op de naam van het abonnement in de update klikken om het abonnement te openen in de [!DNL Scenario Planner] .
 
-     ![](assets/update-stream-confirmation-of-publish-on-project-350x65.png)
+     ![ stroombevestiging van de Update van publiceren ](assets/update-stream-confirmation-of-publish-on-project-350x65.png)
 
    * **het [!UICONTROL Overview] gebied van de [!UICONTROL Project Details] sectie**: Een nieuwe [!DNL Scenario Planner] sectie wordt gecreeerd op dit gebied dat informatie van het verbonden initiatief bevat.
 
-     ![](assets/scenario-planner-on-project-details-350x135.png)
+     ![ de planner van het Scenario op projectdetails ](assets/scenario-planner-on-project-details-350x135.png)
 
      De volgende informatie over initiatieven wordt gepubliceerd in het gedeelte [!DNL Scenario Planner] van de sectie [!UICONTROL Project Details] :
 
@@ -257,7 +257,7 @@ Voordat u begint:
 
      Voor meer informatie, zie [ Overzicht van het verzoenen van middeltoewijzingen tussen projecten en initiatieven ](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
 
-     ![](assets/role-allocation-panel-350x174.png)
+     ![ het toewijzingspaneel van de Rol ](assets/role-allocation-panel-350x174.png)
 
      Wijzigingen in de data of middelen van het project hebben geen invloed op het desbetreffende initiatief of op de gebieden van het project die initiatiefinformatie bevatten.
 
@@ -265,7 +265,7 @@ Voordat u begint:
 
      Voor meer informatie, zie [ middelen van de Begroting in [!UICONTROL Business Case] gebruikend  [!DNL Scenario Planner]](../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
 
-     ![](assets/sp-in-business-case-selected-350x110.png)
+     ![ de planner van het Scenario in bedrijfsgeval ](assets/sp-in-business-case-selected-350x110.png)
 
 1. (Optioneel) Controleer de volgende informatie in de [!DNL Scenario Planner] nadat u een scenario hebt gepubliceerd:
 
@@ -274,11 +274,11 @@ Voordat u begint:
    * De optie [!UICONTROL Go to Publish] wordt uit alle andere scenario&#39;s verwijderd nadat ten minste één initiatief van een scenario is gepubliceerd.
    * Naast de projectpictogrammen van de gepubliceerde initiatieven in het plan wordt een groene indicator weergegeven.
 
-     ![](assets/indicator-for-published-initiative-icon-350x119.png)
+     ![ Indicator voor gepubliceerd initiatief ](assets/indicator-for-published-initiative-icon-350x119.png)
 
    * Een groene &quot;Gepubliceerde&quot;indicatorvertoningen bij de bovenkant van het scenario en op de scenario kaart en het Gepubliceerde gebied wordt bevolkt op de scenario kaart die op het aantal initiatieven in het scenario wijst die zijn gepubliceerd.
 
-     ![](assets/published-scenario-highlighted-350x632.png)
+     ![ Gepubliceerd scenario ](assets/published-scenario-highlighted-350x632.png)
 
      >[!TIP]
      >

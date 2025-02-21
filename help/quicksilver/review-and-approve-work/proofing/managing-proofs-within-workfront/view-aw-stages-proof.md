@@ -6,9 +6,9 @@ description: U kunt de voortgang van een proefdruk die is geconfigureerd met een
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 71df1445-c64c-4de2-a9b8-23bd47898b6d
-source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
@@ -69,24 +69,24 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    De lijnen tussen de stadia geven de afhankelijkheden tussen de fasen aan. De lijnen die leiden tot inactieve stadia worden gestippeld tot het werkgebied wordt geactiveerd.
 
-   U kunt de muisaanwijzer boven een werkgebied in het diagram plaatsen om de voortgang van het werkgebied weer te geven. Als het werkgebied niet actief is en u beschikt over bewerkingsrechten voor het werkgebied, kunt u op de knop Werkgebied activeren ![](assets/activate-stage-btn.png) klikken om het werkgebied te starten. Als het werkgebied actief is en u beschikt over bewerkingsrechten in het werkgebied, kunt u het vergrendelen. ![](assets/lock-stage-btn.png) Raadpleeg voor meer informatie over de voortgangsbalk (S, O, C, D)  [ Mening de Voortgang en de Status van een Bewijs in Workfront Proof ](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md).
+   U kunt de muisaanwijzer boven een werkgebied in het diagram plaatsen om de voortgang van het werkgebied weer te geven. Als het stadium niet actief is en u hebt uitgeeft rechten op het stadium, kunt u de Activate knoop van het werkgebied ![ klikken activeert stadium ](assets/activate-stage-btn.png) om het stadium te beginnen. Als het werkgebied actief is en u beschikt over bewerkingsrechten in het werkgebied, kunt u het vergrendelen. ![ het stadium van het Slot ](assets/lock-stage-btn.png) voor meer informatie over de bar van de Voortgang (S, O, C, D), zie  [ Mening de Voortgang en de Status van een Bewijs in Workfront Proof ](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md).
 
 ## Een werkgebied weergeven
 
 1. In een documentlijst die het document bevat, beweegt zich over de rij die het document bevat, dan klik **het Proofing Workflow**.
 1. Klik in het diagram op het werkgebied dat u wilt weergeven.
 
-   ![](assets/view-stage-diagram-350x204.png)
+   ![ het diagram van het het werkgebied van de Mening ](assets/view-stage-diagram-350x204.png)
 
 1. Als u de details van een werkgebied wilt uitvouwen, klikt u op de pijl sideways onder de naam van het werkgebied.
 
-   ![](assets/stage-details-caret-350x167.png)
+   ![ details van het Stadium ](assets/stage-details-caret-350x167.png)
 
 ## Alle fasen weergeven
 
 Om alle stadia in een Geautomatiseerde Werkschema te bekijken:
 
-1. Klik de knoop van de Mening van de Verandering bij de bovenkant van de pagina ![](assets/change-view-btn.png), dan klik **Mening alle stadia**.
+1. Klik de knoop van de Mening van de Verandering bij de bovenkant van de pagina ![ mening van de Verandering ](assets/change-view-btn.png), dan klik **Mening alle stadia**.
 
    Alle fasen van de geautomatiseerde workflow worden vermeld in de sectie, maar de details worden verborgen.
 
@@ -96,5 +96,5 @@ Om alle stadia in een Geautomatiseerde Werkschema te bekijken:
 
 Om alle stadia van uw Geautomatiseerde Werkschema met hun uitgevouwen details te bekijken:
 
-1. Klik de knoop van de Mening van de Verandering bij de bovenkant van de pagina ![](assets/change-view-btn.png), dan klik **Mening alle stadia in detail**.
+1. Klik de knoop van de Mening van de Verandering bij de bovenkant van de pagina ![ mening van de Verandering ](assets/change-view-btn.png), dan klik **Mening alle stadia in detail**.
 1. Klik op de pijl omlaag onder de naam om de details van een werkgebied weer te geven.

@@ -6,9 +6,9 @@ description: U kunt een doel sluiten wanneer u wilt aangeven dat u het hebt volt
 author: Alina
 feature: Workfront Goals
 exl-id: bbb549c1-aea6-4f5e-8a6b-01fc04cf06ef
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '952'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ U moet het volgende hebben:
    <td role="rowheader">Adobe Workfront-abonnement*</td> 
    <td> 
    <p>Voor het nieuwe plan en de nieuwe licentiestructuur:
-  <ul><li>Een ultiem plan </li></ul>
+  <ul><li>Een Ultimate-abonnement </li></ul>
    </p>
 <p>Voor het huidige plan en de licentiestructuur: 
 <ul><li> Een Pro of hoger </li>
@@ -111,7 +111,7 @@ Closing goals differs depending on what environment you use.
 
 ### Close goals in the Production environment
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
    (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -128,7 +128,7 @@ Closing goals differs depending on what environment you use.
 
 1. (Optional and recommended) Click the **Updates** tab and add an update in the **Comment here** field about the reason you are closing the goal, then click **Post**. 
 
-1. Click the **More icon** ![](assets/more-icon.png) to the right of the goal name, then click **Close** > **Close Goal**.
+1. Click the **More icon** ![More icon](assets/more-icon.png) to the right of the goal name, then click **Close** > **Close Goal**.
 
    This closes the goal and saves the current progress on the goal and its results and activities.
 
@@ -137,13 +137,13 @@ Closing goals differs depending on what environment you use.
    >If the goal has contributing goals that are still active, the progress of the goal continues to update based on the progress of the aligned goals.
    >
    >
-   >![](assets/closing-goals-with-active-aligned-goals-warning-350x71.png)   >
+   >![Closing goals with active aligned goals](assets/closing-goals-with-active-aligned-goals-warning-350x71.png)   >
    >
 
 1. (Optional) Modify your filters again to display only closed goals. The goals you closed display on the screen.
 -->
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) > **Doelen** in de hoger-juiste hoek.
+1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) >** Doelen **in de hoger-juiste hoek.**
 
    De lijst met doelstellingen wordt geopend.
 
@@ -157,17 +157,17 @@ Closing goals differs depending on what environment you use.
 
    De doelpagina wordt geopend.
 
-   ![](assets/goal-page-unshimmed.png)
-1. Klik **Meer** menu ![](assets/more-icon.png) aan het recht van de doelnaam, dan klik **dicht**.
+   ![ Goal pagina ](assets/goal-page-unshimmed.png)
+1. Klik het **Meer** menu ![ Meer pictogram ](assets/more-icon.png) aan het recht van de doelnaam, dan klik **dicht**.
 
    Het doel wordt gesloten en u ontvangt een bevestiging in de hoger-juiste hoek van het scherm.
 
-   ![](assets/goal-close-confirmation-with-add-closing-notes-link.png)
+   ![ de dichte bevestiging van het Doel ](assets/goal-close-confirmation-with-add-closing-notes-link.png)
 
 1. (Facultatief) in de bevestigingsdoos, klik **toevoegen sluitende nota&#39;s** om commentaren over dit doel toe te voegen en waarom u het moet sluiten.
 1. Voeg sluitende nota&#39;s toe, dan klik **nota&#39;s** toevoegen.
 
-   ![](assets/add-closing-notes-box-unshimmed.png)
+   ![ voeg sluitende nota&#39;s doos ](assets/add-closing-notes-box-unshimmed.png) toe
 
    De commentaren tonen in de sectie van de Details van het Doel van de pagina, in het Sluiten nota&#39;s gebied.
 
@@ -185,7 +185,7 @@ Reopening goals differs depending on what environment you use.
 
 ### Reopen goals in the Production environment
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
    (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -201,7 +201,7 @@ Reopening goals differs depending on what environment you use.
 
    This opens the Goal Details panel on the right. 
 
-1. Click the **More icon** ![](assets/more-icon.png) to the right of the goal name, then click **Reopen** > **Reopen**.
+1. Click the **More icon** ![More icon](assets/more-icon.png) to the right of the goal name, then click **Reopen** > **Reopen**.
 
    This reopens the goal and places it in a status of Active. The progress of the goal is recalculated starting with the current date. 
 
@@ -209,7 +209,7 @@ Reopening goals differs depending on what environment you use.
 
 -->
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) > **Doelen** in de hoger-juiste hoek.
+1. Klik het **pictogram van het 1} Belangrijkste Menu ![ pictogram van het Menu ](assets/main-menu-icon.png)>** Doelen **in de hoger-juiste hoek.**
 
    De lijst met doelstellingen wordt geopend.
 
@@ -222,7 +222,7 @@ Reopening goals differs depending on what environment you use.
 1. Klik op de naam van een gesloten doel.
 
    De doelpagina wordt geopend.
-1. Klik **Meer** menu ![](assets/more-icon.png) aan het recht van de doelnaam, dan **heropenen** > **heropenen**.
+1. Klik het **Meer** menu ![ Meer pictogram ](assets/more-icon.png) aan het recht van de doelnaam, dan **heropen** > **opnieuw open**.
 
    De volgende dingen doen zich voor:
    * Het doel is nu open en het heeft een status van Actief.

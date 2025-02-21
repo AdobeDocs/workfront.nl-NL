@@ -6,9 +6,9 @@ description: U kunt een proefdruk op elk gewenst moment in het revisieproces han
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 39dc8c17-b087-4c7c-be19-3bbe93577966
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -61,13 +61,13 @@ Een bewijs vergrendelen:
 
    of
 
-   Als u een proef voor een vroegere versie van het document wilt openen, klik het Meer pictogram ![](assets/more-icon.png) voor die versie in de Samenvatting, dan klik **Open proef**.
+   Als u een proef voor een vroegere versie van het document wilt openen, klik het Meer pictogram ![ Meer pictogram ](assets/more-icon.png) voor die versie in de Samenvatting, dan klik **Open proef**.
 
    Voor informatie over de Samenvatting, zie [ Samenvatting voor documentoverzicht ](../../../../documents/managing-documents/summary-for-documents.md).
 
-1. In het linkerpaneel, klik het **pictogram van het Vergrendelen** ![](assets/unlock-proof-icon.png).
+1. In in het linkerpaneel, klik het **pictogram van het Slot ![ ](assets/unlock-proof-icon.png).**
 
-   ![](assets/lock-proof-350x277.png)
+   ![ Bewijs van het Slot ](assets/lock-proof-350x277.png)
 
 ## Een proefdruk ontgrendelen
 
@@ -79,10 +79,10 @@ Een bewijs ontgrendelen:
 
    of
 
-   Als u een proef voor een vroegere versie van het document wilt openen, klik het Meer pictogram ![](assets/more-icon.png) voor die versie in de Samenvatting, dan klik **Open proef**.
+   Als u een proef voor een vroegere versie van het document wilt openen, klik het Meer pictogram ![ Meer pictogram ](assets/more-icon.png) voor die versie in de Samenvatting, dan klik **Open proef**.
 
    Voor informatie over de Samenvatting, zie [ Samenvatting voor documentoverzicht ](../../../../documents/managing-documents/summary-for-documents.md).
 
-1. In het linkerpaneel, klik het **pictogram van de Ontgrendeling** ![](assets/unlock-proof-icon.png), dan klik **ja, ontgrendel**.
+1. In het linkerpaneel, klik het **pictogram van de Ontgrendeling ![ ](assets/unlock-proof-icon.png) ontgrendelen, dan klik** ja, ontgrendel **.**
 
-   ![](assets/copy-of-unlock-proof-350x279.png)
+   ![ de proefdruk van de Ontgrendeling ](assets/copy-of-unlock-proof-350x279.png)

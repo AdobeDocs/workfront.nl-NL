@@ -7,9 +7,9 @@ description: U kunt toegang tot een abonnement aanvragen in de Adobe Workfront S
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: fa47cb8c-a3ca-4748-b67d-2d8ed34b9b4a
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ U kunt toegang tot een abonnement aanvragen in de [!DNL Adobe Workfront Scenario
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
    <td> <ul></li>
    <li><p>Nieuw: Ultimate </p></li>
-   <p>De Scenario Planner is niet beschikbaar voor de nieuwe Workfront Select- of Workfront-plannen. </p>
+   <p>De Scenario Planner is niet beschikbaar voor de nieuwe Workfront Select- of Workfront Prime-plannen. </p>
    <li><p>Huidig: [!UICONTROL Business] of hoger</p></ul>
    </td> 
   </tr> 
@@ -80,7 +80,7 @@ Machtigingen aanvragen:
 
 1. Klik op een koppeling naar een abonnement.
 
-   ![](assets/request-access-to-plan-350x277.png)
+   ![ toegang van het Verzoek tot plan ](assets/request-access-to-plan-350x277.png)
 
 1. Geef in het vervolgkeuzemenu **[!UICONTROL Request access to]** aan welk niveau van de machtigingen u wilt verlenen. Selecteer een van de volgende opties:
 
@@ -98,11 +98,11 @@ Machtigingen aanvragen:
    Het volgende gebeurt:
 
    * [!DNL Workfront] verzendt een e-mailbericht naar de eigenaar van het abonnement waar zij de gevraagde machtigingen kunnen verlenen.\
-     ![](assets/request-access-to-plan-email-350x156.png)
+     ![ Verzoek toegang e-mailbericht ](assets/request-access-to-plan-email-350x156.png)
 
    * Nadat de eigenaar van het abonnement de aangevraagde machtigingen heeft verleend, ontvangt u een e-mail met de mededeling dat de machtigingen zijn verleend als voor de beheerder van [!DNL Workfront] de optie Object delen is ingeschakeld in uw systeem en u schakelt de e-mailmelding van [!UICONTROL Someone shares an object with me] in uw profiel in.
 
-     ![](assets/access-granted-to-plan-email-350x172.png)
+     ![ Toegang verleende e-mail ](assets/access-granted-to-plan-email-350x172.png)
 
    * U kunt ook machtigingen verlenen voor plannen vanuit [!UICONTROL Home] en vanuit de mobiele app van [!DNL Workfront] .
 

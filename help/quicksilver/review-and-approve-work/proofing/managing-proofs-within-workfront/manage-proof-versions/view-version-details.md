@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Digital Content and Documents
 exl-id: 360d0f4a-a78c-4c17-b4a1-6d4b811f7bb6
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. In een documentlijst, beweegt de muiswijzer zich over de rij die de proef bevat, dan klik **Details van het Document**.
 1. Klik boven aan de pagina Documentdetails op het vervolgkeuzemenu naast de naam en klik vervolgens op de naam van de versie die u wilt weergeven en beheren.
 
-   ![](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
+   ![ drop-down van de Versie ](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
 
    Samen met het bekijken van de Details van de versie, kunt u veranderingen in de versie, zoals zijn naam, meta-gegevens, en het proef montages (als het een documentbewijs is) aanbrengen.
 

@@ -6,9 +6,9 @@ description: U kunt proefdrukopmerkingen van andere revisoren weergeven en hiero
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 32a068ab-0d99-4ab5-a98d-dc3abd953948
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Opmerkingen weergeven in de proefdrukviewer:
 In Workfront kunt u proefdrukopmerkingen weergeven zonder de proefdrukviewer te starten.
 
 1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten**.
-1. Klik de rij die het document bevat, dan klik het **Samenvatting** pictogram ![](assets/summary-panel-icon.png) op de rechterkant van de pagina.\
+1. Klik de rij die het document bevat, dan klik het **pictogram van de Samenvatting ![ pictogram van de Samenvatting ](assets/summary-panel-icon.png) op de rechterkant van de pagina.**\
    De opmerkingen worden weergegeven in de sectie Updates van het documentoverzicht.
 
 ## Alle opmerkingen markeren als gelezen
@@ -96,7 +96,7 @@ Als revisor van een proefdruk kunt u snel alle opmerkingen markeren als Lezen.
 
 1. Boven de commentaarlijst, klik het **Meer** pictogram, dan klik **Teken allen zoals gelezen**.
 
-1. ![](assets/mceclip8-350x173.png)
+1. ![ teken allen als gelezen ](assets/mceclip8-350x173.png)
 
 ## Reageren op proefdrukopmerkingen van de proefdrukviewer
 

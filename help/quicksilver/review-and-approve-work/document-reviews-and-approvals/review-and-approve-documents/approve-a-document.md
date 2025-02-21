@@ -6,9 +6,9 @@ description: Als u als fiatteur aan een document wordt toegewezen, zijn er veelv
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
-source-git-commit: 3755eb0d384e7274b88fbeafc2affa85f735efbc
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1083'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Een document van thuis goedkeuren
 
-1. Klik het **pictogram van het Huis** ![](../assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.
+1. Klik het **pictogram van het Huis ![ pictogram van het Begin ](../assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.**
 
    >[!NOTE]
    >
@@ -66,7 +66,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >
    >* Vervang deze door een afbeelding die is aangepast om uw organisatie te illustreren. In dit geval ziet het pictogram er anders uit dan in dit artikel.
    >
-   >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **Belangrijkste Menu** ![](../assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik **Huis**.
+   >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **![ Belangrijkste menupictogram ](../assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik** Huis **.**
 
 1. Klik **Filters** bij de bovenkant verlaten van de pagina en zorg ervoor dat **goedkeurt** wordt gecontroleerd.
 
@@ -103,7 +103,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    Als voor de momenteel geselecteerde versie van het document goedkeuring in behandeling is, worden de knoppen voor het goedkeuringsbesluit weergegeven in de rechterbovenhoek van de pagina. Als voor andere versies van het document goedkeuring voor u in behandeling is, wordt in het keuzemenu een rode punt weergegeven.
 
    <!--
-   ![](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
+   ![Version dropdown with red dot](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
    -->
 
 1. Klik op een van de volgende twee goedkeuringsopties in de rechterbovenhoek van de pagina:
@@ -127,7 +127,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    Als voor de momenteel geselecteerde versie van het document goedkeuring in behandeling is, worden de knoppen voor het goedkeuringsbesluit weergegeven in de rechterbovenhoek van het deelvenster Documentoverzicht. Als voor andere versies van het document goedkeuring voor u in behandeling is, wordt in het keuzemenu een rode punt weergegeven.
 
    <!--
-   ![](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
+   ![Version dropdown with red dot](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
    -->
 
 1. Klik op een van de volgende twee goedkeuringsopties in de rechterbovenhoek van het deelvenster Documentoverzicht:

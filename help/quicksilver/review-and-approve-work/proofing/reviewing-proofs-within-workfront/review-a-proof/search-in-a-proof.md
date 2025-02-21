@@ -6,9 +6,9 @@ description: Leer snel tekst te zoeken in een proefdruk.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 03f07011-b17b-41ea-b99e-4535f2d143ff
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Open de proefdruk die u wilt zoeken.
 1. In de toolbar boven de proef, klik het **document van het Onderzoek** pictogram.
 
-   ![](assets/search-document-icon-search-in-proof-350x129.png)
+   ![ Document van het Onderzoek ](assets/search-document-icon-search-in-proof-350x129.png)
 
 1. Typ de tekst die u wilt zoeken.
 

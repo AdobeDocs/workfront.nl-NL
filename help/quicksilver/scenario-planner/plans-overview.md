@@ -7,9 +7,9 @@ description: Als bedrijfsmanager, kunt u de Planner van het Scenario van Adobe W
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: df2b895b-8bc1-4a55-b0d7-8a06db420315
-source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1140'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Houd rekening met het volgende wanneer u plannen maakt:
 
 U kunt de algemene informatie van de baanrol voor plannen herzien die op de hoeveelheid baanrollen beschikbaar voor het plan, evenals de hoeveelheid baanrollen wijst die voor de initiatieven worden vereist om te voltooien. U kunt deze informatie bekijken in het vak [!UICONTROL Job Roles] in de koptekst van het abonnement.
 
-![](assets/job-role-box-on-plan-not-expanded-fte-350x141.png)
+![ de roldoos van de Baan op plan ](assets/job-role-box-on-plan-not-expanded-fte-350x141.png)
 
 U kunt het volgende weergeven in het vak met de taakrol:
 
@@ -78,7 +78,7 @@ Voor informatie over de toegang tot van een plan en het bekijken van gedetaillee
 
 U kunt financiële informatie over een plan, specifiek zijn gepland budget, bekijken hoe dat budget wordt gebruikt en wat de Netto Waarde van het plan is. De Nettowaarde van een plan is gebaseerd op de Netto Waarde van zijn initiatieven. U kunt deze informatie weergeven in de vakken [!UICONTROL Financial] en [!UICONTROL Summary] in de koptekst van het abonnement.
 
-![](assets/budget-net-value-boxes-on-plan-not-expanded-350x86.png)
+![ Begroting en netto waardedozen ](assets/budget-net-value-boxes-on-plan-not-expanded-350x86.png)
 
 U kunt het volgende weergeven in de vakken [!UICONTROL Financial] en [!UICONTROL Summary] op het abonnement:
 

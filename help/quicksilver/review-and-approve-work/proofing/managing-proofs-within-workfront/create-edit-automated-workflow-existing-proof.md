@@ -6,9 +6,9 @@ description: Met geautomatiseerde workflows kunt u het revisieproces eenvoudiger
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 852f960f-1b57-4a8a-a928-407ad52418e6
-source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: '1242'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    of
 
-   Als u de proef in de het proeven kijker bekijkt, klik **Werkschema** ![](assets/workflow-icon-proofing-viewer.png) in het linkerpaneel, dan klik het Edit pictogram ![](assets/edit-icon-proofing-viewer.png) om de Geautomatiseerde montages van het Werkschema voor de proef te openen.
+   Als u de proef in de het proeven kijker bekijkt, klik **![ pictogram van het Werkschema ](assets/workflow-icon-proofing-viewer.png) in het linkerpaneel van het Werkschema, dan klik het Edit pictogram ![ uitgeven pictogram ](assets/edit-icon-proofing-viewer.png) om de Geautomatiseerde montages van het Werkschema voor de proef te openen.**
 
 1. (Voorwaardelijk) als de proef momenteel een basiswerkschema (zonder stadia) gebruikt, klik **Bekeerling aan Geautomatiseerde Werkschema** in het scherm dat verschijnt.
 
@@ -155,7 +155,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    Aangezien u stadia aan de Geautomatiseerde Werkschema toevoegt, vormt een diagram op het scherm om hen te vertegenwoordigen:
 
-   ![](assets/workflow-diagram-existing-proof-qs-350x215.png)
+   ![ diagram van het Werkschema ](assets/workflow-diagram-existing-proof-qs-350x215.png)
 
 1. Wanneer u klaar bent toevoegend stadia, klik **Gedaan**.
 

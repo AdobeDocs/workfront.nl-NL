@@ -6,9 +6,9 @@ description: Leer proefdrukstadia en revisoren te bewerken.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 91549c2d-d7b1-461c-a3c4-ad0032acfb23
-source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 ## Details revisor bewerken
 
 1. In Workfront, houd de aanwijzer boven de proefdruk en klik vervolgens op **Proefdetails** om de pagina Proofing Details te openen.
-1. In de **sectie van het Werkschema**, klik **Meer** menu ![](assets/more-button-small.png) aan het recht van de naam van de recensent, dan klik **uitgeven** in het drop-down menu dat verschijnt.
+1. In de **sectie van het Werkschema**, klik **Meer** menu ![ Meer menu ](assets/more-button-small.png) aan het recht van de naam van de recensent, dan klik **uitgeven** in het drop-down menu dat verschijnt.
 
 1. In **geef recensent** doos uit die verschijnt, geef om het even welke volgende details uit:
 

@@ -6,9 +6,9 @@ description: U kunt het rapport voor proefdrukgoedkeuring gebruiken om informati
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f8c924e-7c33-43f3-a9d6-75c56af28527
-source-git-commit: 8a388ffa2d30683c08637a4273f628c553e55fdb
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ U moet het volgende hebben:
 
 1. Klik **Nieuw Rapport**, dan rol om **Goedkeuring van het Bewijs** te selecteren.
 
-   ![](assets/proof-approval-report.png)
+   ![ rapport van de Goedkeuring van het Bewijs ](assets/proof-approval-report.png)
 
 1. (Optioneel) Voeg aanvullende velden toe.
 1. Klik **sparen + Sluiten**.

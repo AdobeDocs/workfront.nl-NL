@@ -6,9 +6,9 @@ description: U kunt een proefdrukoverzicht afdrukken, opslaan als een PDF of exp
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 129c8e6b-5c66-445b-a5d0-7b1460aeabd6
-source-git-commit: 918d51e3b832a3104777346cebd54a4830e2d826
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '772'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ U kunt een proefdrukoverzicht rechtstreeks vanuit de documentlijst afdrukken.
 
    of
 
-   Terwijl het bekijken van de proef in de het proeven kijker, klik het **pictogram van de Druk** ![](assets/print-icon-in-pv.png) in de linkertoolbar. (Als de linkerwerkbalk niet zichtbaar is, klikt u op het menupictogram ![](assets/menu-icon-in-pv.png) in de linkerbovenhoek van de proefdrukviewer.)
+   Terwijl het bekijken van de proef in de het proeven kijker, klik het **pictogram van de Druk ![ ](assets/print-icon-in-pv.png) pictogram van de Druk in de linkertoolbar.** (Als de linkertoolbar niet zichtbaar is, klik het pictogram van het Menu ![ pictogram van het Menu ](assets/menu-icon-in-pv.png) in de upper-left hoek van de het proef kijker.)
 
 1. Gebruik een van de volgende opties:
 
@@ -95,7 +95,7 @@ U kunt een proefdrukoverzicht rechtstreeks vanuit de documentlijst afdrukken.
      </tr> 
      <tr> 
       <td role="rowheader">Opmerkingen filteren op</td> 
-      <td> <p>U kunt elke gewenste combinatie van deze opties gebruiken om alleen bepaalde opmerkingen op te nemen in de uitvoer die u afdrukt of exporteert als een XLS- of PDF-bestand:</p> 
+      <td> <p>U kunt elke combinatie van deze opties gebruiken om alleen bepaalde opmerkingen op te nemen in de uitvoer die u afdrukt of exporteert als een XLS- of PDF-bestand:</p> 
        <ul> 
         <li>Geselecteerde auteurs (standaardwaarde)</li> 
         <li>Acties die u selecteert</li> 
@@ -114,7 +114,7 @@ U kunt een proefdrukoverzicht rechtstreeks vanuit de documentlijst afdrukken.
 
    of
 
-   Als u de samenvatting als dossier van de PDF wilt bewaren, klik het **menu van de Bestemming**, klik **sparen als PDF**, dan klik **sparen**.
+   Als u de samenvatting als dossier van PDF wilt bewaren, klik het **menu van de Bestemming**, klik **sparen als PDF**, dan klik **sparen**.
 
 ## Een proefdrukoverzicht exporteren als een XLS of PDF
 
@@ -126,7 +126,7 @@ U kunt een proefdrukoverzicht voor statische inhoud exporteren als XLS-bestand o
 
 1. Klik op het pictogram XLS of PDF in de rechterbovenhoek van de pagina.
 
-   ![](assets/xls-pdf-icons-350x136.png)
+   ![ het pictogram van XLS PDF ](assets/xls-pdf-icons-350x136.png)
 
 Wanneer het geëxporteerde bestand gereed is, ontvangt u een e-mail waarin u het bestand kunt downloaden.
 

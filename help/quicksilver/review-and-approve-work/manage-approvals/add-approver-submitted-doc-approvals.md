@@ -6,9 +6,9 @@ description: U kunt vanuit het gebied Home rechtstreeks extra fiatteurs toevoege
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 2418565a-639c-424e-873a-f6512efc5cb5
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '342'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>De mening of hogere toegang tot Projecten, Taken, Kwesties, Malplaatjes, Portfolio's, Programma's, Rapporten, Dashboards, en Kalenders, Documenten</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td> <p>Toegang tot projecten, taken, problemen, sjablonen, portfolio's, programma's, rapporten, dashboards en agenda's, documenten weergeven of vergroten</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -52,14 +52,14 @@ Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licen
 
 ## Aanvullende fiatteurs toevoegen aan verzonden documentgoedkeuringen
 
-1. Klik het **pictogram van het Huis** ![](assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.
+1. Klik het **pictogram van het Huis ![ pictogram van het Begin ](assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.**
 
    >[!NOTE]
    >
    >Uw Workfront-beheerder kan de volgende wijzigingen aanbrengen in het pictogram Home in uw omgeving:
    >
    >* Vervang deze door een afbeelding die is aangepast om uw organisatie te illustreren. In dit geval ziet het pictogram er anders uit dan in dit artikel.
-   >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **Belangrijkste Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik **Huis**.
+   >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **Belangrijkste pictogram van het Menu** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik **Huis**.
 
 1. In het **gebied van de Lijst van het Werk**, ga naar **Goedkeuringen ik** groepering heb voorgelegd.
 

@@ -6,9 +6,9 @@ description: Nadat u projecten en initiatieven verbindt, kunt u hun middeltoewij
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 77152e46-0b7b-4937-9d16-1a20c2a7fdf1
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Voor algemene informatie over het verzoenen van middelen tussen projecten en ini
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
    <td> <ul></li>
    <li><p>Nieuw: Ultimate </p></li>
-   <p>De Scenario Planner is niet beschikbaar voor de nieuwe Workfront Select- of Workfront-plannen. </p>
+   <p>De Scenario Planner is niet beschikbaar voor de nieuwe Workfront Select- of Workfront Prime-plannen. </p>
    <li><p>Huidig: [!UICONTROL Business] of hoger</p></ul>
    </td> 
   </tr> 
@@ -79,7 +79,7 @@ Als uw bedrijf een [!DNL Workfront Scenario Planner] -licentie heeft aangeschaft
 
 1. Ga naar het project waar u de toewijzing van baanrollen voor het project evenals voor het bijbehorende initiatief wilt herzien.
 1. Klik op **[!UICONTROL Tasks]** in het linkerdeelvenster.
-1. Klik op het pictogram **[!UICONTROL Show role allocation]** ![](assets/show-role-allocation-icon.png) rechtsboven op de werkbalk.
+1. Klik het **[!UICONTROL Show role allocation]** pictogram ![ tonen roltoewijzing ](assets/show-role-allocation-icon.png) in de hoger-juiste hoek van de toolbar.
 
    Het deelvenster [!UICONTROL Role Allocation] wordt weergegeven.
 

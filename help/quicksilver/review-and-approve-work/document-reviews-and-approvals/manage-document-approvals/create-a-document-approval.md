@@ -6,9 +6,9 @@ description: U kunt goedkeuring aanvragen bij andere gebruikers voor een documen
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: a1a5c2bb9395748c4e0103d10dcf66624238032b
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>De mening of hogere toegang tot Projecten, Taken, Kwesties, Malplaatjes, Portfolio's, Programma's, Rapporten, Dashboards, en Kalenders, Documenten</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td> <p>Toegang tot projecten, taken, problemen, sjablonen, portfolio's, programma's, rapporten, dashboards en agenda's, documenten weergeven of vergroten</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -58,7 +58,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 ## Een documentrevisie of goedkeuringsaanvraag maken op de documentpagina
 
 1. Houd de muis boven het document en klik vervolgens op Documentdetails.
-   ![](assets/doc-details.png)
+   ![ de details van het Document ](assets/doc-details.png)
 
 
 1. Selecteer bij de documentnaam de versie van het document waarvoor u een goedkeuring wilt maken in het vervolgkeuzemenu. De meest recente versie wordt standaard geselecteerd.
@@ -71,7 +71,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Om een recensent toe te voegen, klik **checkbox 0} Recensent {en begin typend in een gebruiker of teamnaam.**
 
-   ![](assets/add-approver-and-deadline.png)
+   ![ voeg fiatteur en deadline ](assets/add-approver-and-deadline.png) toe
 
 1. Herhaal de vorige stap om extra fiatteurs of revisoren toe te voegen.
 
@@ -85,7 +85,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. De rol neer aan de **goedkeurt** sectie in de Summiere ruit van het Document, dan klikt **toevoegt**.
 
-![](assets/doc-summary-add-approvers.png)
+![ voegt fiatteurs in documentsamenvatting ](assets/doc-summary-add-approvers.png) toe
 
 1. (Optioneel) Stel een deadline in voor de goedkeuring. Gebruikers en teams worden 72 uur per e-mail op de hoogte gesteld en 24 uur vóór de opgegeven deadline.
 
@@ -93,7 +93,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Om een recensent toe te voegen, klik **checkbox 0} Recensent {en begin typend in een gebruiker of teamnaam.**
 
-   ![](assets/add-approver-and-deadline.png)
+   ![ voeg fiatteur en deadline ](assets/add-approver-and-deadline.png) toe
 
 1. Herhaal de vorige stap om extra fiatteurs of revisoren toe te voegen.
 
@@ -111,5 +111,5 @@ Document approval decisions are not automatically reset when you upload a new ve
 
 1. Scroll down to the **Approvals** section in the Summary, click the More icon, then click Resubmit.
 
-   ![](assets/nwe-resubmit-approval-350x149.png)
+   ![Resubmit approval](assets/nwe-resubmit-approval-350x149.png)
 -->

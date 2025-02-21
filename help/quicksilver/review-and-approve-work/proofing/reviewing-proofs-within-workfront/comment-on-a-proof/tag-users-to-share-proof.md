@@ -6,9 +6,9 @@ description: Wanneer u opmerkingen maakt over een proefdruk in de conceptviewer,
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4efbfdeb-3834-48dd-aa5b-515891bac519
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Een proefdruk in een opmerking labelen en delen:
 1. Voltooi de commentaar, dan klik **Post**.
 1. (Voorwaardelijk) als u iedereen etiketteerde die niet reeds aan de proef werd toegevoegd, specificeer de rol van het a **Bewijs** en **E-mail alarm** plaatsend voor elke gebruiker die in de doos wordt vermeld die verschijnt, dan klik **mensen en post commentaar** toevoegt.
 
-   ![](assets/add-people-to-proof-350x220.png)
+   ![ voeg mensen aan proef ](assets/add-people-to-proof-350x220.png) toe
 
    Voor informatie over proefdrukrollen, zie. Voor informatie over proefe-mailalarm, zie de sectie in artikel [ de montages van het e-mailbericht in Workfront Proof ](../../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md) vormen.
 

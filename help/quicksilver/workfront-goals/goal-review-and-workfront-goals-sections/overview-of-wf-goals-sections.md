@@ -7,9 +7,9 @@ description: U hebt toegang tot lijsten met doelen of individuele doelen en kunt
 author: Alina
 feature: Workfront Goals
 exl-id: 915f8c62-e35a-41a0-8a63-40c28468c55a
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '699'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ U kunt de Lijst van het Doel gebruiken om doelstellingen te herzien die tot u, u
 
 Voor informatie over het navigeren van de Lijst van het Doel en het beheren van doelstellingen, zie [ doelstellingen in de Lijst van het Doel van de Doelen van Adobe Workfront ](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md) leiden.
 
-![](assets/goal-list-unshimmed.png)
+![ Lijst van het Doel ](assets/goal-list-unshimmed.png)
 
 Gebruik de Lijst met doelen voor het volgende:
 
@@ -78,7 +78,7 @@ U kunt de sectie van Grafieken gebruiken om een holistische mening van de gezond
 
 Voor informatie over het gebruiken van de sectie van Grafieken, zie [ grafieken van het Overzicht om de tendensen van de doelvooruitgang in de Doelen van Adobe Workfront ](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md) te begrijpen.
 
-![](assets/graphs-section-unshimmed.png)
+![ sectie van Grafieken ](assets/graphs-section-unshimmed.png)
 
 Gebruik de sectie Grafieken voor het volgende:
 
@@ -97,7 +97,7 @@ Raadpleeg de volgende artikelen voor informatie over het uitlijnen van doelen:
 * [ richt doelstellingen door hen in de Doelen van Adobe Workfront te verbinden ](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
 * [Richt doelstellingen door resultaten en activiteiten aan doelstellingen om te zetten](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
 
-![](assets/goal-alignment-section-unshimmed.png)
+![ Goal groeperingssectie ](assets/goal-alignment-section-unshimmed.png)
 
 Gebruik het gedeelte Uitlijning doel voor het volgende:
 
@@ -118,7 +118,7 @@ You can use the Pulse section to review and request updates to goals that might 
 
 For information about reviewing goals using the Pulse section, see [Review goals in the Adobe Workfront Goals Pulse section](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goals-in-pulse.md).
 
-![](assets/pulse-section-350x141.png)
+![Pulse section](assets/pulse-section-350x141.png)
 
 Use the Pulse section to do the following:
 
@@ -149,7 +149,7 @@ You can use the Check-in section to update active goals and any results and acti
 
 For information about managing goals in the Goal List, see [Manage goals in the Goal List of Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md).
 
-![](assets/check-in-section-350x143.png)
+![Check in section](assets/check-in-section-350x143.png)
 
 Use the Check-in section to do the following:
 

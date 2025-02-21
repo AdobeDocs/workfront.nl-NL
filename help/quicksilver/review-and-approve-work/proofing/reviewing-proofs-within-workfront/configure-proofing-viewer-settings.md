@@ -6,9 +6,9 @@ description: U kunt instellingen configureren voor zowel de webtestviewer als de
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 3993cd67-90a9-4d7e-bbc0-7b9bd1057f54
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1417'
+source-wordcount: '1424'
 ht-degree: 0%
 
 ---
@@ -80,13 +80,13 @@ De instellingen voor de proefdrukviewer configureren:
 1. Open de webtestviewer of de Desktop Proofing Viewer op een van de volgende manieren:
 
    * Als u bewijs binnen Adobe Workfront, naar een documentlijst gaat die een proef bevat u wilt bekijken, over het document beweegt, dan klik **Open proef**.
-   * Als u Workfront Proof gebruikt, klik **ga naar het pictogram van het Bewijs** voor de proef in het Dashboard of een lijst van Mening ![](assets/go-to-proof-blue-icon.png).
+   * Als u Workfront Proof gebruikt, klik **ga naar het pictogram van het Bewijs** voor de proef in het Dashboard of a lijst van Meningen ![ ga naar Bewijs ](assets/go-to-proof-blue-icon.png).
 
 1. Als de linkertoolbar niet toont, klik het **pictogram van het Menu**, dat in de upper-left hoek van de Kijker van het Bewijs van het Web wordt gevestigd.
 
-   ![](assets/menu-icon-in-proofing-viewer-350x228.png)
+   ![ pictogram van het Menu ](assets/menu-icon-in-proofing-viewer-350x228.png)
 
-1. In de linkertoolbar, klik het **pictogram van Montages** ![](assets/settings-icon-in-pv.png).
+1. In de linkertoolbar, klik het **pictogram ![ pictogram van Montages** ](assets/settings-icon-in-pv.png).
 
 1. Vorm om het even welke volgende **Montages** die vertoning.
 

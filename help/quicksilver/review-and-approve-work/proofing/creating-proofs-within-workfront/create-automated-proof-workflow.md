@@ -6,9 +6,9 @@ description: Met een geautomatiseerde workflow kunt u het controleproces eenvoud
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 977fe1bc-458f-4301-8056-dc51c61edb6c
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1831'
+source-wordcount: '1838'
 ht-degree: 0%
 
 ---
@@ -139,7 +139,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
       Naast de opties **op proefverwezenlijking**, **op een specifieke datum en een tijd**, of **manueel**, kunt u een optie selecteren die van wat in de vorige stap afhankelijk is voorgekomen:
 
-      ![](assets/activate-stage-options-for-stage-2-plus-350x177.png)
+      ![ activeer werkgebiedopties ](assets/activate-stage-options-for-stage-2-plus-350x177.png)
 
    1. Als u een werkgebiedoptie activeren hebt geselecteerd die afhankelijk is van wat er in de vorige stap is gebeurd, gebruikt u de opties die de activeringsinstelling lijken te configureren.
 
@@ -149,7 +149,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    Aangezien u stadia aan de Geautomatiseerde Werkschema toevoegt, vormt een diagram op het scherm om hen te vertegenwoordigen:
 
-   ![](assets/stages-diagram-350x213.png)
+   ![ diagram van Stages ](assets/stages-diagram-350x213.png)
 
 1. Ga met [ verder vormen e-mailmontages voor de proef ](#configure-email-settings-for-the-proof) hieronder.
 
@@ -230,6 +230,6 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. Nadat de proef wordt geproduceerd, klik **Open proef** om de het proef kijker te lanceren.
 
-   ![](assets/open-proof-350x132.png)
+   ![ Open proef ](assets/open-proof-350x132.png)
 
    Gebruikers die geen proefdrukken op hun account hebben ingeschakeld, kunnen het document nog steeds bekijken en opmerkingen naar de proefdruk maken [ . ](../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)

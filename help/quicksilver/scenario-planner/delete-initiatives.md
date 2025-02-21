@@ -6,9 +6,9 @@ description: U kunt initiatieven op een plan schrappen dat u of op een plan cree
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 799ca02e-c513-4409-b327-1ce7d8eb19ae
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ U kunt initiatieven op een plan schrappen dat u of op een plan creeerde dat iema
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
    <td> <ul></li>
    <li><p>Nieuw: Ultimate </p></li>
-   <p>De Scenario Planner is niet beschikbaar voor de nieuwe Workfront Select- of Workfront-plannen. </p>
+   <p>De Scenario Planner is niet beschikbaar voor de nieuwe Workfront Select- of Workfront Prime-plannen. </p>
    <li><p>Huidig: [!UICONTROL Business] of hoger</p></ul>
    </td> 
   </tr> 
@@ -90,7 +90,7 @@ Een lijst met plannen wordt weergegeven.
 1. Klik op de naam van een abonnement om het te openen en zoek het initiatief dat u wilt verwijderen.
 1. Voer een van de volgende handelingen uit:
 
-   * Klik op **[!UICONTROL More menu]** ![](assets/more-menu.png) rechts van de naam van het initiatief en klik vervolgens op **[!UICONTROL Delete]** > **[!UICONTROL Yes, delete it]** .
+   * Klik **[!UICONTROL More menu]** ![ Meer menu ](assets/more-menu.png) rechts van de initiatiefnaam, dan klik **[!UICONTROL Delete]** > **[!UICONTROL Yes, delete it]**.
 
    * Selecteer het vak links van het initiatief en klik op **[!UICONTROL Delete]** in het zwevende menu dat onder aan het abonnement wordt weergegeven en klik vervolgens op **[!UICONTROL Yes, delete it]** .
 
@@ -107,7 +107,7 @@ Een lijst met plannen wordt weergegeven.
 1. Klik op de naam van een abonnement om het te openen en zoek het initiatief dat u wilt verwijderen.
 1. Selecteer de vakjes links van de initiatieven die u wilt schrappen, dan klik **[!UICONTROL Delete]** van het menu dat bij de bodem van het plan verschijnt, dan klik **[!UICONTROL Yes, delete them]**.
 
-   ![](assets/bottom-manage-initiative-menu-350x45.png)
+   ![ beheert initiatiefmenu ](assets/bottom-manage-initiative-menu-350x45.png)
 
    De initiatieven en hun functie en kosteninformatie worden uit het plan geschrapt.
 

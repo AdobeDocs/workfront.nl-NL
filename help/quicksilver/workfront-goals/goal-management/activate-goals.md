@@ -6,9 +6,9 @@ description: Wanneer u een doel maakt, slaat Adobe Workfront Goals het op met de
 author: Alina
 feature: Workfront Goals
 exl-id: fc556073-fe63-4f13-a313-505ca0ef1f9b
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ U moet het volgende hebben:
    <td role="rowheader">Adobe Workfront-abonnement*</td> 
    <td> 
    <p>Voor het nieuwe plan en de nieuwe licentiestructuur:
-  <ul><li>Een ultiem plan </li></ul>
+  <ul><li>Een Ultimate-abonnement </li></ul>
    </p>
 <p>Voor het huidige plan en de licentiestructuur: 
 <ul><li> Een Pro of hoger </li>
@@ -116,8 +116,8 @@ U kunt doelen activeren die u hebt gemaakt of een doel waarvoor u beheermachtigi
 
 1. Ga naar een doel dat u wilt activeren. De doelpagina wordt geopend.
 
-1. Klik **Meer** menu ![](../goal-management/assets/more-icon.png) aan het recht van de doelnaam, dan klik **activeert**.
+1. Klik het **Meer** menu ![ Meer pictogram ](../goal-management/assets/more-icon.png) aan het recht van de doelnaam, dan klik **activeert**.
 
-   ![](assets/more-menu-on-goal-expanded-with-activate-unshimmed.png)
+   ![ Meer uitgevouwen menu ](assets/more-menu-on-goal-expanded-with-activate-unshimmed.png)
 
    De doelstatus verandert in Actief. U kunt nu de voortgang op het doel en de doelweergaven bijhouden in de sectie Inchecken. Ook wordt hiermee rekening gehouden in de grafieksecties van Workfront-doelen

@@ -7,9 +7,9 @@ description: U kunt één enkele termijn voor een basisproef plaatsen nadat het 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8e0c6fd3-5506-4b23-b64a-473c4d20b506
-source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Klik **het Proofing Werkschema**.
 1. In het **gebied van het Werkschema**, uitgezochte **Geen Deadline**.
 
-   ![](assets/no-deadline-basic-proof-350x70.png)
+   ![ Geen deadline ](assets/no-deadline-basic-proof-350x70.png)
 
 1. Kies een datum, geef een tijd op en klik vervolgens ergens op het scherm.
 1. Kies of u de controleurs op de hoogte wilt stellen van de nieuwe deadline.

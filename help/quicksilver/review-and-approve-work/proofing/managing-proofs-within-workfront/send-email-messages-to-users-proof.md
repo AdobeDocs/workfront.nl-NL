@@ -6,9 +6,9 @@ description: Tijdens het beoordelings- en goedkeuringsproces kunt u een bericht 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e7d60d6f-b6bd-4082-b50c-e42d4b72c149
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
@@ -61,15 +61,15 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Zoek het document voor de proef die de gebruikers bevat u wilt bericht.
 1. Beweeg over het document, dan klik **het Proofing Werkschema**.
 
-   ![](assets/proof-workflow-doc-list-350x92.png)
+   ![ het Proofing werkschema ](assets/proof-workflow-doc-list-350x92.png)
 
 1. Om een bericht naar alle gebruikers op het stadium te verzenden, klik **Meer** menu op het stadium en kies **Bericht allen**.
 
-   ![](assets/message-stage-350x122.png)
+   ![ Bericht op stadium ](assets/message-stage-350x122.png)
 
 1. Om een bericht naar een individuele gebruiker te verzenden, klik **Meer** menu naast de gebruiker en kies **Bericht**.
 
-   ![](assets/message-user-350x121.png)
+   ![ gebruiker van het Bericht ](assets/message-user-350x121.png)
 
 1. In de **sectie van de Details van het Bericht**, specificeer de volgende informatie:
 

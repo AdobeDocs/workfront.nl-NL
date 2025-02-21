@@ -2,20 +2,20 @@
 product-area: documents
 navigation-topic: create-proofs-within-workfront
 title: Een statische proefdruk maken voor een website of andere webinhoud
-description: U kunt een nieuwe statische proefdruk of een nieuwe versie van een bestaande statische proefdruk voor webinhoud produceren. De inhoud van het Web kan dingen zoals advertenties met het stromen video, HTML animatie, of interactieve banners omvatten, maar het zal in veelvoudige het schermopnamen worden geknipt om het statische proef toe te staan.
+description: U kunt een nieuwe statische proefdruk of een nieuwe versie van een bestaande statische proefdruk voor webinhoud produceren. De inhoud van het Web kan dingen zoals advertenties met het stromen video, de animatie van HTML, of interactieve banners omvatten, maar het zal in veelvoudige screenshots worden geknipt om statisch te laten proeven.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1c0511f6-c60b-4a81-bfff-55b6f866add6
-source-git-commit: 0a7cdf217d3c8227c569831b16f09c0b1d9c7111
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
 
 # Een statische proefdruk maken voor een website of andere webinhoud
 
-U kunt een nieuwe statische proefdruk of een nieuwe versie van een bestaande statische proefdruk voor webinhoud produceren. De inhoud van het Web kan dingen zoals advertenties met het stromen video, HTML animatie, of interactieve banners omvatten, maar het zal in veelvoudige het schermopnamen worden geknipt om het statische proef toe te staan.
+U kunt een nieuwe statische proefdruk of een nieuwe versie van een bestaande statische proefdruk voor webinhoud produceren. De inhoud van het Web kan dingen zoals advertenties met het stromen video, de animatie van HTML, of interactieve banners omvatten, maar het zal in veelvoudige screenshots worden geknipt om statisch te laten proeven.
 
 Houd rekening met het volgende wanneer u statische proefdrukken maakt voor een website of andere webinhoud:
 
@@ -81,7 +81,7 @@ Als u een statisch bewijs wilt maken, moet de website openbaar toegankelijk zijn
 
    Er worden opties weergegeven voor het configureren van de proefdruk van de website.
 
-   ![](assets/interactive-proof-radio-btn-area-350x199.png)
+   ![ Interactieve proef ](assets/interactive-proof-radio-btn-area-350x199.png)
 
 1. (Facultatief) als u de naam van de proef van website URL in iets anders wilt veranderen, typ a **naam van het Bewijs.**
 1. Zorg ervoor **het schermschot van de Vangst** wordt geselecteerd en gebruik om het even welke volgende opties:

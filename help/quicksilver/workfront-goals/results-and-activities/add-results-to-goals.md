@@ -7,9 +7,9 @@ description: De resultaten meten de vooruitgang van een doel. Zonder resultaten,
 author: Alina
 feature: Workfront Goals
 exl-id: 30e22482-22e2-432d-bb73-7f9a9160aba2
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ U moet het volgende hebben:
    <td role="rowheader">Adobe Workfront-abonnement*</td> 
    <td> 
    <p>Voor het nieuwe plan en de nieuwe licentiestructuur:
-  <ul><li>Een ultiem plan </li></ul>
+  <ul><li>Een Ultimate-abonnement </li></ul>
    </p>
 <p>Voor het huidige plan en de licentiestructuur: 
 <ul><li> Een Pro of hoger </li>
@@ -102,7 +102,7 @@ Adding results to goals differs depending on which environment you use.
 1. Go to the goal for which you want to add a result and click the name to open the **Goal Details** panel.
 1. Click **Add results**.
 
-   ![](assets/add-result-inside-goal-details-highlighted-350x145.png)
+   ![Add result inside goal](assets/add-result-inside-goal-details-highlighted-350x145.png)
 
 1. Start typing the result you want to achieve in the **Result** field. This is the name of the result and it displays wherever the goal displays. 
 1. (Optional) If you want to set the Result Owner as someone other than yourself, click your name in the **Owner** field and start typing the name of the user that you want to assign as the owner of the result, then click it when it appears in the drop-down list.
@@ -113,7 +113,7 @@ Adding results to goals differs depending on which environment you use.
 
 1. In the Value drop-down menu, select the type of value that you want to measure your success by.
 
-   ![](assets/results-value-initial-target-boxes-350x49.png)
+   ![Results value](assets/results-value-initial-target-boxes-350x49.png)
 
    Select from the following options:
 
@@ -137,7 +137,7 @@ Adding results to goals differs depending on which environment you use.
 
 -->
 
-1. Klik het Belangrijkste Menu ![](assets/main-menu-icon.png), toen **Doelen**.
+1. Klik het Belangrijkste pictogram van het Menu ![ Hoofd ](assets/main-menu-icon.png), toen **Doelen**.
 
 1. Van de **Lijst van het Doel**, klik de naam van een doel om de doelpagina te openen.
 1. Klik **indicatoren van de Voortgang** in het linkerpaneel.
@@ -145,7 +145,7 @@ Adding results to goals differs depending on which environment you use.
 
    Het vak Nieuw resultaat wordt geopend.
 
-   ![](assets/new-result-box-unshimmed.png)
+   ![ Nieuwe resultaatdoos ](assets/new-result-box-unshimmed.png)
 
 1. Ga een naam voor het resultaat in het **gebied van de Naam van het Resultaat** in. Dit is een verplicht veld.
 1. (Facultatief) verwijder uw naam uit het **gebied van de resultaateigenaar** als u het resultaat aan een andere gebruiker wilt toewijzen. Standaard bent u de eigenaar van een activiteit die u maakt.

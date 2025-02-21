@@ -6,9 +6,9 @@ description: Nadat u projecten en initiatieven verbindt, kunt u hun middeltoewij
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: cdc3a1b0-7021-4853-9b51-c3682fd55430
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Voor algemene informatie over het verzoenen van middelen tussen projecten en ini
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
    <td> <ul></li>
    <li><p>Nieuw: Ultimate </p></li>
-   <p>De Scenario Planner is niet beschikbaar voor de nieuwe Workfront Select- of Workfront-plannen. </p>
+   <p>De Scenario Planner is niet beschikbaar voor de nieuwe Workfront Select- of Workfront Prime-plannen. </p>
    <li><p>Huidig: [!UICONTROL Business] of hoger</p></ul>
    </td> 
   </tr> 
@@ -87,12 +87,12 @@ Als uw bedrijf een [!DNL Workfront Scenario Planner] -licentie heeft aangeschaft
 
 1. Voer een van de volgende handelingen uit:
 
-   * Klik op **[!UICONTROL Month]** om de werklastbalans per maand weer te geven, klik op het vervolgkeuzemenu naast een maand in de tijdlijn ![](assets/drop-down-next-to-month-month-view-wb.png) en klik vervolgens op **[!UICONTROL More]** .
-   * Klik op het pictogram **[!UICONTROL Show role allocation]** ![](assets/show-role-allocation-icon.png) rechtsboven op de werkbalk.
+   * Klik **[!UICONTROL Month]** om de Balancer van de Werkbelasting door maand te bekijken, klik het drop-down menu naast een maand in de chronologie ![ Dropdown naast maand ](assets/drop-down-next-to-month-month-view-wb.png), dan klik **[!UICONTROL More]**.
+   * Klik het **[!UICONTROL Show role allocation]** pictogram ![ tonen roltoewijzing ](assets/show-role-allocation-icon.png) in de hoger-juiste hoek van de toolbar.
 
    Het deelvenster [!UICONTROL Role Allocation] wordt weergegeven.
 
-   ![](assets/role-allocation-panel-months-collapsed-350x319.png)
+   ![ het toewijzingspaneel van de Rol ](assets/role-allocation-panel-months-collapsed-350x319.png)
 
    >[!CAUTION]
    >
@@ -162,7 +162,7 @@ Als uw bedrijf een [!DNL Workfront Scenario Planner] -licentie heeft aangeschaft
 
 1. (Optioneel) Klik op het vervolgkeuzepictogram om een van de maanden in het deelvenster [!UICONTROL Role Allocation] of in de tijdlijn van [!UICONTROL Workload Balancer] uit te vouwen.
 
-   ![](assets/month-expanded-highlighted-role-allocation-panel-wb-350x145.png)
+   ![ breid maand in het deelvenster Roltoewijzing uit ](assets/month-expanded-highlighted-role-allocation-panel-wb-350x145.png)
 
    Voor elke maand wordt hetzelfde type informatie weergegeven in het gebied [!UICONTROL Project Totals] .
 

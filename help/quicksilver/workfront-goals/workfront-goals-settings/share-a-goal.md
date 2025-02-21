@@ -6,9 +6,9 @@ description: Als u een doel deelt, geeft u beheermachtigingen voor een doel aan 
 author: Alina
 feature: Workfront Goals
 exl-id: 747449cf-9092-4b9f-9add-db2e7d3fab48
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '795'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ U moet het volgende hebben:
    <td role="rowheader">Adobe Workfront-abonnement*</td> 
    <td> 
    <p>Voor het nieuwe plan en de nieuwe licentiestructuur:
-  <ul><li>Een ultiem plan </li></ul>
+  <ul><li>Een Ultimate-abonnement </li></ul>
    </p>
 <p>Voor het huidige plan en de licentiestructuur: 
 <ul><li> Een Pro of hoger </li>
@@ -117,7 +117,7 @@ U moet het volgende hebben:
 
 ## Een doel delen
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) > **Doelen** in de hoger-juiste hoek.
+1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) >** Doelen **in de hoger-juiste hoek.**
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../workfront-goals-settings/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -128,11 +128,11 @@ U moet het volgende hebben:
 
 1. Klik het **Meer pictogram** naast de doelnaam, dan klik **Aandeel**.
 
-   ![](assets/more-menu-highlighted-goal-details-panel-with-share-link-350x156.png)
+   ![ Meer menu ](assets/more-menu-highlighted-goal-details-panel-with-share-link-350x156.png)
 
    Het vak Goal Access wordt weergegeven.
 
-   ![](assets/goal-access-sharing-box-manage-system-wide-deselected-350x400.png)
+   ![ Toegang van het Doel ](assets/goal-access-sharing-box-manage-system-wide-deselected-350x400.png)
 
 1. Voer een van de volgende handelingen uit:
 

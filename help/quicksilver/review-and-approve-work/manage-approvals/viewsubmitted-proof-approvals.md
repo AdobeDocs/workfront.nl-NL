@@ -6,9 +6,9 @@ description: Goedkeuringen voor proefdrukken worden alleen weergegeven in het ge
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 3f012b1d-69a8-4426-8894-3dafb1e6b837
-source-git-commit: b0b83e8a8a2a076ec20691183605e3d25d10129d
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>De mening of hogere toegang tot Projecten, Taken, Kwesties, Malplaatjes, Portfolio's, Programma's, Rapporten, Dashboards, en Kalenders, Documenten</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td> <p>Toegang tot projecten, taken, problemen, sjablonen, portfolio's, programma's, rapporten, dashboards en agenda's, documenten weergeven of vergroten</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -52,11 +52,11 @@ Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licen
 
 ## Verstuurde proefdrukgoedkeuringen bekijken
 
-1. Klik op **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek en klik vervolgens op **[!UICONTROL Home]** .
+1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) klik **aanpassen** om **Mijn goedkeurt** widget toe te voegen.
 1. (Voorwaardelijk) klik het **drop-down menu van de Filter**, dan uitgezochte **Goedkeuringen ik** heb voorgelegd om goedkeuringen te zien u hebt voorgelegd.
 
-   ![](assets/proof-approval.png)
+   ![ Goedkeuring van het Bewijs ](assets/proof-approval.png)
 
    >[!NOTE]
    >

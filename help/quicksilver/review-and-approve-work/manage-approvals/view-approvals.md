@@ -6,9 +6,9 @@ description: De processen van de goedkeuring verstrekken de flexibiliteit om mul
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: b0b83e8a8a2a076ec20691183605e3d25d10129d
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ U kunt goedkeuringen van de volgende gebieden bekijken of beheren:
 
 ## Uw werk voor goedkeuring in het gebied Home controleren {#review-work-you-submit-for-approval-in-the-home-area}
 
-1. Klik op **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek en klik vervolgens op **[!UICONTROL Home]** .
+1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) klik **aanpassen** om **Mijn goedkeurt** widget toe te voegen.
 1. (Voorwaardelijk) klik het **drop-down menu van de Filter**, dan uitgezochte **Goedkeuringen ik** heb voorgelegd om goedkeuringen te zien u hebt voorgelegd.
 
@@ -133,6 +133,6 @@ U kunt als volgt de huidige status bekijken van de plaats waar een taak of kwest
 
    Op het tabblad Goedkeuringen wordt de volledige informatie over alle eerdere goedkeuringspaden en -fasen weergegeven. U kunt precies zien wie een besluit over de goedkeuring heeft genomen of of de goedkeuring voor een team, baanrol, of gebruiker wordt geplaatst.
 
-   ![](assets/approvals-tab-expanded-on-issue-nwe-350x320.png)
+   ![ uitgevouwen Goedkeuringen tabel ](assets/approvals-tab-expanded-on-issue-nwe-350x320.png)
 
    Voor informatie over het creëren van een Proces van de Goedkeuring, zie [ een goedkeuringsproces voor het werkpunten ](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) creëren.

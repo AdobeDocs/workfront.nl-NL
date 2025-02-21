@@ -7,9 +7,9 @@ description: Met activiteiten wordt de voortgang van een doel gemeten. Zonder bi
 author: Alina
 feature: Workfront Goals
 exl-id: 4d6ef324-4b5c-402b-b64d-b1a2a7d2ab57
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ U moet het volgende hebben:
    <td role="rowheader">Adobe Workfront-abonnement*</td> 
    <td> 
    <p>Voor het nieuwe plan en de nieuwe licentiestructuur:
-  <ul><li>Een ultiem plan </li></ul>
+  <ul><li>Een Ultimate-abonnement </li></ul>
    </p>
 <p>Voor het huidige plan en de licentiestructuur: 
 <ul><li> Een Pro of hoger </li>
@@ -101,7 +101,7 @@ Adding activities to goals differs depending on which environment you use.
 1. Go to the goal for which you want to add an activity and click the name to open the **Goal Details** panel.
 1. Click **Add activities**.
 
-   ![](assets/add-activity-inside-goal-details-highlighted-350x152.png)
+   ![Add activity inside goal](assets/add-activity-inside-goal-details-highlighted-350x152.png)
 
 1. From the **Activity Type** drop-down menu, select the type of activity you want to associate with your goal.&nbsp;Select **Manual progress bar** or **Project**. Manual progress bar is the default selection. 
 1. (Conditional) Depending on which activity type you selected, do the following:
@@ -144,14 +144,14 @@ Adding activities to goals differs depending on which environment you use.
 -->
 
 
-1. Klik het **Belangrijkste Menu** ![](assets/main-menu-icon.png), toen **Doelen**.
+1. Klik het **![ Belangrijkste pictogram van het Menu** Belangrijkste ](assets/main-menu-icon.png), toen **Doelen**.
 1. Klik in de lijst met doelen op de naam van een doel om de pagina met het doel te openen.
 1. Klik **indicatoren van de Voortgang** in het linkerpaneel.
 1. Van het Nieuwe drop-down menu van de vooruitgangsindicator, klik **creeer activiteit**.
 
    Het vak Nieuwe activiteit wordt geopend.
 
-   ![](assets/new-activity-box-unshimmed.png)
+   ![ Nieuwe activiteitendoos ](assets/new-activity-box-unshimmed.png)
 
 1. Typ een naam voor de activiteit in het veld Naam activiteit. Dit is een verplicht veld.
 1. (Facultatief) verwijder uw naam uit het **bezit van de Activiteit** gebied als u de activiteit aan een andere gebruiker wilt toewijzen. Standaard bent u de eigenaar van een activiteit die u maakt.

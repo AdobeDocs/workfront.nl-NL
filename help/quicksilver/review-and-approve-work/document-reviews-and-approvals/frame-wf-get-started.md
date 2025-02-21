@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 68b91aad-af76-473f-861d-da846fdfb84c
-source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1165'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Workfront-beheerders starten de integratie met Workfront en Frame.io door een st
 
 >[!IMPORTANT]
 >
->Deze functie is binnenkort beschikbaar. Momenteel worden Frame.io-accounts handmatig toegevoegd door het Workfront-team. Neem contact op met uw accountvertegenwoordiger van de Adobe voor hulp.
+>Deze functie is binnenkort beschikbaar. Momenteel worden Frame.io-accounts handmatig toegevoegd door het Workfront-team. Neem contact op met uw Adobe-accountvertegenwoordiger voor hulp.
 
 <!--For more information, see [Configure the [!DNL Workfront] and [!DNL Frame.io] integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
 
@@ -54,7 +54,7 @@ Wanneer een gebruiker duidelijk als gebruiker Frame.io in Workfront is en aan ee
 
 Voor meer informatie, zie [ de  [!DNL Workfront]  vormen en  [!DNL Frame.io]  integratie ](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
 
-![](assets/Frame-enabled-user.png)
+![ Kader toegelaten gebruiker ](assets/Frame-enabled-user.png)
 
 
 ### Een project maken dat is verbonden met Frame.io
@@ -114,7 +114,7 @@ Revisoren en fiatteurs kunnen worden toegevoegd aan een goedkeuringswerkstroom v
   Voor meer informatie, zie [ een Malplaatje van de Goedkeuring ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) creëren
 
 
-![](assets/assign-template.png)
+![ wijs malplaatje ](assets/assign-template.png) toe
 
 
 #### De viewer Frame.io openen
@@ -123,7 +123,7 @@ Gebruikers kunnen op de volgende manieren toegang krijgen tot de viewer Frame.io
 
 * Workfront-e-mailberichten
 * De widget Mijn goedkeuring in het nieuwe Workfront Home-gebied
-  ![](assets/awaiting-my-approval.png)
+  ![ wachtend op mijn goedkeuring ](assets/awaiting-my-approval.png)
 
 >[!NOTE]
 >
@@ -145,7 +145,7 @@ Revisoren kunnen hun volledige revisie markeren in de Frame.io-viewer, maar dit 
 
 Voor meer informatie over besluiten in Workfront, zie [ overzicht van de beslissingsstatus van het Document ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
 
-![](assets/frame-viewer-and-decision.png)
+![ de kijker en besluit van het Kader ](assets/frame-viewer-and-decision.png)
 
 
 <!-- upload assets directly to workfront to be reviewed in Frame.io/ Will have to send manually at first
@@ -158,4 +158,4 @@ Reviewer/approver needs to go through email to get to frame vier
 Projectcoördinatoren kunnen de voortgang van alle goedkeuringen tijdens de vlucht in het Workfront Home-gebied volgen met de volgende widget:
 
 * **Alle goedkeuringen**: Toont 2 grafieken met informatie over gemiddelde goedkeuringstijd en besluiten evenals lijstmeningen van hangende en achterstallige goedkeuringen.
-  ![](assets/all-approvals.png)
+  ![ Alle goedkeuringen ](assets/all-approvals.png)

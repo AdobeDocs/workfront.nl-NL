@@ -6,9 +6,9 @@ description: Nadat u of andere gebruikers doelen hebben gemaakt, kunt u hun voor
 author: Alina
 feature: Workfront Goals
 exl-id: 2a2c1240-f796-4cb8-b8a6-2ad5853916b9
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: '817'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ U moet de volgende toegang hebben om de handelingen uit te voeren die in dit art
    <td role="rowheader">Adobe Workfront-abonnement*</td> 
    <td> 
    <p>Voor het nieuwe plan en de nieuwe licentiestructuur:
-  <ul><li>Een ultiem plan </li></ul>
+  <ul><li>Een Ultimate-abonnement </li></ul>
    </p>
 <p>Voor het huidige plan en de licentiestructuur: 
 <ul><li> Een Pro of hoger </li>
@@ -101,7 +101,7 @@ Overweeg het volgende wanneer het herzien van de Lijst van het Doel:
 
 ### Manage the Goal List in the Production environment
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner, then click **Goals**.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **Goals**.
 
    (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -155,14 +155,14 @@ Overweeg het volgende wanneer het herzien van de Lijst van het Doel:
 
    An arrow displays to the right of the field by which the list is sorted.
 
-   ![](assets/goal-list-with-goal-expanded-+-result-+-activity-350x117.png)
+   ![Goal list with goal expanded](assets/goal-list-with-goal-expanded-+-result-+-activity-350x117.png)
 
 1. (Optional) Click the field in the column again to sort the same column in a descending order. 
 1. Click the right-pointing arrow to the left of the goal name to expand a goal
 
    Or
 
-   Click the right-pointing arrow ![](assets/right-pointing-arrow.png) in the header of the list to expand all the goals in the list and view additional information about each goal, including any of the following:
+   Click the right-pointing arrow ![Right-pointing arrow](assets/right-pointing-arrow.png) in the header of the list to expand all the goals in the list and view additional information about each goal, including any of the following:
 
    * Results names, owners, and progress
 
@@ -190,12 +190,12 @@ Overweeg het volgende wanneer het herzien van de Lijst van het Doel:
 
    For more information, see [Print the Goal List in Adobe Workfront Goals](../../workfront-goals/goal-management/print-the-goal-list.md). 
 
-1. Click the **Alignment icon** ![](assets/align-icon.png) next to an aligned to open the goal's card in the Goal Alignment section. For more information, see [Navigate the Goal Alignment section in Adobe Workfront Goals](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
+1. Click the **Alignment icon** ![Alignment icon](assets/align-icon.png) next to an aligned to open the goal's card in the Goal Alignment section. For more information, see [Navigate the Goal Alignment section in Adobe Workfront Goals](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
 -->
 
 Om doelstellingen in de Lijst van het Doel te beheren:
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **Doelen**.
+1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik** Doelen **.**
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -232,7 +232,7 @@ Om doelstellingen in de Lijst van het Doel te beheren:
 
      Voor informatie, zie [ doelvooruitgang in de Doelen van Adobe Workfront berekenen ](../goal-management/calculate-goal-progress.md).
 
-1. Klik op het filterpictogram ![](assets/filter-icon.png) in de rechterbovenhoek van de doellijst en pas filters toe om alleen doelen weer te geven die voor u van belang zijn.
+1. Klik het pictogram van de Filter van het filterpictogram ![ ](assets/filter-icon.png) in de hoger-juiste hoek van de doellijst en pas filters op vertoningsslechts doelstellingen toe die voor u belangrijk zijn.
 
    Voor informatie over het gebruiken van filters in de Doelen van Workfront, zie [ informatie van de Filter in de Doelen van Adobe Workfront ](../goal-management/filter-information-wf-goals.md).
 
@@ -242,10 +242,10 @@ Een pijl wordt rechts van het veld weergegeven waarmee de lijst wordt gesorteerd
 1. (Optioneel) Klik nogmaals op het veld in de kolom om dezelfde kolom in aflopende volgorde te sorteren.
 1. Klik op de naam van een doel om de doelpagina te openen.
 1. Selecteer een doel in de lijst en klik op een van de volgende opties boven aan de lijst:
-   * **geef** pictogram ![](assets/edit-icon.png) uit om informatie over het doel uit te geven. Voor informatie, zie [ doelstellingen in de Doelen van Adobe Workfront ](../goal-management/edit-goals.md) uitgeven.
-   * **Deel** pictogram ![](assets/share-icon.png) om het doel met andere mensen te delen. Voor informatie, zie [ een doel in de Doelen van Adobe Workfront delen ](../workfront-goals-settings/share-a-goal.md).
-   * **Open groepering** pictogram ![](assets/align-icon-unshimmed.png) om het gebied van de Groepering van het Doel te openen. Deze optie wordt alleen weergegeven wanneer het doel dat u selecteert, wordt uitgelijnd op een ander doel.
-   * **Schrapping** pictogram ![](assets/delete-icon.png) om het doel te schrappen, dan **Schrapping** te klikken om te bevestigen.  Voor informatie, zie [ Schrapping en deactiveer doelstellingen in de Doelen van Adobe Workfront ](../goal-management/delete-and-deactivate-goals.md).
+   * **geeft** pictogram ![ uit geeft pictogram ](assets/edit-icon.png) uit om informatie over het doel uit te geven. Voor informatie, zie [ doelstellingen in de Doelen van Adobe Workfront ](../goal-management/edit-goals.md) uitgeven.
+   * **pictogram van het Aandeel ![ ](assets/share-icon.png) het pictogram van het 1} Aandeel {om het doel met andere mensen te delen.** Voor informatie, zie [ een doel in de Doelen van Adobe Workfront delen ](../workfront-goals-settings/share-a-goal.md).
+   * **Open groepering** pictogram ![ Open groeperingspictogram ](assets/align-icon-unshimmed.png) om het gebied van de Groepering van het Doel te openen. Deze optie wordt alleen weergegeven wanneer het doel dat u selecteert, wordt uitgelijnd op een ander doel.
+   * **pictogram van de Schrapping ![ ](assets/delete-icon.png) om het doel te schrappen, dan** Schrapping **te klikken om te bevestigen.**  Voor informatie, zie [ Schrapping en deactiveer doelstellingen in de Doelen van Adobe Workfront ](../goal-management/delete-and-deactivate-goals.md).
 
 
 

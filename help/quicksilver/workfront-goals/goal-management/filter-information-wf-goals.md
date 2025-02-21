@@ -6,9 +6,9 @@ description: U kunt doelstellingen bekijken die u of iemand anders in de Doelen 
 author: Alina
 feature: Workfront Goals
 exl-id: ec9b6789-fffe-425c-8316-eefe670ad0d6
-source-git-commit: 78a54ec94dd5a5746144e99e14c622e8b3a7ea71
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '1366'
+source-wordcount: '1379'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ U moet de volgende toegang hebben om de handelingen uit te voeren die in dit art
    <td role="rowheader">Adobe Workfront-abonnement*</td> 
    <td> 
    <p>Voor het nieuwe plan en de nieuwe licentiestructuur:
-  <ul><li>Een ultiem plan </li> </ul>
+  <ul><li>Een Ultimate-abonnement </li> </ul>
 
 <p>Voor het huidige plan en de licentiestructuur: 
 <ul><li> Een Pro of hoger </li>
@@ -128,7 +128,7 @@ U kunt een geheel nieuw filter maken of een van de ingebouwde filters bewerken.
 
 1. Klik **Filter** in de hoger-juiste hoek van de lijst.
 
-   ![](assets/filter-icon-and-label.png)
+   ![ pictogram van de Filter ](assets/filter-icon-and-label.png)
 
    Door gebrek, past Workfront de **Al** filter toe dat alle doelstellingen in uw systeem toont.
 
@@ -172,7 +172,7 @@ U kunt een geheel nieuw filter maken of een van de ingebouwde filters bewerken.
       </tbody> 
      </table>
 
-   * Beweeg over de naam van een filter, dan klik **uitgeven** pictogram ![](assets/edit-icon.png) naast zijn naam om het aan te passen en specifieke namen van gebruikers, teams, groepen, of de naam van uw organisatie toe te voegen, dan het selecteren wanneer zij op de lijst verschijnen.
+   * Beweeg over de naam van een filter, dan klik **uitgeven** pictogram ![ pictogram ](assets/edit-icon.png) naast zijn naam geeft uit om het aan te passen en specifieke namen van gebruikers, teams, groepen, of de naam van uw organisatie toe te voegen, dan het selecteren wanneer zij op de lijst verschijnen.
 
    * Klik **Nieuwe Filter** om een nieuw filter tot stand te brengen, dan selecteer van de volgende opties om de nieuwe filter aan te passen:
 
@@ -249,11 +249,11 @@ U kunt een geheel nieuw filter maken of een van de ingebouwde filters bewerken.
 
 1. (Facultatief en voorwaardelijk) wanneer het bekijken van doelstellingen in de sectie van de Groepering van het Doel, klik **tonen hen** als u de gefiltreerde uit doelstellingen wilt bekijken.
 
-   ![](assets/show-them-link-on-filtered-items-goal-list-350x109.png)
+   ![ toon hen verbinding op gefilterde punten ](assets/show-them-link-on-filtered-items-goal-list-350x109.png)
 
    De filternaam wordt geel weergegeven om aan te geven dat deze wordt genegeerd.
 
-   ![](assets/filter-yellow-outline-next-to-reapply-filter-link-350x118.png)
+   ![ gele overzicht van de Filter ](assets/filter-yellow-outline-next-to-reapply-filter-link-350x118.png)
 
 
 1. (Facultatief en voorwaardelijk) klik **filter opnieuw toepassen** om de filter toe te passen en de punten weg te laten u in de vorige stap toonde.

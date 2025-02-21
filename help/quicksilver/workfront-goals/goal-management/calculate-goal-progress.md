@@ -6,9 +6,9 @@ description: De vooruitgang van het doel wordt gedreven door vooruitgangsindicat
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Nadat u een doel hebt geactiveerd, begint u met het berekenen van de voortgang e
 | Verwacht percentage voltooid | Hoeveel van het doel moet tot nu toe worden verwezenlijkt om het doel tijdig te kunnen voltooien. De Doelen van Workfront berekent deze waarde door de Duur van het doel en het huidige tijdstip te bekijken. Deze waarde moet op het huidige tijdstip worden weergegeven als het doel op tijd moet worden voltooid. |
 | Voortgang | Een label dat aangeeft of het doel op tijd moet worden voltooid of dat het risico loopt of niet kan worden voltooid. |
 
-![](assets/in-trouble-goal-progress-expanded.png)
+![ In probleem ](assets/in-trouble-goal-progress-expanded.png)
 
 <!--drafted for the redesign: replace the screen shot above with the redesigned one which is white, not black-->
 
@@ -108,7 +108,7 @@ Als het verwachte percentage voltooid bijvoorbeeld 53% is op het huidige moment 
 
 In het volgende diagram ziet u de relatie tussen de voorwaardelabels en het voortgangspercentage:
 
-![](assets/progress-status-labels-charted-after-match-with-project-condition-350x147.png)
+![ in kaart gebrachte de statusetiketten van de Voortgang ](assets/progress-status-labels-charted-after-match-with-project-condition-350x147.png)
 
 In de onderstaande tabel staan de labels voor de doelvoorwaarde en de percentages voor de voortgang van het doel die aan elk label zijn gekoppeld.
 

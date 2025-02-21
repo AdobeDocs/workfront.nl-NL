@@ -7,9 +7,9 @@ description: Uw Adobe Workfront-beheerder moet ervoor zorgen dat aan bepaalde vo
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '727'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Uw Adobe Workfront-beheerder moet ervoor zorgen dat aan alle volgende voorwaarde
 
 Afhankelijk van welk Workfront-plan uw bedrijf momenteel is ingeschakeld, bestaan de volgende scenario&#39;s:
 
-* Als uw bedrijf een nieuw Workfront-plan heeft, hebt u een Ultimate Workfront-plan nodig. De Doelen van Workfront zijn inbegrepen slechts in dit plan.
+* Als uw bedrijf een nieuw Workfront-plan heeft, moet u een Ultimate Workfront-plan hebben. De Doelen van Workfront zijn inbegrepen slechts in dit plan.
 
 * Als uw bedrijf het huidige Workfront-plan heeft, moet uw organisatie een extra licentie aanschaffen, naast de Workfront-licentie, zodat uw gebruikers toegang hebben tot Workfront Goals.
 
@@ -85,7 +85,7 @@ Als Workfront-beheerder kunt u het aantal licenties voor Workfront Goals in uw s
 
 Uw Workfront- of groepsbeheerder moet u een lay-outsjabloon toewijzen die het gebied Doelen in het hoofdmenu bevat, zodat u toegang kunt krijgen tot de doelen van Workfront.
 
-![](assets/layout-template-align-highlighted-350x220.png)
+![ malplaatje van de Lay-out ](assets/layout-template-align-highlighted-350x220.png)
 
 Uw Workfront-beheerder of groepsbeheerder kan ook het volgende toevoegen aan uw lay-outsjabloon, zodat u eenvoudig toegang hebt tot Workfront Goals:
 

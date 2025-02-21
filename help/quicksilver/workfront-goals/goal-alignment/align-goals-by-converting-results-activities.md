@@ -6,9 +6,9 @@ description: U kunt twee doelstellingen manueel richten of u kunt de resultaten 
 author: Alina
 feature: Workfront Goals
 exl-id: 48371389-952c-4732-b519-9774cd4d1b93
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
@@ -109,9 +109,9 @@ Overweeg het volgende wanneer het omzetten van resultaten en activiteiten in doe
 1. Click the name of the goal to open the **Goal Details** panel.
 1. Expand the **Results** or **Activities** right-pointing arrows to see a list of results or activities for the goal. 
 
-1. Click the **gear icon** ![](assets/settings-gear-icon.png) to the right of the result or activity name that you want to convert, then click **Convert into a Goal**.
+1. Click the **gear icon** ![Gear icon](assets/settings-gear-icon.png) to the right of the result or activity name that you want to convert, then click **Convert into a Goal**.
 
-   ![](assets/convert-to-goal-link-highlighted-350x191.png)
+   ![Convert to goal](assets/convert-to-goal-link-highlighted-350x191.png)
 
 1. (Optional) Remove the name of the original activity or result owner from the **Goal Owner** field and replace it with another user, team, group, or your organization's name. By default, Workfront selects the owner of the result or the activity as the goal owner. 
 1. Click **Convert**. The activity or result displays as an aligned goal in the Goal Details panel of the original goal and the original activity or result is removed from the original goal and transferred to the second goal. By default, the new goal has the same name as the original converted result or activity. 
@@ -120,9 +120,9 @@ Overweeg het volgende wanneer het omzetten van resultaten en activiteiten in doe
 
 1. Ga naar een doel dat een resultaat of een activiteit heeft die u in een doel wilt omzetten.
 1. Van de pagina van het doel, klik **indicatoren van de Voortgang** in het linkerpaneel.
-1. Selecteer een resultaat of een activiteit in de lijst van vooruitgangsindicatoren, dan klik de **Bekeerling in doel** pictogram ![](assets/convert-to-goal-icon-unshimmed.png) bij de bovenkant van de lijst van de vooruitgangsindicator. Het vak Omzetten in doel wordt geopend.
+1. Selecteer een resultaat of een activiteit in de lijst van vooruitgangsindicatoren, dan klik de **Bekeerling in doel** pictogram ![ Bekeerling aan doel ](assets/convert-to-goal-icon-unshimmed.png) bij de bovenkant van de lijst van de vooruitgangsindicator. Het vak Omzetten in doel wordt geopend.
 
-   ![](assets/convert-to-goal-box-unshimmed.png)
+   ![ Bekeerling aan doeldoos ](assets/convert-to-goal-box-unshimmed.png)
 1. Werk de volgende gegevens bij:
    * **Goal naam**: Door gebrek, heeft het nieuwe doel de zelfde naam zoals het originele resultaat of de activiteit.
    * **Periode**: Door gebrek, is de periode van het nieuwe doel het huidige kwart. U kunt **selecteren laat douanedata** plaatsen toe om een periode van de douanetijd voor het nieuwe doel te bepalen.

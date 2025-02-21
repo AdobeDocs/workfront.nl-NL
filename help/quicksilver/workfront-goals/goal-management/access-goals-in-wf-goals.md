@@ -6,9 +6,9 @@ description: In dit artikel wordt beschreven hoe u doelen kunt vinden en beheren
 author: Alina
 feature: Workfront Goals
 exl-id: a729f334-6ca4-4cf5-a3ef-01a7effb7153
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ U moet het volgende hebben om de activiteiten uit te voeren die in dit artikel w
    <td role="rowheader">Adobe Workfront-abonnement*</td> 
    <td> 
    <p>Voor het nieuwe plan en de nieuwe licentiestructuur:
-  <ul><li>Een ultiem plan </li></ul>
+  <ul><li>Een Ultimate-abonnement </li></ul>
    </p>
 <p>Voor het huidige plan en de licentiestructuur: 
 <ul><li> Een Pro of hoger </li>
@@ -85,7 +85,7 @@ U moet het volgende hebben om de activiteiten uit te voeren die in dit artikel w
 
 ## Toegang tot Workfront-doelen
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **Doelen**.
+1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik** Doelen **.**
 
    <!-- drafted for Shell release: Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -127,7 +127,7 @@ Accessing goals differs depending on what environment you use.
 
 To access an individual goal in the Production environment:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Goals** .
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Goals** .
 
      (!--drafted for Shell release: Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -155,11 +155,11 @@ Om tot een individueel doel toegang te hebben:
 
 1. Klik het **Belangrijkste pictogram van het Menu** in de hoger-juiste hoek van Workfront, dan klik **Doelen**.
 De vertoningen van de Lijst van het Goal door gebrek.
-   ![](assets/goal-list-unshimmed.png)
+   ![ Lijst van het Doel ](assets/goal-list-unshimmed.png)
 1. Klik op de naam van een doel in de lijst.
 De doelpagina wordt weergegeven.
-   ![](assets/goal-page-unshimmed.png)
-1. Klik **Meer** menu ![](assets/more-icon.png) rechts van de doelnaam om het doel verder uit te geven of te delen.
+   ![ Goal pagina ](assets/goal-page-unshimmed.png)
+1. Klik het **Meer** menu ![ Meer pictogram ](assets/more-icon.png) aan het recht van de doelnaam om het doel uit te geven of te delen.
 1. Klik **de details van het Doel** in het linkerpaneel om informatie over het doel uit te geven. Voor meer informatie, zie [ doelstellingen van de Update in de sectie van de Details van het Doel in de Doelen van Adobe Workfront ](../goal-management/update-goals-in-goal-details-panel.md).
 
 

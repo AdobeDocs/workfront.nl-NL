@@ -6,9 +6,9 @@ description: Prioriteit geven aan initiatieven is belangrijk omdat initiatieven 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 45f019de-b29c-477b-8bd1-f32ef21c1015
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Voor informatie over het creëren van initiatieven, zie [ initiatieven in  [!DNL
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
    <td> <ul></li>
    <li><p>Nieuw: Ultimate </p></li>
-   <p>De Scenario Planner is niet beschikbaar voor de nieuwe Workfront Select- of Workfront-plannen. </p>
+   <p>De Scenario Planner is niet beschikbaar voor de nieuwe Workfront Select- of Workfront Prime-plannen. </p>
    <li><p>Huidig: [!UICONTROL Business] of hoger</p></ul>
    </td> 
   </tr> 
@@ -92,7 +92,7 @@ Een lijst met plannen wordt weergegeven.
 
      Workfront geeft het aantal geselecteerde initiatieven weer.
 
-     ![](assets/multi-select-initiative-number.png)
+     ![ Multi select initiatiefaantal ](assets/multi-select-initiative-number.png)
 
    * Klik op het vak **[!UICONTROL Prioritize]** onder aan het abonnement en kies een van de volgende opties:
 
@@ -100,7 +100,7 @@ Een lijst met plannen wordt weergegeven.
       * **[!UICONTROL Bottom]**: hiermee plaatst u de geselecteerde initiatieven onder aan de lijst met initiatieven. De geselecteerde initiatieven staan als laatste vermeld in het plan.
       * **[!UICONTROL Select a number]**: verplaatst de geselecteerde initiatieven na het initiatief dat u hier aangeeft.
 
-        ![](assets/prioritize-initiatives-expanded-highlighted-350x171.png)
+        ![ Prioritize initiatieven ](assets/prioritize-initiatives-expanded-highlighted-350x171.png)
 
      [!DNL Workfront] plaatst de geselecteerde initiatieven onmiddellijk op de aangegeven locatie en het aantal van alle initiatieven wordt dienovereenkomstig bijgewerkt.
 

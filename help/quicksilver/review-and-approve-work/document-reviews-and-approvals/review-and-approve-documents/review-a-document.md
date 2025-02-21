@@ -6,9 +6,9 @@ description: Als controleur kunt u een voorvertoning weergeven van een document 
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
-source-git-commit: 3755eb0d384e7274b88fbeafc2affa85f735efbc
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '527'
 ht-degree: 0%
 
 ---
@@ -94,5 +94,5 @@ Add once functionality is added
 
 1. (Facultatief) Zodra u het document hebt herzien, kunt u een commentaar voor de aanvrager in de 1} sectie van de Updates van het document **{verlaten.** Voor meer informatie bij het becommentariëren, zie [ het werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Facultatief) u kunt een specifieke versie van het document ook voorproef of downloaden door neer aan de **sectie van Versies** van de ruit van de Samenvatting van het Document te scrollen, dan klikkend op het Meer pictogram ![](../assets/more-icon.png) naast de versie u **Download** of **Voorproef** zou willen herzien en selecteren.
+1. (Facultatief) u kunt een specifieke versie van het document ook voorproef of downloaden door neer aan de **sectie van Versies** van de Samenvattingsruit van het Document te scrollen, dan klikkend op het Meer pictogram ![ Meer pictogram ](../assets/more-icon.png) naast de versie u **Download** of **Voorproef** zou willen herzien en selecteren.
 1. Om te registreren dat u uw overzicht hebt voltooid, klik **Volledige overzicht**.

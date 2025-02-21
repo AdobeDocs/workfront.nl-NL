@@ -7,9 +7,9 @@ description: Leer hoe u het profiel voor proefdrukmachtigingen bulksgewijs kunt 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a804a007-7c9f-471e-ad07-8adca6672575
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '259'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >
    >Afhankelijk van uw plan van Workfront, kunt u de **Gebruiker moeten toelaten om proef** checkbox te produceren opdat het **menu van het Profiel van de Toestemming van de Bewijs** verschijnt.
 
-   ![](assets/proof-permission-profile-350x203.png)
+   ![ profiel van de toestemmingen van het Bewijs ](assets/proof-permission-profile-350x203.png)
 
 1. Klik **sparen Veranderingen**.

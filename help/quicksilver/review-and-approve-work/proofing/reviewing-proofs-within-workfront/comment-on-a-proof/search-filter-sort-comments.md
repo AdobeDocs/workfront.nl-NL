@@ -6,9 +6,9 @@ description: U kunt opmerkingen met een proefdruk zoeken, filteren en sorteren, 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 03edaa7e-08c3-4ab1-83ab-747694cf1c17
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '864'
 ht-degree: 0%
 
 ---
@@ -120,7 +120,7 @@ Wanneer u de lijst met opmerkingen sorteert, wordt de gekozen sorteeroptie ontho
 1. Als het commentaargebied niet open is, klik **commentaren van de Mening** in de hoger-juiste hoek.
 
 1. Klik op het sorteermenu om het te openen.
-1. ![](assets/mceclip3.png)
+1. ![ Sorterend menu ](assets/mceclip3.png)
 
 1. Selecteer een van de volgende sorteeropties:
 

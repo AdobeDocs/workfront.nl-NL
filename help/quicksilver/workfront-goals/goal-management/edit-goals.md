@@ -6,9 +6,9 @@ description: U kunt bestaande doelen op elk gewenst moment en in elke gewenste s
 author: Alina
 feature: Workfront Goals
 exl-id: 74db534c-6897-40c2-bea9-a9d30a40f61c
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '640'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ U moet het volgende hebben:
    <td role="rowheader">Adobe Workfront-abonnement*</td> 
    <td> 
    <p>Voor het nieuwe plan en de nieuwe licentiestructuur:
-  <ul><li>Een ultiem plan </li></ul>
+  <ul><li>Een Ultimate-abonnement </li></ul>
    </p>
 <p>Voor het huidige plan en de licentiestructuur: 
 <ul><li> Een Pro of hoger </li>
@@ -104,9 +104,9 @@ Editing goals differs depending on what environment you use.
 ### Edit goals in the Production environment
 
 1. Go to a goal that you want to edit and click the goal name to open the **Goal Details** panel. 
-1. Click the **More icon** ![](assets/more-icon.png), then click **Edit**.
+1. Click the **More icon** ![More icon](assets/more-icon.png), then click **Edit**.
 
-   ![](assets/edit-goal-highlighted.png)
+   ![Edit goal](assets/edit-goal-highlighted.png)
 
 1. Update the name of the goal in the **Goal** field. 
 1. Select a time period when the goal should be completed.
@@ -144,17 +144,17 @@ Editing goals differs depending on what environment you use.
 
 -->
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png), dan klik **Doelen**.\
+1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png), dan klik** Doelen **.**\
    Er wordt een lijst met doelen weergegeven.
 1. Klik op een doel.\
    De doelpagina wordt weergegeven.
 
-   ![](assets/goal-page-unshimmed.png)
+   ![ Goal pagina ](assets/goal-page-unshimmed.png)
 
 1. Voer een van de volgende handelingen uit om informatie voor het doel te bewerken:
    * Klik op velden die in de doelkoptekst worden weergegeven om deze bij te werken. Niet alle velden in de koptekst kunnen worden bewerkt.
-   * Klik het **Meer pictogram** ![](assets/more-icon.png) aan het recht van de doelnaam, dan klik **uitgeven**.
-   * Klik **Goal details** in het linkerpaneel en klik **uitgeven pictogram** ![](assets/edit-icon.png) in de hoger-juiste hoek, dan klik **geeft allen** uit. Start met het bijwerken van velden in de sectie Goal details.
+   * Klik het **Meer pictogram** ![ Meer pictogram ](assets/more-icon.png) aan het recht van de doelnaam, dan klik **uitgeven**.
+   * Klik **Goele details** in het linkerpaneel en klik **uitgeven pictogram** ![ uitgeven pictogram ](assets/edit-icon.png) in de hoger-juiste hoek, dan klik **allen** uitgeven. Start met het bijwerken van velden in de sectie Goal details.
 
      >[!IMPORTANT]
      >

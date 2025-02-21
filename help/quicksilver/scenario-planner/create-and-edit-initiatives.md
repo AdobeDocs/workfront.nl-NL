@@ -6,9 +6,9 @@ description: Wanneer u de Adobe Workfront Scenario Planner gebruikt, kunt u init
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: a811bad0-d3c0-4cba-8b78-d9a14ffc8482
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '1569'
+source-wordcount: '1580'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Wanneer u de [!UICONTROL Adobe Workfront Scenario Planner] gebruikt, kunt u init
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
    <td> <ul></li>
    <li><p>Nieuw: Ultimate </p></li>
-   <p>De Scenario Planner is niet beschikbaar voor de nieuwe Workfront Select- of Workfront-plannen. </p>
+   <p>De Scenario Planner is niet beschikbaar voor de nieuwe Workfront Select- of Workfront Prime-plannen. </p>
    <li><p>Huidig: [!UICONTROL Business] of hoger</p></ul>
    </td> 
   </tr> 
@@ -102,7 +102,7 @@ geheel nieuwe initiatieven maken:
 1. (Optioneel) Sleep het einde van de initiatiefbalk om de duur van de balk tot meer dan een maand te verlengen en laat deze los op de plaats waar de eindmaand van het initiatief moet komen.
 1. (Optioneel en voorwaardelijk) Als de duur van het initiatief korter is dan die van het plan, sleept u de initiatiefbalk naar een andere positie op de tijdlijn van het plan en zet u deze neer om de balk naar een ander tijdpad te verplaatsen.
 
-   ![](assets/move-initiative-back-and-forth-on-the-timeline-350x71.png)
+   ![ initiatief van de beweging op chronologie ](assets/move-initiative-back-and-forth-on-the-timeline-350x71.png)
 
    >[!IMPORTANT]
    >
@@ -120,7 +120,7 @@ geheel nieuwe initiatieven maken:
 1. (Optioneel) Schuif van links naar rechts om de volledige duur van het initiatief weer te geven.
 1. (Optioneel) Klik op de indicatorregel **[!UICONTROL Today]** om terug te keren naar de huidige datum.
 
-   ![](assets/today-indicator-350x160.png)
+   ![ vandaag indicator ](assets/today-indicator-350x160.png)
 
    >[!TIP]
    >
@@ -128,7 +128,7 @@ geheel nieuwe initiatieven maken:
 
 1. Klik op de balk van een initiatief. Rechts wordt het paneel met initiatiefdetails geopend.
 
-   ![](assets/initiative-details-panel-multiple-months-350x626.png)
+   ![ paneel van de Details van het Initiatief ](assets/initiative-details-panel-multiple-months-350x626.png)
 
    Geef de volgende informatie op of bekijk deze:
 
@@ -196,7 +196,7 @@ geheel nieuwe initiatieven maken:
    >
    >Als u al het aantal functies en het budget voor uw abonnement hebt gedefinieerd, evenals het aantal functies en de kosten van het initiatief dat u bewerkt en van alle initiatieven daarboven, en als ze alle bedragen overschrijden die u voor het plan hebt opgegeven, zal [!DNL Workfront] wellicht zien dat u niet over voldoende middelen beschikt om het initiatief te voltooien. [!DNL Workfront] markeert dit als een conflict wanneer u dit initiatief probeert te bereiken en geeft het weer als een rode balk. Alle initiatieven die op het conflicterende initiatief volgen, worden op een rode achtergrond weergegeven. Mogelijk moet u een aantal van de behoeften van uw initiatieven aanpassen, te beginnen met de eerste die over onvoldoende middelen beschikt. Voor informatie over het aanpassen van conflicterende initiatieven, zie [ initiatiefconflicten in  [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md) oplossen.
 
-1. (Optioneel) Houd de aanwijzer boven de naam van een taakrol en klik op **[!UICONTROL trash can icon]** ![](assets/delete.png) om deze uit het initiatief te verwijderen.
+1. (Facultatief) Beweeg over de naam van een baanrol, dan klik het **[!UICONTROL trash can icon]** ![ pictogram van de Schrapping ](assets/delete.png) om het uit het initiatief te verwijderen.
 
 1. (Voorwaardelijk) Als u wijzigingen in het initiatief hebt aangebracht, klikt u op **[!UICONTROL Apply]** .
 

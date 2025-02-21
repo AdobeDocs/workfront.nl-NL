@@ -6,9 +6,9 @@ description: U kunt doelstellingen in de Doelen van Adobe Workfront kopiëren om
 author: Alina
 feature: Workfront Goals
 exl-id: 690a6030-ee29-4e50-869f-cd014050b364
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ U moet het volgende hebben:
    <td role="rowheader">Adobe Workfront-abonnement*</td> 
    <td> 
    <p>Voor het nieuwe plan en de nieuwe licentiestructuur:
-  <ul><li>Een ultiem plan </li></ul>
+  <ul><li>Een Ultimate-abonnement </li></ul>
    </p>
 <p>Voor het huidige plan en de licentiestructuur: 
 <ul><li> Een Pro of hoger </li>
@@ -117,7 +117,7 @@ To copy goals in the Production environment:
 
    This opens the Goal Details panel.
 
-1. Click the **More icon** ![](assets/more-icon.png), then click **Copy**. 
+1. Click the **More icon** ![More icon](assets/more-icon.png), then click **Copy**. 
 
 1. Update any of the following information for the copied goal:
 
@@ -177,9 +177,9 @@ To copy goals in the Production environment:
 -->
 
 
-1. Ga naar een doel en klik **Meer** menu ![](assets/more-icon.png), dan klik **Goal van het Exemplaar**.
+1. Ga naar een doel en klik **Meer** menu ![ Meer pictogram ](assets/more-icon.png), dan klik **Goal van het Exemplaar**.
 
-   ![](assets/copy-goal-box-unshimmed.png)
+   ![ het doelvakje van het Exemplaar ](assets/copy-goal-box-unshimmed.png)
 
 1. Werk de volgende informatie voor het gekopieerde doel bij:
    * **naam van het Doel**: De naam van het nieuwe doel. De standaardnaam voor het gekopieerde doel is &quot;Kopie van &lt;origineel doel>&quot;.

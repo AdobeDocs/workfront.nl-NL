@@ -6,9 +6,9 @@ description: U kunt initiatieven creëren door bestaande te kopiëren. U kunt in
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 0aadb074-69c3-4229-a01a-7cabdb87e7cb
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ U kunt initiatieven creëren door bestaande te kopiëren. U kunt initiatieven ko
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
    <td> <ul></li>
    <li><p>Nieuw: Ultimate </p></li>
-   <p>De Scenario Planner is niet beschikbaar voor de nieuwe Workfront Select- of Workfront-plannen. </p>
+   <p>De Scenario Planner is niet beschikbaar voor de nieuwe Workfront Select- of Workfront Prime-plannen. </p>
    <li><p>Huidig: [!UICONTROL Business] of hoger</p></ul>
    </td> 
   </tr> 
@@ -102,7 +102,7 @@ Een lijst met plannen wordt weergegeven.
 1. Klik op de naam van een abonnement om het te openen en zoek de initiatieven die u wilt kopiëren.
 1. Selecteer het vakje links van het initiatief of de initiatieven die u wilt kopiëren, en klik dan **[!UICONTROL Copy]** van het menu dat bij de bodem van het plan verschijnt.
 
-   ![](assets/bottom-manage-initiative-menu-350x45.png)
+   ![ initiatief van het Exemplaar ](assets/bottom-manage-initiative-menu-350x45.png)
 
    [!DNL Workfront] kopieert de initiatieven onmiddellijk en plaatst ze onder het laatst geselecteerde initiatief.
 

@@ -7,9 +7,9 @@ description: Nee. De Desktop Proofing Viewer is speciaal ontworpen voor realtime
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e5c9f039-2a6e-47be-a125-f0ce23cfaeaa
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Zie voor meer informatie
 
 Open een interactieve proefdruk en download de app rechtstreeks van het scherm van de Lancering.
 
-![](assets/mceclip0-350x114.png) 
+![ het scherm van de Lancering ](assets/mceclip0-350x114.png) 
 
 ## Moet ik voor nieuwe versies van de Desktop Viewer opnieuw installeren?
 
@@ -50,7 +50,7 @@ Alleen als u een interactieve proefdruk- of real-time website naar de externe be
 
 ## Wat is de status van de verouderde proefdrukviewer, die mijn organisatie heeft gebruikt voor interactieve proefdrukken?
 
-Voorafgaand aan de release 2018.3 werd de verouderde proefdrukviewer ondersteund. Met de release van 2018.3 (in november 2018) zijn de verouderde proofingviewer en alle andere toepassingen die afhankelijk zijn van Flash verwijderd en niet meer beschikbaar. 
+Voorafgaand aan de release 2018.3 werd de verouderde proefdrukviewer ondersteund. Met de release 2018.3 (in november 2018) zijn de verouderde proofingviewer en alle andere toepassingen die afhankelijk zijn van Flash verwijderd en niet meer beschikbaar. 
 
 Voor statische proeven en videoproeven, is de nieuwe Kijker van het Bewijs van het Web de standaardkijker. Voor interactieve proefdrukken is de Desktop Proofing Viewer de standaardviewer.
 

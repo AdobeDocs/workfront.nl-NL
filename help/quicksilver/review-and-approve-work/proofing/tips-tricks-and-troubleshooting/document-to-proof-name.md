@@ -6,9 +6,9 @@ title: Documentnaam gewijzigd na uploaden en bevat een ongeldig teken
 description: Bepaalde documenten kunnen niet worden geconverteerd naar proefdrukken.
 author: Courtney
 exl-id: 7771deb5-cf9f-4a32-a444-b701bec1619e
-source-git-commit: 3e16f69f5b3c2b37093b00841945e6529394fa94
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,6 @@ Verwijder het ongeldige teken uit de documentnaam:
 
    Ongeldige tekens: `! # % * \ | ' " / ? < > { } [ ]`
 
-   ![](assets/doc-name.png)
+   ![ de naam van het Document ](assets/doc-name.png)
 
 1. Vernieuw de pagina en genereer de proefdruk.

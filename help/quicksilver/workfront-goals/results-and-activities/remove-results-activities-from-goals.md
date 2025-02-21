@@ -7,9 +7,9 @@ description: U kunt resultaten, activiteiten, en projecten van doelstellingen in
 author: Alina
 feature: Workfront Goals
 exl-id: 0e064dbd-6168-47b4-98ab-b5c0481e839e
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '739'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ U moet het volgende hebben:
    <td role="rowheader">Adobe Workfront-abonnement*</td> 
    <td> 
    <p>Voor het nieuwe plan en de nieuwe licentiestructuur:
-  <ul><li>Een ultiem plan </li></ul>
+  <ul><li>Een Ultimate-abonnement </li></ul>
    </p>
 <p>Voor het huidige plan en de licentiestructuur: 
 <ul><li> Een Pro of hoger </li>
@@ -119,7 +119,7 @@ How you delete results and activities differs depending on the environment you u
 ### Delete results and activities in the Production environment
 
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
    (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -132,15 +132,15 @@ How you delete results and activities differs depending on the environment you u
 
 1. Click **Results** to remove results or **Activities** to remove activities. 
 
-1. Click the **gear icon** ![](assets/settings-gear-icon.png) to the right of the result or activity name, then click **Delete** > **Yes, delete**.
+1. Click the **gear icon** ![Gear icon](assets/settings-gear-icon.png) to the right of the result or activity name, then click **Delete** > **Yes, delete**.
 
-   ![](assets/delete-result-goal-details-350x108.png)
+   ![Delete result](assets/delete-result-goal-details-350x108.png)
 
    The result or activity is deleted and cannot be recovered. The percent complete of the goal updates to exclude the deleted activity or result.
 
 -->
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **Doelen**.
+1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik** Doelen **.**
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -152,7 +152,7 @@ How you delete results and activities differs depending on the environment you u
 
 1. Klik **indicatoren van de Voortgang** in het linkerpaneel.
 
-1. Selecteer een resultaat of een activiteit, dan klik **Schrapping** pictogram ![](assets/delete-icon.png) bij de bovenkant van de lijst.
+1. Selecteer een resultaat of een activiteit, dan klik het **pictogram van de Schrapping ![ pictogram van de Schrapping ](assets/delete-icon.png) bij de bovenkant van de lijst.**
 
 1. Klik **Schrapping** om de schrapping te bevestigen. Het resultaat of de activiteit wordt verwijderd en kan niet worden hersteld. Het percentage voltooide van het doel werkt bij om de verwijderde activiteit of het resultaat uit te sluiten.
 
@@ -165,7 +165,7 @@ Dsconnecting projects from goals differs depending on the environment you use.
 ### Disconnect projects from goals in the Production environment
 
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
    (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -177,9 +177,9 @@ Dsconnecting projects from goals differs depending on the environment you use.
    This opens the Goal Details panel on the right.
 
 1. Click the **right-pointing arrow** to the left of the Activities sections to expand it. 
-1. Click the **gear icon** ![](assets/settings-gear-icon.png) to the right of the project name, then click **Disconnect**.
+1. Click the **gear icon** ![Gear icon](assets/settings-gear-icon.png) to the right of the project name, then click **Disconnect**.
 
-   ![](assets/disconnect-project-goal-details-350x94.png)
+   ![Disconnect](assets/disconnect-project-goal-details-350x94.png)
 
    The project is disconnected from the goal. The percent complete of the goal updates to exclude the percent complete of the disconnected project.
 -->
@@ -196,7 +196,7 @@ Dsconnecting projects from goals differs depending on the environment you use.
 
    Hierdoor wordt de doelpagina geopend.
 1. Klik **indicatoren van de Voortgang** in het linkerpaneel.
-1. Selecteer een project, dan klik **losmaken** pictogram ![](assets/disconnect-icon.png) bij de bovenkant van de lijst.
+1. Selecteer een project, dan klik **losmaken** pictogram ![ losmaakt pictogram ](assets/disconnect-icon.png) bij de bovenkant van de lijst.
 1. Klik **losmaken** om te bevestigen.
 
    Het project is niet meer verbonden met het doel. Het percentage voltooide van het doel werkt bij om het losgemaakte project uit te sluiten.

@@ -7,9 +7,9 @@ author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 sexl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
 exl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1880'
+source-wordcount: '1914'
 ht-degree: 0%
 
 ---
@@ -123,19 +123,19 @@ Om een bestaand globaal goedkeuringsproces met een project, een taak, een kwesti
 
    U zou kunnen moeten klikken **tonen Meer**, dan klik **goedkeurt**.
 
-   ![](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
+   ![ goedkeurt sectie op taak ](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
-1. ![](assets/use-existing-or-create-single-use-approvals-menus-on-pti-classic-350x50.png)
+1. ![ Gebruik bestaand of creeer enige gebruiksgoedkeuringen ](assets/use-existing-or-create-single-use-approvals-menus-on-pti-classic-350x50.png)
 
    Het geselecteerde goedkeuringsproces wordt weergegeven.
 
 1. Breid het **Gebruik bestaande** drop-down menu uit en selecteer een bestaand goedkeuringsproces.
 
-   ![](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
+   ![ goedkeurt menu ](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
 
    Het geselecteerde goedkeuringsproces wordt weergegeven.
 
-   ![](assets/existing-approval-attached-to-task-redesigned-nwe-350x355.png)
+   ![ Bestaande goedkeuring in bijlage aan taak ](assets/existing-approval-attached-to-task-redesigned-nwe-350x355.png)
 
 1. Klik **sparen**.
 1. (Optioneel) Klik op Goedkeuringsprocedure bewerken als u de bestaande goedkeuring die u aan het onderdeel hebt gekoppeld, wilt wijzigen. Hierdoor verandert het wereldwijde goedkeuringsproces in een goedkeuringsproces voor eenmalig gebruik. Voor meer informatie, zie de sectie [ een globaal goedkeuringsproces voor gebruik op een specifiek voorwerp ](#modify-a-global-approval-process-for-use-on-a-specific-object) in dit artikel wijzigen.
@@ -168,7 +168,7 @@ Als u een goedkeuringsproces wilt wijzigen dat al aan een onderdeel is gekoppeld
    >
    >Zorg ervoor dat u **sparen** wanneer het toevoegen van de goedkeuring klikt.
 
-1. Nadat het globale goedkeuringsproces wordt toegevoegd, klik **uitgeven** pictogram ![](assets/edit-icon.png) in de hoger-juiste hoek van de goedkeuringspagina. Met deze actie verandert u het goedkeuringsproces op mondiaal of groepsniveau in een goedkeuringsproces voor eenmalig gebruik.
+1. Nadat het globale goedkeuringsproces wordt toegevoegd, klik **uitgeven** pictogram ![ pictogram ](assets/edit-icon.png) in de hoger-juiste hoek van de goedkeuringspagina. Met deze actie verandert u het goedkeuringsproces op mondiaal of groepsniveau in een goedkeuringsproces voor eenmalig gebruik.
 1. Breng eventuele wijzigingen aan in het bestaande goedkeuringsproces. Voor meer informatie, zie de sectie [ een enig-gebruiks goedkeuringsproces met een project, een taak, een kwestie, een malplaatje, of malplaatjetaak ](#associate-a-single-use-approval-process-with-a-project-task-issue-template-or-template-task) in dit artikel associëren.
 1. Klik **sparen**, dan klik **sparen** opnieuw om te bevestigen dat u het globale goedkeuringsproces in een enig-gebruiks goedkeuringsproces wilt omzetten dat slechts op dit voorwerp beschikbaar is.
 
@@ -193,11 +193,11 @@ Een goedkeuringsproces voor eenmalig gebruik maken:
 
    U zou kunnen moeten klikken **tonen Meer** > **goedkeurt**.
 
-   ![](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
+   ![ goedkeurt sectie op taak ](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
 1. Klik **creëren enig-gebruik**.
 
-   ![](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
+   ![ goedkeurt menu ](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
 
 1. Voltooi de stappen die met stap 6 in de sectie &quot;beginnen een systeem-niveau of groep-vlakke globaal goedkeuringsproces voor het werkpunten&quot;in het artikel [ creëren een goedkeuringsproces voor het werkpunten ](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
@@ -232,12 +232,12 @@ Om een goedkeuringsproces uit een het werkpunt te verwijderen of te schrappen:
 
    U zou kunnen moeten klikken **tonen Meer** > **goedkeurt**.
 
-   ![](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
+   ![ goedkeurt sectie op taak ](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
 1. Klik op een van de volgende pictogrammen in de rechterbovenhoek van de sectie Goedkeuringen, afhankelijk van het type goedkeuring dat aan het item is gekoppeld:
 
-   * **verwijdert** pictogram ![](assets/remove-icon---x-in-circle.png) voor globale of groep-vlakke goedkeuringen.
-   * **het 1} pictogram van de Schrapping ![](assets/delete.png) voor enig-gebruiksgoedkeuringen.**
+   * **verwijderen** pictogram ![ verwijdert pictogram ](assets/remove-icon---x-in-circle.png) voor globale of groep-vlakke goedkeuringen.
+   * **het pictogram van de Schrapping** pictogram ![ schrap pictogram ](assets/delete.png) voor enig-gebruiksgoedkeuringen.
 
 1. Klik **verwijderen** of **Schrapping** om te bevestigen.
 

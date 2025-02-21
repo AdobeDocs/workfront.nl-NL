@@ -6,9 +6,9 @@ description: U kunt elk van de volgende objecten terugroepen die ter goedkeuring
 author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 exl-id: 33df75f0-47d0-4848-8d9a-203f40d8831c
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1251'
 ht-degree: 0%
 
 ---
@@ -69,14 +69,14 @@ Als u een goedkeuring herinnert die met de beginstatus van het project wordt gea
 
 U hebt een projectgoedkeuring verzonden door:
 
-1. Klik het **pictogram van het Huis** ![](assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.
+1. Klik het **pictogram van het Huis ![ pictogram van het Begin ](assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.**
 
    >[!NOTE]
    >
    >Uw Workfront-beheerder kan de volgende wijzigingen aanbrengen in het pictogram Home in uw omgeving:
    >
    >* Vervang deze door een afbeelding die is aangepast om uw organisatie te illustreren. In dit geval ziet het pictogram er anders uit dan in dit artikel.
-   >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **Belangrijkste Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik **Huis**.
+   >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **Belangrijkste pictogram van het Menu** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik **Huis**.
 
 1. In het **gebied van de Lijst van het Werk**, navigeer aan **goedkeurt ik** groepering heb voorgelegd.
 
@@ -84,7 +84,7 @@ U hebt een projectgoedkeuring verzonden door:
 
    Dit opent het project op het recht van de Lijst van het Werk.
 
-   ![](assets/project-pending-approval-phome-nwe-350x106.png)
+   ![ Project in afwachting van goedkeuring ](assets/project-pending-approval-phome-nwe-350x106.png)
 
 1. Klik **Herinneren** in de hoger-juiste hoek van het juiste paneel.
 
@@ -100,14 +100,14 @@ Als u een goedkeuring herinnert die met de beginstatus van de taak wordt geassoc
 
 Om een taakgoedkeuring terug te roepen hebt u voorgelegd:
 
-1. Klik het **pictogram van het Huis** ![](assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.
+1. Klik het **pictogram van het Huis ![ pictogram van het Begin ](assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.**
 
    >[!NOTE]
    >
    >Uw Workfront-beheerder kan de volgende wijzigingen aanbrengen in het pictogram Home in uw omgeving:
    >
    >* Vervang deze door een afbeelding die is aangepast om uw organisatie te illustreren. In dit geval ziet het pictogram er anders uit dan in dit artikel.
-   >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **Belangrijkste Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik **Huis**.
+   >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **Belangrijkste pictogram van het Menu** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik **Huis**.
 
 1. In het **gebied van de Lijst van het Werk**, navigeer aan **goedkeurt ik** groepering heb voorgelegd.
 
@@ -115,7 +115,7 @@ Om een taakgoedkeuring terug te roepen hebt u voorgelegd:
 
    Hiermee wordt de taak rechts van de werklijst geopend.
 
-   ![](assets/task-pending-approval-home-nwe-350x97.png)
+   ![ Taak in afwachting van goedkeuring ](assets/task-pending-approval-home-nwe-350x97.png)
 
 1. Klik **Herinneren** in de hoger-juiste hoek van het juiste paneel.
 
@@ -129,14 +129,14 @@ Als u een goedkeuring herinnert die met de beginstatus van de kwestie wordt geas
 >
 >U kunt de eerste status van een uitgave aan een goedkeuringsproces associëren door een malplaatje te gebruiken. Voor meer informatie over het creëren van een verzoekrij, zie [ een Rij van het Verzoek ](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
 
-1. Klik het **pictogram van het Huis** ![](assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.
+1. Klik het **pictogram van het Huis ![ pictogram van het Begin ](assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.**
 
    >[!NOTE]
    >
    >Uw Workfront-beheerder kan de volgende wijzigingen aanbrengen in het pictogram Home in uw omgeving:
    >
    >* Vervang deze door een afbeelding die is aangepast om uw organisatie te illustreren. In dit geval ziet het pictogram er anders uit dan in dit artikel.
-   >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **Belangrijkste Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik **Huis**.
+   >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **Belangrijkste pictogram van het Menu** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik **Huis**.
 
 1. In het **gebied van de Lijst van het Werk**, navigeer aan **goedkeurt ik** groepering heb voorgelegd.
 
@@ -144,7 +144,7 @@ Als u een goedkeuring herinnert die met de beginstatus van de kwestie wordt geas
 
    Dit opent de kwestie rechts van de Lijst van het Werk.
 
-   ![](assets/issue-pending-approval-home-nwe-350x103.png)
+   ![ Uitgave in afwachting van goedkeuring ](assets/issue-pending-approval-home-nwe-350x103.png)
 
 1. Klik **Herinneren** in de hoger-juiste hoek van het juiste paneel.
 
@@ -152,14 +152,14 @@ Als u een goedkeuring herinnert die met de beginstatus van de kwestie wordt geas
 
 Wanneer u een timesheet goedkeuring herinnert, keert timesheet terug naar de status het binnen was alvorens het voor goedkeuring werd voorgelegd.
 
-1. Klik het **pictogram van het Huis** ![](assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.
+1. Klik het **pictogram van het Huis ![ pictogram van het Begin ](assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.**
 
    >[!NOTE]
    >
    >Uw Workfront-beheerder kan de volgende wijzigingen aanbrengen in het pictogram Home in uw omgeving:
    >
    >* Vervang deze door een afbeelding die is aangepast om uw organisatie te illustreren. In dit geval ziet het pictogram er anders uit dan in dit artikel.
-   >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **Belangrijkste Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik **Huis**.
+   >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **Belangrijkste pictogram van het Menu** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik **Huis**.
 
 1. In het **gebied van de Lijst van het Werk**, navigeer aan **goedkeurt ik** groepering heb voorgelegd.
 
@@ -167,7 +167,7 @@ Wanneer u een timesheet goedkeuring herinnert, keert timesheet terug naar de sta
 
    Dit opent timesheet rechts van de Lijst van het Werk.
 
-   ![](assets/timesheet-pending-approval-home-nwe-350x157.png)
+   ![ Tijdopmaak in afwachting van goedkeuring ](assets/timesheet-pending-approval-home-nwe-350x157.png)
 
 1. Klik **Herinneren** in de hoger-juiste hoek van het juiste paneel.
 
@@ -175,14 +175,14 @@ Wanneer u een timesheet goedkeuring herinnert, keert timesheet terug naar de sta
 
 Als u een documentgoedkeuring wilt terugroepen, moet u een of alle gebruikers handmatig uit de goedkeuring verwijderen.
 
-1. Klik het **pictogram van het Huis** ![](assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.
+1. Klik het **pictogram van het Huis ![ pictogram van het Begin ](assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.**
 
    >[!NOTE]
    >
    >Uw Workfront-beheerder kan de volgende wijzigingen aanbrengen in het pictogram Home in uw omgeving:
    >
    >* Vervang deze door een afbeelding die is aangepast om uw organisatie te illustreren. In dit geval ziet het pictogram er anders uit dan in dit artikel.
-   >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **Belangrijkste Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik **Huis**.
+   >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **Belangrijkste pictogram van het Menu** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik **Huis**.
 
 1. In het **gebied van de Lijst van het Werk**, navigeer aan **goedkeurt ik** groepering heb voorgelegd.
 
@@ -199,14 +199,14 @@ Als u een documentgoedkeuring wilt terugroepen, moet u een of alle gebruikers ha
 
 ## Toegangsverzoeken
 
-1. Klik het **pictogram van het Huis** ![](assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.
+1. Klik het **pictogram van het Huis ![ pictogram van het Begin ](assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.**
 
    >[!NOTE]
    >
    >Uw Workfront-beheerder kan de volgende wijzigingen aanbrengen in het pictogram Home in uw omgeving:
    >
    >* Vervang deze door een afbeelding die is aangepast om uw organisatie te illustreren. In dit geval ziet het pictogram er anders uit dan in dit artikel.
-   >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **Belangrijkste Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik **Huis**.
+   >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **Belangrijkste pictogram van het Menu** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik **Huis**.
 
 1. In het **gebied van de Lijst van het Werk**, navigeer aan **goedkeurt ik** groepering heb voorgelegd.
 
@@ -214,6 +214,6 @@ Als u een documentgoedkeuring wilt terugroepen, moet u een of alle gebruikers ha
 
    Hiermee wordt de toegangsaanvraag rechts van de werklijst geopend.
 
-   ![](assets/access-request-pending-approval-nwe-350x104.png)
+   ![ verzoek van de Toegang in afwachting van goedkeuring ](assets/access-request-pending-approval-nwe-350x104.png)
 
 1. Klik **Herinneren** in de hoger-juiste hoek van het juiste paneel.

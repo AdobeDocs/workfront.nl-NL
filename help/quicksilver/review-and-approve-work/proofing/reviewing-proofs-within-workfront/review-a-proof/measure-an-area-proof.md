@@ -6,9 +6,9 @@ description: U kunt een gebied binnen een bewijs meten.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: c44de4f0-654e-4b1e-b3d6-2bd8f1ee9d8a
-source-git-commit: 9d2c65516ca1fc612f5f7ee4ee4453019d836cb3
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    ![ measurement_tool_button.png ](assets/measurement-tool-button-350x128.png)
 
 1. (Facultatief) klik **de markeringskleur van de Meting** om de kleurenopties uit te breiden, dan een kleur en **Dekking** te klikken die op uw bewijs gemakkelijk te zien is.\
-   ![](assets/selection-color-350x330.png)
+   ![ kleur van de Selectie ](assets/selection-color-350x330.png)
 
    De standaardkleur van het meetgereedschap is rood.
 
@@ -70,7 +70,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    >[!NOTE]
    >
-   >De opties voor Meeteenheid zijn alleen beschikbaar voor proefdrukken die met een PDF zijn gemaakt.
+   >De opties voor Meeteenheid zijn alleen beschikbaar voor proefdrukken van een PDF.
 
 1. Sleep het meetvenster naar het gebied van de proefdruk dat u moet meten.
 
@@ -79,7 +79,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Sleep de hoeken of randen van het meetvenster om het formaat ervan te wijzigen.
 1. (Facultatief) als u het metingsgebied een nauwkeurige grootte nodig hebt, type **waarden van de grootte van de Selectie 0} {.**
 1. (Optioneel) Als u een bepaald percentage in een gebied wilt meten, schakelt u het selectievakje Percentage berekenen in. Er wordt een nieuw vak weergegeven waarin u het kunt aanpassen\
-   ![](assets/calculate-percentage-350x230.png)
+   ![ berekenen percentage ](assets/calculate-percentage-350x230.png)
 
 1. Klik de **Meet een gebied** pictogram bij de bovenkant van de het proef kijker om het hulpmiddel te sluiten wanneer u wordt gebeëindigd.
 

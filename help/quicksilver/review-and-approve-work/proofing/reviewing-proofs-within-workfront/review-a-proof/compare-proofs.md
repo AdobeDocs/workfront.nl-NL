@@ -7,9 +7,9 @@ description: Met de proefdrukviewer kunt u twee verschillende proefdrukken of tw
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 515562f6-ed19-446c-8f8c-4ad5f07e6d11
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
@@ -68,13 +68,13 @@ U kunt twee proefdrukken vergelijken binnen om het even welke enige documentlijs
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">If this button is not visible, ensure that two proofed documents are selected.</p>
    -->
 
-   ![](assets/compare-proofs-select-docs-350x138.jpg)
+   ![ vergelijk proef ](assets/compare-proofs-select-docs-350x138.jpg)
 
    Beide proefdrukken worden in de proefdrukviewer naast elkaar weergegeven. U kunt elk document bekijken terwijl het vergelijken hen.
 
    Met de gescheiden broodkruimels boven elke proefdruk kunt u het aan de proefdruk gekoppelde werkitem weergeven en naar het volgende adres gaan:
 
-   ![](assets/compare-proofs-breadcrumbs-350x148.jpg)
+   ![ vergelijk proef breadcrumbs ](assets/compare-proofs-breadcrumbs-350x148.jpg)
 
    Voor informatie over de gereedschappen die u kunt gebruiken om de twee proefdrukken te vergelijken, raadpleegt u  [ Gebruik de vergelijkingshulpmiddelen ](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#using-compare-tools) in [ vergelijkt proeven in de het proef kijker ](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md).
 

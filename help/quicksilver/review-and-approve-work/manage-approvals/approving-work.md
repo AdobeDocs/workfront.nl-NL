@@ -6,9 +6,9 @@ description: Goedkeuring van de werkzaamheden
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6e43edbb-14dd-493d-a76b-84be6c3bef82
-source-git-commit: 7366e3dd37b686a3566ca6d39e28eb6762c6d1ff
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '911'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Voor meer informatie over het bekijken van punten die op goedkeuring wachten of 
 
 ## Werk goedkeuren vanuit het thuisgebied
 
-1. Klik op **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek en klik vervolgens op **[!UICONTROL Home]** .
+1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) klik **aanpassen** om **Mijn goedkeurt** widget toe te voegen.
 1. (Voorwaardelijk) klik het **drop-down menu van de Filter**, dan selecteer **allen** om goedkeuringen te zien die aan u worden toegewezen en worden gedelegeerd.
 
@@ -77,7 +77,7 @@ Voor meer informatie over het bekijken van punten die op goedkeuring wachten of 
 
 1. Selecteer het item waarop u een goedkeuringsbesluit wilt nemen.
 
-   ![](assets/my-approvals-widget.png)
+   ![ Mijn widget goedkeurt ](assets/my-approvals-widget.png)
 
 1. Klik op een van de beschikbare opties wanneer u een goedkeuringsbesluit neemt in het rechterdeelvenster. De volgende opties worden in de rechterbovenhoek van de pagina weergegeven, afhankelijk van het type item dat u goedkeurt:
 
@@ -146,7 +146,7 @@ Om het werk van een project, een taak, of een kwestie direct goed te keuren:
 
    De informatie van de goedkeuring betreffende het huidige goedkeuringsproces van een project, een taak, of een kwestie toont in de kopbal van het punt.
 
-   ![](assets/current-approval-process-in-project-header-with-stages-nwe-350x92.png)
+   ![ Huidige goedkeuringsproces in projectkopbal ](assets/current-approval-process-in-project-header-with-stages-nwe-350x92.png)
 
    De volgende goedkeuringsinformatie is beschikbaar:
 
@@ -172,8 +172,8 @@ Om het werk van een project, een taak, of een kwestie direct goed te keuren:
 
 1. Ga naar het documentgebied dat het document bevat dat uw goedkeuring vereist.
 1. Selecteer het document, dan klik **goedkeuren**, **Veranderingen**, of **verwerpen**.\
-   ![](assets/approval-approve-document-350x215.png)\
-   ![](assets/document-approval-350x199.png)
+   ![ keur document ](assets/approval-approve-document-350x215.png) goed\
+   ![ de goedkeuring van het Document ](assets/document-approval-350x199.png)
 
 1. (Facultatief) als een proef voor het document is geproduceerd, kunt u het document binnen de het proeven interface goedkeuren, zoals die in [ wordt beschreven een document van een proef ](#approve-a-document-from-a-proof) goedkeuren.
 
@@ -185,7 +185,7 @@ Afhankelijk van uw berichtinstellingen ontvangt u mogelijk e-mailberichten waari
 1. Voer een van de volgende handelingen uit om het document te reviseren:
 
    * De metagegevens van het document weergeven.
-   * Als een proef voor het herzien van het document met prijsverhoging en commentaren is gecreeerd, klik **Open proef** ![](assets/open-proof-icon-qs.png) dichtbij de hogere juiste hoek en herzie de proef.
+   * Als een bewijs voor het herzien van het document met prijsverhoging en commentaren is gecreeerd, klik **Open proef** ![ Open proef ](assets/open-proof-icon-qs.png) dichtbij de hogere juiste hoek en herzie de proef.
 
      <!--   
      <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">[Andrzej, does it make sense to leave this here if it's s document approval?&nbsp;Would there never be a proof in that situation?]</span>   

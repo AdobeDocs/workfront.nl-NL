@@ -6,9 +6,9 @@ description: U kunt een nieuwe interactieve proefdruk of een nieuwe versie van e
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 56e5eeea-1ab9-43c8-bc84-d10638171871
-source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klik op de URL die u hebt toegevoegd.
 
-   ![](assets/click-url-350x137.png)
+   ![ klik URL ](assets/click-url-350x137.png)
 
 1. (Facultatief) als u de naam van de proef van website URL in iets anders wilt veranderen, typ a **naam van het Bewijs**.
 1. Selecteer **Interactief**, dan klik **Gedaan**.

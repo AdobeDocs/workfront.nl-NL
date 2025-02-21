@@ -6,9 +6,9 @@ description: U kunt plannen schrappen die u creeerde. U kunt geen plannen schrap
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 74515723-3822-425a-aa9e-970af63f9189
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ U kunt plannen schrappen die u creeerde. U kunt geen plannen schrappen die met u
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
    <td> <ul></li>
    <li><p>Nieuw: Ultimate </p></li>
-   <p>De Scenario Planner is niet beschikbaar voor de nieuwe Workfront Select- of Workfront-plannen. </p>
+   <p>De Scenario Planner is niet beschikbaar voor de nieuwe Workfront Select- of Workfront Prime-plannen. </p>
    <li><p>Huidig: [!UICONTROL Business] of hoger</p></ul>
    </td> 
   </tr> 
@@ -90,7 +90,7 @@ Een abonnement verwijderen:
 Een lijst met plannen wordt weergegeven.
 
 1. Klik op de naam van een abonnement om het te openen.
-1. Klik op **[!UICONTROL More menu]** ![](assets/more-menu.png) rechts van de naam van het abonnement en klik vervolgens op **[!UICONTROL Delete]** > **[!UICONTROL Yes, delete it]** .
+1. Klik **[!UICONTROL More menu]** ![ Meer menu ](assets/more-menu.png) aan het recht van de plannaam, dan klik **[!UICONTROL Delete]** > **[!UICONTROL Yes, delete it]**.
 
    Het plan wordt geschrapt en u keert aan de lijst van plannen terug.
 
@@ -114,7 +114,7 @@ Een scenario verwijderen:
    Standaard wordt het Eerste scenario weergegeven.
 
 1. Klik op **[!UICONTROL Compare scenarios]**.
-1. Klik in de rechterbovenhoek van de scenario-kaart op het **[!UICONTROL More]** menu ![](assets/more-menu.png) en klik vervolgens op **[!UICONTROL Delete]** .
+1. Van de hoger-juiste hoek van de scenario kaart, klik het **[!UICONTROL More]** menu ![ Meer menu ](assets/more-menu.png), dan klik **[!UICONTROL Delete]**.
 
    Het scenario wordt verwijderd.
 

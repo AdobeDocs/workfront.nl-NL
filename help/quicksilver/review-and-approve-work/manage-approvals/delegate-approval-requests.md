@@ -6,9 +6,9 @@ description: Het delegeren van goedkeuringsverzoeken staat u toe om een andere g
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: 69c1e99b996025615e96a84bc8e91cbe2ae6ee48
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1200'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,7 @@ Overweeg het volgende wanneer het delegeren van goedkeuringen:
 
 Goedkeuringen delegeren aan een andere gebruiker:
 
-1. Klik op **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek en klik vervolgens op **[!UICONTROL Home]** .
+1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) klik **aanpassen** om **Mijn goedkeurt** widget toe te voegen.
 1. Ga naar Mijn widget Goedkeuringen, dan klik **Afgevaardigde Mijn Goedkeuringen**.
 
@@ -112,7 +112,7 @@ Goedkeuringen delegeren aan een andere gebruiker:
    >
    >Workfront-beheerders kunnen goedkeuringsdelegaties uitschakelen in het installatiegebied. Als de goedkeuringsdelegaties gehandicapt zijn, zult u niet de knoop van de Goedkeuring van de Delegatie zien.
 
-   ![](assets/delegate-approvals-home.png)
+   ![ goedkeuringen van de Afgevaardigde in huis ](assets/delegate-approvals-home.png)
 
 1. Geef de volgende informatie op in de sectie Mijn goedkeuringen delegeren:
 
@@ -144,11 +144,11 @@ Goedkeuringen delegeren aan een andere gebruiker:
 
 ## Een goedkeuringsdelegatie bijwerken of stoppen {#update-or-stop-an-approval-delegation}
 
-1. Klik op **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek en klik vervolgens op **[!UICONTROL Home]** .
+1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) klik **aanpassen** om **Mijn goedkeurt** widget toe te voegen.
 
 1. Ga naar Mijn widget Goedkeuring, dan klik **delegatie** uitgeven.
-   ![](assets/edit-delegations.png)
+   ![ geef delegaties ](assets/edit-delegations.png) uit
 <!--
    Or
 
@@ -170,7 +170,7 @@ U kunt alleen de volgende typen goedkeuringsdelegaties weergeven in de widget Mi
 
 Gedelegeerde goedkeuringen weergeven:
 
-1. Klik op **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek en klik vervolgens op **[!UICONTROL Home]** .
+1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) klik **aanpassen** om **Mijn goedkeurt** widget toe te voegen.
 1. In **Mijn goedkeurt** widget, klik het **drop-down menu van de Filter**, dan klik **Gedelegeerde Goedkeuringen**.\
    Alle goedkeuringen die aan u worden gedelegeerd, worden in de lijst weergegeven.

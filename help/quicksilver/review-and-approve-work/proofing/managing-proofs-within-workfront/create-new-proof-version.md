@@ -6,9 +6,9 @@ description: Het beheren van feedback in meerdere versies of revisies van een st
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee0c859e-349b-4e7a-ac80-164740b950f0
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1734'
+source-wordcount: '1737'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ Een nieuwe versie van een proefdruk maken:
 
    Selecteer de rij waar de proef vermeld is, klik **nieuwe** toevoegen > **Versie**, dan klik de optie u wilt gebruiken om de nieuwe versie van de proef toe te voegen.
 
-   ![](assets/add-new-version-350x185.png)
+   ![ voeg nieuwe versie ](assets/add-new-version-350x185.png) toe
 
 ## Een nieuwe versie van een proefdruk maken met de proefdrukviewer (alleen Workfront Proof)
 

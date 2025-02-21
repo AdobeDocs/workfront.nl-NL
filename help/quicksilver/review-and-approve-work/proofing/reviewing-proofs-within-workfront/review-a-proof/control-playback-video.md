@@ -6,9 +6,9 @@ description: Leer hoe u het afspelen in een videoproefdruk kunt besturen.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e1dce216-c41d-447b-b5b0-64b04b4132ff
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ Voor een gedetailleerdere weergave van de videoproefdruk kunt u de video frame-v
 
 1. Bij de bodem van de het proeven kijker, klik **vooruit** en **Achterste** pijlen om videoframe-door-kader te herzien.
 
-   ![](assets/frame-.png)
+   ![ Kader ](assets/frame-.png)
 
 ## Afspeelvolume wijzigen
 
@@ -82,7 +82,7 @@ U kunt het volume bepalen bij het afspelen van de video.
 
 1. In de laag-juiste hoek van de het proef kijker, muis over het **Volume** pictogram, dan sleep de schuif om een nieuw volume te selecteren.
 
-   ![](assets/phq-viewer-volume.png)
+   ![ Volume ](assets/phq-viewer-volume.png)
 
    of
 

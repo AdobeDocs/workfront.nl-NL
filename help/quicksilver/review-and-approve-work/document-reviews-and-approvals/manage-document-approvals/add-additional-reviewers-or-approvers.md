@@ -6,7 +6,7 @@ description: U kunt extra fiatteurs of revisoren toevoegen aan een document dat 
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
-source-git-commit: a1a5c2bb9395748c4e0103d10dcf66624238032b
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 0%
@@ -41,7 +41,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>De mening of hogere toegang tot Projecten, Taken, Kwesties, Malplaatjes, Portfolio's, Programma's, Rapporten, Dashboards, en Kalenders, Documenten</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td> <p>Toegang tot projecten, taken, problemen, sjablonen, portfolio's, programma's, rapporten, dashboards en agenda's, documenten weergeven of vergroten</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -83,14 +83,14 @@ Als u goedkeuring voor een nieuwe documentversie nodig hebt, kunt u eenvoudig to
 <!--
 ## Add additional approvers or reviewers from Home
 
-1. Click the **Home** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
+1. Click the **Home** icon ![Home icon](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
 
    >[!NOTE]
    >
    >Your Workfront administrator might make the following changes to the Home icon in your environment:
    >
    >* Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
-   >* Replace the page linked to it with a different page. In this case, click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
+   >* Replace the page linked to it with a different page. In this case, click the **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
 
 1. In the **Work List** area, Go to the **Approvals I've Submitted** grouping.
 

@@ -6,9 +6,9 @@ description: Wanneer u aan een doel begint te werken en het in uw organisatie ir
 author: Alina
 feature: Workfront Goals
 exl-id: 3089adeb-3e56-492a-82fe-536f57079b73
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ U moet het volgende hebben:
    <td role="rowheader">Adobe Workfront-abonnement*</td> 
    <td> 
    <p>Voor het nieuwe plan en de nieuwe licentiestructuur:
-  <ul><li>Een ultiem plan </li></ul>
+  <ul><li>Een Ultimate-abonnement </li></ul>
    </p>
 <p>Voor het huidige plan en de licentiestructuur: 
 <ul><li> Een Pro of hoger </li>
@@ -122,16 +122,16 @@ Deactivating goals differs depending on which environment you use.
    >
    >You can open goals from any sections of Workfront Goals.
 
-1. Click the **More icon** ![](assets/more-icon.png), then click **Deactivate**.
+1. Click the **More icon** ![More icon](assets/more-icon.png), then click **Deactivate**.
 
-   ![](assets/deactivate-goal-highlighted.png)
+   ![Deactivate goal](assets/deactivate-goal-highlighted.png)
 
    The goal status changes to Inactive. 
 
 1. Click the **X** icon in the upper-right to close Goal Details.
 -->
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hogere juiste hoek, dan klik **Doelen**.
+1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hogere juiste hoek, dan klik** Doelen **.**
 
    De vertoningen van de doellijst.
 
@@ -146,9 +146,9 @@ Deactivating goals differs depending on which environment you use.
 
    De doelpagina wordt geopend.
 
-   ![](assets/goal-page-unshimmed.png)
+   ![ Goal pagina ](assets/goal-page-unshimmed.png)
 
-1. Klik **Meer** menu ![](assets/more-icon.png) aan het recht van de doelnaam, dan klik **Deactivate**.
+1. Klik het **Meer** menu ![ Meer pictogram ](assets/more-icon.png) aan het recht van de doelnaam, dan klik **Deactivate**.
 
 1. Het doel wordt gedeactiveerd en zijn status wordt Inactief.
 
@@ -179,23 +179,23 @@ Deleting  goals differs depending on which environment you use.
 
    The Goal Details panel opens on the right. 
 
-1. Click the **More icon** ![](assets/more-icon.png), then click **Delete**.
+1. Click the **More icon** ![More icon](assets/more-icon.png), then click **Delete**.
 
-   ![](assets/delete-goal-highlighted.png)
+   ![Delete goal](assets/delete-goal-highlighted.png)
 
 1. Click **Yes, delete**.
 
    The goal is removed from the Goal List and cannot be recovered.
 -->
 
-1. Klik het Belangrijkste pictogram van het Menu ![](assets/main-menu-icon.png) in de hogere juiste hoek, dan klik **Doelen**.
+1. Klik het Belangrijkste pictogram van het Menu ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hogere juiste hoek, dan klik **Doelen**.
 
    De vertoningen van de doellijst.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 1. Klik op de naam van een doel. Hierdoor wordt de doelpagina geopend.
-1. Klik het **Meer** menu ![](assets/more-icon.png) aan het recht van de doelnaam, dan klik **Goal van de Schrapping**, dan **Schrapping**.
+1. Klik het **Meer** menu ![ Meer pictogram ](assets/more-icon.png) aan het recht van de doelnaam, dan klik **Goal van de Schrapping**, toen **Schrapping**.
 
    Het doel en de activiteiten en resultaten ervan worden eveneens geschrapt en kunnen niet worden teruggevorderd. De projecten die met het doel of de kinddoelstellingen werden geassocieerd worden niet geschrapt.
 

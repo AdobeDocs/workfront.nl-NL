@@ -8,9 +8,9 @@ description: U kunt projecten met doelstellingen verbinden om erop te wijzen hoe
 author: Alina
 feature: Workfront Goals
 exl-id: 683c9cd9-6c7b-4d50-b326-b4000c9863e8
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '931'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ U moet het volgende hebben:
    <td role="rowheader">Adobe Workfront-abonnement*</td> 
    <td> 
    <p>Voor het nieuwe plan en de nieuwe licentiestructuur:
-  <ul><li>Een ultiem plan </li></ul>
+  <ul><li>Een Ultimate-abonnement </li></ul>
    </p>
 <p>Voor het huidige plan en de licentiestructuur: 
 <ul><li> Een Pro of hoger </li>
@@ -112,7 +112,7 @@ U moet het volgende hebben:
 
 There is an indication on the goal list that the project no longer updates progress for the goal.
 
-  ![](assets/goal-closed-project-active-warning-goal-list-350x94.png)
+  ![Goal closed](assets/goal-closed-project-active-warning-goal-list-350x94.png)
 -->
 
 * Wanneer u een project schrapt in bijlage aan een doel, wordt het project ook geschrapt van het doel.
@@ -124,14 +124,14 @@ There is an indication on the goal list that the project no longer updates progr
 
 ## Projecten toevoegen aan doelen
 
-1. Klik het **Belangrijkste Menu** ![](assets/main-menu-icon.png) (ontwerp dit voor Shell: of klik het **Belangrijkste Menu** ![](assets/three-line-main-menu-icon.png) in de upper-left hoek, als het beschikbaar is.), toen **Doelen**.
+1. Klik het **Belangrijkste pictogram van het Menu** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) (ontwerp dit voor Shell: of klik de **Belangrijkste lijnen van het Menu** ![ HoofdMenu ](assets/three-line-main-menu-icon.png) in de upper-left hoek, als het beschikbaar is.), toen **Doelen**.
 1. Klik in de lijst met doelen op de naam van een doel om de doelpagina te openen.
 1. Klik **indicatoren van de Voortgang** in het linkerpaneel.
 1. Van de **Nieuwe voortgangsindicator** drop-down menu, klik **toevoegen bestaand project**.
 
    De Add projecten aan de vertoningen van het doelvakje.
 1. (Facultatief) werk de **Mening** bij, **Filter**, of **Groepering** door de respectieve pictogrammen in de hoger-juiste hoek van de lijst te klikken om de manier te wijzigen de lijst van projectvertoningen.
-1. (Facultatief) klik het **pictogram van het 1} Onderzoek ![](assets/search-icon.png) en begin de naam van een project te typen om het in de lijst snel te vinden.**
+1. (Facultatief) klik het **pictogram van het Onderzoek ![ pictogram van het Onderzoek ](assets/search-icon.png) en begin de naam van een project te typen om het in de lijst snel te vinden.**
 1. Selecteer de projecten die u aan het doel wilt toevoegen, dan klik **toevoegen**.
 
    De geselecteerde projecten worden toegevoegd aan het doel en zij tonen in de Voortgangsindicatorensectie van de doelpagina, onder de **** groepering van het Project.

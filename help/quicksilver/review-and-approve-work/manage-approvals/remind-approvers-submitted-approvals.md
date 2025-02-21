@@ -6,9 +6,9 @@ description: U kunt fiatteurs herinneren aan goedkeuringen die in Workfront in b
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: eece6fc8-14e8-4751-8662-080ecb4371e3
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>De mening of hogere toegang tot Projecten, Taken, Kwesties, Malplaatjes, Portfolio's, Programma's, Rapporten, Dashboards, en Kalenders, Documenten</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td> <p>Toegang tot projecten, taken, problemen, sjablonen, portfolio's, programma's, rapporten, dashboards en agenda's, documenten weergeven of vergroten</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -70,14 +70,14 @@ U kunt aanvullende toegang aanvragen voor de volgende objecten:
 
 Een andere gebruiker eraan herinneren uw toegangsverzoek voor een object goed te keuren:
 
-1. Klik het **pictogram van het Huis** ![](assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.
+1. Klik het **pictogram van het Huis ![ pictogram van het Begin ](assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.**
 
    >[!NOTE]
    >
    >Uw Workfront-beheerder kan de volgende wijzigingen aanbrengen in het pictogram Home in uw omgeving:
    >
    >* Vervang deze door een afbeelding die is aangepast om uw organisatie te illustreren. In dit geval ziet het pictogram er anders uit dan in dit artikel.
-   >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **Belangrijkste Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik **Huis**.
+   >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **Belangrijkste pictogram van het Menu** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik **Huis**.
 
 1. In het **gebied van de Lijst van het Werk**, ga naar **Goedkeuringen ik** groepering heb voorgelegd.
 
@@ -85,27 +85,27 @@ Een andere gebruiker eraan herinneren uw toegangsverzoek voor een object goed te
 
    Dit opent het Verzoek van de Toegang tot het recht van de Lijst van het Werk.
 
-   ![](assets/access-request-pending-approval-nwe-350x104.png)
+   ![ verzoek van de Toegang in afwachting van goedkeuring ](assets/access-request-pending-approval-nwe-350x104.png)
 
 1. Klik **herinneren** in de hoger-juiste hoek van het juiste paneel eraan om een bericht naar fiatteur te verzenden.
 
 ## Documenten
 
-1. Klik het **pictogram van het Huis** ![](assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.
+1. Klik het **pictogram van het Huis ![ pictogram van het Begin ](assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.**
 
    >[!NOTE]
    >
    >Uw Workfront-beheerder kan de volgende wijzigingen aanbrengen in het pictogram Home in uw omgeving:
    >
    >* Vervang deze door een afbeelding die is aangepast om uw organisatie te illustreren. In dit geval ziet het pictogram er anders uit dan in dit artikel.
-   >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **Belangrijkste Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik **Huis**.
+   >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **Belangrijkste pictogram van het Menu** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik **Huis**.
 
 1. In het **gebied van de Lijst van het Werk**, ga naar **Goedkeuringen ik** groepering heb voorgelegd.
 
 1. Klik a **goedkeuring van het Document** in de Lijst van het Werk.
 
    Hiermee wordt de documentgoedkeuring rechts van de werklijst geopend.\
-   ![](assets/document-350x232.png)
+   ![ de goedkeuring van het Document ](assets/document-350x232.png)
 
 1. Klik **leiden Goedkeuringen** in de hoger-juiste hoek van het juiste paneel.
 1. Klik **herinneren** pictogram eraan om een bericht naar fiatteur te verzenden.\

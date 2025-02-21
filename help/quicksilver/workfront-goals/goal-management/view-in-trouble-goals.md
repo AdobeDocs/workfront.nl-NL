@@ -6,9 +6,9 @@ description: Olijven met een Progress of In Trouble dreigen niet te worden berei
 author: Alina
 feature: Workfront Goals
 exl-id: df2cdc12-9102-4759-9daa-1f8ae68f110b
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ U moet het volgende hebben:
    <td role="rowheader">Adobe Workfront-abonnement*</td> 
    <td> 
    <p>Voor het nieuwe plan en de nieuwe licentiestructuur:
-  <ul><li>Een ultiem plan </li></ul>
+  <ul><li>Een Ultimate-abonnement </li></ul>
    </p>
 <p>Voor het huidige plan en de licentiestructuur: 
 <ul><li> Een Pro of hoger </li>
@@ -82,7 +82,7 @@ U moet het volgende hebben:
 
 *Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Recommendations voor het voorkomen van doelen om vooruitgang te boeken in Problemen
+## Aanbevelingen voor het voorkomen van doelstellingen om een vooruitgang van In Trouble te bereiken
 
 Voordat de doelstellingen een stap voorwaarts in Problemen bereiken, kunt u ze vaak volgen en de voortgang ervan aanpassen wanneer ze een voortgang in Bij risico bereiken. Doelen die gevaar lopen, dreigen in de problemen te raken. Voor meer informatie over doelvooruitgang, zie [ Overzicht van doelvooruitgang en voorwaarde in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/calculate-goal-progress.md)
 
@@ -97,7 +97,7 @@ U kunt doelstellingen in om het even welk gedeelte van de Doelen van Workfront h
 
 Dit artikel beschrijft hoe te om doelstellingen in de Lijst van het Doel te herzien.
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) > **Doelen** in de hoger-juiste hoek.
+1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) >** Doelen **in de hoger-juiste hoek.**
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -124,7 +124,7 @@ Dit artikel beschrijft hoe te om doelstellingen in de Lijst van het Doel te herz
 
 1. Houd de cursor boven de voortgangsbalkindicator om te zien wat het werkelijke voortgangspercentage is en wat de verwachte waarde voor de huidige dag is.
 
-   ![](assets/goal-progress-hover-over-detail-unshimmed.png)
+   ![ GOal vooruitgang hover detail ](assets/goal-progress-hover-over-detail-unshimmed.png)
 
 1. (Optioneel) Gebruik de filters om doelen te zoeken die bij een specifieke eigenaar horen.
 
@@ -134,7 +134,7 @@ Dit artikel beschrijft hoe te om doelstellingen in de Lijst van het Doel te herz
 
    Voor informatie over het bijwerken van resultaten en activiteiten, zie [ het doel van de Update vooruitgang in de Doelen van Adobe Workfront ](../goal-review-and-workfront-goals-sections/check-in-goals.md)
 
-   ![](assets/actual-progress-editable-column-in-indicator-list-unshimmed.png)
+   ![ Ware vooruitgang ](assets/actual-progress-editable-column-in-indicator-list-unshimmed.png)
 
    >[!NOTE]
    >

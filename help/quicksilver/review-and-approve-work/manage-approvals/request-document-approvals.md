@@ -6,9 +6,9 @@ description: U kunt goedkeuring aanvragen bij managers of andere gebruikers voor
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f54a221b-4bf0-414e-b2f3-ace861d85496
-source-git-commit: 9a32fcc876efd5d5250b515c1c285f5375615510
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>De mening of hogere toegang tot Projecten, Taken, Kwesties, Malplaatjes, Portfolio's, Programma's, Rapporten, Dashboards, en Kalenders, Documenten</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td> <p>Toegang tot projecten, taken, problemen, sjablonen, portfolio's, programma's, rapporten, dashboards en agenda's, documenten weergeven of vergroten</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -72,7 +72,7 @@ Goedkeuringsbeslissingen voor documenten worden niet automatisch opnieuw ingeste
 
 1. De rol neer aan de **goedkeurt** sectie in de Samenvatting, klikt het Meer pictogram, dan klikt opnieuw voorlegt.
 
-   ![](assets/nwe-resubmit-approval-350x149.png)
+   ![ hervat goedkeuring ](assets/nwe-resubmit-approval-350x149.png)
 
 ## Een aanvraag voor documentgoedkeuring verwijderen
 

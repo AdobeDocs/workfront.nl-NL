@@ -7,9 +7,9 @@ description: Nadat uw Adobe Workfront-beheerder u de juiste toegang tot de doels
 author: Alina
 feature: Workfront Goals
 exl-id: 922a05f9-2995-4401-a6d2-e5a331270fd3
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '779'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ U moet het volgende hebben:
    <td role="rowheader">Adobe Workfront-abonnement*</td> 
    <td> 
    <p>Voor het nieuwe plan en de nieuwe licentiestructuur:
-  <ul><li>Een ultiem plan </li></ul>
+  <ul><li>Een Ultimate-abonnement </li></ul>
    </p>
 <p>Voor het huidige plan en de licentiestructuur: 
 <ul><li> Een Pro of hoger </li>
@@ -121,9 +121,9 @@ Editing results differs depending on which environment you use.
 
 1. Go to the goal for which you want to edit a result and click the goal name to open the **Goal Details** panel.
 1. Click **Results**.
-1. Click the **gear icon** ![](assets/settings-gear-icon.png) to the right of the result you want to edit.
+1. Click the **gear icon** ![Gear icon](assets/settings-gear-icon.png) to the right of the result you want to edit.
 
-   ![](assets/results-gear-icon-options-350x85.png)
+   ![Results gear icon](assets/results-gear-icon-options-350x85.png)
 
 1. Click **Edit** to edit the following information:
 
@@ -139,14 +139,14 @@ Editing results differs depending on which environment you use.
 -->
 
 
-1. Klik het **Belangrijkste Menu** ![](assets/main-menu-icon.png), toen **Doelen**.
+1. Klik het **![ Belangrijkste pictogram van het Menu** Belangrijkste ](assets/main-menu-icon.png), toen **Doelen**.
 1. Klik in de lijst met doelen op de naam van een doel om de doelpagina te openen.
 1. Klik **indicatoren van de Voortgang** in het linkerpaneel.
-1. Selecteer een resultaat in de lijst van Voortgangsindicatoren en klik **uitgeven** pictogram ![](assets/edit-icon.png).
+1. Selecteer een resultaat in de lijst van Voortgangsindicatoren en klik **uitgeven** pictogram ![ pictogram ](assets/edit-icon.png) uitgeven.
 
    Het vak Resultaat bewerken wordt geopend.
 
-   ![](assets/edit-result-box-unshimmed.png)
+   ![ geef de doos van het Resultaat uit ](assets/edit-result-box-unshimmed.png)
 
 1. Bewerk de volgende gegevens:
    * **naam van het Resultaat**: De naam van het resultaat. Gebruik een beschrijvende naam die aangeeft welk resultaat u moet behalen om het doel te bereiken.
@@ -170,9 +170,9 @@ Editing activities differs depending on which environment you use.
 
 1. Go to the goal for which you want to edit an activity and click the goal name to open the **Goal Details** panel.
 1. Click **Activities**.
-1. Click the **gear icon** ![](assets/settings-gear-icon.png) to the right of the activity you want to edit .
+1. Click the **gear icon** ![Gear icon](assets/settings-gear-icon.png) to the right of the activity you want to edit .
 
-   ![](assets/activities-gear-icon-options-350x84.png)
+   ![Activities gear icon](assets/activities-gear-icon-options-350x84.png)
 
 1. Click **Edit** to edit the following information:
 
@@ -184,14 +184,14 @@ Editing activities differs depending on which environment you use.
 1. Click **Save**.
 -->
 
-1. Klik het **Belangrijkste Menu** ![](assets/main-menu-icon.png), toen **Doelen**.
+1. Klik het **![ Belangrijkste pictogram van het Menu** Belangrijkste ](assets/main-menu-icon.png), toen **Doelen**.
 1. Klik in de lijst met doelen op de naam van een doel om de doelpagina te openen.
 1. Klik **indicatoren van de Voortgang** in het linkerpaneel.
-1. Selecteer een activiteit in de de indicatorenlijst van de Voortgang en klik **uitgeven** pictogram ![](assets/edit-icon.png).
+1. Selecteer een activiteit in de lijst van Voortgangsindicatoren en klik **uitgeven** pictogram ![ pictogram geeft pictogram ](assets/edit-icon.png) uit.
 
    Het vak Activiteit bewerken wordt geopend.
 
-   ![](assets/edit-activity-box-unshimmed.png)
+   ![ geef de doos van de Activiteit ](assets/edit-activity-box-unshimmed.png) uit
 
 1. Bewerk de volgende gegevens:
    * **naam van de Activiteit**: De naam van de activiteit. Gebruik een beschrijvende naam die illustreert welke activiteit u zou moeten uitvoeren om erop te wijzen dat het doel voltooit.

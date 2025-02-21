@@ -6,9 +6,9 @@ description: U kunt eerdere versies van een proefdruk weergeven.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 909b8924-c0f6-47a6-ba30-fbff7c2e0d55
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Ga naar de documentlijst en selecteer de proefdruk.
 1. In Samenvatting, scrol aan de mening **Alle Versies** sectie. Hier kunt u alle versies van de proefdruk bekijken.
 
-   ![](assets/copy-of-versions-350x173.png)
+   ![ Exemplaar van versies ](assets/copy-of-versions-350x173.png)
 
 ## Een voorbeeld van een vorige proefdrukversie weergeven
 
@@ -64,7 +64,7 @@ Bestanden waarvan geen voorvertoning kan worden weergegeven (zoals XLSX en DOC),
 1. Ga naar de documentlijst en selecteer een proefdruk.
 1. In Samenvatting, scrol neer aan **Versies**, klik **Meer** menu, dan uitgezochte **Voorproef**.
 
-   ![](assets/proof-versions-in-summary-350x167.png)
+   ![ Proefversies in samenvatting ](assets/proof-versions-in-summary-350x167.png)
 
 ## Vorige proefdrukversie weergeven
 
@@ -74,4 +74,4 @@ Elke gebruiker in Workfront met View-toegang tot het document kan eerdere versie
 1. Zoek de proefdruk die u nodig hebt.
 1. In Samenvatting, scrol neer aan **Versies**, klik **Meer** menu, dan selecteren **Open proef**.
 
-   ![](assets/proof-versions-in-summary-350x167.png)
+   ![ Proefversies in samenvatting ](assets/proof-versions-in-summary-350x167.png)

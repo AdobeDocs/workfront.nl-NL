@@ -6,9 +6,9 @@ description: Gebruik de sectie Goal Alignment om een holistische mening van doel
 author: Alina
 feature: Workfront Goals
 exl-id: e79ced31-4680-4af7-b083-3d615c747af8
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '937'
 ht-degree: 0%
 
 ---
@@ -137,11 +137,11 @@ of
 
    De doelstellingen die aan andere doelstellingen worden gericht tonen het aantal gerichte doelstellingen onder de doelkaart.
 
-   ![](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
+   ![ de grafiekpijl van de Groepering ](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
 
 1. Klik het **neer-richten pijl** pictogram onder een doel om de kinddoelstellingen verder uit te breiden en te bekijken.
 
-   ![](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
+   ![ de grafiekpijl van de Groepering ](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
 
    >[!TIP]
    >
@@ -149,7 +149,7 @@ of
 
 1. (Voorwaardelijk) als het huidige filter sommige doelstellingen sluit die aan een groepering deelnemen, een waarschuwingsbericht toont om erop te wijzen dat niet alle doelstellingen tonen.
 
-   ![](assets/parent-goal-excluded-by-filter-alignment-section-350x230.png)
+   ![ Uitgesloten Hoofddoel ](assets/parent-goal-excluded-by-filter-alignment-section-350x230.png)
 
 1. Klik **tonen hen** om de doelstellingen te tonen die momenteel door de filter worden geëlimineerd.
 
@@ -158,14 +158,14 @@ of
    * Verbonden doelen die eerder door het filter zijn geëlimineerd, worden nu weergegeven in het uitlijningsdiagram.
    * Het filter in de rechterbovenhoek is geel omlijnd om aan te geven dat het momenteel niet wordt toegepast.
 
-     ![](assets/reapply-filter-link-and-yellow-filter-highlight-350x120.png)
+     ![ Geel filterhoogtepunt ](assets/reapply-filter-link-and-yellow-filter-highlight-350x120.png)
 
      Een filterkoppeling Opnieuw toepassen wordt links van de filternaam weergegeven.
 
 1. (Facultatief) klik **filter opnieuw toepassen** om op de originele resultaten terug te keren en de doelhiërarchie te tonen.
 1. (Optioneel) Houd de voortgangsindicator boven om te begrijpen waar de voortgang van het doel voor de huidige dag moet zijn.
 
-   ![](assets/progress-mouse-over-alignment-chart-350x163.png)
+   ![ Muis over groeperingsgrafiek ](assets/progress-mouse-over-alignment-chart-350x163.png)
 
    De volgende informatie wordt weergegeven:
 

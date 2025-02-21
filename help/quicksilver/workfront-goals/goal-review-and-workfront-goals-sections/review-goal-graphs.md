@@ -6,9 +6,9 @@ description: U kunt de algemene gezondheid van uw doelstellingen en hun vooruitg
 author: Alina
 feature: Workfront Goals
 exl-id: 8d5f3617-c7bf-44ce-99b0-d4ebda106f25
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '987'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ U moet de volgende toegang hebben om de handelingen uit te voeren die in dit art
    <td role="rowheader">Adobe Workfront-abonnement*</td> 
    <td> 
    <p>Voor het nieuwe plan en de nieuwe licentiestructuur:
-  <ul><li>Een ultiem plan </li></ul>
+  <ul><li>Een Ultimate-abonnement </li></ul>
    </p>
 <p>Voor het huidige plan en de licentiestructuur: 
 <ul><li> Een Pro of hoger </li>
@@ -113,7 +113,7 @@ De volgende grafieken zijn beschikbaar in de sectie Grafieken of de Doelen van W
 
 ## Voortgang van doel van grafieken controleren
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) > **Doelen** in de hoger-juiste hoek.
+1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) >** Doelen **in de hoger-juiste hoek.**
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -122,7 +122,7 @@ De volgende grafieken zijn beschikbaar in de sectie Grafieken of de Doelen van W
 
 1. Klik **Grafieken** in het linkerpaneel.
 
-   ![](assets/graphs-in-left-panel.png)
+   ![ Grafieken in linkerpaneel ](assets/graphs-in-left-panel.png)
 
    De sectie Grafieken wordt weergegeven.
 
@@ -141,7 +141,7 @@ De volgende grafieken zijn beschikbaar in de sectie Grafieken of de Doelen van W
 
 1. Bekijk de informatie in de onderstaande tabel wanneer u de Goal Health Chart bekijkt.
 
-   ![](assets/gauge-graph-wf-align-350x230.png)
+   ![ Grafiek van de Gang ](assets/gauge-graph-wf-align-350x230.png)
 
    | Totaal aantal doelstellingen | Het getal onder aan het diagram geeft het aantal doelen in de geselecteerde periode aan, in alle statussen die u hebt geselecteerd. |
    |---|---|
@@ -151,7 +151,7 @@ De volgende grafieken zijn beschikbaar in de sectie Grafieken of de Doelen van W
 
 1. Bekijk de informatie in de onderstaande tabel wanneer u de grafiek van de voortgang van het beleid bekijkt.
 
-   ![](assets/line-graph-wf-align-350x161.png)
+   ![ grafiek van de Lijn ](assets/line-graph-wf-align-350x161.png)
 
    <table style="table-layout:auto"> 
     <col> 

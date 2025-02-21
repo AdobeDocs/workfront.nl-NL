@@ -6,9 +6,9 @@ description: U kunt informatie bekijken over hoe een bewijs door het overzichtsp
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 78e81070-ff82-4d82-90a3-6e0cd176b290
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ U kunt informatie bekijken over hoe een bewijs door het overzichtsproces vordert
 
 Het bewijs van voortgang geeft het werk aan dat is verricht op een bewijs vanaf het moment dat u de bewijzen naar de ontvangers verzendt tot het moment dat zij een beslissing nemen over het bewijs. De voortgangspictogrammen S, O, C en D worden naast de proefdruknaam weergegeven en geven informatie over de voortgang van de proefdrukproef.
 
-![](assets/proof-edit-existing-progress-350x62.png)
+![ Peof geeft bestaande vooruitgang uit ](assets/proof-edit-existing-progress-350x62.png)
 
 <table style="table-layout:auto"> 
  <col> 
@@ -95,7 +95,7 @@ De voortgangspictogrammen kunnen in de volgende kleuren worden weergegeven om be
 
 De status van de proefdruk geeft de status aan van de beslissingen die voor de proefdruk vereist zijn. De status van het bewijs wordt aangestuurd door de &quot;worst case&quot;-deelnemer. Bijvoorbeeld, veronderstel er drie besluiten over de proef zijn: twee hebben het statuut van **Toegelaten** en één heeft het statuut van **Afgewezen**. Het &quot;slechtste geval&quot;besluit van **Afgewezen** over-regels de andere besluiten en de algemene status van het bewijs wordt getoond zoals **Afgewezen**. 
 
-![](assets/proof-edit-existing-progress-350x62.png)
+![ Bewijs geeft bestaande vooruitgang uit ](assets/proof-edit-existing-progress-350x62.png)
 
 De standaardstatusopties zijn als volgt:
 

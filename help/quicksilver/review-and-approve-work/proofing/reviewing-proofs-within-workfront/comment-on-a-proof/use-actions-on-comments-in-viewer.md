@@ -6,9 +6,9 @@ description: U kunt acties gebruiken om bij te houden wat er op elke commentaard
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d1ee871c-ef61-44ca-8287-1093c5e5cb97
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Een actie toepassen op een bestaande opmerking in de conceptviewer:
 
    * Klik op het vlagpictogram in de rechterbenedenhoek van de opmerking en klik vervolgens op de gewenste actie in het vervolgkeuzemenu.
 
-     ![](assets/actions-flag-icon-350x198.png)
+     ![ de vlagpictogram van Acties ](assets/actions-flag-icon-350x198.png)
 
    * Klik het **Meer** pictogram (drie horizontale punten op de commentaar), dan klik de actie u in de lagere sectie van het drop-down menu wilt dat verschijnt.
 

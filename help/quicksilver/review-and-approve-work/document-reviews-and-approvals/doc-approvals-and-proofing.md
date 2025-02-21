@@ -6,9 +6,9 @@ description: U kunt goedkeuringen voor nieuwe documenten gebruiken met proefdruk
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: be484629-6e70-4809-ad4c-a489d5814da6
-source-git-commit: bea547e7a7400798d4544fb4f299f72e18a700be
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ U kunt revisoren, fiatteurs of een combinatie van beide toewijzen:
 Om deelnemers toe te wijzen:
 
 1. Selecteer het document dat u hebt geüpload en open de samenvatting van het document.
-   ![](assets/open-doc-summary.png)
+   ![ Open documentsamenvatting ](assets/open-doc-summary.png)
 
 1. De rol neer aan de sectie van Goedkeuringen, dan klikt **toevoegt**.
 
@@ -62,7 +62,7 @@ Om deelnemers toe te wijzen:
 
 1. Als u een revisor wilt toevoegen, klikt u op de knop Revisor en typt u de naam van een gebruiker of team.
 
-   ![](assets/add-approvers.png)
+   ![ voegt fiatteurs ](assets/add-approvers.png) toe
 
 1. Zodra u alle recensenten en fiatteurs hebt toegevoegd, klik **voorleggen Verzoek**. Deelnemers worden via e-mail op de hoogte gesteld.
 
@@ -77,7 +77,7 @@ Een nieuwe versie toevoegen:
 1. Zodra het document eindigt uploadend, selecteer het document, dan klik **creeer bewijs** > **Eenvoudige proef**.
 
 1. Selecteer het document opnieuw en open het document Summary.
-   ![](assets/open-doc-summary.png)
+   ![ Open documentsamenvatting ](assets/open-doc-summary.png)
 
 1. De rol neer aan de sectie van Goedkeuringen, dan klikt **toevoegt**.
 
@@ -89,7 +89,7 @@ Een nieuwe versie toevoegen:
 
 1. Als u een revisor wilt toevoegen, klikt u op de knop Revisor en typt u een gebruiker- of teamnaam <span class="preview"> of kiest u een revisor uit de vorige versie. </span>
 
-   ![](assets/add-approvers.png)
+   ![ voegt fiatteurs ](assets/add-approvers.png) toe
 
 1. Zodra u alle recensenten en fiatteurs hebt toegevoegd, klik **voorleggen Verzoek**. Deelnemers worden via e-mail op de hoogte gesteld.
 

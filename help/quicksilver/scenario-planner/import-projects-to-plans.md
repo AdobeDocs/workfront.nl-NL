@@ -6,9 +6,9 @@ description: U kunt bestaande projecten in een plan invoeren. De geïmporteerde 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 20429bb1-c158-433b-9790-325cd577248e
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '1607'
+source-wordcount: '1627'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ U kunt bestaande projecten in een plan invoeren. De geïmporteerde projecten wor
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
    <td> <ul></li>
    <li><p>Nieuw: Ultimate </p></li>
-   <p>De Scenario Planner is niet beschikbaar voor de nieuwe Workfront Select- of Workfront-plannen. </p>
+   <p>De Scenario Planner is niet beschikbaar voor de nieuwe Workfront Select- of Workfront Prime-plannen. </p>
    <li><p>Huidig: [!UICONTROL Business] of hoger</p></ul>
    </td> 
   </tr> 
@@ -164,7 +164,7 @@ Wanneer u een project in een plan invoert wordt sommige projectinformatie ook in
 
    Het vak [!UICONTROL Import Projects] wordt weergegeven. Projecten met datums die zijn opgenomen in het tijdkader van uw abonnement, worden in een lijst weergegeven.
 
-   ![](assets/project-import-ui-projects-selected-350x72.png)
+   ![ de projecten van de Invoer ](assets/project-import-ui-projects-selected-350x72.png)
 
    >[!TIP]
    >
@@ -174,9 +174,9 @@ Wanneer u een project in een plan invoert wordt sommige projectinformatie ook in
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the status of the projects in the import projects UI might change; right now it's ALL statuses)</p>
    -->
 
-1. (Optioneel) Klik op **[!UICONTROL Filter icon]** ![](assets/filter-nwepng.png) en selecteer een beschikbaar filter in de lijst om de hoeveelheid projecten in de lijst te verminderen. Door gebrek, wordt de lijst van projecten gefiltreerd door de momenteel geselecteerde projectfilter van de gebruiker in een lijst van projecten.
+1. (Facultatief) klik het **[!UICONTROL Filter icon]** ![ pictogram van de Filter ](assets/filter-nwepng.png) en selecteer een beschikbare filter van de lijst om de hoeveelheid projecten op uw lijst te verminderen. Door gebrek, wordt de lijst van projecten gefiltreerd door de momenteel geselecteerde projectfilter van de gebruiker in een lijst van projecten.
 
-1. (Optioneel) Klik op **[!UICONTROL Search icon]** ![](assets/search-icon.png) en voeg een trefwoord toe dat in een veld op het scherm wordt weergegeven. De items met het zoekwoord worden automatisch in de lijst weergegeven en alle items worden verborgen.
+1. (Facultatief) klik het **[!UICONTROL Search icon]** ![ pictogram van het Onderzoek ](assets/search-icon.png) en voeg een sleutelwoord toe dat op om het even welk gebied op het scherm wordt getoond. De items met het zoekwoord worden automatisch in de lijst weergegeven en alle items worden verborgen.
 
 1. (Voorwaardelijk) klik **[!UICONTROL X icon]** om het onderzoek te verwijderen en alle projecten te tonen.
 1. Selecteer maximaal 100 projecten en klik op **[!UICONTROL Import]** .
@@ -185,10 +185,10 @@ Wanneer u een project in een plan invoert wordt sommige projectinformatie ook in
 
    Let op het volgende:
 
-   * Een projectpictogram ![](assets/project-icon-sp.png) wordt rechts van de initiatiefnaam weergegeven.
+   * Een pictogram van het projectpictogram ![ van het Project ](assets/project-icon-sp.png) toont rechts van de initiatiefnaam.
    * Als het projecttijdschema de looptijd van het plan overschrijdt, eindigt de balk van het initiatief met een puntige marge naar links (wanneer de begindatum eerder is dan de datum van het plan) of naar rechts (wanneer de einddatum later is dan de datum van het plan).
 
-     ![](assets/project-bar-earlier-than-the-plan-start-date-350x39.png)
+     ![ bar van het Project vroeger dan begindatum ](assets/project-bar-earlier-than-the-plan-start-date-350x39.png)
 
    * Het aantal maanden en de functies zijn bijgewerkt en aangepast aan die van het project.
 
@@ -198,7 +198,7 @@ Wanneer u een project in een plan invoert wordt sommige projectinformatie ook in
 
 1. Klik op de balk die het nieuwe initiatief voorstelt om het deelvenster met initiatiefdetails rechts te openen.
 
-   ![](assets/initiative-duration-with-project-duration-details-panel-350x292.png)
+   ![ Duur van het Initiatief ](assets/initiative-duration-with-project-duration-details-panel-350x292.png)
 
    Controleer de volgende informatie in het gebied **[!UICONTROL Initiative Duration]** :
 
@@ -234,4 +234,4 @@ Wanneer u een project in een plan invoert wordt sommige projectinformatie ook in
 1. (Optioneel) Als u de wijzigingen die u in het initiatief aanbrengt, wilt bijwerken naar het project waaruit het is geïmporteerd, publiceert u het project uit het plan. Voor informatie over het publiceren van plannen, zie [ Update of creeer projecten door initiatieven in  [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) te publiceren.
 1. (Optioneel) Klik op het projectpictogram om het gekoppelde project te openen.
 
-   ![](assets/project-icon-on-initiative-highlighted-350x49.png)
+   ![ pictogram van het Project op initiatief ](assets/project-icon-on-initiative-highlighted-350x49.png)
