@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
+source-git-commit: 7fc2239de2488d2e3e5c434ab45e8a1d24c0b28f
 workflow-type: tm+mt
-source-wordcount: '1624'
+source-wordcount: '1772'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 <tr>
    <td role="rowheader"><p>Adobe Workfront-platform</p></td>
    <td>
-<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden genegeerd om tot alle mogelijkheden van de Planning van Workfront te kunnen toegang hebben.</p>
+<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden bezeten om tot alle mogelijkheden van de Planning van Workfront toegang te hebben.</p>
 <p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p>
    </td>
 
@@ -105,7 +105,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Alle gebruikers, met inbegrip van de beheerders van Workfront, moeten een lay-outmalplaatje worden toegewezen dat het Gebied van de Planning in het Belangrijkste Menu en het Gebied van de Planning voor projecten, portefeuilles, en programma's omvat. </p> Voor meer informatie, zie <a href="/help/quicksilver/planning/access/access-overview.md"> Adobe plannend toegangsoverzicht </a>. </p>  </p>  
+   <td> <p>Alle gebruikers, met inbegrip van de beheerders van Workfront, moeten een lay-outmalplaatje worden toegewezen dat het Gebied van de Planning in het Belangrijkste Menu en het Gebied van de Planning voor projecten, portefeuilles, en programma's omvat. </p> Voor meer informatie, zie <a href="/help/quicksilver/planning/access/access-overview.md"> Adobe die toegangsoverzicht van de Planning </a>. </p>  </p>  
 </td>
   </tr>
  </tbody>
@@ -157,29 +157,29 @@ Een sectie toevoegen aan een recordvoorvertoning of pagina:
 
    of
 
-   Van de mening van de lijstlijst, klik **Open details** pictogram ![](assets/open-details-icon-in-table-name-field.png) in de eerste kolom.
+   Van de mening van de lijstlijst, klik het **Open pictogram van details** pictogram ![ Open detailspictogram op het gebied van de lijstnaam ](assets/open-details-icon-in-table-name-field.png) in de eerste kolom.
 
    De voorvertoning van de record wordt in de weergave geopend.
 
    <!--<div class="preview">
 
-    ![](assets/details-box.png)  
+    ![Details box](assets/details-box.png)  
 
     </div>-->
 
-1. (Facultatief) klik **Open in nieuw lusje** pictogram ![](assets/open-details-in-a-new-tab-icon.png) in de hoger-juiste hoek van de verslagvoorproef om de pagina van het verslag in een nieuw lusje te openen.
+1. (Facultatief) klik **Open in nieuw lusje** pictogram ![ Open details in een nieuw lusjepictogram ](assets/open-details-in-a-new-tab-icon.png) in de hoger-juiste hoek van de verslagvoorproef om de pagina van het verslag in een nieuw lusje te openen.
 
    De recordpagina wordt geopend. Het tabblad Details wordt standaard geopend.
 
-   ![](assets/details-page.png)
+   ![ pagina van Details ](assets/details-page.png)
 
-1. In het **lusje van Details** van de verslagvoorproef of de pagina, houd over de witte ruimte links van de gebieden, dan klik **sectie** pictogram ![](assets/add-section-icon.png) toevoegen om een sectie toe te voegen.
+1. In het **lusje van Details** van de verslagvoorproef of de pagina, houd over de witte ruimte links van de gebieden, dan klik **sectie** pictogram ![ toevoegen van sectie ](assets/add-section-icon.png) om een sectie toe te voegen.
 1. Klik binnen de naam van de sectie en vervang **Naamloze sectie** met een naam, dan klik binnengaan. De velden die onder de sectie worden weergegeven, maken automatisch deel uit van de nieuwe sectie.
 1. Begin en dalend gebieden aan de nieuwe sectie te slepen, zoals die in de sectie [ wordt beschreven herschik gebieden in de verslagvoorproef of detailspagina ](#rearrange-fields-in-the-record-preview-or-details-page) in dit artikel.
 
-1. (Facultatief) Beweeg over de naam van een sectie en klik **Meer** menu ![](assets/more-menu.png).
+1. (Facultatief) Beweeg over de naam van een sectie en klik **Meer** menu ![ Meer menu ](assets/more-menu.png).
 
-   ![](assets/more-menu-options-for-section-on-record-page.png)
+   ![ Meer menuopties voor sectie op verslagpagina ](assets/more-menu-options-for-section-on-record-page.png)
 1. (Optioneel) Voer een van de volgende handelingen uit om de sectie te bewerken:
 
    * Klik **anders noemen** om de sectie anders te noemen
@@ -200,19 +200,19 @@ Alle velden in de sectie worden met de sectie verplaatst.
 1. Klik op de pijl omlaag links van een sectienaam om deze samen te vouwen of op de pijl naar rechts om deze uit te vouwen.
 Alle secties worden standaard uitgevouwen.
 
-1. (Facultatief) klik de **greep** pictogram ![](assets/grab-icon.png) links van een sectienaam, dan belemmering en laat vallen het in een gewenste plaats.
+1. (Facultatief) klik het **greep** pictogram ![ pictogram van het Grab ](assets/grab-icon.png) aan de linkerzijde van een sectienaam, dan belemmering en laat vallen het in een gewenste plaats.
 
    De nieuwe positie van de sectie wordt bijgewerkt in zowel de voorvertoning als de pagina van alle records van hetzelfde type voor alle gebruikers die de records bekijken.
 
    Alle wijzigingen in secties en de veldvolgorde worden automatisch opgeslagen.
 
-1. (Optioneel) Klik op het **menu ![](assets/export-icon-in-record-details-page.png) Exporteren** om het tabblad Details te exporteren naar een Word- of PDF-bestand. Voor meer informatie, zie [ de details van een verslag uitvoeren ](/help/quicksilver/planning/records/export-the-record-page.md).
+1. (Facultatief) klik het **menu van de Uitvoer ![ pictogram van de Uitvoer in verslagdetailpagina ](assets/export-icon-in-record-details-page.png) om het lusje van Details naar een Word of een dossier van PDF uit te voeren.** Voor meer informatie, zie [ de details van een verslag uitvoeren ](/help/quicksilver/planning/records/export-the-record-page.md).
 
 1. (Facultatief) klik het **lusje van Verbindingen** naast **Details** tabel. U zou **Meer** kunnen moeten klikken alvorens de **Verbindingen** tabel te klikken.
 
    Alle records of objecten die zijn verbonden met de geselecteerde record, worden onder de naam van het recordtype weergegeven, of de toepassing waartoe ze behoren.
 
-   ![](assets/connections-tab-on-record-in-workfront-planning.png)
+   ![ het lusje van Verbindingen op verslag in de Planning van Workfront ](assets/connections-tab-on-record-in-workfront-planning.png)
 
 1. (Facultatief) selecteer **tonen alle verslagen** die in de hoger-juiste hoek van het lusje van Verbindingen plaatsen. Alle verbonden verslagtypes tonen, met inbegrip van degenen die nog geen verbonden verslagen hebben. Standaard is de schakeloptie uitgeschakeld en worden recordtypen zonder gekoppelde records verborgen.
 
@@ -240,27 +240,27 @@ De volgende dingen doen zich voor:
 
    of
 
-   Van de mening van de lijstlijst, klik **Open details** pictogram ![](assets/open-details-icon-in-table-name-field.png) in de eerste kolom.
+   Van de mening van de lijstlijst, klik het **Open pictogram van details** pictogram ![ Open detailspictogram op het gebied van de lijstnaam ](assets/open-details-icon-in-table-name-field.png) in de eerste kolom.
 
    De voorvertoning van de record wordt in de weergave geopend.
 
    <!--<div class="preview">
 
-    ![](assets/details-box.png) 
+    ![Details box](assets/details-box.png) 
 
     </div>-->
 
-1. (Facultatief) klik **Open in nieuw lusje** pictogram ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in de hoger-juiste hoek van de verslagvoorproef om de pagina van het verslag in een nieuw lusje te openen.
+1. (Facultatief) klik **Open in nieuw lusje** pictogram ![ Open detailsdoos in een nieuw lusjepictogram ](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in de hoger-juiste hoek van de verslagvoorproef om de pagina van het verslag in een nieuw lusje te openen.
 
    Het **lusje van Details** van het verslag opent door gebrek.
 
    <!--<div class="preview">
 
-   ![](assets/details-page.png)
+   ![Details page](assets/details-page.png)
 
    </div>-->
 
-1. In het verslag **Details** lusje, klik de **greep** pictogram ![](assets/grab-icon.png) links van een gebiedsnaam, dan belemmering en laat vallen het op een gewenste plaats. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
+1. In het verslag **Details** lusje, klik het **greep** pictogram ![ pictogram van het Grab ](assets/grab-icon.png) aan de linkerzijde van een gebiedsnaam, dan belemmering en laat vallen het op een gewenste plaats. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
 
    De nieuwe positie van het veld wordt bijgewerkt in zowel de voorvertoning als de pagina van alle records van hetzelfde type voor alle gebruikers die de records bekijken.
 
@@ -268,40 +268,64 @@ De volgende dingen doen zich voor:
 
 ## Een pagina van de verbindingsweergave toevoegen aan de pagina van een record
 
+<!--suggested a new name for this type of page: "Connected records details" - check to see if this changed-->
+
 Houd rekening met het volgende wanneer u een verbindingsweergave toevoegt aan de pagina van een record:
 
 * U kunt een pagina van de mening van de Verbinding aan de pagina van een verslag toevoegen.
 
 * U kunt geen pagina van de mening van de Verbinding aan het voorproefgebied van een verslag toevoegen.
 
-* Op pagina&#39;s in de verbindingsweergave wordt één verbonden recordpagina weergegeven in de tabelweergave. De tabelweergave is alleen-lezen.
+* Op pagina&#39;s in de verbindingsweergave wordt één verbonden recordpagina weergegeven in de tabelweergave. De tabelweergave is alleen-lezen. <!--more views might be added in the future-->
 
 * U kunt één pagina van de mening van de Verbinding per elk verbonden verslagtype toevoegen.  <!--edit this when we can remove fields from this page-->
 
-* Nadat u een pagina van de mening van de Verbinding aan de pagina van een verslag toevoegt, is de pagina zichtbaar van het voorproefgebied van het verslag.
+* Nadat u een pagina van de de meningsmening van de Verbinding aan de pagina van een verslag toevoegt, is het paginatabusje zichtbaar van het voorproefgebied van het verslag. U moet naar de volledige pagina gaan om de lijstmening voor het verbonden verslag te zien. <!--this might have changed? check and take disclaimer out-->
 
 Een pagina van de verbindingsweergave toevoegen:
 
-1. Van een mening van de verslagpagina, klik de naam van een verslag om het te openen, dan klik **Open in nieuw lusje** pictogram ![](assets/open-details-in-a-new-tab-icon.png) in de hoger-juiste hoek van de voorproefpagina.
+1. Van een mening van de verslagpagina, klik de naam van een verslag om het te openen, dan klik **Open in nieuw lusje** pictogram ![ Open details in een nieuw lusjepictogram ](assets/open-details-in-a-new-tab-icon.png) in de hoger-juiste hoek van de voorproefpagina.
 1. Klik **toevoegen pagina** > **mening van de Verbinding**.
 
-   ![](assets/add-connection-view-page-modal.png)
+   ![ voeg modaal de pagina van de verbindingsmening ](assets/add-connection-view-page-modal.png) toe
 1. Voeg de **naam van de Pagina** toe, klik **mening van de Verbinding**, dan klik **creeer**.
 
    Er wordt een nieuw tabblad toegevoegd aan de pagina van de record.
 1. Zoek of klik op de naam van een verbonden record of objecttype in de lijst.
 De tabelweergave van het geselecteerde recordtype wordt weergegeven en de verbonden records worden weergegeven in de tabelweergave.
-De tabelweergave is alleen-lezen.
+Alle velden van de verbonden record worden weergegeven in de tabelweergave van het tabblad van de verbonden record.
 
-   ![](assets/audience-connected-table-view-under-campaign-details-page.png)
+   <!--<span class="preview">When you access Workfront Planning from the Preview environment, five fields from the connected record display in the connected record's table view by default. Some connection fields display in addition to other fields. All lookup fields are hidden.</span> (*****be more specific about which connected fields show, if Robert responds*******)-->
+
+   De tabelweergave is alleen-lezen.
+
+   <!--replace screen shot below when additional capabilities come to the table view - Fields, etc-->
+
+   ![ Publiek verbonden lijstmening onder campagnedetails ](assets/audience-connected-table-view-under-campaign-details-page.png)
 1. (Optioneel) Dubbelklik op de naam van de tab
 
    of
 
-   Beweeg over de naam van het lusje, dan klik **Meer** ![](assets/more-menu.png), dan klik **anders noemen** om aan nieuw Verbonden meningslusje anders te noemen.
-1. (Optioneel) Gebruik alle weergave-elementen op de werkbalk om de tabelweergave te beheren. Voor informatie, zie [ de lijstmening ](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
-1. (Facultatief) Beweeg over de naam van het lusje, dan klik **Meer** ![](assets/more-menu.png), dan klik **Schrapping** om aan nieuw Verbonden meningslusje te verwijderen.
+   Beweeg over de naam van het lusje, dan klik **Meer** ![ Meer menu ](assets/more-menu.png), dan klik **anders noemen** om aan nieuw Verbonden meningslusje anders te noemen.
+1. (Optioneel) Gebruik een van de volgende weergave-elementen op de werkbalk om de tabelweergave te beheren
 
+   * Filters
+   * Sorteren
+   * Groepering
+
+   <!--Add to the list above some of the capabilities in the note with a preview tag when they are available.-->
+
+   Voor informatie, zie [ de lijstmening ](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
+
+   >[!NOTE]
+   >
+   >   U kunt geen van de volgende handelingen uitvoeren in de tabelweergave van het tabblad van een verbonden record:
+   >
+   >   * Velden verbergen
+   >   * Velden maken, bewerken of verwijderen
+   >   * Velden opnieuw rangschikken
+   >
+1. (Facultatief) Beweeg over de naam van het lusje, dan klik **Meer** ![ Meer menu ](assets/more-menu.png), dan klik **Schrapping** om aan nieuw Verbonden meningslusje te verwijderen.
 
 
 <!--

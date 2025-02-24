@@ -6,9 +6,9 @@ description: Een programma vertegenwoordigt een inzameling van projecten die een
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 7fc2239de2488d2e3e5c434ab45e8a1d24c0b28f
 workflow-type: tm+mt
-source-wordcount: '1120'
+source-wordcount: '1243'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 0%
 # Een programma maken
 
 <!-- Audited: 1/2024 -->
+
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 Een programma vertegenwoordigt een inzameling van projecten die een gemeenschappelijke strategie, een doelstelling, of een doel delen die projectgrenzen overschrijden.
 Programma&#39;s zijn een onderverdeling van portefeuilles en kunnen niet bestaan buiten een portefeuille. De programma&#39;s delen typisch de zelfde middelen zoals andere programma&#39;s binnen de zelfde portefeuille.
@@ -69,6 +73,18 @@ U kunt in Workfront een programma maken met een van de volgende methoden:
   Als Workfront-beheerder kunt u programma&#39;s importeren met behulp van een startfunctie.
 
   Voor informatie over het invoeren van gegevens gebruikend schop-begin in Workfront, zie [ Gegevens van de Invoer in Adobe Workfront gebruikend een Kick-Begin malplaatje ](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+
+<div class="preview">
+
+* Voeg programma&#39;s toe aangezien u hen van een verslagtype in de Planning van Workfront verbindt.
+
+  U moet een nieuwe Workfront-licentie en een extra Workfront Planning-pakket voor Workfront Planning hebben.
+
+  Voor informatie over toegang tot de Planning van Workfront, zie [ Overzicht van de Toegang ](/help/quicksilver/planning/access/access-overview.md).
+
+  Voor informatie over het creëren van portefeuilles door hen aan verslagen toe te voegen, zie de sectie &quot;verslagen tot stand brengen aangezien u hen&quot;in artikel [ verbindt tot verslagen ](/help/quicksilver/planning/records/create-records.md).
+
+</div>
 
 ## Een programma maken
 

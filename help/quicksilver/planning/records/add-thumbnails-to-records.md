@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 7fc2239de2488d2e3e5c434ab45e8a1d24c0b28f
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '913'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-platform</p></td> 
    <td> 
-<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden genegeerd om tot alle mogelijkheden van de Planning van Workfront te kunnen toegang hebben.</p> 
+<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden bezeten om tot alle mogelijkheden van de Planning van Workfront toegang te hebben.</p> 
 <p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
    </td> 
    </tr> 
@@ -132,9 +132,9 @@ U kunt op de volgende manieren een miniatuur toevoegen:
 
    Hierdoor wordt de pagina met recordtypen geopend.
 1. Selecteer een lijstmening van het **drop-down menu van de Mening**. Alle verslagen van het type u selecteerde tonen in een lijst.
-1. Beweeg over de primaire gebiedsinformatie, klik **Meer** menu ![](assets/more-menu.png), dan klik **Duimnagel**.
+1. Beweeg over de primaire gebiedsinformatie, klik **Meer** menu ![ Meer menu ](assets/more-menu.png), dan klik **Duimnagel**.
 
-   ![](assets/record-more-menu-expanded.png)
+   ![ Verslag meer uitgevouwen menu ](assets/record-more-menu-expanded.png)
 
    >[!TIP]
    >
@@ -180,15 +180,15 @@ U kunt op de volgende manieren een miniatuur toevoegen:
 1. Klik vanuit een willekeurige weergave op een record om deze te openen.
 
    Het detailvoorbeeld wordt weergegeven.
-1. (Facultatief) klik **Open in nieuw lusje** pictogram ![](assets/open-details-in-a-new-tab-icon.png) in de hoger-juiste hoek.
+1. (Facultatief) klik **Open in nieuw lusje** pictogram ![ Open details in een nieuw lusjepictogram ](assets/open-details-in-a-new-tab-icon.png) in de hoger-juiste hoek.
 
    De detailpagina van de record wordt geopend.
 
-1. (Voorwaardelijk) in de verslagvoorproef of detailspagina, houd over het duimnagelbeeld of pictogram ![](assets/record-thumbnail-icon-on-details-page.png), dan beweegt over de ruimte boven de verslagnaam, dan klik **duimnagel** toevoegen of **geeft duimnagel** uit.
+1. (Voorwaardelijk) in de verslagvoorproef of detailspagina, houd over het duimnagelbeeld of pictogram van het pictogram ![ duimnagel van het Verslag op detailspagina ](assets/record-thumbnail-icon-on-details-page.png), dan klap over de ruimte boven de verslagnaam, dan klik **duimnagel** toevoegen of **geeft duimnagel** uit.
 
    Het **uploadt** lusje opent door gebrek in de **duimnagel van het Verslag** doos.
 
-   ![](assets/record-thumbnail-box-for-upload.png)
+   ![ de duimnageldoos van het Verslag voor upload ](assets/record-thumbnail-box-for-upload.png)
 
 1. Een bestand slepen en neerzetten om als miniatuur toe te voegen
 
@@ -197,12 +197,12 @@ U kunt op de volgende manieren een miniatuur toevoegen:
    Klik **doorbladert beelden**, dan doorblader voor een beelddossier om toe te voegen. Het bestand moet op uw computer worden opgeslagen.
 
 1. (Facultatief) na het beeld uploadt in de **duimnagel van het Verslag** doos, gebruik het het rangschikken hulpmiddel om het beeld uit te snijden en resize.
-1. (Optioneel) Klik op het pictogram **Nieuwe afbeelding uploaden ![](assets/upload-new-image-icon.png) om een ander beeld te uploaden.**
+1. (Optioneel) Klik op het pictogram **Nieuwe afbeelding uploaden ![ ](assets/upload-new-image-icon.png) om een ander beeld te uploaden.**
 1. (Facultatief) klik de **Galerij** tabel, dan klik een beeld. De galerie met afbeeldingen kan niet worden gewijzigd.
 
-   ![](assets/record-thumbnail-box-for-gallery.png)
+   ![ de duimnageldoos van het Verslag voor galerij ](assets/record-thumbnail-box-for-gallery.png)
 
-1. (Facultatief) om de duimnagel te verwijderen alvorens het wordt bewaard, klik **verwijder** pictogram ![](assets/remove-image-icon.png) rechts van het beeld.
+1. (Facultatief) om de duimnagel te verwijderen alvorens het wordt bewaard, **verwijder** pictogram ![ verwijder beeldpictogram ](assets/remove-image-icon.png) rechts van het beeld.
 
 1. Klik **beeld van het Gebruik** om het beeld als duimnagel toe te voegen.
 Dit sluit de **duimnagel van het Verslag** doos.
@@ -212,7 +212,7 @@ De miniatuur wordt weergegeven in gebieden van Workfront Planning waar de record
    >
    >   Als u miniaturen wilt weergeven in deze weergave, moet u het veld Miniatuur in de tabelweergave inschakelen. Deze optie is standaard uitgeschakeld.
 
-1. (Facultatief) om de duimnagel te verwijderen nadat het wordt bewaard, klik een verslag in om het even welke mening om de detailspagina te openen, dan over het duimnagelbeeld te houden en **Meer** menu ![](assets/more-menu.png) te klikken > **verwijdert** pictogram ![](assets/remove-image-icon.png). De miniatuurafbeelding wordt verwijderd.
+1. (Facultatief) om de duimnagel te verwijderen nadat het wordt bewaard, klik een verslag in om het even welke mening om de detailspagina te openen, dan te bewegen over het duimnagelbeeld en **Meer** menu ![ Meer menupictogram ](assets/more-menu.png) > **verwijder** pictogram ![ verwijder pictogram ](assets/remove-image-icon.png). De miniatuurafbeelding wordt verwijderd.
 
 
 
