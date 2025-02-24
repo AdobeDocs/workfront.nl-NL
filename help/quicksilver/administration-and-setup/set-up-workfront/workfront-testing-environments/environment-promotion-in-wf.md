@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 9a588df1ef48b40056c5228c8ff03b5819eb4410
+source-git-commit: 0cc1ab3a7412b7200ddab1a789ef5e9d86c3949f
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1046'
 ht-degree: 0%
 
 ---
@@ -82,8 +82,8 @@ Omdat de bevordering van het milieu objecten configuratie behandelt, zijn de tra
 | Rol (ROLE) | Rol |
 | Team (TEAM) | Team <br> Groep |
 | Bedrijf (CMPY) | Het bedrijf <br> het Tarief van de Overschrijving <br> Categorie <br> <br> Parameter <br> de Groep van de Parameter <br> Parameter <br> van de Categorie van de Logica van de Vertoning <br> Groep |
-| Portfolio (HAVEN) | Portfolio <br> de Groep van het 1} {<br> Categorie <br> <br> Parameter van de Categorie {<br> van de Parameter van de Groep van de Parameter {<br> Logische van de Vertoning van de Categorie<br><br> |
-| Programma (PRGM) | Het Portfolio van het programma <br> <br> Categorie <br> <br> Parameter van de Categorie <br> Van de Groep van de Parameter van de 1} <br> Categorie van de Logische Logica van de Vertoning van de Partij van de Partij van de Partij van de Categorie {<br><br> |
+| Portfolio (PORT) | Portfolio <br> van de Groep van het 1} {<br> Categorie <br> <br> Parameter <br> van de Parameter {<br> Optie van de Parameter van de 6} <br> Logische van de Vertoning van de Categorie<br> |
+| Programma (PRGM) | Het programma <br> van de Groep van Portfolio <br> <br> Categorie <br> Parameter <br> Van de Groep van de Parameter {<br> Logische van de Vertoning van de Categorie van de Categorie van de Optie van de Partij van de Parameter {<br><br> |
 
 ### Andere configuratieobjecten
 
@@ -100,6 +100,7 @@ Omdat de bevordering van het milieu objecten configuratie behandelt, zijn de tra
 | Toegangsniveau (ACSLVL) | Toegangsniveau |
 | Rate Card (RTCRD) | Creditcard |
 | Locatie/classificator (CLSF) | Locatie/classificator |
+| Bedrijfsvoorschriften (BSNRUL) | Zakelijke regels |
 
 \* Momenteel niet beschikbaar
 
