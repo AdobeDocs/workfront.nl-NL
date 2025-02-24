@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 0cbce301426ee42bc00f8b0930a13d0d7875e382
+source-git-commit: bb6697241701160f878dc3fde2c7dd4d57ec097e
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1449'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,10 @@ Als Adobe-beheerder kunt u Adobe Workfront-systeembeheerders maken met de Adobe 
 
 >[!NOTE]
 >
->We raden u aan om gebruikers die geen systeembeheerders zijn, rechtstreeks toe te voegen in Workfront. Het is mogelijk om gebruikers toe te voegen in de Adobe Admin Console, maar als u ze toevoegt in Workfront, kunt u hun toegangsniveau instellen terwijl u ze maakt. Op die manier kunt u tijd besparen.
+>* **de Beheerders van Workfront moeten in Adobe Admin Console worden gevormd.** voor informatie en instructies, zie [ systeembeheerders in Workfront met Adobe Admin Console ](#create-system-administrators-in-workfront-with-the-adobe-admin-console) in dit artikel creëren.
+>* **als uw organisatie Enige Sign-On (SSO)** gebruikt, adviseren wij het creëren van gebruikers en het toewijzen van hen aan Workfront in Adobe Admin Console. Het is mogelijk deze gebruikers te maken in Workfront, maar er kunnen zich problemen voordoen bij het doorgeven van die informatie naar de Adobe Admin Console, op basis van de configuratie van de Admin Console van uw organisatie.
+>   Nadat u de gebruiker in de Adobe Admin Console hebt gemaakt, kunt u de gebruikersgegevens in Workfront configureren, zoals het toewijzen van rollen, groepen, teams en toegangsniveaus.
+>* **als uw organisatie geen Enige Sign-On (SSO)** gebruikt, kunt u niet-systeembeheerdergebruikers direct in Workfront toevoegen. Het is mogelijk om gebruikers toe te voegen in de Adobe Admin Console, maar als u ze toevoegt in Workfront, kunt u hun toegangsniveau instellen terwijl u ze maakt. Op die manier kunt u tijd besparen.
 
 <span class="preview"> wanneer het aanbrengen van veranderingen in gebruikersprofielen van Admin Console, wordt een update toegevoegd aan het de activiteitslusje van het Systeem van de gebruiker in Workfront. De update wordt weergegeven zoals deze door het &quot;Systeem&quot; is gemaakt. Dit verwijst naar de beheerder van Adobe Admin Console en niet naar de belangrijkste Beheerder van Workfront.</span>
 

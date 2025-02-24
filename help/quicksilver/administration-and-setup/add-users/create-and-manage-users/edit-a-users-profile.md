@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: bb6697241701160f878dc3fde2c7dd4d57ec097e
 workflow-type: tm+mt
-source-wordcount: '3276'
+source-wordcount: '3325'
 ht-degree: 0%
 
 ---
@@ -86,8 +86,8 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
       <td> 
        <ul> 
         <li><p><b>Voornaam</b></p></li>
-        <li><p><b>Achternaam</b></p></li> 
-        <li> <p><b> E-mailadres:</b> het e-mailadres voor een gebruiker is ook hun gebruikersbenaming in Workfront. Dit veld is hoofdlettergevoelig en moet uniek zijn. Als een gebruiker drie keer probeert een niet-uniek e-mailadres toe te voegen binnen een venster van 10 minuten, wordt een reCAPTCHA-reactie weergegeven.</p> <p> Selecteer <b> ik ben geen robot </b> het plaatsen alvorens u kunt te werk gaan.</p><p>Als u de e-maillijst van gewenste personen gebruikt en een e-maildomein invoert dat niet in de lijst voorkomt, ontvangt de gebruiker geen e-mailberichten. Voor meer informatie over de lijst van gewenste personen, zie <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md" class="MCXref xref"> uw e-maillijst van gewenste personen </a> vormen.</p> </li> 
+        <li><p><b>Achternaam</b></p><p><b>OPMERKING:</b></p><p>Als u de naam van een gebruiker bewerkt in Workfront, wordt de naam van de gebruiker niet bewerkt in de Adobe Admin Console.</p></li> 
+        <li> <p><b> E-mailadres:</b> het e-mailadres voor een gebruiker is ook hun gebruikersbenaming in Workfront. Dit veld is hoofdlettergevoelig en moet uniek zijn. Als een gebruiker drie keer probeert een niet-uniek e-mailadres toe te voegen binnen een venster van 10 minuten, wordt een reCAPTCHA-reactie weergegeven.</p> <p> Selecteer <b> ik ben geen robot </b> het plaatsen alvorens u kunt te werk gaan.</p><p>Als u de e-maillijst van gewenste personen gebruikt en een e-maildomein invoert dat niet in de lijst voorkomt, ontvangt de gebruiker geen e-mailberichten. Voor meer informatie over de lijst van gewenste personen, zie <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md" class="MCXref xref"> uw e-maillijst van gewenste personen </a> vormen.</p><p>Als uw organisatie naar de Adobe Admin Console is gemigreerd, kunt u het e-mailadres van een gebruiker niet bewerken in Workfront. Het e-mailadres van de gebruiker wordt ingesteld in de Adobe Admin Console. </li> 
         <li> <p><b> Wachtwoord van het Terugstellen </b>: Klik deze verbinding om het wachtwoord van de gebruiker terug te stellen. U moet uw eigen wachtwoord invoeren voordat u het wachtwoord van een andere gebruiker opnieuw kunt instellen.</p> <p>Als u het wachtwoord van een andere gebruiker opnieuw wilt instellen, moet u een Workfront-beheerder of een groepsbeheerder zijn.</p> <p><b> NOTA </b>:  
           <ul> 
            <li> <p>Als u een groepsbeheerder bent, kunt u wachtwoorden slechts voor gebruikers in de groepen terugstellen waar u als beheerder wordt aangewezen. Ook, moet de toestemming van Admin van de Gebruiker (de Gebruikers van de Groep) op uw toegangsniveau worden toegelaten:</p> <p> <img src="assets/group-admin-user.png" > </p> <p>Deze instelling is standaard uitgeschakeld. Voor meer informatie, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </li> 
