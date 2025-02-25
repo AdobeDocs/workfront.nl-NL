@@ -1487,10 +1487,12 @@ ht-degree: 0%
       * Rapporttypen voor Canvas-dashboard {#report-types}
          * [Overzicht van de rapporttypen voor Canvas-dashboard](reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
          * [Een bestaand rapport toevoegen aan een Canvasdashboard](reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
-        <!--* [Build a KPI report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
-      * [Build a chart report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
-      * [Build a table report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
-      * [Add a pending approvals report to a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)-->
+<!--
+         * [Build a KPI report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
+         * [Build a chart report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
+         * [Build a table report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
+         * [Add a pending approvals report to a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)
+-->
    * Rapporten {#reports}
       * [Rapporten](reports-and-dashboards/reports/reports-overview.md)
       * Grondbeginselen van rapporten {#report-basics}
