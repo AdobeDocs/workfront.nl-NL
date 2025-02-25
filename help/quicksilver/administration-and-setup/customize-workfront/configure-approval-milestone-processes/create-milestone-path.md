@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
+source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,10 @@ ht-degree: 0%
 <!--
 NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
+
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Als beheerder van Adobe Workfront, kunt u milestone wegen tot stand brengen die dan op om het even welk project in het systeem kunnen worden toegepast. De wijzigingen die u aanbrengt in paden met mijlpalen op dit gebied, zijn van invloed op het hele Workfront-systeem.
 
@@ -116,3 +120,38 @@ Voor meer informatie over hoe u een milestone weg met een project en een mijlpaa
    Uw milestone-pad kan aan een project worden gekoppeld.
 
    Voor meer informatie over hoe te om milestone wegen aan projecten en mijlpalen aan taken te associëren, zie [ mijlpalen met taken ](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md) associëren.
+
+
+## Details van mijlpaden weergeven in een rapport
+
+U kunt de details van een mijlpaden in een projectrapport bekijken.
+
+U moet een milestone-pad aan een project koppelen voordat u de details in een projectrapport kunt zien.
+
+Voor informatie over het associëren van mijlpaden aan projecten, zie [ projecten ](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+
+{{step1-to-reports}}
+
+1. Klik **Nieuw Rapport**, dan klik **Project**.
+1. Klik **toevoegen Kolom**.
+1. In **toon in dit kolom** gebied, begin **Weg van de Mijlsteen** te typen, dan klik **Naam van de Weg van de Mijlsteen** wanneer het toont.
+1. (Facultatief) klik **Filters** en voeg de volgende filter aan het rapport toe: **identiteitskaart van de Weg van de Mijlpaal van het Project is niet leeg**.
+
+   Het filter zorgt ervoor dat u slechts projecten toont die met een milestone weg in het rapport worden geassocieerd.
+
+1. Klik **sparen + Sluiten**.
+1. Voeg een naam voor uw rapport toe, dan klik **van toepassing zijn**.
+
+   De vertoningen van het projectrapport. De mijlpaden verbonden aan elke projectvertoning in de laatste kolom van het rapport.
+1. Klik de naam van een milestone weg in de laatste kolom van het rapport.
+
+   De details van het pad van de mijlpaal worden weergegeven. Details over elke mijlpaal worden ook weergegeven.
+
+   ![ de wegdetails van de mijlpaal van projectrapport ](assets/milestone-details-from-project-report.png)
+
+   <!--replace screen shot above with unshimming and mark it for Preview-->
+
+1. (Optioneel) Klik op **Terug** om terug te gaan naar het projectrapport.
+
+
+

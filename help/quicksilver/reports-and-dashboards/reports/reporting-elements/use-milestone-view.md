@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: reporting-elements
 title: De milestone-weergave gebruiken
-description: U kunt de mening van de Mijlpaal op een projectlijst of een rapport toepassen.
+description: U kunt de mening van de Mijlpaal op een projectlijst of een rapport toepassen. U kunt de mening van de Mijlpaal gebruiken om alle mijlpalen te bekijken die met taken binnen de projecten worden geassocieerd u bekijkt.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1360'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,13 @@ ht-degree: 0%
 
 <!-- Audited: 11/2024 -->
 
-U kunt de mening van de Mijlpaal op een projectlijst of een rapport toepassen.
+U kunt de mening van de Mijlpaal op een projectlijst of een rapport toepassen. U kunt de mening van de Mijlpaal gebruiken om alle mijlpalen te bekijken die met taken binnen de projecten worden geassocieerd u bekijkt.
 
-Alvorens u de milestone mening kunt gebruiken, moeten de Mijlpalen worden gevormd, moeten de Wegen van de Mijlsteen aan projecten worden toegevoegd, en de Mijlpalen moeten met taken worden geassocieerd, zoals die in de artikelen [ worden beschreven leidt tot een milestone weg ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) en [ Verwante mijlpalen met taken ](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
+Voordat u de milestone-weergave kunt gebruiken, moeten de volgende elementen bestaan:
+
+* De wegen van mijlpalen worden gevormd. Voor informatie, zie [ een milestone weg ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) creëren.
+* Mijlpaden die nodig zijn, worden toegevoegd aan projecten. Voor informatie, zie [ projecten ](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+* Mijlpalen zijn gekoppeld aan taken. Voor informatie, zie [ mijlpalen met taken ](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md) associëren.
 
 De mening van de Mijlpaal is beschikbaar wanneer het bekijken van een projectlijst of een projectrapport. De volgende secties beschrijven om de milestone mening te bekijken en te gebruiken.
 
