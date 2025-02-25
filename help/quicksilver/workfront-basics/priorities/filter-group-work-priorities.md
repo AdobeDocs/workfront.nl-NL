@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 223e84eaccbfddb9a798af2528f4d33060bf60f2
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # Filter en groepeer uw werk met Prioriteiten
 
 U kunt filters gebruiken om het werk te vinden u zoekt en dan een groepering toepast om het te houden georganiseerd.
+
+Prioriteiten geven de werkitems weer die aan u zijn toegewezen. U kunt de werkitems die aan uw team zijn toegewezen, niet zien in de werklijst Prioriteiten.
 
 ## Toegangsvereisten
 
@@ -129,7 +131,7 @@ U kunt taken en kwesties filtreren die aan u worden toegewezen.
 
 ## Uw werk filteren met slimme filters
 
-Gebruik natuurlijke taal om werk snel te filteren. Uw instantie van Workfront moet op een nieuw plan van Workfront zijn en op de Adobe Verenigde Ervaring worden toegelaten. Voor meer informatie, zie [ Adobe Verenigde Ervaring voor Workfront ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+Gebruik natuurlijke taal om werk snel te filteren. Uw Workfront-instantie moet zich op een nieuw Workfront-plan bevinden en ingeschakeld zijn op de Adobe Unified Experience. Voor meer informatie, zie [ Adobe Verenigde Ervaring voor Workfront ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 {{step1-to-priorities}}
 

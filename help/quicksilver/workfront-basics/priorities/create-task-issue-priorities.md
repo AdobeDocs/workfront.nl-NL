@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 240cda0f-0acf-4b5c-872d-b7f5cee0b769
-source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader"><strong>Adobe Workfront-licentie*</strong></td> 
    <td> 
    <p>Huidig: Verzoek of hoger om verzoeken; Controleren of hoger voor problemen; Werk of hoger voor taken</p>
-   <p>Nieuw: Medewerker of hoger voor verzoeken; Licht of hoger voor problemen <!--and documents-->: standaard of hogere taken</p> 
+   <p>Nieuw: Medewerker of hoger voor verzoeken; Licht of hoger voor problemen en documenten: Standaard of hogere taken</p> 
    </td> 
   </tr> 
   <tr> 
@@ -57,7 +57,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Taken of problemen met prioriteiten maken
 
-U kunt een taak of een kwestie in een project tot stand brengen.
+U kunt een taak of een kwestie in een project tot stand brengen. Prioriteiten geven de werkitems weer die aan u zijn toegewezen. U kunt de werkitems die aan uw team zijn toegewezen, niet zien in de werklijst Prioriteiten.
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ Een taak of kwestie in een project tot stand brengen:
 
 1. Klik **creëren nieuw** in de hoger-juiste hoek.
    ![](assets/create-new.png)
-&lt;!—nieuw scherm voor prod ![](assets/create-new--.png)—>
+nieuw scherm voor prod ![](assets/create-new--.png)
 1. Geef de volgende informatie op:
 
    | Veld | Instructies |

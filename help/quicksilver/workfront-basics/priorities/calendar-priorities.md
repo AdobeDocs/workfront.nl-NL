@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: d24ad7d1-3a88-479e-beaf-69f8264c9a6b
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '537'
 ht-degree: 0%
 
 ---
@@ -65,6 +65,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 +++
 
 ## Uw werk bekijken in de agenda
+
+Prioriteiten geven de werkitems weer die aan u zijn toegewezen. U kunt de werkitems die aan uw team zijn toegewezen, niet zien in de Prioriteitenkalender.
 
 {{step1-to-priorities}}
 

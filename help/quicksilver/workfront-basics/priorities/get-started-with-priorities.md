@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '1019'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Met Prioriteiten kunt u genieten van
 * Dagelijkse taken beheren en prioriteit geven: uw dag of week ordenen met geconsolideerde navigatie voor meer duidelijkheid
 * Grotere productiviteit: Toegang tot projectcontext en voer taken sneller uit met minder klikken
 * Persoonlijke functies: profiteer van functies die speciaal voor taakeigenaars zijn ontworpen
+
+De de werklijst van Prioriteiten en punten van het kalendervertoningswerk die aan u worden toegewezen. U kunt geen werkitems zien die aan uw team zijn toegewezen.
 
 ## Uw werk zoeken en ordenen
 

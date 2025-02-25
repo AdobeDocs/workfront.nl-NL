@@ -5,17 +5,19 @@ description: U slaat koppelingen op die u vaak bezoekt in een taak of uitgave bi
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 75396c3f066abc6070ae2a89c2ded0255dbc0751
+exl-id: 2d76077d-2913-40b8-9596-4e201d12ec1a
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
 
-
 # Snelle koppelingen toevoegen en beheren in Prioriteiten
 
 U kunt koppelingen die u vaak in een taak of uitgave bezoekt, opslaan en openen via het tabblad Overzicht in Prioriteiten.
+
+Prioriteiten geven de werkitems weer die aan u zijn toegewezen. U kunt geen werkitems zien die aan uw team zijn toegewezen.
 
 ## Toegangsvereisten
 
