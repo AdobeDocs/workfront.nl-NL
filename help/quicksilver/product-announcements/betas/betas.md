@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c46e625f-b3d5-4bdd-827b-5b16493cdc6b
-source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '55'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ In de artikelen die op deze pagina zijn gekoppeld, worden de bètaprogramma&#39;
 
 De volgende artikelen bevatten informatie over functies die momenteel in bèta worden gebruikt:
 
-* [Overzicht van canvasdashboards](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
+* [bètagegevens van dashboards op canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
 
 
 <!--

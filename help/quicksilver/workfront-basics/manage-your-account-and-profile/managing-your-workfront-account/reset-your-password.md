@@ -6,9 +6,9 @@ description: U kunt uw  [!DNL Adobe Workfront]  wachtwoord terugstellen. Als bel
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,9 @@ U kunt het wachtwoord van [!DNL Adobe Workfront] opnieuw instellen. Als belangri
 
 ## Toegangsvereisten
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
+U moet het volgende hebben:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,17 +38,28 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
-   <td> <p>[!UICONTROL Request] of hoger</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie</strong></td> 
+   <td> 
+      <p>Nieuw:</p>
+         <ul>
+         <li><p>Medewerker of hoger</p></li>
+         </ul>
+      <p>Huidige:</p>
+         <ul>
+         <li><p>Aanvraag of hoger</p></li>
+         </ul>
+   </td>
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement- of licentietype u hebt.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Uw wachtwoord opnieuw instellen in [!DNL Adobe Workfront]
 

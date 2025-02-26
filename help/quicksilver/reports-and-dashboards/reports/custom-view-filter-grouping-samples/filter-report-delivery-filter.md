@@ -7,7 +7,7 @@ description: Dit rapportfilter geeft alle rapporten weer die automatisch worden 
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 7b937384-80c9-4bc7-94be-5573cf86b35b
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 0%
@@ -65,8 +65,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 Dit filter toepassen:
 
 1. Ga naar een lijst met rapporten.
+
 1. Van het **drop-down menu van de Filter**, uitgezochte **Nieuwe Filter**.
 
 1. Klik **Schakelaar aan de Wijze van de Tekst**.
-1. In het **plaats de Regels van de Filter voor uw gebied van het Rapport**, kopieer en kleef de volgende code: `scheduledReportID=0<br>scheduledReportID_Mod=notnull`
+
+1. In het **plaats de Regels van de Filter voor uw gebied van het Rapport**, kopieer en kleef de volgende code:
+
+   ```
+   scheduledReportID=0
+   scheduledReportID_Mod=notnull
+   ```
+
 1. Klik **sparen Filter**.

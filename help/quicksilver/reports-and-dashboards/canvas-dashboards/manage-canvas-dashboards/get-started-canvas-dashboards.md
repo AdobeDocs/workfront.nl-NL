@@ -6,9 +6,9 @@ description: Basisinstructies voor het gebruik van Canvasdashboards, zoals hoe u
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 43456634-f891-4262-93be-bdb9e7d58c77
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '610'
 ht-degree: 0%
 
 ---
@@ -23,11 +23,11 @@ Met Canvasdashboards kunt u uw Adobe Workfront-gegevens gemakkelijk visualiseren
 
 ## Vereisten
 
-* U moet beschikken over een planlicentie (huidige licenties) of een standaardlicentie (nieuwe licenties) om een Canvas-dashboard te maken.\
-  Voor informatie over de licentietypen van Workfront, zie [ Overzicht van Vergunningen ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) voor huidige vergunningen, en [ Overzicht van Nieuwe vergunningen ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) voor nieuwe vergunningen.
+* Uw organisatie moet deel uitmaken van de gesloten bètaversie van Canvasdashboards. Voor informatie, zie {de bètainformatie van de dashboards van het 0} Canvas ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).[
 
-* Uw Workfront-beheerder moet u toegang geven tot het bewerken van dashboards in uw toegangsniveau om een Canvasdashboard te maken of te bewerken.\
-  Voor informatie over het verlenen geeft toegang voor dashboards uit, zie [ toegang van de Verlening tot rapporten, dashboards, en kalenders ](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+* U moet beschikken over een planlicentie (huidige licenties) of een standaardlicentie (nieuwe licenties) om een Canvas-dashboard te maken. Voor informatie over de licentietypen van Workfront, zie [ Overzicht van Vergunningen ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) of [ het Nieuwe overzicht van vergunningen ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+
+* Uw Workfront-beheerder moet u toegang tot dashboards in uw toegangsniveau geven om een dashboard van het Canvas te creëren of uit te geven. Voor informatie over het verlenen geeft toegang uit, zie [ Toegang verlenen tot rapporten, dashboards, en kalenders ](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 ## Navigeren naar een canvasdashboard
 

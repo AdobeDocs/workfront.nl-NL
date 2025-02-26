@@ -7,7 +7,7 @@ description: U kunt items uit een lijst filteren door twee van de velden te verg
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 6a41db8e-1456-4031-bf2a-ca6d4111ad44
-source-git-commit: 4532e08bddf993426e9d4eed6f7f8bd638663188
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 0%
@@ -74,6 +74,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Klik **wijze van de Tekst**.
 1. Voeg de volgende code toe in het weergegeven gebied:
 
-   `actualCompletionDate=FIELD:plannedCompletionDate<br>actualCompletionDate_Mod=gt`
+   ```
+   actualCompletionDate=FIELD:plannedCompletionDate
+   actualCompletionDate_Mod=gt
+   ```
 
 1. Klik **toepassen** > **sparen als nieuw**.

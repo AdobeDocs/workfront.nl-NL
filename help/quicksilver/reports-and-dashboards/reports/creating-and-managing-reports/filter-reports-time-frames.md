@@ -6,9 +6,9 @@ description: U kunt een rapport filteren tegen het tijdkader van een datum die o
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1027'
 ht-degree: 0%
 
 ---
@@ -129,11 +129,11 @@ Voor meer informatie bij het creëren van rapporten, zie [ een rapport ](../../.
 
 ## Ingebouwde tijdframewijzigingstoetsen {#built-in-time-frame-modifiers}
 
-Adobe Workfront heeft ingebouwde tijdframemodifiers die u kunt gebruiken zonder een specifieke datum te definiëren. 
+Adobe Workfront heeft ingebouwde tijdframemodifiers die u kunt gebruiken zonder een specifieke datum te definiëren.
 
-Deze bepalingen zijn beschikbaar voor om het even welk datumgebied in een filter of een herinnering in om het even welk rapport. 
+Deze bepalingen zijn beschikbaar voor om het even welk datumgebied in een filter of een herinnering in om het even welk rapport.
 
-Voor meer informatie over hoe te om een rapport tegen een tijdkader te filtreren verbonden aan een datum, zie  [ filter een rapport tegen het tijdkader van een datum ](#filter-a-report-by-the-time-frame-of-a-date).
+Voor meer informatie over hoe te om een rapport tegen een tijdkader te filtreren verbonden aan een datum, zie de bovengenoemde sectie [ een rapport tegen het tijdkader van een datum ](#filter-a-report-by-the-time-frame-of-a-date) filtreren.
 
 Bijvoorbeeld, als u een uurrapport bouwt en uren ingegaan in een specifiek tijdkader zou willen tonen, kunt u van de volgende ingebouwde opties van de tijdkaderfilter kiezen:
 

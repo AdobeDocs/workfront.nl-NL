@@ -9,9 +9,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -41,10 +41,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Nieuw abonnement: standaard </p>
- <p>of</p> 
-<p>Huidig plan: Plan </p> 
-</td> 
+   <td> 
+      <p>Nieuw:</p>
+         <ul>
+         <li><p>Standaard</p></li>
+         </ul>
+      <p>Huidige:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
  </tbody> 
 </table>

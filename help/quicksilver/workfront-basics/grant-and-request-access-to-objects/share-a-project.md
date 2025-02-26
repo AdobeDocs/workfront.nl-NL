@@ -6,9 +6,9 @@ description: Uw Adobe Workfront-beheerder kan u toegang verlenen tot weergave- o
 author: Alina
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '1007'
 ht-degree: 0%
 
 ---
@@ -104,8 +104,8 @@ U kunt een project op de volgende manieren delen:
 
 ## Beperkingen voor verschillende licentietypen
 
-* De gebruikers met een vergunning van de Arbeider hebben geen toestemmingen om projecten te beheren. Voor Workers is Contribute de hoogste machtiging voor delen.
-* De gebruikers met een vergunning van het Verzoek kunnen projectinformatie bekijken, maar zij hebben beperkte projecttoegang.
+* Gebruikers met een Lichte licentie en lager (of een arbeidslicentie en lager voor het oude licentiemodel) hebben geen machtigingen om projecten te beheren. Voor deze gebruikers is Contribute de hoogste machtiging voor delen.
+* Gebruikers met een bijdragelicentie (of een aanvraaglicentie voor het oude licentiemodel) kunnen projectinformatie weergeven, maar hebben beperkte toegang tot het project.
 * Een uitzondering op het wijzigen van de status van een project treedt op wanneer een gebruiker met de machtiging Weergeven of Contribute ook wordt opgenomen in een goedkeuringsproces. Zij kunnen het project goedkeuren, dat de status van het project verandert, maar de status is de vooraf bepaalde status voor goedkeuring of voor verwerping.
 * Om een project te kunnen kopiëren, moet een gebruiker ook toegang hebben om projecten in hun Niveau van de Toegang tot stand te brengen.
 

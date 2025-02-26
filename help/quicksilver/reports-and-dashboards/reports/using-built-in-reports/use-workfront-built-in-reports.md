@@ -6,9 +6,9 @@ description: Adobe Workfront heeft een uitgebreide lijst met ingebouwde rapporte
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 32a47c25-192a-4e97-9016-42e6b6e201b9
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '2970'
+source-wordcount: '2986'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,7 @@ ht-degree: 0%
 
 Adobe Workfront heeft een uitgebreide lijst met ingebouwde rapporten die u kunt gebruiken.
 
-Workfront-beheerders kunnen ingebouwde rapporten verbergen, zodat gebruikers er geen toegang toe hebben.
-
-Voor meer informatie over hoe te om ingebouwde rapporten te verbergen, zie [ ingebouwde rapporten van de Huid ](../../../administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md).
+Workfront-beheerders kunnen ingebouwde rapporten verbergen, zodat gebruikers er geen toegang toe hebben. Voor meer informatie over hoe te om ingebouwde rapporten te verbergen, zie [ ingebouwde rapporten van de Huid ](../../../administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md).
 
 ## Toegangsvereisten
 
@@ -67,7 +65,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Overzicht van ingebouwde rapporten {#overview-of-built-in-reports}
 
-U kunt een ingebouwd rapport aanpassen en het opslaan als nieuw rapport. Voor meer informatie over het aanpassen van ingebouwde rapporten, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+U kunt een exemplaar tot stand brengen een ingebouwd rapport en het bewaren als nieuw rapport. Voor meer informatie over het creëren van exemplaren van ingebouwde rapporten, zie [ een nieuwe versie van een rapport ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md#create-a-new-version-of-a-report) in het artikel [ creëren een exemplaar van een rapport ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
 De volgende verslagen gaan over het Workfront-pakket. De rapporten zijn beschikbaar aan alle gebruikers die minstens de rechten van de Mening aan ingebouwde rapporten in hun toegangsniveau hebben.
 

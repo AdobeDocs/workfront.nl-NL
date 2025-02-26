@@ -7,7 +7,7 @@ description: U kunt een kopie maken van elk rapport waartoe u toegang hebt. U ku
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 84737f48-efc5-45f1-acd1-b9f5d353f80f
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 0%
@@ -102,12 +102,12 @@ Als u een exemplaar van een douanerapport wilt maken, doe het volgende:
 
 ## Een nieuwe versie van een rapport maken {#create-a-new-version-of-a-report}
 
-Als u een exemplaar van een standaardrapport wilt tot stand brengen, doe het volgende:
+Als u een exemplaar van een ingebouwd rapport wilt tot stand brengen, doe het volgende:
 
 1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.**
 
 1. Klik **Rapporten**, dan **Alle Rapporten**.
-1. Klik op de naam van een standaardrapport om het te openen.
+1. Klik op de naam van een ingebouwd rapport om het te openen.
 1. Klik **de Acties van het Rapport**, dan **uitgeven**.
 
    ![ geef rapport ](assets/unshimmed-report-actions-default-report.png) uit
