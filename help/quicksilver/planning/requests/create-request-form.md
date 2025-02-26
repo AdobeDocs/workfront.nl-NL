@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 7fc2239de2488d2e3e5c434ab45e8a1d24c0b28f
+source-git-commit: 5510f99e9e5c8c4c5f85953e19563f9ab18b0fae
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1538'
 ht-degree: 0%
 
 ---
@@ -115,6 +115,49 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 +++
 
+## Beperkingen op veld- en waardenweergave in aanvraagformulieren
+
+<!--
+
+There are limitations in how certain fields display on the request form and how their values later display on the records or the request details page, after you submit a request. 
+
+For information about submitting requests to create records, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). 
+
+The following are limitations for how certain fields display in request forms, records created by a request form, or on the request details page: -->
+
+* U kunt geen velden van de volgende typen toevoegen aan een aanvraagformulier:
+
+   * Gemaakt door en laatstelijk gewijzigd door
+   * Aanmaakdatum en datum van laatste wijziging
+   * Formule. Formulervelden worden ondersteund in de voorvertoningsomgeving.
+   * Opzoekvelden van Workfront-objecten
+   * Workfront Planning connected records lookup fields
+
+<!--at release to Preview, replace the above with this:  
+>
+>Fields of the following types do not display in the request form:
+>* Created by and Last modified by
+>* Created date and Last modified date
+>* Formula. <span class="preview">Formula fields display in request forms in the Preview environment.</span>
+>* Workfront objects' lookup fields
+>* Workfront Planning connected records' lookup fields-->
+
+* Verschil tussen de manier waarop veldindelingen worden weergegeven in de aanvraagformulierbuilder en de manier waarop de waarden worden opgemaakt op de record of op de pagina met aanvraagdetails:
+
+   * De velden Valuta, Nummer en Percentage worden weergegeven als een tekstveldtype voor één regel in de formulierbuilder.
+
+     De veldindeling blijft echter behouden en de waarden van de getallen in deze velden worden weergegeven als de waarden Valuta, Nummer en Percentage op het recordtype en op de pagina met aanvraagdetails.
+
+<!--
+* The following describes how some field values display on request forms and the request details pages: 
+
+   * Special formatting for Currency, Number, and Percentage fields is not preserved. For example, the decimal precision is not preserved for these fields' values in these areas.
+   * People field values display as IDs.
+   * Formula fields that don't refer to other fields or calculations don't display any values. For example, a field with a `STRING` formula displays a "N/A" value.
+   * Formula fields that refer to Currency fields display the values without accounting for exchange rates.
+   * The values of Paragraph fields that contain special formatting display a "N/A" value on the request form and they display html tags instead of the formatted text in the request details page.
+-->
+
 ## Een aanvraagformulier maken voor een recordtype
 
 {{step1-to-planning}}
@@ -140,34 +183,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    Het aanvraagformulier bevat standaard de volgende informatie:
 
    * De gebieden van het verslag beschikbaar in de lijstmening van het geselecteerde verslagtype. <!--they are working on removing the limitation below-->
-
-   <!-- when we go to prod, the Preview batch below will become the only batch-->
-
-   >[!IMPORTANT]
-   >
-   >Velden van de volgende typen worden niet weergegeven in het aanvraagformulier:
-   >
-   >* Gemaakt door en laatstelijk gewijzigd door
-   >* Aanmaakdatum en datum van laatste wijziging
-   >* Formule
-   >* Opzoekvelden van Workfront-objecten
-   >* Workfront Planning connected records lookup fields
-   >
-
-   <!--before release to prod: 
-    > Depending on what environment you use to create a request form, the following scenarios exist:
-   >
-   >* Fields of the following types do not display in the request form in the Production environment: 
-   >
-   >    * Created by and Last modified by
-   >    * Created date and Last modified date
-   >    * Formula
-   >    * People 
-   >    * Workfront connected fields
-   >    * Workfront objects' lookup fields
-   >    * Workfront Planning records' connected fields
-   >    * Workfront Planning connected records' lookup fields
-   >    * AEM Assets connection fields-->
 
    * **Standaard sectie**: Dit is de standaardsectieonderbreking die Workfront op de verzoekvorm van toepassing is. Alle verslaggebieden tonen op het **Standaard sectie** gebied.
    * **Onderwerp** gebied: Het gebied dat het verzoek in Workfront zal identificeren. De configuratie en de waarde van het onderwerpveld kunnen niet worden bewerkt.
@@ -196,12 +211,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    * **maak een vereist gebied**: Wanneer geselecteerd, moet het gebied een waarde hebben. Anders kan het formulier niet worden verzonden.
    * **voegt logica** toe: Bepaal welke voorwaarden moeten worden voldaan opdat het gebied tonen of verborgen zijn.
 
-   >[!NOTE]
+   >[!TIP]
    >
    >   Het veldtype van elk veld wordt boven in het rechtervenster weergegeven, nadat u het veld op het formulier hebt geselecteerd.
-   >   
-   >
-   >   De velden Valuta, Nummer en Percentage worden weergegeven als een tekstveldtype voor één regel. De veldindeling blijft echter behouden en de waarden binnen deze velden worden weergegeven als de waarden Valuta, Nummer en Percentage.
+   >     
 
 1. (Facultatief) klik de **elementen van de Inhoud** tabel op de linkerkant van de vorm, en voeg om het even welke volgende elementen toe:
 
