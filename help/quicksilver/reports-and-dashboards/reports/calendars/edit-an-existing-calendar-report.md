@@ -6,14 +6,16 @@ description: U kunt een bestaande kalender wijzigen door een verbinding aan een 
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 494d040c-bd1d-4356-824f-a75890803617
-source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
+source-git-commit: c8f4d8e460ed9247ca5d89c9a711ecb1ec5ed1e9
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
 
 # Een bestaand kalenderrapport bewerken
+
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Sandbox van de Voorproef.</span>
 
 U kunt een bestaande kalender wijzigen door een verbinding aan een project toe te voegen of te schrappen. U kunt ook kalendergroepen wijzigen die zijn gekoppeld aan een kalenderrapport.
 
@@ -58,7 +60,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 +++
 
-## Een bestaand kalenderrapport bewerken
+## Een bestaand kalenderrapport in productie bewerken
 
 {{step1-to-calendars}}
 
@@ -87,3 +89,34 @@ De punten van het project en zijn bijbehorende taken en kwesties worden toegevoe
       * [[!UICONTROL Planned Dates] gebruiken in een kalenderrapport](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
       * [[!UICONTROL Projected Dates] gebruiken in een kalenderrapport](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
       * [Aangepaste datumvelden gebruiken in een kalenderrapport](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)
+
+
+<div class="preview">
+
+## Een bestaand kalenderrapport bewerken in Voorvertoning
+
+{{step1-to-calendars}}
+
+1. (Facultatief) om de naam van het kalenderrapport te veranderen, klik **Meer** menu en selecteer **uitgeven**.
+   ![ meer menu ](assets/new-more-menu-calendar.png)
+Als u het kalenderrapport met andere gebruikers of teams hebt gedeeld, wordt de gewijzigde kalendernaam automatisch bijgewerkt in hun kalendermening.
+
+1. (Optioneel) Een project aan het kalenderrapport toevoegen:
+   1. Klik op **[!UICONTROL Add to Calendar].**
+   1. Typ de naam van een project waarvan u kalendergebeurtenissen wilt toevoegen en klik vervolgens op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst.
+   1. Klik **toevoegen**.
+      ![ voeg een project aan een kalender ](assets/add-a-calendar-project.png) toe
+
+
+1. (Optioneel) Een kalendergroep toevoegen of een bestaande kalendergroep wijzigen:
+   1. Klik het **Meer** menu naast de projectnaam, dan klik **uitgeven**.
+      ![ geef project in kalender ](assets/edit-project-in-calendar.png) uit
+
+   1. Kies hoe je je objecten wilt groeperen:
+
+      * [[!UICONTROL Planned Dates] gebruiken in een kalenderrapport](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
+      * [[!UICONTROL Projected Dates] gebruiken in een kalenderrapport](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
+      * [Aangepaste datumvelden gebruiken in een kalenderrapport](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)
+
+
+      </div>

@@ -6,14 +6,16 @@ description: U kunt ad-hocgebeurtenissen toevoegen aan een kalender. Een ad-hocg
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 4145119e-ef2c-4f0d-89e7-86669ca5b127
-source-git-commit: d90459cb4f6fb1960552f0ab174e963582312b5c
+source-git-commit: 041e812d0663304b4bd51134020209d3a67e1423
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
 
 # Ad-hocgebeurtenissen toevoegen aan een kalenderrapport
+
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Sandbox van de Voorproef.</span>
 
 U kunt ad-hocgebeurtenissen toevoegen aan een kalender. Een ad-hocgebeurtenis dient eenvoudig als een herinnering in uw agenda en is niet gekoppeld aan een project, taak of uitgave.
 
@@ -54,7 +56,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 +++
 
-## Ad-hocgebeurtenissen toevoegen aan een kalenderrapport
+## Ad-hocgebeurtenissen toevoegen aan een kalenderrapport in productie
 
 1. Ga in de kalender naar de datum waaraan u een ad-hocgebeurtenis wilt toevoegen en klik vervolgens op de [!UICONTROL starting] -datum voor de gebeurtenis.
 1. Voer de naam van de gebeurtenis in en selecteer desgewenst een kleur voor de gebeurtenis.
@@ -72,3 +74,16 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    1. Klik op de gebeurtenis in de kalender om de detailpagina voor de gebeurtenis te openen.
    1. Klik op het prullenbakpictogram en klik vervolgens op **[!UICONTROL Yes, Delete it]** .
+
+<div class="preview">
+
+## Ad-hocgebeurtenissen toevoegen aan een kalenderrapport in Voorvertoning
+
+1. Ga naar de kalender u een ad hoc gebeurtenis aan wilt toevoegen.
+1. Klik **toevoegen** bij de bovenkant van de kalender.
+1. In het zijpaneel op het recht, **Naam** de gebeurtenis.
+1. Kies een kleur voor de gebeurtenis.
+1. Kies of de gebeurtenis meerdere dagen moet beslaan.
+1. Voer een datum in of kies een datum met het kalenderpictogram.
+
+</div>
