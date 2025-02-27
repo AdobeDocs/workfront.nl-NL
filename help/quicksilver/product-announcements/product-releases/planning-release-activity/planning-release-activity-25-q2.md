@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
+source-git-commit: 22a293cf4ded2c24c58f3948c1e7b41fa1055e3f
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1481'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,62 @@ In dit artikel worden de functies beschreven die tijdens de release van het twee
 <!--keep the sentence below for all future quarterly release pages-->
 
 Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront worden vrijgegeven, zie [ de versieactiviteit van de Planning van Adobe Workfront: artikelindex ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Geef de recordnaam van een detailpagina van een Workfront-planningsaanvraag weer in de naam van het browsertabblad
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 27 februari 2025; productie voor snelle release: met de release van 25.3 (maart 2025); productie voor driemaandelijkse release: met de release van 25.4 (april 2025)
+
+We hebben de manier bijgewerkt waarop de detailpagina van een Workfront-planningsaanvraag in de browser wordt weergegeven. De naam van de record die door de aanvraag is gemaakt, wordt nu weergegeven als de naam van het tabblad Browser. Vóór deze verbetering wordt het browsertabblad weergegeven als &quot;Workfront&quot;.
+
+## Unified request workflow voor Workfront en Planning
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 27 februari 2025; productie voor snelle release: met de release van 25.3 (maart 2025); productie voor driemaandelijkse release: met de release van 25.4 (april 2025)
+
+U kunt nu zowel Workfront- als Workfront-planningsverzoeken verzenden in het gedeelte Verzoeken van het Hoofdmenu.
+
+De volgende functies zijn nu beschikbaar met deze update:
+
+* Een nieuwe knevel naast de Nieuwe verzoekknoop laat deze ervaring op het gebied van Verzoeken toe. Als u de schakeloptie uitschakelt, kunt u alleen Workfront-aanvragen indienen.
+
+* U kunt zowel Workfront-aanvraagrijen als Workfront-aanvraagformulieren in één doorzoekbaar gebied vinden.
+
+* De 6 meest recente verzoeken worden eerst weergegeven in het uniforme doorzoekbare gebied.
+
+Voor meer informatie, zie [ de Verzoeken van de Planning van Adobe Workfront voorleggen om verslagen ](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen.
+
+## Formulervelden worden nu ondersteund in aanvraagformulieren
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 27 februari 2025; productie voor snelle release: met de release van 25.3 (maart 2025); productie voor driemaandelijkse release: met de release van 25.4 (april 2025)
+
+U kunt nu formuleringsgebieden aan een verslagtype aanvraagformulier in de Planning van Workfront toevoegen.
+
+Vóór deze verbetering konden deze typen velden niet worden toegevoegd aan aanvraagformulieren.
+
+Voor informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
+
+## Updates van de pagina van de verbindingsweergave van een record
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 27 februari 2025; productie voor snelle release: met de release van 25.3 (maart 2025); productie voor driemaandelijkse release: met de release van 25.4 (april 2025)
+
+We hebben de verbindingsweergave van een recordpagina bijgewerkt met de volgende mogelijkheden:
+
+* Standaard worden alleen de eerste 5 velden van de verbonden record weergegeven in de tabelweergave. Vóór deze update werden alle velden weergegeven.
+
+* U kunt nu kolommen verbergen in de tabelweergave van de verbonden record.
+
+* U kunt de kolommen opnieuw rangschikken met het pictogram Velden op de werkbalk van de tabel.
+
+* U kunt records verbinden en verbreken.
+
+Voor meer informatie, zie [ de lay-out van de verslagpagina beheren ](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ## Nieuwe expressie die wordt toegevoegd aan formuliervelden
 
