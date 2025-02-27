@@ -5,9 +5,9 @@ description: Overzicht van AI-assistent
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: f496d5170ff087167130a6463e18ea44af50e21f
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '817'
 ht-degree: 0%
 
 ---
@@ -139,3 +139,30 @@ De Adobe Gen AI-overeenkomst aanvragen:
 1. Voer de naam en het e-mailadres in van de persoon in uw organisatie die de Adobe Gen AI-overeenkomst zal ondertekenen.
 
    De overeenkomst wordt ter ondertekening naar deze persoon verzonden. Nadat deze is ondertekend en geretourneerd, wordt AI Assistant ingeschakeld voor uw organisatie.
+
+## Tips voor het maken van herinneringen in AI Assistant
+
+Gebruik de volgende trefwoorden in uw vragen om context en hulp te bieden bij het zoeken naar de juiste gegevens. Trefwoorden zijn niet hoofdlettergevoelig.
+
+Neem de uitdrukking `using (keyword)` op wanneer u een vraag opgeeft.
+
+| Trefwoord | Effect |
+|---|---|
+| `workfront` | Interactie met Workfront. |
+| `planning ` | Interageert met de Planning van Workfront. |
+| `help` | Retourneert informatie uit Experience League-documentatie. |
+| `formula` | Controleert en keert formules voor gebruik in Planning, Opstelling, of douanevormen terug. |
+| `health` | Controleert projectgezondheid met de Adviseur van de Gezondheid van het Project. |
+| `summarize` | Hiermee geeft u een overzicht van items, bijvoorbeeld wanneer u een bestand uploadt of een project samenvat. |
+
+>[!NOTE]
+>
+> Niet alle trefwoorden zijn in alle gebieden beschikbaar.
+>
+>* Het trefwoord `formula` is alleen beschikbaar in Planning, Setup en de Aangepaste formulierbuilder.
+>* Het trefwoord `planning` is alleen beschikbaar via Workfront Planning.
+
+
+
+
+
