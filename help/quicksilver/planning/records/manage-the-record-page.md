@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '1772'
+source-wordcount: '1914'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # De lay-out van de recordpagina beheren
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview"> de informatie die op deze pagina wordt benadrukt verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 {{planning-important-intro}}
 
@@ -161,11 +161,11 @@ Een sectie toevoegen aan een recordvoorvertoning of pagina:
 
    De voorvertoning van de record wordt in de weergave geopend.
 
-   <!--<div class="preview">
+   <div class="preview">
 
-    ![Details box](assets/details-box.png)  
+   ![ doos van Details ](assets/details-box.png)
 
-    </div>-->
+   </div>
 
 1. (Facultatief) klik **Open in nieuw lusje** pictogram ![ Open details in een nieuw lusjepictogram ](assets/open-details-in-a-new-tab-icon.png) in de hoger-juiste hoek van de verslagvoorproef om de pagina van het verslag in een nieuw lusje te openen.
 
@@ -244,23 +244,29 @@ De volgende dingen doen zich voor:
 
    De voorvertoning van de record wordt in de weergave geopend.
 
-   <!--<div class="preview">
+   <div class="preview">
 
-    ![Details box](assets/details-box.png) 
+   ![ doos van Details ](assets/details-box.png)
 
-    </div>-->
+   </div>
 
 1. (Facultatief) klik **Open in nieuw lusje** pictogram ![ Open detailsdoos in een nieuw lusjepictogram ](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in de hoger-juiste hoek van de verslagvoorproef om de pagina van het verslag in een nieuw lusje te openen.
 
    Het **lusje van Details** van het verslag opent door gebrek.
 
-   <!--<div class="preview">
+   <div class="preview">
 
-   ![Details page](assets/details-page.png)
+   ![ pagina van Details ](assets/details-page.png)
 
-   </div>-->
+   </div>
 
-1. In het verslag **Details** lusje, klik het **greep** pictogram ![ pictogram van het Grab ](assets/grab-icon.png) aan de linkerzijde van een gebiedsnaam, dan belemmering en laat vallen het op een gewenste plaats. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
+1. In het verslag **Details** lusje, klik het **greep** pictogram ![ pictogram van het Grab ](assets/grab-icon.png) aan de linkerzijde van een gebiedsnaam, dan belemmering en laat vallen het op een gewenste plaats.
+
+   >[!TIP]
+   >
+   >U kunt velden naar een andere sectie slepen.
+   >Een sectie moet ten minste één veld bevatten.
+   >
 
    De nieuwe positie van het veld wordt bijgewerkt in zowel de voorvertoning als de pagina van alle records van hetzelfde type voor alle gebruikers die de records bekijken.
 
@@ -295,23 +301,29 @@ Een pagina van de verbindingsweergave toevoegen:
 De tabelweergave van het geselecteerde recordtype wordt weergegeven en de verbonden records worden weergegeven in de tabelweergave.
 Alle velden van de verbonden record worden weergegeven in de tabelweergave van het tabblad van de verbonden record.
 
-   <!--<span class="preview">When you access Workfront Planning from the Preview environment, the first five fields from the connected record table display by default. No lookup fields display by default. -->
+   <span class="preview"> wanneer u tot de Planning van Workfront van het milieu van de Voorproef toegang hebt, de eerste vijf gebieden van de verbonden vertoning van de verslaglijst door gebrek. Er worden standaard geen opzoekvelden weergegeven.</span>
 
    De tabelweergave is alleen-lezen.
 
    <!--replace screen shot below when additional capabilities come to the table view - Fields, etc-->
 
+   <div class="preview">
+
    ![ Publiek verbonden lijstmening onder campagnedetails ](assets/audience-connected-table-view-under-campaign-details-page.png)
+
+   </div>
+
 1. (Optioneel) Dubbelklik op de naam van de tab
 
    of
 
    Beweeg over de naam van het lusje, dan klik **Meer** ![ Meer menu ](assets/more-menu.png), dan klik **anders noemen** om aan nieuw Verbonden meningslusje anders te noemen.
-1. (Optioneel) Gebruik een van de volgende weergave-elementen op de werkbalk om de tabelweergave te beheren
+1. (Optioneel) Gebruik een van de volgende weergave-elementen op de werkbalk om de tabelweergave te beheren:
 
    * Filters
    * Sorteren
    * Groepering
+   * <span class="preview"> Gebieden, om, gebieden </span> te tonen te verbergen of te herschikken
 
    <!--Add to the list above from the list below - and condition these for Preview only: Hide fields, rearrange fields-->
 
@@ -321,11 +333,14 @@ Alle velden van de verbonden record worden weergegeven in de tabelweergave van h
    >
    >   U kunt geen van de volgende handelingen uitvoeren in de tabelweergave van het tabblad van een verbonden record:
    >
-   >   * Velden verbergen
+   >   * Velden verbergen of herschikken. <span class="preview"> u kunt gebieden in het milieu van de Voorproef verbergen en opnieuw rangschikken.</span>
    >   * Velden maken, bewerken of verwijderen
-   >   * Velden opnieuw rangschikken
    >
-1. (Facultatief) Beweeg over de naam van het lusje, dan klik **Meer** ![ Meer menu ](assets/more-menu.png), dan klik **Schrapping** om aan nieuw Verbonden meningslusje te verwijderen.
+
+1. <span class="preview"> klik **verbinden** om verslagen toe te voegen of te verwijderen. Voor informatie, zie [ verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md)</span>
+1. (Facultatief) Beweeg over de naam van het lusje van de mening van de Verbinding, klik **Meer** ![ Meer menu ](assets/more-menu.png), dan klik **Schrapping** om aan nieuw Verbonden meningslusje te verwijderen.
+
+
 
 
 <!--

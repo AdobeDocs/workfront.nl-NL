@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 5510f99e9e5c8c4c5f85953e19563f9ab18b0fae
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '1868'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,10 @@ ht-degree: 0%
 
 <!--take Preview and Production references at Production time-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
--->
 
 {{planning-important-intro}}
 
@@ -117,46 +116,37 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Beperkingen op veld- en waardenweergave in aanvraagformulieren
 
-<!--
+Er zijn beperkingen in de manier waarop bepaalde velden worden weergegeven op het aanvraagformulier en hoe de waarden ervan later worden weergegeven op de records of op de pagina met aanvraagdetails nadat u een aanvraag hebt ingediend.
 
-There are limitations in how certain fields display on the request form and how their values later display on the records or the request details page, after you submit a request. 
+Voor informatie over het voorleggen van de verzoeken van de Planning van Workfront, zie [ de Verzoeken van de Planning van Adobe Workfront voorleggen om verslagen ](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen.
 
-For information about submitting requests to create records, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). 
+* Hieronder volgt een aantal beperkingen voor de weergave van bepaalde velden in aanvraagformulieren, records die zijn gemaakt op een aanvraagformulier of op de pagina met aanvraagdetails:
 
-The following are limitations for how certain fields display in request forms, records created by a request form, or on the request details page: -->
+   * U kunt geen velden van de volgende typen toevoegen aan een aanvraagformulier:
 
-* U kunt geen velden van de volgende typen toevoegen aan een aanvraagformulier:
+      * Gemaakt door en laatstelijk gewijzigd door
+      * Aanmaakdatum en datum van laatste wijziging
+      * Formule. <span class="preview"> de gebieden van de Formule worden gesteund in het milieu van de Voorproef.</span>
+      * Opzoekvelden van Workfront-objecten
+      * Workfront Planning connected records lookup fields
 
-   * Gemaakt door en laatstelijk gewijzigd door
-   * Aanmaakdatum en datum van laatste wijziging
-   * Formule. Formulervelden worden ondersteund in de voorvertoningsomgeving.
-   * Opzoekvelden van Workfront-objecten
-   * Workfront Planning connected records lookup fields
-
-<!--at release to Preview, replace the above with this:  
->
->Fields of the following types do not display in the request form:
->* Created by and Last modified by
->* Created date and Last modified date
->* Formula. <span class="preview">Formula fields display in request forms in the Preview environment.</span>
->* Workfront objects' lookup fields
->* Workfront Planning connected records' lookup fields-->
-
-* Verschil tussen de manier waarop veldindelingen worden weergegeven in de aanvraagformulierbuilder en de manier waarop de waarden worden opgemaakt op de record of op de pagina met aanvraagdetails:
+* Hieronder ziet u verschillen tussen de manier waarop veldindelingen worden weergegeven in de aanvraagformulierbuilder en de manier waarop de waarden van de velden worden opgemaakt op de record of op de pagina met aanvraagdetails:
 
    * De velden Valuta, Nummer en Percentage worden weergegeven als een tekstveldtype voor één regel in de formulierbuilder.
 
      De veldindeling blijft echter behouden en de waarden van de getallen in deze velden worden weergegeven als de waarden Valuta, Nummer en Percentage op het recordtype en op de pagina met aanvraagdetails.
 
-<!--
-* The following describes how some field values display on request forms and the request details pages: 
+<div class="preview">
 
-   * Special formatting for Currency, Number, and Percentage fields is not preserved. For example, the decimal precision is not preserved for these fields' values in these areas.
-   * People field values display as IDs.
-   * Formula fields that don't refer to other fields or calculations don't display any values. For example, a field with a `STRING` formula displays a "N/A" value.
-   * Formula fields that refer to Currency fields display the values without accounting for exchange rates.
-   * The values of Paragraph fields that contain special formatting display a "N/A" value on the request form and they display html tags instead of the formatted text in the request details page.
--->
+* In het volgende voorbeeld wordt beschreven hoe bepaalde veldwaarden worden weergegeven op aanvraagformulieren en worden pagina&#39;s met informatie over de aanvraag weergegeven:
+
+   * De speciale opmaak voor de velden Valuta, Aantal en Percentage blijft niet behouden. De decimale precisie blijft bijvoorbeeld niet behouden voor de waarden van deze velden in deze gebieden.
+   * Veldwaarden voor personen worden weergegeven als id&#39;s.
+   * Formule velden die niet naar andere velden of berekeningen verwijzen, geven geen waarden weer. Een veld met een formule `STRING` geeft bijvoorbeeld de waarde &quot;N/A&quot; weer.
+   * Formule velden die naar valutavelden verwijzen, geven de waarden weer zonder rekening te houden met de wisselkoersen.
+   * De waarden van Alineasvelden met een speciale opmaak geven een &quot;N.v.t.&quot;-waarde weer op het aanvraagformulier en geven HTML-codes weer in plaats van de opgemaakte tekst op de pagina met aanvraagdetails.
+
+</div>
 
 ## Een aanvraagformulier maken voor een recordtype
 
@@ -170,7 +160,7 @@ The following are limitations for how certain fields display in request forms, r
 
    De pagina met recordtypen wordt geopend in de weergave die u het laatst hebt geopend. Standaard wordt een pagina met recordtypen geopend in de tabelweergave.
 
-1. Klik **Meer** menu ![](assets/more-menu.png) aan het recht van het verslagtype naam in de paginakop, dan klik **creeer verzoekvorm**.
+1. Klik **Meer** menu ![ Meer menu ](assets/more-menu.png) aan het recht van de naam van het verslagtype in de paginakop, dan klik **creeer verzoekvorm**.
 1. Werk de naam van het aanvraagformulier bij. Door gebrek, is de naam van de vorm **Naamloze vorm**. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. (Facultatief) voeg a **Beschrijving** voor de verzoekvorm toe.
 
@@ -178,7 +168,7 @@ The following are limitations for how certain fields display in request forms, r
 
 1. Klik **creëren**. Het aanvraagformulier voor het geselecteerde recordtype wordt geopend op het tabblad Formulier.
 
-   ![](assets/campaigns-request-form-edit-mode.png)
+   ![ de verzoekvorm van campagnes geeft wijze uit ](assets/campaigns-request-form-edit-mode.png)
 
    Het aanvraagformulier bevat standaard de volgende informatie:
 
@@ -197,7 +187,8 @@ The following are limitations for how certain fields display in request forms, r
 
 1. (Optioneel) Houd de muisaanwijzer boven alle velden in het formulier die u wilt verwijderen en klik vervolgens op het pictogram **x** om deze te verwijderen. Zij worden toegevoegd aan het **lusje van Gebieden** links van de vorm.
 
-   Bijvoorbeeld, verwijder het **Onderwerp** gebied, aangezien dit niet in de Planning van Workfront zichtbaar is. <!--remove this step when we connect intake with the Requests area in Workfront-->
+   Bijvoorbeeld, verwijder het **Onderwerp** gebied, aangezien dit niet in de Planning van Workfront zichtbaar is. <!--remove this example if this becomes visible in Planning?-->
+
 1. (Facultatief) om de **Standaardsectie** uit de vorm te verwijderen, doe het volgende:
 
    1. Alle velden verwijderen uit de standaardsectie.
@@ -227,7 +218,7 @@ The following are limitations for how certain fields display in request forms, r
 
 1. (Facultatief) klik het **lusje van de Configuratie**, dan voeg minstens één gebruiker aan het **Approvers** gebied toe om nieuwe verzoeken voor deze verslagvorm goed te keuren.
 
-   ![](assets/configuration-tab.png)
+   ![ het lusje van de Configuratie ](assets/configuration-tab.png)
 
    <!--below bullet list is duplicated in the Add approval to a request form article-->
 
@@ -238,7 +229,7 @@ The following are limitations for how certain fields display in request forms, r
 
      Voor meer informatie over het toevoegen van goedkeuringen aan aanvraagvormen, zie [ goedkeuring aan een verzoekvorm ](/help/quicksilver/planning/requests/add-approval-to-request-form.md) toevoegen.
 
-1. (Facultatief) klik **Meer** menu ![](assets/more-menu.png) aan het recht van de naam van de vorm in de kopbal, dan klik **uitgeven** om de naam van de vorm bij te werken.
+1. (Facultatief) klik het **Meer** menu ![ Meer menu ](assets/more-menu.png) rechts van de naam van de vorm in de kopbal, dan klik **uitgeven** om de naam van de vorm bij te werken.
 1. Klik **publiceren** om de vorm te publiceren en een unieke verbinding voor het te verkrijgen.
 
    De volgende dingen doen zich voor:
@@ -249,7 +240,7 @@ The following are limitations for how certain fields display in request forms, r
 
 1. Klik **Aandeel** om de vorm met anderen te delen.
 
-   ![](assets/share-box-for-request-form.png)
+   ![ doos van het Aandeel voor aanvraagvorm ](assets/share-box-for-request-form.png)
 
 1. Selecteer een van de volgende opties om aan te geven welke typen gebruikers toegang hebben tot dit formulier:
 
@@ -261,7 +252,7 @@ The following are limitations for how certain fields display in request forms, r
    >
    >* Wanneer u **iedereen met de verbinding** selecteert, kan iedereen tot de vorm toegang hebben en een nieuw verslag voorleggen, zelfs mensen buiten uw organisatie die geen rekening van Workfront hebben.
    >
-   > * Een formulier dat de volgende veldtypen bevat, kan niet openbaar worden gedeeld:
+   >* Een formulier dat de volgende veldtypen bevat, kan niet openbaar worden gedeeld:
    >
    >     * Workfront- of AEM Assets-verbindingen
    >     * Mensen
@@ -271,7 +262,12 @@ The following are limitations for how certain fields display in request forms, r
 
    U kunt toekomstige datums selecteren binnen 180 dagen vanaf de huidige datum.
 
-1. Klik **sparen en kopieer verbinding** om de het delen details voor de vorm te bewaren. Als de vorm eerder werd bewaard, klik **verbinding van het Exemplaar**.
+   >[!TIP]
+   >
+   ><span class="preview"> nadat de delende datum verloopt, is de verzoekvorm niet meer beschikbaar in het gebied van Verzoeken van Workfront.</span>
+
+
+1. <span class="preview"> (Facultatief) </span> klik **sparen en kopieer verbinding** om de het delen details voor de vorm te bewaren. Als de vorm eerder werd bewaard, klik **verbinding van het Exemplaar**.
 
    De opties voor het delen van formulieren worden opgeslagen en de koppeling wordt naar het klembord gekopieerd. U kunt deze nu delen met anderen.
 
@@ -281,11 +277,12 @@ The following are limitations for how certain fields display in request forms, r
 1. Klik op de pijl die naar links wijst links van de naam van het formulier in de koptekst om het formulier te sluiten.
 
    De pagina met recordtypen wordt geopend.
-1. (Facultatief) klik **Meer** menu ![](assets/more-menu.png) rechts van de naam van het verslagtype in de kopbal, dan doe één van het volgende:
+1. (Facultatief) klik het **Meer** menu ![ Meer menu ](assets/more-menu.png) rechts van de naam van het verslagtype in de kopbal, dan doe één van het volgende:
    * Klik **de verzoekvorm van de Update** om het even welke veranderingen in de verzoekvorm aan te brengen.
    * Klik **verbinding van het Exemplaar om vorm** te verzoeken om de verbinding met de vorm met anderen te delen.
+   * <span class= "preview"> ga naar het **Verzoeken** gebied in Workfront en vind de gedeelde vorm om een verzoek voor te leggen. Voor informatie, zie [ de Planningsverzoeken van Adobe Workfront voorleggen om verslagen ](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen.</span>
 
    >[!TIP]
    >
    >Er zijn aanwijzingen dat de link in dit geval openbaar wordt gedeeld.
-   >![](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
+   >![ openbaar gedeelde verbinding aan vorm op verslagtype menu ](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)

@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '779'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 0%
 NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 Als beheerder van Adobe Workfront, kunt u milestone wegen tot stand brengen die dan op om het even welk project in het systeem kunnen worden toegepast. De wijzigingen die u aanbrengt in paden met mijlpalen op dit gebied, zijn van invloed op het hele Workfront-systeem.
 
@@ -145,11 +145,19 @@ Voor informatie over het associëren van mijlpaden aan projecten, zie [ projecte
    De vertoningen van het projectrapport. De mijlpaden verbonden aan elke projectvertoning in de laatste kolom van het rapport.
 1. Klik de naam van een milestone weg in de laatste kolom van het rapport.
 
-   De details van het pad van de mijlpaal worden weergegeven. Details over elke mijlpaal worden ook weergegeven.
+   De details van het pad van de mijlpaal worden weergegeven.
+
+   <div class="preview">
 
    ![ de wegdetails van de mijlpaal van projectrapport ](assets/milestone-details-from-project-report.png)
 
-   <!--replace screen shot above with unshimming and mark it for Preview-->
+   De detailpagina van het milestone-pad bevat de volgende informatie:
+
+   * Naam, id en beschrijving van milestone-pad
+   * Padgroepen van mijlpaal
+   * Mijlsteennamen, beschrijvingen, kleuren en kleurenpictogrammen
+
+   </div>
 
 1. (Optioneel) Klik op **Terug** om terug te gaan naar het projectrapport.
 

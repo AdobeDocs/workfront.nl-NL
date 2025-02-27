@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 5510f99e9e5c8c4c5f85953e19563f9ab18b0fae
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1798'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 <!--take Preview and Prod references out when releasing to Prod all-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 {{planning-important-intro}}
 
@@ -136,98 +136,95 @@ U moet het volgende opgeven voordat u een aanvraag kunt indienen bij een Workfro
 
 ## Een aanvraag indienen bij Workfront Planning
 
-<!--
+Het indienen van aanvragen bij Workfront Planning is afhankelijk van de omgeving die u gebruikt.
+
 <div class="preview">
 
-Submitting requests to Workfront Planning differs depending on what environment you use. 
-
-### Submit a request to Workfront Planning in the Preview Environment
+### Een aanvraag indienen bij Workfront Planning in de Voorvertoningsomgeving
 
 >[!NOTE]
 >
->After the monthly releases to Production, the features described in this section are also available in the Production environment for customers who enabled fast releases.
+>Na de maandelijkse versies aan Productie, zijn de eigenschappen die in deze sectie worden beschreven ook beschikbaar in de milieu van de Productie voor klanten die snelle versies toeliet.
 
 {{step1-to-requests}}
 
-1. Enable the **Switch to a new experience** setting, in the upper-right corner of he screen. 
-   Enabling this setting makes the Workfront Planning request forms available in the **Requests** area of Workfront.
+1. Laat de **Schakelaar aan een nieuwe ervaring** toe plaatsend, in de hoger-juiste hoek van het scherm.
+Het toelaten van dit plaatsen maakt de het verzoekvormen van de Planning van Workfront beschikbaar in het **gebied van Verzoeken** van Workfront.
 
    >[!TIP]
    >
-   >This setting is available only when the following are in place:
+   >Deze instelling is alleen beschikbaar als de volgende opties zijn ingesteld:
    >
-   >* Your company has purchased a Workfront Planning package. 
-   >* Your Workfront instance is onboarded to the Adobe Unified Experience. 
-   >* You have access to view at least one workspace. 
+   >* Uw bedrijf heeft een pakket voor Workfront-planning aangeschaft.
+   >* Uw Workfront-instantie wordt meegerekend bij de Adobe Unified Experience.
+   >* U hebt toegang tot minstens één werkruimte.
    >
 
-1. Click **New request**. (********* update screen shot at release ********)
+1. Klik **Nieuw verzoek**.
 
-   ![New request box with unified Workfront and Planning cards](assets/new-request-box-with-unified-workfront-and-planning-cards.png)
+   ![ Nieuwe verzoekdoos met verenigde Workfront en de kaarten van de Planning ](assets/new-request-box-with-unified-workfront-and-planning-cards.png)
 
-   The New request area opens with the following information: 
+   Het **Nieuwe verzoek** vakje opent met de volgende informatie:
 
-   * The 6 most recently accessed Workfront request queues and Planning request forms display in the Recent section. 
-   * 50 additional Workfront request queues and Planning request forms display in alphabetical order in the **All request forms** section. You can search for a request queue that does not display by default. 
+   * De 6 laatst geopende Workfront aanvraagrijen en de aanvraagformulieren voor planning worden weergegeven in de sectie Recent.
+   * 50 extra de verzoekrijen van Workfront en van de Planning verzoekvormen tonen in alfabetische orde in **Al verzoekvormen** sectie. U kunt zoeken naar een aanvraagwachtrij die niet standaard wordt weergegeven.
 
-1. Do one of the following:
+1. Voer een van de volgende handelingen uit:
 
-   * Click the card for one of the Planning request forms in the Recent or All request forms sections
-   * Start typing the name of a Planning request form in the search box, then click the card when it displays in the list. 
+   * Klik op de kaart voor een van de formulieren voor planningsaanvragen in de secties Recente of Alle aanvraagformulieren
+   * Typ de naam van een formulier voor planningsaanvragen in het zoekvak en klik vervolgens op de kaart wanneer deze in de lijst wordt weergegeven.
 
-   The request form opens.
+   Het aanvraagformulier wordt geopend.
 
-1. Update the fields available in the request form. Fields with a red asterisk are required. 
-1. Click **Submit**.
-    
-   The request form closes and you return to the **Requests** area. 
+1. Werk de velden bij die beschikbaar zijn in het aanvraagformulier. Velden met een rood sterretje zijn vereist.
+1. Klik **voorleggen**.
 
-   Your form is submitted and the following things occur:
+   De verzoekvorm sluit en u keert aan het **gebied van Verzoeken** terug.
 
-   * If the request form was not associated with an approval, the request is added to the Planning tab of the Submitted section of the Workfront Requests area and a new record is added to the record type associated with the form.
-   
-   * If the request form was associated with an approval, the request is added to the Planning tab of the Submitted section of the Workfront Requests area. A new record is added to the record type page only after all the approvers have approved it.
-   
-      For information, see [Add an approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+   Uw formulier wordt verzonden en de volgende dingen gebeuren:
 
-      ![](assets/requests-area-with-toggle-for-unified-workflow-planning-tab-open.png)
+   * Als het aanvraagformulier niet aan een goedkeuring is gekoppeld, wordt het verzoek toegevoegd aan het tabblad Planning van het gedeelte Verzenden van het gebied Workfront-verzoeken en wordt een nieuwe record toegevoegd aan het recordtype dat aan het formulier is gekoppeld.
 
-      >[!IMPORTANT]
-      >
-      >All users who have access to at least one workspace can view the Planning tab in the Requests area. You can view only the requests submitted by you or anyone else to the workspaces that you have at least permissions to View. Workfront administrators can view all requests submitted to any workspace in the system. (******** ensure this is correct; asking team in slack **************)
+   * Als het aanvraagformulier is gekoppeld aan een goedkeuring, wordt het verzoek toegevoegd aan het tabblad Planning van het gedeelte Verzendd van het gebied Workfront Requests. Een nieuwe record wordt pas aan de recordtypepagina toegevoegd nadat alle fiatteurs de record hebben goedgekeurd.
 
-   * You receive an in-app and an email notification that the request has either been submitted successfully or has been sent for review.
-   * If the request form was associated with an approval, the approvers receive an in-app and an email notification to review and approve the request.
+     Voor informatie, zie [ een goedkeuring aan een verzoekvorm ](/help/quicksilver/planning/requests/add-approval-to-request-form.md) toevoegen.
 
-      >[!NOTE]
-      >
-      >The email and in-app notifications are visible only when your organization's instance of Workfront is onboarded to the Adobe Unified Experience.
+     ![ gebied van Verzoeken met knevel voor verenigd werkschema plannend lusje ](assets/requests-area-with-toggle-for-unified-workflow-planning-tab-open.png)
 
-1. (Optional) Click the **Planning** tab in the Requests area to view your request, then click the name of the request. 
+     >[!IMPORTANT]
+     >
+     >Alle gebruikers die toegang tot minstens één werkruimte hebben kunnen het lusje van de Planning in het gebied van Verzoeken bekijken. U kunt alleen de aanvragen weergeven die door u of iemand anders zijn ingediend bij de werkruimten die u minstens gemachtigd zijn weer te geven. Workfront-beheerders kunnen alle aanvragen weergeven die naar elke werkruimte in het systeem worden verzonden.
 
-   The request details page opens. 
+   * U ontvangt een melding in de app en een e-mail dat de aanvraag met succes is verzonden of ter controle is verzonden.
+   * Als het aanvraagformulier aan een goedkeuring is gekoppeld, ontvangen de fiatteurs een in-app en een e-mailmelding om de aanvraag te beoordelen en goed te keuren.
 
-   ![Request details page](assets/request-details-page.png)
+     >[!NOTE]
+     >
+     >De e-mail en in-app meldingen zijn alleen zichtbaar wanneer het exemplaar van Workfront van uw organisatie is aangemeld bij de Adobe Unified Experience.
 
-1. (Conditional) If the request form is not associated with an approval, or if the request has been approved, click the name of the request, then click the name of the record in the **Record** field. 
+1. (Facultatief) klik het **Planning** lusje in het gebied van Verzoeken om uw verzoek te bekijken, dan klik de naam van het verzoek.
 
-   The record's page opens in Workfront Planning. 
+   De pagina met aanvraagdetails wordt geopend.
+
+   ![ pagina van de Details van het Verzoek ](assets/request-details-page.png)
+
+1. (Voorwaardelijk) als de verzoekvorm niet met een goedkeuring wordt geassocieerd, of als het verzoek is goedgekeurd, klik de naam van het verzoek, dan klik de naam van het verslag op het **1} gebied van het Verslag {.**
+
+   De pagina van het verslag opent in de Planning van Workfront.
 
    >[!TIP]
    >
-   >* If the record name was not added to the request form, the name of the record in the Record field of the request displays as **Untitled**. 
+   >* Als het verslag naam niet aan de verzoekvorm werd toegevoegd, de naam van het verslag op het gebied van het Verslag van de verzoekvertoningen als **Naamloos**.
    >
-   >* If the request form is associated with an approval, the approval must be granted before you can access the record from the request page. 
+   >* Als het aanvraagformulier is gekoppeld aan een goedkeuring, moet de goedkeuring worden verleend voordat u toegang krijgt tot de record op de aanvraagpagina.
 
-1. (Optional) Click the name of the **Record type**. 
+1. (Facultatief) klik de naam van het **type van Verslag**.
 
-   The record type page opens in Workfront Planning. 
+   De pagina met recordtypen wordt geopend in Workfront Planning.
 
 </div>
 
-### Submit a request to Workfront Planning in the Production environment
-
--->
+### Een verzoek indienen bij Workfront Planning in de Productieomgeving
 
 1. Ga naar de verbinding die met u van een het verslagtype van de Planning van Workfront wordt gedeeld.
 
@@ -249,7 +246,7 @@ Submitting requests to Workfront Planning differs depending on what environment 
 
      Voor informatie, zie [ een goedkeuring aan een verzoekvorm ](/help/quicksilver/planning/requests/add-approval-to-request-form.md) toevoegen.
 
-     ![](assets/planning-tab-in-requests.png)
+     ![ Het lusje van de Planning in Verzoeken ](assets/planning-tab-in-requests.png)
 
      >[!IMPORTANT]
      >

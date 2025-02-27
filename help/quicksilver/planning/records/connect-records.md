@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '3082'
+source-wordcount: '3249'
 ht-degree: 0%
 
 ---
@@ -155,8 +155,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 U kunt verslagen van de Planning van Workfront op de volgende gebieden van een verslag van de Planning verbinden:
 
 * De verbonden recordvelden in de tabelweergave.
-* De voorvertoning of pagina van de record in de verbonden recordvelden op het tabblad Details.
-* De voorvertoning of pagina van de record op het tabblad Verbindingen.
+* Het voorvertoningsvak of de pagina van de record in de verbonden recordvelden op het tabblad Details.
+* Het voorvertoningsvak of de pagina van de record op het tabblad Verbindingen.
+* <span class="preview"> de pagina van het verslag op het de meningslusje van de Verbinding.</span> <!--this needs title edit when they rename the "Connection view" page type-->
 
 ### Connect Workfront Planning-records vanuit de tabelweergave of het gebied Details van een record
 
@@ -462,3 +463,25 @@ U moet het volgende hebben om de verslagen van de Planning van Workfront van de 
 * Uw Workfront of groepsbeheerder moet de sectie Planning toevoegen aan de Workfront-projecten, -portfolio&#39;s en -programma&#39;s in uw lay-outsjabloon.
 
 Voor meer informatie, zie [ verslagen in de sectie van de Planning van de voorwerpen van Adobe Workfront beheren ](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+
+<div class="preview">
+
+## Verbind verslagen van het lusje van de mening van de Verbinding op de detailpagina van een verslag
+
+<!--section needs title edit when they rename the "Connection view" page type-->
+
+1. Ga naar om het even welke mening van een verslagtype dat met andere het verslagtypes of objecten van de Planning van andere toepassingen is verbonden.
+1. Voer de stappen uit die in de vorige subsecties zijn beschreven om een record te zoeken in de weergave die u wilt koppelen aan andere records of objecten.
+1. Klik op de naam van een record.
+
+   De voorvertoningspagina wordt geopend.
+1. Klik **Open in nieuw lusje** pictogram ![ Open details in een nieuw lusjepictogram ](assets/open-details-in-a-new-tab-icon.png) om de pagina van het verslag te openen.
+1. Klik op een bestaand tabblad in de voorvertoning of pagina van de record. U moet eerst een pagina van de mening van de Verbinding tot stand brengen. Voor informatie, zie [ de lay-out van de verslagpagina beheren ](/help/quicksilver/planning/records/manage-the-record-page.md).
+
+   Een verbonden verslagtype pagina toont in de lijstmening.
+1. Klik **verbinden** om verslagen toe te voegen of te verwijderen.
+
+   ![ verbind knoop die in verbonden verslagdetails tabel wordt benadrukt ](assets/connect-button-highlighted-in-connected-record-details-tab.png)
+1. (Optioneel) Als u geen verbonden record kunt vinden, klikt u op **+ Toevoegen** om deze te maken en te verbinden.
+
+</div>
