@@ -6,9 +6,10 @@ title: Gebruiksmetriek van Workfront Data Connect weergeven
 description: Op het tabblad Metriek van Workfront Data Connect kunt u de gebruiksmaatstaven van uw organisatie bekijken op basis van zowel de maandelijkse computeruren die zijn gebruikt als het aantal uitgevoerde query's.
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
+exl-id: 29185bd1-e058-4b42-a508-53406fb9ddd2
+source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
@@ -31,19 +32,19 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader">Adobe Workfront-plan</td> 
    <td><p>Opgenomen in de volgende plannen:</p>
     <ul>
-        <li>Ultieme</li> 
+        <li>Ultimate</li> 
     </ul>    
-   <p>Kan worden aangeschaft als een toevoeging bij de volgende plannen:</p> 
+   <!--<p>Can be purchased as an add-on to the following plans:</p> 
     <ul>
-        <li>Selecteren</li> 
-        <li>Eerste</li>
-    </ul> 
+        <li>Select</li> 
+        <li>Prime</li>
+    </ul>--> 
     <p>Workfront Data Connect is niet beschikbaar voor oudere Workfront-plannen.</p> 
    </td> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td>Plan</td> 
+   <td><p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 

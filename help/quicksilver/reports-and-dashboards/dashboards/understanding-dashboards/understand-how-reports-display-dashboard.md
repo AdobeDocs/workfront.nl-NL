@@ -3,13 +3,13 @@ content-type: overview
 product-area: dashboards
 navigation-topic: understand-dashboards
 title: Begrijp hoe de rapporten op een dashboard tonen
-description: U kunt beheren hoe rapporten die aan dashboards worden toegevoegd op de dashboards tonen.
+description: U kunt beheren hoe rapporten die aan dashboards worden toegevoegd worden getoond.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5ec2380e-e4fc-42f5-a553-b61c11573b9b
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -18,22 +18,24 @@ ht-degree: 0%
 
 <!-- Audited: 1/2025 -->
 
-U kunt beheren hoe rapporten die aan dashboards worden toegevoegd op de dashboards tonen.
+U kunt beheren hoe rapporten die aan dashboards worden toegevoegd worden getoond. Tijdens het maken of bewerken van een dashboard kunt u een van de zeven lay-outopties selecteren waarmee de gebieden worden aangegeven waar rapporten op het dashboard kunnen worden geplaatst. Houd zorgvuldig rekening met de keuze van de dashboardlay-out, aangezien te veel kolommen of bepaalde deelvensters, zoals de AI-assistent, invloed kunnen hebben op de beschikbare weergaveruimte en het dashboard moeilijk te bekijken kan zijn.
 
 Voor informatie over het uitgeven van de lay-out van rapporten over een dashboard, zie [ een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md) creëren.
 
-U kunt selecteren welke rapportkolommen op een dashboard zouden moeten tonen wanneer u creeert of een rapport uitgeeft door op [!UICONTROL **Geavanceerde Opties**] in [!UICONTROL **Montages van de Kolom**] te klikken. Als u alle kolommen van het rapport op een dashboard wilt tonen, zorg ervoor dat u dat voor elke kolom van het rapport specificeert.
+## Standaardrapportkolommen in dashboardlay-outgebieden
 
-Voor meer informatie over het selecteren van welke kolommen van een rapport op een dashboard zouden moeten tonen, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+Bepaalde lay-outopties hebben gebieden van de rapportplaatsing die het aantal rapportkolommen beperken die door gebrek worden getoond. U kunt manueel selecteren welke rapportkolommen op deze gebieden van een dashboard zouden moeten tonen wanneer u creeert of een rapport uitgeeft door op [!UICONTROL **Geavanceerde Opties**] in [!UICONTROL **Montages van de Kolom**] te klikken. Als u alle kolommen van het rapport op een dashboard wilt tonen, zorg ervoor dat u dat voor elke kolom van het rapport specificeert of het rapport in een gebied plaatst dat alle rapportkolommen door gebrek toont.
 
 ![ toon in dashboardoptie ](assets/show-in-dashboard.png)
 
-## Alle kolommen van het rapport weergeven op een dashboard
+Voor meer informatie over het selecteren van welke kolommen van een rapport op een dashboard zouden moeten tonen, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+
+### Gebieden die alle kolommen van een rapport door gebrek tonen
 
 Wanneer het rapport voor een gebied van het dashboard wordt geselecteerd dat de volledige breedte van het dashboard neemt, dan door gebrek alle kolommen van de rapportvertoning op het dashboard.\
 ![ toon alle kolomopties ](assets/qs-dashboard-full-reports-350x118.png)
 
-## Alleen de eerste kolom van het rapport op een dashboard weergeven
+### Gebieden die slechts de eerste kolom van een rapport door gebrek tonen
 
 Wanneer het rapport voor een gebied van het dashboard wordt geselecteerd dat minder dan de volledige breedte van het dashboard omhoog neemt, dan door gebrek slechts de eerste kolom van het rapport toont op het dashboard.\
 ![ toon eerste kolomopties ](assets/qs-dashboard-truncated-reports-350x118.png)

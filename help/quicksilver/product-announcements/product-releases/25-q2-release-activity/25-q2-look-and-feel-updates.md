@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: 7b40bd67529e62e7b08ba3076a707ba14edd6824
+source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '317'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,22 @@ ht-degree: 0%
 Deze pagina beschrijft kleine updates van de blik en het gevoel van diverse gebieden van de toepassing van Adobe Workfront die binnen het tweede Kwartaal 2025 releasetijdschema werden gemaakt.
 
 Voor een lijst van alle veranderingen beschikbaar met het Tweede Kwartaal 2025 versie, zie [ Tweede Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
+
+## Updates van de Workfront-agenda bekijken en weergeven
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 27 februari 2025; Productieversie voor alle klanten: met de release van 25.3 (maart 2025)
+
+We hebben de look and feel van de Workfront-agenda aangepast aan een modern ontwerp dat aansluit bij andere delen van Workfront. Er zijn kleine functieverschillen met de huidige Workfront-kalender, waaronder:
+
+* Ad-hocitems toevoegen aan de kalender
+* De manier waarop u de kalender maakt en hernoemt
+* De kalenderacties zijn verplaatst naar het menu Meer naast de kalendernaam
+* Een nieuw zijpaneel voor het weergeven van kalenderinformatie
+* En meer
+
+Voor meer informatie, zie de [ Kalenders ](/help/quicksilver/reports-and-dashboards/reports/calendars/calendars.md) artikelen.
 
 ## Tijdelijke look-and-feel wijzigingen in e-mailberichten van documenten
 

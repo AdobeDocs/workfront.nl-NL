@@ -7,9 +7,9 @@ description: Met Workfront Data Connect kunt u de Workfront-gegevens van uw orga
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
+source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
@@ -55,19 +55,19 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader">Adobe Workfront-plan</td> 
    <td><p>Opgenomen in de volgende plannen:</p>
     <ul>
-        <li>Ultieme</li> 
+        <li><p>Ultimate</p></li> 
     </ul>    
-   <p>Kan worden aangeschaft als een toevoeging bij de volgende plannen:</p> 
+   <!--<p>Can be purchased as an add-on to the following plans:</p> 
     <ul>
-        <li>Selecteren</li> 
-        <li>Eerste</li>
-    </ul> 
+        <li>Select</li> 
+        <li>Prime</li>
+    </ul>--> 
     <p>Workfront Data Connect is niet beschikbaar voor oudere Workfront-plannen.</p> 
    </td> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td>Plan</td> 
+   <td><p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 

@@ -3,18 +3,18 @@ content-type: reference
 product-area: reports and dashboards
 navigation-topic: data connect
 title: Een lezeraccount maken voor Snowflake
-description: Als u toegang wilt krijgen tot gegevens van Data Connect, moet u eerst een account voor een Snowflake-lezer maken.
+description: Als u toegang wilt krijgen tot gegevens van Data Connect, moet u eerst een Snowflake Reader-account maken.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
+source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
 
-# Een lezeraccount of verbinding voor Snowflake maken
+# Een reader-account of -verbinding maken voor Snowflake
 
 Als u toegang wilt krijgen tot gegevens van Data Connect, moet u eerst een Snowflake-lezer (of service)-account voor uw organisatie maken en vervolgens een nieuwe verbinding maken voor elke gebruiker of elk hulpprogramma dat u toegang wilt hebben tot Data Connect.
 
@@ -36,19 +36,19 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader">Adobe Workfront-plan</td> 
    <td><p>Opgenomen in de volgende plannen:</p>
     <ul>
-        <li>Ultieme</li> 
+        <li>Ultimate</li> 
     </ul>    
-   <p>Kan worden aangeschaft als een toevoeging bij de volgende plannen:</p> 
+   <!--<p>Can be purchased as an add-on to the following plans:</p> 
     <ul>
-        <li>Selecteren</li> 
-        <li>Eerste</li>
-    </ul> 
+        <li>Select</li> 
+        <li>Prime</li>
+    </ul>--> 
     <p>Workfront Data Connect is niet beschikbaar voor oudere Workfront-plannen.</p> 
-   </td> </td> 
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td>Plan</td> 
+   <td><p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
@@ -63,11 +63,11 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 ## Een lezeraccount maken
 
-U moet een nieuwe Snowflake-lezeraccount voor uw organisatie maken voordat u kunt beginnen met het maken van verbindingen.
+U moet een nieuwe Snowflake-lezeraccount voor uw organisatie maken voordat u verbinding kunt maken.
 
 >[!IMPORTANT]
 >
->Dit proces moet slechts eenmaal per organisatie worden voltooid. Als **Create de knoop van de Rekening van de Reader** niet in de hieronder beschreven plaats aanwezig is, dan is uw reader rekening reeds gecreeerd.
+>Dit proces moet slechts eenmaal per organisatie worden voltooid. Als **de Create knoop van de Rekening van Reader** niet in de hieronder beschreven plaats aanwezig is, dan is uw reader rekening reeds gecreeerd.
 
 Een lezeraccount maken:
 
@@ -75,11 +75,11 @@ Een lezeraccount maken:
 
 1. In het linkerpaneel, klik **Systeem** > **Gegevens verbinden**.
 
-1. Klik de **Create knoop van de Rekening van de Reader** beginnen creërend de reader van uw organisatie rekening. Het proces verloopt automatisch, maar het kan een paar minuten duren.
+1. Klik de **Create knoop van de Rekening van Reader** beginnen creërend de reader van uw organisatie rekening. Het proces verloopt automatisch, maar het kan een paar minuten duren.
 
 1. Na voltooiing wordt een dialoogvenster weergegeven waarin wordt uitgelegd dat uw lezeraccount nu actief is. Vernieuw de browser pagina om toegang tot **te krijgen creeer Nieuwe Verbinding** knoop.
 
-![ gecreeerde de rekening van de Reader dialoog ](/help/quicksilver/reports-and-dashboards/data-lake/assets/data-connect-reader-account-created.png)
+![ de rekening van Reader creeerde dialoog ](/help/quicksilver/reports-and-dashboards/data-lake/assets/data-connect-reader-account-created.png)
 
 ## Verbinding maken
 
@@ -93,15 +93,15 @@ Een lezeraccount maken:
 
    ![ creeer nieuwe verbinding ](/help/quicksilver/reports-and-dashboards/data-lake/assets/new-reader-connection.png) {width="500"}
 
-1. A **Standaardwachtwoord** zal, evenals URL worden geproduceerd waar uw gegevens door Snowflake kunnen worden bekeken. U moet het wachtwoord gebruiken in combinatie met de gebruikersnaam die u hebt gekozen om u voor het eerst aan te melden bij de Snowflake, zodat u een record en de URL bijhoudt. Controleer de doos die u verklaart dit hebt gedaan, dan klik **dicht**.
+1. A **Standaardwachtwoord** zal, evenals URL worden geproduceerd waar uw gegevens door Snowflake kunnen worden bekeken. U moet het wachtwoord gebruiken in combinatie met de gebruikersnaam die u hebt gekozen om u voor het eerst aan te melden bij Snowflake, zodat u een record en de URL kunt bijhouden. Controleer de doos die u verklaart dit hebt gedaan, dan klik **dicht**.
 
    ![ Standaard rekeningswachtwoord ](/help/quicksilver/reports-and-dashboards/data-lake/assets/default-password-reader-account.png) {width="500"}
 
-1. Open Snowflake die browser gebruikt om aan URL van de vorige stap te navigeren, ga de gebruikersbenaming in u en het standaardwachtwoord van de vorige stap selecteerde, dan klik **binnen Teken**.
+1. Open Snowflake gebruikend browser om aan URL van de vorige stap te navigeren, ga de gebruikersbenaming in u en het standaardwachtwoord van de vorige stap selecteerde, dan klik **binnen Teken**.
 
 1. Nadat u zich voor het eerst hebt aangemeld, wordt u gevraagd een nieuw wachtwoord te kiezen. Ga een wachtwoord van uw keus in zowel het **Nieuwe wachtwoord** in en **bevestig wachtwoord** gebieden, dan klik **voorleggen**.
 
-   ![ het wachtwoord van de Snowflake van het Terugstellen ](/help/quicksilver/reports-and-dashboards/data-lake/assets/reset-snowflake-password.png) {width="300"}
+   ![ het wachtwoord van Snowflake van het Terugstellen ](/help/quicksilver/reports-and-dashboards/data-lake/assets/reset-snowflake-password.png) {width="300"}
 
 1. U kunt nu uw gebruikersnaam en nieuw wachtwoord gebruiken om toegang te krijgen tot uw Data Connect Data Lake in Snowflake of het hulpprogramma voor bedrijfsvisualisatie van uw keuze.
 
