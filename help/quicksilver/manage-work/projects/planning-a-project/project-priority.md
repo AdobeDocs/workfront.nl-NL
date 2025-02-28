@@ -7,9 +7,9 @@ description: Er zijn verschillende manieren om prioriteiten voor projecten te ge
 author: Alina
 feature: Work Management
 exl-id: b1e0b6c5-f2a7-455b-836b-6c0ead85e3ad
-source-git-commit: b08edd8dd7c339dffdba4c9ff5aa0a365229e794
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '663'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ Hier volgt een overzicht van de prioriteiten waarmee u projecten in Adobe Workfr
 
 * **de prioriteit van een project in Portfolio Optimizer**, als het project met een portefeuille wordt geassocieerd:
 
-  Voor meer informatie over de prioriteit van een project in Portfolio Optimizer, zie in het artikel [ projecten in de Optimizer van het Portfolio ](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md) Prioritize.
+  Voor meer informatie over de prioriteit van een project in Portfolio Optimizer, zie in het artikel [ projecten Prioritize in Portfolio Optimizer ](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 
 * **de prioriteit van een project in de Planner van het Middel**: U kunt projecten in de Planner van het Middel manueel voorrang geven, om erop te wijzen welke projecten eerst middelen zouden moeten ontvangen.
 
@@ -119,7 +119,7 @@ Houd rekening met het volgende wanneer u een prioriteit voor uw projecten select
 
 1. Ga naar het project waarvan Prioriteit u wilt bijwerken.
 1. Klik **Details van het Project** in het linkerpaneel.
-1. Klik **uitgeven** pictogram ![](assets/qs-edit-icon.png) in de hoger-juiste hoek van het gebied van de Details van het Project, dan klik **Overzicht**.
+1. Klik **uitgeven** pictogram ![ geeft pictogram ](assets/qs-edit-icon.png) in de hoger-juiste hoek van het gebied van de Details van het Project uit, dan klik **Overzicht**.
 
 1. Op het **Prioritaire** gebied, selecteer van de volgende opties:
 
