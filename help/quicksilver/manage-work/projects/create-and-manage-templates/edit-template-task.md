@@ -7,9 +7,9 @@ description: Nadat u een sjabloon hebt gemaakt, kunt u informatie over de sjablo
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '2406'
+source-wordcount: '2420'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen </td> 
-   <td> <p>Rechten voor een sjabloon beheren. </p> <p>Contribute- of hogere machtigingen voor de sjabloontaak.</p> </td> 
+   <td> <p>Rechten voor een sjabloon beheren. </p> <p>Contribute of hoger voor de sjabloontaak.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -82,8 +82,8 @@ U kunt een sjabloontaak bewerken met de gebieden Sjabloontaak bewerken of Sjablo
 1. Klik op de naam van een sjabloontaak in de lijst om de sjabloontaak te openen.
 1. (Facultatief) om verscheidene malplaatjetaken in bulk uit te geven, selecteer veelvoudige malplaatjetaken, dan klik **uitgeven** bij de bovenkant van de malplaatjelijst.
 1. (Voorwaardelijk) om beperkte informatie over een malplaatjetaak uit te geven, klik **Details van de Taak van het Malplaatje** in het linkerpaneel, dan ga naar de gebieden van de sectie van Details om informatie voor elk gebied uit te geven.
-1. (Optioneel) Klik op **Alles samenvouwen** pictogram ![](assets/collapse-all-icon.png) om alle gebieden samen te vouwen.
-1. Om informatie in de sectie van Details uit te geven, klik **geef** pictogram ![](assets/edit-icon.png) uit, dan selecteer van om het even welke gebieden hieronder, of klik **geef allen** uit om informatie op alle gebieden uit te geven:
+1. (Facultatief) klik **Vouw alle** pictogram ![ samen om alle pictogram ](assets/collapse-all-icon.png) samen te vouwen om alle gebieden samen te vouwen.
+1. Om informatie in de sectie van Details uit te geven, **uitgeef** pictogram ![ pictogram ](assets/edit-icon.png), dan uitgezocht van om het even welke hieronder gebieden, of klik **geef allen** uit om informatie op alle gebieden uit te geven:
 
    * Overzicht
    * Aangepaste Forms
@@ -96,7 +96,7 @@ U kunt een sjabloontaak bewerken met de gebieden Sjabloontaak bewerken of Sjablo
    >
    >Voor informatie over alle velden die in het gebied Details worden weergegeven, gaat u verder met het bewerken van alle velden via het vak Sjabloontaak bewerken, zoals hieronder wordt beschreven.
 
-1. (Voorwaardelijk) om alle informatie over de malplaatjetaak uit te geven, klik **Meer** menu ![](assets/qs-more-icon-on-an-object.png) naast de naam van de malplaatjetaak, dan klik **uitgeven**.
+1. (Voorwaardelijk) om alle informatie over de malplaatjetaak uit te geven, klik **Meer** menu ![ Meer pictogram ](assets/qs-more-icon-on-an-object.png) naast de naam van de malplaatjetaak, dan klik **uitgeven**.
 
    De **geeft de taakvertoningen van het Malplaatje uit**.
 
@@ -104,7 +104,7 @@ U kunt een sjabloontaak bewerken met de gebieden Sjabloontaak bewerken of Sjablo
    >
    >U kunt ook een sjabloontaak in een lijst selecteren en vervolgens op Bewerken klikken om het vak Sjabloontaak bewerken te openen.
 
-   ![](assets/edit-template-tasks-box-classic-350x356.png)
+   ![ geef malplaatjetaak ](assets/edit-template-tasks-box-classic-350x356.png) uit
 
 1. Overweeg informatie op te geven in een van de volgende secties:
 
@@ -268,7 +268,7 @@ U kunt een sjabloontaak bewerken met de gebieden Sjabloontaak bewerken of Sjablo
 1. Beginnen met het bewerken van een sjabloontaak zoals hierboven beschreven.
 1. Klik **Montages**.
 
-   ![](assets/edit-template-tasks-settings-classic-350x231.png)
+   ![ geef de montages van de malplaatjetaak ](assets/edit-template-tasks-settings-classic-350x231.png) uit
 
 1. Werk een van de volgende items bij:
 
