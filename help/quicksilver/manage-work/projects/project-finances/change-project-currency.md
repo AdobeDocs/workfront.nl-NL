@@ -6,9 +6,9 @@ description: Als projectmanager, kunt u een project vormen om een munt buiten de
 author: Lisa
 feature: Work Management
 exl-id: c496fe92-5c17-41a5-972b-1c063643bde3
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 1. Klik **Details van het Project** in het linkerpaneel, dan ga naar het **Financiën** gebied.
 1. Klik **toevoegen** in het **3} gebied van de Valuta {en selecteer de munt die u als standaardmunt voor het project wilt gebruiken.** Alle valuta&#39;s die uw Workfront-beheerder voor uw Workfront-exemplaar heeft ingesteld, worden weergegeven.
 
-   ![](assets/currency-on-project-expanded-nwe.png)
+   ![ Valuta op project ](assets/currency-on-project-expanded-nwe.png)
 
 1. (Voorwaardelijk) Als u een andere valuta dan de standaardvaluta selecteert die voor uw Workfront-systeem is ingesteld, geeft u de wisselkoers op voor de valuta die u hebt geselecteerd, aangezien deze betrekking heeft op de valuta die is ingesteld als de basisvaluta in het systeem.
 1. Klik **sparen Veranderingen**.
