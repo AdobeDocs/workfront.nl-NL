@@ -6,9 +6,9 @@ description: U kunt projecten van het Project van Microsoft in Adobe Workfront i
 author: Alina
 feature: Work Management
 exl-id: dcc3c049-245c-4bb7-b819-b75d6d7e5b67
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
@@ -98,14 +98,14 @@ U kunt een project van het gebied van Projecten in het Belangrijkste Menu, of va
 1. Meld u aan bij Workfront.
 1. Voer een van de volgende handelingen uit:
 
-   * Klik het **Belangrijkste Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Workfront, of klik het **Belangrijkste Menu** ![](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar, klik **Projecten**, dan breid **Nieuw Project** uit.
+   * Klik het **Belangrijkste pictogram van het Menu** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek van Workfront, of klik de **Belangrijkste Lijnen van het Menu** ![ Belangrijkste Menu ](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar, klik **Projecten**, dan breid **Nieuw Project** uit.
    * Ga naar een portefeuille, dan breid **Nieuw Project** uit.
    * Ga naar een programma, dan breid **Nieuw Project** uit.
    * Als u een groepsbeheerder bent, kunt u een project in de sectie van Projecten van een groep ook tot stand brengen u beheert. Voor meer informatie, zie [ tot stand brengen en wijzigen de projecten van een groep ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
 1. Kies de **optie van het Project van MS van de Invoer**.
 
-   ![](assets/new-project-dropdown-nwe-350x358.png)
+   ![ Nieuwe projectdropdown ](assets/new-project-dropdown-nwe-350x358.png)
 
 1. Klik **Uitgezochte Dossier**, dan doorblader voor het .xml- dossier op uw computer die u van het Project van Microsoft uitvoerde.
 1. Het geselecteerde bestand importeren.
