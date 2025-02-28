@@ -6,9 +6,9 @@ description: U kunt een sjabloontaak naar dezelfde sjabloon of naar een andere s
 author: Alina
 feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '2128'
+source-wordcount: '2140'
 ht-degree: 0%
 
 ---
@@ -87,9 +87,9 @@ U kunt één sjabloontaak kopiëren of meerdere sjabloontaken bulksgewijs kopië
 1. Voer een van de volgende handelingen uit:
    * Klik op de naam van een sjabloontaak om deze te openen.
    * Selecteer een of meerdere sjabloontaken in de lijst.
-1. (Voorwaardelijk) klik het **Meer** menu ![](assets/more-icon.png) bij de bovenkant van de lijst van de malplaatjetaak of rechts van de naam van de malplaatjetaak als u de taak opende, dan klik **Exemplaar aan** of **Exemplaar**, afhankelijk waar u tot de optie van het Exemplaar toegang hebt.
+1. (Voorwaardelijk) klik het **Meer** menu ![ Meer pictogram ](assets/more-icon.png) bij de bovenkant van de lijst van de malplaatjetaak of rechts van de naam van de malplaatjetaak als u de taak opende, dan klik **Exemplaar aan** of **Exemplaar**, afhankelijk van waar u tot de optie van het Exemplaar toegang hebt.
 Het vak Sjabloontaak kopiëren wordt geopend.
-   ![](assets/copy-template-task-box-unshimmed.png)
+   ![ de taakdoos van het malplaatje van het Exemplaar ](assets/copy-template-task-box-unshimmed.png)
 1. (Facultatief) noem de malplaatjetaak op het **gebied van de Naam van de Taak van het Malplaatje**.
 
    >[!TIP]
@@ -210,9 +210,9 @@ U kunt een sjabloontaak verplaatsen naar een andere sjabloontaak in dezelfde sja
 1. Voer een van de volgende handelingen uit:
    * Klik op de naam van een sjabloontaak om deze te openen.
    * Selecteer een of meerdere sjabloontaken in de lijst.
-1. (Voorwaardelijk) klik het **Meer** menu ![](assets/more-icon.png) bij de bovenkant van de lijst van de malplaatjetaak of rechts van de naam van de malplaatjetaak als u de taak opende, dan klik **Beweging aan** of **Beweging**, afhankelijk van waar u tot de optie van de Beweging toegang hebt.
+1. (Voorwaardelijk) klik het **Meer** menu ![ Meer pictogram ](assets/more-icon.png) bij de bovenkant van de lijst van de malplaatjetaak of rechts van de naam van de malplaatjetaak als u de taak opende, dan klik **Beweging aan** of **Beweging**, afhankelijk van waar u tot de optie van de Beweging toegang hebt.
 Het vak Sjabloontaak verplaatsen wordt geopend.
-   ![](assets/move-template-task-box-unshimmed.png)
+   ![ de taakdoos van het malplaatje van de Beweging ](assets/move-template-task-box-unshimmed.png)
 
 1. (Facultatief) noem de malplaatjetaak op het **gebied van de Naam van de Taak van het Malplaatje**.
 
