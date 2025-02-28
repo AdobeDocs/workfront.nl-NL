@@ -6,9 +6,9 @@ description: Met de widget Mijn werk worden alle toegewezen taken, problemen en 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e110f0f6-4ecb-419b-a368-c3f802de5920
-source-git-commit: f20f1c5d10869901ba5284a4425e38d279265a06
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '740'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>  
   <tr> 
    <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
-   <td> <p>Contribute-machtigingen of hoger voor de taken en problemen waarmee u moet werken</p>  </td> 
+   <td> <p>Contribute-machtigingen of hoger voor de taken en problemen waaraan u moet werken</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,7 +63,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 U kunt de Mijn filters van het Werk verfijnen om zich op specifieke punten in uw lijst van het werk te concentreren:
 
-![](assets/filter-my-work-widget.png)
+![ Mijn filter van het Werk ](assets/filter-my-work-widget.png)
 
 ### Filterdetails
 
@@ -135,7 +135,7 @@ Eerdere items geven een waarschuwingspictogram weer naast de datum. Workfront ge
 >Als u een lijst wilt maken waarin alle items worden weergegeven die in het verleden verschuldigd zijn boven aan de widget Mijn werk, sorteert u deze op Datum verstreken en past u geen groepering toe.
 
 
-![](assets/sort-my-work-widget.png)
+![ Soort in Mijn widget van het Werk ](assets/sort-my-work-widget.png)
 
 ### Groep
 
@@ -151,7 +151,7 @@ De vervaldatum wordt bepaald door de geplande datum van voltooiing.
 >Wanneer u een groep toepast, bepaalt de selectie in het menu Sorteren de volgorde binnen de groep.
 
 
-![](assets/group-my-work-widget.png)
+![ Groepering in Mijn widget van het Werk ](assets/group-my-work-widget.png)
 
 ## Gegevens over het werkitem bijwerken in het overzicht
 
@@ -167,7 +167,7 @@ Workfront-beheerders kunnen aanpassen welke velden worden weergegeven in het ove
 * Logtijd
 * Bijgevoegde goedkeuringsprocessen weergeven
 
-Om de Samenvatting te openen, houd over het het werkpunt, dan klik het **Samenvatting** pictogram ![](assets/open-summary-new-home.png).
+Om de Samenvatting te openen, over het het werkpunt te bewegen, dan het **pictogram van de Samenvatting ![ ](assets/open-summary-new-home.png) te klikken pictogram van de Samenvatting 0}.**
 
 Voor extra informatie over hoe te om het Summiere paneel te gebruiken, zie [ Overzicht van de Samenvatting ](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
 
@@ -182,7 +182,7 @@ U kunt het menu Handelingen gebruiken om
 
 Houd de muisaanwijzer boven het werkitem om het menu met snelle acties te zoeken. De snelle vertoningen van de actielijst dichtbij het **Werk op het** of **Gereed** knoop.
 
-![](assets/quick-actions-new-home.png)
+![ Snelle actiemenu ](assets/quick-actions-new-home.png)
 
 
 ## Goedkeuringen en teamverzoeken weergeven
