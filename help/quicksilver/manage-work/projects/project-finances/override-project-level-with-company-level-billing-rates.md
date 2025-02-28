@@ -6,9 +6,9 @@ description: Override project-Level het Factureren Tarieven met het bedrijf-Vlak
 author: Lisa
 feature: Work Management
 exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Wanneer een bedrijf met een project wordt geassocieerd en deze optie wordt toege
 Wanneer een gebruiker manueel financiën op het project herberekent, worden om het even welke veranderingen in het bedrijf-vlakke factureringspercentages toegepast. Historische inkomstenberekeningen worden ook overschreven, tenzij ze als gefactureerd worden gemarkeerd.
 
 1. Ga naar een project.
-1. Klik **Meer** menu ![](assets/qs-more-icon-on-an-object.png) naast de naam van het project in de kopbal, dan klik **uitgeven**.
+1. Klik het **Meer** menu ![ Meer menu ](assets/qs-more-icon-on-an-object.png) naast de naam van het project in de kopbal, dan klik **uitgeven**.
 1. In de **sectie van de Financiën**, laat **toe toestaan bedrijf-vlakke het factureren tarieven om project-vlakke het factureren tarieven** met voeten te treden.
 
    >[!CAUTION]
@@ -103,4 +103,4 @@ Nadat u de bedrijf-vlakke het facturerings optie van de tariefopheffing op een p
    * Eén project:
 
       1. Ga naar het project waarvoor u bedrijf-vlakke het factureren tariefopheffing toeliet.
-      1. Klik **Meer** menu ![](assets/qs-more-icon-on-an-object.png) naast de projectnaam in de kopbal, dan klik **opnieuw berekenen Financiën**.
+      1. Klik **Meer** menu ![ Meer menu ](assets/qs-more-icon-on-an-object.png) naast de projectnaam in de kopbal, dan klik **opnieuw berekenen Financiën**.
