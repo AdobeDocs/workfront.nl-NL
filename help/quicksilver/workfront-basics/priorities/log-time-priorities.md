@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 5457f516-c213-4b82-b033-bc8db943a217
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
@@ -62,14 +62,14 @@ U kunt de tijd van het logboek rechtstreeks van de werklijst registreren:
 {{step1-to-priorities}}
 
 1. Beweeg over de naam, dan klik **tijd van het Logboek**.
-   ![](assets/update-log-upload.png)
+   ![ Update, logboektijd, en upload ](assets/update-log-upload.png)
 1. In het **drop-down menu van het Type van 1 uur**, selecteer het aangewezen uurtype. De types van uren zijn beschikbaar afhankelijk van wat op het systeem, het project, en gebruikersniveaus is bepaald, zoals die in Define uurtypes en beschikbaarheid wordt beschreven.
 
 1. (Voorwaardelijk) Als uw Workfront of groepsbeheerder de optie Taak toewijzen aan uren handmatig heeft ingeschakeld, selecteert u een taakrol in het keuzemenu. De rol die wordt gespecificeerd wanneer u aan de het werkpuntvertoningen door gebrek wordt toegewezen. Als u geen rol op het voorwerp wordt toegewezen, toont uw Primaire Rol als gebrek. Als u geen primaire rol hebt toegewezen, wordt de rol Geen taak weergegeven.
 
 1. Ga de tijd in u wilt registreren, dan klik **tijd van het Logboek**.
 
-   ![](assets/log-time-dialog.png)
+   ![ tijd van het Logboek ](assets/log-time-dialog.png)
 
 ## Tijd vastleggen in een werkitem
 
@@ -84,4 +84,4 @@ U kunt de tijd in een individueel het werkpunt registreren:
 
 1. Ga de tijd in u wilt registreren, dan klik **tijd van het Logboek**.
 
-   ![](assets/log-time-dialog.png)
+   ![ tijd van het Logboek ](assets/log-time-dialog.png)
