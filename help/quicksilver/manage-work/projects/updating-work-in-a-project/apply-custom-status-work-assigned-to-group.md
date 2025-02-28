@@ -6,9 +6,9 @@ description: Als een project met een groep wordt geassocieerd, kunt u zowel syst
 author: Alina
 feature: Work Management
 exl-id: 7564ab6a-8ddf-4e76-8e45-d59f9cf8d38b
-source-git-commit: 6bb6b834c5af8ad48179fc0d60b184d083b360e4
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 Wanneer u de Groep voor een project bijwerkt, de opties beschikbaar voor de Status van taken, kwesties, of de projectverandering om de groep aan te passen.
 
 1. Ga naar een project, of creeer een nieuw project, zoals die in [ wordt beschreven creeer een project ](../../../manage-work/projects/create-projects/create-project.md).
-1. Klik **Meer** pictogram ![](assets/more-icon.png), dan klik **uitgeven**.
+1. Klik het **Meer** pictogram ![ Meer pictogram ](assets/more-icon.png), dan klik **uitgeven**.
 
 1. In **geef de doos van het Project** uit die, dichtbij de bodem van de **sectie van het Overzicht** toont, selecteer de groep in het **Groep** drop-down menu.
 
