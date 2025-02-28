@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -55,12 +55,12 @@ Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licen
 {{step1-to-priorities}}
 
 1. Beweeg over de naam, dan klik **uploadt**.
-   ![](assets/update-log-upload.png)
+   ![ Update, logboektijd, en upload ](assets/update-log-upload.png)
 1. (Optioneel) Selecteer een map.
 1. Sleep het bestand of Cmd/Ctrl + V om het van het klembord te plakken
 of
 Klik **toevoegen dossiers** om dossiers te doorbladeren of dossiers van een leverancier van Document Cloud in te voeren.
-   ![](assets/add-files.png)
+   ![ voeg dossiers ](assets/add-files.png) toe
 1. (Optioneel) Voeg een opmerking toe.
 1. (Optioneel) Voeg meer bestanden toe.
 
@@ -68,7 +68,7 @@ Klik **toevoegen dossiers** om dossiers te doorbladeren of dossiers van een leve
    >
    >Extra bestanden worden geüpload als afzonderlijke documenten.
 1. Klik **uploaden**.
-   ![](assets/upload-file-module.png)
+   ![ uploadt dossier ](assets/upload-file-module.png)
 
 
 ## Een bestand uploaden in een tijdelijk item
@@ -81,7 +81,7 @@ Klik **toevoegen dossiers** om dossiers te doorbladeren of dossiers van een leve
 1. Sleep het bestand of Cmd/Ctrl + V om het van het klembord te plakken
 of
 Klik **toevoegen dossiers** om dossiers te doorbladeren of dossiers van een leverancier van Document Cloud in te voeren.
-   ![](assets/add-files.png)
+   ![ voeg dossiers ](assets/add-files.png) toe
 1. (Optioneel) Voeg een opmerking toe.
 1. (Optioneel) Voeg meer bestanden toe.
 
@@ -89,4 +89,4 @@ Klik **toevoegen dossiers** om dossiers te doorbladeren of dossiers van een leve
    >
    >Extra bestanden worden geüpload als afzonderlijke documenten.
 1. Klik **uploaden**.
-   ![](assets/upload-file-module.png)
+   ![ uploadt dossier ](assets/upload-file-module.png)
