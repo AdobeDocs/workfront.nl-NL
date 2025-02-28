@@ -6,9 +6,9 @@ description: Het proces voor het creëren van en het leiden van uitgaven is het 
 author: Lisa
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td>Contribute of hogere machtigingen voor het project met machtigingen voor View of Manage Finance</td> 
+   <td>Draag of hoger toestemmingen aan het project met toestemmingen bij Mening of leidt Financiën</td> 
   </tr> 
  </tbody> 
 </table>
@@ -74,7 +74,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    * **Ware Bedrag:** het bedrag dat de uitgave werkelijk kosten.\
      Dit is van invloed op de werkelijke kosten van het project.
 
-   * **Geplande Datum:** de verwachte datum voor de uitgave om voor te komen. U kunt de datum op het gebied typen gebruikend het *mm/dd/yy* formaat, of u kunt het kalenderpictogram klikken  ![](assets/calendar-icon.png) en selecteert u de datum dynamisch.
+   * **Geplande Datum:** de verwachte datum voor de uitgave om voor te komen. U kunt de datum op het gebied typen gebruikend het *mm/dd/yy* formaat, of u kunt het kalenderpictogram klikken  ![ het pictogram van de Kalender ](assets/calendar-icon.png) en selecteert dynamisch de datum.
 
    * **Betaalde Datum:** De datum de uitgave werd betaald.
    * **Billable:** selecteer deze optie als u deze uitgave wilt factureren. Het categoriseren van een uitgave als factureerbaar is belangrijk wanneer het creëren van factureringsverslagen.
