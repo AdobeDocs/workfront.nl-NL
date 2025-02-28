@@ -6,9 +6,9 @@ description: Als projectmanager, kunt u specificeren wat het het facturerings ta
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '825'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ Een factureringssnelheid voor een project overschrijven:
 
 1. Op het **gebied van de Rol van de Baan 0}, selecteer de baanrol u het facturerings tarief voor wilt veranderen.**
 
-   ![](assets/override-billing-rate-on-project-nwe-350x310.png)
+   ![ met voeten treden facturerend tarief op project ](assets/override-billing-rate-on-project-nwe-350x310.png)
 
    Het **Standaard het FactureringsTarief** gebied toont het systeem-vlakke tarief voor deze baanrol.
 
