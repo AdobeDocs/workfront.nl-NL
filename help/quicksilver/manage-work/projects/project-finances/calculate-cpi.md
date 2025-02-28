@@ -7,9 +7,9 @@ description: De kostenprestatie-index (CPI) beschrijft de relatie op het project
 author: Lisa
 feature: Work Management
 exl-id: 7f2efe26-7292-482d-986c-2d2077a7ca52
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
@@ -200,4 +200,4 @@ U kunt CPI van een project of een taak in een project of een taaklijst of rappor
 
    De vertoningen CPI op het **CPI/SPI/CSI** gebied.
 
-   ![](assets/cpi-on-project-nwe.png)
+   ![ CPI op project ](assets/cpi-on-project-nwe.png)
