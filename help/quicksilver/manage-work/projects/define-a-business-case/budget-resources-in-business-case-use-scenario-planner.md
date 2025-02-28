@@ -5,9 +5,9 @@ description: Als deel van middelplanning, kunt u de Planner van het Scenario van
 author: Alina
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
@@ -120,11 +120,11 @@ Voordat u begint, moet u het volgende doen:
 
    * Als u enkel informatie van de Planner van het Scenario publiceerde, de uitgezochte Planner van het Scenario in **verkies welke uren om de Begrotende Kosten van de Arbeid van het project** gebied op het het Voorwerpen van het Middel te berekenen, dan **kiezen**.
 
-     ![](assets/business-case-sp-selected-with-choose-button-350x121.png)
+     ![ Bedrijfs geval in de Planner van het Middel met Choose knoop ](assets/business-case-sp-selected-with-choose-button-350x121.png)
 
    * Als de Planner van het Middel eerder voor het opnemen van middelen voor het project werd geselecteerd, klik **Verandering** > **de Planner van het Scenario** > **kiezen**.
 
-     ![](assets/business-case-rp-selected-change-option-to-switch-to-sp-highlighted-350x37.png)
+     ![ Bedrijfs geval in de Planner van het scenario met Choose knoop ](assets/business-case-rp-selected-change-option-to-switch-to-sp-highlighted-350x37.png)
 
      Workfront maakt gebruik van de vereiste arbeidstijden van het gekoppelde initiatief om de begrote arbeidskosten en de begrote uren uren uren te berekenen. Dit is de aanbevolen optie. Kostendenvertoningen in het BedrijfsGeval in de valuta van het project.
 
