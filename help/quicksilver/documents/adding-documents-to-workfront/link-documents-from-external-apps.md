@@ -6,9 +6,9 @@ description: U kunt documenten en mappen vanuit externe bronnen koppelen aan Ado
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: fde2ad9a8ef1b7f659f8f52c157726d0562b972a
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '2608'
+source-wordcount: '2620'
 ht-degree: 0%
 
 ---
@@ -114,7 +114,7 @@ U kunt documenten vanuit een externe toepassing, zoals Google en Microsoft OneDr
 
 >[!IMPORTANT]
 >
->Dropbox slaat documenten op op basis van het bestandspad. Hierdoor wordt een bestand dat is gekoppeld vanuit Dropbox, verplaatst, hernoemd of verwijderd, in Workfront ontoegankelijk.
+>Dropbox slaat documenten op op basis van het bestandspad. Hierdoor wordt een bestand dat is gekoppeld vanuit Dropbox verplaatst, hernoemd of verwijderd, in Workfront ontoegankelijk.
 
 1. Ga naar het **gebied van Documenten** in Workfront waar u het document wilt.
 1. Klik **toevoegen Nieuw**, dan klik de externe documentleverancier waar u documenten aan Workfront wilt verbinden.
@@ -248,7 +248,7 @@ Gebruikers zonder Workfront-toegang kunnen het document in de externe toepassing
 1. Selecteer een document dat in Workfront is geüpload.
 1. Klik **Meer** > **verzenden naar**, dan selecteer de wolkenleverancier die u het verbonden document wilt opslaan.
 
-   Hiervoor kunt u ook het menu Meer ![](assets/more-icon.png) op de pagina Documentdetails gebruiken.
+   U kunt het Meer menu ![ Meer menu ](assets/more-icon.png) op de pagina van de Details van het Document ook gebruiken om dit te doen.
 
 1. Selecteer de map in de toepassing van de provider waarin u het document wilt opslaan.
 
@@ -278,7 +278,7 @@ Bij het synchroniseren van de mapinhoud van een externe documenttoepassing gebru
 
 ### Een of meer externe mappen koppelen {#link-one-or-more-external-folders}
 
-1. Ga naar het gebied in Workfront waar u de omslag wilt, dan klik **Documenten** ![](assets/document-icon.png) in het linkerpaneel.
+1. Ga naar het gebied in Workfront waar u de omslag wilt, dan klik **![ het pictogram van Documenten ](assets/document-icon.png) in het linkerpaneel van Documenten**.
 
 1. Klik **toevoegen Nieuw**, dan klik de externe documentleverancier waarvan u een omslag aan Workfront wilt verbinden.
 1. (Voorwaardelijk) als u de externe dienst nog niet hebt geautoriseerd, specificeer uw login geloofsbrieven voor de externe leverancier, dan klik binnen **Teken**.
@@ -301,9 +301,9 @@ Bij het synchroniseren van de mapinhoud van een externe documenttoepassing gebru
 
    In Workfront wordt het logo van de cloudprovider naast de map weergegeven om aan te geven dat het is gekoppeld aan de externe cloudprovider.
 
-1. (Facultatief) om de omslag anders te noemen zodat de omslagnaam in Workfront van de omslagnaam in de externe documenttoepassing verschillend is, selecteer de omslag in de **sectie van Omslagen**, klik het Meer menu ![](assets/more-icon.png) dat naast de omslagnaam toont, dan klikt **anders noemen**.
+1. (Facultatief) om de omslag anders te noemen zodat de omslagnaam in Workfront van de omslagnaam in de externe documenttoepassing verschillend is, selecteer de omslag in de **sectie 0} Omslagen {, klik het Meer menu ![ Meer ](assets/more-icon.png) dat naast de omslagnaam toont, dan** anders noemt **klikt.**
 
-   ![](assets/documents-folderlink-rename-nwe-350x154.png)
+   ![ noem omslag anders ](assets/documents-folderlink-rename-nwe-350x154.png)
 
 Hierdoor wordt de naam van de map in de externe toepassing niet gewijzigd.
 
@@ -317,7 +317,7 @@ U kunt een nieuwe map maken in een bestaande gekoppelde map. U kunt ook een ande
 
    Als u een bestaande map naar een bestaande gekoppelde map wilt slepen, gaat u naar het gebied Documenten waar u de submap wilt plaatsen en sleept u deze naar de gekoppelde map.
 
-   ![](assets/documents-link-folder-move-nwe-350x113.png)
+   ![ Belemmering in verbonden omslag ](assets/documents-link-folder-move-nwe-350x113.png)
 
    >[!NOTE]
    >
@@ -363,4 +363,4 @@ Als u wilt dat de naam overeenkomt in Workfront en in de externe toepassing, moe
 
 >[!IMPORTANT]
 >
->Wijzig de naam van een document in Workfront dat is gekoppeld aan een Dropbox niet. Hierdoor is het bestand in Workfront niet toegankelijk. Wijzig in plaats daarvan de naam van het bestand in Dropbox en synchroniseer het bestand opnieuw.
+>Wijzig de naam van een document in Workfront dat is gekoppeld aan Dropbox niet. Hierdoor is het bestand in Workfront niet toegankelijk. Wijzig in plaats daarvan de naam van het bestand in Dropbox en synchroniseer het bestand opnieuw.
