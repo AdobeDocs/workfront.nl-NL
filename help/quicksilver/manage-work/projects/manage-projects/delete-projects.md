@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
 recommendations: noDisplay, noCatalog
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '895'
 ht-degree: 0%
 
 ---
@@ -135,7 +135,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 U kunt projecten uit een lijst van projecten schrappen.
 
 1. Ga naar een lijst van projecten of een projectrapport.
-1. Selecteer het project of de projecten die u wilt schrappen, dan klik het **pictogram van de Schrapping ![](assets/delete-icon.png) bij de bovenkant van de lijst.**
+1. Selecteer het project of de projecten die u wilt schrappen, dan klik het **pictogram van de Schrapping ![ pictogram van de Schrapping ](assets/delete-icon.png) bij de bovenkant van de lijst.**
 
 1. Klik **ja, schrap het** om de schrapping te bevestigen.
 
@@ -144,9 +144,9 @@ U kunt projecten uit een lijst van projecten schrappen.
 ## Een project op projectniveau verwijderen
 
 1. Ga naar het project u wilt schrappen.
-1. Klik **Meer** pictogram ![](assets/qs-more-menu.png) aan het recht van de projectnaam, dan klik **Project van de Schrapping**.
+1. Klik het **Meer** pictogram ![ Meer menu ](assets/qs-more-menu.png) aan het recht van de projectnaam, dan klik **Project van de Schrapping**.
 
-   ![](assets/more-icon-expanded-delete-project-highlighted.png)
+   ![ Meer uitgevouwen menu ](assets/more-icon-expanded-delete-project-highlighted.png)
 
 1. Klik **ja, schrap het**.
 
