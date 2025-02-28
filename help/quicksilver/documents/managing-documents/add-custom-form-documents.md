@@ -6,9 +6,9 @@ description: U kunt een aangepast formulier toevoegen aan een document of aan ee
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 6c974293-1f54-447b-8d42-8d039f7911f1
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Een aangepast formulier toevoegen aan een document:
 1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten**.
 1. Zoek het document dat u nodig hebt.
 
-1. Klik het **Samenvatting** pictogram ![](assets/summary-panel-icon.png), dan vind de **sectie van Details**.
+1. Klik het **Summiere** pictogram van de Samenvatting ![ ](assets/summary-panel-icon.png), dan vind de **sectie van Details**.
 1. In **voeg douanevorm** doos toe, begin typend en selecteer een douanevorm. Het formulier wordt automatisch in het document opgeslagen.
 
    >[!NOTE]
@@ -73,8 +73,8 @@ Een aangepast formulier toevoegen aan een document:
 1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten**.
 1. Zoek het document dat u nodig hebt.
 
-1. Klik het **Samenvatting** pictogram ![](assets/summary-panel-icon.png), dan vind de **sectie van Details** dichtbij de bovenkant.
+1. Klik het **Summiere** pictogram van de Samenvatting ![ ](assets/summary-panel-icon.png), dan vind de **sectie van Details** dichtbij de bovenkant.
 1. Klik **uitgeven** in de hoger-juiste hoek, dan breid de gewenste vorm uit.
 1. Breng de noodzakelijke veranderingen aan, dan klik **sparen**.
 
-   ![](assets/edit-custom-form-350x265.png)
+   ![ geef douanevorm ](assets/edit-custom-form-350x265.png) uit
