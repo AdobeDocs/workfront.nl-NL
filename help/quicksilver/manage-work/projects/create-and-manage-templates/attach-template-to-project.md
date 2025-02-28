@@ -6,9 +6,9 @@ description: U kunt een malplaatje aan een project of tijdens de aanvankelijke c
 author: Alina
 feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1165'
 ht-degree: 0%
 
 ---
@@ -77,15 +77,15 @@ U moet over de volgende opties beschikken om de in dit artikel beschreven stappe
 
 U kunt een malplaatje aan een project in Workfront van de projectpagina of van een projectlijst of rapport vastmaken.
 
-1. Ga naar het project waar u een malplaatje wilt vastmaken en **Meer** pictogram ![](assets/qs-more-icon-on-an-object.png) aan het recht van de projectnaam klikken
+1. Ga naar het project waar u een malplaatje wilt vastmaken en **Meer** pictogram ![ Meer pictogram ](assets/qs-more-icon-on-an-object.png) aan het recht van de projectnaam klikken
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![ Meer dropdown ](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    of
 
-   Ga naar een projectlijst of een rapport en selecteer dan een project **Meer** pictogram ![](assets/qs-more-icon-on-an-object.png) bij de bovenkant van de lijst.
+   Ga naar een projectlijst of een rapport en selecteer dan een project **Meer** pictogram ![ Meer pictogram ](assets/qs-more-icon-on-an-object.png) bij de bovenkant van de lijst.
 
-   ![](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
+   ![ Meer uitgevouwen menu ](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 
 
 1. Klik **Sjabloon** vastmaken.
@@ -106,16 +106,16 @@ U kunt een malplaatje aan een project in Workfront van de projectpagina of van e
    * Totaal aantal taken
    * Namen van bijgevoegde aangepaste formulieren
 
-   ![](assets/attach-template-box-template-preview-area-nwe-350x282.png)
+   ![ Band malplaatjedoos ](assets/attach-template-box-template-preview-area-nwe-350x282.png)
 
-1. (Optioneel) Klik op het pictogram **Favorieten ![](assets/favorites-icon-small.png) links van de sjabloonnaam om deze als favoriet te markeren.** Hierdoor wordt de sjabloon verplaatst naar de lijst Favorieten.
+1. (Facultatief) klik het **pictogram van Favorieten ![ pictogram van Favorieten ](assets/favorites-icon-small.png) links van de malplaatjenaam om het als favoriet te merken.** Hierdoor wordt de sjabloon verplaatst naar de lijst Favorieten.
 
-   ![](assets/favorites-icon-on-template-list-in-attach-template-box-nwe-350x79.png)
+   ![ pictogram Favorieten op malplaatjelijst ](assets/favorites-icon-on-template-list-in-attach-template-box-nwe-350x79.png)
 
-1. (Optioneel) Klik nogmaals op het pictogram **Favorieten ![](assets/favorites-icon-selected.png) om het uit de lijst Favorieten te verwijderen.**
+1. (Facultatief) klik het **pictogram van Favorieten ![ pictogram van Favorieten ](assets/favorites-icon-selected.png) opnieuw om het uit de lijst van Favorieten te verwijderen.**
 1. Klik **aanpassen en verbinden**.
 
-   ![](assets/attach-template-large-box-nwe-350x262.png)
+   ![ Band malplaatje ](assets/attach-template-large-box-nwe-350x262.png)
 
 1. De informatie van de update in de volgende secties alvorens het malplaatje (of, klik **Malplaatje** op elk ogenblik vastmaken):
 
@@ -193,6 +193,6 @@ Om te begrijpen welke malplaatje op een project wordt toegepast:
 1. Klik **Details van het Project** in het linkerpaneel.
 1. Vind de naam van het malplaatje in bijlage aan het project op het **gebied van het Malplaatje** bij de bodem van de **sectie van het Overzicht** onder **verhoudingen van het Project**.
 
-   ![](assets/nwe-template-info-on-project-350x356.png)
+   ![ Info van het Malplaatje over project ](assets/nwe-template-info-on-project-350x356.png)
 
 
