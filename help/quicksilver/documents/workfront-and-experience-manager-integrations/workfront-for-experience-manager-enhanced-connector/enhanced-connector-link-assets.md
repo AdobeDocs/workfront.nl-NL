@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 35c80f6a-419b-4237-8139-f59ab7bbd5c7
-source-git-commit: dd8718b00a310bee6caa13db7644b86174b476f4
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '591'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 Voordat u begint, moet u
 
-* De Workfront for Experience Manager Enhanced-aansluiting installeren
+* De Workfront for Experience Manager verbeterde connector installeren
 
 ## Middelen van Experience Manager Assets koppelen
 
@@ -84,7 +84,7 @@ Een element koppelen aan Experience Manager Assets:
 
 1. Selecteer de gewenste elementen.
 
-   ![](assets/select-an-asset.png)
+   ![ Uitgezocht een activa ](assets/select-an-asset.png)
 
 1. Klik **Verbinding**.
 
@@ -103,7 +103,7 @@ Een map koppelen aan Experience Manager Assets:
 
 1. Selecteer de gewenste mappen.
 
-   ![](assets/select-a-folder.png)
+   ![ selecteer een omslag ](assets/select-a-folder.png)
 
 1. Klik **Verbinding**.
 
@@ -127,6 +127,6 @@ Een nieuwe versie koppelen vanuit Experience Manager Assets:
 
 1. Selecteer het gewenste element.
 
-   ![](assets/select-an-asset.png)
+   ![ Uitgezocht een activa ](assets/select-an-asset.png)
 
 1. Klik **Verbinding**.
