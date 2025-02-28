@@ -6,9 +6,9 @@ description: In plaats van een nieuw projectmalplaatje van kras te creëren, kun
 author: Alina
 feature: Work Management
 exl-id: b2e0878b-8245-4e01-819d-c3746f553d95
-source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ De volgende punten worden altijd gekopieerd van een bestaand project aan nieuwe:
 * Aangepaste formulieren
 * Risico&#39;s
 * Informatie over wachtrijinstellingen
-* Portfolio en programma
+* Portfolio en Programma
 * Goedkeuringen
 * Documenten
 * De dagen van de oorspronkelijke sjabloontaken worden overgedragen naar de nieuwe sjabloon. U moet de dag van het Begin of van de Voltooiing van het malplaatje (afhankelijk van zijn Wijze van het Programma) veranderen om de dagen op de malplaatjetaken bij te werken, indien nodig.
@@ -69,7 +69,7 @@ De volgende items worden nooit van een bestaand project naar een nieuw project g
 ## Een sjabloon kopiëren
 
 1. Ga naar de sjabloon die u wilt kopiëren.
-1. Klik **Meer** menu ![](assets/qs-more-icon-on-an-object.png), dan klik **Exemplaar**.
+1. Klik het **Meer** menu ![ Meer pictogram ](assets/qs-more-icon-on-an-object.png), dan klik **Exemplaar**.
 1. Specificeer een naam voor het malplaatje op het **Nieuwe gebied van de Naam van het Malplaatje**.
 
    Door gebrek, is de nieuwe naam **Exemplaar van `<original template name>`.**
