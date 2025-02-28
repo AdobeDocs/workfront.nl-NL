@@ -6,9 +6,9 @@ description: Een gebruiker met beheerrechten op een document kan het document na
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 46039017-58b3-4e9d-8dcd-6e1f52d98d27
-source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ U moet het volgende hebben:
 1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten**.
 1. Zoek het document dat u nodig hebt.
 
-1. Klik het **pictogram van de Beweging** ![](assets/move-document--25x19.png).
+1. Klik het **pictogram van de Beweging ![ van de Beweging** ](assets/move-document--25x19.png) pictogram.
 1. Van het drop-down menu in de doos die verschijnt, klik **Uitgeven**, **Project** of **Taak** om op het type van voorwerp te wijzen waar u het document wilt bewegen. 
 
 1. Typ de naam van de **Uitgave**, **Project** of **Taak** in het tekstvakje.
