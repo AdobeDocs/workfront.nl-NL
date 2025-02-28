@@ -7,9 +7,10 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 10ab6466780d9fe88604bf781c153cde89f1e454
+exl-id: 0de6119d-6a47-41f2-87da-2c6752ca436b
+source-git-commit: f90a1066202e2c949ab5bfebf85897060f1c29d2
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '338'
 ht-degree: 0%
 
 ---
@@ -26,7 +27,7 @@ Vanwege het afnemende gebruik en de beperkte functionaliteit is Enhanced Analyti
 
 **wanneer?**
 
-* Met de release van 25.2 (februari 2025)
+* De week van 26 mei
 
 **wat kan ik in plaats daarvan gebruiken?**
 
@@ -40,7 +41,7 @@ Om verstoring voor u en uw organisatie te minimaliseren, hebben wij hieronder aa
 
 Onze eerste aanbeveling is ervoor te zorgen dat uw organisatie toegang heeft tot Workfront Data Connect en dat u zo snel mogelijk vertrouwd bent met het gebruik ervan. Meer over Gegevens verbind mogelijkheden en hoe te beginnen het te gebruiken, zie [ de Gegevens van Workfront verbinden overzicht ](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
 
-Data Connect is inbegrepen in het nieuwe Ultimate-abonnement en kan worden aangeschaft als een invoegtoepassing voor de nieuwe Select- en Primaire plannen. Gegevensverbinding is niet beschikbaar voor organisaties met oudere Workfront-plannen. Neem contact op met uw Workfront-accountvertegenwoordiger om te weten welk abonnement uw organisatie op dit moment heeft en hoe u Data Connect kunt aanschaffen.
+Gegevens verbinden is inbegrepen in het nieuwe plan van Ultimate <!--, and can be purchased as an add-on to the new Select and Prime plans-->. Gegevensverbinding is niet beschikbaar voor organisaties met oudere Workfront-plannen. Neem contact op met uw Workfront-accountvertegenwoordiger om te weten welk abonnement uw organisatie op dit moment heeft en hoe u Data Connect kunt aanschaffen.
 
 ### Verbeterde analysemogelijkheden repliceren
 
@@ -59,6 +60,7 @@ No, it will be completely removed from the application.
 +++
 
 +++ What do I do if my organization is on a legacy Workfront plan but I want to use Data Connect?
-Contact your account representative about moving to one of the new Workfront plans.
 
+Contact your account representative about moving to one of the new Workfront plans.
++++
 -->

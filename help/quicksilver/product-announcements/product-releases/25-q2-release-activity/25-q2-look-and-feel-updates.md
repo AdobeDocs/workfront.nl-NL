@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
+source-git-commit: f90a1066202e2c949ab5bfebf85897060f1c29d2
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,18 @@ We hebben de look and feel van de Workfront-agenda aangepast aan een modern ontw
 * En meer
 
 Voor meer informatie, zie de [ Kalenders ](/help/quicksilver/reports-and-dashboards/reports/calendars/calendars.md) artikelen.
+
+## Bijgewerkte weergave van een projectmijlpaden in een projectweergave
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 27 februari 2025; productie voor snelle release: met de release van 25.3 (maart 2025); productie voor driemaandelijkse release: met de release van 25.4 (april 2025)
+
+Wanneer het toegang tot van de mijlpaden van een projectlijst of een rapport, heeft de de detailpagina van de mijlpaal nu een nieuwe blik en een gevoel. U moet het gebied van de Naam van de Weg van de Mijlpaal aan de mening van de lijst of het rapport toevoegen om tot de de detailspagina van de weg van de mijlpaal toegang te hebben.
+
+Met deze update hebben we ook informatie toegevoegd over de kleuren en kleurcodes van elke mijlpaal.
+
+Voor informatie, zie [ een milestone weg ](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) creëren.
 
 ## Tijdelijke look-and-feel wijzigingen in e-mailberichten van documenten
 
