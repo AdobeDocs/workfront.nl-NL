@@ -7,9 +7,9 @@ description: De nettowaarde van een project is de totale verwachte waarde van he
 author: Lisa
 feature: Work Management
 exl-id: 44e3f211-c816-4ee1-aafc-c40fc8732f1a
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
@@ -48,15 +48,15 @@ U kunt de Netto Waarde voor een project in de volgende gebieden in Workfront vin
 * In bedrijfscase - Samenvatting van de bedrijfscase \
   Voor meer informatie over het Samenvattende gebied van het Bedrijfs Geval, zie het &quot;Begrip van de BedrijfsGeval Summiere&quot;sectie in artikel [ een BedrijfsGeval voor een project ](../../../manage-work/projects/define-a-business-case/create-business-case.md) [ creëren een BedrijfsGeval voor een project ](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-  ![](assets/net-value-on-business-case-summary-highlighted-350x444.png)
+  ![ Netto waarde op bedrijfsgeval ](assets/net-value-on-business-case-summary-highlighted-350x444.png)
 
-* In Portfolio optimizer als het project met een portefeuille wordt geassocieerd
+* In Portfolio Optimizer als het project is gekoppeld aan een portfolio
 
   >[!TIP]
   >
   >Het totaal van alle netto waarden van het project is de Netto Waarde van de portefeuille.
 
-  Voor meer informatie over Portfolio Optimizer, zie [ Overzicht van de Optimizer van het Portfolio ](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+  Voor meer informatie over Portfolio Optimizer, zie [ het Optimizer overzicht van Portfolio ](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 * In het gebied van de Waarde van het Project Netto van de volgende lijsten en rapporten:
 
