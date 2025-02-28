@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 240cda0f-0acf-4b5c-872d-b7f5cee0b769
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -68,8 +68,8 @@ Een taak of kwestie in een project tot stand brengen:
 {{step1-to-priorities}}
 
 1. Klik **creëren nieuw** in de hoger-juiste hoek.
-   ![](assets/create-new.png)
-nieuw scherm voor prod ![](assets/create-new--.png)
+   ![ creeer nieuw ](assets/create-new.png)
+nieuw scherm voor prod ![ creeer nieuw (productie) ](assets/create-new--.png)
 1. Geef de volgende informatie op:
 
    | Veld | Instructies |
