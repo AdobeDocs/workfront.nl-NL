@@ -6,9 +6,9 @@ description: Een project is een grote eenheid werk in Adobe Workfront. U kunt ge
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1386'
 ht-degree: 0%
 
 ---
@@ -204,7 +204,7 @@ Overweeg het volgende:
 
    Voor meer informatie over het toevoegen van taken aan een project, zie [ tot taken in een project ](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md) leiden.
 
-1. Bewerk de projectdetails door het **Meer** menu te klikken en dan **geef** ![](assets/qs-edit-icon.png) naast de naam van het project uit.
+1. Bewerk de projectdetails door het **Meer** menu te klikken en dan **geef** ![ uit pictogram ](assets/qs-edit-icon.png) naast de naam van het project uitgeeft.
 
    Het **geeft de dialoogvakje van het Project** uit opent.
 
