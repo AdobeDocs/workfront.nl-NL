@@ -2,20 +2,20 @@
 product-area: projects
 navigation-topic: business-case-and-scorecards
 title: De bedrijfscase van een project exporteren
-description: U kunt de Business Case naar een PDF-bestand exporteren, voor het geval u deze wilt afdrukken of in een gecondenseerde indeling aan een e-mailbericht wilt koppelen.
+description: U kunt de Business Case exporteren naar een PDF-bestand, voor het geval u deze wilt afdrukken of in een gecondenseerde indeling aan een e-mail wilt koppelen.
 author: Alina
 feature: Work Management
 exl-id: 834c56c4-ca11-4aff-b67e-0eac9fa23403
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
 
 # De bedrijfscase van een project exporteren
 
-U kunt de Business Case naar een PDF-bestand exporteren, voor het geval u deze wilt afdrukken of in een gecondenseerde indeling aan een e-mailbericht wilt koppelen. 
+U kunt de Business Case exporteren naar een PDF-bestand, voor het geval u deze wilt afdrukken of in een gecondenseerde indeling aan een e-mail wilt koppelen. 
 
 ## Toegangsvereisten
 
@@ -52,9 +52,9 @@ U moet het volgende hebben:
 1. Klik **Bedrijfs Geval** in het linkerpaneel.
 1. In het hoger-juiste **gebied van het BedrijfsGeval Summiere**, klik **Uitvoer**.
 
-   ![](assets/bc-summary--350x587.png)\
+   ![ Samenvatting Bedrijfs van het Geval ](assets/bc-summary--350x587.png)\
    A PDF  wordt gedownload naar uw computer. Het bestand bevat alle gebieden van de Business Case in een eenvoudig leesbare indeling.
 
    ![ BC_Summary_exporting.png ](assets/bc-summary-exported-350x160.png)
 
-1. (Optioneel) U kunt het PDF-bestand als bijlage aan een e-mailbericht toevoegen of het afdrukken om het met anderen te delen. 
+1. (Optioneel) U kunt het PDF-bestand als bijlage aan een e-mailbericht toevoegen of dit afdrukken om het met anderen te delen. 
