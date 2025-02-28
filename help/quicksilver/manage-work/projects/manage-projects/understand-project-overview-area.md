@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6113bc62-18f2-4558-bc2f-986b1e7d1a83
-source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1453'
 ht-degree: 0%
 
 ---
@@ -63,13 +63,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    of
 
-   Klik **uitgeven** pictogram ![](assets/edit-icon.png) in de hoger-juiste hoek van de sectie van Details, dan klik **Overzicht**. Hiermee opent u het gebied Overzicht voor bewerking.
+   Klik **uitgeven** pictogram ![ geeft pictogram ](assets/edit-icon.png) in de hoger-juiste hoek van de sectie van Details uit, dan klik **Overzicht**. Hiermee opent u het gebied Overzicht voor bewerking.
 
    >[!NOTE]
    >
    >Afhankelijk van hoe uw beheerder van Workfront uw Malplaatje van de Lay-out vormde, zou de sectie van het Overzicht niet eerst kunnen worden vermeld, in welk geval het wordt doen ineenstorten. Voor informatie, zie [ de mening van Details aanpassen gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-1. (Voorwaardelijk) als er een specifiek gebied is dat op een project moet worden bijgewerkt maar niet in deze sectie wordt getoond, klik het **Meer menu** ![](assets/more-icon.png) naast de projectnaam, dan **geeft** uit om meer projectgebieden te bekijken.
+1. (Voorwaardelijk) als er een specifiek gebied is dat op een project moet worden bijgewerkt maar niet in deze sectie wordt getoond, klik het **Meer menu** ![ Meer pictogram ](assets/more-icon.png) naast de projectnaam, dan **geeft** uit om meer projectgebieden te bekijken.
 
    Voor meer informatie over het uitgeven van projecten, zie [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
