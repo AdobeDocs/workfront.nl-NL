@@ -6,9 +6,9 @@ description: U kunt sjablonen als een framework gebruiken om projecten te maken 
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1176'
 ht-degree: 0%
 
 ---
@@ -65,14 +65,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader">Toegangsniveau</td> 
    <td> <p>Toegang tot projecten en sjablonen bewerken</p>
 
-<p>geef toegang tot Portfolio's en Programma's uit, als het malplaatje u gebruikt een Portfolio en een Programma bevat</p>
+<p>toegang tot portfolio's en programma's bewerken als de sjabloon die u gebruikt een Portfolio en een programma bevat</p>
 
 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
    <td> <p>Machtigingen weergeven voor een sjabloon</p> 
-  <p>Als de sjabloon die u gebruikt een Portfolio en een programma bevat, moet u beheerdersmachtigingen voor het portfolio en het programma hebben om het project te maken </p> 
+  <p>Als de sjabloon die u gebruikt een Portfolio en een programma bevat, moet u beheerdersmachtigingen voor het portfolio en programma hebben om het project te maken </p> 
    <p>Wanneer u een project creeert, ontvangt u automatisch Manage toestemmingen aan het project.</p></td> 
   </tr> 
  </tbody> 
@@ -97,13 +97,13 @@ U kunt een project van het gebied van Projecten in het Belangrijkste Menu, of va
 
      >[!TIP]
      >
-     >Wanneer u een project gebruikend een malplaatje van een portefeuille creeert, werkt het gebied van het Portfolio van het nieuwe project bij om de portefeuille te tonen u verkoos om het project tot stand te brengen van. Hiermee wordt het veld Portfolio in de sjabloon overschreven, als dit is opgegeven.
+     >Wanneer u een project gebruikend een malplaatje van een portefeuille creeert, werkt het gebied van Portfolio van het nieuwe project bij om de portefeuille te tonen u verkoos om het project van tot stand te brengen. Hiermee wordt het Portfolio-veld op de sjabloon overschreven, als dit is opgegeven.
 
    * Ga naar een programma, dan breid **Nieuw Project** uit.
 
      >[!TIP]
      >
-     >Wanneer u een project gebruikend een malplaatje van een programma creeert, werkt het gebied van het Programma van de nieuwe projecten bij om het Programma te tonen u verkoos om het project van tot stand te brengen. Het gebied van het Portfolio van het malplaatje werkt bij om de portefeuille van het programma te tonen u verkoos om het project van tot stand te brengen. Hiermee overschrijft u de velden Programma en Portfolio in de sjabloon, als deze zijn opgegeven.
+     >Wanneer u een project gebruikend een malplaatje van een programma creeert, werkt het gebied van het Programma van de nieuwe projecten bij om het Programma te tonen u verkoos om het project van tot stand te brengen. Het Portfolio-veld van de sjabloon wordt bijgewerkt en geeft het portfolio weer van het programma waarmee u het project hebt gemaakt. Hiermee worden de velden Programma en Portfolio in de sjabloon overschreven, als deze zijn opgegeven.
 
    * Als u een groepsbeheerder bent, kunt u een project in de sectie van Projecten van een groep ook tot stand brengen u beheert. Voor meer informatie, zie [ tot stand brengen en wijzigen de projecten van een groep ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
@@ -137,7 +137,7 @@ U kunt een project van het gebied van Projecten in het Belangrijkste Menu, of va
       * Het aantal taken in de sjabloon
       * De namen van de aangepaste sjabloonformulieren
 
-   1. (Facultatief) Beweeg over de naam van een malplaatjenaam in de linkerruit en klik de **Favorieten** **pictogram** ![](assets/favorites-icon-small.png) om het als favoriet voor toekomstig gebruik te merken.
+   1. (Facultatief) Beweeg over de naam van een malplaatjenaam in de linkerruit en klik de **Favorieten** **pictogram** ![ pictogram van Favorieten ](assets/favorites-icon-small.png) om het als favoriet voor toekomstig gebruik te merken.
 
       of
 
@@ -175,7 +175,7 @@ In plaats van in het gebied van Projecten te beginnen, kunt u een project van ee
 {{step1-to-templates}}
 
 1. Klik op de naam van een sjabloon die u wilt gebruiken.
-1. Klik **Meer** menu ![](assets/more-icon.png), dan klik **leidt tot Project**.
+1. Klik het **Meer** menu ![ Meer pictogram ](assets/more-icon.png), dan klik **tot Project** leiden.
 
    ![ creeer project van malplaatje ](assets/project-sharing-on-template.png)
 
