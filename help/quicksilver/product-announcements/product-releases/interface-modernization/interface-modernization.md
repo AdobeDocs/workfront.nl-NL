@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 491a32e677b913c71396316d365fc1f18750124e
+source-git-commit: 116b9823818ac6103641c2e6ce283dfb47282851
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1473'
 ht-degree: 0%
 
 ---
@@ -144,7 +144,7 @@ Ga naar Teams > Een team kiezen > Interacties > Een herhaling > Overzicht kiezen
 
 ### Artikelen en problemen toevoegen aan een herhaling
 
-**de versie van de Voorproef: 6 Februari, 2025; De versie van de productie: Te aankondigen**
+**de versie van de Voorproef: 6 Februari, 2025; De versie van de Productie: Beginnend de week van 13 februari, 2025**
 
 We hebben het dialoogvenster Artikel toevoegen en Probleem toevoegen bijgewerkt met een modern ontwerp dat aansluit bij andere gebieden van Workfront.
 
