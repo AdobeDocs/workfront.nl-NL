@@ -6,9 +6,9 @@ description: Het Adobe Workfront-revisieprogramma is een browserextensie waarmee
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
-source-git-commit: 9bc1502149d99624d8494aef86e11e18a95f563b
+source-git-commit: 91f2dd12a91889c2cd1c2c01c93402e161684665
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,7 @@ Het Adobe Workfront-revisieprogramma is een webbrowserextensie waarmee u interac
 * Firefox
 * Chrome
 * Edge
+* Safari
 
 We raden u aan de Desktop Proofing Viewer te gebruiken als de inhoud die u wilt controleren zich op een website bevindt die
 
