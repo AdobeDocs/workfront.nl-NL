@@ -1,20 +1,20 @@
 ---
 navigation-topic: business-case-and-scorecards
 title: Een bedrijfscase maken voor een project
-description: U kunt de BedrijfsGeval gebruiken om een project te verzoeken en het doel, het budget, en het potentiële voordeel voor het project te bepalen. De manager van het Portfolio of de Sponsor van het Project gebruikt de informatie van het BedrijfsGeval om het project te analyseren en voorrang te geven alvorens zij het goedkeuren.
+description: U kunt de BedrijfsGeval gebruiken om een project te verzoeken en het doel, het budget, en het potentiële voordeel voor het project te bepalen. De Portfolio-manager of projectsponsor gebruikt de informatie uit de Business Case om het project te analyseren en er prioriteiten aan toe te wijzen voordat deze het goedkeurt.
 author: Alina
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
 
 # Een bedrijfscase maken voor een project
 
-U kunt de BedrijfsGeval gebruiken om een project te verzoeken en het doel, het budget, en het potentiële voordeel voor het project te bepalen. De manager van het Portfolio of de Sponsor van het Project gebruikt de informatie van het BedrijfsGeval om het project te analyseren en voorrang te geven alvorens zij het goedkeuren.
+U kunt de BedrijfsGeval gebruiken om een project te verzoeken en het doel, het budget, en het potentiële voordeel voor het project te bepalen. De Portfolio-manager of projectsponsor gebruikt de informatie uit de Business Case om het project te analyseren en er prioriteiten aan toe te wijzen voordat deze het goedkeurt.
 
 ## Toegangsvereisten
 
@@ -54,13 +54,13 @@ Overweeg het volgende wanneer het verzoeken van een project door een BedrijfsGev
 
   Voor informatie over de gebieden van het BedrijfsGeval, zie het artikel [ Overzicht van de Gebieden van het BedrijfsGeval ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
 
-* U moet alle gebieden van het BedrijfsGeval behalve het gebied van Doelen voltooien als u uw project een Score in de Optimizer van het Portfolio wilt ontvangen. Het voltooien van het gebied Doelen is optioneel. Het project ontvangt een Score in Portfolio Optimizer, zelfs als dit gebied niet wordt voltooid.
+* U moet alle gebieden van de BedrijfsGeval behalve het Gebied van Doelen voltooien als u uw project een Score in de Optimizer van Portfolio wilt ontvangen. Het voltooien van het gebied Doelen is optioneel. Het project ontvangt een Score in de Optimizer van Portfolio, zelfs als dit gebied niet wordt voltooid.
 
   Voor informatie over het werken met Scorecards en met Portfolio Optimizer, zie het artikel [ een scorecard op een project toepassen en een Score van de Uitlijning ](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md) produceren.
 
 ## Een kwestie voor zakelijk gebruik maken
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png), dan klik **Projecten**.
+1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png), dan klik** Projecten **.**
 1. Klik **Nieuw Project** en selecteer **Project van het Verzoek**.\
    Door gebrek, wordt het project geplaatst in de **Status van het Idee**.
 
@@ -69,7 +69,7 @@ Overweeg het volgende wanneer het verzoeken van een project door een BedrijfsGev
    >Als de status van het Idee in uw instantie van Workfront is geschrapt, wordt het project geplaatst in de standaardstatus voor nieuwe projecten zoals die in het gebied van de Voorkeur van het Project wordt bepaald. Voor informatie over vestiging projectvoorkeur, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 
 1. Geef een naam op voor uw project en druk op Enter.
-1. (Facultatief) klik het **Meer** pictogram ![](assets/qs-more-icon-on-an-object.png), toen **Sjabloon** vastmaken, om de Structuur van de Onderverdeling van het Werk van uw project tot stand te brengen.
+1. (Facultatief) klik het **Meer** pictogram ![ Meer pictogram ](assets/qs-more-icon-on-an-object.png), toen **Sjabloon** vastmaken, om de Structuur van de Onderverdeling van het Werk van uw project tot stand te brengen.
 
    of
 
