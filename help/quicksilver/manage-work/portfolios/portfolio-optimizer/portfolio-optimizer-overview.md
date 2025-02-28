@@ -7,9 +7,9 @@ description: '[!UICONTROL Portfolio Optimizer] is het hulpmiddel dat voor projec
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1e48a24c-65de-49c2-85a8-dc931ac40c52
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
 workflow-type: tm+mt
-source-wordcount: '1333'
+source-wordcount: '1326'
 ht-degree: 0%
 
 ---
@@ -128,7 +128,7 @@ De volgende financiële velden worden weergegeven in de [!UICONTROL Portfolio Op
   </tr> 
   <tr> 
    <td>[!UICONTROL Remaining]</td> 
-   <td> <p>Het resterende budget na alle [!UICONTROL Budgeted Costs] voor alle projecten binnen de portefeuille is afgetrokken van de begroting van de portefeuille.</p> <p>[!UICONTROL Remaining Portfolio Budget] wordt berekend met behulp van de volgende formule:</p> <p><em>[!UICONTROL Remaining Portfolio Budget] = [!UICONTROL Total Portfolio Budget] - Totaal [!UICONTROL Budgeted Cost] van alle Portfolio-projecten </em> </p> <p>Het totaal [!UICONTROL Budgeted Cost] van alle projecten in de portefeuille wordt weergegeven in de indicatorbalk onder het veld Begroting. </p> <p>Voor meer informatie over het volgen van kosten op een project, zie <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref"> Kosten van het Spoor </a>.</p> </td> 
+   <td> <p>Het resterende budget na [!UICONTROL Total Cost] voor alle projecten binnen de portefeuille is afgetrokken van de begroting van de portefeuille.</p> <p>[!UICONTROL Remaining Portfolio Budget] wordt berekend met behulp van de volgende formule:</p> <p><em>[!UICONTROL Remaining Portfolio Budget] = [!UICONTROL Total Portfolio Budget] - Totaal [!UICONTROL Budgeted Cost] van alle Portfolio-projecten </em> </p> <p>Het portfoliobudget is een handmatige vermelding in het veld Begroting van Portfolio Optimizer. </p> <p>Voor meer informatie over het volgen van kosten op een project, zie <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref"> Kosten van het Spoor </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Total Cost]</td> 

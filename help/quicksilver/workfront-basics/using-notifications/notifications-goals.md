@@ -6,9 +6,9 @@ description: 'Meldingen: Doelstellingen'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
-source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
+source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ U kunt uw e-mailmeldingen inschakelen voor gebeurtenissen in [!DNL Adobe Workfro
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: because there are conditions for who sees this, I added this from the How To articles/ template although this is not a How To. But I like the format, so I thought keeping it consistent might help users. We may decide to update this when we have access and prereq for overview-type articles)</p>
 -->
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben:
 
@@ -55,18 +57,12 @@ U moet het volgende hebben:
 
 &#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
++++
+
 ## Vereisten
 
-De gebruiker van wie [!DNL Goals] meldingen worden bijgewerkt, moet het volgende hebben:
+* De gebruiker van wie [!DNL Goals] berichten u wilt bijwerken moet een Malplaatje van de Lay-out hebben dat het [!DNL Goals] gebied in [!UICONTROL Main Menu] omvat.
 
-* Een lay-outsjabloon die het [!DNL Goals] -gebied in [!UICONTROL Main Menu] bevat.
-* Toegang tot de nieuwe [!DNL Adobe Workfront] -ervaring.
-
-  <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-  (NOTE: we need this here because you can see these notifications from Classic)
-  </MadCap:conditionalText>
-  -->
 
 ## [!DNL Goals] -meldingen in het [!UICONTROL user profile] -gebied
 

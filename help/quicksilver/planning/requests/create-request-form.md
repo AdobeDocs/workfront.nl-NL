@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
+source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
 workflow-type: tm+mt
-source-wordcount: '1868'
+source-wordcount: '1869'
 ht-degree: 0%
 
 ---
@@ -280,6 +280,9 @@ Voor informatie over het voorleggen van de verzoeken van de Planning van Workfro
 1. (Facultatief) klik het **Meer** menu ![ Meer menu ](assets/more-menu.png) rechts van de naam van het verslagtype in de kopbal, dan doe één van het volgende:
    * Klik **de verzoekvorm van de Update** om het even welke veranderingen in de verzoekvorm aan te brengen.
    * Klik **verbinding van het Exemplaar om vorm** te verzoeken om de verbinding met de vorm met anderen te delen.
+
+   of
+
    * <span class= "preview"> ga naar het **Verzoeken** gebied in Workfront en vind de gedeelde vorm om een verzoek voor te leggen. Voor informatie, zie [ de Planningsverzoeken van Adobe Workfront voorleggen om verslagen ](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen.</span>
 
    >[!TIP]

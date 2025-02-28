@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
 workflow-type: tm+mt
-source-wordcount: '1806'
+source-wordcount: '1811'
 ht-degree: 0%
 
 ---
@@ -29,13 +29,13 @@ ht-degree: 0%
 >
 >De informatie in dit artikel verwijst naar Adobe Workfront Planning, een extra mogelijkheid van Adobe Workfront.
 >
->U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
+>U moet het volgende aan volledige toegang tot alle mogelijkheden in de Planning van Workfront hebben:
 >
 >* Een nieuw Workfront-pakket en -licentie. Workfront Planning is niet beschikbaar voor verouderde Workfront-pakketten of -licenties.
 >* Een Workfront-planningspakket.
->* De instantie van uw organisatie van Workfront moet aan de Adobe Verenigde Ervaring worden genegeerd.
+>* Het geval van Workfront van uw organisatie moet aan de Verenigde Ervaring van Adobe worden genegeerd.
 >
-> Voor een volledige lijst van vereisten om tot de Planning van Workfront toegang te hebben, zie [ de toegangsoverzicht van de Planning van de Adobe ](/help/quicksilver/planning/access/access-overview.md).
+> Voor een volledige lijst van vereisten om tot de Planning van Workfront toegang te hebben, zie [ het toegangsoverzicht van de Planning van Adobe ](/help/quicksilver/planning/access/access-overview.md).
 > 
 
 Dit artikel bevat algemene informatie over Workfront Planning.
@@ -170,7 +170,7 @@ Nadat uw organisatie een pakket van de Planning van Workfront, als beheerder van
 
 * Wijs de gebruikers toe die toegang tot de Planning van een lay-outmalplaatje nodig hebben dat Planning in het Belangrijkste Menu omvat. Voor meer informatie, zie [ het Belangrijkste Menu aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) en [ wijs gebruikers aan een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md) toe.
 
-* Wijs gebruikers een Workfront-licentie en Workfront Planning-machtigingen toe waarmee ze objecten kunnen weergeven of maken in Workfront Planning. Voor meer informatie over het verlenen van toegang tot en het toelaten van anderen om de Planning van Workfront te gebruiken, zie [ het Overzicht van de toegang van de Planning van de Adobe ](/help/quicksilver/planning/access/access-overview.md).
+* Wijs gebruikers een Workfront-licentie en Workfront Planning-machtigingen toe waarmee ze objecten kunnen weergeven of maken in Workfront Planning. Voor meer informatie over het verlenen van toegang tot en het toelaten van anderen om de Planning van Workfront te gebruiken, zie [ het Overzicht van de de toegang van de Planning van Adobe ](/help/quicksilver/planning/access/access-overview.md).
 
 ## Workfront Planning terminologie
 
@@ -194,7 +194,7 @@ Hieronder vindt u de belangrijkste Workfront-planningsobjecten en -concepten:
 
   In tegenstelling tot Workfront, waar de objecttypen vooraf zijn gedefinieerd, kunt u in Workfront Planning uw eigen objecttypen maken.
 
-  In Workfront zijn bijvoorbeeld al de objecttypen Programma, Portfolio, Project, Taak of Probleem gemaakt.
+  In Workfront zijn bijvoorbeeld al de objecttypen Program, Portfolio, Project, Task of Issue gemaakt.
 
   In de Planning van Workfront, kunt u om het even welke verslagtypes tot stand brengen die aan de werkschema&#39;s van uw organisatie voldoen. Later kunt u bepalen hoe de recordtypen op elkaar betrekking hebben of hoe afhankelijk van het formulier is.
 
@@ -325,7 +325,7 @@ Voor meer informatie, zie [ verslagmeningen ](/help/quicksilver/planning/views/m
 
 ## Adobe Workfront-planning zoeken
 
-Om van de Planning van de Adobe de plaats te bepalen, zorg ervoor dat uw organisatie toegang tot de Planning van Workfront heeft ontvangen en dat uw systeem of groepsbeheerder het gebied van de Planning aan uw Belangrijkste Menu heeft toegevoegd. Voor informatie, zie [ de toegangsoverzicht van de Planning van de Adobe ](/help/quicksilver/planning/access/access-overview.md).
+Om van de Planning van Adobe de plaats te bepalen, zorg ervoor dat uw organisatie toegang tot de Planning van Workfront heeft ontvangen en dat uw systeem of groepsbeheerder het Gebied van de Planning aan uw Belangrijkste Menu heeft toegevoegd. Voor informatie, zie [ het toegangsoverzicht van de Planning van Adobe ](/help/quicksilver/planning/access/access-overview.md).
 
 Workfront-planning zoeken:
 

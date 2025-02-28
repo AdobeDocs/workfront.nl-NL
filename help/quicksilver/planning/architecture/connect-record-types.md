@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
 workflow-type: tm+mt
-source-wordcount: '2303'
+source-wordcount: '2344'
 ht-degree: 0%
 
 ---
@@ -59,9 +59,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
    <li><p> Adobe Workfront Planning<p></li>
-   <li><p> Adobe Experience Manager Assets, als u AEM elementen wilt verbinden met de recordtypen voor planning<p>
+   <li><p> Adobe Experience Manager Assets, als u AEM-elementen wilt verbinden met planningsrecordtypen<p>
    <p>U moet een Adobe Experience Manager Assets-licentie hebben en een integratie tussen AEM Assets en Workfront.
-    Voor informatie, zie <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md"> Adobe Workfront voor Experience Manager Assets en Assets Essentials: artikelindex </a>. </p>
+    Voor informatie, zie <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md"> Adobe Workfront voor Experience Manager Assets en de Hoofdzaak van Activa: artikelindex </a>. </p>
    </li>
    </ul></td> 
   </tr>   
@@ -83,7 +83,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-platform</p></td> 
    <td> 
-<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden genegeerd om tot alle mogelijkheden van de Planning van Workfront te kunnen toegang hebben.</p> 
+<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden bezeten om tot alle mogelijkheden van de Planning van Workfront toegang te hebben.</p> 
 <p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
    </td> 
    </tr> 
@@ -201,20 +201,22 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      >Als de geselecteerde werkruimte geen andere recordtypen bevat, wordt de sectie Werkruimte niet weergegeven.
 
 
-   * Een recordtype van een andere werkruimte die werd gevormd om van andere werkruimten te verbinden. Voor informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/edit-record-types.md) uitgeven.
-
-     ![](assets/new-connection-allow-multiple-records-box.png)
+   * Een recordtype van een andere werkruimte die werd gevormd om van andere werkruimten te verbinden.
 
      >[!TIP]
      >
-     >Als er geen recordtypen zijn die zijn geconfigureerd om verbinding te maken met andere werkruimten, wordt de sectie Werkruimte niet weergegeven.
+     >**verbind van andere werkruimten** het plaatsen moet voor een verslagtype in het **Geavanceerde montages** lusje van **worden toegelaten geef verslagtype** doos uit, voor een verslagtype om van andere werkruimten toegankelijk te zijn. Als er geen recordtypen zijn die zijn geconfigureerd om verbinding te maken met andere werkruimten, wordt de sectie Werkruimte niet weergegeven.
+     > ![ geef recordtype doos geavanceerde montages tabel uit ](assets/edit-record-type-box-advanced-settings-tab.png)
 
+     Voor informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/edit-record-types.md) uitgeven.
+
+     ![](assets/new-connection-allow-multiple-records-box.png)
 
    * A **Project, Portfolio, Programma, Bedrijf**, of **Groep** van de **de Objecttypes van Workfront** sectie.
 
      ![](assets/workfront-project-connection-selection.png)
 
-   * **Experience Manager Assets** van de **sectie van de Toepassingen van de Adobe**.
+   * **Experience Manager Assets** van de **Toepassingen van Adobe** sectie.
 
      ![](assets/aem-assets-connection-selection.png)
 
@@ -267,7 +269,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >
    > U moet in Workfront aangepaste formulieren maken voor de geselecteerde objecten voordat ze in deze lijst worden weergegeven.
 
-1. (Voorwaardelijk) als u selecteerde om met Experience Manager Assets te verbinden, selecteer een bewaarplaats van de **opslagplaats van de Experience Manager** drop-down menu in de **activa van de Verbinding van de volgende bewaarplaats** sectie. Dit is een verplicht veld. Alleen repositories waartoe u toegang hebt in Experience Manager Assets-weergave in dit veld.
+1. (Voorwaardelijk) als u selecteerde om met Experience Manager Assets te verbinden, selecteer een bewaarplaats van de **bewaarplaats van Experience Manager** drop-down menu in de **activa van de Verbinding van de volgende bewaarplaats** sectie. Dit is een verplicht veld. Alleen repositories waartoe u toegang hebt in Experience Manager Assets-weergave in dit veld.
 
    >[!NOTE]
    >
