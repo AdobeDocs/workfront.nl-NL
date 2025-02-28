@@ -6,9 +6,9 @@ description: Door de tijdlijnen opnieuw te berekenen kunnen beheerders zien hoe 
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
-source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1064'
 ht-degree: 0%
 
 ---
@@ -174,13 +174,13 @@ Als projecteigenaar, kunt u de chronologie voor individuele projecten manueel op
 
 U kunt de chronologie van een project in Workfront van de projectpagina of van een projectlijst of rapport opnieuw berekenen.
 
-1. Ga naar het project waarvoor u de chronologie opnieuw wilt berekenen en **Meer** pictogram ![](assets/qs-more-menu.png) aan de linkerzijde van de projectnaam klikken
+1. Ga naar het project waarvoor u de chronologie opnieuw wilt berekenen en **Meer** pictogram ![ klikken Meer menu ](assets/qs-more-menu.png) links van de projectnaam
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![ Meer dropdown ](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    of
 
-   Ga naar een projectlijst of een rapport en selecteer één of verscheidene projecten, dan klik **Meer** pictogram ![](assets/qs-more-menu.png) bij de bovenkant van de lijst.
+   Ga naar een projectlijst of een rapport en selecteer één of verscheidene projecten, dan klik **Meer** pictogram ![ Meer menu ](assets/qs-more-menu.png) bij de bovenkant van de lijst.
 
    ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
