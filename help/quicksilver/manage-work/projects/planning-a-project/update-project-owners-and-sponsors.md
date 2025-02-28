@@ -6,9 +6,9 @@ description: Als u een project maakt in Adobe Workfront, wordt u automatisch ing
 author: Alina
 feature: Work Management
 exl-id: 10421cab-237a-49a5-bb5b-5be510dc4c46
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ Wanneer u een gebruiker als Eigenaar van het Project van een project toevoegt, g
 
 1. Ga naar het project u wilt bijwerken.
 1. Klik **Details van het Project** in het linkerpaneel.
-1. Klik **uitgeven** pictogram ![](assets/qs-edit-icon.png) in de hoger-juiste hoek van het gebied van de Details van het Project, dan klik **Overzicht**.
+1. Klik **uitgeven** pictogram ![ geeft pictogram ](assets/qs-edit-icon.png) in de hoger-juiste hoek van het gebied van de Details van het Project uit, dan klik **Overzicht**.
 
 1. Specificeer de naam van een gebruiker voor het **gebied van de Eigenaar van het 0} Project.**
 
@@ -121,7 +121,7 @@ Wanneer u een gebruiker als projectsponsor van een project toevoegt, geeft Workf
 
 1. Ga naar het project dat u wilt bijwerken.
 1. Klik **Details van het Project** in het linkerpaneel.
-1. Klik **uitgeven** pictogram ![](assets/qs-edit-icon.png) in de hoger-juiste hoek van het gebied van de Details van het Project, dan klik **Overzicht**.
+1. Klik **uitgeven** pictogram ![ geeft pictogram ](assets/qs-edit-icon.png) in de hoger-juiste hoek van het gebied van de Details van het Project uit, dan klik **Overzicht**.
 
 1. Specificeer de naam van een gebruiker voor het **Sponsor van het Project** gebied.
 
