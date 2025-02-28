@@ -6,9 +6,9 @@ description: U kunt documenten van Workfront naar Experience Manager Assets verz
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: d687d2db-28e0-45e8-9d60-8419921f02e9
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ Een document verzenden:
    >
    >Voor deze integratie kan elke naam worden gekozen, dus Experience Manager Assets wordt niet specifiek vermeld.
 
-   ![](assets/copy-of-send-to-in-toolbar-350x149.png)
+   ![ verzendt naar ](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. Kies waar u de activa wilt gaan, dan klik **Uitgezochte Omslag**.
 1. Wanneer u uw gewenste bestemming vindt, klik **sparen**.
@@ -87,6 +87,6 @@ De meest recente versie verzenden:
    >
    >Voor deze integratie kan elke naam worden gekozen, dus Experience Manager Assets wordt niet specifiek vermeld.
 
-   ![](assets/copy-of-send-to-in-toolbar-350x149.png)
+   ![ verzendt naar ](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. Klik **sparen**. De nieuwe versie slaat op dezelfde locatie op als de vorige versie.
