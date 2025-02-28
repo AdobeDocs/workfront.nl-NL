@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 923deab4-205b-4312-9ec4-4471fd6cea26
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '493'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 ## Sjabloon maken van project
 
 1. Ga naar het project dat u als malplaatje wilt bewaren.
-1. Klik **Meer** menu ![](assets/qs-more-icon-on-an-object.png), dan **sparen als Malplaatje**.
+1. Klik **Meer** menu ![ Meer pictogram ](assets/qs-more-icon-on-an-object.png), dan **sparen als Malplaatje**.
 1. Geef de volgende informatie voor de sjabloon op:
 
    <table style="table-layout:auto"> 
@@ -94,17 +94,17 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klik **leiden Forms** om de vormen te verwijderen of opnieuw in orde te brengen. Voor informatie over hoe te om douaneformulieren op het malplaatje te verwijderen en opnieuw in orde te brengen, zie [ de vormen van de Douane ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
 
-   ![](assets/save-as-template-first-step-350x159.png)
+   ![ sparen als malplaatje eerste stap ](assets/save-as-template-first-step-350x159.png)
 
 1. Klik **Volgende Stap.**
 1. In de **sectie van Opties**, selecteer checkbox naast om het even welke informatie u van het malplaatje wilt ontruimen.
 
-   ![](assets/save-as-template-options-step-350x109.png)
+   ![ sparen als malplaatjeopties ](assets/save-as-template-options-step-350x109.png)
 
 1. Klik **Volgende Stap.**
 1. In de **uitsluiten** sectie, selecteer om het even welke taken die u van het project wilt uitsluiten.
 
-   ![](assets/save-as-template-exclude-350x205.png)
+   ![ sparen als malplaatje sluit uit ](assets/save-as-template-exclude-350x205.png)
 
 1. Klik **Einde en sparen Malplaatje.**
 
