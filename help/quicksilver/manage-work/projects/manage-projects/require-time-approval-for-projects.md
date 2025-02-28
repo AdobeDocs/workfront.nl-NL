@@ -6,9 +6,9 @@ description: Tijd vereisen om te worden goedgekeurd voor een project
 author: Alina
 feature: Work Management
 exl-id: e4a27640-9f5c-4a9f-82cc-3384694594af
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      <li>U bent de Eigenaar van het Project met de toegang en de toestemmingen hierboven gespecificeerd. In dit geval kunt u het volgende doen als een van de onderstaande voorwaarden bestaat: 
       <ul>
        <li>Als u beheerdersmachtigingen voor het project hebt, kunt u uren die door een andere gebruiker zijn aangemeld, goedkeuren of afwijzen.</li>
-       <li> Als u Contribute of de toegang van de Mening tot het project hebt zult u slechts de uren kunnen goedkeuren of verwerpen die door u of een andere gebruiker worden geregistreerd die u meldt.<br></li>
+       <li> Als u Contribute of de Toegang van de Mening tot het project hebt zult u slechts de uren kunnen goedkeuren of verwerpen die door u of een andere gebruiker worden geregistreerd die u meldt.<br></li>
       </ul></li> 
      <li>U hebt een licentie voor abonnementen met beheerdersrechten voor timesheets en uren. In dit geval:
       <ul>
@@ -80,7 +80,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 U kunt als volgt de goedkeuring van een projectmanager urenlang voor het project vereisen:
 
 1. Ga naar het project waar u goedkeuring urenlang wilt vereisen.
-1. Klik **Meer** pictogram ![](assets/more-icon.png) aan het recht van de projectnaam, dan klik **uitgeven**.\
+1. Klik het **Meer** pictogram ![ Meer pictogram ](assets/more-icon.png) aan het recht van de projectnaam, dan klik **uitgeven**.\
    Het dialoogvenster Project bewerken wordt weergegeven.
 
 1. In de **sectie van de Montages van het Project**, uitgezochte **vereist tijd om voor dit project** worden goedgekeurd.
