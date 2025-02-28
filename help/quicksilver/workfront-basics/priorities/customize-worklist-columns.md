@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 {{step1-to-priorities}}
 
 1. Klik **Kolommen** op de rechterkant van het scherm.
-   ![](assets/columns.png)
+   ![ Kolommen ](assets/columns.png)
 1. Met de schakelopties kunt u kolommen in de werklijst in- of uitschakelen.
 
 ### De kolommen opnieuw ordenen
@@ -77,15 +77,15 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klik **Kolommen** op de rechterkant van het scherm.
 1. Klik het **pictogram van de Belemmering** en beweeg de kolom aan uw gewenste plaats. Kolommen automatisch bijwerken in de werklijst verplaatsen.
-   ![](assets/reorder-columns.png)
+   ![ reorder kolommen ](assets/reorder-columns.png)
 
 ### Kolombreedten opnieuw instellen
 
 {{step1-to-priorities}}
 
 1. Klik **Kolommen** op de rechterkant van het scherm.
-1. Klik **Meer** pictogram ![](assets/more-icon.png), en kies **de kolombreedten van het Terugstellen**.
-   ![](assets/columns.png)
+1. Klik het **Meer** pictogram ![ Meer pictogram ](assets/more-icon.png), en kies **de kolombreedten van het Terugstellen**.
+   ![ Kolommen ](assets/columns.png)
 
 ## De kolommen in de werklijst Prioriteiten aanpassen
 
@@ -94,7 +94,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 {{step1-to-priorities}}
 
 1. Klik **Kolommen** op de linkerkant van het scherm.
-   ![](assets/columns-new.png)
+   ![ Kolommen ](assets/columns-new.png)
 1. Met de schakelopties kunt u kolommen in de werklijst in- of uitschakelen.
 
 ### De kolommen opnieuw ordenen
@@ -103,7 +103,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klik **Kolommen** op de linkerkant van het scherm.
 1. Klik het **pictogram van de Belemmering** en beweeg de kolom aan uw gewenste plaats. Kolommen automatisch bijwerken in de werklijst verplaatsen.
-   ![](assets/reorder-columns-new.png)
+   ![ reorder kolommen ](assets/reorder-columns-new.png)
 
 >[!NOTE]
 >
