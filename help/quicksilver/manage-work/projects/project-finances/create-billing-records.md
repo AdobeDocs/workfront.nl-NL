@@ -5,9 +5,9 @@ description: Naast het opzetten van inkomsten en het volgen van uitgaven, kunt u
 author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '1896'
+source-wordcount: '1898'
 ht-degree: 0%
 
 ---
@@ -241,7 +241,7 @@ Nadat u een factureringsrecord hebt gemaakt en uren, uitgaven en inkomsten in de
 
    of
 
-   Klik het **uitgeven pictogram** ![](assets/edit-icon.png) in de hoger-juiste hoek, dan geef informatie op om het even welke beschikbare gebieden uit.
+   Klik het **uitgeven pictogram** ![ uitgeven pictogram ](assets/edit-icon.png) in de hoger-juiste hoek, dan geef informatie op om het even welke beschikbare gebieden uit.
 
    Werk het volgende bij:
 
