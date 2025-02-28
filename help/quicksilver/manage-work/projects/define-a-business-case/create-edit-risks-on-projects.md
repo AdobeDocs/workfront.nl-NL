@@ -6,9 +6,9 @@ description: Risico's zijn mogelijke gebeurtenissen of factoren die verhinderen 
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1037'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Een risico maken of bewerken in de Business Case:
 
    * **Kosten van de Vermindering**: wijs op de kosten van het matigingsplan dat u moet plaatsen om het risico te verhinderen voor te komen.
 
-   ![](assets/crp1-350x117.png)
+   ![ Risks ](assets/crp1-350x117.png)
 
 1. (Facultatief) klik **Voeg een ander Risico** toe om extra risico&#39;s toe te voegen.
 1. Klik **sparen**.
