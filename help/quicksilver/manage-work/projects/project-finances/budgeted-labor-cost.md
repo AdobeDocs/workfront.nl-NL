@@ -7,9 +7,9 @@ description: Begrijpte arbeidskosten en begrotingsuren voor projecten begrijpen
 author: Lisa
 feature: Work Management
 exl-id: 01020bbb-7cf9-4461-b0b6-dcbbc537c616
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1140'
 ht-degree: 0%
 
 ---
@@ -76,11 +76,11 @@ Als de gebruikers met de baanrollen op het project worden geassocieerd en hun ur
 
 * [!UICONTROL **Begroeide Arbeidskosten**]: Het gebied van de Begroting van het Middel van het BedrijfsGeval onder hun respectieve rollen.
 
-  ![](assets/budgeted-labor-cost-for-users-in-business-case-highlighted-350x73.png)
+  ![ Begrotende arbeidskosten in BedrijfsGeval ](assets/budgeted-labor-cost-for-users-in-business-case-highlighted-350x73.png)
 
 * [!UICONTROL **BDG**]: De Planner van het Middel wanneer het bekijken van informatie in de mening van het Project en van de Rol door Kosten.
 
-  ![](assets/budgeted-labor-cost-for-users-in-rp-project-view-cost--highlighted-350x115.png)
+  ![ Begroeide arbeidskosten in de Plaatsen van het Middel ](assets/budgeted-labor-cost-for-users-in-rp-project-view-cost--highlighted-350x115.png)
 
 De gebruikers tonen in het gebied van de Begroting van het Middel van het BedrijfsGeval onder hun respectieve rollen of in de Planner van het Middel als zij aan de volgende vereisten voldoen:
 
