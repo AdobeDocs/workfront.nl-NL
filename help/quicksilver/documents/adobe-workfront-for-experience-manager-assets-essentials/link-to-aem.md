@@ -1,23 +1,23 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: Elementen en mappen koppelen vanuit Experience Manager Assets of Assets Essentials
-description: U kunt middelen of een omslag van Experience Manager Assets of Assets Essentials met om het even welk voorwerp van Adobe Workfront verbinden dat documenten steunt. Assets die van Assets Essentials wordt verzonden, telt niet mee voor uw totale documentopslag in Workfront. Documenten die van Workfront naar Assets Essentials zijn geüpload en verzonden, tellen wel mee voor de totale opslag.
+title: Elementen en mappen van Experience Manager Assets of Elementen koppelen
+description: U kunt middelen of een omslag van Experience Manager Assets of de Hoofdzaak van Activa aan om het even welk voorwerp van Adobe Workfront verbinden dat documenten steunt. Assets die vanuit Assets Essentials wordt verzonden, telt niet mee voor uw totale documentopslag in Workfront. Documenten die van Workfront naar Assets Essentials zijn geüpload en verzonden, tellen wel mee voor de totale opslag.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: dbd19985-88b1-48ca-9cba-b7933ff2c191
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---
 
-# Elementen en mappen koppelen vanuit Experience Manager Assets of Assets Essentials
+# Elementen en mappen van Experience Manager Assets of Elementen koppelen
 
-U kunt middelen of een omslag van Experience Manager Assets of Assets Essentials met om het even welk voorwerp van Adobe Workfront verbinden dat documenten steunt. Assets die van Assets Essentials wordt verzonden, telt niet mee voor uw totale documentopslag in Workfront. Documenten die van Workfront naar Assets Essentials zijn geüpload en verzonden, tellen wel mee voor de totale opslag.
+U kunt middelen of een omslag van Experience Manager Assets of de Hoofdzaak van Activa aan om het even welk voorwerp van Adobe Workfront verbinden dat documenten steunt. Assets die vanuit Assets Essentials wordt verzonden, telt niet mee voor uw totale documentopslag in Workfront. Documenten die van Workfront naar Assets Essentials zijn geüpload en verzonden, tellen wel mee voor de totale opslag.
 
-Metagegevensvelden worden eerst toegewezen wanneer u een element verzendt van Workfront naar Experience Manager Assets of Assets Essentials. Als uw Workfront-beheerder heeft ingesteld dat objectmetagegevenssynchronisatie is ingeschakeld, blijven de velden up-to-date als deze in een van beide toepassingen zijn gewijzigd.
+Metagegevensvelden worden eerst toegewezen wanneer u een element verzendt van Workfront naar Experience Manager Assets of Elementen. Als uw Workfront-beheerder heeft ingesteld dat objectmetagegevenssynchronisatie is ingeschakeld, blijven de velden up-to-date als deze in een van beide toepassingen zijn gewijzigd.
 
 ## Toegangsvereisten
 
@@ -39,10 +39,10 @@ U moet het volgende hebben:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>U moet Experience Manager as a Cloud Service Assets Essentials hebben, en u moet aan het product als gebruiker in de Admin Console worden toegevoegd.</td> 
+   <td>U moet Experience Manager as a Cloud Service of Assets Essentials hebben en u moet als gebruiker aan het product worden toegevoegd in de Admin Console.</td> 
   </tr> 
    <tr> 
-    <td role="rowheader">Machtigingen Experience Manager</td> 
+    <td role="rowheader">Experience Manager-machtigingen</td> 
     <td>U moet schrijftoegang tot de map hebben.</td> 
    </tr>
   <tr> 
@@ -64,25 +64,25 @@ U moet het volgende hebben:
 
 Voordat u begint,
 
-* Uw Workfront-beheerder moet een Experience Manager-integratie configureren. Voor meer informatie, zie [ de as a Cloud Service integratie van Experience Manager Assets ](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) vormen of [ vormen de integratie van de Hoofdzaak van Experience Manager Assets ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+* Uw Workfront-beheerder moet een Experience Manager-integratie configureren. Voor meer informatie, zie [ de integratie van Experience Manager Assets as a Cloud Service ](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) vormen of [ vormen de integratie van de Hoofdzaak van Experience Manager Assets ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
-## Middelen van Experience Manager Assets of Assets Essentials koppelen
+## Middelen van Experience Manager Assets of Elementen koppelen
 
-U kunt middelen van Experience Manager Assets of Assets Essentials aan Workfront verbinden. Als het element eenmaal is gekoppeld, kunt u
+U kunt middelen van Experience Manager Assets of Elementen aan Workfront koppelen. Als het element eenmaal is gekoppeld, kunt u
 
-* [ Bewijs een verbonden activa voor Experience Manager Assets of Assets Essentials ](../../documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
+* [ Bewijs van een verbonden activa voor Experience Manager Assets of de Hoofdzaak van Activa ](../../documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
 * [Een nieuwe versie van een document uploaden](../../documents/managing-documents/upload-new-document-version.md)
 
 1. Ga naar het **gebied van Documenten** in Workfront waar u het document wilt toevoegen.
-1. Selecteer **toevoegen Nieuw**, dan selecteren de integratie van de Experience Manager uw beheerderopstelling.
+1. Selecteer **toevoegen Nieuw**, dan selecteren de integratie van Experience Manager uw beheerderopstelling.
 
    >[!NOTE]
    >
-   >De Workfront-beheerder kan elke naam voor deze integratie kiezen. Assets of Assets Essentials worden dus niet specifiek vermeld.
+   >De Workfront-beheerder kan een willekeurige naam voor deze integratie kiezen, dus Assets of Assets Essentials wordt niet specifiek vermeld.
 
 1. Selecteer de gewenste elementen.
 
-   ![](assets/select-an-asset.png)
+   ![ Uitgezocht een activa ](assets/select-an-asset.png)
 
 1. Klik **Uitgezocht**.
 
@@ -91,35 +91,35 @@ U kunt middelen van Experience Manager Assets of Assets Essentials aan Workfront
 Machtigingen om afzonderlijke elementen in een map weer te geven, zijn afhankelijk van Experience Manager Assets- of Assets Essentials-machtigingen.
 
 1. Ga naar het **gebied van Documenten** in Workfront waar u de omslag wilt.
-1. Selecteer **toevoegen Nieuw**, dan selecteren de integratie van de Experience Manager uw beheerderopstelling.
+1. Selecteer **toevoegen Nieuw**, dan selecteren de integratie van Experience Manager uw beheerderopstelling.
 
    >[!NOTE]
    >
-   >De Workfront-beheerder kan een willekeurige naam voor deze integratie kiezen, dus Assets of Assets Essentials worden niet specifiek genoemd.
+   >De Workfront-beheerder kan een willekeurige naam voor deze integratie kiezen, dus Assets of Assets Essentials wordt niet specifiek genoemd.
 
 1. Selecteer de gewenste mappen.
 
-   ![](assets/select-a-folder.png)
+   ![ selecteer een omslag ](assets/select-a-folder.png)
 
 1. Klik **Uitgezocht**.
 
 ## Een nieuwe versie koppelen vanuit Experience Manager Assets of Assets Essentials
 
-U kunt een nieuw element uit Assets Essentials halen en het als een nieuwe versie aan een bestaand element toevoegen. Als het document al is gekoppeld en een nieuwe versie wordt toegevoegd aan Assets Essentials, wordt de nieuwe versie automatisch weergegeven in Workfront.
+U kunt een nieuw element ophalen van Elementen en het als een nieuwe versie toevoegen aan een bestaand element. Als het document al is gekoppeld en er een nieuwe versie wordt toegevoegd aan de Elementen, wordt de nieuwe versie automatisch weergegeven in Workfront.
 
-Een nieuwe versie van Assets Essentials koppelen:
+Een nieuwe versie koppelen van Elementen:
 
 1. Ga naar het **gebied van Documenten** in Workfront waar u het document wilt toevoegen.
 1. Selecteer het element dat u wilt vervangen door een nieuwe versie. U kunt geen nieuwe versie van een middel in een verbonden omslag tot stand brengen.
-1. Selecteer **Nieuwe** toevoegen > **Versie**, dan de integratie van de Experience Manager uw beheerderopstelling selecteren.
+1. Selecteer **Nieuwe** toevoegen > **Versie**, dan de integratie van Experience Manager uw beheerderopstelling selecteren.
 
    >[!NOTE]
    >
-   >De Workfront-beheerder kan een willekeurige naam voor deze integratie kiezen, dus Assets of Assets Essentials worden niet specifiek genoemd.
+   >De Workfront-beheerder kan een willekeurige naam voor deze integratie kiezen, dus Assets of Assets Essentials wordt niet specifiek genoemd.
 
 1. Selecteer het gewenste element.
 
-   ![](assets/select-an-asset.png)
+   ![ Uitgezocht een activa ](assets/select-an-asset.png)
 
 1. Klik **Uitgezocht**.
 
