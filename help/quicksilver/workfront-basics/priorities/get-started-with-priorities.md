@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1041'
 ht-degree: 0%
 
 ---
@@ -114,7 +114,7 @@ Zodra u nadrukniveaus aan uw het werkpunten hebt toegewezen, kunt u de kolom aan
 
 Voor meer informatie, zie [ belangrijke het werkpunten ](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md) Prioriteit geven.
 
-![](assets/worklist.png)
+![ Lijst van het Werk ](assets/worklist.png)
 
 ### De kalenderweergave gebruiken
 
@@ -142,7 +142,7 @@ In de sectie Updates worden systeemupdates weergegeven en maximaal 200 van de me
 
 Voor meer informatie, zie [ commentaren in Prioriteiten toevoegen en bekijken ](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md).
 
-![](assets/update-log-upload.png)
+![ Update, logboektijd, en upload ](assets/update-log-upload.png)
 
 ### Logtijd
 
@@ -150,7 +150,7 @@ U kunt tijd voor het werkpunten registreren om op het aantal uren te wijzen u he
 
 Voor meer informatie, zie [ tijd van het Logboek in Prioriteiten ](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md).
 
-![](assets/update-log-upload.png)
+![ Update, logboektijd, en upload ](assets/update-log-upload.png)
 
 ### Bestanden uploaden
 
@@ -163,14 +163,14 @@ Upload bestanden rechtstreeks naar het gebied Documenten van de taak of uitgave,
 
 Voor meer informatie, zie [ dossiers in Prioriteiten ](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md) uploaden.
 
-![](assets/update-log-upload.png)
+![ Update, logboektijd, en upload ](assets/update-log-upload.png)
 
 
 ### Snelle koppelingen toevoegen
 
 U kunt veelgebruikte koppelingen insluiten in de detailpagina van het werkitem. Met snelle koppelingen kunt u de koppeling snel bezoeken of kopiëren.
 
-![](assets/quick-links.png)
+![ Snelle verbindingen ](assets/quick-links.png)
 
 Voor meer informatie, zie [ snelle verbindingen in Prioriteiten toevoegen en beheren ](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md).
 
@@ -194,7 +194,7 @@ Met de functie [!DNL Catch me up] kunt u zien wat u hebt gemist. Vangst me omhoo
 
 Voor meer informatie, zie [ Vangst op het werk in Prioriteiten ](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
 
-![](assets/catch-me-up.png)
+![ Vangst me omhoog ](assets/catch-me-up.png)
 
 <!--need new screen for prod-->
 
