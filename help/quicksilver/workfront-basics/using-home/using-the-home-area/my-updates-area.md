@@ -6,9 +6,9 @@ description: U kunt het [!UICONTROL My Updates] gebied gebruiken om de goedkeuri
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '744'
 ht-degree: 0%
 
 ---
@@ -76,13 +76,13 @@ U moet het volgende hebben voordat u begint:
 
 1. Klik op **[!UICONTROL My Updates]** in de **[!UICONTROL Main Menu]** .
 
-   ![](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
+   ![ Mijn Updates in HoofdMenu ](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
 
    Het gebied [!UICONTROL My Updates] wordt geopend.
 
    De goedkeuringen en de verzoeken om toegang die aan u worden toegewezen zijn vermeld in de eerste helft van de pagina, onder **Mijn Updates**.
 
-   ![](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
+   ![ Mijn Herzieners van Updates ](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
 
 1. (Facultatief) Schuif aan de bodem van het [!UICONTROL **Mijn gebied van Updates**] en klik de naar rechts wijzende pijl om meer goedkeuringen te tonen die op extra pagina&#39;s tonen.
 
@@ -90,9 +90,9 @@ U moet het volgende hebben voordat u begint:
    >
    >De eerste vijf goedkeuringen of verzoeken om toegang tonen door gebrek. De resterende goedkeuringen worden weergegeven op extra pagina&#39;s. U kunt maximaal 2000 goedkeuringen weergeven in het [!UICONTROL My Updates] -gebied.
 
-   ![](assets/pagination-for-my-updates-page-highlighted-nwe-350x78.png)
+   ![ Paginering voor Mijn Updates ](assets/pagination-for-my-updates-page-highlighted-nwe-350x78.png)
 
-1. (Optioneel) Vouw het vervolgkeuzemenu **[!UICONTROL Filter]** rechtsboven in de sectie ![](assets/filter-nwepng.png) uit en selecteer een van de volgende opties:**[!UICONTROL My Updates]**
+1. (Facultatief) breid het **[!UICONTROL Filter]** drop-down menu ![ pictogram van de Filter ](assets/filter-nwepng.png) in de hoger-juiste hoek van de **[!UICONTROL My Updates]** sectie uit en selecteer van het volgende:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -117,13 +117,13 @@ U moet het volgende hebben voordat u begint:
 
 1. U kunt als volgt een item goedkeuren of afwijzen of wijzigingen in een document voorstellen voordat u het goedkeurt:
 
-   1. (Facultatief) klik het **drop-down** pictogram ![](assets/down-arrow-blue.png) naast uw goedkeuringsbesluit (**[!UICONTROL Approve]**, **[!UICONTROL Changes]**, **[!UICONTROL Reject]**) en voeg een commentaar toe, dan klik **[!UICONTROL Add]**.
+   1. (Facultatief) klik het **pictogram van de drop-down ![ Vervolgkeuzelijst ](assets/down-arrow-blue.png) naast uw goedkeuringsbesluit (**[!UICONTROL Approve]**,**[!UICONTROL Changes]**,**[!UICONTROL Reject]**) en voeg een commentaar toe, dan klik **[!UICONTROL Add]**.**
 
       of
 
       Klik op **[!UICONTROL Skip]** als u geen opmerking wilt invoeren.
 
-      ![](assets/approval-decision-buttons-in-my-updates-with-comment-box-nwe-350x183.png)
+      ![ de beslissingsknopen van de Goedkeuring met commentaardoos ](assets/approval-decision-buttons-in-my-updates-with-comment-box-nwe-350x183.png)
 
       >[!NOTE]
       >
@@ -136,7 +136,7 @@ U moet het volgende hebben voordat u begint:
       >Als u geen commentaar aan uw besluit wilt toevoegen, kunt u **[!UICONTROL Approve]** klikken, **[!UICONTROL Reject]**, of **[!UICONTROL Changes]** knoop en het goedkeuringsbesluit wordt verleend onmiddellijk.
       >
       >
-      >![](assets/approval-decision-buttons-in-my-updates-nwe-350x169.png)
+      >![ de beslissingsknopen van de Goedkeuring ](assets/approval-decision-buttons-in-my-updates-nwe-350x169.png)
       >
       >Voor meer informatie over het goedkeuren van het werk, zie [ het goedkeuren van het werk ](../../../review-and-approve-work/manage-approvals/approving-work.md).
 
@@ -146,7 +146,7 @@ U moet het volgende hebben voordat u begint:
 
    Vouw het vervolgkeuzemenu **[!UICONTROL Change access]** uit om de gevraagde toegang te wijzigen voordat u deze verleent.
 
-   ![](assets/grant-access-button-in-my-updates-nwe-350x224.png)
+   ![ de toegangsknoop van de Verandering ](assets/grant-access-button-in-my-updates-nwe-350x224.png)
 
 1. (Optioneel) Klik op **[!UICONTROL Ignore]** om het toegangsverzoek uit uw goedkeuringslijst te verwijderen zonder het toe te kennen.
 1. Klik op **[!UICONTROL Delegate my approvals]** om de goedkeuringen die u hebt ontvangen te delegeren als u nog enige tijd geen goedkeuringsbeslissingen kunt nemen. Voor meer informatie over het delegeren van goedkeuringen, zie [ de goedkeuringsverzoek van de Afgevaardigde ](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
@@ -166,6 +166,6 @@ U moet het volgende hebben voordat u begint:
 
      Klik op **[!UICONTROL Submit]** als u klaar bent met het toevoegen van de reactie.
 
-     ![](assets/reply-in-the-my-updates-area.png)
+     ![ Antwoord op het Mijn gebied van Updates ](assets/reply-in-the-my-updates-area.png)
 
 1. (Optioneel) Klik op **[!UICONTROL Pin current page]** om het [!UICONTROL My Updates] -gebied vast te zetten op de bovenste navigatie.
