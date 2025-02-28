@@ -6,9 +6,9 @@ description: U kunt een taak of een kwestie merken zoals Gedaan als u de taak of
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 4c3638aa-5ee3-422a-9fee-41c4749fe48b
-source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '804'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
-   <td> <p>Contribute-machtigingen of hoger voor de taken en problemen waarmee u moet werken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Contribute-machtigingen of hoger voor de taken en problemen waaraan u moet werken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,21 +58,21 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Een tijdelijk item markeren als Gereed in de widget Mijn werk
 
-1. Klik op **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek en klik vervolgens op **[!UICONTROL Home]** .
+1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) klik **aanpassen** om **Mijn werk** widget toe te voegen.
 1. Zoek het werkitem en klik op **[!UICONTROL Mark as Done]** op het werkitem.
 Zie [ de opties van de [!UICONTROL Done] knoop ](#understand-the-options-of-the-done-button) voor meer gedetailleerde informatie over hoe deze knoop zou kunnen verschijnen.
-   ![](assets/my-work-done.png)
+   ![ Mijn Teken van het Werk zoals Gedaan ](assets/my-work-done.png)
 
 
 ## Een werkitem markeren dat is voltooid in het deelvenster Samenvatting
 
 U kunt een werkitem markeren als Gereed in de widget Mijn taken en Mijn problemen via het deelvenster Samenvatting.
 
-1. Klik op **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek en klik vervolgens op **[!UICONTROL Home]** .
+1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) klik **aanpassen** om **Mijn Taken** toe te voegen of **Mijn Kwesties** widgets.
 1. Beweeg over het het werkpunt, dan klik het **Summiere** pictogram.
-   ![](assets/open-summary-new-home.png)
+   ![ Open Samenvatting ](assets/open-summary-new-home.png)
 1. Klik **Teken zoals gedaan** bij de bovenkant van het Summiere paneel.
 
 
@@ -113,5 +113,5 @@ Als de Gedaan knoop met veelvoudige statussen wordt geassocieerd, zijn zij verme
 >
 >Bij een taak of kwestie met veelvoudige toegewezen, is elke gebruiker verantwoordelijk voor het erop wijzen dat hun eigen taak op de taak of de kwestie eigenlijk is voltooid. Daarom moet elke ontvanger op [!UICONTROL Done] klikken om te tonen dat hij of zij het werk heeft voltooid dat aan hem of haar is toegewezen op het item.
 
-![](assets/done-with-my-part.png)
+![ Gedaan met mijn deel ](assets/done-with-my-part.png)
 
