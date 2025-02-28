@@ -6,9 +6,9 @@ description: Wanneer u werktaken en problemen hebt toegewezen, worden deze weerg
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 79826743-eeb9-4849-b46f-cc3f086e3194
-source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '807'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
-   <td> <p>Contribute-machtigingen of hoger voor de taken en problemen waarmee u moet werken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Contribute-machtigingen of hoger voor de taken en problemen waaraan u moet werken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,10 +63,10 @@ In dit artikel wordt beschreven hoe u de filters in het gebied [!UICONTROL Home]
 
 Een tijdelijk item weergeven in de widget Mijn werk:
 
-1. Klik op **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek en klik vervolgens op **[!UICONTROL Home]** .
+1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) klik **aanpassen** om **Mijn werk** widget toe te voegen.
 
-1. Klik het **pictogram van de Filter** ![](assets/filter-nwepng.png) in de hoogste-linkerhoek van widgetwerklijst.
+1. Klik het **pictogram van de Filter ![ ](assets/filter-nwepng.png) pictogram van de Filter** {in de hoogste-linkerhoek van de widgetwerklijst.
 
 1. Klik op een van de volgende opties of op beide opties voor taken:
 
@@ -89,12 +89,12 @@ U hebt rechtstreeks toegang tot een aanvraag die aan uw team is toegewezen via d
 
 Om tot een teamverzoek toegang te hebben:
 
-1. Klik op **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek en klik vervolgens op **[!UICONTROL Home]** .
+1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) klik **aanpassen** om **de Verzoeken van het Team** widget toe te voegen.
 
    De widget geeft teamverzoeken weer onder teamgroeperingen. De widget **[!UICONTROL Team Requests]** geeft alle aanvragen weer die zijn toegewezen aan een team dat u hebt ingeschakeld. Voor meer informatie over het werken met teamverzoeken, zie [ werk en teamverzoeken ](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md) leiden.
 
-   ![](assets/team-request-widget.png)
+   ![ de verzoekwidget van het Team {](assets/team-request-widget.png)
 
 ## Werken met een tijdelijk item in de widget Mijn werk
 
@@ -102,13 +102,13 @@ Wanneer u op de knop [!UICONTROL Work On It] klikt, geeft u aan welke gebruiker 
 
 U kunt als volgt aan een werkitem werken:
 
-1. Klik op **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek en klik vervolgens op **[!UICONTROL Home]** .
+1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) klik **aanpassen** om **Mijn werk** widget toe te voegen.
 
 1. Selecteer in het **[!UICONTROL worklist]** -gebied van de widget de aanvraag waaraan u wilt werken en klik op **[!UICONTROL Work On It]** .
 1. Beweeg over het het werkpunt, dan klik het **Summiere** pictogram om informatie over het het werkpunt te bekijken.
 
-   ![](assets/open-summary-new-home.png)
+   ![ Open Samenvatting ](assets/open-summary-new-home.png)
 
 
 ## Een tijdelijk item verwijderen
@@ -117,20 +117,20 @@ Als u besluit dat u niet aan het het werkpunt zou moeten werken, kunt u het uit 
 
 Een tijdelijk item verwijderen:
 
-1. Klik op **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek en klik vervolgens op **[!UICONTROL Home]** .
+1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) klik **aanpassen** om **Mijn werk** widget toe te voegen.
 
 1. In de widgetwerklijst, houd over het het werkpunt, dan klik het **Summiere** pictogram om informatie over het het werkpunt te bekijken.
-   ![](assets/open-summary-new-home.png)
+   ![ Open Samenvatting ](assets/open-summary-new-home.png)
 1. in de **sectie van Taken**, verwijder uw naam.
-   ![](assets/remove-assignment.png)
+   ![ verwijder taak ](assets/remove-assignment.png)
 
 
 
 <!--
 ## Reassign a request
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. In the **[!UICONTROL Work List]** area, select the request you want to reassign.
 
 1. Click on the **[!UICONTROL Assignments]** widget and remove yourself from the request, then type the name of the user you want to reassign the request to.
@@ -148,7 +148,7 @@ Een tijdelijk item verwijderen:
 
 You can reply to a request to further clarify the request or to propose a new date.
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. In the **[!UICONTROL Work List]** area, select the request you want to reply to.
 1. Locate the individual who assigned the request to you.
 
