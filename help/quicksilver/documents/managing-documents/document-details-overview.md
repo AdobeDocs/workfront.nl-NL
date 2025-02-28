@@ -7,9 +7,9 @@ description: Op de pagina Documentdetails kunt u de eigenschappen van een docume
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 69f0560f-8612-431d-9765-0216bf47d8b0
-source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
+source-git-commit: 5595b1c286d82f77bca9ee16e20bae8380ce45b5
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Op de pagina Documentdetails kunt u de eigenschappen van een document dat is gek
 
 1. Beweeg over het document, dan klik **Details van het Document**.
 
-   ![](assets/document-details-350x179.png)
+   ![ de details van het Document ](assets/document-details-350x179.png)
 
 ## Basishandelingen uitvoeren voor documenten en proefdrukken
 
@@ -37,7 +37,7 @@ U kunt de volgende handelingen uitvoeren voor zowel documenten als proefdrukken 
 * De documentbeschrijving bewerken
 * Een document inchecken of uitchecken
 
-Daarnaast kunt u het pictogram Meer ![](assets/more-icon.png) naast de documentnaam gebruiken om de volgende handelingen uit te voeren:
+Bovendien kunt u het Meer pictogram ![ Meer menu ](assets/more-icon.png) naast de documentnaam gebruiken om de volgende acties uit te voeren:
 
 * Delen
 * Verplaatsen
