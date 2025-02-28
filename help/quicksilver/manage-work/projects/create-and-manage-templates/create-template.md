@@ -6,9 +6,9 @@ description: U kunt sjablonen maken en verwijderen vanuit het gebied Sjablonen. 
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -102,7 +102,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    >
    >U kunt taken niet rechtstreeks vanuit dit Gantt-diagram bewerken.
 
-1. Om informatie aan uw nieuw malplaatje toe te voegen, klik **Meer** menu ![](assets/more-icon.png), dan klik **uitgeven**.
+1. Om informatie aan uw nieuw malplaatje toe te voegen, klik **Meer** menu ![ Meer pictogram ](assets/more-icon.png), dan klik **uitgeven**.
 
    Voor informatie over het uitgeven van een malplaatje, zie [ projectmalplaatjes ](../../../manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
 
