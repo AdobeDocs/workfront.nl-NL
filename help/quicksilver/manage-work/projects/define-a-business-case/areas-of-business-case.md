@@ -6,9 +6,9 @@ description: Dit artikel beschrijft de gebieden van het BedrijfsGeval van een pr
 author: Alina
 feature: Work Management
 exl-id: 0646e4f0-e8fb-48f2-b533-358229543081
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1603'
+source-wordcount: '1607'
 ht-degree: 0%
 
 ---
@@ -51,9 +51,9 @@ U kunt de volgende velden bewerken:
 
   U kunt ook iemand anders dan de projecteigenaar toevoegen als sponsor van het project. De sponsor ontvangt de goedkeuring van de Business Case. 
 
-* **Portfolio**: Specificeer een Portfolio voor het project. U moet het Portfolio tot stand brengen en het plaatsen in het statuut van **Actief** alvorens het in dit drop-down menu beschikbaar is te selecteren.
+* **Portfolio**: Specificeer Portfolio voor het project. U moet Portfolio tot stand brengen en het plaatsen in het statuut van **Actief** alvorens het in dit drop-down menu beschikbaar is te selecteren.
 
-  Voor meer informatie over portefeuilles, zie [ overzicht van het Portfolio in Adobe Workfront ](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+  Voor meer informatie over portefeuilles, zie [ overzicht van Portfolio in Adobe Workfront ](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
   Voor meer informatie over het creëren van Portfolio&#39;s, zie [ een portefeuille ](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md) creëren.
 
@@ -81,7 +81,7 @@ Doelstellingen bepalen de doelstellingen van het project. Dit gebied is standaar
 >
 >U kunt strategische doelstellingen voor uw organisatie tot stand brengen die niet met de individuele BedrijfsGeval van een project worden verbonden. U moet toegang hebben tot Adobe Workfront-doelen om strategische doelen te kunnen maken. U kunt hen dan met projecten buiten hun Zaken verbinden. Voor informatie over het creëren van doelstellingen die de Doelen van Workfront gebruiken, zie [ overzicht van de Doelen van Adobe Workfront ](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
-Het bepalen van de doelstellingen is facultatief voor het project om een Score in Portfolio te ontvangen Optimizer. Deze sectie is de enige optionele sectie in de Business Case. Alle andere secties van het BedrijfsGeval moeten worden voltooid alvorens het project in Portfolio Optimizer wordt gescoord. U kunt een prioriteitsniveau voor een doel aangeven terwijl u het doel maakt.
+Het bepalen van de doelstellingen is facultatief voor het project om een Score in Optimizer van Portfolio te ontvangen. Deze sectie is de enige optionele sectie in de Business Case. Alle andere secties van het BedrijfsGeval moeten worden voltooid alvorens het project in Portfolio Optimizer wordt gescoord. U kunt een prioriteitsniveau voor een doel aangeven terwijl u het doel maakt.
 
 Voor meer informatie over doelstellingen, zie  [ creeer BedrijfsGevallendoelstellingen ](../../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
 
@@ -115,7 +115,7 @@ De uren die voor de middelen op het project in de begroting worden opgenomen ton
 
 Voor meer informatie over het opnemen van middelen voor het project in het BedrijfsGeval, zie {de middelen van de Begroting in het BedrijfsGeval ](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).[
 
-![](assets/business-case-sp-selected-with-choose-button-350x121.png)
+![ Bedrijfs case middel in de begroting opnemen ](assets/business-case-sp-selected-with-choose-button-350x121.png)
 
 Overweeg het volgende wanneer het bekijken van de sectie van de Begroting van het Middel van het BedrijfsGeval:
 
@@ -125,7 +125,7 @@ Overweeg het volgende wanneer het bekijken van de sectie van de Begroting van he
 
      Voor informatie, zie [ middelen van de Begroting in het BedrijfsGeval gebruikend de Planner van het Middel ](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md).
 
-   * Scenario Planner , als uw bedrijf een extra licentie voor de Adobe Scenario Planner heeft gekocht
+   * Scenario Planner , als uw bedrijf een extra licentie voor Adobe Scenario Planner heeft gekocht
 
      Voor meer informatie, zie [ middelen van de Begroting in het BedrijfsGeval gebruikend de Planner van het Scenario ](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
 
@@ -149,7 +149,7 @@ Overweeg het volgende wanneer het bekijken van de sectie van de Begroting van he
 
 ## Risico&#39;s
 
-Risico&#39;s zijn factoren die kunnen verhinderen dat een project op tijd of op de begroting wordt afgerond. Het is belangrijk dat de beheerder van het Portfolio of de projectsponsor deze factoren definieert om een gefundeerd besluit te nemen over de goedkeuring van het project. Dit gebied is standaard ingeschakeld in het geval Business, maar de Workfront-beheerder kan ervoor kiezen dit gebied niet weer te geven.
+Risico&#39;s zijn factoren die kunnen verhinderen dat een project op tijd of op de begroting wordt afgerond. Het definiëren van deze factoren is belangrijk voor de Portfolio-beheerder of projectsponsor om een gefundeerd besluit te nemen over de goedkeuring van het project. Dit gebied is standaard ingeschakeld in het geval Business, maar de Workfront-beheerder kan ervoor kiezen dit gebied niet weer te geven.
 
 U kunt potentiële kosten met de risico&#39;s associëren u bepaalt voor het geval zij zouden moeten voorkomen. De kosten van de risico&#39;s voor een project zijn van invloed op de nettowaarde van het project. 
 
@@ -213,7 +213,7 @@ Voor meer informatie over deze gebieden, zie [ Overzicht van Financiële gebiede
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: made this into a standalone article, linked in the first paragraph of this section)</p>
 -->
 
-U kunt de Business Case naar een PDF-bestand exporteren, voor het geval u deze wilt afdrukken of in een gecondenseerde indeling aan een e-mailbericht wilt koppelen. 
+U kunt de Business Case exporteren naar een PDF-bestand, voor het geval u deze wilt afdrukken of in een gecondenseerde indeling aan een e-mail wilt koppelen. 
 
 Voor informatie, zie [ het BedrijfsGeval van een project ](../../../manage-work/projects/define-a-business-case/export-business-case.md) uitvoeren.
 
