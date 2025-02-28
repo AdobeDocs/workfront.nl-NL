@@ -7,9 +7,9 @@ description: Met de samenvatting kunt u rechtstreeks vanuit de documentenlijst w
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -56,11 +56,11 @@ U moet het volgende hebben:
 ## De overzichtsweergave openen
 
 1. Ga naar het **gebied van Documenten** en selecteer een punt in de lijst.
-1. Klik het **Open Summiere pictogram** ![](assets/qs-summary-in-new-toolbar-small.png).
+1. Klik het **Open Summiere pictogram** ![ Open Summiere pictogram ](assets/qs-summary-in-new-toolbar-small.png).
 
    Nadat u het Overzicht opent, blijft het open aangezien u op andere documenten klikt en blijft open tot u het manueel sluit.
 
-   ![](assets/summary-details-350x585.png)
+   ![ Summiere details ](assets/summary-details-350x585.png)
 
 ## Details
 
@@ -69,19 +69,19 @@ In de sectie Details kunt u overzichtsgegevens op hoog niveau weergeven en commu
 * [ Overzicht ](#overview)
 * [Aangepaste Forms](#custom-forms)
 
-![](assets/copy-of-doc-summary-details-section-350x404.png)
+![ de summiere details van het Document ](assets/copy-of-doc-summary-details-section-350x404.png)
 
 ### Overzicht {#overview}
 
 Vouw de sectie Overzicht uit om een miniatuur van een afbeelding weer te geven of te downloaden, open een proefdruk, werk de basisbeschrijving bij, check het document uit en nog veel meer.
 
-![](assets/copy-of-doc-summary-with-overview-350x560.png)
+![ Overzicht van het Overzicht van het Document ](assets/copy-of-doc-summary-with-overview-350x560.png)
 
 ### Aangepaste Forms {#custom-forms}
 
 Met de sectie Aangepaste Forms kunt u aangepaste formulieren die aan het document zijn gekoppeld, toevoegen, bewerken of weergeven. Typ de naam van het aangepaste formulier om het aan het document toe te voegen. Voor meer informatie, zie [ een douanevorm aan een document ](../../documents/managing-documents/add-custom-form-documents.md) toevoegen of uitgeven.
 
-![](assets/add-custom-form-doc-summary-350x265.png)
+![ voeg een douanevorm in documentsamenvatting toe ](assets/add-custom-form-doc-summary-350x265.png)
 
 ## Updates
 
@@ -98,7 +98,7 @@ Goedkeuringen van proefdrukken moeten worden toegevoegd aan de proefwerkstroom. 
 * [ goedkeurend het werk ](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [Documentgoedkeuring aanvragen](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
-![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
+![ de summiere goedkeuringen van het Document ](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
 
 ## Versies
 
@@ -110,4 +110,4 @@ In de sectie Versies kunt u het aantal versies weergeven dat voor een bepaald do
 * Ga naar Documentdetails
 * Een proefdruk of document verwijderen
 
-![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
+![ de summiere versies van het Document ](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
