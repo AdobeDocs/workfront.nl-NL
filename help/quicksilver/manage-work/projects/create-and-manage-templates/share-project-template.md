@@ -6,9 +6,9 @@ description: U kunt een malplaatje met gebruikers delen, of u kunt bepalen hoe d
 author: Alina
 feature: Work Management
 exl-id: 99c6b241-a2c9-4b6c-b605-177bbbc3f21a
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '787'
 ht-degree: 0%
 
 ---
@@ -62,10 +62,10 @@ Met Sjabloon delen kunt u uw sjablonen delen met andere gebruikers. Deze actie b
 
 Een sjabloon delen:
 
-1. Van het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png), klik **Malplaatjes**.
+1. Van het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png), klik** Malplaatjes **.**
 
 1. Voer een van de volgende handelingen uit:\
-   Klik de naam van een malplaatje om het te openen, dan klik **Meer** menu ![](assets/qs-more-icon-on-an-object.png), toen **Malplaatje dat** deelt.
+   Klik de naam van een malplaatje om het te openen, dan klik het **Meer** menu ![ Meer pictogram ](assets/qs-more-icon-on-an-object.png), toen **Malplaatje dat** deelt.
 
    of
 
@@ -100,7 +100,7 @@ Met het Delen van het malplaatjeProject, kunt u bepalen wie toestemmingen op de 
 Om toekomstige projecten te delen die van een malplaatje met gebruikers worden gecreeerd:
 
 1. Voer een van de volgende handelingen uit:\
-   Klik de naam van een malplaatje om het te openen, dan klik **Meer** menu ![](assets/qs-more-icon-on-an-object.png), toen **Malplaatje dat** deelt.
+   Klik de naam van een malplaatje om het te openen, dan klik het **Meer** menu ![ Meer pictogram ](assets/qs-more-icon-on-an-object.png), toen **Malplaatje dat** deelt.
 
    ![ project van het Aandeel van malplaatje ](assets/project-sharing-on-template-nwe-2022-350x172.png)
 
@@ -119,7 +119,7 @@ Om toekomstige projecten te delen die van een malplaatje met gebruikers worden g
    * **Geen toegang**: U kunt specificeren welke gebruikers geen toegang tot het malplaatje zullen hebben.\
      Deze optie is alleen beschikbaar wanneer projecten voor het delen in bulk worden gedeeld via sjablonen. 
    * **Mening**: De gebruikers met deze toestemmingen kunnen projecten bekijken die van het malplaatje worden gecreeerd.
-   * **Contribute**: De gebruikers met deze toestemmingen kunnen tot projecten bijdragen die van het malplaatje worden gecreeerd 
+   * **draag** bij: De gebruikers met deze toestemmingen kunnen tot projecten bijdragen die van het malplaatje worden gecreeerd 
    * **leidt**: De gebruikers met deze toestemmingen kunnen projecten leiden of schrappen die van dit malplaatje worden gecreeerd.
 
 1. (Facultatief) klik het **pictogram van Opties** om de projecten beschikbaar te maken voor het hele systeem.
