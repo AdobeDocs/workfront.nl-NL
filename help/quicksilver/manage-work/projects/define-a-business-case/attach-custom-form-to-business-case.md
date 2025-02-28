@@ -5,9 +5,9 @@ description: Aangepaste Forms wordt gebruikt om informatie te verzamelen die nie
 author: Alina
 feature: Work Management
 exl-id: f781fd00-968c-4e5d-b82c-a74acedb2734
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -73,9 +73,9 @@ Een aangepast formulier bijvoegen:
 
 1. In de **sectie van de Vorm van de Douane**, selecteer de douanevorm u van het drop-down menu wilt vastmaken.
 
-   ![](assets/custom-forms-drop-down-menu.png)
+   ![ drop-down van de Vorm van de Douane ](assets/custom-forms-drop-down-menu.png)
 
 1. (Optioneel) Selecteer **Aangepaste vorm bewerken** .\
-   ![](assets/acf1-350x122.png)
+   ![ geef douanevorm ](assets/acf1-350x122.png) uit
 
 1. (Facultatief) specificeer informatie op de gebieden van de douanevorm, dan klik **sparen**.
