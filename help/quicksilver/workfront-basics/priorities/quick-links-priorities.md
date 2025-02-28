@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 2d76077d-2913-40b8-9596-4e201d12ec1a
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. In de **Snelle verbindingen** sectie, klik **verbinding** toevoegen.
 1. Plak URL in **voeg verbinding** doos toe.
 1. Klik **sparen**.
-   ![](assets/add-link.png)
+   ![ voeg verbinding ](assets/add-link.png) toe
 
 ## Een snelle koppeling naar het klembord kopiëren
 
@@ -73,8 +73,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klik op de naam van een tijdelijk item om de pagina Overzicht te openen.
 1. In de **Snelle verbindingen** sectie, vind de verbinding u wilt kopiëren.
-1. Klik op het pictogram Kopiëren ![](assets/copy-icon.png) .
-   ![](assets/copy-link.png)
+1. Klik het pictogram van het Exemplaar ![ pictogram van het Exemplaar ](assets/copy-icon.png).
+   ![ verbinding van het Exemplaar ](assets/copy-link.png)
 
 ## Een snelkoppeling openen
 
@@ -83,7 +83,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Klik op de naam van een tijdelijk item om de pagina Overzicht te openen.
 1. In de **Snelle verbindingen** sectie, vind de verbinding u wilt openen.
 1. Klik op de koppeling. De koppeling wordt geopend op een nieuw tabblad.
-   ![](assets/open-link.png)
+   ![ Open verbinding ](assets/open-link.png)
 
 ## Snelle koppelingen verwijderen
 
@@ -91,5 +91,5 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klik op de naam van een tijdelijk item om de pagina Overzicht te openen.
 1. Klik **uitgeven Details** in de hoger-juiste hoek van het scherm.
-   ![](assets/edit-details.png)
-1. Zoek de koppeling die u wilt verwijderen en klik op het pictogram Verwijderen ![](assets/delete-icon.png) .
+   ![ geef details ](assets/edit-details.png) uit
+1. Vind de verbinding die u wilt verwijderen, dan klikken het pictogram van de Schrapping ![ pictogram van de Schrapping ](assets/delete-icon.png).
