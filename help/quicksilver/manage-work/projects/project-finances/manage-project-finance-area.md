@@ -6,9 +6,9 @@ description: U kunt de financiële informatie van een project bekijken of uitgev
 author: Lisa
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1297'
 ht-degree: 0%
 
 ---
@@ -69,9 +69,9 @@ Houd rekening met het volgende wanneer u informatie bekijkt of bewerkt in het ge
 
 1. Ga naar een project.
 1. Klik **Details van het Project** in het linkerpaneel.
-1. Klik **uitgeven** pictogram ![](assets/edit-icon.png) in de hoger-juiste hoek van de sectie van Details, dan klik **Financiën**.
+1. Klik **uitgeven** pictogram ![ geeft pictogram ](assets/edit-icon.png) in de hoger-juiste hoek van de sectie van Details uit, dan klik **Financiën**.
 
-   ![](assets/finance-area-in-details-view-only-nwe-350x188.png)
+   ![ het gebied van Financiën in detailmening ](assets/finance-area-in-details-view-only-nwe-350x188.png)
 
    >[!NOTE]
    >
@@ -156,14 +156,14 @@ Informatie bewerken op het subtabblad Projectfinanciering:
    >U hebt beheermachtigingen voor het project nodig om de volgende stappen uit te voeren. We raden ook aan dat alleen de eigenaar van het project wijzigingen aanbrengt in het subtabblad Financiën van het project.
 
 1. Klik **Details van het Project** in het linkerpaneel.
-1. Klik **uitgeven** pictogram ![](assets/edit-icon.png) in de hoger-juiste hoek van de sectie van Details, dan klik **Financiën**. Hierdoor wordt de financiële ruimte geopend voor bewerking.
+1. Klik **uitgeven** pictogram ![ geeft pictogram ](assets/edit-icon.png) in de hoger-juiste hoek van de sectie van Details uit, dan klik **Financiën**. Hierdoor wordt de financiële ruimte geopend voor bewerking.
 1. Bewerk elk veld dat u kunt bewerken door één keer op het veld te klikken of klik op **+Toevoegen** om informatie toe te voegen aan een leeg veld.
 
    >[!TIP]
    >
    >Velden kunnen niet worden bewerkt als ze automatisch door Workfront worden berekend of als u geen bewerkingsmachtigingen hebt.
 
-   ![](assets/edit-finance-area-in-project-details-nwe-350x275.png)
+   ![ geef financieringsgebied ](assets/edit-finance-area-in-project-details-nwe-350x275.png) uit
 
 1. Werk een van de onderstaande velden bij.
 
