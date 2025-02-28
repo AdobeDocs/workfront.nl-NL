@@ -6,9 +6,9 @@ description: U kunt een document uitchecken om te voorkomen dat andere gebruiker
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 15d9ea43-1cee-4cb1-9365-4374a291c090
-source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
@@ -77,9 +77,9 @@ Als u beheerdersmachtigingen voor een document hebt, kunt u het uitchecken om be
 
    Voor informatie over het toevoegen van documenten, zie [ documenten aan Adobe Workfront van uw dossiersysteem ](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md) toevoegen.
 
-1. Klik het **Uitchecken** pictogram ![](assets/check-out-25x23.png).
+1. Klik het **pictogram van de Controle uit** pictogram ![ Controle uit ](assets/check-out-25x23.png).
 
-1. Rechts van de documentnaam wordt een vergrendelingspictogram ![](assets/lock-icon-locked-qs.png) weergegeven. Het document blijft uitgecheckt nadat u zich hebt afgemeld bij Workfront.
+1. Een slotpictogram ![ het pictogram van het Slot ](assets/lock-icon-locked-qs.png) toont rechts van de documentnaam. Het document blijft uitgecheckt nadat u zich hebt afgemeld bij Workfront.
 1. Alleen de gebruiker die het document heeft uitgecheckt of de Workfront-beheerder kan het document inchecken.
 
 ## Uitgecheckte documenten beheren
@@ -103,6 +103,6 @@ Een document inchecken:
 
 1. Ga naar het gebied waar het document is opgeslagen en selecteer het document. 
 
-   Rechts van de documentnaam wordt een vergrendelingspictogram ![](assets/lock-icon-locked-qs.png) weergegeven.
+   Een slotpictogram ![ het pictogram van het Slot ](assets/lock-icon-locked-qs.png) toont rechts van de documentnaam.
 
-1. Klik het **Controle binnen** pictogram ![](assets/check-in-25x22.png).
+1. Klik het **pictogram van de Controle binnen** ![ Controle in pictogram ](assets/check-in-25x22.png).
