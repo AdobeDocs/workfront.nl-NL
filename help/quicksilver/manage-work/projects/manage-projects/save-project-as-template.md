@@ -6,9 +6,9 @@ description: Sparen een project als templateSave als malplaatje"op het projectni
 author: Alina
 feature: Work Management
 exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
-source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 ## Een project opslaan als een sjabloon
 
 1. Ga naar het project dat u als malplaatje wilt bewaren.
-1. Klik **Meer** menu ![](assets/qs-more-icon-on-an-object.png), dan **sparen als Malplaatje**.
+1. Klik **Meer** menu ![ Meer pictogram ](assets/qs-more-icon-on-an-object.png), dan **sparen als Malplaatje**.
 1. Geef de volgende informatie voor de sjabloon op:
 
    <table style="table-layout:auto"> 
