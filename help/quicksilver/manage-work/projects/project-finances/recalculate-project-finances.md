@@ -6,9 +6,9 @@ description: De financiën worden berekend op een project aangezien de veranderi
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1633'
 ht-degree: 0%
 
 ---
@@ -149,15 +149,15 @@ U kunt de financiën van projecten in Workfront van de projectpagina of van een 
 
 U kunt de financiën opnieuw berekenen terwijl u ze bulksgewijs bewerkt. Voor informatie, zie [ financiën in bulk ](#manually-recalculate-finances-in-bulk) sectie in dit artikel manueel opnieuw berekenen.
 
-1. Ga naar het project waar u financiën wilt opnieuw berekenen en **Meer** pictogram ![](assets/qs-more-icon-on-an-object.png) rechts van de projectnaam klikken.
+1. Ga naar het project waar u financiën wilt opnieuw berekenen en **Meer** pictogram ![ klikken Meer menu ](assets/qs-more-icon-on-an-object.png) rechts van de projectnaam.
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![ het niveau van het Project meer dropdown ](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    of
 
-   Ga naar een projectlijst of een rapport en selecteer één of verscheidene projecten, dan klik **Meer** pictogram ![](assets/qs-more-icon-on-an-object.png) bij de bovenkant van de lijst.
+   Ga naar een projectlijst of een rapport en selecteer één of verscheidene projecten, dan klik **Meer** pictogram ![ Meer menu ](assets/qs-more-icon-on-an-object.png) bij de bovenkant van de lijst.
 
-   ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![ herberekenen uitdrukkingen ](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >
@@ -181,9 +181,9 @@ U kunt de financiën van verschillende projecten handmatig opnieuw berekenen doo
 De financiering van verschillende projecten handmatig herberekenen:
 
 1. Ga naar een lijst met projecten.
-1. Selecteer verscheidene projecten in de lijst, dan klik **Meer** pictogram ![](assets/qs-more-icon-on-an-object.png) bij de bovenkant van de lijst.
+1. Selecteer verscheidene projecten in de lijst, dan klik het **Meer** pictogram ![ Meer menu ](assets/qs-more-icon-on-an-object.png) bij de bovenkant van de lijst.
 
-   ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![ herberekenen uitdrukkingen ](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >
@@ -207,4 +207,4 @@ De volgende acties leiden tot de financiële herberekening van projecten in Work
 >
 >Wanneer u de projectstatus wijzigt, worden alleen de geplande waarden opnieuw berekend.
 
-U kunt financiën onder **ook manueel opnieuw berekenen Meer** menu ![](assets/qs-more-menu.png) op het projectniveau, door **te klikken herberekent Financiën**.
+U kunt financiën ook manueel onder **opnieuw berekenen Meer** menu ![ Meer menu ](assets/qs-more-menu.png) op het projectniveau, door **te klikken herberekent Financiën**.
