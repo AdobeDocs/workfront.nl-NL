@@ -7,9 +7,9 @@ description: Ook gekend als Geplande Waarde, is de Begrotende Kosten van het Gep
 author: Lisa
 feature: Work Management
 exl-id: b9a36333-9430-42bd-99dd-3ad82803b633
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ U kunt vormen of BCWS in uren of kosten wordt berekend door te vormen hoe de Met
 1. Ga naar een project en klik **Details van het Project** in het linkerpaneel.
 1. Op het **gebied van de Financiën**, bepaal de plaats van het **gebied van de Methode van de Index van Prestaties** en klik het tweemaal om het uit te geven.
 
-   ![](assets/pim-options-hour-cost-based-nwe.png)
+   ![ PIM opties ](assets/pim-options-hour-cost-based-nwe.png)
 
 1. Selecteer een van de volgende opties:
 
@@ -126,7 +126,7 @@ U kunt de waarde van de Geplande Kosten van het Werk bekijken die in een rapport
 1. Klik **toevoegen Kolom**.
 1. In **toon in deze kolom:** gebiedsbegin typend **BCWS** en klik om het te selecteren wanneer het in de lijst toont.
 
-   ![](assets/bcws-in-project-view.png)
+   ![ BCWS in projectweergave ](assets/bcws-in-project-view.png)
 
 1. Klik **sparen Mening**.
 1. Het **BCWS** gebiedsvertoningen in de mening.
