@@ -6,9 +6,9 @@ description: U kunt een nieuwe versie toevoegen van een document dat u eerder na
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d475e0f0-112e-4d4e-b666-6e0af3ea7702
-source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ U moet het volgende hebben:
 1. Ga naar het gebied Documenten waar het document is geüpload.
 1. Sleep de nieuwe versie van het document vanaf het bureaublad of een aparte tab voor de browser boven op de bestaande versie in Workfront.
 
-   ![](assets/drag-drop-doc-qs-350x145.png)
+   ![ belemmering en laat vallen documentversie ](assets/drag-drop-doc-qs-350x145.png)
 
    Terwijl u de nieuwe versie sleept, kunt u de muis boven een map met Workfront-documenten houden om deze te openen. Vervolgens kunt u omhoog en omlaag schuiven door de bestanden naar de boven- of onderkant van het scherm te slepen.
 
@@ -80,6 +80,6 @@ U moet het volgende hebben:
 1. Selecteer het document waaraan u een nieuwe versie wilt toevoegen.
 1. Klik **toevoegen Nieuw** > **Versie**.
 
-   ![](assets/add-new-version-350x185.png)
+   ![ voeg nieuwe versie ](assets/add-new-version-350x185.png) toe
 
 1. Selecteer het type document dat u wilt uploaden en volg de aanwijzingen.
