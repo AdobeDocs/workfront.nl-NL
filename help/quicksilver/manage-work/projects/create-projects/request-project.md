@@ -6,9 +6,9 @@ description: U kunt verzoeken dat een project wordt goedgekeurd voordat u eraan 
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '530'
 ht-degree: 0%
 
 ---
@@ -70,14 +70,14 @@ U kunt een project aanvragen wanneer u een nieuw project toevoegt in de volgende
 
 1. Voer een van de volgende handelingen uit:
 
-   * Klik het **Belangrijkste Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek, of het **Belangrijkste Menu** ![](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar, klik **Projecten**, dan breid **Nieuw Project** uit.
+   * Klik het **Belangrijkste pictogram van het Menu** ![ Belangrijkste ](assets/main-menu-icon.png) in de hoger-juiste hoek, of de **Belangrijkste lijnen van het Menu** ![ Belangrijkste Menu ](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar, klik **Projecten**, dan breid **Nieuw Project** uit.
    * Ga naar een portefeuille, dan breid **Nieuw Project** uit.
    * Ga naar een programma, dan breid **Nieuw Project** uit.
    * Als u een groepsbeheerder bent, kunt u een project in de sectie van Projecten van een groep ook tot stand brengen u beheert. Voor meer informatie, zie [ tot stand brengen en wijzigen de projecten van een groep ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
 1. Klik **Project van het Verzoek**.
 
-   ![](assets/new-project-dropdown-nwe-350x358.png)
+   ![ Nieuwe projectdropdown ](assets/new-project-dropdown-nwe-350x358.png)
 
 1. Voer een van de volgende handelingen uit:
 
