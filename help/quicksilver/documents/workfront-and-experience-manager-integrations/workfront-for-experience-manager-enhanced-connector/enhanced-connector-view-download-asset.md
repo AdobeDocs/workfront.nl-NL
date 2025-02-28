@@ -6,9 +6,9 @@ description: U kunt een middel in Adobe Workfront bekijken of downloaden dat van
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4516ddf7-b39d-4bd7-8e59-4b3bdad5b643
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ U moet het volgende hebben:
 
 Voordat u begint, moet u
 
-* De Workfront for Experience Manager Enhanced-aansluiting installeren
+* De Workfront for Experience Manager verbeterde connector installeren
 
 ## Een gekoppeld element weergeven of downloaden vanuit Experience Manager Assets
 
@@ -62,4 +62,4 @@ Voordat u begint, moet u
 1. Selecteer het document in de documentlijst.
 1. In de Samenvatting van het Document op het recht, houd over de duimnagel bij de bovenkant en kies **Voorproef** of **Download**.
 
-   ![](assets/view-or-download-enhanced-connector-350x123.png)
+   ![ Voorproef of Download ](assets/view-or-download-enhanced-connector-350x123.png)
