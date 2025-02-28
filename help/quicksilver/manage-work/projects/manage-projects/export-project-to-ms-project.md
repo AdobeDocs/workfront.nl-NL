@@ -6,9 +6,9 @@ description: U kunt Adobe Workfront-projecten exporteren naar Microsoft Project.
 author: Alina
 feature: Work Management
 exl-id: 3f0f3644-a763-4b72-a93a-85af8626b5b3
-source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
@@ -88,15 +88,15 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 
 U kunt een project van Workfront van de projectpagina of van een projectlijst of een rapport uitvoeren.
 
-1. Ga naar het project u wilt uitvoeren en **klikken Meer** pictogram ![](assets/qs-more-menu.png) rechts van de projectnaam
+1. Ga naar het project u wilt uitvoeren en **klikken Meer** pictogram ![ Meer menu ](assets/qs-more-menu.png) rechts van de projectnaam
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![ Meer dropdown ](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    of
 
-   Ga naar een projectlijst of een rapport en selecteer een project, dan klik het Meer pictogram ![](assets/qs-more-menu.png) bij de bovenkant van de lijst.
+   Ga naar een projectlijst of een rapport en selecteer een project, dan klik het Meer pictogram ![ Meer menu ](assets/qs-more-menu.png) bij de bovenkant van de lijst.
 
-   ![](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
+   ![ Meer uitgevouwen menu ](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 
 1. Klik **het Project van MS van de Uitvoer**.
 
