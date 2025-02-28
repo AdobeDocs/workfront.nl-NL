@@ -6,9 +6,9 @@ description: U kunt de status van een project desgewenst handmatig bijwerken naa
 author: Alina
 feature: Work Management
 exl-id: 80098514-fd44-436d-836b-bd9c1b52b3a9
-source-git-commit: 7363e86f5c507e40955e16843c6776777c7ad823
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -67,10 +67,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Ga naar het project waarvan status u wilt bijwerken.
 1. In de projectkopbal, klik de naam van de status op het **gebied van de Status**, dan selecteer een nieuwe status.
 
-   ![](assets/change-project-status-in-header-drop-down-nwe-350x371.png)
+   ![ het projectstatus van de Verandering ](assets/change-project-status-in-header-drop-down-nwe-350x371.png)
 
    of
 
-   Klik **Meer** menu ![](assets/qs-more-menu.png) naast de naam van het project en klik **uitgeven** en selecteer een nieuwe status op het **6} gebied van de Status {, dan klik** sparen **.**
+   Klik het **Meer** menu ![ Meer menu ](assets/qs-more-menu.png) naast de naam van het project en klik **uitgeven** en selecteren een nieuwe status op het **7} gebied van de Status {, dan klik** sparen **.**
 
    De projectstatus wordt bijgewerkt naar de status die u hebt geselecteerd.
