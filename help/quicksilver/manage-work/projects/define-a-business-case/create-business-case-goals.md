@@ -1,20 +1,20 @@
 ---
 navigation-topic: business-case-and-scorecards
 title: Zakelijke hoofddoelen maken
-description: Als deel van het creëren van een BedrijfsGeval, kunt u een reeks doelstellingen tot stand brengen om de doelstellingen van een project te bepalen. De doelstellingen van het bedrijfscase worden gebruikt om aan de Manager van het Portfolio of de Sponsor van het Project mee te delen het doel van het voltooien van een project.
+description: Als deel van het creëren van een BedrijfsGeval, kunt u een reeks doelstellingen tot stand brengen om de doelstellingen van een project te bepalen. De doelstellingen van het bedrijfscase worden gebruikt om aan de Manager van Portfolio of de Sponsor van het Project mee te delen het doel van het voltooien van een project.
 author: Alina
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
 
 # Zakelijke hoofddoelen maken
 
-Als deel van het creëren van een BedrijfsGeval, kunt u een reeks doelstellingen tot stand brengen om de doelstellingen van een project te bepalen. De doelstellingen van het bedrijfscase worden gebruikt om aan de Manager van het Portfolio of de Sponsor van het Project mee te delen het doel van het voltooien van een project.
+Als deel van het creëren van een BedrijfsGeval, kunt u een reeks doelstellingen tot stand brengen om de doelstellingen van een project te bepalen. De doelstellingen van het bedrijfscase worden gebruikt om aan de Manager van Portfolio of de Sponsor van het Project mee te delen het doel van het voltooien van een project.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: below snippet: NWE only, not classic)</p>
@@ -31,9 +31,9 @@ Overweeg het volgende wanneer het creëren van de doelstellingen van BedrijfsGev
 
 * De doelstellingen zijn geen verplichte sectie in het BedrijfsGeval van een project.
 
-  Een project kan een score ontvangen die in Optimizer van het Portfolio moet worden voorrang gegeven, zelfs als de sectie van Doelen van het BedrijfsGeval niet wordt bepaald.
+  Een project kan een score ontvangen die voorrang moet krijgen in Portfolio Optimizer, zelfs als de sectie van Doelen van de BedrijfsGeval niet wordt bepaald.
 
-  Voor meer informatie over de Optimizer van het Portfolio score, zie [ een scorecard op een project toepassen en een Score van de Uitlijning ](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md) produceren.
+  Voor meer informatie over de Optimizer van Portfolio score, zie [ een scorecard op een project toepassen en een Score van de Uitlijning ](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md) produceren.
 
 * Je kunt geen melding maken van zakelijke doelen.
 
@@ -75,7 +75,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    De Business Case-displays.
 
-   ![](assets/business-case-page-info-goals-expenses-nwe-350x123.png)
+   ![ Bedrijfs gevalinfo ](assets/business-case-page-info-goals-expenses-nwe-350x123.png)
 
 1. In de **sectie van Doelen**, klik **uitgeven Doelstellingen**.
 
@@ -88,7 +88,7 @@ In het **Van het Belang** drop-down menu, selecteer het niveau van belang:
    * Laag
    * Laagste
 
-     ![](assets/g1-350x76.png)
+     Belangrijk (assets/g1-350x76.png)
 
      U kunt de niveaus van het Belang van doelstellingen niet aanpassen.
 
