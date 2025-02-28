@@ -5,9 +5,9 @@ description: Nadat u de Business Case voor een projectverzoek hebt voltooid en i
 author: Alina
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Overweeg het volgende wanneer het goedkeuren van een BedrijfsGeval van een proje
 * U moet manueel naar de individuele projecten gaan die goedkeuring van het BedrijfsGeval nodig hebben om te zien dat zij in afwachting van goedkeuring zijn. Er is geen Workfront-meldingsmechanisme waarmee iemand wordt gewaarschuwd dat hij of zij de Business Case van een project moet goedkeuren.
 * U kunt de projecten vinden die op de goedkeuring van het BedrijfsGeval wachten of door een projectrapport te bouwen, of door tot de portefeuille toegang te hebben zij met worden geassocieerd.
 
-  Voor meer informatie over Portfolio&#39;s, zie het artikel [ overzicht van het Portfolio in Adobe Workfront ](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+  Voor meer informatie over Portfolio&#39;s, zie het artikel [ overzicht van Portfolio in Adobe Workfront ](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
 ## De bedrijfscase goedkeuren door een projectrapport op te stellen
 
@@ -86,7 +86,7 @@ Een rapport opstellen voor projecten die in afwachting zijn van de goedkeuring v
 
 1. (Facultatief) klik **voeg een andere Regel van de Filter toe**.
 
-   U kunt extra filters toevoegen om alleen projecten te tonen waar u de eigenaar van het project bent, of de sponsor van het project of de eigenaar van het Portfolio.
+   U kunt extra filters toevoegen om alleen projecten weer te geven waar u de eigenaar van het project bent, of de sponsor van het project of de eigenaar van Portfolio.
 
    U kunt bijvoorbeeld de volgende filterinstructies gebruiken:
 
@@ -106,7 +106,7 @@ Een rapport opstellen voor projecten die in afwachting zijn van de goedkeuring v
    Project Portfolio Owner ID Equals $$USER. ID
    ```
 
-   om te tonen waar u als Manager van het Portfolio wordt aangewezen.
+   om te tonen waar u als Manager van Portfolio wordt aangewezen.
 
 1. Klik **sparen+Sluiten**.
 
@@ -116,7 +116,7 @@ Een rapport opstellen voor projecten die in afwachting zijn van de goedkeuring v
 1. Klik **Bedrijfs Geval** in het linkerpaneel.
 1. Klik **goedkeuren** of **verwerping** in het BedrijfsGeval Summiere gebied om het BedrijfsGeval goed te keuren of te verwerpen.
 
-   ![](assets/business-case-summary-with-rp-information--1-.png)
+   ![ Bedrijfs geval ](assets/business-case-summary-with-rp-information--1-.png)
 
    De projectstatus wordt veranderd in **Goedgekeurd** als het BedrijfsGeval wordt goedgekeurd.
 
