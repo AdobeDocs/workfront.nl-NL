@@ -6,9 +6,9 @@ description: U kunt roltoewijzing voor alle baanrollen bekijken die aan het werk
 author: Alina
 feature: Work Management
 exl-id: 76f70cb6-f707-4a73-bc81-e755e2d0a33d
-source-git-commit: 67deb48ebc90dd4a93c2af1cb89442ee2486cb16
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
@@ -100,7 +100,7 @@ U moet het volgende hebben:
 
 ## Geplande uren van project weergeven in het deelvenster Roltoewijzing
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Projecten**.
+1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** Projecten **.**
 1. Klik op de naam van een project om het te openen. Hiermee opent u de projectpagina.
 1. Klik op een van de volgende opties in het linkerdeelvenster:
 
