@@ -6,9 +6,9 @@ description: U kunt updates van een werkitem weergeven en toevoegen in het gebie
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '854'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
-   <td> <p>Contribute-machtigingen of hoger voor de taken en problemen waarmee u moet werken</p> </td> 
+   <td> <p>Contribute-machtigingen of hoger voor de taken en problemen waaraan u moet werken</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -67,7 +67,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 You can view updates on any work item in the [!UICONTROL Work List]:
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** ![](assets/lines-main-menu.png) in the upper-left corner, if available, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** ![Main Menu lines icon](assets/lines-main-menu.png) in the upper-left corner, if available, then click **[!UICONTROL Home]**.
 1. In the **[!UICONTROL Work List]** area, select the item where you want to view updates.\
    Updates are displayed in the right panel.
 
@@ -104,13 +104,13 @@ U kunt werkitems bewerken in de volgende widgets in het gebied Start:
 
 U kunt updates opgeven voor elk werkitem in de [!UICONTROL My Work] -widget:
 
-1. Klik **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de hoger-juiste hoek, of het **Belangrijkste Menu** ![](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar, dan klik **[!UICONTROL Home]**.
+1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, of het **Belangrijkste pictogram van het Menu** ![ Belangrijkste de lijnen van het Menu ](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) klik **aanpassen** om [!UICONTROL **Mijn werk**] widget toe te voegen.
 
 1. Bepaal de plaats van het het werkpunt dat u in [!UICONTROL **Mijn werk**] widget wilt bijwerken.
 1. Beweeg over de naam, dan klik **voeg nieuw update** pictogram toe.
 
-   ![](assets/add-update-on-widget.png)
+   ![ voeg update op widget ](assets/add-update-on-widget.png) toe
 
 1. Typ uw opmerking.
 1. (Facultatief) in de **mensen of teams van de Markering** doos, begin de naam of e-mail van een gebruiker, of een team te typen dat u in deze commentaar zou willen omvatten, dan het selecteren wanneer het in de lijst toont.
@@ -132,7 +132,7 @@ U kunt updates opgeven voor elk werkitem in de [!UICONTROL My Work] -widget:
 
 1. Klik **Reageren**.
 
-   ![](assets/reply-to-comment-in-mentions-widget.png)
+   ![ REply aan commentaar ](assets/reply-to-comment-in-mentions-widget.png)
 
 1. Typ uw opmerking.
 1. (Facultatief) in de **mensen van de Markering** doos, begin de naam van een gebruiker of een team te typen dat u in deze commentaar zou willen omvatten, dan het selecteren wanneer het in de lijst toont.
@@ -149,11 +149,11 @@ U kunt updates opgeven voor elk werkitem in de [!UICONTROL My Work] -widget:
 
 U kunt elk veld op elk werkitem bewerken dat u kunt bewerken.
 
-1. Klik **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de hoger-juiste hoek, of het **Belangrijkste Menu** ![](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar, dan klik **[!UICONTROL Home]**.
+1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, of het **Belangrijkste pictogram van het Menu** ![ Belangrijkste de lijnen van het Menu ](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) klik **aanpassen** om **Mijn werk** widget toe te voegen.
 
 1. Beweeg over het het werkpunt, dan klik het **Summiere** pictogram.
-   ![](assets/open-summary-new-home.png)
+   ![ Open Samenvatting ](assets/open-summary-new-home.png)
 
 1. Houd de muisaanwijzer boven het veld dat u wilt bewerken in het deelvenster Samenvatting.
 Als u rechten hebt om het veld te bewerken, wordt het veld gemarkeerd wanneer u de cursor op het veld plaatst.
