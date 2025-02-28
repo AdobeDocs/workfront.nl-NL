@@ -6,9 +6,9 @@ description: Als projectmanager, kunt u bepalen hoe de Voorwaarde van een projec
 author: Alina
 feature: Work Management
 exl-id: e6b99c48-5ccc-4956-8465-6f22f14468ef
-source-git-commit: 097cad00835f3fb415c06c93dcf11325736c5250
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader">Objectmachtigingen</td> 
    <td> 
     <ul> 
-     <li> <p>Contribute-machtigingen voor een project om het Condition Type te bewerken in het gebied Projectdetails </p> </li> 
+     <li> <p>Contribute-machtigingen voor een project voor het bewerken van het Condition Type in het gebied Projectdetails </p> </li> 
      <li> <p>Rechten voor een project beheren om het voorwaardetype te bewerken in het vak Project bewerken</p> </li> 
     </ul> <p> Voor informatie over projecttoestemmingen, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref"> een project in Adobe Workfront </a> delen.</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
@@ -55,7 +55,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Ga naar het project waarvoor u het Type van Voorwaarde wilt bijwerken.
 1. Voer een van de volgende handelingen uit:
 
-   * Klik **Meer** menu ![](assets/qs-more-menu.png) aan het recht van de projectnaam, dan klik **uitgeven**.
+   * Klik het **Meer** menu ![ Meer menu ](assets/qs-more-menu.png) aan het recht van de projectnaam, dan klik **uitgeven**.
    * Klik **Details van het Project** in het linkerpaneel.
 
    ![](assets/update-condition-type-nwe-350x108.png)
