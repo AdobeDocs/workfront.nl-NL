@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 31793b0e-444c-492c-b1a2-909a2e97628b
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Prioriteiten geven de werkitems weer die aan u zijn toegewezen. U kunt geen werk
    | **Normaal** | Normaal is voor routinematige werkitems waaraan u zult werken nadat de items Dringend en Hoge prioriteit zijn voltooid. Dit is de standaardinstelling voor taken en problemen. |
    | **Laag** | Laag is voor het werkpunten die geen directe aandacht nodig hebben en kan worden uitgesteld tot alle hoger-prioritaire het werkpunten worden gedaan. |
 
-   ![](assets/my-focus-new.png)
+   ![ Mijn Focus ](assets/my-focus-new.png)
 
    >[!TIP]
    >
