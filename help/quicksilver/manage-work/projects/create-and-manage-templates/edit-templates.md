@@ -6,9 +6,9 @@ description: U kunt projectmalplaatjes uitgeven om op veranderingen in projectpr
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '4809'
+source-wordcount: '4854'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ Editing a template differs depending on what environment you choose.
 
 1. Go to the template you want to edit.
 1. (Conditional) To edit limited information about the template,  click **Template Details** in the left panel, then go to the areas listed in the left panel to edit information for each area. 
-1. To edit information in the Details section, click the **Edit** icon ![](assets/edit-icon.png), then select from any of the areas below, or click **Edit all** to edit information in all areas:
+1. To edit information in the Details section, click the **Edit** icon ![Edit icon](assets/edit-icon.png), then select from any of the areas below, or click **Edit all** to edit information in all areas:
 
    * Overview
    * Custom Forms
@@ -84,7 +84,7 @@ Editing a template differs depending on what environment you choose.
    >
    >For information about all fields that display in the Details area, continue with editing all fields using the Edit Template box below.
 
-1. (Conditional) To edit all information about the template, click the **More** menu ![](assets/qs-more-icon-on-an-object.png) next to the name of the template, then click **Edit**.
+1. (Conditional) To edit all information about the template, click the **More** menu ![More icon](assets/qs-more-icon-on-an-object.png) next to the name of the template, then click **Edit**.
 
    The **Edit Template** box opens. The sections in this box contain the same fields available in  the Template Details section .
 
@@ -105,7 +105,7 @@ Editing a template differs depending on what environment you choose.
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Overview**.
 
-   ![](assets/edit-template-overview-with-tasks-and-issues-350x210.png)
+   ![Edit template overview](assets/edit-template-overview-with-tasks-and-issues-350x210.png)
 
 1. Update the following fields:
 
@@ -204,7 +204,7 @@ Editing a template differs depending on what environment you choose.
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Finance**.
 
-   ![](assets/edit-template-finance-with-tasks-and-issues-350x259.png)
+   ![Edit template finance](assets/edit-template-finance-with-tasks-and-issues-350x259.png)
 
 1. Update the following fields:
 
@@ -250,7 +250,7 @@ Editing a template differs depending on what environment you choose.
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Portfolio**.
 
-   ![](assets/edit-template-portfolio-with-tasks-and-issues-350x228.png)
+   ![Edit template portfolio](assets/edit-template-portfolio-with-tasks-and-issues-350x228.png)
 
 1. Update the following fields:
 
@@ -283,7 +283,7 @@ Editing a template differs depending on what environment you choose.
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Settings**.
 
-   ![](assets/edit-template-settings-with-tasks-and-issues-350x336.png)
+   ![Edit template settings](assets/edit-template-settings-with-tasks-and-issues-350x336.png)
 
 1. Update the following fields: 
 
@@ -411,7 +411,7 @@ Editing a template differs depending on what environment you choose.
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Access**.
 
-   ![](assets/edit-template-access-with-tasks-and-issues-350x241.png)
+   ![Edit template access](assets/edit-template-access-with-tasks-and-issues-350x241.png)
 
    The Access you specify for your template will become the Access of users associated with the project when the template is used to create a project.
 
@@ -488,7 +488,7 @@ For information about how these settings affect creating new tasks, see [Create 
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Tasks**.
 
-   ![](assets/edit-template-with-tasks-and-issue-sections-350x144.png)
+   ![Edit template tasks](assets/edit-template-with-tasks-and-issue-sections-350x144.png)
 
 1. In the **Task Default Approval Process** box, select the Approval Process you want to associate with all new tasks when you add them to a project created from this template. You must create an Approval Process for tasks before you can associate it with tasks. Only active approval processes display in the list. For more information about creating Approval Processes, see [Creating Approval Processes](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 1. In the **Task Default Custom Forms** box, select the custom form or forms that you want to associate with all new tasks when you add them to a project created from this template. You must build the custom forms before they are available to select in this field. Only active custom forms display in the list. You can associate up to ten custom forms with a task.
@@ -516,7 +516,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Issues**.
 
-   ![](assets/edit-template-box-with-issues-nwe-350x171.png)
+   ![Edit template issues](assets/edit-template-box-with-issues-nwe-350x171.png)
 
 1. (Optional) Deselect the **Allow users to add issues inline** option. It is enabled by default.
 
@@ -565,7 +565,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 1. Ga naar de sjabloon die u wilt bewerken.
 1. (Voorwaardelijk) om beperkte informatie over het malplaatje uit te geven, klik **Details van het Malplaatje** in het linkerpaneel, dan ga naar de gebieden die in het linkerpaneel worden vermeld om informatie voor elk gebied uit te geven.
-1. Om informatie in de sectie van Details uit te geven, klik **geef** pictogram ![](assets/edit-icon.png) uit, dan selecteer van om het even welke gebieden hieronder, of klik **geef allen** uit om informatie op alle gebieden uit te geven:
+1. Om informatie in de sectie van Details uit te geven, **uitgeef** pictogram ![ pictogram ](assets/edit-icon.png), dan uitgezocht van om het even welke hieronder gebieden, of klik **geef allen** uit om informatie op alle gebieden uit te geven:
 
    * Overzicht
    * Aangepaste Forms
@@ -578,7 +578,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
    >
    >Voor informatie over alle velden die in het gebied Details worden weergegeven, gaat u verder met het bewerken van alle velden in het vak Sjabloon bewerken hieronder.
 
-1. (Voorwaardelijk) om alle informatie over het malplaatje uit te geven, klik **Meer** menu ![](assets/qs-more-icon-on-an-object.png) naast de naam van het malplaatje, dan klik **uitgeven**.
+1. (Voorwaardelijk) om alle informatie over het malplaatje uit te geven, klik **Meer** menu ![ Meer pictogram ](assets/qs-more-icon-on-an-object.png) naast de naam van het malplaatje, dan klik **uitgeven**.
 
    Het **geeft Malplaatje** vakje uit opent. De secties in dit vakje bevatten de zelfde gebieden beschikbaar in de sectie van de Details van het Malplaatje.
 
@@ -612,7 +612,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 1. Je template bewerken zoals hierboven beschreven.
 1. In **geef Malplaatje** doos uit, klik **Overzicht**.
 
-   ![](assets/edit-template-box-overview-section.png)
+   ![ geef malplaatjedoos ](assets/edit-template-box-overview-section.png) uit
 
 1. Werk de volgende velden bij:
 
@@ -710,7 +710,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 1. Je template bewerken zoals hierboven beschreven.
 1. In **geef Malplaatje** doos uit, klik **Financiën**.
 
-   ![](assets/edit-template-box-finance-section.png)
+   ![ geef malplaatjedoos financiering ](assets/edit-template-box-finance-section.png) uit
 
 1. Werk de volgende velden bij:
 
@@ -766,7 +766,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 1. Je template bewerken zoals hierboven beschreven.
 1. In **geef Malplaatje** doos uit, klik **Douane Forms**.
 
-   ![](assets/edit-template-box-custom-forms-section.png)
+   ![ geef malplaatjedoos douaneformulieren ](assets/edit-template-box-custom-forms-section.png) uit
 
    De namen van de aangepaste formulieren die al aan de sjabloon zijn gekoppeld, worden in het linkerdeelvenster weergegeven.
 
@@ -793,7 +793,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 1. Je template bewerken zoals hierboven beschreven.
 1. In **geef Malplaatje** doos uit, klik **de Montages van het Project**.
 
-   ![](assets/edit-template-box-project-settings-section.png)
+   ![ geef malplaatjevakje montages ](assets/edit-template-box-project-settings-section.png) uit
 
 1. Werk de volgende velden bij:
 
@@ -925,7 +925,7 @@ Voor informatie over hoe deze montages het creëren van nieuwe taken beïnvloede
 1. Je template bewerken zoals hierboven beschreven.
 1. In **geef Malplaatje** doos uit, klik **de Montages van de Taak**.
 
-   ![](assets/edit-template-box-tax-settings-section.png)
+   ![ geef de montages van de malplaatjetaak uit ](assets/edit-template-box-tax-settings-section.png)
 
 1. In het **vakje van het Proces van de Goedkeuring Standaard van de Taak 0}, selecteer het Proces van de Goedkeuring u met alle nieuwe taken wilt associëren wanneer u hen aan een project toevoegt dat van dit malplaatje wordt gecreeerd.** U moet een goedkeuringsproces voor taken creëren alvorens u het met taken kunt associëren. Alleen actieve goedkeuringsprocessen worden in de lijst weergegeven. Voor meer informatie over het creëren van de Processen van de Goedkeuring, zie [ Creërend de Processen van de Goedkeuring ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 1. In het **vakje van de Aangepaste Forms van de Taak Standaard**, selecteer de douanevorm of de vormen die u met alle nieuwe taken wilt associëren wanneer u hen aan een project toevoegt dat van dit malplaatje wordt gecreeerd. U moet aangepaste formulieren maken voordat u ze in dit veld kunt selecteren. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Voor meer informatie over de bouw van douaneformulieren, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren. U kunt maximaal tien aangepaste formulieren aan een taak koppelen.
@@ -953,7 +953,7 @@ Door publicatie-instellingen te bewerken, kunt u voorkomen dat gebruikers inline
 1. Je template bewerken zoals hierboven beschreven.
 1. In **geef Malplaatje** doos uit, klik **de Montages van de Uitgave**.
 
-   ![](assets/edit-template-box-issue-settings-section.png)
+   ![ geef de montages van de malplaatjedoos uit ](assets/edit-template-box-issue-settings-section.png)
 
 1. (Facultatief) schrap **staat gebruikers toe om kwesties binnen** optie toe te voegen. Deze optie is standaard ingeschakeld.
 
@@ -980,7 +980,7 @@ Door publicatie-instellingen te bewerken, kunt u voorkomen dat gebruikers inline
 1. Je template bewerken zoals hierboven beschreven.
 1. In **geef Malplaatje** doos uit, klik **Toegang**.
 
-   ![](assets/edit-template-box-access-section.png)
+   ![ geef de toegang van de malplaatjedoos ](assets/edit-template-box-access-section.png) uit
 
    De toegang u voor uw malplaatje specificeert zal de Toegang van gebruikers verbonden aan het project worden wanneer het malplaatje wordt gebruikt om een project tot stand te brengen.
 
@@ -1055,7 +1055,7 @@ U kunt sjablonen bulksgewijs bewerken en alle gegevens tegelijk bijwerken.
 
 Sjablonen bulksgewijs bewerken:
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.
+1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.**
 
 1. Klik **Malplaatjes**.
 1. Selecteer verschillende sjablonen in de lijst.
@@ -1063,7 +1063,7 @@ Sjablonen bulksgewijs bewerken:
 
    Het **geeft de dialoogvakje van Malplaatjes** uit opent.
 
-   ![](assets/edit-templates-in-bulk-box-nwe-350x327.png)
+   ![ geeft malplaatjes uit ](assets/edit-templates-in-bulk-box-nwe-350x327.png)
 
 1. Klik op de secties aan de linkerkant om alle geselecteerde sjablonen te bewerken.
 
@@ -1130,12 +1130,12 @@ De gedeactiveerde malplaatjes beïnvloeden geen bestaande projecten die gebruike
 
 Een sjabloon deactiveren:
 
-1. Ga naar een actief malplaatje, dan klik **Meer** ![](assets/qs-more-icon-on-an-object.png) menu naast de malplaatjenaam, dan klik **Deactivate**.
+1. Ga naar een actief malplaatje, dan klik **Meer** ![ meer pictogram ](assets/qs-more-icon-on-an-object.png) menu naast de malplaatjenaam, dan klik **Deactivate**.
 
-   ![](assets/deactivate-template-link-in-more-menu.png)
+   ![ Deactivate malplaatje ](assets/deactivate-template-link-in-more-menu.png)
 
    De sjabloon is niet meer actief en gebruikers kunnen het niet meer vinden om er projecten van te maken.
-1. (Facultatief) om het malplaatje te activeren, klik **Meer** ![](assets/qs-more-icon-on-an-object.png) menu naast de malplaatjenaam, dan klik **activeert**.
+1. (Facultatief) om het malplaatje te activeren, klik **Meer** ![ ](assets/qs-more-icon-on-an-object.png) menu naast de malplaatjenaam, dan klik **activeert**.
 
    Het malplaatje is nu actief en kan aan projecten worden vastgemaakt of worden gebruikt om projecten tot stand te brengen.
 
