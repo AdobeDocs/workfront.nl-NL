@@ -6,9 +6,9 @@ description: We raden u aan sjablonen die u niet meer gebruikt, te deactiveren i
 author: Alina
 feature: Work Management
 exl-id: 41e0979c-f8ef-4a07-8848-e4ee8cc212c5
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -67,6 +67,6 @@ Hiermee wordt een lijst met sjablonen geopend
 
    of
 
-   Klik de naam van een malplaatje om tot het toegang te hebben, dan klik **Meer** menu ![](assets/qs-more-icon-on-an-object.png), dan **Schrapping Malplaatje > ja, schrap het**.
+   Klik de naam van een malplaatje om tot het toegang te hebben, dan klik **Meer** menu ![ Meer pictogram ](assets/qs-more-icon-on-an-object.png), dan **Schrapping Malplaatje > ja, schrap het**.
 
    Het malplaatje is niet meer beschikbaar om met een project worden geassocieerd.
