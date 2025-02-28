@@ -6,9 +6,9 @@ description: U kunt documenten verwijderen die u uploadt. Als u beheertoegang to
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1a4c4849-bca1-4ae3-9111-d0ed4dacca14
-source-git-commit: 060557085c6941fab4ca8df22641679199f5c55b
+source-git-commit: 5595b1c286d82f77bca9ee16e20bae8380ce45b5
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Een document verwijderen:
 1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten**.
 1. Zoek het document dat u nodig hebt.
 
-1. Klik **Schrapping** pictogram ![](assets/delete.png) boven het gebied van Documenten.
+1. Klik het **pictogram van de Schrapping ![ ](assets/delete.png) boven het gebied van Documenten**.
 
 1. In de doos die verschijnt, klik ja **, schrap het** om te bevestigen.
 
