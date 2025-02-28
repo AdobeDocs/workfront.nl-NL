@@ -6,9 +6,9 @@ description: U kunt documenten van Adobe Workfront afzonderlijk of bulksgewijs d
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 083c604a-b2ca-4279-a90d-b103e3575dad
-source-git-commit: 060557085c6941fab4ca8df22641679199f5c55b
+source-git-commit: 5595b1c286d82f77bca9ee16e20bae8380ce45b5
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten**.
 1. Zoek het document dat u nodig hebt.
 
-1. Klik het **Geselecteerde** pictogram van de Download ![](assets/download-icon.png).
+1. Klik het **Geselecteerde** pictogram van de Download ![ Download Geselecteerd pictogram ](assets/download-icon.png).
 
 ## Meerdere documenten tegelijk downloaden
 
@@ -69,6 +69,6 @@ U kunt meerdere documenten tegelijk downloaden. 
    >Documenten die zijn gekoppeld aan Workfront vanuit Box, Dropbox, Google Drive, enzovoort, kunnen niet bulksgewijs worden gedownload.
 
 1. (Optioneel) Selecteer de mappen met de documenten die u wilt downloaden in de lijst met mappen.
-1. Klik op het pictogram Geselecteerde bestanden downloaden ![](assets/download-icon.png) .
+1. Klik het Geselecteerde pictogram van de Download ![ Download Geselecteerde pictogram ](assets/download-icon.png).
 
    Mappen worden gedownload als ZIP-bestanden en zijn beperkt tot 4 GB.
