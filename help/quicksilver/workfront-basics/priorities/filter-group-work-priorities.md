@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 116b9823818ac6103641c2e6ce283dfb47282851
+source-git-commit: c362c62855c71022c4bc6b3abc22ba4ea83b1b24
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ U kunt taken en kwesties filtreren die aan u worden toegewezen.
 1. Klik **Filters** in de hoogste linkerzijde van de werklijst.
 1. klik **Standaardfilters**.
 1. Selecteer een of meerdere filters om uw werkitems te beperken.
-   ![](assets/filter-new.png)
+   ![ Filter ](assets/filter-new.png)
 
 +++Uitbreiden om gedetailleerde informatie over beschikbare filters te zien
 <table>
@@ -157,7 +157,7 @@ Gebruik natuurlijke taal om werk snel te filteren.
 
 1. Klik **Groepen** in de hoogste linkerzijde van de werklijst.
 1. Selecteer een groep om uw werklijst te ordenen
-   ![](assets/groups-new.png)
+   ![ Groepen ](assets/groups-new.png)
 
 +++Uitbreiden om gedetailleerde informatie over beschikbare groepen te zien
 
@@ -184,7 +184,7 @@ U kunt individuele het werkpunten tussen categorieën slepen en laten vallen wan
 
 Om uw werk binnen een groep te sorteren, open **Groep** en klik **Soort oplopend** of **Soort aflopend**.
 
-![](assets/sort-in-groups.png)
+![ Soort in groepen ](assets/sort-in-groups.png)
 
 ### Kolommen sorteren
 
@@ -196,4 +196,4 @@ Als u afzonderlijke kolommen wilt sorteren, gaat u naar de kolom en klikt u op d
 
 Om alle groepssecties uit te breiden of te doen ineenstorten, open **Groep** en klik **breid allen uit** of **samen allen**.
 
-![](assets/expand-collapse-groups.png)
+![ breid of doen ineenstorten groepen ](assets/expand-collapse-groups.png) uit
