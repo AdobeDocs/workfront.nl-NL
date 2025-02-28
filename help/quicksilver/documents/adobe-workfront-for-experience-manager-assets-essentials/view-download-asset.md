@@ -2,20 +2,20 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Een gekoppeld element weergeven of downloaden van Experience Manager Assets of Assets Essentials
-description: U kunt in Adobe Workfront middelen weergeven of downloaden die zijn gekoppeld vanuit Experience Manager Assets of Assets Essentials.
+description: In Adobe Workfront kunt u middelen weergeven of downloaden die zijn gekoppeld vanuit Experience Manager Assets of Assets Essentials.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 1118a357-7412-4ae0-8daf-01db650df549
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
 
 # Een gekoppeld element weergeven of downloaden van Experience Manager Assets of Assets Essentials
 
-U kunt in Adobe Workfront middelen weergeven of downloaden die zijn gekoppeld vanuit Experience Manager Assets of Assets Essentials.
+In Adobe Workfront kunt u middelen weergeven of downloaden die zijn gekoppeld vanuit Experience Manager Assets of Assets Essentials.
 
 ## Toegangsvereisten
 
@@ -37,7 +37,7 @@ U moet het volgende hebben:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>U moet Experience Manager as a Cloud Service Assets Essentials hebben, en u moet aan het product als gebruiker in de Admin Console worden toegevoegd.</td> 
+   <td>U moet Experience Manager as a Cloud Service of Assets Essentials hebben en u moet als gebruiker aan het product worden toegevoegd in de Admin Console.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
@@ -58,7 +58,7 @@ U moet het volgende hebben:
 
 Voordat u begint,
 
-* Uw Workfront-beheerder moet een Experience Manager-integratie configureren. Voor meer informatie, zie [ de as a Cloud Service integratie van Experience Manager Assets ](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) vormen of [ vormen de integratie van de Hoofdzaak van Experience Manager Assets ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+* Uw Workfront-beheerder moet een Experience Manager-integratie configureren. Voor meer informatie, zie [ de integratie van Experience Manager Assets as a Cloud Service ](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) vormen of [ vormen de integratie van de Hoofdzaak van Experience Manager Assets ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 ## Een gekoppeld element weergeven of downloaden
 
@@ -66,4 +66,4 @@ Voordat u begint,
 1. Selecteer het document in de documentlijst.
 1. In de Samenvatting van het Document op het recht, houd over de duimnagel bij de bovenkant en kies **Voorproef** of **Download**.
 
-   ![](assets/preview-or-download-350x107.png)
+   ![ Voorproef of download ](assets/preview-or-download-350x107.png)
