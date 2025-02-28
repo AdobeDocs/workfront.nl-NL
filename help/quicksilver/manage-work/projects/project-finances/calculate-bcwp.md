@@ -7,9 +7,9 @@ description: Ook gekend als Geëiste Waarde, is de Begrotte Kosten van het Gepre
 author: Lisa
 feature: Work Management
 exl-id: 203709a7-e522-4875-b3eb-40b967a938ec
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '594'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ U kunt vormen of BCWP in uren of kosten door te vormen wordt berekend hoe de Met
 1. Ga naar een project en breid **Details van het Project** in het linkerpaneel uit.
 1. Op het **gebied van de Financiën**, bepaal de plaats van het **gebied van de Methode van de Index van Prestaties** en klik tweemaal om het uit te geven.
 
-   ![](assets/pim-options-hour-cost-based-nwe.png)
+   ![ PIM opties ](assets/pim-options-hour-cost-based-nwe.png)
 
 1. Selecteer een van de volgende opties:
 
@@ -125,7 +125,7 @@ U kunt de waarde van de Begrotende Kosten van het Werk bekijken dat in een rappo
 1. Klik **toevoegen Kolom**.
 1. In **toon in deze kolom:** gebiedsbegin typend **BCWP** en klik om het te selecteren wanneer het in de lijst toont.
 
-   ![](assets/bcwp-project-view.png)
+   ![ BCWP in projectweergave ](assets/bcwp-project-view.png)
 
 1. Klik **sparen Mening**.
 1. Het BCWP- gebiedsvertoningen in de mening.
