@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
-source-git-commit: 04259d63523050d5bd43e5e776c21237e5a5cfe4
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '1325'
+source-wordcount: '1357'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ U moet het volgende hebben:
 
 1. In de sectie van Gebruikers, klik **Ontwikkelaars** > **ontwikkelaars** toevoegen.
 
-   ![](assets/manage-users-admin-console.png)
+   ![ leidt ontwikkelaars in Admin Console ](assets/manage-users-admin-console.png)
 
    >[!NOTE]
    >
@@ -51,7 +51,7 @@ U moet het volgende hebben:
 
 1. Voeg noodzakelijke producten aan het ontwikkelaarprofiel toe, en klik **sparen**.
 
-![](assets/add-developer.png)
+![ voeg ontwikkelaar ](assets/add-developer.png) toe
 
 ## Toegang tot AppBuilder verkrijgen
 
@@ -72,7 +72,7 @@ Als AppBuilder behoorlijk wordt gevormd, zou u &quot;project van malplaatje&quot
    >
    >Als deze optie niet wordt weergegeven, is de configuratie in de beheerconsole onjuist en hebt u geen toegang tot de catalogus van de App Builder. Deze optie wordt alleen weergegeven wanneer u toegang hebt tot AppBuilder.
 
-   ![](assets/create-from-template.png)
+   ![ creeer project van malplaatje ](assets/create-from-template.png)
 
 1. Selecteer **App Builder**.
 
@@ -89,7 +89,7 @@ Als AppBuilder behoorlijk wordt gevormd, zou u &quot;project van malplaatje&quot
 
 ## Adobe IO (aio) CLI
 
-Adobe biedt een open-source CLI die kan worden gebruikt om de App Builder-toepassingen te maken. De documentatie kan hier worden gevonden: [ https://github.com/adobe/aio-cli ](https://github.com/adobe/aio-cli) evenals de Instructies van App Builder van de Adobe [ https://developer.adobe.com/app-builder/docs/getting_started/first_app/ ](https://developer.adobe.com/app-builder/docs/getting_started/first_app/).
+Adobe biedt een open-source CLI die kan worden gebruikt om de App Builder-toepassingen te maken. De documentatie kan hier worden gevonden: [ https://github.com/adobe/aio-cli ](https://github.com/adobe/aio-cli) evenals de Instructies van Adobe App Builder [ https://developer.adobe.com/app-builder/docs/getting_started/first_app/ ](https://developer.adobe.com/app-builder/docs/getting_started/first_app/).
 
 1. Installatie
    1. Als u het gereedschap wilt installeren, voert u het volgende uit (zorg dat u zich eerst op knooppunt v18 bevindt): `npm install -g @adobe/aio-cli ` .
@@ -102,20 +102,20 @@ Adobe biedt een open-source CLI die kan worden gebruikt om de App Builder-toepas
 
 1. Configuratieselectie
    1. Ga door om uw Organisatie en Project van de verstrekte opties te selecteren.\
-      ![](assets/select-org.png)
-      ![](assets/select-project.png)
+      ![ Uitgezochte org ](assets/select-org.png)
+      ![ Uitgezochte project ](assets/select-project.png)
 
 1. Sjabloonselectie en -instellingen
    1. Blader door alle beschikbare sjablonen en kies de sjabloon **@adobe/aem-cf-editor-ui-ext-tpl** voor uw project.
-      ![](assets/search-template.png)
-      ![](assets/select-template.png)
+      ![ malplaatje van het Onderzoek ](assets/search-template.png)
+      ![ Uitgezochte malplaatje ](assets/select-template.png)
 
 1. Uw extensie definiëren
    1. Geef de extensie een naam.
    1. Geef een beschrijvend overzicht van de functionaliteit van uw extensie.
    1. Selecteer een eerste versienummer waarmee u wilt beginnen.
    1. Bevestig voltooiing door **te selecteren wordt ik gedaan**.
-      ![](assets/define-extension.png)
+      ![ bepalen uitbreiding ](assets/define-extension.png)
 
 1. Ga naar uw projectmap
    1. De map src openen
@@ -308,7 +308,7 @@ Adobe biedt een open-source CLI die kan worden gebruikt om de App Builder-toepas
           export default Review;
       ```
 
-## Publish-toepassingen
+## Toepassingen publiceren
 
 >[!IMPORTANT]
 >
@@ -326,12 +326,12 @@ Als een gasttoepassing in Workfront moet worden geladen, moet de toepassing naar
 1. Vind het project dat u gebruikte om de toepassing te creëren AppBuilder.
 
 1. Selecteer de Productie-Workspace.
-   ![](assets/find-application.png)
+   ![ Uitgezochte productiewerkruimte ](assets/find-application.png)
 
 1. Verzend de toepassing voor privérevisie (u krijgt waarschuwingen die we niet publiceren naar de marketplace van de app-uitwisseling, wat prima is).
 
 1. Vul het formulier in (titel, beschrijving, pictogram en opmerking voor de controleur).
-   ![](assets/submission-details.png)
+   ![ Vul vorm voor privé overzicht ](assets/submission-details.png) in
 
 >[!IMPORTANT]
 >
@@ -341,10 +341,10 @@ Als een gasttoepassing in Workfront moet worden geladen, moet de toepassing naar
 
 1. Als systeembeheerder, navigeer aan [ https://stage.exchange.adobe.com/ ](https://stage.exchange.adobe.com/) of [ https://exchange.adobe.com/ ](https://exchange.adobe.com/).
 
-1. Klik **leiden** > **Toepassingen van het Experience Cloud**. De verzonden toepassingen worden weergegeven met opties voor goedkeuren/afwijzen.
+1. Klik **leiden** > **Toepassingen van Experience Cloud**. De verzonden toepassingen worden weergegeven met opties voor goedkeuren/afwijzen.
 Nadat de gepubliceerde toepassingsextensies zijn goedgekeurd, worden deze automatisch in uw Workfront-omgeving geladen.
 
-   ![](assets/approve-submission.png)
+   ![ Goedgekeurde voorlegging ](assets/approve-submission.png)
 
 ## Aanvullende Help
 
