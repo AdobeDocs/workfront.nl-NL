@@ -6,9 +6,9 @@ description: U kunt werkitems en projecten maken vanuit het [!UICONTROL Home] -g
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '823'
 ht-degree: 0%
 
 ---
@@ -71,12 +71,12 @@ U en andere gebruikers kunnen uw persoonlijke taken in een persoonlijk taakrappo
 
 Een te-do-item maken:
 
-1. Klik **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de hoger-juiste hoek, of het **Belangrijkste menu** ![](assets/lines-main-menu.png) in de hoger-linkerhoek, als beschikbaar, dan klik **[!UICONTROL Home]**.
+1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, of het **Belangrijkste menu** ![ Belangrijkste pictogram van de Lijnen van het Menu ](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) klik **aanpassen**, dan klik **aan-Dozen** om toe te voegen aan-Doopwidget aan uw huisscherm.
 1. Ga naar **** widget, dan klik **toevoegen aan-doe**.
 1. Typ de naam voor het persoonlijke aan-doe item en klik op Enter.
-1. (Facultatief) klik het **pictogram van de Datum** ![](assets/date-icon.png) om een vervaldatum voor het punt toe te voegen.
-   ![](assets/my-work-to-dos.png)
+1. (Facultatief) klik het **pictogram van de Datum ![ ](assets/date-icon.png) pictogram van de Datum om een vervaldatum voor het punt toe te voegen.**
+   ![ Mijn werk aan-doet ](assets/my-work-to-dos.png)
 1. (Optioneel) Maak een persoonlijk taakrapport of filter. Voor informatie over het creëren van een persoonlijke taakfilter, zie [ Filter: persoonlijke taak ](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).
 U kunt uw aan-doe punten evenals andere gebruikers aan-doe punten in het persoonlijke taakrapport bekijken.
 
@@ -84,10 +84,10 @@ U kunt uw aan-doe punten evenals andere gebruikers aan-doe punten in het persoon
 
 U kunt een taak aan een bestaand project direct van het gebied van het Huis toevoegen:
 
-1. Klik op **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek en klik vervolgens op **[!UICONTROL Home]** .
+1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) voeg **Mijn Taken** widget aan uw huisscherm toe. Klik **aanpassen**, en vinden **Mijn Taken**.
 1. Ga naar **Mijn Taken** widget, dan klik **Nieuw**.
-   ![](assets/create-new-task.png)
+   ![ creeer nieuwe taak ](assets/create-new-task.png)
 1. In het **Nieuwe de dialoogvakje van de Taak**, ga de taaknaam in.
 1. Typ een projectnaam en selecteer vervolgens de naam in de lijst.
 1. (Optioneel) Voer gegevens in de volgende velden in:
@@ -107,10 +107,10 @@ U kunt een taak aan een bestaand project direct van het gebied van het Huis toev
 
 U kunt een kwestie aan een bestaand project direct van het gebied van het Huis toevoegen:
 
-1. Klik op **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek en klik vervolgens op **[!UICONTROL Home]** .
+1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) voeg **Mijn Uitgaven** widget aan uw huisscherm toe. Klik **aanpassen**, en vinden **Mijn Kwesties**.
 1. Ga naar **Mijn Kwesties** widget, dan klik **Nieuw**.
-   ![](assets/create-new-issue.png)
+   ![ creeer nieuwe kwestie ](assets/create-new-issue.png)
 1. In het **Nieuwe de dialoogvakje van de kwestie**, begin typend een projectnaam, dan selecteer de naam van de lijst.
 1. Voer een naam in voor de uitgave.
 1. (Optioneel) Voer gegevens in de volgende velden in:
@@ -128,10 +128,10 @@ U kunt een kwestie aan een bestaand project direct van het gebied van het Huis t
 
 U kunt een aanvraag rechtstreeks vanuit het gebied Home maken:
 
-1. Klik op **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek en klik vervolgens op **[!UICONTROL Home]** .
+1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) voeg **Mijn Verzoeken** widget aan uw huisscherm toe. Klik **aanpassen**, en vinden **Mijn Verzoeken**.
 1. Ga naar **Mijn Verzoeken** widget, dan klik **Nieuw**.
-   ![](assets/create-new-request.png)
+   ![ creeer nieuw verzoek ](assets/create-new-request.png)
 
 1. In de **Nieuwe verzoek** dialoog, begin typend de naam van de verzoekrij.
 1. Vul de relevante velden in.
@@ -143,10 +143,10 @@ Voor meer informatie over het voorleggen van verzoeken, zie [ verzoeken ](/help/
 
 U kunt een project direct van het gebied van het Huis tot stand brengen:
 
-1. Klik op **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek en klik vervolgens op **[!UICONTROL Home]** .
+1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) voeg **Mijn Projecten** widget aan uw huisscherm toe. Klik **aanpassen**, en vinden **Mijn Projecten**.
 1. Ga naar **Mijn Projecten** widget, dan klik **Nieuw**.
-   ![](assets/create-new-project.png)
+   ![ creeer nieuw project ](assets/create-new-project.png)
 1. Kies een van de volgende opties:
 
    | Veld | Instructies |
@@ -161,7 +161,7 @@ U kunt een project direct van het gebied van het Huis tot stand brengen:
 
 You can create a board directly from the Home area:
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. (Conditional) Add the **Boards** widget to your home screen. Click **Customize**, and find **Boards**. -->
 
 
@@ -171,13 +171,13 @@ You can create a board directly from the Home area:
 <!--
 ## Delete a to-do item
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. Go to the to-do widget.
-1. Hover over the item, then click the **Delete** icon ![](assets/delete-to-do.png). 
+1. Hover over the item, then click the **Delete** icon ![Delete icon](assets/delete-to-do.png). 
 
 ## Edit a to-do item
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. Go to the to-do widget.
 1. Edit the item name.
-1. Click on the **Date** icon ![](assets/date-icon.png) to add or adjust a due date. -->
+1. Click on the **Date** icon ![Date icon](assets/date-icon.png) to add or adjust a due date. -->
