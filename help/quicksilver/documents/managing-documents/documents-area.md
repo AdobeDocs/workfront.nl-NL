@@ -7,9 +7,9 @@ description: In het gebied Documenten kunt u metagegevens voor naar Adobe Workfr
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 64612345-d1ce-41db-939b-3af30d1c6a51
-source-git-commit: 8bf345be3632061b89d239697077fd42c9d9cfd6
+source-git-commit: 5595b1c286d82f77bca9ee16e20bae8380ce45b5
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 In het gebied Documenten kunt u metagegevens voor naar Adobe Workfront geüploade documenten ordenen, beheren en weergeven. U kunt ook de bewijsbeslissing zien.
 
-![](assets/documents-area-v2-350x199.png)
+![ gebied van Documenten ](assets/documents-area-v2-350x199.png)
 
 Er zijn twee typen documentgebieden. De eigenschappen en de functionaliteit zijn het zelfde voor beide:
 
-* **documenteert gebied in een programma, een portefeuille, een project, een taak, of een kwestie:** maakt een lijst van alle documenten die u toegang tot voor een bepaald project, een taak, of een kwestie hebt. Om tot dit gebied toegang te hebben, klik **Documenten ![](assets/document-icon-12x14.png) in het linkerpaneel terwijl het bekijken van een project, een taak, of een kwestie.**
+* **documenteert gebied in een programma, een portefeuille, een project, een taak, of een kwestie:** maakt een lijst van alle documenten die u toegang tot voor een bepaald project, een taak, of een kwestie hebt. Om tot dit gebied toegang te hebben, klik **Documenten ![ pictogram van Documenten ](assets/document-icon-12x14.png) in het linkerpaneel terwijl het bekijken van een project, een taak, of een kwestie.**
 
-* **Globaal gebied van Documenten:** maakt een lijst van alle documenten die u toegang tot in Workfront hebt. Om tot dit gebied toegang te hebben, klik **Documenten** ![](assets/document-icon.png) in het Belangrijkste Menu ![](assets/main-menu-icon.png).
+* **Globaal gebied van Documenten:** maakt een lijst van alle documenten die u toegang tot in Workfront hebt. Om tot dit gebied toegang te hebben, klik **Documenten ![ pictogram van Documenten ](assets/document-icon.png) in het Belangrijkste pictogram van het Menu ![ Belangrijkste ](assets/main-menu-icon.png).**
 
 Voor informatie over het uploaden van documenten aan Workfront, zie [ documenten aan Adobe Workfront van uw dossiersysteem ](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md) toevoegen.
 
@@ -44,7 +44,7 @@ Als proefdrukken is ingesteld voor het document, bevat de sectie Details informa
 
 U kunt op de kop Details klikken om naar het volledige gebied Documentdetails te gaan wanneer u alle informatie over een document nodig hebt.
 
-![](assets/documents-area-v2-350x199.png)
+![ gebied van Documenten ](assets/documents-area-v2-350x199.png)
 
 Voor informatie over de Samenvatting, zie [ Samenvatting voor documentoverzicht ](../../documents/managing-documents/summary-for-documents.md).
 
@@ -52,7 +52,7 @@ Voor informatie over de Samenvatting, zie [ Samenvatting voor documentoverzicht 
 
 Zodra een bewijskrachtbesluit is genomen, verschijnt het in de lijst van het Document.
 
-![](assets/proof-decision---doc-list-350x168.png)
+![ besluit van het Bewijs in documentlijst ](assets/proof-decision---doc-list-350x168.png)
 
 ## Mappen
 
