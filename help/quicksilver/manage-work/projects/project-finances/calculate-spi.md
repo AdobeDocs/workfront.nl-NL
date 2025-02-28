@@ -7,9 +7,9 @@ description: De index van de Prestaties van het Programma (SPI) beschrijft het v
 author: Lisa
 feature: Work Management
 exl-id: 38259774-f22b-4b69-9e22-5b541118a7de
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -98,6 +98,6 @@ Bijvoorbeeld, als u een project met 1 taak hebt en de taak 10 geplande uren en e
 
    1. Klik **Details van de Taak** in het linkerpaneel, dan bekijk het **Financiën** gebied.
 
-      ![](assets/spi-on-project-nwe.png)
+      ![ SPI op project ](assets/spi-on-project-nwe.png)
 
 1. Vind het **CPI/SPI/CSI** gebied.
