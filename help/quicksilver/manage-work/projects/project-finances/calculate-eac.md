@@ -7,9 +7,9 @@ description: Als prestatiemetrisch, vertegenwoordigt de Schatting bij Voltooiing
 author: Lisa
 feature: Work Management
 exl-id: 9061fa56-cff3-4fe2-866e-1fdda9d43efc
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '848'
 ht-degree: 0%
 
 ---
@@ -140,4 +140,4 @@ Totaal uitgevoerd begroot kostenwerk = de som van het totaal uitgevoerd budget-k
 
    De waarde EAC toont op **Schatting bij het gebied van de Voltooiing**.
 
-   ![](assets/eac-highlighted-on-project-350x112.png)
+   ![ EAC op project ](assets/eac-highlighted-on-project-350x112.png)
