@@ -8,9 +8,9 @@ feature: Work Management
 hide: true
 hidefromtoc: true
 exl-id: 230d8e62-a3c9-4e38-9b26-5ba1c4f56391
-source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ Als u verkiest om het project van kras tot stand te brengen, voegt Workfront aut
 
 Ga door naar de volgende sectie.
 
-![](assets/template-group.png)
+![ de groep van het Malplaatje ](assets/template-group.png)
 
 ### Taken toevoegen en gebruikers toewijzen die geschikt zijn voor Frame.io
 
@@ -105,7 +105,7 @@ Ga door naar de volgende sectie.
    of
 
    Klik **Nieuwe Taak van het Malplaatje** om één taak tegelijkertijd toe te voegen en extra montages te vormen.
-   ![](assets/add-tasks-to-template.png)
+   ![ voegt taken aan malplaatje ](assets/add-tasks-to-template.png) toe
 1. Voeg een taaknaam toe.
 1. In het **gebied van Taken**, wijs gebruikers of teams toe. Als u een Frame.io toegelaten gebruiker, of individueel of in een team toewijst, worden zij samenwerkingstoegang tot het Frame.io- project verleend en over de taak in het Frame.io- project via e-mail op de hoogte gebracht. Van die e-mail, kunnen zij zich bij het project Frame.io aansluiten en beginnen met werken.
 1. Herhaal stap 1 en 2 zo nodig.
@@ -133,7 +133,7 @@ Nadat u een sjabloon hebt gemaakt, kunt u dit gebruiken om projecten te maken.
 1. Klik **Nieuw Project van Malplaatje**.
 1. Typ in het zoekvak de naam van de gewenste sjabloon.
 1. Selecteer de malplaatjenaam, dan klik **malplaatje van het Gebruik**.
-   ![](assets/find-your-template.png)
+   ![ vind uw malplaatje ](assets/find-your-template.png)
 1. Pas om het even welke projectmontages aan zoals nodig, dan klik **creeer project**.
 1. In het linkerpaneel, klik **Documenten**.
 1. Gebruik de one-way sync map om creatieve materialen automatisch te delen met Frame.io. [!BADGE  Binnenkort ]{type=Informative}
@@ -176,7 +176,7 @@ Ga door naar de volgende sectie.
    of
 
    Klik **Nieuwe Taak** om één taak tegelijkertijd toe te voegen en extra montages te vormen.
-   ![](assets/add-project-tasks.png)
+   ![ Nieuwe taak ](assets/add-project-tasks.png)
 1. Voeg een taaknaam toe.
 1. In het **gebied van Taken**, wijs gebruikers of teams toe. Als u een Frame.io toegelaten gebruiker, of individueel of in een team toewijst, worden zij samenwerkingstoegang tot het Frame.io- project verleend en over de taak in het Frame.io- project via e-mail op de hoogte gebracht. Van die e-mail, kunnen zij zich bij het project Frame.io aansluiten en beginnen met werken.
 1. Herhaal stap 1 en 2 zo nodig.
