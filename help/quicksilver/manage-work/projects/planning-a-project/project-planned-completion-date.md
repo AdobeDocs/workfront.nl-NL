@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 996398c5-de92-445e-8e86-36b2efdcf6b5
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
@@ -96,7 +96,7 @@ U moet manueel de Geplande Datum van de Voltooiing van een project plaatsen wann
 
 Een project plannen vanaf de voltooiingsdatum:
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **Projecten**.
+1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik** Projecten **.**
 
 1. Klik **Nieuw Project** toen **Nieuw Project**.
 
@@ -117,7 +117,7 @@ De geplande Voltooiingsdatum van een project wordt automatisch berekend door Wor
 
 Een project plannen vanaf de begindatum:
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **Projecten**.
+1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik** Projecten **.**
 
 1. Klik **Nieuw Project** toen **Nieuw Project**.
 
