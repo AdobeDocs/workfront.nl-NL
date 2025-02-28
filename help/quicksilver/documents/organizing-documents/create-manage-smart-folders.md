@@ -6,9 +6,9 @@ description: De slimme omslagen worden gebruikt om documenten buiten een project
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 62dfc6b9-72a4-4dd5-acd7-42269cd99b1b
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '572'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 U kunt mappen weergeven in miniaturen, standaard- of lijstweergave. Als u de weergave wilt wijzigen, gebruikt u de weergaveopties in de rechterbovenhoek.
 
-![](assets/screenshot-2016-07-07-12.46.54.png)
+![ geef Slimme Omslag ](assets/screenshot-2016-07-07-12.46.54.png) uit
 
 ## Een slimme map maken 
 
@@ -68,11 +68,11 @@ U kunt mappen weergeven in miniaturen, standaard- of lijstweergave. Als u de wee
 ## Een slimme map bewerken 
 
 1. Ga naar het **gebied van Documenten** dat de slimme omslag bevat die u wilt uitgeven.
-1. In de **Mappen** kolom, klik **Meer** pictogram ![](assets/more-icon.png) naast de slimme omslag die u wilt uitgeven.
+1. In de **Mappen** kolom, klik het **Meer** pictogram ![ Meer menu ](assets/more-icon.png) naast de slimme omslag die u wilt uitgeven.
 1. Klik **uitgeven**.
 
    Het **geeft Slimme de dialoogvakje van de Omslag** uit wordt getoond.\
-   ![](assets/screen-shot-2013-08-14-at-8.42.04-am-350x167.png)
+   ![ geef Slimme Omslag ](assets/screen-shot-2013-08-14-at-8.42.04-am-350x167.png) uit
 
 1. Breng uw veranderingen aan, dan klik **sparen Omslag**.
 
