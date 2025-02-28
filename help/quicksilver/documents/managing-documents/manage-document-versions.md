@@ -6,9 +6,9 @@ description: U kunt meerdere versies van een document beheren in Workfront.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 477153e4-847b-46ec-8107-72a7399c3767
-source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '542'
 ht-degree: 0%
 
 ---
@@ -64,15 +64,15 @@ U moet het volgende hebben:
 
 1. Klik boven aan de pagina Documentdetails op het vervolgkeuzemenu naast de naam en klik vervolgens op de naam van de versie die u wilt weergeven en beheren.
 
-   ![](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
+   ![ drop-down van de Versie in documentdetails ](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
 
    Samen met het bekijken van de Details van de versie, kunt u veranderingen in de versie, zoals zijn naam, meta-gegevens, en het proef montages (als het een documentbewijs is) aanbrengen.
 
 ## Eén documentversie downloaden
 
-1. In de Samenvatting, onder **Versies**, klik het Meer menu ![](assets/more-icon.png) aan het recht van de versie, dan klik **Download** in de drop-down lijst die verschijnt.
+1. In de Samenvatting, onder **Versies**, klik het Meer menu ![ Meer menu ](assets/more-icon.png) rechts van de versie, dan klik **Download** in de drop-down lijst die verschijnt.
 
-   ![](assets/more-versions-350x143.png)
+   ![ Download één enkel document ](assets/more-versions-350x143.png)
 
 ## Alle versies van een document downloaden
 
@@ -105,4 +105,4 @@ Een documentversie verwijderen:
 
    Als het document is gekoppeld aan een externe bron, wordt die koppeling verwijderd en is het document niet langer toegankelijk via Workfront.
 
-   ![](assets/more-versions-350x143.png)
+   ![ schrapt documentversie ](assets/more-versions-350x143.png)
