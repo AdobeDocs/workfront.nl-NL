@@ -7,9 +7,9 @@ author: Alina
 feature: Projects, Work Management
 role: User
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ U kunt een project kopiëren in plaats van er zelf een te maken. U kunt slechts 
 >* Sjabloon
 >* Risico&#39;s
 >* Informatie over wachtrijinstellingen
->* Portfolio en programma
+>* Portfolio en Programma
 >* Scorecard
 >* Standaardgegevens taak (goedkeuringsproces standaardtaak, Standaard aangepaste Forms taak)
 >
@@ -112,15 +112,15 @@ Het kopiëren van een project kopieert ook sommige informatie van het originele 
 
 Een project kopiëren:
 
-1. Ga naar het project dat u wilt kopiëren en **klikken Meer** pictogram ![](assets/qs-more-menu.png) rechts van de projectnaam
+1. Ga naar het project dat u wilt kopiëren en **klikken Meer** pictogram ![ Meer menu ](assets/qs-more-menu.png) aan het recht van de projectnaam
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![ Meer dropdown ](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    of
 
-   Ga naar een projectlijst of een rapport en selecteer een project, dan klik **Meer** pictogram ![](assets/qs-more-menu.png) bij de bovenkant van de lijst.
+   Ga naar een projectlijst of een rapport en selecteer een project, dan klik het **Meer** pictogram ![ Meer menu ](assets/qs-more-menu.png) bij de bovenkant van de lijst.
 
-   ![](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
+   ![ Meer uitgevouwen menu ](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 
 1. Klik **Exemplaar**.
 
@@ -128,7 +128,7 @@ Een project kopiëren:
 
    Door gebrek, is de nieuwe naam **Exemplaar van `<Original project name>`.**
 
-   ![](assets/copy-project-box-nwe-350x276.png)
+   ![ het projectvakje van het Exemplaar ](assets/copy-project-box-nwe-350x276.png)
 
 1. Selecteer de **Status** voor het nieuwe project.
 
