@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 3f2cc191c316d107f16a12160cb126203b05387c
 workflow-type: tm+mt
-source-wordcount: '1886'
+source-wordcount: '1899'
 ht-degree: 0%
 
 ---
@@ -96,7 +96,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
     </tr> 
     <tr> 
     <td role="rowheader">[!UICONTROL Revenue Type]</td> 
-    <td> <p>Berekent de geplande en werkelijke inkomstenramingen voor een taak. Wanneer <strong>[!UICONTROL Revenue Type]</strong> wordt geplaatst aan <strong>[!UICONTROL Not Billable]</strong>, produceren de geplande uren en de daadwerkelijke geregistreerde uren geen opbrengstraming voor de taak, en het werk aan de taak draagt niet aan project-vlakke opbrengst bij.</p> </td> 
+    <td> <p>Berekent de geplande en werkelijke inkomstenramingen voor een taak. Wanneer <strong>[!UICONTROL Revenue Type]</strong> wordt geplaatst aan <strong>[!UICONTROL Not Billable]</strong>, produceren de geplande uren en de daadwerkelijke geregistreerde uren geen opbrengstraming voor de taak, en het werk aan de taak draagt niet aan project-vlakke opbrengst bij.</p>
+         <p>Voor informatie over de verschillende opbrengsttypes, zie <a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md"> Overzicht van Facturering en Ontvangsten </a>.</p></td> 
     </tr> 
     <tr> 
     <td role="rowheader">[!UICONTROL Cost Type]</td> 
