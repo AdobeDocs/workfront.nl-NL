@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 116b9823818ac6103641c2e6ce283dfb47282851
+source-git-commit: 2d38448bf7da12b8f896d444d560f746e0e9798f
 workflow-type: tm+mt
-source-wordcount: '1473'
+source-wordcount: '1526'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,14 @@ Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Pr
 
 ## Beheer en installatie
 
+### Interface-update voor het Aankondigingscentrum
+
+**de versie van de Voorproef: 27 februari, 2025; Te aankondigen**
+
+We hebben het Aankondigingscentrum bijgewerkt met een modernere opzet die aansluit bij andere gebieden van Workfront.
+
+Ga naar het pictogram Meldingen in de rechterbovenhoek en kies Alle aankondigingen om deze wijziging weer te geven.
+
 ### Interface-update voor het aanpassen van de onderwerpen van gebeurtenismeldingen
 
 **de versie van de Voorproef: 13 februari, 2025; Beginnend de week van 13 februari, 2025**
@@ -34,7 +42,7 @@ Ga naar Instellingen > E-mail > Meldingen > Gebeurtenismeldingen > Klik op een g
 
 ### Interface-update voor het gebied Teams
 
-**de versie van de Voorproef: 13 februari, 2025; De versie van de productie: Te aankondigen**
+**de versie van de Voorproef: 13 februari, 2025; De versie van de productie: Beginnend de week van 20 februari, 2025**
 
 We hebben het Teams-gebied geactualiseerd met een moderner ontwerp dat aansluit bij andere gebieden van Workfront.
 
@@ -136,7 +144,7 @@ Deze update bevat visuele wijzigingen in het gebied. Er is geen functionaliteit 
 
 ### Interface-update voor overzichtspagina van herhalingen
 
-**de versie van de Voorproef: 13 februari, 2025; De versie van de productie: Te aankondigen**
+**de versie van de Voorproef: 13 februari, 2025; De versie van de productie: Beginnend de week van 20 februari 2025**
 
 We hebben de overzichtspagina van Interferaties bijgewerkt met een moderner ontwerp dat aansluit bij andere delen van Workfront.
 
