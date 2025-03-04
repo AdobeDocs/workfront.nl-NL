@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
+source-git-commit: f469147947715dd1bae2718565cd521fa8bc6e96
 workflow-type: tm+mt
 source-wordcount: '2407'
 ht-degree: 0%
@@ -452,11 +452,11 @@ De capaciteit om gebeurtenisabonnementen te bevorderen of te degraderen zorgt er
 
 Voor meer informatie over gebeurtenisabonnement versioning, met inbegrip van specifieke verschillen tussen de versie en belangrijke data, zie [ het abonnement van de Gebeurtenis versioning ](/help/quicksilver/wf-api/general/event-subs-versioning.md).
 
-### Versie van één abonnement wijzigen
-
 >[!NOTE]
 >
 >Wanneer u uw gebeurtenissenabonnement upgradet of downloadt naar een andere versie, ontvangt u dubbele gebeurtenissen voor elke gebeurtenislevering gedurende een venster van vijf minuten na de versiewijziging. De duplicaten bevatten een van de versies 1 en 2 van het gebeurtenisabonnement. Dit zorgt ervoor dat u geen gebeurtenissen mist toe te schrijven aan het veranderen van de versie van het gebeurtenisabonnement.
+
+### Versie van één abonnement wijzigen
 
 De aanvraagsyntaxis voor het wijzigen van de versie voor één abonnement is:
 
