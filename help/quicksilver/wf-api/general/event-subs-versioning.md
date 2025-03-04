@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: 3e082ddde7cb84fb8bf3b5a23c363fd3b4cfe3d2
+source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1192'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,9 @@ De nieuwe versie is geen wijziging in de Workfront API, maar een wijziging in de
 
 De capaciteit om gebeurtenisabonnementen te bevorderen of te degraderen zorgt ervoor dat wanneer de veranderingen in de structuur van gebeurtenissen worden aangebracht, de bestaande abonnementen niet breken, toestaand u om aan de nieuwe versie zonder een hiaat in uw gebeurtenisabonnement te testen en te bevorderen.
 
+
+Wanneer u uw gebeurtenissenabonnement upgradet of downloadt naar een andere versie, ontvangt u dubbele gebeurtenissen voor elke gebeurtenislevering gedurende een venster van vijf minuten na de versiewijziging. De duplicaten bevatten een van de versies 1 en 2 van het gebeurtenisabonnement. Dit zorgt ervoor dat u geen gebeurtenissen mist toe te schrijven aan het veranderen van de versie van het gebeurtenisabonnement.
+
 Voor informatie over de eindpunten die voor bevordering of het degraderen van gebeurtenisabonnementen worden gebruikt, zie [ het abonnement van de Gebeurtenis versioning ](/help/quicksilver/wf-api/general/event-subs-api.md#event-subscription-versioning) in het abonnement API van de artikelgebeurtenis.
 
 >[!IMPORTANT]
@@ -30,6 +33,7 @@ Voor informatie over de eindpunten die voor bevordering of het degraderen van ge
 >
 >* **25.2 Versie** (10 April, 2025): Alle nieuwe abonnementen die na de versie 25.2 worden gecreeerd worden gecreeerd als Versie 2.
 >* **25.3 Versie** (17 Juli, 2025): De Abonnementen kunnen niet meer aan Versie 1 na de versie 25.3 worden gedowngraded.
+>* **September 1, 2025**: Alle resterende versies 1 abonnementen worden gemigreerd aan Versie 2.
 
 ## Wijzigingen tussen versie 1 en versie 2
 

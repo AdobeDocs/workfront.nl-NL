@@ -5,9 +5,9 @@ description: Als deel van middelplanning, kunt u de project-vlakke Planner van h
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
+source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
@@ -108,11 +108,11 @@ Om de Pools van het Middel en de middelen van het begrotingsproject in het Bedri
 
    * Selecteer de Planner van het Middel in **kiezen welke uren om de Begrotende Kosten van de Arbeid van het project** gebied te gebruiken, dan **kiezen > uitgeven Middel het Begrotend**.
 
-     ![](assets/business-case-rp-selected-with-choose-button-350x120.png)
+     ![ Bedrijfs geval in de Planner van het Middel ](assets/business-case-rp-selected-with-choose-button-350x120.png)
 
    * Als de Planner van het Scenario voor het in de begroting opnemen van middelen voor het project werd geselecteerd, klik **Verandering** > **geef het Middel in de begroting op**.
 
-     ![](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)
+     ![ Bedrijfs geval in de Planner van het Scenario ](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)
 
    Dit gebruikt de begrotingsuren van het project om de begrote arbeidskosten voor het project te berekenen.
 

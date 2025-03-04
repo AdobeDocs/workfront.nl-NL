@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 193a1ecafb5dd919a2fa760ce5ab2a9903881900
+source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
 workflow-type: tm+mt
-source-wordcount: '2362'
+source-wordcount: '2407'
 ht-degree: 0%
 
 ---
@@ -29,21 +29,21 @@ Als u via uw firewall gebeurtenisabonnementen wilt ontvangen, moet u de volgende
 
 **voor klanten in Europa:**
 
-* 52 30 133 50
-* 52 208 159 124
-* 54 220 93 204
-* Op 52.17.130.2011
-* 34 254 76 122
-* 34 252 250 191
+* 52.30.133.50
+* 52.208.159.124
+* 54.220.93.204
+* 52.17.130.201
+* 34.254.76.122
+* 34.252.250.191
 
 **voor klanten in plaatsen buiten Europa:**
 
-* 54 244 142 219
-* 44 241 82 96
-* 52 36 154,34
-* 34 211 224,9
-* 54 218 48 56
-* 52 39 217 230
+* 54.244.142.219
+* 44.241.82.96
+* 52.36.154.34
+* 34.211.224.9
+* 54.218.48.56
+* 52.39.217.230
 
 De volgende onderwerpen ondersteunen de API voor abonnementen op gebeurtenissen:
 
@@ -350,6 +350,8 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
     "id": "750a636c-5628-48f5-ba26-26b7ce537ac2",
     "date_created": "2024-04-11T17:10:10.305981",
     "date_modified": "2024-04-11T17:10:10.305981",
+    "version": "v2",
+    "dateVersionUpdated": "2025-01-15T04:04:04.407945"
     "customerId": "504f9640000013401be513579fbebffa",
     "objId": null,
     "objCode": "PROJ",
@@ -422,6 +424,8 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
     "id": "750a636c-5628-48f5-ba26-26b7ce537ac2",
     "date_created": "2024-04-11T17:10:10.305981",
     "date_modified": "2024-04-11T17:10:10.305981",
+    "version": "v2",
+    "dateVersionUpdated": "2025-01-15T04:04:04.407945"
     "customerId": "504f9640000013401be513579fbebffa",
     "objId": null,
     "objCode": "PROJ",
@@ -449,6 +453,10 @@ De capaciteit om gebeurtenisabonnementen te bevorderen of te degraderen zorgt er
 Voor meer informatie over gebeurtenisabonnement versioning, met inbegrip van specifieke verschillen tussen de versie en belangrijke data, zie [ het abonnement van de Gebeurtenis versioning ](/help/quicksilver/wf-api/general/event-subs-versioning.md).
 
 ### Versie van één abonnement wijzigen
+
+>[!NOTE]
+>
+>Wanneer u uw gebeurtenissenabonnement upgradet of downloadt naar een andere versie, ontvangt u dubbele gebeurtenissen voor elke gebeurtenislevering gedurende een venster van vijf minuten na de versiewijziging. De duplicaten bevatten een van de versies 1 en 2 van het gebeurtenisabonnement. Dit zorgt ervoor dat u geen gebeurtenissen mist toe te schrijven aan het veranderen van de versie van het gebeurtenisabonnement.
 
 De aanvraagsyntaxis voor het wijzigen van de versie voor één abonnement is:
 
