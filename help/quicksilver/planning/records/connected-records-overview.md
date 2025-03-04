@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 22a1525658f4ba60d638d5080f8c178fcf500441
+source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -54,10 +54,11 @@ U kunt records in de volgende gebieden verbinden met andere records of met objec
    * De verbonden verslaggebieden in de lijstmening van een verslagtype in Planning.
    * De voorvertoning of pagina van de record in de verbonden recordvelden op het tabblad Details.
    * De voorvertoning of pagina van de record op het tabblad Verbindingen.
+   * <span class="preview"> de pagina van het verslag in een de meningslusje van de Verbinding van een verbonden verslag.</span>
 
-* U kunt Workfront-objecten verbinden met Workfront Planning-records in de volgende gebieden:
+* U kunt Workfront-objecten verbinden met Workfront Planning-records in de volgende gebieden van Workfront:
 
-   * Vanuit het gedeelte Planning van een Workfront-object.
-   * <span class="preview"> van een de verbindingsgebied van de Planning op de douanevorm van een voorwerp van Workfront. </span>
+   * Het gedeelte Planning van een Workfront-object.
+   * <span class="preview"> de verbindingsgebied van de Planning van A op de douanevorm van een voorwerp van Workfront. </span>
 
   Voor informatie, zie [ recordverbindingen van de voorwerpen van Workfront beheren ](/help/quicksilver/planning/records/manage-records-in-planning-section.md)

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '996'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-platform</p></td> 
    <td> 
-<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden genegeerd om tot alle mogelijkheden van de Planning van Workfront te kunnen toegang hebben.</p> 
+<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden bezeten om tot alle mogelijkheden van de Planning van Workfront toegang te hebben.</p> 
 <p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
    </td> 
    </tr> 
@@ -98,7 +98,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 +++
 
-
 ## Overwegingen bij het maken van recordtypen
 
 * U kunt recordtypen in een werkruimte op de volgende manieren maken:
@@ -108,11 +107,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
         Voor informatie, zie [ werkruimten ](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
 
-      * Wanneer u ze importeert met een Excel- of CSV-bestand.
+      * Wanneer u deze importeert met een CSV- of Excel-bestand.
 
      >[!TIP]
      >
-     >Wanneer u een recordtype uit een Excel- of CSV-bestand importeert, kunt u ook records en velden importeren.
+     >Wanneer u een recordtype uit een CSV- of Excel-bestand importeert, kunt u ook records en velden importeren.
 
    * Handmatig:
 
@@ -152,7 +151,7 @@ Voor informatie over welke verslagtypes met elk malplaatje inbegrepen zijn, zie 
    Het vak Recordtype toevoegen wordt geopend.
    <!--1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. -->
 
-   ![](assets/add-record-type-box-with-appearance-options.png)
+   ![ voeg verslagtype doos met verschijningsopties ](assets/add-record-type-box-with-appearance-options.png) toe
 
 1. Werk de volgende gegevens bij:
 
@@ -167,12 +166,12 @@ Voor informatie over welke verslagtypes met elk malplaatje inbegrepen zijn, zie 
    De recordtypekaart wordt toegevoegd aan de sectie en de werkruimte die u hebt geselecteerd.
 De beschrijving van het recordtype wordt weergegeven op de kaart.
 
-   ![](assets/record-type-card-with-description.png)
+   ![ het typekaart van het Verslag met beschrijving ](assets/record-type-card-with-description.png)
 
-1. (Facultatief) Beweeg over de kaart van het verslagtype, klik **Meer** pictogram ![](assets/more-menu.png) in de hoger-juiste hoek, dan klik **geeft** uit om informatie over het verslagtype te wijzigen.
+1. (Facultatief) Beweeg over de kaart van het verslagtype, klik **Meer** pictogram ![ Meer menu ](assets/more-menu.png) in de hoger-juiste hoek, dan klik **uitgeven** om informatie over het verslagtype te wijzigen.
 1. (Optioneel) Klik op de kaart met het recordtype om de pagina met het recordtype te openen.
 
-   ![](assets/operational-record-type-blank.png)
+   ![ Operationeel verslagtype leeg ](assets/operational-record-type-blank.png)
 
    De pagina met recordtypen wordt standaard in de tabelweergave weergegeven. De kolommen van de lijst zijn gebieden verbonden aan het nieuwe verslagtype. Elke rij is een unieke record die u moet toevoegen.
 
@@ -188,7 +187,7 @@ De beschrijving van het recordtype wordt weergegeven op de kaart.
 
    of
 
-   Klik **Meer** pictogram ![](assets/more-menu.png) aan het recht van de naam van het verslagtype en klik **uitgeven** om het anders te noemen of de informatie over het te veranderen. Voor meer informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/edit-record-types.md) uitgeven.
+   Klik het **Meer** pictogram ![ Meer menu ](assets/more-menu.png) rechts van de naam van het verslagtype en klik **uitgeven** om het anders te noemen of de informatie over het te veranderen. Voor meer informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/edit-record-types.md) uitgeven.
 
 1. (Optioneel) Klik op **+ Nieuwe record** om records van het geselecteerde recordtype toe te voegen. Voor meer informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-records.md) creëren.
 1. (Optioneel) Klik op het pictogram **+** rechtsboven in de tabel om meer velden aan het recordtype toe te voegen.
@@ -208,71 +207,14 @@ De beschrijving van het recordtype wordt weergegeven op de kaart.
    * [Recordtypen bewerken](/help/quicksilver/planning/architecture/edit-record-types.md)
    * [ beheer verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md)
 
-## Recordtypen maken door een Excel- of CSV-bestand te importeren
+## Recordtypen maken door gegevens uit een CSV- of Excel-bestand te importeren
 
-Houd rekening met het volgende wanneer u recordtypen importeert met een Excel- of CSV-bestand:
+U kunt het volgende importeren wanneer u gegevens importeert uit een CSV- of Excel-bestand:
 
-* Elk blad van het Excel-bestand wordt een recordtype. De naam van het blad wordt de naam van het recordtype.
-* Als er slechts één blad is, of als u een Csv- dossier invoert, wordt de naam van het dossier de naam van het verslagtype.
-* De kolomkopteksten van elk blad worden de gebieden verbonden aan elk verslagtype.
-* Velden zijn uniek voor hun respectievelijke recordtypen.
-* Elke rij in elk blad wordt een unieke record die is gekoppeld aan het respectievelijke recordtype.
-* Elk blad van het Excel-bestand mag het volgende niet overschrijden:
-   * 10.000 rijen
-   * 500 kolommen
-* Het Excel-bestand mag niet groter zijn dan 5 MB.
-* Lege bladen worden niet ondersteund.
+* Recordtypen
+* Records
+* Opnamevelden
 
-Recordtypen importeren met een Excel- of CSV-bestand:
+Voor meer informatie, zie [ de Types van Verslag tot stand brengen door informatie van een CSV of dossier van Excel ](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md) in te voeren.
 
-{{step1-to-planning}}
 
-1. Klik op de werkruimte waar u recordtypen wilt maken.
-
-   of
-
-   Vouw in een werkruimte de pijl omlaag naar rechts uit, zoek naar een werkruimte en selecteer deze wanneer de werkruimte in de lijst wordt weergegeven.
-1. Klik **toevoegen verslagtype**.
-1. Klik **van dossier**.
-1. Sleep en laat vallen een Excel of Csv- dossier eerder op uw computer, of klik **Uitgezocht een Csv of dossier van Excel** om voor te doorbladeren.
-1. Klik **Voorproef en geef uit**.
-
-   De **Voorproef en geeft** vakvertoningen uit met de volgende informatie:
-
-   * De namen van de bladen of van de toekomstige recordtypen worden weergegeven in het linkerdeelvenster. Workfront Planning selecteert standaard een pictogram en een kleur voor elk nieuw recordtype.
-   * Het eerste blad of recordtype wordt geselecteerd en de namen van de bijbehorende velden worden als kolomkoppen weergegeven. Het type van elk gebied wordt geselecteerd door gebrek.
-   * Elke rij vertegenwoordigt een nieuwe record. Alleen de eerste 10 records worden weergegeven in het vak Voorbeeld en bewerken.
-
-   ![](assets/preview-and-edit-box.png)
-
-1. (Optioneel) Klik op de naam van elk blad in het linkerdeelvenster om de informatie in het blad te bekijken.
-
-   >[!NOTE]
-   >
-   >Lege bladen worden niet ondersteund en worden grijs weergegeven.
-
-1. (Optioneel) Schakel de bladen uit die u niet vanuit het linkerdeelvenster wilt importeren.
-
-   ![](assets/select-sheets-to-import-drop-down-with-unselected.png)
-
-   Bladen die u hebt uitgeschakeld, worden weergegeven met een grijze achtergrond.
-
-1. (Optioneel) Klik op de pijl omlaag rechts van de kolomkop om een van de volgende handelingen uit te voeren:
-
-   * De naam van een veld wijzigen
-   * Verander het **type van Gebied**
-   * Werk het gebied **Beschrijving** bij
-
-1. (Voorwaardelijk) na het bijwerken van informatie over het gebied, klik **sparen**.
-
-1. Klik **Invoer** wanneer u bereid bent om uw dossier in te voeren.
-
-   De volgende informatie wordt geïmporteerd in Workfront Planning:
-
-   * Nieuwe recordtypen
-   * Nieuwe velden die zijn gekoppeld aan elk recordtype
-   * Nieuwe records gekoppeld aan elk recordtype
-
-   U kunt velden en records op de recordtypepagina&#39;s gaan beheren.
-
-   Iedereen met toegang tot de Planning van Workfront kan nu de ingevoerde verslagtypes en hun informatie bekijken en uitgeven.

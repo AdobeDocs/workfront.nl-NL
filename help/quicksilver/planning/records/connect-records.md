@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
+source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
 workflow-type: tm+mt
-source-wordcount: '3249'
+source-wordcount: '3332'
 ht-degree: 0%
 
 ---
@@ -200,13 +200,13 @@ U kunt verslagen van de Planning van Workfront op de volgende gebieden van een v
    >of
    >Klik **verbinden verslagen** (als het gebied leeg is) om verslagen van het verbonden verslag of objecten type toe te voegen.
    >
-   >![](assets/connect-records-from-record-page-field.png)
+   >![ verbindt verslagen van het gebied van de verslagpagina ](assets/connect-records-from-record-page-field.png)
 
 1. (Facultatief) klik **zie allen** om alle verslagen te tonen.
 
 1. (Voorwaardelijk) als u **klikte zie allen** in de vorige stap, **verbind voorwerpen** vakvertoningen.
 
-   ![](assets/connected-objects-table-for-records.png)
+   ![ Verbonden objecten lijst voor verslagen ](assets/connected-objects-table-for-records.png)
 
 1. Typ de naam van een record in het zoekvak en selecteer de naam wanneer de record in de lijst wordt weergegeven
 
@@ -282,7 +282,7 @@ Nadat u een verbinding hebt gemaakt tussen een recordtype en een Workfront-objec
 
    Als u **klikte zie allen** in de vorige stap, **verbindt voorwerpen** vakvertoningen.
 
-   ![](assets/connect-objects-box-to-select-projects.png)
+   ![ verbind objecten vakje om projecten ](assets/connect-objects-box-to-select-projects.png) te selecteren
 
 1. Typ de naam van een Workfront-object in het zoekvak en selecteer het vervolgens wanneer het in de lijst wordt weergegeven
 
@@ -359,7 +359,7 @@ Om records te verbinden met Experience Manager-elementen:
 
    De **Uitgezochte Assets** vakvertoningen. <!--we might change this to Connect assets-->
 
-   ![](assets/select-assets-box-for-aem-record-connections.png)
+   ![ Uitgezochte activa doos voor het verslagverbindingen van AEM ](assets/select-assets-box-for-aem-record-connections.png)
 
 1. Klik om een aantal van de volgende typen elementen te selecteren:
 
@@ -389,7 +389,7 @@ Om records te verbinden met Experience Manager-elementen:
 
 1. (Optioneel) Ga naar het recordtype dat u vanuit Experience Manager Assets hebt gekoppeld en klik op de naam van een element in het gekoppelde recordveld. De Experience Manager-gegevens van het element worden weergegeven in een pop-upvenster.
 
-   ![](assets/asset-pop-up-window-with-aem-details-and-thumbnail.png)
+   ![ Element pop-up venster met de details en de duimnagel van AEM ](assets/asset-pop-up-window-with-aem-details-and-thumbnail.png)
 
    De volgende velden worden weergegeven voor een afbeeldingsbestand:
 
@@ -403,7 +403,7 @@ Om records te verbinden met Experience Manager-elementen:
    * Gemaakt op
    * Datum gewijzigd
 
-1. (Facultatief) om de pagina van het de activaverslag van Experience Manager in Experience Manager te openen, ga naar de verslagtype pagina van het verslag u van verbindt, klik de naam van een activa in het verbonden verslaggebied om het pop-up venster te openen, dan klik **Open in AEM** pictogram ![](assets/open-asset-icon.png) om de activa te openen.
+1. (Facultatief) om de pagina van het de activaverslag van Experience Manager in Experience Manager te openen, ga naar de verslagtype pagina van het verslag u van verbindt, klik de naam van een activa op het verbonden verslaggebied om het pop-up venster te openen, dan klik **Open in AEM** pictogram ![ Open activa in het pictogram van AEM ](assets/open-asset-icon.png) om de activa te openen.
 
    Hiermee opent u het Experience Manager-middel in Adobe Experience Manager Assets.
 
@@ -424,7 +424,7 @@ Om records te verbinden met Experience Manager-elementen:
 1. Klik op de naam van een record.
 
    De voorvertoningspagina wordt geopend.
-1. (Facultatief) klik **Open in nieuw lusje** pictogram ![](assets/open-details-in-a-new-tab-icon.png) om de pagina van het verslag te openen.
+1. (Facultatief) klik **Open in nieuw lusje** pictogram ![ Open details in een nieuw lusjepictogram ](assets/open-details-in-a-new-tab-icon.png) om de pagina van het verslag te openen.
 1. Klik het **lusje van Verbindingen** in de voorproef of de pagina van het verslag.
 
    ![ het lusje van Verbindingen op verslag in de Planning van Workfront ](assets/connections-tab-on-record-in-workfront-planning.png)
@@ -449,24 +449,15 @@ Om records te verbinden met Experience Manager-elementen:
    Voor meer informatie, zie de sectie &quot;verslagen tot stand brengen aangezien u hen van andere verslagen&quot;in het artikel [ verbindt tot verslagen ](/help/quicksilver/planning/records/create-records.md).
 1. Voer de stappen uit die in de vorige secties zijn beschreven om records van Workfront Planning of objecten van Workfront of Experience Manager Assets te verbinden.
 De records en objecten worden direct toegevoegd.
-1. (Optioneel) Houd de muisaanwijzer boven de verbonden kaart van een record of object en klik vervolgens op het pictogram **Verbinding met record verbreken ![](assets/disconnect-icon-with-tooltip.png) om het record los te koppelen van het geselecteerde record.**
+1. (Facultatief) Beweeg over de verbonden kaart van een verslag of een voorwerp, dan klik **losmaken verslag** pictogram ![ losmaakt verslag ](assets/disconnect-icon-with-tooltip.png) om het van het geselecteerde verslag los te maken.
 
-   ![](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
+   ![ losmaakt verslagpictogram met tooltip op verbindingslusje ](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
 
    De record wordt onmiddellijk losgekoppeld van alle gebieden van de Workfront-planning of van andere toepassingen waar deze als verbonden kunnen worden weergegeven. De waarden van opzoekvelden worden ook verwijderd.
 
-## Connect-records van Workfront-objecten
-
-U moet het volgende hebben om de verslagen van de Planning van Workfront van de voorwerpen van Workfront te verbinden:
-
-* Verbindingen tussen recordtypen en Workfront-objecttypen die zijn ingesteld in Workfront Planning.
-* Uw Workfront of groepsbeheerder moet de sectie Planning toevoegen aan de Workfront-projecten, -portfolio&#39;s en -programma&#39;s in uw lay-outsjabloon.
-
-Voor meer informatie, zie [ verslagen in de sectie van de Planning van de voorwerpen van Adobe Workfront beheren ](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
-
 <div class="preview">
 
-## Verbind verslagen van het lusje van de mening van de Verbinding op de detailpagina van een verslag
+### Verbind verslagen van het lusje van de mening van de Verbinding op de detailpagina van een verslag
 
 <!--section needs title edit when they rename the "Connection view" page type-->
 
@@ -485,3 +476,22 @@ Voor meer informatie, zie [ verslagen in de sectie van de Planning van de voorwe
 1. (Optioneel) Als u geen verbonden record kunt vinden, klikt u op **+ Toevoegen** om deze te maken en te verbinden.
 
 </div>
+
+## Connect-records van Workfront-objecten
+
+U moet het volgende hebben om de verslagen van de Planning van Workfront van de voorwerpen van Workfront te verbinden:
+
+* Verbindingen tussen recordtypen en Workfront-objecttypen die zijn ingesteld in Workfront Planning.
+* Uw Workfront- of groepsbeheerder moet het volgende toevoegen aan een Workfront-objecttype:
+
+   * Het gedeelte Planning van de Workfront-projecten, -portfolio&#39;s en -programma&#39;s in uw lay-outsjabloon.
+
+   * In het aangepaste veld voor planningsverbindingen wordt een aangepast formulier gemaakt voor een van de volgende objecten:
+
+      * Project
+      * Portfolio
+      * Programma
+      * Groep
+      * Bedrijf
+
+  Voor meer informatie, zie [ verslagen in de sectie van de Planning van de voorwerpen van Adobe Workfront beheren ](/help/quicksilver/planning/records/manage-records-in-planning-section.md).

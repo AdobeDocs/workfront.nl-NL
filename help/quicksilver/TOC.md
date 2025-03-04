@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 77cc1acde87b2ada96117daa06e98ba38e64fa8a
+source-git-commit: c9a5ba9a35bddfc45756cf04cd1a3da9d7a3105f
 workflow-type: tm+mt
-source-wordcount: '13018'
+source-wordcount: '13041'
 ht-degree: 0%
 
 ---
@@ -2017,6 +2017,7 @@ ht-degree: 0%
       * [Werkruimten maken](planning/architecture/create-workspaces.md)
       * [Overzicht van recordtypen](planning/architecture/overview-of-record-types.md)
       * [Recordtypen maken](planning/architecture/create-record-types.md)
+      * [Recordtypen maken door informatie uit een CSV- of Excel-bestand te importeren](planning/architecture/import-file-to-create-record-types.md)
       * [Overzicht van Connect-recordtypen](planning/architecture/connect-record-types-overview.md)
       * [Verbind recordtypen](planning/architecture/connect-record-types.md)
       * [Recordtypen bewerken](planning/architecture/edit-record-types.md)
@@ -2045,6 +2046,7 @@ ht-degree: 0%
    * Adobe Workfront-planningsrecords {#adobe-workfront-planning-records}
       * [ Verslagen: artikelindex ](planning/records/records-information.md)
       * [Records maken](planning/records/create-records.md)
+      * [Records maken door gegevens te importeren uit een CSV- of Excel-bestand](planning/records/import-file-to-create-records.md)
       * [Overzicht van verbonden records](planning/records/connected-records-overview.md)
       * [Connect-records](planning/records/connect-records.md)
       * [Records bewerken](planning/records/edit-records.md)
