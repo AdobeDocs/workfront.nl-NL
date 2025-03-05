@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: bb6697241701160f878dc3fde2c7dd4d57ec097e
+source-git-commit: 47aa463406c2807a375297f296b3e81eca1285bb
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1533'
 ht-degree: 0%
 
 ---
@@ -223,10 +223,18 @@ Een gebruiker goedkeuren:
    Geweigerde gebruikers worden automatisch uit Workfront verwijderd.
 
 
+## Bestaande gebruikers in de Adobe Admin Console bewerken
 
+U kunt de volgende gebruikersgegevens bewerken in de Adobe Admin Console:
 
+* Gebruikersgroepen en producten die aan de gebruiker zijn gekoppeld
+* Administratieve rechten
+* Land
 
+Voor informatie bij het uitgeven van één enkele gebruiker in Adobe Admin Console, zie [ gebruikersdetails ](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#edit-user-details) in het artikel uitgeven individuele gebruikers in de documentatie van Adobe.
 
+Voor informatie over gebruikers van bulkbewerking in de Adobe Admin Console raadpleegt u
+[ geef gebruikersdetails ](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html#edit-user-details) in het artikel uit leidt veelvoudige gebruikers in de documentatie van Adobe.
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>&nbsp;</p>
