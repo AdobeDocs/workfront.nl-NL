@@ -7,9 +7,9 @@ description: U kunt de taakverdeler gebruiken om middelen voor het werk te plann
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
+source-git-commit: 496420d1c74b7c29d0fb2ff7109ea8478680d117
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '724'
 ht-degree: 0%
 
 ---
@@ -97,6 +97,8 @@ In de volgende secties ziet u waar u toegang kunt krijgen tot Workload Balancer 
      We raden u aan filters te gebruiken wanneer u gebruikers weergeeft in het gebied Toegewezen werk. Voor meer informatie, zie [ informatie van de Filter in de Balancer van de Werklast ](../workload-balancer/filter-information-workload-balancer.md).
 
 ### Toegang tot de werklastbalans voor een team
+
+Voor meer informatie over teams in Workfront, zie [ Overzicht van Teams ](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/teams-overview.md).
 
 {{step1-to-team}}
 
