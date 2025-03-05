@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1567'
 ht-degree: 0%
 
 ---
@@ -24,10 +24,16 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-U kunt Workfront Planning-records en de bijbehorende records die zijn verbonden met Adobe Workfront-objecten weergeven in de volgende gebieden in Workfront:
+U kunt Workfront Planning-records in Workfront weergeven in de volgende gebieden van de objecten die ermee zijn verbonden:
 
 * Het gedeelte Planning van een Workfront-object: geeft alle recordtypen weer die zijn verbonden met een object en de bijbehorende gekoppelde records.
 * A Planning connection custom field: Toont één recordtype en zijn respectieve verbonden verslagen.
+
+<!--replace the last sentence above with this: 
+
+Displays one record type, its respective connected records, <span class="preview">and up to 7 lookup fields of the connected records.</span>
+
+-->
 
 ## Toegangsvereisten
 
@@ -85,6 +91,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   <tr>
    <td role="rowheader"><p>Configuratie op toegangsniveau</p></td>
    <td> <p>Toegang tot projecten, programma's en portfolio's weergeven of vergroten</p>  
+   <p>Er is geen configuratie van het toegangsniveau voor de Planning van Workfront. </p>
 </td>
   </tr>
 <tr>
@@ -203,11 +210,19 @@ Voor meer informatie, zie [ een vorm ](/help/quicksilver/administration-and-setu
 
 Overweeg het volgende wanneer u de verslagen van de Planning van Workfront van een de verbindingsgebied van de Planning van een voorwerp van Workfront bekijkt:
 
-* U kunt slechts één verslagtype met één de verbindingsgebied van de Planning associëren.
-* U moet een douaneformulier met een de verbindingsdouane van de Planning aan een voorwerp van Workfront vastmaken dat van de Planning van Workfront kan worden verbonden, als u de correcte toegang hebt.
-* Workfront Planning-recordtypen moeten eerst worden verbonden met Workfront-objecttypen. Voor informatie, zie [ verbind verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
-* U kunt records van het verbindingsveld Planning van een Workfront-object alleen verbinden of verbreken voor objecten die Workfront-planningsverbindingen kunnen hebben.
+<!--
+* A Planning connection field displays in the following ways on a Workfront object's custom form, after Planning records are connected to the Workfront object:
+
+   * If only the primary field of the connected record is selected, as a field with multiple values, if the connection allows for multiple records to be linked. For information, see [Connect record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+   * <span class="preview">If any additional lookup fields from the connected record are selected, the Planning connection field displays as a table. Up to 7 fields can be selected for the Planning connection field. The table view is read-only.  </span>
+-->
+* U kunt slechts één verslagtype met één de verbindingsgebied van de Planning associëren. Er geldt geen limiet voor het aantal planningsverbindingsvelden dat u op een formulier hebt.
+* U moet de correcte toegang en de toestemmingen aan het voorwerp, het verslag, en de Planning van Workfront hebben om een douaneformulier met een de verbindingsdouanegebied van de Planning aan een voorwerp van Workfront vast te maken.
 * U moet Contribute-machtigingen hebben voor een werkruimte in Workfront Planning om verbinding te kunnen maken met records in het veld voor planningsverbinding van een Workfront-object of om de verbinding met records te verbreken.
+* Workfront Planning-recordtypen moeten eerst worden verbonden met Workfront-objecttypen. Voor informatie, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).Dit maakt de verslagen van de Planning van Workfront toegankelijk van Workfront.
+* U kunt records van het verbindingsveld Planning van een Workfront-object alleen verbinden of verbreken voor objecten die Workfront-planningsverbindingen kunnen hebben.
+
+  U kunt bijvoorbeeld een aangepast formulier met een veld voor een planningsverbinding aan taken koppelen, maar u kunt geen objecten voor Workfront-planning aan taken koppelen.
 * U kunt een veld voor de planningsverbinding niet bewerken als u Workfront-objecten bulksgewijs bewerkt.
 
 ### Recordverbindingen beheren vanuit het type Verbindingsveld Planning
@@ -249,9 +264,15 @@ Overweeg het volgende wanneer u de verslagen van de Planning van Workfront van e
    * De records worden direct verbonden met het Workfront-object en worden weergegeven in het verbindingsveld Planning en in het gedeelte Planning van het Workfront-object.
    * Het Workfront-object wordt toegevoegd aan het veld voor het maken van een verbinding in het Workfront-planningsrecord.
    * De waarden voor de opzoekvelden van Workfront die zijn verbonden met de planningsrecord, worden ingevuld in Workfront Planning.
-1. (Optioneel) Klik op de naam van een record in het veld Verbinding plannen om de record te openen in Workfront Planning.
-Het tabblad met recorddetails wordt geopend in Workfront Planning.
-U kunt informatie over de record controleren of naar de pagina met recordtypen navigeren.
+   <!--* <span class="preview">If any record lookup fields were added when the custom form was set up, the record's lookup fields populate automatically in a table view. The table view in the Planning connection field is read-only</span>
+   
+      ![](assets/planning-connection-field-with-table-on-project-details-custom-form.png)-->
+
+1. (Optioneel) Klik op de naam van een record <!--<span class="preview">or hover the name of the record in the table, then click the **Open record** icon ![Open record icon on Planning connection custom form](assets/open-record-icon-on-planning-connection-custom-form.png)</span>--> in het veld Verbinding plannen om de record te openen in Workfront Planning.
+Het voorvertoningsvenster voor details van de Workfront-planningsrecord wordt geopend.
+U kunt informatie over het verslag herzien of uitgeven, of **Open in een nieuw lusje** pictogram ![ Open verslag in nieuw lusje ](assets/open-details-in-a-new-tab-icon.png) klikken om de pagina van de verslagdetails te openen.
 
 1. (Facultatief) van de douanevorm in Workfront, klik **verwijderen** pictogram ![](assets/remove-icon.png) op een verslag om het uit het de verbindingsgebied van de Planning te verwijderen en het van het voorwerp van Workfront los te maken.
 Het Workfront-object wordt losgekoppeld van de planningsrecord en alle opzoekgegevens uit Workfront worden uit de record verwijderd.
+
+1. Klik **sparen Veranderingen** om de douanevorm en om het even welke andere veranderingen te bewaren u aan het voorwerp van Workfront aanbracht.

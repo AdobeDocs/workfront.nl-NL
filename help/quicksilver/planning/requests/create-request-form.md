@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '1869'
+source-wordcount: '1865'
 ht-degree: 0%
 
 ---
@@ -144,7 +144,7 @@ Voor informatie over het voorleggen van de verzoeken van de Planning van Workfro
    * Veldwaarden voor personen worden weergegeven als id&#39;s.
    * Formule velden die niet naar andere velden of berekeningen verwijzen, geven geen waarden weer. Een veld met een formule `STRING` geeft bijvoorbeeld de waarde &quot;N/A&quot; weer.
    * Formule velden die naar valutavelden verwijzen, geven de waarden weer zonder rekening te houden met de wisselkoersen.
-   * De waarden van Alineasvelden met een speciale opmaak geven een &quot;N.v.t.&quot;-waarde weer op het aanvraagformulier en geven HTML-codes weer in plaats van de opgemaakte tekst op de pagina met aanvraagdetails.
+   * De waarden van de gebieden van de Paragraaf tonen een waarde &quot;N.v.t.&quot;op het verzoekformulier en zij tonen HTML markeringen in plaats van de geformatteerde tekst op de pagina van de verzoekdetails.
 
 </div>
 

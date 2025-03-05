@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 6a46486b62974f1cc7033b4497d32ab787b05bf2
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
 source-wordcount: '6493'
 ht-degree: 0%
@@ -16,6 +16,13 @@ ht-degree: 0%
 ---
 
 # Een aangepast formulier maken
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
+
+-->
 
 U kunt een aangepast formulier ontwerpen met de formulierontwerper in Adobe Workfront. U kunt aangepaste formulieren aan verschillende Workfront-objecten koppelen om gegevens over die objecten vast te leggen.
 
@@ -1005,6 +1012,17 @@ Een verbindingsveld voor planning toevoegen:
     </tbody> 
    </table>
 
+
+   <!--
+
+    Add this to the table - one more row at the bottom at release time: 
+
+    <span class="preview">Record type fields</span>
+      
+    <p><span class="preview">(Optional) Select up to 7 lookup fields from the connected record type to display in the custom form. The primary field is selected by default and cannot be edited. </span></p> <span class="preview"><p> The connected record's fields that you select display in the table view on the custom form. The records that will later display on the selected Workfront objects' custom form will not be editable in the table view of the custom form.</span></p>  
+    <img src="assets/planning-connections-field-with-table-on-form-preview.png">
+    -->
+
 1. (Optioneel) Herhaal de vorige stappen om andere velden toe te voegen.
 
    of
@@ -1029,3 +1047,6 @@ Een verbindingsveld voor planning toevoegen:
 ## Een formulier organiseren en een voorbeeld bekijken met de formulierontwerper
 
 Voor informatie over hoe te om een douanevorm met sectieonderbrekingen te organiseren en een voorproef van de vorm te zien, zie [ een vorm met de vormontwerper organiseren en voorproef ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
+
+
+

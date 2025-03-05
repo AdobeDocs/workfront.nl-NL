@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: f6484489f4726b606cc9840beed77ec8ab48a518
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '364'
+ht-degree: 1%
 
 ---
 
@@ -44,7 +44,7 @@ In de volgende tabel staan de limieten voor het aantal objecten dat u kunt maken
 | De snelheid waarmee API-aanvragen kunnen worden ingediend | 200 verzoeken per minuut |
 | Aantal weergaven dat een gebruiker voor één recordtype kan maken | 100 |
 | De grootte van CSV van het dossier van Excel u kunt invoeren om recordtypes tot stand te brengen | 5 MB |
-| Aantal rijen dat u in een CSV- of Excel-bestand kunt importeren om recordtypen te maken | 10.000 |
+| Aantal rijen dat u in een CSV- of Excel-bestand kunt importeren om recordtypen te maken | 25.000 |
 | Aantal kolommen dat u in een CSV- of Excel-bestand kunt importeren om recordtypen te maken | 500 |
 
 *Wij adviseren om niet te veel werkruimten te hebben, aangezien zij moeilijk zouden kunnen worden te beheren en uw werkschema&#39;s zouden te gefragmenteerd kunnen zijn.

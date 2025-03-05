@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '7392'
+source-wordcount: '7388'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ U kunt de weergave of werkruimte openen vanuit het e-mailbericht wanneer de mach
 
 >[!NOTE]
 >
->Uw organisatie moet aan de Adobe Verenigde Ervaring voor gebruikers worden bezet om toestemmingen aan een mening of een werkruimte van een toestemmingsverzoek te kunnen verzoeken en verlenen.
+>Uw organisatie moet aan de Verenigde Ervaring van Adobe worden bezet voor gebruikers om toestemmingen aan een mening of een werkruimte van een toestemmingsverzoek te kunnen verzoeken en verlenen.
 
 
 Voor informatie, zie [ toestemmingen van het Verzoek aan een mening of een werkruimte ](/help/quicksilver/planning/access/request-permissions.md).
@@ -268,7 +268,7 @@ Op dit moment kunt u het volgende maken wanneer u records verbindt:
 
 * Workfront-planningsrecords
 * Workfront Projecten zonder sjabloon
-* Workfront Portfolio&#39;s
+* Workfront-portfolio&#39;s
 
 U kunt geen andere verbonden Workfront-objecten of Experience Manager-elementen maken wanneer u deze verbindt met een record.
 
@@ -563,7 +563,7 @@ Productie: 21 juni 2024
 
 Voorbeeld: te bepalen
 
-We hebben gewijzigd welke typen gebruikers volledige toegang tot werkruimten kunnen hebben. Nu kunnen alleen gebruikers met een licentie voor Standaard of Plan beschikken over beheermachtigingen voor werkruimten. De toegang tot recordtypen, records en velden wordt overgenomen van een werkruimte. Alle andere gebruikers hebben alleen-weergeven toegang tot werkruimten en hun objecttypen. Gebruikers met een licentie voor Light en Worker kunnen vóór deze update Contribute-machtigingen ontvangen voor werkruimten.
+We hebben gewijzigd welke typen gebruikers volledige toegang tot werkruimten kunnen hebben. Nu kunnen alleen gebruikers met een licentie voor Standaard of Plan beschikken over beheermachtigingen voor werkruimten. De toegang tot recordtypen, records en velden wordt overgenomen van een werkruimte. Alle andere gebruikers hebben alleen-weergeven toegang tot werkruimten en hun objecttypen. Vóór deze update kunnen gebruikers met een licentie voor Licht en Worker Contribute-machtigingen voor werkruimten ontvangen.
 
 Voor meer informatie, zie [ het type van Vergunning overzicht wanneer het gebruiken van de Planning van Adobe Workfront ](/help/quicksilver/planning/access/license-type-overview.md).
 
@@ -715,7 +715,7 @@ De volgende acties zijn beschikbaar in het gedeelte Planning in Workfront:
 
 * Open het detailvoorvertoningsvak of de pagina voor meer informatie over de verbonden records
 
-Voor informatie, zie [ verslagen in de sectie van de Planning van de voorwerpen van Adobe Workfront ](/help/quicksilver/planning/records/manage-records-in-planning-section.md) leiden.
+Voor informatie, zie [ recordverbindingen van de voorwerpen van Workfront beheren ](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
 
 ## Week van 13 mei 2024
 
@@ -794,13 +794,13 @@ We hebben het uiterlijk van opnametypekaarten bijgewerkt wanneer we deze in een 
 
 Voor informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
 
-### Laat de berichten van de Planning van Workfront voor Adobe Verenigde klanten van de Ervaring toe
+### Workfront-planningsmeldingen inschakelen voor klanten met Adobe Unified Experience
 
 Productie: 8 mei 2024
 
 Voorbeeld: vast te stellen
 
-Als u een Adobe Verenigde klant van de Ervaring bent en iemand u aan een commentaar op de verslagpagina toevoegt, ontvangt u een in-app en een e-mailbericht over de commentaar. U kunt uw berichtvoorkeuren beheren in het gedeelte Voorkeuren van uw Adobe Experience Cloud-profiel. Voor meer informatie, zie [ voorkeur en berichten van de Rekening ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
+Als u een Adobe Unified Experience-klant bent en iemand u toevoegt aan een opmerking op de recordpagina, ontvangt u een bericht in de app en een e-mailbericht over de opmerking. U kunt uw berichtvoorkeuren beheren in het gedeelte Voorkeuren van uw Adobe Experience Cloud-profiel. Voor meer informatie, zie [ voorkeur en berichten van de Rekening ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
 Voor meer informatie over Workfront planningsberichten, zie [ de berichten van de Planning van Adobe Workfront: De index van het Artikel ](/help/quicksilver/planning/notifications/notifications-information.md).
 
@@ -1101,7 +1101,7 @@ Hieronder ziet u de hoogste niveaus van machtigingen die gebruikers kunnen ontva
 
 * Gebruikers met een licentie voor abonnementen (of standaardlicenties in het nieuwe licentiemodel) kunnen werkruimten, recordtypen en records maken en beheren.
 
-* Gebruikers met een werkvergunning (of licht in het nieuwe licentiemodel) kunnen een werkruimte weergeven en hieraan een bijdrage leveren die met hen wordt gedeeld, en de recordtypen en -records van die werkruimte.  Gebruikers met een licentie voor werken (of Lichte tinten) kunnen ook records maken, bewerken en verwijderen in werkruimten waar ze toegang hebben tot Contribute.
+* Gebruikers met een werkvergunning (of licht in het nieuwe licentiemodel) kunnen een werkruimte weergeven en hieraan een bijdrage leveren die met hen wordt gedeeld, en de recordtypen en -records van die werkruimte.  Gebruikers met een werkvergunning (of een lichte licentie) kunnen ook records maken, bewerken en verwijderen in werkruimten waar ze toegang tot Contribute hebben.
 
 * Gebruikers met een licentie voor revisie of aanvrager (of Medewerker in het nieuwe licentiemodel) kunnen alleen de werkruimten weergeven die met hen worden gedeeld, alsmede de recordtypen en records van die werkruimten. Ze kunnen geen recordtypen of records maken, bewerken of verwijderen.
 
@@ -1246,7 +1246,7 @@ Hier volgen de machtigingsniveaus voor recordweergaven:
 * Weergave: gebruikers kunnen de weergave selecteren in het vervolgkeuzemenu Weergave van een pagina met recordtypen.
 * Beheren: gebruikers kunnen de weergave bewerken, delen en verwijderen.
 
-Voor meer informatie, zie [ Adobe plannend toegangsoverzicht ](/help/quicksilver/planning/access/access-overview.md) en [ Overzicht van het delen van toestemmingen in de planningsmogelijkheden van Adobe Workfront ](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+Voor meer informatie, zie [ Adobe die toegangsoverzicht ](/help/quicksilver/planning/access/access-overview.md) plant en [ Overzicht van het delen van toestemmingen in de planningsmogelijkheden van Adobe Workfront ](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
 ### Nieuw type formulierveld
 

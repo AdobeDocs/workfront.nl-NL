@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
+exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 0%
 
 ---
-
 
 # Recordtypen maken door informatie uit een CSV- of Excel-bestand te importeren
 
@@ -101,7 +101,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 * Velden zijn uniek voor hun respectievelijke recordtypen.
 * Elke rij in elk blad wordt een unieke record die is gekoppeld aan het respectievelijke recordtype.
 * Elk blad van het Excel-bestand mag het volgende niet overschrijden:
-   * 10.000 rijen
+   * 25.000 rijen
    * 500 kolommen
 * Het bestand mag niet groter zijn dan 5 MB.
 * Lege bladen worden niet ondersteund.

@@ -3,13 +3,13 @@ title: Records maken door gegevens uit een CSV- of Excel-bestand te importeren
 description: Records zijn afzonderlijke instanties van recordtypen. Dit zijn de objecttypen van Adobe Workfront Planning. In de Planning van Workfront, kunt u verslagen tot stand brengen door informatie van een CSV of dossier van Excel in te voeren.
 hide: true
 hidefromtoc: true
-source-git-commit: 9f17fcab210768923e866d2f1596f40ddf8a558e
+exl-id: 940945df-391c-4672-9d9d-180d5028509b
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '985'
 ht-degree: 0%
 
 ---
-
 
 <!-- add the following in the metadata when live:
 
@@ -82,12 +82,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   <tr> 
    <td role="rowheader"><p>Configuratie op toegangsniveau</p></td> 
    <td> <p>Er zijn geen toegangsniveaucontroles voor de Planning van Adobe Workfront</p> 
-   <p>Bewerk de toegang in Workfront voor de objecttypen die u wilt maken (projecten en portfolio's) terwijl u de records met deze eigenschappen verbindt. </p>  
+   <p>Bewerk de toegang in Workfront voor de objecttypen die u wilt maken (projecten, programma's en portfolio's) terwijl u de records met deze eigenschappen verbindt. </p>  
 </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objectmachtigingen</p></td> 
-   <td> <p>Rechten beheren in de werkruimte waaraan u records wilt toevoegen. </p>  
+   <td> <p>Draag of hogere toestemmingen aan de werkruimte bij u verslagen aan wilt toevoegen. </p>  
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>
    <p>Rechten voor Workfront-objecten (portfolio's) beheren om onderliggende objecten (projecten) toe te voegen.</p>
    </td> 
@@ -103,23 +103,23 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 +++
 
-## Overwegingen bij het importeren van recordtypen met een Excel- of CSV-bestand
+## Overwegingen bij het importeren van records met een Excel- of CSV-bestand
 
 * De kolomkoppen in elk blad worden de velden die zijn gekoppeld aan records.
 * Elke rij in elk blad wordt een unieke record.
 * Als het Excel-bestand meer dan één blad bevat, wordt alleen de informatie uit één blad geïmporteerd die u tijdens het importeren selecteert.
 * Het bestand mag het volgende niet overschrijden:
-   * 10.000 rijen
+   * 25.000 rijen
    * 500 kolommen
 * Het bestand mag niet groter zijn dan 5 MB.
 * Lege bladen worden niet ondersteund.
 * Het veld van de volgende typen wordt niet ondersteund en kan niet worden toegewezen aan velden op het importblad:
-   * Velden van verbonden records of verbonden Workfront-objecten opzoeken
+   * Verbindingen en opzoekvelden van verbonden records <!--or connected Workfront objects-->
    * Formuliervelden
    * Gemaakt op
    * Laatst gewijzigd op
    * Mensen
-* Als een multi- of single-select gebied wordt ingevoerd en het meer keuzen dan een gelijkaardig gebied in Planning heeft, worden de extra opties gecreeerd tijdens de invoer.
+   * Als een multi- of single-select gebied wordt ingevoerd en het meer keuzen dan een gelijkaardig gebied in Planning heeft, worden de extra opties gecreeerd tijdens de invoer. Alleen gebruikers met de machtiging Beheren in de werkruimte kunnen nieuwe keuzen importeren.
 
 ## Records maken door een CSV- of Excel-bestand te importeren
 
@@ -144,11 +144,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    Elke rij vertegenwoordigt een nieuwe record. Alleen de eerste 10 records worden weergegeven in het vak Voorbeeld en bewerken.
 
-1. (Facultatief) selecteer **creeer ontbrekende opties** in de laag-linkerhoek van het scherm. Als deze optie is ingeschakeld, worden de ontbrekende keuzen van velden met één of meerdere selecties toegevoegd.
+1. (Facultatief en voorwaardelijk) als u hebt leiden toestemmingen aan de werkruimte, **creeer ontbrekende opties** in de laag-linkerhoek van het scherm. Als deze optie is ingeschakeld, worden de ontbrekende keuzen van velden met één of meerdere selecties toegevoegd.
 
-   Als het geselecteerde recordtype bijvoorbeeld een enkel-geselecteerd statusveld heeft met de opties Nieuw, Bezig en Gesloten en als een statusveld dat uit een bestand is geïmporteerd ook de status In de wachtstand heeft, wordt de statuskeuze In wachtstand ook toegevoegd
+>[!NOTE]
+>
+>Als het geselecteerde recordtype bijvoorbeeld een enkel-geselecteerd statusveld met de opties Nieuw, Bezig en Gesloten heeft en een statusveld dat uit een bestand is geïmporteerd, ook de statuskeuze Status In wachtstand heeft, wordt de statuskeuze in de wachtstand ook toegevoegd.
+>
+>Als u geen beheermachtigingen hebt voor de werkruimte, kunt u records importeren, maar worden de extra opties niet gemaakt. In plaats daarvan, ontvangt u het volgende bericht in de hoger-juiste hoek van de Kaart de gebieden van de Planning aan uw doos van kolomkopballen: **de keuzen die niet in verbinding bestaan, zullen enig- of multi-uitgezochte gebieden niet worden toegevoegd**.
 
-   <!--when we add connected records and the info icon in the tool changes, also add those items to this step-->
+
+    &lt;!—wanneer wij verbonden verslagen en het infopictogram in de hulpmiddelveranderingen toevoegen, ook die punten aan deze stap toevoegen—> 
 
 1. Klik **Invoer**.
 
