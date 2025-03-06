@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: f9bf60fc39cc7cd26e242e7cc782ece060cc5471
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1465'
 ht-degree: 0%
 
 ---
@@ -184,7 +184,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
      </tr> 
      <tr> 
       <td role="rowheader">Alleen bedrijven, groepen en teams weergeven waartoe ze behoren</td> 
-      <td>Staat gebruikers toe om punten slechts met bedrijven, groepen, en teams te bekijken en te delen zij tot behoren.<p><strong> NOTA </strong>: De gebruikers met de vergunningen van de Aanvrager kunnen geen bedrijven bekijken zij niet tot behoren, zelfs als deze optie wordt geselecteerd.</td> 
+      <td>Staat gebruikers toe om punten slechts met bedrijven, groepen, en teams te bekijken en te delen zij tot behoren.<p><strong> NOTA </strong>: De gebruikers met de vergunningen van de Aanvrager of van de Medewerker kunnen geen bedrijven bekijken zij niet tot behoren, zelfs als deze optie wordt geselecteerd.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Zichtbaarheid van geplande uren of werkelijke uren nooit toestaan</td> 
@@ -212,7 +212,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    Voor meer informatie, zie [ het profiel van een gebruiker ](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
 
-   Voor informatie over hoe een beheerder van de Adobe een de toegangsniveau van de Beheerder van het Systeem aan gebruikers toewijst, zie [ een gebruiker volledige administratieve toegang verlenen ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+   Voor informatie over hoe een beheerder van Adobe een de toegangsniveau van de Beheerder van het Systeem aan een gebruikers toewijst, zie [ een gebruiker volledige administratieve toegang verlenen ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
 ## Standaard of Planner-gebruikers met beheerbare toegang tot functies {#planner-users}
 
