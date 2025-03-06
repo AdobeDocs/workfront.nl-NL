@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
+source-git-commit: 4072e71dc0ba76871e17da7718ed4b77a3cdbda6
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,7 @@ ht-degree: 0%
 
 <!-- Audited: 07/2024-->
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Voorproef voor alle klanten, of in het milieu van de Productie voor klanten die snelle versies toeliet.</span>
-
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken.</span>
-
-<span class="preview"> voor informatie over de huidige versie, zie [ Vierde Kwartaal 2024 versieoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).</span>
-
-U kunt taken beheren of taken uitgeven door Geavanceerde Toewijzingen te gebruiken.
+U kunt taken beheren of taken uitgeven gebruikend Geavanceerde Toewijzingen.
 
 U kunt de volgende toewijzingsgegevens aanpassen bij het maken van geavanceerde toewijzingen:
 
@@ -72,7 +66,7 @@ Bovendien kunt u geavanceerde toewijzingen maken in de volgende gebieden van Wor
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Contribute- of hogere machtigingen voor een taak of uitgave</p>  </td> 
+   <td> <p>Contribute of hoger machtigingen voor een taak of uitgave</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -102,7 +96,7 @@ Bovendien kunt u geavanceerde toewijzingen maken in de volgende gebieden van Wor
 
    <span class="preview">![ klik Geavanceerde ](assets/assignments-box-in-task-header.png)</span>
 
-1. Op de **mensen van het Onderzoek, de rol en het teamgebied**, begin de naam van een gebruiker, een rol, of een team te typen dan de naam te klikken wanneer het in de drop-down lijst verschijnt.
+1. Op de **mensen van het Onderzoek, de rol en het teamgebied**, begin de naam van een gebruiker, een rol, of een team te typen, dan de naam te klikken wanneer het in de drop-down lijst verschijnt.
 
    >[!NOTE]
    >
@@ -140,10 +134,6 @@ Bovendien kunt u geavanceerde toewijzingen maken in de volgende gebieden van Wor
      >Afhankelijk van hoe uw Workfront-beheerder of groepsbeheerder uw projectvoorkeuren heeft ingesteld, kan Workfront het schema van de taakeigenaar gebruiken om de tijdlijn van de taak te berekenen wanneer meerdere gebruikers aan de taak zijn toegewezen. Voor informatie over veelvoudige taaktoegewezen, zie &quot;veelvoudige gebruikers aan een taak&quot;sectie in het artikel toewijzen [ taken ](../../../manage-work/tasks/assign-tasks/assign-tasks.md) toewijzen.
 
    * **Toewijzingen** : Wanneer het Type van Duur van een taak Eenvoudig is, specificeer het aantal uren elke gebruiker of baanrol aan de taak zou moeten worden toegewezen. De som van alle toegewezen uren voor elke gebruiker is gelijk aan het aantal op het **Geplande Uren** gebied bij de bodem van de kolom van Toewijzingen. In alle andere gevallen geeft u het percentage aan tijd (of toewijzing) op dat de toegewezen persoon moet besteden aan het oplossen van de taak of kwestie.
-
-     <!--   
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: make sure this is right in the new UI for both classic and QS???)</p>   
-     -->
 
      >[!TIP]
      >   
