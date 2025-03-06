@@ -6,14 +6,14 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
 
-# Recordtypen maken door informatie uit een CSV- of Excel-bestand te importeren
+# Recordtypen maken door gegevens uit een CSV- of Excel-bestand te importeren
 
 <!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -158,4 +158,4 @@ Recordtypen importeren met een Excel- of CSV-bestand:
 
    U kunt velden en records op de recordtypepagina&#39;s gaan beheren.
 
-   Iedereen met toegang tot de Planning van Workfront kan nu de ingevoerde verslagtypes en hun informatie bekijken en uitgeven.
+   Iedereen met toegang tot de Planning van Workfront en de werkruimte kan nu de ingevoerde verslagtypes en hun informatie bekijken en uitgeven.

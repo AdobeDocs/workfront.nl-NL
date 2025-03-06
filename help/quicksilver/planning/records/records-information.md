@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
 recommendations: noDisplay, noCatalog
-source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
+source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,8 @@ Nadat u recordtypes in de Planning van Adobe Workfront creeert, kunt u individue
 
 In de volgende artikelen wordt beschreven hoe u records en de bijbehorende informatie kunt maken en beheren in Adobe Workfront Planning:
 
-* [ creeer verslagen ](/help/quicksilver/planning/records/create-records.md)
-  <!--* <span class="preview">[Create Records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md)</span>-->
+* [Records maken](/help/quicksilver/planning/records/create-records.md)
+* <span class="preview">[ creeer verslagen door informatie van een CSV of dossier van Excel ](/help/quicksilver/planning/records/import-file-to-create-records.md)</span> in te voeren
 * [Workfront-objecten maken vanuit Workfront Planning wanneer u deze verbindt met records](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
 * [Objecten maken met Adobe Workfront Planning-recordautomatisering](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
 * [Records bewerken](/help/quicksilver/planning/records/edit-records.md)

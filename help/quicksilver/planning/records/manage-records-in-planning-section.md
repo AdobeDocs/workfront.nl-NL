@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1793'
 ht-degree: 0%
 
 ---
@@ -18,22 +18,16 @@ ht-degree: 0%
 
 # Recordverbindingen beheren vanuit Workfront-objecten
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken.</span>
 
 {{planning-important-intro}}
 
 U kunt Workfront Planning-records in Workfront weergeven in de volgende gebieden van de objecten die ermee zijn verbonden:
 
 * Het gedeelte Planning van een Workfront-object: geeft alle recordtypen weer die zijn verbonden met een object en de bijbehorende gekoppelde records.
-* A Planning connection custom field: Toont één recordtype en zijn respectieve verbonden verslagen.
-
-<!--replace the last sentence above with this: 
-
-Displays one record type, its respective connected records, <span class="preview">and up to 7 lookup fields of the connected records.</span>
-
--->
+* Een gebied van de verbindingsdouane van de Planning: Toont één verslagtype, zijn respectieve verbonden verslagen, <span class="preview"> en tot 7 raadplegingsgebieden van de verbonden verslagen.</span>
 
 ## Toegangsvereisten
 
@@ -210,12 +204,11 @@ Voor meer informatie, zie [ een vorm ](/help/quicksilver/administration-and-setu
 
 Overweeg het volgende wanneer u de verslagen van de Planning van Workfront van een de verbindingsgebied van de Planning van een voorwerp van Workfront bekijkt:
 
-<!--
-* A Planning connection field displays in the following ways on a Workfront object's custom form, after Planning records are connected to the Workfront object:
+* Een de verbindingsgebied van de Planning toont op de volgende manieren op de douanevorm van een voorwerp van Workfront, nadat de verslagen van de Planning met het voorwerp van Workfront worden verbonden:
 
-   * If only the primary field of the connected record is selected, as a field with multiple values, if the connection allows for multiple records to be linked. For information, see [Connect record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
-   * <span class="preview">If any additional lookup fields from the connected record are selected, the Planning connection field displays as a table. Up to 7 fields can be selected for the Planning connection field. The table view is read-only.  </span>
--->
+   * Als alleen het primaire veld van de verbonden record is geselecteerd, wordt het veld voor de planningsverbinding weergegeven als een veld met meerdere waarden, als de verbinding toestaat dat meerdere records worden gekoppeld. Voor informatie, zie [ verbind verslagtypes overzicht ](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+   * <span class="preview"> als om het even welke extra raadplegingsgebieden van het verbonden verslag worden geselecteerd, de vertoningen van het de verbindingsgebied van de Planning als lijst. U kunt maximaal 7 velden selecteren voor het verbindingsveld Planning. De tabelweergave is alleen-lezen.  </span>
+
 * U kunt slechts één verslagtype met één de verbindingsgebied van de Planning associëren. Er geldt geen limiet voor het aantal planningsverbindingsvelden dat u op een formulier hebt.
 * U moet de correcte toegang en de toestemmingen aan het voorwerp, het verslag, en de Planning van Workfront hebben om een douaneformulier met een de verbindingsdouanegebied van de Planning aan een voorwerp van Workfront vast te maken.
 * U moet Contribute-machtigingen hebben voor een werkruimte in Workfront Planning om verbinding te kunnen maken met records in het veld voor planningsverbinding van een Workfront-object of om de verbinding met records te verbreken.
@@ -264,13 +257,13 @@ Overweeg het volgende wanneer u de verslagen van de Planning van Workfront van e
    * De records worden direct verbonden met het Workfront-object en worden weergegeven in het verbindingsveld Planning en in het gedeelte Planning van het Workfront-object.
    * Het Workfront-object wordt toegevoegd aan het veld voor het maken van een verbinding in het Workfront-planningsrecord.
    * De waarden voor de opzoekvelden van Workfront die zijn verbonden met de planningsrecord, worden ingevuld in Workfront Planning.
-   <!--* <span class="preview">If any record lookup fields were added when the custom form was set up, the record's lookup fields populate automatically in a table view. The table view in the Planning connection field is read-only</span>
-   
-      ![](assets/planning-connection-field-with-table-on-project-details-custom-form.png)-->
+   * <span class="preview"> als uw Workfront of groepsbeheerder opzoekgebieden van het verslag toevoegde toen zij de douanevorm creeerden, bevolken de opzoekingsgebieden van het verslag automatisch in een lijstmening. De lijstmening in het de verbindingsgebied van de Planning is read-only </span>
 
-1. (Optioneel) Klik op de naam van een record <!--<span class="preview">or hover the name of the record in the table, then click the **Open record** icon ![Open record icon on Planning connection custom form](assets/open-record-icon-on-planning-connection-custom-form.png)</span>--> in het veld Verbinding plannen om de record te openen in Workfront Planning.
+     ![](assets/planning-connection-field-with-table-on-project-details-custom-form.png)
+
+1. (Facultatief) klik de naam van een verslag <span class="preview"> of houd de naam van het verslag in de lijst, dan klik het **Open verslag** pictogram ![ Open verslagpictogram op de Vorm van de de verbindingsdouane van de Planning ](assets/open-record-icon-on-planning-connection-custom-form.png)</span> in het de verbindingsgebied van de Planning om het in de Planning van Workfront te openen.
 Het voorvertoningsvenster voor details van de Workfront-planningsrecord wordt geopend.
-U kunt informatie over het verslag herzien of uitgeven, of **Open in een nieuw lusje** pictogram ![ Open verslag in nieuw lusje ](assets/open-details-in-a-new-tab-icon.png) klikken om de pagina van de verslagdetails te openen.
+1. Herzie of geef informatie over het verslag uit, of klik **Open in een nieuw lusje** pictogram ![ Open verslag in nieuw lusje ](assets/open-details-in-a-new-tab-icon.png) om de pagina van de verslagdetails te openen.
 
 1. (Facultatief) van de douanevorm in Workfront, klik **verwijderen** pictogram ![](assets/remove-icon.png) op een verslag om het uit het de verbindingsgebied van de Planning te verwijderen en het van het voorwerp van Workfront los te maken.
 Het Workfront-object wordt losgekoppeld van de planningsrecord en alle opzoekgegevens uit Workfront worden uit de record verwijderd.

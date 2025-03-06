@@ -1,22 +1,18 @@
 ---
 title: Records maken door gegevens uit een CSV- of Excel-bestand te importeren
 description: Records zijn afzonderlijke instanties van recordtypen. Dit zijn de objecttypen van Adobe Workfront Planning. In de Planning van Workfront, kunt u verslagen tot stand brengen door informatie van een CSV of dossier van Excel in te voeren.
-hide: true
-hidefromtoc: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
+recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '964'
 ht-degree: 0%
 
 ---
 
-<!-- add the following in the metadata when live:
-
-feature: Workfront Planning
-role: User, Admin
-author: Alina
-recommendations: noDisplay, noCatalog-->
 
 # Records maken door gegevens te importeren uit een CSV- of Excel-bestand
 
@@ -125,14 +121,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 {{step1-to-planning}}
 
-1. Klik op de werkruimte waar u recordtypen wilt maken.
+1. Klik op de werkruimte waar u records wilt maken.
 
    of
 
    Vouw in een werkruimte de pijl omlaag naar rechts uit, zoek naar een werkruimte en selecteer deze wanneer de werkruimte in de lijst wordt weergegeven.
 1. Klik op de kaart van het recordtype waar u de records wilt importeren.
 1. Klik **Nieuw verslag** in de hoger-juiste hoek van het scherm.
-1. Klik **uploaden van dossier**, dan **verdergaan**.
+1. Klik **uploaden van dossier**, dan **verdergaan**. <!--add screen shot when all three buttons are added - with the Submit a request button-->
 1. Sleep en laat vallen een Excel of Csv- dossier eerder op uw computer, of klik **Uitgezocht een Csv of dossier van Excel** om voor te doorbladeren.
 1. Klik **Voorproef en geef uit**.
 1. (Voorwaardelijk) als het ingevoerde dossier meer dan één blad heeft, selecteer het radioknoop van het blad u in **wilt invoeren Selecteer een blad om** doos in te voeren, dan klik **daarna**. Anders gaat u door met de volgende stap.
@@ -146,14 +142,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. (Facultatief en voorwaardelijk) als u hebt leiden toestemmingen aan de werkruimte, **creeer ontbrekende opties** in de laag-linkerhoek van het scherm. Als deze optie is ingeschakeld, worden de ontbrekende keuzen van velden met één of meerdere selecties toegevoegd.
 
->[!NOTE]
->
->Als het geselecteerde recordtype bijvoorbeeld een enkel-geselecteerd statusveld met de opties Nieuw, Bezig en Gesloten heeft en een statusveld dat uit een bestand is geïmporteerd, ook de statuskeuze Status In wachtstand heeft, wordt de statuskeuze in de wachtstand ook toegevoegd.
->
->Als u geen beheermachtigingen hebt voor de werkruimte, kunt u records importeren, maar worden de extra opties niet gemaakt. In plaats daarvan, ontvangt u het volgende bericht in de hoger-juiste hoek van de Kaart de gebieden van de Planning aan uw doos van kolomkopballen: **de keuzen die niet in verbinding bestaan, zullen enig- of multi-uitgezochte gebieden niet worden toegevoegd**.
+   >[!NOTE]
+   >
+   >Als het geselecteerde recordtype bijvoorbeeld een enkel-geselecteerd statusveld met de opties Nieuw, Bezig en Gesloten heeft en een statusveld dat uit een bestand is geïmporteerd, ook de statuskeuze Status In wachtstand heeft, wordt de statuskeuze in de wachtstand ook toegevoegd.
+   >
+   >Als u geen beheermachtigingen hebt voor de werkruimte, kunt u records importeren, maar worden de extra opties niet gemaakt. In plaats daarvan, ontvangt u het volgende bericht in de hoger-juiste hoek van de Kaart de gebieden van de Planning aan uw doos van kolomkopballen: **de keuzen die niet in verbinding bestaan, zullen enig- of multi-uitgezochte gebieden niet worden toegevoegd**.
 
 
-    &lt;!—wanneer wij verbonden verslagen en het infopictogram in de hulpmiddelveranderingen toevoegen, ook die punten aan deze stap toevoegen—> 
+   <!--when we add connected records and the info icon in the tool changes, also add those items to this step and to the NOTE-->
 
 1. Klik **Invoer**.
 
@@ -161,7 +157,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    * Nieuwe records die onder aan de tabelweergave van het geselecteerde recordtype worden weergegeven.
    * Nieuwe veldwaarden voor bestaande velden die aan elke record zijn gekoppeld.
-   * Nieuwe keuzen van een multi- of enig-uitgezocht gebied dat niet in Planning bestond.
+   * Nieuwe keuzen van een multi- of enig-uitgezocht gebied dat niet in Planning bestond.  <!--when we add connected records - add those here too-->
 
    U kunt velden en records beheren op de pagina met recordtypen.
 

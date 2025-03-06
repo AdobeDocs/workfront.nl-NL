@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
 workflow-type: tm+mt
-source-wordcount: '1804'
+source-wordcount: '1858'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ U kunt records maken door een van de volgende handelingen uit te voeren:
 * [Records maken terwijl u deze verbindt met andere records](#create-records-as-you-connect-them)
 * [Records maken door een aanvraagformulier naar een recordtype te verzenden](#create-records-by-submitting-a-request-form-to-a-record-type)
 * [Records maken bij het importeren van recordtypen uit een CSV- of Excel-bestand](#create-records-when-importing-record-types-from-a-csv-or-excel-file)
-<!--* <Span class="preview">[Create Records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md)</span> -->
+* <Span class="preview">[ creeer verslagen door informatie van een CSV of dossier van Excel ](/help/quicksilver/planning/records/import-file-to-create-records.md)</span> in te voeren
 * <span class="preview">[ creeer verslagen door automatiseringen ](#create-records-by-using-automations)</span> te gebruiken
 
 Raadpleeg de volgende artikelen voor informatie over het beheren van records in de tabel- of tijdlijnweergaven:
@@ -271,8 +271,6 @@ Om verslagen tot stand te brengen aangezien u hen van andere verslagen verbindt:
    of
 Typ een naam en klik vervolgens op **+ Toevoegen** . De knop **+ Toevoegen** wordt gevolgd door de naam van het recordtype waarmee u verbinding maakt. Bijvoorbeeld, &quot;voeg merken&quot;toe wanneer het toevoegen van een merk aan een bestaande campagne. De naam die u hebt getypt, volgt ook de knop Toevoegen.
 
-   <!--remove the first part of the step above to say just Click Add when the button will be persistent, for preview and production-->
-
    ![ voeg knoop toe om verslagen in benadrukte context te creëren ](assets/add-button-to-create-records-in-context-highlighted.png)
 
    De record wordt gemaakt en toegevoegd aan het verbonden recordveld.
@@ -305,18 +303,15 @@ U kunt records importeren wanneer u recordtypen importeert met een CSV- of Excel
 
 Voor informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
 
-<!--
 <div class="preview">
 
-## Create records when importing records from a CSV or Excel file
+## Records maken bij het importeren van records uit een CSV- of Excel-bestand
 
-You can import records for existing record types when you import information from a CSV or Excel file. 
+U kunt records voor bestaande recordtypen importeren wanneer u gegevens uit een CSV- of Excel-bestand importeert.
 
-For information, see [Create Records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md). 
+Voor informatie, zie [ verslagen tot stand brengen door informatie van een CSV of dossier van Excel ](/help/quicksilver/planning/records/import-file-to-create-records.md) in te voeren.
 
-</div> 
-
--->
+</div>
 
 <div class="preview">
 

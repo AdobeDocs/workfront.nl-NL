@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
+source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
 workflow-type: tm+mt
-source-wordcount: '1811'
+source-wordcount: '1818'
 ht-degree: 0%
 
 ---
@@ -277,9 +277,9 @@ Hieronder vindt u de belangrijkste Workfront-planningsobjecten en -concepten:
      ![](assets/new-connection-tab-with-workfront-aem-options.png)
 
 
-  Nadat u een verbinding tussen de recordtypen tot stand hebt gebracht, kunt u afzonderlijke records van die typen met elkaar verbinden. De verbinding tussen de records wordt weergegeven als een gekoppeld recordveld.
+  Nadat u een verbinding tot stand hebt gebracht tussen de recordtypen, kunt u afzonderlijke records of objecten van die typen met elkaar verbinden. De verbinding tussen de verslagen toont als verbonden verslaggebied, of een verbinding.
 
-* **Gekoppelde gebieden** (of raadplegingsgebieden): Nadat u de verbinding tussen twee verslagtypes vestigt en u individuele verslagen samen verbindt, kunt u de verbonden verslagen&#39; gebieden op het verslag van verwijzingen voorzien u van verbindt.
+* **Velden van de Raadpleging** (of verbonden gebieden): Nadat u de verbinding tussen twee verslagtypes vestigt en u individuele verslagen verbindt samen, kunt u de gebieden van het verbonden verslag van het verslag van verwijzingen voorzien u van verbindt.
 
   Bijvoorbeeld, als u een type van het verslag van de Campagne met een de objecten van het Project van Workfront type verbindt, kunt u het gebied van de Begroting van verbonden projecten op de campagneverslagen tonen.
 
