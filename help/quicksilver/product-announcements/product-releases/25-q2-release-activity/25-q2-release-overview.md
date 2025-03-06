@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: f90a1066202e2c949ab5bfebf85897060f1c29d2
+source-git-commit: 7dba8033919f015bed4d9e1f8c7581c94f9fff4c
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
@@ -64,6 +64,29 @@ Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen z
 </tbody>
 </table>
 
+### Verbeteringen voor documentbeheer
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Meerdere documenten tegelijk bewerken in een documentrapport </a></p>
+            <p>U kunt nu meerdere documenten tegelijk bewerken in een documentrapport. U kunt de beschrijvingen bewerken en aangepaste formulieren bijwerken.</p>
+        </td>
+        <td>
+            <p><b>Beschikbaar op deze data:</b></p>
+            <ul>
+                <li>Voorvertoningsrelease: 6 februari 2025</li>
+                <li><span class="preview">Productieversie voor alle klanten: 13 maart 2025</span></li>
+            </ul>
+        </td>
+    </tr>                          
+</tbody>
+</table>
+
 ### Projectverbeteringen
 
 <table>
@@ -94,6 +117,20 @@ Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen z
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Upgrade naar de nieuwe versie voor gebeurtenisabonnementen met de eindpunten voor versieverbeteringen</a></p>
+            [!BADGE in productie ]{type=Informative}
+            <p>Workfront heeft nu versies van gebeurtenisabonnementen. De nieuwe versie is geen wijziging in de Workfront API, maar een wijziging in de functionaliteit voor abonnementen voor gebeurtenissen. U kunt uw gebeurtenisabonnementen op de nieuwe versie schakelen zonder een hiaat in uw gebeurtenisabonnement te creëren</p>
+        </td>
+        <td>
+            <p><b>Beschikbaar op deze data:</b></p>
+            <ul>
+                <li><span class="preview">Productieversie voor alle klanten: 6 maart 2025</span></li>
+            </ul>
+        </td>
+    </tr>
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
