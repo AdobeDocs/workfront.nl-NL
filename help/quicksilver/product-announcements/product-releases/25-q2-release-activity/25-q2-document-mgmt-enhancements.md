@@ -4,9 +4,9 @@ description: Verbeteringen van projecten in het tweede kwartaal van 2025
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 7dba8033919f015bed4d9e1f8c7581c94f9fff4c
+source-git-commit: 1123c028a1971c7a66158b95642154e540dc3d0e
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwar
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 6 februari 2025; productie alle klanten: 13 maart 2025
+>Voorvertoningsrelease: 6 februari 2025; Productie voor alle klanten: 13 maart 2025
 
 U kunt nu meerdere documenten tegelijk bewerken in een documentrapport. U kunt de beschrijvingen bewerken en aangepaste formulieren bijwerken.
 
