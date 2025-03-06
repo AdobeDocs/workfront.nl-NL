@@ -7,17 +7,17 @@ description: U kunt meerdere documenten tegelijk bewerken in het gebied Document
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: 8c1f829eb29d8cd13524814d98ed353add15e881
+exl-id: e8badce6-86f5-416c-a238-f9b7f19cdd2d
+source-git-commit: f9ebf647c7672a9d471288806cf596d103007613
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
 
-
 # Documenten bulksgewijs bewerken
 
-<span class="preview"> de informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Sandbox van de Voorproef.</span>
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Sandbox van de Voorproef.</span>
 
 U kunt de beschrijving bewerken, aangepaste formulieren toevoegen en aangepaste formulieren in meerdere documenten tegelijk bewerken.
 
@@ -97,4 +97,33 @@ Documenten in bulk bewerken:
     </table>
 1. Klik **sparen**.
 
+<span class="preview">
 
+## Documenten in bulk bewerken in een documentrapport
+
+1. Navigeer naar een bestaand documentrapport.
+of
+Creeer een documentrapport zoals die in [ wordt beschreven een douanerapport ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+1. Selecteer de documenten die u wilt bewerken.
+1. Klik het Edit pictogram ![ uitgeven pictogram ](assets/edit-icon.png).
+   ![ geef pictogramplaats op pagina uit ](assets/edit-multiple-documents.png)
+1. (Facultatief) voeg of geef de **Beschrijving** uit. Als de beschrijving op elk document verschillend is, zult u _Veelvoudige waarden_ in de beschrijvingsdoos zien. U kunt dezelfde beschrijving toevoegen voor alle documenten, maar u kunt afzonderlijke documentbeschrijvingen niet bewerken als u deze bulksgewijs bewerkt.
+1. Breng de volgende wijzigingen aan in aangepaste formulieren:
+
+   <table>
+    <tr>
+    <td><strong>Formulieren toevoegen</strong></td>
+    <td>In <strong> voeg de doos van de douanevorm </strong> toe, kunt u van Bijgevoegde vormen en vormen kiezen om toe te voegen. Bijgevoegde formulieren bevinden zich in bepaalde geselecteerde documenten, maar niet in alle documenten. Een formulier dat aan alle geselecteerde documenten is gekoppeld, wordt automatisch in het bewerkingsvenster weergegeven.  </td>
+    </tr>
+    <tr>
+    <td><strong>Formulieren bewerken</strong></td>
+    <td>Aangepaste formulieren bewerken. De gegevens die u wijzigt, overschrijven de bestaande gegevens in afzonderlijke documenten. Velden met verschillende waarden in verschillende documenten worden weergegeven als "Meerdere waarden". </td>
+    </tr>
+    <tr>
+    <td><strong>Formulieren opnieuw rangschikken</strong></td>
+    <td>Klik en sleep het aangepaste formulier om het opnieuw te rangschikken.</td>
+    </tr>
+    </table>
+1. Klik **sparen**.
+
+</span>
