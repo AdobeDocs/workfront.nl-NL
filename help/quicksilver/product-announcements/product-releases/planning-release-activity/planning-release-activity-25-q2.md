@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: b03ac1037e03a70c7e685f5e6e53ce86755868c7
+source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
 workflow-type: tm+mt
-source-wordcount: '1660'
+source-wordcount: '1662'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ In dit artikel worden de functies beschreven die tijdens de release van het twee
 
 Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront worden vrijgegeven, zie [ de versieactiviteit van de Planning van Adobe Workfront: artikelindex ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
-## Opzoekvelden van verbonden records toevoegen aan Verbindingsvelden plannen in aangepaste Workfront-formulieren
+## Opzoekvelden toevoegen uit verbonden records in de verbindingsvelden van Workfront-aangepaste formulieren voor planning
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ Voor informatie, zie [ een douaneformulier ](/help/quicksilver/administration-an
 U kunt nu records importeren met een CSV- of Excel-spreadsheet van de pagina van een recordtype.
 Voorafgaand aan deze verbetering, kon u verslagen slechts invoeren wanneer het creëren van verslagtypes. Met deze update kunt u records importeren naar bestaande recordtypen.
 
-Voor informatie, zie [ Verslagen creëren door informatie van een CSV of dossier van Excel ](/help/quicksilver/planning/records/import-file-to-create-records.md) in te voeren.
+Voor informatie, zie [ verslagen tot stand brengen door informatie van een CSV of dossier van Excel ](/help/quicksilver/planning/records/import-file-to-create-records.md) in te voeren.
 
 ## Geef de recordnaam van een detailpagina van een Workfront-planningsaanvraag weer in de naam van het browsertabblad
 

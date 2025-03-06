@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
+source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '795'
 ht-degree: 0%
 
 ---
@@ -105,6 +105,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    * 500 kolommen
 * Het bestand mag niet groter zijn dan 5 MB.
 * Lege bladen worden niet ondersteund.
+* Velden van de volgende typen worden niet ondersteund en kunnen niet worden toegewezen aan velden op het importblad:
+   * Verbindingen en opzoekvelden van verbonden records <!--or connected Workfront objects-->
+   * Formuliervelden
+   * Gemaakt op
+   * Laatst gewijzigd op
+   * Mensen
 
 Recordtypen importeren met een Excel- of CSV-bestand:
 

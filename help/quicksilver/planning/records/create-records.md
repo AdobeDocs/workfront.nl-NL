@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
+source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
 workflow-type: tm+mt
-source-wordcount: '1858'
+source-wordcount: '1846'
 ht-degree: 0%
 
 ---
@@ -32,8 +32,7 @@ U kunt records maken door een van de volgende handelingen uit te voeren:
 * [Records dupliceren vanuit een tabelweergave](#create-records-by-duplicating-them)
 * [Records maken terwijl u deze verbindt met andere records](#create-records-as-you-connect-them)
 * [Records maken door een aanvraagformulier naar een recordtype te verzenden](#create-records-by-submitting-a-request-form-to-a-record-type)
-* [Records maken bij het importeren van recordtypen uit een CSV- of Excel-bestand](#create-records-when-importing-record-types-from-a-csv-or-excel-file)
-* <Span class="preview">[ creeer verslagen door informatie van een CSV of dossier van Excel ](/help/quicksilver/planning/records/import-file-to-create-records.md)</span> in te voeren
+* <span class="preview">[ creeer verslagen door informatie van een CSV of dossier van Excel ](#create-records-by-importing-records-from-a-csv-or-excel-file)</span> in te voeren
 * <span class="preview">[ creeer verslagen door automatiseringen ](#create-records-by-using-automations)</span> te gebruiken
 
 Raadpleeg de volgende artikelen voor informatie over het beheren van records in de tabel- of tijdlijnweergaven:
@@ -305,7 +304,7 @@ Voor informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/cre
 
 <div class="preview">
 
-## Records maken bij het importeren van records uit een CSV- of Excel-bestand
+## Records maken door records te importeren uit een CSV- of Excel-bestand
 
 U kunt records voor bestaande recordtypen importeren wanneer u gegevens uit een CSV- of Excel-bestand importeert.
 

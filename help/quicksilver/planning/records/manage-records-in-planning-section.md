@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
+source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: '1800'
 ht-degree: 0%
 
 ---
@@ -207,7 +207,7 @@ Overweeg het volgende wanneer u de verslagen van de Planning van Workfront van e
 * Een de verbindingsgebied van de Planning toont op de volgende manieren op de douanevorm van een voorwerp van Workfront, nadat de verslagen van de Planning met het voorwerp van Workfront worden verbonden:
 
    * Als alleen het primaire veld van de verbonden record is geselecteerd, wordt het veld voor de planningsverbinding weergegeven als een veld met meerdere waarden, als de verbinding toestaat dat meerdere records worden gekoppeld. Voor informatie, zie [ verbind verslagtypes overzicht ](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
-   * <span class="preview"> als om het even welke extra raadplegingsgebieden van het verbonden verslag worden geselecteerd, de vertoningen van het de verbindingsgebied van de Planning als lijst. U kunt maximaal 7 velden selecteren voor het verbindingsveld Planning. De tabelweergave is alleen-lezen.  </span>
+   * <span class="preview"> als uw Workfront of groepsbeheerder extra raadplegingsgebieden van het verbonden verslag op de douanevorm toevoegde, toont het de verbindingsgebied van de Planning als lijst. U kunt maximaal 7 velden selecteren voor het verbindingsveld Planning. De tabelweergave is alleen-lezen.  </span>
 
 * U kunt slechts één verslagtype met één de verbindingsgebied van de Planning associëren. Er geldt geen limiet voor het aantal planningsverbindingsvelden dat u op een formulier hebt.
 * U moet de correcte toegang en de toestemmingen aan het voorwerp, het verslag, en de Planning van Workfront hebben om een douaneformulier met een de verbindingsdouanegebied van de Planning aan een voorwerp van Workfront vast te maken.

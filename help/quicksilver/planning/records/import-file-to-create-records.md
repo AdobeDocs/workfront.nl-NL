@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
+source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
 workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 0%
@@ -109,7 +109,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    * 500 kolommen
 * Het bestand mag niet groter zijn dan 5 MB.
 * Lege bladen worden niet ondersteund.
-* Het veld van de volgende typen wordt niet ondersteund en kan niet worden toegewezen aan velden op het importblad:
+* Velden van de volgende typen worden niet ondersteund en kunnen niet worden toegewezen aan velden op het importblad:
    * Verbindingen en opzoekvelden van verbonden records <!--or connected Workfront objects-->
    * Formuliervelden
    * Gemaakt op
@@ -148,9 +148,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >
    >Als u geen beheermachtigingen hebt voor de werkruimte, kunt u records importeren, maar worden de extra opties niet gemaakt. In plaats daarvan, ontvangt u het volgende bericht in de hoger-juiste hoek van de Kaart de gebieden van de Planning aan uw doos van kolomkopballen: **de keuzen die niet in verbinding bestaan, zullen enig- of multi-uitgezochte gebieden niet worden toegevoegd**.
 
-
-   <!--when we add connected records and the info icon in the tool changes, also add those items to this step and to the NOTE-->
-
 1. Klik **Invoer**.
 
    De volgende informatie wordt geïmporteerd in Workfront Planning:
@@ -162,3 +159,5 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    U kunt velden en records beheren op de pagina met recordtypen.
 
    Iedereen met toegang tot de Planning van Workfront en de werkruimte kan nu de ingevoerde verslagen en hun informatie bekijken en uitgeven.
+
+   <!--when we add connected records and the info icon in the tool changes, also add those items to the Import step and to the NOTE above it-->
