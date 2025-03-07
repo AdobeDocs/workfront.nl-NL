@@ -5,9 +5,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: e9c6a01e80d34bc873c9a06ae0782dc65afb2445
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
@@ -90,8 +90,6 @@ U moet meldingen inschakelen in het gedeelte Setup van Workfront voordat gebruik
 
 1. (Facultatief) als u configuratie voor een e-mailbericht wilt ontgrendelen zodat de groepsbeheerders het voor hun groepen afzonderlijk kunnen vormen, klik de knoop ![ knevel van het Slot ](assets/lock-toggle-button.png) rechts van het bericht om het aan de ontgrendelde schakelaar ![ te schakelen Ontgrendelt knevel ](assets/unlock-toggle-button.png).
 
-   >[!NOTE]
-   >
-   >Deze functionaliteit is in eerste instantie alleen beschikbaar voor klanten met Cluster 4 als onderdeel van een gefaseerde uitrol. Het zal kort daarna beschikbaar worden voor andere clusters. Dit artikel wordt bijgewerkt naarmate dit gebeurt.
-
    Voor meer informatie, zie [ configuratie van de Ontgrendeling of van het slot van gebeurtenisberichten voor alle groepen ](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
+
+Gebruikers kunnen de frequentie van deze meldingen aanpassen in hun gebruikersprofiel.

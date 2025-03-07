@@ -7,14 +7,19 @@ description: Uit de visualisatie van het vliegplan blijkt hoeveel projecten (bin
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c64ed752-151a-40f7-ab18-684e2cd032bc
-source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '927'
 ht-degree: 0%
 
 ---
 
 # Bekijk de visualisatie van het vliegplan in de uitgebreide analyse
+
+>[!IMPORTANT]
+>
+>Enhanced Analytics wordt de week van 26 mei uit Workfront verwijderd. Workfront Data Connect is een nieuwe, alternatieve oplossing die kan worden gebruikt om alle Enhanced Analytics-visualisaties die u momenteel gebruikt, te repliceren. <br> zie de [ Verbeterde 2} gids van de Afleiding van Analytics {voor meer informatie.](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)
+
 
 Uit de visualisatie van het vliegplan blijkt hoeveel projecten (binnen de toegepaste filtercriteria) op de vlucht waren, welke veranderingen in de toestand zich gedurende de gehele looptijd van deze projecten hebben voorgedaan en in hoeverre deze projecten zich aan de geplande uiterste uitvoeringstermijnen hebben gehouden.
 

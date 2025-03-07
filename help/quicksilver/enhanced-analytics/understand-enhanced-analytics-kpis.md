@@ -7,9 +7,9 @@ description: Boven aan het scherm in het gedeelte Enhanced Analytics worden vier
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 44e43618-9a0b-4585-8659-c1fe055516be
-source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
@@ -18,8 +18,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Een bedrijfsplan of hoger is vereist om deze functie te kunnen gebruiken.\
->Voor meer informatie over de diverse beschikbare plannen, zie [ Abonnementen van Adobe Workfront ](https://www.workfront.com/plans).
+>Enhanced Analytics wordt de week van 26 mei uit Workfront verwijderd. Workfront Data Connect is een nieuwe, alternatieve oplossing die kan worden gebruikt om alle Enhanced Analytics-visualisaties die u momenteel gebruikt, te repliceren. <br> zie de [ Verbeterde 2} gids van de Afleiding van Analytics {voor meer informatie.](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)
+
+
+Een bedrijfsplan of hoger is vereist om deze functie te kunnen gebruiken.\
+Voor meer informatie over de diverse beschikbare plannen, zie [ Abonnementen van Adobe Workfront ](https://www.workfront.com/plans).
 
 Boven aan het scherm in het gedeelte Enhanced Analytics worden vier KPI&#39;s (Key Performance Indicators) weergegeven. Deze metriek staat u toe om snel te begrijpen hoe lang projecten nemen, hoe groot de projecten zijn, en hoeveel projecten binnen een specifiek tijdkader worden voltooid. Deze aantallen zijn niet beperkt tot het 50 projectmaximum dat voor de visualisaties op deze pagina toont. In plaats daarvan, is dit gegeven gebaseerd op alle projecten die op om het even welke vastgestelde filters van toepassing zijn, en deze aantallen passen als u de geselecteerde datumwaaier of om het even welke filters verandert.
 

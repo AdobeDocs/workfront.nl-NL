@@ -7,9 +7,9 @@ description: U kunt in Workfront een map maken die is gekoppeld met Experience M
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: 84760d5fe301bd0a44879490fb030bd29821bd41
+source-git-commit: e9c6a01e80d34bc873c9a06ae0782dc65afb2445
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -42,11 +42,11 @@ U moet het volgende hebben:
   <tr>
    <td><strong> Product </strong>
    </td>
-   <td>U moet Experience Manager Assets as a Cloud Service Assets Essentials hebben en u moet als gebruiker aan het product worden toegevoegd.
+   <td>U moet Experience Manager Assets as a Cloud Service of Assets Essentials hebben en u moet als gebruiker aan het product worden toegevoegd.
    </td>
   </tr>
   <tr>
-   <td>{de toestemmingen van 0} Experience Manager </strong><strong>
+   <td><strong> de toestemmingen van Experience Manager </strong>
    </td>
    <td>U moet schrijftoegang tot de bestemmingsomslag in de integratie van de Manager van de Ervaring hebben.
    </td>
@@ -54,7 +54,7 @@ U moet het volgende hebben:
   <tr>
    <td><strong> het niveauconfiguraties van de Toegang </strong>
    </td>
-   <td>U moet een beheerder van Workfront zijn om een integratie van de Experience Manager te vormen. Nadat het wordt gevormd, kunnen de gebruikers met een vergunning van het Plan opstelling verbonden omslagen op individuele projecten.
+   <td>U moet een Workfront-beheerder zijn om een Experience Manager-integratie te configureren. Nadat het wordt gevormd, kunnen de gebruikers met een vergunning van het Plan opstelling verbonden omslagen op individuele projecten.
    </td>
   </tr>
 </table>
@@ -68,14 +68,19 @@ U moet het volgende hebben:
 
 Voordat u begint,
 
-* Uw Workfront-beheerder moet een Experience Manager-integratie configureren. Voor meer informatie, zie [ de as a Cloud Service integratie van Experience Manager Assets ](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) vormen of [ vormen de integratie van de Hoofdzaak van Experience Manager Assets ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+* Uw Workfront-beheerder moet een Experience Manager-integratie configureren. Voor meer informatie, zie [ de integratie van Experience Manager Assets as a Cloud Service ](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) vormen of [ vormen de integratie van de Hoofdzaak van Experience Manager Assets ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 
 ## Een gekoppelde map maken
 
 De gekoppelde map wordt gemaakt op de locatie die door de Workfront-beheerder is opgegeven bij het instellen van de integratie. Elke integratie kan slechts één maplocatie voor gekoppelde mappen hebben.
 
-De naam voor de gekoppelde map wordt automatisch gemaakt op basis van het Portfolio, het programma, het project waaraan de map is gekoppeld en kan niet worden gewijzigd. Als het project niet met een Portfolio of een Programma wordt geassocieerd, zal de verbonden omslag de projectnaam en aanmaakdatum tonen.
+De naam voor de gekoppelde map wordt automatisch gemaakt op basis van de Portfolio, het programma, het project waaraan de map is gekoppeld en kan niet worden gewijzigd. Als het project niet aan een Portfolio of Programma wordt geassocieerd, zal de verbonden omslag de projectnaam en de aanmaakdatum tonen.
+
+>[!NOTE]
+>
+>U kunt geen nieuw document of proefdrukversie maken in een gekoppelde map.
+
 
 Een gekoppelde map maken:
 
@@ -84,7 +89,7 @@ Een gekoppelde map maken:
 
    >[!NOTE]
    >
-   >De Workfront-beheerder kan een willekeurige naam voor deze integratie kiezen, dus Experience Manager Assets of Assets Essentials worden niet specifiek genoemd.
+   >De Workfront-beheerder kan een willekeurige naam voor deze integratie kiezen, dus Experience Manager Assets of Assets Essentials wordt niet specifiek genoemd.
 
-1. Selecteer **creeer verbonden omslag**. Het systeem maakt automatisch een map in de Experience Manager op basis van de locatie die is opgegeven bij het instellen van de integratie.
+1. Selecteer **creeer verbonden omslag**. Het systeem maakt automatisch een map in Experience Manager op basis van de locatie die is opgegeven bij het instellen van de integratie.
    ![ creeer een verbonden omslag ](assets/linked-folder.png)

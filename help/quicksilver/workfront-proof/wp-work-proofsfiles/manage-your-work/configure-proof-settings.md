@@ -7,7 +7,7 @@ description: U kunt een proefdruk configureren die u maakt of bewerkt.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ca379054-4737-4796-a812-f2ec38b437ba
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+source-git-commit: 5635906462cf838c3ca162cb47b16f157e6a66f6
 workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 0%
@@ -113,11 +113,12 @@ Als u een abonnement op de proefdruk inschakelt, kunnen personen die niet explic
 
 Als Subscription is ingeschakeld op een proefdruk, worden de onderstaande velden geactiveerd:
 
-* **[!UICONTROL Subscriber validation required]** - Abonnees moeten op een koppeling in een e-mailbericht klikken om een proefafdruk te openen\
+* **[!UICONTROL Subscriber role]** - Dit is de standaardproefdrukrol die wordt toegewezen aan alle revisoren die zich op de proefdruk abonneren.
+* **[!UICONTROL Email alert settings for subscribers]** - Dit is de standaard e-mailwaarschuwing die wordt toegewezen aan alle revisoren die zich abonneren op de proefdruk.
+* **[!UICONTROL Proof access via email link required for]** - Abonnees moeten op een koppeling in een e-mailbericht klikken om een proefafdruk te openen\
    Als u deze optie selecteert, krijgt de persoon die zich abonneert geen directe toegang tot de proefdruk, maar een koppeling naar de proefdruk in een e-mail. Het doel van abonneevalidering is ervoor te zorgen dat de persoon een correct e-mailadres heeft ingevoerd waartoe hij toegang heeft.
 
-* **[!UICONTROL Default role for new subscribers]** - Dit is de standaardproefdrukrol die wordt toegewezen aan alle revisoren die zich op de proefdruk abonneren.
-* **[!UICONTROL Default email alert for new subscribers]** - Dit is de standaard e-mailwaarschuwing die wordt toegewezen aan alle revisoren die zich abonneren op de proefdruk.
+
 
 Zie ook [ aan een Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md) intekenen
 

@@ -7,14 +7,19 @@ description: De taken in vluchtvisualisatie tonen hoeveel taken (binnen de toege
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cc738450-362a-49e8-836f-611fa82057b5
-source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
 
 # De taken tijdens de visualisatie van de vlucht bekijken in Verbeterde analyse
+
+>[!IMPORTANT]
+>
+>Enhanced Analytics wordt de week van 26 mei uit Workfront verwijderd. Workfront Data Connect is een nieuwe, alternatieve oplossing die kan worden gebruikt om alle Enhanced Analytics-visualisaties die u momenteel gebruikt, te repliceren. <br> zie de [ Verbeterde 2} gids van de Afleiding van Analytics {voor meer informatie.](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)
+
 
 De taken in vluchtvisualisatie tonen hoeveel taken (binnen de toegepaste filtercriteria) voor een project, het percentage van het werk dat voor elke taak wordt voltooid, en hoe op programma lopend zijn de taken.
 

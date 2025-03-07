@@ -1,5 +1,5 @@
 ---
-source-git-commit: 2d75f74c7281a3ea288c892db6895754a697e198
+source-git-commit: affff16630379333465c118734babf7a239af272
 workflow-type: tm+mt
 source-wordcount: '2474'
 ht-degree: 0%
@@ -88,7 +88,7 @@ ht-degree: 0%
 U kunt ervoor zorgen u de juiste groep met het team associeert door over het te hangen en het informatiepictogram te klikken <img src="assets/info-icon.png"> die ernaast wordt weergegeven. Hier wordt knopinfo weergegeven met informatie over de groep, zoals de hiërarchie van de bovenliggende groepen en de namen van de bijbehorende beheerders.
 
 
-## Belangrijke opmerking voor Admin Console aan boord {#important-admin-console-onboard}
+## Belangrijke opmerking voor Admin Console bij instappen {#important-admin-console-onboard}
 
 >[!IMPORTANT]
 >
@@ -127,7 +127,7 @@ U kunt ervoor zorgen u de juiste groep met het team associeert door over het te 
 
 ## gekoppelde mappen instellen {#setup-linked-folder}
 
-U kunt gebruikers toestaan om omslagen tot stand te brengen verbonden aan Experience Manager terwijl in een project van Workfront. Wanneer een map is gekoppeld, worden alle aan de map toegevoegde middelen automatisch weergegeven in zowel Workfront als Experience Manager. Wanneer een middel voor het eerst aan de verbonden omslag in Workfront wordt toegevoegd, wordt de meta-gegevens van het middel aan Experience Manager Assets geduwd.
+U kunt gebruikers toestaan om mappen te maken die gekoppeld zijn aan Experience Manager in een Workfront-project. Wanneer een map is gekoppeld, worden alle aan de map toegevoegde middelen automatisch weergegeven in zowel Workfront als Experience Manager. Wanneer een middel voor het eerst aan de verbonden omslag in Workfront wordt toegevoegd, wordt de meta-gegevens van het middel aan Experience Manager Assets geduwd.
 
 In de onderstaande stappen geeft u aan waar u de gekoppelde mappen wilt maken. Elke integratie kan slechts één locatie voor alle gekoppelde mappen hebben.
 
@@ -293,7 +293,7 @@ U moet de juiste insteekmodule installeren voor de Adobe Creative Cloud-toepassi
 >
 >* Een nieuw Workfront-pakket en -licentie. Workfront Planning is niet beschikbaar voor verouderde Workfront-pakketten of -licenties.
 >* Een Workfront-planningspakket.
->* De instantie van uw organisatie van Workfront moet aan de Adobe Verenigde Ervaring worden genegeerd.
+>* Het geval van Workfront van uw organisatie moet aan de Verenigde Ervaring van Adobe worden genegeerd.
 >
 > Voor een volledige lijst van vereisten om tot de Planning van Workfront toegang te hebben, zie [ Overzicht van de Toegang ](/help/quicksilver/planning/access/access-overview.md).
 > 
@@ -315,7 +315,7 @@ U moet de juiste insteekmodule installeren voor de Adobe Creative Cloud-toepassi
 
 <!-- Manage Work -->
 
-## Stap 1 - Portfolio&#39;s ophalen - {#step1-to-portfolios}
+## Stap 1 - Aan portfolio&#39;s ophalen - {#step1-to-portfolios}
 
 1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Portfolios]**.
 
@@ -495,3 +495,5 @@ For each snippets, create a head 2 section and add an anchor, such as
 In any .md file, add {{classic-note}} where you want that shared snippet content to appear.
 
 -->
+
+

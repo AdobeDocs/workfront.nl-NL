@@ -7,14 +7,19 @@ description: De burndown visualisatie toont de onderbreking van een specifiek pr
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e67c92d5-b309-406b-b6f0-4d414d0e7dcc
-source-git-commit: 45dac4c5e8ff584546783d561c04d137697a03a4
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '837'
 ht-degree: 0%
 
 ---
 
 # Bekijk de Burndown-visualisatie in de uitgebreide analyse
+
+>[!IMPORTANT]
+>
+>Enhanced Analytics wordt de week van 26 mei uit Workfront verwijderd. Workfront Data Connect is een nieuwe, alternatieve oplossing die kan worden gebruikt om alle Enhanced Analytics-visualisaties die u momenteel gebruikt, te repliceren. <br> zie de [ Verbeterde 2} gids van de Afleiding van Analytics {voor meer informatie.](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)
+
 
 <!-- Audited: 12/2023 -->
 

@@ -7,14 +7,19 @@ description: Verbeterde analyses zijn een krachtig hulpmiddel in Adobe Workfront
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a14ad57c-859b-43df-84c0-575ccda86e50
-source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1246'
 ht-degree: 0%
 
 ---
 
 # Overzicht van uitgebreide analyses
+
+>[!IMPORTANT]
+>
+>Enhanced Analytics wordt de week van 26 mei uit Workfront verwijderd. Workfront Data Connect is een nieuwe, alternatieve oplossing die kan worden gebruikt om alle Enhanced Analytics-visualisaties die u momenteel gebruikt, te repliceren. <br> zie de [ Verbeterde 2} gids van de Afleiding van Analytics {voor meer informatie.](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)
+
 
 Verbeterde analyses zijn een krachtig hulpmiddel in Adobe Workfront met vooraf gebouwde visualisaties waarmee u projectgegevens kunt bekijken en trends kunt identificeren met planning en voltooiing. Dit inzicht in uw projecten helpt u uw huidige werk te beheren en laat u toe om nauwkeuriger voor toekomstig werk te plannen.
 

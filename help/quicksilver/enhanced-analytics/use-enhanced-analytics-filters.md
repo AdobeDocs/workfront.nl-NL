@@ -6,14 +6,19 @@ description: Met de filters in het gedeelte Enhanced analytics van Adobe Workfro
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '1486'
+source-wordcount: '1528'
 ht-degree: 0%
 
 ---
 
 # Filters toepassen in uitgebreide analyse
+
+>[!IMPORTANT]
+>
+>Enhanced Analytics wordt de week van 26 mei uit Workfront verwijderd. Workfront Data Connect is een nieuwe, alternatieve oplossing die kan worden gebruikt om alle Enhanced Analytics-visualisaties die u momenteel gebruikt, te repliceren. <br> zie de [ Verbeterde 2} gids van de Afleiding van Analytics {voor meer informatie.](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)
+
 
 <!-- Audited: 12/2023 -->
 
@@ -52,7 +57,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>
   <tr> 
    <td>Configuraties op toegangsniveau</td> 
-   <td> <p>Toegang tot projecten weergeven</p> <p>U moet de toegang van de Mening tot Taken, Portfolio's, en Gebruikers ook hebben om specifieke de filteropties van het projectgebied te zien.</p> <p>Nota: Als de beperkingen in de <strong> Vastgestelde extra beperkingen </strong> sectie van de Edit dialoog van het Niveau van de Toegang worden geselecteerd, kunt u niet alle informatie in de filters of op de Verbeterde analytische pagina zien nadat de filter wordt toegepast.</p> </td> 
+   <td> <p>Toegang tot projecten weergeven</p> <p>U moet ook toegang tot taken, portfolio's en gebruikers weergeven om specifieke filteropties voor projectvelden te kunnen zien.</p> <p>Nota: Als de beperkingen in de <strong> Vastgestelde extra beperkingen </strong> sectie van de Edit dialoog van het Niveau van de Toegang worden geselecteerd, kunt u niet alle informatie in de filters of op de Verbeterde analytische pagina zien nadat de filter wordt toegepast.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Objectmachtigingen </p> </td> 
