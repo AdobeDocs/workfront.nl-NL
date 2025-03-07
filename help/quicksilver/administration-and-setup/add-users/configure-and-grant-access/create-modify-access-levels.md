@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: f9bf60fc39cc7cd26e242e7cc782ece060cc5471
+source-git-commit: 3e48bebde0171c13b4168d7eb5d693b07cb9e396
 workflow-type: tm+mt
 source-wordcount: '1465'
 ht-degree: 0%
@@ -221,3 +221,6 @@ Als u een gebruiker van de Norm of van de Planner administratieve toegang tot ba
 Later, als u administratieve toegang tot baanrollen voor de gebruiker onbruikbaar maakt, zijn de baanrollen nog zichtbaar aan de gebruiker omdat de Edit het Factureren van de Rol &amp; het plaatsen van de Tarieven van Kosten nog wordt toegelaten.
 
 Als dit gebeurt en u de toegang van de gebruiker tot de rollen van de meningsbaan moet verwijderen, moet u de het Edit van de Rol van de gebruiker het Factureren &amp; van de Tarieven van Kosten plaatsen van de Toestemming onbruikbaar maken. Voor instructies, zie [ toegang van de Verlening tot financiële gegevens ](grant-access-financial.md).
+
+
+
