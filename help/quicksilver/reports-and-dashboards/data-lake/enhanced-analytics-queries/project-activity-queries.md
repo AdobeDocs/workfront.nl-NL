@@ -9,13 +9,13 @@ feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: 77d93919a84b2c3b098d1b5e6796af6b37b51034
+exl-id: b7155160-4537-4919-bebf-72056b181bb6
+source-git-commit: bd39c5794c55e27a876da185e67bf8c654a003b2
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
-
 
 # Vragen over projectactiviteiten
 
@@ -35,3 +35,191 @@ Voordat u begint, moet u
    1. [Verbinding maken met Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)
 
 Zodra u een verbinding vestigt, kunt u de vragen in dit artikel gebruiken om gegevens te halen en te visualiseren.
+
+## Aanmeldingsgebeurtenissen van gebruikers van projecten
+
+Toont de aantalmensen die aan het project worden toegewezen die op een bepaalde dag het programma opende.
+
+```
+WITH userlogins as ( 
+    SELECT 
+        userid, 
+        lastlogindate 
+    FROM ( 
+        SELECT 
+            userid, 
+            lastlogindate, 
+            lag(lastlogindate, 1, '1990-01-01') OVER (PARTITION BY userid ORDER BY begin_effective_timestamp) as previous_login 
+        FROM users_event 
+    ) 
+    WHERE lastlogindate != previous_login 
+) 
+ 
+SELECT 
+    tds.projectid, 
+    ads.calendardate, 
+    count(1) 
+FROM assignments_daily_history ads 
+    INNER JOIN tasks_daily_history tds ON ads.taskid = tds.taskid AND tds.calendardate = ads.calendardate 
+    INNER JOIN userlogins ul ON ads.assignedtoid = ul.userid and TO_DATE(ul.lastlogindate) = ads.calendardate 
+GROUP BY tds.projectid, ads.calendardate
+```
+
+### Aanmeldingsgebeurtenissen van gebruikers van projecten: uitvouwen
+
+```
+WITH userlogins as ( 
+    SELECT 
+        userid, 
+        lastlogindate 
+    FROM ( 
+        SELECT 
+            userid, 
+            lastlogindate, 
+            lag(lastlogindate, 1, '1990-01-01') OVER (PARTITION BY userid ORDER BY begin_effective_timestamp) as previous_login 
+        FROM users_event 
+    ) 
+    WHERE lastlogindate != previous_login 
+) 
+
+SELECT 
+    tds.projectid, 
+    ul.userid, 
+    ads.calendardate, 
+    count(1) 
+FROM assignments_daily_history ads 
+INNER JOIN tasks_daily_history tds ON ads.taskid = tds.taskid AND tds.calendardate = ads.calendardate 
+INNER JOIN userlogins ul ON ads.assignedtoid = ul.userid AND TO_DATE(ul.lastlogindate) = ads.calendardate 
+group by tds.projectid, ul.userid, ads.calendardate
+ 
+```
+
+## De gebeurtenissen van de de taakstatusverandering van projecten de gebruikers
+
+Toont het aantal mensen die de status van een taak voor het project op een bepaalde dag veranderden.
+
+```
+WITH task_status_changes as (  
+    SELECT 
+        taskid, 
+        status, 
+        begin_effective_timestamp  
+    FROM (  
+        SELECT 
+            taskid, 
+            status, 
+            begin_effective_timestamp, 
+            lag(status, 1, 'NOSTATUS') OVER (PARTITION BY taskid ORDER BY begin_effective_timestamp) as previous_status 
+        FROM tasks_event 
+        WHERE status != 'CPL' 
+    )  
+    WHERE status != previous_status  
+)  
+ 
+SELECT 
+    tds.projectid, 
+    count(tds.status), 
+    ads.calendardate 
+FROM assignments_daily_history ads 
+    INNER JOIN tasks_daily_history tds ON ads.taskid = tds.taskid AND tds.calendardate = ads.calendardate 
+    INNER JOIN task_status_changes tsc ON tsc.taskid = ads.taskid AND tsc.taskid = tds.taskid and TO_DATE(tsc.begin_effective_timestamp) = tds.calendardate 
+GROUP BY tds.projectid, ads.calendardate
+```
+
+### De gebeurtenissen van de de taakstatusverandering van projecten de gebruikers: boor neer
+
+```
+WITH task_status_changes as (  
+    SELECT 
+        taskid, 
+        status, 
+        lastupdatedbyid, 
+        begin_effective_timestamp  
+    FROM (  
+        SELECT 
+            taskid, 
+            status, 
+            begin_effective_timestamp, 
+            lastupdatedbyid, 
+            lag(status, 1, 'NOSTATUS') OVER (PARTITION BY taskid ORDER BY begin_effective_timestamp) as previous_status  
+        FROM tasks_event  
+        WHERE status != 'CPL'  
+    )  
+    WHERE status != previous_status  
+)  
+ 
+SELECT 
+    tds.projectid, 
+    tsc.lastupdatedbyid, 
+    count(tcs.status), 
+    ads.calendardate 
+FROM assignments_daily_history ads 
+    INNER JOIN tasks_daily_history tds ON ads.taskid = tds.taskid AND tds.calendardate = ads.calendardate 
+    INNER JOIN task_status_changes tsc ON tsc.taskid = ads.taskid AND tsc.taskid = tds.taskid AND TO_DATE(tsc.begin_effective_timestamp) = tds.calendardate 
+GROUP BY tds.projectid, tsc.lastupdatedbyid, ads.calendardate
+```
+
+## Projecten van de taakvoltooiing van gebruikers
+
+Het aantal personen tonen dat een taak voor het project op een bepaalde dag heeft voltooid.
+
+```
+WITH task_status_changes as (  
+    SELECT 
+        taskid, 
+        status, 
+        begin_effective_timestamp  
+    FROM (  
+        SELECT 
+            taskid, 
+            status, 
+            begin_effective_timestamp, 
+            lag(status, 1, 'NOSTATUS') OVER (PARTITION BY taskid ORDER BY begin_effective_timestamp) as previous_status  
+        FROM tasks_event  
+        WHERE status = 'CPL'  
+    )  
+    WHERE status != previous_status  
+) 
+ 
+SELECT 
+    tds.projectid, 
+    count(tds.status), 
+    ads.calendardate 
+FROM assignments_daily_history ads 
+    INNER JOIN tasks_daily_history tds ON ads.taskid = tds.taskid and tds.calendardate = ads.calendardate 
+    INNER JOIN task_status_changes tsc ON tsc.taskid = ads.taskid and tsc.taskid = tds.taskid and TO_DATE(tsc.begin_effective_timestamp) = tds.calendardate 
+GROUP BY tds.projectid, ads.calendardate
+```
+
+### De gebeurtenissen van de de taakvoltooiing van projecten van gebruikers: boor neer
+
+```
+WITH task_status_changes as (  
+    SELECT 
+        taskid, 
+        status, 
+        lastupdatedbyid, 
+        begin_effective_timestamp  
+    FROM (  
+        SELECT 
+            taskid, 
+            status, 
+            begin_effective_timestamp, 
+            lastupdatedbyid, 
+            lag(status, 1, 'NOSTATUS') OVER (PARTITION BY taskid ORDER BY begin_effective_timestamp) as previous_status  
+        FROM tasks_event  
+        WHERE status = 'CPL'  
+    )  
+    WHERE status != previous_status  
+)  
+ 
+SELECT 
+    tds.projectid, 
+    tsc.lastupdatedbyid, 
+    count(tsc.status), 
+    ads.calendardate 
+FROM assignments_daily_history ads 
+    INNER JOIN tasks_daily_history tds ON ads.taskid = tds.taskid AND tds.calendardate = ads.calendardate 
+    INNER JOIN task_status_changes tsc ON tsc.taskid = ads.taskid AND tsc.taskid = tds.taskid AND TO_DATE(tsc.begin_effective_timestamp) = tds.calendardate 
+GROUP BY tds.projectid, tsc.lastupdatedbyid, ads.calendardate
+```
