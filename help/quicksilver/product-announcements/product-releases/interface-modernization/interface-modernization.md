@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 3695c5bb566434d70907bfecf775ccd12b9208f4
+source-git-commit: b4747df73cedfb512fb54f912a5370cbb3a4c6a7
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1589'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Als u de instellingen wilt weergeven, gaat u naar Instellingen > Voorkeuren > Go
 
 We hebben de lijsten met projecten, taken en goedkeuringen voor uitgaven bijgewerkt in Setup > Groepen > Goedkeuringen met een modern ontwerp dat aansluit bij andere gebieden van Workfront.
 
-Ga naar Instellingen > Groepen > Goedkeuringen om deze wijziging weer te geven.
+Ga naar Instellingen > Groepen > Kies een groep > Goedkeuringen om deze wijziging weer te geven.
 
 Deze update bevat visuele wijzigingen in het gebied. Er is geen functionaliteit gewijzigd.
 
