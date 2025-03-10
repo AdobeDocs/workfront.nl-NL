@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: b4747df73cedfb512fb54f912a5370cbb3a4c6a7
+source-git-commit: 1a0902c7c6e1b7f647564e448daf74748d9cb3db
 workflow-type: tm+mt
-source-wordcount: '1589'
+source-wordcount: '1634'
 ht-degree: 0%
 
 ---
@@ -141,6 +141,14 @@ We hebben de lijsten met projecten, taken en goedkeuringen voor uitgaven bijgewe
 Deze update bevat visuele wijzigingen in het gebied. Er is geen functionaliteit gewijzigd.
 
 ## Agile
+
+### Interface-updates voor teamverzoeken
+
+**de versie van de Voorproef: 6 Maart, 2025; De versie van de productie: Te aankondigen**
+
+Wij hebben de pagina van de Verzoeken van het Team met een moderner ontwerp bijgewerkt dat met andere gebieden van Workfront verenigbaar is.
+
+Ga naar Teams > Een team kiezen > Teamverzoeken om deze wijziging weer te geven.
 
 ### Interface-update voor overzichtspagina van herhalingen
 
