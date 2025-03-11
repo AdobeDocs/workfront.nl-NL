@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 0%
@@ -41,8 +41,8 @@ Voor informatie over hoe u verslagen met elkaar of met een ander voorwerp kunt v
 
   De waarden van de opzoekvelden vullen de Workfront-planningsrecord die u koppelt automatisch nadat deze zijn bijgewerkt in de oorspronkelijke record of het oorspronkelijke object.
 
-* Iedereen met toegang tot de Planning van Workfront en Mening of hogere toestemmingen aan de werkruimte kan de verbindingen zien die u tussen verslagen of tussen verslagen en andere voorwerpen van toepassingen maakt. Ze kunnen verbonden records en objecten bekijken, ongeacht hun machtigingen in de toepassingen waarmee u verbinding maakt.
-* U kunt de verbindingen van alle anderen weergeven en bewerken als u beheerdersmachtigingen hebt voor de werkruimte waar de verbonden records zich bevinden.
+* Iedereen met toegang tot Workfront-plannings- en weergavemachtigingen of hogere machtigingen voor de werkruimte <!--<span class="preview">and record type</span>--> kan de verbindingen zien die u maakt tussen records of tussen records en objecten van andere toepassingen. Ze kunnen verbonden records en objecten bekijken, ongeacht hun machtigingen in de toepassingen waarmee u verbinding maakt.
+* U kunt de verbindingen van iedereen anders weergeven en bewerken als u beheerdersmachtigingen hebt voor de werkruimte <!--<span class="preview">and record type</span>--> waar de verbonden records zich bevinden.
 * U kunt één record verbinden met een of meerdere objecten vanuit een andere toepassing. Dit is afhankelijk van het type verbinding dat u hebt geselecteerd bij het verbinden van de recordtypen. Voor meer informatie, zie de &quot;types van Verbindingen&quot;sectie in het artikel [ Verbonden overzicht van recordtypes ](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
 ## Gebieden waar u records kunt verbinden

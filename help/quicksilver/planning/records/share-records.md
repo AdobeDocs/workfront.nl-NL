@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 0%
 <!--should this move to the Access folder when we have sharing for ALL the objects???-->
 
 # Records delen
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -28,13 +32,28 @@ U kunt een Adobe Workfront-planningsrecord op de volgende manieren delen:
 
 * Kopieer een koppeling naar de pagina van de record wanneer u records bekijkt in de tabelweergave van het recordtype.
 
-* U kunt alle records in een werkruimte delen met andere gebruikers door de werkruimte te delen. Voor meer informatie, zie [ een werkruimte ](/help/quicksilver/planning/access/share-workspaces.md) delen.
+* U kunt alle records in een werkruimte delen met andere gebruikers door de werkruimte <!--<span class="preview">and record type</span>--> te delen. Voor meer informatie, zie [ een werkruimte ](/help/quicksilver/planning/access/share-workspaces.md) delen.
+
+<!-- replace the last sentence above with this: 
+
+For more information see the following articles:
+
+* [Share a workspace](/help/quicksilver/planning/access/share-workspaces.md)
+
+
+<div class="preview">
+
+* [Share a record type](/help/quicksilver/planning/access/share-record-types.md)
+
+</div>
+
+-->
 
 In dit artikel wordt beschreven hoe u een koppeling naar de pagina van een record kunt kopiëren vanuit de tabelweergave van een recordtype.
 
 ## Toegangsvereisten
 
-+++ Breid uit om toegangsvereisten voor de Planning van Workfront te bekijken.
++++ Breid uit om toegangsvereisten te bekijken..
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -88,8 +107,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objectmachtigingen</p></td> 
-   <td>  <p>Machtigingen voor het delen van een record via een koppeling weergeven of vergroten </p>
-   <p>Rechten beheren in een werkruimte om records te delen in de werkruimte waartoe de record behoort </p>
+   <td>  <p>Machtigingen voor het delen van een record via een koppeling weergeven of hoger in een werkruimte<!--<span class="preview">and record type</span>--> </p>
+   <p>Rechten voor een werkruimte beheren <!--<span class="preview">and record type</span>--> om de records in de werkruimte te delen </p>
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>  </td> 
   </tr> 
 <tr> 

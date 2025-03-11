@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Voor informatie, zie de &quot;sectie van de Formule&quot;in artikel [ gebieden ]
 
 ## Toegangsvereisten
 
-+++ Breid uit om toegangsvereisten voor de Planning van Workfront te bekijken.
++++ Breid uit om toegangsvereisten te bekijken..
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -85,7 +85,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objectmachtigingen</p></td> 
-   <td>   <p>Rechten beheren in een werkruimte </a> </p>  
+   <td>   <p>Rechten beheren in een werkruimte <!--<span class="preview">and record type</span>--> </a> </p>  
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p> </td> 
   </tr> 
 <tr> 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '611'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Zie de volgende artikelen voor informatie over het verlenen van machtigingen aan
 
 ## Toegangsvereisten
 
-+++ Breid uit om toegangsvereisten voor de Planning van Workfront te bekijken.
++++ Breid uit om toegangsvereisten te bekijken..
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -59,8 +59,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td> 
 <p>Een van de volgende Workfront-plannen:</p> 
 <ul><li>Selecteren</li> 
-<li>Eerste</li> 
-<li>Ultieme</li></ul> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
 <p>Workfront Planning is niet beschikbaar voor oudere Workfront-plannen</p> 
    </td> 
 <tr> 
@@ -72,9 +72,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-platform</p></td> 
    <td> 
-<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden genegeerd om tot alle mogelijkheden van de Planning van Workfront te kunnen toegang hebben.</p> 
+<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden bezeten om tot alle mogelijkheden van de Planning van Workfront toegang te hebben.</p> 
 <p><b>BELANGRIJK</b></p>
-<p>De gebruikers in uw organisatie kunnen om toestemmingen voor meningen en werkruimten verzoeken slechts wanneer uw organisatie aan de Adobe Verenigde Ervaring wordt bezet. </p>
+<p>De gebruikers in uw organisatie kunnen om toestemmingen voor meningen en werkruimten slechts verzoeken wanneer uw organisatie aan de Adobe Verenigde Ervaring wordt betreden. </p>
 <p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
    </td> 
    </tr> 

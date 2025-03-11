@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1422'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ In dit artikel wordt de volgende informatie over recordweergaven beschreven:
 
 ## Toegangsvereisten
 
-+++ Breid uit om toegangsvereisten voor de Planning van Workfront te bekijken.
++++ Breid uit om toegangsvereisten te bekijken..
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -84,7 +84,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-platform</p></td> 
    <td> 
-<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden genegeerd om tot alle mogelijkheden van de Planning van Workfront te kunnen toegang hebben.</p> 
+<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden bezeten om tot alle mogelijkheden van de Planning van Workfront toegang te hebben.</p> 
 <p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
    </td> 
    </tr> 

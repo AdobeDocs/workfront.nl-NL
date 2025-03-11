@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '961'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Voor meer informatie over het creëren van verslagen, zie [ verslagen ](/help/qu
 
 ## Toegangsvereisten
 
-+++ Breid uit om toegangsvereisten voor de Planning van Workfront te bekijken.
++++ Breid uit om toegangsvereisten te bekijken..
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -83,7 +83,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objectmachtigingen</p></td> 
-   <td> <p>Draag of hogere toestemmingen aan de werkruimte bij u verslagen aan wilt toevoegen. </p>  
+   <td> <p>Draag of hogere toestemmingen aan de werkruimte <!--and record type--> bij waar u verslagen wilt toevoegen. </p>  
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>
    <p>Rechten voor Workfront-objecten (portfolio's) beheren om onderliggende objecten (projecten) toe te voegen.</p>
    </td> 

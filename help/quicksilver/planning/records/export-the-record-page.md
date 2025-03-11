@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
-source-git-commit: 5db940b197364e30ef6e1ea3e3c94ae3bda5b20c
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -17,16 +17,14 @@ ht-degree: 0%
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
 
 
 Als u efficiënter wilt samenwerken met anderen die mogelijk geen Workfront-account hebben, kunt u de gegevens van een record exporteren naar een bestand en deze delen met hen.
 
 ## Toegangsvereisten
 
-+++ Breid uit om toegangsvereisten voor de Planning van Workfront te bekijken.
++++ Breid uit om toegangsvereisten te bekijken..
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -49,8 +47,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td> 
 <p>Een van de volgende Workfront-plannen:</p> 
 <ul><li>Selecteren</li> 
-<li>Eerste</li> 
-<li>Ultieme</li></ul> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
 <p>Workfront Planning is niet beschikbaar voor oudere Workfront-plannen</p> 
    </td> 
 <tr> 
@@ -62,7 +60,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-platform</p></td> 
    <td> 
-<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden genegeerd om tot alle mogelijkheden van de Planning van Workfront te kunnen toegang hebben.</p> 
+<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden bezeten om tot alle mogelijkheden van de Planning van Workfront toegang te hebben.</p> 
 <p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
    </td> 
    </tr> 
@@ -80,7 +78,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objectmachtigingen</p></td> 
-   <td>   <p>De mening of hogere toestemmingen aan een werkruimte </a> </p>  
+   <td>   <p>Machtigingen voor een werkruimte weergeven of vergroten <!--<span class="preview">and record type</span>--> </a> </p>  
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p> </td> 
   </tr> 
 <tr> 
@@ -129,7 +127,7 @@ De recordtypepagina wordt geopend en alle records van dat type worden weergegeve
    * **Word van Microsoft**
    * **Adobe PDF**
 
-   Een Word- (.docx) of een PDF-bestand wordt gedownload en opgeslagen op uw computer.
+   Een Word- (.docx) of PDF-bestand wordt gedownload en opgeslagen op uw computer.
 
    De naam van het geëxporteerde bestand is het primaire veld van de record.
 

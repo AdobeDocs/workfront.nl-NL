@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Voor informatie over de meningen van de Planning van Adobe Workfront en hoe te o
 
 ## Toegangsvereisten
 
-+++ Breid uit om toegangsvereisten voor de Planning van Workfront te bekijken.
++++ Breid uit om toegangsvereisten te bekijken..
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -63,7 +63,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-platform</p></td> 
    <td> 
-<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden genegeerd om tot alle mogelijkheden van de Planning van Workfront te kunnen toegang hebben.</p> 
+<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden bezeten om tot alle mogelijkheden van de Planning van Workfront toegang te hebben.</p> 
 <p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
    </td> 
    </tr> 

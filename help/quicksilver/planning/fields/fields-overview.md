@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 0%
@@ -87,7 +87,7 @@ U kunt nieuwe gebieden in de Planning van Adobe Workfront toevoegen die op de le
 
 * Workfront-velden zijn alleen toegankelijk vanuit Workfront Planning wanneer u recordtypen verbindt met Workfront-objecttypen en gekoppelde of opzoekvelden toevoegt uit Workfront-objecten. Voor informatie, zie [ verbind verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
 
-* U kunt de instellingen weergeven en bijwerken voor de velden die u of een andere gebruiker heeft gemaakt, als u beheerdersmachtigingen hebt voor de werkruimte waartoe het veld behoort.
+* U kunt de instellingen weergeven en bijwerken voor de velden die u of een andere gebruiker heeft gemaakt, als u beheerdersmachtigingen hebt voor de werkruimte <!--<span class="preview">and record type</span>--> waartoe het veld behoort.
 
 * U kunt maximaal 500 velden hebben voor één recordtype.
 

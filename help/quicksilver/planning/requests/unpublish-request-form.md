@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 0%
@@ -67,7 +67,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 <tr>
    <td role="rowheader"><p>Adobe Workfront-platform</p></td>
    <td>
-<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden genegeerd om tot alle mogelijkheden van de Planning van Workfront te kunnen toegang hebben.</p>
+<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden bezeten om tot alle mogelijkheden van de Planning van Workfront toegang te hebben.</p>
 <p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p>
    </td>
 
@@ -89,7 +89,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader"><p>Objectmachtigingen</p></td>
    <td>
    <ul>
-   <li><p>Machtigingen beheren in een werkruimte</p></li>
+   <li><p>Machtigingen beheren in een werkruimte <!--<span class="preview">and record type</span>--> </p></li>
     <li><p>Systeembeheerders kunnen werkruimten beheren die ze niet hebben gemaakt. </p></li>
     </ul>
    <p>Voor informatie over het delen van machtigingen voor Workfront Planning-objecten raadpleegt u  
@@ -149,7 +149,7 @@ Wanneer een aanvraagformulier irrelevant wordt en u wilt dat niemand er langer t
 
    Onder aan het scherm verschijnt een bevestiging met de mededeling dat het formulier niet is gepubliceerd.
 
-   De **unpublish** knoop verandert in **Publish**.
+   De **unpublish** knoop verandert in **publiceren**.
 
 1. Klik **sparen**.
 

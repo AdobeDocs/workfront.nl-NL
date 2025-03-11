@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '1800'
+source-wordcount: '1797'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ U kunt Workfront Planning-records in Workfront weergeven in de volgende gebieden
 
 ## Toegangsvereisten
 
-+++ Breid uit om toegangsvereisten voor de Planning van Workfront te bekijken.
++++ Breid uit om toegangsvereisten te bekijken..
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -92,7 +92,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader"><p>Objectmachtigingen</p></td>
    <td>
    <p>In Workfront, Mening of hogere toestemmingen aan een project, portefeuille, of programma </a> </p> 
-   <p>In de Planning van Workfront, de toestemmingen van de Mening aan een werkruimte om het even welke verbonden verslagen of Contribute of hogere toestemmingen aan een werkruimte te bekijken om verslagen te verbinden of los te maken </a> </p>  
+   <p>In Workfront Planning:
+   <ul><li>
+   Machtigingen weergeven aan een werkruimte <!--<span class="preview">and record type</span>--> om gekoppelde records weer te geven </li>
+   of
+   <li> Contribute of hoger machtigingen voor een werkruimte <!--<span class="preview">and record type</span>--> om records te verbinden of te verbreken</a></li></ul> </p>  
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten voor Workfront Planning, inclusief de werkruimten die ze niet hebben gemaakt</p> 
   </td>
   </tr>

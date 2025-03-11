@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ U kunt e-mailmeldingen ontvangen van Workfront Planning wanneer de volgende scen
 
 ## Toegangsvereisten
 
-+++ Breid uit om toegangsvereisten voor de Planning van Workfront te bekijken.
++++ Breid uit om toegangsvereisten te bekijken..
 
 <table style="table-layout:auto"> 
 <col> 
@@ -69,8 +69,8 @@ U kunt e-mailmeldingen ontvangen van Workfront Planning wanneer de volgende scen
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-platform</p></td> 
    <td> 
-<p>De instantie van uw organisatie van Workfront moet aan de Adobe Verenigde Ervaring worden genegeerd.</p> 
-<p>De gebruikers in uw organisatie ontvangen berichten van de Planning van Workfront slechts wanneer uw organisatie aan de Adobe Verenigde Ervaring wordt bezet. </p>
+<p>Het geval van Workfront van uw organisatie moet aan de Verenigde Ervaring van Adobe worden genegeerd.</p> 
+<p>De gebruikers in uw organisatie ontvangen berichten van de Planning van Workfront slechts wanneer uw organisatie aan de Adobe Verenigde Ervaring wordt betreden. </p>
 <p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
    </td> 
    </tr> 
@@ -191,7 +191,7 @@ Voor informatie over het beheren van uw berichten van de Planning van Workfront,
 ## E-mailmeldingen beheren over het verzenden, goedkeuren of negeren van Workfront-planningsverzoeken
 
 1. (Optioneel) Ga naar de e-mail die Workfront u stuurt
-nadat u een verzoek hebt ingediend of nadat een door u ingediend verzoek is goedgekeurd of afgewezen. De afzender van de e-mail is de Werkgever van de Adobe.
+nadat u een verzoek hebt ingediend of nadat een door u ingediend verzoek is goedgekeurd of afgewezen. De afzender van de e-mail is Adobe Workfornt.
 
 1. (Facultatief) klik **Open verzoek**. Dit opent het verzoek in de Planning van Workfront.
 

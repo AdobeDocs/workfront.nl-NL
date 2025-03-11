@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: ddcefb0baf10df9ae9ac3b29d7da1e2a070101c8
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '1583'
+source-wordcount: '1600'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ This article describes how you can share a view with others. For information abo
 
 ## Toegangsvereisten
 
-+++ Breid uit om toegangsvereisten voor de Planning van Workfront te bekijken.
++++ Breid uit om toegangsvereisten te bekijken..
 
 <!--at GA, check that the Workfront plans article linked below has Planning info-->
 
@@ -112,68 +112,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 *Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-<!--OLD: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p>
-   Or
-   <p>Current: Plan </p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configurations</p></td>
-   <td> There are no access controls for Adobe Workfront Planning</p>  
-</td>
-  </tr>
-
-  <tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a view</p>  
-   <p>Only users with Manage permissions to a workspace can share a view publicly.</p>
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> <p>For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p> 
-</td>
-  </tr>
- </tbody>
-</table>
-
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
-
 +++
 
 ## Overwegingen bij het delen van weergaven
 
+* Voor algemene informatie over het delen van voorwerpen in de Planning van Workfront, zie ook [ Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront ](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 * U kunt weergave- of beheermachtigingen aan interne Workfront-gebruikers geven.
 
 * Gebruikers met de machtiging Beheren kunnen de weergave-instellingen wijzigen, deze delen, dupliceren of verwijderen.
@@ -186,7 +129,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Rechten delen met een weergave intern
 
-U kunt meningen delen u creeerde of meningen u beheerst toestemmingen aan met gebruikers, groepen, <span class="preview"> teams, bedrijven, en baanrollen </span> in Workfront hebt.
+U kunt meningen delen u creeerde of meningen u beheerst toestemmingen aan met gebruikers, groepen, <span class="preview"> teams, bedrijven, en baanrollen </span> in de Planning van Workfront hebt.
 
 >[!NOTE]
 >

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1138'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Voor informatie over het verbinden van verslagen van de Planning met de voorwerp
 
 ## Toegangsvereisten
 
-+++ Breid uit om toegangsvereisten voor de Planning van Workfront te bekijken.
++++ Breid uit om toegangsvereisten te bekijken..
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -113,7 +113,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objectmachtigingen</p></td> 
-   <td> <p>Rechten beheren in de werkruimte waaraan u records wilt toevoegen. </p>  
+   <td> <p>Rechten beheren in de werkruimte <!--<span class="preview">and record type</span>--> waar u records wilt toevoegen. </p>  
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>
    <p>Rechten voor Workfront-objecten (portfolio's) beheren om onderliggende objecten (projecten) toe te voegen.</p>
    </td> 

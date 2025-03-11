@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: ddcefb0baf10df9ae9ac3b29d7da1e2a070101c8
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 Het Adobe Workfront-licentietype werkt in combinatie met uw Adobe Workfront-planningsbevoegdheden en geeft de volgende toegang:
 
-* Werkruimten weergeven, bijdragen of beheren
+* Werkruimten weergeven, bijdragen of beheren <!--<span class="preview">or record types</span>-->
 * Weergaven weergeven of beheren.
 
 Voor informatie over toestemmingen aan voorwerpen in de Planning van Workfront, zie [ Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront ](/help/quicksilver/planning/access/sharing-permissions-overview.md).
@@ -39,9 +39,20 @@ Het verlenen van gebruikerstoestemmingen aan een werkruimte verleent hen ook toe
 
 U moet gebruikers afzonderlijke toestemmingen aan meningen, naast degenen verlenen zij voor werkruimten hebben, om tot meningen toegang te hebben en te leiden.
 
+
+<div class="preview">
+
+Houd rekening met het volgende wanneer u werkt met bevoegdheden voor recordtypen:
+
+* Gebruikers nemen automatisch machtigingen voor recordtypen over van werkruimten.
+* Wanneer een gebruiker beheerdersmachtigingen voor een werkruimte heeft, hebben deze gebruikers geen minder toegang tot het recordtype.
+* Gebruikers kunnen niet meer machtigingen voor een recordtype hebben dan voor de werkruimte waartoe het recordtype behoort.
+
+</div>
+
 | Adobe Workfront-licentietype* | Hoogste machtigingen toegestaan in Adobe Workfront Planning |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Standaard | <p>Gebruikers kunnen werkruimten en weergaven beheren. Ze kunnen werkruimten, recordtypen, records, velden en weergaven maken, bewerken of verwijderen.</p> <br> <p>Systeembeheerders hebben beheermachtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt.</p> |
+| Standaard | <p>Gebruikers kunnen werkruimten <span class="preview"> , recordtypen </span> en weergaven beheren. Ze kunnen werkruimten, recordtypen, records, velden en weergaven maken, bewerken of verwijderen.</p> <br> <p>Systeembeheerders hebben beheermachtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt.</p> |
 | Licht of medewerker | <p>De gebruikers kunnen de werkruimten bekijken die met hen, evenals de verslagtypes, verslagen, en gebieden van die werkruimten worden gedeeld.</p> <br> <p>Gebruikers kunnen de weergaven bekijken die met hen worden gedeeld, maar ze kunnen hun eigen weergaven niet maken. </p><br> <p>Gebruikers kunnen geen werkruimten, recordtypen, records of velden maken, bewerken of verwijderen.</p> |
 
 *Workfront Planning is niet beschikbaar voor verouderde Workfront-licenties.
@@ -60,9 +71,11 @@ Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Work
 
 ### Licentietypen en werkruimtemachtigingen
 
-Alleen gebruikers met een standaardlicentie kunnen over Contribute- of Beheren-machtigingen voor werkruimten beschikken. Gebruikers met alle andere licentietypen kunnen weergavemachtigingen hebben voor werkruimten die met hen worden gedeeld.
+Slechts kunnen de gebruikers met een Standaardvergunning bijdragen of hebben toestemmingen aan werkruimten <span class="preview"> en verslagtypes </span> leiden. Gebruikers met alle andere licentietypen kunnen weergavemachtigingen hebben voor werkruimten <span class="preview"> en recordtypen </span> die met hen worden gedeeld.
 
 Systeembeheerders kunnen alle werkruimten in het systeem weergeven, zelfs de werkruimten die ze niet hebben gemaakt.
+
+<!--does the shot below need to be replaced for record types??-->
 
 >[!INFO]
 >

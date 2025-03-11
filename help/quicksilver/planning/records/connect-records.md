@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '3330'
+source-wordcount: '3327'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ U kunt het volgende verbinden:
 
 ## Toegangsvereisten
 
-+++ Breid uit om toegangsvereisten voor de Planning van Workfront te bekijken.
++++ Breid uit om toegangsvereisten te bekijken..
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -118,8 +118,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objectmachtigingen</p></td> 
-   <td>   <p>Contribute of hoger machtigingen voor een werkruimte om records te verbinden </p>  
-   <p>U kunt machtigingen voor een werkruimte weergeven of vergroten als u alle verbindingen met objecten en velden vanuit andere toepassingen wilt weergeven, ongeacht de toegang die u hebt in de andere toepassing. </p>
+   <td>   <p>Contribute of hoger machtigingen voor een werkruimte <!--<span class="preview">and record type</span>--> om records te verbinden </p>  
+   <p>Machtigingen weergeven of hoger voor een werkruimte <!--<span class="preview">and record type</span>--> om alle verbindingen met objecten en velden vanuit andere toepassingen weer te geven, ongeacht uw toegang in de andere toepassing. </p>
    <p>Geef de objecten die u vanuit Workfront of Experience Manager Assets wilt koppelen weer of geef deze machtigingen hoger op. </p>
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt.</p> </td> 
   </tr> 

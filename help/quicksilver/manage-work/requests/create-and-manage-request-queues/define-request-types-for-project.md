@@ -6,9 +6,9 @@ description: U kunt het soort kwesties of verzoeken organiseren die Adobe Workfr
 author: Lisa
 feature: Work Management
 exl-id: 627749bb-a8d7-4cc2-9d11-237811f82eb8
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Deze organisatie is nuttig voor het melden van redenen en voor het helpen van ge
 
 ## Toegangsvereisten
 
-+++
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 

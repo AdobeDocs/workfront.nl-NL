@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!-- do you need to add that only workspace owners can view the Submitted/ Planning tab?? - asking team in slack-->
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
@@ -84,7 +84,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 <tr>
    <td role="rowheader"><p>Adobe Workfront-platform</p></td>
    <td>
-<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden genegeerd om tot alle mogelijkheden van de Planning van Workfront te kunnen toegang hebben.</p>
+<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden bezeten om tot alle mogelijkheden van de Planning van Workfront toegang te hebben.</p>
 <p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p>
    </td>
   </tr>
@@ -105,7 +105,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader"><p>Objectmachtigingen</p></td>
    <td>
    <ul>
-   <li><p>Machtigingen beheren in een werkruimte</p></li>
+   <li><p>Machtigingen beheren in een werkruimte <!--<span class="preview">and record type</span>--> </p></li>
     <li><p>Systeembeheerders kunnen werkruimten beheren die ze niet hebben gemaakt. </p></li>
     </ul>
    <p>Voor informatie over het delen van machtigingen voor Workfront Planning-objecten raadpleegt u  
@@ -135,7 +135,7 @@ De fiatteurs ontvangen de volgende meldingen over een verzoek in afwachting van 
 
 >[!NOTE]
 >
->De instantie van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden ingezien opdat de gebruikers e-mail en in-app berichten kunnen ontvangen.
+>Het exemplaar van Workfront van uw organisatie moet aan de Verenigde Ervaring van Adobe worden ingezien zodat de gebruikers e-mail en in-app berichten kunnen ontvangen.
 
 Een verzoek goedkeuren:
 

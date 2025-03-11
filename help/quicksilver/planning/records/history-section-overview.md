@@ -6,14 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
 
 # Overzicht van de sectie Historie
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
 
 {{planning-important-intro}}
 
@@ -25,6 +29,76 @@ In het rechterdeelvenster van een record worden de volgende secties weergegeven:
 
 * **Commentaren**: De commentaren van vertoningen en antwoorden gebruikers voegen aan verslagen toe. Voor meer informatie over het beheren van commentaren in de verslagen van de Planning van Workfront, zie [ recordcommentaren beheren ](/help/quicksilver/planning/records/manage-record-comments.md).
 * **Geschiedenis**: De systeem-geregistreerde veranderingen van vertoningen die de gebruikers aan de verslaggebieden aanbrengen.
+
+## Toegangsvereisten
+
++++ Breid uit om toegangsvereisten te bekijken..
+
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Producten</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront-abonnement*</p></td> 
+   <td> 
+<p>Een van de volgende Workfront-plannen:</p> 
+<ul><li>Selecteren</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning is niet beschikbaar voor oudere Workfront-plannen</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront-planningspakket*</p></td> 
+   <td> 
+<p>Alle </p> 
+<p>Neem contact op met uw Workfront-accountmanager voor meer informatie over wat er in elk Workfront-planningsplan is opgenomen. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront-platform</p></td> 
+   <td> 
+<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden bezeten om tot alle mogelijkheden van de Planning van Workfront toegang te hebben.</p> 
+<p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront-licentie*</p></td> 
+   <td> <p>Standaard</p>
+   <p>Workfront Planning is niet beschikbaar voor oudere Workfront-licenties</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configuratie op toegangsniveau</p></td> 
+   <td> <p>Er zijn geen toegangsniveaucontroles voor de Planning van Adobe Workfront</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Objectmachtigingen</p></td> 
+   <td>   <p>Machtigingen voor een werkruimte weergeven of vergroten <!--<span class="preview">and record type</span>--> </a> </p>  
+   <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p> </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Lay-outsjabloon</p></td> 
+   <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het planningsgebied in het hoofdmenu bevat. </p> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+*Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## De sectie Historie van een record zoeken
 
