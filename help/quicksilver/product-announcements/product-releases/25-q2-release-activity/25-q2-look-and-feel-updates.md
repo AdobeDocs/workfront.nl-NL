@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: f90a1066202e2c949ab5bfebf85897060f1c29d2
+source-git-commit: 69389422fc33839c3f557c3866f0d88b4a8ea837
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -68,3 +68,5 @@ We hebben de vormgeving van het dialoogvenster Delen bijgewerkt naar een modern 
 
 * Met de optie &quot;Zichtbaar voor het hele systeem&quot; wordt nu &quot;Iedereen in het systeem kan het zien&quot; weergegeven. Deze optie werkt nog steeds zoals voorheen.
 * Er is een nieuw pictogram voor toegang tot geavanceerde instellingen voor delen.
+
+Voor meer informatie over waar te om de dialoog van het Aandeel te vinden, zie [ Toekennen en verzoektoestemmingen aan voorwerpen ](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
