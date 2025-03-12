@@ -1,14 +1,14 @@
 ---
 product-area: projects;user-management
 navigation-topic: assign-tasks
-title: Het percentage gebruikers- of roltoewijzingen beheren voor taken
+title: Percentage gebruikers- of roltoewijzing beheren voor taken
 description: Het percentage van de toewijzing vertegenwoordigt de hoeveelheid tijd een toegewezen middel wordt gepland om aan een taak in een dag te werken. Het is het percentage van een het werkdag (volgens het gebruikers of projectprogramma) waarbij een middel door de duur van de taak wordt toegewezen.
 author: Lisa
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
+source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '451'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,8 @@ Het percentage van de toewijzing vertegenwoordigt de hoeveelheid tijd een toegew
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -34,7 +36,7 @@ Het percentage van de toewijzing vertegenwoordigt de hoeveelheid tijd een toegew
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> <p>Nieuw: Standaard</p> 
    <p>Huidig: Werk of hoger</p> </td> 
   </tr> 
@@ -44,12 +46,12 @@ Het percentage van de toewijzing vertegenwoordigt de hoeveelheid tijd een toegew
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Contribute- of hogere machtigingen voor de taak</p> <p>Machtigingen bewerken om het toewijzingspercentage bij te werken in het vak Taak bewerken</p>  </td> 
+   <td> <p>Contribute of hoger machtigingen voor de taak</p> <p>Machtigingen bewerken om het toewijzingspercentage bij te werken in het vak Taak bewerken</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang voor de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang voor de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

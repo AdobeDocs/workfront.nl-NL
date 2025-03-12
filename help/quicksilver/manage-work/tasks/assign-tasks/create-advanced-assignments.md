@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 4072e71dc0ba76871e17da7718ed4b77a3cdbda6
+source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1132'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ U kunt de volgende toewijzingsgegevens aanpassen bij het maken van geavanceerde 
 
 ## Gebieden in Adobe Workfront waar u geavanceerde toewijzingen kunt maken
 
-In dit artikel wordt beschreven hoe u Geavanceerde toewijzingen kunt openen in de taak- of uitgiftekop.
+In dit artikel wordt beschreven hoe u toegang krijgt tot Geavanceerde toewijzingen in de taak- of uitgiftekop.
 
 Bovendien kunt u geavanceerde toewijzingen maken in de volgende gebieden van Workfront:
 
@@ -47,6 +47,8 @@ Bovendien kunt u geavanceerde toewijzingen maken in de volgende gebieden van Wor
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -56,7 +58,7 @@ Bovendien kunt u geavanceerde toewijzingen maken in de volgende gebieden van Wor
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> <p>Nieuw: Standaard</p>
     <p>Huidig: Werk of hoger</p> </td> 
   </tr> 
@@ -71,7 +73,7 @@ Bovendien kunt u geavanceerde toewijzingen maken in de volgende gebieden van Wor
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -83,18 +85,17 @@ Bovendien kunt u geavanceerde toewijzingen maken in de volgende gebieden van Wor
    >[!TIP]
    >
    >U kunt geavanceerde taken rechtstreeks op de taak of de lijst van de kwestie maken als er twee of meer toegewezen mensen zijn. Klik binnen het **gebied van Taken** op de zelfde lijn zoals de taak of de kwestie, dan klik het **pictogram van Mensen** om het Geavanceerde venster van Taken te openen. Ga verder met stap 5 om door te gaan met het maken van geavanceerde toewijzingen.\
-   >![](assets/nwe-advanced-assignments-350x55.png)
-   >
+   >![ klik het pictogram van Mensen ](assets/nwe-advanced-assignments-350x55.png)
 
 1. Klik **toewijzen aan** in het **3} gebied van Taken {in de kopbal van de taak of de kwestie**
 
    of
 
-   Klik op de naam van de toewijzingen als de taak of uitgave al is toegewezen.
+   Klik op een van de toegewezen namen als de taak of uitgave al is toegewezen.
 
 1. Klik **Geavanceerd**.
 
-   <span class="preview">![ klik Geavanceerde ](assets/assignments-box-in-task-header.png)</span>
+   ![ klik Geavanceerde ](assets/assignments-box-in-task-header.png)
 
 1. Op de **mensen van het Onderzoek, de rol en het teamgebied**, begin de naam van een gebruiker, een rol, of een team te typen, dan de naam te klikken wanneer het in de drop-down lijst verschijnt.
 
@@ -102,7 +103,7 @@ Bovendien kunt u geavanceerde toewijzingen maken in de volgende gebieden van Wor
    >
    >Als de naam van de gebruiker een speciaal teken bevat, moet u het speciale teken in het zoekveld opnemen.
 
-1. (Optioneel) Ga door met het toevoegen van toewijzingen in het **vak Personen, Rol of Teams zoeken** om meerdere bronnen aan de taak of kwestie toe te voegen.
+1. (Optioneel) Ga door met het toevoegen van toewijzingen in het **vak Personen, Rol en Teams** om meerdere bronnen aan de taak of kwestie toe te voegen.
 
    >[!TIP]
    >
@@ -114,11 +115,10 @@ Bovendien kunt u geavanceerde toewijzingen maken in de volgende gebieden van Wor
    >De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Voor informatie, zie [ toegang van de Verlening tot gebruikers ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
    >
    >
-   >* Als een gebruiker, een baanrol, of een team werd toegewezen alvorens zij werden gedeactiveerd, blijven zij toegewezen aan het het werkpunt. In dit geval raden we het volgende aan:
+   >* Als een gebruiker, een baanrol, of een team werden toegewezen alvorens zij werden gedeactiveerd, blijven zij toegewezen aan het het werkpunt. In dit geval raden we het volgende aan:
    >   
    >   * Wijs het werkitem opnieuw toe aan actieve bronnen.
    >   * Koppel de gebruikers in een gedeactiveerd team aan een actief team en wijs het het werkpunt aan het actieve team opnieuw toe.
-   >
 
    <!-- SHOULD BE THIRD BULLET POINT IN TIP TABLE WHEN THIS FEATURE IS RELEASED 
     * <span class="preview">When adding a job role assignment, you can search for the job role or location. Select the System/Default Job Role to use the default billing rate for the assignment, or select a Rate Card Job Role to override the rate at the assignment level. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
@@ -133,7 +133,7 @@ Bovendien kunt u geavanceerde toewijzingen maken in de volgende gebieden van Wor
      >
      >Afhankelijk van hoe uw Workfront-beheerder of groepsbeheerder uw projectvoorkeuren heeft ingesteld, kan Workfront het schema van de taakeigenaar gebruiken om de tijdlijn van de taak te berekenen wanneer meerdere gebruikers aan de taak zijn toegewezen. Voor informatie over veelvoudige taaktoegewezen, zie &quot;veelvoudige gebruikers aan een taak&quot;sectie in het artikel toewijzen [ taken ](../../../manage-work/tasks/assign-tasks/assign-tasks.md) toewijzen.
 
-   * **Toewijzingen** : Wanneer het Type van Duur van een taak Eenvoudig is, specificeer het aantal uren elke gebruiker of baanrol aan de taak zou moeten worden toegewezen. De som van alle toegewezen uren voor elke gebruiker is gelijk aan het aantal op het **Geplande Uren** gebied bij de bodem van de kolom van Toewijzingen. In alle andere gevallen geeft u het percentage aan tijd (of toewijzing) op dat de toegewezen persoon moet besteden aan het oplossen van de taak of kwestie.
+   * **Toewijzingen**: Wanneer het Type van Duur van een taak Eenvoudig is, specificeer het aantal uren elke gebruiker of baanrol aan de taak zou moeten worden toegewezen. De som van alle toegewezen uren voor elke gebruiker is gelijk aan het aantal op het **Geplande Uren** gebied bij de bodem van de kolom van Toewijzingen. In alle andere gevallen geeft u het percentage aan tijd (of toewijzing) op dat de toegewezen persoon moet besteden aan het oplossen van de taak of kwestie.
 
      >[!TIP]
      >   
@@ -141,7 +141,7 @@ Bovendien kunt u geavanceerde toewijzingen maken in de volgende gebieden van Wor
      >   * U kunt toewijzingen niet handmatig wijzigen bij uitgaven.
      >   * U kunt toewijzingen voor teams die aan taken zijn toegewezen niet handmatig wijzigen.
 
-   * **Rol van de Ontvanger:** selecteer de rol de gebruiker zou moeten gebruiken wanneer het vervullen van deze taak.  Standaard wordt de primaire rol van de gebruiker weergegeven. Klik in het vak Rol van de ontvanger om een andere rol te selecteren.  Wanneer u eerst de taak of de kwestie aan een rol toewijst, en dan een gebruiker toevoegt die die rol als tweede taak kan vervullen, wordt de lijst van voorgestelde gebruikers gefiltreerd voor de gebruikers die de rollen kunnen vervullen die reeds aan de taak en de kwestie worden toegewezen.
+   * **Rol van de Ontvanger:** selecteer de rol de gebruiker zou moeten gebruiken wanneer het vervullen van deze taak.  Standaard wordt de primaire rol van de gebruiker weergegeven. Klik in het **vakje van de Rol van 0} toewijzen {om een andere rol te selecteren.** Wanneer u eerst de taak of de kwestie aan een rol toewijst, en dan een gebruiker toevoegt die die rol als tweede taak kan vervullen, wordt de lijst van voorgestelde gebruikers gefiltreerd voor de gebruikers die de rollen kunnen vervullen die reeds aan de taak en de kwestie worden toegewezen.
 
      ![ Rol van de Ontvanger ](assets/advanced-assignments-select-role.png)
 
@@ -160,6 +160,5 @@ Bovendien kunt u geavanceerde toewijzingen maken in de volgende gebieden van Wor
      Voor meer informatie, zie [ Overzicht van het Type van Duur en van de Duur van de Taak ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md). Bij het bewerken van grote hoeveelheden toewijzingsgegevens wordt een vergelijkbaar dialoogvenster weergegeven waarin gebruikers, uren, toewijzing en taakeigenaar worden toegewezen.
 
    * **Geplande Uren**: Wanneer het Type van Duur Toewijzing of Eenvoudig wordt berekend, werk het aantal Geplande Uren bij. De toewijzingspercentages of de uren voor elke bron worden als gevolg hiervan gelijkmatig verdeeld. Workfront berekent de geplande uren wanneer het Duur-type Berekend Werk of Gedreven Inspanning is. Voor meer informatie, zie [ Overzicht van het Type van Duur en van de Duur van de Taak ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
-
 
 1. Klik **sparen**.

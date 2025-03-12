@@ -7,9 +7,9 @@ description: Bij het beheren van taken en uitgaven kunt u slimme toewijzingen ge
 author: Lisa
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
+source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '583'
 ht-degree: 0%
 
 ---
@@ -51,23 +51,23 @@ U kunt slimme toewijzingen weergeven op de volgende plaatsen waar u taken of pro
 
 * Een uitgiftenlijst of rapport in de kolom Toewijzingen
 
-  ![](assets/smart-assignments-issue-list.png)
+  ![ de kolom van de Lijsten van de Uitgave ](assets/smart-assignments-issue-list.png)
 
 * Een taaklijst of rapport in de kolom van Taken
 
-  ![](assets/smart-assignments-task-list.png)
+  ![ de kolom van Toewijzingen van de Lijst van de Taak ](assets/smart-assignments-task-list.png)
 
 * Een taakkoptekst in het veld Toewijzingen
 
-  ![](assets/smart-assignments-task-header-nwe-350x302.png)
+  ![ het gebied van Toewijzingen van de kopbal van de Taak ](assets/smart-assignments-task-header-nwe-350x302.png)
 
 * Een uitgiftekop in het veld Toewijzingen
 
-  ![](assets/smart-assignments-issue-header.png)
+  ![ het gebied van de kopbalToewijzingen van de Uitgave ](assets/smart-assignments-issue-header.png)
 
 * Het deelvenster Overzicht van taken of uitgaven in het gebied Toewijzingen
 
-  ![](assets/issue-assignments-summary-panel.png)
+  ![ het gebied van de Kaarten van het Summiere paneel ](assets/issue-assignments-summary-panel.png)
 
 <!--* The Assignments field in the New Task box, when adding a task to a project
 
@@ -81,8 +81,7 @@ U kunt slimme toewijzingen weergeven op de volgende plaatsen waar u taken of pro
 
 * Werklastverdeling in het gedeelte Toegewezen aan als u een taak of uitgave toewijst
 
-  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
-
+  ![ het gebied van de Toewijzingen van de Balans van de Werkbelasting ](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 ## Criteria voor slimme toewijzingen
 
@@ -153,7 +152,7 @@ De geïdentificeerde taken worden vermeld in de **Gebruikers en teams**, **de ro
 >
 >The following criteria applies for tasks only when the first phase of the task smart assignment calculation did not find any matches. For information, see the section [First phase of smart assignment calculation for tasks](#first-phase-of-smart-assignment-calculation-for-tasks) in this article. The following criteria always applies for issues, by default. -->
 
-![](assets/smart-assignments-issue-header.png)
+![ Slimme taak van het Voorbeeld ](assets/smart-assignments-issue-header.png)
 
 De gebruikers worden geadviseerd in de slimme drop-down lijst van Toewijzingen die op een combinatie van de volgende criteria (die in orde van belangrijkst tot minst belangrijk worden vermeld) wordt gebaseerd:
 

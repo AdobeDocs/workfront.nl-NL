@@ -6,9 +6,9 @@ description: U kunt slimme toewijzingen gebruiken om te bepalen wie de beste geb
 author: Lisa
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
+source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '422'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,8 @@ Voor meer informatie over de criteria die in het bepalen van slimme taken worden
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -46,7 +48,7 @@ Voor meer informatie over de criteria die in het bepalen van slimme taken worden
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> <p>Nieuw: Standaard</p>
       of
       <p>Huidig: Werk of hoger</p> </td> 
@@ -57,12 +59,12 @@ Voor meer informatie over de criteria die in het bepalen van slimme taken worden
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Contribute- of hogere machtigingen met de mogelijkheid taken toe te wijzen aan taken en problemen</p> </td> 
+   <td> <p>Contribute of hoger met de mogelijkheid om taken en uitgaven toe te wijzen</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -90,7 +92,7 @@ Slimme toewijzingen zijn beschikbaar op de meeste locaties waar u toewijzingen k
    <!--* <span class="preview">**Suggested assignments**: Displays assignments identified in the first phase of the task smart assignment algorithm.</span> -->
    * **Gebruikers en teams**, **de rollen van de Baan**, of <span class="preview">**de baanrollen van de kaart van het Tarief**</span>: <!--Assignments identified in the second phase of the task smart assignment's algorithm calculation.-->
 
-   ![](assets/smart-assignments-task-list.png)
+   ![ Slim toewijzingsvoorbeeld in taaklijst ](assets/smart-assignments-task-list.png)
 
    Voor meer informatie, zie [ Slim toewijzingsoverzicht ](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 

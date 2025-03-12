@@ -1,15 +1,15 @@
 ---
 product-area: projects;user-management
 navigation-topic: assign-tasks
-title: Meerdere gebruikerstoewijzingen in een takenlijst wijzigen
+title: Meerdere gebruikerstoewijzingen wijzigen in een takenlijst
 description: Wanneer het beheren van taaktaken, kunt u hen voor veelvoudige taken tegelijkertijd wijzigen door de bulkbewerkingseigenschap in een lijst van taken te gebruiken.
 author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
+source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '966'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ Voor informatie over het toewijzen van een taak aan één middel in een lijst, z
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -43,7 +45,7 @@ Voor informatie over het toewijzen van een taak aan één middel in een lijst, z
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> <p>Nieuw: Standaard</p>
    <p>Huidig: Werk of hoger</p> </td> 
   </tr> 
@@ -53,12 +55,12 @@ Voor informatie over het toewijzen van een taak aan één middel in een lijst, z
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Contribute- of hogere machtigingen voor taken</p>  </td> 
+   <td> <p>Contribute of hoger machtigingen voor taken</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

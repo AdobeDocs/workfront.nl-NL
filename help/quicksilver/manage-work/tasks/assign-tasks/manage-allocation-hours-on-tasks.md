@@ -1,23 +1,31 @@
 ---
 product-area: projects;user-management
 navigation-topic: assign-tasks
-title: Gebruikers- en roltoewijzingstijden beheren voor taken
+title: Uur van gebruikers- en roltoewijzing beheren voor taken
 description: Wanneer het toewijzen van gebruikers of rollen aan een taak, worden zij toegewezen om een bepaald aantal uren te werken om de taak te voltooien. U kunt de hoeveelheid uren manueel wijzigen dat elke gebruiker of baanrol wordt toegewezen wanneer zij aan een taak worden toegewezen, wanneer het Type van Duur van de taak Eenvoudig is.
 author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
+source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
 
 # Gebruikers- en roltoewijzingstijden beheren voor taken
 
+De uren van de toewijzing vertegenwoordigen de totale hoeveelheid tijd een toegewezen middel om aan een taak te werken wordt gepland. De uren vertegenwoordigen de tijd dat een gebruiker op één bepaalde dag of weekdag, week, of maand door de duur van de taak wordt toegewezen.
+
+>[!NOTE]
+>
+>Wanneer gebruikers aan het werk worden toegewezen, heeft hun beschikbaarheid volgens hun programma&#39;s invloed op de geplande en verwachte datum van taken en problemen. Voor informatie over programma&#39;s, zie [ een programma ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren.
+
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -28,22 +36,22 @@ ht-degree: 0%
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> <p>Nieuw: Standaard </p>
    <p>Huidig: Werk of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot taken bewerken</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Contribute- of hogere machtigingen voor de taak</p> <p>Machtigingen bewerken om de toewijzingstijden bij te werken in het vak Taak bewerken</p> </td> 
+   <td> <p>Contribute of hoger machtigingen voor de taak</p> <p>Machtigingen bewerken om de toewijzingstijden bij te werken in het vak Taak bewerken</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
