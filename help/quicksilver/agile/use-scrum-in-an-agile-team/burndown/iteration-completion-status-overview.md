@@ -7,9 +7,9 @@ description: De voltooiingsinformatie die in dit artikel wordt beschreven wordt 
 author: Lisa
 feature: Agile
 exl-id: cc6bebdb-f2aa-4e85-9f9f-15e7753d84cb
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ De voltooiingsinformatie die in dit artikel wordt beschreven wordt getoond boven
 
 Voltooiingspercentage van een herhaling:
 
-![](assets/burndown-percentcomplete-350x47.png)
+![ het paneel van herhalingsdetails ](assets/burndown-percentcomplete-350x47.png)
 
 Deze informatie wijst op de voltooiingsstatus van de herhaling voor de dag die momenteel in de burndown grafiek wordt geselecteerd. Standaard wordt de voltooiingsstatus weergegeven op basis van de datum van de huidige dag.
 

@@ -7,9 +7,9 @@ author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 246e3f71-6403-4381-866c-fa693fb9944d
-source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
+source-git-commit: 0289e2d0a3f75827b9c799b72fdc4e9ca1c59949
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
@@ -28,5 +28,6 @@ Lees deze artikelen voor meer informatie over het gebruik van het gebied Home in
 * [Werk- en teamaanvragen beheren in het gebied [!UICONTROL Home]](../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
 * [Een tijdelijk item bijwerken of bewerken in het gebied [!UICONTROL Home]](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)
 * [Werkitems en projecten maken vanuit het [!UICONTROL Home] -gebied](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
+* [Persoonlijk aan-doe item maken en beheren](/help/quicksilver/workfront-basics/using-home/using-the-home-area/manage-to-do-in-home.md)
 * [De tijd van het logboek op een het werkpunt van het [!UICONTROL Home] gebied](../../../workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
 * [Een item markeren als [!UICONTROL Done] in het [!UICONTROL Home] -gebied](../../../workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)

@@ -6,9 +6,9 @@ description: De standaardkleurenkoppeling van de artikelen in het tekengebied is
 author: Lisa
 feature: Agile
 exl-id: 8e351505-73d1-4c8f-b369-53c965b88c95
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
@@ -59,8 +59,8 @@ Als de agile teaminstellingen zijn geconfigureerd, zodat de optie [!UICONTROL As
 1. Selecteer in het linkerdeelvenster **[!UICONTROL Iterations]** om een specifieke herhaling te kiezen of selecteer **[!UICONTROL Current Iteration]** .
 1. Beweeg over de gekleurde banner boven aan de artikeltegel.
 
-   ![](assets/agile-story-color1-nwe-350x140.png)
+   ![ verhaalkaart ](assets/agile-story-color1-nwe-350x140.png)
 
 1. Klik op **[!UICONTROL Change color]** en selecteer vervolgens de gewenste kleur.
 
-   ![](assets/agile-story-color2-nwe-350x138.png)
+   ![ kies kleur ](assets/agile-story-color2-nwe-350x138.png)

@@ -6,9 +6,9 @@ description: U kunt de grootte van het uitvouwdiagram wijzigen of het uitvouwdia
 author: Lisa
 feature: Agile
 exl-id: ad7ea883-987a-4278-8d24-7c1dd4e542a3
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. Ga naar de herhaling die de burndown grafiek bevat u resize.
 1. Houd de cursor boven de onderste lijn van het onderste diagram en sleep het diagram naar de gewenste grootte.
-   ![](assets/burndown-resize.png)
+   ![ resize de burndown grafiek ](assets/burndown-resize.png)
 
 ## Het uitvouwdiagram samenvouwen
 

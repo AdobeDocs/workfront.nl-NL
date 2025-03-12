@@ -6,9 +6,9 @@ description: Wanneer u een artikeltegel weergeeft op het Kanban-bord, kunt u bep
 author: Lisa
 feature: Agile
 exl-id: a22a7b61-b331-4c98-9421-e7fccedcd096
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
@@ -107,7 +107,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 1. Ga naar het [!UICONTROL Kanban] board.
 1. Vouw de artikeltegel uit om alle velden weer te geven die aan het artikel zijn gekoppeld.
 
-   ![](assets/story-expanded-on-kanban-board-2021-350x405.png)
+   ![ kaart van het Verhaal ](assets/story-expanded-on-kanban-board-2021-350x405.png)
 
 1. (Optioneel) Als u een veld wilt bewerken, klikt u op het veld en brengt u de gewenste wijzigingen aan.
 U moet [!UICONTROL Edit] rechten op de taak of uitgave hebben om de artikeltegel te kunnen bewerken.

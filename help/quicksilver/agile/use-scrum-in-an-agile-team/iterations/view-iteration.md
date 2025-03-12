@@ -6,7 +6,7 @@ description: U kunt alle herhalingen voor een bepaald team bekijken, of u kunt e
 author: Lisa
 feature: Agile
 exl-id: 1ee14c40-8047-4885-96f0-cddfc2617028
-source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
+source-git-commit: 556a2b89f2e380d3a0725f0d53251d3e1e3c7ca7
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 0%
@@ -64,4 +64,4 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 1. (Optioneel) Klik op de naam van de specifieke herhaling die u wilt weergeven.
 De herhalingsartikelen worden weergegeven.
 
-   ![[!UICONTROL Stories in iteration]](assets/iteration-stories-list-NWE.png)
+   ![[!UICONTROL Stories in iteration]](assets/iteration-stories-list.png)

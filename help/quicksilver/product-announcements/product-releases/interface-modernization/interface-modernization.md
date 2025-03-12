@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 1a0902c7c6e1b7f647564e448daf74748d9cb3db
+source-git-commit: 3ea3acc79a0f2d9c61b4ca7fff68855a9a7b1de7
 workflow-type: tm+mt
-source-wordcount: '1634'
+source-wordcount: '1706'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ Deze pagina bevat een overzicht van de interface-updates die we in Adobe Workfro
 Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product ](/help/quicksilver/product-announcements/product-releases/product-releases.md).[
 
 ## Beheer en installatie
+
++++Breid aan de interfaceupdates van het meningsBeleid en van de Opstelling uit
 
 ### Interface-update voor het Aankondigingscentrum
 
@@ -140,7 +142,11 @@ We hebben de lijsten met projecten, taken en goedkeuringen voor uitgaven bijgewe
 
 Deze update bevat visuele wijzigingen in het gebied. Er is geen functionaliteit gewijzigd.
 
++++
+
 ## Agile
+
++++Vergroten om de updates van de interface van Agile te bekijken
 
 ### Interface-updates voor teamverzoeken
 
@@ -177,7 +183,8 @@ We hebben het gebied Teams > Backlog bijgewerkt met een moderner ontwerp dat aan
 Deze update bevat de volgende wijzigingen:
 
 * Visuele verbeteringen op het tabblad Artikelen en Problemen en in het dialoogvenster Artikelen opsplitsen
-* Een nieuw dialoogvenster voor het gereedschap Overgangen plannen
+* Een nieuw dialoogvenster voor het gereedschap Overgaan. U moet een artikel of probleem selecteren voordat de knop Overgaan wordt weergegeven.
+* U kunt niet meer schakelen tussen het tabblad Artikelen en Problemen bij het plannen van een herhaling. Nadat u de herhaling hebt gemaakt, kunt u op het tabblad Back-up artikelen of problemen toevoegen.
 
 ### Interface-update voor de lijst met herhalingen
 
@@ -199,7 +206,11 @@ Deze update bevat visuele wijzigingen in het gebied. Er is geen functionaliteit 
 
 Om deze verandering te bekijken, ga naar Teams > kies een team > Achtergrond, dan klik **Nieuw verhaal** of **Nieuwe kwestie**.
 
++++
+
 ## Documenten
+
++++Uitbreiden om de interfaceupdates van Documenten te bekijken
 
 ### Interface-update voor het gebied Goedkeuringen in een document
 
@@ -217,7 +228,11 @@ Het dialoogvenster Slimme mappen bewerken is bijgewerkt met een modern ontwerp d
 
 Ga naar Documenten > Klik op het menu Meer naast de naam van het slimme filter > Klik op Bewerken om deze wijziging weer te geven.
 
++++
+
 ## Rapporten en dashboards
+
++++Breid om Rapporten en de interfaceupdates van Dashboards te bekijken uit
 
 ### Het bijgewerkte Rapport van het Team met nieuwe het formatteren
 
@@ -271,3 +286,5 @@ Er is een nieuwe knop Tekstmodus bewerken en modaal bewerken toegevoegd aan de v
 
 * Oudere filters
 * Groepen
+
++++

@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: e4c037b3c5d77094db51c159dcd045aa34fcbe61
+source-git-commit: e02a593ddca923067eb61f838a7ade17e7fc3652
 workflow-type: tm+mt
-source-wordcount: '13066'
+source-wordcount: '13072'
 ht-degree: 0%
 
 ---
@@ -849,6 +849,7 @@ ht-degree: 0%
          * [Werk- en teamaanvragen beheren in het gebied Home](workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
          * [Een tijdelijk onderdeel bijwerken of bewerken in het gebied Home](workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)
          * [Werkitems en projecten maken vanuit het thuisgebied](workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
+         * [Persoonlijk aan-doe item maken en beheren](workfront-basics/using-home/using-the-home-area/manage-to-do-in-home.md)
          * [De tijd van het logboek op een het werkpunt van het Huis](workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
          * [Een item markeren als Gereed in het gebied Home](workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)
          * [Het gebied Mijn updates gebruiken](workfront-basics/using-home/using-the-home-area/my-updates-area.md)

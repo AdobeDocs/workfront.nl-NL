@@ -6,7 +6,7 @@ description: U kunt op verschillende manieren een wendbaar artikel maken. Nadat 
 author: Lisa
 feature: Agile
 exl-id: d16ee940-3551-44da-8fe6-093f4fcac070
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 9a363dc0c591985c7ae8edb4a511fd648b486f1c
 workflow-type: tm+mt
 source-wordcount: '661'
 ht-degree: 0%
@@ -65,7 +65,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    1. Selecteer in het linkerdeelvenster **[!UICONTROL Iterations]** om een specifieke herhaling te kiezen of selecteer **[!UICONTROL Current Iteration]** .
    1. Klik op de naam van de specifieke herhaling waar u een artikel wilt maken.
 
-   ![ voeg nieuw verhaal aan herhaling toe ](assets/iteration-add-story.png)
+   ![ voeg nieuw verhaal aan herhaling toe ](assets/iteration-stories-list.png)
 
 1. Klik op **[!UICONTROL New Story].**
 1. Geef de volgende informatie op:

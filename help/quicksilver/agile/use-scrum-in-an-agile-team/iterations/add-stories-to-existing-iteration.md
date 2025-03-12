@@ -6,9 +6,9 @@ description: U kunt op verschillende manieren artikelen aan een herhaling toevoe
 author: Lisa
 feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ U kunt om het even welke taak of kwestie aan om het even welke herhaling toevoeg
 of
 Ga naar het project, het rapport, of het dashboard dat de taak of de kwestie bevat u aan een herhaling wilt toevoegen. Selecteer vervolgens een of meer taken of problemen.
 
-1. Klik op **[!UICONTROL More]** ![](assets/more-icon.png) > **[!UICONTROL Add to Iteration]** .
+1. Klik **[!UICONTROL More]** ![ Meer pictogram ](assets/more-icon.png) > **[!UICONTROL Add to Iteration]**.
 U kunt geen taken of kwesties toewijzen die aan niet-flexibele teams worden toegewezen.
 
 1. Typ in het vak **[!UICONTROL Add To]** de naam van de herhaling en selecteer deze wanneer deze in de lijst wordt weergegeven.

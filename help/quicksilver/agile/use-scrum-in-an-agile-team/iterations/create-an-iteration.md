@@ -6,9 +6,9 @@ description: Herhalingen vormen een sleutelcomponent voor de ploegen van de Trom
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: 6ae8e48361114e897d0be83ae81f8344074a5ec2
+source-git-commit: 6fb0870b919baf49e17d48586b2a9661e5cb4b94
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '1048'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,14 @@ Gebruik de functie [!UICONTROL Plan Iteration] om een herhaling te maken met beh
 
 1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![ Schakelaar teampictogram ](assets/switch-team-icon.png), dan of selecteer een nieuw team van het Trommel van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
 
-1. Selecteer **[!UICONTROL Backlog]** in het linkerdeelvenster. Klik vervolgens op **[!UICONTROL Plan Iteration]** .
+1. Selecteer **[!UICONTROL Backlog]** in het linkerdeelvenster.
+
+1. Voor de **Verhalen** of **Kwesties** tabel, selecteer minstens één het werkpunt, dan klik **[!UICONTROL Plan Iteration]**.
+
+>[!NOTE]
+>
+> U kunt niet tussen de Artikelen of het lusje van Kwesties schakelen wanneer het plannen van een herhaling op het Achterloglusje. U kunt bestaande artikelen of problemen toevoegen nadat u de herhaling hebt gemaakt. Voor meer informatie, zie [ verhalen van de beweging van de achterstand aan een herhaling of een raad ](/help/quicksilver/agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or-board).
+
 
 1. Geef de volgende informatie op:
 

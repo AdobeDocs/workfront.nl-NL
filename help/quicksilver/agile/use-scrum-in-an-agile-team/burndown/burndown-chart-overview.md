@@ -7,9 +7,9 @@ description: De burndown grafiek verstrekt een visuele vertegenwoordiging van ho
 author: Lisa
 feature: Agile
 exl-id: 414e3315-35ed-4aa4-a2d8-be42ec585f29
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '956'
 ht-degree: 0%
 
 ---
@@ -31,31 +31,31 @@ Het burndown-diagram bevat de volgende visuele indicatoren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-dottedblue.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-dottedblue.png" alt="Ideaal begin van de burgsnelheid"> </td> 
    <td> <p>De ideale uitbetalingssnelheid is gebaseerd op het tijdstip waarop de iteratie begon.</p> <p>Deze regel wordt niet weergegeven als het bereik van de herhaling nooit verandert (uren of punten worden nooit toegevoegd of verwijderd).</p> <p>Deze regel wordt vlak weergegeven wanneer het werk op een willekeurige dag wordt uitgevoerd. Voor meer informatie, zie <a title="De versnellingsgrafiek gebruiken" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref"> Hoe de dagen van de compensatie grafiek </a> beïnvloeden.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-solidblue.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-solidblue.png" alt="Ideaal tarief voor artikelen of taken"> </td> 
    <td> <p>Ideaal omzettingstarief dat op huidige verhalen of taken wordt gebaseerd.</p> <p>De huidige ideale uitzetsnelheid (effen blauwe lijn) verschilt van de oorspronkelijke ideale uitzettingssnelheid (stippelblauwe lijn) wanneer uren of punten worden toegevoegd aan of verwijderd uit de iteratie nadat de herhaling is gestart.</p> <p>Deze regel wordt vlak weergegeven wanneer het werk op een willekeurige dag wordt uitgevoerd.</p> <p>Voor meer informatie, zie <a title="De versnellingsgrafiek gebruiken" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref"> Hoe de dagen van de compensatie grafiek </a> beïnvloeden.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-red.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-red.png" alt="Ware uitbarstingssnelheid in rood"> </td> 
    <td> <p>De daadwerkelijke burndown rate wordt getoond in rood wanneer het burndown tarief minder dan ideaal is (meer punten of uren resterend per dag dan de ideale burndown berekening).</p> <p>Voor de berekening van de werkelijke uitboekingsrente wordt de volgende formule gebruikt:</p> <p>[SUM(Point or Hour Value of In-progress Work * Percent Complete) + Point or Uour Value of Completed Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-green.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-green.png" alt="Ware uitbarstingssnelheid in groen"> </td> 
    <td> <p>De daadwerkelijke burndown-rente wordt in groen weergegeven wanneer de burndown-snelheid gelijk is aan of beter is dan het ideale (gelijk aan of minder punten per dag dan de ideale burndown-berekening).</p> <p>Voor de berekening van de werkelijke uitboekingsrente wordt de volgende formule gebruikt:</p> <p>[SUM(Point or Hour Value of In-progress Work * Percent Complete) + Point or Uour Value of Completed Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="Wijziging van het toepassingsgebied"> </td> 
    <td> <p>Wijziging in bereik (uren of punten worden toegevoegd aan of verwijderd uit de iteratie).</p> <p>Wijzigingen in bereik worden altijd als een verticale lijn in het midden van de dag weergegeven. Bovendien wordt een blauwe stip weergegeven halverwege de dag waarop een bereikwijziging is opgetreden.</p> <p>Op de verticale as van het uitvouwdiagram worden de artikelpunten of -uren weergegeven.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="Wijzigen in datumbereik"> </td> 
    <td> <p>Verandering in datumbereik (de duur van de herhaling wordt verhoogd of verlaagd).</p> <p>Er wordt een blauwe stip weergegeven halverwege de dag waarop de herhalingsduur is gewijzigd.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="Groene punt voor werk afgebrand"> </td> 
    <td> <p>Op het moment dat het werk wordt afgebrand, wordt een groene of rode stip weergegeven met de werkelijke afbraaksnelheid. (Wanneer de daadwerkelijke burndown tarief op die dag rood is, is de punt rood; wanneer het daadwerkelijke burndown tarief op die dag groen is, is de punt groen.)</p> <p>Het werk wordt verbrand wanneer om het even welk van het volgende voorkomt:</p> 
     <ul> 
      <li> De waarde [!UICONTROL Percent Complete] wordt verhoogd in het artikel.<br>[!UICONTROL Percent Complete] wordt verhoogd wanneer: 

@@ -6,9 +6,9 @@ description: Wanneer u een artikeltegel weergeeft op het Kanban-bord, kunt u bep
 author: Lisa
 feature: Agile
 exl-id: 88d156ea-0913-425e-b3eb-6ae81d2d2336
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 1. Ga naar het [!UICONTROL Scrum] &#39;agile story board&#39;.
 1. Vouw het element [!UICONTROL story] uit om alle velden weer te geven die aan het artikel zijn gekoppeld.
 
-   ![](assets/agile-storycard-scrum-2021-350x333.png)
+   ![ verhaalkaart ](assets/agile-storycard-scrum-2021-350x333.png)
 
 1. (Optioneel) Als u een veld wilt bewerken, klikt u op het veld en brengt u de gewenste wijzigingen aan.
 

@@ -6,9 +6,9 @@ description: U kunt werkitems en projecten maken vanuit het [!UICONTROL Home] -g
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: e02a593ddca923067eb61f838a7ade17e7fc3652
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '818'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,6 @@ U kunt werkitems en projecten maken vanuit het [!UICONTROL Home] -gebied.
 
 Vanaf Home kunt u
 
-* Persoonlijke handelingen voor uzelf maken
 * Verzoeken verzenden
 * Taken en problemen toevoegen aan specifieke projecten
 * Creeer projecten van een malplaatje, leeg project, of voer een project van MS in.
