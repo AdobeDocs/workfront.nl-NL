@@ -6,9 +6,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0de6119d-6a47-41f2-87da-2c6752ca436b
-source-git-commit: c8e47417fa52ef2bf5839d351f1376e733dbe1b2
+source-git-commit: da5c7197b3826855bae5dd3d3bf2ba9d07d7f188
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -49,19 +49,10 @@ Gebruik de query&#39;s in de onderstaande artikelen om gegevensvisualisaties te 
 
 
 * [KPI-vragen](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
-
-Binnenkort beschikbaar:
-
-* Vliegplan
-* Projectactiviteiten
-* Projectreemap
-* Activiteit per team
-<!--
-* [Flight plan queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/flight-plan-queries.md)
-* [Project activities queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-activity-queries.md)
-* [Project treemap queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md) 
-* [Activity by team queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/team-queries.md)
--->
+* [Vragen over vliegplannen](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/flight-plan-queries.md)
+* [Vragen over projectactiviteiten](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-activity-queries.md)
+* [ de vragen van de de treemap van het Project ](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md)
+* [Activiteit door teamvragen](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/team-queries.md)
 
 ### Hulp vragen
 
