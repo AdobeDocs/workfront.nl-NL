@@ -5,16 +5,16 @@ author: Alina
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 4dc32da0-9680-4b7f-a959-d4a0652618c5
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: c21029e098f6b4f51f8698155e2b8a2e789c8bfc
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '594'
 ht-degree: 0%
 
 ---
 
 # Aangepaste formulieren en objectdetails exporteren
 
-U kunt het overzicht en de informatie van de douaneformulier van de sectie van Details van een voorwerp naar een dossier van de PDF uitvoeren. U kunt de PDF vervolgens afdrukken of delen met andere gebruikers.
+U kunt het overzicht en de aangepaste formuliergegevens vanuit de sectie Details van een object exporteren naar een PDF-bestand. U kunt de PDF vervolgens afdrukken of delen met andere gebruikers.
 
 Deze functionaliteit wordt ondersteund voor de volgende objecten:
 
@@ -97,19 +97,15 @@ Informatie exporteren uit de sectie Details van een object is identiek voor alle
    >
    >De volgende scenario&#39;s kunnen bestaan:
    >
-   >   
-   >   
    >   * Wanneer uw groep of Workfront-beheerder de selectie van alle velden in het gebied Overzicht opheft en voor het object aangepaste formulieren zijn gekoppeld, wordt de sectie Overzicht niet weergegeven.
    >   * Wanneer uw groep of Workfront-beheerder de selectie van alle velden in het gebied Overzicht opheft en er geen aangepaste formulieren zijn gekoppeld voor het object, is het vervolgkeuzemenu Exporteren niet zichtbaar.
    >   * Als voor het object geen aangepaste formulieren zijn gekoppeld, kunt u alleen het gebied Overzicht exporteren.
-   >   * Aangepaste velden die achter logica staan en niet zichtbaar zijn op het formulier, worden niet geëxporteerd. Voor informatie over het toevoegen van logica aan een douanevorm, zie [ vertoningslogica toevoegen en logica overslaan aan een vorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).
-   >   
-   >
+   >   * Aangepaste velden die achter logica staan en niet zichtbaar zijn op het formulier, worden niet geëxporteerd. Voor informatie over het toevoegen van logica aan een douaneformulier, zie [ logische regels aan douaneformulieren en gebieden ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md) toevoegen.
 
    Er wordt een PDF-bestand gemaakt en naar de computer gedownload. Het PDF-bestand bevat de volgende informatie:
 
    * De naam van het object waaraan het formulier is gekoppeld
    * De naam van de gebruiker die de PDF heeft geëxporteerd
-   * De datum en het tijdstip waarop de PDF is geproduceerd
+   * Datum en tijdstip waarop de PDF is geproduceerd
    * De naam van de geëxporteerde formulieren
    * Informatie uit de velden die op het formulier zijn ingevuld

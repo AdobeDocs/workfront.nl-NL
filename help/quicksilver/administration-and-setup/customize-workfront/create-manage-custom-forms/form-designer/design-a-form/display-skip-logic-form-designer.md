@@ -1,5 +1,5 @@
 ---
-title: Weergavelogica toevoegen en logica overslaan op een formulier
+title: Logische regels toevoegen aan aangepaste Forms en velden
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,16 +8,20 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 9f2ada5f9954878efc195661173fe88a0fe1d3bd
 workflow-type: tm+mt
-source-wordcount: '1318'
+source-wordcount: '1745'
 ht-degree: 0%
 
 ---
 
-# Weergavelogica toevoegen en logica overslaan naar een formulier
+# Logische regels toevoegen aan aangepaste formulieren en velden
 
-U kunt bepalen welke secties van een aangepast formulier moeten worden weergegeven of overgeslagen op basis van de keuzes die een gebruiker maakt bij het invullen.
+{{highlighted-preview}}
+
+Met logische regels kunt u de velden op uw formulier verder aanpassen.
+
+U kunt bijvoorbeeld velden of secties in een aangepast formulier weergeven of overslaan op basis van de keuzes die een gebruiker maakt bij het invullen.
 
 >[!NOTE]
 >
@@ -57,7 +61,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 ## Logische pictogrammen weergeven en overslaan
 
-Op aangepaste formulieren worden pictogrammen weergegeven om aan te geven welke logica wordt toegepast op bepaalde velden. Pictogrammen op een veld in de formulierontwerper geven aan dat logica wordt toegepast op het veld.
+Op aangepaste formulieren worden pictogrammen weergegeven die aangeven wanneer de logica voor weergave of overslaan wordt toegepast op bepaalde velden. Pictogrammen op een veld in de formulierontwerper geven aan dat logica wordt toegepast op het veld.
 
 | Pictogram | Locatie in veld in formulierontwerper | Definitie |
 |--- |--- |--- |
@@ -96,31 +100,104 @@ Voor informatie over douanegebieden en widgets in douanevormen, zie [ een douane
 
 De logica van de vertoning bepaalt welke douanevelden op de vorm verschijnen wanneer de gebruiker een specifieke waarde op een meerkeuzeveld selecteert. De logica wordt toegevoegd aan het doelveld, dat alleen wordt weergegeven wanneer de waarde is geselecteerd.
 
+<!--
+>[!NOTE]
+>
+><span class="preview">This procedure describes the basic mode for display logic. Advanced display logic is also available. For more information, see [Add advanced display logic to a custom form](#add-advanced-display-logic-to-a-custom-form), in this article.</span>
+-->
+
 {{step-1-to-setup}}
 
 1. Klik **Aangepaste Forms**.
 1. Maak een nieuw aangepast formulier of open een bestaand formulier. Zie [ een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) voor details creëren.
 1. Voeg zo nodig velden toe aan het formulier. Er moet ten minste één meerkeuzeveld (keuzerondje, vervolgkeuzelijst of selectievakje) worden geplaatst vóór het doelveld dat wordt weergegeven.
-1. Selecteer het doelgebied en klik **voegt Logica** op de lagere linkerzijde van het scherm toe.
-1. Selecteer de **Logische tabel van de Vertoning**.
-1. Klik **toevoegen de Regel van de Vertoning** op de logische bouwer.
+1. Selecteer het doelgebied en klik **toevoegen Logica**.
+1. Selecteer het **lusje van de Vertoning** op de logische bouwer.
+1. Klik **toevoegen de Regel van de Vertoning**.
+
+   <span class="preview"> beeld van de Steekproef in het milieu van de Voorproef:</span>
+
+   ![ de logische bouwer van de Vertoning ](assets/simple-display-logic1-val-only-in-menu.png)
+
+   Voorbeeldafbeelding in de productieomgeving:
 
    ![ de logische bouwer van de Vertoning ](assets/custom-form-logic-builder-display-blank.png)
 
-1. Voer de onderstaande stappen in de builder uit om de logische instructie te maken.
+1. Voer de onderstaande stappen uit om de logische instructie in de builder te maken.
 
    1. De eerste optie is het kiezen van het definiërende veld. Dit is het veld met de selectiewaarde waarin het doel wordt weergegeven. Het moet een meerkeuzeveld zijn.
    1. De tweede optie is het kiezen van de selectiewaarde. Alleen de waarden die al voor dat veld zijn gedefinieerd, zijn beschikbaar.
    1. De derde optie is **Geselecteerd** of **niet Geselecteerd**. Het kiezen van **Geselecteerde** betekent dat wanneer de waarde wordt geselecteerd, het doelgebied wordt getoond. Het kiezen van **niet Geselecteerde** betekent dat wanneer een andere waarde op het definiërende gebied wordt geselecteerd, het doelgebied wordt getoond.
    1. Om een **en** regel aan de logische verklaring toe te voegen, klik **voegt Regel** direct onder de regel toe u enkel creeerde. Volg de zelfde herinneringen om de regel te bouwen. Aan alle regels en moet worden voldaan opdat het doelgebied wordt getoond.
 
+      <span class="preview"> beeld van de Steekproef in het milieu van de Voorproef:</span>
+
+      ![ de logische bouwer van de Vertoning ](assets/simple-display-logic2.png)
+
+      Voorbeeldafbeelding in de productieomgeving:
+
       ![ de logische bouwer van de Vertoning ](assets/custom-form-logic-builder-display1.png)
 
    1. Om een **of** regel aan de logische verklaring toe te voegen, klik **voegt Regel** dichtbij de bodem van de logische bouwer toe. Dan, klik **voeg Regel** binnen toe of gebied en volg de zelfde herinneringen om de regel te bouwen. Wanneer één of regel wordt ontmoet, wordt het doelgebied getoond.
 
-1. Klik **sparen** wanneer u klaar bent bouwend de logische verklaring.
+1. Klik **sparen** <span class="preview"> of **pas**</span> toe wanneer u klaar bent met het bouwen van de logische verklaring.
 
    De pictogrammen voor de weergavelogica worden toegevoegd aan het doelveld en het definiërende veld in de formulierontwerper.
+
+<!--
+<div class="preview">
+
+## Add advanced display logic to a custom form
+
+The advanced display logic for custom form fields allows you to build complex logic using formulas. You can apply this logic to the following field types: drop-down, radio button, checkbox, typeahead, single line text, paragraph text, date field, text with formatting, and calculated fields.
+
+### Examples
+
+You can use advanced display logic to control the visibility of custom form sections based on user roles and the visibility of a field based on another field's status.
+
+No logic is applied to the default section on the form, so it is always visible to all users.
+
+Using the following condition, the Resources Required section is only displayed when a user with the job role of Resource Manager views the form.
+
+```IF($$USER.{roleID}="123abc", true)```
+
+Note that ```123abc``` represents the role ID of the Resource Manager.
+
+![Form section displayed for role](assets/advanced-display-on-form1.png)
+
+The same condition with a different role ID is applied to the Project Financial KPIs section to define that  only the Financial Advisor role can view the section.
+
+Using the following condition, the Sold KPI field only becomes visible when the project is complete. This logic is applied directly to the field instead of to a form section. There is no need to specify which role can view the field, because that is already defined in the section that the field is in.
+
+```IF({status}="CPL", true)```
+
+![Field is visible on complete project](assets/advanced-display-on-form2.png)
+
+### Define advanced display logic
+
+{{step-1-to-setup}}
+
+1. Click **Custom Forms**.
+1. Create a new custom form or open an existing form. See [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) for details.
+1. Add fields to the form as needed.
+1. Select the field to apply logic to, and click **Add Logic**.
+1. Select the **Display** tab on the logic builder.
+1. Turn on **Advanced mode**.
+   
+   This option might be turned on automatically, for fields that do not support the simple mode of display logic.
+
+   ![Advanced mode for display logic](assets/advanced-display-logic-blank-editor.png)
+
+1. Build the display condition in the editor.
+
+   For more information about calculations and expressions, see [Add calculated fields to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) and [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+
+1. Click **Apply**.
+   
+   The logic is applied to the field and the display logic icon is added in the form designer.
+
+</div>
+-->
 
 ## Logica voor overslaan toevoegen aan een aangepast formulier
 
@@ -132,24 +209,145 @@ De logica Overslaan definieert aangepaste formuliervelden die worden overgeslage
 1. Maak een nieuw aangepast formulier of open een bestaand formulier. Zie [ een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) voor details creëren.
 1. Voeg zo nodig velden toe aan het formulier. Het definiërende gebied voor overslaan logica moet een veelvoudige keuzeveld (radioknoop, dropdown, of controledoos) zijn.
 1. Selecteer het definiërende gebied en klik **voegt Logica** op de lagere linkerzijde van het scherm toe.
-1. Selecteer **Skip Logische** tabel.
-1. Klik **toevoegen Skip Regel** op de logische bouwer.
+1. Selecteer het **Skip** lusje op de logische bouwer.
+1. Klik **toevoegen Skip Regel**.
+
+
+   <span class="preview"> beeld van de Steekproef in het milieu van de Voorproef:</span>
+
+   ![ Skip logica bouwer ](assets/skip-logic1-val-only-in-menu.png)
+
+   Voorbeeldafbeelding in de productieomgeving:
 
    ![ Skip logica bouwer ](assets/custom-form-logic-builder-skip-blank.png)
 
-1. Voer de onderstaande stappen in de builder uit om de logische instructie te maken.
+1. Voer de onderstaande stappen uit om de logische instructie in de builder te maken.
 
    1. Het definiërende gebied wordt getoond op de bouwer. Het is het veld waarop u de logica voor overslaan hebt geselecteerd.
    1. De eerste optie is het kiezen van de selectiewaarde. Alleen de waarden die al voor het veld zijn gedefinieerd, zijn beschikbaar.
    1. De tweede optie is **Geselecteerd** of **niet Geselecteerd**. Het kiezen van **Geselecteerde** betekent dat wanneer de waarde wordt geselecteerd, het doelgebied wordt getoond en de gebieden binnen tussen worden overgeslagen. Het kiezen van **niet Geselecteerde** betekent dat wanneer een andere waarde op het definiërende gebied wordt geselecteerd, het doelgebied wordt getoond en de gebieden binnen tussen worden overgeslagen.
    1. De derde optie is het doelveld, of waar u wilt overslaan. Selecteer een gebiedsnaam of **Eind van vorm**. Mogelijk moet u eerst op het woord &quot;leeg&quot; klikken voordat u een optie selecteert.
 
+      <span class="preview"> beeld van de Steekproef in het milieu van de Voorproef:</span>
+
+      ![ Skip logica bouwer ](assets/skip-logic2.png)
+
+      Voorbeeldafbeelding in de productieomgeving:
+
       ![ Skip logica bouwer ](assets/custom-form-logic-builder-skip1.png)
 
    1. Om een **of** regel aan de logische verklaring toe te voegen, klik **voegt Regel** dichtbij de bodem van de logische bouwer toe. Selecteer vervolgens de opties volgens dezelfde aanwijzingen om de regel te maken. Wanneer één **of** regel wordt ontmoet, wordt het doelgebied getoond.
 
-1. Klik **sparen** wanneer u klaar bent bouwend de logische verklaring.
+1. Klik **sparen** <span class="preview"> of **pas**</span> toe wanneer u klaar bent met het bouwen van de logische verklaring.
 
    De pictogrammen voor logicaoverslaan worden toegevoegd aan het doelveld en het definiërende veld in de formulierontwerper.
 
+<div class="preview">
 
+## Validatielogica toevoegen aan een aangepast formulier
+
+Validatielogica wordt samengesteld met behulp van formules en u kunt de logica zo eenvoudig of zo complex maken als u nodig hebt. De validatie kan worden gebaseerd op de waarden van andere velden of de status van objecten. U kunt een foutbericht weergeven wanneer de validatie mislukt.
+
+Als het veld met de toegepaste logica voldoet aan de gedefinieerde validatievoorwaarden wanneer een gebruiker het aangepaste formulier invult, wordt het veld gemarkeerd en wordt het foutbericht weergegeven.
+
+U kunt validatielogica toepassen op de volgende veldtypen: vervolgkeuzelijst, keuzerondje, selectievakje, typekop, tekst op één regel, alineatekst, datumveld, tekst met opmaak en berekende velden.
+
+### Voorbeelden
+
+Gebruikend de volgende voorwaarde, toont het gebied van de Begroting een bericht onder het gebied wanneer de gebruiker een waarde ingaat die het bericht teweegbrengt. Als de ingevoerde waarde bijvoorbeeld negatief is, wordt het eerste bericht weergegeven. Als de gebruiker probeert om de projectstatus in Huidig te veranderen alvorens een begrotingswaarde in te gaan, wordt het tweede bericht getoond.
+
+```
+IF({DE:Budget Field} < 0,
+     "Budget cannot be negative",
+     IF({DE:Budget Field} == 0 && {status} == "CUR", "Budget must be specified before moving to Current status")
+)
+```
+
+Een ander eenvoudig voorbeeld is dat een veld voor een telefoonnummer een bepaald aantal cijfers moet bevatten om geldig te zijn.
+
+Een aanvullend voorbeeld voor validatie op basis van andere velden is een veld voor de grootte van de vergaderruimte (klein, gemiddeld of groot) en een apart veld voor het aantal deelnemers aan de vergadering. Het aantal personen voor elke grootte van de ruimte wordt geschreven in de validatieformule. Als het aantal deelnemers dat de gebruiker invoert, te groot is voor de gekozen vergaderruimte, wordt het foutbericht weergegeven.
+
+### Validatielogica definiëren
+
+{{step-1-to-setup}}
+
+1. Klik **Aangepaste Forms**.
+1. Maak een nieuw aangepast formulier of open een bestaand formulier. Zie [ een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) voor details creëren.
+1. Voeg zo nodig velden toe aan het formulier.
+1. Selecteer het gebied om logica op toe te passen, en **te klikken voegt Logica** toe.
+1. Selecteer het **lusje van de Bevestiging** op de logische bouwer.
+
+   ![ de logicabouwer van de Bevestiging ](assets/validation-logic-blank-editor-val-only-in-menu.png)
+
+1. Bouw de bevestigingsvoorwaarde in de redacteur, met inbegrip van het foutenmelding om te tonen wanneer de bevestiging niet wordt voldaan aan.
+
+   Voor meer informatie over berekeningen en uitdrukkingen, zie [ berekende gebieden aan een vorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) en [ Overzicht van berekende gegevensuitdrukkingen ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md) toevoegen.
+
+1. Klik **toepassen**.
+
+   De logica wordt toegepast op het veld in de formulierontwerper.
+
+</div>
+
+<!--
+<div class="preview">
+
+## Add formatting logic to a custom form
+
+Formatting logic highlights a field value when it meets the defined conditions. You can apply formatting logic to all field types, and it will work on multiple fields at once.
+
+Formatting applied to custom forms is separate from formatting applied to lists and reports. For information on report formatting, see [Use conditional formatting in views](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+
+### Example
+
+Using the following condition, the Budget field appears red when the user enters a value of 1000 or more. The field appears yellow when the user enters a value of 500 or more.
+
+To add a hover-over definition of the formatting, use the Instructions field in the custom form. For example, a message on the Budget field could say "Please enter a budget within a reasonable range. Values over 500 are a warning notice, and above 1000 is considered too high."
+
+```
+IF(
+     {DE:Budget Field} >=1000,
+     FORMAT($$NEGATIVE),
+     IF({DE:Budget Field} >= 500, FORMAT($$NOTICE))
+)
+```
+
+### Define formatting logic
+
+{{step-1-to-setup}}
+
+1. Click **Custom Forms**.
+1. Create a new custom form or open an existing form. See [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) for details.
+1. Add fields to the form as needed.
+1. Select the field to apply logic to, and click **Add Logic**.
+1. Select the **Formatting** tab on the logic builder.
+
+   ![Formatting logic builder](assets/formatting-logic-blank-editor.png)
+
+1. Build the formatting condition in the editor.
+
+   You can add up to five formatting rules per field.
+
+   The field highlighting color options are:
+
+   * `$$POSITIVE (green)`
+   * `$$INFORMATIVE (blue)`
+   * `$$NEGATIVE (red)`
+   * `$$NOTICE (orange)`
+   
+   The text formatting options are:
+   
+   * `$$BOLD`
+   * `$$ITALIC`
+   * `$$UNDERLINE`
+
+   Only one color option may be used per function, along with up to three additional text formatting options. If no color option is specified, the system's default color is applied.
+
+   For more information about calculations and expressions, see [Add calculated fields to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) and [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+
+1. Click **Apply**.
+   
+   The logic is applied to the field in the form designer.
+
+</div>
+-->
