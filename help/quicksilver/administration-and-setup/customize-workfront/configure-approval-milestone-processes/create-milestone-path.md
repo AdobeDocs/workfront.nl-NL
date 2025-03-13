@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
+source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '875'
 ht-degree: 0%
 
 ---
@@ -115,26 +115,28 @@ Voor meer informatie over hoe u een milestone weg met een project en een mijlpaa
    </table>
 
 1. Klik **toevoegen Mijlsteen** en blijven mijlpalen toevoegen zoals nodig tot de weg wordt voltooid.
+
 1. Klik **creëren Weg van de Mijlpaal** om uw veranderingen te bewaren.
 
    Uw milestone-pad kan aan een project worden gekoppeld.
 
    Voor meer informatie over hoe te om milestone wegen aan projecten en mijlpalen aan taken te associëren, zie [ mijlpalen met taken ](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md) associëren.
 
-<!--
-1. <span class="preview">(Optional) Click the **Export** icon ![Export icon](assets/export-icon.png), then select from the following formats to export the milestone path list to a file: </span>
+
+1. <span class="preview"> (Facultatief) klik het **pictogram van de Uitvoer** ![ Uitvoer ](assets/export-icon.png), dan selecteer van de volgende formaten om de lijst van de milestone weg naar een dossier uit te voeren: </span>
 
    * PDF
    * Excel
    * Excel (xlsx)
-   * Tab Delimited
-1. <span class="preview">(Optional) Select a milestone in the milestone list, then click the **Edit** icon ![Edit icon](assets/edit-icon.png) to edit milestone information. </span>
-1. <span class="preview">(Optional) Select a milestone in the milestone list, then click the **Delete** icon ![Delete icon](assets/delete-icon.png) to delete it. </span>
-1. <span class="preview">Click **Yes, Delete it**. </span>
-   <span class="preview">The milestone is deleted and cannot be recovered. Any project information associated with the milestone and any task information associated with the milestone paths is also deleted. </span>
+   * Door tabs gescheiden
 
-   </div>
--->
+1. <span class="preview"> (Facultatief) selecteer een mijlpaal in de milestone lijst, dan klik het **uitgeven** pictogram ![ geeft pictogram ](assets/edit-icon.png) uit om mijlpaalinformatie uit te geven. </span>
+1. <span class="preview"> (Facultatief) selecteer een mijlpaal in de milestone lijst, dan klik het **2} pictogram van de Schrapping ![ pictogram van de Schrapping ](assets/delete-icon.png) om het te schrappen. </span>**
+1. <span class="preview"> klik ja **, schrap het**. </span>
+   <span class="preview"> de mijlpaal wordt geschrapt en kan niet worden teruggekregen. Alle projectinformatie met betrekking tot de mijlpaal en alle taakinformatie met betrekking tot de trapeziumpaden wordt ook verwijderd. </span>
+
+
+<div class="preview">
 
 ## Details van mijlpaden weergeven in een rapport
 
@@ -171,9 +173,8 @@ Voor informatie over het associëren van mijlpaden aan projecten, zie [ projecte
    * Padgroepen van mijlpaal
    * Mijlsteennamen, beschrijvingen, kleuren en kleurenpictogrammen
 
-   </div>
-
 1. (Optioneel) Klik op **Terug** om terug te gaan naar het projectrapport.
 
+</div>
 
 

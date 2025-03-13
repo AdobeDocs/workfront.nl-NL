@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
 workflow-type: tm+mt
-source-wordcount: '1798'
+source-wordcount: '1828'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,14 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-Nadat iemand een verbinding met een verzoekformulier met u van een verslagtype pagina in de Planning van Adobe Workfront deelt, kunt u een verzoek toevoegen om verslagen voor het verslagtype tot stand te brengen verbonden aan het verzoekformulier.
+Nadat een werkruimtebeheerder een aanvraagformulier voor een recordtype heeft gemaakt in Adobe Workfront Planning, kunt u het formulier gebruiken om aanvragen in te dienen die records maken voor het recordtype dat aan het formulier is gekoppeld.
+
+U kunt een aanvraag voor Workfront-planning vanuit de volgende gebieden indienen:
+
+* Vanuit het gebied Aanvragen van Workfront of vanuit een directe koppeling naar het aanvraagformulier. In dit artikel wordt beschreven hoe u een verzoek kunt indienen om nieuwe records toe te voegen aan een recordtype vanuit het gebied Verzoeken van Workfront of via een gedeelde koppeling.
+* <span class="preview"> van de verslagtype pagina, wanneer u toevoegt of om een nieuw verslag verzoekt. Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-records.md) creëren.</span>
 
 Workfront-gebruikers en externe gebruikers kunnen aanvragen indienen bij de planning van recordtypen en records maken. <!--double check on the external users-->
-
-In dit artikel wordt beschreven hoe u een verzoek kunt indienen om nieuwe records toe te voegen aan een recordtype.
 
 Voor informatie over hoe een werkruimtemanager een verzoekvorm kan tot stand brengen en het met een verslagtype associeert, zie [ een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md) creëren en beheren.
 
@@ -113,34 +116,41 @@ U moet het volgende opgeven voordat u een aanvraag kunt indienen bij een Workfro
 * In Workfront Planning moet het volgende bestaan:
 
    * Een werkruimte
-   * Een recordtype dat aan een aanvraagformulier is gekoppeld. Voor informatie, zie [ een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md) creëren.
+   * Een recordtype.
+   * Een aanvraagformulier dat is gekoppeld aan een recordtype.
+
+     Voor informatie, zie [ een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md) creëren.
 
 * Het aanvraagformulier moet zo worden gedeeld dat u er toegang toe hebt. De volgende scenario&#39;s bestaan:
 
-   * Als u een Workfront-account hebt, wordt de koppeling alleen met interne personen gedeeld en hebt u een bijdrage of hogere toegang tot de werkruimte. Mensen buiten Workfront hebben geen toegang tot een koppeling die intern wordt gedeeld.
-   * Als u geen Workfront-account hebt, is de koppeling gedeeld met externe personen. Workfront-gebruikers hebben ook toegang tot een koppeling die wordt gedeeld met externe personen.
+   * Intern moet het formulier worden gedeeld met gebruikers die beschikken over de machtiging Weergeven of hoger voor de werkruimte.
+
+     De gebruikers van Workfront kunnen of tot de vorm van een verbinding <span class="preview"> toegang hebben of de verzoekvorm in het gebied van Verzoeken van Workfront vinden.</span>
+
+   * Als u geen Workfront-account hebt, is een koppeling naar het formulier gedeeld met externe personen.
+
+     Workfront-gebruikers hebben ook toegang tot een koppeling die wordt gedeeld met externe personen.
 
 * De koppeling naar het formulier mag niet verlopen.
 
 ## Overwegingen bij het indienen van aanvragen bij de planning van Workfront
 
-* U hebt alleen toegang tot een aanvraagformulier voor Workfront-planningsaanvragen via een specifieke koppeling naar het formulier.
-* U kunt een aanvraag niet bewerken in Workfront nadat u deze hebt verzonden naar Workfront Planning.
+* U kunt een aanvraag niet bewerken in Workfront nadat u deze hebt verzonden.
 * Elk ingediend verzoek maakt een record voor het recordtype dat is gekoppeld aan het formulier dat u gebruikt, als het formulier niet aan een goedkeuring is gekoppeld of als de goedkeuring door alle fiatteurs is verleend.
-* Records die zijn gemaakt door het verzenden van aanvraagformulieren, kunnen niet worden onderscheiden van records die via een andere methode zijn toegevoegd. Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-records.md) creëren.
+* Records die zijn gemaakt door het verzenden van aanvraagformulieren, kunnen niet worden onderscheiden van records die zijn toegevoegd via een andere methode in Workfront Planning.
+
+  Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-records.md) creëren.
 * Verzonden verzoeken worden weergegeven op het tabblad Planning van het gedeelte Ingediend in het gebied Verzoeken van Workfront.
-* Er zijn beperkingen in de manier waarop bepaalde veldtypen worden weergegeven in een aanvraagformulier, of de pagina met aanvraagdetails nadat een formulier is verzonden. Voor informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
+* Er zijn beperkingen in de manier waarop bepaalde veldtypen worden weergegeven in een aanvraagformulier, of de pagina met aanvraagdetails nadat een formulier is verzonden.
+
+  Voor informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
 
 <!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.-->
 
 
-## Een aanvraag indienen bij Workfront Planning
-
-Het indienen van aanvragen bij Workfront Planning is afhankelijk van de omgeving die u gebruikt.
-
 <div class="preview">
 
-### Een aanvraag indienen bij Workfront Planning in de Voorvertoningsomgeving
+## Een verzoek indienen bij Workfront Planning in het gedeelte Aanvragen van Workfront
 
 >[!NOTE]
 >
@@ -214,7 +224,7 @@ Het toelaten van dit plaatsen maakt de het verzoekvormen van de Planning van Wor
 
    >[!TIP]
    >
-   >* Als het verslag naam niet aan de verzoekvorm werd toegevoegd, de naam van het verslag op het gebied van het Verslag van de verzoekvertoningen als **Naamloos**.
+   >* Als het primaire gebied van het verslag niet in de verzoekvorm werd bijgewerkt, de naam van het verslag op het gebied van het Verslag van de verzoekvertoningen als **Naamloos**.
    >
    >* Als het aanvraagformulier is gekoppeld aan een goedkeuring, moet de goedkeuring worden verleend voordat u toegang krijgt tot de record op de aanvraagpagina.
 
@@ -224,7 +234,7 @@ Het toelaten van dit plaatsen maakt de het verzoekvormen van de Planning van Wor
 
 </div>
 
-### Een verzoek indienen bij Workfront Planning in de Productieomgeving
+## Een aanvraag vanuit een gedeelde koppeling naar een aanvraagformulier indienen bij Workfront Planning
 
 1. Ga naar de verbinding die met u van een het verslagtype van de Planning van Workfront wordt gedeeld.
 

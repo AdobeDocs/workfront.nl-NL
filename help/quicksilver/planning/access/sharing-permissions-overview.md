@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '944'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ In dit artikel worden de machtigingsniveaus voor Workfront Planning-objecten bes
 
 ## Objecten die u kunt delen in Adobe Workfront Planning
 
-U kunt de volgende objecten delen:
+U kunt de volgende objecten handmatig delen in Workfront Planning:
 
 * Werkruimten
 
@@ -49,7 +49,7 @@ U kunt de volgende objecten delen:
 
     * You can share record types with people inside your organization.
     * The level of permissions granted for the workspace displays as Inherited permissions for the record type. 
-    * You cannot share a workspace with a higher permission level than the user has on the workspace. 
+    * You cannot share a record type with a higher permission level than the user has on the workspace. 
 
     For more information, see [Share record types](/help/quicksilver/planning/access/share-record-types.md). 
 
@@ -77,6 +77,8 @@ Intern kunt u een werkruimte of weergave delen met de volgende Workfront-entitei
 * Functies
 
 </div>
+
+<span class="preview"> Wanneer u werkruimten en recordtypen deelt met anderen, wordt het machtigingsniveau van het recordtype automatisch overgeërfd aan de records en velden die eraan zijn gekoppeld. </span>
 
 ## Overwegingen bij het delen van objecten in Adobe Workfront Planning
 
@@ -129,7 +131,7 @@ Hieronder vindt u de machtigingsniveaus voor werkruimten:
 
 ### Machtigingen voor recordtype
 
-<!--In the Production environment,--> De toestemmingen van het Type van verslag worden altijd geërft wanneer u toestemmingen aan de werkruimte verleent.
+<!--In the Production environment,--> Machtigingen voor recordtype worden <!--always--> overgeërfd wanneer u machtigingen verleent aan de werkruimte.
 
 Hieronder vindt u de machtigingsniveaus voor recordtypen:
 
@@ -145,18 +147,17 @@ Hieronder vindt u de machtigingsniveaus voor recordtypen:
 
 <div class="preview">
 
-In the Preview environment, Record Type permissions are inherited when you grant permissions to the workspace. 
+In the Preview environment, you can remove the record type's inherited permissions received from the workspace. 
 
-You can remove inherited permissions from the record type, but you can never grant higher permissions for the record type than users have on the workspace. 
+You can give users different permissions on the record type than they have on the workspace. However, you can never grant higher permissions for the record type than users have on the workspace. 
 
 The following scenarios exist: 
 
 |   Workspace permissions     | Automatic inherited permissions for a Record Type |Possible Record Type permissions when Inherited permissions are turned off (granted manually)| 
 |--------|--------|-------------|
-| Manage |   Manage    |   Manage, No permissions           | 
-| Contribute |     Contribute |  Contribute, View, No permissions        |
-| View   |  View     |      View, No permissions        |     
-
+| Manage |   Manage    |   Manage, Remove permissions           | 
+| Contribute |     Contribute |  Contribute, View, Remove permissions        |
+| View   |  View     |      View, Remove permissions        |     
 
 </div>
 
@@ -164,7 +165,7 @@ The following scenarios exist:
 
 ### Machtigingen opnemen
 
-De toestemmingen van het verslag worden geërft wanneer u toestemmingen aan de werkruimte verleent.
+De toestemmingen van het verslag worden geërft van <!--<span class="preview">the record type</span>, when you grant permissions to --> de werkruimte <!-- and <span class="preview">the record type</span>-->.
 
 Hieronder vindt u de machtigingsniveaus voor records:
 
@@ -178,7 +179,8 @@ Hieronder vindt u de machtigingsniveaus voor records:
 
 ### Veldmachtigingen
 
-De toestemmingen van het gebied worden geërft wanneer u toestemmingen aan de werkruimte verleent.
+Veldmachtigingen worden overgenomen van <!--<span class="preview">the record type</span>, when you grant permissions to --> de werkruimte <!--and <span class="preview">the record type</span>--> .
+
 De volgende machtigingen verwijzen naar de velden zelf en niet naar de waarden die aan elk veld zijn gekoppeld. Als u veldwaarden wilt bewerken, moet u over machtigingen beschikken om records te bewerken.
 
 |        | Beheren | Contribute | Weergave |

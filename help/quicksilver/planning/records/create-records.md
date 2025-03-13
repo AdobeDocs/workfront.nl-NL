@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
 workflow-type: tm+mt
-source-wordcount: '1844'
+source-wordcount: '2411'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,8 @@ In de Planning van Adobe Workfront, is een verslag een geval van een verslagtype
 
 U kunt records maken door een van de volgende handelingen uit te voeren:
 
-* [Records toevoegen vanaf de pagina met recordtypen in de tabelweergave](#create-records-by-adding-them-to-a-record-type-in-a-record-type-table)
+* [Records maken door deze inline toe te voegen vanuit de tabelweergave met recordtype](#create-records-by-adding-them-inline-from-the-record-type-table-view)
+* <span class="preview">[ creeer verslagen gebruikend het Nieuwe verslag of het verslagknoop van het Verzoek van om het even welke verslagtypemening ](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)</span>
 * [Een lijst met records uit een externe lijst kopiëren en plakken](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [Records dupliceren vanuit een tabelweergave](#create-records-by-duplicating-them)
 * [Records maken terwijl u deze verbindt met andere records](#create-records-as-you-connect-them)
@@ -97,7 +98,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objectmachtigingen</p></td> 
-   <td> <p>Draag of hogere toestemmingen aan de werkruimte <!--<span class="preview">and record type</span>--> bij waar u verslagen wilt toevoegen. </p>  
+   <td> <p>Draag of hogere toestemmingen aan de werkruimte <!--<span class="preview">and record type</span>--> bij waar u verslagen wilt toevoegen. </p>
+   <p><span class="preview">Machtigingen voor het maken van records weergeven in de werkruimte <!--<span class="preview">and record type</span>--> met de knop Verzoek om record op de recordpagina</span></p>
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>
    <p>Rechten voor Workfront-objecten (portfolio's) beheren om onderliggende objecten (projecten) toe te voegen.</p>
    </td> 
@@ -113,9 +115,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 +++
 
-## Records maken door deze toe te voegen aan een recordtype in een recordtype-tabel
+## Records maken door deze inline toe te voegen vanuit de tabelweergave met recordtype
 
-U kunt records maken in de tabelweergave van een pagina met recordtypen.
+U kunt records maken in de tabelweergave van een recordtypepagina terwijl u deze inline toevoegt.
 
 Voor informatie over het uitgeven van verslaginformatie, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.
 
@@ -128,27 +130,28 @@ Voor informatie over het uitgeven van verslaginformatie, zie [ verslagen ](/help
 1. Klik op een opnametype. Voor informatie over het creëren van een verslagtype, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
 
    De pagina met recordtypen wordt geopend in de weergave die u het laatst hebt geopend. Standaard wordt een pagina met recordtypen geopend in de tabelweergave.
-Alle records van het geselecteerde type worden in de weergave weergegeven.
+Records van het geselecteerde type worden weergegeven in de weergave.
 
-1. (Voorwaardelijk) Afhankelijk van de weergave die u weergeeft, voert u een van de volgende handelingen uit:
+1. (Voorwaardelijk) Voer in de tabelweergave een van de volgende handelingen uit:
 
-   * In de tabelweergave:
+   * Klik **Nieuw verslag** in de laatste rij van de lijst
 
-      * Klik **Nieuw verslag** in de laatste rij van de lijst
+   * Klik **Verschuiving + gaat** op uw toetsenbord van om het even welke kolom of rij van de lijst binnen. Hiermee voegt u een lege rij toe onder de record waaruit u begint.
+   * Beweeg over het primaire gebied van een verslag, klik **Meer** menu ![ Meer menu ](assets/more-menu.png) aan het recht van het gebied, dan klik **verslag van het Tussenvoegsel boven** of **hieronder verslag van het Tussenvoegsel**.
 
-      * Klik **Verschuiving + gaat** op uw toetsenbord van om het even welke kolom of rij van de lijst binnen. Hiermee voegt u een lege rij toe onder de record waaruit u begint.
-      * Beweeg over het primaire gebied van een verslag, klik **Meer** menu ![ Meer menu ](assets/more-menu.png) aan het recht van het gebied, dan klik **verslag van het Tussenvoegsel boven** of **hieronder verslag van het Tussenvoegsel**.
+   ![ Toevoegend een nieuwe campagne in lijstrij ](assets/adding-a-new-campaign-in-table-row.png)
 
-     ![ Toevoegend een nieuwe campagne in lijstrij ](assets/adding-a-new-campaign-in-table-row.png)
+   Workfront uploadt automatisch een miniatuur naar elke nieuwe record. U kunt deze afbeeldingen later wijzigen. Voor informatie, zie [ een omslagbeeld aan een verslag ](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) toevoegen.
 
-   * Vanuit elke weergave:
+   Er wordt een nieuwe record aan de tabel toegevoegd.
 
-      * Klik **Nieuw verslag** in de hoger-juiste hoek van de pagina. Het voorvertoningsvak voor records wordt geopend.
+1. Klik op het primaire veld van de nieuwe record
 
-     Workfront uploadt automatisch een miniatuur en een omslagafbeelding naar elke nieuwe record. U kunt deze afbeeldingen later wijzigen. Raadpleeg de volgende artikelen voor meer informatie:
+   of
 
-      * [Een omslagafbeelding aan een record toevoegen](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
-      * [Een miniatuur toevoegen aan een record](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
+   Klik het **Open detailleert** pictogram ![ Open detailspictogram op het gebied van de lijstnaam ](assets/open-details-icon-in-table-name-field.png) links van de verslagnaam.
+
+   Het voorbeeldvak wordt in de tabel geopend.
 
 1. Typ informatie over de nieuwe record in de velden die u in het voorvertoningsvak ziet.
 
@@ -158,23 +161,94 @@ Alle records van het geselecteerde type worden in de weergave weergegeven.
    >
    >  * Velden die naar andere recordtypen of berekende velden verwijzen, zijn alleen-lezen velden.
 
-1. (Voorwaardelijk) wanneer het toevoegen van verslagen in de lijst, blijft het toevoegen van informatie over elke rij, dan klik **gaat** op uw toetsenbord binnen om uw veranderingen te bewaren.
+1. (Voorwaardelijk) wanneer het toevoegen van verslagen in de lijst, alvorens de de voorproefdoos van het verslag te openen, blijft het toevoegen van informatie over elke rij, dan klik **binnengaan** op uw toetsenbord om uw veranderingen te bewaren.
 
    of
 
-   Klik de naam van het nieuwe verslag of **Open detailleert** pictogram ![ Open detailspictogram op het gebied van de lijstnaam ](assets/open-details-icon-in-table-name-field.png) links van de verslagnaam. In de tabel wordt een voorvertoning geopend met de gedetailleerde informatie van de record.
+   Klik de naam van het nieuwe verslag of **Open detailleert** pictogram ![ Open detailspictogram op het gebied van de lijstnaam ](assets/open-details-icon-in-table-name-field.png) links van de verslagnaam om de voorproefdoos te openen en de informatie van het verslag op het detailsgebied uit te geven.
 
    >[!TIP]
    >
-   >U kunt tot het **Open pictogram van Details** slechts van het naamgebied van het verslag toegang hebben wanneer het gebied van de Naam een primair gebied is.
+   >U kunt tot het **Open detailleert** pictogram slechts van het naamgebied van het verslag toegang hebben wanneer het gebied van de Naam een primair gebied is.
 
-1. Bewerk de recordgegevens in de voorvertoning van de record. Workfront slaat uw wijzigingen automatisch op.
-1. (Facultatief) klik **Open in nieuw lusje** pictogram ![ Open details in een nieuw lusjepictogram ](assets/open-details-in-a-new-tab-icon.png) in de hoger-juiste hoek van de voorproef van het verslag om de pagina van het verslag in een nieuw lusje te openen. Ga door met het bewerken van de record op de recordpagina. Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.
+1. (Facultatief) van de voorproefdoos van het verslag, klik **Open in nieuw lusje** pictogram ![ Open details in een nieuw lusjepictogram ](assets/open-details-in-a-new-tab-icon.png) in de hoger-juiste hoek om de pagina van het verslag in een nieuw lusje te openen. Ga door met het bewerken van de record op de recordpagina. Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.
 
-1. (Optioneel) Gebruik de volgende sneltoetsen om nieuwe records of de bijbehorende informatie ongedaan te maken of opnieuw toe te voegen wanneer u deze in de tabelweergave toevoegt:
+   Workfront slaat uw wijzigingen automatisch op.
+
+1. (Optioneel) Sluit het voorvertoningsvak of klik op de pijl terug links van de naam van de record als u de pagina van de record hebt geopend.
+
+1. (Optioneel) Gebruik in de tabelweergave de volgende sneltoetsen om nieuwe records of de bijbehorende informatie ongedaan te maken of opnieuw toe te voegen wanneer u deze records toevoegt in de tabelweergave:
 
    * CTRL + Z ( ⌘ + Z voor Mac) om een wijziging ongedaan te maken
    * CTRL + Shift + Z ( ⌘ + Shift + Z voor Mac) om een wijziging opnieuw uit te voeren
+
+<div class="preview">
+
+## Records maken met de knop Nieuwe record of Verzoek om record maken vanuit elke recordtypeweergave
+
+Gebruikers met de machtiging Weergeven in de werkruimte <!--<span class="preview">and record type</span>--> kunnen alleen records maken met de knop Verzoek om record op de pagina met recordtypen.
+
+Gebruikers met de machtigingen Contribute en Manage voor de werkruimte <!--<span class="preview">and record type</span>--> kunnen records maken met de knop New record op de pagina met recordtypen.
+<!--did the permissions to record types get released?? if not, take the record type reference here out; AND else-where in this article, including access requirements table-->
+
+>[!IMPORTANT]
+>
+>Een werkruimtemanager moet een aanvraagformulier voor het recordtype maken, zodat gebruikers met de machtiging Weergeven records kunnen toevoegen met een aanvraagformulier. Anders kunnen gebruikers met de machtiging Weergeven geen records maken.
+
+{{step1-to-planning}}
+
+1. Klik op de werkruimte waar u records wilt toevoegen.
+
+   De werkruimte wordt geopend en de recordtypen worden als kaarten weergegeven.
+
+1. Klik op een opnametype. Voor informatie over het creëren van een verslagtype, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
+
+   De pagina met recordtypen wordt geopend in de weergave die u het laatst hebt geopend. Standaard wordt een pagina met recordtypen geopend in de tabelweergave.
+Alle records van het geselecteerde type worden in de weergave weergegeven.
+
+1. Klik vanuit elke weergave op een van de volgende opties in de rechterbovenhoek van het scherm, afhankelijk van de <!--<span class="preview">and record type</span>--> -machtigingen voor de werkruimte:
+
+   * Klik **Nieuw verslag**, als u Contribute of hogere toestemmingen op de werkruimte <!--<span class="preview">and record type</span>--> hebt
+
+     of
+
+   * Klik **verslag van het Verzoek**, als u de toestemmingen van de Mening op de werkruimte <!--<span class="preview">and record type</span>--> hebt.
+
+1. (Voorwaardelijk) als u **Nieuw verslag** klikte, doe het volgende:
+
+   1. Klik één van de volgende manieren om een verslag tot stand te brengen, dan **ga** verder:
+
+      * **voeg manueel** toe. Het voorvertoningsvak van de record wordt geopend.\
+        Voeg informatie over het verslag toe, zoals die in [ wordt beschreven creeer verslagen door hen inline van de 1} sectie van de verslagtype lijstmening {in dit artikel toe te voegen, beginnend met stap 6. <!--insure this stays accurate-->](#create-records-by-adding-them-inline-from-the-record-type-table-view)
+      * **uploadt van dossier**
+Voeg verslagen toe, zoals die in het artikel [ worden beschreven verslagen door informatie van een CSV of dossier van Excel ](/help/quicksilver/planning/records/import-file-to-create-records.md) in te voeren, die met stap 6 beginnen. <!--ensure this stays accurate-->
+      * **leg een verzoek** voor
+Het aanvraagformulier van het recordtype wordt geopend.
+
+        Een werkruimtebeheerder moet een aanvraagformulier maken om een record te kunnen toevoegen met behulp van een aanvraagformulier.
+
+        >[!TIP]
+        >
+        >Sommige recordtypen kunnen meerdere formulieren hebben. Klik op een pictogram om het te openen.
+
+        Voeg het verslag, zoals die in het artikel [ wordt beschreven voor:leggen Adobe Workfront planningsverzoeken voor om verslagen ](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen, beginnend met stap 6. <!--ensure this stays accurate-->
+
+      ![](assets/three-ways-to-create-records-choice-modal.png)
+
+1. (Voorwaardelijk) als u **verslag van het Verzoek** klikte, doe het volgende:
+
+   1. (Voorwaardelijk) Als het recordtype meer dan één aanvraagformulier heeft, klikt u op een formulier om het te kiezen.
+   2. Ga verder toevoegend informatie in de vorm om het verslag tot stand te brengen, zoals die in het artikel [ wordt beschreven Voorlegt Adobe Workfront Planningsverzoeken om verslagen ](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen, beginnend met stap 6. <!--ensure this stays accurate-->
+
+1. (Voorwaardelijk) Controleer de nieuwe records.
+
+   Afhankelijk van de manier waarop u ervoor hebt gekozen de record toe te voegen, kunnen enkele van de volgende dingen voorkomen:
+
+   * Er wordt een nieuwe record toegevoegd aan het recordtype, tenzij u ervoor kiest deze toe te voegen met een aanvraagformulier met een goedkeuringsproces. De goedkeuring moet door alle fiatteurs worden verleend voordat de registratie wordt opgesteld.
+   * Er worden meerdere records toegevoegd aan het recordtype als u records hebt toegevoegd met een CSV- of Excel-spreadsheet.
+   * Er wordt een nieuwe aanvraag toegevoegd op het tabblad Planning van het gebied Workfront Requests als u de aanvraag hebt toegevoegd door een aanvraagformulier in te dienen.
+
+</div>
 
 <!-- this is not possible anymore: 
 

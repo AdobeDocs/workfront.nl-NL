@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
 workflow-type: tm+mt
-source-wordcount: '1865'
+source-wordcount: '2084'
 ht-degree: 0%
 
 ---
@@ -160,7 +160,7 @@ Voor informatie over het voorleggen van de verzoeken van de Planning van Workfro
 
    De pagina met recordtypen wordt geopend in de weergave die u het laatst hebt geopend. Standaard wordt een pagina met recordtypen geopend in de tabelweergave.
 
-1. Klik **Meer** menu ![ Meer menu ](assets/more-menu.png) aan het recht van de naam van het verslagtype in de paginakop, dan klik **creeer verzoekvorm**.
+1. Klik **Meer** menu ![ Meer menu ](assets/more-menu.png) aan het recht van de naam van het verslagtype in de paginakop, dan klik **creeer verzoekvorm** <span class="preview"> of **beheer verzoekvorm**, als u reeds een vorm hebt en u extra degenen </span> wilt creëren.
 1. Werk de naam van het aanvraagformulier bij. Door gebrek, is de naam van de vorm **Naamloze vorm**. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. (Facultatief) voeg a **Beschrijving** voor de verzoekvorm toe.
 
@@ -258,7 +258,14 @@ Voor informatie over het voorleggen van de verzoeken van de Planning van Workfro
    >     * Mensen
    >
 
-1. (Voorwaardelijk) als u **Iedereen met de verbinding** in de vorige stap selecteerde, selecteer de **vervaldatum van de Verbinding** van de beschikbare kalender. Personen ontvangen een fout nadat de koppeling is verlopen en u moet de datum van de koppeling bijwerken en een nieuwe koppeling genereren om te delen voordat ze het formulier weer kunnen openen.
+1. (Voorwaardelijk) als u **Iedereen met de verbinding** in de vorige stap selecteerde, selecteer de **vervaldatum van de Verbinding** van de beschikbare kalender. <!--take out this tip when we release to production as in multiple forms this is no longer happening-->
+
+   >[!TIP]
+   >
+   >Er zijn aanwijzingen dat de link in dit geval openbaar wordt gedeeld.
+   >![ openbaar gedeelde verbinding aan vorm op verslagtype menu ](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
+
+   Personen ontvangen een fout nadat de koppeling is verlopen en u moet de datum van de koppeling bijwerken en een nieuwe koppeling genereren om te delen voordat ze het formulier weer kunnen openen.
 
    U kunt toekomstige datums selecteren binnen 180 dagen vanaf de huidige datum.
 
@@ -274,18 +281,31 @@ Voor informatie over het voorleggen van de verzoeken van de Planning van Workfro
    Voor informatie over het creëren van verslagen die een verbinding aan een verzoekvorm gebruiken, zie [ verzoeken van de Planning van Adobe Workfront voorleggen ](/help/quicksilver/planning/requests/submit-requests.md).
 
 1. Klik **sparen** in de laag-juiste hoek van het **3} lusje van de Vorm {om de vorm te bewaren.**
+
 1. Klik op de pijl die naar links wijst links van de naam van het formulier in de koptekst om het formulier te sluiten.
 
-   De pagina met recordtypen wordt geopend.
-1. (Facultatief) klik het **Meer** menu ![ Meer menu ](assets/more-menu.png) rechts van de naam van het verslagtype in de kopbal, dan doe één van het volgende:
+   <span class="preview"> de **vorm van het Verzoek** lijstmening opent en de vorm wordt toegevoegd aan het.</span>
+
+1. <span class="preview"> (Facultatief) Beweeg over de naam van een verzoekvorm in de lijstmening, dan klik het **Meer** menu ![ Meer menu ](assets/more-menu.png) rechts van de vormnaam, en klik één van het volgende:</span>
+
+   * <span class="preview">**geef vorm** uit: Klik dit om informatie over de vorm verder uit te geven. </span>
+   * <span class="preview"> **unpublish**: Klik dit om de vorm ongedaan te maken die het uit het gebied van Verzoeken in Workfront verwijdert. </span>
+   * <span class="preview">**Aandeel**: Klik dit om te wijzigen wie toegang tot de vorm heeft. </span>
+   * <span class="preview">**verbinding van het Exemplaar**: Klik dit om snel de verbinding van de verzoekvorm te kopiëren zonder de vorm te openen. </span>
+   * <span class="preview">**Schrapping**: Klik dit om de vorm te schrappen. Alle aanvragen en records die met het formulier zijn toegevoegd, worden niet verwijderd. Het formulier kan niet worden hersteld. </span>
+
+   ![ Meer menu op verzoekvorm van de lijst van de verzoekvormen ](assets/more-menu-on-request-form-from-request-forms-list.png)
+
+
+1. <span class= "preview"> klik de links-richtende pijl links van **vorm van het Verzoek** in de kopbal om de lijst van verzoekvormen te sluiten.   </span>
+
+   <span class= "preview"> De verslagtype pagina opent. </span>
+1. (Facultatief en voorwaardelijk) van het milieu van de Productie, klik **Meer** menu ![ Meer menu ](assets/more-menu.png) rechts van de naam van het verslagtype in de kopbal, dan doe één van het volgende:
    * Klik **de verzoekvorm van de Update** om het even welke veranderingen in de verzoekvorm aan te brengen.
    * Klik **verbinding van het Exemplaar om vorm** te verzoeken om de verbinding met de vorm met anderen te delen.
 
-   of
+1. <span class="preview"> (facultatief en voorwaardelijk) van het milieu van de Voorproef, klik **Meer** menu ![ Meer menu ](assets/more-menu.png) aan het recht van de naam van het verslagtype in de kopbal, dan klik **leidt verzoekvormen**. </span>
 
-   * <span class= "preview"> ga naar het **Verzoeken** gebied in Workfront en vind de gedeelde vorm om een verzoek voor te leggen. Voor informatie, zie [ de Planningsverzoeken van Adobe Workfront voorleggen om verslagen ](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen.</span>
-
-   >[!TIP]
-   >
-   >Er zijn aanwijzingen dat de link in dit geval openbaar wordt gedeeld.
-   >![ openbaar gedeelde verbinding aan vorm op verslagtype menu ](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
+   <span class="preview"> dit opent de de lijstmening van de Formulieren van het Verzoek. </span>
+1. <span class="preview"> klik een verzoekvorm om het te openen en uit te geven.</span>
+1. <span class= "preview"> (Facultatief) ga naar het **Verzoeken** gebied in Workfront en vind de gedeelde vorm om een verzoek voor te leggen. Voor informatie, zie [ de Planningsverzoeken van Adobe Workfront voorleggen om verslagen ](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen.</span>
