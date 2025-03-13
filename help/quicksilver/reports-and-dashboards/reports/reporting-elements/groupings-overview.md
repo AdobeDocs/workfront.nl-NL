@@ -7,9 +7,9 @@ description: U kunt groepen toevoegen om de indeling van de gegevens in uw rappo
 author: Nolan
 feature: Reports and Dashboards
 exl-id: d050372e-c4a0-4c49-b220-5b35334ab8d0
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 69dec186cdb8a6d29853703edb41073282cdd447
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '813'
 ht-degree: 0%
 
 ---
@@ -64,13 +64,17 @@ U kunt rapportinformatie verder beheren wanneer het gebruiken van Groepen door d
 
 U kunt de gegevens samenvoegen die in uw rapport in uw groeperingslijn worden getoond door de waarden in elke kolom van het rapport samen te vatten. Voor meer informatie over het samenvatten van kolomgegevens in een groepering, zie [ Overzicht van Meningen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
+
 >[!NOTE]
 >
->De volgende uitzonderingen zijn van toepassing op bovenliggende objecten (bijvoorbeeld bovenliggende taken) wanneer u waarden samenvoegt voor de volgende velden in groepen:
+>De volgende uitzonderingen zijn van toepassing op bovenliggende objecten (bijvoorbeeld bovenliggende taken) wanneer u waarden samenvoegt voor de volgende velden in >Groepen:
 >
->* Alle getallen en valutavelden behalve Werkelijke uren (bijvoorbeeld Geplande/Werkelijke loonkosten, Geplande/Werkelijke kosten, Geplande/Werkelijke kosten, Geplande/Geplande uren) tellen alleen de waarden voor de kindertaken en standalone taken samen. De waarden voor de bovenliggende taken of ouders van ouders worden niet samengevoegd.
->* Werkelijke uren tellen de waarden voor de hoofdbovenliggende en zelfstandige taken samen; ze tellen de getallen voor de bovenliggende taken of de onderliggende taken niet samen.
+>* Alle getal-, valuta- en datumvelden, behalve Werkelijke uren, aggregeren alleen waarden voor onderliggende taken en zelfstandige taken. Ze voegen geen waarden samen voor bovenliggende taken of ouders van ouders. Als u velden voor getallen, valuta en datums samenvoegt in een lijst die alleen bovenliggende taken bevat, wordt er geen geaggregeerde waarde weergegeven op de groeperingsbalk.
+>
+>* Werkelijke uren zijn samengevoegde waarden voor de hoofdbovenliggende en zelfstandige taken. De getallen voor onderliggende taken of de bovenliggende taken worden niet samengevoegd. <!--Examples of Actual hours include Planned/Actual Labor Cost, Planned/Actual Expense Cost, Planned/Actual Cost, and Planned Hours.-->
+>
 >* Aangepaste gegevensvelden voor getal- en valutawaarden bevatten alle taken: ouders, kinderen, ouders van ouders en zelfstandige taken.
+
 
 ### Sorteren op een groep {#sort-by-a-grouping}
 
@@ -84,3 +88,13 @@ Hoe u een groep verwijdert, hangt af van het feit of u de groepering hebt gemaak
 * **als het groeperen met u werd gedeeld en u het** verwijdert, wordt het groeperen verwijderd slechts voor u. De gebruiker die het oorspronkelijk creeerde en om het even welke andere gebruikers het met is gedeeld hebben nog toegang tot de groepering.
 
 Voor informatie over het verwijderen van een groepering, zie het artikel [ filters, meningen, en groeperingen ](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md) verwijderen.
+
+
+<!--Original note
+
+The following exceptions apply for parent objects (for example, parent tasks) when you are aggregating values for the following fields in groupings:
+All the number and currency fields except Actual Hours (for example, Planned/ Actual Labor Cost, Planned/ Actual Expense Cost, Planned/ Actual Cost, Planned Hours) aggregate only the values for the children tasks, and standalone tasks. They do not aggregate the values for the parent tasks or parents of parents.
+Actual Hours aggregate the values for the main parent and the standalone tasks; they do not aggregate the numbers for the parents of parent tasks or the children tasks.
+Custom data fields for number and currency values aggregate all tasks: parents, children, parents of parents, and standalone tasks.
+
+-->

@@ -6,9 +6,9 @@ description: Herhalingen vormen een sleutelcomponent voor de ploegen van de Trom
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: 6fb0870b919baf49e17d48586b2a9661e5cb4b94
+source-git-commit: e24c97e78b210fc385052b573fe69d092b521a90
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '969'
 ht-degree: 0%
 
 ---
@@ -103,11 +103,11 @@ Gebruik de functie [!UICONTROL Plan Iteration] om een herhaling te maken met beh
 
 1. Selecteer **[!UICONTROL Backlog]** in het linkerdeelvenster.
 
-1. Voor de **Verhalen** of **Kwesties** tabel, selecteer minstens één het werkpunt, dan klik **[!UICONTROL Plan Iteration]**.
+1. Voor de **Verhalen** of **Kwesties** tabel, selecteer de het werkpunten u aan de herhaling wilt toevoegen, dan klik **[!UICONTROL Plan Iteration]**.
 
 >[!NOTE]
 >
-> U kunt niet tussen de Artikelen of het lusje van Kwesties schakelen wanneer het plannen van een herhaling op het Achterloglusje. U kunt bestaande artikelen of problemen toevoegen nadat u de herhaling hebt gemaakt. Voor meer informatie, zie [ verhalen van de beweging van de achterstand aan een herhaling of een raad ](/help/quicksilver/agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or-board).
+> U kunt niet schakelen tussen het tabblad Artikelen of Problemen of extra taken toevoegen wanneer u een herhaling op het tabblad Achtergrond plant. U kunt bestaande artikelen of problemen toevoegen nadat u de herhaling hebt gemaakt. Voor meer informatie, zie [ taken of kwesties aan een bestaande herhaling op het Achterloglusje ](#add-tasks-or-issues-to-an-existing-iteration-on-the-backlog-tab) hieronder toevoegen.
 
 
 1. Geef de volgende informatie op:
@@ -143,19 +143,20 @@ Gebruik de functie [!UICONTROL Plan Iteration] om een herhaling te maken met beh
     </tbody> 
    </table>
 
-1. (Optioneel) Selecteer artikelen om deze nu aan de herhaling toe te voegen. U kunt deze stap ook overslaan en op een later tijdstip artikelen aan een herhaling toevoegen. De verhalen boven aan de achterstand hebben een hogere prioriteit. Artikelen worden groen gemarkeerd als ze in de capaciteit passen; ze worden rood gemarkeerd als ze dat niet doen.
-U kunt zowel taken als uitgaven toevoegen aan één herhaling:
+1. Klik op **[!UICONTROL Save].** De herhaling wordt gemaakt.
 
-   * **om taken aan de herhaling toe te voegen:** op het **[!UICONTROL Backlog]** lusje, zorg ervoor dat het **[!UICONTROL Stories]** lusje wordt geselecteerd (dit lusje wordt geselecteerd door gebrek wanneer het bekijken van de achterstand). Selecteer de artikelen die u aan de herhaling wilt toevoegen.
+## Taken of problemen toevoegen aan een bestaande versie op het tabblad Achtergrond
 
-     Wanneer u taken aan een herhaling toevoegt, wordt de begindatum van de taak berekend zoals die in [[!UICONTROL Understand] wordt beschreven hoe de datums van de taakbegin wanneer toegevoegd aan een herhaling ](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration) worden berekend.
+1. Van het **Achterlog** lusje, klik de **Artikelen** of **Kwesties** tabel.
 
-   * **om kwesties aan de herhaling toe te voegen:** op het **[!UICONTROL Backlog]** lusje, klik **[!UICONTROL Issues]** tabel. Selecteer de kwesties u aan de herhaling wilt toevoegen.
+1. Selecteer de artikelen of problemen die u aan de herhaling wilt toevoegen. De verhalen boven aan de achterstand hebben een hogere prioriteit.
 
-1. Klik op **[!UICONTROL Save].**
-De herhaling wordt gemaakt.
+   ![ beweging een het werkpunt ](assets/move-to-iteration.png)
 
-1. (Facultatief) om verhalen aan een bestaande herhaling toe te voegen, zie [ verhalen aan een bestaande herhaling ](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md) toevoegen.
+   >[!NOTE]
+   >
+   >  Wanneer u taken aan een herhaling toevoegt, wordt de begindatum van de taak berekend zoals die in [[!UICONTROL Understand] wordt beschreven hoe de datums van de taakbegin wanneer toegevoegd aan een herhaling ](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration) worden berekend.
+
 
 ## Begrijp hoe de datums van de taakbegin wanneer toegevoegd aan een herhaling worden berekend {#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration}
 
