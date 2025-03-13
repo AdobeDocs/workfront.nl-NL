@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: 69389422fc33839c3f557c3866f0d88b4a8ea837
+source-git-commit: a17f501e732e4ba72bf224c7dd9efef7f90b47e7
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,38 @@ Deze pagina beschrijft kleine updates van de blik en het gevoel van diverse gebi
 
 Voor een lijst van alle veranderingen beschikbaar met het Tweede Kwartaal 2025 versie, zie [ Tweede Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
 
+## Avatars worden niet meer weergegeven in bepaalde e-mailberichten
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 13 maart 2025; Productieversie voor alle klanten: 13 maart 2025
+
+
+Avatars worden niet meer weergegeven in de volgende e-mailmeldingen:
+
+* Alle meldingen voor communicatiegebeurtenissen
+* Nieuwe toewijzingsmeldingen
+* De meldingen voor het voltooien van alle vorige taken
+
+<!--
+
+## Look and feel updates to a Milestone Path list 
+
+>[!NOTE]
+>
+>Preview release: March 6, 2025; Production release for all customers: April 10, 2025
+
+We have updated the look and feel of the Milestone Path list in the Setup area, to match the design of other areas of Workfront.  
+
+For information, see [Create a milestone path](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+
+-->
+
 ## Updates van de Workfront-agenda bekijken en weergeven
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 27 februari 2025; Productieversie voor alle klanten: met de release van 25.3 (maart 2025)
+>Voorvertoningsrelease: 27 februari 2025; Productieversie voor alle klanten: met 25.4 release (10 april 2025)
 
 We hebben de look and feel van de Workfront-agenda aangepast aan een modern ontwerp dat aansluit bij andere delen van Workfront. Er zijn kleine functieverschillen met de huidige Workfront-kalender, waaronder:
 
@@ -38,7 +65,7 @@ Voor meer informatie, zie de [ Kalenders ](/help/quicksilver/reports-and-dashboa
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 27 februari 2025; productie voor snelle release: met de release van 25.3 (maart 2025); productie voor driemaandelijkse release: met de release van 25.4 (april 2025)
+>Voorvertoningsrelease: 13 maart 2025; Productieversie voor alle klanten: met 25.4 release (10 april 2025)
 
 Wanneer het toegang tot van de mijlpaden van een projectlijst of een rapport, heeft de de detailpagina van de mijlpaal nu een nieuwe blik en een gevoel. U moet het gebied van de Naam van de Weg van de Mijlpaal aan de mening van de lijst of het rapport toevoegen om tot de de detailspagina van de weg van de mijlpaal toegang te hebben.
 
@@ -62,7 +89,7 @@ Deze wijzigingen zijn tijdelijk omdat we vertragingen in e-mailberichten onderzo
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 13 februari 2025; Productieversie voor alle klanten: met de release van 25.3 (maart 2025)
+>Voorvertoningsrelease: 13 februari 2025; Productieversie voor alle klanten: met de release van 25.3 (13 maart 2025)
 
 We hebben de vormgeving van het dialoogvenster Delen bijgewerkt naar een modern ontwerp dat aansluit bij andere delen van Workfront. Er zijn kleine visuele verschillen, waaronder:
 

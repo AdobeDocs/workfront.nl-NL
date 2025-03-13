@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: cbadf0a758369bf9835b5804a036fddbc37dbb51
+source-git-commit: a86b91ee323e9efdca33655eaaac805a019cbb1c
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1158'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen z
 
 | Maandelijkse release | Driemaandelijkse release |
 | ----------------- | ----------------- |
-| <ul><li>25.2 (13 februari 2025)</li><li>25.3 (maart 2025)</li><li>25.4 (april 2025)</li></ul> | <ul><li>25.4 (april 2025)</li></ul> |
+| <ul><li>25.2 (13 februari 2025)</li><li>25.3 (13 maart 2025)</li><li>25.4 (10 april 2025)</li></ul> | <ul><li>25.4 (10 april 2025)</li></ul> |
 
 >[!NOTE]
 >
@@ -47,6 +47,21 @@ Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen z
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Verbeteringen voor logica voor aangepaste formulieren</a></p>
+            <p>De builder van de logica voor aangepaste formulieren heeft een bijgewerkte interface waarmee u meer ruimte hebt voor het maken van logische regels. Dit nieuwe ontwerp kan gemakkelijker extra logische types aanpassen die in de toekomst kunnen worden toegevoegd.</p><p>Naast de huidige opties voor weergave en het overslaan van logica, is ook validatielogica beschikbaar.</p>
+        </td>
+        <td>
+            <p><b>Beschikbaar op deze data:</b></p>
+            <ul>
+                <li>Voorvertoningsrelease: 31 januari 2025</li>
+                <li><span class="preview">Productieversie voor alle klanten: 31 januari 2025</span></li>
+            </ul>
+        </td>
+    </tr>                          
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
@@ -74,7 +89,7 @@ Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen z
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Meerdere documenten tegelijk bewerken in een documentrapport </a></p>
+            Meerdere documenten tegelijk bewerken in een documentrapport </a></p>[!BADGE in productie ]{type=Informative}
             <p>U kunt nu meerdere documenten tegelijk bewerken in een documentrapport. U kunt de beschrijvingen bewerken en aangepaste formulieren bijwerken.</p>
         </td>
         <td>
@@ -97,7 +112,7 @@ Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen z
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Een opmerking toevoegen aan projecten wanneer u deze bewerkt in het vak Project bewerken</a></p>
+            Voeg een commentaar aan projecten toe wanneer het uitgeven van hen in Edit projectvakje </a> [!BADGE in productie voor Snelle Versie] {type=Positive</p>
             <p>U kunt nu een opmerking aan een project toevoegen terwijl u deze bewerkt in het vak Project bewerken. U kunt ook een opmerking toevoegen aan meerdere projecten tegelijk wanneer u ze bulksgewijs bewerkt. Vóór deze update bestond deze functionaliteit niet tijdens het bewerken van projecten.</p>
         </td>
         <td>

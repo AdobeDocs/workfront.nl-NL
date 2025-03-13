@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
+source-git-commit: e5878d3b591e65f4ece2a79248e03940976580de
 workflow-type: tm+mt
-source-wordcount: '1662'
+source-wordcount: '1935'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,31 @@ In dit artikel worden de functies beschreven die tijdens de release van het twee
 <!--keep the sentence below for all future quarterly release pages-->
 
 Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront worden vrijgegeven, zie [ de versieactiviteit van de Planning van Adobe Workfront: artikelindex ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Meerdere aanvraagformulieren van een recordtype instellen en beheren
+
+>[!NOTE]
+>
+>Voorbeeld: 13 maart 2025; Productie voor alle klanten: 10 april 2025
+
+Om u te helpen uw aanvraagformulieren aan te passen voor verschillende belanghebbenden die afkomstig zijn uit verschillende gebieden van uw organisatie, introduceren we nu de mogelijkheid om meer dan één aanvraagformulier voor een recordtype te maken en te beheren. Voordat u deze upgrade uitvoert, kunt u slechts één formulier maken voor één recordtype.
+
+Alle aanvragen die met de verschillende formulieren worden ingediend, kunnen records voor het geselecteerde recordtype maken. U kunt nu meerdere aanvraagformulieren instellen voor hetzelfde recordtype. De formulieren worden weergegeven in een nieuwe tabelweergave voor aanvraagformulieren op het recordtype. Wanneer u aanvraagformulieren beheert, kunt u nu een aanvraagformulier bewerken, publiceren, delen, kopiëren of verwijderen uit de lijst met aanvraagformulieren in het recordtype.
+
+Voor meer informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
+
+## Eenvoudige toegang tot gepubliceerde aanvraagformulieren op de recordtypepagina
+
+>[!NOTE]
+>
+>Voorbeeld: 13 maart 2025; Productie voor alle klanten: 10 april 2025
+
+U hebt nu toegang tot aanvraagformulieren via de knop Nieuwe record in de rechterbovenhoek van de pagina met recordtypen. Voor gebruikers met de toestemmingen van de Mening aan de werkruimte, toont het Nieuwe verslag als het verslagknoop van het Verzoek.
+
+U kunt niet alleen handmatig records maken, maar ook een CSV- of Excel-bestand importeren, maar u kunt nu ook records maken op basis van een aanvraagformulier van de pagina met recordtypen.
+Voordat u deze verbetering doorvoert, kunt u alleen via een aanvraagformulier records maken via een directe koppeling naar een formulier of vanuit het gebied Aanvragen van Workfront.
+
+Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-records.md) creëren.
 
 ## Opzoekvelden toevoegen uit verbonden records in de verbindingsvelden van Workfront-aangepaste formulieren voor planning
 
