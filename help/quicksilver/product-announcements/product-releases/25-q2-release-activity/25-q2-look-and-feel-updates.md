@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: a17f501e732e4ba72bf224c7dd9efef7f90b47e7
+source-git-commit: ece8b2b248c8dd4e27465fbacb1319a7e0fbac11
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '519'
 ht-degree: 0%
 
 ---
@@ -31,19 +31,15 @@ Avatars worden niet meer weergegeven in de volgende e-mailmeldingen:
 * Nieuwe toewijzingsmeldingen
 * De meldingen voor het voltooien van alle vorige taken
 
-<!--
-
-## Look and feel updates to a Milestone Path list 
+## Updates van een lijst met paden van mijlpaal weergeven
 
 >[!NOTE]
 >
->Preview release: March 6, 2025; Production release for all customers: April 10, 2025
+>Voorvertoningsrelease: 6 maart 2025; Productieversie voor alle klanten: 10 april 2025
 
-We have updated the look and feel of the Milestone Path list in the Setup area, to match the design of other areas of Workfront.  
+Wij hebben de blik en het gevoel van de lijst van de Weg van de Mijlpaal in het gebied van de Opstelling bijgewerkt, om het ontwerp van andere gebieden van Workfront aan te passen.
 
-For information, see [Create a milestone path](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
-
--->
+Voor informatie, zie [ een milestone weg ](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) creëren.
 
 ## Updates van de Workfront-agenda bekijken en weergeven
 
@@ -89,7 +85,7 @@ Deze wijzigingen zijn tijdelijk omdat we vertragingen in e-mailberichten onderzo
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 13 februari 2025; Productieversie voor alle klanten: met de release van 25.3 (13 maart 2025)
+>Voorvertoningsrelease: 13 februari 2025; Productieversie voor alle klanten: met 25.4 release (10 april 2025)
 
 We hebben de vormgeving van het dialoogvenster Delen bijgewerkt naar een modern ontwerp dat aansluit bij andere delen van Workfront. Er zijn kleine visuele verschillen, waaronder:
 
