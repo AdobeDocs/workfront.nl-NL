@@ -7,14 +7,19 @@ description: Nadat de projectmanagers het werk op projecten door taken te creër
 author: Lisa
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
-source-git-commit: 233e61c011cc87f49d0d4082a20b7790104c96c8
+source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1194'
 ht-degree: 0%
 
 ---
 
-# Overzicht van werklastbalans
+# Overzicht van werklastbalans {#workload-balancer-overview}
+
+>[!CONTEXTUALHELP]
+>id="wf-resourcing-workload-balancer"
+>title="Werklastverdeling"
+>abstract="De eigenaars van het project en de teammanagers kunnen de Balancer van de Werkbelasting gebruiken om het werkpunten aan gebruikers toe te wijzen."
 
 <!--
 <p>(NOTE: this is linked from the UI for the Workload Balancer page. DO NOT CHANGE TITLE OR LINK) </p>
@@ -30,7 +35,7 @@ Nadat de projectmanagers het werk op projecten door taken te creëren plannen en
 
 In dit artikel wordt het algemene doel van Workload Balancer beschreven en een aantal van de beste werkwijzen voor hoe u projecten en bronnen kunt instellen om het programma met succes te gebruiken.
 
-Om videoleerprogramma&#39;s van de Balancer van de Werklast te herzien, ga naar de [ Tutorials van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html) pagina. In het linkermenu, uitgezochte **beheert middelen** > **de Balancer van de Werklast** en kiest een leerprogramma.
+Om videoleerprogramma&#39;s van de Balancer van de Werklast te herzien, ga naar de [ pagina van de Zelfstudies van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html). In het linkermenu, uitgezochte **beheert middelen** > **de Balancer van de Werklast** en kiest een leerprogramma.
 
 ## De werklastbalans zoeken
 

@@ -6,14 +6,19 @@ description: U kunt het gebruik van uw middelen in het rapport van het Gebruik b
 author: Lisa
 feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
 workflow-type: tm+mt
-source-wordcount: '7252'
+source-wordcount: '7283'
 ht-degree: 0%
 
 ---
 
-# Informatie over bronnengebruik weergeven
+# Informatie over bronnengebruik weergeven {#view-resource-utilization-information}
+
+>[!CONTEXTUALHELP]
+>id="wf-resourcing-utilization"
+>title="Gebruiksrapport"
+>abstract="Met het gebruiksrapport kunt u de voortgang, kosten of inkomsten van een project, programma of portfolio in één rapport bekijken. U kunt ook inkomsten vergelijken met kosten."
 
 <!-- Audited: 01/2024 -->
 
@@ -516,7 +521,7 @@ Zie [ vooruitgang, kosten, en opbrengst van het Spoor met het rapport van het Ge
 1. (Voorwaardelijk) om een bestaand filter te wijzigen, klik het **drop-down menu van de Filter**, dan selecteer de filter u wilt wijzigen.
 1. Geef de volgende informatie op om het filter te maken of te wijzigen:
 
-   * **Portfolio&#39;s:** beginnen de naam van de portefeuille te typen die de informatie bevat u in het rapport van het Gebruik wilt omvatten, dan klik de naam wanneer het in de drop-down lijst verschijnt\
+   * **Portfolio&#39;s:** begint de naam van de portefeuille te typen die de informatie bevat u in het rapport van het Gebruik wilt omvatten, dan klik de naam wanneer het in de drop-down lijst verschijnt\
      Herhaal dit proces om informatie van veelvoudige portefeuilles in het rapport van het Gebruik te omvatten.\
      Om alle portefeuilles van uw systeem in uw filter te omvatten, klik **voegt alles** toe. (Deze optie is alleen beschikbaar als uw systeem minder dan tien portfolio&#39;s bevat.)
 
@@ -630,7 +635,7 @@ Zie [ vooruitgang, kosten, en opbrengst van het Spoor met het rapport van het Ge
 
 ## Gebruiksinformatie exporteren
 
-U kunt gebruiksgegevens voor een project, programma of portfolio exporteren vanuit Workfront. De informatie kan slechts in formaten worden uitgevoerd XLSX, TSV, en PDF.
+U kunt gebruiksgegevens voor een project, programma of portfolio exporteren vanuit Workfront. Informatie kan alleen worden geëxporteerd in de indelingen XLSX, TSV en PDF.
 
 Bij weergave in Microsoft Excel worden negatieve getallen tussen haakjes weergegeven.
 

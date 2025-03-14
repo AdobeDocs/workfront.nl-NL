@@ -7,14 +7,19 @@ description: U kunt de toewijzing van uw middelen aan de projecten schatten en b
 author: Lisa
 feature: Resource Management
 exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
 workflow-type: tm+mt
-source-wordcount: '2082'
+source-wordcount: '2113'
 ht-degree: 0%
 
 ---
 
-# Overzicht van de bronnenplanner
+# Overzicht van de bronnenplanner {#resource-planner-overview}
+
+>[!CONTEXTUALHELP]
+>id="wf-resourcing-planner"
+>title="Resource Planner"
+>abstract="U kunt de Planner van het Middel gebruiken om de toewijzing van uw middelen aan de projecten te schatten en te begroten zij worden toegewezen aan, en hun beschikbaarheid voor toekomstig werk te voorspellen."
 
 <!-- Audited: 12/2023 -->
 
