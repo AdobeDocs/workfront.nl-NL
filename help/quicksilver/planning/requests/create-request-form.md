@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
+source-git-commit: 7c39f54677be746ce6305124026df7df598b3da2
 workflow-type: tm+mt
-source-wordcount: '2084'
+source-wordcount: '2121'
 ht-degree: 0%
 
 ---
@@ -160,7 +160,8 @@ Voor informatie over het voorleggen van de verzoeken van de Planning van Workfro
 
    De pagina met recordtypen wordt geopend in de weergave die u het laatst hebt geopend. Standaard wordt een pagina met recordtypen geopend in de tabelweergave.
 
-1. Klik **Meer** menu ![ Meer menu ](assets/more-menu.png) aan het recht van de naam van het verslagtype in de paginakop, dan klik **creeer verzoekvorm** <span class="preview"> of **beheer verzoekvorm**, als u reeds een vorm hebt en u extra degenen </span> wilt creëren.
+1. Klik **Meer** menu ![ Meer menu ](assets/more-menu.png) aan het recht van de naam van het verslagtype in de paginakop, dan klik **creeer verzoekvorm** <span class="preview"> of **beheer verzoekvormen**, als u reeds een vorm hebt en u extra degenen </span> wilt creëren.
+1. <span class="preview"> (Voorwaardelijk) als u een andere vorm wilt toevoegen, klik **Nieuwe verzoekvorm**</span>.
 1. Werk de naam van het aanvraagformulier bij. Door gebrek, is de naam van de vorm **Naamloze vorm**. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. (Facultatief) voeg a **Beschrijving** voor de verzoekvorm toe.
 
@@ -271,7 +272,7 @@ Voor informatie over het voorleggen van de verzoeken van de Planning van Workfro
 
    >[!TIP]
    >
-   ><span class="preview"> nadat de delende datum verloopt, is de verzoekvorm niet meer beschikbaar in het gebied van Verzoeken van Workfront.</span>
+   ><span class="preview"> nadat de het delen datum verloopt, is de verzoekvorm niet meer beschikbaar in het gebied van Verzoeken van Workfront, en de verbindingen die met andere gebruikers worden gedeeld zijn niet meer toegankelijk.</span>
 
 
 1. <span class="preview"> (Facultatief) </span> klik **sparen en kopieer verbinding** om de het delen details voor de vorm te bewaren. Als de vorm eerder werd bewaard, klik **verbinding van het Exemplaar**.
@@ -300,12 +301,20 @@ Voor informatie over het voorleggen van de verzoeken van de Planning van Workfro
 1. <span class= "preview"> klik de links-richtende pijl links van **vorm van het Verzoek** in de kopbal om de lijst van verzoekvormen te sluiten.   </span>
 
    <span class= "preview"> De verslagtype pagina opent. </span>
-1. (Facultatief en voorwaardelijk) van het milieu van de Productie, klik **Meer** menu ![ Meer menu ](assets/more-menu.png) rechts van de naam van het verslagtype in de kopbal, dan doe één van het volgende:
-   * Klik **de verzoekvorm van de Update** om het even welke veranderingen in de verzoekvorm aan te brengen.
-   * Klik **verbinding van het Exemplaar om vorm** te verzoeken om de verbinding met de vorm met anderen te delen.
+1. (Optioneel en voorwaardelijk) Als u een bestaand formulier wilt bewerken, voert u een van de volgende handelingen uit, afhankelijk van de omgeving die u gebruikt:
 
-1. <span class="preview"> (facultatief en voorwaardelijk) van het milieu van de Voorproef, klik **Meer** menu ![ Meer menu ](assets/more-menu.png) aan het recht van de naam van het verslagtype in de kopbal, dan klik **leidt verzoekvormen**. </span>
+   * Uit de productieomgeving:
 
-   <span class="preview"> dit opent de de lijstmening van de Formulieren van het Verzoek. </span>
-1. <span class="preview"> klik een verzoekvorm om het te openen en uit te geven.</span>
-1. <span class= "preview"> (Facultatief) ga naar het **Verzoeken** gebied in Workfront en vind de gedeelde vorm om een verzoek voor te leggen. Voor informatie, zie [ de Planningsverzoeken van Adobe Workfront voorleggen om verslagen ](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen.</span>
+      1. Klik **Meer** menu ![ Meer menu ](assets/more-menu.png) aan het recht van het verslagtype naam in de kopbal, dan doe één van het volgende:
+
+      1. Klik **de verzoekvorm van de Update** om het even welke veranderingen in de verzoekvorm aan te brengen.
+      1. Klik **verbinding van het Exemplaar om vorm** te verzoeken om de verbinding met de vorm met anderen te delen.
+
+   * <span class="preview"> van het milieu van de Voorproef:
+
+      1. Klik het **Meer** menu ![ Meer menu ](assets/more-menu.png) aan het recht van de naam van het verslagtype in de kopbal, dan klik **leidt verzoekvormen**. </span>
+
+         <span class="preview"> dit opent de de lijstmening van de Formulieren van het Verzoek. </span>
+
+      1. <span class="preview"> klik een verzoekvorm om het te openen en uit te geven.</span>
+      1. <span class= "preview"> (Facultatief) ga naar het **Verzoeken** gebied in Workfront en vind de gedeelde vorm om een verzoek voor te leggen. Voor informatie, zie [ de Planningsverzoeken van Adobe Workfront voorleggen om verslagen ](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen.</span>
