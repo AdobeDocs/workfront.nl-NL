@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: b8d5abc996a3902a8ab8cdce9a8f8d92d4736db1
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 0%
@@ -26,7 +26,7 @@ De volgende vragen worden vaak gesteld over de bevordering van het milieu:
 
 De bevordering van een omgeving tussen domeinen wordt momenteel niet ondersteund. U moet de toepassing bevorderen tussen omgevingen in hetzelfde domein.
 
-## Is het bedrijfsplatform/IMS van de Adobe een voorwaarde voor milieubevordering?
+## Is het Adobe Business Platform/IMS een voorwaarde voor milieubevordering?
 
 ### Antwoord
 
@@ -70,5 +70,4 @@ Pakketterugdraaiacties zijn beschikbaar voor het meest recente pakket, binnen 24
 ### Antwoord
 
 * &#39;Bestaande gebruiken&#39; is hetzelfde als &#39;de implementatie overslaan&#39; of negeren, omdat de implementatie wordt toegewezen aan het bestaande object in de doelomgeving en er geen wijzigingen in worden aangebracht.
-* Als u objecten wilt overslaan, raden we u aan
-om het even welke voorwerpen die u niet van het bevorderingspakket, of van het bronmilieu direct wilt installeren. Nadat u de objecten hebt verwijderd, stelt u het pakket opnieuw samen.
+* Om voorwerpen over te slaan, adviseren wij verwijderend om het even welke voorwerpen die u niet van het bevorderingspakket, of van het bronmilieu direct wilt installeren. Nadat u de objecten hebt verwijderd, stelt u het pakket opnieuw samen.
