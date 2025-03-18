@@ -2,14 +2,14 @@
 product-area: projects
 navigation-topic: plan-a-project
 title: Een projectoverzicht plannen
-description: Een projectoverzicht plannen
+description: Kom te weten wat een project is, hoe te om zijn werkingsgebied en structuur, evenals zeer belangrijke concepten zoals programma's, chronologie, en begin en voltooiingsdata te vestigen.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 3cbcc2dd2efb457f5f0c4213110af54230a23eb0
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1414'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 < see if you need to add something about approval settings and users's time off might add time to tasks' timelines - Ninja story 2019.3) </p>
 -->
 
-Een project is een groot werkitem in Adobe Workfront. U kunt een project in taken verdelen die kleinere het werkpunten, zoals taken zijn. Taken kunnen worden toegewezen aan gebruikers of teams die verantwoordelijk kunnen zijn voor de voltooiing ervan. Wanneer alle gebruikers hun taken voltooien, wordt het project ook volledig.
+Een project is een groot werkitem in Adobe Workfront. U kunt een project in taken verdelen die kleinere het werkpunten zijn. Taken kunnen worden toegewezen aan gebruikers of teams die verantwoordelijk kunnen zijn voor de voltooiing ervan. Wanneer alle gebruikers hun taken voltooien, wordt het project ook volledig.
 
 Naast het plannen van uw taken in een project, gaan vele andere details in het plannen van projecten. Van het bepalen van de economische gevolgen tot het overwegen van de beschikbaarheid van hulpbronnen, zijn er vele elementen van projecten die aandacht vereisen.
 
