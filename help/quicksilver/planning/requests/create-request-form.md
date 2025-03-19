@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 7c39f54677be746ce6305124026df7df598b3da2
+source-git-commit: 4df268c9b5a99991bee3f1862c83fe0079d162c1
 workflow-type: tm+mt
 source-wordcount: '2121'
 ht-degree: 0%
@@ -134,7 +134,7 @@ Voor informatie over het voorleggen van de verzoeken van de Planning van Workfro
 
    * De velden Valuta, Nummer en Percentage worden weergegeven als een tekstveldtype voor één regel in de formulierbuilder.
 
-     De veldindeling blijft echter behouden en de waarden van de getallen in deze velden worden weergegeven als de waarden Valuta, Nummer en Percentage op het recordtype en op de pagina met aanvraagdetails.
+     De veldindeling blijft echter wel behouden en de veldwaarden worden na het indienen van het verzoek weergegeven als valuta, cijfers en percentages, op het recordtype en op de pagina met aanvraagdetails.
 
 <div class="preview">
 

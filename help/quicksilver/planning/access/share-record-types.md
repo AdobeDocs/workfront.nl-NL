@@ -4,9 +4,9 @@ description: U kunt een recordtype met anderen delen om samenwerking te verzeker
 hide: true
 hidefromtoc: true
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 08c9eb508861d585d8f76de5bb523132f3be371f
+source-git-commit: 4df268c9b5a99991bee3f1862c83fe0079d162c1
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1308'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog-->
+
+<!-- take the Remove permissions section out, at the end - this is what Lilit said: Because of "Everyone in the workspace can view" wildcard, currently it's not possible to entirely remove access to a record type. Let's take out this section. -->
 
 # Recordtypen delen
 
@@ -196,6 +198,25 @@ U kunt machtigingen aanpassen voor afzonderlijke recordtypen in een werkruimte a
 
 1. Deel de gekopieerde koppeling met anderen. Gebruikers die de koppeling ontvangen, moeten actieve gebruikers zijn en zich aanmelden bij Workfront om de pagina met recordtypen te kunnen openen en weergeven in de geselecteerde weergave.
 
+## Machtigingen verwijderen van een recordtype
+
+{{step1-to-planning}}
+
+1. Open de werkruimte waarvan recordtypen u wilt ophouden met delen en klik vervolgens op een opnametype-kaart. Hierdoor wordt de pagina met recordtypen geopend.
+
+1. Van het lusje van om het even welke mening, klik **Aandeel** in de hoger-juiste hoek van het verslagtype.
+
+   Het **vakje van het Aandeel** opent.
+1. Vind de gebruiker, de groep, het team, het bedrijf, of de baanrol die de toestemmingen u wilt verwijderen, het drop-down menu van toestemmingen rechts van hun naam uitbreiden, dan **verwijderen** klikken. <!--check the screen shot below - the UI text for View might not be accurate-->
+
+   ![ verwijdert optie op verslagtype dat drop-down deelt ](assets/remove-option-on-record-type-sharing-drop-down.png)
+
+1. Klik **sparen**.
+
+   Personen hebben geen toegang meer tot het recordtype. Ze kunnen nog steeds machtigingen voor de werkruimte hebben, tenzij u ze ook verwijdert van werkruimtemachtigingen.
+
+   Er is geen bericht voor de gebruikers die zijn verwijderd van toegang tot de weergave, dat zij deze toegang niet meer hebben.
+
 <!-- This is not working yet: *************************** edit this before publishing, because this was not tested with record types - this section came from sharing views *******************: 
 
 ## Grant permissions to a record type from a permission request
@@ -222,25 +243,4 @@ Users who access a link to a record type to which they do not have permissions c
 1. Click the left-pointing arrow to the left of **Pending access requests**, then click **Save**.
 
    If you approved the request, the users are added to the sharing box of the view. The user requesting the permission receives an email confirmation that their request was approved. <!--will they also get an in-app notification??-->
-
-## Machtigingen verwijderen van een recordtype
-
-<!-- take this section out - this is what Lilit said: Because of "Everyone in the workspace can view" wildcard, currently it's not possible to entirely remove access to a record type. Let's take out this section. -->
-
-{{step1-to-planning}}
-
-1. Open de werkruimte waarvan recordtypen u wilt ophouden met delen en klik vervolgens op een opnametype-kaart. Hierdoor wordt de pagina met recordtypen geopend.
-
-1. Van het lusje van om het even welke mening, klik **Aandeel** in de hoger-juiste hoek van het verslagtype.
-
-   Het **vakje van het Aandeel** opent.
-1. Vind de gebruiker, de groep, het team, het bedrijf, of de baanrol die de toestemmingen u wilt verwijderen, het drop-down menu van toestemmingen rechts van hun naam uitbreiden, dan **verwijderen** klikken. <!--check the screen shot below - the UI text for View might not be accurate-->
-
-   ![ verwijdert optie op verslagtype dat drop-down deelt ](assets/remove-option-on-record-type-sharing-drop-down.png)
-
-1. Klik **sparen**.
-
-   Personen hebben geen toegang meer tot het recordtype. Ze kunnen nog steeds machtigingen voor de werkruimte hebben, tenzij u ze ook verwijdert van werkruimtemachtigingen.
-
-   Er is geen bericht voor de gebruikers die zijn verwijderd van toegang tot de weergave, dat zij deze toegang niet meer hebben.
 

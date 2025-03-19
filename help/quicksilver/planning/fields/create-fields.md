@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 4df268c9b5a99991bee3f1862c83fe0079d162c1
 workflow-type: tm+mt
-source-wordcount: '4333'
+source-wordcount: '4611'
 ht-degree: 0%
 
 ---
@@ -231,7 +231,8 @@ OLD:
    * [Gemaakt door](#created-by)
    * [Aanmaakdatum](#created-date)
    * [Laatst gewijzigd door](#last-modified-by)
-   * [Laatst gewijzigd](#last-modified-date)
+   * [ Laatste gewijzigde datum ](#last-modified-date)
+     <!--* [Object](#object-field-type)-->
 
    >[!IMPORTANT]
    >
@@ -248,7 +249,7 @@ Tekstvelden van één regel bevatten beperkte alfanumerieke informatie. U kunt b
 
 1. Begin creërend een gebied zoals die in de sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer het **single-line tekst** gebiedstype.
 
-   ![](assets/single-line-text-field-type.png)
+   ![ Enige type van lijntekstgebied ](assets/single-line-text-field-type.png)
 
 1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
    * **Naam**: De naam van het gebiedstype, aangezien het in een lijst of de pagina van Details van het verslag zal verschijnen. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
@@ -273,7 +274,7 @@ In alineasvelden wordt aanvullende alfanumerieke informatie over een record vast
 
 1. Begin creërend een gebied zoals die in de sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer het **3} gebiedstype van de Paragraaf {.**
 
-   ![](assets/paragraph-field-type.png)
+   ![ het gebiedstype van de Paragraaf ](assets/paragraph-field-type.png)
 
 
 1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
@@ -290,7 +291,7 @@ U kunt een veld met meerdere selecties gebruiken om aanvullende informatie in el
 
 1. Begin creërend een gebied zoals die in de sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer het **multi-uitgezochte** gebiedstype.
 
-   ![](assets/multi-select-field-type.png)
+   ![ Multi-select gebiedstype ](assets/multi-select-field-type.png)
 
 
 1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
@@ -319,7 +320,7 @@ Met velden die een enkele selectie maken, wordt aanvullende informatie in elke g
 
 1. Begin creërend een gebied zoals die in de sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer het **enig-uitgezochte** gebiedstype.
 
-   ![](assets/single-select-field-type.png)
+   ![ Single-select gebiedstype ](assets/single-select-field-type.png)
 
 
 1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
@@ -348,7 +349,7 @@ U kunt een datumveld gebruiken om aanvullende informatie vast te leggen in de da
 
 1. Begin creërend een gebied zoals die in de sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer het **Datum** gebiedstype.
 
-   ![](assets/date-field-type.png)
+   ![ het gebiedstype van de Datum ](assets/date-field-type.png)
 
 
 1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
@@ -377,9 +378,17 @@ U kunt een datumveld gebruiken om aanvullende informatie vast te leggen in de da
 
 Met een getalveldtype wordt informatie vastgelegd in een getalnotatie.
 
+>[!TIP]
+>
+>Nummervelden worden weergegeven als een tekstveldtype voor één regel in een aanvraagformulierbuilder.
+>
+>De veldindeling blijft echter wel behouden en de waarden van deze velden worden als getallen weergegeven nadat het verzoek is ingediend, op het recordtype en op de pagina met aanvraagdetails.
+>Voor informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
+
+
 1. Begin creërend een gebied zoals die in de sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer het **3} gebiedstype van het Aantal {.**
 
-   ![](assets/number-field-type.png)
+   ![ het gebiedstype van het Aantal ](assets/number-field-type.png)
 1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
 
    * **Naam**: De naam van het gebiedstype, aangezien het in een lijst of de verslagpagina zal verschijnen.
@@ -399,9 +408,17 @@ Met een getalveldtype wordt informatie vastgelegd in een getalnotatie.
 
 Percentageveldtypen leggen informatie vast in een getalnotatie gevolgd door een percentageteken.
 
+>[!TIP]
+>
+>Percentagevelden worden weergegeven als een tekstveldtype voor één regel in een aanvraagformulierbuilder.
+>
+>De veldindeling blijft echter wel behouden en de waarden van deze velden worden als percentages weergegeven nadat het verzoek is ingediend, op het recordtype en op de pagina met aanvraagdetails.
+>Voor informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
+
+
 1. Begin creërend een gebied zoals die in de sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer het **3} gebiedstype van het Percentage {.**
 
-   ![](assets/percentage-field-type.png)
+   ![ het gebiedstype van het Percentage ](assets/percentage-field-type.png)
 
 1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
    * **Naam**: De naam van het gebiedstype, aangezien het in een lijst of de verslagpagina zal verschijnen.
@@ -431,9 +448,16 @@ Percentageveldtypen leggen informatie vast in een getalnotatie gevolgd door een 
 
 Valutatypen leggen informatie vast in een getalnotatie voorafgegaan door een valutasymbool.
 
+>[!TIP]
+>
+>Valutabelden worden weergegeven als een tekstveldtype voor één regel in een aanvraagformulierbuilder.
+>
+>De veldindeling blijft echter wel behouden en de waarden van deze velden worden na de indiening van het verzoek als valuta weergegeven, op het recordtype en op de pagina met aanvraagdetails.
+>Voor informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
+
 1. Begin creërend een gebied zoals die in sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer het **3} gebiedstype van de Valuta {.**
 
-   ![](assets/currency-field-type.png)
+   ![ het gebiedstype van de Valuta ](assets/currency-field-type.png)
 
 1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
    * **Naam**: De naam van het gebiedstype, aangezien het in een lijst of de verslagpagina zal verschijnen. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
@@ -456,7 +480,7 @@ Met het veldtype Selectievakje kunt u één optie voor het selectievakje aan een
 
 1. Begin creërend een gebied zoals die in de sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer het **CheckBox** gebiedstype.
 
-   ![](assets/checkbox-field-type.png)
+   ![ het gebiedstype van Checkbox ](assets/checkbox-field-type.png)
 
 1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
    * **Naam**: De naam van het gebiedstype, aangezien het in een lijst of de verslagpagina zal verschijnen. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
@@ -473,7 +497,7 @@ Voor meer informatie, zie [ overzicht van de gebieden van de Formule ](/help/qui
 
 1. Begin creërend een gebied zoals die in sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer het **Formule** gebiedstype.
 
-   ![](assets/new-formula-field-with-list-of-expressions.png)
+   ![ Nieuw formuleringsgebied met lijst van uitdrukkingen ](assets/new-formula-field-with-list-of-expressions.png)
 
 1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
 
@@ -483,7 +507,7 @@ Voor meer informatie, zie [ overzicht van de gebieden van de Formule ](/help/qui
 
 1. Klik op de geselecteerde expressie om de definitie weer te geven en de opmaak weer te geven.
 
-   ![](assets/description-of-formula-expression.png)
+   ![ Beschrijving van formule uitdrukking ](assets/description-of-formula-expression.png)
 
    Voor meer informatie over welke uitdrukkingen worden gesteund, zie [ overzicht van de gebieden van de Formule ](/help/quicksilver/planning/fields/formula-fields.md).
 
@@ -501,7 +525,7 @@ Voor meer informatie, zie [ overzicht van de gebieden van de Formule ](/help/qui
    >
    >* U kunt verwijzen naar een veld dat maximaal vier velden (en objecten) verwijderd is van het huidige recordtype. Bijvoorbeeld, als u een formuleringsgebied voor een type van het Verslag van de Activiteit creeert (1), en de Activiteit wordt verbonden met het type van het verslag van de Campagne (2) dat met een Project van Workfront (3) wordt verbonden, kunt u het gebied van de Begroting van het project (4) in de formule verwijzen u voor het verslagtype van de Activiteit creeert.
    >
-   >![](assets/formula-example-project-budget-four-fields-removed.png)
+   >![ Formule voorbeeldprojectbudget vier gebieden verwijderd ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. Op het **gebied van het Formaat**, selecteer van de volgende keuzen om het formaat van het resultaat te identificeren dat op het formule-type gebied wordt getoond:
@@ -516,7 +540,7 @@ Voor meer informatie, zie [ overzicht van de gebieden van de Formule ](/help/qui
      >
      >We raden labels aan voor velden die arrays weergeven. In dit geval wordt elk arraylid weergegeven als een aparte tag.
 
-     ![](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
+     ![ lijst van formaten van het de formaten van formules van het formules van het formules gebied met geselecteerde markering ](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
 
    * **Datum**: Het resultaat van de vertoningen van het formuleringsgebied als datum.
 
@@ -536,11 +560,15 @@ Met het veldtype Personen kunt u een gebruiker <!--, job role, or team--> aan ee
 
 >[!TIP]
 >
->Wanneer u de naam van een gebruiker toevoegt in een veld Personen, worden de naam van de gebruiker en zijn primaire taakrol in het veld weergegeven.
+>* Wanneer u de naam van een gebruiker toevoegt in een veld Personen, worden de naam van de gebruiker en zijn primaire taakrol in het veld weergegeven.
+>
+>* De gebieden van mensen tonen als verwijzings (of verbinding) gebiedstype in een verzoekvormbouwer.
+>
+>Voor informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
 
 1. Begin creërend een gebied zoals die in de sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer het **3} gebiedstype van Mensen {.**
 
-   ![](assets/people-field-type.png)
+   ![ het gebiedstype van Mensen ](assets/people-field-type.png)
 
 1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
    * **Naam**: De naam van het gebiedstype, aangezien het in een lijst of de verslagpagina zal verschijnen.
@@ -561,7 +589,7 @@ U kunt het veld Gemaakt op veldtype gebruiken om de gebruiker die de record heef
 
 1. Begin creërend een gebied zoals die in de sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer **die door** gebiedstype wordt gecreeerd.
 
-   ![](assets/created-by-field-type.png)
+   ![ die door gebiedstype ](assets/created-by-field-type.png) wordt gecreeerd
 
 1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
 
@@ -579,7 +607,7 @@ Met het veldtype Gemaakt datum kunt u de datum toevoegen waarop de record is gem
 
 1. Begin creërend een gebied zoals die in de sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer het **Gemaakt datum** gebiedstype.
 
-   ![](assets/created-date-field-type.png)
+   ![ Gemaakt type van datumgebied ](assets/created-date-field-type.png)
 
    <!--check the image above - added bug fix for UI text changes-->
 
@@ -612,7 +640,7 @@ U kunt de Laatst gewijzigd op veldtype gebruiken om de gebruiker die de record h
 
 1. Begin creërend een gebied zoals die in de sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer het **Laatst gewijzigd door** gebiedstype.
 
-   ![](assets/last-modified-by-field-type.png)
+   ![ Laatste gewijzigd door gebiedstype ](assets/last-modified-by-field-type.png)
 
 1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
 
@@ -630,7 +658,7 @@ Met het veldtype Laatst gewijzigd kunt u de datum toevoegen waarop een record vo
 
 1. Begin creërend een gebied zoals die in de sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer het **Gemaakt datum** gebiedstype.
 
-   ![](assets/last-modified-date-field-type.png)
+   ![ Laatste gewijzigd type van datumgebied ](assets/last-modified-date-field-type.png)
 
    <!--check the image above - added bug fix for UI text changes-->
 
@@ -656,6 +684,52 @@ Met het veldtype Laatst gewijzigd kunt u de datum toevoegen waarop een record vo
 1. Klik **creëren**.
 
    Het nieuwe datum-type veld Laatst gewijzigd wordt toegevoegd als kolom aan het recordtype en de waarden ervan worden voorgevuld met de datum (of datum en tijd) waarop de record voor het laatst is gewijzigd.
+
+<!--
+
+## Object field type
+
+You can use the Object field type when you need to store several fields that might include several pieces of information. For example, you can store the source, code, error message, or details of an object in one field. In this case, instead of having several separate single-line text fields for that, you can use an Object field to store all information in one place. 
+
+For example, when using an Object-type field, you can store the following type of information: 
+
+```
+"{
+""source"": ""string"",
+""code"": ""string"",
+""subCode"": ""string"",
+""message"": ""string"",
+""details"": ""string""
+}"
+
+```
+
+You can also store an array of values in one field and you would rather rely on user input for each element of the array, instead of using a multi-select field type for the same purpose. For example, you can store information in the following format: 
+
+`["EMEA", "APAC"] `
+
+Consider the following when using Object-type fields:
+
+* In addition to strings and arrays, you can store other value formats like HTML.
+* There is no format validation for this field. 
+* Object-type fields have a limit of 10,000 characters.
+
+Create an Object field: 
+
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Created date** field type.
+
+    ![Object field type](assets/object-field-type.png)
+
+1. Add the following information in the **New field** tab:
+
+     * **Name**: The name of the field type, as it will appear in a table or the record page. (***********this might change and they might prepopulate it with "Created date"********)
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
+
+1. Click **Create**.
+
+    The new Object-type field is added as a column to the record type.
+
+-->
 
 ## Velden maken door recordtypen aan te sluiten
 
