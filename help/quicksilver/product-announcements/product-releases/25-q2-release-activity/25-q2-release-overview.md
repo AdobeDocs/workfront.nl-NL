@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 3e9323b42037eec496cf5d1b000f5b91be998e1f
+source-git-commit: b115018560d37fd5d2741086b15b6c844ddf2505
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1226'
 ht-degree: 0%
 
 ---
@@ -189,6 +189,12 @@ De volgende functionaliteit wordt binnenkort verwijderd uit Workfront:
 De oudere versie van Agile in een project wordt verwijderd uit Workfront met de release van 25.3 op 13 maart 2025. U kunt uw taken nog steeds bekijken in een mobiele weergave in een project door op het pictogram Boven te klikken.
 
 Voor meer informatie over het gebruiken van de mening van de Gelijkheid, zie [ een project in de Mening van de Gelijkheid beheren ](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+
+#### Verbeterde afgekeurde analysemogelijkheden
+
+Vanwege het lage en afnemende gebruik hebben we besloten om het product Enhanced Analytics in de week van 25 mei 2025 af te schaffen.
+We raden u aan ons Data Connect-product te beschouwen als een vervanging. Met Data Connect kunt u vergelijkbare aanpasbare visualisaties maken met de bedrijfsintelligentiegereedschappen van uw voorkeur.
+Voor meer informatie over deze veroudering, zie de [ Verbeterde gids van de Vervanging van Analytics ](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md).
 
 ## Aankondigingen
 
