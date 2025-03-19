@@ -4,9 +4,9 @@ description: U kunt een recordtype met anderen delen om samenwerking te verzeker
 hide: true
 hidefromtoc: true
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 3cbcc2dd2efb457f5f0c4213110af54230a23eb0
+source-git-commit: 08c9eb508861d585d8f76de5bb523132f3be371f
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -243,3 +243,4 @@ Users who access a link to a record type to which they do not have permissions c
    Personen hebben geen toegang meer tot het recordtype. Ze kunnen nog steeds machtigingen voor de werkruimte hebben, tenzij u ze ook verwijdert van werkruimtemachtigingen.
 
    Er is geen bericht voor de gebruikers die zijn verwijderd van toegang tot de weergave, dat zij deze toegang niet meer hebben.
+
