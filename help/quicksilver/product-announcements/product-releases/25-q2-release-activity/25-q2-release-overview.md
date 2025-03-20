@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: b115018560d37fd5d2741086b15b6c844ddf2505
+source-git-commit: eb51a0b5f726105d7d25a358fc3546f7a2f27d89
 workflow-type: tm+mt
-source-wordcount: '1226'
+source-wordcount: '1272'
 ht-degree: 0%
 
 ---
@@ -86,6 +86,21 @@ Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen z
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Desktop Proofing Viewer-update </a></p>[!BADGE in productie ]{type=Informative}
+            <p>De Desktop Proofing Viewer is bijgewerkt naar versie 2.1.45. Met deze update kan de viewer gebruiken
+            <ul><li>Elektron versie 35</li><li>Chroom versie 134</li><ul></p>
+        </td>
+        <td>
+            <p><b>Beschikbaar op deze data:</b></p>
+            <ul>
+                <li>Voorvertoningsrelease: 20 maart 2025</li>
+                <li><span class="preview">Productieversie voor alle afnemers: 20 maart 2025</span></li>
+            </ul>
+        </td>
+    </tr>                          
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
