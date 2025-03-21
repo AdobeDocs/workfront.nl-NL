@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f929806f-9087-4b64-be4b-70bbceaaeab0
-source-git-commit: 7c39f54677be746ce6305124026df7df598b3da2
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '553'
 ht-degree: 0%
 
 ---
 
 # Risicotypen bewerken en maken
+
+<!--Audited: 03/2025-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -46,7 +48,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
    <td><p>Nieuw: [!UICONTROL Standard]</p>
    of
    <p>Huidige: [!UICONTROL Plan]</p>
@@ -59,7 +61,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -95,10 +97,9 @@ U kunt het volgende doen om het aantal risicstypen in uw Workfront-instantie te 
 
    >[!TIP]
    >
-   >   U kunt de informatie over het risicatype inline bewerken wanneer u dubbelklikt op de naam of beschrijving van een risicatype in de lijst.
+   >   U kunt de informatie over het risicatype inline bewerken wanneer u dubbelklikt op de naam of beschrijving van een risicatype in een lijst met risicstypen.
 
 1. (Optioneel) Wijzig de naam en de beschrijving van het type risico.
-
 
    De velden **[!UICONTROL Name]** en **[!UICONTROL Description]** mogen maximaal 50 tekens bevatten.
 
@@ -130,7 +131,7 @@ Naast de standaardtypen kunt u ook soorten risico&#39;s maken.
    of
 
    Klik [!UICONTROL **toevoegen Meer Types van Risico**] in de laag-linkerhoek van de lijst van het risicatype om inline risicstypes toe te voegen. <!--add screen shot-->
-1. Typ een **[!UICONTROL Name]** (vereist) en een **[!UICONTROL Description]** (optioneel) voor het risicatype.
+1. Voeg een **[!UICONTROL Name]** (vereist) en een **[!UICONTROL Description]** (facultatief) voor het risicatype toe.
 
    De velden **[!UICONTROL Name]** en **[!UICONTROL Description]** mogen maximaal 50 tekens bevatten.
 

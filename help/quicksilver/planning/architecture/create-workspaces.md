@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '628'
 ht-degree: 0%
 
 ---
@@ -176,7 +176,7 @@ U kunt een werkruimte maken en er recordtypen aan toevoegen om uw objecten te or
 
    Er is een indicatie van welke operationele recordtypen, taxonomieën en hoeveel velden aan elke sjabloon zijn gekoppeld.
 
-   ![](assets/previewing-a-workspace-template.png)
+   ![ Previewing een werkruimtemalplaatje ](assets/previewing-a-workspace-template.png)
 
    Voor informatie over de malplaatjes van de werkruimte van de Planning van Workfront, zie [ Lijst van werkruimtesjablonen ](/help/quicksilver/planning/architecture/workspace-templates.md).
 
@@ -201,7 +201,7 @@ U kunt een werkruimte maken en er recordtypen aan toevoegen om uw objecten te or
 
    of
 
-   Beweeg de naam van een sectie, dan klik **Meer** menu ![](assets/more-menu.png), dan klik **anders noemen** om de sectie anders te noemen.
+   Beweeg de naam van een sectie, dan klik **Meer** menu ![ Meer menu ](assets/more-menu.png), dan klik **anders noemen** om de sectie anders te noemen.
 
    >[!TIP]
    >

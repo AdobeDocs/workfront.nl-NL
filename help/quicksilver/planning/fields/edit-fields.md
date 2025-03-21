@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-U kunt de gebiedsmontages voor gebieden uitgeven die reeds in de Planning van Adobe Workfront worden gecreeerd.
+U kunt de instellingen van bestaande velden bewerken in Adobe Workfront Planning.
 
 Voor informatie over het creëren van de gebieden van de Planning van Adobe Workfront, zie [ gebieden ](/help/quicksilver/planning/fields/create-fields.md) creëren.
 
@@ -99,72 +99,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 +++
 
 
-<!--
-OLD
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p>
-   <p>Current: Plan</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configuration</p></td>
-   <td> <p>There are no access controls for Workfront Planning</p>  
-</td>
-  </tr>
-
-  <tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-
- </tbody>
-</table>
-
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-
--->
-
 ## Overwegingen bij het bewerken van veldinstellingen
 
 U moet het volgende in overweging nemen voordat u wijzigingen aanbrengt in de configuratie van een veld:
 
-* U kunt velden bewerken die u hebt gemaakt of velden die door andere gebruikers zijn gemaakt, als u beheerdersmachtigingen hebt voor de werkruimte waartoe de velden behoren.
-* U kunt een veld in de tabel met recordtypen bewerken.
+* U kunt de veldinstellingen alleen bewerken vanuit de tabel met recordtypen.
 * U kunt een veld op de recordpagina of in een andere weergave, buiten de tabelweergave, niet bewerken.
 * U kunt het veldtype niet bewerken nadat het veld is opgeslagen.
 * U kunt de eerder geselecteerde instelling voor negatieve getallen toestaan niet uitschakelen voor een veld Getal, Percentage of Valuta als er al negatieve waarden zijn opgeslagen in de records waaraan deze is gekoppeld.
@@ -181,6 +120,12 @@ U moet het volgende in overweging nemen voordat u wijzigingen aanbrengt in de co
   >Er is geen waarschuwing of indicatie dat dit gegevensverlies kan optreden wanneer u de configuratie van velden wijzigt.
   >
   >Er is geen bericht aan andere gebruikers dat de gebiedsconfiguratie is veranderd.
+
+* U kunt geen bestaande opzoekvelden van verbonden records bewerken.
+
+<!--replace he last bullet with thsi: 
+
+* <span class="preview">You can edit existing lookup fields from connected records.</span>-->
 
 <!--this is not yet true, but it might come later:
 * You can deselect Allow negative numbers option from a Number, Percentage, or Currency field after you save the field. 
@@ -207,7 +152,7 @@ U moet het volgende in overweging nemen voordat u wijzigingen aanbrengt in de co
 
    Dubbelklik op de kolomkop voor het veld.
 
-   ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
+   ![ het menu van de Pijl na naam van gebied in benadrukte lijstkopbal ](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
 1. Update informatie over het gebied en klik **sparen**. <!--insert screen shot when finalized-->
 

@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 425c3d3afb892ac83a10bbd36efb4c7d9712c4dc
+exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
-
 
 # Overzicht van werkruimten
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 Een werkruimte is een verzameling recordtypen die door een organisatie-eenheid worden gebruikt en die de levenscyclus en processen van het werk van de eenheid vertegenwoordigt. U kunt werkruimten volledig aanpassen in Adobe Workfront Planning.
 
 
-![](assets/workspaces-landing-page-admin-account.png)
+![ Werkruimten die pagina admin rekening landen ](assets/workspaces-landing-page-admin-account.png)
 
 ## Overwegingen over werkruimten
 
@@ -56,6 +56,3 @@ Een werkruimte is een verzameling recordtypen die door een organisatie-eenheid w
 <!--make this live with the GA: * There is no limit for how many workspaces you can create in your environment. However, we recommend not to have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.-->
 
 * Er gelden limieten voor het aantal werkruimteobjecten dat u kunt maken in uw exemplaar van Workfront Planning. Voor informatie, zie [ overzicht van de objectbeperkingen van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/limitations-overview.md).
-
-
-

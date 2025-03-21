@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
@@ -159,15 +159,15 @@ OLD:
    De werkruimtepagina wordt geopend en de recordtypen worden weergegeven.
 1. Voer een van de volgende handelingen uit:
 
-   * Beweeg over de kaart van een verslagtype en klik **Meer** menu ![](assets/more-menu.png) in de hoger-juiste hoek van de kaart van het verslagtype, dan klik **uitgeven**
+   * Beweeg over de kaart van een verslagtype en klik **Meer** menu ![ Meer menu ](assets/more-menu.png) in de hoger-juiste hoek van de kaart van het verslagtype, dan klik **uitgeven**
 of
-   * Klik een kaart van het verslagtype om de verslagtype pagina te openen, klik **Meer** menu ![](assets/more-menu.png) rechts van de naam van het verslagtype, dan klik **uitgeven**.
+   * Klik een kaart van het verslagtype om de verslagtype pagina te openen, klik **Meer** menu ![ Meer menu ](assets/more-menu.png) rechts van de naam van het verslagtype, dan klik **uitgeven**.
 
-   ![](assets/more-menu-options-from-record-type-card.png)
+   ![ Meer menuopties van verslagtype kaart ](assets/more-menu-options-from-record-type-card.png)
 
 1. In **geef verslagtype** doos uit, opent het **3} lusje van de Verschijning {door gebrek.**
 
-   ![](assets/edit-record-type-box-appearance-tab.png)
+   ![ Weergavetabblad van recordtekstvak bewerken ](assets/edit-record-type-box-appearance-tab.png)
 
    Werk de volgende informatie in het **Verschijning** lusje bij:
 
@@ -179,7 +179,7 @@ of
 
 1. (Voorwaardelijk) als u een systeembeheerder bent, klik het **Geavanceerde montages** lusje in **geef verslagtype** doos uit.
 
-   ![](assets/edit-record-type-box-advanced-settings-tab.png)
+   ![ geef recordtype doos geavanceerde montages tabel uit ](assets/edit-record-type-box-advanced-settings-tab.png)
 
 1. (Voorwaardelijk) als systeembeheerder, werk de volgende informatie in de **Geavanceerde montages** tabel bij:
 
@@ -189,10 +189,10 @@ of
 
 1. Klik **sparen**.
 
-   Op de kaart met recordtype in de werkruimte wordt een connectiviteitspictogram ![](assets/connect-from-other-workspaces-icon.png) weergegeven in de rechterbovenhoek om aan te geven dat de record nu toegankelijk is vanuit andere werkruimten.
+   De kaart van het verslagtype op de werkruimte toont een connectiviteitspictogram ![ verbind van ander werkruimtepictogram ](assets/connect-from-other-workspaces-icon.png) in de hoger-juiste hoek om erop te wijzen dat het verslag nu toegankelijk van andere werkruimten is.
 
 1. (Optioneel) Klik op de kaart met recordtype in de werkruimte om de pagina van het recordtype te openen en geef vervolgens het recordtype in de koptekst een andere naam.
 
 1. (Optioneel) Als u een ander recordtype wilt bewerken, vouwt u de pijl omlaag naar rechts van de naam van een recordtype uit, zoekt u naar een recordtype en selecteert u deze pijl wanneer deze in de lijst wordt weergegeven.
 
-   ![](assets/record-type-drop-down-on-record-type-page-with-search-box.png)
+   ![ het type van Verslag drop-down op verslagtype pagina met onderzoeksdoos ](assets/record-type-drop-down-on-record-type-page-with-search-box.png)

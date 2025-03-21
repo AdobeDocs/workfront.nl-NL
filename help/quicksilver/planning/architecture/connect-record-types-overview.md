@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '1518'
+source-wordcount: '1541'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ Overweeg het volgende over het verbinden van verslagtypes:
      >
      >Iedereen met de toestemmingen van de Mening of hoger aan de werkruimte kan de informatie in de raadplegingsgebieden, ongeacht hun toestemmingen of toegangsniveau in de toepassing van de verbonden objecten types of hun toestemmingen in andere werkruimten bekijken.
 
-     Gekoppelde recordvelden worden voorafgegaan door een relatiepictogram ![](assets/relationship-field-icon.png) .
+     De verbonden verslaggebieden worden voorafgegaan door het het gebiedspictogram van de verhouding ![ ](assets/relationship-field-icon.png).
 
      Gekoppelde velden worden voorafgegaan door een pictogram dat het veldtype aangeeft. Gekoppelde velden (of opzoekvelden) worden bijvoorbeeld voorafgegaan door pictogrammen die aangeven dat een veld een getal, alinea of datum is.
 
@@ -118,7 +118,7 @@ Afhankelijk van het aantal records dat u aan een verbonden recordveld kunt toevo
 
 ### Vele-aan-vele verbindingstype
 
-![](assets/many-to-many-connection-picker.png)
+![ Velen aan vele verbindingsplukker ](assets/many-to-many-connection-picker.png)
 
 Wanneer u een veel-op-veel verbinding tussen recordtypes creeert, kunt u veelvoudige verslagen op het verbindingsgebied van beide verslagtypes dan selecteren.
 
@@ -130,7 +130,7 @@ Wanneer u dit verbindingstype selecteert, kunt u het verbindingstype niet wijzig
 
 ### Een-op-veel verbindingstype
 
-![](assets/one-to-many-connection-picker.png)
+![ Één aan vele verbindingsplukker ](assets/one-to-many-connection-picker.png)
 
 
 Wanneer u een een-op-veel verbinding maakt tussen recordtypen, kunt u vervolgens meerdere records in het verbindingsveld in het huidige recordtype selecteren, maar met het bijbehorende verbindingsveld in het recordtype waarmee u verbinding maakt, kunt u slechts één record selecteren. Het verbonden verslaggebied dat automatisch op het tweede verslagtype wordt gecreeerd wordt automatisch geplaatst aan een vele-aan-één relatietype.
@@ -143,7 +143,7 @@ Wanneer u dit verbindingstype selecteert, kunt u het later alleen wijzigen in ee
 
 ### Vele-aan-één verbindingstype
 
-![](assets/many-to-one-connection-picker.png)
+![ Velen aan één verbindingsplukker ](assets/many-to-one-connection-picker.png)
 
 
 Wanneer u een veel-op-één verbinding tussen recordtypes creeert, kunt u elke verslag in het huidige verslagtype met slechts één verslag van het verbonden verslagtype verbinden. Het verbonden verslaggebied dat automatisch op het tweede verslagtype wordt gecreeerd wordt automatisch geplaatst aan een één-aan-vele relatietype.
@@ -156,7 +156,7 @@ Wanneer u dit verbindingstype selecteert, kunt u het later alleen wijzigen in ee
 
 ### Een-op-een verbindingstype
 
-![](assets/one-to-one-connection-picker.png)
+![ Één aan één verbindingsplukker ](assets/one-to-one-connection-picker.png)
 
 Wanneer u een één-op-één verbinding tussen verslagtypes creeert, in beide verslagtypes kunt u elke verslag slechts met één verslag van het andere verslagtype verbinden.
 

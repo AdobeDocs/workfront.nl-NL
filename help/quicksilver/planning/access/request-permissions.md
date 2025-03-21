@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '625'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,7 @@ Wanneer iemand met u een koppeling deelt naar een werkruimte of een weergave waa
 
    A **u hebt geen toegang** paginagtoningen om u mee te delen dat u geen toegang tot de mening of de werkruimte hebt.
 
-   ![](assets/request-access-to-view.png)
+   ![ toegang van het Verzoek tot mening ](assets/request-access-to-view.png)
 
 1. (Voorwaardelijk) als de gedeelde verbinding voor een mening voor een werkruimte is waar u toegang hebt, klik **Open met bestaande mening**. Als u toegang hebt tot de werkruimte, wordt de pagina met recordtypen geopend in de standaardweergave.
 
@@ -126,8 +126,8 @@ Wanneer iemand met u een koppeling deelt naar een werkruimte of een weergave waa
 
    Alle gebruikers met de machtiging Beheren voor de weergave of werkruimte ontvangen de volgende meldingen voor de toegangsaanvraag:
    * Een melding in de app
-     ![](assets/in-app-notification-for-access-request.png)
+     ![ In-app bericht voor toegangsverzoek ](assets/in-app-notification-for-access-request.png)
    * Een e-mailmelding
-     ![](assets/email-notification-for-access-request.png)
+     ![ E-mailbericht voor toegangsverzoek ](assets/email-notification-for-access-request.png)
 
 1. (Voorwaardelijk) Wanneer de weergave of werkruimtenmanager u machtigingen verleent aan de weergave of werkruimte, ontvangt u een e-mailmelding en een melding in de app met een bevestiging dat de machtiging is verleend. <!--check this - I was not able to test this, but Isk confirmed.-->

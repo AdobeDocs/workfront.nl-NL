@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 994594f2-a888-423a-bf66-0d14baf57c55
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -169,11 +169,11 @@ Alle andere Workfront-veldtypen worden niet ondersteund in Workfront Planning.
    Beweeg over de kopbal van om het even welke kolom, klik de naar beneden wijzende pijl na de gebiedsnaam, dan klik links **of** Tussenvoegsel rechts **om het nieuwe gebied toe te voegen.**
 1. Klik **toevoegen bestaand** in de laag-juiste hoek van het **Nieuwe gebied** tabel. <!--check UI - did they change this??-->
 
-   ![](assets/add-existing-fields-from-workfront-modal.png)
+   ![ voeg bestaande gebieden van modaal Workfront toe ](assets/add-existing-fields-from-workfront-modal.png)
 
 1. Typ de naam van een bestaand Workfront-veld in het zoekgebied en klik vervolgens op **+** wanneer het veld in de lijst wordt weergegeven.
 1. (Optioneel) Typ een ander veld en klik op **+** wanneer dit in de lijst wordt weergegeven.
-1. (Optioneel) Klik op het **pictogram ![](assets/filters-in-import-fields-icon.png) Filters** en werk vervolgens een of beide van de volgende velden bij:
+1. (Facultatief) klik de **pictogram van Filters ![ Filters op het pictogram van de de invoergebieden ](assets/filters-in-import-fields-icon.png), dan werk één of allebei van de volgende gebieden bij:**
 
    * Objecttype: selecteer een Workfront-objecttype waarvan u de velden wilt importeren.
    * Aangepast formulier: selecteer een of meer aangepaste formulieren in Workfront. U kunt een aangepast formulier selecteren zonder eerst een objecttype te selecteren.

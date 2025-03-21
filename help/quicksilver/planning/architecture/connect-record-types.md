@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '2341'
+source-wordcount: '2407'
 ht-degree: 0%
 
 ---
@@ -187,13 +187,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Klik op de kaart van een recordtype om de pagina met recordtypen te openen.
 1. Klik het **+** pictogram in de hoger-juiste hoek van de lijstmening, dan klik de **Nieuwe verbinding** tabel.
 
-   ![](assets/new-connection-tab-with-workfront-aem-options.png)
+   ![ Nieuw verbindingslusje met de opties van Workfront AEM ](assets/new-connection-tab-with-workfront-aem-options.png)
 
 1. Op het **type van Verslag** gebied, onderzoek naar een verslagtype, of selecteer één van het volgende:
 
    * Een ander recordtype uit de huidige werkruimte
 
-     ![](assets/many-to-many-connection-picker.png)
+     ![ Velen aan vele verbindingsplukker ](assets/many-to-many-connection-picker.png)
 
      >[!TIP]
      >
@@ -210,15 +210,15 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
      Voor informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/edit-record-types.md) uitgeven.
 
-     ![](assets/new-connection-allow-multiple-records-box.png)
+     ![ Nieuwe verbinding om veelvoudige archiefdoos ](assets/new-connection-allow-multiple-records-box.png) toe te staan
 
    * A **Project, Portfolio, Programma, Bedrijf**, of **Groep** van de **de Objecttypes van Workfront** sectie.
 
-     ![](assets/workfront-project-connection-selection.png)
+     ![ de selectie van de het projectverbinding van Workfront ](assets/workfront-project-connection-selection.png)
 
    * **Experience Manager Assets** van de **Toepassingen van Adobe** sectie.
 
-     ![](assets/aem-assets-connection-selection.png)
+     ![ de verbindingsselectie van AEM Assets ](assets/aem-assets-connection-selection.png)
 
 1. Werk de volgende gegevens bij:
 
@@ -233,7 +233,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
      Deze optie is alleen beschikbaar wanneer u records verbindt vanuit twee verschillende werkruimten of een record en een Adobe Experience Manager-asset-object.
 
-     ![](assets/new-connection-allow-multiple-records-box.png)
+     ![ Nieuwe verbinding om veelvoudige archiefdoos ](assets/new-connection-allow-multiple-records-box.png) toe te staan
 
    * **het type van Verbinding**: Selecteer één van de volgende opties om erop te wijzen hoeveel verslagen zij met en van kunnen verbinden:
 
@@ -244,7 +244,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
      Deze optie is alleen beschikbaar wanneer u records verbindt vanuit dezelfde werkruimte of een record en een Workfront-objecttype.
 
-     ![](assets/many-to-many-connection-picker.png)
+     ![ Velen aan vele verbindingsplukker ](assets/many-to-many-connection-picker.png)
 
      Voor meer informatie over verbindingstypes, zie [ Verbonden overzicht van verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
@@ -303,7 +303,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    Klik het **-** pictogram om gebieden uit het **Geselecteerde gebied van gebieden** te verwijderen
 
-   ![](assets/add-lookup-fields-for-another-maestro-record-type-box.png)
+   ![ voegt raadplegingsgebieden voor een ander verslagtype doos ](assets/add-lookup-fields-for-another-maestro-record-type-box.png) toe
 
    De waarden voor de verbonden velden worden automatisch ingevuld nadat u records of objecten hebt gekoppeld.
 
@@ -328,7 +328,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >
    >    U moet een aggregatorwaarde selecteren wanneer u opzoekdatumvelden toevoegt, als u wilt dat de velden beschikbaar zijn om toe te voegen als start- en einddatum voor de tijdlijn- en kalenderweergave. U kunt bijvoorbeeld de MAX of de MIN-aggregator selecteren voor een veld voor de opzoekdatum.
 
-   ![](assets/aggregator-drop-down-for-number-linked-field.png)
+   ![ daling van de Samenvoeger neer voor verbonden aantalgebied ](assets/aggregator-drop-down-for-number-linked-field.png)
 
    >[!NOTE]
    >
@@ -358,7 +358,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >* **UNIQUE**: $100.000
    >
 
-1. (Facultatief) gebruik het **onderzoek** pictogram ![](assets/search-icon.png) om naar een gebied te zoeken.
+1. (Facultatief) gebruik het **pictogram van het onderzoek ![ Onderzoek ](assets/search-icon.png) aan onderzoek naar een gebied.**
 
 1. Klik **voegt gebieden** toe om uw veranderingen te bewaren.
 
@@ -385,7 +385,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    * **geef gebied** uit: Werk de **Naam** en de **Beschrijving** informatie van het gebied bij.
    * **geeft raadplegingsgebieden** uit: Voeg of verwijder om het even welke verbonden gebieden van het verslag toe.
 
-   ![](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
+   ![ geef gebied en raadplegingsgebieden drop-down menu in lijstkolom uit ](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
 
    Volg de aanwijzingen in bovenstaande stappen 16-17 om opzoekvelden toe te voegen of te verwijderen. <!--ensure these step numbers stay accurate-->
 

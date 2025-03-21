@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
@@ -172,12 +172,12 @@ OLD:
 1. (Facultatief) ClicK **toon minder** om het aantal werkruimten te beperken die op het scherm tonen.
 1. Voer een van de volgende handelingen uit om een werkruimte te verwijderen:
 
-   * Beweeg over de werkruimtekaart, dan klik **Meer** menu ![](assets/more-menu.png) in de hoger-juiste hoek van de kaart
+   * Beweeg over de werkruimtekaart, dan klik **Meer** menu ![ Meer menu ](assets/more-menu.png) in de hoger-juiste hoek van de kaart
 of
-   * Klik een werkruimtekaart om de werkruimte te openen, dan klik **Meer** menu ![](assets/more-menu.png) rechts van de werkruimtenaam.
+   * Klik een werkruimtekaart om de werkruimte te openen, dan klik **Meer** menu ![ Meer menu ](assets/more-menu.png) rechts van de werkruimtenaam.
 1. Klik **Schrapping**.
 
-   ![](assets/permanently-delete-workspace-confirmation.png)
+   ![ permanent schrapt werkruimtebevestiging ](assets/permanently-delete-workspace-confirmation.png)
 
 1. Het type &quot;**schrapt**&quot;in de verstrekte ruimte, dan klikt **permanent schrapt**. Dit is niet hoofdlettergevoelig.
 

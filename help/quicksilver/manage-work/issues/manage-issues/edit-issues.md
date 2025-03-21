@@ -8,20 +8,24 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '2551'
+source-wordcount: '2522'
 ht-degree: 0%
 
 ---
 
 # Problemen bewerken
 
+<!--Audited: 03/2025-->
+
 U kunt informatie bewerken over uitgaven die u hebt gemaakt of die andere gebruikers hebben gemaakt als zij de problemen met u hebben gedeeld.
 
 U kunt één uitgave bewerken of u kunt uitgaven in een lijst bewerken. Voor informatie over het uitgeven van kwesties in een lijst, zie [ kwesties in een lijst ](../../../manage-work/issues/manage-issues/edit-issues-in-a-list.md) uitgeven.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -30,19 +34,21 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Aanvraag of hoger</p> <p>De vergunning van het overzicht of hoger om kwesties in de sectie van Kwesties van een taak of een project uit te geven</p> </td> 
+   <td> <p>Nieuwe licentie:</p>
+   <ul><li>Medewerker of hoger</li>
+   <li>Licht of hoger om kwesties in de sectie van Kwesties van een taak of een project uit te geven</li></ul>
+   <p>Huidige licentie:</p>
+  <ul><li>Aanvraag of hoger</li> <li>Revisie of hoger om problemen in de sectie Problemen van een taak of project te bewerken</li></ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Toegangsniveau*</td> 
-   <td> <p>Toegang tot problemen bewerken</p> <p><b>OPMERKING</b>
-
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over toegang tot kwesties in uw Niveau van de Toegang, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref"> Toegang van de Verlening tot kwesties </a>. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen. </p> </td>
-</tr> 
+   <td role="rowheader">Toegangsniveau</td> 
+   <td> <p>Toegang tot problemen bewerken</p>  </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
    <td> <p>Contribute-machtigingen voor een uitgave om de volgende velden in het gebied Details te bewerken: </p>
@@ -56,7 +62,9 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Beperkingen bij het bewerken van problemen
 
@@ -254,14 +262,9 @@ U kunt een uitgave bewerken met de gebieden Probleem bewerken of Details van pro
       <tr> 
       <td role="rowheader">Deze oplossingen</td> 
       <td>De gekoppelde naam van het probleem dat wordt voltooid wanneer het probleem dat u opent, is opgelost.  </td> 
-     </tr>
-
-
-   </tbody> 
+     </tr> 
+    </tbody> 
    </table>
-
-
-
 
 
 1. Klik **sparen** of blijf het uitgeven van de volgende secties.

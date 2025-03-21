@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '733'
 ht-degree: 0%
 
 ---
@@ -166,14 +166,14 @@ For more information about access requirements, see [Access requirements in Work
 1. (Facultatief) ClicK **toon minder** om het aantal werkruimten te beperken die op het scherm tonen.
 1. Voer een van de volgende handelingen uit om een werkruimte te bewerken:
 
-   * Beweeg over de werkruimtekaart, dan klik **Meer** menu ![](assets/more-menu.png) in de hoger-juiste hoek van de kaart
+   * Beweeg over de werkruimtekaart, dan klik **Meer** menu ![ Meer menu ](assets/more-menu.png) in de hoger-juiste hoek van de kaart
 of
-   * Klik een werkruimtekaart om de werkruimte te openen, dan klik **Meer** menu ![](assets/more-menu.png) rechts van de werkruimtenaam.
+   * Klik een werkruimtekaart om de werkruimte te openen, dan klik **Meer** menu ![ Meer menu ](assets/more-menu.png) rechts van de werkruimtenaam.
 1. Klik **uitgeven**.
 
    De **geeft werkruimte** vakvertoningen uit.
 
-   ![](assets/edit-workspace-box.png)
+   ![ geef werkruimtedoos ](assets/edit-workspace-box.png) uit
 
 1. Werk de volgende informatie in **uit geeft werkruimte** doos:
 
@@ -186,16 +186,16 @@ of
 1. (Optioneel) Voer een van de volgende handelingen uit om een nieuwe werkruimtesectie toe te voegen:
 
    * Klik **toevoegen sectie** bij de bodem van de werkruimte.
-   * Beweeg over de naam van een sectie en klik **Meer** menu ![](assets/more-menu.png), dan klik **toevoegen sectie hierboven** of **voeg hieronder sectie toe**.
+   * Beweeg over de naam van een sectie en klik **Meer** menu ![ Meer menu ](assets/more-menu.png), dan klik **sectie toevoegen boven** of **sectie toevoegen hieronder**.
 
 1. (Optioneel) Voer een van de volgende handelingen uit om de locatie van een sectie te wijzigen:
 
-   * Beweeg over de naam van een sectie en klik **greep** pictogram ![](assets/grab-icon.png), dan belemmering en laat vallen het in de juiste vlek.
-   * Beweeg over de naam van een sectie en klik **Meer** menu ![](assets/more-menu.png), dan klik **Beweging omhoog** of **Beweging neer**. De sectie wordt omhoog of omlaag verplaatst binnen de werkruimte.
+   * Beweeg over de naam van een sectie en klik het **greep** pictogram ![ pictogram van het Grab ](assets/grab-icon.png), dan belemmering en laat vallen het in de juiste vlek.
+   * Beweeg over de naam van een sectie en klik **Meer** menu ![ Meer menu ](assets/more-menu.png), dan klik omhoog **** of **Beweging neer**. De sectie wordt omhoog of omlaag verplaatst binnen de werkruimte.
 
 1. (Optioneel) Ga als volgt te werk om een sectie van een werkruimte te verwijderen:
 
-   1. Beweeg over de naam van een sectie, dan klik **Meer** menu ![](assets/more-menu.png), dan klik **Schrapping**. <!--add screen shot when UI is final?-->
+   1. Beweeg over de naam van een sectie, dan klik **Meer** menu ![ Meer menu ](assets/more-menu.png), dan klik **Schrapping**. <!--add screen shot when UI is final?-->
    1. Selecteer een nieuwe sectie om alle verslagtypes aan het te bewegen, dan **Schrapping** te klikken. <!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
 
       Alle recordtypen worden naar de selectiesectie verplaatst en de sectie wordt verwijderd.
@@ -204,17 +204,17 @@ of
 
    Voor informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
 
-1. (Facultatief) Beweeg over een kaart van het verslagtype, klik **Meer** menu ![](assets/more-menu.png) in de hoger-juiste hoek, dan klik **geef** uit om de verschijning van een verslagtype te wijzigen.
+1. (Optioneel) Beweeg over een kaart van het verslagtype, klik **Meer** menu ![ Meer menu ](assets/more-menu.png) in de hoger-juiste hoek, dan klik **uitgeven** om de verschijning van een verslagtype te wijzigen.
 
    Voor informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/edit-record-types.md) uitgeven.
 
-1. (Facultatief) Beweeg over een kaart van het verslagtype, klik **Meer** menu ![](assets/more-menu.png) in de hoger-juiste hoek, dan klik **Schrapping** om een verslagtype te schrappen.
+1. (Facultatief) Beweeg over een kaart van het verslagtype, klik **Meer** menu ![ Meer menu ](assets/more-menu.png) in de hoger-juiste hoek, dan klik **Schrapping** om een verslagtype te schrappen.
 
    Voor informatie, zie [ verslagtypes van Schrapping ](/help/quicksilver/planning/architecture/delete-record-types.md).
 
 1. (Optioneel) Klik op een opnametype om het te slepen en neer te zetten op een nieuwe locatie. U kunt recordtypen van de ene werkruimtesectie naar de andere slepen.
 
-   ![](assets/drag-and-drop-record-types-in-a-workspace.png)
+   ![ belemmering en laat vallen verslagtypes in een werkruimte ](assets/drag-and-drop-record-types-in-a-workspace.png)
 
 1. (Facultatief) klik **Aandeel** in de hoger-juiste hoek van de werkruimte om de werkruimte met anderen te delen.
 

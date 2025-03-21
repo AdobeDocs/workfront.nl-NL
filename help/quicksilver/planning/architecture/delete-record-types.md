@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -186,9 +186,9 @@ OLD:
 1. Voer een van de volgende handelingen uit:
 
    * Beweeg over de kaart van het verslagtype, klik **Meer** menu, toen **Schrapping**.
-   * Klik de kaart voor het verslagtype dat u, en van de verslagtype pagina wilt schrappen, **Meer** menu ![](assets/more-menu.png) aan het recht van de verslagtype naam klikken, dan **Schrapping** klikken.
+   * Klik de kaart voor het verslagtype dat u, en van de verslagtype pagina wilt schrappen, **Meer** menu ![ Meer menu ](assets/more-menu.png) aan het recht van de verslagtype naam klikken, dan **Schrapping**.
 
-   ![](assets/permanently-delete-record-type-confirmation.png)
+   ![ permanent schrapt verslagtype bevestiging ](assets/permanently-delete-record-type-confirmation.png)
 
 1. Het type **schrapt** in de bevestigingsdoos, dan klikt **permanent schrapt**. Dit is niet hoofdlettergevoelig.
 

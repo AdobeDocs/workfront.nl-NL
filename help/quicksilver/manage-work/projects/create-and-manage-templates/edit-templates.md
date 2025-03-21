@@ -6,9 +6,9 @@ description: U kunt projectmalplaatjes uitgeven om op veranderingen in projectpr
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '4854'
+source-wordcount: '4877'
 ht-degree: 0%
 
 ---
@@ -1106,9 +1106,16 @@ Het toevoegen van de volgende punten aan een malplaatje is identiek aan het toev
 
   Voor meer informatie over het toevoegen van uitgaven, zie [ projectuitgaven beheren ](../../../manage-work/projects/project-finances/manage-project-expenses.md).
 
+* Wachtrij
+
+  Voor informatie over het toevoegen van de Details van de Rij aan een project of een malplaatje, zie [ een Rij van het Verzoek ](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
+
 * Onderwerpgroepen en onderwerpen in de wachtrij
 
-  Voor meer informatie over het toevoegen van de Groepen van het Onderwerp en de Onderwerpen van de Rij aan een project of een malplaatje, zie [ een Rij van het Verzoek ](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
+  Voor informatie over het toevoegen van de Groepen van het Onderwerp en de Onderwerpen van de Rij aan een project of een malplaatje, zie de volgende artikelen:
+
+   * [Onderwerpgroepen maken](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
+   * [Werkvoorraadonderwerpen maken](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
 
 U kunt de volgende punten aan de taken in het malplaatje toevoegen:
 
