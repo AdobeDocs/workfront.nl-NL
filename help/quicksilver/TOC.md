@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 92efd05bc97e2e957825cbe7a5ca6d43ca795d6b
+source-git-commit: 8d8282e095c902c0e6b2f51585ac0d4ac9b1e177
 workflow-type: tm+mt
-source-wordcount: '13071'
+source-wordcount: '13099'
 ht-degree: 0%
 
 ---
@@ -1710,6 +1710,10 @@ ht-degree: 0%
          * [Vragen over projectactiviteiten](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-activity-queries.md)
          * [ de vragen van de de treemap van het Project ](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md)
          * [Activiteiten door teamquery&#39;s](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/team-queries.md)
+      * Tips, trucs, en het Oplossen van problemen voor Gegevens verbinden {#troubleshooting-data-connect}
+         * [Tips, trucs en probleemoplossing voor Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/tips-tricks-troubleshooting-data-connect.md)
+         * [Tableau Desktop kan geen verbinding tot stand brengen](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/cannot-load-data.md)
+         * [Power BI-hulpprogramma kan geen verbinding maken met het opgegeven wachtwoord](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/cannot-connect-with-provided-password.md)
 * Bronnen beheren {#manage-resources}
    * [Bronnen beheren](resource-mgmt/manage-resources.md)
    * Bronbeheer {#resource-management}
