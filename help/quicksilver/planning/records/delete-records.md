@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '737'
 ht-degree: 0%
 
 ---
@@ -124,18 +124,18 @@ U kunt een record uit de volgende gebieden verwijderen:
 1. Voer een van de volgende handelingen uit:
 
    * Klik in een tabelweergave op de naam van een record.
-   * Van de mening van de Lijst, houd over de naam van een verslag, dan klik **Meer** menu ![](assets/more-menu.png), dan klik **Mening**
+   * Van de mening van de Lijst, houd over de naam van een verslag, dan klik **Meer** menu ![ Meer menu ](assets/more-menu.png), dan klik **Mening**
 
-     ![](assets/contextual-menu-for-record-row.png)
+     ![ Contextueel menu voor verslagrij ](assets/contextual-menu-for-record-row.png)
    * Klik in een tijdlijnweergave op een recordbalk.
 
    De recordpagina wordt geopend.
 
-1. Klik **Meer** menu ![](assets/more-menu.png) aan het recht van de verslagnaam, dan klik **Schrapping**, dan **Schrapping** opnieuw om te bevestigen.
+1. Klik het **Meer** menu ![ Meer menu ](assets/more-menu.png) aan het recht van de verslagnaam, dan klik **Schrapping**, dan **Schrapping** opnieuw om te bevestigen.
 
-   ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
+   ![ Meer menuopties van de pagina van verslagdetails ](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 De record wordt verwijderd.
-1. (Facultatief en voorwaardelijk) als u het verslag in het milieu van de Voorproef schrapt, ga naar de lijstmening van de verslagpagina, en klik **ongedaan maken** pictogram ![](assets/undo-icon.png) in de hoger-juiste hoek van de mening, dan klik **onlangs geschrapt** om de geschrapte verslagen terug te krijgen.
+1. (Facultatief en voorwaardelijk) als u het verslag in het milieu van de Voorproef schrapt, naar de lijstmening van de verslagpagina gaat, en **klikt ongedaan maken** pictogram ![ pictogram ](assets/undo-icon.png) in de hoger-juiste hoek van de mening, dan klik **onlangs geschrapt** om de geschrapte verslagen terug te krijgen.
 
 Voor informatie over het terugkrijgen van geschrapte verslagen, zie [ Recover geschrapte verslagen ](/help/quicksilver/planning/records/restore-deleted-records.md).
 
@@ -156,17 +156,17 @@ Voor informatie over het terugkrijgen van geschrapte verslagen, zie [ Recover ge
 1. Voer een van de volgende handelingen uit:
 
    * Klik een verslagrij met de rechtermuisknop aan, dan klik **Schrapping**.
-   * Klik **Meer** menu ![](assets/more-menu.png) aan het recht van de verslagnaam, dan klik **Schrapping**.
+   * Klik **Meer** menu ![ Meer menu ](assets/more-menu.png) aan het recht van de verslagnaam, dan klik **Schrapping**.
 
-     ![](assets/contextual-menu-for-record-row.png)
+     ![ Contextueel menu voor verslagrij ](assets/contextual-menu-for-record-row.png)
 
-   * Klik het **Open detailleert** pictogram ![](assets/open-details-icon-in-table-name-field.png) om de doos met de gedetailleerde informatie van het verslag te openen, en klik **Meer** ![](assets/more-menu.png) rechts van de verslagnaam, dan **Schrapping**.
+   * Klik het **Open detailleert** pictogram ![ Open detailspictogram op het gebied van de lijstnaam ](assets/open-details-icon-in-table-name-field.png) om de doos met de gedetailleerde informatie van het verslag te openen, en **Meer** ![ ](assets/more-menu.png) aan het recht van de verslagnaam, dan **Schrapping** te klikken.
 
    De record wordt verwijderd.
 
 1. (Optioneel) Voer een van de volgende handelingen uit om een record ongedaan te maken of opnieuw te verwijderen:
 
-   * Klik **ongedaan maken** pictogram ![](assets/undo-icon.png), dan **onlangs geschrapt** om de geschrapte verslagen terug te krijgen. Voor informatie over het terugkrijgen van geschrapte verslagen, zie [ Recover geschrapte verslagen ](/help/quicksilver/planning/records/restore-deleted-records.md).
+   * Klik **ongedaan maken** pictogram ![ pictogram ](assets/undo-icon.png) ongedaan maken, toen **onlangs geschrapt** om de geschrapte verslagen terug te krijgen. Voor informatie over het terugkrijgen van geschrapte verslagen, zie [ Recover geschrapte verslagen ](/help/quicksilver/planning/records/restore-deleted-records.md).
    * Gebruik de volgende sneltoetsen om een record ongedaan te maken of opnieuw te verwijderen:
 
       * CTRL + Z ( ⌘ + Z voor Mac) om het verwijderen van een record ongedaan te maken

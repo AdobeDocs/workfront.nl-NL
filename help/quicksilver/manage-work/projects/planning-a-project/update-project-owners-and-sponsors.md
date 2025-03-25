@@ -6,9 +6,9 @@ description: Als u een project maakt in Adobe Workfront, wordt u automatisch ing
 author: Alina
 feature: Work Management
 exl-id: 10421cab-237a-49a5-bb5b-5be510dc4c46
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,7 @@ Wanneer u een gebruiker als Eigenaar van het Project van een project toevoegt, g
 
    De eigenaar van het Project werkt in de projectkopbal en in het gebied van de Details van het Project bij.
 
-   ![](assets/project-stakeholders-owner-highlighted-nwe-350x149.png)
+   ![ benadrukte de aandeelhouders van het Project eigenaar ](assets/project-stakeholders-owner-highlighted-nwe-350x149.png)
 
 ## De projectsponsor van een project bijwerken
 
@@ -131,4 +131,4 @@ Wanneer u een gebruiker als projectsponsor van een project toevoegt, geeft Workf
 
    De projectsponsor werkt bij in het gebied Projectdetails.
 
-   ![](assets/project-stakeholders-sponsor-highlighted-nwe-350x147.png)
+   ![ benadrukte de commentaarsponsor van het Project ](assets/project-stakeholders-sponsor-highlighted-nwe-350x147.png)

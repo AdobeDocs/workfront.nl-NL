@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2fed8c96-0c9c-4662-a9c4-66dae507ff2a
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '605'
 ht-degree: 0%
 
 ---
@@ -175,13 +175,13 @@ Alle records van het geselecteerde type worden in de weergave weergegeven.
 
 1. Voer een van de volgende handelingen uit:
 
-   * Beweeg over de naam van een verslag dan het **Meer** menu gealigneerd met de verslagnaam, dan klik het **Dubbele** pictogram ![](assets/duplicate-icon-gray.png).
+   * Beweeg over de naam van een verslag dan het **Meer** menu gealigneerd met de verslagnaam, dan klik het **Dubbele** pictogram ![ dubbele grijze pictogram ](assets/duplicate-icon-gray.png).
 
-     ![](assets/more-menu-from-record-in-table-view.png)
+     ![ Meer menu van verslag in lijstmening ](assets/more-menu-from-record-in-table-view.png)
 
-   * Selecteer een verslag, dan klik **Dupliceer** pictogram ![](assets/duplicate-icon-white-and-blue.png) in de toolbar bij de bodem van de pagina.
+   * Selecteer een verslag, dan klik het **pictogram ![ Dupliceer pictogram ](assets/duplicate-icon-white-and-blue.png) in de toolbar bij de bodem van de pagina wit en blauw**.
 
-     ![](assets/duplicate-icon-in-toolbar-in-table-view.png)
+     ![ Dupliceer pictogram in toolbar in lijstmening ](assets/duplicate-icon-in-toolbar-in-table-view.png)
 
    Onder de oorspronkelijke record wordt een identieke record met dezelfde naam gemaakt. Alle velden van de nieuwe record worden gevuld met dezelfde informatie als in de oorspronkelijke record.
 

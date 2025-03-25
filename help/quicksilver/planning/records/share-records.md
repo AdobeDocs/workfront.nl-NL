@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '517'
 ht-degree: 0%
 
 ---
@@ -196,9 +196,9 @@ De werkruimte die u het laatst hebt geopend.
 
    of
 
-   Beweeg over de naam van een verslag, klik **Meer** menu ![](assets/more-menu.png), dan klik **verbinding van het Exemplaar**.
+   Beweeg over de naam van een verslag, klik **Meer** menu ![ Meer menu ](assets/more-menu.png), dan klik **verbinding van het Exemplaar**.
 
-   ![](assets/contextual-menu-for-record-row.png)
+   ![ Contextueel menu voor verslagrij ](assets/contextual-menu-for-record-row.png)
 
    De koppeling wordt naar het klembord gekopieerd.
 

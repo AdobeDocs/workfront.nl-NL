@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
@@ -114,14 +114,14 @@ De recordtypepagina wordt geopend en alle records van dat type worden weergegeve
 1. Klik vanuit een willekeurige weergave op de naam van een record.
 
    De pagina van de record wordt geopend. Het gebied Opmerkingen wordt standaard in het rechtervenster geopend.
-1. Klik **tonen het pictogram van de Geschiedenis** ![](assets/show-history-icon.png). Alle wijzigingen die in de velden van de record zijn aangebracht, worden in het rechterdeelvenster weergegeven, te beginnen met de meest recente.
-1. (Facultatief) klik het **pictogram van de Geschiedenis van de Verbergen** ![](assets/hide-history-icon.png) om het juiste paneel te sluiten.
+1. Klik **tonen het pictogram van de Geschiedenis** ![ tonen geschiedenispictogram ](assets/show-history-icon.png). Alle wijzigingen die in de velden van de record zijn aangebracht, worden in het rechterdeelvenster weergegeven, te beginnen met de meest recente.
+1. (Facultatief) klik het **pictogram van de Geschiedenis van de Verbergen** ![ het geschiedenispictogram van de Verbergen ](assets/hide-history-icon.png) om het juiste paneel te sluiten.
 
 ## Overwegingen bij de sectie Historie
 
 U kunt de wijzigingen die zijn aangebracht in recordvelden, bekijken in de sectie Historie van het rechterdeelvenster van de pagina van een record.
 
-![](assets/history-area-in-comments.png)
+![ gebied van de Geschiedenis in Commentaren ](assets/history-area-in-comments.png)
 
 * Workfront Planning registreert de volgende informatie in de sectie van de Geschiedenis:
 

@@ -8,9 +8,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '1800'
+source-wordcount: '1811'
 ht-degree: 0%
 
 ---
@@ -200,7 +200,7 @@ Selecteer een van de volgende handelingen:
    Een verbonden gebied voor het geselecteerde verslagtype wordt ook gecreeerd op het originele verslagtype van waar u de automatisering vormt.
 1. (Facultatief en voorwaardelijk) als u selecteerde om een voorwerp van Workfront tot stand te brengen en geen verbindingsgebied voor het geselecteerde objecten type van Workfront hebben, klik het vraagteken aan het recht van het **Verbonden gebied waar het &lt; objecten van Workfront typenaam >** gebied wordt gecreeerd, en klik **** pictogram ![ creeer een pictogram van het verbindingsgebied ](assets/create-a-connection-field-icon.png) om een verbindingsgebied toe te voegen.
 
-   ![](assets/question-mark-icon-to-add-connected-fields-in-automations-with-workfront.png)
+   ![ het markeringspictogram van de Vraag om verbonden gebieden in automatisering met Workfront toe te voegen ](assets/question-mark-icon-to-add-connected-fields-in-automations-with-workfront.png)
 
    Het nieuwe gebied wordt automatisch gecreeerd en genoemd **Verbonden &lt; de objecten van Workfront naam >**. Wanneer bijvoorbeeld een veld met een portfolioverbinding wordt gemaakt voor de record, krijgt deze de naam &quot;Verbonden portfolio&quot;.
 

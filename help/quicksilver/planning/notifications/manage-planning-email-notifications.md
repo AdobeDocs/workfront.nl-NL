@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
@@ -163,7 +163,7 @@ OLD:
 
 1. (Voorwaardelijk en optioneel) Nadat iemand u in een opmerking op een record heeft gelabeld, gaat u naar het e-mailbericht dat u op de hoogte brengt van de tag en de opmerking. De afzender van de e-mail is Adobe Experience Cloud.
 
-   ![](assets/email-notification-example.png)
+   ![ E-mail- berichten voorbeeld ](assets/email-notification-example.png)
 
 1. (Facultatief) klik het bericht in het **Workfront** vakje binnen e-mail.
 
@@ -195,6 +195,6 @@ nadat u een verzoek hebt ingediend of nadat een door u ingediend verzoek is goed
 
 1. (Facultatief) klik **Open verzoek**. Dit opent het verzoek in de Planning van Workfront.
 
-1. Klik het **pictogram van Meldingen** ![](assets/notifications-area-icon-unified-shell.png) in de hoger-juiste hoek van het scherm om tot de **pagina van Meldingen** toegang te hebben.
+1. Klik het **pictogram van de Meldingen ![ pictogram van het het gebiedspictogram van ](assets/notifications-area-icon-unified-shell.png) in de hoger-juiste hoek van het scherm** **pagina van Meldingen toegang te hebben.**
 
    Voor informatie over het beheren van uw berichten van de Planning van Workfront, zie [ de het berichtvoorkeur van de Planning van Adobe Workfront beheren ](/help/quicksilver/planning/notifications/manage-notification-preferences.md).

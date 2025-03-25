@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: 6e772ed53cca2fe3756fc15b715693b8b1fbef34
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '780'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ U kunt de AI-assistent vinden op de volgende gebieden van de Workfront-planning:
 
 ## De AI-assistent openen in het planningsgebied
 
-1. Login aan Workfront, dan klik het **Belangrijkste pictogram van het Menu** ![](assets/dots-main-menu.png) in de hoger-juiste hoek van het scherm, of het **Belangrijkste pictogram van het Menu** ![](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar.
+1. Login aan Workfront, dan klik het **pictogram van het Belangrijkste Menu ![ het belangrijkste menu van Dots ](assets/dots-main-menu.png) in de hoger-juiste hoek van het scherm, of het** Belangrijkste **pictogram ![ het belangrijkste menu van Lijnen ](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar.**
 
 . Klik **Planning**. Het planningsgebied wordt geopend.
 
@@ -88,11 +88,11 @@ U kunt de AI-assistent vinden op de volgende gebieden van de Workfront-planning:
 
 1. Klik het **AI Hulppictogram** in de hoger-juiste hoek van het scherm in de globale navigatiebar of in de hoger-juiste hoek van de voorproef of de pagina van het verslag.
 
-   ![](assets/ai-assistant-icon-highlighted.png)
+   ![ AI Hulp pictogram ](assets/ai-assistant-icon-highlighted.png)
 
 1. Typ in de beschikbare ruimte opdrachten voor de AI-assistent en klik vervolgens op Enter wanneer u klaar bent.
 
-   ![](assets/ai-assistant-panel-with-empty-command-box.png)
+   ![ AI Medewerker paneel met lege beveldoos ](assets/ai-assistant-panel-with-empty-command-box.png)
 
    U kunt bijvoorbeeld een van de volgende typen:
 

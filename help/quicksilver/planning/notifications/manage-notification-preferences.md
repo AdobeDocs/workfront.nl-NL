@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '513'
 ht-degree: 0%
 
 ---
@@ -169,13 +169,13 @@ OLD:
 ## Meldingsvoorkeuren beheren
 
 1. Meld u aan bij Workfront met uw Adobe Experience Cloud-referenties.
-1. Klik het **pictogram van het 0} rekeningsmenu ![](assets/account-menu-icon-on-experience-cloud.png) in het hoger-recht van het scherm, dan klik** Voorkeur **.**
+1. Klik het **pictogram ![ het menupictogram van de Rekening op Experience Cloud ](assets/account-menu-icon-on-experience-cloud.png) in het hoger-recht van het scherm, dan klik** Voorkeur **.**
 1. Onder de **sectie van Meldingen**, klik **Workfront**.
 1. Selecteer de meldingen die u wilt ontvangen.
 of
 Schakel de meldingen uit die u niet meer wilt ontvangen.
 
-   ![](assets/adobe-experience-cloud-notifications-panel-for-workfront-planning.png)
+   ![ Adobe Experience Cloud berichten paneel voor de Planning van Workfront ](assets/adobe-experience-cloud-notifications-panel-for-workfront-planning.png)
 1. De volgende berichten zijn beschikbaar voor Workfront:
 
    * **Vermeldingen**: U ontvangt een bericht wanneer iemand u in een commentaar in de Planning van Workfront etiketteert

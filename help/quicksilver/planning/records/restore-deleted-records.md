@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8b6df633-eb05-4d3e-bfe6-76cedabdb76d
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -109,11 +109,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 ## Verwijderde records herstellen
 
 1. Ga naar de pagina met recordtypen waarop u records hebt verwijderd.
-1. Klik **ongedaan maken** pictogram ![](assets/undo-icon.png) in de hoger-juiste hoek van om het even welke mening van het verslagtype, dan klik onlangs geschrapt ****.
+1. Klik **ongedaan maken** pictogram ![ pictogram ](assets/undo-icon.png) in de hoger-juiste hoek van om het even welke verslagtype paginamening, dan klik onlangs geschrapt ****.
 
    De **onlangs geschrapte** vakvertoningen.
 
-   ![](assets/recently-deleted-box.png)
+   ![ onlangs geschrapt doos ](assets/recently-deleted-box.png)
 
 1. Selecteer de verslagen u wilt schrappen, dan **herstellen** > **herstellen**. U kunt meerdere records selecteren.
 

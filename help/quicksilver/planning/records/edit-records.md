@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '2149'
+source-wordcount: '2246'
 ht-degree: 0%
 
 ---
@@ -208,7 +208,7 @@ Voor meer informatie, zie [ verslagmeningen ](/help/quicksilver/planning/views/m
    De records die aan het geselecteerde recordtype zijn gekoppeld, worden in de tabelweergave weergegeven.
 1. Klik in de rij van een record om informatie over de record inline te bewerken.
 
-   ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
+   ![ geef verslagparagraafgebied met het formatteren van lijstmening ](assets/edit-record-paragraph-field-with-formatting-table-view.png) uit
 
    >[!TIP]
    >
@@ -226,7 +226,7 @@ Voor meer informatie, zie [ verslagmeningen ](/help/quicksilver/planning/views/m
    * Een lijst met opsommingstekens toevoegen
    * Een genummerde lijst toevoegen
 
-   ![](assets/rich-text-toolbar-on-paragraph-field.png)
+   ![ rijke teksttoolbar op paragraafgebied ](assets/rich-text-toolbar-on-paragraph-field.png)
 
 1. (Optioneel) Dubbelklik op een verbonden recordveld om gekoppelde records of objecten aan een andere record toe te voegen. Voor meer informatie, zie [ verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md).
 1. De pers **gaat** op uw toetsenbord binnen of klikt buiten een rij om uw veranderingen te bewaren. De wijzigingen worden automatisch opgeslagen. A **de Bewaarde** indicatorvertoningen kort in de hoger-juiste hoek van de lijstmening om te tonen dat de veranderingen werden bewaard.
@@ -240,7 +240,7 @@ Voor meer informatie, zie [ verslagmeningen ](/help/quicksilver/planning/views/m
    * Kopieer de informatie uit één cel en selecteer vervolgens meerdere cellen en plak dezelfde informatie in meerdere cellen. U kunt meerdere cellen selecteren en dezelfde gegevens in meerdere cellen van aangrenzende rijen en kolommen plakken.
    * Selecteer de rechterbenedenhoek van een bestaande cel die de informatie bevat die u wilt kopiëren, en sleep deze vervolgens over de aangrenzende cellen waar u dezelfde informatie wilt plakken. Alle cellen moeten hetzelfde type informatie bevatten.
 
-     ![](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
+     ![ Dragable laag-juiste hoek voor exemplaardeeg in lijstmening ](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
 
    <div class="preview">
 
@@ -293,11 +293,11 @@ Voor meer informatie, zie [ verslagmeningen ](/help/quicksilver/planning/views/m
 
    of
 
-   Van de lijstmening, klik het **Open detailleert** pictogram ![](assets/open-details-icon-in-table-name-field.png) in de eerste kolom. De voorvertoning van de record wordt in de weergave geopend.
+   Van de lijstmening, klik het **Open pictogram van details** pictogram ![ Open detailspictogram op het gebied van de lijstnaam ](assets/open-details-icon-in-table-name-field.png) in de eerste kolom. De voorvertoning van de record wordt in de weergave geopend.
 
    <div class="preview">
 
-   ![](assets/details-box.png)
+   ![ doos van Details ](assets/details-box.png)
 
    </div>
 
@@ -316,11 +316,11 @@ Voor meer informatie, zie [ verslagmeningen ](/help/quicksilver/planning/views/m
 
 1. (Facultatief) klik **omslag** toevoegen om een omslagbeeld aan het verslag toe te voegen. Voor meer informatie, zie [ een omslagbeeld aan een verslag ](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) toevoegen.
 
-1. (Facultatief) Beweeg over het duimnagelpictogram, dan klik **Meer** ![](assets/more-menu.png) > **geef duimnagel** uit om een duimnagelbeeld toe te voegen. Voor informatie, zie [ een duimnagel aan een verslag ](/help/quicksilver/planning/records/add-thumbnails-to-records.md) toevoegen.
+1. (Facultatief) Beweeg over het duimnagelpictogram, dan klik **Meer** ![ Meer menu ](assets/more-menu.png) > **geef duimnagel** uit om een duimnagelbeeld toe te voegen. Voor informatie, zie [ een duimnagel aan een verslag ](/help/quicksilver/planning/records/add-thumbnails-to-records.md) toevoegen.
 
    Workfront slaat uw wijzigingen automatisch op.
 
-1. <span class="preview"> (Facultatief) klik de **indicator in real time** ![](assets/real-time-indicator-icon.png) in de hoger-juiste hoek van de de voorproefdoos van het verslag, dan laat **toe tonen samenwerkers** het plaatsen om de gebieden te benadrukken die door anderen in real time worden uitgegeven.
+1. <span class="preview"> (Facultatief) klik de **indicator in real time** ![ in real time indicatorpictogram ](assets/real-time-indicator-icon.png) in de hoger-juiste hoek van de de voorproefdoos van het verslag, dan laat **Medewerkers** toe plaatsen tonen om de gebieden te benadrukken die door anderen in real time worden uitgegeven.
 
    De namen en avatars van alle gebruikers die tot het verslag tezelfdertijd toegang hebben tonen in dit gebied.
 
@@ -328,13 +328,13 @@ Voor meer informatie, zie [ verslagmeningen ](/help/quicksilver/planning/views/m
 
    <div class="preview">
 
-   ![](assets/real-time-indicator-expanded-record-preview-box.png)
+   ![ re-time indicator uitgevouwen verslagvoorproefdoos ](assets/real-time-indicator-expanded-record-preview-box.png)
 
    </div>
 
-1. (Optioneel) Klik op het **menu ![](assets/export-icon-in-record-details-page.png) Exporteren** om de details van het record te exporteren. Voor informatie, zie [ de details van een verslag ](/help/quicksilver/planning/records/export-the-record-page.md) uitvoeren.
+1. (Facultatief) klik het **menu van de Uitvoer ![ pictogram van de Uitvoer in verslagdetailpagina ](assets/export-icon-in-record-details-page.png) om de details van het verslag uit te voeren.** Voor informatie, zie [ de details van een verslag ](/help/quicksilver/planning/records/export-the-record-page.md) uitvoeren.
 
-1. (Facultatief) klik **Open in nieuw lusje** pictogram ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in de hoger-juiste hoek van de voorproef van het verslag om de pagina van het verslag in een nieuw lusje te openen. Ga verder het uitgeven van het verslag zoals die in [ wordt beschreven geef een verslag van de pagina van het verslag ](#edit-a-record-from-the-records-page) sectie in dit artikel uit.
+1. (Facultatief) klik **Open in nieuw lusje** pictogram ![ Open details in een nieuw lusjepictogram ](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in de hoger-juiste hoek van de voorproef van het verslag om de pagina van het verslag in een nieuw lusje te openen. Ga verder het uitgeven van het verslag zoals die in [ wordt beschreven geef een verslag van de pagina van het verslag ](#edit-a-record-from-the-records-page) sectie in dit artikel uit.
 
 ### Een record op de recordpagina bewerken
 
@@ -350,15 +350,15 @@ Voor meer informatie, zie [ verslagmeningen ](/help/quicksilver/planning/views/m
 
 1. Voer een van de volgende handelingen uit:
 
-   * Van om het even welke mening, toegang tot de voorproef van het verslag, zoals die in [ wordt beschreven geef een verslag van de voorproef van het verslag in een mening ](#edit-a-record-from-the-records-preview-in-a-view) sectie in dit artikel uit, dan klik **Open in nieuw lusje** pictogram ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in de hoger-juiste hoek van de verslagvoorproef om de pagina van het verslag in een nieuw lusje te openen.
+   * Van om het even welke mening, toegang tot de voorproef van het verslag, zoals die in [ wordt beschreven geef een verslag van de voorproef van het verslag in een mening ](#edit-a-record-from-the-records-preview-in-a-view) sectie in dit artikel uit, dan klik **Open in nieuw lusje** pictogram ![ Open details in een nieuw lusjepictogram ](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in de hoger-juiste hoek van de verslagvoorproef om de pagina van het verslag in een nieuw lusje te openen.
 
-   * Van de **mening van de Lijst**, houd over de naam van een verslag, dan klik **Meer** menu ![](assets/more-menu.png), dan klik **Mening**
+   * Van de **mening van de Lijst**, houd over de naam van een verslag, dan klik het **Meer** menu ![ Meer menu ](assets/more-menu.png), dan klik **Mening**
 
-     ![](assets/contextual-menu-for-record-row.png)
+     ![ Contextueel menu voor verslagrij ](assets/contextual-menu-for-record-row.png)
 
      De recordpagina wordt geopend.
 
-     ![](assets/details-page.png)
+     ![ pagina van Details ](assets/details-page.png)
 
 1. (Facultatief) klik het **Meer** menu rechts van de titel van het verslag, dan klik **anders noemen**. Hiermee werkt u het veld bij dat wordt weergegeven als de titel van de record.
 
@@ -378,17 +378,17 @@ Voor meer informatie, zie [ verslagmeningen ](/help/quicksilver/planning/views/m
 
    of
 
-   Beweeg over het bestaande omslagbeeld, dan klik **Meer** menu ![](assets/more-menu.png) > **uploadt** om een nieuw omslagbeeld voor het verslag toe te voegen.
+   Beweeg over het bestaande omslagbeeld, dan klik **Meer** menu ![ Meer menu ](assets/more-menu.png) > **uploadt** om een nieuw omslagbeeld voor het verslag toe te voegen.
 
    Voor meer informatie, zie [ een omslagbeeld aan een verslag ](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) toevoegen.
 
-1. (Facultatief) Beweeg over een bestaande duimnagel, of het **duimnagelpictogram** ![](assets/record-thumbnail-icon-on-details-page.png), dan klik het **Meer** menu ![](assets/more-menu.png) > **geeft duimnagel** uit om een duimnagel voor het verslag toe te voegen.
+1. (Facultatief) Beweeg over een bestaande duimnagel, of het **duimnagelpictogram** ![ pictogram van het Verslag op detailspagina ](assets/record-thumbnail-icon-on-details-page.png), dan klik het **Meer** menu ![ Meer menu ](assets/more-menu.png) > **geeft duimnagel** uit om een duimnagel voor het verslag toe te voegen.
 
    Voor meer informatie, zie [ een duimnagel aan een verslag ](/help/quicksilver/planning/records/add-thumbnails-to-records.md) toevoegen.
 
    Workfront slaat uw wijzigingen automatisch op.
 
-1. <span class="preview"> (Facultatief) klik de **indicator in real time** ![](assets/real-time-indicator-icon.png) in de hoger-juiste hoek van de pagina van het verslag, dan laat **toe tonen samenwerkers** het plaatsen om de gebieden te benadrukken die door anderen in real time worden uitgegeven.
+1. <span class="preview"> (Facultatief) klik de **indicator in real time** ![ pictogram van de indicator in real time ](assets/real-time-indicator-icon.png) in de hoger-juiste hoek van de pagina van het verslag, dan laat **Medewerkers** het plaatsen toe om de gebieden te benadrukken die door anderen in real time worden uitgegeven.
 
    De namen en avatars van alle gebruikers die tot het verslag tezelfdertijd toegang hebben tonen in dit gebied.
 
@@ -396,11 +396,11 @@ Voor meer informatie, zie [ verslagmeningen ](/help/quicksilver/planning/views/m
 
    <div class="preview">
 
-   ![](assets/real-time-indicator-expanded-record-preview-box.png)
+   ![ Echte - tijdindicator uitgebreide doos van de verslagvoorproef ](assets/real-time-indicator-expanded-record-preview-box.png)
 
    </div>
 
-1. (Optioneel) Klik op het **menu ![](assets/export-icon-in-record-details-page.png) Exporteren** om de details van het record te exporteren. Voor informatie, zie [ de details van een verslag ](/help/quicksilver/planning/records/export-the-record-page.md) uitvoeren.
+1. (Facultatief) klik het **menu van de Uitvoer ![ pictogram van de Uitvoer in verslagdetailpagina ](assets/export-icon-in-record-details-page.png) om de details van het verslag uit te voeren.** Voor informatie, zie [ de details van een verslag ](/help/quicksilver/planning/records/export-the-record-page.md) uitvoeren.
 
 
 ## Een record uit een Workfront-object bewerken in de sectie Planning

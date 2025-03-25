@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
@@ -118,11 +118,11 @@ De recordtypepagina wordt geopend en alle records van dat type worden weergegeve
 
    Het voorvertoningsvak van de record wordt geopend.
 
-1. (Facultatief) klik **Open in nieuw lusje** pictogram ![](assets/open-details-in-a-new-tab-icon.png) om de pagina van het verslag te openen.
+1. (Facultatief) klik **Open in nieuw lusje** pictogram ![ Open details in een nieuw lusjepictogram ](assets/open-details-in-a-new-tab-icon.png) om de pagina van het verslag te openen.
 
 1. Kies het **Details** lusje. Het tabblad Details moet standaard worden geopend.
 
-1. Klik het **menu van de Uitvoer** ![](assets/export-icon-in-record-details-page.png) of in de voorproef of de pagina van het verslag, dan klik één van het volgende:
+1. Klik het **menu van de Uitvoer ![ pictogram van de Uitvoer in verslagdetailpagina ](assets/export-icon-in-record-details-page.png) of in de voorproef of de pagina van het verslag, dan klik één van het volgende:**
 
    * **Word van Microsoft**
    * **Adobe PDF**
@@ -131,7 +131,7 @@ De recordtypepagina wordt geopend en alle records van dat type worden weergegeve
 
    De naam van het geëxporteerde bestand is het primaire veld van de record.
 
-   ![](assets/exported-word-file.png)
+   ![ Uitgevoerd woorddossier ](assets/exported-word-file.png)
 
    >[!NOTE]
    >

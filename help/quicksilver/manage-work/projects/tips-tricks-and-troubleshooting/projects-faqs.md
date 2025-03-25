@@ -5,9 +5,9 @@ author: Alina
 draft: Probably
 feature: Work Management
 exl-id: be262d72-f4e4-4426-a6bc-23499667fc97
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '625'
 ht-degree: 0%
 
 ---
@@ -55,13 +55,13 @@ Als voor het project de modus Voltooien is ingesteld op Automatisch, wordt de st
 
 ## Waarom kan ik geen Project aan een Portfolio toevoegen, hoewel ik de correcte toestemmingen heb om dit te doen?
 
-Hoewel ik de correcte toestemmingen heb, voegt de knoop van Projecten op het lusje van Projecten van het Portfolio toe.
+Hoewel ik de juiste machtigingen heb, ontbreekt de knop Projecten toevoegen op het tabblad Projecten van de Portfolio.
 
 ### Antwoord
 
-Dit wordt veroorzaakt door de status van het Portfolio die Inactief is. De status van het Portfolio wijzigen:
+Dit wordt veroorzaakt doordat de Portfolio-status Inactief is. De status van de Portfolio wijzigen:
 
-1. Klik op **Details van het Portfolio > Overzicht**.
+1. Klik op **Details van Portfolio > Overzicht**.
 1. Verander de **Status** aan **Actief.**
 
 1. Klik **sparen**.\
@@ -99,6 +99,6 @@ Hieronder vindt u begrotingsstaten:
 
 De beheerder van Adobe Workfront beperkte u tot het bekijken van slechts Bedrijven, Groepen &amp; Teams die u tot in uw Niveau van de Toegang van behoort. Het team dat u zoekt is niet één van de teams u tot behoort.
 
-![](assets/view-only-team-groups-companies-they-belong-to-350x141.png)
+![ slechts teams van de Mening, groepen, bedrijven zij tot ](assets/view-only-team-groups-companies-they-belong-to-350x141.png) behoren
 
 Voor informatie over het toelaten van een gebruiker om alle teams in het systeem te bekijken, zie [ tot douanetoegangsniveaus ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.

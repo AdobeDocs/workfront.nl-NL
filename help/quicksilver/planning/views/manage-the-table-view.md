@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '2876'
+source-wordcount: '2932'
 ht-degree: 0%
 
 ---
@@ -171,7 +171,7 @@ Een tabelweergave beheren:
 
 1. Creeer een lijstmening, zoals die in artikel [ wordt beschreven beheer verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md).
 
-   ![](assets/table-view-example.png)
+   ![ de meningsvoorbeeld van de Lijst ](assets/table-view-example.png)
 
 1. (Facultatief) klik **de hoogte van de Rij**, dan selecteer van de volgende opties om de hoogte van de lijstrijen te wijzigen:
    * Kort
@@ -209,7 +209,7 @@ U kunt maximaal 500 velden (of kolommen) toevoegen aan een tabelweergave.
 
    * Klik **Gebieden** in de toolbar van de lijst, dan belemmering en laat vallen de gebieden in de gewenste orde, dan klik buiten het **zicht en orde van Gebieden** vakje om het te sluiten.
 
-     ![](assets/fields-setting-table-view-toolbar-expanded.png)
+     ![ Gebieden die lijstmeningstoolbar plaatsen uitgevouwen ](assets/fields-setting-table-view-toolbar-expanded.png)
 
 
      >[!TIP]
@@ -224,7 +224,7 @@ U kunt maximaal 500 velden (of kolommen) toevoegen aan een tabelweergave.
 
 1. (Facultatief) Beweeg over een gebiedsnaam in de kolomkopbal van om het even welk gebied dat niet in de eerste kolom van de lijst toont, klik de naar beneden wijzende pijl rechts van de gebiedsnaam, dan klik **Reeks als primair gebied**.
 
-   ![](assets/set-as-primary-field-option-table-view.png)
+   ![ Reeks als primaire gebiedsoptie in lijstmening ](assets/set-as-primary-field-option-table-view.png)
 
 1. Klik **Vastgesteld gebied** om te bevestigen.
 
@@ -253,9 +253,9 @@ U kunt maximaal 500 velden (of kolommen) toevoegen aan een tabelweergave.
 
 1. Ga als volgt te werk om snel records te zoeken die overeenkomen met een trefwoord:
 
-   1. Klik het **pictogram van het 1} Onderzoek ![](assets/search-icon.png) en begin een sleutelwoord verbonden aan om het even welk gebied van een verslag te typen dat op het scherm toont.** Het aantal juiste overeenkomsten wordt weergegeven naast het zoekitem en het veld met de juiste overeenkomst wordt gemarkeerd.
+   1. Klik het **pictogram van het Onderzoek ![ pictogram van het 1} Onderzoek ](assets/search-icon.png) en begin een sleutelwoord verbonden aan om het even welk gebied van een verslag te typen dat op het scherm toont.** Het aantal juiste overeenkomsten wordt weergegeven naast het zoekitem en het veld met de juiste overeenkomst wordt gemarkeerd.
 
-      ![](assets/search-box-with-results-blue-outline-table-view.png)
+      ![ vakje van het Onderzoek met resultaten blauw overzicht in lijstmening ](assets/search-box-with-results-blue-outline-table-view.png)
 
       U kunt elk woord of speciaal teken gebruiken dat op het scherm zichtbaar is.
 
@@ -284,7 +284,7 @@ U kunt tot 50.000 verslagen (of rijen) voor recordtypeS hebben.
 
    Voor informatie, zie [ een duimnagel aan een verslag ](/help/quicksilver/planning/records/add-thumbnails-to-records.md) toevoegen.
 
-1. (Facultatief) selecteer één of veelvoudige verslagen in een rij, dan belemmering en laat vallen de **handvat** pictogram ![](assets/handle-icon.png) links van het verslag om de rijen opnieuw in orde te brengen.
+1. (Facultatief) selecteer één of veelvoudige verslagen in een rij, dan belemmering en laat vallen het **pictogram van de handvat ![ handvat ](assets/handle-icon.png) links van het verslag om de rijen opnieuw in orde te brengen.**
 
    >[!NOTE]
    >
@@ -394,7 +394,7 @@ Een filter toevoegen aan een tabelweergave:
 
    * Selecteer een waarde voor het geselecteerde veld.
 
-   ![](assets/filter-ui-table-view.png)
+   ![ de lijstmening van de Filter UI ](assets/filter-ui-table-view.png)
 
    Er is geen limiet voor het aantal filtervoorwaarden dat u kunt toevoegen.
 
@@ -408,7 +408,7 @@ Een filter toevoegen aan een tabelweergave:
 
    1. (Facultatief) voeg extra **EN** of **OF** exploitanten tussen veelvoudige voorwaardengroeperingen toe.
 
-      ![](assets/multi-tiered-filters-in-views.png)
+      ![ Multi-tiered filters in meningen ](assets/multi-tiered-filters-in-views.png)
 
    </div>
 
@@ -446,7 +446,7 @@ Een groep toevoegen:
 1. Creeer een chronologiemening voor een verslagtype, zoals die in artikel [ wordt beschreven beheer verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md).
 1. Klik **Groepering** in de hoger-juiste hoek van de lijstmening.
 
-   ![](assets/grouping-ui-table-view-with-linked-fields.png)
+   ![ het Groeperen UI lijstmening met verbonden gebieden ](assets/grouping-ui-table-view-with-linked-fields.png)
 
 1. Klik één van de voorgestelde gebieden, of klik **kies een verschillend gebied**, onderzoek naar een verschillend gebied, dan klik het wanneer het in de lijst toont.
 
@@ -456,7 +456,7 @@ Een groep toevoegen:
 
    Het aantal velden dat voor de groepering is geselecteerd, wordt weergegeven naast het pictogram Groeperen.
 
-   ![](assets/grouping-applied-in-table-view.png)
+   ![ groepering die in lijstmening wordt toegepast ](assets/grouping-applied-in-table-view.png)
 
 1. (Facultatief) binnen de **verslagen van de Groep door** doos, klik het **x** pictogram aan het recht van een gebied dat voor de groepering wordt geselecteerd om de groepering te verwijderen
 
@@ -499,7 +499,7 @@ Houd rekening met het volgende wanneer u records in de tabelweergave sorteert:
 Ga als volgt te werk om <!--ungrouped (add this when sorting for groupings will be available--> records te sorteren:
 
 1. Creeer een lijstmening, zoals die in artikel [ wordt beschreven beheer verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md).
-1. Klik het **pictogram van de Soort** ![](assets/sort-icon.png) in de hoger-juiste hoek van de lijst
+1. Klik het **pictogram van de Soort ![ van de Soort ](assets/sort-icon.png) in de hoger-juiste hoek van de lijst**
 
    of
 
@@ -523,7 +523,7 @@ Ga als volgt te werk om <!--ungrouped (add this when sorting for groupings will 
 
 1. Klik buiten de **verslagen van de Soort door** doos om het te sluiten.
 
-   ![](assets/sorting-in-table-view.png)
+   ![ Sorterend in lijstmening ](assets/sorting-in-table-view.png)
 
    De gegevens in de tabel worden gesorteerd op basis van de geselecteerde criteria.
 

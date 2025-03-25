@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '665'
 ht-degree: 0%
 
 ---
@@ -124,7 +124,7 @@ Zo wijzigt u het delen van een aanvraagformulier:
 
    De pagina met recordtypen wordt geopend in de weergave die u het laatst hebt geopend. Standaard wordt een pagina met recordtypen geopend in de tabelweergave.
 
-1. Klik **Meer** menu ![](assets/more-menu.png) aan het recht van het verslagtype naam in de paginakop, dan klik **de verzoekvorm van de Update**.
+1. Klik **Meer** menu ![ meer menu ](assets/more-menu.png) rechts van de naam van het verslagtype in de paginakop, dan klik **de verzoekvorm van de Update**.
 1. Klik **Aandeel** in de hoger-juiste hoek van het scherm, dan werk de het delen keuzen bij. Voor meer informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
 1. (Facultatief) klik **verbinding van het Exemplaar**, als u het delen van de verzoekvorm veranderde en u het aan de nieuwe groep mensen met een nieuwe verbinding wilt delen.
 
@@ -142,10 +142,10 @@ Wanneer een aanvraagformulier irrelevant wordt en u wilt dat niemand er langer t
 
    De pagina met recordtypen wordt geopend in de weergave die u het laatst hebt geopend. Standaard wordt een pagina met recordtypen geopend in de tabelweergave.
 
-1. Klik **Meer** menu ![](assets/more-menu.png) aan het recht van het verslagtype naam in de paginakop, dan klik **de verzoekvorm van de Update**.
+1. Klik **Meer** menu ![ Meer menu ](assets/more-menu.png) aan het recht van de naam van het verslagtype in de paginakop, dan klik **de verzoekvorm van de Update**.
 1. Klik **unpublish** in de hoger-juiste hoek.
 
-   ![](assets/unpublish-button-highlighted.png)
+   ![ Unpublish benadrukte knoop ](assets/unpublish-button-highlighted.png)
 
    Onder aan het scherm verschijnt een bevestiging met de mededeling dat het formulier niet is gepubliceerd.
 

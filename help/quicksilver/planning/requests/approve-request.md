@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '906'
 ht-degree: 0%
 
 ---
@@ -141,20 +141,20 @@ Een verzoek goedkeuren:
 
 1. Voer een van de volgende handelingen uit:
 
-   * Als u toegang tot de Planning van Workfront hebt en minstens één werkruimte kunt bekijken, klik **HoofdMenu** ![](assets/dots-menu.png) in de hoger-juiste hoek van het scherm, of het **Belangrijkste Menu** ![](assets/lines-menu.png) in de upper-left hoek, als beschikbaar, dan klik **Verzoeken** > **Voorgelegd** > **Planning**, en klik het verzoek met de status van **in afwachting van overzicht** of **in overzicht**.
+   * Als u toegang tot de Planning van Workfront hebt en minstens één werkruimte kunt bekijken, klik **het Belangrijkste menu van het Menu ![ Dots ](assets/dots-menu.png) in de hoger-juiste hoek van het scherm, of** Belangrijkste Menu **![ het belangrijkste menu van Lijnen ](assets/lines-menu.png) in de upper-left hoek, als beschikbaar, dan klik** Verzoeken **>** > **2} Planning**, en klik het verzoek met het statuut van **In afwachting van overzicht** of **in overzicht**.****
 
      >[!TIP]
      >
      >Als u geen toegang hebt tot Workfront Planning, of als u geen toegang hebt tot om het even welke werkruimten te bekijken, kunt u tot een verzoek slechts toegang hebben om het goed te keuren gebruikend uw e-mail of in-app berichten.
 
-   * Klik het **gebiedspictogram van Meldingen** ![](assets/notifications-area-icon-unified-shell.png) in de hoger-juiste hoek van het scherm en klik het bericht over een verzoek in afwachting van uw goedkeuring om het verzoek te openen.
+   * Klik het **pictogram van het het gebiedspictogram van Meldingen ![ in Verenigde Shell ](assets/notifications-area-icon-unified-shell.png) in de hoger-juiste hoek van het scherm en klik het bericht over een verzoek in afwachting van uw goedkeuring om het verzoek te openen.**
    * Ga naar het e-mailbericht in uw e-mail die u over een verzoek in afwachting van uw goedkeuring op de hoogte brengt, dan klik **Open verzoek** om het verzoek te openen. <!--add the name of the button here, from the email-->
 
    De aanvraagpagina wordt geopend in de modus Alleen-lezen.
 
-   ![](assets/read-only-reqeust-page-in-review-status.png)
+   ![ read-only verzoekpagina in overzichtsstatus ](assets/read-only-reqeust-page-in-review-status.png)
 
-1. (Facultatief) klik **goedkeurt** pictogram ![](assets/approvals-icon.png) in de hoger-juiste hoek van het verzoek om de fiatteurs te bekijken.
+1. (Optioneel) Klik op het pictogram **Goedkeuringen ![ pictogram ](assets/approvals-icon.png) in de rechterbovenhoek van het verzoek om de fiatteurs weer te geven.**
 1. Klik **Overzicht en keur** goed, dan kies één van het volgende: <!--did they fix the button and removed the &??-->
 
    * **keur** goed: Dit keurt het verzoek goed. Er wordt direct een record gemaakt voor het recordtype dat aan het aanvraagformulier is gekoppeld, nadat alle fiatteurs het verzoek hebben goedgekeurd.

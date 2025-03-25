@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '1818'
+source-wordcount: '1878'
 ht-degree: 0%
 
 ---
@@ -184,7 +184,7 @@ Hieronder vindt u de belangrijkste Workfront-planningsobjecten en -concepten:
 
 * **Workspace**: Een inzameling van verslagtypes die de operationele levenscyclus van een bepaalde organisatie bepalen. Een werkruimte is het werkkader van een organisatorische eenheid.
 
-  ![](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
+  ![ de werkruimte van de marketing met verslagtype taxonomieën die pagina openen ](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
 
   Voor meer informatie, zie [ werkruimten ](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
 
@@ -202,7 +202,7 @@ Hieronder vindt u de belangrijkste Workfront-planningsobjecten en -concepten:
 
 * **Verslag**: Een geval van een verslagtype.
 
-  ![](assets/records-highlighted-in-campaign-record-type-list.png)
+  ![ Verslagen die in lijst van het campagnerecord worden benadrukt ](assets/records-highlighted-in-campaign-record-type-list.png)
 
   Nadat u een recordtype aan een werkruimte hebt toegevoegd, kunt u records van dat type op de pagina van het recordtype toevoegen.
 
@@ -212,7 +212,7 @@ Hieronder vindt u de belangrijkste Workfront-planningsobjecten en -concepten:
 
 * **malplaatje van Workspace**: U kunt een werkruimte tot stand brengen gebruikend vooraf bepaalde malplaatjes. U kunt de vooraf gedefinieerde recordtypen en -velden gebruiken die in een sjabloon voorkomen, of u kunt uw eigen recordtypen toevoegen.
 
-  ![](assets/workspaces-page-with-templates-thumbnails.png)
+  ![ pagina van de Werkruimten met malplaatjeminiaturen ](assets/workspaces-page-with-templates-thumbnails.png)
 
   Adobe Workfront Planning bevat de volgende sjablonen:
 
@@ -226,7 +226,7 @@ Hieronder vindt u de belangrijkste Workfront-planningsobjecten en -concepten:
 
 * **Gebieden**: De gebieden zijn attributen die u aan verslagtypes kunt toevoegen. Velden bevatten informatie over het recordtype. <!--check the shot below, "Connection" needs to be in lowercase-->
 
-  ![](assets/drop-down-list-of-record-fields.png)
+  ![ drop-down lijst van verslaggebieden ](assets/drop-down-list-of-record-fields.png)
 
   Overwegingen bij recordvelden:
 
@@ -274,7 +274,7 @@ Hieronder vindt u de belangrijkste Workfront-planningsobjecten en -concepten:
 
      U moet een Adobe Experience Manager-licentie hebben om recordtypen te koppelen aan Experience Manager-objecten.
 
-     ![](assets/new-connection-tab-with-workfront-aem-options.png)
+     ![ Nieuw verbindingslusje met de opties van Workfront AEM ](assets/new-connection-tab-with-workfront-aem-options.png)
 
 
   Nadat u een verbinding tot stand hebt gebracht tussen de recordtypen, kunt u afzonderlijke records of objecten van die typen met elkaar verbinden. De verbinding tussen de verslagen toont als verbonden verslaggebied, of een verbinding.
@@ -283,7 +283,7 @@ Hieronder vindt u de belangrijkste Workfront-planningsobjecten en -concepten:
 
   Bijvoorbeeld, als u een type van het verslag van de Campagne met een de objecten van het Project van Workfront type verbindt, kunt u het gebied van de Begroting van verbonden projecten op de campagneverslagen tonen.
 
-  ![](assets/add-lookup-fields-modal.png)
+  ![ voeg raadplegingsgebieden doos ](assets/add-lookup-fields-modal.png) toe
 
   >[!TIP]
   >
@@ -303,7 +303,7 @@ Hieronder vindt u de belangrijkste Workfront-planningsobjecten en -concepten:
 
 * **Meningen**: De vertoning van verslagen onder hun respectieve verslagtype pagina in verschillende soorten meningen.
 
-  ![](assets/view-types-drop-down-from-record-type-list.png)
+  ![ de types van Mening drop-down van verslagtype lijst ](assets/view-types-drop-down-from-record-type-list.png)
 
   Weergaven bevatten gepersonaliseerde instellingen van een specifiek weergavetype, zoals de lijst met velden (kolommen), een lijst met records (rijen), de volgorde (sortering), een toegepast of toepasselijk filter en een groep.
 
@@ -311,14 +311,14 @@ Hieronder vindt u de belangrijkste Workfront-planningsobjecten en -concepten:
 
    * **mening van de Lijst**: De verslagen van vertoningen en hun gebieden, met inbegrip van verbonden en raadplegingsgebieden, in een lijstformaat. De rijen van de tabel zijn de afzonderlijke records en de kolommen zijn de recordvelden. De tabelweergave is de standaardweergave.
 
-     ![](assets/table-view-example.png)
+     ![ de meningsvoorbeeld van de Lijst ](assets/table-view-example.png)
 
    * **mening van de Chronologie**: De verslagen van vertoningen die minstens twee Datum-type gebieden in een chronologische chronologische chronologische chronologie hebben. U kunt maximaal vijf verbonden recordtypen en de bijbehorende records weergeven in de tijdlijnweergave.
 
-     ![](assets/grouping-applied-in-timeline-view.png)
+     ![ groepering die in chronologiemening wordt toegepast ](assets/grouping-applied-in-timeline-view.png)
 
    * **mening van de Kalender**: De verslagen van vertoningen die minstens twee Datum-type gebieden in een kalenderformaat hebben.
-     ![](assets/calendar-view-example.png)
+     ![ de meningsvoorbeeld van de Kalender ](assets/calendar-view-example.png)
 
 
 Voor meer informatie, zie [ verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md) leiden.
@@ -333,11 +333,11 @@ Workfront-planning zoeken:
 
 {{step1-click-main-menu}}
 
-1. Klik **Planning** ![](assets/planning-icon.png).
+1. Klik **Planning** ![ pictogram van de Planning ](assets/planning-icon.png).
 
    De hoofdpagina Workfront Planning wordt geopend.
 
-   ![](assets/planning-landing-page-admin.png)
+   ![ Planning landende paginadmin ](assets/planning-landing-page-admin.png)
 
    >[!TIP]
    >

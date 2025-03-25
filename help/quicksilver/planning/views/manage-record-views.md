@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1459'
 ht-degree: 0%
 
 ---
@@ -252,7 +252,7 @@ In de volgende tabel worden de overeenkomsten en verschillen tussen de tabel-, t
 
    Er wordt een nieuw tabblad gemaakt met de geselecteerde weergave.
 
-   Afhankelijk van de breedte van uw scherm, zouden de extra meningen in **Meer** menu ![](assets/more-menu.png) kunnen tonen.
+   Afhankelijk van de breedte van uw scherm, zouden de extra meningen in **Meer** menu ![ Meer menu ](assets/more-menu.png) kunnen tonen.
 
 
 >[!TIP]
@@ -264,7 +264,7 @@ In de volgende tabel worden de overeenkomsten en verschillen tussen de tabel-, t
 >Anders worden de opties Tijdlijn en Kalender grijs weergegeven.
 >
 
-![](assets/view-types-drop-down-from-record-type-list.png)
+![ de types van Mening drop-down van verslagtype lijst ](assets/view-types-drop-down-from-record-type-list.png)
 
 1. (Voorwaardelijk) klik **daarna**, wanneer het creëren van een chronologie of een kalendermening.
 
@@ -285,10 +285,10 @@ In de volgende tabel worden de overeenkomsten en verschillen tussen de tabel-, t
 1. Klik **creëren**.
 
    De weergave wordt weergegeven als een nieuw tabblad. De weergaven worden in chronologische volgorde weergegeven vanaf het moment waarop ze zijn gemaakt of met u zijn gedeeld.
-1. (Facultatief) klik **Meer** menu ![](assets/more-caret-down-icon-views.png) naast de laatste mening om alle meningen voor het geselecteerde verslagtype te tonen.
+1. (Facultatief) klik **Meer** menu ![ meer inlasteken neer pictogrammeningen ](assets/more-caret-down-icon-views.png) naast de laatste mening om alle meningen voor het geselecteerde verslagtype te tonen.
 
    De extra meningsvertoning onder **Meer** menu na het laatste meningslusje. Het aantal naast **meer** menu toont het aantal extra meningen.
-1. (Facultatief) om een mening anders te noemen nadat het wordt gecreeerd, klik het meningsdrop-down menu, dan klik **Meer** menu ![](assets/more-menu.png) > **anders noemen** om de meningsnaam bij te werken
+1. (Facultatief) om een mening anders te noemen nadat het wordt gecreeerd, klik het meningsdrop-down menu, dan klik **Meer** menu ![ Meer menu ](assets/more-menu.png) > **anders noemen** om de meningsnaam bij te werken
 
    of
 
@@ -315,7 +315,7 @@ In de volgende tabel worden de overeenkomsten en verschillen tussen de tabel-, t
 
    Standaard worden alle records van het geselecteerde type weergegeven in de tabelweergave.
 
-1. Beweeg over één van de namen van de mening in het meningslusje, dan klik **Meer** ![](assets/more-menu.png) aan de linkerzijde van de meningsnaam, dan klik **Schrapping**.
+1. Beweeg over één van de namen van de mening in het meningslusje, dan klik **Meer** ![ Meer menu ](assets/more-menu.png) links van de meningsnaam, dan klik **Schrapping**.
 Eerst, zou u **Meer** aan de linkerzijde van het laatste lusje kunnen moeten klikken om de mening te vinden u wilt schrappen.
 
 1. Klik **Schrapping** om te bevestigen. <!--ensure there is not another saving step here?!-->
@@ -345,9 +345,9 @@ De machtigingen voor delen van de oorspronkelijke weergave worden niet overgedra
    De pagina met recordtypen wordt geopend.
 Standaard worden alle records van het geselecteerde type weergegeven in de tabelweergave.
 
-1. Beweeg over het lusje van de mening u, **Meer** menu ![](assets/more-menu.png) aan het recht van de meningsnaam wilt dupliceren en klikken, dan **Dupliceert**.
+1. Beweeg over het lusje van de mening u wilt dupliceren, en **klikken Meer** menu ![ ](assets/more-menu.png) rechts van de meningsnaam, dan **** dupliceert.
 
-   ![](assets/view-more-menu-with-duplicate-option.png)
+   ![ Mening meer menu met dubbele optie ](assets/view-more-menu-with-duplicate-option.png)
 
 
    De weergave wordt gedupliceerd en de naam van de nieuwe weergave volgt het volgende patroon: `Original view's name (Copy)` . Het nieuwe meningslusje toont aan het eind van alle meningslusjes.
@@ -362,13 +362,13 @@ Wanneer u de tabelweergave weergeeft, kunt u ook bekijken welk veld een andere g
 1. (Voorwaardelijk) Als er andere gebruikers zijn die de records van het geselecteerde type tegelijkertijd bewerken, worden hun avatars in de rechterbovenhoek van de weergave weergegeven.
 1. Klik het drop-down menu naast avatars, selecteren **samenwerkers** knevel tonen. De schakeloptie is standaard geselecteerd.
 
-   ![](assets/show-collaborators-toggle-selected.png)
+   ![ toon geselecteerde samenwerkersknevel ](assets/show-collaborators-toggle-selected.png)
 
 1. (Voorwaardelijk) Open een lijstmening, en het gebied dat een andere persoon actief uitgeeft wordt benadrukt in de kleur die aan de contour van hun avatar in de lijstmening beantwoordt.
 
    Als de markeerkleur van de avatar grijs is, is de gebruiker meer dan 30 seconden geleden gestopt met het actief bewerken van de record.
 
-   ![](assets/real-time-indicator-table-field-and-avatar-connection.png)
+   ![ Echte - tijd het gebied van de indicatorlijst en avatar verbinding ](assets/real-time-indicator-table-field-and-avatar-connection.png)
 
    >[!TIP]
    >

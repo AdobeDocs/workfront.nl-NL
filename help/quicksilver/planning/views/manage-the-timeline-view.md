@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '2635'
+source-wordcount: '2692'
 ht-degree: 0%
 
 ---
@@ -176,7 +176,7 @@ Een tijdlijnweergave beheren:
 1. Ga naar de pagina met recordtypen waarvoor u de tijdlijn wilt weergeven.
 1. Creeer een chronologiemening, zoals die in artikel [ wordt beschreven beheer verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md).
 
-   ![](assets/timeline-view-example.png)
+   ![ de meningsvoorbeeld van de Chronologie ](assets/timeline-view-example.png)
 
    De records die zijn gekoppeld aan het geselecteerde recordtype, worden standaard als balken in een tijdlijn weergegeven en gesorteerd in chronologische volgorde van hun begindatum.
 
@@ -205,9 +205,9 @@ Een tijdlijnweergave beheren:
 
 1. Ga als volgt te werk om snel records te zoeken die overeenkomen met een trefwoord:
 
-   1. Klik het **pictogram van het 1} Onderzoek ![](assets/search-icon.png) en begin een sleutelwoord verbonden aan om het even welk gebied van een verslag te typen dat op het scherm toont.** Het aantal juiste overeenkomsten wordt weergegeven naast het zoekitem en de record met de juiste overeenkomst wordt gemarkeerd.
+   1. Klik het **pictogram van het Onderzoek ![ pictogram van het 1} Onderzoek ](assets/search-icon.png) en begin een sleutelwoord verbonden aan om het even welk gebied van een verslag te typen dat op het scherm toont.** Het aantal juiste overeenkomsten wordt weergegeven naast het zoekitem en de record met de juiste overeenkomst wordt gemarkeerd.
 
-      ![](assets/search-box-and-results-timeline-view.png)
+      ![ vakje van het Onderzoek en de mening van de resultaatchronologie ](assets/search-box-and-results-timeline-view.png)
 
       U kunt elk woord of speciaal teken gebruiken dat op het scherm zichtbaar is.
 
@@ -281,7 +281,7 @@ Een groep toevoegen in de tijdlijnweergave:
 1. Creeer een chronologiemening voor een verslagtype, zoals die in artikel [ wordt beschreven beheer verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md).
 1. Klik **Groepering** in de hoger-juiste hoek van de chronologiemening.
 
-   ![](assets/grouping-ui-timeline-view-with-linked-fields.png)
+   ![ het groeperen van UI chronologiemening met verbonden gebieden ](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
 1. Klik één van de voorgestelde gebieden, of klik **kies een verschillend gebied**, onderzoek naar een verschillend gebied, dan klik het wanneer het in de lijst toont.
 
@@ -295,7 +295,7 @@ Een groep toevoegen in de tijdlijnweergave:
 
    <!-- update screen shot with view redesign-->
 
-   ![](assets/grouping-applied-in-timeline-view.png)
+   ![ groepering is op chronologiemening van toepassing ](assets/grouping-applied-in-timeline-view.png)
 
 1. (Facultatief) binnen de **verslagen van de Groep door** doos, klik het **x** pictogram aan het recht van een gebied dat voor de groepering wordt geselecteerd om de groepering te verwijderen
 
@@ -347,11 +347,11 @@ Werk de instellingen van de tijdlijnweergave bij om aan te geven wat en hoe info
 
    Aan de rechterkant wordt een voorvertoning weergegeven van hoe de balken eruit zullen zien op de tijdlijn.
 
-   ![](assets/record-details-panel-timeline-settings-with-preview.png)
+   ![ de chronologiemontages van het paneel van de Details van het Verslag met voorproef ](assets/record-details-panel-timeline-settings-with-preview.png)
 
 1. Klik **Kleur** in het linkerpaneel, om de kleuren van de verslagen en de groeperingen in de chronologie aan te passen.
 
-   ![](assets/color-tab-timeline-view.png)
+   ![ het lusje van de Kleur chronologiemening ](assets/color-tab-timeline-view.png)
 
 1. (Voorwaardelijk en facultatief) als u een groepering aan de chronologiemening toevoegde, selecteer van de volgende opties om een kleur voor de groepering in de **Vastgestelde groeperingskleur** sectie te plaatsen:
 
@@ -382,7 +382,7 @@ Werk de instellingen van de tijdlijnweergave bij om aan te geven wat en hoe info
 
 1. (Voorwaardelijk) als u **waarden van het Gebied** voor de verslagkleuren selecteerde, selecteer een gebied van **gelijke de verslagkleur aan** drop-down menu.
 
-   ![](assets/field-selector-drop-down-menu-timeline-view.png)
+   ![ de selecteur van het Gebied drop-down menu in chronologiemening ](assets/field-selector-drop-down-menu-timeline-view.png)
 
    Alleen velden met opties voor kleurcodes worden weergegeven in het keuzemenu.
 
@@ -424,7 +424,7 @@ U kunt verbonden verslagen in de chronologiemening van een verslag tonen door de
 1. (Voorwaardelijk) als u de chronologiemening op de Standaardwijze bekijkt, klik **Uitsplitsing**.
 1. Vouw **Uitgezocht een verbonden verslagtype** doos uit en selecteer een verbonden verslagtype. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
-   ![](assets/breakdown-picker-and-button-on-timeline.png)
+   ![ de plukker en knoop van de Onderbreking op chronologiemening ](assets/breakdown-picker-and-button-on-timeline.png)
 
    >[!TIP]
    >
@@ -439,7 +439,7 @@ U kunt verbonden verslagen in de chronologiemening van een verslag tonen door de
    Er wordt een pijl naar rechts weergegeven op de geselecteerde balk van de record in de tijdlijn als deze zijn verbonden met andere records.
 1. Klik op de pijl naar rechts om een recordtype uit te vouwen en de weergave is verbindingen.
 
-   ![](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
+   ![ Campagnes die door programma&#39;s in de chronologiemening worden verdeeld ](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
 
 1. (Optioneel) Herhaal bovenstaande stappen om meer verbonden records toe te voegen.
 

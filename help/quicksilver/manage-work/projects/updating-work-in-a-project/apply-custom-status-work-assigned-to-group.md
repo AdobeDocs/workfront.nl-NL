@@ -6,9 +6,9 @@ description: Als een project met een groep wordt geassocieerd, kunt u zowel syst
 author: Alina
 feature: Work Management
 exl-id: 7564ab6a-8ddf-4e76-8e45-d59f9cf8d38b
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '361'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ Wanneer u de Groep voor een project bijwerkt, de opties beschikbaar voor de Stat
    >Als u een verschillende groep in het **drop-down menu van de Groep** selecteert, veranderen de douanestatussen in het **3} menu van de Status {automatisch om met de nieuwe groep te correleren.**
    >
    >
-   >![](assets/status-drop-down-expanded-with-custom-statuses-for-project-nwe.png)   >
+   >![ drop-down Status die met douanestatus voor project wordt uitgebreid ](assets/status-drop-down-expanded-with-custom-statuses-for-project-nwe.png)   >
    >
 
 1. Selecteer de status van het project. De aangepaste status die u hebt gemaakt en toegepast op die groep, wordt weergegeven in de lijst.

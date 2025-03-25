@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '1797'
+source-wordcount: '1837'
 ht-degree: 0%
 
 ---
@@ -166,12 +166,12 @@ De objectpagina wordt geopend in Workfront.
       * De naam van het verbonden verslaggebied zoals het in de Planning van Workfront toont.
    * Records worden weergegeven in hun respectieve werkruimte en recordtype.
 
-   ![](assets/planning-section-on-project.png)
+   ![ de sectie van de Planning op project ](assets/planning-section-on-project.png)
 
 1. (Facultatief) klik **tonen alle verbindingen** om alle verbonden verslagtypes, met inbegrip van degenen zonder verbonden verslagen te tonen. Standaard worden recordtypen zonder verbonden records niet weergegeven.
 1. Klik op een opnamekaart voor meer informatie over de record. Het voorvertoningsvak voor records wordt weergegeven.
 1. (Optioneel) Wijzig de velden in het voorvertoningsvak van de record. Uw wijzigingen worden automatisch opgeslagen.
-1. (Facultatief) klik **Open in een nieuw lusje** pictogram ![](assets/open-details-in-a-new-tab-icon.png) in de hoger-juiste hoek van de voorproefdoos om de de detailspagina van het verslag te openen. De detailpagina van het verslag opent in de Planning van Workfront.
+1. (Facultatief) klik **Open in een nieuw lusje** pictogram ![ Open details in een nieuw lusjepictogram ](assets/open-details-in-a-new-tab-icon.png) in de hoger-juiste hoek van de voorproefdoos om de de detailspagina van het verslag te openen. De detailpagina van het verslag opent in de Planning van Workfront.
 1. (Optioneel) Houd de muisaanwijzer boven een opnamekaart en klik op het pictogram voor het verbreken van de verbinding **-** en klik vervolgens op **Verbinding verbreken** .
 De volgende dingen doen zich voor:
    * De record is niet meer verbonden met het Workfront-object.
@@ -242,7 +242,7 @@ Overweeg het volgende wanneer u de verslagen van de Planning van Workfront van e
 
 1. Klik in het veld om verbonden records toe te voegen en klik vervolgens op de pijl omlaag in het veld om records in de lijst te selecteren.
 
-   ![](assets/planning-connection-field-on-project-with-record-list-open.png)
+   ![ het verbindingsgebied van de Planning op project met open verslaglijst ](assets/planning-connection-field-on-project-with-record-list-open.png)
 
    >[!TIP]
    >
@@ -252,7 +252,7 @@ Overweeg het volgende wanneer u de verslagen van de Planning van Workfront van e
    >
    >Er is een aanwijzing dat het object van het veld en het object dat u hebt geselecteerd niet overeenkomen.
    >
-   >![](assets/warning-unsupported-object-planning-connection-field-on-form.png)
+   >![ Waarschuwing niet gestaafde voorwerp die het gebied van de Verbinding van de Planning op vorm ](assets/warning-unsupported-object-planning-connection-field-on-form.png) plannen
 
 1. Klik buiten de lijst om deze te sluiten.
 
@@ -263,13 +263,13 @@ Overweeg het volgende wanneer u de verslagen van de Planning van Workfront van e
    * De waarden voor de opzoekvelden van Workfront die zijn verbonden met de planningsrecord, worden ingevuld in Workfront Planning.
    * <span class="preview"> als uw Workfront of groepsbeheerder opzoekgebieden van het verslag toevoegde toen zij de douanevorm creeerden, bevolken de opzoekingsgebieden van het verslag automatisch in een lijstmening. De lijstmening in het de verbindingsgebied van de Planning is read-only </span>
 
-     ![](assets/planning-connection-field-with-table-on-project-details-custom-form.png)
+     ![ de verbindingsgebied van de Planning met lijst op de douaneformulier van de Details van het project ](assets/planning-connection-field-with-table-on-project-details-custom-form.png)
 
 1. (Facultatief) klik de naam van een verslag <span class="preview"> of houd de naam van het verslag in de lijst, dan klik het **Open verslag** pictogram ![ Open verslagpictogram op de Vorm van de de verbindingsdouane van de Planning ](assets/open-record-icon-on-planning-connection-custom-form.png)</span> in het de verbindingsgebied van de Planning om het in de Planning van Workfront te openen.
 Het voorvertoningsvenster voor details van de Workfront-planningsrecord wordt geopend.
 1. Herzie of geef informatie over het verslag uit, of klik **Open in een nieuw lusje** pictogram ![ Open verslag in nieuw lusje ](assets/open-details-in-a-new-tab-icon.png) om de pagina van de verslagdetails te openen.
 
-1. (Facultatief) van de douanevorm in Workfront, klik **verwijderen** pictogram ![](assets/remove-icon.png) op een verslag om het uit het de verbindingsgebied van de Planning te verwijderen en het van het voorwerp van Workfront los te maken.
+1. (Facultatief) van de douanevorm in Workfront, klik **verwijderen** pictogram ![ pictogram ](assets/remove-icon.png) op een verslag verwijderen om het uit het de verbindingsgebied van de Planning te verwijderen en het van het voorwerp van Workfront los te maken.
 Het Workfront-object wordt losgekoppeld van de planningsrecord en alle opzoekgegevens uit Workfront worden uit de record verwijderd.
 
 1. Klik **sparen Veranderingen** om de douanevorm en om het even welke andere veranderingen te bewaren u aan het voorwerp van Workfront aanbracht.

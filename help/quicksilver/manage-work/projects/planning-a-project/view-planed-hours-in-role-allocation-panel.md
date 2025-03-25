@@ -6,9 +6,9 @@ description: U kunt roltoewijzing voor alle baanrollen bekijken die aan het werk
 author: Alina
 feature: Work Management
 exl-id: 76f70cb6-f707-4a73-bc81-e755e2d0a33d
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
@@ -107,11 +107,11 @@ U moet het volgende hebben:
    * **Taken**
    * **de Balancer van de Werkbelasting**
 
-1. Klik **tonen roltoewijzing** pictogram ![](assets/show-role-allocation-icon.png).
+1. Klik het **pictogram van de roltoewijzing van de Show** pictogram ![ tonen het pictogram van de roltoewijzing ](assets/show-role-allocation-icon.png).
 
    Het deelvenster Roltoewijzing wordt weergegeven.
 
-   ![](assets/role-allocation-panel-planned-hours-only-350x316.png)
+   ![ het toewijzingspaneel van de Rol met geplande slechts uren ](assets/role-allocation-panel-planned-hours-only-350x316.png)
 
 1. Herzie de volgende informatie in het **deelvenster van de Toewijzing van de Rol**:
 
