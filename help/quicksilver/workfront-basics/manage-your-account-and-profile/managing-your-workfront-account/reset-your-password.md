@@ -6,7 +6,7 @@ description: U kunt uw  [!DNL Adobe Workfront]  wachtwoord terugstellen. Als bel
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
+source-git-commit: 234fc6b7b5acb0914744831066cb88a965e54048
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 0%
@@ -77,11 +77,13 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 1. Typ uw oude wachtwoord en typ het nieuwe wachtwoord dat u twee keer wilt.
 
-   Uw wachtwoord moet ten minste 8 tekens hebben en twee van de volgende typen tekens bevatten:
+   Uw wachtwoord moet minstens 8 karakters zijn en twee <!--of each--> van de volgende types van karakters bevatten:
 
+   <!--* Uppercase letters
+   * Lowercase letters-->
    * Letters
    * Getallen
-   * Speciale tekens (bijv. ! @ # $ % enz.)
+   * Speciale tekens (zoals ! @ # $ %)
 
    De regels van het wachtwoord kunnen strenger zijn dan dit, afhankelijk van configuratiemontages die door uw [!DNL Workfront] beheerder worden geplaatst.
 

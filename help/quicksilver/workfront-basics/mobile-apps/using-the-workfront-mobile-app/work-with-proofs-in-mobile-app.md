@@ -6,9 +6,9 @@ description: Wanneer een proefdruk ter goedkeuring aan u is toegewezen, wordt de
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 4ab8dfd0-0a1f-425d-9e05-8e8134ce930a
-source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
+source-git-commit: 234fc6b7b5acb0914744831066cb88a965e54048
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ U hebt dezelfde toegang tot proefdrukken voor revisie en goedkeuring als in [!DN
 
    >[!NOTE]
    >
-   >Videoproefdrukken kunnen niet worden geopend in de mobiele app.
+   >Videoproefdrukken kunnen alleen worden geopend in de mobiele app van iOS. Deze functionaliteit is nog niet beschikbaar voor Android.
 
 1. Controleer de proefdruk van het document.
 1. (Optioneel) Selecteer ![[!UICONTROL Single Page icon]](assets/mobile-proofpagingicon1-25x36.png) in de rechterbovenhoek van het document om van de weergave Eén pagina naar de doorlopende weergave te gaan. Selecteer ![[!UICONTROL Continuous Page icon]](assets/mobile-proofpagingicon2-25x25.png) om terug te keren naar de weergave van één pagina.
