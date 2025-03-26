@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 69cd1eafd7798861a4868fe0d68707ab5ba9106c
 workflow-type: tm+mt
-source-wordcount: '2751'
+source-wordcount: '2773'
 ht-degree: 0%
 
 ---
@@ -361,6 +361,10 @@ Elke rij van het blad komt overeen met een uniek object.
    * Als u meerdere gegevenswaarden in het aangepaste veld wilt toevoegen (zoals keuzerondjes, selectievakjes of lijsten), gebruikt u het verticale scheidingsteken voor aangepaste gegevens op de balk &quot;|&quot; in het tabblad Voorkeuren om de waarden van elkaar te scheiden.
 
      **Voorbeeld:** Type A|D onder DE:De kolom van Departementen om afdeling A en afdeling D in uw douaneformulier te bevolken.
+
+     >[!NOTE]
+     >
+     >Gebruik alleen het scheidingsteken &quot;|&quot; om aangepaste veldwaarden van elkaar te scheiden. U kunt het niet in om het even welke andere spreadsheetkolommen, met inbegrip van **setCategoryID** gebruiken.
 
 ### Datums opnemen  {#include-dates}
 
