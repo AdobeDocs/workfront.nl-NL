@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: c362c62855c71022c4bc6b3abc22ba4ea83b1b24
+source-git-commit: fbe5373ebe1c73db656384da8a339d0983215e4e
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ U kunt taken en kwesties filtreren die aan u worden toegewezen.
 {{step1-to-priorities}}
 
 1. Klik **Filters** in de hoogste linkerzijde van de werklijst.
-1. klik **Standaardfilters**.
+1. Klik **Standaardfilters**.
 1. Selecteer een of meerdere filters om uw werkitems te beperken.
    ![ Filter ](assets/filter-new.png)
 
@@ -93,8 +93,9 @@ U kunt taken en kwesties filtreren die aan u worden toegewezen.
       <td>Niet klaar</td>
       <td>Hiermee geeft u items weer die
        <ul>
-      <li>Onvolledige voorgangers of taakbeperkingen die verhinderen dat het item wordt bewerkt</li>
+      <li>Onvolledige voorgangers of taakbeperkingen die verhinderen dat het item wordt bewerkt</li></ul>
       <p>of</p>
+      <ul>
       <li>De geplande begindatum meer dan twee weken in de toekomst</li>
       </ul>
        </td>
@@ -143,7 +144,7 @@ Gebruik natuurlijke taal om werk snel te filteren.
 1. Klik **Slimme filters**.
 1. Typ hoe u uw werk wilt filteren.
 
-   U kunt dingen als
+   U kunt dingen als volgt typen:
 
    * Laatste taken weergeven
    * Mijn topprioriteiten tonen
