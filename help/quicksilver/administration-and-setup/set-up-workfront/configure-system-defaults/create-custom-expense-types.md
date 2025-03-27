@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: ff4a9b317bd75b298a7a39814b4ae265c92c6d2a
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 1%
+source-wordcount: '373'
+ht-degree: 0%
 
 ---
 
 # Aangepaste uitgaventypen maken
+
+{{highlighted-preview}}
 
 <!--**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -55,9 +57,9 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 +++
 
-## Standaardkostentypen
+## Standaarduitgaventypen
 
-De kostentypen die standaard in [!DNL Workfront] staan, kunnen niet worden verwijderd of bewerkt, zijn onder andere:
+De standaarduitgaventypen in [!DNL Workfront] die niet kunnen worden verwijderd of bewerkt, zijn onder andere:
 
 * [!UICONTROL Advertising]
 * [!UICONTROL Consulting]
@@ -71,8 +73,8 @@ De kostentypen die standaard in [!DNL Workfront] staan, kunnen niet worden verwi
 {{step-1-to-setup}}
 
 1. Klik op **[!UICONTROL Expense Types]**.
-1. Klik op **[!UICONTROL New Expense Type]**.
-1. Geef in het vak **[!UICONTROL New Expense Type]** dat wordt weergegeven de volgende informatie op:
+1. Klik op **[!UICONTROL New expense type]**.
+1. Geef in het dialoogvenster **[!UICONTROL New Expense Type]** de volgende informatie op:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -106,10 +108,11 @@ De kostentypen die standaard in [!DNL Workfront] staan, kunnen niet worden verwi
     </tbody> 
    </table>
 
-1. Klik op **[!UICONTROL Create Expense Type]**.\
+1. Klik **creëren het Type van Uitgaven** <span class="preview"> of **[!UICONTROL Save]**.</span>
+
    Het uitgaventype is nu beschikbaar voor gebruikers om het met hun uitgaven op projecten en taken te associëren.
 
-## Aangepaste kostentypen wijzigen
+## Aangepaste uitgaventypen wijzigen
 
 {{step-1-to-setup}}
 
@@ -118,7 +121,8 @@ De kostentypen die standaard in [!DNL Workfront] staan, kunnen niet worden verwi
 
    Het dialoogvenster **[!UICONTROL Edit Expense Type]** wordt weergegeven.
 
-1. Breng de gewenste wijzigingen aan en klik op **[!UICONTROL Save Changes]** .\
+1. Breng uw gewenste veranderingen aan, dan klik **sparen Veranderingen** <span class="preview"> of **[!UICONTROL Save]**.</span>
+
    Het uitgaventype is nu beschikbaar voor gebruikers om het met hun uitgaven op projecten en taken te associëren.
 
 Voor meer informatie over hoe te om kosten te gebruiken en hoe zij de kosten van een project kunnen beïnvloeden, zie artikel [ projectuitgaven beheren ](../../../manage-work/projects/project-finances/manage-project-expenses.md).
