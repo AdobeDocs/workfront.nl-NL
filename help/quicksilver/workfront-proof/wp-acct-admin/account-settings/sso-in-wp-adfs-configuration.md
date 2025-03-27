@@ -2,12 +2,12 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-
 navigation-topic: account-settings-workfront-proof
-title: 'Single Sign-On in  [!DNL Workfront Proof]: AD FS configuratie'
+title: 'Single Sign-On in  [!DNL Workfront Proof]: Configuratie AD FS'
 description: Als u een beheerder bent op uw AD-server, kunt u AD FS installeren en configureren.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 670422e9-5db8-4f06-baf8-1f9ce83873fe
-source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
+source-git-commit: 690b0817dfe4ff200982ffe8d67ad93e563e30ac
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Als u een beheerder bent op uw AD-server, kunt u AD FS installeren en configurer
 
 ## AD FS installeren en configureren
 
-1. Download [ EN FS 2.0 van de ADVERTENTIE ](http://www.microsoft.com/en-us/download/details.aspx?id=10909) aan uw computer.
+1. Download Microsoft AD FS 2.0 naar uw computer.
 1. Open het gedownloade AdfsSetup.exe- dossier om de Tovenaar van de Installatie van ADFS (de Actieve Diensten van de Federatie van de Folder) te beginnen.
 1. Voor het scherm van de Rol van de Server, selecteer één van de opties (u hebt minstens een Server van de Federatie nodig).
 1. Als u IIS op uw server van de ADVERTENTIE aan Internet (havens 80 en 443 voor HTTP en HTTPS) niet wilt blootstellen, kunt u eerst opstelling een Server van de Federatie achter de firewall, dan een tweede Volmacht van de Server van de Federatie bouwen die verzoeken door de firewall tot de Server van de Federatie overgaat.

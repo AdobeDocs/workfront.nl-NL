@@ -7,9 +7,9 @@ description: Deze pagina bevat informatie over de structuur en inhoud van de geg
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: eccc878f4b6fdeeffbcd5635b80ac3e26f7fb8c6
 workflow-type: tm+mt
-source-wordcount: '4609'
+source-wordcount: '4719'
 ht-degree: 0%
 
 ---
@@ -495,7 +495,7 @@ De volgende tabel correleert objectnamen in Workfront (en hun namen in de interf
         <td>Portfolio</td>
         <td>Portfolio</td>
         <td>POORT | Portfolio</td>
-        <td>PORTFOLIO'S_CURRENT <br> PORTFOLIO'S_DAILY_HISTORY <br> PORTFOLIO'S_EVENT <br> PORTFOLIO'S_CUSTOM_VALUE_CURRENT <br> PORTFOLIO'S_CUSTOM_VALUE_DAILY_HISTORY <br> PORTFOLIO'S_CUSTOM_VALUE_EVENT</td>
+        <td>PORTFOLIOS_CURRENT <br> PORTFOLIOS_DAILY_HISTORY <br> PORTFOLIOS_EVENT <br> PORTFOLIOS_CUSTOM_VALUE_CURRENT <br> PORTFOLIOS_CUSTOM_VALUE_DAILY_HISTORY <br> PORTFOLIOS_CUSTOM_VALUE_EVENT</td>
         <td>ALIGNMENTSCORECARDID <br> CATEGORYID <br> ENTEREDBYID <br> GROUPID <br> LASTUPDATEDBYID <br> EIWNERID <br> PORTFOLIOID</td>
         <td>De lijst van het scorebord die momenteel niet <br> CATEGORIEËN_CURRENT wordt gesteund | CATEGORYID <br> USER_CURRENT | USERID <br> GROUP_CURRENT | GROUPID <br> USER_CURRENT | USERID <br> USER_CURRENT | USERID <br> Zelf</td>
     </tr>
@@ -723,12 +723,28 @@ De volgende tabel correleert objectnamen in Workfront (en hun namen in de interf
         <td>PREDECESSORID <br> SUCCESSORID <br> TEMPLATEPREDECESSORID (zelf) <br> SYSID</td>
         <td>TEMPLATETASKS_CURRENT |TEMPLATETASKID <br> TEMPLATETASKS_CURRENT |TEMPLATETASKID <br> Zelf <br> geen verhouding; gebruikt voor interne toepassingsdoeleinden</td>
     </tr>
+       <tr>
+        <td>Tijdgefaseerde KPI-valuta (beperkte beschikbaarheid van klanten)</td>
+        <td>Tijd-gefaseerde KPI</td>
+        <td>TMPH | TimePhasedKPI</td>
+        <td>TIMESHEETS_CURRENT <br> TIMESHEETS_DAILY_HISTORY <br> TIMESHEETS_EVENT</td>
+        <td>GOEDGEKEURDE <br> LASTUPDATEDBYID <br> TIMESHEETID <br> TIMESHEETPROFILEID <br> GEBRUIKERID<br></td>
+        <td>USER_CURRENT | USERID <br> NOTE_CURRENT | NOTEID <br> USER_CURRENT | USERID <br> ZELFDE <br> TIMESHEETPROFILES_CURRENT | TIMESHEETPROFILEID <br> USER_CURRENT | USERID</td>
+    </tr>
+        <tr>
+        <td>Tijd-gefaseerde Duur van KPI (beperkte klantenbeschikbaarheid)</td>
+        <td>Tijd-gefaseerde KPI</td>
+        <td>TMPH | TimePhasedKPI</td>
+        <td>TIMEPHASED_DURATION_CURRENT <br> TIMEPHASED_DURATION_DAILY_HISTORY <br> TIMEPHASED_DURATION_EVENT</td>
+        <td>ASSIGNMENTID <br> LOCATIONID <br> OPTASKID <br> PORTFOLIOID <br> PROGRAMMA <br> PROJECTID <br> VERWIJZING <br> ROLEID <br> SOURCETASKID <br> TIMEPHASEDDURATIONID (zelf) <br> GEBRUIKERS ID<br><br></td>
+        <td>ASSIGNMENTS_CURRENT | ASSIGNMENTID <br> GROUPS_CURRENT | GROUPID <br> CLASSIFIER_CURRENT | CLASSIFIERID <br> OPTASKS_CURRENT | OPTASKID <br> PORTFOLIOS_CURRENT | PORTFOLIOID <br> PROGRAMS_CURRENT | PROGRAMID <br> PROJECTS_CURRENT | PROJECTID <br> identificeert het onderwerp van het KPI- verslag <br> ROLES_CURRENT | ROLEID <br> TASKS_CURRENT | TASKID <br> TASKS_CURRENT | TASKID <br> Zelf <br> USERS_CURRENT | USERID</td>
+    </tr>
     <tr>
         <td>Tijdschema</td>
         <td>Tijdschema</td>
-        <td>TSHET | Tijdschema</td>
-        <td>TIMESHEETS_CURRENT <br> TIMESHEETS_DAILY_HISTORY <br> TIMESHEETS_EVENT</td>
-        <td>GOEDGEKEURDE <br> LASTUPDATEDBYID <br> TIMESHEETID <br> TIMESHEETPROFILEID <br> GEBRUIKERID<br></td>
+        <td>TMPH | TimePhasedKPI</td>
+        <td>TIMEPHASED_CURRENCY_CURRENT <br> TIMEPHASED_CURRENCY_DAILY_HISTORY <br> TIMEPHASED_CURRENCY_EVENT</td>
+        <td>ASSIGNMENTID <br> LOCATIONID <br> OPTASKID <br> PORTFOLIOID <br> PROGRAMMA <br> PROJECTID <br> VERWIJZING <br> ROLEID <br> SOURCETASKID <br> TIMEPHASEDCURRENCYID (zelf) <br> USSKID ERID<br><br></td>
         <td>USER_CURRENT | USERID <br> NOTE_CURRENT | NOTEID <br> USER_CURRENT | USERID <br> ZELFDE <br> TIMESHEETPROFILES_CURRENT | TIMESHEETPROFILEID <br> USER_CURRENT | USERID</td>
     </tr>
     <tr>
@@ -737,7 +753,7 @@ De volgende tabel correleert objectnamen in Workfront (en hun namen in de interf
         <td>TSPRO | Tijdbladprofiel</td>
         <td>TIMESHEETPROFILES_CURRENT <br> TIMESHEETPROFILES_DAILY_HISTORY <br> TIMESHEETPROFILES_EVENT</td>
         <td>GOEDGEKEURDE <br> ENTEREDBYID <br> GROUPID <br> SYSID <br> TIMESHEETPROFILEID (zelf)</td>
-        <td>USERS_CURRENT | USERID <br> USERS_CURRENT | USERID <br> GROUPS_CURRENT | GROUPID <br> geen verhouding; gebruikt voor interne toepassingsdoeleinden <br> Zelf</td>
+        <td>ASSIGNMENTS_CURRENT | ASSIGNMENTID <br> GROUPS_CURRENT | GROUPID <br> CLASSIFIER_CURRENT | CLASSIFIERID <br> OPTASKS_CURRENT | OPTASKID <br> PORTFOLIOS_CURRENT | PORTFOLIOID <br> PROGRAMS_CURRENT | PROGRAMID <br> PROJECTS_CURRENT | PROJECTID <br> identificeert het onderwerp van het KPI- verslag <br> ROLES_CURRENT | ROLEID <br> TASKS_CURRENT | TASKID <br> TASKS_CURRENT | TASKID <br> Zelf <br> USERS_CURRENT | USERID</td>
     </tr>
     <tr>
         <td>UI-filter</td>
