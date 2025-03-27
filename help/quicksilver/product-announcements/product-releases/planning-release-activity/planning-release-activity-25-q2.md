@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: e5878d3b591e65f4ece2a79248e03940976580de
+source-git-commit: e8751b8e33ce99d56f816f12b065482c4deb7fbd
 workflow-type: tm+mt
-source-wordcount: '1935'
+source-wordcount: '2166'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,45 @@ In dit artikel worden de functies beschreven die tijdens de release van het twee
 <!--keep the sentence below for all future quarterly release pages-->
 
 Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront worden vrijgegeven, zie [ de versieactiviteit van de Planning van Adobe Workfront: artikelindex ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Koppeling naar nieuwe aanvraag weergeven na verzending
+
+>[!NOTE]
+>
+>Voorbeeld: 27 maart 2025; Productie voor alle klanten: 10 april 2025
+
+U kunt nu een nieuw verzoek openen direct nadat u het vanuit de volgende gebieden hebt ingediend:
+
+* het aanvraagformulier nadat het via een gedeelde koppeling is geopend
+* de recordtypepagina van de knop Nieuwe record of Nieuwe aanvraagrecord.
+* het gebied Verzoeken in het hoofdmenu
+
+Voor informatie, zie [ de Verzoeken van de Planning van Adobe Workfront voorleggen om verslagen ](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen.
+
+## Meerdere objecten van één record maken met behulp van automatisering
+
+>[!NOTE]
+>
+>Voorbeeld: 27 maart 2025; Productie voor alle klanten: 10 april 2025
+
+U kunt nu meerdere projecten maken op basis van hetzelfde Workfront-planningsrecord wanneer u automatisering gebruikt in Workfront Planning. U kunt veelvoudige projecten tot stand brengen en de verwezenlijking van elk project op de waarden van één enkel of multi-select gebied baseren wanneer u één automatisering teweegbrengt. U kunt deze mogelijkheid alleen gebruiken om projecten te maken.  U kunt geen andere veranderingen teweegbrengen of andere types van voorwerpen tot stand brengen gebruikend automatiseringen in Planning.
+
+
+Voorafgaand aan deze verhoging, kon u slechts één project creëren telkens als u een automatisering zou teweegbrengen die voor projecten wordt gevormd.
+
+Voor informatie, zie [ voorwerpen creëren gebruikend het verslag van de Planning van Adobe Workfront automatiseringen ](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
+
+## Naam opzoekvelden wijzigen
+
+>[!NOTE]
+>
+>Voorbeeld: 27 maart 2025; Productie voor alle klanten: 10 april 2025
+
+U kunt nu informatie over opzoekvelden bijwerken nadat deze zijn toegevoegd aan de tabel van een verbonden record.
+
+Vóór deze verbetering, kon u bestaande raadplegingsgebieden niet uitgeven.
+
+Voor informatie, zie [ gebieden ](/help/quicksilver/planning/fields/edit-fields.md) uitgeven.
 
 ## Meerdere aanvraagformulieren van een recordtype instellen en beheren
 

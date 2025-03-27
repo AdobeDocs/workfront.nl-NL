@@ -6,7 +6,8 @@ description: Adobe Workfront heeft API-versie 19 uitgebracht op 6 april 2022. AP
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 13910328903744aa9bf619e8b4c376520c21b89e
+exl-id: 84909dea-7ce1-4ad3-90f5-9dbdb354eaa4
+source-git-commit: 1c1f9f46ea25ffa7d01c1a762b0478a5edb3339e
 workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 0%
@@ -308,7 +309,7 @@ Een voorwerp van het Uur vertegenwoordigt een uur dat door een gebruiker op time
           <li><p><b>ignoreComment</b></li>
           <li><p><b>submitByID</b></li>
           </ul>
-          <p>Het volgende veranderde werd aangebracht in het <b> uren </b> gebied.</p>
+          <p>De volgende veranderingen werden aangebracht aan het <b> uren </b> gebied.</p>
           <ul> 
           <li> Verwijderd validator <b> GREATER_THAN </b></li>
           <li> Toegevoegde validator <b> NOT_EQUAL </b></li>
@@ -437,7 +438,7 @@ Een object Role (taakrol) vertegenwoordigt een functionele capaciteit of een vaa
 
 ### ScoreCardQuestion {#scorecardquestion}
 
-Een ScoreCardQuestion-object vertegenwoordigt een vraag die aan een Scorecard is toegevoegd. Deze vragen worden gewoonlijk bepaald door de manager van het Portfolio, en hun antwoorden staan de manager toe om te begrijpen hoe goed een project zich op de doelstellingen van de portefeuille richt.
+Een ScoreCardQuestion-object vertegenwoordigt een vraag die aan een Scorecard is toegevoegd. Deze vragen worden gewoonlijk bepaald door de manager van Portfolio, en hun antwoorden staan de manager toe om te begrijpen hoe goed een project zich op de doelstellingen van de portefeuille richt.
 
 <table>
   <tbody>
@@ -522,5 +523,3 @@ Een voorwerp Timesheet vertegenwoordigt virtuele timecard dat Gebruikers toestaa
       </td>
   </tbody>
 </table>
-
-

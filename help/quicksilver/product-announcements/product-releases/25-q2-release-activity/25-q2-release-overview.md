@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 90cb8df4735ed7868b15064588ff0b043e972a3f
+source-git-commit: e07e4c7bbdc7f68695df94cc1155e3997bad338b
 workflow-type: tm+mt
-source-wordcount: '1270'
+source-wordcount: '1624'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,9 @@ Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen z
 
 * [Beheerdersverbeteringen](#administrator-enhancements)
 * [Verbeteringen voor documentbeheer](#document-management-enhancements)
+* [Verbeteringen voor mobiele apparaten](#mobile-enhancements)
 * [Projectverbeteringen](#project-enhancements)
+* [Verbeteringen rapporteren](#reporting-enhacements)
 * [Andere verbeteringen](#other-enhancements)
 
 ### Beheerdersverbeteringen
@@ -73,7 +75,7 @@ Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen z
             <p><b>Beschikbaar op deze data:</b></p>
             <ul>
                 <li>Voorvertoningsrelease: 31 januari 2025</li>
-                <li><span class="preview">Productieversie voor alle klanten: 31 januari 2025</span></li>
+                <span class="preview"><li>Productieversie voor alle klanten: 31 januari 2025</li></span>
             </ul>
         </td>
     </tr>                          
@@ -86,6 +88,20 @@ Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen z
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
+<!--    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            New document approval decision buttons available in proofing viewer</a></p>
+            <p>The new document approval decision buttons now appear in the proofing viewer. Now, when you create a simple proof and then add approvers and reviewers from the Document summary, they can make their decision directly inside the proofing viewer.</p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: March 27, 2025</li>
+                <li>Production release for all customers: With the 25.4 release (April 2025)</li>
+            </ul>
+        </td>
+    </tr>    -->                      
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
@@ -97,7 +113,7 @@ Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen z
             <p><b>Beschikbaar op deze data:</b></p>
             <ul>
                 <li>Voorvertoningsrelease: 20 maart 2025</li>
-                <li><span class="preview">Productieversie voor alle afnemers: 20 maart 2025</span></li>
+                <span class="preview"><li>Productieversie voor alle afnemers: 20 maart 2025</li></span>
             </ul>
         </td>
     </tr>                          
@@ -111,7 +127,39 @@ Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen z
             <p><b>Beschikbaar op deze data:</b></p>
             <ul>
                 <li>Voorvertoningsrelease: 6 februari 2025</li>
-                <li><span class="preview">Productieversie voor alle klanten: 13 maart 2025</span></li>
+                <span class="preview"><li>Productieversie voor alle klanten: 13 maart 2025</li></span>
+            </ul>
+        </td>
+    </tr>                          
+</tbody>
+</table>
+
+### Verbeteringen voor mobiele apparaten
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Verbeteringen aan proeven in mobiele app (iOS slechts) </a> [!BADGE in productie ]{type=Informative}</p>
+            <p>Er zijn verschillende verbeteringen beschikbaar voor de proefdrukfunctionaliteit in de mobiele app van Adobe Workfront:
+            <ul>
+            <li>U kunt nu een proefdrukbestand openen vanuit uw mobiele e-mailtoepassing via een koppeling die met u is gedeeld. Eerder werden koppelingen uit e-mailberichten niet ondersteund en moest u proefdrukken openen vanuit de mobiele app van Workfront.</li>
+            <li>Multimediaproefbestanden worden nu ondersteund in de mobiele app.</li>
+            </ul>
+            </p>
+        </td>
+        <td>
+            <p><b>Beschikbaar op deze data:</b></p>
+            <ul>
+                <li>Voorvertoning release: n.v.t.</li>
+                <span class="preview"><li>Productieversie voor alle klanten: 12 maart 2025</li> 
+            </ul>
+            <p><b>Beschikbaar in deze omgevingen:</b></p>
+            <ul>
+                <li>iOS mobiele app</li>
             </ul>
         </td>
     </tr>                          
@@ -142,6 +190,48 @@ Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen z
 </tbody>
 </table>
 
+### Rapportageverbeteringen
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            De de goedkeuring en beslissingsgegevens van het document nu beschikbaar in Gegevens verbinden </a> [!BADGE in productie ]{type=Informative}</p>
+            <p>U hebt nu toegang tot gegevens voor documentgoedkeuringen en -beslissingen in Data Connect. Deze gegevensset vormt een brug tussen documentgoedkeuringen van Workfront-proefdrukmogelijkheden en Frame.io-goedkeuringen die plaatsvinden op Workfront-documenten. U kunt nu de cyclustijd, het aantal cycli en de tijdlijneffecten illustreren voor late goedkeuringen via uw BI-visualisaties.</p>
+        </td>
+        <td>
+            <p><b>Beschikbaar op deze data:</b></p>
+            <ul>
+                <li>Voorvertoningsrelease: 25 maart 2025</li>
+                <li>Productieversie voor alle afnemers: 25 maart 2025</li>
+            </ul>
+        </td>
+    </tr>                          
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Updates van de Workfront-agenda</a></p>
+            <p>We hebben de look and feel van de Workfront-agenda aangepast aan een modern ontwerp dat aansluit bij andere delen van Workfront. Er zijn kleine functieverschillen met de huidige Workfront-kalender, waaronder:
+            <ul>
+            <li>Ad-hocitems toevoegen aan de kalender</li>
+            <li>De manier waarop u de kalender maakt en hernoemt</li>
+            <li>De kalenderacties zijn verplaatst naar het menu Meer naast de kalendernaam</li>
+            <li>Een nieuw zijpaneel voor het weergeven van kalenderinformatie</li>
+            <li>En meer</li>
+            <ul>        </td>
+        <td>
+            <p><b>Beschikbaar op deze data:</b></p>
+            <ul>
+                <li>Voorvertoningsrelease: 27 februari 2025</li>
+                <li>Productieversie voor alle klanten: met de release van 25.4 (10 april 2025)</li>
+            </ul>
+        </td>
+    </tr>                          
+</tbody>
+</table>
+
 ### Andere verbeteringen
 
 <table>
@@ -158,7 +248,7 @@ Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen z
         <td>
             <p><b>Beschikbaar op deze data:</b></p>
             <ul>
-                <li><span class="preview">Productieversie voor alle klanten: 6 maart 2025</span></li>
+                <span class="preview"><li>Productieversie voor alle klanten: 6 maart 2025</li></span>
             </ul>
         </td>
     </tr>
@@ -188,7 +278,7 @@ Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen z
             <p><b>Beschikbaar op deze data:</b></p>
             <ul>
                 <li>Voorvertoningsrelease: gedurende de gehele releaseperiode van het tweede kwartaal van 2025</li>
-                <li><span class="preview">Productieversie: bekijk de opmerkingen bij de release voor specifieke datums</span></li>
+                <span class="preview"><li>Productieversie: bekijk de opmerkingen bij de release voor specifieke datums</li></span>
             </ul>
         </td>
     </tr>
@@ -198,6 +288,13 @@ Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen z
 ### Functionaliteit die binnenkort uit Workfront wordt verwijderd
 
 De volgende functionaliteit wordt binnenkort verwijderd uit Workfront:
+
+#### API versie 2-15-afleiding
+
+Als we het Workfront-platform blijven verbeteren, is het van cruciaal belang dat onze API&#39;s up-to-date blijven. Dit zorgt voor optimale prestaties en beveiliging en ondersteunt nieuwe mogelijkheden. Daarom vervangen wij Workfront API versies 2-15.
+
+* **September 2025**: API versies 2-14, die momenteel niet gesteund zijn, zullen worden afgekeurd. Na deze datum zijn deze versies niet meer toegankelijk.
+* **December 2025**: API versie 15 zal worden afgekeurd.
 
 #### We verwijderen de oudere versie van de Agile-weergave in een project
 

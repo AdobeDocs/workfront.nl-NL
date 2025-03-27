@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: ece8b2b248c8dd4e27465fbacb1319a7e0fbac11
+source-git-commit: 9b1514ac84692703aa1938c306ff5680d7c9f74f
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,62 @@ ht-degree: 0%
 Deze pagina beschrijft kleine updates van de blik en het gevoel van diverse gebieden van de toepassing van Adobe Workfront die binnen het tweede Kwartaal 2025 releasetijdschema werden gemaakt.
 
 Voor een lijst van alle veranderingen beschikbaar met het Tweede Kwartaal 2025 versie, zie [ Tweede Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
+
+<!--
+
+## Updated experience in the Access Levels area in Setup
+
+>[!NOTE]
+>
+>Preview release: March 27, 2025; Production release for all customers: With the 25.4 release (April 10, 2025)
+
+To enhance performance, we've made some visual updates to the Access Levels area in Setup.
+
+A small functionality change has been applied to the Access Levels list. To copy, edit, or delete an access level, select the level and click the appropriate icon.
+
+-->
+
+## De blik-en-voelen updates aan de Dialoogvensters van de Types van Uitgaven
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 27 maart 2025; Productieversie voor alle klanten: met 25.4 release (10 april 2025)
+
+We hebben de vormgeving van de dialoogvensters voor het toevoegen en bewerken van kostentypen in het gedeelte Setup bijgewerkt, zodat deze overeenkomen met het ontwerp van andere gebieden van Workfront.
+
+Voor informatie, zie [ de types van douanevergoeding ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md) creëren.
+
+## De blik-en-voelen updates voor het Edit vakje van het Type van Risico
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 27 maart 2025; Productieversie voor alle klanten: met 25.4 release (10 april 2025)
+
+Wij hebben de blik en het gevoel van het Edit vakje van het Type van Risico bijgewerkt wanneer u een bestaand Type van Risico in het gebied van de Opstelling van Workfront bijwerkt. Het nieuwe ontwerp komt nu overeen met andere delen van Workfront.
+
+Voor informatie, zie [ uitgeven en creeer risicstypes ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
+
+## De blik-en-voelen updates voor het Nieuwe vakje van het Type van Risico
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 27 maart 2025; Productieversie voor alle klanten: met 25.4 release (10 april 2025)
+
+Wij hebben de blik en het gevoel van het Nieuwe vakje van het Type van Risico bijgewerkt wanneer u een nieuw Type van Risico in het gebied van de Opstelling van Workfront toevoegt. Het nieuwe ontwerp komt nu overeen met andere delen van Workfront.
+
+Voor informatie, zie [ uitgeven en creeer risicstypes ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
+
+## Kijk en voel updates aan het gebied van de Details van de Rij van een project
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 27 maart 2025; Productieversie voor alle klanten: met 25.4 release (10 april 2025)
+
+We hebben de vormgeving van het gebied Wachtrij details voor een project aangepast aan het ontwerp van andere delen van Workfront.
+
+Met deze update is de vormgeving van het gebied Wachtrij details van een sjabloon niet gewijzigd.
+
+Voor informatie, zie [ een Rij van het Verzoek ](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
 
 ## Avatars worden niet meer weergegeven in bepaalde e-mailberichten
 
@@ -35,27 +91,11 @@ Avatars worden niet meer weergegeven in de volgende e-mailmeldingen:
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 6 maart 2025; Productieversie voor alle klanten: 10 april 2025
+>Voorvertoningsrelease: 6 maart 2025; Productieversie voor alle klanten: met 25.4 release (10 april 2025)
 
 Wij hebben de blik en het gevoel van de lijst van de Weg van de Mijlpaal in het gebied van de Opstelling bijgewerkt, om het ontwerp van andere gebieden van Workfront aan te passen.
 
 Voor informatie, zie [ een milestone weg ](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) creëren.
-
-## Updates van de Workfront-agenda bekijken en weergeven
-
->[!NOTE]
->
->Voorvertoningsrelease: 27 februari 2025; Productieversie voor alle klanten: met 25.4 release (10 april 2025)
-
-We hebben de look and feel van de Workfront-agenda aangepast aan een modern ontwerp dat aansluit bij andere delen van Workfront. Er zijn kleine functieverschillen met de huidige Workfront-kalender, waaronder:
-
-* Ad-hocitems toevoegen aan de kalender
-* De manier waarop u de kalender maakt en hernoemt
-* De kalenderacties zijn verplaatst naar het menu Meer naast de kalendernaam
-* Een nieuw zijpaneel voor het weergeven van kalenderinformatie
-* En meer
-
-Voor meer informatie, zie de [ Kalenders ](/help/quicksilver/reports-and-dashboards/reports/calendars/calendars.md) artikelen.
 
 ## Bijgewerkte weergave van een projectmijlpaden in een projectweergave
 
