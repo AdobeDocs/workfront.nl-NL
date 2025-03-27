@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
 workflow-type: tm+mt
-source-wordcount: '2799'
+source-wordcount: '5167'
 ht-degree: 0%
 
 ---
@@ -24,15 +24,12 @@ ht-degree: 0%
 <THIS IS CONNECTED TO THE PRODUCT IN BLUEPRINTS. DO NOT MOVE/ CHANGE URL>
 -->
 
-<!--remove/ hide the entire "create requests in Production" section and just edit and leave  only the preview section when it releases to Production; also remove the template blurb when the queue details is unshimmed for templates-->
+<!--hide/ comment out the entire "create requests in Production" section and just edit and leave  only the preview section when it releases to Production; also remove the template blurb when the queue details is unshimmed for templates-->
 
-<!--
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
-
--->
 
 U kunt opstelling een Rij van het Verzoek waar de gebruikers occasionele verzoeken kunnen ingaan die niet gepland werk aan een project zijn. Bijvoorbeeld, kan een rij van het hulpdeskverzoek opstelling zijn om alle gebruikersverzoeken te vangen die aan een afdeling van IT komen.
 
@@ -118,18 +115,16 @@ Dit artikel beschrijft hoe te om een verzoekrij van een bestaand project tot sta
 
 ## Een aanvraagwachtrij maken
 
-<!-- 
+<!--at production release on April 10, do the following: take the first sentence here out; hide/ comment out the first section (Create a Request Queue in the Production environment); remove the title of the "Create a Request Queue in the Preview environment and leave that section as the only way to create request queues; search for any visible references of production/ preview and remove them from the entire article-->
 
-Creating a request queue differs depending on what environment you use. 
+Het maken van een aanvraagwachtrij is afhankelijk van de omgeving die u gebruikt.
 
-### Create a Request Queue in the Production environment
+### Een aanvraagwachtrij maken in de productieomgeving
 
-This section describes how you can define Queue Details for the following objects:
+In deze sectie wordt beschreven hoe u Wachtrijdetails kunt definiëren voor de volgende objecten:
 
-* A project in the Production environment
-* A template in the Production or Preview environment
-
--->
+* Een project in de productieomgeving
+* Een sjabloon in de productie- of voorvertoningsomgeving
 
 Wanneer u opstelling een project als Rij van het Verzoek, de projectstatus moet Actief zijn om op het gebied van Verzoeken van Workfront te tonen.
 
@@ -329,225 +324,220 @@ Als u de veelvoudige Onderwerpen van de Rij verbonden aan een Rij van het Verzoe
    * Voor informatie over het creëren van sub-secties voor de Rij van het Verzoek, zie de artikelen [ de Onderwerpen van de Rij ](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md) creëren en [ creeer de Groepen van het Onderwerp ](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
    * Voor informatie over het verpletteren van de verzoeken aan aangewezen ontvanger, team, en aangewezen project, zie [ het Verpletteren van Regels ](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md) creëren.
 
-<!--
-
 <div class="preview">
 
-### Create a Request Queue in the Preview environment
+### Een aanvraagwachtrij maken in de voorvertoningsomgeving
 
-When you set up a project as a Request Queue, the project status must be Current in order to display in the Requests area of Workfront.
+Wanneer u opstelling een project als Rij van het Verzoek, de projectstatus moet Actief zijn om op het gebied van Verzoeken van Workfront te tonen.
 
 >[!TIP]
 >
->Your Workfront or group administrator might assign you to a custom Layout Template that might not include some of the sections described in the following steps.
+>Uw Workfront- of groepsbeheerder kan u toewijzen aan een aangepaste lay-outsjabloon die wellicht niet alle secties bevat die in de volgende stappen worden beschreven.
 
-To create a Request Queue:
+Een aanvraagwachtrij maken:
 
-1. Go to the project that you want to set up as a Request Queue.
-1. (Optional) Click **Project Details** in the left panel and add a **Description** to the project in the **Overview** area. This information displays on all new requests.
-1. Click **Queue Details** in the left panel. You might need to click **Show More**, then **Queue Details**.
+1. Ga naar het project dat u opstelling als Rij van het Verzoek wilt.
+1. (Facultatief) klik **Details van het Project** in het linkerpaneel en voeg a **Beschrijving** aan het project in het **Overzicht** gebied toe. Deze informatie wordt weergegeven bij alle nieuwe aanvragen.
+1. Klik **Details van de Rij** in het linkerpaneel. U zou kunnen moeten klikken **Meer** tonen, dan **de Details van de Rij**.
 
-   This opens the Queue Details section.
+   Hiermee opent u de sectie met gegevens van de wachtrij.
 
-   ![Queue Type section in Queue Details area](assets/unshimmed-queue-type-section-queue-details-area.png)
+   ![ sectie van het Type van Rij in het gebied van de Details van de Rij ](assets/unshimmed-queue-type-section-queue-details-area.png)
 
-1. Specify the following information:
+1. Geef de volgende informatie op:
 
-   * **Publish as Help Request Queue**: Select this option to identify this project as a request queue. All incoming issues are considered Requests.  
-     When this option is not selected, the project behaves like a standard project in Workfront and all incoming issues are issues.
-   
-   * **Who can add requests to this queue?**: Select which users have access to add requests to this queue. You can allow the following groups of people to see the Request Queue in their Requests area of the Global Navigation Bar when they add a new request:
+   * **publiceer als Rij van het Verzoek van de Hulp**: Selecteer deze optie om dit project als verzoekrij te identificeren. Alle inkomende kwesties worden beschouwd als Verzoeken.\
+     Als deze optie niet is geselecteerd, gedraagt het project zich als een standaardproject in Workfront en zijn alle binnenkomende problemen van belang.
 
-     |Who can enter requests | Description|
+   * **wie verzoeken aan deze rij kan toevoegen?**: Selecteer welke gebruikers toegang hebben om aanvragen aan deze wachtrij toe te voegen. U kunt de volgende groepen mensen toestaan om de Rij van het Verzoek in hun gebied van Verzoeken van de Globale Bar van de Navigatie te zien wanneer zij een nieuw verzoek toevoegen:
+
+     | Wie aanvragen kan invoeren | Beschrijving |
      |---|---|
-     | Anyone  |Any Workfront user with an active account can view this request queue and add requests to it |
-     | People with view access to this project |Users with View permissions to the project can view and add requests to this queue |
-     | People in this project's company |Users who belong to the company associated with this project can view and add requests to this queue. If there is a company associated with the project, the name of the company is listed in parentheses after this setting.  |
-     | People in this project's group |Users who belong to the group associated with this project can view and add requests to this queue. If there is a group associated with the project, the name of the group is listed in parentheses after this setting, in gray font.  |
+     | Iedereen | Elke Workfront-gebruiker met een actief account kan deze aanvraagwachtrij bekijken en er aanvragen aan toevoegen |
+     | Personen met toegang tot dit project | Gebruikers met de machtiging Weergeven aan het project kunnen aanvragen weergeven en toevoegen aan deze wachtrij |
+     | Personen in het bedrijf van dit project | De gebruikers die tot het bedrijf behoren verbonden aan dit project kunnen verzoeken aan deze rij bekijken en toevoegen. Als er een bedrijf verbonden aan het project is, is de naam van het bedrijf vermeld tussen haakjes na dit het plaatsen. |
+     | Personen in de projectgroep | De gebruikers die tot de groep behoren verbonden aan dit project kunnen verzoeken aan deze rij bekijken en toevoegen. Als er een groep is die aan het project is gekoppeld, wordt de naam van de groep na deze instelling tussen haakjes weergegeven, in een grijs lettertype. |
 
      {style="table-layout:auto"}
 
-   * (*************removed: **Share with these links:** - asked Lusine if this stays***********) Use the following options to provide direct access to the Request Queue and the forms associated with it to users outside of Workfront or to Workfront users using an embedded external page. 
-   
-    For information about embedding a request queue in a dashboard as an external page, see [Embed a request queue in a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md).
+   * Gebruik de volgende opties om gebruikers buiten Workfront of Workfront-gebruikers die een ingesloten externe pagina gebruiken rechtstreeks toegang te geven tot de wachtrij met aanvragen en de bijbehorende formulieren.
 
-     Users must first have permissions to the Request Queue in order to gain direct access. Using either option described here does not automatically grant access to users.
+   Voor informatie over het inbedden van een verzoekrij in een dashboard als externe pagina, zie [ een verzoekrij in een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md) inbedden.
 
-     >[!TIP]
+   De gebruikers moeten toestemmingen aan de Rij van het Verzoek eerst hebben om directe toegang te krijgen. Het gebruik van een van de hier beschreven opties verleent niet automatisch toegang aan gebruikers.
+
+   >[!TIP]
+   >
+   >Gebruikers moeten zich eerst aanmelden bij Workfront voordat ze toegang krijgen tot de wachtrij met aanvragen wanneer ze vanuit een andere toepassing toegang krijgen tot de pagina Wachtrij aanvragen.
+
+   * **Directe Toegang URL:** wanneer een gebruiker tot dit URL van browser toegang heeft, wordt de gebruiker rechtstreeks genomen aan de Nieuwe sectie van het Verzoek in het gebied van Verzoeken en dit verzoek wordt geselecteerd door gebrek voor hen.
+
+     ![ Nieuwe verzoekdoos van het Directe aandeel URL ](assets/new-request-box-from-direct-url-share.png)
+
+     >[!NOTE]
      >
-     >Users must first log in to Workfront before gaining access to the request queue when they access the Request Queue page from another application.
+     >U kunt een verzoekwachtrij in een dashboard weergeven als een externe pagina. In dit geval is de wachtrij met aanvragen vooraf geselecteerd, maar u kunt een andere wachtrij met aanvragen selecteren in het veld Type verzoek. Gebruikers die de aanvraag indienen, kunnen een ander aanvraagtype selecteren. De Groepen van het onderwerp en de Onderwerpen van de Rij tonen ook.
 
-      * **Direct Access URL:** When a user accesses this URL from a browser, the user is taken directly to the New Request  section in the Requests area and this request is selected by default for them.
+   * **bed Code in:** gebruik deze code van HTML om de vorm van de verzoekrij als iframe binnen om het even welke pagina van HTML in te bedden.\
+     Als gebruikers nog niet zijn geverifieerd bij Workfront wanneer ze de pagina bekijken waarop de code is ingesloten, wordt het Workfront-aanmeldingsvenster weergegeven. Nadat gebruikers zich hebben aangemeld, wordt het formulier Wachtrij aanvragen weergegeven.
 
-        ![New request box from Direct URL share](assets/new-request-box-from-direct-url-share.png)
+     >[!NOTE]
+     >
+     >Als een aanvraagwachtrij wordt weergegeven in een iframe, wordt alleen het aanvraagformulier weergegeven. De naam van de aanvraag wordt dan vooraf geselecteerd en grijs weergegeven. Gebruiker kan het aanvraagtype niet wijzigen. Navigatiecomponenten van het gebied Verzoeken worden niet weergegeven.
 
-        >[!NOTE]
-        >
-        >You can display a Request Queue in a dashboard as an external page. In this case, the request queue is preselected, but you can select any other request queue from the Request Type field. Users submitting the request can select another Request Type. Topic Groups and Queue Topics also display.
+     Uw Workfront-beheerder moet de instelling Insluiten van Workfront in een iFrame toestaan inschakelen in het gedeelte System Setup (Systeeminstellingen) om het formulier voor de aanvraagwachtrij weer te geven wanneer deze insluitcode wordt gebruikt.
 
-      * **Embed Code:** Use this HTML code to embed the request queue form as an iframe within any HTML page.  
-        If users are not already authenticated to Workfront when they view the page where the code is embedded, the Workfront login dialog box is displayed. After users log in, the Request Queue form is displayed.
+     Voor meer informatie over het toelaten van het inbedden van Workfront in een iframe, zie [ de voorkeur van de systeemveiligheid ](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) vormen. Als deze instelling niet is ingeschakeld, wordt het iframe leeg weergegeven.
 
-        >[!NOTE]
-        >
-        >When displaying a Request Queue in an iframe, only the request form displays, the request name is preselected and dimmed. User cannot change the Request type. Navigation components of the Requests area do not display.
+     U kunt als volgt verschillende aspecten van de weergave van het ingesloten formulier aanpassen:
 
-        In order for the request queue form to be displayed when using this embed code, your Workfront administrator must enable the "Allow embedding of Workfront in an iframe" setting in your system Setup area. 
-        
-        For more information about enabling embedding of Workfront in an iframe, see [Configure system security preferences](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md). If this setting is not enabled, the iframe is displayed as blank.
-
-        You can adjust various aspects of how the embedded form is displayed, as follows:
-
-        <table border="1" cellspacing="15"> 
+     <table border="1" cellspacing="15"> 
          <col> 
          <col> 
          <thead> 
           <tr> 
-           <th> <p><strong>Functionality</strong> </p> </th> 
-           <th> <p><strong>Solution</strong> </p> </th> 
+           <th> <p><strong> Functionaliteit </strong> </p> </th> 
+           <th> <p><strong> Oplossing </strong> </p> </th> 
           </tr> 
          </thead> 
          <tbody> 
           <tr> 
-           <td> <p>Adjust the size of the frame</p> </td> 
-           <td> <p>Modify the "width" and "height" attributes.</p> <p>By default, the width is "500" and the height is "600"</p> </td> 
+           <td> <p>De grootte van het frame aanpassen</p> </td> 
+           <td> <p>Wijzig de kenmerken "width" en "height".</p> <p>De breedte is standaard "500" en de hoogte is "600"</p> </td> 
           </tr> 
           <tr> 
-           <td> <p>Direct users to a specific Queue Topic or Topic Group</p> </td> 
-           <td> <p>Add the "path" parameter to the src URL. You can find the path parameter by navigating to the desired Queue Topic or Topic Group in the non-embedded form and inspecting the URL.</p> </td> 
+           <td> <p>Directe gebruikers aan een specifiek Onderwerp van de Rij of een Groep van het Onderwerp</p> </td> 
+           <td> <p>Voeg de parameter "path" toe aan de URL van de bron. U kunt de wegparameter vinden door aan het gewenste Onderwerp of de Groep van het Onderwerp van de Rij in de niet ingebedde vorm te navigeren en URL te inspecteren.</p> </td> 
           </tr> 
           <tr> 
-           <td> <p>Show and allow users to change the pre-configured Topic Group drop-down list</p> </td> 
-           <td> <p>Use the "path" parameter by adding the <code>showPreSelectedOptions=true</code> parameter to the <code>src URL</code>.</p> </td> 
+           <td> <p>Toon en sta gebruikers toe om de vooraf gevormde drop-down lijst van de Groep van het Onderwerp te veranderen</p> </td> 
+           <td> <p>Gebruik de parameter "path" door de parameter <code>showPreSelectedOptions=true</code> aan <code>src URL</code> toe te voegen.</p> </td> 
           </tr> 
           <tr> 
-           <td> <p>Detect when the form has been submitted</p> </td> 
-           <td> <p>Add a "message" event listener to your web page's window and checking if <code>event.data.type</code> is <code>requestSubmitted</code>. <code>event.data.newIssueID</code> will be set to the ID of the created issue.</p> </td> 
+           <td> <p>Detecteren wanneer het formulier is verzonden</p> </td> 
+           <td> <p>Voeg een "message"-gebeurtenislistener toe aan het venster van uw webpagina en controleer of <code>event.data.type</code> <code>requestSubmitted</code> is. <code>event.data.newIssueID</code> wordt ingesteld op de id van het gemaakte probleem.</p> </td> 
           </tr> 
          </tbody> 
         </table>
 
-   * **Request Types:** In the **Queue Properties** section, select from the following options: 
+   * **de Types van Verzoek:** in de **sectie van de Eigenschappen van de Rij**, selecteer van de volgende opties:
 
-      * Bug Report
-      * Change Order
-      * Issue
-      * Request
+   * Foutrapport
+   * Volgorde wijzigen
+   * Probleem
+   * Verzoek
 
-      This is a required field and you must select at least one option.
+   Dit is een verplicht veld en u moet ten minste één optie selecteren.
 
-      The Workfront administrator can rename the default request types. For more information about renaming the request types, see [Customize default issue types](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md).     
+   De Workfront-beheerder kan de standaardaanvraagtypen een andere naam geven. Voor meer informatie over het anders noemen van de verzoektypes, zie [ de types van standaardkwestie ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md) aanpassen.
 
-     >[!NOTE]
-     >
-     >When users access the request queue from the Requests area, the Request Types display as a selection only if the Request Type is selected in both the Queue Details and the Queue Topic pages. 
-     >
-     >For information about setting up the Queue Topics area of a project, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+   >[!NOTE]
+   >
+   >Wanneer de gebruikers tot de verzoekrij van het gebied van Verzoeken toegang hebben, tonen de Types van Verzoek als selectie slechts als het Type van Verzoek in zowel de Details van de Rij als de pagina&#39;s van het Onderwerp van de Rij wordt geselecteerd.
+   >
+   >Voor informatie over vestiging het gebied van de Onderwerpen van de Rij van een project, zie [ de Onderwerpen van de Rij ](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md) creëren.
 
-     Each type selected here will be available on the form (you can select more than one). Selecting more than one type can help organize multiple requests coming in.  
-     For example, if you are using the form on a request queue for an IT project, the following request types can come in to the queue: hardware, software, bug fixes, and issues.
+   Elk hier geselecteerd type is beschikbaar op het formulier (u kunt meerdere typen selecteren). Als u meerdere typen selecteert, kunt u meerdere aanvragen ordenen die binnenkomen.\
+   Als u bijvoorbeeld het formulier op een aanvraagwachtrij voor een IT-project gebruikt, kunnen de volgende aanvraagtypen in de wachtrij worden geplaatst: hardware, software, foutoplossingen en problemen.
 
-   * **Default Duration:** Enter a number for the Duration, then select from the drop-down menu one of the following duration units:
+   * **StandaardDuur:** ga een aantal voor de Duur in, dan selecteer van het drop-down menu één van de volgende duureenheden:
 
-      * Days
-      * Hours
-      * Minutes
-      * Weeks
-   
-    The default duration is the length of time it typically takes to complete an issue submitted to this request queue. This becomes the default for all incoming issues and can be modified manually. 
-    The Default Duration of an issue is the same as the Planned Hours on the issue. The Planned Completion Date of the issue calculates based on this field.  
-    If left unchanged, the default for the issue Duration is 1 day or 8 hours. 
-    If your Workfront administrator set the Typical Hours per Work Day as less than 8 hours in the Setup area, the Default Duration for issues is still 8 hours. 
-    For example, if the Typical Hours per Work Day is set to 7 hours i the Setup area of Workfront, the Default Duration for issues is 1.14 Days or 8 hours. 
-    For more information about how to set up the system Typical Hours per Work Day, see the "Timeline Calculations" section in the article [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
-   
-   * **People from the same company will inherit the same permissions for all requests.**: When selected, all requests submitted to the queue are visible for users in the same company. Users can view these requests in the All Requests  section , located within the Requests area. At the time that this setting is enabled or disabled, it impacts all future requests; it does not retroactively impact information. 
-   * **When someone makes a request, automatically grant...:** When a user makes a request to the request queue, the user is automatically granted the level of permission that you choose to that request. Click the Access button to select from the following permissions levels: 
+      * Dagen
+      * Uren
+      * Minuten
+      * Weken
 
-      * **View Access** 
-      * **Contribute Access**. This is the default selection and the name of the Access button.
-      * **Manage Access**
+   De standaardduur is de tijdsduur het typisch neemt om een kwestie te voltooien die aan deze verzoekrij wordt voorgelegd. Dit wordt de standaardinstelling voor alle binnenkomende uitgaven en kan handmatig worden gewijzigd.
+De standaardduur van een uitgave is gelijk aan de geplande uren voor het probleem. De geplande afwerkingsdatum van de uitgave wordt berekend op basis van dit veld.\
+   Als deze optie niet wordt gewijzigd, is de standaardduur voor de uitgave 1 dag of 8 uur.
+Als uw Workfront-beheerder de typische uren per werkdag instelt op minder dan 8 uur in het gedeelte Setup, is de standaardduur voor uitgaven nog steeds 8 uur.
+Als de instelling voor de typische uren per werkdag bijvoorbeeld is ingesteld op 7 uur in het gedeelte Setup van Workfront, is de standaardduur voor uitgaven 1,14 dagen of 8 uur.
+Voor meer informatie over hoe te opstelling ziet de systeem Typische Uren per Dag van het Werk, de &quot;sectie van de Berekeningen van de Chronologie&quot;in het artikel [ systeembrede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 
-     For information about the Workfront permissions model, see [Overview of sharing permissions on objects](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).   
-     Setting permissions here saves time, rather than having to grant permissions individually, for each incoming request. Choosing this option impacts all future requests, but does not retroactively impact existing requests. 
-   
-   * **Default Approval**: Click the drop-down menu to select an approval process for this request queue. Only Issue Approval Processes are visible in this drop-down menu. All issues submitted to this queue will be associated with this approval process. Your Workfront administrator must define system-level approval processes before you can associate them with request queues. Users with administrative access to Approval processes can also create group-specific approval processes.
+   * **de Mensen van het zelfde bedrijf zullen de zelfde toestemmingen voor alle verzoeken erven.**: Als deze optie is geselecteerd, zijn alle aanvragen die naar de wachtrij worden verzonden zichtbaar voor gebruikers in hetzelfde bedrijf. De gebruikers kunnen deze verzoeken in de Al sectie van Verzoeken bekijken, die binnen het gebied van Verzoeken wordt gevestigd. Op het moment dat deze instelling wordt in- of uitgeschakeld, heeft deze invloed op alle toekomstige aanvragen. De instelling heeft geen retroactieve invloed op informatie.
+   * **wanneer iemand een verzoek indient, automatisch verlenen..:** wanneer een gebruiker een verzoek aan de verzoekrij indient, wordt de gebruiker automatisch verleend het niveau van toestemming dat u aan dat verzoek kiest. Klik op de knop Toegang om een van de volgende machtigingsniveaus te selecteren:
+
+      * **Toegang van de Mening**
+      * **draag Toegang** bij. Dit is de standaardselectie en de naam van de knoop van de Toegang.
+      * **beheert Toegang**
+
+     Voor informatie over het de toestemmingenmodel van Workfront, zie [ Overzicht van het delen van toestemmingen op voorwerpen ](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).\
+     Het plaatsen van toestemmingen bewaart hier tijd, eerder dan het moeten toestemmingen individueel, voor elk inkomend verzoek verlenen. Het kiezen van deze optie is van invloed op alle toekomstige verzoeken, maar heeft geen terugwerkende invloed op bestaande verzoeken.
+
+   * **StandaardGoedkeuring**: Klik het drop-down menu om een goedkeuringsproces voor deze verzoekrij te selecteren. In dit keuzemenu worden alleen processen voor goedkeuring van uitgaven weergegeven. Alle kwesties die aan deze rij worden voorgelegd zullen met dit goedkeuringsproces worden geassocieerd. Uw Workfront-beheerder moet goedkeuringsprocessen op systeemniveau definiëren voordat u deze kunt koppelen aan aanvraagwachtrijen. Gebruikers met administratieve toegang tot goedkeuringsprocessen kunnen ook groepsspecifieke goedkeuringsprocessen maken.
 
      >[!IMPORTANT]
      >
-     >If the group of the project changes, the group-specific approval process attached to existing issues becomes a single-use approval process. For more information about how changes to the group of the project or changes in the approval process affect approval settings, see [How group and approval process changes affect assigned approval processes](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md).
+     >Als de groep van het project verandert, wordt het groep-specifieke goedkeuringsproces verbonden aan bestaande kwesties een enig-gebruiks goedkeuringsproces. Voor meer informatie over hoe de veranderingen in de groep van het project of de veranderingen in het goedkeuringsproces goedkeuringsmontages beïnvloeden, zie [ hoe de groep en de veranderingen van het goedkeuringsproces aangewezen goedkeuringsprocessen ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md) beïnvloeden.
 
-     If you have multiple queue topics associated with a request queue, we recommend that you associate approval processes with the queue topics instead. 
-     
-     For more information about creating queue topics, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md). 
-   
-     Consider the following when adding approval processes to request queues:
+     Als u veelvoudige rijonderwerpen verbonden aan een verzoekrij hebt, adviseren wij dat u goedkeuringsprocessen met de rijonderwerpen in plaats daarvan associeert.
 
-      * Only active issue approval processes display in the list. 
-      * System-wide and group-specific issue approval processes display in the list. An approval process associated with a group other than that of the project does not display in the list.
+     Voor meer informatie over het creëren van rijonderwerpen, zie [ de Onderwerpen van de Rij ](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md) creëren.
 
-   * **Default Route**: Click the drop-down menu to select a routing rule for this request queue. Routing rules automatically assign new issues submitted to a request queue to the correct resource (user, job role, or team), and to the correct project. All issues submitted to this queue will be associated with this routing rule. You must configure Routing Rules before they display in the Queue Details section and before you can associate them with request queue.  
-     If you have multiple queue topics associated with a request queue, we recommend that you associate routing rules with the queue topics instead. For more information about creating routing rules, see [Create Routing Rules](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
-   
-   * **New Issue Fields:** In the **Show the following selected fields to all users** section, select the fields that you want to be visible to all users who submit a request to the project or add an issue to this project or to the project's tasks.
+     Overweeg het volgende wanneer het toevoegen van goedkeuringsprocessen om rijen te verzoeken:
 
-      >[!NOTE]
-      >
-      >* When you enable any of the Assigned to, Job Role, or the Team fields, they are always renamed to Assignments in the request form when users submit the request. You can only specify the type of assignment in the Queue Details area. 
-      >
-      >* If you selected Assigned To in the Queue Details area, you can enter only users in the Assignments field on the request form. In this case, you cannot enter job roles or a team. 
-   
-   * **Documents**: Select this option to display the Documents section in the new request form, then select where the document uploading section should be positioned. Select from the following:
+      * Alleen actieve goedkeuringsprocessen worden in de lijst weergegeven.
+      * Systeemspecifieke en groepsspecifieke goedkeuringsprocessen worden in de lijst weergegeven. Een goedkeuringsproces verbonden aan een groep buiten die van het project toont niet in de lijst.
+
+   * **StandaardRoute**: Klik het drop-down menu om een verpletterende regel voor deze verzoekrij te selecteren. Het verpletteren van regels wijst automatisch nieuwe kwesties toe die aan een verzoekrij aan het correcte middel (gebruiker, baanrol, of team) worden voorgelegd, en aan het correcte project. Alle kwesties die aan deze rij worden voorgelegd zullen met deze verpletterende regel worden geassocieerd. U moet het Verpletteren van Regels vormen alvorens zij in de sectie van de Details van de Rij tonen en alvorens u hen met verzoekrij kunt associëren.\
+     Als u veelvoudige rijonderwerpen verbonden aan een verzoekrij hebt, adviseren wij dat u het verpletteren van regels met de rijonderwerpen in plaats daarvan associeert. Voor meer informatie over het creëren van het verpletteren van regels, zie [ het Verpletteren van Regels ](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md) creëren.
+
+   * **Nieuwe Velden van de Uitgave:** In **toon de volgende geselecteerde gebieden aan alle gebruikers** sectie, selecteer de gebieden die u aan alle gebruikers zichtbaar wilt zijn die een verzoek aan het project voorleggen of een kwestie aan dit project of aan de taken van het project toevoegen.
+
+     >[!NOTE]
+     >
+     >* Wanneer u een van de velden Toegewezen aan, Functie of Team inschakelt, wordt de naam van de toegewezen taken altijd gewijzigd in Toewijzingen in het aanvraagformulier wanneer gebruikers de aanvraag indienen. U kunt het type toewijzing alleen opgeven in het gebied Wachtrij details.
+     >
+     >* Als u Toegewezen aan in het gebied van de Details van de Rij selecteerde, kunt u slechts gebruikers op het gebied van Toewijzingen op het verzoekformulier ingaan. In dit geval kunt u geen taakrollen of een team invoeren.
+
+   * **Documenten**: Selecteer deze optie om de sectie van Documenten in de nieuwe verzoekvorm te tonen, dan te selecteren waar het document uploadende sectie zou moeten worden geplaatst. Selecteer een van de volgende opties:
 
      <table style="table-layout:auto"> 
       <col> 
       <col> 
       <tbody> 
        <tr> 
-        <td role="rowheader">After custom forms</td> 
-        <td><span>The Documents section displays at the bottom of the request form.</span> </td> 
+        <td role="rowheader">Na aangepaste formulieren</td> 
+        <td><span> de sectie van Documenten toont bij de bodem van de verzoekvorm.</span> </td> 
        </tr> 
        <tr> 
-        <td role="rowheader">Before custom forms</td> 
-        <td> <p><span>The Documents section displays between the Workfront fields and the custom fields of the request form.</span> </p> </td> 
+        <td role="rowheader">Voor aangepaste formulieren</td> 
+        <td> <p><span> de sectie van Documenten toont tussen de gebieden van Workfront en de douanegebieden van de verzoekvorm.</span> </p> </td> 
        </tr> 
       </tbody> 
-     </table>   
-   
-     ![New issue fields and documents on Queue Details](assets/new-issue-fields-and-documents-on-queue-details.png)
+     </table>
 
-   * **Show all selected and unselected fields to:** Select which users should see all the fields on the new request form. The following options control the access to the fields on the form.
-    
-      |Which users can see all fields on the request form | Description|  
-      |---|---| 
-      | All Users (Plan Licenses) |All users who have a Plan license can see the selected as well as the unselected fields. |
-      | People with view access to this project (Plan License) |Those users with a Plan license that also have View rights to this project can see the selected as well as the unselected fields. The rest of the users who can submit requests to this project can see just the selected fields. |
-      | No Users |No users can see the unselected fields. All users who can submit requests to this project can only see the fields selected. This is the default selection. |
-  
-   * **Custom Forms**: Select a custom form to associate with the Request Queue from the drop-down menu. You can select multiple forms, then drag and drop them in the order you would like them to display in the request form. 
-   Only issue custom forms are available to select from this drop-down menu. All issues submitted to this request queue, added to the project or to its tasks will have the selected forms associated with them. 
-   You must create issue custom forms before you can see them displayed in the Queue Details section. 
-   If you have multiple queue topics associated with a request queue, we recommend that you associate custom forms with the queue topics instead. 
-   For more information, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+     ![ Nieuwe de kwesties gebieden en documenten op de Details van de Rij ](assets/new-issue-fields-and-documents-on-queue-details.png)
 
-     ![Custom forms box on Queue Details](assets/custom-forms-box-on-queue-details.png)
+   * **toon alle geselecteerde en niet geselecteerde gebieden aan:** selecteer welke gebruikers alle gebieden op de nieuwe verzoekvorm zouden moeten zien. De volgende opties bepalen de toegang tot de velden op het formulier.
 
-1. Continue selecting information for the settings in the **Email Queue Settings** area, to allow users to email requests to the request queue project. 
+     | Welke gebruikers alle velden op het aanvraagformulier kunnen zien | Beschrijving |
+     |---|---| 
+     | Alle gebruikers (abonnementslicenties) | Alle gebruikers met een licentie voor abonnementen kunnen zowel de geselecteerde als de niet-geselecteerde velden zien. |
+     | Personen met toegang tot dit project (licentie voor abonnementen) | Gebruikers met een licentie voor een abonnement die ook weergaverechten voor dit project hebben, kunnen zowel de geselecteerde als de niet-geselecteerde velden zien. De rest van de gebruikers die aanvragen kunnen indienen voor dit project, kunnen alleen de geselecteerde velden zien. |
+     | Geen gebruikers | De niet-geselecteerde velden kunnen niet door gebruikers worden weergegeven. Alle gebruikers die aanvragen naar dit project kunnen verzenden, kunnen alleen de geselecteerde velden zien. Dit is de standaardselectie. |
 
-    For more information, see [Enable users to email an issue into a Request Queue project](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md).
+   * **Aangepaste Forms**: Selecteer een douanevorm om met de Rij van het Verzoek van het drop-down menu te associëren. U kunt meerdere formulieren selecteren en vervolgens slepen en neerzetten in de volgorde die u ze in het aanvraagformulier wilt weergeven.
+Alleen aangepaste formulieren kunnen worden geselecteerd in dit keuzemenu. Aan alle kwesties die aan deze verzoekrij worden voorgelegd, die aan het project of aan zijn taken worden toegevoegd zullen de geselecteerde vormen verbonden hebben die aan hen worden toegevoegd.
+U moet aangepaste formulieren maken voor uitgaven voordat u deze kunt weergeven in de sectie Wachtrijdetails.
+Als u veelvoudige rijonderwerpen verbonden aan een verzoekrij hebt, adviseren wij dat u douaneformulieren met de rijonderwerpen in plaats daarvan associeert.
+Voor meer informatie, zie [ de Onderwerpen van de Rij ](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md) creëren.
 
-1. Click **Save**.  
-   Your project has now been configured to be a Request Queue and users can now add requests to it. 
+     ![ de vormendoos van de Douane op de Details van de Rij ](assets/custom-forms-box-on-queue-details.png)
 
-1. (Optional) To enhance the Request Queue functionality, build additional sub-sections for your queue, as well as rules to route the incoming requests to the correct team, assignee or project.
+1. Ga door selecterend informatie voor de montages in het **E-mailE van de Montages van de Rij** gebied, om gebruikers toe te staan om verzoeken aan het project van de verzoekrij te e-mailen.
 
-   * For information about creating sub-sections for the Request Queue, see the following articles
-    * [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)  
-    * [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).  
-   
-      For information about routing the requests to the appropriate assignee, team, and appropriate project, see [Create Routing Rules](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
+   Voor meer informatie, zie [ gebruikers toelaten om een kwestie in een project van de Rij van het Verzoek ](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md) te e-mailen.
 
+1. Klik **sparen**.\
+   Uw project is nu gevormd om een Rij van het Verzoek te zijn en de gebruikers kunnen verzoeken aan het nu toevoegen.
+
+1. (Facultatief) om de functionaliteit van de Rij van het Verzoek te verbeteren, bouw extra ondersecties voor uw rij, evenals regels om de inkomende verzoeken aan het correcte team, de ontvanger of het project te leiden.
+
+   * Raadpleeg de volgende artikelen voor informatie over het maken van subsecties voor de aanvraagwachtrij
+   * [ creeer de Onderwerpen van de Rij ](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
+   * [ creeer de Groepen van het Onderwerp ](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
+
+     Voor informatie over het verpletteren van de verzoeken aan aangewezen ontvanger, team, en aangewezen project, zie [ het Verpletteren van Regels ](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md) creëren.
 
 </div>
-
--->

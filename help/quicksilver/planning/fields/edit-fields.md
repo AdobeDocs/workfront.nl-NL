@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '792'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Veldinstellingen bewerken
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 {{planning-important-intro}}
 
@@ -121,11 +121,10 @@ U moet het volgende in overweging nemen voordat u wijzigingen aanbrengt in de co
   >
   >Er is geen bericht aan andere gebruikers dat de gebiedsconfiguratie is veranderd.
 
-* U kunt geen bestaande opzoekvelden van verbonden records bewerken.
+* In de productieomgeving kunt u geen bestaande opzoekvelden bewerken.
+  <span class="preview"> in het milieu van de Voorproef, kunt u bestaande raadplegingsgebieden van verbonden verslagen uitgeven.</span>
 
-<!--replace he last bullet with thsi: 
-
-* <span class="preview">You can edit existing lookup fields from connected records.</span>-->
+<!--at production - April 10, 2025 - remove the last bullet altogether-->
 
 <!--this is not yet true, but it might come later:
 * You can deselect Allow negative numbers option from a Number, Percentage, or Currency field after you save the field. 
@@ -164,7 +163,21 @@ U moet het volgende in overweging nemen voordat u wijzigingen aanbrengt in de co
 
    De veldinformatie wordt bijgewerkt voor iedereen die toegang heeft tot de werkruimte.
 
-1. (Voorwaardelijk) voor verbonden verslaggebieden, klik **uitgeeft raadplegingsgebieden** en voeg of verwijder om het even welke gebieden van het verbonden verslagtype toe.
+1. (Voorwaardelijk) voor verbonden verslaggebieden, klik **uitgeeft raadplegingsgebieden** en voeg of verwijder om het even welke raadplegingsgebieden van het verbonden verslagtype toe.
 
    Voor meer informatie, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
 
+   >[!TIP]
+   >
+   >U kunt opzoekvelden toevoegen aan of verwijderen uit verbonden records, maar u kunt de instellingen van opzoekvelden niet bewerken.
+
+
+<!-- replace the TIP above with the one below at Preview, and remove this tip altogether after April 10 Prod release:-->
+
+<!--
+   >[!TIP]
+   >
+   >* In the Production environment, you can add or remove lookup fields from connected records, but you cannot edit the settings of lookup fields.
+   >* <span class="preview">In the Preview environment, you can edit the settings of lookup fields.</span>
+
+-->

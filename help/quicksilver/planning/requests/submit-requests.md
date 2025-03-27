@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
+source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
 workflow-type: tm+mt
-source-wordcount: '1828'
+source-wordcount: '1878'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,10 @@ Nadat een werkruimtebeheerder een aanvraagformulier voor een recordtype heeft ge
 
 U kunt een aanvraag voor Workfront-planning vanuit de volgende gebieden indienen:
 
-* Vanuit het gebied Aanvragen van Workfront of vanuit een directe koppeling naar het aanvraagformulier. In dit artikel wordt beschreven hoe u een verzoek kunt indienen om nieuwe records toe te voegen aan een recordtype vanuit het gebied Verzoeken van Workfront of via een gedeelde koppeling.
+* Vanuit het gebied Aanvragen van Workfront.
+* Vanuit een directe koppeling naar het gedeelde aanvraagformulier.
+
+  In dit artikel wordt beschreven hoe u een verzoek kunt indienen om nieuwe records toe te voegen aan een recordtype vanuit het gebied Verzoeken van Workfront of via een gedeelde koppeling.
 * <span class="preview"> van de verslagtype pagina, wanneer u toevoegt of om een nieuw verslag verzoekt. Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-records.md) creëren.</span>
 
 Workfront-gebruikers en externe gebruikers kunnen aanvragen indienen bij de planning van recordtypen en records maken. <!--double check on the external users-->
@@ -212,6 +215,8 @@ Het toelaten van dit plaatsen maakt de het verzoekvormen van de Planning van Wor
      >
      >De e-mail en in-app meldingen zijn alleen zichtbaar wanneer het exemplaar van Workfront van uw organisatie is aangemeld bij de Adobe Unified Experience.
 
+   1. (Facultatief) klik **Mening uw verzoek** in het bevestigingsbericht, om het verzoek te openen, of het **X** pictogram te klikken om de bevestiging te sluiten.
+
 1. (Facultatief) klik het **Planning** lusje in het gebied van Verzoeken om uw verzoek te bekijken, dan klik de naam van het verzoek.
 
    De pagina met aanvraagdetails wordt geopend.
@@ -269,7 +274,13 @@ Het toelaten van dit plaatsen maakt de het verzoekvormen van de Planning van Wor
      >
      >De e-mail en in-app meldingen zijn alleen zichtbaar wanneer het exemplaar van Workfront van uw organisatie is aangemeld bij de Adobe Unified Experience.
 
-1. (Facultatief) klik het **Planning** lusje in het gebied van Verzoeken om uw verzoek te bekijken, dan klik de naam van het verzoek.
+1. <span class="preview"> (facultatief) klik **Mening uw verzoek** om het verzoek in Workfront te openen.</span>
+
+   of
+
+   <span class="preview"> klik [ voorleggen een ander verzoek ](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) om de verzoekvorm te openen en een nieuw verzoek toe te voegen. </span>
+
+1. (Facultatief) klik **Belangrijkste menu** > **Verzoeken** > het **Planning** lusje om uw verzoek te bekijken, dan klik de naam van het verzoek.
 
    De pagina met aanvraagdetails wordt geopend.
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 4df268c9b5a99991bee3f1862c83fe0079d162c1
+source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
 workflow-type: tm+mt
-source-wordcount: '2121'
+source-wordcount: '2184'
 ht-degree: 0%
 
 ---
@@ -178,9 +178,11 @@ Voor informatie over het voorleggen van de verzoeken van de Planning van Workfro
    * **Standaard sectie**: Dit is de standaardsectieonderbreking die Workfront op de verzoekvorm van toepassing is. Alle verslaggebieden tonen op het **Standaard sectie** gebied.
    * **Onderwerp** gebied: Het gebied dat het verzoek in Workfront zal identificeren. De configuratie en de waarde van het onderwerpveld kunnen niet worden bewerkt.
 
-     >[!TIP]
+     >[!NOTE]
      >
-     >Het **Onderwerp** gebied vereist een waarde wanneer het op de verzoekvorm zichtbaar is. Nochtans, kunt u het **Onderwerp** gebied verwijderen, indien nodig, en de verzoekers zullen het niet op de vorm zien wanneer zij het verzoek voorleggen.
+     >* Het **Onderwerp** gebied vereist een waarde wanneer het op de verzoekvorm zichtbaar is. Nochtans, kunt u het **Onderwerp** gebied verwijderen, indien nodig, en de verzoekers zullen het niet op de vorm zien wanneer zij het verzoek voorleggen.
+     >* Wanneer het onderwerpveld ontbreekt op een aanvraagformulier, maar er een naamveld is voor de naam van de toekomstige record, wordt aan de naam van de aanvraag automatisch dezelfde naam toegewezen als aan de gemaakte record.
+     >* Wanneer zowel het Onderwerp als de gebieden van de Naam op de verzoekvorm ontbreken, wordt het verzoek genoemd gebruikend het volgende patroon: `< Record name > request form < Entry date of the request >`; het verslag wordt genoemd **Naamloos**.
 
    * Alle velden die aan het recordtype zijn gekoppeld.
 
