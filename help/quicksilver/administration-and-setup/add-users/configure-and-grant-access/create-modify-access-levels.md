@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 3e48bebde0171c13b4168d7eb5d693b07cb9e396
+source-git-commit: 674c46b699ba445abba06bec3e4da4a710c60d63
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1521'
 ht-degree: 0%
 
 ---
@@ -66,11 +66,21 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 {{step-1-to-setup}}
 
 1. Klik **Niveaus van de Toegang** in het linkerpaneel.
-1. Selecteer het toegangsniveau u wilt kopiëren en aanpassen, dan **Exemplaar** klikken.
+1. 
+   * In de productieomgeving:
+Selecteer het toegangsniveau u wilt kopiëren en aanpassen, dan **Exemplaar** klikken.
 
-   of
+     of
 
-   Als u een bestaand toegangsniveau (dat u eerder kopieerde) uitgeeft, klik zijn naam.
+     Als u een bestaand toegangsniveau (dat u eerder kopieerde) uitgeeft, klik zijn naam.
+
+   * <span class="preview"> in het voorproefmilieu:</span>
+
+     <span class="preview"> selecteer het toegangsniveau u wilt kopiëren en aanpassen, dan het **pictogram van het Exemplaar** ![ pictogram van het Exemplaar ](assets/copy-icon.png) klikken. </span>
+
+     <span class="preview"> Of </span>
+
+     <span class="preview"> als u een bestaand toegangsniveau uitgeeft, selecteer het toegangsniveau door de doos links van dat toegangsniveau te klikken, dan klik **uitgeven** pictogram ![ uitgeven pictogram ](assets/edit-icon.png). </span>
 
 1. Voer in het vak dat wordt weergegeven een van de volgende handelingen uit om het aangepaste toegangsniveau te configureren:
 
