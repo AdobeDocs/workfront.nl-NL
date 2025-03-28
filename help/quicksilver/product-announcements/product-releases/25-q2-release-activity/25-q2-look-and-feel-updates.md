@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: 9b1514ac84692703aa1938c306ff5680d7c9f74f
+source-git-commit: 69f9797b5427a5dd72b7b8531cd5aa41013b3d5d
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
@@ -18,19 +18,16 @@ Deze pagina beschrijft kleine updates van de blik en het gevoel van diverse gebi
 
 Voor een lijst van alle veranderingen beschikbaar met het Tweede Kwartaal 2025 versie, zie [ Tweede Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
 
-<!--
-
-## Updated experience in the Access Levels area in Setup
+## De bijgewerkte ervaring in het gebied van Niveaus van de Toegang in Opstelling
 
 >[!NOTE]
 >
->Preview release: March 27, 2025; Production release for all customers: With the 25.4 release (April 10, 2025)
+>Voorvertoningsrelease: 27 maart 2025; Productieversie voor alle klanten: met 25.4 release (10 april 2025)
 
-To enhance performance, we've made some visual updates to the Access Levels area in Setup.
+Om prestaties te verbeteren, hebben wij sommige visuele updates aan het gebied van Niveaus van de Toegang in Opstelling gemaakt.
 
-A small functionality change has been applied to the Access Levels list. To copy, edit, or delete an access level, select the level and click the appropriate icon.
+Er is een kleine functiewijziging toegepast op de lijst Toegangsniveaus. Als u een toegangsniveau wilt kopiëren, bewerken of verwijderen, selecteert u het niveau en klikt u op het betreffende pictogram.
 
--->
 
 ## De blik-en-voelen updates aan de Dialoogvensters van de Types van Uitgaven
 
