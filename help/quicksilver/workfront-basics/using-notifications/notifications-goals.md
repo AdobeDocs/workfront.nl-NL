@@ -6,9 +6,9 @@ description: 'Meldingen: Doelstellingen'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
-source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
+source-git-commit: 585a65c497211c84cffafeeaa5016218fd66acd2
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
@@ -97,15 +97,19 @@ Zie ook [ de berichten van de Gebeurtenis ](../../workfront-basics/using-notific
    <td> <p>De naam van de persoon die de opmerking heeft achtergelaten</p> <p>De periode van het doel </p> <p>De naam van het doel</p> <p>De tekst van de opmerking</p> <p>De knop <strong>[!UICONTROL Open in web app]</strong> waarmee het deelvenster [!UICONTROL Goal Details] wordt geopend</p> <p>De knop <strong>[!UICONTROL Change Notifications Settings]</strong> waarmee u uw meldingen kunt beheren.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Iemand vond mijn commentaar op een doelstelling leuk</strong></td> 
-   <td> <p>De naam van de persoon die de opmerking leuk vond</p> <p>De periode van het doel </p> <p>De naam van het doel</p> <p>De tekst van de opmerking </p> <p>De knop <strong>[!UICONTROL Open in web app]</strong> waarmee het deelvenster [!UICONTROL Goal Details] wordt geopend</p> <p>De knop <strong>[!UICONTROL Change Notifications Settings]</strong> waarmee u uw meldingen kunt beheren.</p> </td> 
+  </tbody> 
+</table>
+
+<!--these were removed at some point: 
+
+   <td><strong>Someone liked my comment on a Goal</strong></td> 
+   <td> <p>The name of the person who liked the comment</p> <p>The Period of the goal </p> <p>The name of the goal</p> <p>The text of the comment </p> <p>The <strong>[!UICONTROL Open in web app]</strong> button which opens the [!UICONTROL Goal Details] panel</p> <p>The <strong>[!UICONTROL Change Notifications Settings]</strong> button which allows you to manage your notifications.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Iemand vond een update van mijn doel leuk</strong></td> 
-   <td> <p>U ontvangt een e-mail wanneer iemand van een commentaar houdt u over een doel maakte of wanneer u de vooruitgang van uw resultaten of activiteiten op het doel bijwerkt. </p> <p>De naam van de persoon die van de update hield</p> <p>De periode van het doel </p> <p>De naam van het doel</p> <p>De knop <strong>[!UICONTROL Open in web app]</strong> waarmee het deelvenster [!UICONTROL Goal Details] wordt geopend</p> <p>De knop <strong>[!UICONTROL Change Notifications Settings]</strong> waarmee u uw meldingen kunt beheren.</p> </td> 
+   <td><strong>Someone liked an update on my Goal</strong></td> 
+   <td> <p>You receive an email when someone likes a comment you made on a goal or when you update the progress of your results or activities on the goal. </p> <p>The name of the person who liked the update</p> <p>The Period of the goal </p> <p>The name of the goal</p> <p>The <strong>[!UICONTROL Open in web app]</strong> button which opens the [!UICONTROL Goal Details] panel</p> <p>The <strong>[!UICONTROL Change Notifications Settings]</strong> button which allows you to manage your notifications.</p> </td> 
   </tr> 
- </tbody> 
-</table>
+ -->
 
 <!--
 NOTE FOR NAME OF GOAL IN LAST TABLE CELL: check this. Is this true? Didn't triggger when this was written; add anything else? Maybe the type of the update is mentioned?!

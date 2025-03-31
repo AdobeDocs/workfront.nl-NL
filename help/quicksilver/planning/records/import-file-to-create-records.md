@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 4b5248f667648543263073022ae10336fb022f97
 workflow-type: tm+mt
 source-wordcount: '961'
 ht-degree: 0%
@@ -78,7 +78,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   <tr> 
    <td role="rowheader"><p>Configuratie op toegangsniveau</p></td> 
    <td> <p>Er zijn geen toegangsniveaucontroles voor de Planning van Adobe Workfront</p> 
-   <p>Bewerk de toegang in Workfront voor de objecttypen die u wilt maken (projecten, programma's en portfolio's) terwijl u de records met deze eigenschappen verbindt. </p>  
+   <p>Toegang in Workfront bewerken voor de objecttypen die u wilt maken (projecten, programma's en portfolio's) terwijl u deze koppelt aan nieuwe records  </p>  
 </td> 
   </tr> 
 <tr> 

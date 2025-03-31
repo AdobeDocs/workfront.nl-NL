@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: e8751b8e33ce99d56f816f12b065482c4deb7fbd
+source-git-commit: 4b5248f667648543263073022ae10336fb022f97
 workflow-type: tm+mt
-source-wordcount: '2166'
+source-wordcount: '2208'
 ht-degree: 0%
 
 ---
@@ -28,11 +28,14 @@ Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront w
 >
 >Voorbeeld: 27 maart 2025; Productie voor alle klanten: 10 april 2025
 
-U kunt nu een nieuw verzoek openen direct nadat u het vanuit de volgende gebieden hebt ingediend:
+We hebben de manier verbeterd waarop u toegang krijgt tot een verzoek dat u indient in Workfront Planning.
+We hebben de link Je aanvraag bekijken toegevoegd. Deze kun je gebruiken om naar de detailpagina te gaan van het verzoek dat je zojuist hebt verzonden.
 
-* het aanvraagformulier nadat het via een gedeelde koppeling is geopend
-* de recordtypepagina van de knop Nieuwe record of Nieuwe aanvraagrecord.
-* het gebied Verzoeken in het hoofdmenu
+De nieuwe koppeling is beschikbaar nadat u een verzoek hebt verzonden vanuit de volgende gebieden:
+
+* Via een gedeelde koppeling
+* Via de knop Nieuwe record of Nieuwe aanvraagrecord op de recordtypepagina
+* Van het gebied van Verzoeken, nadat u de nieuwe ervaring voor het voorleggen van verzoeken toeliet.
 
 Voor informatie, zie [ de Verzoeken van de Planning van Adobe Workfront voorleggen om verslagen ](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen.
 

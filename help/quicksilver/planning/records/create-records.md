@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 4b5248f667648543263073022ae10336fb022f97
 workflow-type: tm+mt
-source-wordcount: '2418'
+source-wordcount: '2419'
 ht-degree: 0%
 
 ---
@@ -206,7 +206,7 @@ Gebruikers met de machtigingen Contribute en Manage voor de werkruimte <!--<span
    De pagina met recordtypen wordt geopend in de weergave die u het laatst hebt geopend. Standaard wordt een pagina met recordtypen geopend in de tabelweergave.
 Alle records van het geselecteerde type worden in de weergave weergegeven.
 
-1. Klik vanuit elke weergave op een van de volgende opties in de rechterbovenhoek van het scherm, afhankelijk van de <!--<span class="preview">and record type</span>--> -machtigingen voor de werkruimte:
+1. (Voorwaardelijk) Klik vanuit elke weergave op een van de volgende opties in de rechterbovenhoek van het scherm, afhankelijk van de <!--<span class="preview">and record type</span>--> -machtigingen voor de werkruimte:
 
    * Klik **Nieuw verslag**, als u Contribute of hogere toestemmingen op de werkruimte <!--<span class="preview">and record type</span>--> hebt
 
