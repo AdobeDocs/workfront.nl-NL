@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 9f2ada5f9954878efc195661173fe88a0fe1d3bd
+source-git-commit: 64deb1b0b3ba52f869ca38e2a26288d461070f82
 workflow-type: tm+mt
-source-wordcount: '1745'
+source-wordcount: '1744'
 ht-degree: 0%
 
 ---
@@ -250,7 +250,7 @@ Validatielogica wordt samengesteld met behulp van formules en u kunt de logica z
 
 Als het veld met de toegepaste logica voldoet aan de gedefinieerde validatievoorwaarden wanneer een gebruiker het aangepaste formulier invult, wordt het veld gemarkeerd en wordt het foutbericht weergegeven.
 
-U kunt validatielogica toepassen op de volgende veldtypen: vervolgkeuzelijst, keuzerondje, selectievakje, typekop, tekst op één regel, alineatekst, datumveld, tekst met opmaak en berekende velden.
+U kunt validatielogica toepassen op de volgende veldtypen: tekst op één regel, alinea, vervolgkeuzelijst met één regel, vervolgkeuzelijst met meerdere selecties, externe zoekopdracht, keuzerondjes, groep selectievakjes en typekop.
 
 ### Voorbeelden
 
