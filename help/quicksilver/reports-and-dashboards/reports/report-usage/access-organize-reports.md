@@ -6,9 +6,9 @@ description: Met rapporten in Adobe Workfront kunt u informatie over objecten in
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a444d863-12a8-43d0-ae84-ee24863ad87b
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: da574efdede5aee34518f251cabdfe96983a69eb
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -88,10 +88,15 @@ U kunt mappen gebruiken om de rapporten te ordenen die u maakt. U kunt geen rapp
    of\
    Klik om het even welke die omslag onder **wordt genesteld Mijn die Rapporten** omslag.
 
-1. Sleep een rapport van de rapportlijst in de omslag waar u het wilt verblijven, en laat vallen het wanneer u de omslag bereikt.
+1. Selecteer het rapport, dan klik het pictogram van de omslag ![ Omslag ](assets/folder-icon.png) bij de bovenkant van de lijst.
+
+1. Kies de map waaraan u het rapport wilt toevoegen.
+
+   ![ kies een omslag om het rapport te bewegen ](assets/choose-folder.png)
 
    >[!NOTE]
    >
    >U kunt rapporten van **slechts bewegen Mijn die Rapporten** omslag aan andere die omslagen onder **worden genesteld Mijn Rapporten**. U kunt geen rapporten van of aan **bewegen met me** wordt gedeeld of **Alle Rapporten** omslag aan of van andere omslagen die.
 
-   ![ het rapport van de Belemmering aan omslag ](assets/nwe-drag-report-to-folder-350x292.png)
+
+
