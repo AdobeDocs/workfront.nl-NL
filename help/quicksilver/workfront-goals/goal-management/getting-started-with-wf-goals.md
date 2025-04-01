@@ -2,10 +2,9 @@
 title: Aan de slag met Adobe Workfront-doelen
 description: Met Workfront-doelen kunt u strategische resultaten definiëren, communiceren en bereiken door een strategie te verbinden aan het uitvoeren en leveren van werk.
 author: Alina
-draft: Probably
 feature: Workfront Goals
 exl-id: 9daa074e-94ce-4825-a058-722e53dbce51
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
 source-wordcount: '1374'
 ht-degree: 0%
@@ -13,6 +12,8 @@ ht-degree: 0%
 ---
 
 # Aan de slag met Adobe Workfront-doelen
+
+<!--Audited for P&P only: 4/2025-->
 
 >[!IMPORTANT]
 >

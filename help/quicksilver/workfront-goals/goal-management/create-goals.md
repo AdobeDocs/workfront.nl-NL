@@ -6,18 +6,22 @@ description: Of u nu CEO, manager of individuele medewerker bent, u kunt doelste
 author: Alina
 feature: Workfront Goals
 exl-id: 14bf48b6-eb0c-4b00-a1a4-0d070ccc1392
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
 
 # Doelen maken voor Adobe Workfront-doelen
 
+<!--Audited for P&P only: 4/2025-->
+
 Of u nu CEO, manager of individuele medewerker bent, u kunt doelstellingen in de Doelen van Adobe Workfront creëren om uw werk met uw doelstellingen en de doelstellingen te richten die de strategie van uw organisatie schetsen.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben:
 
@@ -27,7 +31,7 @@ U moet het volgende hebben:
 <col>
 </col>
 <tbody>
-<tr> 
+ <tr> 
    <td role="rowheader">Adobe Workfront-abonnement*</td> 
    <td> 
    <p>Voor het nieuwe plan en de nieuwe licentiestructuur:
@@ -36,9 +40,10 @@ U moet het volgende hebben:
 <p>Voor het huidige plan en de licentiestructuur: 
 <ul><li> Een Pro of hoger </li>
   <li>Een Adobe Workfront Goals-licentie in aanvulling op een Workfront-licentie.</li></ul></p>
-   </td> 
+   </td>  
   </tr>
-  <tr>
+ <tr>
+ <tr>
  <td role="rowheader">Adobe Workfront-licentie*</td>
  <td>
  <p>Nieuwe licentie: Medewerker of hoger</p>
@@ -48,25 +53,23 @@ U moet het volgende hebben:
  <tr>
  <td role="rowheader">Product*</td>
  <td>
- <p> Nieuwe productbehoefte, één van het volgende: </p>
-<ul>
-<li>Een Select- of Prime Adobe Workfront-abonnement en een extra Adobe Workfront Goals-licentie.</li>
-<li>Een Ultimate Workfront-plan dat standaard Workfront Goals bevat. </li></ul>
+  <p> Nieuwe productvereisten: Workfront</p>
  <p>of</p>
- <p>Huidige productvereiste: een Workfront-plan en een extra licentie voor Adobe Workfront Goals. </p> <p>Voor informatie, zie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref"> Vereisten om de Doelen van Workfront </a> te gebruiken. </p> </td>
+  <p>Huidige productvereiste: Naast een Workfront-licentie moet u een licentie aanschaffen voor Adobe Workfront Goals. </p> <p>Voor informatie, zie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref"> Vereisten om de Doelen van Workfront </a> te gebruiken. </p> </td>
  </tr>
-<tr>
-<td role="rowheader">Toegangsniveau</td>
-<td> <p>Toegang tot doelen bewerken</p> </td>
-</tr>
-<tr data-mc-conditions="">
-<td role="rowheader">Objectmachtigingen</td>
-<td>
-<p>De toestemmingen van de mening of hoger aan het doel om het te bekijken</p>
-<p>Machtigingen beheren om het te bewerken</p>
-<p>Voor informatie over het delen van doelstellingen, zie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref"> een doel in de Doelen van Workfront delen </a>. </p>
-</td>
-</tr>
+ <tr>
+ <td role="rowheader">Toegangsniveau</td>
+ <td> <p>Toegang tot doelen bewerken</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Objectmachtigingen</td>
+ <td>
+  <div>
+  <p>De toestemmingen van de mening of hoger aan het doel om het te bekijken</p>
+  <p>Machtigingen beheren om het te bewerken</p>
+  <p>Voor informatie over het delen van doelstellingen, zie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref"> een doel in de Doelen van Workfront delen </a>. </p>
+  </div> </td>
+ </tr>
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
    <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het gebied Doelen in het hoofdmenu bevat. </p>  
@@ -76,6 +79,8 @@ U moet het volgende hebben:
 </table>
 
 *Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Richtlijnen voor het maken van doelen
 

@@ -1,19 +1,21 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-alignment
-title: Richt doelstellingen door hen in de Doelen van Adobe Workfront te verbinden
+title: Doelen uitlijnen door ze te verbinden in Adobe Workfront-doelen
 description: Als u een individuele medewerker bent die een persoonlijk doel heeft, kunt u het aan de doelstellingen van uw team willen richten om de vooruitgang van uw eigen doel in de grotere context van de strategie van uw organisatie effectief te tonen.
 author: Alina
 feature: Workfront Goals
 exl-id: 4276f1c9-2ee9-4f74-b011-ae1e19fefe35
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
 
 # Richt doelstellingen door hen in de Doelen van Adobe Workfront te verbinden
+
+<!--Audited P&P only: 04/2025-->
 
 Als u een individuele medewerker bent die een persoonlijk doel heeft, kunt u het aan de doelstellingen van uw team willen richten om de vooruitgang van uw eigen doel in de grotere context van de strategie van uw organisatie effectief te tonen.
 
@@ -33,6 +35,8 @@ In dit artikel wordt beschreven hoe u doelen kunt uitlijnen door ze met elkaar t
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet het volgende hebben:
 
 <table style="table-layout:auto">
@@ -42,11 +46,15 @@ U moet het volgende hebben:
 </col>
 <tbody>
  <tr>
- <td role="rowheader">Adobe Workfront-plan</td>
- <td>
- <p>Alle</p>
-
-</td>
+ <td role="rowheader">Adobe Workfront-abonnement*</td>
+ <td> 
+   <p>Voor het nieuwe plan en de nieuwe licentiestructuur:
+  <ul><li>Een Ultimate-abonnement </li></ul>
+   </p>
+<p>Voor het huidige plan en de licentiestructuur: 
+<ul><li> Een Pro of hoger </li>
+  <li>Een Adobe Workfront Goals-licentie in aanvulling op een Workfront-licentie.</li></ul></p>
+   </td> 
  </tr>
  <tr>
  <td role="rowheader">Adobe Workfront-licentie*</td>
@@ -58,12 +66,9 @@ U moet het volgende hebben:
  <tr>
  <td role="rowheader">Product*</td>
  <td>
- <p> Nieuwe productbehoefte, één van het volgende: </p>
-<ul>
-<li>Een Select- of Prime Adobe Workfront-abonnement en een extra Adobe Workfront Goals-licentie.</li>
-<li>Een Ultimate Workfront-plan dat standaard Workfront Goals bevat. </li></ul>
- <p>of</p>
- <p>Huidige productvereiste: een Workfront-plan en een extra licentie voor Adobe Workfront Goals. </p> <p>Voor informatie, zie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref"> Vereisten om de Doelen van Workfront </a> te gebruiken. </p> </td>
+  <p> Nieuwe productvereisten: Workfront</p>
+  of
+  <p>Huidige productvereiste: Naast een Workfront-licentie moet u een licentie aanschaffen voor Adobe Workfront Goals. </p> <p>Voor informatie, zie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref"> Vereisten om de Doelen van Workfront </a> te gebruiken. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Toegangsniveau</td>
@@ -87,6 +92,8 @@ U moet het volgende hebben:
 </table>
 
 *Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Richt doelstellingen door hen met elkaar te verbinden
 

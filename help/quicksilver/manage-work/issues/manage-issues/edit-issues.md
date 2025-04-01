@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '2522'
+source-wordcount: '2556'
 ht-degree: 0%
 
 ---
@@ -243,15 +243,15 @@ U kunt een uitgave bewerken met de gebieden Probleem bewerken of Details van pro
       <td role="rowheader">Opgelost door</td> 
       <td> <p>Dit toont of de kwestie door een ander voorwerp wordt opgelost. U kunt selecteren of deze kwestie door een taak, een project, of een andere kwestie van het drop-down menu wordt opgelost, dan begin de naam van de taak, het project, of de kwestie te typen die de kwestie zal oplossen. Selecteer het wanneer het in de lijst verschijnt.</p>
 
-   <b> NOTA </b>
+   <b> NOTITIES </b>
 
-   Wanneer u een object selecteert om een probleem op te lossen, is de status van het probleem gekoppeld aan de status van het object dat het probleem oplost en kan deze status niet worden gewijzigd. Voor meer informatie over het oplossen van voorwerpen, zie <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref"> Overzicht van het Oplossen van en Oplosbare Voorwerpen </a>.
+   <ul><li>Wanneer u een object selecteert om een probleem op te lossen, is de status van het probleem gekoppeld aan de status van het object dat het probleem oplost en kan deze status niet worden gewijzigd. Voor meer informatie over het oplossen van voorwerpen, zie <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref"> Overzicht van het Oplossen van en Oplosbare Voorwerpen </a>.</li>
 
-   <b> TIP </b>
+   <li>Wanneer u een probleem verbindt dat door een andere taak, kwestie, of project moet worden opgelost, brengt geen informatie van de kwestie naar het het oplossen voorwerp (de taak, de kwestie, of het project dat in Resolved door gebied wordt vermeld) over. </li>
 
-   Wanneer uw systeem of groepsbeheerder het veld &quot;Opgelost door&quot; toevoegt aan een aangepaste koptekst voor uitgaven, verandert het veld in &quot;Probleem oplossen&quot;, &quot;Taak oplossen&quot; of &quot;Project oplossen&quot; wanneer er een object is dat is gekoppeld aan de kwestie.
+   <li>Wanneer uw systeem of groepsbeheerder het veld "Opgelost door" toevoegt aan een aangepaste koptekst voor uitgaven, verandert het veld in "Probleem oplossen", "Taak oplossen" of "Project oplossen" wanneer er een object is dat is gekoppeld aan de kwestie.
 
-   U kunt dit veld niet bewerken wanneer het wordt weergegeven in de uitgiftheader. Voor meer informatie over het aanpassen van uitgiftekopballen, zie <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md"> Objectekopballen aanpassen gebruikend een lay-outmalplaatje </a>
+   U kunt dit veld niet bewerken wanneer het wordt weergegeven in de uitgiftheader. Voor meer informatie over het aanpassen van uitgiftekopballen, zie <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md"> Objectekopballen aanpassen gebruikend een lay-outmalplaatje </a></li></ul>
    </td> 
      </tr>
 

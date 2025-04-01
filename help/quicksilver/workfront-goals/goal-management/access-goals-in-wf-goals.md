@@ -1,26 +1,30 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Toegang tot en open doelen in Adobe Workfront-doelen
+title: Doelstellingen voor toegang en open toegang in Adobe Workfront
 description: In dit artikel wordt beschreven hoe u doelen kunt vinden en beheren in Adobe Workfront.
 author: Alina
 feature: Workfront Goals
 exl-id: a729f334-6ca4-4cf5-a3ef-01a7effb7153
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
 
 # Toegang tot en open doelen in Adobe Workfront-doelen
 
+<!--Audited P&P only: 4/2025-->
+
 In dit artikel wordt beschreven hoe u strategische doelen in Adobe Workfront kunt vinden en beheren.
 
 
 ## Toegangsvereisten
 
-U moet het volgende hebben om de activiteiten uit te voeren die in dit artikel worden beschreven:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
+U moet het volgende hebben:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,18 +53,12 @@ U moet het volgende hebben om de activiteiten uit te voeren die in dit artikel w
   <tr>
  <td role="rowheader">Product*</td>
  <td>
- <p> Nieuwe productbehoefte, één van het volgende: </p>
-<ul>
-<li>Een Select- of Prime Adobe Workfront-abonnement en een extra Adobe Workfront Goals-licentie.</li>
-<li>Een Ultimate Workfront-plan dat standaard Workfront Goals bevat. </li></ul>
- <p>of</p>
- <p>Huidige productvereiste: een Workfront-plan en een extra licentie voor Adobe Workfront Goals. </p> <p>Voor informatie, zie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref"> Vereisten om de Doelen van Workfront </a> te gebruiken. </p> </td>
+ <p> Nieuwe productvereisten: Workfront</p>
+<p>of</p>
+ <p>Huidige productvereiste: Naast een Workfront-licentie moet u een licentie aanschaffen voor Adobe Workfront Goals. </p> <p>Voor informatie, zie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref"> Vereisten om de Doelen van Workfront </a> te gebruiken. </p> </td>
  </tr>
- <tr>
- <td role="rowheader">Toegangsniveau</td>
- <td> <p>Toegang tot doelen bewerken</p> </td>
- </tr>
-  <tr> 
+
+<tr> 
    <td role="rowheader">Toegangsniveau</td> 
    <td> <p>Toegang tot doelen bewerken</p> </td> 
   </tr> 
@@ -82,6 +80,8 @@ U moet het volgende hebben om de activiteiten uit te voeren die in dit artikel w
 </table>
 
 *Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Toegang tot Workfront-doelen
 

@@ -7,7 +7,7 @@ description: De groepering van het doel zorgt ervoor dat iedereen in uw organisa
 author: Alina
 feature: Workfront Goals
 exl-id: e073cf10-2333-4095-b932-73d105f0c5a4
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # Overzicht van uitlijning van doelstellingen in Adobe Workfront
+
+<!--Audited P&P only: 4/2025-->
 
 >[!IMPORTANT]
 >

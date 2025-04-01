@@ -1,19 +1,21 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-alignment
-title: Doeluitlijning van Adobe Workfront-doelen verwijderen
+title: Goal Alignment in Adobe Workfront Goals verwijderen
 description: U kunt de uitlijning tussen twee doelen verwijderen als het niet langer logisch is dat ze met elkaar verbonden zijn.
 author: Alina
 feature: Workfront Goals
 exl-id: a6196356-ca11-4759-9cff-64850a60208e
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
 
 # Doeluitlijning van Adobe Workfront-doelen verwijderen
+
+<!--Audited P&P only: 4/2025-->
 
 U kunt de uitlijning tussen twee doelen verwijderen als het niet langer logisch is dat ze met elkaar verbonden zijn.
 
@@ -24,6 +26,8 @@ Raadpleeg de volgende artikelen voor informatie over het uitlijnen van doelen:
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet het volgende hebben:
 
 <table style="table-layout:auto">
@@ -33,11 +37,15 @@ U moet het volgende hebben:
 </col>
 <tbody>
  <tr>
- <td role="rowheader">Adobe Workfront-plan</td>
- <td>
- <p>Alle</p>
-
-</td>
+ <td role="rowheader">Adobe Workfront-abonnement*</td>
+ <td> 
+   <p>Voor het nieuwe plan en de nieuwe licentiestructuur:
+  <ul><li>Een Ultimate-abonnement </li></ul>
+   </p>
+<p>Voor het huidige plan en de licentiestructuur: 
+<ul><li> Een Pro of hoger </li>
+  <li>Een Adobe Workfront Goals-licentie in aanvulling op een Workfront-licentie.</li></ul></p>
+   </td> 
  </tr>
  <tr>
  <td role="rowheader">Adobe Workfront-licentie*</td>
@@ -49,12 +57,9 @@ U moet het volgende hebben:
  <tr>
  <td role="rowheader">Product*</td>
  <td>
- <p> Nieuwe productbehoefte, één van het volgende: </p>
-<ul>
-<li>Een Select- of Prime Adobe Workfront-abonnement en een extra Adobe Workfront Goals-licentie.</li>
-<li>Een Ultimate Workfront-plan dat standaard Workfront Goals bevat. </li></ul>
- <p>of</p>
- <p>Huidige productvereiste: een Workfront-plan en een extra licentie voor Adobe Workfront Goals. </p> <p>Voor informatie, zie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref"> Vereisten om de Doelen van Workfront </a> te gebruiken. </p> </td>
+   <p> Nieuwe productvereisten: Workfront</p>
+   of
+   <p>Huidige productvereiste: Naast een Workfront-licentie moet u een licentie aanschaffen voor Adobe Workfront Goals. </p> <p>Voor informatie, zie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref"> Vereisten om de Doelen van Workfront </a> te gebruiken. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Toegangsniveau</td>
@@ -76,6 +81,8 @@ U moet het volgende hebben:
 </table>
 
 *Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vereisten
 

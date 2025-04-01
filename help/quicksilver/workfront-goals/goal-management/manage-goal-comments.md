@@ -1,21 +1,21 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Doelopmerkingen beheren in Adobe Workfront-doelen
+title: Gotaalopmerkingen beheren in Adobe Workfront-doelen
 description: U kunt opmerkingen toevoegen aan alle doelen die u kunt weergeven in Adobe Workfront Goals.
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
 
 # Doelopmerkingen beheren in Adobe Workfront-doelen
 
-<!--Audited: 01/2024-->
+<!--Audited for P&P only: 04/2025-->
 
 <!--consider retiring this article when goals and all objects are in parity and we remove the legacy commenting from the system. From then on, there is just ONE way to comment and that will be documented in the Update Work article-->
 
@@ -63,9 +63,9 @@ U moet de volgende toegang hebben om de handelingen uit te voeren die in dit art
  <tr>
  <td role="rowheader">Product*</td>
  <td>
- <p> Nieuwe productvereiste: als je het abonnement voor Select of Prime Adobe Workfront hebt, moet je ook een extra licentie voor Adobe Workfront Goals kopen. Workfront Goals zijn opgenomen in het Workfront Plan van Ultimate.</p>
+ <p> Nieuwe productvereisten: Workfront</p>
  of
- <p>Huidige productvereiste: u moet een extra licentie aanschaffen voor de Adobe Workfront Goals om toegang te krijgen tot de functionaliteit die in dit artikel wordt beschreven. </p> <p>Voor informatie, zie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref"> Vereisten om de Doelen van Workfront </a> te gebruiken. </p> </td>
+ <p>Huidige productvereiste: Naast een Workfront-licentie moet u een licentie aanschaffen voor Adobe Workfront Goals. </p> <p>Voor informatie, zie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref"> Vereisten om de Doelen van Workfront </a> te gebruiken. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Configuratie op toegangsniveau</td>

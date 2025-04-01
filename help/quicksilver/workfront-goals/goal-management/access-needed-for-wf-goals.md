@@ -3,23 +3,22 @@ content-type: reference
 product-previous: workfront-goals
 navigation-topic: goal-management
 title: Vereisten voor het gebruik van Workfront-doelen
-description: Uw Adobe Workfront-beheerder moet ervoor zorgen dat aan bepaalde voorwaarden wordt voldaan voordat u toegang krijgt tot de doelstellingen van Adobe Workfront.
+description: Uw Adobe Workfront-beheerder moet ervoor zorgen dat aan bepaalde voorwaarden wordt voldaan voordat u toegang krijgt tot de doelstellingen van Adobe Workfront. In dit artikel leert u meer over de vereisten voor toegang, machtigingen en lay-out tot Workfront Goals.
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '716'
 ht-degree: 0%
 
 ---
 
 # Vereisten voor het gebruik van Workfront-doelen
 
-Uw Adobe Workfront-beheerder moet ervoor zorgen dat aan alle volgende voorwaarden wordt voldaan voordat u toegang krijgt tot de doelstellingen van Adobe Workfront:
+<!--Audited P&P only: 04/2025-->
 
-<!--drafted for P&P - replace the first bullet with this one when licensing changes: 
-* Your company must purchase the correct Adobe Worfront plan or Adobe Workfront Goal license. For information, see the section [Obtain Workfront Goals organization access](#obtain-workfront-goals-organization-access)in this article.-->
+Uw Adobe Workfront-beheerder moet ervoor zorgen dat aan alle volgende voorwaarden wordt voldaan voordat u toegang krijgt tot de doelstellingen van Adobe Workfront:
 
 * Uw organisatie moet de juiste licentie voor Workfront Goals aanschaffen. Voor informatie, zie de sectie [ de organisatietoegang van de Doelstellingen van Workfront ](#obtain-workfront-goals-organization-access) in dit artikel verkrijgen.
 
@@ -48,9 +47,9 @@ Uw Adobe Workfront-beheerder moet ervoor zorgen dat aan alle volgende voorwaarde
 
 Afhankelijk van welk Workfront-plan uw bedrijf momenteel is ingeschakeld, bestaan de volgende scenario&#39;s:
 
-* Als uw bedrijf een nieuw Workfront-plan heeft, moet u een Ultimate Workfront-plan hebben. De Doelen van Workfront zijn inbegrepen slechts in dit plan.
+* **een nieuw plan van Workfront**: U moet een plan van Ultimate Workfront hebben. De Doelen van Workfront zijn inbegrepen slechts in dit plan.
 
-* Als uw bedrijf het huidige Workfront-plan heeft, moet uw organisatie een extra licentie aanschaffen, naast de Workfront-licentie, zodat uw gebruikers toegang hebben tot Workfront Goals.
+* **een huidig plan van Workfront**: Uw organisatie moet een extra vergunning, naast de vergunning van Workfront kopen.
 
   Nadat uw organisatie de aanvullende licentie heeft aangeschaft, schakelt Workfront de Doelstellingen van Workfront in voor uw account. Neem voor informatie over het aanschaffen van een licentie voor Workfront Goals contact op met uw Workfront-accountmanager.
 
@@ -60,13 +59,13 @@ Voor informatie over de toegangsvereisten van Workfront, zie [ vereisten van de 
 
 Afhankelijk van welk Workfront-plan uw bedrijf momenteel is ingeschakeld, bestaan de volgende scenario&#39;s:
 
-* Als uw bedrijf het nieuwe model van het toegangsniveau heeft, moet uw beheerder van Workfront u één van de volgende de vergunningstypes van Workfront verlenen om tot de Doelstellingen van Workfront toegang te hebben:
+* **het nieuwe model van het toegangsniveau**: Uw beheerder van Workfront moet u één van de volgende de vergunningstypes van Workfront verlenen om tot de Doelstellingen van Workfront toegang te hebben:
 
    * Medewerker
    * Licht
    * Standaard
 
-* Als uw bedrijf het huidige model van het toegangsniveau heeft, moet uw beheerder van Workfront u één van de volgende de vergunningstypes van Workfront verlenen om tot de Doelstellingen van Workfront toegang te hebben:
+* **het huidige model van het toegangsniveau**: Uw beheerder van Workfront moet u één van de volgende de vergunningstypes van Workfront verlenen om tot de Doelstellingen van Workfront toegang te hebben:
 
    * Plan
    * Werk

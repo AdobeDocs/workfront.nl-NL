@@ -2,20 +2,22 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
-title: Goederenbeheer in Adobe Workfront-doelstellingen
-description: Lees de volgende artikelen om te zien waar u begint met Workfront Goals, hoe belangrijk het is om doelen te gebruiken, hoe u doelen kunt maken, bewerken, opmerkingen kunt plaatsen en beheren, en hoe u doelinformatie kunt filteren en afdrukken
+title: 'Doelstellingen van het Goal Management in Adobe Workfront: index van artikel'
+description: Lees de volgende artikelen om te zien waar u begint met Workfront Goals, hoe belangrijk het is om doelen te gebruiken, hoe u doelen kunt maken, bewerken, opmerkingen kunt plaatsen en beheren, en hoe u doelinformatie kunt filteren en afdrukken.
 author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: cba07613-9912-4929-bda4-50f503faa3e1
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
 
-# Goederenbeheer in Adobe Workfront-doelstellingen
+# Goederenbeheer in Adobe Workfront Goals: artikelindex
+
+<!--Audited: 4/2025-->
 
 >[!IMPORTANT]
 >
@@ -23,7 +25,7 @@ ht-degree: 0%
 >
 >* Voor het nieuwe plan en de nieuwe licentiestructuur*:
 >
->   * Een ultiem plan
+>   * Een Ultimate-abonnement
 >    
 >* Voor het huidige plan en de licentiestructuur:
 >
@@ -32,10 +34,10 @@ ht-degree: 0%
 >
 >*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 >
-
-Neem contact op met uw Workfront-accountmanager voor meer informatie over een Workfront Goals-licentie.
-
-Voor extra informatie over toegang tot de Doelen van Workfront, zie [ Vereisten om de Doelen van Workfront ](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
+>
+>Neem contact op met uw Workfront-accountmanager voor meer informatie over een Workfront Goals-licentie.
+>
+>Voor extra informatie over toegang tot de Doelen van Workfront, zie [ Vereisten om de Doelen van Workfront ](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
 
 Lees de volgende artikelen om te zien waar u begint met Workfront Goals, hoe belangrijk het is om doelen te gebruiken, hoe u doelen kunt maken, bewerken, opmerkingen kunt plaatsen en beheren, en hoe u doelinformatie kunt filteren en afdrukken:
 

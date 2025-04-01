@@ -2,12 +2,12 @@
 content-type: overview;reference
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Overzicht van de status van objecten in Adobe Workfront Goals
+title: Overzicht van de status van objecten in Adobe Workfront-doelstellingen
 description: De status van het doel geeft aan of een doel actief is en momenteel vooruitgang registreert, of inactief is, is opgesteld, of reeds bereikt.
 author: Alina
 feature: Workfront Goals
 exl-id: dc70dfac-2bdd-41ab-b316-0cd20f749423
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
 source-wordcount: '818'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # Overzicht van de status van objecten in Adobe Workfront Goals
+
+<!--Audited: 4/2025-->
 
 >[!IMPORTANT]
 >

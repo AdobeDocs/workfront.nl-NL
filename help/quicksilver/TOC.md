@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: db709d801e3e80be8fbbc184e41d0ae70b983fb6
+source-git-commit: bbbb3f7895256e2f5341e6e9fd76c4fccbd15db0
 workflow-type: tm+mt
-source-wordcount: '13110'
+source-wordcount: '13116'
 ht-degree: 0%
 
 ---
@@ -1971,10 +1971,10 @@ ht-degree: 0%
    * [Roltoewijzing voor projecten en initiatieven weergeven in de takenlijst](scenario-planner/show-role-allocation-task-list-nwe.md)
    * [Roltoewijzing voor projecten en initiatieven weergeven in Workload Balancer](scenario-planner/show-role-allocation-workload-balancer.md)
 * Adobe Workfront-doelen {#adobe-workfront-goals}
-   * [Adobe Workfront-doelen](workfront-goals/workfront-goals.md)
+   * [Adobe Workfront-doelen: artikelindex](workfront-goals/workfront-goals.md)
    * [Overzicht van Adobe Workfront-doelen](workfront-goals/goal-management/wf-goals-overview.md)
    * Doelstellingen voor het beheer van doelstellingen in Adobe Workfront {#goal-management}
-      * [Goederenbeheer in Adobe Workfront-doelstellingen](workfront-goals/goal-management/goal-management.md)
+      * [Goederenbeheer in Adobe Workfront Goals: artikelindex](workfront-goals/goal-management/goal-management.md)
       * [Aan de slag met Adobe Workfront-doelen](workfront-goals/goal-management/getting-started-with-wf-goals.md)
       * [Toegang tot en open doelen in Adobe Workfront-doelen](workfront-goals/goal-management/access-goals-in-wf-goals.md)
       * [Vereisten voor het gebruik van Workfront-doelen](workfront-goals/goal-management/access-needed-for-wf-goals.md)
@@ -1991,7 +1991,7 @@ ht-degree: 0%
       * [Doelen bijwerken in de sectie Gooddetails in Adobe Workfront Goals](workfront-goals/goal-management/update-goals-in-goal-details-panel.md)
       * [Herzie doelstellingen in de problemen van Adobe Workfront Doelstellingen](workfront-goals/goal-management/view-in-trouble-goals.md)
    * Doelstellingen in Adobe Workfront {#goal-alignment}
-      * [Doelstellingen in Adobe Workfront](workfront-goals/goal-alignment/goal-alignment.md)
+      * [Doelstellingen in Adobe Workfront Goals: artikelindex](workfront-goals/goal-alignment/goal-alignment.md)
       * [Richt doelstellingen door hen in de Doelen van Adobe Workfront te verbinden](workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
       * [Richt doelstellingen door resultaten en activiteiten aan doelstellingen om te zetten](workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
       * [Overzicht van uitlijning van doelstellingen in Adobe Workfront](workfront-goals/goal-alignment/goal-alignment-overview.md)

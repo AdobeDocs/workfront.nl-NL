@@ -2,20 +2,22 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
-title: Lees de volgende artikelen om te begrijpen hoe u doelen in Workfront Goals kunt uitlijnen.
-description: In de volgende artikelen vindt u meer informatie over het uitlijnen van doelen in Adobe Workfront.
+title: 'Doelstelling in Adobe Workfront-doelstellingen: index van artikel'
+description: Het verzekeren dat alle doelstellingen in uw onderneming van om het even welk niveau aan elkaar en aan de algemene strategie worden gericht is een belangrijke stap in het succes van uw organisatie. In de volgende artikelen vindt u meer informatie over het uitlijnen van doelen in Adobe Workfront.
 author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: b5b0e5b2-1133-443b-8ef1-cbb1ca377fd6
-source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
 
-# Doelstellingen in Adobe Workfront
+# Doelstellingen in Adobe Workfront Goals: artikelindex
+
+<!--Audited P&P only: 4/2025-->
 
 >[!NOTE]
 >
@@ -24,11 +26,6 @@ ht-degree: 0%
 >* Voor het nieuwe plan en de nieuwe licentiestructuur:
 >    
 >   * Een Ultimate-abonnement
->        
->     of
->        
->   * Een extra licentie voor Adobe Workfront Goals voor de Prime- of Select Adobe Workfront-plannen.
->      
 >      
 >* Voor het huidige plan en de licentiestructuur:
 >    

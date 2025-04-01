@@ -6,20 +6,25 @@ description: U kunt twee doelstellingen manueel richten of u kunt de resultaten 
 author: Alina
 feature: Workfront Goals
 exl-id: 48371389-952c-4732-b519-9774cd4d1b93
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
 
 # Richt doelstellingen door resultaten en activiteiten aan doelstellingen om te zetten
 
+<!--Audited P&P only: 4/2025-->
+
 U kunt twee doelstellingen manueel richten of u kunt de resultaten en de activiteiten van een bestaand doel in een ander doel omzetten. Het omgezette resultaat of de omgezette activiteit wordt het kinddoel van het originele doel.
 Voor informatie over het manueel richten van twee doelstellingen, zie [ doelstellingen door hen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md) aan te sluiten.
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
+U hebt de volgende toegang nodig om activiteiten uit te voeren die in dit artikel worden vermeld:
 
 <table style="table-layout:auto">
 <col>
@@ -28,11 +33,15 @@ Voor informatie over het manueel richten van twee doelstellingen, zie [ doelstel
 </col>
 <tbody>
  <tr>
- <td role="rowheader">Adobe Workfront-plan</td>
- <td>
- <p>Alle</p>
-
-</td>
+ <td role="rowheader">Adobe Workfront-abonnement*</td>
+ <td> 
+   <p>Voor het nieuwe plan en de nieuwe licentiestructuur:
+  <ul><li>Een Ultimate-abonnement </li></ul>
+   </p>
+<p>Voor het huidige plan en de licentiestructuur: 
+<ul><li> Een Pro of hoger </li>
+  <li>Een Adobe Workfront Goals-licentie in aanvulling op een Workfront-licentie.</li></ul></p>
+   </td> 
  </tr>
  <tr>
  <td role="rowheader">Adobe Workfront-licentie*</td>
@@ -44,12 +53,9 @@ Voor informatie over het manueel richten van twee doelstellingen, zie [ doelstel
  <tr>
  <td role="rowheader">Product*</td>
  <td>
- <p> Nieuwe productbehoefte, één van het volgende: </p>
-<ul>
-<li>Een Select- of Prime Adobe Workfront-abonnement en een extra Adobe Workfront Goals-licentie.</li>
-<li>Een Ultimate Workfront-plan dat standaard Workfront Goals bevat. </li></ul>
- <p>of</p>
- <p>Huidige productvereiste: een Workfront-plan en een extra licentie voor Adobe Workfront Goals. </p> <p>Voor informatie, zie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref"> Vereisten om de Doelen van Workfront </a> te gebruiken. </p> </td>
+   <p> Nieuwe productvereisten: Workfront</p>
+   of
+   <p>Huidige productvereiste: Naast een Workfront-licentie moet u een licentie aanschaffen voor Adobe Workfront Goals. </p> <p>Voor informatie, zie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref"> Vereisten om de Doelen van Workfront </a> te gebruiken. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Toegangsniveau</td>
@@ -73,6 +79,8 @@ Voor informatie over het manueel richten van twee doelstellingen, zie [ doelstel
 </table>
 
 *Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vereisten
 

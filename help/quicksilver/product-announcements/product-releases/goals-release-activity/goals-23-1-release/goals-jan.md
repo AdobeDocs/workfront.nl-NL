@@ -7,9 +7,9 @@ description: Op deze pagina worden alle verbeteringen beschreven die zijn aangeb
 author: Courtney
 feature: Product Announcements, Workfront Goals
 exl-id: 30a8d125-f84c-4e1a-8e4c-d76da326c2ef
-source-git-commit: ebc729ad0300d54d294be275773d9ffc13128c83
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,6 @@ Het delen, bewerken, verwijderen of kopiëren van een doel is vergelijkbaar met 
 >
 >Met deze update hebben we de secties Check-in en Pulse in het gebied Doelen verwijderd.
 
-Voor meer informatie over de Doelen van Workfront, zie de artikelen beschikbaar in het [ gebied van de Doelen van Workfront ](/help/quicksilver/workfront-goals/workfront-goals.md) van de Documentatie van Workfront.
+Voor meer informatie over de Doelen van Workfront, zie de artikelen beschikbaar in de [ Doelen van Adobe Workfront: gebied van de artikelindex ](/help/quicksilver/workfront-goals/workfront-goals.md) van de Documentatie van Workfront.
 
 [ Bekijk een videodemonstratie van deze eigenschap ](https://video.tv.adobe.com/v/3413327/){target=_blank}

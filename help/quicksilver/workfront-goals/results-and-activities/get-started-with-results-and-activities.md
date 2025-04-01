@@ -7,9 +7,9 @@ description: U moet resultaten, activiteiten, of gerichte doelstellingen aan een
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '855'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Nadat minstens één van deze punten wordt toegevoegd, kunt u het doel activeren
 >
 > Een doel kan niet meer dan een totaal van 1000 activiteiten, resultaten, projecten, of gerichte doelstellingen hebben.</span>
 
-In dit artikel wordt een overzicht gegeven van de activiteiten en resultaten. Voor informatie over het richten van doelstellingen, zie [ Goal groepering in de Doelen van Adobe Workfront ](../../workfront-goals/goal-alignment/goal-alignment.md). Voor informatie over het verbinden van projecten met doelstellingen, zie [ projecten aan doelstellingen in de Doelen van Adobe Workfront ](../results-and-activities/connect-projects-to-goals-overview.md) toevoegen.
+In dit artikel wordt een overzicht gegeven van de activiteiten en resultaten. Voor informatie over het richten van doelstellingen, zie [ Goal groepering in de Doelen van Adobe Workfront: artikelindex ](../../workfront-goals/goal-alignment/goal-alignment.md). Voor informatie over het verbinden van projecten met doelstellingen, zie [ projecten aan doelstellingen in de Doelen van Adobe Workfront ](../results-and-activities/connect-projects-to-goals-overview.md) toevoegen.
 
 ## Overzicht van resultaten
 

@@ -6,14 +6,16 @@ description: U kunt een doel sluiten wanneer u wilt aangeven dat u het hebt volt
 author: Alina
 feature: Workfront Goals
 exl-id: bbb549c1-aea6-4f5e-8a6b-01fc04cf06ef
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '940'
 ht-degree: 0%
 
 ---
 
 # Doelen sluiten en opnieuw openen in Adobe Workfront-doelen
+
+<!--Audited for P&P only: 4/2025-->
 
 U kunt een doel sluiten wanneer u het volgende wilt aangeven:
 
@@ -23,6 +25,8 @@ U kunt een doel sluiten wanneer u het volgende wilt aangeven:
 U kunt doelstellingen opnieuw openen die zijn gesloten wanneer zij opnieuw relevant worden.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben:
 
@@ -54,12 +58,9 @@ U moet het volgende hebben:
  <tr>
  <td role="rowheader">Product*</td>
  <td>
- <p> Nieuwe productbehoefte, één van het volgende: </p>
-<ul>
-<li>Een Select- of Prime Adobe Workfront-abonnement en een extra Adobe Workfront Goals-licentie.</li>
-<li>Een Ultimate Workfront-plan dat standaard Workfront Goals bevat. </li></ul>
+  <p> Nieuwe productvereisten: Workfront</p>
  <p>of</p>
- <p>Huidige productvereiste: een Workfront-plan en een extra licentie voor Adobe Workfront Goals. </p> <p>Voor informatie, zie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref"> Vereisten om de Doelen van Workfront </a> te gebruiken. </p> </td>
+  <p>Huidige productvereiste: Naast een Workfront-licentie moet u een licentie aanschaffen voor Adobe Workfront Goals. </p> <p>Voor informatie, zie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref"> Vereisten om de Doelen van Workfront </a> te gebruiken. </p> </td>
  </tr>
  <td role="rowheader">Toegangsniveau</td>
  <td> <p>Toegang tot doelen bewerken</p> </td>
@@ -82,6 +83,8 @@ U moet het volgende hebben:
 </table>
 
 *Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Overwegingen bij het sluiten of opnieuw openen van doelen
 
