@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: e8751b8e33ce99d56f816f12b065482c4deb7fbd
+source-git-commit: db709d801e3e80be8fbbc184e41d0ae70b983fb6
 workflow-type: tm+mt
-source-wordcount: '13107'
+source-wordcount: '13110'
 ht-degree: 0%
 
 ---
@@ -1703,6 +1703,7 @@ ht-degree: 0%
       * [Een reader-account of -verbinding maken voor Snowflake](reports-and-dashboards/data-lake/create-a-reader-account.md)
       * [Verbinding maken met Workfront Data Connect](reports-and-dashboards/data-lake/share-data-externally.md)
       * [Workfront Data Connect-gegevenswoordenboek](reports-and-dashboards/data-lake/data-dictionary.md)
+      * [data dictionary test](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary-test.md)
       * [Voorbeelden van query&#39;s voor Workfront Data Connect](reports-and-dashboards/data-lake/basic-query-examples.md)
       * [Gebruiksmetriek van Workfront Data Connect weergeven](reports-and-dashboards/data-lake/view-usage-metrics.md)
       * Verbeterde analytische query&#39;s {#enhanced-analytics-queries}
