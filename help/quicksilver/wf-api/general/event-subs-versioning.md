@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
+source-git-commit: cdd7c0ef619e4cb75be82ba936f07bc3ce6dc745
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1252'
 ht-degree: 0%
 
 ---
@@ -250,3 +250,10 @@ De volgende wijzigingen zijn aangebracht voor gebeurtenisabonnementen versie 2:
    <td>Geen. Als u een filter op het beïnvloede gebied hebt, ontvangt u een <code>UPDATE</code> gebeurtenis slechts als dat gebied eigenlijk is veranderd, niet als een andere parameterwaarde is veranderd.
  </tbody> 
 </table>
+
+
+## De versie van het gebeurtenisabonnement in een scenario van Workfront Fusion bijwerken
+
+Workfront Fusion gebruikt gebeurtenisabonnementen om op veranderingen in Workfront te letten om scenario&#39;s teweeg te brengen. U kunt de versie van de gebeurtenisbeschrijving die Fusion direct in een scenario gebruikt bijwerken, gebruikend Workfront > de module van de Versie van de Payload van Gebeurtenissen bijwerken.
+
+Voor instructies bij het gebruiken van deze module, zie [ modules van Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) in de documentatie van de Fusie van Workfront.
