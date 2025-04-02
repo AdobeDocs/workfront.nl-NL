@@ -2,14 +2,14 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: Taken bewerken
-description: U kunt informatie bewerken over taken die u hebt gemaakt of waarop u Contribute- of beheermachtigingen hebt. In dit artikel wordt beschreven hoe u een taak kunt zoeken, zoeken en bewerken, als u hiervoor gemachtigd bent.
+description: U kunt informatie bewerken over taken die u hebt gemaakt of waarop u machtigingen voor Contribute of Beheren hebt. In dit artikel wordt beschreven hoe u een taak kunt zoeken, zoeken en bewerken, als u hiervoor gemachtigd bent.
 author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
 workflow-type: tm+mt
-source-wordcount: '3681'
+source-wordcount: '3706'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 -->
 
 
-U kunt informatie bewerken over taken die u hebt gemaakt of waarop u Contribute- of beheermachtigingen hebt.
+U kunt informatie bewerken over taken die u hebt gemaakt of waarop u machtigingen voor Contribute of Beheren hebt.
 
 ## Toegangsvereisten
 
@@ -54,7 +54,7 @@ U kunt informatie bewerken over taken die u hebt gemaakt of waarop u Contribute-
    <td role="rowheader">Objectmachtigingen</td> 
    <td> 
     <ul> 
-     <li> <p>Contribute geeft toestemming aan een taak om de volgende informatie in het gebied Taakdetails te bewerken: </p>
+     <li> <p>Contribute-machtigingen voor een taak om de volgende gegevens te bewerken in het gebied Taakdetails: </p>
      <ul>
      <li>Beschrijving</li>
      <li>Status</li>
@@ -63,7 +63,7 @@ U kunt informatie bewerken over taken die u hebt gemaakt of waarop u Contribute-
      <li> <p>Rechten voor een taak beheren om alle informatie in het gebied Details en het vak Taak bewerken te bewerken</p> </li> 
     </ul> 
     <ul> 
-     <li> <p>Contribute of hogere machtigingen voor het project</p> </li> 
+     <li> <p>Contribute of hoger machtigingen voor het project</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -82,7 +82,7 @@ Houd rekening met het volgende wanneer u taken bewerkt:
 * Het bijwerken van taken brengt berichten voor projecten teweeg die een Huidige status zijn. Om verwarring voor gebruikers te vermijden die aan de taken worden toegewezen, beperk het uitgeven taken zoveel mogelijk wanneer het project in de Huidige status is.
 * U kunt taken in een goedkeuringsproces niet bewerken. U kunt de Status voor een taak slechts registreren of bijwerken in een goedkeuringsproces.
 
-  ![](assets/edit-task-in-approval-process-nwe-350x148.png)
+  ![ geef taak met goedkeuringsproces ](assets/edit-task-in-approval-process-nwe-350x148.png) uit
 
 * U kunt documenten aan taken op een project uitgeven en toevoegen dat een status van Voltooid heeft, Dead, of in afwachting van Goedkeuring slechts wanneer uw beheerder van Workfront of een groepsbeheerder deze functionaliteit op het gebied van de Voorkeur van het Project toeliet. Voor informatie over het plaatsen van projectvoorkeur, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 
@@ -145,13 +145,13 @@ U kunt een taak bewerken met de gebieden Taak bewerken of Taakdetails. In de vol
       * [Taakfinanciën beheren in de sectie Taakdetails](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
 
    1. (Facultatief) als er geen douaneformulieren in bijlage aan de taak zijn, begin de naam van een vorm in het **te typen voeg douaneformulier** gebied toe, dan selecteer het wanneer het in de lijst toont, dan klik **sparen Veranderingen**.
-   1. (Facultatief) klik het **pictogram van de Uitvoer ![](assets/export.png) om het Overzicht en de informatie van de douaneformulieren naar een dossier van de PDF uit te voeren, dan klik** Uitvoer **.** Selecteer een van de volgende opties:
+   1. (Facultatief) klik het **pictogram van de Uitvoer ![](assets/export.png) om het Overzicht en de informatie van de douanevormen naar een dossier van PDF uit te voeren, dan klik** Uitvoer **.** Selecteer een van de volgende opties:
 
       * Alles selecteren (wordt alleen weergegeven als er ten minste één aangepast formulier is gekoppeld)
       * Overzicht
       * De naam van een of meerdere aangepaste formulieren
 
-      Het PDF-bestand wordt naar de computer gedownload.
+      Het PDF-bestand wordt naar uw computer gedownload.
 
       ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
@@ -223,8 +223,11 @@ U kunt een taak bewerken met de gebieden Taak bewerken of Taakdetails. In de vol
       <td role="rowheader">Status</td> 
       <td> <p>Selecteer de status van de taak die aangeeft in welk ontwikkelingsstadium de taak zich bevindt.</p> <p><b>TIP</b>
 
-   U kunt de taakstatus bijwerken in de taakkoptekst. </p> </td>
-   </tr> 
+   U kunt de taakstatus bijwerken in de taakkoptekst. </p>
+
+   <p>Uw Workfront- of groepsbeheerder kan de namen van taakstatussen aanpassen. Voor informatie, zie <a href="/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md"> een status </a> creëren of uitgeven. 
+      </td> 
+     </tr> 
      <tr> 
       <td role="rowheader">Prioriteit</td> 
       <td> <p>Dit is een visuele vlag voor u die u toestaat om aan uw taken voorrang te geven. </p> <p>Selecteer een van de volgende opties: </p> 

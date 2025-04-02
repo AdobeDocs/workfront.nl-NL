@@ -6,9 +6,9 @@ description: De  [!DNL Adobe Workfront]  verklarende woordenlijst lijsten algeme
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
 workflow-type: tm+mt
-source-wordcount: '17362'
+source-wordcount: '17424'
 ht-degree: 0%
 
 ---
@@ -299,8 +299,18 @@ De volgende tabel bevat een lijst met veelgebruikte termen in Adobe Workfront:
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> If the project is&nbsp;added to the Capacity Planner and included in the budget calculation, the value is <i>Included and Calculated</i>. </li>
      --> 
     </ul> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Breakdown]</td> 
+   <td> <p>In de Planning van Workfront, kunt u verbonden verslagen in de chronologiemening van een verslag tonen door de eigenschap van de Onderbreking te gebruiken. </p>
+   <p>Door records op te delen op basis van hun verbindingen kunt u de tijdlijnen van andere verbonden records weergeven en begrijpen hoe deze de prestaties en deadlines van uw records kunnen beïnvloeden. </p>
+   <p>Verbonden records worden onder hun respectievelijke record genest weergegeven. </p>
+   <p>Voor informatie, zie <a href="/help/quicksilver/planning/views/manage-the-timeline-view.md"> de chronologiemening </a> leiden. </p>
+   </td> 
+    </tr>
+
+<tr> 
    <td>[!UICONTROL Budgeted Completion Date]</td> 
    <td> <p>Dit is een verouderd veld. Alle informatie die in dit veld wordt weergegeven, is gerelateerd aan een functie die door [!DNL Workfront] is verwijderd. Dit veld kan niet worden bijgewerkt. </p>
    <p> Dit veld is nog steeds zichtbaar in [!UICONTROL project] -rapporten en -lijsten.</p>  </td> 
@@ -1116,7 +1126,7 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   </tr> 
   <tr> 
    <td>[!UICONTROL Initiative Last Published Date]</td> 
-   <td> <p>Een veld in een [!UICONTROL Initiative] -, [!UICONTROL Initiative Job Role] - en [!UICONTROL Project] -rapport waarin de datum wordt weergegeven waarop een planinitiatief voor het laatst naar een project is gepubliceerd. U kunt initiatieven publiceren om projecten tot stand te brengen of projecten bij te werken met betrekking tot de initiatieven.</p> <p>Voor [!DNL Scenario Planner] is een aanvullende licentie vereist. Voor informatie over [!DNL Workfront Scenario Planner], zie <a href="../../../scenario-planner/scenario-planner-overview.md"> het [!DNL Scenario Planner] overzicht </a>. </p> <p><span> voor informatie over het publiceren van initiatieven, zie </span> <a href="../../../scenario-planner/publish-scenarios-update-projects.md"> scenario's van Publish om projecten in [!DNL Workfront Scenario Planner]</a> tot stand te brengen en bij te werken. Dit veld is alleen zichtbaar in een [!DNL Workfront] -instantie als uw bedrijf een [!DNL Workfront Scenario Planner] -licentie heeft aangeschaft.</p> </td> 
+   <td> <p>Een veld in een [!UICONTROL Initiative] -, [!UICONTROL Initiative Job Role] - en [!UICONTROL Project] -rapport waarin de datum wordt weergegeven waarop een planinitiatief voor het laatst naar een project is gepubliceerd. U kunt initiatieven publiceren om projecten tot stand te brengen of projecten bij te werken met betrekking tot de initiatieven.</p> <p>Voor [!DNL Scenario Planner] is een aanvullende licentie vereist. Voor informatie over [!DNL Workfront Scenario Planner], zie <a href="../../../scenario-planner/scenario-planner-overview.md"> het [!DNL Scenario Planner] overzicht </a>. </p> <p><span> voor informatie over het publiceren initiatieven, zie </span> <a href="../../../scenario-planner/publish-scenarios-update-projects.md"> scenario's publiceren om projecten in [!DNL Workfront Scenario Planner]</a> tot stand te brengen en bij te werken. Dit veld is alleen zichtbaar in een [!DNL Workfront] -instantie als uw bedrijf een [!DNL Workfront Scenario Planner] -licentie heeft aangeschaft.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Inline Search]</td> 
@@ -1663,7 +1673,7 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Portfolio]</td> 
-   <td> <p>Een verzameling projecten met verenigende kenmerken. Deze projecten concurreren doorgaans met dezelfde middelen, hetzelfde budget of dezelfde tijd. U kunt Portfolio's in Programma's verdelen en de projecten met de Programma's associëren alvorens zij aan een Portfolio worden toegevoegd.</p> <p>Voor meer informatie over portefeuilles, zie <a href="../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md"> overzicht van het Portfolio in [!DNL Adobe Workfront]</a>.</p> 
+   <td> <p>Een verzameling projecten met verenigende kenmerken. Deze projecten concurreren doorgaans met dezelfde middelen, hetzelfde budget of dezelfde tijd. U kunt portfolio's opsplitsen in programma's en de projecten koppelen aan de programma's voordat ze aan een Portfolio worden toegevoegd.</p> <p>Voor meer informatie over portefeuilles, zie <a href="../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md"> overzicht van Portfolio in [!DNL Adobe Workfront]</a>.</p> 
    </td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
@@ -1854,7 +1864,7 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
    <td>[!UICONTROL Record type]</td> 
    <td> <p>Het objecttype van Workfront Planning.</p>
 <p>In tegenstelling tot Workfront, waar de objecten types vooraf bepaald zijn, in de Planning van Workfront, kunt u uw eigen objecten types tot stand brengen.Workfront de objecten van de Planning worden genoemd verslagtypes.</p>
-<p>In Workfront zijn bijvoorbeeld al de objecttypen Programma, Portfolio, Project, Taak of Probleem gemaakt.</p>
+<p>In Workfront zijn bijvoorbeeld al de objecttypen Program, Portfolio, Project, Task of Issue gemaakt.</p>
 <p>In de Planning van Workfront, kunt u om het even welke verslagtypes tot stand brengen die aan de werkschema's van uw organisatie voldoen. Later kunt u bepalen hoe de recordtypen op elkaar betrekking hebben of hoe afhankelijk van het formulier is.</p> Voor informatie over het creëren van verslagtypes, zie <a href="/help/quicksilver/planning/architecture/create-record-types.md"> recordtypes </a> creëren. </p> <p>Voor Workfront Planning is een extra licentie vereist. </p></td> 
   </tr>
 
@@ -2096,7 +2106,7 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   </tr> 
   <tr> 
    <td>[!UICONTROL Slack Date]</td> 
-   <td>In een taakweergave of rapport geeft [!UICONTROL Slack Date] de exacte datum weer waarop een taak beslist invloed kan hebben op [!UICONTROL Completion Date] van het project. Voor informatie over [!UICONTROL Slack Date] van een taak, zie <a href="../../../manage-work/tasks/task-information/task-slack-date.md" class="MCXref xref"> Overzicht van de Datum van de Slack van de Taak </a>.</td> 
+   <td>In een taakweergave of rapport geeft [!UICONTROL Slack Date] de exacte datum weer waarop een taak beslist invloed kan hebben op [!UICONTROL Completion Date] van het project. Voor informatie over [!UICONTROL Slack Date] van een taak, zie <a href="../../../manage-work/tasks/task-information/task-slack-date.md" class="MCXref xref"> het overzicht van de Datum van de Datum van de Taak Slack </a>.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Smart Assignments]</td> 

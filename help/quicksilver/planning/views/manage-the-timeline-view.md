@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
 workflow-type: tm+mt
-source-wordcount: '2692'
+source-wordcount: '2684'
 ht-degree: 0%
 
 ---
@@ -394,7 +394,7 @@ Werk de instellingen van de tijdlijnweergave bij om aan te geven wat en hoe info
 
    De records worden in de tijdlijnweergave weergegeven met de specificaties die u hebt geselecteerd.
 
-### De functie Onderverdeling gebruiken om verbonden records in de tijdlijnweergave weer te geven
+### Verbonden records in de tijdlijnweergave opsplitsen
 
 U kunt verbonden verslagen in de chronologiemening van een verslag tonen door de eigenschap van de Onderverdeling te gebruiken. Door records op te delen op basis van hun verbindingen kunt u de tijdlijnen van andere verbonden records weergeven en begrijpen hoe deze de prestaties en deadlines van uw records kunnen beïnvloeden.
 
@@ -418,7 +418,7 @@ U kunt verbonden verslagen in de chronologiemening van een verslag tonen door de
 * De begin- en einddatums van de recordtypen die u in de tijdlijnweergave wilt weergeven, moeten in chronologische volgorde worden weergegeven. Als een record bijvoorbeeld een startdatum van 31 januari en een einddatum van 1 januari heeft, wordt deze niet weergegeven in de tijdlijnweergave. Voor meer informatie, zie de sectie [ een chronologiemening ](#manage-a-timeline-view) in dit artikel beheren.
 * Er geldt een limiet van 5 recordtypen die u kunt opnemen in de indeling van een record.
 
-#### Verbonden records in de tijdlijnweergave opsplitsen
+#### Verbonden records opsplitsen
 
 1. Creeer een chronologiemening voor een verslagtype, zoals die in artikel [ wordt beschreven beheer verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md).
 1. (Voorwaardelijk) als u de chronologiemening op de Standaardwijze bekijkt, klik **Uitsplitsing**.
