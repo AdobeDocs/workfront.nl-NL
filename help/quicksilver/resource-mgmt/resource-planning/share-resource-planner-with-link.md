@@ -6,9 +6,9 @@ description: Adobe Workfront kan een unieke URL genereren voor de gebruikersweer
 author: Lisa
 feature: Resource Management
 exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: af0f1b9baef20c5910b13a52207531887a8524c5
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '666'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,6 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 +++
 
-
 Overweeg het volgende wanneer het produceren van unieke URL voor de Mening van de Gebruiker van de Planner van het Middel:
 
 * U kunt alleen een unieke URL ophalen voor de weergave Gebruiker. De optie om URL te produceren bestaat niet in de Mening van het Project of van de Rol.
@@ -80,18 +79,18 @@ U kunt als volgt een unieke URL opvragen in de weergave Gebruiker van de functie
    * Kwart
 
 1. (Facultatief) selecteer of u de informatie door **FTE** of **Uren** wilt bekijken.\
-   ![ RP_hours_or_fte_in_user_view.png ](assets/rp-hours-or-fte-in-user-view.png)
+   ![ Uitgezochte VTE of Uren ](assets/rp-hours-or-fte-in-user-view.png)
 
 1. (Optioneel) Pas filters toe op de functie Bronnen.\
    Voor informatie over het toepassen van filters, zie [ informatie van de Filter in de Planner van het Middel ](../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
 1. Klik het **hyperlink** pictogram.\
-   ![ RP_Storm_generate_URL_with_copy_URL_link.png ](assets/rp-storm-generate-url-with-copy-url-link-350x182.png)
+   ![ het pictogram van de Hyperlink en URL ](assets/rp-generate-url-from-link-icon.png)
 
 1. Klik **Exemplaar URL**.\
    Hiermee wordt de unieke URL van de bronnenplanner in de gebruikersweergave naar het klembord gekopieerd.
 
-1. (Optioneel) Voer een van de volgende handelingen uit:  
+1. (Optioneel) Voer een van de volgende handelingen uit:
 
    * Plak de URL in een andere toepassing om deze naar een andere gebruiker te verzenden.\
      De gebruiker moet aan Workfront worden aangemeld om de Planner van het Middel in de mening van de Gebruiker te bekijken.
@@ -114,4 +113,4 @@ U kunt als volgt een unieke URL opvragen in de weergave Gebruiker van de functie
    Voor informatie over het toevoegen van dashboards aan een lay-outmalplaatje, zie [ lay-outmalplaatjes ](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.\
    Voor informatie over het delen van dashboards, zie [ een dashboard ](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md) delen.\
    Wanneer het bekijken van gedeelde URL, kunnen de gebruikers de informatie met de montages zien die u oorspronkelijk op de Planner van het Middel toepaste. Ze moeten zijn aangemeld bij Workfront om de gedeelde URL weer te geven.\
-   ![ user_view_dashoard_from_unique_url.png ](assets/user-view-dashoard-from-unique-url-350x85.png)
+   ![ dashboard van de Steekproef met getoonde Planner van het Middel ](assets/user-view-dashoard-from-unique-url-350x85.png)
