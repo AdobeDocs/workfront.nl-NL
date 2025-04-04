@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 0ae0e2d3c4e47a1f7344acf18068bba9cbbab597
+source-git-commit: 993b066ecefb4b345c59289d6c6466ef0416d620
 workflow-type: tm+mt
-source-wordcount: '1628'
+source-wordcount: '1640'
 ht-degree: 0%
 
 ---
@@ -298,9 +298,11 @@ Als we het Workfront-platform blijven verbeteren, is het van cruciaal belang dat
 
 #### We verwijderen de oudere versie van de Agile-weergave in een project
 
-De oudere versie van Agile in een project wordt verwijderd uit Workfront met de release van 25.3 op 13 maart 2025. U kunt uw taken nog steeds bekijken in een mobiele weergave in een project door op het pictogram Boven te klikken.
+De oudere versie van Agile in een project wordt verwijderd uit Workfront met de release van 25.3 op 13 maart 2025. U kunt uw taken nog steeds bekijken in een mobiele weergave in een project door op het pictogram Boven te klikken. De bestaande oude agile-gereedschappen zijn nog steeds beschikbaar in het gebied Teams.
 
-Voor meer informatie over het gebruiken van de mening van de Gelijkheid, zie [ een project in de Mening van de Gelijkheid beheren ](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+In de onderstaande afbeelding ziet u de oudere, flexibele optie die wordt verwijderd:
+![ erfenis de verbinding van de agile mening ](assets/project-agile-board-view.png)
+
 
 #### Verbeterde afgekeurde analysemogelijkheden
 
