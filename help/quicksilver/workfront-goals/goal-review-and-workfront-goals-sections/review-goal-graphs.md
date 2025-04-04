@@ -1,21 +1,21 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-review-and-sections
-title: Grafieken bekijken om trends in de voortgang van het doel in Adobe Workfront-doelen te begrijpen
+title: Grafieken bekijken om Goal Progress Trends in Adobe Workfront Goals te begrijpen
 description: U kunt de algemene gezondheid van uw doelstellingen en hun vooruitgangstendens in tijd in de sectie van Grafieken van de Doelen van Adobe Workfront bekijken. De grafieken in deze sectie breken niet de vooruitgang van elk doel af, maar geven u in plaats daarvan een holistische momentopname van de de vooruitgangsstatus van alle doelstellingen evenals hun vooruitgangstendens in tijd tijdens een gespecificeerde periode.
 author: Alina
 feature: Workfront Goals
 exl-id: 8d5f3617-c7bf-44ce-99b0-d4ebda106f25
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: a64f6e507d74201cba1455fbbc6af77c2b7ba058
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '966'
 ht-degree: 0%
 
 ---
 
 # Grafieken bekijken om trends in de voortgang van het doel in Adobe Workfront-doelen te begrijpen
 
-<!-- drafted mostly for P&P release-->
+<!--Audited for P&P only: 4/2025-->
 
 U kunt de algemene gezondheid van uw doelstellingen en hun vooruitgangstendens in tijd in de sectie van Grafieken van de Doelen van Adobe Workfront bekijken. De grafieken in deze sectie breken niet de vooruitgang van elk doel af, maar geven u in plaats daarvan een holistische momentopname van de de vooruitgangsstatus van alle doelstellingen evenals hun vooruitgangstendens in tijd tijdens een gespecificeerde periode.
 
@@ -25,7 +25,9 @@ U kunt de algemene gezondheid van uw doelstellingen en hun vooruitgangstendens i
 
 ## Toegangsvereisten
 
-U moet de volgende toegang hebben om de handelingen uit te voeren die in dit artikel worden beschreven:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
+U moet het volgende hebben:
 
 <table style="table-layout:auto">
 <col>
@@ -42,7 +44,7 @@ U moet de volgende toegang hebben om de handelingen uit te voeren die in dit art
 <p>Voor het huidige plan en de licentiestructuur: 
 <ul><li> Een Pro of hoger </li>
   <li>Een Adobe Workfront Goals-licentie in aanvulling op een Workfront-licentie.</li></ul></p>
-   </td> 
+   </td>  
   </tr>
  <tr>
  <td role="rowheader">Adobe Workfront-licentie*</td>
@@ -54,12 +56,9 @@ U moet de volgende toegang hebben om de handelingen uit te voeren die in dit art
  <tr>
  <td role="rowheader">Product*</td>
  <td>
- <p> Nieuwe productbehoefte, één van het volgende: </p>
-<ul>
-<li>Een Select- of Prime Adobe Workfront-abonnement en een extra Adobe Workfront Goals-licentie.</li>
-<li>Een Ultimate Workfront-plan dat standaard Workfront Goals bevat. </li></ul>
- <p>of</p>
- <p>Huidige productvereiste: een Workfront-plan en een extra licentie voor Adobe Workfront Goals. </p> <p>Voor informatie, zie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref"> Vereisten om de Doelen van Workfront </a> te gebruiken. </p> </td>
+    <p> Nieuwe productvereisten: Workfront</p>
+    of
+    <p>Huidige productvereiste: Naast een Workfront-licentie moet u een licentie aanschaffen voor Adobe Workfront Goals. </p> <p>Voor informatie, zie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref"> Vereisten om de Doelen van Workfront </a> te gebruiken. </p> </td>
  </tr>
  <tr>
  <td role="rowheader"><p>Toegangsniveau</p></td>
@@ -83,6 +82,8 @@ U moet de volgende toegang hebben om de handelingen uit te voeren die in dit art
 </table>
 
 *Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Typen grafieken in Workfront-doelen
 

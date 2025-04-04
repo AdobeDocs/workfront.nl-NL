@@ -2,19 +2,21 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
-title: Doelstellingen en de Adobe Workfront-doelstellingen
+title: Doelstellingen en de doelstellingen van Adobe Workfront
 description: In de volgende artikelen vindt u meer informatie over het evalueren van doelen en over de gedeelten waar u doelen in Adobe Workfront kunt beheren.
 author: Alina
 feature: Workfront Goals
 exl-id: 81f531f7-3390-4f85-9a96-480f4e84295e
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: a64f6e507d74201cba1455fbbc6af77c2b7ba058
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
 
-# Doelstellingen en de Adobe Workfront-doelstellingen
+# Goal Review and the Adobe Workfront Goals section: article index
+
+<!--Audited: 4/2025-->
 
 >[!IMPORTANT]
 >
