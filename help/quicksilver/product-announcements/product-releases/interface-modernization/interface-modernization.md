@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 3ea3acc79a0f2d9c61b4ca7fff68855a9a7b1de7
+source-git-commit: 80cb8ffa0495c7d163de8fb99dba84e6442aa938
 workflow-type: tm+mt
-source-wordcount: '1706'
+source-wordcount: '1774'
 ht-degree: 0%
 
 ---
@@ -212,11 +212,23 @@ Om deze verandering te bekijken, ga naar Teams > kies een team > Achtergrond, da
 
 +++Uitbreiden om de interfaceupdates van Documenten te bekijken
 
+### Interface-updates voor de gedeelde pagina voor externe documenten
+
+**de versie van de Voorproef: 3 April, 2025; De versie van de Productie: Beginnend de week van 10 April, 2025**
+
+We hebben de pagina bijgewerkt die externe gebruikers zien wanneer een document met hen wordt gedeeld. Op deze pagina kunnen externe gebruikers
+
+* Het document downloaden
+* Een goedkeuringsbesluit nemen
+* De proefdrukviewer openen
+
+Deze update bevat een modern ontwerp dat aansluit bij andere delen van Workfront.
+
 ### Interface-update voor het gebied Goedkeuringen in een document
 
 **de versie van de Voorproef: 13 februari, 2025; De versie van de productie: Beginnend de week van 27 februari, 2025**
 
-We hebben de ruimte voor goedkeuring bijgewerkt in een document met een modernere opzet die aansluit bij andere gebieden van Workfront.
+We hebben het gebied Goedkeuringen bijgewerkt in een document met een modern ontwerp dat aansluit bij andere gebieden van Workfront.
 
 Ga naar een document > Klik op Documentdetails > Goedkeuringen om deze wijziging weer te geven.
 
