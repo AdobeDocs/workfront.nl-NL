@@ -8,14 +8,16 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 996398c5-de92-445e-8e86-36b2efdcf6b5
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: fedb0328450896d212081715df4cde7644b169bc
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '591'
 ht-degree: 0%
 
 ---
 
 # Geplande afsluitdatum van project instellen
+
+<!-- Audited: 4/2025 -->
 
 De geplande uitvoeringsdatum van een project is de datum waarop het project moet worden voltooid.
 
@@ -56,6 +58,8 @@ De geplande Voltooiingsdatum van een project kan manueel of automatisch worden g
 </table>
 -->
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -63,15 +67,22 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td><p>
+   Nieuw: Standaard
+
+of
+
+Huidig: Plan </p>
+
+</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot projecten bewerken</p> <p><b>OPMERKING</b>
 
 Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
@@ -83,7 +94,9 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## De geplande voltooiingsdatum van een project handmatig instellen
 
@@ -96,15 +109,17 @@ U moet manueel de Geplande Datum van de Voltooiing van een project plaatsen wann
 
 Een project plannen vanaf de voltooiingsdatum:
 
-1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik** Projecten **.**
+{{step1-to-projects}}
 
-1. Klik **Nieuw Project** toen **Nieuw Project**.
+1. Klik **Nieuw Project**, dan uitgezocht **Nieuw Project** van drop-down die verschijnt.
 
    Voor meer informatie over het creëren van projecten, zie het artikel [ een project ](../../../manage-work/projects/create-projects/create-project.md) creëren.
 
-1. Selecteer **Details van het Project** in het linkerpaneel, dan klik **uitgeven het pictogram van het Project** in de hoger-juiste hoek.
+1. Selecteer **Details van het Project** in het linkerpaneel.
 
-1. Op het **gebied van de Wijze van het Programma**, uitgezochte **Datum van de Voltooiing**.
+1. Klik **uitgeven het pictogram van het Project** ![ geeft pictogram ](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png) in de hoger-juiste hoek uit en selecteert dan **Overzicht** in de drop-down die verschijnt.
+
+1. In de **sectie van de Datums van het 0} Project {, klik het** gebied van de Wijze van het Programma **, dan selecteer** Datum van de Voltooiing **.**
 
 1. Specificeer de **Geplande Datum van de Voltooiing** van het project.
 1. Klik **sparen Veranderingen**.
@@ -117,15 +132,17 @@ De geplande Voltooiingsdatum van een project wordt automatisch berekend door Wor
 
 Een project plannen vanaf de begindatum:
 
-1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik** Projecten **.**
+{{step1-to-projects}}
 
-1. Klik **Nieuw Project** toen **Nieuw Project**.
+1. Klik **Nieuw Project**, dan uitgezocht **Nieuw Project** van drop-down die verschijnt.
 
    Voor meer informatie over het creëren van projecten, zie het artikel [ een project ](../../../manage-work/projects/create-projects/create-project.md) creëren.
 
-1. Selecteer **Details van het Project** in het linkerpaneel, dan klik **uitgeven het pictogram van het Project** in de hoger-juiste hoek.
+1. Selecteer **Details van het Project** in het linkerpaneel.
 
-1. Op het **gebied van de Wijze van het Programma**, uitgezochte **Datum van het Begin**.
+1. Klik **uitgeven het pictogram van het Project** ![ geeft pictogram ](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png) in de hoger-juiste hoek uit en selecteert dan **Overzicht** in de drop-down die verschijnt.
+
+1. In de **sectie van de Datums van het 0} Project {, klik het** gebied van de Wijze van het Programma **, dan selecteer** Datum van het Begin **.**
 
 1. Specificeer de **Geplande Datum van het Begin** van het project.
 1. Klik **sparen Veranderingen**.

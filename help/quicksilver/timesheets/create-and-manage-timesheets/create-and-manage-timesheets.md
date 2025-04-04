@@ -1,13 +1,13 @@
 ---
 product-area: timesheets
 navigation-topic: configure-timesheet-preferences
-title: "Tijdschema's maken en beheren: artikelindex"
+title: 'Tijdschema''s maken en beheren: artikelindex'
 description: U kunt in Adobe Workfront tijdbladen maken en bijhouden hoeveel tijd u aan het voltooien van uw werk besteedt. In de volgende artikelen vindt u meer informatie over het maken, bewerken en beheren van tijdbladen.
 author: Alina
 feature: Timesheets
 recommendations: noDisplay, noCatalog
 exl-id: 605d47e4-fcb7-4635-a4c9-bbb34e1f73b1
-source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
+source-git-commit: fedb0328450896d212081715df4cde7644b169bc
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # Tijdschema&#39;s maken en beheren: artikelindex
+
+<!-- Audited: 4/2025 -->
 
 Deze sectie bevat de volgende artikelen:
 

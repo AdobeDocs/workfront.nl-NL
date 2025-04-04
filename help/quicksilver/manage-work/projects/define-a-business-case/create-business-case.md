@@ -5,9 +5,9 @@ description: U kunt de BedrijfsGeval gebruiken om een project te verzoeken en he
 author: Alina
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: fedb0328450896d212081715df4cde7644b169bc
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '846'
 ht-degree: 0%
 
 ---
@@ -18,22 +18,24 @@ U kunt de BedrijfsGeval gebruiken om een project te verzoeken en het doel, het b
 
 ## Toegangsvereisten
 
-U moet het volgende hebben:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> <p>Plan of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot projecten, financiële gegevens en hulpbronnenbeheer bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
@@ -43,7 +45,9 @@ U moet het volgende hebben:
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vereisten
 
@@ -60,43 +64,43 @@ Overweeg het volgende wanneer het verzoeken van een project door een BedrijfsGev
 
 ## Een kwestie voor zakelijk gebruik maken
 
-1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png), dan klik** Projecten **.**
-1. Klik **Nieuw Project** en selecteer **Project van het Verzoek**.\
-   Door gebrek, wordt het project geplaatst in de **Status van het Idee**.
+{{step1-to-projects}}
+
+1. Klik **Nieuw Project**, dan uitgezocht **Project van het Verzoek** van drop-down die verschijnt. Het project wordt gecreeerd en de **status van het Idee** wordt toegewezen door gebrek.
 
    >[!CAUTION]
    >
    >Als de status van het Idee in uw instantie van Workfront is geschrapt, wordt het project geplaatst in de standaardstatus voor nieuwe projecten zoals die in het gebied van de Voorkeur van het Project wordt bepaald. Voor informatie over vestiging projectvoorkeur, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 
-1. Geef een naam op voor uw project en druk op Enter.
-1. (Facultatief) klik het **Meer** pictogram ![ Meer pictogram ](assets/qs-more-icon-on-an-object.png), toen **Sjabloon** vastmaken, om de Structuur van de Onderverdeling van het Werk van uw project tot stand te brengen.
+1. Typ een naam in het veld Projecttitel.
+1. (Facultatief) klik het **Meer** pictogram ![ Meer pictogram ](assets/qs-more-icon-on-an-object.png), toen **Band Malplaatje** om de Structuur van de Onderverdeling van het Werk van uw project tot stand te brengen.
 
    of
 
    Begin manueel taken aan het project toe te voegen.
 
-1. (Voorwaardelijk) als u selecteerde om een malplaatje vast te maken, blijf het malplaatje aan het project vastmaken
-1. Klik **Bedrijfs Geval** in het linkerpaneel.
-1. (Optioneel) Klik op **Projectinfo bewerken** . 
+1. (Voorwaardelijk) als u selecteerde om een malplaatje vast te maken, blijf het malplaatje aan het project vastmaken.
+1. In het linkerpaneel, klik **Bedrijfs Geval**.
+1. (Facultatief) om de **Info van het Project** sectie uit te geven, klik **uitgeeft Info van het Project**. 
 
-   Voor meer informatie over het uitgeven van de gebieden in de sectie van Info van het Project van het BedrijfsGeval, zie de sectie [ Info van het Project ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info) in het artikel [ Overzicht van de Gebieden van het BedrijfsGeval ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
+   Voor meer informatie over het uitgeven van de **de sectiegebieden van Info van het 0} Project {, zie de sectie [ Info van het Project ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info) in het artikel [ Overzicht van de Gebieden van het BedrijfsGeval ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).**
 
-1. (Optioneel) Klik op **Doelen bewerken** .
+1. (Facultatief) om de **sectie van Doelen** uit te geven, klik **uitgeven Doelen**.
 
-   Voor meer informatie over het uitgeven van de sectie van Doelen van het BedrijfsGeval, zie de sectie [ Doelstellingen ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#goals) in het artikel [ Overzicht van de Gebieden van het BedrijfsGeval ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
+   Voor meer informatie over het uitgeven van de **sectie van Doelen** van het BedrijfsGeval, zie de sectie [ Doelen ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#goals) in het artikel [ Overzicht van de Gebieden van het BedrijfsGeval ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
 
-1. (Facultatief) klik **uitgeven Uitgaven**.
+1. (Facultatief) om de **sectie van Uitgaven** uit te geven, klik **uitgeven Uitgaven**.
 
-   Voor meer informatie over het uitgeven van de sectie van Uitgaven van het BedrijfsGeval, zie de sectie [ Uitgaven ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#expenses) in het artikel [ Overzicht van de Gebieden van het BedrijfsGeval ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
+   Voor meer informatie over het uitgeven van de **sectie van Uitgaven** van het BedrijfsGeval, zie de sectie [ Uitgaven ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#expenses) in het artikel [ Overzicht van de Gebieden van het BedrijfsGeval ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
 
-1. (Optioneel) Gebruik het gebied Bronnen budgetteren om uw middelen te begroten en de budgettaire arbeidskosten te verkrijgen die samenhangen met de functies van het project. Voor meer informatie, zie [ middelen van de Begroting in het BedrijfsGeval ](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+1. (Facultatief) klik **uitgeven Middel die** begroot uw middelen en verkrijg de Begrotende Kosten van de Arbeid verbonden aan de baanrollen op het project. Voor meer informatie, zie [ middelen van de Begroting in het BedrijfsGeval ](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
    >[!TIP]
    >
    >De informatie die hier wordt weergegeven, is gelijk aan de informatie die wordt weergegeven in de hulpmiddelen voor het budgetteren van bronnen op systeemniveau.
 
 1. (Facultatief) klik **uitgeven Risks** om potentiële risico&#39;s aan dit project toe te voegen. Voor informatie over het toevoegen van risico&#39;s aan het BedrijfsGeval, zie de [ sectie van Risken ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#risks) in het artikel [ Overzicht van de Gebieden van het BedrijfsGeval ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
-1. (Facultatief) selecteer a **Scorecard** in **een Scorecard****aan dit Project** drop-down menu toevoegen.
+1. (Facultatief) selecteer a **Scorecard** in **een Scorecard aan dit project** drop-down menu toevoegen.
 
    Scorecards moeten worden opgesteld alvorens zij aan projecten kunnen worden vastgemaakt.
 
@@ -108,10 +112,13 @@ Overweeg het volgende wanneer het verzoeken van een project door een BedrijfsGev
 
    Voor meer informatie over de Forms van de Douane, zie het artikel [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
-1. Klik **voorleggen**.
-
-   De projectstatus wordt veranderd in **Gevraagde** en het wordt voorgelegd om het BedrijfsGeval te hebben goedgekeurd.
+1. Klik **voorleggen**. De projectstatus wordt veranderd in **Gevraagde** en het wordt voorgelegd om het BedrijfsGeval te hebben goedgekeurd.
 
    Voor meer informatie over het goedkeuren van een BedrijfsGeval, zie het artikel [ een BedrijfsGeval ](../../../manage-work/projects/define-a-business-case/approve-business-case.md) goedkeuren.
 
-1. (Optioneel) Nadat u de kwestie Business hebt voltooid, kunt u een kopie ervan exporteren naar een PDF-bestand. Voor meer informatie over het uitvoeren van het BedrijfsGeval naar een .pdf- dossier, zie de sectie &quot;Uitvoer het BedrijfsGeval&quot;in het artikel [ Overzicht van de Gebieden van het BedrijfsGeval ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
+
+>[!TIP]
+>
+> Nadat u de kwestie Business hebt voltooid, kunt u een kopie ervan exporteren naar een .pdf-bestand. Voor meer informatie over het uitvoeren van het BedrijfsGeval naar een .pdf- dossier, zie [ het BedrijfsGeval van een project ](/help/quicksilver/manage-work/projects/define-a-business-case/export-business-case.md) uitvoeren.
+
+

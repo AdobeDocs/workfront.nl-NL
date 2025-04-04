@@ -3,17 +3,19 @@ product-area: requests
 navigation-topic: create-requests
 title: Gebruikers toestaan een probleem te e-mailen naar een aanvraagwachtrij-project
 description: U kunt een project vormen om gebruikers toe te staan om kwesties aan het project via e-mail toe te voegen.
-author: LIsa
+author: Alina, Courtney
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: fedb0328450896d212081715df4cde7644b169bc
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '790'
 ht-degree: 0%
 
 ---
 
 # Gebruikers toestaan een uitgave per e-mail te verzenden naar een aanvraagwachtrij-project
+
+<!-- Audited: 4/2025 -->
 
 <!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;When updating POP account information here, also update information in these articles: Allowing users to reply to email notifications, Configuring Email Notifications, Understanding the Queue Details Tab in a Project )</p>
@@ -55,9 +57,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 ## Vereisten
 
-De volgende eerste vereisten worden vereist om een project te vormen om gebruikers toe te staan om kwesties aan het project via e-mail toe te voegen.
-
-Aan deze voorwaarden moet worden voldaan voordat u deze functie kunt inschakelen:
+De volgende voorwaarden worden vereist om een project te vormen om gebruikers toe te staan om kwesties aan het project via e-mail toe te voegen:
 
 * Gebruikers die problemen naar dit account e-mailen, moeten actieve gebruikers zijn met een licentie voor Workfront.
 * Gebruikers die problemen naar deze account e-mailen, moeten beschikken over de machtiging Uitgave toevoegen voor het project.
@@ -79,7 +79,7 @@ Aan deze voorwaarden moet worden voldaan voordat u deze functie kunt inschakelen
 
 1. Ga naar het project dat u wilt inschakelen om problemen via e-mail te ontvangen.
 1. Klik **Details van de Rij** in het linkerpaneel. U zou kunnen moeten klikken **tonen meer** eerst.
-1. In het **gebied van het Type van Rij 0}, uitgezochte** Publish als Rij van het Verzoek van de Hulp **.**
+1. In het **gebied van het Type van Rij 0}, uitgezocht** publiceer als Rij van het Verzoek van de Hulp **.**
 
 1. De rol neer aan het **gebied van de Montages van de Rij 0} E-mail, dan selecteert** laat de opname van het Verzoek via e-mail **toe.**
 
