@@ -6,16 +6,22 @@ description: Voor alle niet-betaalde Workfront-licenties geldt een beperking van
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f3e68fd8-723a-4e49-9cf1-823e36d04e55
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: cc3930f01d5e2162d7c778d061a08f937877c3c0
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '259'
 ht-degree: 2%
 
 ---
 
 # Overzicht van beperkte documenten en bewijsmiddelen voor niet-betaalde gebruikers
 
-Voor alle niet-betaalde Workfront-licenties op de nieuwe plannen geldt een beperking van het aantal bewijzen en documentatiebeschikkingen. Voor meer informatie, zie [ Nieuw vergunningsoverzicht ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+Voor alle niet-betaalde Workfront-licenties op de nieuwe plannen geldt een beperking van het aantal bewijzen en documentatiebeschikkingen. Wanneer u als fiatteur voor een document of bewijs wordt toegewezen, moet u een besluit nemen om het overzicht- en goedkeuringsproces vooruit te bewegen.
+
+De volgende beslissingsopties worden in aanmerking genomen voor de maandelijkse limiet:
+
+* Goedkeuren
+* Goedkeuren met wijzigingen
+* Werking vereist
 
 Beperkingen worden elke maand opnieuw ingesteld op basis van afzonderlijke gebruikers. De beslissingslimieten voor elke licentie verschillen afhankelijk van het abonnement waarop u werkt:
 
@@ -45,7 +51,7 @@ Beperkingen worden elke maand opnieuw ingesteld op basis van afzonderlijke gebru
    </td>
   </tr>
   <tr>
-   <td><strong> eerste </strong> 
+   <td><strong> Prime </strong> 
    </td>
    <td>5 
    </td>
@@ -61,6 +67,8 @@ Beperkingen worden elke maand opnieuw ingesteld op basis van afzonderlijke gebru
    </td>
   </tr>
 </table>
+
+Voor meer informatie, zie [ Nieuw vergunningsoverzicht ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 
 ## Externe gebruikers
 

@@ -6,9 +6,9 @@ description: Het Adobe Workfront-revisieprogramma is een browserextensie waarmee
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
-source-git-commit: 91f2dd12a91889c2cd1c2c01c93402e161684665
+source-git-commit: 7b02d5670ebba1456e37e6fd815e7812ec06def2
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,37 @@ Het Adobe Workfront-revisieprogramma is een webbrowserextensie waarmee u interac
 We raden u aan de Desktop Proofing Viewer te gebruiken als de inhoud die u wilt controleren zich op een website bevindt die
 
 * SSO-verificatie vereist
-* Herinneringen die hun site openen in iFrames, zoals Figma
+* Hiermee voorkomt u dat de site wordt geopend in iFrames, zoals Figma
 
 
+## De extensie installeren
 
-## Adobe Workfront-revisieprogramma instellen als standaardviewer voor URL- en ZIP-proefdrukken
+### Vereisten
+
+* U moet de uitbreiding van de verouderde webviewer verwijderen als u het gereedschap Adobe Workfront Review wilt gebruiken.
+
+### De extensie installeren
+
+<!--This extension is required to review conent in GS and Ex.
+
+You must install the extension to reiew content in GenS and Express.
+
+To review content in GS, Express, or Wou must install the extension if you are using GenStuido or Creative cloud express-->
+
+Revisoren en fiatteurs moeten het Adobe Workfront-revisieprogramma installeren. in een van de volgende browsers:
+
+* [ uitbreiding Firefox ](https://addons.mozilla.org/en-US/firefox/addon/adobe-workfront-review-tool/)
+
+* [ de uitbreiding van Chrome ](https://chromewebstore.google.com/detail/adobe-workfront-review-to/lhdepbgeilldghlfnankdnponhljpgml)
+
+* [ Edge ](https://microsoftedge.microsoft.com/addons/detail/adobe-workfront-review-to/llhapmaiiddmcamgeapaipjpagnoijen)
+
+
+Als u wilt dat interactieve proefdrukken automatisch worden geopend in het Adobe Workfront-revisieprogramma, moet een Workfront-beheerder de proefdrukinstellingen vooraf bijwerken, zoals in de onderstaande secties wordt beschreven.
+
+## Standaardinstellingen voor Workfront-proefdrukken bijwerken
+
+### Adobe Workfront-revisieprogramma instellen als standaardviewer voor URL- en ZIP-proefdrukken
 
 Als u het gereedschap Webrevisie wilt gebruiken voor URL- en ZIP-proefdrukken, moet een Workfront-beheerder de standaardinstelling voor interactieve proefdrukken aanpassen.
 
@@ -43,9 +69,9 @@ Als u het gereedschap Webrevisie wilt gebruiken voor URL- en ZIP-proefdrukken, m
 
 >[!NOTE]
 >
->Deze wijziging is van toepassing op alle interactieve proefdrukken in uw voorbeeld- en productieomgeving. We raden u aan de nieuwe ervaring in uw voorvertoningsomgeving te testen voordat u deze inschakelt in Productie. U kunt gemakkelijk terug naar de Kijker van de Desktop schakelen door de rekening te veranderen die terug aan één van beide **plaatsen die voor alle interactieve proeven** wordt toegelaten.
+>Deze wijziging is van toepassing op alle interactieve proefdrukken in uw Workfront-exemplaar. We raden u aan de nieuwe ervaring in uw voorvertoningsomgeving te testen voordat u deze inschakelt in Productie. U kunt gemakkelijk terug naar de Kijker van de Desktop schakelen door de **Desktop Proofing Kijker voor Interactieve het proef** rekening te veranderen die terug aan **wordt toegelaten voor alle interactieve proeven**.
 
-## Adobe Workfront-revisieprogramma instellen als standaardviewer voor alleen ZIP-proefdrukken
+### Adobe Workfront-revisieprogramma instellen als standaardviewer voor alleen ZIP-proefdrukken
 
 Als u het gereedschap Webrevisie alleen wilt gebruiken voor ZIP-proefdrukken, moet een Workfront-beheerder de standaardinstelling voor interactieve proefdrukken aanpassen.
 
@@ -57,20 +83,7 @@ Als u het gereedschap Webrevisie alleen wilt gebruiken voor ZIP-proefdrukken, mo
 
 >[!NOTE]
 >
->Deze wijziging is van toepassing op alle interactieve proefdrukken in uw voorbeeld- en productieomgeving. We raden u aan de nieuwe ervaring in uw voorvertoningsomgeving te testen voordat u deze inschakelt in Productie. U kunt gemakkelijk terug naar de Kijker van de Desktop schakelen door de rekening te veranderen die terug aan één van beide **plaatsen die voor alle interactieve proeven** wordt toegelaten.
+>Deze wijziging geldt voor alle ZIP-proefdrukken in je Workfront-exemplaar. We raden u aan de nieuwe ervaring in uw voorvertoningsomgeving te testen voordat u deze inschakelt in Productie. U kunt gemakkelijk terug naar de Kijker van de Desktop schakelen door de **Desktop Proofing Kijker voor Interactieve het proef** rekening te veranderen die terug aan **wordt toegelaten voor alle interactieve proeven**.
 
-## De extensie installeren
 
-Revisoren en fiatteurs moeten het Adobe Workfront-revisieprogramma installeren. in een van de volgende browsers:
 
-* [ uitbreiding Firefox ](https://addons.mozilla.org/en-US/firefox/addon/adobe-workfront-review-tool/)
-
-* [ de uitbreiding van Chrome ](https://chromewebstore.google.com/detail/adobe-workfront-review-to/lhdepbgeilldghlfnankdnponhljpgml)
-
-* [ Edge ](https://microsoftedge.microsoft.com/addons/detail/adobe-workfront-review-to/llhapmaiiddmcamgeapaipjpagnoijen)
-
-Nadat u de extensie hebt geïnstalleerd, worden automatisch interactieve proefdrukken geopend in het Adobe Workfront-revisieprogramma.
-
->[!IMPORTANT]
->
->U moet de uitbreiding van de verouderde webviewer verwijderen als u het gereedschap Adobe Workfront Review wilt gebruiken.
