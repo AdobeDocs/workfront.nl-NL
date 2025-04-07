@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 16c1cb48fcbd771cbc5e01c53c43009be64a9d8c
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 U kunt een nieuw aangepast veld of een nieuwe widget rechtstreeks vanuit het gebied Velden in Workfront toevoegen zonder een aangepast formulier te openen om het veld te maken.
 
 U kunt ook de eigenschappen bewerken van een aangepast veld, sectie-einde of widget dat wordt gebruikt in aangepaste formulieren. Dit zijn onder andere het label, de naam, de instructies, enzovoort van het item.
+
+Als u een aangepast veld uit een aangepast formulier verwijdert, bestaat het nog steeds op alle andere formulieren waaraan het is toegevoegd en kunt u het op een formulier of in het gebied Velden bewerken. Voor informatie bij het schrappen van een gebied, zie [ een douanegebied of widget van het systeem ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md) schrappen.
 
 Voor informatie over douanegebieden en widgets in douanevormen, zie [ een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
@@ -80,3 +82,4 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    Voor meer informatie, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 1. Wanneer u wordt gebeëindigd, geeft de klik **** uit.
+
