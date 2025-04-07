@@ -8,9 +8,9 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 0c0fc9df-23eb-4a2b-a5b0-6dbd742e8238
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 1d18b58d1ac47159f301589315883f28dfa58694
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
@@ -66,8 +66,8 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    Items worden standaard gesorteerd op de terugzetdatum.
 
-1. Klik de **Projecten**, **Taken**, **Kwesties**, of **Documenten** lusje, afhankelijk van het type van punt dat werd hersteld.
+1. Klik de **Projecten**, **Taken**, **Kwesties**, **Documenten**, of **Malplaatjes** tabel, afhankelijk van het type van punt dat werd hersteld.
 
 1. Klik op de gekoppelde naam van het item dat u wilt weergeven.
 
-   Het project, de taak, de kwestie, of het document wordt getoond.
+   Het project, de taak, de kwestie, het document, of het malplaatje worden getoond.
