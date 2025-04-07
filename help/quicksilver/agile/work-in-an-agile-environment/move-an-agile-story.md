@@ -6,9 +6,9 @@ description: U kunt een flexibel artikel verplaatsen naar een andere herhaling (
 author: Lisa
 feature: Agile
 exl-id: 0058792e-66b8-4e54-8ce3-50171adff875
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 164e98e8cc6995387be1e830787cb258f127bd70
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -55,38 +55,35 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 1. Ga naar de iteratie of het Kanban-bord met het artikel dat u naar de achtergrond wilt verplaatsen.
 1. Klik op de herhalingskop boven aan de pagina.
 1. Selecteer op het tabblad **[!UICONTROL Stories]** de artikelen die u wilt verplaatsen.
-1. Klik op **[!UICONTROL More]** > **[!UICONTROL Move to]** .
-
-   Het dialoogvenster **[!UICONTROL Move Story]** wordt weergegeven.
+1. Klik op **[!UICONTROL More]** > **[!UICONTROL Move to]** . Het dialoogvenster **[!UICONTROL Move To]** wordt weergegeven.
 
    ![ de dialoog van het Artikel van de Beweging ](assets/iteration-story-move.png)
 
-1. Selecteer **team_name Achterlog**.
-In het bovenstaande voorbeeld, is de teamnaam **Marketing**.
+1. Selecteer **team_name Achterlog**. In het bovenstaande voorbeeld, is de teamnaam **Marketing**.
 
-1. Klik op **[!UICONTROL Move Story]**.
+1. Klik op **[!UICONTROL Move]**.
 
 ## Een artikel naar een andere herhaling verplaatsen
 
-U kunt een artikel verplaatsen naar een andere versie voor uw scrubteam.
+U kunt een verhaal naar een verschillende herhaling voor uw team van het Trommel verplaatsen als u een Beheerder van het Systeem of een lid van het team bent de herhaling met wordt geassocieerd.
 
 >[!NOTE]
 >
->De optie **[!UICONTROL Move to]** is niet beschikbaar voor bovenliggende artikelen in een herhaling. U kunt subtaken alleen naar een andere herhaling verplaatsen.
+> De optie **[!UICONTROL Move to]** is niet beschikbaar voor bovenliggende artikelen in een herhaling. U kunt subtaken alleen naar een andere herhaling verplaatsen.
+
 
 1. Ga naar de herhaling die het artikel bevat dat u wilt verplaatsen.
 1. Klik op de herhalingskop boven aan de pagina.
 1. Selecteer op het tabblad **[!UICONTROL Stories]** de artikelen die u wilt verplaatsen.
-1. Klik op **[!UICONTROL More]** > **[!UICONTROL Move to]** .
-
-   Het dialoogvenster **[!UICONTROL Move Story]** wordt weergegeven.
+1. Klik op **[!UICONTROL More]** > **[!UICONTROL Move to]** . Het dialoogvenster **[!UICONTROL Move To]** wordt weergegeven.
 
    ![ de dialoog van het Artikel van de Beweging ](assets/iteration-story-move.png)
 
-1. Selecteer **[!UICONTROL Another Iteration]** en selecteer vervolgens in de vervolgkeuzelijst de herhaling waar u het artikel wilt verplaatsen.
+1. Selecteer **[!UICONTROL Another Iteration]** .
+1. Selecteer in het keuzemenu dat wordt weergegeven de herhaling waarnaar u het artikel wilt verplaatsen.
 
    >[!NOTE]
    >
    >Het werkitem [!UICONTROL Planned Start Date] en [!UICONTROL Planned Completion Date] worden beïnvloed door een instelling op de pagina [!UICONTROL Edit Team] . Voor informatie, zie de sectie [[!UICONTROL Configure] hoe de data worden toegepast wanneer het toevoegen van het werkpunten aan een herhaling ](../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration) in het artikel [ vormen de Trommel ](../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
-1. Klik op **[!UICONTROL Move Story]**.
+1. Klik op **[!UICONTROL Move]**.
