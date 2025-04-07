@@ -6,9 +6,9 @@ description: Uw Adobe Workfront-beheerder verleent gebruikers toegang tot weerga
 author: Alina, Nolan
 feature: Get Started with Workfront
 exl-id: 27a1beb9-e83a-4ef6-bf5f-ad52575a993c
-source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
+source-git-commit: 311398231719fb8a29a6bf2ddf1eeafb58e4f39f
 workflow-type: tm+mt
-source-wordcount: '1971'
+source-wordcount: '1922'
 ht-degree: 0%
 
 ---
@@ -110,7 +110,7 @@ U moet het volgende hebben om objecten te delen:
 
    ![](assets/new-share-button.png)
 
-1. In de **Verlenen &lt; objecten naam > toegang tot** doos, begin typend de naam van de gebruiker, het team, de rol, de groep, of het bedrijf met wie u het voorwerp wilt delen, dan klik de naam wanneer het in de drop-down lijst verschijnt.
+1. In de **toegang van de Verlening tot** doos, begin typend de naam van de gebruiker, het team, de rol, de groep, of het bedrijf met wie u het voorwerp wilt delen, dan klik de naam wanneer het in de drop-down lijst verschijnt.
 
    ![](assets/new-share-button-add-people.png){width="350"}
 
@@ -134,8 +134,8 @@ U moet het volgende hebben om objecten te delen:
    De volgende opties zijn beschikbaar:
 
    * **Mening:** de Gebruikers kunnen het punt herzien en delen.
-   * **Contribute**: De gebruikers kunnen updates maken, logboekinformatie, minder belangrijke uitgeven maken, en delen, plus alle toestemmingen van de Mening.
-   * **leidt:** de gebruikers hebben volledige toegang tot het voorwerp zonder administratieve rechten (die op het toegangsniveau worden verleend). Bovendien beschikken ze ook over alle machtigingen voor Weergave en Contribute.
+   * **draag** bij: De gebruikers kunnen updates maken, logboekinformatie, minder belangrijke uitgeven maken, en delen, plus alle toestemmingen van de Mening.
+   * **leidt:** de gebruikers hebben volledige toegang tot het voorwerp zonder administratieve rechten (die op het toegangsniveau worden verleend). Bovendien beschikken ze over alle machtigingen Weergeven en Contribute.
 
      >[!NOTE]
      >
@@ -169,13 +169,7 @@ U moet het volgende hebben om objecten te delen:
 
    U kunt toestemmingen op de projecten specificeren die van een malplaatje zullen worden gecreeerd wanneer u het malplaatje deelt. Voor meer informatie, zie [ het projectmalplaatjes van het Aandeel ](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
-1. (Voorwaardelijk) om het voorwerp met externe gebruikers te delen, klik **verbinding van het Exemplaar**, dan verdeel de verbinding aan externe gebruikers.
-
-   Gebruikers met de koppeling kunnen het object weergeven.
-
-   >[!CAUTION]
-   >
-   >We raden u aan voorzichtig te zijn wanneer u een object met vertrouwelijke informatie deelt met externe gebruikers. Op deze manier kunnen ze informatie weergeven zonder dat ze een Workfront-gebruiker of onderdeel van uw organisatie zijn.
+1. (Voorwaardelijk) om het voorwerp met gebruikers snel te delen die toegang hebben, klik **verbinding van het Exemplaar**.
 
 1. Klik **sparen**.
 
@@ -218,7 +212,7 @@ U moet het volgende hebben om objecten te delen:
    De volgende opties zijn beschikbaar:
 
    * **Mening:** de Gebruikers kunnen het punt herzien en delen.
-   * **leidt:** de gebruikers hebben volledige toegang tot het voorwerp zonder administratieve rechten (die op het toegangsniveau worden verleend). Bovendien beschikken ze ook over alle machtigingen voor Weergave en Contribute.
+   * **leidt:** de gebruikers hebben volledige toegang tot het voorwerp zonder administratieve rechten (die op het toegangsniveau worden verleend). Bovendien beschikken ze over alle machtigingen Weergeven en Contribute.
 
      >[!NOTE]
      >
@@ -288,18 +282,18 @@ U moet het volgende hebben om objecten te delen:
    De volgende opties zijn beschikbaar:
 
    * **Mening:** de Gebruikers kunnen het punt herzien en delen.
-   * **Contribute**: De gebruikers kunnen updates maken, logboekinformatie, minder belangrijke uitgeven maken, en delen, plus alle toestemmingen van de Mening.
+   * **draag** bij: De gebruikers kunnen updates maken, logboekinformatie, minder belangrijke uitgeven maken, en delen, plus alle toestemmingen van de Mening.
 
      >[!TIP]
      >
-     >U kunt Contribute-machtigingen alleen verlenen aan de volgende objecten:
+     >U kunt Contribute-machtigingen alleen verlenen voor de volgende objecten:
      >
      >* Projecten
      >* Taken
      >* Problemen
      >
 
-   * **leidt:** de gebruikers hebben volledige toegang tot het voorwerp zonder administratieve rechten (die op het toegangsniveau worden verleend). Bovendien beschikken ze ook over alle machtigingen voor Weergave en Contribute.
+   * **leidt:** de gebruikers hebben volledige toegang tot het voorwerp zonder administratieve rechten (die op het toegangsniveau worden verleend). Bovendien beschikken ze over alle machtigingen Weergeven en Contribute.
 
      >[!NOTE]
      >
