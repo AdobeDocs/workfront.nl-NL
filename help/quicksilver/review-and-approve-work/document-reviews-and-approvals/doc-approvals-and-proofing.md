@@ -1,23 +1,23 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Goedkeuring van nieuwe documenten en proefdrukken samen gebruiken
-description: U kunt goedkeuringen voor nieuwe documenten gebruiken met proefdrukken.
+title: Uniforme goedkeuringen en proefdrukken samen gebruiken
+description: U kunt uniforme goedkeuringen gebruiken met proef.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: be484629-6e70-4809-ad4c-a489d5814da6
-source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
+source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '944'
 ht-degree: 0%
 
 ---
 
-# Goedkeuring van nieuwe documenten en proefdrukken samen gebruiken
+# Uniforme goedkeuringen en proefdrukken samen gebruiken
 
-Goedkeuring van nieuwe documenten in Workfront introduceert een nieuwe set functies waarmee u documenten kunt reviseren en goedkeuren. Met de bestaande proefdrukviewer kunt u de workflow voor goedkeuringen van nieuwe documenten gebruiken om opmerkingen en markeringen toe te voegen aan documenten die worden gecontroleerd.
+De verenigde goedkeuringen in Workfront introduceren een nieuwe reeks eigenschappen om u te helpen documenten herzien en goedkeuren. Met de bestaande proefdrukviewer kunt u een uniforme goedkeuringsworkflow gebruiken om opmerkingen en markeringen toe te voegen aan documenten die worden gecontroleerd.
 
-Er zijn enkele belangrijke verschillen in de workflow wanneer u goedkeuringen voor nieuwe documenten gebruikt en proefdrukken samenvoegt:
+Er zijn enkele belangrijke verschillen in de workflow bij het gebruik van uniforme goedkeuringen en proefdrukken samen:
 
 * Beslissingsknoppen worden niet weergegeven in de proefdrukviewer
 

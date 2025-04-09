@@ -6,9 +6,9 @@ description: Voor alle niet-betaalde Workfront-licenties geldt een beperking van
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f3e68fd8-723a-4e49-9cf1-823e36d04e55
-source-git-commit: cc3930f01d5e2162d7c778d061a08f937877c3c0
+source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '286'
 ht-degree: 2%
 
 ---
@@ -17,21 +17,57 @@ ht-degree: 2%
 
 Voor alle niet-betaalde Workfront-licenties op de nieuwe plannen geldt een beperking van het aantal bewijzen en documentatiebeschikkingen. Wanneer u als fiatteur voor een document of bewijs wordt toegewezen, moet u een besluit nemen om het overzicht- en goedkeuringsproces vooruit te bewegen.
 
-De volgende beslissingsopties worden in aanmerking genomen voor de maandelijkse limiet:
+De volgende soorten beslissingen tellen mee voor de maandelijkse limiet:
 
-* Goedkeuren
-* Goedkeuren met wijzigingen
-* Werking vereist
+<table>
+  <tr>
 
-Beperkingen worden elke maand opnieuw ingesteld op basis van afzonderlijke gebruikers. De beslissingslimieten voor elke licentie verschillen afhankelijk van het abonnement waarop u werkt:
+<td><strong>Goedkeuringen van verouderde documenten</strong> 
+   </td>
+   <td><strong>Uniforme approvlas</strong> 
+   </td>
+   <td><strong>Goedkeuring van bewijzen</strong> 
+   </td>
+  </tr>
+  <tr>
+   <td>
+   <ul>
+   <li>Goedkeuren</li>
+    <li>Goedkeuren met wijzigingen</li>
+     <li>Afwijzen</li>
+   </ul>
+   </td>
+   <td>
+      <ul>
+   <li>Goedkeuren</li>
+    <li>Goedkeuren met wijzigingen</li>
+     <li>Werking vereist</li>
+   </ul>
+   </td>
+   <td>
+      <ul>
+   <li>Goedkeuren</li>
+    <li>Goedkeuren met wijzigingen</li>
+     <li>Vereiste wijzigingen</li>
+   </ul>
+   <p><strong>Opmerking</strong>: Proefgoedkeuringen kunnen aangepaste beslissingslabels hebben</p>
+  </tr>
+  </tr>
+</table>
+
+
+
+## Grens
+
+Limieten worden elke maand per gebruiker gereset. De beslissingslimieten voor elke licentie verschillen afhankelijk van het abonnement dat u gebruikt:
 
 <table>
   <tr>
    <td> 
    </td>
-   <td><strong> Extern </strong> 
+   <td><strong>Extern</strong> 
    </td>
-   <td><strong> Medewerker </strong> 
+   <td><strong>Donateur</strong> 
    </td>
    <td><strong> Licht </strong> 
    </td>
@@ -45,13 +81,13 @@ Beperkingen worden elke maand opnieuw ingesteld op basis van afzonderlijke gebru
    </td>
    <td>3 
    </td>
-   <td rowspan="3" >Onbeperkt 
+   <td rowspan="3" >Onbegrensd 
    </td>
-   <td rowspan="3" >Onbeperkt 
+   <td rowspan="3" >Onbegrensd 
    </td>
   </tr>
   <tr>
-   <td><strong> Prime </strong> 
+   <td><strong>Eerste</strong> 
    </td>
    <td>5 
    </td>
@@ -72,15 +108,15 @@ Voor meer informatie, zie [ Nieuw vergunningsoverzicht ](/help/quicksilver/admin
 
 ## Externe gebruikers
 
-Als een externe gebruiker zijn beslissingslimiet bereikt, zal hij of zij de toegang tot Workfront niet verliezen en zal hij of zij nog steeds beslissingen kunnen nemen. Adobe Workfront evalueert overschrijvingen.
+Als een externe gebruiker zijn beslissingslimiet bereikt, verliest hij de toegang tot Workfront niet en kan hij nog steeds beslissingen nemen. Adobe Workfront evalueert overschrijdingen.
 
-## Gebruikers van contribuanten
+## Gebruikers die bijdragen
 
-Zodra een gebruiker met een Medewerker- vergunning hun beslissingsgrens bereikt, zullen zij automatisch aan de Lichte vergunning met onbeperkte bewijs en documentbesluiten worden bevorderd. Voor meer informatie over de Lichte vergunning, zie de [ Lichte toegangsniveau ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) sectie in het [ overzicht van de Niveaus van de Toegang ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) artikel.
+Zodra een gebruiker met een Contributor-licentie zijn beslissingslimiet bereikt, wordt deze automatisch geüpgraded naar de Light-licentie met onbeperkte bewijs- en documentbeslissingen. Zie voor meer informatie over de Light-licentie de [sectie Light Access Level](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) in het [artikel Overzicht](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) van Access levels.
 
 >[!NOTE]
 >
->De Workfront-beheerder ontvangt een e-mailbericht over deze upgrade.
+>De Workfront-beheerder ontvangt een e-mailmelding over deze upgrade.
 
 
 ## Het aantal beslissingen voor een gebruiker weergeven

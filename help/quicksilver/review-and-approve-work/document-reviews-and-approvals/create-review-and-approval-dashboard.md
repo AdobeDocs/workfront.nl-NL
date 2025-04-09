@@ -6,20 +6,20 @@ description: U kunt goedkeuringsmetriek in de dashboards van het Canvas herzien.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
-source-git-commit: 9c86cf877e0d1bbb0c4700dfc362062028496e3c
+source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
 workflow-type: tm+mt
-source-wordcount: '1991'
+source-wordcount: '1987'
 ht-degree: 0%
 
 ---
 
 # Een rapportdashboard maken voor revisie en goedkeuring
 
-U kunt een rapportdashboard in het gebied van de Dashboards van het Canvas tot stand brengen om zowel hoog als gedetailleerde informatie over overzichten en goedkeuringen met de nieuwe functionaliteit van documentgoedkeuringen te tonen.
+U kunt een rapportdashboard in het gebied van de Dashboards van het Canvas tot stand brengen om zowel hoog als gedetailleerde informatie over overzichten en goedkeuringen met verenigde goedkeuringsfunctionaliteit te tonen.
 
 >[!IMPORTANT]
 >
->Deze functionaliteit is alleen beschikbaar voor klanten die de service voor nieuwe documentgoedkeuringen gebruiken en zijn ingeschreven in de bètaversie van Canvasdashboards.
+>Deze functionaliteit is alleen beschikbaar voor klanten die de service voor uniforme goedkeuringen gebruiken en zijn ingeschreven in de bètaversie van Canvasdashboards.
 
 
 ![ voorbeelddashboard ](assets/whole-dashboard.png)
@@ -48,18 +48,18 @@ U kunt informatie op hoog niveau over documentgoedkeuringen met KPIs en grafieke
 
 ![ KPI voorbeelden ](assets/kpi-dashboard.png)
 
-#### Goedkeuringen in behandeling
+#### In afwachting van goedkeuringen
 
-1. [ creeer een dashboard ](#create-a-dashboard) zoals die in de sectie hierboven wordt beschreven.
-1. In **KPI** kaart, klik **toevoegen**.
-1. Het type _in afwachting van_ in **KPI Titel** textbox.
-1. Het type _wacht goedkeuringen_ in **KPI** textbox van de Titel. Deze tekst beschrijft wat KPI toont.
-1. Bij de bovenkant van de pagina, klik **Uitgezochte het Gebied van KPI**.
-1. De rol neer en vindt de **omslag van de Goedkeuring van het Document**.
-1. Kies **Status**, dan uitgezochte **Telling** van het drop-down menu.
-1. Klik **uitgeven Filter** > **toevoegt voorwaarde**.
-   1. Klik in de lege voorwaardenfilter, klik **Kiep een Gebied**, dan kies **Status**.
-   1. Verlaat de exploitant als **Gelijk**, en type _in afwachting van overzicht_ in textbox.
+1. [Maak een dashboard](#create-a-dashboard) zoals beschreven in het bovenstaande gedeelte.
+1. Klik op de **kaart KPI** op **Toevoegen**.
+1. Typ _In afwachting_ in het **tekstvak Titel prestatiekengetal** .
+1. Typ _In afwachting van goedkeuringen_ in het **tekstvak KPI-bijschrift** . Deze tekst beschrijft wat KPI toont.
+1. Klik boven aan de pagina op **Veld KPI selecteren**.
+1. Scroll naar beneden en zoek de **map** Documentgoedkeuring.
+1. Kies **Status** en selecteer **vervolgens Tellen** in de vervolgkeuzelijst.
+1. Klik op **Filter** bewerken > **voorwaarde** toevoegen.
+   1. Klik op het filter voor lege voorwaarde, klik op **Een veld** kiezen en kies **vervolgens Status**.
+   1. Laat de operator op **Gelijk** staan en typ _in afwachting van beoordeling_ in het tekstvak.
       ![ hangend kpi filtervoorbeeld ](assets/pending-kpi-filter.png)
 1. Klik **Gedaan** in de hoger-juiste hoek van het scherm.
 
@@ -116,21 +116,21 @@ U kunt informatie op hoog niveau over documentgoedkeuringen met KPIs en grafieke
 1. Klik **uitgeven Filter** > **toevoegt voorwaarde**:
    1. Klik in de lege voorwaardenfilter, klik **Kiep een Gebied**, dan kies **Status**.
    1. Verander de exploitant in **niet bevat**, en type _goedgekeurd_ in textbox.
-      ![ verlaten kpi filtervoorbeeld ](assets/abandoned-kpi-filter.png)
-1. Klik **toevoegen voorwaarde**:
-   1. Klik in de lege voorwaardenfilter, klik **Kiep een Gebied**, dan kies **Deadline**.
+      ![Voorbeeld van verlaten KPI-filter](assets/abandoned-kpi-filter.png)
+1. Klik op **Voorwaarde** toevoegen:
+   1. Klik in het filter voor lege voorwaarde, klik op **Een veld** kiezen en kies **vervolgens Deadline**.
    1. Verander de exploitant in **minder dan**, dan knevel Relatieve datum op, dan type _$$TODAY-2w_ in textbox.
       ![ verlaten kpi filtervoorbeeld ](assets/abandoned-kpi-filter-2.png)
-1. Klik **Gedaan** in de hoger-juiste hoek van het scherm.
+1. Klik op **Gereed** in de rechterbovenhoek van het scherm.
 
 ### Grafieken
 
-![ de voorbeelden van de Grafiek ](assets/chart-dashboard.png)
+![Voorbeelden van grafieken](assets/chart-dashboard.png)
 
-#### Goedkeuringen op basis van het diagram van de beslissingsbalk
+#### Staafdiagram Goedkeuringen op basis van beslissingen
 
-1. [ creeer een dashboard ](#create-a-dashboard) zoals die in de sectie hierboven wordt beschreven.
-1. In de **kaart van de Grafiek**, klik **toevoegen**.
+1. [Maak een dashboard](#create-a-dashboard) zoals beschreven in het bovenstaande gedeelte.
+1. Klik op de **kaart Grafiek** op **Toevoegen**.
 1. Het type _keurt door besluit_ in **goed** textbox van de Naam.
 1. (Facultatief) Type een beschrijving in **Beschrijving** textbox. Deze tekst wordt als knopinfo naast de naam van het diagram weergegeven.
 1. Klik **Open grafiekdetails**.
@@ -191,10 +191,10 @@ U kunt informatie op hoog niveau over documentgoedkeuringen met KPIs en grafieke
     </tr>
     <tr>
     <td><strong>Documentnaam</strong></td>
-    <td>Document Version &gt; Document &gt; type _Name_ in the search box.</td>
+    <td>Documentversie &gt; Document &gt; typ _Name_ in het zoekvak.</td>
     </tr>
     <tr>
-    <td><strong>Documentversie</strong></td>
+    <td><strong>Versie van het document</strong></td>
     <td>Documentversie &gt; Document &gt; Versie</td>
     </tr>
     <tr>
@@ -202,8 +202,8 @@ U kunt informatie op hoog niveau over documentgoedkeuringen met KPIs en grafieke
     <td>Document &gt; Approval Stage &gt; Deadline</td>
     </tr>
     <tr>
-    <td><strong>Gevraagd door</strong></td>
-    <td>Document &gt; Approval Stage &gt; Approval Stage Participants* &gt; Requester &gt; type _Name_ in the search box.</td>
+    <td><strong>Op verzoek van</strong></td>
+    <td>Document &gt; Goedkeuringsfase &gt; Deelnemers aan de goedkeuringsfase* &gt; aanvrager &gt; typ _Naam_ in het zoekvak.</td>
     </tr>
      <tr>
     <td><strong>Aangevraagde datum</strong></td>
