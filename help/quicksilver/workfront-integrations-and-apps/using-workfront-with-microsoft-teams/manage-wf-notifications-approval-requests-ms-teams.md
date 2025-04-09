@@ -6,9 +6,9 @@ description: U kunt berichten van  [!DNL Adobe Workfront]  over punten ontvangen
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '1308'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->De integratie van Adobe Workfront for Microsoft Teams wordt momenteel alleen ondersteund voor de klassieke Microsoft Teams.
+>Vanaf 1 juli 2025 verwijdert Microsoft de ondersteuning voor de desktop-app Classic Teams. Als gevolg hiervan wordt de Workfront-integratie met Microsoft Teams niet ondersteund nadat de bureaubladtoepassing voor klassieke teams niet meer beschikbaar is.
 
 U kunt meldingen ontvangen van [!DNL Adobe Workfront] over items die u moet goedkeuren, toewijzingen die u hebt gekregen of opmerkingen en wijzigingen in items waaraan u bent gekoppeld.
 

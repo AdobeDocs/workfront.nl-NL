@@ -2,13 +2,13 @@
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
 title: Verzend  [!DNL Adobe Workfront]  verzoeken van  [!DNL Microsoft]  Teams
-description: Nadat de eigenaar van uw team Adobe Workfront for Microsoft Teams heeft geïnstalleerd, kunt u Workfront-aanvragen indienen via uw Microsoft Teams-account. Hiervoor hebt u een Workfront-account nodig die toegang heeft tot het verzenden van aanvragen. Zie Workfront for Microsoft Teams installeren voor informatie over het installeren van Workfront for Microsoft Teams.
+description: Nadat de eigenaar van uw team Adobe Workfront for Microsoft Teams heeft geïnstalleerd, kunt u Workfront-aanvragen indienen via uw Microsoft Teams-account. Hiervoor hebt u een Workfront-account nodig die toegang heeft tot het verzenden van aanvragen. Zie Workfront for Microsoft Teams installeren voor meer informatie over het installeren van Workfront voor Microsoft Teams.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5975d773-eae6-44ae-8296-2013504da3a8
-source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
+source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '498'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->De integratie van Adobe Workfront for Microsoft Teams wordt momenteel alleen ondersteund voor de klassieke Microsoft Teams.
+>Vanaf 1 juli 2025 verwijdert Microsoft de ondersteuning voor de desktop-app Classic Teams. Als gevolg hiervan wordt de Workfront-integratie met Microsoft Teams niet ondersteund nadat de bureaubladtoepassing voor klassieke teams niet meer beschikbaar is.
 
 Nadat de eigenaar van uw team [!DNL Adobe Workfront for Microsoft Teams] heeft geïnstalleerd, kunt u [!DNL Workfront] -aanvragen indienen via uw [!DNL Microsoft Teams] -account. Hiervoor hebt u een Workfront-account nodig die toegang heeft tot het verzenden van aanvragen. Voor informatie over het installeren van [!DNL Workfront for Microsoft Teams], zie [ het Installeren  [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 

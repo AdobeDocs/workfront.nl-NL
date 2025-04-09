@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront for Microsoft Teams]  app staat u toe om ba
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a8d4e48c-1ccc-4e6e-a0a0-9b68748590c0
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '782'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->De integratie van Adobe Workfront for Microsoft Teams wordt momenteel alleen ondersteund voor de klassieke Microsoft Teams.
+>Vanaf 1 juli 2025 verwijdert Microsoft de ondersteuning voor de desktop-app Classic Teams. Als gevolg hiervan wordt de Workfront-integratie met Microsoft Teams niet ondersteund nadat de bureaubladtoepassing voor klassieke teams niet meer beschikbaar is.
 
 
 Met de app [!DNL Adobe Workfront for Microsoft Teams] kunt u basishandelingen uitvoeren in [!DNL Workfront] zonder uw chatkanalen van [!DNL Microsoft Teams] te verlaten.
@@ -93,7 +93,7 @@ Als teameigenaar in [!DNL Microsoft Teams] kunt u de [!DNL Workfront for Microso
 
 1. Klik op **[!UICONTROL Log in to [!DNL Workfront]]** om [!DNL Workfront from Microsoft Teams] te openen.
 
-   Voor informatie over het programma openen aan [!DNL Workfront], zie het [ Login aan Workfront van Microsoft Teams ](#log-in-to-workfront-from-microsoft-teams) sectie in dit artikel.
+   Voor informatie over het programma openen aan [!DNL Workfront], zie het [ Login aan Workfront van de sectie van Microsoft Teams ](#log-in-to-workfront-from-microsoft-teams) in dit artikel.
 
 ### [!DNL Workfront for Microsoft Teams] installeren vanuit een privébestand
 

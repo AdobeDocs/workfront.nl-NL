@@ -7,9 +7,9 @@ description: U kunt  [!DNL Adobe Workfront]  met derdetoepassingen integreren. D
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 502e3fae874df91d4699867dcd25812659a3ffdf
+source-git-commit: 436eb2ef32363aa28593e74f7464dcd6837b2095
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ De volgende ingebouwde integraties zijn momenteel beschikbaar in Workfront.
      <p>Voor informatie en instructies, zie <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref"> de [!DNL Adobe Workfront] stop voor [!DNL Creative Cloud] Toepassingen </a> installeren.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Adobe Experience Manager Assets en Assets Essentials </p>  </p> </td> 
+   <td role="rowheader"> <p>Adobe Experience Manager Assets en Elementen </p>  </p> </td> 
    <td> 
     <ul> 
      <li>Automatisch mappen maken die zijn gekoppeld tussen Workfront en Adobe Experience Manager 
@@ -120,7 +120,7 @@ De volgende ingebouwde integraties zijn momenteel beschikbaar in Workfront.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Microsoft Teams</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p> </td> 
+   <td role="rowheader"> <p>Microsoft Teams</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p><b> NOTA </b>: Vanaf 1 Juli, 2025, zal Microsoft steun voor de Klassieke Desktop app van Teams verwijderen. Als gevolg hiervan wordt de Workfront-integratie met Microsoft Teams niet ondersteund als de desktop-app voor Klassieke teams niet meer beschikbaar is. </p> </td> 
    <td> 
     <ul> 
      <li>[!DNL Workfront] meldingen ophalen in [!DNL Microsoft Teams] </li> 
@@ -152,7 +152,7 @@ De volgende ingebouwde integraties zijn momenteel beschikbaar in Workfront.
      <li>[!DNL Workfront] -meldingen ontvangen in [!DNL Slack] </li> 
      <li>Goedkeuringen beheren in Slack </li> 
      <li>[!DNL Workfront] taken en problemen maken vanuit [!DNL Slack] </li> 
-     <li>Opmerkingen van Slack naar een project of taak verzenden</li> 
+     <li>Opmerkingen van Slack verzenden naar een project of taak</li> 
     </ul> </td> 
   </tr> 
   <tr> 

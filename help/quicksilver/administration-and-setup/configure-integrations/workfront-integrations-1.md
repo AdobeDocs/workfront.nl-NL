@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: 436eb2ef32363aa28593e74f7464dcd6837b2095
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1274'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ Wij begrijpen dat de beschikbare ingebouwde (native) integratie mogelijk niet aa
    <td> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Adobe Experience Manager Assets en Assets Essentials </p>  </p> </td> 
+   <td role="rowheader"> <p>Adobe Experience Manager Assets en Elementen </p>  </p> </td> 
    <td> 
     <ul> 
      <li>Automatisch mappen maken die zijn gekoppeld tussen Workfront en Adobe Experience Manager 
@@ -229,7 +229,7 @@ Wij begrijpen dat de beschikbare ingebouwde (native) integratie mogelijk niet aa
      <li>Zoeken naar [!DNL Workfront] projecten, taken en problemen </li> 
      <li>[!DNL Workfront] persoonlijke taken maken </li> 
      <li>[!DNL Workfront] -aanvragen verzenden </li> 
-    </ul> <p>Zie <a href="../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md" class="MCXref xref">[!DNL Adobe Workfront for Microsoft Teams] : artikelindex </a> voor meer informatie.</p> </td> 
+    </ul> <p>Zie <a href="../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md" class="MCXref xref">[!DNL Adobe Workfront for Microsoft Teams] : artikelindex </a> voor meer informatie.</p><p><b> NOTA </b>: Vanaf 1 Juli, 2025, zal Microsoft steun voor de Klassieke Desktop app van Teams verwijderen. Als gevolg hiervan wordt de Workfront-integratie met Microsoft Teams niet ondersteund als de desktop-app voor Klassieke teams niet meer beschikbaar is. </p></td> 
    <td> 
     <ul> 
      <li>Elk team in uw organisatie moet de integratie installeren als meer dan één team het wil gebruiken</li> 
@@ -276,7 +276,7 @@ Wij begrijpen dat de beschikbare ingebouwde (native) integratie mogelijk niet aa
     </ul> <p>Zie <a href="../../workfront-integrations-and-apps/using-workfront-with-slack/use-workfront-for-slack.md" class="MCXref xref">[!DNL Adobe Workfront for Slack]</a> voor meer informatie.</p> </td> 
    <td> 
     <ul> 
-     <li>[!DNL Slack] de beheerder moet alle gebruikers van de Slack toestaan te installeren [!DNL Workfront for Slack]</li> 
+     <li>[!DNL Slack] -beheerder moet alle Slack-gebruikers toestaan te installeren [!DNL Workfront for Slack]</li> 
      <li>[!DNL Slack] gebruikers moeten een [!DNL Workfront] licentie hebben </li> 
     </ul> </td> 
    <td> 

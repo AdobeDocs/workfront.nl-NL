@@ -8,9 +8,9 @@ author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 88b05a70-a304-461d-bab3-21d328c9356e
-source-git-commit: 1c8d9a62f5582b0dbc3c72b5881bb5d8f0b790ba
+source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->De integratie van Adobe Workfront for Microsoft Teams wordt momenteel alleen ondersteund voor de klassieke Microsoft Teams.
+>Vanaf 1 juli 2025 verwijdert Microsoft de ondersteuning voor de desktop-app Classic Teams. Als gevolg hiervan wordt de Workfront-integratie met Microsoft Teams niet ondersteund nadat de bureaubladtoepassing voor klassieke teams niet meer beschikbaar is.
 
 Als teameigenaar in [!DNL Microsoft Teams] kunt u de [!DNL Adobe Workfront for Microsoft Teams] -app voor uw team installeren.
 
-Met [!DNL Workfront] voor Microsoft Teams kunt u een aantal handelingen uitvoeren in [!DNL Workfront] zonder ooit Microsoft Teams te verlaten.
+Met [!DNL Workfront] voor Microsoft Teams kunt u een aantal handelingen uitvoeren in [!DNL Workfront] zonder Microsoft Teams te verlaten.
 
 Voor meer informatie over het installeren van Workfront voor Microsoft Teams, zie [ Adobe Workfront voor Microsoft Teams installeren ](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 

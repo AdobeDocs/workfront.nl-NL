@@ -6,9 +6,9 @@ description: U kunt tot  [!DNL Adobe Workfront]  van  [!DNL Microsoft Teams]  to
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a12277e8-2c2e-4b53-990f-6ee9a6541492
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->De integratie van Adobe Workfront for Microsoft Teams wordt momenteel alleen ondersteund voor de klassieke Microsoft Teams.
+>Vanaf 1 juli 2025 verwijdert Microsoft de ondersteuning voor de desktop-app Classic Teams. Als gevolg hiervan wordt de Workfront-integratie met Microsoft Teams niet ondersteund nadat de bureaubladtoepassing voor klassieke teams niet meer beschikbaar is.
 
 U kunt [!DNL Adobe Workfront] openen vanuit [!DNL Microsoft Teams] en verschillende handelingen uitvoeren in [!DNL Workfront] door opdrachten te typen in zowel het [!DNL Workfront] -kanaal als een ander teamkanaal.
 

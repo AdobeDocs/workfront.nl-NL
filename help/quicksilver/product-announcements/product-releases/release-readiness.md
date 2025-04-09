@@ -7,9 +7,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 411ad0b1-efb2-40e9-a04c-d06840b9cdce
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 436eb2ef32363aa28593e74f7464dcd6837b2095
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1213'
 ht-degree: 0%
 
 ---
@@ -125,7 +125,7 @@ Aangezien u zich voorbereidt om versieinformatie aan uw gebruikers mee te delen,
 * Interne nieuwsbrieven
 * E-mail
 * Berichten in het Aankondigingscentrum (doorgestuurd vanuit [!DNL Workfront] of gemaakt door u)
-* Mededelingen over samenwerkingsgereedschappen, zoals [!DNL Slack] of [!DNL Microsoft Teams]
+* Mededelingen over samenwerkingsgereedschappen, zoals [!DNL Slack]
 * Interne webinars of training
 
 U kunt de balans tussen [!DNL Workfront] -bronnen (zoals documentatie, releaseopmerkingen en training) kiezen met informatie die beter is afgestemd op de behoeften en workflows van uw organisatie. Als u gebruikers laat zien hoe nieuwe functies hun werk kunnen verbeteren of tijd en energie kunnen besparen, kunnen uw gebruikers de wijzigingen omarmen, maar u kunt tijd besparen door de demo&#39;s of documentatie te gebruiken die al beschikbaar zijn via [!DNL Workfront] .
