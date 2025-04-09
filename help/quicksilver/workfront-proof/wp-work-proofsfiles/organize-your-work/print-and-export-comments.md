@@ -7,9 +7,9 @@ description: Het overzicht met opmerkingen is toegankelijk in Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 212d465c-5605-4bb9-af5a-cea377619cfe
-source-git-commit: 1443551b605dac6e53531c5d445b89517384fe11
+source-git-commit: e72fe6861b26caa2f9e3ff64e36b871528619f5a
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Om tot de Kijker van het Bewijs toegang te hebben, klik **gaan aan proef** knoop
 
 ### De pagina Proefgegevens {#the-proof-details-page}
 
-U kunt het opmerkingenoverzicht van de proefdruk afdrukken door op het **[!UICONTROL Print]** pictogram op de pagina met proefdetails te klikken.
+U kunt de opmerkingssamenvatting van de proefdruk afdrukken door op het pictogram **[!UICONTROL Print]** op de pagina Proefgegevens te klikken.
 
 ![ proof_details_page.png ](assets/proof-details-page-350x231.png)
 
@@ -71,12 +71,12 @@ In de miniatuurweergave worden alle opmerkingen weergegeven op volgorde van de v
 
 Als u de miniatuurweergave wilt afdrukken, klikt u op het pictogram **[!UICONTROL Printer]** in de rechterbovenhoek van de pagina en selecteert u een van de volgende opties:
 
-* Sorteren op reactie-ID of pagina (1)
-* Miniatuur voor elke opmerking met toegevoegde markeringen (2)
+* Sorteren op opmerking-id of pagina (1)
+* Miniatuur voor elke opmerking waaraan markeringen zijn toegevoegd (2)
 
-![PV_thumbnail.png](assets/pv-thumbnail-350x290.png)
+![ PV_thumbnail.png ](assets/pv-thumbnail-350x290.png)
 
-### Paginagrote weergave
+### Volledige weergave
 
 In de weergave van de volledige pagina wordt elke pagina weergegeven in volgorde van de opmerkingen op die pagina en een punt dat aangeeft waar de opmerking zich bevindt.
 
@@ -95,7 +95,8 @@ U kunt als volgt het overzicht van [!DNL Excel] downloaden van de pagina Proefge
 
 1. Klik de **Meer** knoop, dan uitgezochte **Uitvoer aan Excel**.
 
-   ![ Uitvoer naar de optie van Excel ](assets/Export-to-excel-option.png)
+   <!--
+   ![Export to Excel option](assets/export-to-excel-option.png) -->
 
 ## Exporteren naar PDF
 
@@ -105,9 +106,9 @@ Wanneer u naar een PDF-bestand exporteert, worden alle opmerkingen in de PDF-lez
 >
 >De functie Exporteren naar PDF is alleen beschikbaar voor statische bestanden.
 
-Een proefdruk met de bijbehorende markeringen en opmerkingen exporteren naar PDF:
+Een proefdruk met markeringen en opmerkingen exporteren naar PDF:
 
-1. Klik aan de linkerkant van het scherm op **[!UICONTROL Views]**.
-1. Klik op de knop in lijn **[!UICONTROL More]** met de specifieke proef en selecteer **[!UICONTROL Print comments]** vervolgens .
+1. Klik links in het scherm op **[!UICONTROL Views]** .
+1. Klik op de knop **[!UICONTROL More]** in lijn met de specifieke proefdruk en selecteer vervolgens **[!UICONTROL Print comments]** .
 
 1. In de hoger-juiste hoek van de pagina, klik de **Uitvoer aan PDF** knoop. De PDF begint met downloaden en ontvangt een e-mail zodra het is voltooid.
