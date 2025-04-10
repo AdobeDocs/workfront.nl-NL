@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 993b066ecefb4b345c59289d6c6466ef0416d620
+source-git-commit: bb7f627f7ee2fdf15ba84919bf67f6c8fbb682dd
 workflow-type: tm+mt
-source-wordcount: '1640'
+source-wordcount: '1713'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen z
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Verbeteringen voor logica voor aangepaste formulieren</a></p>
+            Verbeteringen voor logica voor aangepaste formulieren</a></p><p>[!BADGE in productie ]{type=Informative}</p>
             <p>De builder van de logica voor aangepaste formulieren heeft een bijgewerkte interface waarmee u meer ruimte hebt voor het maken van logische regels. Dit nieuwe ontwerp kan gemakkelijker extra logische types aanpassen die in de toekomst kunnen worden toegevoegd.</p><p>Naast de huidige opties voor weergave en het overslaan van logica, is ook validatielogica beschikbaar.</p>
         </td>
         <td>
@@ -88,20 +88,20 @@ Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen z
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
-<!--    <tr>
+    <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            New document approval decision buttons available in proofing viewer</a></p>
-            <p>The new document approval decision buttons now appear in the proofing viewer. Now, when you create a simple proof and then add approvers and reviewers from the Document summary, they can make their decision directly inside the proofing viewer.</p>
+            Knoppen voor het nemen van beslissingen voor het goedkeuren van nieuwe documenten beschikbaar in de proefdrukviewer</a></p>
+            <p>De knoppen voor het nemen van beslissingen voor het goedkeuren van nieuwe documenten worden nu weergegeven in de proefdrukviewer. Wanneer u nu een eenvoudige proefdruk maakt en vervolgens fiatteurs en revisoren uit het documentoverzicht toevoegt, kunnen ze hun beslissing rechtstreeks in de proefdrukviewer maken.</p>
         </td>
         <td>
-            <p><b>Available on these dates:</b></p>
+            <p><b>Beschikbaar op deze data:</b></p>
             <ul>
-                <li>Preview release: March 27, 2025</li>
-                <li>Production release for all customers: With the 25.4 release (April 2025)</li>
+                <li>Voorvertoningsrelease: 9 april 2025</li>
+                <li>Productieversie voor een beperkt aantal klanten: met de release van 25.4 (april 2025)</li>
             </ul>
         </td>
-    </tr>    -->                      
+    </tr>                        
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
@@ -143,7 +143,7 @@ Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen z
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Verbeteringen aan proeven in mobiele app (iOS slechts) </a> [!BADGE in productie ]{type=Informative}</p>
+            Verbeteringen voor proefdrukken in de mobiele app (alleen iOS)</a><p>[!BADGE in productie ]{type=Informative}</p></p>
             <p>Er zijn verschillende verbeteringen beschikbaar voor de proefdrukfunctionaliteit in de mobiele app van Adobe Workfront:
             <ul>
             <li>U kunt nu een proefdrukbestand openen vanuit uw mobiele e-mailtoepassing via een koppeling die met u is gedeeld. Eerder werden koppelingen uit e-mailberichten niet ondersteund en moest u proefdrukken openen vanuit de mobiele app van Workfront.</li>
@@ -175,7 +175,7 @@ Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen z
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Voeg een commentaar aan projecten toe wanneer het uitgeven van hen in Edit projectvakje </a> [!BADGE in productie voor Snelle Versie] {type=Positive</p>
+            Een opmerking toevoegen aan projecten wanneer u deze bewerkt in het vak Project bewerken</a><p>[!BADGE in productie ]{type=Informative}</p>
             <p>U kunt nu een opmerking aan een project toevoegen terwijl u deze bewerkt in het vak Project bewerken. U kunt ook een opmerking toevoegen aan meerdere projecten tegelijk wanneer u ze bulksgewijs bewerkt. Vóór deze update bestond deze functionaliteit niet tijdens het bewerken van projecten.</p>
         </td>
         <td>
@@ -199,7 +199,7 @@ Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen z
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            De de goedkeuring en beslissingsgegevens van het document nu beschikbaar in Gegevens verbinden </a> [!BADGE in productie ]{type=Informative}</p>
+            Documentgoedkeuring en beslissingsgegevens zijn nu beschikbaar in Data Connect</a><p>[!BADGE in productie ]{type=Informative}</p>
             <p>U hebt nu toegang tot gegevens voor documentgoedkeuringen en -beslissingen in Data Connect. Deze gegevensset vormt een brug tussen documentgoedkeuringen van Workfront-proefdrukmogelijkheden en Frame.io-goedkeuringen die plaatsvinden op Workfront-documenten. U kunt nu de cyclustijd, het aantal cycli en de tijdlijneffecten illustreren voor late goedkeuringen via uw BI-visualisaties.</p>
         </td>
         <td>
@@ -212,7 +212,7 @@ Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen z
     </tr>                          
     <tr>
         <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Updates van de Workfront-agenda</a></p>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Updates van de Workfront-agenda</a></p><p>[!BADGE in productie ]{type=Informative}</p>
             <p>We hebben de look and feel van de Workfront-agenda aangepast aan een modern ontwerp dat aansluit bij andere delen van Workfront. Er zijn kleine functieverschillen met de huidige Workfront-kalender, waaronder:
             <ul>
             <li>Ad-hocitems toevoegen aan de kalender</li>
@@ -255,9 +255,7 @@ Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen z
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Adobe Admin Console-gebruikerswijzigingen vertegenwoordigen als "Systeem" in de Workfront-updatefeed</a></p>
-            [!BADGE in productie voor Snelle Versie ]{type=Positive}
-            <p>Nu, wanneer de beheerder van de Adobe Admin Console een verandering in de gebruikersinformatie van een gebruiker van Workfront aanbrengt, registreert Workfront deze verandering in het de activiteitslusje van het Systeem van het gebied van de Updates van de gebruiker zoals die tot het "Systeem"behoort. Dit verwijst naar de Adobe Admin Console-beheerder.</p>
+            Adobe Admin Console-gebruikerswijzigingen vertegenwoordigen als "Systeem" in de Workfront-updatefeed</a></p><p>[!BADGE in productie ]{type=Informative}</p><p>Nu, wanneer de beheerder van de Adobe Admin Console een verandering in de gebruikersinformatie van een gebruiker van Workfront aanbrengt, registreert Workfront deze verandering in het de activiteitslusje van het Systeem van het gebied van de Updates van de gebruiker zoals die tot het "Systeem"behoort. Dit verwijst naar de Adobe Admin Console-beheerder.</p>
         </td>
         <td>
             <p><b>Beschikbaar op deze data:</b></p>
