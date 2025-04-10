@@ -6,7 +6,7 @@ description: Overzicht van de systemen die beschikbaar zijn voor controle en goe
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
+source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
@@ -19,13 +19,13 @@ Er zijn momenteel drie verschillende systemen beschikbaar in Workfront for Asset
 
 * [Goedkeuringen van oudere documenten](#legacy-document-approvals)
 
-* [Verenigde goedkeuringen](#new-document-approvals)
+* [Verenigde Goedkeuringen](#new-document-approvals)
 
 * [Goedkeuringen van proefdrukken](#proof-approvals)
 
 ## Goedkeuringen van oudere documenten
 
-Goedkeuringen van oudere documenten worden in 2025 uit Workfront verwijderd. Het uniforme goedkeuringssysteem is ontworpen ter vervanging van goedkeuringen voor documenten met oudere versies.
+Goedkeuringen van oudere documenten worden in 2025 uit Workfront verwijderd. Het verenigde systeem van Goedkeuringen is ontworpen om de goedkeuringen van het document van de Verouderde te vervangen.
 
 Belangrijke functies beschikbaar voor goedkeuringen van oudere documenten:
 
@@ -36,13 +36,13 @@ Belangrijke functies beschikbaar voor goedkeuringen van oudere documenten:
 
 Voor meer informatie, zie [ Goedkeuringen van het document van de Oudheid ](/help/quicksilver/review-and-approve-work/manage-approvals/approval-process-in-workfront.md#document-approval-processes).
 
-## Verenigde goedkeuringen
+## Verenigde Goedkeuringen
 
-De verenigde goedkeuringen is een herontwerp van het systeem van erfenisgoedkeuringen. Momenteel beschikbaar in beperkte versie, is het ontworpen om een praktische en efficiënte oplossing voor ondernemingen te zijn die uitvoerige betrokkenheid van belanghebbenden en versie-specifieke documentgoedkeuringen vereisen.
+De verenigde goedkeuringen zijn een herontwerp van het systeem van erfenisgoedkeuringen. Momenteel beschikbaar in beperkte versie, is het ontworpen om een praktische en efficiënte oplossing voor ondernemingen te zijn die uitvoerige betrokkenheid van belanghebbenden en versie-specifieke documentgoedkeuringen vereisen.
 
-Voor meer gedetailleerde informatie over verenigde goedkeuringen, zie [ Verenigd goedkeuringsoverzicht ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
+Voor meer gedetailleerde informatie over Verenigde Goedkeuringen, zie [ Verenigd Overzicht van Goedkeuringen ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
-Belangrijke functies beschikbaar voor uniforme goedkeuringen:
+De belangrijkste eigenschappen beschikbaar voor Verenigde Goedkeuringen:
 
 * Gebruikers en teams toevoegen als fiatteurs en revisoren
 
@@ -51,11 +51,11 @@ Belangrijke functies beschikbaar voor uniforme goedkeuringen:
 * Sjablonen maken en gebruiken
 
 * Reviseren en opmerkingen toevoegen in de proefdrukviewer
-Voor meer informatie over het gebruiken van de het proef kijker, zie [ Verenigde goedkeuringen van het Gebruik samen en het proef ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md).
+Voor meer informatie over het gebruiken van de het proeven kijker, zie [ Verenigde Goedkeuringen van het Gebruik en het proef samen ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md).
 
 * Meerdere belangrijke prestatie-indicatoren voor uw goedkeuring weergeven in Workfront Home-widgets
 
-* Canvasdashboards gebruiken, momenteel in bèta, om rapportdetails over verenigde goedkeuringen te bekijken
+* De Dashboards van het Canvas van het gebruik, momenteel in bèta, om rapportdetails over Verenigde Goedkeuringen te bekijken
 Voor meer informatie bij het melden, zie [ een rapportdashboard voor overzicht en goedkeuringen ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) creëren.
 
 * Besluiten in de het proefKijker [!BADGE  die spoedig ]{type=Informative} komt

@@ -6,7 +6,7 @@ description: U kunt extra fiatteurs of revisoren toevoegen aan een document dat 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
+source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 0%
@@ -19,61 +19,61 @@ ht-degree: 0%
 >
 >De inhoud van dit artikel verwijst naar de functionaliteit voor bijgewerkte documentgoedkeuring die alleen beschikbaar is voor specifieke accounts. Voor informatie over standaardgoedkeuringsprocessen, zie de artikelen die in [ worden vermeld goedkeuringen van het Werk ](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
-Unified approvals is een holistisch herontwerp van het bestaande goedkeuringsproces dat momenteel in ontwikkeling is voor Adobe Workfront. Het is momenteel beschikbaar in beperkte oplage en is ontworpen als een praktische en effectieve oplossing voor bedrijven die uitgebreide betrokkenheid van belanghebbenden en versiespecifieke documentgoedkeuringen nodig hebben. Het doordachte ontwerp en de doelgerichte nieuwe functies vergemakkelijken samenwerking, rolduidelijkheid en versiebeheer in het goedkeuringsproces, waardoor de efficiëntie en verantwoording worden verbeterd.
+De verenigde goedkeuringen zijn een groots herontwerp van het bestaande goedkeuringsproces dat momenteel voor Adobe Workfront in ontwikkeling is. Momenteel beschikbaar in beperkte versie, is het ontworpen om een praktische en efficiënte oplossing voor ondernemingen te zijn die uitvoerige betrokkenheid van belanghebbenden en versie-specifieke documentgoedkeuringen vereisen. Het doordachte ontwerp en de doelgerichte nieuwe functies vergemakkelijken samenwerking, rolduidelijkheid en versiecontrole in het goedkeuringsproces, waardoor de efficiëntie en de verantwoordingsplicht worden verbeterd.
 
-## Belangrijkste verschillen met proofing en goedkeuringen van oude documenten
+## Belangrijke verschillen van proefdrukken en goedkeuring van oudere documenten
 
-**Verschillen met proofing**
+**Verschillen van het Bewijzen**
 
-* Beslissingsknoppen voor documentgoedkeuring zijn niet beschikbaar in de controleviewer. Beslissingen kunnen worden genomen in het document Overzicht, Workfront Home-widgets of op de pagina Documentdetails.
+* De beslissingsknoppen voor documentgoedkeuring zijn niet beschikbaar in de proefdrukviewer. Besluiten kunnen worden genomen in de documentoverzicht, de Workfront Home-widgets of op de pagina Documentdetails.
 * Deelnemers aan documentgoedkeuring worden weergegeven in het overzicht van het document, niet op het tabblad voor de proefwerkstroom.
 * De verenigde goedkeuringen worden niet gesteund in het huidige rapporteringshulpmiddel.
 
-  U kunt zich bij de nieuwe bèta van de Dashboards van het Canvas aansluiten om [ een rapportdashboard voor overzicht en goedkeuringen ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) tot stand te brengen, of u kunt allen gebruiken goedkeurt widget beschikbaar in nieuwe Dashboards van het Huis en van het Canvas verstrekt de volgende details over verenigde goedkeuringen:
+  U kunt zich bij de nieuwe bèta van de Dashboards van het Canvas aansluiten om [ een rapportdashboard voor overzicht en goedkeuringen ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) tot stand te brengen, of u kunt allen gebruiken goedkeurt widget beschikbaar in nieuwe Dashboards van het Huis en van het Canvas verstrekt de volgende details over Verenigde Goedkeuringen:
 
    * Goedkeuring bij besluit
    * Gemiddelde goedkeuringstijd
    * Goedkeuringen in behandeling
-   * Achterstallige goedkeuringen
+   * Achterstallige betalingen
 
-**Verschillen met goedkeuringen van verouderde documenten**
+**Verschillen van de goedkeuringen van het document van de Oudheid**
 
-Met uniforme goedkeuringen kunt u
+Met Verenigde Goedkeuringen, kunt u
 
-* Beoordelaars toevoegen naast goedkeurders
-* Wijs een heel Workfront-team aan als revisoren of goedkeurders
+* Revisoren toevoegen naast fiatteurs
+* Een volledig Workfront-team aanwijzen als revisor of fiatteur
 * Een deadline voor de revisie of goedkeuring instellen
 * Goedkeuringssjablonen maken en opnieuw gebruiken
 * Nieuwe versies gebruiken voor
 * Meerdere belangrijke prestatie-indicatoren voor uw goedkeuring weergeven in Workfront Home-widgets
-* Canvasdashboards gebruiken om rapportdetails over verenigde goedkeuringen te bekijken
+* De Dashboards van het Canvas van het gebruik om rapportdetails over Verenigde Goedkeuringen te bekijken
 
-## Unieke goedkeuringen gebruiken
+## Gebruikend Verenigde Goedkeuringen
 
-Voor gebruikers die documentgoedkeuringen willen maken of beheren, raadpleegt u de artikelen in [Activa- en documentgoedkeuringen instellen en beheren: artikelindex](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
+Voor gebruikers die documentgoedkeuringen tot stand willen brengen of beheren, zie de artikelen die in [ worden vermeld opstelling en beheer activa en documentgoedkeuringen: artikelindex ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
 
-Voor gebruikers die documenten willen controleren of goedkeuren waarvoor ze een aanvraag hebben ontvangen, raadpleegt u de artikelen in [Documenten goedkeuren en controleren: artikelindex](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
+Voor gebruikers die documenten bekijken of goedkeuren waarvoor zij een verzoek hebben ontvangen, zie de artikelen die in [ worden vermeld goedkeuren en documenten herzien: artikelindex ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
 
-## Nieuwe functies en ontwerpdoelen
+## Nieuwe functies en ontwerpdoelstellingen
 
 >[!VIDEO](https://video.tv.adobe.com/v/3420544/)
 
 * **Inclusieve participatie van belanghebbenden**\
-    Uniforme goedkeuringen maken het mogelijk om zowel individuele bijdragers als hele teams bij het goedkeuringsproces te betrekken. Het faciliteren van deze bredere participatie zorgt voor een uitgebreide betrokkenheid van belanghebbenden en bevordert een beter geïnformeerde en op samenwerking gebaseerde besluitvormingsomgeving.
+    De verenigde goedkeuringen staan de opneming van zowel individuele contribuanten als volledige teams in het goedkeuringsproces toe. Het vergemakkelijken van deze bredere participatie zorgt voor een brede betrokkenheid van belanghebbenden en bevordert een beter geïnformeerde en beter op samenwerking gerichte besluitvormingsomgeving.
 
-* **Gedifferentieerde beoordelings- en goedkeuringsrollen**\
+* **Gesplitste overzicht en goedkeuringsrollen**\
      De verenigde goedkeuringen worden ontworpen om de variërende rollen binnen het goedkeuringsproces te erkennen en te respecteren. Door de capaciteit te verstrekken om recensenten-gebruikers te identificeren en aan te wijzen die worden meegedeeld om terug te geven maar geen besluitvormend gezag hebben-wordt de kwaliteit van terugkoppelen verbeterd terwijl het handhaven van duidelijkheid van definitieve goedkeuringsinstantie.
 
 * **Versie-specifieke goedkeuringen**\
     Het herhalende karakter van documentontwikkeling leidt vaak tot meerdere versies van hetzelfde document. De verenigde goedkeuringen passen deze realiteit aan door unieke goedkeuringsketens voor elke versie van een document te verstrekken. Zo kunnen gebruikers een nieuwe versie uploaden en zo nodig nieuwe fiatteurs of revisoren toevoegen, zodat feedback en goedkeuring specifiek zijn voor de documentversie en mogelijke verwarring wordt voorkomen.
 
-* **Audit sporen**\
-    Met uniforme goedkeuringen wordt een audittrail van alle goedkeuringsactiviteiten bijgehouden in de activiteitenstroom, wat een waardevolle bron biedt voor toekomstige referentie en naleving.
+* **de sporen van de Controle**\
+    Met Verenigde Goedkeuringen, wordt een controletraject van alle goedkeuringsactiviteiten gehandhaafd in de activiteitenstroom, die een waardevolle middel voor toekomstige verwijzing en naleving verstrekken.
 
-## Vrijlatingsplan
+## Releaseplan
 
-We stellen uniforme goedkeuringen beschikbaar aan gebruikers in de loop van verschillende releases. Naast het toevoegen van nieuwe functies, breiden we ook het aantal accounts uit waarvoor uniforme goedkeuringen beschikbaar zijn bij elke release.
+Wij stellen Verenigde Goedkeuringen ter beschikking van gebruikers tijdens de cursus van verscheidene versies. Naast het toevoegen van nieuwe eigenschappen, zullen wij ook het aantal rekeningen uitbreiden waarvoor Verenigde Goedkeuringen met elke versie beschikbaar zijn.
 
-Als u uniforme goedkeuringen wilt inschakelen in uw productieomgeving, neem dan contact op met uw Customer Success of Strategic Account Manager.
+Als u Verenigde Goedkeuringen in uw productiemilieu toegelaten wilt hebben, te bereiken gelieve uw Succes van de Klant of Strategische Manager van de Rekening.
 
 

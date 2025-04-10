@@ -1,23 +1,23 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Uniforme goedkeuringen en proefdrukken samen gebruiken
-description: U kunt uniforme goedkeuringen gebruiken met proef.
+title: Verenigde goedkeuringen en proefdrukken samen gebruiken
+description: You can use Unified Approvals with proofing.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: be484629-6e70-4809-ad4c-a489d5814da6
-source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
+source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 0%
 
 ---
 
-# Uniforme goedkeuringen en proefdrukken samen gebruiken
+# Verenigde goedkeuringen en proefdrukken samen gebruiken
 
-De verenigde goedkeuringen in Workfront introduceren een nieuwe reeks eigenschappen om u te helpen documenten herzien en goedkeuren. Met de bestaande proefdrukviewer kunt u een uniforme goedkeuringsworkflow gebruiken om opmerkingen en markeringen toe te voegen aan documenten die worden gecontroleerd.
+Unified Approvals in Workfront introduces a new set of features to help you review and approve documents. You can use a Unified Approvals workflow with the existing proofing viewer to add comments and markup to documents in review.
 
-Er zijn enkele belangrijke verschillen in de workflow bij het gebruik van uniforme goedkeuringen en proefdrukken samen:
+Er zijn sommige zeer belangrijke verschillen in het werkschema wanneer het gebruiken van Verenigde Goedkeuringen en het proef samen:
 
 * Beslissingsknoppen worden niet weergegeven in de proefdrukviewer
 
