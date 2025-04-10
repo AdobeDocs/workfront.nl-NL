@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 03f95d2d6397850fd53e79fd37c2de56e94a04cd
+source-git-commit: 34f7f35875f063a77d33ee63c33e69721dc70c03
 workflow-type: tm+mt
-source-wordcount: '1270'
+source-wordcount: '1308'
 ht-degree: 0%
 
 ---
@@ -124,7 +124,29 @@ IF(
 
    ![ Uitgezocht een voorwerp ](assets/object-for-business-rule3.png)
 
-1. Typ de **Naam** voor de bedrijfsregel.
+   U kunt bedrijfsregels toepassen op de volgende objecten:
+
+   * Project
+   * Taak
+   * Uitgave/verzoek
+   * Portfolio
+   * Document
+   * Programma
+   * Kosten
+   * Gebruiker
+   * Bedrijf
+   * Iteratie
+   * Factureringsrecord
+   * Groep
+   * Risico
+   * Toewijzing
+   * Functie
+   * Bronpool
+   * Tijd uit
+   * Uur
+   * Sjabloon
+
+1. Typ de **Naam** voor de bedrijfsregel op de dialoog van de regelbouwer.
 1. Op **is Actief** gebied, selecteer of de regel actief zou moeten zijn wanneer u het bewaart.
 
    Als u **Nr** selecteert, wordt de regel bewaard als inactief, en u kunt het later activeren.
