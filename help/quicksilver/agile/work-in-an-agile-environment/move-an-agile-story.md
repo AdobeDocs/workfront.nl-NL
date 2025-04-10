@@ -6,7 +6,7 @@ description: U kunt een flexibel artikel verplaatsen naar een andere herhaling (
 author: Lisa
 feature: Agile
 exl-id: 0058792e-66b8-4e54-8ce3-50171adff875
-source-git-commit: 164e98e8cc6995387be1e830787cb258f127bd70
+source-git-commit: 68aafe63ff8b60a542ed9dd0900b3742c26a1e4f
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 0%
@@ -65,7 +65,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 ## Een artikel naar een andere herhaling verplaatsen
 
-U kunt een verhaal naar een verschillende herhaling voor uw team van het Trommel verplaatsen als u een Beheerder van het Systeem of een lid van het team bent de herhaling met wordt geassocieerd.
+U kunt een verhaal naar een verschillende herhaling voor uw team van het Trommel verplaatsen als u een systeembeheerder of een lid van het team bent de herhaling met wordt geassocieerd.
 
 >[!NOTE]
 >

@@ -3,17 +3,19 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: Bestaande taken of problemen toevoegen aan de Kanban Board
 description: U kunt om het even welke taak of kwestie aan een raad toevoegen Kanban als u beheerst toegang tot het project hebt.
-author: Lisa
+author: Courtney
 feature: Agile
 exl-id: 5f94a451-8530-478f-85c2-41bc15c22dd1
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: f78a86dcdf7b63e98bec5216fb5ab7622775a053
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '480'
 ht-degree: 0%
 
 ---
 
 # Bestaande taken of problemen toevoegen aan de [!UICONTROL Kanban] -board
+
+<!-- Audited: 4/2025 -->
 
 U kunt elke gewenste taak of uitgave toevoegen aan een [!UICONTROL Kanban] -board als u beheertoegang hebt tot het project. Houd rekening met het volgende wanneer u een taak of probleem naar een [!UICONTROL Kanban] -board verplaatst:
 
@@ -49,23 +51,51 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 +++
 
-## Bestaande taken of problemen toevoegen aan de Kanban-board
+## Bestaande taken of problemen uit een project toevoegen
 
-Een taak of uitgave toevoegen aan een [!UICONTROL Kanban] -board:
+Een taak of een kwestie aan een [!UICONTROL Kanban] raad van een project toevoegen:
 
-{{step1-click-main-menu}}
+{{step1-to-projects}}
 
-1. Kies een van de volgende opties: **[!UICONTROL Projects]**, **[!UICONTROL Reports]** of **[!UICONTROL Dashboards]** .
-
-1. Ga naar het project, het rapport, of het dashboard dat de taak of de kwestie bevat u aan de raad Kanban wilt toevoegen.
-1. Selecteer een of meer taken of problemen.
-1. Klik op **[!UICONTROL More]** > **[!UICONTROL Add to]** > **[!UICONTROL Kanban Board]**.
-1. Typ in het dialoogvenster [!UICONTROL Add Stories] de naam van het Kanban-team.
+1. Selecteer het project dat de taak of kwestie bevat u aan de raad Kanban wilt toevoegen.
+1. Klik of de **Taken** of **Kwesties** tabel, dan selecteren één of meerdere het werkpunten om toe te voegen.
+1. Klik het **[!UICONTROL More]** pictogram ![ Meer pictogram ](assets/more-icon.png), dan uitgezocht **voeg aan Raad Kanban** toe. [!UICONTROL **voegt aan**] dialoogdoos toe opent.
+1. Op het **1} gebied Kanban van de Raad, typ de naam van het Kanban team, dan selecteer het van drop-down.**
 
    >[!NOTE]
    >
-   >Als u meerdere teams toevoegt, kan de taak of uitgave alleen op de [!DNL kanban] -board van één team worden weergegeven. Dit is het bord dat u eerder koos.
+   >Als er meerdere teams zijn toegewezen aan de taak of uitgave, kan het werkitem alleen worden weergegeven op de [!DNL kanban] -board van één team.
+1. Klik **toevoegen**.
 
-1. Klik op **[!UICONTROL Add Stories]** als u taken toevoegt.
-of
-Klik op **[!UICONTROL Add Issues]** als u problemen toevoegt.
+## Bestaande taken of problemen toevoegen uit een rapport
+
+Om een taak of een kwestie aan een raad [!UICONTROL Kanban] van een rapport toe te voegen:
+
+{{step1-to-reports}}
+
+1. Selecteer de taak of het uitgiftenrapport die het het werkpunt bevat u aan de karton wilt toevoegen Kanban.
+1. Selecteer een of meer werkitems die u wilt toevoegen.
+1. Klik het **[!UICONTROL More]** pictogram ![ Meer pictogram ](assets/more-icon.png), dan uitgezocht **voeg aan Raad Kanban** toe. [!UICONTROL **voegt aan**] dialoogdoos toe opent.
+1. Op het **1} gebied Kanban van de Raad, typ de naam van het Kanban team, dan selecteer het van drop-down.**
+
+   >[!NOTE]
+   >
+   >Als er meerdere teams zijn toegewezen aan de taak of uitgave, kan het werkitem alleen worden weergegeven op de [!DNL kanban] -board van één team.
+1. Klik **toevoegen**.
+
+
+## Bestaande taken of problemen toevoegen vanuit een dashboard
+
+Een taak of uitgave toevoegen aan een [!UICONTROL Kanban] -board vanaf een dashboard:
+
+{{step1-to-dashboards}}
+
+1. Selecteer het dashboard dat het het werkpunt bevat u aan het Kanban board wilt toevoegen.
+1. Selecteer een of meer werkitems die u wilt toevoegen.
+1. Klik het **[!UICONTROL More]** pictogram ![ Meer pictogram ](assets/more-icon.png), dan uitgezocht **voeg aan Raad Kanban** toe. [!UICONTROL **voegt aan**] dialoogdoos toe opent.
+1. Op het **1} gebied Kanban van de Raad, typ de naam van het Kanban team, dan selecteer het van drop-down.**
+
+   >[!NOTE]
+   >
+   >Als er meerdere teams zijn toegewezen aan de taak of uitgave, kan het werkitem alleen worden weergegeven op de [!DNL kanban] -board van één team.
+1. Klik **toevoegen**.

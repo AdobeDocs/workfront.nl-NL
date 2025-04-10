@@ -6,9 +6,9 @@ description: Met de filter- en voorwaardemodities kunt u filters maken en voorwa
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: b2b17c34fe4887e291e69facf76f5071bca43b06
 workflow-type: tm+mt
-source-wordcount: '1566'
+source-wordcount: '1565'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Sommige bepalingen zijn ingebouwd en u kunt hen van een drop-down menu binnen uw
 
 Voor meer informatie over het begrip van tekstwijze, zie [ Overzicht van de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-Voor een lijst van ingebouwde tijdkaderbepalingen, zie de artikel [ rapporten van de Filter door tijdkaders ](../../../reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md).
+Voor een lijst van ingebouwde tijdkaderbepalingen, zie de artikel [ rapporten van de Filter door timeframes ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md).
 
 U kunt de volgende voorwaardelijke wijzigingstoetsen in filters en voorwaardelijke het formatteren verklaringen gebruiken:
 

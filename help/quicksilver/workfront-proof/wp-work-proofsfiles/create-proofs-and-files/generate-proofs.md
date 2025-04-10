@@ -2,25 +2,25 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: create-proofs-and-files
-title: Genereer proefdrukken in [!DNL Workfront Proof]
-description: Met Workfront Proof kunt u proefdrukken maken van documenten of websites en deze proefdrukken met anderen delen.
+title: Proefdrukken genereren in  [!DNL Workfront Proof]
+description: Met Workfront Proof kunt u proefdrukken maken van documenten of websites en deze proefdrukken delen met anderen.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 49657851-2948-4d3b-b2ce-c8359eeb315b
-source-git-commit: 1443551b605dac6e53531c5d445b89517384fe11
+source-git-commit: de23513976d7bc4fe34cbf7b007a41c3b9797347
 workflow-type: tm+mt
 source-wordcount: '1818'
 ht-degree: 0%
 
 ---
 
-# Genereer proefdrukken in [!DNL Workfront Proof]
+# Proefdrukken genereren in [!DNL Workfront Proof]
 
 <!-- Audited: 4/2025 -->
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar de functionaliteit in het standalone product [!DNL Workfront Proof]. Zie Proefdruk voor informatie over de proefdruk binnenin[!DNL Adobe Workfront][.](../../../review-and-approve-work/proofing/proofing.md)
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
 
 Met [!DNL Workfront Proof] kunt u proefdrukken maken van documenten of websites en deze proefdrukken delen met anderen. In de volgende stappen worden de verschillende configuratieopties beschreven die beschikbaar zijn:
 
@@ -40,13 +40,13 @@ Met [!DNL Workfront Proof] kunt u proefdrukken maken van documenten of websites 
 
 1. Als u een website wilt controleren, voert u de URL van de website in het gebied **[!UICONTROL Add Files]** in en drukt u op **[!UICONTROL Enter]** . Herhaal deze stap om meerdere websites aan een proefdruk toe te voegen.
 
-   Zie [Een proefdruk voor een URL](#generate-a-proof-for-a-url) genereren voor meer informatie over het controleren van websites.
+   Voor meer details over het proefdrukken van websites, zie [ een proef voor een URL ](#generate-a-proof-for-a-url) produceren.
 
-   ![Bewijs website](assets/proof-website-350x65.png)
+   ![ Website van het proef ](assets/proof-website-350x65.png)
 
 1. (Optioneel) Wijzig de bestandsnamen van geüploade bestanden:
 
-   1. Plaats in de documentenlijst de muisaanwijzer op de documentnaam die u wilt wijzigen en klik vervolgens op het **[!UICONTROL Edit]** pictogram.
+   1. Houd de muisaanwijzer boven de documentnaam die u wilt wijzigen in de documentlijst en klik vervolgens op het pictogram **[!UICONTROL Edit]** .
 
       ![ proof_edit.png ](assets/proof-edit-350x53.png)
 
@@ -88,17 +88,17 @@ Met [!DNL Workfront Proof] kunt u proefdrukken maken van documenten of websites 
 
    * **voeg douanebericht toe:** selecteer deze optie om een douanebericht in het bericht te omvatten. U kunt een onderwerp en berichttekst opgeven. De berichttekst kan tekstopmaak bevatten, zoals vet, opsommingstekens en hyperlinks.
 
-1. Selecteer een van de volgende proefinstellingen:
+1. Selecteer een van de volgende proefdrukinstellingen:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Inloggen vereist. Dit bewijs kan niet worden gedeeld met andere gebruikers</td> 
+      <td role="rowheader">Aanmelding vereist. Dit bewijs kan niet met andere gebruikers worden gedeeld</td> 
       <td> <p>Wanneer deze optie is geselecteerd:</p> 
        <ul> 
-        <li>Gebruikers kunnen zich niet aanmelden bij de proefdruk om deze te bekijken, tenzij ze eraan zijn toegevoegd.</li> 
+        <li>Gebruikers kunnen zich alleen aanmelden bij de proefdruk als ze deze hebben toegevoegd.</li> 
         <li>Abonnementen kunnen niet worden ingeschakeld.</li> 
        </ul> 
        <p>Deze optie is standaard uitgeschakeld.</p> 
@@ -121,13 +121,13 @@ Met [!DNL Workfront Proof] kunt u proefdrukken maken van documenten of websites 
       <p>Deze optie is standaard ingeschakeld.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Toestaan dat bewijs wordt gedeeld via openbare URL of insluitcode</td> 
-      <td><p>Wanneer deze optie is geselecteerd, kan de proef worden gedeeld via een openbare URL of insluitcode.</p>
+      <td role="rowheader">Delen van proefdrukken via openbare URL of insluitcode toestaan</td> 
+      <td><p>Als deze optie is geselecteerd, kan de proefdruk worden gedeeld via een openbare URL of insluitcode.</p>
        <p>Deze optie is standaard ingeschakeld.</p>
       </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Abonneer op een proefversie via een openbare URL of insluitcode toestaan</td> 
+      <td role="rowheader">Abonneren op proefdrukken via een openbare URL of insluitcode toestaan</td> 
       <td> <p>Als deze optie is geselecteerd, kunnen personen die niet aan de proefdruk zijn toegevoegd, zich abonneren op de proefdruk. De persoon die zich op de proef abonneert, krijgt de rol en e-mail die u in de volgende montages bepaalt:</p> 
        <ul> 
         <li><strong> rol van de Abonnee </strong>: De standaardproefdrukrol die aan alle recensenten wordt toegewezen die aan de proef intekenen.</li> 
@@ -144,13 +144,13 @@ Met [!DNL Workfront Proof] kunt u proefdrukken maken van documenten of websites 
 
    De vertraging bij het uploaden van een document hangt af van de bestandsgrootte en het type. Het genereren van grotere bestanden duurt langer. U kunt vanaf de pagina navigeren terwijl Workfront uw bestand blijft genereren. De maximale grootte voor het uploaden van bestanden is 4 GB.
 
-## Genereer een statische proef met een URL {#generate-a-proof-for-a-url}
+## Een statische proefdruk maken met een URL {#generate-a-proof-for-a-url}
 
-U kunt een statische proef genereren met behulp van een website-URL.
+U kunt een statisch bewijs produceren gebruikend een website URL.
 
 >[!NOTE]
 >
->U kunt alleen een interactieve proefdruk voor een URL genereren als uw [!DNL Workfront] omgeving is geïntegreerd met een [!DNL Workfront Proof] Premium-account. Neem contact op met de Workfront-beheerder als u geen proefdrukken kunt gebruiken zoals beschreven in deze sectie.
+>U kunt alleen een interactieve proefdruk voor een URL genereren als uw [!DNL Workfront] -omgeving is geïntegreerd met een [!DNL Workfront Proof] Premium-account. Neem contact op met de Workfront-beheerder als u geen proefdrukken kunt gebruiken zoals beschreven in deze sectie.
 
 1. Voer een van de volgende handelingen uit om de pagina **[!UICONTROL New Proof]** te openen:
 
@@ -221,12 +221,12 @@ Voor informatie over hoe te om een interactieve proef toe te voegen URL, zie [ e
 
 1. Bereid uw inhoud voor door een ZIP-gebundeld bestand te maken.
 
-   Zie [Overzicht](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md) van interactieve inhoudsproeven voor informatie over .zip gebundelde bestandsspecificaties.
+   Voor informatie over .zip gebundelde dossierspecificaties, zie [ Interactieve overzicht van inhoudsproeven ](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
 
-1. Voer een van de volgende handelingen uit om de **[!UICONTROL New Proof]** pagina te openen:
+1. Voer een van de volgende handelingen uit om de pagina **[!UICONTROL New Proof]** te openen:
 
-   * Klik op de **[!UICONTROL New proof]** knop in de linkerbovenhoek van een pagina.
-   * Indienen via Dropzone (Enterprise-functie).
+   * Klik op de knop **[!UICONTROL New proof]** in de linkerbovenhoek van een pagina.
+   * Verzenden via Dropzone (Enterprise-functie).
 
 1. Sleep op de pagina **[!UICONTROL New proof]** de interactieve ZIP-bundel naar het **[!UICONTROL Add files]** -gebied.
 

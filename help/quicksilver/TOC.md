@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 43e58f4495cc970b1d0f49dd4ce38fd8b1ef61e4
+source-git-commit: d344ace2024525703261dae6ba13f1fd1e0e8484
 workflow-type: tm+mt
-source-wordcount: '13116'
+source-wordcount: '13115'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 0%
 * [Workfront-documentatie](home.md)
 * Productaankondigingen {#product-announcements}
    * [Productaankondigingen](product-announcements/product-announcements.md)
-   * Productintroducties {#product-releases}
+   * Productreleases {#product-releases}
       * [Overzicht van productreleases](product-announcements/product-releases/product-releases.md)
       * [Adobe Workfront-releaseschema en -proces](product-announcements/product-releases/workfront-release-schedule.md)
       * [Een driemaandelijkse Adobe Workfront-release voorbereiden](product-announcements/product-releases/release-readiness.md)
-      * Versie 2025 Q2 {#release-25-q2}
+      * Release 2025 Q2 {#release-25-q2}
          * [Overzicht van de release 2025 Q2](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)
          * [2025 Q2 Beheerverbeteringen](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md)
          * [Verbeteringen in documentbeheer 2025 Q2](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md)
@@ -28,7 +28,7 @@ ht-degree: 0%
          * [2025 Q2 Rapportverbeteringen](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md)
          * [Andere verbeteringen tijdens de releaseperiode van het tweede kwartaal van 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md)
          * [Updates weergeven en weergeven tijdens de releaseperiode van 2025 Q2](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-look-and-feel-updates.md)
-      * Versie 2025 Q1 {#release-25-q1}
+      * Release 2025 Q1 {#release-25-q1}
          * [Overzicht van de release Q1 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
          * [2025 Q1 Beheerderverbeteringen](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md)
          * [Verbeteringen in de Q1-raden 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-boards-enhancements.md)
@@ -40,7 +40,7 @@ ht-degree: 0%
          * [Verbeteringen in Q1-updatestream 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-update-stream-enhancements.md)
          * [Andere verbeteringen tijdens de releaseperiode van het eerste kwartaal van 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md)
          * [De blik-en-voelen updates tijdens het de versietijdkader van Q1 van 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md)
-      * Versie 2024 Q4 {#release-24-q4}
+      * Release 2024 Q4 {#release-24-q4}
          * [Overzicht van de release 2024 Q4](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
          * [2024 Q4 Verbeteringen voor beheerders](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md)
          * [Verbeteringen in documentbeheer 2024 Q4](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md)
@@ -71,7 +71,7 @@ ht-degree: 0%
          * [Verbeteringen voor 2024 Q2-hulpbronnenbeheer](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-resource-mgmt-enhancements.md)
          * [2024 Q2 Update stream verbeteringen](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md)
          * [Updates weergeven en weergeven tijdens de releaseperiode van 2024 Q2](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md)
-      * Versie 2024 Q1 {#release-24-q1}
+      * Release 2024 Q1 {#release-24-q1}
          * [Overzicht van de release 2024 Q1](product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
          * [2024 Q1 Beheerdersverbeteringen](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md)
          * [2024 Q1 Verbeteringen in documentbeheer](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md)
@@ -80,7 +80,7 @@ ht-degree: 0%
          * [Verbeteringen voor 2024 Q1-integratie](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md)
          * [2024 Q1 Projectverbeteringen](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md)
          * [2024 Q1 Update stroom en berichtverhogingen](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md)
-      * Versie 2023 Q4 {#release-23-q4}
+      * Release 2023 Q4 {#release-23-q4}
          * [Overzicht van de release 2023 Q4](product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)
          * [2023 4e kwartaal Beheerderverbeteringen](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md)
          * [Verbeteringen aan KW4-kaarten 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md)
@@ -194,7 +194,7 @@ ht-degree: 0%
          * [21.1 Integratieverbeteringen](product-announcements/product-releases/21.1-release-activity/21-1-integration-enhancements.md)
          * [21.1 Verbeteringen voor mobiele apparaten](product-announcements/product-releases/21.1-release-activity/21-1-mobile-enhancements.md)
          * [21.1 Andere verbeteringen](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
-      * Adobe Workfront Planning Release-activiteit{#planning-release-activity}
+      * Adobe Workfront Planning release activity {#planning-release-activity}
          * [Adobe Workfront Planning Release-activiteit](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
          * [Tweede kwartaal 2025: releaseactiviteit voor Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
          * [Eerste kwartaal van 2025: releaseactiviteit voor Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
@@ -206,7 +206,7 @@ ht-degree: 0%
          * [Adobe Workfront Scenario Planner met release 21.1](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-1.md)
          * [Workfront Scenario Planner met 20.4 release - 14 oktober 2020](product-announcements/product-releases/scenario-planner-release-activity/sp-release-20-4.md)
          * [Workfront Scenario Planner met 20.3 release - 14 augustus 2020](product-announcements/product-releases/scenario-planner-release-activity/sp-release-20-3.md)
-      * Adobe Workfront Goals release activity {#goals-release}
+      * Activiteiten uit de release Adobe Workfront Goals {#goals-release}
          * [Adobe Workfront Goals release activity](product-announcements/product-releases/goals-release-activity/goals-release-activity.md)
          * Doelen met release 23.3 {#goals-23-3}
             * [Adobe Workfront-doelen met de 23.3-release](product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-release.md)
@@ -238,11 +238,11 @@ ht-degree: 0%
             * [Adobe Workfront Proof 23.3 releaseactiviteit: week van 8 mei 2023](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md)
          * [Workfront Proof-releaseactiviteit: week van 17 mei 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)
          * [Workfront Proof-releaseactiviteit: week van 29 november 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-22-1.md)
-      * Modernisering van de interface {#interface-modernization}
+      * Interface moderniseren {#interface-modernization}
          * [Modernisering van de interface](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)
-      * Archief met kwartaalrelease {#quarterly-release}
+      * Archief met driemaandelijkse release {#quarterly-release}
          * [Archief met kwartaalrelease](product-announcements/product-releases/quarterly-release-archive/quarterly-release-archive.md)
-         * 20.4 release {#release-20-4}
+         * release 20.4 {#release-20-4}
             * [20.4 - releaseoverzicht](product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md)
             * [20.4 Verbeteringen in projectbeheer](product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md)
             * [20. 4 Verbeteringen voor analysemogelijkheden](product-announcements/product-releases/20.4-release-activity/20-4-analytics-enhancements.md)
@@ -250,7 +250,7 @@ ht-degree: 0%
             * [20.4 Verbeterde proefdrukken](product-announcements/product-releases/20.4-release-activity/20-4-proof-enhancements.md)
             * [20.4 Verbeteringen op het gebied van mobiele en integratie](product-announcements/product-releases/20.4-release-activity/20-4-mobile-enhancements.md)
             * [20.4 Andere verbeteringen](product-announcements/product-releases/20.4-release-activity/20-4-other-enhancements.md)
-         * 20.3-release {#release-20-3}
+         * release 20.3 {#release-20-3}
             * [20.3 - releaseoverzicht](product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md)
             * [20.3 Verbeteringen in het beheer van hulpbronnen](product-announcements/product-releases/20.3-release-activity/20-3-resource-management-enhancements.md)
             * [20.3 Verbeterde analysemogelijkheden](product-announcements/product-releases/20.3-release-activity/20-3-analytics-enhancements.md)
@@ -259,14 +259,14 @@ ht-degree: 0%
             * [20.3 Verbeteringen voor mobiele apparaten](product-announcements/product-releases/20.3-release-activity/20-3-agile-enhancements.md)
             * [20.3 Integratie en mobiele verbeteringen](product-announcements/product-releases/20.3-release-activity/20-3-mobile-enhancements.md)
             * [20.3 andere verbeteringen](product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md)
-         * 20.2 release {#release-20-2}
+         * release 20.2 {#release-20-2}
             * [Overzicht van de release 2020.2](product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md)
             * [Verbeteringen voor mobiele apparaten van 2020.2](product-announcements/product-releases/2020.2.-release-activity/2020-2-mobile-enhancements.md)
             * [2020.2 andere verbeteringen](product-announcements/product-releases/2020.2.-release-activity/2020-2-other-enhancements.md)
             * [2020.2 Projectverbeteringen](product-announcements/product-releases/2020.2.-release-activity/2020-2-project-enhancements.md)
             * [2020.2 Verbeteringen voor proefdrukken](product-announcements/product-releases/2020.2.-release-activity/2020-2-proofing-enhancements.md)
             * [2020.2 Verbeteringen voor bronnenbeheer: de werklastbalans](product-announcements/product-releases/2020.2.-release-activity/2020-2-resource-management.md)
-         * 20.1-release {#release-20-1}
+         * release 20.1 {#release-20-1}
             * [Overzicht van de release 2020.1](product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md)
             * [2020.1 List enhancements](product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md)
             * [2020.1 Verbeteringen voor mobiele apparaten](product-announcements/product-releases/2020.1-release-activity/2020-1-mobile-enhancements.md)
@@ -275,20 +275,20 @@ ht-degree: 0%
             * [2020.1 Verbeteringen voor proefdrukken](product-announcements/product-releases/2020.1-release-activity/2020-1-proofing-enhancements.md)
             * [2020.1 Verbeteringen in het beheer van hulpbronnen](product-announcements/product-releases/2020.1-release-activity/2020-1-resource-management-enhancements.md)
             * [Andere Klassieke Workfront-functies die vóór de release van 2020.1 naar Production zijn uitgebracht](product-announcements/product-releases/2020.1-release-activity/prior-to-2020-1.md)
-         * release 2019.4 {#release-19-4}
+         * Release 2019.4 {#release-19-4}
             * [Overzicht van de release 2019.4](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md)
             * [2019.4 List enhancements](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md)
             * [2019.4 Verbeteringen voor mobiele apparaten](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md)
             * [2019.4 andere verbeteringen](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-other-enhancements.md)
             * [2019.4 Verbeteringen in het beheer van hulpbronnen](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-resource-management-enhancements.md)
             * [Andere Klassieke Workfront-functies die vóór de release van 2019.4 naar Production zijn uitgebracht](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/other-workfront-classic-features-prior-to-19-4.md)
-         * release 2019.3 {#release-19-3}
+         * Release 2019.3 {#release-19-3}
             * [Overzicht van releaseactiviteiten 2019.3](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md)
             * [2019.3 Verbeteringen voor middelenplanning](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-resource-planning-enhancements.md)
             * [2019.3 Verbeteringen voor startpagina](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-home-enhancements.md)
             * [2019.3 Integratie en mobiele verbeteringen](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md)
             * [2019.3 Projectverbeteringen](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-project-enhancements.md)
-         * release 2019.2 {#release-19-2}
+         * Release 2019.2 {#release-19-2}
             * [Overzicht van releaseactiviteiten 2019.2](product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md)
             * [2019.2 Beheerderverbeteringen](product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-administrator-enhancements.md)
             * [2019.2 Verbeteringen voor mobiele apparaten](product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-agile-enhancements.md)
@@ -296,14 +296,14 @@ ht-degree: 0%
             * [2019.2 Projectverbeteringen](product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-project-enhancements.md)
             * [2019.2 Verbeteringen voor proefdrukken](product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-proofing-enhancements.md)
             * [2019.2 Verbeteringen in het beheer van hulpbronnen](product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-resource-management-enhancements.md)
-         * release 2019.1 {#release-19-1}
+         * Release 2019.1 {#release-19-1}
             * [2019.1 releaseactiviteit](product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity.md)
             * [Overzicht van releaseactiviteiten 2019.1](product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md)
             * [2019.1 Verbeteringen op het gebied van mobiele en integratie](product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-mbl-intgrtn-enhncmnts.md)
             * [2019.1 Projectverbeteringen](product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-project-enhancements.md)
             * [2019.1 Verbeteringen voor proefdrukken](product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-proofing-enhancements.md)
             * [2019.1 Verbeteringen in het beheer van hulpbronnen](product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-rsrc-mngmnt-enhncmnts.md)
-         * release 2018.3 {#release-18-3}
+         * Release 2018.3 {#release-18-3}
             * [2018.3 releaseactiviteit](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity.md)
             * [Overzicht van releaseactiviteiten 2018.3](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md)
             * [2018.3 Beta 1-releaseactiviteit](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-1-release-activity.md)
@@ -312,7 +312,7 @@ ht-degree: 0%
             * [2018.3 Beta 4-releaseactiviteit](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-4-release-activity.md)
             * [2018.3 Beta 5-releaseactiviteit](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-5-release-activity.md)
             * [2018.3 Beta Final](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md)
-         * release 2018.2 {#release-18-2}
+         * Release 2018.2 {#release-18-2}
             * [2018.2 releaseactiviteit](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity.md)
             * [Overzicht van releaseactiviteiten 2018.2](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md)
             * [2018.2 Beta 1-releaseactiviteit](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md)
@@ -321,7 +321,7 @@ ht-degree: 0%
             * [2018.2 Beta 4-releaseactiviteit](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md)
             * [2018.2 Beta 5-releaseactiviteit](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md)
             * [2018.2 Beta Slotrelease](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md)
-         * release 2018.1 {#release-18-1}
+         * Release 2018.1 {#release-18-1}
             * [2018.1 releaseactiviteit](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity.md)
             * [Overzicht van releaseactiviteiten 2018.1](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md)
             * [2018.1 Beta 1-releaseactiviteit](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-1-release-activity.md)
@@ -329,7 +329,7 @@ ht-degree: 0%
             * [2018.1 Beta 3-releaseactiviteit](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-3-release-activity.md)
             * [2018.1 Beta 4-releaseactiviteit](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-4-release-activity.md)
             * [2018.1 Beta Slotrelease](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-final-release-activity.md)
-         * release 2017.3 {#release-17-3}
+         * Release 2017.3 {#release-17-3}
             * [2017.3 releaseactiviteit](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity.md)
             * [Overzicht van releaseactiviteiten 2017.3](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md)
             * [2017.3 Beta 1-releaseactiviteit](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md)
@@ -338,7 +338,7 @@ ht-degree: 0%
             * [2017.3 Beta 4-releaseactiviteit](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md)
             * [2017.3 Beta Slotrelease](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md)
             * [Wbinars met release 2017.3](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-webinars.md)
-         * release 2017.2 {#release-17-2}
+         * Release 2017.2 {#release-17-2}
             * [2017.2 releaseactiviteit](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity.md)
             * [Overzicht van releaseactiviteiten 2017.2](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md)
             * [2017.2 Beta 1-releaseactiviteit](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-1-release-activity.md)
@@ -381,14 +381,14 @@ ht-degree: 0%
          * [bètagegevens van dashboards op canvas](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
          * [Overzicht van de bètaversie van Canvas rapporteren](product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)
          * [Bèta Canvas-dashboards: releaseactiviteit](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
-      * Nieuwe bètaervaring met opmerkingen {#new-commenting-experience-beta}
+      * Nieuwe bètaervaring voor opmerkingen {#new-commenting-experience-beta}
          * [Nieuwe bètaervaringsgegevens voor opmerkingen](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
          * [Nieuwe ervaring met opmerkingen](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
          * [Nieuwe releaseactiviteit voor opmerkingervaring](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
          * [Nieuwe veelgestelde vragen over opmerkingen](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
 * Beheer en installatie {#administration-and-setup}
    * [Beheer en instellingen: artikelindex](administration-and-setup/administration-and-setup.md)
-   * Aan de slag met het beheer {#get-started-administration}
+   * Aan de slag met beheer {#get-started-administration}
       * [Aan de slag met beheer: artikelindex](administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
       * [Overzicht van het definiëren van doelstellingen voor uw Adobe Workfront-implementatie](administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
       * [Beschikbare licenties in uw systeem beheren](administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
@@ -474,7 +474,7 @@ ht-degree: 0%
          * [Controleverslagen weergeven en exporteren](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
          * [Aanmeldingsgegevens van gebruikers weergeven](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
          * [Gebruikers beheren in de Adobe Admin Console](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
-      * Hoe de nieuwe toegangsniveaus werken {#access-levels}
+      * De werking van nieuwe toegangsniveaus {#access-levels}
          * [Hoe de nieuwe toegangsniveaus werken](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
          * [Overzicht van nieuwe toegangsniveaus](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
          * [Overzicht van nieuwe licenties](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
@@ -483,7 +483,7 @@ ht-degree: 0%
          * [Schakel de optie voor automatische upgrade voor niet-betaalde gebruikers uit in het nieuwe licentieplan](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
          * [Functionaliteit vergelijken in verschillende licentiemodellen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/comparing-old-and-new-license-models.md)
          * [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
-      * Hoe de toegangsniveaus werken {#legacy-access-levels}
+      * De werking van toegangsniveaus {#legacy-access-levels}
          * [Hoe de toegangsniveaus werken](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
          * [Overzicht van toegang](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
          * [Overzicht van licenties](administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
@@ -579,7 +579,7 @@ ht-degree: 0%
             * [Een aangepast veld of aangepaste widget uit het systeem verwijderen](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
             * [Een aangepast formulier verwijderen](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
             * [Opslag van rijke tekstvelden in de API](administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)
-      * Statussen en prioritaire labels {#statuses-priority-labels}
+      * Statussen en labels met prioriteit {#statuses-priority-labels}
          * [Aangepaste statussen en prioriteitslabels maken](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-custom-status-and-priority-labels.md)
          * [Overzicht van statussen](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md)
          * [Alle projectstatussen weergeven](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)
@@ -703,7 +703,7 @@ ht-degree: 0%
          * [Een subgroep maken](administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md)
          * [Een subgroep beheren](administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)
          * [Subgroepleden weergeven en beheren](administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md)
-      * Groepsrollen {#group-roles}
+      * Groeprollen {#group-roles}
          * [Groepsrollen](administration-and-setup/manage-groups/group-roles/group-roles.md)
          * [Groepbeheerders](administration-and-setup/manage-groups/group-roles/group-administrators.md)
          * [Een groepbeheerder toewijzen](administration-and-setup/manage-groups/group-roles/assign-user-as-group-administrator.md)
@@ -792,7 +792,7 @@ ht-degree: 0%
    * [Woordenlijst met Adobe Workfront-terminologie](workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
    * [Adobe Workfront-browservereisten](workfront-basics/workfront-browser-requirements.md)
    * [Ondersteunde talen in Adobe Workfront](workfront-basics/supported-languages-in-workfront.md)
-   * Navigeren door Adobe Workfront {#navigate}
+   * Navigeren in Adobe Workfront {#navigate}
       * [Navigeren in Adobe Workfront: artikelindex](workfront-basics/navigate-workfront/navigate-workfront.md)
       * Adobe Workfront Search {#search}
          * [Adobe Workfront Search](workfront-basics/navigate-workfront/search/search.md)
@@ -863,7 +863,7 @@ ht-degree: 0%
       * [Berekende veldformules met AI Assistant herzien](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md)
       * [De Medewerker van AI van het gebruik om met projecten, taken, en kwesties te werken](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md)
       * [AI-assistent in- of uitschakelen](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)
-   * Werkonderdelen bijwerken en updates weergeven {#update-work-items-view-updates}
+   * Werkitems bijwerken en updates weergeven {#update-work-items-view-updates}
       * [Werkitems bijwerken en updates weergeven: artikelindex](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
       * [Overzicht van de sectie Updates](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
       * [Werk bijwerken](workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
@@ -922,7 +922,7 @@ ht-degree: 0%
       * [Rechten van objecten verwijderen](workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
    * Uw account en profiel beheren {#manage-account-profile}
       * [Uw account en profiel beheren](workfront-basics/manage-your-account-and-profile/manage-your-account-and-profile.md)
-      * Gebruikersprofiel configureren {#configure-user-profile}
+      * Uw gebruikersprofiel configureren {#configure-user-profile}
          * [Gebruikersprofiel configureren](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-user-profile.md)
          * [Mijn instellingen configureren](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)
          * [Persoonlijke tijd uit configureren](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)
@@ -1000,7 +1000,7 @@ ht-degree: 0%
       * [Filteren en zoeken in een board](agile/get-started-with-boards/filter-search-in-board.md)
       * [Tags toevoegen](agile/get-started-with-boards/add-tags.md)
       * [E-mailmeldingen en voorkeuren worden verzonden](/help/quicksilver/agile/get-started-with-boards/boards-emails.md)
-   * Hulpprogramma&#39;s voor flexibele planning gebruiken in tekengebieden {#agile-planning-boards}
+   * Gereedschappen voor flexibele planning gebruiken in tekengebieden {#agile-planning-boards}
       * [Overzicht van de gereedschappen voor mobiele planning](agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
       * [De WIP-limiet (work in progress) op een board beheren](agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)
       * [Een inlaatkolom aan een bord toevoegen](agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
@@ -1013,12 +1013,12 @@ ht-degree: 0%
       * [De achterstand op een werkstroomgebied configureren](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md)
       * [Metrische gegevens voor herhaling controleren](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)
    * [Algemeen overzicht](agile/agile-overview.md)
-   * Aan de slag met Adobe Workfront {#agile-in-workfront}
+   * Aan de slag met een bestand in Adobe Workfront {#agile-in-workfront}
       * [Aan de slag met Adobe Workfront](agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
       * [Een bestandsteam maken](agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
       * [Kanban configureren](agile/get-started-with-agile-in-workfront/configure-kanban.md)
       * [Scrum configureren](agile/get-started-with-agile-in-workfront/configure-scrum.md)
-   * Kanban in een team {#kanban}
+   * Kanban in een team van &#39;agile&#39; {#kanban}
       * [Kanban in een team](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
       * [Kanban-overzicht](agile/use-kanban-in-an-agile-team/kanban-overview.md)
       * [Een subtaak toevoegen aan een bestaand artikel op het Kanban-bord](agile/use-kanban-in-an-agile-team/add-a-subtask-to-an-existing-story.md)
@@ -1035,7 +1035,7 @@ ht-degree: 0%
       * [Artikel verwijderen van Kanban-bord](agile/use-kanban-in-an-agile-team/delete-story-from-kanban-board.md)
    * Scrum in een mobiel team {#scrum}
       * [Scrum in een mobiel team](agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)
-      * Burndown {#burndown}
+      * Branden {#burndown}
          * [Burndown](agile/use-scrum-in-an-agile-team/burndown/burndown.md)
          * [Overzicht van gile burndown-diagram](agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)
          * [Overzicht van de voltooiingsstatus](agile/use-scrum-in-an-agile-team/burndown/iteration-completion-status-overview.md)
@@ -1333,7 +1333,7 @@ ht-degree: 0%
          * [Overzicht van taakbeperking: zo snel mogelijk](manage-work/tasks/task-constraints/as-soon-as-possible.md)
          * [Overzicht van taakbeperking: zo laat mogelijk](manage-work/tasks/task-constraints/as-late-as-possible.md)
          * [Werk de Beperking van de Taak van een taak bij](manage-work/tasks/task-constraints/update-task-constraint-of-task.md)
-      * De Duur van de taak en de Types van Duur {#task-duration-and-duration-types}
+      * Duur en duur van taak {#task-duration-and-duration-types}
          * [Duur en duur van taak: artikelindex](manage-work/tasks/taskdurtn/task-duration-duration-type.md)
          * [Overzicht van het Type van Duur en van de Duur van de Taak](manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
          * [Overzicht duur: berekende toewijzing](manage-work/tasks/taskdurtn/calculated-assignment.md)
@@ -1368,14 +1368,14 @@ ht-degree: 0%
          * [Overzicht van Oplossende en Oplosbare objecten](manage-work/issues/convert-issues/resolving-and-resolvable-objects.md)
          * [Problemen ontkoppelen van hun oplossende objecten](manage-work/issues/convert-issues/unlink-issues-from-resolvable-objects.md)
          * [De oplossing van een probleem handmatig koppelen aan andere problemen, taken of projecten](manage-work/issues/convert-issues/manually-tie-resolution-of-issue-to-ptis.md)
-      * Informatie over uitgifte {#issue-information}
+      * Informatie over uitgave {#issue-information}
          * [Informatie over uitgifte](manage-work/issues/issue-information/issue-info-overview.md)
          * [Overzicht duur van uitgave](manage-work/issues/issue-information/issue-duration.md)
          * [Prioriteit van probleem bijwerken](manage-work/issues/issue-information/update-issue-priority.md)
          * [Ernst van probleem bijwerken](manage-work/issues/issue-information/update-issue-severity.md)
          * [Overzicht van de geplande afsluitdatum van de uitgave](manage-work/issues/issue-information/issue-planned-completion-date.md)
          * [Gebruik &quot;opTask&quot; en &quot;issue&quot; bij het verwijzen naar problemen](manage-work/issues/issue-information/use-optask-instead-of-issue.md)
-      * Problemen beheren {#manage-issues}
+      * Uitgaven beheren {#manage-issues}
          * [Problemen beheren](manage-work/issues/manage-issues/manage-issues-overview.md)
          * [Problemen maken](manage-work/issues/manage-issues/create-issues.md)
          * [Problemen toewijzen](manage-work/issues/manage-issues/assign-issues.md)
@@ -1391,7 +1391,7 @@ ht-degree: 0%
    * De Gantt-grafiek {#the-gantt-chart}
       * De Gantt-grafiek {#the-gantt-chart}
       * [De Gantt-grafiek](manage-work/gantt-chart/the-gantt-chart.md)
-      * Overzicht van Gantt-diagram {#gantt-chart-overview}
+      * Overzicht van Gantt Chart {#gantt-chart-overview}
          * [Overzicht van Gantt-diagram](manage-work/gantt-chart/use-the-gantt-chart/gantt-chart-overview.md)
          * [Aan de slag met de Gantt-grafiek](manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md)
          * [Vorm hoe de informatie op de Grafiek van Gantt toont](manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md)
@@ -1466,21 +1466,21 @@ ht-degree: 0%
       * [De knop Gereed configureren voor taken](people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
       * [De knop Gereed configureren voor problemen](people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
       * [De knop Aan de werkbalk vervangen door de knop Start](people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)
-   * Rechtstreeks met anderen werken {#work-with-others}
+   * Direct met anderen werken {#work-with-others}
       * [Rechtstreeks met anderen werken](people-teams-and-groups/work-directly-with-others/work-directly-with-others.md)
       * [Directe berichten verzenden naar andere gebruikers](people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md)
       * [Het organigram weergeven](people-teams-and-groups/work-directly-with-others/view-the-org-chart.md)
    * Werken met groepen en teams {#work-with-groups-teams}
       * [Werken met groepen en teams](people-teams-and-groups/work-with-groups-and-teams/work-with-groups-and-teams.md)
       * [Groepen versus teams in Adobe Workfront](people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md)
-   * Werken met teamverzoeken {#work-with-team-requests}
+   * Werken met teamaanvragen {#work-with-team-requests}
       * [Werken met teamverzoeken](people-teams-and-groups/work-with-team-requests/work-with-team-requests.md)
       * [Overzicht van teamverzoeken](people-teams-and-groups/work-with-team-requests/team-requests-overview.md)
       * [Werk- en teamverzoeken beheren](people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)
    * Tips, trucs en probleemoplossing voor teams en groepen {#tips-tricks-people-teams-groups}
       * [Tips, trucs en probleemoplossing voor teams en groepen](people-teams-and-groups/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-grps.md)
       * [Gebruikersnaam is al in gebruik](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
-* Rapportage {#reporting}
+* Rapporteren {#reporting}
    * [Rapporten en dashboards: artikelindex](reports-and-dashboards/reports-and-dashboards-overview.md)
    * Canvasdashboards {#canvas-dashboards}
       * [Canvasdashboards](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
@@ -1498,7 +1498,7 @@ ht-degree: 0%
          * [Basisbeginselen van rapporten: artikelindex](reports-and-dashboards/reports/reporting/reporting-basics.md)
          * [Aan de slag met rapporten](reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
          * [Standaardrapporten opslaan als nieuwe rapporten](reports-and-dashboards/reports/reporting/save-default-reports-new-reports.md)
-      * Rapportelementen {#report-elements}
+      * Elementen rapporteren {#report-elements}
          * [Overzicht van rapportelementen](reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)
          * [Elementen rapporteren: filters, weergaven en groepen](reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
          * [Overzicht van filters](reports-and-dashboards/reports/reporting-elements/filters-overview.md)
@@ -1706,14 +1706,14 @@ ht-degree: 0%
       * [data dictionary test](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary-test.md)
       * [Voorbeelden van query&#39;s voor Workfront Data Connect](reports-and-dashboards/data-lake/basic-query-examples.md)
       * [Gebruiksmetriek van Workfront Data Connect weergeven](reports-and-dashboards/data-lake/view-usage-metrics.md)
-      * Uitgebreide query&#39;s voor Analytics{#enhanced-analytics-queries}
+      * Verbeterde analytische query&#39;s {#enhanced-analytics-queries}
          * [Uitgebreide query&#39;s voor Analytics](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/enhanced-analytics-queries.md)
          * [KPI-vragen](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
          * [Vragen over vliegplannen](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/flight-plan-queries.md)
          * [Vragen over projectactiviteiten](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-activity-queries.md)
          * [ de vragen van de de treemap van het Project ](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md)
          * [Activiteiten door teamquery&#39;s](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/team-queries.md)
-      * Tips, trucs en probleemoplossing voor Data Connect{#troubleshooting-data-connect}
+      * Tips, trucs, en het Oplossen van problemen voor Gegevens verbinden {#troubleshooting-data-connect}
          * [Tips, trucs en probleemoplossing voor Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/tips-tricks-troubleshooting-data-connect.md)
          * [Tableau Desktop kan geen verbinding tot stand brengen](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/cannot-load-data.md)
          * [Power BI-hulpprogramma kan geen verbinding maken met het opgegeven wachtwoord](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/cannot-connect-with-provided-password.md)
@@ -1722,7 +1722,7 @@ ht-degree: 0%
    * Bronbeheer {#resource-management}
       * [Bronbeheer](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
       * [Aan de slag met Resource Management](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
-   * Resourceplanning in Adobe Workfront {#resource-planning-in-adobe-workfront}
+   * Bronnen plannen in Adobe Workfront {#resource-planning-in-adobe-workfront}
       * [Bronnen plannen: artikelindex](resource-mgmt/resource-planning/resource-planning-overview.md)
       * Brongroepen {#resource-pools}
          * [Brongroepen](resource-mgmt/resource-planning/resource-pools/resource-pools.md)
@@ -1752,7 +1752,7 @@ ht-degree: 0%
    * Hulpbronnengebruik {#resource-utilization}
       * [Hulpbronnengebruik](resource-mgmt/resource-utilization/resource-utilization.md)
       * [Informatie over bronnengebruik weergeven](resource-mgmt/resource-utilization/view-utilization-information.md)
-   * De werklastbalans {#the-workload-balancer}
+   * De werklastverdeling {#the-workload-balancer}
       * [De werklastbalans: artikelindex](resource-mgmt/workload-balancer/workload-balancer.md)
       * [Overzicht van werklastbalans](resource-mgmt/workload-balancer/overview-workload-balancer.md)
       * [Toegang vereist voor het beheer van bronnen in het werklastevenwicht](resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md)
@@ -1767,11 +1767,11 @@ ht-degree: 0%
       * [Navigeren door werklastbalans](resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
       * [De werklastbalans delen met een koppeling](resource-mgmt/workload-balancer/share-link-for-workload-balancer.md)
       * [Werk de werkitems in de werklastbalans bij met de samenvatting](resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
-* Werk beoordelen en goedkeuren {#review-and-approve-work}
+* Werk controleren en goedkeuren {#review-and-approve-work}
    * [Werk beoordelen en goedkeuren](review-and-approve-work/review-and-approve-work.md)
    * [Alpha-programma - Goedkeuringen document](review-and-approve-work/Documents/doc-approvals-alpha.md)
    * [Overzicht van beperkte documenten en bewijsmiddelen voor niet-betaalde gebruikers](review-and-approve-work/proof-doc-decision-limits.md)
-   * Goedkeuring van werkzaamheden {#work-approvals}
+   * Goedkeuringen voor werk {#work-approvals}
       * [Goedkeuring van werkzaamheden](review-and-approve-work/manage-approvals/manage-approvals.md)
       * [Overzicht van goedkeuringsproces](review-and-approve-work/manage-approvals/approval-process-in-workfront.md)
       * [Documentgoedkeuring aanvragen](review-and-approve-work/manage-approvals/request-document-approvals.md)
@@ -1783,12 +1783,12 @@ ht-degree: 0%
       * [Goedkeuringsaanvraag delegeren](review-and-approve-work/manage-approvals/delegate-approval-requests.md)
       * [Een nieuw of bestaand goedkeuringsproces koppelen aan werk](review-and-approve-work/manage-approvals/associate-approval-with-work.md)
       * [Recentere ingediende goedkeuringen](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
-   * Beoordeling en goedkeuring van bedrijfsmiddelen en documenten {#document-reviews-and-approvals}
+   * Revisie en goedkeuring van middelen en documenten {#document-reviews-and-approvals}
       * [Beoordeling en goedkeuring van activa en documenten: artikelindex](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * [Beschikbare functionaliteit voor het reviseren en goedkeuren van middelen en documenten](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
       * [Overzicht van Unified Approval](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * [Overzicht van de beslissingsstatus van het document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
-      * Goedkeuringen van middelen en documenten instellen en beheren {#manage-asset-review-and-approval}
+      * Middelen- en documentgoedkeuringen instellen en beheren {#manage-asset-review-and-approval}
          * [Middelen- en documentgoedkeuringen instellen en beheren: artikelindex](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
          * [Een documentrevisie of goedkeuringsaanvraag maken](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
          * [Extra revisoren of fiatteurs toevoegen aan een element of document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
@@ -1826,9 +1826,9 @@ ht-degree: 0%
          * [Een proefdruk maken voor een document](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md)
          * [Een geavanceerde proefdruk maken met een standaardworkflow](review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
          * [Een geavanceerde proefdruk maken met een geautomatiseerde workflow](review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
-      * Proefbestanden beheren in Adobe Workfront {#manage-proofs-in-workfront}
+      * Proefdrukken beheren in Adobe Workfront {#manage-proofs-in-workfront}
          * [Proefbestanden beheren in Adobe Workfront: artikelindex](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)
-         * Proefdrukken beheren {#manage-proofs}
+         * Proofs beheren {#manage-proofs}
             * [Proefdrukken beheren: artikelindex](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs/manage-proofs.md)
             * [Proefdrukinstellingen bewerken](review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md)
             * [Een proefdrukoverzicht afdrukken in Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md)
@@ -1848,7 +1848,7 @@ ht-degree: 0%
             * [Toegang- en abonnementsinstellingen configureren voor een proefdruk](review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
             * [Een proefdruk delen in Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
             * [E-mailberichten sturen naar revisoren op een proefdruk](review-and-approve-work/proofing/managing-proofs-within-workfront/send-email-messages-to-users-proof.md)
-         * Proofingsberichten beheren {#manage-proof-notifications}
+         * Proofingmeldingen beheren {#manage-proof-notifications}
             * [Proefdrukmeldingen beheren: artikelindex](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-notifications/manage-proof-notifications.md)
             * [Meldingen beheren voor proefopmerkingen en -beslissingen](review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md)
          * Proofingdeadlines beheren {#manage-proof-deadlines}
@@ -1872,9 +1872,9 @@ ht-degree: 0%
          * [Proefdrukken openen in de Desktop Proofing Viewer](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/open-proofs-in-dpv.md)
          * [Niet-interactieve inhoud controleren in de Desktop Proofing Viewer](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/review-non-interactive-content-in-desktop-proofing-viewer.md)
          * [Veelgestelde vragen - Desktop Proofing Viewer](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/faq-desktop-proofing-viewer.md)
-      * Proefversies bekijken in Adobe Workfront {#review-proofs-in-workfront}
+      * Proefdrukken bekijken in Adobe Workfront {#review-proofs-in-workfront}
          * [Proefdrukken in Adobe Workfront bekijken: artikelindex](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)
-         * Een proefafdruk controleren {#review-a-proof}
+         * Een proefdruk controleren {#review-a-proof}
             * [Een proefdruk controleren: artikelindex](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md)
             * [Inhoud weergeven in een proefdruk](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-a-proof.md)
             * [Een gebied binnen een proefdruk meten](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/measure-an-area-proof.md)
@@ -1902,7 +1902,7 @@ ht-degree: 0%
             * [Proefdrukopmerkingen verwijderen](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/delete-proof-comment.md)
             * [Handelingen gebruiken voor opmerkingen bij proefdrukken](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md)
             * [Gebruikers een proef laten delen](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md)
-         * Beslissing over een bewijs {#make-decision-on-proof}
+         * Beslissen op een proefdruk {#make-decision-on-proof}
             * [Beslissen op een bewijs: artikelindex](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decision-on-proof.md)
             * [Een bewijs goedkeuren](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/approve-proof.md)
             * [Beslissen op een bewijs in de professionele drukker](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)
@@ -1920,7 +1920,7 @@ ht-degree: 0%
       * [Het aantal proef- en documentbeslissingen voor alle gebruikers weergeven](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
 * Timesheets {#timesheets}
    * [Timesheets: artikelindex](timesheets/timesheets-all.md)
-   * Details van tijdsplaat {#details}
+   * Details van tijdblad {#details}
       * [Tijdlijndetails: artikelindex](timesheets/timesheets/timesheets.md)
       * [Overzicht van tijdbladen](timesheets/timesheets/timesheets-overview.md)
       * [Overzicht van de tijdlijnindeling](timesheets/timesheets/timesheet-layout.md)
@@ -1939,10 +1939,10 @@ ht-degree: 0%
       * [Tijdschema&#39;s in Adobe Workfront verwijderen](timesheets/create-and-manage-timesheets/delete-timesheets.md)
       * [Tijdbladen handmatig genereren](timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)
       * [Een lijst met tijdbladen exporteren](timesheets/create-and-manage-timesheets/export-timesheets.md)
-   * Configureer hoe de tijd wordt vastgelegd {#configure-timesheet-preferences}
+   * Configureer hoe tijd wordt vastgelegd {#configure-timesheet-preferences}
       * [Configureer hoe tijd wordt vastgelegd: artikelindex](timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
       * [Configureer of de tijd uren of dagen is aangemeld](timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)
-   * Tips, trucs en problemen met timesheets {#tips-tricks-troubleshooting-for-timesheets}
+   * Tips, trucs en probleemoplossing voor tijdbladen {#tips-tricks-troubleshooting-for-timesheets}
       * [Tips, trucs en problemen oplossen: artikelindex](timesheets/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-timesheets.md)
       * [De begindag van de werkweek voor Timesheets corrigeren](timesheets/tips-tricks-and-troubleshooting/correct-start-day-of-work-week.md)
       * [Voorkomen dat de actie Herberekening van de financiën gevolgen heeft voor de historische uren waarop de tarieven veranderen](timesheets/tips-tricks-and-troubleshooting/prevent-recalculate-finance-action.md)
@@ -1973,7 +1973,7 @@ ht-degree: 0%
 * Adobe Workfront-doelen {#adobe-workfront-goals}
    * [Adobe Workfront-doelen: artikelindex](workfront-goals/workfront-goals.md)
    * [Overzicht van Adobe Workfront-doelen](workfront-goals/goal-management/wf-goals-overview.md)
-   * Goederenbeheer in Adobe Workfront-doelstellingen {#goal-management}
+   * Doelstellingen voor het beheer van doelstellingen in Adobe Workfront {#goal-management}
       * [Goederenbeheer in Adobe Workfront Goals: artikelindex](workfront-goals/goal-management/goal-management.md)
       * [Aan de slag met Adobe Workfront-doelen](workfront-goals/goal-management/getting-started-with-wf-goals.md)
       * [Toegang tot en open doelen in Adobe Workfront-doelen](workfront-goals/goal-management/access-goals-in-wf-goals.md)
@@ -1997,13 +1997,13 @@ ht-degree: 0%
       * [Overzicht van uitlijning van doelstellingen in Adobe Workfront](workfront-goals/goal-alignment/goal-alignment-overview.md)
       * [Navigeren in de sectie Goal Alignment in Adobe Workfront Goals](workfront-goals/goal-alignment/navigate-goal-alignment-chart.md)
       * [Doeluitlijning van Adobe Workfront-doelen verwijderen](workfront-goals/goal-alignment/remove-goal-alignment.md)
-   * Doelstellingen en de Adobe Workfront-doelstellingen {#goal-review-and-adobe-workfront-goals-sections}
+   * De gedeelten Doelstellingen en Doel van Adobe Workfront {#goal-review-and-adobe-workfront-goals-sections}
       * [Doelstellingen en de Adobe Workfront-doelstellingen](workfront-goals/goal-review-and-workfront-goals-sections/goal-review-wf-goals-sections.md)
       * [Overzicht van de secties Adobe Workfront Goals](workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md)
       * [Voortgang van Adobe Workfront-doelen bijwerken](workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
       * [Doelstellingen beheren in de lijst met doelstellingen van Adobe Workfront](workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md)
       * [Grafieken bekijken om trends in de voortgang van het doel in Adobe Workfront-doelen te begrijpen](workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md)
-   * Resultaten en activiteiten in de Adobe Workfront-doelstellingen {#results-activities-adobe-workfront-goals}
+   * Resultaten en activiteiten in Adobe Workfront-doelen {#results-activities-adobe-workfront-goals}
       * [Resultaten en activiteiten in de Adobe Workfront-doelstellingen](workfront-goals/results-and-activities/results-and-activities.md)
       * [Activiteiten toevoegen aan doelen in Adobe Workfront](workfront-goals/results-and-activities/add-activities-to-goals.md)
       * [Resultaten toevoegen aan doelen in Adobe Workfront-doelen](workfront-goals/results-and-activities/add-results-to-goals.md)
@@ -2051,7 +2051,7 @@ ht-degree: 0%
       * [ overzicht van de gebieden van de Formule ](planning/fields/formula-fields.md)
       * [Velden importeren uit Adobe Workfront](planning/fields/import-fields-from-workfront.md)
       * [Overzicht van primair veld](planning/fields/primary-field-overview.md)
-   * Toegang tot Adobe Workfront Planning {#adobe-workfront-planning-access}
+   * Adobe Workfront Planning Access {#adobe-workfront-planning-access}
       * [Adobe Workfront Planning Access Information: artikelindex](planning/access/access-information.md)
       * [Toegangsoverzicht voor Adobe Workfront Planning](planning/access/access-overview.md)
       * [Overzicht van het delen van machtigingen in Adobe Workfront Planning](planning/access/sharing-permissions-overview.md)
@@ -2080,7 +2080,7 @@ ht-degree: 0%
       * [De details van een record exporteren](planning/records/export-the-record-page.md)
       * [Workfront-objecten maken vanuit Workfront Planning wanneer u deze verbindt met records](planning/records/create-workfront-objects-from-workfront-planning.md)
       * [Objecten maken met Workfront Planning-recordautomatisering](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
-   * Adobe Workfront-planningsverzoeken {#adobe-workfront-planning-requests}
+   * Adobe Workfront-planningsaanvragen {#adobe-workfront-planning-requests}
       * [Adobe Workfront-planningsverzoeken: artikelindex](planning/requests/requests-article-index.md)
       * [Een aanvraagformulier maken en beheren in Adobe Workfront Planning](planning/requests/create-request-form.md)
       * [Adobe Workfront-planningsverzoeken verzenden om records te maken](planning/requests/submit-requests.md)
@@ -2093,7 +2093,7 @@ ht-degree: 0%
       * [De tabelweergave beheren](planning/views/manage-the-table-view.md)
       * [De tijdlijnweergave beheren](planning/views/manage-the-timeline-view.md)
       * [De kalenderweergave beheren](planning/views/manage-the-calendar-view.md)
-   * Adobe Workfront-planningsberichten {#adobe-workfront-planning-notifications}
+   * Adobe Workfront-planningsmeldingen {#adobe-workfront-planning-notifications}
       * [Adobe Workfront-planningsmeldingen: artikelindex](planning/notifications/notifications-information.md)
       * [Voorkeuren voor Adobe Workfront-planningsberichten beheren](planning/notifications/manage-notification-preferences.md)
       * [E-mailberichten voor Adobe Workfront Planning beheren](planning/notifications/manage-planning-email-notifications.md)
@@ -2102,7 +2102,7 @@ ht-degree: 0%
    * [Adobe Workfront-integratie](workfront-integrations-and-apps/workfront-integrations.md)
    * [Overzicht van ingebouwde Adobe Workfront-integratie](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
    * [Adobe Workfront-integratiemethoden](workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md)
-   * Adobe Workfront voor Creative Cloud {#workfront-for-creative-cloud}
+   * Adobe Workfront for Creative Cloud {#workfront-for-creative-cloud}
       * [Adobe Workfront voor Creative Cloud](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)
       * De Adobe Workfront-insteekmodule voor Creative Cloud-toepassingen installeren {#install-wf-cc}
          * [Adobe Workfront for Creative Cloud-toepassingen installeren](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
@@ -2130,14 +2130,14 @@ ht-degree: 0%
          * [Documenten uploaden vanuit  [!DNL Illustrator]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-ai-docs.md)
       * Workfront Extension for Illustrator and InDesign {#workfront-for-illustrator-indesign}
          * [De extensie Workfront voor Illustrator en InDesign gebruiken](documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)
-   * Adobe Workfront voor Jira {#workfront-for-jira}
+   * Adobe Workfront for Jira {#workfront-for-jira}
       * [Adobe Workfront voor Jira](workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md)
       * [Adobe Workfront voor Jira installeren](workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md)
       * [Adobe Workfront voor Jira configureren](workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md)
       * [Objecten koppelen tussen Adobe Workfront en Jira](workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md)
       * [Gekoppelde items tussen Jira en Adobe Workfront bijwerken](workfront-integrations-and-apps/use-workfront-with-jira/update-linked-items-between-jira-wf.md)
       * [Het activiteitenlog van de bevalling weergeven](workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md)
-   * Adobe Workfront voor Google Workspace {#workfront-for-g-suite}
+   * Adobe Workfront for Google Workspace {#workfront-for-g-suite}
       * [Adobe Workfront voor Google Workspace](workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md)
       * [Adobe Workfront installeren voor Google Workspace](workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)
       * [Privacy en rechten in Workfront voor Google Workspace](workfront-integrations-and-apps/workfront-for-g-suite/privacy-and-permissions-in-g-suite.md)
@@ -2165,7 +2165,7 @@ ht-degree: 0%
       * [Aanvullende informatie weergeven over Adobe Workfront for Outlook en afmelden](workfront-integrations-and-apps/using-workfront-with-outlook/view-additional-infor-wf-outlook-and-log-out.md)
       * [Outlook inschakelen voor Office voor gebruik met Adobe Workfront en SAML 2.0](workfront-integrations-and-apps/using-workfront-with-outlook/enable-outlook-for-office-for-use-with-wf-and-saml-2.md)
       * [Problemen oplossen: outlookIdentityToken-fout bij gebruik van Workfront for Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/troubleshooting-outlookidentitytoken-error.md)
-   * Adobe Workfront voor Microsoft Teams {#workfront-for-microsoft-teams}
+   * Adobe Workfront for Microsoft Teams {#workfront-for-microsoft-teams}
       * [[!DNL Adobe Workfront for Microsoft Teams]: artikelindex](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md)
       * [Overzicht Adobe-werkfronten voor Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/workfront-for-microsoft-teams.md)
       * [Adobe Workfront voor Microsoft Teams installeren](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)
@@ -2174,14 +2174,14 @@ ht-degree: 0%
       * [Adobe Workfront-taken maken vanuit Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md)
       * [Adobe Workfront-verzoeken vanuit Microsoft Teams verzenden](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/submit-workfront-requests-from-ms-teams.md)
       * [Adobe Workfront-meldingen beheren in Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md)
-   * Adobe Workfront voor Salesforce {#workfront-for-salesforce}
+   * Adobe Workfront for Salesforce {#workfront-for-salesforce}
       * [Adobe Workfront voor Salesforce](workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce.md)
       * [Overzicht Adobe Workfront for Salesforce](workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce-overview.md)
       * [Adobe Workfront voor Salesforce installeren](workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md)
       * [De Adobe Workfront-sectie voor Salesforce-gebruikers configureren](workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md)
       * [Adobe Workfront-aanvragen verzenden vanuit Salesforce-objecten](workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md)
       * [Adobe Workfront-projecten maken van Salesforce-objecten](workfront-integrations-and-apps/using-workfront-with-salesforce/create-wf-projects-from-salesforce-objects.md)
-   * Adobe Workfront voor Slack {#workfront-for-slack}
+   * Adobe Workfront for Slack {#workfront-for-slack}
       * [Adobe Workfront voor Slack](workfront-integrations-and-apps/using-workfront-with-slack/use-workfront-for-slack.md)
       * [Adobe Workfront voor Slack configureren](workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)
       * [Open je favoriete en recente objecten van Slack](workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md)
@@ -2272,11 +2272,11 @@ ht-degree: 0%
          * [Archief in Workfront Proof](workfront-proof/wp-work-proofsfiles/organize-your-work/archive.md)
          * [Back-up maken van Workfront Proof-gegevens](workfront-proof/wp-work-proofsfiles/organize-your-work/back-up-data.md)
          * [Opmerkingen afdrukken en exporteren in Workfront Proof](workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md)
-      * Proefdrukken bekijken in de Desktop Proofing Viewer {#review-proofs-in-viewer}
+      * Proofs controleren in de Desktop Proofing Viewer {#review-proofs-in-viewer}
          * [Proefdrukken bekijken in de Desktop Proofing Viewer](workfront-proof/wp-work-proofsfiles/review-proofs-dpv/review-proofs-in-desktop-proofing-viewer.md)
          * [De Desktop Proofing Viewer begrijpen](workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)
          * [Configureren hoe hyperlinks worden geopend in de Desktop Proofing Viewer](workfront-proof/wp-work-proofsfiles/review-proofs-dpv/configure-how-hyperlinks-open.md)
-      * Proefdrukken bekijken in de webproefdrukweergave {#review-proofs-web-proofing-viewer}
+      * Proofs controleren in de webproefdrukweergave {#review-proofs-web-proofing-viewer}
          * [Proefdrukken bekijken in de webproefdrukweergave](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proofs-in-wpv.md)
          * [Een proefexemplaar openen in Workfront Proof](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/open-proof.md)
          * [Een workflow controleren in de conceptviewer](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-workflow.md)
@@ -2288,7 +2288,7 @@ ht-degree: 0%
          * [Een proef downloaden in de proefdrukviewer](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/download-proof.md)
          * [Sneltoetsen in de Workfront Proof-testviewer](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md)
          * [Verouderde proefdrukviewer verwijderd](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/lpv-removed.md)
-      * Proefdrukken en bestanden delen {#share-proofs-and-files}
+      * Proofs en bestanden delen {#share-proofs-and-files}
          * [Proefdrukken en bestanden delen](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proofs-and-files.md)
          * [Een proefexemplaar delen in Workfront Proof](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md)
          * [Proofingkoppelingen delen in Workfront Proof](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof-links.md)
@@ -2331,7 +2331,7 @@ ht-degree: 0%
          * [Partneraccounts in Workfront Proof](workfront-proof/wp-acct-admin/partner-accounts/partner-accounts.md)
          * [Een partnerrelatie tussen Workfront Proof-accounts beheren](workfront-proof/wp-acct-admin/partner-accounts/manage-partner-relationship-between-wp-accts.md)
          * [Items delen met een partner in Workfront Proof](workfront-proof/wp-acct-admin/partner-accounts/share-items-partner-in-wp.md)
-      * Satellietrekeningen in Workfront Proof {#satellite-accounts-in-wf-proof}
+      * Satellietaccounts in Workfront Proof {#satellite-accounts-in-wf-proof}
          * [Satellietrekeningen in Workfront Proof](workfront-proof/wp-acct-admin/satellite-accounts/satellite-accounts.md)
          * [Satellietrekeningen in Workfront Proof](workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md)
          * [Een satellietaccount configureren in Workfront Proof](workfront-proof/wp-acct-admin/satellite-accounts/configure-sat-acct-in-wp.md)
@@ -2404,7 +2404,7 @@ ht-degree: 0%
       * Proefdruktypen {#proof-types}
          * [Proefdruktypen](workfront-proof/wp-tech-corner/proof-types/proof-types.md)
          * [Een statisch proefexemplaar van een website maken met Workfront Proof](workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md)
-      * Problemen in Workfront Proof oplossen {#troubleshooting-wf-proof}
+      * Problemen oplossen in Workfront Proof {#troubleshooting-wf-proof}
          * [Problemen in Workfront Proof oplossen](workfront-proof/wp-tech-corner/troubleshooting/troubleshooting.md)
          * [Problemen oplossen - beschadigd interfacefont in proefdrukviewer op Mac](workfront-proof/wp-tech-corner/troubleshooting/corrupted-interface-font-pv-mac.md)
          * [Begrijp hoe Cache en cookies van invloed zijn op Workfront Proof](workfront-proof/wp-tech-corner/troubleshooting/how-cache-cookies-affect-pv.md)
@@ -2412,7 +2412,7 @@ ht-degree: 0%
          * [Problemen oplossen - Workfront Proof-proefdrukviewer](workfront-proof/wp-tech-corner/troubleshooting/proofing-viewer.md)
    * Workfront Proof-integratie {#wf-proof-integrations}
       * [Workfront Proof-integratie](workfront-proof/wp-integrations/wp-integrations.md)
-      * WORKFRONT PROOF API {#wf-proof-api}
+      * Workfront Proof API {#wf-proof-api}
          * [WORKFRONT PROOF API](workfront-proof/wp-integrations/api/wp-api.md)
          * [De Workfront Proof API](workfront-proof/wp-integrations/api/workfront-proof-api.md)
       * Box {#box}
@@ -2432,7 +2432,7 @@ ht-degree: 0%
          * [Een proefdruk toevoegen aan een Klassiek Basecamp-project](workfront-proof/wp-integrations/basecamp-classic/add-proof-basecamp-classic.md)
          * [Workfront Proof integreren met Basecamp Classic](workfront-proof/wp-integrations/basecamp-classic/integrate-workfront-proof-basecamp-classic.md)
          * [Een proef bekijken in Basecamp Classic](workfront-proof/wp-integrations/basecamp-classic/review-proof-basecamp-classic.md)
-* ADOBE WORKFRONT API {#adobe-workfront-api}
+* Adobe Workfront API {#adobe-workfront-api}
    * [WORKFRONT API](wf-api/workfront-api.md)
    * API-notities {#api-notes}
       * [API-notities](wf-api/api/api.md)
@@ -2521,7 +2521,7 @@ ht-degree: 0%
       * [Valutanotatie ophalen voor een project wanneer de valuta null is (niet toegewezen)](wf-api/tips-tricks-and-troubleshooting/retrieve-currency-when-null.md)
       * [Het gebruik van de API om een gekoppelde map toe te voegen, wordt niet ondersteund](wf-api/tips-tricks-and-troubleshooting/linked-folders-for-docu-not-supported.md)
       * [Handeling moveToFolder van document werkt niet](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/error-using-movetofolder.md)
-* ProofHQ API {#proofhqpapi}
+* API van proofHQ {#proofhqpapi}
    * [ProofHQ API](proofhq-api/proofhq-api.md)
    * Algemeen {#general}
       * [Algemeen](proofhq-api/general/general.md)
