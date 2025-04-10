@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: bb7f627f7ee2fdf15ba84919bf67f6c8fbb682dd
+source-git-commit: 75ff6f954c1a53a36d64c4f428097fe9a0c4b053
 workflow-type: tm+mt
-source-wordcount: '1713'
+source-wordcount: '1722'
 ht-degree: 0%
 
 ---
@@ -225,7 +225,7 @@ Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen z
             <p><b>Beschikbaar op deze data:</b></p>
             <ul>
                 <li>Voorvertoningsrelease: 27 februari 2025</li>
-                <li>Productieversie voor alle klanten: met de release van 25.4 (10 april 2025)</li>
+                <li>Deze functie wordt in drie fasen in productie vrijgegeven: vanaf de release van 25.4 (10 april 2025) en voltooid op 17 april 2024</li>
             </ul>
         </td>
     </tr>                          
