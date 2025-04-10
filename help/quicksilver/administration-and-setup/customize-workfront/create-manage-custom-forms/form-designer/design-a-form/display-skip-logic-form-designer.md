@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 64deb1b0b3ba52f869ca38e2a26288d461070f82
+source-git-commit: f94ad0f289064f243aadb08226bd5e53357f650d
 workflow-type: tm+mt
-source-wordcount: '1744'
+source-wordcount: '1680'
 ht-degree: 0%
 
 ---
 
 # Logische regels toevoegen aan aangepaste formulieren en velden
-
-{{highlighted-preview}}
 
 Met logische regels kunt u de velden op uw formulier verder aanpassen.
 
@@ -115,13 +113,7 @@ De logica van de vertoning bepaalt welke douanevelden op de vorm verschijnen wan
 1. Selecteer het **lusje van de Vertoning** op de logische bouwer.
 1. Klik **toevoegen de Regel van de Vertoning**.
 
-   <span class="preview"> beeld van de Steekproef in het milieu van de Voorproef:</span>
-
    ![ de logische bouwer van de Vertoning ](assets/simple-display-logic1-val-only-in-menu.png)
-
-   Voorbeeldafbeelding in de productieomgeving:
-
-   ![ de logische bouwer van de Vertoning ](assets/custom-form-logic-builder-display-blank.png)
 
 1. Voer de onderstaande stappen uit om de logische instructie in de builder te maken.
 
@@ -130,17 +122,11 @@ De logica van de vertoning bepaalt welke douanevelden op de vorm verschijnen wan
    1. De derde optie is **Geselecteerd** of **niet Geselecteerd**. Het kiezen van **Geselecteerde** betekent dat wanneer de waarde wordt geselecteerd, het doelgebied wordt getoond. Het kiezen van **niet Geselecteerde** betekent dat wanneer een andere waarde op het definiërende gebied wordt geselecteerd, het doelgebied wordt getoond.
    1. Om een **en** regel aan de logische verklaring toe te voegen, klik **voegt Regel** direct onder de regel toe u enkel creeerde. Volg de zelfde herinneringen om de regel te bouwen. Aan alle regels en moet worden voldaan opdat het doelgebied wordt getoond.
 
-      <span class="preview"> beeld van de Steekproef in het milieu van de Voorproef:</span>
-
       ![ de logische bouwer van de Vertoning ](assets/simple-display-logic2.png)
-
-      Voorbeeldafbeelding in de productieomgeving:
-
-      ![ de logische bouwer van de Vertoning ](assets/custom-form-logic-builder-display1.png)
 
    1. Om een **of** regel aan de logische verklaring toe te voegen, klik **voegt Regel** dichtbij de bodem van de logische bouwer toe. Dan, klik **voeg Regel** binnen toe of gebied en volg de zelfde herinneringen om de regel te bouwen. Wanneer één of regel wordt ontmoet, wordt het doelgebied getoond.
 
-1. Klik **sparen** <span class="preview"> of **pas**</span> toe wanneer u klaar bent met het bouwen van de logische verklaring.
+1. Klik **toepassen** wanneer u wordt gebeëindigd bouwend de logische verklaring.
 
    De pictogrammen voor de weergavelogica worden toegevoegd aan het doelveld en het definiërende veld in de formulierontwerper.
 
@@ -212,14 +198,7 @@ De logica Overslaan definieert aangepaste formuliervelden die worden overgeslage
 1. Selecteer het **Skip** lusje op de logische bouwer.
 1. Klik **toevoegen Skip Regel**.
 
-
-   <span class="preview"> beeld van de Steekproef in het milieu van de Voorproef:</span>
-
    ![ Skip logica bouwer ](assets/skip-logic1-val-only-in-menu.png)
-
-   Voorbeeldafbeelding in de productieomgeving:
-
-   ![ Skip logica bouwer ](assets/custom-form-logic-builder-skip-blank.png)
 
 1. Voer de onderstaande stappen uit om de logische instructie in de builder te maken.
 
@@ -228,21 +207,13 @@ De logica Overslaan definieert aangepaste formuliervelden die worden overgeslage
    1. De tweede optie is **Geselecteerd** of **niet Geselecteerd**. Het kiezen van **Geselecteerde** betekent dat wanneer de waarde wordt geselecteerd, het doelgebied wordt getoond en de gebieden binnen tussen worden overgeslagen. Het kiezen van **niet Geselecteerde** betekent dat wanneer een andere waarde op het definiërende gebied wordt geselecteerd, het doelgebied wordt getoond en de gebieden binnen tussen worden overgeslagen.
    1. De derde optie is het doelveld, of waar u wilt overslaan. Selecteer een gebiedsnaam of **Eind van vorm**. Mogelijk moet u eerst op het woord &quot;leeg&quot; klikken voordat u een optie selecteert.
 
-      <span class="preview"> beeld van de Steekproef in het milieu van de Voorproef:</span>
-
       ![ Skip logica bouwer ](assets/skip-logic2.png)
-
-      Voorbeeldafbeelding in de productieomgeving:
-
-      ![ Skip logica bouwer ](assets/custom-form-logic-builder-skip1.png)
 
    1. Om een **of** regel aan de logische verklaring toe te voegen, klik **voegt Regel** dichtbij de bodem van de logische bouwer toe. Selecteer vervolgens de opties volgens dezelfde aanwijzingen om de regel te maken. Wanneer één **of** regel wordt ontmoet, wordt het doelgebied getoond.
 
-1. Klik **sparen** <span class="preview"> of **pas**</span> toe wanneer u klaar bent met het bouwen van de logische verklaring.
+1. Klik **toepassen** wanneer u wordt gebeëindigd bouwend de logische verklaring.
 
    De pictogrammen voor logicaoverslaan worden toegevoegd aan het doelveld en het definiërende veld in de formulierontwerper.
-
-<div class="preview">
 
 ## Validatielogica toevoegen aan een aangepast formulier
 
@@ -250,7 +221,7 @@ Validatielogica wordt samengesteld met behulp van formules en u kunt de logica z
 
 Als het veld met de toegepaste logica voldoet aan de gedefinieerde validatievoorwaarden wanneer een gebruiker het aangepaste formulier invult, wordt het veld gemarkeerd en wordt het foutbericht weergegeven.
 
-U kunt validatielogica toepassen op de volgende veldtypen: tekst op één regel, alinea, vervolgkeuzelijst met één regel, vervolgkeuzelijst met meerdere selecties, externe zoekopdracht, keuzerondjes, groep selectievakjes en typekop.
+U kunt validatielogica toepassen op de volgende veldtypen: tekst op één regel, alinea, vervolgkeuzelijst met één regel, vervolgkeuzelijst met meerdere selecties, externe zoekopdracht, typekop, datum, groep selectievakjes en keuzerondjes.
 
 ### Voorbeelden
 
@@ -287,14 +258,14 @@ Een aanvullend voorbeeld voor validatie op basis van andere velden is een veld v
 
    De logica wordt toegepast op het veld in de formulierontwerper.
 
-</div>
-
 <!--
 <div class="preview">
 
 ## Add formatting logic to a custom form
 
-Formatting logic highlights a field value when it meets the defined conditions. You can apply formatting logic to all field types, and it will work on multiple fields at once.
+Formatting logic highlights a field value when it meets the defined conditions. The applied formatting will work on multiple fields at once.
+
+You can apply formatting logic to the following field types: single line text, paragraph, single-select dropdown, multi-select dropdown, external lookup, typeahead, calculated, date, checkbox group, and radio buttons.
 
 Formatting applied to custom forms is separate from formatting applied to lists and reports. For information on report formatting, see [Use conditional formatting in views](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
