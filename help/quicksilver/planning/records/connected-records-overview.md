@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
 
 # Overzicht van verbonden records
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken.</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span> -->
 
 {{planning-important-intro}}
 
@@ -54,11 +54,11 @@ U kunt records in de volgende gebieden verbinden met andere records of met objec
    * De verbonden verslaggebieden in de lijstmening van een verslagtype in Planning.
    * De voorvertoning of pagina van de record in de verbonden recordvelden op het tabblad Details.
    * De voorvertoning of pagina van de record op het tabblad Verbindingen.
-   * <span class="preview"> de pagina van het verslag in een de meningslusje van de Verbinding van een verbonden verslag.</span>
+   * De pagina van de record in een tabblad van de verbindingsweergave van een verbonden record.
 
 * U kunt Workfront-objecten verbinden met Workfront Planning-records in de volgende gebieden van Workfront:
 
    * Het gedeelte Planning van een Workfront-object.
-   * <span class="preview"> de verbindingsgebied van de Planning van A op de douanevorm van een voorwerp van Workfront. </span>
+   * Een veld voor een planningsverbinding in het aangepaste formulier van een Workfront-object.
 
-  Voor informatie, zie [ recordverbindingen van de voorwerpen van Workfront beheren ](/help/quicksilver/planning/records/manage-records-in-planning-section.md)
+  Voor informatie, zie [ recordverbindingen van de voorwerpen van Workfront beheren ](/help/quicksilver/planning/records/manage-records-in-planning-section.md).

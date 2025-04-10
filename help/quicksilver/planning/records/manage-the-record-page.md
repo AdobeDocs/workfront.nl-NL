@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '1913'
+source-wordcount: '1853'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # De lay-out van de recordpagina beheren
 
-<span class="preview"> de informatie die op deze pagina wordt benadrukt verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -161,11 +161,7 @@ Een sectie toevoegen aan een recordvoorvertoning of pagina:
 
    De voorvertoning van de record wordt in de weergave geopend.
 
-   <div class="preview">
-
    ![ doos van Details ](assets/details-box.png)
-
-   </div>
 
 1. (Facultatief) klik **Open in nieuw lusje** pictogram ![ Open details in een nieuw lusjepictogram ](assets/open-details-in-a-new-tab-icon.png) in de hoger-juiste hoek van de verslagvoorproef om de pagina van het verslag in een nieuw lusje te openen.
 
@@ -244,21 +240,13 @@ De volgende dingen doen zich voor:
 
    De voorvertoning van de record wordt in de weergave geopend.
 
-   <div class="preview">
-
    ![ doos van Details ](assets/details-box.png)
-
-   </div>
 
 1. (Facultatief) klik **Open in nieuw lusje** pictogram ![ Open detailsdoos in een nieuw lusjepictogram ](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in de hoger-juiste hoek van de verslagvoorproef om de pagina van het verslag in een nieuw lusje te openen.
 
    Het **lusje van Details** van het verslag opent door gebrek.
 
-   <div class="preview">
-
    ![ pagina van Details ](assets/details-page.png)
-
-   </div>
 
 1. In het verslag **Details** lusje, klik het **greep** pictogram ![ pictogram van het Grab ](assets/grab-icon.png) aan de linkerzijde van een gebiedsnaam, dan belemmering en laat vallen het op een gewenste plaats.
 
@@ -301,17 +289,13 @@ Een pagina van de verbindingsweergave toevoegen:
 De tabelweergave van het geselecteerde recordtype wordt weergegeven en de verbonden records worden weergegeven in de tabelweergave.
 Alle velden van de verbonden record worden weergegeven in de tabelweergave van het tabblad van de verbonden record.
 
-   <span class="preview"> wanneer u tot de Planning van Workfront van het milieu van de Voorproef toegang hebt, de eerste vijf gebieden van de verbonden vertoning van de verslaglijst door gebrek. Er worden standaard geen opzoekvelden weergegeven.</span>
+   Wanneer u de Planning van Workfront van de Voorproef van het milieu toegang hebt, de eerste vijf gebieden van de verbonden verslaglijst tonen door gebrek. Standaard worden geen opzoekvelden weergegeven.0
 
    De tabelweergave is alleen-lezen.
 
    <!--replace screen shot below when additional capabilities come to the table view - Fields, etc-->
 
-   <div class="preview">
-
    ![ Publiek verbonden lijstmening onder campagnedetails ](assets/audience-connected-table-view-under-campaign-details-page.png)
-
-   </div>
 
 1. (Optioneel) Dubbelklik op de naam van de tab
 
@@ -323,7 +307,7 @@ Alle velden van de verbonden record worden weergegeven in de tabelweergave van h
    * Filters
    * Sorteren
    * Groepering
-   * <span class="preview"> Gebieden, om, gebieden </span> te tonen te verbergen of te herschikken
+   * Velden om velden weer te geven, te verbergen of opnieuw te rangschikken
 
    <!--Add to the list above from the list below - and condition these for Preview only: Hide fields, rearrange fields-->
 
@@ -333,11 +317,11 @@ Alle velden van de verbonden record worden weergegeven in de tabelweergave van h
    >
    >   U kunt geen van de volgende handelingen uitvoeren in de tabelweergave van het tabblad van een verbonden record:
    >
-   >   * Velden verbergen of herschikken. <span class="preview"> u kunt gebieden in het milieu van de Voorproef verbergen en opnieuw rangschikken.</span>
+   >   * Velden verbergen of herschikken. U kunt velden verbergen en opnieuw rangschikken in de voorvertoningsomgeving.
    >   * Velden maken, bewerken of verwijderen
    >
 
-1. <span class="preview"> klik **verbinden** om verslagen toe te voegen of te verwijderen. Voor informatie, zie [ verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md)</span>
+1. Klik **verbinden** om verslagen toe te voegen of te verwijderen. Voor informatie, zie [ verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md)
 1. (Facultatief) Beweeg over de naam van het lusje van de mening van de Verbinding, klik **Meer** ![ Meer menu ](assets/more-menu.png), dan klik **Schrapping** om aan nieuw Verbonden meningslusje te verwijderen.
 
 

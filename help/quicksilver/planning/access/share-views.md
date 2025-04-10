@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
 workflow-type: tm+mt
-source-wordcount: '1600'
+source-wordcount: '1540'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Weergaven delen
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -35,7 +35,7 @@ U kunt een weergave met anderen delen om samenwerking te garanderen wanneer u we
 
 U kunt een weergave delen met de volgende entiteiten:
 
-* Intern, met de gebruikers van Workfront, groepen, <span class="preview"> teams, bedrijven, en baanrollen </span>
+* Intern, met gebruikers, groepen, teams, bedrijven van Workfront, en baanrollen
 * Openbaar, met gebruikers buiten Workfront
 
 <!--
@@ -129,7 +129,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Rechten delen met een weergave intern
 
-U kunt meningen delen u creeerde of meningen u beheerst toestemmingen aan met gebruikers, groepen, <span class="preview"> teams, bedrijven, en baanrollen </span> in de Planning van Workfront hebt.
+U kunt weergaven delen die u hebt gemaakt of weergaven waarop u beheerdersmachtigingen hebt, met gebruikers, groepen, teams, bedrijven en taakrollen in Workfront Planning.
 
 >[!NOTE]
 >
@@ -151,10 +151,10 @@ U kunt meningen delen u creeerde of meningen u beheerst toestemmingen aan met ge
 
 1. (Facultatief) op **die toegang** gebied heeft, selecteer van de volgende opties:
 
-   * **slechts kunnen de uitgenodigde mensen tot** toegang hebben: U moet gebruikers, groepen, <span class="preview"> team, bedrijf, of baanrol </span> specificeren die u de mening met wilt delen. Dit is de standaardoptie.
+   * **slechts kunnen de uitgenodigde mensen tot** toegang hebben: U moet gebruikers, groepen, team, bedrijf, of baanrol specificeren die u de mening met wilt delen. Dit is de standaardoptie.
    * **iedereen in de werkruimte kan** bekijken: Alle gebruikers die Mening of hogere toestemmingen aan werkruimten hebben kunnen tot de mening toegang hebben.
 
-1. In de **toegang van de Verlening tot dit mening** gebied, begin het typen van de naam van een gebruiker, een groep, <span class="preview"> team, bedrijf, of baanrol </span> dan het wanneer het in de lijst toont.
+1. In de **toegang van de Verlening tot dit mening** gebied, begin de naam van een gebruiker, een groep, een team, een bedrijf, of baanrol te typen dan het te klikken wanneer het in de lijst toont.
 
    ![ delend een mening met groepen ](assets/sharing-a-view-ui-with-groups.png)
 
@@ -255,7 +255,7 @@ Van het e-mailbericht, klik **Mening alle berichten**, dan klik het bericht in d
 1. Ga als volgt te werk om het interne delen van een weergave te verwijderen:
 
    1. Verzeker het **Interne delen** lusje wordt geselecteerd.
-   1. Vind de gebruiker, de groep, <span class="preview"> team, het bedrijf, of baanrol </span> wat u wilt verwijderen, breid het toestemmingendrop-down menu rechts van de naam van de entiteit uit u de mening deelt met, dan klikt **verwijdert**.
+   1. Vind de gebruiker, de groep, het team, het bedrijf, of de baanrol wat u wilt verwijderen, breid het drop-down menu van toestemmingen rechts van de naam van de entiteit uit u de mening deelt met, dan klik **verwijdert**.
 
 1. Ga als volgt te werk om het delen van een weergave door het publiek te verwijderen:
 

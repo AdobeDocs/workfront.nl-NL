@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: a64f6e507d74201cba1455fbbc6af77c2b7ba058
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '1892'
+source-wordcount: '1816'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 <!--take Preview and Prod references out when releasing to Prod all-->
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -32,7 +32,7 @@ U kunt een aanvraag voor Workfront-planning vanuit de volgende gebieden indienen
 * Vanuit een directe koppeling naar het gedeelde aanvraagformulier.
 
   In dit artikel wordt beschreven hoe u een verzoek kunt indienen om nieuwe records toe te voegen aan een recordtype vanuit het gebied Verzoeken van Workfront of via een gedeelde koppeling.
-* <span class="preview"> van de verslagtype pagina, wanneer u toevoegt of om een nieuw verslag verzoekt. Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-records.md) creëren.</span>
+* Wanneer u een nieuwe record toevoegt of aanvraagt, gaat u vanaf de pagina met recordtypen. Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-records.md) creëren.
 
 Workfront-gebruikers en externe gebruikers kunnen aanvragen indienen bij de planning van recordtypen en records maken. <!--double check on the external users-->
 
@@ -128,7 +128,7 @@ U moet het volgende opgeven voordat u een aanvraag kunt indienen bij een Workfro
 
    * Intern moet het formulier worden gedeeld met gebruikers die beschikken over de machtiging Weergeven of hoger voor de werkruimte.
 
-     De gebruikers van Workfront kunnen of tot de vorm van een verbinding <span class="preview"> toegang hebben of de verzoekvorm in het gebied van Verzoeken van Workfront vinden.</span>
+     Workfront-gebruikers hebben toegang tot het formulier via een koppeling of zoeken het aanvraagformulier in het gedeelte Verzoeken van Workfront.
 
    * Als u geen Workfront-account hebt, is een koppeling naar het formulier gedeeld met externe personen.
 
@@ -150,8 +150,6 @@ U moet het volgende opgeven voordat u een aanvraag kunt indienen bij een Workfro
 
 <!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.-->
 
-
-<div class="preview">
 
 ## Een verzoek indienen bij Workfront Planning in het gedeelte Aanvragen van Workfront
 
@@ -239,8 +237,6 @@ Het toelaten van dit plaatsen maakt de het verzoekvormen van de Planning van Wor
 
    De pagina met recordtypen wordt geopend in Workfront Planning.
 
-</div>
-
 ## Een aanvraag vanuit een gedeelde koppeling naar een aanvraagformulier indienen bij Workfront Planning
 
 1. Ga naar de verbinding die met u van een het verslagtype van de Planning van Workfront wordt gedeeld.
@@ -276,11 +272,11 @@ Het toelaten van dit plaatsen maakt de het verzoekvormen van de Planning van Wor
      >
      >De e-mail en in-app meldingen zijn alleen zichtbaar wanneer het exemplaar van Workfront van uw organisatie is aangemeld bij de Adobe Unified Experience.
 
-1. <span class="preview"> (facultatief) klik **Mening uw verzoek** om het verzoek in Workfront te openen.</span>
+1. (Facultatief) klik **Mening uw verzoek** om het verzoek in Workfront te openen.
 
-   of
+   <!--Or-->
 
-   <span class="preview"> klik [ voorleggen een ander verzoek ](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) om de verzoekvorm te openen en een nieuw verzoek toe te voegen. </span>
+   <!--Click [Submit another request](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) to open the request form and add a new request.-->
 
 1. (Facultatief) klik **Belangrijkste menu** > **Verzoeken** > het **Planning** lusje om uw verzoek te bekijken, dan klik de naam van het verzoek.
 

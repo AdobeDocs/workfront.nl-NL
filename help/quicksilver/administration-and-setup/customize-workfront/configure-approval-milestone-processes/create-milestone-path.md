@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
+source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 0%
 NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Als beheerder van Adobe Workfront, kunt u milestone wegen tot stand brengen die dan op om het even welk project in het systeem kunnen worden toegepast. De wijzigingen die u aanbrengt in paden met mijlpalen op dit gebied, zijn van invloed op het hele Workfront-systeem.
 
@@ -123,20 +123,18 @@ Voor meer informatie over hoe u een milestone weg met een project en een mijlpaa
    Voor meer informatie over hoe te om milestone wegen aan projecten en mijlpalen aan taken te associëren, zie [ mijlpalen met taken ](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md) associëren.
 
 
-1. <span class="preview"> (Facultatief) klik het **pictogram van de Uitvoer** ![ Uitvoer ](assets/export-icon.png), dan selecteer van de volgende formaten om de lijst van de milestone weg naar een dossier uit te voeren: </span>
+1. (Facultatief) klik het **pictogram van de Uitvoer van de Uitvoer ![ ](assets/export-icon.png), dan uitgezocht van de volgende formaten om de lijst van de milestone weg naar een dossier uit te voeren:**
 
    * PDF
    * Excel
    * Excel (xlsx)
    * Door tabs gescheiden
 
-1. <span class="preview"> (Facultatief) selecteer een mijlpaal in de milestone lijst, dan klik het **uitgeven** pictogram ![ geeft pictogram ](assets/edit-icon.png) uit om mijlpaalinformatie uit te geven. </span>
-1. <span class="preview"> (Facultatief) selecteer een mijlpaal in de milestone lijst, dan klik het **2} pictogram van de Schrapping ![ pictogram van de Schrapping ](assets/delete-icon.png) om het te schrappen. </span>**
-1. <span class="preview"> klik ja **, schrap het**. </span>
-   <span class="preview"> de mijlpaal wordt geschrapt en kan niet worden teruggekregen. Alle projectinformatie met betrekking tot de mijlpaal en alle taakinformatie met betrekking tot de trapeziumpaden wordt ook verwijderd. </span>
+1. (Facultatief) selecteer een mijlpaal in de milestone lijst, dan klik **uitgeven** pictogram ![ pictogram ](assets/edit-icon.png) uitgeven om mijlpaalinformatie uit te geven.
+1. (Facultatief) selecteer een mijlpaal in de milestone lijst, dan klik het **pictogram van de Schrapping** ![ pictogram van de Schrapping ](assets/delete-icon.png) om het te schrappen.
+1. Klik **ja, schrap het**.
+De mijlpaal wordt verwijderd en kan niet worden hersteld. Alle projectinformatie met betrekking tot de mijlpaal en alle taakinformatie met betrekking tot de trapeziumpaden wordt ook verwijderd.
 
-
-<div class="preview">
 
 ## Details van mijlpaden weergeven in een rapport
 
@@ -163,8 +161,6 @@ Voor informatie over het associëren van mijlpaden aan projecten, zie [ projecte
 
    De details van het pad van de mijlpaal worden weergegeven.
 
-   <div class="preview">
-
    ![ de wegdetails van de mijlpaal van projectrapport ](assets/milestone-details-from-project-report.png)
 
    De detailpagina van het milestone-pad bevat de volgende informatie:
@@ -175,6 +171,5 @@ Voor informatie over het associëren van mijlpaden aan projecten, zie [ projecte
 
 1. (Optioneel) Klik op **Terug** om terug te gaan naar het projectrapport.
 
-</div>
 
 

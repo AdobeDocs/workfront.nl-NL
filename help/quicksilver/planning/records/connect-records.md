@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '3327'
+source-wordcount: '3267'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Connect-records
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  -->
 
 {{planning-important-intro}}
 
@@ -157,7 +157,7 @@ U kunt verslagen van de Planning van Workfront op de volgende gebieden van een v
 * De verbonden recordvelden in de tabelweergave.
 * Het voorvertoningsvak of de pagina van de record in de verbonden recordvelden op het tabblad Details.
 * Het voorvertoningsvak of de pagina van de record op het tabblad Verbindingen.
-* <span class="preview"> de pagina van het verslag op het de meningslusje van de Verbinding.</span> <!--this needs title edit when they rename the "Connection view" page type-->
+* De pagina van de record op het tabblad van de weergave Verbinding. <!--this needs title edit when they rename the "Connection view" page type-->
 
 ### Connect Workfront Planning-records vanuit de tabelweergave of het gebied Details van een record
 
@@ -184,7 +184,7 @@ U kunt verslagen van de Planning van Workfront op de volgende gebieden van een v
    >
 
 1. (Voorwaardelijk) Als u bij het verbindingstype de optie Een op velen of Een op één hebt geselecteerd en u probeert een record of een object te verbinden dat al ergens anders is verbonden, ontvangt u een waarschuwing dat het opnieuw verbinden van de record de record uit de oorspronkelijke verbinding zal verwijderen. Klik **verbinden** om de verwijdering toe te staan en het verslag aan te sluiten, of **annuleert** om terug naar het gebied te gaan en een ander verslag te selecteren.
-1. (Facultatief) als u geen voorwerp kunt vinden om te verbinden, en u het wilt toevoegen, <span class="preview"> klikken **+ voegt toe**</span>
+1. (Optioneel) Als u een object niet kunt vinden om verbinding te maken en u wilt het object toevoegen, klikt u op **+ Toevoegen**
 
    of
 
@@ -270,7 +270,7 @@ Nadat u een verbinding hebt gemaakt tussen een recordtype en een Workfront-objec
    >
    >U kunt de pagina van een verslag van de mening openen, het verbonden verslaggebied tweemaal klikken, of **verbinden** op het gebied klikken om voorwerpen van het verbonden objecten type toe te voegen.
 
-1. (Facultatief) als u geen voorwerp kunt vinden om te verbinden, en u het wilt toevoegen, <span class="preview"> klikken **+ voegt toe**</span>
+1. (Optioneel) Als u een object niet kunt vinden om verbinding te maken en u wilt het object toevoegen, klikt u op **+ Toevoegen**
 
    of
 
@@ -440,7 +440,7 @@ Om records te verbinden met Experience Manager-elementen:
 1. (Optioneel) Klik op de pijl omlaag links van een sectie om deze samen te vouwen.
 
 1. (Voorwaardelijk) klik **verbinden** om meer verslagen of voorwerpen van het zelfde type toe te voegen.
-1. (Facultatief) als u een verslag of een voorwerp niet kunt vinden om te verbinden, en u het wilt toevoegen, <span class="preview"> klikken **+ toevoegen**</span>
+1. (Optioneel) Als u een record of een object dat u wilt verbinden niet kunt vinden en u wilt deze toevoegen, klikt u op **+ Toevoegen**
 
    of
 
@@ -454,8 +454,6 @@ De records en objecten worden direct toegevoegd.
    ![ losmaakt verslagpictogram met tooltip op verbindingslusje ](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
 
    De record wordt onmiddellijk losgekoppeld van alle gebieden van de Workfront-planning of van andere toepassingen waar deze als verbonden kunnen worden weergegeven. De waarden van opzoekvelden worden ook verwijderd.
-
-<div class="preview">
 
 ### Verbind verslagen van het lusje van de mening van de Verbinding op de detailpagina van een verslag
 
@@ -474,8 +472,6 @@ De records en objecten worden direct toegevoegd.
 
    ![ verbind knoop die in verbonden verslagdetails tabel wordt benadrukt ](assets/connect-button-highlighted-in-connected-record-details-tab.png)
 1. (Optioneel) Als u geen verbonden record kunt vinden, klikt u op **+ Toevoegen** om deze te maken en te verbinden.
-
-</div>
 
 ## Connect-records van Workfront-objecten
 

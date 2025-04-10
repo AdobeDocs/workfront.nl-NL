@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 4b5248f667648543263073022ae10336fb022f97
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '2419'
+source-wordcount: '2359'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # Records maken
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -28,13 +28,13 @@ In de Planning van Adobe Workfront, is een verslag een geval van een verslagtype
 U kunt records maken door een van de volgende handelingen uit te voeren:
 
 * [Records maken door deze inline toe te voegen vanuit de tabelweergave met recordtype](#create-records-by-adding-them-inline-from-the-record-type-table-view)
-* <span class="preview">[ creeer verslagen gebruikend het Nieuwe verslag of het verslagknoop van het Verzoek van om het even welke verslagtypemening ](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)</span>
+* [Records maken met de knop Nieuwe record of Verzoek om record maken vanuit elke recordtypeweergave](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)
 * [Een lijst met records uit een externe lijst kopiëren en plakken](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [Records dupliceren vanuit een tabelweergave](#create-records-by-duplicating-them)
 * [Records maken terwijl u deze verbindt met andere records](#create-records-as-you-connect-them)
 * [Records maken door een aanvraagformulier naar een recordtype te verzenden](#create-records-by-submitting-a-request-form-to-a-record-type)
-* <span class="preview">[ creeer verslagen door informatie van een CSV of dossier van Excel ](#create-records-by-importing-records-from-a-csv-or-excel-file)</span> in te voeren
-* <span class="preview">[ creeer verslagen door automatiseringen ](#create-records-by-using-automations)</span> te gebruiken
+* [Records maken door gegevens te importeren uit een CSV- of Excel-bestand](#create-records-by-importing-records-from-a-csv-or-excel-file)
+* [Records maken met behulp van automatisering](#create-records-by-using-automations)
 
 Raadpleeg de volgende artikelen voor informatie over het beheren van records in de tabel- of tijdlijnweergaven:
 
@@ -99,7 +99,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 <tr> 
    <td role="rowheader"><p>Objectmachtigingen</p></td> 
    <td> <p>Draag of hogere toestemmingen aan de werkruimte <!--<span class="preview">and record type</span>--> bij waar u verslagen wilt toevoegen. </p>
-   <p><span class="preview">Machtigingen voor het maken van records weergeven in de werkruimte <!--<span class="preview">and record type</span>--> met de knop Verzoek om record op de recordpagina</span></p>
+   <p>Machtigingen voor het maken van records weergeven in de werkruimte <!--<span class="preview">and record type</span>--> met de knop Verzoek om record op de recordpagina</p>
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>
    <p>Rechten voor Workfront-objecten (portfolio's) beheren om onderliggende objecten (projecten) toe te voegen.</p>
    </td> 
@@ -182,8 +182,6 @@ Records van het geselecteerde type worden weergegeven in de weergave.
    * CTRL + Z ( ⌘ + Z voor Mac) om een wijziging ongedaan te maken
    * CTRL + Shift + Z ( ⌘ + Shift + Z voor Mac) om een wijziging opnieuw uit te voeren
 
-<div class="preview">
-
 ## Records maken met de knop Nieuwe record of Verzoek om record maken vanuit elke recordtypeweergave
 
 Gebruikers met de machtiging Weergeven in de werkruimte <!--<span class="preview">and record type</span>--> kunnen alleen records maken met de knop Verzoek om record op de pagina met recordtypen.
@@ -247,8 +245,6 @@ Het aanvraagformulier van het recordtype wordt geopend.
    * Er wordt een nieuwe record toegevoegd aan het recordtype, tenzij u ervoor kiest deze toe te voegen met een aanvraagformulier met een goedkeuringsproces. De goedkeuring moet door alle fiatteurs worden verleend voordat de registratie wordt opgesteld.
    * Er worden meerdere records toegevoegd aan het recordtype als u records hebt toegevoegd met een CSV- of Excel-spreadsheet.
    * Er wordt een nieuwe aanvraag toegevoegd op het tabblad Planning van het gebied Workfront Requests als u de aanvraag hebt toegevoegd door een aanvraagformulier in te dienen.
-
-</div>
 
 <!-- this is not possible anymore: 
 
@@ -339,7 +335,7 @@ Om verslagen tot stand te brengen aangezien u hen van andere verslagen verbindt:
 
      Voor informatie, zie [ recordverbindingen van de voorwerpen van Workfront beheren ](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
 
-1. (Voorwaardelijk) Als u geen verslag kunt vinden wanneer het proberen om het te verbinden, <span class="preview"> klik **+ voegt toe**</span>
+1. (Voorwaardelijk) Als u geen verslag kunt vinden wanneer het proberen om het aan te sluiten, **+ toevoegen** klikken
 
    of
 Typ een naam en klik vervolgens op **+ Toevoegen** . De knop **+ Toevoegen** wordt gevolgd door de naam van het recordtype waarmee u verbinding maakt. Bijvoorbeeld, &quot;voeg merken&quot;toe wanneer het toevoegen van een merk aan een bestaande campagne. De naam die u hebt getypt, volgt ook de knop Toevoegen.
@@ -376,17 +372,11 @@ U kunt records importeren wanneer u recordtypen importeert met een CSV- of Excel
 
 Voor informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
 
-<div class="preview">
-
 ## Records maken door records te importeren uit een CSV- of Excel-bestand
 
 U kunt records voor bestaande recordtypen importeren wanneer u gegevens uit een CSV- of Excel-bestand importeert.
 
 Voor informatie, zie [ verslagen tot stand brengen door informatie van een CSV of dossier van Excel ](/help/quicksilver/planning/records/import-file-to-create-records.md) in te voeren.
-
-</div>
-
-<div class="preview">
 
 ## Records maken met behulp van automatisering
 
@@ -396,6 +386,5 @@ U kunt de automatisering in de verslagpagina in de Planning van Workfront vormen
 
 Voor informatie, zie [ voorwerpen creëren gebruikend het verslag van de Planning van Adobe Workfront automatiseringen ](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
-</div>
 
 

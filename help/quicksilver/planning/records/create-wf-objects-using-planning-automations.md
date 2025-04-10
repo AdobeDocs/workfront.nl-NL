@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 585a65c497211c84cffafeeaa5016218fd66acd2
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '2197'
+source-wordcount: '2138'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 0%
 
 <!-- if they give access to use the automation to people with LESS than Manage permissions to a workspace, split this article in two: the Configure section should be for admins and the "Use a Workfront Planning automation to create an object" should be for all other users-->
 
-<span class="preview"> de informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 U kunt automatiseringen in de Planning van Adobe Workfront vormen die, wanneer geactiveerd, tot voorwerpen in Workfront of verslagen in de Planning van Workfront leiden wanneer teweeggebracht van een verslag van de Planning. De gemaakte objecten of records worden automatisch verbonden met de records waaruit u de automatisering activeert.
 
@@ -37,7 +37,7 @@ Voor meer informatie over verbonden verslagen, zie [ Verbonden verslagenoverzich
 
 U kunt het volgende tot stand brengen gebruikend automatisering in de Planning van Workfront:
 
-* Één <span class="preview"> of verscheidene </span> projecten
+* Eén of meerdere projecten
 * Een groep
 * Een programma
 * Een portfolio
@@ -123,15 +123,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 * De naam van het object of de record die door een automatisering is gemaakt, is gelijk aan de naam van de record waaruit u het object of de record maakt, wanneer u één object maakt.
 
-<div class="preview">
-
 * Wanneer u veelvoudige projecten creeert, worden zij automatisch genoemd volgens het volgende patroon:
 
   `[ Name of the record ] Name of the field choice`
 
   Voor meer informatie, zie het [ Gebruik een automatisering van de Planning van Workfront om een voorwerp of een verslag ](#use-a-workfront-planning-automation-to-create-an-object-or-a-record) sectie in dit artikel tot stand te brengen.
-
-</div>
 
 * Nieuwe objecten of records overschrijven bestaande in hetzelfde veld niet. Als u dezelfde automatisering meerdere keren voor dezelfde record trigt, worden de nieuwe objecten of records in hetzelfde verbonden veld van de oorspronkelijke record toegevoegd, naast de objecten of records die u eerder hebt gemaakt.
 
@@ -166,8 +162,8 @@ De pagina met gegevens over automatisering wordt geopend.
    * **Acties**: Selecteer de actie die u Workfront wilt uitvoeren wanneer het teweegbrengen van de automatisering. Dit is een verplicht veld.
 Selecteer een van de volgende handelingen:
 
-      * <span class="preview"> creeer veelvoudige projecten </span>
-      * <span class="preview"> creeer één enkel project </span>
+      * Meerdere projecten maken
+      * Eén project maken
       * Project maken
       * Record maken
       * Programma maken
@@ -180,11 +176,9 @@ Selecteer een van de volgende handelingen:
 
 1. (Voorwaardelijk) Afhankelijk van de actie die u hebt geselecteerd, werkt u de volgende velden bij:
 
-   * **creeer <span class="preview"> één enkel </span> project**: <!--replace to the left: Create a single project-->
+   * **creeer één enkel project**: <!--replace to the left: Create a single project-->
       * **Verbonden gebied waar het project** wordt gecreeerd: Dit is het verbonden gebied waar het nieuwe project zal tonen. Dit is een verplicht veld.
       * **malplaatje van het Project**: Selecteer een projectmalplaatje dat Workfront zal gebruiken om het project tot stand te brengen.
-
-   <div class="preview">
 
    * Meerdere projecten maken:
       * **Verbonden gebied waar het project** wordt gecreeerd: Dit is het verbonden gebied waar het nieuwe project zal tonen. Dit is een verplicht veld.
@@ -197,8 +191,6 @@ Selecteer een van de volgende handelingen:
 
       * **Gebruik het zelfde malplaatje**: Selecteer deze optie om het zelfde malplaatje voor elk nieuw project te gebruiken. Als de optie wordt geschrapt, selecteer a **malplaatje van het Project** voor elke gebiedskeuze.
       * **malplaatje van het Project**: Als u **het zelfde malplaatje** optie selecteerde, selecteer een projectmalplaatje dat Workfront zal gebruiken om de projecten tot stand te brengen.
-
-   </div>
 
    * **creeer portefeuille**:
       * **Verbonden gebied waar de portefeuille** wordt gecreeerd: Dit is het verbonden gebied waar de nieuwe portefeuille zal tonen. Dit is een verplicht veld.
@@ -311,15 +303,11 @@ Op het **gebied van de Kaart**, werk de volgende informatie bij:
 
    * Het nieuwe object wordt weergegeven in het verbonden veld dat wordt aangegeven in de instelling van de automatiseringsknop. Mogelijk moet u de pagina vernieuwen voordat u het nieuwe object kunt bekijken. Het nieuwe object heeft dezelfde naam als de oorspronkelijke record.
 
-   <div class="preview">
-
    * Als er meerdere projecten zijn gemaakt op basis van de keuzes van meerdere of één-selectievelden, krijgen de projecten automatisch een naam op basis van het volgende patroon:
 
      `[ Name of the record ] Name of the field choice`
 
      Als een campagne met de naam `Summer breeze` bijvoorbeeld een project heeft gegenereerd op basis van een keuze uit een veld in `EMEA` , krijgt het project de naam `[ Summer breeze ] EMEA` .
-
-   </div>
 
    * De record waaruit de automatisering wordt geactiveerd, wordt toegevoegd aan het verbonden veld van de nieuwe record.
 

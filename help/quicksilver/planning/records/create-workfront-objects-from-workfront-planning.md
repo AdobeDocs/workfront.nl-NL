@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 0%
 <!-- update the title (and all the links to this article) at preview, to be this: Create Workfront objects from Workfront Planning as you connect them to records-->
 <!-- remove preview and production at release time-->
 
-<span class="preview"> de informatie die op deze pagina wordt benadrukt verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -31,24 +31,24 @@ U kunt op de volgende manieren Adobe Workfront-objecten maken via Workfront Plan
 * Als u Workfront-objecten verbindt met planningsrecords
 
   In dit artikel wordt beschreven hoe u Workfront-objecten kunt maken via Workfront Planning terwijl u deze verbindt vanuit planningsrecords.
-* <span class="preview"> wanneer u automatiseringen van de pagina van een verslag gebruikt.</span>
+* Wanneer u automatisering vanaf de pagina van een record gebruikt.
 
-  <span class="preview"> voor informatie over het creëren van de voorwerpen van Workfront die automatiseringen gebruiken, zie [ voorwerpen creëren gebruikend het verslag van de Planning van Adobe Workfront automatiseringen ](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md). </span>
+  Voor informatie over het creëren van de voorwerpen van Workfront die automatiseringen gebruiken, zie [ voorwerpen creëren gebruikend Adobe Workfront de verslagautomatiseringen van de Planning van ](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
 U kunt de volgende typen Workfront-objecten maken vanuit Workfront Planning wanneer u een Workfront Planning-record verbindt met de volgende Workfront-objecttypen:
 
 * Projecten
 * Portfolio&#39;s
-* <span class="preview"> Programma&#39;s </span>
+* Programma&#39;s
 
 >[!IMPORTANT]
 >
->* U kunt slechts projecten, portefeuilles, en <span class="preview"> programma&#39;s </span> in Workfront tot stand brengen wanneer het verbinden van hen van een verslag.
+>* U kunt alleen projecten, portfolio&#39;s en programma&#39;s maken in Workfront wanneer u deze via een record verbindt.
 >
 >* U kunt geen groepen of bedrijven maken wanneer u deze verbindt vanuit een record in Workfront Planning.
 >
 
-U kunt projecten, portfolio&#39;s <span class="preview"> en programma&#39;s </span> verbinden vanuit een verbindingsveld in de volgende gebieden van Workfront Planning:
+U kunt projecten, portefeuilles, en programma&#39;s van een verbindingsgebied op de volgende gebieden van de Planning van Workfront verbinden:
 
 * De tabelweergave van een recordtype
 * De pagina Details of het voorvertoningsvak van een record
@@ -58,7 +58,7 @@ Voor informatie over het verbinden van verslagen van de Planning met de voorwerp
 
 ## Toegangsvereisten
 
-+++ Breid uit om toegangsvereisten te bekijken..
++++ Vouw uit om de vereisten voor toegang weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -133,7 +133,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 U moet het volgende hebben alvorens u nieuwe projecten of portefeuilles kunt toevoegen door hen van bestaande verslagen te verbinden:
 
-* De types van verslag verbonden aan de projecten van Workfront, portefeuilles, of <span class="preview"> programma&#39;s </span>. Voor informatie, zie [ verbind verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
+* Recordtypen die zijn verbonden met Workfront-projecten, -portfolio&#39;s of -programma&#39;s. Voor informatie, zie [ verbind verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
 * Records. Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-records.md) creëren.
 * De correcte toegang en de toestemmingen in de Planning van Workfront en Workfront, zoals die in de sectie [ vereisten van de Toegang ](#access-requirements) in dit artikel worden beschreven.
 
@@ -143,7 +143,7 @@ Om projecten tot stand te brengen aangezien u hen van andere verslagen verbindt:
 
 1. Ga naar de detailspagina van een verslag of naar de lijst van het verslagtype en begin de verslagen van de Planning van Workfront met de projecten van Workfront aan te sluiten, zoals die in artikel [ worden beschreven verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md).
 
-1. (Voorwaardelijk) <span class="preview"> klik **toevoegen project**</span>
+1. (Voorwaardelijk) klik **toevoegen project**
 of
 Begin de naam van een project te typen, dan klik **voegt project** toe als u het niet kunt vinden.
 
@@ -153,12 +153,12 @@ Begin de naam van een project te typen, dan klik **voegt project** toe als u het
 
    ![ voeg project toe wanneer het verbinden van het van een verbindingsgebied ](assets/add-project-when-connecting-it-from-connection-field.png)
 
-   <span class="preview"> **creeer project** doos opent.</span>
+   **creeer project** doos opent.
 
-1. <span class="preview"> (Facultatief) werk de **naam van het Project** bij. Standaard krijgt het project de naam van wat u als zoekopdracht hebt toegevoegd wanneer u het project verbindt vanuit de record. </span>
-1. <span class="preview"> (Facultatief) selecteer a **malplaatje van het Project**. Als u geen sjabloon selecteert, maakt Workfront een leeg project zonder taken. </span>
-1. <span class="preview"> klik **creeer**. </span>
-1. <span class="preview"> (Voorwaardelijk) Als u selecteerde om een project van een malplaatje tot stand te brengen, volg de stappen in het artikel [ een project gebruikend een malplaatje ](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md) artikel om het project te beëindigen toevoegend.</span>
+1. (Facultatief) werk de **naam van het Project** bij. Standaard krijgt het project de naam van wat u als zoekopdracht hebt toegevoegd wanneer u het project verbindt vanuit de record.
+1. (Facultatief) selecteer a **malplaatje van het Project**. Als u geen sjabloon selecteert, maakt Workfront een leeg project zonder taken.
+1. Klik **creëren**.
+1. (Voorwaardelijk) als u selecteerde om een project van een malplaatje tot stand te brengen, volg de stappen in het artikel [ een project tot stand brengen gebruikend een malplaatje ](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md) artikel om het project te beëindigen toevoegend.
 
    Het nieuwe project wordt gecreeerd en aan het verbonden gebied van het geselecteerde verslag toegevoegd.
 
@@ -172,7 +172,7 @@ Om portefeuilles tot stand te brengen aangezien u hen van de verslagen van de Pl
 
    <!--at production or when the permanent Add button is released to preview, take the first part of the direction below out and say "Click Add to add a new portfolio"; take this out too: "The Add button is followed by the portfolio name you typed."-->
 
-1. (Voorwaardelijk) <span class="preview"> klik **toevoegen portefeuille**</span>
+1. (Voorwaardelijk) klik **toevoegen portefeuille**
 
    of
 
@@ -183,8 +183,6 @@ Om portefeuilles tot stand te brengen aangezien u hen van de verslagen van de Pl
    Het portfolio wordt gemaakt en toegevoegd aan het verbindingsveld van de record die u hebt geselecteerd.
 
 1. (Optioneel) Klik op de naam van het nieuwe portfolio van Workfront Planning om de pagina van het portfolio te openen in Workfront en aanvullende updates voor het portfolio uit te voeren.
-
-<div class="preview">
 
 ## Programma&#39;s maken terwijl u deze verbindt met records van Workfront Planning
 
@@ -211,6 +209,4 @@ Om programma&#39;s tot stand te brengen aangezien u hen van de verslagen van de 
    Het programma wordt gemaakt en toegevoegd aan het verbindingsveld van de geselecteerde record.
 
 1. (Optioneel) Klik op de naam van het nieuwe programma in Workfront Planning om de pagina van het programma in Workfront te openen en aanvullende updates voor het programma uit te voeren.
-
-</div>
 

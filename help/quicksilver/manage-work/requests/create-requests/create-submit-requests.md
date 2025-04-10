@@ -6,9 +6,9 @@ description: Geplande werkzaamheden worden in Adobe Workfront vertegenwoordigd d
 author: Lisa
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '2740'
+source-wordcount: '2680'
 ht-degree: 0%
 
 ---
@@ -25,9 +25,9 @@ ht-degree: 0%
 </div>
 -->
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Geplande werkzaamheden worden in Adobe Workfront vertegenwoordigd door projecten en taken. U kunt echter werken in een omgeving waar ongeplande werkzaamheden, in de vorm van verzoeken, op elk moment kunnen worden uitgevoerd. Workfront biedt een workflow voor het aanpassen van dit type omgeving via het gebruik van Request Queues.
 
@@ -44,7 +44,7 @@ U kunt op de volgende manieren een Workfront-planningsverzoek helemaal zelf make
 
 * Via een koppeling naar een aanvraagformulier voor Workfront-planning.
 
-* <span class="preview"> van een de verzoekvorm van de Planning van Workfront in het gebied van Verzoeken van Workfront. </span>
+* Vanuit een formulier voor planningsaanvragen van Workfront in het gebied Verzoeken van Workfront.
 
   Uw organisatie moet een pakket voor Workfront-planning aanschaffen. Voor informatie, zie [ de Verzoeken van de Planning van Adobe Workfront voorleggen om verslagen ](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen.
 
@@ -124,12 +124,12 @@ Een aanvraag maken in de Workfront-webapp:
 
 {{step1-to-requests}}
 
-1. <span class="preview"> (Facultatief en voorwaardelijk) selecteer de **Schakelaar aan nieuwe ervaring** plaatsend in het hoger-recht van het scherm, als de volgende dingen op uw organisatie en uw instantie van Workfront van toepassing zijn: </span>
+1. (Facultatief en voorwaardelijk) selecteer de **Schakelaar aan nieuwe ervaring** plaatsend in het hoger-recht van het scherm, als de volgende dingen op uw organisatie en uw instantie van Workfront van toepassing zijn:
 
-   * <span class="preview"> Uw organisatie heeft een pakket van Workfront </span> gekocht
-   * <span class="preview"> Uw organisatie is aan de Adobe Verenigde Ervaring in kaart gebracht.
-   * <span class="preview"> Uw beheerder heeft u toegang tot de Planning van Workfront verleend </span>
-   * <span class="preview"> u hebt minstens meningstoestemmingen aan een werkruimte van de Planning van Workfront </span>
+   * Uw organisatie heeft een Workfront-pakket aangeschaft
+   * Uw organisatie is aan de Verenigde Ervaring van Adobe genoteerd.
+   * Uw beheerder heeft u toegang verleend tot de Planning van Workfront
+   * U hebt minstens weergavemachtigingen voor een Workfront-planningswerkruimte
 
    Voor meer informatie, zie [ de Verzoeken van de Planning van Adobe Workfront voorleggen om verslagen ](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen
 
@@ -142,15 +142,15 @@ Een aanvraag maken in de Workfront-webapp:
 
    Het **Nieuwe verzoek** vakje opent.
 
-1. <span class="preview"> (Voorwaardelijk) als u aan de nieuwe ervaring schakelde die de Planning van Workfront omvat, **Nieuwe verzoek** doos toont het volgende:</span>
+1. (Voorwaardelijk) als u aan de nieuwe ervaring schakelde die de Planning van Workfront omvat, **Nieuwe verzoek** doos toont het volgende:</span>
 
-   * <span class="preview"> 6 onlangs betreden de verzoekrijen van Workfront en van de Planning verzoekvormen tonen in de Recente sectie. </span>
-   * <span class="preview"> 50 extra de verzoekrijen van Workfront en van de Planning verzoekvormen tonen in alfabetische orde in de **Al verzoekvormen** sectie. U kunt zoeken naar een aanvraagwachtrij die niet standaard wordt weergegeven. </span>
+   * De 6 laatst geopende Workfront aanvraagrijen en de aanvraagformulieren voor planning worden weergegeven in de sectie Recent.
+   * 50 extra de verzoekrijen van Workfront en van de Planning verzoekvormen tonen in alfabetische orde in **Al verzoekvormen** sectie. U kunt zoeken naar een aanvraagwachtrij die niet standaard wordt weergegeven.
 
    ![ Nieuwe verzoekdoos met verenigd werkschema voor het plannen van verzoeken ](assets/new-request-box-with-unified-workflow-for-planning-requests.png)
 
-   <span class="preview"> klik één van de kaarten van de de verzoekrij van Workfront, of onderzoek naar, dan klik het wanneer het in de lijst toont. </span>
-1. (Voorwaardelijk) <span class="preview"> als u aan de nieuwe ervaring overschakelde die de Planning van Workfront omvat, uw onderwerpgroepen en rijonderwerpen selecteren en blijven het bijwerken van de vorm </span>
+   Klik op een van de wachtrijkaarten voor Workfront-aanvragen of zoek naar een van deze wachtkaarten en klik vervolgens op deze werkkaart wanneer deze in de lijst wordt weergegeven.
+1. (Voorwaardelijk) als u op de nieuwe ervaring schakelde die de Planning van Workfront omvat, uw onderwerpgroepen en rijonderwerpen selecteert en blijft het formulier bijwerken.
 
    Anders, klik binnen het **gebied van het Type van Verzoek** en doe één van het volgende:
 
@@ -333,7 +333,7 @@ Een aanvraag maken in de Workfront-webapp:
 
    Wanneer u het verzoek indient, wordt het concept automatisch verwijderd en kan het niet worden hersteld.
 
-   Voorgelegde verzoeken worden vermeld in de **Voorgelegde** sectie van het gebied van Verzoeken. <span class="preview"> als u de nieuwe ervaring gebruikt die de Planning van Workfront omvat, voorlegde Workfront verzoeken vertoning in het **Workfront** lusje van het gebied van Verzoeken. </span>
+   Voorgelegde verzoeken worden vermeld in de **Voorgelegde** sectie van het gebied van Verzoeken. Als u de nieuwe ervaring gebruikt die de Planning van Workfront omvat, voorlegde Workfront verzoekenvertoning in het **Workfront** lusje van het gebied van Verzoeken.
 
    Voor informatie over het richten van inkomende verzoeken, zie het artikel [ werk en teamverzoeken ](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md) leiden.
 

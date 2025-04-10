@@ -6,18 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '825'
 ht-degree: 0%
 
 ---
 
 # Werkruimten delen
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -104,7 +104,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 ## Overwegingen bij het delen van werkruimten
 
 * Voor algemene informatie over het delen van voorwerpen in de Planning van Workfront, zie ook [ Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront ](/help/quicksilver/planning/access/sharing-permissions-overview.md).
-* U kunt werkruimten delen met gebruikers, <span class="preview"> teams, rollen, groepen of bedrijven </span> binnen uw organisatie.
+* U kunt werkruimten delen met gebruikers, teams, rollen, groepen, of bedrijven binnen uw organisatie.
 * U kunt werkruimten niet delen met gebruikers buiten uw organisatie.
 * Wanneer u een werkruimte deelt, worden ook alle recordtypen, records en velden gedeeld die aan de werkruimten zijn gekoppeld.
 * Als u een werkruimte deelt, worden de weergaven niet gedeeld. U moet de weergaven afzonderlijk delen.
@@ -133,7 +133,7 @@ Een werkruimte delen met anderen:
 
    ![ knoop van het Aandeel op werkruimte het hoogste recht ](assets/share-button-on-workspace-top-right.png)
 
-1. In de **toegang van de Verlening tot dit werkruimte** gebied, begin het typen van de naam van een gebruiker, een groep, <span class="preview"> team, een bedrijf, of baanrol </span> dan het wanneer het in de lijst toont.
+1. In de **toegang van de Verlening tot dit werkruimte** gebied, begin de naam van een gebruiker, een groep, een team, een bedrijf, of baanrol te typen dan het te klikken wanneer het in de lijst toont.
 
    ![ delend UI met groepen ](assets/sharing-ui-with-groups.png)
 

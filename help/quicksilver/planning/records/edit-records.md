@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
 workflow-type: tm+mt
-source-wordcount: '2246'
+source-wordcount: '2186'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Records bewerken
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -242,7 +242,6 @@ Voor meer informatie, zie [ verslagmeningen ](/help/quicksilver/planning/views/m
 
      ![ Dragable laag-juiste hoek voor exemplaardeeg in lijstmening ](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
 
-   <div class="preview">
 
    * Kopieer een of meerdere cellen van een externe bron (bijvoorbeeld een Excel-bestand) en plak ze in een van de volgende veldtypen:
 
@@ -250,7 +249,6 @@ Voor meer informatie, zie [ verslagmeningen ](/help/quicksilver/planning/views/m
       * Personenvelden. Alleen velden met één waarde worden ondersteund.
 
      U kunt geen informatie van een externe bron kopiëren en deze in andere veldtypen plakken, zoals Workfront- of AEM Assets-verbindingsvelden.
-   </div>
 
    >[!NOTE]
    >
@@ -295,11 +293,7 @@ Voor meer informatie, zie [ verslagmeningen ](/help/quicksilver/planning/views/m
 
    Van de lijstmening, klik het **Open pictogram van details** pictogram ![ Open detailspictogram op het gebied van de lijstnaam ](assets/open-details-icon-in-table-name-field.png) in de eerste kolom. De voorvertoning van de record wordt in de weergave geopend.
 
-   <div class="preview">
-
    ![ doos van Details ](assets/details-box.png)
-
-   </div>
 
 1. (Facultatief) klik het **Meer** menu rechts van de titel van het verslag, dan klik **anders noemen**. Hiermee werkt u het veld bij dat wordt weergegeven als de titel van de record.
 
@@ -320,17 +314,13 @@ Voor meer informatie, zie [ verslagmeningen ](/help/quicksilver/planning/views/m
 
    Workfront slaat uw wijzigingen automatisch op.
 
-1. <span class="preview"> (Facultatief) klik de **indicator in real time** ![ in real time indicatorpictogram ](assets/real-time-indicator-icon.png) in de hoger-juiste hoek van de de voorproefdoos van het verslag, dan laat **Medewerkers** toe plaatsen tonen om de gebieden te benadrukken die door anderen in real time worden uitgegeven.
+1. (Facultatief) klik de **indicator in real time** ![ in real time indicatorpictogram ](assets/real-time-indicator-icon.png) in de hoger-juiste hoek van de de voorproefdoos van het verslag, dan laat **Medewerkers** het plaatsen toe om de gebieden te benadrukken die door anderen in real time worden uitgegeven.
 
    De namen en avatars van alle gebruikers die tot het verslag tezelfdertijd toegang hebben tonen in dit gebied.
 
-   Als de instelling is uitgeschakeld, worden de avatars en namen weergegeven in het gebied van de tijdindicator in real time en worden de velden die worden bewerkt niet gemarkeerd. </span>
-
-   <div class="preview">
+   Als de instelling is uitgeschakeld, worden de avatars en namen weergegeven in het gebied van de tijdindicator in real time en worden de velden die worden bewerkt niet gemarkeerd.
 
    ![ re-time indicator uitgevouwen verslagvoorproefdoos ](assets/real-time-indicator-expanded-record-preview-box.png)
-
-   </div>
 
 1. (Facultatief) klik het **menu van de Uitvoer ![ pictogram van de Uitvoer in verslagdetailpagina ](assets/export-icon-in-record-details-page.png) om de details van het verslag uit te voeren.** Voor informatie, zie [ de details van een verslag ](/help/quicksilver/planning/records/export-the-record-page.md) uitvoeren.
 
@@ -388,17 +378,13 @@ Voor meer informatie, zie [ verslagmeningen ](/help/quicksilver/planning/views/m
 
    Workfront slaat uw wijzigingen automatisch op.
 
-1. <span class="preview"> (Facultatief) klik de **indicator in real time** ![ pictogram van de indicator in real time ](assets/real-time-indicator-icon.png) in de hoger-juiste hoek van de pagina van het verslag, dan laat **Medewerkers** het plaatsen toe om de gebieden te benadrukken die door anderen in real time worden uitgegeven.
+1. (Facultatief) klik de **indicator in real time** ![ in real time indicatorpictogram ](assets/real-time-indicator-icon.png) in de hoger-juiste hoek van de pagina van het verslag, dan laat **samenwerkers** toe plaatsen tonen om de gebieden te benadrukken die door anderen in real time worden uitgegeven.
 
    De namen en avatars van alle gebruikers die tot het verslag tezelfdertijd toegang hebben tonen in dit gebied.
 
-   Als de instelling is uitgeschakeld, worden de avatars en namen weergegeven in het gebied van de tijdindicator in real time en worden de velden die worden bewerkt niet gemarkeerd. </span>
-
-   <div class="preview">
+   Als de instelling is uitgeschakeld, worden de avatars en namen weergegeven in het gebied van de tijdindicator in real time en worden de velden die worden bewerkt niet gemarkeerd.
 
    ![ Echte - tijdindicator uitgebreide doos van de verslagvoorproef ](assets/real-time-indicator-expanded-record-preview-box.png)
-
-   </div>
 
 1. (Facultatief) klik het **menu van de Uitvoer ![ pictogram van de Uitvoer in verslagdetailpagina ](assets/export-icon-in-record-details-page.png) om de details van het verslag uit te voeren.** Voor informatie, zie [ de details van een verslag ](/help/quicksilver/planning/records/export-the-record-page.md) uitvoeren.
 
