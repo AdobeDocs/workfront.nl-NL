@@ -6,9 +6,9 @@ description: Uw Adobe Workfront-beheerder kan u toegang verlenen tot weergave- o
 author: Alina
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '990'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Naast de overwegingen hieronder, zie ook [ Overzicht van het delen van toestemmi
 
 * Door gebrek, heeft de schepper van een project toestemmingen om het project te beheren en ook aangewezen als Eigenaar van het Project. Als het project aan een andere eigenaar wordt toegewezen, heeft die gebruiker ook toestemmingen om het project te beheren. Wanneer de projectmaker (of eigenaar) het project met andere gebruikers deelt, verlenen zij bepaalde toestemmingen aan die gebruikers om te controleren wat zij kunnen doen aangezien zij aan het project werken.
 
-  Als de eigenaar van een project echter geen Planner-licentie heeft, hebben deze geen volledige toegang om het project te beheren. Slechts kan een gebruiker met een vergunning van het Plan toestemmingen hebben om een project te beheren. Voor meer informatie, zie [ hoe de toegangsniveaus en de toestemmingen samen ](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md) werken.
+  Als een eigenaar van een project echter geen plan- of standaardlicentie heeft, hebben hij of zij geen volledige toegang om het project te beheren. Alleen gebruikers met een licentie voor het abonnement of de standaardlicentie kunnen machtigingen hebben om een project te beheren. Voor meer informatie, zie [ hoe de toegangsniveaus en de toestemmingen samen ](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md) werken.
 
 * U kunt projecten afzonderlijk delen, maar u kunt ook verschillende projecten tegelijk delen. Projecten delen is hetzelfde als andere objecten delen. Voor meer informatie over het delen van punten in Workfront, zie [ een voorwerp ](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md) delen.
 * U kunt de volgende toestemmingen aan een project verlenen:
@@ -37,8 +37,6 @@ Naast de overwegingen hieronder, zie ook [ Overzicht van het delen van toestemmi
    * Weergave
    * Beheren
    * Contribute
-
-     ![](assets/view-on-projects-190x207.png) ![](assets/contribute-on-projects-159x243.png) ![](assets/manage-on-projects-178x230.png)
 
 * Wanneer u een project deelt, erven alle taken, kwesties, en de documenten de zelfde toestemmingen, tenzij anders gespecificeerd.
 
@@ -104,8 +102,8 @@ U kunt een project op de volgende manieren delen:
 
 ## Beperkingen voor verschillende licentietypen
 
-* Gebruikers met een Lichte licentie en lager (of een arbeidslicentie en lager voor het oude licentiemodel) hebben geen machtigingen om projecten te beheren. Voor deze gebruikers is Contribute de hoogste machtiging voor delen.
-* Gebruikers met een bijdragelicentie (of een aanvraaglicentie voor het oude licentiemodel) kunnen projectinformatie weergeven, maar hebben beperkte toegang tot het project.
+* De gebruikers met een vergunning van de Arbeider hebben geen toestemmingen om projecten te beheren. Voor Workers is Contribute de hoogste machtiging voor delen.
+* De gebruikers met een vergunning van het Verzoek kunnen projectinformatie bekijken, maar zij hebben beperkte projecttoegang.
 * Een uitzondering op het wijzigen van de status van een project treedt op wanneer een gebruiker met de machtiging Weergeven of Contribute ook wordt opgenomen in een goedkeuringsproces. Zij kunnen het project goedkeuren, dat de status van het project verandert, maar de status is de vooraf bepaalde status voor goedkeuring of voor verwerping.
 * Om een project te kunnen kopiëren, moet een gebruiker ook toegang hebben om projecten in hun Niveau van de Toegang tot stand te brengen.
 

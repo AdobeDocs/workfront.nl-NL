@@ -6,9 +6,9 @@ description: Gebruikers kunnen toegang aanvragen tot objecten in Adobe Workfront
 author: Alina
 feature: Get Started with Workfront
 exl-id: e0a69ed5-57c3-47ac-bb7a-65495f93b3e3
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 2c94dd423cfffc7685f24699fa73fb6a48cf2806
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Klik het **Punt** pictogram van het Huis ![](assets/home-icon-30x29.png) in de u
 
    1. Ga naar **Mijn goedkeurt** widget en vind het verzoek om meer toegang, dan klik **de toegang van de Verlening**.
 
-      ![](assets/request-for-access-to-project-in-new-home-approvals-widget.png)
+      ![ keur een verzoek ](assets/request-for-access-to-project-in-new-home-approvals-widget.png) goed
 
    1. (Facultatief) om een verschillend niveau van toegang te verlenen dan gevraagd, klik het drop-down menu links van de de toegangsknoop van de Verlening en selecteer de nieuwe toegang, dan klik de toegang van de Verlening **.**
 
@@ -89,29 +89,11 @@ U kunt configureren of u e-mailmeldingen ontvangt voor toegangsverzoeken. Uw beh
 1. Ga naar uw gebruikersprofiel door één van het volgende te doen:
 
    * Klik het **Belangrijkste menu** ![](assets/dots-main-menu.png) in de hoger-juiste hoek van het scherm, dan klik uw naam.
-   * Klik het Adobe **Belangrijkste menu** ![](assets/adobe-blue-main-menu.png) in de hoger-juiste hoek, als beschikbaar, dan klik **Profiel van Workfront**.
+   * Klik het 2} het profielpictogram van Adobe **Belangrijkste menu** {in de hoger-juiste hoek, als beschikbaar, dan klik **Profiel van Workfront**.![](assets/adobe-blue-main-menu.png)
 
-1. Klik **Meer** menu ![](assets/more-icon.png) aan het recht van uw naam in de kopbal, dan klik **uitgeven**.
+1. Klik **Meer** menu ![ meer pictogram ](assets/more-icon.png) aan het recht van uw naam in de kopbal, dan klik **uitgeven**.
 1. Klik **Meldingen**, en selecteer of schrap **Iemand verzoekt toegang van me** in de **Nodig Actie** sectie, afhankelijk van of u e-mailberichten wilt ontvangen wanneer een andere gebruiker toegang van u vraagt of niet.
 
    U kunt een dagelijkse of onmiddellijke melding inschakelen.
 
 1. Klik **sparen Veranderingen**.
-
-<!--1. (Conditional) From the legacy Home area, do the following: 
-   
-   1. In the **Work List**, select the access request you want to manage in the **Approvals** section.  
-
-   ![Screen_Shot_2018-07-02_at_11.35.29_AM.png](assets/screen-shot-2018-07-02-at-11.35.29-am-350x242.png)
-
-   The request displays on the right of the Work List. 
-
-   1. In the upper-right corner, click the grant access button.  
-   Depending on the type of access requested, the button name changes. For example, if the requestor asks for View access, the button says **Grant View Access**.  
-   ![Grant_Access_2.png](assets/grant-access-2-350x98.png)
-
-   1. (Optional) To grant a different level of access than requested, click the arrow next to the grant access button and select the new access, then click **Grant < Permission level > Access >**.  
-   A message appears confirming access was granted.  
-   
-   1. (Optional) Click **Ignore** to deny access.  
-   A message appears confirming access was ignored.-->

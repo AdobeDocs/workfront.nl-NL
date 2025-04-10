@@ -6,9 +6,9 @@ description: Uw Adobe Workfront-beheerder verleent gebruikers toegang tot weerga
 author: Alina, Nolan
 feature: Get Started with Workfront
 exl-id: 27a1beb9-e83a-4ef6-bf5f-ad52575a993c
-source-git-commit: 311398231719fb8a29a6bf2ddf1eeafb58e4f39f
+source-git-commit: 8b524f7cd7e1bfedbaa1e993cbf4b3b805344b7c
 workflow-type: tm+mt
-source-wordcount: '1922'
+source-wordcount: '1909'
 ht-degree: 0%
 
 ---
@@ -193,9 +193,7 @@ U moet het volgende hebben om objecten te delen:
 
    ![](assets/share-a-document-350x160.png)
 
-1. In **geef &lt; de Naam van Objecten > toegang tot** gebied, begin typend de naam van de gebruiker, het team, de rol, de groep, of het bedrijf met wie u het voorwerp wilt delen, dan klik de naam wanneer het in de drop-down lijst verschijnt.
-
-   ![](assets/portfolio-access-box.png)
+1. In **geef [ de Naam van Objecten ] toegang tot** gebied, begin typend de naam van de gebruiker, het team, de rol, de groep, of het bedrijf met wie u het voorwerp wilt delen, dan klik de naam wanneer het in de drop-down lijst verschijnt.
 
    >[!TIP]
    >
@@ -205,7 +203,7 @@ U moet het volgende hebben om objecten te delen:
 
 1. (Optioneel) Herhaal stap 3 voor elke gebruiker, elk team, elke rol of elke groep aan wie u toegang tot het object wilt verlenen.
 
-1. Specificeer de toestemmingen voor elke gebruiker, het team, de rol, de groep, of het bedrijf die u in Stap 3 toevoegde door het drop-down menu te klikken, dan het toestemmingsniveau te selecteren dat u wilt verlenen.
+1. Specificeer de toestemmingen voor elke gebruiker, team, rol, groep, of bedrijf die u in Stap 3 toevoegde.
 
    Voor het verwijderen van toestemmingen uit een voorwerp, zie [ toestemmingen uit voorwerpen ](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md) verwijderen.
 
@@ -218,24 +216,24 @@ U moet het volgende hebben om objecten te delen:
      >
      >De Workfront-beheerder of de maker van het object kan machtigingen van deze entiteiten verwijderen.
 
-     ![](assets/view-manage-sharing-options-for-portfolio-or-document.png)
+1. (Optioneel) Klik op het pictogram Geavanceerde opties naast het machtigingsniveau dat u hebt toegekend om specifieke machtigingen voor het object te configureren.
 
-1. (Facultatief) klik **Geavanceerde Montages** om specifieke toestemmingen op het voorwerp te vormen.
+   ![](assets/new-share-advanced-permissions-dropdown.png)
 
    Afhankelijk van het geselecteerde object zijn er verschillende geavanceerde opties voor weergave en beheer.\
    Voor meer informatie over de toestemmingsniveaus, zie [ Overzicht van het delen van toestemmingen op voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-1. (Facultatief) om dit voorwerp ter beschikking te stellen van alle gebruikers in het systeem, klik **het pictogram van het Verraad** ![](assets/gear-icon-settings-with-dn-arrow.jpg), dan in het drop-down menu klikt **maakt dit zichtbare systeem-breed**.
+1. (Facultatief) om dit voorwerp beschikbaar te maken aan alle gebruikers in het systeem, klik **wie toegang** heeft drop-down menu en **iedereen in het systeem kan** bekijken.
 
    Alle gebruikers kunnen het object zien op basis van de machtigingen die u instelt.
 
-1. (Facultatief) om het voorwerp openbaar te maken, klik **maak dit openbaar aan externe gebruikers**.
+1. (Facultatief) om het voorwerp openbaar te maken, klik de vistuiginterface, dan laat **dit openbaar maken aan externe gebruikers** toe.
 
    >[!TIP]
    >
    >Deze optie is niet beschikbaar voor alle objecten.
 
-   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png){width="350"}
+   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png)
 
 1. (Voorwaardelijk) als u het voorwerp aan externe gebruikers openbaar maakte, klik **exemplaarverbinding**, dan verdeel de verbinding aan externe gebruikers.
 
@@ -261,7 +259,6 @@ U moet het volgende hebben om objecten te delen:
 
 1. In **geef &lt; de Naam van Objecten > toegang voor** doos uit, begin typend de naam van de gebruiker, het team, de rol, de groep, of het bedrijf met wie u de voorwerpen wilt delen, dan klik de naam wanneer het in de drop-down lijst verschijnt.
 
-   ![](assets/list-share-add-people.png){width="350"}
 
    >[!TIP]
    >
@@ -273,11 +270,10 @@ U moet het volgende hebben om objecten te delen:
 
 1. (Optioneel) Herhaal stap 3 voor elke gebruiker, team, rol of groep aan wie u toegang wilt verlenen tot de objecten.
 
-1. Specificeer de toestemmingen voor elke gebruiker, het team, de rol, de groep, of het bedrijf die u in Stap 3 toevoegde door het drop-down menu rechts van hun naam te klikken, dan het toestemmingsniveau te selecteren dat u wilt verlenen.
+1. Specificeer de toestemmingen voor elke gebruiker, team, rol, groep, of bedrijf die u in Stap toevoegde.
 
    Voor het verwijderen van toestemmingen uit een voorwerp, zie [ toestemmingen uit voorwerpen ](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md) verwijderen.
 
-   ![](assets/screen-shot-2013-12-04-at-1.13.11-pm.png)
 
    De volgende opties zijn beschikbaar:
 
@@ -299,12 +295,12 @@ U moet het volgende hebben om objecten te delen:
      >
      >De Workfront-beheerder of de maker van het object kan machtigingen van deze entiteiten verwijderen.
 
-1. (Facultatief) klik **Geavanceerde Montages** om specifieke toestemmingen op het voorwerp te vormen.
+1. (Optioneel) Klik op het pictogram Geavanceerde opties naast het machtigingsniveau dat u hebt toegekend om specifieke machtigingen voor het object te configureren.
+
+   ![](assets/new-share-advanced-permissions-dropdown.png)
 
    Afhankelijk van het geselecteerde object zijn er verschillende geavanceerde opties voor weergave, beheer en Contribute.\
    Voor meer informatie over de toestemmingsniveaus, zie [ Overzicht van het delen van toestemmingen op voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
-
-   ![](assets/screen-shot-2013-12-04-at-1.14.11-pm.png)
 
 1. (Facultatief) om dit voorwerp ter beschikking te stellen van alle gebruikers in het systeem, klik **het pictogram van het Verraad** ![](assets/gear-icon-settings-with-dn-arrow.jpg), dan in het drop-down menu klikt **maakt dit zichtbare systeem-breed**.
 

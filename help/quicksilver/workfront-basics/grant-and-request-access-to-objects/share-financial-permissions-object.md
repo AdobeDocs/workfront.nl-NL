@@ -6,16 +6,14 @@ description: Uw Adobe Workfront-beheerder kan u toegang verlenen tot financiële
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '565'
 ht-degree: 0%
 
 ---
 
 # Financiële machtigingen delen op een object
-
-{{highlighted-preview}}
 
 Uw Adobe Workfront-beheerder kan u toegang verlenen tot financiële gegevens wanneer u uw toegangsniveau toewijst. Voor meer informatie, zie [ toegang van de Verlening tot financiële gegevens ](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
@@ -54,6 +52,8 @@ Voor informatie over welke gebruikers in elk toegangsniveau met financiële gege
  </tbody> 
 </table>
 -->
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 U moet de volgende opties hebben om financiële gegevens over objecten te kunnen delen:
 
 <table style="table-layout:auto"> 
@@ -81,11 +81,13 @@ U moet de volgende opties hebben om financiële gegevens over objecten te kunnen
 
 &#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
++++
+
 ## Een object delen en financiële machtigingen verlenen
 
 Houd rekening met het volgende wanneer u financiële machtigingen toekent aan objecten:
 
-* U kunt financiële toestemmingen aan projecten, taken, kwesties, <span class="preview"> en tariefkaarten </span> verlenen.
+* U kunt financiële toestemmingen aan projecten, taken, en kwesties verlenen.
 * De toestemmingen kunnen worden geërft: als u de toestemmingen van de Financiën van de Mening aan een project hebt, erft u automatisch de toestemmingen van de Financiën van de Mening aan de taken en de kwesties op het project.
 
 Financiële machtigingen verlenen aan een object:
@@ -104,8 +106,6 @@ Financiële machtigingen verlenen aan een object:
    * **Mening het**
    * **draagt aan het bij**
    * **leidt het**
-
-     ![](assets/12.png)      ![](assets/13.png) ![](assets/14.png)
 
 1. In het zelfde drop-down menu, klik **Geavanceerde Montages**, dan doe één van het volgende:
 
@@ -156,18 +156,6 @@ In de volgende tabel wordt weergegeven welke financiële machtigingen gebruikers
    <td>✓</td> 
    <td> ✓</td> 
   </tr> 
-  <tr> 
-   <td><span class="preview">Creditcards beheren</span></td> 
-   <td>✓</td> 
-   <td> <p> </p> </td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td><span class="preview">Creditcards bekijken</span></td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td> ✓</td> 
-  </tr>
   <tr> 
    <td>De informatie van de mening door Kosten in de hulpmiddelen van de Planning van het Middel</td> 
    <td>✓</td> 

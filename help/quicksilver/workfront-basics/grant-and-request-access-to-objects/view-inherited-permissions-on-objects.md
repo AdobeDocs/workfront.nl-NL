@@ -6,9 +6,9 @@ description: Uw Adobe Workfront-beheerder kan u toegang verlenen tot weergave- o
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7025f097-ea99-41bf-965e-617b0f532ff7
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: 871117ddb06af6d37448c683a259ccc7e708930c
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -55,6 +55,8 @@ Voor informatie over de hiërarchie van voorwerpen in Workfront, zie [ voorwerpe
 </table>
 -->
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet het volgende hebben:
 
 <table style="table-layout:auto"> 
@@ -81,6 +83,8 @@ U moet het volgende hebben:
 </table>
 
 &#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+
++++
 
 ## Overerfde machtigingen voor een object weergeven
 

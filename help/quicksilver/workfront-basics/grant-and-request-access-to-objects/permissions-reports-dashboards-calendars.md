@@ -7,7 +7,7 @@ description: Uw Adobe Workfront-beheerder verleent gebruikers toegang tot rappor
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2dac54b-6506-41b0-a7f2-6fafab12c2d1
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 0%
@@ -54,12 +54,7 @@ Naast de overwegingen hieronder, zie ook [ Overzicht van het delen van toestemmi
 * U kunt de volgende toestemmingen aan rapporten, dashboards, en kalenders verlenen:
 
    * Weergave
-
-     ![](assets/screen-shot-2014-01-22-at-10.19.55-am.png)
-
    * Beheren
-
-     ![](assets/screen-shot-2014-01-22-at-10.20.13-am.png)
 
 * Wanneer u een dashboard deelt, hebben de gebruikers de toestemmingen van de Mening door gebrek aan alle rapporten, kalenders, en externe pagina&#39;s op het dashboard.
 * Gebruikers met een aanvraaglicentie kunnen geen systeembreed rapport weergeven. Een rapport moet individueel met de Aanvragers worden gedeeld als zij het moeten bekijken.

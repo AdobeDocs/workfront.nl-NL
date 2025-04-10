@@ -6,9 +6,9 @@ description: U kunt een map en de inhoud ervan delen vanuit het gebied Documente
 author: Alina
 feature: Get Started with Workfront
 exl-id: c0d318a8-b1cf-4522-b478-acf092687658
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: 842c61cf6dfee0c79b1c95ff84888083c9f5b5a4
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '914'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,7 @@ U kunt een map en de inhoud ervan delen vanuit het gebied Documenten.
  </tbody> 
 </table>
 -->
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -88,6 +89,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 &#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+
++++
 
 ## Een map delen
 

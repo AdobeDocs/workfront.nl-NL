@@ -5,7 +5,7 @@ author: Alina
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 79643202-2d91-4028-b673-c3443b50d898
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 0%
@@ -32,12 +32,10 @@ Naast de overwegingen hieronder, zie ook [ Overzicht van het delen van toestemmi
 * U kunt een portfolio afzonderlijk delen, maar u kunt ook meerdere portfolio&#39;s tegelijk delen. Een portfolio delen is hetzelfde als andere objecten delen in Workfront. Voor informatie, zie [ een voorwerp ](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md) delen.
 
 * U kunt alleen weergave- of beheermachtigingen voor portfolio&#39;s verlenen.
-
-  ![](assets/screen-shot-2014-01-23-at-12.45.15-pm.png)    ![](assets/screen-shot-2014-01-22-at-10.03.43-am-190x167.png)
-
+</span>
 * Wanneer u een portfolio deelt, nemen gebruikers standaard dezelfde machtigingen over voor alle onderliggende objecten die aan het portfolio zijn gekoppeld.
 
-  Voor meer informatie over de hiërarchie van voorwerpen in Workfront, zie [ voorwerpen in Adobe Workfront ](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) begrijpen.
+Voor meer informatie over de hiërarchie van voorwerpen in Workfront, zie [ voorwerpen in Adobe Workfront ](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) begrijpen.
 
 * U kunt overgeërfde machtigingen verwijderen uit de Portfolio. Voor meer informatie over het verwijderen van toestemmingen uit voorwerpen, zie [ toestemmingen uit voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md) verwijderen.
 

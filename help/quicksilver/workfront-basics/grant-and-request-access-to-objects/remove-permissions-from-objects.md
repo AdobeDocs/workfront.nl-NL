@@ -6,9 +6,9 @@ description: U kunt machtigingen van andere gebruikers verwijderen voor objecten
 author: Alina
 feature: Get Started with Workfront
 exl-id: 8e191b5e-31df-4291-8b9d-9ca69be27561
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: ce7b475dbd11f9cfd7fcf9879c0f34bf993f9113
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '825'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,9 @@ U kunt machtigingen van andere gebruikers verwijderen voor objecten die u toegan
 Gelijkaardige overwegingen zoals voor het delen van voorwerpen zijn van toepassing voor het verwijderen van toestemmingen uit voorwerpen. Voor meer informatie, zie de sectie [ Overwegingen over het delen van voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#consider) in het artikel [ Overzicht van het delen van toestemmingen op voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 
 U moet het volgende hebben om objecten te delen:
 
@@ -60,6 +63,8 @@ U moet het volgende hebben om objecten te delen:
 
 *Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt. Voor meer informatie, zie [ vereisten van de Toegang voor de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## Entiteiten verwijderen uit de lijst voor delen van een object {#remove-entities-from-the-sharing-list-of-an-object}
 
 U kunt entiteiten (gebruikers, taakrollen, teams, groepen, bedrijven) verwijderen uit de lijst voor gedeeld gebruik van een object. Hierdoor worden hun machtigingen voor het object verwijderd.
@@ -70,26 +75,26 @@ U kunt entiteiten (gebruikers, taakrollen, teams, groepen, bedrijven) verwijdere
 
 1. (Voorwaardelijk) Ga als volgt te werk voor programma&#39;s, portfolio&#39;s en documenten:
 
-   1. Klik het **Meer** pictogram ![](assets/more-icon.png) naast de objecten naam, dan klik **het Delen** of **Aandeel.**
+   1. Klik het **Meer** pictogram ![ meer pictogram ](assets/more-icon.png) naast de objecten naam, dan klik **het Delen** of **Aandeel.**
 
-      ![](assets/share-a-document-350x160.png)
+      ![ aandeel ](assets/share-a-document-350x160.png)
 
    1. Klik **x** naast de naam van een gebruiker, team, groep, bedrijf, baanrol om hen in de doos van de objecten toegang te verwijderen.
 
-      ![](assets/remove-permissions-on-portfolio.png)
+      ![ verwijdert toestemming ](assets/remove-permissions-on-portfolio.png)
 
-   1. In **&lt; de toegang van de Naam van de Gebruiker > van Workfront zal uit dit** drop-down menu worden verwijderd, selecteer of u hun toegang wilt worden verwijderd enkel uit het voorwerp u, of uit alle kindvoorwerpen verbonden aan het hebt geselecteerd.
+   1. In de **[toegang van Workfront van de Naam van de Gebruiker ] zal van dit** drop-down menu worden verwijderd, selecteer of u hun toegang enkel uit het voorwerp wilt worden verwijderd u, of van alle kindvoorwerpen verbonden aan het hebt geselecteerd.
 
 1. (Voorwaardelijk) Ga als volgt te werk voor projecten, taken en problemen:
 
    1. Klik **Aandeel** aan het recht van de naam van het voorwerp.
 
-      ![](assets/new-share-button.png)
+      ![ aandeel ](assets/new-share-button.png)
    1. Zoek de gebruiker, de rol, het team, de groep, of het bedrijf u uit het voorwerp wilt verwijderen.
    1. Klik **verwijderen**.
 In **verwijder &lt; Naam van de Gebruiker > van** drop-down menu, selecteer of u hun toegang enkel uit het voorwerp wilt worden verwijderd u, of uit alle kindvoorwerpen verbonden aan het hebt geselecteerd.
 
-      ![](assets/remove-permissions-on-project-nwe-350x479.png)
+      ![ verwijder ](assets/remove-permissions-on-project-nwe-350x479.png)
 
    De volgende scenario&#39;s bestaan:
 
@@ -98,39 +103,42 @@ In **verwijder &lt; Naam van de Gebruiker > van** drop-down menu, selecteer of u
 
 1. Klik **sparen**.
 
-## Rechten van meerdere objecten bulksgewijs verwijderen
+<!--
+## Remove permissions from several objects in bulk
 
-U kunt entiteiten (gebruikers, taakrollen, teams, groepen, bedrijven) uit verscheidene voorwerpen verwijderen tegelijkertijd wanneer u hen in een lijst in bulk selecteert.
+You can remove entities (users, job roles, teams, groups, companies) from several objects at a time when you bulk select them in a list.
 
 >[!NOTE]
 >
->U kunt niet bekijken wat de toegangsentiteiten voor alle geselecteerde voorwerpen hebben wanneer u hen in massa selecteert. Voordat u de machtigingen verwijdert, moet u weten welke entiteit u uit het delen van de geselecteerde objecten wilt verwijderen.
+>You cannot view what access entities have for all the objects selected when you select them in bulk. You must know which entity you want to remove from the sharing of the objects selected before removing their permissions.
 
-1. Ga naar de lijst met objecten die u wilt delen.
+1. Go to the list of objects that you want to share.
 
-   Voor informatie over welke voorwerpen kunnen worden gedeeld, zie [ Overzicht van het delen van toestemmingen op voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+   For information about which objects can be shared, see [Overview of sharing permissions on objects](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-1. Selecteer verscheidene voorwerpen in de lijst, dan klik het **pictogram van het Aandeel** ![](assets/share-icon.png) bij de bovenkant van de lijst.
-1. Typ de naam van de gebruiker, de rol, het team, de groep, of het bedrijf waarvoor u de toegang in **wilt verwijderen geeft `<Object Name>` toegang tot** gebied uit.
-1. Van het toegangsdrop-down menu, uitgezochte **Geen Toegang**.
+1. Select several objects in the list, then click the **Share** icon ![share icon](assets/share-icon.png)at the top of the list. 
+1. Type the name of the user, role, team, group, or company for which you want to remove the access in the **Edit `<Object Name>` access to** field. 
+1. From the access drop-down menu, select **No Access**.
 
-   ![](assets/no-access-option-removing-permissions-bulk-tasks-nwe-350x166.png)
+   ![remove in bulk](assets/no-access-option-removing-permissions-bulk-tasks-nwe-350x166.png)
 
-1. In de Workfront van `<User Name>` wordt de toegang verwijderd uit dit drop-down menu, selecteer of u hun toegang wilt worden verwijderd enkel uit de voorwerpen die u hebt geselecteerd, of uit alle andere kindvoorwerpen verbonden aan het.\
-   De volgende scenario&#39;s bestaan:
+1. In the `<User Name>`'s Workfront access will be removed from this drop-down menu, select whether you want their access to be removed just from the objects that you have selected, or from all other children objects associated with it.  
+   The following scenarios exist:
 
-   * Als u de entiteit alleen uit het object verwijdert, verliest die entiteit haar machtigingen voor het object en de overgeërfde machtigingen voor de onderliggende objecten. Als ze eerder machtigingen hadden gekregen voor de onderliggende items afzonderlijk, behouden ze dezelfde machtigingen voor alle onderliggende objecten die eraan zijn gekoppeld wanneer u deze optie selecteert. 
-   * Als u de entiteit van het voorwerp en alle kindvoorwerpen verwijdert, verliest die entiteit hun toestemmingen aan het voorwerp evenals alle kindvoorwerpen, zelfs toen zij eerder individuele toestemming op elk kindvoorwerp werden verleend.
+   * If you remove the entity only from the object, that entity loses their permissions on the object, and their inherited permissions to the children objects. If they were previously granted permissions to the children items individually, they retain the same permissions on all children objects associated with it when you select this option.&nbsp;
+   * If you remove the entity from the object and all the children objects, that entity loses their permissions to the object as well as all children objects, even when they were previously given individual permission on each child object.
 
-   **Voorbeeld:** selecteer of om toestemmingen aan enkel de taken te verwijderen u in een lijst selecteerde, of aan de kwesties en de documenten in bijlage aan de taken eveneens.
+   **Example:** Select whether to remove permissions to just the tasks you selected in a list, or to the issues and documents attached to the tasks as well.
 
-   ![](assets/remove-permissions-bulk-drop-down-for-attached-objects-nwe-350x96.png)
+   ![access](assets/remove-permissions-bulk-drop-down-for-attached-objects-nwe-350x96.png)
 
-1. (Optioneel) Als u machtigingen in bulk wilt wijzigen voor meerdere objecten, selecteert u een ander niveau voor delen voor de geselecteerde entiteit.
+1. (Optional) To change permissions in bulk for several objects, select another level of sharing for the selected entity.
 
-   Als ze bijvoorbeeld beheermachtigingen hebben, selecteert u Contribute of Weergeven.
+   For example, if they have Manage permissions, select Contribute or View instead. 
 
-1. Klik **sparen**.
+1. Click **Save**.
+
+-->
 
 ## Overerfde machtigingen verwijderen
 
@@ -144,11 +152,9 @@ Overerfde machtigingen verwijderen:
 
 1. Ga naar een object waarvoor u beheerdersmachtigingen hebt. Ga bijvoorbeeld naar een taak.
 1. Ga naar het vakje van de objecten toegang zoals die in [ wordt beschreven verwijdert entiteiten uit de het delen lijst van een voorwerp ](#remove-entities-from-the-sharing-list-of-an-object) sectie in dit artikel.
-1. Selecteer **x** naast **Geërfte Toestemming** op de het delen doos om iedereen te verwijderen die daar wordt vermeld.
+1. Selecteer **Draai van** naast **Geërfte Toestemming** om onbruikbaar te maken.
 
-   ![](assets/remove-inherited-permissions-on-project-nwe-350x475.png)
-
-   Dit zorgt ervoor dat niemand die toestemmingen aan het oudervoorwerp (bijvoorbeeld, het project) wordt verleend toestemmingen aan deze taak door gebrek heeft. Je moet een lijst maken  afzonderlijke entiteiten in de lijst voor gedeeld gebruik van de taak om machtigingen te verlenen voor de taak.
+   Dit zorgt ervoor dat niemand die toestemmingen aan het oudervoorwerp (bijvoorbeeld, het project) wordt verleend toestemmingen aan deze taak door gebrek heeft. U moet afzonderlijke entiteiten weergeven in de lijst voor gedeeld gebruik van de taak om machtigingen voor de taak te verlenen.
 
    >[!TIP]
    >
@@ -168,8 +174,8 @@ Een object privé maken:
    Navigeer bijvoorbeeld naar een rapport.
 1. Klik **Acties van het Rapport**, dan **het Delen**.
 
-   ![](assets/report-permissions-make-private-nwe-350x477.png)
+   ![ maak privé ](assets/report-permissions-make-private-nwe-350x477.png)
 
-1. Klik **verwijderen openbare toegang** om de toegang van externe gebruikers te verwijderen om het rapport te bekijken.
-1. Klik **verwijderen systeembrede toegang** ophouden delend het met alle gebruikers van Workfront. 
+1. Klik het tandwielpictogram, dan uncheck **maak dit openbaar aan externe gebruikers**.
+1. In **wie toegang** drop-down menu heeft, klik **slechts uitgenodigde mensen kunnen tot** toegang hebben ophouden delend het met alle gebruikers van Workfront.
 1. Klik **sparen**.
