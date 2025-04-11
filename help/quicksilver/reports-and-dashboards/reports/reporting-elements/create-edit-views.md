@@ -6,9 +6,9 @@ description: U kunt het type informatie aanpassen dat u op het scherm weergeeft 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 4ab3915651e664d97c368a6b650b0d0cb0a1593c
+source-git-commit: d98998627ac5161fd12bb2d86f65555550c82a48
 workflow-type: tm+mt
-source-wordcount: '1713'
+source-wordcount: '1721'
 ht-degree: 0%
 
 ---
@@ -89,8 +89,7 @@ Klik **uitgeven** pictogram ![ geeft pictogram ](assets/edit-icon.png) uit dat o
    * Voeg een kolom toe door **te klikken voeg Kolom** toe, begin typend de naam van de kolom die u wilt toevoegen, dan het klikken wanneer het in de drop-down lijst verschijnt.
    * Pas de volgorde van de kolommen aan door de kolomtitel naar een nieuwe locatie te slepen.
 
-   * In het **gebied van de Montages van de Kolom**, klik **vat deze kolom door** samen en kies hoe u de gegevens in de kolom wilt tonen:
-
+   * In het **gebied van de Montages van de Kolom**, klik **vat deze kolom door** samen, en kies hoe u de gegevens in de kolom wilt tonen. Deze optie is beschikbaar voor de volgende kolomtypen:
      <table style="table-layout:auto"> 
          <col> 
          <col> 
@@ -124,9 +123,9 @@ Klik **uitgeven** pictogram ![ geeft pictogram ](assets/edit-icon.png) uit dat o
      >
      >De volgende uitzonderingen zijn van toepassing op bovenliggende objecten (bijvoorbeeld bovenliggende taken) wanneer u waarden samenvat voor de volgende velden in groepen:
      >   
-     > * Alle getallen en valutavelden behalve Werkelijke uren (bijvoorbeeld Geplande/Werkelijke loonkosten, Geplande/Werkelijke kosten, Geplande/Werkelijke kosten, Geplande/Geplande uren) tellen alleen de waarden voor de kindertaken en standalone taken samen. De waarden voor de bovenliggende taken of ouders van ouders worden niet samengevoegd.
-     > * Werkelijke uren tellen de waarden voor de hoofdbovenliggende en zelfstandige taken samen; ze tellen de getallen voor de bovenliggende taken of de onderliggende taken niet samen.
-     > * Aangepaste gegevensvelden voor getal- en valutawaarden bevatten alle taken: ouders, kinderen, ouders van ouders en zelfstandige taken.
+     > * In alle velden voor getallen en valuta&#39;s, met uitzondering van werkelijke uren (bijvoorbeeld geplande/werkelijke loonkosten, geplande/werkelijke kosten, geplande/werkelijke kosten, geplande uren) wordt een overzicht gegeven van de waarden voor alleen kindertaken en zelfstandige taken. Zij vatten de waarden voor de oudertaken of de ouders van ouders niet samen.
+     > * Werkelijke uren geeft een overzicht van de waarden voor de hoofdbovenliggende taken en de zelfstandige taken; deze geven geen overzicht van de getallen voor de bovenliggende taken of de onderliggende taken.
+     > * De gegevensgebieden van de douane voor aantal en muntwaarden vatten alle taken samen: ouders, kinderen, ouders van ouders, en standalone taken.
      >
      >Voor meer informatie over het gebruiken van groeperingen in een rapport, zie het artikel [ overzicht van Groepen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
