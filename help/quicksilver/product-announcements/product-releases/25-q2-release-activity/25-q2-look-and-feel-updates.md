@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: 69f9797b5427a5dd72b7b8531cd5aa41013b3d5d
+source-git-commit: 0d746db3b3665b288b4724c346a02d3f459fc365
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '863'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,33 @@ ht-degree: 0%
 Deze pagina beschrijft kleine updates van de blik en het gevoel van diverse gebieden van de toepassing van Adobe Workfront die binnen het tweede Kwartaal 2025 releasetijdschema werden gemaakt.
 
 Voor een lijst van alle veranderingen beschikbaar met het Tweede Kwartaal 2025 versie, zie [ Tweede Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
+
+## De update van het Google Drive-dialoogvenster voor documentintegratie bekijken en weergeven
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 26 maart 2025; Productieversie voor alle klanten: met 25.4 release (10 april 2025)
+
+We hebben de look-and-feel bijgewerkt wanneer u de integratie van Google Drive-documenten gebruikt om een nieuwe versie van een document te maken. Deze update zorgt ervoor dat het dialoogvenster Versie > Vanaf Google Drive gelijk is aan het dialoogvenster Nieuw toevoegen > Vanaf Google Drive.
+
+Eerder had u de optie om te kiezen van Mijn Aandrijving of een Gedeelde Aandrijving als uw rekening met werd geassocieerd. Het dialoogvenster gaat nu rechtstreeks naar het gedeelte Mijn schijf van uw Google Drive.
+
++++ Uitbreiden om deze wijziging weer te geven
+
+<table>
+ <thead>
+    <tr>
+        <th>Vorige</th>
+        <th>Nieuw</th>
+    </tr>
+  </thead>
+ <tr>
+        <td><img src="assets/legacy-add.png" alt="document toevoegen met integratie met Google Drive"></td>
+         <td><img src="assets/new-add.png" alt="document toevoegen met integratie met Google Drive"></td>
+    </tr>
+</table>
+
++++
 
 ## De bijgewerkte ervaring in het gebied van Niveaus van de Toegang in Opstelling
 

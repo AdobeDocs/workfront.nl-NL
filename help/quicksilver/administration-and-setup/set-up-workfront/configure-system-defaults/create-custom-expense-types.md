@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
-source-git-commit: ff4a9b317bd75b298a7a39814b4ae265c92c6d2a
+source-git-commit: 428e6a9365c793ce5944941ec5368a674c208c78
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 0%
+source-wordcount: '366'
+ht-degree: 1%
 
 ---
 
 # Aangepaste uitgaventypen maken
-
-{{highlighted-preview}}
 
 <!--**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -108,7 +106,7 @@ De standaarduitgaventypen in [!DNL Workfront] die niet kunnen worden verwijderd 
     </tbody> 
    </table>
 
-1. Klik **creëren het Type van Uitgaven** <span class="preview"> of **[!UICONTROL Save]**.</span>
+1. Klik op **[!UICONTROL Save]**.
 
    Het uitgaventype is nu beschikbaar voor gebruikers om het met hun uitgaven op projecten en taken te associëren.
 
@@ -121,7 +119,7 @@ De standaarduitgaventypen in [!DNL Workfront] die niet kunnen worden verwijderd 
 
    Het dialoogvenster **[!UICONTROL Edit Expense Type]** wordt weergegeven.
 
-1. Breng uw gewenste veranderingen aan, dan klik **sparen Veranderingen** <span class="preview"> of **[!UICONTROL Save]**.</span>
+1. Breng de gewenste wijzigingen aan en klik op **[!UICONTROL Save]** .
 
    Het uitgaventype is nu beschikbaar voor gebruikers om het met hun uitgaven op projecten en taken te associëren.
 

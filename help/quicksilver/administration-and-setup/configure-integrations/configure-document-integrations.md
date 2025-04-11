@@ -8,9 +8,9 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: 04bdfbdf1fa05082fe12c2ab239e861a6db4ee6e
+source-git-commit: 5ff071a6e0af93f5280225355edad1d0dde42b3f
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '1037'
 ht-degree: 0%
 
 ---
@@ -246,3 +246,8 @@ U configureert als volgt [!DNL Workfront] om metagegevens naar [!DNL Workfront D
 1. Klik op **[!UICONTROL Delete]**.
 
    De velden worden verwijderd uit de metagegevenstoewijzing en de informatie in deze velden wordt niet samen met de geüploade documenten overgebracht naar [!DNL Workfront DAM] .
+
+
+## Beperkingen
+
+* De integratie van Google Drive-documenten ondersteunt het toevoegen van mappen en afbeeldingen vanuit het gebied Mijn schijf van uw Google Drive. U kunt geen mappen of afbeeldingen toevoegen vanaf een gedeeld station. Leer meer over [ Google Gedeelde aandrijving ](https://support.google.com/a/users/answer/7212025?hl=en).
