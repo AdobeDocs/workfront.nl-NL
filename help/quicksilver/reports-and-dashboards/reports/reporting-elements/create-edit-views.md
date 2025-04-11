@@ -6,9 +6,9 @@ description: U kunt het type informatie aanpassen dat u op het scherm weergeeft 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: 4ab3915651e664d97c368a6b650b0d0cb0a1593c
 workflow-type: tm+mt
-source-wordcount: '1731'
+source-wordcount: '1713'
 ht-degree: 0%
 
 ---
@@ -89,31 +89,46 @@ Klik **uitgeven** pictogram ![ geeft pictogram ](assets/edit-icon.png) uit dat o
    * Voeg een kolom toe door **te klikken voeg Kolom** toe, begin typend de naam van de kolom die u wilt toevoegen, dan het klikken wanneer het in de drop-down lijst verschijnt.
    * Pas de volgorde van de kolommen aan door de kolomtitel naar een nieuwe locatie te slepen.
 
-      * (Facultatief) in het **gebied van de Montages van de Kolom**, klik **vat deze kolom door** drop-down lijst samen, dan selecteer één van de beschikbare opties om de informatie samen te vatten. Wanneer u deze optie kiest, wordt de informatie in uw kolom samengevoegd in de groepen van het rapport.\
-        Voor datumvelden kunt u de waarden als volgt samenvatten:
+   * In het **gebied van de Montages van de Kolom**, klik **vat deze kolom door** samen en kies hoe u de gegevens in de kolom wilt tonen:
 
-         * Maximum
-         * Minimaal
+     <table style="table-layout:auto"> 
+         <col> 
+         <col> 
+         <tbody> 
+          <tr> 
+           <td role="rowheader"><strong>Datumvelden</strong></td> 
+           <td><ul>
+           <li>Maximum</li>
+         <li>Minimaal</li>
+           </ul></td> 
+          </tr> 
+          <tr>
+           <td role="rowheader"><strong>Valutamarkten</strong></td> 
+           <td><ul>
+           <li>Aantal</li>
+         <li>Som</li>
+           <li>Gemiddeld</li>
+         <li>Maximum</li>
+           <li>Minimaal</li>
+         </ul></td> 
+          </tr> 
+         <tr>
+           <td role="rowheader"><strong>Tekenreeks- en Booleaanse velden</strong></td> 
+           <td><ul><li>Aantal</li></ul>
+           <p>Opmerking: Workfront raadt doorgaans niet aan een booleaans veld op aantal samen te vatten, omdat de waarde altijd true/false is.</p></td> 
+          </tr> 
+         </tbody> 
+        </table>
 
-        Voor getal- en valutavelden kunt u de waarden als volgt samenvatten:
-
-         * Aantal
-         * Som
-         * Gemiddeld
-         * Maximum
-         * Minimaal
-
-        >[!NOTE]
-        >
-        >De volgende uitzonderingen zijn van toepassing op bovenliggende objecten (bijvoorbeeld bovenliggende taken) wanneer u waarden samenvoegt voor de volgende velden in groepen:
-        >   
-        >   * Alle getallen en valutavelden behalve Werkelijke uren (bijvoorbeeld Geplande/Werkelijke loonkosten, Geplande/Werkelijke kosten, Geplande/Werkelijke kosten, Geplande/Geplande uren) tellen alleen de waarden voor de kindertaken en standalone taken samen. De waarden voor de bovenliggende taken of ouders van ouders worden niet samengevoegd.
-        >   * Werkelijke uren tellen de waarden voor de hoofdbovenliggende en zelfstandige taken samen; ze tellen de getallen voor de bovenliggende taken of de onderliggende taken niet samen.
-        >   * Aangepaste gegevensvelden voor getal- en valutawaarden bevatten alle taken: ouders, kinderen, ouders van ouders en zelfstandige taken.
-        >   
-        >
-
-        Voor meer informatie over het gebruiken van groeperingen in een rapport, zie het artikel [ overzicht van Groepen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+     >[!NOTE]
+     >
+     >De volgende uitzonderingen zijn van toepassing op bovenliggende objecten (bijvoorbeeld bovenliggende taken) wanneer u waarden samenvat voor de volgende velden in groepen:
+     >   
+     > * Alle getallen en valutavelden behalve Werkelijke uren (bijvoorbeeld Geplande/Werkelijke loonkosten, Geplande/Werkelijke kosten, Geplande/Werkelijke kosten, Geplande/Geplande uren) tellen alleen de waarden voor de kindertaken en standalone taken samen. De waarden voor de bovenliggende taken of ouders van ouders worden niet samengevoegd.
+     > * Werkelijke uren tellen de waarden voor de hoofdbovenliggende en zelfstandige taken samen; ze tellen de getallen voor de bovenliggende taken of de onderliggende taken niet samen.
+     > * Aangepaste gegevensvelden voor getal- en valutawaarden bevatten alle taken: ouders, kinderen, ouders van ouders en zelfstandige taken.
+     >
+     >Voor meer informatie over het gebruiken van groeperingen in een rapport, zie het artikel [ overzicht van Groepen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
       * (Facultatief) klik **Geavanceerde Opties** om de volgende informatie voor de kolom te specificeren:
 

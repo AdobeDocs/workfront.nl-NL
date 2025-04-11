@@ -8,16 +8,14 @@ author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: e8badce6-86f5-416c-a238-f9b7f19cdd2d
-source-git-commit: f9ebf647c7672a9d471288806cf596d103007613
+source-git-commit: 486b672a67c62b86f3306c9375a286895c2fae01
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '728'
 ht-degree: 0%
 
 ---
 
 # Documenten bulksgewijs bewerken
-
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Sandbox van de Voorproef.</span>
 
 U kunt de beschrijving bewerken, aangepaste formulieren toevoegen en aangepaste formulieren in meerdere documenten tegelijk bewerken.
 
@@ -97,7 +95,6 @@ Documenten in bulk bewerken:
     </table>
 1. Klik **sparen**.
 
-<span class="preview">
 
 ## Documenten in bulk bewerken in een documentrapport
 
@@ -125,5 +122,3 @@ Creeer een documentrapport zoals die in [ wordt beschreven een douanerapport ](/
     </tr>
     </table>
 1. Klik **sparen**.
-
-</span>
