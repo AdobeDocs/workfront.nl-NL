@@ -6,9 +6,9 @@ description: Overzicht van de systemen die beschikbaar zijn voor controle en goe
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
+source-git-commit: 97821d0fa97e8ba18e63b7e4156e06563e148a3d
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ Belangrijke functies beschikbaar voor goedkeuringen van oudere documenten:
 * Reviseren en opmerkingen toevoegen in de proefdrukviewer
 * Besluiten nemen in de proefdrukviewer
 * Goedkeuringsrapporten maken met oudere rapporten
+* De goedkeuringsaanvragen voor toegang zijn beschikbaar in de widget Mijn goedkeuringen in het gebied Home
 
 Voor meer informatie, zie [ Goedkeuringen van het document van de Oudheid ](/help/quicksilver/review-and-approve-work/manage-approvals/approval-process-in-workfront.md#document-approval-processes).
 
@@ -58,9 +59,11 @@ Voor meer informatie over het gebruiken van de het proeven kijker, zie [ Verenig
 * De Dashboards van het Canvas van het gebruik, momenteel in bèta, om rapportdetails over Verenigde Goedkeuringen te bekijken
 Voor meer informatie bij het melden, zie [ een rapportdashboard voor overzicht en goedkeuringen ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) creëren.
 
-* Besluiten in de het proefKijker [!BADGE  die spoedig ]{type=Informative} komt
+* Besluiten in de het proefKijker [!BADGE  die spoedig ] komt{type=Informative}
 
 * Creeer veelvoudige stadium goedkeuringen [!BADGE  Binnenkort ]{type=Informative}
+
+* De het overzicht en goedkeuringsverzoeken van de toegang in Mijn Goedkeuringen widget in het gebied van het Huis
 
 
 ## Goedkeuringen van proefdrukken
@@ -84,6 +87,8 @@ Beschikbare functies voor proefdrukken:
 * Meerdere werkgebiedgoedkeuringen maken
 
 * Standaard of geautomatiseerde workflows gebruiken
+
+* De goedkeuringsaanvragen voor toegang zijn beschikbaar in de widget Mijn goedkeuringen in het gebied Home
 
 <!--
 ## Upcoming deprecations
