@@ -6,9 +6,9 @@ description: U kunt kalenderrapporten en gebeurtenisdetails bekijken die u creee
 author: Lisa
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: eebece1ba576d9c654ac0fd9763ae646ce3be5a5
+source-git-commit: 3e5fdb157a6ff29daf964b505d3a0bf4f9842e88
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '613'
 ht-degree: 0%
 
 ---
@@ -82,8 +82,6 @@ U kunt uit de volgende meningen van het kalenderrapport kiezen:
    * **[!UICONTROL Week]**: geeft een week van de kalender weer
    * **[!UICONTROL Gantt]**: geeft een doorlopende weergave van de kalender weer
 
-     ![[!UICONTROL Gantt] Kalenderrapport ](assets/gantt-calendar-report.png)
-
      U kunt meer gebeurtenissen in een [!UICONTROL Gantt] weergave zien door omlaag of zijwaarts te schuiven. Een ladend symbool verschijnt aangezien de gegevens voor de mening worden bevolkt.
 
    >[!NOTE]
@@ -118,16 +116,5 @@ U kunt de gebeurtenissen weer zichtbaar maken door de [!UICONTROL project] - of 
 
 U kunt de details van een gebeurtenis in een kalender zien, voor zowel huidige als eerdere gebeurtenissen.
 
-1. Ga naar de gebeurtenis waarvoor u de details wilt kennen, en klik dan de gebeurtenis.
-Er wordt een detailpagina voor de gebeurtenis geopend.
-   ![ Kalender_report_EventDetails.png ](assets/calendar-report-eventdetails-350x145.png)
-
-1. (Optioneel) Als u aanvullende details over het object wilt weergeven:
-
-   1. Houd de muisaanwijzer boven het project, de taak of de naam van de uitgave.
-
-      Er wordt een detailpagina voor het object geopend.
-      ![ extra_object_details_-_agenda_report.png ](assets/additional-object-details---calendar-report-350x131.png)
-
-   1. (Optioneel) Klik op de titel van het object om het bijbehorende project, de bijbehorende taak of uitgave te openen.
-   1. (Optioneel) Als u alle geopende detailpagina&#39;s wilt sluiten, klikt u op een willekeurige plaats buiten de pagina met gebeurtenisdetails.
+1. Ga naar de gebeurtenis waarvoor u de details wilt kennen, en klik dan de gebeurtenis. De details worden in een deelvenster aan de rechterkant geopend.
+1. (Optioneel) Klik op de titel van het object om het bijbehorende project, de bijbehorende taak of uitgave te openen.
