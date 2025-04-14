@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 6f69425c811042f9f3e13f3631ba734f8fdcb95f
 workflow-type: tm+mt
-source-wordcount: '1318'
+source-wordcount: '1378'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ U kunt de externe zoekopdracht gebruiken om gegevens van uw Workfront-exemplaar 
 
 ### Native Workfront-veldwaarden gebruiken in de externe zoekopdracht
 
-In dit voorbeeld wordt getoond hoe u de Workfront API aanroept en gegevens uit het bestaande veld Statusquery naar uw externe opzoekveld brengt.
+In dit voorbeeld wordt getoond hoe u de Workfront API aanroept en een lijst met projecten in een extern opzoekveld vult. Deze lijst wordt gefilterd op status met de waarde van het aangepaste veld Statusquery en een zoekterm via $$QUERY.
 
 1. Open het aangepaste formulier.
 1. Op de linkerkant van het scherm, vind **Externe raadpleging** en sleep het aan een sectie op het canvas.
@@ -37,17 +37,17 @@ In dit voorbeeld wordt getoond hoe u de Workfront API aanroept en gegevens uit h
 1. Selecteer het **Formaat** voor het gebied.
 1. Ga de API vraag op het **Basis API URL** gebied in.
 
-   * Als u wilt verwijzen naar hetzelfde exemplaar van Workfront waarin het aangepaste formulier zich bevindt, gebruikt u $$HOST voor de URL.
-   * Voeg $$QUERY toe als u de resultaten wilt filteren op basis van het opvragen van een ander veld.
+   * Gebruik $$HOST om naar hetzelfde exemplaar van Workfront te verwijzen waar het aangepaste formulier zich bevindt.
+   * Gebruik $$QUERY om de resultaten dynamisch te filteren op basis van gebruikersinvoer.
 
-   **Voorbeeld**
-   `$$HOST/attask/api/v15.0/project/search?status={DE:StatusQuery}&$$QUERY`
+   **de vraag van API van het Voorbeeld**
+   `$$HOST/attask/api/v15.0/project/search?status={DE:Status Query}&description=$$QUERY`
 
-1. Herzie **Afhankelijkheden** voor de gebieden dat dit raadplegingsgebied in API van verwijzingen voorziet.
+1. Herzie de **Afhankelijkheden** voor de gebieden die in de API vraag van verwijzingen worden voorzien.
 
-   Een afhankelijkheidsveld kan elk aangepast of native veld zijn dat op de detailpagina van het object bestaat.
+   Een afhankelijkheidsveld kan elk aangepast of native veld zijn dat beschikbaar is voor het object. Als u bijvoorbeeld een aangepast formulier maakt voor groepen die een extern opzoekveld bevatten, kunnen afhankelijkheidsvelden alle velden bevatten die beschikbaar zijn in een groep.
 
-   In dit voorbeeld wordt `{DE:StatusQuery}` vervangen door de waarde van het aangepaste veld StatusQuery.
+   In dit voorbeeld wordt `{DE:Status Query}` dynamisch vervangen door de waarde van het aangepaste veld &quot;Statusquery&quot; voor de huidige groep. Wanneer het formulier dus is gekoppeld aan groep A, wordt `{DE:Status Query}` vervangen door de waarde die is ingesteld in het veld Statusquery voor die groep.
 
 1. Selecteer de **Methode van HTTP**.
 
