@@ -6,7 +6,7 @@ description: U kunt om het even welke taak of kwestie aan een raad toevoegen Kan
 author: Courtney
 feature: Agile
 exl-id: 5f94a451-8530-478f-85c2-41bc15c22dd1
-source-git-commit: f78a86dcdf7b63e98bec5216fb5ab7622775a053
+source-git-commit: c1f5e11c6327ef86bd3f89eb383b3bf06bd4981f
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 0%
@@ -98,4 +98,5 @@ Een taak of uitgave toevoegen aan een [!UICONTROL Kanban] -board vanaf een dashb
    >[!NOTE]
    >
    >Als er meerdere teams zijn toegewezen aan de taak of uitgave, kan het werkitem alleen worden weergegeven op de [!DNL kanban] -board van één team.
+
 1. Klik **toevoegen**.

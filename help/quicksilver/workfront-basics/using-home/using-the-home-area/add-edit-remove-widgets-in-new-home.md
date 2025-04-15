@@ -6,15 +6,17 @@ description: U kunt kiezen uit een aantal widgets om de inhoud aan te passen die
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 81f32dfe-cde0-4e61-a542-9b99a18a3953
-source-git-commit: be7f2b811bf963d31881879655edd4bc634294c5
+source-git-commit: c1f5e11c6327ef86bd3f89eb383b3bf06bd4981f
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1103'
 ht-degree: 0%
 
 ---
 
 
 # Widgets toevoegen, bewerken of verwijderen in Home
+
+<!-- Audited: 4/2025 -->
 
 U kunt kiezen uit een aantal widgets om de inhoud aan te passen die op uw startpagina wordt weergegeven. Deze widgets kunnen worden vergroot of verkleind en opnieuw gerangschikt.
 
@@ -35,15 +37,15 @@ Standaard wordt de startpagina gevuld met specifieke widgets die zijn gebaseerd 
     </tr>
     <tr>
         <td>Licht</td>
-        <td>Mijn werk, in afwachting van mijn goedkeuring</td>
+        <td>Mijn werk, Mijn goedkeuring</td>
     </tr>
     <tr>
         <td>Medewerker</td>
-        <td>Mijn verzoeken, opmerkingen in afwachting van mijn goedkeuring, raden van bestuur</td>
+        <td>Mijn verzoeken, opmerkingen, mijn goedkeuring, raden van bestuur</td>
     </tr>
     <tr>
         <td>Extern</td>
-        <td>In afwachting van mijn goedkeuring</td>
+        <td>Mijn goedkeuring</td>
     </tr>
 </table>
 
@@ -66,7 +68,7 @@ Standaard wordt de startpagina gevuld met specifieke widgets die zijn gebaseerd 
     </tr>
     <tr>
         <td>Verzoek</td>
-        <td>Mijn projecten, in afwachting van mijn goedkeuring</td>
+        <td>Mijn projecten, mijn goedkeuring</td>
     </tr>
     <tr>
         <td>Contribute</td>
@@ -74,7 +76,7 @@ Standaard wordt de startpagina gevuld met specifieke widgets die zijn gebaseerd 
     </tr>
     <tr>
         <td>Extern</td>
-        <td>In afwachting van mijn goedkeuring</td>
+        <td>Mijn goedkeuring</td>
     </tr>
 </table>
 
@@ -86,22 +88,20 @@ Widgets vormen de basis van Home. Door widgets aan uw startpagina toe te voegen,
 
 Een widget toevoegen:
 
-1. Navigeer aan uw Homepage, of door op het pictogram van Adobe Workfront ![ het Pictogram van Adobe Workfront ](assets/home-icon-30x29.png) bij de bovenkant van uw scherm te klikken als het Huis als uw het landen pagina wordt geplaatst, of door op het belangrijkste pictogram van het menupictogram ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) dan te klikken op **Huis**.
+1. Navigeer aan uw Homepage, of door het pictogram van Adobe Workfront ![ het Pictogram van Adobe Workfront ](assets/home-icon-30x29.png) bij de bovenkant van uw scherm te klikken als het Huis als uw het landen pagina wordt geplaatst, of door op het belangrijkste pictogram van het menupictogram ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) te klikken en dan **Huis** te klikken.
 
-1. Klik **aanpassen** bij de hoger-juiste hoek van het scherm.
+1. In de hoger-juiste hoek van het scherm, klik **aanpassen**.
 
    ![ pas Knoop ](assets/customize-button.png) aan
 1. De rol aan de **Widgets** sectie, dan selecteert widgets u wilt toevoegen.
 
 +++ Uitbreiden om een gedetailleerde lijst met de beschikbare widgets weer te geven
 
-        hieronder zijn de 11 widgets momenteel beschikbaar om van, evenals een samenvatting van de informatie te kiezen zij tonen:
-   
    * **Mijn Werk**\
-       Deze widget is een ideale plaats om te beginnen met het beheer van een groot aantal verschillende taken, problemen en verzoeken. U kunt op de knop Werken aan een onderdeel klikken om te beginnen werken aan een onderdeel of op de knop Gereed om de onderdelen te markeren. U kunt ook informatie (Status, Voorwaarde, Percentage voltooid) bijwerken over taken en problemen, logtijd en updates toevoegen vanaf de widget Mijn werk.
+       Toont alle toegewezen taken, kwesties, en verzoeken in één plaats. U kunt op de knop Werken aan een onderdeel klikken om te beginnen werken aan een onderdeel of op de knop Gereed om de onderdelen te markeren. U kunt ook informatie (Status, Voorwaarde, Percentage voltooid) bijwerken over taken en problemen, logtijd en updates toevoegen vanaf de widget Mijn werk.
 
    * **Boards**\
-       Hiermee geeft u alle borden weer die u hebt gemaakt of die u hebt uitgenodigd om te gebruiken. U kunt ook een nieuw bord maken op basis van de volgende sjablonen: Basisbord, Kanban-bord, Retrospectief, Dynamisch bord
+       Hiermee geeft u alle borden weer die u hebt gemaakt of die u hebt uitgenodigd om te gebruiken. U kunt ook een nieuw bord maken op basis van de volgende sjablonen: Basisbord, Kanban-bord, Retrospectief-bord en Dynamisch bord.
 
    * **Mijn projecten**\
        De projecten van vertoningen u of projecten bezit u in een lijst bent. U kunt bestaande filters, weergaven of groepen gebruiken om de lijst aan te passen, of u kunt een project rechtstreeks vanuit de widget maken.
@@ -118,7 +118,7 @@ Een widget toevoegen:
    * **verzoeken van het Team**\
        Toont alle hangende verzoeken om teams die u op gesorteerd door team bent, evenals knopen om een verzoek aan een gebruiker direct toe te wijzen of aan het zelf te werken.
 
-   * **wachtend op mijn goedkeuring**\
+   * **Mijn goedkeuringen**\
        Toont al uw in behandeling zijnde toegewezen of gedelegeerde goedkeuringen, een knoop om goedkeuringen te delegeren, en knopen om goedkeuringsbesluiten direct binnen widget te nemen.
 
    * **Alle goedkeuringen**\
@@ -132,7 +132,7 @@ Een widget toevoegen:
 
      >[!NOTE]
      >
-     >U moet over machtigingen beschikken om taken te maken om taken te kunnen uitvoeren in de widget Aan/uit en alleen persoonlijke taken die door de huidige gebruiker zijn ingevoerd, worden in de widget weergegeven.
+     >U moet over machtigingen beschikken om taken te maken om taken te kunnen uitvoeren in de widget Aan/uit en alleen persoonlijke taken die door de huidige gebruiker zijn ingevoerd, worden weergegeven.
 
 +++
 
@@ -141,7 +141,7 @@ Een widget toevoegen:
 
 ## Een widget op uw startpagina verplaatsen of de grootte ervan wijzigen
 
-1. Navigeer aan uw Homepage, of door op het pictogram van Adobe Workfront ![ het Pictogram van Adobe Workfront ](assets/home-icon-30x29.png) bij de bovenkant van uw scherm te klikken als het Huis als uw het landen pagina wordt geplaatst, of door op het belangrijkste pictogram van het menupictogram ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) dan te klikken op **Huis**.
+1. Navigeer aan uw Homepage, of door het pictogram van Adobe Workfront ![ het Pictogram van Adobe Workfront ](assets/home-icon-30x29.png) bij de bovenkant van uw scherm te klikken als het Huis als uw het landen pagina wordt geplaatst, of door op het belangrijkste pictogram van het menupictogram ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) te klikken en dan **Huis** te klikken.
 
 1. Zoek de widget die u wilt verplaatsen of vergroten of verkleinen op de startpagina.
 
@@ -151,21 +151,19 @@ Een widget toevoegen:
 
 ## Een widget verwijderen van uw startpagina
 
-1. Navigeer aan uw Homepage, of door op het pictogram van Adobe Workfront ![ het Pictogram van Adobe Workfront ](assets/home-icon-30x29.png) bij de bovenkant van uw scherm te klikken als het Huis als uw het landen pagina wordt geplaatst, of door op het belangrijkste pictogram van het menupictogram ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) dan te klikken op **Huis**.
+1. Navigeer aan uw Homepage, of door het pictogram van Adobe Workfront ![ het Pictogram van Adobe Workfront ](assets/home-icon-30x29.png) bij de bovenkant van uw scherm te klikken als het Huis als uw het landen pagina wordt geplaatst, of door op het belangrijkste pictogram van het menupictogram ![ Belangrijkste Menu ](assets/main-menu-icon.png) dan het klikken op **Huis** te klikken.
 
-1. Vind widget op uw pagina van het Huis u zou willen verwijderen, dan op het meer pictogram ![ Meer Pictogram ](assets/more-icon.png) in de hoger-juiste hoek van widget klikken.
+1. Vind widget op uw pagina van het Huis u zou willen verwijderen, dan **Meer** pictogram ![ Meer Pictogram ](assets/more-icon.png) in de hoger-juiste hoek van widget klikken.
 
 1. Klik **verwijderen**.
 
 
 ## De kleur van de achtergrond wijzigen
 
-1. Navigeer aan uw Homepage, of door op het pictogram van Adobe Workfront ![ het Pictogram van Adobe Workfront ](assets/home-icon-30x29.png) bij de bovenkant van uw scherm te klikken als het Huis als uw het landen pagina wordt geplaatst, of door op het belangrijkste pictogram van het menupictogram ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) dan te klikken op **Huis**.
+1. Navigeer aan uw Homepage, of door het pictogram van Adobe Workfront ![ het Pictogram van Adobe Workfront ](assets/home-icon-30x29.png) bij de bovenkant van uw scherm te klikken als het Huis als uw het landen pagina wordt geplaatst, of door het belangrijkste pictogram van het Menu ![ Belangrijkste ](assets/main-menu-icon.png) dan klikkend **Huis**.
 
-1. Klik **aanpassen** bij de hoger-juiste hoek van het scherm.
+1. In de hoger-juiste hoek van het scherm, klik **aanpassen**.
 
    ![ pas Knoop ](assets/customize-button.png) aan
-
-   Het deelvenster Aanpassen wordt geopend.
 
 1. In de **sectie van de Achtergrond** van **pas** paneel aan, klik de kleur u voor uw achtergrond van het Huis zou willen selecteren. U kunt **niets** ook klikken om de achtergrond te verwijderen.
