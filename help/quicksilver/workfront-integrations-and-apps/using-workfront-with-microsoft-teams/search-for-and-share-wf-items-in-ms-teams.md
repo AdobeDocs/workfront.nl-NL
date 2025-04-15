@@ -6,18 +6,22 @@ description: U kunt naar  [!DNL Workfront]  punten in om het even welk  [!DNL Ad
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 71d83723-daea-4b7b-8e5b-cfcf414611fe
-source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
+source-git-commit: 69fdb5c23bb501fc81e4ef3c3ab7c94e78e69d29
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront] -items zoeken en delen in [!DNL Microsoft Teams]
 
+<!--
+
 >[!NOTE]
 >
->Vanaf 1 juli 2025 verwijdert Microsoft de ondersteuning voor de desktop-app Classic Teams. Als gevolg hiervan wordt de Workfront-integratie met Microsoft Teams niet ondersteund nadat de bureaubladtoepassing voor klassieke teams niet meer beschikbaar is.
+>As of July 1, 2025, Microsoft will remove support for the Classic Teams desktop app. As a result, the Workfront integration with Microsoft Teams will not be supported after the Classic Teams desktop app is no longer available.
+
+-->
 
 U kunt zoeken naar [!DNL Workfront] -items in elk [!DNL Adobe Workfront] kanaal in [!DNL Microsoft Teams] en deze items delen met leden van uw teams.
 

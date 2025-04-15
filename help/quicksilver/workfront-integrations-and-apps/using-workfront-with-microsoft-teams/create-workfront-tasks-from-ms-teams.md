@@ -6,18 +6,22 @@ description: U kunt persoonlijke taken in Adobe  [!DNL Workfront]  van Microsoft
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 31b86c8d-967a-446a-86f2-3d38e44c45e1
-source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
+source-git-commit: 69fdb5c23bb501fc81e4ef3c3ab7c94e78e69d29
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront] taken maken van [!DNL Microsoft Teams]
 
+<!--
+
 >[!NOTE]
 >
->Vanaf 1 juli 2025 verwijdert Microsoft de ondersteuning voor de desktop-app Classic Teams. Als gevolg hiervan wordt de Workfront-integratie met Microsoft Teams niet ondersteund nadat de bureaubladtoepassing voor klassieke teams niet meer beschikbaar is.
+>As of July 1, 2025, Microsoft will remove support for the Classic Teams desktop app. As a result, the Workfront integration with Microsoft Teams will not be supported after the Classic Teams desktop app is no longer available.
+
+-->
 
 ## Toegangsvereisten
 

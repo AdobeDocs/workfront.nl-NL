@@ -6,18 +6,22 @@ description: Nadat de eigenaar van uw team Adobe Workfront for Microsoft Teams h
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5975d773-eae6-44ae-8296-2013504da3a8
-source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
+source-git-commit: 69fdb5c23bb501fc81e4ef3c3ab7c94e78e69d29
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront] aanvragen van [!DNL Microsoft] Teams verzenden
 
+<!--
+
 >[!NOTE]
 >
->Vanaf 1 juli 2025 verwijdert Microsoft de ondersteuning voor de desktop-app Classic Teams. Als gevolg hiervan wordt de Workfront-integratie met Microsoft Teams niet ondersteund nadat de bureaubladtoepassing voor klassieke teams niet meer beschikbaar is.
+>As of July 1, 2025, Microsoft will remove support for the Classic Teams desktop app. As a result, the Workfront integration with Microsoft Teams will not be supported after the Classic Teams desktop app is no longer available.
+
+-->
 
 Nadat de eigenaar van uw team [!DNL Adobe Workfront for Microsoft Teams] heeft geïnstalleerd, kunt u [!DNL Workfront] -aanvragen indienen via uw [!DNL Microsoft Teams] -account. Hiervoor hebt u een Workfront-account nodig die toegang heeft tot het verzenden van aanvragen. Voor informatie over het installeren van [!DNL Workfront for Microsoft Teams], zie [ het Installeren  [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
