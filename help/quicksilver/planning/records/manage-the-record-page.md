@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 594504c6a7acc9341471371ca279379042a45457
 workflow-type: tm+mt
-source-wordcount: '1853'
+source-wordcount: '1809'
 ht-degree: 0%
 
 ---
@@ -270,9 +270,7 @@ Houd rekening met het volgende wanneer u een verbindingsweergave toevoegt aan de
 
 * U kunt geen pagina van de mening van de Verbinding aan het voorproefgebied van een verslag toevoegen.
 
-* Op pagina&#39;s in de verbindingsweergave wordt één verbonden recordpagina weergegeven in de tabelweergave. De tabelweergave is alleen-lezen. <!--more views might be added in the future-->
-
-* U kunt één pagina van de mening van de Verbinding per elk verbonden verslagtype toevoegen.  <!--edit this when we can remove fields from this page-->
+* Op pagina&#39;s in de verbindingsweergave wordt één verbonden recordtype-pagina weergegeven in de tabelweergave.
 
 * Nadat u een pagina van de de meningsmening van de Verbinding aan de pagina van een verslag toevoegt, is het paginatabusje zichtbaar van het voorproefgebied van het verslag. U moet naar de volledige pagina gaan om de lijstmening voor het verbonden verslag te zien. <!--this might have changed? check and take disclaimer out-->
 
@@ -289,7 +287,7 @@ Een pagina van de verbindingsweergave toevoegen:
 De tabelweergave van het geselecteerde recordtype wordt weergegeven en de verbonden records worden weergegeven in de tabelweergave.
 Alle velden van de verbonden record worden weergegeven in de tabelweergave van het tabblad van de verbonden record.
 
-   Wanneer u de Planning van Workfront van de Voorproef van het milieu toegang hebt, de eerste vijf gebieden van de verbonden verslaglijst tonen door gebrek. Standaard worden geen opzoekvelden weergegeven.0
+   De eerste vijf velden van de verbonden recordtabel worden standaard weergegeven. Er worden standaard geen opzoekvelden weergegeven.
 
    De tabelweergave is alleen-lezen.
 
@@ -309,16 +307,11 @@ Alle velden van de verbonden record worden weergegeven in de tabelweergave van h
    * Groepering
    * Velden om velden weer te geven, te verbergen of opnieuw te rangschikken
 
-   <!--Add to the list above from the list below - and condition these for Preview only: Hide fields, rearrange fields-->
-
    Voor informatie, zie [ de lijstmening ](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
 
    >[!NOTE]
    >
-   >   U kunt geen van de volgende handelingen uitvoeren in de tabelweergave van het tabblad van een verbonden record:
-   >
-   >   * Velden verbergen of herschikken. U kunt velden verbergen en opnieuw rangschikken in de voorvertoningsomgeving.
-   >   * Velden maken, bewerken of verwijderen
+   >   U kunt geen velden maken, bewerken of verwijderen in de tabelweergave van het tabblad van een verbonden record.
    >
 
 1. Klik **verbinden** om verslagen toe te voegen of te verwijderen. Voor informatie, zie [ verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md)

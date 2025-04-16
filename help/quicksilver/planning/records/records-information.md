@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
 recommendations: noDisplay, noCatalog
-source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
+source-git-commit: 594504c6a7acc9341471371ca279379042a45457
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Records: artikelindex
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -27,7 +27,7 @@ Nadat u recordtypes in de Planning van Adobe Workfront creeert, kunt u individue
 In de volgende artikelen wordt beschreven hoe u records en de bijbehorende informatie kunt maken en beheren in Adobe Workfront Planning:
 
 * [Records maken](/help/quicksilver/planning/records/create-records.md)
-* <span class="preview">[ creeer verslagen door informatie van een CSV of dossier van Excel ](/help/quicksilver/planning/records/import-file-to-create-records.md)</span> in te voeren
+* [Records maken door gegevens te importeren uit een CSV- of Excel-bestand](/help/quicksilver/planning/records/import-file-to-create-records.md)
 * [Workfront-objecten maken vanuit Workfront Planning wanneer u deze verbindt met records](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
 * [Objecten maken met Adobe Workfront Planning-recordautomatisering](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
 * [Records bewerken](/help/quicksilver/planning/records/edit-records.md)

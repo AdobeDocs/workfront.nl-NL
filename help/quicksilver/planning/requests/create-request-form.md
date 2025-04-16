@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 594504c6a7acc9341471371ca279379042a45457
 workflow-type: tm+mt
-source-wordcount: '2046'
+source-wordcount: '2020'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,7 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-U kunt een aanvraagformulier maken en dit koppelen aan een recordtype in Adobe Workfront Planning. Vervolgens kunt u een koppeling naar de koppeling delen met andere interne of externe gebruikers.
-
-Gebruikers met een koppeling naar het formulier kunnen de veldwaarden erop bijwerken en nieuwe records toevoegen door het formulier te verzenden.
+U kunt een aanvraagformulier maken en dit koppelen aan een recordtype in Adobe Workfront Planning. U kunt het formulier vervolgens delen met anderen en ze kunnen aanvragen indienen om records te maken.
 
 In dit artikel wordt beschreven hoe een werkruimtebeheerder een aanvraagformulier kan maken dat is gekoppeld aan een recordtype.
 
@@ -126,7 +124,7 @@ Voor informatie over het voorleggen van de verzoeken van de Planning van Workfro
 
       * Gemaakt door en laatstelijk gewijzigd door
       * Aanmaakdatum en datum van laatste wijziging
-      * Formule. <!--Formula fields are supported in the Preview environment.-->
+      * Formule
       * Opzoekvelden van Workfront-objecten
       * Workfront Planning connected records lookup fields
 
@@ -257,12 +255,7 @@ Voor informatie over het voorleggen van de verzoeken van de Planning van Workfro
    >     * Mensen
    >
 
-1. (Voorwaardelijk) als u **Iedereen met de verbinding** in de vorige stap selecteerde, selecteer de **vervaldatum van de Verbinding** van de beschikbare kalender. <!--take out this tip when we release to production as in multiple forms this is no longer happening-->
-
-   >[!TIP]
-   >
-   >Er zijn aanwijzingen dat de link in dit geval openbaar wordt gedeeld.
-   >![ openbaar gedeelde verbinding aan vorm op verslagtype menu ](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
+1. (Voorwaardelijk) als u **Iedereen met de verbinding** in de vorige stap selecteerde, selecteer de **vervaldatum van de Verbinding** van de beschikbare kalender.
 
    Personen ontvangen een fout nadat de koppeling is verlopen en u moet de datum van de koppeling bijwerken en een nieuwe koppeling genereren om te delen voordat ze het formulier weer kunnen openen.
 
@@ -299,18 +292,10 @@ Voor informatie over het voorleggen van de verzoeken van de Planning van Workfro
 1. Klik op de pijl die naar links wijst links van **Request-formulieren** in de header om de aanvraagformuliertabel te sluiten.
 
    De pagina met recordtypen wordt geopend.
-1. (Optioneel en voorwaardelijk) Een bestaand formulier bewerken:
+1. (Facultatief en voorwaardelijk) klik **Meer** menu ![ Meer menu ](assets/more-menu.png) aan het recht van de naam van het verslagtype in de kopbal, dan doe één van het volgende:
 
-   1. Klik het **Meer** menu ![ Meer menu ](assets/more-menu.png) aan het recht van de naam van het verslagtype in de kopbal, dan klik **leidt verzoekvormen**. </span>
+   1. Klik **de verzoekvorm van de Update** om het even welke veranderingen in de verzoekvorm aan te brengen, dan klik een verzoekvorm om het te openen en uit te geven.
+   1. Klik **verbinding van het Exemplaar om vorm** te verzoeken om de verbinding met de vorm met anderen te delen.
 
-      Hiermee opent u de tabelweergave Formulieren aanvragen.
+1. (Facultatief) ga naar het **gebied van Verzoeken** in Workfront en vind de gedeelde vorm om een verzoek voor te leggen. Voor informatie, zie [ de Verzoeken van de Planning van Adobe Workfront voorleggen om verslagen ](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen.
 
-   1. Klik op een aanvraagformulier om het te openen en te bewerken.
-   1. (Facultatief) ga naar het **gebied van Verzoeken** in Workfront en vind de gedeelde vorm om een verzoek voor te leggen. Voor informatie, zie [ de Verzoeken van de Planning van Adobe Workfront voorleggen om verslagen ](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen.
-
-<!--   * From the Production environment:
-   
-      1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the header, then do one of the following: 
-   
-      1. Click **Update request form** to make any changes to the request form.
-      1. Click **Copy link to request form**  to share the link to the form with others.-->
