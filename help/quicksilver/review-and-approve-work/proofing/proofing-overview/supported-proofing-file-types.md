@@ -7,9 +7,9 @@ description: U kunt verschillende bestandstypen delen en reviseren met uw reviso
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: b0454e68bdd6e9e78bd748868fc82a7b0cf8f379
+source-git-commit: 1df1eff727ff2044eee0f5c0e79794c109d16c7a
 workflow-type: tm+mt
-source-wordcount: '1052'
+source-wordcount: '1057'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Workfront heeft de volgende limieten:
 * DCS - Kodak Digital Camera System
 * DCM - DICOM
 * DCX - Verfpenseel
-* DNG - Adobe digitaal negatief
+* DNG - Adobe Digital Negative
 * DOC - Microsoft Word-document
 * DOCX - Microsoft Word-document 2007
 * DRW - DR-wijk
@@ -91,7 +91,7 @@ Workfront heeft de volgende limieten:
 * FLC - Flic animatie
 * FPX - Kodak FlashPix
 * GBR - Gerber GIF - CompuServe
-* GIF - Graphics Interchange Format (alleen geanimeerd GIF in de nieuwe Workfront Proof Viewer)
+* GIF - Graphics Interchange Format (alleen geanimeerd door GIF in de nieuwe Workfront Proof Viewer)
 * GIF HDP - Windows HD Photo
 * ICO - Windows-pictogram
 * IFF - Interchange File Format
@@ -102,7 +102,7 @@ Workfront heeft de volgende limieten:
 * JB2 - JBIG2
 * JPG - Joint Photographic Experts Group (JPEG)
 * JPEG-XR - Windows Media Photo / HD Photo (HDP)
-* JPEG-LS - JPEG zonder gegevensverlies
+* JPEG-LS - JPEG Lossless
 * J2K - JPEG 2000
 * JP2 - JPEG 2000 gecomprimeerd
 * JPM - JPEG 2000 Deel 6
@@ -126,7 +126,7 @@ Workfront heeft de volgende limieten:
 * PCL6 - Printer Command Language
 * PCT - Macintosh Pict
 * PCX, verfpenseel
-* PDF - Portable Document-bestand Adoben
+* PDF - Adobe Portable Document File
 * PGM - Portable Bitmap Utilities
 * PLT - HPGL Plotter
 * PNG - Portable Network Graphics
@@ -150,7 +150,7 @@ Workfront heeft de volgende limieten:
 * SNP - Microsoft Access Report Snapshot
 * SR2 - Sony Raw-indeling
 * SRF - Sony Raw-indeling
-* SVG - schaalbare vectorafbeeldingen
+* SVG - Scalable Vector Graphics
 * TDB - Microsoft Windows-miniaturencache
 * TFX - Internet Fax
 * TGA - Truevision TARGA
@@ -188,7 +188,7 @@ Workfront heeft de volgende limieten:
 * AIT - Adobe Illustrator-sjabloon
 * DOC - Microsoft Word-document
 * DOCX - Microsoft Word-document
-* PDF - Portable Document-bestand Adoben
+* PDF - Adobe Portable Document File
 * PPT - PowerPoint-presentatie
 * PPTX - PowerPoint-presentatie 2007 PS - PostScript-bestand
 * PSD - PHOTOSHOP
@@ -208,7 +208,7 @@ Workfront heeft de volgende limieten:
 * AVI
 * Flash (VP6, Sorenson Spark/H.263+, H.264)
 * MOV
-* MP4
+* MP4 - limiet 8.192 x 4.320 pixels
 * MPG
 * VOB (alleen niet-gecodeerde VOB&#39;s)
 * Flash
@@ -217,7 +217,7 @@ Workfront heeft de volgende limieten:
 * Ogg Theora
 * MJPEG
 * DV
-* Onbewerkte YUV/RGB
+* Raw YUV/RGB
 * MKV
 * Audio-codecs invoeren (onderdeel van video)
 
@@ -248,4 +248,4 @@ Voor meer informatie, zie [ Interactieve inhoudsproeven overzicht ](../../../rev
 
 ## InDesign- en Quark-bestanden
 
-InDesign- en Quark-bestanden worden niet ondersteund, omdat het geen zelfstandige bestandstypen zijn en omdat er wordt verwezen naar een groot aantal andere bestanden, zoals afbeeldingen en lettertypen. De uitvoer van deze bestandstypen is afhankelijk van de uitvoerinstellingen. We raden klanten aan InDesign- en Quark-bestanden op te slaan als een PDF en de PDF te uploaden.
+InDesign en Quark Files worden niet ondersteund omdat het geen zelfstandige bestandstypen zijn en omdat er naar veel andere bestanden wordt verwezen, zoals afbeeldingen en lettertypen. De uitvoer van deze bestandstypen is afhankelijk van de uitvoerinstellingen. We raden klanten aan InDesign- en Quark-bestanden op te slaan als een PDF en de PDF te uploaden.
