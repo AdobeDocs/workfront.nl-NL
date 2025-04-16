@@ -1,13 +1,13 @@
 ---
 title: Interface-updates
 description: Deze pagina bevat een overzicht van de interface-updates die we in Adobe Workfront uitvoeren om de gebruikerservaring te verbeteren en deze te verenigen met andere Adobe-toepassingen.
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 80cb8ffa0495c7d163de8fb99dba84e6442aa938
+source-git-commit: 3761217587419fa8b7ff42e425cc277ee36fe957
 workflow-type: tm+mt
-source-wordcount: '1774'
+source-wordcount: '1817'
 ht-degree: 0%
 
 ---
@@ -211,6 +211,12 @@ Om deze verandering te bekijken, ga naar Teams > kies een team > Achtergrond, da
 ## Documenten
 
 +++Uitbreiden om de interfaceupdates van Documenten te bekijken
+
+### Interface-updates bij aanvragen van een document
+
+**de versie van de Voorproef: April 03, 2025; De versie van de Productie: Begin de week van 10 April, 2025**
+
+We hebben het dialoogvenster bijgewerkt waarin een document van een andere gebruiker wordt aangevraagd met een modern ontwerp dat aansluit bij andere gebieden van Workfront.
 
 ### Interface-updates voor de gedeelde pagina voor externe documenten
 
