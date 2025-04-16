@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: 0d746db3b3665b288b4724c346a02d3f459fc365
+source-git-commit: 35cfdba7c206e8acb76648737588aa07120d2bbe
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,24 @@ ht-degree: 0%
 Deze pagina beschrijft kleine updates van de blik en het gevoel van diverse gebieden van de toepassing van Adobe Workfront die binnen het tweede Kwartaal 2025 releasetijdschema werden gemaakt.
 
 Voor een lijst van alle veranderingen beschikbaar met het Tweede Kwartaal 2025 versie, zie [ Tweede Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
+
+## Bijgewerkte rapporten met nieuwe opmaak
+
+>[!NOTE]
+>
+>Voorbeeld en productie voor alle klanten: 9 april 2025
+
+We hebben het uiterlijk van meerdere rapporten aangepast aan het ontwerp van andere gebieden van Workfront.
+
+Deze update bevat visuele wijzigingen in de lijsten en werkbalken van de volgende rapporten. Er is geen functionaliteit gewijzigd.
+
+* Parameter
+* Parametergroep
+* Aangepaste Forms
+* Tijd uit
+
+Voor informatie, zie [ een douanerapport ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+
 
 ## De update van het Google Drive-dialoogvenster voor documentintegratie bekijken en weergeven
 
