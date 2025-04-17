@@ -1,14 +1,14 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Een beoordelings- en goedkeuringsdashboard maken
+title: Een revisie- en goedkeuringsdashboard maken
 description: U kunt goedkeuringsmetriek in de dashboards van het Canvas herzien.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
-source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
+source-git-commit: 0aeef516c8e3b94edee6fc177766be032241965f
 workflow-type: tm+mt
-source-wordcount: '1987'
+source-wordcount: '1991'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,9 @@ U kunt een rapportdashboard in het gebied van de Dashboards van het Canvas tot s
 
 {{step1-to-dashboards}}
 
-1. Klik in het linkerdeelvenster op **Canvasdashboards**.
-1. Klik op **Nieuw dashboard**.
-1. Geef uw dashboard een naam.
+1. In het linkerpaneel, klik **de Dashboards van het Canvas**.
+1. Klik **Nieuw Dashboard**.
+1. Geef het dashboard een naam.
 1. (Optioneel) Voeg een beschrijving toe.
 1. Klik **creëren**.
    ![ voeg dashboardnaam en beschrijving ](assets/create-a-dashboard.png) toe
@@ -92,17 +92,17 @@ U kunt informatie op hoog niveau over documentgoedkeuringen met KPIs en grafieke
 1. De Telling van de Status van de Goedkeuring van het type __ in **KPI** textbox van de Titel. Deze tekst beschrijft wat KPI toont.
 1. Bij de bovenkant van de pagina, klik **Uitgezochte het Gebied van KPI**.
 1. De rol neer en vindt de **omslag van de Goedkeuring van het Document**.
-1. Kies **Status** en selecteer **vervolgens Tellen** in de vervolgkeuzelijst.
-1. Klik op **Filter** bewerken > **voorwaarde** toevoegen:
+1. Kies **Status**, dan uitgezochte **Telling** van het drop-down menu.
+1. Klik **uitgeven Filter** > **toevoegt voorwaarde**:
    1. Klik in de lege voorwaardenfilter, klik **Kiep een Gebied**, dan kies **Status**.
    1. Verander de exploitant in **bevat**, en type _goedgekeurd_ in textbox.
       ![ voltooid kpi filtervoorbeeld ](assets/completed-kpi-filter.png)
 1. Klik **toevoegen voorwaarde**:
    1. Klik **en** om het in **of** te veranderen.
-   1. Klik op het filter voor lege voorwaarde, klik op **Een veld** kiezen en kies **vervolgens Status**.
-   1. Wijzig de operator in Is gelijk aan **en typ _vervolgens beoordeeld_ in het tekstvak.**
-      ![Ingevuld KPI filter voorbeeld](assets/completed-kpi-filter-2.png)
-1. Klik op **Gereed** in de rechterbovenhoek van het scherm.
+   1. Klik in de lege voorwaardenfilter, klik **Kiep een Gebied**, dan kies **Status**.
+   1. Verander de exploitant in **evenaart**, dan type _herzien_ in textbox.
+      ![ voltooid kpi filtervoorbeeld ](assets/completed-kpi-filter-2.png)
+1. Klik **Gedaan** in de hoger-juiste hoek van het scherm.
 
 #### Verlaten goedkeuringen
 
@@ -160,19 +160,19 @@ U kunt informatie op hoog niveau over documentgoedkeuringen met KPIs en grafieke
 1. Plaats het type van Samenvoeging aan **Telling**.
 1. Klik {het gebied van de Update 1} voor de **Linker (Y) as**, en kies de eerste **optie van de Goedkeuring van het Document** toen **Versie van het Document** > **Document** > **Naam**.****
 1. Klik het lusje van de Filter ![ pictogram van het filterlusje ](assets/filter-tab.png).
-1. Klik op **Filter** bewerken > **voorwaarde** toevoegen:
-   1. Klik in het filter voor lege voorwaarde, klik op **Een veld** kiezen en kies **vervolgens Beslissingsdatum deelnemers aan de goedkeuringsfase**.
+1. Klik **uitgeven Filter** > **toevoegt voorwaarde**:
+   1. Klik in de lege voorwaardenfilter, klik **Kiep een Gebied**, dan kies **de Datum van het Besluit van de Deelnemers van het Stadium van de Goedkeuring**.
    1. Verander de exploitant in **is Null**.
       ![ het filtervoorbeeld van het revisiesdiagram ](assets/revision-chart-filter.png)
 1. Klik **uitgeven Filter** > **toevoegt voorwaarde**:
    1. Klik in de lege voorwaardenfilter, klik **Kiep een Gebied**, dan kies **de deadline van het Stadium van de Goedkeuring**.
-   1. Wijzig de operator in Kleiner **dan of Gelijk,** schakel vervolgens Relatieve datum instellen in en typ _$$TODAYem_ in het tekstvak.
-      ![Voorbeeld van een revisiegrafiek](assets/revision-chart-filter-2.png)
-1. Klik op **Gereed** in de rechterbovenhoek van het scherm.
+   1. Verander de exploitant in **minder dan of Gelijk**, dan knevel Vastgestelde relatieve datum op en type _$$TODAYem_ in textbox.
+      ![ het filtervoorbeeld van het revisiesdiagram ](assets/revision-chart-filter-2.png)
+1. Klik **Gedaan** in de hoger-juiste hoek van het scherm.
 
-## Voeg gedetailleerde beoordelings- en goedkeuringsinformatie toe met tabellen
+## Gedetailleerde revisie- en goedkeuringsinformatie toevoegen met tabellen
 
-![Tabel voorbeeld](assets/table-dashboard.png)
+![ lijstvoorbeeld ](assets/table-dashboard.png)
 
 ### Goedkeuringslijst in behandeling
 
@@ -199,19 +199,19 @@ U kunt informatie op hoog niveau over documentgoedkeuringen met KPIs en grafieke
     </tr>
     <tr>
     <td><strong>Deadline</strong></td>
-    <td>Document &gt; Approval Stage &gt; Deadline</td>
+    <td>Documentgoedkeuring &gt; Goedkeuringswerkgebied &gt; Deadline</td>
     </tr>
     <tr>
     <td><strong>Gevraagd door</strong></td>
-    <td>Document &gt; Approval Stage &gt; Approval Stage Participants* &gt; Requester &gt; type _Name_ in the search box.</td>
+    <td>Documentgoedkeuring &gt; Goedkeuringswerkgebied &gt; Deelnemers aan goedkeuringswerkgebied* &gt; Aanvragen &gt; type _Naam_ in het zoekvak.</td>
     </tr>
      <tr>
     <td><strong>Aangevraagde datum</strong></td>
-    <td>Document &gt; Approval Stage &gt; Approval Stage Participants* &gt; Created at</td>
+    <td>Document Approval &gt; Approval Stage &gt; Approval Stage Participants* &gt; Created at</td>
     </tr>
      <tr>
     <td><strong>Fiatteur</strong></td>
-    <td>Document &gt; Approval Stage &gt; Approval Stage Participants* &gt; Participant User &gt; type _Name_ in the search box.</td>
+    <td>Documentgoedkeuring &gt; Goedkeuringswerkgebied &gt; Deelnemers aan goedkeuringswerkgebied* &gt; Deelnemergebruiker &gt; type _Naam_ in het zoekvak.</td>
     </tr>
     <table>
 
@@ -256,23 +256,23 @@ Als u meer specifieke informatie wilt weergeven, afhankelijk van het gebruik, ku
 
 1. [ creeer een dashboard ](#create-a-dashboard) zoals die in de sectie hierboven wordt beschreven.
 1. In de kaart van de Lijst, voegt de klik **** toe.
-1. Typ _Achterstallige goedkeuringen_ in het **tekstvak Naam** .
-1. (Optioneel) Typ een beschrijving in het **tekstvak Beschrijving** . Deze tekst wordt als knopinfo naast de naam van het diagram weergegeven.
+1. Het type _Achterstallige goedkeurt_ in **Naam** textbox.
+1. (Facultatief) Type een beschrijving in **Beschrijving** textbox. Deze tekst wordt als knopinfo naast de naam van het diagram weergegeven.
 1. Klik **Open kolommontages**.
 1. Klik **toevoegen kolom**, scrol neer en klik de eerste **omslag van de Goedkeuringen van het Document**, dan kiezen **Status**.
 1. Voeg de volgende kolommen toe:
 
    <table>
     <tr>
-    <td><strong>Naam van het project</strong></td>
-    <td>Documentversie &gt; document &gt; &gt; naam van het project</td>
+    <td><strong>Projectnaam</strong></td>
+    <td>Documentversie &gt; Document &gt; Project &gt; Naam</td>
     </tr>
     <tr>
-    <td><strong>Naam van het document</strong></td>
-    <td>Documentversie &gt; Document &gt; typ _Name_ in het zoekvak.</td>
+    <td><strong>Documentnaam</strong></td>
+    <td>Document Version &gt; Document &gt; type _Name_ in the search box.</td>
     </tr>
     <tr>
-    <td><strong>Versie van het document</strong></td>
+    <td><strong>Documentversie</strong></td>
     <td>Documentversie &gt; Document &gt; Versie</td>
     </tr>
     <tr>

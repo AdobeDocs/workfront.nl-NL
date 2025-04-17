@@ -6,7 +6,7 @@ description: Nadat u een proefdruk hebt gemaakt, kunt u de proefdrukinstellingen
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee30ce2c-e3dc-4863-a69b-cbc1b8747362
-source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
+source-git-commit: a036a99c13d80a2ba2305ebcdc799ad6e5b62b39
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 0%
@@ -73,12 +73,7 @@ Sommige instellingen zijn mogelijk vergrendeld als uw Workfront-beheerder deze o
      </tr> 
      <tr> 
       <td role="rowheader">Vereisen dat besluiten elektronisch worden ondertekend</td> 
-      <td> <p>U kunt een elektronische handtekening eisen van elke controleur die een besluit neemt over het bewijs. Wanneer een revisor een beslissing neemt, verschijnt er een vraag om de controleur te vragen zijn e-mail en wachtwoord in te voeren en zijn beslissing te bevestigen. <!--
-         <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-          For more information, see 
-          <a href="../../../workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md" class="MCXref xref">Understanding electronic signatures in Workfront Proof</a>
-         </MadCap:conditionalText>
-        --></p> </td> 
+      <td> <p>U kunt een elektronische handtekening eisen van elke controleur die een besluit neemt over het bewijs. Wanneer een revisor een beslissing neemt, verschijnt er een vraag om de controleur te vragen zijn e-mail en wachtwoord in te voeren en zijn beslissing te bevestigen.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Bewijs vergrendelen wanneer alle vereiste beslissingen zijn genomen</td> 
