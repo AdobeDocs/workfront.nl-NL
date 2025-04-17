@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '859'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 <!--take Preview and Production references at Production time-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 {{planning-important-intro}}
 
@@ -89,7 +89,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader"><p>Objectmachtigingen</p></td>
    <td>
    <ul>
-   <li><p>Machtigingen beheren in een werkruimte <!--<span class="preview">and record type</span>--> </p></li>
+   <li><p>Beheer toestemmingen aan een werkruimte <span class="preview"> en verslagtype </span> </p></li>
     <li><p>Systeembeheerders kunnen werkruimten beheren die ze niet hebben gemaakt. </p></li>
     </ul>
    <p>Voor informatie over het delen van machtigingen voor Workfront Planning-objecten raadpleegt u  
@@ -124,8 +124,17 @@ Zo wijzigt u het delen van een aanvraagformulier:
 
    De pagina met recordtypen wordt geopend in de weergave die u het laatst hebt geopend. Standaard wordt een pagina met recordtypen geopend in de tabelweergave.
 
-1. Klik **Meer** menu ![ meer menu ](assets/more-menu.png) rechts van de naam van het verslagtype in de paginakop, dan klik **de verzoekvorm van de Update**.
-1. Klik **Aandeel** in de hoger-juiste hoek van het scherm, dan werk de het delen keuzen bij. Voor meer informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
+1. Klik **Meer** menu ![ Meer menu ](assets/more-menu.png) aan het recht van de naam van het verslagtype in de paginakop, dan klik **leidt verzoekvormen**.
+
+   Alle aanvraagformulieren die aan het recordtype zijn gekoppeld, worden in een tabelweergave weergegeven.
+1. Beweeg over de naam van een verzoekvorm, dan klik **Meer** menu ![ Meer menu ](assets/more-menu.png) aan het recht van zijn naam, dan klik **Aandeel**.
+1. Werk de opties voor delen bij door een van de volgende opties te selecteren:
+
+   * Iedereen met weergave of hogere toegang tot de werkruimte
+   * Iedereen met een hogere of hogere toegang tot de werkruimte
+   * Iedereen met de koppeling
+
+   Voor meer informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
 1. (Facultatief) klik **verbinding van het Exemplaar**, als u het delen van de verzoekvorm veranderde en u het aan de nieuwe groep mensen met een nieuwe verbinding wilt delen.
 
 ## Publiceren van een aanvraagformulier voor een recordtype ongedaan maken
@@ -142,18 +151,24 @@ Wanneer een aanvraagformulier irrelevant wordt en u wilt dat niemand er langer t
 
    De pagina met recordtypen wordt geopend in de weergave die u het laatst hebt geopend. Standaard wordt een pagina met recordtypen geopend in de tabelweergave.
 
-1. Klik **Meer** menu ![ Meer menu ](assets/more-menu.png) aan het recht van de naam van het verslagtype in de paginakop, dan klik **de verzoekvorm van de Update**.
-1. Klik **unpublish** in de hoger-juiste hoek.
+1. Klik **Meer** menu ![ Meer menu ](assets/more-menu.png) aan het recht van de naam van het verslagtype in de paginakop, dan klik **leidt verzoekvormen**.
 
-   ![ Unpublish benadrukte knoop ](assets/unpublish-button-highlighted.png)
+   Alle aanvraagformulieren die aan het recordtype zijn gekoppeld, worden in een tabelweergave weergegeven.
+1. Beweeg over de naam van een verzoekvorm, dan klik **Meer** menu ![ Meer menu ](assets/more-menu.png) aan het recht van zijn naam, dan klik **unpublish**
 
-   Onder aan het scherm verschijnt een bevestiging met de mededeling dat het formulier niet is gepubliceerd.
+of
 
-   De **unpublish** knoop verandert in **publiceren**.
+Klik de naam van de verzoekvorm om het te openen, dan klik **unpublish** in de hoger-juiste hoek van de verzoekvorm.
 
-1. Klik **sparen**.
+![ Unpublish benadrukte knoop ](assets/unpublish-button-highlighted.png)
 
-   Het formulier kan niet langer worden geopend via een koppeling <!--or from the request queue in the Requests area of Workfront--> .
+Onder aan het scherm verschijnt een bevestiging met de mededeling dat het formulier niet is gepubliceerd.
+
+De **unpublish** verbinding of de knoopveranderingen in **publiceren**.
+
+1. (Voorwaardelijk) klik **sparen**, als u de vorm na het openen van het unpublished.
+
+   Gebruikers hebben geen toegang meer tot het aanvraagformulier via een koppeling of vanuit de wachtrij met aanvragen in het gedeelte Aanvragen van Workfront.
 
    Alle records die u eerder met het aanvraagformulier hebt toegevoegd, blijven op de recordtypepagina staan.
 

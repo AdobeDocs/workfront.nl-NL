@@ -1,22 +1,18 @@
 ---
 title: Recordtypen delen
 description: U kunt een recordtype met anderen delen om samenwerking te verzekeren wanneer het gebruiken van de Planning van Adobe Workfront.
-hide: true
-hidefromtoc: true
+author: Alina
+feature: Workfront Planning
+role: User, Admin
+recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 4df268c9b5a99991bee3f1862c83fe0079d162c1
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1475'
 ht-degree: 0%
 
 ---
 
-<!-- add these to metadata on release:
-
-author: Alina
-feature: Workfront Planning
-role: User, Admin
-recommendations: noDisplay, noCatalog-->
 
 <!-- take the Remove permissions section out, at the end - this is what Lilit said: Because of "Everyone in the workspace can view" wildcard, currently it's not possible to entirely remove access to a record type. Let's take out this section. -->
 
@@ -32,12 +28,10 @@ U kunt een recordtype met anderen delen om samenwerking te verzekeren wanneer he
 
 >[!IMPORTANT]
 >
->* Het verlenen van toestemmingen aan een werkruimte geeft gebruikers de zelfde toestemmingen aan de verslagtypes in de werkruimte, door gebrek.
->* Bovendien kunt u machtigingen voor afzonderlijke recordtypen aanpassen.
->* Nochtans, kunt u mensen geen hogere toestemmingen aan een verslagtype verlenen dan de toestemmingen zij aan de werkruimte hebben.
->* Personen met de machtiging Beheren voor de werkruimte hebben altijd toegang tot alle recordtypen in de werkruimte. Hun toestemmingen kunnen niet op verslagtypes worden verminderd, zelfs wanneer de Geërfte toestemmingen worden uitgezet.
-> 
-> Voor meer informatie, zie de [ Overwegingen wanneer het delen van verslagtypes ](#considerations-when-sharing-record-types) sectie in dit artikel.
+>Gebruikers met toegang tot een werkruimte krijgen automatisch minstens weergavemachtigingen voor alle recordtypen in de werkruimte.
+>Als u weergaven deelt, geeft u gebruikers geen machtigingen om gegevenstypen op te nemen. Alleen werkruimten delen kan gebruikers machtigingen verlenen om gegevenstypen op te nemen.
+>* Voor algemene informatie over het delen van voorwerpen in de Planning van Workfront, zie ook [ Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront ](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+>* Voor meer informatie, zie de [ Overwegingen wanneer het delen van verslagtypes ](#considerations-when-sharing-record-types) sectie in dit artikel.
 
 ## Toegangsvereisten
 
@@ -114,29 +108,35 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Overwegingen bij het delen van recordtypen
 
-* Voor algemene informatie over het delen van voorwerpen in de Planning van Workfront, zie ook [ Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront ](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+* Het verlenen van toestemmingen aan een werkruimte geeft gebruikers de zelfde toestemmingen aan de verslagtypes in de werkruimte, door gebrek.
+
+  Bovendien kunt u machtigingen voor afzonderlijke recordtypen aanpassen.
+
+  Nochtans, kunt u mensen geen hogere toestemmingen aan een verslagtype verlenen dan de toestemmingen zij aan de werkruimte hebben.
+* U kunt gebruikers lagere machtigingen verlenen voor het recordtype dan in de werkruimte. Ze kunnen bijvoorbeeld beschikken over Contribute-machtigingen voor de werkruimte en weergavemachtigingen voor een recordtype.
+* Personen met de machtiging Beheren voor de werkruimte hebben altijd toegang tot alle recordtypen in de werkruimte. Hun toestemmingen kunnen niet op verslagtypes worden verminderd, zelfs wanneer de Geërfte toestemmingen worden uitgezet.
 
 * Op dit moment kunt u het volgende bereiken wanneer u recordtypen deelt:
+
    * Geef mensen de toestemmingen van de Mening aan een werkruimte, wanneer u een verslagtype met hen voor het eerst deelt en zij hebben geen toestemmingen aan de werkruimte.
 
      Dit geeft hen ook de toestemmingen van de Mening aan alle verslagtypes in de werkruimte.
 
      Aangezien u hen toestemmingen aan het verslagtype geeft, is er een aanwijzing in het het delen vakje dat zij ook aan de werkruimte worden toegevoegd.
-   * Maak het verslagtype mening-slechts voor iedereen in de werkruimte (behalve werkruimtemanagers), wanneer u Geërfte toestemmingen uitzet.
+   * Maak het verslagtype mening-slechts voor iedereen in de werkruimte (behalve werkruimtemanagers), wanneer u Geërfte toestemmingen onbruikbaar maakt.
 
      Personen met de machtiging Beheren voor de werkruimte beschikken altijd over de machtiging Beheren voor de recordtypen, zelfs wanneer u de machtiging Geërfd voor het recordtype uitschakelt.
-  <!-- checking with Lilit - this doesn't make much sense: * Add people with Contribute permission to the workspace, who will retain Contribute permission to the record type. This way, only the selected people can manage records in the record type, while others can only view them. -->
    * Minder bevoegdheden voor een recordtype. U kunt de toestemming van iemand aan een recordtype niet verhogen van wat hij op de werkruimte heeft.
 
      Als iemand bijvoorbeeld Contribute-machtigingen heeft voor de werkruimte, kunt u hun machtigingen wijzigen in een specifiek recordtype in Weergeven. Als ze echter over weergavemachtiging voor de werkruimte beschikken, kunt u ze geen Contribute-machtiging voor een recordtype verlenen.
 
-* Het is niet mogelijk om toegang tot een recordtype voor mensen in de werkruimte te verwijderen. Iedereen heeft altijd minstens de toestemming van de Mening.
+* Het is niet mogelijk om toegang tot een recordtype voor mensen in de werkruimte te verwijderen. Iedereen heeft altijd minstens de toestemming van de Mening aan alle verslagtypes als zij minstens de toestemmingen van de Mening aan de werkruimte hebben.
 
 * U kunt een recordtype intern delen met de volgende entiteiten:
 
-   * Workfront-gebruikers, -groepen, -teams, -bedrijven en -functies
+  Workfront-gebruikers, -groepen, -teams, -bedrijven en -functies
 * U kunt recordtypen niet extern delen met gebruikers buiten Workfront.
-* Als u een gebruiker zonder werkruimtemachtigingen hoger wilt weergeven dan weergavemachtigingen, moet u de werkruimte eerst met deze gebruikers delen met een hogere machtiging dan Weergave.
+* Als u een gebruiker zonder werkruimtemachtigingen hoger wilt weergeven dan weergavemachtigingen, moet u de werkruimte eerst met deze gebruikers delen met een hogere machtiging dan Weergave. De hogere toestemmingen voor de werkruimte zullen dan op de verslagtypes van toepassing zijn.
 
 ## Machtigingen delen voor een recordtype
 
@@ -154,12 +154,9 @@ U kunt machtigingen aanpassen voor afzonderlijke recordtypen in een werkruimte a
 
    ![ Toestemmingen voor verslagtypes met geërfte toestemmingen op ](assets/permissions-for-record-types-with-inherited-permissions-on.png)
 
-1. (Facultatief) op **die toegang** heeft, selecteer van de volgende opties: <!--the Only invited people is supposed to be removed - rewrite this - according to Vahan-->
+1. (Facultatief) in **die toegang** heeft, kan **iedereen in de werkruimte** optie bekijken door gebrek worden geselecteerd.  Alle gebruikers met de machtiging Weergave of hoger voor de werkruimte kunnen het recordtype weergeven.
 
-   * **slechts kunnen de uitgenodigde mensen tot** toegang hebben: U moet gebruikers, groepen, team, bedrijf, of baanrollen specificeren die u de mening met wilt delen.
-   * **iedereen in de werkruimte kan** bekijken: Alle gebruikers die Mening of hogere toestemmingen aan de werkruimte hebben kunnen tot de mening toegang hebben. Dit is de standaardoptie. <!--rewrite this based on what Lilit says in the proof: At this point, once the inherited permissions are disabled, everyone in the workspace except workspace managers will have View permission to the record type because the "Everyone in the workspace can view"  setting cannot be changed. -->
-
-1. (Facultatief) breid **Geërfte toestemmingen** optie uit om gebruikers, teams, groepen, bedrijven, of baanrollen te bekijken die toestemmingen van de werkruimte erven.
+1. (Facultatief) klik het aantal gebruikers onder de **Geërfte toestemmingen** optie om gebruikers, teams, groepen, bedrijven, of baanrollen te bekijken die toestemmingen van de werkruimte erven.
 
    >[!TIP]
    >
@@ -168,15 +165,14 @@ U kunt machtigingen aanpassen voor afzonderlijke recordtypen in een werkruimte a
 
 1. (Optioneel en voorwaardelijk) Als u het recordtype wilt delen met specifieke entiteiten en deze een andere toegang tot het recordtype wilt geven dan ze al hebben voor de werkruimte, gaat u als volgt te werk:
 
-1. **Draai van** Geërfte toestemmingen.
+   1. Selecteer **onbruikbaar maken** van **Geërfte toestemmingen** drop-down menu.
 
    >[!TIP]
    >
    >Workspace-managers blijven beheerdersmachtigingen voor het recordtype hebben.
 
-   1. In de **toegang van de Verlening tot dit verslagtype** gebied, voeg de gebruikers, de teams, de groepen, de bedrijven, of baanrollen toe die u een verschillend toestemmingsniveau aan wilt verlenen.
+   1. In de **toegang van de Verlening tot dit verslagtype** gebied, voeg de gebruikers, de teams, de groepen, de bedrijven, of baanrollen toe die u een verschillend toestemmingsniveau aan wilt verlenen dan zij voor de werkruimte hebben.
    1. Kies een machtigingsniveau.
-
 
    >[!IMPORTANT]
    >
@@ -185,20 +181,22 @@ U kunt machtigingen aanpassen voor afzonderlijke recordtypen in een werkruimte a
    >* U kunt gebruikers minder bevoegdheden geven aan het recordtype als zij over Contribute-machtigingen voor de werkruimte beschikken.
    > Voor meer informatie, zie [ Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront ](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
-1. Om gebruikers te geven die geen toestemmingen aan de werkruimtetoegang hebben om verslagtype, op de **toegang van de Verlening tot dit mening** gebied te bekijken, begin de naam van een gebruiker, een groep, een team, een bedrijf, of baanrol te typen, dan het te klikken wanneer het in de lijst toont.
+1. Om gebruikers te geven die geen toestemmingen aan de werkruimtetoegang hebben om een verslagtype, op de **toegang van de Verlening tot dit mening** gebied te bekijken, begin de naam van een gebruiker, een groep, een team, een bedrijf, of baanrol te typen, dan het te klikken wanneer het in de lijst toont.
 
    De entiteit u selecteerde wordt toegevoegd aan het verslagtype en aan de werkruimte met **toestemmingen van de Mening**.
 
    Systeembeheerders ontvangen altijd beheermachtigingen om gegevenstypen op te nemen die met hen worden gedeeld, en er is een indicatie dat een gebruiker een systeembeheerder is.
 
-1. Klik **verbinding van het Exemplaar** om een verbinding aan het verslagtype aan uw klembord te kopiëren.
+1. (Facultatief) klik **verbinding van het Exemplaar** om een verbinding aan het verslagtype aan uw klembord te kopiëren en het met anderen te delen.
 1. Klik **sparen**.
 
    Het recordtype wordt nu gedeeld met andere gebruikers.
 
-1. Deel de gekopieerde koppeling met anderen. Gebruikers die de koppeling ontvangen, moeten actieve gebruikers zijn en zich aanmelden bij Workfront om de pagina met recordtypen te kunnen openen en weergeven in de geselecteerde weergave.
+1. Deel de gekopieerde koppeling met anderen. Gebruikers die de koppeling ontvangen, moeten actieve gebruikers zijn en zich aanmelden bij Workfront om de pagina met recordtypen te kunnen openen en weergeven in de geselecteerde weergave. Zij moeten toestemmingen aan het verslagtype hebben om het te kunnen bekijken.
 
 ## Machtigingen verwijderen van een recordtype
+
+U kunt gebruikersmachtigingen verwijderen uit een recordtype. Ze behouden echter ten minste weergavetoegang tot de werkruimte, zodat ze tenminste het recordtype kunnen bekijken. U moet hun toegang uit de werkruimte verwijderen als u wilt dat zij geen machtigingen hebben voor de recordtypen in de werkruimte.
 
 {{step1-to-planning}}
 
@@ -213,7 +211,7 @@ U kunt machtigingen aanpassen voor afzonderlijke recordtypen in een werkruimte a
 
 1. Klik **sparen**.
 
-   Personen hebben geen toegang meer tot het recordtype. Ze kunnen nog steeds machtigingen voor de werkruimte hebben, tenzij u ze ook verwijdert van werkruimtemachtigingen.
+   Personen beschikken niet meer over de aangegeven machtigingen voor het recordtype. Ze hebben echter nog steeds machtigingen voor de werkruimte, tenzij u ze ook verwijdert uit de werkruimtemachtigingen.
 
    Er is geen bericht voor de gebruikers die zijn verwijderd van toegang tot de weergave, dat zij deze toegang niet meer hebben.
 

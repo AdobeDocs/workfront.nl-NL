@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1088'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 0%
 <!-- update the title (and all the links to this article) at preview, to be this: Create Workfront objects from Workfront Planning as you connect them to records-->
 <!-- remove preview and production at release time-->
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview"> de informatie die op deze pagina wordt benadrukt verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 {{planning-important-intro}}
 
@@ -113,7 +113,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objectmachtigingen</p></td> 
-   <td> <p>Rechten beheren in de werkruimte <!--<span class="preview">and record type</span>--> waar u records wilt toevoegen. </p>  
+   <td> <p>Beheer toestemmingen aan de werkruimte <span class="preview"> en verslagtype </span> waar u verslagen wilt toevoegen. </p>  
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>
    <p>Rechten voor Workfront-objecten (portfolio's) beheren om onderliggende objecten (projecten) toe te voegen.</p>
    </td> 
@@ -145,11 +145,7 @@ Om projecten tot stand te brengen aangezien u hen van andere verslagen verbindt:
 
 1. (Voorwaardelijk) klik **toevoegen project**
 of
-Begin de naam van een project te typen, dan klik **voegt project** toe als u het niet kunt vinden.
-
-   Als u geen project kunt vinden wanneer het proberen om het van het verbonden verslaggebied van een ander verslag toe te voegen, voeg een naam toe, dan klik **project** toevoegen. De Add knoop wordt gevolgd door de projectnaam u typte.
-
-   <!--at production or when the permanent Add button is released to preview, take the first part of the direction above out and say "Click Add to add a new project"; take this out too: "The Add button is followed by the project name you typed."-->
+Begin de naam van een project te typen, dan klik **voegt project** toe als u het niet kunt vinden. De Add knoop wordt gevolgd door de projectnaam u typte.
 
    ![ voeg project toe wanneer het verbinden van het van een verbindingsgebied ](assets/add-project-when-connecting-it-from-connection-field.png)
 
@@ -170,13 +166,11 @@ Om portefeuilles tot stand te brengen aangezien u hen van de verslagen van de Pl
 
 1. Ga naar de detailspagina van een verslag of naar de lijst van het verslagtype en begin de verslagen van de Planning van Workfront met de portefeuilles van Workfront aan te sluiten, zoals die in het artikel [ worden beschreven verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md).
 
-   <!--at production or when the permanent Add button is released to preview, take the first part of the direction below out and say "Click Add to add a new portfolio"; take this out too: "The Add button is followed by the portfolio name you typed."-->
-
 1. (Voorwaardelijk) klik **toevoegen portefeuille**
 
    of
 
-   Begin de naam van een portefeuille te typen, dan klik **toevoegen portefeuille** als u het niet kunt vinden.—> Als u geen portefeuille kunt vinden wanneer het proberen om het van het verbonden verslaggebied van een ander verslag toe te voegen, voeg een naam toe, dan klik **portefeuille** toevoegen. De knop Toevoegen wordt ook gevolgd door de naam van het portfolio die u hebt getypt.
+   Begin de naam van een portefeuille te typen, dan klik **toevoegen portefeuille** als u het niet kunt vinden. De knop Toevoegen wordt gevolgd door de naam van het portfolio die u hebt opgegeven.
 
    ![ voeg portefeuille toe wanneer het verbinden van het van een verbindingsgebied ](assets/add-portfolio-when-connecting-it-from-connection-field.png)
 
@@ -189,8 +183,6 @@ Om portefeuilles tot stand te brengen aangezien u hen van de verslagen van de Pl
 Om programma&#39;s tot stand te brengen aangezien u hen van de verslagen van de Planning verbindt:
 
 1. Ga naar de detailspagina van een verslag of naar de lijst van het verslagtype en begin de verslagen van de Planning van Workfront met de portefeuilles van Workfront aan te sluiten, zoals die in het artikel [ worden beschreven verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md).
-
-   <!--at production or when the permanent Add button is released to preview, take the first part of the direction below out and say "Click Add to add a new program"; take this out too: "The Add button is followed by the program name you typed."-->
 
 1. Klik **toevoegen programma**
 

@@ -6,14 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 recommendations: noDisplay, noCatalog
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---
 
 # Adobe Workfront Planning: artikelindex
+
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 
 {{planning-important-intro}}
@@ -46,7 +50,13 @@ De volgende secties bevatten artikelen die een gedetailleerde beschrijving geven
    * Workfront-licenties en planningsmachtigingen
    * Machtigingen voor delen plannen
    * Weergaven delen
-   * Werkruimten delen (recordtypen, records en velden)
+   * Werkruimten delen (records en velden)
+
+  <div class="preview">
+
+   * Recordtypen delen
+
+  </div>
 
 * [ Architectuur: artikelindex ](/help/quicksilver/planning/architecture/architecture-information.md) bevat de volgende informatie:
 

@@ -1,26 +1,26 @@
 ---
 title: De recordpagina exporteren
-description: U kunt de voorvertoning of detailpagina van de record exporteren naar Word.
+description: U kunt de voorvertoning of detailpagina van een record vanuit Adobe Workfront Planning exporteren naar een Microsoft Word-bestand.
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '553'
 ht-degree: 0%
 
 ---
 
 # De details van een record exporteren
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Voorproef voor alle klanten, of in het milieu van de Productie voor klanten die snelle versies toeliet.</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken.</span>
 
 
-Als u efficiënter wilt samenwerken met anderen die mogelijk geen Workfront-account hebben, kunt u de gegevens van een record exporteren naar een bestand en deze delen met hen.
+Als u efficiënter wilt samenwerken met anderen die mogelijk geen Workfront-account hebben, kunt u de detailpagina van een record exporteren naar een Microsoft Word-bestand en deze delen met hen.
 
 ## Toegangsvereisten
 
@@ -78,7 +78,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objectmachtigingen</p></td> 
-   <td>   <p>Machtigingen voor een werkruimte weergeven of vergroten <!--<span class="preview">and record type</span>--> </a> </p>  
+   <td>   <p>De mening of hogere toestemmingen aan een werkruimte <span class="preview"> en verslagtype </span></a> </p>  
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p> </td> 
   </tr> 
 <tr> 

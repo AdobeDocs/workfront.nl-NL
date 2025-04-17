@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '731'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 <!--should this move to the Access folder when we have sharing for ALL the objects???-->
 
+<!--take out preview and production references at release-->
+
 # Records delen
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
-
-<!--take out preview and production references at release-->
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 {{planning-important-intro}}
 
@@ -34,22 +34,17 @@ U kunt een Adobe Workfront-planningsrecord op de volgende manieren delen:
 
 * Kopieer een koppeling naar de pagina van de record wanneer u records bekijkt in de tabelweergave van het recordtype.
 
-* U kunt alle records in een werkruimte delen met andere gebruikers door de werkruimte <!--<span class="preview">and record type</span>--> te delen. Voor meer informatie, zie [ een werkruimte ](/help/quicksilver/planning/access/share-workspaces.md) delen.
+* U kunt alle verslagen in een werkruimte met andere gebruikers delen door de werkruimte <span class="preview"> en het verslagtype te delen.</span>
 
-<!-- replace the last sentence above with this: 
+  Zie de volgende artikelen voor meer informatie:
 
-For more information see the following articles:
+   * [Een werkruimte delen](/help/quicksilver/planning/access/share-workspaces.md)
 
-* [Share a workspace](/help/quicksilver/planning/access/share-workspaces.md)
+  <div class="preview">
 
+   * [Een recordtype delen](/help/quicksilver/planning/access/share-record-types.md)
 
-<div class="preview">
-
-* [Share a record type](/help/quicksilver/planning/access/share-record-types.md)
-
-</div>
-
--->
+  </div>
 
 In dit artikel wordt beschreven hoe u een koppeling naar de pagina van een record kunt kopiëren vanuit de tabelweergave van een recordtype.
 
@@ -109,8 +104,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objectmachtigingen</p></td> 
-   <td>  <p>Machtigingen voor het delen van een record via een koppeling weergeven of hoger in een werkruimte<!--<span class="preview">and record type</span>--> </p>
-   <p>Rechten voor een werkruimte beheren <!--<span class="preview">and record type</span>--> om de records in de werkruimte te delen </p>
+   <td>  <p>De mening of hogere toestemmingen aan een werkruimte <span class="preview"> en verslagtype </span> om te delen   een record met behulp van een koppeling </p>
+   <p>Beheer toestemmingen aan een werkruimte <span class="preview"> en verslagtype </span> om de verslagen in de werkruimte te delen </p>
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>  </td> 
   </tr> 
 <tr> 
@@ -220,26 +215,23 @@ Alleen gebruikers met de machtiging Beheren in een werkruimte kunnen deze delen 
 Voor meer informatie, zie [ een werkruimte ](/help/quicksilver/planning/access/share-workspaces.md) delen.
 
 
-<!--
 <div class="preview">
 
-## Share all records in a record type by sharing the record type
+## Alle records in een recordtype delen door het recordtype te delen
 
-In the Production environment, records inherit permissions from the workspace. 
+In het milieu van de Productie, erven de verslagen toestemmingen van de werkruimte.
 
-In the Preview environment, records inherit permissions from the record type. 
+In de voorvertoningsomgeving nemen records rechten over van het recordtype.
 
-By default, record types inherit permissions from the workspace. 
+Standaard nemen recordtypen machtigingen van de werkruimte over.
 
-However, you can do any of the following:
+U kunt echter een van de volgende handelingen uitvoeren:
 
-* Turn off inherited permissions from the workspace on a record type. This removes permissions from the records. 
-* Manually grant permissions to users to a record type, even when they have no permissions to the workspace. This automatically gives them View permissions to the workspace. This grants permissions to users to the records. 
+* Schakel overgeërfde machtigingen van de werkruimte op een recordtype uit. Dit verwijdert hogere toestemmingen aan de verslagen, maar houdt de toestemmingen van de Mening aan de werkruimte, verslagtype, en verslagen.
+* Hiermee geeft u gebruikers handmatig machtigingen voor een recordtype, zelfs als ze geen machtigingen voor de werkruimte hebben. Dit geeft hen automatisch de toestemmingen van de Mening aan de werkruimte. Hierdoor krijgen gebruikers machtigingen voor de records.
 
-Only users with Manage permissions to a workspace can share its record types and records with others. 
+Alleen gebruikers met de machtiging Beheren in een werkruimte kunnen hun recordtypen en records delen met anderen.
 
-For more information, see [Share record types](/help/quicksilver/planning/access/share-record-types.md). 
+Voor meer informatie, zie [ recordtypes van het Aandeel ](/help/quicksilver/planning/access/share-record-types.md).
 
 </div>
-
--->
