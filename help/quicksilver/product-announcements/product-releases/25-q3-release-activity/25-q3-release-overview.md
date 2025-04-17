@@ -4,15 +4,12 @@ description: Deze pagina bevat informatie over de functionaliteit die is opgenom
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
-source-git-commit: 131a4443564def1437c9b26d1e29e65fcc78d069
+source-git-commit: 20faacf09266c455a29a04db59a4d39f825f0c2d
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
-
 
 # Overzicht release derde kwartaal 2025
 
@@ -45,32 +42,32 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * [Verbeteringen voor documentbeheer](#document-management-enhancements)
 * [Andere verbeteringen](#other-enhancements)
 
-
-
-### Verbeteringen voor documentbeheer
+<!--
+    
+### Document management enhancements
 
 <table style="table-layout:auto">
   <tbody>
     <tr>
-        <td><strong> Eigenschap </strong>
+        <td><strong>Feature</strong>
         </td>
-        <td><strong>Voorvertoning</strong></td>
-        <td><strong>Snelle release</strong></td>
-        <td><strong>Driemaandelijks</strong></td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}"> de knopen van het besluit van de nieuwe documentgoedkeuring beschikbaar in het proef van kijker </a><p>[!BADGE Off schema]{type=Neutral}</p>
-            <p>De knoppen voor het nemen van beslissingen voor het goedkeuren van nieuwe documenten worden nu weergegeven in de proefdrukviewer. Wanneer u nu een eenvoudige proefdruk maakt en vervolgens fiatteurs en revisoren uit het documentoverzicht toevoegt, kunnen ze hun beslissing rechtstreeks in de proefdrukviewer maken.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">New document approval decision buttons available in proofing viewer</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>The new document approval decision buttons now appear in the proofing viewer. Now, when you create a simple proof and then add approvers and reviewers from the Document summary, they can make their decision directly inside the proofing viewer.</p>
         </td>
-        <td>10 april 2025</td>
-        <td>17 april 2025</td>
-        <td>17 april 2025</td>
+        <td>April 10, 2025</td>
+        <td>April 17, 2025</td>
+        <td>April 17, 2025</td>
     </tr>     
   </tbody>
-</table>
+</table> 
 
-
+-->
 
 
 ### Andere verbeteringen
