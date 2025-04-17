@@ -1,0 +1,39 @@
+---
+title: Verbeteringen van projecten in het derde kwartaal van 2025
+description: Verbeteringen van projecten in het derde kwartaal van 2025
+author: Nolan
+feature: Product Announcements
+recommendations: noDisplay, noCatalog
+hide: true
+hidefromtoc: true
+source-git-commit: 16f0caf4bdf80ef7b95e8ab51bf9f75aa3b81b3f
+workflow-type: tm+mt
+source-wordcount: '181'
+ht-degree: 0%
+
+---
+
+# Verbeteringen voor documentbeheer in derde kwartaal 2025
+
+Op deze pagina worden alle verbeteringen in documentbeheer beschreven die zijn aangebracht met de release Derde kwartaal 2025 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
+
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwartaal 2025 versiecyclus, zie [ Derde Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
+
+>[!IMPORTANT]
+>
+>De functies die op deze pagina worden vermeld, maken deel uit van een gefaseerde release en zijn alleen beschikbaar voor specifieke klanten.
+
+
+## Knoppen voor het nemen van beslissingen voor het goedkeuren van nieuwe documenten beschikbaar in de proefdrukviewer
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 10 april 2025; Productieversie voor alle klanten: 17 april 2025
+
+De knoppen voor het nemen van beslissingen voor het goedkeuren van nieuwe documenten worden nu weergegeven in de proefdrukviewer. Wanneer u nu een eenvoudige proefdruk maakt en vervolgens fiatteurs en revisoren uit het documentoverzicht toevoegt, kunnen ze hun beslissing rechtstreeks in de proefdrukviewer maken.
+
+Eerder moest u de proefdrukviewer afsluiten om een beslissing te nemen.
+
+Goedkeuringen die vóór deze release zijn gemaakt, geven de knoppen in de proefdrukviewer niet weer.
+
+Voor meer informatie, zie [ de goedkeuringen van het nieuwe document van het Gebruik samen en het proef ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md).
