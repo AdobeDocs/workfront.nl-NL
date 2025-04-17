@@ -4,11 +4,10 @@ description: Verbeteringen van projecten in het derde kwartaal van 2025
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
-source-git-commit: 16f0caf4bdf80ef7b95e8ab51bf9f75aa3b81b3f
+exl-id: 4829d487-7041-447f-9a68-fb1acf467734
+source-git-commit: d616fcdafee137adcdd6fe88616a18c01ed969f3
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
@@ -28,7 +27,9 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwart
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 10 april 2025; Productieversie voor alle klanten: 17 april 2025
+>* Voorvertoningsrelease: 10 april 2025; Productieversie voor alle klanten: 17 april 2025
+>
+>* Deze functionaliteit is momenteel niet beschikbaar voor gebruikers op de Adobe Unified Experience.
 
 De knoppen voor het nemen van beslissingen voor het goedkeuren van nieuwe documenten worden nu weergegeven in de proefdrukviewer. Wanneer u nu een eenvoudige proefdruk maakt en vervolgens fiatteurs en revisoren uit het documentoverzicht toevoegt, kunnen ze hun beslissing rechtstreeks in de proefdrukviewer maken.
 
