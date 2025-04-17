@@ -3,11 +3,11 @@ navigation-topic: the-new-workfront-experience
 title: Pagina's vastzetten om uw werkruimte aan te passen
 description: U kunt uw belangrijkste werk  [!DNL Adobe Workfront]  voor verhoogde zicht, betere organisatie, en snellere toegang vastzetten. Vastgezette pagina's zijn altijd toegankelijk vanaf de bovenkant van elke pagina in Workfront.
 feature: Get Started with Workfront
-author: Nolan
+author: Courtney
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
-source-git-commit: e8a3f47a33b862a29000436d7c08c1a0e9371907
+source-git-commit: b3fe63f7a332f50c7bac3bedee5db3bbbabd2b42
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ U zou aan een lay-outmalplaatje kunnen worden toegewezen dat reeds vastgezette p
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -29,27 +31,28 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
-   <td> <p>[!UICONTROL Request] of hoger</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie</strong></td> 
+   <td> <p>Nieuw: Medewerker</p> 
+   <p>of</p>
+     <p>Huidig: Verzoek</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan of vergunningstype u hebt, contacteer uw [!DNL Workfront] beheerder.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Een pagina vastzetten
 
-1. Ga naar de pagina die u wilt vastzetten.
+1. Navigeer naar de pagina die u wilt vastzetten. Dit kan om het even welk werkpunt, zoals een project, een taak, een verzoekrij, enz. zijn.
 
-   Dit kan om het even welk werkpunt, zoals een project, een taak, een verzoekrij, enz. zijn.
-
-1. Klik op **[!UICONTROL Pin current page]** boven aan de pagina.
-
-   De vastgezette pagina is nu toegankelijk vanaf de bovenkant van elke pagina in [!DNL Workfront] .
+1. Klik in de linkerbovenhoek van de pagina op **[!UICONTROL Pin current page]** . De vastgezette pagina is nu toegankelijk vanaf de bovenkant van elke pagina in [!DNL Workfront] .
 
 ## Een vastgezette pagina openen
 
@@ -61,31 +64,31 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    of
 
-   Als u veel pagina&#39;s hebt vastgezet, moet u mogelijk op het **[!UICONTROL More]menu** klikken ![](assets/more-icon-spectrum.png) om extra vastgezette pagina&#39;s weer te geven.
+   Als u vele pagina&#39;s hebt vastgezet, klik het **[!UICONTROL More]** pictogram ![ klikken het Meer pictogram ](assets/more-icon.png) om extra vastgezette pagina&#39;s te bekijken.
+
+   ![ Mening extra vastgezette pagina&#39;s ](assets/display-pinned-pages.png)
 
    De vastgezette pagina wordt weergegeven.
 
-## Naam vastgezette pagina&#39;s wijzigen
+## De naam van een vastgezette pagina wijzigen
 
-U kunt de naam van een vastgezette pagina voor u betekenisvoller maken.
-
-1. Houd de muisaanwijzer boven de vastgezette pagina in de bovenste navigatie of **[!UICONTROL More menu]** .
-1. Klik op het pictogram Meer ![](assets/more-icon.png) naast de naam van het punt en selecteer **[!UICONTROL Rename pin]** .
+1. Houd de muisaanwijzer boven de vastgezette pagina in de bovenste navigatie.
+1. Klik **Meer** pictogram ![ Meer pictogram ](assets/more-icon.png) dat naast de speldennaam verschijnt en **[!UICONTROL Rename pin]** selecteert.
 
    ![ noem speld anders ](assets/pin-menu.png)
 
-1. Typ de nieuwe speldennaam, en klik **sparen**.
+1. Typ de nieuwe speldennaam, dan klik **sparen**.
 
-   ![ klik het vinkje om speld ](assets/new-pin-name.png) anders te noemen
+   ![ klik het vinkje om speld ](assets/rename-pin-dialog-box.png) anders te noemen
 
 
 ## Vastgezette pagina&#39;s opnieuw ordenen
 
 U kunt de volgorde wijzigen waarin vastgezette pagina&#39;s worden weergegeven.
 
-1. Plaats over de vastgezette pagina u wilt bewegen, dan **klikken meer** pictogram.
+1. Beweeg over de vastgezette pagina u wilt bewegen, dan **klikken Meer** pictogram ![ Meer pictogram ](assets/more-icon.png).
 1. Kies **Beweging verlaten** of **Beweging recht** om uw speld te bewegen.
-1. (Facultatief) kies **Beweging aan voorzijde** om uw speld aan de uiterst juiste positie van de speldbar te bewegen.
+1. (Facultatief) kies **Beweging aan voorzijde** om uw speld aan de uiterst linkse positie van de speldbar te bewegen.
 
    ![ bewegingspunten ](assets/pin-menu.png)
 
@@ -93,9 +96,9 @@ U kunt de volgorde wijzigen waarin vastgezette pagina&#39;s worden weergegeven.
 
 ## Een vastgezette pagina verwijderen
 
-1. Klik op het pictogram Meer ![](assets/more-icon.png) naast het punt dat u wilt verwijderen.
-1. Klik **verwijderen speld**.
+1. Klik **Meer** pictogram ![](assets/more-icon.png) naast het speld u wilt verwijderen.
+1. Klik **verwijderen speld**. De pagina is niet meer toegankelijk vanaf de bovenkant van een pagina in [!DNL Workfront] .
 
    ![ verwijder speld ](assets/pin-menu.png)
 
-   De pagina is niet meer toegankelijk vanaf de bovenkant van een pagina in [!DNL Workfront] .
+
