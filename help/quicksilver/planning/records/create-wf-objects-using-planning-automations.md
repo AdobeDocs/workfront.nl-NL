@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
+source-git-commit: 4bdd4510a5ff7faf8f497299eac0a10f4fe7fbc2
 workflow-type: tm+mt
-source-wordcount: '2202'
+source-wordcount: '2203'
 ht-degree: 0%
 
 ---
@@ -309,7 +309,7 @@ Op het **gebied van de Kaart**, werk de volgende informatie bij:
 
      Als een campagne met de naam `Summer breeze` bijvoorbeeld een project heeft gegenereerd op basis van een keuze uit een veld in `EMEA` , krijgt het project de naam `[ Summer breeze ] EMEA` .
 
-   * De record waaruit de automatisering wordt geactiveerd, wordt toegevoegd aan het verbonden veld van de nieuwe record.
+   * De record waaruit u de automatisering activeert, wordt toegevoegd aan het verbonden veld van de nieuwe records.
 
    >[!NOTE]
    >
