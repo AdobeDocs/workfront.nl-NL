@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 94cc3fc02e5ac499684056f21e84956a00d00334
+source-git-commit: 70dce5fb7848f137a264e28e012234870e8d8eb5
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%
@@ -110,7 +110,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Opmerkingen bij de release voor andere gebieden
 
 * [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
-* [ Adobe Workfront die Eerste Kwartaal 2025 versieactiviteit ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md) plant.
+* [ Adobe Workfront die Derde Kwartaal 2025 versieactiviteit ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md) plant.
 
 Er zijn geen updates voor het volgende op dit punt in de versie:
 
