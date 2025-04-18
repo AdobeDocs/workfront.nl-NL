@@ -5,18 +5,14 @@ description: U kunt werkitems en documenten snel samenvatten met de functie Over
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5b0e1002-b6e9-4354-9ead-643de1de5bab
-source-git-commit: c91a0cd0987b810cc5fb3f52199dccc64bf4d0a1
+source-git-commit: 1b11eb212f8eb980361cfd22a07ac17be71d4472
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
 
 # De Medewerker van AI van het gebruik om met projecten, taken, en kwesties te werken
-
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar in de milieu van de Voorproef voor alle klanten, en in de milieu van de Productie voor klanten die maandelijkse versies hebben toegelaten. </span>
-
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 
 Met AI Assistant kunt u projecten, taken en problemen in Workfront zoeken.
