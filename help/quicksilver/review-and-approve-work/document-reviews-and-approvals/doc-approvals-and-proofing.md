@@ -2,24 +2,22 @@
 product-area: documents
 navigation-topic: approvals
 title: Verenigde goedkeuringen en proefdrukken samen gebruiken
-description: You can use Unified Approvals with proofing.
+description: U kunt Verenigde Goedkeuringen met proef gebruiken.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: be484629-6e70-4809-ad4c-a489d5814da6
-source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
+source-git-commit: e20f1b70ffd6c94b302cea6e691337624db497ef
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '881'
 ht-degree: 0%
 
 ---
 
 # Verenigde goedkeuringen en proefdrukken samen gebruiken
 
-Unified Approvals in Workfront introduces a new set of features to help you review and approve documents. You can use a Unified Approvals workflow with the existing proofing viewer to add comments and markup to documents in review.
+De verenigde goedkeuringen in Workfront introduceren een nieuwe reeks eigenschappen om u te helpen documenten herzien en goedkeuren. U kunt een Unified Approval-workflow gebruiken met de bestaande proefdrukviewer om opmerkingen en markeringen toe te voegen aan documenten die worden gecontroleerd.
 
 Er zijn sommige zeer belangrijke verschillen in het werkschema wanneer het gebruiken van Verenigde Goedkeuringen en het proef samen:
-
-* Beslissingsknoppen worden niet weergegeven in de proefdrukviewer
 
 * Deelnemers worden weergegeven in de samenvatting van het document, niet in de proefdrukworkflow
 
@@ -68,7 +66,7 @@ Om deelnemers toe te wijzen:
 
 ## Maak zo nodig een nieuwe versie
 
-Als u nog een revisie- en goedkeuringsronde nodig hebt, kunt u een nieuwe proefversie maken.  <!-- and add the previous participants, new participants, or a mix of both. --> U kunt informatie over eerdere versies en deelnemers weergeven in het overzicht van het document.
+Als u nog een revisie- en goedkeuringsronde nodig hebt, kunt u een nieuwe proefversie maken en de vorige deelnemers, nieuwe deelnemers of een combinatie van beide toevoegen. In het overzicht van het document kunt u informatie over eerdere versies en deelnemers weergeven.
 
 Een nieuwe versie toevoegen:
 
@@ -85,9 +83,9 @@ Een nieuwe versie toevoegen:
 
 1. (Optioneel) Stel een deadline in voor de goedkeuring. Gebruikers en teams worden 72 uur per e-mail op de hoogte gesteld en 24 uur vóór de opgegeven deadline.
 
-1. Om een fiatteur toe te voegen, klik de Approver knoop en begin in een gebruiker of teamnaam te typen, <span class="preview"> of een fiatteur van de vorige versie te kiezen.</span>
+1. Als u een fiatteur wilt toevoegen, klikt u op de knop fiatteur en typt u een gebruiker- of teamnaam of kiest u een fiatteur uit de vorige versie.
 
-1. Als u een revisor wilt toevoegen, klikt u op de knop Revisor en typt u een gebruiker- of teamnaam <span class="preview"> of kiest u een revisor uit de vorige versie. </span>
+1. Als u een revisor wilt toevoegen, klikt u op de knop Revisor en typt u een gebruiker- of teamnaam. Kies vervolgens een revisor uit de vorige versie.
 
    ![ voegt fiatteurs ](assets/add-approvers.png) toe
 
@@ -100,11 +98,7 @@ Een nieuwe versie toevoegen:
 
 Het document wordt pas naar een goedgekeurde status verplaatst als alle toegewezen fiatteurs &quot;Goedgekeurd&quot; hebben gekozen.
 
-Als een fiatteur &quot;werk nodig heeft&quot; kiest, verandert de status van het document direct in werk in behoefte. Het document moet worden herzien en geüpload als een nieuwe versie met een nieuwe goedkeuringswerkstroom.
-
->[!IMPORTANT]
->
->Knoppen voor het nemen van beslissingen voor documenten worden niet weergegeven in de proefdrukviewer. U moet terugnavigeren naar de pagina Overzicht van het document of Documentdetails om uw beslissing te nemen of uw revisie te markeren.
+Als een fiatteur &quot;werk nodig heeft&quot; kiest, verandert de status van het document direct in werk in behoefte. Het document moet worden gereviseerd en geüpload als een nieuwe versie met een nieuwe goedkeuringswerkstroom.
 
 Een document controleren en goedkeuren:
 
@@ -114,10 +108,6 @@ Een document controleren en goedkeuren:
 
 1. Bekijk de inhoud en voeg eventuele opmerkingen of markeringen toe. Voor meer informatie over hoe te om de het proeven kijker te gebruiken, zie [ proefdrukken van het Overzicht binnen Adobe Workfront: artikelindex ](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
 
-1. Wanneer u klaar bent met de revisie, sluit u de proefdrukviewer.
-
-1. Als u zich op de pagina Documentdetails bevindt, bevinden de beslissingsknoppen zich in de rechterbovenhoek van het scherm.
-
 1. Kies een van de volgende beslissingen:
 
    * **keur** goed: Het document vereist geen veranderingen en is klaar voor gebruik.
@@ -125,3 +115,4 @@ Een document controleren en goedkeuren:
    * **het werk van behoeften**: Het document vereist veranderingen en is niet klaar voor gebruik. Nadat de opgegeven wijzigingen zijn aangebracht, moet het document worden geüpload als een nieuwe versie en door een andere goedkeuringsronde worden geleid. Voor meer informatie bij het uploaden van een nieuwe versie, zie [ een nieuwe versie creëren zoals nodig ](#create-a-new-version-as-needed) in dit artikel.
 
 Nadat u een beslissing hebt genomen, wordt de eigenaar van het document via e-mail op de hoogte gesteld.
+

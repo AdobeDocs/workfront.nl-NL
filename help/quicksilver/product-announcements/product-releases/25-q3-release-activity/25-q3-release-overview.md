@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 70dce5fb7848f137a264e28e012234870e8d8eb5
+source-git-commit: 27107a4c2f694e9e8725d074058b008972116924
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}"> de knopen van het besluit van de nieuwe documentgoedkeuring beschikbaar in het proef van kijker </a><p>[!BADGE Off schema]{type=Neutral}</p>
-            <p>De knoppen voor het nemen van beslissingen voor het goedkeuren van nieuwe documenten worden nu weergegeven in de proefdrukviewer. Wanneer u nu een eenvoudige proefdruk maakt en vervolgens fiatteurs en revisoren uit het documentoverzicht toevoegt, kunnen ze hun beslissing rechtstreeks in de proefdrukviewer maken.</p><p><b> NOTA </b> Deze functionaliteit is momenteel niet beschikbaar aan gebruikers op de Adobe Verenigde Ervaring.</p>
+            <p>De knoppen voor het nemen van beslissingen voor het goedkeuren van nieuwe documenten worden nu weergegeven in de proefdrukviewer. Wanneer u nu een eenvoudige proefdruk maakt en vervolgens fiatteurs en revisoren uit het documentoverzicht toevoegt, kunnen ze hun beslissing rechtstreeks in de proefdrukviewer maken.</p>
         </td>
         <td>10 april 2025</td>
         <td>17 april 2025</td>

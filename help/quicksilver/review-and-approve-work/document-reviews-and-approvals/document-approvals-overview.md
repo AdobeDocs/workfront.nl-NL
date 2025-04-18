@@ -6,9 +6,9 @@ description: U kunt extra fiatteurs of revisoren toevoegen aan een document dat 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
+source-git-commit: e20f1b70ffd6c94b302cea6e691337624db497ef
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,6 @@ De verenigde goedkeuringen zijn een groots herontwerp van het bestaande goedkeur
 
 **Verschillen van het Bewijzen**
 
-* De beslissingsknoppen voor documentgoedkeuring zijn niet beschikbaar in de proefdrukviewer. Besluiten kunnen worden genomen in de documentoverzicht, de Workfront Home-widgets of op de pagina Documentdetails.
 * Deelnemers aan documentgoedkeuring worden weergegeven in het overzicht van het document, niet op het tabblad voor de proefwerkstroom.
 * De verenigde goedkeuringen worden niet gesteund in het huidige rapporteringshulpmiddel.
 
@@ -74,6 +73,6 @@ Voor gebruikers die documenten bekijken of goedkeuren waarvoor zij een verzoek h
 
 Wij stellen Verenigde Goedkeuringen ter beschikking van gebruikers tijdens de cursus van verscheidene versies. Naast het toevoegen van nieuwe eigenschappen, zullen wij ook het aantal rekeningen uitbreiden waarvoor Verenigde Goedkeuringen met elke versie beschikbaar zijn.
 
-Als u Verenigde Goedkeuringen in uw productiemilieu toegelaten wilt hebben, te bereiken gelieve uw Succes van de Klant of Strategische Manager van de Rekening.
+Als u Verenigde Goedkeuringen in uw productiemilieu zou willen hebben toegelaten, gelieve uw Succes van de Klant of Strategische Manager van de Rekening te bereiken.
 
 

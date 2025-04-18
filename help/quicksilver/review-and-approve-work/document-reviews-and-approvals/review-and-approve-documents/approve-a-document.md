@@ -6,9 +6,9 @@ description: Als u als fiatteur aan een document wordt toegewezen, zijn er veelv
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
-source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
+source-git-commit: 40c28e7efa61475c186d7f3fabda35a7257baf27
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1246'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    * **het werk van Behoeften** wijst erop dat de documentversie niet wordt goedgekeurd en significante veranderingen vereist.
 
-## Een document goedkeuren in het venster Documentoverzicht
+## Een document goedkeuren in het deelvenster Documentsamenvatting
 
 1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten**.
 
@@ -125,11 +125,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Selecteer in het vervolgkeuzemenu de versie van het document die u wilt reviseren. De meest recente versie wordt standaard geselecteerd.
 
    Als voor de momenteel geselecteerde versie van het document goedkeuring in behandeling is, worden de knoppen voor het goedkeuringsbesluit weergegeven in de rechterbovenhoek van het deelvenster Documentoverzicht. Als voor andere versies van het document goedkeuring voor u in behandeling is, wordt in het keuzemenu een rode punt weergegeven.
-
-   <!--
+<!--
    ![Version dropdown with red dot](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
-   -->
-
+ -->
 1. Klik op een van de volgende twee goedkeuringsopties in de rechterbovenhoek van het deelvenster Documentoverzicht:
 
    * **keur** dropdown goed bevat twee opties:
@@ -139,3 +137,24 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
       * **goedkeuren met veranderingen** wijst erop dat sommige kleine veranderingen nog op het document worden vereist, maar de goedkeuring wordt gegeven op de voorwaarde dat die veranderingen worden aangebracht. Als u deze optie selecteert, zal een venster verschijnen dat een tekstvakje genoemd **Volgende stappen** bevat waar u kunt specificeren welke veranderingen voor het document nodig zijn om worden goedgekeurd. U kunt of die informatie ingaan en **klikken toevoegt bericht**, of u kunt **overslaan** klikken om het goedkeuringsbesluit zonder extra informatie te verzenden.
 
    * **het werk van Behoeften** wijst erop dat de documentversie niet wordt goedgekeurd en significante veranderingen vereist.
+
+
+## Een document goedkeuren vanuit de proefdrukviewer
+
+Een document controleren en goedkeuren:
+
+1. Ga naar uw overzicht e-mailbericht, en klik aan **gaan** herzien.
+
+1. Zodra u in Workfront bent, klik **gaan aan proef**.
+
+1. Bekijk de inhoud en voeg eventuele opmerkingen of markeringen toe. Voor meer informatie over hoe te om de het proeven kijker te gebruiken, zie [ proefdrukken van het Overzicht binnen Adobe Workfront: artikelindex ](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+
+1. Kies een van de volgende beslissingen:
+
+   * **keur** goed: Het document vereist geen veranderingen en is klaar voor gebruik.
+   * **keur met veranderingen** goed: Het document vereist veranderingen en is klaar voor gebruik zodra zij worden gemaakt. Aanvullende goedkeuring is niet vereist.
+   * **het werk van behoeften**: Het document vereist veranderingen en is niet klaar voor gebruik. Nadat de opgegeven wijzigingen zijn aangebracht, moet het document worden geüpload als een nieuwe versie en door een andere goedkeuringsronde worden geleid. Voor meer informatie bij het uploaden van een nieuwe versie, zie [ een nieuwe versie creëren zoals nodig ](#create-a-new-version-as-needed) in dit artikel.
+
+Nadat u een beslissing hebt genomen, wordt de eigenaar van het document via e-mail op de hoogte gesteld.
+
+

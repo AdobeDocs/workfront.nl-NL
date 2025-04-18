@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: d616fcdafee137adcdd6fe88616a18c01ed969f3
+source-git-commit: d072b8e9c657e970c12f75a304f63e04d0512505
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,6 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwart
 >[!NOTE]
 >
 >* Voorvertoningsrelease: 10 april 2025; Productieversie voor alle klanten: 17 april 2025
->
->* Deze functionaliteit is momenteel niet beschikbaar voor gebruikers op de Adobe Unified Experience.
 
 De knoppen voor het nemen van beslissingen voor het goedkeuren van nieuwe documenten worden nu weergegeven in de proefdrukviewer. Wanneer u nu een eenvoudige proefdruk maakt en vervolgens fiatteurs en revisoren uit het documentoverzicht toevoegt, kunnen ze hun beslissing rechtstreeks in de proefdrukviewer maken.
 
