@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: ea4efcb1566d8d2f35487e158a4f445e6c5a32f7
+source-git-commit: c0a7603ed461d903f4d0b0f6788c17d58f20c328
 workflow-type: tm+mt
-source-wordcount: '13159'
+source-wordcount: '13163'
 ht-degree: 0%
 
 ---
@@ -2040,6 +2040,7 @@ ht-degree: 0%
       * [Overzicht van recordtypen](planning/architecture/overview-of-record-types.md)
       * [Recordtypen maken](planning/architecture/create-record-types.md)
       * [Recordtypen maken door informatie uit een CSV- of Excel-bestand te importeren](planning/architecture/import-file-to-create-record-types.md)
+      * [Recordtypen globaal maken](planning/architecture/create-record-types-globally.md)
       * [Overzicht van Connect-recordtypen](planning/architecture/connect-record-types-overview.md)
       * [Verbind recordtypen](planning/architecture/connect-record-types.md)
       * [Recordtypen bewerken](planning/architecture/edit-record-types.md)

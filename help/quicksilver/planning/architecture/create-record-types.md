@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: c0a7603ed461d903f4d0b0f6788c17d58f20c328
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '1098'
 ht-degree: 0%
 
 ---
@@ -146,20 +146,30 @@ Voor informatie over welke verslagtypes met elk malplaatje inbegrepen zijn, zie 
 
    Vouw in een werkruimte de pijl omlaag naar rechts uit, zoek naar een werkruimte en selecteer deze wanneer de werkruimte in de lijst wordt weergegeven.
 1. (Facultatief) klik **sectie** toevoegen om een nieuwe sectie aan de werkruimte toe te voegen.
-1. Klik **recordtype** toevoegen, toen **Nieuw**.
+1. Klik **voeg verslagtype** toe, dan **voeg manueel** toe.
 
    Het vak Recordtype toevoegen wordt geopend.
    <!--1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. -->
 
    ![ voeg verslagtype doos met verschijningsopties ](assets/add-record-type-box-with-appearance-options.png) toe
 
-1. Werk de volgende gegevens bij:
+1. Werk de volgende informatie op het **Verschijning** lusje bij:
 
    * Vervang &quot;Naamloos recordtype&quot; door de naam van het toekomstige recordtype. <!--did they bring back the field label here and did they rename it to "Name"-->
    * **Beschrijving**: Voeg meer informatie over het verslagtype toe.
    * Selecteer een kleur en vorm voor het pictogram dat aan het recordtype is gekoppeld. Ga als volgt te werk:
       * Selecteer een kleur voor het nieuwe recordtype. Dit is de kleur van het pictogram voor recordtype. Grijs is standaard geselecteerd.
       * Selecteer een pictogram in de lijst of typ de naam van een pictogram om te beschrijven wat het vertegenwoordigt en selecteer het pictogram wanneer het wordt weergegeven. Dit is het pictogram van het recordtype. Een bestandspictogram is standaard geselecteerd.
+
+1. (Facultatief en voorwaardelijk) als u een systeembeheerder bent, klik **Geavanceerde montages** en werk de volgende informatie in de **sectie van het werkingsgebied van de Connectiviteit** bij: <!--the info here is duplicated in the Edit record types article-->
+
+   * Laat **verbinden van andere werkruimte** plaatsen toe. Als deze optie is ingeschakeld, is het recordtype toegankelijk en kan het via andere werkruimten worden verbonden.
+   * Kies van welke werkruimten het recordtype kan worden betreden. Kies een van de volgende opties:
+
+      * **Systeem wijd**: De gebruikers kunnen met dit verslagtype van alle werkruimten verbinden waar zij toestemmingen beheren.
+      * **Specifieke werkruimten**: Voeg de namen van de werkruimten toe waar de werkruimtemanagers met dit verslagtype kunnen verbinden.
+
+   ![ creeer verslagtype doos op geavanceerde montages tabel ](assets/create-record-type-box-advanced-settings-tab.png)
 
 1. Klik **creëren**.
 

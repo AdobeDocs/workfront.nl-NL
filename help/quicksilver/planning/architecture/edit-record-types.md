@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: c0a7603ed461d903f4d0b0f6788c17d58f20c328
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
@@ -177,15 +177,17 @@ of
       * Selecteer een kleur om het recordtype te identificeren. Dit is de kleur van het pictogram voor recordtype.
       * Selecteer een pictogram in de lijst of typ de naam van een pictogram om te beschrijven wat het vertegenwoordigt en selecteer het pictogram wanneer het wordt weergegeven. Dit is het pictogram van het recordtype. Een bestandspictogram is standaard geselecteerd.
 
-1. (Voorwaardelijk) als u een systeembeheerder bent, klik het **Geavanceerde montages** lusje in **geef verslagtype** doos uit.
+1. (Voorwaardelijk) als u een systeembeheerder bent, klik het **Geavanceerde montages** lusje in **geef verslagtype** doos uit. <!--the info here is duplicated in the Create record types article-->
 
    ![ geef recordtype doos geavanceerde montages tabel uit ](assets/edit-record-type-box-advanced-settings-tab.png)
 
-1. (Voorwaardelijk) als systeembeheerder, werk de volgende informatie in de **Geavanceerde montages** tabel bij:
+1. (Voorwaardelijk) werk de volgende informatie in de **Geavanceerde montages** tabel bij:
 
-   * **verbind van andere werkruimten**: Selecteer deze knevel om gebruikers toe te staan om met dit verslagtype van andere werkruimten te verbinden. Deze optie is standaard uitgeschakeld.
-   * **Systeem wijd**: Selecteer deze optie om gebruikers toe te staan om met dit verslag van alle werkruimten in het systeem te verbinden.
-   * **Specifieke werkruimten**: Selecteer deze optie om de werkruimten te beperken waarvan de gebruikers met dit verslagtype kunnen verbinden, dan het drop-down menu uitbreiden en de werkruimten selecteren u gebruikers met dit verslagtype van wilt verbinden. U kunt de naam van een werkruimte typen en deze selecteren wanneer deze in de lijst wordt weergegeven.
+   * Laat **verbinden van andere werkruimte** plaatsen toe. Als deze optie is ingeschakeld, is het recordtype toegankelijk en kan het via andere werkruimten worden verbonden.
+   * Kies van welke werkruimten het recordtype kan worden betreden. Kies een van de volgende opties:
+
+      * **Systeem wijd**: De gebruikers kunnen met dit verslagtype van alle werkruimten verbinden waar zij toestemmingen beheren.
+      * **Specifieke werkruimten**: Voeg de namen van de werkruimten toe waar de werkruimtemanagers met dit verslagtype kunnen verbinden.
 
 1. Klik **sparen**.
 
