@@ -2,20 +2,20 @@
 content-type: reference
 product-area: user-management
 navigation-topic: get-started-with-workfront
-title: Rechten verlenen en aanvragen voor objecten
+title: 'Rechten verlenen en aanvragen aan objecten: artikelindex'
 description: Bekijk deze artikelen voor meer informatie over het verlenen en aanvragen van machtigingen voor objecten in Workfront.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: b7b3de2c-8537-49c5-8674-a7a0f3691db3
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
 
-# Rechten verlenen en aanvragen voor objecten
+# Rechten verlenen en aanvragen aan objecten: artikelindex
 
 Deze sectie bevat de volgende artikelen over hoe u toestemming aan voorwerpen kunt verlenen en verzoeken:
 
@@ -25,7 +25,7 @@ Deze sectie bevat de volgende artikelen over hoe u toestemming aan voorwerpen ku
 * [ toegang van het verzoek tot voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/request-access.md)
 * [ Mening geërfte toestemmingen op voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)
 * [ verwijdert toestemmingen uit voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
-* [ Deel een project in Adobe Workfront ](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)
+* [ Deel een project ](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)
 * [ deel een taak ](../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md)
 * [ Deel een kwestie ](../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)
 * [ Deel een malplaatje ](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)

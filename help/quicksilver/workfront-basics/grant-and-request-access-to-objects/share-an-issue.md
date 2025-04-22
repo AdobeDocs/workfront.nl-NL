@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 title: Een uitgave delen
 description: Uw Adobe Workfront-beheerder verleent gebruikers toegang tot weergave- of bewerkingsproblemen wanneer zij toegangsniveaus toewijzen. Zie Toegang verlenen tot problemen voor meer informatie over het verlenen van toegang tot problemen.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
-source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
+source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '1242'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,43 @@ Samen met het toegangsniveau dat gebruikers wordt verleend, kunt u hen toestemmi
 
 Machtigingen gelden specifiek voor één item in Workfront en definiëren welke handelingen u op dat item kunt uitvoeren.
 
+
+## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
+U moet het volgende hebben om objecten te delen:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td> <p>Alle </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Nieuw: Standaard</p> 
+   of
+   <p>Huidig: Werk of hoger</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot of hoger weergeven voor de objecten die u wilt delen</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Objectmachtigingen</td> 
+   <td> <p>Machtigingen of hoger weergeven voor de objecten die u wilt delen</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
 ## Overwegingen bij het delen van problemen
 
 Naast de overwegingen hieronder, zie ook [ Overzicht van het delen van toestemmingen op voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
@@ -29,7 +66,7 @@ Naast de overwegingen hieronder, zie ook [ Overzicht van het delen van toestemmi
 >
 >Een Workfront-beheerder kan machtigingen toevoegen of verwijderen voor alle items in het systeem, zonder de eigenaar van die items te zijn.
 
-* De maker van een uitgave heeft er standaard beheerdersmachtigingen voor.
+* De maker van een uitgave beschikt standaard over de machtiging Beheren.
 * U kunt kwesties individueel delen, of u kunt verscheidene van hen tegelijkertijd delen. Delen is hetzelfde als delen van andere objecten in Workfront. Voor meer informatie over het delen van punten in Workfront, zie [ een voorwerp ](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md) delen.
 * U kunt de volgende toestemmingen aan een kwestie verlenen: 
 
@@ -45,7 +82,7 @@ Naast de overwegingen hieronder, zie ook [ Overzicht van het delen van toestemmi
 
 ## Manieren om een probleem te delen
 
-* Handmatig, wat vergelijkbaar is met het delen van andere objecten in Workfront. Voor meer informatie over hoe te om voorwerpen in Workfront te delen, zie [ een voorwerp ](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md) delen.
+* Handmatig, wat vergelijkbaar is met het delen van andere objecten in Workfront.
 * Automatisch, door één van het volgende te doen:
 
    * Geef de machtigingen voor een van de bovenliggende objecten van de uitgave op: project, programma of portfolio. De kwesties erven de toestemmingen van hun oudervoorwerpen. Voor informatie over het bekijken van geërfte toestemmingen op voorwerpen, zie [ Mening geërfte toestemmingen op voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
@@ -55,7 +92,7 @@ Naast de overwegingen hieronder, zie ook [ Overzicht van het delen van toestemmi
 
      >[!TIP]
      >
-     >Als u niet specificeert welke uitgevende toestemmingen u gebruikers wilt hebben wanneer zij aan de kwesties op het project worden toegewezen, ontvangen zij de zelfde toestemmingen die zij op het project hebben, door gebrek.
+     >Als u niet specificeert welke toestemmingen van de uitgave u gebruikers wilt hebben wanneer zij aan de kwesties op het project worden toegewezen, ontvangen zij de zelfde toestemmingen die zij op het project door gebrek hebben.
 
    * Geef de machtigingen op die gebruikers ontvangen bij problemen die ze in een aanvraagwachtrij verzenden wanneer ze een aanvraagwachtrij maken. Voor informatie, zie [ een Rij van het Verzoek ](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
 
@@ -124,6 +161,73 @@ Naast de overwegingen hieronder, zie ook [ Overzicht van het delen van toestemmi
 </ol>
 </div>
 -->
+
+## Een uitgave delen
+
+1. Navigeer naar de uitgave die u wilt delen.
+
+1. Aan het recht van de voorwaardennaam, klik **Aandeel**. Het [ 2} dialoogvakje van de Naam van de Uitgave 1} van het Aandeel {opent.**]**
+
+   ![ de kwestie van het Aandeel knoop ](assets/share-issue-button.png)
+
+1. In de **Uitgiftetoegang van de Verlening tot** gebied, begin typend de naam van de gebruiker, het team, de rol, de groep, of het bedrijf u de kwestie met wilt delen, dan klik de naam wanneer het in de drop-down lijst verschijnt.
+
+   >[!TIP]
+   >
+   >U kunt een kwestie met actieve gebruikers, teams, rollen, of bedrijven slechts delen.
+
+
+1. (Facultatief) selecteer **wie toegang** drop-down heeft en het de toegangsniveau van de kwestie selecteert:
+
+   * **slechts kunnen de uitgenodigde mensen toegang hebben:** slechts de gebruikers die aan de kwestie worden uitgenodigd kunnen tot het (Gebrek) toegang hebben.
+   * **iedereen in het systeem kan** bekijken: Alle gebruikers in het systeem kunnen de kwestie zonder een uitnodiging bekijken.
+
+1. Klik op de vervolgkeuzelijst rechts van de gebruikersnaam en selecteer het machtigingsniveau voor deze uitgave:
+
+   * **Mening**: De gebruiker kan de kwestie herzien en delen.
+   * **draag bij** bij: De gebruiker kan updates maken, logboekinformatie, minder belangrijke uitgeven maken, en de kwestie (omvat ook alle toestemmingen van de Mening) delen.
+   * **leidt**: De gebruiker heeft volledige toegang tot de kwestie zonder administratieve rechten, die op het toegangsniveau (omvat ook alle toestemmingen van de Mening en van Contribute) worden verleend.
+
+1. (Optioneel) Klik op het pictogram Geavanceerde opties naast het machtigingsniveau dat u hebt toegekend om specifieke machtigingen voor de uitgave te configureren.
+
+   ![ gevormde geavanceerde toestemmingsopties ](assets/advanced-permission-options.png)
+
+1. (Facultatief) om de kwestie snel te delen gebruikend een verbinding, klik **verbinding van het Exemplaar** en door:sturen het aan de ontvanger.
+
+1. Klik **sparen**.
+
+## Problemen bulksgewijs delen
+
+1. Navigeer naar het project dat de kwesties bevat u wilt delen.
+
+1. In het **lusje van Kwesties** op de projectpagina, selecteer de doos links van elke kwestie u wilt delen, dan klik het **pictogram van het Aandeel** ![ Aandeel ](assets/share-icon.png) bij de bovenkant van de pagina. Het deelmodaal wordt geopend.
+
+   ![ Bulk deelt kwesties ](assets/bulk-share-issues.png)
+
+1. In de **Uitgiftetoegang van de Verlening tot** gebied, begin typend de naam van de gebruiker, het team, de rol, de groep, of het bedrijf u de kwesties met wilt delen, dan klik de naam wanneer het in de drop-down lijst verschijnt.
+
+   >[!TIP]
+   >
+   >U kunt kwesties met actieve gebruikers, teams, rollen, of bedrijven slechts delen.
+
+
+1. (Facultatief) selecteer **wie toegang** drop-down heeft en het de toegangsniveau van kwesties selecteert:
+
+   * **slechts kunnen de uitgenodigde mensen toegang hebben:** slechts de gebruikers die aan de kwesties worden uitgenodigd kunnen tot hen (Gebrek) toegang hebben.
+   * **iedereen in het systeem kan** bekijken: Alle gebruikers in het systeem kunnen de kwesties zonder een uitnodiging bekijken.
+
+
+1. Klik op de vervolgkeuzelijst rechts van de naam van de gebruiker en selecteer het desbetreffende machtigingsniveau voor de problemen:
+
+   * **Mening**: De gebruiker kan de kwesties herzien en delen.
+   * **draag bij** bij: De gebruiker kan updates maken, logboekinformatie, minder belangrijke uitgeven maken, en de kwesties (omvat ook alle toestemmingen van de Mening) delen.
+   * **leidt**: De gebruiker heeft volledige toegang tot de kwesties zonder administratieve rechten, die op het toegangsniveau (omvat ook alle toestemmingen van de Mening en van Contribute) worden verleend.
+
+1. (Optioneel) Klik op het pictogram Geavanceerde opties naast het machtigingsniveau dat u hebt toegekend om specifieke machtigingen voor de problemen te configureren.
+
+   ![ gevormde geavanceerde toestemmingsopties ](assets/advanced-permission-options.png)
+
+1. Klik **sparen**.
 
 ## Machtigingen geven
 

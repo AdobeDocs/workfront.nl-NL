@@ -1,19 +1,19 @@
 ---
-title: Een project delen in Adobe Workfront
+title: Een project delen
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 description: Uw Adobe Workfront-beheerder kan u toegang verlenen tot weergave- of bewerkingsprojecten wanneer u uw toegangsniveau toewijst. Zie Toegang tot projecten verlenen voor meer informatie.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
+source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '1579'
 ht-degree: 0%
 
 ---
 
-# Een project delen in Adobe Workfront
+# Een project delen
 
 <!-- Audited: 1/2024 -->
 
@@ -22,6 +22,43 @@ Uw Adobe Workfront-beheerder kan u toegang verlenen tot weergave- of bewerkingsp
 Samen met het toegangsniveau dat gebruikers worden verleend, kunt u hen toestemmingen aan Mening verlenen, bijdragen, of beheren specifieke projecten die u toegang hebt om te delen.
 
 Machtigingen gelden specifiek voor één item in Workfront en definiëren welke handelingen u op dat item kunt uitvoeren.
+
+
+## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
+U moet het volgende hebben om objecten te delen:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td> <p>Alle </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Nieuw: Standaard</p> 
+   of
+   <p>Huidig: Werk of hoger</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot of hoger weergeven voor de objecten die u wilt delen</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Objectmachtigingen</td> 
+   <td> <p>Machtigingen of hoger weergeven voor de objecten die u wilt delen</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Overwegingen bij het delen van projecten
 
@@ -46,6 +83,13 @@ Naast de overwegingen hieronder, zie ook [ Overzicht van het delen van toestemmi
 
 * U kunt geërfte toestemmingen uit een project verwijderen zodat de kindvoorwerpen hen niet zullen erven. Voor meer informatie over het verwijderen van geërfte toestemmingen uit voorwerpen, zie [ toestemmingen uit voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md) verwijderen.
 
+## Beperkingen voor verschillende licentietypen
+
+* De gebruikers met een vergunning van de Arbeider hebben geen toestemmingen om projecten te beheren. Voor Workers is Contribute de hoogste machtiging voor delen.
+* De gebruikers met een vergunning van het Verzoek kunnen projectinformatie bekijken, maar zij hebben beperkte projecttoegang.
+* Een uitzondering op het wijzigen van de status van een project treedt op wanneer een gebruiker met de machtiging Weergeven of Contribute ook wordt opgenomen in een goedkeuringsproces. Zij kunnen het project goedkeuren, dat de status van het project verandert, maar de status is de vooraf bepaalde status voor goedkeuring of voor verwerping.
+* Om een project te kunnen kopiëren, moet een gebruiker ook toegang hebben om projecten in hun Niveau van de Toegang tot stand te brengen.
+
 ## Manieren om een project te delen {#ways-to-share-a-project}
 
 U kunt een project op de volgende manieren delen:
@@ -53,25 +97,18 @@ U kunt een project op de volgende manieren delen:
 * Handmatig door een van de volgende handelingen uit te voeren:
 
    * Gebruikers toevoegen aan het projectteam. Wanneer u gebruikers aan het projectteam toevoegt, verkrijgen zij automatisch de toestemmingen van de Mening aan het project.\
-     Voor meer informatie over het toevoegen van gebruikers aan een projectteam, zie de &quot;Toevoegende Gebruikers aan een sectie van het Team van het Project&quot;in [ overzicht van het Team van het Project ](../../manage-work/projects/planning-a-project/project-team-overview.md).
+     Voor meer informatie over het toevoegen van gebruikers aan een projectteam, zie de Toevoegende Gebruikers aan een sectie van het Team van het Project in [ Overzicht van het Team van het Project ](../../manage-work/projects/planning-a-project/project-team-overview.md).
    * Individueel of bulk-delend de projecten wanneer het gebruiken van **het Delen** optie.
 
-     Het delen van een project is vergelijkbaar met het delen van alle andere objecten in Adobe Workfront.
-
-     Voor informatie over het delen van voorwerpen in Workfront, zie [ een voorwerp ](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md) delen.
-
-* Automatisch, door één van het volgende te doen:
+* Automatisch door een van de volgende handelingen uit te voeren:
 
    * Plaats een project in a **Portfolio** of **Programma** dat reeds met anderen wordt gedeeld. Gebruikers krijgen dezelfde machtigingen voor het project als voor het portfolio of programma.\
      Voor informatie over het toevoegen van een project aan a **Portfolio**, zie [ projecten aan een portefeuille ](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md) toevoegen.\
      Voor informatie over het toevoegen van een project aan a **Programma**, zie [ een project aan een programma ](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md) toevoegen.
-
-     Voor informatie over het bekijken van geërfte toestemmingen op een voorwerp, zie [ Mening geërfte toestemmingen op voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
+Voor informatie over het bekijken van geërfte toestemmingen op een voorwerp, zie [ Mening geërfte toestemmingen op voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
 
    * Voeg entiteiten aan het Delen van het Project op een malplaatje toe dat wordt gebruikt om het project tot stand te brengen. Voor informatie over het delen van projecten van malplaatjes, zie [ een malplaatje ](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md) delen.
    * Bepaal het malplaatje van de projecttoegang.
-
-     Om het malplaatje van de projecttoegang te bepalen, zie [ een voorwerp ](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md) delen.
 
      >[!TIP]
      >
@@ -100,12 +137,87 @@ U kunt een project op de volgende manieren delen:
 </ol>
 -->
 
-## Beperkingen voor verschillende licentietypen
+## Een project delen
 
-* De gebruikers met een vergunning van de Arbeider hebben geen toestemmingen om projecten te beheren. Voor Workers is Contribute de hoogste machtiging voor delen.
-* De gebruikers met een vergunning van het Verzoek kunnen projectinformatie bekijken, maar zij hebben beperkte projecttoegang.
-* Een uitzondering op het wijzigen van de status van een project treedt op wanneer een gebruiker met de machtiging Weergeven of Contribute ook wordt opgenomen in een goedkeuringsproces. Zij kunnen het project goedkeuren, dat de status van het project verandert, maar de status is de vooraf bepaalde status voor goedkeuring of voor verwerping.
-* Om een project te kunnen kopiëren, moet een gebruiker ook toegang hebben om projecten in hun Niveau van de Toegang tot stand te brengen.
+{{step1-to-projects}}
+
+1. Voor de **pagina van Projecten**, selecteer het project u van de lijst wilt delen. De projectpagina wordt geopend.
+
+1. Aan het recht van de projectnaam, klik **Aandeel**. Het **de dialoogvakje van de Naam van het Project van het Aandeel []** opent.
+
+   ![ het projectknoop van het Aandeel ](assets/share-project.png)
+
+1. In het **project van de Verlening toegang tot** gebied, begin typend de naam van de gebruiker, het team, de rol, de groep, of het bedrijf u het project met wilt delen, dan klik de naam wanneer het in de drop-down lijst verschijnt.
+
+   >[!TIP]
+   >
+   >U kunt een project met actieve gebruikers, teams, rollen, of bedrijven slechts delen.
+
+
+1. (Facultatief) selecteer **wie toegang** drop-down heeft en het de toegangsniveau van het project selecteert:
+
+   * **slechts kunnen de uitgenodigde mensen toegang hebben:** slechts de gebruikers die aan het project worden uitgenodigd kunnen tot het (Gebrek) toegang hebben.
+   * **iedereen in het systeem kan** bekijken: Alle gebruikers in het systeem kunnen het project zonder een uitnodiging bekijken.
+
+1. (Facultatief) om de montages van de projecttoegang automatisch toe te passen u aan alle nieuwe projecten selecteerde, klik het **pictogram van het Gear ![ Uitgezocht het tandwielpictogram ](assets/gear-icon.png), dan controleer de doos in-lijn met** Reeks als mijn malplaatje van de projecttoegang **.**
+
+   >[!NOTE]
+   >
+   >Het malplaatje van de projecttoegang treedt de het delen gebreken met voeten die aan u door de beheerder van Workfront in uw Niveau van de Toegang worden verleend.\
+   >Voor meer informatie over het specificeren van het delen van gebreken voor projecten in het Niveau van de Toegang, zie [ Toegang van de Verlening tot projecten ](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
+
+   <!--
+   >this note also appears in Understanding Project Permissions-->
+
+
+1. Klik de drop-down rechts van de naam van de gebruiker en selecteer hun toestemmingsniveau voor dit project:
+
+
+   * **Mening**: De gebruiker kan het project herzien en delen.
+   * **draag** bij: De gebruiker kan updates maken, logboekinformatie, minder belangrijke uitgeven maken, en het project (omvat ook alle toestemmingen van de Mening) delen.
+   * **leidt**: De gebruiker heeft volledige toegang tot het project zonder administratieve rechten, die op het toegangsniveau (omvat ook alle toestemmingen van de Mening en van Contribute) worden verleend.
+
+1. (Optioneel) Klik op het pictogram Geavanceerde opties naast het machtigingsniveau dat u hebt toegekend om specifieke machtigingen voor het project te configureren.
+
+   ![ gevormde geavanceerde toestemmingsopties ](assets/advanced-permission-options.png)
+
+1. (Facultatief) om het project snel te delen gebruikend een verbinding, klik **verbinding van het Exemplaar** en door:sturen het aan de ontvanger.
+
+1. Klik **sparen**.
+
+## Projecten bulksgewijs delen
+
+{{step1-to-projects}}
+
+1. Op de **pagina van Projecten**, selecteer de doos links van elk project u wilt delen, dan klik het **pictogram van het Aandeel** pictogram ![ van het Aandeel ](assets/share-icon.png) bij de bovenkant van de pagina. Het deelmodaal wordt geopend.
+
+   ![ Bulk deelt projecten ](assets/bulk-share-icon.png)
+
+1. In het **project van de Verlening toegang tot** gebied, begin typend de naam van de gebruiker, het team, de rol, de groep, of het bedrijf u de projecten met wilt delen, dan klik de naam wanneer het in de drop-down lijst verschijnt.
+
+   >[!TIP]
+   >
+   >U kunt projecten met actieve gebruikers, teams, rollen, of bedrijven slechts delen.
+
+
+1. (Facultatief) selecteer **wie toegang** drop-down heeft en het de toegangsniveau van de projecten selecteert:
+
+   * **slechts kunnen de uitgenodigde mensen toegang hebben:** slechts de gebruikers die aan de projecten worden uitgenodigd kunnen tot hen (Gebrek) toegang hebben.
+   * **iedereen in het systeem kan** bekijken: Alle gebruikers in het systeem kunnen de projecten zonder een uitnodiging bekijken.
+
+
+1. Klik de drop-down rechts van de naam van de gebruiker en selecteer hun toestemmingsniveau voor de projecten:
+
+   * **Mening**: De gebruiker kan de projecten herzien en delen.
+   * **draag** bij: De gebruiker kan updates maken, logboekinformatie, minder belangrijke uitgeven maken, en de projecten (omvat ook alle toestemmingen van de Mening) delen.
+   * **leidt**: De gebruiker heeft volledige toegang tot de projecten zonder administratieve rechten, die op het toegangsniveau (omvat ook alle toestemmingen van de Mening en van Contribute) worden verleend.
+
+1. (Facultatief) klik het geavanceerde optiepictogram naast het toestemmingsniveau u hebt verleend om specifieke toestemmingen op de projecten te vormen.
+
+   ![ gevormde geavanceerde toestemmingsopties ](assets/advanced-permission-options.png)
+
+1. Klik **sparen**.
+
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

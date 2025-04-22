@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: c0a7603ed461d903f4d0b0f6788c17d58f20c328
+source-git-commit: ef09ee2fce1619f7e44deb7a584738db955a8599
 workflow-type: tm+mt
-source-wordcount: '13163'
+source-wordcount: '13162'
 ht-degree: 0%
 
 ---
@@ -908,13 +908,13 @@ ht-degree: 0%
       * [Meldingen: Diverse informatie](workfront-basics/using-notifications/notifications-misc-information.md)
       * [Meldingen: verzoeken die ik heb ingediend](workfront-basics/using-notifications/notifications-requests-i-have-made.md)
    * Rechten verlenen en aanvragen voor objecten {#grant-request-object-permissions}
-      * [Rechten verlenen en aanvragen voor objecten](workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
+      * [Rechten verlenen en aanvragen aan objecten: artikelindex](workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
       * [Overzicht van het delen van machtigingen voor objecten](workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
       * [Toegang verlenen tot objecten in het gebied Home](workfront-basics/grant-and-request-access-to-objects/grant-access-home.md)
       * [Toegang tot objecten aanvragen](workfront-basics/grant-and-request-access-to-objects/request-access.md)
       * [Overerfde machtigingen voor objecten weergeven](workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)
       * [Een object delen](workfront-basics/grant-and-request-access-to-objects/share-an-object.md)
-      * [Een project delen in Adobe Workfront](workfront-basics/grant-and-request-access-to-objects/share-a-project.md)
+      * [Een project delen](workfront-basics/grant-and-request-access-to-objects/share-a-project.md)
       * [Een taak delen](workfront-basics/grant-and-request-access-to-objects/share-a-task.md)
       * [Een uitgave delen](workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)
       * [Een sjabloon delen](workfront-basics/grant-and-request-access-to-objects/share-a-template.md)

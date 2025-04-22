@@ -4,12 +4,12 @@ content-type: reference
 product-area: user-management
 navigation-topic: grant-and-request-access-to-objects
 description: Uw Adobe Workfront-beheerder verleent gebruikers toegang tot weergave- of bewerkingsdocumenten wanneer zij toegangsniveaus toewijzen, zoals wordt uitgelegd in Toegang verlenen tot documenten.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,42 @@ Machtigingen gelden specifiek voor één item in Workfront en definiëren welke 
 De gebruiker die een document naar Workfront uploadt, beschikt standaard over de machtiging Beheren.
 
 Voor informatie over het delen van een volledige documentomslag, zie [ een documentomslag ](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md) delen.
+
+## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
+U moet het volgende hebben om objecten te delen:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td> <p>Alle </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Nieuw: Standaard</p> 
+   of
+   <p>Huidig: Werk of hoger</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot of hoger weergeven voor de objecten die u wilt delen</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Objectmachtigingen</td> 
+   <td> <p>Machtigingen of hoger weergeven voor de objecten die u wilt delen</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Overwegingen bij het delen van documenten
 
@@ -57,6 +93,52 @@ Naast de overwegingen hieronder, zie ook [ Overzicht van het delen van toestemmi
   U kunt overgeërfde machtigingen voor documenten handmatig verwijderen. Voor meer informatie, zie [ toestemmingen uit voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md) verwijderen
 
 * Een bijgevoegd document neemt alleen machtigingen over van het object waaraan het is gekoppeld. Als u een map voor het object maakt en het document naar de map verplaatst, neemt deze de machtigingen van de map over. Maar als u een map maakt op een bovenliggend of bovenliggend object en het document naar die map verplaatst, worden de machtigingen van die map niet overgenomen.
+
+## Een document delen
+
+{{step1-to-documents}}
+
+1. Op de **pagina van Documenten**, houd over het document over u wilt delen en klik de **verbinding van de Details van het Document** die verschijnt. De **detailleert van het Document** pagina opent.
+
+   ![ verbinding van de Details van het Document ](assets/document-details-link.png)
+
+1. Klik het **Meer** pictogram ![ Meer pictogram ](assets/more-icon.png) aan het recht van de documentnaam, dan klik **Aandeel**. Het [ de dialoogvakje van de Naam van het Document 1} Aandeel ]**opent.**
+
+   ![ Deel een document ](assets/share-a-document-350x160.png)
+
+1. In het **document van de Verlening toegang tot** gebied, begin typend de naam van de gebruiker, het team, de rol, de groep, of het bedrijf u het document met wilt delen, dan klik de naam wanneer het in de drop-down lijst verschijnt.
+
+   >[!TIP]
+   >
+   >U kunt een document alleen delen met actieve gebruikers, teams, rollen of bedrijven.
+
+
+1. (Facultatief) selecteer **wie toegang** drop-down heeft en het de toegangsniveau van het document selecteert:
+
+   * **slechts kunnen de uitgenodigde mensen toegang hebben:** slechts de gebruikers die aan het document worden uitgenodigd kunnen tot het (Gebrek) toegang hebben.
+   * **iedereen in het systeem kan** bekijken: Alle gebruikers in het systeem kunnen het document zonder een uitnodiging bekijken.
+
+1. (Facultatief) om het document openbaar te maken, klik het tandwielpictogram ![ selecteren het tandwielpictogram ](assets/gear-icon.png), dan klik de doos in-lijn met **maak dit openbaar aan externe gebruikers**. De **openbare verbinding van het Exemplaar** knoop verschijnt bij de bodem van de dialoogdoos.
+
+1. Klik op de vervolgkeuzelijst rechts van de gebruikersnaam en selecteer het machtigingsniveau voor dit document:
+
+   * **Mening**: De gebruiker kan het document herzien en delen.
+   * **leidt**: De gebruiker heeft volledige toegang tot het programma zonder administratieve rechten, die op het toegangsniveau (omvat ook alle toestemmingen van de Mening) worden verleend.
+
+1. (Optioneel) Klik op het pictogram Geavanceerde opties naast het machtigingsniveau dat u hebt toegekend om specifieke machtigingen voor het programma te configureren.
+
+   ![ gevormde geavanceerde toestemmingsopties ](assets/advanced-options-icon.png)
+
+1. (Facultatief) om geërfte toestemmingen voor de kindvoorwerpen van het document uit te zetten, klik **Draai** in-lijn met **Geërfte toestemmingen**.
+
+1. (Voorwaardelijk) om de openbare verbinding te kopiëren die u toestaat om het document met externe gebruikers te delen, klik **openbare verbinding van het Exemplaar**.
+
+   >[!CAUTION]
+   >
+   >We raden u aan voorzichtig te zijn wanneer u een document met vertrouwelijke informatie deelt met externe gebruikers. Op deze manier kunnen ze informatie weergeven zonder dat ze een Workfront-gebruiker of onderdeel van uw organisatie zijn.
+
+1. Klik **sparen**.
+
 
 ## Documentmachtigingen
 
