@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: 82694183c32938905f1f8542c430d3c453274cb6
+source-git-commit: a5769e57a9fe28b816e7fb4474ec4a67f837f530
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1275'
 ht-degree: 0%
 
 ---
@@ -58,16 +58,16 @@ De volgende wijzigingen zijn aangebracht voor gebeurtenisabonnementen versie 2:
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Parameterwaarden</p> </td> 
-   <td> <p>Voor elk object dat is gemaakt op basis van een sjabloon met een aangepast formulier, is een gebeurtenis <code>CREATE</code> verzonden en is vervolgens een gebeurtenis <code>UPDATE</code> verzonden met de parameterwaarden (inclusief berekende velden en de waarden ervan).    </p> </td> 
+   <td> <p>Berekende parameterwaarden</p> </td> 
+   <td> <p>Elk object dat is gemaakt op basis van een sjabloon dat een aangepast formulier met berekende parameterwaarden bevat, wordt een gebeurtenis <code>CREATE</code> verzonden en vervolgens wordt een <code>UPDATE</code> verzonden met de parameterwaarden (inclusief berekende velden en de waarden ervan). </p> </td> 
    <td> <p>Wanneer een object wordt gemaakt op basis van een sjabloon die een aangepast formulier met berekende parameterwaarden bevat, wordt alleen een <code>CREATE</code> -gebeurtenis verzonden die parameterwaarden bevat, inclusief berekende velden.</p> </td> 
-   <td> <p>Als u een abonnement hebt voor <tr><ul><ul><code>UPDATE<code> events and are expecting to receive an <code>UPDATE</code> event after an object is created with calculated parameter values, you will no longer receive that <code>UPDATE</code> event. If you wish to see calculated parameter values on object creation, you must create an additional <code>CREATE</code> subscription.</p> </td> 
+   <td> <p>Als u een abonnement op <code>UPDATE</code> -gebeurtenissen hebt en verwacht dat u een <code>UPDATE</code> -gebeurtenis ontvangt nadat een object met berekende parameterwaarden is gemaakt, ontvangt u niet langer die <code>UPDATE</code> -gebeurtenis. Als u berekende parameterwaarden wilt zien bij het maken van objecten, moet u een extra <code>CREATE</code> -abonnement maken.</p> </td> 
   </tr> 
-   
-   <td> <p>Multi-Select type fields</p> </td> 
-   <td> <p>For any type of event that contains a change on a multi-select type field, if the field only contained one value it would be converted to and sent as a string. Otherwise it would be sent as an array. </p><p>Examples:</p><li><code>myMultiSelectField: ["oneValue"]</code> is converted and sent as <code>myMultiSelectField: "oneValue"</code>.</li><li><code>myMultiSelectField: ["first", "second"]</code> is sent as <code>myMultiSelectField: ["first", "second"]</code>.</li></ul> </td> 
-   <td> <p>Regardless of how many values are in the array, it will be sent as an array. </p><p>Examples:</p><li><code>myMultiSelectField: ["oneValue"]</code> is sent as <code>myMultiSelectField: ["oneValue"]</code>.</li><li><code>myMultiSelectField: ["first", "second"]</code> is sent as <code>myMultiSelectField: ["first", "second"]</code>.</li></ul> </td> 
-   <td> <p>If you have a subscription with a filter on a multi-select field, and the value as a string, you must create a new subscription with the same filter that has the value as an array. </p> </td> 
+  <tr> 
+   <td> <p>Tekstvelden met meerdere selecties</p> </td> 
+   <td> <p>Voor elk type gebeurtenis dat een wijziging bevat op een tekstveld met meerdere selecties geldt dat als het veld slechts één waarde bevat, deze waarde wordt omgezet in en verzonden als een tekenreeks. Anders wordt het als een array verzonden. </p><p>Voorbeelden:</p><ul><li><code>myMultiSelectField: ["oneValue"]</code> wordt geconverteerd en verzonden als <code>myMultiSelectField: "oneValue"</code> .</li><li><code>myMultiSelectField: ["first", "second"]</code> wordt verzonden als <code>myMultiSelectField: ["first", "second"]</code>.</li></ul> </td> 
+   <td> <p>Ongeacht het aantal waarden in de array, wordt deze als een array verzonden. </p><p>Voorbeelden:</p><ul><li><code>myMultiSelectField: ["oneValue"]</code> wordt verzonden als <code>myMultiSelectField: ["oneValue"]</code>.</li><li><code>myMultiSelectField: ["first", "second"]</code> wordt verzonden als <code>myMultiSelectField: ["first", "second"]</code>.</li></ul> </td> 
+   <td> <p>Als u een abonnement hebt met een filter op een veld met meerdere keuzen en de waarde als tekenreeks, moet u een nieuw abonnement maken met hetzelfde filter dat de waarde als een array heeft. </p> </td> 
   </tr> 
  </tbody> 
 </table>
