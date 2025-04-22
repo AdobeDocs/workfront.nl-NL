@@ -6,7 +6,7 @@ description: Uw Adobe Workfront-beheerder kan u toegang verlenen tot weergave- o
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
+source-git-commit: eb4bf18407562b88bf0c946c905b202e5b62a5fe
 workflow-type: tm+mt
 source-wordcount: '1579'
 ht-degree: 0%
@@ -159,7 +159,7 @@ Voor informatie over het bekijken van geërfte toestemmingen op een voorwerp, zi
    * **slechts kunnen de uitgenodigde mensen toegang hebben:** slechts de gebruikers die aan het project worden uitgenodigd kunnen tot het (Gebrek) toegang hebben.
    * **iedereen in het systeem kan** bekijken: Alle gebruikers in het systeem kunnen het project zonder een uitnodiging bekijken.
 
-1. (Facultatief) om de montages van de projecttoegang automatisch toe te passen u aan alle nieuwe projecten selecteerde, klik het **pictogram van het Gear ![ Uitgezocht het tandwielpictogram ](assets/gear-icon.png), dan controleer de doos in-lijn met** Reeks als mijn malplaatje van de projecttoegang **.**
+1. (Facultatief) om de montages van de projecttoegang automatisch toe te passen u aan alle nieuwe projecten selecteerde, klik het **pictogram van het Gear ![ Uitgezocht het tandwielpictogram ](assets/gear-icon.png), dan controleer de doos gealigneerd met** Reeks als mijn malplaatje van de projecttoegang **.**
 
    >[!NOTE]
    >

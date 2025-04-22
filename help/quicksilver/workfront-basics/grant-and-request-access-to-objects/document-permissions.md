@@ -7,9 +7,9 @@ description: Uw Adobe Workfront-beheerder verleent gebruikers toegang tot weerga
 author: Courtney
 feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
-source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
+source-git-commit: eb4bf18407562b88bf0c946c905b202e5b62a5fe
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
@@ -123,19 +123,52 @@ Naast de overwegingen hieronder, zie ook [ Overzicht van het delen van toestemmi
 1. Klik op de vervolgkeuzelijst rechts van de gebruikersnaam en selecteer het machtigingsniveau voor dit document:
 
    * **Mening**: De gebruiker kan het document herzien en delen.
-   * **leidt**: De gebruiker heeft volledige toegang tot het programma zonder administratieve rechten, die op het toegangsniveau (omvat ook alle toestemmingen van de Mening) worden verleend.
+   * **leidt**: De gebruiker heeft volledige toegang tot het document zonder administratieve rechten, die op het toegangsniveau (omvat ook alle toestemmingen van de Mening) worden verleend.
 
-1. (Optioneel) Klik op het pictogram Geavanceerde opties naast het machtigingsniveau dat u hebt toegekend om specifieke machtigingen voor het programma te configureren.
+1. (Optioneel) Klik op het pictogram Geavanceerde opties naast het machtigingsniveau dat u hebt toegekend om specifieke machtigingen voor het document te configureren.
 
    ![ gevormde geavanceerde toestemmingsopties ](assets/advanced-options-icon.png)
 
-1. (Facultatief) om geërfte toestemmingen voor de kindvoorwerpen van het document uit te zetten, klik **Draai** in-lijn met **Geërfte toestemmingen**.
+1. (Facultatief) om geërfte toestemmingen voor de kindvoorwerpen van het document uit te zetten, klik **Draai** gealigneerd met **Geërfde toestemmingen**.
 
 1. (Voorwaardelijk) om de openbare verbinding te kopiëren die u toestaat om het document met externe gebruikers te delen, klik **openbare verbinding van het Exemplaar**.
 
    >[!CAUTION]
    >
    >We raden u aan voorzichtig te zijn wanneer u een document met vertrouwelijke informatie deelt met externe gebruikers. Op deze manier kunnen ze informatie weergeven zonder dat ze een Workfront-gebruiker of onderdeel van uw organisatie zijn.
+
+1. Klik **sparen**.
+
+## Documenten bulksgewijs delen
+
+{{step1-to-documents}}
+
+1. In **Alle Documenten** lusje op de **pagina van Documenten**, onderdruk **Bevel** (Mac) of **CTRL** (Vensters) op uw toetsenbord, dan klik op elk document u wilt delen.
+
+1. Bij de bovenkant van de pagina, klik het **pictogram van het Aandeel ![ van het Aandeel ](assets/share-icon.png).** Het deelmodaal wordt geopend.
+
+   ![ pictogram van het Aandeel ](assets/share-documents-in-bulk.png)
+
+1. In het **document van de Verlening toegang tot** gebied, begin typend de naam van de gebruiker, het team, de rol, de groep, of het bedrijf u de documenten met wilt delen, dan klik de naam wanneer het in de drop-down lijst verschijnt.
+
+   >[!TIP]
+   >
+   >U kunt documenten alleen delen met actieve gebruikers, teams, rollen of bedrijven.
+
+
+1. (Facultatief) selecteer **wie toegang** drop-down heeft en het de toegangsniveau van de documenten selecteert:
+
+   * **slechts kunnen de uitgenodigde mensen toegang hebben:** slechts de gebruikers die aan de documenten worden uitgenodigd kunnen tot het (Gebrek) toegang hebben.
+   * **iedereen in het systeem kan** bekijken: Alle gebruikers in het systeem kunnen de documenten zonder een uitnodiging bekijken.
+
+1. Klik op de vervolgkeuzelijst rechts van de naam van de gebruiker en selecteer het desbetreffende machtigingsniveau voor de documenten:
+
+   * **Mening**: De gebruiker kan de documenten herzien en delen.
+   * **leidt**: De gebruiker heeft volledige toegang tot de documenten zonder administratieve rechten, die op het toegangsniveau (omvat ook alle toestemmingen van de Mening) worden verleend.
+
+1. (Optioneel) Klik op het pictogram Geavanceerde opties naast het machtigingsniveau dat u hebt toegekend om specifieke machtigingen voor de documenten te configureren.
+
+   ![ gevormde geavanceerde toestemmingsopties ](assets/advanced-options-icon.png)
 
 1. Klik **sparen**.
 
