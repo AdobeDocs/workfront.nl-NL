@@ -7,9 +7,9 @@ description: Deze pagina bevat informatie over de structuur en inhoud van de geg
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 8aa03e16daa7c82342741b3db7b805941508c896
+source-git-commit: 44342db0a473eac70212d08cedf9ac0f571cda0b
 workflow-type: tm+mt
-source-wordcount: '7843'
+source-wordcount: '8129'
 ht-degree: 0%
 
 ---
@@ -1728,19 +1728,19 @@ De volgende tabel correleert objectnamen in Workfront (en hun namen in de interf
              <td>ITERATIONID</td>
         </tr>
         <tr>
-             <td>LAATSTE NOOT</td>
+             <td>LASTNOTEID</td>
              <td>FK</td>
              <td>NOTES_CURRENT</td>
-             <td>OPMERKING</td>
+             <td>NOTEID</td>
         </tr>
         <tr>
-             <td>LAATST BIJGEWERKTDOOR</td>
+             <td>LASTUPDATEDBYID</td>
              <td>FK</td>
              <td>USERS_CURRENT</td>
-             <td>NUTTIG</td>
+             <td>USERID</td>
         </tr>
         <tr>
-             <td>OPMERKING</td>
+             <td>NOTEID</td>
              <td>FK</td>
              <td>NOTES_CURRENT</td>
              <td>NOTEID</td>
@@ -1890,6 +1890,235 @@ De volgende tabel correleert objectnamen in Workfront (en hun namen in de interf
              <td>SYSID</td>
              <td>-</td>
              <td colspan="2">Geen relatie; wordt gebruikt voor interne toepassingen</td>
+        </tr>
+    </tbody>
+</table>
+
+### Documentgoedkeuring (NIEUW)
+
+Beperkte beschikbaarheid van klanten
+
+<table>
+    <thead>
+        <tr>
+            <th>Naam Workfront-entiteit</th>
+            <th>Interfaceverwijzingen</th>
+            <th>API-naslag</th>
+            <th>API-label</th>
+            <th>Weergaven van datameer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Documentgoedkeuring</td>
+            <td>Goedkeuring</td>
+            <td>NVT</td>
+            <td>NVT</td>
+            <td>GOEDKEURING_CURRENT <br> GOEDKEURING_DAILY_HISTORY <br> GOVAL_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primaire/buitenlandse sleutel</th>
+            <th>Type</th>
+            <th>Verwante tabel</th>
+            <th>Verwant veld</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td class="key">ONGELDIG</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>OPMERKING: dit is ook de id van het DOCUMENTVERSION-object waaraan de goedkeuring is gekoppeld.</td>
+        </tr>
+        <tr>
+             <td class="key">ASSETID</td>
+             <td>FK</td>
+             <td>Variabele, gebaseerd op ASSETTYPE</td>
+             <td>De primaire sleutel/id van het object dat in het veld ASSETTYPE is geïdentificeerd</td>
+        </tr>
+        <tr>
+             <td class="key">CREATORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td class="key">EAUTHTENANTID</td>
+             <td>-</td>
+             <td colspan="2">Geen relatie; wordt gebruikt voor interne toepassingen</td>
+        </tr>
+        <tr>
+             <td class="key">PRODUCTIEF</td>
+             <td>-</td>
+             <td colspan="2">Geen relatie; wordt gebruikt voor interne toepassingen</td>
+        </tr>
+        <tr>
+             <td class="key">REALCREATORIE</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Werkgebied voor documentgoedkeuring (NIEUW)
+
+Beperkte beschikbaarheid van klanten
+
+<table>
+    <thead>
+        <tr>
+            <th>Naam Workfront-entiteit</th>
+            <th>Interfaceverwijzingen</th>
+            <th>API-naslag</th>
+            <th>API-label</th>
+            <th>Weergaven van datameer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Werkgebied Documentgoedkeuring</td>
+            <td>Goedkeuringsfase</td>
+            <td>NVT</td>
+            <td>NVT</td>
+            <td>GOVAL_STAGE_CURRENT <br> GOVAL_STAGE_DAILY_HISTORY <br> GOVAL_STAGE_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primaire/buitenlandse sleutel</th>
+            <th>Type</th>
+            <th>Verwante tabel</th>
+            <th>Verwant veld</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td class="key">ONGELDIG</td>
+             <td>FK</td>
+             <td>GOEDKEURING_CURRENT</td>
+             <td>ONGELDIG</td>
+        </tr>
+        <tr>
+             <td class="key">GOEDKEURINGSSTAGEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td class="key">CREATORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td class="key">OBJID</td>
+             <td class="type">FK</td>
+             <td class="relatedtable">Variabele, gebaseerd op OBJCODE</td>
+             <td>De primaire sleutel/id van het object dat in het veld OBJCODE is geïdentificeerd</td>
+        </tr>
+    </tbody>
+</table>
+
+### Deelnemers aan werkgebied voor documentgoedkeuring (NIEUW)
+
+Beperkte beschikbaarheid van klanten
+
+<table>
+    <thead>
+        <tr>
+            <th>Naam Workfront-entiteit</th>
+            <th>Interfaceverwijzingen</th>
+            <th>API-naslag</th>
+            <th>API-label</th>
+            <th>Weergaven van datameer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Deelnemer werkgebied voor documentgoedkeuring</td>
+            <td>Goedkeuringsbesluiten</td>
+            <td>NVT</td>
+            <td>NVT</td>
+            <td>GOVAL_STAGE_DEDEIPANT_CURRENT <br> GOEDKEURING_STAGE_DEILANT_DAILY_HISTORY <br> GOEDKEURING_STAGE_PARTICIPANT_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primaire/buitenlandse sleutel</th>
+            <th>Type</th>
+            <th>Verwante tabel</th>
+            <th>Verwant veld</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td class="key">ONGELDIG</td>
+             <td>FK</td>
+             <td>GOEDKEURING_CURRENT</td>
+             <td>ONGELDIG</td>
+        </tr>
+        <tr>
+             <td class="key">ERKVALSTAGEPARTIKIPANTID/td&gt;
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td class="key">ASSETID</td>
+             <td>FK</td>
+             <td>Variabele, gebaseerd op ASSETTYPE</td>
+             <td>De primaire sleutel/id van het object dat in het veld ASSETTYPE is geïdentificeerd</td>
+        </tr>
+        <tr>
+             <td class="key">BESLISIONUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td class="key">OBJID</td>
+             <td class="type">FK</td>
+             <td class="relatedtable">Variabele, gebaseerd op OBJCODE</td>
+             <td>De primaire sleutel/id van het object dat in het veld OBJCODE is geïdentificeerd</td>
+        </tr>
+        <tr>
+             <td class="key">DEELNEMERS</td>
+             <td>FK</td>
+             <td class="relatedtable">Variabele, gebaseerd op PARTICIPANTTYPE</td>
+             <td>De primaire sleutel/id van het object dat in het veld PARTICIPANTTYPE is geïdentificeerd</td>
+        </tr>
+        <tr>
+             <td class="key">REALREQUESTORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td class="key">REALUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td class="key">VERZOEKEN</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td class="key">STAGEID</td>
+             <td>FK</td>
+             <td>GOEDKEURING_STAGE_CURRENT</td>
+             <td>STAGEID</td>
         </tr>
     </tbody>
 </table>
@@ -3724,16 +3953,16 @@ Zelf</td>
             <th>Interfaceverwijzingen</th>
             <th>API-naslag</th>
             <th>API-label</th>
-            <th>Weergaven van Data Lake</th>
+            <th>Weergaven van datameer</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-            <td>Objecten Categorie</td>
-            <td>Object Categorieën</td>
+            <td>Objectcategorie</td>
+            <td>Objectcategorieën</td>
             <td>OBJCAT</td>
-            <td>Object Categorie</td>
-            <td><br>OBJECTSCATEGORIES_CURRENT OBJECTSCATEGORIES_DAILY_HISTORY<br>OBJECTSCATEGORIES_EVENT</td>
+            <td>Objectcategorie</td>
+            <td>OBJECTSCATEGORIES_CURRENT <br> OBJECTSCATEGORIES_DAILY_HISTORY <br> OBJECTSCATEGORIES_EVENT</td>
         </tr>
       </tbody>
 </table>
@@ -3742,19 +3971,19 @@ Zelf</td>
         <tr>
             <th>Primaire/buitenlandse sleutel</th>
             <th>Type</th>
-            <th>Gerelateerde tabel</th>
-            <th>Verwant vakgebied</th>
+            <th>Verwante tabel</th>
+            <th>Verwant veld</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-             <td>CATEGORIE-ID</td>
+             <td>CATEGORIE</td>
              <td>FK</td>
              <td>CATEGORIEËN_HUIDIGE</td>
-             <td>CATEGORIE-ID</td>
+             <td>CATEGORIE</td>
         </tr>
         <tr>
-             <td>OBJECTENCATEGORIEID</td>
+             <td>OBJECTSCATEGORYID</td>
              <td>PK</td>
              <td>-</td>
              <td>-</td>
@@ -6475,28 +6704,28 @@ Zelf</td>
         <tr>
             <th>Primaire/buitenlandse sleutel</th>
             <th>Type</th>
-            <th>Gerelateerde tabel</th>
-            <th>Verwant vakgebied</th>
+            <th>Verwante tabel</th>
+            <th>Verwant veld</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-             <td>TOEGEWEZENTOID</td>
+             <td>ASSIGNEDTOID</td>
              <td>FK</td>
              <td>USERS_CURRENT</td>
-             <td>NUTTIG</td>
+             <td>USERID</td>
         </tr>
         <tr>
-             <td>CATEGORIE-ID</td>
+             <td>CATEGORIE</td>
              <td>FK</td>
              <td>CATEGORIEËN_HUIDIGE</td>
-             <td>CATEGORIE-ID</td>
+             <td>CATEGORIE</td>
         </tr>
         <tr>
-             <td>LAATST BIJGEWERKTDOOR</td>
+             <td>LASTUPDATEDBYID</td>
              <td>FK</td>
              <td>USERS_CURRENT</td>
-             <td>NUTTIG</td>
+             <td>USERID</td>
         </tr>
         <tr>
              <td>OBJID</td>
@@ -7634,7 +7863,7 @@ Beperkte beschikbaarheid van klanten
              <td>TOUSERID</td>
              <td>FK</td>
              <td>USERS_CURRENT</td>
-             <td>NUTTIG</td>
+             <td>USERID</td>
         </tr>
         <tr>
              <td>USERDELEGATIONID</td>
@@ -7650,20 +7879,20 @@ Beperkte beschikbaarheid van klanten
 <table>
     <thead>
         <tr>
-            <th>Naam van Workfront-entiteit</th>
-            <th>Interface Referenties</th>
-            <th>API-referentie</th>
+            <th>Naam Workfront-entiteit</th>
+            <th>Interfaceverwijzingen</th>
+            <th>API-naslag</th>
             <th>API-label</th>
-            <th>Weergaven van Data Lake</th>
+            <th>Weergaven van datameer</th>
         </tr>
       </thead>
       <tbody>
         <tr>
             <td>Gebruikersgroep</td>
-            <td>Andere groepen</td>
+            <td>Overige groepen</td>
             <td>USRGPS</td>
             <td>Gebruikersgroep</td>
-            <td><br>USERSGROUPS_CURRENT USERSGROUPS_DAILY_HISTORY<br>USERSGROUPS_EVENT</td>
+            <td>USERSGROUPS_CURRENT <br> USERSGROUPS_DAILY_HISTORY <br> USERSGROUPS_EVENT</td>
         </tr>
       </tbody>
 </table>
@@ -7672,7 +7901,7 @@ Beperkte beschikbaarheid van klanten
         <tr>
             <th>Primaire/buitenlandse sleutel</th>
             <th>Type</th>
-            <th>Gerelateerde tabel</th>
+            <th>Verwante tabel</th>
             <th>Verwant veld</th>
         </tr>
     </thead>

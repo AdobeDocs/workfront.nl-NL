@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 3761217587419fa8b7ff42e425cc277ee36fe957
+source-git-commit: 7d8a7e59465920c3cca831db70fe48d485d324a9
 workflow-type: tm+mt
-source-wordcount: '1817'
+source-wordcount: '1911'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,19 @@ Deze pagina bevat een overzicht van de interface-updates die we in Adobe Workfro
 >In de meeste gevallen, wordt elke update eerst vrijgegeven aan het milieu van de Voorproef, dan incrementeel toegelaten in de milieu van de Productie voor een groeiende ondergroep klanten die op de vermelde de versiedatum van de Productie begint.
 
 Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product ](/help/quicksilver/product-announcements/product-releases/product-releases.md).[
+
+## Navigatie en zoeken in Workfront
+
+### Interface-update voor geavanceerd zoeken
+
+**de versie van de Voorproef: 17 April; De versie van de Productie: Te aankondigen**
+
+Het gedeelte Geavanceerd zoeken is als volgt bijgewerkt:
+
+* Er is een nieuw tabblad Volledig zoeken toegevoegd. Op dit tabblad kunt u zoeken op type, ingevoerd op, ingangsdatum, categorie en laatst bijgewerkt op.
+* Het filter op het tabblad Geavanceerd zoeken wijkt enigszins af. Het filter is nu niet vooraf gevuld. U moet het van knevel voorzien en het filter van kras bouwen. Het filter blijft niet behouden als de pagina wordt vernieuwd.
+
+Voor meer informatie, zie [ Onderzoek  [!DNL Adobe Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/search/search-workfront.md).
 
 ## Beheer en installatie
 
