@@ -6,7 +6,7 @@ description: U kunt een kalender met andere gebruikers delen en u kunt het openb
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 77eed0fe-2d47-40c4-a03d-590f7fa17dbe
-source-git-commit: 041e812d0663304b4bd51134020209d3a67e1423
+source-git-commit: 14b78ee4dc441ca84b891b2f021d959fcf357fdd
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 0%
@@ -78,11 +78,15 @@ Een kalender delen in [!DNL Workfront] :
    * **[!UICONTROL View]:** Gebruikers kunnen de kalender controleren en delen.
 
      ![ kalender van het Aandeel met de toegang van de Mening ](assets/calendar-share-view-permissions-350x249.png)
-     <!--![Share calendar with view access](assets/view-calendar.png)-->
+
+     <!--
+      ![Share calendar with view access](assets/view-calendar.png)
+      -->
 
    * **[!UICONTROL Manage]:** De gebruikers hebben volledige toegang tot de kalender, minus administratieve rechten, die op het toegangsniveau, plus alle toestemmingen van de Mening worden verleend.
 
      ![ kalender van het Aandeel met Manage toegang ](assets/calendar-share-manage-permissions-350x241.png)
+
      <!--![Share calendar with manage access](assets/manage-calendar.png)-->
 
      >[!NOTE]
