@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 7d8a7e59465920c3cca831db70fe48d485d324a9
+source-git-commit: 4536b0f15b208d96e7d823504574f879ed3dee2b
 workflow-type: tm+mt
-source-wordcount: '1911'
+source-wordcount: '1958'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,12 @@ Het gedeelte Geavanceerd zoeken is als volgt bijgewerkt:
 * Het filter op het tabblad Geavanceerd zoeken wijkt enigszins af. Het filter is nu niet vooraf gevuld. U moet het van knevel voorzien en het filter van kras bouwen. Het filter blijft niet behouden als de pagina wordt vernieuwd.
 
 Voor meer informatie, zie [ Onderzoek  [!DNL Adobe Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/search/search-workfront.md).
+
+### Interface-update voor het verlenen van toegang tot uw Workfront-account
+
+**de versie van de Voorproef: 24 April; De versie van de Productie: Te aankondigen**
+
+We hebben de pagina die u gebruikt, bijgewerkt zodat u ondersteuning kunt bieden voor toegang tot uw Workfront-account met een modernere opzet die aansluit bij andere delen van Workfront.
 
 ## Beheer en installatie
 
