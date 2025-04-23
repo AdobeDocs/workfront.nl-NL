@@ -4,7 +4,8 @@ description: De blik-en-voelen updates tijdens het Derde Kwartaal 2025 de tijdka
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20faacf09266c455a29a04db59a4d39f825f0c2d
+exl-id: 1a98053a-7f0d-4c87-a9eb-f081dade872c
+source-git-commit: 88bbfdc21501fb1575cd07d03af43afe90142adc
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 Deze pagina beschrijft kleine updates aan de blik en het gevoel van diverse gebieden van de toepassing van Adobe Workfront die binnen het Derde Kwartaal 2025 releasetijdschema werden gemaakt.
 
-Voor een lijst van alle veranderingen beschikbaar met het Derde Kwartaal 2025 versie, zie [ Derde Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met het Derde Kwartaal 2025 versie, zie [ Derde Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
 
 ## look-and-feel-updates aan het gebied van het Beheer van het Middel in Opstelling
 
