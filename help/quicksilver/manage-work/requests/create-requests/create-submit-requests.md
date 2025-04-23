@@ -3,10 +3,10 @@ product-area: requests
 navigation-topic: create-requests
 title: Verzoeken maken en verzenden
 description: Geplande werkzaamheden worden in Adobe Workfront vertegenwoordigd door projecten en taken. Nochtans, zou u in een milieu kunnen werken waar ongeplande werk-in de vorm van willekeurig verzoek-binnen op elk ogenblik kan komen. Workfront biedt een workflow voor het aanpassen van dit type omgeving via het gebruik van Request Queues.
-author: Lisa
+author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
 workflow-type: tm+mt
 source-wordcount: '2680'
 ht-degree: 0%

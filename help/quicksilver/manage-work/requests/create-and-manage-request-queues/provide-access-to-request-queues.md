@@ -3,10 +3,10 @@ product-area: requests;user-management
 navigation-topic: create-and-manage-request-queues
 title: Toegang tot aanvraaglijsten bieden
 description: Wanneer u toegang tot een verzoekrij verleent, bepaalt u wie in uw organisatie de verzoekrij in het gebied van Verzoeken van Adobe Workfront kan bekijken.
-author: Lisa
+author: Alina
 feature: Work Management
 exl-id: eb88c32a-f8b8-42d3-9a3a-72c62fd1dc3a
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 0%
@@ -73,7 +73,7 @@ Voordat de aanvraagwachtrij beschikbaar is voor gebruikers in het gebied Verzoek
    >Alleen projecten met de status Huidig zijn zichtbaar in het gebied Verzoeken.
 
 1. Klik **Details van de Rij** in het linkerpaneel. U zou kunnen moeten klikken **Meer** tonen, dan **de Details van de Rij**.
-1. Selecteer **Publish als Rij van het Verzoek van de Hulp** om het project als Rij van het Verzoek aan te wijzen.
+1. Selecteer **publiceren als Rij van het Verzoek van de Hulp** om het project als Rij van het Verzoek aan te wijzen.
 1. Selecteer een van de volgende opties:
 
    * **Iedereen**: Om het even welke gebruiker kan verzoeken aan de verzoekrij bekijken en toevoegen.

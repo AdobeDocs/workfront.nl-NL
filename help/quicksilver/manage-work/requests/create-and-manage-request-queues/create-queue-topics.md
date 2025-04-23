@@ -3,11 +3,11 @@ product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Werkvoorraadonderwerpen maken
 description: De Onderwerpen van de rij werken samen met het Verpletteren van Regels om het inkomende werk aan een gebruiker, baanrol, team automatisch toe te wijzen, of het op een project te plaatsen. De Onderwerpen van de rij bepalen de voorwaarden die voor de Verpletterende Regel moeten bestaan worden uitgevoerd.
-author: Lisa
+author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
 workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 0%
