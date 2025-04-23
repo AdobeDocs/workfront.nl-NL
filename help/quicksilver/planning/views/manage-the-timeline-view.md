@@ -6,14 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
+source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
 workflow-type: tm+mt
-source-wordcount: '2684'
+source-wordcount: '2863'
 ht-degree: 0%
 
 ---
 
 # De tijdlijnweergave beheren
+
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 {{planning-important-intro}}
 
@@ -90,65 +94,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 *Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
-<!--OLD: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p>
-   Or
-   <p>Current: Plan </p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configurations</p></td>
-   <td> There are no access controls for Adobe Workfront Planning</p>  
-</td>
-  </tr>
-
-  <tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a view</p>  
-   <p>View permissions to a view to temporarily change the view settings</p>
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> <p>For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p> 
-</td>
-  </tr>
- </tbody>
-</table>
-
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
-
 
 ## Een tijdlijnweergave beheren {#manage-a-timeline-view}
 
@@ -326,7 +271,7 @@ Werk de instellingen van de tijdlijnweergave bij om aan te geven wat en hoe info
    >
    >Records die geen waarden hebben voor de begin- of einddatum of die later een begindatum hebben dan de einddatum, worden niet weergegeven in de tijdlijnweergave.
 
-1. Klik **stijl van de Bar** in het linkerpaneel, om te wijzen op welke gebieden u op de verslagbars wilt tonen.
+1. Klik **stijl van de Bar** in het linkerpaneel, om te wijzen op welke informatie u op de verslagbars wilt tonen.
 
    Het primaire veld (of de titel) van de record, zoals gedefinieerd in de tabelweergave van de record, wordt standaard geselecteerd. <!--adjust this when the primary field is released??-->
 
@@ -336,18 +281,30 @@ Werk de instellingen van de tijdlijnweergave bij om aan te geven wat en hoe info
    >
    >    U moet eerst miniaturen toevoegen in de tabelweergave voordat u ze kunt weergeven in de tijdlijnweergave. Voor meer informatie, zie [ een duimnagel aan een verslag ](/help/quicksilver/planning/records/add-thumbnails-to-records.md) toevoegen.
 
-1. Klik **voeg gebied** toe om tot 4 gebieden aan de verslagbars toe te voegen.
-1. Klik binnen de **gebieden van het Onderzoek** doos, en klik het gebied u wilt toevoegen.
+1. Klik **toevoegen gebied**, dan klik binnen het **vakje van het Onderzoek gebieden**, en klik het gebied u wilt toevoegen.
 
    >[!TIP]
    >
    >   * U moet de velden maken voordat u deze aan de recordbalken kunt toevoegen.
    > 
    >   * Er moet ten minste één veld zijn geselecteerd. **Naam** wordt geselecteerd door gebrek.
+   >
+   >   * U kunt maximaal vijf velden toevoegen.
 
    Aan de rechterkant wordt een voorvertoning weergegeven van hoe de balken eruit zullen zien op de tijdlijn.
 
    ![ de chronologiemontages van het paneel van de Details van het Verslag met voorproef ](assets/record-details-panel-timeline-settings-with-preview.png)
+
+1. <span class="preview"> (Facultatief en voorwaardelijk) als u de chronologie op de Standaardwijze toont, laat **de details van de Truncate bar** plaatsen toe. Als deze optie is ingeschakeld, wordt de informatie op de recordbalken ingekort en wordt deze alleen volledig weergegeven wanneer u de muisaanwijzer op de balken plaatst. Deze instelling is standaard uitgeschakeld en de informatie wordt volledig weergegeven op de balken. </span>
+
+   ![ Truncate die op benadrukte doos van chronologiemontages wordt toegelaten ](assets/truncate-setting-enabled-on-timeline-settings-highlighted.png)
+
+   >[!TIP]
+   >
+   >* <span class="preview"> het plaatsen van de details van de Truncate bar is niet beschikbaar wanneer het tonen van de chronologiemening op Compacte wijze, en het is niet beschikbaar in de mening van de Kalender.</span>
+   >
+   >* <span class="preview"> als u onderaan de chronologiemening aan vertonings verbonden voorwerpen in de chronologie opsplitst, is de Truncate bar details het plaatsen slechts op het belangrijkste verslagtype van toepassing. Het is niet op de verbonden verslagbars van toepassing.</span>
+
 
 1. Klik **Kleur** in het linkerpaneel, om de kleuren van de verslagen en de groeperingen in de chronologie aan te passen.
 

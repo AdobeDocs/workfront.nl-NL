@@ -6,9 +6,9 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 0%
 # Toegangsoverzicht voor Adobe Workfront Planning
 
 <!--do not use the snippet for IMPORTANT , as it links to this article-->
+
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 >[!IMPORTANT]
 >
@@ -38,7 +42,7 @@ In dit artikel worden de toegang en instellingen beschreven die u nodig hebt om 
 
 <!--*********ensure that the link ^^^^^^^^below^^^^^^^^ to Workfront Pricing and Packaging now also includes information about Workfront Planning. If not, talk with Lauren S.***************-->
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
+U moet de volgende toegang tot de Planning van Workfront hebben:
 
 <table style="table-layout:auto">
  <col>
@@ -59,8 +63,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td>
 <p>Een van de volgende Workfront-plannen:</p>
 <ul><li>Selecteren</li>
-<li>Eerste</li>
-<li>Ultieme</li></ul>
+<li>Prime</li>
+<li>Ultimate</li></ul>
 <p>Workfront Planning is niet beschikbaar voor oudere Workfront-plannen</p>
    </td>
 
@@ -77,7 +81,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 <tr>
    <td role="rowheader"><p>Adobe Workfront-platform</p></td>
    <td>
-<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden genegeerd om tot alle mogelijkheden van de Planning van Workfront te kunnen toegang hebben.</p>
+<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden bezeten om tot alle mogelijkheden van de Planning van Workfront toegang te hebben.</p>
 <p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p>
    </td>
 
@@ -100,9 +104,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader"><p>Objectmachtigingen</p></td>
    <td>
    <ul>
-   <li><p>Geef werkruimten en weergaven die u niet hebt gemaakt, de beschikking over of meer machtigingen voor deze werkruimten en de bijbehorende objecten.</p></li>
-   <li><p>Contribute of hogere machtigingen voor werkruimten die u niet hebt gemaakt om deze te bewerken en recordtypen en records te maken, te bewerken of te verwijderen.</p></li>
-   <li><p>Contribute of hoger bevoegdheden voor weergaven die u niet hebt gemaakt, om deze te bewerken, te verwijderen en te delen</p>
+   <li><p>De mening of hogere toestemmingen aan werkruimten, <span class="preview"> verslagtypes </span> en meningen die u niet creeerde om tot hen en hun voorwerpen toegang te hebben.</p></li>
+   <li><p>Draag of hogere toestemmingen aan werkruimten <span class="preview"> en recordtypes </span> bij die u niet creeerde om hen uit te geven en, recordtypes en verslagen tot stand te brengen uit te geven of te schrappen.</p></li>
+   <li><p>Contribute of hoger machtigingen voor weergaven die u niet hebt gemaakt, om deze te bewerken, te verwijderen en te delen</p>
    </li>
     <li><p>Systeembeheerders kunnen werkruimten beheren die ze niet hebben gemaakt. </p></li>
     <li><p>Systeembeheerders hebben geen toegang tot weergaven die ze niet hebben gemaakt. </p></li></ul>
@@ -126,73 +130,20 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 *Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
-<!--Acccess and permissions before GA (OLD): 
+<!--replace the layout template info in the table with this at release: 
 
-You must have the following access to perform the steps in this article:
+<div class="preview">
+<p> Users with a Light or Contributor license must be assigned a layout template that includes the Planning option  in the following areas:</p>
+   <ul><li>Main Menu</li>
+   <li>Left panel of projects, portfolios, and programs</li>
+   <li>Landing page</li>
+   <li>Pins</li></ul>
+   <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">Create and manage layout templates</a>.</p>
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div>
+   <p><b>NOTE</b></p>
+   <p>In the Production environment, all users including the System administrators must be assigned to a layout template that includes the Planning areas.</p>
 
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>Any, to view Workfront planning information</p>
-   <p>To create workspaces, you must have the following license:</p>
-   <ul>
-   <li>
-   New: Standard
-   </li>
-   <li>
-   Current: Plan
-   </li>
-   </ul>
-  </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Access level configuration</p></td>
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Object permissions</p></td>
-   <td>
-   <p>Contribute or higher permissions to workspaces and views that you did not create to edit, delete, and share them, and to create, edit, or delete record types and records.</p>
-    <p>System Administrators can manage workspaces they did not create. </p>
-    <p>System Administrators cannot manage views they did not create. </p>
-   <p>For information about sharing permissions for Workfront Planning objects, see  
-   <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">Overview of sharing permissions in Adobe Workfront Planning</a> 
-  </td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> <p>For information, see <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">Customize the Main Menu using a layout template</a> and and <a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md">Assign users to a layout template</a>. </p>  
-</td>
-  </tr>
- </tbody>
-</table>
-
-*For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  -->
+-->
 
 ## Het planningsgebied delen met een lay-outsjabloon
 
