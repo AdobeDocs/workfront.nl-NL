@@ -6,9 +6,9 @@ description: Als u een kalender hebt gemaakt, kunt u de kalender kopiëren en ge
 author: Lisa
 feature: Reports and Dashboards
 exl-id: f72cf896-294f-4166-b731-eaec0c2156b1
-source-git-commit: 041e812d0663304b4bd51134020209d3a67e1423
+source-git-commit: 5c0278607faf65b58abeb9b813e403f97032a965
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
@@ -58,23 +58,8 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 +++
 
-## Een kalenderrapport kopiëren in productie
 
-1. Ga naar de kalender die u wilt kopiëren.
-1. Klik op de werkbalk **[!UICONTROL Calendar]** op **[!UICONTROL Calendar Actions]** en selecteer vervolgens **[!UICONTROL Copy]** in de vervolgkeuzelijst.
-Er wordt een kopie van de kalender geopend.
-
-   ![ Kopieer het kalenderrapport ](assets/copy-calendar-report.png)
-
-   Alle projecten en kalendergroepen in de originele kalender tonen in het exemplaar van de kalender. Alleen objecten die door kalenderfilters zijn geplaatst, worden naar de zojuist gekopieerde kalender geëxporteerd. Gebeurtenissen die handmatig aan de oorspronkelijke kalender worden toegevoegd, moeten handmatig aan de gekopieerde kalender worden toegevoegd.
-
-   Alleen u hebt toegang tot de gekopieerde kalender. Gebruikers die toegang hebben tot de oorspronkelijke kalender hebben geen toegang tot de gekopieerde kalender. U kunt toegang verlenen tot de zojuist gemaakte kalender door deze te delen met andere gebruikers. Zie [[!UICONTROL Share a calendar] report ](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md) voor meer informatie over het delen van kalenders.
-
-1. (Optioneel) Wijzig de naam van de kalender.
-
-<div class="preview">
-
-## Een kalenderrapport kopiëren in Voorvertoning
+## Een kalenderrapport kopiëren
 
 1. Ga naar de kalender die u wilt kopiëren.
 1. Klik het **Meer** menu naast het drop-down menu van de Kalender.
@@ -83,13 +68,10 @@ Er wordt een kopie van de kalender geopend.
 1. Selecteer **[!UICONTROL Copy]** in de vervolgkeuzelijst. De kalender wordt gekopieerd en u wordt naar de nieuwe kopie gebracht.
 
 
->[!NOTE]
->
->Alle projecten en kalendergroepen in de originele kalender tonen in het exemplaar van de kalender. Alleen objecten die door kalenderfilters zijn geplaatst, worden naar de zojuist gekopieerde kalender geëxporteerd. Gebeurtenissen die handmatig aan de oorspronkelijke kalender worden toegevoegd, moeten handmatig aan de gekopieerde kalender worden toegevoegd.
-> 
->
->Alleen u hebt toegang tot de gekopieerde kalender. Gebruikers die toegang hebben tot de oorspronkelijke kalender hebben geen toegang tot de gekopieerde kalender. U kunt toegang verlenen tot de zojuist gemaakte kalender door deze te delen met andere gebruikers. Zie [[!UICONTROL Share a calendar] report ](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md) voor meer informatie over het delen van kalenders.
+   >[!NOTE]
+   >
+   >Alle projecten en kalendergroepen in de originele kalender tonen in het exemplaar van de kalender. Alleen objecten die door kalenderfilters zijn geplaatst, worden naar de zojuist gekopieerde kalender geëxporteerd. Gebeurtenissen die handmatig aan de oorspronkelijke kalender worden toegevoegd, moeten handmatig aan de gekopieerde kalender worden toegevoegd.
+   >
+   >Alleen u hebt toegang tot de gekopieerde kalender. Gebruikers die toegang hebben tot de oorspronkelijke kalender hebben geen toegang tot de gekopieerde kalender. U kunt toegang verlenen tot de zojuist gemaakte kalender door deze te delen met andere gebruikers. Zie [[!UICONTROL Share a calendar] report ](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md) voor meer informatie over het delen van kalenders.
 
-1. (Facultatief) klik het **Meer** menu, dan klik **uitgeven** om de kalender anders te noemen.
-
-</div>
+1. (Facultatief) om de naam van het kalenderrapport te veranderen, klik **anders noemen** naast het kalenderdrop-down menu.

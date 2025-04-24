@@ -6,16 +6,15 @@ description: U kunt een kalender met andere gebruikers delen en u kunt het openb
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 77eed0fe-2d47-40c4-a03d-590f7fa17dbe
-source-git-commit: 14b78ee4dc441ca84b891b2f021d959fcf357fdd
+source-git-commit: 0606dab832753543ceef4b5b505413967176aec4
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
 
 # Een kalenderrapport delen
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Sandbox van de Voorproef.</span>
 
 U kunt een kalender delen met andere gebruikers en deze openbaar maken, zodat iemand zonder [!DNL Adobe Workfront] -licentie de kalender kan bekijken.
 
@@ -65,10 +64,8 @@ Kalenders die met u zijn gedeeld tonen met een asterisk (&#42;) naast de kalende
 Een kalender delen in [!DNL Workfront] :
 
 1. Ga naar de kalender die u wilt delen.
-1. <span class="preview"> in Voorproef, klik het **Meer** menu naast de kalendernaam, dan klik **het Delen**.
-   ![ kalender meer menu ](assets/more-menu-calendar.png)</span>
-1. Klik op **[!UICONTROL Calendar Actions]** en vervolgens op **[!UICONTROL Sharing]** .
-
+1. Klik het **Meer** menu naast de kalendernaam, dan klik **het Delen**.
+   ![ kalender meer menu ](assets/more-menu-calendar.png)
 1. Typ in het veld **[!UICONTROL Give Calendar access to]** de naam van de gebruiker, het team, de rol, de groep of het bedrijf die u de kalender wilt delen, en klik vervolgens op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst.\
    Om over het plaatsen van toestemmingen te leren, zie [ Overzicht van het delen van toestemmingen op voorwerpen ](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
@@ -77,17 +74,11 @@ Een kalender delen in [!DNL Workfront] :
 
    * **[!UICONTROL View]:** Gebruikers kunnen de kalender controleren en delen.
 
-     ![ kalender van het Aandeel met de toegang van de Mening ](assets/calendar-share-view-permissions-350x249.png)
-
-     <!--
-      ![Share calendar with view access](assets/view-calendar.png)
-      -->
+     ![ kalender van het Aandeel met meningstoegang ](assets/view-calendar.png)
 
    * **[!UICONTROL Manage]:** De gebruikers hebben volledige toegang tot de kalender, minus administratieve rechten, die op het toegangsniveau, plus alle toestemmingen van de Mening worden verleend.
 
-     ![ kalender van het Aandeel met Manage toegang ](assets/calendar-share-manage-permissions-350x241.png)
-
-     <!--![Share calendar with manage access](assets/manage-calendar.png)-->
+     ![ kalender van het Aandeel met beheerde toegang ](assets/manage-calendar.png)
 
      >[!NOTE]
      >
@@ -108,12 +99,9 @@ U kunt een kalender openbaar maken en een koppeling delen met personen die geen 
 
 1. Ga naar de kalender die u wilt delen.
 1. Klik op **[!UICONTROL Calendar Actions]** en vervolgens op **[!UICONTROL Sharing]** .
-1. <span class="preview"> in Voorproef, klik het **Meer** menu naast de kalendernaam.
-   ![ kalender meer menu ](assets/more-menu-calendar.png)</span>
-
-1. Klik op het tandwielpictogram en klik vervolgens op **[!UICONTROL Make this public to external users]** .
-1. Klik op **[!UICONTROL Copy link]**.
-1. <span class="preview"> in Voorproef, klik **Openbare verbinding van het Exemplaar**.</span>
+1. Klik het **Meer** menu naast de kalendernaam.
+   ![ kalender meer menu ](assets/more-menu-calendar.png)
+Klik **openbare verbinding van het Exemplaar**.
 1. Klik op **[!UICONTROL Save]**.
 
 ## Een kalender delen met een persoonlijke koppeling
@@ -121,10 +109,8 @@ U kunt een kalender openbaar maken en een koppeling delen met personen die geen 
 U kunt een persoonlijke kalenderkoppeling delen met [!DNL Workfront] -gebruikers. Gebruikers moeten zich aanmelden om de kalender te bekijken wanneer ze de koppeling gebruiken.
 
 1. Ga naar de kalender die u wilt delen.
-1. <span class="preview"> in Voorproef, klik het **Meer** menu naast de kalendernaam, dan klik **[!UICONTROL Get Sharable Link]**.
-   ![ kalender meer menu ](assets/more-menu-calendar.png)</span>
-1. Klik op **[!UICONTROL Calendar Actions]** en vervolgens op **[!UICONTROL Get Sharable Link]** .
-1. Klik op **[!UICONTROL Copy Link]**.
+1. Klik **Meer** menu naast de kalendernaam, dan klik **[!UICONTROL Get Sharable Link]**.
+   ![ kalender meer menu ](assets/more-menu-calendar.png)
 
    >[!NOTE]
    >

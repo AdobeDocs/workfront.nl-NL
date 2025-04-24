@@ -6,16 +6,14 @@ description: U kunt een kalender verwijderen die u hebt of die anderen met u heb
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 6208442e-21af-4cd1-ad55-52215bd4d959
-source-git-commit: 041e812d0663304b4bd51134020209d3a67e1423
+source-git-commit: 5c0278607faf65b58abeb9b813e403f97032a965
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
 
 # Een kalenderrapport verwijderen
-
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Sandbox van de Voorproef.</span>
 
 U kunt een kalender verwijderen die u hebt of die anderen met u hebben gedeeld. Nadat de kalender is verwijderd, is deze niet meer toegankelijk voor gebruikers met wie u de kalender hebt gedeeld.
 
@@ -58,15 +56,8 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 +++
 
-## Een kalenderrapport in productie verwijderen
 
-1. Ga naar de kalender die u wilt verwijderen.
-1. Klik op de werkbalk **[!UICONTROL Calendar]** op **[!UICONTROL Calendar Actions]** en selecteer vervolgens **[!UICONTROL Delete]** in de vervolgkeuzelijst.
-1. Klik op **[!UICONTROL Yes, Delete It]**.
-
-<div class="preview">
-
-## Een kalenderrapport verwijderen in Voorvertoning
+## Een kalenderrapport verwijderen
 
 1. Ga naar de kalender die u wilt verwijderen.
 1. Klik het **Meer** menu naast het drop-down menu van de Kalender.
@@ -74,5 +65,3 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. Selecteer **[!UICONTROL Delete]** in de vervolgkeuzelijst.
 1. Klik op **[!UICONTROL Delete]**.
-
-</div>
