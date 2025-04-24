@@ -7,9 +7,9 @@ description: Het overzicht met opmerkingen is toegankelijk in Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 212d465c-5605-4bb9-af5a-cea377619cfe
-source-git-commit: de23513976d7bc4fe34cbf7b007a41c3b9797347
+source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Als u de miniatuurweergave wilt afdrukken, klikt u op het pictogram **[!UICONTRO
 
 In de weergave van de volledige pagina wordt elke pagina weergegeven in volgorde van de opmerkingen op die pagina en een punt dat aangeeft waar de opmerking zich bevindt.
 
-Als u de volledige paginaweergave wilt afdrukken, klikt u op het pictogram **[!UICONTROL Printer]** rechtsboven op de pagina.
+Als u de weergave van de volledige pagina wilt afdrukken, klikt u op het pictogram **[!UICONTROL Printer]** rechtsboven op de pagina.
 
 ![ PV_full.png ](assets/pv-full-350x347.png)
 
@@ -97,8 +97,7 @@ U kunt als volgt het overzicht van [!DNL Excel] downloaden van de pagina Proefge
 
 1. Klik de **Meer** knoop, dan uitgezochte **Uitvoer aan Excel**.
 
-   <!--
-   ![Export to Excel option](assets/export-to-excel-option.png) -->
+   ![ Uitvoer aan Excel ](assets/export-to-excel.png)
 
 ## Exporteren naar PDF
 

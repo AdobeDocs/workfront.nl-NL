@@ -8,7 +8,7 @@ author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 024b8606-a9b7-413a-b393-8e5cdff37dd4
-source-git-commit: 5d818b2e3c3314c6af076df46f7f806214f97bab
+source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
 workflow-type: tm+mt
 source-wordcount: '1648'
 ht-degree: 0%
@@ -128,7 +128,7 @@ Voordat u begint, moet u machtigingen inschakelen voor workfront-service:
 1. Selecteer **[!UICONTROL Add ACE]** aan de rechterkant van het scherm om nieuwe items te maken.
 1. Selecteer in het venster &#x200B;**[!UICONTROL Add New Entry]** &#x200B; het pictogram van het selectievakje in het veld **[!UICONTROL Path]** &#x200B; en kies de map: */conf*
 1. Op het **Bevoegdheden** gebied, ga binnen: *jcr:lees*
-1. Selecteer **[!UICONTROL Add]** &#x200B; in de rechterbovenhoek.
+1. In de hoger-juiste hoek, uitgezocht **voeg** toe.
 1. (Optioneel) Herhaal bovenstaande stappen om meer items te maken.
 
 ### AEM integreren met [!DNL Workfront] {#integrate-aem-with-workfront}

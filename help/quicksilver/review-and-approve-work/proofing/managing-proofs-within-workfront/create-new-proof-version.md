@@ -6,29 +6,31 @@ description: Het beheren van feedback in meerdere versies of revisies van een st
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee0c859e-349b-4e7a-ac80-164740b950f0
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
 workflow-type: tm+mt
-source-wordcount: '1737'
+source-wordcount: '1523'
 ht-degree: 0%
 
 ---
 
 # Een nieuwe versie van een proefdruk maken
 
-Het beheren van feedback in meerdere versies of revisies van een stuk werk kan een enorme uitdaging zijn. Workfront vereenvoudigt dit proces door meerdere versies van een proefdruk te maken en te vergelijken.
+<!-- Audited: 4/2025 -->
 
-Neem de volgende informatie in overweging wanneer u een nieuwe versie van een proefdruk maakt:
+Het beheren van feedback in meerdere versies of revisies van een stuk werk kan een uitdaging zijn. Adobe Workfront vereenvoudigt dit proces door meerdere versies van een proefdruk te maken en te vergelijken.
 
-* U kunt een gebruiker toestemming geven om één versie maar niet een andere te zien. Omgekeerd, als u een recentere versie met een gebruiker deelt, kan die gebruiker vroegere versies niet zien tenzij u teruggaat en uitdrukkelijk de gebruikerstoegang tot die vorige versies verleent.
-* Als u een nieuwe versie van een proefdruk wilt maken, moet u over bewerkingsrechten op de proefdruk beschikken.
+Houd rekening met het volgende wanneer u een nieuwe versie van een proefdruk maakt:
 
-  Zie [ de Rollen van het Bewijs in Workfront Proof beheren ](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) en [ Profielen van de Toestemmingen van het Bewijs in Workfront Proof ](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) om meer informatie te krijgen over wie rechten op een proef uitgeeft heeft.
+* U kunt een gebruiker toestemming geven om één versie maar niet een andere te zien. Omgekeerd, als u een recentere versie met een gebruiker deelt, kan die gebruiker vroegere versies niet zien tenzij u teruggaat en hen toegang tot die vorige versies verleent.
+* Als u een nieuwe versie wilt maken, hebt u bewerkingsrechten nodig op de proefdruk.
+
+  Voor meer informatie, zie [ de Rollen van het Bewijs in Workfront Proof ](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) beheren en [ Profielen van de Toestemmingen van de Bewijs in Workfront Proof ](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
   Zie voor informatie over het delen van proefversies  [ Deel een Bewijs in Workfront Proof ](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
 
 >[!IMPORTANT]
 >
->Als er in Adobe Workfront een proefdruk wordt gemaakt, moeten ook nieuwe versies voor die proefdruk in Workfront worden gemaakt. U kunt in Workfront Proof geen nieuwe versie van een proefdruk maken als die proefdruk in Workfront is gemaakt.
+>Als er een proefdruk wordt gemaakt in Adobe Workfront, moeten er ook nieuwe versies voor die proefdruk worden gemaakt in Workfront. U kunt in Workfront Proof geen nieuwe versie van een proefdruk maken als die proefdruk in Workfront is gemaakt.
 
 ## Toegangsvereisten
 
@@ -41,60 +43,38 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd abonnement: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td> <p>Huidig: Pro of hoger</p> <p>of</p> <p>Verouderd: selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Huidig plan: Werk of Plan</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Huidig: Standaard</p> 
+   <p>of</p>
+   <p>Verouderd: werk of abonnement (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bewijs van machtigingsprofiel </td> 
    <td>Manager of hoger</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot documenten bewerken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Een nieuwe versie van een proefdruk maken in Workfront
+## Nieuwe proefdrukversie maken in Workfront
 
-Er zijn verschillende manieren om een nieuwe proefversie te uploaden in Workfront. De standaardproefdrukinstellingen kunnen afhankelijk van de gekozen methode al dan niet worden overgenomen uit de vorige versie:
+Er zijn verschillende manieren om een nieuwe proefversie te uploaden in Workfront. De standaardproefdrukinstellingen kunnen afhankelijk van de geselecteerde methode al dan niet worden overgenomen uit de vorige versie:
 
-* **produceert automatisch proeven wanneer het uploaden van documenten**: De standaardproefdrukmontages dragen niet over. Als u deze instelling hebt ingeschakeld in uw gebruikersprofiel, worden de standaardproefdrukinstellingen niet overgedragen wanneer u een nieuwe versie sleept en neerzet.
-* **creeer proef > Eenvoudig**: De standaardproefdrukmontages dragen niet over. Als u bij het maken van een nieuwe proefversie de optie Eenvoudig kiest, worden de standaardproefdrukinstellingen niet overgenomen uit de vorige versie.
-* **voeg nieuw toe > Versie > Bewijs**: De standaardproefmontages dragen van de vorige versie over.
-* **creeer bewijs > Geavanceerd**: De standaardproefmontages dragen over van de vorige versie.
-
-  <table>
-  <tbody>
-  <tr>
-  <td>Automatisch proefdrukken genereren bij het uploaden van documenten</td>
-  <td>Standaardproefdrukinstellingen worden niet overgedragen. Als u deze instelling hebt ingeschakeld in uw gebruikersprofiel, worden de standaardproefdrukinstellingen niet overgedragen wanneer u een nieuwe versie sleept en neerzet.</td>
-  </tr>
-  <tr>
-  <td>Proef maken &gt; Eenvoudig</td>
-  <td>Standaardproefdrukinstellingen worden niet overgedragen. Als u bij het maken van een nieuwe proefversie de optie Eenvoudig kiest, worden de standaardproefdrukinstellingen niet overgenomen uit de vorige versie.</td>
-  </tr>
-  <tr>
-  <td>Nieuw &gt; Versie &gt; Proef toevoegen</td>
-  <td>De standaardproefdrukinstellingen worden overgenomen van de vorige versie.</td>
-  </tr>
-  <tr>
-  <td>Proef maken &gt; Geavanceerd</td>
-  <td>De standaardproefdrukinstellingen worden overgenomen van de vorige versie.</td>
-  </tr>
-  </tbody>
-  </table>
-
-
-
+* **produceert automatisch proeven wanneer het uploaden van documenten**: Als u dit plaatsen die in uw gebruikersprofiel wordt toegelaten hebt, dragen de standaardproefdrukmontages niet over wanneer u sleept en een nieuwe versie laat vallen.
+* **creeer proef > Eenvoudig**: Als u deze optie selecteert, dragen de standaardproefdrukmontages niet van de vorige versie over.
+* **voeg nieuw toe > Versie > Bewijs**: Als u deze optie selecteert, dragen de standaardproefdrukmontages van de vorige versie over.
+* **creeer proef > Geavanceerd**: Als u deze optie selecteert, dragen de standaardproefmontages van de vorige versie over.
 
 Een nieuwe versie van een proefdruk maken:
 
@@ -105,9 +85,9 @@ Een nieuwe versie van een proefdruk maken:
 
    Selecteer de rij waar de proef vermeld is, klik **nieuwe** toevoegen > **Versie**, dan klik de optie u wilt gebruiken om de nieuwe versie van de proef toe te voegen.
 
-   ![ voeg nieuwe versie ](assets/add-new-version-350x185.png) toe
+   ![ voeg nieuwe versie ](assets/add-new-proof-version.png) toe
 
-## Een nieuwe versie van een proefdruk maken met de proefdrukviewer (alleen Workfront Proof)
+## Een nieuwe proefdrukversie maken met de proefdrukviewer (alleen Workfront Proof)
 
 Als u de standalone Workfront Proof gebruikt, kunt u een nieuwe versie van een proef tot stand brengen die één enkel dossier of Web vangt bevatten. 
 
@@ -118,63 +98,66 @@ Als u de standalone Workfront Proof gebruikt, kunt u een nieuwe versie van een p
 Een nieuwe versie van een proefdruk maken in Workfront Proof:
 
 1. Open de proefdruk.
-1. Klik het **drop-down menu van de Versie** in de upper-left hoek, dan klik **+ Nieuwe versie** in de doos die verschijnt.
+1. In de upper-left hoek, klik het **drop-down menu van de Versie**, dan klik **+ Nieuwe versie** in de doos die verschijnt. De nieuwe pagina met proefdrukversies wordt geopend.
 
-   Op de **Nieuwe proefdrukversie van** pagina die verschijnt, kunt u alle recensenten van de vorige versie, met inbegrip van hun rollen en e-mailberichtmontages zien. U kunt de rollen en meldingen van bestaande revisoren eenvoudig bewerken of bestaande revisoren verwijderen uit de nieuwe versie op deze pagina.
+   ![ voeg nieuwe versie ](assets/new-version-button.png) toe
 
-1. Onder **voegt dossiers** toe, upload een dossier als nieuwe versie van de proef door te slepen en van uw computer te vallen of door **te klikken doorbladert** en het dossier te selecteren u wilt. U kunt de naam van het a **Bewijs** voor de versie typen of dit vakje leeg verlaten om zelfde filename met een versieaantal te gebruiken dat op het eind wordt toegevoegd.
+1. In **voeg dossiers** sectie toe, upload een dossier als nieuwe proefversie door het van uw computer te slepen en te laten vallen of door **te klikken doorbladert** en een dossier te selecteren.
 
    of
 
-   Leg een webpagina vast als een nieuwe versie van de proefdruk door een URL te typen.
+   Leg een webpagina vast als een nieuwe versie van de proefdruk door een URL in te voeren.
 
    >[!NOTE]
    >
    >Slepen en neerzetten is alleen beschikbaar in browsers die HTML5 volledig ondersteunen. Internet Explorer 7 tot en met 9 en Safari zijn hiervan uitgesloten.
 
-1. Onder **Werkschema**, maak om het even welke volgende veranderingen om de recensenten voor deze versie van de proef te specificeren.
+1. (Optioneel) Selecteer de proeftitel en voer een nieuwe **proefdruknaam** voor de versie in.
 
-   Revisoren van de vorige versie worden vervangen door de revisoren die u toevoegt.
+1. In de **sectie van het Werkschema**, maak om het even welke volgende veranderingen om controleurs voor deze proefdrukversie toe te voegen (dit zal de recensenten van de vorige versie vervangen):
 
-   * Verander de **Eigenaar** van de versie in een andere gebruiker in uw rekening.\
-     Voor informatie over eigenaartoestemmingen, zie [ Profielen van de Toestemmingen van de Bewijs in Workfront Proof ](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+   * (Facultatief) verander de **Eigenaar** van de versie in een andere gebruiker in uw rekening.
 
-   * Gebruikend de **het contactnaam of e-mailadres van het Type om een ontvankelijke doos** toe te voegen, voeg recensenten aan de versie toe. U kunt de rol van het a **Bewijs** en een **E-mail alarm** type voor elke ontvanger specificeren.
+     Voor informatie, zie [ Profielen van de Toestemmingen van de Bewijs in Workfront Proof ](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
-     Voor informatie over het toevoegen van groepen aan de proef, zie  [ voegt Groepen aan een Bewijs ](../../../workfront-proof/wp-mnguserscontacts/groups/add-groups.md) toe. Voor informatie over rollen, zie [ de Rollen van het Bewijs in Workfront Proof ](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) leiden.
+   * (Facultatief) Gebruikend de **het contactnaam of e-mailadres van het Type om een ontvankelijke** doos toe te voegen, voeg recensenten aan de versie toe. U kunt de rol van het a **Bewijs** en **e-mailalarm** type voor elke ontvanger dan selecteren.
+
+     Voor informatie, zie [ Groepen aan een Bewijs ](../../../workfront-proof/wp-mnguserscontacts/groups/add-groups.md) toevoegen en [ Beheren de Rollen van het Bewijs in Workfront Proof ](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
      >[!NOTE]
      >
-     >Indien de maker of eigenaar van  de proef heeft [ het Bewijs E-mail van Made ](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md) gehandicapt door gebrek (in hun persoonlijke montages), zullen zij om het even welke Made van het Bewijs of Nieuwe proef e-mails niet ontvangen zelfs als de Notify mensen door e-mailvakje op de Nieuwe proefdrukpagina wordt gecontroleerd. Voor informatie over e-mailberichten, zie [ de montages van het e-mailbericht in Workfront Proof ](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md) vormen. Zie ook [ het Bewijs e-mail ](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md) en [ Nieuwe proef e-mail ](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md) maakte.
+     >Als de de bewijsschepper of eigenaar heeft het Made e-mail van het Bewijs door gebrek in hun persoonlijke montages wordt onbruikbaar gemaakt, zullen zij geen Bewijs of Nieuwe proefe-mails ontvangen zelfs als **ontvangers van de Prijsverklaring over deze proefdruk** doos op de Nieuwe proefdrukpagina wordt gecontroleerd. Voor informatie, zie [ de montages van het e-mailbericht in Workfront Proof ](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md) vormen, [ het Bewijs e-mail ](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md) maakte, en [ Nieuwe proef e-mail ](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
 
-   * Stel een proefdrukdeadline in voor de versie.
-   * Houd de muisaanwijzer boven de naam van een controleur om de beslissingen te zien die hij of zij in een vorige versie heeft genomen.
+   * (Optioneel) Stel een proefdrukdeadline in.
 
-1. Onder **E-mail- bericht**, doe om het even welke volgend:
+   * (Facultatief en Voorwaardelijk) selecteer een nieuwe primaire besluitvormer in de **primaire beslissingsrechten van de Overdracht aan** drop-down.
 
-   * Geef op of u de controleurs op de hoogte wilt stellen van de nieuwe versie.\
-     Uw selectie wordt aangemeld in het gedeelte Activiteit van de pagina Proefgegevens. Voor meer informatie, zie [ Beheren de Details van het Bewijs in Workfront Proof ](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+   * (Facultatief) selecteer **vereisen slechts één besluit voor dit stadium** vakje om de optie te verwijderen om een gebruiker als nieuwe primaire besluitvormer te plaatsen.
 
-   * Voeg een aangepast onderwerp en bericht toe.
+1. In de **E-mail- bericht** sectie, selecteer om het even welke volgende montages:
 
-1. In de **sectie van de Organisatie**, doe om het even welke volgend: 
+   * (Facultatief) **breng ontvangers op de hoogte over deze proef**: Selecteer deze optie om de recensenten van de nieuwe versie op de hoogte te brengen. Uw selectie zal het programma worden geopend in de **sectie van de Activiteit** van de **pagina van de details van het Bewijs**. Voor meer informatie, zie [ Beheren de Details van het Bewijs in Workfront Proof ](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
-   * Pas een of meer labels toe op de proefdruk. Voor meer informatie, zie [ Codes in Workfront Proof ](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md) creëren en beheren.\
-     Tags worden ook overgeërfd van de vorige versie van de proefdruk. Als u een nieuwe tag toevoegt aan de nieuwe versie, worden vorige versies ook gecodeerd.
+   * (Voorwaardelijk en Facultatief) **voeg douaneonderwerp en bericht** toe: Selecteer deze optie om een lijn en een bericht van het douaneonderwerp aan het e-mailbericht toe te voegen.
 
-   * Voeg de versie toe aan een map. Zie [ Mappen in Workfront Proof ](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) voor meer informatie beheren. De map wordt gekopieerd uit de vorige versie van de proefdruk. Als u een andere map selecteert, wordt de hele proefdruk (alle versies) verplaatst.
+1. In de **sectie van de Organisatie**, selecteer om het even welke volgende montages:
 
-   * Factureringsbeheerders en beheerders kunnen het mapveld verplicht maken voor de gehele account op het tabblad Instellingen. Zie voor meer informatie.
+   * Pas een of meer labels toe op de proefdruk. Voor meer informatie, zie [ Codes in Workfront Proof ](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md) creëren en beheren.
 
-1. Breng onder Proefinstellingen een of meer van de onderstaande wijzigingen aan:
+   * Voeg de versie toe aan een map. De map wordt gekopieerd uit de vorige versie van de proefdruk. Als u een andere map selecteert, wordt de hele proefdruk (die alle versies omvat) verplaatst. Voor meer informatie, zie [ Mappen in Workfront Proof beheren ](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
-   * Aanmelding op de proefdruk vereisen
-   * Elektronische handtekeningen op de proefdruk vereisen (alleen ondernemingsplan)
-   * Het bewijs vergrendelen wanneer alle beslissingen worden genomen
-   * Downloaden van oorspronkelijke bestand toestaan of blokkeren
-   * Openbaar delen van de proefdruk, inclusief instellingen voor openbaar delen
-   * Abonnement op het bewijs\
-     De selecties die in deze sectie worden gemaakt, worden weergegeven op de pagina Proefgegevens (waar sommige velden kunnen worden bewerkt). Voor meer informatie, zie [ Beheren de Details van het Bewijs in Workfront Proof ](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+   * De facturerende beheerders en de Beheerders kunnen het omslaggebied over de volledige rekening in de **Montages** tabel verplicht maken.
+
+1. In de **sectie van de Montages van het Bewijs**, selecteer om het even welke volgende montages:
+
+   * Een gebruiker moet zich aanmelden om de proefdruk te bekijken.
+   * Vereisen elektronische handtekeningen op het bewijs (ondernemingsplan slechts).
+   * Vergrendel het bewijs wanneer alle beslissingen worden genomen.
+   * Downloaden van het oorspronkelijke bestand toestaan.
+   * Openbaar delen van het bewijs toestaan.
+   * Abonneren op de proefdruk toestaan.
+
+     De selecties die in deze sectie worden gemaakt zullen in de **pagina van de Details van het Bewijs** worden getoond (waar sommige gebieden kunnen worden uitgegeven). Voor meer informatie, zie [ Beheren de Details van het Bewijs in Workfront Proof ](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Create a new version of a proof from the proofing viewer</h2>
@@ -234,12 +217,12 @@ Als de vorige versie van de proefdruk een aangepast onderwerp/bericht bevat, wor
   >
   >Dit wordt niet beïnvloed door een standaardaangepast onderwerp/bericht dat in uw persoonlijke instellingen wordt opgeslagen.
 
-Als u een standaardonderwerp en een bericht hebt opgeslagen in uw persoonlijke instellingen, heeft dit invloed op welk bericht standaard wordt weergegeven op de pagina Nieuwe versie:
+Als u een standaardonderwerp en een bericht hebt opgeslagen in uw persoonlijke montages, zal dit bepalen welk bericht door gebrek op de Nieuwe versiepagina wordt getoond:
 
-* Als u ervoor kiest om de controleurs via e-mail op de hoogte te stellen van de vorige versie van de proefdruk met de standaard-e-mail (bijvoorbeeld geen aangepast onderwerp/bericht), wordt uw standaard aangepaste onderwerp/bericht (uw persoonlijke instellingen) weergegeven op de pagina Nieuwe versie. U kunt het aangepaste onderwerp en het aangepaste bericht vervolgens bewerken of de selectie van Personen per e-mail op de hoogte stellen opheffen (er wordt dan geen e-mail verzonden naar uw revisoren om hen te laten weten dat ze een nieuwe versie hebben die moet worden gecontroleerd).
-* Als u ervoor kiest om de controleurs geen e-mail te sturen voor de vorige versie van de proefdruk (bijvoorbeeld geen standaard- of aangepaste e-mail), bevat de pagina Nieuwe versie standaard geen bericht. Als u de controleurs op de hoogte wilt stellen van de nieuwe versie, klikt u op de koppeling Bericht verzenden. Deze koppeling geeft uw standaardaangepast onderwerp/bericht weer (volgens uw persoonlijke instellingen). Indien nodig kunt u het aangepaste onderwerp en het aangepaste bericht bewerken.
+* Als u de controleurs via de standaard-e-mail op de hoogte hebt gebracht van de vorige proefversie (bijvoorbeeld geen aangepast onderwerp/bericht), wordt uw aangepaste onderwerp/bericht (uw persoonlijke instellingen) weergegeven op de pagina Nieuwe versie. Vervolgens kunt u het aangepaste onderwerp en het aangepaste bericht bewerken of de selectie van Personen per e-mail op de hoogte stellen opheffen. Dit houdt in dat er geen e-mail naar de revisoren wordt verzonden om hen te laten weten dat ze een nieuwe versie hebben die moet worden gecontroleerd.
+* Als u de controleurs niet op de hoogte hebt gebracht van de vorige proefversie (bijvoorbeeld geen standaard of aangepast e-mailbericht), bevat de pagina Nieuwe versie standaard geen bericht. Als u de controleurs op de hoogte wilt stellen van de nieuwe versie, klikt u op de koppeling Bericht verzenden. Deze koppeling geeft uw standaardaangepast onderwerp/bericht weer (volgens uw persoonlijke instellingen). Vervolgens kunt u het aangepaste onderwerp en het aangepaste bericht naar wens bewerken.
 
 Als u geen standaardonderwerp en -bericht hebt opgeslagen in uw persoonlijke instellingen, wordt het volgende weergegeven op de pagina Nieuwe versie:
 
-* Als u ervoor kiest om de controleurs via e-mail op de hoogte te stellen van de vorige versie van de proefdruk met de standaard-e-mail (bijvoorbeeld geen aangepast onderwerp/bericht), wordt de optie Personen per e-mail waarschuwen standaard geselecteerd op de pagina Nieuwe versie. Klik op de koppeling om een aangepast bericht toe te voegen.
-* Als u ervoor kiest om de controleurs geen e-mail te sturen voor de vorige versie van de proefdruk (bijvoorbeeld geen standaard- of aangepaste e-mail), bevat de pagina Nieuwe versie standaard geen bericht. Als u de controleurs op de hoogte wilt stellen van de nieuwe versie, klikt u op de koppeling Bericht verzenden. Vervolgens kunt u een aangepast onderwerp en bericht toevoegen door op de koppeling Aangepast bericht toevoegen te klikken.
+* Als u de controleurs via de standaard-e-mail op de hoogte hebt gebracht van de vorige proefversie (bijvoorbeeld geen aangepast onderwerp/bericht), wordt de optie Personen per e-mail waarschuwen standaard geselecteerd op de pagina Nieuwe versie. Als u een aangepast bericht wilt toevoegen, klikt u op de koppeling.
+* Als u de controleurs niet per e-mail op de hoogte hebt gebracht van de vorige proefversie (bijvoorbeeld geen standaard- of aangepaste e-mail), bevat de pagina Nieuwe versie standaard geen bericht. Als u de controleurs op de hoogte wilt stellen van de nieuwe versie, klikt u op de koppeling Bericht verzenden. Vervolgens kunt u een aangepast onderwerp en bericht toevoegen door op de koppeling Aangepast bericht toevoegen te klikken.

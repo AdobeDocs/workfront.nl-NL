@@ -6,7 +6,7 @@ description: Wanneer u aan een proefdruk werkt, of u een gebruiker van Adobe Wor
 author: Courtney
 feature: Digital Content and Documents
 exl-id: c38e005c-8984-4e99-9527-94a0a6b1071d
-source-git-commit: b3fe63f7a332f50c7bac3bedee5db3bbbabd2b42
+source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # Meldingen beheren voor proefopmerkingen en -beslissingen
+
+<!-- Audited: 4/2025 -->
 
 Wanneer u aan een proefdruk werkt, of u een gebruiker van Adobe Workfront of een externe medewerker bent, kunt u specificeren welke e-mailberichten u over commentaren en besluiten over de proefdruk wilt ontvangen. Voor meer informatie, zie [ Meldingen voor de proefdrukcommentaren en besluiten overzicht ](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md).
 

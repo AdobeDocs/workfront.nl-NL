@@ -5,14 +5,16 @@ description: U kunt uw belangrijkste werk  [!DNL Adobe Workfront]  voor verhoogd
 feature: Get Started with Workfront
 author: Courtney
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
-source-git-commit: b3fe63f7a332f50c7bac3bedee5db3bbbabd2b42
+source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
 
 # Pagina&#39;s vastzetten om uw werkruimte aan te passen
+
+<!-- Audited: 4/2025 -->
 
 U kunt uw belangrijkste werk in [!DNL Adobe Workfront] vastzetten voor meer zichtbaarheid, betere organisatie en snellere toegang. Vastgezette pagina&#39;s zijn altijd toegankelijk vanaf de bovenkant van elke pagina in Workfront.
 
@@ -53,6 +55,8 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 1. Navigeer naar de pagina die u wilt vastzetten. Dit kan om het even welk werkpunt, zoals een project, een taak, een verzoekrij, enz. zijn.
 
 1. Klik in de linkerbovenhoek van de pagina op **[!UICONTROL Pin current page]** . De vastgezette pagina is nu toegankelijk vanaf de bovenkant van elke pagina in [!DNL Workfront] .
+
+   ![ Vastzetten huidige pagina ](assets/pin-current-page-button.png)
 
 ## Een vastgezette pagina openen
 
