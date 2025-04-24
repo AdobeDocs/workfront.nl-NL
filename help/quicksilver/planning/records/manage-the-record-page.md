@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
+source-git-commit: f171db8474df703fddbf63a673f9bfbd2ab2db27
 workflow-type: tm+mt
-source-wordcount: '1872'
+source-wordcount: '2034'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 +++
 
 <!--replace the layout template info in the table with this at release: 
-
 
 <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
 <p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
@@ -268,42 +267,75 @@ De volgende dingen doen zich voor:
 
    Alle wijzigingen in de lay-out van de recordvoorvertoning of pagina worden automatisch opgeslagen.
 
-## Een pagina van de verbindingsweergave toevoegen aan de pagina van een record
+## Een tabblad van de verbindingsweergave toevoegen aan de pagina van een record
 
-<!--suggested a new name for this type of page: "Connected records details" - check to see if this changed-->
+<!--suggested a new name for this type of page: "Connected records page" - check to see if this changed, and update this everywhere in this section-->
+
+U kunt informatie van verbonden verslagen of voorwerpen bekijken door een lusje voor een type van de meningspagina van de Verbinding aan een verslag toe te voegen. De informatie van de verbonden verslagen toont in een read-only lijstmening.
+
+&lt;!-vervang de laatste zin hierboven door deze bij vrijgave:
+
+In de productieomgeving wordt de informatie van de verbonden records of objecten weergegeven in een tabelweergave met het kenmerk Alleen-lezen.
+
+<Span class="preview"> in het milieu van de Voorproef, kan de informatie van de verbonden verslagen in de lijstmening worden uitgegeven. De informatie van de voorwerpen die van een andere toepassing worden verbonden is niet editable in de lijstmening.</span> —>
 
 Houd rekening met het volgende wanneer u een verbindingsweergave toevoegt aan de pagina van een record:
 
-* U kunt een pagina van de mening van de Verbinding aan de pagina van een verslag toevoegen.
+* U kunt een pagina van de mening van de Verbinding aan de pagina van een verslag toevoegen nadat u verslag of objecten types aan het verslagtype verbond.
 
 * U kunt geen pagina van de mening van de Verbinding aan het voorproefgebied van een verslag toevoegen.
 
-* Op pagina&#39;s in de verbindingsweergave wordt één verbonden recordtype-pagina weergegeven in de tabelweergave.
+* Op pagina&#39;s in de verbindingsweergave wordt een verbonden recordtype of een verbonden objecttype uit een andere toepassing in een tabelweergave weergegeven.
 
 * Nadat u een pagina van de de meningsmening van de Verbinding aan de pagina van een verslag toevoegt, is het paginatabusje zichtbaar van het voorproefgebied van het verslag. U moet naar de volledige pagina gaan om de lijstmening voor het verbonden verslag te zien. <!--this might have changed? check and take disclaimer out-->
 
 Een pagina van de verbindingsweergave toevoegen:
 
 1. Van een mening van de verslagpagina, klik de naam van een verslag om het te openen, dan klik **Open in nieuw lusje** pictogram ![ Open details in een nieuw lusjepictogram ](assets/open-details-in-a-new-tab-icon.png) in de hoger-juiste hoek van de voorproefpagina.
-1. Klik **toevoegen pagina** > **mening van de Verbinding**.
+1. Klik **toevoegen pagina**.
 
    ![ voeg modaal de pagina van de verbindingsmening ](assets/add-connection-view-page-modal.png) toe
 1. Voeg de **naam van de Pagina** toe, klik **mening van de Verbinding**, dan klik **creeer**.
 
    Er wordt een nieuw tabblad toegevoegd aan de pagina van de record.
 1. Zoek of klik op de naam van een verbonden record of objecttype in de lijst.
-De tabelweergave van het geselecteerde recordtype wordt weergegeven en de verbonden records worden weergegeven in de tabelweergave.
+De tabelweergave van het geselecteerde recordtype wordt weergegeven op de nieuwe pagina en de gekoppelde records worden weergegeven in de tabelweergave.
 Alle velden van de verbonden record worden weergegeven in de tabelweergave van het tabblad van de verbonden record.
 
    De eerste vijf velden van de verbonden recordtabel worden standaard weergegeven. Er worden standaard geen opzoekvelden weergegeven.
-
-   De tabelweergave is alleen-lezen.
 
    <!--replace screen shot below when additional capabilities come to the table view - Fields, etc-->
 
    ![ Publiek verbonden lijstmening onder campagnedetails ](assets/audience-connected-table-view-under-campaign-details-page.png)
 
-1. (Optioneel) Dubbelklik op de naam van de tab
+1. (Optioneel) Voer een van de volgende handelingen uit in de tabelweergave van de gekoppelde records:
+
+   * Klik op de naam van een record. Hierdoor wordt de pagina van de record op een nieuw tabblad geopend. <!--<span class="preview">In the Preview environment, this opens the record's preview page.</span>-->
+   * Klik **verbinden** om meer verslagen te verbinden, dan klik buiten de verbindingsdoos om het te sluiten. De nieuwe records worden automatisch aan de tabel toegevoegd.
+     <!--* <span class="preview">Edit any information from the connected records inside the table view. </span>-->
+
+   <!--<div class="preview">
+
+   * Hover over a connected record's name, then click the **More** menu ![More menu](assets/more-menu.png), then click one of the following options: 
+      * View 
+      * Copy link
+      * Edit thumbnail
+      * Duplicate
+      * Insert record above or below
+      * Delete 
+   * Select one of the records, then click one of the following options in the blue bar at the bottom of the screen: 
+      * View
+      * Copy link
+      * Edit thumbnail
+      * Duplicate
+      * Delete. Delete is the only option available when you select more than one record. 
+
+      For information about editing records in the table view, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
+
+   </div>-->
+
+
+1. (Optioneel) Dubbelklik op de naam van het tabblad Verbinding.
 
    of
 
@@ -323,7 +355,7 @@ Alle velden van de verbonden record worden weergegeven in de tabelweergave van h
    >
 
 1. Klik **verbinden** om verslagen toe te voegen of te verwijderen. Voor informatie, zie [ verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md)
-1. (Facultatief) Beweeg over de naam van het lusje van de mening van de Verbinding, klik **Meer** ![ Meer menu ](assets/more-menu.png), dan klik **Schrapping** om aan nieuw Verbonden meningslusje te verwijderen.
+1. (Facultatief) Beweeg over de naam van het lusje van de mening van de Verbinding, klik **Meer** ![ Meer menu ](assets/more-menu.png), dan klik **Schrapping** om aan tabel te verwijderen.
 
 
 
