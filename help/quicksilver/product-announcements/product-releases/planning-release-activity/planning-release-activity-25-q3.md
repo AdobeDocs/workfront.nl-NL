@@ -6,9 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 16f0caf4bdf80ef7b95e8ab51bf9f75aa3b81b3f
+exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
+source-git-commit: a92261330ddf289217057c83fa9360776a8628b8
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
@@ -20,6 +21,18 @@ In dit artikel worden de functies beschreven die tijdens de release van het derd
 <!--keep the sentence below for all future quarterly release pages-->
 
 Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront worden vrijgegeven, zie [ de versieactiviteit van de Planning van Adobe Workfront: artikelindex ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Nieuwe instelling voor het afkappen van lange recordnamen in de standaardtijdlijnweergave
+
+>[!NOTE]
+>
+>* Voorbeeld: 23 april 2025
+>* Snelle productie: 15 mei 2025
+>* Productie voor alle afnemers: 17 juli 2025
+
+U kunt nu een instelling inschakelen op het tabblad Streepjesstijl van het vak Instellingen van een tijdlijnweergave om langere recordnamen af te kappen bij het weergeven in de standaardweergave. De instelling wordt standaard uitgeschakeld en kan alleen worden ingeschakeld wanneer u de tijdlijnweergave in de standaardmodus weergeeft.
+
+Voor informatie, zie [ de chronologiemening ](/help/quicksilver/planning/views/manage-the-timeline-view.md) leiden.
 
 ## Machtigingen delen voor recordtypen
 

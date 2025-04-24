@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1a98053a-7f0d-4c87-a9eb-f081dade872c
-source-git-commit: 88bbfdc21501fb1575cd07d03af43afe90142adc
+source-git-commit: f47c1ad2c3c5d82e62efa1a8920bc0aac59af26e
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,35 @@ ht-degree: 0%
 Deze pagina beschrijft kleine updates aan de blik en het gevoel van diverse gebieden van de toepassing van Adobe Workfront die binnen het Derde Kwartaal 2025 releasetijdschema werden gemaakt.
 
 Voor een lijst van alle veranderingen beschikbaar met het Derde Kwartaal 2025 versie, zie [ Derde Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
+
+## Zoeken en weergeven van onlangs herstelde items
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 23 april 2025; Productieversie voor alle klanten: 23 april 2025
+
+We hebben de vormgeving van de onlangs herstelde items in het gedeelte Setup aangepast aan het ontwerp van andere delen van Workfront. Er is geen functionaliteit gewijzigd voor onlangs herstelde projecten, taken, verzoeken, documenten of sjablonen.
+
+Ga naar Setup > Prullenbak > Onlangs hersteld om deze wijziging weer te geven.
+
+Voor informatie, zie [ Mening herstelde punten ](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
+
+## Bijgewerkte rapporten met nieuwe opmaak
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 23 april 2025; Productieversie voor alle klanten: 23 april 2025
+
+We hebben het uiterlijk van meerdere rapporten aangepast aan het ontwerp van andere gebieden van Workfront. Er is geen functionaliteit gewijzigd.
+
+Deze update bevat visuele wijzigingen in de lijsten en werkbalken van de rapporten voor de volgende objecttypen:
+
+* Sjabloontaken
+* Onderwerpgroepen
+* Scorecards
+* Planningen
+
+Voor informatie, zie [ een douanerapport ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 ## look-and-feel-updates aan het gebied van het Beheer van het Middel in Opstelling
 
