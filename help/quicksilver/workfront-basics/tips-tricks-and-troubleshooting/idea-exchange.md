@@ -5,9 +5,9 @@ title: Innovatie Lab
 description: Met [!UICONTROL Innovation Lab] kunnen geverifieerde gebruikers ideeën indienen, stemmen en bespreken met andere klanten.
 feature: Get Started with Workfront
 exl-id: 4775ece1-2841-4acc-b3f0-66cd2783669f
-source-git-commit: 813b97ee0979e29a90293d9ddaba12a33c99f64d
+source-git-commit: 3583368918cf9eb4c64faeda4730e2be08375aed
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
@@ -47,4 +47,4 @@ Wanneer de kritische drempel van 450 punten is bereikt, heeft het idee een van d
 * **[!UICONTROL Delivered]:** Er is een oplossing gemaakt en geleverd. Er worden geen verdere updates beschikbaar gesteld en opmerkingen worden uitgeschakeld.
 * **[!UICONTROL Archived]**: Ideeën die het 18-maanden-teken bereiken (vanaf de verzenddatum) en minder dan 300 punten hebben, worden gearchiveerd.
 
-Om begonnen te worden of meer te leren, login aan het Laboratorium van de Innovatie in [ workfront.com/customer ](https://www.workfront.com/customer).
+Om begonnen te worden of meer te leren, login aan het [ Laboratorium van de Innovatie ](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront).
