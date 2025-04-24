@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: a92261330ddf289217057c83fa9360776a8628b8
+source-git-commit: 881eea5b527532227a40483d2cd2edeba84dc30f
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront w
 >* Snelle productie: 15 mei 2025
 >* Productie voor alle afnemers: 17 juli 2025
 
-U kunt nu een instelling inschakelen op het tabblad Streepjesstijl van het vak Instellingen van een tijdlijnweergave om langere recordnamen af te kappen bij het weergeven in de standaardweergave. De instelling wordt standaard uitgeschakeld en kan alleen worden ingeschakeld wanneer u de tijdlijnweergave in de standaardmodus weergeeft.
+U kunt nu een instelling inschakelen op het tabblad Streepjesstijl van het vak Instellingen van een tijdlijnweergave om langere recordnamen af te kappen bij het weergeven in de standaardweergave. De instelling wordt standaard uitgeschakeld en kan alleen worden ingeschakeld wanneer u de tijdlijnweergave in de standaardmodus weergeeft. Als deze instelling is uitgeschakeld, wordt standaard meer informatie over de recordbalken weergegeven. Voorafgaand aan deze verbetering, werd de informatie over de verslagbars afgebroken door gebrek.
 
 Voor informatie, zie [ de chronologiemening ](/help/quicksilver/planning/views/manage-the-timeline-view.md) leiden.
 
