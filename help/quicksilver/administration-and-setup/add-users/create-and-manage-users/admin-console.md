@@ -5,7 +5,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 6e4135fc6f0431c8222ce48c18a0b5c4c6f0dbed
 workflow-type: tm+mt
 source-wordcount: '1473'
 ht-degree: 0%
@@ -53,7 +53,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe-beheerdersrechten</td> 
-   <td> <p>U moet een beheerder van de Configuratie van het Product van de producten van Adobe voor uw organisatie zijn</p> </td> 
+   <td> <p>U moet een beheerder van het Profiel van het Product van Adobe producten voor uw organisatie zijn</p> </td> 
   </tr> 
  </tbody> 
 </table>
