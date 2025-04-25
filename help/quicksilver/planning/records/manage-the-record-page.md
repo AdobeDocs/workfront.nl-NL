@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: f171db8474df703fddbf63a673f9bfbd2ab2db27
+source-git-commit: 8fcc6c75811080f3ee152849a149542be8ae820c
 workflow-type: tm+mt
-source-wordcount: '2034'
+source-wordcount: '1974'
 ht-degree: 0%
 
 ---
@@ -273,11 +273,11 @@ De volgende dingen doen zich voor:
 
 U kunt informatie van verbonden verslagen of voorwerpen bekijken door een lusje voor een type van de meningspagina van de Verbinding aan een verslag toe te voegen. De informatie van de verbonden verslagen toont in een read-only lijstmening.
 
-&lt;!-vervang de laatste zin hierboven door deze bij vrijgave:
+<!--replace the last sentence above with this at release:
 
-In de productieomgeving wordt de informatie van de verbonden records of objecten weergegeven in een tabelweergave met het kenmerk Alleen-lezen.
+In the Production environment, the information from the connected records or objects displays in a read-only table view. 
 
-<Span class="preview"> in het milieu van de Voorproef, kan de informatie van de verbonden verslagen in de lijstmening worden uitgegeven. De informatie van de voorwerpen die van een andere toepassing worden verbonden is niet editable in de lijstmening.</span> —>
+<Span class="preview">In the Preview environment, the information from the connected records can be edited in the table view. The information from the objects connected from another application is not editable in the table view.</span> -->
 
 Houd rekening met het volgende wanneer u een verbindingsweergave toevoegt aan de pagina van een record:
 
