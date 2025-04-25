@@ -6,9 +6,9 @@ description: Het beheren van feedback in meerdere versies of revisies van een st
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee0c859e-349b-4e7a-ac80-164740b950f0
-source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
+source-git-commit: daa46f0e2a5f656d048260d4a714ed02f01cdbbf
 workflow-type: tm+mt
-source-wordcount: '1523'
+source-wordcount: '1521'
 ht-degree: 0%
 
 ---
@@ -225,4 +225,4 @@ Als u een standaardonderwerp en een bericht hebt opgeslagen in uw persoonlijke m
 Als u geen standaardonderwerp en -bericht hebt opgeslagen in uw persoonlijke instellingen, wordt het volgende weergegeven op de pagina Nieuwe versie:
 
 * Als u de controleurs via de standaard-e-mail op de hoogte hebt gebracht van de vorige proefversie (bijvoorbeeld geen aangepast onderwerp/bericht), wordt de optie Personen per e-mail waarschuwen standaard geselecteerd op de pagina Nieuwe versie. Als u een aangepast bericht wilt toevoegen, klikt u op de koppeling.
-* Als u de controleurs niet per e-mail op de hoogte hebt gebracht van de vorige proefversie (bijvoorbeeld geen standaard- of aangepaste e-mail), bevat de pagina Nieuwe versie standaard geen bericht. Als u de controleurs op de hoogte wilt stellen van de nieuwe versie, klikt u op de koppeling Bericht verzenden. Vervolgens kunt u een aangepast onderwerp en bericht toevoegen door op de koppeling Aangepast bericht toevoegen te klikken.
+* Als u de controleurs niet op de hoogte hebt gebracht van de vorige proefversie (bijvoorbeeld geen standaard of aangepast e-mailbericht), bevat de pagina Nieuwe versie standaard geen bericht. Als u de controleurs op de hoogte wilt stellen van de nieuwe versie, klikt u op de koppeling Bericht verzenden. Vervolgens kunt u een aangepast onderwerp en bericht toevoegen door op de koppeling Aangepast bericht toevoegen te klikken.
