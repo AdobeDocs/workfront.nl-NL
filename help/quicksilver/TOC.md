@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 39dbf3c659dd94d51c224361dcae7d369b0cfce7
+source-git-commit: c3e71e5126f68878411764766eb053215d050145
 workflow-type: tm+mt
-source-wordcount: '13167'
+source-wordcount: '13172'
 ht-degree: 0%
 
 ---
@@ -868,6 +868,7 @@ ht-degree: 0%
       * [Berekende veldformules met AI Assistant herzien](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md)
       * [De Medewerker van AI van het gebruik om met projecten, taken, en kwesties te werken](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md)
       * [AI-assistent in- of uitschakelen](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)
+      * [Een aanvraag automatisch invullen met AI](/help/quicksilver/workfront-basics/ai-assistant/autofill-request-with-ai.md)
    * Werkonderdelen bijwerken en updates weergeven {#update-work-items-view-updates}
       * [Werkitems bijwerken en updates weergeven: artikelindex](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
       * [Overzicht van de sectie Updates](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
