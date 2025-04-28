@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2194'
 ht-degree: 0%
@@ -98,7 +98,7 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}"> A "Uitgezocht allen"optie is nu beschikbaar in lay-outmalplaatjes </a></p>
                     [!BADGE in productie ]{type=Informative}
-                    <p>Om u gemakkelijker te helpen gebieden met lay-outmalplaatjes tonen en verbergen, werd een "Uitgezocht allen"controlevakje toegevoegd aan de het Overzicht en van Financiën gebieden van de mening van Details in een lay-outmalplaatje. Deze optie is beschikbaar wanneer u Project, Taak, Uitgave, Portfolio, of Programma onder "Aanpassen wat de gebruikers zien"hebt geselecteerd.</p>
+                    <p>Om u gemakkelijker te helpen gebieden met lay-outmalplaatjes tonen en verbergen, werd een "Uitgezocht allen"controlevakje toegevoegd aan de het Overzicht en van Financiën gebieden van de mening van Details in een lay-outmalplaatje. Deze optie is beschikbaar als u Project, Taak, Uitgave, Portfolio of Programma hebt geselecteerd onder "Aanpassen wat gebruikers zien".</p>
                 </td>
                 <td><p><b>Beschikbaar op deze data:</b></p>
                     <ul>
@@ -511,12 +511,12 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
             </tr>
             <tr>
                 <td>
-                    <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}"> de Medewerker van de Adobe AI beschikbaar in Workfront </a></p>
+                    <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}"> de Medewerker van Adobe AI beschikbaar in Workfront </a></p>
                     [!BADGE in productie ]{type=Informative}
-                    <p>Om het voor u gemakkelijker te maken om uw werk te voltooien, hebben wij de Medewerker van AI van Adobe aan Workfront toegevoegd. AI Assistant kan u helpen door:</p>
+                    <p>Om het voor u gemakkelijker te maken om uw werk te voltooien, hebben wij Adobe Workfront AI Medewerker aan toegevoegd. AI Assistant kan u helpen door:</p>
                     <ul>
                         <li>Het samenvatten van het werkpunten en documenten, toestaand u om een algemeen inzicht in taken, projecten, en activa snel te bereiken.</li>
-                        <li>Het verstrekken van informatie van de documentatie van het Experience League, het brengen van instructies en verwijzingsmateriaal in Workfront, terwijl het verbinden aan meer diepgaande documentatie.</li>
+                        <li>Het verstrekken van informatie van de documentatie van Experience League, het brengen van instructies en verwijzingsmateriaal in Workfront, terwijl het verbinden aan meer diepgaande documentatie.</li>
                         <li>Formules maken en verfijnen voor berekende aangepaste formuliervelden, formules genereren op basis van tekstaanwijzingen of fouten zoeken in bestaande formules.</li>
                         </ul>
                         <p>Uw Workfront-beheerder kan AI Assistant voor uw organisatie in- of uitschakelen. De AI-assistent is beschikbaar voor instanties met de abonnementen Selecteren, Prime en Ultimate.</p>
@@ -591,8 +591,8 @@ Voor informatie over API versies, zie [ API versioning en steunprogramma ](/help
 
 ### Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens de Vierde Versie van het Kwartaal 2024 worden gemaakt, zie [ Updates van het Onderhoud van Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Voor informatie over de onderhoudsupdates die tijdens de Vierde Versie van het Kwartaal 2024 worden gemaakt, zie [ Updates van het Onderhoud van Workfront ](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Tutorials van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html) Nieuw is.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) Nieuw is.

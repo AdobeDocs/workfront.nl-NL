@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 46ed705e-b966-4ae9-a602-a5a73a3de3aa
-source-git-commit: 99aac8d1621370f901704f58affd9e3e18497c4e
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -55,9 +55,9 @@ Aangepaste statussen kunnen nu worden gebruikt in goedkeuringsprocessen voor een
 * Maak een goedkeuringsproces voor één gebruik voor een object (project, taak of uitgave) en baseer dit op statussen die zijn gekoppeld aan de groep die aan dat object werkt. Dit omvat alle aangepaste statussen die aan de groep zijn gekoppeld.
 * Maak een algemeen goedkeuringsproces en stel dit alleen beschikbaar voor de groep of voor iedereen in het systeem.
 
-Voor gebruikers met administratieve toegang tot goedkeuringsprocessen, is de informatie over het vormen van goedkeuringsprocessen beschikbaar in [ creeer een goedkeuringsproces voor het werkpunten ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) (of als u de Klassiek van Adobe Workfront gebruikt, zie [ Creërend de Processen van de Goedkeuring ](https://one.workfront.com/s/article/Creating-Approval-Processes-1001577410)).
+Voor gebruikers met administratieve toegang tot goedkeuringsprocessen, is de informatie over het vormen van goedkeuringsprocessen beschikbaar in [ creeer een goedkeuringsproces voor het werkpunten ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) (of als u de Klassiek van Adobe Workfront gebruikt, zie [ Creërend de Processen van de Goedkeuring ](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
-Voor gebruikers, is de informatie over het associëren van goedkeuringsprocessen met het werkpunten beschikbaar in [ associëren een nieuw of bestaand goedkeuringsproces met het werk ](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) (of als u de Klassiek van Adobe Workfront gebruikt, zie [ het Associeren van een Nieuw of Bestaand Erkenningsproces met het Werk ](https://one.workfront.com/s/article/Associating-a-New-or-Existing-Approval-Process-with-Work-708455630)).
+Voor gebruikers, is de informatie over het associëren van goedkeuringsprocessen met het werkpunten beschikbaar in [ associëren een nieuw of bestaand goedkeuringsproces met het werk ](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) (of als u de Klassiek van Adobe Workfront gebruikt, zie [ het Associeren van een Nieuw of Bestaand Erkenningsproces met het Werk ](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 **Beschikbaar in deze milieu&#39;s:**
 

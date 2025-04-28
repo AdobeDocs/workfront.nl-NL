@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2773'
 ht-degree: 0%
@@ -205,7 +205,7 @@ Het webinar uit de release van 23.10 was op 5 oktober 2023. U kunt [ voor webina
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}"> Documenten beschikbaar op verbonden kaarten als mening-slechts </a></p><p>[!BADGE in productie ]{type=Informative}</p><p>Voor verbonden kaarten op Adobe Workfront Boards kunt u nu documenten zoals afbeeldingen en PDF bekijken. U kunt een voorvertoning van een document weergeven in de browser of het document downloaden naar de computer. </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}"> Documenten beschikbaar op verbonden kaarten als mening-slechts </a></p><p>[!BADGE in productie ]{type=Informative}</p><p>Voor verbonden kaarten op Adobe Workfront Boards kunt u nu documenten zoals afbeeldingen en PDF's bekijken. U kunt een voorvertoning van een document weergeven in de browser of het document downloaden naar de computer. </p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -765,11 +765,11 @@ Voor informatie over API versies, zie [ API versioning en steunprogramma ](/help
 
 ### Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens de versie 22.3 worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).[
+Voor informatie over de onderhoudsupdates die tijdens de versie 22.3 worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront ](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).[
 
 ### Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Tutorials van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html) Nieuw is.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) Nieuw is.
 
 ### Functionaliteit die binnenkort uit Workfront wordt verwijderd
 

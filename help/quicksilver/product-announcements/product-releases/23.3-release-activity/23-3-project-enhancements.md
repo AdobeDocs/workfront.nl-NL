@@ -5,7 +5,7 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: df24d13e-d9ff-4c04-8669-9e0b6e4f6501
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 0%
@@ -29,10 +29,10 @@ In deze eerste versie is het goedkeuringsproces gestroomlijnd voor zowel het mak
 * Goedkeuringsbesluiten rechtstreeks nemen via Mijn updates en startpagina
 * Goedkeuringen maken voor specifieke documentversies
 
-Voor meer informatie bij het gebruiken van de nieuwe documentgoedkeuringen, zie [ het Nieuwe Overzicht van de Goedkeuringen van het Document ](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.html).
+Voor meer informatie bij het gebruiken van de nieuwe documentgoedkeuringen, zie [ het Nieuwe Overzicht van de Goedkeuringen van het Document ](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview).
 
 ## Knop Nieuw delen
 
 De optie Delen is uit het menu Meer gehaald voor projecten, taken en problemen om delen intuïtiever te maken. De nieuwe knop Delen wordt nu weergegeven naast de naam van een object vlak voor het menu Meer. Het delen van documenten, portfolio&#39;s en programma&#39;s blijft ongewijzigd.
 
-Voor meer informatie bij het delen van voorwerpen, zie [ een voorwerp ](https://experienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/share-an-object.html) delen.
+Voor meer informatie bij het delen van voorwerpen, zie [ een voorwerp ](https://experienceleague.adobe.com/en/docs/workfront/using/basics/grant-request-object-permissions/share-an-object) delen.

@@ -7,7 +7,7 @@ description: U kunt  [!DNL Adobe Workfront]  voor Salesforce installeren om uw g
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 65d4cdae-1d34-4a8a-a1c0-706cd41fc75e
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # [!DNL Adobe Workfront for Salesforce] overzicht
 
-U hebt een [!UICONTROL Pro] [!DNL Workfront] -abonnement nodig om deze functie te kunnen gebruiken. Voor meer informatie over de diverse beschikbare plannen, zie [[!DNL Workfront]  Plannen.](https://www.workfront.com/plans)
+U hebt een [!UICONTROL Pro] [!DNL Workfront] -abonnement nodig om deze functie te kunnen gebruiken. Voor meer informatie over de diverse beschikbare plannen, zie [[!DNL Workfront]  Plannen.](https://business.adobe.com/products/workfront/pricing.html)
 
 U kunt [!DNL Adobe Workfront for Salesforce] installeren zodat [!DNL Salesforce] -gebruikers [!DNL Workfront] -aanvragen kunnen verzenden en automatisch projecten kunnen maken zonder [!DNL Salesforce] te verlaten.
 

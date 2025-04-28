@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 4048f8b5-70e2-4d63-ae64-a4fbf91a57df
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1393'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Voor informatie over het de toegangsniveau van het Plan, zie [ toegang van de Ve
 
 Voor informatie over het kopiëren van een project, zie [ een project ](../../../manage-work/projects/manage-projects/copy-project.md) kopiëren.
 
-Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Beheerder in de nieuwe ervaring van Workfront, Deel 1: De 1} het leren weg van de Organisatie van de gebruiker op Workfront Één.](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY)
+Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Beheerder in de nieuwe ervaring van Workfront, Deel 1: De 1} het leren weg van de Organisatie van de gebruiker op Workfront Één.](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)
 
 ## Selecteer in een aangepast formulier op een object alle items in een meerkeuzeveld
 
@@ -63,7 +63,7 @@ Adobe Workfront-beheerders kunnen groepsbeheerders nu meer autonomie geven door 
 
 Voor meer informatie, zie [ taak vormen en uitgiftevoorkeur voor een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
-Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Beheerder in de nieuwe ervaring van Workfront, Deel 2: De Opstelling van het project ](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-1-project-workfl-MCTBVZ3Q3J5RHNLIPPZPFSQRLKUY) het leren weg op Workfront Één.
+Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Beheerder in de nieuwe ervaring van Workfront, Deel 2: De Opstelling van het project ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) het leren weg op Workfront Één.
 
 ## Instellingen voor toegangsniveaus voor portfolio&#39;s en programma&#39;s afzonderlijk configureren
 
@@ -75,7 +75,7 @@ Voor informatie over het vormen van een toegangsniveau, zie [ tot douanetoegangs
 
 Voor informatie over toegangsmontages die u voor programma&#39;s en portefeuilles kunt vormen, zie [ Configurable toegang tot functionaliteit voor elk objecten type ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
-Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Beheerder in de nieuwe ervaring van Workfront, Deel 1: De 1} het leren weg van de Organisatie van de gebruiker op Workfront Één.](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY)
+Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Beheerder in de nieuwe ervaring van Workfront, Deel 1: De 1} het leren weg van de Organisatie van de gebruiker op Workfront Één.](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)
 
 ## Alle selectievakjes in een reeks selecteren bij het bewerken van gegevens in een aangepast formulier
 
@@ -108,7 +108,7 @@ Eerder, slechts kon een top-level groep de Beheerders van de Groep hebben, en di
 
 Voor meer informatie, zie de sectie [ beheerders van de Groep voor subgroepen ](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md#for) in het artikel [ Subgroups overzicht ](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md).
 
-Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Beheerder in de nieuwe ervaring van Workfront, Deel 1: De 1} het leren weg van de Organisatie van de gebruiker op Workfront Één.](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY)
+Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Beheerder in de nieuwe ervaring van Workfront, Deel 1: De 1} het leren weg van de Organisatie van de gebruiker op Workfront Één.](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)
 
 ## Gebeurtenismeldingen configureren voor groepen
 
@@ -125,9 +125,9 @@ Raadpleeg de volgende artikelen voor meer informatie:
 * [ ontgrendel of slotconfiguratie van gebeurtenisberichten voor alle groepen ](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
 * [Gebeurtenismeldingen voor een groep weergeven en configureren](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)
 
-Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Beheerder in de nieuwe ervaring van Workfront, Deel 1: De 1} het leren weg van de Organisatie van de gebruiker op Workfront Één.](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY)
+Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Beheerder in de nieuwe ervaring van Workfront, Deel 1: De 1} het leren weg van de Organisatie van de gebruiker op Workfront Één.](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)
 
-Deze eigenschap is nu inbegrepen in [ E-mail en in-app Meldingen in de nieuwe de ervaring van Workfront ](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-https://one.workfront.com/s/learningpath2/email-and-in-app-notifications-in-the-new-workfront-experience-MCDSDH3SRJ4ZGTJF5NJI64F4TW2U) het leren weg op Workfront Één.
+Deze eigenschap is nu inbegrepen in [ E-mail en in-app Meldingen in de nieuwe de ervaring van Workfront ](https://experienceleague.adobe.com/en/docs/workfront/using/home://one.workfront.com/s/learningpath2/email-and-in-app-notifications-in-the-new-workfront-experience-MCDSDH3SRJ4ZGTJF5NJI64F4TW2U) het leren weg op Workfront Één.
 
 ## Werken met groepsprojecten en goedkeuringsprocessen in het gebied Groepen
 

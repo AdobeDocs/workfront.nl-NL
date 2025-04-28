@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 95e75a28-5ac2-4d1d-acc3-dbc0b295b28f
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Als u de status en voortgang van een project gemakkelijker wilt delen, kunt u nu
 
 Voor meer informatie, zie [ Overzicht van projectmetriek ](../../../manage-work/projects/manage-projects/project-metrics.md).
 
-Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Planner voor de nieuwe ervaring van Workfront, Deel 3: Beheer een project ](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-MCG6OJL724XRBLHBXEAKGAUZOJ6U) het leren weg op Workfront Één.
+Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Planner voor de nieuwe ervaring van Workfront, Deel 3: Beheer een project ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) het leren weg op Workfront Één.
 
 ## Probleempercentage bijwerken voltooid wanneer het project of de taak is omgezet vanuit de uitgave-update
 
@@ -41,9 +41,9 @@ Om u toe te staan om uw Voorgelegde Verzoeken op een gemakkelijkere, consistente
 
 Voor informatie over hoe te om van voorgelegde verzoeken de plaats te bepalen, zie [ plaats voorgelegde verzoeken ](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
-Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Medewerker voor de nieuwe de Ervaring van Workfront ](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) het leren weg op Workfront Één.
+Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Medewerker voor de nieuwe de Ervaring van Workfront ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) het leren weg op Workfront Één.
 
-Deze eigenschap is nu inbegrepen in de [ Verzoeken in de nieuwe ervaring van Workfront ](https://one.workfront.com/s/learningpath3/core-team-requests-in-the-new-workfront-experience-MCHWSSDWRFC5EKXFBXTQ6MJNKE7E) het leren weg op Workfront Één.
+Deze eigenschap is nu inbegrepen in de [ Verzoeken in de nieuwe ervaring van Workfront ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/request-queues/understand-request-queues) het leren weg op Workfront Één.
 
 ## Velden verwijderd van de pagina Nieuwe aanvraag
 

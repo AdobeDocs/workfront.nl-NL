@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
-source-wordcount: '1867'
+source-wordcount: '1870'
 ht-degree: 0%
 
 ---
@@ -317,19 +317,19 @@ Deze optie is standaard beschikbaar voor opmerkingen over Beta-ervaringen en Wor
 
 De volgende onderhoudsupdate is uitgebracht voor de bètaversie van opmerkingen bij uitgaven en voor doelen:
 
-Bewerk gekoppelde afbeeldingen tijdens het bewerken van een opmerking. Voor informatie, zie de &quot;Update van het Onderhoud op 27 April&quot;sectie in de artikel <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023"> Updates in April 2023 </a>.
+Bewerk gekoppelde afbeeldingen tijdens het bewerken van een opmerking. Voor informatie, zie de &quot;Update van het Onderhoud op 27 April&quot;sectie in het artikel &lt;a href=&quot;https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates in April 2023 </a>.
 
 ### 20 april 2023
 
 De volgende onderhoudsupdate is uitgebracht voor de bètaversie van opmerkingen bij uitgaven en voor doelen:
 
-Houd afbeeldingen als concept wanneer u overstapt van een update voor doelen en voor problemen in de bètaervaring met opmerkingen. Voor informatie, zie de &quot;Update van het Onderhoud op April 20&quot;sectie in de artikel <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023"> Updates in April 2023 </a>.
+Houd afbeeldingen als concept wanneer u overstapt van een update voor doelen en voor problemen in de bètaervaring met opmerkingen. Voor informatie, zie de &quot;Update van het Onderhoud op 20 April&quot;sectie in het artikel &lt;a href=&quot;https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates in April 2023 </a>.
 
 ### 17 april 2023
 
 De volgende onderhoudsupdate is uitgebracht voor de bètaversie van opmerkingen bij uitgaven en voor doelen:
 
-Toon nieuwe commentaren buiten het zichtbare schermgebied in de sectie van Updates van kwesties (nieuwe het becommentariëren Beta ervaring) en Doelstellingen. Voor informatie, zie de &quot;Update van het Onderhoud op 17 April&quot;sectie in de artikel <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023"> Updates in April 2023 </a>.
+Toon nieuwe commentaren buiten het zichtbare schermgebied in de sectie van Updates van kwesties (nieuwe het becommentariëren Beta ervaring) en Doelstellingen. Voor informatie, zie de &quot;Update van het Onderhoud op 17 April&quot;sectie in het artikel &lt;a href=&quot;https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates in April 2023 </a>.
 
 
 ### Week van 6 april 2023

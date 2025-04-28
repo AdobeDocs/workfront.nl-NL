@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3affee76-347e-4610-b255-4b1bb4414c5d
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3659'
 ht-degree: 0%
@@ -238,7 +238,7 @@ For specific release dates and times for each cluster, see the
    <td> <p><strong> de data en de milieu's van de Versie </strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-integration-enhancements.md#workfron" class="MCXref xref" xrefformat="{para}"> Adobe Workfront meldingsverhogingen in Microsoft Teams </a> </p> <p>Om het voor u gemakkelijker te maken om Workfront door Microsoft Teams te gebruiken, hebben wij verscheidene verhogingen aan Microsoft Teams berichten toegevoegd die van Workfront worden verzonden.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-integration-enhancements.md#workfron" class="MCXref xref" xrefformat="{para}"> de berichtverhogingen van Adobe Workfront in Microsoft Teams </a> </p> <p>Om het voor u gemakkelijker te maken om Workfront door Microsoft Teams te gebruiken, hebben wij verscheidene verhogingen aan Microsoft Teams berichten toegevoegd die van Workfront worden verzonden.</p> </td> 
    <td><strong> Beschikbaar op deze data:</strong> <p>Beta Preview-release: n.v.t.</p> <p>Productieversie: 12 januari 2021</p> <p><strong> Beschikbaar in deze milieu's:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 
@@ -337,7 +337,7 @@ This section will be updated with more information prior to the 20.4 release bei
 </MadCap:conditionalText>
 -->
 
-Voor informatie over wat nieuw en bijgewerkt is, zie [ wat in API versie 12 ](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FWF_API%2FAPI%2Fnew-api-version-12.htm) nieuw is.
+Voor informatie over wat nieuw en bijgewerkt is, zie [ wat in API versie 12 ](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12) nieuw is.
 
 Voor meer informatie over API versies, zie [ API versioning en steunprogramma ](../../../wf-api/api/api-version-support-schedule.md)
 
@@ -356,7 +356,7 @@ Voor informatie over de onderhoudsupdates die tijdens de versie 21.1 worden gema
 * [ Nieuwe IP adressen voor Workfront e-mail met 21.1 versie ](#new-ip-addresses-for-workfront-email-with-the-21-1-release)
 * [ Lijst van gewenste personen van extra IP adressen voor de Abonnementen van de Gebeurtenis ](#allowlist-of-additional-ip-addresses-for-event-subscriptions)
 * [ Lijst van gewenste personen van extra domeinen die voor de toegang tot van Workfront ](#allowlist-of-additional-domains-required-for-accessing-workfront) worden vereist
-* [ de afschrijving van de Flash ](#flash-deprecation)
+* [ Veroudering van de Flits ](#flash-deprecation)
 * [ webinar van de Versie 21.1 ](#21-1-release-webinar)
 * [ Verandering in de versiecadence van de Voorproef ](#change-in-preview-release-cadence)
 * [Workfront One](#workfront-one)
@@ -384,11 +384,11 @@ Als uw organisatie een firewall gebruikt, moet u de volgende extra domeinen aan 
 
 Voor meer informatie, zie [ de lijst van gewenste personen van uw firewall ](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
 
-### Afgekeurde Flash {#flash-deprecation}
+### Flash-veroudering {#flash-deprecation}
 
-Alle op Flash-gebaseerde hulpmiddelen werden verwijderd uit alle producten op 19 November 2020.
+Alle op Flash gebaseerde gereedschappen zijn op 19 november 2020 uit alle producten verwijderd.
 
-Kom meer over vervangingsoplossingen voor elk specifiek op Flash-gebaseerd hulpmiddel in het volgende artikel te weten: [ Vervanging van op Flash-gebaseerde hulpmiddelen in Adobe Workfront ](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
+Kom meer over vervangingsoplossingen voor elk specifiek op flits-Gebaseerd hulpmiddel in het volgende artikel te weten: [ Vervanging van op flits-Gebaseerde hulpmiddelen in Adobe Workfront ](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
 
 ### 21.1 Release-webinar {#21-1-release-webinar}
 
@@ -398,10 +398,10 @@ De Workfront 21.1 Release Webinar wordt op 3 februari om 11:00 uur EDT / 16:00 u
 
 Vanaf 20 mei 2020 begon Workfront wekelijks functionaliteit beschikbaar te maken in de voorvertoningsomgeving. Vóór deze wijziging werd de functionaliteit doorgaans elke twee weken vrijgegeven voor de voorvertoningsomgeving.
 
-Voor meer informatie, zie [ Verandering in FAQ van de de voorproefversie van Workfront ](https://one.workfront.com/s/article/Change-in-Workfront-Preview-release-cadence)
+Voor meer informatie, zie [ Verandering in FAQ van de de voorproefversie van Workfront ](https://experienceleague.adobe.com/en/docs/workfront/using/home)
 
 ### Workfront One {#workfront-one}
 
 Met Workfront One ontdekt u de belangrijkste inhoud, bronnen en nieuws uit Workfront — allemaal op één plaats, met één aanmelding. We hebben de sites Experience, Community en Training verenigd, waardoor het gemakkelijker wordt om te vinden wat u zoekt.
 
-[ leer meer over Workfront Één ](https://www.workfront.com/campaigns/workfront-one).
+[ leer meer over Workfront Één ](https://business.adobe.com/products/workfront.html).

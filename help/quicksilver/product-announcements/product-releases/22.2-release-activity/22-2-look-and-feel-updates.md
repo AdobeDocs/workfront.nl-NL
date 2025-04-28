@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 00113f7e-2f69-445d-847e-14fd464241de
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 0%
@@ -55,7 +55,7 @@ De werkbalken in de volgende lijsten en rapporten hebben nu een modern uiterlijk
 
 >[!NOTE]
 >
->De toolbar voor deze zelfde rapporten binnen dashboards werd ook bijgewerkt in Productie met de wekelijkse [ Update van het Onderhoud ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) op 3 Maart, 2022.
+>De toolbar voor deze zelfde rapporten binnen dashboards werd ook bijgewerkt in Productie met de wekelijkse [ Update van het Onderhoud ](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates) op 3 Maart, 2022.
 
 * Projectrapporten
 * Taakrapporten

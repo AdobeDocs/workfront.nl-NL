@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9f660a38-4a59-4135-8178-0841088cc7d6
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1042'
 ht-degree: 0%
@@ -32,7 +32,7 @@ De volgende verbeteringen zijn nu beschikbaar met deze nieuwe functie:
 
 Voor informatie over de inspanning van het Werk, zie [ Overzicht van de Werkinspanning van het Werk ](../../../manage-work/tasks/task-information/work-effort.md).
 
-Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Planner, Deel 2 het leren weg ](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-20Y0z000000bm79EAA) op Workfront Één.
+Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Planner, Deel 2 het leren weg ](https://experienceleague.adobe.com/en/docs/workfront/using/home) op Workfront Één.
 
 ## Op projectstatus gebaseerde kleuren voor werkitems in werklastverdeling
 

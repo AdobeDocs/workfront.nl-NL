@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: af9c801f-ae40-439a-8749-ae8d178040ae
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Omdat we uw feedback over het maken van aanvragen in de nieuwe Workfront-ervarin
 
 Voor informatie over het creëren van nieuwe verzoeken, zie [ Adobe Workfront verzoeken ](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
 
-Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Medewerker voor de nieuwe de Ervaring van Workfront ](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) het leren weg op Workfront Één.
+Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Medewerker voor de nieuwe de Ervaring van Workfront ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) het leren weg op Workfront Één.
 
 ## Verbeteringen van de aanvraagworkflow
 
@@ -64,7 +64,7 @@ Aangezien wij blijven luisteren naar en uw terugkoppelen, hebben wij verscheiden
 * Het sorteren van de lijst Verzendverzoeken door een van de kolommen blijft nu behouden wanneer u bij de pagina vandaan navigeert. Voor meer informatie, zie [ plaats voorgelegde verzoeken ](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 * Als u een nieuwe aanvraag maakt, bevinden de knoppen Verzenden en Annuleren zich nu onder aan het nieuwe aanvraagformulier. Voor meer informatie, zie [ Workfront verzoeken ](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
 
-Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Medewerker voor de nieuwe de Ervaring van Workfront ](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) het leren weg op Workfront Één.
+Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Medewerker voor de nieuwe de Ervaring van Workfront ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) het leren weg op Workfront Één.
 
 ## Open het Samenvattingsvenster in het gedeelte Indienen van het gebied Verzoeken
 
@@ -76,7 +76,7 @@ Om uw ervaring in alle gebieden van Adobe Workfront consistent te maken, hebben 
 
 Voor informatie over de voorgelegde verzoeken, zie [ plaats voorgelegde verzoeken ](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
-Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Medewerker voor de nieuwe de Ervaring van Workfront ](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) het leren weg op Workfront Één.
+Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Medewerker voor de nieuwe de Ervaring van Workfront ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) het leren weg op Workfront Één.
 
 ## Verwijderde velden voor nieuwe problemen opnieuw plaatsen op een nieuw aanvraagformulier
 
@@ -104,7 +104,7 @@ De capaciteit om een verbinding aan de verzoekrij, onderwerpgroep, of rijonderwe
 
 Voor informatie over het voorleggen van verzoeken, zie [ Workfront verzoeken ](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
 
-Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Medewerker voor de nieuwe de Ervaring van Workfront ](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) het leren weg op Workfront Één.
+Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Medewerker voor de nieuwe de Ervaring van Workfront ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) het leren weg op Workfront Één.
 
 ## Een koppeling naar een aanvraagwachtrij delen bij het verzenden van een aanvraag
 
@@ -118,4 +118,4 @@ Alvorens u een nieuw verzoek voorlegt, kunt u een verbinding aan de verzoekrij, 
 
 Voor informatie over het delen van een verbinding aan een verzoekrij wanneer het voorleggen van een verzoek, zie [ een verbinding aan een verzoekrij ](../../../manage-work/requests/create-requests/share-link-to-request-queue.md) delen.
 
-Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Medewerker voor de nieuwe de Ervaring van Workfront ](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) het leren weg op Workfront Één.
+Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Medewerker voor de nieuwe de Ervaring van Workfront ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) het leren weg op Workfront Één.

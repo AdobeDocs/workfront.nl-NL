@@ -8,7 +8,7 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: 5ff071a6e0af93f5280225355edad1d0dde42b3f
+source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 0%
@@ -74,7 +74,7 @@ U kunt de volgende integraties configureren voor het beheer van documenten:
 
 * [!DNL Workfront Proof]
 
-  Door proefdrukken van [!DNL Workfront Proof] te koppelen, kunt u proefdrukken maken die oorspronkelijk zijn gemaakt in [!DNL Workfront Proof] , beschikbaar zijn in [!DNL Workfront] . Voor de huidige plannen is een [!UICONTROL Pro] [!DNL Workfront] -abonnement of hoger vereist als u deze functie wilt gebruiken. Voor de nieuwe plannen, is deze eigenschap beschikbaar met alle plannen. Voor meer informatie over de diverse beschikbare plannen, zie [ Abonnementen van Workfront ](https://www.workfront.com/plans).
+  Door proefdrukken van [!DNL Workfront Proof] te koppelen, kunt u proefdrukken maken die oorspronkelijk zijn gemaakt in [!DNL Workfront Proof] , beschikbaar zijn in [!DNL Workfront] . Voor de huidige plannen is een [!UICONTROL Pro] [!DNL Workfront] -abonnement of hoger vereist als u deze functie wilt gebruiken. Voor de nieuwe plannen, is deze eigenschap beschikbaar met alle plannen. Voor meer informatie over de diverse beschikbare plannen, zie [ Abonnementen van Workfront ](https://business.adobe.com/products/workfront/pricing.html).
 
 * [!DNL Microsoft SharePoint]
 
@@ -97,7 +97,7 @@ U kunt de volgende integraties configureren voor het beheer van documenten:
 
 * Andere documentproviders (via aangepaste documentintegratie).
 
-  Voor de huidige plannen is een [!UICONTROL Pro] [!DNL Workfront] -abonnement of hoger vereist als u deze functie wilt gebruiken. Voor de nieuwe plannen, is deze eigenschap beschikbaar met alle plannen. Voor meer informatie over de diverse beschikbare plannen, zie [ Abonnementen van Workfront ](https://www.workfront.com/plans).
+  Voor de huidige plannen is een [!UICONTROL Pro] [!DNL Workfront] -abonnement of hoger vereist als u deze functie wilt gebruiken. Voor de nieuwe plannen, is deze eigenschap beschikbaar met alle plannen. Voor meer informatie over de diverse beschikbare plannen, zie [ Abonnementen van Workfront ](https://business.adobe.com/products/workfront/pricing.html).
 
 Bovendien kunt u uw [!DNL Workfront] -documentervaring verbeteren met DAM-integratie van derden. Beheerders moeten deze functies inschakelen om gebruikers de service te laten koppelen aan hun [!DNL Workfront] -account.
 

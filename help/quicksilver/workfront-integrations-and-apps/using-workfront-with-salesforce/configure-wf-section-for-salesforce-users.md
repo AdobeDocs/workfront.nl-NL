@@ -6,7 +6,7 @@ description: Nadat u  [!DNL Adobe Workfront]  voor Salesforce als a  [!DNL Workf
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 81481813-74db-4408-8c85-c3b5b844f932
-source-git-commit: ad2fc27db2a19ea231e925d5991dbef27ea48030
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # De sectie [!DNL Adobe Workfront] voor [!DNL Salesforce] -gebruikers configureren
 
-U hebt een [!UICONTROL Pro] [!DNL Workfront] -abonnement nodig om deze functie te kunnen gebruiken. Voor meer informatie over de diverse beschikbare plannen, zie [[!DNL Workfront]  Plannen.](https://www.workfront.com/plans)
+U hebt een [!UICONTROL Pro] [!DNL Workfront] -abonnement nodig om deze functie te kunnen gebruiken. Voor meer informatie over de diverse beschikbare plannen, zie [[!DNL Workfront]  Plannen.](https://business.adobe.com/products/workfront/pricing.html)
 
 Nadat u [!DNL Adobe Workfront] for [!DNL Salesforce] as a [!DNL Workfront] administrator hebt geïnstalleerd, kunt u deze beschikbaar maken voor uw gebruikers door deze in een nieuwe sectie toe te voegen aan hun [!UICONTROL Opportunity] en [!UICONTROL Account]
 paginalay-outs in [!UICONTROL Salesforce] .

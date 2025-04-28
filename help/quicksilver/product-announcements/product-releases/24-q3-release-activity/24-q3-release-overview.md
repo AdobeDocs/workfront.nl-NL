@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1831'
 ht-degree: 0%
@@ -223,12 +223,12 @@ Het levende 24.7 versiewebinar werd geannuleerd, maar u kunt nog [ op een videod
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}"> Workfront voor Experience Manager Assets en de verbeteringen van Assets Essentials </a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}"> Workfront voor Experience Manager Assets en de Verbeteringen van de Hoofdzaak van Activa </a></p>
                         [!BADGE in productie ]{type=Informative}
-                        <p>We hebben de volgende verbeteringen aangebracht voor de integratie van Workfront voor Experience Manager Assets en Assets Essentials:</p>
+                        <p>We hebben de volgende verbeteringen aangebracht voor de integratie van Workfront for Experience Manager Assets en Assets Essentials:</p>
                         <ul>
                             <li><p>De integratie ondersteunt nu GCP als cloudserviceprovider. AWS en Azure werden eerder ondersteund.</p></li>
-                            <li><p>De formaatlimiet voor bestanden die via de integratie naar de Experience Manager worden verzonden, is verhoogd tot 30 GB. Eerder was de limiet 5 GB.</p></li>
+                            <li><p>De maximale grootte voor bestanden die via de integratie naar Experience Manager worden verzonden, is verhoogd tot 30 GB. Eerder was de limiet 5 GB.</p></li>
                         </ul>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -425,7 +425,7 @@ Het levende 24.7 versiewebinar werd geannuleerd, maar u kunt nog [ op een videod
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}"> Adobe Verenigde Ervaring nu beschikbaar voor meer organisaties van Workfront </a></p>
                         [!BADGE in productie ]{type=Informative}
-                        <p>Om organisaties toegang tot de voordelen van de Adobe Verenigde Ervaring toe te staan, zijn wij begonnen het ter beschikking te stellen aan bestaande klanten van Workfront. </p>
+                        <p>Om organisaties toegang tot de voordelen van de Verenigde Ervaring van Adobe te verlenen, zijn wij begonnen het ter beschikking te stellen aan bestaande klanten van Workfront. </p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -436,7 +436,7 @@ Het levende 24.7 versiewebinar werd geannuleerd, maar u kunt nog [ op een videod
                                 <p>Productie voor opgegeven klanten: met de release van 24.7 (18 juli 2024)</p>
                             </li>
                          </ul>
-                         <span style="color: #ff0000;"> de Adobe verenigde Shell wordt ter beschikking gesteld in een gefaseerde uitrol. De extra organisaties zullen aan de Adobe Verenigde Shell met de 24.10 en 25.1 versies worden genegeerd. </p>
+                         <span style="color: #ff0000;"> Adobe verenigde Shell wordt ter beschikking gesteld in een gefaseerde implementatie. De extra organisaties zullen aan Adobe verenigde Shell met 24.10 en 25.1 versies worden betreden. </p>
                     </td>
                 </tr>
                 <tr>
@@ -523,8 +523,8 @@ Voor informatie over API versies, zie [ API versioning en steunprogramma ](/help
 
 ### Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens de Derde Kwartaal 2024 versie worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).[
+Voor informatie over de onderhoudsupdates die tijdens de Derde Kwartaal 2024 versie worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront ](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).[
 
 ### Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Tutorials van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html) Nieuw is.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) Nieuw is.

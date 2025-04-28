@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4162cfb7-d5e1-4152-857a-fc4a6eb09cd7
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2566'
 ht-degree: 0%
@@ -286,9 +286,9 @@ Een deel van de functionaliteit is vrijgegeven vóór de release van 2020.1. Om 
    <td> <p>Beta Preview-release: 10 maart 2020</p> <p>Productieversie: met versie 2020.1 <span style="color: #ff0000;"> (Verwijderd uit release) </span></p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-other-enhancements.md#the" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly"> de Portfolio Optimizer van de Flash is verwijderd </a><!--
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-other-enhancements.md#the" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly"> de Optimizer van Portfolio van de Flits is verwijderd </a><!--
       <a href="https://experience.workfront.com/s/article/2020-1-Other-enhancements-1407923545?language=en_US&amp;r=13&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">The Flash Portfolio Optimizer has been removed</a>
-     --> </p> <p>We hebben de mogelijkheid verwijderd om voor alle klanten te schakelen tussen het nieuwe en het oudere (op Flash gebaseerde) Portfolio Optimizer uit de Klassieke Workfront-omgeving. De verouderde functie Portfolio optimaliseren is een verouderde functie en de nieuwe gereedschappen bieden vandaag dezelfde functionaliteit.</p> </td> 
+     --> </p> <p>We hebben de mogelijkheid verwijderd om te schakelen tussen de nieuwe en de verouderde (op basis van Flash) Portfolio Optimizer uit de Klassieke Workfront-omgeving voor alle klanten. De oudere Portfolio Optimizer is een verouderde functie en de nieuwe gereedschappen bieden vandaag dezelfde functionaliteit.</p> </td> 
    <td> <p>Beta Preview-release: 27 februari 2020</p> <p>Productieversie: met de release van 2020.1</p> </td> 
   </tr> 
   <tr> 
@@ -343,7 +343,7 @@ Voor informatie over de onderhoudsupdates die tijdens de versie 2020.1 worden ge
 * [ Q1 Product Roadmap Webinar ](#q1-product-roadmap-webinar)
 * [ Diverse Enige Sign-On te verwijderen opties ](#various-single-sign-on-options-to-be-removed)
 * [ TLS 1.0 en 1.1 steun beëindigt ](#tls-1-0-and-1-1-support-is-ending)
-* [Verwijderen van Flash](#flash-application-removal)
+* [Verwijderen van Flash-toepassing](#flash-application-removal)
 
 ### Extra domeinen toevoegen aan de lijst van gewenste personen die vereist is voor toegang tot Workfront {#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront}
 
@@ -358,7 +358,7 @@ Voor meer informatie, zie [ de lijst van gewenste personen van uw firewall ](../
 
 Met Workfront One ontdekt u de belangrijkste inhoud, bronnen en nieuws uit Workfront — allemaal op één plaats, met één aanmelding. We hebben de sites Experience, Community en Training verenigd, waardoor het gemakkelijker wordt om te vinden wat u zoekt.
 
-[ leer meer over Workfront Één ](https://www.workfront.com/campaigns/workfront-one).
+[ leer meer over Workfront Één ](https://business.adobe.com/products/workfront.html).
 
 ### 2020.1 Release Webinar {#2020-1-release-webinar}
 
@@ -435,11 +435,11 @@ Om een optimale beveiliging te bieden, eist Workfront dat alle integratie en het
 
 Voor meer informatie, zie [ TLS 1.2 die in Adobe Workfront ](../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md) wordt vereist.
 
-### Verwijderen van Flash {#flash-application-removal}
+### Verwijderen van Flash-toepassing {#flash-application-removal}
 
-Alle functionaliteit die afhankelijk is van de technologie van de Flash is verwijderd uit Workfront sinds de release van 2018.3 en vervangen door een nieuwe oplossing.
+Alle functionaliteit die afhankelijk is van Flash-technologie is verwijderd uit Workfront sinds de release van 2018.3 en vervangen door een nieuwe oplossing.
 
-Voor gedetailleerde informatie over de hulpmiddelen van de erfenis Flash en hun vervangingen, zie [ Vervanging van op Flash-gebaseerde hulpmiddelen in Adobe Workfront ](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
+Voor gedetailleerde informatie over de erfenishulpmiddelen van de Flits en hun vervangingen, zie [ Vervanging van op flits-Gebaseerde hulpmiddelen in Adobe Workfront ](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
 
 <!--
 <a href="https://experience.workfront.com/s/article/Replacement-of-Flash-Based-Tools-in-Workfront-194935493" target="_blank" data-mc-conditions="QuicksilverOrClassic.Draft mode">

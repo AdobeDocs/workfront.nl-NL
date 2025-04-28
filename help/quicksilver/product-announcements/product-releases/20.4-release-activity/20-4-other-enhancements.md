@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd8fcafc-00cc-4025-b2d3-e3a6f12e40fc
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
@@ -27,7 +27,7 @@ In de nieuwe Workfront-ervaring wordt de optie Overschakelen naar klassieke modu
 
 In Workfront Classic wordt de optie Overschakelen naar nieuwe ervaring weergegeven in het menu dat wordt weergegeven wanneer u op de profielafbeelding klikt in de rechterbovenhoek van de algemene navigatiebalk.
 
-Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Beheerder, Deel 1 het leren weg ](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) op Workfront Één.
+Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Beheerder, Deel 1 het leren weg ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) op Workfront Één.
 
 ## Verbeterde codering voor Workfront Proof
 
@@ -62,7 +62,7 @@ U ziet ook dat onze moderne stijl nu de ervaring verbetert met het configureren 
 
 Voor informatie over het vormen van e-mailberichten, zie [ gebeurtenisberichten voor iedereen in het systeem ](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) vormen.
 
-Deze eigenschap is nu inbegrepen in [ e-mail en in-app berichten het leren weg ](https://one.workfront.com/s/learningpath2/email-and-in-app-notifications-in-the-new-workfront-experience-20Y4X000000CaZGUA0) op Workfront Één.
+Deze eigenschap is nu inbegrepen in [ e-mail en in-app berichten het leren weg ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) op Workfront Één.
 
 ## Nieuwe API-objecten die updates voor abonnementen voor gebeurtenissen activeren
 

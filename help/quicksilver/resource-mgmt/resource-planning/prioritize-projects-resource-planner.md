@@ -6,7 +6,7 @@ description: De projecten zijn vermeld in orde van prioriteit in de Planner van 
 author: Lisa
 feature: Resource Management
 exl-id: fe9c8cf9-f1e0-4cd5-9299-0f04893d71a5
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 0%
@@ -112,7 +112,7 @@ De projectplanningsprioriteit bewerken:
 >
 >Uw bedrijf moet een bedrijfs of hoger plan van Workfront hebben om projecten in Portfolio Optimizer voorrang te geven.
 >
->Voor meer informatie over de plannen van Workfront, zie [ Onze Abonnementen ](https://www.workfront.com/plans).
+>Voor meer informatie over de plannen van Workfront, zie [ Onze Abonnementen ](https://business.adobe.com/products/workfront/pricing.html).
 >
 >Voor informatie over het prioriteren van projecten in Portfolio optimaliseert, zie [ projecten in de Optimizer van Portfolio ](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md) Prioritize.
 

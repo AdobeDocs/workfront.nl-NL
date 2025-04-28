@@ -7,7 +7,7 @@ description: Voor het gebruik van deze functie is een abonnement op Selecteren o
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c0433621-3988-45f2-9d6b-68ef92b5b7d2
-source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 >Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
 
-Voor het gebruik van deze functie is een abonnement op Selecteren of Premium vereist. Voor meer informatie over de diverse beschikbare plannen, zie [[!DNL Workfront]  Plannen ](https://www.workfront.com/plans).
+Voor het gebruik van deze functie is een abonnement op Selecteren of Premium vereist. Voor meer informatie over de diverse beschikbare plannen, zie [[!DNL Workfront]  Plannen ](https://business.adobe.com/products/workfront/pricing.html).
 
 U kunt groepen gebruikers maken die u als controleurs op meerdere proefdrukken kunt toevoegen. Dit is handig als u inhoud regelmatig naar dezelfde gebruikers verzendt.
 

@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 425c3d3afb892ac83a10bbd36efb4c7d9712c4dc
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-In tegenstelling tot Workfront waar de objecttypen vooraf zijn gedefinieerd, kunt u in Adobe Workfront Planning uw eigen objecttypen maken. In Workfront zijn bijvoorbeeld al de objecttypen Programma, Portfolio, Project, Taak of Probleem gemaakt.
+In tegenstelling tot Workfront waar de objecttypen vooraf zijn gedefinieerd, kunt u in Adobe Workfront Planning uw eigen objecttypen maken. In Workfront zijn bijvoorbeeld al de objecttypen Program, Portfolio, Project, Task of Issue gemaakt.
 
 Workfront Planning-objecttypen worden &#39;recordtypen&#39; genoemd en bestaan alleen wanneer gebruikers ze maken. Recordtypen zijn de bouwstenen van een Workfront-werkruimte voor planning. Voor informatie over werkruimten, zie [ werkruimten ](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
 

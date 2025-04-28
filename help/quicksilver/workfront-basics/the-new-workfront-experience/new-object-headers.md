@@ -6,7 +6,7 @@ description: U kunt informatie bij een blik over voorwerpen in  [!DNL Adobe Work
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3213'
 ht-degree: 0%
@@ -254,7 +254,7 @@ De programmakoptekst bevat de volgende informatie:
  </thead> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Broodkruimel met de naam van het Portfolio</td> 
+   <td role="rowheader">Broodkruimel met de naam Portfolio</td> 
    <td> <p>U hebt toegang tot de [!UICONTROL Portfolio] via de koptekst van de [!UICONTROL Program] . Wanneer u op de naam van het bovenliggende object klikt, wordt dat bovenliggende object geopend.</p> <p>Voor meer informatie, zie <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref"> Overzicht van Broodkruimels </a>.</p> </td> 
   </tr> 
   <tr> 
@@ -296,7 +296,7 @@ De programmakoptekst bevat de volgende informatie:
  </tbody> 
 </table>
 
-## Overzicht van koptekst van Portfolio {#portfolio-header-overview}
+## Overzicht van Portfolio-kopteksten {#portfolio-header-overview}
 
 ![](assets/portfolio-header-350x19.png)
 

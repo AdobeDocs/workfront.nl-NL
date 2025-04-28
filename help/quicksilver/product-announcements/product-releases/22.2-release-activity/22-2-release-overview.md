@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: e490a955-b2cb-4b9b-9794-12ff2a2c2338
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3974'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 22.2 Overzicht van de release
 
-Deze pagina bevat informatie over de functionaliteit die is opgenomen in de release 22.2. Alle vermelde functies zijn beschikbaar in de nieuwe Adobe Workfront-ervaring. Sommige eigenschappen zijn ook beschikbaar in de Klassiek van Adobe Workfront; nochtans, [ zal de Klassiek van Workfront in Maart 2022 ](https://one.workfront.com/s/new-workfront-experience) worden stopgezet, die kort door de eind-van-levensdatum voor Workfront Classic in Juli 2022 wordt gevolgd.
+Deze pagina bevat informatie over de functionaliteit die is opgenomen in de release 22.2. Alle vermelde functies zijn beschikbaar in de nieuwe Adobe Workfront-ervaring. Sommige eigenschappen zijn ook beschikbaar in de Klassiek van Adobe Workfront; nochtans, [ zal de Klassiek van Workfront in Maart 2022 ](https://experienceleague.adobe.com/en/docs/workfront/using/home) worden stopgezet, die kort door de eind-van-levensdatum voor Workfront Classic in Juli 2022 wordt gevolgd.
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -123,7 +123,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong> Beschikbaar in deze milieu's:</strong> </p> 
     <ul> 
      <li> <p>De nieuwe Adobe Workfront-ervaring </p> </li> 
-     <li> <p>De Klassieke van Adobe Workfront (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank"> Workfront Klassiek zal in Maart 2022 </a> worden onderbroken, die kort door de eind-van-levensdatum voor Workfront Klassiek in Juli 2022 wordt gevolgd.)</p> </li> 
+     <li> <p>De Klassieke van Adobe Workfront (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank"> Workfront Klassiek zal in Maart 2022 </a> worden onderbroken, die kort door de eind-van-levensdatum voor Workfront Klassiek in Juli 2022 wordt gevolgd.)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -291,7 +291,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong> Beschikbaar in deze milieu's:</strong> </p> 
     <ul> 
      <li> <p>De nieuwe Adobe Workfront-ervaring </p> </li> 
-     <li> <p>De Klassieke van Adobe Workfront (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank"> Workfront Klassiek zal in Maart 2022 </a> worden onderbroken, die kort door de eind-van-levensdatum voor Workfront Klassiek in Juli 2022 wordt gevolgd.)</p> </li> 
+     <li> <p>De Klassieke van Adobe Workfront (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank"> Workfront Klassiek zal in Maart 2022 </a> worden onderbroken, die kort door de eind-van-levensdatum voor Workfront Klassiek in Juli 2022 wordt gevolgd.)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -303,7 +303,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong> Beschikbaar in deze milieu's:</strong> </p> 
     <ul> 
      <li> <p>De nieuwe Adobe Workfront-ervaring </p> </li> 
-     <li> <p>De Klassieke van Adobe Workfront (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank"> Workfront Klassiek zal in Maart 2022 </a> worden onderbroken, die kort door de eind-van-levensdatum voor Workfront Klassiek in Juli 2022 wordt gevolgd.)</p> </li> 
+     <li> <p>De Klassieke van Adobe Workfront (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank"> Workfront Klassiek zal in Maart 2022 </a> worden onderbroken, die kort door de eind-van-levensdatum voor Workfront Klassiek in Juli 2022 wordt gevolgd.)</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -357,7 +357,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong> Beschikbaar in deze milieu's:</strong> </p> 
     <ul> 
      <li> <p>De nieuwe Adobe Workfront-ervaring </p> </li> 
-     <li> <p>De Klassieke van Adobe Workfront (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank"> Workfront Klassiek zal in Maart 2022 </a> worden onderbroken, die kort door de eind-van-levensdatum voor Workfront Klassiek in Juli 2022 wordt gevolgd.)</p> </li> 
+     <li> <p>De Klassieke van Adobe Workfront (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank"> Workfront Klassiek zal in Maart 2022 </a> worden onderbroken, die kort door de eind-van-levensdatum voor Workfront Klassiek in Juli 2022 wordt gevolgd.)</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -440,7 +440,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td> <p><strong> de data en de milieu's van de Versie </strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-integration-enhancements.md#adobe" class="MCXref xref" xrefformat="{para}"> Adobe Workfront met Anaplan integratie nu beschikbaar </a> </p> <p>Om u meer flexibiliteit en inzicht te geven in de financiële aspecten van uw Workfront-projecten, kan Workfront nu integreren met uw Anaplan-account. Door Workfront-objecten aan Anaplan-objecten te koppelen, kunt u automatisch informatie tussen de twee accounts bijwerken, zodat de informatie in beide accounts up-to-date en identiek is. </p> <p>U kunt geautomatiseerde processen in Anaplan ook activeren op basis van acties in Workfront (of vice versa).</p> <p>U kunt bijvoorbeeld een campagne maken in Anaplan en vervolgens een Workfront-project of -programma maken dat is gekoppeld aan de campagne. Eventuele kosten die in Workfront worden bijgehouden, kunnen vervolgens naar Anaplan worden geüpload om de prestaties van de campagne te beoordelen.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-integration-enhancements.md#adobe" class="MCXref xref" xrefformat="{para}"> Adobe Workfront met Anaplan integratie nu beschikbaar </a> </p> <p>Om u meer flexibiliteit en insight te geven in de financiële aspecten van uw Workfront-projecten, kan Workfront nu integreren met uw Anaplan-account. Door Workfront-objecten aan Anaplan-objecten te koppelen, kunt u automatisch informatie tussen de twee accounts bijwerken, zodat de informatie in beide accounts up-to-date en identiek is. </p> <p>U kunt geautomatiseerde processen in Anaplan ook activeren op basis van acties in Workfront (of vice versa).</p> <p>U kunt bijvoorbeeld een campagne maken in Anaplan en vervolgens een Workfront-project of -programma maken dat is gekoppeld aan de campagne. Eventuele kosten die in Workfront worden bijgehouden, kunnen vervolgens naar Anaplan worden geüpload om de prestaties van de campagne te beoordelen.</p> </td> 
    <td><strong> Beschikbaar op deze data:</strong> 
     <ul> 
      <li> <p>Voorvertoningsrelease: 10 maart 2022<br></p> </li> 
@@ -552,7 +552,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-other-enhancements.md#enhancem" class="MCXref xref" xrefformat="{para}"> Verbeteringen aan hoogste navigatiebar </a> </p> <p>We hebben verschillende verbeteringen aangebracht in de bovenste navigatiebalk van Adobe Workfront.</p> 
     <ul> 
      <li> <p>Favorieten en Recenten hebben nu aparte pictogrammen in de bovenste navigatiebalk. Op elk scherm wordt nog steeds dezelfde inhoud weergegeven (pagina's die u als favorieten hebt gemarkeerd en pagina's die u onlangs hebt bezocht). U kunt op dezelfde manier favoriete pagina's toevoegen en verwijderen.</p> </li> 
-     <li> <p>De vormgeving van zowel de punten als het hoofdmenu is aangepast aan de ontwerpstandaarden van de Adobe, waaronder kleuren en lettertypen. De manier waarop u pinnen toevoegt en verwijdert, en de gebieden waartoe u toegang hebt in het hoofdmenu, zijn niet gewijzigd.</p> </li> 
+     <li> <p>De vormgeving van beide pinnen en het hoofdmenu is aangepast aan de Adobe-ontwerpstandaarden, waaronder kleuren en lettertypen. De manier waarop u pinnen toevoegt en verwijdert, en de gebieden waartoe u toegang hebt in het hoofdmenu, zijn niet gewijzigd.</p> </li> 
      <li> <p>De pictogrammen aan de rechterkant van de bovenste navigatiebalk zijn opnieuw gerangschikt om intuïtiever te zijn. De pictogramvolgorde is: Help-koppeling, meldingen, favorieten, verlopen, zoeken, hoofdmenu.</p> </li> 
     </ul> </td> 
    <td><strong> Beschikbaar op deze data:</strong> 
@@ -620,7 +620,7 @@ Voor informatie over API versies, zie [ API versioning en steunprogramma ](../..
 
 ## Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens de versie 2.2 worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).[
+Voor informatie over de onderhoudsupdates die tijdens de versie 2.2 worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront ](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).[
 
 ## 22.2 Release-webinar
 
@@ -653,7 +653,7 @@ was presented on January 12, 2022. You can view the webinar recording on the
 
 ## Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie de [ versie van de Opleiding pagina ](https://one.workfront.com/s/training-release-updates) bijwerkt.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie de [ versie van de Opleiding pagina ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) bijwerkt.
 
 ## Functionaliteit wordt niet meer ondersteund
 

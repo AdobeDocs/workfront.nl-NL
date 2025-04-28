@@ -8,7 +8,7 @@ description: Enig Sign-On (SSO) staat uw gebruikers toe om in  [!DNL Workfront P
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb1f6883-6209-4a55-b181-67af4b496ca0
-source-git-commit: 405523606094d4f8553b0aee544d71c2b7f97d86
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 >Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
 
-U hebt een [!UICONTROL Enterprise] [!DNL Workfront] -abonnement nodig om deze functie te kunnen gebruiken. Voor meer informatie over de diverse beschikbare plannen, zie [ Abonnementen van Workfront ](https://www.workfront.com/plans).
+U hebt een [!UICONTROL Enterprise] [!DNL Workfront] -abonnement nodig om deze functie te kunnen gebruiken. Voor meer informatie over de diverse beschikbare plannen, zie [ Abonnementen van Workfront ](https://business.adobe.com/products/workfront/pricing.html).
 
 Met Single Sign-On (SSO) kunnen uw gebruikers zich aanmelden bij [!DNL Workfront Proof] via de bestaande gebruikersnaam en het bestaande wachtwoord van uw organisatie.
 

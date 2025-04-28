@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6fef7261-114f-4c26-861e-61a4acb22d40
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1503'
 ht-degree: 0%
@@ -72,7 +72,7 @@ Om uw dagelijkse werk met kalenders beter te visualiseren en te beheren, zijn de
 
 Eerder kon u uw kalender alleen beheren met geplande, geplande datums die niet beschikbaar waren.
 
-Voor meer informatie, zie [ de gebieden van de douanedatum van het Gebruik in een kalenderrapport ](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md) (of als u de Klassiek van Workfront gebruikt, zie [ de gebieden van de douanedatum van het Gebruik in een kalenderrapport ](https://one.workfront.com/s/article/Use-custom-date-fields-in-a-calendar-report-432597950?language=en_US)).
+Voor meer informatie, zie [ de gebieden van de douanedatum van het Gebruik in een kalenderrapport ](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md) (of als u de Klassiek van Workfront gebruikt, zie [ de gebieden van de douanedatum van het Gebruik in een kalenderrapport ](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 ## E-mailwijzigingen
 
@@ -82,11 +82,11 @@ Systeembeheerders kunnen eerder een aangepast e-mailadres toevoegen in het gedee
 
 **Binnenkomende het antwoordveranderingen van het POP van e-mail:** De Beheerders van het Systeem zullen niet meer de capaciteit hebben om een douane POP e-mailserver voor inkomende e-mailantwoorden aan berichten te vormen.
 
-Voor meer informatie, zie [ E-mail voor de gek houden en het antwoord van de POP e-mail verandert ](https://one.workfront.com/s/article/Email-spoofing-and-POP-reply-email-changes?language=en_US).
+Voor meer informatie, zie [ E-mail voor de gek houden en het antwoord van de POP e-mail verandert ](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
-## DomainKeys Identified Mail (DKIM) is nu opgenomen in uitgaande Workfront-e-mails
+## DomainKeys Identified Mail (DKIM) is nu opgenomen in uitgaande e-mails van Workfront
 
-Een e-mailverificatietechniek (DKIM) wordt opgenomen in alle uitgaande e-mails. Deze DKIM-handtekening is niet zichtbaar voor de eindgebruiker, maar staat validatie op serverniveau toe en versterkt ons bestaande verificatieframework.
+Een techniek voor e-mailverificatie (DKIM) wordt opgenomen in alle uitgaande e-mails. Deze DKIM-handtekening is niet zichtbaar voor de eindgebruiker, maar staat validatie op serverniveau toe en versterkt ons bestaande verificatieframework.
 
 ## Updates voor inschrijving in de nieuwe Workfront-ervaring
 

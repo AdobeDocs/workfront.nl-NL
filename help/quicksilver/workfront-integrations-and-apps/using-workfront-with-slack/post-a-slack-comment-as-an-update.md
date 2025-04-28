@@ -1,12 +1,12 @@
 ---
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-slack
-title: Opmerkingen van Slacks als een update plaatsen
-description: U kunt een opmerking van een Slack toevoegen als een update voor een bepaald project, een bepaalde taak of een specifieke uitgave in Adobe Workfront.
+title: Slack-commentaar verzenden als update
+description: U kunt een Slack-opmerking toevoegen als een update voor een bepaald project, een bepaalde taak of een specifieke uitgave in Adobe Workfront.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 18b22f2c-2490-41e2-afb9-0551f9579973
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 0%
@@ -28,7 +28,7 @@ U moet het volgende hebben:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL [!DNL Adobe Workfront] plan] </a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront] plan] </a>*</td> 
    <td> <p>[!UICONTROL Pro] of hoger</p> </td> 
   </tr> 
  </tbody> 

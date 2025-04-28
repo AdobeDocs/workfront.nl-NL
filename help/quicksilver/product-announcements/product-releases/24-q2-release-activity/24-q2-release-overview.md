@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2247'
 ht-degree: 0%
@@ -23,7 +23,7 @@ In plaats van een versie webinar, nodigen wij u aan [ register voor Adobe Summit
 
 [ onthullende Kalenders van de Marketing en Hulpmiddelen voor de Planning van de Campagne van begin tot eind ](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=s304) op 28 Maart, 2024, om over nieuwe productmogelijkheden te leren die worden ontworpen om u organisatie toe te laten om operationele levenscycli van begin tot eind te beheren en te visualiseren.
 
-U kunt ook [ een dossier van de PDF ](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754831a-dbfe-471d-bca7-386264d90352) {target="_blank"} met hoogtepunten van de 24.4 versie bekijken.
+U kunt ook [ een dossier van PDF ](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754831a-dbfe-471d-bca7-386264d90352){target="_blank"} met hoogtepunten van de 24.4 versie bekijken.
 
 <span class="preview"> off-cycle eigenschappen (die die aan Productie voorafgaand aan het Tweede Kwartaal 2024 versiedatum vrijgeven) worden benadrukt in geel.</span>
 
@@ -662,9 +662,9 @@ Voor informatie over API versies, zie [ API versioning en steunprogramma ](/help
 
 ### Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens de Tweede Kwartaal 2024 versie worden gemaakt, zie [ Updates van het Onderhoud van Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Voor informatie over de onderhoudsupdates die tijdens de Tweede Kwartaal 2024 versie worden gemaakt, zie [ Updates van het Onderhoud van Workfront ](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Tutorials van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html) Nieuw is.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) Nieuw is.
 

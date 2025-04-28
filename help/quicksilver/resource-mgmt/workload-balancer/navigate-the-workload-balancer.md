@@ -6,7 +6,7 @@ description: Gebruik de werklastbalans om de beschikbaarheid van uw bronnen te b
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '4078'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Gebruik de werklastbalans in Adobe Workfront om werk toe te wijzen aan gebruiker
 
 De werklastbalans is beschikbaar in meerdere gebieden van Adobe Workfront. Navigeren is vergelijkbaar in alle gebieden.
 
-Voor meer informatie over waar de Balancer van de Werklast wordt gevestigd, zie [ plaats van de Balancer van de Werkbelasting ](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer.html?lang=en).
+Voor meer informatie over waar de Balancer van de Werklast wordt gevestigd, zie [ plaats van de Balancer van de Werkbelasting ](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
 
 ## Toegangsvereisten
 
@@ -106,8 +106,8 @@ Zie ook de volgende artikelen voor meer informatie over het weergeven van inform
 
 Zie ook de volgende artikelen voor informatie over het beheer van bronnen met behulp van Workload Balancer:
 
-* [ Overzicht van het toewijzen van het werk in de Balancer van de Werkbelasting ](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer.html?lang=en)
-* [ beheer gebruikerstoewijzingen in de Balancer van de Werklast ](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer.html?lang=en)
+* [ Overzicht van het toewijzen van het werk in de Balancer van de Werkbelasting ](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
+* [ beheer gebruikerstoewijzingen in de Balancer van de Werklast ](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
 
 
 ## Navigeer de Balancer van de Werkbelasting voor veelvoudige projecten in het gebied van de Middelen

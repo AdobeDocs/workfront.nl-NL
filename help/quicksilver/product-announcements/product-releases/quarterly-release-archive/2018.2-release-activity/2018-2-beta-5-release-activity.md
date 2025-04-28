@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0a8602aa-34c8-44d0-a102-9497d106f806
-source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3158'
 ht-degree: 0%
@@ -155,7 +155,7 @@ Voorafgaand aan deze verbetering, zou de naburige kolom aan het recht van de res
 
 Voor informatie over het resizing van het opnieuw ordenen van kolommen in lijsten, zie [ kolombreedte en orde wijzigen ](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
-Om aan ons bèta testend programma voor de huidige lijstverbeteringen deel te nemen, zie [ Nieuwe Studie van Lijsten.](http://community.workfront.com/discussions/community-home/digestviewer/viewthread?GroupId=457&amp;MessageKey=6b135c15-33dd-4fa2-8bc3-7cd7f7740c57&amp;CommunityKey=0425cafc-f0ec-47fc-be20-a21dc073d520&amp;tab=digestviewer&amp;ReturnUrl=%2fdiscussions%2fcommunity-home%2fdigestviewer%3fCommunityKey%3d0425cafc-f0ec-47fc-be20-a21dc073d520) (Aanmelding vereist)
+Om aan ons bèta testend programma voor de huidige lijstverbeteringen deel te nemen, zie [ Nieuwe Studie van Lijsten.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront) (Aanmelding vereist)
 
 ## Pictogramondersteuning voor de nieuwe projectlijsten {#icon-support-for-the-new-project-lists}
 
@@ -424,7 +424,7 @@ Zie voor meer informatie  [ Verklarende woordenlijst van de terminologie van Ad
 
 U kunt nu een nieuwe versie van een proefdruk rechtstreeks maken vanuit de nieuwe proefdrukviewer en de Desktop Proofing Viewer wanneer u proefdrukken maakt in Workfront Proof.
 
-Eerder was deze optie alleen beschikbaar in de Legacy Flash Viewer.
+Eerder was deze optie alleen beschikbaar in de verouderde Flash Viewer.
 
 Voor meer informatie, zie [ het Kopiëren Proofs in Workfront Proof ](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md) in het artikel  [ het Kopiëren Proofs in Workfront Proof ](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md).
 

@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0897b269-c6f3-4b63-8956-b7f9fbe0a553
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '4718'
 ht-degree: 0%
@@ -343,11 +343,11 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
    <td> <p><strong> de data en de milieu's van de Versie </strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-integration-enhancements.md#link" class="MCXref xref" xrefformat="{para}"> de documenten van de Verbinding van Bedrijfs Dropbox </a> </p> <p>We hebben Dropbox Business toegevoegd als beschikbare documentintegratie. Nu hebt u rechtstreeks vanuit Workfront toegang tot documenten die u hebt opgeslagen in Dropbox Business.</p> <p>Met Dropbox Business kunt u gedeelde documenten koppelen en documenten uploaden naar gedeelde mappen. Met Dropbox (niet Dropbox Business) kan alleen de eigenaar van de documenten het document in Workfront bekijken.</p> <p>Uw Workfront-beheerder kan deze integratie inschakelen voor uw organisatie.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-integration-enhancements.md#link" class="MCXref xref" xrefformat="{para}"> de documenten van de Verbinding van Bedrijfs Dropbox </a> </p> <p>Dropbox Business is toegevoegd als een beschikbare documentintegratie. Nu hebt u rechtstreeks vanuit Workfront toegang tot documenten die u in Dropbox Business hebt opgeslagen.</p> <p>Met Dropbox Business kunt u gedeelde documenten koppelen en documenten uploaden naar gedeelde mappen. Met Dropbox (niet Dropbox Business) kan alleen de eigenaar van de documenten het document in Workfront bekijken.</p> <p>Uw Workfront-beheerder kan deze integratie inschakelen voor uw organisatie.</p> </td> 
    <td> <p><b> Beschikbaar op deze data:</b> </p> <p>Voorvertoning release: n.v.t.<br></p> <p>Productieversie: met de release van 21.4</p> <p><strong> Beschikbaar in deze milieu's:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-integration-enhancements.md#updates" class="MCXref xref" xrefformat="{para}"> Updates aan Workfront voor Slack </a> </p> <p>De volgende updates zijn nu zichtbaar in de Workfront for Slack integration:</p> <p>De Workfront voor de integratie van Slacks heeft nu een nieuw gezicht. Bovendien ontvang je nu je Workfront for Slack-berichten in real-time. </p> <p>Als u bijvoorbeeld aan een taak bent toegewezen, ontvangt u dat bericht zodra u deze hebt toegewezen. </p> <p>Voorheen kon er een vertraging optreden voordat de aanmelding in de Slack verscheen.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-integration-enhancements.md#updates" class="MCXref xref" xrefformat="{para}"> Updates aan Workfront voor Slack </a> </p> <p>De volgende updates zijn nu zichtbaar in de Workfront for Slack-integratie:</p> <p>De integratie van Workfront voor Slack heeft nu een nieuw gezicht. Bovendien ontvang je nu je Workfront for Slack-berichten in real-time. </p> <p>Als u bijvoorbeeld aan een taak bent toegewezen, ontvangt u dat bericht zodra u deze hebt toegewezen. </p> <p>Voorheen kon er een vertraging optreden voordat de kennisgeving in Slack verscheen.</p> </td> 
    <td><strong> Beschikbaar op deze data:</strong> <p>Voorvertoningsrelease: 29 juli 2021<br></p> <p>Productieversie: 29 juli 2021</p> <p><strong> Beschikbaar in deze milieu's:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -465,7 +465,7 @@ De Workfront 21.4 Release Webinar werd gepresenteerd op 23 september 2021. U kun
 
 ## Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie de [ versie van de Opleiding pagina ](https://one.workfront.com/s/training-release-updates) bijwerkt.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie de [ versie van de Opleiding pagina ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) bijwerkt.
 
 ## Functionaliteit wordt niet meer ondersteund
 

@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: e86524d3-5f57-45b6-8582-102d2de92be4
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2462'
 ht-degree: 0%
@@ -361,9 +361,9 @@ De webinar voor release 23.1 vond plaats op dinsdag 10 januari 2023. U kunt [ vo
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}"> introducerend de toevoeging van Illustrator aan Adobe Workfront voor ontwerp en videostop </a> <span style="color: #ff0000;"> Nieuw in Productie!</span></p>
-                        <p>We zijn erg blij om aan te kondigen dat onze Adobe Workfront for InDesign-insteekmodule is uitgebreid met Adobe Illustrator.</p>
+                        <p>We zijn erg blij dat we de uitbreiding van onze Adobe Workfront for InDesign-insteekmodule naar Adobe Illustrator aankondigen.</p>
                         <p>De bijgewerkte plug-in Adobe Workfront for design and video biedt nu ondersteuning voor Illustrator, InDesign, Premiere Pro en After Effects.  </p>
-                        <p>Met deze plug-in hebt u toegang tot de gegevens van het werkitem, kunt u samenwerken met collega's in het gedeelte Updates en kunt u zich altijd aanmelden zonder uw favoriete Creative Cloud-toepassing te verlaten.</p>
+                        <p>Met deze insteekmodule hebt u toegang tot de gegevens van het werkitem, kunt u samenwerken met collega's in het gedeelte Updates en kunt u zich altijd aanmelden zonder uw favoriete Creative Cloud-toepassing te verlaten.</p>
                         <p>Beheerders kunnen ook een pakket maken met de plug-ins van de Admin Console en dit pakket implementeren voor gebruikers op een beheerde of zelfbeheerde manier.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -421,9 +421,9 @@ De webinar voor release 23.1 vond plaats op dinsdag 10 januari 2023. U kunt [ vo
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}"> Introducerend Adobe Workfront voor ontwerp en video </a></p>
-                        <p>We zijn erg blij om aan te kondigen dat onze Adobe Workfront for InDesign-insteekmodule is uitgebreid met Adobe Premiere Pro en After Effects. De naam van de plug-in wordt gewijzigd in Adobe Workfront voor ontwerp en video.</p>
-                        <p>De bijgewerkte plug-in Adobe Workfront for design en video biedt nu ondersteuning voor InDesign, Premiere Pro en After Effects, en binnenkort ook voor Illustrator.</p>
-                        <p>Met deze plug-in hebt u toegang tot de gegevens van het werkitem, kunt u samenwerken met collega's in het gedeelte Updates en kunt u zich altijd aanmelden zonder uw favoriete Creative Cloud-toepassing te verlaten. </p>
+                        <p>We zijn erg blij dat we de uitbreiding van onze Adobe Workfront for InDesign plug-in naar Adobe Premiere Pro en After Effects aankondigen. De naam van de plug-in wordt gewijzigd in Adobe Workfront voor ontwerp en video.</p>
+                        <p>De bijgewerkte plug-in Adobe Workfront for design and video biedt nu ondersteuning voor InDesign, Premiere Pro en After Effects—en binnenkort ook voor Illustrator.</p>
+                        <p>Met deze insteekmodule hebt u toegang tot de gegevens van het werkitem, kunt u samenwerken met collega's in het gedeelte Updates en kunt u zich altijd aanmelden zonder uw favoriete Creative Cloud-toepassing te verlaten. </p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -455,8 +455,8 @@ De webinar voor release 23.1 vond plaats op dinsdag 10 januari 2023. U kunt [ vo
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}"> hoe te om tot de hulp van Workfront, voor klanten op de Adobe Verenigde Ervaring toegang te hebben </a></p>
-                        <p>Als uw organisatie aan de Adobe Admin Console en de Adobe Verenigde Ervaring voor Workfront is geregistreerd, omvat de de navigatiebar van Workfront niet meer een verbinding voor "Hulp."</p>
-                        <p>U kunt Workfront Help op Adobe Experience League openen via het hoofdmenu links op de navigatiebalk van Workfront of via het vraagtekenpictogram in het bovenste navigatiegebied.</p>
+                        <p>Als uw organisatie is aangemeld bij de Adobe Admin Console en de Adobe Unified Experience voor Workfront, bevat de Workfront-navigatiebalk niet langer een koppeling naar "Help".</p>
+                        <p>U kunt de Help van Workfront openen op de Adobe Experience League via het hoofdmenu links op de Workfront-navigatiebalk of via het vraagteken in het bovenste navigatiegebied.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                      <p>
@@ -524,11 +524,11 @@ Voor informatie over API versies, zie [ API versioning en steunprogramma ](/help
 
 ### Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens de versie 22.3 worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).[
+Voor informatie over de onderhoudsupdates die tijdens de versie 22.3 worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront ](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).[
 
 ### Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Tutorials van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html) Nieuw is.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) Nieuw is.
 
 ### Functionaliteit die binnenkort uit Workfront wordt verwijderd
 
@@ -553,11 +553,11 @@ Sommige functies voor lijstbeheer gaan naar Instellingen > Interface > Filters/W
 
 #### **uitbreiding van Workfront voor Illustrator en InDesign**
 
-Wij vervangen de [ uitbreiding van Workfront voor Illustrator en InDesign ](/help/quicksilver/documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md) met bijgewerkte Creative Cloud plugins. Vanaf eind 2022 is deze extensie niet meer beschikbaar voor installatie in de Adobe Exchange.
+Wij vervangen de [ uitbreiding van Workfront voor Illustrator en InDesign ](/help/quicksilver/documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md) met bijgewerkte stop-ins van Creative Cloud. Vanaf eind 2022 is deze extensie niet meer beschikbaar voor installatie in de Adobe Exchange.
 
 De functionaliteit in deze extensie en diverse verbeteringen zijn beschikbaar in de bijgewerkte Adobe Workfront for Creative Cloud Plugins:
 * [Adobe Workfront voor Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
-* [Adobe Workfront for XD](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
+* [Adobe Workfront voor XD](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
 * [Adobe Workfront voor ontwerp en video](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
 
 #### **Planner van het Middel**

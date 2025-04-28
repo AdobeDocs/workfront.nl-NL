@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91e79c87-9c70-4050-9a3f-236eff0be41d
-source-git-commit: b9dd01ee0e8732bf7e2fec68a7682fc17271e19e
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1132'
 ht-degree: 0%
@@ -54,7 +54,7 @@ Release 2018.2 bevat verbeteringen voor zowel Workfront-beheerders als andere ge
 * [ Steun voor de Drijven van het Team van Google ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#support-for-google-team-drives) 
 * [ Nieuwe Grens van de Uitvoer voor de Grafiek van Gantt ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#new-export-limit-for-the-gantt-chart) 
 * [ de Verhoudingen van de Predecessor van de Mening Cross-Project op de Grafiek van Gantt in een Lijst van Projecten ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#view-cross-project-predecessor-relationshipts-in-the-gantt)
-* [ Begrotende Kosten van het Gebruik in Portfolio Optimizer om de Financiën van de Portfolio te berekenen ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#use-budgeted-cost-in-the-portfolio-optimizer)
+* [ Begrotende Kosten van het Gebruik in Portfolio Optimizer om de Financiën van Portfolio te berekenen ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#use-budgeted-cost-in-the-portfolio-optimizer)
 * [ wijzig de Datums van de Taak in de Grafiek van Gantt ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md#modify-task-dates-in-the-gantt-chart)
 * [ heb toegang tot de Grafiek van Gantt van het Project van het Lusje van Updates ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md#access-the-project-gantt-chart-from-the-updates-tab)
 * [ Nieuwe Ervaring van de Lijst van het Project ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md#new-project-list-expeirence)
@@ -99,7 +99,7 @@ Release 2018.2 bevat verbeteringen voor zowel Workfront-beheerders als andere ge
 
 * [ Workfront voor Salesforce ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#workfront-for-salesforce) Binnenkort verkrijgbaar!
 
-* [ Workfront voor de Verbeteringen van de Slack ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#workfront-for-slack-improvements) Nieuw! (in Beta Final)
+* [ Workfront voor de Verbeteringen van Slack ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#workfront-for-slack-improvements) Nieuw! (in Beta Final)
 
 ### API-verbeteringen
 
@@ -146,7 +146,7 @@ Release 2018.2 bevat verbeteringen voor zowel Workfront-beheerders als andere ge
 ## Aankondigingen {#announcements}
 
 * [ de steun van TLS beëindigt ](#tls-support-is-ending)
-* [ de Verwijdering van de Toepassing van de Flash ](#flash-application-removal)
+* [ de Toepassing van de Flits Verwijderen ](#flash-application-removal)
 * [ de toe:voegen-binnen Steun van de Vooruitzichten van Microsoft eindigt ](#microsoft-outlook-add-in-support-is-ending)
 * [Oude API-versies verwijderen](#removing-old-api-versions)
 
@@ -156,9 +156,9 @@ Om een optimale beveiliging te bieden, eist Workfront dat alle integratie en het
 
 Voor meer informatie, zie [ TLS 1.2 die in Adobe Workfront ](../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md) wordt vereist.
 
-### Verwijderen van Flash-toepassing {#flash-application-removal}
+### Flash-toepassing verwijderen {#flash-application-removal}
 
-Alle functionaliteit die afhankelijk is van de technologie van de Flash wordt verwijderd uit Workfront met de release van 2018.3 en vervangen door een nieuwe oplossing.
+Alle functionaliteit die afhankelijk is van Flash-technologie wordt uit Workfront verwijderd met de release van 2018.3 en vervangen door een nieuwe oplossing.
 
 Deze functionaliteit omvat:
 
@@ -166,9 +166,9 @@ Deze functionaliteit omvat:
 
   Voor meer informatie, zie [ informatie van de Mening in de Grafiek van Gantt ](../../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
 
-* Portfolio Optimizer wordt vervangen door de nieuwe Portfolio Optimizer
+* Portfolio Optimizer wordt vervangen door Portfolio Optimizer
 
-  Voor meer informatie, zie [ Portfolio Optimizer overzicht ](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+  Voor meer informatie, zie [ het Optimizer van Portfolio overzicht ](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 * Capaciteitsplanner wordt vervangen door de nieuwe bronnenplanner
 
@@ -215,7 +215,7 @@ Wanneer u de nieuwe Workfront for Outlook op een van uw omgevingen installeert, 
 
 Gebruik de volgende bronnen om meer te leren over Workfront for Outlook en aan de slag te gaan:
 
-* [ Website en video ](https://www.workfront.com/integrations/outlook) 
+* [ Website en video ](https://business.adobe.com/products/workfront/integrations.html) 
 * [ Gebruikend Workfront met Vooruitzichten ](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md) (hulpartikel)
 
 ### Oude API-versies verwijderen {#removing-old-api-versions}

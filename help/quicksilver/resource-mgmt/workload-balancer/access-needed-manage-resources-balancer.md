@@ -6,7 +6,7 @@ description: Als u niet beschikt over de juiste toegang of machtigingen, kunt u 
 author: Lisa
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 0%
@@ -50,7 +50,7 @@ In de volgende tabel ziet u de verbinding tussen het Workfront-plan dat uw bedri
  </tbody> 
 </table>
 
-Voor informatie over de plannen van Workfront, zie [ Onze Plannen ](https://www.workfront.com/plans).
+Voor informatie over de plannen van Workfront, zie [ Onze Plannen ](https://business.adobe.com/products/workfront/pricing.html).
 
 Voor informatie over waar u van de Balancer van de Werkbelasting in Workfront kunt de plaats bepalen, zie [ plaats van de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
@@ -104,7 +104,7 @@ U moet de volgende toegang hebben om de werklastverdeling te beheren:
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p> Contribute- of hogere machtigingen voor het project waarvan u de toewijzingen wilt beheren, waaronder machtigingen om toewijzingen te maken. </p> <p>Voor informatie over projecttoestemmingen, zie het artikel <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref"> een project in Adobe Workfront </a> delen.</p></td>
+   <td> <p> Draag of hogere toestemmingen op het project bij waarvan taken u wilt beheren die toestemmingen omvat om taken te maken. </p> <p>Voor informatie over projecttoestemmingen, zie het artikel <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref"> een project in Adobe Workfront </a> delen.</p></td>
   </tr> 
  </tbody> 
 </table>

@@ -8,7 +8,7 @@ description: De veiligheid van gegevens is zeer belangrijk voor  [!DNL Workfront
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bee0fece-e22b-4f92-9641-81a130f5c346
-source-git-commit: 405523606094d4f8553b0aee544d71c2b7f97d86
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Gegevensbeveiliging is van het grootste belang voor [!DNL Workfront Proof] . We 
 
 Als gevolg hiervan bieden we onze klanten onovertroffen beveiligings- en privacyniveaus.
 
-Gelieve te zien de [ overzichtspagina van de Veiligheid ](https://www.workfront.com/workfront-security) voor meer details.
+Gelieve te zien de [ overzichtspagina van de Veiligheid ](https://www.adobe.com/legal/terms/enterprise-licensing/workfront-legacy-terms.html) voor meer details.
 
 ## Elektronische handtekeningen vereisen
 

@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 88a97b1e-4052-485e-8566-963c6ba640b9
-source-git-commit: 99aac8d1621370f901704f58affd9e3e18497c4e
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2544'
 ht-degree: 0%
@@ -267,7 +267,7 @@ Voor informatie over de onderhoudsupdates die tijdens de versie 2020.1 worden ge
 
 Vanaf 20 mei 2020 begint Workfront wekelijks functionaliteit beschikbaar te stellen in de voorvertoningsomgeving. Vóór deze wijziging werd de functionaliteit doorgaans elke twee weken vrijgegeven voor de voorvertoningsomgeving.
 
-Voor meer informatie, zie [ Verandering in FAQ van de de voorproefversie van Workfront ](https://one.workfront.com/s/article/Change-in-Workfront-Preview-release-cadence)
+Voor meer informatie, zie [ Verandering in FAQ van de de voorproefversie van Workfront ](https://experienceleague.adobe.com/en/docs/workfront/using/home)
 
 ### Extra domeinen toevoegen aan de lijst van gewenste personen die vereist is voor toegang tot Workfront {#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront}
 
@@ -282,7 +282,7 @@ Voor meer informatie, zie [ de lijst van gewenste personen van uw firewall ](../
 
 Met Workfront One ontdekt u de belangrijkste inhoud, bronnen en nieuws uit Workfront — allemaal op één plaats, met één aanmelding. We hebben de sites Experience, Community en Training verenigd, waardoor het gemakkelijker wordt om te vinden wat u zoekt.
 
-[ leer meer over Workfront Één ](https://www.workfront.com/campaigns/workfront-one).
+[ leer meer over Workfront Één ](https://business.adobe.com/products/workfront.html).
 
 ### 2020.1 Release Webinar {#2020-1-release-webinar}
 

@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7cf7f6ed-fe85-4c86-bb4b-dd93197338cf
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3695'
 ht-degree: 0%
@@ -245,7 +245,7 @@ Deze pagina bevat informatie over de functionaliteit voor zowel Adobe Workfront 
    <td> <p><strong> de data en de milieu's van de Versie </strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-mobile-enhancements.md#added" class="MCXref xref" xrefformat="{para}"> Toegevoegde functionaliteit in Microsoft Teams meldingen </a> </p> <p>Om het voor u gemakkelijker te maken om Workfront door Microsoft Teams te gebruiken, hebben wij nieuwe functionaliteit aan Microsoft Teams berichten toegevoegd die van Workfront worden verzonden.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-mobile-enhancements.md#added" class="MCXref xref" xrefformat="{para}"> Toegevoegde functionaliteit in Microsoft Teams-meldingen </a> </p> <p>Om het voor u gemakkelijker te maken om Workfront door Microsoft Teams te gebruiken, hebben wij nieuwe functionaliteit aan Microsoft Teams berichten toegevoegd die van Workfront worden verzonden.</p> </td> 
    <td><strong> Beschikbaar op deze data:</strong> <p>Beta Preview-release: TBD</p> <p>Productieversie: met de release 20.4 <strong> (uitgesteld tot december 2020 of begin 2021) </strong></p> <p><strong> Beschikbaar in deze milieu's:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -310,7 +310,7 @@ This section will be updated with more information prior to the 20.4 release bei
 </MadCap:conditionalText>
 -->
 
-Voor informatie over wat nieuw en bijgewerkt is, zie [ wat in API versie 12 ](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FWF_API%2FAPI%2Fnew-api-version-12.htm) nieuw is.
+Voor informatie over wat nieuw en bijgewerkt is, zie [ wat in API versie 12 ](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12) nieuw is.
 
 Voor meer informatie over API versies, zie [ API versioning en steunprogramma ](../../../wf-api/api/api-version-support-schedule.md)
 
@@ -326,19 +326,19 @@ Voor informatie over de onderhoudsupdates die tijdens de versie 20.3 worden gema
 
 ## Aankondigingen
 
-* [ de afschrijving van de Flash ](#flash-deprecation)
+* [ Veroudering van de Flits ](#flash-deprecation)
 * [ webinar van de Versie 20.4 ](#20-4-release-webinar)
 * [ Verandering in de versiecadence van de Voorproef ](#change-in-preview-release-cadence)
 * [ Lijst van gewenste personen van extra domeinen die voor de toegang tot van Workfront ](#allowlist-of-additional-domains-required-for-accessing-workfront) worden vereist
 * [Workfront One](#workfront-one)
 
-### Afgekeurde Flash {#flash-deprecation}
+### Flash-veroudering {#flash-deprecation}
 
-Eind 2020 voltooien Adobe en alle grote browsers de afgekeurde technologie van de Flash van de Adobe, wat betekent dat deze hulpmiddelen zullen ophouden werkend.
+Eind 2020 voltooien Adobe en alle grote browsers de afgekeurde Adobe Flash-technologie, wat betekent dat deze gereedschappen niet meer werken.
 
-Workfront wil u helpen bij de overgang naar de nieuwere technologie door een reeks nieuwe oplossingen te bieden die niet afhankelijk zijn van Flash. Kom meer over vervangingsoplossingen voor elk specifiek op Flash-gebaseerd hulpmiddel in het volgende artikel te weten: [ Vervanging van op Flash-gebaseerde hulpmiddelen in Adobe Workfront ](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
+Workfront wil u helpen bij het overstappen naar de nieuwere technologie door een reeks nieuwe oplossingen te bieden die niet afhankelijk zijn van Flash. Kom meer over vervangingsoplossingen voor elk specifiek op flits-Gebaseerd hulpmiddel in het volgende artikel te weten: [ Vervanging van op flits-Gebaseerde hulpmiddelen in Adobe Workfront ](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
 
-Alle op Flash-gebaseerde hulpmiddelen zullen uit alle producten op 19 November 2020 worden verwijderd. Wij adviseren dat u begint de nieuwe hulpmiddelen te gebruiken en de hulpmiddelen van de Flash vóór dan, om de veiligheid van uw instantie te verhogen. Als u wilt dat wij de hulpmiddelen van de Flash vóór 19 November onbruikbaar maken, kunt u de Steun van de Klant contacteren.
+Alle op Flash gebaseerde gereedschappen worden op 19 november 2020 uit alle producten verwijderd. We raden u aan de nieuwe gereedschappen te gebruiken en de Flash-gereedschappen vóór die datum uit te schakelen om de beveiliging van uw instantie te verbeteren. Als u wilt dat wij de Flash-gereedschappen vóór 19 november uitschakelen, neemt u contact op met de Klantenondersteuning.
 
 ### 20.4 Release-webinar {#20-4-release-webinar}
 
@@ -348,7 +348,7 @@ De Workfront 20.4 Release Webinar wordt woensdag 28 oktober 2020 om 11.00 uur ED
 
 Vanaf 20 mei 2020 begon Workfront wekelijks functionaliteit beschikbaar te maken in de voorvertoningsomgeving. Vóór deze wijziging werd de functionaliteit doorgaans elke twee weken vrijgegeven voor de voorvertoningsomgeving.
 
-Voor meer informatie, zie [ Verandering in FAQ van de de voorproefversie van Workfront ](https://one.workfront.com/s/article/Change-in-Workfront-Preview-release-cadence)
+Voor meer informatie, zie [ Verandering in FAQ van de de voorproefversie van Workfront ](https://experienceleague.adobe.com/en/docs/workfront/using/home)
 
 ### Lijst van gewenste personen van aanvullende domeinen die vereist zijn voor toegang tot Workfront {#allowlist-of-additional-domains-required-for-accessing-workfront}
 
@@ -363,4 +363,4 @@ Voor meer informatie, zie [ de lijst van gewenste personen van uw firewall ](../
 
 Met Workfront One ontdekt u de belangrijkste inhoud, bronnen en nieuws uit Workfront — allemaal op één plaats, met één aanmelding. We hebben de sites Experience, Community en Training verenigd, waardoor het gemakkelijker wordt om te vinden wat u zoekt.
 
-[ leer meer over Workfront Één ](https://www.workfront.com/campaigns/workfront-one).
+[ leer meer over Workfront Één ](https://business.adobe.com/products/workfront.html).

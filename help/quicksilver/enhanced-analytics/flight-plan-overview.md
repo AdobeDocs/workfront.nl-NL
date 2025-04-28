@@ -7,7 +7,7 @@ description: Uit de visualisatie van het vliegplan blijkt hoeveel projecten (bin
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c64ed752-151a-40f7-ab18-684e2cd032bc
-source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '927'
 ht-degree: 0%
@@ -34,7 +34,7 @@ U moet het volgende hebben:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank"> plan van Adobe Workfront </a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank"> plan van Adobe Workfront </a>*</td> 
    <td> <p>Zakelijk of hoger</p> </td> 
   </tr> 
   <tr> 
@@ -149,6 +149,6 @@ Voor informatie over hoe te om de beste gegevens voor deze visualisatie te krijg
 
 1. Om meer projectinformatie te zien, klik een project op visualisatie om de Doordrukking en Taken in vluchtvisualisaties te openen.
 
-   Deze visualisaties kunnen u helpen dieper inzicht in krijgen wat het project ertoe heeft gebracht om weg te gaan. Bovendien is het zo eenvoudig om een lopend project in te checken.\
+   Deze visualisaties kunnen u helpen dieper insight te bereiken in wat het project ertoe heeft aangezet om van spoor te raken. Bovendien is het zo eenvoudig om een lopend project in te checken.\
    Voor meer informatie over de Visualisatie van de Doordrukking, zie [ Mening de Visualisatie van de Doordrukking in Verbeterde analyses ](../enhanced-analytics/burndown-overview.md). Voor meer informatie over de Taken in vluchtvisualisatie, zie [ Mening de Taken in vluchtvisualisatie in Verbeterde analyses ](../enhanced-analytics/tasks-in-flight-overview.md).
 

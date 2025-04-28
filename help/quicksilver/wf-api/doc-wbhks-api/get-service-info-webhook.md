@@ -8,7 +8,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a3a423ff-29a6-466e-a568-f64e02dcb484
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 0%
@@ -22,11 +22,11 @@ ht-degree: 0%
 >
 >De releasedatum voor deze functie moet nog worden bepaald.
 
-Retourneert informatie over de service, zoals functies en mogelijkheden. Adobe Workfront gebruikt deze informatie om de gebruikersinterface in Workfront aan te passen. Als de implementatie van de webhaak bijvoorbeeld aangepaste handelingen bevat, moet de JSON deze bewerkingen in de JSON opnemen. Gebruikers kunnen deze acties dan aanroepen vanuit Workfront.
+Keert informatie over de dienst, zoals eigenschappen en mogelijkheden terug. Adobe Workfront gebruikt deze informatie om de gebruikersinterface in Workfront aan te passen. Als de implementatie van de webhaak bijvoorbeeld aangepaste handelingen bevat, moet de JSON deze bewerkingen in de JSON opnemen. Gebruikers kunnen deze acties dan aanroepen vanuit Workfront.
 
 **URL**
 
-GET/serviceInfo
+GET /serviceInfo
 
 ## Zoekparameters
 
@@ -56,12 +56,12 @@ JSON met informatie over deze service
   <tr> 
    <td>versie </td> 
    <td>String </td> 
-   <td>Het interne versienummer voor deze service. Dit nummer wordt bepaald door de webhookprovider en wordt alleen ter informatie gebruikt.<br><br></td> 
+   <td>Het interne versienummer voor deze service. Dit nummer wordt bepaald door de webshservice provider en wordt alleen ter informatie gebruikt.<br><br></td> 
   </tr> 
   <tr> 
    <td>uitgever </td> 
-   <td>Tekenreeks </td> 
-   <td>De naam van het bedrijf dat de webhook-implementatie verzorgt.</td> 
+   <td>String </td> 
+   <td>De naam van het bedrijf dat de implementatie van de website verstrekt.</td> 
   </tr> 
   <tr> 
    <td>availableEndpoints</td> 
@@ -71,7 +71,7 @@ JSON met informatie over deze service
   <tr> 
    <td>customActions </td> 
    <td>String</td> 
-   <td>  <p>Een lijst met de aangepaste bewerkingen die door deze webhook zijn geïmplementeerd. Elk lijstitem bevat een naam en een weergavenaam. De weergavenaam wordt weergegeven in het vervolgkeuzemenu Documenthandelingen in Workfront. Wanneer u op het item in de vervolgkeuzelijst klikt, wordt de handeling in de webhook aangeroepen door het eindpunt /customAction aan te roepen.</p></td> 
+   <td>  <p>Een lijst met de aangepaste bewerkingen die door deze webhaak worden uitgevoerd. Elk lijstitem bevat een naam en een weergavenaam. De weergavenaam wordt weergegeven in het vervolgkeuzemenu "Documenthandelingen" in Workfront. Het klikken op het punt in dropdown zal de actie in webhaak aanhalen door het /customAction eindpunt te roepen.</p></td> 
   </tr> 
  </tbody> 
 </table>

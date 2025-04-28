@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4e954d79-da5a-42f5-b43f-b1fdd17316d2
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1653'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Als deel van het herontwerp van de Nieuwe en geef Taakdozen uit, hebben wij de c
 
 Voor meer informatie, zie [ terugkomende taken ](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md) creëren.
 
-Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Planner voor de nieuwe ervaring van Workfront, Deel 2: Plan een project ](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-MCDUWIMXC3JRAAFGHX7QYIN2BVDI) het leren weg op Workfront Één.
+Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Planner voor de nieuwe ervaring van Workfront, Deel 2: Plan een project ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) het leren weg op Workfront Één.
 
 ## Nieuwe knoppen beschikbaar in de koptekst Projecten
 
@@ -39,7 +39,7 @@ Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Planner voor de 
 
 Om u toe te staan om de lijst van projecten op de pagina van Projecten snel te filtreren, zijn er twee nieuwe knopen in de kopbal die u toestaan om de Projecten snel toe te passen ik ben of Projecten I Eigen filter.
 
-Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Planner voor de nieuwe ervaring van Workfront, Deel 1: Creeer een project ](https://one.workfront.com/s/learningpath5/planner-fundamentals-for-the-new-workfront-experience-MCTOONVRZDLRD3FAIX6SQYSUAHDE) het leren weg op Workfront Één.
+Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Planner voor de nieuwe ervaring van Workfront, Deel 1: Creeer een project ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) het leren weg op Workfront Één.
 
 ## Een artikel of probleem verplaatsen of verwijderen via het Klembord
 
@@ -133,9 +133,9 @@ Gebruikers kunnen nu in aangepaste velden tekstopmaak, zoals vette letters, lijs
 
 Eerder in Workfront Classic was tekstopmaak alleen zichtbaar in de lijsten Project, Taak en Uur.
 
-Voor informatie over het formatteren van tekst op een douanegebied, zie [ een douanevorm ](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FAdministration_and_Setup%2FCustomize_Workfront%2FCreate_manage_Custom_Forms%2Fcreate-a-custom-form.html) creëren.
+Voor informatie over het formatteren van tekst op een douanegebied, zie [ een douanevorm ](https://experienceleague.adobe.com/en/docs/workfront/using/home) creëren.
 
-Voor informatie over het tonen van informatie in lijsten, zie [ begonnen worden met lijsten ](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FWorkfront_basics%2FNavigate_Workfront%2FWorkfront_Navigation%2Fview-items-in-a-list.html&amp;_LANG=en).
+Voor informatie over het tonen van informatie in lijsten, zie [ begonnen worden met lijsten ](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
 ## Nieuw taakvenster Bewerken
 

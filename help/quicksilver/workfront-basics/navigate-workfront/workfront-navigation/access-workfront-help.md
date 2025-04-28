@@ -4,7 +4,7 @@ title: Adobe Workfront Help openen
 description: Workfront biedt een groot aantal verschillende content om u te helpen antwoorden te vinden op vragen over functionaliteit binnen de verschillende producten die Workfront aanbiedt.
 feature: Get Started with Workfront
 exl-id: 41b81083-771e-46de-85a3-31ed52d29917
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%
@@ -38,13 +38,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 &#42; om te weten te komen welk plan of vergunningstype u hebt, contacteer uw [!DNL Workfront] beheerder.
 
-## Toegang tot de documentatie van [!DNL Adobe Workfront] op Experience League
+## Toegang tot de [!DNL Adobe Workfront] -documentatie op Experience League
 
-1. Ga naar de [[!DNL Adobe Workfront]  documentatiepagina op  [!DNL Experience League] ](https://experienceleague.adobe.com/docs/workfront/using/home.html?lang=en).
+1. Ga naar de [[!DNL Adobe Workfront]  documentatiepagina op  [!DNL Experience League] ](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
-Naast het zoeken naar Help-documentatie hebt u ook toegang tot de volgende [!DNL Workfront] -bronnen vanuit het Experience League:
+Naast het zoeken naar Help-documentatie hebt u ook toegang tot de volgende [!DNL Workfront] -bronnen vanuit Experience League:
 
-* Workfront Tutorials: Voor meer informatie, zie [[!DNL Workfront]  Tutorials ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=en).
+* De Zelfstudies van Workfront: Voor meer informatie, zie [[!DNL Workfront]  Zelfstudies ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 
 * [!UICONTROL Innovation Lab]: Voor meer informatie, zie [ [!UICONTROL Innovation Lab] ](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas).
 * [!UICONTROL [!DNL Workfront] Community]: Voor meer informatie, zie [ de [!UICONTROL [!DNL Adobe Workfront] Gemeenschap] ](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)

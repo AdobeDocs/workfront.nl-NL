@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bfc7ce9e-b715-47b7-bab7-2e3540d0da3e
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3221'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 22.3 Overzicht van de release
 
-Deze pagina bevat informatie over de functionaliteit die is opgenomen in de release 22.3. Alle vermelde functies zijn beschikbaar in de nieuwe Adobe Workfront-ervaring. Sommige eigenschappen zijn ook beschikbaar in de Klassiek van Adobe Workfront; nochtans, [ zal de Klassiek van Workfront in Maart 2022 ](https://one.workfront.com/s/new-workfront-experience) worden stopgezet, die kort door de eind-van-levensdatum voor Workfront Classic in Juli 2022 wordt gevolgd.
+Deze pagina bevat informatie over de functionaliteit die is opgenomen in de release 22.3. Alle vermelde functies zijn beschikbaar in de nieuwe Adobe Workfront-ervaring. Sommige eigenschappen zijn ook beschikbaar in de Klassiek van Adobe Workfront; nochtans, [ zal de Klassiek van Workfront in Maart 2022 ](https://experienceleague.adobe.com/en/docs/workfront/using/home) worden stopgezet, die kort door de eind-van-levensdatum voor Workfront Classic in Juli 2022 wordt gevolgd.
 
 Deze verbeteringen zijn in de week van 11 juli 2022 beschikbaar gesteld in de productieomgeving.
 
@@ -85,7 +85,7 @@ Deze verbeteringen zijn in de week van 11 juli 2022 beschikbaar gesteld in de pr
   </tr>
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Een PDF-bestand toevoegen aan een aangepast formulier
-</a></p></p> <p>We blijven u helpen aangepaste formulieren visueel en informatief te maken met nieuwe middelenwidgets die u kunt toevoegen, zoals afbeeldingen en video's. Nu kunt u een koppeling naar een PDF-bestand toevoegen aan een aangepast formulier. Wanneer het formulier aan een object is gekoppeld, kunnen gebruikers die met het object werken de PDF vanuit het formulier bekijken en ermee werken.</p>
+</a></p></p> <p>We blijven u helpen aangepaste formulieren visueel en informatief te maken met nieuwe middelenwidgets die u kunt toevoegen, zoals afbeeldingen en video's. Nu kunt u een koppeling naar een PDF-bestand toevoegen aan een aangepast formulier. Wanneer het formulier aan een object is gekoppeld, kunnen gebruikers die met het object werken vanuit het formulier de PDF bekijken en ermee werken.</p>
    </td> 
     <td> <p><b> Beschikbaar op deze data:</b> </p> 
     <ul> 
@@ -240,7 +240,7 @@ Deze verbeteringen zijn in de week van 11 juli 2022 beschikbaar gesteld in de pr
     </ul> <p><strong> Beschikbaar in deze milieu's:</strong> </p> 
     <ul> 
      <li> <p>De nieuwe Adobe Workfront-ervaring </p> </li> 
-     <li> <p>Adobe Workfront Klassiek (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank"> Workfront Klassiek werd stopgezet in Maart 2022 </a>, die kort door de eind-van-levensdatum voor Workfront Klassiek in Juli 2022 wordt gevolgd.)</p> </li> 
+     <li> <p>Adobe Workfront Klassiek (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank"> Workfront Klassiek werd stopgezet in Maart 2022 </a>, die kort door de eind-van-levensdatum voor Workfront Klassiek in Juli 2022 wordt gevolgd.)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -278,7 +278,7 @@ Deze verbeteringen zijn in de week van 11 juli 2022 beschikbaar gesteld in de pr
     </ul> <p><strong> Beschikbaar in deze milieu's:</strong> </p> 
     <ul> 
      <li> <p>De nieuwe Adobe Workfront-ervaring </p> </li> 
-     <li> <p>Adobe Workfront Klassiek (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank"> Workfront Klassiek werd stopgezet in Maart 2022 </a>, die kort door de eind-van-levensdatum voor Workfront Klassiek in Juli 2022 wordt gevolgd.)</p> </li> 
+     <li> <p>Adobe Workfront Klassiek (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank"> Workfront Klassiek werd stopgezet in Maart 2022 </a>, die kort door de eind-van-levensdatum voor Workfront Klassiek in Juli 2022 wordt gevolgd.)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -290,7 +290,7 @@ Deze verbeteringen zijn in de week van 11 juli 2022 beschikbaar gesteld in de pr
     </ul> <p><strong> Beschikbaar in deze milieu's:</strong> </p> 
     <ul> 
      <li> <p>De nieuwe Adobe Workfront-ervaring </p> </li> 
-     <li> <p>De Klassieke van Adobe Workfront (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank"> Workfront Klassiek zal in Maart 2022 </a> worden onderbroken, die kort door de eind-van-levensdatum voor Workfront Klassiek in Juli 2022 wordt gevolgd.)</p> </li> 
+     <li> <p>De Klassieke van Adobe Workfront (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank"> Workfront Klassiek zal in Maart 2022 </a> worden onderbroken, die kort door de eind-van-levensdatum voor Workfront Klassiek in Juli 2022 wordt gevolgd.)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr>
@@ -377,7 +377,7 @@ Campagnes zijn in juli 2022 vrijgegeven voor Preview beta met de release 22.3. V
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}"> Adobe Workfront voor de integratie van Experience Manager Assets </a> </p> <p>We zijn blij te kunnen aankondigen dat de Adobe Workfront Experience Manager Assets-integratie nu beschikbaar is voor Cloud Service.</p>
-   <p>Wij hebben ook nieuwe functionaliteit voor zowel Cloud Service als Assets Essentials geïntroduceerd.</p> </td> 
+   <p>We hebben ook nieuwe functionaliteit geïntroduceerd voor zowel Cloud Service als Assets Essentials.</p> </td> 
    <td> <p><b> Beschikbaar op deze data:</b> </p> 
     <ul> 
      <li> <p>Voorvertoning release: n.v.t.<br></p> </li> 
@@ -388,7 +388,7 @@ Campagnes zijn in juli 2022 vrijgegeven voor Preview beta met de release 22.3. V
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}"> combineer veelvoudige dossiers in één enkel bewijs in de stop van het Creative Cloud </a> </p> <p>U kunt nu externe bestanden uploaden met de inhoud die u hebt gemaakt in de insteekmodule Adobe Workfront for Creative Cloud om proefdrukken met meerdere bestanden te maken in Workfront. Externe bestanden worden weergegeven als extra proefdrukpagina's in Workfront. Met deze verbetering hebben we ook de vormgeving van de proefdrukervaring bijgewerkt.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}"> combineer veelvoudige dossiers in één enkel bewijs in de stop van Creative Cloud </a> </p> <p>U kunt nu externe bestanden uploaden met de inhoud die u hebt gemaakt in de insteekmodule Adobe Workfront for Creative Cloud om in Workfront proefdrukken voor meerdere bestanden te maken. Externe bestanden worden weergegeven als extra proefdrukpagina's in Workfront. Met deze verbetering hebben we ook de vormgeving van de proefdrukervaring bijgewerkt.</p> </td> 
    <td> <p><b> Beschikbaar op deze data:</b> </p> 
     <ul> 
      <li> <p>Voorvertoning release: n.v.t.<br></p> </li> 
@@ -534,7 +534,7 @@ Voor informatie over API versies, zie [ API versioning en steunprogramma ](../..
 
 ## Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens de versie 22.3 worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).[
+Voor informatie over de onderhoudsupdates die tijdens de versie 22.3 worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront ](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).[
 
 ## 22.3 Release-webinar
 
@@ -565,7 +565,7 @@ was presented on January 12, 2022. You can view the webinar recording on the
 
 ## Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie de [ versie van de Opleiding pagina ](https://one.workfront.com/s/training-release-updates) bijwerkt.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie de [ versie van de Opleiding pagina ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) bijwerkt.
 
 ## Functionaliteit wordt niet meer ondersteund
 

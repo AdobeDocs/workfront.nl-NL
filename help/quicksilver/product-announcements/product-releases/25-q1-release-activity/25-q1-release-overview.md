@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 46faf723ea7a8e9dfa02c0f2bed1f5f450976fc8
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2775'
 ht-degree: 0%
@@ -155,7 +155,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Filteren op eigen tekstkopvelden is nu beschikbaar</a></p>
             [!BADGE in productie ]{type=Informative}
-            <p>Wanneer u een native veldverwijzing toevoegt aan een aangepast formulier en het verwijst naar een typeahead-veld (zoals Portfolio, Bedrijf of Eigenaar), is er nu een filteroptie beschikbaar. Met dit filter kunt u de objecten beperken die gebruikers kunnen kiezen wanneer ze het veld gebruiken. Dit aangepaste filter werkt hetzelfde als een filter in een aangepast tekstveld en gebruikt Tekstmodus om het filter te definiëren.</p>
+            <p>Wanneer u een native veldverwijzing toevoegt aan een aangepast formulier en het verwijst naar een typeahead-veld (zoals Portfolio, Company of Owner), is er nu een filteroptie beschikbaar. Met dit filter kunt u de objecten beperken die gebruikers kunnen kiezen wanneer ze het veld gebruiken. Dit aangepaste filter werkt hetzelfde als een filter in een aangepast tekstveld en gebruikt Tekstmodus om het filter te definiëren.</p>
         </td>
         <td>
             <p><b>Beschikbaar op deze data:</b></p>
@@ -640,7 +640,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
             [!BADGE in productie ]{type=Informative}
             <p>We hebben de manier gewijzigd waarop verplaatste en verwijderde middelen worden verwerkt bij het gebruik van de Adobe Workfront-integratie met Experience Manager Assets en Assets Essentials:</p>
             <ul>
-                <li>Verwijderde elementen: wanneer een element wordt verwijderd uit een gekoppelde map in Assets of Assets Essentials, blijft het verwijderde element behouden in het gebied Projectdocumenten.</li>
+                <li>Verwijderde elementen: wanneer een element wordt verwijderd uit een gekoppelde map in Assets of Elementen, blijft het verwijderde element behouden in het gebied Projectdocumenten.</li>
                 <li>Verplaatste activa: Wanneer een activa buiten een verbonden omslag in de essentiële elementen van Assets of van Assets worden bewogen, zal het bewogen middel in het gebied van de Documenten van Projecten worden behouden.</li>
             </ul>
         </td>
@@ -747,8 +747,8 @@ Voor informatie over API versies, zie [ API versioning en steunprogramma ](/help
 
 ### Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens Eerste Kwartaal 2025 versie worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).[
+Voor informatie over de onderhoudsupdates die tijdens Eerste Kwartaal 2025 versie worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront ](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).[
 
 ### Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Tutorials van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html) Nieuw is.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) Nieuw is.

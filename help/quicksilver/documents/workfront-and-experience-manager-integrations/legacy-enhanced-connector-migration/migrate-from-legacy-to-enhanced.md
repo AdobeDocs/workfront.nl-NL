@@ -6,7 +6,7 @@ description: In het volgende proces worden de beste praktijken beschreven voor h
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4a8d1e2b-9744-4f72-a337-5057448db4fb
-source-git-commit: 3a1bc4a56cba2fe224a1f0a21c8882c2d9d030de
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 0%
@@ -30,9 +30,9 @@ Voor klanten op Adobe Experience Manager Assets as a Cloud Service zal het migra
 >
 >Een verklaarde partner of de Diensten van Adobe Consulting worden vereist voor implementatie van de verbeterde schakelaar.
 >
-> Voor partners die op de verbeterde schakelaar willen verklaren gelieve het volgende artikel te herzien: [ Workfront voor Experience Manager verbeterde schakelaarDeskundige Reeks ](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview.html?lang=en).
+> Voor partners die op de verbeterde schakelaar willen verklaren gelieve het volgende artikel te herzien: [ Workfront voor Experience Manager verbeterde schakelaarDeskundige Reeks ](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview).
 
-Om de verbeterde schakelaar uit te voeren, zie [ Workfront voor Experience Manager verbeterde schakelaar ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/integrations/workfront-connector-configure.html?lang=en) vormen.
+Om de verbeterde schakelaar uit te voeren, zie [ Workfront voor Experience Manager verbeterde schakelaar ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/integrations/workfront-connector-configure) vormen.
 
 
 ## Bestaande elementen verplaatsen

@@ -8,7 +8,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 2c5727ee-bf8f-4664-a9b1-c5da356d94f5
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 0%
@@ -24,7 +24,7 @@ De document-id en de document-versie-id zijn toegevoegd aan versie 1.1 van deze 
 
 **Voorbeeld:** als het systeem van het documentbeheer extra informatie over het document wil, kon de code van de webshimplementatie documentidentiteitskaart gebruiken om die informatie terug te winnen gebruikend Workfront RESTful API. Als goede praktijk, kon deze informatie uit de gebieden van douanegegevens op het document komen en het bevat taak, kwestie, of project.
 
-## Methode POST
+## POST-methode
 
 **URL**
 
@@ -71,7 +71,7 @@ De meta-gegevens voor het dossier, zoals die door het /metadata eindpunt wordt b
 https://www.acme.com/api/uploadInit?parentId=12345&filename=new-file.png&documentId=511ea6e000023edb38d2effb2f4e6e3b&documentVersionId=511ea6e000023edb38d2e ffb2f4e6e3b
 ```
 
-## Methode PUT
+## PUT-methode
 
 Hiermee uploadt u de bytes van een document naar de websiteprovider.
 

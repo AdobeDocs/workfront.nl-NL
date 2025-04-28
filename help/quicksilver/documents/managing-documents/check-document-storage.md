@@ -6,7 +6,7 @@ description: Hoewel er geen beperkingen zijn op de typen en formaten van afzonde
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f5d1963e-b205-44b9-b2b6-b7de465c6977
-source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 0%
@@ -28,7 +28,7 @@ U moet het volgende hebben:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank"> plan van Workfront </a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank"> plan van Workfront </a>*</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
@@ -53,4 +53,4 @@ Het opslagquotum wordt dagelijks vernieuwd om het meest actuele aantal weer te g
 
 >[!NOTE]
 >
->Deze limiet is niet van toepassing op documenten die u via een andere externe serviceprovider (SharePoint, Google Drive, Webdam, Box, Dropbox, een andere leverancier van documentmiddelen) naar Workfront koppelt.
+>Deze limiet geldt niet voor documenten die u via een andere externe serviceprovider (SharePoint, Google Drive, Webdam, Box, Dropbox, een andere leverancier van Document Asset Management) naar Workfront koppelt.

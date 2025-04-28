@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1b621b35-6c8b-4f6a-bcba-ed6cbfe83a8c
-source-git-commit: 77c07c7c7104d37360cc7630a89dd72836da477c
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Abonnementsberichten voor gebeurtenissen zijn meldingen die kunnen worden ingest
 
 De eindpunten van de dienst die de berichten van het de gebeurtenisabonnement van Adobe Workfront gebruiken moeten aan de volgende basisvereisten voldoen, om ervoor te zorgen dat de berichten correct worden verzonden en ontvangen:
 
-* Het de diensteindpunt moet de verzoeken van de POST van HTTP goedkeuren. De POST van HTTP is de verzoekmethode die in alle leveringen van de berichten van het gebeurtenisabonnement, met inbegrip van bevestigingsberichten wordt gebruikt.
+* Het de diensteindpunt moet de verzoeken van HTTP POST goedkeuren. HTTP POST is de verzoekmethode die in alle leveringen van de berichten van het gebeurtenisabonnement, met inbegrip van bevestigingsberichten wordt gebruikt.
 
 * Opdat het systeem van de levering van het gebeurtenisabonnement bevestigt het bericht met succes werd ontvangen, moet het eindpunt een 200 niveauHTTP- status (bijvoorbeeld, 200 O.K. of 202) voor alle inkomende berichten terugkeren.
 

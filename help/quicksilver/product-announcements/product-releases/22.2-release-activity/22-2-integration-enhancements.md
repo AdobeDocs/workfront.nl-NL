@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 5e841349-7d76-4ab9-9625-a0c53111bf35
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Voor een lijst van alle veranderingen beschikbaar met de versie 22.2, zie [ 22.2
 
 ## Adobe Workfront met Anaplan-integratie is nu beschikbaar
 
-Om u meer flexibiliteit en inzicht te geven in de financiële aspecten van uw Workfront-projecten, kan Workfront nu integreren met uw Anaplan-account. Door Workfront-objecten aan Anaplan-objecten te koppelen, kunt u automatisch informatie tussen de twee accounts bijwerken, zodat de informatie in beide accounts up-to-date en identiek is. U kunt geautomatiseerde processen in Anaplan ook activeren op basis van acties in Workfront (of vice versa).
+Om u meer flexibiliteit en insight te geven in de financiële aspecten van uw Workfront-projecten, kan Workfront nu integreren met uw Anaplan-account. Door Workfront-objecten aan Anaplan-objecten te koppelen, kunt u automatisch informatie tussen de twee accounts bijwerken, zodat de informatie in beide accounts up-to-date en identiek is. U kunt geautomatiseerde processen in Anaplan ook activeren op basis van acties in Workfront (of vice versa).
 
 U kunt bijvoorbeeld een campagne maken in Anaplan en vervolgens een Workfront-project of -programma maken dat is gekoppeld aan de campagne. Eventuele kosten die in Workfront worden bijgehouden, kunnen vervolgens naar Anaplan worden geüpload om de prestaties van de campagne te beoordelen.
 
@@ -51,11 +51,11 @@ Workfront for Experience Manager Enhanced Connector bevat nu de volgende updates
 * Extra ondersteuning voor proxyomgevingen
 * Verscheidene insectenmoeilijke situaties die op partner en klant worden gebaseerd terugkoppelen
 
-Voor meer informatie, zie [ Workfront voor Experience Manager verbeterde schakelaaroverzicht ](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-aem-enhanced-connector-overview.md).
+Voor meer informatie, zie [ Workfront voor Experience Manager verbeterd schakelaaroverzicht ](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-aem-enhanced-connector-overview.md).
 
 >[!NOTE]
 >
->Voor de implementatie en configuratie van deze connector is een gecertificeerde partner vereist. Zie [ Workfront voor Experience Manager verbeterde schakelaar ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install.html?lang=en#) voor meer informatie installeren.
+>Voor de implementatie en configuratie van deze connector is een gecertificeerde partner vereist. Zie [ installeer Workfront voor Experience Manager verbeterde schakelaar ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install) voor meer informatie.
 
 ## Adobe Creative Cloud-integratie gebruikt nu OAuth2
 

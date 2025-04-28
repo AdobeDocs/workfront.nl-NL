@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9d25fda7-8116-42ba-961b-12aed4678614
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3829'
 ht-degree: 0%
@@ -118,7 +118,7 @@ De versie 2020.3 bevat de volgende verbeteringen voor alle gebruikers:
 >
 >Uw organisatie moet het volgende hebben om de functionaliteit te gebruiken die in dit artikel wordt beschreven:
 >
->* Een Pro of hoger [ plan van Adobe Workfront ](https://www.workfront.com/plans).
+>* Een Pro of hoger [ plan van Adobe Workfront ](https://business.adobe.com/products/workfront/pricing.html).
 >* Een Adobe Workfront Goals-licentie in aanvulling op een Workfront-licentie.
 >
 >  Neem contact op met uw Workfront-accountmanager voor meer informatie over een Workfront Goals-licentie.
@@ -154,7 +154,7 @@ De versie 2020.3 bevat de volgende verbeteringen voor alle gebruikers:
 &gt; <col> 
 &gt; <tbody> 
 &gt;  <tr> 
-&gt;   <td role="rowheader"> <p><a href="https://www.workfront.com/plans" target="_blank"> plan van Workfront </a>*</p> </td> 
+&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank"> plan van Workfront </a>*</p> </td> 
 &gt;   <td>Zakelijk of hoger</td> 
 &gt;  </tr> 
 &gt;  <tr> 
@@ -391,7 +391,7 @@ De versie 2020.3 bevat de volgende verbeteringen voor alle gebruikers:
    <td> <p><strong> Beschikbaar op deze data:</strong> </p> <p>Beta Preview-release: 9 juli 2020</p> <p>Productieversie: vanaf de 20.3-release in een gefaseerde uitrol die op 1 september 2020 beschikbaar is voor alle klanten.</p> <p><strong> Beschikbaar in deze milieu's:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#domainke" class="MCXref xref"> DomainKeys Identified Mail (DKIM) nu inbegrepen op uitgaande e-mails van Workfront </a> </p> <p>Een e-mailverificatietechniek (DKIM) wordt opgenomen in alle uitgaande e-mails. Deze DKIM-handtekening is niet zichtbaar voor de eindgebruiker, maar staat validatie op serverniveau toe en versterkt ons bestaande verificatieframework.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#domainke" class="MCXref xref"> DomainKeys Identified Mail (DKIM) nu inbegrepen op uitgaande e-mails van Workfront </a> </p> <p>Een techniek voor e-mailverificatie (DKIM) wordt opgenomen in alle uitgaande e-mails. Deze DKIM-handtekening is niet zichtbaar voor de eindgebruiker, maar staat validatie op serverniveau toe en versterkt ons bestaande verificatieframework.</p> </td> 
    <td><strong> Beschikbaar op deze data:</strong> <p>Beta Preview-release: 29 juli 2020</p> <p>Productieversie: vanaf de 20.3-release in een gefaseerde uitrol die op 1 september 2020 beschikbaar is voor alle klanten.</p> <p><strong> Beschikbaar in deze milieu's:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -435,7 +435,7 @@ Voor informatie over de onderhoudsupdates die tijdens de versie 20.3 worden gema
 
 Vanaf 20 mei 2020 begon Workfront wekelijks functionaliteit beschikbaar te maken in de voorvertoningsomgeving. Vóór deze wijziging werd de functionaliteit doorgaans elke twee weken vrijgegeven voor de voorvertoningsomgeving.
 
-Voor meer informatie, zie [ Verandering in FAQ van de de voorproefversie van Workfront ](https://one.workfront.com/s/article/Change-in-Workfront-Preview-release-cadence)
+Voor meer informatie, zie [ Verandering in FAQ van de de voorproefversie van Workfront ](https://experienceleague.adobe.com/en/docs/workfront/using/home)
 
 ### Lijst van gewenste personen van aanvullende domeinen die vereist zijn voor toegang tot Workfront {#allowlist-of-additional-domains-required-for-accessing-workfront}
 
@@ -450,11 +450,11 @@ Voor meer informatie, zie [ de lijst van gewenste personen van uw firewall ](../
 
 Met Workfront One ontdekt u de belangrijkste inhoud, bronnen en nieuws uit Workfront — allemaal op één plaats, met één aanmelding. We hebben de sites Experience, Community en Training verenigd, waardoor het gemakkelijker wordt om te vinden wat u zoekt.
 
-[ leer meer over Workfront Één ](https://www.workfront.com/campaigns/workfront-one).
+[ leer meer over Workfront Één ](https://business.adobe.com/products/workfront.html).
 
 ### 20.3 Release Webinar {#20-3-release-webinar}
 
-Bekijk hier de 20.3 Webinar van de Versie van het Product [ ](https://one.workfront.com/s/managed-content-event/20-3-product-release-webinar-20Y0z000000bmRJEAY).
+Bekijk hier de 20.3 Webinar van de Versie van het Product [ ](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

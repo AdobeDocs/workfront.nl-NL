@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 7ae5a04a-a9bc-4a85-8651-2b912f7fd7e4
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1525'
 ht-degree: 0%
@@ -36,7 +36,7 @@ In het gebied Auditlogboeken, kunt u veranderingen in meer gebieden door Workfro
 
 Voor meer informatie, zie [ Logboeken van de Controle ](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
-Deze eigenschap is nu inbegrepen in de [ Grondbeginselen Admin voor de nieuwe ervaring van Workfront, Deel 2: De Opstelling van het project ](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-1-project-workfl-MCTBVZ3Q3J5RHNLIPPZPFSQRLKUY) het leren weg op Workfront Één.
+Deze eigenschap is nu inbegrepen in de [ Grondbeginselen Admin voor de nieuwe ervaring van Workfront, Deel 2: De Opstelling van het project ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) het leren weg op Workfront Één.
 
 ## Voor groepsbeheerders: verbeterde besturingselementen voor het verplaatsen van subgroepen en een bijgewerkte werkbalk
 
@@ -137,7 +137,7 @@ Eerder, konden deze gebreken niet worden aangepast, zodat werden zij altijd gepl
 
 Voor meer informatie, zie [ Filters, Mening, en Groepen aanpassen gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Beheerder in de nieuwe Ervaring van Workfront, Deel 3: De Ervaring van de Controle en van de Interface ](https://one.workfront.com/s/learningpath3/administrator-fundamentals-control-and-interface-experience-MCNCSSMXLPDFEERGVEM4EWL2I4LI) het leren weg op Workfront Één.
+Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Beheerder in de nieuwe Ervaring van Workfront, Deel 3: De Ervaring van de Controle en van de Interface ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) het leren weg op Workfront Één.
 
 ## Nieuw voor beheerders: maak een lijst met de rapporten die momenteel een aangepast veld gebruiken
 

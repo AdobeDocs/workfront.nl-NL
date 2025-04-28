@@ -6,7 +6,7 @@ description: Nadat u  [!DNL Adobe Workfront]  voor Slack hebt geïnstalleerd en 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4bf62192-66fe-42a7-b8c0-23b7bdef45e8
-source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 0%
@@ -28,7 +28,7 @@ U moet het volgende hebben:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL [!DNL Adobe Workfront] plan] </a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront] plan] </a>*</td> 
    <td> <p>[!UICONTROL Pro] of hoger</p> </td> 
   </tr> 
  </tbody> 
@@ -61,7 +61,7 @@ Voordat u toegang kunt krijgen tot uw favorieten en recente items vanuit [!DNL S
 
 ## Toegang tot uw lijst met recente items vanuit [!DNL Slack]
 
-1. Meld u aan bij de [!DNL Slack] -instantie en meld u aan bij [!DNL Workfront] vanaf de Slack.\
+1. Meld u aan bij uw [!DNL Slack] -instantie en meld u aan bij [!DNL Workfront] vanuit Slack.\
    Voor meer informatie over het programma openen aan [!DNL Workfront] van [!DNL Slack], zie het &quot;Aanmelden aan [!DNL Workfront] van [!DNL Slack]&quot;sectie in [ Toegang  [!DNL Adobe Workfront]  van  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
 1. Typ vanuit elk kanaal de volgende opdracht in het veld [!UICONTROL message] : `/workfront recent`

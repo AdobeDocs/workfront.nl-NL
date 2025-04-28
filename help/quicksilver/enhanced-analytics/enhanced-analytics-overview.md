@@ -3,11 +3,11 @@ title: Overzicht van uitgebreide analyses
 content-type: overview
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
-description: Verbeterde analyses zijn een krachtig hulpmiddel in Adobe Workfront met vooraf gebouwde visualisaties waarmee u projectgegevens kunt bekijken en trends kunt identificeren met planning en voltooiing. Dit inzicht in uw projecten helpt u uw huidige werk te beheren en laat u toe om nauwkeuriger voor toekomstig werk te plannen.
+description: Verbeterde analyses zijn een krachtig hulpmiddel in Adobe Workfront met vooraf gebouwde visualisaties waarmee u projectgegevens kunt bekijken en trends kunt identificeren met planning en voltooiing. Met deze insight in uw projecten kunt u uw huidige werk beheren en kunt u nauwkeuriger plannen voor toekomstige werkzaamheden.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a14ad57c-859b-43df-84c0-575ccda86e50
-source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1246'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 >Enhanced Analytics wordt de week van 26 mei uit Workfront verwijderd. Workfront Data Connect is een nieuwe, alternatieve oplossing die kan worden gebruikt om alle Enhanced Analytics-visualisaties die u momenteel gebruikt, te repliceren. <br> zie de [ Verbeterde 2} gids van de Afleiding van Analytics {voor meer informatie.](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)
 
 
-Verbeterde analyses zijn een krachtig hulpmiddel in Adobe Workfront met vooraf gebouwde visualisaties waarmee u projectgegevens kunt bekijken en trends kunt identificeren met planning en voltooiing. Dit inzicht in uw projecten helpt u uw huidige werk te beheren en laat u toe om nauwkeuriger voor toekomstig werk te plannen.
+Verbeterde analyses zijn een krachtig hulpmiddel in Adobe Workfront met vooraf gebouwde visualisaties waarmee u projectgegevens kunt bekijken en trends kunt identificeren met planning en voltooiing. Met deze insight in uw projecten kunt u uw huidige werk beheren en kunt u nauwkeuriger plannen voor toekomstige werkzaamheden.
 
 Uitgebreide analyses kunnen u helpen identificeren:
 
@@ -34,7 +34,7 @@ Uitgebreide analyses kunnen u helpen identificeren:
 
 ![ Analytics ](assets/nwe-full-screen-analytics-350x222.png)
 
-Om gebruiksgevallen te zien of meer te leren over het beheren van huidig werk en het plannen voor toekomstig werk met Verbeterde analyses, zie [ Verbeterde analytische het Leren Wegen ](https://one.workfront.com/s/enhanced-analytics-program).
+Om gebruiksgevallen te zien of meer te leren over het beheren van huidig werk en het plannen voor toekomstig werk met Verbeterde analyses, zie [ Verbeterde analytische het Leren Wegen ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 
 ## Vereisten
 
@@ -42,11 +42,11 @@ Voor toegang tot het gebied Verbeterde analysemogelijkheden moet u:
 
 * Een bedrijfs- of ondernemingsplan hebben.
 
-  Voor meer informatie, zie [ plannen van Workfront ](https://www.workfront.com/plans).
+  Voor meer informatie, zie [ plannen van Workfront ](https://business.adobe.com/products/workfront/pricing.html).
 
 * Uw Workfront-beheerder uitgebreide analyses laten toevoegen aan uw lay-outsjabloon.
 
-  Voor meer informatie, zie [ Verbeterde Analytics: Het toevoegen van analyses aan lay-outmalplaatjes ](https://one.workfront.com/s/managed-content-videos/enhanced-analytics-adding-analytics-to-layout-templates-MCH7URDSIXRREHHHF7TRTYYP2LTE).
+  Voor meer informatie, zie [ Verbeterde Analytics: Het toevoegen van analyses aan lay-outmalplaatjes ](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
 Om informatie voor projecten en taken te zien, moet u:
 
@@ -139,7 +139,7 @@ Als u schermleessoftware of een plug-in gebruikt, leest de schermlezer de inform
 
 ## Verbeterde analyseweergaven en -functies
 
-Raadpleeg de volgende artikelen voor meer informatie over de details van een specifieke functie in de uitgebreide analyse, de handelingen die u kunt uitvoeren om meer inzicht te krijgen en wat u van deze gegevens kunt leren:
+Raadpleeg de volgende artikelen voor meer informatie over de details van een specifieke functie in de uitgebreide analyse, de acties die u kunt uitvoeren om meer insight te verkrijgen en wat u van deze gegevens kunt leren:
 
 <table style="table-layout:auto"> 
  <col> 

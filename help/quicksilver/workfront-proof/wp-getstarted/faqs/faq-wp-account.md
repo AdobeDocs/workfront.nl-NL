@@ -8,7 +8,7 @@ description: Als u een nieuwe account wilt openen, gaat u naar de aanmeldingspag
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 47092717-3895-40a3-9db1-0009638e2544
-source-git-commit: d5ffd576fcedf9b10dce5e5d5bd9245dd7f67ef8
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## Hoe kan ik een nieuwe [!DNL Workfront Proof] account openen?
 
-Om een nieuwe rekening te openen, ga naar de [ proefaanmeldingspagina ](https://www.proofhq.com/html/free-trial.html) en open een proefrekening. Een lid van ons team zal dan contact met u opnemen om u te helpen aan de slag te gaan met [!DNL Workfront Proof] .
+Om een nieuwe rekening te openen, ga naar de [ proefaanmeldingspagina ](https://business.adobe.com/products/workfront/proofing-approvals.html) en open een proefrekening. Een lid van ons team zal dan contact met u opnemen om u te helpen aan de slag te gaan met [!DNL Workfront Proof] .
 
 Als u het systeem al kent en u wilt aanmelden bij een betaald abonnement, gaat u naar *[!UICONTROL Settings]* *>* *[!UICONTROL Billing]* en voert u een upgrade van uw account uit naar een van onze betaalde abonnementen.
 

@@ -6,7 +6,7 @@ description: Sluit uw werk aan op uw inhoud in Experience Manager Assets Essenti
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 0%
@@ -53,7 +53,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   <tr>
    <td>Product
    </td>
-   <td>U moet beschikken over Experience Manager Assets Essentials en u moet als gebruiker aan het product in de Admin Console worden toegevoegd.
+   <td>U moet beschikken over Experience Manager Assets Essentials en u moet als gebruiker aan het product worden toegevoegd in de Admin Console.
    </td>
   </tr>
   <tr>
@@ -72,8 +72,8 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 {{step-1-to-setup}}
 
-1. Selecteer **Documenten** ![ documentenpictogram ](assets/document-icon.png) in het linkerpaneel, dan de uitgezochte **Integratie van de Experience Manager**.
-1. Selecteer **toevoegen de Integratie van de Experience Manager**.
+1. Selecteer **Documenten** ![ documentenpictogram ](assets/document-icon.png) in het linkerpaneel, dan de uitgezochte **Integratie van Experience Manager**.
+1. Selecteer **toevoegen de Integratie van Experience Manager**.
 1. Geef het volgende op:
 
    <table>
@@ -86,7 +86,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    <tr>
       <td><strong> Navigatie URL </strong>
       </td>
-      <td>De navigatie-URL wordt automatisch door het systeem gevuld. Deze URL wordt gebruikt om aan de instantie van de Assets Essentials van uw organisatie van het Belangrijkste Menu voor snelle toegang te verbinden.
+      <td>De navigatie-URL wordt automatisch door het systeem gevuld. Deze URL wordt gebruikt om een koppeling tot stand te brengen naar de Hoofdinstantie van de Elementen van uw organisatie via het Hoofdmenu voor snelle toegang.
       </td>
    </tr>
    <tr>
@@ -94,7 +94,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
       <strong> de bewaarplaats van Experience Manager Assets </strong>
       </td>
       <td>
-      Het systeem vult automatisch de opslagplaats voor Experience Managers in die aan uw organisatie-id is gekoppeld.
+      Het systeem vult automatisch de Experience Manager-opslagplaats in die is gekoppeld aan uw organisatie-id.
       </td>
    </tr>
    </table>
@@ -111,12 +111,12 @@ Wijs Workfront-objectgegevens toe aan middelenmediavelden in Experience Manager 
 
 Voordat u begint, moet u
 
-* Vorm een meta-gegevensschema in de Hoofdzaak van Experience Manager Assets zoals die in [ wordt verklaard vormt activa meta-gegevensafbeelding tussen Adobe Workfront en Experience Manager Assets ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+* Vorm een meta-gegevensschema in de Hoofdzaak van Experience Manager Assets zoals die in [ wordt verklaard vormt activa meta-gegevensafbeelding tussen Adobe Workfront en Experience Manager Assets ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 * (Optioneel) Configureer aangepaste formuliervelden in Workfront. Workfront heeft veel ingebouwde aangepaste velden die u kunt gebruiken. U kunt echter ook uw eigen aangepaste velden maken. Voor meer informatie, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 ## Ondersteunde velden voor Workfront en Experience Manager Assets
 
-### AEM trefwoord
+### AEM-trefwoord
 
 U kunt elk door Workfront ondersteund veld toewijzen aan een trefwoord in Experience Manager Assets Essentials.
 

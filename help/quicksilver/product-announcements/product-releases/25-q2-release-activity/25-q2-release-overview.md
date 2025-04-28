@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: a980fe7f2c632f9badcbbaf3abf2e6c2824e448f
+source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
 workflow-type: tm+mt
 source-wordcount: '1653'
 ht-degree: 0%
@@ -352,8 +352,8 @@ Voor informatie over welke API versies momenteel worden gesteund, zie [ API vers
 
 ### Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens de Tweede Kwartaal 2025 versie worden gemaakt, zie [ Updates van het Onderhoud van Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Voor informatie over de onderhoudsupdates die tijdens de Tweede Kwartaal 2025 versie worden gemaakt, zie [ Updates van het Onderhoud van Workfront ](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html) Nieuw is.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) Nieuw is.

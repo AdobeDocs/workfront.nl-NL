@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2770'
 ht-degree: 0%
@@ -21,11 +21,11 @@ Voor uiteinden bij het voorbereiden voor de aanstaande versie, zie [ voorbereidi
 
 ## Wbinar vrijgeven
 
-In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe Summit om de volgende Workfront-sessies te bekijken:
+In plaats van een releasewebinar nodigen we u uit om u aan te melden bij Adobe Summit om de volgende Workfront-sessies te bekijken:
 
 [ Impactful Ervaringen: Van Inhoud creatie aan Personalization ](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982243928001D5Z9) op 21 Maart, 2023, om nieuwe manieren te leren om, inhoud tot stand te brengen te beheren en te personaliseren en impactful ervaringen met grotere efficiency te leveren. Deze sessie wordt live gestreamd voor een virtueel publiek.
 
-[ De Toekomst van Adobe Workfront ](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982239896001DoHU) op 23 Maart, 2023, om de visie voor Workfront en zijn plaats binnen het ecosysteem van de Adobe te zien en een blik op de toekomstige roadmap te krijgen. Deze sessie wordt opgenomen en later beschikbaar als on-demand-inhoud.
+[ De Toekomst van Adobe Workfront ](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982239896001DoHU) op 23 Maart, 2023, om de visie voor Workfront en zijn plaats binnen het ecosysteem van Adobe te zien en een blik op de toekomstige roadmap te krijgen. Deze sessie wordt opgenomen en later beschikbaar als on-demand-inhoud.
 
 <span class="preview"> off-cycle eigenschappen (die die aan Productie voorafgaand aan de 23.2 versiedatum vrijgeven) worden benadrukt in geel.</span>
 
@@ -516,7 +516,7 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}"> Nieuw aan Workfront voor Creative Cloud stoppen </a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}"> Nieuw aan Workfront voor de stoppen van Creative Cloud </a>
                         <p>De volgende wijzigingen zijn toegevoegd aan de Workfront for Creative Cloud-plug-ins:
                         <ul>
                         <li>De insteekmodule waarschuwt u nu wanneer een taak een voorganger heeft</li>
@@ -553,8 +553,8 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}"> Netto nieuwe klanten om aan Adobe Verenigde Ervaring worden betreden </a></p>
-                        <p>De Adobe Verenigde Ervaring omvat:
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}"> Netto nieuwe klanten die aan Adobe Verenigde Ervaring moeten worden betreden </a></p>
+                        <p>De Adobe Unified Experience omvat:
                         <ul>
                         <li>Eén aanmelding voor alle Adobe-toepassingen via Adobe Experience Cloud</li>
                         <li>Een "bedrijfsswitch" om te schakelen tussen Workfront-organisaties en -omgevingen</li>
@@ -592,8 +592,8 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}"> de uitvoer artboards als enige PDF of veelvoudige PDF dossiers in Adobe Workfront voor XD </span></a>
-                        <p>In de Adobe Workfront for XD-plug-in kunt u uw tekengebieden nu exporteren als één PDF-bestand of als meerdere PDF-bestanden.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}"> de uitvoer artboards als enige PDF of veelvoudige dossiers van PDF in Adobe Workfront voor XD </span></a>
+                        <p>In de insteekmodule Adobe Workfront for XD kunt u uw tekengebieden nu exporteren als één PDF-bestand of als meerdere PDF-bestanden.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -653,11 +653,11 @@ Voor informatie over API versies, zie [ API versioning en steunprogramma ](/help
 
 ### Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens de versie 23.2 worden gemaakt, zie [ Updates van het Onderhoud van Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Voor informatie over de onderhoudsupdates die tijdens de versie 23.2 worden gemaakt, zie [ Updates van het Onderhoud van Workfront ](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Tutorials van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html) Nieuw is.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) Nieuw is.
 
 ### Functionaliteit die binnenkort uit Workfront wordt verwijderd
 

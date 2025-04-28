@@ -7,7 +7,7 @@ description: De het treemapvisualisatie van het Project is een mening van uren-o
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6216465e-c3bb-4f2f-b71c-766ad0c2ed40
-source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 0%
@@ -38,7 +38,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront-plan</a></td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Adobe Workfront-plan</a></td> 
    <td> <p>Zakelijk of hoger</p> </td> 
   </tr> 
   <tr> 
@@ -156,7 +156,7 @@ Leren hoe te om de beste gegevens voor deze visualisatie te krijgen, zie [ Verbe
    * **Grafiek (PNG)**
    * **Lijst van Gegevens (XSLX)**
 
-1. Klik een project om de Indruk en Taken in vluchtvisualisaties te openen om een dieper inzicht van te krijgen hoe de taken en uren-of dagen-bijgedragen aan de grootte van een project.
+1. Klik een project om de Indruk en Taken in vluchtvisualisaties te openen om dieper insight van te bereiken hoe de taken en uur-of dagen-bijgedragen tot de grootte van een project.
 
 Voor meer informatie over de Visualisatie van de Doordrukking, zie [ Mening de Visualisatie van de Doordrukking in Verbeterde analyses ](../enhanced-analytics/burndown-overview.md). Voor meer informatie over de Taken in vluchtvisualisatie, zie [ Mening de Taken in vluchtvisualisatie in Verbeterde analyses ](../enhanced-analytics/tasks-in-flight-overview.md).
 

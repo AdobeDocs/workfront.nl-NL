@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 441d84d6-6c40-4a03-967e-836cf78c8fc1
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2799'
 ht-degree: 0%
@@ -421,8 +421,8 @@ De release van 23.3 webinar was op 29 juni 2023. U kunt [ voor webinar registrer
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}"> Mening en beheer de berichten van Workfront van Workfront voor de stoppen van het Creative Cloud </a></p> 
-                        <p>Om het voor u gemakkelijker te maken om de berichten te ontvangen u wenst, hebben wij het mogelijk gemaakt om Workfront berichten te bekijken en te beheren zonder de Adobe Creative Cloud te verlaten. U kunt nu meldingen en de bijbehorende werkitems en opmerkingen rechtstreeks bekijken in het Workfront-insteekvenster van de toepassing Creative Cloud.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}"> Mening en beheer de berichten van Workfront van Workfront voor de stoppen van Creative Cloud </a></p> 
+                        <p>Om het voor u gemakkelijker te maken om de berichten te ontvangen u wenst, hebben wij het mogelijk gemaakt om Workfront berichten te bekijken en te beheren zonder de Adobe Creative Cloud te verlaten. U kunt nu meldingen en de bijbehorende werkitems en opmerkingen rechtstreeks bekijken in het Workfront-insteekvenster in de Creative Cloud-toepassing.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -502,7 +502,7 @@ De release van 23.3 webinar was op 29 juni 2023. U kunt [ voor webinar registrer
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}"> Pas geautomatiseerde montages van het de werkschemamalplaatje van het proefdrukwerkschema gebruikend Adobe Workfront voor Creative Cloud </a> aan</p>
-                        <p>U kunt de bestaande sjablooninstellingen voor geautomatiseerde workflows nu rechtstreeks in het Creative Cloud aanpassen.</p>
+                        <p>U kunt de bestaande sjablooninstellingen voor geautomatiseerde workflows nu rechtstreeks in de Creative Cloud aanpassen.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -768,11 +768,11 @@ Voor informatie over API versies, zie [ API versioning en steunprogramma ](/help
 
 ### Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens de versie 22.3 worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).[
+Voor informatie over de onderhoudsupdates die tijdens de versie 22.3 worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront ](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).[
 
 ### Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Tutorials van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html) Nieuw is.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) Nieuw is.
 
 ### Functionaliteit die binnenkort uit Workfront wordt verwijderd
 

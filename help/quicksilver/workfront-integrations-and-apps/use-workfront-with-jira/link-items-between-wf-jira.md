@@ -6,7 +6,7 @@ description: U kunt  [!DNL Jira]  kwesties aan  [!DNL Adobe Workfront]  taken of
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1199'
 ht-degree: 0%
@@ -28,11 +28,11 @@ U moet het volgende hebben:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL [!DNL Adobe Workfront] plan] </a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront] plan] </a>*</td> 
    <td> <p>[!UICONTROL Pro] of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref"> Adobe [!DNL Workfront] overzicht van vergunningen </a>*</td> 
+   <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref"> Adobe [!DNL Workfront] vergunningsoverzicht </a>*</td> 
    <td> <p>Plan</p> </td> 
   </tr> 
   <tr> 
@@ -146,7 +146,7 @@ Voor meer informatie over het bijwerken van verbonden punten, zie [ Gekoppelde p
    >
    >Als uw organisatie aan de Adobe Verenigde Ervaring is bezet, moet u het **Aantal van de Verwijzing** gebruiken voor het verbinden van de punten van Workfront met Jira. (De optie URL is beschikbaar, maar er wordt een fout geretourneerd als u deze optie gebruikt.) Voor informatie over de Verenigde Ervaring, zie [ Adobe Verenigde Ervaring voor Workfront ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
    >
-   >Voor organisaties niet op de Adobe Verenigde Ervaring, wordt het geadviseerd om de optie te gebruiken URL omdat URLs kan veranderen.
+   >Voor organisaties die zich niet op de Adobe Unified Experience bevinden, wordt het niet aanbevolen de URL-optie te gebruiken omdat URL&#39;s kunnen wijzigen.
 
    >[!NOTE]
    >

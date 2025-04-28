@@ -7,7 +7,7 @@ description: Een Uitgezochte of Premium  [!DNL Workfront]  Plan wordt vereist om
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 87c8aff7-b638-4d14-9c5a-7e316f1ec608
-source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
+source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
 workflow-type: tm+mt
 source-wordcount: '1003'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
 
-U hebt een abonnement op Selecteren of Premium [!DNL Workfront] nodig om deze functie te kunnen gebruiken. Voor meer informatie over de diverse beschikbare plannen, zie [ Abonnementen van Workfront ](https://www.workfront.com/plans).
+U hebt een abonnement op Selecteren of Premium [!DNL Workfront] nodig om deze functie te kunnen gebruiken. Voor meer informatie over de diverse beschikbare plannen, zie [ Abonnementen van Workfront ](https://business.adobe.com/products/workfront/pricing.html).
 
 Met aangepaste velden kunt u aanvullende gegevens vastleggen wanneer u een nieuwe proefdruk, een nieuwe gebruiker of een nieuwe gast maakt. Gebruikers die bijvoorbeeld een nieuwe proefdruk maken, willen mogelijk een extra sectie toevoegen waarmee ze een taaknummer, afdelingscode of leverancierverwijzing kunnen vastleggen.
 

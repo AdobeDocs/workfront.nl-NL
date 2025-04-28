@@ -7,7 +7,7 @@ description: Boven aan het scherm in het gedeelte Enhanced Analytics worden vier
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 44e43618-9a0b-4585-8659-c1fe055516be
-source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 
 Een bedrijfsplan of hoger is vereist om deze functie te kunnen gebruiken.\
-Voor meer informatie over de diverse beschikbare plannen, zie [ Abonnementen van Adobe Workfront ](https://www.workfront.com/plans).
+Voor meer informatie over de diverse beschikbare plannen, zie [ Abonnementen van Adobe Workfront ](https://business.adobe.com/products/workfront/pricing.html).
 
 Boven aan het scherm in het gedeelte Enhanced Analytics worden vier KPI&#39;s (Key Performance Indicators) weergegeven. Deze metriek staat u toe om snel te begrijpen hoe lang projecten nemen, hoe groot de projecten zijn, en hoeveel projecten binnen een specifiek tijdkader worden voltooid. Deze aantallen zijn niet beperkt tot het 50 projectmaximum dat voor de visualisaties op deze pagina toont. In plaats daarvan, is dit gegeven gebaseerd op alle projecten die op om het even welke vastgestelde filters van toepassing zijn, en deze aantallen passen als u de geselecteerde datumwaaier of om het even welke filters verandert.
 

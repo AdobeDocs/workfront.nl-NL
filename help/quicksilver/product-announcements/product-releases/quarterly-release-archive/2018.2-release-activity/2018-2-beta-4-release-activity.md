@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4b54b9e6-d1bf-4802-9d6c-9c3d3b6a6583
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1705'
 ht-degree: 0%
@@ -145,7 +145,7 @@ Het exporteren van de gegevens vanuit de functie Bronnen is tijdelijk uitgeschak
 
 Voor meer informatie over het uitvoeren van de gegevens van de Planner van het Middel naar Excel, zie de &quot;sectie van de Optie van de Uitvoer&quot;in [ het navigatieoverzicht van de Planner van het Middel ](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
-Om aan ons huidige bètaprogramma voor de Planner van het Middel deel te nemen, zie {de Prestaties Beta van de Planner van 0} Middel.](http://community.workfront.com/discussions/community-home/digestviewer/viewthread?GroupId=457&amp;MessageKey=8b018ed9-97a2-4f9d-a93b-01a7b09b6350&amp;CommunityKey=0425cafc-f0ec-47fc-be20-a21dc073d520&amp;tab=digestviewer&amp;ReturnUrl=%2fdiscussions%2fcommunity-home%2fdigestviewer%3fCommunityKey%3d0425cafc-f0ec-47fc-be20-a21dc073d520)[
+Om aan ons huidige bètaprogramma voor de Planner van het Middel deel te nemen, zie {de Prestaties Beta van de Planner van 0} Middel.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)[
 
 ## Systeeminstelling: sessiegegevens op externe pagina&#39;s {#system-setting-session-information-in-external-pages}
 

@@ -6,7 +6,7 @@ description: U kunt uw werk met uw inhoud in  [!DNL Experience Manager Assets] v
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 25d250e7be17773117761aa739b8e4804c6fc55a
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1658'
 ht-degree: 0%
@@ -121,7 +121,7 @@ Voordat u metagegevensvelden gaat toewijzen, moet u metagegevensvelden zowel in 
 
 U kunt als volgt metagegevensvelden configureren:
 
-1. Vorm een meta-gegevensschema in [!DNL Experience Manager Assets] zoals die in [ wordt verklaard vormt activa meta-gegevensafbeelding tussen Adobe  [!DNL Workfront]  en  [!DNL Experience Manager Assets] ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+1. Vorm een meta-gegevensschema in [!DNL Experience Manager Assets] zoals die in [ wordt verklaard vormt activa meta-gegevensafbeelding tussen Adobe  [!DNL Workfront]  en  [!DNL Experience Manager Assets] ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. Aangepaste formuliervelden configureren in Workfront. [!DNL Workfront] bevat veel ingebouwde aangepaste velden die u kunt gebruiken. Nochtans, kunt u uw eigen douanegebieden ook tot stand brengen zoals die in [ worden verklaard creeer een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
@@ -151,7 +151,7 @@ U kunt elk door Workfront ondersteund veld toewijzen aan een tag in Experience M
 
 Nadat u de tags in Experience Manager Assets hebt gemaakt, worden deze weergegeven onder de vervolgkeuzelijst Codes in de sectie Metagegevens. Als u een veld aan een tag wilt koppelen, selecteert u `xcm:keywords` in het vervolgkeuzemenu Experience Manager Assets-veld in het gebied voor metagegevenstoewijzing.
 
-Voor meer informatie over markeringen in Experience Manager Assets, met inbegrip van hoe te om markeringen tot stand te brengen en te beheren, zie [ het Beheer Markeringen ](https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html).
+Voor meer informatie over markeringen in Experience Manager Assets, met inbegrip van hoe te om markeringen tot stand te brengen en te beheren, zie [ het Beheer Markeringen ](https://experienceleague.adobe.com/en/docs/experience-manager-64/administering/contentmanagement/tags).
 
 **de gebieden van het de douaneschema-meta-gegevens van Experience Manager Assets**
 
@@ -251,7 +251,7 @@ Workflows worden ingeschakeld en geconfigureerd voor de Adobe Experience Manager
 De volgende workflows zijn beschikbaar in de Adobe Experience Manager-integratie:
 
 * [Gekoppelde Adobe Experience Manager-mappen maken](#create-adobe-experience-manager-linked-folders)
-* [Publish-elementen die naar Adobe Experience Manager Assets worden verzonden](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)
+* [Elementen publiceren die naar Adobe Experience Manager Assets worden verzonden](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)
 
 ### Gekoppelde Adobe Experience Manager-mappen maken
 
@@ -282,7 +282,7 @@ U kunt maximaal 100 gekoppelde mappen per mappenstructuur maken.
    1. (Facultatief) om een omslag te schrappen, de omslag te selecteren en de **omslag van de Schrapping** pictogram ![ omslag van de Schrapping ](assets/delete-folder.png) te klikken.
 1. (Voorwaardelijk) om een andere omslagboom toe te voegen, **+ voeg omslagboom** toe en volg de stappen in Stap 5.
 
-1. Klik **[!UICONTROL Save]**, of beweging op de [ activa van Publish die naar de sectie van Adobe Experience Manager Assets ](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) in dit artikel worden verzonden.
+1. Klik **[!UICONTROL Save]**, of beweging op [ publiceer activa die naar de sectie van Adobe Experience Manager Assets ](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) in dit artikel worden verzonden.
 
 >[!NOTE]
 >
@@ -291,7 +291,7 @@ U kunt maximaal 100 gekoppelde mappen per mappenstructuur maken.
 >* Als er geen mapstructuur is opgegeven, wordt de hoofdmap de gekoppelde map.
 
 
-### Publish-elementen die naar Adobe Experience Manager Assets worden verzonden
+### Elementen publiceren die naar Adobe Experience Manager Assets worden verzonden
 
 1. Schakel **[!UICONTROL Publish assets automatically]** in.
 1. Schakel het vakje naast de locatie in waar u de elementen wilt publiceren die naar Adobe Experience Manager-elementen zijn verzonden. U kunt een van beide of beide opties inschakelen.

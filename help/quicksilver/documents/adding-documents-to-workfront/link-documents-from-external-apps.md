@@ -6,7 +6,7 @@ description: U kunt documenten en mappen vanuit externe bronnen koppelen aan Ado
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2620'
 ht-degree: 0%
@@ -39,7 +39,7 @@ U kunt documenten en mappen vanuit de volgende bronnen koppelen aan Adobe Workfr
   </tr> 
   <tr> 
    <td role="rowheader">Workfront Proof </td> 
-   <td>U kunt proefdrukken die oorspronkelijk in Workfront Proof zijn gemaakt, beschikbaar maken in Workfront. Voor de huidige licenties is een Pro Workfront Plan of hoger vereist om deze functie te kunnen gebruiken. Voor de nieuwe vergunningen, omvatten alle plannen deze eigenschap. Voor meer informatie over de diverse beschikbare plannen, zie <a href="https://www.workfront.com/plans"> Abonnementen van Workfront </a>.</td> 
+   <td>U kunt proefdrukken die oorspronkelijk in Workfront Proof zijn gemaakt, beschikbaar maken in Workfront. Voor de huidige licenties is een Pro Workfront Plan of hoger vereist om deze functie te kunnen gebruiken. Voor de nieuwe vergunningen, omvatten alle plannen deze eigenschap. Voor meer informatie over de diverse beschikbare plannen, zie <a href="https://business.adobe.com/products/workfront/pricing.html"> Abonnementen van Workfront </a>.</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td role="rowheader">Experience Manager Assets Essentials </td> 
@@ -51,7 +51,7 @@ U kunt documenten en mappen vanuit de volgende bronnen koppelen aan Adobe Workfr
   </tr> 
   <tr> 
    <td role="rowheader">Andere documentproviders (via aangepaste documentintegratie)</td> 
-   <td> <p class="workfront_plans">Voor de huidige licenties is een Pro Workfront Plan of hoger vereist om deze functie te kunnen gebruiken. Voor de nieuwe vergunningen, omvatten alle plannen deze eigenschap. Voor meer informatie over de diverse beschikbare plannen, zie <a href="https://www.workfront.com/plans"> Abonnementen van Workfront </a>.</p> </td>
+   <td> <p class="workfront_plans">Voor de huidige licenties is een Pro Workfront Plan of hoger vereist om deze functie te kunnen gebruiken. Voor de nieuwe vergunningen, omvatten alle plannen deze eigenschap. Voor meer informatie over de diverse beschikbare plannen, zie <a href="https://business.adobe.com/products/workfront/pricing.html"> Abonnementen van Workfront </a>.</p> </td>
   </tr> 
  </tbody> 
 </table>

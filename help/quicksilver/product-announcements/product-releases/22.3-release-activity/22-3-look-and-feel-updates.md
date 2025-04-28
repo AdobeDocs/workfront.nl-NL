@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7f85bc50-52c7-4fe8-9f0f-489eaf19b441
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Voor een lijst van alle veranderingen beschikbaar met de versie 22.3, zie [ over
 >
 >Preview-release: 21 april 2022; Production-release: 5 mei 2022
 
-Om Adobe producten beter op elkaar af te stemmen en de consistentie in de Workfront-toepassing te verbeteren, brengen we kleine wijzigingen in cosmetische stijlen door de Workfront-gebruikersinterface.
+Om Adobe-producten beter op elkaar af te stemmen en de consistentie in de Workfront-toepassing te verbeteren, brengen we kleine wijzigingen in cosmetische stijlen door de Workfront-gebruikersinterface.
 
 Knoppen, kleuren en lettertypen worden nu bijgewerkt in de hele Workfront-toepassing.
 
@@ -43,6 +43,6 @@ De werkbalken in de volgende lijsten en rapporten hebben nu een modern uiterlijk
 
 >[!NOTE]
 >
->Deze wijziging is op 23 mei 2022 in Production bijgewerkt. Zie de [ Update van het Onderhoud op 26 mei, 2022 voor meer informatie ](https://one.workfront.com/s/article/Maintenance-Update-on-May-26-2022).
+>Deze wijziging is op 23 mei 2022 in Production bijgewerkt. Zie de [ Update van het Onderhoud op 26 mei, 2022 voor meer informatie ](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
 We hebben de scheidingstekens voor broodkruimels bijgewerkt op alle gebieden waar er broodkruimels beschikbaar zijn. De objecten in de broodkruimels worden nu gescheiden door pijpen (|). Vóór deze update werden ze gescheiden door slashes (/).

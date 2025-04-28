@@ -6,7 +6,7 @@ description: Enkele eigenschappen zijn verschillend tussen  [!DNL Workfront]  en
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: 68a5bfe5d85ac530ac14faf2a6a5cccf602e6c8c
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1368'
 ht-degree: 0%
@@ -40,11 +40,11 @@ In deze tabel worden enkele functies beschreven die verschillen tussen de twee e
 
 ## Veelgestelde vragen
 
-### Hoe kan ik bepalen of ik Adobe Verenigde Ervaring of Adobe Workfront gebruik?
+### Hoe kan ik bepalen of ik Adobe Unified Experience of Adobe Workfront gebruik?
 
 Om te bepalen of uw organisatie op de Adobe Verenigde Ervaring is, onderzoek URL die u gebruikt om tot Workfront toegang te hebben.
 
-| URL | Ervaring met Adobe |
+| URL | Adobe-ervaring |
 |------------|------------|
 | (Bedrijfsnaam).my.workfront.com | Workfront-ervaring |
 | experience.adobe.com | Adobe Unified Experience |
@@ -61,15 +61,15 @@ Lees de volgende artikelen voor meer informatie over [!DNL Admin Console] :
 
 Er wordt contact opgenomen met bestaande klanten om migraties te plannen. De collega&#39;s die ondersteuning bieden voor het migratieteam zullen klanten door het proces laten lopen, advies geven over [!DNL Admin Console] -installatie en koppelingen verschaffen naar documentatie die nodig is om de stap zo eenvoudig en probleemloos mogelijk te maken.
 
-* [[!DNL Adobe Workfront]  Overzicht van de Steun ](https://experienceleague.adobe.com/docs/customer-one/using/workfront/overview.html)
-* [[!DNL Workfront Admin Console]  informatie ](https://experienceleague.adobe.com/docs/customer-one/using/workfront/landing.html)
-* [[!DNL Adobe Business Platform]  en  [!DNL Admin Console]  Veelgestelde vragen ](https://experienceleague.adobe.com/docs/customer-one/using/workfront/faq.html)
+* [[!DNL Adobe Workfront]  Overzicht van de Steun ](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/overview)
+* [[!DNL Workfront Admin Console]  informatie ](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/landing)
+* [[!DNL Adobe Business Platform]  en  [!DNL Admin Console]  Veelgestelde vragen ](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/faq)
 
 ### Hoe gaat u met [!DNL Adobe Admin Console] voor bedrijven die dit al hebben ingeschakeld voor gefedereerde id&#39;s anders dan met [!DNL Workfront] SSO is ingesteld?
 
 [!DNL Adobe Admin Console] heeft de optie om [!DNL Workfront] op te nemen, waarbij SSO wordt vervangen door IMS. Alle gebruikersprovisioning vindt plaats in [!DNL Admin Console] en gebruikers zien het [!DNL Adobe] aanmeldingsscherm om [!DNL Experience Cloud] te bereiken waar ze [!DNL Workfront] als optie zien (als ze toegang krijgen tot dit scherm).
 
-### Hoe beïnvloedt dit klanten die reeds het AEM beheerpaneel voor [!DNL Adobe Assets] hebben - maar SSO wordt gevormd verschillend dan [!DNL Workfront?]
+### Hoe beïnvloedt dit klanten die reeds het AEM admin paneel voor [!DNL Adobe Assets] hebben - maar SSO wordt gevormd verschillend dan [!DNL Workfront?]
 
 Als [!DNL Workfront] eenmaal is toegevoegd als een [!DNL Admin Console] -toepassing, hoeft u niets anders te doen om [!DNL Workfront] de bestaande SSO-instelling die u voor [!DNL Adobe Assets] hebt, te kunnen gebruiken.
 
@@ -97,7 +97,7 @@ U kunt altijd aangepaste URL&#39;s gebruiken. Nadat u op een van deze koppelinge
 
 Alle directe koppelingen moeten worden omgeleid naar de nieuwe URL-patronen. Als u echter koppelingen naar personen hebt gedistribueerd, moet u een update verzenden om de directe koppeling te benutten en vertragingen bij het bereiken van de verwachte pagina te voorkomen.
 
-### Zullen we migreren naar [!DNL Experience Cloud] wereldwijd of kunnen we voor bepaalde gebruikers kiezen (niet alle gebruikers gebruiken zelfs andere Adobe producten)?
+### Zullen we migreren naar [!DNL Experience Cloud] wereldwijd of kunnen we voor bepaalde gebruikers kiezen (niet alle gebruikers gebruiken zelfs andere Adobe-producten)?
 
 De gehele [!DNL Workfront] klantenaccount wordt gemigreerd. Dit kan niet per gebruiker gebeuren.
 

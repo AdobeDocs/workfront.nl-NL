@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements, Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 1f82c397-5cb6-4adc-bb84-f5b1e1ed9d5e
-source-git-commit: ea1248f7b5227bbab222b3616ff4222122964358
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Eerder moest u naar de documentdetails en de proefwerkstroom gaan om het algemen
 
 Voor meer informatie over proefdrukbesluiten, zie [ het gebied van Documenten ](../../../documents/managing-documents/documents-area.md).
 
-Deze eigenschap is nu inbegrepen in [ leidt proeven en versies in de nieuwe ervaring van Workfront ](https://one.workfront.com/s/learningpath3/manage-proofs-and-versions-in-the-new-workfront-experience-MCPBYNLTQSS5H4NG7C27IPCVR5YA) het leren weg op Workfront Één.
+Deze eigenschap is nu inbegrepen in [ leidt proeven en versies in de nieuwe ervaring van Workfront ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) het leren weg op Workfront Één.
 
 ## Nieuwe velden in het rapport Goedkeuring proef
 
@@ -45,7 +45,7 @@ Voor informatie over bruikbare proefdrukken hebben we de volgende velden toegevo
 
 Deze gebieden maken geen deel uit van het standaardrapport. U moet ze toevoegen als u ze wilt zien.
 
-Deze eigenschap is nu inbegrepen in de [ systeemmontages van het Bewijs, Deel 2: Het beheer van het werkschema ](https://one.workfront.com/s/learningpath3/proof-system-setups-part-2-workflow-management-MCKUF6NTIJ6BGMXHBCXXX6NN53EA) het leren weg op Workfront Één.
+Deze eigenschap is nu inbegrepen in de [ systeemmontages van het Bewijs, Deel 2: Het beheer van het werkschema ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) het leren weg op Workfront Één.
 
 ## De bestaande proefdrukworkflow overnemen bij het genereren van een nieuwe versie
 

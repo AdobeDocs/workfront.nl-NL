@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ae95f1e-5241-465d-8cf1-2d4353077b6a
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Voor een lijst van alle veranderingen beschikbaar met de versie 2020.1, zie [ ov
 
 Om uw ervaring consistenter te maken wanneer u Workfront zowel op de mobiele app als op het web gebruikt, wordt elke aanpassing van de secundaire navigatie in het linkerdeelvenster in de nieuwe of bestaande lay-outsjablonen automatisch weerspiegeld in de mobiele app.
 
-Meer leren over het aanpassen van het linkerpaneel, zie [ het linkerpaneel aanpassen gebruikend een Malplaatje van de Lay-out in de nieuwe ervaring van Workfront ](https://one.workfront.com/s/article/Customize-the-left-panel-using-a-Layout-Template-in-the-new-Workfront-experience-354734188).
+Meer leren over het aanpassen van het linkerpaneel, zie [ het linkerpaneel aanpassen gebruikend een Malplaatje van de Lay-out in de nieuwe ervaring van Workfront ](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
 ## Net als updates voor de mobiele app
 

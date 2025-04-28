@@ -7,7 +7,7 @@ description: Nadat de projectmanagers het werk op projecten door taken te creër
 author: Lisa
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
-source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1194'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Nadat de projectmanagers het werk op projecten door taken te creëren plannen en
 
 In dit artikel wordt het algemene doel van Workload Balancer beschreven en een aantal van de beste werkwijzen voor hoe u projecten en bronnen kunt instellen om het programma met succes te gebruiken.
 
-Om videoleerprogramma&#39;s van de Balancer van de Werklast te herzien, ga naar de [ pagina van de Zelfstudies van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html). In het linkermenu, uitgezochte **beheert middelen** > **de Balancer van de Werklast** en kiest een leerprogramma.
+Om videoleerprogramma&#39;s van de Balancer van de Werklast te herzien, ga naar de [ pagina van de Zelfstudies van Workfront ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home). In het linkermenu, uitgezochte **beheert middelen** > **de Balancer van de Werklast** en kiest een leerprogramma.
 
 ## De werklastbalans zoeken
 

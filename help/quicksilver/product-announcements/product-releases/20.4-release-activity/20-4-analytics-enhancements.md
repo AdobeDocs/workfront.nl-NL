@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39e09278-afce-4e9b-857c-f18453081f9d
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%
@@ -29,4 +29,4 @@ Om u toe te staan om de informatie te bekijken u wilt zien zonder het moeten res
 
 Eerder, beperkte het Verbeterde analysegebied het aantal projecten dat u kon bekijken tot 50.
 
-Deze eigenschap is nu inbegrepen in [ Verbeterde Analytics, Deel 1 het leren weg ](https://one.workfront.com/s/learningpath2/enhanced-analytics-part-1-overview-20Y0z000000bmgOEAQ) op Workfront Één.
+Deze eigenschap is nu inbegrepen in [ Verbeterde Analytics, Deel 1 het leren weg ](https://experienceleague.adobe.com/en/docs/workfront/using/home) op Workfront Één.

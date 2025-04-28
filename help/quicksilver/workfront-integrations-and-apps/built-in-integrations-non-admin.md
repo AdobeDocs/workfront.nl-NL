@@ -7,7 +7,7 @@ description: U kunt  [!DNL Adobe Workfront]  met derdetoepassingen integreren. D
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 436eb2ef32363aa28593e74f7464dcd6837b2095
+source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 0%
@@ -44,7 +44,7 @@ De volgende ingebouwde integraties zijn momenteel beschikbaar in Workfront.
      <li>After Effects </li>
      </ul>
      <li><p>Download/installeer van <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref"> Adobe Exchange </a>.</p></li></ul>
-     <p>Voor informatie en instructies, zie <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref"> de [!DNL Adobe Workfront] stop voor [!DNL Creative Cloud] Toepassingen </a> installeren.</p> </td> 
+     <p>Voor informatie en instructies, zie <a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref"> de [!DNL Adobe Workfront] stop voor [!DNL Creative Cloud] Toepassingen </a> installeren.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Adobe Experience Manager Assets en Elementen </p>  </p> </td> 

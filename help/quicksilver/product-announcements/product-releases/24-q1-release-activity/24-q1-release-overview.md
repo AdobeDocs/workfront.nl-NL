@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1622'
 ht-degree: 0%
@@ -281,7 +281,7 @@ De 24.1 release webinar was op 11 januari 2024. U kunt [ voor webinar registrere
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}"> Metagegevens toewijzen in Experience Manager Assets Essentials gebruikt nu <code>xcm:keywords</code> in plaats van <code>dc:subject</code></a></p><p>[!BADGE in productie ]{type=Informative}</p><p>We hebben de Experience Manager Assets Essentials-integratie bijgewerkt en aangepast aan de ervaring die is opgedaan met de as a Cloud Service integratie van Experience Manager Assets. Wanneer u nu meerdere tekstvelden met één regel aan één veld in Experience Manager Assets toewijst, gebruiken beide services het veld <code>xcm:keywords</code> .</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}"> Metagegevens toewijzen in Experience Manager Assets Essentials gebruikt nu <code>xcm:keywords</code> in plaats van <code>dc:subject</code></a></p><p>[!BADGE in productie ]{type=Informative}</p><p>We hebben de Experience Manager Assets Essentials-integratie bijgewerkt en aangepast aan de ervaring die is opgedaan met de integratie met Experience Manager Assets as a Cloud Service. Wanneer u nu meerdere tekstvelden met één regel aan één veld in Experience Manager Assets toewijst, gebruiken beide services het veld <code>xcm:keywords</code> .</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -482,8 +482,8 @@ Voor informatie over API versies, zie [ API versioning en steunprogramma ](/help
 
 ### Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens Eerste Kwartaal 2024 versie worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).[
+Voor informatie over de onderhoudsupdates die tijdens Eerste Kwartaal 2024 versie worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront ](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).[
 
 ### Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Tutorials van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html) Nieuw is.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) Nieuw is.

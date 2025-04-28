@@ -6,7 +6,7 @@ description: Het integreren  [!DNL Adobe Workfront]  met Slack staat u toe om  [
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: cac75a81-26e8-4713-a6be-453943b431ab
-source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 1%
@@ -37,7 +37,7 @@ U moet het volgende hebben:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL [!DNL Adobe Workfront] plan] </a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront] plan] </a>*</td> 
    <td> <p>[!UICONTROL Pro] of hoger</p> </td> 
   </tr> 
  </tbody> 
@@ -72,7 +72,7 @@ Voer de onderstaande stappen uit om het installatieproces uit te voeren en [!DNL
 
 >[!IMPORTANT]
 >
->Wanneer een nieuwe versie van [!DNL Workfront] for Slack wordt uitgebracht, moet u de app opnieuw autoriseren om deze te kunnen blijven gebruiken.
+>Wanneer een nieuwe versie van [!DNL Workfront] voor Slack wordt uitgebracht, moet u de app opnieuw autoriseren om deze te kunnen blijven gebruiken.
 
 1. Bepaal de plaats van [!DNL Adobe Workfront] toe:voegen-op in de [[!DNL Slack]  opslag ](https://workfront.slack.com/apps/A7CLAMVNW-adobe-workfront?tab=more_info).
 

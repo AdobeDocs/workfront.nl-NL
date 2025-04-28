@@ -7,7 +7,7 @@ description: Adobe Workfront Boards stuurt u een e-mail wanneer u aan een bord w
 author: Lisa
 feature: Agile
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 0%
