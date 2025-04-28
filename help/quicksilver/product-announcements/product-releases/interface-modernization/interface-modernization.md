@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 4536b0f15b208d96e7d823504574f879ed3dee2b
+source-git-commit: 828426242e87d99d27d763e1893dee81afa36fc4
 workflow-type: tm+mt
-source-wordcount: '1958'
+source-wordcount: '2009'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Deze pagina bevat een overzicht van de interface-updates die we in Adobe Workfro
 
 Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product ](/help/quicksilver/product-announcements/product-releases/product-releases.md).[
 
-## Navigatie en zoeken in Workfront
+## Navigatie en zoeken
 
 ### Interface-update voor geavanceerd zoeken
 
@@ -325,3 +325,30 @@ Er is een nieuwe knop Tekstmodus bewerken en modaal bewerken toegevoegd aan de v
 * Groepen
 
 +++
+
+## Gebruikers
+
+### Pagina voor delen van document is bijgewerkt voor externe gebruikers
+
+**de versie van de Voorproef: 10 april, 2024; De versie van de productie: Beginnend de week van 17 april, 2024**
+
+We hebben de pagina voor het delen van documenten voor externe gebruikers bijgewerkt met een moderner ontwerp dat aansluit bij andere delen van Workfront.
+
+De externe gebruikers kunnen niet meer tot _Mijn Montages_ van deze pagina toegang hebben.
+
+<!--
+
+### Updated external user registration page
+
+**Preview release: April 24, 2024; Production release: To be announced**
+
+We have updated the external user registration page with a more modern design that is consistent with other areas of Workfront.
+
+
+## Licenses
+
+### Updated license agreement page
+
+**Preview release: tbd; Production release: To be announced**
+
+We have updated the license agreement page with a more modern design that is consistent with other areas of Workfront.-->
