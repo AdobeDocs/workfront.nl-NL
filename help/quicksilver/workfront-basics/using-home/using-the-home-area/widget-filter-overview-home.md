@@ -6,9 +6,9 @@ description: U kunt kiezen uit een aantal widgets om de inhoud aan te passen die
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 4994f099b11703bbffb396d494fd5622fc006cbf
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '963'
 ht-degree: 0%
 
 ---
@@ -238,6 +238,44 @@ U kunt de volgende filters gebruiken in Mijn Kwesties widget:
     <td>Hiermee geeft u alle problemen weer waarvoor geen primaire gebruiker is toegewezen, maar waaraan wel een rol is toegewezen </td>
   </tr>
 </table>
+
+## Mijn verzoeken
+
+<table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Alles</td> 
+      <td>Toont alle voorgelegde verzoeken, ongeacht status of wie hen voorlegde.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Openen</td> 
+      <td> <p>Hiermee geeft u alle ingediende verzoeken weer 
+      <ul>
+      <li>Dat is op dit moment open, ongeacht wie ze heeft ingediend. U kunt alleen een aanvraag indienen waarvoor u ten minste machtigingen hebt om de weergave hier weer te geven als u deze niet zelf hebt verzonden.</li>
+      <li>Zonder de datum van daadwerkelijke voltooiing of het waarvan het oplossen van voorwerp geen Werkelijke Voltooiingsdatum heeft zijn vermeld in Open subtab.</li> 
+      </ul>
+      <p><b> NOTA </b> 
+      Verzoeken die zich in een status bevinden die niet gelijk is aan Gesloten, worden als open beschouwd.</p> 
+      </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Mijn verzoeken</td> 
+      <td>Hiermee geeft u verzoeken weer die u hebt verzonden, ongeacht de status. </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Mijn open verzoeken</td> 
+      <td> <p>Verzoeken weergeven 
+      <ul>
+      <li>Dat u hebt ingediend en nog steeds open is. </li> 
+      <li>Zonder de datum van daadwerkelijke voltooiing of het waarvan het oplossen van voorwerp geen Werkelijke Voltooiingsdatum heeft zijn vermeld in Mijn Open Verzoeken subtab. </li> 
+      </ul>
+      <p><b> NOTA </b> 
+      Verzoeken die zich niet in een status bevinden die gelijk is aan Gesloten, worden als open beschouwd.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
 
 ## Mijn werk
 
