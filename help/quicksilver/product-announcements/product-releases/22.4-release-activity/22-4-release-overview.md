@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f4c1f2170d826b4b6f1e8189e1fecc1edb6e0d97
 workflow-type: tm+mt
-source-wordcount: '3272'
+source-wordcount: '3231'
 ht-degree: 0%
 
 ---
@@ -661,24 +661,23 @@ Opmerking: deze functionaliteit is momenteel niet beschikbaar in Workload Balanc
                         <p>Met Workfront Campaigns kunt u projecten organiseren vanuit verschillende portfolio's en programma's in een nieuwe werkcontainer.
 Campagnes zijn in juli 2022 vrijgegeven voor Preview beta met de release 22.3.</p>
 <p>Deze nieuwe container zal in toekomstige versies evolueren om het werkvoorwerpen te verbinden die momenteel in afzonderlijke silo's worden beheerd.</p>
-
-    &lt;/td>
-    &lt;td>&lt;p>&lt;b>Beschikbaar op deze datums:&lt;/b>&lt;/p>
-    &lt;ul>
-    &lt;li>
-    &lt;p>Voorbeeld van release: gedurende het volledige 22.4-releasetijdsbestek&lt;br />&lt;/p>
-    &lt;/li>
-    &lt;li>
-    &lt;p>Productierelease: TBD&lt;/p>
-    &lt;/li>
-    &lt;/ul>
-    &lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td>
-    &lt;a href=&quot;../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Uitgebreide teambeschrijving&lt;/a>&lt;/p>
-    &lt;p>In het Teams-gebied kunt u nu de beschrijving van het pop bekijken door op de beschrijving te klikken. U kunt op URL&#39;s in de beschrijving klikken in het pop-upvenster en in de beschrijvingstekst klikken om deze te bewerken (als u toegang hebt om de teaminstellingen te bewerken).&lt;/p> 
-     &lt;p>Eerder, scrollend door de beschrijving in een smal gebied was de enige manier om alle inhoud te zien.&lt;/p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoning release: gedurende de gehele releaseperiode van 22.4<br /></p>
+                            </li>
+                            <li>
+                                <p>Productieversie: TBD</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}"> Uitgebreide teambeschrijving </a></p>
+                        <p>In het gebied van Teams, kunt u de volledige teambeschrijving nu bekijken door de beschrijving te klikken om het in een pop-up te tonen. U kunt op URL's in de beschrijving klikken in het pop-upvenster en in de beschrijvingstekst klikken om deze te bewerken (als u toegang hebt om de teaminstellingen te bewerken).</p>
+                        <p>Eerder was het schuiven door de beschrijving in een smal gebied de enige manier om alle inhoud te zien.</p>
 <p>Deze verbetering van de beschrijving is van toepassing op zowel mobiele als niet-flexibele teams.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
