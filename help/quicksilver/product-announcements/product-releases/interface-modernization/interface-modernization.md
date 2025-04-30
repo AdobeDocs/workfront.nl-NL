@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 828426242e87d99d27d763e1893dee81afa36fc4
+source-git-commit: 6350e815e39d642a88a2c9c8b17208db5cb253c5
 workflow-type: tm+mt
-source-wordcount: '2009'
+source-wordcount: '2064'
 ht-degree: 0%
 
 ---
@@ -150,6 +150,14 @@ Ga naar Instellingen > E-mail > Meldingen > Herinneringsmeldingen om deze pagina
 **de versie van de Voorproef: 16 Januari, 2025; Begin de week van 30 Januari, 2025**
 
 We hebben het dialoogvenster SharePoint toevoegen in Setup > Documenten > SharePoint-integratie bijgewerkt met een modern ontwerp dat consistent is met andere gebieden van Workfront.
+
+Deze update bevat visuele wijzigingen in het gebied. Er is geen functionaliteit gewijzigd.
+
+### Interface-update voor dialoogvenster Aangepaste integratie toevoegen
+
+**de versie van de Voorproef: 16 Januari, 2025; Begin de week van 30 Januari, 2025**
+
+We hebben het dialoogvenster Aangepaste integratie toevoegen in Setup > Documenten > Aangepaste integratie bijgewerkt met een modern ontwerp dat consistent is met andere gebieden van Workfront.
 
 Deze update bevat visuele wijzigingen in het gebied. Er is geen functionaliteit gewijzigd.
 
