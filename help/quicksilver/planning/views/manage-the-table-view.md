@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: f171db8474df703fddbf63a673f9bfbd2ab2db27
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '2872'
+source-wordcount: '3205'
 ht-degree: 0%
 
 ---
 
 # De tabelweergave beheren
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview"> de informatie die op deze pagina wordt benadrukt verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 {{planning-important-intro}}
 
@@ -86,7 +86,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Lay-outsjabloon</p></td> 
-   <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het planningsgebied in het hoofdmenu bevat. </p> </td> 
+   <td> <p>In het milieu van de Productie, moeten alle gebruikers met inbegrip van de Beheerders van het Systeem aan een lay-outmalplaatje worden toegewezen dat de gebieden van de Planning omvat.</p>
+<p><span class="preview">In het milieu van de Voorproef, hebben de Standaardgebruikers en de Beheerders van het Systeem het Gebied van de Planning dat door gebrek wordt toegelaten.</span></p></td> 
   </tr> 
 </tbody> 
 </table>
@@ -95,13 +96,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 +++
 
-<!--replace the layout template info in the table with this at release: 
 
-
-<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
-
--->
 
 ## Records bewerken met de tabelweergave
 
@@ -117,9 +112,11 @@ Wanneer u een tabelweergave maakt, worden alle records van het geselecteerde typ
 
 Een tabelweergave beheren:
 
-1. Creeer een lijstmening, zoals die in artikel [ wordt beschreven beheer verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md).
+1. <span class="preview"> creeer een lijstmening, zoals die in het artikel [ wordt beschreven beheer verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md). </span>
 
-   ![ de meningsvoorbeeld van de Lijst ](assets/table-view-example.png)
+   <span class="preview">![ de meningsvoorbeeld van de Lijst ](assets/table-view-example.png)
+
+   </span>
 
 1. (Facultatief) klik **de hoogte van de Rij**, dan selecteer van de volgende opties om de hoogte van de lijstrijen te wijzigen:
    * Kort
@@ -130,14 +127,17 @@ Een tabelweergave beheren:
    * [Kolommen (of velden)](#add-columns-or-fields)
    * [Rijen (of records)](#add-rows-or-records)
    * [ Filters ](#add-filters)
-   * [Groepering](#add-groupings)
    * [ Soort ](#add-a-sort)
-   * [De real-time aanwezigheidsindicator inschakelen](#enable-the-real-time-presence-indicator)
+   * [Groepering](#add-groupings)
+   * <span class="preview">[ de kleuren van de Rij ](#add-row-colors)</span>
+   * [Real-time aanwezigheidsindicator](#enable-the-real-time-presence-indicator)
 
 
 ### Kolommen (of velden) toevoegen {#add-columns}
 
-In de kolomkoppen van een tabelweergave worden de velden weergegeven die zijn gekoppeld aan de records in de weergave. Dezelfde velden die in de tabelweergave worden weergegeven, worden ook weergegeven in de sectie Details van een record. Voor meer informatie, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.
+In de kolomkoppen van een tabelweergave worden de velden weergegeven die zijn gekoppeld aan de records in de weergave. Velden die in de tabelweergave worden weergegeven, worden ook weergegeven in de sectie Details van een record.
+
+Voor meer informatie, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.
 
 <!--this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default.-->
 
@@ -362,55 +362,6 @@ Een filter toevoegen aan een tabelweergave:
 1. (Facultatief) klik het **x** pictogram om een filtervoorwaarde te verwijderen.
 1. (Facultatief) klik **Filters** om de filterdoos te sluiten. <!--right now you cannot "clear all" for filters, but this might come later-->
 
-### Groepen toevoegen {#add-groupings}
-
-<!--this section exists in the timeline view too, but the display is slightly different, so I kept both steps; consider updating both sections if any updates to groupings are introduced-->
-
-U kunt records groeperen aan de hand van vergelijkbare informatie wanneer u een groepering toepast op een weergave.
-
-Het toevoegen van groepen in de tabelweergave lijkt op het toevoegen van groepen aan de tijdlijnweergave.
-
-Overweeg het volgende:
-
-* U kunt groepen toepassen in de tabel- en tijdlijnweergave. De groepen van de tabelweergave zijn onafhankelijk van de groepen in de tijdlijnweergave van hetzelfde recordtype.
-* U kunt 3 niveaus van groepering in een mening toepassen. De records worden gegroepeerd in de volgorde van de groepen die u selecteert.
-&lt;!—* U kunt tot 4 niveaus van groepering toepassen wanneer het gebruiken van API. —deze nu controleren—>
-* De groepen zijn uniek voor de weergave die u selecteert. Op twee tabelweergaven van hetzelfde recordtype kunnen verschillende groepen worden toegepast. Twee gebruikers die naar dezelfde tabelweergave kijken, zien dezelfde groepering die momenteel wordt toegepast.
-* U kunt de groepen die u maakt voor een tabelweergave niet een naam geven.
-* Als u groepen verwijdert, worden deze verwijderd van iedereen die toegang heeft tot hetzelfde recordtype als u en die dezelfde weergave weergeeft als u.
-* U kunt records bewerken die in een groep worden vermeld.
-* U kunt groeperen door verbonden verslaggebieden of raadplegingsgebieden.
-* Wanneer u door raadplegingsgebieden met veelvoudige waarden groepeert (die niet door een aggregator zijn samengevat), worden de verslagen gegroepeerd door elke unieke combinatie gebiedswaarden.
-* U kunt verwijzen naar een veld dat zich op maximaal 4 niveaus van het huidige recordtype bevindt. Bijvoorbeeld, als u een groepering voor een type van het verslag van de Activiteit creeert, en de Activiteit wordt verbonden met het type van het Verslag van het Product dat met het verslagtype van de Campagne wordt verbonden dat met een Project van Workfront wordt verbonden, kunt u de Status van het project in de groepering verwijzen u voor het verslagtype van de Activiteit creeert.
-<!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
-<!-- checking also into this: * You cannot group by a Paragraph-type field.-->
-
-Een groep toevoegen:
-
-1. Creeer een chronologiemening voor een verslagtype, zoals die in artikel [ wordt beschreven beheer verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md).
-1. Klik **Groepering** in de hoger-juiste hoek van de lijstmening.
-
-   ![ het Groeperen UI lijstmening met verbonden gebieden ](assets/grouping-ui-table-view-with-linked-fields.png)
-
-1. Klik één van de voorgestelde gebieden, of klik **kies een verschillend gebied**, onderzoek naar een verschillend gebied, dan klik het wanneer het in de lijst toont.
-
-   De groepering wordt automatisch toegepast op de tabel en records worden weergegeven onder de scheidingslijn voor cijfergroepering.
-
-1. (Optioneel) Klik op **Voorwaarde toevoegen** en herhaal de bovenstaande stappen om maximaal 3 groepen toe te voegen.
-
-   Het aantal velden dat voor de groepering is geselecteerd, wordt weergegeven naast het pictogram Groeperen.
-
-   ![ groepering die in lijstmening wordt toegepast ](assets/grouping-applied-in-table-view.png)
-
-1. (Facultatief) binnen de **verslagen van de Groep door** doos, klik het **x** pictogram aan het recht van een gebied dat voor de groepering wordt geselecteerd om de groepering te verwijderen
-
-   of
-
-   Klik **ontruimen allen** om alle gebieden te verwijderen.
-
-1. Klik buiten de **verslagen van de Groep door** doos om het te sluiten.
-1. (Optioneel) Klik op **+ Nieuwe record** aan het einde van een willekeurige groep om nieuwe records toe te voegen. Vernieuw vervolgens de pagina om de nieuwe record aan de juiste groep toe te voegen. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
-
 ### Een sortering toevoegen {#sort-information}
 
 Door een sortering toe te passen, kunt u informatie in een bepaalde orde organiseren.
@@ -473,6 +424,56 @@ Ga als volgt te werk om <!--ungrouped (add this when sorting for groupings will 
 
    In de velden die u voor de sortering selecteert, wordt een sorteerpictogram weergegeven, gevolgd door een getal dat de volgorde aangeeft waarin de sortering wordt toegepast.
 
+### Groepen toevoegen {#add-groupings}
+
+<!--this section exists in the timeline view too, but the display is slightly different, so I kept both steps; consider updating both sections if any updates to groupings are introduced-->
+
+U kunt records groeperen aan de hand van vergelijkbare informatie wanneer u een groepering toepast op een weergave.
+
+Het toevoegen van groepen in de tabelweergave lijkt op het toevoegen van groepen aan de tijdlijnweergave.
+
+Overweeg het volgende:
+
+* U kunt groepen toepassen in de tabel- en tijdlijnweergave. De groepen van de tabelweergave zijn onafhankelijk van de groepen in de tijdlijnweergave van hetzelfde recordtype.
+* U kunt 3 niveaus van groepering in een mening toepassen. De records worden gegroepeerd in de volgorde van de groepen die u selecteert.
+&lt;!—* U kunt tot 4 niveaus van groepering toepassen wanneer het gebruiken van API. —deze nu controleren—>
+* De groepen zijn uniek voor de weergave die u selecteert. Op twee tabelweergaven van hetzelfde recordtype kunnen verschillende groepen worden toegepast. Twee gebruikers die naar dezelfde tabelweergave kijken, zien dezelfde groepering die momenteel wordt toegepast.
+* U kunt de groepen die u maakt voor een tabelweergave niet een naam geven.
+* Als u groepen verwijdert, worden deze verwijderd van iedereen die toegang heeft tot hetzelfde recordtype als u en die dezelfde weergave weergeeft als u.
+* U kunt records bewerken die in een groep worden vermeld.
+* U kunt groeperen door verbonden verslaggebieden of raadplegingsgebieden.
+* Wanneer u door raadplegingsgebieden met veelvoudige waarden groepeert (die niet door een aggregator zijn samengevat), worden de verslagen gegroepeerd door elke unieke combinatie gebiedswaarden.
+* U kunt verwijzen naar een veld dat zich op maximaal 4 niveaus van het huidige recordtype bevindt. Bijvoorbeeld, als u een groepering voor een type van het verslag van de Activiteit creeert, en de Activiteit wordt verbonden met het type van het Verslag van het Product dat met het verslagtype van de Campagne wordt verbonden dat met een Project van Workfront wordt verbonden, kunt u de Status van het project in de groepering verwijzen u voor het verslagtype van de Activiteit creeert.
+<!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
+<!-- checking also into this: * You cannot group by a Paragraph-type field.-->
+
+Een groep toevoegen:
+
+1. Creeer een chronologiemening voor een verslagtype, zoals die in artikel [ wordt beschreven beheer verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md).
+1. Klik **Groepering** in de hoger-juiste hoek van de lijstmening.
+
+   ![ het Groeperen UI lijstmening met verbonden gebieden ](assets/grouping-ui-table-view-with-linked-fields.png)
+
+1. Klik één van de voorgestelde gebieden, of klik **kies een verschillend gebied**, onderzoek naar een verschillend gebied, dan klik het wanneer het in de lijst toont.
+
+   De groepering wordt automatisch toegepast op de tabel en records worden weergegeven onder de scheidingslijn voor cijfergroepering.
+
+1. (Optioneel) Klik op **Voorwaarde toevoegen** en herhaal de bovenstaande stappen om maximaal 3 groepen toe te voegen.
+
+   Het aantal velden dat voor de groepering is geselecteerd, wordt weergegeven naast het pictogram Groeperen.
+
+   ![ groepering die in lijstmening wordt toegepast ](assets/grouping-applied-in-table-view.png)
+
+1. (Facultatief) binnen de **verslagen van de Groep door** doos, klik het **x** pictogram aan het recht van een gebied dat voor de groepering wordt geselecteerd om de groepering te verwijderen
+
+   of
+
+   Klik **ontruimen allen** om alle gebieden te verwijderen.
+
+1. Klik buiten de **verslagen van de Groep door** doos om het te sluiten.
+1. (Optioneel) Klik op **+ Nieuwe record** aan het einde van een willekeurige groep om nieuwe records toe te voegen. Vernieuw vervolgens de pagina om de nieuwe record aan de juiste groep toe te voegen. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
+
+
 <!-- this is not available yet: 
 
 To sort grouped records: 
@@ -481,6 +482,42 @@ To sort grouped records:
 1. ************************* add steps here for sorting grouped records****************
 
 -->
+
+<div class="preview">
+
+### Rijkleuren toevoegen
+
+1. (Facultatief) klik **de kleuren van de Rij** om voorwaarden te bepalen en verschillende kleuren voor lijstrijen te kiezen.
+
+1. Klik **toevoegen kleur**, dan **selecteer een gebied** de waarvan waarde u de kleur van een rij wilt bepalen.
+
+   Bijvoorbeeld, om campagnes met een status van Actief in groen te tonen, selecteer **Status**, dan een bepaling en een waarde voor het gebied kiezen.
+
+   ![ de kleurendoos van de Rij met Actieve geselecteerde status en standaardkleurenkeus ](assets/row-colors-box-with-active-status-selected-default-color-choice.png)
+
+1. Klik op het vervolgkeuzemenu voor de kleurkiezer in de linkerbovenhoek van de voorwaarde die u hebt geselecteerd, om de kleur voor de voorwaarde te kiezen en klik vervolgens buiten het kleurkiezervak om deze te sluiten.
+
+   ![ Vervolgkeuzelijst van de kleurenplukker in de doos van de Kleuren van de Rij benadrukte ](assets/drop-down-color-picker-menu-in-row-colors-box-highlighted.png)
+
+1. (Facultatief) klik **toevoegt voorwaarde** om meer gebieden en waarden aan de eerste reeks voorwaarden toe te voegen
+
+   of
+
+   Klik **toevoegen kleur** om een nieuwe reeks voorwaarden toe te voegen en een nieuwe kleur te identificeren.
+
+   U kunt bijvoorbeeld campagnes in de status Planning geel weergeven door een nieuwe set voorwaarden te definiëren.
+
+   ![ de kleurendoos van de Rij met Actieve en de statusvlekkers van de Planning ](assets/row-colors-box-with-active-and-planning-status-custom-colors.png)
+
+1. (Facultatief) zet **toe is op de volledige rij** het plaatsen in de hoger-juiste hoek van de de kleurendoos van de Rij. De volledige rij waaraan aan de voorwaarde wordt voldaan, wordt automatisch weergegeven in de geselecteerde kleur.
+
+   >[!TIP]
+   >
+   >Als Toepassen op de volledige rijinstelling is uitgeschakeld, geeft alleen de linkerzijde van het veld Primair een smalle kleurindicator met de geselecteerde kleur weer. De instelling is standaard uitgeschakeld.
+
+1. Klik buiten de **de kleuren van de Rij** doos om het te sluiten. De kleuren worden automatisch toegepast.
+
+</div>
 
 ### De real-time aanwezigheidsindicator inschakelen
 

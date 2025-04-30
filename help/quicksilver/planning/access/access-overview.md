@@ -6,9 +6,9 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '798'
 ht-degree: 0%
 
 ---
@@ -116,12 +116,16 @@ U moet de volgende toegang tot de Planning van Workfront hebben:
   </tr>
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die de planningsoptie in de volgende gebieden bevat:</p>
+   <td> <div class="preview">
+<p>De standaardgebruikers en de Beheerders van het Systeem hebben de Gebieden van de Planning die door gebrek worden toegelaten.</p>
+<p> De gebruikers met een Licht of de vergunning van de Medewerker moeten een lay-outmalplaatje worden toegewezen dat de optie van de Planning op de volgende gebieden omvat:</p>
    <ul><li>Hoofdmenu</li>
    <li>Deelvenster links van projecten, portfolio's en programma's</li>
-   <li>Openingspagina</li>
-   <li>Punten</li></ul>
-   <p>Voor meer informatie, zie <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md"> lay-outmalplaatjes </a> creëren en beheren.</p> 
+   </ul>
+   <p>Voor meer informatie, zie <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md"> lay-outmalplaatjes </a> creëren en beheren.</p>
+   </div>
+   <p><b>OPMERKING</b></p>
+   <p>In het milieu van de Productie, moeten alle gebruikers met inbegrip van de beheerders van het Systeem aan een lay-outmalplaatje worden toegewezen dat de gebieden van de Planning omvat.</p>
 </td>
   </tr>
  </tbody>
@@ -130,20 +134,9 @@ U moet de volgende toegang tot de Planning van Workfront hebben:
 *Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
-<!--replace the layout template info in the table with this at release: 
 
-<div class="preview">
-<p> Users with a Light or Contributor license must be assigned a layout template that includes the Planning option  in the following areas:</p>
-   <ul><li>Main Menu</li>
-   <li>Left panel of projects, portfolios, and programs</li>
-   <li>Landing page</li>
-   <li>Pins</li></ul>
-   <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">Create and manage layout templates</a>.</p>
-   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div>
-   <p><b>NOTE</b></p>
-   <p>In the Production environment, all users including the System administrators must be assigned to a layout template that includes the Planning areas.</p>
 
--->
+
 
 ## Het planningsgebied delen met een lay-outsjabloon
 
@@ -156,7 +149,16 @@ Nadat uw organisatie een extra vergunning van de Planning van Workfront heeft ge
 * Deelvenster Links voor projecten, portfolio&#39;s en programma&#39;s
 * Punten
 
-Workfront-planningsgebieden toevoegen aan uw Workfront-exemplaar:
+<div class="preview">
+
+De standaardgebruikers en de Beheerders van het Systeem hebben de Gebieden van de Planning die door gebrek op de volgende gebieden worden toegelaten:
+
+* Hoofdmenu
+* Deelvenster links van projecten, portfolio&#39;s of programma&#39;s
+
+</div>
+
+<span class="preview"> </span> Workfront-planningsgebieden toevoegen aan of verwijderen uit gebruikers van uw Workfront-instantie:
 
 1. Login aan **Workfront** als beheerder van Workfront.
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ U kunt records in de volgende gebieden verbinden met andere records of met objec
    * De verbonden verslaggebieden in de lijstmening van een verslagtype in Planning.
    * De voorvertoning of pagina van de record in de verbonden recordvelden op het tabblad Details.
    * De voorvertoning of pagina van de record op het tabblad Verbindingen.
-   * De pagina van de record in een tabblad van de verbindingsweergave van een verbonden record.
+   * De pagina van het verslag in a <span class="preview"> Verbonden verslagenpagina </span> tabel van een verbonden verslag.
 
 * U kunt Workfront-objecten verbinden met Workfront Planning-records in de volgende gebieden van Workfront:
 

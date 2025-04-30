@@ -6,9 +6,9 @@ description: De persoonlijke taken zijn ad hoc het werkverzoeken die u naar een 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: b40d6b10-19c7-4e11-a74f-a8af3ebafb65
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: a1081b7ce0877b08f9546ab57cfac3f2a580ea76
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
@@ -19,13 +19,16 @@ ht-degree: 0%
 
 De persoonlijke taken zijn ad hoc het werkverzoeken die u naar een gebruiker verzendt of verzendt naar of voor zich toevoegt.
 
-Adobe Workfront slaat ad-hocverzoeken op en doet items als persoonlijke taken.
+Adobe Workfront slaat ad-hocwerkverzoeken op en doet items als persoonlijke taken op in het persoonlijke project van een gebruiker dat Wprfront automatisch maakt voor elke gebruiker.
 
-Standaard hebben alle gebruikers in Workfront een persoonlijk project met de naam &quot;&lt; Volledige naam gebruiker> Taken&quot;. Bijvoorbeeld &#39;John Smith&#39;s Tasks&#39;.
+Hieronder vindt u kenmerken van het persoonlijke project van een gebruiker:
 
-Het persoonlijke project van elke gebruiker wordt niet weergegeven in zoekopdrachten en het is verborgen. Alle persoonlijke taken worden opgeslagen in dit project.
-
-U kunt persoonlijke taken naar een project verplaatsen, indien nodig.
+* Alle gebruikers in Workfront hebben een persoonlijk project met de naam &quot;&lt; Volledige naam van gebruiker> Taken&quot;. Bijvoorbeeld &#39;John Smith&#39;s Tasks&#39;.
+* Het persoonlijke project van elke gebruiker wordt niet weergegeven in zoekopdrachten en het is verborgen.
+* Een persoonlijk project kan niet worden geschrapt, zelfs als de gebruikers zijn gedeactiveerd.
+* De status van een persoonlijk project is altijd Huidig. Persoonlijke projecten kunnen niet worden voltooid of geannuleerd.
+* Alle persoonlijke taken worden opgeslagen in het persoonlijke project van een gebruiker.
+* U kunt persoonlijke taken naar een ander project verplaatsen, indien nodig.
 
 U kunt op de volgende manieren persoonlijke taken maken:
 

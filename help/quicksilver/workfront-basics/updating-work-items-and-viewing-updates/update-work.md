@@ -6,24 +6,21 @@ description: U kunt een update toevoegen aan een Adobe Workfront-object (project
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '3104'
+source-wordcount: '3234'
 ht-degree: 0%
 
 ---
 
 # Werk bijwerken
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 4/2025 -->
 
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>  (*****for all customers or in Production for customers who enabled fast releases-->
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<!--<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
--->
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken.</span>
 
 <!--info for April 11: hide the "Important" box below-->
 
@@ -88,8 +85,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-licentie*</strong></td> 
    <td> 
+   <p>Nieuw: Medewerker of hoger voor uitgaven en documenten: licht of hoger voor alle andere objecten</p>
    <p>Huidig: Verzoek of hoger voor uitgaven en documenten; Controleren of hoger voor alle andere objecten</p>
-   <p>Nieuw: Medewerker of hoger voor uitgaven en documenten: licht of hoger voor alle andere objecten</p> 
    </td> 
   </tr> 
   <tr> 
@@ -244,9 +241,11 @@ In dit artikel wordt beschreven hoe u projecten, taken of problemen kunt bijwerk
 1. Klik **Updates** in het linkerpaneel.
 Het **lusje van Commentaren** wordt geselecteerd door gebrek.
 
-1. Begin een commentaar in de **Nieuwe commentaardoos** in te gaan.
+1. 
+   <div class="preview">Voer een opmerking in in het vak **Nieuwe opmerking**.
 
    ![ Nieuwe commentaardoos ](assets/comment-box-all-tabs.png)
+   </div>
 
    >[!TIP]
    >
@@ -256,7 +255,7 @@ Het **lusje van Commentaren** wordt geselecteerd door gebrek.
    * CTRL + Z ( ⌘+z voor Mac) om een wijziging ongedaan te maken
    * CTRL + Y ( ⌘+y voor Mac) om een wijziging opnieuw uit te voeren
 
-1. (Facultatief) in het **mensen of de teams van de Markering** gebied, begin de naam of e-mail van een gebruiker, of een team te typen dat u in deze commentaar zou willen omvatten, dan het selecteren wanneer het in de lijst toont.
+1. <span class="preview"> (Facultatief) in het **mensen of de teams van de Markering** gebied, begin de naam of e-mail van een gebruiker te typen, of een team dat u in deze commentaar zou willen omvatten, of het te selecteren wanneer het in de lijst toont. </span>
 1. (Optioneel) Gebruik de opties op de werkbalk RTF om de tekst op te maken, emoties, koppelingen of afbeeldingen aan de update toe te voegen om de inhoud te verbeteren. Voor meer informatie, zie de [ Rijke Tekst van het Gebruik in een update van Workfront ](#use-rich-text-in-a-workfront-update) sectie in dit artikel.
 
    >[!TIP]
@@ -266,10 +265,10 @@ Het **lusje van Commentaren** wordt geselecteerd door gebrek.
    >De indicator wordt alleen weergegeven nadat de opmerking op het item is verzonden, en niet wanneer de opmerking nog steeds wordt samengesteld.
    >
    >De indicator &quot;Nieuw&quot;toont slechts wanneer zowel de gebruiker die een nieuwe update inging als de gebruiker die momenteel een update ingaat de nieuwe opmerkingervaring gebruikt.
-   >![](assets/real-time-new-red-indicator-unified-commenting.png)
+   >![ Real-time nieuwe rode indicator ](assets/real-time-new-red-indicator-unified-commenting.png)
 
 1. Klik **voorleggen** om de update aan het voorwerp van Workfront toe te voegen.
-1. (Facultatief) om een commentaar uit te geven, klik **Meer** menu ![](assets/more-menu.png) in de hoger-juiste hoek van de commentaar, dan klik **uitgeven**.
+1. (Facultatief) om een commentaar uit te geven, klik **Meer** menu ![ ](assets/more-menu.png) in de hoger-juiste hoek van de commentaar, dan klik **uitgeven**.
 
    >[!IMPORTANT]
    >
@@ -281,7 +280,7 @@ Het **lusje van Commentaren** wordt geselecteerd door gebrek.
    >
    >Opmerkingen van het lopende jaar worden niet in het datumstempel weergegeven. Als u de muis boven een tijdstempel houdt, wordt de volledige datum weergegeven, inclusief het jaar.
 
-   ![](assets/edited-tag-on-comment-unified-commenting.png)
+   ![ Bewerkte indicator op commentaar ](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
@@ -293,14 +292,14 @@ Het **lusje van Commentaren** wordt geselecteerd door gebrek.
 
 1. (Voorwaardelijk en facultatief) als andere gebruikers commentaren hebben toegevoegd die buiten het zichtbare gebied in de sectie van Updates tonen terwijl u uw commentaren toevoegde, **Mening** binnen de blauwe **nieuwe commentaarbanner** bij de bodem van het scherm klikken om deze commentaren te tonen.
 
-   ![](assets/blue-new-comments-banner-with-view-button.png)
+   ![ Blauwe nieuwe commentaarbanner met knoop ](assets/blue-new-comments-banner-with-view-button.png)
 
    Aanvullende opmerkingen worden onder in het scherm weergegeven.
 
-1. (Facultatief) klik **als** pictogram ![](assets/like-icon.png). Het pictogram wordt bijgewerkt met het aantal ‘like’.
+1. (Facultatief) klik **als** pictogram ![ als pictogram ](assets/like-icon.png). Het pictogram wordt bijgewerkt met het aantal ‘like’.
 1. (Voorwaardelijk en optioneel) Als u extra personen hebt toegevoegd aan uw opmerking, klikt u op het aantal leden dat is opgenomen in de update om een lijst weer te geven met entiteiten waarmee de opmerking die u hebt ingevoerd, wordt gedeeld.
 
-   ![](assets/members-icons-expanded-unshimmed.png)
+   ![ uitgevouwen de pictogrammen van Leden ](assets/members-icons-expanded-unshimmed.png)
 
    >[!TIP]
    >
@@ -328,16 +327,16 @@ U kunt uw commentaren verbeteren door RTF te gebruiken, of diverse punten toe te
 1. Ga naar het **gebied van Updates** van een voorwerp van Workfront, open het **3} lusje van Commentaren {en begin een commentaar te typen.**
 1. (Facultatief) om Rich Tekst het formatteren aan uw commentaar toe te voegen, gebruik om het even welke attributen op de **Rich Text** toolbar aangezien u typt.
 
-   ![](assets/rich-text-toolbar.png)
+   ![ Rijke teksttoolbar ](assets/rich-text-toolbar.png)
 
    | **Attribuut** | **Toolbar knoop** | **de kortere wegsleutels van Mac** | **de kortere wegsleutels van Vensters** |
    |---|---|---|---|
-   | Vet | ![](assets/mceclip10.png) | Alt+B | Ctrl+B |
-   | Cursief | ![ mceclip9.png ](assets/mceclip9.png) | Alt+i | Ctrl+I |
-   | Onderstrepen | ![ mceclip8.png ](assets/mceclip8.png) | Alt+u | Ctrl+U |
-   | Hyperlink | ![ mceclip7.png ](assets/mceclip7.png) | <br> opent Add verbindingen doos:+K </br> <br> om een verbinding over de geselecteerde tekst te kleven:+V </br> | <br> om Add de doos van verbindingen te openen: Ctrl+K </br> <br> om een verbinding over de geselecteerde tekst te kleven: Ctrl+V </br> |
-   | Lijst met opsommingstekens | ![ mceclip6.png ](assets/mceclip6.png) | Shift+8 | Ctrl+Shift+8 |
-   | Genummerde lijst | ![ mceclip5.png ](assets/mceclip5.png) | Shift+7 | Ctrl+Shift+7 |
+   | Vet | ![ Vet pictogram ](assets/mceclip10.png) | Alt+B | Ctrl+B |
+   | Cursief | ![ Cursief pictogram ](assets/mceclip9.png) | Alt+i | Ctrl+I |
+   | Onderstrepen | ![ onderstreepte pictogram ](assets/mceclip8.png) | Alt+u | Ctrl+U |
+   | Hyperlink | ![ pictogram van de Hyperlink ](assets/mceclip7.png) | <br> opent Add verbindingen doos:+K </br> <br> om een verbinding over de geselecteerde tekst te kleven:+V </br> | <br> om Add de doos van verbindingen te openen: Ctrl+K </br> <br> om een verbinding over de geselecteerde tekst te kleven: Ctrl+V </br> |
+   | Lijst met opsommingstekens | ![ Bulleted lijstpictogram ](assets/mceclip6.png) | Shift+8 | Ctrl+Shift+8 |
+   | Genummerde lijst | ![ Genummerd lijstpictogram ](assets/mceclip5.png) | Shift+7 | Ctrl+Shift+7 |
 
    <!--| Block Quote | ![](assets/block-quote-icon-large.png)|⌘+Shift+9 |<br>Ctrl+Shift+9</br> <br>This is not available in the new commenting experience. </br> |-->
 
@@ -361,7 +360,7 @@ U kunt uw commentaren verbeteren door RTF te gebruiken, of diverse punten toe te
 
    <!--![](assets/block-quote-marked-350x144.png)-->
 
-1. (Optioneel) Klik op het **pictogram ![](assets/emoji-icon.png) emoji&#39;s aan uw update toevoegen.**
+1. (Facultatief) klik het **pictogram Moji ![ pictogram Emoji ](assets/emoji-icon.png) om emojis aan uw update toe te voegen.**
 
    >[!NOTE]
    >
@@ -375,7 +374,7 @@ U kunt uw commentaren verbeteren door RTF te gebruiken, of diverse punten toe te
 1. (Optioneel) Een URL-koppeling toevoegen aan extra informatiebronnen:
 
    1. Klik in de update op de plaats waar u een koppeling wilt invoegen.
-   1. Op de **Rijke toolbar van de Tekst**, klik het **** pictogram van de Hyperlink ![](assets/link-icon.png).
+   1. Op de **Rijke toolbar van de Tekst**, klik het **pictogram van de Hyperlink** ![ Hyperlink ](assets/link-icon.png).
 
    1. In **creeer de doos van de Verbinding**, onder **URL**, type of kleef URL van de bron waaraan u wilt verbinden.
 
@@ -397,7 +396,7 @@ U kunt uw commentaren verbeteren door RTF te gebruiken, of diverse punten toe te
 
    * Sla de afbeelding op onze computer op en sleep deze naar het gebied Nieuwe opmerking.
    * Kopieer een schermafbeelding van uw computer en plak deze vervolgens in de opmerking.
-   * Klik **voeg beeld** pictogram ![](assets/add-image-mountain-with-plus-icon.png) toe en doorblader aan het beeld op uw computer.
+   * Klik **toevoegen beeld** pictogram ![ beeldberg met plusteken ](assets/add-image-mountain-with-plus-icon.png) en doorblader aan het beeld op uw computer.
 
 
    >[!IMPORTANT]
@@ -418,8 +417,8 @@ U kunt uw commentaren verbeteren door RTF te gebruiken, of diverse punten toe te
 
 1. (Optioneel) Voer een van de volgende handelingen uit om een afbeelding weer te geven in de bestaande update:
 
-   * Klik het **pictogram van de Voorproef** ![](assets/previewimageicon-31x31.png) op de beeldduimnagel om het volledig-groottebeeld in een nieuwe browser tabel te openen.
-   * Klik het **pictogram van de Download** ![](assets/downloadimageicon.png) op de beeldduimnagel om het beeld te downloaden.
+   * Klik het **pictogram van de Voorproef ![ pictogram van de** ](assets/previewimageicon-31x31.png) op de beeldduimnagel om het volledig-groottebeeld in een nieuwe browser tabel te openen.
+   * Klik het **pictogram van de Download ![ download ](assets/downloadimageicon.png) op de beeldduimnagel** {om het beeld te downloaden.
 
 1. Klik **voorleggen** om uw commentaar toe te voegen.
 
@@ -460,11 +459,26 @@ U kunt een koppeling naar de opmerking kopiëren of de inhoud van de opmerking k
 
 U kunt informatie uit een bestaande opmerking kopiëren door een van de volgende handelingen uit te voeren:
 
+* [Offerteantwoord](#quote-reply)
 * [Koppeling kopiëren](#copy-link)
 * [Platte tekst kopiëren](#copy-body-text)
-* [Offerteantwoord](#quote-reply)
 
-![](assets/copy-comment-ways-from-more-menu-on-comment.png)
+
+![ Commentaar van het Exemplaar diverse manieren ](assets/copy-comment-ways-from-more-menu-on-comment.png)
+
+#### Offerteantwoord
+
+Met de antwoordoptie Citaat kopieert u de oorspronkelijke opmerking naar een nieuw antwoord als een blokcitaat.
+
+1. Ga naar de opmerking of het antwoord dat u wilt kopiëren.
+1. Klik het **Meer** menu, dan klik **antwoord van het Citaat**.
+
+   Er wordt een nieuw opmerkingsvak geopend en het geciteerde antwoord wordt opgenomen in de nieuwe opmerking en gemarkeerd als een blokcitaat.
+
+   ![ citaat van het Blok benadrukte midden-commentaar alvorens voor te leggen ](assets/block-quote-highlighted-mid-comment-before-submit.png)
+
+
+1. Ga verder toevoegend uw update en klik **voorleggen** om de commentaar toe te voegen.
 
 #### Koppeling naar opmerking kopiëren
 
@@ -489,19 +503,7 @@ Met de tekstoptie Kopiëren kopieert u de tekst van een bepaalde opmerking naar 
 1. Ga naar de opmerking of het antwoord dat u wilt kopiëren.
 1. Klik het **Meer** menu, dan klik **lichaamstekst van het Exemplaar**.
 
-#### Offerteantwoord
 
-Met de antwoordoptie Citaat kopieert u de oorspronkelijke opmerking naar een nieuw antwoord als een blokcitaat.
-
-1. Ga naar de opmerking of het antwoord dat u wilt kopiëren.
-1. Klik het **Meer** menu, dan klik **antwoord van het Citaat**.
-
-   Er wordt een nieuw opmerkingsvak geopend en het geciteerde antwoord wordt opgenomen in de nieuwe opmerking en gemarkeerd als een blokcitaat.
-
-   ![](assets/block-quote-highlighted-mid-comment-before-submit.png)
-
-
-1. Ga verder toevoegend uw update en klik **voorleggen** om de commentaar toe te voegen.
 
 <!--info for April 11: hide the entire section below - notice that there are several sub-sub sections below this main section - hide them all, all the way up to "Delete an update"-->
 
@@ -574,7 +576,7 @@ Geen enkele Workfront-gebruiker (inclusief de Workfront-beheerder) kan updates v
 1. Ga naar de opmerking of het antwoord dat u wilt verwijderen.
 1. Klik het **Meer** menu naast de commentaar of het antwoord u wenst om te schrappen, dan **Schrapping** te klikken.
 
-   ![](assets/update-stream-comment-menu-marked-350x152.png)
+   ![ de stroomcommentaar van de Update Meer menu ](assets/update-stream-comment-menu-marked-350x152.png)
 
 1. In het bericht dat verschijnt, klik **Schrapping**.
 
@@ -584,7 +586,7 @@ Geen enkele Workfront-gebruiker (inclusief de Workfront-beheerder) kan updates v
 
    Wanneer aan de opmerking die u verwijdert, reacties zijn gekoppeld, wordt aangegeven dat de opmerking is verwijderd met de naam van de gebruiker die de opmerking heeft verwijderd.
 
-   ![](assets/removed-comment-indicator-new-experience.png)
+   ![ Verwijderde commentaarindicator ](assets/removed-comment-indicator-new-experience.png)
 
    Verwijderde opmerkingen worden direct uit Workfront verwijderd. Een gebruiker die de sectie van Updates gebruikt ziet een commentaar dat door een andere gebruiker in echt - tijd wordt geschrapt.
 
@@ -595,11 +597,11 @@ In de sectie Updates van een Workfront-object worden twee soorten gegevens weerg
 
 * **de updates van de Gebruiker:** de updates van de Gebruiker zijn commentaren die u en andere gebruikers in uw systeem ingaan. De gebruikersupdates worden weergegeven in de tabbladen Opmerkingen en Alle van de sectie Updates.
 
-  ![](assets/user-update-cl-350x277.png)
+  ![ de updates van de Gebruiker ](assets/user-update-cl-350x277.png)
 
 * **de updates van het Systeem:** de updates van het Systeem verwijderen taken of kwesties, toevoegend of schrappend documentversies, vastmakend of verwijderend een goedkeuringsverzoek, evenals om het even welke uitgeeft of veranderingen die aan het voorwerp worden aangebracht. De updates van het systeem tonen in de Activiteit van het Systeem en de Alle lusjes van de sectie van Updates.
 
-  ![](assets/system-updates-cl-350x277.png)
+  ![ de updates van het Systeem ](assets/system-updates-cl-350x277.png)
 
   De beheerders van Workfront kunnen bepalen wat in systeemupdates wordt gevolgd, zoals die in [ systeem-geleide updates ](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md) wordt verklaard. U kunt ook systeemupdates of -activiteiten uitfilteren, zodat alleen gebruikersupdates voor alle objecten worden weergegeven.
 

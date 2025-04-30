@@ -6,7 +6,7 @@ description: U kunt updates van een werkitem weergeven en toevoegen in het gebie
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 0%
@@ -132,7 +132,7 @@ U kunt updates opgeven voor elk werkitem in de [!UICONTROL My Work] -widget:
 
 1. Klik **Reageren**.
 
-   ![ REply aan commentaar ](assets/reply-to-comment-in-mentions-widget.png)
+   ![ Antwoord aan commentaar ](assets/reply-to-comment-in-mentions-widget.png)
 
 1. Typ uw opmerking.
 1. (Facultatief) in de **mensen van de Markering** doos, begin de naam van een gebruiker of een team te typen dat u in deze commentaar zou willen omvatten, dan het selecteren wanneer het in de lijst toont.

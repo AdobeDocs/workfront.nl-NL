@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '3333'
+source-wordcount: '3359'
 ht-degree: 0%
 
 ---
@@ -125,7 +125,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Lay-outsjabloon</p></td> 
-   <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het planningsgebied in het hoofdmenu bevat </p> </td> 
+   <td> <p>In het milieu van de Productie, moeten alle gebruikers met inbegrip van de Beheerders van het Systeem aan een lay-outmalplaatje worden toegewezen dat de gebieden van de Planning omvat.</p>
+<p><span class="preview">In het milieu van de Voorproef, hebben de Standaardgebruikers en de Beheerders van het Systeem het Gebied van de Planning dat door gebrek wordt toegelaten.</span></p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -133,14 +134,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 *Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
-<!--replace the layout template info in the table with this at release: 
-
-
-<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
-
--->
 
 ## Overwegingen bij het verbinden van records
 
@@ -165,7 +158,7 @@ U kunt verslagen van de Planning van Workfront op de volgende gebieden van een v
 * De verbonden recordvelden in de tabelweergave.
 * Het voorvertoningsvak of de pagina van de record in de verbonden recordvelden op het tabblad Details.
 * Het voorvertoningsvak of de pagina van de record op het tabblad Verbindingen.
-* De pagina van de record op het tabblad van de weergave Verbinding. <!--this needs title edit when they rename the "Connection view" page type-->
+* De pagina van het verslag op a <span class="preview"> Verbonden verslagenpagina </span> tabel.
 
 ### Connect Workfront Planning-records vanuit de tabelweergave of het gebied Details van een record
 
@@ -463,9 +456,8 @@ De records en objecten worden direct toegevoegd.
 
    De record wordt onmiddellijk losgekoppeld van alle gebieden van de Workfront-planning of van andere toepassingen waar deze als verbonden kunnen worden weergegeven. De waarden van opzoekvelden worden ook verwijderd.
 
-### Verbind verslagen van het lusje van de mening van de Verbinding op de detailpagina van een verslag
+### Verbind verslagen van <span class="preview"> Verbonden verslagenpagina </span> van een verslag
 
-<!--section needs title edit when they rename the "Connection view" page type-->
 
 1. Ga naar om het even welke mening van een verslagtype dat met andere het verslagtypes of objecten van de Planning van andere toepassingen is verbonden.
 1. Voer de stappen uit die in de vorige subsecties zijn beschreven om een record te zoeken in de weergave die u wilt koppelen aan andere records of objecten.
@@ -473,9 +465,11 @@ De records en objecten worden direct toegevoegd.
 
    De voorvertoningspagina wordt geopend.
 1. Klik **Open in nieuw lusje** pictogram ![ Open details in een nieuw lusjepictogram ](assets/open-details-in-a-new-tab-icon.png) om de pagina van het verslag te openen.
-1. Klik op een bestaand tabblad in de voorvertoning of pagina van de record. U moet eerst een pagina van de mening van de Verbinding tot stand brengen. Voor informatie, zie [ de lay-out van de verslagpagina beheren ](/help/quicksilver/planning/records/manage-the-record-page.md).
+1. Klik een bestaand <span class="preview"> Verbonden verslagenpagina </span> lusje in de pagina van het verslag. U moet eerst a <span class="preview"> Verbonden verslagenpagina </span> creëren. Voor informatie, zie [ de lay-out van de verslagpagina beheren ](/help/quicksilver/planning/records/manage-the-record-page.md).
 
    Een verbonden verslagtype pagina toont in de lijstmening.
+
+   Alle verbonden verslagen van één type tonen in de lijst.
 1. Klik **verbinden** om verslagen toe te voegen of te verwijderen.
 
    ![ verbind knoop die in verbonden verslagdetails tabel wordt benadrukt ](assets/connect-button-highlighted-in-connected-record-details-tab.png)
