@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3272'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Deze pagina bevat informatie over functionaliteit die is opgenomen in de release
 
 Deze verbeteringen zijn beschikbaar gesteld in de productieomgeving met de release 22,4 op 6 en 7 oktober 2022.
 
-## Adobe Workfront Fusion
+## Verbeteringen voor Adobe Workfront
 
 * [Beheerdersverbeteringen](#administrator-enhancements)
 
@@ -62,7 +62,7 @@ Deze verbeteringen zijn beschikbaar gesteld in de productieomgeving met de relea
                 <tr>
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}"> Migratie aan Adobe Verenigde Ervaring </a> </p>
-                        <p>Als uw organisatie aan de Adobe Admin Console is geregistreerd, zal uw instantie van Workfront naar de Adobe Verenigde Ervaring met de 22.4 versie worden gemigreerd.</p>
+                        <p>Als uw organisatie aan de Adobe Admin Console is geregistreerd, wordt uw Workfront-exemplaar gemigreerd naar de Adobe Unified Experience met de release 22.4.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                      <p>
@@ -298,7 +298,7 @@ Opmerking: deze functionaliteit is momenteel niet beschikbaar in Workload Balanc
 
 </p>
 <ol>
-<li>Voeg een Adobe XD-bestand toe om een aangepast formulier visueel en informatief te maken. Wanneer het formulier aan een object is gekoppeld, kunnen gebruikers die met het object werken het XD bestand vanuit het formulier bekijken en ermee werken.
+<li>Voeg een Adobe XD-bestand toe om een aangepast formulier visueel en informatief te maken. Wanneer het formulier aan een object is gekoppeld, kunnen gebruikers die met het object werken het XD-bestand vanuit het formulier bekijken en ermee werken.
 </li>
 <li>Met het snelle filter kunt u gemakkelijk items zoeken in de gemoderniseerde lijst met aangepaste formulieren en velden. Geniet ook van een verbeterde look and feel tijdens het beheren van uw formulieren en velden.
 </li>
@@ -605,7 +605,7 @@ Opmerking: deze functionaliteit is momenteel niet beschikbaar in Workload Balanc
                 <tr>
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}"> Adobe Workfront voor InDesign </a> <span style="color: #ff0000;"> Nieuw in Productie!</span> </p>
-                        <p>Deze insteekmodule is nu beschikbaar voor installatie in het InDesign. Het staat u toe om tot de details van het het werkpunt toegang te hebben, met medewerkers op het gebied van Updates samen te werken, en proefdrukken voor overzicht-allen voor te leggen zonder XD te verlaten. Ga naar de Adobe Creative Cloud Marketplace om de insteekmodule vandaag te downloaden. </p>
+                        <p>Deze insteekmodule is nu beschikbaar voor installatie in InDesign. Het staat u toe om tot de details van het het werkpunt toegang te hebben, met medewerkers op het gebied van Updates samen te werken, en proefdrukken voor overzicht-allen voor te leggen zonder XD te verlaten. Ga naar de Adobe Creative Cloud Marketplace om de insteekmodule vandaag te downloaden. </p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -623,7 +623,7 @@ Opmerking: deze functionaliteit is momenteel niet beschikbaar in Workload Balanc
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}"> de objecten van de Synchronisatie meta-gegevens met de inheemse integratie van Experience Manager Assets </a> </p>
                         <p>Workfront-portfolio, -programma, -project, -taak, -uitgave en -documentvelden worden nu automatisch bijgewerkt wanneer het veld in Workfront wordt gewijzigd.</p>
-                        <p>Als u wilt dat objectmetagegevens automatisch worden gesynchroniseerd, moet u de schakeloptie Metagegevens synchroniseren voor uw integratie inschakelen in Instellingen &gt; Integraties van Experience Managers.</p>
+                        <p>Als u wilt dat objectmetagegevens automatisch worden gesynchroniseerd, moet u de schakeloptie voor metagegevens van synchronisatieobjecten inschakelen voor uw integratie in Setup &gt; Experience Manager-integratie.</p>
                         <p>Eerder werden alleen projectvelden automatisch bijgewerkt.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -640,7 +640,7 @@ Opmerking: deze functionaliteit is momenteel niet beschikbaar in Workload Balanc
                 <tr>
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}"> Meta-gegevens duwt voor programma en portefeuille oudervoorwerpen </a></p>
-                        <p>Wanneer een element nu voor het eerst naar Experience Manager Assets of Assets Essentials wordt verzonden, worden alle metagegevens die zijn geconfigureerd voor toewijzing voor bovenliggende programma's en portfolio-objecten ook verzonden.</p>
+                        <p>Wanneer een element voor het eerst naar Experience Manager Assets of Assets Essentials wordt verzonden, worden nu ook metagegevens verzonden die zijn geconfigureerd voor toewijzing voor bovenliggende programma's en portfolio-objecten.</p>
                         <p>Eerder werden alleen de gegevens van het bovenliggende project verzonden.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -662,22 +662,22 @@ Opmerking: deze functionaliteit is momenteel niet beschikbaar in Workload Balanc
 Campagnes zijn in juli 2022 vrijgegeven voor Preview beta met de release 22.3.</p>
 <p>Deze nieuwe container zal in toekomstige versies evolueren om het werkvoorwerpen te verbinden die momenteel in afzonderlijke silo's worden beheerd.</p>
 
-    &lt;/td> 
-     &lt;p>&lt;b>Beschikbaar op deze data:&lt;/b>&lt;/p> 
-     &lt;ul>
-     &lt;li> 
-     &lt;p>Voorproefversie:&amp;#GenStudio for Performance Marketers&amp;-160;Through the 2.4 release timeframe&lt;br />&lt;/p>
+    &lt;/td>
+    &lt;td>&lt;p>&lt;b>Beschikbaar op deze datums:&lt;/b>&lt;/p>
+    &lt;ul>
+    &lt;li>
+    &lt;p>Voorbeeld van release: gedurende het volledige 22.4-releasetijdsbestek&lt;br />&lt;/p>
     &lt;/li>
-     &lt;li>
-     &lt;p>Production release:&amp;#GenStudio for Performance Marketers&amp;-160;TBD&lt;/p>
+    &lt;li>
+    &lt;p>Productierelease: TBD&lt;/p>
     &lt;/li>
     &lt;/ul>
     &lt;/td>
-    &lt;/tr> 
-     &lt;tr> 
-     &lt;td> 
-     &lt;a href= &quot;../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md&quot; class=&quot;MCXref xref xrefformat=&quot;{para}&quot;>Uitgebreide teambeschrijving&lt;/a>&lt;/p> 
-     &lt;p>In het gebied van Teams, kunt u de volledige teambeschrijving nu bekijken door de beschrijving te klikken om het in pop-up te tonen. U kunt op URL&#39;s in de beschrijving klikken in het pop-upvenster en in de beschrijvingstekst klikken om deze te bewerken (als u toegang hebt om de teaminstellingen te bewerken).&lt;/p> 
+    &lt;/tr>
+    &lt;tr>
+    &lt;td>
+    &lt;a href=&quot;../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Uitgebreide teambeschrijving&lt;/a>&lt;/p>
+    &lt;p>In het Teams-gebied kunt u nu de beschrijving van het pop bekijken door op de beschrijving te klikken. U kunt op URL&#39;s in de beschrijving klikken in het pop-upvenster en in de beschrijvingstekst klikken om deze te bewerken (als u toegang hebt om de teaminstellingen te bewerken).&lt;/p> 
      &lt;p>Eerder, scrollend door de beschrijving in een smal gebied was de enige manier om alle inhoud te zien.&lt;/p>
 <p>Deze verbetering van de beschrijving is van toepassing op zowel mobiele als niet-flexibele teams.</p>
                     </td>
@@ -734,7 +734,7 @@ Voor informatie over API versies, zie [ API versioning en steunprogramma ](/help
 
 ### Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens de versie 22.3 worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).[
+Voor informatie over de onderhoudsupdates die tijdens de versie 22.3 worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront ](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).[
 
 ### 22.4 Release-webinar
 
@@ -742,7 +742,7 @@ De webinar met release 22.4 vindt donderdag 22 september 2022 om 9.00 uur PDT pl
 
 ### Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie de [ versie van de Opleiding pagina ](https://one.workfront.com/s/training-release-updates) bijwerkt.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie de [ versie van de Opleiding pagina ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) bijwerkt.
 
 ### Functionaliteit die wordt verwijderd met de 22.4-release
 
