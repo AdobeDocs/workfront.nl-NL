@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 881eea5b527532227a40483d2cd2edeba84dc30f
+source-git-commit: 711810c00ba8657230dbda558629613be2b35d9b
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,54 @@ In dit artikel worden de functies beschreven die tijdens de release van het derd
 <!--keep the sentence below for all future quarterly release pages-->
 
 Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront worden vrijgegeven, zie [ de versieactiviteit van de Planning van Adobe Workfront: artikelindex ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Inline bewerken op de pagina Verbonden records van een record
+
+>[!NOTE]
+>
+>* Voorbeeld: 30 april 2025
+>* Snelle productie: 15 mei 2025
+>* Productie voor alle afnemers: 17 juli 2025
+
+U kunt nu records bewerken op de pagina Verbonden records van een record. Met deze update hebben we het volgende geïntroduceerd:
+
+* De naam van de pagina is gewijzigd van &quot;Verbindingsweergave&quot; in &quot;Verbonden recordpagina&quot;.
+* Verbonden records die op deze pagina worden weergegeven, kunnen inline worden bewerkt in de tabelweergave. Verbonden Workfront-objecten worden nog steeds weergegeven in een alleen-lezen tabel.
+
+Voorafgaand aan deze verbetering, was de lijst van de de meningspagina van de Verbinding read-only voor verslagverbindingen.
+
+Voor informatie, zie [ de lay-out van de verslagpagina beheren ](/help/quicksilver/planning/records/manage-the-record-page.md).
+
+## Het planningsgebied is standaard zichtbaar in het hoofdmenu voor gebruikers met een standaardlicentie
+
+>[!NOTE]
+>
+>* Voorbeeld: 30 april 2025
+>* Snelle productie: 15 mei 2025
+>* Productie voor alle afnemers: 17 juli 2025
+
+De standaard en gebruikers van de Beheerder van het Systeem kunnen het Gebied van de Planning in het Belangrijkste Menu nu door gebrek vinden, zonder dat wordt toegewezen aan een lay-outmalplaatje dat het omvat. Alle andere gebruikers moeten een lay-outmalplaatje hebben dat het Gebied van de Planning omvat dat aan hen wordt toegewezen om tot het toegang te hebben.
+
+Voorafgaand aan deze verbetering, moesten de gebruikers met alle vergunningsniveaus aan lay-outmalplaatje worden toegewezen dat werd gewijzigd om het Gebied van de Planning in het Belangrijkste Menu te omvatten om tot dit gebied toegang te hebben.
+
+>[!NOTE]
+>
+>Deze wijziging is zichtbaar voor alle nieuwe en bestaande gebruikers met een System Administrator- en Standard-licentie.
+>Bestaande gebruikers die aan een lay-outsjabloon zijn toegewezen, blijven alles zien volgens de instellingen die in de lay-outsjabloon zijn gedefinieerd.
+
+Voor informatie, zie [ overzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/access/access-overview.md).
+
+## Kleuropmaak op rijniveau in de tabelweergave
+
+>[!NOTE]
+>
+>* Voorbeeld: 30 april 2025
+>* Snelle productie: 15 mei 2025
+>* Productie voor alle afnemers: 17 juli 2025
+
+Voor een betere zichtbaarheid van de belangrijke gegevens in uw records hebben we opmaak op rijniveau voor de tabelweergave geïntroduceerd. U kunt nu voor elke rij een kleur kiezen nadat u de voorwaarden voor elke keuze hebt gedefinieerd.  Dit is een nieuwe functie die niet bestond vóór deze update.
+
+Voor informatie, zie [ de lijstmening ](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
 
 ## Nieuwe instelling voor het afkappen van lange recordnamen in de standaardtijdlijnweergave
 

@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1a98053a-7f0d-4c87-a9eb-f081dade872c
-source-git-commit: f47c1ad2c3c5d82e62efa1a8920bc0aac59af26e
+source-git-commit: bd6a9c2de25aa1088a0348df4ec5154d81d7a385
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,33 @@ ht-degree: 0%
 Deze pagina beschrijft kleine updates aan de blik en het gevoel van diverse gebieden van de toepassing van Adobe Workfront die binnen het Derde Kwartaal 2025 releasetijdschema werden gemaakt.
 
 Voor een lijst van alle veranderingen beschikbaar met het Derde Kwartaal 2025 versie, zie [ Derde Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
+
+## Zoeken naar updates voor de menuopties Meer voor opmerkingen
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 17 april 2025; Productieversie voor alle klanten: 17 april 2025
+
+We hebben de weergave en het uiterlijk bijgewerkt van de opties die beschikbaar zijn in het menu Meer van een opmerking in de sectie Updates voor alle objecten.
+
+Deze update bevat de volgende wijzigingen:
+
+* De acties zijn opnieuw gerangschikt, zodat soortgelijke functies worden gegroepeerd.
+* Ingevoegde scheidingslijnen om elke groep duidelijk te scheiden.
+* De handeling Verwijderen is gemarkeerd door deze in rood weer te geven.
+
+Voor informatie, zie [ het werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+
+## Updates van een Mijlpaal-padrapport weergeven
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 30 april 2025; Productieversie voor alle klanten: 30 april 2025
+
+We hebben de blik en het gevoel van het rapport Mijlpaal Path aangepast aan het ontwerp van andere gebieden van Workfront.
+
+Voor informatie, zie [ een douanerapport ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 ## Zoeken en weergeven van onlangs herstelde items
 

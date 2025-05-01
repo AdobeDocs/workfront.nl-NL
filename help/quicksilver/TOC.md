@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: c3e71e5126f68878411764766eb053215d050145
+source-git-commit: b36cfdc4587bc440867a6a84b9460eaeaf4daf88
 workflow-type: tm+mt
-source-wordcount: '13172'
+source-wordcount: '13178'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
       * Versie 2025 Q3 {#release-25-q3}
          * [Overzicht van de release 2025 Q3](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
          * [Verbeteringen voor documentbeheer](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md)
+         * [Verbeteringen rapporteren](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-reporting-enhancements.md)
+         * [Verbeteringen voor bijwerken en meldingen](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-update-and-notification-enhancements.md)
          * [De blik-en-voelen updates tijdens het de versietijdkader van Q3 van 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-look-and-feel-updates.md)
       * Versie 2025 Q2 {#release-25-q2}
          * [Overzicht van de release 2025 Q2](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)

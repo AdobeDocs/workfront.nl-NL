@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 27107a4c2f694e9e8725d074058b008972116924
+source-git-commit: b36cfdc4587bc440867a6a84b9460eaeaf4daf88
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Verbeteringen voor Adobe Workfront
 
 * [Verbeteringen voor documentbeheer](#document-management-enhancements)
+* [ Update en berichtverhogingen ]
 * [Andere verbeteringen](#other-enhancements)
 
 ### Verbeteringen voor documentbeheer
@@ -62,6 +63,52 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>10 april 2025</td>
         <td>17 april 2025</td>
         <td>17 april 2025</td>
+    </tr>     
+  </tbody>
+</table>
+
+### Verbeteringen rapporteren
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td><strong> Eigenschap </strong>
+        </td>
+        <td><strong>Voorvertoning</strong></td>
+        <td><strong>Snelle release</strong></td>
+        <td><strong>Driemaandelijks</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}"> de vervangingsresultaten van de Gebruiker niet meer met een ongeldige waarde wanneer het filtreren </a><p></p>
+            <p>Wij hebben het gedrag van de gebruikersvervanging bijgewerkt om ongeldige waarde uit te sluiten wanneer het filtreren van een rapport. Deze verandering helpt de filter nauwkeurigere resultaten produceren, eerder dan het terugkeren van resultaten die een gebruiker hebben correct gevormd (een ongeldig resultaat). </p>
+        </td>
+        <td>30 april 2025</td>
+        <td>15 mei 2025</td>
+        <td>17 juli 2025</td>
+    </tr>     
+  </tbody>
+</table>
+
+### Verbeteringen voor bijwerken en meldingen
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td><strong> Eigenschap </strong>
+        </td>
+        <td><strong>Voorvertoning</strong></td>
+        <td><strong>Snelle release</strong></td>
+        <td><strong>Driemaandelijks</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-update-and-notification-enhancements.md" class="MCXref xref" xrefformat="{para}"> Gewijzigde ervaring wanneer het toevoegen van mensen aan commentaren </a><p>[!BADGE Off schema]{type=Neutral}</p>
+            <p>Om betere prestaties te bereiken, hebben wij een gewijzigde ervaring geïntroduceerd wanneer het toevoegen van mensen aan commentaren. De koppeling ‘Tagpersonen of -teams’ blijft nu blijvend in het vak Opmerking nadat u gebruikers of teams aan de opmerking hebt toegevoegd. </p>
+        </td>
+        <td>30 april 2025</td>
+        <td>(Phased rollout): 8 mei 2025</td>
+        <td>(Phased rollout): 8 mei 2025</td>
     </tr>     
   </tbody>
 </table>
