@@ -6,9 +6,9 @@ description: Met de filter- en voorwaardemodities kunt u filters maken en voorwa
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-source-git-commit: b2b17c34fe4887e291e69facf76f5071bca43b06
+source-git-commit: 6bd9dc626befc4dfa4054760e7ec7d677f6da6e5
 workflow-type: tm+mt
-source-wordcount: '1565'
+source-wordcount: '1593'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,12 @@ U kunt de volgende voorwaardelijke wijzigingstoetsen in filters en voorwaardelij
   <tr valign="top"> 
    <td> <p><strong> bevat niet </strong> </p> </td> 
    <td> <p><strong> cinotcontains </strong> </p> </td> 
-   <td> <p>Dit is het <i> geval ongevoelige </i> versie van <strong> bevat </strong> niet.</p><p>Deze wijzigingfilters voor items waarvoor de opgegeven waarde ontbreekt.</p> <p><code>does not contain inf</code> legt bijvoorbeeld iets vast zonder <code>Inf</code> of <code>inf</code> in de naam.</p> <p>Nota: <span> als het gebied u voor filtert veelvoudige opties heeft, filter dit de resultaten uit die zowel de keus bevatten u specificeert, evenals de keus u specificeert en om het even welke extra keuzen.</span> </p> </td> 
+   <td> <p>Dit is het <i> geval ongevoelige </i> versie van <strong> bevat </strong> niet.</p><p>Deze wijzigingfilters voor items waarvoor de opgegeven waarde ontbreekt.</p> <p><code>does not contain inf</code> legt bijvoorbeeld iets vast zonder <code>Inf</code> of <code>inf</code> in de naam.</p> <p>Opmerking: wanneer het filter wordt toegepast op velden die meerdere waarden bevatten (zoals een verzameling notities in een project), wordt de uitsluiting als volgt bepaald:
+<ul>
+    <li>Als alle items in een verzameling de opgegeven tekst bevatten, wordt de volledige record uitgesloten van de resultaten.</li>
+    <li>Als ten minste één item in de verzameling de opgegeven tekst niet bevat, blijft de record in de resultaten.</li>
+</ul>
+ </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> </td> 

@@ -6,9 +6,9 @@ description: Referentieverzamelingen in een rapport
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: 6bd9dc626befc4dfa4054760e7ec7d677f6da6e5
 workflow-type: tm+mt
-source-wordcount: '2560'
+source-wordcount: '2615'
 ht-degree: 0%
 
 ---
@@ -141,7 +141,7 @@ U kunt informatie over de taken of de kwesties, zoals namen, data, primaire wijz
 
 De mening toont taak of geeft informatie uit in een lijstformaat, met elke lijn van de lijst die informatie over een taak of een kwestie vertegenwoordigt. De lijst met taken of problemen en de bijbehorende velden wordt weergegeven op dezelfde regel als het project waartoe de taken of problemen behoren.
 
-![ issue_and_tasks_collections_in_reports.png ](assets/issue-and-tasks-collections-in-reports-350x171.png) {width= 400}
+![ issue_and_tasks_collections_in_reports.png ](assets/issue-and-tasks-collections-in-reports-350x171.png){width=400}
 
 * [ voeg een inzamelingskolom in een rapportMening ](#add-a-collection-column-in-a-report-view) toe
 * [ begrijp de lijnen van een inzamelingsmening op de Wijze van de Tekst ](#understand-the-lines-of-a-collection-view-in-text-mode)
@@ -236,7 +236,7 @@ Om een inzamelingskolom in een rapportmening toe te voegen:
 
 1. De volgende kolomvertoningen in het projectrapport, die van alle taken in elk project naast hun primaire wijzers een lijst maken:
 
-   ![ het rapport van het Project met taak en toegewezen inzameling ](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png) {width= 400}
+   ![ het rapport van het Project met taak en toegewezen inzameling ](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png){width=400}
 
 1. Klik **sparen**.
 1. (Optioneel) Ga door met het bewerken van het rapport.
@@ -307,6 +307,15 @@ U kunt een inzameling van voorwerpen in de filter van een rapport van verwijzing
 
 Bijvoorbeeld, kunt u voor taak filtreren of informatie in een projectrapport uitgeven door een verwijzing naar de attributen van taken of kwesties op het project in de filterverklaring te gebruiken.
 
+>[!NOTE]
+>
+>Wanneer toegepast op gebieden die veelvoudige waarden (zoals een inzameling van nota&#39;s binnen een project) bevatten, bepaalt de filter opneming als volgt:
+>
+>* Als alle items in een verzameling de opgegeven waarde bevatten, wordt de volledige record niet opgenomen in de resultaten.
+>* Als ten minste één item in de verzameling de opgegeven waarde niet bevat, blijft de record in de resultaten.
+
+
+
 Een verwijzing naar een inzameling in een rapportfilter toevoegen:
 
 1. Klik het **Belangrijkste** menu ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png), dan klik **Rapporten**.
@@ -350,7 +359,7 @@ Een verwijzing naar een inzameling in een rapportfilter toevoegen:
 
    In dit rapport worden alleen projecten weergegeven met ten minste één taak waarvoor het woord &quot;marketing&quot; in de naam voorkomt.
 
-   ![ Marketing slechts taken in project ](assets/marketing-only-tasks-in-project-report-nwe-350x309.png) {width= 400}
+   ![ Marketing slechts taken in project ](assets/marketing-only-tasks-in-project-report-nwe-350x309.png){width=400}
 
 1. Gebruik de volgende code om te filteren op de naam van een uitgave:
 
