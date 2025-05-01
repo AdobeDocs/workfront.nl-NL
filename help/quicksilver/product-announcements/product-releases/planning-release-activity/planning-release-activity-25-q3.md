@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 711810c00ba8657230dbda558629613be2b35d9b
+source-git-commit: 036846cc84e53b090276f7b853372e4e0050c316
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -103,3 +103,5 @@ We hebben de volgende updates geïntroduceerd:
 * U kunt de geërfte machtigingen voor het recordtype uitschakelen om het alleen-lezen te maken voor alle personen in de werkruimte. Daarna kunt u individuele personen, teams, groepen, bedrijven of rollen toevoegen en hen Contribute toestemming verlenen voor het recordtype.
 
 Voor meer informatie, zie [ recordtypes van het Aandeel ](/help/quicksilver/planning/access/share-record-types.md).
+
+
