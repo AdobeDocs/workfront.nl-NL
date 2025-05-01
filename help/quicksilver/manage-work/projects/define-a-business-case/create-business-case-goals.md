@@ -5,16 +5,18 @@ description: Als deel van het creëren van een BedrijfsGeval, kunt u een reeks d
 author: Alina
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: b38c98ec79617a78c76510bcb109da2ff83247af
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
 
 # Zakelijke hoofddoelen maken
 
-Als deel van het creëren van een BedrijfsGeval, kunt u een reeks doelstellingen tot stand brengen om de doelstellingen van een project te bepalen. De doelstellingen van het bedrijfscase worden gebruikt om aan de Manager van Portfolio of de Sponsor van het Project mee te delen het doel van het voltooien van een project.
+<!-- Audited: 4/2025 -->
+
+Als deel van het creëren van een BedrijfsGeval, kunt u een reeks doelstellingen tot stand brengen om de doelstellingen van een project te bepalen. Deze doelstellingen worden gebruikt om het doel van de voltooiing van een project aan de Manager van Portfolio of de Sponsor van het Project mee te delen.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: below snippet: NWE only, not classic)</p>
@@ -26,18 +28,20 @@ Als deel van het creëren van een BedrijfsGeval, kunt u een reeks doelstellingen
 
 Overweeg het volgende wanneer het creëren van de doelstellingen van BedrijfsGeval voor uw projecten:
 
-* De doelstellingen van het bedrijfscase zijn project-specifiek. U kunt geen doelstellingen van één project aan een andere kopiëren, noch doelstellingen op het systeemniveau vestigen. Zij moeten op het niveau van elk project worden gedefinieerd.
-* Uw beheerder van Adobe Workfront of groepsbeheerder moet de sectie van Doelen voor uw projecten toelaten alvorens het in het BedrijfsGeval van uw projecten toont. Voor informatie over het toelaten van BedrijfsGevallengebieden voor projecten, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
+* De doelstellingen van het bedrijfscase zijn project-specifiek. U kunt geen doelstellingen van één project aan een andere kopiëren of doelstellingen op het systeemniveau vestigen; zij moeten op het niveau van elk project worden bepaald.
+* Uw beheerder van Adobe Workfront of groepsbeheerder moet de sectie van de Doelstellingen van het project toelaten alvorens het in de BedrijfsGeval toont. Voor informatie over het toelaten van BedrijfsGevallengebieden voor projecten, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 
-* De doelstellingen zijn geen verplichte sectie in het BedrijfsGeval van een project.
+* De doelstellingen zijn geen verplichte sectie in de BedrijfsGeval van het project.
 
-  Een project kan een score ontvangen die voorrang moet krijgen in Portfolio Optimizer, zelfs als de sectie van Doelen van de BedrijfsGeval niet wordt bepaald.
+  Een project kan een score ontvangen die voorrang moet krijgen in Portfolio Optimizer, zelfs als de sectie van Doelen niet wordt bepaald.
 
   Voor meer informatie over de Optimizer van Portfolio score, zie [ een scorecard op een project toepassen en een Score van de Uitlijning ](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md) produceren.
 
-* Je kunt geen melding maken van zakelijke doelen.
+* U kunt niet over de doelstellingen van BedrijfsGeval melden.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -48,15 +52,19 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Pro of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td>
+   <td> 
+   <p>Nieuw: Standaard</p> 
+   <p>of</p>
+   <p>Huidig: Plan </p> 
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot projecten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
@@ -66,21 +74,24 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Voeg een doel aan het BedrijfsGeval van een project toe
 
-1. Ga naar een project waarvoor u de doelstellingen van het BedrijfsGeval wilt bepalen.
-1. Klik **Bedrijfs Geval in het linkerpaneel.**
+{{step1-to-projects}}
 
-   De Business Case-displays.
+1. In de projectlijst, selecteer het project u de doelstellingen van BedrijfsGeval voor wilt bepalen.
+1. In het linkerpaneel, klik **Bedrijfs Geval**. De **de sectievertoningen van het BedrijfsGeval**.
 
    ![ Bedrijfs gevalinfo ](assets/business-case-page-info-goals-expenses-nwe-350x123.png)
 
 1. In de **sectie van Doelen**, klik **uitgeven Doelstellingen**.
 
-1. Geef uw doelen op.
-In het **Van het Belang** drop-down menu, selecteer het niveau van belang:
+1. Voer in het eerste veld de doelbeschrijving in.
+
+1. In het **drop-down menu van het Belang**, selecteer het niveau van belang (of prioriteit) voor dit doel:
 
    * Hoogste
    * Hoog
@@ -88,9 +99,12 @@ In het **Van het Belang** drop-down menu, selecteer het niveau van belang:
    * Laag
    * Laagste
 
-     Belangrijk (assets/g1-350x76.png)
+     ![ Belangrijkheid ](assets/g1-350x76.png)
 
-     U kunt de niveaus van het Belang van doelstellingen niet aanpassen.
+     >[!NOTE]
+     >
+     >U kunt de niveaus van het BELANG van doelstellingen niet aanpassen.
 
-1. (Facultatief) om een ander doel toe te voegen, klik **Voeg een ander Doel** toe en herhaal Stap 5 en Stap 6.
+1. (Facultatief) om een ander doel toe te voegen, klik **Voeg een ander Doel** toe en herhaal stappen 5-6.
+
 1. Klik **sparen**.

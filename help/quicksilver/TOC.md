@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: b36cfdc4587bc440867a6a84b9460eaeaf4daf88
+source-git-commit: ab3e1a354ec897797a455d6e25c7bf292a337a9d
 workflow-type: tm+mt
-source-wordcount: '13178'
+source-wordcount: '13174'
 ht-degree: 0%
 
 ---
@@ -1226,7 +1226,7 @@ ht-degree: 0%
          * [Overzicht van het koppelen van een sjabloon aan een project](manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)
       * Een bedrijfscase definiëren {#define-business-case}
          * [Een bedrijfscase definiëren: artikelindex](manage-work/projects/define-a-business-case/define-business-case.md)
-         * [Overzicht van de gebieden van de bedrijfscase](manage-work/projects/define-a-business-case/areas-of-business-case.md)
+         * [Overzicht van Business Case Arees](manage-work/projects/define-a-business-case/areas-of-business-case.md)
          * [Een bedrijfscase maken voor een project](manage-work/projects/define-a-business-case/create-business-case.md)
          * [Een bedrijfscase goedkeuren](manage-work/projects/define-a-business-case/approve-business-case.md)
          * [Overzicht van de financiële vakgebieden Bedrijfscase](manage-work/projects/define-a-business-case/business-case-finances.md)

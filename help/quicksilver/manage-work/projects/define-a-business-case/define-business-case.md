@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: ca5679ba-db5c-4430-9469-0eaaa94fb9ec
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: b38c98ec79617a78c76510bcb109da2ff83247af
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '132'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [ Overzicht van de Gebieden van het BedrijfsGeval ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)
+* [ Overzicht van bedrijfsGevallengebieden ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)
 * [ creeer een BedrijfsGeval voor een project ](../../../manage-work/projects/define-a-business-case/create-business-case.md)
 * [ keur een Bedrijfs Geval ](../../../manage-work/projects/define-a-business-case/approve-business-case.md) goed
 * [ Overzicht van BedrijfsGeval financiële gebieden ](../../../manage-work/projects/define-a-business-case/business-case-finances.md)
