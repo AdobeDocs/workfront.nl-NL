@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
+source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ In dit artikel wordt beschreven hoe u de instellingen voor Workfront-planningsve
 
 ## Toegangsvereisten
 
-+++ Breid uit om toegangsvereisten te bekijken..
++++ Vouw uit om de vereisten voor toegang weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -89,7 +89,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Lay-outsjabloon</p></td> 
-   <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het planningsgebied in het hoofdmenu bevat. </p> </td> 
+   <td> <p>In het milieu van de Productie, moeten alle gebruikers met inbegrip van de Beheerders van het Systeem aan een lay-outmalplaatje worden toegewezen dat Planning omvat.</p>
+<p><span class="preview">In het milieu van de Voorproef, hebben de Standaardgebruikers en de Beheerders van het Systeem Planning die door gebrek wordt toegelaten.</span></p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -98,13 +99,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 +++
 
-<!--replace the layout template info in the table with this at release: 
-
-
-<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
-
--->
 
 ## Overwegingen bij het bewerken van veldinstellingen
 

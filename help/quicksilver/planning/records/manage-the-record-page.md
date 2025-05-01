@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
+source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
 workflow-type: tm+mt
-source-wordcount: '2258'
+source-wordcount: '2254'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Raadpleeg de volgende artikelen voor meer informatie:
 
 ## Toegangsvereisten
 
-+++ Breid uit om toegangsvereisten te bekijken..
++++ Vouw uit om de vereisten voor toegang weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -105,8 +105,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>In het milieu van de Productie, moeten alle gebruikers met inbegrip van de Beheerders van het Systeem aan een lay-outmalplaatje worden toegewezen dat de gebieden van de Planning omvat.</p>
-<p><span class="preview">In het milieu van de Voorproef, hebben de Standaardgebruikers en de Beheerders van het Systeem het Gebied van de Planning dat door gebrek wordt toegelaten.</span></p>  
+   <td> <p>In het milieu van de Productie, moeten alle gebruikers met inbegrip van de Beheerders van het Systeem aan een lay-outmalplaatje worden toegewezen dat Planning omvat.</p>
+<p><span class="preview">In het milieu van de Voorproef, hebben de Standaardgebruikers en de Beheerders van het Systeem Planning die door gebrek wordt toegelaten.</span></p>  
 </td>
   </tr>
  </tbody>

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
+source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1063'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ In het rechterdeelvenster van een record worden de volgende secties weergegeven:
 
 ## Toegangsvereisten
 
-+++ Breid uit om toegangsvereisten te bekijken..
++++ Vouw uit om de vereisten voor toegang weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -89,7 +89,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Lay-outsjabloon</p></td> 
-   <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het planningsgebied in het hoofdmenu bevat. </p> </td> 
+   <td> <p>In het milieu van de Productie, moeten alle gebruikers met inbegrip van de beheerders van het Systeem aan een lay-outmalplaatje worden toegewezen dat de gebieden van de Planning omvat.</p>
+   <div class="preview">
+<p> In het milieu van de Voorproef, moeten de gebruikers met een Licht of de vergunning van de Medewerker een lay-outmalplaatje worden toegewezen dat Planning omvat.</p>
+
+<p>De standaardgebruikers en de Beheerders van het Systeem hebben Planning die door gebrek wordt toegelaten.</p></div>
+
+<p>Voor meer informatie, zie <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md"> lay-outmalplaatjes </a> creëren en beheren.</p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -98,20 +104,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 +++
 
-<!--replace the layout template info in the table with this at release: 
 
-<div class="preview">
-<p> Users with a Light or Contributor license must be assigned a layout template that includes the Planning option  in the following areas:</p>
-   <ul><li>Main Menu</li>
-   <li>Left panel of projects, portfolios, and programs</li>
-   <li>Landing page</li>
-   <li>Pins</li></ul>
-   <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">Create and manage layout templates</a>.</p>
-   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div>
-   <p><b>NOTE</b></p>
-   <p>In the Production environment, all users including the System administrators must be assigned to a layout template that includes the Planning areas.</p>
-
--->
 
 ## Overwegingen bij opmerkingen in een record
 
@@ -204,7 +197,7 @@ De recordtypepagina wordt geopend en alle records van dat type worden weergegeve
       >Comments from the current year do not display the year in the date stamp. Hovering over a timestamp displays the full date, including the year.
 1. (Optional and conditional) To search for an existing comment, start typing a keyword in the search box in the upper-right corner of the **Comments** area.     
    ![Search box for comments](assets/search-box-for-comments-area.png)
-1. (Optional) Click **Reply** or start typing a comment in the **Add reply ...** area, to reply to an existing comment, then follow steps 4-8 above. (**************accurate??***********)
+1. (Optional) Click **Reply** or start typing a comment in the **Add reply ..** area, to reply to an existing comment, then follow steps 4-8 above. (**************accurate??***********)
 1. (Conditional and optional) If other users have added comments that display outside of the visible area in the Comments section while you were adding your comments, click **View** inside the **new comments banner** at the bottom of the screen  to display these comments.
    ![New comments banner on record](assets/new-comments-banner-on-record.png)
 

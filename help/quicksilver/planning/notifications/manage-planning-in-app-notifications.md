@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 0%
@@ -28,7 +28,7 @@ U kunt in-app berichten van de Planning van Workfront ontvangen wanneer de volge
 
 ## Toegangsvereisten
 
-+++ Breid uit om toegangsvereisten te bekijken..
++++ Vouw uit om de vereisten voor toegang weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -101,7 +101,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 <!--
 OLD:
 
-+++ Expand to view access requirements.. 
++++ Expand to view access requirements. 
 
 <table style="table-layout:auto">
  <col>

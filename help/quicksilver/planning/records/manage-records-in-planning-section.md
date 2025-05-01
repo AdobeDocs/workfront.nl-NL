@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
 workflow-type: tm+mt
-source-wordcount: '1863'
+source-wordcount: '1847'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ U kunt Workfront Planning-records in Workfront weergeven in de volgende gebieden
 
 ## Toegangsvereisten
 
-+++ Breid uit om toegangsvereisten te bekijken..
++++ Vouw uit om de vereisten voor toegang weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -102,7 +102,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Om het planningsgebied of de sectie van de Planning voor een voorwerp van Workfront te bekijken, moeten alle gebruikers, met inbegrip van de beheerders van Workfront, een lay-outmalplaatje worden toegewezen dat het gebied van de Planning in het Belangrijkste Menu en het gebied van de Planning voor projecten, portefeuilles, en programma's omvat. </p> Voor meer informatie, zie <a href="/help/quicksilver/planning/access/access-overview.md"> Adobe die toegangsoverzicht van de Planning </a>. </p>  </p>  
+   <td> <p>In het milieu van de Productie, moeten alle gebruikers met inbegrip van de Beheerders van het Systeem aan een lay-outmalplaatje worden toegewezen dat Planning omvat.</p>
+<p><span class="preview">In het milieu van de Voorproef, hebben de Standaardgebruikers en de Beheerders van het Systeem Planning die door gebrek wordt toegelaten.</span></p>  </p>  
 </td>
   </tr>
  </tbody>
@@ -112,13 +113,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 +++
 
-<!--replace the layout template info in the table with this at release: 
-
-
-<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
-
--->
 
 ## Records beheren in de sectie Planning
 

@@ -6,7 +6,7 @@ description: U kunt een update toevoegen aan een Adobe Workfront-object (project
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
+source-git-commit: c06f25de917474ffae9a7de3a00033fdf9c84b58
 workflow-type: tm+mt
 source-wordcount: '3234'
 ht-degree: 0%
@@ -241,11 +241,9 @@ In dit artikel wordt beschreven hoe u projecten, taken of problemen kunt bijwerk
 1. Klik **Updates** in het linkerpaneel.
 Het **lusje van Commentaren** wordt geselecteerd door gebrek.
 
-1. 
-   <div class="preview">Voer een opmerking in in het vak **Nieuwe opmerking**.
+1. <span class="preview"> Begin ingerend een commentaar in de **Nieuwe commentaar** doos.</span>
 
-   ![ Nieuwe commentaardoos ](assets/comment-box-all-tabs.png)
-   </div>
+   <span class="preview">![ Nieuwe commentaardoos ](assets/comment-box-all-tabs.png)</span>
 
    >[!TIP]
    >

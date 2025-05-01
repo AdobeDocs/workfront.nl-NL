@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
-source-git-commit: f171db8474df703fddbf63a673f9bfbd2ab2db27
+source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ In het rechterdeelvenster van een record worden de volgende secties weergegeven:
 
 ## Toegangsvereisten
 
-+++ Breid uit om toegangsvereisten te bekijken..
++++ Vouw uit om de vereisten voor toegang weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -89,7 +89,15 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Lay-outsjabloon</p></td> 
-   <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het planningsgebied in het hoofdmenu bevat. </p> </td> 
+   <td> 
+   <p>In het milieu van de Productie, moeten alle gebruikers met inbegrip van de beheerders van het Systeem aan een lay-outmalplaatje worden toegewezen dat de gebieden van de Planning omvat.</p>
+   <div class="preview">
+<p> In het milieu van de Voorproef, moeten de gebruikers met een Licht of de vergunning van de Medewerker een lay-outmalplaatje worden toegewezen dat Planning omvat.</p>
+
+<p>De standaardgebruikers en de Beheerders van het Systeem hebben Planning die door gebrek wordt toegelaten.</p></div>
+
+<p>Voor meer informatie, zie <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md"> lay-outmalplaatjes </a> creëren en beheren.</p>
+    </td> 
   </tr> 
 </tbody> 
 </table>
@@ -97,21 +105,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 *Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
-<!--replace the layout template info in the table with this at release: 
-
-<div class="preview">
-<p> Users with a Light or Contributor license must be assigned a layout template that includes the Planning option  in the following areas:</p>
-   <ul><li>Main Menu</li>
-   <li>Left panel of projects, portfolios, and programs</li>
-   <li>Landing page</li>
-   <li>Pins</li></ul>
-   <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">Create and manage layout templates</a>.</p>
-   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div>
-   <p><b>NOTE</b></p>
-   <p>In the Production environment, all users including the System administrators must be assigned to a layout template that includes the Planning areas.</p>
-
--->
 
 ## De sectie Historie van een record zoeken
 

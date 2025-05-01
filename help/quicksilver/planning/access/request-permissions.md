@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
-source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
+source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '743'
 ht-degree: 0%
 
 ---
 
 # Machtigingen aanvragen voor een weergave of werkruimte
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 >[!IMPORTANT]
 >
@@ -40,7 +40,7 @@ Zie de volgende artikelen voor informatie over het verlenen van machtigingen aan
 
 ## Toegangsvereisten
 
-+++ Breid uit om toegangsvereisten te bekijken..
++++ Vouw uit om de vereisten voor toegang weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -103,7 +103,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Lay-outsjabloon</p></td> 
-   <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het planningsgebied in het hoofdmenu bevat. </p> </td> 
+   <td> 
+   <p>In het milieu van de Productie, moeten alle gebruikers met inbegrip van de beheerders van het Systeem aan een lay-outmalplaatje worden toegewezen dat de gebieden van de Planning omvat.</p>
+   <div class="preview">
+<p> In het milieu van de Voorproef, moeten de gebruikers met een Licht of de vergunning van de Medewerker een lay-outmalplaatje worden toegewezen dat de optie van de Planning op de volgende gebieden omvat:</p>
+   <ul><li>Hoofdmenu</li>
+   <li>Deelvenster links van projecten, portfolio's en programma's</li>
+   </ul>
+   <p>Voor meer informatie, zie <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md"> lay-outmalplaatjes </a> creëren en beheren.</p>
+   <p>De standaardgebruikers en de Beheerders van het Systeem hebben de Gebieden van de Planning die door gebrek worden toegelaten.</p></div>
+   </td> 
   </tr> 
 </tbody> 
 </table>
@@ -112,20 +121,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 +++
 
-<!--replace the layout template info in the table with this at release: 
-
-<div class="preview">
-<p> Users with a Light or Contributor license must be assigned a layout template that includes the Planning option  in the following areas:</p>
-   <ul><li>Main Menu</li>
-   <li>Left panel of projects, portfolios, and programs</li>
-   <li>Landing page</li>
-   <li>Pins</li></ul>
-   <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">Create and manage layout templates</a>.</p>
-   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div>
-   <p><b>NOTE</b></p>
-   <p>In the Production environment, all users including the System administrators must be assigned to a layout template that includes the Planning areas.</p>
-
--->
 
 ## Machtigingen aanvragen voor een weergave of werkruimte
 
