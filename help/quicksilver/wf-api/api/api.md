@@ -27,7 +27,7 @@ Deze sectie bevat de volgende artikelen:
 * [ de abonnementcertificaten van de gebeurtenis ](../../wf-api/api/event-sub-certs.md)
 * [ specificeer een API Versie in uw integraties ](../../wf-api/api/specify-api-version-integrations.md)
 
-* {de veranderingen van 0} Kern API: De antwoorden van het het onderzoek van de status ](../../wf-api/api/api-changes-search.md)[
+* {de veranderingen van 0} Kern API: De antwoorden van het het onderzoek van de status [&#128279;](../../wf-api/api/api-changes-search.md)
 * [ de integraties van de Update die standaard API versioning ](../../wf-api/api/update-default-api-versioning.md) gebruiken
 * [ Verdringing van API-Intern ](../../wf-api/api/deprecation-api-internal.md)
 * [ Geëescapte karakters in API Reacties ](../../wf-api/api/escaped-characters-api.md)
