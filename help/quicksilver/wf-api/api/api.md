@@ -9,9 +9,9 @@ feature: Workfront API
 recommendations: noDisplay, noCatalog
 role: Developer
 exl-id: 90e00a71-1a3a-4e3f-99d8-47700052a9dc
-source-git-commit: b5e83e4dd091798086061e425816152aef588e8c
+source-git-commit: b57dd3a93b84fb78fb697e1fb18352809f0987f8
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,7 @@ Deze sectie bevat de volgende artikelen:
 * [Vorm en gebruik de douane OAuth 2 van uw organisatie toepassingen gebruikend de stroom van de vergunningscode](../../wf-api/api/oauth-app-code-token-flow.md)
 * [Configureer en gebruik de aangepaste OAuth 2-toepassingen van uw organisatie met behulp van JWT-flow](../../wf-api/api/oauth-app-jwt-flow.md)
 * [Configureer en gebruik de aangepaste OAuth 2-toepassingen van uw organisatie met PKCE-stroom](../../wf-api/api/oauth-app-pkce-flow.md)
+* [ wat in API versie 20 ](../../wf-api/api/new-api-version-20.md) nieuw is
 * [ wat in API versie 19 ](../../wf-api/api/new-api-version-19.md) nieuw is
 * [ wat in API versie 18 ](../../wf-api/api/new-api-version-18.md) nieuw is
 * [ wat in API versie 17 ](../../wf-api/api/new-api-version-17.md) nieuw is
