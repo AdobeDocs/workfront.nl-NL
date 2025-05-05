@@ -50,7 +50,7 @@ Elke gebruiker kan ook zijn eigen instellingen voor e-mailwaarschuwingen instell
 
 Gebruikers met [!UICONTROL Administrator] - of [!UICONTROL Billing Administrator] -profielen kunnen de standaardwaarden voor proefdrukken ook instellen voor andere gebruikers in hun account vanuit de accountinstellingen.
 
-Voor informatie over profielen, zie {de Profielen van de Toestemmingen van 0} Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).[
+Voor informatie over profielen, zie {de Profielen van de Toestemmingen van 0} Bewijs in  [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
 ## Toegangsvereisten
 
@@ -166,7 +166,7 @@ Als u een [!DNL Workfront Proof] beheerder bent, kunt u proefdrukstandaardinstel
 1. Klik op **[!UICONTROL Account settings]** boven aan het scherm.
 
 1. Open de tab **[!UICONTROL Users]** .
-1. Open het **[!UICONTROL  More]** menu ![ More_button_small.png ](assets/more-button-small.png) aan het recht van de naam van de gebruiker.
+1. Open het **[!UICONTROL &#x200B; More]** menu ![ More_button_small.png ](assets/more-button-small.png) aan het recht van de naam van de gebruiker.
 
 1. Klik op **[!UICONTROL View users details]** in de vervolgkeuzelijst.
 1. Klik onder **[!UICONTROL Settings]** op **[!UICONTROL Default email alert settings]** om het uit te vouwen.

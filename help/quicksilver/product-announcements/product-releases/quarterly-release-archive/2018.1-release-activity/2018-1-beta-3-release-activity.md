@@ -34,7 +34,7 @@ De Beta 3-release van 2018.1 bevat verbeteringen voor zowel Workfront-beheerders
 
 * [ HTML5 die kijkerverbeteringen ](#html5-proofing-viewer-improvements) proofing
 * [ het Bewijzen Verbeteringen binnen Workfront ](#proofing-improvements-within-workfront)
-* {de Verbeteringen van het 0} Gebied van het Huis ](#home-area-improvements) [
+* {de Verbeteringen van het 0} Gebied van het Huis [&#128279;](#home-area-improvements) 
 * [ de Verbeteringen van de Gelijkheid ](#agile-improvements)
 * [ de Verbeteringen van de Grafiek van de Gantt ](#gantt-chart-improvements)
 * [Verbeteringen voor middelenplanner](#resource-planner-improvements)

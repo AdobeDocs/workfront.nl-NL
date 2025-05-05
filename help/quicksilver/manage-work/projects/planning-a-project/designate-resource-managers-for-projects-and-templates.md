@@ -167,7 +167,7 @@ De gebruikers die als Managers van het Middel aan een project of een malplaatje 
 
 ## Bronbeheer toewijzen voor een sjabloon
 
-1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.**
+1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.**
 
 1. Klik **Malplaatjes**.
 

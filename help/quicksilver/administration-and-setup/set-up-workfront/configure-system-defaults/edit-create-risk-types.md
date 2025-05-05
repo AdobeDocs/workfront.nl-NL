@@ -69,7 +69,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 De types van risico zijn etiketten u voor uw risico&#39;s kunt gebruiken om hen voor rapporteringsdoeleinden te categoriseren.
 
-Als a [!DNL Workfront] beheerder, kunt u [!UICONTROL Risk Types] in het [!UICONTROL **3} gebied van de Opstelling {tot stand brengen.**]
+Als a [!DNL Workfront] beheerder, kunt u [!UICONTROL Risk Types] in het [!UICONTROL **3&rbrace; gebied van de Opstelling &lbrace;tot stand brengen.**]
 
 Nadat u de typen risico&#39;s hebt ingesteld, zijn deze allemaal voor uw systeem beschikbaar.
 
@@ -109,7 +109,7 @@ U kunt het volgende doen om het aantal risicstypen in uw Workfront-instantie te 
 
 1. (Facultatief) om een risicatype te schrappen, het in de lijst te selecteren, dan het [!UICONTROL **pictogram van de Schrapping**] ![ te klikken pictogram van de Schrapping ](assets/delete.png), dan ja te klikken [!UICONTROL **, het**] te schrappen. Het risicomatype wordt verwijderd en kan niet worden hersteld.
 
-1. (Facultatief) om een lijst van risicstypes uit te voeren, klik het **]pictogram van de Uitvoer ![ pictogram van de Uitvoer ](assets/export-icon.png).[!UICONTROL ** U kunt naar de volgende bestandstypen exporteren:
+1. (Facultatief) om een lijst van risicstypes uit te voeren, klik het **pictogram van de Uitvoer ![ pictogram van de Uitvoer ](assets/export-icon.png).** U kunt naar de volgende bestandstypen exporteren:
 
    * PDF
    * Excel

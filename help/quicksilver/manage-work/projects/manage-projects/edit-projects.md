@@ -159,7 +159,7 @@ Voor informatie over het creëren van een project van een malplaatje, zie [ een 
    >
    >Afhankelijk van de manier waarop uw Workfront-beheerder of groepsbeheerder uw lay-outsjabloon heeft gewijzigd, kunnen de gebieden in het linkerdeelvenster van het vak Project bewerken of de velden in deze gebieden opnieuw worden gerangschikt of niet worden weergegeven. Voor informatie, zie [ de mening van Details aanpassen gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-1. (Voorwaardelijk) als u het **Meer** menu klikte en dan **** uitgeeft, werk informatie in om het even welke volgende die gebieden bij in het linkerpaneel worden vermeld:
+1. (Voorwaardelijk) als u het **Meer** menu klikte en dan **&#x200B;**&#x200B;uitgeeft, werk informatie in om het even welke volgende die gebieden bij in het linkerpaneel worden vermeld:
 
    * [ de Naam van het Project ](#project-name)
    * [ Overzicht ](#overview)
@@ -511,7 +511,7 @@ Velden bewerken in het gebied Financiën:
        <td> <p> <p>Selecteer een van de volgende opties:</p> 
        <ul> 
        <li> <p>Selecteer <strong> Nr </strong> om alle project-specifieke uurtypes beschikbaar te maken op het project. (Dit is de standaardselectie)</p> <p>of</p> </li> 
-       <li>Selecteer <strong> ja </strong> om slechts een ondergroep van de project-specifieke uurtypes beschikbaar op het project te maken, dan de uurtypes te selecteren u van het <b> 3} gebied van de Types van Uur {beschikbaar wilt maken.</b></li> 
+       <li>Selecteer <strong> ja </strong> om slechts een ondergroep van de project-specifieke uurtypes beschikbaar op het project te maken, dan de uurtypes te selecteren u van het <b> 3&rbrace; gebied van de Types van Uur &lbrace;beschikbaar wilt maken.</b></li> 
        <p><b>TIP</b></p>
        <p>Het <b> gebied van de Types van Uur </b> is niet editable wanneer u <b> Nr </b> selecteert.</p> 
        <p>Als u deze optie selecteert, worden alleen de uurstypen die u selecteert, beschikbaar gemaakt om te selecteren wanneer u zich aanmeldt in uren voor het project (of voor taken en problemen binnen het project). U moet minstens één uurtype selecteren; als u deze optie selecteert en u geen uurtypes selecteert, worden alle uurtypes ter beschikking gesteld op het project.</p> </ul>
@@ -557,7 +557,7 @@ Voor informatie over hoe deze montages het creëren van nieuwe taken beïnvloede
 
    ![ de montages van de Taak in uitgeeft projectdoos ](assets/nwe-task-settings-in-edit-project-box-350x211.png)
 
-1. In het **vakje van het Proces van de Goedkeuring van het Standaard van de Taak 0}, selecteer het proces van de taakgoedkeuring u met alle nieuwe taken wilt associëren wanneer u hen aan het project toevoegt.**
+1. In het **vakje van het Proces van de Goedkeuring van het Standaard van de Taak 0&rbrace;, selecteer het proces van de taakgoedkeuring u met alle nieuwe taken wilt associëren wanneer u hen aan het project toevoegt.**
 
    Uw beheerder van Workfront (of een gebruiker met administratieve toegang tot de processen van de Goedkeuring) moet een systeem-niveau of groep-vlakke goedkeuringsproces voor een taak tot stand brengen alvorens u het met een project kunt associëren. Alleen actieve goedkeuringsprocessen worden in de lijst weergegeven. Voor informatie over het creëren van de Processen van de Goedkeuring, zie [ een goedkeuringsproces voor het werkpunten ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) creëren. Voor informatie over hoe de veranderingen in de groep van het project of de veranderingen in het goedkeuringsproces goedkeuringsmontages beïnvloeden, zie [ hoe de groep en de veranderingen van het goedkeuringsproces aangewezen goedkeuringsprocessen ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md) beïnvloeden.
 
@@ -566,7 +566,7 @@ Voor informatie over hoe deze montages het creëren van nieuwe taken beïnvloede
    * Wanneer u veelvoudige projecten van de zelfde groep selecteert, zowel systeem-niveau als groep-specifieke processen van de taakgoedkeuring tonen op dit gebied.
    * Wanneer u veelvoudige projecten van verschillende groepen selecteert, slechts worden de systeem-vlakke processen van de taakgoedkeuring getoond op dit gebied.
 
-1. In het **vakje van de Aangepaste Forms van het Standaard van de Taak 0}, selecteer de douanevorm of de vormen die u met alle nieuwe taken wilt associëren wanneer u hen aan het project toevoegt.** U moet aangepaste formulieren maken voordat u ze in dit veld kunt selecteren. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Voor meer informatie over de bouw van douaneformulieren, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren. U kunt maximaal tien aangepaste formulieren aan een taak koppelen.
+1. In het **vakje van de Aangepaste Forms van het Standaard van de Taak 0&rbrace;, selecteer de douanevorm of de vormen die u met alle nieuwe taken wilt associëren wanneer u hen aan het project toevoegt.** U moet aangepaste formulieren maken voordat u ze in dit veld kunt selecteren. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Voor meer informatie over de bouw van douaneformulieren, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren. U kunt maximaal tien aangepaste formulieren aan een taak koppelen.
 1. (Optioneel) Selecteer **Werkinspanning van het Gebruik om taak Geplande Uren** automatisch te berekenen als u het beheren van taakinspanning wilt toelaten door de Werkinspanning in plaats van Geplande Uren te gebruiken.
 
    ![ de inspanning van het Werk in uitgeeft projectdoos ](assets/nwe-work-effort-on-projects-350x182.png)
@@ -802,7 +802,7 @@ Voor meer informatie over het uitgeven van het gebied van de Montages van de Taa
 Voor meer informatie over het uitgeven van het gebied van de Montages van de Uitgave, zie de sectie [ Montages van de Uitgave ](#issue-settings) in dit artikel.
 1. Klik **Toegang** om de toegangsmontages voor alle geselecteerde projecten uit te geven.
 Voor meer informatie over het uitgeven van het gebied van de Toegang, zie de sectie [ Toegang ](#access) in dit artikel.
-1. Klik **Commentaar**, dan voeg een commentaar in de verstrekte ruimte toe. Workfront voegt de commentaar in het **** gebied van Updates van elk project toe. Voor informatie over het bijwerken van het werk, zie [ het werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. Klik **Commentaar**, dan voeg een commentaar in de verstrekte ruimte toe. Workfront voegt de commentaar in het **&#x200B;**&#x200B;gebied van Updates van elk project toe. Voor informatie over het bijwerken van het werk, zie [ het werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Facultatief) om het even welke informatie te verwijderen u in de Edit doos van Projecten toevoegde, beweegt over een uitgegeven gebied, dan klik **x** verwerpen pictogram aan het hoger-recht van het gebied.
 
    ![ verwerp pictogram voor gebied uitgeeft projecten in bulk ](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)

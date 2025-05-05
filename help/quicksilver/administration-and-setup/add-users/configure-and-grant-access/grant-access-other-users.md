@@ -67,7 +67,7 @@ U kunt beheren welke informatie gebruikers voor andere gebruikers kunnen bekijke
 1. Beginnen creërend of het uitgeven van het toegangsniveau, zoals die in [ wordt verklaard creeer of wijzig douanetoegangsniveaus ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. U wijzigt als volgt de mogelijkheid voor gebruikers met een abonnement- of werkvergunning om de profielen van andere gebruikers weer te geven:
 
-   1. Klik het tandwielpictogram ![](assets/gear-icon-settings.png) op de **2} knoop van de Mening {aan het recht van** Gebruikers **.**
+   1. Klik het tandwielpictogram ![](assets/gear-icon-settings.png) op de **2&rbrace; knoop van de Mening &lbrace;aan het recht van** Gebruikers **.**
 
    1. Schakel **Info van het Contact van de Mening** uit, dan klik X om **te sluiten verfijnen uw montages** doos.
 

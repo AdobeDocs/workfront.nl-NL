@@ -50,18 +50,18 @@ Omdat de bevordering van het milieu objecten configuratie behandelt, zijn de tra
 
 | Promoteerbaar object | Opgenomen promoteerbare gekoppelde objecten |
 | --- | --- |
-| Project (PROJ) | De Taak van het project <br> 1} Taak <br> Predecessor <br> Onderneming <br> het Tarief van de Overschrijving van de Groep <br> <br> Rol van het Team <br> het Proces van de Goedkeuring <br> Stap van de Goedkeuring 11} Stap <br> Plan van de Stap 13} Dag van de Werkvoorraad <br> Werkgroep 16} Het Onderwerp van de rij <br> Verpletterend Regel <br> Mijlpad van de Mijlsteen <br> Mijlsteen <br> het Pool van het Type van uur <br> Categorie <br> CategorieParameter <br> de Groep van de Parameter 25} <br> Optie van de Parameter <br> Logica van de Categorie<br><br><br><br><br><br><br><br><br> |
-| Sjabloon (TMPL) | De Taak van het Malplaatje <br> Taak van het Malplaatje <br> Predecessor van de Taak van het Malplaatje <br> Bedrijf <br> het Tarief van de Overschrijving van de Groep <br> Rol van de Groep <br> 8} van de Goedkeuring <br> Stap van de Goedkeuring 11} Stap van de Stap van de Stap <br> Dag van de Werkvoorraad <br> Werkgroep 15} <br> het Onderwerp van de Rij <br> Verpletterend 18} Mijlpad van de Regel <br> Mijlsteen <br> het Type van het Huur <br> Pool van het Middel <br> CategorieParameter <br> de 25} 26} Optie van de Parameter van de Parameter <br> Logica van de Categorie<br><br><br><br><br><br><br><br><br><br><br> |
+| Project (PROJ) | De Taak van het project <br> 1&rbrace; Taak <br> Predecessor <br> Onderneming <br> het Tarief van de Overschrijving van de Groep <br> <br> Rol van het Team <br> het Proces van de Goedkeuring <br> Stap van de Goedkeuring 11&rbrace; Stap <br> Plan van de Stap 13&rbrace; Dag van de Werkvoorraad <br> Werkgroep 16&rbrace; Het Onderwerp van de rij <br> Verpletterend Regel <br> Mijlpad van de Mijlsteen <br> Mijlsteen <br> het Pool van het Type van uur <br> Categorie <br> CategorieParameter <br> de Groep van de Parameter 25&rbrace; <br> Optie van de Parameter <br> Logica van de Categorie<br><br><br><br><br><br><br><br><br> |
+| Sjabloon (TMPL) | De Taak van het Malplaatje <br> Taak van het Malplaatje <br> Predecessor van de Taak van het Malplaatje <br> Bedrijf <br> het Tarief van de Overschrijving van de Groep <br> Rol van de Groep <br> 8&rbrace; van de Goedkeuring <br> Stap van de Goedkeuring 11&rbrace; Stap van de Stap van de Stap <br> Dag van de Werkvoorraad <br> Werkgroep 15&rbrace; <br> het Onderwerp van de Rij <br> Verpletterend 18&rbrace; Mijlpad van de Regel <br> Mijlsteen <br> het Type van het Huur <br> Pool van het Middel <br> CategorieParameter <br> de 25&rbrace; 26&rbrace; Optie van de Parameter van de Parameter <br> Logica van de Categorie<br><br><br><br><br><br><br><br><br><br><br> |
 
 ### Objecten rapporteren
 
 | Promoteerbaar object | Opgenomen promoteerbare gekoppelde objecten |
 | --- | --- |
-| Lay-outsjabloon (UITMPL) | Het Malplaatje van de lay-out {<br> Kalender <br> Sectie van de Kalender <br> Externe Pagina <br> het Rapport <br> van de Filter <br> Groepering <br> van de Mening <br> van de Parameter <br> Groep<br> |
-| Dashboard (PTLTAB) | De Sectie van de Kalender van het dashboard <br> {<br> Externe Pagina <br> van het Rapport <br> <br> Groepering <br> van de Mening <br> Parameter<br> |
+| Lay-outsjabloon (UITMPL) | Het Malplaatje van de lay-out &lbrace;<br> Kalender <br> Sectie van de Kalender <br> Externe Pagina <br> het Rapport <br> van de Filter <br> Groepering <br> van de Mening <br> van de Parameter <br> Groep<br> |
+| Dashboard (PTLTAB) | De Sectie van de Kalender van het dashboard <br> &lbrace;<br> Externe Pagina <br> van het Rapport <br> <br> Groepering <br> van de Mening <br> Parameter<br> |
 | Kalender (CALEND) | Kalender <br> Sectie van de Kalender |
 | Externe pagina (EXTSEC) | Externe pagina |
-| Rapport (PTLSEC) | Het verslag <br> Groepering van de 1} Filter <br> Mening <br> Parameter<br> |
+| Rapport (PTLSEC) | Het verslag <br> Groepering van de 1&rbrace; Filter <br> Mening <br> Parameter<br> |
 | Filter (UIFT) | Filter <br> Parameter |
 | Groeperen (UIGB) | <br> Parameter groeperen |
 | Weergave (UIVW) | Weergave <br> Parameter |
@@ -70,7 +70,7 @@ Omdat de bevordering van het milieu objecten configuratie behandelt, zijn de tra
 
 | Promoteerbaar object | Opgenomen promoteerbare gekoppelde objecten |
 | --- | --- |
-| Categorie (CTGY) | De Categorie <br> Parameter van de 1} <br> Parameter van de Groep <br> Optie van de Parameter van de Partij <br> Categorie van de Logische Logica van de Vertoning van de Categorie <br> Groep van de Groep van de Categorie {<br> |
+| Categorie (CTGY) | De Categorie <br> Parameter van de 1&rbrace; <br> Parameter van de Groep <br> Optie van de Parameter van de Partij <br> Categorie van de Logische Logica van de Vertoning van de Categorie <br> Groep van de Groep van de Categorie &lbrace;<br> |
 | Parameter (PARAM) | De Optie van de Parameter <br> |
 | Parametergroep (PGRP) | Parametergroep |
 
@@ -82,8 +82,8 @@ Omdat de bevordering van het milieu objecten configuratie behandelt, zijn de tra
 | Rol (ROLE) | Rol |
 | Team (TEAM) | Team <br> Groep |
 | Bedrijf (CMPY) | Het bedrijf <br> het Tarief van de Overschrijving <br> Categorie <br> <br> Parameter <br> de Groep van de Parameter <br> Parameter <br> van de Categorie van de Logica van de Vertoning <br> Groep |
-| Portfolio (PORT) | Portfolio <br> van de Groep van het 1} {<br> Categorie <br> <br> Parameter <br> van de Parameter {<br> Optie van de Parameter van de 6} <br> Logische van de Vertoning van de Categorie<br> |
-| Programma (PRGM) | Het programma <br> van de Groep van Portfolio <br> <br> Categorie <br> Parameter <br> Van de Groep van de Parameter {<br> Logische van de Vertoning van de Categorie van de Categorie van de Optie van de Partij van de Parameter {<br><br> |
+| Portfolio (PORT) | Portfolio <br> van de Groep van het 1&rbrace; &lbrace;<br> Categorie <br> <br> Parameter <br> van de Parameter {<br> Optie van de Parameter van de 6} <br> Logische van de Vertoning van de Categorie<br> |
+| Programma (PRGM) | Het programma <br> van de Groep van Portfolio <br> <br> Categorie <br> Parameter <br> Van de Groep van de Parameter &lbrace;<br> Logische van de Vertoning van de Categorie van de Categorie van de Optie van de Partij van de Parameter &lbrace;<br><br> |
 
 ### Andere configuratieobjecten
 

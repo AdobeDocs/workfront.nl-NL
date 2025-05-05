@@ -144,7 +144,7 @@ Wij adviseren dat u een rapport voor gebruikers bouwt die u voor deactivering he
 
 1. Selecteer een gebruiker, klik het Meer pictogram ![ Meer pictogram ](assets/more-icon.png), dan klik **activeren**.
 
-1. Wijs een nieuw **niveau van de Toegang** in het drop-down menu toe, dan klik **** Reactivate.
+1. Wijs een nieuw **niveau van de Toegang** in het drop-down menu toe, dan klik **&#x200B;**&#x200B;Reactivate.
 <!--
 ### Asset review and approval impact when you reactivate a user
 

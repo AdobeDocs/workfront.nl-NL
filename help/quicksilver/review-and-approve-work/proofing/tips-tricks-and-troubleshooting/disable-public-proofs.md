@@ -64,7 +64,7 @@ U moet de bewijseigenaar of maker zijn, of u moet de proefdrukrol Auteur of Mode
 
 U kunt de instelling Openbaar maken uitschakelen voor afzonderlijke gebruikers in uw Workfront-exemplaar. U moet beschikken over een beheerdersprofiel voor het bewijs van bevoegdheid om deze wijziging aan te brengen.
 
-1. Klik het **pictogram van het 1} pictogram van het Hoofdmenu ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** het Bewijzen **.**
+1. Klik het **pictogram van het 1&rbrace; pictogram van het Hoofdmenu ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** het Bewijzen **.**
 1. Klik **Montages van de Rekening** dichtbij de hoger-juiste hoek.
 1. Klik het **lusje van Gebruikers**, dan klik op de naam van een gebruiker.
 1. In de **Standaard proefdrukmontages** sectie, maak het **Openbare het Delen** checkbox onbruikbaar.

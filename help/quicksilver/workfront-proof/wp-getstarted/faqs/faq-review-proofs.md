@@ -58,8 +58,8 @@ Teken gewoon het gewenste gereedschap, de kleur van de markering en de dikte van
 Met het gereedschap voor tekstannotatie dat beschikbaar is in [!UICONTROL Proof Viewer] kunt u snel tekst in een proefdruk markeren. U opent deze door op de knop *[!UICONTROL Add a comment]* boven aan de pagina te klikken. Het gereedschap Annotatie is het eerste pictogram links op de werkbalk. Hiermee kunt u tekst in uw proefdruk selecteren. U kunt uit vier opties kiezen:
 
 * markering - het benadrukt de tekst en kopieert het in commentaarvakje
-* replace - kopieert de tekst en voegt [{0]] en [[!UICONTROL WITH]] toe in het commentaarvakje, zodat u vervangingstekst gemakkelijk kunt voorstellen[!UICONTROL REPLACE]
-* delete - streept door de tekst en voegt [{0]] aan het commentaarvakje toe[!UICONTROL DELETE]
+* replace - kopieert de tekst en voegt [&lbrace;0]&rbrack; en [[!UICONTROL WITH]] toe in het commentaarvakje, zodat u vervangingstekst gemakkelijk kunt voorstellen[!UICONTROL REPLACE]
+* delete - streept door de tekst en voegt [&lbrace;0]&rbrack; aan het commentaarvakje toe[!UICONTROL DELETE]
 * invoegen na - hiermee kunt u gemakkelijk tekst voorstellen die na de gemarkeerde zin moet worden ingevoegd
 
 Als de tekst die u wilt gebruiken in een afzonderlijk document wordt opgeslagen, kunt u de sneltoetsen (ctrl+c en ctrl+v op een pc, cmd+c en cmd+v op een [!DNL Mac] ) gebruiken om deze te kopiëren en in het vak [!UICONTROL comment] te plakken.

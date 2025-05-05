@@ -97,7 +97,7 @@ Als Workfront-beheerder kunt u uitgiftesetters maken en bewerken die zijn afgest
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **>** de Voorkeur van het Project ****.
+1. In het linkerpaneel, klik **>** de Voorkeur van het Project **&#x200B;**.
 
 1. Als u een nieuwe strengheid creeert, voegt de klik **een Nieuwe Ernst** toe.
 1. Vorm de volgende opties voor de nieuwe strengheid of geef hen voor bestaande uit:

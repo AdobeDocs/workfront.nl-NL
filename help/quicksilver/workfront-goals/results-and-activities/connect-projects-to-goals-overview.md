@@ -134,7 +134,7 @@ There is an indication on the goal list that the project no longer updates progr
 1. (Facultatief) klik het **pictogram van het Onderzoek ![ pictogram van het Onderzoek ](assets/search-icon.png) en begin de naam van een project te typen om het in de lijst snel te vinden.**
 1. Selecteer de projecten die u aan het doel wilt toevoegen, dan klik **toevoegen**.
 
-   De geselecteerde projecten worden toegevoegd aan het doel en zij tonen in de Voortgangsindicatorensectie van de doelpagina, onder de **** groepering van het Project.
+   De geselecteerde projecten worden toegevoegd aan het doel en zij tonen in de Voortgangsindicatorensectie van de doelpagina, onder de **&#x200B;**&#x200B;groepering van het Project.
 
    Nadat u het doel hebt geactiveerd, wordt de voortgang van het doel automatisch bijgewerkt wanneer de voortgang van een project wordt bijgewerkt. Voor informatie over het activeren van een doel, zie [ doelstellingen in de Doelen van Adobe Workfront ](../goal-management/activate-goals.md) activeren.
 

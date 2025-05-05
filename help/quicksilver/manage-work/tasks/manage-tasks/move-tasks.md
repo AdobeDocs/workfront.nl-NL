@@ -92,7 +92,7 @@ Houd rekening met het volgende wanneer u een taak verplaatst:
 
 1. Ga naar het project dat de taak of de taken bevat die u wilt bewegen.
 1. Klik **Taken** in het linkerpaneel om de taaklijst te tonen.
-1. Klik het **pictogram van de Wijze van het 0} Plan ![](assets/plan-mode-icon.png) en zorg ervoor dat** autosave **knevel wordt toegelaten, dan selecteer de taak of de taken die u wilt bewegen.**
+1. Klik het **pictogram van de Wijze van het 0&rbrace; Plan ![](assets/plan-mode-icon.png) en zorg ervoor dat** autosave **knevel wordt toegelaten, dan selecteer de taak of de taken die u wilt bewegen.**
 
    ![](assets/autosave-icon-on-highlighted-350x202.png)
 

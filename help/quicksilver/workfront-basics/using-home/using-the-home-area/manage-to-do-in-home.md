@@ -60,7 +60,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klik **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de hoger-juiste hoek, of het **Belangrijkste menu** ![](assets/lines-main-menu.png) in de hoger-linkerhoek, als beschikbaar, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) klik **aanpassen**, dan klik **aan-Dozen** om toe te voegen aan-Doopwidget aan uw huisscherm.
-1. Ga naar **** widget, dan klik **toevoegen aan-doe**.
+1. Ga naar **&#x200B;**&#x200B;widget, dan klik **toevoegen aan-doe**.
 1. Typ de naam voor het persoonlijke aan-doe item en klik op Enter.
 1. (Facultatief) klik het **pictogram van de Datum** ![](assets/date-icon.png) om een vervaldatum voor het punt toe te voegen.
    ![](assets/my-work-to-dos.png)
@@ -72,7 +72,7 @@ U kunt uw aan-doe punten evenals andere gebruikers aan-doe punten in het persoon
 
 1. Klik **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de hoger-juiste hoek, of het **Belangrijkste menu** ![](assets/lines-main-menu.png) in de hoger-linkerhoek, als beschikbaar, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) klik **aanpassen**, dan klik **aan-Dozen** om toe te voegen aan-Doopwidget aan uw huisscherm.
-1. Ga naar **** widget te doen en om het even welke volgend te doen:
+1. Ga naar **&#x200B;**&#x200B;widget te doen en om het even welke volgend te doen:
    1. Als u de naam van een item wilt bewerken, klikt u in de naamruimte en brengt u een wijziging aan.
    1. Klik op het pictogram Kalender of typ een nieuwe datum als u de vervaldatum wilt wijzigen voor een item dat u wilt uitvoeren.
    1. Als u een te-do-item wilt verwijderen, plaatst u de muisaanwijzer boven het item en klikt u op het pictogram Verwijderen.

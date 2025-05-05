@@ -127,7 +127,7 @@ U kunt Workfront toe:voegen-binnen voor Vooruitzichten van de [ opslag van Micro
 
 1. Zoek naar **[!DNL Workfront]** in het **[!UICONTROL Search add-ins]** gebied, dan druk **[!UICONTROL Enter]**.
 
-1. Wanneer het op de lijst verschijnt, voegt de klik **** toe.
+1. Wanneer het op de lijst verschijnt, voegt de klik **&#x200B;**&#x200B;toe.
 
 ### [!DNL Workfront for Outlook] on [!UICONTROL Windows] of [!DNL Mac] {#workfront-for-outlook-on-windows-or-mac}
 

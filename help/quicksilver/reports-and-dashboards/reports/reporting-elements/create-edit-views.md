@@ -90,6 +90,7 @@ Klik **uitgeven** pictogram ![ geeft pictogram ](assets/edit-icon.png) uit dat o
    * Pas de volgorde van de kolommen aan door de kolomtitel naar een nieuwe locatie te slepen.
 
    * In het **gebied van de Montages van de Kolom**, klik **vat deze kolom door** samen, en kies hoe u de gegevens in de kolom wilt tonen. Deze optie is beschikbaar voor de volgende kolomtypen:
+
      <table style="table-layout:auto"> 
          <col> 
          <col> 
@@ -185,7 +186,7 @@ Voor meer informatie over de Gelijke meningen, zie het artikel [ een project in 
 U kunt als volgt een eenvoudige weergave maken of aanpassen:
 
 1. Ga naar de lijst met taken in een project.
-1. Klik het **pictogram van de Raad ![ raad ](assets/board-icon-for-agile-view.png), en klik dan** erfenis van het Gebruik {**op de boordmening.**
+1. Klik het **pictogram van de Raad ![ raad ](assets/board-icon-for-agile-view.png), en klik dan** erfenis van het Gebruik &lbrace;**op de boordmening.**
 
 1. (Voorwaardelijk) U kunt als volgt een bestaande beoordelingsweergave aanpassen:
 
@@ -196,7 +197,7 @@ U kunt als volgt een eenvoudige weergave maken of aanpassen:
       ![ pas mening ](assets/view-agile-customize.png) aan
 
 1. (Voorwaardelijk) om een nieuwe Gelijke mening tot stand te brengen, klik **Nieuwe Mening**.\
-   Het **** de dialoogvakje van de Mening van de Gelijkheid aanpassen.
+   Het **&#x200B;**&#x200B;de dialoogvakje van de Mening van de Gelijkheid aanpassen.
 
 1. In **pas de dialoogdoos van de Mening van de Gelijkheid aan**, specificeer een naam voor de Gelijke mening.\
    We raden u aan het woord &#39;Gelijk&#39; op te nemen in de weergavenaam, zodat gebruikers weten dat dit een Gegale weergave is.\

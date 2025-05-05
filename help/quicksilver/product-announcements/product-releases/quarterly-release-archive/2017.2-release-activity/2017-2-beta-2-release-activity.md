@@ -59,7 +59,7 @@ Voor meer informatie over het opzeggen aan abonnementsemails, zie &quot;het Opti
 
 ## Configureer hoe mijlpalen worden weergegeven op de Gantt-grafiek {#configure-how-milestones-are-displayed-on-the-gantt-chart}
 
-***CORRECTIE **: Deze eigenschap is momenteel niet in het milieu van de Sandbox van de Voorproef. Het is de bedoeling dat het op een latere datum, in de maand juni 2017, wordt vrijgegeven.*
+***CORRECTIE &#x200B;**: Deze eigenschap is momenteel niet in het milieu van de Sandbox van de Voorproef. Het is de bedoeling dat het op een latere datum, in de maand juni 2017, wordt vrijgegeven.*
 
 Er zijn nu twee opties voor het weergeven van mijlpaalinformatie in een Gantt-grafiek. U kunt een van de volgende mijlpaalindicatoren configureren of beide:
 

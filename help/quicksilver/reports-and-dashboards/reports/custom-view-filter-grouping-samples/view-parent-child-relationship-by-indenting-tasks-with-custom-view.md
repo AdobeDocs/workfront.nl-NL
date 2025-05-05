@@ -71,7 +71,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. Ga naar het project met de taaklijst u zou willen uitvoeren.
 1. Klik het **drop-down menu van de Mening**, en selecteer **Nieuwe Mening**.
-1. Klik in de **kolomkopbal 0} Naam van de Taak {.**
+1. Klik in de **kolomkopbal 0&rbrace; Naam van de Taak &lbrace;.**
 1. Selecteer **Schakelaar aan de Wijze van de Tekst** in de hoger-juiste hoek.
 1. Klik **uitgeven de Wijze van de Tekst** en verwijder al bestaande tekst.
 1. Plak de volgende tekst:

@@ -122,7 +122,7 @@ Voordat u de Admin Console for Workfront gebruikt, ontvangt u een e-mail waarin 
    >
    >In de lijst ziet u mogelijk ook koppelingen naar sandboxomgevingen. Voor meer informatie, zie [ het Milieu van Sandbox van de Voorproef van Adobe Workfront ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
-1. In de lijst die toont, met het **geselecteerde lusje van Profielen van het 0} Product {, klik de naam van de verbinding van het Profiel van het Product van Workfront.**
+1. In de lijst die toont, met het **geselecteerde lusje van Profielen van het 0&rbrace; Product &lbrace;, klik de naam van de verbinding van het Profiel van het Product van Workfront.**
 
    ![ Profielen van het Product ](assets/prod-profile-1.png)
 

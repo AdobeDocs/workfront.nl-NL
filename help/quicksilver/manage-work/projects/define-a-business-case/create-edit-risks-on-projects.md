@@ -128,7 +128,7 @@ Naast het creëren van en het uitgeven van risico&#39;s in het BedrijfsGeval, ku
 
    Klik **sparen** als u de informatie in het **Nieuwe de dialoogvakje van het Risico** uitgeeft.
 
-1. (Facultatief) selecteer een verschillende **Status** voor het risico, in het **3} drop-down menu van de Status {, wanneer het toepassen van de** Standaard **mening voor de lijst van risico&#39;s.**
+1. (Facultatief) selecteer een verschillende **Status** voor het risico, in het **3&rbrace; drop-down menu van de Status &lbrace;, wanneer het toepassen van de** Standaard **mening voor de lijst van risico&#39;s.**
 
    Door gebrek, wordt de Status van een risico **geïdentificeerd**.
 
@@ -152,7 +152,7 @@ Risico&#39;s bewerken:
    >
    >U past dezelfde informatie toe op alle geselecteerde risico&#39;s wanneer u meerdere risico&#39;s tegelijk bewerkt. De informatie die aan elk risico voorafgaand aan uw veranderingen wordt geassocieerd wordt beschreven in bulkgeef uit.
 
-1. Als u **hebt geklikt geef** uit, **geeft het 3} dialoogvakje van het Risico {uit opent.**
+1. Als u **hebt geklikt geef** uit, **geeft het 3&rbrace; dialoogvakje van het Risico &lbrace;uit opent.**
 
    U kunt de volgende velden bewerken:
 
@@ -165,7 +165,7 @@ Risico&#39;s bewerken:
    * **Plan van de Vermindering**: werk de beschrijving van het plan bij om het risico te verlichten.
 
 1. Klik **sparen Veranderingen**.
-1. (Facultatief) geef de **Status** voor een risico, in het **3} drop-down menu van de Status {uit, wanneer het toepassen van de** Standaard **mening voor de lijst van risico&#39;s.**
+1. (Facultatief) geef de **Status** voor een risico, in het **3&rbrace; drop-down menu van de Status &lbrace;uit, wanneer het toepassen van de** Standaard **mening voor de lijst van risico&#39;s.**
 
    >[!NOTE]
    >

@@ -363,7 +363,7 @@ U kunt oudere filters op de volgende manieren maken in lijsten en rapporten:
 Ongeacht de methode die u gebruikt om filters te maken, lijkt het alsof u een geheel nieuw filter maakt of een bestaand filter gebruikt.
 
 1. Ga naar een lijst of een rapport die het filter bevat dat u wilt aanpassen.
-1. Klik het **pictogram van de Filter ![ ](assets/filter-nwepng.png) pictogram van de Filter** {, dan klik het **Meer** pictogram ![ Meer pictogram ](assets/more-icon.png) en klik **Ga terug naar Verouderde Filters**.
+1. Klik het **pictogram van de Filter ![ ](assets/filter-nwepng.png) pictogram van de Filter** &lbrace;, dan klik het **Meer** pictogram ![ Meer pictogram ](assets/more-icon.png) en klik **Ga terug naar Verouderde Filters**.
 
    >[!TIP]
    >

@@ -54,7 +54,7 @@ Elke groep die u toevoegt aan een bestaande groep wordt automatisch een subgroep
 Group Admins of a subgroup can't manage statuses or project preferences of the subgroup YET (Sprint 22/Oct 28, 2020)</p>
 -->
 
-U kunt subgroepsleden als groepsbeheerders toewijzen aan de subgroep wanneer u deze maakt of bewerkt. Voor instructies, zie [](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create) in het artikel [ een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) creëren.
+U kunt subgroepsleden als groepsbeheerders toewijzen aan de subgroep wanneer u deze maakt of bewerkt. Voor instructies, zie [&#128279;](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create) in het artikel [ een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) creëren.
 
 Afwisselend, kunt u beleid van subgroup aan de groepsbeheerders verlaten die aan de groepen boven het worden toegewezen. Wanneer u een subgroep maakt, hebben groepsbeheerders boven de groepen erboven automatisch toegang om de subgroep te beheren.
 

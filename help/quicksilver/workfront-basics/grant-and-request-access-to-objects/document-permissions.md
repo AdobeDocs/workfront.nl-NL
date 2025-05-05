@@ -102,7 +102,7 @@ Naast de overwegingen hieronder, zie ook [ Overzicht van het delen van toestemmi
 
    ![ verbinding van de Details van het Document ](assets/document-details-link.png)
 
-1. Klik het **Meer** pictogram ![ Meer pictogram ](assets/more-icon.png) aan het recht van de documentnaam, dan klik **Aandeel**. Het [ de dialoogvakje van de Naam van het Document 1} Aandeel ]**opent.**
+1. Klik het **Meer** pictogram ![ Meer pictogram ](assets/more-icon.png) aan het recht van de documentnaam, dan klik **Aandeel**. Het [ de dialoogvakje van de Naam van het Document 1&rbrace; Aandeel ]&#x200B;**opent.**
 
    ![ Deel een document ](assets/share-a-document-350x160.png)
 

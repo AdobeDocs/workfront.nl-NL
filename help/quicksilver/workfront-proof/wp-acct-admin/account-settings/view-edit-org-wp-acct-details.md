@@ -2,8 +2,8 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
-title: Bekijk en geef de 0} rekeningsdetails van uw organisatie {uit [!DNL Workfront Proof]
-description: Als  [!DNL Workfront Proof]  beheerder, kunt u de rekeningsmontages voor de 1} rekening van uw organisatie bekijken {. [!DNL Workfront Proof]
+title: Bekijk en geef de 0&rbrace; rekeningsdetails van uw organisatie &lbrace;uit [!DNL Workfront Proof]
+description: Als  [!DNL Workfront Proof]  beheerder, kunt u de rekeningsmontages voor de 1&rbrace; rekening van uw organisatie bekijken &lbrace;. [!DNL Workfront Proof]
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 31360d27-3017-408c-9286-1a6c8bc66854
@@ -50,5 +50,5 @@ In de sectie [!UICONTROL Usage statistic] worden de tellingen en limieten van uw
 
 In de sectie [!UICONTROL Your plan] wordt informatie over het [!DNL Workfront Proof] -plan van uw organisatie weergegeven:
 
-* **Huidige Plan:** het huidige 2} plan van uw organisatie {.[!DNL Workfront Proof]
+* **Huidige Plan:** het huidige 2&rbrace; plan van uw organisatie &lbrace;.[!DNL Workfront Proof]
 * **Datum van de Verlenging van het Plan:** de vernieuwingsdatum voor het plan van uw organisatie [!DNL Workfront Proof].

@@ -117,7 +117,7 @@ Uw werk filteren:
    | Mijn verzoeken | Alle verzoeken weergeven die u hebt verzonden |
    | Mijn goedkeuring | Toont al uw hangende, toegewezen, gedelegeerde en verzonden goedkeuringen |
 
-1. Klik het **pictogram van de Filter ![ ](assets/filter-nwepng.png) pictogram van de Filter** {in de rechterbovenhoek van widgetwerklijst.
+1. Klik het **pictogram van de Filter ![ ](assets/filter-nwepng.png) pictogram van de Filter** &lbrace;in de rechterbovenhoek van widgetwerklijst.
 1. Kies a **Voorgesteld** filter of een filter dat u hebt gecreeerd.
 Voor gedetailleerde informatie over gesuggereerde filters, zie [ overzicht van widgetfilters van het Huis ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md).
 1. (Facultatief) knevel **filters van de Stapel** om veelvoudige filteropties te selecteren.
@@ -166,7 +166,7 @@ U kunt kiezen welke kolommen worden weergegeven in de widgetwerklijst:
    | Mijn verzoeken | Alle verzoeken weergeven die u hebt verzonden |
    | Mijn goedkeuring | Toont al uw hangende, toegewezen, gedelegeerde en verzonden goedkeuringen |
 
-1. Klik het **pictogram van de Kolom ![ ](assets/column-icon.png) pictogram van de 1} Kolom {in de rechterbovenhoek van de widgetwerklijst.**
+1. Klik het **pictogram van de Kolom ![ ](assets/column-icon.png) pictogram van de 1&rbrace; Kolom &lbrace;in de rechterbovenhoek van de widgetwerklijst.**
 1. Schakel de kolommen in of uit, afhankelijk van uw voorkeuren.
 1. (Facultatief) klik het **pictogram van de Belemmering** ![ pictogram van de Belemmering ](assets/drag-icon.png) om de kolommen opnieuw in orde te brengen.
    ![ Uitgebreide Kolommen ](assets/columns-expanded.png)

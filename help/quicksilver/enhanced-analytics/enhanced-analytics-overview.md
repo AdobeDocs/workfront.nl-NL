@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Enhanced Analytics wordt de week van 26 mei uit Workfront verwijderd. Workfront Data Connect is een nieuwe, alternatieve oplossing die kan worden gebruikt om alle Enhanced Analytics-visualisaties die u momenteel gebruikt, te repliceren. <br> zie de [ Verbeterde 2} gids van de Afleiding van Analytics {voor meer informatie.](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)
+>Enhanced Analytics wordt de week van 26 mei uit Workfront verwijderd. Workfront Data Connect is een nieuwe, alternatieve oplossing die kan worden gebruikt om alle Enhanced Analytics-visualisaties die u momenteel gebruikt, te repliceren. <br> zie de [ Verbeterde 2&rbrace; gids van de Afleiding van Analytics &lbrace;voor meer informatie.](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)
 
 
 Verbeterde analyses zijn een krachtig hulpmiddel in Adobe Workfront met vooraf gebouwde visualisaties waarmee u projectgegevens kunt bekijken en trends kunt identificeren met planning en voltooiing. Met deze insight in uw projecten kunt u uw huidige werk beheren en kunt u nauwkeuriger plannen voor toekomstige werkzaamheden.
@@ -165,7 +165,7 @@ Raadpleeg de volgende artikelen voor meer informatie over de details van een spe
   </tr> 
   <tr> 
    <td><a href="../enhanced-analytics/burndown-overview.md" class="MCXref xref"> Mening de Burndown visualisatie in Verbeterde analyses </a> </td> 
-   <td> <p>De </b> visualisatie 0} Burndown toont u de geplande snelheid van een project in vergelijking met de daadwerkelijke hoeveelheid uren besteed aan een project. <b> Het in wisselwerking staan met visualisatie geeft u meer details over de voorwaarde van het project op een specifieke datum.</p> </td> 
+   <td> <p>De </b> visualisatie 0&rbrace; Burndown toont u de geplande snelheid van een project in vergelijking met de daadwerkelijke hoeveelheid uren besteed aan een project. <b> Het in wisselwerking staan met visualisatie geeft u meer details over de voorwaarde van het project op een specifieke datum.</p> </td> 
   </tr> 
   <tr> 
    <td><a href="../enhanced-analytics/tasks-in-flight-overview.md" class="MCXref xref"> Mening de Taken in vluchtvisualisatie in Verbeterde analyses </a> </td> 

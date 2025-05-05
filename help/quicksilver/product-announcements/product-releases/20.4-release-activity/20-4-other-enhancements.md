@@ -68,4 +68,4 @@ Deze eigenschap is nu inbegrepen in [ e-mail en in-app berichten het leren weg ]
 
 Er zijn twee nieuwe API-objecten, documentVersion en proofApproval, gemaakt en geconfigureerd om abonnementsupdates voor gebeurtenissen te activeren wanneer een document wordt versioneerd of goedgekeurd.
 
-Voor een volledige lijst van gebieden die met elk voorwerp worden geassocieerd, gelieve te zien {de gebieden van het het abonnementsmiddel van de Gebeurtenis ](../../../wf-api/api/event-sub-resource-fields.md).[
+Voor een volledige lijst van gebieden die met elk voorwerp worden geassocieerd, gelieve te zien &lbrace;de gebieden van het het abonnementsmiddel van de Gebeurtenis [&#128279;](../../../wf-api/api/event-sub-resource-fields.md).

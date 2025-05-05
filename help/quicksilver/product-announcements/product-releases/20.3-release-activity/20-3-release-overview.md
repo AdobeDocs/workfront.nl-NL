@@ -150,32 +150,32 @@ De versie 2020.3 bevat de volgende verbeteringen voor alle gebruikers:
 >U moet het volgende hebben:
 >
 ><table style="table-layout:auto"> 
-&gt; <col> 
-&gt; <col> 
-&gt; <tbody> 
-&gt;  <tr> 
-&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank"> plan van Workfront </a>*</p> </td> 
-&gt;   <td>Zakelijk of hoger</td> 
-&gt;  </tr> 
-&gt;  <tr> 
-&gt;   <td role="rowheader"> <p>Licentietype*</p> </td> 
-&gt;   <td> <p>Reviseren of hoger. Voor meer informatie, zie <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref"> het vergunningsoverzicht van Adobe Workfront </a>.</p> </td> 
-&gt;  </tr> 
-&gt;  <tr> 
-&gt;   <td role="rowheader">Product</td> 
-&gt;   <td>Workfront Scenario Planner <p>Voor informatie over de Planner van het Scenario van Workfront, zie <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref"> het overzicht van de Planner van het Scenario </a>.</p> </td> 
-&gt;  </tr> 
-&gt;  <tr data-mc-conditions=""> 
-&gt;   <td role="rowheader"><strong> Toegangsniveau* </strong> </td> 
-&gt;   <td> <p>Toegang tot of hoger weergeven voor de functie Scenario Planner</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
-&gt;  </tr> 
-&gt;  <tr data-mc-conditions=""> 
-&gt;   <td role="rowheader"> <p><strong> de toestemmingen van Objecten </strong> </p> </td> 
-&gt;   <td> <p>Machtigingen of hoger weergeven voor een abonnement</p> <p>Voor informatie bij het verzoeken van extra toegang tot een plan, zie <a href="../../../scenario-planner/request-access-to-plan.md" class="MCXref xref"> toegang van het Verzoek tot een plan in de Planner van het Scenario </a>.</p> </td> 
-&gt;  </tr> 
-&gt; </tbody> 
-&gt;</table>
-&gt;*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt.
+>&gt; <col> 
+>&gt; <col> 
+>&gt; <tbody> 
+>&gt;  <tr> 
+>&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank"> plan van Workfront </a>*</p> </td> 
+>&gt;   <td>Zakelijk of hoger</td> 
+>&gt;  </tr> 
+>&gt;  <tr> 
+>&gt;   <td role="rowheader"> <p>Licentietype*</p> </td> 
+>&gt;   <td> <p>Reviseren of hoger. Voor meer informatie, zie <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref"> het vergunningsoverzicht van Adobe Workfront </a>.</p> </td> 
+>&gt;  </tr> 
+>&gt;  <tr> 
+>&gt;   <td role="rowheader">Product</td> 
+>&gt;   <td>Workfront Scenario Planner <p>Voor informatie over de Planner van het Scenario van Workfront, zie <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref"> het overzicht van de Planner van het Scenario </a>.</p> </td> 
+>&gt;  </tr> 
+>&gt;  <tr data-mc-conditions=""> 
+>&gt;   <td role="rowheader"><strong> Toegangsniveau* </strong> </td> 
+>&gt;   <td> <p>Toegang tot of hoger weergeven voor de functie Scenario Planner</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+>&gt;  </tr> 
+>&gt;  <tr data-mc-conditions=""> 
+>&gt;   <td role="rowheader"> <p><strong> de toestemmingen van Objecten </strong> </p> </td> 
+>&gt;   <td> <p>Machtigingen of hoger weergeven voor een abonnement</p> <p>Voor informatie bij het verzoeken van extra toegang tot een plan, zie <a href="../../../scenario-planner/request-access-to-plan.md" class="MCXref xref"> toegang van het Verzoek tot een plan in de Planner van het Scenario </a>.</p> </td> 
+>&gt;  </tr> 
+>&gt; </tbody> 
+>&gt;</table>
+>&gt;*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt.
 
  
 
@@ -421,7 +421,7 @@ Voor meer informatie over API versies, zie [ API versioning en steunprogramma ](
 
 ## Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens de versie 20.3 worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront ](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).[
+Voor informatie over de onderhoudsupdates die tijdens de versie 20.3 worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront [&#128279;](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
 
 ## Aankondigingen
 
@@ -454,7 +454,7 @@ Met Workfront One ontdekt u de belangrijkste inhoud, bronnen en nieuws uit Workf
 
 ### 20.3 Release Webinar {#20-3-release-webinar}
 
-Bekijk hier de 20.3 Webinar van de Versie van het Product [ ](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+Bekijk hier de 20.3 Webinar van de Versie van het Product [&#128279;](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

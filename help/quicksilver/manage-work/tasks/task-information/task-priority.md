@@ -76,5 +76,5 @@ Houd rekening met het volgende wanneer u taakprioriteiten gebruikt:
 
 1. Ga naar de taak waarvan prioriteit u wilt wijzigen.
 1. Klik **Details van de Taak** in het linkerpaneel.
-1. Klik **uitgeven** pictogram ![](assets/qs-edit-icon.png), dan op het **4} gebied van het Overzicht {, selecteer een waarde voor het** Prioritaire **gebied.**
+1. Klik **uitgeven** pictogram ![](assets/qs-edit-icon.png), dan op het **4&rbrace; gebied van het Overzicht &lbrace;, selecteer een waarde voor het** Prioritaire **gebied.**
 1. Klik **sparen** **Veranderingen**.

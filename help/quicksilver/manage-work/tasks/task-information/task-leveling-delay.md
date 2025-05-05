@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Vertraging taakniveaus bijwerken
 
-Soms kunnen er conflicten optreden tussen taakplanningen in een project. U kunt middelen op niveau brengen of middelconflicten richten door middelen en taken opnieuw te plannen zodat alle taken binnen een realistisch programma kunnen worden voltooid. Voor informatie over het nivelleren van taken, zie {de Middelen van 0} Niveau in de Grafiek van Gantt ](../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md).[
+Soms kunnen er conflicten optreden tussen taakplanningen in een project. U kunt middelen op niveau brengen of middelconflicten richten door middelen en taken opnieuw te plannen zodat alle taken binnen een realistisch programma kunnen worden voltooid. Voor informatie over het nivelleren van taken, zie {de Middelen van 0} Niveau in de Grafiek van Gantt [&#128279;](../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md).
 
 Als projectmanager, of de taak toegewezen, kunt u een Vertraging van het Niveaus op individuele taken ook toevoegen om van om het even welke middel of het plannen conflicten rekenschap te geven. Met andere woorden, een taak zou met een vertraging kunnen worden gepland om ervoor te zorgen dat wanneer Adobe Workfront niveaus de taken een realistischer programma middelconflicten overtreedt.
 

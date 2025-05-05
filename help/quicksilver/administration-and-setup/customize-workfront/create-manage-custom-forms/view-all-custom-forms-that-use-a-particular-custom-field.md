@@ -58,5 +58,5 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 {{step-1-to-setup}}
 
 1. In het linkerpaneel, klik **Aangepaste Forms**.
-1. Klik **Gebieden**, zoek het gebied of widget in de **3} kolom van de Naam {, dan bekijk de** Forms **kolom om te zien welke douanevormen het gebied of widget gebruiken.**
+1. Klik **Gebieden**, zoek het gebied of widget in de **3&rbrace; kolom van de Naam &lbrace;, dan bekijk de** Forms **kolom om te zien welke douanevormen het gebied of widget gebruiken.**
 1. (Optioneel) Klik op de naam van een van deze aangepaste formulieren om naar het formulier te gaan en te overwegen welke wijzigingen u daar moet aanbrengen als u het veld of de widget wijzigt.

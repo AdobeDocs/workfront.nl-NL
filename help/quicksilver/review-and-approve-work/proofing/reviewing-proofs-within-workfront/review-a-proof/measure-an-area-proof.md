@@ -77,7 +77,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    ![ Measurement_tool_when_first_lijkt.png ](assets/measurement-tool-when-first-appears-350x143.png)
 
 1. Sleep de hoeken of randen van het meetvenster om het formaat ervan te wijzigen.
-1. (Facultatief) als u het metingsgebied een nauwkeurige grootte nodig hebt, type **waarden van de grootte van de Selectie 0} {.**
+1. (Facultatief) als u het metingsgebied een nauwkeurige grootte nodig hebt, type **waarden van de grootte van de Selectie 0&rbrace; &lbrace;.**
 1. (Optioneel) Als u een bepaald percentage in een gebied wilt meten, schakelt u het selectievakje Percentage berekenen in. Er wordt een nieuw vak weergegeven waarin u het kunt aanpassen\
    ![ berekenen percentage ](assets/calculate-percentage-350x230.png)
 

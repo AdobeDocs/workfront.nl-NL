@@ -68,7 +68,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. Selecteer de **Projecten**, **Taken**, of **Kwesties** tabel.
 
-1. De het pictogram van de beweging ](assets/move-icon---dots.png) Voorwaarden van de belemmering ![ {om hun orde te veranderen.
+1. De het pictogram van de beweging ![&#128279;](assets/move-icon---dots.png) Voorwaarden van de belemmering  &lbrace;om hun orde te veranderen.
 
    De nieuwe volgorde wordt automatisch opgeslagen.
 

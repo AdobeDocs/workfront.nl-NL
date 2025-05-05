@@ -85,7 +85,7 @@ Voor informatie over het creëren van een rapport, zie [ een douanerapport ](../
 
 1. Voer een van de volgende handelingen uit:
 
-   1. Om tot de mening van een rapport toegang te hebben, ga naar het rapport, dan klik **de Acties van het 0} Rapport** uitgeven **>** Kolommen (Mening) **tabel.**
+   1. Om tot de mening van een rapport toegang te hebben, ga naar het rapport, dan klik **de Acties van het 0&rbrace; Rapport** uitgeven **>** Kolommen (Mening) **tabel.**
    1. Om tot de mening van een lijst toegang te hebben, ga naar de lijst en van het **drop-down menu van de Mening**, muis over de mening die u wilt wijzigen en **klikken geeft** pictogram ![ pictogram uit ](assets/edit-icon.png).
 
       De weergavebuilder wordt geopend.
@@ -123,7 +123,7 @@ Voor informatie over het creëren van een rapport, zie [ een douanerapport ](../
     </thead> 
     <tbody> 
      <tr> 
-      <td> <p><ol><tr><tr><ol><tr><tr><tr><tr><tr><tr><tr><tr><tr><tr><div class="example" data-mc-autonum="<b>Example: </b>"><code><strong>valuefield</strong>=</cod></p> </td> 
+      <td> <p><ol><tr><tr><ol><tr><tr><tr><tr><tr><tr><tr><tr><tr><tr><div class="example" data-mc-autonum="<b>Example: </b>"><code><strong>valuefield</strong>=&lt;/cod></p> </td> 
       <td> <p>This is the name of the object or of the field as it appears in the database. For more information about how objects and fields appear in the database, see <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>.</p> <p>The following scenarios exist:</p> 
         
         <li value="1"> <p> If the name of the field you display is a phrase instead of a single noun, you must use camel case syntax for the <code>valuefield</code>. For example, for the Planned Start Date of a task the code is: </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>valuefield=plannedStartDate</code> </p> </li> 

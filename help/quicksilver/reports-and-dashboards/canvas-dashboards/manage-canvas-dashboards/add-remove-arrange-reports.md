@@ -56,7 +56,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. Klik **+ voeg rapport** knoop in de hoger-juiste hoek van de pagina toe.
 
-1. In **voeg rapport** venster toe dat verschijnt, **** onder het type van rapport toe u aan uw Dashboard van het Canvas zou willen toevoegen.
+1. In **voeg rapport** venster toe dat verschijnt, **&#x200B;**&#x200B;onder het type van rapport toe u aan uw Dashboard van het Canvas zou willen toevoegen.
 
 1. Ga door met het instellen van het rapport op basis van het type rapport dat u hebt geselecteerd. <!--For detailed information about setting up each type of report, see [Canvas Dashboard report types](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md).--> Als u het venster sluit voordat u de installatie hebt voltooid, wordt er nog steeds een leeg rapport toegevoegd aan het dashboard voor het canvas. U kunt vestiging later beëindigen door de **knoop van de Configuratie** in het centrum van het lege rapport te klikken.
 

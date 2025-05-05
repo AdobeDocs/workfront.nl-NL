@@ -70,7 +70,7 @@ In het gebied Metriek, kunt u de algemene gezondheid van een project zien, evena
 
 U kunt ook naar elk diagram gaan om taken of problemen in een bepaalde categorie nader te bekijken.
 
-Meer leren over het bekijken van deze taken of kwesties, zie {de details van Metriek van 0} Mening ](#view-metrics-details).[
+Meer leren over het bekijken van deze taken of kwesties, zie {de details van Metriek van 0} Mening [&#128279;](#view-metrics-details).
 
 >[!TIP]
 >

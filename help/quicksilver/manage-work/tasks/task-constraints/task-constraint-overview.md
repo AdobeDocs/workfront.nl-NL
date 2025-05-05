@@ -121,7 +121,7 @@ Workfront gebruikt twee variabelen om te beslissen welke Restrictie van de Taak 
 
   Voor informatie over het Programma van het Project van gebied, zie [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
-* De **voorkeur van de Datum van het 0} Begin {die door uw Workfront of groepsbeheerder in het** wordt gevormd Taken &amp; van Kwesties **gebied van** Opstelling **.**
+* De **voorkeur van de Datum van het 0&rbrace; Begin &lbrace;die door uw Workfront of groepsbeheerder in het** wordt gevormd Taken &amp; van Kwesties **gebied van** Opstelling **.**
 
   Voor informatie over de Voorkeur van Taken &amp; van Kwesties, zie de [ Nieuwe sectie van de Taak Standaardwaarden ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#new-task-defaults) in [ de taak van het hele systeem vormen en voorkeur van de uitgave ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 

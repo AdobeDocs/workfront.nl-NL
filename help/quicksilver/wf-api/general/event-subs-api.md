@@ -72,7 +72,7 @@ De volgende Workfront-objecten worden ondersteund door gebeurtenisabonnementen.
 * Gebruiker
 * Workspace
 
-Voor een lijst van gebieden die door de voorwerpen van het gebeurtenisabonnement worden gesteund, zie {de gebieden van het het abonnementsmiddel van de Gebeurtenis ](../../wf-api/api/event-sub-resource-fields.md).[
+Voor een lijst van gebieden die door de voorwerpen van het gebeurtenisabonnement worden gesteund, zie &lbrace;de gebieden van het het abonnementsmiddel van de Gebeurtenis [&#128279;](../../wf-api/api/event-sub-resource-fields.md).
 
 ## Verificatie van abonnement op gebeurtenis
 

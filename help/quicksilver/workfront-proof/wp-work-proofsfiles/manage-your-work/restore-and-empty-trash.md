@@ -38,7 +38,7 @@ Als u een beheerder of factureringsbeheerder bent, kunt u proefdrukken, dossiers
 
 ## De prullenbak leegmaken
 
-Als u een beheerder of factureringsbeheerder bent, kunt u de Prullenbak leegmaken. Voor informatie over toestemmingen, zie {de Profielen van de Toestemmingen van 0} Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).[
+Als u een beheerder of factureringsbeheerder bent, kunt u de Prullenbak leegmaken. Voor informatie over toestemmingen, zie {de Profielen van de Toestemmingen van 0} Bewijs in  [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
 1. Klik op **[!UICONTROL Trash]** in de zijbalk aan de linkerkant.
 1. Klik op **[!UICONTROL Empty trash]**.

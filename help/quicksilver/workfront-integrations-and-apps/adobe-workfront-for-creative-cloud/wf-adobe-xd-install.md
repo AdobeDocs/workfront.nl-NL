@@ -67,7 +67,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 Als u een [!DNL Adobe Admin Console] -beheerder bent, kunt u de plug-in opnemen in [!DNL Creative Cloud] -implementatiepakketten. Voor meer informatie, zie [ Including steekmodules in uw pakket ](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 
-[ Mening hier een videoleerprogramma ](https://www.youtube.com/watch?v=zzvXNLIBzrc) {target=_blank}.
+[ Mening hier een videoleerprogramma ](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank} .
 
 [!DNL Adobe Admin Console] -beheerders kunnen ook pakketten met alleen plug-ins maken voor distributie naar gebruikers. Voor meer informatie, zie [ [!UICONTROL [!DNL Adobe Workfront] creëren voor  [!DNL Creative Cloud]]  pakketten voor uw gebruikers in  [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
 

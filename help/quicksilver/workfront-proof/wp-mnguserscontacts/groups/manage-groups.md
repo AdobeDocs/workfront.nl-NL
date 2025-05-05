@@ -107,7 +107,7 @@ Het dialoogvenster **[!UICONTROL Add to group]** wordt weergegeven.
 
 1. In de sectie **[!UICONTROL People]** :
 
-   1. Gebruik de drop-down menu&#39;s om het 3} alarm van de Rol van een lid **te veranderen** of **E-mail**. Voor meer informatie, zie [ de Rollen van het Bewijs binnen beheren  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) en [ vormen e-mailberichtmontages in  [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
+   1. Gebruik de drop-down menu&#39;s om het 3&rbrace; alarm van de Rol van een lid **te veranderen** of **E-mail**. Voor meer informatie, zie [ de Rollen van het Bewijs binnen beheren  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) en [ vormen e-mailberichtmontages in  [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
 
    1. Gebruik het veld **[!UICONTROL Enter a contact name]** of **[!UICONTROL email address]** om extra contactpersonen aan de groep toe te voegen.
 

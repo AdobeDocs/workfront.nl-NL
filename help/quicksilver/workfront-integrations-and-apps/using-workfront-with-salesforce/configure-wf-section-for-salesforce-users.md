@@ -54,7 +54,7 @@ U moet de volgende toegang hebben om de in dit artikel beschreven functionalitei
 
 1. Meld u aan bij [!DNL Salesforce] als Workfront-beheerder.
 1. Klik op **[!UICONTROL Setup].**
-1. Vouw **[!UICONTROL Customize]uit in de sectie **[!UICONTROL Build]**.**
+1. Vouw **[!UICONTROL Customize]uit in de sectie &#x200B;** [!UICONTROL Build]&#x200B;**.**
 
 1. Vouw **[!UICONTROL Opportunities]** uit en klik op **[!UICONTROL Page Layouts]** om de sectie [!DNL Workfront] aan een opportunity toe te voegen.
 

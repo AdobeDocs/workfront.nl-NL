@@ -92,8 +92,8 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 1. Om een werkstroom te openen, klik [!UICONTROL **de werkstroom van de Mening**].
 1. Open de herhaling op een van de volgende manieren:
 
-   * Voor het lusje van de Lijst van de Kaart, in de herhalingsmening, klik de **]pictogram ![ details van de Interlatie ](assets/iteration-details-button.png) van de Details van de Interlatie van 0}.[!UICONTROL **
-   * Op de iteratieraad, klik de **]pictogram ![ details van de Interferatie ](assets/iteration-details-button.png) in het metrieke gebied op het hoogste recht van de Details van de Interferatie.[!UICONTROL **
+   * Voor het lusje van de Lijst van de Kaart, in de herhalingsmening, klik de **pictogram ![ details van de Interlatie ](assets/iteration-details-button.png) van de Details van de Interlatie van 0&rbrace;.**
+   * Op de iteratieraad, klik de **pictogram ![ details van de Interferatie ](assets/iteration-details-button.png) in het metrieke gebied op het hoogste recht van de Details van de Interferatie.**
 
 1. Bewerk de herhaling naar wens in het deelvenster [!UICONTROL Iteration Configuration] .
 1. Om de iteratienaam te veranderen, breid [!UICONTROL **details van de Interlatie**] uit.
@@ -124,5 +124,5 @@ Use the [!UICONTROL Next Iteration] column to move cards from the current iterat
 ## Een herhaling verwijderen
 
 1. Klik het [!UICONTROL **lusje van de Lijst van de Kaart**] op de werkstroom en open de herhalingsmening.
-1. Klik het **pictogram van de Schrapping ![ ](assets/delete.png) naast de herhaling 0}.**
+1. Klik het **pictogram van de Schrapping ![ ](assets/delete.png) naast de herhaling 0&rbrace;.**
 1. Klik [!UICONTROL **herhaling van de Schrapping**] op het bevestigingsbericht.

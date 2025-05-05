@@ -108,7 +108,7 @@ U kunt rapporten instellen die als bijlage bij een e-mailbericht moeten worden b
 
 Een rapport leveren met de toegangsrechten van een andere gebruiker:
 
-1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Workfront, dan klik** Rapporten **.**
+1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Workfront, dan klik** Rapporten **.**
 
 1. Selecteer het rapport dat u wilt leveren met de toegangsrechten van een andere gebruiker.
 1. Klik op de naam van het rapport om het te selecteren.

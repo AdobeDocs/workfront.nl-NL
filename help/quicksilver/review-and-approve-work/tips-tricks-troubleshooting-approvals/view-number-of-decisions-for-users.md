@@ -49,7 +49,7 @@ Om het aantal besluiten voor een gebruiker te bekijken:
 1. Klik **Nieuw Rapport**, dan uitgezochte **Besluiten van Gebruikers**.
 1. Vind de kolom **Besluiten deze maand** om het aantal besluiten te bekijken elke gebruiker in de maand heeft gemaakt.
 
-   De gegevens kunnen tot 12 maanden vóór de huidige maand omvatten, afhankelijk van wanneer dit rapport aan uw organisatie ter beschikking werd gesteld. De **Maand** en **3} kolommen van het Jaar tonen welke maand de besluiten binnen werden genomen.** Maand 1 is Januari, maand 2 is Februari, etc.
+   De gegevens kunnen tot 12 maanden vóór de huidige maand omvatten, afhankelijk van wanneer dit rapport aan uw organisatie ter beschikking werd gesteld. De **Maand** en **3&rbrace; kolommen van het Jaar tonen welke maand de besluiten binnen werden genomen.** Maand 1 is Januari, maand 2 is Februari, etc.
 
 1. Controleer het rapport en bewerk het indien nodig. Voor meer informatie, zie [ een douanerapport ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 

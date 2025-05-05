@@ -40,7 +40,7 @@ Voor een lijst van alle veranderingen die in 2019.1 worden aangebracht, zie &quo
 * [ heb toegang tot de Gantt Grafiek van de Lijst van de Taak op Malplaatjes ](#access-the-task-list-gantt-chart-on-templates)
 * [ anders genoemd de Mening van het Project op de Grafiek van Gantt ](#renamed-the-project-view-on-the-gantt-chart)
 * [ wat-als Scenario&#39;s in de Grafiek van Gantt van de Lijst van de Taak ](#what-if-scenarios-in-the-task-list-gantt-chart)
-* {de Verbeteringen van de Lijst van 0} Taak ](#task-list-improvements)[
+* {de Verbeteringen van de Lijst van 0} Taak [&#128279;](#task-list-improvements)
 * [ Lijsten van de Vertoning in Volledig Scherm ](#display-lists-in-full-screen)
 * [ Nieuwe Lijsten in Extra Gebieden ](#new-lists-in-additional-areas)
 * [ verzend een Geleverd Rapport in Formaat XLSX ](#send-a-delivered-report-in-xlsx-format)

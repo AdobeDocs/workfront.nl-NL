@@ -61,7 +61,7 @@ Elke release heeft een overzichtspagina met korte beschrijvingen van elke functi
 
 We raden u aan de demo-video&#39;s in de opmerkingen bij de release te bekijken. Deze kunnen bijzonder nuttig zijn om de eigenschap in actie te zien, of voor een snel onderzoek naar de context van de eigenschap als u kort op tijd bent.
 
-Voor verbindingen aan de versieoverzichten, zie {de versies van het 0} Product ](product-releases.md).[
+Voor verbindingen aan de versieoverzichten, zie {de versies van het 0} Product [&#128279;](product-releases.md).
 
 ### Kijk naar het [!DNL Workfront] Aankondigingscentrum
 
@@ -101,7 +101,7 @@ In [!DNL Workfront] wordt kort voor sommige releases een releasewebinar gehost. 
 
 Release-webinars worden aangekondigd via het [!DNL Workfront] Aankondigingscentrum. Registratiekoppelingen vindt u op de overzichtspagina van de release.
 
-Voor verbindingen aan de versieoverzichten, zie {de versies van het 0} Product ](product-releases.md).[
+Voor verbindingen aan de versieoverzichten, zie {de versies van het 0} Product [&#128279;](product-releases.md).
 
 ### Feedback op Workfront aanbieden
 

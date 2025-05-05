@@ -73,7 +73,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. Klik **Details van het Project** in het linkerpaneel, dan ga naar het **Financiën** gebied.
 1. Dubbelklik de waarde op het **gebied van de Methode van de Index van Prestaties** om het uit te geven.
-1. Selecteer van de volgende opties op het **gebied van de Methode van de Index van Prestaties 0}:**
+1. Selecteer van de volgende opties op het **gebied van de Methode van de Index van Prestaties 0&rbrace;:**
 
    | Op uurbasis | Workfront gebruikt de geplande uren voor de berekening van de CPI en de EAC van het project en de EAC van het project wordt weergegeven als een aantal, in uren. |
    |---|---|

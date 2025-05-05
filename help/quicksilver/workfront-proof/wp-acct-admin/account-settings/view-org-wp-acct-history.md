@@ -3,7 +3,7 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
 title: Bekijk de de rekeningsgeschiedenis van uw organisatie  [!DNL Workfront Proof]  beheerderrekening
-description: Als a [!DNL Workfront Proof]  beheerder, kunt u gebruiksstatistieken en een logboek van de veranderingen bekijken die aan de 1} rekening van uw organisatie worden aangebracht rekening. [!DNL Workfront Proof]
+description: Als a [!DNL Workfront Proof]  beheerder, kunt u gebruiksstatistieken en een logboek van de veranderingen bekijken die aan de 1&rbrace; rekening van uw organisatie worden aangebracht rekening. [!DNL Workfront Proof]
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b4bd3fe3-558c-4ef6-bc0c-ca1724fcfe8d

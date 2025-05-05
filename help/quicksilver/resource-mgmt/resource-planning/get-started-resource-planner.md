@@ -252,7 +252,7 @@ Voor meer informatie over welke gebieden in de Planner van het Middel tonen en h
 
 Om de prestaties te verbeteren, beperkt Workfront de hoeveelheid items die u kunt weergeven in de Resource Planner.
 
-Voor meer informatie over deze beperkingen, zie de de vertoningsbeperkingen van de Planner van het artikel [ ](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md).
+Voor meer informatie over deze beperkingen, zie de de vertoningsbeperkingen van de Planner van het artikel [&#128279;](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md).
 
 ## FTE berekenen in de bronnenplanner
 

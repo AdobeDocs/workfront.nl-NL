@@ -148,7 +148,7 @@ Editing goals differs depending on what environment you use.
 
 -->
 
-1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png), dan klik** Doelen **.**\
+1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png), dan klik** Doelen **.**\
    Er wordt een lijst met doelen weergegeven.
 1. Klik op een doel.\
    De doelpagina wordt weergegeven.
@@ -173,7 +173,7 @@ Editing goals differs depending on what environment you use.
       * **Goal name**
       * **Periode**: Klik om de tijdspanne voor het doel bij te werken\
         of\
-        Selecteer **douanedata** toelaten om data voor het 2} Begin van het doel **en** Eind data **te specificeren.**
+        Selecteer **douanedata** toelaten om data voor het 2&rbrace; Begin van het doel **en** Eind data **te specificeren.**
 
         >[!TIP]
         >

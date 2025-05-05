@@ -198,7 +198,7 @@ Voor meer informatie over de informatie die in de Optimizer van het Portfolio wo
 
 1. Klik op de naam van een portfolio.
 1. Klik **Optimalisering van het Portfolio** in het linkerpaneel.
-1. Bij de bovenkant van Optimizer van het Portfolio vindt **Uitgelijnde** waarde, evenals **de 3} maat van de Groepering {, die op de groeperingsscore van de portefeuille wijzen.**
+1. Bij de bovenkant van Optimizer van het Portfolio vindt **Uitgelijnde** waarde, evenals **de 3&rbrace; maat van de Groepering &lbrace;, die op de groeperingsscore van de portefeuille wijzen.**
 
    Dit is de uitlijningsscore van het portfolio.
 

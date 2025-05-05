@@ -127,7 +127,7 @@ Voor meer informatie, zie [ data van het Formaat op de rapporten van de tekstwij
 
 U kunt numerieke waarden opmaken om informatie weer te geven die het beste aansluit bij uw rapportagebehoeften.
 
-Voor meer informatie, zie {de aantallen van 0} Formaat, munt en percentagewaarden op de rapporten van de tekstwijze ](../../../reports-and-dashboards/reports/text-mode/format-numbers-in-text-mode-reports.md).[
+Voor meer informatie, zie {de aantallen van 0} Formaat, munt en percentagewaarden op de rapporten van de tekstwijze [&#128279;](../../../reports-and-dashboards/reports/text-mode/format-numbers-in-text-mode-reports.md).
 
 ### Kolomregels {#column-rules}
 

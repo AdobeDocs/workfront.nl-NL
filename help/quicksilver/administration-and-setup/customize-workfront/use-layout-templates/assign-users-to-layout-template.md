@@ -23,7 +23,7 @@ Voor gebruikers waaraan geen lay-outsjabloon is toegewezen, wordt de standaardla
 
 Gebruikers kunnen ook een lay-outsjabloon aan zichzelf toewijzen, zoals wordt beschreven in de gebieden Mijn werk en Werkverzoeken wijzigen met lay-outsjablonen.
 
-U kunt meerdere verschillende lay-outsjablonen aan dezelfde naam toewijzen. Voor meer informatie waarover lay-outmalplaatje in feite voor een gebruiker, een rol, een groep, of een team is, zie {de prioriteit van de het malplaatjetoewijzing van 0} Lay-out ](#layout-template-assignment-priority) later in dit artikel.[
+U kunt meerdere verschillende lay-outsjablonen aan dezelfde naam toewijzen. Voor meer informatie waarover lay-outmalplaatje in feite voor een gebruiker, een rol, een groep, of een team is, zie {de prioriteit van de het malplaatjetoewijzing van 0} Lay-out [&#128279;](#layout-template-assignment-priority) later in dit artikel.
 
 Voor meer informatie over lay-outmalplaatjes, zie [ malplaatjes van de Lay-out ](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md).
 

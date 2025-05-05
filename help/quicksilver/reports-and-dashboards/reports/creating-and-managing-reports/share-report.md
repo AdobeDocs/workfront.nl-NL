@@ -92,11 +92,11 @@ Het delen van een rapport of meerdere rapporten uit een lijst is identiek.
 
    of
 
-   Klik de naam van één rapport, dan klik **de Acties van het Rapport >* **het Delen**.
+   Klik de naam van één rapport, dan klik **de Acties van het Rapport >* &#x200B;** het Delen**.
 
    ![](assets/unshimmed-report-actions-sharing.png)
 
-1. In de doos die toont, in **voegt mensen, teams, rollen, groepen, of bedrijven toe..** het gebiedsbegin typend de naam van de gebruiker, het team, de baanrol, de groep, of het bedrijf u het rapport met wilt delen, dan drukt **** binnen wanneer de naamvertoningen.
+1. In de doos die toont, in **voegt mensen, teams, rollen, groepen, of bedrijven toe..** het gebiedsbegin typend de naam van de gebruiker, het team, de baanrol, de groep, of het bedrijf u het rapport met wilt delen, dan drukt **&#x200B;**&#x200B;binnen wanneer de naamvertoningen.
 
 1. Als u het toegangsniveau wilt aanpassen voor een naam die u hebt toegevoegd, klikt u op het vervolgkeuzemenu rechts van de naam en kiest u een van de onderstaande opties.
 

@@ -197,4 +197,4 @@ Als u hiervoor bewerkingsrechten hebt, kunt u proefdrukken, bestanden en mappen 
 1. Voer een van de volgende handelingen uit:
 
    * Als u één item wilt verplaatsen, klikt u erop en houdt u het ingedrukt terwijl u het naar de map sleept waar u het item wilt plaatsen.
-   * Om veelvoudige punten tezelfdertijd te bewegen, kunt u de controlevakjes links van de punten selecteren, dan ** [!UICONTROL Move to] **boven de lijst klikken, dan de omslag selecteren waar u hen wilt zetten, of een nieuwe omslag voor hen creëren.
+   * Om veelvoudige punten tezelfdertijd te bewegen, kunt u de controlevakjes links van de punten selecteren, dan **&#x200B; [!UICONTROL Move to] &#x200B;** boven de lijst klikken, dan de omslag selecteren waar u hen wilt zetten, of een nieuwe omslag voor hen creëren.

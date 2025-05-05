@@ -82,7 +82,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    >
    >De optie Is actief (optie Opnieuw activeren in Voorvertoning) is niet beschikbaar als de groep een subgroep van een gedeactiveerde groep is. Voordat u de toepassing opnieuw kunt activeren, moet u deze uit de bovenliggende groep verwijderen of verplaatsen naar een actieve groep, zoals in de notitie hierboven wordt beschreven.
 
-1. (Voorwaardelijk) als u de groep deactiveert, klik **** deactivate in **** doos van de Deactiveer groep die toont.
+1. (Voorwaardelijk) als u de groep deactiveert, klik **&#x200B;**&#x200B;deactivate in **&#x200B;**&#x200B;doos van de Deactiveer groep die toont.
 
 ## Overwegingen voor inactieve groepen
 

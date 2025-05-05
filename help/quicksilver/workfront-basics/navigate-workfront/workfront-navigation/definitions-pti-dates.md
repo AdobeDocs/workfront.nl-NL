@@ -315,7 +315,7 @@ Taken kunnen soms worden gestart en laat worden voltooid zonder dat dit gevolgen
 
 De datum van Slack toont de nauwkeurige datum wanneer een taak beslist de Datum van de Voltooiing van het project zou kunnen beïnvloeden.
 
-Voor informatie over de Datum van Slack van een taak, zie {het overzicht van de Datum van de Datum van Slack van 0} Taak ](/help/quicksilver/manage-work/tasks/task-information/task-slack-date.md).[
+Voor informatie over de Datum van Slack van een taak, zie {het overzicht van de Datum van de Datum van Slack van 0} Taak [&#128279;](/help/quicksilver/manage-work/tasks/task-information/task-slack-date.md).
 
 De Datums van de Taak Slack zijn zichtbaar in taaklijsten en rapporten.
 
@@ -325,7 +325,7 @@ De datum waarop het project van start gaat. De begindatum van een project is dez
 
 Dit gebied is zichtbaar in projectlijsten en rapporten.
 
-Voor informatie, zie de [ Geplande 1} sectie van de Datum van het Begin {in dit artikel.](#planned-start-date)
+Voor informatie, zie de [ Geplande 1&rbrace; sectie van de Datum van het Begin &lbrace;in dit artikel.](#planned-start-date)
 
 
 

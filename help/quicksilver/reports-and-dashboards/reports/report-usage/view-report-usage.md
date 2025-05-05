@@ -68,15 +68,15 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## De informatie van het rapportgebruik van de vertoning in de Mening van een rapportlijst
 
-1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Workfront, dan klik** Rapporten **.**
+1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Workfront, dan klik** Rapporten **.**
 
 1. Voor de lijst van rapporten, klik het **drop-down menu van de Mening**.
-1. (Facultatief) selecteer de **mening van het Gebruik van het 0} Rapport om de gemeenschappelijkste informatie van het rapportgebruik te tonen.**\
+1. (Facultatief) selecteer de **mening van het Gebruik van het 0&rbrace; Rapport om de gemeenschappelijkste informatie van het rapportgebruik te tonen.**\
    of
 
 1. Klik **Nieuwe Mening** om een douanemening tot stand te brengen.
 1. Klik **toevoegen Kolom**.
-1. Begin om het even welke volgende gebieden te typen, en hen te selecteren wanneer zij in de lijst onder het **1} voorwerp van het Rapport {verschijnen om hen aan een nieuwe kolom toe te voegen:**
+1. Begin om het even welke volgende gebieden te typen, en hen te selecteren wanneer zij in de lijst onder het **1&rbrace; voorwerp van het Rapport &lbrace;verschijnen om hen aan een nieuwe kolom toe te voegen:**
 
    * **Laatste 10 gebruikers**: Toont de namen van de laatste 10 gebruikers die het rapport bekeken.
    * **Meningen**: Toont het aantal meningen binnen om het even welke volgende tijdkaders:
@@ -97,10 +97,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Een rapportlijst filteren op gebruiksgegevens {#filter-a-report-list-by-usage-information}
 
-1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Workfront, dan klik** Rapporten **.**
+1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Workfront, dan klik** Rapporten **.**
 1. Voor de lijst van rapporten, klik het **drop-down menu van de Filter**.
 1. Klik **Nieuwe Filter**, dan klik **voegt een Regel van de Filter** toe.
-1. Begin om het even welke volgende gebieden te typen, en hen te selecteren wanneer zij in de lijst onder het **1} voorwerp van het Rapport {verschijnen om hen als nieuwe filterregel toe te voegen:**
+1. Begin om het even welke volgende gebieden te typen, en hen te selecteren wanneer zij in de lijst onder het **1&rbrace; voorwerp van het Rapport &lbrace;verschijnen om hen als nieuwe filterregel toe te voegen:**
 
    * **Meningen**: Toont het aantal meningen binnen om het even welke volgende tijdkaders:
 

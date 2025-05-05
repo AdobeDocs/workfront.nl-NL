@@ -55,4 +55,4 @@ Standaard kunnen revisoren het originele bestand downloaden van waaruit de proef
 
 De montages die in uw persoonlijke montages worden bewaard worden toegepast op alle proeven die door u worden gecreeerd, maar zij kunnen worden met voeten getreden wanneer het creëren van een nieuw bewijs of wanneer het wijzigen van een proef, zoals die in [ wordt beschreven beheert de Details van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
-U kunt dossierdownloads onbruikbaar maken door uw persoonlijke proefdrukmontages te wijzigen, zoals die in [ worden beschreven vormt de Montages van het Bewijs in [!DNL  Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md).
+U kunt dossierdownloads onbruikbaar maken door uw persoonlijke proefdrukmontages te wijzigen, zoals die in [ worden beschreven vormt de Montages van het Bewijs in [!DNL &#x200B; Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md).

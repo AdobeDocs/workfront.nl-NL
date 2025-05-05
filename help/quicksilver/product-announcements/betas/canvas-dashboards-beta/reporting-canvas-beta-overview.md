@@ -125,7 +125,7 @@ Een Workfront-beheerder kan niet de bètaversie uitschakelen, maar niet-systeemb
 
 1. Meld u aan als systeembeheerder.
 1. Navigeer naar het rapportcanvas.
-1. Klik het Melden van de toestemmingen van het Canvas ****.
+1. Klik het Melden van de toestemmingen van het Canvas **&#x200B;**.
 1. Verwijder de gebruikers die u wilt uitschakelen uit de bètalijst die u hebt geselecteerd.
 1. Klik **sparen**.
 +++

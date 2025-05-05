@@ -21,7 +21,7 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
 
 ## Rijen in een tabel groeperen
 
-1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** Meldend **.**
+1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** Meldend **.**
 1. Klik **Nieuw rapport**.
 
    of

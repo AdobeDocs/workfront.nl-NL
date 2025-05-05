@@ -84,7 +84,7 @@ Als u toegang hebt om een aangepast formulier te maken, kunt u een berekend aang
 
    CONCAT(&#39;&#39;https://`<domain>`.my.workfront.com&#39;,&#39;/&#39;,&#39;&#39;task/&#39;,ID,&#39;/overview&#39;&#39;)
 
-1. Vervang &quot;`<domain>`&quot;met uw daadwerkelijke domeinnaam, zonder de steunen. Het `/overview` gedeelte van dit URL leidt de verbinding aan de **2} sectie van het Overzicht {in het linkerpaneel van de taak.**
+1. Vervang &quot;`<domain>`&quot;met uw daadwerkelijke domeinnaam, zonder de steunen. Het `/overview` gedeelte van dit URL leidt de verbinding aan de **2&rbrace; sectie van het Overzicht &lbrace;in het linkerpaneel van de taak.**
 
 1. Na het creëren van uw **Berekend Gebied van de Douane**, maak de **Vorm van de Douane** met dit gebied aan verscheidene taken in Adobe Workfront vast die u vertoning in uw nieuwe mening wilt.
 
@@ -146,6 +146,6 @@ Deze weergave aanpassen:
    column.2.width=150
    ```
 
-   In dit voorbeeld wordt &#39;&#39;column.1&#39;&#39; De lijnen tonen de waarde op het gebied van de &quot;Douane URL&quot;als verbinding in het 0} Overzicht van de taak **sectie; &quot;column.2.&quot;** toont de waarde die in het **wordt opgeslagen gebied URL** van de taak.
+   In dit voorbeeld wordt &#39;&#39;column.1&#39;&#39; De lijnen tonen de waarde op het gebied van de &quot;Douane URL&quot;als verbinding in het 0&rbrace; Overzicht van de taak **sectie; &quot;column.2.&quot;** toont de waarde die in het **wordt opgeslagen gebied URL** van de taak.
 
 1. Klik **Gedaan** > **sparen Mening**.

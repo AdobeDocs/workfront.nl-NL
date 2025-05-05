@@ -26,7 +26,7 @@ ht-degree: 0%
 
 Het begroten van uw middelen voor het werk zij aan een project moeten verwezenlijken is de belangrijkste functie van de Planner van het Middel. U kunt de beschikbare tijd van uw bronnen weergeven en de tijd toewijzen aan de projecten waaraan deze zijn toegewezen.
 
-Voor informatie over het opnemen van middelen in de Planner van het Middel, zie {de middelen van de Begroting in de Planner van het Middel die de meningen van het Project en van de Rol gebruiken ](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)[
+Voor informatie over het opnemen van middelen in de Planner van het Middel, zie &lbrace;de middelen van de Begroting in de Planner van het Middel die de meningen van het Project en van de Rol gebruiken [&#128279;](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)
 
 Dit artikel beschrijft enkele zeer belangrijke concepten die u moet kennen alvorens om uw middelen in de Planner van het Middel te beginnen begroten.
 

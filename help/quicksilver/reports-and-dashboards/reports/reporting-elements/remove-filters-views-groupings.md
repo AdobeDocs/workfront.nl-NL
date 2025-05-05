@@ -91,7 +91,7 @@ De volgende scenario&#39;s bestaan wanneer u verwijdert of een filter verwijdert
 
 1. Ga naar een lijst met projecten, taken, problemen, portfolio&#39;s, programma&#39;s, gebruikers, sjablonen of groepen.
 1. Klik het **pictogram van de Filter** pictogram ![ van de Filter ](assets/filter-nwepng.png).
-1. Beweeg over een filter dat u toestemmingen hebt om te schrappen, **Meer** menu ![ {meer pictogram ](assets/more-icon-spectrum.png) te klikken, dan **Schrapping** te klikken.
+1. Beweeg over een filter dat u toestemmingen hebt om te schrappen, **Meer** menu ![ &lbrace;meer pictogram ](assets/more-icon-spectrum.png) te klikken, dan **Schrapping** te klikken.
 
    ![ filter van de Schrapping ](assets/new-filters-more-menu-options-with-delete.png)
 

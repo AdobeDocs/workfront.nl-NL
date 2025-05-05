@@ -78,9 +78,9 @@ Nadat een mijlpaden aan een project wordt geassocieerd, kunnen de taken een mijl
 
    Taken en mijlpalen hebben een 1:1-relatie. U kunt niet dezelfde mijlpaal aan meerdere taken koppelen. Elke taak kan aan één enkele mijlpaal worden gekoppeld, of elke mijlpaal kan aan één taak worden toegewezen.
 
-1. Klik **Montages**, dan selecteer een mijlpaal op het **3} gebied van de Mijlpaal {voor de taak.**
+1. Klik **Montages**, dan selecteer een mijlpaal op het **3&rbrace; gebied van de Mijlpaal &lbrace;voor de taak.**
 1. Klik **sparen**.
-1. (Facultatief) in een lijst van taken, voeg de **kolom van de Status van 0} toe om te identificeren welke taken mijlpalen hebben.** De indicator Mijlsteen ruitje wordt weergegeven in de kolom Statuspictogrammen.
+1. (Facultatief) in een lijst van taken, voeg de **kolom van de Status van 0&rbrace; toe om te identificeren welke taken mijlpalen hebben.** De indicator Mijlsteen ruitje wordt weergegeven in de kolom Statuspictogrammen.
 
    Voor informatie, zie [ meningen in Adobe Workfront ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md) creëren of uitgeven.
 

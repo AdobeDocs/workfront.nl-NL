@@ -82,7 +82,7 @@ U kunt acties voor uw organisatie op de volgende manieren vormen:
 1. Klik **Montages** > **montages van de Rekening** in de hoger-juiste hoek van de interface van Workfront Proof, dan klik de **Montages** tabel.
 
 1. Klik **Opstelling** naast de actie u wilt deactiveren of reactivate.
-1. Selecteer **activeren** of **** deactiveren, dan klik **sparen**.
+1. Selecteer **activeren** of **&#x200B;**&#x200B;deactiveren, dan klik **sparen**.
 
 ### Handelingen opnieuw ordenen {#reorder-actions}
 

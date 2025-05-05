@@ -82,7 +82,7 @@ Voor meer informatie over de hiërarchie van voorwerpen in Workfront, zie [ voor
 
 1. Voor de **pagina van Portfolio&#39;s**, selecteer de portefeuille u wilt delen. De portfoliopagina wordt geopend.
 
-1. Rechts van de portefeuillenaam, klik **Aandeel**. Het [ de dialoogvakje van de Naam van Portfolio 1} van het Aandeel ]**opent.**
+1. Rechts van de portefeuillenaam, klik **Aandeel**. Het [ de dialoogvakje van de Naam van Portfolio 1&rbrace; van het Aandeel ]&#x200B;**opent.**
 
    ![ de portefeuilleknoop van het Aandeel ](assets/share-portfolio-button.png)
 

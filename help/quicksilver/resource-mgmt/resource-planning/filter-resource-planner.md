@@ -110,7 +110,7 @@ Houd rekening met het volgende wanneer u het filter Standaard gebruikt:
 Het maken van een filter in de Planner van het Middel is identiek voor alle meningen.
 
 Zorg ervoor dat de eerste vereisten voor het weergeven van de juiste informatie in de functie Bronnen aanwezig zijn voordat u een filter maakt.\
-Voor informatie over het ontmoeten van de noodzakelijke eerste vereisten om met de Planner van het Middel te werken, zie de &quot;Eerste vereisten voor het werken in de sectie van de Planner van het Middel&quot;in het ](../../resource-mgmt/resource-planning/get-started-resource-planner.md) artikel van de Planner van 0} het overzicht van het Middel.[
+Voor informatie over het ontmoeten van de noodzakelijke eerste vereisten om met de Planner van het Middel te werken, zie de &quot;Eerste vereisten voor het werken in de sectie van de Planner van het Middel&quot;in het [&#128279;](../../resource-mgmt/resource-planning/get-started-resource-planner.md) artikel van de Planner van 0&rbrace; het overzicht van het Middel.
 
 Houd rekening met het volgende wanneer u een filter maakt:
 
@@ -123,7 +123,7 @@ Een filter maken in de bronnenplanner:
 
 De **vertoningen van de Planner** door gebrek.
 
-Door gebrek, de eerste keer u tot de Planner van het Middel toegang hebt, wordt de <strong> StandaardFilter </strong> toegepast.<br> voor meer informatie over de Standaardfilter, zie het <a href="#overview-of-the-default-filter-in-the-resource-planner" class="MCXref xref"> Overzicht van de StandaardFilter in de 2} sectie van de Planner van het Middel {in dit artikel.</a>
+Door gebrek, de eerste keer u tot de Planner van het Middel toegang hebt, wordt de <strong> StandaardFilter </strong> toegepast.<br> voor meer informatie over de Standaardfilter, zie het <a href="#overview-of-the-default-filter-in-the-resource-planner" class="MCXref xref"> Overzicht van de StandaardFilter in de 2&rbrace; sectie van de Planner van het Middel &lbrace;in dit artikel.</a>
 
 1. In de upper-left hoek van, klik het **pictogram van de Filter**.
    ![ filter_icon.png ](assets/filter-icon.png)
@@ -165,7 +165,7 @@ Vouw het **drop-down menu van de Filter** uit en klik **voeg Nieuwe Filter** toe
    Klik **sparen Filter** om de filter te bewaren.\
    ![ RP_Apply_or_Save_buttons_on_filters.png ](assets/rp-apply-or-save-buttons-on-filters-320x79.png)
 
-1. (Voorwaardelijk) nadat u **** klikt sparen, specificeer een naam voor de filter in het **vakje van de Naam van de Filter** binnen **sparen de dialoogdoos van de Filter**. Dit is een verplicht veld.\
+1. (Voorwaardelijk) nadat u **&#x200B;**&#x200B;klikt sparen, specificeer een naam voor de filter in het **vakje van de Naam van de Filter** binnen **sparen de dialoogdoos van de Filter**. Dit is een verplicht veld.\
    ![ RP_new_save_filter_box__with_Save_button__without_apply.png ](assets/rp-new-save-filter-box--with-save-button--without-apply-350x175.png)
 
    >[!NOTE]

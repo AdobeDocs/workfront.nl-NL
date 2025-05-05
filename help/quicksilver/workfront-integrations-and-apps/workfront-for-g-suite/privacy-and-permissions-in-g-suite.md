@@ -26,6 +26,6 @@ We hebben de volgende machtigingen nodig, zodat de Workfront for Google Workspac
 * **Plug-in moet als toe:voegen-op/niet-gevoelig van de Kalender** lopen: De Workfront voor Workspace stop-binnen van Google verbindt met uw kalender, zodat kunt u visualiseren hoe de taken programma&#39;s beïnvloeden. De plug-in heeft hiervoor de toestemming van `Run as a Calendar add-on / non-sensitive` nodig.
 * **verbind met een externe de diensttoestemming:** uiteindelijk, moet het elektrische toestel met Workfront API verbinden, die de backbone van de stop-in waarde is. De Workfront API is een service buiten Google, dus de plug-in heeft de `Connect to an external service permission` nodig om de plug-in te laten werken.
 
-Voor meer informatie over de toewijding van Adobe Workfront aan klantenprivacy, zie {het Bericht van de Privacy van 0} Workfront ](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Privacy-Notice-and-Privacy-Shield-Statement-Adobe-Workfront.pdf).[
+Voor meer informatie over de toewijding van Adobe Workfront aan klantenprivacy, zie {het Bericht van de Privacy van 0} Workfront [&#128279;](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Privacy-Notice-and-Privacy-Shield-Statement-Adobe-Workfront.pdf).
 
 Voor meer informatie, zie [ het Beleid van de Gegevens van de Gebruiker van de Diensten van Google API ](https://developers.google.com/terms/api-services-user-data-policy).

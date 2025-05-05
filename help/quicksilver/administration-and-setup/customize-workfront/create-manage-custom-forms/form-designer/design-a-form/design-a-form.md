@@ -68,7 +68,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    ![ kies objecten type ](assets/choose-object-type.jpg)
 
 1. Op **Titel wordt vereist** gebied, typ de titel van de douanevorm.
-1. (Facultatief) als u meer objecten types aan de vorm wilt toevoegen zodat het aan meer voorwerpen kan worden vastgemaakt, **** pictogram ![ toevoegen ](assets/add-objects-icon.png) na **de Types van Objecten**, dan selecteren het type u in het menu wilt dat toont. U kunt dit herhalen om zoveel objecttypen toe te voegen als u wilt.
+1. (Facultatief) als u meer objecten types aan de vorm wilt toevoegen zodat het aan meer voorwerpen kan worden vastgemaakt, **&#x200B;**&#x200B;pictogram ![ toevoegen ](assets/add-objects-icon.png) na **de Types van Objecten**, dan selecteren het type u in het menu wilt dat toont. U kunt dit herhalen om zoveel objecttypen toe te voegen als u wilt.
 
    U kunt ook op de X op een objecttype klikken om het uit het formulier te verwijderen.
 
@@ -165,7 +165,7 @@ U kunt verschillende tekstvelden toevoegen aan een aangepast formulier.
 
   Dit aangepaste veldtype wordt niet ondersteund in filters in lijsten en rapporten.
 
-  Voor informatie over de toegang tot van dit gebied door API, zie {de opslag van 0} Rich tekstgebied in API ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md).[
+  Voor informatie over de toegang tot van dit gebied door API, zie {de opslag van 0} Rich tekstgebied in API [&#128279;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md).
 
   >[!NOTE]
   >
@@ -631,12 +631,12 @@ Een externe zoekopdracht toevoegen:
       <td role="rowheader">JSON-pad</td>
       <td><p>Typ of plak het JSON-pad voor de API.</p> <p>Met deze optie kunnen gegevens worden opgehaald uit de JSON die door de API-URL wordt geretourneerd. Hiermee kunt u selecteren welke waarden in de JSON-code worden weergegeven in de vervolgkeuzemogelijkheden.</p><p>Bijvoorbeeld, als uw API URL JSON in dit formaat terugkeert:</br>
       <pre>
-      {
-       data: {
+      &lbrace;
+       data: &lbrace;
          { name: "USA"},
          { name: "Canada"}
-       }
-      }
+       &rbrace;
+      &rbrace;
       </pre>
       </p>
       <p>vervolgens kunt u "$.data[*].name" gebruiken om de VS en Canada te selecteren als vervolgkeuzemogelijkheden.</p> <p>Voor meer informatie over de Weg JSON en het verzekeren u de correcte Weg JSON schrijft, verwijs naar <a href="https://jsonpath.com/"> https://jsonpath.com/ </a>.</p></td>

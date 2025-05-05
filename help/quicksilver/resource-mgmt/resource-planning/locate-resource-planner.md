@@ -98,7 +98,7 @@ Wanneer het gebruiken van de Planner van het Middel voor één project, vertegen
 
 1. Ga naar een project waarvoor u middelen wilt begroten.
 1. Klik **Bedrijfs Geval** in het linkerpaneel.
-1. De rol aan de **Begrotende 1} sectie van het Middel van het BedrijfsGeval.**
+1. De rol aan de **Begrotende 1&rbrace; sectie van het Middel van het BedrijfsGeval.**
 1. Klik **uitgeven Middel die** begroten om middelpools aan uw project toe te voegen en beginnen uw middelen in de begroting op te nemen.
 
    >[!TIP]

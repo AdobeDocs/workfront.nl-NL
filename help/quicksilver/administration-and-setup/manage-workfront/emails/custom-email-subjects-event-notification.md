@@ -70,7 +70,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klik de **Berichten van de Gebeurtenis** tabel.
 1. Klik de naam van het gebeurtenisbericht u wilt aanpassen om het **vakje van het Bericht van de Gebeurtenis** te openen.
-1. In het **vakje van de Lijn van het Onderwerp van 0} E-mail {, verander de tekst en de gebieden, met inbegrip van douanevelden, in het e-mailonderwerp.**
+1. In het **vakje van de Lijn van het Onderwerp van 0&rbrace; E-mail &lbrace;, verander de tekst en de gebieden, met inbegrip van douanevelden, in het e-mailonderwerp.**
 
    De namen van de toegevoegde velden moeten overeenkomen met de hoofdlettersyntaxis van de kameel-database. <!--For more information about how our objects and their fields are named in the Workfront database, see the [Adobe Workfront API](../../../wf-api/workfront-api.md).-->
 

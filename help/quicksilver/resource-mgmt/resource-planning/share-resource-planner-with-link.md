@@ -105,7 +105,7 @@ U kunt als volgt een unieke URL opvragen in de weergave Gebruiker van de functie
 
       1. Ga naar **Meldend**> **Dashboards**> **Nieuw Dashboard**> **voeg Externe Pagina toe.**
 
-      1. Plak de verbinding u aan uw klembord op het **** gebied URL kopieerde.
+      1. Plak de verbinding u aan uw klembord op het **&#x200B;**&#x200B;gebied URL kopieerde.
       1. Klik **sparen**, dan **sparen + Sluiten**.\
          Hierdoor wordt de URL ingesloten in het dashboard en wordt de gebruikersweergave van de functie voor het plaatsen van bronnen weergegeven in een afzonderlijk dashboard.
 

@@ -342,7 +342,7 @@ Daarnaast kunt u als volgt de tijd vastleggen voor een item in de widget Mijn we
 1. Ga naar het **Begin** gebied.
 1. Voeg **Mijn werk** widget aan uw Huis toe.
 1. (Facultatief) selecteer een taak, kwestie, of verzoek in een lijst, dan klik **Werk op het**.
-1. Beweeg over de taak of de kwestie u tijd voor wilt registreren, dan het **pictogram ![](assets/log-time-icon-in-new-home.png) van de Tijd van het Logboek** {aan het recht van de taakinformatie klikken.
+1. Beweeg over de taak of de kwestie u tijd voor wilt registreren, dan het **pictogram ![](assets/log-time-icon-in-new-home.png) van de Tijd van het Logboek** &lbrace;aan het recht van de taakinformatie klikken.
 
    ![](assets/log-time-ui-for-task-from-new-home.png)
 
@@ -534,7 +534,7 @@ Om uurtypes in een uurrapport of een lijst uit te geven:
 1. Klik op het vakje links van een of meerdere uurvermeldingen om deze te selecteren.
 1. Klik het **uitgeven pictogram** ![](assets/edit-icon.png) bij de bovenkant van de lijst.
 
-   Het **geeft** uur {of **geeft de doos van Uren** uit opent.
+   Het **geeft** uur &lbrace;of **geeft de doos van Uren** uit opent.
 1. Werk een van de volgende beschikbare velden bij:
 
    * Uren. Dit is een verplicht veld.

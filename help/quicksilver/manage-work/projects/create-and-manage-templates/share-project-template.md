@@ -62,7 +62,7 @@ Met Sjabloon delen kunt u uw sjablonen delen met andere gebruikers. Deze actie b
 
 Een sjabloon delen:
 
-1. Van het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png), klik** Malplaatjes **.**
+1. Van het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png), klik** Malplaatjes **.**
 
 1. Voer een van de volgende handelingen uit:\
    Klik de naam van een malplaatje om het te openen, dan klik het **Meer** menu ![ Meer pictogram ](assets/qs-more-icon-on-an-object.png), toen **Malplaatje dat** deelt.

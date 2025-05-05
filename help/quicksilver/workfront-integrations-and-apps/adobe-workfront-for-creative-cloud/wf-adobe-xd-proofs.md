@@ -67,7 +67,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    ![ pictogram van het Menu ](assets/menu-350x440.png)
 
 1. Ga naar het het werkpunt waar u een statisch bewijs wilt uploaden.
-1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1} Document ](assets/documents.png) in de navigatiebar.![
+1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1&rbrace; Document ![&#128279;](assets/documents.png) in de navigatiebar.
 
 1. Klik op **[!UICONTROL New File]** onder aan de plug-in.
 1. Selecteer de tekengebieden die u wilt uploaden.
@@ -152,7 +152,7 @@ Met de [!DNL Workfront for Adobe] -plug-in kunt u een interactieve proefdruk mak
    ![ pictogram van het Menu ](assets/menu-350x440.png)
 
 1. Ga naar het werkitem waar u een interactieve proefdruk wilt uploaden.
-1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1} Document ](assets/documents.png) in de navigatiebar.![
+1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1&rbrace; Document ![&#128279;](assets/documents.png) in de navigatiebar.
 
 1. Klik op **[!UICONTROL New File]** onder aan de plug-in.
 1. Schakel **[!UICONTROL Create a Proof]** in.
@@ -206,7 +206,7 @@ U kunt een nieuwe versie van een proefdruk uploaden. De plug-in onthoudt de test
    ![ pictogram van het Menu ](assets/menu-350x440.png)
 
 1. Ga naar het werkitem waarnaar u een document moet uploaden.
-1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1} Document ](assets/documents.png) in de navigatiebar.![
+1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1&rbrace; Document ![&#128279;](assets/documents.png) in de navigatiebar.
 
 1. Klik op **[!UICONTROL New Version]** onder aan de plug-in.
 1. Schakel **[!UICONTROL Create a Proof]** in.

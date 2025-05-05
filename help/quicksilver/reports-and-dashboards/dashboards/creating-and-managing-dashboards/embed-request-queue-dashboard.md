@@ -156,7 +156,7 @@ Wanneer u een koppeling deelt naar een vooraf geselecteerd aanvraagtype, wordt h
 
 U kunt een verbinding aan de verzoekrij of aan een rijonderwerp inbedden dat onder een verzoekrij in een dashboard wordt genesteld om gebruikers directe toegang tot het ingaan van verzoeken te geven.
 
-1. Verkrijg een verzoekrij URL gebruikend één van de methodes die in [ worden beschreven verkrijgen URL van de 1} sectie van de verzoekrij {van dit artikel.](#obtain-the-url-of-the-request-queue)
+1. Verkrijg een verzoekrij URL gebruikend één van de methodes die in [ worden beschreven verkrijgen URL van de 1&rbrace; sectie van de verzoekrij &lbrace;van dit artikel.](#obtain-the-url-of-the-request-queue)
 
 1. Klik het **Belangrijkste Menu** > **Dashboards** > **Nieuw Dashboard**.
 

@@ -54,7 +54,7 @@ De slotversie van Beta van 2017.3 bevat verbeteringen voor zowel Workfront-behee
 * [ brandend in Geëxporteerde Rapporten, Lijsten, en Dashboards ](#branding-in-exported-reports-lists-and-dashboards)
 * [ Verbeteringen wanneer het kopiëren van Taken en het bewegen van Taken of Kwesties ](#improvements-when-copying-tasks-and-moving-tasks-or-issues)
 * [ Nieuwe Groepering voor de Rapporten van het Huur van het Middel begrote: Datum van de toewijzing ](#new-grouping-for-resource-budgeted-hour-reports-allocation-date)
-* {de Verbeteringen van de Planner van 0} Middel ](#resource-planner-improvements)[
+* {de Verbeteringen van de Planner van 0} Middel [&#128279;](#resource-planner-improvements)
 * [ Mobiele Verbeteringen ](#mobile-improvements)
 * [ de Integratie van Workfront met Slack ](#workfront-integration-with-slack)
 * [ Vooruitzichten 365 Verbeteringen ](#outlook-365-improvements)

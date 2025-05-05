@@ -90,7 +90,7 @@ U kunt een taak op de volgende manieren delen:
    * Geef de machtigingen voor een van de bovenliggende objecten van de taak op: project, programma of portfolio. Taken nemen de machtigingen over van de bovenliggende objecten. Voor informatie over het bekijken van geërfte toestemmingen op voorwerpen, zie [ Mening geërfte toestemmingen op voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
    * Voeg entiteiten aan het Delen van het Project op een malplaatje toe dat wordt gebruikt om het project tot stand te brengen de taak is. Voor informatie over het delen van projecten van malplaatjes, zie [ een malplaatje ](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md) delen.
 
-   * Specificeer de toestemmingen op alle taken in een project wanneer u het project uitgeeft. Voor informatie over het beheren van de toegang tot taken op het project dat op de toestemmingen van een gebruiker aan het project wordt gebaseerd, zie de [](../../manage-work/projects/manage-projects/edit-projects.md#access) sectie in het artikel [ projecten ](../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+   * Specificeer de toestemmingen op alle taken in een project wanneer u het project uitgeeft. Voor informatie over het beheren van de toegang tot taken op het project dat op de toestemmingen van een gebruiker aan het project wordt gebaseerd, zie de [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) sectie in het artikel [ projecten ](../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
   >[!TIP]
   >
@@ -100,7 +100,7 @@ U kunt een taak op de volgende manieren delen:
 
 1. Navigeer naar de taak die u wilt delen.
 
-1. Aan het recht van de taaknaam, klik **Aandeel**. Het [ de dialoogvakje van de Naam van de Taak 1} van het Aandeel ]**opent.**
+1. Aan het recht van de taaknaam, klik **Aandeel**. Het [ de dialoogvakje van de Naam van de Taak 1&rbrace; van het Aandeel ]&#x200B;**opent.**
 
    ![ de taakknoop van het Aandeel ](assets/share-task-button.png)
 

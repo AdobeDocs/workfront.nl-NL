@@ -126,9 +126,9 @@ Voordat u een gebruiker toevoegt, verzamelt u de informatie over de hieronder ve
    >
    >* Als uw Workfront-beheerder een SSO-integratie met Workfront heeft ingeschakeld, wordt het veld Alleen verificatie toestaan verborgen als u de e-mailuitnodiging uitschakelt. Het veld Federation ID of &lt;SSO Configuration> Gebruikersnaam blijft zichtbaar.
    >
-   * Als uw organisatie is aangemeld bij de Admin Console en u een gebruiker toevoegt via Workfront, kunt u geen e-mailuitnodiging verzenden.
+   >* Als uw organisatie is aangemeld bij de Admin Console en u een gebruiker toevoegt via Workfront, kunt u geen e-mailuitnodiging verzenden.
    >
-   Voor bestaande Adobe-gebruikers kan de gebruiker al dan niet een e-mail ontvangen over de beschikbaarheid van Workfront. Deze voorkeur wordt door de Adobe-beheerder voor het product bepaald.
+   >Voor bestaande Adobe-gebruikers kan de gebruiker al dan niet een e-mail ontvangen over de beschikbaarheid van Workfront. Deze voorkeur wordt door de Adobe-beheerder voor het product bepaald.
 
 1. Klik **toevoegen Deze persoon**.
 
@@ -138,7 +138,7 @@ Voordat u een gebruiker toevoegt, verzamelt u de informatie over de hieronder ve
 
    >[!NOTE]
    >
-   Als u een groepsbeheerder bent die een gebruiker aan een organisatie toevoegt die aan Adobe Admin Console is bezet, zijn de opties voor deze stap **gebruikers voor Goedkeuring Admin** en **voorleggen voor Goedkeuring &amp; Begin een andere**. De gebruiker wordt aangemaakt in een gedeactiveerde en in afwachting van de goedkeuringsstatus. Een Workfront-beheerder moet de gebruiker goedkeuren, die de gebruiker in Workfront activeert en deze aan de Adobe Admin Console toevoegt.
+   >Als u een groepsbeheerder bent die een gebruiker aan een organisatie toevoegt die aan Adobe Admin Console is bezet, zijn de opties voor deze stap **gebruikers voor Goedkeuring Admin** en **voorleggen voor Goedkeuring &amp; Begin een andere**. De gebruiker wordt aangemaakt in een gedeactiveerde en in afwachting van de goedkeuringsstatus. Een Workfront-beheerder moet de gebruiker goedkeuren, die de gebruiker in Workfront activeert en deze aan de Adobe Admin Console toevoegt.
 
 ## Een gebruiker kopiëren om een nieuwe te maken
 
@@ -146,11 +146,11 @@ U kunt een gebruiker maken door een bestaande gebruiker te kopiëren.
 
 >[!NOTE]
 >
-Wanneer u op deze manier een gebruiker maakt, wordt alle informatie van de oorspronkelijke gebruiker naar de nieuwe gebruiker gekopieerd, behalve de volgende:
+>Wanneer u op deze manier een gebruiker maakt, wordt alle informatie van de oorspronkelijke gebruiker naar de nieuwe gebruiker gekopieerd, behalve de volgende:
 >
-* De informatie in de Persoonlijke sectie van Info.
-* Wanneer ik login, toon: Het standaardlandende lusje voor het toegangsniveau wordt geselecteerd in dit vakje.
-* Directe rapporten
+>* De informatie in de Persoonlijke sectie van Info.
+>* Wanneer ik login, toon: Het standaardlandende lusje voor het toegangsniveau wordt geselecteerd in dit vakje.
+>* Directe rapporten
 >
 
 Nieuwe gebruiker maken door een bestaande gebruiker te kopiëren:
@@ -174,6 +174,6 @@ Als u de optie hebt geselecteerd om een uitnodiging naar de gebruiker te verzend
 
 >[!NOTE]
 >
-Als uw organisatie is aangemeld bij de Admin Console en u een gebruiker toevoegt via Workfront, kunt u geen e-mailuitnodiging verzenden.
+>Als uw organisatie is aangemeld bij de Admin Console en u een gebruiker toevoegt via Workfront, kunt u geen e-mailuitnodiging verzenden.
 >
-Voor bestaande Adobe-gebruikers kan de gebruiker al dan niet een e-mail ontvangen over de beschikbaarheid van Workfront. Deze voorkeur wordt door de Adobe-beheerder voor het product bepaald.
+>Voor bestaande Adobe-gebruikers kan de gebruiker al dan niet een e-mail ontvangen over de beschikbaarheid van Workfront. Deze voorkeur wordt door de Adobe-beheerder voor het product bepaald.

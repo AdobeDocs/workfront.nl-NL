@@ -78,9 +78,7 @@ Voor informatie over het creëren van een systeem-vlakke goedkeuringsproces of e
      >     Bijvoorbeeld, als u een taakgoedkeuring verbonden aan het statuut van Bezig hebt, verandert de taak automatisch zijn status in Bezig wanneer de goedkeuring wordt verleend. De status kan niet automatisch worden gewijzigd in Voltooid of in een andere status die niet aan de goedkeuring is gekoppeld.
      >   
      >   
-     >
-
-   * De entiteiten die aan een goedkeuringsproces worden geassocieerd kunnen gebruikers, baanrollen, of teams zijn. De gebruikers zijn uiteindelijk verantwoordelijk voor het goedkeuren of verwerpen van de goedkeuring. U kunt goedkeuringen toewijzen aan gebruikers die een bepaalde rol in het project vervullen. U kunt bijvoorbeeld een goedkeuring toewijzen aan een projecteigenaar of sponsor. Voor meer informatie, zie [ een goedkeuringsproces voor het werkpunten ](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) creëren.
+     >* De entiteiten die aan een goedkeuringsproces worden geassocieerd kunnen gebruikers, baanrollen, of teams zijn. De gebruikers zijn uiteindelijk verantwoordelijk voor het goedkeuren of verwerpen van de goedkeuring. U kunt goedkeuringen toewijzen aan gebruikers die een bepaalde rol in het project vervullen. U kunt bijvoorbeeld een goedkeuring toewijzen aan een projecteigenaar of sponsor. Voor meer informatie, zie [ een goedkeuringsproces voor het werkpunten ](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) creëren.
 
      De volgende scenario&#39;s bestaan:
 

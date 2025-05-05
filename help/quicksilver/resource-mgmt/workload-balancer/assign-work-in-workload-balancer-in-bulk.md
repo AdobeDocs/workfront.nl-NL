@@ -147,7 +147,7 @@ Om een gebruiker aan werkpunten toe te wijzen die eerder aan baanrollen worden t
 
 1. Begin het toewijzen van het werkpunten gebruikend BulkToewijzingen in de Balancer van de Werkbelasting zoals hierboven beschreven en selecteer **toewijzen**.
 
-1. Op het **gebied van de Rol 0} {, klik de drop-down pijl om van een lijst van rollen te kiezen.** Slechts worden de rollen momenteel toegewezen binnen de gespecificeerde projecten getoond. Dit is een verplicht veld.
+1. Op het **gebied van de Rol 0&rbrace; &lbrace;, klik de drop-down pijl om van een lijst van rollen te kiezen.** Slechts worden de rollen momenteel toegewezen binnen de gespecificeerde projecten getoond. Dit is een verplicht veld.
 
    ![ de taak van de Rol ](assets/bulk-assignments-workload-balancer-assign-selected.png)
 

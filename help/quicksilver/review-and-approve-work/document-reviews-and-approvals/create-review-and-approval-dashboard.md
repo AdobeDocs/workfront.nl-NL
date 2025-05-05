@@ -60,6 +60,7 @@ U kunt informatie op hoog niveau over documentgoedkeuringen met KPIs en grafieke
 1. Klik **uitgeven Filter** > **toevoegt voorwaarde**.
    1. Klik in de lege voorwaardenfilter, klik **Kiep een Gebied**, dan kies **Status**.
    1. Verlaat de exploitant als **Gelijk**, en type _in afwachting van overzicht_ in textbox.
+
       ![ hangend kpi filtervoorbeeld ](assets/pending-kpi-filter.png)
 1. Klik **Gedaan** in de hoger-juiste hoek van het scherm.
 
@@ -76,10 +77,12 @@ U kunt informatie op hoog niveau over documentgoedkeuringen met KPIs en grafieke
 1. Klik **uitgeven Filter** > **toevoegt voorwaarde**:
    1. Klik in de lege voorwaardenfilter, klik **Kiep een Gebied**, dan kies **Deadline**.
    1. Verander de exploitant in **minder dan**, en knevel Relatieve datum aan, dan type _$$TODAY_ in textbox.
+
       ![ achterstallig kpi filtervoorbeeld ](assets/overdue-kpi-filter.png)
 1. Klik **toevoegen voorwaarde**:
    1. Klik in de lege voorwaardenfilter, klik **Kiep een Gebied**, dan kies **Status**.
    1. Verander de exploitant in **niet bevat**, dan type _goedgekeurd_ in textbox.
+
       ![ achterstallig kpi filtervoorbeeld 2 ](assets/overdue-kpi-filter-2.png)
 1. Klik **Gedaan** in de hoger-juiste hoek van het scherm.
 
@@ -96,11 +99,13 @@ U kunt informatie op hoog niveau over documentgoedkeuringen met KPIs en grafieke
 1. Klik **uitgeven Filter** > **toevoegt voorwaarde**:
    1. Klik in de lege voorwaardenfilter, klik **Kiep een Gebied**, dan kies **Status**.
    1. Verander de exploitant in **bevat**, en type _goedgekeurd_ in textbox.
+
       ![ voltooid kpi filtervoorbeeld ](assets/completed-kpi-filter.png)
 1. Klik **toevoegen voorwaarde**:
    1. Klik **en** om het in **of** te veranderen.
    1. Klik in de lege voorwaardenfilter, klik **Kiep een Gebied**, dan kies **Status**.
    1. Verander de exploitant in **evenaart**, dan type _herzien_ in textbox.
+
       ![ voltooid kpi filtervoorbeeld ](assets/completed-kpi-filter-2.png)
 1. Klik **Gedaan** in de hoger-juiste hoek van het scherm.
 
@@ -109,17 +114,19 @@ U kunt informatie op hoog niveau over documentgoedkeuringen met KPIs en grafieke
 1. [ creeer een dashboard ](#create-a-dashboard) zoals die in de sectie hierboven wordt beschreven.
 1. In **KPI** kaart, klik **toevoegen**.
 1. Het type _verliet_ in **KPI Titel** textbox.
-1. De deadline van de Goedkeuring van het type _over 2 weken voorbij_ in **KPI de 3} textbox van de Titel van de Titel {.** Deze tekst beschrijft wat KPI toont.
+1. De deadline van de Goedkeuring van het type _over 2 weken voorbij_ in **KPI de 3&rbrace; textbox van de Titel van de Titel &lbrace;.** Deze tekst beschrijft wat KPI toont.
 1. Bij de bovenkant van de pagina, klik **Uitgezochte het Gebied van KPI**.
 1. De rol neer en vindt de **omslag van het Stadium van de Goedkeuring van het Document**.
 1. Kies **Deadline**, dan uitgezochte **Telling** van het drop-down menu.
 1. Klik **uitgeven Filter** > **toevoegt voorwaarde**:
    1. Klik in de lege voorwaardenfilter, klik **Kiep een Gebied**, dan kies **Status**.
    1. Verander de exploitant in **niet bevat**, en type _goedgekeurd_ in textbox.
+
       ![ verlaten kpi filtervoorbeeld ](assets/abandoned-kpi-filter.png)
 1. Klik **toevoegen voorwaarde**:
    1. Klik in de lege voorwaardenfilter, klik **Kiep een Gebied**, dan kies **Deadline**.
    1. Verander de exploitant in **minder dan**, dan knevel Relatieve datum op, dan type _$$TODAY-2w_ in textbox.
+
       ![ verlaten kpi filtervoorbeeld ](assets/abandoned-kpi-filter-2.png)
 1. Klik **Gedaan** in de hoger-juiste hoek van het scherm.
 
@@ -143,6 +150,7 @@ U kunt informatie op hoog niveau over documentgoedkeuringen met KPIs en grafieke
 1. Klik **uitgeven Filter** > **toevoegt voorwaarde**:
    1. Klik in de lege voorwaardenfilter, klik **Kiep een Gebied**, dan kies **Versie van het Document**.
    1. Verander de exploitant in **is niet Null**.
+
       ![ filtervoorbeeld ](assets/approvals-by-decision-chart-filter.png)
 1. Klik **Gedaan** in de hoger-juiste hoek van het scherm.
 
@@ -158,15 +166,17 @@ U kunt informatie op hoog niveau over documentgoedkeuringen met KPIs en grafieke
 1. In het **type van Bar** drop-down menu, verlaat **Eenvoudig** geselecteerd.
 1. Klik het gebied van de Update **voor de** Onderste (X) as **, en kies de eerste** omslag van de Goedkeuring van het Document **toen** Versie van het Document **>** Versie **.**
 1. Plaats het type van Samenvoeging aan **Telling**.
-1. Klik {het gebied van de Update 1} voor de **Linker (Y) as**, en kies de eerste **optie van de Goedkeuring van het Document** toen **Versie van het Document** > **Document** > **Naam**.****
+1. Klik {het gebied van de Update 1} voor de **Linker (Y) as**, en kies de eerste **optie van de Goedkeuring van het Document** toen **Versie van het Document** > **Document** > **Naam**.**&#x200B;**
 1. Klik het lusje van de Filter ![ pictogram van het filterlusje ](assets/filter-tab.png).
 1. Klik **uitgeven Filter** > **toevoegt voorwaarde**:
    1. Klik in de lege voorwaardenfilter, klik **Kiep een Gebied**, dan kies **de Datum van het Besluit van de Deelnemers van het Stadium van de Goedkeuring**.
    1. Verander de exploitant in **is Null**.
+
       ![ het filtervoorbeeld van het revisiesdiagram ](assets/revision-chart-filter.png)
 1. Klik **uitgeven Filter** > **toevoegt voorwaarde**:
    1. Klik in de lege voorwaardenfilter, klik **Kiep een Gebied**, dan kies **de deadline van het Stadium van de Goedkeuring**.
    1. Verander de exploitant in **minder dan of Gelijk**, dan knevel Vastgestelde relatieve datum op en type _$$TODAYem_ in textbox.
+
       ![ het filtervoorbeeld van het revisiesdiagram ](assets/revision-chart-filter-2.png)
 1. Klik **Gedaan** in de hoger-juiste hoek van het scherm.
 
@@ -225,6 +235,7 @@ U kunt informatie op hoog niveau over documentgoedkeuringen met KPIs en grafieke
 1. Klik **uitgeven Filter** > **toevoegt voorwaarde**:
    1. Klik in de lege voorwaardenfilter, klik **Kiep een Gebied**, dan kies **Status**.
    1. Verander de exploitant in **Gelijk**, dan type _in afwachting van goedkeuring_.
+
       ![ hangende het filtervoorbeeld van de goedkeuringstabel ](assets/pending-approval-table-filter.png)
 1. Voeg facultatieve filters toe zoals hieronder beschreven, of klik **Gedaan** in de hoger-juiste hoek van het scherm.
 
@@ -239,6 +250,7 @@ Als u meer specifieke informatie wilt weergeven, afhankelijk van het gebruik, ku
 1. Klik **uitgeven Filter** > **toevoegt voorwaarde**:
    1. Klik in de lege voorwaardenfilter, klik **Kiep een Gebied**, dan kies **versie van het Document** > **Document** > **Project** > **Eigenaar** > type _Naam_ in de onderzoeksdoos.
    1. Verander de exploitant in **Gelijk**, dan kies **me (die in Gebruiker wordt geregistreerd)** aan vertoningsprojecten in Workfront waarin u als projecteigenaar duidelijk bent.
+
       ![ hangende het filtervoorbeeld van de goedkeuringstabel ](assets/pending-approvals-my-project-filter.png)
 1. Klik **Gedaan** in de hoger-juiste hoek van het scherm.
 
@@ -247,6 +259,7 @@ Als u meer specifieke informatie wilt weergeven, afhankelijk van het gebruik, ku
 1. Klik **uitgeven Filter** > **toevoegt voorwaarde**:
    1. Klik in de lege voorwaardenfilter, klik **Kiep een Gebied**, dan kies **het Stadium van de Goedkeuring** > **de Deelnemers van het Stadium van de Goedkeuring** > **Vraag** > type _Naam_ in het onderzoeksvakje.
    1. Verander de exploitant in **Gelijk**, dan kies **me (die in Gebruiker wordt geregistreerd)** aan vertoningsprojecten in Workfront waarin u als projecteigenaar duidelijk bent.
+
       ![ hangende het filtervoorbeeld van de goedkeuringstabel ](assets/pending-approvals-my-project-filter.png)
 1. Klik **Gedaan** in de hoger-juiste hoek van het scherm.
 
@@ -255,7 +268,7 @@ Als u meer specifieke informatie wilt weergeven, afhankelijk van het gebruik, ku
 ### Achterstallige goedkeuringenlijst
 
 1. [ creeer een dashboard ](#create-a-dashboard) zoals die in de sectie hierboven wordt beschreven.
-1. In de kaart van de Lijst, voegt de klik **** toe.
+1. In de kaart van de Lijst, voegt de klik **&#x200B;**&#x200B;toe.
 1. Het type _Achterstallige goedkeurt_ in **Naam** textbox.
 1. (Facultatief) Type een beschrijving in **Beschrijving** textbox. Deze tekst wordt als knopinfo naast de naam van het diagram weergegeven.
 1. Klik **Open kolommontages**.
@@ -303,6 +316,7 @@ Als u meer specifieke informatie wilt weergeven, afhankelijk van het gebruik, ku
 1. Klik **uitgeven Filter** > **toevoegt voorwaarde**:
    1. Klik in de lege voorwaardenfilter, klik **Kiep een Gebied**, dan kies **het Stadium van de Goedkeuring** > **Deadline**.
    1. Verander de exploitant in **minder dan**, knevel **plaats relatieve datum**, dan type _$$TODAY_.
+
       ![ achterstallig het filtervoorbeeld van de goedkeuringstabel ](assets/overdue-approval.png)
 1. Voeg facultatieve filters toe zoals hieronder beschreven, of klik **Gedaan** in de hoger-juiste hoek van het scherm.
 
@@ -318,6 +332,7 @@ Als u meer specifieke informatie wilt weergeven, afhankelijk van het gebruik, ku
 1. Klik **uitgeven Filter** > **toevoegt voorwaarde**:
    1. Klik in de lege voorwaardenfilter, klik **Kiep een Gebied**, dan kies **versie van het Document** > **Document** > **Project** > **Eigenaar** > type _Naam_ in de onderzoeksdoos.
    1. Verander de exploitant in **Gelijk**, dan kies **me (die in Gebruiker wordt geregistreerd)** aan vertoningsprojecten in Workfront waarin u als projecteigenaar duidelijk bent.
+
       ![ hangende het filtervoorbeeld van de goedkeuringstabel ](assets/pending-approvals-my-project-filter.png)
 1. Klik **Gedaan** in de hoger-juiste hoek van het scherm.
 
@@ -326,6 +341,7 @@ Als u meer specifieke informatie wilt weergeven, afhankelijk van het gebruik, ku
 1. Klik **uitgeven Filter** > **toevoegt voorwaarde**:
    1. Klik in de lege voorwaardenfilter, klik **Kiep een Gebied**, dan kies **het Stadium van de Goedkeuring** > **de Deelnemers van het Stadium van de Goedkeuring** > **Vraag** > type _Naam_ in het onderzoeksvakje.
    1. Verander de exploitant in **Gelijk**, dan kies **me (die in Gebruiker wordt geregistreerd)** aan vertoningsprojecten in Workfront waarin u als projecteigenaar duidelijk bent.
+
       ![ hangende het filtervoorbeeld van de goedkeuringstabel ](assets/pending-approvals-my-project-filter.png)
 1. Klik **Gedaan** in de hoger-juiste hoek van het scherm.
 
@@ -334,6 +350,7 @@ Als u meer specifieke informatie wilt weergeven, afhankelijk van het gebruik, ku
 1. Klik **uitgeven Filter** > **toevoegt voorwaarde**:
    1. Klik in de lege voorwaardenfilter, klik **Kiep een Gebied**, dan kies **het Stadium van de Goedkeuring** > **de Deelnemers van het Stadium van de Goedkeuring** > **Team van de Deelnemer** > de Naam van het type __ in het onderzoeksvakje.
    1. Verander de exploitant aan **Gelijk**, dan kies **Mijn standaardteams (die in Gebruiker)** of **Mijn andere teams (die in Gebruiker) worden geregistreerd** aan vertoningsprojecten die aan of uw standaardteam of andere teams worden toegewezen u bent.
+
       ![ hangende het filtervoorbeeld van de goedkeuringstabel ](assets/approvals-ive-submitted-filter.png)
 1. Klik **Gedaan** in de hoger-juiste hoek van het scherm.
 +++

@@ -73,7 +73,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    >Ervoor zorgen dat het project nog geen financiële informatie heeft. Zorg er bijvoorbeeld voor dat er geen geplande of werkelijke kosten verbonden zijn aan het project.
 
 1. Klik **Details van het Project** in het linkerpaneel, dan ga naar het **Financiën** gebied.
-1. Klik **toevoegen** in het **3} gebied van de Valuta {en selecteer de munt die u als standaardmunt voor het project wilt gebruiken.** Alle valuta&#39;s die uw Workfront-beheerder voor uw Workfront-exemplaar heeft ingesteld, worden weergegeven.
+1. Klik **toevoegen** in het **3&rbrace; gebied van de Valuta &lbrace;en selecteer de munt die u als standaardmunt voor het project wilt gebruiken.** Alle valuta&#39;s die uw Workfront-beheerder voor uw Workfront-exemplaar heeft ingesteld, worden weergegeven.
 
    ![ Valuta op project ](assets/currency-on-project-expanded-nwe.png)
 

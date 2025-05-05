@@ -101,7 +101,7 @@ Wanneer u een gebruiker als Eigenaar van het Project van een project toevoegt, g
 1. Klik **Details van het Project** in het linkerpaneel.
 1. Klik **uitgeven** pictogram ![ geeft pictogram ](assets/qs-edit-icon.png) in de hoger-juiste hoek van het gebied van de Details van het Project uit, dan klik **Overzicht**.
 
-1. Specificeer de naam van een gebruiker voor het **gebied van de Eigenaar van het 0} Project.**
+1. Specificeer de naam van een gebruiker voor het **gebied van de Eigenaar van het 0&rbrace; Project.**
 
    Alleen actieve gebruikers kunnen worden opgegeven als eigenaars van projecten.
 

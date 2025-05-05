@@ -86,7 +86,7 @@ Wanneer u een douanestatus voor de volledige organisatie creeert, kunt u het vor
 
    of
 
-   Als u een bestaande status uitgeeft, beweegt over het, dan klik **** pictogram uitgeven dat aan uiterst rechts toont.
+   Als u een bestaande status uitgeeft, beweegt over het, dan klik **&#x200B;**&#x200B;pictogram uitgeven dat aan uiterst rechts toont.
 
    ![ geef douanestatus ](assets/custom-status-edit.png) uit
 

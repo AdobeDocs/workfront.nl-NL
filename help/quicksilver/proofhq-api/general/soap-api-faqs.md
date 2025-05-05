@@ -33,7 +33,7 @@ Het neemt twee eenvoudige stappen:
 
 **Stap 1**: Als u nog geen identiteitskaart van de Zitting hebt, verkrijg door doLogin () te gebruiken of getSessionID () methodes. Gebruik de eerste methode om u aan te melden met gebruik van het e-mailadres en wachtwoord van de gebruiker of de tweede methode als u het e-mailadres en de verificatietoken van de gebruiker hebt.
 
-**Stap 2:**Nu is het tijd om uw bewijs tot stand te brengen. Gebruik de methode createProof() en verzend ons ten minste de vereiste velden (er zijn momenteel slechts 5). Zorg ervoor dat u de Hash-parameter instelt op &#39;web&#39; en de SourceName-parameter als de URL van de webpagina die u wilt vastleggen.
+**Stap 2:**&#x200B;Nu is het tijd om uw bewijs tot stand te brengen. Gebruik de methode createProof() en verzend ons ten minste de vereiste velden (er zijn momenteel slechts 5). Zorg ervoor dat u de Hash-parameter instelt op &#39;web&#39; en de SourceName-parameter als de URL van de webpagina die u wilt vastleggen.
 
 Als u zich nu aanmeldt bij uw account, wordt de proefdruk weergegeven.
 

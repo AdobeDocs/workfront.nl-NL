@@ -69,7 +69,7 @@ U kunt als volgt de takenlijst [!UICONTROL Gantt Chart] van een project of sjabl
    * Een taak of malplaatjetaak, dan klik [!UICONTROL **Subtasks**] in het linkerpaneel.
    * Een taakrapport
 
-1. Klik het **]pictogram van de Gantt ![ Gantt ](assets/gantt-icon-nwe.png) bij de bovenkant van de taaklijst.[!UICONTROL **
+1. Klik het **pictogram van de Gantt ![ Gantt ](assets/gantt-icon-nwe.png) bij de bovenkant van de taaklijst.**
 
    ![ Gantt van de Lijst van de Taak ](assets/task-list-gantt.png)
 

@@ -67,7 +67,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    ![ Terugkeer aan de Lijst van het Werk ](assets/go-back-to-work-list-350x314.png)
 
 1. Ga naar het werkitem waar u een proefdruk wilt uploaden.
-1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1} Document ](assets/documents.png) in de navigatiebar.![
+1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1&rbrace; Document ![&#128279;](assets/documents.png) in de navigatiebar.
 1. Klik op **[!UICONTROL New File]** onder in het deelvenster [!DNL Workfront] .
 1. Schakel de **[!UICONTROL Create a proof]** -schakeloptie in.
 1. (Optioneel) Typ een naam voor de proefdruk in het tekstvak **[!UICONTROL Proof Name]** .
@@ -93,7 +93,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    ![ Terugkeer aan de Lijst van het Werk ](assets/go-back-to-work-list-350x314.png)
 
 1. Ga naar het werkitem waar u een proefdruk wilt uploaden.
-1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1} Document ](assets/documents.png) in de navigatiebar.![
+1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1&rbrace; Document ![&#128279;](assets/documents.png) in de navigatiebar.
 
 1. Klik op **[!UICONTROL New File]** onder in het deelvenster [!DNL Workfront] .
 1. Schakel de **[!UICONTROL Create a proof]** -schakeloptie in.
@@ -126,7 +126,7 @@ U kunt een nieuwe versie van een proefdruk uploaden. De plug-in onthoudt de test
    ![ Terugkeer aan de Lijst van het Werk ](assets/go-back-to-work-list-350x314.png)
 
 1. Ga naar het werkitem waarnaar u een document moet uploaden.
-1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1} Document ](assets/documents.png) in de navigatiebar.![
+1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1&rbrace; Document ![&#128279;](assets/documents.png) in de navigatiebar.
 
 1. Klik op **[!UICONTROL New Version]** onder in het deelvenster [!DNL Workfront] .
 1. Schakel de **[!UICONTROL Create a proof]** -schakeloptie in.

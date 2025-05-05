@@ -48,7 +48,7 @@ U kunt nu groepsbeheerders aanwijzen in Workfront. Het veld Groepseigenaar is h
 
 ### Gebruikersbeheer per groepsbeheerder {#user-management-by-group-administrator}
 
-Wij introduceren het nieuwe concept **groepsbeheerder**. Om dit te steunen, is het **gebied van de Eigenaar van de Groep 1} anders genoemd aan** groepsbeheerder **en de gebruikers die als groepsbeheerders worden aangewezen hebben extra toestemmingen om gebruikers en de groepen te beheren.**
+Wij introduceren het nieuwe concept **groepsbeheerder**. Om dit te steunen, is het **gebied van de Eigenaar van de Groep 1&rbrace; anders genoemd aan** groepsbeheerder **en de gebruikers die als groepsbeheerders worden aangewezen hebben extra toestemmingen om gebruikers en de groepen te beheren.**
 
 Naast de toestemmingen die de Eigenaar van de Groep eerder gebruikers moest beheren, heeft de groepsbeheerder nu de volgende extra toegang wanneer het beheren van gebruikers binnen de groepen waar zij als groepsbeheerder worden geplaatst:
 
@@ -97,7 +97,7 @@ Als Manager van het Middel, kunt u de Pools van het Middel in de sectie van de B
 
 Voorafgaand aan deze verandering, kon u de informatie van de Begroting van het Middel in het BedrijfsGeval bekijken als het project voor middelen in de globale Planner van het Middel in de begroting was opgenomen.
 
-Voor meer informatie over de voltooiing van het in de begroting opnemen van projectmiddelen in het BedrijfsGeval, zie {de middelen van de Begroting in het BedrijfsGeval ](../../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).[
+Voor meer informatie over de voltooiing van het in de begroting opnemen van projectmiddelen in het BedrijfsGeval, zie &lbrace;de middelen van de Begroting in het BedrijfsGeval [&#128279;](../../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
 ## Visualisatie in de functie Resourceplanner - Toewijzingsdiagram voor gebruikers {#visualization-in-the-resource-planner-user-allocation-chart}
 

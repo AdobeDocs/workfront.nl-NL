@@ -117,7 +117,7 @@ U moet het volgende hebben voordat u begint:
 
 1. U kunt als volgt een item goedkeuren of afwijzen of wijzigingen in een document voorstellen voordat u het goedkeurt:
 
-   1. (Facultatief) klik het **pictogram van de drop-down ![ Vervolgkeuzelijst ](assets/down-arrow-blue.png) naast uw goedkeuringsbesluit (**[!UICONTROL Approve]**,**[!UICONTROL Changes]**,**[!UICONTROL Reject]**) en voeg een commentaar toe, dan klik **[!UICONTROL Add]**.**
+   1. (Facultatief) klik het **pictogram van de drop-down ![ Vervolgkeuzelijst ](assets/down-arrow-blue.png) naast uw goedkeuringsbesluit (**&#x200B;[!UICONTROL Approve]&#x200B;**,**&#x200B;[!UICONTROL Changes]&#x200B;**,**&#x200B;[!UICONTROL Reject]&#x200B;**) en voeg een commentaar toe, dan klik &#x200B;** [!UICONTROL Add]&#x200B;**.**
 
       of
 

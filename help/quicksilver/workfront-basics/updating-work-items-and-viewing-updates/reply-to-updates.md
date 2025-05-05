@@ -94,7 +94,7 @@ U kunt reageren op een opmerking in de thread van een object dat u kunt weergeve
 Reageren op een opmerking in de sectie Updates van een object is vergelijkbaar voor de meeste objecten in Workfront.
 
 1. Ga naar het object waaraan u een antwoord wilt toevoegen.
-1. Klik **Updates**, dan klik het **3} lusje van Commentaren {voor het voorwerp en vind de commentaar of het antwoord waarop u wilt antwoorden**
+1. Klik **Updates**, dan klik het **3&rbrace; lusje van Commentaren &lbrace;voor het voorwerp en vind de commentaar of het antwoord waarop u wilt antwoorden**
 
    of
 

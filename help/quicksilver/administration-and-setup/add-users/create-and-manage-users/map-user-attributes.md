@@ -77,7 +77,7 @@ Om te bepalen of uw organisatie op de Adobe verenigde ervaring is, onderzoek URL
 
 ### Gebruikerskenmerken toewijzen in de klassieke ervaring
 
-1. Klik het **pictogram 1} van het Belangrijkste Menu ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** de montages van de Opstelling **![ Gear pictogram ](assets/gear-icon-settings.png).**
+1. Klik het **pictogram 1&rbrace; van het Belangrijkste Menu ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** de montages van de Opstelling **![ Gear pictogram ](assets/gear-icon-settings.png).**
 
 1. Klik **Systeem** > **Enige Sign-On (SSO)**.
 
@@ -132,7 +132,7 @@ Om te bepalen of uw organisatie op de Adobe verenigde ervaring is, onderzoek URL
 
 ### Gebruikerskenmerken toewijzen in de verenigde Adobe
 
-1. Klik het **pictogram 1} van het Belangrijkste Menu ![ Belangrijkste menupictogram ](assets/main-menu-left.png) in de upper-left hoek van Adobe Workfront, dan klik** de montages van de Opstelling **![ Gear pictogram ](assets/gear-icon-settings.png).**
+1. Klik het **pictogram 1&rbrace; van het Belangrijkste Menu ![ Belangrijkste menupictogram ](assets/main-menu-left.png) in de upper-left hoek van Adobe Workfront, dan klik** de montages van de Opstelling **![ Gear pictogram ](assets/gear-icon-settings.png).**
 
 1. Klik **Systeem** > **Enige Sign-On (SSO)**.
 

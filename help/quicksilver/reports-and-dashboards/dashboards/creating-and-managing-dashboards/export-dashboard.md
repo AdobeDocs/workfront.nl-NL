@@ -107,7 +107,7 @@ Voor informatie bij het creëren van dashboards, zie [ een dashboard ](../../../
       <td>Internet Explorer, Microsoft Edge en Mozilla Firefox</td> 
       <td> <p>Opmerking: als u Internet Explorer versie 11 gebruikt, kunt u de functie Afdrukken naar PDF mogelijk niet gebruiken zonder een plug-in van derden te installeren.</p> 
        <ol> 
-        <li value="1">In het <strong> Printer </strong> of <strong> Uitgezochte het 3} gebied van de Printer, de uitgezochte <strong> Afdruk van Microsoft aan PDF </strong>, dan wijzigt om het even welke andere drukopties u wilt veranderen.</strong></li> 
+        <li value="1">In het <strong> Printer </strong> of <strong> Uitgezochte het 3&rbrace; gebied van de Printer, de uitgezochte <strong> Afdruk van Microsoft aan PDF </strong>, dan wijzigt om het even welke andere drukopties u wilt veranderen.</strong></li> 
         <li value="2">Klik <strong> Druk </strong>.</li> 
         <li value="3">Ga a <strong> Naam van het Dossier </strong> in</li> 
         <li value="4">(Optioneel) Selecteer een nieuwe mapbestemming voor het bestand.</li> 

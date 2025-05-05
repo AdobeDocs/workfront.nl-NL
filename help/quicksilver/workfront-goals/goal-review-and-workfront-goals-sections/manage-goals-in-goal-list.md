@@ -198,7 +198,7 @@ Overweeg het volgende wanneer het herzien van de Lijst van het Doel:
 
 Om doelstellingen in de Lijst van het Doel te beheren:
 
-1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik** Doelen **.**
+1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik** Doelen **.**
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -246,7 +246,7 @@ Een pijl wordt rechts van het veld weergegeven waarmee de lijst wordt gesorteerd
 1. Klik op de naam van een doel om de doelpagina te openen.
 1. Selecteer een doel in de lijst en klik op een van de volgende opties boven aan de lijst:
    * **geeft** pictogram ![ uit geeft pictogram ](assets/edit-icon.png) uit om informatie over het doel uit te geven. Voor informatie, zie [ doelstellingen in de Doelen van Adobe Workfront ](../goal-management/edit-goals.md) uitgeven.
-   * **pictogram van het Aandeel ![ ](assets/share-icon.png) het pictogram van het 1} Aandeel {om het doel met andere mensen te delen.** Voor informatie, zie [ een doel in de Doelen van Adobe Workfront delen ](../workfront-goals-settings/share-a-goal.md).
+   * **pictogram van het Aandeel ![ ](assets/share-icon.png) het pictogram van het 1&rbrace; Aandeel &lbrace;om het doel met andere mensen te delen.** Voor informatie, zie [ een doel in de Doelen van Adobe Workfront delen ](../workfront-goals-settings/share-a-goal.md).
    * **Open groepering** pictogram ![ Open groeperingspictogram ](assets/align-icon-unshimmed.png) om het gebied van de Groepering van het Doel te openen. Deze optie wordt alleen weergegeven wanneer het doel dat u selecteert, wordt uitgelijnd op een ander doel.
    * **pictogram van de Schrapping ![ ](assets/delete-icon.png) om het doel te schrappen, dan** Schrapping **te klikken om te bevestigen.**  Voor informatie, zie [ Schrapping en deactiveer doelstellingen in de Doelen van Adobe Workfront ](../goal-management/delete-and-deactivate-goals.md).
 

@@ -169,7 +169,7 @@ Om een inzamelingskolom in een rapportmening toe te voegen:
 1. Navigeer terug naar uw rapport, en in de **Kolommen (Mening)** lusje, klik **toevoegen Kolom**.
 1. Klik **Schakelaar aan de Wijze van de Tekst**.
 1. Klik **uitgeven de Wijze van de Tekst**.
-1. Selecteer alle tekst in de **dialoogdoos van de Wijze van de Tekst 0} {en verwijder het, dan kleef de volgende code als u naar een gebied van het inzamelingsvoorwerp van verwijzingen voorziet:**
+1. Selecteer alle tekst in de **dialoogdoos van de Wijze van de Tekst 0&rbrace; &lbrace;en verwijder het, dan kleef de volgende code als u naar een gebied van het inzamelingsvoorwerp van verwijzingen voorziet:**
 
    ```
    valueformat=HTML
@@ -182,7 +182,7 @@ Om een inzamelingskolom in een rapportmening toe te voegen:
    ```
 
 1. Vervang **Naam van de Kolom** met de naam van uw kolom in de `displayname` lijn.
-1. Vervang **naam van het 0} inzamelingsvoorwerp {met de naam van uw inzamelingsvoorwerp in de `listmethod` lijn, aangezien het in [ API Ontdekkingsreiziger ](../../../wf-api/general/api-explorer.md) verschijnt.**
+1. Vervang **naam van het 0&rbrace; inzamelingsvoorwerp &lbrace;met de naam van uw inzamelingsvoorwerp in de `listmethod` lijn, aangezien het in [ API Ontdekkingsreiziger ](../../../wf-api/general/api-explorer.md) verschijnt.**
 
 1. Vervang **gebied van de inzamelingsobjecten** met de naam van het gebied van uw inzamelingsvoorwerp in de `valuefield` lijn, aangezien het in [ API Ontdekkingsreiziger ](../../../wf-api/general/api-explorer.md) verschijnt.
 
@@ -274,7 +274,7 @@ De regels in een tekstmodusweergave voor een verzameling worden in de volgende t
   </tr> 
   <tr> 
    <td><code>listdelimiter=&lt;p&gt;</code> </td> 
-   <td> <p>Dit is het scheidingsteken waarmee de waarden in uw lijst van elkaar worden gescheiden.<br> wij adviseren om <code>&lt;p&gt;</code> te gebruiken die een lijnonderbreking tussen de waarden toevoegt.</p> <p>U kunt ook het volgende gebruiken:</p> <p><code>&amp;zwj;</code> (joiner met breedte nul). De waarden van de verzameling zijn niet van elkaar gescheiden.<br><strong> ,</strong> =kommascheidingsteken. De waarden van de verzameling worden gescheiden door een komma, gevolgd door geen spatie.<br><strong>/</strong> = slash separator. De waarden van de verzameling worden gescheiden door een schuine streep.<br><strong> -</strong> = streepje scheidingsteken. De waarden van de verzameling worden gescheiden door een streepje.<br> het verlaten van deze lijn leeg voegt een komma die door een ruimte tussen de waarden van de inzameling, door gebrek wordt gevolgd.</p> </td> 
+   <td> <p>Dit is het scheidingsteken waarmee de waarden in uw lijst van elkaar worden gescheiden.<br> wij adviseren om <code>&lt;p&gt;</code> te gebruiken die een lijnonderbreking tussen de waarden toevoegt.</p> <p>U kunt ook het volgende gebruiken:</p> <p><code>&zwj;</code> (joiner met breedte nul). De waarden van de verzameling zijn niet van elkaar gescheiden.<br><strong> ,</strong> =kommascheidingsteken. De waarden van de verzameling worden gescheiden door een komma, gevolgd door geen spatie.<br><strong>/</strong> = slash separator. De waarden van de verzameling worden gescheiden door een schuine streep.<br><strong> -</strong> = streepje scheidingsteken. De waarden van de verzameling worden gescheiden door een streepje.<br> het verlaten van deze lijn leeg voegt een komma die door een ruimte tussen de waarden van de inzameling, door gebrek wordt gevolgd.</p> </td> 
   </tr> 
   <tr> 
    <td><code>displayname=</code><em> de Naam van de Kolom </em> </td> 
@@ -403,7 +403,7 @@ Om een verwijzing naar een inzameling in de douaneherinnering van een rapport to
 1. Klik **Herinneringen van het Rapport**.
 1. Klik **toevoegen Vragen**.
 1. Klik **de Herinnering van de Douane**.
-1. Specificeer de naam van de herinnering op het **Gebied****naam** gebied.
+1. Specificeer de naam van de herinnering op het **Gebied**&#x200B;**naam** gebied.
 
 1. Specificeer het Etiket van het Punt van de a **Vervolgkeuzelijst**.
 1. Specificeer het volgende op het **gebied van de Voorwaarde**:

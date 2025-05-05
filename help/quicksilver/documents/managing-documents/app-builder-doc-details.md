@@ -107,6 +107,7 @@ Adobe biedt een open-source CLI die kan worden gebruikt om de App Builder-toepas
 
 1. Sjabloonselectie en -instellingen
    1. Blader door alle beschikbare sjablonen en kies de sjabloon **@adobe/aem-cf-editor-ui-ext-tpl** voor uw project.
+
       ![ malplaatje van het Onderzoek ](assets/search-template.png)
       ![ Uitgezochte malplaatje ](assets/select-template.png)
 
@@ -115,6 +116,7 @@ Adobe biedt een open-source CLI die kan worden gebruikt om de App Builder-toepas
    1. Geef een beschrijvend overzicht van de functionaliteit van uw extensie.
    1. Selecteer een eerste versienummer waarmee u wilt beginnen.
    1. Bevestig voltooiing door **te selecteren wordt ik gedaan**.
+
       ![ bepalen uitbreiding ](assets/define-extension.png)
 
 1. Ga naar uw projectmap

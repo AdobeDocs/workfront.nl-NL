@@ -68,7 +68,7 @@ Voor instructies, zie [ installeren  [!DNL Adobe Workfront for XD]](/help/quicks
    ![ pictogram van het Menu ](assets/menu-350x440.png)
 
 1. Ga naar het werkitem waar u een document wilt uploaden.
-1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1} Document ](assets/documents.png) in de navigatiebar.![
+1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1&rbrace; Document ![&#128279;](assets/documents.png) in de navigatiebar.
 
 1. Klik op **[!UICONTROL New File]** onder aan de plug-in.
 1. Selecteer het te uploaden tekengebied.
@@ -116,7 +116,7 @@ Voor instructies, zie [ installeren  [!DNL Adobe Workfront for XD]](/help/quicks
    ![ pictogram van het Menu ](assets/menu-350x440.png)
 
 1. Ga naar het werkitem waar u een document wilt uploaden.
-1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1} Document ](assets/documents.png) in de navigatiebar.![
+1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1&rbrace; Document ![&#128279;](assets/documents.png) in de navigatiebar.
 
 1. Klik op het document waaraan u een nieuwe versie wilt toevoegen.
 1. Klik op **[!UICONTROL New version]** onder aan de plug-in.

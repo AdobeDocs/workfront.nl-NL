@@ -81,5 +81,5 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    Voor meer informatie, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
-1. Wanneer u wordt gebeëindigd, geeft de klik **** uit.
+1. Wanneer u wordt gebeëindigd, geeft de klik **&#x200B;**&#x200B;uit.
 

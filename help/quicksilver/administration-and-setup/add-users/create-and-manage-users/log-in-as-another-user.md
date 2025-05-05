@@ -153,7 +153,7 @@ Bijvoorbeeld, als u op een punt terwijl het programma geopend als een andere geb
 ### Controlegegevens weergeven {#view-audit-information}
 
 1. Meld u aan bij Workfront als Workfront-beheerder of groepsbeheerder.
-1. Klik het **pictogram 1} van het Belangrijkste Menu ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** de montages van de Opstelling **![ Gear pictogram ](assets/gear-icon-settings.png).**
+1. Klik het **pictogram 1&rbrace; van het Belangrijkste Menu ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** de montages van de Opstelling **![ Gear pictogram ](assets/gear-icon-settings.png).**
 
 1. Klik **Login als,** dan klik het **Logboek van de Toegang** tabel.
 

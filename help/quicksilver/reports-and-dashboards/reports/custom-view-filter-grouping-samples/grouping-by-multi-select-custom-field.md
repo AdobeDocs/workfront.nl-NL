@@ -25,7 +25,7 @@ Voorbeelden van aangepaste velden met meerdere selecties zijn:
 * Selectievakjes
 * Meerdere vervolgkeuzemenu&#39;s selecteren
 
-Voor informatie over het gebruiken van tekstwijze, zie het overzicht van de Wijze van de Tekst van artikel [ ](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+Voor informatie over het gebruiken van tekstwijze, zie het overzicht van de Wijze van de Tekst van artikel [&#128279;](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 ## Overwegingen bij groeperen op basis van een aangepast veld met meerdere selecties
 

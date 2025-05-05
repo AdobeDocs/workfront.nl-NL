@@ -70,11 +70,13 @@ Als u het kalenderrapport met andere gebruikers of teams hebt gedeeld, wordt de 
    1. Klik op **[!UICONTROL Add to Calendar].**
    1. Typ de naam van een project waarvan u kalendergebeurtenissen wilt toevoegen en klik vervolgens op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst.
    1. Klik **toevoegen**.
+
       ![ voeg een project aan een kalender ](assets/add-a-calendar-project.png) toe
 
 
 1. (Optioneel) Een kalendergroep toevoegen of een bestaande kalendergroep wijzigen:
    1. Klik het **Meer** menu naast de projectnaam, dan klik **uitgeven**.
+
       ![ geef project in kalender uit ](assets/edit-project-in-calendar.png)
 
    1. Kies hoe je je objecten wilt groeperen:

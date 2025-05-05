@@ -19,7 +19,7 @@ U kunt informatie van om het even welke mening van de Planner van het Middel naa
 
 >[!IMPORTANT]
 >
->Er gelden beperkingen voor welke informatie wordt weergegeven en welke informatie u kunt exporteren vanuit de functie voor middelenbeheer. Voor informatie over deze beperkingen, zie {de vertoningsbeperkingen van de Banner van 0} Middel ](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)[
+>Er gelden beperkingen voor welke informatie wordt weergegeven en welke informatie u kunt exporteren vanuit de functie voor middelenbeheer. Voor informatie over deze beperkingen, zie {de vertoningsbeperkingen van de Banner van 0} Middel [&#128279;](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)
 
 ## Toegangsvereisten
 

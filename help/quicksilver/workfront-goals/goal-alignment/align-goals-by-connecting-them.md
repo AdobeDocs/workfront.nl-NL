@@ -145,7 +145,7 @@ Aligning goals by connecting them differs depending on what environment you use.
 
 1. Klik **de details van het Doel** in het linkerpaneel.
 
-1. In het **gebied van de het doel van de Ouder**, klik **** op het **Hoofddoel** gebied toevoegen als er geen ouderdoel is,
+1. In het **gebied van de het doel van de Ouder**, klik **&#x200B;**&#x200B;op het **Hoofddoel** gebied toevoegen als er geen ouderdoel is,
 
    of
 

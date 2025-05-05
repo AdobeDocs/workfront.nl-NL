@@ -115,7 +115,7 @@ Naast de standaardprioriteiten in Workfront kunt u ook uw eigen prioriteiten toe
      </tr> 
      <tr> 
       <td role="rowheader">Belang</td> 
-      <td> <p>Wanneer het toevoegen van een nieuwe prioriteit, wordt een aantal toegewezen aan het door gebrek. Bewerk dit nummer als het niet aan uw wensen voldoet.</p> <p>Het </strong> aantal van het belang <strong> {voor elke prioriteit moet voor het voorwerp uniek zijn u selecteerde.<br> het aantal van de prioriteit wijst op het belang van het project, de taak of de kwestie: het hoogste aantal beantwoordt aan de hoogste prioriteit.</p> <p><b> NOTA </b>: U kunt niet het aantal van de Belangrijkheid uitgeven, nadat u sparen de prioriteit. </p> </td> 
+      <td> <p>Wanneer het toevoegen van een nieuwe prioriteit, wordt een aantal toegewezen aan het door gebrek. Bewerk dit nummer als het niet aan uw wensen voldoet.</p> <p>Het </strong> aantal van het belang <strong> &lbrace;voor elke prioriteit moet voor het voorwerp uniek zijn u selecteerde.<br> het aantal van de prioriteit wijst op het belang van het project, de taak of de kwestie: het hoogste aantal beantwoordt aan de hoogste prioriteit.</p> <p><b> NOTA </b>: U kunt niet het aantal van de Belangrijkheid uitgeven, nadat u sparen de prioriteit. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Kleur</td> 

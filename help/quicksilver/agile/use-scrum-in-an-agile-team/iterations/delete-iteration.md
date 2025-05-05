@@ -59,4 +59,4 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![ Schakelaar teampictogram ](assets/switch-team-icon.png), dan of selecteer een nieuw team van het Trommel van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
 
 1. Selecteer **[!UICONTROL Iterations]** in het linkerdeelvenster.
-1. Selecteer de herhaling die u wilt schrappen, dan klik het **]pictogram van de Schrapping ![ pictogram van de Schrapping ](assets/delete-icon.png).[!UICONTROL **
+1. Selecteer de herhaling die u wilt schrappen, dan klik het **pictogram van de Schrapping ![ pictogram van de Schrapping ](assets/delete-icon.png).**

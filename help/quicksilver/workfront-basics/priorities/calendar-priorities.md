@@ -131,7 +131,7 @@ Prioriteiten geven de werkitems weer die aan u zijn toegewezen. U kunt de werkit
     </tbody>
     </table>
 
-+++
+   +++
 
 1. Klik op de werkitembalk in de kalender om het zijoverzicht te openen. Met de samenvatting van de bijwerkingen kunt u
 

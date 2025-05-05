@@ -146,7 +146,7 @@ Overweeg het volgende wanneer het veranderen van uw mening in de Planner van het
     </tbody> 
    </table>
 
-1. (Voorwaardelijk) als u **** selecteerde, wijs opties op **toont getoonde metriek** doos aan opstelling uw douanemening aan.
+1. (Voorwaardelijk) als u **&#x200B;**&#x200B;selecteerde, wijs opties op **toont getoonde metriek** doos aan opstelling uw douanemening aan.
 
    ![ pas meningsdoos ](assets/planner-customize-view-box-350x114.png) aan
 

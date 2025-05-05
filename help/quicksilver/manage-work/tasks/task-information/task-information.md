@@ -30,7 +30,7 @@ Deze sectie bevat de volgende artikelen:
 * [ Overzicht van de taak Geplande Datum van het Begin ](../../../manage-work/tasks/task-information/task-planned-start-date.md)
 * [ Overzicht van de taak Geplande Datum van de Voltooiing ](../../../manage-work/tasks/task-information/task-planned-completion-date.md)
 * [ Overzicht van de Datum van de Afhandeling van de Taak ](../../../manage-work/tasks/task-information/handoff-task-date.md)
-* {het overzicht van de Datum van de Datum van de Slack van 0} Taak ](../../../manage-work/tasks/task-information/task-slack-date.md)[
+* {het overzicht van de Datum van de Datum van de Slack van 0} Taak [&#128279;](../../../manage-work/tasks/task-information/task-slack-date.md)
 * [ Overzicht van Kan starten voor taken ](../../../manage-work/tasks/task-information/can-start-task-overview.md)
 * [ plaats het Volgen Wijze voor taken ](../../../manage-work/tasks/task-information/set-tracking-mode-for-tasks.md)
 * [ de taak van de Update het Niveaus Vertraging ](../../../manage-work/tasks/task-information/task-leveling-delay.md)

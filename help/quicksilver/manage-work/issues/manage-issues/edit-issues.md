@@ -142,7 +142,7 @@ U kunt een uitgave bewerken met de gebieden Probleem bewerken of Details van pro
 1. Bewerk een uitgave zoals hierboven beschreven.
 1. Klik **Naam van de Uitgave**.
 
-   {de naamsectie van 0} Uitgave ](assets/issue-name-section-edit-issue-box-nwe-350x127.png)![
+   {de naamsectie van 0} Uitgave ![&#128279;](assets/issue-name-section-edit-issue-box-nwe-350x127.png)
 
 1. Werk het **gebied van de Naam van de Uitgave** bij.
 1. Klik **sparen** of blijf het uitgeven van de volgende secties.
@@ -311,7 +311,7 @@ U kunt een uitgave bewerken met de gebieden Probleem bewerken of Details van pro
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Rol van de gemachtigde</td> 
-      <td> <p>Selecteer een rol van het </strong> drop-down menu van de Rol van 0} Toegewezen wanneer u een persoon als toegewezen selecteerde. <strong> Dit is de rol die de verkrijger op dit punt kan vervullen. </p> <p><b>TIP</b>
+      <td> <p>Selecteer een rol van het </strong> drop-down menu van de Rol van 0&rbrace; Toegewezen wanneer u een persoon als toegewezen selecteerde. <strong> Dit is de rol die de verkrijger op dit punt kan vervullen. </p> <p><b>TIP</b>
 
    Alleen de functies die aan elke toegewezen persoon in het profiel zijn gekoppeld, worden weergegeven in het vervolgkeuzemenu.</p> </td>
    </tr> 

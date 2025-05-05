@@ -94,7 +94,7 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 
 U kunt snel details over de voorganger bekijken in de takenlijst.
 
-1. Voor de taaklijst, houd over het voorgangersaantal in de **1} kolom van Predecessors {.**
+1. Voor de taaklijst, houd over het voorgangersaantal in de **1&rbrace; kolom van Predecessors &lbrace;.**
 
    Er verschijnt een vak met de details van de voorganger.
 

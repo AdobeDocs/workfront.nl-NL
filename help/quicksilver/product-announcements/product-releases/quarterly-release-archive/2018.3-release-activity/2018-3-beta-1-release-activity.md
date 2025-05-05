@@ -56,7 +56,7 @@ Voor deze verbetering, moest u het volgende doen:
 * Vouw handmatig alle informatieniveaus (rol, project en gebruiker) uit en exporteer deze uit de functie Planner resource in de weergave Rol.
 * Schuif manueel aan de bodem van uw lijst om alle niveaus van informatie (project, rol, en gebruiker) van de Planner van het Middel in de Mening van het Project uit te voeren.
 
-Voor meer informatie over het uitvoeren van de Planner van het Middel, zie {de vertoningsbeperkingen van de Banner van 0} Middel ](../../../../resource-mgmt/resource-planning/resource-planner-display-limitations.md).[
+Voor meer informatie over het uitvoeren van de Planner van het Middel, zie {de vertoningsbeperkingen van de Banner van 0} Middel [&#128279;](../../../../resource-mgmt/resource-planning/resource-planner-display-limitations.md).
 
 ## Toegang tot meerdere proefdrukken rechtstreeks vanuit de proefdrukviewer (Workfront Proof) {#access-multiple-proofs-directly-from-the-proofing-viewer-workfront-proof}
 

@@ -63,7 +63,7 @@ Dit doet u als volgt:
 
      ![ Nieuwe verbinding met het type van productverslag ](assets/new-connection-with-product-record-type.png)
 
-1. (Voorwaardelijk) als u de **Uitgezochte raadplegingsgebieden optie** in de vorige stap selecteerde, van de lijst van gebieden verbonden aan het **het verslagtype van het Product**, klik het **+** pictogram voor het **7} gebied van de Begroting {, dan klik** voegt gebieden **toe.** Dit leidt tot een gebied genoemd **Begroting (van de informatie van het Product)**, die de naam van het verbonden gebied is. Alle informatie voor het productbudget wordt in dit veld weergegeven voor de campagnebestanden.
+1. (Voorwaardelijk) als u de **Uitgezochte raadplegingsgebieden optie** in de vorige stap selecteerde, van de lijst van gebieden verbonden aan het **het verslagtype van het Product**, klik het **+** pictogram voor het **7&rbrace; gebied van de Begroting &lbrace;, dan klik** voegt gebieden **toe.** Dit leidt tot een gebied genoemd **Begroting (van de informatie van het Product)**, die de naam van het verbonden gebied is. Alle informatie voor het productbudget wordt in dit veld weergegeven voor de campagnebestanden.
 
    ![ voegt gebieden voor begrotingsgebied voor verbinding met verslagtype ](assets/add-fields-for-budget-field-for-connector-with-record-type.png) toe
 
@@ -90,7 +90,7 @@ Dit doet u als volgt:
    >
    >    De verbonden verslaggebieden worden voorafgegaan door het het gebiedspictogram van de verhouding ![ ](assets/relationship-field-icon.png).
 
-1. Van de **1} het verslagtype van de Campagne {lijstmening, creeer een campagne door een nieuwe rij in de lijst van het het verslagtype van de Campagne te toevoegen pagina.**
+1. Van de **1&rbrace; het verslagtype van de Campagne &lbrace;lijstmening, creeer een campagne door een nieuwe rij in de lijst van het het verslagtype van de Campagne te toevoegen pagina.**
 
 1. Dubbelklik binnen de **informatie van het Product** kolom van de nieuwe campagne.
 
@@ -126,7 +126,7 @@ Dit doet u als volgt:
    >
    >Wanneer u geen aggregator selecteert voor de meerdere waarden, worden alle waarden van de geselecteerde producten weergegeven, gescheiden door komma&#39;s.
 
-1. Om het **1} gebied van de Campagne {van de** de lijstmening van het Product **te bevolken, herhaal stappen 5-7 die van de het verslagtype van het Product lijstmening beginnen en campagneinformatie selecteren.** Hiermee werkt u ook het veld Productinformatie in de tabel met recordtypen voor campagne bij. <!--ensure the step numbers remain correct-->
+1. Om het **1&rbrace; gebied van de Campagne &lbrace;van de** de lijstmening van het Product **te bevolken, herhaal stappen 5-7 die van de het verslagtype van het Product lijstmening beginnen en campagneinformatie selecteren.** Hiermee werkt u ook het veld Productinformatie in de tabel met recordtypen voor campagne bij. <!--ensure the step numbers remain correct-->
 
 
 ## Een Workfront-planningrecordtype verbinden met een Workfront-projectobjecttype en een record verbinden met afzonderlijke projecten
@@ -165,7 +165,7 @@ Dit doet u als volgt:
 
    >[!TIP]
    >
-   >    Als u de Geplande Opbrengst van alle geselecteerde projecten als één totaal aantal wilt bekijken, uitgezochte **SUM** in het drop-down menu rechts van de gebiedsnaam. Wanneer de gebruikers veelvoudige projecten op het **verbonden objecten van het 0} Project {selecteren, voegt het** Geplande Inkomsten (van de informatie van het Product) **gebied al hun waarden samen toe en toont het totaal. <!-- check the shot below - added a bug with a couple of UI changes here-->**
+   >    Als u de Geplande Opbrengst van alle geselecteerde projecten als één totaal aantal wilt bekijken, uitgezochte **SUM** in het drop-down menu rechts van de gebiedsnaam. Wanneer de gebruikers veelvoudige projecten op het **verbonden objecten van het 0&rbrace; Project &lbrace;selecteren, voegt het** Geplande Inkomsten (van de informatie van het Product) **gebied al hun waarden samen toe en toont het totaal. <!-- check the shot below - added a bug with a couple of UI changes here-->**
    >
    > Als u **niets** selecteert, in plaats van **SUM**, de individuele Geplande vertoning van Inkomsten die door komma&#39;s wordt gescheiden.
 
@@ -182,7 +182,7 @@ Dit doet u als volgt:
    >
    >    De verbonden objecten gebieden worden voorafgegaan door het het gebiedspictogram van de verhouding ![ ](assets/relationship-field-icon.png).
 
-1. Van de **1} het verslagtype van de Campagne {lijstmening, creeer een campagne door een nieuwe rij in de lijst toe te voegen.**
+1. Van de **1&rbrace; het verslagtype van de Campagne &lbrace;lijstmening, creeer een campagne door een nieuwe rij in de lijst toe te voegen.**
 
 1. Dubbelklik in de kolom Projectinformatie** van de nieuwe campagne.
 

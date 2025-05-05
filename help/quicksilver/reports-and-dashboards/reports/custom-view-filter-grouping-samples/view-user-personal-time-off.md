@@ -71,7 +71,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 ## Persoonlijke tijd van gebruiker weergeven
 
-1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik** Rapporten > Nieuw Rapport **.**
+1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik** Rapporten > Nieuw Rapport **.**
 1. Van het drop-down menu, uitgezochte **Tijd van**.
 1. Klik **sparen + Sluiten**.
 

@@ -24,7 +24,7 @@ Voor [!DNL Scenario Planner] gelden aanvullende licentievereisten. Voor informat
 might need to add information about the permissions to plans/ initiatives if those will be coming later?
 -->
 
-Zonder correcte toegang of toestemmingen, kunt u niet het [!UICONTROL Scenarios] gebied van [!DNL  Adobe Workfront] kunnen bekijken noch plannen of initiatieven voor uw organisatie beheren. Het beheren van plannen en initiatieven omvat het maken, bewerken en verwijderen ervan.
+Zonder correcte toegang of toestemmingen, kunt u niet het [!UICONTROL Scenarios] gebied van [!DNL &#x200B; Adobe Workfront] kunnen bekijken noch plannen of initiatieven voor uw organisatie beheren. Het beheren van plannen en initiatieven omvat het maken, bewerken en verwijderen ervan.
 
 ## Toegang nodig om de [!DNL Adobe Workfront Scenario Planner]
 

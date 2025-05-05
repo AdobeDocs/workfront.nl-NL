@@ -89,7 +89,7 @@ U kunt configureren of u e-mailmeldingen ontvangt voor toegangsverzoeken. Uw beh
 1. Ga naar uw gebruikersprofiel door één van het volgende te doen:
 
    * Klik het **Belangrijkste menu** ![](assets/dots-main-menu.png) in de hoger-juiste hoek van het scherm, dan klik uw naam.
-   * Klik het 2} het profielpictogram van Adobe **Belangrijkste menu** {in de hoger-juiste hoek, als beschikbaar, dan klik **Profiel van Workfront**.![](assets/adobe-blue-main-menu.png)
+   * Klik het 2&rbrace; het profielpictogram van Adobe **Belangrijkste menu** &lbrace;in de hoger-juiste hoek, als beschikbaar, dan klik **Profiel van Workfront**.![](assets/adobe-blue-main-menu.png)
 
 1. Klik **Meer** menu ![ meer pictogram ](assets/more-icon.png) aan het recht van uw naam in de kopbal, dan klik **uitgeven**.
 1. Klik **Meldingen**, en selecteer of schrap **Iemand verzoekt toegang van me** in de **Nodig Actie** sectie, afhankelijk van of u e-mailberichten wilt ontvangen wanneer een andere gebruiker toegang van u vraagt of niet.

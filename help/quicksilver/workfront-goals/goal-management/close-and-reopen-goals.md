@@ -146,7 +146,7 @@ Closing goals differs depending on what environment you use.
 1. (Optional) Modify your filters again to display only closed goals. The goals you closed display on the screen.
 -->
 
-1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) >** Doelen **in de hoger-juiste hoek.**
+1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) >** Doelen **in de hoger-juiste hoek.**
 
    De lijst met doelstellingen wordt geopend.
 
@@ -212,7 +212,7 @@ Reopening goals differs depending on what environment you use.
 
 -->
 
-1. Klik het **pictogram van het 1} Belangrijkste Menu ![ pictogram van het Menu ](assets/main-menu-icon.png)>** Doelen **in de hoger-juiste hoek.**
+1. Klik het **pictogram van het 1&rbrace; Belangrijkste Menu ![ pictogram van het Menu ](assets/main-menu-icon.png)>** Doelen **in de hoger-juiste hoek.**
 
    De lijst met doelstellingen wordt geopend.
 

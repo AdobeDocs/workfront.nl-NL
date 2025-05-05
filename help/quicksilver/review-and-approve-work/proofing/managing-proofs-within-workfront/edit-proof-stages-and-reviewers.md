@@ -62,7 +62,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    In standalone Workfront Proof, klik **Meer** (drie punt) menu rechts van de proef, dan klik **de proefdetails van de Mening**.
 
-1. Maak om het even welke volgende veranderingen in de **1} sectie van het Werkschema {:**
+1. Maak om het even welke volgende veranderingen in de **1&rbrace; sectie van het Werkschema &lbrace;:**
 
    <table style="table-layout:auto"> 
     <col> 

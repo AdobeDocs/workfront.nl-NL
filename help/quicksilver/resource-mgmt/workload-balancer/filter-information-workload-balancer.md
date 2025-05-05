@@ -154,13 +154,13 @@ Afhankelijk van waar u tot de Balancer van de Werkbelasting toegang hebt, worden
 
 Het proces voor het maken van filters voor de niet-toegewezen werkgebieden en toegewezen werkgebieden in Workload Balancer is identiek, ongeacht waar u de Workload Balancer opent. Voor informatie over het lokaliseren van de Balancer van de Werkbelasting, zie [ plaats de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-U kunt een geheel nieuw filter maken of een van de vooraf gedefinieerde filters bewerken. Voor informatie over bestaande filters die u kunt uitgeven, zie [ een bestaand filter in de 1} sectie van de Balancer van de Werkbelasting {in dit artikel uitgeven.](#edit-an-existing-filter-in-the-workload-balancer)
+U kunt een geheel nieuw filter maken of een van de vooraf gedefinieerde filters bewerken. Voor informatie over bestaande filters die u kunt uitgeven, zie [ een bestaand filter in de 1&rbrace; sectie van de Balancer van de Werkbelasting &lbrace;in dit artikel uitgeven.](#edit-an-existing-filter-in-the-workload-balancer)
 
 1. Ga naar Werklastverdeling.
 
    Voor informatie over de toegang tot van de Balancer van de Werkbelasting, zie [ de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) navigeren.
 
-1. Klik het **pictogram van de Filter ![ ](assets/filter-icon.png) pictogram van de Filter** {in de hoger-juiste hoek van of het **Niet toegewezen Werk** of de **Toegewezen gebieden van het Werk**.
+1. Klik het **pictogram van de Filter ![ ](assets/filter-icon.png) pictogram van de Filter** &lbrace;in de hoger-juiste hoek van of het **Niet toegewezen Werk** of de **Toegewezen gebieden van het Werk**.
 
    De doos van de filterbouwer toont op het recht. De naam van het gebied waarvoor u het filter maakt, wordt weergegeven in de koptekst van het vak.
 
@@ -187,7 +187,7 @@ U kunt een geheel nieuw filter maken of een van de vooraf gedefinieerde filters 
       >
       >Wanneer u naar aangepaste velden verwijst, moet u de veldnaam en niet het veldlabel typen. Het veldlabel wordt weergegeven op een aangepast formulier dat is gekoppeld aan een object. Voor informatie over het verschil tussen het etiket en de naam van een douanegebied, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
-   1. (Voorwaardelijk) als u **klikte doorbladert gebieden**, typ de naam van een gebied op het **3} gebied van het Onderzoek {en selecteer het wanneer het in de lijst toont.**
+   1. (Voorwaardelijk) als u **klikte doorbladert gebieden**, typ de naam van een gebied op het **3&rbrace; gebied van het Onderzoek &lbrace;en selecteer het wanneer het in de lijst toont.**
 
       ![ Onderzoek naar een gebied ](assets/new-filters-search-for-a-field-highlighted-wb-nwe-350x386.png)
 
@@ -262,7 +262,7 @@ U kunt een filter dupliceren en bewerken om een nieuw filter te maken.
 
    Voor informatie over de toegang tot van de Balancer van de Werkbelasting, zie [ de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) navigeren.
 
-1. Klik het **pictogram van de Filter ![ ](assets/filter-icon.png) pictogram van de Filter** {in de hoger-juiste hoek van of het **Niet toegewezen Werk** of de **Toegewezen gebieden van het Werk**.
+1. Klik het **pictogram van de Filter ![ ](assets/filter-icon.png) pictogram van de Filter** &lbrace;in de hoger-juiste hoek van of het **Niet toegewezen Werk** of de **Toegewezen gebieden van het Werk**.
 
    De doos van de filterbouwer toont aan het recht. De naam van het gebied waarvoor u het filter maakt, wordt weergegeven in de koptekst van het vak.
 

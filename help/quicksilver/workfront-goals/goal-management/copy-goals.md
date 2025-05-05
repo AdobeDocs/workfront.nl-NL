@@ -190,7 +190,7 @@ To copy goals in the Production environment:
 
      of
 
-     Selecteer **douanedata** toelaten om douanedata voor het 2} Begin van het doel **en** Eind data **te specificeren.** De instelling Aangepaste datums inschakelen is standaard uitgeschakeld.
+     Selecteer **douanedata** toelaten om douanedata voor het 2&rbrace; Begin van het doel **en** Eind data **te specificeren.** De instelling Aangepaste datums inschakelen is standaard uitgeschakeld.
 
      >[!TIP]
      >

@@ -78,8 +78,8 @@ U kunt uw bestanden eenvoudig beheren vanaf de pagina [!UICONTROL Folder details
    * Bekijk of geef de **Beschrijving**, **omslag van de Ouder**, **Eigenaar**, **Cliënt** uit, of **Project** verbonden aan de omslag.
 
    * Maak de omslag **Privé**.
-   * Zie wanneer de omslag **** werd gecreeerd.
-   * Zie de naam van de 2} creator van de omslag ****.
+   * Zie wanneer de omslag **&#x200B;**&#x200B;werd gecreeerd.
+   * Zie de naam van de 2&rbrace; creator van de omslag **&#x200B;**.
 
 1. (Optioneel) Als u de informatie wilt wijzigen die aan een item in de map is gekoppeld, klikt u op het pictogram **[!UICONTROL More]** rechts van het item en gebruikt u een van de opties die worden weergegeven.\
    ![ Meer menu ](assets/more-button-small.png)\

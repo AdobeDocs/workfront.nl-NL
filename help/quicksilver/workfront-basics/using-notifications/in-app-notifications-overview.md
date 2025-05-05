@@ -83,7 +83,7 @@ Wanneer u het genummerde pictogram ![ pictogram van Meldingen ](assets/notificat
 
 ### [!UICONTROL Requests]
 
-* ![ pictogram van het Document ](assets/document.png) [ gebruikerspictogram ] [!UICONTROL Asked you to upload a document] - {de naam van 5} aanvrager ][
+* ![ pictogram van het Document ](assets/document.png) [ gebruikerspictogram ] [!UICONTROL Asked you to upload a document] - {de naam van 5} aanvrager &rbrack;&lbrack;
 * ![ pictogram van het Document ](assets/document.png) [!UICONTROL Document upload request fulfilled] - [ de naam van de fulfiller ]
 * ![ pictogram van de Gebruiker ](assets/user.png) [!UICONTROL Request comment] - de naam van de Afzender
 * ![ pictogram van het Document ](assets/document.png) [!UICONTROL Document upload request canceled] - [ naam van de afzender ]
@@ -118,7 +118,7 @@ Wanneer u het genummerde pictogram ![ pictogram van Meldingen ](assets/notificat
 
 * ![ pictogram van de Gebruiker ](assets/user.png) [!UICONTROL Liked your comment] - [ naam van de plukker ]
 * ![ pictogram van de Chronologie ](assets/timesheet.png) [!UICONTROL Timesheet comment] - [ naam van de commentator ]
-* [!UICONTROL Comment] - {de naam van 1} commentator ][
+* [!UICONTROL Comment] - {de naam van 1} commentator &rbrack;&lbrack;
 * ![ pictogram van de Gebruiker ](assets/user.png) [!UICONTROL Comment] - de naam van de Commentaar
 * ![ pictogram van de Chronologie ](assets/timesheet.png) [!UICONTROL Timesheet comment] - de naam van de Commentaar
 

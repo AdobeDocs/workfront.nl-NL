@@ -102,7 +102,7 @@ Bijvoorbeeld, als de waarde van Beschikbare Uren voor een gebruiker 40 is en zij
 
 >[!NOTE]
 >
->De totale beschikbare tijd voor de gebruiker wordt berekend door één van de twee methodes die in [ worden beschreven Bereken de Beschikbare Uren en FTE voor een gebruiker in de 1} sectie van de Planner van het Middel {in dit artikel.](#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner)
+>De totale beschikbare tijd voor de gebruiker wordt berekend door één van de twee methodes die in [ worden beschreven Bereken de Beschikbare Uren en FTE voor een gebruiker in de 1&rbrace; sectie van de Planner van het Middel &lbrace;in dit artikel.](#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner)
 
 Wanneer het bekijken van de Planner van het Middel in de Mening van de Rol, is de beschikbaarheid van één baanrol een totaal van de beschikbaarheid van alle gebruikers die die baanrol kunnen vervullen.\
 Voor meer informatie over beschikbaarheid van middelen in de Planner van het Middel, zie het [ overzicht van de Planner van het Middel ](../../resource-mgmt/resource-planning/get-started-resource-planner.md).

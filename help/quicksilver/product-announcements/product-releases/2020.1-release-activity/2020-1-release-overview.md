@@ -333,7 +333,7 @@ De middelen die hulpmiddelen plannen hebben de zelfde functionaliteit zoals erfe
 
 ## Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens de versie 2020.1 worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront ](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).[
+Voor informatie over de onderhoudsupdates die tijdens de versie 2020.1 worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront [&#128279;](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
 
 ## Aankondigingen
 

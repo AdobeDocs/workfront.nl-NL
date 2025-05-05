@@ -146,7 +146,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 ## Eén taak toewijzen
 
 1. Ga naar een taak die u wilt toewijzen.
-1. Klik **toewijzen aan** in het **3} gebied van Taken {in de kopbal van de taak**
+1. Klik **toewijzen aan** in het **3&rbrace; gebied van Taken &lbrace;in de kopbal van de taak**
 
    of
 
@@ -265,7 +265,7 @@ Taken in een lijst toewijzen:
 
    Voor informatie over het Type van Duur op taken, zie [ Overzicht van het Type van Duur van de Taak en van de Duur ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
-1. (Facultatief) selecteer een rol die de gebruiker op de taak van **zou moeten vervullen kies een rol** drop-down menu in de **3} kolom van de Rol van de Ontvanger {wanneer u gebruikers aan taken toewijst.** Als u geen rol selecteert, selecteert Workfront automatisch de Primaire Rol van de gebruiker.
+1. (Facultatief) selecteer een rol die de gebruiker op de taak van **zou moeten vervullen kies een rol** drop-down menu in de **3&rbrace; kolom van de Rol van de Ontvanger &lbrace;wanneer u gebruikers aan taken toewijst.** Als u geen rol selecteert, selecteert Workfront automatisch de Primaire Rol van de gebruiker.
 
 1. (Optioneel) Als u bestaande toewijzingen uit alle taken wilt verwijderen, voert u een van de volgende handelingen uit:
 

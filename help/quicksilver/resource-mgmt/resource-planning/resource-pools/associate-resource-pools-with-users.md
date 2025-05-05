@@ -74,7 +74,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. Controleer de doos naast de naam van een gebruiker van de lijst, dan klik **uitgeven**.
 1. Klik **Planning van het Middel**.
-1. Begin de naam van een middelpool te typen die u met de gebruiker in het **gebied van de Pools van 0} Middel wilt associëren {, dan het van de lijst selecteren, wanneer het verschijnt.**\
+1. Begin de naam van een middelpool te typen die u met de gebruiker in het **gebied van de Pools van 0&rbrace; Middel wilt associëren &lbrace;, dan het van de lijst selecteren, wanneer het verschijnt.**\
    U kunt meerdere bronnenpools aan één gebruiker koppelen.\
    ![ add_resource_pool_to_user.png ](assets/add-resource-pool-to-user-350x307.png)
 
@@ -94,7 +94,7 @@ Brongroepen koppelen aan meerdere gebruikers in bulk:
 
 1. Selecteer verscheidene gebruikers op de lijst, en klik **uitgeven**.
 1. Klik **Planning van het Middel**.
-1. Begin de naam van een middelpool te typen die u met de gebruikers in het **gebied van de Pools van 0} Middel wilt associëren {, dan het van de lijst selecteren, wanneer het verschijnt.**\
+1. Begin de naam van een middelpool te typen die u met de gebruikers in het **gebied van de Pools van 0&rbrace; Middel wilt associëren &lbrace;, dan het van de lijst selecteren, wanneer het verschijnt.**\
    U kunt meerdere bronnenpools koppelen aan meerdere gebruikers.
 
    >[!NOTE]

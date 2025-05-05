@@ -29,7 +29,7 @@ Project Net Value = Planned Benefit - Budgeted Cost - Potential Risk Cost
 De volgende gebieden kunnen de Netto Waarde van een project beïnvloeden:
 
 * **Gepland Voordeel**: Dit is een handingang die door de Eigenaar van het Project wordt gespecificeerd wanneer de voltooiing van het **Info van het Project** gebied van het BedrijfsGeval.\
-  Voor meer informatie over het Geplande Voordeel van een project, zie de ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info) sectie van Info van het 0} Project {in artikel [ Overzicht van de Gebieden van het BedrijfsGeval ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).[
+  Voor meer informatie over het Geplande Voordeel van een project, zie de [&#128279;](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info) sectie van Info van het 0&rbrace; Project &lbrace;in artikel [ Overzicht van de Gebieden van het BedrijfsGeval ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
 
 * **Begrotende Kosten**: Dit is de totale kosten verbonden aan het project zoals geschat wanneer u eerst het project lanceert.
 

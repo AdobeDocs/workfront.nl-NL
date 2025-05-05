@@ -62,7 +62,7 @@ De 24.1 release webinar was op 11 januari 2024. U kunt [ voor webinar registrere
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}"> de besluiten van het Bewijs/van het document nu beschikbaar voor de vorige 12 maanden </a></p><p>[!BADGE in productie ]{type=Informative}</p><p>De gebruikersBesluiten rapporten voor zowel nieuwe als erfenislicentietypen tonen nu het aantal besluiten voor de huidige maand evenals de voorafgaande 12 maanden.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}"> de besluiten van het Bewijs/van het document nu beschikbaar voor de vorige 12 maanden </a></p><p>[!BADGE in productie &#x200B;]{type=Informative}</p><p>De gebruikersBesluiten rapporten voor zowel nieuwe als erfenislicentietypen tonen nu het aantal besluiten voor de huidige maand evenals de voorafgaande 12 maanden.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -99,7 +99,7 @@ De 24.1 release webinar was op 11 januari 2024. U kunt [ voor webinar registrere
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}"> Dynamische Paarten archiveren voltooide kaarten wanneer de raad </a> wordt gecreeerd</p><p>[!BADGE in productie ]{type=Informative}</p><p>Wanneer u een dynamisch board maakt, kunt u voltooide taken en problemen in het board opnemen. Voor projecten met grote aantallen voltooide taken en kwesties, zou de dynamische raad prestatieskwesties kunnen hebben. Wanneer u nu een dynamisch bord maakt en voltooide werkzaamheden opneemt, worden de taken en problemen als gearchiveerde kaarten op het bord geplaatst.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}"> Dynamische Paarten archiveren voltooide kaarten wanneer de raad </a> wordt gecreeerd</p><p>[!BADGE in productie &#x200B;]{type=Informative}</p><p>Wanneer u een dynamisch board maakt, kunt u voltooide taken en problemen in het board opnemen. Voor projecten met grote aantallen voltooide taken en kwesties, zou de dynamische raad prestatieskwesties kunnen hebben. Wanneer u nu een dynamisch bord maakt en voltooide werkzaamheden opneemt, worden de taken en problemen als gearchiveerde kaarten op het bord geplaatst.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -134,7 +134,7 @@ De 24.1 release webinar was op 11 januari 2024. U kunt [ voor webinar registrere
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}"> bijgewerkte statussen voor documentgoedkeuringen </a></p><p>[!BADGE in productie ]{type=Informative}</p><p>Om de status van de documentgoedkeuring duidelijker te maken, hebben wij beschikbare goedkeuringen van de documentstatus bijgewerkt. De goedkeuringsstatusaccounts zijn nu voltooid voor controleurs die hun revisie markeren, en voor gevallen waarin alleen revisoren maar geen fiatteurs zijn.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}"> bijgewerkte statussen voor documentgoedkeuringen </a></p><p>[!BADGE in productie &#x200B;]{type=Informative}</p><p>Om de status van de documentgoedkeuring duidelijker te maken, hebben wij beschikbare goedkeuringen van de documentstatus bijgewerkt. De goedkeuringsstatusaccounts zijn nu voltooid voor controleurs die hun revisie markeren, en voor gevallen waarin alleen revisoren maar geen fiatteurs zijn.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -153,7 +153,7 @@ De 24.1 release webinar was op 11 januari 2024. U kunt [ voor webinar registrere
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}"> Teken een overzicht als volledig </a></p><p>[!BADGE in productie ]{type=Informative}</p><p>Om het duidelijker te maken wanneer een document is herzien en klaar voor het volgende goedkeuringsstadium is, hebben wij een nieuwe <strong> Volledige mijn overzicht </strong> knoop gecreeerd.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}"> Teken een overzicht als volledig </a></p><p>[!BADGE in productie &#x200B;]{type=Informative}</p><p>Om het duidelijker te maken wanneer een document is herzien en klaar voor het volgende goedkeuringsstadium is, hebben wij een nieuwe <strong> Volledige mijn overzicht </strong> knoop gecreeerd.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -172,7 +172,7 @@ De 24.1 release webinar was op 11 januari 2024. U kunt [ voor webinar registrere
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}"> de revisie van het Document en de vertoningen van de goedkeuringsstatus in documentkopbal </a></p><p>[!BADGE in productie ]{type=Informative}</p><p>Om de controle en het goedkeuringsproces transparanter te maken, hebben wij de status aan de kopbal van de pagina van de Details van het Document toegevoegd.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}"> de revisie van het Document en de vertoningen van de goedkeuringsstatus in documentkopbal </a></p><p>[!BADGE in productie &#x200B;]{type=Informative}</p><p>Om de controle en het goedkeuringsproces transparanter te maken, hebben wij de status aan de kopbal van de pagina van de Details van het Document toegevoegd.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -210,7 +210,7 @@ De 24.1 release webinar was op 11 januari 2024. U kunt [ voor webinar registrere
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}"> Nieuwe Hangende beschikbare goedkeurings widget </a></p><p>[!BADGE in productie ]{type=Informative}</p><p>Om het voor u gemakkelijker te maken om de status van goedkeuringen en overzichten op projecten te zien u bezit, hebben wij een nieuwe Hangende widget voor Goedkeuringen aan Huis toegevoegd.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}"> Nieuwe Hangende beschikbare goedkeurings widget </a></p><p>[!BADGE in productie &#x200B;]{type=Informative}</p><p>Om het voor u gemakkelijker te maken om de status van goedkeuringen en overzichten op projecten te zien u bezit, hebben wij een nieuwe Hangende widget voor Goedkeuringen aan Huis toegevoegd.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -229,7 +229,7 @@ De 24.1 release webinar was op 11 januari 2024. U kunt [ voor webinar registrere
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}"> controles van de Beheerder voor nieuw Huis gebruikend lay-outmalplaatjes </a></p><p>[!BADGE in productie ]{type=Informative}</p><p>Beheerders kunnen nu nieuwe startpagina aanpassen aan gebruikers die lay-outsjablonen gebruiken. Tot de aanpassingsopties behoren het selecteren van verplichte widgets en hun positie, het kiezen van een achtergrond en widgetspecifieke opties voor het kiezen van beschikbare filters en groepen (en het instellen van standaardwaarden).</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}"> controles van de Beheerder voor nieuw Huis gebruikend lay-outmalplaatjes </a></p><p>[!BADGE in productie &#x200B;]{type=Informative}</p><p>Beheerders kunnen nu nieuwe startpagina aanpassen aan gebruikers die lay-outsjablonen gebruiken. Tot de aanpassingsopties behoren het selecteren van verplichte widgets en hun positie, het kiezen van een achtergrond en widgetspecifieke opties voor het kiezen van beschikbare filters en groepen (en het instellen van standaardwaarden).</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -247,7 +247,7 @@ De 24.1 release webinar was op 11 januari 2024. U kunt [ voor webinar registrere
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}"> Mijn Snelle de actieknoppen van het Werk veranderden aan slechts vertoning op mouseover </a></p><p>[!BADGE in productie ]{type=Informative}</p><p>Om de prestaties te verbeteren, worden de knoppen voor snelle actie die beschikbaar zijn in de widget Mijn werk nu alleen weergegeven wanneer een tijdelijk item met de muis wordt aangeraakt.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}"> Mijn Snelle de actieknoppen van het Werk veranderden aan slechts vertoning op mouseover </a></p><p>[!BADGE in productie &#x200B;]{type=Informative}</p><p>Om de prestaties te verbeteren, worden de knoppen voor snelle actie die beschikbaar zijn in de widget Mijn werk nu alleen weergegeven wanneer een tijdelijk item met de muis wordt aangeraakt.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -281,7 +281,7 @@ De 24.1 release webinar was op 11 januari 2024. U kunt [ voor webinar registrere
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}"> Metagegevens toewijzen in Experience Manager Assets Essentials gebruikt nu <code>xcm:keywords</code> in plaats van <code>dc:subject</code></a></p><p>[!BADGE in productie ]{type=Informative}</p><p>We hebben de Experience Manager Assets Essentials-integratie bijgewerkt en aangepast aan de ervaring die is opgedaan met de integratie met Experience Manager Assets as a Cloud Service. Wanneer u nu meerdere tekstvelden met één regel aan één veld in Experience Manager Assets toewijst, gebruiken beide services het veld <code>xcm:keywords</code> .</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}"> Metagegevens toewijzen in Experience Manager Assets Essentials gebruikt nu <code>xcm:keywords</code> in plaats van <code>dc:subject</code></a></p><p>[!BADGE in productie &#x200B;]{type=Informative}</p><p>We hebben de Experience Manager Assets Essentials-integratie bijgewerkt en aangepast aan de ervaring die is opgedaan met de integratie met Experience Manager Assets as a Cloud Service. Wanneer u nu meerdere tekstvelden met één regel aan één veld in Experience Manager Assets toewijst, gebruiken beide services het veld <code>xcm:keywords</code> .</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -298,7 +298,7 @@ De 24.1 release webinar was op 11 januari 2024. U kunt [ voor webinar registrere
                     </td>
                  <tr>
                     <td>
-                        {de gebieden van 0} Typeahead nu beschikbaar in de Integratie van Adobe Experience Manager </a><a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}"></p><p>[!BADGE in productie ]{type=Informative}</p><p>Om het gemakkelijker te maken om gebieden tussen Workfront en Adobe Experience Manager te verbinden, hebben wij steun voor typeahead gebieden in de meta-gegevensafbeelding toegevoegd. Nu kunt u typeahead-velden toewijzen aan corresponderende velden in Adobe Experience Manager.</p>
+                        {de gebieden van 0} Typeahead nu beschikbaar in de Integratie van Adobe Experience Manager </a><a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}"></p><p>[!BADGE in productie &#x200B;]{type=Informative}</p><p>Om het gemakkelijker te maken om gebieden tussen Workfront en Adobe Experience Manager te verbinden, hebben wij steun voor typeahead gebieden in de meta-gegevensafbeelding toegevoegd. Nu kunt u typeahead-velden toewijzen aan corresponderende velden in Adobe Experience Manager.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -313,7 +313,7 @@ De 24.1 release webinar was op 11 januari 2024. U kunt [ voor webinar registrere
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}"> publiceert automatisch activa in Adobe Experience Manager </a></p><p>[!BADGE in productie ]{type=Informative}</p><p>We hebben nog een workflow toegevoegd aan de Adobe Experience Manager-integratie. Nu kunt u instellen dat uw elementen automatisch worden gepubliceerd wanneer ze naar Adobe Experience Manager worden verzonden. De integratie kan worden geconfigureerd om te publiceren naar de Adobe Experience Manager-publicatieservice of naar een Adobe Experience Manager-portaalsite.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}"> publiceert automatisch activa in Adobe Experience Manager </a></p><p>[!BADGE in productie &#x200B;]{type=Informative}</p><p>We hebben nog een workflow toegevoegd aan de Adobe Experience Manager-integratie. Nu kunt u instellen dat uw elementen automatisch worden gepubliceerd wanneer ze naar Adobe Experience Manager worden verzonden. De integratie kan worden geconfigureerd om te publiceren naar de Adobe Experience Manager-publicatieservice of naar een Adobe Experience Manager-portaalsite.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -349,7 +349,7 @@ De 24.1 release webinar was op 11 januari 2024. U kunt [ voor webinar registrere
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md" class="MCXref xref" xrefformat="{para}"> relevantere slimme taken </a></p>
-                        [!BADGE in productie voor Snelle Versie ]{type=Positive}<p>We hebben het algoritme gewijzigd dat Workfront gebruikt om slimme toewijzingen voor taken te berekenen en voor te stellen. Het nieuwe algoritme is van toepassing op de volgende gebieden in Workfront waar u een taak toewijst: taaklijsten, het gebied van Toewijzingen in de taakkopbal, Huis, en het Summiere paneel.</p>
+                        [!BADGE in productie voor Snelle Versie &#x200B;]{type=Positive}<p>We hebben het algoritme gewijzigd dat Workfront gebruikt om slimme toewijzingen voor taken te berekenen en voor te stellen. Het nieuwe algoritme is van toepassing op de volgende gebieden in Workfront waar u een taak toewijst: taaklijsten, het gebied van Toewijzingen in de taakkopbal, Huis, en het Summiere paneel.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -384,7 +384,7 @@ De 24.1 release webinar was op 11 januari 2024. U kunt [ voor webinar registrere
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}"> belemmering en dalingsbeeld in een commentaar in de sectie van Updates </a></p><p>[!BADGE in productie ]{type=Informative}</p><p>Om de inhoud van uw opmerkingen te verbeteren, kunt u nu snel een afbeelding slepen en neerzetten in een opmerking of antwoord in de sectie Updates van een object.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}"> belemmering en dalingsbeeld in een commentaar in de sectie van Updates </a></p><p>[!BADGE in productie &#x200B;]{type=Informative}</p><p>Om de inhoud van uw opmerkingen te verbeteren, kunt u nu snel een afbeelding slepen en neerzetten in een opmerking of antwoord in de sectie Updates van een object.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -402,7 +402,7 @@ De 24.1 release webinar was op 11 januari 2024. U kunt [ voor webinar registrere
                     </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}"> de nieuwe het becommentariëren ervaring vangt alle informatie voor projecten, taken, kwesties, en documenten </a></p><p>[!BADGE in productie ]{type=Informative}</p><p>Projecten, taken, problemen en documenten geven alle updates weer in het nieuwe ervaringsgebied voor opmerkingen, sinds het begin van uw Workfront-exemplaar.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}"> de nieuwe het becommentariëren ervaring vangt alle informatie voor projecten, taken, kwesties, en documenten </a></p><p>[!BADGE in productie &#x200B;]{type=Informative}</p><p>Projecten, taken, problemen en documenten geven alle updates weer in het nieuwe ervaringsgebied voor opmerkingen, sinds het begin van uw Workfront-exemplaar.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -417,7 +417,7 @@ De 24.1 release webinar was op 11 januari 2024. U kunt [ voor webinar registrere
                     </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}"> Onderzoek naar een commentaar of een gebruiker in de sectie van Updates </a></p><p>[!BADGE in productie ]{type=Informative}</p><p>Als u snel informatie wilt zoeken in de sectie Updates van een object, kunt u nu naar een trefwoord zoeken vanuit een opmerking of naar een gebruiker die aan een opmerking is gekoppeld.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}"> Onderzoek naar een commentaar of een gebruiker in de sectie van Updates </a></p><p>[!BADGE in productie &#x200B;]{type=Informative}</p><p>Als u snel informatie wilt zoeken in de sectie Updates van een object, kunt u nu naar een trefwoord zoeken vanuit een opmerking of naar een gebruiker die aan een opmerking is gekoppeld.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -435,7 +435,7 @@ De 24.1 release webinar was op 11 januari 2024. U kunt [ voor webinar registrere
                     </tr>
                     <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}"> Exemplaar en kleef een beeld in een commentaar in de sectie van Updates </a></p><p>[!BADGE in productie ]{type=Informative}</p><p>Om context aan de inhoud van een bericht te verstrekken, kunt u beelden aan uw commentaren nu snel vastmaken door hen van uw computer te kopiëren en hen in een nieuwe update of een antwoord te kleven.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}"> Exemplaar en kleef een beeld in een commentaar in de sectie van Updates </a></p><p>[!BADGE in productie &#x200B;]{type=Informative}</p><p>Om context aan de inhoud van een bericht te verstrekken, kunt u beelden aan uw commentaren nu snel vastmaken door hen van uw computer te kopiëren en hen in een nieuwe update of een antwoord te kleven.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -482,7 +482,7 @@ Voor informatie over API versies, zie [ API versioning en steunprogramma ](/help
 
 ### Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens Eerste Kwartaal 2024 versie worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront ](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).[
+Voor informatie over de onderhoudsupdates die tijdens Eerste Kwartaal 2024 versie worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront [&#128279;](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Training-updates
 

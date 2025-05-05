@@ -35,7 +35,7 @@ Deze sectie bevat de volgende artikelen:
 * [De dropzone configureren in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)
 * [Accountinstellingen voor integratie in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/integrations-account-setup.md)
 * [Logboeken voor verificatie weergeven  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/view-auth-logs-in-wp.md)
-* [Bekijk en geef de 0} rekeningsdetails van uw organisatie {uit [!DNL Workfront Proof] ](../../../workfront-proof/wp-acct-admin/account-settings/view-edit-org-wp-acct-details.md)
+* [Bekijk en geef de 0&rbrace; rekeningsdetails van uw organisatie &lbrace;uit [!DNL Workfront Proof] ](../../../workfront-proof/wp-acct-admin/account-settings/view-edit-org-wp-acct-details.md)
 * [Bekijk de de rekeningsgeschiedenis van uw organisatie  [!DNL Workfront Proof]  beheerderrekening](../../../workfront-proof/wp-acct-admin/account-settings/view-org-wp-acct-history.md)
 * [Controleer uw  [!DNL Workfront Proof]  opslag](../../../workfront-proof/wp-acct-admin/account-settings/check-workfront-proof-storage.md)
 * [Nieuwe gegevensback-up aanvragen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/request-new-data-backup-in-wp.md)

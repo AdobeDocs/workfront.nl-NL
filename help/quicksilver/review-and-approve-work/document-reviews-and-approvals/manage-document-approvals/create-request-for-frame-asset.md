@@ -73,7 +73,7 @@ You must have the following access to perform the steps in this article:
 
 1. Om een fiatteur toe te voegen, klik **Approver** en begin typend in een gebruiker of teamnaam.
 
-1. Om een recensent toe te voegen, klik **checkbox 0} Recensent {en begin typend in een gebruiker of teamnaam.**
+1. Om een recensent toe te voegen, klik **checkbox 0&rbrace; Recensent &lbrace;en begin typend in een gebruiker of teamnaam.**
 
    ![ voeg fiatteur en deadline ](assets/add-approver-and-deadline.png) toe
 
@@ -92,7 +92,7 @@ You must have the following access to perform the steps in this article:
 
 1. Om een fiatteur toe te voegen, klik **Approver** en begin typend in een gebruiker of teamnaam.
 
-1. Om een recensent toe te voegen, klik **checkbox 0} Recensent {en begin typend in een gebruiker of teamnaam.**
+1. Om een recensent toe te voegen, klik **checkbox 0&rbrace; Recensent &lbrace;en begin typend in een gebruiker of teamnaam.**
 
    ![ voeg fiatteur en deadline ](assets/add-approver-and-deadline.png) toe
 

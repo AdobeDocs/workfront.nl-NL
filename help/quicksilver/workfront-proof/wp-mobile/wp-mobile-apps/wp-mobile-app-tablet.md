@@ -1,6 +1,6 @@
 ---
 title: Workfront Proof mobiele app voor tablets
-description: De { [!DNL Workfront Proof]  tablet app laat u gemakkelijk uw proeven herzien en goedkeuren wanneer u onderweg bent. app is beschikbaar voor download voor iedereen, moet u a  [!DNL Workfront Proof]  gebruiker niet zijn om proeven op uw tablet of uw telefoon te kunnen herzien.
+description: De &lbrace; [!DNL Workfront Proof]  tablet app laat u gemakkelijk uw proeven herzien en goedkeuren wanneer u onderweg bent. app is beschikbaar voor download voor iedereen, moet u a  [!DNL Workfront Proof]  gebruiker niet zijn om proeven op uw tablet of uw telefoon te kunnen herzien.
 hide: true
 hidefromtoc: true
 exl-id: 7a3f1d96-103d-41cf-8470-3fc69e4bd507

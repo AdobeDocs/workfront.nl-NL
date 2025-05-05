@@ -95,7 +95,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >
    >Gebruik het pictogram **[!UICONTROL Menu]** om naar de bovenliggende objecten van het werkitem te gaan.
 
-1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1} Document ](assets/documents.png) in de navigatiebar, dan klik op een document aan mening tweemaal:![
+1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1&rbrace; Document ![&#128279;](assets/documents.png) in de navigatiebar, dan klik op een document aan mening tweemaal:
 
    * [!UICONTROL Description]
    * [!UICONTROL File Type]
@@ -116,7 +116,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >
    >Gebruik het pictogram **[!UICONTROL Menu]** om naar de bovenliggende objecten van het werkitem te gaan.
 
-1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1} Document ](assets/documents.png) in de navigatiebar, dan klik op een proef tweemaal.![
+1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1&rbrace; Document ![&#128279;](assets/documents.png) in de navigatiebar, dan klik op een proef tweemaal.
 
 1. Klik op het pijlpictogram in de rechterbovenhoek van de miniatuur om de proefdrukdetails te openen in [!DNL Workfront] .
 
@@ -134,7 +134,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >
    >Gebruik het pictogram **[!UICONTROL Menu]** om naar de bovenliggende objecten van het werkitem te gaan.
 
-1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1} Document ](assets/documents.png) in de navigatiebar, dan klik op een proef tweemaal.![
+1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1&rbrace; Document ![&#128279;](assets/documents.png) in de navigatiebar, dan klik op een proef tweemaal.
 
 1. Blader naar de onderkant om de huidige status van de proefdruk weer te geven. Voor meer informatie over Verzonden, Geopende, Commentaar, Besluit (SOCD) details, zie [ Overzicht van de Details van het Document ](/help/quicksilver/documents/managing-documents/document-details-overview.md).
 

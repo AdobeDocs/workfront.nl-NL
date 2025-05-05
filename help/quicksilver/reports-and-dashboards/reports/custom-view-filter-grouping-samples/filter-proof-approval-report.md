@@ -74,7 +74,7 @@ U kunt een filter voor een rapport van de Goedkeuring van het Bewijs tot stand b
    <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Sarah: Add sub bullets for report creation.</p>
    -->
 
-   Om uw eigen rapport van de Goedkeuring van het Proef te creëren, klik het **pictogram van het Belangrijkste Menu ![ pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, of het** Belangrijkste pictogram van het Menu **pictogram ![ Belangrijkste lijnen van het Menu ](assets/lines-main-menu.png) in de upper-left hoek, dan klik** het pictogram van Rapporten **](assets/reports-in-main-menu.png).**![
+   Om uw eigen rapport van de Goedkeuring van het Proef te creëren, klik het **pictogram van het Belangrijkste Menu ![ pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, of het** Belangrijkste pictogram van het Menu **pictogram ![ Belangrijkste lijnen van het Menu ](assets/lines-main-menu.png) in de upper-left hoek, dan klik** het pictogram van Rapporten **![&#128279;](assets/reports-in-main-menu.png).**
 
 1. Klik **Nieuw Rapport**. De lijst met objecttypen wordt weergegeven.
 1. Klik **Goedkeuring van het Bewijs** in de lijst.
@@ -88,6 +88,6 @@ De rapportaannemer opent.
 1. Klik binnen de **Vastgestelde Regels van de Filter voor uw doos van het Rapport**, dan uitgezochte **Goedkeuring van het Bewijs** van de lijst.
 1. Klik **is Huidige Versie van het Document** in de lijst onder het **voorwerp van de Goedkeuring van het Bewijs**.
 1. Kies Gelijk voor uw filterbepaling, dan uitgezochte Waar.
-1. Klik **sparen + Sluiten** in de laag-linkerhoek van Adobe Workfront, dan klik **** in de doos toepassen die verschijnt.
+1. Klik **sparen + Sluiten** in de laag-linkerhoek van Adobe Workfront, dan klik **&#x200B;**&#x200B;in de doos toepassen die verschijnt.
 
    In het rapport Goedkeuring proef worden alleen de proefdrukken weergegeven die zijn gekoppeld aan de huidige versies van een document, als de proefdrukgoedkeuringen aan deze filtercriteria voldoen.

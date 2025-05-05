@@ -157,7 +157,7 @@ Bijvoorbeeld, *yourDomain.my.workfront.com*.
 1. Meld u aan bij [!DNL Salesforce] als systeembeheerder.
 1. Klik op het pictogram **[!UICONTROL Setup]** en klik vervolgens op **[!UICONTROL Setup]** .
 
-1. Vouw **[!UICONTROL Apps]uit in de sectie **[!UICONTROL PLATFORM TOOLS]**.**
+1. Vouw **[!UICONTROL Apps]uit in de sectie &#x200B;** [!UICONTROL PLATFORM TOOLS]&#x200B;**.**
 
 1. Klik op **[!DNL AppExchange Marketplace]**.
 1. Typ **[!DNL Workfront]** in het vak **[!UICONTROL Search [!DNL AppExchange] Apps]** .
@@ -180,7 +180,7 @@ Bijvoorbeeld, *yourDomain.my.workfront.com*.
    De app [!DNL Workfront] wordt weergegeven onder **[!UICONTROL Installed Packages]** .
 
 1. Ga naar **[!UICONTROL Setup].**
-1. Vouw **[!UICONTROL Security]uit in de sectie **[!UICONTROL SETTINGS]**.**
+1. Vouw **[!UICONTROL Security]uit in de sectie &#x200B;** [!UICONTROL SETTINGS]&#x200B;**.**
 
 1. Klik op **[!UICONTROL Remote Site Settings]**.
 1. (Voorwaardelijk) Als de [!DNL Workfront] URL niet wordt weergegeven in de lijst **[!UICONTROL All Remote Sites]** , klikt u op **[!UICONTROL New Remote Site]** .

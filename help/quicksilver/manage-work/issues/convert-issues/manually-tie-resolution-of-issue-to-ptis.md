@@ -63,7 +63,7 @@ Voordat u begint, moet u:
 ## De oplossing van een kwestie voor de oplossing van een andere kwestie, een andere taak, of een ander project
 
 1. Navigeer naar een kwestie waarvan u aan de resolutie van een andere kwestie of aan de resolutie van een taak of een project wilt verbinden.
-1. Klik de **Details van de Uitgave** in het linkerpaneel, dan breid het **3} gebied van het Overzicht {uit.**
+1. Klik de **Details van de Uitgave** in het linkerpaneel, dan breid het **3&rbrace; gebied van het Overzicht &lbrace;uit.**
 
    ![ pictogram van de Details van de Uitgave ](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
 

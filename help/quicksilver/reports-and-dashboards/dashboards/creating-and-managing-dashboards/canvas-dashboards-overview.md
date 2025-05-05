@@ -79,7 +79,7 @@ Een nieuwe optie voor Canvasdashboards in het linkerdeelvenster van de bestaande
 
 1. De geselecteerde widgets worden op het dashboard weergegeven. Klik **Configuratie** in het centrum van een widget om te kiezen welk rapport het zal tonen.
 
-1. Begin typend in de naam van het rapport u op het **1} gebied van het Rapport van de Vondst {zou willen tonen.** Wanneer u het rapport in de lijst ziet, klik of het **Rapport van de Lijst** of **pictogram van het Rapport van de Grafiek** naast zijn naam om de informatie van dat rapport in uw gekozen formaat te tonen.
+1. Begin typend in de naam van het rapport u op het **1&rbrace; gebied van het Rapport van de Vondst &lbrace;zou willen tonen.** Wanneer u het rapport in de lijst ziet, klik of het **Rapport van de Lijst** of **pictogram van het Rapport van de Grafiek** naast zijn naam om de informatie van dat rapport in uw gekozen formaat te tonen.
 
 >[!WARNING]
 >

@@ -93,7 +93,7 @@ Wanneer de taken bijwerken, werken hun oudervoorwerpen (oudertaken of het projec
 1. Ga naar het project waarvan Type van Update u wilt specificeren.
 1. Klik het Meer menu ![ Meer pictogram ](assets/more-icon.png) naast de naam van het project, dan klik **uitgeven**.
 
-1. Klik **** Montages van het Project ****.
+1. Klik **&#x200B;**&#x200B;Montages van het Project **&#x200B;**.
 
    ![](assets/update-type-field-on-project-edit-box-nwe-350x378.png)
 

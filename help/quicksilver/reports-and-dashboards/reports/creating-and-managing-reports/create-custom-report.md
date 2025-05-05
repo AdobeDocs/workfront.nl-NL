@@ -110,7 +110,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
     </tbody> 
    </table>
 
-1. Op om het even welk punt tijdens het proces van de rapportverwezenlijking, is de klik **** van toepassing om uw veranderingen te bewaren.
+1. Op om het even welk punt tijdens het proces van de rapportverwezenlijking, is de klik **&#x200B;**&#x200B;van toepassing om uw veranderingen te bewaren.
 1. Nadat u wordt gebeëindigd, klik **sparen + Sluiten**.
 
 ### Kolommen (weergave) toevoegen aan een rapport {#add-columns-view-to-a-report}

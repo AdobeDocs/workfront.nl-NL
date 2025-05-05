@@ -171,7 +171,7 @@ Als u een groepsbeheerder (of een beheerder van Workfront) bent, kunt u een doua
 
 1. Als u een beheerder van Workfront bent, creeer een systeem-brede ontgrendelde status zoals die in [ wordt beschreven creeer of geef een status ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) uit.
 1. In de doos in de hoger-juiste hoek, schrap **Statussen van het Systeem**, begin typend de naam van een groep waar u de status wilt verbergen, dan klik de naam wanneer het verschijnt.
-1. Beweeg over de status u van de groep wilt verbergen, dan **** klikken uitgeven wanneer het verschijnt.
+1. Beweeg over de status u van de groep wilt verbergen, dan **&#x200B;**&#x200B;klikken uitgeven wanneer het verschijnt.
 
    ![ geeft status ](assets/hover-click-edit.jpg) uit
 

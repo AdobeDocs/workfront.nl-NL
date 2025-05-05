@@ -88,4 +88,4 @@ Als u sjabloongegevens wilt verwijderen die aan het project zijn toegevoegd, kun
 
      Voor informatie over het creëren van een mening, zie [ Overzicht van Meningen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. Selecteer alle taken die in Stap 2 worden geïdentificeerd zoals die van een malplaatje worden gecreeerd, dan klik **het pictogram van de Schrapping****> ja, schrap het**. Voor meer informatie, zie [ de taken van de Schrapping ](../../../manage-work/tasks/manage-tasks/delete-tasks.md).
+1. Selecteer alle taken die in Stap 2 worden geïdentificeerd zoals die van een malplaatje worden gecreeerd, dan klik **het pictogram van de Schrapping**&#x200B;**> ja, schrap het**. Voor meer informatie, zie [ de taken van de Schrapping ](../../../manage-work/tasks/manage-tasks/delete-tasks.md).

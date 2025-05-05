@@ -155,7 +155,7 @@ Hoewel u taakinformatie in de Planner van het Middel niet kunt bekijken, worden 
 
 De volgende scenario&#39;s bestaan wanneer het berekenen van de Geplande Kosten voor gebruikers, rollen, en het project:
 
-* Wanneer het **Type van Kosten** **User Uur **is en er **geen taak** op de taak is:
+* Wanneer het **Type van Kosten** **User Uur &#x200B;** is en er **geen taak** op de taak is:
 
    * **Rol en gebruiker Geplande Kosten**:
 

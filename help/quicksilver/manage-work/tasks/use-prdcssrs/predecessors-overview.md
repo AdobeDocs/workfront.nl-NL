@@ -86,7 +86,7 @@ Als u de voorgangers van een taak wilt zoeken, voert u een van de volgende hande
 
    1. Klik de **Taken** tabel.
    1. Kies de **StandaardMening** bij de bovenkant van de taaklijst.
-   1. De **1} kolom van Predecessors {toont de aantallen van de voorgangertaak.**
+   1. De **1&rbrace; kolom van Predecessors &lbrace;toont de aantallen van de voorgangertaak.**
 
       Voor een dwars-projectvoorganger, toont de kolom van Voorgangers het verwijzingsaantal van het project predecessor tot behoort en het aantal van de taak, die door een dubbelpunt wordt gescheiden.
 

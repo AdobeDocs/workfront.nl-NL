@@ -22,7 +22,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
 <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.OnlineOnly">  To download this page in PDF&nbsp;format, go  <a href="https://documentation.my.workfront.com/library/a/1c7547fc-9d72-400e-84ed-3382bca498f4" target="_blank">here</a>. </MadCap:conditionalText>
 -->
 
-Om een lijst van verhogingen te bekijken die na de versie 2019.3 worden vrijgegeven, zie {de versies van het 0} Product ](../../../../product-announcements/product-releases/product-releases.md).[
+Om een lijst van verhogingen te bekijken die na de versie 2019.3 worden vrijgegeven, zie {de versies van het 0} Product [&#128279;](../../../../product-announcements/product-releases/product-releases.md).
 
 ## Verbeteringen voor alle gebruikers
 

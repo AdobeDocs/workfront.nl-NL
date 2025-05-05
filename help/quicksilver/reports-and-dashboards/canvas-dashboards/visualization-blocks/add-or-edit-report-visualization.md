@@ -32,7 +32,7 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
 >
 >Alle wijzigingen worden automatisch opgeslagen wanneer u de blokken in uw rapport maakt en bewerkt.
 
-1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** Meldend **.**
+1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** Meldend **.**
 1. Klik **Nieuw rapport**, creeer dan een rapport met lijsten die gegevens bevatten, zoals die in [ worden beschreven bouw een rapport in het Melden van Canvas ](../../../reports-and-dashboards/reporting-canvas/manage-reports/build-report.md) en [ voeg of geef een lijstblok in het Melden van Canvas ](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md) toe uit.
 
    of

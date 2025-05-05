@@ -88,7 +88,7 @@ De commentaren tonen onder het punt waar de uuringang en de commentaar werden ge
 
 U kunt algemene opmerkingen maken over de tijdpagina. Het plaatsen van opmerkingen over de gehele tijdlijn lijkt op het plaatsen van opmerkingen over andere objecten.
 
-1. Klik het **pictogram 1} van het Belangrijkste Menu ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek, of het** Belangrijkste **pictogram van het Menu ![ het belangrijkste menu van Lijnen ](assets/lines-main-menu.png) in de upper-left hoek of Workfront, als beschikbaar.**
+1. Klik het **pictogram 1&rbrace; van het Belangrijkste Menu ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek, of het** Belangrijkste **pictogram van het Menu ![ het belangrijkste menu van Lijnen ](assets/lines-main-menu.png) in de upper-left hoek of Workfront, als beschikbaar.**
 
 1. Klik **Tijdopnemers**.
 1. Ga naar de tijdpagina waarop u een opmerking wilt maken.
@@ -115,7 +115,7 @@ U kunt algemene opmerkingen maken over de tijdpagina. Het plaatsen van opmerking
 
 ### Commentaar op een individuele uuringang in een timesheet {#comment-on-an-individual-hour-entry-in-a-timesheet}
 
-1. Klik het **pictogram 1} van het Belangrijkste Menu ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.**
+1. Klik het **pictogram 1&rbrace; van het Belangrijkste Menu ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.**
 
 1. Klik **Tijdopnemers**.
 1. Ga naar timesheet waar u een commentaar wilt maken en **Timesheet** in het linkerpaneel klikken.
@@ -154,7 +154,7 @@ U kunt algemene opmerkingen maken over de tijdpagina. Het plaatsen van opmerking
 
 U kunt alleen opmerkingen maken over taken en problemen in een tijdsplaat. U kunt geen opmerkingen maken over projecten of algemene tijd.
 
-1. Klik het **]pictogram 1} van het Belangrijkste Menu ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.[!UICONTROL **
+1. Klik het **pictogram 1&rbrace; van het Belangrijkste Menu ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.**
 1. Klik [!UICONTROL **Tijdopnemers**].
 1. Ga naar timesheet waar u een commentaar wilt maken, en [!UICONTROL **Timesheet**] in het linkerpaneel klikken.
 1. Klik de rij van een taak of een kwestie, dan klik [!UICONTROL **Open Samenvatting**].

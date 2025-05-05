@@ -44,7 +44,7 @@ De fout verwijst naar GUID van de gebruiker die met de uren wordt geassocieerd.
 
 Om dit aan te pakken:
 
-1. Exporteer een leeg Kick-Begin malplaatje voor het **slechts 1} voorwerp van Uren {.**\
+1. Exporteer een leeg Kick-Begin malplaatje voor het **slechts 1&rbrace; voorwerp van Uren &lbrace;.**\
    Voor meer informatie over het uitvoeren van een leeg Kick-Begin Dossier, zie &quot;het Uitvoeren van het Sjabloon van het Kick-Begin&quot;in [ Gegevens van de Invoer in Adobe Workfront gebruikend een Kick-Begin malplaatje ](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
 1. Kopieer de gegevens handmatig van het originele Kick-Start en plak deze in het lege bestand.\

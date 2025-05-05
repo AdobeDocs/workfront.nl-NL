@@ -59,11 +59,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    of
 
-   Om bepaalde leden van het projectteam bij te werken, selecteer één of verscheidene gebruikers in de lijst, dan klik **verzenden Update naar Gebruiker** ****.\
+   Om bepaalde leden van het projectteam bij te werken, selecteer één of verscheidene gebruikers in de lijst, dan klik **verzenden Update naar Gebruiker** **&#x200B;**.\
    ![ Commenting_1.png ](assets/commenting-1-350x352.png)
 
 1. Typ uw update in **Post en update aan dit project** gebied.
-1. (Facultatief) om de update privé te maken, klik het **** pictogram van het Slot.
+1. (Facultatief) om de update privé te maken, klik het **&#x200B;**&#x200B;pictogram van het Slot.
 
    Gebruikers buiten het bedrijf kunnen geen persoonlijke update weergeven.
 

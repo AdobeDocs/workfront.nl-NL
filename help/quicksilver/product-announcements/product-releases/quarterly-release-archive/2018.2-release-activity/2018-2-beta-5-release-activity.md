@@ -131,7 +131,7 @@ De weergaven Project en Rol van de bronnenplanner bevatten nu de volgende verbet
 
 Voorafgaand aan deze verbeteringen, hebt u gemeld dat de Planner van het Middel langzaam te laden was en dat u incongruenties in de getoonde gegevens had opgemerkt. Deze verbeteringen moeten nu worden opgeheven.
 
-Voor informatie en om de nieuwe grenzen voor de Planner van het Middel te begrijpen, zie {de vertoningsbeperkingen van de Banner van 0} Middel ](../../../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)[
+Voor informatie en om de nieuwe grenzen voor de Planner van het Middel te begrijpen, zie {de vertoningsbeperkingen van de Banner van 0} Middel [&#128279;](../../../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)
 
 <!--
 <p dir="ltr" data-mc-conditions="QuicksilverOrClassic.Draft mode">To participate in our current beta program and give us feedback on the functionality of the Resource Planner, see <a href="../../../../product-announcements/betas/resource-planner-performance-beta.md" class="MCXref xref" xrefformat="{para}">Resource Planner performance beta </a></p>

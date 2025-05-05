@@ -24,7 +24,7 @@ Houd rekening met het volgende wanneer u markeringen in artikelen gebruikt:
 * Vlaggen zijn geen status, maar een visuele indicatie dat het verhaal gereed is om door een ander teamlid naar de volgende status te worden verplaatst.
 * Vlaggen worden niet weergegeven op artikelkaarten in de kolom [!UICONTROL Backlog] of in de kolom [!UICONTROL Complete] (of in een kolom waarin de status van de kolom gelijk is aan [!UICONTROL Complete] ).
 
-  Voor meer informatie over artikelstatussen, zie {de vlaggen van 0} Gebruik op verhalen op de karton Kanban ](#updating-the-status-of-stories-and-subtasks)[
+  Voor meer informatie over artikelstatussen, zie {de vlaggen van 0} Gebruik op verhalen op de karton Kanban [&#128279;](#updating-the-status-of-stories-and-subtasks)
 
 ## Toegangsvereisten
 

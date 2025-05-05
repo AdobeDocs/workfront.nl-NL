@@ -38,7 +38,7 @@ Overweeg het volgende:
 
   Voor meer informatie, zie het [ Overzicht van de Pictogrammen van de Status en sectie van Vlaggen ](#overview-of-status-icons-and-flags) in dit artikel.
 
-* In sommige meningen, wordt het **gebied van de Pictogrammen van de Status 0} genoemd** Vlaggen **of** Pictogrammen van de Mening **.**\
+* In sommige meningen, wordt het **gebied van de Pictogrammen van de Status 0&rbrace; genoemd** Vlaggen **of** Pictogrammen van de Mening **.**\
   U kunt de vormgeving van de pictogrammen in het veld Statuspictogrammen niet aanpassen.
 
 * U kunt het aantal pictogrammen niet bewerken in het veld Statuspictogrammen.
@@ -103,7 +103,7 @@ Het veld Statuspictogrammen toevoegen aan een aangepaste weergave die u vanaf nu
    * Uitgaven
    * Documenten
    * Gebruikers\
-     Slechts hebben deze voorwerpen het **beschikbare gebied van de Pictogrammen van de Status 0} {.**\
+     Slechts hebben deze voorwerpen het **beschikbare gebied van de Pictogrammen van de Status 0&rbrace; &lbrace;.**\
      Voor informatie over objecten lijsten, zie [ begonnen worden met lijsten in Adobe Workfront ](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 1. Van het **drop-down menu van de Mening**, uitgezochte **Nieuwe Mening**.

@@ -136,7 +136,7 @@ Om de uurtypes te bepalen die aan een gebruiker beschikbaar zijn:
 
      Opdat de uurtypes u op het gebruikersniveau selecteert om op projecten, taken, en kwesties beschikbaar te zijn, moeten deze zelfde uurtypes ook in de **optie van de Types van Uur van de Filter** worden geselecteerd wanneer het uitgeven van het project, zoals die in [ wordt beschreven bepaalt beschikbaarheid op het projectniveau ](#define-availability-at-the-project-level).
 
-1. (Facultatief) in het **drop-down menu van het Type van Uur 0} Standaard, selecteer één uurtype.**
+1. (Facultatief) in het **drop-down menu van het Type van Uur 0&rbrace; Standaard, selecteer één uurtype.**
 
    Wanneer het Type van Uur van de gebruiker Standaard en een project Gefilterde Type van Uur aanpast, wordt dat uurtype geselecteerd door gebrek wanneer het registreren tijd.
 

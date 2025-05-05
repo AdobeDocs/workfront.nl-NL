@@ -71,4 +71,4 @@ Dit filter toepassen:
 1. Plak in het nieuwe gebied de volgende code:
    <pre>predecessorsMM:projectID=FIELD:projectID <br> predecessorsMM:projectID_Mod=ne <br> percentComplete=100 <br> percentComplete_Mod=ne</pre>
 
-1. (Voorwaardelijk) klik **sparen Filter** als u tot de filter van een rapport toegang had, of **** van toepassing is, dan **sparen als nieuw** als u tot de filter van een taaklijst toegang had.
+1. (Voorwaardelijk) klik **sparen Filter** als u tot de filter van een rapport toegang had, of **&#x200B;**&#x200B;van toepassing is, dan **sparen als nieuw** als u tot de filter van een taaklijst toegang had.

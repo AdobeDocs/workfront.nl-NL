@@ -26,7 +26,7 @@ U kunt op de volgende manieren bepalen welke velden in een weergave kunnen worde
 
   U kunt de tekstmodus gebruiken om de kolom- of veldnaam op te nemen in een weergave in plaats van de id door de `fieldnameID` te vervangen door de `fieldname:name` .
 
-  Bijvoorbeeld, op de standaardwijzeinterface, is het **gebied van identiteitskaart van de Eigenaar van 0} Portfolio beschikbaar voor een projectweergave, maar het** gebied van de Naam van de Eigenaar van de Portfolio **is niet.** U kunt tekstwijze gebruiken om de **Naam van de Eigenaar van het Portfolio** in de kolom van een mening te tonen.
+  Bijvoorbeeld, op de standaardwijzeinterface, is het **gebied van identiteitskaart van de Eigenaar van 0&rbrace; Portfolio beschikbaar voor een projectweergave, maar het** gebied van de Naam van de Eigenaar van de Portfolio **is niet.** U kunt tekstwijze gebruiken om de **Naam van de Eigenaar van het Portfolio** in de kolom van een mening te tonen.
 
 ## Toegangsvereisten
 

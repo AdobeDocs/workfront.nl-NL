@@ -254,7 +254,7 @@ In deze subsectie kunt u de volgende opties wijzigen:
    <td> Als uw [!DNL Workfront] -beheerder een SSO-integratie met [!DNL Workfront] heeft ingeschakeld, wordt de gebruikersnaam van de SSO in dit veld weergegeven. Het type SSO-configuratie dat voor uw [!DNL Workfront] -instantie is ingeschakeld, is zichtbaar in dit veld.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>(Voorwaardelijk) [!UICONTROL Only Allow <SSO Configuration> Authentication]</strong></td> 
+   <td role="rowheader"><strong>(Voorwaardelijk) [!UICONTROL Only Allow &lt;SSO Configuration> Authentication]</strong></td> 
    <td> <p> Als uw [!DNL Workfront] -beheerder een SSO-integratie met [!DNL Workfront] heeft ingeschakeld en gebruikers voor SSO heeft bijgewerkt, wordt dit veld standaard geselecteerd. Het type SSO-configuratie dat voor uw [!DNL Workfront] -instantie is ingeschakeld, is zichtbaar in dit veld.</p> <p>Als dit veld is geselecteerd, moet u zich aanmelden bij [!DNL Workfront] met uw SSO-referenties. Als u de optie uitschakelt, kunt u zich aanmelden bij [!DNL Workfront] met uw [!DNL Workfront] -referenties.</p> <p>Voor meer informatie over het vormen [!DNL Workfront] met een oplossing SSO, zie <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref"> Enige sign-on in [!DNL Workfront]: artikelindex </a>. Voor meer informatie over het bijwerken van gebruikers voor SSO, zie <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref"> de gebruikers van de Update voor enig teken-op </a>.</p> </td> 
   </tr> 
  </tbody> 

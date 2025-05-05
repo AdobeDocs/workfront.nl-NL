@@ -61,7 +61,7 @@ Het levende 24.7 versiewebinar werd geannuleerd, maar u kunt nog [ op een videod
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md"> Bedrijfs regels zijn nu beschikbaar </a></p>
-                        [!BADGE in productie ]{type=Informative}
+                        [!BADGE in productie &#x200B;]{type=Informative}
                         <p>Beheerders kunnen nu bedrijfsregels toevoegen in het gedeelte Setup van Workfront.</p>
                         <p>Met een bedrijfsregel kunt u validatie toepassen op Workfront-objecten en voorkomen dat gebruikers een object maken, bewerken of verwijderen als aan bepaalde voorwaarden is voldaan. De regels worden opgebouwd met een formule die vergelijkbaar is met berekende velden in aangepaste formulieren.</p>
                     </td>
@@ -80,7 +80,7 @@ Het levende 24.7 versiewebinar werd geannuleerd, maar u kunt nog [ op een videod
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md"> de vormontwerper van de Douane algemeen beschikbaar in Adobe Workfront </a></p>
-                        [!BADGE in productie ]{type=Informative}
+                        [!BADGE in productie &#x200B;]{type=Informative}
                         <p>Met de versie 24.7 is de formulierontwerper over het algemeen beschikbaar en wordt deze de standaardeigenschap voor het maken en bewerken van aangepaste formulieren in Adobe Workfront. Wanneer u een nieuw aangepast formulier maakt of een bestaand formulier opent, wordt de werkruimte in canvasstijl van de formulierontwerper weergegeven.</p>
                         <p>Na deze release kunt u niet meer terugkeren naar de oude formulierbuilder.</p>
                     </td>
@@ -98,7 +98,7 @@ Het levende 24.7 versiewebinar werd geannuleerd, maar u kunt nog [ op een videod
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md"> de voorwerpen van de beweging tussen de milieu's van Workfront met milieubevordering </a></p>
-                        [!BADGE in productie ]{type=Informative}
+                        [!BADGE in productie &#x200B;]{type=Informative}
                         <p>Met de functie voor milieubescherming kunt u objecten verplaatsen van de ene Workfront-omgeving naar de andere, zoals van een sandboxomgeving naar een productieomgeving. U kunt voorwerpen vormen en testen zonder enig risico voor de gegevens en de verslagen van uw organisatie. U kunt die voorwerpen aan productie dan bewegen zonder het moeten hen aanpassen, besparend tijd en inspanning.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -112,7 +112,7 @@ Het levende 24.7 versiewebinar werd geannuleerd, maar u kunt nog [ op een videod
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md"> Aangepaste vormen en douanegebieden van het Aandeel in de ontwerper van de douanevorm </a></p>
-                        [!BADGE in productie ]{type=Informative}
+                        [!BADGE in productie &#x200B;]{type=Informative}
                         <p>U kunt nu zowel aangepaste formulieren als aangepaste velden delen in de nieuwe formulierontwerper. Hierdoor kan er beter worden samengewerkt tussen gebruikers op aangepaste formulieren.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -129,7 +129,7 @@ Het levende 24.7 versiewebinar werd geannuleerd, maar u kunt nog [ op een videod
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md"> voeg een nieuw douanegebied van het gebied van Gebieden </a> toe</p>
-                        [!BADGE in productie ]{type=Informative}
+                        [!BADGE in productie &#x200B;]{type=Informative}
                         <p>U kunt nu een nieuw aangepast veld of een nieuwe widget rechtstreeks vanuit het gebied Velden in Workfront toevoegen zonder dat u een aangepast formulier hoeft te openen om het veld te maken. Zo kunt u snel opnieuw bruikbare aangepaste velden maken.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -146,7 +146,7 @@ Het levende 24.7 versiewebinar werd geannuleerd, maar u kunt nog [ op een videod
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md"> Multi-uitgezochte drop-down gebiedstype beschikbaar op de vormontwerper </a></p>
-                        [!BADGE in productie ]{type=Informative}
+                        [!BADGE in productie &#x200B;]{type=Informative}
                         <p>We hebben het veld Multi-Select Dropdown toegevoegd aan de aangepaste formulierontwerper om het eenvoudiger te maken vervolgkeuzelijsten te definiëren. Met dit veldtype kunnen gebruikers meerdere opties in een vervolgkeuzelijst kiezen.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -182,7 +182,7 @@ Het levende 24.7 versiewebinar werd geannuleerd, maar u kunt nog [ op een videod
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-financial-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}"> Billable en niet-factureerbare uitgavengebieden beschikbaar voor projecten en taken </a></p>
-                        [!BADGE in productie ]{type=Informative}
+                        [!BADGE in productie &#x200B;]{type=Informative}
                         <p>Om u gemakkelijker te helpen uitgaventypes bekijken, zijn de uitgaven in factureerbare en niet factureerbare uitgaven op projecten en taken gescheiden. U kunt de volgende velden toevoegen aan weergaven en rapporten:</p>
                         <ul>
                             <li><p>Geplande aanpasbare kosten</p></li>
@@ -224,7 +224,7 @@ Het levende 24.7 versiewebinar werd geannuleerd, maar u kunt nog [ op een videod
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}"> Workfront voor Experience Manager Assets en de Verbeteringen van de Hoofdzaak van Activa </a></p>
-                        [!BADGE in productie ]{type=Informative}
+                        [!BADGE in productie &#x200B;]{type=Informative}
                         <p>We hebben de volgende verbeteringen aangebracht voor de integratie van Workfront for Experience Manager Assets en Assets Essentials:</p>
                         <ul>
                             <li><p>De integratie ondersteunt nu GCP als cloudserviceprovider. AWS en Azure werden eerder ondersteund.</p></li>
@@ -264,7 +264,7 @@ Het levende 24.7 versiewebinar werd geannuleerd, maar u kunt nog [ op een videod
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}"> geef de taak uit en geef de Datum en de Voorwaarde van Vastleggen van de kopbal of de sectie van Details </a> uit</p>
-                        [!BADGE in productie ]{type=Informative}
+                        [!BADGE in productie &#x200B;]{type=Informative}
                         <p>Om het voor u gemakkelijker te maken om taken en kwesties bij te werken, hebben wij nu de gebieden van de Datum en van de Voorwaarde van de Vastlegging toegevoegd als opties om aan taak toe te voegen en kopballen en de sectie van Details in een lay-outmalplaatje uit te geven. Gebruikers kunnen deze velden nu bijwerken vanuit de koptekst- of detailsectie van een pagina wanneer ze zijn toegewezen aan de gewijzigde lay-outsjabloon.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -284,7 +284,7 @@ Het levende 24.7 versiewebinar werd geannuleerd, maar u kunt nog [ op een videod
                    <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}"> meer relevante die taken aan het Nieuwe werkschema van de Taak worden toegevoegd </a></p>
-                        [!BADGE in productie voor Snelle Versie ]{type=Positive}
+                        [!BADGE in productie voor Snelle Versie &#x200B;]{type=Positive}
                         <p>Wij hebben de zelfde functionaliteit voor relevantere slimme taken aan het gebied van Taken in het Nieuwe vakje van de Taak toegevoegd wanneer het toevoegen van een taak aan een project en in een lijst van de projecttaak.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -302,7 +302,7 @@ Het levende 24.7 versiewebinar werd geannuleerd, maar u kunt nog [ op een videod
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}"> relevantere slimme taken </a></p>
-                        [!BADGE in productie voor Snelle Versie ]{type=Positive}
+                        [!BADGE in productie voor Snelle Versie &#x200B;]{type=Positive}
                         <p>We hebben het algoritme gewijzigd dat Workfront gebruikt om slimme toewijzingen voor taken te berekenen en voor te stellen. Het nieuwe algoritme is van toepassing op de volgende gebieden in Workfront waar u een taak toewijst: taaklijsten, het gebied van Toewijzingen in de taakkopbal, Huis, en het Summiere paneel.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -339,7 +339,7 @@ Het levende 24.7 versiewebinar werd geannuleerd, maar u kunt nog [ op een videod
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}"> de updates van de Veiligheid voor de Desktop het Proofing Kijker </a></p>
-                        [!BADGE in productie ]{type=Informative}
+                        [!BADGE in productie &#x200B;]{type=Informative}
                         <p>De beveiligingsupdate Workfront Proof Desktop Proofing Viewer 2.1.35 biedt oplossingen voor beveiligingsproblemen voor kwetsbaarheden die zijn geïdentificeerd in eerdere releases.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -375,7 +375,7 @@ Het levende 24.7 versiewebinar werd geannuleerd, maar u kunt nog [ op een videod
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md"> Tijd van nu terug die in de Balancer van de Werkbelasting </a> wordt weerspiegeld</p>
-                        [!BADGE in productie ]{type=Informative}
+                        [!BADGE in productie &#x200B;]{type=Informative}
                         <p>Om het werk naadloos aan te passen wanneer de primaire toegewezen persoon aan een taak tijd weg heeft gepland, wijst de Balancer van de Werkbelasting nu uren aan zowel de primaire als secundaire gebruikers opnieuw toe wanneer de projectchronologie wordt herberekend.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -424,7 +424,7 @@ Het levende 24.7 versiewebinar werd geannuleerd, maar u kunt nog [ op een videod
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}"> Adobe Verenigde Ervaring nu beschikbaar voor meer organisaties van Workfront </a></p>
-                        [!BADGE in productie ]{type=Informative}
+                        [!BADGE in productie &#x200B;]{type=Informative}
                         <p>Om organisaties toegang tot de voordelen van de Verenigde Ervaring van Adobe te verlenen, zijn wij begonnen het ter beschikking te stellen aan bestaande klanten van Workfront. </p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -442,7 +442,7 @@ Het levende 24.7 versiewebinar werd geannuleerd, maar u kunt nog [ op een videod
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}"> knoop van de Hulp die van de belangrijkste navigatiebar wordt verwijderd </a></p>
-                        [!BADGE in productie ]{type=Informative}
+                        [!BADGE in productie &#x200B;]{type=Informative}
                         <p>Om de ervaring voor gebruikers te verenigen niet op Verenigde Shell, is de knoop van de Hulp op de belangrijkste navigatiebar verwijderd. Deze knoop, die niet voor gebruikers op Verenigde Shell aanwezig is, verbonden aan de documentatie van Workfront en met een gelijkaardige knoop van de Hulp beschikbaar voor alle gebruikers in het Belangrijkste Menu overtollig was.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -459,7 +459,7 @@ Het levende 24.7 versiewebinar werd geannuleerd, maar u kunt nog [ op een videod
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}"> Verbeterde ervaring UI voor gebruikers met beperkte objecten toegang </a></p>
-                        [!BADGE in productie ]{type=Informative}
+                        [!BADGE in productie &#x200B;]{type=Informative}
                         <p>Wanneer een gebruiker geen toegang heeft tot een object, ziet de gebruiker "Geen toegang" op een willekeurige locatie waar de naam van dat object wordt weergegeven in Workfront. Deze verbeterde ervaring geldt ook voor de Workfront API.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -523,7 +523,7 @@ Voor informatie over API versies, zie [ API versioning en steunprogramma ](/help
 
 ### Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens de Derde Kwartaal 2024 versie worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront ](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).[
+Voor informatie over de onderhoudsupdates die tijdens de Derde Kwartaal 2024 versie worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront [&#128279;](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Training-updates
 

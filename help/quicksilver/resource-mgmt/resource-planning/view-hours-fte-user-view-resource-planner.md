@@ -262,7 +262,7 @@ Voor meer informatie over Werkelijke Uren, zie [ Werkelijke Uren van de Mening ]
 
 Als de waarde van de Geplande Uren of VTE nul is, is de Percentage Toewijzing 0%. Als de waarde van de Beschikbare Uren of FTE nul is, kan de Percentage van Toewijzing niet worden berekend.
 
-Voor meer informatie over Geplande Uren en FTE en hoe zij in de Planner van het Middel worden getoond, zie {de middelen van de Begroting in de Planner van het Middel gebruikend de meningen van het Project en van de Rol ](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).[
+Voor meer informatie over Geplande Uren en FTE en hoe zij in de Planner van het Middel worden getoond, zie &lbrace;de middelen van de Begroting in de Planner van het Middel gebruikend de meningen van het Project en van de Rol [&#128279;](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;this table is ideal but it does not render in Markdown) </p>

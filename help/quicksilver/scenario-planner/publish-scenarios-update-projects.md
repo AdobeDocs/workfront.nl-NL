@@ -148,7 +148,7 @@ Voordat u begint:
 
    Klik **[!UICONTROL Compare scenarios]**, beweegt over de scenario kaart die u van wilt publiceren, dan **[!UICONTROL Go to Publish]** ![ ](assets/go-to-publish-button-icon.png) gaan publiceren.
 
-   De pagina [!UICONTROL Publish initiatives] wordt weergegeven met een lijst met alle initiatieven in het scenario. Als om het even welke initiatieven eerder werden gepubliceerd, de pictogrammen van het Project ](assets/project-icon-sp.png) vertoningen van het 0} pictogram van het Project na hun naam en de **[!UICONTROL Last published]** datum is bevolkt in de lijst.![
+   De pagina [!UICONTROL Publish initiatives] wordt weergegeven met een lijst met alle initiatieven in het scenario. Als om het even welke initiatieven eerder werden gepubliceerd, de pictogrammen van het Project ![&#128279;](assets/project-icon-sp.png) vertoningen van het 0&rbrace; pictogram van het Project na hun naam en de **[!UICONTROL Last published]** datum is bevolkt in de lijst.
 
    >[!TIP]
    >

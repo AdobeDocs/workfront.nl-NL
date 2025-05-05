@@ -34,7 +34,7 @@ Een gebruiker deactiveren via de API:
 
 1. Zoek GUID voor de gebruiker die u wilt deactiveren.
 
-   1. Gebruik het volgende API verzoek om GUID voor alle gebruikers in uw systeem terug te winnen, merk op dat het **isActive** gebied **** waar {voor gebruikers toont die momenteel actief en **vals** voor gebruikers zijn die zijn gedeactiveerd:
+   1. Gebruik het volgende API verzoek om GUID voor alle gebruikers in uw systeem terug te winnen, merk op dat het **isActive** gebied **&#x200B;**&#x200B;waar &lbrace;voor gebruikers toont die momenteel actief en **vals** voor gebruikers zijn die zijn gedeactiveerd:
 
 ```
 <domain>`.my.workfront.com/attask/api/v15.0/USER/search?fields=isActive

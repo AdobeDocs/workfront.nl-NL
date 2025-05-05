@@ -150,7 +150,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. Als de proefdrukken die deze sjabloon zullen gebruiken altijd naar dezelfde personen in het werkgebied worden verzonden, voegt u ze hier toe zodat gebruikers ze niet hoeven toe te voegen telkens wanneer ze een proefdruk maken.
 
-   Kies de Rol van elke persoon **** op de proeven die dit malplaatje en het **E-mailalarm** zullen gebruiken u de gebruiker wilt ontvangen wanneer het werken aan proeven die dit malplaatje gebruiken.
+   Kies de Rol van elke persoon **&#x200B;**&#x200B;op de proeven die dit malplaatje en het **E-mailalarm** zullen gebruiken u de gebruiker wilt ontvangen wanneer het werken aan proeven die dit malplaatje gebruiken.
 
    Voor informatie over rollen op een proef, zie [ standaard het proef rollen ](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md) vormen. Voor informatie over proefe-mailalarm, zie sectie [ proefdrukgebreken voor een gebruiker ](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md#configur) in het artikel [ vormen e-mailberichtmontages in Workfront Proof ](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
 
@@ -220,7 +220,7 @@ Als Workfront Proof-beheerder kunt u een automatische werkstroomsjabloon wijzige
       <td> <p>Geef op hoe de deadline moet worden berekend:</p> 
        <ul> 
         <li> <p><strong> Deadline die van proefverwezenlijking </strong> wordt berekend: In de <strong> plaats de drop-down lijst van de einddatum van het werkgebied </strong>, selecteer het aantal bedrijfsdagen u aan de datum van de proefverwezenlijking wilt toevoegen om een termijn op de proef automatisch te plaatsen.</p> </li> 
-        <li><strong> Deadline die van werkgebiedactivering </strong> wordt berekend: In <strong> plaats de 3} drop-down lijst van de werkgebieddeadline {, selecteer het aantal bedrijfsdagen u aan de datum van de werkgebiedactivering wilt toevoegen om een termijn op de proef automatisch te plaatsen.</strong></li> 
+        <li><strong> Deadline die van werkgebiedactivering </strong> wordt berekend: In <strong> plaats de 3&rbrace; drop-down lijst van de werkgebieddeadline &lbrace;, selecteer het aantal bedrijfsdagen u aan de datum van de werkgebiedactivering wilt toevoegen om een termijn op de proef automatisch te plaatsen.</strong></li> 
        </ul> </td> 
      </tr> 
      <tr> 

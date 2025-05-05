@@ -96,7 +96,7 @@ U moet de volgende toegang hebben om de handelingen uit te voeren die in dit art
 
 U kunt commentaren aan doelstellingen in de sectie van Updates van een doelpagina toevoegen.
 
-1. Klik het **pictogram van het 1} Belangrijkste Menu ![ pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, of het** Belangrijkste **pictogram van het Menu ![ Belangrijkste het menulijnen ](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar, dan klik** Doelen **.**
+1. Klik het **pictogram van het 1&rbrace; Belangrijkste Menu ![ pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, of het** Belangrijkste **pictogram van het Menu ![ Belangrijkste het menulijnen ](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar, dan klik** Doelen **.**
 Hierdoor wordt de lijst met doelen geopend.
 1. Zoek het doel waaraan u opmerkingen wilt toevoegen en klik op de naam van het doel om de doelpagina te openen.
 1. Klik **Updates** in het linkerpaneel.

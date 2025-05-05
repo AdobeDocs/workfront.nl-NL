@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!--Audited: 11/2024-->
 
-Deze taakweergave is vergelijkbaar met de weergave Alle datums die bij uw Adobe Workfront-account wordt geleverd. Deze bijzondere mening omvat *kolommen van de Variantie 0} {, die het verschil in dagen tussen de volgende data berekenen:*
+Deze taakweergave is vergelijkbaar met de weergave Alle datums die bij uw Adobe Workfront-account wordt geleverd. Deze bijzondere mening omvat *kolommen van de Variantie 0&rbrace; &lbrace;, die het verschil in dagen tussen de volgende data berekenen:*
 
 * Geplande en voorspelde begindatums
 * Geplande en werkelijke begindatums

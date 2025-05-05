@@ -614,14 +614,14 @@ In elk toegangsniveau, kunt u de volgende opties voor gebruikers vormen:
    <td>Revisor</td> 
    <td> 
     <ul> 
-     <li><p> <b> Mening </b> (slechts beschikbare optie)</p> <p>Om dit te verfijnen, kunt u de capaciteit vormen om de contactinformatie van gebruikers te bekijken. Klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de <b> 2} knoop van de Mening {, dan toelaten of onbruikbaar maken de <b> Info van het Contact van de Mening </b> optie (door gebrek).</b></p> </li> 
+     <li><p> <b> Mening </b> (slechts beschikbare optie)</p> <p>Om dit te verfijnen, kunt u de capaciteit vormen om de contactinformatie van gebruikers te bekijken. Klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de <b> 2&rbrace; knoop van de Mening &lbrace;, dan toelaten of onbruikbaar maken de <b> Info van het Contact van de Mening </b> optie (door gebrek).</b></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Aanvrager</td> 
    <td> 
     <ul> 
-     <li> <p><b> Mening </b> (slechts beschikbare optie)</p><p>Om dit te verfijnen, kunt u de capaciteit vormen om de contactinformatie van gebruikers te bekijken. Klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de <b> 2} knoop van de Mening {, dan toelaten of onbruikbaar maken de <b> Info van het Contact van de Mening </b> optie (door gebrek).</b></p> </li> 
+     <li> <p><b> Mening </b> (slechts beschikbare optie)</p><p>Om dit te verfijnen, kunt u de capaciteit vormen om de contactinformatie van gebruikers te bekijken. Klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de <b> 2&rbrace; knoop van de Mening &lbrace;, dan toelaten of onbruikbaar maken de <b> Info van het Contact van de Mening </b> optie (door gebrek).</b></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -649,12 +649,12 @@ In elk toegangsniveau, kunt u de volgende opties voor teams vormen:
    <td>Planner </td> 
    <td> 
     <ul> 
-     <li><b> Mening </b> <p>Om dit te verfijnen, klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de <b> 2} knoop van de Mening {, dan maak of laat om het even welke volgende opties* onbruikbaar toe. </b> Beide zijn standaard uitgeschakeld.</p> 
+     <li><b> Mening </b> <p>Om dit te verfijnen, klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de <b> 2&rbrace; knoop van de Mening &lbrace;, dan maak of laat om het even welke volgende opties* onbruikbaar toe. </b> Beide zijn standaard uitgeschakeld.</p> 
       <ul> 
        <li>Alle teams weergeven</li> 
        <li> <p>Aan mijn groepen gekoppelde teams weergeven</p> </li> 
       </ul> </li> 
-     <li> <p><b> geeft </b> uit (standaardselectie): Staat volledige het uitgeven toegang tot teams toe.</p> <p>Om dit te verfijnen, klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de <b> 2} knoop van de Mening {, dan maak of laat om het even welke volgende opties* onbruikbaar toe. </b> Al hen worden toegelaten door gebrek, behalve <b> uitgeeft teams ik </b> ben.</p> 
+     <li> <p><b> geeft </b> uit (standaardselectie): Staat volledige het uitgeven toegang tot teams toe.</p> <p>Om dit te verfijnen, klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de <b> 2&rbrace; knoop van de Mening &lbrace;, dan maak of laat om het even welke volgende opties* onbruikbaar toe. </b> Al hen worden toegelaten door gebrek, behalve <b> uitgeeft teams ik </b> ben.</p> 
       <ul> 
        <li>Maken</li> 
        <li>Verwijderen</li> 
@@ -670,12 +670,12 @@ In elk toegangsniveau, kunt u de volgende opties voor teams vormen:
    <td> 
     <ul> 
      <li> <b> Mening </b>
-      <p>Om dit te verfijnen, klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de <b> 2} knoop van de Mening {, dan maak of laat om het even welke volgende opties* onbruikbaar toe. </b> Beide zijn standaard ingeschakeld.</p> 
+      <p>Om dit te verfijnen, klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de <b> 2&rbrace; knoop van de Mening &lbrace;, dan maak of laat om het even welke volgende opties* onbruikbaar toe. </b> Beide zijn standaard ingeschakeld.</p> 
       <ul> 
        <li>Alle teams weergeven</li> 
        <li> <p>Aan mijn groepen gekoppelde teams weergeven</p> </li> 
       </ul> </li> 
-     <li> <p><b> geeft </b> uit (standaardselectie): Staat volledige het uitgeven toegang tot teams toe.</p> <p>Om dit te verfijnen, klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de <b> 2} knoop van de Mening {, dan maak of laat om het even welke volgende opties* onbruikbaar toe. </b> Slechts wordt de eerste optie, <b> uitgeeft teams I </b>, onbruikbaar gemaakt door gebrek.</p> 
+     <li> <p><b> geeft </b> uit (standaardselectie): Staat volledige het uitgeven toegang tot teams toe.</p> <p>Om dit te verfijnen, klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de <b> 2&rbrace; knoop van de Mening &lbrace;, dan maak of laat om het even welke volgende opties* onbruikbaar toe. </b> Slechts wordt de eerste optie, <b> uitgeeft teams I </b>, onbruikbaar gemaakt door gebrek.</p> 
       <ul> 
        <li> <p>Teams bewerken die ik heb ingeschakeld</p> </li> 
        <li> <p>Alle teams weergeven</p> </li> 
@@ -687,7 +687,7 @@ In elk toegangsniveau, kunt u de volgende opties voor teams vormen:
    <td>Revisor</td> 
    <td> 
     <ul> 
-     <li> <p><b> Mening </b> (slechts beschikbare optie)</p> <p>Om dit te verfijnen, klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de <b> 2} knoop van de Mening {, dan maak of laat om het even welke volgende opties* onbruikbaar toe. </b> Beide zijn standaard ingeschakeld.</p> 
+     <li> <p><b> Mening </b> (slechts beschikbare optie)</p> <p>Om dit te verfijnen, klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de <b> 2&rbrace; knoop van de Mening &lbrace;, dan maak of laat om het even welke volgende opties* onbruikbaar toe. </b> Beide zijn standaard ingeschakeld.</p> 
       <ul> 
        <li> <p>Alle teams weergeven</p> </li> 
        <li>Aan mijn groepen gekoppelde teams weergeven</li> 
@@ -698,7 +698,7 @@ In elk toegangsniveau, kunt u de volgende opties voor teams vormen:
    <td>Aanvrager</td> 
    <td> 
     <ul> 
-     <li> <p><b> Mening </b> (slechts beschikbare optie)</p> <p>Om dit te verfijnen, klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de <b> 2} knoop van de Mening {, dan maak of laat om het even welke volgende opties* onbruikbaar toe. </b> Beide zijn standaard ingeschakeld.</p> 
+     <li> <p><b> Mening </b> (slechts beschikbare optie)</p> <p>Om dit te verfijnen, klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de <b> 2&rbrace; knoop van de Mening &lbrace;, dan maak of laat om het even welke volgende opties* onbruikbaar toe. </b> Beide zijn standaard ingeschakeld.</p> 
       <ul> 
        <li> <p>Alle teams weergeven</p> </li> 
        <li>Aan mijn groepen gekoppelde teams weergeven</li> 
@@ -789,12 +789,12 @@ In elk toegangsniveau, kunt u de volgende opties voor financiële gegevens vorme
    <td> 
     <ul> 
      <li> <b> Geen toegang </b> </li> 
-     <li> <p><b> Mening </b>:</p> <p>Om dit te verfijnen, klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de <b> 2} knoop van de Mening {, dan maak of laat om het even welke volgende opties* onbruikbaar toe. </b> Beide zijn standaard ingeschakeld.</p> 
+     <li> <p><b> Mening </b>:</p> <p>Om dit te verfijnen, klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de <b> 2&rbrace; knoop van de Mening &lbrace;, dan maak of laat om het even welke volgende opties* onbruikbaar toe. </b> Beide zijn standaard ingeschakeld.</p> 
       <ul> 
        <li>Rol- en kostenfacturering weergeven</li> 
        <li> <p>Facturering van gebruikers en kostentarieven weergeven</p> </li> 
       </ul> </li> 
-     <li> <p><b> geeft </b> uit (standaardselectie): Staat volledige het uitgeven toegang tot financiële gegevens toe.</p> <p>Om dit te verfijnen, klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de <b> 2} knoop van de Mening {, dan maak of laat om het even welke volgende opties* onbruikbaar toe. </b> Slechts worden de laatste twee opties, <b> het Factureren van de Rol van de Mening &amp; Tarieven van Kosten </b> en <b> het Factureren van de Gebruiker van de Mening &amp; Tarieven van Kosten </b>, toegelaten door gebrek.</p> 
+     <li> <p><b> geeft </b> uit (standaardselectie): Staat volledige het uitgeven toegang tot financiële gegevens toe.</p> <p>Om dit te verfijnen, klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de <b> 2&rbrace; knoop van de Mening &lbrace;, dan maak of laat om het even welke volgende opties* onbruikbaar toe. </b> Slechts worden de laatste twee opties, <b> het Factureren van de Rol van de Mening &amp; Tarieven van Kosten </b> en <b> het Factureren van de Gebruiker van de Mening &amp; Tarieven van Kosten </b>, toegelaten door gebrek.</p> 
       <ul> 
        <li>Rollenfacturering en kostentarieven bewerken</li> 
        <li> <p>Facturering van gebruikers en kostentarieven bewerken</p> </li> 

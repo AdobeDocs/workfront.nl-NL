@@ -100,7 +100,7 @@ U kunt doelstellingen in om het even welk gedeelte van de Doelen van Workfront h
 
 Dit artikel beschrijft hoe te om doelstellingen in de Lijst van het Doel te herzien.
 
-1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) >** Doelen **in de hoger-juiste hoek.**
+1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) >** Doelen **in de hoger-juiste hoek.**
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -109,7 +109,7 @@ Dit artikel beschrijft hoe te om doelstellingen in de Lijst van het Doel te herz
 
 1. (Aanbevolen) Pas de volgende filters voor het gebied van de Lijst van het Beleid aan overzicht bij risicodoelstellingen:
 
-   * Klik **Bedrijf 0}, dan** Mijn Teams **, toen** Mijn Groepen **, toen** Persoonlijke **doelstellingen in deze orde om doelstellingen te bekijken die tot uw organisatie, uw teams, groepen, en toen uw eigen doelstellingen behoren.**
+   * Klik **Bedrijf 0&rbrace;, dan** Mijn Teams **, toen** Mijn Groepen **, toen** Persoonlijke **doelstellingen in deze orde om doelstellingen te bekijken die tot uw organisatie, uw teams, groepen, en toen uw eigen doelstellingen behoren.**
 
      >[!TIP]
      >

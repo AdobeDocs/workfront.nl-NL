@@ -52,7 +52,7 @@ Voor informatie over hoe te om de API Ontdekkingsreiziger te navigeren en voorwe
 
 Wanneer u filters maakt, moet u complexe instructies maken in de interface voor tekstmodus om naar deze typen objecten te verwijzen.
 
-Voor informatie over de bouw van complexe filters, zie het [ Overzicht van de complexe filters van de tekstwijze die het 1} sectie van verklaringen van het Gebruik {van dit artikel BESTAAN.](#overview-of-complex-text-mode-filters-that-use-exists-statements)
+Voor informatie over de bouw van complexe filters, zie het [ Overzicht van de complexe filters van de tekstwijze die het 1&rbrace; sectie van verklaringen van het Gebruik &lbrace;van dit artikel BESTAAN.](#overview-of-complex-text-mode-filters-that-use-exists-statements)
 
 ## Overzicht van complexe tekstmodusfilters die EXISTS-instructies gebruiken {#overview-of-complex-text-mode-filters-that-use-exists-statements}
 
@@ -220,7 +220,7 @@ Een filter maken dat naar ontbrekende objecten verwijst:
    EXISTS:A:$$EXISTSMOD=NOTEXISTS
    ```
 
-   Voor een voorbeeld om op de Gebieden van de Douane te melden die niet met Douane Forms worden geassocieerd, zie [ Voorbeeld 2: Filter voor ontbrekende voorwerpen: douanegebieden die niet in om het even welke 1} sectie van douaneformulieren {in dit artikel verschijnen.](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms)
+   Voor een voorbeeld om op de Gebieden van de Douane te melden die niet met Douane Forms worden geassocieerd, zie [ Voorbeeld 2: Filter voor ontbrekende voorwerpen: douanegebieden die niet in om het even welke 1&rbrace; sectie van douaneformulieren &lbrace;in dit artikel verschijnen.](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms)
 
 1. Klik **sparen Filter**.
 

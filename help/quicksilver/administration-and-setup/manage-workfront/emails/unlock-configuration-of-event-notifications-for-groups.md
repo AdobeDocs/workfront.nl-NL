@@ -71,7 +71,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    of
 
-   Als u veelvoudige berichten wilt ontgrendelen of sluiten allen in één keer, hen selecteren, dan klik het pictogram van de Ontgrendeling ](assets/unlock-icon-toolbar.png) of van het Slot ![ het pictogram van het Slot ](assets/lock-icon-locked-qs.png) knoop dat in de toolbar boven de lijst toont.![
+   Als u veelvoudige berichten wilt ontgrendelen of sluiten allen in één keer, hen selecteren, dan klik het pictogram van de Ontgrendeling ![&#128279;](assets/unlock-icon-toolbar.png) of van het Slot ![ het pictogram van het Slot ](assets/lock-icon-locked-qs.png) knoop dat in de toolbar boven de lijst toont.
 
 1. Klik **sparen**.
 1. (Optioneel) Als u het gebeurtenisbericht voor een groep op hoofdniveau wilt configureren in plaats van deze taak over te laten aan de beheerder van de groep, kunt u een van de volgende handelingen uitvoeren:

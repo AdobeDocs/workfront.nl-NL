@@ -147,7 +147,7 @@ Wanneer u de standaard Workfront Email Locale wijzigt, wijzigt u de taal-, datum
 De standaard Workfront-e-maillandinstelling wijzigen:
 
 1. Meld u aan bij Workfront als Workfront-beheerder.
-1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** Opstelling **![](assets/gear-icon-settings.png).**
+1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** Opstelling **![](assets/gear-icon-settings.png).**
 
 1. Klik **Systeem** > **Info van de Klant.**
 

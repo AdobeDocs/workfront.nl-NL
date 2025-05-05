@@ -28,7 +28,7 @@ Een douanegebied met rijk-text het formatteren wordt genoemd **Gebied met rijke 
 **Voorbeeld:** een basisverzoek van de GET om de waarde van het gebied van de douanevorm **Gebied met rijke tekst** terug te winnen:
 
 <!-- [Copy](javascript:void(0);) -->
-<pre><OBJ Code><OBJ ID><OBJ Code><OBJ ID></pre> 
+<pre>&lt;OBJ Code>&lt;OBJ ID>&lt;OBJ Code>&lt;OBJ ID></pre> 
 
 **Voorbeeld:** Dit verzoek zal de waarde van **Gebied met rijke teksten** in JSON terugkeren die in **wordt opgeslagen parameterValue** **DE:Gebied met rijke teksten**
 
@@ -63,7 +63,7 @@ Aangezien elk blokelement ook een voorwerp JSON is, is elk blok samengesteld uit
 
 ![ rijke tekstafbeelding ](assets/copy-of-rich-text-mapping-2-350x136.png)
 
-Wanneer meerdere typen opmaak zijn toegepast op één regel, worden stijlen toegewezen aan extra elementen in de** inlineStyleRanges**-array.
+Wanneer meerdere typen opmaak zijn toegepast op één regel, worden stijlen toegewezen aan extra elementen in de **&#x200B; inlineStyleRanges**-array.
 
 **Voorbeeld:** hier is wat een blok als wanneer het opslaan van een lijn van tekst zou kijken die het gemengde formatteren bevat: **Vette tekst en Cursieve teksten**
 
@@ -118,4 +118,4 @@ De volgende waarden van een RTF-veld opslaan met de Workfront API:
 1. Gebruik **stringify** methode op JSON hierboven geschetst om a **PUT** verzoek te maken en updates te verzenden
 
    <!-- [Copy](javascript:void(0);) -->
-   <pre><OBJ Code><OBJ ID></pre>
+   <pre>&lt;OBJ Code>&lt;OBJ ID></pre>

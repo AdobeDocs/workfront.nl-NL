@@ -84,7 +84,7 @@ U kunt middelpools met een malplaatje op de zelfde manier associëren u middelpo
 
 1. Klik **Montages van het Project**.
 
-1. Begin de naam van een middelpool op het **gebied van de Pools van het Middel 0} te typen, dan het van de lijst te selecteren wanneer het verschijnt.**\
+1. Begin de naam van een middelpool op het **gebied van de Pools van het Middel 0&rbrace; te typen, dan het van de lijst te selecteren wanneer het verschijnt.**\
    U kunt veelvoudige middelpools met één project of malplaatje associëren.
 
    ![ montages van het Project ](assets/nwe-project-settings-in-edit-project-box-350x380.png)
@@ -107,7 +107,7 @@ Om middelgroepen met verscheidene projecten in bulk te associëren:
 1. Selecteer veelvoudige projecten, dan klik **uitgeven** pictogram ![ pictogram ](assets/edit-icon.png) bij de bovenkant van de lijst uitgeven.
 
 1. Klik **Montages**.
-1. Begin de naam van een middelpool op het **gebied van de Pools van het Middel 0} te typen, dan het van de lijst te selecteren wanneer het verschijnt.**\
+1. Begin de naam van een middelpool op het **gebied van de Pools van het Middel 0&rbrace; te typen, dan het van de lijst te selecteren wanneer het verschijnt.**\
    U kunt veelvoudige middelgroepen met de projecten of de malplaatjes associëren.
 
    >[!NOTE]

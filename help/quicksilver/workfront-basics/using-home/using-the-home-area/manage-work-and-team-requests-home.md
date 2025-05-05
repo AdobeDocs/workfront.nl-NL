@@ -66,7 +66,7 @@ Een tijdelijk item weergeven in de widget Mijn werk:
 1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) klik **aanpassen** om **Mijn werk** widget toe te voegen.
 
-1. Klik het **pictogram van de Filter ![ ](assets/filter-nwepng.png) pictogram van de Filter** {in de hoogste-linkerhoek van de widgetwerklijst.
+1. Klik het **pictogram van de Filter ![ ](assets/filter-nwepng.png) pictogram van de Filter** &lbrace;in de hoogste-linkerhoek van de widgetwerklijst.
 
 1. Klik op een van de volgende opties of op beide opties voor taken:
 
@@ -94,7 +94,7 @@ Om tot een teamverzoek toegang te hebben:
 
    De widget geeft teamverzoeken weer onder teamgroeperingen. De widget **[!UICONTROL Team Requests]** geeft alle aanvragen weer die zijn toegewezen aan een team dat u hebt ingeschakeld. Voor meer informatie over het werken met teamverzoeken, zie [ werk en teamverzoeken ](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md) leiden.
 
-   ![ de verzoekwidget van het Team {](assets/team-request-widget.png)
+   ![ de verzoekwidget van het Team &lbrace;](assets/team-request-widget.png)
 
 ## Werken met een tijdelijk item in de widget Mijn werk
 

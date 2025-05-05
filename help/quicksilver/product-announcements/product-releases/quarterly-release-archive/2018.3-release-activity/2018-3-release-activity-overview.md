@@ -45,7 +45,7 @@ Release 2018.3 bevat verbeteringen voor zowel Workfront-beheerders als andere ge
 * [ Verbeteringen van de Lijst van het Project ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-4-release-activity.md#project-list-improvements) 
 * [ de Informatie van de Taak van de Mening in de Grafiek van Gantt van de Lijst van het Project ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-1-release-activity.md#view-task-information-in-the-project-list-gantt-chart)
 * [ het uitgeven van de Lijst van de Taak in de Grafiek van Gantt geeft Wijze ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-4-release-activity.md#editing=the-task-list-in-gantt-chart-edit-mode) uit 
-* {de Verbeteringen van de Lijst van 0} Taak ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-4-release-activity.md#task-list-improvements) [
+* {de Verbeteringen van de Lijst van 0} Taak [&#128279;](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-4-release-activity.md#task-list-improvements) 
 
 ### Verbeteringen voor bronnenbeheer
 

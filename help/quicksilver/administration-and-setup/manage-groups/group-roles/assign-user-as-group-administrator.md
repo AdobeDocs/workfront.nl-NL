@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Als beheerder van een groep, kunt u andere gebruikers als groepsbeheerders voor die groep toewijzen. Adobe Workfront-beheerders kunnen dit ook doen.
 
-Voor meer informatie over groepsbeheerders en wat zij kunnen doen, zie {de beheerders van de Groep 1} en [ Acties die voor verschillende types van beheerders ](../../../administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md) worden toegestaan.[](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md)
+Voor meer informatie over groepsbeheerders en wat zij kunnen doen, zie {de beheerders van de Groep 1} en [ Acties die voor verschillende types van beheerders ](../../../administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md) worden toegestaan.[&#128279;](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md)
 
 Voor algemene informatie over groepen, zie [ Overzicht van Groepen ](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 

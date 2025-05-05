@@ -322,7 +322,7 @@ Voor meer informatie over API versies, zie [ API versioning en steunprogramma ](
 
 ## Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens de versie 20.3 worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront ](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).[
+Voor informatie over de onderhoudsupdates die tijdens de versie 20.3 worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront [&#128279;](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
 
 ## Aankondigingen
 

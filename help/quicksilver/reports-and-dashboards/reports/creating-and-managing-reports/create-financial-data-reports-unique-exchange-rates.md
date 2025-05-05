@@ -123,7 +123,7 @@ Twee projecten met aangepaste valuta&#39;s weergeven in een rapport:
 
    Voor meer informatie over logboektijd, zie [ tijd van het Logboek ](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
-1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png), dan klik** Meldend **.**
+1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png), dan klik** Meldend **.**
 1. Klik **Nieuw Rapport**, toen **Rapport van het Project**.
 1. In de **Kolommen (Mening)** tabel, voeg een **Ware Kostenkolom** toe en vat het door **Som** samen.
 

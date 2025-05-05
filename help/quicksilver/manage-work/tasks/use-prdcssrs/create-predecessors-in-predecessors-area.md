@@ -65,7 +65,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    U zou kunnen moeten klikken **tonen Meer**, dan **predecessors**.
 
 1. Klik op **+ Voorganger toevoegen** .
-1. (Facultatief) om een dwars-projectvoorganger toe te voegen, vervang de naam van het project op het **gebied van het Project van de 1} ouder met een ander project, dan typ de naam van de taak of de taken die u als predecessors wilt.**
+1. (Facultatief) om een dwars-projectvoorganger toe te voegen, vervang de naam van het project op het **gebied van het Project van de 1&rbrace; ouder met een ander project, dan typ de naam van de taak of de taken die u als predecessors wilt.**
 
    Voor informatie over het toevoegen van dwars-project predecessors, zie [ creëren dwars-project predecessors ](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
 
@@ -77,7 +77,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    Voor informatie over de types van taakafhankelijkheid, zie a [ Overzicht van de types van taakgebiedsdeel ](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-1. Specificeer a **bedrag van de a** Lag {in dagen.
+1. Specificeer a **bedrag van de a** Lag &lbrace;in dagen.
 
    Voor informatie over de Types van Lag, zie &#x200B; [ overzicht van de Types van Lag ](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
 

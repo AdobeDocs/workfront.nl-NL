@@ -78,7 +78,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. In het linkerpaneel, klik **Voorkeur van het Project** > **Statussen**.
 
-1. Om de status over het volledige systeem (met inbegrip van individuele groepen), muis over de status te schrappen, geeft de klik **** uit, dan zorgt ervoor dat **Slot voor alle groepen** wordt geselecteerd. Klik **sparen**.
+1. Om de status over het volledige systeem (met inbegrip van individuele groepen), muis over de status te schrappen, geeft de klik **&#x200B;**&#x200B;uit, dan zorgt ervoor dat **Slot voor alle groepen** wordt geselecteerd. Klik **sparen**.
 
    of
 

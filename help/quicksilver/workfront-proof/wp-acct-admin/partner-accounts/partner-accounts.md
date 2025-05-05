@@ -24,5 +24,5 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [Beheer een partnerverhouding tussen  [!DNL Workfront Proof ] rekeningen](../../../workfront-proof/wp-acct-admin/partner-accounts/manage-partner-relationship-between-wp-accts.md)
+* [Beheer een partnerverhouding tussen  [!DNL Workfront Proof &#x200B;] rekeningen](../../../workfront-proof/wp-acct-admin/partner-accounts/manage-partner-relationship-between-wp-accts.md)
 * [De punten van het aandeel met een partner in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/partner-accounts/share-items-partner-in-wp.md)

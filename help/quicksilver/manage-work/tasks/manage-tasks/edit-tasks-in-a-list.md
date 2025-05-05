@@ -228,7 +228,7 @@ Houd rekening met het volgende wanneer u taken in een lijst bijwerkt nadat u de 
 Taken in een lijst bewerken wanneer u de optie Handmatig opslaan kiest:
 
 1. Ga naar een project, dan klik de **sectie van Taken**.
-1. Klik de **menu ![](assets/qs-list-mode-or-save-mode-icon-small.png) van de Wijze van het 0} Plan bij de bovenkant van de lijst en selecteer** Handmatig sparen **, dan klik** Standaard **>** **van toepassing zijn.**
+1. Klik de **menu ![](assets/qs-list-mode-or-save-mode-icon-small.png) van de Wijze van het 0&rbrace; Plan bij de bovenkant van de lijst en selecteer** Handmatig sparen **, dan klik** Standaard **>** **van toepassing zijn.**
 
    ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
@@ -308,7 +308,7 @@ Houd rekening met het volgende wanneer u de optie Tijdlijnplanning handmatig ops
 Taken in een lijst bewerken wanneer u de optie Tijdlijnplanning handmatig opslaan gebruikt:
 
 1. Ga naar een project, dan klik de **sectie van Taken**.
-1. Klik het **menu ![](assets/qs-list-mode-or-save-mode-icon-small.png) van de Wijze van het 0} Plan bij de bovenkant van de lijst en selecteer** Handmatig sparen **, dan klik** Planning van de Chronologie **>** **van toepassing zijn.**
+1. Klik het **menu ![](assets/qs-list-mode-or-save-mode-icon-small.png) van de Wijze van het 0&rbrace; Plan bij de bovenkant van de lijst en selecteer** Handmatig sparen **, dan klik** Planning van de Chronologie **>** **van toepassing zijn.**
 
    Deze optie is grijs voor projecten met meer dan 2000 taken.
 
@@ -446,7 +446,7 @@ U kunt meerdere taken tegelijk bewerken. Zorg ervoor dat u beheermachtigingen vo
 
 1. Geef de informatie op die u wilt wijzigen voor alle geselecteerde taken.
 
-   Het bewerken van de informatie over alle taken is hetzelfde als het bewerken van de informatie over één taak. Als u taakDuur wilt uitgeven, moeten de geselecteerde taken de zelfde Beperking van de Taak hebben; anders, bevolkt het **gebied van de Duur** {niet.
+   Het bewerken van de informatie over alle taken is hetzelfde als het bewerken van de informatie over één taak. Als u taakDuur wilt uitgeven, moeten de geselecteerde taken de zelfde Beperking van de Taak hebben; anders, bevolkt het **gebied van de Duur** &lbrace;niet.
 
    Voor meer informatie over het uitgeven van een taak, zie [ taken ](../../../manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
 

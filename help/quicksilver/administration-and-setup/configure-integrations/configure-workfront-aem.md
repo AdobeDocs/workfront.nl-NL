@@ -244,7 +244,7 @@ Met [!UICONTROL AEM Externalizer] kan AEM URL&#39;s doorgeven in een indeling di
 
 ## [!DNL Workfront] configureren voor integratie met [!DNL AEM assets] {#configure-workfront-to-integrate-with-aem-assets}
 
-Nadat u de [!UICONTROL Workfront for AEM Assets] Schakelaar installeert (zoals die in [ wordt beschreven installeer het [!UICONTROL Workfront for AEM Assets] schakelaarpakket ](#install-the-workfront-for-aem-assets-connector-package)) en vorm [!UICONTROL AEM Assets] (zoals die in [ wordt beschreven vormt [!UICONTROL  AEM Assets] om met  [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront) te integreren), moet u [!DNL Workfront] vormen om documenten tussen [!DNL Workfront] en [!DNL AEM Assets] te verbinden.
+Nadat u de [!UICONTROL Workfront for AEM Assets] Schakelaar installeert (zoals die in [ wordt beschreven installeer het [!UICONTROL Workfront for AEM Assets] schakelaarpakket ](#install-the-workfront-for-aem-assets-connector-package)) en vorm [!UICONTROL AEM Assets] (zoals die in [ wordt beschreven vormt [!UICONTROL &#x200B; AEM Assets] om met  [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront) te integreren), moet u [!DNL Workfront] vormen om documenten tussen [!DNL Workfront] en [!DNL AEM Assets] te verbinden.
 
 1. Meld u als beheerder aan bij Workfront.
 
@@ -267,7 +267,7 @@ Nadat u de [!UICONTROL Workfront for AEM Assets] Schakelaar installeert (zoals d
 
    ![ mceclip3.png ](assets/mceclip3-350x130.png)
 
-1. Selecteer **[!UICONTROL ApiKey]in de vervolgkeuzelijst **[!UICONTROL Authentication Type]**.**
+1. Selecteer **[!UICONTROL ApiKey]in de vervolgkeuzelijst &#x200B;** [!UICONTROL Authentication Type]&#x200B;**.**
 
 1. Plak in het vak &#x200B; **[!UICONTROL API Key]** de AEM API-sleutel die u hebt gekopieerd bij het configureren van [!UICONTROL AEM Assets] .
 1. Klik op **[!UICONTROL Save]**.

@@ -27,5 +27,5 @@ Deze sectie bevat de volgende artikelen:
 * [De  [!DNL Workfront Proof]  Facturerende Pagina](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
 <!--* [Account Payment in Workfront Proof](../../../workfront-proof/wp-billingsettings/manage-your-billing/acct-payment-in-wp.md) -->
 * [De betalingsmethode kiezen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md)
-* [Het downloaden van Uw { [!DNL Workfront Proof]  Factuur](../../../workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)
+* [Het downloaden van Uw &lbrace; [!DNL Workfront Proof]  Factuur](../../../workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)
 * [Sluit uw  [!DNL Workfront Proof]  rekening](../../../workfront-proof/wp-billingsettings/manage-your-billing/close-wp-acct.md)

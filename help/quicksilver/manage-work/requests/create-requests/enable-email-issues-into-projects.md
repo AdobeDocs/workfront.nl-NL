@@ -79,9 +79,9 @@ De volgende voorwaarden worden vereist om een project te vormen om gebruikers to
 
 1. Ga naar het project dat u wilt inschakelen om problemen via e-mail te ontvangen.
 1. Klik **Details van de Rij** in het linkerpaneel. U zou kunnen moeten klikken **tonen meer** eerst.
-1. In het **gebied van het Type van Rij 0}, uitgezocht** publiceer als Rij van het Verzoek van de Hulp **.**
+1. In het **gebied van het Type van Rij 0&rbrace;, uitgezocht** publiceer als Rij van het Verzoek van de Hulp **.**
 
-1. De rol neer aan het **gebied van de Montages van de Rij 0} E-mail, dan selecteert** laat de opname van het Verzoek via e-mail **toe.**
+1. De rol neer aan het **gebied van de Montages van de Rij 0&rbrace; E-mail, dan selecteert** laat de opname van het Verzoek via e-mail **toe.**
 
 1. Ga het begin van het e-mailadres in het **Inname E-mailadres** vakje in.
 

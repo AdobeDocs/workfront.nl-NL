@@ -119,7 +119,7 @@ Een project plannen vanaf de voltooiingsdatum:
 
 1. Klik **uitgeven het pictogram van het Project** ![ geeft pictogram ](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png) in de hoger-juiste hoek uit en selecteert dan **Overzicht** in de drop-down die verschijnt.
 
-1. In de **sectie van de Datums van het 0} Project {, klik het** gebied van de Wijze van het Programma **, dan selecteer** Datum van de Voltooiing **.**
+1. In de **sectie van de Datums van het 0&rbrace; Project &lbrace;, klik het** gebied van de Wijze van het Programma **, dan selecteer** Datum van de Voltooiing **.**
 
 1. Specificeer de **Geplande Datum van de Voltooiing** van het project.
 1. Klik **sparen Veranderingen**.
@@ -142,7 +142,7 @@ Een project plannen vanaf de begindatum:
 
 1. Klik **uitgeven het pictogram van het Project** ![ geeft pictogram ](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png) in de hoger-juiste hoek uit en selecteert dan **Overzicht** in de drop-down die verschijnt.
 
-1. In de **sectie van de Datums van het 0} Project {, klik het** gebied van de Wijze van het Programma **, dan selecteer** Datum van het Begin **.**
+1. In de **sectie van de Datums van het 0&rbrace; Project &lbrace;, klik het** gebied van de Wijze van het Programma **, dan selecteer** Datum van het Begin **.**
 
 1. Specificeer de **Geplande Datum van het Begin** van het project.
 1. Klik **sparen Veranderingen**.

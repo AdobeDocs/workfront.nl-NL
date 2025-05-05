@@ -26,7 +26,7 @@ Voor meer informatie over Frame.io, zie [ Begonnen het Worden met Frame.io ](htt
 
 De beheerder van Workfront laat de integratie tussen Workfront en Frame.io toe door de standaardrekening Frame.io in het gebied van de Opstelling te vormen en dan gebruikers Frame.io in Workfront aan te wijzen. Hierdoor kan de coördinator werken plannen en initiëren met behulp van Workfront-projecten en formele evaluatie- en goedkeuringswerkstromen.
 
-### Vorm het gebrek Frame.io rekening [!BADGE  Binnenkort ]{type=Informative}
+### Vorm het gebrek Frame.io rekening [!BADGE &#x200B; Binnenkort &#x200B;]{type=Informative}
 
 Workfront-beheerders starten de integratie met Workfront en Frame.io door een standaard Frame.io-account toe te voegen in het gedeelte Setup van Workfront. Zodra de rekening standaard Frame.io opstelling is, hebben om het even welke projecten die in Workfront worden gecreeerd een spiegelproject dat in Frame.io wordt gecreeerd.
 
@@ -50,7 +50,7 @@ Wanneer een gebruiker duidelijk als gebruiker Frame.io in Workfront is en aan ee
 
 * Zij worden toegevoegd als Medewerker in Frame.io.
 * Ze kunnen middelen van Frame.io naar Workfront verzenden voor formele controle en goedkeuring.
-* Ze kunnen informatie bekijken in de map voor one-way sync vanuit Workfront. [!BADGE  Binnenkort ]{type=Informative}
+* Ze kunnen informatie bekijken in de map voor one-way sync vanuit Workfront. [!BADGE &#x200B; Binnenkort &#x200B;]{type=Informative}
 
 Voor meer informatie, zie [ de  [!DNL Workfront]  vormen en  [!DNL Frame.io]  integratie ](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
 
@@ -63,7 +63,7 @@ Zodra de standaardrekening Frame.io wordt toegevoegd en de gebruikers Frame.io w
 
 * **wijs Gebruikers Frame.io aan taken** toe: De toegelaten gebruikers Frame.io worden op de hoogte gebracht per e-mail wanneer zij aan een taak van Workfront worden toegewezen, signalerend daar werk is te voltooien.
 * **Deel het project met Gebruikers Frame.io**: Wanneer een project met toegelaten gebruikers wordt gedeeld Frame.io, hebben zij toegang tot het project binnen zowel Workfront als Frame.io.
-* **Aandeel creatieve materialen met Frame.io**: De coördinatoren van het project kunnen instructies en materialen van Workfront rechtstreeks naar de creatieve gebruiker in Frame.io verzenden gebruikend een unidirectionele projectomslag van de synchronisatieproject. [!BADGE  Binnenkort ]{type=Informative}
+* **Aandeel creatieve materialen met Frame.io**: De coördinatoren van het project kunnen instructies en materialen van Workfront rechtstreeks naar de creatieve gebruiker in Frame.io verzenden gebruikend een unidirectionele projectomslag van de synchronisatieproject. [!BADGE &#x200B; Binnenkort &#x200B;]{type=Informative}
 * **de taakvooruitgang van het Spoor**: De Creatieven kunnen gebeëindigd activa verzenden en taken volledig-allen merken zonder Frame.io te verlaten.
 
 Voor meer informatie, zie [ een project creëren dat met Frame.io ](/help/quicksilver/manage-work/projects/create-projects/create-frame-connected-project.md) wordt verbonden.

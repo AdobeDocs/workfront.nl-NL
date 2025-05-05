@@ -45,7 +45,7 @@ U moet het volgende hebben:
 
 ## Configureer of er automatisch proeven worden gegenereerd voor één gebruiker
 
-1. Klik het **pictogram 1} van het Belangrijkste Menu ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** Gebruikers **![ Gebruikers ](assets/users-icon-in-main-menu.png).**
+1. Klik het **pictogram 1&rbrace; van het Belangrijkste Menu ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** Gebruikers **![ Gebruikers ](assets/users-icon-in-main-menu.png).**
 1. Selecteer een gebruiker met het proef toegang, dan klik **uitgeven**.
 1. In de **sectie van de Voorkeur**, laat toe of maak **automatisch produceren proeven wanneer het uploaden van documenten** checkbox onbruikbaar.
 
@@ -55,7 +55,7 @@ U moet het volgende hebben:
 
 ## Configureer of er automatisch proeven worden gegenereerd voor meerdere gebruikers
 
-1. Klik het **pictogram 1} van het Belangrijkste Menu ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** Gebruikers **![ pictogram van Gebruikers ](assets/users-icon-in-main-menu.png).**
+1. Klik het **pictogram 1&rbrace; van het Belangrijkste Menu ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** Gebruikers **![ pictogram van Gebruikers ](assets/users-icon-in-main-menu.png).**
 1. Selecteer gebruikers met het proef toegang, dan klik **uitgeven**.
 
    >[!IMPORTANT]

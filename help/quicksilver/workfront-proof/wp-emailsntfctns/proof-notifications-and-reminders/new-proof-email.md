@@ -56,7 +56,7 @@ Het e-mailadres voor nieuwe proefdrukken bevat:
 
 ## Het activiteitenlog
 
-Het verzenden van een [!UICONTROL New Proof] -e-mailbericht naar een revisor wordt aangemeld in de [!UICONTROL Activity] sectie van [!UICONTROL Proof details] -pagina. Zie [ binnen [!UICONTROL  Proof Details] beheren  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) voor meer informatie. U kunt controleren of de e-mail van [!UICONTROL New Proof] was ingeschakeld op het moment dat u een proefdruk maakte.
+Het verzenden van een [!UICONTROL New Proof] -e-mailbericht naar een revisor wordt aangemeld in de [!UICONTROL Activity] sectie van [!UICONTROL Proof details] -pagina. Zie [ binnen [!UICONTROL &#x200B; Proof Details] beheren  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) voor meer informatie. U kunt controleren of de e-mail van [!UICONTROL New Proof] was ingeschakeld op het moment dat u een proefdruk maakte.
 
 ![ New_Verison_email_-_acitivity_log.png ](assets/new-verison-email---acitivity-log-350x44.png)
 

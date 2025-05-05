@@ -174,7 +174,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL System activity]</strong></td> 
-      <td><p>Als u </strong> toegelaten de activiteit van het 0} Systeem als kaartsectie hebt, wordt de activiteit getoond op dit gebied.<strong></p> <p>Voor meer informatie, zie <a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md"> aanpassen welke gebieden op een kaart </a> worden getoond en <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md"> systeem-geleide updates </a>.</p></td>
+      <td><p>Als u </strong> toegelaten de activiteit van het 0&rbrace; Systeem als kaartsectie hebt, wordt de activiteit getoond op dit gebied.<strong></p> <p>Voor meer informatie, zie <a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md"> aanpassen welke gebieden op een kaart </a> worden getoond en <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md"> systeem-geleide updates </a>.</p></td>
      </tr>     
     </tbody> 
    </table>

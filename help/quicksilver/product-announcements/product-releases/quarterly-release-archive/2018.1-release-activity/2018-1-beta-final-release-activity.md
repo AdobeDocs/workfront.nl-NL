@@ -117,7 +117,7 @@ Aangezien wij momenteel aan een meer permanente oplossing werken om prestaties i
 
 Wanneer de Planner van het Middel probeert om meer dan 2.000 punten te laden, toont een berichtvertoningen alarmerend u dat slechts 2.000 punten kunnen worden getoond.
 
-Voor meer informatie over deze grenzen en hoe zij de Planner van het Middel beïnvloeden, zie {de vertoningsbeperkingen van de Banner van 0} Middel ](../../../../resource-mgmt/resource-planning/resource-planner-display-limitations.md).[
+Voor meer informatie over deze grenzen en hoe zij de Planner van het Middel beïnvloeden, zie {de vertoningsbeperkingen van de Banner van 0} Middel [&#128279;](../../../../resource-mgmt/resource-planning/resource-planner-display-limitations.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">To participate in our beta program for the Resource Planner performance, see <a href="../../../../product-announcements/betas/resource-planner-performance-beta.md" class="MCXref xref">Resource Planner performance beta </a>.</p>

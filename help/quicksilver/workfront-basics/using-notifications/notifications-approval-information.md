@@ -33,7 +33,7 @@ Zie ook [ de berichten van de Gebeurtenis ](../../workfront-basics/using-notific
  <tbody> 
   <tr> 
    <td> <p><strong> Een gedelegeerd verzoek van de de puntgoedkeuring wordt voltooid </strong> </p> <p>Een goedkeuring van de uitgave die u aan een andere gebruiker hebt gedelegeerd werd goedgekeurd of verworpen door die gebruiker.</p> <p>Het onderwerp van de directe bericht e-mail is: <em>[!UICONTROL Issue Approval/ Rejection Made on Your Behalf by] &lt;User Name&gt; </em></p> <p>Het onderwerp van het dagelijkse samenvattingsbericht is:<em> [!UICONTROL Digest of Approval Information] &lt;Date of daily digest&gt; </em></p> </td> 
-   <td> <p>De Naam van het project van de kwestie <br> Naam van het Referentienummer van het Project <br> van de gebruiker die/de kwestie binnen uw naam <br> goedkeurde van de Goedkeuring <br> de Status van de Uitgave <br> van de gebruiker goedkeurde <br><strong>[!UICONTROL See More Details]</strong> knoop <br> * Aantal van de Verwijzing van het Project <br> * De Naam van het Project <br>*Totaal aantal van gedelegeerde uitgiftegoedkeuringen <br> * Naam van de Naam van de Uitgave <br> <br> { <br>*Datum van de dagelijkse samenvatting<br><br></p> </td> 
+   <td> <p>De Naam van het project van de kwestie <br> Naam van het Referentienummer van het Project <br> van de gebruiker die/de kwestie binnen uw naam <br> goedkeurde van de Goedkeuring <br> de Status van de Uitgave <br> van de gebruiker goedkeurde <br><strong>[!UICONTROL See More Details]</strong> knoop <br> * Aantal van de Verwijzing van het Project <br> * De Naam van het Project <br>*Totaal aantal van gedelegeerde uitgiftegoedkeuringen <br> * Naam van de Naam van de Uitgave <br> <br> &lbrace; <br>*Datum van de dagelijkse samenvatting<br><br></p> </td> 
    <td><strong> Dagelijks </strong> </td> 
   </tr> 
   <tr> 
@@ -43,7 +43,7 @@ Zie ook [ de berichten van de Gebeurtenis ](../../workfront-basics/using-notific
   </tr> 
   <tr> 
    <td> <p><strong> Een gedelegeerd verzoek van de taakgoedkeuring wordt voltooid </strong> </p> <p>Een taakgoedkeuring die u aan een andere gebruiker delegeerde werd goedgekeurd of verworpen door die gebruiker.</p> <p>Het onderwerp van de directe bericht e-mail is: <em>[!UICONTROL Task Approval/ Rejection Made on Your Behalf by] &lt;User Name&gt; </em></p> <p>Het onderwerp van het dagelijkse samenvattingsbericht is:<em> [!UICONTROL Digest of Approval Information] &lt;Date of daily digest&gt; </em></p> </td> 
-   <td> De Naam van het Project van de taak {<br> Naam van het Referentienummer van 1} Taak {<br> van de gebruiker die/de taak binnen uw naam <br> goedkeurde <br> Status van de Taak <br> van de gebruiker goedkeurde die om de goedkeuring <br><strong> verzocht zie Meer Details </strong> knoop <br> * Aantal van de Verwijzing van het Project <br> * Naam van het Project <br>*Totaal aantal gedelegeerde taakgoedkeuringen <br> * Taak Approname <br> <br> ver Name <br>*Datum van de dagelijkse samenvatting<br></td> 
+   <td> De Naam van het Project van de taak {<br> Naam van het Referentienummer van 1} Taak &lbrace;<br> van de gebruiker die/de taak binnen uw naam <br> goedkeurde <br> Status van de Taak <br> van de gebruiker goedkeurde die om de goedkeuring <br><strong> verzocht zie Meer Details </strong> knoop <br> * Aantal van de Verwijzing van het Project <br> * Naam van het Project <br>*Totaal aantal gedelegeerde taakgoedkeuringen <br> * Taak Approname <br> <br> ver Name <br>*Datum van de dagelijkse samenvatting<br></td> 
    <td><strong> Dagelijks </strong> </td> 
   </tr> 
   <tr> 
@@ -53,12 +53,12 @@ Zie ook [ de berichten van de Gebeurtenis ](../../workfront-basics/using-notific
   </tr> 
   <tr> 
    <td> <p><strong> I wordt gedelegeerd als fiatteur </strong> </p> <p>Als iemand u toestemming heeft gegeven, ontvangt u een e-mailbericht. </p> <p>Het onderwerp van de directe melding-e-mail is: <em>[!UICONTROL Delegated] &lt;Object Type&gt; [!UICONTROL Approval - Please Review] &lt;Object Name&gt; </em></p> <p> <p>Opmerking: u kunt dit bericht niet configureren voor een e-mailbericht met dagelijkse samenvatting.</p> </p> </td> 
-   <td> <p>[!UICONTROL Object Name]<br>[!UICONTROL Parent Object Name]<br>[!UICONTROL Object Reference Number]<br>De naam van de gebruiker die het voorwerp voor goedkeuring <br> Naam van de gebruiker voorlegde namens wie u de objecten <br> Status van Objecten <br> Datum en Tijd goedkeurde toen de goedkeuring <br> Prioriteit van Objecten <br> de Naam van de Stap van de Goedkeuring <br>[!UICONTROL Planned Completion Date] van de 6} knoop van Objecten werd gevraagd<br><strong>[!UICONTROL Make Approval Decision]</strong></p> </td> 
+   <td> <p>[!UICONTROL Object Name]<br>[!UICONTROL Parent Object Name]<br>[!UICONTROL Object Reference Number]<br>De naam van de gebruiker die het voorwerp voor goedkeuring <br> Naam van de gebruiker voorlegde namens wie u de objecten <br> Status van Objecten <br> Datum en Tijd goedkeurde toen de goedkeuring <br> Prioriteit van Objecten <br> de Naam van de Stap van de Goedkeuring <br>[!UICONTROL Planned Completion Date] van de 6&rbrace; knoop van Objecten werd gevraagd<br><strong>[!UICONTROL Make Approval Decision]</strong></p> </td> 
    <td><strong> Onmiddellijk </strong> </td> 
   </tr> 
   <tr> 
    <td> <p><strong> Mijn timesheet wordt goedgekeurd </strong> </p> <p>Wanneer uw tijdspagina is goedgekeurd, ontvangt u een e-mailbericht.</p> <p>Het onderwerp van de e-mail van de directe melding is: <em>[!UICONTROL Timesheet Approved]: &lt;Timesheet Start Date&gt; - &lt;Timesheet End Date&gt; </em></p> <p> <p>Opmerking: u kunt dit bericht niet configureren voor een e-mailbericht met dagelijkse samenvatting.</p> </p> </td> 
-   <td> De naam van de gebruiker die uw Tijdopname <br> Datum en Tijd goedkeurde toen de Tijdopnemer <br> Status van Tijdopnemer ([!UICONTROL Approved]) <br> Datum van het Begin en Einddatum van Tijdopmaak <br> Totale uren die in de Tijdopnemer <br> worden geregistreerd Overuren van de Tijdopnemer in de Tijdopnemer {worden geregistreerd </td> 
+   <td> De naam van de gebruiker die uw Tijdopname <br> Datum en Tijd goedkeurde toen de Tijdopnemer <br> Status van Tijdopnemer ([!UICONTROL Approved]) <br> Datum van het Begin en Einddatum van Tijdopmaak <br> Totale uren die in de Tijdopnemer <br> worden geregistreerd Overuren van de Tijdopnemer in de Tijdopnemer &lbrace;worden geregistreerd </td> 
    <td><strong> Onmiddellijk </strong> </td> 
   </tr> 
  </tbody> 

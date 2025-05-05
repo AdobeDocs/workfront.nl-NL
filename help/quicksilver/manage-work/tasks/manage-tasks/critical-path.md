@@ -105,7 +105,7 @@ Om te bekijken welke taken op de kritieke weg in een lijst van taken zijn:
 1. Klik **Taken** in het linkerpaneel.
 1. Van het **drop-down menu van de Mening**, uitgezochte **Status**.
 
-   De taken die op de Kritieke Weg zijn hebben a **Kritieke 1} vlag van de Weg in de** Vlaggen **kolom van de lijst.**
+   De taken die op de Kritieke Weg zijn hebben a **Kritieke 1&rbrace; vlag van de Weg in de** Vlaggen **kolom van de lijst.**
 
    U kunt de zelfde mening op een taakrapport toepassen.
 

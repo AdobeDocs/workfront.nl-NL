@@ -76,7 +76,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. Ga naar de opvolgertaak waarvan voorganger u wilt afdwingen.
 1. Klik **Voorgangers** in het linkerpaneel, dan klik **toevoegen Voorganger**. U zou kunnen moeten klikken **tonen Meer**, dan **predecessors**.
-1. (Voorwaardelijk) Als u een dwars-projectvoorganger wilt toevoegen, verwijder de naam van het project op het **gebied van het Project van de Ouder 1} en vervang het met een ander project.**
+1. (Voorwaardelijk) Als u een dwars-projectvoorganger wilt toevoegen, verwijder de naam van het project op het **gebied van het Project van de Ouder 1&rbrace; en vervang het met een ander project.**
 1. Specificeer de naam van de voorgangerstaak of de taken op het **gebied van Taken**.
 1. Specificeer het **Type van Afhankelijkheid** tussen deze twee taken.
 

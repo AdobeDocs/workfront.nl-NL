@@ -322,7 +322,7 @@ Het **lusje van Commentaren** wordt geselecteerd door gebrek.
 
 U kunt uw commentaren verbeteren door RTF te gebruiken, of diverse punten toe te voegen aan het, zoals emojis, verbindingen, of beelden.
 
-1. Ga naar het **gebied van Updates** van een voorwerp van Workfront, open het **3} lusje van Commentaren {en begin een commentaar te typen.**
+1. Ga naar het **gebied van Updates** van een voorwerp van Workfront, open het **3&rbrace; lusje van Commentaren &lbrace;en begin een commentaar te typen.**
 1. (Facultatief) om Rich Tekst het formatteren aan uw commentaar toe te voegen, gebruik om het even welke attributen op de **Rich Text** toolbar aangezien u typt.
 
    ![ Rijke teksttoolbar ](assets/rich-text-toolbar.png)
@@ -416,7 +416,7 @@ U kunt uw commentaren verbeteren door RTF te gebruiken, of diverse punten toe te
 1. (Optioneel) Voer een van de volgende handelingen uit om een afbeelding weer te geven in de bestaande update:
 
    * Klik het **pictogram van de Voorproef ![ pictogram van de** ](assets/previewimageicon-31x31.png) op de beeldduimnagel om het volledig-groottebeeld in een nieuwe browser tabel te openen.
-   * Klik het **pictogram van de Download ![ download ](assets/downloadimageicon.png) op de beeldduimnagel** {om het beeld te downloaden.
+   * Klik het **pictogram van de Download ![ download ](assets/downloadimageicon.png) op de beeldduimnagel** &lbrace;om het beeld te downloaden.
 
 1. Klik **voorleggen** om uw commentaar toe te voegen.
 

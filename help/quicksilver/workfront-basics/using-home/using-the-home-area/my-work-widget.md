@@ -167,7 +167,7 @@ Workfront-beheerders kunnen aanpassen welke velden worden weergegeven in het ove
 * Logtijd
 * Bijgevoegde goedkeuringsprocessen weergeven
 
-Om de Samenvatting te openen, over het het werkpunt te bewegen, dan het **pictogram van de Samenvatting ![ ](assets/open-summary-new-home.png) te klikken pictogram van de Samenvatting 0}.**
+Om de Samenvatting te openen, over het het werkpunt te bewegen, dan het **pictogram van de Samenvatting ![ ](assets/open-summary-new-home.png) te klikken pictogram van de Samenvatting 0&rbrace;.**
 
 Voor extra informatie over hoe te om het Summiere paneel te gebruiken, zie [ Overzicht van de Samenvatting ](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
 

@@ -83,7 +83,7 @@ U kunt de werkelijke begindatum van een project vinden in de volgende gebieden:
 
 U kunt als volgt de werkelijke begindatum vinden in de sectie Details van het project:
 
-1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Workfront, dan klik** Projecten **.**
+1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Workfront, dan klik** Projecten **.**
 1. Klik op het project waarvoor u de werkelijke begindatum wilt weergeven.
 1. Klik **Details van het Project** in het linkerpaneel, dan ga naar de **sectie van het Overzicht**.
 

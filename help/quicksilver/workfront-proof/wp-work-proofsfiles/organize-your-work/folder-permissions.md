@@ -65,7 +65,7 @@ Wanneer u een persoonlijke map deelt, kunt u bepalen of u managers in staat wilt
 
 U kunt dit voor elke persoon afzonderlijk instellen op de pagina Nieuwe map en het wijzigen in de sectie [!UICONTROL Shared with] van de pagina met mapdetails. Voor meer informatie, zie [ Mappen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md) creëren en [ leiden Omslagen en hun Inhoud in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md).
 
-Als een privémap wordt gedeeld met een server of waarnemer, hebben deze gebruikers alleen-lezen toegang tot alle items in de map. Voor meer informatie, zie {de Profielen van de Toestemmingen van 0} Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) en [ Mappen van het Aandeel in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/share-folders.md).[
+Als een privémap wordt gedeeld met een server of waarnemer, hebben deze gebruikers alleen-lezen toegang tot alle items in de map. Voor meer informatie, zie {de Profielen van de Toestemmingen van 0} Bewijs in  [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) en [ Mappen van het Aandeel in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/share-folders.md).
 
 >[!NOTE]
 >

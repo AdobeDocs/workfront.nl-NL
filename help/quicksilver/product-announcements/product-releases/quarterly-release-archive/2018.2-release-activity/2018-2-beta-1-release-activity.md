@@ -30,7 +30,7 @@ De Beta 1-release van 2018.2 bevat de volgende verbeteringen:
 * [ heb toegang tot de Grafiek van Gantt van het Project van het Lusje van Updates ](#access-the-project-gantt-chart-from-the-updates-tab) (tijdelijk Verwijderd)
 
 * [ Diverse Verbindingen opnieuw geïntroduceerd aan Documenten op de Lijst van het Document ](#various-links-re-introduced-to-documents-on-the-document-list)
-* {de Verbeteringen van de Mening van 0} Gebruiker in de Planner van het Middel ](#user-view-improvements-in-the-resource-planner)[
+* {de Verbeteringen van de Mening van 0} Gebruiker in de Planner van het Middel [&#128279;](#user-view-improvements-in-the-resource-planner)
 * [ Nieuwe Ervaring van de Lijst van het Project ](#new-project-list-experience)
 * [ Nieuw zoek het Lusje van Updates ](#new-look-for-updates-tab)
 * [Mobiele verbeteringen](#mobile-improvements)

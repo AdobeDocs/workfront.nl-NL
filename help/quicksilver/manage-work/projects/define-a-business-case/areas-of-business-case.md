@@ -112,7 +112,7 @@ U kunt de volgende acties op het gebied van de Begroting van het Middel van de B
 
 De uren die voor de middelen van het project in de begroting worden opgenomen tonen op het gebied van de Begroting van het Middel van het BedrijfsGeval, die de Begrotende Arbeidskosten van het project produceren. Dit gebied is standaard ingeschakeld.
 
-Voor meer informatie over het opnemen van middelen voor het project in het BedrijfsGeval, zie {de middelen van de Begroting in het BedrijfsGeval ](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).[
+Voor meer informatie over het opnemen van middelen voor het project in het BedrijfsGeval, zie &lbrace;de middelen van de Begroting in het BedrijfsGeval [&#128279;](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
 ![ Bedrijfs case middel in de begroting opnemen ](assets/business-case-sp-selected-with-choose-button-350x121.png)
 

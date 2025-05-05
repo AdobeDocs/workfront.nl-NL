@@ -109,7 +109,7 @@ GET /metadata?id= [ document of omslagidentiteitskaart ]
 </table>
 
 **Voorbeeld:** https://www.acme.com/api/metadata?id=12345
-<pre>{<br> titel:"Mijn Document", <br> soort:"dossier"<br> identiteitskaart":"12345", <br> viewLink:"https://www.acme.com/viewDocument?id=12345", <br> downloadLink:"https://www.acme.com/downloadDocument?id=12345", <br> mimeType:"image/png", <br> dateModified:"2014065T 17 :39: 45.251Z", <br> grootte: "32554694"<br></pre>
+<pre>&lbrace;<br> titel:"Mijn Document", <br> soort:"dossier"<br> identiteitskaart":"12345", <br> viewLink:"https://www.acme.com/viewDocument?id=12345", <br> downloadLink:"https://www.acme.com/downloadDocument?id=12345", <br> mimeType:"image/png", <br> dateModified:"2014065T 17 :39: 45.251Z", <br> grootte: "32554694"<br></pre>
 
 >[!NOTE]
 >

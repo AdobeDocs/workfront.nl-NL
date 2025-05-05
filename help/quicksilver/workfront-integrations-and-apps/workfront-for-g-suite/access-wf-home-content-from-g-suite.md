@@ -68,11 +68,11 @@ Voordat u [!UICONTROL Home] -inhoud kunt openen vanuit [!DNL Google Workspace] ,
 
    Werkitems worden als volgt weergegeven:
 
-   * {het pictogram van de Taak 1} **** toont de Taken van de Taak de naam van het ouderproject, de taaknaam, en de geplande voltooiingsdatum.![](assets/task-icon.png)
+   * {het pictogram van de Taak 1} **&#x200B;**&#x200B;toont de Taken van de Taak de naam van het ouderproject, de taaknaam, en de geplande voltooiingsdatum.![](assets/task-icon.png)
 
-   * ](assets/issue-icon.png) **het pictogram van de kwestie** toont de 3} vertoning van de kwesties van de kwestie de naam van het ouderproject, kwestie, en geplande voltooiingsdatum.![
+   * ![&#128279;](assets/issue-icon.png) **het pictogram van de kwestie** toont de 3&rbrace; vertoning van de kwesties van de kwestie de naam van het ouderproject, kwestie, en geplande voltooiingsdatum.
 
-   * {het pictogram van het 0} Document ](assets/document-icon.png) **keurt** vertoning de naam van de aanvrager, documentnaam, en voorleggingsdatum goed.![
+   * {het pictogram van het 0} Document ![&#128279;](assets/document-icon.png) **keurt** vertoning de naam van de aanvrager, documentnaam, en voorleggingsdatum goed.
    * **de verzoeken van de Toegang** tonen de naam van de aanvrager, objecten naam, en voorleggingsdatum. Het pictogram voor het objecttype wordt links weergegeven.
 
 1. Klik ergens op een werkitem om de details, updates en documenten ervan weer te geven.

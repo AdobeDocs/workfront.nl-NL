@@ -91,7 +91,7 @@ Als de aangepaste status de status Uitgave is, moeten alle vier de uitgiftetypen
 
    1. Ga naar het project waar u de douanestatus wilt gebruiken.
    1. Klik het Meer menu ![ Meer pictogram ](assets/more-icon.png), dan klik **uitgeven**.
-   1. In **geef de doos van het Project** uit die, op het **3} gebied van de Groep {onder** de vereniging van het Project **toont, de groep selecteren die de douanestatus met wordt geassocieerd.**
+   1. In **geef de doos van het Project** uit die, op het **3&rbrace; gebied van de Groep &lbrace;onder** de vereniging van het Project **toont, de groep selecteren die de douanestatus met wordt geassocieerd.**
 
    1. Klik **sparen Veranderingen**.
 

@@ -267,7 +267,7 @@ Er zijn op dit moment geen updates voor Workfront Goals beschikbaar in de releas
 
 ### Vereiste IP lijst van gewenste personen update voor het gebruiken van Workfront voor de integratie van Jira
 
-We hebben een paar achterwaartse updates gemaakt voor de Workfront for Jira integratie. Gelieve te zorgen ervoor dat de volgende IP adressen die in [ worden vermeld vormen het 1} artikel van de lijst van gewenste personen van uw firewall {aan uw lijst van gewenste personen voor binnenkomende en uitgaande verbindingen zijn toegevoegd:](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)
+We hebben een paar achterwaartse updates gemaakt voor de Workfront for Jira integratie. Gelieve te zorgen ervoor dat de volgende IP adressen die in [ worden vermeld vormen het 1&rbrace; artikel van de lijst van gewenste personen van uw firewall &lbrace;aan uw lijst van gewenste personen voor binnenkomende en uitgaande verbindingen zijn toegevoegd:](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)
 
 * 34 213 36 118
 * 35 160 0 242

@@ -67,7 +67,7 @@ U kunt ook [ een dossier van PDF ](https://acrobat.adobe.com/id/urn:aaid:sc:US:1
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}"> de logica van de Vertoning en de overslaan logica zijn nu beschikbaar op de wijze van de voorproef van de vormontwerper </a></p><p>[!BADGE in productie ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}"> de logica van de Vertoning en de overslaan logica zijn nu beschikbaar op de wijze van de voorproef van de vormontwerper </a></p><p>[!BADGE in productie &#x200B;]{type=Informative}</p>
                         <p>Met de aangepaste bètaformulierontwerper kunt u nu de logica voor weergave testen en logica in de voorbeeldmodus overslaan. Eerder werden alle velden in de voorvertoning weergegeven, zelfs toen de logica werd toegepast.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -83,7 +83,7 @@ U kunt ook [ een dossier van PDF ](https://acrobat.adobe.com/id/urn:aaid:sc:US:1
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}"> De bedrijven en de gebruikers steunen nu geavanceerde gebieden van de douanevorm </a></p><p>[!BADGE in productie ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}"> De bedrijven en de gebruikers steunen nu geavanceerde gebieden van de douanevorm </a></p><p>[!BADGE in productie &#x200B;]{type=Informative}</p>
                         <p>Geavanceerde aangepaste formulierfuncties, zoals Externe opzoekvelden en eigen Workfront-velden, zijn nu beschikbaar wanneer u een aangepast formulier koppelt aan een bedrijf of gebruiker.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -99,7 +99,7 @@ U kunt ook [ een dossier van PDF ](https://acrobat.adobe.com/id/urn:aaid:sc:US:1
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}"> integratie JumpSeat nu beschikbaar voor nieuwe pakkettypes </a></p><p>[!BADGE in productie ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}"> integratie JumpSeat nu beschikbaar voor nieuwe pakkettypes </a></p><p>[!BADGE in productie &#x200B;]{type=Informative}</p>
                         <p>De bestaande JumpSeat-integratie is nu beschikbaar voor accounts die een van de nieuwe pakkettypen gebruiken (zoals Select, Prime of Ultimate). U moet nog een actief JumpSeat-abonnement hebben om de integratie in te schakelen.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -118,7 +118,7 @@ U kunt ook [ een dossier van PDF ](https://acrobat.adobe.com/id/urn:aaid:sc:US:1
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}"> de inheemse gebieden van Workfront zijn beschikbaar in de bèta van de vormontwerper </a></p><p>[!BADGE in productie ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}"> de inheemse gebieden van Workfront zijn beschikbaar in de bèta van de vormontwerper </a></p><p>[!BADGE in productie &#x200B;]{type=Informative}</p>
                         <p>Native velden voor Workfront kunnen nu worden toegevoegd aan aangepaste formulieren. Met dit nieuwe veldtype kunt u gegevens op een logische manier ordenen en presenteren aan uw gebruikers, zonder dat u bestaande gegevens opnieuw hoeft te maken in aangepaste velden.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -138,7 +138,7 @@ U kunt ook [ een dossier van PDF ](https://acrobat.adobe.com/id/urn:aaid:sc:US:1
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}"> afbeelding van Attributen nu beschikbaar voor organisaties die aan Adobe IMS </a> zijn gemigreerd</p>
-                        <p>[!BADGE in productie ]{type=Informative}</p><p>Systeembeheerders van Workfront kunnen nu gebruikerskenmerktoewijzingen instellen voor organisaties die zijn gemigreerd naar Adobe IMS. Op deze manier kunnen gebruikersgegevens door de SSO-provider (Single Sign-On) van de organisatie naar Workfront worden doorgegeven, zodat de gegevens van de gebruiker niet in zowel Workfront als de SSO-provider hoeven te worden ingevoerd.</p>
+                        <p>[!BADGE in productie &#x200B;]{type=Informative}</p><p>Systeembeheerders van Workfront kunnen nu gebruikerskenmerktoewijzingen instellen voor organisaties die zijn gemigreerd naar Adobe IMS. Op deze manier kunnen gebruikersgegevens door de SSO-provider (Single Sign-On) van de organisatie naar Workfront worden doorgegeven, zodat de gegevens van de gebruiker niet in zowel Workfront als de SSO-provider hoeven te worden ingevoerd.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -153,7 +153,7 @@ U kunt ook [ een dossier van PDF ](https://acrobat.adobe.com/id/urn:aaid:sc:US:1
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}"> Skip logica en vertoningslogica zijn nu beschikbaar in de bèta van de vormontwerper </a></p><p>[!BADGE in productie ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}"> Skip logica en vertoningslogica zijn nu beschikbaar in de bèta van de vormontwerper </a></p><p>[!BADGE in productie &#x200B;]{type=Informative}</p>
                         <p>U kunt nu bestaande weergave bewerken, logica overslaan en nieuwe logica toevoegen aan aangepaste formulieren in de bètaversie van de formulierontwerper. Met een eenvoudig te gebruiken logicaontwikkelaar kunt u definiëren welke velden worden weergegeven of overgeslagen op basis van selecties in het formulier.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -195,7 +195,7 @@ U kunt ook [ een dossier van PDF ](https://acrobat.adobe.com/id/urn:aaid:sc:US:1
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}"> voeg een deadline aan een documentrevisies en goedkeuringen toe </a></p><p>[!BADGE in productie ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}"> voeg een deadline aan een documentrevisies en goedkeuringen toe </a></p><p>[!BADGE in productie &#x200B;]{type=Informative}</p>
                         <p>U kunt nu een deadline opgeven voor gebruikers of teams die zijn toegewezen om een document te bekijken of goed te keuren. Revisoren en fiatteurs ontvangen 72 uur en vervolgens 24 uur voor de opgegeven deadline e-mailmeldingen. De deadline wordt ook weerspiegeld in de widget Goedkeuringen in het nieuwe gebied Home.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -211,7 +211,7 @@ U kunt ook [ een dossier van PDF ](https://acrobat.adobe.com/id/urn:aaid:sc:US:1
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}"> creeer en gebruik de Malplaatjes van de Goedkeuring </a></p><p>[!BADGE in productie ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}"> creeer en gebruik de Malplaatjes van de Goedkeuring </a></p><p>[!BADGE in productie &#x200B;]{type=Informative}</p>
                         <p>U kunt goedkeuringssjablonen nu maken in het gedeelte Instellen om het beoordelings- en goedkeuringsproces te stroomlijnen. Met goedkeuringssjablonen kunt u het beoordelings- en goedkeuringsproces herhaalbaarder maken door
                         <ul>
                             <li>
@@ -236,7 +236,7 @@ U kunt ook [ een dossier van PDF ](https://acrobat.adobe.com/id/urn:aaid:sc:US:1
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}"> informatie van de Mening over al uw goedkeuringen op één plaats </a></p><p>[!BADGE in productie ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}"> informatie van de Mening over al uw goedkeuringen op één plaats </a></p><p>[!BADGE in productie &#x200B;]{type=Informative}</p>
                         <p>Om u te helpen uw goedkeuringsverzoeken in een oogopslag beheren en analyseren, hebben wij de volgende belangrijke prestatiesindicatoren aan Al widget van Goedkeuringen toegevoegd:
                         <ul>
                             <li>
@@ -286,7 +286,7 @@ U kunt ook [ een dossier van PDF ](https://acrobat.adobe.com/id/urn:aaid:sc:US:1
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}"> de opties van de Kolom die aan de controles van de Beheerder voor nieuw Huis worden toegevoegd gebruikend lay-outmalplaatjes </a></p><p>[!BADGE in productie ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}"> de opties van de Kolom die aan de controles van de Beheerder voor nieuw Huis worden toegevoegd gebruikend lay-outmalplaatjes </a></p><p>[!BADGE in productie &#x200B;]{type=Informative}</p>
                         <p>Beheerders kunnen nu met lay-outsjablonen aanpassen welke kolommen beschikbaar zijn voor gebruikers in specifieke nieuwe thuiswidgets. U kunt onder andere standaardkolommen verbergen of weergeven en bestaande velden als nieuwe kolommen toevoegen.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -324,7 +324,7 @@ U kunt ook [ een dossier van PDF ](https://acrobat.adobe.com/id/urn:aaid:sc:US:1
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}"> Verbeteringen aan het geautomatiseerde werkschema van de omslagverwezenlijking in de integratie van Adobe Experience Manager </a></p><p>[!BADGE in productie ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}"> Verbeteringen aan het geautomatiseerde werkschema van de omslagverwezenlijking in de integratie van Adobe Experience Manager </a></p><p>[!BADGE in productie &#x200B;]{type=Informative}</p>
                         <p>Om ervoor te zorgen dat uw Adobe Experience Manager-mappen uw behoeften nauwkeuriger weergeven, hebben we een aantal updates uitgevoerd voor de workflow voor aan Adobe Experience Manager gekoppelde mappen.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -360,7 +360,7 @@ U kunt ook [ een dossier van PDF ](https://acrobat.adobe.com/id/urn:aaid:sc:US:1
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}"> meer relevante die taken aan het Nieuwe werkschema van de Taak worden toegevoegd </a></p>
-                        <p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
+                        <p>[!BADGE in productie voor Snelle Versie &#x200B;]{type=Positive}</p>
                         <p>Wij hebben de zelfde functionaliteit voor relevantere slimme taken aan het gebied van Taken in het Nieuwe vakje van de Taak toegevoegd wanneer het toevoegen van een taak aan een project en in een lijst van de projecttaak.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -378,7 +378,7 @@ U kunt ook [ een dossier van PDF ](https://acrobat.adobe.com/id/urn:aaid:sc:US:1
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}"> relevantere slimme taken </a></p>
-                        <p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
+                        <p>[!BADGE in productie voor Snelle Versie &#x200B;]{type=Positive}</p>
                         <p>We hebben het algoritme gewijzigd dat Workfront gebruikt om slimme toewijzingen voor taken te berekenen en voor te stellen. Het nieuwe algoritme is van toepassing op de volgende gebieden in Workfront waar u een taak toewijst: taaklijsten, het gebied van Toewijzingen in de taakkopbal, Huis, en het Summiere paneel.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -414,7 +414,7 @@ U kunt ook [ een dossier van PDF ](https://acrobat.adobe.com/id/urn:aaid:sc:US:1
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-resource-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}"> Indicator voor manueel aangepaste toewijzingen in de Balancer van de Werklast </a></p><p>[!BADGE in productie ]{type=Informative}</p><p>Voor meer duidelijkheid over handmatige aanpassingen of contouren in het werklastevenwicht wordt nu een potloodpictogram weergegeven met handmatig aangepaste toewijzingen per uur.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-resource-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}"> Indicator voor manueel aangepaste toewijzingen in de Balancer van de Werklast </a></p><p>[!BADGE in productie &#x200B;]{type=Informative}</p><p>Voor meer duidelijkheid over handmatige aanpassingen of contouren in het werklastevenwicht wordt nu een potloodpictogram weergegeven met handmatig aangepaste toewijzingen per uur.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -451,7 +451,7 @@ U kunt ook [ een dossier van PDF ](https://acrobat.adobe.com/id/urn:aaid:sc:US:1
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}"> Nieuwe het becommentariëren ervaringen die aan herhalingen </a> worden toegevoegd</p><p>[!BADGE in productie ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}"> Nieuwe het becommentariëren ervaringen die aan herhalingen </a> worden toegevoegd</p><p>[!BADGE in productie &#x200B;]{type=Informative}</p>
                         <p>Om u een consistente ervaring door de toepassing te geven, hebben we de nieuwe ervaring met opmerkingen toegevoegd aan herhalingen. </p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -477,7 +477,7 @@ U kunt ook [ een dossier van PDF ](https://acrobat.adobe.com/id/urn:aaid:sc:US:1
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}"> de Toegang tot het erfenis opmerkend gebied is verwijderd </a></p><p>[!BADGE in productie ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}"> de Toegang tot het erfenis opmerkend gebied is verwijderd </a></p><p>[!BADGE in productie &#x200B;]{type=Informative}</p>
                         <p>We hebben de schakeloptie Nieuwe opmerkingen in het gedeelte Updates verwijderd voor projecten, taken, problemen en documenten. De nieuwe opmerkingen zijn nu de standaardoptie en de enige optie voor deze objecten. Door deze wijziging kunt u niet meer terugkeren naar de oudere opmerkingervaring. Bovendien hebben we de instelling 'Percentage voltooide updates tonen bij bijwerken' verwijderd uit het profiel van een gebruiker.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -493,7 +493,7 @@ U kunt ook [ een dossier van PDF ](https://acrobat.adobe.com/id/urn:aaid:sc:US:1
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}"> Nieuwe het becommentariëren stroom nu beschikbaar in snelle acties voor nieuwe widgets van het Huis </a></p><p>[!BADGE in productie ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}"> Nieuwe het becommentariëren stroom nu beschikbaar in snelle acties voor nieuwe widgets van het Huis </a></p><p>[!BADGE in productie &#x200B;]{type=Informative}</p>
                         <p>We hebben nu de nieuwe functionaliteit voor opmerkingen toegevoegd aan de knop Snelle actie toevoegen in Mijn werk, Mijn projecten, Mijn taken en Mijn problemen in de nieuwe widgets Home.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -512,7 +512,7 @@ U kunt ook [ een dossier van PDF ](https://acrobat.adobe.com/id/urn:aaid:sc:US:1
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}"> Extra commentaarinformatie beschikbaar in de nieuwe het becommentariëren ervaring </a></p><p>[!BADGE in productie ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}"> Extra commentaarinformatie beschikbaar in de nieuwe het becommentariëren ervaring </a></p><p>[!BADGE in productie &#x200B;]{type=Informative}</p>
                         <p>De nieuwe opmerkingervaring is als volgt verbeterd:</p>
                         <ul>
                             <li>
@@ -539,7 +539,7 @@ U kunt ook [ een dossier van PDF ](https://acrobat.adobe.com/id/urn:aaid:sc:US:1
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}"> het lusje van de Activiteit van het Systeem op de nieuwe het opmerken ervaring steunt read-only commentaren </a></p><p>[!BADGE in productie ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}"> het lusje van de Activiteit van het Systeem op de nieuwe het opmerken ervaring steunt read-only commentaren </a></p><p>[!BADGE in productie &#x200B;]{type=Informative}</p>
                         <p>Opmerkingen over de systeemactiviteitenrecords in de oudere opmerkingervaring worden nu op het tabblad Systeemactiviteit van de nieuwe opmerkingervaring alleen-lezen weergegeven. U kunt niet reageren op de records met systeemactiviteiten in de nieuwe opmerkingervaring.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -558,7 +558,7 @@ U kunt ook [ een dossier van PDF ](https://acrobat.adobe.com/id/urn:aaid:sc:US:1
                 </tr> 
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}"> Nieuw lusje van de updatestroom om zowel commentaren als de ingangen van de systeemactiviteit te vangen </a></p><p>[!BADGE in productie ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}"> Nieuw lusje van de updatestroom om zowel commentaren als de ingangen van de systeemactiviteit te vangen </a></p><p>[!BADGE in productie &#x200B;]{type=Informative}</p>
                         <p>Om u een chronologisch samenhangende mening van zowel commentaren als systeemactiviteitenlogboeken te geven, introduceren wij een derde lusje aan het gebied van Updates van alle voorwerpen. Op het tabblad Alles worden zowel gebruikersopmerkingen als opmerkingen over de systeemactiviteit in één samenhangende stream vastgelegd.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -577,7 +577,7 @@ U kunt ook [ een dossier van PDF ](https://acrobat.adobe.com/id/urn:aaid:sc:US:1
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}"> Nieuwe het becommentariëren stroom nu beschikbaar in het Summiere paneel </a></p><p>[!BADGE in productie ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}"> Nieuwe het becommentariëren stroom nu beschikbaar in het Summiere paneel </a></p><p>[!BADGE in productie &#x200B;]{type=Informative}</p>
                         <p>De nieuwe functionaliteit voor opmerkingen is nu toegevoegd aan het deelvenster Samenvatting voor taken en lijsten met uitgaven.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -615,7 +615,7 @@ U kunt ook [ een dossier van PDF ](https://acrobat.adobe.com/id/urn:aaid:sc:US:1
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}"> blik-en-voelt updates tijdens Tweede Kwartaal 2024 timeframe </a></p><p>[!BADGE in productie ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}"> blik-en-voelt updates tijdens Tweede Kwartaal 2024 timeframe </a></p><p>[!BADGE in productie &#x200B;]{type=Informative}</p>
                         <p>Kleine updates van de look and feel van verschillende onderdelen van de Adobe Workfront-toepassing worden uitgevoerd binnen het tweede kwartaal van 2024. Bekijk de afzonderlijke releaseopmerkingen voor specifieke releasedatums.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>

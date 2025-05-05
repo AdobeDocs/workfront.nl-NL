@@ -46,7 +46,7 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
 
 ## Filterregels voor een tabel configureren
 
-1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** Meldend **.**
+1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** Meldend **.**
 
 1. Klik **Nieuw rapport**.
 
@@ -154,4 +154,4 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
 
    1. Sleep het gebied dat u aan **wilt toevoegen voegt een regelreeks** gebied onder uw andere reeksen van de filterregel toe.
    1. Herhaal stap 4-7.
-   1. In de exploitant drop-down linkerzijde van de nieuwe regelreeks, uitgezochte **EN** of **OF**. Deze operatoren werken hetzelfde als in stap 7, maar zijn van toepassing op hele regelsets in tegenstelling tot afzonderlijke regels binnen een set.****
+   1. In de exploitant drop-down linkerzijde van de nieuwe regelreeks, uitgezochte **EN** of **OF**. Deze operatoren werken hetzelfde als in stap 7, maar zijn van toepassing op hele regelsets in tegenstelling tot afzonderlijke regels binnen een set.**&#x200B;**

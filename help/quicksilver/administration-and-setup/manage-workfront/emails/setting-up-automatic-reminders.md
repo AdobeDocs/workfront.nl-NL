@@ -99,7 +99,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    Als een taak bijvoorbeeld op vrijdag is toegewezen en een duur van 3 verstreken dagen heeft, wordt de voltooiingsdatum van de taak ingesteld op maandag (ervan uitgaande dat zaterdag en zondag een weekend zijn). Als de taak drie dagen duurt (niet is verstreken), is de datum waarop de taak is voltooid, vastgesteld op woensdag.
 
-   {de toename van 0} Tijd ](assets/time-increments-for-automatic-reminder.png)![
+   {de toename van 0} Tijd ![&#128279;](assets/time-increments-for-automatic-reminder.png)
 
 1. Klik **sparen**.
 

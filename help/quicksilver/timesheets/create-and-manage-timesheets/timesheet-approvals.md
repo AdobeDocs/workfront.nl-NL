@@ -67,7 +67,7 @@ Voor meer informatie over het aanwijzen van timesheet fiatteurs, zie de sectie [
 
 ## Een tijdschema goedkeuren
 
-U kunt alle tijdbladen goedkeuren die zijn verzonden waar u als fiatteur bent aangewezen. Wanneer een timesheet voor goedkeuring wordt voorgelegd, is timesheet vermeld in **Mijn goedkeurt** widget in uw **3} gebied van het Huis.** Voor meer informatie, zie [ het goedkeuren van het werk ](../../review-and-approve-work/manage-approvals/approving-work.md).
+U kunt alle tijdbladen goedkeuren die zijn verzonden waar u als fiatteur bent aangewezen. Wanneer een timesheet voor goedkeuring wordt voorgelegd, is timesheet vermeld in **Mijn goedkeurt** widget in uw **3&rbrace; gebied van het Huis.** Voor meer informatie, zie [ het goedkeuren van het werk ](../../review-and-approve-work/manage-approvals/approving-work.md).
 
 Als de volgende meldingsinstellingen aanwezig zijn, ontvangt de gebruiker die het tijdspad ter goedkeuring indient een e-mail nadat een tijdsplaat is goedgekeurd:
 

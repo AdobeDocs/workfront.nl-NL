@@ -222,6 +222,6 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
     </tbody> 
    </table>
 
-1. (Facultatief) in de **sectie van Forms van de Douane 0}, selecteer de** **optie van de Uitdrukkingen van de Douane opnieuw berekenen om ervoor te zorgen dat alle berekende douanegebieden in douanevormen die aan de geselecteerde gebruikers in bijlage zijn bijgewerkt zijn.**
+1. (Facultatief) in de **sectie van Forms van de Douane 0&rbrace;, selecteer de** **optie van de Uitdrukkingen van de Douane opnieuw berekenen om ervoor te zorgen dat alle berekende douanegebieden in douanevormen die aan de geselecteerde gebruikers in bijlage zijn bijgewerkt zijn.**
 
 1. Klik **sparen Veranderingen**.

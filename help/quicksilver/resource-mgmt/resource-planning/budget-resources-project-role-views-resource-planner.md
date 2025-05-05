@@ -109,7 +109,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    * Klik het **Meer** menu voor het project, dan klik **Geplande Uren van Rollen&quot;plaatsen zoals Beoogd**.\
      De begrotingsuren voor elke rol worden berekend met behulp van de volgende formule:\
-     *
+     &#x200B;*
 
      `Role Budgeted Hours = Role Planned Hours`
 
@@ -160,7 +160,7 @@ Voor informatie over de toegang nodig voor het opnemen van middelen, zie de arti
 
 Aan begrotingstoewijzingen in de Planner van het Middel in de*** mening van de Rol:
 
-1. Klik het **pictogram 1} van het Belangrijkste Menu ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.**
+1. Klik het **pictogram 1&rbrace; van het Belangrijkste Menu ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.**
 
 1. Klik **Middelen**.
 1. De **vertoningen van de Planner** door gebrek.
@@ -179,8 +179,8 @@ Aan begrotingstoewijzingen in de Planner van het Middel in de*** mening van de R
    * In de **BDG** kolom, specificeer manueel een aantal begrote uren, FTE, of kosten voor de baanrollen.\
      Dit verdeelt de Rol Geboedde Uren aan het Project Geplande Uren voor de projecten die u toegang hebt om te leiden.
 
-   * Klik het **Meer** menu voor de baanrol, dan klik **Plaats Projecten&#39; Geplande Uren zoals Beoogd.**De Rol die in de begroting wordt opgenomen Uren wordt berekend gebruikend de volgende formule:\
-     *
+   * Klik het **Meer** menu voor de baanrol, dan klik **Plaats Projecten&#39; Geplande Uren zoals Beoogd.**&#x200B;De Rol die in de begroting wordt opgenomen Uren wordt berekend gebruikend de volgende formule:\
+     &#x200B;*
 
      `Role Budgeted Hours = SUM(Project Budgeted Hours)`
 

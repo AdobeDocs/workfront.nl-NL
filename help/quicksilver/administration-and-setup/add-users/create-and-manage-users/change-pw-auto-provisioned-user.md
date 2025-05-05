@@ -106,7 +106,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 >
 >De id van een gebruiker zoeken:
 >
->1. Klik het **pictogram 1} van het Belangrijkste Menu ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** Gebruikers **![ pictogram van Gebruikers ](assets/users-icon-in-main-menu.png).**
+>1. Klik het **pictogram 1&rbrace; van het Belangrijkste Menu ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** Gebruikers **![ pictogram van Gebruikers ](assets/users-icon-in-main-menu.png).**
 >
 >1. Selecteer de gebruiker.
 >

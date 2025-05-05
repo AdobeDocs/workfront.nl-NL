@@ -100,7 +100,7 @@ U moet het volgende hebben:
 
 ## Geplande uren van project weergeven in het deelvenster Roltoewijzing
 
-1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** Projecten **.**
+1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** Projecten **.**
 1. Klik op de naam van een project om het te openen. Hiermee opent u de projectpagina.
 1. Klik op een van de volgende opties in het linkerdeelvenster:
 

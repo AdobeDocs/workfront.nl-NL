@@ -155,7 +155,7 @@ U moet een automatisering voor een verslagtype in de Planning van Workfront vorm
 1. Klik **sparen**.
 De pagina met gegevens over automatisering wordt geopend.
 
-1. Voor de detailspagina van de automatisering, werk de volgende gebieden in de **1} sectie van Trekkers bij {:**
+1. Voor de detailspagina van de automatisering, werk de volgende gebieden in de **1&rbrace; sectie van Trekkers bij &lbrace;:**
 
    * **Trekker**: Selecteer de actie die de automatisering zal teweegbrengen. Bijvoorbeeld, uitgezochte **Knoop klikt**. <!--update this step with a list of all possible triggers; right now only Button click is available-->
 
@@ -238,7 +238,7 @@ Op het **gebied van de Kaart**, werk de volgende informatie bij:
      Bijvoorbeeld, als u een automatisering voor Campagnes vormt om een ander verslagtype automatisch tot stand te brengen genoemd Banden en u **klikt voeg verbonden gebied** toe, worden de volgende gebieden gecreeerd:
 
       * Het **Verbonden verslag** verbindingsgebied wordt gecreeerd voor het **Merken** verslagtype.
-      * Het **Merken** verbindingsgebied wordt gecreeerd voor het **3} verslagtype van Campagnes {.**
+      * Het **Merken** verbindingsgebied wordt gecreeerd voor het **3&rbrace; verslagtype van Campagnes &lbrace;.**
 
 1. (Facultatief) als er geen verbindingsgebieden tussen het originele verslagtype en het voorwerp van Workfront dat op het gebied van Acties wordt geselecteerd zijn, klik **voeg verbonden gebied** toe.
 

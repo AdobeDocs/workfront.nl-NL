@@ -142,7 +142,7 @@ U kunt pictogrammen toevoegen in de weergave van een project of taakrapport of l
 
 Om pictogrammen toe te voegen die tonen of een project kwesties in een projectrapport heeft:
 
-1. Klik het **pictogram 1} van het Belangrijkste Menu ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.**
+1. Klik het **pictogram 1&rbrace; van het Belangrijkste Menu ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.**
 1. Klik **Meldend** > **Nieuw Rapport** > **Rapport van het Project**.
 1. In **toon in dit kolom** gebied, begin **Pictogrammen van de Status** te typen, dan het te selecteren wanneer het in de lijst verschijnt.
 

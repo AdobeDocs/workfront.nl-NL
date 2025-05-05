@@ -97,4 +97,4 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 ## Wanneer een groep wordt verwijderd
 
-Wanneer een groep wordt verwijderd en door een andere groep wordt vervangen, worden alle unieke statussen die de verwijderde groep had, toegevoegd aan de statussen van de vervangingsgroep. Voor meer informatie, zie {de statussen van 0} Douane in een groep die wordt bewogen of ](../../../administration-and-setup/manage-groups/manage-group-statuses/custom-statuses-in-group-moved-or-deleted.md) geschrapt.[
+Wanneer een groep wordt verwijderd en door een andere groep wordt vervangen, worden alle unieke statussen die de verwijderde groep had, toegevoegd aan de statussen van de vervangingsgroep. Voor meer informatie, zie {de statussen van 0} Douane in een groep die wordt bewogen of [&#128279;](../../../administration-and-setup/manage-groups/manage-group-statuses/custom-statuses-in-group-moved-or-deleted.md) geschrapt.

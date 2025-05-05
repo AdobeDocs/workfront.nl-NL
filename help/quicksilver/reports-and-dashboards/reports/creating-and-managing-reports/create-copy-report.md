@@ -104,7 +104,7 @@ Als u een exemplaar van een douanerapport wilt maken, doe het volgende:
 
 Als u een exemplaar van een ingebouwd rapport wilt tot stand brengen, doe het volgende:
 
-1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.**
+1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.**
 
 1. Klik **Rapporten**, dan **Alle Rapporten**.
 1. Klik op de naam van een ingebouwd rapport om het te openen.
@@ -120,7 +120,7 @@ Als u een exemplaar van een ingebouwd rapport wilt tot stand brengen, doe het vo
    * **Grafiek**: Voor meer informatie over het aanpassen van een rapportgrafiek, zie het artikel [ een grafiek aan een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md) toevoegen.
 
 1. In de hoger-juiste hoek, klik **Montages van het Rapport**.
-1. Op het **gebied van de Titel van het 0} Rapport, geef het rapport een nieuwe naam.**
+1. Op het **gebied van de Titel van het 0&rbrace; Rapport, geef het rapport een nieuwe naam.**
 1. Klik **Gedaan**.
 1. Klik **sparen als Nieuw Rapport**.
 

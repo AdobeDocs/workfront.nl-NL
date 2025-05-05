@@ -213,7 +213,7 @@ Een weergave openbaar delen in Workfront Planning:
 
    Er wordt een koppeling beschikbaar. Dit is een openbare link. Als de koppeling wordt gedeeld, heeft iedereen met deze koppeling, dus ook mensen van buiten uw organisatie, toegang tot de pagina met recordtypen en kunnen records en velden op de pagina worden weergegeven.
 
-1. Klik de **pictogram van het 1} verbinding van het Exemplaar ![ verbindingsmening van het Exemplaar ](assets/copy-link-view.png) om de verbinding aan uw klembord te kopiëren.**
+1. Klik de **pictogram van het 1&rbrace; verbinding van het Exemplaar ![ verbindingsmening van het Exemplaar ](assets/copy-link-view.png) om de verbinding aan uw klembord te kopiëren.**
 
 1. Voer manueel een datum in, of gebruik de kalender op het **gebied van de Vervaldatum van de Verbinding** om een vervaldatum voor de openbare verbinding te selecteren. De weergave van de recordpagina is na de geselecteerde datum niet toegankelijk.
 
@@ -235,8 +235,10 @@ Gebruikers die een koppeling openen naar een weergave waarvoor zij geen machtigi
 1. (Voorwaardelijk) Als u de manager van een mening bent, zou u een verzoek van een andere gebruiker kunnen ontvangen om tot de mening op de volgende gebieden toegang te hebben:
 
    * Een melding in de app
+
      ![ In-app bericht voor toegangsverzoek voor mening ](assets/in-app-notification-for-access-request-for-view.png)
    * Een e-mailmelding
+
      ![ In-app bericht voor toegangsverzoek voor mening ](assets/in-app-notification-for-access-request-for-view.png)
 1. (Voorwaardelijk) Klik in het systeemvak in Workfront op de melding in de app.
 of

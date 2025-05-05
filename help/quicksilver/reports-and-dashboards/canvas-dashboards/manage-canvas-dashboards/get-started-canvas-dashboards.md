@@ -23,7 +23,7 @@ Met Canvasdashboards kunt u uw Adobe Workfront-gegevens gemakkelijk visualiseren
 
 ## Vereisten
 
-* Uw organisatie moet deel uitmaken van de gesloten bètaversie van Canvasdashboards. Voor informatie, zie {de bètainformatie van de dashboards van het 0} Canvas ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).[
+* Uw organisatie moet deel uitmaken van de gesloten bètaversie van Canvasdashboards. Voor informatie, zie {de bètainformatie van de dashboards van het 0} Canvas [&#128279;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
 * U moet beschikken over een planlicentie (huidige licenties) of een standaardlicentie (nieuwe licenties) om een Canvas-dashboard te maken. Voor informatie over de licentietypen van Workfront, zie [ Overzicht van Vergunningen ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) of [ het Nieuwe overzicht van vergunningen ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 

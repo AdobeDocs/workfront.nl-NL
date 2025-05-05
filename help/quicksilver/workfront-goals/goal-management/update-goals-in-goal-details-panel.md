@@ -212,7 +212,7 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
    * **Periode**: Klik om de tijdspanne voor het doel bij te werken\
      of\
-     Selecteer **douanedata** toelaten om data voor het 2} Begin van het doel **en** Eind data **te specificeren.**
+     Selecteer **douanedata** toelaten om data voor het 2&rbrace; Begin van het doel **en** Eind data **te specificeren.**
    * **Sluiten nota&#39;s**: Dit gebied is zichtbaar slechts voor doelstellingen met een status van Gesloten. Gesloten doelen kunnen niet worden bewerkt. Als u een gesloten doel opnieuw opent, worden de afsluitende notities permanent verwijderd.
 
 

@@ -81,7 +81,7 @@ In dit voorbeeld maakt u een aangepast formulier met een meerkeuzerondje-veld. V
 
 1. Klik **Nieuwe Vorm van de Douane**, uitgezochte **Project** in de doos die toont, dan uitgezocht **gaat** verder.
 
-1. In het **tekstvakje van de Titel van de Vorm 0}, type** de douanevorm van de Steekproef - het leren vertoningslogica en overslaat logica **om de vorm te noemen.**
+1. In het **tekstvakje van de Titel van de Vorm 0&rbrace;, type** de douanevorm van de Steekproef - het leren vertoningslogica en overslaat logica **om de vorm te noemen.**
 
    ![](assets/form-title-box-350x247.png)
 
@@ -133,7 +133,7 @@ Om over dit te leren, blijf werkend aan de vorm van de steekproefdouane u in de 
 
 1. Klik **Aangepaste Forms**.
 1. Klik de naam van de vorm **aangepaste vorm van de Steekproef - het leren vertoningslogica en overslaan logica** die u in de stappen hierboven creeerde, om het voor het uitgeven te openen.
-1. Selecteer het drop-down gebied u genoemde *noemde  Welk type van website hebt u nodig?*, voeg de volgende keuzen voor het gebied toe, dan klik **** van toepassing zijn:
+1. Selecteer het drop-down gebied u genoemde *noemde  Welk type van website hebt u nodig?*, voeg de volgende keuzen voor het gebied toe, dan klik **&#x200B;**&#x200B;van toepassing zijn:
 
    *e-commerce*
 
@@ -141,7 +141,7 @@ Om over dit te leren, blijf werkend aan de vorm van de steekproefdouane u in de 
 
    *Lidmaatschap*
 
-1. Open **voeg een gebied** tabel toe, creeer een **Tekstgebied met het Formatteren **gebied geroepen *wat het doel voor de website is?*, dan klik **toepassen**.
+1. Open **voeg een gebied** tabel toe, creeer een **Tekstgebied met het Formatteren &#x200B;** gebied geroepen *wat het doel voor de website is?*, dan klik **toepassen**.
 
    In deze organisatie, wordt een de documentatieplaats van de Hulp gecreeerd door het Technisch schrijvende team, niet de afdeling van de Marketing. Er is dus geen verdere informatie nodig van een gebruiker die Help-documentatie selecteert in het tweede veld. Er wordt een tekstregel gemaakt (een beschrijvend tekstveld) waarmee ze het team voor technisch schrijven kunnen bekijken. En wij zullen een overslaan logische regel gebruiken die die gebruiker aan die lijn van tekst overslaat.
 

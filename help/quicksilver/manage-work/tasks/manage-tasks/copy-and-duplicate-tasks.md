@@ -107,7 +107,7 @@ Houd rekening met het volgende wanneer u een taak kopieert:
    Ga naar een taakrapport.
 
 1. (Voorwaardelijk) klik **Taken** in het linkerpaneel, als u het project opende dat de taken bevat.
-1. Klik het **pictogram van de Wijze van het 0} Plan ![](assets/qs-list-mode-or-save-mode-icon-small.png), en zorg ervoor dat de** optie Autosave **wordt toegelaten.**
+1. Klik het **pictogram van de Wijze van het 0&rbrace; Plan ![](assets/qs-list-mode-or-save-mode-icon-small.png), en zorg ervoor dat de** optie Autosave **wordt toegelaten.**
 
    ![](assets/autosave-icon-on-highlighted-350x202.png)
 
@@ -293,11 +293,11 @@ U kunt een taak snel dupliceren in een takenlijst als u een identieke taak nodig
 
      ![](assets/duplicate-tasks-in-list-nwe-350x196.png)
 
-   * (Voorwaardelijk) klik het **pictogram van de Wijze van het 0} Plan ![](assets/qs-list-mode-or-save-mode-icon-small.png) >** Handboek sparen **>** Standaard **of** Planning van de Chronologie **, dan doe het volgende:**
+   * (Voorwaardelijk) klik het **pictogram van de Wijze van het 0&rbrace; Plan ![](assets/qs-list-mode-or-save-mode-icon-small.png) >** Handboek sparen **>** Standaard **of** Planning van de Chronologie **, dan doe het volgende:**
 
       1. Selecteer de taak of de taken u, **dupliceren** wilt dupliceren en klikken.
       1. (Facultatief) klik **ongedaan maken** om uw veranderingen om te keren en niet de taken te dupliceren.
-      1. (Facultatief en voorwaardelijk) klik **opnieuw** als u eerder **** had geklikt ongedaan maken, om de veranderingen te houden en de taken te dupliceren.
+      1. (Facultatief en voorwaardelijk) klik **opnieuw** als u eerder **&#x200B;**&#x200B;had geklikt ongedaan maken, om de veranderingen te houden en de taken te dupliceren.
 
       1. Klik **sparen** om uw veranderingen te bewaren.
 

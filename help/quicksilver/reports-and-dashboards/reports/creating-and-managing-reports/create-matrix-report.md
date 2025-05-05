@@ -134,9 +134,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      >   * Aangepaste gegevensvelden voor getal- en valutawaarden bevatten alle taken: ouders, kinderen, ouders van ouders en zelfstandige taken. Als u het matrixrapport aan vertoning Geplande Uren of Werkelijke Uren in de **kolom van de Waarde** creeerde, ben zich ervan bewust dat uren of kosteninformatie voor om het even welke oudervoorwerpen (zoals oudertaken) niet in het matrixrapport worden getoond. Om uren op oudervoorwerpen te bekijken, moet u de **Details** tabel bekijken.
      >   
      >   
-     >
+     >**Voorwaardelijke Regels:** opstelling om het even welke het formatteren regels voor waarden die worden bijeengevoegd.\
 
-   **Voorwaardelijke Regels:** opstelling om het even welke het formatteren regels voor waarden die worden bijeengevoegd.\
    Nadat u een regel hebt toegevoegd, kunt u veld- en tekststijlen definiëren voor de weergave van velden die overeenkomen met die regel. Klik **toevoegen Regel** nadat u het bepalen van de regel gebeëindigd hebt, toen **Gedaan** om de regel te bewaren.
 
 1. Klik het **lusje van Filters** om te bepalen welke informatie in het rapport zal tonen.

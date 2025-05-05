@@ -76,7 +76,7 @@ De volgende bètaprogramma&#39;s zijn verkrijgbaar bij Workfront:
    * Functies kunnen vaker worden vrijgegeven dan de normale releasepatronen voor Workfront.
    * Informatie over wanneer de eigenschappen aan openbare bèta worden vrijgegeven is inbegrepen in de de versiepagina&#39;s van het Product.
 
-Voor informatie over de nota&#39;s van de productversie, zie {de versies van het 0} Product ](../../product-announcements/product-releases/product-releases.md).[
+Voor informatie over de nota&#39;s van de productversie, zie {de versies van het 0} Product [&#128279;](../../product-announcements/product-releases/product-releases.md).
 
 ## Andere introducties
 
@@ -88,7 +88,7 @@ Als u iets in het systeem tegenkomt dat niet overeenkomt met de documentatie en 
 
 Gebruik de releaseopmerkingen voor de komende geplande release om te zien welke nieuwe functies beschikbaar zijn in Voorvertoning en wanneer ze worden vrijgegeven voor Production.
 
-Om de versienota&#39;s voor de volgende geplande versie te vinden, zie {de versies van het 0} Product ](../../product-announcements/product-releases/product-releases.md), dan de verbinding klikken om u aan de pagina van het versieoverzicht voor de aanstaande versie te nemen.[
+Om de versienota&#39;s voor de volgende geplande versie te vinden, zie {de versies van het 0} Product [&#128279;](../../product-announcements/product-releases/product-releases.md), dan de verbinding klikken om u aan de pagina van het versieoverzicht voor de aanstaande versie te nemen.
 
 De releaseopmerkingen bevatten een tabel met een lijst met functies in de linkerkolom, met een korte beschrijving van elke functie. U kunt op een functiekoppeling klikken om een demovideo van de nieuwe functie te bekijken en om documentatie over de nieuwe functie te openen. In de juiste kolom, ziet u de volgende informatie voor elke eigenschap:
 

@@ -309,7 +309,7 @@ U ontvangt toewijzingsmeldingen wanneer u, of een team dat u hebt ingeschakeld, 
 
 U ontvangt een melding wanneer iemand opmerkingen maakt over een onderdeel waaraan u bent gekoppeld, of u opneemt in een update. Via het communicatiemelding kunt u de volgende handelingen uitvoeren:
 
-* **Weg **: Klik om op de commentaar of [!UICONTROL update] te antwoorden. Uw antwoord wordt ook weergegeven in de updatestream waarin de opmerking wordt weergegeven in Workfront.
+* **Weg &#x200B;**: Klik om op de commentaar of [!UICONTROL update] te antwoorden. Uw antwoord wordt ook weergegeven in de updatestream waarin de opmerking wordt weergegeven in Workfront.
 * **[!UICONTROL View in Workfront]**: selecteer deze optie om de opmerking en het item in Workfront weer te geven. Dit item wordt op een nieuw tabblad geopend.
 * **[!UICONTROL Status]**: Klik en selecteer vervolgens een nieuwe status voor het werkitem waar de opmerking of update over gaat.
 

@@ -88,7 +88,7 @@ Naast de overwegingen hieronder, zie ook [ Overzicht van het delen van toestemmi
    * Geef de machtigingen voor een van de bovenliggende objecten van de uitgave op: project, programma of portfolio. De kwesties erven de toestemmingen van hun oudervoorwerpen. Voor informatie over het bekijken van geërfte toestemmingen op voorwerpen, zie [ Mening geërfte toestemmingen op voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
    * Voeg entiteiten aan het Delen van het Project op een malplaatje toe dat wordt gebruikt om het project tot stand te brengen de kwestie is. Voor informatie over het delen van projecten van malplaatjes, zie [ een malplaatje ](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md) delen.
 
-   * Specificeer de toestemmingen op alle kwesties in een project wanneer u het project uitgeeft. Voor informatie over het beheren van de toegang tot kwesties of verzoeken op het project dat op de toestemmingen van een gebruiker aan het project wordt gebaseerd, zie de [](../../manage-work/projects/manage-projects/edit-projects.md#access) sectie in het artikel [ projecten ](../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+   * Specificeer de toestemmingen op alle kwesties in een project wanneer u het project uitgeeft. Voor informatie over het beheren van de toegang tot kwesties of verzoeken op het project dat op de toestemmingen van een gebruiker aan het project wordt gebaseerd, zie de [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) sectie in het artikel [ projecten ](../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
      >[!TIP]
      >
@@ -166,7 +166,7 @@ Naast de overwegingen hieronder, zie ook [ Overzicht van het delen van toestemmi
 
 1. Navigeer naar de uitgave die u wilt delen.
 
-1. Aan het recht van de voorwaardennaam, klik **Aandeel**. Het [ 2} dialoogvakje van de Naam van de Uitgave 1} van het Aandeel {opent.**]**
+1. Aan het recht van de voorwaardennaam, klik **Aandeel**. Het [ 2&rbrace; dialoogvakje van de Naam van de Uitgave 1&rbrace; van het Aandeel &lbrace;opent.**]**
 
    ![ de kwestie van het Aandeel knoop ](assets/share-issue-button.png)
 

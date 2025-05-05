@@ -112,7 +112,7 @@ U kunt een map van de volgende locaties verwijderen:
 
 ### Een map verwijderen van de pagina [!UICONTROL Account Folders] {#deleting-a-folder-from-the-account-folders-page}
 
-1. Klik op **(Uw accountnaam)[!UICONTROL folders]** in de linkernavigatiebalk om de pagina [!UICONTROL Account folders] te openen.\
+1. Klik op **(Uw accountnaam) [!UICONTROL folders]** in de linkernavigatiebalk om de pagina [!UICONTROL Account folders] te openen.\
    U kunt ook op de mapnaam in de lijst **[!UICONTROL My folders]** in de linkerzijbalk klikken om de pagina **[!UICONTROL Folder details]** te openen.
 
 1. Schakel het selectievakje voor een of meer mappen in.

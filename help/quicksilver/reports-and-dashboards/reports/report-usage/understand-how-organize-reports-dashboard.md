@@ -68,7 +68,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 Een mening met dashboardinformatie voor een rapportlijst bouwen:
 
-1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Workfront, dan klik** Rapporten **.**
+1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Workfront, dan klik** Rapporten **.**
 1. Voor de lijst van rapporten, klik het **drop-down menu van de Mening**.
 1. Klik **Nieuwe Mening**.
 1. Klik **toevoegen Kolom**.
@@ -83,7 +83,7 @@ Een mening met dashboardinformatie voor een rapportlijst bouwen:
 
 Een lijst met rapporten filteren op dashboardgegevens:
 
-1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Workfront, dan klik** Rapporten **.**
+1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Workfront, dan klik** Rapporten **.**
 
 1. Voor de lijst van rapporten, klik het **drop-down menu van de Filter**.
 1. Klik **Nieuwe Filter**, dan klik **voegt een Regel van de Filter** toe.

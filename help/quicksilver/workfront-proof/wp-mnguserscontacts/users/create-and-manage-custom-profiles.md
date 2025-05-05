@@ -129,7 +129,7 @@ Voor informatie, zie [ Profielen van de Toestemmingen van de Bewijs in  [!DNL Wo
 1. In de sectie **[!UICONTROL Module permissions]** :
 
    1. Selecteer toestemmingen voor **Basistoegang**.
-   1. **Beleid van Gegevens**. Voor meer informatie, zie ](#module-permissions) Toestemmingen van de Module 0}[
+   1. **Beleid van Gegevens**. Voor meer informatie, zie [&#128279;](#module-permissions) Toestemmingen van de Module 0&rbrace;
 
 1. Selecteer in de sectie **[!UICONTROL Administrative permissions]** machtigingen voor beheerfuncties.
 
@@ -186,7 +186,7 @@ Als u een profiel bewerkt, worden updates toegepast op alle gebruikers aan wie d
 
 1. Klik op de profielnaam die u wilt bewerken.
 1. Breng de gewenste wijzigingen aan in de naam of machtigingen voor het profiel. Deze wijzigingen worden automatisch opgeslagen en bijgewerkt.
-Voor meer informatie over toestemmingen, zie {de Toestemmingen van de Module 1} en [ Administratieve Toestemmingen ](#administrative-permissions).[](#module-permissions)
+Voor meer informatie over toestemmingen, zie {de Toestemmingen van de Module 1} en [ Administratieve Toestemmingen ](#administrative-permissions).[&#128279;](#module-permissions)
 
 >[!NOTE]
 >

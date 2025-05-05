@@ -74,7 +74,7 @@ Wanneer iemand een map met u deelt, wordt deze op de zijbalk van hun [!DNL Workf
 
 1. Klik op de koppeling in het e-mailbericht dat u ontvangt.
 1. Meld u aan bij [!DNL Workfront Proof] .\
-     [!DNL  Workfront Proof] geeft de pagina met mapdetails weer. Voor meer informatie, zie [ Mappen en hun Inhoud binnen beheren  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md).
+     [!DNL &#x200B; Workfront Proof] geeft de pagina met mapdetails weer. Voor meer informatie, zie [ Mappen en hun Inhoud binnen beheren  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md).
 
 ## Informatie over submappen delen
 

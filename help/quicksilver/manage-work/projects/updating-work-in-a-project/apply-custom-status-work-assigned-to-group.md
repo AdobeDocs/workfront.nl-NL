@@ -100,7 +100,7 @@ Wanneer u de Groep voor een project bijwerkt, de opties beschikbaar voor de Stat
 
    >[!NOTE]
    >
-   >Als u een verschillende groep in het **drop-down menu van de Groep** selecteert, veranderen de douanestatussen in het **3} menu van de Status {automatisch om met de nieuwe groep te correleren.**
+   >Als u een verschillende groep in het **drop-down menu van de Groep** selecteert, veranderen de douanestatussen in het **3&rbrace; menu van de Status &lbrace;automatisch om met de nieuwe groep te correleren.**
    >
    >
    >![ drop-down Status die met douanestatus voor project wordt uitgebreid ](assets/status-drop-down-expanded-with-custom-statuses-for-project-nwe.png)   >

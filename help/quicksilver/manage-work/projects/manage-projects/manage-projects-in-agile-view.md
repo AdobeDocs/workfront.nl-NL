@@ -64,7 +64,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 ## Een project weergeven in de Google-weergave
 
 1. Ga naar het project u in een flexibele mening, op of de taaklijst of de lijst van de kwestie wilt bekijken.
-1. Klik het **pictogram van de 1} mening van de Raad ![ Raad ](assets/board-icon-for-agile-view.png).**
+1. Klik het **pictogram van de 1&rbrace; mening van de Raad ![ Raad ](assets/board-icon-for-agile-view.png).**
 
    De boardweergave van het project wordt standaard weergegeven.
 

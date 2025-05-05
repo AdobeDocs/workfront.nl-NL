@@ -151,7 +151,7 @@ Uw taken en problemen delegeren aan anderen:
 
    * Een indicatie dat uw taken en problemen zijn gedelegeerd aan andere gebruikers, wordt weergegeven in de meeste gebieden waar u toewijzingen kunt zien in [!DNL Workfront] . Voor meer informatie over welke gebieden de namen van afgevaardigden niet omvatten, zie [ het werkoverzicht van de Afgevaardigde ](delegate-work-overview.md).
 
-   * De [!UICONTROL **Afgevaardigde**] knoop in het [!UICONTROL **3} gebied van het Huis {verandert in[!UICONTROL ** delegatie **]uitgeven om erop te wijzen dat er een delegatie op zijn plaats is.**]
+   * De [!UICONTROL **Afgevaardigde**] knoop in het [!UICONTROL **3&rbrace; gebied van het Huis &lbrace;verandert in[!UICONTROL **&#x200B; delegatie &#x200B;**]uitgeven om erop te wijzen dat er een delegatie op zijn plaats is.**]
      <!--
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
       (NOTE: is this shot correct?&nbsp;See UI - this is a mock)
@@ -234,15 +234,15 @@ Als een taak of een kwestie wordt gedelegeerd en subtab [!UICONTROL Delegations]
 
 ### Gedelegeerde werkzaamheden zoeken in [!UICONTROL Home]
 
-1. Ga naar het [!UICONTROL **1} gebied van het Huis {in[!UICONTROL ** Mijn Werk **]widget.**]
+1. Ga naar het [!UICONTROL **1&rbrace; gebied van het Huis &lbrace;in[!UICONTROL **&#x200B; Mijn Werk &#x200B;**]widget.**]
 1. Klik op de vervolgkeuzelijst met filters en selecteer een of meer van de volgende opties:
    * [!UICONTROL **Gedelegeerde**]: aan meningstaken en kwesties die aan u of door u worden gedelegeerd.
-   * [!UICONTROL ****] Gedelegeerde aan me: aan meningstaken en kwesties die aan u door een andere gebruiker worden gedelegeerd.
+   * [!UICONTROL **&#x200B;**] Gedelegeerde aan me: aan meningstaken en kwesties die aan u door een andere gebruiker worden gedelegeerd.
    * [!UICONTROL **Gedelegeerde door me**]: aan meningstaken en kwesties die door u aan andere gebruikers worden gedelegeerd.
 
      ![ Gedelegeerde taken en geeft filter ](assets/delegated-tasks-and-issues-new-home-filter.png) uit
 
-1. (Optioneel) Klik op het vervolgkeuzemenu **]Sorteren[!UICONTROL ** om de lijst op de volgende criteria te sorteren:
+1. (Optioneel) Klik op het vervolgkeuzemenu **Sorteren** om de lijst op de volgende criteria te sorteren:
    * [!UICONTROL Due Date]. Dit is de standaardoptie voor sorteren.
    * [!UICONTROL Name]
    * [!UICONTROL Percent Complete]

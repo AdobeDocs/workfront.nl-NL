@@ -71,6 +71,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    of
 
-   Klik het **Meer** menu ![ Meer menu ](assets/qs-more-menu.png) naast de naam van het project en klik **uitgeven** en selecteren een nieuwe status op het **7} gebied van de Status {, dan klik** sparen **.**
+   Klik het **Meer** menu ![ Meer menu ](assets/qs-more-menu.png) naast de naam van het project en klik **uitgeven** en selecteren een nieuwe status op het **7&rbrace; gebied van de Status &lbrace;, dan klik** sparen **.**
 
    De projectstatus wordt bijgewerkt naar de status die u hebt geselecteerd.

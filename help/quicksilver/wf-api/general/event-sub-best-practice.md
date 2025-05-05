@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Aanbevolen werkwijzen voor abonnementen op gebeurtenissen
 
-Adobe Workfront Event Subscription messages worden automatisch verzonden vanuit Workfront nadat u de service op de juiste wijze hebt geconfigureerd en een Event Subscription hebt gemaakt om deze berichtleveringen te activeren. Meer over behoorlijk vestiging zien de Abonnementen van de Gebeurtenis, {de leveringsvereisten van het Abonnement van 0} Gebeurtenis ](../../wf-api/general/setup-event-sub-endpoint.md).[
+Adobe Workfront Event Subscription messages worden automatisch verzonden vanuit Workfront nadat u de service op de juiste wijze hebt geconfigureerd en een Event Subscription hebt gemaakt om deze berichtleveringen te activeren. Meer over behoorlijk vestiging zien de Abonnementen van de Gebeurtenis, {de leveringsvereisten van het Abonnement van 0} Gebeurtenis [&#128279;](../../wf-api/general/setup-event-sub-endpoint.md).
 
 
 Hieronder vindt u een aantal tips en trucs waarmee u op effectieve wijze gebeurtenisabonnementen kunt maken.
@@ -36,7 +36,7 @@ Probeer alle abonnementstests binnen de respijtperiode van 100 berichten uit te 
 
 ## Voldoe aan de standaardvereisten voor levering van berichten voor abonnementen voor gebeurtenissen
 
-Zorg ervoor uw abonnementseindpunt aan de StandaardVereisten van de Levering van het Bericht van het Abonnement van de Gebeurtenis voldoet. Om over deze vereisten te leren, zie {de leveringsvereisten van het Abonnement van 0} Gebeurtenis ](../../wf-api/general/setup-event-sub-endpoint.md).[
+Zorg ervoor uw abonnementseindpunt aan de StandaardVereisten van de Levering van het Bericht van het Abonnement van de Gebeurtenis voldoet. Om over deze vereisten te leren, zie {de leveringsvereisten van het Abonnement van 0} Gebeurtenis [&#128279;](../../wf-api/general/setup-event-sub-endpoint.md).
 
 ## IP van de Lijst van gewenste personen adressen door globaal gebied
 

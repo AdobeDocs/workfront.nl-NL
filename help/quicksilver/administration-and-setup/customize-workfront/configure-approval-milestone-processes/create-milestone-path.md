@@ -93,7 +93,7 @@ Voor meer informatie over hoe u een milestone weg met een project en een mijlpaa
     </tr>
    </table>
 
-1. Specificeer de volgende informatie in het **1} gebied van de Mijlpalen {:**
+1. Specificeer de volgende informatie in het **1&rbrace; gebied van de Mijlpalen &lbrace;:**
 
    <table style="table-layout:auto"> 
     <col> 

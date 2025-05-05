@@ -49,7 +49,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Rapport maken over bestaande rapporten {#create-the-report-about-existing-reports}
 
-1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.**
+1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.**
 1. Klik **Rapporten**, dan **Nieuw Rapport**.
 1. In het **Nieuwe drop-down menu van het Rapport**, uitgezochte **Rapport** om een rapport over bestaande rapporten tot stand te brengen.
 

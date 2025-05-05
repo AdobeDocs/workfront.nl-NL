@@ -149,7 +149,7 @@ triggers configureren in [!UICONTROL Salesforce] :
       >Het project wordt alleen gemaakt wanneer het werkgebied wordt bijgewerkt in [!UICONTROL Opportunity] . Er wordt een uniek project gemaakt voor elk product dat wordt opgegeven wanneer het veld Werkgebied wordt bijgewerkt, en niet wanneer de producten aan [!UICONTROL Opportunities] worden toegevoegd.
 
 1. (Optioneel) Klik op **[!UICONTROL New Trigger]** .
-1. (Optioneel) Selecteer **Account in de vervolgkeuzelijst **[!UICONTROL [!DNL Salesforce] Object]**
+1. (Optioneel) Selecteer **Account in de vervolgkeuzelijst &#x200B;** [!UICONTROL [!DNL Salesforce] Object]**
 **.
 
    Dit is een verplicht veld.
@@ -158,7 +158,7 @@ triggers configureren in [!UICONTROL Salesforce] :
    1. Selecteer een **[!UICONTROL Type]** in de vervolgkeuzelijst **[!UICONTROL Type]** .
 
       Als er een **Account is
-** wordt opgegeven als de **[!UICONTROL Type]** die hier wordt opgegeven in [!DNL Salesforce] , a **[!UICONTROL Project]** wordt gemaakt in [!DNL Workfront] .
+**&#x200B; wordt opgegeven als de &#x200B;** [!UICONTROL Type] **&#x200B; die hier wordt opgegeven in [!DNL Salesforce] , a &#x200B;** [!UICONTROL Project]** wordt gemaakt in [!DNL Workfront] .
 
       Dit is een verplicht veld.
 

@@ -354,4 +354,4 @@ U kunt informatie naar een dossier van Excel (.xlsx) van om het even welke menin
 Voor informatie over het uitvoeren van informatie van de Planner van het Middel, zie [ informatie van de Uitvoer van de Planner van het Middel ](../../resource-mgmt/resource-planning/export-resource-planner.md).
 
 U kunt de hoeveelheid informatie en de weergave van het geëxporteerde bestand beheren.\
-Voor informatie over welke informatie u van de Planner van het Middel kunt uitvoeren en hoe te om het blik en gevoel van het uitgevoerde dossier te beheren, zie {de vertoningsbeperkingen van de Planner van 0} Middel ](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md).[
+Voor informatie over welke informatie u van de Planner van het Middel kunt uitvoeren en hoe te om het blik en gevoel van het uitgevoerde dossier te beheren, zie {de vertoningsbeperkingen van de Planner van 0} Middel [&#128279;](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md).

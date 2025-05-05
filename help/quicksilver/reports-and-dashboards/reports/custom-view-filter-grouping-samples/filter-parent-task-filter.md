@@ -73,7 +73,7 @@ U kunt het volgende filter op een taakrapport toepassen om taken zonder kinderen
 1. Van het **Belangrijkste Menu** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, of de **HoofdMenu** ![ Belangrijkste lijnen van het Menu ](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar, klik **Rapporten**.
 
 1. Klik **Nieuw Rapport**.
-1. Selecteer het Rapport van de Taak van a ****.
+1. Selecteer het Rapport van de Taak van a **&#x200B;**.
 1. Klik **Filters**.
 1. Klik **toevoegen een Regel van de Filter**.
 1. In het **Begin typend gebiedsnaam..** lijn, begin **Aantal Kinderen** te typen, dan klik **Taak >> Aantal Kinderen** wanneer het in de lijst toont.
@@ -102,7 +102,7 @@ U kunt het volgende filter op een taakrapport toepassen om taken met ouders te t
 1. Van het **Belangrijkste Menu** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, of de **HoofdMenu** ![ Belangrijkste lijnen van het Menu ](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar, klik **Rapporten**.
 
 1. Klik **Nieuw Rapport**.
-1. Selecteer het Rapport van de Taak van a ****.
+1. Selecteer het Rapport van de Taak van a **&#x200B;**.
 1. Klik **Filters**.
 1. Klik **toevoegen een Regel van de Filter**.
 1. In het **Begin typend gebiedsnaam..** lijn, begin **identiteitskaart van de Ouder** te typen, dan uitgezochte **Taak >> identiteitskaart van de Ouder** wanneer het in de lijst toont.
@@ -127,7 +127,7 @@ U kunt het volgende filter op een taakrapport toepassen om standalone het werken
 1. Van het **Belangrijkste Menu** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, of de **HoofdMenu** ![ Belangrijkste lijnen van het Menu ](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar, klik **Rapporten**.
 
 1. Klik **Nieuw Rapport**.
-1. Selecteer het Rapport van de Taak van a ****.
+1. Selecteer het Rapport van de Taak van a **&#x200B;**.
 1. Klik **Filters**.
 1. Klik **toevoegen een Regel van de Filter**.
 1. In het **Begin typend gebiedsnaam..** lijn begint **Aantal Kinderen** te typen, dan uitgezochte **Taak >> Aantal Kinderen** van de lijst.

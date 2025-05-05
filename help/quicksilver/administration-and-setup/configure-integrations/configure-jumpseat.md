@@ -85,7 +85,7 @@ U configureert de integratie met [!DNL JumpSeat] als volgt:
 
 https://{mycompanyname}.spronsit.io
 
->>
+&#x200B;>>
 
 >[!ENDSHADEBOX]
 

@@ -96,7 +96,7 @@ Als u een berekend veld met de bewerkingsgeschiedenis van een veld wilt toevoege
    ```
 
 1. (Geadviseerd) Deeg de zelfde berekening in het **gebied van Instructies** op het berekende gebied op de vorm.
-1. Zorg ervoor dat **Tekst** op het **3} gebied van het Formaat {wordt geselecteerd om het berekende douanegebied als tekst te formatteren.**
+1. Zorg ervoor dat **Tekst** op het **3&rbrace; gebied van het Formaat &lbrace;wordt geselecteerd om het berekende douanegebied als tekst te formatteren.**
 
    Dit is de standaardinstelling.
 

@@ -50,7 +50,7 @@ Houd rekening met het volgende wanneer u met factureringssnelheden werkt:
 >De tarieven die de opbrengst berekenen behoren tot de gebruiker die de tijd registreert, of tot hun baanrollen.
 
 * [ het Factureren van de Gebruiker Tarieven ](#user-billing-rates)
-* {de FactureringsTarieven van de Rol van 0} ](#job-role-billing-rates)[
+* {de FactureringsTarieven van de Rol van 0} [&#128279;](#job-role-billing-rates)
 * [ Vaste FactureringsTarieven voor projecten of taken ](#fixed-billing-rates-for-projects-or-tasks)
 * [Factureringssnelheden overschrijven](#override-billing-rates)
 
@@ -133,7 +133,7 @@ U kunt de werkelijke inkomsten niet bekijken op het niveau van de uitgave, maar 
  </tbody> 
 </table>
 
-*Voor Werkelijke Uren, verwijzen de tarieven van de gebruiker altijd naar de gebruiker die de uren of aan de tarieven van hun baanrollen registreert. Voor informatie over wanneer Workfront de tarieven van de gebruiker gebruikt en wanneer het de tarieven van hun baanrollen gebruikt, zie de ](#revenue-calculations) sectie van de berekeningen van de Opbrengst [ {in dit artikel.
+*Voor Werkelijke Uren, verwijzen de tarieven van de gebruiker altijd naar de gebruiker die de uren of aan de tarieven van hun baanrollen registreert. Voor informatie over wanneer Workfront de tarieven van de gebruiker gebruikt en wanneer het de tarieven van hun baanrollen gebruikt, zie de [&#128279;](#revenue-calculations) sectie van de berekeningen van de Opbrengst  &lbrace;in dit artikel.
 
 <!--Note from the table for Planned Revenue line: 
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(the note below is duplicated in this article: /Content/Resource Mgmt/Resource utilization/view-utilization-information.htm and in the glossary)</p>

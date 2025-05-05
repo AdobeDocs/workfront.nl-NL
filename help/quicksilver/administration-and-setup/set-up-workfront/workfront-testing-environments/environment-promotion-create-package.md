@@ -60,7 +60,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    De pagina Nieuw promotiepakket wordt geopend.
 
-1. Op het **gebied van de naam van het Pakket** {, ga een naam voor het pakket in.
+1. Op het **gebied van de naam van het Pakket** &lbrace;, ga een naam voor het pakket in.
 1. Op het **gebied van de Beschrijving**, ga een beschrijving voor dit pakket in.
 1. Als u een object aan het pakket wilt toevoegen, selecteert u in de linkernavigatie het type object dat u wilt toevoegen.
 1. Selecteer een of meer objecten in de lijst die wordt weergegeven of typ de naam in de zoekbalk en selecteer het object wanneer dit in de lijst wordt weergegeven. U kunt meerdere objecten in de lijst selecteren.
@@ -101,7 +101,7 @@ Een pakket moet de status `DRAFT` hebben om te kunnen worden bewerkt.
 1. (Facultatief) om de inhoud, met inbegrip van alle voorwerpen en hun sub-voorwerpen te bekijken, klik de drop-down pijl naast het objecten type in de **sectie van de Inhoud**.
 1. (Facultatief) om vorige installaties en installatiepogingen van dit pakket te bekijken, klik **Plaatsingen**.
 1. (Facultatief) om het pakket uit te geven, klik **uitgeven Pakket** bij het hoger-recht van het scherm.
-Een pakket moet de status `DRAFT` hebben om te kunnen worden bewerkt. Om het pakket aan `DRAFT` status, op het **2} gebied van de Status te bewegen {, selecteer `Draft`.** U kunt het pakket vervolgens blijven bewerken.
+Een pakket moet de status `DRAFT` hebben om te kunnen worden bewerkt. Om het pakket aan `DRAFT` status, op het **2&rbrace; gebied van de Status te bewegen &lbrace;, selecteer `Draft`.** U kunt het pakket vervolgens blijven bewerken.
 1. Om het pakket te installeren, klik **installeer** bij het hoger-recht van het scherm.
 
    Voor instructies bij het installeren van een pakket, zie [ een pakket van de milieubevordering installeren ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md).

@@ -74,7 +74,7 @@ Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnem
 
 Als u een [!DNL Adobe Admin Console] beheerder bent, kunt u [!DNL Adobe Workfront for design and video] opnemen in [!DNL Creative Cloud] implementatiepakketten. Voor meer informatie, zie [ Including steekmodules in uw pakket ](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 
-[ Mening hier een videoleerprogramma ](https://www.youtube.com/watch?v=zzvXNLIBzrc) {target=_blank}.
+[ Mening hier een videoleerprogramma ](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank} .
 
 [!DNL Adobe Admin Console] -beheerders kunnen ook pakketten met alleen plug-ins maken voor distributie naar gebruikers. Voor meer informatie, zie [ [!UICONTROL [!DNL Adobe Workfront] creëren voor  [!DNL Creative Cloud]]  pakketten voor uw gebruikers in  [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
 

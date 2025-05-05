@@ -72,7 +72,7 @@ Een tijdschema ter goedkeuring indienen:
 
    **voorlegt voor goedkeuring** knoop wordt vervangen door **goedkeuren**, **Afwijzen**, en **Recall** knopen. Het statuut van timesheet verandert in **Voorgelegd**.
 
-   Wanneer uw timesheet voor goedkeuring wordt voorgelegd, ziet de fiatteur timesheet dat in **wordt vermeld Mijn goedkeurt** widget in het **3} gebied van het Huis.** De volgende dingen kunnen zich voordoen:
+   Wanneer uw timesheet voor goedkeuring wordt voorgelegd, ziet de fiatteur timesheet dat in **wordt vermeld Mijn goedkeurt** widget in het **3&rbrace; gebied van het Huis.** De volgende dingen kunnen zich voordoen:
 
    * Als zij het goedkeuren, verandert de **Herinnerde** knoop in **heropenen** en de updates van de timesheet status aan **Open**.
    * Als zij het verwerpen, **voorlegt voor goedkeuring** knoop vervangt de **Recall** knoop en de updates van de timesheet status aan **Verworpen**.

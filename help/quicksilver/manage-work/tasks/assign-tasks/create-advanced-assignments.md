@@ -87,7 +87,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    >U kunt geavanceerde taken rechtstreeks op de taak of de lijst van de kwestie maken als er twee of meer toegewezen mensen zijn. Klik binnen het **gebied van Taken** op de zelfde lijn zoals de taak of de kwestie, dan klik het **pictogram van Mensen** om het Geavanceerde venster van Taken te openen. Ga verder met stap 5 om door te gaan met het maken van geavanceerde toewijzingen.\
    >![ klik het pictogram van Mensen ](assets/nwe-advanced-assignments-350x55.png)
 
-1. Klik **toewijzen aan** in het **3} gebied van Taken {in de kopbal van de taak of de kwestie**
+1. Klik **toewijzen aan** in het **3&rbrace; gebied van Taken &lbrace;in de kopbal van de taak of de kwestie**
 
    of
 
@@ -141,7 +141,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
      >   * U kunt toewijzingen niet handmatig wijzigen bij uitgaven.
      >   * U kunt toewijzingen voor teams die aan taken zijn toegewezen niet handmatig wijzigen.
 
-   * **Rol van de Ontvanger:** selecteer de rol de gebruiker zou moeten gebruiken wanneer het vervullen van deze taak.  Standaard wordt de primaire rol van de gebruiker weergegeven. Klik in het **vakje van de Rol van 0} toewijzen {om een andere rol te selecteren.** Wanneer u eerst de taak of de kwestie aan een rol toewijst, en dan een gebruiker toevoegt die die rol als tweede taak kan vervullen, wordt de lijst van voorgestelde gebruikers gefiltreerd voor de gebruikers die de rollen kunnen vervullen die reeds aan de taak en de kwestie worden toegewezen.
+   * **Rol van de Ontvanger:** selecteer de rol de gebruiker zou moeten gebruiken wanneer het vervullen van deze taak.  Standaard wordt de primaire rol van de gebruiker weergegeven. Klik in het **vakje van de Rol van 0&rbrace; toewijzen &lbrace;om een andere rol te selecteren.** Wanneer u eerst de taak of de kwestie aan een rol toewijst, en dan een gebruiker toevoegt die die rol als tweede taak kan vervullen, wordt de lijst van voorgestelde gebruikers gefiltreerd voor de gebruikers die de rollen kunnen vervullen die reeds aan de taak en de kwestie worden toegewezen.
 
      ![ Rol van de Ontvanger ](assets/advanced-assignments-select-role.png)
 

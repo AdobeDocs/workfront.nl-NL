@@ -301,7 +301,7 @@ Bij het synchroniseren van de mapinhoud van een externe documenttoepassing gebru
 
    In Workfront wordt het logo van de cloudprovider naast de map weergegeven om aan te geven dat het is gekoppeld aan de externe cloudprovider.
 
-1. (Facultatief) om de omslag anders te noemen zodat de omslagnaam in Workfront van de omslagnaam in de externe documenttoepassing verschillend is, selecteer de omslag in de **sectie 0} Omslagen {, klik het Meer menu ![ Meer ](assets/more-icon.png) dat naast de omslagnaam toont, dan** anders noemt **klikt.**
+1. (Facultatief) om de omslag anders te noemen zodat de omslagnaam in Workfront van de omslagnaam in de externe documenttoepassing verschillend is, selecteer de omslag in de **sectie 0&rbrace; Omslagen &lbrace;, klik het Meer menu ![ Meer ](assets/more-icon.png) dat naast de omslagnaam toont, dan** anders noemt **klikt.**
 
    ![ noem omslag anders ](assets/documents-folderlink-rename-nwe-350x154.png)
 

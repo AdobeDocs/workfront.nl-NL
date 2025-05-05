@@ -151,7 +151,7 @@ Om a **grafiek van de Bar** aan uw rapport toe te voegen:
 
 1. Begin toevoegend een grafiek aan uw rapport, zoals die in [ wordt beschreven voeg een grafiek aan een rapport ](#add-a-chart-to-a-report) toe.
 
-1. Op het **gebied van de As van 0} Onder (X), selecteer de waarden die u op de X as van de grafiek wilt omvatten, dan selecteren hoe u de informatie wilt worden samengevat in** die door **gebied wordt samengevat.**
+1. Op het **gebied van de As van 0&rbrace; Onder (X), selecteer de waarden die u op de X as van de grafiek wilt omvatten, dan selecteren hoe u de informatie wilt worden samengevat in** die door **gebied wordt samengevat.**
 
 1. (Facultatief) klik **de Kleuren van de Douane** om de kleuren van de bars aan te passen.\
    Voor meer informatie over het aanpassen van grafiekkleuren, zie [ kaartkleuren ](#customize-chart-colors) aanpassen.
@@ -228,7 +228,7 @@ Om a **grafiek van de Lijn** aan uw rapport toe te voegen:
 
 A **grafiek van de Gage** toont het aantal verslagen die aan een bepaalde criteria in een grafiekformaat voldoen. De indicator van de maat wijst op het aantal verslagen die aan de criteria voldoen die in de mening en groepering van het rapport worden geselecteerd. Een rapportgroepering wordt niet vereist om een grafiekgrafiek te vormen.
 
-Om a **grafiek van het 1} Grijs {aan uw rapport toe te voegen:**
+Om a **grafiek van het 1&rbrace; Grijs &lbrace;aan uw rapport toe te voegen:**
 
 1. Begin toevoegend een grafiek aan uw rapport, zoals die in [ wordt beschreven voeg een grafiek aan een rapport ](#add-a-chart-to-a-report) toe.
 
@@ -237,11 +237,11 @@ Om a **grafiek van het 1} Grijs {aan uw rapport toe te voegen:**
 1. Op het **gebied van Indicatoren**, selecteer de Groepering die u in de grafiek wilt omvatten. De groepering wordt vertegenwoordigd door de indicatorlijn op de grafiek.\
    Als u een Groepering hebt die twee punten bevat, worden twee indicatoren getoond op de grafiek.\
    Bijvoorbeeld, als u een Groepering van de Status van het Project hebt, en er twee projectstatussen (Huidige en Op Greep) zijn, bevat uw Grafiek twee meters. Zij zullen wijzen op het aantal projecten dat in die status verkeert.\
-   (Optioneel) Selecteer **Totaal** op het **3} gebied van Indicatoren {om het totaal van de voorwerpen te tonen die op het** worden geselecteerd Waarden **gebied.**
+   (Optioneel) Selecteer **Totaal** op het **3&rbrace; gebied van Indicatoren &lbrace;om het totaal van de voorwerpen te tonen die op het** worden geselecteerd Waarden **gebied.**
 
 1. (Facultatief) klik **Voeg een andere Waaier van de Waarde** toe om een waardewaaier aan de grafiek toe te voegen.
 
-1. (Facultatief) op het **gebied van de Waaier van de Waarde 0} {, specificeer de waaier van waarden en de kleur om die waarden te vertegenwoordigen om op de grafiek van het Grijs te tonen.**
+1. (Facultatief) op het **gebied van de Waaier van de Waarde 0&rbrace; &lbrace;, specificeer de waaier van waarden en de kleur om die waarden te vertegenwoordigen om op de grafiek van het Grijs te tonen.**
 
 1. Klik **sparen + Sluiten** om de grafiek en het rapport te bewaren.
 
@@ -279,7 +279,7 @@ Om a **Bubble** grafiek aan uw rapport toe te voegen:
 
    ![ status van de Taak als bel kleur ](assets/bubbles-field-correct-can-select-bubbles-color-example.png)
 
-   Nochtans, als u **Status van de Taak** voor het **Bubbles** gebied selecteerde, kunt u niet het gebied van de Kleur van de Bubbel van de a **** selecteren. Ook, kunt u niet **Naam van het Project** voor het **Bubble gebied van de Kleur** selecteren, zelfs wanneer u **Naam van het Project** voor het **Bubbles** gebied selecteert.
+   Nochtans, als u **Status van de Taak** voor het **Bubbles** gebied selecteerde, kunt u niet het gebied van de Kleur van de Bubbel van de a **&#x200B;**&#x200B;selecteren. Ook, kunt u niet **Naam van het Project** voor het **Bubble gebied van de Kleur** selecteren, zelfs wanneer u **Naam van het Project** voor het **Bubbles** gebied selecteert.
 
    ![ kan bellen kleur ](assets/bubbles-field-wrong-cannot-select-bubbles-color-example.png) niet selecteren
 

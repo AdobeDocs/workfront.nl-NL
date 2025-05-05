@@ -88,7 +88,7 @@ Nadat u de Desktop Proofing Viewer voor uw organisatie hebt geïnstalleerd, kunt
    * Als u het milieu van de Voorproef gebruikt, klik [ de Download van de Voorproef van Mac voor de Kijker van het Proofing van de Desktop ](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.19.pkg).
 
 1. Open het bestand dat u zojuist hebt gedownload om de installatie te starten.
-1. In het installatievakje dat verschijnt, ga **** voort, dan klik **installeer**.
+1. In het installatievakje dat verschijnt, ga **&#x200B;**&#x200B;voort, dan klik **installeer**.
 
    ![ doos van de Installatie ](assets/install-wf-proof-box.png)
 

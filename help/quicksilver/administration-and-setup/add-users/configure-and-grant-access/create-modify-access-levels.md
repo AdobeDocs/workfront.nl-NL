@@ -66,7 +66,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 {{step-1-to-setup}}
 
 1. Klik **Niveaus van de Toegang** in het linkerpaneel.
-1. 
+1. &#x200B;
    * In de productieomgeving:
 Selecteer het toegangsniveau u wilt kopiëren en aanpassen, dan **Exemplaar** klikken.
 

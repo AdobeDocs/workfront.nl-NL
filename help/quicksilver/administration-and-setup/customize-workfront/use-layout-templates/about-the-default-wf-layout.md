@@ -268,7 +268,7 @@ In de volgende tabel worden de standaarditems van het hoofdmenu en de items van 
 
 </tbody></table>
 
-*U moet zijn ingeschreven voor de bètaversie van canvasdashboards om dit gebied te kunnen bekijken. Voor meer informatie, zie {de bètainformatie van de Dashboards van het 0} Canvas ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).[
+*U moet zijn ingeschreven voor de bètaversie van canvasdashboards om dit gebied te kunnen bekijken. Voor meer informatie, zie {de bètainformatie van de Dashboards van het 0} Canvas [&#128279;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
 ### Standaardhoofdmenu voor nieuwe licentietypen
 
@@ -476,7 +476,7 @@ In de volgende tabel worden de standaarditems van het hoofdmenu en de items van 
   </tr>
 </tbody></table>
 
-*U moet zijn ingeschreven voor de bètaversie van canvasdashboards om dit gebied te kunnen bekijken. Voor meer informatie, zie {de bètainformatie van de Dashboards van het 0} Canvas ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).[
+*U moet zijn ingeschreven voor de bètaversie van canvasdashboards om dit gebied te kunnen bekijken. Voor meer informatie, zie {de bètainformatie van de Dashboards van het 0} Canvas [&#128279;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
 <!--
 

@@ -25,7 +25,7 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
 >
 >Alle wijzigingen worden automatisch opgeslagen wanneer u de blokken in uw rapport maakt en bewerkt.
 
-1. Begin door een visualisatieblok met het **visualisatietype 0} Bar {aan een rapport toe te voegen, zoals die in [ wordt verklaard voeg of geef een visualisatieblok in het Melden van Canvas ](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md) toe uit.**
+1. Begin door een visualisatieblok met het **visualisatietype 0&rbrace; Bar &lbrace;aan een rapport toe te voegen, zoals die in [ wordt verklaard voeg of geef een visualisatieblok in het Melden van Canvas ](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md) toe uit.**
 
 1. Klik het Edit visualisatiepictogram ![ uitgeven pictogram ](assets/edit-icon.png) in de hoger-juiste hoek van visualisatie, dan doe om het even welk volgend.
 

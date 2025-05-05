@@ -33,7 +33,7 @@ De wijziging van de landinstelling heeft geen invloed op de begindag van de week
 Hier volgt een overzicht van de aanwijzingen voor het wijzigen van de taal- en landinstellingen voor verschillende browsers die worden ondersteund door Workfront.
 
 * **Chrome:** Kopieer en kleef de volgende verbinding in uw browser van Chrome: `chrome://settings/languages` ga dan naar Talen.
-* **Firefox:**Kopieer en plak de volgende koppeling naar uw Firefox-browser: `about:preferences#content` ga vervolgens naar Talen.
+* **Firefox:**&#x200B;Kopieer en plak de volgende koppeling naar uw Firefox-browser: `about:preferences#content` ga vervolgens naar Talen.
 * **IE 11:** Hulpmiddelen -> de Opties van Internet -> Algemeen -> Talen
 * **Safari:** Jammer genoeg, staat Safari niet veranderende Web het doorbladeren talen toe zonder ook uw volledige werkend systeemtaal te veranderen. Het is waarschijnlijk gemakkelijker om een andere browser, zoals Chrome of Firefox, te installeren.
 

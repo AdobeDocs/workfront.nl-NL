@@ -88,7 +88,7 @@ of
 
 ## Navigeren door de sectie Goal Alignment
 
-1. Klik het **pictogram van het 1} Belangrijkste Menu ![ Belangrijkste menupictogram ](../goal-alignment/assets/dots-main-menu-icon.png) in de hoger-juiste hoek van uw scherm, dan klik** Doelen **.**
+1. Klik het **pictogram van het 1&rbrace; Belangrijkste Menu ![ Belangrijkste menupictogram ](../goal-alignment/assets/dots-main-menu-icon.png) in de hoger-juiste hoek van uw scherm, dan klik** Doelen **.**
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-alignment/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 1. Klik **Goal Alignment** in het linkerpaneel.

@@ -52,7 +52,7 @@ Machtigingen gelden specifiek voor één item in Workfront en definiëren welke 
 
 * Wanneer u een malplaatje deelt, erven alle malplaatjetaken en documenten, evenals de kwesties op het toekomstige project dat van het malplaatje wordt gecreeerd de zelfde toestemmingen, tenzij anders gespecificeerd.
 
-  Voor informatie over het beheren van de toegang tot malplaatjetaken en kwesties op het project dat op de toestemmingen van een gebruiker aan het project wordt gebaseerd, zie de ](../../manage-work/projects/create-and-manage-templates/edit-templates.md#access) sectie van de Toegang [ in artikel [ projectmalplaatjes ](../../manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
+  Voor informatie over het beheren van de toegang tot malplaatjetaken en kwesties op het project dat op de toestemmingen van een gebruiker aan het project wordt gebaseerd, zie de [&#128279;](../../manage-work/projects/create-and-manage-templates/edit-templates.md#access) sectie van de Toegang  in artikel [ projectmalplaatjes ](../../manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
 
 * De Workfront-beheerder kan opgeven of documenten machtigingen van hogere objecten moeten overnemen op het toegangsniveau van de gebruiker. Voor meer informatie over het beperken van geërfte toestemmingen op documenten, zie [ tot douanetoegangsniveaus ](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
 

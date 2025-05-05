@@ -110,7 +110,7 @@ U kunt de opmerkingen die worden weergegeven, filteren door filterparameter zoal
 
 1. Klik **toepassen** of klik het **pictogram van de Filter** om de commentaarlijst met uw toegepaste filtercriteria te bekijken. Het pictogram Filter wordt weergegeven met een blauwe stip om aan te geven dat een filter wordt toegepast.
 
-1. Wanneer u gebeëindigd het filtreren bent en u alle commentaren wilt zien, klik het **pictogram van de Filter**, klik **Terugstellen**, dan klik opnieuw het **** pictogram van de Filter {.
+1. Wanneer u gebeëindigd het filtreren bent en u alle commentaren wilt zien, klik het **pictogram van de Filter**, klik **Terugstellen**, dan klik opnieuw het **&#x200B;**&#x200B;pictogram van de Filter &lbrace;.
 
 ## De lijst met opmerkingen sorteren
 

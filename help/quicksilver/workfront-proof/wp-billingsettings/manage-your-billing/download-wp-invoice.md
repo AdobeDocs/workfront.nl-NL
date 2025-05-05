@@ -2,7 +2,7 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: manage-your-billing-workfront-proof
-title: Het downloaden van Uw { [!DNL Workfront Proof]  Factuur
+title: Het downloaden van Uw &lbrace; [!DNL Workfront Proof]  Factuur
 description: Op de eerste dag van een nieuwe factureringsperiode wordt uw abonnementsfactuur verzonden naar de belangrijkste contactpersoon voor facturatie op uw account en naar het e-mailadres voor facturering van CC, als u er een hebt gedefinieerd.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents

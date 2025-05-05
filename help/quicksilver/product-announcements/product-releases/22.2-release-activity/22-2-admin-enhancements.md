@@ -61,7 +61,7 @@ Eerder waren aangepaste formulieren volledig gebaseerd op tekst.
 
 ## Nieuwe standaardconfiguraties op toegangsniveau
 
-Om beter aan de behoeften van de meeste beheerders aan te passen die nieuwe toegangsniveaus creëren, hebben wij de standaardconfiguratie voor de &quot;verfijnen uw montages&quot;hieronder vermelde opties veranderd. Deze vertoning wanneer u het tandwielpictogram van de Niveaus van de Toegang ](assets/gear-icon-in-access-levels.png) op een Edit knoop klikt.![
+Om beter aan de behoeften van de meeste beheerders aan te passen die nieuwe toegangsniveaus creëren, hebben wij de standaardconfiguratie voor de &quot;verfijnen uw montages&quot;hieronder vermelde opties veranderd. Deze vertoning wanneer u het tandwielpictogram van de Niveaus van de Toegang ![&#128279;](assets/gear-icon-in-access-levels.png) op een Edit knoop klikt.
 
 Met al deze wijzigingen wordt een optie uitgeschakeld die eerder standaard was ingeschakeld. Als dit niet aan de behoeften van uw organisatie past, kunt u hen toelaten wanneer u opstelling een nieuw toegangsniveau, of om het even welk tijd later.
 

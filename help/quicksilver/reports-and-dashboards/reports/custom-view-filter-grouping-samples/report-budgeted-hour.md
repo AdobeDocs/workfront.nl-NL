@@ -72,7 +72,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Een rapport over een &#39;Budgeted Hour&#39; maken
 
-1. Klik het **pictogram van het 1} Belangrijkste Menu ![ pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, of het** Belangrijkste pictogram van het Menu **pictogram ![ Belangrijkste lijnen van het Menu ](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar, dan klik** Rapporten **.**
+1. Klik het **pictogram van het 1&rbrace; Belangrijkste Menu ![ pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, of het** Belangrijkste pictogram van het Menu **pictogram ![ Belangrijkste lijnen van het Menu ](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar, dan klik** Rapporten **.**
 
 1. Klik **Nieuw Rapport** > **Meer** > **Beoogde Uur**.
 

@@ -67,9 +67,9 @@ Als dit niet het geval is, kunt u de onderstaande stappen volgen.
    * Als u het milieu van de Voorproef gebruikt, klik [ de Download van de Voorproef van Mac voor de Kijker van het Proofing van de Desktop.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.44.pkg)
 
 1. Open het bestand dat u zojuist hebt gedownload om de installatie te starten.
-1. Voor de installatievak die verschijnt, ga **** voort, dan klik **installeer**.
+1. Voor de installatievak die verschijnt, ga **&#x200B;**&#x200B;voort, dan klik **installeer**.
 
-   ![ 0}000776.png ](assets/00000776-350x244.png)
+   ![ 0&rbrace;000776.png ](assets/00000776-350x244.png)
 
 1. Open een interactieve proefdruk vanuit het gebied Documenten.
 

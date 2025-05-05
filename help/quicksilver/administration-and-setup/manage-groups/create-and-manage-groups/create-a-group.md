@@ -146,7 +146,7 @@ Een nieuwe bovenste groep maken door een groep of subgroep te kopiëren:
    In de lijst die wordt weergegeven, ziet u de groepen die u beheert, samen met eventuele subgroepen die u beheert. Adobe Workfront-beheerders kunnen alle groepen zien.
 
 1. Selecteer de groep u wilt kopiëren, dan het pictogram van het Exemplaar ![ pictogram van het Exemplaar ](assets/copy-icon.png) klikken.
-1. In het **vakje van de Groep van het 0} Exemplaar dat verschijnt, typ de Naam van de a** Groep **voor de gekopieerde groep.**
+1. In het **vakje van de Groep van het 0&rbrace; Exemplaar dat verschijnt, typ de Naam van de a** Groep **voor de gekopieerde groep.**
 
 1. Geef de volgende informatie op:
 

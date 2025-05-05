@@ -80,7 +80,7 @@ Workfront slaat nu objectstatussen op een nieuwe manier op.
 
 Deze wijzigingen hebben geen invloed op de manier waarop verzoeken om statuszoekopdrachten worden gedaan. API-aanvragen met een zoekopdracht naar objectstatus retourneren echter een onvolledige lijst met groepsstatussen.
 
-Voor meer informatie, zie {de veranderingen van 0} Kern API: De antwoorden van het het onderzoek van de status ](../../../wf-api/api/api-changes-search.md).[
+Voor meer informatie, zie {de veranderingen van 0} Kern API: De antwoorden van het het onderzoek van de status [&#128279;](../../../wf-api/api/api-changes-search.md).
 
 ## Betalingen voor abonnementen voor gebeurtenissen bijgewerkt met alle velden die eindigen op de id
 

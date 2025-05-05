@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 >Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
 
-Revisoren met bewerkingsrechten op een proefdruk kunnen een kopie van de proefdruk maken als een nieuwe versie van de bestaande proefdruk of als een nieuwe proefdruk. (Zie voor meer informatie. Voor informatie over geef rechten uit, zie {de Profielen van de Toestemmingen van 0}  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).)[
+Revisoren met bewerkingsrechten op een proefdruk kunnen een kopie van de proefdruk maken als een nieuwe versie van de bestaande proefdruk of als een nieuwe proefdruk. (Zie voor meer informatie. Voor informatie over geef rechten uit, zie {de Profielen van de Toestemmingen van 0}  [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).)
 
 De controleurs die zich op de oorspronkelijke proefdruk bevonden, worden automatisch weergegeven in de sectie [!UICONTROL Share] van de pagina [!UICONTROL Copy proof] , maar ze kunnen worden verwijderd. Als een revisor wordt verwijderd, blijven de opmerkingen ongewijzigd.
 

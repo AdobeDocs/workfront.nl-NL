@@ -208,7 +208,7 @@ In de volgende tabellen worden de te importeren gebruikers en diverse gebruikers
 
    Tenzij u al groepen hebt gemaakt in Workfront, wordt op dit blad alleen de standaardgroep weergegeven die is ingericht voor elke account van Workfront.
 
-   ](assets/groupsheet-350x15.png) ![ Lege groepsblad van 0} Groep ](assets/emptygroupsheet-350x85.png)![
+   ![&#128279;](assets/groupsheet-350x15.png) ![ Lege groepsblad van 0&rbrace; Groep ](assets/emptygroupsheet-350x85.png)
 
 1. Plaats **isNew** column.Volgens het scenario, zullen 4 groepen worden ingevoerd, zo specificeer WAAR in rijen 4 door 7 voor de &quot;isNew&quot;kolom.
 1. Geef een unieke id op.
@@ -255,7 +255,7 @@ In de volgende tabellen worden de te importeren gebruikers en diverse gebruikers
 
    Tenzij u al gebruikers in uw account hebt gemaakt, wordt op dit blad alleen de Admin-gebruiker weergegeven die voor elke account van Workfront is ingericht.
 
-   ](assets/rolenames-350x104.png) ![ Lege gebruikersblad van de Rol 0} ](assets/emptyusersheet-350x52.png)![
+   ![&#128279;](assets/rolenames-350x104.png) ![ Lege gebruikersblad van de Rol 0&rbrace; ](assets/emptyusersheet-350x52.png)
 
 1. Stel de waarde True in door TRUE op te geven in de rijen 4 tot en met 9 voor de kolom &#39;isNew&#39;, aangezien er 6 gebruikers worden geïmporteerd.
 

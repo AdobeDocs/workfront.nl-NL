@@ -89,7 +89,7 @@ Voor informatie over het creëren van een rapport, zie [ een douanerapport ](../
 
 1. Voer een van de volgende handelingen uit:
 
-   1. Om tot de groepering van een rapport toegang te hebben, ga naar het rapport, dan klik **de Acties van het 0} Rapport** uitgeven **>** Groepen **tabel.**
+   1. Om tot de groepering van een rapport toegang te hebben, ga naar het rapport, dan klik **de Acties van het 0&rbrace; Rapport** uitgeven **>** Groepen **tabel.**
    1. Om tot het groeperen van een lijst toegang te hebben, ga naar de lijst en van het **Groeperen** drop-down menu, muis over de groepering die u wilt wijzigen en **klikken geeft** pictogram ![ pictogram uit ](assets/edit-icon.png).
 
       De groeperingsbouwer wordt geopend.
