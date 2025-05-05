@@ -32,7 +32,7 @@ De volgende verbeteringen zijn nu beschikbaar met deze nieuwe functie:
 
 Voor informatie over de inspanning van het Werk, zie [ Overzicht van de Werkinspanning van het Werk ](../../../manage-work/tasks/task-information/work-effort.md).
 
-Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Planner, Deel 2 het leren weg ](https://experienceleague.adobe.com/en/docs/workfront/using/home) op Workfront Één.
+Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Planner, Deel 2 het leren weg ](https://experienceleague.adobe.com/nl/docs/workfront/using/home) op Workfront Één.
 
 ## Op projectstatus gebaseerde kleuren voor werkitems in werklastverdeling
 

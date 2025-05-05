@@ -31,4 +31,4 @@ Met bepaalde e-mailberichten kunnen gebruikers via e-mail reageren en het antwoo
 
 E-mailberichten die rechtstreeks afkomstig zijn van het Workfront Proof-systeem worden niet gewijzigd. Je blijft deze e-mailberichten ontvangen zoals je in het verleden hebt gedaan.
 
-Als u andere vragen of ongerustheid hebt, gelieve te contacteren het [ Team van de Steun van Workfront ](https://experienceleague.adobe.com/?support-tab=home#support).
+Als u andere vragen of ongerustheid hebt, gelieve te contacteren het [ Team van de Steun van Workfront ](https://experienceleague.adobe.com/nl?support-tab=home#support).

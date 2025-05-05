@@ -64,7 +64,7 @@ Voor informatie over het filtreren in de Balancer van de Werklast, zie [ filters
 
 Om u te helpen correcte toewijzingsbesluiten maken, staat een nieuwe het plaatsen u nu toe om het verschil van uren tussen de uren te bekijken een gebruiker aan werk volgens hun programma en de uren beschikbaar is dat zij reeds aan het werk (de resterende uren) zijn toegewezen. De nieuwe instelling is nu beschikbaar in Workload Balancer.
 
-Voor informatie over het bekijken van informatie in de Balancer van de Werklast, zie [ de Balancer van de Werkbelasting ](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (of als u Klassiek Adobe Workfront gebruikt, zie [ de Balancer van de Werkbelasting ](https://experienceleague.adobe.com/en/docs/workfront/using/home) navigeren.)
+Voor informatie over het bekijken van informatie in de Balancer van de Werklast, zie [ de Balancer van de Werkbelasting ](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (of als u Klassiek Adobe Workfront gebruikt, zie [ de Balancer van de Werkbelasting ](https://experienceleague.adobe.com/nl/docs/workfront/using/home) navigeren.)
 
 **Beschikbaar in deze milieu&#39;s:**
 
@@ -76,7 +76,7 @@ Om u te helpen begrijpen hoe de taken de werkbelasting van uw gebruikers zullen 
 
 Vóór deze wijziging was deze instelling alleen van toepassing op informatie in het gebied Toegewezen werk van Balancer.
 
-Voor informatie over het navigeren van de Balancer van de Werklast, zie [ de Balancer van de Werkbelasting ](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (of als u Klassiek Adobe Workfront gebruikt, zie [ de Balancer van de Werkbelasting ](https://experienceleague.adobe.com/en/docs/workfront/using/home) navigeren.)
+Voor informatie over het navigeren van de Balancer van de Werklast, zie [ de Balancer van de Werkbelasting ](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (of als u Klassiek Adobe Workfront gebruikt, zie [ de Balancer van de Werkbelasting ](https://experienceleague.adobe.com/nl/docs/workfront/using/home) navigeren.)
 
 **Beschikbaar in deze milieu&#39;s:**
 
@@ -90,7 +90,7 @@ Om uw ervaring te stroomlijnen, is een vakje van Montages nu beschikbaar dat ext
 * Groeperen op project
 * Toon of de Toegewezen uren of de Resterende uren voor uw taken en projecten.
 
-Voor informatie over het bekijken van informatie in de Balancer van de Werklast, zie [ de Balancer van de Werkbelasting ](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (of als u Klassiek Adobe Workfront gebruikt, zie [ de Balancer van de Werkbelasting ](https://experienceleague.adobe.com/en/docs/workfront/using/home) navigeren.)
+Voor informatie over het bekijken van informatie in de Balancer van de Werklast, zie [ de Balancer van de Werkbelasting ](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (of als u Klassiek Adobe Workfront gebruikt, zie [ de Balancer van de Werkbelasting ](https://experienceleague.adobe.com/nl/docs/workfront/using/home) navigeren.)
 
 **Beschikbaar in deze milieu&#39;s:**
 
@@ -101,7 +101,7 @@ Voor informatie over het bekijken van informatie in de Balancer van de Werklast,
 
 U kunt de werklast van uw mensen nu delen met managers zodat zij context over uw personeelsbehoeften kunnen hebben. Hiervoor kunt u de werklastbalans nu delen door een unieke URL te delen met de werklastverdeler.
 
-Voor informatie over het navigeren van de Balancer van de Werkbelasting, zie [ de Balancer van de Werkbelasting ](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (of als u Klassiek Adobe Workfront gebruikt, zie [ de Balancer van de Werkbelasting ](https://experienceleague.adobe.com/en/docs/workfront/using/home) navigeren).
+Voor informatie over het navigeren van de Balancer van de Werkbelasting, zie [ de Balancer van de Werkbelasting ](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (of als u Klassiek Adobe Workfront gebruikt, zie [ de Balancer van de Werkbelasting ](https://experienceleague.adobe.com/nl/docs/workfront/using/home) navigeren).
 
 **Beschikbaar in deze milieu&#39;s:**
 
@@ -114,7 +114,7 @@ Om u verder te helpen de tijdlijnduur voor de werklastbalans aan uw behoeften aa
 
 Vóór deze verbetering, toonde de Balancer van de Werkbelasting altijd informatie die met de huidige week begon.
 
-Voor informatie over het navigeren van de Balancer van de Werkbelasting, zie [ de Balancer van de Werkbelasting ](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (of als u Klassiek Adobe Workfront gebruikt, zie [ de Balancer van de Werkbelasting ](https://experienceleague.adobe.com/en/docs/workfront/using/home) navigeren).
+Voor informatie over het navigeren van de Balancer van de Werkbelasting, zie [ de Balancer van de Werkbelasting ](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (of als u Klassiek Adobe Workfront gebruikt, zie [ de Balancer van de Werkbelasting ](https://experienceleague.adobe.com/nl/docs/workfront/using/home) navigeren).
 
 **Beschikbaar in deze milieu&#39;s:**
 
@@ -129,11 +129,11 @@ Bijvoorbeeld, wanneer u of kopieert een taak met moet Begin op beperking aan een
 
 Voorafgaand aan deze verandering, verandert de Beperking van de Taak altijd in zo spoedig mogelijk.
 
-Voor informatie over het bewegen van taken zie, [ de taken van de Beweging ](../../../manage-work/tasks/manage-tasks/move-tasks.md) (of als u Classic Adobe Workfront gebruikt, zie [ Bewegende Taken ](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
+Voor informatie over het bewegen van taken zie, [ de taken van de Beweging ](../../../manage-work/tasks/manage-tasks/move-tasks.md) (of als u Classic Adobe Workfront gebruikt, zie [ Bewegende Taken ](https://experienceleague.adobe.com/nl/docs/workfront/using/home)).
 
-Voor informatie over het kopiëren van taken, zie [ Kopiëren en dupliceren taken ](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (of als u de Klassieke van Adobe Workfront gebruikt, zie [ Taken ](https://experienceleague.adobe.com/en/docs/workfront/using/home) Exemplaar en Dupliceren).
+Voor informatie over het kopiëren van taken, zie [ Kopiëren en dupliceren taken ](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (of als u de Klassieke van Adobe Workfront gebruikt, zie [ Taken ](https://experienceleague.adobe.com/nl/docs/workfront/using/home) Exemplaar en Dupliceren).
 
-Voor een overzicht van alle Beperkingen van de Taak, zie [ Overzicht van de Beperking van de Taak ](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (of als u Klassiek Adobe Workfront gebruikt, zie [ Overzicht van de Restrictie van de Taak ](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
+Voor een overzicht van alle Beperkingen van de Taak, zie [ Overzicht van de Beperking van de Taak ](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (of als u Klassiek Adobe Workfront gebruikt, zie [ Overzicht van de Restrictie van de Taak ](https://experienceleague.adobe.com/nl/docs/workfront/using/home)).
 
 **Beschikbaar in deze milieu&#39;s:**
 
@@ -161,9 +161,9 @@ Aangepaste statussen kunnen nu worden gebruikt in goedkeuringsprocessen voor een
 * Maak een goedkeuringsproces voor één gebruik voor een object (project, taak of uitgave) en baseer dit op statussen die zijn gekoppeld aan de groep die aan dat object werkt. Dit omvat alle aangepaste statussen die aan de groep zijn gekoppeld.
 * Maak een algemeen goedkeuringsproces en stel dit alleen beschikbaar voor de groep of voor iedereen in het systeem.
 
-Voor gebruikers met administratieve toegang tot goedkeuringsprocessen, is de informatie over het vormen van goedkeuringsprocessen beschikbaar in [ creeer een goedkeuringsproces voor het werkpunten ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) (of als u de Klassiek van Adobe Workfront gebruikt, zie [ Creërend de Processen van de Goedkeuring ](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
+Voor gebruikers met administratieve toegang tot goedkeuringsprocessen, is de informatie over het vormen van goedkeuringsprocessen beschikbaar in [ creeer een goedkeuringsproces voor het werkpunten ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) (of als u de Klassiek van Adobe Workfront gebruikt, zie [ Creërend de Processen van de Goedkeuring ](https://experienceleague.adobe.com/nl/docs/workfront/using/home)).
 
-Voor gebruikers, is de informatie over het associëren van goedkeuringsprocessen met het werkpunten beschikbaar in [ associëren een nieuw of bestaand goedkeuringsproces met het werk ](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) (of als u de Klassiek van Adobe Workfront gebruikt, zie [ het Associeren van een Nieuw of Bestaand Erkenningsproces met het Werk ](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
+Voor gebruikers, is de informatie over het associëren van goedkeuringsprocessen met het werkpunten beschikbaar in [ associëren een nieuw of bestaand goedkeuringsproces met het werk ](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) (of als u de Klassiek van Adobe Workfront gebruikt, zie [ het Associeren van een Nieuw of Bestaand Erkenningsproces met het Werk ](https://experienceleague.adobe.com/nl/docs/workfront/using/home)).
 
 **Beschikbaar in deze milieu&#39;s:**
 

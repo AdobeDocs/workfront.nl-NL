@@ -48,7 +48,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> -->
   <tr> 
    <td role="rowheader">Product</td> 
-   <td><p>U moet een [!DNL Adobe Creative Cloud] licentie hebben naast een [!DNL Workfront] licentie.</p><p>Voor meer informatie, zie <a href="https://helpx.adobe.com/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}"> Beleid van de Steun van het Creative Cloud </a>.</p></td> 
+   <td><p>U moet een [!DNL Adobe Creative Cloud] licentie hebben naast een [!DNL Workfront] licentie.</p><p>Voor meer informatie, zie <a href="https://helpx.adobe.com/nl/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}"> Beleid van de Steun van het Creative Cloud </a>.</p></td> 
   </tr> 
  </tbody> 
 </table>

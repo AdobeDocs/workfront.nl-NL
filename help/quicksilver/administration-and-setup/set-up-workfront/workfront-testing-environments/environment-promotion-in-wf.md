@@ -153,7 +153,7 @@ Deze statussen zijn onder andere:
   </tr> 
   <tr> 
    <td>ASSEMBLING_FAILED</td> 
-   <td><p>Het promotiepakket wordt automatisch in deze status geplaatst als de ASSEMBLING-fase mislukt.</p><p>Als u het pakket wilt terugbrengen naar het ASSEMBLING-werkgebied, moet u het assemblageproces opnieuw activeren.</p><p>Voor details bij het assembleren van een pakket, zie de sectie <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package"> uitgeven of een bestaand pakket </a> in artikel assembleren creeer of geef een pakket van de milieubevordering uit.</td> 
+   <td><p>Het promotiepakket wordt automatisch in deze status geplaatst als de ASSEMBLING-fase mislukt.</p><p>Als u het pakket wilt terugbrengen naar het ASSEMBLING-werkgebied, moet u het assemblageproces opnieuw activeren.</p><p>Voor details bij het assembleren van een pakket, zie de sectie <a href="https://experienceleague.adobe.com/nl/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package"> uitgeven of een bestaand pakket </a> in artikel assembleren creeer of geef een pakket van de milieubevordering uit.</td> 
   </tr> 
   </tbody> 
 </table>

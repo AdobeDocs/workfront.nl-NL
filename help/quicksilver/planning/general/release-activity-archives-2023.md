@@ -76,7 +76,7 @@ Productie: 21 december 2023
 >
 >Uw organisatie moet Adobe Workfront Fusion aanschaffen om verbindingen te kunnen maken met de planningsmogelijkheden van Adobe Workfront.
 >
->Voor informatie, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>Voor informatie, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 Nu kunt u Adobe Workfront Fusion gebruiken om verbinding te maken met de planningsmogelijkheden. Met de nieuwe Fusion-verbinding kunt u:
 
@@ -92,7 +92,7 @@ Nu kunt u Adobe Workfront Fusion gebruiken om verbinding te maken met de plannin
 
 * Een scenario activeren wanneer een wijziging wordt aangebracht in de planningsmogelijkheden
 
-Voor meer informatie, zie [ de Modules van de Planning van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules).
+Voor meer informatie, zie [ de Modules van de Planning van Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules).
 
 ## Week van 11 december 2023
 

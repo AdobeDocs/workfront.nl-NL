@@ -30,9 +30,9 @@ Voor klanten op Adobe Experience Manager Assets as a Cloud Service zal het migra
 >
 >Een verklaarde partner of de Diensten van Adobe Consulting worden vereist voor implementatie van de verbeterde schakelaar.
 >
-> Voor partners die op de verbeterde schakelaar willen verklaren gelieve het volgende artikel te herzien: [ Workfront voor Experience Manager verbeterde schakelaarDeskundige Reeks ](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview).
+> Voor partners die op de verbeterde schakelaar willen verklaren gelieve het volgende artikel te herzien: [ Workfront voor Experience Manager verbeterde schakelaarDeskundige Reeks ](https://experienceleague.adobe.com/nl/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview).
 
-Om de verbeterde schakelaar uit te voeren, zie [ Workfront voor Experience Manager verbeterde schakelaar ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/integrations/workfront-connector-configure) vormen.
+Om de verbeterde schakelaar uit te voeren, zie [ Workfront voor Experience Manager verbeterde schakelaar ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/integrations/workfront-connector-configure) vormen.
 
 
 ## Bestaande elementen verplaatsen

@@ -41,15 +41,15 @@ Met de Workfront for Experience Manager verbeterde connector kunt u nu:
 ## Vereisten en ondersteunde platforms
 
 * Adobe Workfront
-* [ Adobe Experience Manager as a Cloud Service Assets ](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-cloud-service.html)
-* [ Adobe Experience Manager 6.5 Assets on-premise ](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-on-premise.html)
-* [ Adobe Experience Manager 6.5 Assets as a Managed Service ](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-managed-services.html)
+* [ Adobe Experience Manager as a Cloud Service Assets ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-experience-manager-cloud-service.html)
+* [ Adobe Experience Manager 6.5 Assets on-premise ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-experience-manager-on-premise.html)
+* [ Adobe Experience Manager 6.5 Assets as a Managed Service ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-experience-manager-managed-services.html)
 * Adobe Experience Manager Assets ter plaatse
 * Adobe Experience Manager Assets as a Managed Service
 
 ## Aan de slag
 
-1. **installeer en vorm de schakelaar**. Met behulp van een gecertificeerde partner of Adobe Professional Services installeert en configureert u de Workfront for Experience Manager Enhanced-connector om processen te organiseren, te standaardiseren, governance tot stand te brengen en de levenscyclus van de middelen te stroomlijnen, van ontwerp tot levering. [ installeer in Adobe Experience Manager 6.5 ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/integrations/workfront-integrations) of [ installeert in Adobe Experience Manager as a Cloud Service ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install).
+1. **installeer en vorm de schakelaar**. Met behulp van een gecertificeerde partner of Adobe Professional Services installeert en configureert u de Workfront for Experience Manager Enhanced-connector om processen te organiseren, te standaardiseren, governance tot stand te brengen en de levenscyclus van de middelen te stroomlijnen, van ontwerp tot levering. [ installeer in Adobe Experience Manager 6.5 ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/integrations/workfront-integrations) of [ installeert in Adobe Experience Manager as a Cloud Service ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install).
 1. **Gebruik de schakelaar**. Bekijk de mogelijkheden van de verbeterde aansluiting in actie met het automatisch genereren van projectgekoppelde mappen in Experience Manager Assets, Workfront-metagegevens toegewezen aan Experience Manager Assets en mappen, bidirectionele metagegevenssynchronisatie en nog veel meer. Voor meer informatie, zie [ Workfront voor Experience Manager verbeterde schakelaar ](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md).
 
 ## Meer als dit

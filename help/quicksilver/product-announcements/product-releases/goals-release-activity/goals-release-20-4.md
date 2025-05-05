@@ -47,7 +47,7 @@ We blijven verbeteringen aanbrengen in de manier waarop je Workfront-doelen gebr
 >
 >**de beschikbaarheid van de Productie:** met de versie 20.4
 
-Deze eigenschap is nu inbegrepen in de [ Leerweg van Workfront Doelen ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) op Workfront Één.
+Deze eigenschap is nu inbegrepen in de [ Leerweg van Workfront Doelen ](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) op Workfront Één.
 
 ## Toegangsbeheer voor Workfront-doelen
 
@@ -61,7 +61,7 @@ Voor informatie over het verlenen van toegang tot de Doelen van Workfront, zie [
 >
 >**de beschikbaarheid van de Productie:** met de versie 20.4
 
-Deze eigenschap is nu inbegrepen in de [ Leerweg van Workfront Doelen ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) op Workfront Één.
+Deze eigenschap is nu inbegrepen in de [ Leerweg van Workfront Doelen ](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) op Workfront Één.
 
 ## Verbeteringen voor gebruiksvriendelijkheid van Workfront
 
@@ -82,4 +82,4 @@ Raadpleeg de volgende artikelen voor meer informatie:
 >
 >**de beschikbaarheid van de Productie:** met de versie 20.4
 
-Deze eigenschap is nu inbegrepen in de [ Leerweg van Workfront Doelen ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) op Workfront Één.
+Deze eigenschap is nu inbegrepen in de [ Leerweg van Workfront Doelen ](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) op Workfront Één.

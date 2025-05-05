@@ -44,4 +44,4 @@ Voor meer informatie over de [!UICONTROL [!DNL Adobe Workfront] for [!DNL Creati
 
 Pakketten worden gemaakt via de lus [!DNL Adobe Admin Console] .
 
-Voor instructies bij het creëren van deze pakketten, zie [ Beheerde Pakketten ](https://helpx.adobe.com/enterprise/using/create-nul-packages.html#managed-packages) in de documentatie van Adobe Admin Console.
+Voor instructies bij het creëren van deze pakketten, zie [ Beheerde Pakketten ](https://helpx.adobe.com/nl/enterprise/using/create-nul-packages.html#managed-packages) in de documentatie van Adobe Admin Console.

@@ -34,7 +34,7 @@ Uitgebreide analyses kunnen u helpen identificeren:
 
 ![ Analytics ](assets/nwe-full-screen-analytics-350x222.png)
 
-Om gebruiksgevallen te zien of meer te leren over het beheren van huidig werk en het plannen voor toekomstig werk met Verbeterde analyses, zie [ Verbeterde analytische het Leren Wegen ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
+Om gebruiksgevallen te zien of meer te leren over het beheren van huidig werk en het plannen voor toekomstig werk met Verbeterde analyses, zie [ Verbeterde analytische het Leren Wegen ](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home).
 
 ## Vereisten
 
@@ -46,7 +46,7 @@ Voor toegang tot het gebied Verbeterde analysemogelijkheden moet u:
 
 * Uw Workfront-beheerder uitgebreide analyses laten toevoegen aan uw lay-outsjabloon.
 
-  Voor meer informatie, zie [ Verbeterde Analytics: Het toevoegen van analyses aan lay-outmalplaatjes ](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+  Voor meer informatie, zie [ Verbeterde Analytics: Het toevoegen van analyses aan lay-outmalplaatjes ](https://experienceleague.adobe.com/nl/docs/workfront/using/home).
 
 Om informatie voor projecten en taken te zien, moet u:
 

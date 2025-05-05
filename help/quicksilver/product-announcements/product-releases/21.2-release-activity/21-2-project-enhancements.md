@@ -29,7 +29,7 @@ Als deel van het herontwerp van de Nieuwe en geef Taakdozen uit, hebben wij de c
 
 Voor meer informatie, zie [ terugkomende taken ](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md) creëren.
 
-Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Planner voor de nieuwe ervaring van Workfront, Deel 2: Plan een project ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) het leren weg op Workfront Één.
+Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Planner voor de nieuwe ervaring van Workfront, Deel 2: Plan een project ](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) het leren weg op Workfront Één.
 
 ## Nieuwe knoppen beschikbaar in de koptekst Projecten
 
@@ -39,7 +39,7 @@ Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Planner voor de 
 
 Om u toe te staan om de lijst van projecten op de pagina van Projecten snel te filtreren, zijn er twee nieuwe knopen in de kopbal die u toestaan om de Projecten snel toe te passen ik ben of Projecten I Eigen filter.
 
-Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Planner voor de nieuwe ervaring van Workfront, Deel 1: Creeer een project ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) het leren weg op Workfront Één.
+Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Planner voor de nieuwe ervaring van Workfront, Deel 1: Creeer een project ](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) het leren weg op Workfront Één.
 
 ## Een artikel of probleem verplaatsen of verwijderen via het Klembord
 
@@ -133,9 +133,9 @@ Gebruikers kunnen nu in aangepaste velden tekstopmaak, zoals vette letters, lijs
 
 Eerder in Workfront Classic was tekstopmaak alleen zichtbaar in de lijsten Project, Taak en Uur.
 
-Voor informatie over het formatteren van tekst op een douanegebied, zie [ een douanevorm ](https://experienceleague.adobe.com/en/docs/workfront/using/home) creëren.
+Voor informatie over het formatteren van tekst op een douanegebied, zie [ een douanevorm ](https://experienceleague.adobe.com/nl/docs/workfront/using/home) creëren.
 
-Voor informatie over het tonen van informatie in lijsten, zie [ begonnen worden met lijsten ](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+Voor informatie over het tonen van informatie in lijsten, zie [ begonnen worden met lijsten ](https://experienceleague.adobe.com/nl/docs/workfront/using/home).
 
 ## Nieuw taakvenster Bewerken
 

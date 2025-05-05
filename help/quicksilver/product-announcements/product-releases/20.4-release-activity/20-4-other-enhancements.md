@@ -27,7 +27,7 @@ In de nieuwe Workfront-ervaring wordt de optie Overschakelen naar klassieke modu
 
 In Workfront Classic wordt de optie Overschakelen naar nieuwe ervaring weergegeven in het menu dat wordt weergegeven wanneer u op de profielafbeelding klikt in de rechterbovenhoek van de algemene navigatiebalk.
 
-Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Beheerder, Deel 1 het leren weg ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) op Workfront Één.
+Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Beheerder, Deel 1 het leren weg ](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) op Workfront Één.
 
 ## Verbeterde codering voor Workfront Proof
 
@@ -62,7 +62,7 @@ U ziet ook dat onze moderne stijl nu de ervaring verbetert met het configureren 
 
 Voor informatie over het vormen van e-mailberichten, zie [ gebeurtenisberichten voor iedereen in het systeem ](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) vormen.
 
-Deze eigenschap is nu inbegrepen in [ e-mail en in-app berichten het leren weg ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) op Workfront Één.
+Deze eigenschap is nu inbegrepen in [ e-mail en in-app berichten het leren weg ](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) op Workfront Één.
 
 ## Nieuwe API-objecten die updates voor abonnementen voor gebeurtenissen activeren
 

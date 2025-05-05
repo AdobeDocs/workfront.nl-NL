@@ -26,7 +26,7 @@ Workfront heeft onlangs technologie aangeschaft voor een volledig nieuwe generat
 
 Eerdere Workfront Fusion-klanten kunnen meer stroom, snelheid, bruikbaarheid en voorspelbaarheid verwachten in Workfront Fusion 2.0. We zijn bezig met het migreren van huidige Workfront Fusion-klanten naar Workfront Fusion 2.0. Neem contact op met uw accountmanager voor meer informatie.
 
-Voor meer informatie, zie [ de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home).
+Voor meer informatie, zie [ de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/home).
 
 ## Introductie van Workfront for MobileIron
 

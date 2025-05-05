@@ -35,7 +35,7 @@ Nadat de projectmanagers het werk op projecten door taken te creëren plannen en
 
 In dit artikel wordt het algemene doel van Workload Balancer beschreven en een aantal van de beste werkwijzen voor hoe u projecten en bronnen kunt instellen om het programma met succes te gebruiken.
 
-Om videoleerprogramma&#39;s van de Balancer van de Werklast te herzien, ga naar de [ pagina van de Zelfstudies van Workfront ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home). In het linkermenu, uitgezochte **beheert middelen** > **de Balancer van de Werklast** en kiest een leerprogramma.
+Om videoleerprogramma&#39;s van de Balancer van de Werklast te herzien, ga naar de [ pagina van de Zelfstudies van Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home). In het linkermenu, uitgezochte **beheert middelen** > **de Balancer van de Werklast** en kiest een leerprogramma.
 
 ## De werklastbalans zoeken
 

@@ -29,4 +29,4 @@ Om u toe te staan om de informatie te bekijken u wilt zien zonder het moeten res
 
 Eerder, beperkte het Verbeterde analysegebied het aantal projecten dat u kon bekijken tot 50.
 
-Deze eigenschap is nu inbegrepen in [ Verbeterde Analytics, Deel 1 het leren weg ](https://experienceleague.adobe.com/en/docs/workfront/using/home) op Workfront Één.
+Deze eigenschap is nu inbegrepen in [ Verbeterde Analytics, Deel 1 het leren weg ](https://experienceleague.adobe.com/nl/docs/workfront/using/home) op Workfront Één.

@@ -138,5 +138,5 @@ Voor informatie over het gebruiken van gebieden in lijsten en rapporten, zie [ V
 
 Wanneer u een opgeslagen concept verwijdert, kunt u nu op Annuleren klikken in het bevestigingsbericht dat u meldt dat uw concept wordt verwijderd. Op deze manier verliest u het concept niet voor het geval u van mening verandert over het verwijderen ervan.
 
-Deze functie is alleen beschikbaar in de nieuwe Workfront-ervaring. Voor informatie, zie [ Workfront verzoeken ](https://experienceleague.adobe.com/en/docs/workfront/using/home) creëren en voorleggen.
+Deze functie is alleen beschikbaar in de nieuwe Workfront-ervaring. Voor informatie, zie [ Workfront verzoeken ](https://experienceleague.adobe.com/nl/docs/workfront/using/home) creëren en voorleggen.
 

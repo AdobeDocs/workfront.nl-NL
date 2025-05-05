@@ -55,7 +55,7 @@ De werkbalken in de volgende lijsten en rapporten hebben nu een modern uiterlijk
 
 >[!NOTE]
 >
->De toolbar voor deze zelfde rapporten binnen dashboards werd ook bijgewerkt in Productie met de wekelijkse [ Update van het Onderhoud ](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates) op 3 Maart, 2022.
+>De toolbar voor deze zelfde rapporten binnen dashboards werd ook bijgewerkt in Productie met de wekelijkse [ Update van het Onderhoud ](https://experienceleague.adobe.com/nl/docs/workfront-known-issues/releases/current-updates) op 3 Maart, 2022.
 
 * Projectrapporten
 * Taakrapporten

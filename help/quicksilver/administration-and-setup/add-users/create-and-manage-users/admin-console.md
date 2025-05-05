@@ -101,7 +101,7 @@ Voordat u de Admin Console for Workfront gebruikt, ontvangt u een e-mail waarin 
   >
   >Breng geen wijzigingen aan in het productprofiel zelf.
 
-* Adobe Admin Console-beheerders kunnen automatische toewijzingsregels instellen om het toewijzen van Adobe-producten aan gebruikers in hun organisatie te automatiseren. Uw organisatie moet naar de Verenigde Ervaring van Adobe worden gemigreerd om deze functionaliteit te gebruiken. Voor meer informatie en instructies, zie [ automatische toewijzingsregels beheren ](https://helpx.adobe.com/enterprise/using/automatic-assignment-rules.html) in de documentatie van Adobe.
+* Adobe Admin Console-beheerders kunnen automatische toewijzingsregels instellen om het toewijzen van Adobe-producten aan gebruikers in hun organisatie te automatiseren. Uw organisatie moet naar de Verenigde Ervaring van Adobe worden gemigreerd om deze functionaliteit te gebruiken. Voor meer informatie en instructies, zie [ automatische toewijzingsregels beheren ](https://helpx.adobe.com/nl/enterprise/using/automatic-assignment-rules.html) in de documentatie van Adobe.
 
 ## Open het gebied voor gebruikers en beheerders van uw Production-instantie van Workfront {#access-the-user-and-admin-area-for-your-production-instance-of-workfront}
 
@@ -231,16 +231,16 @@ U kunt de volgende gebruikersgegevens bewerken in de Adobe Admin Console:
 * Administratieve rechten
 * Land
 
-Voor informatie bij het uitgeven van één enkele gebruiker in Adobe Admin Console, zie [ gebruikersdetails ](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#edit-user-details) in het artikel uitgeven individuele gebruikers in de documentatie van Adobe.
+Voor informatie bij het uitgeven van één enkele gebruiker in Adobe Admin Console, zie [ gebruikersdetails ](https://helpx.adobe.com/nl/enterprise/using/manage-users-individually.html#edit-user-details) in het artikel uitgeven individuele gebruikers in de documentatie van Adobe.
 
 Voor informatie over gebruikers van bulkbewerking in de Adobe Admin Console raadpleegt u
-[ geef gebruikersdetails ](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html#edit-user-details) in het artikel uit leidt veelvoudige gebruikers in de documentatie van Adobe.
+[ geef gebruikersdetails ](https://helpx.adobe.com/nl/enterprise/using/bulk-upload-users.html#edit-user-details) in het artikel uit leidt veelvoudige gebruikers in de documentatie van Adobe.
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p>You can create Adobe Workfront users and system administrators with the <a href="https://adminconsole.adobe.com/" alt="Admin Console link">Adobe Admin Console</a>. The console is a central location for managing the Adobe entitlements across your organization. For more information, see the <a href="https://helpx.adobe.com/enterprise/using/admin-console.html" alt="Admin Console Overview">Admin Console Overview</a>.</p>
+<p>You can create Adobe Workfront users and system administrators with the <a href="https://adminconsole.adobe.com/" alt="Admin Console link">Adobe Admin Console</a>. The console is a central location for managing the Adobe entitlements across your organization. For more information, see the <a href="https://helpx.adobe.com/nl/enterprise/using/admin-console.html" alt="Admin Console Overview">Admin Console Overview</a>.</p>
 <p>Before using the Admin Console for Workfront, you should receive a receive an email inviting you to the console. Click in the invitation to accept it and create an account. You can also use an existing account, if already available.</p>
 <h2>Create users</h2>
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Create users in WF with the Adobe admin console</p>

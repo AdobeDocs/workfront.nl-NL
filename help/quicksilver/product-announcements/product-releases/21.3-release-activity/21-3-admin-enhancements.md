@@ -27,7 +27,7 @@ De blauwdrukken verstrekt basisbouwstenen om u te helpen een werkbeheersysteem t
 
 Voor meer informatie, zie [ Overzicht van Vervagen ](../../../administration-and-setup/blueprints/blueprints-overview.md).
 
-Deze eigenschap is nu inbegrepen in de [ malplaatjes van het Project in de nieuwe ervaring van Workfront ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) het leren weg op Workfront Één.
+Deze eigenschap is nu inbegrepen in de [ malplaatjes van het Project in de nieuwe ervaring van Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) het leren weg op Workfront Één.
 
 ## Nieuw voor groepsbeheerders: statussen voor een groep op elk niveau maken en beheren
 

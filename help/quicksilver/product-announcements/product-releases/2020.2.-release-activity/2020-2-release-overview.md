@@ -267,7 +267,7 @@ Voor informatie over de onderhoudsupdates die tijdens de versie 2020.1 worden ge
 
 Vanaf 20 mei 2020 begint Workfront wekelijks functionaliteit beschikbaar te stellen in de voorvertoningsomgeving. Vóór deze wijziging werd de functionaliteit doorgaans elke twee weken vrijgegeven voor de voorvertoningsomgeving.
 
-Voor meer informatie, zie [ Verandering in FAQ van de de voorproefversie van Workfront ](https://experienceleague.adobe.com/en/docs/workfront/using/home)
+Voor meer informatie, zie [ Verandering in FAQ van de de voorproefversie van Workfront ](https://experienceleague.adobe.com/nl/docs/workfront/using/home)
 
 ### Extra domeinen toevoegen aan de lijst van gewenste personen die vereist is voor toegang tot Workfront {#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront}
 

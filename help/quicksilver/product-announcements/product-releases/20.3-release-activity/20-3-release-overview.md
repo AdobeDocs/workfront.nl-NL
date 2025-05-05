@@ -435,7 +435,7 @@ Voor informatie over de onderhoudsupdates die tijdens de versie 20.3 worden gema
 
 Vanaf 20 mei 2020 begon Workfront wekelijks functionaliteit beschikbaar te maken in de voorvertoningsomgeving. Vóór deze wijziging werd de functionaliteit doorgaans elke twee weken vrijgegeven voor de voorvertoningsomgeving.
 
-Voor meer informatie, zie [ Verandering in FAQ van de de voorproefversie van Workfront ](https://experienceleague.adobe.com/en/docs/workfront/using/home)
+Voor meer informatie, zie [ Verandering in FAQ van de de voorproefversie van Workfront ](https://experienceleague.adobe.com/nl/docs/workfront/using/home)
 
 ### Lijst van gewenste personen van aanvullende domeinen die vereist zijn voor toegang tot Workfront {#allowlist-of-additional-domains-required-for-accessing-workfront}
 
@@ -454,7 +454,7 @@ Met Workfront One ontdekt u de belangrijkste inhoud, bronnen en nieuws uit Workf
 
 ### 20.3 Release Webinar {#20-3-release-webinar}
 
-Bekijk hier de 20.3 Webinar van de Versie van het Product [&#128279;](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+Bekijk hier de 20.3 Webinar van de Versie van het Product [&#128279;](https://experienceleague.adobe.com/nl/docs/workfront/using/home).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

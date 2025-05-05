@@ -27,7 +27,7 @@ Als u de status en voortgang van een project gemakkelijker wilt delen, kunt u nu
 
 Voor meer informatie, zie [ Overzicht van projectmetriek ](../../../manage-work/projects/manage-projects/project-metrics.md).
 
-Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Planner voor de nieuwe ervaring van Workfront, Deel 3: Beheer een project ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) het leren weg op Workfront Één.
+Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Planner voor de nieuwe ervaring van Workfront, Deel 3: Beheer een project ](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) het leren weg op Workfront Één.
 
 ## Probleempercentage bijwerken voltooid wanneer het project of de taak is omgezet vanuit de uitgave-update
 
@@ -41,9 +41,9 @@ Om u toe te staan om uw Voorgelegde Verzoeken op een gemakkelijkere, consistente
 
 Voor informatie over hoe te om van voorgelegde verzoeken de plaats te bepalen, zie [ plaats voorgelegde verzoeken ](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
-Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Medewerker voor de nieuwe de Ervaring van Workfront ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) het leren weg op Workfront Één.
+Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Medewerker voor de nieuwe de Ervaring van Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) het leren weg op Workfront Één.
 
-Deze eigenschap is nu inbegrepen in de [ Verzoeken in de nieuwe ervaring van Workfront ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/request-queues/understand-request-queues) het leren weg op Workfront Één.
+Deze eigenschap is nu inbegrepen in de [ Verzoeken in de nieuwe ervaring van Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/manage-work/request-queues/understand-request-queues) het leren weg op Workfront Één.
 
 ## Velden verwijderd van de pagina Nieuwe aanvraag
 

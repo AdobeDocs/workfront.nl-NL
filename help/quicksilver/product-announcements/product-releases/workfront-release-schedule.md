@@ -40,7 +40,7 @@ Voor meer informatie over driemaandelijkse en snelle versieprocessen, zie [ snel
 
 ### Onderhoudsupdates
 
-Problemen met het Adobe Workfront-product worden wekelijks in de productieomgeving opgelost. Zie de [ Workfront onderhoudsupdates ](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates) pagina om te zien wat onlangs is bevestigd.
+Problemen met het Adobe Workfront-product worden wekelijks in de productieomgeving opgelost. Zie de [ Workfront onderhoudsupdates ](https://experienceleague.adobe.com/nl/docs/workfront-known-issues/releases/current-updates) pagina om te zien wat onlangs is bevestigd.
 
 ## Functies die zijn verwijderd uit een geplande release
 

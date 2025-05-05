@@ -93,7 +93,7 @@ Als u in Workfront Fusion een project wilt maken dat Adobe Experience Manager-wo
 1. Voeg de **Workfront** > **Diverse module van de Actie** aan uw scenario toe.
 1. Op het **gebied van de Verbinding**, selecteer de verbinding van Workfront die met de rekening verbindt deze module zal gebruiken.
 
-   Voor instructies bij het creëren van een verbinding, zie [  [!DNL Workfront]  verbinden  [!DNL Workfront Fusion] ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) in de modules van artikelWorkfront.
+   Voor instructies bij het creëren van een verbinding, zie [  [!DNL Workfront]  verbinden  [!DNL Workfront Fusion] ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) in de modules van artikelWorkfront.
 
    Voor instructies bij het creëren van identiteitskaart van de Cliënt en Geheime cliënt zult u een verbinding moeten creëren, zie [ een toepassing OAuth ](#create-an-oauth-application) in dit artikel creëren.
 
@@ -175,4 +175,4 @@ Voor de verbinding van deze module moet u in Workfront een OAuth-toepassing inst
 
 U zult deze identiteitskaart van de Cliënt en het geheim van de Cliënt gebruiken wanneer het vormen van de verbinding van de module in Fusion.
 
-Voor instructies bij het creëren van een verbinding, zie [  [!DNL Workfront]  verbinden  [!DNL Workfront Fusion] ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) in de modules van artikelWorkfront.
+Voor instructies bij het creëren van een verbinding, zie [  [!DNL Workfront]  verbinden  [!DNL Workfront Fusion] ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) in de modules van artikelWorkfront.

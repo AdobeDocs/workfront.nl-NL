@@ -25,7 +25,7 @@ Voor een lijst van alle veranderingen beschikbaar met de versie 2020.1, zie [ ov
 
 Om uw ervaring consistenter te maken wanneer u Workfront zowel op de mobiele app als op het web gebruikt, wordt elke aanpassing van de secundaire navigatie in het linkerdeelvenster in de nieuwe of bestaande lay-outsjablonen automatisch weerspiegeld in de mobiele app.
 
-Meer leren over het aanpassen van het linkerpaneel, zie [ het linkerpaneel aanpassen gebruikend een Malplaatje van de Lay-out in de nieuwe ervaring van Workfront ](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+Meer leren over het aanpassen van het linkerpaneel, zie [ het linkerpaneel aanpassen gebruikend een Malplaatje van de Lay-out in de nieuwe ervaring van Workfront ](https://experienceleague.adobe.com/nl/docs/workfront/using/home).
 
 ## Net als updates voor de mobiele app
 

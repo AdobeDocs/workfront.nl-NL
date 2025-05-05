@@ -26,7 +26,7 @@ In Opstelling, vormt u een voorkeur om ervoor te zorgen dat elk nieuw project ee
 
 Om ervoor te zorgen dat de nieuwe projecten altijd een status hebben, zelfs als een beheerder de status voor nieuwe projecten verbergt of ontgrendelt, wijst het systeem nu de eerste status in de lijst van de Status aan alle nieuwe projecten toe tot u de nieuwe status voor nieuwe projecten opnieuw vormt.
 
-Voor informatie over het plaatsen van de voorkeur voor het statuut van alle nieuwe projecten, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen (of als u Klassiek Adobe Workfront gebruikt, zie [ Plaatsende Voorkeur van het Project ](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
+Voor informatie over het plaatsen van de voorkeur voor het statuut van alle nieuwe projecten, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen (of als u Klassiek Adobe Workfront gebruikt, zie [ Plaatsende Voorkeur van het Project ](https://experienceleague.adobe.com/nl/docs/workfront/using/home)).
 
 **Beschikbaar in deze milieu&#39;s:**
 
@@ -42,7 +42,7 @@ De ervaring met het instellen van projectvoorkeuren is nu intuïtiever en gebrui
 * Als u een ongeldig getal typt voor een optie zoals &quot;Normaal aantal uren per werkdag&quot;, wordt direct een waarschuwingsbericht weergegeven in plaats van dat het bericht wordt weergegeven nadat u op Opslaan hebt geklikt.
 * Optie-labels komen overeen met de overeenkomende interfacetekst elders in Workfront, zoals in het gebied Details en rapporten.
 
-Voor informatie over het gebied van de Voorkeur van het Project, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen (of als u Klassiek Adobe Workfront gebruikt, zie [ Plaatsende Voorkeur van het Project ](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
+Voor informatie over het gebied van de Voorkeur van het Project, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen (of als u Klassiek Adobe Workfront gebruikt, zie [ Plaatsende Voorkeur van het Project ](https://experienceleague.adobe.com/nl/docs/workfront/using/home)).
 
 **Beschikbaar in deze milieu&#39;s:**
 
@@ -68,11 +68,11 @@ Bijvoorbeeld, wanneer u of kopieert een taak met moet Begin op beperking aan een
 
 Voorafgaand aan deze verandering, verandert de Beperking van de Taak altijd in zo spoedig mogelijk.
 
-Voor informatie over het bewegen van taken zie, [ de taken van de Beweging ](../../../manage-work/tasks/manage-tasks/move-tasks.md) (of als u Classic Adobe Workfront gebruikt, zie [ Bewegende Taken ](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
+Voor informatie over het bewegen van taken zie, [ de taken van de Beweging ](../../../manage-work/tasks/manage-tasks/move-tasks.md) (of als u Classic Adobe Workfront gebruikt, zie [ Bewegende Taken ](https://experienceleague.adobe.com/nl/docs/workfront/using/home)).
 
-Voor informatie over het kopiëren van taken, zie [ Kopiëren en dupliceren taken ](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (of als u de Klassieke van Adobe Workfront gebruikt, zie [ Taken ](https://experienceleague.adobe.com/en/docs/workfront/using/home) Exemplaar en Dupliceren).
+Voor informatie over het kopiëren van taken, zie [ Kopiëren en dupliceren taken ](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (of als u de Klassieke van Adobe Workfront gebruikt, zie [ Taken ](https://experienceleague.adobe.com/nl/docs/workfront/using/home) Exemplaar en Dupliceren).
 
-Voor een overzicht van alle Beperkingen van de Taak, zie [ Overzicht van de Beperking van de Taak ](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (of als u Klassiek Adobe Workfront gebruikt, zie [ Overzicht van de Restrictie van de Taak ](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
+Voor een overzicht van alle Beperkingen van de Taak, zie [ Overzicht van de Beperking van de Taak ](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (of als u Klassiek Adobe Workfront gebruikt, zie [ Overzicht van de Restrictie van de Taak ](https://experienceleague.adobe.com/nl/docs/workfront/using/home)).
 
 **Beschikbaar in deze milieu&#39;s:**
 

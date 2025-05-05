@@ -40,11 +40,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Toegang tot de [!DNL Adobe Workfront] -documentatie op Experience League
 
-1. Ga naar de [[!DNL Adobe Workfront]  documentatiepagina op  [!DNL Experience League] ](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+1. Ga naar de [[!DNL Adobe Workfront]  documentatiepagina op  [!DNL Experience League] ](https://experienceleague.adobe.com/nl/docs/workfront/using/home).
 
 Naast het zoeken naar Help-documentatie hebt u ook toegang tot de volgende [!DNL Workfront] -bronnen vanuit Experience League:
 
-* De Zelfstudies van Workfront: Voor meer informatie, zie [[!DNL Workfront]  Zelfstudies ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
+* De Zelfstudies van Workfront: Voor meer informatie, zie [[!DNL Workfront]  Zelfstudies ](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home).
 
 * [!UICONTROL Innovation Lab]: Voor meer informatie, zie [ [!UICONTROL Innovation Lab] ](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas).
 * [!UICONTROL [!DNL Workfront] Community]: Voor meer informatie, zie [ de [!UICONTROL [!DNL Adobe Workfront] Gemeenschap] ](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)

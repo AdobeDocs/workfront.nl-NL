@@ -256,4 +256,4 @@ De volgende wijzigingen zijn aangebracht voor gebeurtenisabonnementen versie 2:
 
 Workfront Fusion gebruikt gebeurtenisabonnementen om op veranderingen in Workfront te letten om scenario&#39;s teweeg te brengen. U kunt de versie van de gebeurtenisbeschrijving die Fusion direct in een scenario gebruikt bijwerken, gebruikend Workfront > de module van de Versie van de Payload van Gebeurtenissen bijwerken.
 
-Voor instructies bij het gebruiken van deze module, zie [ modules van Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) in de documentatie van de Fusie van Workfront.
+Voor instructies bij het gebruiken van deze module, zie [ modules van Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) in de documentatie van de Fusie van Workfront.

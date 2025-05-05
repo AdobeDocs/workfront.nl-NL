@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [ Basis Programma van de Aanmaak van het Rapport voor de nieuwe ervaring van Workfront ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)
+* [ Basis Programma van de Aanmaak van het Rapport voor de nieuwe ervaring van Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home)
 * [ toegang en organiseer rapporten ](../../../reports-and-dashboards/reports/report-usage/access-organize-reports.md)
 * [ creeer een rapport over het melden van activiteiten ](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md)
 * [ Begrijp hoe te om rapporten over een dashboard te organiseren ](../../../reports-and-dashboards/reports/report-usage/understand-how-organize-reports-dashboard.md)

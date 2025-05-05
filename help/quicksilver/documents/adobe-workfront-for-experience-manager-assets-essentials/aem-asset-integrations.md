@@ -54,7 +54,7 @@ Met de native Experience Manager-integratie kunt u
 
 ## Aan de slag
 
-1. [ vorm activa meta-gegevens afbeelding tussen Adobe Workfront en Experience Manager Assets ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+1. [ vorm activa meta-gegevens afbeelding tussen Adobe Workfront en Experience Manager Assets ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 1. De integratie instellen:
    1. [ vorm de integratie van Experience Manager Assets as a Cloud Service ](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)
 of

@@ -72,7 +72,7 @@ Om uw dagelijkse werk met kalenders beter te visualiseren en te beheren, zijn de
 
 Eerder kon u uw kalender alleen beheren met geplande, geplande datums die niet beschikbaar waren.
 
-Voor meer informatie, zie [ de gebieden van de douanedatum van het Gebruik in een kalenderrapport ](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md) (of als u de Klassiek van Workfront gebruikt, zie [ de gebieden van de douanedatum van het Gebruik in een kalenderrapport ](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
+Voor meer informatie, zie [ de gebieden van de douanedatum van het Gebruik in een kalenderrapport ](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md) (of als u de Klassiek van Workfront gebruikt, zie [ de gebieden van de douanedatum van het Gebruik in een kalenderrapport ](https://experienceleague.adobe.com/nl/docs/workfront/using/home)).
 
 ## E-mailwijzigingen
 
@@ -82,7 +82,7 @@ Systeembeheerders kunnen eerder een aangepast e-mailadres toevoegen in het gedee
 
 **Binnenkomende het antwoordveranderingen van het POP van e-mail:** De Beheerders van het Systeem zullen niet meer de capaciteit hebben om een douane POP e-mailserver voor inkomende e-mailantwoorden aan berichten te vormen.
 
-Voor meer informatie, zie [ E-mail voor de gek houden en het antwoord van de POP e-mail verandert ](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+Voor meer informatie, zie [ E-mail voor de gek houden en het antwoord van de POP e-mail verandert ](https://experienceleague.adobe.com/nl/docs/workfront/using/home).
 
 ## DomainKeys Identified Mail (DKIM) is nu opgenomen in uitgaande e-mails van Workfront
 

@@ -514,7 +514,7 @@ Een voorwerp Timesheet vertegenwoordigt virtuele timecard dat Gebruikers toestaa
             </p>
             <p><b> enableSystemWideVisibility </b>
             </p>
-            <p>Deze acties ondersteunen de mogelijkheid om filters, weergaven en groepen in het hele systeem te delen.</p><p>Voor meer informatie, zie <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E"> filters, meningen, of groeperingen van de Merk beschikbaar aan alle gebruikers </a> maken.</p>
+            <p>Deze acties ondersteunen de mogelijkheid om filters, weergaven en groepen in het hele systeem te delen.</p><p>Voor meer informatie, zie <a href="https://experienceleague.adobe.com/nl/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E"> filters, meningen, of groeperingen van de Merk beschikbaar aan alle gebruikers </a> maken.</p>
          </li>
         </ul>
       </td>
@@ -538,7 +538,7 @@ Een voorwerp Timesheet vertegenwoordigt virtuele timecard dat Gebruikers toestaa
             </p>
             <p><b> enableSystemWideVisibility </b>
             </p>
-            <p>Deze acties ondersteunen de mogelijkheid om filters, weergaven en groepen in het hele systeem te delen.</p><p>Voor meer informatie, zie <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E"> filters, meningen, of groeperingen van de Merk beschikbaar aan alle gebruikers </a> maken.</p>
+            <p>Deze acties ondersteunen de mogelijkheid om filters, weergaven en groepen in het hele systeem te delen.</p><p>Voor meer informatie, zie <a href="https://experienceleague.adobe.com/nl/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E"> filters, meningen, of groeperingen van de Merk beschikbaar aan alle gebruikers </a> maken.</p>
          </li>
         </ul>
       </td>
@@ -579,7 +579,7 @@ Een voorwerp Timesheet vertegenwoordigt virtuele timecard dat Gebruikers toestaa
             </p>
             <p><b> enableSystemWideVisibility </b>
             </p>
-            <p>Deze acties ondersteunen de mogelijkheid om filters, weergaven en groepen in het hele systeem te delen.</p><p>Voor meer informatie, zie <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E"> filters, meningen, of groeperingen van de Merk beschikbaar aan alle gebruikers </a> maken.</p>
+            <p>Deze acties ondersteunen de mogelijkheid om filters, weergaven en groepen in het hele systeem te delen.</p><p>Voor meer informatie, zie <a href="https://experienceleague.adobe.com/nl/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E"> filters, meningen, of groeperingen van de Merk beschikbaar aan alle gebruikers </a> maken.</p>
          </li>
         </ul>
       </td>

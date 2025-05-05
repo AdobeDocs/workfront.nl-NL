@@ -55,7 +55,7 @@ Voor meer informatie, zie [ Workfront voor Experience Manager verbeterd schakela
 
 >[!NOTE]
 >
->Voor de implementatie en configuratie van deze connector is een gecertificeerde partner vereist. Zie [ installeer Workfront voor Experience Manager verbeterde schakelaar ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install) voor meer informatie.
+>Voor de implementatie en configuratie van deze connector is een gecertificeerde partner vereist. Zie [ installeer Workfront voor Experience Manager verbeterde schakelaar ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install) voor meer informatie.
 
 ## Adobe Creative Cloud-integratie gebruikt nu OAuth2
 

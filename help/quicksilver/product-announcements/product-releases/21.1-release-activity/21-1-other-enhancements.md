@@ -47,7 +47,7 @@ Voor meer informatie, zie [ gebruikers toelaten om een kwestie in een project va
 
 Voor meer informatie over waarom wij deze verandering maken, zie [ Nieuwe Adobe Workfront beheerde systeem om POP e-mail voor de Queues van het Verzoek met 21.1 te vervangen ](../../../product-announcements/announcements/announcement-archive/pop-removal-request-queue.md).
 
-Deze eigenschap is nu inbegrepen in het [ Beheer van de Rij in de nieuwe ervaring van Workfront ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) het leren weg op Workfront Één.
+Deze eigenschap is nu inbegrepen in het [ Beheer van de Rij in de nieuwe ervaring van Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) het leren weg op Workfront Één.
 
 ## Uren bewerken op tijdbladen beperken
 

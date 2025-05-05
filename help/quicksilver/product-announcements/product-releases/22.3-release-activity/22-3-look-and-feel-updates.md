@@ -43,6 +43,6 @@ De werkbalken in de volgende lijsten en rapporten hebben nu een modern uiterlijk
 
 >[!NOTE]
 >
->Deze wijziging is op 23 mei 2022 in Production bijgewerkt. Zie de [ Update van het Onderhoud op 26 mei, 2022 voor meer informatie ](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+>Deze wijziging is op 23 mei 2022 in Production bijgewerkt. Zie de [ Update van het Onderhoud op 26 mei, 2022 voor meer informatie ](https://experienceleague.adobe.com/nl/docs/workfront/using/home).
 
 We hebben de scheidingstekens voor broodkruimels bijgewerkt op alle gebieden waar er broodkruimels beschikbaar zijn. De objecten in de broodkruimels worden nu gescheiden door pijpen (|). Vóór deze update werden ze gescheiden door slashes (/).

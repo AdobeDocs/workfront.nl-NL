@@ -41,7 +41,7 @@ Zie de volgende bronnen voor informatie over het gebruik en installeren van de p
 * [Installeer de  [!DNL Adobe Workfront]  insteekmodule voor  [!DNL Creative Cloud]  Toepassingen](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
 * [Het werk met de  [!DNL Adobe Workfront]  stop in voor  [!DNL Creative Cloud]  Toepassingen beheren](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
 * [Upload documenten en proeven met de  [!DNL Adobe Workfront]  stop - in voor  [!DNL Creative Cloud]  Toepassingen](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
-* [ Videozelfstudie: Gebruik  [!DNL Adobe Workfront]  stoppen voor  [!DNL Creative Cloud] ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/integrations/adobe-creative-cloud/use-adobe-workfront-extensions-for-creative-cloud)
+* [ Videozelfstudie: Gebruik  [!DNL Adobe Workfront]  stoppen voor  [!DNL Creative Cloud] ](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/integrations/adobe-creative-cloud/use-adobe-workfront-extensions-for-creative-cloud)
 * [ Videozelfstudie: Het creëren van en het leiden van pakketten, het opstellen van updates, en de fouten van de het oplossen van problemeninstallatie ](https://www.youtube.com/watch?v=zzvXNLIBzrc)
 
 >[!NOTE]

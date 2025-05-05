@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 22.2 Overzicht van de release
 
-Deze pagina bevat informatie over de functionaliteit die is opgenomen in de release 22.2. Alle vermelde functies zijn beschikbaar in de nieuwe Adobe Workfront-ervaring. Sommige eigenschappen zijn ook beschikbaar in de Klassiek van Adobe Workfront; nochtans, [ zal de Klassiek van Workfront in Maart 2022 ](https://experienceleague.adobe.com/en/docs/workfront/using/home) worden stopgezet, die kort door de eind-van-levensdatum voor Workfront Classic in Juli 2022 wordt gevolgd.
+Deze pagina bevat informatie over de functionaliteit die is opgenomen in de release 22.2. Alle vermelde functies zijn beschikbaar in de nieuwe Adobe Workfront-ervaring. Sommige eigenschappen zijn ook beschikbaar in de Klassiek van Adobe Workfront; nochtans, [ zal de Klassiek van Workfront in Maart 2022 ](https://experienceleague.adobe.com/nl/docs/workfront/using/home) worden stopgezet, die kort door de eind-van-levensdatum voor Workfront Classic in Juli 2022 wordt gevolgd.
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -123,7 +123,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong> Beschikbaar in deze milieu's:</strong> </p> 
     <ul> 
      <li> <p>De nieuwe Adobe Workfront-ervaring </p> </li> 
-     <li> <p>De Klassieke van Adobe Workfront (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank"> Workfront Klassiek zal in Maart 2022 </a> worden onderbroken, die kort door de eind-van-levensdatum voor Workfront Klassiek in Juli 2022 wordt gevolgd.)</p> </li> 
+     <li> <p>De Klassieke van Adobe Workfront (<a href="https://experienceleague.adobe.com/nl/docs/workfront/using/home" target="_blank"> Workfront Klassiek zal in Maart 2022 </a> worden onderbroken, die kort door de eind-van-levensdatum voor Workfront Klassiek in Juli 2022 wordt gevolgd.)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -291,7 +291,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong> Beschikbaar in deze milieu's:</strong> </p> 
     <ul> 
      <li> <p>De nieuwe Adobe Workfront-ervaring </p> </li> 
-     <li> <p>De Klassieke van Adobe Workfront (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank"> Workfront Klassiek zal in Maart 2022 </a> worden onderbroken, die kort door de eind-van-levensdatum voor Workfront Klassiek in Juli 2022 wordt gevolgd.)</p> </li> 
+     <li> <p>De Klassieke van Adobe Workfront (<a href="https://experienceleague.adobe.com/nl/docs/workfront/using/home" target="_blank"> Workfront Klassiek zal in Maart 2022 </a> worden onderbroken, die kort door de eind-van-levensdatum voor Workfront Klassiek in Juli 2022 wordt gevolgd.)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -303,7 +303,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong> Beschikbaar in deze milieu's:</strong> </p> 
     <ul> 
      <li> <p>De nieuwe Adobe Workfront-ervaring </p> </li> 
-     <li> <p>De Klassieke van Adobe Workfront (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank"> Workfront Klassiek zal in Maart 2022 </a> worden onderbroken, die kort door de eind-van-levensdatum voor Workfront Klassiek in Juli 2022 wordt gevolgd.)</p> </li> 
+     <li> <p>De Klassieke van Adobe Workfront (<a href="https://experienceleague.adobe.com/nl/docs/workfront/using/home" target="_blank"> Workfront Klassiek zal in Maart 2022 </a> worden onderbroken, die kort door de eind-van-levensdatum voor Workfront Klassiek in Juli 2022 wordt gevolgd.)</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -357,7 +357,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong> Beschikbaar in deze milieu's:</strong> </p> 
     <ul> 
      <li> <p>De nieuwe Adobe Workfront-ervaring </p> </li> 
-     <li> <p>De Klassieke van Adobe Workfront (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank"> Workfront Klassiek zal in Maart 2022 </a> worden onderbroken, die kort door de eind-van-levensdatum voor Workfront Klassiek in Juli 2022 wordt gevolgd.)</p> </li> 
+     <li> <p>De Klassieke van Adobe Workfront (<a href="https://experienceleague.adobe.com/nl/docs/workfront/using/home" target="_blank"> Workfront Klassiek zal in Maart 2022 </a> worden onderbroken, die kort door de eind-van-levensdatum voor Workfront Klassiek in Juli 2022 wordt gevolgd.)</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -584,7 +584,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
 
 ## Workfront Fusion-verbeteringen
 
-Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de releaseplanning van 22.2. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de releaseplanning van 22.2. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ## Verbeteringen in Workfront Scenario Planner
 
@@ -620,7 +620,7 @@ Voor informatie over API versies, zie [ API versioning en steunprogramma ](../..
 
 ## Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens de versie 2.2 worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront [&#128279;](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
+Voor informatie over de onderhoudsupdates die tijdens de versie 2.2 worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront [&#128279;](https://experienceleague.adobe.com/nl/docs/workfront-known-issues/releases/current-updates).
 
 ## 22.2 Release-webinar
 
@@ -653,7 +653,7 @@ was presented on January 12, 2022. You can view the webinar recording on the
 
 ## Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie de [ versie van de Opleiding pagina ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) bijwerkt.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie de [ versie van de Opleiding pagina ](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) bijwerkt.
 
 ## Functionaliteit wordt niet meer ondersteund
 

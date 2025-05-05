@@ -44,7 +44,7 @@ Verschillende functies worden geleidelijk uit het Adobe Workfront-product verwij
    <td> <p>Niet meer ondersteund op 9 november 2020 (met de release 20.4)</p> <p>—</p> <p>Verwijderd van het Workfront-platform na de eerste helft van 2022</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Verouderde Workfront Fusion</p> <p>Workfront Fusion biedt een verbeterde ervaring met Legacy Workfront Fusion.</p> <p>Voor meer informatie over de Fusie van Workfront, zie <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home"> de Fusie van Adobe Workfront </a>.</p> </td> 
+   <td> <p>Verouderde Workfront Fusion</p> <p>Workfront Fusion biedt een verbeterde ervaring met Legacy Workfront Fusion.</p> <p>Voor meer informatie over de Fusie van Workfront, zie <a href="https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/home"> de Fusie van Adobe Workfront </a>.</p> </td> 
    <td> </td> 
    <td>Op 31 maart 2021 is het Workfront-platform verwijderd</td> 
   </tr> 

@@ -104,7 +104,7 @@ Voor informatie over het deactiveren van gebruikers, zie [ een gebruiker ](../..
 >
 >Als uw organisatie is aangemeld bij de [!DNL Adobe Business Platform] , moet u gebruikers deactiveren via de [!UICONTROL Adobe Admin Console] .
 >
->Voor instructies bij het deactiveren van een gebruiker in [!UICONTROL Adobe Admin Console], zie de sectie &quot;verwijder gebruikers&quot;in artikel [ individueel gebruikers ](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) leiden of uw [!UICONTROL Adobe Admin Console] Beheerder contacteren.
+>Voor instructies bij het deactiveren van een gebruiker in [!UICONTROL Adobe Admin Console], zie de sectie &quot;verwijder gebruikers&quot;in artikel [ individueel gebruikers ](https://helpx.adobe.com/nl/enterprise/using/manage-users-individually.html) leiden of uw [!UICONTROL Adobe Admin Console] Beheerder contacteren.
 >
 >Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan [!DNL Adobe Business Platform] is genegeerd, zie [ Op platform-gebaseerde beleidsverschillen (Van Bedrijfs Adobe Workfront/Adobe Platform) ](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 

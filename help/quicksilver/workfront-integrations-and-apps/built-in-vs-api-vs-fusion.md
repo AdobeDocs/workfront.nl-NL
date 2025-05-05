@@ -97,4 +97,4 @@ De voordelen van [!DNL Workfront Fusion] kunnen het volgende zijn:
 >
 >![ Voorbeeld: Het toevoegen van een commentaar in Fusie ](assets/fusion-example-comment-350x416.png)
 
-Voor meer informatie over [!DNL Workfront Fusion], zie [[!DNL Adobe Workfront Fusion] ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home).
+Voor meer informatie over [!DNL Workfront Fusion], zie [[!DNL Adobe Workfront Fusion] ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/home).
