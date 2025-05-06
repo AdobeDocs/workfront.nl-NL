@@ -5,9 +5,9 @@ description: U kunt bepalen welke toegangsniveaus in uw organisatie toegang hebb
 author: Becky
 feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: d6fd224fb8a7b8094946814ae905bc0ff6e8223c
+source-git-commit: 0dcf12ed00c04e9d7acddfd034dbba6357bb1385
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Als beheerder van Workfront kunt u bepalen welke gebruikers in uw organisatie AI
 
 ## Toegangsvereisten
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
+U moet de volgende toegang hebben om AI Assistant in of uit te schakelen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -47,17 +47,19 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 ## AI Assistant in Workfront inschakelen of uitschakelen
 
-AI Assistant is standaard ingeschakeld.
+>[!NOTE]
+>
+>AI Assistant is standaard uitgeschakeld voor niet-beheerders.
 
-AI Assistant uitschakelen voor een bepaald toegangsniveau:
+AI-assistent inschakelen voor een bepaald toegangsniveau:
 
 1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Setup]** ![ pictogram van de Opstelling ](/help/_includes/assets/gear-icon-setup.png).
 1. Selecteer **Niveaus van de Toegang** in de linkernavigatie.
 1. Selecteer het toegangsniveau waarvoor u AI Medewerker wilt toelaten.
 1. In het Edit venster van het Niveau van de Toegang, scrol neer aan de bodem van het venster en klik **Reeks extra beperkingen...**.
-1. In het Vastgestelde extra beperkingsgebied, laat de optie **toe onbruikbaar maakt AI Eigenschappen**.
+1. In het Vastgestelde extra beperkingsgebied, maak de optie **onbruikbaar AI Eigenschappen**.
 1. Klik **sparen**.
-1. Herhaal stap 3-6 voor elk toegangsniveau waarvoor u AI medewerker wilt onbruikbaar maken.
+1. Herhaal stap 3-6 voor elk toegangsniveau waarvoor u AI medewerker wilt toelaten.
 
 >[!NOTE]
 >
