@@ -6,9 +6,9 @@ description: U kunt kalenderrapporten en gebeurtenisdetails bekijken die u creee
 author: Lisa
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: 3e5fdb157a6ff29daf964b505d3a0bf4f9842e88
+source-git-commit: 83b425998de978fef4998f407960a2489e1320b4
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -90,18 +90,18 @@ U kunt uit de volgende meningen van het kalenderrapport kiezen:
 
 1. (Optioneel) Als u de kalender weergeeft in de weergaven [!UICONTROL Month] of [!UICONTROL Week] , kunt u de kalenderweergave wijzigen met de volgende opties:
 
-   * weekends opnemen of uitsluiten:
+<!--   * To include or exclude weekends:
 
-      1. Klik op de werkbalk **[!UICONTROL Calendar]** op **[!UICONTROL Calendar Actions]** en selecteer vervolgens in de vervolgkeuzelijst de optie **[!UICONTROL Show Weekend]** of **[!UICONTROL Hide Weekend]** .
+      1. On the **[!UICONTROL Calendar]** toolbar, click **[!UICONTROL Calendar Actions]**, then from the drop-down list select either **[!UICONTROL Show Weekend]** or **[!UICONTROL Hide Weekend]**.-->
 
-   * De weergegeven datums snel wijzigen:
+* De weergegeven datums snel wijzigen:
 
-      1. Klik op de werkbalk **[!UICONTROL Calendar]** op de pijl naar links van de datumindicator om terug te gaan in de kalender of op de pijl naar rechts om vooruit te gaan.
+   1. Klik op de werkbalk **[!UICONTROL Calendar]** op de pijl naar links van de datumindicator om terug te gaan in de kalender of op de pijl naar rechts om vooruit te gaan.
 
-         ![ klik pijl om datum ](assets/click-arrows-to-change-dates-calendar-report.png) te veranderen\
-         De weergegeven datums worden aangepast met een interval dat is gebaseerd op de huidige kalenderweergave. Als u bijvoorbeeld de kalender weergeeft in de [!UICONTROL Week] -weergave, wordt de kalender een week vooruit of een week terug weergegeven, afhankelijk van de pijl die u selecteert.
+      ![ klik pijl om datum ](assets/click-arrows-to-change-dates-calendar-report.png) te veranderen\
+      De weergegeven datums worden aangepast met een interval dat is gebaseerd op de huidige kalenderweergave. Als u bijvoorbeeld de kalender weergeeft in de [!UICONTROL Week] -weergave, wordt de kalender een week vooruit of een week terug weergegeven, afhankelijk van de pijl die u selecteert.
 
-      1. (Facultatief) om aan de huidige dag terug te keren, klik [!UICONTROL **vandaag**].
+   1. (Facultatief) om aan de huidige dag terug te keren, klik [!UICONTROL **vandaag**].
 
 
 1. (Optioneel) Als u een kalender in een volledig scherm wilt weergeven, klikt u op de pijlen op het volledige scherm aan de rechterkant van de **[!UICONTROL Calendar]** -werkbalk.
