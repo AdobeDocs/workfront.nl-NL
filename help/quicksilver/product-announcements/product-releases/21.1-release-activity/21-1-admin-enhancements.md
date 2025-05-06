@@ -31,7 +31,7 @@ Voor informatie over het de toegangsniveau van het Plan, zie [ toegang van de Ve
 
 Voor informatie over het kopiëren van een project, zie [ een project ](../../../manage-work/projects/manage-projects/copy-project.md) kopiëren.
 
-Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Beheerder in de nieuwe ervaring van Workfront, Deel 1: De 1} het leren weg van de Organisatie van de gebruiker op Workfront Één.](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)
+Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Beheerder in de nieuwe ervaring van Workfront, Deel 1: De 1&rbrace; het leren weg van de Organisatie van de gebruiker op Workfront Één.](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)
 
 ## Selecteer in een aangepast formulier op een object alle items in een meerkeuzeveld
 
@@ -75,7 +75,7 @@ Voor informatie over het vormen van een toegangsniveau, zie [ tot douanetoegangs
 
 Voor informatie over toegangsmontages die u voor programma&#39;s en portefeuilles kunt vormen, zie [ Configurable toegang tot functionaliteit voor elk objecten type ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
-Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Beheerder in de nieuwe ervaring van Workfront, Deel 1: De 1} het leren weg van de Organisatie van de gebruiker op Workfront Één.](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)
+Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Beheerder in de nieuwe ervaring van Workfront, Deel 1: De 1&rbrace; het leren weg van de Organisatie van de gebruiker op Workfront Één.](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)
 
 ## Alle selectievakjes in een reeks selecteren bij het bewerken van gegevens in een aangepast formulier
 
@@ -108,7 +108,7 @@ Eerder, slechts kon een top-level groep de Beheerders van de Groep hebben, en di
 
 Voor meer informatie, zie de sectie [ beheerders van de Groep voor subgroepen ](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md#for) in het artikel [ Subgroups overzicht ](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md).
 
-Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Beheerder in de nieuwe ervaring van Workfront, Deel 1: De 1} het leren weg van de Organisatie van de gebruiker op Workfront Één.](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)
+Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Beheerder in de nieuwe ervaring van Workfront, Deel 1: De 1&rbrace; het leren weg van de Organisatie van de gebruiker op Workfront Één.](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)
 
 ## Gebeurtenismeldingen configureren voor groepen
 
