@@ -6,9 +6,9 @@ description: U kunt documenten toevoegen aan projecten, taken of problemen in me
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
+source-git-commit: a69193eb7a98949222f71561b44d8fecea4dd496
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '763'
 ht-degree: 1%
 
 ---
@@ -123,7 +123,7 @@ Het scannen van documenten wordt alleen op verzoek voor uw organisatie ingeschak
 
 Als het scannen van documenten is ingeschakeld, worden bestanden van minder dan 25 MB gescand wanneer ze worden geüpload. Bestanden van meer dan 25 MB worden niet gescand.
 
-Als Workfront een beschadigd document detecteert, stopt Workfront het uploadproces en verschijnt een bericht dat het bestand beschadigd is. U ontvangt ook een e-mailmelding wanneer Workfront potentieel schadelijke inhoud detecteert en het bestand is opgeslagen om te worden verwijderd.
+Als Workfront een beschadigd document detecteert, wordt een bericht weergegeven dat het bestand beschadigd is. U ontvangt ook een e-mailmelding wanneer Workfront potentieel schadelijke inhoud detecteert en het bestand is opgeslagen om te worden verwijderd.
 
 Beschadigde bestanden worden binnen 24 uur na detectie verwijderd, tenzij u deze handmatig verwijdert. Als u een beschadigd bestand verwijdert, houdt Workfront deze handeling bij als een update. Als u Workfront toestaat deze te verwijderen, worden er geen updates opgenomen.
 
