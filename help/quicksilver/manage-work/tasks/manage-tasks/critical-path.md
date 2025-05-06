@@ -102,7 +102,7 @@ Om taken op de Kritieke Weg in de grafiek van Gantt te bekijken:
 
 1. In het linkerpaneel, klik **Taken**. Het **lusje van Taken** opent.
 
-1. In de hoger-juiste hoek van de taaklijst, klik het **pictogram van de Grafiek 0} Gantt.**
+1. In de hoger-juiste hoek van de taaklijst, klik het **pictogram van de Grafiek 0&rbrace; Gantt.**
 
    ![ gantt_chart_icon__1_.png ](assets/gantt-icon.png)
 
@@ -120,12 +120,12 @@ Om te bekijken welke taken op de kritieke weg in een lijst van taken zijn:
 
 1. In het linkerpaneel, klik **Taken**. Het **lusje van Taken** opent.
 
-1. Klik het **pictogram van de Mening ![ ](assets/view-icon.png) van de Mening** {, dan selecteren **Status**. De taken die op de Kritieke Pad zijn tonen a **Kritieke Pad** vlag in de **Vlaggen** kolom van de lijst.
+1. Klik het **pictogram van de Mening ![ ](assets/view-icon.png) van de Mening** &lbrace;, dan selecteren **Status**. De taken die op de Kritieke Pad zijn tonen a **Kritieke Pad** vlag in de **Vlaggen** kolom van de lijst.
 
    of
 
    Klik het **pictogram van de Filter** pictogram ![ Filters ](assets/filters-icon.png), dan uitgezocht **+ Nieuwe Filter**.
-1. Op het eerste gebied, is het type in *Kritiek*, dan selecteer het wanneer het onder de **** sectie van Taken {in de lijst verschijnt.
+1. Op het eerste gebied, is het type in *Kritiek*, dan selecteer het wanneer het onder de **&#x200B;**&#x200B;sectie van Taken &lbrace;in de lijst verschijnt.
 
    ![ Taak is kritieke filter ](assets/task-is-critical.png)
 

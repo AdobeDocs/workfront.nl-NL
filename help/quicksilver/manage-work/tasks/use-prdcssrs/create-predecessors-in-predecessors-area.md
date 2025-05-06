@@ -75,7 +75,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. In de **sectie van de Voorgangers**, klik **+ voegt Voorganger** toe. **voegt de dialoogdoos van de Voorganger** toe opent.
 
-1. (Facultatief) om een dwars-projectvoorganger toe te voegen, vervang de naam van het project op het **gebied van het Project van de 1} ouder** met een ander project.
+1. (Facultatief) om een dwars-projectvoorganger toe te voegen, vervang de naam van het project op het **gebied van het Project van de 1&rbrace; ouder** met een ander project.
 
    Voor informatie, zie [ tot dwars-project predecessors ](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md) leiden.
 

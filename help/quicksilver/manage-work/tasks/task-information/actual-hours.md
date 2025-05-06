@@ -98,8 +98,8 @@ Werkelijke uren zoeken in de sectie Details is identiek voor projecten, taken en
 Werkelijke uren zoeken in taakdetails:
 
 1. Ga naar een taak u de Ware Uren voor wilt herzien.
-1. In het linkerpaneel, klik **Details van de Taak**. De **vertoningen van de 1} sectie van het Overzicht {.**
-1. Bepaal de plaats van de **Ware 1} waarde van Uren {in de** 3} sectie van de Werktijd. **** Dit is het totaal aantal uren dat op deze taak is aangemeld.
+1. In het linkerpaneel, klik **Details van de Taak**. De **vertoningen van de 1&rbrace; sectie van het Overzicht &lbrace;.**
+1. Bepaal de plaats van de **Ware 1&rbrace; waarde van Uren {in de** 3} sectie van de Werktijd. **&#x200B;**&#x200B;Dit is het totaal aantal uren dat op deze taak is aangemeld.
 
 ### Werkelijke uren in de sectie Uren {#actual-hours-in-the-hours-section}
 
@@ -109,7 +109,7 @@ Werkelijke uren zoeken in de sectie Uren:
 
 1. Ga naar een taak u de Ware Uren voor wilt herzien.
 
-1. In het linkerpaneel, klik **Uren**. Een lijst van uuringangen die op de taakvertoningen worden geregistreerd, met de **1} kolom die van Uren {het totale aantal Werkelijke Uren voor de taak tonen.**
+1. In het linkerpaneel, klik **Uren**. Een lijst van uuringangen die op de taakvertoningen worden geregistreerd, met de **1&rbrace; kolom die van Uren &lbrace;het totale aantal Werkelijke Uren voor de taak tonen.**
 
 1. Zorg ervoor dat de **Standaard** mening en de **groepering van het Project** op deze lijst worden toegepast.
 
@@ -127,7 +127,7 @@ Werkelijke uren weergeven in een taakrapport:
 
 1. In de bodem-linkerhoek van de pagina, klik **sparen + Sluiten** om het rapport te bewaren.
 
-1. In de **Naam dit Rapport om het** dialoogvakje te bewaren, ga een nieuwe rapportnaam in, dan klik **** van toepassing zijn.
+1. In de **Naam dit Rapport om het** dialoogvakje te bewaren, ga een nieuwe rapportnaam in, dan klik **&#x200B;**&#x200B;van toepassing zijn.
 
 ### Werkelijke uren aan hulpmiddelen voor bronnenbeheer {#actual-hours-in-resource-management-tools}
 

@@ -184,7 +184,7 @@ Een project kopiëren:
       <td role="rowheader">Geforceerde uren</td> 
       <td> <p>Verwijdert de uren die in het gebied van de Planning van het Middel van het BedrijfsGeval van het project in de begroting worden opgenomen uit het gekopieerde project.</p> 
     <p>
-   De uren die in de begroting zijn opgenomen met de Scenario Planner worden nooit naar het nieuwe project gekopieerd omdat het nieuwe project niet gekoppeld is aan een initiatief in de Scenario Planner. Voor meer informatie, zie {de middelen van de Begroting in het BedrijfsGeval gebruikend de Planner van het Scenario </a><a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md"></p>
+   De uren die in de begroting zijn opgenomen met de Scenario Planner worden nooit naar het nieuwe project gekopieerd omdat het nieuwe project niet gekoppeld is aan een initiatief in de Scenario Planner. Voor meer informatie, zie &lbrace;de middelen van de Begroting in het BedrijfsGeval gebruikend de Planner van het Scenario </a><a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md"></p>
    </tr></td>
     <tr> 
       <td role="rowheader">Financiële informatie</td> 

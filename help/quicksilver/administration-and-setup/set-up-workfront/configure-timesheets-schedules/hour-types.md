@@ -103,7 +103,7 @@ Nieuwe uurtypen maken:
 
 1. In het linkerpaneel, klik **Tijdopmaak &amp; Uren**, dan klik **de Types van Uur**.
 
-1. In de **sectie van de Types van Uur 0} {, klik** + Nieuw Type van Uur **.**
+1. In de **sectie van de Types van Uur 0&rbrace; &lbrace;, klik** + Nieuw Type van Uur **.**
 1. In het **Nieuwe de dialoogvakje van de Types van Uur**, specificeer de volgende informatie:
 
    <table style="table-layout:auto"> 

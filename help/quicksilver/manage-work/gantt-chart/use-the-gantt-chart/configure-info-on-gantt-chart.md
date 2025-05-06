@@ -114,7 +114,7 @@ In de volgende tabel worden de weergaveopties voor de [!UICONTROL Gantt chart] w
   <tr> 
    <td role="rowheader">[!UICONTROL Progress Status]</td> 
    <td> <p>[!UICONTROL On Time] <img src="assets/task-on-time--oct.-2017.png" alt="task_on_time__okt._2017.png"></p> <p>[!UICONTROL Behind]    <img src="assets/task-behind--oct.-2017.png" alt="task_behind_okt._2017.png"></p> <p>[!UICONTROL At Risk]    <img src="assets/task-at-risk.png" alt="task_at_risk.png"></p> <p>Late        <img src="assets/task-late-oct.2017.png" alt="task_late_Oct.2017.png"></p> </td> 
-   <td> <p> </p> <p>De status van de huidige voortgang van een bepaalde taak. </p> <p>Voor meer informatie, zie [!UICONTROL Progress Status] overzicht van de Taak 0} </a>.<a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref"></p> </td> 
+   <td> <p> </p> <p>De status van de huidige voortgang van een bepaalde taak. </p> <p>Voor meer informatie, zie [!UICONTROL Progress Status] overzicht van de Taak 0&rbrace; </a>.<a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref"></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Geprojecteerde datums</td> 
