@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: d50ff253b0557c282496deae2a488cff4ab71775
+source-git-commit: dcc4657d4af4edbbe7971acd385a67b2ad50a058
 workflow-type: tm+mt
-source-wordcount: '1720'
+source-wordcount: '1724'
 ht-degree: 0%
 
 ---
@@ -108,20 +108,20 @@ Hieronder ziet u de hoogste toegangsinstellingen die beschikbaar zijn voor objec
 
 {style="table-layout:auto"}
 
-### Toegangsniveau voor licht
+### Lichttoegangsniveau
 
-Dit toegangsniveau, dat gekoppeld is aan de Light-licentie, is bedoeld voor gebruikers die:
+Dit toegangsniveau is gekoppeld aan de Lichte licentie en is ontworpen voor gebruikers die:
 
-* Bekijk alle items en updates die verband houden met het werk
+* Alle items en updates weergeven die zijn gekoppeld aan werk
 * Projecten, taken en problemen goedkeuren
 * dashboards en rapporten weergeven
-* De tijd van het spoor en keurt chronologie goed
+* De tijd van het spoor op taken en kwesties en keurt timeshesheets goed
 * Problemen maken en beheren
 
 Gebruikers met het toegangsniveau Licht:
 
 * Kan aan werkitems worden toegewezen, maar deze kunnen niet worden voltooid.
-* Heeft toegang tot aanvragen en documenten in het hoofdmenu.
+* Kan aanvragen en documenten openen in het hoofdmenu.
 * Heb beperkte capaciteit om tot voorwerp-zij tot stand te brengen geen projecten, portefeuilles, programma&#39;s, of rapporten kunnen leiden.
 
 >[!NOTE]
@@ -280,8 +280,8 @@ Hieronder ziet u de hoogste toegangsinstellingen die beschikbaar zijn voor objec
 | Project |   | ✓ |   |
 | Taak |   | ✓ |   |
 | Probleem |   |   | ✓ |
-| Portefeuilles |   | ✓ |   |
-| Programma &#39;s |   | ✓ |   |
+| Portfolio&#39;s |   | ✓ |   |
+| Programma&#39;s |   | ✓ |   |
 | Rapporten (inclusief dashboards en kalenderrapporten) |   | ✓ (Alleen het tabblad Details) |   |
 | Filters, weergaven en groepen |   |   | ✓ |
 | Document |   |   | ✓ |
@@ -299,19 +299,19 @@ Hieronder ziet u de hoogste toegangsinstellingen die beschikbaar zijn voor objec
 
 >[!IMPORTANT]
 >
->Vanaf release 24.7 hebben inzenders standaard weergavetoegang tot programma&#39;s en portfolio&#39;s.
+>Vanaf de release 24.7 hebben contribuanten standaard toegang tot programma&#39;s en portfolio&#39;s.
 >
 > 
->Bijdragers die vóór release 24.7 zijn aangemeld, hebben standaard nog steeds geen toegang tot programma&#39;s en portfolio&#39;s. U kunt hun toegang tot weergave indien nodig handmatig bijwerken.
+>Medewerkers die vóór de release 24.7 zijn geactiveerd, hebben standaard nog steeds geen toegang tot programma&#39;s en portfolio&#39;s. U kunt de toegang van de gebruiker tot de weergave indien nodig handmatig bijwerken.
 
-### Toegangsniveau voor externe gebruikers
+### Toegangsniveau externe gebruiker
 
-Dit toegangsniveau is niet gekoppeld aan een betaalde Workfront-licentie. Het is het meest beperkende toegangsniveau, in de eerste plaats ontworpen voor medewerkers zoals externe consultants die niet inloggen op Workfront, maar af en toe documenten moeten bekijken, downloaden of bekijken.
+Dit toegangsniveau is niet gekoppeld aan een betaalde Workfront-licentie. Het is het meest restrictieve toegangsniveau, dat hoofdzakelijk voor medewerkers zoals externe adviseurs wordt ontworpen die zich niet bij Workfront aanmelden, maar moet, af en toe documenten herzien downloaden of bekijken.
 
 Gebruikers met het toegangsniveau voor externe gebruikers:
 
-* Kan alleen documenten en agendarapporten bekijken die met hen zijn gedeeld
-* De gebruikers weergeven die documenten en agendarapporten met hen delen
+* Alleen documenten en kalenderrapporten weergeven die met hen worden gedeeld
+* Gebruikers weergeven die documenten en kalenderrapporten met hen delen
 * De documenten goedkeuren die met hen worden gedeeld
 
 Externe gebruikers kunnen niet worden toegewezen aan werkitems.
@@ -324,9 +324,9 @@ U kunt dit toegangsniveau niet wijzigen.
 
 #### **de details van de Toegang**
 
-Hieronder volgen de hoogste toegangsinstellingen die beschikbaar zijn voor objecten in het toegangsniveau voor externe gebruikers.
+Hieronder ziet u de hoogste toegangsinstellingen die beschikbaar zijn voor objecten op het toegangsniveau van de externe gebruiker.
 
-| Objecttype werkblad | Geen toegang | Bekijk toegang | Toegang bewerken |
+| Workfront-objecttype | Geen toegang | Toegang weergeven | Toegang bewerken |
 |---|---|---|---|
 | Project | ✓ |   |   |
 | Taak | ✓ |   |   |
@@ -343,15 +343,15 @@ Hieronder volgen de hoogste toegangsinstellingen die beschikbaar zijn voor objec
 | Bronbeheer | ✓ |   |   |
 | Scenario Planner | ✓ |   |   |
 | Borden | ✓ |   |   |
-| Thuis | ✓ |   |   |
+| Home | ✓ |   |   |
 | Doelen | ✓ |   |   |
 
 
 ## Hoe de toegangsniveaus en de toestemmingen samenwerken
 
-De niveaus van de toegang bepalen wat de gebruikers kunnen zien en doen met algemene objecten types en gebieden in het systeem, zoals projecten, taken, en kwesties. Machtigingen bepalen waartoe u toegang hebt tot specifieke objecten die door andere mensen in het systeem zijn gemaakt, zoals een project dat is gemaakt om een marketingcampagne uit te voeren.
+De niveaus van de toegang bepalen wat de gebruikers kunnen zien en doen met algemene objecten types en gebieden in het systeem, zoals projecten, taken, en kwesties. De toestemmingen bepalen wat u tot op specifieke voorwerpen toegang hebt die door andere mensen in het systeem als een project worden gecreeerd om een marketing campagne in werking te stellen.
 
-In de volgende tabel wordt de algemene toegang van een gebruiker tot objecten (gedefinieerd door het toegangsniveau van de gebruiker) vergeleken met machtigingen voor een specifiek gedeeld object:
+In de volgende tabel wordt de algemene toegang van een gebruiker tot objecten (gedefinieerd door het toegangsniveau van de gebruiker) tot machtigingen voor een specifiek gezamenlijk object vergeleken:
 
 <table style="table-layout:auto"> 
  <col> 
