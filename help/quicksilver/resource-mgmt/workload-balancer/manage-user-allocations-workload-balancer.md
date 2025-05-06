@@ -234,7 +234,7 @@ Als onderdeel van het toewijzen van werk aan gebruikers, kunt u gebruikerstoewij
 
    >[!TIP]
    >
-   >Als een taak of afgifte vóór de geplande voltooiingsdatum is voltooid, wordt het aantal toegewezen uren voor de resterende dagen doorgehaald en wordt niet meegerekend in de totale toewijzing van de gebruiker. Dit toont slechts wanneer zowel **de vertoningen** pictogram van de Show toewijzingen {en **toont Geprojecteerde Datums** het plaatsen worden toegelaten.
+   >Als een taak of afgifte vóór de geplande voltooiingsdatum is voltooid, wordt het aantal toegewezen uren voor de resterende dagen doorgehaald en wordt niet meegerekend in de totale toewijzing van de gebruiker. Dit toont slechts wanneer zowel **de vertoningen** pictogram van de Show toewijzingen &lbrace;en **toont Geprojecteerde Datums** het plaatsen worden toegelaten.
 
    De volgende scenario&#39;s bestaan:
 
