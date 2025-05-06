@@ -6,9 +6,9 @@ description: Als Manager van het Middel, kunt u werk aan gebruikers toewijzen en
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
+source-git-commit: d588380201aa8bcc9e358d516b7e52ed5f60b78d
 workflow-type: tm+mt
-source-wordcount: '2909'
+source-wordcount: '2886'
 ht-degree: 0%
 
 ---
@@ -37,14 +37,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader">Adobe Workfront-licentie</td> 
    <td><p>Nieuw: Standaard</p>
        <p>of</p>
-       <p>Huidig: Plan, wanneer het gebruiken van de Balancer van de Werkbelasting in het gebied van de Middelen;</br>
-       Het werk, wanneer het gebruiken van de Balancer van de Werkbelasting van een team of een project</p></td>
+       <p>Current: Plan, bij gebruik van de Workload Balancer in het Resourcing-gebied;</br>
+       Werk, bij gebruik van de Workload Balancer van een team of project</p></td>
   </tr>
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>Toegang tot het volgende bewerken:</p> 
+   <td> <p>Bewerk de toegang tot het volgende:</p> 
     <ul> 
-     <li>Bronbeheer</li> 
+     <li>Beheer van hulpbronnen</li> 
      <li>Projecten</li> 
      <li>Taken</li> 
      <li>Problemen</li> 
@@ -52,8 +52,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Contribute-machtigingen of hoger die Toewijzingen maken aan de taken en problemen bevatten waarvoor u toewijzingen wilt beheren. </p> <p>of </p> <p>U kunt machtigingen beheren voor de taken waarvoor u de geplande uren wilt bijwerken, en voor het bijwerken van toewijzingen. Voor informatie over het bijwerken van Geplande Uren in de Balancer van de Werklast, zie de <a href="#update-task-planned-hours-when-managing-user-allocations"> taak Geplande Uren van de Update wanneer het beheren van gebruikerstoewijzingen </a> sectie in dit artikel.</p> </td> 
+   <td role="rowheader">Machtigingen voor objecten</td> 
+   <td> <p>Draag machtigingen of hoger bij, waaronder Toewijzingen maken, voor de taken en problemen waarvoor u toewijzingen wilt beheren. </p> <p>of </p> <p>U kunt machtigingen beheren voor de taken waarvoor u de geplande uren wilt bijwerken, en voor het bijwerken van toewijzingen. Voor informatie over het bijwerken van Geplande Uren in de Balancer van de Werklast, zie de <a href="#update-task-planned-hours-when-managing-user-allocations"> taak Geplande Uren van de Update wanneer het beheren van gebruikerstoewijzingen </a> sectie in dit artikel.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -78,7 +78,7 @@ De taak Geplande Uren wordt gelijkelijk verdeeld tussen alle dagen binnen de Duu
 
 >[!CAUTION]
 >
->De werklastbalans geeft slechts 1000 geplande uren per werkitem per gebruiker weer, en maximaal 1000 dagen van de duur van een onderdeel. De toewijzingen in de weergave Werklastbalans zijn nul nadat de limiet van 1000 uur of 1000 dagen is bereikt. Wij adviseren het verdelen van taken in kleinere subtaken om een groter aantal Geplande Uren of voor Duur van meer dan 1000 dagen aan te passen.
+>De werklastbalans geeft alleen <!--up to 1000 Planned Hours per work item per user, and--> weer tot maximaal 1000 dagen van de duur van een item. De toewijzingen in de weergave Werklastbalans zijn nul nadat de limiet van 1000 dagen is bereikt. We raden u aan taken in kleinere subtaken <!--to accommodate a larger number of Planned Hours or--> te verdelen gedurende een periode van meer dan 1000 dagen.
 
 Houd rekening met het volgende wanneer u dagelijkse, wekelijkse of maandelijkse toewijzingen opzoekt voor taken of problemen in de werklastbalans:
 
@@ -134,15 +134,15 @@ Houd rekening met het volgende wanneer u dagelijkse, wekelijkse of maandelijkse 
 * Wanneer de gebruiker onderverdeeld is of een gelijke hoeveelheid uren aan hun geplande beschikbare tijd toewijst, tonen de uren met een blauwe achtergrond.
 * U kunt de toewijzing van gebruikers weergeven in een grafiekweergave in de gebruikersregel. Voor informatie over het toelaten van de grafiekmening voor gebruikerstoewijzingen, zie &quot;de sectie van de Balancer van de Werkbelasting&quot;in het artikel [ navigeren de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-  ![ de toewijzingsgrafiek van de Gebruiker ](assets/user-allocation-chart.png)
+  ![Grafiek gebruikerstoewijzing](assets/user-allocation-chart.png)
 
-### Criteria voor het opnieuw instellen van gebruikerstoewijzingen {#criteria-that-reset-user-allocations}
+### Criteria die gebruikerstoewijzingen opnieuw instellen {#criteria-that-reset-user-allocations}
 
-Niet alle taakveranderingen brengen de gewijzigde toewijzingen aan herverdeling teweeg. Er zijn echter bepaalde acties die de reeds aangepaste toewijzingen op uw middelen opnieuw kunnen instellen en deze gelijkmatig kunnen verdelen over alle dagen tijdens de duur van het werkitem voor elk van de toewijzingen.
+Niet alle taakwijzigingen leiden ertoe dat de gewijzigde toewijzingen opnieuw worden verdeeld. Er zijn echter bepaalde acties die de reeds aangepaste toewijzingen aan uw resources opnieuw kunnen instellen en deze gelijkmatig kunnen herverdelen over alle dagen tijdens de duur van het werkitem voor elk van de toegewezen personen.
 
 >[!NOTE]
 >
->Als u de automatische verdeling van de toewijzingen voor werkitems niet hebt gewijzigd, worden de uren gelijkmatig verdeeld over alle toewijsingen wanneer het aantal toewijzingen, de duur van een taak of de hoeveelheid geplande uren voor het werkitem wordt gewijzigd.
+>Als u de automatische verdeling van toewijzingen op werkitems niet hebt gewijzigd, worden de uren gelijkmatig herverdeeld over alle verantwoordelijken wanneer er een wijziging is in het aantal verantwoordelijken, de duur van een taak of het aantal geplande uren op de werkitem.
 
 #### Handelingen die aangepaste toewijzingen opnieuw instellen {#actions-that-reset-adjusted-allocations}
 
@@ -154,7 +154,7 @@ De volgende acties of stellen of wijzigen de dagelijkse, wekelijkse, of maandeli
 
 #### Handelingen waarbij de aangepaste toewijzingen niet opnieuw worden ingesteld {#actions-that-do-not-reset-adjusted-allocations}
 
-De volgende wijzigingen in een werkitem activeren de aangepaste toewijzingen niet om opnieuw in te stellen of te wijzigen:
+De volgende wijzigingen in een werkitem leiden er niet toe dat de aangepaste toewijzingen opnieuw worden ingesteld of gewijzigd:
 
 * Wanneer u de dagen van een werkitem verplaatst, maar de hoeveelheid dagen in de Duur niet verandert, blijven de aangepaste toegewezen waarden ongewijzigd en gaan deze naar de nieuwe datums.
 * Wanneer u de Duur van een het werkpunt verhoogt dat het aantal dagen in zijn Duur verhoogt, blijven de aangepaste toegewezen uren het zelfde voor de aangepaste dagen. Er worden extra dagen toegevoegd aan het werkitem met 0 toegewezen uren.
@@ -234,18 +234,18 @@ Als onderdeel van het toewijzen van werk aan gebruikers, kunt u gebruikerstoewij
 
    >[!TIP]
    >
-   >Als een taak of afgifte vóór de geplande voltooiingsdatum is voltooid, wordt het aantal toegewezen uren voor de resterende dagen doorgehaald en wordt niet meegerekend in de totale toewijzing van de gebruiker. Dit toont slechts wanneer zowel **de vertoningen** pictogram van de Show toewijzingen &lbrace;en **toont Geprojecteerde Datums** het plaatsen worden toegelaten.
+   >Als een taak of afgifte vóór de geplande voltooiingsdatum is voltooid, wordt het aantal toegewezen uren voor de resterende dagen doorgehaald en wordt niet meegerekend in de totale toewijzing van de gebruiker. Dit toont slechts wanneer zowel **de vertoningen** pictogram van de Show toewijzingen {en **toont Geprojecteerde Datums** het plaatsen worden toegelaten.
 
    De volgende scenario&#39;s bestaan:
 
    * Voor taken met de Types van Duur die niet Eenvoudig of voor kwesties zijn, moet het totaal van de toewijzingen de taak Gepland Uren aanpassen alvorens u het vinkje pictogram kunt klikken.
-   * Voor taken met een Eenvoudig Duur Type, kan het totaal van de toewijzingen hoger of lager zijn dan de Geplande Uren en u kunt het pictogram van het vinkje klikken zelfs als zij niet aanpassen. Hierdoor wordt ook het aantal geplande uren voor de taak bijgewerkt. U moet over de juiste machtigingen en toegang beschikken om geplande uren bij te werken voor taken vanuit Workload Balancer.
+   * Voor taken met een type Eenvoudige duur kan het totaal van de toewijzingen hoger of lager zijn dan de geplande uren en kunt u op het vinkje klikken, zelfs als ze niet overeenkomen. Hiermee wordt ook het aantal geplande uren voor de taak bijgewerkt. U moet over de juiste machtigingen en toegang beschikken om geplande uren bij te werken voor taken vanuit de Workload Balancer.
 
      >[!TIP]
      >
-     >Een slotpictogram toont rechts van de taaknaam aangezien u begint uw toewijzingen aan te passen om erop te wijzen dat de taak een Eenvoudig Type van Duur heeft.
+     >Rechts van de taaknaam wordt een slotpictogram weergegeven wanneer u begint met het aanpassen van uw toewijzingen om aan te geven dat de taak een type Eenvoudige duur heeft.
 
-     ![ pictogram van het Slot ](assets/lock-icon-on-simple-task-in-the-balancer.png)
+     ![Vergrendelingspictogram](assets/lock-icon-on-simple-task-in-the-balancer.png)
 
    Voor meer informatie over de voorwaarden die moeten worden voldaan aan om Geplande Uren in de Balancer van de Werklast bij te werken, zie de [ taak Geplande Uren uren van de Update wanneer het beheren van gebruikerstoewijzingen ](#update-task-planned-hours-when-managing-user-allocations) sectie in dit artikel. Voor informatie over de Types van Duur van de taak, zie [ Overzicht van het Type van Duur en van de Duur van de Taak ](../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
@@ -257,9 +257,9 @@ Als onderdeel van het toewijzen van werk aan gebruikers, kunt u gebruikerstoewij
 >
 >Een potloodpictogram wordt rechts van de naam van het werkitem weergegeven om aan te geven dat dit handmatig is aangepast.
 
-![ manueel aangepast urenpictogram ](assets/icon-for-manually-adjusted-hours.png)
+![Pictogram voor handmatig aangepaste uren](assets/icon-for-manually-adjusted-hours.png)
 
-## Taak geplande uren bijwerken bij het beheren van gebruikerstoewijzingen {#update-task-planned-hours-when-managing-user-allocations}
+## Taak Geplande uren bijwerken bij het beheren van gebruikerstoewijzingen {#update-task-planned-hours-when-managing-user-allocations}
 
 U kunt de geplande uren van een taak bijwerken wanneer u gebruikerstoewijzingen in de werklastbalans voor de taak beheert. Dit gebeurt wanneer het totaal van de bijgewerkte toegewezen uren niet het originele totaal van de Geplande Uren voor een taak aanpast.
 
@@ -274,10 +274,10 @@ Dit is mogelijk wanneer aan de volgende voorwaarden wordt voldaan:
 
 * U hebt de juiste machtigingen en toegang om geplande uren te beheren vanuit de werklastverdeler. Dit zijn onder andere:
 
-   * Rechten voor de taken beheren.
-   * Werk Geplande uren in de toegang van de Balancer van de Werkbelasting op het gebied van het Beheer van het Middel van uw Niveau van de Toegang bij.
+   * Beheer machtigingen voor de taken.
+   * Werk geplande uren bij in de toegang tot de workloadbalancer in het gebied Resourcebeheer van uw toegangsniveau.
 
-  Voor meer informatie over de toegang nodig om de Balancer van de Werklast te gebruiken, zie de [ sectie van de Vereisten van de Toegang ](#access-requirements) in dit artikel.
+  Zie de [sectie Toegangsvereisten](#access-requirements) in dit artikel voor meer informatie over de toegang die nodig is voor het gebruik van de Workload Balancer.
 
-* De taak heeft een Type van Duur van Eenvoudig.
+* De taak heeft het type Duur Eenvoudig.
 
