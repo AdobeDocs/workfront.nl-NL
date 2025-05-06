@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
 recommendations: noDisplay, noCatalog
-source-git-commit: 594504c6a7acc9341471371ca279379042a45457
+source-git-commit: ae3fc73e93474c75fd03144b66af23f7142867c0
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,7 @@ In de volgende artikelen wordt beschreven hoe u records en de bijbehorende infor
 * [Records maken](/help/quicksilver/planning/records/create-records.md)
 * [Records maken door gegevens te importeren uit een CSV- of Excel-bestand](/help/quicksilver/planning/records/import-file-to-create-records.md)
 * [Workfront-objecten maken vanuit Workfront Planning wanneer u deze verbindt met records](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
+* [Adobe Workfront-planningsautomatisering configureren](/help/quicksilver/planning/records/configure-automations-to-create-records.md)
 * [Objecten maken met Adobe Workfront Planning-recordautomatisering](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
 * [Records bewerken](/help/quicksilver/planning/records/edit-records.md)
 * [Records verwijderen](/help/quicksilver/planning/records/delete-records.md)

@@ -2,22 +2,22 @@
 product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Gegevens exporteren
-description: U kunt Adobe Workfront-gegevens uit verschillende lijsten, rapporten, dashboards en zoekopdrachten exporteren.
+description: U kunt Adobe Workfront-gegevens exporteren uit lijsten, rapporten, dashboards en zoekopdrachten.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: ae3fc73e93474c75fd03144b66af23f7142867c0
 workflow-type: tm+mt
-source-wordcount: '2247'
+source-wordcount: '2264'
 ht-degree: 0%
 
 ---
 
 # Gegevens exporteren
 
-<!-- Audited: 12/2023 -->
+<!-- Audited: 5/2025 -->
 
-U kunt Adobe Workfront-gegevens uit verschillende lijsten, rapporten, dashboards en zoekopdrachten exporteren.
+U kunt Adobe Workfront-gegevens exporteren uit lijsten, rapporten, dashboards en zoekopdrachten.
 
 Enkele redenen voor het exporteren van gegevens zijn:
 
@@ -97,14 +97,14 @@ Voor meer informatie bij het creëren van rapporten, zie [ een douanerapport ](/
 
 De informatie kan in de volgende formaten worden uitgevoerd:
 
-* PDF (Letter Landscape of Portrait, Legal, Ledger en A4)
-* Excel (.xls)
+* PDF (liggend of staand)
+* Excel
 * Excel (.xlsx)
 * Door tabs gescheiden
 
 >[!NOTE]
 >
->U kunt dashboards alleen afdrukken of exporteren naar een .pdf-bestand.
+>U kunt dashboards afdrukken of alleen exporteren naar een PDF-bestand.
 
 ### Exportlimieten {#export-limits}
 
@@ -115,10 +115,10 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 Er gelden verschillende beperkingen voor de manier waarop rapporten in Workfront worden weergegeven en voor de manier waarop ze via handmatige export, een geleverd rapport of de API worden geëxporteerd.
 
 * **50.000 cellen:** het maximumaantal cellen die in een rapportuitvoer voor de dossiers van Excel worden toegestaan.
-* **50.000 rijen:** het aantal rijen van gegevens toegestaan in een rapportuitvoer voor .pdf en Van het Lusje Gescheiden dossiers.
+* **50.000 rijen:** het aantal rijen van gegevens toegestaan in een rapportuitvoer voor PDF en het Lusje Gescheiden dossiers.
 
-   * Voor de dossiers van Excel .xls, is deze grens **65.000 rijen**.
-   * Voor de dossiers van Excel .xlsx, is deze grens **100.000 rijen**.
+   * Voor de dossiers van Excel, is deze grens **65.000 rijen**.
+   * Voor Excel (.xlsx) dossiers, is deze grens **100.000 rijen**.
    * Deze grenzen sluiten de kolomrubrieken, evenals rijen voor groepen in het rapport uit. Bijvoorbeeld, als u 6 groeperingen in een rapport hebt, en 50.000 rijen van gegevens, zal het uitgevoerde dossier 50.000 rijen hebben.
 
   >[!IMPORTANT]
@@ -153,7 +153,7 @@ Er gelden verschillende beperkingen voor de manier waarop rapporten in Workfront
      Voor meer informatie over het uitvoeren van gebruiksinformatie voor een project, zie [ Overzicht van het rapport van het Gebruik van het Middel ](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md#exporting-utilization-information-for-a-project).
 
 * **10MB dossiergrootte:** de groottelimiet van het Dossier voor om het even welk uitgevoerd rapport dat voor levering wordt gepland. Als een geëxporteerd bestand dat is gekoppeld aan een e-mailbericht groter is dan 5 MB, wordt een koppeling waarnaar het bestand kan worden gedownload per e-mail verzonden in plaats van het bijgevoegde geëxporteerde rapport.
-* **65.530 hyperlinks:** dit is een grens die door Excel op documenten wordt opgelegd die meer dan 65.530 hyperlinks bevatten. Deze documenten kunnen niet worden geopend wanneer ze handmatig worden geëxporteerd of in een bezorgd rapport worden verzonden. Een Excel-document kan slechts 200 rijen gegevens bevatten, maar als het document meer dan 65.530 koppelingen bevat, wordt het document niet geopend. Deze limiet geldt alleen voor Excel-bestanden en niet voor de andere ondersteunde indelingen. 
+* **65.530 hyperlinks:** dit is een grens die door Excel op documenten wordt opgelegd die meer dan 65.530 hyperlinks bevatten. Deze documenten kunnen niet worden geopend wanneer ze handmatig worden geëxporteerd of in een bezorgd rapport worden verzonden. Een Excel-document kan slechts 200 rijen gegevens bevatten, maar als het document meer dan 65.530 koppelingen bevat, wordt het document niet geopend. Deze limiet geldt alleen voor Excel-bestanden en niet voor de andere ondersteunde indelingen.
 * **256 kolommen**: Dit is een grens die door Excel op documenten wordt opgelegd die meer dan 256 kolommen bevatten. Deze documenten kunnen niet handmatig worden geëxporteerd of in een bezorgd rapport worden verzonden. Deze limiet geldt alleen voor Excel-bestanden en niet voor de andere ondersteunde indelingen.
 
   >[!IMPORTANT]
@@ -175,7 +175,7 @@ Neem contact op met de technische ondersteuning van Workfront als u problemen he
 ### Gegevens exporteren uit een rapport of lijst {#export-data-from-a-report-or-list}
 
 1. Ga naar het rapport of de lijst die u wilt exporteren.
-1. Selecteer de items die u wilt exporteren. (Als u afzonderlijke items selecteert, worden alleen de geselecteerde items geëxporteerd.)
+1. Selecteer de items die u wilt exporteren. Als u afzonderlijke items selecteert, worden alleen de geselecteerde items geëxporteerd.
 
    Selecteer bijvoorbeeld in een project de taken die u wilt exporteren.
 
@@ -197,30 +197,24 @@ Neem contact op met de technische ondersteuning van Workfront als u problemen he
 
    Klik het **pictogram van de Uitvoer ![ het pictogram van de Uitvoer ](assets/export-icon-nwe.png), dan selecteer een formaat.**
 
-   Welke PDF-exportopties beschikbaar zijn, is afhankelijk van de landinstellingen in de Workfront-gebruikersinstellingen:
+   Welke opties beschikbaar zijn voor PDF-export, is afhankelijk van de instellingen voor Landinstelling e-mail in uw Workfront-gebruikersinstellingen:
 
-   * Noord-Amerika - letter (standaardwaarde), legal, grootboek, A4
+   * Noord-Amerika - Letter - Landscape, Letter - Portrait, Other Sizes
 
-     <!--   
-     <img src="assets/north-america.jpg" alt="" data-mc-conditions="QuicksilverOrClassic.Draft mode">   
-     -->
-
-   * Alle locaties buiten Noord-Amerika - A3, A4 (standaard), letter, legal, grootboek
-
-     <!--   
-     <img src="assets/everywhere-else.jpg" alt="" data-mc-conditions="QuicksilverOrClassic.Draft mode">   
-     -->
+   * Alle locaties buiten Noord-Amerika - A4 - Liggend, A4 - Staand, andere grootten
 
 1. (Voorwaardelijk) Afhankelijk van het besturingssysteem dat u gebruikt, hebt u mogelijk de mogelijkheid om het bestand te openen of op te slaan. Open het bestand met de bijbehorende toepassing of sla het op de vaste schijf op.
-1. Ga met [ Gebruik het uitgevoerde document ](#use-the-exported-document) verder.
+1. Om te begrijpen hoe de informatievertoningen in het uitgevoerde dossier, blijven lezend het sectie [ gebruiken het uitgevoerde document ](#use-the-exported-document) in dit artikel.
 
 ### Gegevens exporteren uit een dashboard {#export-data-from-a-dashboard}
 
-U kunt de gegevens van een dashboard afdrukken of exporteren als .pdf-bestand.
+U kunt de gegevens van een dashboard afdrukken of exporteren als een PDF-bestand.
 
 Voor meer informatie over het uitvoeren van gegevens van een dashboard, zie [ een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md) uitvoeren.
 
 ## Het geëxporteerde document gebruiken {#use-the-exported-document}
+
+In de volgende secties wordt beschreven hoe informatie in een geëxporteerd bestand wordt weergegeven:
 
 * [ Namen van het Dossier ](#file-names)
 * [ Titels ](#titles)
@@ -308,11 +302,11 @@ Afhankelijk van het type document dat u exporteert, worden tijdstempels op versc
 
 ### Opmaak {#formatting}
 
-Wanneer u een project naar .pdf uitvoert, worden om het even welke subtaken getoond zoals ingesprongen aan hun oudertaken. Bovenliggende taken worden niet samengevouwen in geëxporteerde lijsten.
+Wanneer u een project naar PDF uitvoert, worden om het even welke subtaken getoond zoals ingesprongen aan hun oudertaken. Bovenliggende taken worden niet samengevouwen in geëxporteerde lijsten.
 
 U ontvangt altijd het standaardlusje van een rapport wanneer een rapport voor een levering wordt verzonden of gepland, tenzij het rapport een speciale mening heeft.
 
-Als uw rapport speciale opmaak heeft in de webtoepassing, moet het rapport worden geleverd met de speciale opmaak wanneer de tabbladen Details en Matrix worden geleverd, alleen voor .pdf- en Excel-bestanden.
+Als uw rapport een speciale opmaak heeft in de webtoepassing, moet het rapport worden geleverd met de speciale opmaak wanneer de tabbladen Details en Matrix worden geleverd, alleen voor PDF- en Excel-bestanden.
 
 >[!NOTE]
 >
@@ -322,11 +316,11 @@ Voor meer informatie over hoe te om het formatteren in een rapport aan te passen
 
 ### Koppelingen {#links}
 
-Koppelingen kunnen verwijzen naar elk object in Workfront dat koppelingen ondersteunt. Wanneer u een lijst in Workfront naar .pdf exporteert, blijven alle ondersteunde koppelingen in het oorspronkelijke document actief in het geëxporteerde document.
+Koppelingen kunnen verwijzen naar elk object in Workfront dat koppelingen ondersteunt. Wanneer u een lijst in Workfront naar PDF exporteert, blijven alle ondersteunde koppelingen in het oorspronkelijke document actief in het geëxporteerde document.
 
 >[!TIP]
 >
->Als de regel `valueformat=HTML` wordt weergegeven in de tekstmodus voor een aangepaste veldkolom en de koppelingswaarden niet worden weergegeven in een geëxporteerd .pdf-bestand, moet u extra coderegels aan de kolom toevoegen in de tekstmodus.
+>Als de regel `valueformat=HTML` wordt weergegeven in de tekstmodus voor een aangepaste veldkolom en de koppelingswaarden niet worden weergegeven in een geëxporteerd PDF-bestand, moet u extra coderegels invoeren in de tekstmodus.
 >
 >Bijvoorbeeld, als u een douanegebied genoemd Open Q1 Projecten hebt die verbindingen bevatten, zou u de volgende code toevoegen:
 >
@@ -343,7 +337,7 @@ Wanneer u naar een Excel-indeling exporteert, worden alleen koppelingen naar obj
 >
 >Als uw organisatie is aangemeld bij Adobe Experience Cloud, is branding niet beschikbaar.
 
-Als uw Workfront-beheerder aangepaste branding heeft toegevoegd aan uw Workfront-instantie voor de algemene navigatiebalk, bevatten de geëxporteerde .pdf-bestanden ook uw persoonlijke logo.
+Als uw Workfront-beheerder aangepaste branding heeft toegevoegd aan uw Workfront-exemplaar voor de algemene navigatiebalk, bevatten de geëxporteerde PDF-bestanden ook uw persoonlijke logo.
 
 Gegevens die in andere indelingen worden geëxporteerd, kunnen niet worden gepersonaliseerd met uw logo.
 
