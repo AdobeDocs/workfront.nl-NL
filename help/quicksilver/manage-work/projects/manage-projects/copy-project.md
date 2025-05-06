@@ -7,9 +7,9 @@ author: Alina
 feature: Projects, Work Management
 role: User
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,11 @@ ht-degree: 0%
 <(LINKED TO THE PRODUCT IN THE COPY PROJECT BOX)</p>
 -->
 
-U kunt een project kopiëren in plaats van er zelf een te maken. U kunt slechts één project tegelijk kopiëren. U kunt geen projecten in bulk kopiëren.
+<!-- Audited: 5/2025 -->
+
+U kunt een project kopiëren van een bestaand project in plaats van een geheel nieuw project te maken, zodat u tijd bespaart.
+
+Houd er rekening mee dat projecten niet in bulk kunnen worden gekopieerd.
 
 >[!IMPORTANT]
 >
@@ -44,7 +48,7 @@ U kunt een project kopiëren in plaats van er zelf een te maken. U kunt slechts 
 >* Scorecard
 >* Standaardgegevens taak (goedkeuringsproces standaardtaak, Standaard aangepaste Forms taak)
 >
-> De datums van de oorspronkelijke taken van de projecten worden gekopieerd naar het nieuwe project. U moet de begin- of voltooiingsdatum van het project (afhankelijk van de planningsmodus) wijzigen om de datums op de taken bij te werken. De beperkingen van de taak zouden u kunnen verhinderen de data op het project te veranderen.
+> De data van de oorspronkelijke projecttaken worden gekopieerd naar het nieuwe project. U moet de begin- of voltooiingsdatum van het project (afhankelijk van de planningsmodus) wijzigen om de taakdatums bij te werken. De beperkingen van de taak zouden u kunnen verhinderen de data op het project te veranderen.
 
 ## Toegangsvereisten
 
@@ -77,34 +81,40 @@ U kunt een project kopiëren in plaats van er zelf een te maken. U kunt slechts 
  </tbody> 
 </table>
 -->
-U moet het volgende hebben:
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront-abonnement*</p> </td> 
+   <td> <p>Adobe Workfront-plan</p> </td> 
    <td>Alle</td> 
   </tr> 
   <tr> 
-   <td> <p>Adobe Workfront-licentie*</p> </td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Adobe Workfront-licentie</p> </td> 
+   <td> <p>Nieuw: Standaard </p> 
+   <p>of</p>
+   <p>Huidig: Plan </p>
+
+</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong> het niveauconfiguraties van de Toegang* </strong> </td> 
-   <td> <p>Geef toegang tot Projecten met capaciteit uit om <span> te creëren en </span> projecten te kopiëren</p> <p><b>OPMERKING</b>
-
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
-</tr> 
+   <td>Configuraties op toegangsniveau </td> 
+   <td> <p>Geef toegang tot Projecten met capaciteit uit om <span> te creëren en </span> projecten te kopiëren</p> </td> 
+  </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong> de toestemmingen van Objecten </strong> </p> </td> 
-   <td> <p>Machtigingen of hoger weergeven voor het project</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Objectmachtigingen </p> </td> 
+   <td> <p>Machtigingen of hoger weergeven voor het project</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Eén project kopiëren
 
@@ -112,27 +122,21 @@ Het kopiëren van een project kopieert ook sommige informatie van het originele 
 
 Een project kopiëren:
 
-1. Ga naar het project dat u wilt kopiëren en **klikken Meer** pictogram ![ Meer menu ](assets/qs-more-menu.png) aan het recht van de projectnaam
+{{step1-to-projects}}
 
-   ![ Meer dropdown ](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+1. Selecteer het project dat u van de projectlijst wilt kopiëren, dan klik **Meer** pictogram ![ Meer menu ](assets/more-icon.png) rechts van de projectnaam.
 
    of
 
-   Ga naar een projectlijst of een rapport en selecteer een project, dan klik het **Meer** pictogram ![ Meer menu ](assets/qs-more-menu.png) bij de bovenkant van de lijst.
+   Ga naar een projectlijst of een rapport en selecteer een project, dan klik het **Meer** pictogram ![ Meer menu ](assets/more-icon.png) bij de bovenkant van de lijst.
 
-   ![ Meer uitgevouwen menu ](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
+1. In **Meer** drop-down menu, klik **Exemplaar**. Het **Exemplaar van [ de dialoogvakje van de Naam van het Project]** verschijnt.
 
-1. Klik **Exemplaar**.
+1. (Facultatief) werk de **Naam van het Project** bij. Door gebrek, is de nieuwe naam **Exemplaar van [ Oorspronkelijke projectnaam]**.
 
-1. Werk de naam van het nieuwe project bij.
+   ![ het projectvakje van het Exemplaar ](assets/copy-of-project-box.png)
 
-   Door gebrek, is de nieuwe naam **Exemplaar van `<Original project name>`.**
-
-   ![ het projectvakje van het Exemplaar ](assets/copy-project-box-nwe-350x276.png)
-
-1. Selecteer de **Status** voor het nieuwe project.
-
-   Door gebrek, past de **Status** dat van het originele project aan.
+1. Selecteer a **Status**. Standaard is de status van het oorspronkelijke project geselecteerd.
 
 1. (Optioneel) Schakel de items uit die u niet naar het nieuwe project wilt kopiëren. In de volgende tabel wordt beschreven wat er gebeurt wanneer u de selectie van de items opheft:
 
@@ -143,13 +147,13 @@ Een project kopiëren:
     <tbody> 
      <tr> 
       <td role="rowheader">Alles selecteren</td> 
-      <td> <p>Hiermee selecteert u alle opties en wist u alle velden en objecten die in het nieuwe project worden vermeld.</p> <p><b>TIP</b>
+      <td> <p>Hiermee selecteert u alle opties en wist u alle velden en objecten die in het nieuwe project worden vermeld. </p>
 
-   Deselecterend <strong> Uitgezochte allen </strong> deselecteert alle punten. </p> </td>
-   </tr> 
+   <p> Als u deze optie uitschakelt, worden alle items uitgeschakeld. </p> </td> 
+     </tr> 
      <tr> 
       <td role="rowheader">Toewijzingen</td> 
-      <td>Hiermee worden alle project- en taaktoewijzingen verwijderd</td> 
+      <td>Hiermee verwijdert u alle project- en taaktoewijzingen.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Voortgang</td> 
@@ -162,29 +166,26 @@ Een project kopiëren:
         <li>Taken</li> 
         <li>Uitgaven</li> 
         <li> Documenten</li> 
-       </ul> <p><b>OPMERKING</b>
-
-   De aangepaste formulieren blijven gekoppeld aan de taken, uitgaven, documenten en het project, maar de informatie in de aangepaste velden van de formulieren wordt niet naar het nieuwe project gekopieerd. </p> </td>
-   </tr> 
+       </ul> 
+      <p>De aangepaste formulieren blijven gekoppeld aan de taken, uitgaven, documenten en projecten, maar de gegevens in de aangepaste velden van het formulier worden niet naar het nieuwe project gekopieerd. </p> </td> 
+     </tr> 
      <tr> 
       <td role="rowheader">Documenten</td> 
-      <td> <p>Hiermee verwijdert u alle gegevens op het documenttabblad, inclusief documentversies, gekoppelde documenten en mappen.</p> <p>Standaard kunnen proefdrukken en goedkeuringen van documenten niet naar een ander project worden gekopieerd. </p> </td> 
+      <td> <p>Hiermee verwijdert u alles op het tabblad Documenten, inclusief documentversies, gekoppelde documenten en mappen.</p> <p>Standaard kunnen proefdrukken en goedkeuringen van documenten niet naar een ander project worden gekopieerd. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Alle voorgangers</td> 
-      <td> <p>Verwijdert alle voorgangersverhoudingen tussen de taken op het project. </p> <p><b>TIP</b>
+      <td> <p>Verwijdert alle voorgangersverhoudingen tussen de taken op het project. </p> <p>
 
    Predecessors voor meerdere projecten brengen nooit over naar het nieuwe project, ongeacht of dit is geselecteerd of niet. </p> </td>
    </tr>
 
 <tr> 
       <td role="rowheader">Geforceerde uren</td> 
-      <td> <p>Verwijdert de uren die in het gebied van de Planning van het Middel van het BedrijfsGeval van het project in de begroting worden opgenomen uit het gekopieerde project.</p>
-
-<b> NOTA </b>
-
-De uren die in de begroting zijn opgenomen met de Scenario Planner worden nooit naar het nieuwe project gekopieerd omdat het nieuwe project niet gekoppeld is aan een initiatief in de Scenario Planner. Voor meer informatie, zie &lbrace;de middelen van de Begroting in het BedrijfsGeval gebruikend de Planner van het Scenario </a><a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">
-</tr></td>
+      <td> <p>Verwijdert de uren die in het gebied van de Planning van het Middel van het BedrijfsGeval van het project in de begroting worden opgenomen uit het gekopieerde project.</p> 
+    <p>
+   De uren die in de begroting zijn opgenomen met de Scenario Planner worden nooit naar het nieuwe project gekopieerd omdat het nieuwe project niet gekoppeld is aan een initiatief in de Scenario Planner. Voor meer informatie, zie {de middelen van de Begroting in het BedrijfsGeval gebruikend de Planner van het Scenario </a><a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md"></p>
+   </tr></td>
     <tr> 
       <td role="rowheader">Financiële informatie</td> 
       <td> <p>Hiermee verwijdert u de informatie in de volgende gebieden: </p> 
@@ -192,7 +193,7 @@ De uren die in de begroting zijn opgenomen met de Scenario Planner worden nooit 
         <li>Subtabblad Financiën van het project</li> 
         <li> Gepland voordeel in de bedrijfscase</li> 
         <li>Financiële informatie uit alle taken<br></li> 
-       </ul> <p>Voor meer informatie over sub-lusje van de Projectfinanciering, zie <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref"> informatie in het gebied van de projectfinanciering beheren </a>.</p> </td> 
+       </ul> <p>Voor meer informatie over subtab van de projectfinanciering, zie <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref"> informatie in het gebied van de projectfinanciering beheren </a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Goedkeuringsproces</td> 
@@ -213,8 +214,4 @@ De uren die in de begroting zijn opgenomen met de Scenario Planner worden nooit 
     </tbody> 
    </table>
 
-1. Klik **Exemplaar** om een exemplaar van het project tot stand te brengen.
-
-   Dit leidt tot een nieuw project dat aan het project gelijkaardig is u kopieerde.
-
-   U kunt wijzigingen aanbrengen in het nieuwe gekopieerde project, zoals taaktoewijzingen controleren of tijdlijnen aanpassen.
+1. Klik **project van het Exemplaar**. Het gekopieerde project wordt gemaakt.

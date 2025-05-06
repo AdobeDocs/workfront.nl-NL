@@ -2,20 +2,22 @@
 content-type: reference
 product-area: projects
 navigation-topic: tasks
-title: Taakgegevens
+title: 'Taakgegevens: artikelindex'
 description: Taken zijn werkitems die bijdragen tot de voltooiing van een project in Adobe Workfront. In de volgende artikelen vindt u meer informatie over taken.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 2c0e7f40-f680-4e7e-8827-be69703a393f
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
 
-# Taakgegevens
+# Taakgegevens: artikelindex
+
+<!-- Audited: 5/2025 -->
 
 Deze sectie bevat de volgende artikelen:
 
@@ -30,7 +32,7 @@ Deze sectie bevat de volgende artikelen:
 * [ Overzicht van de taak Geplande Datum van het Begin ](../../../manage-work/tasks/task-information/task-planned-start-date.md)
 * [ Overzicht van de taak Geplande Datum van de Voltooiing ](../../../manage-work/tasks/task-information/task-planned-completion-date.md)
 * [ Overzicht van de Datum van de Afhandeling van de Taak ](../../../manage-work/tasks/task-information/handoff-task-date.md)
-* {het overzicht van de Datum van de Datum van de Slack van 0} Taak [&#128279;](../../../manage-work/tasks/task-information/task-slack-date.md)
+* [ het Overzicht van de Datum van de Taak Slack ](../../../manage-work/tasks/task-information/task-slack-date.md)
 * [ Overzicht van Kan starten voor taken ](../../../manage-work/tasks/task-information/can-start-task-overview.md)
 * [ plaats het Volgen Wijze voor taken ](../../../manage-work/tasks/task-information/set-tracking-mode-for-tasks.md)
 * [ de taak van de Update het Niveaus Vertraging ](../../../manage-work/tasks/task-information/task-leveling-delay.md)
