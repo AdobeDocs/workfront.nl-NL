@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: d072b8e9c657e970c12f75a304f63e04d0512505
+source-git-commit: f9de87b7b874910cb986cbf6d57e998afe602bb8
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '346'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,25 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwart
 >[!IMPORTANT]
 >
 >De functies die op deze pagina worden vermeld, maken deel uit van een gefaseerde release en zijn alleen beschikbaar voor specifieke klanten.
+
+## Assets in een gekoppelde Google-map moet afzonderlijk worden toegevoegd om in Workfront te worden weergegeven
+
+>[!NOTE]
+>
+>* Voorvertoningsrelease: 31 mei 2025; Productieversie voor alle klanten: 31 mei 2025
+
+Google is [ verbeterend veiligheidscontroles ](https://workspace.google.com/blog/product-announcements/enhancing-security-controls-for-google-drive-third-party-apps) voor derdetoepassingen die tot de Aandrijving van Google toegang hebben, die toepassingen vereisen om een model van de per-gebruikerstoestemming goed te keuren. Dit betekent dat afzonderlijke elementen een voor een moeten worden gekoppeld om in Workfront zichtbaar te zijn. Zie [ documentintegratie ](/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md) voor meer informatie vormen.
+
+Belangrijke mogelijkheden die ongewijzigd blijven:
+
+* Zoeken en filteren op middelen en mappen vanuit het modaal Google Drive
+* Elementen koppelen aan Workfront-objecten van Google Drive
+* Elementen uploaden naar Google Drive via het vervolgkeuzemenu &quot;Verzenden naar&quot; op de documentpagina
+* De mapstructuur weergeven en openen in het gebied Mijn schijf van een gebruiker
+* Een nieuwe versie van een middel van Google Drive koppelen aan een bestaand document in Workfront
+* Mappen koppelen aan Workfront-objecten vanuit Google Drive
+* Elementen uploaden naar Google Drive door documenten naar een gekoppelde map te slepen
+* Een nieuw Google Drive-document maken vanuit Workfront
 
 
 ## Knoppen voor het nemen van beslissingen voor het goedkeuren van nieuwe documenten beschikbaar in de proefdrukviewer

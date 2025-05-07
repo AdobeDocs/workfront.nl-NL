@@ -1,5 +1,5 @@
 ---
-source-git-commit: affff16630379333465c118734babf7a239af272
+source-git-commit: cbb434ff7c8f614b6ca3f657f01945306d26068c
 workflow-type: tm+mt
 source-wordcount: '2474'
 ht-degree: 0%
@@ -281,7 +281,7 @@ U moet de juiste insteekmodule installeren voor de Adobe Creative Cloud-toepassi
    * **Mijn werkruimten**: De werkruimten van vertoningen u creeerde.
    * **Andere werkruimten**: Toont alle werkruimten in de Planning van Workfront, met inbegrip van degenen die met u worden gedeeld.
 
-   Voor alle andere gebruikers, alle werkruimten u creeerde of met u vertoning in het **1&rbrace; gebied van de Werkruimten &lbrace;wordt gedeeld.**
+   Voor alle andere gebruikers, alle werkruimten u creeerde of met u vertoning in het **1} gebied van de Werkruimten {wordt gedeeld.**
 
 ## Belangrijke intro voor Workfront-planning - {#planning-important-intro}
 
@@ -315,11 +315,11 @@ U moet de juiste insteekmodule installeren voor de Adobe Creative Cloud-toepassi
 
 <!-- Manage Work -->
 
-## Stap 1 - Aan portfolio's ophalen - {#step1-to-portfolios}
+## Stap 1 - Aan portfolio&#39;s ophalen - {#step1-to-portfolios}
 
 1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Portfolios]**.
 
-## Stap 1 - Aan Programma's worden - {#step1-to-programs}
+## Stap 1 - Aan Programma&#39;s worden - {#step1-to-programs}
 
 1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Programs]**.
 
@@ -360,8 +360,8 @@ U moet de juiste insteekmodule installeren voor de Adobe Creative Cloud-toepassi
 ## Laatste DPV-versie {#latest-version}
 
 **Meest recente versie**:
-* Mac: 2.1.44 sinds 2025
-* Windows: 2.1.44 van 1-2-2025
+* Mac: 2.1.48 sinds 7-05-2025
+* Windows: 2.1.48 van 7-5-2025
 
 <!-- Release -->
 

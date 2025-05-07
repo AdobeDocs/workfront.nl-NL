@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 74714ce45c815afc9cff1360fd3542fa15763907
+source-git-commit: f9de87b7b874910cb986cbf6d57e998afe602bb8
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '669'
 ht-degree: 0%
 
 ---
@@ -56,6 +56,17 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Snelle release</strong></td>
         <td><strong>Driemaandelijks</strong></td>
     </tr>
+      <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}"> Assets in een verbonden omslag van Google moet individueel worden toegevoegd om in Workfront </a> te verschijnen<p>[!BADGE Off schema]{type=Neutral}</p>
+            <p>Google is <a href="https://workspace.google.com/blog/product-announcements/enhancing-security-controls-for-google-drive-third-party-apps"> verbeterend veiligheidscontroles </a>
+            voor toepassingen van derden die toegang willen tot Google Drive, waarbij toepassingen een model voor toestemming per gebruiker moeten gebruiken. Dit betekent dat afzonderlijke elementen een voor een moeten worden gekoppeld om in Workfront zichtbaar te zijn. Zie <a href="/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md"> documentintegratie </a> vormen
+             voor meer informatie . </p>
+        </td>
+        <td>31 mei 2025</td>
+        <td>31 mei 2025</td>
+        <td>31 mei 2025</td>
+    </tr>  
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}"> de knopen van het besluit van de nieuwe documentgoedkeuring beschikbaar in het proef van kijker </a><p>[!BADGE Off schema]{type=Neutral}</p>
@@ -157,7 +168,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Opmerkingen bij de release voor andere gebieden
 
-* [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+* [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 * [ Adobe Workfront die Derde Kwartaal 2025 versieactiviteit ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md) plant.
 
 Er zijn geen updates voor het volgende op dit punt in de versie:
@@ -177,11 +188,11 @@ Voor informatie over API versies, zie [ API versioning en steunprogramma ](/help
 
 ### Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens Eerste Kwartaal 2025 versie worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront [&#128279;](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=nl-NL).
+Voor informatie over de onderhoudsupdates die tijdens Eerste Kwartaal 2025 versie worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).[
 
 ### Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=nl-NL) Nieuw is.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html) Nieuw is.
 
 
 
