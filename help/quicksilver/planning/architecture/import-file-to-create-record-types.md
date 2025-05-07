@@ -109,7 +109,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 * Lege bladen worden niet ondersteund.
 * Velden van de volgende typen worden niet ondersteund en kunnen niet worden toegewezen aan velden op het importblad:
 
-   * <!--In the Production environment,--> Verbindingsvelden voor planningsrecords of Workfront- en AEM Assets-objecten
+   * &#x200B;<!--In the Production environment,--> Verbindingsvelden voor planningsrecords of Workfront- en AEM Assets-objecten
 
      <!--<span class="preview">In the Preview environment, you can map and import connection fields to Planning records. </span>-->
 
