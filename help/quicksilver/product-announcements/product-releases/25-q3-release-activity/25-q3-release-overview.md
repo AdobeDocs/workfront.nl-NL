@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: f9de87b7b874910cb986cbf6d57e998afe602bb8
+source-git-commit: 220c31cb836e324b91fb36106ed34662c1eb6b29
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '718'
 ht-degree: 0%
 
 ---
@@ -168,15 +168,19 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Opmerkingen bij de release voor andere gebieden
 
-* [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
-* [ Adobe Workfront die Derde Kwartaal 2025 versieactiviteit ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md) plant.
+### Workfront Fusion-verbeteringen
+
+Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de standaard releaseschema. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+
+### Verbeteringen voor Workfront-planning
+
+Nieuwe functies in Workfront Planning zijn beschikbaar in Production. Voor meer informatie over de recentste eigenschappen, zie [ Adobe Workfront die Derde Kwartaal 2025 versieactiviteit ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md) plant.
 
 Er zijn geen updates voor het volgende op dit punt in de versie:
 
 * Scenario Planner
 * Proef
 * Doelen
-
 
 ### API-versie 20
 
@@ -188,11 +192,11 @@ Voor informatie over API versies, zie [ API versioning en steunprogramma ](/help
 
 ### Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens Eerste Kwartaal 2025 versie worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront [&#128279;](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=nl-NL).
+Voor informatie over de onderhoudsupdates die tijdens Eerste Kwartaal 2025 versie worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).[
 
 ### Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=nl-NL) Nieuw is.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html) Nieuw is.
 
 
 
