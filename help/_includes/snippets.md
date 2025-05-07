@@ -281,7 +281,7 @@ U moet de juiste insteekmodule installeren voor de Adobe Creative Cloud-toepassi
    * **Mijn werkruimten**: De werkruimten van vertoningen u creeerde.
    * **Andere werkruimten**: Toont alle werkruimten in de Planning van Workfront, met inbegrip van degenen die met u worden gedeeld.
 
-   Voor alle andere gebruikers, alle werkruimten u creeerde of met u vertoning in het **1} gebied van de Werkruimten {wordt gedeeld.**
+   Voor alle andere gebruikers, alle werkruimten u creeerde of met u vertoning in het **1&rbrace; gebied van de Werkruimten &lbrace;wordt gedeeld.**
 
 ## Belangrijke intro voor Workfront-planning - {#planning-important-intro}
 
@@ -315,11 +315,11 @@ U moet de juiste insteekmodule installeren voor de Adobe Creative Cloud-toepassi
 
 <!-- Manage Work -->
 
-## Stap 1 - Aan portfolio&#39;s ophalen - {#step1-to-portfolios}
+## Stap 1 - Aan portfolio's ophalen - {#step1-to-portfolios}
 
 1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Portfolios]**.
 
-## Stap 1 - Aan Programma&#39;s worden - {#step1-to-programs}
+## Stap 1 - Aan Programma's worden - {#step1-to-programs}
 
 1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Programs]**.
 
