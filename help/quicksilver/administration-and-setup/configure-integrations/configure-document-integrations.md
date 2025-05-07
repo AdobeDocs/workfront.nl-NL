@@ -8,9 +8,9 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: ec0e2be036ce1298e285ce85cdeddae97cd1f144
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1111'
 ht-degree: 0%
 
 ---
@@ -250,4 +250,12 @@ U configureert als volgt [!DNL Workfront] om metagegevens naar [!DNL Workfront D
 
 ## Beperkingen
 
-* De integratie van Google Drive-documenten ondersteunt het toevoegen van mappen en afbeeldingen vanuit het gebied Mijn schijf van uw Google Drive. U kunt geen mappen of afbeeldingen toevoegen vanaf een gedeeld station. Leer meer over [ Google Gedeelde aandrijving ](https://support.google.com/a/users/answer/7212025?hl=en).
+### Integratie met Google Drive
+
+* Wanneer een gekoppelde map aan Workfront wordt toegevoegd, worden de bestanden in de map niet meer automatisch toegevoegd.
+   * U kunt de Google-map zonder de bestanden aan Workfront toevoegen en vervolgens de afzonderlijke bestanden aan Workfront toevoegen. De bestanden worden automatisch toegevoegd aan de Google-map in Workfront.
+of
+   * U kunt een documentmap maken in Workfront, vervolgens alle bestanden in de Google-map selecteren en deze toevoegen aan de Workfront-map.
+
+
+* De integratie van Google Drive-documenten ondersteunt het toevoegen van bestanden van de sectie Mijn schijf van uw Google Drive. U kunt geen mappen of afbeeldingen toevoegen vanaf een gedeeld station. Leer meer over [ Google Gedeelde aandrijving ](https://support.google.com/a/users/answer/7212025?hl=en).
