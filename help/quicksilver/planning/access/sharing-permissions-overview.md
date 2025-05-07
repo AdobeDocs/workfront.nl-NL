@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: 3550d7addcc0bb790f15d141d9470e0b75f940a6
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1227'
 ht-degree: 0%
 
 ---
@@ -44,19 +44,18 @@ U kunt de volgende objecten handmatig delen in Workfront Planning:
 
   Voor meer informatie, zie [ werkruimten van het Aandeel ](/help/quicksilver/planning/access/share-workspaces.md)
 
-<!--
 <div class="preview">
 
-* Record types
+* Recordtypen
 
-    * You can share record types with people inside your organization.
-    * The level of permissions granted for the workspace displays as Inherited permissions for the record type. 
-    * You cannot share a record type with a higher permission level than the user has on the workspace. 
+   * U kunt recordtypen delen met personen binnen uw organisatie.
+   * Het niveau van toestemmingen die voor de werkruimte worden verleend toont als Geërfte toestemmingen voor het verslagtype.
+   * U kunt een recordtype niet delen met een hoger machtigingsniveau dan de gebruiker in de werkruimte heeft.
 
-    For more information, see [Share record types](/help/quicksilver/planning/access/share-record-types.md). 
+  Voor meer informatie, zie [ recordtypes van het Aandeel ](/help/quicksilver/planning/access/share-record-types.md).
 
 </div>
--->
+
 
 * Weergaven
 
@@ -67,7 +66,7 @@ U kunt de volgende objecten handmatig delen in Workfront Planning:
 
   Voor meer informatie, zie [ meningen van het Aandeel ](/help/quicksilver/planning/access/share-views.md).
 
-Intern kunt u een werkruimte of weergave delen met de volgende Workfront-entiteiten:
+Intern kunt u een werkruimte, een weergave <span class="preview"> of een recordtype </span> delen met de volgende Workfront-entiteiten:
 
 * Gebruikers
 * Groepen
@@ -76,6 +75,11 @@ Intern kunt u een werkruimte of weergave delen met de volgende Workfront-entitei
 * Functies
 
 <span class="preview"> Wanneer u werkruimten en recordtypen deelt met anderen, wordt het machtigingsniveau van het recordtype automatisch overgeërfd aan de records en velden die eraan zijn gekoppeld. </span>
+
+>[!IMPORTANT]
+>
+>Als de instantie van uw organisatie van Workfront aan de Adobe Verenigde Ervaring is genegeerd, moeten de gebruikers u de voorwerpen van de Planning met wilt delen aan Adobe Admin Console worden toegevoegd. U kunt planningsobjecten niet delen met Workfront-gebruikers die niet aan de Adobe Admin Console zijn toegevoegd.
+
 
 ## Overwegingen bij het delen van objecten in Adobe Workfront Planning
 
