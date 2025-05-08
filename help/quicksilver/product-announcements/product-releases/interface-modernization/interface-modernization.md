@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 78300d47d9a892a07816d94c448c7b957f11f14f
+source-git-commit: 7de63fbe2df6aa5f173b8e5647097e3f8aabc08c
 workflow-type: tm+mt
-source-wordcount: '2138'
+source-wordcount: '2140'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Deze pagina bevat een overzicht van de interface-updates die we in Adobe Workfro
 >
 >In de meeste gevallen, wordt elke update eerst vrijgegeven aan het milieu van de Voorproef, dan incrementeel toegelaten in de milieu van de Productie voor een groeiende ondergroep klanten die op de vermelde de versiedatum van de Productie begint.
 
-Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product [&#128279;](/help/quicksilver/product-announcements/product-releases/product-releases.md).
+Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product ](/help/quicksilver/product-announcements/product-releases/product-releases.md).[
 
 ## Navigatie en zoeken
 
@@ -47,7 +47,7 @@ We hebben de pagina die u gebruikt, bijgewerkt zodat u ondersteuning kunt bieden
 
 ### Interface-update voor het Aankondigingscentrum
 
-**de versie van de Voorproef: 27 februari, 2025; Te aankondigen**
+**de versie van de Voorproef: 27 februari, 2025; Beginnend de week van 6 Maart, 2025**
 
 We hebben het Aankondigingscentrum bijgewerkt met een modernere opzet die aansluit bij andere gebieden van Workfront.
 
@@ -71,7 +71,7 @@ Ga naar Setup > Teams om de instellingen weer te geven.
 
 ### Interface-update voor instellingen voor goedkeuringsproces in Setup
 
-**de versie van de Voorproef: 6 Februari, 2025; De versie van de productie: Te aankondigen**
+**de versie van de Voorproef: 6 Februari, 2025; De versie van de Productie: Beginnend de week van 13 februari, 2025**
 
 Het dialoogvenster met goedkeuringsinstellingen is bijgewerkt met een modern ontwerp dat aansluit bij andere gebieden van Workfront.
 
@@ -177,7 +177,7 @@ Deze update bevat visuele wijzigingen in het gebied. Er is geen functionaliteit 
 
 ### Interface-updates voor teamverzoeken
 
-**de versie van de Voorproef: 6 Maart, 2025; De versie van de productie: Te aankondigen**
+**de versie van de Voorproef: 6 Maart, 2025; De versie van de Productie: 13 Maart, 2025**
 
 Wij hebben de pagina van de Verzoeken van het Team met een moderner ontwerp bijgewerkt dat met andere gebieden van Workfront verenigbaar is.
 
