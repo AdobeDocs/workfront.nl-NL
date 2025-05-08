@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 6350e815e39d642a88a2c9c8b17208db5cb253c5
+source-git-commit: 78300d47d9a892a07816d94c448c7b957f11f14f
 workflow-type: tm+mt
-source-wordcount: '2064'
+source-wordcount: '2138'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ Deze pagina bevat een overzicht van de interface-updates die we in Adobe Workfro
 >
 >In de meeste gevallen, wordt elke update eerst vrijgegeven aan het milieu van de Voorproef, dan incrementeel toegelaten in de milieu van de Productie voor een groeiende ondergroep klanten die op de vermelde de versiedatum van de Productie begint.
 
-Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product [&#128279;](/help/quicksilver/product-announcements/product-releases/product-releases.md).
+Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product ](/help/quicksilver/product-announcements/product-releases/product-releases.md).[
 
 ## Navigatie en zoeken
 
 ### Interface-update voor geavanceerd zoeken
 
-**de versie van de Voorproef: 17 April; De versie van de Productie: Te aankondigen**
+**de versie van de Voorproef: 17 April; De versie van de Productie: Begin de week van 24 April**
 
 Het gedeelte Geavanceerd zoeken is als volgt bijgewerkt:
 
@@ -344,19 +344,16 @@ We hebben de pagina voor het delen van documenten voor externe gebruikers bijgew
 
 De externe gebruikers kunnen niet meer tot _Mijn Montages_ van deze pagina toegang hebben.
 
-<!--
+### Bijgewerkte externe gebruikersregistratiepagina
 
-### Updated external user registration page
+**de versie van de Voorproef: 24 april, 2024; De versie van de productie: Beginnend de week van 8 mei, 2024**
 
-**Preview release: April 24, 2024; Production release: To be announced**
+We hebben de externe pagina voor gebruikersregistratie bijgewerkt met een moderner ontwerp dat aansluit bij andere gebieden van Workfront.
 
-We have updated the external user registration page with a more modern design that is consistent with other areas of Workfront.
+## Licenties
 
+### Pagina met bijgewerkte licentieovereenkomsten
 
-## Licenses
+**de versie van de Voorproef: 24 april, 2024; De versie van de productie: Beginnend de week van 8 mei, 2024**
 
-### Updated license agreement page
-
-**Preview release: tbd; Production release: To be announced**
-
-We have updated the license agreement page with a more modern design that is consistent with other areas of Workfront.-->
+We hebben de pagina met licentieovereenkomsten bijgewerkt met een moderner ontwerp dat aansluit bij andere gebieden van Workfront.
