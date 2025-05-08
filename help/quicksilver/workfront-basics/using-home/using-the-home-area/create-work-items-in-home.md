@@ -6,9 +6,9 @@ description: U kunt werkitems en projecten maken vanuit het [!UICONTROL Home] -g
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 04a9524c4ee9066e7b8d3b47712d70fcfc119b32
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '820'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
-   <td> <p>[!UICONTROL Work] of hoger</p> </td> 
+   <td>
+    <p>Nieuw: [!UICONTROL Standard]</p> 
+    <p>Huidig: [!UICONTROL Work] of hoger</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
@@ -72,7 +74,7 @@ Een te-do-item maken:
 
 1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, of het **Belangrijkste menu** ![ Belangrijkste pictogram van de Lijnen van het Menu ](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) klik **aanpassen**, dan klik **aan-Dozen** om toe te voegen aan-Doopwidget aan uw huisscherm.
-1. Ga naar **&#x200B;**&#x200B;widget, dan klik **toevoegen aan-doe**.
+1. Ga naar **** widget, dan klik **toevoegen aan-doe**.
 1. Typ de naam voor het persoonlijke aan-doe item en klik op Enter.
 1. (Facultatief) klik het **pictogram van de Datum ![ ](assets/date-icon.png) pictogram van de Datum om een vervaldatum voor het punt toe te voegen.**
    ![ Mijn werk aan-doet ](assets/my-work-to-dos.png)
