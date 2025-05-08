@@ -53,7 +53,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 {{step-1-to-users}}
 
-1. Sorteer uw gebruikers door **Niveau van de Toegang**. Wij adviseren partij het uitgeven door het Niveau van de Toegang om het **gebied van het Profiel van de Toestemming van 0} te verzekeren verschijnt.**
+1. Sorteer uw gebruikers door **Niveau van de Toegang**. Wij adviseren partij het uitgeven door het Niveau van de Toegang om het **gebied van het Profiel van de Toestemming van 0&rbrace; te verzekeren verschijnt.**
 
 1. Klik checkbox naast de gebruikers u binnen het zelfde toegangsniveau wilt selecteren. Het veld Proefmachtigingsprofiel is alleen beschikbaar voor toegangsniveaus voor Worker en hoger.
 1. Klik **uitgeven** bij de bovenkant van de lijst.
