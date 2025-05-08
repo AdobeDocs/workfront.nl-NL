@@ -7,9 +7,9 @@ description: In het gebied Documenten kunt u metagegevens voor naar Adobe Workfr
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 64612345-d1ce-41db-939b-3af30d1c6a51
-source-git-commit: 5595b1c286d82f77bca9ee16e20bae8380ce45b5
+source-git-commit: d231bc962bddf44daad6e10c5652d1ff46554f8a
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 # Het gebied Documenten
 
 In het gebied Documenten kunt u metagegevens voor naar Adobe Workfront geüploade documenten ordenen, beheren en weergeven. U kunt ook de bewijsbeslissing zien.
+
+Documenten die worden toegevoegd aan afzonderlijke taken en uitgaven, zijn allemaal beschikbaar in het gebied Project > Documenten.
 
 ![ gebied van Documenten ](assets/documents-area-v2-350x199.png)
 

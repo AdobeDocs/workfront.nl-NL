@@ -7,9 +7,9 @@ description: Leer hoe u het profiel voor proefdrukmachtigingen bulksgewijs kunt 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a804a007-7c9f-471e-ad07-8adca6672575
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: 0e1bb767d2fdbfd4a1959eb1fa363cbc7c32d682
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>U moet een Workfront-beheerder zijn. Voor informatie over de beheerders van Workfront, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref"> een gebruiker volledige administratieve toegang verlenen </a>.</p> </td> 
+   <td> <p>U moet een Workfront-beheerder of een groepsbeheerder zijn. Voor informatie over de beheerders van Workfront, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref"> een gebruiker volledige administratieve toegang verlenen </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bewijs van machtigingsprofiel </td> 
@@ -53,7 +53,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 {{step-1-to-users}}
 
-1. Sorteer uw gebruikers door **Niveau van de Toegang**. Wij adviseren partij het uitgeven door het Niveau van de Toegang om het **gebied van het Profiel van de Toestemming van 0&rbrace; te verzekeren verschijnt.**
+1. Sorteer uw gebruikers door **Niveau van de Toegang**. Wij adviseren partij het uitgeven door het Niveau van de Toegang om het **gebied van het Profiel van de Toestemming van 0} te verzekeren verschijnt.**
 
 1. Klik checkbox naast de gebruikers u binnen het zelfde toegangsniveau wilt selecteren. Het veld Proefmachtigingsprofiel is alleen beschikbaar voor toegangsniveaus voor Worker en hoger.
 1. Klik **uitgeven** bij de bovenkant van de lijst.
