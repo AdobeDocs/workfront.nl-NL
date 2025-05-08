@@ -3,11 +3,12 @@ content-type: overview
 navigation-topic: the-new-workfront-experience
 title: Linkernavigatie in  [!DNL Adobe Workfront]
 description: Het linkernavigatievenster in  [!DNL Workfront]  maakt het gemakkelijk om door het systeem te navigeren.
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
+source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
 workflow-type: tm+mt
-source-wordcount: '1301'
+source-wordcount: '1273'
 ht-degree: 0%
 
 ---
@@ -254,12 +255,6 @@ Om te leren welke secties voor specifieke gebieden beschikbaar zijn, zie [[!UICO
    U moet over machtigingen beschikken om het object te bewerken voordat u de gegevens kunt bewerken.
 
    ![ Linkerdeelvenstersecties ](assets/NWE-left-navigation-panel.png)
-
-1. (Optioneel) Klik op **[!UICONTROL Show More]** onder in het linkerdeelvenster om meer secties weer te geven.
-
-   >[!NOTE]
-   >
-   >Deze optie is niet beschikbaar als alle secties standaard in het linkerdeelvenster worden weergegeven.
 
 1. (Optioneel) Als u een snelle koppeling naar een dashboard wilt toevoegen, klikt u op **[!UICONTROL Add Dashboard]** onder in het linkerdeelvenster en voert u de volgende handelingen uit:
 

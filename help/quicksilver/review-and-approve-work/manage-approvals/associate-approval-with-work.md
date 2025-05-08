@@ -7,9 +7,9 @@ author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 sexl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
 exl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
-source-git-commit: e02a593ddca923067eb61f838a7ade17e7fc3652
+source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
 workflow-type: tm+mt
-source-wordcount: '1917'
+source-wordcount: '1891'
 ht-degree: 0%
 
 ---
@@ -123,8 +123,6 @@ Om een bestaand globaal goedkeuringsproces met een project, een taak, een kwesti
 1. Ga naar het het werkpunt waar u een goedkeuringsproces wilt associëren.
 1. Klik **goedkeurt** in het linkerpaneel.
 
-   U zou kunnen moeten klikken **tonen Meer**, dan klik **goedkeurt**.
-
    ![ goedkeurt sectie op taak ](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
 1. ![ Gebruik bestaand of creeer enige gebruiksgoedkeuringen ](assets/use-existing-or-create-single-use-approvals-menus-on-pti-classic-350x50.png)
@@ -193,8 +191,6 @@ Een goedkeuringsproces voor eenmalig gebruik maken:
 1. Ga naar het project, de taak, de kwestie, het malplaatje, of de malplaatjetaak waar u een goedkeuringsproces wilt associëren.
 1. Klik **goedkeurt** in het linkerpaneel.
 
-   U zou kunnen moeten klikken **tonen Meer** > **goedkeurt**.
-
    ![ goedkeurt sectie op taak ](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
 1. Klik **creëren enig-gebruik**.
@@ -231,8 +227,6 @@ Om een goedkeuringsproces uit een het werkpunt te verwijderen of te schrappen:
 
 1. Ga naar het project, de taak, de kwestie, het malplaatje, of de malplaatjetaak waar u een goedkeuringsproces wilt verwijderen dat u eerder toevoegde.
 1. Klik **goedkeurt** in het linkerpaneel.
-
-   U zou kunnen moeten klikken **tonen Meer** > **goedkeurt**.
 
    ![ goedkeurt sectie op taak ](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 

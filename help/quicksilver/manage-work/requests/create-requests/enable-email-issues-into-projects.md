@@ -6,9 +6,9 @@ description: U kunt een project vormen om gebruikers toe te staan om kwesties aa
 author: Alina, Courtney
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: fedb0328450896d212081715df4cde7644b169bc
+source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '782'
 ht-degree: 0%
 
 ---
@@ -78,10 +78,10 @@ De volgende voorwaarden worden vereist om een project te vormen om gebruikers to
 >Wij adviseren dat het project dat u opstelling om verzoeken door e-mail te ontvangen niet meer dan één rijonderwerp zou moeten hebben. Als de voorgelegde verzoeken voor verschillende middelen of projecten bedoeld zijn zou u hen moeten leiden of manueel bewegen, nadat zij zijn voorgelegd.
 
 1. Ga naar het project dat u wilt inschakelen om problemen via e-mail te ontvangen.
-1. Klik **Details van de Rij** in het linkerpaneel. U zou kunnen moeten klikken **tonen meer** eerst.
-1. In het **gebied van het Type van Rij 0&rbrace;, uitgezocht** publiceer als Rij van het Verzoek van de Hulp **.**
+1. Klik **Details van de Rij** in het linkerpaneel.
+1. In het **gebied van het Type van Rij 0}, uitgezocht** publiceer als Rij van het Verzoek van de Hulp **.**
 
-1. De rol neer aan het **gebied van de Montages van de Rij 0&rbrace; E-mail, dan selecteert** laat de opname van het Verzoek via e-mail **toe.**
+1. De rol neer aan het **gebied van de Montages van de Rij 0} E-mail, dan selecteert** laat de opname van het Verzoek via e-mail **toe.**
 
 1. Ga het begin van het e-mailadres in het **Inname E-mailadres** vakje in.
 

@@ -6,9 +6,9 @@ description: De processen van de goedkeuring verstrekken de flexibiliteit om mul
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
@@ -108,7 +108,7 @@ U kunt de goedkeuringsstatus van een object weergeven in de volgende secties van
 
 ### In het gedeelte Updates kunt u de goedkeuringsstatus weergeven {#use-the-updates-area-to-view-an-approval-status}
 
-Wanneer een goedkeuring op een project, een taak, of een kwestie in werking wordt gesteld, toont een statusvertoningen in het **&#x200B;**&#x200B;lusje van Updates van het voorwerp, die op de goedkeuringsstatus wijzen. Een nieuwe status wordt altijd weergegeven wanneer het object het goedkeuringsproces doorloopt. Dit zijn onder andere de volgende gebeurtenissen:
+Wanneer een goedkeuring op een project, een taak, of een kwestie in werking wordt gesteld, toont een statusvertoningen in het **** lusje van Updates van het voorwerp, die op de goedkeuringsstatus wijzen. Een nieuwe status wordt altijd weergegeven wanneer het object het goedkeuringsproces doorloopt. Dit zijn onder andere de volgende gebeurtenissen:
 
 * Voor een object wordt een goedkeuringsproces gestart. Het goedkeuringsproces wordt in gang gezet wanneer de status wordt veranderd.
 * Het object wordt geweigerd
@@ -129,7 +129,7 @@ U kunt zien waar een taak of kwestie waaraan u momenteel werkt in het goedkeurin
 U kunt als volgt de huidige status bekijken van de plaats waar een taak of kwestie zich in het goedkeuringsproces bevindt:
 
 1. Ga naar het project, de taak, of de kwestie waaraan de goedkeuring wordt geassocieerd.
-1. In het linkerpaneel, klik **goedkeurt**. U zou kunnen moeten eerst klikken **tonen Meer**.
+1. In het linkerpaneel, klik **goedkeurt**.
 
    Op het tabblad Goedkeuringen wordt de volledige informatie over alle eerdere goedkeuringspaden en -fasen weergegeven. U kunt precies zien wie een besluit over de goedkeuring heeft genomen of of de goedkeuring voor een team, baanrol, of gebruiker wordt geplaatst.
 
