@@ -108,7 +108,7 @@ U kunt de goedkeuringsstatus van een object weergeven in de volgende secties van
 
 ### In het gedeelte Updates kunt u de goedkeuringsstatus weergeven {#use-the-updates-area-to-view-an-approval-status}
 
-Wanneer een goedkeuring op een project, een taak, of een kwestie in werking wordt gesteld, toont een statusvertoningen in het **** lusje van Updates van het voorwerp, die op de goedkeuringsstatus wijzen. Een nieuwe status wordt altijd weergegeven wanneer het object het goedkeuringsproces doorloopt. Dit zijn onder andere de volgende gebeurtenissen:
+Wanneer een goedkeuring op een project, een taak, of een kwestie in werking wordt gesteld, toont een statusvertoningen in het **&#x200B;**&#x200B;lusje van Updates van het voorwerp, die op de goedkeuringsstatus wijzen. Een nieuwe status wordt altijd weergegeven wanneer het object het goedkeuringsproces doorloopt. Dit zijn onder andere de volgende gebeurtenissen:
 
 * Voor een object wordt een goedkeuringsproces gestart. Het goedkeuringsproces wordt in gang gezet wanneer de status wordt veranderd.
 * Het object wordt geweigerd
