@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 7de63fbe2df6aa5f173b8e5647097e3f8aabc08c
+source-git-commit: 73df51a476695a3af11911da850ce4049c95aa06
 workflow-type: tm+mt
-source-wordcount: '2140'
+source-wordcount: '2204'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Deze pagina bevat een overzicht van de interface-updates die we in Adobe Workfro
 >
 >In de meeste gevallen, wordt elke update eerst vrijgegeven aan het milieu van de Voorproef, dan incrementeel toegelaten in de milieu van de Productie voor een groeiende ondergroep klanten die op de vermelde de versiedatum van de Productie begint.
 
-Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product [&#128279;](/help/quicksilver/product-announcements/product-releases/product-releases.md).
+Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product ](/help/quicksilver/product-announcements/product-releases/product-releases.md).[
 
 ## Navigatie en zoeken
 
@@ -277,11 +277,21 @@ Ga naar Documenten > Klik op het menu Meer naast de naam van het slimme filter >
 
 ## Rapporten en dashboards
 
-+++Breid om Rapporten en de interfaceupdates van Dashboards te bekijken uit
+### Het bijgewerkte rapport Toegangsniveau met nieuwe opmaak
+
+**de versie van de Voorproef: TBD; De versie van de Productie: Beginnend de week van 6 Februari, 2025**
+
+We hebben het Access Level-rapport bijgewerkt met een modernere opzet die aansluit bij andere gebieden van Workfront.
+
+Deze update bevat visuele wijzigingen in het rapport. Er is geen functionaliteit gewijzigd.
+
+Als u een teamrapport wilt maken, gaat u naar Rapporten > Nieuw rapport > Toegangsniveau.
+
++++Breid uit om meer rapporten en de interfaceupdates van Dashboards te bekijken
 
 ### Het bijgewerkte Rapport van het Team met nieuwe het formatteren
 
-**de versie van de Voorproef: 30 Januari, 2025; Beginnend de week van 6 Februari, 2025**
+**de versie van de Voorproef: 30 Januari, 2025; De versie van de Productie: Beginnend de week van 6 Februari, 2025**
 
 We hebben het Team-rapport bijgewerkt met een moderner ontwerp dat aansluit bij andere gebieden van Workfront.
 
