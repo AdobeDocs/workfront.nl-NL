@@ -171,7 +171,7 @@ De tarieven van het factureren worden gegroepeerd in het **Facturerings** gebied
 
 ### Waarde van factureringssnelheid van project {#project-billing-rate-value}
 
-In de groeperingslijn die aan een baanrol beantwoordt, merk het het factureren tarief voor die baanrol op het projectniveau in de **kolom van het Facturerings Tarief van 0} Project {op.** Als de baanrol veelvoudige met voeten treedt tarieven heeft, wordt het met voeten treden tarief dat aan de huidige datum beantwoordt getoond in de groeperende lijn in de **kolom het Facturerings Tarief van het 0} Project.**
+In de groeperingslijn die aan een baanrol beantwoordt, merk het het factureren tarief voor die baanrol op het projectniveau in de **kolom van het Facturerings Tarief van 0&rbrace; Project {op.** Als de baanrol veelvoudige met voeten treedt tarieven heeft, wordt het met voeten treden tarief dat aan de huidige datum beantwoordt getoond in de groeperende lijn in de **kolom het Facturerings Tarief van het 0} Project.**
 
 ### Standaardfactuurwaarde {#default-billing-rate-value}
 
@@ -193,7 +193,7 @@ In de groeperende lijn van een baanrol, merk het factureringspercentage voor die
 
 ### Meerdere waarden voor factureringssnelheid en tijdframes {#multiple-billing-rate-values-and-timeframes}
 
-Als u meerdere factureringssnelheden voor een specifieke taakrol hebt, worden deze vermeld onder de groepering voor die taakrol. Gebruikend gealigneerde het uitgeven, kunt u de met voeten getreden tarieven en **** **Datum** en **Datum van het Eind** van de met voeten getreden het factureringspercentages op dit lusje veranderen.
+Als u meerdere factureringssnelheden voor een specifieke taakrol hebt, worden deze vermeld onder de groepering voor die taakrol. Gebruikend gealigneerde het uitgeven, kunt u de met voeten getreden tarieven en **&#x200B;**&#x200B;**Datum** en **Datum van het Eind** van de met voeten getreden het factureringspercentages op dit lusje veranderen.
 
 >[!NOTE]
 >
@@ -323,7 +323,7 @@ In deze gevallen kan het aantal geplande uren per dag verschillen tussen twee ge
 
 Houd rekening met het volgende bij het berekenen van de geplande inkomsten voor gebruikers in verschillende tijdzones:
 
-* Voor taken die het Type van A **van Winst van 1} van** Rol **hebben en aan baanrollen worden toegewezen,** Geplande Opbrengst **wordt berekend door de** Geplande Uren **van een taak door het factureringspercentage van de baanrol te vermenigvuldigen.**
+* Voor taken die het Type van A **van Winst van 1&rbrace; van** Rol **hebben en aan baanrollen worden toegewezen,** Geplande Opbrengst **wordt berekend door de** Geplande Uren **van een taak door het factureringspercentage van de baanrol te vermenigvuldigen.**
 
 * De **Geplande Uren** worden gelijkmatig verdeeld over de **Duur** van de taak.
 
@@ -344,7 +344,7 @@ Houd rekening met het volgende bij het berekenen van de werkelijke inkomsten voo
 
 * In het geval van veelvoudige het factureren tarief treedt met voeten, gebruikt Workfront het factureringspercentage van de baanrol waarvan tijdkader de **Datum van de Ingang** van de uren aanpast die voor de taak worden geregistreerd om **Ware Inkomsten** te berekenen.
 
-* Omdat er geen timestamp op de **Datum van de Ingang** van geregistreerde uren is en er geen tijdstempel op de datumwaaiers van veelvoudige het factureren tariefoverschrijvingen is, **de Ware 3} berekeningen van de Inkomsten worden niet beïnvloed door de Tijdzone verbonden aan gebruikers.**
+* Omdat er geen timestamp op de **Datum van de Ingang** van geregistreerde uren is en er geen tijdstempel op de datumwaaiers van veelvoudige het factureren tariefoverschrijvingen is, **de Ware 3&rbrace; berekeningen van de Inkomsten worden niet beïnvloed door de Tijdzone verbonden aan gebruikers.**
 
 Voor meer informatie over welke baanrol wordt gebruikt om **Ware Inkomsten** te berekenen, zie de &quot;Begrijpende Berekeningen van Inkomsten voor Taken die op Gebruiker en de sectie van de Taken van de Rol&quot;in het artikel [ Overzicht van het Factureren en van de Inkomsten ](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md) worden gebaseerd.
 

@@ -74,7 +74,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
       <td role="rowheader">Een programma toevoegen</td> 
       <td> 
        <ol> 
-        <li value="1"> <p>Klik <strong> Nieuw Programma </strong>, dan vorm het programma in het scherm dat toont. </p> <p>Het systeem vult in het </strong> gebied van de Groep <strong> {voor het nieuwe programma met de groep u bekijkt.</p> <p>Voor informatie over de configuratieopties, zie <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref"> een programma </a> creëren.</p> </li> 
+        <li value="1"> <p>Klik <strong> Nieuw Programma </strong>, dan vorm het programma in het scherm dat toont. </p> <p>Het systeem vult in het </strong> gebied van de Groep <strong> &lbrace;voor het nieuwe programma met de groep u bekijkt.</p> <p>Voor informatie over de configuratieopties, zie <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref"> een programma </a> creëren.</p> </li> 
         <li value="2"> <p>Klik <strong> sparen </strong> om aan de lijst van de Programma's van de groep terug te keren.</p> </li> 
        </ol> </td> 
      </tr> 
