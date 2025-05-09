@@ -6,9 +6,9 @@ description: Predecessors zijn taken waarvan andere taken afhankelijk zijn voor 
 author: Alina
 feature: Work Management
 exl-id: c3242b92-9036-4770-a073-2a9c393b97fd
-source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
@@ -75,8 +75,8 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 ## Een voorganger op taakniveau afdwingen
 
 1. Ga naar de opvolgertaak waarvan voorganger u wilt afdwingen.
-1. Klik **Voorgangers** in het linkerpaneel, dan klik **toevoegen Voorganger**. U zou kunnen moeten klikken **tonen Meer**, dan **predecessors**.
-1. (Voorwaardelijk) Als u een dwars-projectvoorganger wilt toevoegen, verwijder de naam van het project op het **gebied van het Project van de Ouder 1&rbrace; en vervang het met een ander project.**
+1. Klik **Voorgangers** in het linkerpaneel, dan klik **toevoegen Voorganger**.
+1. (Voorwaardelijk) Als u een dwars-projectvoorganger wilt toevoegen, verwijder de naam van het project op het **gebied van het Project van de Ouder 1} en vervang het met een ander project.**
 1. Specificeer de naam van de voorgangerstaak of de taken op het **gebied van Taken**.
 1. Specificeer het **Type van Afhankelijkheid** tussen deze twee taken.
 

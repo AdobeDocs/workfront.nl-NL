@@ -6,9 +6,9 @@ description: Tijd vereisen om te worden goedgekeurd voor een project
 author: Alina
 feature: Work Management
 exl-id: e4a27640-9f5c-4a9f-82cc-3384694594af
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '754'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Als u opstelling een project om goedkeuring op de geregistreerde uren te vereise
 Uren voor een project goedkeuren of afwijzen:
 
 1. Ga naar het project.
-1. Klik het **gebied van Uren** in het linkerpaneel. Dit zou onder **kunnen worden gevestigd tonen meer** gebied.
+1. Klik het **gebied van Uren** in het linkerpaneel.
 
 1. De uren die voor kwesties, taken, en de projectvertoning worden geregistreerd en zouden een status van **moeten hebben voorgelegd**.\
    Klik op het vakje links van de uurvermeldingen om de uren te selecteren die u wilt goedkeuren.

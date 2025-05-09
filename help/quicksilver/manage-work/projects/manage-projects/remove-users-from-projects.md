@@ -6,9 +6,9 @@ description: U kunt gebruikers uit een project verwijderen wanneer zij niet meer
 author: Alina
 feature: Work Management
 exl-id: 3a75c78d-faed-41cd-a0a4-59504bb981af
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Om gebruikers uit het Team van het Project te verwijderen:
 
 1. Ga naar het project waar u de gebruikers wilt verwijderen.
 
-1. Klik **Mensen** in het linkerpaneel, dan selecteer de gebruikers u wilt verwijderen. U zou kunnen moeten klikken **Meer** tonen, dan **Mensen**.
+1. Klik **Mensen** in het linkerpaneel, dan selecteer de gebruikers u wilt verwijderen.
 
 1. Klik **verwijderen** pictogram ![ verwijderen punt ](assets/remove-icon---x-in-circle.png) bij de bovenkant van de lijst van gebruikers.
 

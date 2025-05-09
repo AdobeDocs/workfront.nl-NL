@@ -8,9 +8,9 @@ description: De metriek van het project geeft u een visualisatie van wat in een 
 author: Alina
 feature: Work Management
 exl-id: 54c2a59d-9f6b-4126-9526-5169aeda8517
-source-git-commit: 24cc3ece515fd778a9bc9e8afbcd534f48b24230
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '1266'
+source-wordcount: '1258'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ In het gebied Metriek, kunt u de algemene gezondheid van een project zien, evena
 
 U kunt ook naar elk diagram gaan om taken of problemen in een bepaalde categorie nader te bekijken.
 
-Meer leren over het bekijken van deze taken of kwesties, zie {de details van Metriek van 0} Mening [&#128279;](#view-metrics-details).
+Meer leren over het bekijken van deze taken of kwesties, zie {de details van Metriek van 0} Mening ](#view-metrics-details).[
 
 >[!TIP]
 >
@@ -158,7 +158,7 @@ U kunt taaktoewijzingen voor een project in de volgende categorieën bekijken:
 U kunt met de grafieken in het gebied van Metriek in wisselwerking staan om verschillende aspecten van een grafiek te bekijken of nauwkeuriger te kijken naar de taken en de kwesties binnen een grafiek.
 
 1. Ga naar het project u metriek voor wilt zien.
-1. In het linkerpaneel, klik **Meer** tonen om meer secties te tonen, dan **Metriek** klikken.\
+1. In het linkerpaneel, klik **Metriek**.\
    In grafieken in het gebied Metriek wordt standaard informatie voor taken weergegeven.\
    ![](assets/metrics-section-350x298.png)
 

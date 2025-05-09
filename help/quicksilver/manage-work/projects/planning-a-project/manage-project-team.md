@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,7 @@ Voor meer informatie over welke berichten voor gebruikers op het projectteam kun
 
 1. Ga naar het project u gebruikers aan wilt toevoegen.
 
-1. Klik **Mensen** in het linkerpaneel. U zou kunnen moeten klikken **tonen meer** eerst.
+1. Klik **Mensen** in het linkerpaneel.
 
 1. Klik **toevoegen gebruikers**.
 

@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '844'
 ht-degree: 0%
 
 ---
@@ -108,7 +108,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    Voor informatie over het creëren van de Groepen van het Onderwerp, zie [ de Groepen van het Onderwerp ](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md) creëren.
 
-1. Klik **de Onderwerpen van de Rij** in het linkerpaneel. U zou kunnen moeten klikken **Meer** tonen, dan **de Onderwerpen van de Rij**.
+1. Klik **de Onderwerpen van de Rij** in het linkerpaneel.
 1. Klik **Nieuw Onderwerp van de Rij**.
 1. Op de **Nieuwe vorm van het Onderwerp van de Rij**, ga het volgende in:
 

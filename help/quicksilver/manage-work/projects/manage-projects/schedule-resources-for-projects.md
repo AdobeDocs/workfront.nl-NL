@@ -2,22 +2,26 @@
 product-area: projects;resource-management
 navigation-topic: manage-projects
 title: Bronnen voor een project plannen
-description: U kunt middelen voor één enkel project plannen om op te geven aan welk werk elk middel wordt toegewezen evenals hoeveel tijd zij zouden moeten besteden het voltooien van hun werk. U kunt middelen voor een project plannen en uren aan elk middel toewijzen gebruikend het Plannende hulpmiddel of de Balancer van de Werkbelasting op het projectniveau.
-author: Alina
+description: U kunt middelen voor één enkel project plannen om op te geven aan welk werk elk middel wordt toegewezen evenals hoeveel tijd zij zouden moeten besteden het voltooien van hun werk. U kunt middelen voor een project plannen en uren aan elk middel toewijzen gebruikend de Balancer van de Werklast op het projectniveau.
+author: Alina, Lisa
 feature: Work Management
 exl-id: d59f6083-49d3-4fe6-ac60-656f992363d9
-source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
 
 # Bronnen voor een project plannen
 
-U kunt middelen voor één enkel project plannen om op te geven aan welk werk elk middel wordt toegewezen evenals hoeveel tijd zij zouden moeten besteden het voltooien van hun werk. U kunt middelen voor een project plannen en uren aan elk middel toewijzen gebruikend het Plannende hulpmiddel of de Balancer van de Werkbelasting op het projectniveau.
+<!--Audited: 5/2025-->
+
+U kunt middelen voor één enkel project plannen om op te geven aan welk werk elk middel wordt toegewezen evenals hoeveel tijd zij zouden moeten besteden het voltooien van hun werk. U kunt middelen voor een project plannen en uren aan elk middel toewijzen gebruikend de Balancer van de Werklast op het projectniveau.
 
 ## Toegangsvereisten
+
++++ Vouw uit om de vereisten voor toegang weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -50,26 +54,20 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Bronnen voor een project plannen
 
-Om tot het Plannende hulpmiddel in een project toegang te hebben:
+U kunt de Balancer van de Werklast gebruiken om middelen voor een project te plannen.
 
 1. Ga naar het project waarvoor u middelen wilt plannen.
-1. Klik de **Plannende** of de sectie van de Balancer van de Werkbelasting in het linkerpaneel. Het plannen of de sectie van de Balancer van de Werkbelasting zou onder **kunnen worden gevestigd tonen meer**.
-
-   Voor informatie over het plannen van middelen die het Plannende hulpmiddel in een project gebruiken, zie de &quot;wijzig gebruikerstoewijzingen en toewijzingen&quot;sectie in het artikel &quot;krijgen begonnen met het Plannen van het Middel&quot;.
-
-1. (Voorwaardelijk en geadviseerd) als u het Plannen klikte, klik **Schakelaar aan de Balancer van de Werkbelasting** om middelen te plannen gebruikend de Balancer van de Werklast.
-
-   >[!TIP]
-   >
-   >Als u eerder werklastbalans hebt geselecteerd, verandert de naam van de sectie in Workload Balancer.
+1. Klik **de Balancer van de Werkbelasting** in het linkerpaneel.
 
    Raadpleeg de volgende artikelen voor informatie over het plannen van bronnen met behulp van Workload Balancer:
 
    * [ Overzicht van het toewijzen van het werk in de Balancer van de Werkbelasting ](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
    * [Toewijzingen van gebruikers beheren in Workload Balancer](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
 
- 
+

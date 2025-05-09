@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '506'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Zodra gecreeerd, kunt u niet het verpletteren van regels van één project aan e
 ## Creeer een Verpletterende Regel
 
 1. Ga naar het project waarin u het verpletteren van regels voor uw verzoeken wilt toevoegen.
-1. Klik **Verpletterend Regels** in het linkerpaneel. U zou kunnen moeten klikken **Meer** tonen, dan **Verpletterend Regels**.
+1. Klik **Verpletterend Regels** in het linkerpaneel.
 1. Klik **Nieuw Verpletterend Regel** om de nieuwe regel toe te voegen. Het **Nieuwe Verpletterende doos van de Regel** opent.
 
    ![ Nieuwe Verpletterende doos van de Regel ](assets/new-routing-rule-box.png)

@@ -6,9 +6,9 @@ description: Een voorganger voor meerdere projecten is een taak waarvan een ande
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
@@ -72,14 +72,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 ## Een voorganger voor meerdere projecten maken
 
 1. Ga naar de taak die uw opvolger (afhankelijke taak) zal zijn.
-1. Klik **Predecessors** in het linkerpaneel. U zou **kunnen moeten klikken tonen Meer**, en dan **Predecessors**.
+1. Klik **Predecessors** in het linkerpaneel.
 
    >[!TIP]
    >
    >   Uw Workfront of groepsbeheerder kon de **Predecessors** sectie of andere secties uit het linkerpaneel verwijderen.
 
 1. Klik **toevoegen Voorganger.**
-1. Op het **gebied van het Project van de Ouder 0&rbrace; &lbrace;, begin typend de naam van het project dat de taak bevat die u voorganger aan uw huidige taak wilt zijn.**
+1. Op het **gebied van het Project van de Ouder 0} {, begin typend de naam van het project dat de taak bevat die u voorganger aan uw huidige taak wilt zijn.**
 1. Klik op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst.
 1. Op het **gebied van Taken**, begin typend de naam van de taak die u voorganger aan uw huidige taak wilt zijn.
 1. Geef de volgende informatie op voor het definiëren van de relatie tussen de voorganger en de afhankelijke taak:

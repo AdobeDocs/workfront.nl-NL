@@ -6,9 +6,9 @@ description: We raden u aan projecten aan portfolio's toe te voegen wanneer u de
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -69,6 +69,8 @@ Houd rekening met het volgende wanneer u projecten aan portfolio&#39;s toevoegt:
    >
    >U kunt geen project toevoegen wanneer u de lijst van projecten in de [!UICONTROL Milestone] mening bekijkt.
 
+   ![ voeg bestaand project ](assets/add-existing-project-from-portfolio-window-nwe-350x545.png) toe
+
    Selecteer een van de volgende opties:
 
    <table style="table-layout:auto"> 
@@ -100,9 +102,13 @@ Houd rekening met het volgende wanneer u projecten aan portfolio&#39;s toevoegt:
 
    ![ Nieuwe projectdropdown ](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
-1. (Voorwaardelijk) Als u hebt geselecteerd om een bestaand project toe te voegen, begint u de naam van een project in het vak **[!UICONTROL Add Projects]** te typen en klikt u vervolgens op de naam wanneer deze in de lijst wordt weergegeven. U kunt meerdere projecten tegelijk toevoegen.
+1. (Voorwaardelijk) als u selecteerde om een bestaand project toe te voegen, begin de naam van een project op het **[!UICONTROL Add Projects to this Portfolio]** gebied te typen, dan hen te klikken wanneer zij in de lijst verschijnen.
 
-   ![ voeg bestaand project ](assets/add-existing-project-from-portfolio-window-nwe-350x545.png) toe
+   U kunt meerdere projecten toevoegen.
+
+1. (Facultatief) klik het **X** pictogram aan het recht van de projectnaam om het uit de lijst te verwijderen, als u besluit om het niet aan de portefeuille toe te voegen.
+
+   <!--replace last step with this, for unshim: 1. (Optional) Click the **Delete** icon ![Delete icon](assets/delete-icon.png) next to the name of a project if you decide not to add it to the portfolio.-->
 
 1. Klik op **[!UICONTROL Add Projects]**.
 

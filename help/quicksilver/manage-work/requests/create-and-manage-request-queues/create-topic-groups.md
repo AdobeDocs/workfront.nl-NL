@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ Een onderwerpgroep maken:
 1. Ga naar het project dat u als Rij van het Verzoek van de Hulp publiceerde.\
    Voor meer informatie over het publiceren van een project als Rij van het Verzoek van de Hulp, zie [ een Rij van het Verzoek ](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
 
-1. Klik **Groepen van het Onderwerp** in het linkerpaneel. U zou kunnen moeten klikken **Meer** tonen, dan **Groepen van het Onderwerp**.
+1. Klik **Groepen van het Onderwerp** in het linkerpaneel.
 1. Klik **Nieuwe Groep van het Onderwerp**.
 
    ![](assets/new-topic-group-box-nwe-350x306.png)

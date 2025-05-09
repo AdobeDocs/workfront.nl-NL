@@ -2,24 +2,26 @@
 product-area: programs;projects
 navigation-topic: create and manage programs
 title: Een project toevoegen aan een programma
-description: U kunt uw projecten ordenen door deze toe te voegen aan programma's binnen portfolio's. U kunt veelvoudige projecten binnen van één programma hebben, maar u kunt slechts één programma met een project associëren.
+description: U kunt uw projecten ordenen door deze toe te voegen aan programma's binnen portfolio's. U kunt veelvoudige projecten binnen van één programma hebben, maar u kunt slechts één programma met een project associëren. Als u een project aan een programma toevoegt, wordt dit automatisch toegevoegd aan de portfolio van het programma.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1fecc4d1-4c24-495c-98f5-824e13967369
-source-git-commit: 2ca8539855c2b08d71f47ad2e1b698496456f022
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
 
 # Een project toevoegen aan een programma
 
-<!--Audited: 7/2024-->
+<!--Audited: 5/2025-->
 
 U kunt uw projecten ordenen door deze toe te voegen aan programma&#39;s binnen portfolio&#39;s. U kunt veelvoudige projecten binnen van één programma hebben, maar u kunt slechts één programma met een project associëren.
 
 U moet een portfolio en een programma in dit portfolio maken voordat u een project aan een programma kunt toevoegen.
+
+Als u een project aan een programma toevoegt, wordt dit automatisch toegevoegd aan de portfolio van het programma.
 
 Voor informatie over het creëren van portefeuilles, zie [ een portefeuille ](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md) creëren.
 
@@ -98,7 +100,19 @@ Voor informatie over het creëren van programma&#39;s, zie [ een programma ](../
     </tbody> 
    </table>
 
-1. (Voorwaardelijk) Als u **[!UICONTROL Existing Project]** hebt geselecteerd, doet u het volgende:
+1. (Voorwaardelijk) als u **[!UICONTROL Existing Project]** selecteerde, **voegt de doos van Projecten** toe opent.
 
-   1. Typ in het dialoogvenster **[!UICONTROL Add Projects]** de naam van het project in het opgegeven veld en selecteer het vervolgens wanneer het wordt weergegeven in de lijst. U kunt meerdere projecten tegelijk toevoegen.
-   1. Klik op **[!UICONTROL Add Projects]**.**&#x200B;** &#x200B; Het project wordt weergegeven op het tabblad **[!UICONTROL Projects]** van het programma en is nu gekoppeld aan het programma en de portfolio.
+   <!--screen shot at unshim?-->
+
+1. Ga als volgt te werk:
+
+   1. In het **[!UICONTROL Add Projects]** vakje, typ de naam van een project in **voegt Projecten aan dit 2} gebied van het Programma toe, dan selecteert het wanneer het in de lijst toont. <!--check casing on links and buttons-->**
+
+      U kunt meerdere projecten toevoegen.
+   1. (Facultatief) klik het **X** pictogram aan het recht van de projectnaam om het uit de lijst te verwijderen, als u besluit om het niet aan het programma toe te voegen.
+
+      <!--replace last step with this, for unshim: 1. (Optional) Click the **Delete** icon ![Delete icon](assets/delete-icon.png) next to the name of a project if you decide not to add it to the program.-->
+
+   1. Klik op **[!UICONTROL Add Projects]**.
+
+      Het project wordt weergegeven op het tabblad **[!UICONTROL Projects]** van het programma en is nu gekoppeld aan het programma en de respectievelijke portfolio van het programma.

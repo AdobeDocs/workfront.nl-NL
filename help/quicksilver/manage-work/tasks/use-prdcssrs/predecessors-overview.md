@@ -7,9 +7,9 @@ description: Een voorganger is de taak waarvan een andere taak (een opvolger of 
 author: Alina
 feature: Work Management
 exl-id: b2020a50-0921-4ed2-8a34-1a0411992b99
-source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Als u de voorgangers van een taak wilt zoeken, voert u een van de volgende hande
 * Ga naar het project u werkt aan en doe het volgende:
 
    1. Zoek de taak waarvoor u de voorgangers wilt zoeken en klik op de taak.
-   1. Klik **Predecessors** in het linkerpaneel. U zou kunnen moeten klikken **tonen Meer**, dan **predecessors**.
+   1. Klik **Predecessors** in het linkerpaneel.
    1. De naam van het project dat predecessor is op toont in het **Project** kolom.
 
       Het getal in de kolom **#** toont het vorige taaknummer. Bijvoorbeeld &quot;6&quot;betekent de zesde taak in het project.
@@ -86,7 +86,7 @@ Als u de voorgangers van een taak wilt zoeken, voert u een van de volgende hande
 
    1. Klik de **Taken** tabel.
    1. Kies de **StandaardMening** bij de bovenkant van de taaklijst.
-   1. De **1&rbrace; kolom van Predecessors &lbrace;toont de aantallen van de voorgangertaak.**
+   1. De **1} kolom van Predecessors {toont de aantallen van de voorgangertaak.**
 
       Voor een dwars-projectvoorganger, toont de kolom van Voorgangers het verwijzingsaantal van het project predecessor tot behoort en het aantal van de taak, die door een dubbelpunt wordt gescheiden.
 
