@@ -144,7 +144,7 @@ U kunt vlagtypes op taken wijzen wanneer u hun voorgangersverhoudingen bepaalt.
 1. Ga naar een taak waarvoor u voorganger en het Type van Lag wilt bepalen.
 1. Klik **Predecessors** in het linkerpaneel.
 1. Klik **toevoegen Voorganger**.
-1. (Facultatief) als u een dwars-projectvoorganger wilt toevoegen, vervang de **naam van het Project van de ouder** {met een ander project.
+1. (Facultatief) als u een dwars-projectvoorganger wilt toevoegen, vervang de **naam van het Project van de ouder** &lbrace;met een ander project.
 1. Typ de naam van de voorgaande taak en selecteer deze wanneer deze in de lijst wordt weergegeven.
 1. Selecteer het **Type van Afhankelijkheid**.
 
@@ -167,7 +167,7 @@ U kunt vlagtypes op taken wijzen wanneer u hun voorgangersverhoudingen bepaalt.
 
 1. Ga naar een taaklijst, en selecteer de **Standaard** mening.
 
-1. Klik binnen de **1} kolom van Predecessors {die aan de taak beantwoordt waarvoor u een voorganger en een vertragingsbedrag wilt specificeren.**
+1. Klik binnen de **1&rbrace; kolom van Predecessors &lbrace;die aan de taak beantwoordt waarvoor u een voorganger en een vertragingsbedrag wilt specificeren.**
 1. Voer het volgende in zonder spaties:
 
    * het aantal van de taak u als voorganger van de geselecteerde taak wilt wijzen
