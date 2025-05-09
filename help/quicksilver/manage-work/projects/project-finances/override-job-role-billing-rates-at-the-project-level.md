@@ -6,9 +6,9 @@ description: Als projectmanager, kunt u specificeren wat het het facturerings ta
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '817'
 ht-degree: 0%
 
 ---
@@ -80,12 +80,12 @@ U kunt het factureringspercentage van een taakrol op een project op de volgende 
 Een factureringssnelheid voor een project overschrijven:
 
 1. Ga naar het project u het factureren voor wilt met voeten treden.
-1. Klik **het Factureren Tarieven** in het linkerpaneel. U zou kunnen moeten eerst klikken **tonen Meer**.
+1. Klik **het Factureren Tarieven** in het linkerpaneel.
 1. Klik **toevoegen het FactureringsTarief** > **Nieuw het Factureren Tarief**.
 
    Het vak Nieuwe factureringsfrequentie wordt geopend.
 
-1. Op het **gebied van de Rol van de Baan 0&rbrace;, selecteer de baanrol u het facturerings tarief voor wilt veranderen.**
+1. Op het **gebied van de Rol van de Baan 0}, selecteer de baanrol u het facturerings tarief voor wilt veranderen.**
 
    ![ met voeten treden facturerend tarief op project ](assets/override-billing-rate-on-project-nwe-350x310.png)
 

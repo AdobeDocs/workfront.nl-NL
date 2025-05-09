@@ -6,9 +6,9 @@ description: Gebruik de werklastbalans om de beschikbaarheid van uw bronnen te b
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '4078'
+source-wordcount: '4068'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Gebruik de werklastbalans in Adobe Workfront om werk toe te wijzen aan gebruiker
 
 De werklastbalans is beschikbaar in meerdere gebieden van Adobe Workfront. Navigeren is vergelijkbaar in alle gebieden.
 
-Voor meer informatie over waar de Balancer van de Werklast wordt gevestigd, zie [ plaats van de Balancer van de Werkbelasting ](https://experienceleague.adobe.com/nl/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
+Voor meer informatie over waar de Balancer van de Werklast wordt gevestigd, zie [ plaats van de Balancer van de Werkbelasting ](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
 
 ## Toegangsvereisten
 
@@ -106,8 +106,8 @@ Zie ook de volgende artikelen voor meer informatie over het weergeven van inform
 
 Zie ook de volgende artikelen voor informatie over het beheer van bronnen met behulp van Workload Balancer:
 
-* [ Overzicht van het toewijzen van het werk in de Balancer van de Werkbelasting ](https://experienceleague.adobe.com/nl/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
-* [ beheer gebruikerstoewijzingen in de Balancer van de Werklast ](https://experienceleague.adobe.com/nl/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
+* [ Overzicht van het toewijzen van het werk in de Balancer van de Werkbelasting ](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
+* [ beheer gebruikerstoewijzingen in de Balancer van de Werklast ](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
 
 
 ## Navigeer de Balancer van de Werkbelasting voor veelvoudige projecten in het gebied van de Middelen
@@ -314,7 +314,7 @@ In het gedeelte Niet toegewezen werk worden standaard geen werkitems weergegeven
 
    ![ Meer menu ](assets/more-menu-right-of-task-350x104.png)
 
-   * **wijs dit aan** toe, dan begin de naam van een gebruiker, een rol, of een team te typen u het het werkpunt aan in het **de mensen van het Onderzoek, de rol, of het 3&rbrace; gebied van teams wilt toewijzen.**
+   * **wijs dit aan** toe, dan begin de naam van een gebruiker, een rol, of een team te typen u het het werkpunt aan in het **de mensen van het Onderzoek, de rol, of het 3} gebied van teams wilt toewijzen.**
 
      U kunt ook de volgende sneltoetsen gebruiken om taken of problemen toe te wijzen:
 
@@ -391,7 +391,7 @@ U kunt meer informatie bekijken over de taken en de problemen in Workload Balanc
 
 1. Heb toegang tot de Balancer van de Werkbelasting op het gebied van het Middelen, zoals die in de sectie [ wordt beschreven toegang tot de Balancer van de Werkbelasting voor veelvoudige projecten in het gebied van de Middelen ](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) in dit artikel.
 
-1. Klik het **pictogram van het 1&rbrace; Volledige scherm ![ Volledige het schermpictogram ](assets/full-screen.png) om de Balancer van de Werkbelasting in het volledige scherm te tonen.**
+1. Klik het **pictogram van het 1} Volledige scherm ![ Volledige het schermpictogram ](assets/full-screen.png) om de Balancer van de Werkbelasting in het volledige scherm te tonen.**
 
    De werklastbalans neemt het volledige scherm in beslag. Browservensters en tabbladen worden niet weergegeven.
 
@@ -422,7 +422,7 @@ De pagina van uw Team van het Huis toont door gebrek.
 {{step1-to-projects}}
 
 1. Klik op de naam van een project om de projectpagina te openen.
-1. Klik **de Balancer van de Werkbelasting** in het linkerpaneel. U zou **kunnen moeten klikken tonen meer**, dan **de Balancer van de Werkbelasting**.
+1. Klik **de Balancer van de Werkbelasting** in het linkerpaneel.
 
    ![ de Balancer van de Werkbelasting van een project ](assets/nwe-balancer-project-350x152.png)
 

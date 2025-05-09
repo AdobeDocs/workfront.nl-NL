@@ -5,9 +5,9 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: 97c33c5a-e42d-4015-841f-69dc44a0599d
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '400'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 ## Een tariefkaart aan een project koppelen
 
 1. Ga naar het project.
-1. Klik **het Factureren Tarieven** in het linkerpaneel. U zou kunnen moeten eerst klikken **tonen Meer**.
+1. Klik **het Factureren Tarieven** in het linkerpaneel.
 1. Klik **toevoegen het FactureringsTarief > een Kaart van het Tarief vastmaken**.
 
    De pagina Een tariefkaart koppelen wordt geopend. Voor meer informatie, zie [ tariefkaarten ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md) beheren.

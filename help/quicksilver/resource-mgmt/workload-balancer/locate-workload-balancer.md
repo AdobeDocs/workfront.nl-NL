@@ -7,9 +7,9 @@ description: U kunt de taakverdeler gebruiken om middelen voor het werk te plann
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
@@ -122,7 +122,7 @@ De pagina van uw Home Team wordt weergegeven.
 {{step1-to-projects}}
 
 1. Klik op de naam van een project om de projectpagina te openen.
-1. Klik **de Balancer van de Werkbelasting** in het linkerpaneel. U zou **kunnen moeten klikken tonen meer**, dan **de Balancer van de Werkbelasting**.
+1. Klik **de Balancer van de Werkbelasting** in het linkerpaneel.
 
    De werklastbalans voor de projectweergave.
 

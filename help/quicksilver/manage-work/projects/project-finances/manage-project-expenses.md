@@ -6,7 +6,7 @@ description: Het proces voor het creëren van en het leiden van uitgaven is het 
 author: Lisa
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
@@ -58,14 +58,13 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 ## Uitgaven toevoegen
 
 1. Ga naar het project waar u uitgaven wilt ingaan.\
-   Als u uitgaven aan een taak wilt toevoegen, navigeer aan een taak in plaats daarvan. 
-1. Klik **tonen Meer**, dan klik **Uitgaven**.
+   Als u uitgaven aan een taak wilt toevoegen, navigeer aan een taak in plaats daarvan.
+1. Klik **Uitgaven** in het linkerpaneel.
 1. Klik **toevoegen een Kosten**.
 **voegt een de dialoogdoos van de Kosten** toe wordt getoond.
 1. Werk het volgende bij:
 
    * **Beschrijving:** Beschrijving van de uitgave.
-
    * **Type van Kosten:** (Vereist) selecteer de categorie die het best de uitgave beschrijft.
    * **Taak:** begin typend de naam van de taak die deze uitgave met wordt geassocieerd, dan klik het wanneer het in de drop-down lijst verschijnt.
    * **Gepland Bedrag:** het geplande begrote bedrag voor de uitgave.\
@@ -80,14 +79,13 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    * **Billable:** selecteer deze optie als u deze uitgave wilt factureren. Het categoriseren van een uitgave als factureerbaar is belangrijk wanneer het creëren van factureringsverslagen.
    * **Terugbetaalbaar:** selecteer deze optie als de uitgave moet worden vergoed. Vervolgens kunt u de kosten als vergoed markeren nadat de kosten zijn vergoed.
 
-1. Selecteer de Vorm van de Douane van a **&#x200B;**&#x200B;en specificeer om het even welke extra vereiste informatie. U moet een aangepast formulier maken voordat u het aan een uitgave kunt koppelen. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Voor informatie over het creëren van douaneformulieren, zie het artikel [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+1. Selecteer de Vorm van de Douane van a **** en specificeer om het even welke extra vereiste informatie. U moet een aangepast formulier maken voordat u het aan een uitgave kunt koppelen. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Voor informatie over het creëren van douaneformulieren, zie het artikel [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 1. Klik **sparen Veranderingen**.
 
 ## Kosten verwijderen
 
 1. Ga naar het project waar u uitgaven wilt schrappen.
-1. Klik **tonen Meer**, dan klik **Uitgaven**.
+1. Klik **Uitgaven** in het linkerpaneel.
 1. Selecteer de uitgaven die u wilt schrappen, dan **Schrapping** ![ ](assets/delete.png) klikken.
-
 1. Klik ja **, schrap het** om schrapping te bevestigen.

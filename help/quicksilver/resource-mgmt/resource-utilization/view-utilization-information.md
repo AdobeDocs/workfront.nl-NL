@@ -6,9 +6,9 @@ description: U kunt het gebruik van uw middelen in het rapport van het Gebruik b
 author: Lisa
 feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
-source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '7283'
+source-wordcount: '7285'
 ht-degree: 0%
 
 ---
@@ -408,7 +408,7 @@ De volgende informatie is beschikbaar in het gebruiksverslag wanneer de ontvangs
   </tr> 
   <tr> 
    <td scope="col"><strong> Geplande Inkomsten </strong> </td> 
-   <td scope="col"> <p>De geplande ontvangsten zijn de ontvangsten die verband houden met de geplande uren van de taken. </p> <p>De manier het rapport van het Gebruik berekent en toont Geplande Ontvangsten voor de inbegrepen projecten verschilt afhankelijk van het Type van Ontvangsten dat op de taak wordt geplaatst, zoals die in de </a> sectie van de opbrengst van het 0&rbrace; Spoor &lbrace;in dit artikel wordt beschreven.<a href="#track-revenue" class="MCXref xref"></p> </td> 
+   <td scope="col"> <p>De geplande ontvangsten zijn de ontvangsten die verband houden met de geplande uren van de taken. </p> <p>De manier het rapport van het Gebruik berekent en toont Geplande Ontvangsten voor de inbegrepen projecten verschilt afhankelijk van het Type van Ontvangsten dat op de taak wordt geplaatst, zoals die in de </a> sectie van de opbrengst van het 0} Spoor {in dit artikel wordt beschreven.<a href="#track-revenue" class="MCXref xref"></p> </td> 
   </tr> 
   <tr> 
    <td scope="col"><strong> Marge </strong> </td> 
@@ -426,7 +426,7 @@ Als Geplande Opbrengst 0 evenaart, wordt de Marge getoond als 0. </p> </td>
   </tr> 
   <tr> 
    <td scope="col"><strong> Ware Inkomsten </strong> </td> 
-   <td> <p>De werkelijke inkomsten zijn de inkomsten die voortvloeien uit de werkelijke uren van de taken.</p> <p>De daadwerkelijke Ontvangsten worden getoond in het rapport van het Gebruik slechts nadat de taak als Voltooid of Gereed (of een status wordt gemerkt die met Voltooid) vergelijkt.</p> <p>De manier dat het rapport van het Gebruik de Ware Inkomsten voor de inbegrepen projecten berekent verschilt afhankelijk van het Type van Inkomsten dat op de taak wordt geplaatst, zoals die in de </a> sectie van de Inkomsten van het 0&rbrace; Spoor &lbrace;in dit artikel wordt beschreven.<a href="#track-revenue" class="MCXref xref"> </p> </td> 
+   <td> <p>De werkelijke inkomsten zijn de inkomsten die voortvloeien uit de werkelijke uren van de taken.</p> <p>De daadwerkelijke Ontvangsten worden getoond in het rapport van het Gebruik slechts nadat de taak als Voltooid of Gereed (of een status wordt gemerkt die met Voltooid) vergelijkt.</p> <p>De manier dat het rapport van het Gebruik de Ware Inkomsten voor de inbegrepen projecten berekent verschilt afhankelijk van het Type van Inkomsten dat op de taak wordt geplaatst, zoals die in de </a> sectie van de Inkomsten van het 0} Spoor {in dit artikel wordt beschreven.<a href="#track-revenue" class="MCXref xref"> </p> </td> 
   </tr> 
   <tr> 
    <td scope="col"><strong> Marge </strong> </td> 
@@ -453,7 +453,7 @@ De voortgang of kosten van een of meer projecten volgen met behulp van een gebru
 
    * Om gebruiksinformatie voor één enkel project te bekijken:
 
-      1. Ga naar een project waarvoor u gebruiksinformatie wilt bekijken, dan **tonen Meer> Gebruik**.
+      1. Ga naar een project waarvoor u gebruiksinformatie wilt bekijken, dan **Gebruik** in het linkerpaneel klikken.
       1. De informatie van het gebruik wordt automatisch getoond wanneer het bekijken van een individueel project, en het toepassen van een filter wordt niet vereist.\
          Als u het rapport van het Gebruik wilt filtreren, kunt u een filter toepassen, dan **Looppas** klikken.\
          Voor informatie over hoe te om het rapport van het Gebruik te filtreren, zie [ het gebruiksinformatie van de Filter ](#filter-utilization-information) in dit artikel.\

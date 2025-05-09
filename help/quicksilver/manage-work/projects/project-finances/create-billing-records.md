@@ -5,9 +5,9 @@ description: Naast het opzetten van inkomsten en het volgen van uitgaven, kunt u
 author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '1898'
+source-wordcount: '1862'
 ht-degree: 0%
 
 ---
@@ -73,9 +73,6 @@ Overweeg het volgende wanneer u factureringsrecords wilt gebruiken:
 
 1. Navigeer naar een project.
 1. Klik **het Factureren Verslagen** in het linkerpaneel.
-
-   Deze sectie zou onder **kunnen worden gevestigd tonen meer**.
-
 1. Met **het Factureren Details van het Verslag** die in het linkerpaneel wordt geselecteerd, klik **Nieuw het Factureren Verslag**.
 1. In de **Nieuwe doos van het Verslag van de Facturering** die toont, specificeer de volgende informatie:
 
@@ -164,11 +161,7 @@ U voegt als volgt factureerbare uren toe aan een factureringsrecord:
 
 1. Ga naar het project met de factureringsverslagen.
 1. Klik **het Factureren Verslagen** in het linkerpaneel.
-
-   Deze sectie zou onder **kunnen worden gevestigd tonen meer**.
-
 1. Klik de **Beschrijving** van een het facturerings verslag om **het Factureren Details van het Verslag** tabel te openen.
-
 1. Klik **Billable Uren** in het linkerpaneel.
 1. Als er uren zijn die in een het facturerings verslag zouden kunnen worden omvat, klik **voegt Uren** toe.\
    **voegt Billable Uren** doos toe opent.
@@ -190,11 +183,7 @@ U kunt als volgt factureringskosten aan een factureringsrecord toevoegen:
 
 1. Ga naar het project met de factureringsverslagen.
 1. Klik **het Factureren Verslagen** in het linkerpaneel.
-
-   U zou **kunnen moeten klikken tonen Meer**, dan **het Factureren Verslagen**.
-
 1. Klik de **Beschrijving** van een het facturerings verslag om **het Factureren Details van het Verslag** tabel te openen.
-
 1. Klik **Billable Uitgaven** in het linkerpaneel.
 1. (Voorwaardelijk) als u uitgaven aan uw taken of het project hebt toegevoegd en hen als Billable gemerkt, klik **toevoegt Uitgaven**.
 
@@ -215,11 +204,7 @@ Om vaste opbrengsten aan een factureringsverslag toe te voegen:
 
 1. Ga naar het project met de factureringsverslagen.
 1. Klik **het Factureren Verslagen** in het linkerpaneel.
-
-   U zou **kunnen moeten klikken tonen Meer**, dan **het Factureren Verslagen**.
-
 1. Klik de **Beschrijving** van een het facturerings verslag om **het Factureren Details van het Verslag** tabel te openen.
-
 1. Selecteer **Vaste Ontvangsten** tabel.
 1. Als u vaste opbrengsten aan uw taken hebt toegevoegd, klik **voegt Vaste Inkomsten** toe.
 

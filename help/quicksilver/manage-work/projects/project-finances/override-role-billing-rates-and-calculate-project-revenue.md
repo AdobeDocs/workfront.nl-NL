@@ -6,7 +6,7 @@ description: U kunt factureringstarieven gebruiken om opbrengst op uw projecten 
 author: Lisa
 feature: Work Management
 exl-id: 63ba6758-ba62-48b4-89f4-d784e32a1bfa
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
 source-wordcount: '3860'
 ht-degree: 0%
@@ -134,7 +134,7 @@ Voor meer informatie over welke baanrol wordt gebruikt om opbrengst op het proje
 <p>To override a billing rate for a project:</p>
 <ol>
 <li value="1">Go to the project you want to override billing rates for.</li>
-<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <strong>Billing Rates</strong> in the left panel. You might have to first click <strong>Show More</strong>. </p> </li>
+<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <strong>Billing Rates</strong> in the left panel. </p> </li>
 <li value="3"> <p>Click <strong>Add Billing Rate</strong> > <strong>New Billing Rate</strong>.</p> <p>The New Billing Rate box opens</p> <p> <img src="assets/override-billing-rate-on-project-nwe-350x310.png" style="width: 350;height: 310;"> </p> <p> <br>The <strong>Default Billing Rate</strong> field displays the system-level rate for this job role.</p> </li>
 <li value="4">In the <strong>Job Role</strong> field, select the job role you want to change the billing rate for.<br></li>
 <li value="5">In the <strong>Billing Rates 1</strong> field, enter the one time billing rate override, then click <strong>Save</strong> to override the billing rate one time, <br>Or Click <strong>Add Rate</strong> to add more billing rate overrides.</li>
@@ -171,7 +171,7 @@ De tarieven van het factureren worden gegroepeerd in het **Facturerings** gebied
 
 ### Waarde van factureringssnelheid van project {#project-billing-rate-value}
 
-In de groeperingslijn die aan een baanrol beantwoordt, merk het het factureren tarief voor die baanrol op het projectniveau in de **kolom van het Facturerings Tarief van 0&rbrace; Project {op.** Als de baanrol veelvoudige met voeten treedt tarieven heeft, wordt het met voeten treden tarief dat aan de huidige datum beantwoordt getoond in de groeperende lijn in de **kolom het Facturerings Tarief van het 0} Project.**
+In de groeperingslijn die aan een baanrol beantwoordt, merk het het factureren tarief voor die baanrol op het projectniveau in de **kolom van het Facturerings Tarief van 0} Project {op.** Als de baanrol veelvoudige met voeten treedt tarieven heeft, wordt het met voeten treden tarief dat aan de huidige datum beantwoordt getoond in de groeperende lijn in de **kolom het Facturerings Tarief van het 0} Project.**
 
 ### Standaardfactuurwaarde {#default-billing-rate-value}
 
@@ -193,7 +193,7 @@ In de groeperende lijn van een baanrol, merk het factureringspercentage voor die
 
 ### Meerdere waarden voor factureringssnelheid en tijdframes {#multiple-billing-rate-values-and-timeframes}
 
-Als u meerdere factureringssnelheden voor een specifieke taakrol hebt, worden deze vermeld onder de groepering voor die taakrol. Gebruikend gealigneerde het uitgeven, kunt u de met voeten getreden tarieven en **&#x200B;**&#x200B;**Datum** en **Datum van het Eind** van de met voeten getreden het factureringspercentages op dit lusje veranderen.
+Als u meerdere factureringssnelheden voor een specifieke taakrol hebt, worden deze vermeld onder de groepering voor die taakrol. Gebruikend gealigneerde het uitgeven, kunt u de met voeten getreden tarieven en **** **Datum** en **Datum van het Eind** van de met voeten getreden het factureringspercentages op dit lusje veranderen.
 
 >[!NOTE]
 >
@@ -323,7 +323,7 @@ In deze gevallen kan het aantal geplande uren per dag verschillen tussen twee ge
 
 Houd rekening met het volgende bij het berekenen van de geplande inkomsten voor gebruikers in verschillende tijdzones:
 
-* Voor taken die het Type van A **van Winst van 1&rbrace; van** Rol **hebben en aan baanrollen worden toegewezen,** Geplande Opbrengst **wordt berekend door de** Geplande Uren **van een taak door het factureringspercentage van de baanrol te vermenigvuldigen.**
+* Voor taken die het Type van A **van Winst van 1} van** Rol **hebben en aan baanrollen worden toegewezen,** Geplande Opbrengst **wordt berekend door de** Geplande Uren **van een taak door het factureringspercentage van de baanrol te vermenigvuldigen.**
 
 * De **Geplande Uren** worden gelijkmatig verdeeld over de **Duur** van de taak.
 
@@ -344,7 +344,7 @@ Houd rekening met het volgende bij het berekenen van de werkelijke inkomsten voo
 
 * In het geval van veelvoudige het factureren tarief treedt met voeten, gebruikt Workfront het factureringspercentage van de baanrol waarvan tijdkader de **Datum van de Ingang** van de uren aanpast die voor de taak worden geregistreerd om **Ware Inkomsten** te berekenen.
 
-* Omdat er geen timestamp op de **Datum van de Ingang** van geregistreerde uren is en er geen tijdstempel op de datumwaaiers van veelvoudige het factureren tariefoverschrijvingen is, **de Ware 3&rbrace; berekeningen van de Inkomsten worden niet beïnvloed door de Tijdzone verbonden aan gebruikers.**
+* Omdat er geen timestamp op de **Datum van de Ingang** van geregistreerde uren is en er geen tijdstempel op de datumwaaiers van veelvoudige het factureren tariefoverschrijvingen is, **de Ware 3} berekeningen van de Inkomsten worden niet beïnvloed door de Tijdzone verbonden aan gebruikers.**
 
 Voor meer informatie over welke baanrol wordt gebruikt om **Ware Inkomsten** te berekenen, zie de &quot;Begrijpende Berekeningen van Inkomsten voor Taken die op Gebruiker en de sectie van de Taken van de Rol&quot;in het artikel [ Overzicht van het Factureren en van de Inkomsten ](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md) worden gebaseerd.
 
@@ -358,7 +358,7 @@ Voor meer informatie over het opnieuw berekenen van projectfinanciën, zie het a
 
 ## Een nieuwe factureringssnelheid toevoegen met de API
 
-Om een nieuw het factureren tarief voor een baanrol toe te voegen gebruikend API, voert u a *setRatesForRole* actie voor het **Tarief** voorwerp gebruikend de *methode van de PUT* uit.
+Om een nieuw het factureren tarief voor een baanrol toe te voegen gebruikend API, voert u a *setRatesForRole* actie voor het **Tarief** voorwerp gebruikend de *methode van PUT* uit.
 De actie en de datumgebieden op het **Tarief** voorwerp zijn beschikbaar in API versie 8.0.
 Als u reeds verscheidene het factureren tarieven voor een baanrol op een project hebt bepaald en u een nieuw het facturerings tarief voor het met een nieuwe datumwaaier wilt toevoegen, moet u zowel het bestaande tarief als het tarief omvatten dat in de zelfde API vraag moet worden toegevoegd. Dit is vergelijkbaar met het bijwerken van verzamelingen voor objecten.
 
