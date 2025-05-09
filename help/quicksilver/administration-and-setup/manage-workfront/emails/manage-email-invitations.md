@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: emails-administration
 title: E-mailuitnodigingen aan nieuwe gebruikers beheren
 description: Als Adobe Workfront-beheerder kunt u gebruikers toevoegen aan Workfront en ze laten weten dat ze zijn toegevoegd door e-mailuitnodigingen te gebruiken.
-author: Nolan
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: e13e3479-391f-4aec-b998-e9b6057f256b
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: dccbd5a036e1b148bc8f3e41fac3a67babe6dc9a
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->De op deze pagina beschreven procedure is alleen van toepassing op organisaties die nog niet aan de Admin Console zijn geregistreerd. Als uw organisatie is aangemeld bij de Adobe Admin Console, moet u deze handeling uitvoeren via de Adobe Admin Console.
+>De op deze pagina beschreven procedure is alleen van toepassing op organisaties die nog niet aan boord van de Admin Console zijn. Als uw organisatie is aangemeld bij de Adobe Admin Console, moet u deze handeling uitvoeren via de Adobe Admin Console.
 >
->Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan Adobe Admin Console is genegeerd, zie [ Op platform-gebaseerde beleidsverschillen (Adobe Workfront/Adobe Bedrijfs Platform) ](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan Adobe Admin Console is genegeerd, zie [ Op platform-gebaseerde beleidsverschillen (Adobe Workfront/Adobe Bedrijfsplatform) ](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Als Adobe Workfront-beheerder kunt u gebruikers toevoegen aan Workfront en ze laten weten dat ze zijn toegevoegd door e-mailuitnodigingen te gebruiken.
 
@@ -69,7 +69,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 +++
 
-## E-mailuitnodigingen genereren {#generate-email-invitations}
+## E-mailuitnodigingen opnieuw verzenden naar bestaande niet-geregistreerde gebruikers
 
 E-mailuitnodigingen worden gegenereerd in de volgende scenario&#39;s:
 
@@ -82,7 +82,7 @@ E-mailuitnodigingen worden gegenereerd in de volgende scenario&#39;s:
   >
   >Als u **schrapt verzend een e-mailuitnodiging naar deze persoon** doos wanneer u de gebruiker creeert, kan de e-mailuitnodiging niet manueel worden geproduceerd. Het handmatig doorsturen van de e-mailuitnodigingen is alleen mogelijk voor gebruikers die de oorspronkelijke e-mailuitnodiging hebben ontvangen toen hun account werd gemaakt. Voor meer informatie over het creëren van nieuwe gebruikers, zie [ gebruikers ](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md) toevoegen.
 
-E-mailuitnodigingen handmatig genereren voor bestaande niet-geregistreerde gebruikers:
+E-mailuitnodigingen handmatig opnieuw verzenden naar bestaande niet-geregistreerde gebruikers:
 
 {{step-1-to-users}}
 
@@ -98,9 +98,9 @@ E-mailuitnodigingen handmatig genereren voor bestaande niet-geregistreerde gebru
    >
    >Als uw organisatie is aangemeld bij de Admin Console en u een gebruiker toevoegt via Workfront, kunt u geen e-mailuitnodiging verzenden naar nieuwe gebruikers.
    >
-   >De nieuwe gebruikers van de Adobe worden toegevoegd aan de Admin Console, en de Admin Console levert een e-mail om hen uit te nodigen om het registratieproces te voltooien. Alle gebruikers moeten het registratieproces voltooien om tot om het even welk systeem van de Adobe toegang te hebben.
+   >Nieuwe Adobe-gebruikers worden toegevoegd aan de Admin Console en de Admin Console stuurt een e-mail om hen uit te nodigen het registratieproces te voltooien. Alle gebruikers moeten het registratieproces voltooien om toegang te krijgen tot een Adobe-systeem.
    >
-   >Voor bestaande gebruikers van de Adobe kan de gebruiker al dan niet een e-mail ontvangen over de beschikbaarheid van Workfront. Dit is een voorkeur die door de beheerder van de Adobe voor het product wordt gecontroleerd.
+   >Voor bestaande Adobe-gebruikers kan de gebruiker al dan niet een e-mail ontvangen over de beschikbaarheid van Workfront. Deze voorkeur wordt door de Adobe-beheerder voor het product bepaald.
 
 ## E-mailuitnodigingen configureren {#configure-email-invitations}
 
