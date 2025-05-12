@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 036846cc84e53b090276f7b853372e4e0050c316
+source-git-commit: b81164511776efed53d3f41b4ac1cbf0c035c741
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ Voor informatie, zie [ de chronologiemening ](/help/quicksilver/planning/views/m
 >[!NOTE]
 >
 >* Voorbeeld: 17 april 2025
->* Snelle productie: 15 mei 2025
+>* Snelle productie: 12 juni 2025
 >* Productie voor alle afnemers: 17 juli 2025
 
 Om beter te controleren wie verslagen in elk verslagtype kan bekijken of beheren en ervoor te zorgen dat slechts de gemachtigde mensen de informatie van elk verslagtype kunnen beheren die op hun rollen en verantwoordelijkheden wordt gebaseerd, hebben wij toestemmingen op het verslagtype niveau geïntroduceerd.
