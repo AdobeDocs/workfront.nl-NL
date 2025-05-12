@@ -3,21 +3,21 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;setup
 navigation-topic: set-up-workfront
-title: Systeemstandaardwaarden configureren
+title: 'Systeemstandaardwaarden configureren: artikelindex'
 description: Als  [!DNL Adobe Workfront]  beheerder, kunt u de systeemgebreken, zoals de voorkeur voor alle projecten vormen die uw gebruikers tot stand brengen.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0ea1722b-fbcf-4e13-b206-f954877076cf
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: 0c2a54406ceb690e638cdc0376a3dc01a7c2df76
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
 
-# Standaardwaarden systeem configureren
+# Standaardwaarden systeem configureren: artikelindex
 
 Deze sectie bevat de volgende artikelen:
 
@@ -26,7 +26,7 @@ Deze sectie bevat de volgende artikelen:
 * [Projectvoorkeuren voor alle groepen in het systeem vergrendelen of ontgrendelen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md)
 * [Aanvraagtypen configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md)
 * [Standaardobjecttypen aanpassen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md)
-* [Standaardfilters, weergaven en groepen maken, bewerken en delen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md)
+* [Systeembrede filters, weergaven en groepen maken, bewerken en delen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md)
 * [[!UICONTROL Resource Management] -voorkeuren configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)
 * [Risicotypen bewerken en maken](../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md)
 * [Aangepaste uitgaventypen maken](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)

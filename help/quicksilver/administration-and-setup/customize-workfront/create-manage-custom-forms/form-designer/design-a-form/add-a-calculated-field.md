@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 0c2a54406ceb690e638cdc0376a3dc01a7c2df76
 workflow-type: tm+mt
-source-wordcount: '2422'
+source-wordcount: '2434'
 ht-degree: 0%
 
 ---
 
 # Berekende velden toevoegen aan een formulier
+
+<!-- Audited: 5/2025 -->
 
 U kunt een berekend aangepast veld toevoegen waarin bestaande gegevens worden gebruikt om nieuwe gegevens te genereren wanneer het aangepaste formulier aan een object wordt gekoppeld.
 
@@ -93,15 +95,15 @@ Een bestaand berekend aangepast veld opnieuw gebruiken:
 
 {{step-1-to-setup}}
 
-1. Klik **Forms van de Douane** in het linkerpaneel.
+1. In het linkerpaneel, klik **Aangepaste Forms**, toen **Forms**.
 
    <!-- >[!TIP]
     >
     >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
 
-1. Klik **Nieuwe Vorm van de Douane.**
-1. Selecteer welke objecten types u de douaneformulier aan wilt vastmaken, dan **blijven** klikken.
+1. Klik **Nieuwe Vorm van de Douane**.
 
+1. In de **Nieuwe dialoog van de Vorm van de Douane**, selecteer welke objecten types u de douanevorm aan wilt vastmaken, dan **blijven** klikken.
 1. Op de top-linkerkant van het scherm, klik **bibliotheek van het Gebied**.
 
    ![ bibliotheek van het Gebied ](assets/field-library.png)
@@ -131,14 +133,15 @@ Een bestaand berekend aangepast veld opnieuw gebruiken:
 
 {{step-1-to-setup}}
 
-1. Klik **Forms van de Douane** in het linkerpaneel.
+1. In het linkerpaneel, klik **Aangepaste Forms**, toen **Forms**.
+
+1. Klik **Nieuwe douanevorm**.
 
    <!-- >[!TIP]
     >
     >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
 
-1. Klik **Nieuwe Vorm van de Douane.**
-1. Selecteer welke objecten types u de douaneformulier aan wilt vastmaken, dan **blijven** klikken.
+1. In de **Nieuwe dialoog van de Vorm van de Douane**, selecteer welke objecten types u de douanevorm aan wilt vastmaken, dan **blijven** klikken.
 
 1. Op de linkerkant van het scherm, vind **Berekend** en sleep het aan een sectie op het canvas.
 
@@ -166,9 +169,9 @@ Een bestaand berekend aangepast veld opnieuw gebruiken:
      </tr> 
      <tr> 
       <td role="rowheader">Indeling</td> 
-      <td> <p>De indeling waarin u de resultaten van het veld wilt opslaan en weergeven.</p> <p>Als het gebied in wiskundige berekeningen zal worden gebruikt, gebruik altijd a <strong> Aantal </strong> of a <strong> het formaat van de Valuta </strong>. Als u Getal of Valuta selecteert, wordt het systeem automatisch gebruikt voor het afkappen van getallen die met 0 beginnen.</p> 
+      <td> <p>De indeling waarin u de resultaten van het veld wilt opslaan en weergeven.</p> <p>Als het gebied in wiskundige berekeningen zal worden gebruikt, gebruik altijd a <strong> Aantal </strong> of a <strong> het formaat van de Valuta </strong>. Wanneer u <strong> Aantal </strong> of <strong> Valuta </strong> selecteert, kapt het systeem automatisch aantallen af die met 0 beginnen.</p> 
       <p><b> BELANGRIJK </b>: Alvorens u een formaat kiest, overweeg het correcte formaat voor het nieuwe gebied. Het indelingsveld kan niet worden bewerkt nadat het aangepaste formulier is opgeslagen. En het selecteren van het verkeerde formaat kon toekomstige berekeningen en samengevoegde waarden in rapport en lijstgroepen beïnvloeden.</p>
-      <p><strong> NOTA:</strong> Berekende gebieden met een formaat van de Valuta zouden geen aanhalingstekens moeten omvatten. (Gebruik bijvoorbeeld 800.00 en niet "800.00.") Het gebruik van aanhalingstekens kan onverwachte gevolgen hebben als gevolg van verschillen in de taalopmaak voor valutatypen.</p></td>
+      <p><strong> NOTA </strong>: Berekende gebieden met het formaat van de a <strong> Valuta </strong> zouden geen aanhalingstekens moeten omvatten. (Gebruik bijvoorbeeld 800.00 en niet "800.00.") Het gebruik van aanhalingstekens kan onverwachte gevolgen hebben als gevolg van verschillen in de taalopmaak voor valutatypen.</p></td>
      </tr> 
     </tbody> 
    </table>
@@ -217,7 +220,7 @@ Een berekening begint gewoonlijk met een expressie, gevolgd door haakjes die de 
 
         Wanneer u in een berekend aangepast veld naar een verwant object verwijst, moet u namen en kenmerken van objecten scheiden met punten.
 
-        Als u bijvoorbeeld in een aangepast taaktype formulier de naam van de eigenaar van het Portfolio wilt weergeven in een berekend aangepast veld, typt u het volgende:
+        Als u bijvoorbeeld in een aangepast taaktype formulier de naam van de Portfolio-eigenaar wilt weergeven in een berekend aangepast veld, typt u het volgende:
 
         `{project}.{porfolio}.{owner}`
 
@@ -295,7 +298,7 @@ Een berekening begint gewoonlijk met een expressie, gevolgd door haakjes die de 
       >
       >U kunt een van de volgende handelingen uitvoeren om hulp te krijgen bij uw berekening:
       > 
-      >* Beweeg over een uitdrukking in uw berekening om een beschrijving te zien, een voorbeeld dat toont hoe het kan worden gebruikt, en een &quot;Leer meer&quot;verbinding aan meer informatie in het artikel [ Overzicht van berekende gegevensuitdrukkingen ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+      >* Beweeg over een uitdrukking in uw berekening om een beschrijving te zien, een voorbeeld dat toont hoe het kan worden gebruikt, en a **leren meer** verbinding aan meer informatie in het artikel [ Overzicht van berekende gegevensuitdrukkingen ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
       >  ![ de hulptekst van de Uitdrukking ](assets/hover-expression-help-text.jpg)
       >* Gebruik de kleurcodering om de componenten te identificeren die u hebt toegevoegd. Expressies worden in blauw weergegeven en velden in groen.
       >  ![ Kleuren voor gebiedsuitdrukkingen ](assets/colors-fields-expressions.jpg)

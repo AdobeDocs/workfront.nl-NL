@@ -8,16 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: bb6697241701160f878dc3fde2c7dd4d57ec097e
+source-git-commit: 0c2a54406ceb690e638cdc0376a3dc01a7c2df76
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1089'
 ht-degree: 0%
 
 ---
 
 # Een gebruiker deactiveren of opnieuw activeren
 
-<!--Audited 2/2024-->
+<!--Audited 5/2025-->
 
 <!--
 
@@ -25,13 +25,13 @@ ht-degree: 0%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/nl/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 -->
 
-Als een gebruiker de organisatie verlaat, moet u deze mogelijk uit Adobe Workfront verwijderen. Ze moeten niet actief blijven in het systeem, omdat dit verwarring zou veroorzaken voor andere gebruikers wanneer ze aan updates worden toegevoegd of deze aan updates worden toegewezen. Wanneer u een gebruiker deactiveert, zien andere gebruikers niet langer hun naam wanneer zij naar mensen in het systeem zoeken.
+Als een gebruiker de organisatie verlaat, is het raadzaam deze in het systeem te deactiveren om verwarring voor andere gebruikers te voorkomen wanneer ze aan updates toevoegen of ze aan updates toewijzen. Wanneer u een gebruiker deactiveert, zien andere gebruikers niet langer hun naam wanneer zij naar mensen in het systeem zoeken.
 
 De beheerders kunnen inactieve gebruikers in het gebied van de Opstelling zien.
 
@@ -41,11 +41,9 @@ U kunt een gebruiker op elk gewenst moment opnieuw activeren.
 >
 >* Wij adviseren dat u gebruikers deactiveert die de organisatie hebben verlaten eerder dan hen te schrappen. Als een gebruiker wordt verwijderd, gaat alle aan die gebruiker gekoppelde geschiedenis in Workfront verloren. Hieronder vallen hun werktoewijzingen, hun koppeling met notities, uren, documenten en alle andere objecten die ze ooit hebben gemaakt.
 >
->   Als u een gebruiker in Workfront deactiveert, worden de gebruikerslicenties zowel voor Workfront als voor digitale proefdrukken verwijderd. Bovendien kan aan de gebruiker geen werk meer worden toegewezen. Wanneer een gebruiker wordt gedeactiveerd, wordt de Workfront-licentie en -proeflicentie van die gebruiker beschikbaar voor gebruik door een andere gebruiker. Alle andere informatie in het profiel van de gedeactiveerde gebruiker blijft ongewijzigd.
+>* Als u een gebruiker in Workfront deactiveert, worden de gebruikerslicenties zowel voor Workfront als voor digitale proefdrukken verwijderd. Bovendien kan aan de gebruiker geen werk meer worden toegewezen. Wanneer een gebruiker wordt gedeactiveerd, wordt de Workfront-licentie en -proeflicentie van die gebruiker beschikbaar voor gebruik door een andere gebruiker. Alle andere informatie in het profiel van de gedeactiveerde gebruiker blijft ongewijzigd.
 >
->   Voor meer informatie over het effect van het schrappen en dat van het desactiveren van gebruikers, zie [ gebruikers van de Schrapping ](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
->
->* Als u een gebruiker deactiveert in Workfront, wordt de gebruiker niet verwijderd uit het Workfront-productprofiel in de Adobe Admin Console.
+>* Als u een gebruiker deactiveert in Workfront, wordt de gebruiker niet verwijderd uit het Workfront-productprofiel in de Adobe Admin Console. Voor meer informatie, zie [ gebruikers van de Schrapping ](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
 
 
 ## Toegangsvereisten
@@ -71,7 +69,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td> <p>U moet een van de volgende opties hebben:</p> 
     <ul> 
      <li> <p>Het toegangsniveau voor systeembeheerders. </li> 
-     <li> <p><b> Gebruikers </b> het plaatsen in uw toegangsniveau dat aan <b> wordt gevormd geeft </b> toegang uit, met <b> creeert </b> en minstens één van de twee <b> die gebruikers Admin </b> opties onder <b> worden toegelaten verfijnen uw montages </b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Van deze twee opties, als <b> Admin van de Gebruiker (de Gebruikers van de Groep) </b> wordt toegelaten, moet u een groepsbeheerder van een groep zijn waar de gebruiker een lid is.</p> </li> 
+     <li> <p>Gebruikers die in uw toegangsniveau instellen, zijn geconfigureerd voor het bewerken van toegang, met Maken en ten minste een van de twee opties voor gebruikersbeheer ingeschakeld onder Uw instellingen nauwkeurig instellen <img src="assets/gear-icon-in-access-levels.png"> . </p> <p>Van deze twee opties, als de Gebruiker Admin (de Gebruikers van de Groep) wordt toegelaten, moet u een groepbeheerder van een groep zijn waar de gebruiker een lid is.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -101,13 +99,14 @@ Een gebruiker deactiveren:
 
 {{step-1-to-users}}
 
-1. Selecteer een gebruiker, klik het **Meer** pictogram ![ Meer pictogram ](assets/more-icon.png), dan klik **Deactivate**.
+1. Selecteer een gebruiker in de gebruikerslijst.
+1. Klik het **Meer** pictogram ![ Meer pictogram ](assets/more-icon.png), dan klik **deactivate**.
 
-1. Klik **Deactivate** in de doos die verschijnt.
+1. In het **Deactivate gebruikers** dialoogvakje, klik **** deactivate.
 
 ## Gebruikers plannen voor deactivering
 
-Als manager, kunt u gebruikers voor deactivering willen merken alvorens zij eigenlijk uw organisatie verlaten. Als u bijvoorbeeld werkt met een gebruiker die contractueel gebonden is, bevinden deze zich gedurende een beperkte periode in uw systeem en kent u de beëindigingsdatum. U kunt ze plannen om op die datum gedeactiveerd te worden.
+Als manager, kunt u gebruikers voor deactivering willen merken alvorens zij eigenlijk uw organisatie verlaten. Bijvoorbeeld, als u met een gebruiker werkt die contractueel verbindend is, zijn zij in uw systeem voor een beperkte periode, en u kent hun beëindigingsdatum. U kunt ze plannen om op die datum gedeactiveerd te worden.
 
 Workfront-beheerders en gebruikers van een abonnement kunnen de datum van deactivering in hun gebruikersprofiel zien.
 
@@ -115,36 +114,37 @@ Een gebruiker plannen voor deactivering:
 
 {{step-1-to-users}}
 
-1. Selecteer de gebruikersnaam.
+1. Selecteer de gebruiker in de gebruikerslijst.
 
    of
 
    (Optioneel) Selecteer meerdere gebruikers om ze bulksgewijs te deactiveren.
 
-1. Klik het Edit pictogram ![ uitgeven pictogram ](assets/edit-icon.png).
-1. In het Edit vakje van de Gebruiker dat toont, klik **Planning van het Middel** om naar dat gebied te gaan.
-1. Laat de **optie van de Deactivering van het Programma** toe.
+1. Klik **uitgeven** pictogram ![ uitgeven pictogram ](assets/edit-icon.png).
+1. In het linkerpaneel van **geef de doos van de Gebruiker** uit, klik **Planning van het Middel**.
+1. Selecteer het **checkbox van de Deactivering van het Programma**.
 
-1. In de kalender die toont, specificeer de datum en de tijd voor de **Geplande Datum van Deactivering**.
+1. Selecteer de datum en de tijd voor de **Geplande Datum van Deactivering**.
 
    >[!NOTE]
    >
    >* In het tijdvak kunt u alleen stappen van een heel uur selecteren, geen minuten.
-   >* Als u een tijd selecteert voor de huidige dag die voorbij is, zal Workfront de deactivering voor de volgende dag om 12:00 plannen. De geselecteerde tijd komt overeen met de tijdzone van de computer van de gebruiker die de deactivering plant.
+   >* Als u een tijd voor de huidige dag selecteert die is overgegaan, zal Workfront de deactivering voor de volgende dag om 12:00 plannen.
+   >* De geselecteerde tijd komt overeen met de tijdzone van de computer van de gebruiker die de deactivering plant.
 
 1. Klik **sparen Veranderingen**.
 
-   De gebruiker wordt op de geselecteerde dag ergens na de geselecteerde tijd gedeactiveerd. Als u meerdere gebruikers hebt geselecteerd om bulksgewijs te deactiveren, worden alle geselecteerde gebruikers op de geselecteerde dag gedeactiveerd ergens na de geselecteerde tijd.
+De gebruiker wordt op de geselecteerde dag ergens na de geselecteerde tijd gedeactiveerd. Als u meerdere gebruikers hebt geselecteerd om bulksgewijs te deactiveren, worden alle geselecteerde gebruikers op de geselecteerde dag gedeactiveerd ergens na de geselecteerde tijd.
 
-Wij adviseren dat u een rapport voor gebruikers bouwt die u voor deactivering hebt gepland, om op de hoogte te houden van welke gebruikers om te worden gedeactiveerd. Er is geen bevestiging dat de deactivering heeft plaatsgevonden nadat de gebruikers waren gedeactiveerd.
+Wij adviseren dat u een rapport voor gebruikers bouwt die u voor deactivering hebt gepland om op de hoogte te houden van welke gebruikers om te worden gedeactiveerd. Er is geen bevestiging dat de deactivering heeft plaatsgevonden nadat de gebruikers zijn gedeactiveerd.
 
 ## Een gebruiker opnieuw activeren
 
 {{step-1-to-users}}
 
-1. Selecteer een gebruiker, klik het Meer pictogram ![ Meer pictogram ](assets/more-icon.png), dan klik **activeren**.
+1. Selecteer een gebruiker, klik het **Meer** pictogram ![ Meer pictogram ](assets/more-icon.png), dan klik **activeert**.
 
-1. Wijs een nieuw **niveau van de Toegang** in het drop-down menu toe, dan klik **&#x200B;**&#x200B;Reactivate.
+1. In het **Reactivate gebruiker** dialoog, selecteer een nieuw **niveau van de Toegang** in het drop-down menu, dan klik **Reactivate**.
 <!--
 ### Asset review and approval impact when you reactivate a user
 
@@ -163,16 +163,16 @@ Alvorens u een beheerder van Workfront of een gebruiker met een vergunning van h
 
 Deze objecten en activiteiten kunnen het volgende omvatten:
 
-* Taken of problemen die aan de gebruiker zijn toegewezen
-* Projecten van de gebruiker
-* Rapporten die zijn ingesteld voor gebruik met de toegangsrechten van de gebruiker
-* Sjablonen van de gebruiker
-* Projecten en sjablonen waarop de gebruiker is ingesteld als middelmanager
-* De rij die van het verzoek regels verplettert waarop de de beheerder van Workfront of gebruiker van de vergunning van het Plan Default Assignee is
-* Goedkeuringsprocessen met een werkgebied waarin de gebruiker is opgenomen (met name als dit de enige fiatteur in het werkgebied was)
-* Tijdschema&#39;s waarin de gebruiker als fiatteur wordt vermeld
-* Tijdlijnprofielen waarin de gebruiker als fiatteur wordt vermeld
-* Geautomatiseerde workflows controleren die de gebruiker bevatten
+* Taken of problemen die aan de gebruiker zijn toegewezen.
+* Projecten van de gebruiker.
+* Rapporten die zijn ingesteld voor uitvoering met de toegangsrechten van de gebruiker.
+* Templates van de gebruiker.
+* Projecten en sjablonen waarop de gebruiker is ingesteld als middelmanager.
+* De rij die van het verzoek regels verplettert de beheerder van Workfront of de de vergunningsgebruiker van het Plan is StandaardToegewezen.
+* Goedkeuringsprocessen met een werkgebied waarin de gebruiker is opgenomen (met name als dit de enige fiatteur in het werkgebied was).
+* Timesheets die de gebruiker als fiatteur vermelden.
+* Tijdbladprofielen waarin de gebruiker als fiatteur wordt vermeld.
+* Bewijzen van geautomatiseerde workflows die de gebruiker bevatten.
 
 ## De gevolgen van de planning van het middel wanneer u een gebruiker voor deactivering plant
 
