@@ -3,19 +3,24 @@ title: Een gebruiker deactiveren of opnieuw activeren
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-description: Als Workfront-beheerder kunt u een gebruiker deactiveren of opnieuw activeren.
+description: Workfront-beheerders kunnen een gebruiker deactiveren of opnieuw activeren.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: 0c2a54406ceb690e638cdc0376a3dc01a7c2df76
+source-git-commit: b235945deb3254feaf671083fc992786851a3286
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1104'
 ht-degree: 0%
 
 ---
 
-# Een gebruiker deactiveren of opnieuw activeren
+# Een gebruiker deactiveren of opnieuw activeren {#deactivate-or-reactivate-a-user}
+
+>[!CONTEXTUALHELP]
+>id="wf_users_deactivate_user"
+>title="Een gebruiker deactiveren"
+>abstract="Als u een gebruiker deactiveert, worden deze verwijderd uit Workfront en Frame.io. Gedetactiveerde gebruikers kunnen later opnieuw worden geactiveerd."
 
 <!--Audited 5/2025-->
 
@@ -25,7 +30,7 @@ ht-degree: 0%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/nl/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -102,7 +107,7 @@ Een gebruiker deactiveren:
 1. Selecteer een gebruiker in de gebruikerslijst.
 1. Klik het **Meer** pictogram ![ Meer pictogram ](assets/more-icon.png), dan klik **deactivate**.
 
-1. In het **Deactivate gebruikers** dialoogvakje, klik **&#x200B;**&#x200B;deactivate.
+1. In het **Deactivate gebruikers** dialoogvakje, klik **** deactivate.
 
 ## Gebruikers plannen voor deactivering
 
@@ -181,3 +186,4 @@ Wanneer u een gebruiker voor deactivering plant, verschijnen zij niet meer in de
 De Planner van het Middel houdt rekening met alle baanrollen van de gebruikers en Geplande Datums van de Voltooiing van de taken en berekent dienovereenkomstig middelen.
 
 Voor meer informatie over de Planner van het Middel, zie [ Overzicht van de Planner van het Middel ](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+
