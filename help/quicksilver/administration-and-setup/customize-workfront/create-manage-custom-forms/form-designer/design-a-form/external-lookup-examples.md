@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 6f69425c811042f9f3e13f3631ba734f8fdcb95f
+source-git-commit: b3a4945cf2db1ba11b42742f0da685b32a6d0dd9
 workflow-type: tm+mt
-source-wordcount: '1378'
+source-wordcount: '1438'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,38 @@ Een extern opzoekveld in een aangepast formulier roept een externe API aan en re
 Dit artikel bevat voorbeelden van het gebruik van het externe opzoekveld om dezelfde instantie van Workfront of een openbare API aan te roepen. U kunt de Externe raadpleging ook gebruiken om met een extern systeem zoals Jira, Salesforce, of ServiceNow te communiceren.
 
 Voor meer informatie over het toevoegen van een Extern raadplegingsgebied aan een douaneformulier en extra definities van de externe raadplegingscomponenten, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+
+## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront-plan </td> 
+   <td>Alle</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td>
+   <p>Nieuw: Standaard</p>
+   <p>of</p>
+   <p>Huidig: Plan</p></td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td>Administratieve toegang tot aangepaste formulieren </td> 
+  </tr>  
+ </tbody> 
+</table>
+
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Een extern opzoekveld instellen voor dezelfde instantie van Workfront
 
@@ -117,7 +149,7 @@ Een eindpunt is beschikbaar in de Planning API van Workfront aan onderzoeksversl
 * **Methode van HTTP:** krijgt
 * **Weg JSON:** `$.records[*].data.{fieldID}`
 
-  **{fieldID}** is het gebied om in de Externe resultaten van het raadplegingsonderzoek op de douanevorm voor eind te tonen - gebruikers.
+  **{fieldID}** is het veld dat in de zoekresultaten voor externe zoekopdrachten op het aangepaste formulier voor eindgebruikers moet worden weergegeven.
 
 Voor meer informatie, zie [ de Planning API van Workfront ](/help/quicksilver/planning/general/planning-api-basics.md).
 
