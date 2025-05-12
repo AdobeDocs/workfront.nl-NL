@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: f9de87b7b874910cb986cbf6d57e998afe602bb8
+source-git-commit: d0a82c1ae306edb4f63c961120bb1df4613ace7e
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,14 @@ Op deze pagina worden alle verbeteringen in documentbeheer beschreven die zijn a
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwartaal 2025 versiecyclus, zie [ Derde Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
 
->[!IMPORTANT]
->
->De functies die op deze pagina worden vermeld, maken deel uit van een gefaseerde release en zijn alleen beschikbaar voor specifieke klanten.
+## Desktop Proofing Viewer-update
+
+De Desktop Proofing Viewer is bijgewerkt naar versie 2.1.48.
+
+Deze update vormt een oplossing voor problemen die ervoor zorgen dat de Desktop Viewer compatibel blijft met Mac-besturingssystemen. Electron werd naar 34.4.0 gedowngraded en Chromium werd naar 132 gedowngraded.
+
+Deze update geldt voor zowel Mac als Windows.
+
 
 ## Assets in een gekoppelde Google-map moet afzonderlijk worden toegevoegd om in Workfront te worden weergegeven
 
@@ -43,6 +48,10 @@ Belangrijke mogelijkheden die ongewijzigd blijven:
 
 
 ## Knoppen voor het nemen van beslissingen voor het goedkeuren van nieuwe documenten beschikbaar in de proefdrukviewer
+
+>[!IMPORTANT]
+>
+>Deze functie maakt deel uit van een gefaseerde release en is alleen beschikbaar voor specifieke klanten.
 
 >[!NOTE]
 >
