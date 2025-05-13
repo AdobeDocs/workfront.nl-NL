@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 73df51a476695a3af11911da850ce4049c95aa06
+source-git-commit: 454877e742420c3bc289adf6b2cb1d692fc4fe95
 workflow-type: tm+mt
-source-wordcount: '2204'
+source-wordcount: '2355'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Deze pagina bevat een overzicht van de interface-updates die we in Adobe Workfro
 >
 >In de meeste gevallen, wordt elke update eerst vrijgegeven aan het milieu van de Voorproef, dan incrementeel toegelaten in de milieu van de Productie voor een groeiende ondergroep klanten die op de vermelde de versiedatum van de Productie begint.
 
-Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product [&#128279;](/help/quicksilver/product-announcements/product-releases/product-releases.md).
+Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product ](/help/quicksilver/product-announcements/product-releases/product-releases.md).[
 
 ## Navigatie en zoeken
 
@@ -32,12 +32,13 @@ Het gedeelte Geavanceerd zoeken is als volgt bijgewerkt:
 
 * Er is een nieuw tabblad Volledig zoeken toegevoegd. Op dit tabblad kunt u zoeken op type, ingevoerd op, ingangsdatum, categorie en laatst bijgewerkt op.
 * Het filter op het tabblad Geavanceerd zoeken wijkt enigszins af. Het filter is nu niet vooraf gevuld. U moet het van knevel voorzien en het filter van kras bouwen. Het filter blijft niet behouden als de pagina wordt vernieuwd.
+* De functie Geavanceerd zoeken is nu volledig scherm. U moet weg van de pagina navigeren eerder dan het sluiten van de dialoog.
 
 Voor meer informatie, zie [ Onderzoek  [!DNL Adobe Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/search/search-workfront.md).
 
 ### Interface-update voor het verlenen van toegang tot uw Workfront-account
 
-**de versie van de Voorproef: 24 April; De versie van de Productie: Te aankondigen**
+**de versie van de Voorproef: April 24; De versie van de Productie: Begin de week van 1 Mei, 2024**
 
 We hebben de pagina die u gebruikt, bijgewerkt zodat u ondersteuning kunt bieden voor toegang tot uw Workfront-account met een modernere opzet die aansluit bij andere delen van Workfront.
 
@@ -237,7 +238,13 @@ Om deze verandering te bekijken, ga naar Teams > kies een team > Achtergrond, da
 
 ## Documenten
 
-+++Uitbreiden om de interfaceupdates van Documenten te bekijken
+### Een document delen met een extern e-mailadres
+
+**de versie van de Voorproef: 15 mei, 2025; De versie van de productie: Te aankondigen**
+
+Het dialoogvenster Delen is bijgewerkt zodat gebruikers documenten kunnen delen met externe gebruikers via een e-mailadres. Deze functionaliteit was tijdelijk niet beschikbaar toe te schrijven aan het werk van de interfacemodernisering.
+
++++Uitbreiden om meer updates van de documentinterface te bekijken
 
 ### Interface-updates bij aanvragen van een document
 
@@ -345,6 +352,22 @@ Er is een nieuwe knop Tekstmodus bewerken en modaal bewerken toegevoegd aan de v
 +++
 
 ## Gebruikers
+
+### Bijgewerkt zoeken naar de aanmeldingspagina
+
+**de versie van de Voorproef: 15 mei, 2024; De versie van de productie: Te aankondigen**
+
+We hebben de aanmeldingspagina bijgewerkt met een modern ontwerp dat aansluit bij andere delen van Workfront.
+
+### Bijgewerkte zoekopdracht voor pagina met opnieuw ingestelde wachtwoorden
+
+**de versie van de Voorproef: 15 mei, 2024; De versie van de productie: Te aankondigen**
+
+We hebben het scherm Wachtwoord opnieuw instellen bijgewerkt met een modern ontwerp dat aansluit bij andere delen van Workfront. Deze update bevat updates voor de volgende pagina&#39;s:
+
+* Wachtwoord bijna verlopen
+* Verlopen wachtwoord
+* Tijdelijk wachtwoord
 
 ### Pagina voor delen van document is bijgewerkt voor externe gebruikers
 
