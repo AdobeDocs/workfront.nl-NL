@@ -6,9 +6,9 @@ description: Naast het creëren van een projectmalplaatje van kras, kunt u besta
 author: Alina
 feature: Work Management
 exl-id: b2e0878b-8245-4e01-819d-c3746f553d95
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ U moet de volgende toegang hebben.
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
    <td><p>Nieuw: Standaard</p> 
-   <p>Huidig:Plan </p> </td> 
+   <p>Huidig: Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
@@ -81,9 +81,14 @@ De volgende items worden nooit van een bestaande sjabloon naar een nieuwe gekopi
 1. Klik het **Meer** menu ![ Meer pictogram ](assets/qs-more-icon-on-an-object.png) aan het recht van de malplaatjenaam in de kopbal, dan klik **Exemplaar**.
 
    Het **vakje van het Malplaatje van het Exemplaar** opent.
+
+   <!--![Copy template box](assets/copy-template-box.png)-->
+
 1. Specificeer een naam voor het malplaatje op het **Nieuwe gebied van de Naam van het Malplaatje**.
 
    Standaard is de nieuwe naam `Copy of Original template name` .
 
-1. Selecteer of u gebruikerstaken op taken en malplaatje **wilt behouden: selecteer deze optie om alle taak en malplaatjetaken van het originele malplaatje aan het nieuwe malplaatje te dragen.**
+1. Selecteer **gebruikerstaken van het Behouden op taken en malplaatje** optie, als u alle taak en malplaatjetoewijzingen van het originele malplaatje aan het nieuwe malplaatje wilt dragen. De taaktoewijzingen van het malplaatje, en de Eigenaar en Sponsor van het Malplaatje worden overgebracht naar het gekopieerde malplaatje.
 1. Klik **sparen** om een exemplaar van het malplaatje tot stand te brengen.
+
+   De nieuwe sjabloon wordt weergegeven in de sjabloonlijst in het gedeelte Sjabloon van Workfront.

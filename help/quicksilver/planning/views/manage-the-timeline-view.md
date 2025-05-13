@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
+source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
 workflow-type: tm+mt
-source-wordcount: '2878'
+source-wordcount: '2946'
 ht-degree: 0%
 
 ---
@@ -151,7 +151,7 @@ Een tijdlijnweergave beheren:
 
 1. Ga als volgt te werk om snel records te zoeken die overeenkomen met een trefwoord:
 
-   1. Klik het **pictogram van het Onderzoek ![ pictogram van het 1&rbrace; Onderzoek ](assets/search-icon.png) en begin een sleutelwoord verbonden aan om het even welk gebied van een verslag te typen dat op het scherm toont.** Het aantal juiste overeenkomsten wordt weergegeven naast het zoekitem en de record met de juiste overeenkomst wordt gemarkeerd.
+   1. Klik het **pictogram van het Onderzoek ![ pictogram van het 1} Onderzoek ](assets/search-icon.png) en begin een sleutelwoord verbonden aan om het even welk gebied van een verslag te typen dat op het scherm toont.** Het aantal juiste overeenkomsten wordt weergegeven naast het zoekitem en de record met de juiste overeenkomst wordt gemarkeerd.
 
       ![ vakje van het Onderzoek en de mening van de resultaatchronologie ](assets/search-box-and-results-timeline-view.png)
 
@@ -171,7 +171,7 @@ Een tijdlijnweergave beheren:
 
 1. (Facultatief) klik **Uitsplitsing** om verbonden verslagen op de chronologie te tonen.
 
-   Voor informatie, zie de sectie [ Gebruik de eigenschap van de Onderbreking om verbonden verslagen in de chronologiemening te tonen ](#break-down-connected-records-in-the-timeline-view)
+   Voor informatie, zie het sectie [ Gebruik de eigenschap van de Onderverdeling aan vertoning verbonden verslagen in de chronologiemening ](#break-down-connected-records-in-the-timeline-view) in dit artikel.
 
 ### Filters toevoegen
 
@@ -266,15 +266,22 @@ Werk de instellingen van de tijdlijnweergave bij om aan te geven wat en hoe info
 
 1. Creeer een chronologiemening voor een verslagtype, zoals die in artikel [ wordt beschreven beheer verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md).
 1. Klik **Montages**.
-1. Klik **Datum en tijd** in het linkerpaneel, dan de datum van het a **Begin** en een **einddatum** om op de chronologie te tonen. U kunt de standaardbegin- en einddatum kiezen of een datumveld kiezen dat beschikbaar is. De balken die de records weergeven, beginnen op de datum die u aangeeft voor de begindatum en eindigen op de datum die overeenkomt met de einddatum.
+1. Klik **Datum en tijd** in het linkerpaneel, dan de datum van het a **Begin** en een **einddatum** om op de chronologie te tonen. U kunt de standaardbegin- en einddatum kiezen of een datumveld kiezen dat beschikbaar is.
+
+   De balken die de records weergeven, beginnen op de datum die u aangeeft voor de begindatum en eindigen op de datum die overeenkomt met de einddatum.
 
    >[!NOTE]
    >
-   >Records die geen waarden hebben voor de begin- of einddatum of die later een begindatum hebben dan de einddatum, worden niet weergegeven in de tijdlijnweergave.
+   >* Records die geen waarden hebben voor de begin- of einddatum of die later een begindatum hebben dan de einddatum, worden niet weergegeven in de tijdlijnweergave.
+   >
+   >* Als u aanvullende records weergeeft met de optie Indeling, zijn de begin- en einddatums die van de hoofdrecord. U kunt geen begin- en einddatums kiezen voor de verbonden records in dit gebied.
 
 1. Klik **stijl van de Bar** in het linkerpaneel, om te wijzen op welke informatie u op de verslagbars wilt tonen.
 
-   Het primaire veld (of de titel) van de record, zoals gedefinieerd in de tabelweergave van de record, wordt standaard geselecteerd. <!--adjust this when the primary field is released??-->
+   <!--<span class="preview">You can define the bar style of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>-->
+
+   Het primaire veld (of de titel) van de record, zoals gedefinieerd in de tabelweergave van de record, wordt standaard geselecteerd.
+   <!--adjust this when the primary field is released??-->
 
 1. (Optioneel en voorwaardelijk) Als u miniaturen aan records hebt toegevoegd, selecteert u de optie Miniatuur om de afbeelding weer te geven die aan records is gekoppeld in de recordbalk.
 
@@ -306,10 +313,13 @@ Werk de instellingen van de tijdlijnweergave bij om aan te geven wat en hoe info
    >
    >* <span class="preview"> als u onderaan de chronologiemening aan vertonings verbonden voorwerpen opsplitst, is de Truncate bar details het plaatsen slechts op het belangrijkste verslagtype van toepassing. Het is niet op de verbonden verslagbars van toepassing.</span>
 
+   <!--take out the last bullet in the Tip above when we release the additional records in breakdown formatting-->
 
 1. Klik **Kleur** in het linkerpaneel, om de kleuren van de verslagen en de groeperingen in de chronologie aan te passen.
 
    ![ het lusje van de Kleur chronologiemening ](assets/color-tab-timeline-view.png)
+
+   <!--<span class="preview">You can define the color of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>-->
 
 1. (Voorwaardelijk en facultatief) als u een groepering aan de chronologiemening toevoegde, selecteer van de volgende opties om een kleur voor de groepering in de **Vastgestelde groeperingskleur** sectie te plaatsen:
 
@@ -348,9 +358,13 @@ Werk de instellingen van de tijdlijnweergave bij om aan te geven wat en hoe info
 
    Als u geen veld hebt met kleurgecodeerde opties voor het geselecteerde recordtype, wordt deze optie grijs weergegeven.
 
+   <!--1. <span class="preview">(Optional) If you are using the Breakdown option, repeat the steps starting with step 4 for each connected record displayed in the timeline. </span>-->
+
 1. Klik **sparen**.
 
    De records worden in de tijdlijnweergave weergegeven met de specificaties die u hebt geselecteerd.
+
+
 
 ### Verbonden records in de tijdlijnweergave opsplitsen
 
@@ -359,6 +373,7 @@ U kunt verbonden verslagen in de chronologiemening van een verslag tonen door de
 #### Overwegingen bij het gebruik van de functie Onderverdeling
 
 * U kunt verbonden records of objecten weergeven onder de records van het geselecteerde recordtype in de tijdlijnweergave.
+* U kunt verbonden verslagen in de chronologiemening slechts tonen wanneer het bekijken van de verslagen op Standaardwijze. U kunt de optie Onderverdeling niet gebruiken in de compacte modus van de tijdlijnweergave.
 * U kunt het volgende weergeven in de tijdlijnweergave met de functie Onderverdeling:
    * Workfront Planning records die zijn verbonden met het geselecteerde recordtype.
    * Workfront-objecttypen of Experience Manager-elementen die zijn verbonden met het geselecteerde recordtype.

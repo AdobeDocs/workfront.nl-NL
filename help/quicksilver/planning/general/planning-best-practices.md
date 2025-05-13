@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+exl-id: 6e039b80-e3bf-412c-8c86-8f801f5861e3
+source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
 workflow-type: tm+mt
-source-wordcount: '3225'
+source-wordcount: '3188'
 ht-degree: 0%
 
 ---
-
 
 <!--drafted because Kari Woolf will write something for Field Readiness instead, nothing for ExL, public-facing documentation-->
 
@@ -35,8 +35,8 @@ Hieronder volgen een aantal veelgestelde vragen over het configureren van Workfr
 
 #### Hoe moet ik beginnen?
 
-* ✅ Wanneer u zich voor het eerst bij Planning aanmeldt, volgt u ons in-app onboarding-proces dat duidelijk de waarde van Planning aangeeft en u begeleidt bij het effectief navigeren en gebruiken van het product. Dit zorgt ervoor dat u de mogelijkheden van het programma begrijpt en hoe u eenvoudig met uw werk kunt beginnen.
-* ✅ door onze vooraf gedefinieerde werkruimtesjablonen te verkennen voor ideeën over bestaande, vergelijkbare gebruiksgevallen. U kunt de vooraf gedefinieerde recordtypen en -velden gebruiken die in een sjabloon voorkomen, of u kunt uw eigen recordtypen toevoegen.
+* ✅ Wanneer u zich voor het eerst aanmeldt bij Planning, volgt u ons in-app instapproces dat duidelijk de waarde van Planning aangeeft en u begeleidt bij het effectief navigeren en gebruiken van het product. Dit zorgt ervoor dat u de mogelijkheden van het programma begrijpt en hoe u eenvoudig met uw werk kunt beginnen.
+* ✅ Begin door onze vooraf bepaalde werkruimtemalplaatjes voor ideeën van bestaande gelijkaardige gebruiksgevallen te onderzoeken. U kunt de vooraf gedefinieerde recordtypen en -velden gebruiken die in een sjabloon voorkomen, of u kunt uw eigen recordtypen toevoegen.
 * ✅ Identificeer de belangrijkste gebruiksgevallen u met de Planning van Workfront wilt oplossen. De meeste organisaties willen bijvoorbeeld de zichtbaarheid van strategische activiteiten verbeteren, zoals het bouwen van een betere ‘Campagne Calendar’. Dus, voor die gebruikscase, zou u willen beginnen door een paar vragen te beantwoorden:
 
    * Wie vraagt er om?
@@ -50,14 +50,14 @@ Campagnes? Tactiek? Initiatieven? Activiteiten? Gebeurtenissen?
 
   Overweeg ook dat er wellicht andere planners zijn die momenteel geen Workfront-gebruikers zijn. Deze planners kunnen werken vanuit Excel-werkbladen, Word Docs, PowerPoints enzovoort. Bedenk hoe zij tot uw informatie in de Planning van Workfront kunnen toegang hebben.
 
-* ✅ om volledig voordeel van de Planning van Workfront te halen, overweeg het gebruik van Portfolio&#39;s en Programma&#39;s in de Werkschema van Workfront met één of andere andere bovengrens structuur in de Planning van Workfront te vervangen.
+* ✅ Als u ten volle wilt profiteren van de Workfront-planning, kunt u het gebruik van portfolio&#39;s en programma&#39;s in de Workfront-workflow vervangen door een andere structuur op het bovenste niveau in de Workfront-planning.
 
   Tegenwoordig vertegenwoordigen Workfront-klanten hun strategische werk via portfolio&#39;s en programma&#39;s, in sommige gevallen als projecten van verschillende typen. Met de introductie van Planning, zou al dergelijk strategisch werk door types van douaneverslag in de Planning van Workfront moeten worden behandeld, terwijl Workfront rond de uitvoeringsfase van het werk zal worden gericht die als projecten en taken wordt vertegenwoordigd.
 
 
 #### Wanneer moet ik een nieuwe werkruimte maken in plaats van een bestaande werkruimte te wijzigen?
 
-* ✅ ontwerp voor het laagste volume van organisatie-vlakke werkruimten. U kunt werkruimten maken voor specifieke operationele organisatie-eenheden, zodat deze overeenkomen met de unieke manier waarop elke eenheid werkt.
+* ✅ Ontwerpen voor het laagste volume van werkruimten op organisatieniveau. U kunt werkruimten maken voor specifieke operationele organisatie-eenheden, zodat deze overeenkomen met de unieke manier waarop elke eenheid werkt.
 
   Het hebben van de informatie in één enkele Workspace, om ervoor te zorgen dat de verhoudingen tussen alle gegevens gemakkelijk kunnen worden beheerd.
 
@@ -75,10 +75,10 @@ Campagnes? Tactiek? Initiatieven? Activiteiten? Gebeurtenissen?
 
 #### Hoe moet ik Workspace-secties gebruiken?
 
-* ✅ secties maken en labelen om uw gebruikers te helpen begrijpen hoe u uw operationele levenscyclus organiseert.
+* ✅ Maak en geef secties een label zodat uw gebruikers begrijpen hoe u uw operationele levenscyclus ordent.
 
   Bijvoorbeeld, zou u een sectie kunnen tot stand brengen genoemd **verslagen van de Kern** waar u uw Campagnes, Tactics, en Geleveringen in uw werkruimte plaatst.
-* ✅ Groepeer &quot;als&quot;recordtypes samen.
+* ✅ Groepeer &#39;soortgelijke&#39; recordtypen.
 
   Bijvoorbeeld, zou u een sectie genoemd **Geografische plaatsen** kunnen tot stand brengen die verslagtypes zoals bevat: Gebied, Land, en Stad.
 
@@ -89,10 +89,10 @@ Recordtypen zijn de bouwstenen van een Workfront Planning Workspace. U kunt defi
 
 #### Hoe moet ik recordtypen in mijn werkruimte definiëren?
 
-* ✅ Neem wat tijd om te identificeren welke informatie u moet volgen (welke recordtypes ik nodig heb) en hoe deze informatie moet worden verbonden. Bespreek met de belanghebbenden die de werkruimte zullen gebruiken om al hun behoeften te overwegen. U kunt ook aangepaste secties met verschillende recordtypen maken om de informatie op een zeer consumente manier weer te geven.
+* ✅ Neem even de tijd om te bepalen welke informatie u moet bijhouden (welke recordtypen ik nodig heb) en hoe deze informatie moet worden verbonden. Bespreek met de belanghebbenden die de werkruimte zullen gebruiken om al hun behoeften te overwegen. U kunt ook aangepaste secties met verschillende recordtypen maken om de informatie op een zeer consumente manier weer te geven.
 
 
-* ⛔ dubbel geen recordtypes voor een verschillende periode (bijvoorbeeld, creeer geen afzonderlijke verslagtypes voor **Campagnes 2024** en **Campagnes 2025**).
+* ⛔ dupliceer geen recordtypes voor een verschillende periode (bijvoorbeeld, creeer geen afzonderlijke verslagtypes voor **Campagnes 2024** en **Campagnes 2025**).
 
   Wanneer u verschillende recordtypen maakt, wordt de gegevensstroom verbroken wanneer u gegevens over meerdere jaren wilt vergelijken. De huidige weergaven zijn per recordtype, dus zodra het jaar afloopt, worden de toekomstige items niet meer weergegeven in de weergave van dat recordtype. De beste praktijken moeten één verslagtype voor het type van werk hebben en de gegevens verdelen gebruikend filters of het archiveren van het, indien nodig.
 
@@ -102,16 +102,16 @@ Recordtypen zijn de bouwstenen van een Workfront Planning Workspace. U kunt defi
 
   Een campagne kan bijvoorbeeld een verbinding hebben met meerdere doelsoorten en een Tactic kan verbinding hebben met één doelpubliek. Daarom zouden de Campagne, de Tactiek, en het Publiek verslagtypes eerder dan multi-uitgezochte gebieden moeten zijn.
 
-* ✅ Een nieuw recordtype toevoegen als het object aanvullende waarden voor metagegevens moet opslaan die nuttig kunnen zijn in zoekopdrachten
+* ✅ Voeg een nieuw recordtype toe als het object aanvullende waarden voor metagegevens moet opslaan die nuttig kunnen zijn in zoekopdrachten
 
   Bijvoorbeeld, kan een type van het kanaalverslag zoals **E-mail** een lijst opslaan van het steunen van te leveren voorwerpen, of als inheemse meta-gegevens, of als verbinding aan een standalone **levert** verslagtype.
-* ⛔ voeg geen nieuw recordtype toe als de gegevens u opslaat slechts relevant voor één enkel verslagtype is.
+* ⛔ Voeg geen nieuw recordtype toe als de gegevens die u opslaat slechts relevant zijn voor één recordtype.
 
-  Bijvoorbeeld, kan het 1&rbrace; verslagtype van de Campagne van de a **&lbrace;een enig-uitgezocht gebied genoemd** Grootte van de Campagne **hebben die slechts relevant wanneer direct verbonden met een specifieke campagne is.**
+  Bijvoorbeeld, kan het 1} verslagtype van de Campagne van de a **{een enig-uitgezocht gebied genoemd** Grootte van de Campagne **hebben die slechts relevant wanneer direct verbonden met een specifieke campagne is.**
 
 #### Hoe moet ik mijn recordtypen labelen?
 
-* ✅ creeer en etiketteer verslagtypes die één enkele constructie of zelfstandig naamwoord, zoals **Campagnes** vertegenwoordigen.
+* ✅ creeer en etiketrecordtypes die één enkele constructie of zelfstandig naamwoord, zoals **Campagnes** vertegenwoordigen.
 * ⛔ Maak geen recordtype dat beter wordt weergegeven als een weergave.
 
   Bijvoorbeeld, **Kalender** is een slechte keus voor een verslagtype, omdat het niet het verslagtype zelf, maar een mening van verslagen is.
@@ -124,18 +124,18 @@ Velden zijn kenmerken van recordtypen en worden als kolommen weergegeven in de t
 #### Welk veld wordt aanbevolen als Primair veld te definiëren?
 
 
-* ✅ Gebruik unieke primaire veldwaarden om het gemakkelijker te maken om die records te vinden en te selecteren wanneer u verbindingen maakt. 
+* ✅ Gebruik geen unieke primaire veldwaarden om het gemakkelijker te maken die records te vinden en te kiezen wanneer u verbindingen maakt. 
 
   Wanneer gebruikers een verbinding maken, zoeken ze naar de waarden in het veld Primair en als ze niet uniek zijn, weten ze niet welke waarden ze moeten kiezen. 
 * ⛔ Gebruik geen niet-unieke waarden als primair veld, omdat dit tot verwarring kan leiden voor gebruikers die in het primaire veld moeten zoeken wanneer ze het menu van de kiezer voor verbindingen gebruiken. 
 
 #### Hoe moet ik formules gebruiken?
 
-* ✅ Gebruik Formule-veldtypen om handmatige invoer te verminderen. Wanneer u informatie invoert die op gegevens wordt gebaseerd die reeds in uw lijstmening is, kunt u wat inspanning kunnen besparen door die informatie automatisch te berekenen gebruikend formules.
+* ✅ Gebruik geen Formule-veldtypen om handmatige invoer te verminderen. Wanneer u informatie invoert die op gegevens wordt gebaseerd die reeds in uw lijstmening is, kunt u wat inspanning kunnen besparen door die informatie automatisch te berekenen gebruikend formules.
 
 #### Hoe moet ik beginnen met het verbinden van de gegevens in mijn werkruimte?
 
-* ✅ het Creëren van verbindingen is één van de krachtigste eigenschappen van de Planning van Workfront. U kunt recordtypen met elkaar verbinden of typen opnemen met objecttypen vanuit andere toepassingen, zoals Adobe Workfront (verbinding met projecten, Portfolio&#39;s, programma&#39;s, bedrijven en groepen) en met Adobe Experience Manager Assets (verbinding met elementen en mappen).
+* ✅ Verbindingen maken is een van de krachtigste functies van Workfront Planning. U kunt recordtypen met elkaar verbinden of typen opnemen met objecttypen vanuit andere toepassingen, zoals Adobe Workfront (verbinding met projecten, portfolio&#39;s, programma&#39;s, bedrijven en groepen) en met Adobe Experience Manager Assets (verbinding met elementen en mappen).
 
   Het verbinden van voorwerp en verslagtypes geeft u een volledig overzicht van hoe alles in uw bedrijf wordt verbonden.
 
@@ -145,13 +145,13 @@ Velden zijn kenmerken van recordtypen en worden als kolommen weergegeven in de t
 
 #### Hoe moet ik opzoekvelden gebruiken?
 
-* ✅ Nadat u de verbinding tussen records of objecttypen tot stand hebt gebracht, kunt u afzonderlijke records met elkaar verbinden en velden van de gekoppelde record- of objecttypen in een Workfront-planningsrecord weergeven. U vermindert het aantal plaatsen u het zelfde stuk van informatie moet bijwerken, en verzekert zij perfect aanpassen.
+* ✅ Nadat u de verbinding tussen records of objecttypen tot stand hebt gebracht, kunt u afzonderlijke records met elkaar verbinden en velden van de gekoppelde record of objecttypen in een Workfront-planningsrecord weergeven. U vermindert het aantal plaatsen u het zelfde stuk van informatie moet bijwerken, en verzekert zij perfect aanpassen.
 
   Bijvoorbeeld, zodra u een verbinding tussen a **Campagne** verslagtype en a **Tactics** verslagtype hebt, zult u de primaire gebiedsinformatie zien, maar wanneer u raadplegingsgebieden toevoegt, zult u extra informatie van dat verslagtype, als de **datum van de Lancering** voor dat **Tactische** kunnen brengen. De gegevens voor deze opzoekvelden worden automatisch ingevuld nadat de records zijn toegevoegd.
 
 #### Welk veldtype wordt aanbevolen voor URL&#39;s? 
 
-* ✅ Gebruik wel een tekstveld met één regel om URL-gegevens toe te voegen aan een record.
+* ✅ Gebruik wel een tekstveld met één regel om een URL-gegevens toe te voegen aan een record.
 
 ### Weergaven
 
@@ -169,9 +169,9 @@ Velden zijn kenmerken van recordtypen en worden als kolommen weergegeven in de t
 
 #### Hoe moet ik filters en groepen in de tabel- en tijdlijnweergaven gebruiken?
 
-* ✅ de meningen van het Gebruik met filters en groepen om een momentopname van te tonen wat u moet zien. U kunt de gegevens filteren en groeperen om een meer verbruikbare manier te hebben om te begrijpen wat gepland is. U kunt de records groeperen op metagegevensvelden.
+* ✅ Gebruik weergaven met filters en groepen om een momentopname weer te geven van wat u nodig hebt om te zien. U kunt de gegevens filteren en groeperen om een meer verbruikbare manier te hebben om te begrijpen wat gepland is. U kunt de records groeperen op metagegevensvelden.
 
-  Bijvoorbeeld, kunt u een chronologiemening voor uw **1&rbrace; verslagtype van de Campagne hebben &lbrace;dat u door** Soorten van het Doel **kunt groeperen en het door** Datum **filtreren om slechts het huidige jaar te tonen.**
+  Bijvoorbeeld, kunt u een chronologiemening voor uw **1} verslagtype van de Campagne hebben {dat u door** Soorten van het Doel **kunt groeperen en het door** Datum **filtreren om slechts het huidige jaar te tonen.**
 
 #### Waarom zie ik niet alle records in mijn tijdlijnweergave?
 
@@ -179,7 +179,7 @@ Velden zijn kenmerken van recordtypen en worden als kolommen weergegeven in de t
 
 #### Hoe moet ik de tijdlijnweergave-instellingen gebruiken?
 
-* ✅ bepalen de montages van uw chronologiemening, als de **stijl van de Bar** en de **Kleur** om een visueel verrijkende mening te krijgen. U kunt de **stijl van de Bar** aanpassen door te bepalen of u een duimnagel met een zinvol beeld wilt zien en meer gebieden aan vertoning op de bar (bijvoorbeeld, **Eigenaar** of **Status**) toevoegen.
+* ✅ bepaal de montages van uw chronologiemening, als de **stijl van de Bar** en de **Kleur** om een visueel het verrijken mening te krijgen. U kunt de **stijl van de Bar** aanpassen door te bepalen of u een duimnagel met een zinvol beeld wilt zien en meer gebieden aan vertoning op de bar (bijvoorbeeld, **Eigenaar** of **Status**) toevoegen.
 
   Standaard wordt alleen het primaire veld weergegeven. U kunt de kleur van de balk ook definiëren op basis van veldwaarden (u kunt bijvoorbeeld de kleuren van de balken aanpassen door deze aan te passen aan het veld Status) of door de groep die u hebt toegepast. Standaard komt de kleur overeen met de kleur van het recordtype.
 
@@ -196,22 +196,29 @@ Gebruik de functie voor delen om werknemers de juiste machtigingen te geven voor
   U kunt uit de volgende toestemmingsniveaus kiezen:
 
    * **leidt**: De mensen kunnen de werkruimte uitgeven, schrappen en delen.
-   * **Contribute**: De mensen kunnen verslagen tot stand brengen, uitgeven en schrappen.
+   * **draag** bij: De mensen kunnen verslagen tot stand brengen, uitgeven en schrappen.
    * **Mening**: De mensen kunnen verslagen bekijken.
 
-* ✅ hoewel vele klanten voelen alsof zij **&#x200B;**&#x200B;toestemmingen aan werkruimten aan de meeste mensen zouden verlenen, beperkt **&#x200B;**&#x200B;toestemmingen beheren tot een uitgezochte groep vertrouwde op mensen die niet per ongeluk een verslagtype zullen schrappen of anders onnodige verslagtypes en gebieden creëren. Ze kunnen de werkruimte bewerken, delen en zelfs verwijderen. Dit machtigingsniveau verleent hun volledige administratieve toegang tot de Workspace.
+* ✅ Hoewel vele klanten voelen alsof zij **** toestemmingen aan werkruimten aan de meeste mensen zouden verlenen, beperkt **** toestemmingen beheren {tot een uitgezochte groep vertrouwde op mensen die niet per ongeluk een verslagtype zullen schrappen of anders onnodige verslagtypes en gebieden creëren. Ze kunnen de werkruimte bewerken, delen en zelfs verwijderen. Dit machtigingsniveau verleent hun volledige administratieve toegang tot de Workspace.
 
   Een standaardgebruikerslicentie is vereist voor iemand die beheerdersmachtigingen voor een werkruimte heeft.
 
-* ✅ geef gebruikers **Contribute** toestemmingen als u hen wilt enkel verslagen tot stand brengen, uitgeven en schrappen, maar u wilt hen niet de structuur, en het schema van de werkruimte veranderen. Met **Contribute** toestemmingen, kunnen zij verslagtypes niet tot stand brengen of de gebieden op de bestaande verslagtypes veranderen.
+* ✅ geef gebruikers **Contribute** toestemmingen als u hen wilt enkel verslagen tot stand brengen, uitgeven en schrappen, maar u wilt hen niet de structuur, en het schema van de werkruimte veranderen. Met **draag** toestemmingen bij, kunnen zij verslagtypes niet tot stand brengen of de gebieden op de bestaande verslagtypes veranderen.
 
-  Een Standaard gebruikersvergunning wordt vereist voor iemand om **Contribute** toestemmingen aan een werkruimte te hebben.
+  Een Standaard gebruikersvergunning wordt vereist voor iemand om **te hebben** toestemmingen bijdragen aan een werkruimte.
 
-* ✅ geef gebruikers **toestemmingen van de Mening**, als u hen enkel records wilt bekijken.
+* ✅ geef gebruikers {de toestemmingen van de Mening ****, als u hen enkel records wilt bekijken.
 
   >[!NOTE]
   >
   >Op dit ogenblik, hebben wij geen specifieke toestemmingen voor verslagtypes of verslagen, zodat betekent dit dat alle verslagen in om het even welke verslagtypes zichtbaar zijn als u iemand **toegang van de Mening** tot de werkruimte verleent.
+
+<!--
+#### How should I manage permissions to record types?
+
+* ✅ Remember that users with Manage permissions to workspaces cannot have their permissions lowered for the record type. They will also inherit Manage permissions to the record type. You cannot give a user Manage permissions on the workspace but Contribute or View permissions on the record type. 
+* ✅ If you want users to have a lower permission level (for example, View permissions) for the record type than they have for the workspace, we recommend giving them Contribute permissions to the workspace. You can then, give them View permissions to the record type. 
+-->
 
 #### Hoe zou ik toestemmingen aan meningen moeten beheren?
 
@@ -219,7 +226,7 @@ Gebruik de functie voor delen om werknemers de juiste machtigingen te geven voor
 
   Een standaardgebruikerslicentie is vereist voor iemand die beheerdersmachtigingen voor een weergave heeft.
 
-* ✅ geef gebruikers **toegang van de Mening** om de mening toe te passen. Ze kunnen enkele filters of groepen wijzigen en sorteren, maar deze wijzigingen zijn slechts tijdelijk. De wijzigingen worden niet opgeslagen voor alle andere gebruikers die toegang krijgen tot de weergave. Deze wijzigingen hebben geen invloed op de hoofdconfiguratie van de weergave voor alle anderen die ook de weergave gebruiken.  De wijzigingen zijn alleen zichtbaar voor de gebruiker die de gewijzigde instellingen toepast. Nadat u het scherm hebt vernieuwd, worden de wijzigingen opnieuw ingesteld op de standaardwaarde.
+* ✅ geef gebruikers **Mening** toegang om de mening toe te passen. Ze kunnen enkele filters of groepen wijzigen en sorteren, maar deze wijzigingen zijn slechts tijdelijk. De wijzigingen worden niet opgeslagen voor alle andere gebruikers die toegang krijgen tot de weergave. Deze wijzigingen hebben geen invloed op de hoofdconfiguratie van de weergave voor alle anderen die ook de weergave gebruiken.  De wijzigingen zijn alleen zichtbaar voor de gebruiker die de gewijzigde instellingen toepast. Nadat u het scherm hebt vernieuwd, worden de wijzigingen opnieuw ingesteld op de standaardwaarde.
 
 * ✅ geef **iedereen in de werkruimte** toestemmingen bekijken wanneer u iedereen wilt die de werkruimte kan bekijken om de verslagen en hun gebieden in die specifieke mening te zien. Op deze manier hoeft u niemand handmatig toe te voegen aan het vak voor gedeelde bevoegdheden voor de weergave.
 
@@ -236,9 +243,9 @@ Gebruik de functie voor delen om werknemers de juiste machtigingen te geven voor
 
 #### Hoe beïnvloeden Workfront-licentietypen de Workfront Planning-machtigingen?
 
-* Voor **het delen van Workspace**: De lichte en de vergunningsgebruikers van Contribute kunnen de toegang van de Mening tot een werkruimte slechts krijgen. Als u iemand Contribute of Manage toestemming wilt geven aan een werkruimte, hebt u een standaardlicentie nodig.
+* Voor **het delen van Workspace**: De lichte en Contribute vergunningsgebruikers kunnen de toegang van de Mening tot een werkruimte slechts krijgen. Als u iemand Contribute of Manage toestemming wilt geven aan een werkruimte, hebt u een standaardlicentie nodig.
 
-* **Weergaven die** delen: De standaardvergunningsgebruikers die toestemmingen leiden aan een werkruimte zullen kunnen tot een mening leiden. Gebruikers met een Light- en Contribute-licentie kunnen alleen gebruikmaken van de weergaven die gebruikers met Standard hebben gemaakt en met hen hebben gedeeld. Anders, als niets is gedeeld, zullen de gebruikers de **StandaardMening van de Lijst** kunnen zien.
+* **Weergaven die** delen: De standaardvergunningsgebruikers die toestemmingen leiden aan een werkruimte zullen kunnen tot een mening leiden. Gebruikers met een licentie voor licht en Contribute kunnen alleen gebruikmaken van de weergaven die gebruikers met Standaard hebben gemaakt en met hen hebben gedeeld. Anders, als niets is gedeeld, zullen de gebruikers de **StandaardMening van de Lijst** kunnen zien.
 
 
 #### Wat moet ik doen als een Workspace-eigenaar verandert?
@@ -263,19 +270,19 @@ U kunt voor elk recordtype een aanvraagformulier maken wanneer u wilt dat gebrui
 
 #### Hoe moet ik een aanvraagformulier voor een recordtype maken of bewerken?
 
-* ✅ Om het even welke gebruiker met Manage toegang tot de werkruimte kan de stappen volgen die in artikel [ worden beschreven creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
+* ✅ Om het even welke gebruiker met Manage toegang tot de werkruimte kan de stappen volgen die in artikel [ worden beschreven creeert en beheert een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 #### Wie kan nieuwe records verzenden met behulp van het aanvraagformulier?
 
-* ✅ verzendmachtigingen zijn afhankelijk van de instellingen die u voor elk formulier configureert.
+* ✅ Verzendmachtigingen zijn afhankelijk van de instellingen die u voor elk formulier configureert.
 
   Nadat u het formulier hebt gepubliceerd in de formulierbuilder, kunt u machtigingen beheren om te bepalen wie aanvragen kan verzenden.
 
   U kunt uit de volgende drie opties voor delen kiezen:
 
    * **Iedereen met mening of hogere toegang tot de werkruimte:** staat alle gebruikers met Mening of hogere toestemmingen aan de werkruimte toe kan een verzoek indienen dat tot een verslag leidt.
-   * **iedereen met bijdraagt of hogere toegang tot de werkruimte**: Beperkt voorlegging tot gebruikers met Contribute of hogere toestemmingen aan de werkruimte.
+   * **iedereen met bijdraagt of hogere toegang tot de werkruimte**: Beperkt bijdragen tot gebruikers met Contribute of hogere toestemmingen aan de werkruimte.
    * **Iedereen met de verbinding:** laat iedereen toe die de vormverbinding heeft om een verzoek voor te leggen.
    * **Vervaldatum:** verzeker u een vervaldatum voor de openbare verbinding plaatst om veiligheid te verbeteren.
 
@@ -342,10 +349,10 @@ Here is a summary of how you can define the data flow within Workfront Planning 
 
 * **Planning (or Connections) tab** **in Workfront _-[ [E] Global Connect capability in Planning connections area](https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/6617d7760001e250f5ffb9ebf04baacc/overview?source-id=unifiedShareMFE)_** 
 
-    When you go to the Planning section of Adobe Workfront objects, you can display both connections with linked records or any available connections with Planning record types. With that, you can view and edit any connection field without having to navigate away from the current section in Workfront to other areas. The Planning section is available for the following Workfront objects: Project, Portfolio and Program. For more information, see [Manage records in the Planning section of Adobe Workfront objects](https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/manage-records-in-planning-section).   
+    When you go to the Planning section of Adobe Workfront objects, you can display both connections with linked records or any available connections with Planning record types. With that, you can view and edit any connection field without having to navigate away from the current section in Workfront to other areas. The Planning section is available for the following Workfront objects: Project, Portfolio and Program. For more information, see [Manage records in the Planning section of Adobe Workfront objects](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/manage-records-in-planning-section).   
 
 
-* Create new records within the connection fields - In-context creation of connected records https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/6656c1a30026b903c6edf0210b8cbb23/overview?source-id=unifiedShareMFE  When you need to link records through a connection field but cannot find the required records in the connected record type, you can also create new records in the connected record type directly within the connection fields, with that you can efficiently establish necessary links without having to leave the current record type context. For more information, see Create records https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/create-records.   
+* Create new records within the connection fields - In-context creation of connected records https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/6656c1a30026b903c6edf0210b8cbb23/overview?source-id=unifiedShareMFE  When you need to link records through a connection field but cannot find the required records in the connected record type, you can also create new records in the connected record type directly within the connection fields, with that you can efficiently establish necessary links without having to leave the current record type context. For more information, see Create records https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/create-records.   
 
      
 
@@ -353,7 +360,7 @@ Here is a summary of how you can define the data flow within Workfront Planning 
 
      
 
-* **Connection between Workspaces with Record types accessible from multiple workspaces** – ~~Epic – "[Connect to record types across workspaces](https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/64dfad3100027190324dcc35b2176e76/overview?source-id=unifiedShareMFE)"~~ When you are creating a workspace in Planning, you can define certain record types once and then configure them to be accessible from multiple workspaces so you can create connections with them from anywhere. This way, you can streamline the data management process, eliminate duplicative work, and ensure data consistency across teams. As a result, your teams can tag their records with common taxonomies and unlock better visualization, filtering, grouping, and reporting of cross-team work.  For more information, see [Edit record types](https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-architecture/edit-record-types). 
+* **Connection between Workspaces with Record types accessible from multiple workspaces** – ~~Epic – "[Connect to record types across workspaces](https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/64dfad3100027190324dcc35b2176e76/overview?source-id=unifiedShareMFE)"~~ When you are creating a workspace in Planning, you can define certain record types once and then configure them to be accessible from multiple workspaces so you can create connections with them from anywhere. This way, you can streamline the data management process, eliminate duplicative work, and ensure data consistency across teams. As a result, your teams can tag their records with common taxonomies and unlock better visualization, filtering, grouping, and reporting of cross-team work.  For more information, see [Edit record types](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-architecture/edit-record-types). 
 
      
 

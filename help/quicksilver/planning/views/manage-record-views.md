@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
+source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: '1508'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ In dit artikel wordt de volgende informatie over recordweergaven beschreven:
 
 * [ creeer en geef een mening ](#create-or-edit-record-views) uit
 * [Een weergave verwijderen](#delete-views)
-* [Een weergave dupliceren](#duplicate-views)
+* [Een weergave dupliceren](#duplicate-a-view)
 * [ laat de aanwezigheidsindicatoren in real time in een mening toe ](#enable-the-real-time-presence-indicator-in-a-view)
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 
@@ -287,7 +287,7 @@ De machtigingen voor delen van de oorspronkelijke weergave worden niet overgedra
    De pagina met recordtypen wordt geopend.
 Standaard worden alle records van het geselecteerde type weergegeven in de tabelweergave.
 
-1. Beweeg over het lusje van de mening u wilt dupliceren, en **klikken Meer** menu ![ ](assets/more-menu.png) rechts van de meningsnaam, dan **&#x200B;**&#x200B;dupliceert.
+1. Beweeg over het lusje van de mening u wilt dupliceren, en **klikken Meer** menu ![ ](assets/more-menu.png) rechts van de meningsnaam, dan **** dupliceert.
 
    ![ Mening meer menu met dubbele optie ](assets/view-more-menu-with-duplicate-option.png)
 
