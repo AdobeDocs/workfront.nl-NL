@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 454877e742420c3bc289adf6b2cb1d692fc4fe95
+source-git-commit: 8e8a10d375e721199c5f81f425178a7bae0bf0c0
 workflow-type: tm+mt
-source-wordcount: '2355'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Deze pagina bevat een overzicht van de interface-updates die we in Adobe Workfro
 >
 >In de meeste gevallen, wordt elke update eerst vrijgegeven aan het milieu van de Voorproef, dan incrementeel toegelaten in de milieu van de Productie voor een groeiende ondergroep klanten die op de vermelde de versiedatum van de Productie begint.
 
-Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product [&#128279;](/help/quicksilver/product-announcements/product-releases/product-releases.md).
+Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product ](/help/quicksilver/product-announcements/product-releases/product-releases.md).[
 
 ## Navigatie en zoeken
 
@@ -44,7 +44,7 @@ We hebben de pagina die u gebruikt, bijgewerkt zodat u ondersteuning kunt bieden
 
 ## Beheer en installatie
 
-+++Breid aan de interfaceupdates van het meningsBeleid en van de Opstelling uit
++++Breid aan de updates van de interface van het Beleid en van de Opstelling uit die in Q2 worden gemaakt
 
 ### Interface-update voor het Aankondigingscentrum
 
@@ -174,7 +174,7 @@ Deze update bevat visuele wijzigingen in het gebied. Er is geen functionaliteit 
 
 ## Agile
 
-+++Vergroten om de updates van de interface van Agile te bekijken
++++ breid uit om de updates van de interface van Agile te bekijken die in Q2 worden gemaakt
 
 ### Interface-updates voor teamverzoeken
 
@@ -244,7 +244,7 @@ Om deze verandering te bekijken, ga naar Teams > kies een team > Achtergrond, da
 
 Het dialoogvenster Delen is bijgewerkt zodat gebruikers documenten kunnen delen met externe gebruikers via een e-mailadres. Deze functionaliteit was tijdelijk niet beschikbaar toe te schrijven aan het werk van de interfacemodernisering.
 
-+++Uitbreiden om meer updates van de documentinterface te bekijken
++++ breid uit om de interfaceupdates van Documenten te bekijken die in Q2 worden gemaakt
 
 ### Interface-updates bij aanvragen van een document
 
@@ -284,17 +284,17 @@ Ga naar Documenten > Klik op het menu Meer naast de naam van het slimme filter >
 
 ## Rapporten en dashboards
 
++++Breid aan meningsRapporten en de interfaceupdates van Dashboards uit die in Q2 worden gemaakt
+
 ### Het bijgewerkte rapport Toegangsniveau met nieuwe opmaak
 
-**de versie van de Voorproef: TBD; De versie van de Productie: Beginnend de week van 6 Februari, 2025**
+**de versie van de Voorproef: 30 Januari, 2024; De versie van de productie: Beginnend de week van 6 Februari, 2025**
 
 We hebben het Access Level-rapport bijgewerkt met een modernere opzet die aansluit bij andere gebieden van Workfront.
 
 Deze update bevat visuele wijzigingen in het rapport. Er is geen functionaliteit gewijzigd.
 
 Als u een teamrapport wilt maken, gaat u naar Rapporten > Nieuw rapport > Toegangsniveau.
-
-+++Breid uit om meer rapporten en de interfaceupdates van Dashboards te bekijken
 
 ### Het bijgewerkte Rapport van het Team met nieuwe het formatteren
 
