@@ -8,9 +8,9 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2fb0c647-bb6d-46d0-a985-6ab820b4a7f2
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 1397702a6b50953e7abcfe491b95aeb8b981df5b
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '879'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      </tr> 
      <tr> 
       <td role="rowheader">Fiatteur niet vereist om op het projectteam (voor goedkeuringsprocessen te zijn die een rol omvatten)</td> 
-      <td> <p>Selecteer dit als een fiatteur niet op het projectteam moet zijn wanneer een goedkeuringsproces een rol omvat. Wanneer het toewijzen van het goedkeuringsbesluit aan een baanrol, slechts zullen de gebruikers die een rol verbonden aan hen op het project hebben de goedkeuring zien. Als u deze het plaatsen toelaat, ontvangt om het even welke gebruiker met die baanrol het goedkeuringsverzoek of zij op het projectteam of niet zijn. Voor informatie over het uitgeven van het projectrol van een gebruiker, zie <a href="../../../manage-work/projects/planning-a-project/manage-project-team.md" class="MCXref xref"> het Team van het Project beheren </a>. </p> 
+      <td> <p>Selecteer dit als een fiatteur niet op het projectteam moet zijn wanneer een goedkeuringsproces een rol omvat. Om het even welke gebruiker met die baanrol ontvangt het goedkeuringsverzoek of zij op het projectteam of niet zijn, hoewel zij niet automatisch toegang tot het project worden verleend. Voor informatie over het uitgeven van het projectrol van een gebruiker, zie <a href="../../../manage-work/projects/planning-a-project/manage-project-team.md" class="MCXref xref"> het Team van het Project beheren </a>. </p> 
       <p><b> TIP </b>: Wanneer u een goedkeuring aan een rol toewijst en de optie <b> fiatteur niet op het projectteam (voor goedkeuringsprocessen moet zijn die een rol omvatten) </b> is gehandicapt, maar er zijn geen rollen in het projectteam die de rol op de goedkeuring aanpassen, wordt de goedkeuring opnieuw toegewezen aan de Eigenaar van het Project. </p> </td> 
      </tr> 
      <tr> 
