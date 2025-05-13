@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: 19e0b792bc49ede0504af479952fdbdf384dc73c
+source-git-commit: e4ff9c9c44c75518e75b14209a18586363cdf4f5
 workflow-type: tm+mt
-source-wordcount: '1275'
+source-wordcount: '1259'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,6 @@ Voor informatie over de eindpunten die voor bevordering of het degraderen van ge
 >De volgende releases zijn van invloed op het versiebeheer van abonnementen voor gebeurtenissen:
 >
 >* **25.2 Versie** (10 April, 2025): Alle nieuwe abonnementen die na de versie 25.2 worden gecreeerd worden gecreeerd als Versie 2.
->* **25.3 Versie** (17 Juli, 2025): De Abonnementen kunnen niet meer aan Versie 1 na de versie 25.3 worden gedowngraded.
 >* **Januari 15, 2026**: Alle resterende versies 1 abonnementen worden gemigreerd aan Versie 2.
 
 ## Wijzigingen tussen versie 1 en versie 2
@@ -256,4 +255,4 @@ De volgende wijzigingen zijn aangebracht voor gebeurtenisabonnementen versie 2:
 
 Workfront Fusion gebruikt gebeurtenisabonnementen om op veranderingen in Workfront te letten om scenario&#39;s teweeg te brengen. U kunt de versie van de gebeurtenisbeschrijving die Fusion direct in een scenario gebruikt bijwerken, gebruikend Workfront > de module van de Versie van de Payload van Gebeurtenissen bijwerken.
 
-Voor instructies bij het gebruiken van deze module, zie [ modules van Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) in de documentatie van de Fusie van Workfront.
+Voor instructies bij het gebruiken van deze module, zie [ modules van Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) in de documentatie van de Fusie van Workfront.
