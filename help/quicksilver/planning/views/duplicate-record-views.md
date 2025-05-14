@@ -114,7 +114,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    De pagina met recordtypen wordt geopend.
 Standaard worden alle records van het geselecteerde type weergegeven in de tabelweergave.
 
-1. Beweeg over het lusje van de mening u wilt dupliceren, en **klikken Meer** menu ![ ](assets/more-menu.png) rechts van de meningsnaam, dan **** dupliceert.
+1. Beweeg over het lusje van de mening u wilt dupliceren, en **klikken Meer** menu ![ ](assets/more-menu.png) rechts van de meningsnaam, dan **&#x200B;**&#x200B;dupliceert.
 
    ![ Mening meer menu op een verslagmening ](assets/view-more-menu-with-duplicate-option.png)
 
