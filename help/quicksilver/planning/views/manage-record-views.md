@@ -1,14 +1,14 @@
 ---
 title: Recordweergaven beheren
-description: U kunt records in een tabel-, tijdlijn- of kalenderweergave weergeven wanneer u Adobe Workfront-planning gebruikt. In dit artikel wordt beschreven hoe u een weergave kunt maken en een bestaande weergave kunt bewerken of verwijderen.
+description: U kunt records in een tabel-, tijdlijn- of kalenderweergave weergeven wanneer u Adobe Workfront-planning gebruikt. In dit artikel wordt beschreven hoe u een weergave kunt maken en een bestaande weergave kunt bewerken.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
+source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
 workflow-type: tm+mt
-source-wordcount: '1508'
+source-wordcount: '1161'
 ht-degree: 0%
 
 ---
@@ -40,10 +40,14 @@ Nadat u een recordtype hebt geselecteerd in het gedeelte Adobe Workfront Plannin
 In dit artikel wordt de volgende informatie over recordweergaven beschreven:
 
 * [ creeer en geef een mening ](#create-or-edit-record-views) uit
-* [Een weergave verwijderen](#delete-views)
-* [Een weergave dupliceren](#duplicate-a-view)
 * [ laat de aanwezigheidsindicatoren in real time in een mening toe ](#enable-the-real-time-presence-indicator-in-a-view)
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
+
+Raadpleeg ook de volgende artikelen voor meer informatie over het beheren van de opnamen van Workfront Planning:
+
+* [Recordweergaven verwijderen](/help/quicksilver/planning/views/delete-record-views.md)
+* [Recordweergaven dupliceren](/help/quicksilver/planning/views/duplicate-record-views.md)
+* [Weergaven delen](/help/quicksilver/planning/access/share-views.md)
 
 
 ## Toegangsvereisten
@@ -123,21 +127,17 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 * Weergaven die u maakt, zijn alleen zichtbaar voor u en gebruikers met wie u de weergaven deelt.
 * Wanneer u een weergave wijzigt of verwijdert, wordt deze gewijzigd en verwijderd voor alle gebruikers die machtigingen hebben voor de weergave.
 * Elke gebruiker kan maximaal 100 weergaven maken. U kunt meer dan 100 weergaven weergeven voor een recordtype, maar één gebruiker kan slechts 100 weergaven maken.
-* U kunt weergaven die u maakt met anderen delen. Voor informatie, zie [ meningen van het Aandeel ](/help/quicksilver/planning/access/share-views.md).
-* De volgende elementen zijn uniek voor elke recordweergave:
+* Hoewel sommige weergave-elementen op meerdere weergaven voor dezelfde record kunnen worden toegepast, zijn ze uniek voor elke recordweergave:
 
    * Filter
-   * Groepering
-   * Sorteren
-   * De vormgeving van de balk (voor de tijdlijnweergave)
+   * Groeperen (voor de tabel- en tijdlijnweergaven)
+   * De vormgeving van de balk (voor de tijdlijn- en de kalenderweergave)
 
-  <!-- some of these are not available in all of the views - edit above-->
+  Wanneer u bijvoorbeeld een filter maakt in een tabelweergave, zijn de filterresultaten alleen zichtbaar in de geselecteerde weergave (de tabelweergave) en niet in alle weergaven die aan het recordtype zijn gekoppeld.
 
-  Wanneer u bijvoorbeeld een filter maakt in een tabelweergave, zijn de filterresultaten alleen zichtbaar in de geselecteerde weergave en niet in alle weergaven die aan het recordtype zijn gekoppeld.
-
-  >[!NOTE]
+  >[!TIP]
   >
-  > Sommige weergave-elementen zijn mogelijk niet voor alle weergaven beschikbaar.
+  >Niet alle weergave-elementen zijn beschikbaar.
 
 
 ## Gelijksoortigheid en verschillen tussen recordweergaven
@@ -160,7 +160,7 @@ In de volgende tabel worden de overeenkomsten en verschillen tussen de tabel-, t
 | Records weergeven op een kalender |           |              | ✓ |
 | Groepsrecords | ✓ | ✓ |
 | Records sorteren | ✓ |              |
-| Kleurcoderecords |           | ✓ | ✓ |
+| <span class="preview"> kleur-code verslagen </span> | <span class="preview">✓</span> | ✓ | ✓ |
 | Kleurcodegroepen |           | ✓ |
 | Specifieke records zoeken | ✓ | ✓ |
 | De weergave delen met anderen | ✓ | ✓ | ✓ |
@@ -242,76 +242,18 @@ In de volgende tabel worden de overeenkomsten en verschillen tussen de tabel-, t
    * [De tijdlijnweergave beheren](/help/quicksilver/planning/views/manage-the-timeline-view.md)
    * [De kalenderweergave beheren](/help/quicksilver/planning/views/manage-the-calendar-view.md)
 
-
-## Weergaven verwijderen
-
-{{step1-to-planning}}
-
-1. Klik op de kaart van een werkruimte.
-
-   De werkruimte wordt geopend en de recordtypen worden als kaarten weergegeven.
-
-1. Klik op een opnametype.
-
-   De pagina met recordtypen wordt geopend.
-
-   Standaard worden alle records van het geselecteerde type weergegeven in de tabelweergave.
-
-1. Beweeg over één van de namen van de mening in het meningslusje, dan klik **Meer** ![ Meer menu ](assets/more-menu.png) links van de meningsnaam, dan klik **Schrapping**.
-Eerst, zou u **Meer** aan de linkerzijde van het laatste lusje kunnen moeten klikken om de mening te vinden u wilt schrappen.
-
-1. Klik **Schrapping** om te bevestigen. <!--ensure there is not another saving step here?!-->
-
-   De weergave wordt verwijderd voor alle gebruikers die toegang hebben tot het recordgebied en kan niet worden hersteld.
-
-<!--## Add a view as a favorite - this is not possible yet-->
-
-<!--not possible yet - August 30, 2023: -->
-
-## Een weergave dupliceren
-
-Als u meerdere versies van een weergave wilt behouden en kleine wijzigingen wilt aanbrengen tussen de versies, kunt u een weergave dupliceren.
-
-Als u een weergave dupliceert, worden identieke kopieën van een bestaande weergave gemaakt.
-
-De machtigingen voor delen van de oorspronkelijke weergave worden niet overgedragen naar de gedupliceerde weergave.
-
-{{step1-to-planning}}
-
-1. Klik op de kaart van een werkruimte.
-
-   De werkruimte wordt geopend en de recordtypen worden als kaarten weergegeven.
-
-1. Klik op een opnametype.
-
-   De pagina met recordtypen wordt geopend.
-Standaard worden alle records van het geselecteerde type weergegeven in de tabelweergave.
-
-1. Beweeg over het lusje van de mening u wilt dupliceren, en **klikken Meer** menu ![ ](assets/more-menu.png) rechts van de meningsnaam, dan **&#x200B;**&#x200B;dupliceert.
-
-   ![ Mening meer menu met dubbele optie ](assets/view-more-menu-with-duplicate-option.png)
-
-
-   De weergave wordt gedupliceerd en de naam van de nieuwe weergave volgt het volgende patroon: `Original view's name (Copy)` . Het nieuwe meningslusje toont aan het eind van alle meningslusjes.
-
 ## De real-time aanwezigheidsindicator in een weergave inschakelen
+
+U kunt zien of andere gebruikers records op hetzelfde moment bewerken als u door de aanwezigheidsindicatoren in real time in de weergave te volgen.
 
 De avatars van andere gebruikers die recordinformatie uitgeven tezelfdertijd zoals u in de hoger-juiste hoek van alle verslagmeningen toont, door gebrek.
 
 Wanneer u de tabelweergave weergeeft, kunt u ook bekijken welk veld een andere gebruiker bewerkt op het moment dat u de record weergeeft.
 
-1. Ga naar een pagina met recordtypen en open een weergave.
-1. (Voorwaardelijk) Als er andere gebruikers zijn die de records van het geselecteerde type tegelijkertijd bewerken, worden hun avatars in de rechterbovenhoek van de weergave weergegeven.
-1. Klik het drop-down menu naast avatars, selecteren **samenwerkers** knevel tonen. De schakeloptie is standaard geselecteerd.
+Voor meer informatie, zie [ de lijstmening ](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
 
-   ![ toon geselecteerde samenwerkersknevel ](assets/show-collaborators-toggle-selected.png)
 
-1. (Voorwaardelijk) Open een lijstmening, en het gebied dat een andere persoon actief uitgeeft wordt benadrukt in de kleur die aan de contour van hun avatar in de lijstmening beantwoordt.
 
-   Als de markeerkleur van de avatar grijs is, is de gebruiker meer dan 30 seconden geleden gestopt met het actief bewerken van de record.
+<!--## Add a view as a favorite - this is not possible yet-->
 
-   ![ Echte - tijd het gebied van de indicatorlijst en avatar verbinding ](assets/real-time-indicator-table-field-and-avatar-connection.png)
-
-   >[!TIP]
-   >
-   >U kunt **selecteren toont samenwerkers** knevel van om het even welke mening. Het veld dat momenteel door anderen wordt bewerkt, wordt alleen in de tabelweergave weergegeven.
+<!--not possible yet - August 30, 2023: -->

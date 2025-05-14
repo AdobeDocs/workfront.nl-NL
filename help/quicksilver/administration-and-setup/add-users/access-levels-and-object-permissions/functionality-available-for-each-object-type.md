@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
 workflow-type: tm+mt
-source-wordcount: '1956'
+source-wordcount: '1563'
 ht-degree: 0%
 
 ---
@@ -35,35 +35,35 @@ Alleen gebruikers met een licentie voor een abonnement kunnen volledige toegang 
 
 | Handeling | Planner | Worker | Revisor | Aanvrager | Externe gebruiker |
 |---|---|---|---|---|---|
-| Maken | ✓&#42; |   |   |   |   |
-| Kopiëren | ✓&#42; |   |   |   |   |
-| Verwijderen | ✓&#42; |   |   |   |   |
-| Delen | ✓&#42; | ✓&#42; |   |   |   |
-| Delen op het hele systeem | ✓&#42; |   |   |   |   |
-| Weergave | ✓&#42; | ✓&#42; | ✓&#42; |   |   |
-| Een aangepast formulier toevoegen | ✓ |   |   |   |   |
-| Aangepaste velden bijwerken | ✓ | ✓ |   |   |   |
-| Een goedkeuringsproces toevoegen | ✓ |   |   |   |   |
-| Een project goedkeuren | ✓ | ✓ | ✓ |   |   |
-| Document toevoegen | ✓ | ✓ | ✓ |   |   |
-| Probleem toevoegen | ✓ | ✓ |   |   |   |
-| Taken toevoegen | ✓ | ✓ |   |   |   |
-| Updates/opmerkingen opgeven | ✓ | ✓ | ✓ |   |   |
-| Status wijzigen | ✓ |   |   |   |   |
-| Logboekuren | ✓ | ✓ |   |   |   |
-| Toewijzingen bewerken | ✓ | ✓ |   |   |   |
-| Een basislijn beheren | ✓ |   |   |   |   |
-| Risico&#39;s beheren | ✓ |   |   |   |   |
-| Financiering beheren | ✓ |   |   |   |   |
-| Kosten toevoegen/bewerken | ✓ | ✓ |   |   |   |
-| Sjablonen bijvoegen | ✓ |   |   |   |   |
-| Opslaan als sjabloon | ✓ |   |   |   |   |
-| Een bedrijfscase toevoegen/bewerken | ✓ |   |   |   |   |
-| Projectdetails bewerken | ✓ |   |   |   |   |
-| Personeel bewerken | ✓ |   |   |   |   |
-| Exporteren naar MS-project | ✓ | ✓ | ✓ |   |   |
-| Financiering/tijdlijn opnieuw berekenen | ✓ |   |   |   |   |
-| Wachtrij-eigenschappen instellen | ✓ |   |   |   |   |
+| Maken | ✓&#42; |  |  |  |  |
+| Kopiëren | ✓&#42; |  |  |  |  |
+| Verwijderen | ✓&#42; |  |  |  |  |
+| Delen | ✓&#42; | ✓&#42; |  |  |  |
+| Delen op het hele systeem | ✓&#42; |  |  |  |  |
+| Weergave | ✓&#42; | ✓&#42; | ✓&#42; |  |  |
+| Een aangepast formulier toevoegen | ✓ |  |  |  |  |
+| Aangepaste velden bijwerken | ✓ | ✓ |  |  |  |
+| Een goedkeuringsproces toevoegen | ✓ |  |  |  |  |
+| Een project goedkeuren | ✓ | ✓ | ✓ |  |  |
+| Document toevoegen | ✓ | ✓ | ✓ |  |  |
+| Probleem toevoegen | ✓ | ✓ |  |  |  |
+| Taken toevoegen | ✓ | ✓ |  |  |  |
+| Updates/opmerkingen opgeven | ✓ | ✓ | ✓ |  |  |
+| Status wijzigen | ✓ |  |  |  |  |
+| Logboekuren | ✓ | ✓ |  |  |  |
+| Toewijzingen bewerken | ✓ | ✓ |  |  |  |
+| Een basislijn beheren | ✓ |  |  |  |  |
+| Risico&#39;s beheren | ✓ |  |  |  |  |
+| Financiering beheren | ✓ |  |  |  |  |
+| Kosten toevoegen/bewerken | ✓ | ✓ |  |  |  |
+| Sjablonen bijvoegen | ✓ |  |  |  |  |
+| Opslaan als sjabloon | ✓ |  |  |  |  |
+| Een bedrijfscase toevoegen/bewerken | ✓ |  |  |  |  |
+| Projectdetails bewerken | ✓ |  |  |  |  |
+| Personeel bewerken | ✓ |  |  |  |  |
+| Exporteren naar MS-project | ✓ | ✓ | ✓ |  |  |
+| Financiering/tijdlijn opnieuw berekenen | ✓ |  |  |  |  |
+| Wachtrij-eigenschappen instellen | ✓ |  |  |  |  |
 
 
 
@@ -73,29 +73,29 @@ Alleen gebruikers met een licentie voor een abonnement kunnen volledige toegang 
 
 | Handeling | Planner | Worker | Revisor | Aanvrager | Externe gebruiker |
 |---|---|---|---|---|---|
-| Maken | ✓&#42; | ✓&#42; |   |   |   |
-| Verwijderen | ✓&#42; | ✓&#42; |   |   |   |
-| Delen | ✓&#42; | ✓&#42; |   |   |   |
-| Delen op het hele systeem | ✓&#42; |   |   |   |   |
-| Weergave | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
-| Voorgangers toevoegen | ✓ | ✓ |   |   |   |
-| Problemen toevoegen | ✓ | ✓ |   |   |   |
-| Een taak bewerken (exclusief status) | ✓ | ✓ |   |   |   |
-| Taakstatus wijzigen | ✓ | ✓ |   |   |   |
-| Documenten toevoegen | ✓ | ✓ | ✓ |   |   |
-| Een taak kopiëren | ✓ | ✓ |   |   |   |
-| Een taak verplaatsen | ✓ | ✓ |   |   |   |
-| Logboekuren | ✓ | ✓ |   |   |   |
-| Een toewijzing accepteren | ✓ | ✓ |   |   |   |
-| Een toewijzing maken | ✓ | ✓ | Alleen in line bewerken | Alleen in line bewerken |   |
-| Een aangepast formulier bijvoegen | ✓ | ✓ |   |   |   |
-| Aangepaste velden bewerken | ✓ | ✓ |   |   |   |
-| Een goedkeuringsproces maken | ✓ | ✓ |   |   |   |
-| Een taak goedkeuren | ✓ | ✓ | ✓ |   |   |
-| Financiën bewerken | ✓ |   |   |   |   |
-| Kosten toevoegen/bewerken | ✓ | ✓ |   |   |   |
-| Financiering weergeven | ✓ | ✓ | ✓ |   |   |
-| Updates/opmerkingen | ✓ | ✓ | ✓ |   |   |
+| Maken | ✓&#42; | ✓&#42; |  |  |  |
+| Verwijderen | ✓&#42; | ✓&#42; |  |  |  |
+| Delen | ✓&#42; | ✓&#42; |  |  |  |
+| Delen op het hele systeem | ✓&#42; |  |  |  |  |
+| Weergave | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
+| Voorgangers toevoegen | ✓ | ✓ |  |  |  |
+| Problemen toevoegen | ✓ | ✓ |  |  |  |
+| Een taak bewerken (exclusief status) | ✓ | ✓ |  |  |  |
+| Taakstatus wijzigen | ✓ | ✓ |  |  |  |
+| Documenten toevoegen | ✓ | ✓ | ✓ |  |  |
+| Een taak kopiëren | ✓ | ✓ |  |  |  |
+| Een taak verplaatsen | ✓ | ✓ |  |  |  |
+| Logboekuren | ✓ | ✓ |  |  |  |
+| Een toewijzing accepteren | ✓ | ✓ |  |  |  |
+| Een toewijzing maken | ✓ | ✓ | Alleen in line bewerken | Alleen in line bewerken |  |
+| Een aangepast formulier bijvoegen | ✓ | ✓ |  |  |  |
+| Aangepaste velden bewerken | ✓ | ✓ |  |  |  |
+| Een goedkeuringsproces maken | ✓ | ✓ |  |  |  |
+| Een taak goedkeuren | ✓ | ✓ | ✓ |  |  |
+| Financiën bewerken | ✓ |  |  |  |  |
+| Kosten toevoegen/bewerken | ✓ | ✓ |  |  |  |
+| Financiering weergeven | ✓ | ✓ | ✓ |  |  |
+| Updates/opmerkingen | ✓ | ✓ | ✓ |  |  |
 
 {style="table-layout:auto"}
 
@@ -105,25 +105,25 @@ Alleen gebruikers met een licentie voor een abonnement kunnen volledige toegang 
 
 | Handeling | Planner | Worker | Revisor | Aanvrager | Externe gebruiker |
 |---|---|---|---|---|---|
-| Maken | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
-| Bewerken | ✓ | ✓ | ✓ | ✓ |   |
-| Verwijderen | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
-| Delen | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
-| Delen op het hele systeem | ✓&#42; |   |   |   |   |
-| Weergave | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
-| Aangepaste formulieren bijvoegen | ✓ | ✓ | ✓ | ✓ |   |
-| Aangepaste velden bewerken | ✓ | ✓ | ✓ | ✓ |   |
-| Problemen goedkeuren | ✓ | ✓ | ✓ | ✓ |   |
-| Een goedkeuringsproces toevoegen | ✓ | ✓ | ✓ | ✓ |   |
-| Documenten toevoegen | ✓ | ✓ | ✓ | ✓ |   |
-| Uitgaven kopiëren | ✓ | ✓ | ✓ | ✓ |   |
-| Problemen verplaatsen | ✓ | ✓ | ✓ | ✓ |   |
-| Logboekuren | ✓ | ✓ |   |   |   |
-| Een uitgave converteren naar een project | ✓ | ✓ |   |   |   |
-| Een uitgave converteren naar een taak | ✓ |   |   |   |   |
-| Toewijzingen accepteren | ✓ | ✓ |   |   |   |
-| Toewijzingen maken | ✓ | ✓ |   |   |   |
-| Updates en opmerkingen toevoegen | ✓ | ✓ | ✓ | ✓ |   |
+| Maken | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
+| Bewerken | ✓ | ✓ | ✓ | ✓ |  |
+| Verwijderen | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
+| Delen | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
+| Delen op het hele systeem | ✓&#42; |  |  |  |  |
+| Weergave | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
+| Aangepaste formulieren bijvoegen | ✓ | ✓ | ✓ | ✓ |  |
+| Aangepaste velden bewerken | ✓ | ✓ | ✓ | ✓ |  |
+| Problemen goedkeuren | ✓ | ✓ | ✓ | ✓ |  |
+| Een goedkeuringsproces toevoegen | ✓ | ✓ | ✓ | ✓ |  |
+| Documenten toevoegen | ✓ | ✓ | ✓ | ✓ |  |
+| Uitgaven kopiëren | ✓ | ✓ | ✓ | ✓ |  |
+| Problemen verplaatsen | ✓ | ✓ | ✓ | ✓ |  |
+| Logboekuren | ✓ | ✓ |  |  |  |
+| Een uitgave converteren naar een project | ✓ | ✓ |  |  |  |
+| Een uitgave converteren naar een taak | ✓ |  |  |  |  |
+| Toewijzingen accepteren | ✓ | ✓ |  |  |  |
+| Toewijzingen maken | ✓ | ✓ |  |  |  |
+| Updates en opmerkingen toevoegen | ✓ | ✓ | ✓ | ✓ |  |
 
 
 
@@ -135,19 +135,19 @@ Alleen gebruikers met een licentie voor abonnementen kunnen volledige toegang to
 
 | Handeling | Planner | Worker | Revisor | Aanvrager | Externe gebruiker |
 |---|---|---|---|---|---|
-| Maken | ✓&#42; |   |   |   |   |
-| Verwijderen | ✓&#42; |   |   |   |   |
-| Delen | ✓&#42; |   |   |   |   |
-| Delen op het hele systeem | ✓&#42; |   |   |   |   |
-| Weergave | ✓&#42; | ✓&#42; | ✓&#42; |   |   |
-| Details bewerken | ✓ |   |   |   |   |
-| Aangepaste formulieren bijvoegen | ✓ |   |   |   |   |
-| Aangepaste velden bewerken | ✓ |   |   |   |   |
-| Projecten toevoegen en verwijderen | ✓ |   |   |   |   |
-| Projecten goedkeuren | ✓ |   |   |   |   |
-| Portfolio optimaliseren | ✓ |   |   |   |   |
-| Documenten toevoegen | ✓ | ✓ | ✓ |   |   |
-| Updates en opmerkingen toevoegen | ✓ | ✓ | ✓ |   |   |
+| Maken | ✓&#42; |  |  |  |  |
+| Verwijderen | ✓&#42; |  |  |  |  |
+| Delen | ✓&#42; |  |  |  |  |
+| Delen op het hele systeem | ✓&#42; |  |  |  |  |
+| Weergave | ✓&#42; | ✓&#42; | ✓&#42; |  |  |
+| Details bewerken | ✓ |  |  |  |  |
+| Aangepaste formulieren bijvoegen | ✓ |  |  |  |  |
+| Aangepaste velden bewerken | ✓ |  |  |  |  |
+| Projecten toevoegen en verwijderen | ✓ |  |  |  |  |
+| Projecten goedkeuren | ✓ |  |  |  |  |
+| Portfolio optimaliseren | ✓ |  |  |  |  |
+| Documenten toevoegen | ✓ | ✓ | ✓ |  |  |
+| Updates en opmerkingen toevoegen | ✓ | ✓ | ✓ |  |  |
 
 
 
@@ -159,19 +159,19 @@ Alleen gebruikers met een licentie voor abonnementen kunnen volledige toegang to
 
 | Handeling | Planner | Worker | Revisor | Aanvrager | Externe gebruiker |
 |---|---|---|---|---|---|
-| Maken | ✓&#42; |   |   |   |   |
-| Verwijderen | ✓&#42; |   |   |   |   |
-| Delen | ✓&#42; |   |   |   |   |
-| Delen op het hele systeem | ✓&#42; |   |   |   |   |
-| Weergave | ✓&#42; | ✓&#42; | ✓&#42; |   |   |
-| Details bewerken | ✓ |   |   |   |   |
-| Aangepaste formulieren bijvoegen | ✓ |   |   |   |   |
-| Aangepaste velden bewerken | ✓ |   |   |   |   |
-| Projecten toevoegen en verwijderen | ✓ |   |   |   |   |
-| Projecten goedkeuren | ✓ |   |   |   |   |
-| Portfolio optimaliseren | ✓ |   |   |   |   |
-| Documenten toevoegen | ✓ | ✓ | ✓ |   |   |
-| Updates en opmerkingen toevoegen | ✓ | ✓ | ✓ |   |   |
+| Maken | ✓&#42; |  |  |  |  |
+| Verwijderen | ✓&#42; |  |  |  |  |
+| Delen | ✓&#42; |  |  |  |  |
+| Delen op het hele systeem | ✓&#42; |  |  |  |  |
+| Weergave | ✓&#42; | ✓&#42; | ✓&#42; |  |  |
+| Details bewerken | ✓ |  |  |  |  |
+| Aangepaste formulieren bijvoegen | ✓ |  |  |  |  |
+| Aangepaste velden bewerken | ✓ |  |  |  |  |
+| Projecten toevoegen en verwijderen | ✓ |  |  |  |  |
+| Projecten goedkeuren | ✓ |  |  |  |  |
+| Portfolio optimaliseren | ✓ |  |  |  |  |
+| Documenten toevoegen | ✓ | ✓ | ✓ |  |  |
+| Updates en opmerkingen toevoegen | ✓ | ✓ | ✓ |  |  |
 
 
 
@@ -183,15 +183,15 @@ Gebruikers met een licentie voor abonnementen kunnen volledige toegang krijgen t
 
 | Handeling | Planner | Worker | Revisor | Verzoek | Externe gebruiker |
 |---|---|---|---|---|---|
-| Maken | ✓&#42; |   |   |   |   |
-| Verwijderen | ✓&#42; |   |   |   |   |
-| Ingebouwde rapporten weergeven | ✓&#42; |   |   |   |   |
-| Delen | ✓&#42; | ✓ | ✓ |   |   |
-| Kalenders en rapporten openbaar delen | ✓&#42; |   |   |   |   |
-| Delen op het hele systeem | ✓&#42; |   |   |   |   |
+| Maken | ✓&#42; |  |  |  |  |
+| Verwijderen | ✓&#42; |  |  |  |  |
+| Ingebouwde rapporten weergeven | ✓&#42; |  |  |  |  |
+| Delen | ✓&#42; | ✓ | ✓ |  |  |
+| Kalenders en rapporten openbaar delen | ✓&#42; |  |  |  |  |
+| Delen op het hele systeem | ✓&#42; |  |  |  |  |
 | Weergave | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
-| Bewerken | ✓ |   |   |   |   |
-| Kopiëren | ✓ |   |   |   |   |
+| Bewerken | ✓ |  |  |  |  |
+| Kopiëren | ✓ |  |  |  |  |
 
 {style="table-layout:auto"}
 
@@ -233,7 +233,7 @@ Gebruikers met een licentie voor abonnementen kunnen volledige toegang krijgen t
    <td>✓*</td> 
    <td>✓*</td> 
    <td>✓*</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Verwijderen</td> 
@@ -241,7 +241,7 @@ Gebruikers met een licentie voor abonnementen kunnen volledige toegang krijgen t
    <td>✓*</td> 
    <td>✓*</td> 
    <td>✓*</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Delen</td> 
@@ -249,7 +249,7 @@ Gebruikers met een licentie voor abonnementen kunnen volledige toegang krijgen t
    <td>✓*</td> 
    <td>✓*</td> 
    <td>✓*</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Delen op het hele systeem</td> 
@@ -257,7 +257,7 @@ Gebruikers met een licentie voor abonnementen kunnen volledige toegang krijgen t
    <td>✓*</td> 
    <td>✓*</td> 
    <td>✓*</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Weergave</td> 
@@ -265,7 +265,7 @@ Gebruikers met een licentie voor abonnementen kunnen volledige toegang krijgen t
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Bewerken</td> 
@@ -273,7 +273,7 @@ Gebruikers met een licentie voor abonnementen kunnen volledige toegang krijgen t
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -284,32 +284,32 @@ Gebruikers met een licentie voor abonnementen kunnen volledige toegang krijgen t
 
 | Handeling | Planner | Worker | Revisor | Aanvrager | Externe gebruiker |
 |---|---|---|---|---|---|
-| Maken | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
-| Verwijderen (documenten en mappen) | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
-| Delen | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
-| Openbaar (extern) delen | ✓&#42; |   |   |   |   |
-| Delen op het hele systeem | ✓&#42; | ✓&#42; |   |   |   |
+| Maken | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
+| Verwijderen (documenten en mappen) | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
+| Delen | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
+| Openbaar (extern) delen | ✓&#42; |  |  |  |  |
+| Delen op het hele systeem | ✓&#42; | ✓&#42; |  |  |  |
 | Weergave | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
-| Details bewerken | ✓ | ✓ | ✓ | ✓ |   |
+| Details bewerken | ✓ | ✓ | ✓ | ✓ |  |
 | Downloaden | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Afhandeling | ✓ | ✓ | ✓ | ✓ |   |
-| fiatteurs toevoegen | ✓ | ✓ | ✓ | ✓ |   |
+| Afhandeling | ✓ | ✓ | ✓ | ✓ |  |
+| fiatteurs toevoegen | ✓ | ✓ | ✓ | ✓ |  |
 | Documenten goedkeuren | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Aangepaste formulieren bijvoegen | ✓ | ✓ | ✓ | ✓ |   |
-| Aangepaste velden bewerken | ✓ | ✓ | ✓ | ✓ |   |
-| Naar (object) | ✓ | ✓ | ✓ | ✓ |   |
-| Naar (integratie) | ✓ | ✓ | ✓ | ✓ |   |
-| Updates en opmerkingen toevoegen | ✓ | ✓ | ✓ | ✓ |   |
-| Nieuwe versie uploaden | ✓ | ✓ | ✓ | ✓ |   |
-| Een versie verwijderen | ✓ | ✓ | ✓ | ✓ |   |
+| Aangepaste formulieren bijvoegen | ✓ | ✓ | ✓ | ✓ |  |
+| Aangepaste velden bewerken | ✓ | ✓ | ✓ | ✓ |  |
+| Naar (object) | ✓ | ✓ | ✓ | ✓ |  |
+| Naar (integratie) | ✓ | ✓ | ✓ | ✓ |  |
+| Updates en opmerkingen toevoegen | ✓ | ✓ | ✓ | ✓ |  |
+| Nieuwe versie uploaden | ✓ | ✓ | ✓ | ✓ |  |
+| Een versie verwijderen | ✓ | ✓ | ✓ | ✓ |  |
 | Voorvertoning | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Proef | ✓ | ✓ | ✓ | ✓ |   |
-| Proef genereren | ✓ | ✓ |   |   |   |
-| Proef verwijderen | ✓ | ✓ | ✓ | ✓ |   |
-| Toevoegen/verwijderen &#42;&#42; | ✓ | ✓ | ✓ | ✓ |   |
-| Naam wijzigen &#42;&#42; | ✓ | ✓ | ✓ | ✓ |   |
-| Koppeling (met integratie) | ✓ | ✓ | ✓ | ✓ |   |
-| Ontkoppelen (met integratie) | ✓ | ✓ | ✓ | ✓ |   |
+| Proef | ✓ | ✓ | ✓ | ✓ |  |
+| Proef genereren | ✓ | ✓ |  |  |  |
+| Proef verwijderen | ✓ | ✓ | ✓ | ✓ |  |
+| Toevoegen/verwijderen &#42;&#42; | ✓ | ✓ | ✓ | ✓ |  |
+| Naam wijzigen &#42;&#42; | ✓ | ✓ | ✓ | ✓ |  |
+| Koppeling (met integratie) | ✓ | ✓ | ✓ | ✓ |  |
+| Ontkoppelen (met integratie) | ✓ | ✓ | ✓ | ✓ |  |
 
 {style="table-layout:auto"}
 
@@ -346,34 +346,34 @@ Gebruikers met een licentie voor abonnementen kunnen volledige toegang krijgen t
   <tr> 
    <td>Maken</td> 
    <td>✓*</td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Verwijderen</td> 
    <td>✓*</td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Het wachtwoord voor een gebruiker bewerken, verwijderen, deactiveren, aanmelden als of opnieuw instellen</td> 
    <td>✓*<p><b> NOTA </b>: U kunt niet login als om het even welke gebruiker die een systeembeheerder is.</p></td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Bewerk, verwijder, deactiveer, meld u aan als gebruiker of stel het wachtwoord opnieuw in voor elke gebruiker in een groep die hij of zij beheert</td> 
    <td>✓*<p><b> NOTA </b>: U kunt niet login als om het even welke gebruiker die een systeembeheerder is.</p></td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Gebruikers weergeven</td> 
@@ -381,7 +381,7 @@ Gebruikers met een licentie voor abonnementen kunnen volledige toegang krijgen t
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Contactgegevens weergeven</td> 
@@ -389,7 +389,7 @@ Gebruikers met een licentie voor abonnementen kunnen volledige toegang krijgen t
    <td> ✓</td> 
    <td>✓ </td> 
    <td> ✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -421,34 +421,34 @@ Gebruikers met een licentie voor abonnementen kunnen volledige toegang krijgen t
   <tr> 
    <td>Maken</td> 
    <td>✓*</td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Verwijderen</td> 
    <td>✓*</td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Teams bewerken die ze hebben ingeschakeld</td> 
    <td>✓*</td> 
    <td>✓*</td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Teams bewerken in groepen die ze beheren</td> 
    <td>✓*</td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Alle teams weergeven</td> 
@@ -456,7 +456,7 @@ Gebruikers met een licentie voor abonnementen kunnen volledige toegang krijgen t
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Teams weergeven die zijn gekoppeld aan hun groepen</td> 
@@ -464,7 +464,7 @@ Gebruikers met een licentie voor abonnementen kunnen volledige toegang krijgen t
    <td> ✓</td> 
    <td>✓ </td> 
    <td> ✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -475,13 +475,13 @@ Gebruikers met een licentie voor abonnementen kunnen volledige toegang krijgen t
 
 | Handeling | Planner | Worker | Revisor | Aanvrager | Externe gebruiker |
 |---|---|---|---|---|---|
-| Maken | ✓&#42; |   |   |   |   |
-| Verwijderen | ✓&#42; |   |   |   |   |
-| Delen | ✓&#42; |   |   |   |   |
-| Delen op het hele systeem | ✓&#42; |   |   |   |   |
-| Weergave | ✓&#42; |   |   |   |   |
-| Kopiëren | ✓ |   |   |   |   |
-| Sjabloondetails bewerken | ✓ |   |   |   |   |
+| Maken | ✓&#42; |  |  |  |  |
+| Verwijderen | ✓&#42; |  |  |  |  |
+| Delen | ✓&#42; |  |  |  |  |
+| Delen op het hele systeem | ✓&#42; |  |  |  |  |
+| Weergave | ✓&#42; |  |  |  |  |
+| Kopiëren | ✓ |  |  |  |  |
+| Sjabloondetails bewerken | ✓ |  |  |  |  |
 
 {style="table-layout:auto"}
 
@@ -495,18 +495,18 @@ De licentietypen Verzoek en Externe gebruiker zijn hier niet opgenomen omdat ze 
 
 | Handeling | Planner | Worker | Revisor |
 |---|---|---|---|
-| Rolfacturering en kostentarieven bewerken | ✓&#42; |   |   |
-| Facturering van gebruikers en kostentarieven bewerken | ✓&#42; |   |   |
-| Facturering van rollen en kostentarieven weergeven | ✓&#42; |   |   |
-| Facturering en kosten van gebruikers weergeven | ✓&#42; |   |   |
-| Factureringsrecords beheren | ✓ |   |   |
-| Kosten beheren | ✓ | ✓ |   |
+| Rolfacturering en kostentarieven bewerken | ✓&#42; |  |  |
+| Facturering van gebruikers en kostentarieven bewerken | ✓&#42; |  |  |
+| Facturering van rollen en kostentarieven weergeven | ✓&#42; |  |  |
+| Facturering en kosten van gebruikers weergeven | ✓&#42; |  |  |
+| Factureringsrecords beheren | ✓ |  |  |
+| Kosten beheren | ✓ | ✓ |  |
 | Financiële gegevens weergeven | ✓&#42; | ✓&#42; | ✓&#42; |
-| <span class="preview"> beheert tariefkaarten </span> | ✓ |   |   |
-| De informatie van de mening door Kosten in de hulpmiddelen van de Planning van het Middel | ✓ |   |   |
-| De Middelen van de begroting in de hulpmiddelen van de Planning van het Middel &#42;&#42; | ✓ |   |   |
+| <span class="preview"> beheert tariefkaarten </span> | ✓ |  |  |
+| De informatie van de mening door Kosten in de hulpmiddelen van de Planning van het Middel | ✓ |  |  |
+| De Middelen van de begroting in de hulpmiddelen van de Planning van het Middel &#42;&#42; | ✓ |  |  |
 | De middeltoewijzing van de mening in de hulpmiddelen van de Planning van het Middel &#42; | ✓ | ✓ | ✓ |
-| Risico&#39;s maken voor projecten | ✓ |   |   |
+| Risico&#39;s maken voor projecten | ✓ |  |  |
 | Risico&#39;s weergeven voor projecten | ✓ | ✓ | ✓ |
 
 {style="table-layout:auto"}
@@ -521,14 +521,14 @@ Slechts kunnen de gebruikers met een vergunning van het Plan volledige toegang t
 
 | Handeling | Planner | Worker | Revisor | Aanvrager | Externe gebruiker |
 |---|---|---|---|---|---|
-| Prioriteiten en begrotingstijden bewerken in de Planner | ✓&#42; |   |   |   |   |
-| Brongroepen maken, bewerken, verwijderen &#42;&#42; | ✓&#42; |   |   |   |   |
-| Geplande uren bijwerken in werklastbalans &#42;&#42;&#42; | ✓* |   |   |   |   |
-| Projectprioriteiten weergeven in de functie voor middelenplanner | ✓&#42; |   |   |   |   |
-| De middeltoewijzing van de mening in de hulpmiddelen van de Planning van het Middel | ✓&#42; | ✓&#42; | ✓&#42; |   |   |
-| Brongroepen weergeven | ✓&#42; | ✓&#42; | ✓&#42; |   |   |
-| De middelen van de begroting in de hulpmiddelen van de Planning van het Middel &#42;&#42; | ✓ |   |   |   |   |
-| Bronnenpools koppelen aan projecten, sjablonen en gebruikers | ✓ |   |   |   |   |
+| Prioriteiten en begrotingstijden bewerken in de Planner | ✓&#42; |  |  |  |  |
+| Brongroepen maken, bewerken, verwijderen &#42;&#42; | ✓&#42; |  |  |  |  |
+| Geplande uren bijwerken in werklastbalans &#42;&#42;&#42; | ✓* |  |  |  |  |
+| Projectprioriteiten weergeven in de functie voor middelenplanner | ✓&#42; |  |  |  |  |
+| De middeltoewijzing van de mening in de hulpmiddelen van de Planning van het Middel | ✓&#42; | ✓&#42; | ✓&#42; |  |  |
+| Brongroepen weergeven | ✓&#42; | ✓&#42; | ✓&#42; |  |  |
+| De middelen van de begroting in de hulpmiddelen van de Planning van het Middel &#42;&#42; | ✓ |  |  |  |  |
+| Bronnenpools koppelen aan projecten, sjablonen en gebruikers | ✓ |  |  |  |  |
 
 {style="table-layout:auto"}
 
@@ -536,18 +536,18 @@ Slechts kunnen de gebruikers met een vergunning van het Plan volledige toegang t
 
 &#42;&#42; vereist extra toegang tot Financiële Gegevens en toestemmingen aan projectfinanciën. Als u de toegang van het Beheer van het Middel tot een gebruiker van de Planner verleent die geen toegang tot Financiële Gegevens heeft, kan de gebruiker nog de uurtoewijzingen in de Planner van het Middel zien, maar kan niet op de mening van Kosten schakelen of het BedrijfsGeval bekijken. Voor meer informatie, zie [ toegang van de Verlening tot financiële gegevens ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) en [ de financiële toestemmingen van het Aandeel op een voorwerp ](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
 
-&#42;&#42;&#42; vereist toestemming aan Contribute aan het voorwerp, met de Toewijzingen van het Merk die onder Geavanceerde Montages worden toegelaten. Voor informatie, zie de sectie [ geërfte toestemmingen en de hiërarchie van voorwerpen ](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) in het artikel [ Overzicht van het delen van toestemmingen op voorwerpen ](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md) begrijpen.
+&#42;&#42;&#42; vereist toestemming om tot het voorwerp bij te dragen, met Make Toewijzingen die onder Geavanceerde Montages worden toegelaten. Voor informatie, zie de sectie [ geërfte toestemmingen en de hiërarchie van voorwerpen ](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) in het artikel [ Overzicht van het delen van toestemmingen op voorwerpen ](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md) begrijpen.
 
 ## Scenario Planner, gebied
 
 | Handeling | Planner | Worker | Revisor | Aanvrager | Externe gebruiker |
 |---|---|---|---|---|---|
-| Bestaande plannen en initiatieven maken/bewerken | ✓ | ✓ | ✓ |   |   |
-| Taakrolinformatie toevoegen of bewerken over plannen en initiatieven &#42; | ✓ | ✓ | ✓ |   |   |
-| Kosteninformatie over plannen en initiatieven toevoegen of bewerken &#42; | ✓ | ✓ | ✓ |   |   |
-| Plannen en initiatieven verwijderen | ✓ | ✓ | ✓ |   |   |
-| Scenario&#39;s van de mening in het Belangrijkste de plannerpictogram van het Menu ![ Scenario ](assets/esp-icon-in-main-menu.png) | ✓ | ✓ | ✓ | |   |
-| De plannen en de initiatieven van de mening die de gebruiker &#42; creeerde | ✓ | ✓ | ✓ |   |   |
+| Bestaande plannen en initiatieven maken/bewerken | ✓ | ✓ | ✓ |  |  |
+| Taakrolinformatie toevoegen of bewerken over plannen en initiatieven &#42; | ✓ | ✓ | ✓ |  |  |
+| Kosteninformatie over plannen en initiatieven toevoegen of bewerken &#42; | ✓ | ✓ | ✓ |  |  |
+| Plannen en initiatieven verwijderen | ✓ | ✓ | ✓ |  |  |
+| Scenario&#39;s van de mening in het Belangrijkste de plannerpictogram van het Menu ![ Scenario ](assets/esp-icon-in-main-menu.png) | ✓ | ✓ | ✓ | |  |
+| De plannen en de initiatieven van de mening die de gebruiker &#42; creeerde | ✓ | ✓ | ✓ |  |  |
 
 {style="table-layout:auto"}
 
@@ -561,19 +561,19 @@ Slechts kunnen de gebruikers met een vergunning van het Plan volledige toegang t
 
 | Handelingen | Weergave | Bewerken |
 |---|---|---|
-| Maken |   | ✓ |
-| Alle doelen bewerken/verwijderen |   | ✓ |
+| Maken |  | ✓ |
+| Alle doelen bewerken/verwijderen |  | ✓ |
 | Doelen weergeven in het hoofdmenu | ✓ | ✓ |
 | Het gebied Doelen weergeven via een gedeelde koppeling | ✓ | ✓ |
 | Alle doelstellingen in het systeem weergeven | ✓ | ✓ |
-| Alle doelen activeren/deactiveren/sluiten |   | ✓ |
-| Activiteiten maken/bewerken/verwijderen |   | ✓ |
-| Resultaten maken/bewerken/verwijderen |   | ✓ |
-| Een uitgelijnd doel toevoegen |   | ✓ |
-| Voortgang van een resultaat of activiteit bijwerken |   | ✓ |
+| Alle doelen activeren/deactiveren/sluiten |  | ✓ |
+| Activiteiten maken/bewerken/verwijderen |  | ✓ |
+| Resultaten maken/bewerken/verwijderen |  | ✓ |
+| Een uitgelijnd doel toevoegen |  | ✓ |
+| Voortgang van een resultaat of activiteit bijwerken |  | ✓ |
 | Een doel, resultaat of activiteit | ✓ | ✓ |
 | Opmerkingen over een doel | ✓ | ✓ |
-| Doelstellingen kopiëren |   | ✓ |
+| Doelstellingen kopiëren |  | ✓ |
 | De sectie Lijst met doelen weergeven in het linkerdeelvenster | ✓ | ✓ |
 | De sectie Grafieken in het linkerdeelvenster weergeven | ✓ | ✓ |
 | De sectie Goal Alignment weergeven in het linkerdeelvenster | ✓ | ✓ |

@@ -7,16 +7,16 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
+source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
 workflow-type: tm+mt
-source-wordcount: '3822'
+source-wordcount: '3817'
 ht-degree: 0%
 
 ---
 
 # Logtijd
 
-<!--Audited: 12/2023-->
+<!--Audited: 5/2025-->
 
 <!--remove all preview and production references if any-->
 <!--update screen shots for the general hour entries and the mixed selection of hours at production, if they fixed the bugs -->
@@ -41,11 +41,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren en 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Nieuw:</p>
-   <ul><li><p> Licht of hoger om uren op een taak, kwestie, of Algemene Uren op timesheet te registreren</p>
-   <li><p>Norm om uren op projecten te registreren</p></li></ul>
-   <p>
-   <p>Huidige: 
+   <td> <p>Nieuw: Licht of hoger om uren op een project, een taak, een kwestie, of Algemene Uren op een timesheet te registreren</p>
+
+<p>Huidige: 
    <ul><li>Controle of hoger aan logboek Algemene Uren in een timesheet</li>
    <li>Werk of hoger om uren aan een project, een taak of een kwestie te registreren</li></ul> </td> 
   </tr> 
@@ -342,7 +340,7 @@ Daarnaast kunt u als volgt de tijd vastleggen voor een item in de widget Mijn we
 1. Ga naar het **Begin** gebied.
 1. Voeg **Mijn werk** widget aan uw Huis toe.
 1. (Facultatief) selecteer een taak, kwestie, of verzoek in een lijst, dan klik **Werk op het**.
-1. Beweeg over de taak of de kwestie u tijd voor wilt registreren, dan het **pictogram ![](assets/log-time-icon-in-new-home.png) van de Tijd van het Logboek** &lbrace;aan het recht van de taakinformatie klikken.
+1. Beweeg over de taak of de kwestie u tijd voor wilt registreren, dan het **pictogram ![](assets/log-time-icon-in-new-home.png) van de Tijd van het Logboek** {aan het recht van de taakinformatie klikken.
 
    ![](assets/log-time-ui-for-task-from-new-home.png)
 
@@ -534,7 +532,7 @@ Om uurtypes in een uurrapport of een lijst uit te geven:
 1. Klik op het vakje links van een of meerdere uurvermeldingen om deze te selecteren.
 1. Klik het **uitgeven pictogram** ![](assets/edit-icon.png) bij de bovenkant van de lijst.
 
-   Het **geeft** uur &lbrace;of **geeft de doos van Uren** uit opent.
+   Het **geeft** uur {of **geeft de doos van Uren** uit opent.
 1. Werk een van de volgende beschikbare velden bij:
 
    * Uren. Dit is een verplicht veld.
