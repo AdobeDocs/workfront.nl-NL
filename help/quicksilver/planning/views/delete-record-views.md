@@ -5,13 +5,13 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+exl-id: f86971bc-e807-459e-9fa8-dc34967bc069
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
-
 
 # Recordweergaven verwijderen
 
@@ -111,11 +111,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    Standaard worden alle records van het geselecteerde type weergegeven in de tabelweergave.
 
-1. Beweeg over één van de namen van de mening in het meningslusje, dan klik **Meer** ![ Meer menu ](assets/more-menu.png) links van de meningsnaam, dan klik **Schrapping**.
+1. <span class="preview"> Hover over één van de namen van de mening in het meningslusje, dan klik **Meer** ![ Meer menu ](assets/more-menu.png) aan de linkerzijde van de meningsnaam, dan klik **Schrapping**.</span>
 
-   Eerst, zou u **Meer** aan de linkerzijde van het laatste lusje kunnen moeten klikken om de mening te vinden u wilt schrappen.
+   <span class="preview">![ Mening meer menu op een verslagmening ](assets/view-more-menu-with-duplicate-option.png)</span>
 
-   ![ Mening meer menu op een verslagmening ](assets/view-more-menu-with-duplicate-option.png)
+   >[!TIP]
+   >
+   >U zou **Meer** aan het recht van het laatste lusje kunnen moeten klikken om de mening te vinden u wilt schrappen.
+
 
 1. Klik **Schrapping** om te bevestigen. <!--ensure there is not another saving step here?!-->
 

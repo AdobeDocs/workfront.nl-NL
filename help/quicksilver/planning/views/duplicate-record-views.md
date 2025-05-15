@@ -5,13 +5,13 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+exl-id: 441a53d1-ad39-41b7-93fe-2ae1836476c9
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
 
 ---
-
 
 # Recordweergaven dupliceren
 
@@ -114,9 +114,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    De pagina met recordtypen wordt geopend.
 Standaard worden alle records van het geselecteerde type weergegeven in de tabelweergave.
 
-1. Beweeg over het lusje van de mening u wilt dupliceren, en **klikken Meer** menu ![ ](assets/more-menu.png) rechts van de meningsnaam, dan **&#x200B;**&#x200B;dupliceert.
+1. <span class="preview"> Beweeg over het lusje van de mening u, **Meer** menu ![ Meer menu ](assets/more-menu.png) aan het recht van de meningsnaam wilt dupliceren, dan **Dupliceren** klikken. </span>
 
-   ![ Mening meer menu op een verslagmening ](assets/view-more-menu-with-duplicate-option.png)
+   <span class="preview">![ Mening meer menu op een verslagmening ](assets/view-more-menu-with-duplicate-option.png)</span>
 
 
    De weergave wordt gedupliceerd en de naam van de nieuwe weergave volgt het volgende patroon: `Original view's name (Copy)` . Het nieuwe meningslusje toont aan het eind van alle meningslusjes.

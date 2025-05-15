@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1166'
 ht-degree: 0%
 
 ---
@@ -168,6 +168,7 @@ In de volgende tabel worden de overeenkomsten en verschillen tussen de tabel-, t
 | Records weergeven per jaar en kwartaal |           | ✓ |    |
 | Records weergeven per maand |           | ✓ | ✓ |
 | Records per week weergeven |           |               | ✓ |
+| <span class="preview"> de informatie van de Uitvoer van een mening </span> | <span class="preview">✓</span> |               |    |
 
 
 ## Weergaven maken of bewerken {#create-or-edit-views}

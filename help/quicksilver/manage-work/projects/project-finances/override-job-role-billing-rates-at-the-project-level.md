@@ -6,9 +6,9 @@ description: Als projectmanager, kunt u specificeren wat het het facturerings ta
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
@@ -73,6 +73,8 @@ U kunt het factureringspercentage van een taakrol op een project op de volgende 
 * Verscheidene tijden, door verscheidene nieuwe tarieven voor specifieke datumwaaiers te selecteren.\
   U kunt voor elk opgegeven datumbereik een andere frequentie gebruiken.
 
+* U kunt nieuwe het factureren tarieven aan een projectmalplaatje toevoegen en die tarieven worden het factureren van het project wanneer u het project van dat malplaatje creeert. Voor informatie over het uitgeven van malplaatjes, zie [ projectmalplaatjes ](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
+
 >[!TIP]
 >
 >U kunt de factureringssnelheden van gebruikers voor een project niet overschrijven.
@@ -85,7 +87,7 @@ Een factureringssnelheid voor een project overschrijven:
 
    Het vak Nieuwe factureringsfrequentie wordt geopend.
 
-1. Op het **gebied van de Rol van de Baan 0&rbrace;, selecteer de baanrol u het facturerings tarief voor wilt veranderen.**
+1. Op het **gebied van de Rol van de Baan 0}, selecteer de baanrol u het facturerings tarief voor wilt veranderen.**
 
    ![ met voeten treden facturerend tarief op project ](assets/override-billing-rate-on-project-nwe-350x310.png)
 

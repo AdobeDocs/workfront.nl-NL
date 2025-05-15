@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '2946'
+source-wordcount: '3060'
 ht-degree: 0%
 
 ---
@@ -98,8 +98,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Een tijdlijnweergave beheren {#manage-a-timeline-view}
 
-<!--insert screen shot of timeline view-->
-
 Wanneer u een tijdlijnweergave maakt, worden alle records van het geselecteerde recordtype weergegeven in een chronologische tijdlijn.
 
 Overweeg het volgende:
@@ -151,7 +149,7 @@ Een tijdlijnweergave beheren:
 
 1. Ga als volgt te werk om snel records te zoeken die overeenkomen met een trefwoord:
 
-   1. Klik het **pictogram van het Onderzoek ![ pictogram van het 1&rbrace; Onderzoek ](assets/search-icon.png) en begin een sleutelwoord verbonden aan om het even welk gebied van een verslag te typen dat op het scherm toont.** Het aantal juiste overeenkomsten wordt weergegeven naast het zoekitem en de record met de juiste overeenkomst wordt gemarkeerd.
+   1. Klik het **pictogram van het Onderzoek ![ pictogram van het 1} Onderzoek ](assets/search-icon.png) en begin een sleutelwoord verbonden aan om het even welk gebied van een verslag te typen dat op het scherm toont.** Het aantal juiste overeenkomsten wordt weergegeven naast het zoekitem en de record met de juiste overeenkomst wordt gemarkeerd.
 
       ![ vakje van het Onderzoek en de mening van de resultaatchronologie ](assets/search-box-and-results-timeline-view.png)
 
@@ -278,7 +276,7 @@ Werk de instellingen van de tijdlijnweergave bij om aan te geven wat en hoe info
 
 1. Klik **stijl van de Bar** in het linkerpaneel, om te wijzen op welke informatie u op de verslagbars wilt tonen.
 
-   <!--<span class="preview">You can define the bar style of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>-->
+   <span class="preview"> u kunt de bar stijl van het belangrijkste verslag evenals voor de verbonden verslagen bepalen, wanneer het gebruiken van de optie van de Onderverdeling in de Standaardmening. </span>
 
    Het primaire veld (of de titel) van de record, zoals gedefinieerd in de tabelweergave van de record, wordt standaard geselecteerd.
    <!--adjust this when the primary field is released??-->
@@ -309,17 +307,14 @@ Werk de instellingen van de tijdlijnweergave bij om aan te geven wat en hoe info
 
    >[!TIP]
    >
-   >* <span class="preview"> het plaatsen van de details van de Truncate bar is niet beschikbaar wanneer het tonen van de chronologiemening op Compacte wijze, en het is niet beschikbaar in de mening van de Kalender.</span>
+   ><span class="preview"> het plaatsen van de details van de Truncate bar is niet beschikbaar wanneer het tonen van de chronologiemening op Compacte wijze, en het is niet beschikbaar in de mening van de Kalender.</span>
    >
-   >* <span class="preview"> als u onderaan de chronologiemening aan vertonings verbonden voorwerpen opsplitst, is de Truncate bar details het plaatsen slechts op het belangrijkste verslagtype van toepassing. Het is niet op de verbonden verslagbars van toepassing.</span>
-
-   <!--take out the last bullet in the Tip above when we release the additional records in breakdown formatting-->
 
 1. Klik **Kleur** in het linkerpaneel, om de kleuren van de verslagen en de groeperingen in de chronologie aan te passen.
 
    ![ het lusje van de Kleur chronologiemening ](assets/color-tab-timeline-view.png)
 
-   <!--<span class="preview">You can define the color of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>-->
+   <span class="preview"> u kunt de kleur van het belangrijkste verslag evenals voor de verbonden verslagen bepalen, wanneer het gebruiken van de optie van de Onderverdeling in de Standaardmening. </span>
 
 1. (Voorwaardelijk en facultatief) als u een groepering aan de chronologiemening toevoegde, selecteer van de volgende opties om een kleur voor de groepering in de **Vastgestelde groeperingskleur** sectie te plaatsen:
 
@@ -358,7 +353,7 @@ Werk de instellingen van de tijdlijnweergave bij om aan te geven wat en hoe info
 
    Als u geen veld hebt met kleurgecodeerde opties voor het geselecteerde recordtype, wordt deze optie grijs weergegeven.
 
-   <!--1. <span class="preview">(Optional) If you are using the Breakdown option, repeat the steps starting with step 4 for each connected record displayed in the timeline. </span>-->
+   1. <span class="preview"> (Optioneel) Als u de optie Onderverdeling gebruikt, herhaalt u de stappen die beginnen met stap 4 voor elke verbonden record die in de tijdlijn wordt weergegeven. </span>
 
 1. Klik **sparen**.
 
@@ -410,9 +405,18 @@ U kunt verbonden verslagen in de chronologiemening van een verslag tonen door de
    >    De begin- en einddatum moeten opeenvolgend zijn. Als de einddatum valt vóór de begindatum, worden er geen records weergegeven in de tijdlijn.
 
    Er wordt een pijl naar rechts weergegeven op de geselecteerde balk van de record in de tijdlijn als deze zijn verbonden met andere records.
-1. Klik op de pijl naar rechts om een recordtype uit te vouwen en de weergave is verbindingen.
+1. Klik op de pijl naar rechts om een recordtype uit te vouwen en de bijbehorende verbindingen weer te geven.
 
    ![ Campagnes die door programma&#39;s in de chronologiemening worden verdeeld ](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
+
+   >[!IMPORTANT]
+   >
+   >    Wanneer u veelvoudige verbonden verslagen in de mislukking toont, zijn zij niet in hiërarchische orde.
+   >
+   >Bijvoorbeeld, als u de chronologie van de campagnes bekijkt en u Producten en toen Programma&#39;s aan de uitsplitsing toevoegt, worden de Programma&#39;s niet noodzakelijk verbonden met de Producten eerst.
+   >
+   >Zowel Producten als Programma&#39;s moeten met de campagnes worden verbonden om als keuzen voor de verdelingsoptie te tonen, en u kunt hen aan de onderbreking in om het even welke orde toevoegen.
+
 
 1. (Optioneel) Herhaal bovenstaande stappen om meer verbonden records toe te voegen.
 

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 3550d7addcc0bb790f15d141d9470e0b75f940a6
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '1660'
+source-wordcount: '1657'
 ht-degree: 0%
 
 ---
@@ -145,9 +145,9 @@ U kunt weergaven delen die u hebt gemaakt of weergaven waarop u beheerdersmachti
 
    Hierdoor wordt de pagina met recordtypen geopend.
 
-1. Van het meningslusje, beweeg over de mening u **Meer** menu ![ Meer menu ](assets/more-menu.png) aan het recht van de meningsnaam wilt delen en klikken, dan **Aandeel**.
+1. <span class="preview"> van het meningslusje, houd over de mening u **Meer** menu ![ Meer menu ](assets/more-menu.png) aan het recht van de meningsnaam delen en wilt klikken, dan **Aandeel**. </span>
 
-   ![ Meer menu voor meningen die met aandeeloptie ](assets/more-menu-for-views-expanded-with-share-option.png) worden uitgebreid
+   <span class="preview">![ Meer menu voor een mening ](assets/more-menu-for-views-expanded-with-share-option.png) </span>
 
    Het **Interne delende** lusje zou door gebrek moeten worden geselecteerd.
 
@@ -214,7 +214,7 @@ Een weergave openbaar delen in Workfront Planning:
 
    Er wordt een koppeling beschikbaar. Dit is een openbare link. Als de koppeling wordt gedeeld, heeft iedereen met deze koppeling, dus ook mensen van buiten uw organisatie, toegang tot de pagina met recordtypen en kunnen records en velden op de pagina worden weergegeven.
 
-1. Klik de **pictogram van het 1&rbrace; verbinding van het Exemplaar ![ verbindingsmening van het Exemplaar ](assets/copy-link-view.png) om de verbinding aan uw klembord te kopiëren.**
+1. Klik de **pictogram van het 1} verbinding van het Exemplaar ![ verbindingsmening van het Exemplaar ](assets/copy-link-view.png) om de verbinding aan uw klembord te kopiëren.**
 
 1. Voer manueel een datum in, of gebruik de kalender op het **gebied van de Vervaldatum van de Verbinding** om een vervaldatum voor de openbare verbinding te selecteren. De weergave van de recordpagina is na de geselecteerde datum niet toegankelijk.
 
@@ -236,10 +236,8 @@ Gebruikers die een koppeling openen naar een weergave waarvoor zij geen machtigi
 1. (Voorwaardelijk) Als u de manager van een mening bent, zou u een verzoek van een andere gebruiker kunnen ontvangen om tot de mening op de volgende gebieden toegang te hebben:
 
    * Een melding in de app
-
      ![ In-app bericht voor toegangsverzoek voor mening ](assets/in-app-notification-for-access-request-for-view.png)
    * Een e-mailmelding
-
      ![ In-app bericht voor toegangsverzoek voor mening ](assets/in-app-notification-for-access-request-for-view.png)
 1. (Voorwaardelijk) Klik in het systeemvak in Workfront op de melding in de app.
 of

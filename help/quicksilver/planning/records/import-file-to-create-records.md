@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '1065'
 ht-degree: 0%
 
 ---
@@ -113,9 +113,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 * Lege bladen worden niet ondersteund.
 * Velden van de volgende typen worden niet ondersteund en kunnen niet worden toegewezen aan velden op het importblad:
 
-   * &#x200B;<!--In the Production environment,--> Verbindingsvelden voor planningsrecords of Workfront- en AEM Assets-objecten
+   * Verbindingsvelden, afhankelijk van de omgeving die u gebruikt:
 
-     <!--<span class="preview">In the Preview environment, you can map and import connection fields to Planning records. </span>-->
+      * In de productieomgeving kunnen verbindingsvelden naar planningsrecords of Workfront- en AEM Assets-objecten niet worden toegewezen
+
+      * <span class="preview"> in het milieu van de Voorproef, kunt u verbindingsgebieden in kaart brengen en invoeren aan de verslagen van de Planning. U kunt geen gebieden aan Workfront en AEM Assets in kaart brengen.</span>
 
    * Velden opzoeken van verbonden planningsrecords of Workfront- en AEM Assets-objecten
    * Formuliervelden
@@ -148,6 +150,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    ![ Kaart de gebieden van de Planning aan kolommen wanneer het invoeren van verslagen ](assets/map-planning-fields-to-columns-when-importing-records.png)
 
    Elke rij vertegenwoordigt een nieuwe record. Alleen de eerste 10 records worden weergegeven in het vak Voorbeeld en bewerken.
+
+   >[!TIP]
+   >
+   >Niet alle veldtypen worden ondersteund. Voor meer informatie, zie de sectie [ Overwegingen over het invoeren van verslagen gebruikend een Excel of Csv- dossier ](#considerations-about-importing-records-using-an-excel-or-csv-file) in dit artikel.
+
 
 1. (Facultatief en voorwaardelijk) als u hebt leiden toestemmingen aan de werkruimte, **creeer ontbrekende opties** in de laag-linkerhoek van het scherm. Als deze optie is ingeschakeld, worden de ontbrekende keuzen van velden met één of meerdere selecties toegevoegd.
 

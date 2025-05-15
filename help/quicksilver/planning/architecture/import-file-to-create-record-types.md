@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '1007'
 ht-degree: 0%
 
 ---
@@ -109,9 +109,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 * Lege bladen worden niet ondersteund.
 * Velden van de volgende typen worden niet ondersteund en kunnen niet worden toegewezen aan velden op het importblad:
 
-   * &#x200B;<!--In the Production environment,--> Verbindingsvelden voor planningsrecords of Workfront- en AEM Assets-objecten
+   * Verbindingsvelden, afhankelijk van de omgeving die u gebruikt:
 
-     <!--<span class="preview">In the Preview environment, you can map and import connection fields to Planning records. </span>-->
+      * In de productieomgeving kunnen verbindingsvelden naar planningsrecords of Workfront- en AEM Assets-objecten niet worden toegewezen
+
+      * <span class="preview"> in het milieu van de Voorproef, kunt u verbindingsgebieden in kaart brengen en invoeren aan de verslagen van de Planning. U kunt geen gebieden aan Workfront en AEM Assets in kaart brengen.</span>
 
    * Velden opzoeken van verbonden planningsrecords of Workfront- en AEM Assets-objecten
    * Formuliervelden
@@ -129,8 +131,8 @@ Recordtypen importeren met een Excel- of CSV-bestand:
 
    Vouw in een werkruimte de pijl omlaag naar rechts uit, zoek naar een werkruimte en selecteer deze wanneer de werkruimte in de lijst wordt weergegeven.
 1. Klik **toevoegen verslagtype**.
-1. Klik **van dossier**.
-1. Sleep en laat vallen een Excel of Csv- dossier eerder op uw computer, of klik **Uitgezocht een Csv of dossier van Excel** om voor te doorbladeren.
+1. Klik **uploaden van dossier**.
+1. Sleep en laat vallen een Excel of Csv- dossier eerder op uw computer, of klik **Uitgezocht een Csv of dossier van Excel** om voor te doorbladeren, dan het te selecteren.
 1. Klik **Voorproef en geef uit**.
 
    De **Voorproef en geeft** vakvertoningen uit met de volgende informatie:
@@ -153,11 +155,21 @@ Recordtypen importeren met een Excel- of CSV-bestand:
 
    Bladen die u hebt uitgeschakeld, worden weergegeven met een grijze achtergrond.
 
-1. (Optioneel) Klik op de pijl omlaag rechts van de kolomkop om een van de volgende handelingen uit te voeren:
+1. (Optioneel) Klik op de pijl-omlaag naar rechts van een kolomkop om een van de volgende handelingen uit te voeren, <span class="preview"> op het **Veld** tabblad </span> :
+
+   <span class="preview">![ lusje van het Gebied op de de invoerdoos van het verslagtype ](assets/field-tab-on-record-type-import-mapping-box.png)</span>
 
    * De naam van een veld wijzigen
    * Verander het **type van Gebied**
    * Werk het gebied **Beschrijving** bij
+
+1. <span class="preview"> (Facultatief) klik het **lusje van de Verbinding** om de informatie in de kolom aan een verbonden gebied van andere verslagtypes in kaart te brengen.</span>
+
+   <span class="preview">![ het lusje van de Verbinding op de doos van de de invoerafbeelding van het verslagtype ](assets/connection-tab-on-record-type-import-mapping-box.png)</span>
+
+   >[!TIP]
+   >
+   ><span class="preview"> u kunt slechts aan gebieden van de Planning van Workfront verbonden verslagen in kaart brengen. U kunt niet toewijzen aan velden via Workfront- of AEM Assets-verbindingen. Voor meer informatie, zie de sectie [ Overwegingen over het invoeren van verslagtypes gebruikend een Excel of Csv- dossier ](#considerations-about-importing-record-types-using-an-excel-or-csv-file) in dit artikel.</span>
 
 1. (Voorwaardelijk) na het bijwerken van informatie over het gebied, klik **sparen**.
 

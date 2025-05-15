@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '3395'
+source-wordcount: '3680'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,8 @@ Voor informatie over verslagmeningen en hoe te om hen te beheren, zie [ verslagm
 In dit artikel wordt de volgende informatie beschreven:
 
 * [Kolommen en rijen in een tabelweergave maken of bewerken](#manage-a-table-view)
-* [ laat aanwezigheidsindicatoren in real time voor de lijstmening ](#enable-the-real-time-presence-indicator) toe
-  <!--* <span class="preview">[Export a table view to a CSV or Excel file](#export-the-table-view)</span>-->
+* [Aanwezigheidsindicatoren in real time inschakelen voor de tabelweergave](#enable-the-real-time-presence-indicator)
+* <span class="preview">[ Uitvoer een lijstmening naar een CSV of dossier van Excel ](#export-the-table-view)</span>
 
 ## Toegangsvereisten
 
@@ -88,7 +88,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 <tr> 
    <td role="rowheader"><p>Objectmachtigingen</p></td> 
    <td>   <p>Rechten beheren voor een weergave</p>  
-   <p>Machtigingen weergeven voor een weergave om de weergave-instellingen tijdelijk te wijzigen of te dupliceren <!--<span class="preview">or to export the view</span>--></p> </td> 
+   <p>De toestemmingen van de mening aan een mening om de meningsmontages tijdelijk te veranderen, dupliceren, <span class="preview"> of het uit te voeren </span></p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Lay-outsjabloon</p></td> 
@@ -109,8 +109,6 @@ U kunt recordgegevens alleen in de tabelweergave bewerken.
 Voor meer informatie over het uitgeven van verslagen in de lijstmening, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.
 
 ## Een tabelweergave beheren {#manage-a-table-view}
-
-<!--insert screen shot of table view-->
 
 Wanneer u een tabelweergave maakt, worden alle records van het geselecteerde type weergegeven in een tabel. Elke rij is een unieke record en elke kolom is een recordveld. Alle velden en alle records worden standaard weergegeven.
 
@@ -205,7 +203,7 @@ U kunt maximaal 500 velden (of kolommen) toevoegen aan een tabelweergave.
 
 1. Ga als volgt te werk om snel records te zoeken die overeenkomen met een trefwoord:
 
-   1. Klik het **pictogram van het Onderzoek ![ pictogram van het 1&rbrace; Onderzoek ](assets/search-icon.png) en begin een sleutelwoord verbonden aan om het even welk gebied van een verslag te typen dat op het scherm toont.** Het aantal juiste overeenkomsten wordt weergegeven naast het zoekitem en het veld met de juiste overeenkomst wordt gemarkeerd.
+   1. Klik het **pictogram van het Onderzoek ![ pictogram van het 1} Onderzoek ](assets/search-icon.png) en begin een sleutelwoord verbonden aan om het even welk gebied van een verslag te typen dat op het scherm toont.** Het aantal juiste overeenkomsten wordt weergegeven naast het zoekitem en het veld met de juiste overeenkomst wordt gemarkeerd.
 
       ![ vakje van het Onderzoek met resultaten blauw overzicht in lijstmening ](assets/search-box-with-results-blue-outline-table-view.png)
 
@@ -232,7 +230,7 @@ U kunt tot 50.000 verslagen (of rijen) voor recordtypeS hebben.
 
    De records die u in de tabelweergave toevoegt, worden direct opgeslagen en zijn zichtbaar voor alle gebruikers met de machtiging Weergave of hoger voor de werkruimte.
 
-1. (Facultatief) voeg een duimnagel aan elk verslag toe, en klik **Gebieden** in de hoger-juiste hoek van de lijst, dan selecteren de knevel voor het **3&rbrace; gebied van de Duimnagel &lbrace;om het links van het primaire gebied te tonen.** Deze optie is standaard uitgeschakeld.
+1. (Facultatief) voeg een duimnagel aan elk verslag toe, en klik **Gebieden** in de hoger-juiste hoek van de lijst, dan selecteren de knevel voor het **3} gebied van de Duimnagel {om het links van het primaire gebied te tonen.** Deze optie is standaard uitgeschakeld.
 
    Voor informatie, zie [ een duimnagel aan een verslag ](/help/quicksilver/planning/records/add-thumbnails-to-records.md) toevoegen.
 
@@ -547,51 +545,52 @@ Wanneer u de tabelweergave weergeeft, kunt u ook bekijken welk veld een andere g
    >
    >U kunt **selecteren toont samenwerkers** knevel van om het even welke mening. Het veld dat momenteel door anderen wordt bewerkt, wordt alleen in de tabelweergave weergegeven.
 
-<!--<div class="preview">
+<div class="preview">
 
-## Export the table view
+## De tabelweergave exporteren
 
-You can export information in the table view to a CSV or an Excel file. 
+U kunt informatie in de lijstmening naar een CSV of een dossier van Excel uitvoeren.
 
-Consider the following when exporting the table view:
+Houd rekening met het volgende wanneer u de tabelweergave exporteert:
 
-* The information exported to an Excel file preserves the filters, groupings, and sorts applied to the table view in Workfront Planning. Groupings are not visible in the CSV file.
+* Bij de informatie die naar een Excel-bestand wordt geëxporteerd, blijven de filters, groepen en sorteren behouden die op de tabelweergave in Workfront Planning zijn toegepast. Groepen zijn niet zichtbaar in het CSV-bestand.
 
-* Thumbnails and custom row colors are not supported in exported files.  
+* Miniaturen en aangepaste rijkleuren worden niet ondersteund in geëxporteerde bestanden.
 
-* Only fields made visible in the Workfront interface are exported. Hidden fields are not exported.
+* Alleen velden die zichtbaar zijn gemaakt in de Workfront-interface worden geëxporteerd. Verborgen velden worden niet geëxporteerd.
 
-To export information from the table view or a record type:
+Informatie exporteren uit de tabelweergave of een recordtype:
 
-1. Go to a record type page and click a table view tab. 
-1. Hover over the table view tab's name, then click the **More** menu ![More menu](assets/more-menu.png).
-1. Click **Export**, then select one of the following formats:
+1. Ga naar een pagina met recordtypen en klik op een tabblad met tabelweergave.
+1. Beweeg over de naam van het lusje van de lijstmening, dan klik **Meer** menu ![ Meer menu ](assets/more-menu.png).
 
-    * Excel
-    * CSV
+   ![ Meer menu op een mening ](assets/view-more-menu-with-duplicate-option.png)
+1. Klik **Uitvoer**, dan selecteer één van de volgende formaten:
 
-    >[!IMPORTANT]
-    >
-    >You cannot export information from the table view when you display a different view on the screen. You must display the table view that you want to export in order to access the Export option in the More menu. 
+   * Excel
+   * CSV
 
-    The file is downloaded to your computer. 
+   >[!IMPORTANT]
+   >
+   >U kunt geen informatie uit de lijstmening uitvoeren wanneer u een verschillende mening op het scherm toont. U moet de lijstmening tonen die u wilt uitvoeren om tot de optie van de Uitvoer in het Meer menu toegang te hebben.
 
-1. (Optional) Go to the downloads folder on your computer and find the downloaded file. 
+   Het bestand wordt naar de computer gedownload.
 
-    The name of the exported file follows the following format: 
+1. (Optioneel) Ga naar de map Downloads op uw computer en zoek het gedownloade bestand.
 
-    `Name of the view - name of the record type`
+   De naam van het geëxporteerde bestand heeft de volgende indeling:
 
-    For example, a table view for the Campaigns record type generates a file named `Table view - Campaigns`.
+   `Name of the view - name of the record type`
 
-    The file displays the following information: 
-    
-    * The column headers are highlighted in black, in the Excel file
-    * All the fields visible in the Workfront interface, sorted and filtered by the same criteria
-    * Groupings are preserved in the Excel file
+   Een tabelweergave voor het recordtype Campagnes genereert bijvoorbeeld een bestand met de naam `Table view - Campaigns` .
 
-    You can now share the exported files with others, or attach them to any communication. 
-    
- </div>   
+   Het bestand bevat de volgende informatie:
 
- -->
+   * De kolomkoppen worden in het Excel-bestand zwart gemarkeerd.
+   * Alle velden die zichtbaar zijn in de Workfront-interface, worden op dezelfde criteria gesorteerd en gefilterd
+   * Groepen blijven behouden in het Excel-bestand
+
+   U kunt de geëxporteerde bestanden nu delen met anderen of koppelen aan communicatie.
+
+</div>
+
