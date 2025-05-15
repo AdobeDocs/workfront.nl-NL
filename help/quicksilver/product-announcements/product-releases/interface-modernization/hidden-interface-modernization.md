@@ -6,9 +6,10 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: b2ab4ca5aab65966d3833b0e6d58a563e70694e0
+exl-id: c0bf438f-f496-420a-b3b6-b958c8a70d3f
+source-git-commit: 1d2761d50176ea5ddf7649f31da8423fd60a6fe6
 workflow-type: tm+mt
-source-wordcount: '3354'
+source-wordcount: '3365'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ Deze pagina bevat een overzicht van de interface-updates die we in Adobe Workfro
 >
 >In de meeste gevallen, wordt elke update eerst vrijgegeven aan het milieu van de Voorproef, dan incrementeel toegelaten in de milieu van de Productie voor een groeiende ondergroep klanten die op de vermelde de versiedatum van de Productie begint.
 
-Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product [&#128279;](/help/quicksilver/product-announcements/product-releases/product-releases.md).
+Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product ](/help/quicksilver/product-announcements/product-releases/product-releases.md).[
 
 
 ## Documenten
@@ -556,6 +557,8 @@ Er is een nieuwe knop Tekstmodus bewerken en modaal bewerken toegevoegd aan de v
 
 ### Updates en opmerkingen
 
++++Breid om Updates en de interfaceupdates van Commentaren te bekijken die in Q2 worden gemaakt
+
 ### Zoeken naar updates voor de menuopties Meer voor opmerkingen
 
 **de versie van de Voorproef: 17 april, 2024; De versie van de productie: Beginnend de week van 17 april, 2024**
@@ -569,3 +572,5 @@ Deze update bevat de volgende wijzigingen:
 * De handeling Verwijderen is gemarkeerd door deze in rood weer te geven.
 
 Voor informatie, zie [ het werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
++++
