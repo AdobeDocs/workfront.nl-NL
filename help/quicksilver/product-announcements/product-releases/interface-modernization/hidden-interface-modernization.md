@@ -22,7 +22,7 @@ Deze pagina bevat een overzicht van de interface-updates die we in Adobe Workfro
 >
 >In de meeste gevallen, wordt elke update eerst vrijgegeven aan het milieu van de Voorproef, dan incrementeel toegelaten in de milieu van de Productie voor een groeiende ondergroep klanten die op de vermelde de versiedatum van de Productie begint.
 
-Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product ](/help/quicksilver/product-announcements/product-releases/product-releases.md).[
+Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product [&#128279;](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 
 ## Documenten
