@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1a98053a-7f0d-4c87-a9eb-f081dade872c
-source-git-commit: 564d9b6ba81093caf7ac897ef785120f3bc85d07
+source-git-commit: 93a904811ccc48d320c8d2646c095017baf13900
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,44 @@ Voor een lijst van alle veranderingen beschikbaar met het Derde Kwartaal 2025 ve
 ## Modernisering van de interface
 
 We werken de interface in Adobe Workfront bij om de gebruikerservaring te verbeteren en deze te verenigen met andere Adobe-toepassingen. Deze veranderingen worden vrijgegeven buiten het standaardversieschema. Voor een lijst van deze veranderingen, zie [ Modernisering van de Interface ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+
+<!--
+
+## Look-and-feel-updates to a group's recently restored items
+
+>[!NOTE]
+>
+>Preview release: May 15, 2025; Production release for all customers: May 15, 2025
+
+We have updated the look and feel of the recently restored items for groups, to match the design of other areas of Workfront. No functionality has changed for recently restored group projects, tasks, requests, documents, or templates.
+
+To view this change, go to Setup > Groups > Select name of group > Recently Restored.
+
+For information, see [View and manage a group's recently restored items](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md).
+
+-->
+
+## De blik-en-voelen-updates aan de pagina van de Diagnostiek in Opstelling
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 15 mei 2025; Productieversie voor alle klanten: 15 mei 2025
+
+We hebben het uiterlijk van de pagina Diagnostics in het gedeelte Setup (Instellingen) aangepast aan het ontwerp van andere gebieden van Workfront.
+
+Ga naar Setup > System > Diagnostics om deze wijziging weer te geven.
+
+Voor informatie, zie [ Diagnose van het Gebruik om geautomatiseerde processen ](/help/quicksilver/administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md) teweeg te brengen.
+
+## Updates weergeven wanneer u een factureringsfrequentie aan een sjabloon toevoegt
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 15 mei 2025; Productieversie voor alle klanten: 15 mei 2025
+
+Wij hebben de interface bijgewerkt wanneer het toevoegen van een het factureringstarief aan een malplaatje, om andere gebieden van de toepassing aan te passen.
+
+Er zijn geen functiewijzigingen geïntroduceerd met deze update.
 
 ## Zoeken naar updates voor de menuopties Meer voor opmerkingen
 

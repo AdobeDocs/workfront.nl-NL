@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: b81164511776efed53d3f41b4ac1cbf0c035c741
+source-git-commit: a39ba047fc4c1e422f3bea8bd9266b9197219900
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '1041'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,61 @@ In dit artikel worden de functies beschreven die tijdens de release van het derd
 <!--keep the sentence below for all future quarterly release pages-->
 
 Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront worden vrijgegeven, zie [ de versieactiviteit van de Planning van Adobe Workfront: artikelindex ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Werk de instellingen van de tijdlijnweergave bij om het uiterlijk van de verbonden recordbalken te bepalen wanneer u de optie Onderverdeling gebruikt
+
+>[!NOTE]
+>
+>* Voorbeeld: 15 mei 2025
+>* Snelle productie: 12 juni 2025
+>* Productie voor alle afnemers: 17 juli 2025
+
+U kunt nu het uiterlijk van de recordbalken in de tijdlijnweergave opmaken voor de records in de uitsplitsing. U kunt de volgende instellingen voor de balken van deze records bijwerken:
+
+* Stijl van balk
+* Kleur
+
+Voorafgaand aan deze verbetering, kon u de bars van de belangrijkste verslagen slechts formatteren aangezien zij in de chronologiemening tonen, en u kon niet de bars van de verbonden verslagen formatteren.\
+ 
+Voor informatie, zie [ de chronologiemening ](/help/quicksilver/planning/views/manage-the-timeline-view.md) leiden.  
+
+## De tabelweergave exporteren naar een CSV- of Excel-bestand 
+
+>[!NOTE]
+>
+>* Voorbeeld: 15 mei 2025
+>* Snelle productie: 12 juni 2025
+>* Productie voor alle afnemers: 17 juli 2025
+
+Wij hebben een nieuw vermogen aan de Planning van Workfront toegevoegd waar u informatie zichtbaar in de lijstmening naar een CSV of een dossier van Excel kunt uitvoeren.  
+
+Houd rekening met het volgende wanneer u gegevens uit de tabelweergave exporteert:  
+
+* Bij de geëxporteerde informatie wordt rekening gehouden met de filters, groepen en sorteren die op de tabelweergave in Workfront Planning zijn toegepast.
+* Miniaturen en aangepaste rijkleuren worden niet ondersteund in het geëxporteerde bestand.  
+* Alleen velden die zichtbaar zijn gemaakt in de Workfront-interface worden geëxporteerd. Verborgen velden worden niet geëxporteerd.  
+
+Voor meer informatie, zie [ de lijstmening ](/help/quicksilver/planning/views/manage-the-table-view.md) leiden. 
+
+## Workfront Planning-verbonden velden worden nu ondersteund bij het importeren van records met een CSV- of Excel-bestand
+
+>[!NOTE]
+>
+>* Voorbeeld: 15 mei 2025
+>* Snelle productie: 12 juni 2025
+>* Productie voor alle afnemers: 17 juli 2025
+
+U kunt nu de waarden van verbonden velden vullen wanneer u records toevoegt aan een recordtype met een CSV- of Excel-bestand.  Alleen verbonden planningsrecordvelden worden ondersteund. Velden met verbindingen met andere toepassingen worden niet ondersteund.
+
+Deze wijziging wordt ondersteund bij het importeren van een CSV- en Excel-bestand om zowel een recordtype als records voor een bestaand recordtype te maken.
+
+Voorafgaand aan deze verbetering, konden de verbindingsgebieden niet worden bevolkt wanneer u verslagen invoerde.
+
+Raadpleeg de volgende artikelen voor meer informatie:
+
+* [ creeer verslagen door informatie van een CSV of dossier van Excel ](/help/quicksilver/planning/records/import-file-to-create-records.md) in te voeren.
+
+* [ creeer verslagtypes door informatie van een CSV of dossier van Excel ](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md) in te voeren.
 
 ## Inline bewerken op de pagina Verbonden records van een record
 
