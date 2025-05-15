@@ -87,7 +87,7 @@ Een factureringssnelheid voor een project overschrijven:
 
    Het vak Nieuwe factureringsfrequentie wordt geopend.
 
-1. Op het **gebied van de Rol van de Baan 0}, selecteer de baanrol u het facturerings tarief voor wilt veranderen.**
+1. Op het **gebied van de Rol van de Baan 0&rbrace;, selecteer de baanrol u het facturerings tarief voor wilt veranderen.**
 
    ![ met voeten treden facturerend tarief op project ](assets/override-billing-rate-on-project-nwe-350x310.png)
 
