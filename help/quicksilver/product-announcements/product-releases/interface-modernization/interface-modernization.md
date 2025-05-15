@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 8e8a10d375e721199c5f81f425178a7bae0bf0c0
+source-git-commit: 0525dc9025f43491a5413726600df0dbb9e45b94
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '3539'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,47 @@ Deze pagina bevat een overzicht van de interface-updates die we in Adobe Workfro
 >
 >In de meeste gevallen, wordt elke update eerst vrijgegeven aan het milieu van de Voorproef, dan incrementeel toegelaten in de milieu van de Productie voor een groeiende ondergroep klanten die op de vermelde de versiedatum van de Productie begint.
 
-Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product [&#128279;](/help/quicksilver/product-announcements/product-releases/product-releases.md).
+Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product ](/help/quicksilver/product-announcements/product-releases/product-releases.md).[
+
+
+## Beheer en installatie
+
+### Interface-updates voor onlangs herstelde items van een groep
+
+**de versie van de Voorproef: 15 mei, 2025; De versie van de productie: 15 mei, 2025**
+
+We hebben het uiterlijk van de onlangs herstelde items voor groepen aangepast aan het ontwerp van andere gebieden van Workfront. Er is geen functionaliteit gewijzigd voor onlangs herstelde groepsprojecten, taken, verzoeken, documenten of sjablonen.
+
+Ga naar Instellingen > Groepen > Naam van groep selecteren > Onlangs hersteld om deze wijziging weer te geven.
+
+Voor informatie, zie [ Mening en beheer onlangs herstelde punten van een groep ](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md).
+
+
+### Interface updates to the Diagnostics page in Setup
+
+**de versie van de Voorproef: 15 mei, 2025; De versie van de productie: 15 mei, 2025**
+
+We hebben het uiterlijk van de pagina Diagnostics in het gedeelte Setup (Instellingen) aangepast aan het ontwerp van andere gebieden van Workfront.
+
+Ga naar Setup > System > Diagnostics om deze wijziging weer te geven.
+
+Voor informatie, zie [ Diagnose van het Gebruik om geautomatiseerde processen ](/help/quicksilver/administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md) teweeg te brengen.
+
+### Interface werkt bij het toevoegen van een factureringstarief aan een malplaatje
+
+**de versie van de Voorproef: 15 mei, 2025; De versie van de productie: 15 mei, 2025**
+
+Wij hebben de interface bijgewerkt wanneer het toevoegen van een het factureringstarief aan een malplaatje, om andere gebieden van de toepassing aan te passen.
+
+Er zijn geen functiewijzigingen geïntroduceerd met deze update.
+
+## Documenten
+
+### Een document delen met een extern e-mailadres
+
+**de versie van de Voorproef: 15 mei, 2025; De versie van de productie: Te aankondigen**
+
+Het dialoogvenster Delen is bijgewerkt zodat gebruikers documenten kunnen delen met externe gebruikers via een e-mailadres. Deze functionaliteit was tijdelijk niet beschikbaar toe te schrijven aan het werk van de interfacemodernisering.
 
 ## Navigatie en zoeken
 
@@ -42,9 +82,103 @@ Voor meer informatie, zie [ Onderzoek  [!DNL Adobe Workfront]](/help/quicksilver
 
 We hebben de pagina die u gebruikt, bijgewerkt zodat u ondersteuning kunt bieden voor toegang tot uw Workfront-account met een modernere opzet die aansluit bij andere delen van Workfront.
 
-## Beheer en installatie
+
+## Gebruikers
+
+### Bijgewerkt zoeken naar de aanmeldingspagina
+
+**de versie van de Voorproef: 15 mei, 2024; De versie van de productie: Te aankondigen**
+
+We hebben de aanmeldingspagina bijgewerkt met een modern ontwerp dat aansluit bij andere delen van Workfront.
+
+### Bijgewerkte zoekopdracht voor pagina met opnieuw ingestelde wachtwoorden
+
+**de versie van de Voorproef: 15 mei, 2024; De versie van de productie: Te aankondigen**
+
+We hebben het scherm Wachtwoord opnieuw instellen bijgewerkt met een modern ontwerp dat aansluit bij andere delen van Workfront. Deze update bevat updates voor de volgende pagina&#39;s:
+
+* Wachtwoord bijna verlopen
+* Verlopen wachtwoord
+* Tijdelijk wachtwoord
+
+### Pagina voor delen van document is bijgewerkt voor externe gebruikers
+
+**de versie van de Voorproef: 10 april, 2024; De versie van de productie: Beginnend de week van 17 april, 2024**
+
+We hebben de pagina voor het delen van documenten voor externe gebruikers bijgewerkt met een moderner ontwerp dat aansluit bij andere delen van Workfront.
+
+De externe gebruikers kunnen niet meer tot _Mijn Montages_ van deze pagina toegang hebben.
+
+### Bijgewerkte externe gebruikersregistratiepagina
+
+**de versie van de Voorproef: 24 april, 2024; De versie van de productie: Beginnend de week van 8 mei, 2024**
+
+We hebben de externe pagina voor gebruikersregistratie bijgewerkt met een moderner ontwerp dat aansluit bij andere gebieden van Workfront.
+
+## Licenties
+
+### Pagina met bijgewerkte licentieovereenkomsten
+
+**de versie van de Voorproef: 24 april, 2024; De versie van de productie: Beginnend de week van 8 mei, 2024**
+
+We hebben de pagina met licentieovereenkomsten bijgewerkt met een moderner ontwerp dat aansluit bij andere gebieden van Workfront.
+
+
+
+## Interface-updates gemaakt in Q2
+
+
+### Beheer en installatie
 
 +++Breid aan de updates van de interface van het Beleid en van de Opstelling uit die in Q2 worden gemaakt
+
+### De updates van de interface aan het gebied van het Beheer van het Middel in Opstelling
+
+**de versie van de Voorproef: 17 April, 2025; Beginnend de week van 17 April, 2025**
+
+Wij hebben de blik en het gevoel van de voorkeur van het Beheer van Middelen in het gebied van de Opstelling bijgewerkt, om het ontwerp van andere gebieden van Workfront aan te passen.
+
+Voor informatie, zie [ de voorkeur van het Beheer van het Middel ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md) vormen.
+
+## De updates van de interface aan een lijst van de Weg van de Mijlpaal in Opstelling
+
+**de versie van de Voorproef: 6 Maart, 2025; Beginnend de week van 10 April, 2025**
+
+Wij hebben de blik en het gevoel van de lijst van de Weg van de Mijlpaal in het gebied van de Opstelling bijgewerkt, om het ontwerp van andere gebieden van Workfront aan te passen.
+
+Voor informatie, zie [ een milestone weg ](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) creëren.
+
+## Interface-update voor het vak Type risico bewerken in Setup
+
+**de versie van de Voorproef: 27 Maart, 2025; Beginnend de week van 10 April, 2025**
+
+Wij hebben de blik en het gevoel van het Edit vakje van het Type van Risico bijgewerkt wanneer u een bestaand Type van Risico in het gebied van de Opstelling van Workfront bijwerkt. Het nieuwe ontwerp komt nu overeen met andere delen van Workfront.
+
+Voor informatie, zie [ uitgeven en creeer risicstypes ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
+
+### De update van de interface aan het Nieuwe vakje van het Type van Risico in Opstelling
+
+**de versie van de Voorproef: 27 Maart, 2025; Beginnend de week van 10 April, 2025**
+
+Wij hebben de blik en het gevoel van het Nieuwe vakje van het Type van Risico bijgewerkt wanneer u een nieuw Type van Risico in het gebied van de Opstelling van Workfront toevoegt. Het nieuwe ontwerp komt nu overeen met andere delen van Workfront.
+
+Voor informatie, zie [ uitgeven en creeer risicstypes ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
+
+### De update van de interface in de dialoogvensters van de Types van Uitgaven in Opstelling
+
+**de versie van de Voorproef: 27 Maart, 2025; Beginnend de week van 10 April, 2025**
+
+We hebben de vormgeving van de dialoogvensters voor het toevoegen en bewerken van kostentypen in het gedeelte Setup bijgewerkt, zodat deze overeenkomen met het ontwerp van andere gebieden van Workfront.
+
+Voor informatie, zie [ de types van douanevergoeding ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md) creëren.
+
+### De bijgewerkte ervaring in het gebied van Niveaus van de Toegang in Opstelling
+
+**de versie van de Voorproef: 27 Maart, 2025; Beginnend de week van 10 April, 2025**
+
+Om prestaties te verbeteren, hebben wij sommige visuele updates aan het gebied van Niveaus van de Toegang in Opstelling gemaakt.
+
+Er is een kleine functiewijziging toegepast op de lijst Toegangsniveaus. Als u een toegangsniveau wilt kopiëren, bewerken of verwijderen, selecteert u het niveau en klikt u op het betreffende pictogram.
 
 ### Interface-update voor het Aankondigingscentrum
 
@@ -172,7 +306,7 @@ Deze update bevat visuele wijzigingen in het gebied. Er is geen functionaliteit 
 
 +++
 
-## Agile
+### Agile
 
 +++ breid uit om de updates van de interface van Agile te bekijken die in Q2 worden gemaakt
 
@@ -236,13 +370,7 @@ Om deze verandering te bekijken, ga naar Teams > kies een team > Achtergrond, da
 
 +++
 
-## Documenten
-
-### Een document delen met een extern e-mailadres
-
-**de versie van de Voorproef: 15 mei, 2025; De versie van de productie: Te aankondigen**
-
-Het dialoogvenster Delen is bijgewerkt zodat gebruikers documenten kunnen delen met externe gebruikers via een e-mailadres. Deze functionaliteit was tijdelijk niet beschikbaar toe te schrijven aan het werk van de interfacemodernisering.
+### Documenten
 
 +++ breid uit om de interfaceupdates van Documenten te bekijken die in Q2 worden gemaakt
 
@@ -282,13 +410,118 @@ Ga naar Documenten > Klik op het menu Meer naast de naam van het slimme filter >
 
 +++
 
-## Rapporten en dashboards
+### Projecten
+
++++Breid om de interfaceupdates van Projecten te bekijken die in Q2 worden gemaakt
+
+### Kijk en voel updates aan het gebied van de Details van de Rij van een project
+
+**de versie van de Voorproef: 27 Maart, 2025; Beginnend de week van 10 April, 2025**
+
+We hebben de vormgeving van het gebied Wachtrij details voor een project aangepast aan het ontwerp van andere delen van Workfront.
+
+Met deze update is de vormgeving van het gebied Wachtrij details van een sjabloon niet gewijzigd.
+
+Voor informatie, zie [ een Rij van het Verzoek ](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
+
+### Bijgewerkte weergave van een projectmijlpaden in een projectweergave
+
+**de versie van de Voorproef: 13 Maart, 2025; Beginnend de week van 10 April, 2025**
+
+Wanneer het toegang tot van de mijlpaden van een projectlijst of een rapport, heeft de de detailpagina van de mijlpaal nu een nieuwe blik en een gevoel. U moet het gebied van de Naam van de Weg van de Mijlpaal aan de mening van de lijst of het rapport toevoegen om tot de de detailspagina van de weg van de mijlpaal toegang te hebben.
+
+Met deze update hebben we ook informatie toegevoegd over de kleuren en kleurcodes van elke mijlpaal.
+
+Voor informatie, zie [ een milestone weg ](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) creëren.
+
++++
+
+
+### Rapporten en dashboards
 
 +++Breid aan meningsRapporten en de interfaceupdates van Dashboards uit die in Q2 worden gemaakt
 
+### Updates van een Mijlpaal-padrapport weergeven
+
+**de versie van de Voorproef: 30 april, 2025; de versie van de Productie: 30 april, 2025**
+
+We hebben de blik en het gevoel van het rapport Mijlpaal Path aangepast aan het ontwerp van andere gebieden van Workfront.
+
+Voor informatie, zie [ een douanerapport ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+
+### Bijgewerkte rapporten met nieuwe opmaak
+
+**de versie van de Voorproef: 23 april, 2025; de versie van de Productie: 23 april, 2025**
+
+We hebben het uiterlijk van meerdere rapporten aangepast aan het ontwerp van andere gebieden van Workfront. Er is geen functionaliteit gewijzigd.
+
+Deze update bevat visuele wijzigingen in de lijsten en werkbalken van de rapporten voor de volgende objecttypen:
+
+* Sjabloontaken
+* Onderwerpgroepen
+* Scorecards
+* Planningen
+
+Voor informatie, zie [ een douanerapport ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+
+### Interface-updates voor onlangs herstelde items
+
+**de versie van de Voorproef: 23 april, 2025; de versie van de Productie: 23 april, 2025**
+
+We hebben de vormgeving van de onlangs herstelde items in het gedeelte Setup aangepast aan het ontwerp van andere delen van Workfront. Er is geen functionaliteit gewijzigd voor onlangs herstelde projecten, taken, verzoeken, documenten of sjablonen.
+
+Ga naar Setup > Prullenbak > Onlangs hersteld om deze wijziging weer te geven.
+
+Voor informatie, zie [ Mening herstelde punten ](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
+
+### De updates van de interface voor het het bedrijfvakje van de Schrapping in een rapport van het Bedrijf
+
+**de versie van de Voorproef: 17 April, 2025; De versie van de Productie: 17 april, 2025**
+
+Wij hebben de blik en het gevoel van het het bedrijfvakje van de Schrapping bijgewerkt wanneer u een bedrijf uit een rapport van het Bedrijf schrapt. Het nieuwe ontwerp komt nu overeen met andere delen van Workfront.
+
+Met deze update, is de blik en het gevoel van het de bedrijfvakje van de Schrapping op de pagina van Bedrijven in het gebied van de Opstelling niet veranderd.
+
+### Bijgewerkte rapporten met nieuwe opmaak
+
+**de versie van de Voorproef: 17 April, 2025; De versie van de Productie: 17 april, 2025**
+
+We hebben het uiterlijk van meerdere rapporten aangepast aan het ontwerp van andere gebieden van Workfront.
+
+Deze update bevat visuele wijzigingen in de lijsten en werkbalken van de volgende rapporten. Er is geen functionaliteit gewijzigd.
+
+* Bedrijf
+* Type uitgave
+* Groep
+* Uurtype
+* Dagboekinvoer
+* Niet-arbeidbron (alleen beschikbaar voor specifieke klanten)
+* Niet-arbeidsuitrustingscategorie (alleen beschikbaar voor specifieke klanten)
+* Onderwerp van wachtrij
+* Type risico
+* Tijdbladprofiel
+* Gebruikersdelegatie
+
+Voor informatie, zie [ een douanerapport ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+
+### Bijgewerkte rapporten met nieuwe opmaak
+
+**de versie van de Voorproef: 9 April, 2025; De versie van de Productie: 9 April, 2025**
+
+We hebben het uiterlijk van meerdere rapporten aangepast aan het ontwerp van andere gebieden van Workfront.
+
+Deze update bevat visuele wijzigingen in de lijsten en werkbalken van de volgende rapporten. Er is geen functionaliteit gewijzigd.
+
+* Parameter
+* Parametergroep
+* Aangepaste Forms
+* Tijd uit
+
+Voor informatie, zie [ een douanerapport ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+
 ### Het bijgewerkte rapport Toegangsniveau met nieuwe opmaak
 
-**de versie van de Voorproef: 30 Januari, 2024; De versie van de productie: Beginnend de week van 6 Februari, 2025**
+**de versie van de Voorproef: 30 Januari, 2025; De versie van de Productie: Beginnend de week van 6 Februari, 2025**
 
 We hebben het Access Level-rapport bijgewerkt met een modernere opzet die aansluit bij andere gebieden van Workfront.
 
@@ -351,42 +584,20 @@ Er is een nieuwe knop Tekstmodus bewerken en modaal bewerken toegevoegd aan de v
 
 +++
 
-## Gebruikers
+### Updates en opmerkingen
 
-### Bijgewerkt zoeken naar de aanmeldingspagina
++++Breid om Updates en de interfaceupdates van Commentaren te bekijken die in Q2 worden gemaakt
 
-**de versie van de Voorproef: 15 mei, 2024; De versie van de productie: Te aankondigen**
+### Interface-update voor de menu-opties Meer voor opmerkingen
 
-We hebben de aanmeldingspagina bijgewerkt met een modern ontwerp dat aansluit bij andere delen van Workfront.
+**de versie van de Voorproef: 17 April, 2024; De versie van de Productie: 17 april, 2024**
 
-### Bijgewerkte zoekopdracht voor pagina met opnieuw ingestelde wachtwoorden
+We hebben de weergave en het uiterlijk bijgewerkt van de opties die beschikbaar zijn in het menu Meer van een opmerking in de sectie Updates voor alle objecten.
 
-**de versie van de Voorproef: 15 mei, 2024; De versie van de productie: Te aankondigen**
+Deze update bevat de volgende wijzigingen:
 
-We hebben het scherm Wachtwoord opnieuw instellen bijgewerkt met een modern ontwerp dat aansluit bij andere delen van Workfront. Deze update bevat updates voor de volgende pagina&#39;s:
+* De acties zijn opnieuw gerangschikt, zodat soortgelijke functies worden gegroepeerd.
+* Ingevoegde scheidingslijnen om elke groep duidelijk te scheiden.
+* De handeling Verwijderen is gemarkeerd door deze in rood weer te geven.
 
-* Wachtwoord bijna verlopen
-* Verlopen wachtwoord
-* Tijdelijk wachtwoord
-
-### Pagina voor delen van document is bijgewerkt voor externe gebruikers
-
-**de versie van de Voorproef: 10 april, 2024; De versie van de productie: Beginnend de week van 17 april, 2024**
-
-We hebben de pagina voor het delen van documenten voor externe gebruikers bijgewerkt met een moderner ontwerp dat aansluit bij andere delen van Workfront.
-
-De externe gebruikers kunnen niet meer tot _Mijn Montages_ van deze pagina toegang hebben.
-
-### Bijgewerkte externe gebruikersregistratiepagina
-
-**de versie van de Voorproef: 24 april, 2024; De versie van de productie: Beginnend de week van 8 mei, 2024**
-
-We hebben de externe pagina voor gebruikersregistratie bijgewerkt met een moderner ontwerp dat aansluit bij andere gebieden van Workfront.
-
-## Licenties
-
-### Pagina met bijgewerkte licentieovereenkomsten
-
-**de versie van de Voorproef: 24 april, 2024; De versie van de productie: Beginnend de week van 8 mei, 2024**
-
-We hebben de pagina met licentieovereenkomsten bijgewerkt met een moderner ontwerp dat aansluit bij andere gebieden van Workfront.
+Voor informatie, zie [ het werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
