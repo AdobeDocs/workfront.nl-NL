@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 0525dc9025f43491a5413726600df0dbb9e45b94
+source-git-commit: e94d7f40accd80d631765405752a03bf3a0363f1
 workflow-type: tm+mt
-source-wordcount: '3539'
+source-wordcount: '3691'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Deze pagina bevat een overzicht van de interface-updates die we in Adobe Workfro
 >
 >In de meeste gevallen, wordt elke update eerst vrijgegeven aan het milieu van de Voorproef, dan incrementeel toegelaten in de milieu van de Productie voor een groeiende ondergroep klanten die op de vermelde de versiedatum van de Productie begint.
 
-Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product [&#128279;](/help/quicksilver/product-announcements/product-releases/product-releases.md).
+Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product ](/help/quicksilver/product-announcements/product-releases/product-releases.md).[
 
 
 ## Beheer en installatie
@@ -82,8 +82,28 @@ Voor meer informatie, zie [ Onderzoek  [!DNL Adobe Workfront]](/help/quicksilver
 
 We hebben de pagina die u gebruikt, bijgewerkt zodat u ondersteuning kunt bieden voor toegang tot uw Workfront-account met een modernere opzet die aansluit bij andere delen van Workfront.
 
+## Rapporten en dashboard
+
+### URL&#39;s met /tile of /qstile worden niet meer ondersteund in Workfront-dashboards
+
+**de versie van de Voorproef: Mei 13; De versie van de Productie: Te aankondigen**
+
+Als u een externe pagina op een dashboard hebt met een Workfront-URL die `/tile` of `/qstile` bevat, wordt die pagina niet meer geladen.
+
+Door `/tile` of `/qstile` aan een Workfront URL toe te voegen, kan de browser niet-ondersteunde klassieke ervaringspagina&#39;s laden die in juli 2022 zijn afgekeurd.
+
+We raden u aan de URL te vervangen om naar een ondersteunde pagina te gaan of de externe pagina van het dashboard te verwijderen.
+
 
 ## Gebruikers
+
+### Interface-update naar de nieuwe pagina voor gebruikersregistratie
+
+**de versie van de Voorproef: 15 mei, 2024; De versie van de productie: Te aankondigen**
+
+We hebben de nieuwe gebruikersregistratiepagina bijgewerkt met een modern ontwerp dat aansluit bij andere gebieden van Workfront.
+
+Gebruikers kunnen niet langer een foto uploaden naar deze pagina. Ze kunnen echter een foto in hun gebruikersprofiel uploaden nadat ze zich hebben aangemeld bij Workfront.
 
 ### Bijgewerkt zoeken naar de aanmeldingspagina
 
@@ -122,7 +142,6 @@ We hebben de externe pagina voor gebruikersregistratie bijgewerkt met een modern
 **de versie van de Voorproef: 24 april, 2024; De versie van de productie: Beginnend de week van 8 mei, 2024**
 
 We hebben de pagina met licentieovereenkomsten bijgewerkt met een moderner ontwerp dat aansluit bij andere gebieden van Workfront.
-
 
 
 ## Interface-updates gemaakt in Q2
