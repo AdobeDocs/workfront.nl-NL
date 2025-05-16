@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
+source-git-commit: d0ec729a510b78a7ce417356ac9250a485308f0b
 workflow-type: tm+mt
 source-wordcount: '3060'
 ht-degree: 0%
@@ -149,7 +149,7 @@ Een tijdlijnweergave beheren:
 
 1. Ga als volgt te werk om snel records te zoeken die overeenkomen met een trefwoord:
 
-   1. Klik het **pictogram van het Onderzoek ![ pictogram van het 1&rbrace; Onderzoek ](assets/search-icon.png) en begin een sleutelwoord verbonden aan om het even welk gebied van een verslag te typen dat op het scherm toont.** Het aantal juiste overeenkomsten wordt weergegeven naast het zoekitem en de record met de juiste overeenkomst wordt gemarkeerd.
+   1. Klik het **pictogram van het Onderzoek ![ pictogram van het 1} Onderzoek ](assets/search-icon.png) en begin een sleutelwoord verbonden aan om het even welk gebied van een verslag te typen dat op het scherm toont.** Het aantal juiste overeenkomsten wordt weergegeven naast het zoekitem en de record met de juiste overeenkomst wordt gemarkeerd.
 
       ![ vakje van het Onderzoek en de mening van de resultaatchronologie ](assets/search-box-and-results-timeline-view.png)
 
@@ -276,7 +276,7 @@ Werk de instellingen van de tijdlijnweergave bij om aan te geven wat en hoe info
 
 1. Klik **stijl van de Bar** in het linkerpaneel, om te wijzen op welke informatie u op de verslagbars wilt tonen.
 
-   <span class="preview"> u kunt de bar stijl van het belangrijkste verslag evenals voor de verbonden verslagen bepalen, wanneer het gebruiken van de optie van de Onderverdeling in de Standaardmening. </span>
+   U kunt de bar stijl van het belangrijkste verslag <span class="preview"> evenals voor de verbonden verslagen </span> bepalen, wanneer het gebruiken van de optie van de Onderverdeling in de Standaardmening.
 
    Het primaire veld (of de titel) van de record, zoals gedefinieerd in de tabelweergave van de record, wordt standaard geselecteerd.
    <!--adjust this when the primary field is released??-->
@@ -314,7 +314,7 @@ Werk de instellingen van de tijdlijnweergave bij om aan te geven wat en hoe info
 
    ![ het lusje van de Kleur chronologiemening ](assets/color-tab-timeline-view.png)
 
-   <span class="preview"> u kunt de kleur van het belangrijkste verslag evenals voor de verbonden verslagen bepalen, wanneer het gebruiken van de optie van de Onderverdeling in de Standaardmening. </span>
+   U kunt de kleur van het belangrijkste verslag <span class="preview"> evenals voor de verbonden verslagen </span> bepalen, wanneer het gebruiken van de optie van de Onderverdeling in de Standaardmening.
 
 1. (Voorwaardelijk en facultatief) als u een groepering aan de chronologiemening toevoegde, selecteer van de volgende opties om een kleur voor de groepering in de **Vastgestelde groeperingskleur** sectie te plaatsen:
 
