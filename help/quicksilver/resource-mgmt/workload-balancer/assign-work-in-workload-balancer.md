@@ -6,14 +6,16 @@ description: Als middelmanager, kunt u de Balancer van de Werkbelasting van Adob
 author: Lisa
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1032'
 ht-degree: 0%
 
 ---
 
 # Overzicht van het toewijzen van werk in de werklastverdeler
+
+<!-- Audited: 5/2025 -->
 
 Als middelmanager, kunt u de Balancer van de Werkbelasting van Adobe Workfront gebruiken om het werkpunten te bekijken die nog niet aan gebruikers zijn toegewezen evenals deze punten aan hen toe te wijzen.
 
@@ -28,9 +30,9 @@ Raadpleeg de volgende artikelen voor informatie over het toewijzen van werkitems
 
 ## Beschikbaarheid van gebruikers in de werklastverhouding
 
-U kunt werk toewijzen in Workload Balancer zodat dit overeenkomt met de beschikbare tijd van de gebruikers. Om ervoor te zorgen dat u de juiste hoeveelheid werk toewijst en de gebruiker niet te veel toewijst, moet het totaal van de geplande uren van de aan de gebruiker toegewezen werkitems overeenkomen met de dagelijkse of wekelijkse toewijzingen van de gebruiker.
+U kunt werk toewijzen in Workload Balancer zodat dit overeenkomt met de beschikbare tijd van de gebruikers. Om ervoor te zorgen dat u de juiste hoeveelheid werk toewijst en de gebruiker niet te veel toewijst, moet het totale aantal geplande uren van de aan de gebruiker toegewezen werkitems overeenkomen met de dagelijkse of wekelijkse toewijzingen.
 
-Je moet weten hoe Workfront de beschikbare tijd voor een gebruiker berekent.
+Het is belangrijk om te begrijpen hoe Workfront de beschikbare tijd voor een gebruiker berekent.
 
 Workfront gebruikt de volgende informatie om de capaciteit van de gebruiker in de Workload Balancer te berekenen:
 
@@ -43,7 +45,7 @@ Workfront gebruikt de volgende informatie om de capaciteit van de gebruiker in d
 
   Voor meer informatie, zie [ de voorkeur van het Beheer van het Middel ](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md) vormen.
 
-  Voor informatie over programma&#39;s, zie [ een programma ](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren
+  Voor informatie over programma&#39;s, zie [ een programma ](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren.
 
 * De time-out van de gebruiker. Dit geeft aan op welke dagen de gebruiker van plan is op te starten.
 
@@ -80,8 +82,8 @@ U kunt werk aan gebruikers toewijzen gebruikend de Balancer van de Werkbelasting
 
 Er zijn twee gebieden in de Balancer van de Werkbelasting waar u het werkpunten kunt bekijken:
 
-* **Niet toegewezen Werk**: toont punten die niet aan gebruikers worden toegewezen.
-* **Toegewezen Werk**: toont punten die aan gebruikers worden toegewezen.
+* **Niet toegewezen Werk**: De punten van vertoningen die niet aan gebruikers worden toegewezen.
+* **Toegewezen Werk**: De punten van vertoningen die aan gebruikers worden toegewezen.
 
 In de volgende tabel wordt beschreven welke items in elk gebied worden weergegeven op basis van hun toewijzingen:
 

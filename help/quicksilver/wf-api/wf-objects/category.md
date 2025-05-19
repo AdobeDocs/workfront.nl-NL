@@ -1,21 +1,23 @@
 ---
 content-type: api
 navigation-topic: workfront-objects
-title: Wanneer APIModel INTERNAL (OpTask)Categorie van het gebied niet steunt
-description: Wanneer APIModel INTERNAL geen gebied geprojecteerd steunt (OpTask)
+title: Categorie
+description: Een tabel met velden die beschikbaar zijn voor het object Categorie, met beschrijvingen en waardetypen.
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 24c900ee-a8f1-458e-a18b-c098c6314e0c
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
 
 
 # Categorie
+
+<!-- Audited: 5/2025 -->
 
 FieldSclass: &quot;java.lang.IllegalArgumentException&quot;,\
 bericht: &quot;APIModel INTERNAL ondersteunt geen field projectid (OpTask)&quot;
@@ -90,7 +92,7 @@ bericht: &quot;APIModel INTERNAL ondersteunt geen field projectid (OpTask)&quot;
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;extRefID&quot;}"><strong> extRefID </strong> </td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;External Reference ID&quot;}">Externe referentie-id</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">String</td> 
-   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;User Editable Field inteded to be used a link to an external object&quot;}">Bewerkbaar veld voor gebruiker dat is bestemd om een koppeling naar een extern object te gebruiken</td> 
+   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;User Editable Field inteded to be used a link to an external object&quot;}">Bewerkbaar veld voor gebruiker dat is bestemd voor gebruik als koppeling naar een extern object</td> 
    <td> </td> 
    <td> <p><span class="dtEdit"> Editable </span> </p> </td> 
   </tr> 
@@ -139,23 +141,23 @@ bericht: &quot;APIModel INTERNAL ondersteunt geen field projectid (OpTask)&quot;
 
 ## Verwijzingen
 
-| Naam | Label | Type | Objectcode type | URL |
-|---|---|---|---|---|
-| Klant | klant | Klant | CUST | [ https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| Ingevoerd door | enterBy | Gebruiker | GEBRUIKER | [ https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| Groep | groep | Groep | GROEP | [ https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| Laatst bijgewerkt op | lastUpdatedBy | Gebruiker | GEBRUIKER | [ https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
+| Naam | Label | Type | Objectcode type |
+|---|---|---|---|
+| Klant | klant | Klant | CUST |
+| Ingevoerd door | enterBy | Gebruiker | GEBRUIKER |
+| Groep | groep | Groep | GROEP |
+| Laatst bijgewerkt op | lastUpdatedBy | Gebruiker | GEBRUIKER |
 
 
 ## Verzamelingen
 
-| Naam | Label | Type | Objectcode type | URL |
-|---|---|---|---|---|
-| Toegangsregels | accessRules | Toegangsregel | ACSRUL | [ https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| Toegangsregels voor categorieën | categoryAccessRules | Toegangsregels voor categorieën | CATACR | [ https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| Regels voor trapsgewijze opmaak voor categorieën | categoryCascadeRules | Regels voor trapsgewijze catalogi | CTCSRL | [ https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| Categorieparameters | categoryParameters | Categorieparameters | CTGYPA | [ https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| Overige groepen | othergroups | Groep | GROEP | [ https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
+| Naam | Label | Type | Objectcode type |
+|---|---|---|---|
+| Toegangsregels | accessRules | Toegangsregel | ACSRUL |
+| Toegangsregels voor categorieën | categoryAccessRules | Toegangsregels voor categorieën | CATACR |
+| Regels voor trapsgewijze opmaak voor categorieën | categoryCascadeRules | Regels voor trapsgewijze catalogi | CTCSRL |
+| Categorieparameters | categoryParameters | Categorieparameters | CTGYPA |
+| Overige groepen | othergroups | Groep | GROEP |
 
 
 ## Handelingen
