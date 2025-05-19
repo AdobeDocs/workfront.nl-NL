@@ -142,7 +142,7 @@ De volgende beperkingen gelden voor het exporteren van gegevens via de functie v
      </tr> 
      <tr> 
       <td scope="col" valign="top"> <p>Aangepaste gegevens</p> </td> 
-      <td scope="col" valign="top"> <p>De Optie van de Parameter <br> van de Optie van de Parameter van de 1} <br> Categorie van de Parameter <br> Voorkeur <br><br></p> </td> 
+      <td scope="col" valign="top"> <p>De Optie van de Parameter <br> van de Optie van de Parameter van de 1&rbrace; <br> Categorie van de Parameter <br> Voorkeur <br><br></p> </td> 
       <td scope="col" valign="top"> <p> Excel</p> </td> 
      </tr> 
      <tr> 
@@ -254,7 +254,7 @@ De volgende beperkingen gelden voor het exporteren van gegevens via de functie v
      </tr> 
      <tr> 
       <td valign="top">Mijlpad</td> 
-      <td valign="top"> De Weg van de Mijlsteen <br> Voorkeur van de Weg van 0} Mijl<br> </td> 
+      <td valign="top"> De Weg van de Mijlsteen <br> Voorkeur van de Weg van 0&rbrace; Mijl<br> </td> 
       <td valign="top">Excel </td> 
      </tr> 
      <tr> 
