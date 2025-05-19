@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 69cd1eafd7798861a4868fe0d68707ab5ba9106c
+source-git-commit: 4c80802c8e0084aa9e7be350caefc8929c9c4e2b
 workflow-type: tm+mt
-source-wordcount: '2773'
+source-wordcount: '2782'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,7 @@ Een Kick-Start-sjabloon exporteren:
     </thead> 
     <tbody> 
      <tr> 
-      <td scope="col"> <p>Dashboard</p> <p>Alle dashboards in het systeem zijn beschikbaar om te exporteren. U kunt maximaal 100 specifieke dashboards selecteren in één export.</p> </td> 
+      <td scope="col"> <p>Dashboard</p> <p>Alle openbaar gedeelde dashboards in het systeem zijn beschikbaar om uit te voeren. Niet-gedeelde systeembrede dashboards kunnen niet worden geëxporteerd. U kunt maximaal 100 specifieke dashboards selecteren in één export.</p> </td> 
       <td scope="col">Exporteren als ZIP-bestand</td> 
       <td scope="col"> <p>Parameter</p> <p>Beschrijvende tekst</p><p>Parameteroptie</p> <p>Parametergroep</p> <p>Categorieparameter</p> <p>Categorie</p> <p>Rapport</p> <p>Sectie tabblad Portal</p> <p>Dashboard</p> <p>Voorkeuren</p> </td> 
      </tr> 
@@ -309,7 +309,7 @@ Wanneer u een van deze tabbladen opent, worden in rij 2 de velden weergegeven vo
 >
 >     Als een vereist veld echter een standaardwaarde bevat die is ingesteld in de systeemvoorkeuren, hoeft u deze waarde niet in te vullen.
 >
->     Bijvoorbeeld, op het **lusje van het Project van 0&rbrace; PROJ, kunnen de** setCondition **en** setConditionType **gebieden leeg worden verlaten, maar** setGroupID **en** setName **kolommen kunnen niet.**
+>     Bijvoorbeeld, op het **lusje van het Project van 0} PROJ, kunnen de** setCondition **en** setConditionType **gebieden leeg worden verlaten, maar** setGroupID **en** setName **kolommen kunnen niet.**
 >
 >* Bepaalde gebieden, met inbegrip van **setResourceRevenue** en **setEnteredByID**, worden automatisch geproduceerd door het systeem. Als u gegevens voor deze velden in het werkblad invoert, wordt deze genegeerd tijdens het uploaden van het werkblad.
 
@@ -345,7 +345,7 @@ Elke rij van het blad komt overeen met een uniek object.
    * Wanneer u een project invoert, moet u op een identiteitskaart van de Groep wijzen.
 
       * Als de groep reeds in Workfront bestaat, moet u zijn unieke identiteitskaart aan het **setGroupID** gebied voor het project toevoegen.
-      * Als de groep niet in Workfront bestaat, kunt u het **blad van de Groep van de 0&rbrace; GROEP aan uw het invoeren dossier toevoegen, plaats het** isNew **gebied aan** WAAR **op het blad van de Groep, en wijs op een numerieke identiteitskaart voor de nieuwe groep in de** identiteitskaart **kolom.** Het **setGroupID** gebied voor het nieuwe project moet numerieke **identiteitskaart** voor de nieuwe groep aanpassen.
+      * Als de groep niet in Workfront bestaat, kunt u het **blad van de Groep van de 0} GROEP aan uw het invoeren dossier toevoegen, plaats het** isNew **gebied aan** WAAR **op het blad van de Groep, en wijs op een numerieke identiteitskaart voor de nieuwe groep in de** identiteitskaart **kolom.** Het **setGroupID** gebied voor het nieuwe project moet numerieke **identiteitskaart** voor de nieuwe groep aanpassen.
 
      **Voorbeeld:** voor een project, moet de waarde die in de **wordt getoond setGroupID** kolom één van het volgende:
 
@@ -432,7 +432,7 @@ Hoewel het een beste praktijk is om IDs te gebruiken waar mogelijk, soms is het 
 
 * **de invoer van het Project**
 
-  Wanneer het invoeren van projecten, plaats **setGroupID** van de projecten door naar het **blad van de Groep van de GROEP** te gaan, nota te nemen van respectieve Groep IDs, en hen te kleven in de correcte cellen (**setGroupID** kolom) op het **7&rbrace; blad van het Project van de PROJ.**
+  Wanneer het invoeren van projecten, plaats **setGroupID** van de projecten door naar het **blad van de Groep van de GROEP** te gaan, nota te nemen van respectieve Groep IDs, en hen te kleven in de correcte cellen (**setGroupID** kolom) op het **7} blad van het Project van de PROJ.**
 
   Dit is mogelijk wanneer u met slechts een paar groepen en projecten werkt, maar als u met verschillende groepen werkt, is het niet praktisch.
 

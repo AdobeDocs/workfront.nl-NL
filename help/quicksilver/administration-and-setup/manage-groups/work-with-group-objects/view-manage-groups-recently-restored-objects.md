@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: Onlangs herstelde items van een groep weergeven en beheren
-description: Wanneer u een groep bekijkt die u in het gebied Groepen beheert, kunt u zijn onlangs herstelde het werkpunten, documenten, en malplaatjes bekijken, vilteren, groeperen en herstellen.
+description: Wanneer u een groep bekijkt die u in het gebied Groepen beheert, kunt u zijn onlangs herstelde het werkpunten, documenten, en malplaatjes bekijken, filtreren, groeperen en herstellen.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8ec06363-080e-4f1d-8a50-fc14f06ad323
-source-git-commit: 96b9939131beebd9c1968cb5c287d75295c68c5b
+source-git-commit: 379772f6bd1ed9448e6fd5feee956a931f65f69e
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -79,19 +79,8 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    Elk tabblad bevat items van het overeenkomende objecttype die tot de huidige groep of de subgroepen behoren en die in de afgelopen 30 dagen zijn hersteld.
 
-1. Voer een van de volgende handelingen uit:
+1. (Facultatief) om de volledige lijst van voorwerpen op het lusje uit te voeren, klik het **pictogram van de Uitvoer**. ![ het pictogram van de Uitvoer ](assets/export-icon.png).
+1. (Optioneel) Wijzig de weergave van informatie in de lijst met een filter, weergave of groep.
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader"> <p>De volledige lijst met objecten op het tabblad exporteren</p> </td> 
-      <td> <p>Klik <strong> Uitvoer </strong>.</p> </td> 
-     </tr> 
-     <tr data-mc-conditions=""> 
-      <td role="rowheader"> <p>De weergave van informatie in de lijst wijzigen</p> </td> 
-      <td> <p>In de hoger-juiste hoek boven de lijst, gebruik <strong> Filter </strong> om te bepalen wat wordt getoond gebaseerd op criteria u verstrekt. Gebruik <strong> Mening </strong> om te bepalen welke gebieden als kolommen worden getoond. Gebruik <strong> Groepering </strong> om de punten in categorieën te groeperen.</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+   Voor meer informatie, zie [ het Melden van elementen overzicht ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md).
+

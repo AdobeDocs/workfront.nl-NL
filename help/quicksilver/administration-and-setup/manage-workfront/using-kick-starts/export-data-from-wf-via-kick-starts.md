@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
+source-git-commit: 4c80802c8e0084aa9e7be350caefc8929c9c4e2b
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1040'
 ht-degree: 0%
 
 ---
@@ -142,7 +142,7 @@ De volgende beperkingen gelden voor het exporteren van gegevens via de functie v
      </tr> 
      <tr> 
       <td scope="col" valign="top"> <p>Aangepaste gegevens</p> </td> 
-      <td scope="col" valign="top"> <p>De Optie van de Parameter <br> van de Optie van de Parameter van de 1&rbrace; <br> Categorie van de Parameter <br> Voorkeur <br><br></p> </td> 
+      <td scope="col" valign="top"> <p>De Optie van de Parameter <br> van de Optie van de Parameter van de 1} <br> Categorie van de Parameter <br> Voorkeur <br><br></p> </td> 
       <td scope="col" valign="top"> <p> Excel</p> </td> 
      </tr> 
      <tr> 
@@ -167,6 +167,10 @@ De volgende beperkingen gelden voor het exporteren van gegevens via de functie v
      </tr> 
     </tbody> 
    </table>
+
+   >[!NOTE]
+   >
+   >Als de **optie van het Dashboard** niet beschikbaar is, betekent het dat u geen dashboards in uw systeem hebt die worden gedeeld systeem-breed. U kunt privédashboards niet exporteren.
 
 1. Klik **Meer Opties** om de volledige lijst van voorwerpen te zien.
 
@@ -250,7 +254,7 @@ De volgende beperkingen gelden voor het exporteren van gegevens via de functie v
      </tr> 
      <tr> 
       <td valign="top">Mijlpad</td> 
-      <td valign="top"> De Weg van de Mijlsteen <br> Voorkeur van de Weg van 0&rbrace; Mijl<br> </td> 
+      <td valign="top"> De Weg van de Mijlsteen <br> Voorkeur van de Weg van 0} Mijl<br> </td> 
       <td valign="top">Excel </td> 
      </tr> 
      <tr> 
@@ -330,7 +334,7 @@ De volgende beperkingen gelden voor het exporteren van gegevens via de functie v
 
    Het geëxporteerde bestand met de startfunctie wordt als Excel-bestand of als een bestand met de startfunctie naar de computer gedownload. ZIP-bestand met meerdere Excel- en eigenschappenbestanden. Elk Excel-bestand is een verzameling bladen, waarin elk blad een veld vertegenwoordigt dat is gekoppeld aan het object dat u hebt geselecteerd. Er is a **Eigenschappen** blad verbonden aan elke uitvoer.
 
-   De **opties van het Dashboard** en **Rapport** staan u toe om specifieke dashboards en rapporten te selecteren om in de download te omvatten. U kunt alleen dashboards exporteren, die in het hele systeem worden gedeeld.
+   De **opties van het Dashboard** en **Rapport** staan u toe om specifieke dashboards en rapporten te selecteren om in de download te omvatten. Voor dashboards, kunt u dashboards slechts uitvoeren die systeem-wijd worden gedeeld.
 
    U kunt matrixrapporten niet exporteren. Voor meer informatie over matrixrapporten, zie [ een matrixrapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md) creëren.
 

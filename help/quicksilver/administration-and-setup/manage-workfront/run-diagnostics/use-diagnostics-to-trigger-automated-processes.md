@@ -8,7 +8,7 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 9243ee60-006b-4628-bde7-5b037dde7511
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 379772f6bd1ed9448e6fd5feee956a931f65f69e
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
@@ -58,7 +58,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 ## Gebruik diagnostiek om geautomatiseerde processen te activeren
 
-1. Klik het **pictogram 1&rbrace; van het Belangrijkste Menu ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** de montages van de Opstelling **![ Gear pictogram ](assets/gear-icon-settings.png).**
+1. Klik het **pictogram 1} van het Belangrijkste Menu ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** de montages van de Opstelling **![ Gear pictogram ](assets/gear-icon-settings.png).**
 
 1. Breid **Systeem** uit, dan klik **Diagnostiek**.
 1. Selecteer een van de volgende opties:
@@ -81,16 +81,14 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
      </tr> 
      <tr> 
       <td role="rowheader">Alle POP-accounts controleren</td> 
-      <td> <p>Controleert op nieuwe e-mailberichten die naar POP-accounts zijn verzonden die aan Workfront zijn gekoppeld. </p> <!--
-        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information about Workfront and POP account integrations, see and <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.</p>
-       --> </td> 
+      <td>Controleert op nieuwe e-mailberichten die naar POP-accounts zijn verzonden die aan Workfront zijn gekoppeld.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Tijdlijnen opnieuw berekenen</td> 
       <td> <p>Hiermee wordt de tijdlijn opnieuw berekend voor alle projecten in Workfront met de status Huidig. </p> <p>Voor meer informatie over het berekenen van de chronologie van projecten automatisch of manueel, zie één project in een tijd, <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref"> projectchronologie </a> opnieuw berekenen.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Standaardrapporten herstellen</td> 
+      <td role="rowheader">Standaardrapporten van klanten herstellen</td> 
       <td>Herstelt de standaardrapporten die oorspronkelijk met Workfront werden geleverd, zodat zij in de <strong> sectie van Rapporten </strong> voor alle gebruikers zichtbaar zijn.</td> 
      </tr> 
      <tr> 
