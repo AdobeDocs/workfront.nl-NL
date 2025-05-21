@@ -6,9 +6,9 @@ description: U kunt kalenderrapporten en gebeurtenisdetails bekijken die u creee
 author: Lisa
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: 83b425998de978fef4998f407960a2489e1320b4
+source-git-commit: a411c1ddf0c6d19dc7f6e181cceeebba5504530c
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
@@ -82,31 +82,26 @@ U kunt uit de volgende meningen van het kalenderrapport kiezen:
    * **[!UICONTROL Week]**: geeft een week van de kalender weer
    * **[!UICONTROL Gantt]**: geeft een doorlopende weergave van de kalender weer
 
-     U kunt meer gebeurtenissen in een [!UICONTROL Gantt] weergave zien door omlaag of zijwaarts te schuiven. Een ladend symbool verschijnt aangezien de gegevens voor de mening worden bevolkt.
+     U kunt meer gebeurtenissen in a **Gantt** mening zien door neer of zijwaarts te scrollen. Een ladend symbool verschijnt aangezien de gegevens voor de mening worden bevolkt.
 
    >[!NOTE]
    >
-   >In de weergaven [!UICONTROL Month] en [!UICONTROL Week] hebben gebeurtenissen die nu of in de toekomst plaatsvinden (inclusief gebeurtenissen die meerdere dagen beslaan, zolang ze vandaag of een toekomstige dag bevatten) een arcering die overeenkomt met de kleur in de project- of kalendergroep. Gebeurtenissen in het verleden hebben een lichtere arcering om aan te geven dat deze niet langer actueel zijn, maar u kunt deze gebeurtenissen wel selecteren en weergeven.
+   >In de **Maand** en **Week** meningen, hebben de gebeurtenissen die of toekomst (met inbegrip van gebeurtenissen zijn die veelvoudige dagen overspannen, zolang zij vandaag of een toekomstige dag bevatten) schaduwen die aan de kleur in het project of de kalendergroep beantwoorden. Gebeurtenissen in het verleden hebben een lichtere arcering om aan te geven dat deze niet langer actueel zijn, maar u kunt deze gebeurtenissen wel selecteren en weergeven.
 
-1. (Optioneel) Als u de kalender weergeeft in de weergaven [!UICONTROL Month] of [!UICONTROL Week] , kunt u de kalenderweergave wijzigen met de volgende opties:
+1. (Facultatief) als u de kalender in de **Maand** of **Week** meningen bekijkt, kunt u uw kalendermening met de volgende opties veranderen:
 
-<!--   * To include or exclude weekends:
-
+   <!--   * To include or exclude weekends:
       1. On the **[!UICONTROL Calendar]** toolbar, click **[!UICONTROL Calendar Actions]**, then from the drop-down list select either **[!UICONTROL Show Weekend]** or **[!UICONTROL Hide Weekend]**.-->
 
-* De weergegeven datums snel wijzigen:
+   * De weergegeven datums snel wijzigen:
 
-   1. Klik op de werkbalk **[!UICONTROL Calendar]** op de pijl naar links van de datumindicator om terug te gaan in de kalender of op de pijl naar rechts om vooruit te gaan.
+      1. Klik op de werkbalk **[!UICONTROL Calendar]** op de pijl naar links van de datumindicator om terug te gaan in de kalender of op de pijl naar rechts om vooruit te gaan.
 
-      ![ klik pijl om datum ](assets/click-arrows-to-change-dates-calendar-report.png) te veranderen\
-      De weergegeven datums worden aangepast met een interval dat is gebaseerd op de huidige kalenderweergave. Als u bijvoorbeeld de kalender weergeeft in de [!UICONTROL Week] -weergave, wordt de kalender een week vooruit of een week terug weergegeven, afhankelijk van de pijl die u selecteert.
+         ![ klik pijl om datum ](assets/click-arrows-to-change-dates-calendar-report.png) te veranderen
 
-   1. (Facultatief) om aan de huidige dag terug te keren, klik [!UICONTROL **vandaag**].
+         De weergegeven datums worden aangepast met een interval dat is gebaseerd op de huidige kalenderweergave. Bijvoorbeeld, als u de kalender in de **Week** mening bekijkt, toont de kalendervertoningen of één week vooruit of één week terug, afhankelijk van de pijl u selecteert.
 
-
-1. (Optioneel) Als u een kalender in een volledig scherm wilt weergeven, klikt u op de pijlen op het volledige scherm aan de rechterkant van de **[!UICONTROL Calendar]** -werkbalk.
-   ![ klik pijl om datum ](assets/click-arrows-to-change-dates-calendar-report.png) te veranderen\
-   Druk op Esc om terug te keren naar de normale weergave van de kalender.
+      1. (Facultatief) om aan de huidige dag terug te keren, klik [!UICONTROL **vandaag**].
 
 1. (Optioneel) Als u de gebeurtenissen voor een aan de kalender gekoppelde project- of kalendergroep wilt verbergen, wist u de project- of kalendergroep in de projectlijst.
    ![ de gebeurtenissen van de Huid ](assets/hide-events-for-project-or-cal-grouping.png)

@@ -7,14 +7,16 @@ description: De kostenprestatie-index (CPI) beschrijft de relatie op het project
 author: Lisa
 feature: Work Management
 exl-id: 7f2efe26-7292-482d-986c-2d2077a7ca52
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: a411c1ddf0c6d19dc7f6e181cceeebba5504530c
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
 
 # Kostenprestatie-index (CPI) berekenen
+
+<!-- Audited: 5/2025 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link.)</p>
@@ -62,9 +64,6 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 ## Overzicht van de kostenprestatie-index (CPI)
 
-* [ de CPI waarde ](#the-cpi-value)
-* [Hoe CPI wordt berekend](#how-cpi-is-calculated)
-
 ### De CPI-waarde {#the-cpi-value}
 
 Projectbeheerders begrijpen dat een CPI-waarde van 1 betekent dat het project precies op de begroting staat. Waarden groter dan 1 geven aan dat een project onder de begroting valt (er zijn minder uren of kosten geregistreerd dan oorspronkelijk gepland) en waarden kleiner dan 1 betekenen dat een project langer is dan de begroting (er zijn meer uren of kosten geregistreerd dan oorspronkelijk gepland). Hoe verder van 1, hoe verder van het plan wordt afgeweken.
@@ -107,7 +106,7 @@ CPI = 1
 Totaal uitgevoerd begrotingskostenwerk = de som van het veld Totaal begrote kosten uitgevoerd voor alle directe onderliggende taken.
 
 * **voor een project:**
-Totaal uitgevoerd begroot kostenwerk = de som van het totaal uitgevoerd budget-kostenwerkveld voor alle taken op het hoogste niveau (ouders en zelfstandige taken).
+Totaal uitgevoerd begroot kostenwerk = de som van het totaal uitgevoerd budget-kostenwerkveld voor alle taken op topniveau (ouders en zelfstandige taken).
 
 Voor informatie over het totale Gedragsde Uitgevoerde Werk van Kosten (BCWP), zie [ Gemaakt het Geplande Gepresteerde Werk van Kosten (BCWP) ](../../../manage-work/projects/project-finances/calculate-bcwp.md) berekenen.
 
@@ -184,7 +183,7 @@ De totale begrote uitgevoerde kosten worden berekend voor het volgende:
 * **voor een project:**
 
   ```
-  Total Budgeted Cost Work Performed = SUM(Total Budgeted Cost Work Performed field for all top level tasks)
+  Total Budgeted Cost Work Performed = SUM(Total Budgeted Cost Work Performed field for all top-level tasks)
   ```
 
 
@@ -196,8 +195,6 @@ U kunt CPI van een project of een taak in een project of een taaklijst of rappor
 1. Ga naar het project of de taak waar u CPI wilt bekijken.
 1. Breid {de Details van het 0} Project **of** Details van de Taak **in het linkerpaneel uit, afhankelijk van of u CPI voor een project of een taak bekijkt.**
 
-1. Klik **Financiën**.
-
-   De vertoningen CPI op het **CPI/SPI/CSI** gebied.
+1. Klik **Financiën**. De vertoningen CPI op het **CPI/SPI/CSI** gebied.
 
    ![ CPI op project ](assets/cpi-on-project-nwe.png)
