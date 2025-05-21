@@ -7,7 +7,7 @@ description: Met de Adobe Workfront Resource Planner kunt u eenvoudig de beschik
 author: Lisa
 feature: Resource Management
 exl-id: 5a1be723-e3ac-443a-9c09-85e8839fcbef
-source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
+source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
 workflow-type: tm+mt
 source-wordcount: '2424'
 ht-degree: 0%
@@ -249,7 +249,6 @@ In de weergaven Project en Rol kunnen gebruikers worden vermeld onder de volgend
 
    * Als de secundaire baanrol een geldig aantal voor het Percentage van Beschikbaarheid FTE in hun gebruikersprofiel heeft.
    * Als de gebruiker aan taken in die rollen wordt toegewezen.
-
 Voor meer informatie over het Percentage van VTE Beschikbaarheid voor een baanrol, zie [ het profiel van een gebruiker ](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
 
 ## Geen rol en geen gebruikerssecties
@@ -324,4 +323,4 @@ Voor informatie over het uitvoeren van informatie van de Planner van het Middel,
 
 U kunt de hoeveelheid informatie en de weergave van het geëxporteerde bestand beheren.
 
-Voor informatie over welke informatie u van de Planner van het Middel kunt uitvoeren en hoe te om het blik en gevoel van het uitgevoerde dossier te beheren, zie {de vertoningsbeperkingen van de Planner van 0} Middel [&#128279;](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md).
+Voor informatie over welke informatie u van de Planner van het Middel kunt uitvoeren en hoe te om het blik en gevoel van het uitgevoerde dossier te beheren, zie {de vertoningsbeperkingen van de Planner van 0} Middel ](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md).[
