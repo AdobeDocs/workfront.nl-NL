@@ -6,16 +6,20 @@ description: We raden u aan projecten aan portfolio's toe te voegen wanneer u de
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
 
 # Projecten toevoegen aan een portfolio
 
-<!--Audited: 7/2024-->
+<!--Audited: 5/2025-->
+
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Dezelfde functies zijn ook beschikbaar in de productieomgeving voor alle klanten na een week vanaf de release Preview. </span>
+
+<span class="preview"> voor meer informatie, zie [ de modernisering van de Interface ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
 
 We raden u aan projecten aan portfolio&#39;s toe te voegen wanneer u deze initialiseert. U kunt ze echter op elk gewenst moment tijdens de levensduur van de portfolio toevoegen.
 
@@ -40,7 +44,7 @@ Houd rekening met het volgende wanneer u projecten aan portfolio&#39;s toevoegt:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
    <td><p>Nieuw: Standaard</p> 
-   <p>Huidig:[!UICONTROL Plan] </p> </td> 
+   <p>Huidig: [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Toegangsniveau</td> 
@@ -68,8 +72,6 @@ Houd rekening met het volgende wanneer u projecten aan portfolio&#39;s toevoegt:
    >[!TIP]
    >
    >U kunt geen project toevoegen wanneer u de lijst van projecten in de [!UICONTROL Milestone] mening bekijkt.
-
-   ![ voeg bestaand project ](assets/add-existing-project-from-portfolio-window-nwe-350x545.png) toe
 
    Selecteer een van de volgende opties:
 
@@ -102,7 +104,11 @@ Houd rekening met het volgende wanneer u projecten aan portfolio&#39;s toevoegt:
 
    ![ Nieuwe projectdropdown ](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
-1. (Voorwaardelijk) als u selecteerde om een bestaand project toe te voegen, begin de naam van een project op het **[!UICONTROL Add Projects to this Portfolio]** gebied te typen, dan hen te klikken wanneer zij in de lijst verschijnen.
+1. (Voorwaardelijk) als u selecteerde om een bestaand project toe te voegen, <span class="preview">**voegt de doos van Projecten** toe opent.</span> <!--check this after UI changes-->
+
+   <span class="preview">![ voeg bestaand project ](assets/add-existing-projects-to-portfolios-box.png)</span> toe <!--check this after UI changes-->
+
+1. Typ de naam van een project in het veld **[!UICONTROL Add Projects to this Portfolio]** en klik vervolgens op de naam wanneer deze in de lijst wordt weergegeven.  <!--check this after UI changes-->
 
    U kunt meerdere projecten toevoegen.
 
@@ -110,6 +116,6 @@ Houd rekening met het volgende wanneer u projecten aan portfolio&#39;s toevoegt:
 
    <!--replace last step with this, for unshim: 1. (Optional) Click the **Delete** icon ![Delete icon](assets/delete-icon.png) next to the name of a project if you decide not to add it to the portfolio.-->
 
-1. Klik op **[!UICONTROL Add Projects]**.
+1. Klik op **[!UICONTROL Add Projects]** . <!--check this after UI changes-->
 
    Het geselecteerde project of de geselecteerde projecten zijn nu gekoppeld aan het portfolio.

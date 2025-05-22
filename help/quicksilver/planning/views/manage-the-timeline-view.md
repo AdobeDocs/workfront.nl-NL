@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: d0ec729a510b78a7ce417356ac9250a485308f0b
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
-source-wordcount: '3060'
+source-wordcount: '3152'
 ht-degree: 0%
 
 ---
@@ -139,17 +139,12 @@ Een tijdlijnweergave beheren:
       * Jaar
       * Kwart
       * Maand
-1. Klik **Schakelaar aan Standaard** mening om verslagen in afzonderlijke lijnen <!--check to see if they updated the name of the setting here--> te tonen
-
-   of
-
-   Klik **Schakelaar aan Compacte mening** om de verslagen te tonen waarvan data niet op de zelfde lijn snijden. <!--check to see if they updated the name of the setting here-->
-
-   Records worden standaard weergegeven in de compacte weergave.
+1. (Facultatief) klik **Schakelaar aan Compacte mening** om de verslagen te tonen waarvan data niet op de zelfde lijn snijden. <!--check to see if they updated the name of the setting here-->
+1. (Voorwaardelijk) als u uw wijze in **Compact** veranderde, klik **Schakelaar aan Standaard** mening om verslagen in afzonderlijke lijnen te tonen. <span class="preview"> de **Standaard** optie is het gebrek.</span>  <!--check to see if they updated the name of the setting here-->
 
 1. Ga als volgt te werk om snel records te zoeken die overeenkomen met een trefwoord:
 
-   1. Klik het **pictogram van het Onderzoek ![ pictogram van het 1&rbrace; Onderzoek ](assets/search-icon.png) en begin een sleutelwoord verbonden aan om het even welk gebied van een verslag te typen dat op het scherm toont.** Het aantal juiste overeenkomsten wordt weergegeven naast het zoekitem en de record met de juiste overeenkomst wordt gemarkeerd.
+   1. Klik het **pictogram van het Onderzoek ![ pictogram van het 1} Onderzoek ](assets/search-icon.png) en begin een sleutelwoord verbonden aan om het even welk gebied van een verslag te typen dat op het scherm toont.** Het aantal juiste overeenkomsten wordt weergegeven naast het zoekitem en de record met de juiste overeenkomst wordt gemarkeerd.
 
       ![ vakje van het Onderzoek en de mening van de resultaatchronologie ](assets/search-box-and-results-timeline-view.png)
 
@@ -353,7 +348,7 @@ Werk de instellingen van de tijdlijnweergave bij om aan te geven wat en hoe info
 
    Als u geen veld hebt met kleurgecodeerde opties voor het geselecteerde recordtype, wordt deze optie grijs weergegeven.
 
-   1. <span class="preview"> (Optioneel) Als u de optie Onderverdeling gebruikt, herhaalt u de stappen die beginnen met stap 4 voor elke verbonden record die in de tijdlijn wordt weergegeven. </span>
+1. <span class="preview"> (Optioneel) Als u de optie Onderverdeling gebruikt, herhaalt u de stappen die beginnen met stap 4 voor elke verbonden record die in de tijdlijn wordt weergegeven. </span>
 
 1. Klik **sparen**.
 
@@ -389,7 +384,7 @@ U kunt verbonden verslagen in de chronologiemening van een verslag tonen door de
 #### Verbonden records opsplitsen
 
 1. Creeer een chronologiemening voor een verslagtype, zoals die in artikel [ wordt beschreven beheer verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md).
-1. (Voorwaardelijk) als u de chronologiemening op de Standaardwijze bekijkt, klik **Uitsplitsing**.
+1. Van de **Standaard** of <span class="preview">**Compacte** wijzen, klik **Onderbreking**</span> in de hoger-juiste hoek van de chronologiemening.
 1. Vouw **Uitgezocht een verbonden verslagtype** doos uit en selecteer een verbonden verslagtype. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
    ![ de plukker en knoop van de Onderbreking op chronologiemening ](assets/breakdown-picker-and-button-on-timeline.png)
@@ -417,7 +412,15 @@ U kunt verbonden verslagen in de chronologiemening van een verslag tonen door de
    >
    >Zowel Producten als Programma&#39;s moeten met de campagnes worden verbonden om als keuzen voor de verdelingsoptie te tonen, en u kunt hen aan de onderbreking in om het even welke orde toevoegen.
 
+1. <span class="preview"> (Voorwaardelijk) als u de chronologie op de Compacte wijze bekijkt, klik **mening van de Schakelaar**. De uitsplitsing is niet zichtbaar op **Compacte** wijze.</span>
 
+   >[!TIP]
+   >
+   ><span class="preview"> Uitgezochte **toont dit niet opnieuw** in de **Schakelaar aan de Standaardmening?** gebruiken voordat u van weergave verandert. </span>
+   >
+   ><span class="preview"> deze voorkeur wordt herinnerd slechts voor huidige browser. Als u browsers of computers wijzigt, moet u deze voorkeur opnieuw selecteren.</span>
+   >
+   >U kunt niet terugkeren naar de compacte modus nadat u de weergave hebt ingesteld op Standaard en verbonden records hebt weergegeven in de weergave.
 1. (Optioneel) Herhaal bovenstaande stappen om meer verbonden records toe te voegen.
 
 

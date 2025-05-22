@@ -6,9 +6,9 @@ description: Naast het creëren van een projectmalplaatje van kras, kunt u besta
 author: Alina
 feature: Work Management
 exl-id: b2e0878b-8245-4e01-819d-c3746f553d95
-source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
+source-git-commit: 1926500c76e4f9cfdac829f8d9f0cdfa6231e31d
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,6 @@ De volgende items worden nooit van een bestaande sjabloon naar een nieuwe gekopi
 
 ## Een sjabloon kopiëren
 
-
 <!--ensure steps and casing on the fields and buttons is accurate with unshim-->
 
 1. Ga naar de sjabloon die u wilt kopiëren.
@@ -82,11 +81,11 @@ De volgende items worden nooit van een bestaande sjabloon naar een nieuwe gekopi
 
    Het **vakje van het Malplaatje van het Exemplaar** opent.
 
-   <!--![Copy template box](assets/copy-template-box.png)-->
+   ![ de malplaatjedoos van het Exemplaar ](assets/copy-template-box.png)
 
 1. Specificeer een naam voor het malplaatje op het **Nieuwe gebied van de Naam van het Malplaatje**.
 
-   Standaard is de nieuwe naam `Copy of Original template name` .
+   Standaard geeft Workfront de nieuwe naam de volgende notatie: `Copy of Original template name` .
 
 1. Selecteer **gebruikerstaken van het Behouden op taken en malplaatje** optie, als u alle taak en malplaatjetoewijzingen van het originele malplaatje aan het nieuwe malplaatje wilt dragen. De taaktoewijzingen van het malplaatje, en de Eigenaar en Sponsor van het Malplaatje worden overgebracht naar het gekopieerde malplaatje.
 1. Klik **sparen** om een exemplaar van het malplaatje tot stand te brengen.

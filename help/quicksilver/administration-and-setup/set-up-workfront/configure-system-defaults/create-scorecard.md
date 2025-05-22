@@ -4,28 +4,39 @@ product-area: system-administration
 navigation-topic: configure-system-defaults
 title: Een scorebord maken
 description: Een scorecard meet hoe goed een project zich aan de eerder vastgestelde criteria van een portefeuille richt. Een scorecard weerspiegelt vaak de missie, de waarden, en de strategische doelstellingen van een organisatie.De managers van Portfolio bepalen gewoonlijk de scorecardvragen en de antwoorden om ervoor te zorgen zij zinvol en waardevol tijdens project prioritering en selectie zijn. Een  [!DNL Adobe Workfront]  beheerder bouwt de scorecards die op de aanbevelingen van portefeuillemanagers worden gebaseerd.
-author: Lisa
+author: Lisa, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '731'
 ht-degree: 0%
 
 ---
 
 # Een scorecard maken
 
-<!--Audited: 01/2024-->
+<!--Audited: 05/2025-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Dezelfde functies zijn ook beschikbaar in de productieomgeving voor alle klanten na een week vanaf de release Preview. </span>
+
+<span class="preview"> voor meer informatie, zie [ de modernisering van de Interface ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+
 Een scorecard meet hoe goed een project zich aan de eerder vastgestelde criteria van een portefeuille richt. Een scorecard weerspiegelt vaak de missie, de waarden, en de strategische doelstellingen van een organisatie.
 
-Portfolio managers bepalen gewoonlijk de scorecardvragen en de antwoorden om ervoor te zorgen zij zinvol en waardevol tijdens project voorrang geven en selectie zijn. Een [!DNL Adobe Workfront] beheerder bouwt de scorecards die op de aanbevelingen van portefeuillemanagers worden gebaseerd.
+Als portefeuillebeheerder, kunt u de scorecard vragen en antwoorden bepalen om ervoor te zorgen zij zinvol en waardevol tijdens project voorrang geven en selectie zijn.
+
+Als [!DNL Adobe Workfront] beheerder, kunt u scorecards tot stand brengen die op de aanbevelingen van portefeuillemanagers worden gebaseerd.
 
 De vragen en antwoorden die voor een scorecard worden gekozen moeten kwantificeerbaar zijn om een groeperingswaarde te verstrekken om verschillende projecten te vergelijken.
+
+U kunt als volgt een scorecard maken:
+
+* Van kras
+* Door een bestaande kopie te kopiëren
 
 ## Toegangsvereisten
 
@@ -56,17 +67,15 @@ U moet de volgende toegang hebben:
 
 +++
 
-## Een scorecard maken
-
-U kunt een geheel nieuwe scorecard maken of een bestaande scorecard kopiëren.
-
-Een geheel nieuwe scorecard maken:
+## Een geheel nieuwe scorecard maken
 
 {{step-1-to-setup}}
 
-1. Klik op **[!UICONTROL Scorecards]** en vervolgens op **[!UICONTROL New Scorecard]** . Dit opent **Nieuwe Scorecard** doos.
+1. Klik op **[!UICONTROL Scorecards]** en vervolgens op **[!UICONTROL New Scorecard]** .
 
-   <!--add screen shot at unshim-->
+   <span class="preview"> Nieuwe scorecard **doos opent.</span>**
+
+   <span class="preview">![ Nieuwe scorecard doos ](assets/new-scorecard-350x173.png)</span>
 
 1. Geef een **[!UICONTROL Scorecard Name]** en een **[!UICONTROL Description]** op.
 
@@ -104,7 +113,7 @@ Een geheel nieuwe scorecard maken:
    >
    >U kunt de vragen in uw scorecard opnieuw ordenen door de vragen in de juiste volgorde te slepen en neer te zetten.
 
-1. Klik op **[!UICONTROL Save]** wanneer u alle gegevens hebt ingevoerd.
+1. Klik op **[!UICONTROL Save]**.
 
    Dit leidt tot scorecard en de projectmanagers kunnen het aan hun projectbedrijfscase nu vastmaken.
 
@@ -116,16 +125,20 @@ U kunt een scorecard tot stand brengen door bestaande te kopiëren en uit te gev
 
 1. Klik op **[!UICONTROL Scorecards]** in het linkerdeelvenster.
 1. Selecteer een scorecard in de lijst, dan klik het **pictogram van het Exemplaar ![ pictogram van het Exemplaar scorecard ](assets/copy-scorecard-icon.png) bij de bovenkant van de scorecardlijst.**
-Het **Scorecard van het Exemplaar** vakje opent.
 
-   <!--add screen shot at unshim-->
+   <span class="preview"> het **Scorecard van het Exemplaar** vakje opent.</span>
+
+   <span class="preview">![ de scorecarddoos van het Exemplaar ](assets/copy-scorecard-box.png)</span>
+
 1. Geef de volgende informatie op:
 
-   * **Scorecard**: Type de naam van scorecard.  Standaard wordt de naam automatisch bijgewerkt in de volgende indeling:
+   * **Scorecard**: Werk de naam van scorecard bij.  Standaard wordt de naam automatisch bijgewerkt in de volgende indeling:
 
      `Original scorecard name (Copy)`
    * **Beschrijving**: Typ extra informatie over de scorecard.
 1. Klik **sparen**.
+
+   Dit leidt tot een nieuwe scorecard met de zelfde informatie zoals origineel. De managers van het project kunnen het aan hun projectbedrijfscase nu vastmaken.
 
 ## Pas een scorecard op een project toe
 

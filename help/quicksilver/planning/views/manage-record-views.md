@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1181'
 ht-degree: 0%
 
 ---
@@ -221,9 +221,13 @@ In de volgende tabel worden de overeenkomsten en verschillen tussen de tabel-, t
 
 1. (Voorwaardelijk) selecteer het **Begin** en **Eind data** voor de verslagen die in de chronologie of kalendermening zullen tonen.
 
-   >[!TIP]
+   >[!NOTE]
    >
-   >    U kunt uit de gebieden van de verslagdatum, of raadplegingsdatumgebieden van verbonden verslag of objecten types selecteren. U moet aggregators voor datumgebieden (MAX of MIN) gebruiken wanneer u raadplegingsgebieden als Begin en Eind data voor de chronologie en kalendermeningen selecteert. Voor informatie, zie [ verbind verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >    U kunt uit de gebieden van de verslagdatum, of raadplegingsdatumgebieden van verbonden verslag of objecten types selecteren.
+   >
+   >U moet aggregators voor datumgebieden (MAX of MIN) gebruiken wanneer u raadplegingsgebieden wanneer het verbinden van verslagtypes selecteert. Alleen wanneer u de aggregators toevoegt, kunt u de datums van de verbindingen gebruiken als begin- en einddatum voor de tijdlijn- en kalenderweergave.
+   >
+   >Voor informatie, zie [ verbind verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 1. Klik **creëren**.
 

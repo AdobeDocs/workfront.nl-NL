@@ -6,9 +6,9 @@ description: U kunt uw projecten ordenen door deze toe te voegen aan programma's
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1fecc4d1-4c24-495c-98f5-824e13967369
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 0%
 # Een project toevoegen aan een programma
 
 <!--Audited: 5/2025-->
+
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Dezelfde functies zijn ook beschikbaar in de productieomgeving voor alle klanten na een week vanaf de release Preview. </span>
+
+<span class="preview"> voor meer informatie, zie [ de modernisering van de Interface ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
 
 U kunt uw projecten ordenen door deze toe te voegen aan programma&#39;s binnen portfolio&#39;s. U kunt veelvoudige projecten binnen van één programma hebben, maar u kunt slechts één programma met een project associëren.
 
@@ -100,19 +104,17 @@ Voor informatie over het creëren van programma&#39;s, zie [ een programma ](../
     </tbody> 
    </table>
 
-1. (Voorwaardelijk) als u **[!UICONTROL Existing Project]** selecteerde, **voegt de doos van Projecten** toe opent.
+1. (Voorwaardelijk) als u **[!UICONTROL Existing Project]** selecteerde, <span class="preview">**voegt de doos van Projecten** toe </span> opent. <!--check at unshimming-->
 
-   <!--screen shot at unshim?-->
+   <span class="preview">![ voeg bestaande projecten aan programmadoos ](assets/add-projects-to-programs-box.png)</span><!--check at unshimming--> toe
 
 1. Ga als volgt te werk:
 
-   1. In het **[!UICONTROL Add Projects]** vakje, typ de naam van een project in **voegt Projecten aan dit 2&rbrace; gebied van het Programma toe, dan selecteert het wanneer het in de lijst toont. <!--check casing on links and buttons-->**
+   1. In het **[!UICONTROL Add Projects]** vakje, typ de naam van een project in **voegt Projecten aan dit 2} gebied van het Programma toe, dan selecteert het wanneer het in de lijst toont. <!--check casing on links and buttons-->**
 
       U kunt meerdere projecten toevoegen.
-   1. (Facultatief) klik het **X** pictogram aan het recht van de projectnaam om het uit de lijst te verwijderen, als u besluit om het niet aan het programma toe te voegen.
+   1. (Facultatief) klik het **pictogram van de Schrapping ![ pictogram van de Schrapping ](assets/delete-icon.png)</span> naast de naam van een project als u besluit om het niet aan het programma toe te voegen.<span class="preview">**
 
-      <!--replace last step with this, for unshim: 1. (Optional) Click the **Delete** icon ![Delete icon](assets/delete-icon.png) next to the name of a project if you decide not to add it to the program.-->
-
-   1. Klik op **[!UICONTROL Add Projects]**.
+   1. Klik op **[!UICONTROL Add Projects]** . <!--check at unshimming-->
 
       Het project wordt weergegeven op het tabblad **[!UICONTROL Projects]** van het programma en is nu gekoppeld aan het programma en de respectievelijke portfolio van het programma.

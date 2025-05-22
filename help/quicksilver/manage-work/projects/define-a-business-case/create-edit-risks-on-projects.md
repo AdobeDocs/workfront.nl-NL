@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: business-case-and-scorecards
 title: Risico's maken en bewerken voor projecten
-description: Risico's zijn mogelijke gebeurtenissen of factoren die verhinderen dat een project op tijd of binnen het budget wordt afgerond. De risico's kunnen als deel van het creëren van het BedrijfsGeval van een project of door het lusje van Risken te gebruiken worden geregistreerd. Risico's worden alleen op een project gecreëerd. U kunt risico's niet koppelen aan taken of problemen.
+description: Risico's zijn mogelijke gebeurtenissen of factoren die verhinderen dat een project op tijd of binnen het budget wordt afgerond. U kunt projectrisico's als deel van het creëren van het BedrijfsGeval van een project of door het lusje van Risks te gebruiken registreren. U kunt risico's aan projecten en malplaatjes toevoegen. U kunt risico's niet koppelen aan taken of problemen.
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1131'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,21 @@ ht-degree: 0%
 
 <!--Audited: 01/2025-->
 
-Risico&#39;s zijn mogelijke gebeurtenissen of factoren die verhinderen dat een project op tijd of binnen het budget wordt afgerond. De risico&#39;s kunnen als deel van het creëren van het BedrijfsGeval van een project of door het lusje van Risken te gebruiken worden geregistreerd. Risico&#39;s worden alleen op een project gecreëerd. U kunt risico&#39;s niet koppelen aan taken of problemen.
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Dezelfde functies zijn ook beschikbaar in de productieomgeving voor alle klanten na een week vanaf de release Preview. </span>
+
+<span class="preview"> voor meer informatie, zie [ de modernisering van de Interface ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+
+Risico&#39;s zijn mogelijke gebeurtenissen of factoren die verhinderen dat een project op tijd of binnen het budget wordt afgerond. U kunt risico&#39;s als deel van het creëren van het BedrijfsGeval van een project of door het lusje van Risken te gebruiken registreren.
+
+U kunt risico&#39;s slechts op projecten of malplaatjes tot stand brengen. U kunt risico&#39;s niet koppelen aan taken of problemen.
 
 Risico&#39;s kunnen verband houden met kosten, maar de werkelijke risicokosten hebben geen invloed op de werkelijke kosten van het project.
 
 >[!NOTE]
 >
->Dit artikel bepaalt de risico&#39;s verbonden aan het project aangezien u hen in het BedrijfsGeval van het project of aangezien u hen in het lusje van Risken van het project toevoegt. Voor informatie over het gebied van het Risico dat wanneer het uitgeven van een project beschikbaar is, zie [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+>Dit artikel bepaalt de risico&#39;s verbonden aan het project aangezien u hen in het BedrijfsGeval van het project of aangezien u hen in het lusje van Risken van het project toevoegt.
+>
+>Voor informatie over het gebied van het Risico dat wanneer het uitgeven van een project beschikbaar is, zie [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
 ## Toegangsvereisten
 
@@ -94,8 +102,7 @@ Een risico maken of bewerken in de Business Case:
 
 Naast het creëren van en het uitgeven van risico&#39;s in het BedrijfsGeval, kunt u dit doen gebruikend de **sectie van Risken** van een project.
 
-* [ creeer risico&#39;s op het gebied van Risken ](#create-risks-in-the-risks-area)
-* [Risico&#39;s bewerken in het risicogebied](#edit-risks-in-the-risks-area)
+U kunt risico&#39;s in de sectie van Risico&#39;s van een project of een malplaatje tot stand brengen en uitgeven. Het creëren van risico&#39;s voor malplaatjes is identiek aan het creëren van risico&#39;s voor projecten.
 
 ### Risico&#39;s creëren in het risicogebied {#create-risks-in-the-risks-area}
 
@@ -104,33 +111,37 @@ Naast het creëren van en het uitgeven van risico&#39;s in het BedrijfsGeval, ku
 
    ![ sectie van de Risico&#39;s van taak ](assets/risks-section-on-project-2022.png)
 
-1. Klik **Begin Toevoegend Risken** en creeer risico&#39;s door in-lijn het uitgeven van hun informatie.
+1. Klik **Begin Toevoegend Risken** en creeer risico&#39;s door in-lijn het uitgeven van hun informatie. **Beschrijving** is een vereist gebied
 
    of
 
-   Klik **Nieuw Risico**. Het **Nieuwe de dialoogvakje van het Risico** opent.
+   Klik **Nieuw Risico**.
 
-1. Voer de volgende gegevens in:
+   <span class="preview"> het **Nieuwe risico** doos opent.</span>
 
-   * **Beschrijving**: beschrijf het risico.
-   * **Type van Risico**: wijs op welke categorie het risico onder valt.\
+   <span class="preview">![ Nieuwe risicodoos ](assets/new-risk-box.png)</span>
+
+1. (Voorwaardelijk) als u een risico in het **Nieuwe risico** vakje toevoegt, ga de volgende informatie in:
+
+   * **Beschrijving**: Beschrijf het risico. Dit is een verplicht veld.
+   * **Type van Risico**: Wijs op welke categorie het risico onder valt.\
      Uw Workfront-beheerder definieert de typen risico&#39;s die beschikbaar zijn in uw omgeving. Voor informatie over het bepalen van de Types van Risico, zie het artikel [ uitgeven en creeer risicstypes ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
 
-   * **Kans**: wijs op de waarschijnlijkheid van het risico dat als percentagewaarde voorkomt.
-   * **Potentiële Kosten**: wijs op de geschatte kosten als het risico zou moeten voorkomen.
-   * **Kosten van de Vermindering**: wijs op de kosten van het matigingsplan dat u moet plaatsen om het risico te verhinderen voor te komen.
-   * **Ware Kosten**: wijs op de daadwerkelijke kosten van het risico als het risico voorkwam.
-   * **Plan van de Vermindering**: werk de beschrijving van het plan bij om het risico te verlichten.
+   * **Kans**: Verwijs de waarschijnlijkheid van het risico dat als percentagewaarde voorkomt.
+   * **Potentiële Kosten**: Verwijs op de geschatte kosten als het risico zou moeten voorkomen.
+   * **Kosten van de Vermindering**: Wijs op de kosten van het matigingsplan dat u moet plaatsen om het risico te verhinderen voor te komen.
+   * **Ware Kosten**: Verwijs de daadwerkelijke kosten van het risico als het risico voorkwam.
+   * **Plan van de Vermindering**: Werk de beschrijving van het plan bij om het risico te verlichten.
 
 1. (Voorwaardelijk) klik **binnengaan** als u het risico in-lijn creeert.
 
    of
 
-   Klik **sparen** als u de informatie in het **Nieuwe de dialoogvakje van het Risico** uitgeeft.
+   Klik **sparen** als u de informatie in de **Nieuwe risico** doos uitgeeft.
 
-1. (Facultatief) selecteer een verschillende **Status** voor het risico, in het **3&rbrace; drop-down menu van de Status &lbrace;, wanneer het toepassen van de** Standaard **mening voor de lijst van risico&#39;s.**
+1. (Facultatief) selecteer een verschillende **Status** voor het risico, in het **3} drop-down menu van de Status {, wanneer het toepassen van de** Standaard **mening voor de lijst van risico&#39;s.**
 
-   Door gebrek, wordt de Status van een risico **geïdentificeerd**.
+   Door gebrek, wordt de **Status** van een risico **geïdentificeerd**.
 
 ### Risico&#39;s bewerken in het risicogebied {#edit-risks-in-the-risks-area}
 
@@ -152,21 +163,21 @@ Risico&#39;s bewerken:
    >
    >U past dezelfde informatie toe op alle geselecteerde risico&#39;s wanneer u meerdere risico&#39;s tegelijk bewerkt. De informatie die aan elk risico voorafgaand aan uw veranderingen wordt geassocieerd wordt beschreven in bulkgeef uit.
 
-1. Als u **hebt geklikt geef** uit, **geeft het 3&rbrace; dialoogvakje van het Risico &lbrace;uit opent.**
+1. Als u **hebt geklikt geef** uit, **geeft risico** uit of **geeft risico&#39;s** doos opent uit.
 
    U kunt de volgende velden bewerken:
 
    * **Beschrijving**: geef de beschrijving van het risico uit.
    * **Type van Risico**: wijs op welke categorie het risico onder valt.
-   * **Kans**: wijs op de waarschijnlijkheid van het risico dat als percentagewaarde voorkomt.
-   * **Potentiële Kosten**: wijs op de geschatte kosten als het risico zou moeten voorkomen.
-   * **Kosten van de Vermindering**: wijs op de kosten van het matigingsplan dat u moet plaatsen om het risico te verhinderen voor te komen.
-   * **Ware Kosten**: wijs op de daadwerkelijke kosten van het risico als het risico voorkwam.
-   * **Plan van de Vermindering**: werk de beschrijving van het plan bij om het risico te verlichten.
+   * **Kans**: Verwijs de waarschijnlijkheid van het risico dat als percentagewaarde voorkomt.
+   * **Potentiële Kosten**: Verwijs op de geschatte kosten als het risico zou moeten voorkomen.
+   * **Kosten van de Vermindering**: Wijs op de kosten van het matigingsplan dat u moet plaatsen om het risico te verhinderen voor te komen.
+   * **Ware Kosten**: Verwijs de daadwerkelijke kosten van het risico als het risico voorkwam.
+   * **Plan van de Vermindering**: Werk de beschrijving van het plan bij om het risico te verlichten.
 
-1. Klik **sparen Veranderingen**.
-1. (Facultatief) geef de **Status** voor een risico, in het **3&rbrace; drop-down menu van de Status &lbrace;uit, wanneer het toepassen van de** Standaard **mening voor de lijst van risico&#39;s.**
+1. <span class="preview"> klik **sparen**.</span>
+1. (Facultatief) geef de **Status** voor een risico, in het **3} drop-down menu van de Status {uit, wanneer het toepassen van de** Standaard **mening voor de lijst van risico&#39;s.**
 
    >[!NOTE]
    >
-   >U kunt niet de **Status** van risico&#39;s in **uitgeven het de dialoogvakje van het Risico**. U kunt dit alleen doen in een inline bewerking.
+   >U kunt niet de **Status** van risico&#39;s in **uitgeven risico** dialoogdoos. U kunt dit alleen doen in een inline bewerking.
