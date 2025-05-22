@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 7640016921e421d2aec0ab1aadc0edd304125feb
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-plan</strong></td> 
-   <td>Alle</td> 
+   <td><p>Alle</p>
+
+<p>Het toevoegen van aangepaste toepassingen aan het hoofdmenu is alleen beschikbaar voor organisaties die een licentie hebben voor Adobe App Builder.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-licentie*</strong></td> 
@@ -120,6 +122,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      >[!NOTE]
      >
      >Voor planning is een aanvullende licentie vereist. Voor informatie over de Planning van Workfront, zie [ Overzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md)
+      * Aangepaste toepassing
+
+     >[!NOTE]
+     >
+     > Aangepaste toepassingen moeten afzonderlijk worden gemaakt voordat ze beschikbaar komen als opties in het hoofdmenu. Voor meer informatie, zie [ een douanetoepassing voor Workfront met Adobe App Builder ](/help/quicksilver/app-builder/app-builder.md) creëren.
+
 
 1. Voer een van de volgende handelingen uit:
 
