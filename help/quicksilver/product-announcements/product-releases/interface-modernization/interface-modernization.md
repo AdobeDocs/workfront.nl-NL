@@ -1,11 +1,11 @@
 ---
-title: Interface-updates
+title: Modernisering van de interface
 description: Deze pagina bevat een overzicht van de interface-updates die we in Adobe Workfront uitvoeren om de gebruikerservaring te verbeteren en deze te verenigen met andere Adobe-toepassingen.
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 3c1961f649298eda4e76830ca39c23fc4dadb407
+source-git-commit: da7151e210bc779beb963e53a2beed5b5280f494
 workflow-type: tm+mt
 source-wordcount: '3938'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Deze pagina bevat een overzicht van de interface-updates die we in Adobe Workfro
 >
 >In de meeste gevallen, wordt elke update eerst vrijgegeven aan het milieu van de Voorproef, dan incrementeel toegelaten in de milieu van de Productie voor een groeiende ondergroep klanten die op de vermelde de versiedatum van de Productie begint.
 
-Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product [&#128279;](/help/quicksilver/product-announcements/product-releases/product-releases.md).
+Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product ](/help/quicksilver/product-announcements/product-releases/product-releases.md).[
 
 
 ## Beheer en installatie
