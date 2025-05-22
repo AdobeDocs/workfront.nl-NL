@@ -927,7 +927,7 @@ Voor informatie over hoe deze montages het creëren van nieuwe taken beïnvloede
 
    ![ geef de montages van de malplaatjetaak uit ](assets/edit-template-box-tax-settings-section.png)
 
-1. In het **vakje van het Proces van de Goedkeuring Standaard van de Taak 0}, selecteer het Proces van de Goedkeuring u met alle nieuwe taken wilt associëren wanneer u hen aan een project toevoegt dat van dit malplaatje wordt gecreeerd.** U moet een goedkeuringsproces voor taken creëren alvorens u het met taken kunt associëren. Alleen actieve goedkeuringsprocessen worden in de lijst weergegeven. Voor meer informatie over het creëren van de Processen van de Goedkeuring, zie [ Creërend de Processen van de Goedkeuring ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+1. In het **vakje van het Proces van de Goedkeuring Standaard van de Taak 0&rbrace;, selecteer het Proces van de Goedkeuring u met alle nieuwe taken wilt associëren wanneer u hen aan een project toevoegt dat van dit malplaatje wordt gecreeerd.** U moet een goedkeuringsproces voor taken creëren alvorens u het met taken kunt associëren. Alleen actieve goedkeuringsprocessen worden in de lijst weergegeven. Voor meer informatie over het creëren van de Processen van de Goedkeuring, zie [ Creërend de Processen van de Goedkeuring ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 1. In het **vakje van de Aangepaste Forms van de Taak Standaard**, selecteer de douanevorm of de vormen die u met alle nieuwe taken wilt associëren wanneer u hen aan een project toevoegt dat van dit malplaatje wordt gecreeerd. U moet aangepaste formulieren maken voordat u ze in dit veld kunt selecteren. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Voor meer informatie over de bouw van douaneformulieren, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren. U kunt maximaal tien aangepaste formulieren aan een taak koppelen.
 1. (Optioneel) Selecteer **Werkinspanning van het Gebruik om taak Geplande Uren** automatisch te berekenen als u het beheren van taakinspanning wilt toelaten door de Werkinspanning in plaats van Geplande Uren in het project te gebruiken dat van het malplaatje wordt gecreeerd.
 1. (Voorwaardelijk en optioneel) Als u Werkinspanning gebruiken hebt geselecteerd om taken Geplande uren automatisch te berekenen, klikt u op het vervolgkeuzemenu om het percentage voor elk niveau van de Werkinspanning bij te werken. De volgende percentagewaarden zijn de standaardwaarden:
@@ -965,7 +965,7 @@ Door publicatie-instellingen te bewerken, kunt u voorkomen dat gebruikers inline
 
    Wanneer het onbruikbaar maken van deze optie, kunnen de gebruikers met toestemmingen om kwesties aan het project toe te voegen dat van het malplaatje wordt gecreeerd dit doen door de Nieuwe knoop van de Uitgave of een verzoekrij te gebruiken verbonden aan het project.
 
-   Voor meer informatie over het vormen van uitgeven montages op projecten, zie de ](../../../manage-work/projects/manage-projects/edit-projects.md#issue) sectie van de Montages van de Uitgave [ in artikel [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+   Voor meer informatie over het vormen van uitgeven montages op projecten, zie de [&#128279;](../../../manage-work/projects/manage-projects/edit-projects.md#issue) sectie van de Montages van de Uitgave  in artikel [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
    Voor informatie over het creëren van kwesties op projecten, zie [ kwesties ](../../../manage-work/issues/manage-issues/create-issues.md) creëren.
 
@@ -1055,7 +1055,7 @@ U kunt sjablonen bulksgewijs bewerken en alle gegevens tegelijk bijwerken.
 
 Sjablonen bulksgewijs bewerken:
 
-1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.**
+1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.**
 
 1. Klik **Malplaatjes**.
 1. Selecteer verschillende sjablonen in de lijst.

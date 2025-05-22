@@ -110,7 +110,7 @@ Voor informatie over het creëren van programma&#39;s, zie [ een programma ](../
 
 1. Ga als volgt te werk:
 
-   1. In het **[!UICONTROL Add Projects]** vakje, typ de naam van een project in **voegt Projecten aan dit 2} gebied van het Programma toe, dan selecteert het wanneer het in de lijst toont. <!--check casing on links and buttons-->**
+   1. In het **[!UICONTROL Add Projects]** vakje, typ de naam van een project in **voegt Projecten aan dit 2&rbrace; gebied van het Programma toe, dan selecteert het wanneer het in de lijst toont. <!--check casing on links and buttons-->**
 
       U kunt meerdere projecten toevoegen.
    1. (Facultatief) klik het **pictogram van de Schrapping ![ pictogram van de Schrapping ](assets/delete-icon.png)</span> naast de naam van een project als u besluit om het niet aan het programma toe te voegen.<span class="preview">**
