@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: a39ba047fc4c1e422f3bea8bd9266b9197219900
+source-git-commit: 870e4130daf9924bf85b59eb09f7d548b8152096
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1165'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,23 @@ In dit artikel worden de functies beschreven die tijdens de release van het derd
 <!--keep the sentence below for all future quarterly release pages-->
 
 Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront worden vrijgegeven, zie [ de versieactiviteit van de Planning van Adobe Workfront: artikelindex ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Nieuwe ervaring bij het afbreken van records in de compacte modus van de tijdlijnweergave
+
+>[!NOTE]
+>
+>* Voorbeeld: 22 mei 2025
+>* Snelle productie: 12 juni 2025
+>* Productie voor alle afnemers: 17 juli 2025
+
+We hebben de ervaring gewijzigd bij het afbreken van records in de tijdlijnweergave en u hebt de compacte weergave toegepast.
+Wanneer u in de nieuwe update uw splitsingsobjecten definieert terwijl u de tijdlijn in de compacte modus weergeeft, wordt u gevraagd om de weergave over te schakelen op Standaard nadat u de storingsvoorwaarden hebt geconfigureerd.
+
+Vóór deze verbetering was het niet mogelijk om de storingsvoorwaarden te definiëren wanneer de tijdlijnweergave in de compacte modus wordt weergegeven.
+
+Met deze upgrade is de standaardoptie de standaardoptie. Voorafgaand aan dit, was de Compacte wijze het gebrek.
+
+Voor informatie, zie [ de chronologiemening ](/help/quicksilver/planning/views/manage-the-timeline-view.md) leiden.
 
 ## Werk de instellingen van de tijdlijnweergave bij om het uiterlijk van de verbonden recordbalken te bepalen wanneer u de optie Onderverdeling gebruikt
 

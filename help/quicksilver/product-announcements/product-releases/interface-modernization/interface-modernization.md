@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: e94d7f40accd80d631765405752a03bf3a0363f1
+source-git-commit: 3c1961f649298eda4e76830ca39c23fc4dadb407
 workflow-type: tm+mt
-source-wordcount: '3691'
+source-wordcount: '3938'
 ht-degree: 0%
 
 ---
@@ -20,10 +20,18 @@ Deze pagina bevat een overzicht van de interface-updates die we in Adobe Workfro
 >
 >In de meeste gevallen, wordt elke update eerst vrijgegeven aan het milieu van de Voorproef, dan incrementeel toegelaten in de milieu van de Productie voor een groeiende ondergroep klanten die op de vermelde de versiedatum van de Productie begint.
 
-Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product [&#128279;](/help/quicksilver/product-announcements/product-releases/product-releases.md).
+Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product ](/help/quicksilver/product-announcements/product-releases/product-releases.md).[
 
 
 ## Beheer en installatie
+
+### Nieuwe vormgeving van de vakken Nieuw en Scorecard kopiëren
+
+**de versie van de Voorproef: 22 mei, 2025; De versie van de Productie: 29 mei, 2025**
+
+We hebben de vormgeving van de keuzelijsten Nieuw en Scorecard kopiëren aangepast aan het ontwerp in andere onderdelen van de toepassing. U kunt het bijgewerkte ontwerp bekijken wanneer het creëren van of het kopiëren van een scorecard in het gebied van de Opstelling van Workfront.
+
+Voor informatie, zie [ een scorecard ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md) creëren.
 
 ### Interface-updates voor onlangs herstelde items van een groep
 
@@ -82,7 +90,42 @@ Voor meer informatie, zie [ Onderzoek  [!DNL Adobe Workfront]](/help/quicksilver
 
 We hebben de pagina die u gebruikt, bijgewerkt zodat u ondersteuning kunt bieden voor toegang tot uw Workfront-account met een modernere opzet die aansluit bij andere delen van Workfront.
 
-## Rapporten en dashboard
+## Projecten
+
+## Bekijk updates van de Nieuwe en geef risicovakjes voor een project of een malplaatje uit
+
+**de versie van de Voorproef: 22 mei, 2025; De versie van de productie: 29 mei, 2025**
+
+Wij hebben de blik en het gevoel van het Nieuwe risico en uitgeeft risicomakken bijgewerkt wanneer het toevoegen van risico&#39;s of het uitgeven van hen op een project of een malplaatje in de sectie van Risks. Het ontwerp van de vakken komt nu overeen met andere delen van Workfront.
+
+Voor informatie, zie [ risico&#39;s in projecten ](/help/quicksilver/manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md#create-and-edit-risks-on-projects) creëren en uitgeven.
+
+### Wijzigingen voor weergave in het vak Sjabloon kopiëren
+
+**de versie van de Voorproef: 22 mei, 2025; de versie van de Productie: 22 mei, 2025**
+
+We hebben de vormgeving van het vak Sjabloon kopiëren aangepast aan het ontwerp van andere gebieden van Workfront.
+
+Voor informatie, zie [ een projectmalplaatje ](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-template.md) kopiëren.
+
+### Updates weergeven en voelen wanneer u objecten toevoegt aan programma&#39;s en portfolio&#39;s
+
+**de versie van de Voorproef: 22 mei, 2025; De versie van de productie: 29 mei, 2025**
+
+Wij hebben de interface voor Add dozen bijgewerkt wanneer het doen van het volgende:
+
+* Projecten toevoegen aan programma&#39;s
+* Projecten toevoegen aan portfolio&#39;s
+* Programma&#39;s toevoegen aan portfolio&#39;s
+
+Raadpleeg de volgende artikelen voor meer informatie:
+
+* [Een bestaand programma toevoegen aan een portfolio](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/move-program.md)
+* [Projecten toevoegen aan een portfolio](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
+* [ voeg een project aan een programma ](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/add-project-to-program.md) toe
+
+
+## Rapporten en dashboards
 
 ### URL&#39;s met /tile of /qstile worden niet meer ondersteund in Workfront-dashboards
 
@@ -151,7 +194,15 @@ We hebben de pagina met licentieovereenkomsten bijgewerkt met een moderner ontwe
 
 +++Breid aan de updates van de interface van het Beleid en van de Opstelling uit die in Q2 worden gemaakt
 
-### De updates van de interface aan het gebied van het Beheer van het Middel in Opstelling
+### Interface-updates voor onlangs herstelde items
+
+**de versie van de Voorproef: 23 april, 2025; de versie van de Productie: 23 april, 2025**
+
+We hebben de vormgeving van de onlangs herstelde items in het gedeelte Setup aangepast aan het ontwerp van andere delen van Workfront. Er is geen functionaliteit gewijzigd voor onlangs herstelde projecten, taken, verzoeken, documenten of sjablonen.
+
+Ga naar Setup > Prullenbak > Onlangs hersteld om deze wijziging weer te geven.
+
+Voor informatie, zie [ Mening herstelde punten ](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).### de updates van de Interface van het Beheer van het Middel in Opstelling
 
 **de versie van de Voorproef: 17 April, 2025; Beginnend de week van 17 April, 2025**
 
@@ -159,7 +210,7 @@ Wij hebben de blik en het gevoel van de voorkeur van het Beheer van Middelen in 
 
 Voor informatie, zie [ de voorkeur van het Beheer van het Middel ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md) vormen.
 
-## De updates van de interface aan een lijst van de Weg van de Mijlpaal in Opstelling
+### De updates van de interface aan een lijst van de Weg van de Mijlpaal in Opstelling
 
 **de versie van de Voorproef: 6 Maart, 2025; Beginnend de week van 10 April, 2025**
 
@@ -167,7 +218,7 @@ Wij hebben de blik en het gevoel van de lijst van de Weg van de Mijlpaal in het 
 
 Voor informatie, zie [ een milestone weg ](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) creëren.
 
-## Interface-update voor het vak Type risico bewerken in Setup
+### Interface-update voor het vak Type risico bewerken in Setup
 
 **de versie van de Voorproef: 27 Maart, 2025; Beginnend de week van 10 April, 2025**
 
@@ -483,16 +534,6 @@ Deze update bevat visuele wijzigingen in de lijsten en werkbalken van de rapport
 
 Voor informatie, zie [ een douanerapport ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
-### Interface-updates voor onlangs herstelde items
-
-**de versie van de Voorproef: 23 april, 2025; de versie van de Productie: 23 april, 2025**
-
-We hebben de vormgeving van de onlangs herstelde items in het gedeelte Setup aangepast aan het ontwerp van andere delen van Workfront. Er is geen functionaliteit gewijzigd voor onlangs herstelde projecten, taken, verzoeken, documenten of sjablonen.
-
-Ga naar Setup > Prullenbak > Onlangs hersteld om deze wijziging weer te geven.
-
-Voor informatie, zie [ Mening herstelde punten ](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
-
 ### De updates van de interface voor het het bedrijfvakje van de Schrapping in een rapport van het Bedrijf
 
 **de versie van de Voorproef: 17 April, 2025; De versie van de Productie: 17 april, 2025**
@@ -620,3 +661,8 @@ Deze update bevat de volgende wijzigingen:
 * De handeling Verwijderen is gemarkeerd door deze in rood weer te geven.
 
 Voor informatie, zie [ het werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+
+
+
+
