@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: fe2e7c5ad5d2d2f32d66f5dfd3e1fd69eca8ca92
+source-git-commit: f9b0f6b246a723ce407de05c4ae4d5dec0c06fe2
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '992'
 ht-degree: 0%
 
 ---
@@ -116,6 +116,31 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 -->
 
+### Projectverbeteringen
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td><strong> Eigenschap </strong>
+        </td>
+        <td><strong>Voorvertoning</strong></td>
+        <td><strong>Snelle release</strong></td>
+        <td><strong>Driemaandelijks</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}"> Meer transparantie wanneer het gebruiken van AI Medewerker op projecten, taken, en kwesties </a><p>[!BADGE Off schema]{type=Neutral}</p>
+            <p>Om duidelijker te maken hoe AI Assistant antwoorden zoekt op vragen over Workfront-projecten, -taken en -problemen, hebben we deze informatie toegevoegd aan het antwoord op de vraag. AI Assistant bevat nu de zoekgegevens in de uitvoer. U kunt deze informatie gebruiken als een manier om te controleren of AI Assistant de vraag die u stelde correct heeft geïdentificeerd en om de context van het antwoord te begrijpen.</p>
+        </td>
+        <td>19 mei 2025</td>
+        <td>19 mei 2025</td>
+        <td>19 mei 2025</td>
+    </tr>     
+  </tbody>
+</table>
+
+
+
 ### Verbeteringen rapporteren
 
 <table style="table-layout:auto">
@@ -180,6 +205,32 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}"> Meer transparantie wanneer het gebruiken van Medewerker AI </a></p>
+                        <p>Om duidelijker te maken hoe AI Assistant antwoorden zoekt op vragen over Workfront-projecten, -taken en -problemen, hebben we deze informatie toegevoegd aan het antwoord op de vraag. AI Assistant bevat nu de zoekgegevens in de uitvoer. U kunt deze informatie gebruiken als een manier om te controleren of AI Assistant de vraag die u stelde correct heeft geïdentificeerd en om de context van het antwoord te begrijpen. </p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: gedurende de volledige releaseperiode van het derde kwartaal van 2025<br /></p>
+                            </li>
+                            <li>
+                                <p>Productieversie: minimaal 2 weken na publicatie voor Voorbeeld (tenzij anders vermeld)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><span class="bold"> Eigenschap </span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold"> de data van de Versie </span>
+                        </p>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}"> blik-en-voelt updates tijdens het Derde Kwartaal 2025 versietimeframe </a></p>
                         <p>Kleine updates van het uiterlijk van verschillende onderdelen van de Adobe Workfront-toepassing worden uitgevoerd binnen de releaseperiode van het derde kwartaal van 2025. </p>
                     </td>
@@ -211,7 +262,7 @@ We werken de interface in Adobe Workfront bij om de gebruikerservaring te verbet
 
 ### Workfront Fusion-verbeteringen
 
-Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de standaard releaseschema. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de standaard releaseschema. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Verbeteringen voor Workfront-planning
 
@@ -233,11 +284,11 @@ Voor informatie over API versies, zie [ API versioning en steunprogramma ](/help
 
 ### Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens Eerste Kwartaal 2025 versie worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront [&#128279;](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=nl-NL).
+Voor informatie over de onderhoudsupdates die tijdens Eerste Kwartaal 2025 versie worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).[
 
 ### Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=nl-NL) Nieuw is.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html) Nieuw is.
 
 
 
