@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '2556'
+source-wordcount: '2566'
 ht-degree: 0%
 
 ---
@@ -142,7 +142,7 @@ U kunt een uitgave bewerken met de gebieden Probleem bewerken of Details van pro
 1. Bewerk een uitgave zoals hierboven beschreven.
 1. Klik **Naam van de Uitgave**.
 
-   {de naamsectie van 0} Uitgave ![&#128279;](assets/issue-name-section-edit-issue-box-nwe-350x127.png)
+   {de naamsectie van 0} Uitgave ](assets/issue-name-section-edit-issue-box-nwe-350x127.png)![
 
 1. Werk het **gebied van de Naam van de Uitgave** bij.
 1. Klik **sparen** of blijf het uitgeven van de volgende secties.
@@ -311,7 +311,7 @@ U kunt een uitgave bewerken met de gebieden Probleem bewerken of Details van pro
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Rol van de gemachtigde</td> 
-      <td> <p>Selecteer een rol van het </strong> drop-down menu van de Rol van 0&rbrace; Toegewezen wanneer u een persoon als toegewezen selecteerde. <strong> Dit is de rol die de verkrijger op dit punt kan vervullen. </p> <p><b>TIP</b>
+      <td> <p>Selecteer een rol van het </strong> drop-down menu van de Rol van 0} Toegewezen wanneer u een persoon als toegewezen selecteerde. <strong> Dit is de rol die de verkrijger op dit punt kan vervullen. </p> <p><b>TIP</b>
 
    Alleen de functies die aan elke toegewezen persoon in het profiel zijn gekoppeld, worden weergegeven in het vervolgkeuzemenu.</p> </td>
    </tr> 
@@ -392,6 +392,8 @@ De volgende velden worden standaard opgenomen in de uitgiftheader:
 
 * Naam van uitgave
 * Percentage voltooid
+
+  Voor informatie, zie [ Mening en werk Percent bij Voltooid voor taken ](/help/quicksilver/manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md).
 * Toewijzingen
 * Geplande voltooiing Datum en tijd
 * Status

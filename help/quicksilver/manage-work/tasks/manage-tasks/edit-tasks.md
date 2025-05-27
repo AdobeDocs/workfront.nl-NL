@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '3706'
+source-wordcount: '3721'
 ht-degree: 0%
 
 ---
@@ -470,7 +470,7 @@ U kunt een taak bewerken met de gebieden Taak bewerken of Taakdetails. In de vol
    </tr> 
    <tr> 
    <td role="rowheader">Rol van de gemachtigde</td> 
-   <td> <p>Selecteer een rol van het </strong> drop-down menu van de Rol van 0&rbrace; Toegewezen wanneer u een persoon als toegewezen selecteerde. <strong> Dit is de rol die de verkrijger kan vervullen in deze taak. </p> <p><b>TIP</b>
+   <td> <p>Selecteer een rol van het </strong> drop-down menu van de Rol van 0} Toegewezen wanneer u een persoon als toegewezen selecteerde. <strong> Dit is de rol die de verkrijger kan vervullen in deze taak. </p> <p><b>TIP</b>
 
    Alleen de functies die aan elke toegewezen persoon in het profiel zijn gekoppeld, worden weergegeven in het vervolgkeuzemenu.</p> </td>
    </tr> 
@@ -622,12 +622,14 @@ De volgende velden worden standaard opgenomen in de taakkoptekst:
 
 * Taaknaam
 * Percentage voltooid
+
+  Voor informatie, zie [ Mening en werk Percent bij Voltooid voor taken ](/help/quicksilver/manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md).
 * Toewijzingen
 * Geplande afsluitdatum
 
   >[!CAUTION]
   >
-  >Sommige Restricties van de Taak en andere gebiedsdelen zouden u kunnen verhinderen dit gebied uit te geven. Voor informatie over de Beperkingen van de Taak, zie [ Overzicht van de Restrictie van de Taak ](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
+  >Sommige Beperkingen van de Taak en andere gebiedsdelen zouden u kunnen verhinderen de Geplande Datum van de Voltooiing van een taak uit te geven. Voor informatie over de Beperkingen van de Taak, zie [ Overzicht van de Restrictie van de Taak ](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
 
 * Status
 * Goedkeuringsbeslissingen nemen als u in een huidig goedkeuringsproces als fiatteur bent ingesteld

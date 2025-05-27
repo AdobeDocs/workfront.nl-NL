@@ -5,9 +5,9 @@ description: U kunt het Summiere paneel gebruiken om de informatie van het het w
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '872'
 ht-degree: 0%
 
 ---
@@ -167,7 +167,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## [!UICONTROL Percent Complete]
 
-Gebruik de voortgangsbalk boven aan de [!UICONTROL Summary] om het percentage bij te werken dat is voltooid voor de taak of uitgave die u hebt geselecteerd. Voer een getal in of sleep de balk naar het juiste percentage.
+Gebruik de blauw voortgangsballon boven aan de [!UICONTROL Summary] om het percentage bij te werken dat is voltooid voor de taak of uitgave die u hebt geselecteerd. Voer een getal in of sleep de ballon naar het juiste percentage.
+
+Wanneer u de bel in het deelvenster Samenvatting sleept en neerzet, wordt de waarde Percentage voltooid in stappen van één punt bijgewerkt. U kunt geen decimaal getal invoeren.
 
 ![ Percentage volledig in Samenvattend paneel ](assets/summary-overview-percent-complete.png)
 

@@ -7,14 +7,16 @@ description: Veelgestelde vragen over rapporten
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1494'
 ht-degree: 0%
 
 ---
 
 # Veelgestelde vragen over rapporten
+
+<!--Audited: 05/2025-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: ***This is the ONE anchor article for all FAQs about Reporting. Add a new FAQ in the TOC at the top first, then add the answer as a section at the bottom.)</p>
@@ -23,6 +25,8 @@ ht-degree: 0%
 Hier volgen vaak gestelde vragen over rapporten.
 
 ## Toegangsvereisten
+
++++ Vouw uit om de vereisten voor toegang weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -33,39 +37,51 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan, werk</p> </td> 
+   <td><p>Nieuw: Standaard</p> 
+   <p>Huidig: Werk of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Waarom toont mijn douaneberekening voor een uurverschil niet het correcte resultaat in een kolom?
 
-Op een projectrapport heb ik een berekening die Werkelijke uren (2) van Geplande Uren (4) aftrekt. Het resultaat dat ik krijg is 120, terwijl het 2 moet zijn.\
+<!--this section is linked from the Actual Hours article for Tasks in the Task Information folder; edit the links or do not delete or change this section-->
+
+Op een projectrapport heb ik een berekening die Werkelijke uren van Geplande Uren aftrekt het resultaat dat ik krijg onjuist is.
+
+<!--this changed with this issue in May 2025; Actual Hours changed from actualWorkRequired to actualWorkRequiredDouble: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/task/68108e860000120e90a79cb82e5811c2/updates : On a project report I have a calculation that subtracts Actual Hours (2) from Planned Hours (4). The result I am getting is 120 when it should be 2.  -->
+
+
 Mijn berekening is:
-<pre>valueexpression=SUB(workRequired,actualWorkRequired)</pre>
+
+`valueexpression=SUB(workRequired,actualWorkRequiredDouble)`
 
 ### Antwoord
 
-Velden met uren in Workfront worden in minuten opgeslagen. Als u het veld in een berekening gebruikt, wordt het resultaat in minuten weergegeven. Als u het resultaat in uren wilt verkrijgen, moet u het resultaat van de berekening delen door 60.
+De meeste velden die uren gebruiken in Workfront worden in minuten opgeslagen. Als u deze velden gebruikt in een berekening, wordt het resultaat meestal in minuten weergegeven. U verkrijgt het resultaat in uren door het resultaat van de berekening of het veld waarnaar u verwijst, door 60 te delen.
+
+Geplande uren worden bijvoorbeeld in minuten opgeslagen, terwijl Werkelijke uren in uren worden opgeslagen. U moet de geplande uren dus omzetten van minuten in uren.
 
 De juiste berekening is:
 
-<pre>valueexpression=SUB(workRequired,actualWorkRequired)/60</pre>
+`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
 
 ## Waarom wordt de waarde van elk van mijn diagramelementen in een rapport niet getoond op de grafiek?
 
@@ -175,7 +191,7 @@ Als u toestemmingen hebt om een rapport te bekijken of te beheren, kunt u een ex
 
 ### Antwoord
 
-Soms, is de eigenaar van het rapport ook de gebruiker die in **wordt gespecificeerd dit rapport met de Rechten van de Toegang van:** gebied op het rapport in werking stellen. Als de **looppas dit rapport met de Rechten van de Toegang van:** gebruiker wordt gedeactiveerd, toont het rapport niet meer voor gebruikers die het rapport hebben dat met hen wordt gedeeld. Wanneer dit gebeurt, kunt u het rapport toegankelijk maken opnieuw door **dit Rapport met de Rechten van de Toegang van te verlaten:** leeg of een actieve gebruiker op het gebied in te gaan.
+Soms, is de eigenaar van het rapport ook de gebruiker die in **wordt gespecificeerd dit rapport met de Rechten van de Toegang van:** gebied op het rapport in werking stellen. Als de **looppas dit rapport met de Rechten van de Toegang van:** gebruiker wordt gedeactiveerd, toont het rapport niet meer voor gebruikers die het rapport hebben dat met hen wordt gedeeld. Wanneer dit gebeurt, kunt u het rapport toegankelijk maken opnieuw door **dit Rapport met de Rechten van de Toegang van te verlaten:** leeg of een actieve gebruiker op het gebied in te gaan.
 
 Om meer over **te leren stel dit Rapport met de Rechten van de Toegang van in werking:** gebied, zie [ Looppas en lever een rapport met de toegangsrechten van een andere gebruiker ](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md). Voor informatie bij het identificeren van alle rapporten die door gedeactiveerde gebruikers worden bezeten, zie [ een rapport over het melden van activiteiten ](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md) creëren.
 

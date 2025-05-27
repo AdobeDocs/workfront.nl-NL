@@ -2,26 +2,28 @@
 product-area: projects
 navigation-topic: update-work-in-a-project
 title: Percentage weergeven en bijwerken voltooid voor taken
-description: U kunt het percentage van voltooiing van een taak bijwerken om de vooruitgang aan te geven die u op de taak hebt gemaakt om het te voltooien.
+description: U kunt het percentage van voltooiing van een taak bijwerken om de vooruitgang aan te geven die u op de taak hebt gemaakt om het te voltooien. Het bijwerken van het percentage voltooide uitgaven is vergelijkbaar met het bijwerken van het percentage voor een taak. In dit artikel wordt beschreven hoe u het percentage van een taak kunt bijwerken.
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---
 
 # Percentage van voltooiing weergeven en bijwerken voor taken
 
-<!--Audited:01/2024-->
+<!--Audited: 05/2025-->
 
 U kunt het percentage van voltooiing van een taak bijwerken om de vooruitgang aan te geven die u op de taak hebt gemaakt om het te voltooien.
 
+Het bijwerken van het percentage voltooide uitgaven is vergelijkbaar met het bijwerken van het percentage voor een taak. In dit artikel wordt beschreven hoe u het percentage van een taak kunt bijwerken.
+
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
++++ Vouw uit om de vereisten voor toegang weer te geven.
 
 U moet de volgende toegang hebben om taken handmatig bij te werken:
 
@@ -59,23 +61,20 @@ U moet de volgende toegang hebben om taken handmatig bij te werken:
 
 U kunt het voltooide percentage voor een taak op een van de volgende gebieden bijwerken:
 
-* **in een taaklijst**: U kunt het percentage bijwerken volledig van een taak wanneer de Percent Volledige kolom wordt getoond.\
+* **in een taaklijst**: U kunt het percentage bijwerken volledig van een taak wanneer de Percent Volledige kolomvertoningen.
+
   Voor meer informatie over gealigneerde het uitgeven, zie [ gealigneerd punten in een lijst in Adobe Workfront ](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md) uitgeven.
 
-* **in de mening van de Mijlpaal**: U kunt de percenten bijwerken volledig van een taak wanneer het gebruiken van de mening van de Mijlpaal op een projectlijst of een projectrapport. Voor meer informatie, zie [ Gebruik de mening van de Mijlpaal ](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+* **in de mening van de Mijlpaal**: U kunt de percenten bijwerken volledig van een taak wanneer het gebruiken van de mening van de Mijlpaal op een projectlijst of een projectrapport.
 
-<!--only in legacy commenting: 
-* **As you update the task**:  You can update the percent complete option of a task when adding an update to the task.
-
-  >[!IMPORTANT]
+  >[!TIP]
   >
-  >This option displays only after you enable the Show Percent Complete option.  
-  >To enable the percent complete update bar for tasks, do the following:   
-  >
-  >1. Go to the **Main** menu>your name>**More** icon next to your name >**Edit** > select **Show percent complete on update status**.   
-  >![](assets/show-percent-complete-toggle-in-user-profile-350x243.png)  >-->
+  >  U kunt het percentage van de voltooide problemen niet bijwerken in de milestone-weergave.
 
-* **in de taakkopbal**: U kunt het percentage bijwerken volledig van een taak in de taakkopbal. Voor informatie, zie [ taken ](../../tasks/manage-tasks/edit-tasks.md) uitgeven.
+
+  Voor meer informatie, zie [ Gebruik de mening van de Mijlpaal ](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+
+* **in de taakkopbal**: U kunt het percentage bijwerken volledig van een taak in de taakkopbal.
 
   ![](assets/nwe-updatetaskpercentinheader-350x54.png)
 
@@ -95,39 +94,42 @@ U kunt het voltooide percentage voor een taak op een van de volgende gebieden bi
 
 ## Overwegingen bij het bijwerken van het percentage voltooide taken
 
-* Wanneer u een taak markeert als 100% voltooid, wordt de taakstatus bijgewerkt naar Voltooid.
-* De volgende scenario&#39;s bestaan voor oudertaken:
+* Wanneer u een taak markeert als 100% voltooid, wordt de taakstatus bijgewerkt naar Voltooid. De status van een uitgave wordt bijgewerkt naar Gesloten.
+* Als u een taak voltooit, wordt ook het volledige percentage van het bovenliggende en het geselecteerde project bijgewerkt.
+* De volgende scenario&#39;s bestaan voor oudertaken en projecten:
    * U kunt niet het percentage bijwerken volledig van een oudertaak aan 100% wanneer de Summiere Wijze van de Voltooiing van het project aan Automatisch wordt geplaatst en de subtaken niet worden voltooid.
-   * U kunt het percentage volledig van een oudertaak aan 100% bijwerken wanneer de Summiere Wijze van de Voltooiing van het project aan Handboek wordt geplaatst en subtaken worden voltooid of onvolledig.
+   * U kunt het percentage bijwerken volledig van een oudertaak of van een project aan 100% wanneer de Summiere Wijze van de Voltooiing van het project aan Handboek wordt geplaatst en subtaken worden voltooid of onvolledig.
 
   Voor meer informatie, zie [ projecten ](../manage-projects/edit-projects.md) uitgeven.
 
 ## Het percentage van een taak bijwerken
 
-1. Ga naar een van de volgende gebieden in Workfront:
+1. Ga naar een van de gebieden waar u het percentage wilt bijwerken dat een taak is voltooid.
 
-   * Een takenlijst
-   * Een lijst met projecten en past de Mijlpaal-weergave toe
-   * Een taak, door tot de taakpagina toegang te hebben
+   Voor informatie, zie de sectie [ Gebieden waar u het percent volledig van een taak ](#areas-where-you-can-update-the-percent-complete-of-a-task) in dit artikel kunt bijwerken.
+
 1. Bepaal de plaats van het **Volledige** gebied van de Percentage voor de taak waarvan percent voltooit u wilt bijwerken.
 
    >[!TIP]
    >
-   >  Het veld Percentage voltooid wordt altijd boven in het deelvenster Overzicht weergegeven.
+   >Het veld Percentage voltooid wordt altijd boven in het deelvenster Overzicht weergegeven.
 
-
-1. Klik binnen het **Volledige 1&rbrace; gebied van de Percentage &lbrace;en typ een aantal tussen 0 en 100**
+1. Klik binnen het **Volledige 1} gebied van de Percentage {en typ een aantal tussen 0 en 100**
 
    of
 
-   Klik en sleep de **Volledige bar van de Percentage** aan het noodzakelijke aantal om erop te wijzen hoeveel van de taak u voltooide, wanneer beschikbaar.
+   Klik en sleep de **Volledige** blauwe bel van de Procent aan het noodzakelijke aantal om erop te wijzen hoeveel van de taak u voltooide, wanneer beschikbaar.
 
    >[!NOTE]
    >
-   >Als u aangeeft dat 100% van de taak is voltooid, wordt de status van de taak ook bijgewerkt naar Voltooien.
-
+   >    * U kunt geen decimaal aantal ingaan wanneer u binnen de Percent Volledige bel klikt.
+   >    * Wanneer u de blauwe ballon in het deelvenster Samenvatting sleept, wordt de optie Percentage voltooid in stappen van één punt bijgewerkt.
+   >
+   >    * Wanneer u de blauwe bel in de taakkopbal sleept en laat vallen, werkt Percentage volledig in 5 punttoename bij.
 
 1. Druk op Enter op het toetsenbord om het volledige percentage op te slaan.
 
-Het percentage Voltooien van het project wordt ook automatisch bijgewerkt.
+   De Percentage Voltooide van het project of om het even welke oudertaken zouden ook automatisch kunnen bijwerken.
+
+   De status van de taak of van de uitgave wordt ook bijgewerkt.
 
