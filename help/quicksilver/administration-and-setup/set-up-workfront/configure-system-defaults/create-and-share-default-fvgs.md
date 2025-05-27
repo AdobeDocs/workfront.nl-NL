@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 32eb825c-ba50-4820-a659-adc924a6ae52
-source-git-commit: ad6d983524e19e60e0c884faed2990d9fa6549d7
+source-git-commit: 4fbf88c544cd56887e6f6f36d7aabfa0668a2a05
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '780'
 ht-degree: 0%
 
 ---
@@ -88,15 +88,18 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 U kunt het filter, de mening, of de groepering ter beschikking stellen van gebruikers in uw systeem. Voor meer informatie over het delen van filters, meningen of groeperingen met andere gebruikers, zie de sectie [ filters, meningen, of groeperingen van de Maken beschikbaar aan gebruikers ](#make-filters-views-or-groupings-available-to-users) in dit artikel.
 
 
-## Filters, weergaven of groepen tonen of verbergen die beschikbaar zijn via de sjabloon Indeling
+## Filters, weergaven of groepen beschikbaar maken voor alle gebruikers {#make-filters-views-or-groupings-available-to-users}
 
-U kunt filters, weergaven of groepen weergeven of verbergen in de sjabloon Indeling. Zichtbare filters zijn beschikbaar voor alle gebruikers in het hele systeem. Met een lay-outsjabloon kunt u zichtbare filters voor bepaalde gebruikers of groepen verbergen.
+U kunt ervoor kiezen om filters, weergaven of groepen in het systeem weer te geven of te verbergen. Zichtbare filters zijn beschikbaar voor alle gebruikers in het hele systeem. Deze instelling fungeert als een aan/uit-schakelaar voor het gehele systeem, inclusief de Lay-outsjabloon.
+
+Als u filters, weergaven of groepen van specifieke gebruikers wilt verbergen, raden we u aan een lay-outsjabloon te gebruiken in plaats van deze voor het hele systeem uit te schakelen.
 
 >[!NOTE]
 >
->Als een gebruiker actief een filter, mening, of groepering en dan een beheerder het onbruikbaar maakt, heeft de gebruiker nog toegang tot tot zij een nieuwe filter, mening, of groepering kiezen. Nadat ze een nieuwe hebben gekozen, kunnen ze niet meer terugkeren naar de verborgen versie.
+>* Als een gebruiker actief een filter, mening, of groepering en dan een beheerder het onbruikbaar maakt, heeft de gebruiker nog toegang tot tot zij een nieuwe filter, mening, of groepering kiezen. Nadat ze een nieuwe hebben gekozen, kunnen ze niet meer terugkeren naar de verborgen versie.
+>* Als alle filters, weergaven en groepen zijn beperkt via het Lay-outsjabloon of zijn uitgeschakeld op het hele systeem, ziet de gebruiker de standaardopties, omdat het systeem iets moet weergeven.
 
-Filters, weergaven of groepen die beschikbaar zijn in de Lay-outsjabloon weergeven of verbergen:
+Filters, weergaven of groepen weergeven of verbergen:
 
 {{step-1-to-setup}}
 
@@ -110,23 +113,29 @@ Filters, weergaven of groepen die beschikbaar zijn in de Lay-outsjabloon weergev
    >
    >Als u het filter, de weergave of de groep beschikbaar wilt houden voor de meeste gebruikers maar deze wilt verbergen voor andere gebruikers, kunt u de Indelingssjabloon gebruiken. Voor meer informatie, zie [ Filters, Mening, en Groepen aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-1. (Voorwaardelijk) Selecteer het filter, de mening, of de groep die u voor gebruikers wilt verbergen, dan klik **[!UICONTROL Disable system-wide]**. Het filter, de weergave of de groep is nu verborgen in de lay-outsjabloon en gebruikers in het hele systeem.
+1. (Voorwaardelijk) Selecteer het filter, de mening, of de groep die u voor gebruikers wilt verbergen, dan klik **[!UICONTROL Disable system-wide]**. Het filter, de weergave of de groepering is nu verborgen in zowel de lay-outsjabloon als in gebruikers op het systeem.
 
 
-## Filters, weergaven of groepen beschikbaar maken voor alle gebruikers {#make-filters-views-or-groupings-available-to-users}
+## Aangepaste filters, weergaven of groepen delen met specifieke gebruikers
 
-In deze stappen wordt uitgelegd hoe u filters, weergaven en groepen beschikbaar maakt in het dialoogvenster [!UICONTROL Share] in het [!UICONTROL Interface] -gebied in [!UICONTROL Setup] . Deze instelling fungeert als een aan/uit-schakelaar voor het gehele systeem, inclusief de Lay-outsjabloon.
+In deze stappen wordt uitgelegd hoe u aangepaste filters, weergaven en groepen kunt delen met specifieke gebruikers via het dialoogvenster Delen in het [!UICONTROL Interface] -gebied in [!UICONTROL Setup] . U kunt toegang verlenen aan of beheren tot filters, weergaven en groepen die u of anderen maken. U kunt systeemstandaardinstellingen niet delen met gebruikers.
+
 
 {{step-1-to-setup}}
 
 1. Klik op **[!UICONTROL Interface]** en vervolgens op een van de volgende opties: **[!UICONTROL Filters]** , **[!UICONTROL Views]** of **[!UICONTROL Groupings]** .
 
-1. Selecteer de filter, de mening, of het groeperen die u aan gebruikers beschikbaar wilt maken, dan het **[!UICONTROL Share]** pictogram ![ pictogram van het Aandeel ](assets/share-icon.png) klikken.
+1. Selecteer de filter, de mening, of het groeperen die u wilt delen, dan het **[!UICONTROL Share]** pictogram ![ pictogram van het Aandeel ](assets/share-icon.png) klikken.
 1. Typ de naam van specifieke gebruikers, teams, rollen, groepen of bedrijven om het filter, de weergave of de groep met te delen. Klik vervolgens op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst.
 
    Voor meer informatie over het delen, zie [ Overzicht van het delen van toestemmingen op voorwerpen ](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-1. Klik op **[!UICONTROL Save]**. Gebruikers die u hebt opgegeven, kunnen het filter, de weergave of de groep nu zien wanneer ze het objecttype bekijken dat u eraan hebt gekoppeld.
+1. Kies **Mening** of **leiden** naast de naam van de gebruiker, het team, de rol, de groep, of het bedrijf. Als u machtigingen wilt verfijnen, klikt u op het schuifregelaarpictogram en past u de machtigingen aan.
+
+   ![ verfijnen toestemmingen ](assets/fine-tune-permissions.png)
+
+1. Klik op **[!UICONTROL Save]**. Gebruikers die u hebt opgegeven, kunnen nu interactie aangaan met het filter, de weergave of de groep wanneer zij het objecttype bekijken waaraan u het hebt gekoppeld.
+
 
 ## Filters, weergaven en groepen verwijderen
 
