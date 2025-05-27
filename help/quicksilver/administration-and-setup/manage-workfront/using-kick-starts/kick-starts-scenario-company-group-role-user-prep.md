@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: a8faf4aa1a0a1b60f61c0c981c3be1b0d9d033a4
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1215'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ In de volgende tabel worden de bedrijven, groepen en rollen weergegeven die moet
   <tr> 
    <td valign="top"> <p>Acme, Co</p> <p>Workfront, Inc.</p> <p><em> Uw Bedrijf </em> </p> <p>XYZ, Inc.</p> </td> 
    <td valign="top"> <p valign="top" rowspan="7">Financiën</p> <p valign="top" rowspan="7">IT </p> <p valign="top" rowspan="7">Marketing </p> <p valign="top" rowspan="7">Verkoop</p> </td> 
-   <td valign="top"> <p valign="top">Zakelijke analist</p> <p valign="top">Controller, creatief</p> <p valign="top">Designer</p> <p valign="top">Resource Manager</p> <p valign="top">Scrumstramien</p> <p valign="top">Technisch schrijver</p> <p valign="top">Webontwikkelaar</p> </td> 
+   <td valign="top"> <p valign="top">Zakelijke analist</p> <p valign="top">Controller Creative</p> <p valign="top">Designer</p> <p valign="top">Resource Manager</p> <p valign="top">Scrumstramien</p> <p valign="top">Technisch schrijver</p> <p valign="top">Webontwikkelaar</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -208,7 +208,7 @@ In de volgende tabellen worden de te importeren gebruikers en diverse gebruikers
 
    Tenzij u al groepen hebt gemaakt in Workfront, wordt op dit blad alleen de standaardgroep weergegeven die is ingericht voor elke account van Workfront.
 
-   ![&#128279;](assets/groupsheet-350x15.png) ![ Lege groepsblad van 0&rbrace; Groep ](assets/emptygroupsheet-350x85.png)
+   ](assets/groupsheet-350x15.png) ![ Lege groepsblad van 0} Groep ](assets/emptygroupsheet-350x85.png)![
 
 1. Plaats **isNew** column.Volgens het scenario, zullen 4 groepen worden ingevoerd, zo specificeer WAAR in rijen 4 door 7 voor de &quot;isNew&quot;kolom.
 1. Geef een unieke id op.
@@ -255,7 +255,7 @@ In de volgende tabellen worden de te importeren gebruikers en diverse gebruikers
 
    Tenzij u al gebruikers in uw account hebt gemaakt, wordt op dit blad alleen de Admin-gebruiker weergegeven die voor elke account van Workfront is ingericht.
 
-   ![&#128279;](assets/rolenames-350x104.png) ![ Lege gebruikersblad van de Rol 0&rbrace; ](assets/emptyusersheet-350x52.png)
+   ](assets/rolenames-350x104.png) ![ Lege gebruikersblad van de Rol 0} ](assets/emptyusersheet-350x52.png)![
 
 1. Stel de waarde True in door TRUE op te geven in de rijen 4 tot en met 9 voor de kolom &#39;isNew&#39;, aangezien er 6 gebruikers worden geïmporteerd.
 
@@ -309,3 +309,13 @@ In de volgende tabellen worden de te importeren gebruikers en diverse gebruikers
 1. Het Excel-bestand importeren.
 
    Volg de richtingen die in [ worden verstrekt de gegevens van de Invoer in Adobe Workfront gebruikend een Kick-Begin malplaatje ](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+
+
+
+>[!NOTE]
+>
+>Gebruikers die naar Workfront zijn geïmporteerd, worden in de status Deactiveerd en In afwachting van goedkeuring gemaakt.
+> 
+>Als uw organisatie naar de Adobe Admin Console is gemigreerd en een gebruiker binnen een paar minuten niet de status gedeactiveerd en In afwachting van goedkeuring verlaat, kunt u de batch gebruikers rechtstreeks aan de Adobe Admin Console toevoegen.
+>
+>Voor instructies, zie [ veelvoudige gebruikers beheren | Bulk CSV upload ](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) in de documentatie van Adobe.
