@@ -114,7 +114,7 @@ U kunt het voltooide percentage voor een taak op een van de volgende gebieden bi
    >
    >Het veld Percentage voltooid wordt altijd boven in het deelvenster Overzicht weergegeven.
 
-1. Klik binnen het **Volledige 1} gebied van de Percentage {en typ een aantal tussen 0 en 100**
+1. Klik binnen het **Volledige 1&rbrace; gebied van de Percentage &lbrace;en typ een aantal tussen 0 en 100**
 
    of
 
