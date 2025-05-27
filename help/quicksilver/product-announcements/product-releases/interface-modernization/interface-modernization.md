@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: da7151e210bc779beb963e53a2beed5b5280f494
+source-git-commit: 616d729b0a42446e11805579febac4e26489b13f
 workflow-type: tm+mt
-source-wordcount: '3938'
+source-wordcount: '3990'
 ht-degree: 0%
 
 ---
@@ -20,10 +20,18 @@ Deze pagina bevat een overzicht van de interface-updates die we in Adobe Workfro
 >
 >In de meeste gevallen, wordt elke update eerst vrijgegeven aan het milieu van de Voorproef, dan incrementeel toegelaten in de milieu van de Productie voor een groeiende ondergroep klanten die op de vermelde de versiedatum van de Productie begint.
 
-Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product [&#128279;](/help/quicksilver/product-announcements/product-releases/product-releases.md).
+Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product ](/help/quicksilver/product-announcements/product-releases/product-releases.md).[
 
 
 ## Beheer en installatie
+
+### Interface-update voor het tabblad Access Log in Setup
+
+**de versie van de Voorproef: 21 mei, 2025; de versie van de Productie: 29 mei, 2025**
+
+We hebben het tabblad Toegangslogboek bijgewerkt met een moderner ontwerp dat consistent is met andere gebieden van Workfront.
+
+Ga naar Setup > Aanmelden als > Logbestand voor toegang kiezen boven aan het scherm om deze wijziging weer te geven.
 
 ### Nieuwe vormgeving van de vakken Nieuw en Scorecard kopiëren
 
@@ -66,7 +74,7 @@ Er zijn geen functiewijzigingen geïntroduceerd met deze update.
 
 ### Een document delen met een extern e-mailadres
 
-**de versie van de Voorproef: 15 mei, 2025; De versie van de productie: Te aankondigen**
+**de versie van de Voorproef: 15 mei, 2025; De versie van de productie: 21 mei, 2025**
 
 Het dialoogvenster Delen is bijgewerkt zodat gebruikers documenten kunnen delen met externe gebruikers via een e-mailadres. Deze functionaliteit was tijdelijk niet beschikbaar toe te schrijven aan het werk van de interfacemodernisering.
 
