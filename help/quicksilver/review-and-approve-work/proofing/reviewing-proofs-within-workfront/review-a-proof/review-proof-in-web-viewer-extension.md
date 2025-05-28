@@ -6,16 +6,16 @@ description: Het Adobe Workfront-revisieprogramma is een browserextensie waarmee
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
-source-git-commit: 7b02d5670ebba1456e37e6fd815e7812ec06def2
+source-git-commit: 5a8bfdeae7f5d23ecf835e652cf0ff5efd5aa410
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
 
 # Interactieve inhoud reviseren met het Adobe Workfront-revisieprogramma
 
-<span class="preview"> het hulpmiddel van de Controle van Adobe Workfront zal op 7 November 2024 beschikbaar zijn. Deze extensie bevindt zich momenteel in bèta.</span>
+<span class="preview"> Het hulpmiddel van de Herziening van Adobe Workfront werd ter beschikking gesteld op 7 November 2024. Deze extensie bevindt zich momenteel in bèta.</span>
 
 Het Adobe Workfront-revisieprogramma is een webbrowserextensie waarmee u interactieve inhoud in een ZIP-bestand of met een URL kunt controleren. Het Adobe Workfront-revisieprogramma is beschikbaar in de volgende browsers:
 
@@ -24,10 +24,9 @@ Het Adobe Workfront-revisieprogramma is een webbrowserextensie waarmee u interac
 * Edge
 * Safari
 
-We raden u aan de Desktop Proofing Viewer te gebruiken als de inhoud die u wilt controleren zich op een website bevindt die
-
-* SSO-verificatie vereist
-* Hiermee voorkomt u dat de site wordt geopend in iFrames, zoals Figma
+>[!IMPORTANT]
+>
+>Deze extensie is vereist voor het reviseren van inhoud in GenStudio for Performance Marketing en Creative Cloud Express. Assets wordt automatisch geopend in de webviewer. U hoeft geen accountinstellingen bij te werken.
 
 
 ## De extensie installeren
@@ -37,12 +36,6 @@ We raden u aan de Desktop Proofing Viewer te gebruiken als de inhoud die u wilt 
 * U moet de uitbreiding van de verouderde webviewer verwijderen als u het gereedschap Adobe Workfront Review wilt gebruiken.
 
 ### De extensie installeren
-
-<!--This extension is required to review conent in GS and Ex.
-
-You must install the extension to reiew content in GenS and Express.
-
-To review content in GS, Express, or Wou must install the extension if you are using GenStuido or Creative cloud express-->
 
 Revisoren en fiatteurs moeten het Adobe Workfront-revisieprogramma installeren. in een van de volgende browsers:
 
@@ -56,6 +49,15 @@ Revisoren en fiatteurs moeten het Adobe Workfront-revisieprogramma installeren. 
 Als u wilt dat interactieve proefdrukken automatisch worden geopend in het Adobe Workfront-revisieprogramma, moet een Workfront-beheerder de proefdrukinstellingen vooraf bijwerken, zoals in de onderstaande secties wordt beschreven.
 
 ## Standaardinstellingen voor Workfront-proefdrukken bijwerken
+
+Als u het Workfront-revisieprogramma wilt gebruiken als de standaardviewer voor interactieve inhoud, moet u de standaardwaarden voor proefdrukken in Workfront bijwerken.
+
+>[!NOTE]
+>
+>We raden u aan de Desktop Proofing Viewer te gebruiken als de inhoud die u wilt controleren zich op een website bevindt die
+>
+>* SSO-verificatie vereist
+>* Hiermee voorkomt u dat de site wordt geopend in iFrames, zoals Figma
 
 ### Adobe Workfront-revisieprogramma instellen als standaardviewer voor URL- en ZIP-proefdrukken
 
@@ -84,6 +86,4 @@ Als u het gereedschap Webrevisie alleen wilt gebruiken voor ZIP-proefdrukken, mo
 >[!NOTE]
 >
 >Deze wijziging geldt voor alle ZIP-proefdrukken in je Workfront-exemplaar. We raden u aan de nieuwe ervaring in uw voorvertoningsomgeving te testen voordat u deze inschakelt in Productie. U kunt gemakkelijk terug naar de Kijker van de Desktop schakelen door de **Desktop Proofing Kijker voor Interactieve het proef** rekening te veranderen die terug aan **wordt toegelaten voor alle interactieve proeven**.
-
-
 
