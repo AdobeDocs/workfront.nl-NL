@@ -223,7 +223,7 @@ U kunt filteropties gebruiken om aan te geven welk soort informatie u wilt dat u
 >[!INFO]
 >
 >**Voorbeeld:**
->>U kunt filteren voor projecten met een percentage Voltooid van 100%. In dit geval kunt u de optie &quot;gelijk&quot; gebruiken in de volgende filterinstructie:
+>&#x200B;>U kunt filteren voor projecten met een percentage Voltooid van 100%. In dit geval kunt u de optie &quot;gelijk&quot; gebruiken in de volgende filterinstructie:
 >
 >`Project: Percent Complete Equal(Case Sensitive) 100`
 

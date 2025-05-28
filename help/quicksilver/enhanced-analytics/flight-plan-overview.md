@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Enhanced Analytics is op 27 mei uit Workfront verwijderd. Workfront Data Connect is een nieuwe, alternatieve oplossing die kan worden gebruikt om alle Enhanced Analytics-visualisaties die u momenteel gebruikt, te repliceren. <br> zie de [ Verbeterde 2} gids van de Afleiding van Analytics {voor meer informatie.](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)
+>Enhanced Analytics is op 27 mei uit Workfront verwijderd. Workfront Data Connect is een nieuwe, alternatieve oplossing die kan worden gebruikt om alle Enhanced Analytics-visualisaties die u momenteel gebruikt, te repliceren. <br> zie de [ Verbeterde 2&rbrace; gids van de Afleiding van Analytics &lbrace;voor meer informatie.](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)
 
 
 Uit de visualisatie van het vliegplan blijkt hoeveel projecten (binnen de toegepaste filtercriteria) op de vlucht waren, welke veranderingen in de toestand zich gedurende de gehele looptijd van deze projecten hebben voorgedaan en in hoeverre deze projecten zich aan de geplande uiterste uitvoeringstermijnen hebben gehouden.
@@ -100,7 +100,7 @@ Voor informatie over hoe te om de beste gegevens voor deze visualisatie te krijg
 
 ## De visualisatie van het vliegplan bekijken
 
-1. Klik het **pictogram ![ Belangrijkste het menupictogram van het 1} Hoofdmenu ](assets/main-menu-icon-16x12.png), dan uitgezochte** Analytics **.**
+1. Klik het **pictogram ![ Belangrijkste het menupictogram van het 1&rbrace; Hoofdmenu ](assets/main-menu-icon-16x12.png), dan uitgezochte** Analytics **.**
 1. (Optioneel) Als u een ander datumbereik wilt gebruiken, selecteert u nieuwe begin- en einddatums in het filter voor het datumbereik.
 
    ![ Uitgezochte datumwaaier ](assets/filters-select-date-range-350x344.png)

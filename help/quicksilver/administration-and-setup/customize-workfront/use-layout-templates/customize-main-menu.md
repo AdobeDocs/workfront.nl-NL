@@ -119,7 +119,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      >[!NOTE]
      >
      >Voor planning is een aanvullende licentie vereist. Voor informatie over de Planning van Workfront, zie [ Overzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md)
-      * Aangepaste toepassing
+     > * Aangepaste toepassing
 
      >[!NOTE]
      >
