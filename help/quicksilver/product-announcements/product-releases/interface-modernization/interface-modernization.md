@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 616d729b0a42446e11805579febac4e26489b13f
+source-git-commit: f8b660859269694f13410e4bc6894d6677cd04a2
 workflow-type: tm+mt
-source-wordcount: '3990'
+source-wordcount: '3995'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Deze pagina bevat een overzicht van de interface-updates die we in Adobe Workfro
 >
 >In de meeste gevallen, wordt elke update eerst vrijgegeven aan het milieu van de Voorproef, dan incrementeel toegelaten in de milieu van de Productie voor een groeiende ondergroep klanten die op de vermelde de versiedatum van de Productie begint.
 
-Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product [&#128279;](/help/quicksilver/product-announcements/product-releases/product-releases.md).
+Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product ](/help/quicksilver/product-announcements/product-releases/product-releases.md).[
 
 
 ## Beheer en installatie
@@ -150,7 +150,7 @@ We raden u aan de URL te vervangen om naar een ondersteunde pagina te gaan of de
 
 ### Interface-update naar de nieuwe pagina voor gebruikersregistratie
 
-**de versie van de Voorproef: 15 mei, 2024; De versie van de productie: Te aankondigen**
+**de versie van de Voorproef: 12 mei, 2024; De versie van de productie: 19 mei, 2025**
 
 We hebben de nieuwe gebruikersregistratiepagina bijgewerkt met een modern ontwerp dat aansluit bij andere gebieden van Workfront.
 
@@ -158,13 +158,15 @@ Gebruikers kunnen niet langer een foto uploaden naar deze pagina. Ze kunnen echt
 
 ### Bijgewerkt zoeken naar de aanmeldingspagina
 
-**de versie van de Voorproef: 15 mei, 2024; De versie van de productie: Te aankondigen**
+**de versie van de Voorproef: 12 mei, 2024; De versie van de productie: 19 mei, 2025**
 
 We hebben de aanmeldingspagina bijgewerkt met een modern ontwerp dat aansluit bij andere delen van Workfront.
 
+Met deze wijziging ondersteunt de aanmeldingspagina geen aangepaste branding meer.
+
 ### Bijgewerkte zoekopdracht voor pagina met opnieuw ingestelde wachtwoorden
 
-**de versie van de Voorproef: 15 mei, 2024; De versie van de productie: Te aankondigen**
+**de versie van de Voorproef: 12 mei, 2024; De versie van de productie: 19 mei, 2025**
 
 We hebben het scherm Wachtwoord opnieuw instellen bijgewerkt met een modern ontwerp dat aansluit bij andere delen van Workfront. Deze update bevat updates voor de volgende pagina&#39;s:
 
