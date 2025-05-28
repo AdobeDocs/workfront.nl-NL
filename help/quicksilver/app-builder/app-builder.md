@@ -4,9 +4,9 @@ description: Met Workfront UI-extensies, aangedreven door Adobe App Builder, kun
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: e27cf74c94167e918bb6426b99bf7e47139cbade
+source-git-commit: a4e715d5212c3c166ce6ed995b327eb2b7198123
 workflow-type: tm+mt
-source-wordcount: '1705'
+source-wordcount: '1693'
 ht-degree: 0%
 
 ---
@@ -38,10 +38,11 @@ U moet het volgende hebben:
 
 * Een Workfront-account voor IMS
 * Een dev-machine met knooppunt v18 en npm
+* App Builder-licentie
 
 ## Adobe App Builder openen
 
-Als u UI-extensies wilt maken, moet u toegang hebben tot de Adobe App Builder in de Adobe Developer Console.
+Als u UI-extensies wilt maken, moet u toegang hebben tot Adobe App Builder in de Adobe Developer Console.
 
 De extra instructies zijn beschikbaar op de [ plaats van Adobe Developer ](https://developer.adobe.com/uix/docs/guides/get-access/).
 
@@ -69,8 +70,6 @@ De extra instructies zijn beschikbaar op de [ plaats van Adobe Developer ](https
 ### Toegang tot App Builder krijgen
 
 Organisaties moeten met hun accountmanagers samenwerken om App Builder te kopen.
-
-Als u de integratie met AppBuilder wilt testen, kunt u hier een gratis proefversie voor uw IMS-organisatie aanvragen: https://developer.adobe.com/app-builder/trial/#
 
 Als AppBuilder behoorlijk wordt gevormd, zou u project van malplaatje als deel van het creëren van een nieuw project moeten zien tot stand brengen.
 
@@ -132,7 +131,7 @@ De extra instructies zijn beschikbaar op GitHub en de plaats van Adobe Developer
 
 1. Bevestig de voltooiing door op Ik ben klaar te klikken. De code die wordt gegenereerd op basis van de sjabloon, wordt momenteel gegenereerd.
    ![ generatie in proces ](assets/6-generation-in-process.png)
-1. Wacht tot u een bericht ziet dat de app-initialisatie is voltooid. Dan kunt u het project in winde (VSCode wordt geadviseerd) openen en tot de src omslag toegang hebben.
+1. Wacht tot u een bericht ziet dat de app-initialisatie is voltooid. Dan kunt u het project in winde (de Code van Visual Studio wordt geadviseerd) openen en tot de src omslag toegang hebben.
 
    Voor meer informatie over de omslagen en de dossiers in uw project, zie de [ de ontwikkelaarplaats van Adobe ](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#5-anatomy-of-an-appbuilder-application).
 
@@ -157,7 +156,7 @@ In de functie ExtensionRegistration moet u de volgende code zien. Deze code is v
     
      getItems () 
     
-     terugkeer &lbrack;
+     terugkeer [
     
      
     
@@ -171,7 +170,7 @@ In de functie ExtensionRegistration moet u de volgende code zien. Deze code is v
     
     , 
     
-    &rbrack;;
+    ];
     
     ,  
     
