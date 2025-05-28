@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 7640016921e421d2aec0ab1aadc0edd304125feb
+source-git-commit: bb0c3139be903e34fd01be055010673764fe9787
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,6 @@ ht-degree: 0%
 <!--Audited: 01/2024-->
 
 Als Adobe Workfront-beheerder of groepsbeheerder kunt u een lay-outsjabloon gebruiken om de opties te configureren die gebruikers zien wanneer ze het Hoofdmenu in Workfront openen.
-
-![ Belangrijkste opties van het Menu ](assets/main-menu-with-blueprints-no-branding.png)
 
 >[!NOTE]
 >
@@ -106,7 +104,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    * Timesheets
    * Documenten
    * Sjablonen
-   * Analyse
    * Proofing
    * Doelen
 
@@ -122,7 +119,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      >[!NOTE]
      >
      >Voor planning is een aanvullende licentie vereist. Voor informatie over de Planning van Workfront, zie [ Overzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md)
-     > * Aangepaste toepassing
+      * Aangepaste toepassing
 
      >[!NOTE]
      >

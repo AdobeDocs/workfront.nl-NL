@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: In een lay-outsjabloon kunt u de pagina's vastzetten die gebruikers altijd beschikbaar moeten hebben boven aan Adobe Workfront. Dit kunnen pagina's zijn die via het hoofdmenu of dashboards worden benaderd.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
+source-git-commit: 76797ce2afb6a6a929531f02ed3a3b3f75240602
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,6 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
    * Selecteer een van de volgende gebieden:
 
-      * Analyse
       * Kalenders
       * Dashboards
       * Documenten

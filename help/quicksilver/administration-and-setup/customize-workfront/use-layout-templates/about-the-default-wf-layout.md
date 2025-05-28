@@ -5,13 +5,13 @@ content-type: reference;overview
 product-area: system-administration;templates
 navigation-topic: layout-templates
 description: De standaardlay-out is de rangschikking van het Hoofdmenu, het linkerpaneel, en de meningen, de groeperingen, en de filters alvorens een beheerder van Adobe Workfront om het even welke veranderingen gebruikend een lay-outmalplaatje aanbrengt.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 76797ce2afb6a6a929531f02ed3a3b3f75240602
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '614'
 ht-degree: 0%
 
 ---
@@ -196,16 +196,6 @@ In de volgende tabel worden de standaarditems van het hoofdmenu en de items van 
     <td class="tg-0lax"></td>
   </tr>
   <tr>
-    <td class="tg-0lax">Analyse</td>
-    <td class="tg-0lax">Het werk <br> Mensen</td>
-    <td class="tg-0lax">✔</td>
-    <td class="tg-0lax">✔</td>
-    <td class="tg-0lax">✔</td>
-    <td class="tg-0lax">✔</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-  </tr>
-  <tr>
     <td class="tg-0lax">Scenarios</td>
     <td class="tg-0lax"></td>
     <td class="tg-0lax">✔</td>
@@ -268,7 +258,7 @@ In de volgende tabel worden de standaarditems van het hoofdmenu en de items van 
 
 </tbody></table>
 
-*U moet zijn ingeschreven voor de bètaversie van canvasdashboards om dit gebied te kunnen bekijken. Voor meer informatie, zie {de bètainformatie van de Dashboards van het 0} Canvas [&#128279;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+*U moet zijn ingeschreven voor de bètaversie van canvasdashboards om dit gebied te kunnen bekijken. Voor meer informatie, zie {de bètainformatie van de Dashboards van het 0} Canvas ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).[
 
 ### Standaardhoofdmenu voor nieuwe licentietypen
 
@@ -412,15 +402,6 @@ In de volgende tabel worden de standaarditems van het hoofdmenu en de items van 
     <td class="tg-0pky"></td>
   </tr>
   <tr>
-    <td class="tg-0pky">Analyse</td>
-    <td class="tg-0pky">Het werk <br> Mensen</td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-  </tr>
-  <tr>
     <td class="tg-0pky">Scenarios</td>
     <td class="tg-0pky"></td>
     <td class="tg-0pky">✔</td>
@@ -476,7 +457,7 @@ In de volgende tabel worden de standaarditems van het hoofdmenu en de items van 
   </tr>
 </tbody></table>
 
-*U moet zijn ingeschreven voor de bètaversie van canvasdashboards om dit gebied te kunnen bekijken. Voor meer informatie, zie {de bètainformatie van de Dashboards van het 0} Canvas [&#128279;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+*U moet zijn ingeschreven voor de bètaversie van canvasdashboards om dit gebied te kunnen bekijken. Voor meer informatie, zie {de bètainformatie van de Dashboards van het 0} Canvas ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).[
 
 <!--
 

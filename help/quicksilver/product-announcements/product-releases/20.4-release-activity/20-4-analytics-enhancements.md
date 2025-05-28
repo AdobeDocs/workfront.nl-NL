@@ -1,19 +1,19 @@
 ---
-title: 20. 4 Verbeteringen voor analysemogelijkheden
-description: 20. 4 Verbeteringen voor analysemogelijkheden
+title: ​20. 4 Verbeteringen voor analysemogelijkheden
+description: ​20. 4 Verbeteringen voor analysemogelijkheden
 author: Luke
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39e09278-afce-4e9b-857c-f18453081f9d
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
 
-# 20. 4 Verbeteringen voor analysemogelijkheden
+# &#x200B;20. 4 Verbeteringen voor analysemogelijkheden
 
 Op deze pagina worden alle verbeteringen in de analysemogelijkheden beschreven die zijn aangebracht met de release 20.4 voor de voorvertoningsomgeving. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving in de week van 9 november 2020.
 
@@ -28,5 +28,3 @@ Om u toe te staan om de informatie te bekijken u wilt zien zonder het moeten res
 * Elke grafiek heeft nu een Soort door menu dat u toestaat om alfabetisch, door de Geplande Datum van het Begin, of door de Geplande Datum van de Voltooiing te sorteren.
 
 Eerder, beperkte het Verbeterde analysegebied het aantal projecten dat u kon bekijken tot 50.
-
-Deze eigenschap is nu inbegrepen in [ Verbeterde Analytics, Deel 1 het leren weg ](https://experienceleague.adobe.com/nl/docs/workfront/using/home) op Workfront Één.

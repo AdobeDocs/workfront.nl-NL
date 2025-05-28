@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: Als Workfront-beheerder kunt u een lay-outsjabloon gebruiken om het gebied op te geven dat gebruikers moeten zien telkens wanneer ze zich aanmelden bij Workfront.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: 76797ce2afb6a6a929531f02ed3a3b3f75240602
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,6 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
 
    Selecteer een van de volgende gebieden of voeg een aangepast dashboard toe:
 
-   * Analyse
    * Kalenders
    * Dashboards
    * Documenten

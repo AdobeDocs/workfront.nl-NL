@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 886fe974-7813-425c-b5cf-f6bca21a888b
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,6 @@ Voor een lijst van alle veranderingen beschikbaar met de versie 21.1, zie [ over
 
 In het standaardmalplaatje van de Lay-out, wordt het gebied van Analytics nu toegelaten door gebrek, wat betekent de gebruikers die aan dit Malplaatje van Lay-out worden toegewezen nu het gebied van Analytics in de Globale Bar van de Navigatie in de Klassiek van Adobe Workfront en het Belangrijkste Menu in de nieuwe ervaring van Adobe Workfront zien.
 
-Meer over Verbeterde analyses leren, zie [ Verbeterd analyseoverzicht ](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Verbeterde analyses beschikbaar voor alle clusters
 
@@ -37,7 +36,6 @@ Uitgebreide analyses zijn beschikbaar voor alle Workfront-clusters, inclusief kl
 
 Eerder was de uitgebreide analyse niet beschikbaar in het Google Cloud Platform, waardoor klanten met Cluster 6 geen toegang kregen tot het gebied Analytics. Zakelijke en Enterprise-klanten met Cluster 6 hebben nu toegang tot het gebied Analytics.
 
-Meer over Verbeterde analyses leren, zie [ Verbeterd analyseoverzicht ](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## De pagina Personen is nu beschikbaar voor alle clusters
 
@@ -49,4 +47,4 @@ De pagina Personen is nu beschikbaar op Workfront Classic voor Cluster 4. Deze p
 
 Deze pagina was eerder beschikbaar met de release 20.3 in zowel Workfront Classic als de nieuwe Workfront-ervaring voor alle andere clusters.
 
-Meer over de grafieken leren beschikbaar in de pagina van Mensen, zie [ Verbeterd analyseoverzicht ](../../../enhanced-analytics/enhanced-analytics-overview.md).
+

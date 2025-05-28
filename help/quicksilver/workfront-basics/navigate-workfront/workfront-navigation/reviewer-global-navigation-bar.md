@@ -6,9 +6,9 @@ description: Het Belangrijkste Menu verandert met het toegangsniveau u door uw  
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c646b3d2-2eca-47ef-b181-9358cef03ed7
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,6 @@ De volgende gebieden worden opgenomen in de standaardlay-out van een [!UICONTROL
 
 * **[!UICONTROL Requests]**: U kunt verzoeken die u of andere gebruikers van uw bedrijf in dit gebied hebben verzonden, verzenden en bekijken.
 * **[!UICONTROL Documents]**: U kunt documenten uploaden of documenten reviseren die hier met u worden gedeeld.
-* **[!UICONTROL Analytics]**: Bekijk de projectgegevens en identificeer trends met planning en voltooiing. Dit gebied toont inzicht in projecten u toegang tot mening hebt. Voor meer informatie, zie [ Verbeterd analyseoverzicht ](../../../enhanced-analytics/enhanced-analytics-overview.md).
-
 * **[!UICONTROL Blueprints]**: controleer bestaande blauwdrukken in uw systeem en verzoek om te worden geïnstalleerd, als de [!DNL Workfront] beheerder de verzoekrij voor blauwdrukken vormde. Voor meer informatie, zie [ Overzicht van Vervagen ](../../../administration-and-setup/blueprints/blueprints-overview.md).
 
 

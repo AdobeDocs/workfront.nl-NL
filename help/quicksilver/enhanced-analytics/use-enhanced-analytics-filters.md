@@ -6,9 +6,9 @@ description: Met de filters in het gedeelte Enhanced analytics van Adobe Workfro
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
+source-git-commit: 2a6e767036ae702f6c19dc71cdb11dae8e9e37ea
 workflow-type: tm+mt
-source-wordcount: '1528'
+source-wordcount: '1525'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,12 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Enhanced Analytics wordt de week van 26 mei uit Workfront verwijderd. Workfront Data Connect is een nieuwe, alternatieve oplossing die kan worden gebruikt om alle Enhanced Analytics-visualisaties die u momenteel gebruikt, te repliceren. <br> zie de [ Verbeterde 2&rbrace; gids van de Afleiding van Analytics &lbrace;voor meer informatie.](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)
+>Enhanced Analytics is op 27 mei uit Workfront verwijderd. Workfront Data Connect is een nieuwe, alternatieve oplossing die kan worden gebruikt om alle Enhanced Analytics-visualisaties die u momenteel gebruikt, te repliceren. <br> zie de [ Verbeterde 2} gids van de Afleiding van Analytics {voor meer informatie.](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)
 
 
 <!-- Audited: 12/2023 -->
 
-Met de filters in het gedeelte Enhanced analytics van Adobe Workfront kunt u zich richten op specifieke projecten of specifieke typen gegevens. De typen filters die u gebruikt, kunnen u inzicht geven in:
+Met de filters in het gedeelte Enhanced analytics van Adobe Workfront kunt u zich richten op specifieke projecten of specifieke typen gegevens. De typen filters die u gebruikt, kunnen u insight geven op:
 
 * Projecten die u bezit
 * Specifieke portfolio- of programmaweergaven
@@ -72,7 +72,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 ## Vereisten
 
-Voor eerste vereisten aan het gebruiken van Verbeterde Analytics, zie [&#128279;](../enhanced-analytics/enhanced-analytics-overview.md#prerequisites) Vereisten  in [ Verbeterd analyseoverzicht ](../enhanced-analytics/enhanced-analytics-overview.md).
+Voor eerste vereisten aan het gebruiken van Verbeterde Analytics, zie ](../enhanced-analytics/enhanced-analytics-overview.md#prerequisites) Vereisten [ in [ Verbeterd analyseoverzicht ](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Het filter voor het datumbereik wijzigen {#change-the-date-range-filter}
 
@@ -140,7 +140,7 @@ Een projectveldfilter toevoegen:
    >
    >Verschillende filtertypen geven verschillende gegevens weer. U kunt slechts één filtertype in een filter gebruiken. Nadat u het selecteert, is een filtertype niet beschikbaar om in een ander filter van het projectgebied te gebruiken.
 
-1. Bepaal de plaats van de waarden u gegevens voor wilt zien door minstens drie karakters van tekst op het **1&rbrace; gebied van het Onderzoek in te gaan &lbrace;, dan elke waarde te selecteren u in de filter wilt omvatten.**
+1. Bepaal de plaats van de waarden u gegevens voor wilt zien door minstens drie karakters van tekst op het **1} gebied van het Onderzoek in te gaan {, dan elke waarde te selecteren u in de filter wilt omvatten.**
 
    Om alle huidige waarden te selecteren, klik **Uitgezocht allen**.
 
@@ -225,7 +225,7 @@ Een aangepast formulierfilter toevoegen:
 
    ![ Uitgezochte Mensen ](assets/people-area-cropped-qs-350x276.png)
 
-1. Op de bovenkant verlaten van het scherm, klik **filter** toevoegen, dan selecteren de **3&rbrace; filter van het Team &lbrace;.**
+1. Op de bovenkant verlaten van het scherm, klik **filter** toevoegen, dan selecteren de **3} filter van het Team {.**
 1. Bepaal de plaats van de teams u gegevens voor wilt zien door minstens drie karakters van tekst in het **gebied van het Onderzoek** in te gaan, dan elk team selecteren u in de filter wilt omvatten. Om alle teams te selecteren, klik **Uitgezocht allen**.
 
    ![ Uitgezochte teams ](assets/select-team-value-350x253.png)
@@ -253,7 +253,7 @@ Een filter verwijderen:
 
 {{step1-to-analytics}}
 
-1. Als u een projectgebied of een filter van de douanevorm wilt verwijderen, op het **1&rbrace; gebied van het Werk &lbrace;blijven.**
+1. Als u een projectgebied of een filter van de douanevorm wilt verwijderen, op het **1} gebied van het Werk {blijven.**
 
    of
 

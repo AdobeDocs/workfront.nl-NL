@@ -7,9 +7,9 @@ description: Het Belangrijkste Menu verandert met het toegangsniveau u door uw  
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -45,8 +45,6 @@ De volgende gebieden worden opgenomen in de standaardlay-out van een [!UICONTROL
 * **[!UICONTROL Documents]**: U kunt hier documenten uploaden of documenten reviseren die met u worden gedeeld. Voor informatie, zie [ Documenten ](../../../documents/documents-overview.md).
 
 * **[!UICONTROL Resourcing]**: U kunt de middeltoewijzing in de hulpmiddelen van de Planning van het Middel bekijken en de Groepen van Middel hier bekijken. Voor informatie, zie [ middelen ](../../../resource-mgmt/manage-resources.md) leiden.
-
-* **[!UICONTROL Analytics]**: Bekijk de projectgegevens en identificeer trends met planning en voltooiing. Dit gebied toont inzicht in projecten u toegang tot mening hebt. Voor meer informatie, zie [ Verbeterd analyseoverzicht ](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
 * **[!UICONTROL Boards]**: Werk met flexibiliteit en samenwerking met uw teamleden door gedeelde borden te gebruiken die kolommen en kaarten bevatten die het werk weerspiegelen u wilt worden gedaan. Voor informatie, zie [ begonnen worden met raden: artikelindex ](../../../agile/get-started-with-boards/get-started-with-boards.md).
 

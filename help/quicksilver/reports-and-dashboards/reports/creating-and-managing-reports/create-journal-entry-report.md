@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '2778'
+source-wordcount: '2751'
 ht-degree: 0%
 
 ---
@@ -165,18 +165,9 @@ U kunt opstelling het rapport van de Ingang van het Dagboek om te tonen:
 * Wie de status heeft gewijzigd
 * Wanneer de status is gewijzigd
 
-Als u de gezondheid van een project wilt zien, kon u opstelling het rapport ook om deze zelfde informatie te tonen gebruikend het 1&rbrace; gebied van de Voorwaarde van het project **&lbrace;.**
+Als u de gezondheid van een project wilt zien, kon u opstelling het rapport ook om deze zelfde informatie te tonen gebruikend het 1} gebied van de Voorwaarde van het project **{.**
 
 Deze informatie kan worden gebruikt om met controle te helpen en te illustreren hoe goed u en uw organisatie plannen.
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;for tip below: When analytics adds the status option, update this note to say "these entries (status or condition changes)")</p>
--->
-
->[!TIP]
->
->Als u het verschil in dagen tussen voorwaardenveranderingen wilt vergelijken, kunt u Verbeterde analysemogelijkheden gebruiken.\
->Meer over Verbeterde analyses leren, zie [ Verbeterd analyseoverzicht ](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
 1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Rapporten**.
 1. Klik **Nieuw Rapport**, dan uitgezochte **Ingang van het Dagboek**.
@@ -358,7 +349,7 @@ Zo ziet u wanneer een taak of uitgave is verwijderd:
 
    Leren hoe te om een herinnering toe te voegen, zie [ een herinnering aan een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) toevoegen.
 
-1. (Facultatief) in het **lusje van Groepen 0&rbrace;, klik** een Bestaande Groepering **toepassen, dan selecteren** Project **.**
+1. (Facultatief) in het **lusje van Groepen 0}, klik** een Bestaande Groepering **toepassen, dan selecteren** Project **.**
 
    Voor meer informatie bij het toevoegen van groeperingen, zie [ Overzicht van Groepen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
@@ -442,7 +433,7 @@ Zo ziet u hoe aangepaste velden tijdens de levenscyclus van een project zijn gew
 
 1. In het **lusje van Filters**, klik **voeg een Regel van de Filter** toe, dan voeg de volgende filters toe:
 
-   * **>** bevat de Naam van het Gebied van de Ingang van het Dagboek **>** DE **&#x200B;**
+   * **>** bevat de Naam van het Gebied van de Ingang van het Dagboek **>** DE ****
 
      >[!TIP]
      >
@@ -656,7 +647,7 @@ U kunt opstelling het rapport van de Ingang van het Dagboek om te tonen hoeveel 
 
    Leren hoe te om een herinnering toe te voegen, zie [ een herinnering aan een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) toevoegen.
 
-1. (Facultatief) in het **lusje van Groepen 0&rbrace;, klik** een Bestaande Groepering **toepassen, dan selecteren** Project **.**
+1. (Facultatief) in het **lusje van Groepen 0}, klik** een Bestaande Groepering **toepassen, dan selecteren** Project **.**
 
    Voor meer informatie bij het toevoegen van groeperingen, zie [ Overzicht van Groepen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 

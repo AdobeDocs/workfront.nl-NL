@@ -7,9 +7,9 @@ description: Verbeterde analyses zijn een krachtig hulpmiddel in Adobe Workfront
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a14ad57c-859b-43df-84c0-575ccda86e50
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 2a6e767036ae702f6c19dc71cdb11dae8e9e37ea
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1243'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Enhanced Analytics wordt de week van 26 mei uit Workfront verwijderd. Workfront Data Connect is een nieuwe, alternatieve oplossing die kan worden gebruikt om alle Enhanced Analytics-visualisaties die u momenteel gebruikt, te repliceren. <br> zie de [ Verbeterde 2&rbrace; gids van de Afleiding van Analytics &lbrace;voor meer informatie.](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)
+>Enhanced Analytics is op 27 mei uit Workfront verwijderd. Workfront Data Connect is een nieuwe, alternatieve oplossing die kan worden gebruikt om alle Enhanced Analytics-visualisaties die u momenteel gebruikt, te repliceren. <br> zie de [ Verbeterde 2} gids van de Afleiding van Analytics {voor meer informatie.](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)
 
 
 Verbeterde analyses zijn een krachtig hulpmiddel in Adobe Workfront met vooraf gebouwde visualisaties waarmee u projectgegevens kunt bekijken en trends kunt identificeren met planning en voltooiing. Met deze insight in uw projecten kunt u uw huidige werk beheren en kunt u nauwkeuriger plannen voor toekomstige werkzaamheden.
@@ -34,7 +34,7 @@ Uitgebreide analyses kunnen u helpen identificeren:
 
 ![ Analytics ](assets/nwe-full-screen-analytics-350x222.png)
 
-Om gebruiksgevallen te zien of meer te leren over het beheren van huidig werk en het plannen voor toekomstig werk met Verbeterde analyses, zie [ Verbeterde analytische het Leren Wegen ](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home).
+Om gebruiksgevallen te zien of meer te leren over het beheren van huidig werk en het plannen voor toekomstig werk met Verbeterde analyses, zie [ Verbeterde analytische het Leren Wegen ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 
 ## Vereisten
 
@@ -46,7 +46,7 @@ Voor toegang tot het gebied Verbeterde analysemogelijkheden moet u:
 
 * Uw Workfront-beheerder uitgebreide analyses laten toevoegen aan uw lay-outsjabloon.
 
-  Voor meer informatie, zie [ Verbeterde Analytics: Het toevoegen van analyses aan lay-outmalplaatjes ](https://experienceleague.adobe.com/nl/docs/workfront/using/home).
+  Voor meer informatie, zie [ Verbeterde Analytics: Het toevoegen van analyses aan lay-outmalplaatjes ](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
 Om informatie voor projecten en taken te zien, moet u:
 
@@ -165,7 +165,7 @@ Raadpleeg de volgende artikelen voor meer informatie over de details van een spe
   </tr> 
   <tr> 
    <td><a href="../enhanced-analytics/burndown-overview.md" class="MCXref xref"> Mening de Burndown visualisatie in Verbeterde analyses </a> </td> 
-   <td> <p>De </b> visualisatie 0&rbrace; Burndown toont u de geplande snelheid van een project in vergelijking met de daadwerkelijke hoeveelheid uren besteed aan een project. <b> Het in wisselwerking staan met visualisatie geeft u meer details over de voorwaarde van het project op een specifieke datum.</p> </td> 
+   <td> <p>De </b> visualisatie 0} Burndown toont u de geplande snelheid van een project in vergelijking met de daadwerkelijke hoeveelheid uren besteed aan een project. <b> Het in wisselwerking staan met visualisatie geeft u meer details over de voorwaarde van het project op een specifieke datum.</p> </td> 
   </tr> 
   <tr> 
    <td><a href="../enhanced-analytics/tasks-in-flight-overview.md" class="MCXref xref"> Mening de Taken in vluchtvisualisatie in Verbeterde analyses </a> </td> 

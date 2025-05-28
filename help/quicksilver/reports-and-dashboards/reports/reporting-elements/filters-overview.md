@@ -4,12 +4,12 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Overzicht van filters
 description: U kunt filters in Adobe Workfront gebruiken om de hoeveelheid informatie te verminderen u op het scherm in lijsten, rapporten, of andere gebieden toont.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '1821'
+source-wordcount: '1811'
 ht-degree: 0%
 
 ---
@@ -90,10 +90,6 @@ U kunt ingebouwde filters gebruiken of aangepaste filters bouwen in de volgende 
 * Werklastverdeling
 
   Voor informatie, zie [ informatie van de Filter in de Balancer van de Werklast ](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
-
-* Gebied Analyse
-
-  Voor informatie, zie [ filters in Verbeterde analyses ](../../../enhanced-analytics/use-enhanced-analytics-filters.md) toepassen.
 
 * Blauwdrukgebied
 
@@ -189,7 +185,7 @@ Een filter bevat de volgende elementen:
   </tr> 
   <tr> 
    <td><strong>Veld</strong></td> 
-   <td> <p>Het kenmerk van het object waarop u filtert. </p> <p>U kunt bijvoorbeeld filteren op Naam Portfolio of Projecteigenaar. In dit geval zijn Naam en Eigenaar velden van het Portfolio en de projectobjecten. </p> </td> 
+   <td> <p>Het kenmerk van het object waarop u filtert. </p> <p>U kunt bijvoorbeeld filteren op Portfolio Name of Project Owner. In dit geval zijn Naam en Eigenaar velden van de objecten Portfolio en Project. </p> </td> 
   </tr> 
   <tr> 
    <td><strong>Waarde</strong></td> 
@@ -227,7 +223,7 @@ U kunt filteropties gebruiken om aan te geven welk soort informatie u wilt dat u
 >[!INFO]
 >
 >**Voorbeeld:**
->U kunt filteren voor projecten met een percentage Voltooid van 100%. In dit geval kunt u de optie &quot;gelijk&quot; gebruiken in de volgende filterinstructie:
+>>U kunt filteren voor projecten met een percentage Voltooid van 100%. In dit geval kunt u de optie &quot;gelijk&quot; gebruiken in de volgende filterinstructie:
 >
 >`Project: Percent Complete Equal(Case Sensitive) 100`
 
