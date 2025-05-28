@@ -7,9 +7,9 @@ description: De uren die u in Adobe Workfront inlogt op uw werkitems worden besc
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: d68189272bd3f78de2d57b8393b44b698fa5db13
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: '819'
 ht-degree: 0%
 
 ---
@@ -91,8 +91,8 @@ Werkelijke uren zoeken in de sectie Details is identiek voor projecten, taken en
 Werkelijke uren zoeken in taakdetails:
 
 1. Ga naar een taak u de Ware Uren voor wilt herzien.
-1. In het linkerpaneel, klik **Details van de Taak**. De **vertoningen van de 1&rbrace; sectie van het Overzicht &lbrace;.**
-1. Bepaal de plaats van de **Ware 1&rbrace; waarde van Uren {in de** 3} sectie van de Werktijd. **&#x200B;**&#x200B;Dit is het totaal aantal uren dat op deze taak is aangemeld.
+1. In het linkerpaneel, klik **Details van de Taak**. De **vertoningen van de 1} sectie van het Overzicht {.**
+1. Bepaal de plaats van de **Ware 1} waarde van Uren {in de** 3} sectie van de Werktijd. **** Dit is het totaal aantal uren dat op deze taak is aangemeld.
 
 ### Werkelijke uren in de sectie Uren {#actual-hours-in-the-hours-section}
 
@@ -102,7 +102,7 @@ Werkelijke uren zoeken in de sectie Uren:
 
 1. Ga naar een taak u de Ware Uren voor wilt herzien.
 
-1. In het linkerpaneel, klik **Uren**. Een lijst van uuringangen die op de taakvertoningen worden geregistreerd, met de **1&rbrace; kolom die van Uren &lbrace;het totale aantal Werkelijke Uren voor de taak tonen.**
+1. In het linkerpaneel, klik **Uren**. Een lijst van uuringangen die op de taakvertoningen worden geregistreerd, met de **1} kolom die van Uren {het totale aantal Werkelijke Uren voor de taak tonen.**
 
 1. Zorg ervoor dat de **Standaard** mening en de **groepering van het Project** op deze lijst worden toegepast.
 
@@ -120,7 +120,7 @@ Werkelijke uren weergeven in een taakrapport:
 
 1. In de bodem-linkerhoek van de pagina, klik **sparen + Sluiten** om het rapport te bewaren.
 
-1. In de **Naam dit Rapport om het** dialoogvakje te bewaren, ga een nieuwe rapportnaam in, dan klik **&#x200B;**&#x200B;van toepassing zijn.
+1. In de **Naam dit Rapport om het** dialoogvakje te bewaren, ga een nieuwe rapportnaam in, dan klik **** van toepassing zijn.
 
 ### Werkelijke uren aan hulpmiddelen voor bronnenbeheer {#actual-hours-in-resource-management-tools}
 
@@ -134,7 +134,7 @@ Als u de vooruitgang wilt zien van het werk uw gebruikers aan hun toegewezen tak
   Voor informatie, zie [ Beschikbare Mening, Geplant, en Ware Uren of VTE in de Planner van het Middel wanneer het gebruiken van de mening van de Gebruiker ](../../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md).
 
 
-### Werkelijke uren in de Workfront-database, de API en aangepaste gegevens
+### Werkelijke uren in de Workfront <!--database and the--> API <!--, and custom data-->
 
 <!--this section was added as a result to this issue: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/task/6810910e0001b932e0948336208e76f2/overview-->
 
@@ -142,9 +142,14 @@ De meeste Workfront-velden waarin uren worden opgeslagen, worden in minuten opge
 
 U moet de conversie van minuten naar uren uitvoeren wanneer u deze velden opent in API-aanroepen of in berekende aangepaste velden of kolommen.
 
-Werkelijke uren wordt echter in uren opgeslagen in de Workfront-database.
+Afhankelijk van hoe u tot Ware Uren toegang hebt, kunnen zij in de volgende gebieden en de eenheden in het gegevensbestand worden opgeslagen:
 
-U moet de volgende veldnaam gebruiken voor Werkelijke uren in API-aanroepen of berekende aangepaste velden of kolommen in Workfront: `actualWorkRequiredDouble` .
+* In de API: De `valuefield` for Actual Hours is `actualWorkRequiredDouble` , die in uren wordt opgeslagen.
+* In de Workfront-interface (berekend aangepast veld en aangepaste kolommen): De `valuefield` voor werkelijke uren is `actualWorkRequired` , die in minuten wordt opgeslagen.
+
+<!--Change the above with this when we fix this for the Workfront UI: 
+
+You must use the following valuefield name for Actual Hours in API calls or calculated custom fields or columns in Workfront: `actualWorkRequiredDouble`. -->
 
 Voor informatie over het gebruiken van Werkelijke Uren in berekende kolommen of gebieden, zie [ FAQs van het Rapport ](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
 
