@@ -105,12 +105,12 @@ Als u een [!DNL Workfront] -taak automatisch wilt koppelen aan een [!DNL Jira] -
 1. Klik **+ Nieuwe Taak**.
    >[!NOTE]
    >
-   >Om een bestaand punt van Workfront met een kwestie van Jira te verbinden, uitgezocht **** van het punt **meer** ![ ](assets/more-icon.png) menu van het pictogram Meer {uitgeven.
+   >Om een bestaand punt van Workfront met een kwestie van Jira te verbinden, uitgezocht **&#x200B;**&#x200B;van het punt **meer** ![ ](assets/more-icon.png) menu van het pictogram Meer &lbrace;uitgeven.
 
 1. Geef de velden op die beschikbaar zijn voor de taak of werk deze bij.
 1. Zoek en selecteer in het veld **[!UICONTROL Assignments]** de gebruiker, rol of het team dat als trigger voor de [!DNL Jira] -integratie is opgegeven.
 
-1. Klik **creëren Taak**. De taak wordt gecreeerd in Workfront, en een nieuwe commentaar verschijnt in het 1} lusje van de Updates van de taak **{om erop te wijzen dat een nieuwe kwestie ook in [!DNL Jira] is gecreeerd.**
+1. Klik **creëren Taak**. De taak wordt gecreeerd in Workfront, en een nieuwe commentaar verschijnt in het 1&rbrace; lusje van de Updates van de taak **&lbrace;om erop te wijzen dat een nieuwe kwestie ook in [!DNL Jira] is gecreeerd.**
 
 1. (Optioneel) Klik in het gedeelte **[!UICONTROL Integrations]** van de **[!UICONTROL Details]** -sectie van de taak- of uitgiftekop op de koppeling **[!UICONTROL Go to Jira]** om het probleem te openen in Jira.
 

@@ -30,7 +30,7 @@ Een aangepast veld met RTF-opmaak wordt Veld met RTF-opmaak genoemd en kan de vo
 Voorbeeld: een standaard GET-aanvraag om de waarde van het veld op te halen met een aangepast tekstveld met tekstopmaak:
 
 <!-- [Copy](javascript:void(0);) -->
-<pre><OBJ Code><OBJ ID><OBJ Code><OBJ ID></pre> 
+<pre>&lt;OBJ Code>&lt;OBJ ID>&lt;OBJ Code>&lt;OBJ ID></pre> 
 
 Voorbeeld: deze aanvraag retourneert de waarde Veld met RTF-tekst in JSON die is opgeslagen in de parameterValue DE:Field met RTF-tekst
 
@@ -120,4 +120,4 @@ De volgende waarden van een RTF-veld opslaan met de Workfront API:
 1. Gebruik de stringify-methode op de JSON die hierboven wordt beschreven om een PUT-aanvraag in te dienen en updates te verzenden.
 
    <!-- [Copy](javascript:void(0);) -->
-   <pre><OBJ Code><OBJ ID></pre>
+   <pre>&lt;OBJ Code>&lt;OBJ ID></pre>
