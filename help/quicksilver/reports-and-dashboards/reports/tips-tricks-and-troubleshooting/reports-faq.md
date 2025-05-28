@@ -88,7 +88,7 @@ De juiste berekening is:
 >Als u naar Werkelijke uren in API vraag verwijst, gebruik `actualWorkRequiredDouble` voor het waardegebied. Werkelijke uren in de API worden in uren opgeslagen. Geplande uren worden in minuten opgeslagen.
 >
 >De juiste berekening in een API-aanroep is:
->>`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+>&#x200B;>`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
 
 
 <!--when the actualWorkRequiredDouble is released to custom data in Workfront and not just the API, update the calculation above to this: `valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`; and take the note out -->
