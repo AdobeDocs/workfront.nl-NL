@@ -8,16 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 6068c9c53568d3ebec9fae294bfee1cbd365714b
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '738'
 ht-degree: 0%
 
 ---
 
 # Aanmelden als een andere gebruiker
 
-<!--Audited: April, 2024-->
+<!--Audited: 5/2025-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all users only in the Preview environment.</span> -->
 
@@ -25,9 +25,7 @@ ht-degree: 0%
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. Also linked to other articles: Creating and Managing Groups, etc.</p>
 -->
 
-Als Adobe Workfront-beheerder moet u mogelijk Workfront openen namens een andere gebruiker.
-
-Of, als groepsbeheerder, zou u tot Workfront namens een gebruiker kunnen moeten toegang hebben die een lid van een groep is u beheert.
+Als Adobe Workfront-beheerder moet u mogelijk Workfront openen namens een andere gebruiker. Of, als groepsbeheerder, zou u tot Workfront namens een gebruiker kunnen moeten toegang hebben die een lid van een groep is u beheert.
 
 Als een taak bijvoorbeeld pas kan worden uitgevoerd wanneer een gebruiker op vakantie een bepaalde actie uitvoert, kunt u zich aanmelden als die gebruiker en in plaats daarvan de actie uitvoeren.
 
@@ -44,7 +42,7 @@ Some users, such as executives, need to be able to control which administrators 
 >
 >Omdat een documentintegratie verbinding kan maken met persoonlijke privébestanden, hebben beheerders geen toegang tot documentintegratie wanneer ze zijn aangemeld als een andere gebruiker.
 >
->Voor meer informatie over documentintegratie, zie [ documentintegratie ](../../../administration-and-setup/configure-integrations/configure-document-integrations.md) vormen
+>Voor meer informatie over documentintegratie, zie [ documentintegratie ](../../../administration-and-setup/configure-integrations/configure-document-integrations.md) vormen.
 
 ## Toegangsvereisten
 
@@ -68,8 +66,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>Met het de toegangsniveau van de Beheerder van het Systeem, kunt u login als iedereen.</p> <p>Met een Norm of de toegangsniveau van de Planner, kunt u login als gebruiker met een lager licentieniveau als <b> Gebruikers </b> het plaatsen in het toegangsniveau wordt gevormd om <b> </b> toegang uit te geven, met <b> creeer </b> en minstens één van de twee <b> Gebruiker Admin </b> opties die onder <b> worden toegelaten verfijnen uw montages </b> <img src="assets/gear-icon-in-access-levels.png">. </p> 
-   <p><b> NOTA </b>: Van deze twee opties, als <b> Gebruiker Admin (de Gebruikers van de Groep) </b> wordt toegelaten, moet u een groepsbeheerder van een groep zijn waar de gebruiker een lid is.</p></td>
+   <td> <p>Met het de toegangsniveau van de Beheerder van het Systeem, kunt u login als iedereen.</p> <p>Met een Norm of het toegangsniveau van de Planner, kunt u login als gebruiker met een lager vergunningsniveau als de Gebruikers die op het toegangsniveau plaatsen wordt gevormd om toegang uit te geven, met Create en minstens één van de twee die opties van Admin van de Gebruiker onder Uw montages <img src="assets/gear-icon-in-access-levels.png"> worden toegelaten. </p> 
+   <p>NOTA: Van deze twee opties, als de Gebruiker Admin (de Gebruikers van de Groep) wordt toegelaten, moet u een groepbeheerder van een groep zijn waar de gebruiker een lid is.</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -96,15 +94,14 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. In het linkerpaneel, klik **Login als**.
 
-1. In het **vakje van Gebruikers** op het **Login als** lusje, begin typend de naam van de gebruiker, dan klik de naam wanneer het in de drop-down lijst verschijnt.
+1. In het **Begin typend naam...** doos op het **Login als** lusje, begin typend de naam van de gebruiker, dan klik de naam wanneer het in de drop-down lijst verschijnt.
 
-   De gebruiker moet een toegangsniveau hebben dat in Workfront wordt bepaald. U kunt zich niet aanmelden bij het Workfront-systeem als een gebruiker die geen rechten heeft om u aan te melden.
 
    >[!NOTE]
-   >
-   >De beheerders van de groep kunnen login slechts als gebruikers die lid van de groepen zijn zij leiden. Ze kunnen zich niet aanmelden als Workfront-beheerder.
+   >* Voor de gebruiker die u selecteert, moet een toegangsniveau zijn gedefinieerd in Workfront. U kunt zich niet aanmelden bij het Workfront-systeem als een gebruiker die geen rechten heeft om u aan te melden.
+   >* De beheerders van de groep kunnen login slechts als gebruikers die lid van de groepen zijn zij leiden. Ze kunnen zich niet aanmelden als Workfront-beheerder.
 
-1. Klik **Login.**
+1. Klik **Login**. U bent aangemeld als een andere gebruiker en een melding wordt boven in het scherm weergegeven om dit aan te geven.
 
    <!--
    <p> Might come in a future story:</p>
@@ -131,15 +128,15 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    </div>
    -->
 
-   Wanneer u als een andere gebruiker het programma wordt geopend, toont een bericht bij de bovenkant van het scherm om op dit te wijzen.
 
-1. Nadat u de noodzakelijke acties als gebruiker hebt uitgevoerd, klik **Logout.**
+
+1. Nadat u de noodzakelijke acties als gebruiker hebt uitgevoerd, klik **Logout** bij de bovenkant van het scherm.
 
 ## Traceren en controleren van activiteiten terwijl een beheerder als een andere gebruiker is aangemeld
 
 Workfront biedt mechanismen voor het bijhouden en controleren van activiteiten die plaatsvinden terwijl de beheerder als een andere gebruiker is aangemeld.
 
-Wanneer u zich aanmeldt als een andere gebruiker, wordt de laatste aanmeldingsdatum voor die gebruiker gewijzigd tot de datum waarop de systeem- of groepsbeheerder zich aanmeldt als die gebruiker.
+Wanneer u zich aanmeldt als een andere gebruiker, wordt de laatste aanmeldingsdatum voor die gebruiker gewijzigd in de datum waarop de systeem- of groepsbeheerder zich aanmeldt als die gebruiker.
 
 * [ indicatoren van de Mening over punten ](#view-indicators-on-items)
 * [Controlegegevens weergeven](#view-audit-information)
@@ -153,14 +150,17 @@ Bijvoorbeeld, als u op een punt terwijl het programma geopend als een andere geb
 ### Controlegegevens weergeven {#view-audit-information}
 
 1. Meld u aan bij Workfront als Workfront-beheerder of groepsbeheerder.
-1. Klik het **pictogram 1&rbrace; van het Belangrijkste Menu ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** de montages van de Opstelling **![ Gear pictogram ](assets/gear-icon-settings.png).**
+   {{step-1-to-setup}}
+   <!--1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).-->
 
-1. Klik **Login als,** dan klik het **Logboek van de Toegang** tabel.
+1. In het linkerpaneel, klik **Login als**, dan klik het **Logboek van de Toegang** tabel.
 
-   Telkens wanneer een systeem- of groepsbeheerder zich als een andere gebruiker bij Workfront aanmeldt, wordt de gebeurtenis in het audittrail aangemeld. Bovendien worden om het even welke controleerbare acties die plaatsvinden terwijl de beheerder als een andere gebruiker het programma wordt geopend het programma geopend in het auditspoor.
+   >[!NOTE]
+   >
+   >Telkens wanneer een systeem- of groepsbeheerder zich als een andere gebruiker bij Workfront aanmeldt, wordt de gebeurtenis in het audittrail aangemeld. Bovendien worden om het even welke controleerbare acties die plaatsvinden terwijl de beheerder als een andere gebruiker het programma wordt geopend het programma geopend in het auditspoor.
 
 1. (Optioneel) U kunt de resultaten die in het audittrail worden weergegeven, op de volgende manieren filteren:
 
    * Door gebruiker die zich heeft aangemeld
    * Door gebruiker die is aangemeld als
-   * Op datum
+   * Op datum en tijd

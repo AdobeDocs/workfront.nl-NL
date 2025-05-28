@@ -7,44 +7,58 @@ description: U kunt  [!DNL Adobe Workfront]  voor Salesforce installeren om uw g
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 65d4cdae-1d34-4a8a-a1c0-706cd41fc75e
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront for Salesforce] overzicht
 
-U hebt een [!UICONTROL Pro] [!DNL Workfront] -abonnement nodig om deze functie te kunnen gebruiken. Voor meer informatie over de diverse beschikbare plannen, zie [[!DNL Workfront]  Plannen.](https://business.adobe.com/products/workfront/pricing.html)
+<!-- Audited: 5/2025 -->
 
 U kunt [!DNL Adobe Workfront for Salesforce] installeren zodat [!DNL Salesforce] -gebruikers [!DNL Workfront] -aanvragen kunnen verzenden en automatisch projecten kunnen maken zonder [!DNL Salesforce] te verlaten.
 
-Als [!DNL Workfront] beheerder kunt u [!DNL Workfront for Salesforce] downloaden en configureren. Vervolgens kunt u deze delen voor alle andere [!DNL Salesforce] -gebruikers.
+Als [!DNL Workfront] beheerder kunt u [!DNL Workfront for Salesforce] downloaden en configureren. Vervolgens kunt u deze delen met alle andere [!DNL Salesforce] -gebruikers.
 
-Voor meer informatie over het installeren van [!DNL Workfront for Salesforce], zie [ installeren  [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md).\
+Voor meer informatie over het installeren van [!DNL Workfront for Salesforce], zie [ installeren  [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md).
+
 Voor meer informatie over het vormen van de [!DNL Workfront] sectie in [!DNL Salesforce] voor alle gebruikers, zie [ de  [!DNL Adobe Workfront]  sectie voor  [!DNL Salesforce]  gebruikers ](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md) vormen.
+
+>[!NOTE]
+>
+>U hebt een [!UICONTROL Pro] [!DNL Workfront] -abonnement nodig om deze functie te kunnen gebruiken. Voor meer informatie over de diverse beschikbare plannen, zie [[!DNL Workfront]  Plannen.](https://business.adobe.com/products/workfront/pricing.html)
 
 ## Toegangsvereisten
 
 U moet de volgende toegang hebben om de in dit artikel beschreven functionaliteit te kunnen gebruiken:
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>[!UICONTROL Pro] of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
-   <td> <p>[!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
+   <td> <p>Nieuw: Standaard<p>
+   <p>of</p>
+   <p>Huidig: Plan</p>
+
+
+</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## [!DNL Workfront for Salesforce]
 
@@ -52,7 +66,7 @@ U kunt het volgende doen wanneer u [!DNL Workfront for Salesforce] gebruikt:
 
 * Maak handmatig nieuwe [!DNL Workfront] aanvragen van [!DNL Salesforce] in een Opportunity of een Account.
 
-  Voor meer informatie over het creëren van [!DNL Workfront] verzoeken van [!DNL Salesforce], zie [  [!DNL Adobe Workfront]  verzoeken van  [!DNL Salesforce]  voorwerpen ](../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md) voorleggen.
+  Voor meer informatie, zie [  [!DNL Adobe Workfront]  verzoeken van  [!DNL Salesforce]  voorwerpen ](../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md) voorleggen.
 
 * Start automatisch het maken van projecten in [!DNL Workfront] wanneer aan bepaalde criteria wordt voldaan in [!DNL Salesforce] . Uw [!DNL Salesforce] -systeembeheerder moet triggers configureren voor het maken van projecten vanuit [!DNL Salesforce] .
 
@@ -61,20 +75,18 @@ U kunt het volgende doen wanneer u [!DNL Workfront for Salesforce] gebruikt:
 Houd rekening met het volgende wanneer u werkt met [!DNL Workfront] for [!DNL Salesforce] :
 
 * We ondersteunen zowel de [!DNL Salesforce Classic] - als de [!DNL Lightning Experience] -frameworks.
-* Items kunnen alleen van [!DNL Salesforce] in tot [!DNL Workfront] worden gemaakt.
-* U kunt bepaalde informatie over de [!DNL Workfront] -items weergeven in [!DNL Salesforce] .
-
-  Deze gegevens kunnen niet worden aangepast.
+* Items kunnen alleen van [!DNL Salesforce] tot [!DNL Workfront] worden gemaakt.
+* U kunt bepaalde informatie over de [!DNL Workfront] -items weergeven in [!DNL Salesforce] . Deze gegevens kunnen niet worden aangepast.
 
   Voor een lijst van [!DNL Workfront] gebieden die u van [!DNL Salesforce] kunt bekijken, zie [  [!DNL Adobe Workfront]  verzoeken van  [!DNL Salesforce]  voorwerpen ](../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md) voorleggen en [ creeer  [!DNL Adobe Workfront]  projecten van  [!DNL Salesforce]  voorwerpen ](../../workfront-integrations-and-apps/using-workfront-with-salesforce/create-wf-projects-from-salesforce-objects.md).
 
-* U hebt rechtstreeks toegang tot items die zijn gekoppeld aan [!DNL Salesforce] door vanuit Workfront op de koppeling **[!UICONTROL Go to Salesforce]** te klikken.
+* U hebt rechtstreeks toegang tot items die zijn gekoppeld aan [!DNL Salesforce] door vanuit Workfront op de koppeling [!UICONTROL Go to Salesforce] te klikken.
 
-  U kunt geen informatie weergeven over de [!DNL Salesforce] items in [!DNL Workfront] , maar u hebt een koppeling naar het [!UICONTROL Salesforce] -item in [!DNL Workfront] om deze te bekijken in [!DNL Salesforce] .
+  U kunt geen informatie weergeven over de [!DNL Salesforce] items in [!DNL Workfront] , maar er is een koppeling in Workfront die u naar het item in Salesforce stuurt zodat u het daar kunt bekijken.
 
-  [!UICONTROL The **ga naar de verbindingsvertoningen van Salesforce**] op de volgende gebieden:
+  De koppeling [!UICONTROL The Go to Salesforce] wordt weergegeven in de volgende gebieden:
 
-   * De [!UICONTROL Details] -sectie van een project of uitgave
+   * De [!UICONTROL Details] -sectie van een project of een probleem.
    * De kopbal van een project of een kwestie.
 
      Uw systeem- of groepsbeheerder moet het veld [!UICONTROL Integrations] toevoegen aan uw lay-outsjabloon om de koppeling [!UICONTROL Go to Salesforce] weer te geven in de project- of uitgiftheader.

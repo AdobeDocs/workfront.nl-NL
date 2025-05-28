@@ -7,14 +7,16 @@ description: U kunt middelen planningshulpmiddelen gebruiken om uw baanrollen, h
 author: Lisa
 feature: Resource Management
 exl-id: 0db9fbb3-4e94-47bd-b272-00b3ca4decaf
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
 
 # Aan de slag met bronnenplanning
+
+<!--Audited: 5/2025-->
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -35,7 +37,7 @@ Voor meer informatie over het plannen van middelen in Workfront die de Balancer 
 
 Als u tijd wilt vrijmaken voor uw bronnen voor de projecten waaraan u deze wilt toewijzen, kunt u de volgende gereedschappen gebruiken:
 
-* Voor het begroten van toewijzingen voor en het prioriteren van veelvoudige projecten op systeem-niveau: gebruik de systeem-vlakke Planner van het Middel.
+* Voor het opnemen van toewijzingen voor en het prioriteren van veelvoudige projecten op systeem-niveau, gebruik de systeem-vlakke Planner van het Middel.
 
   U kunt tot de Planner van het Middel toegang hebben door naar de sectie van de Planner in het Bronsgebied te gaan.
 
