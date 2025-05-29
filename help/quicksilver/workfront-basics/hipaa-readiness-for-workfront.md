@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 author: Courtney
 hide: true
 hidefromtoc: true
-source-git-commit: 779fc409d316e957a4cbec951047e41641b69863
+source-git-commit: a984038eea41d249cb0ad0d2ec6ba47025c56a65
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # HIPAA-gereedheid voor Workfront
 
-Een klant van Workfront die, zoals bepaald in HIPAA, a **BedrijfsVerwante** en/of de **Bedekte Entiteit** is namens de BedrijfsVennoot Adobe Workfront zou moeten gebruiken de volgende richtlijnen om Workfront voor gebruik te vormen HIPAA-klaar:
+Een Workfront-klant die, zoals gedefinieerd in HIPAA, een Business Associate en/of de Covered Entiteit is namens wie de Business Associate Adobe Workfront verstrekt, moet de volgende richtlijnen gebruiken om Workfront voor gebruik geschikt voor HIPAA te configureren:
 
 
 ## Wachtwoordvereisten
@@ -35,16 +35,16 @@ Een klant van Workfront die, zoals bepaald in HIPAA, a **BedrijfsVerwante** en/o
 | **het Plaatsen van de Veiligheid** | **wat is het?** | **Vereiste** |
 |----------------------|------------------|------------------|
 | Maximum aantal aanmeldfouten | Hoeveel mislukte login pogingen veroorzaken dat de gebruiker wordt gesloten uit? | Maximaal 5 pogingen binnen een periode van 5 minuten; probeer het na 30 minuten opnieuw |
-| Maximale fout bij SSO-verificatie | Hoeveel mislukte SSO controlepogingen veroorzaken lockout? | Maximaal 5 (alleen van toepassing op klanten die SSO gebruiken) |
+| Maximale fout bij SSO-verificatie | Hoeveel mislukte SSO controlepogingen veroorzaken een lockout? | Maximaal 5 (alleen van toepassing op klanten die SSO gebruiken) |
 
 
 ## Sessievereisten
 
 | **het Plaatsen van de Veiligheid** | **wat is het?** | **Vereiste** |
 |----------------------|------------------|------------------|
-| Time-out sessie | Hoeveel minuten van inactiviteit veroorzaken logout? | Maximaal 15 minuten |
+| Time-out sessie | Hoeveel minuten van inactiviteit veroorzaken een logout? | Maximaal 15 minuten |
 
-## Verplichtingen van de klant
+## Klantverantwoordelijkheden
 
 Ervoor zorgen dat alle werknemers, vertegenwoordigers en/of agenten op de hoogte zijn van en begrip hebben voor de voorwaarden in de licentieovereenkomst en/of de dienstenovereenkomst(en) die tussen de partijen zijn gesloten, voor zover van toepassing, die relevant zijn voor het gebruik van gegevens met Workfront.
 
@@ -57,7 +57,7 @@ Met name moeten de volgende verantwoordelijkheden en verplichtingen worden herzi
 * Alle gevoelige gegevens, inclusief, maar niet beperkt tot ePHI, worden op eigen risico van de klant geüpload.  De klant is altijd verantwoordelijk voor alle klantgegevens. 
 
 
-## Gegevensbeveiliging en compatibiliteit
+## Gegevensbescherming en naleving
 
 >[!IMPORTANT]
 >
