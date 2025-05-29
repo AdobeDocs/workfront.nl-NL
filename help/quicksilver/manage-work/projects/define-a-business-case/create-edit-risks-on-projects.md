@@ -139,7 +139,7 @@ U kunt risico&#39;s in de sectie van Risico&#39;s van een project of een malplaa
 
    Klik **sparen** als u de informatie in de **Nieuwe risico** doos uitgeeft.
 
-1. (Facultatief) selecteer een verschillende **Status** voor het risico, in het **3} drop-down menu van de Status {, wanneer het toepassen van de** Standaard **mening voor de lijst van risico&#39;s.**
+1. (Facultatief) selecteer een verschillende **Status** voor het risico, in het **3&rbrace; drop-down menu van de Status &lbrace;, wanneer het toepassen van de** Standaard **mening voor de lijst van risico&#39;s.**
 
    Door gebrek, wordt de **Status** van een risico **geïdentificeerd**.
 
@@ -176,7 +176,7 @@ Risico&#39;s bewerken:
    * **Plan van de Vermindering**: Werk de beschrijving van het plan bij om het risico te verlichten.
 
 1. Klik **sparen**.
-1. (Facultatief) geef de **Status** voor een risico, in het **3} drop-down menu van de Status {uit, wanneer het toepassen van de** Standaard **mening voor de lijst van risico&#39;s.**
+1. (Facultatief) geef de **Status** voor een risico, in het **3&rbrace; drop-down menu van de Status &lbrace;uit, wanneer het toepassen van de** Standaard **mening voor de lijst van risico&#39;s.**
 
    >[!NOTE]
    >
