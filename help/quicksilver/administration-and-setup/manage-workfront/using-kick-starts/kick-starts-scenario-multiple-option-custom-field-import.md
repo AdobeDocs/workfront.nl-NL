@@ -9,14 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 137d7112c051322c191488463e52abdd73e50d1f
 workflow-type: tm+mt
-source-wordcount: '2178'
+source-wordcount: '2268'
 ht-degree: 0%
 
 ---
 
 # Kick-startscenario: aangepaste velden met meerdere opties importeren in Workfront
+
+{{highlighted-preview}}
 
 U kunt aangepaste velden met meerdere opties in Adobe Workfront importeren met de functie Kick-Start.
 
@@ -90,7 +92,7 @@ Bestaande gegevens exporteren uit Workfront:
 
    ![ Uitgezochte Gegevens van de Douane ](assets/kickstarts-select-existing-data.png)
 
-1. Kies **.xlsx- dossier** in de **3&rbrace; sectie van het formaat van de Download &lbrace;.**
+1. Kies **.xlsx- dossier** in de **3} sectie van het formaat van de Download {.**
 
    >[!TIP]
    >
@@ -122,9 +124,9 @@ Nadat u de informatie over bestaande aangepaste velden in uw systeem hebt gescan
 
 1. Klik **de Gegevens van de Invoer (Kick-Begint)**.
 
-1. In het **Download een leeg Kick-Begin spreadsheet** gebied, selecteer het **de controlevakje van Gegevens van de Douane** en klik **Download**.
+1. In het **Download een leeg Kick-Begin spreadsheet** gebied, selecteer het **de controlevakje van Gegevens van de Douane**, en klik **Download**.
 
-   ![ Uitgezochte Gegevens van de Douane ](assets/kickstarts-select-existing-data.png)
+   ![ Uitgezochte Gegevens van de Douane ](assets/kickstarts-blank-spreadsheet-options.png)
 
    Een leeg bestand met de startfunctie wordt naar de computer gedownload.
 
@@ -223,7 +225,7 @@ Om het spreadsheet van Excel met informatie voor de nieuwe douanevelden te bevol
      >
      >Er kan slechts één standaardoptie voor elk veld zijn.
 
-   * **`setParameterID`** = de opties die aan het _Merk_ douanegebied beantwoorden hebben a **`setParameterID`** van 1, en de opties die aan de _Media_ beantwoorden hebben een **&#x200B; `setParameterID` &#x200B;** van 2. De vellen `PARAM` en `POPT` verwijzen naar elkaar om aan te geven welke opties behoren tot welk aangepast veld.
+   * **`setParameterID`** = de opties die aan het _Merk_ douanegebied beantwoorden hebben a **`setParameterID`** van 1, en de opties die aan de _Media_ beantwoorden hebben een ** `setParameterID` **van 2. De vellen `PARAM` en `POPT` verwijzen naar elkaar om aan te geven welke opties behoren tot welk aangepast veld.
    * **`setDisplayOrder`**= de kolom van de vertoningsorde wijst op de orde waarin de opties op uw douanegebied zullen tonen. U kunt beginnen met 1 en in oplopende volgorde verdergaan voor alle opties, ongeacht tot welke velden ze behoren. Het is belangrijk dat er voor elke optie unieke nummers zijn.
    * De kolommen **`setLabel`** en `**setValue`** bevatten doorgaans dezelfde informatie en moeten de namen weerspiegelen die u in de gebruikersinterface van Workfront wilt gebruiken. De waarde van een optie is de naam die in rapporten wordt weergegeven, terwijl het label in de aangepaste formulieren wordt weergegeven wanneer het aan een object is gekoppeld. Voor meer informatie, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
    * **`setIsHidden`** = ga `TRUE` in als u om het even welke opties wilt worden verborgen.
@@ -255,14 +257,13 @@ Om het spreadsheet van Excel met informatie voor de nieuwe douanevelden te bevol
 
      >[!NOTE]
      >
-     >Voor formulieren met meerdere objecten voert u het eerste object in dat u zou selecteren bij het maken van een formulier in de gebruikersinterface. Stel de waarde `setCatObjCode` bijvoorbeeld in op `TASK` als u Taak selecteert in de Workfront-interface en vervolgens op Uitgeven, Portfolio, enzovoort, maar u wilt niet dat het formulier beschikbaar is voor Projecten.
+     >Voor formulieren met meerdere objecten voert u het eerste object in dat u zou selecteren bij het maken van een formulier in de gebruikersinterface. Stel de waarde `setCatObjCode` bijvoorbeeld in op `TASK` als u Taak selecteert in de Workfront-interface en vervolgens op Issue, Portfolio, enzovoort, maar u wilt niet dat het formulier beschikbaar is voor Projecten.
 
    * **`setName`** = dit is de naam van het aangepaste formulier zoals u het wilt weergeven in de Workfront-interface.
 
      ![ Gevulde het blad van de Categorie ](assets/category-sheet-filled-out-kick-starts.png)
 
 1. Sla het spreadsheet op als een .xls- of .xlsx-bestand op uw computer. Uw Excel-werkblad is ingevuld en kan nu worden geïmporteerd in Workfront.
-
 
 ## Het Excel-werkblad uploaden naar Workfront
 
@@ -272,16 +273,13 @@ Nadat u de in de vorige secties beschreven stappen hebt uitgevoerd, gaat u als v
 
 1. Klik **Systeem > de Gegevens van de Invoer (Kick-Begint)**.
 
-1. Klik **kiezen Dossier** onder de sectie **gegevens met Kick-Begin spreadsheet** uploadt.
+1. Klik **kiezen dossier** onder de sectie **gegevens met Kick-Begin spreadsheet** uploadt.
 
-1. Blader naar het Excel-werkblad dat u hebt voorbereid, op uw computer en selecteer het werkblad wanneer u het hebt gevonden. Wanneer Workfront het bestand herkent, wordt de knop Uploaden blauw.
-1. Klik **uploaden.**
+1. Blader naar het Excel-werkblad dat u hebt voorbereid, op uw computer en selecteer het werkblad wanneer u het hebt gevonden.
 
-   ![ Geselecteerd Dossier en upload knoop ](assets/kick-start-file-selected-and-upload-blue-button.png)
+   <div class="preview">
 
-1. Er wordt een melding weergegeven dat het importeren is gelukt. Afhankelijk van hoeveel informatie u invoert, zou deze stap een paar seconden aan een minuut kunnen vergen.
-
-   ![ Kick-start succesvol ](assets/kick-start-successful.png)
+   Het bestand wordt automatisch geüpload en er verschijnt een bericht dat het importeren is gelukt. Afhankelijk van hoeveel informatie u invoert, zou deze stap een paar seconden aan een minuut kunnen vergen.
 
    De nieuwe aangepaste velden en formulieren staan nu in uw Workfront-systeem. U kunt ze vinden in het gedeelte Aangepaste Forms van Setup.
 
@@ -289,12 +287,23 @@ Nadat u de in de vorige secties beschreven stappen hebt uitgevoerd, gaat u als v
    >
    >De nieuwe formulieren en de geïmporteerde velden hebben nog geen verbinding. Het formulier wordt geïmporteerd zonder aangepaste velden. U moet de velden handmatig toevoegen aan het nieuwe aangepaste formulier of aan een ander bestaand aangepast formulier.
 
+   Voor informatie over het toevoegen van gebieden aan douaneformulieren, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+
+   </div>
+
+1. (In het milieu van de Productie slechts) klik **uploaden**.
+
+   Er wordt een melding weergegeven dat het importeren is gelukt. Afhankelijk van hoeveel informatie u invoert, zou deze stap een paar seconden aan een minuut kunnen vergen.
+
+   De nieuwe aangepaste velden en formulieren staan nu in uw Workfront-systeem. U kunt ze vinden in het gedeelte Aangepaste Forms van Setup.
+
+   >[!NOTE]
+   >
+   >De nieuwe formulieren en de geïmporteerde velden hebben nog geen verbinding. Het formulier wordt geïmporteerd zonder aangepaste velden. U moet de velden handmatig toevoegen aan het nieuwe aangepaste formulier of aan een ander bestaand aangepast formulier.
 
    Voor informatie over het toevoegen van gebieden aan douaneformulieren, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
-1. (Voorwaardelijk) Als het importeren niet is gelukt, wordt een foutbericht weergegeven waarin het probleem is aangegeven. Probeer het veld, het blad en het rijnummer te identificeren waarin het probleem is opgetreden en corrigeer de gegevens in het Excel-bestand. Probeer het bestand vervolgens nog een keer te importeren.
-
-   ![ Kick-start fout ](assets/kick-start-error.png)
+1. (Voorwaardelijk) Als het importeren niet is gelukt, wordt een foutbericht weergegeven waarin wordt aangegeven wat het probleem is. Probeer het veld, het blad en het rijnummer te identificeren waarin het probleem is aangetroffen en corrigeer de gegevens in het Excel-bestand. Probeer het bestand vervolgens nog een keer te importeren.
 
 1. (Voorwaardelijk) Afhankelijk van wat het probleem is, zoals vermeld in het foutbericht, kunnen sommige gegevens al worden geïmporteerd. U moet een van de volgende handelingen uitvoeren voordat u het blad opnieuw kunt importeren:
 

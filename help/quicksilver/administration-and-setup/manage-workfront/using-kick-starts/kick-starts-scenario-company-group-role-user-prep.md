@@ -5,13 +5,13 @@ keywords: kickstart,trap-start,kickstart,trap-start
 navigation-topic: use-kick-starts
 title: 'Kick-start Scenario: Bedrijf, Groep, Rol, en de Kick-Begint Voorbereiding van de Gebruiker'
 description: Wanneer u begint met het implementeren van Adobe Workfront, in plaats van handmatig gegevens in te voeren, kunt u uw lijst met klanten, interne afdelingen, taakrollen en gebruikersgegevens importeren.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: a8faf4aa1a0a1b60f61c0c981c3be1b0d9d033a4
+source-git-commit: 2a216610f6ea8ad8c4698964f96f2357bf3b5943
 workflow-type: tm+mt
-source-wordcount: '1215'
+source-wordcount: '1201'
 ht-degree: 0%
 
 ---
@@ -172,6 +172,7 @@ In de volgende tabellen worden de te importeren gebruikers en diverse gebruikers
 
 1. Klik **Meer Opties** om de volledige lijst van de invoeropties te zien.
 1. Selecteer het Niveau van de Toegang, Bedrijf, Groep, de Rol van de Baan, en de voorwerpen van de Gebruiker die u wilt invoeren.
+1. Klik **Download**.
 
 ## Informatie over invoerbedrijf
 
@@ -181,69 +182,67 @@ In de volgende tabellen worden de te importeren gebruikers en diverse gebruikers
    >
    >Als u met zeer brede gegevensbladen werkt, kunt u het gereedschap Venster vastzetten (of equivalent) van de werkbladeditor gebruiken om het werkblad gemakkelijker te maken.
 
-1. Ga naar het blad &#39;CMPY Company&#39;.
+1. Ga naar het **blad van het Bedrijf 0} CMPY.**
 
    Het zou leeg moeten zijn tenzij de bedrijven reeds in het systeem zijn. ![ blad van het Bedrijf ](assets/cmpysheet-350x16.png)
 
    ![ identiteitskaart van het Bedrijf ](assets/companyid--1--350x78.png)
 
-1. Specificeer WAAR in de **isNew** kolom.
-1. Herhaal deze handeling voor elk bedrijf dat wordt toegevoegd. (In dit voorbeeld voert u deze handeling uit voor de rijen 3-6, omdat er vier bedrijven worden toegevoegd.)
+1. Ga **WAAR** in **isNew** kolom in.
+
+   Herhaal deze handeling voor elk bedrijf dat wordt toegevoegd. (In dit voorbeeld voert u deze handeling uit voor de rijen 3-6, omdat er vier bedrijven worden toegevoegd.)
 
    ![ Bedrijf is nieuw ](assets/cmpyisnew-350x86.png)
 
-1. Geef een unieke id op.
+1. Ga een unieke **identiteitskaart** in.
 
-   Dit moet voor elke rij voor de kolom van identiteitskaart worden gedaan. Gehele getallen die bij 1 beginnen, werken goed bij het maken van nieuwe records.
+   U moet een id invoeren voor elke rij. Gehele getallen die bij 1 beginnen, werken goed bij het maken van nieuwe records.
 
    ![ Bedrijf is nieuw ](assets/cmpyisnew-350x86.png)
 
-1. Stel een naam in.
-
-   Specificeer de namen van elke klant in de **setName** kolom.
+1. Ga de namen van elke klant in de **setName** kolom in.
 
    ![ identiteitskaart van het Bedrijf ](assets/companyid-350x78.png)
 
-1. Ga naar het groepsblad van de GROEP.
+1. Ga naar het **blad van de Groep van de GROEP**.
 
    Tenzij u al groepen hebt gemaakt in Workfront, wordt op dit blad alleen de standaardgroep weergegeven die is ingericht voor elke account van Workfront.
 
-   ![&#128279;](assets/groupsheet-350x15.png) ![ Lege groepsblad van 0&rbrace; Groep ](assets/emptygroupsheet-350x85.png)
+   ](assets/groupsheet-350x15.png) ![ Lege groepsblad van 0} Groep ](assets/emptygroupsheet-350x85.png)![
 
-1. Plaats **isNew** column.Volgens het scenario, zullen 4 groepen worden ingevoerd, zo specificeer WAAR in rijen 4 door 7 voor de &quot;isNew&quot;kolom.
-1. Geef een unieke id op.
+1. Ga **WAAR** in **isNew** kolom in.
 
-   Dit moet voor elke rij voor de kolom van identiteitskaart worden gedaan. Gehele getallen die bij 1 beginnen, werken goed bij het maken van nieuwe records.
+   Volgens het scenario, zullen 4 groepen worden ingevoerd, zodat ga **WAAR** in **isNew** kolom voor rijen 4 door 7 in.
+
+1. Ga een unieke **identiteitskaart** in.
+
+   U moet een id invoeren voor elke rij. Gehele getallen die bij 1 beginnen, werken goed bij het maken van nieuwe records.
 
    ![ Groep IDs ](assets/groupids-350x85.png)
 
-1. Stel een naam in.
-
-   Specificeer de namen van elke afdeling in de **setName** kolom.
+1. Ga de namen van elke afdeling in de **setName** kolom in.
 
    ![ de namen van de Groep ](assets/groupnames-350x85.png)
 
-   Rolgegevens opgeven. Ga naar het Rolblad van de ROL.
+1. Ga naar het **blad van de Rol 0} ROL.**
 
-1. Tenzij u al rollen in uw account hebt gemaakt of verwijderd, moet dit blad 8 rollen weergeven die zijn ingericht voor elke account van Workfront.
+   Tenzij u al rollen in uw account hebt gemaakt of verwijderd, moet dit blad 8 rollen weergeven die zijn ingericht voor elke account van Workfront.
 
    ![ de namen van de Groep ](assets/groupnames-350x85.png)
 
-1. True instellen, instructie.
+1. Ga **WAAR** in **isNew** kolom in.
 
-   Zeven de Rollen van de Baan invoeren, input WAAR in rijen 12 door 18 voor de &quot;isNew&quot;kolom.
+   Volgens het scenario, 7 Rollen van de Baan zullen worden ingevoerd, zodat ga **WAAR** in **isNew** kolom voor rijen 12 door 18 in.
 
    ![ Rol is nieuw ](assets/roleisnew-350x104.png)
 
-1. Geef een unieke id op.
+1. Ga een unieke **identiteitskaart** in.
 
-   Dit moet voor elke rij voor de kolom van identiteitskaart worden gedaan. Gehele getallen die bij 1 beginnen, werken goed bij het maken van nieuwe records.
-
-   ![ Gebruikersblad ](assets/usersheet-350x16.png)
+   U moet een id invoeren voor elke rij. Gehele getallen die bij 1 beginnen, werken goed bij het maken van nieuwe records.
 
    ![ Rol is nieuw ](assets/roleisnew--1--350x104.png)
 
-1. Geef een naam voor elke rol op door deze in de kolom setName te typen.
+1. Ga een naam voor elke rol in de **setName** kolom in.
 
    ![ Rol is nieuw ](assets/roleisnew-350x104.png)
 
@@ -251,45 +250,49 @@ In de volgende tabellen worden de te importeren gebruikers en diverse gebruikers
 
    Neem indien nodig factureringssnelheden, kostentarieven en beschrijvingen op voor de rollen die u maakt.
 
-1. Ga naar het Gebruikersblad van de GEBRUIKER om de Informatie van de Gebruiker in te voeren.
+1. Ga naar het **blad van de Gebruiker 0} GEBRUIKER.**
 
    Tenzij u al gebruikers in uw account hebt gemaakt, wordt op dit blad alleen de Admin-gebruiker weergegeven die voor elke account van Workfront is ingericht.
 
-   ![&#128279;](assets/rolenames-350x104.png) ![ Lege gebruikersblad van de Rol 0&rbrace; ](assets/emptyusersheet-350x52.png)
+   ![ Gebruikersblad ](assets/usersheet-350x16.png) ![ Lege gebruikersblad ](assets/emptyusersheet-350x52.png)
 
-1. Stel de waarde True in door TRUE op te geven in de rijen 4 tot en met 9 voor de kolom &#39;isNew&#39;, aangezien er 6 gebruikers worden geïmporteerd.
+1. Ga **WAAR** in **isNew** kolom in.
 
-   ![ Gebruiker is nieuw ](assets/userisnew-350x52.png)
-
-1. Stel een unieke id in door in elke rij een unieke id voor de kolom Id op te geven. Gewoonlijk werken gehele getallen vanaf 1 goed voor nieuwe records.
+   Volgens het scenario, zullen 6 gebruikers worden ingevoerd, zodat ga **WAAR** in **isNew** kolom voor rijen 4 door 9 in.
 
    ![ Gebruiker is nieuw ](assets/userisnew-350x52.png)
 
-1. Voer de namen van elke gebruiker in de kolommen &#39;setFirstName&#39; en &#39;setLastName&#39; in.
+1. Ga een unieke **identiteitskaart** in.
+
+   U moet een id invoeren voor elke rij. Gehele getallen die bij 1 beginnen, werken goed bij het maken van nieuwe records.
+
+   ![ Gebruiker is nieuw ](assets/userisnew-350x52.png)
+
+1. Ga de namen van elke gebruiker in **setFirstName** en **setLastName** kolommen in.
 
    ![ Gebruikersnamen ](assets/usernames-350x52.png)
 
-1. Stel detailwaarden in door waarden op te geven in de kolommen &#39;setEmail&#39;, &#39;setPassword&#39; en &#39;setGebruikersnaam&#39;.
+1. Plaats detailwaarden door waarden in te gaan in **setEmail**, **setPassword**, en **setGebruikersnaam** kolommen.
 
    ![ geloofsbrieven van de Gebruiker ](assets/usercredentials-350x52.png)
 
 1. Geef waarden op voor Toegangsniveau.
 
-   Bijvoorbeeld, Chris Manning, die een Lid van het Team is, kijkt omhoog identiteitskaart op het blad van het Niveau van de Toegang van ACSLVL voor het de toegangsniveau van het Lid van het Team. Kopieer identiteitskaart in uw klembord, en op het blad van de Gebruiker kleeft het in de **setAccessLevelID** kolom op de rij van Chris.
+   Chris Manning is bijvoorbeeld een teamlid. Zoek omhoog identiteitskaart op het **blad van het Niveau van de Toegang 0} ACSLVL voor het de toegangsniveau van het Lid van het Team.** Kopieer identiteitskaart, en op het **blad van de Gebruiker van de 0} GEBRUIKER kleeft het in de** setAccessLevelID **kolom op de rij van die gebruiker.**
 
    Herhaal deze stap voor elke gebruiker en toegangsniveau.
 
    ![ identiteitskaart van het de toegangsniveau van het Exemplaar ](assets/copyalid-350x171.png) ![ identiteitskaart van het de toegangsniveau van het Deeg ](assets/pastealid-350x59.png)
 
-1. Geef de gegevens van de thuisgroep op.
+1. Voer de gegevens van de thuisgroep van de gebruiker in.
 
-   Volgens het scenario behoort Chris Manning tot de marketinggroep. Op het blad van de Groep van de GROEP, bepaal de plaats van identiteitskaart voor de groep van de Marketing, kopieer het in het klembord, en op het blad van de Gebruiker kleeft het in **setHomeGroupID** kolom op Chris&#39; rij. &#x200B;Herhaal deze stap voor elke gebruiker en groepstoewijzing.
+   Volgens het scenario behoort Chris Manning tot de marketinggroep. Op het **blad van de Groep van 0} GROEP, bepaal de plaats van identiteitskaart voor de Marketing groep, kopieer het, en op het** 3} blad van de Gebruiker van de GEBRUIKER het in de **setHomeGroupID** kolom op de rij van de gebruiker. &#x200B;**** Herhaal deze stap voor elke gebruiker en groepstoewijzing.
 
    ![ de groepsidentiteitskaart van het Exemplaar ](assets/copygroupid-1-350x133.png) ![ groepsidentiteitskaart van het Deeg ](assets/pastegroupid-350x59.png)
 
-1. Geef bedrijfsgegevens op.
+1. Voer de bedrijfsgegevens van de gebruiker in.
 
-   Alle gebruikers in dit scenario behoren tot hetzelfde bedrijf. Voor het blad van het Bedrijf CMPY, bepaal de plaats van identiteitskaart voor *Your Ewn Bedrijf *company, kopieer identiteitskaart in het klembord, en op het lusje van de Gebruiker van de GEBRUIKER, kleef deze waarde in elke rij van de kolom &quot;setCompanyID&quot;&#x200B;
+   Alle gebruikers in dit scenario behoren tot hetzelfde bedrijf. Op het **blad van het Bedrijf van de STEEKPROEF**, bepaal de plaats van identiteitskaart voor het **Uw Eigen bedrijf** bedrijf, kopieer identiteitskaart, en op het **lusje van de Gebruiker van de GEBRUIKER**, kleef deze waarde in elke rij van de **setCompanyID** kolom. &#x200B;
 
    Herhaal deze stap voor elke gebruiker en groepstoewijzing.
 
@@ -297,9 +300,9 @@ In de volgende tabellen worden de te importeren gebruikers en diverse gebruikers
 
    ![ bedrijf identiteitskaart van het Deeg ](assets/pastecompanyid-350x84.png)
 
-1. Geef taakroldetails op.
+1. Voer de taakdetails van de gebruiker in.
 
-   Volgens het scenario, zal Chris Manning de rol van BedrijfsAnalyst hebben. Voor het blad van de Rol van de ROL van de ROL, bepaal de plaats identiteitskaart voor de rol BedrijfsAnalyst, kopieer het in het klembord, en op het blad van de Gebruiker kleef het in de kolom &quot;setRoleID&quot;op Chris&#39; rij. &#x200B;Herhaal deze stap voor elke gebruiker en groepstoewijzing.
+   Volgens het scenario, zal Chris Manning de rol van BedrijfsAnalyst hebben. Op het **blad van de Rol van 0} ROL, bepaal de plaats van identiteitskaart voor de rol Bedrijfs van de Analysator, kopieer het, en op het** blad van de Gebruiker **kleeft het in de** setRoleID **kolom op de rij van de gebruiker. &#x200B;** Herhaal deze stap voor elke gebruiker en groepstoewijzing.
 
    ![ identiteitskaart van de rol van het Exemplaar ](assets/copyroleid-350x149.png)
 
@@ -311,11 +314,10 @@ In de volgende tabellen worden de te importeren gebruikers en diverse gebruikers
    Volg de richtingen die in [ worden verstrekt de gegevens van de Invoer in Adobe Workfront gebruikend een Kick-Begin malplaatje ](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
 
-
 >[!NOTE]
 >
 >Gebruikers die naar Workfront zijn geïmporteerd, worden in de status Deactiveerd en In afwachting van goedkeuring gemaakt.
 > 
 >Als uw organisatie naar de Adobe Admin Console is gemigreerd en een gebruiker binnen een paar minuten niet de status gedeactiveerd en In afwachting van goedkeuring verlaat, kunt u de batch gebruikers rechtstreeks aan de Adobe Admin Console toevoegen.
 >
->Voor instructies, zie [ veelvoudige gebruikers beheren | Bulk CSV upload ](https://helpx.adobe.com/nl/enterprise/using/bulk-upload-users.html) in de documentatie van Adobe.
+>Voor instructies, zie [ veelvoudige gebruikers beheren | Bulk CSV upload ](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) in de documentatie van Adobe.

@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 2cf14ed7a4d96760c2c64ea8cca869ba5ba54c73
+source-git-commit: c5cf44d1e68aebdb5b61d2588a8cefc088b6d2a2
 workflow-type: tm+mt
-source-wordcount: '4043'
+source-wordcount: '4126'
 ht-degree: 0%
 
 ---
@@ -20,19 +20,18 @@ Deze pagina bevat een overzicht van de interface-updates die we in Adobe Workfro
 >
 >In de meeste gevallen, wordt elke update eerst vrijgegeven aan het milieu van de Voorproef, dan incrementeel toegelaten in de milieu van de Productie voor een groeiende ondergroep klanten die op de vermelde de versiedatum van de Productie begint.
 
-Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product [&#128279;](/help/quicksilver/product-announcements/product-releases/product-releases.md).
+Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product ](/help/quicksilver/product-announcements/product-releases/product-releases.md).[
 
 
 ## Beheer en installatie
 
-<!--
-### Interface updates for the Import Data (Kick-Starts) page
+### Interface-updates voor de pagina Gegevens importeren (Kick-start)
 
-**Preview release: May 29, 2025; Production release: June 5, 2025**
+**de versie van de Voorproef: 29 mei, 2025; de versie van de Productie: 5 Juni, 2025**
 
-We have updated the Import Data (Kick-Starts) page in the Setup area with a more modern design that is consistent with other areas of Workfront. Also, the import process was streamlined so that the selected file is uploaded immediately. You no longer have to click a separate **Upload** button to complete the import after choosing the file.
+We hebben de pagina Gegevens importeren (Kick-Starts) in het gedeelte Setup bijgewerkt met een moderner ontwerp dat consistent is met andere gebieden van Workfront. Bovendien is het Kick-Start-importproces gestroomlijnd, zodat het geselecteerde bestand direct wordt geüpload. U moet niet meer een afzonderlijke **uploaden** knoop klikken om de invoer te voltooien na het kiezen van het dossier.
 
-For information, see [Import data into Workfront using a Kick-Start template](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).-->
+Voor informatie, zie [ Gegevens van de Invoer in Workfront gebruikend een Kick-Begin malplaatje ](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
 ### Interface-update voor het tabblad Access Log in Setup
 
