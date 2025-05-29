@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: f9b0f6b246a723ce407de05c4ae4d5dec0c06fe2
+source-git-commit: 655fc2407583ba65c1f3af7659274bca212eacca
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '1087'
 ht-degree: 0%
 
 ---
@@ -89,32 +89,28 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table>
 
-<!--
-
-### Home enhancements
+### Verbeteringen voor startpagina
 
 <table style="table-layout:auto">
   <tbody>
     <tr>
-        <td><strong>Feature</strong>
+        <td><strong> Eigenschap </strong>
         </td>
-        <td><strong>Preview</strong></td>
-        <td><strong>Fast release</strong></td>
-        <td><strong>Quarterly</strong></td>
+        <td><strong>Voorvertoning</strong></td>
+        <td><strong>Snelle release</strong></td>
+        <td><strong>Driemaandelijks</strong></td>
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">My approvals widget now automatically sorts by deadline </a><p></p>
-            <p>We have updated the My Approvals widget in home to sort by deadline (descending) by default. This allows the most urgent approvals to appear at the top of the list. </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}"> Mijn goedkeuringenwidget sorteert nu automatisch op deadline </a><p></p>
+            <p>We hebben de widget Mijn goedkeuringen thuis bijgewerkt en standaard gesorteerd op deadline (aflopend). Hierdoor kunnen de meest urgente goedkeuringen boven aan de lijst worden weergegeven. </p>
         </td>
-        <td>May 15, 2025</td>
-        <td>May 15, 2025</td>
-        <td>July 17, 2025</td>
+        <td>29 mei 2025</td>
+        <td>12 juni 2025</td>
+        <td>17 juli 2025</td>
     </tr>     
   </tbody>
-</table> 
-
--->
+</table>
 
 ### Projectverbeteringen
 
@@ -127,6 +123,24 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Snelle release</strong></td>
         <td><strong>Driemaandelijks</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}"> Verandering in de manier de Werkelijke Uren in het gegevensbestand voor API vraag worden opgeslagen </a><p>[!BADGE Off schema]{type=Neutral}</p>
+            <p>Deze update introduceert een verandering in de manier de Werkelijke Uren voor projecten, taken, en kwesties in het gegevensbestand worden opgeslagen. Vanaf deze update gebruiken de werkelijke uren een waardeveld van <code>actualWorkRequiredDouble</code> (met een waarde in uren).</p>
+        </td>
+        <td>27 mei 2025</td>
+        <td>27 mei 2025</td>
+        <td>27 mei 2025</td>
+    </tr>     
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}"> Update in het gebruiken van de Volledige schuif van Percentage in een taak of geven kopbal uit </a><p>[!BADGE Off schema]{type=Neutral}</p>
+            <p>We hebben de manier bijgewerkt waarop de procentuele volledige schuifregelaar werkt voor taken en problemen. Wanneer u de Volledige blauwe bubbel van Percentage in een taak of de kopbal van de kwestie schuift, zal de Percentage Voltooien van de taak of de kwestie nu bijwerken in vijf punttoename. Voordat deze update werd uitgevoerd, heeft u door het schuiven van de blauwe ballon Percentage de taken of problemen in stappen van één punt bijgewerkt.</p>
+        </td>
+        <td>27 mei 2025</td>
+        <td>27 mei 2025</td>
+        <td>27 mei 2025</td>
+    </tr>     
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}"> Meer transparantie wanneer het gebruiken van AI Medewerker op projecten, taken, en kwesties </a><p>[!BADGE Off schema]{type=Neutral}</p>
@@ -203,22 +217,6 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
-                 <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}"> Meer transparantie wanneer het gebruiken van Medewerker AI </a></p>
-                        <p>Om duidelijker te maken hoe AI Assistant antwoorden zoekt op vragen over Workfront-projecten, -taken en -problemen, hebben we deze informatie toegevoegd aan het antwoord op de vraag. AI Assistant bevat nu de zoekgegevens in de uitvoer. U kunt deze informatie gebruiken als een manier om te controleren of AI Assistant de vraag die u stelde correct heeft geïdentificeerd en om de context van het antwoord te begrijpen. </p>
-                    </td>
-                    <td><p><b>Beschikbaar op deze data:</b></p>
-                        <ul>
-                            <li>
-                                <p>Voorvertoningsrelease: gedurende de volledige releaseperiode van het derde kwartaal van 2025<br /></p>
-                            </li>
-                            <li>
-                                <p>Productieversie: minimaal 2 weken na publicatie voor Voorbeeld (tenzij anders vermeld)</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
                 <tr>
                     <td>
                         <p><span class="bold"> Eigenschap </span>
@@ -262,7 +260,7 @@ We werken de interface in Adobe Workfront bij om de gebruikerservaring te verbet
 
 ### Workfront Fusion-verbeteringen
 
-Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de standaard releaseschema. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de standaard releaseschema. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Verbeteringen voor Workfront-planning
 
@@ -284,11 +282,11 @@ Voor informatie over API versies, zie [ API versioning en steunprogramma ](/help
 
 ### Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens Eerste Kwartaal 2025 versie worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront [&#128279;](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=nl-NL).
+Voor informatie over de onderhoudsupdates die tijdens Eerste Kwartaal 2025 versie worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).[
 
 ### Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=nl-NL) Nieuw is.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html) Nieuw is.
 
 
 

@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: c8222e177d7e1ab9f62f5a520a2a941ca87cc27a
+source-git-commit: e73986702dac81d698f59caca76f6c7239ddeef8
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Deze update geldt voor zowel Mac als Windows.
 
 >[!NOTE]
 >
->* Voorvertoningsrelease: 31 mei 2025; Productieversie voor alle klanten: 31 mei 2025
+>* Voorvertoningsrelease: 2 juni 2025; Productieversie voor alle klanten: 2 juni 2025
 
 Google is [ verbeterend veiligheidscontroles ](https://workspace.google.com/blog/product-announcements/enhancing-security-controls-for-google-drive-third-party-apps) voor derdetoepassingen die tot de Aandrijving van Google toegang hebben, die toepassingen vereisen om een model van de per-gebruikerstoestemming goed te keuren. Dit betekent dat afzonderlijke elementen een voor een moeten worden gekoppeld om in Workfront zichtbaar te zijn. Zie [ documentintegratie ](/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md) voor meer informatie vormen.
 

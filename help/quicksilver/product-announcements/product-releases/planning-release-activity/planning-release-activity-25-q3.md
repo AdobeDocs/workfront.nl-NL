@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 870e4130daf9924bf85b59eb09f7d548b8152096
+source-git-commit: 686db6004d1a64279080ab3ba311c172a6a24d1f
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1308'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,30 @@ In dit artikel worden de functies beschreven die tijdens de release van het derd
 <!--keep the sentence below for all future quarterly release pages-->
 
 Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront worden vrijgegeven, zie [ de versieactiviteit van de Planning van Adobe Workfront: artikelindex ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Filters, kolommen en extra velden die worden toegevoegd aan het tabblad Planning in het gedeelte Aanvragen
+
+>[!NOTE]
+>
+>* Voorbeeld: 29 mei 2025
+>* Snelle productie: 12 juni 2025
+>* Productie voor alle afnemers: 17 juli 2025
+
+Wij hebben de volgende functionaliteit aan een lijst van verzoeken op het lusje van de Planning van het gebied van Verzoeken toegevoegd:
+
+* Door kolom ingevoerd om aan te geven wie een verzoek heeft toegevoegd
+* Filters om het aantal verzoeken te beperken u op het lusje van de Planning bekijkt. U kunt de lijst filteren op de volgende items:
+
+   * Workspace het aanvraagformulier is afkomstig van
+   * het recordtype dat aan het aanvraagformulier is gekoppeld
+   * Datum van binnenkomst van het verzoek
+   * de naam van het aanvraagformulier
+   * de status van de verzoeken
+   * de naam van de persoon die het verzoek heeft ingediend.
+
+* De controle van kolommen om gebieden (of kolommen) in de lijst van Verzoeken van de Planning te bekijken of te verbergen.
+
+Voor informatie, zie [ de Verzoeken van de Planning van Adobe Workfront voorleggen om verslagen ](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen.
 
 ## Nieuwe ervaring bij het afbreken van records in de compacte modus van de tijdlijnweergave
 
@@ -126,7 +150,7 @@ Voorafgaand aan deze verbetering, moesten de gebruikers met alle vergunningsnive
 >[!NOTE]
 >
 >Deze wijziging is zichtbaar voor alle nieuwe en bestaande gebruikers met een System Administrator- en Standard-licentie.
->Bestaande gebruikers die aan een lay-outsjabloon zijn toegewezen, blijven alles zien volgens de instellingen die in de lay-outsjabloon zijn gedefinieerd.
+>>Bestaande gebruikers die aan een lay-outsjabloon zijn toegewezen, blijven alles zien volgens de instellingen die in de lay-outsjabloon zijn gedefinieerd.
 
 Voor informatie, zie [ overzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/access/access-overview.md).
 
