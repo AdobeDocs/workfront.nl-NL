@@ -92,7 +92,7 @@ Bestaande gegevens exporteren uit Workfront:
 
    ![ Uitgezochte Gegevens van de Douane ](assets/kickstarts-select-existing-data.png)
 
-1. Kies **.xlsx- dossier** in de **3} sectie van het formaat van de Download {.**
+1. Kies **.xlsx- dossier** in de **3&rbrace; sectie van het formaat van de Download &lbrace;.**
 
    >[!TIP]
    >
@@ -225,7 +225,7 @@ Om het spreadsheet van Excel met informatie voor de nieuwe douanevelden te bevol
      >
      >Er kan slechts één standaardoptie voor elk veld zijn.
 
-   * **`setParameterID`** = de opties die aan het _Merk_ douanegebied beantwoorden hebben a **`setParameterID`** van 1, en de opties die aan de _Media_ beantwoorden hebben een ** `setParameterID` **van 2. De vellen `PARAM` en `POPT` verwijzen naar elkaar om aan te geven welke opties behoren tot welk aangepast veld.
+   * **`setParameterID`** = de opties die aan het _Merk_ douanegebied beantwoorden hebben a **`setParameterID`** van 1, en de opties die aan de _Media_ beantwoorden hebben een **&#x200B; `setParameterID` &#x200B;** van 2. De vellen `PARAM` en `POPT` verwijzen naar elkaar om aan te geven welke opties behoren tot welk aangepast veld.
    * **`setDisplayOrder`**= de kolom van de vertoningsorde wijst op de orde waarin de opties op uw douanegebied zullen tonen. U kunt beginnen met 1 en in oplopende volgorde verdergaan voor alle opties, ongeacht tot welke velden ze behoren. Het is belangrijk dat er voor elke optie unieke nummers zijn.
    * De kolommen **`setLabel`** en `**setValue`** bevatten doorgaans dezelfde informatie en moeten de namen weerspiegelen die u in de gebruikersinterface van Workfront wilt gebruiken. De waarde van een optie is de naam die in rapporten wordt weergegeven, terwijl het label in de aangepaste formulieren wordt weergegeven wanneer het aan een object is gekoppeld. Voor meer informatie, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
    * **`setIsHidden`** = ga `TRUE` in als u om het even welke opties wilt worden verborgen.
