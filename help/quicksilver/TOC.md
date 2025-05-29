@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: ddd69533738865d09f35e290e545cfbae062c687
+source-git-commit: 779fc409d316e957a4cbec951047e41641b69863
 workflow-type: tm+mt
-source-wordcount: '13216'
+source-wordcount: '13220'
 ht-degree: 0%
 
 ---
@@ -188,7 +188,7 @@ ht-degree: 0%
          * [21.2 Projectverbeteringen](product-announcements/product-releases/21.2-release-activity/21-2-project-enhancements.md)
          * [21.2 Verzoeken verbeterd](product-announcements/product-releases/21.2-release-activity/21-2-requests-enhancements.md)
          * [21.2 Verbeteringen in het beheer van hulpbronnen](product-announcements/product-releases/21.2-release-activity/21-2-resource-management-enhancements.md)
-         * [21. 2 Verbeterde rapportering](product-announcements/product-releases/21.2-release-activity/21-2-reporting-management-enhancements.md)
+         * [&#x200B;21. 2 Verbeterde rapportering](product-announcements/product-releases/21.2-release-activity/21-2-reporting-management-enhancements.md)
          * [21.2 Verbeterde proefdrukken](product-announcements/product-releases/21.2-release-activity/21-2-proofing-enhancements.md)
          * [21.2 Verbeterde integratie](product-announcements/product-releases/21.2-release-activity/21-2-integration-enhancements.md)
          * [21.2 Andere verbeteringen](product-announcements/product-releases/21.2-release-activity/21-2-other-enhancements.md)
@@ -254,7 +254,7 @@ ht-degree: 0%
          * 20.4 release {#release-20-4}
             * [20.4 - releaseoverzicht](product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md)
             * [20.4 Verbeteringen in projectbeheer](product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md)
-            * [20. 4 Verbeteringen voor analysemogelijkheden](product-announcements/product-releases/20.4-release-activity/20-4-analytics-enhancements.md)
+            * [&#x200B;20. 4 Verbeteringen voor analysemogelijkheden](product-announcements/product-releases/20.4-release-activity/20-4-analytics-enhancements.md)
             * [20.4 Verbeteringen in het beheer van hulpbronnen](product-announcements/product-releases/20.4-release-activity/20-4-resource-mgt-enhancements.md)
             * [20.4 Verbeterde proefdrukken](product-announcements/product-releases/20.4-release-activity/20-4-proof-enhancements.md)
             * [20.4 Verbeteringen op het gebied van mobiele en integratie](product-announcements/product-releases/20.4-release-activity/20-4-mobile-enhancements.md)
@@ -802,6 +802,7 @@ ht-degree: 0%
    * [Woordenlijst met Adobe Workfront-terminologie](workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
    * [Adobe Workfront-browservereisten](workfront-basics/workfront-browser-requirements.md)
    * [Ondersteunde talen in Adobe Workfront](workfront-basics/supported-languages-in-workfront.md)
+   * [HIPAA-gereedheid voor Workfront](/help/quicksilver/workfront-basics/hipaa-readiness-for-workfront.md)
    * Navigeren door Adobe Workfront {#navigate}
       * [Navigeren in Adobe Workfront: artikelindex](workfront-basics/navigate-workfront/navigate-workfront.md)
       * Adobe Workfront Search {#search}
@@ -1136,7 +1137,7 @@ ht-degree: 0%
          * [Elementen en mappen ontkoppelen of verwijderen uit Experience Manager Assets of Elementen.](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/unlink-or-delete-aem-assets.md)
          * [Workflows gebruiken in de integratie met Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
          * [Workfront Fusion gebruiken om een Workfront-uitgave om te zetten in een project dat Adobe Experience Manager-workflows bevat](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-fusion-to-create-project-with-workflows.md)
-         * [ los de Integratie van Adobe Experience Manager  problemen op](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
+         * [ los de Integratie van Adobe Experience Manager ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md) problemen op
    * Migreren vanaf verouderde of verbeterde connectors {#migrate-from-legacy-enhanced-connectors}
       * [Migreren vanaf verouderde of verbeterde connectors](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
       * [Migreren van de verouderde of verbeterde aansluiting naar Workfront for Adobe Experience Manager as a Cloud Service-integratie](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
@@ -2467,8 +2468,8 @@ ht-degree: 0%
       * [Configureer en gebruik de aangepaste OAuth 2-toepassingen van uw organisatie met behulp van JWT-flow](wf-api/api/oauth-app-jwt-flow.md)
       * [ vorm en gebruik de douane OAuth 2 toepassingen van uw organisatie die de stroom PKCE gebruiken ](wf-api/api/oauth-app-pkce-flow.md)
       * [Vervalsing van API-intern](wf-api/api/deprecation-api-internal.md)
-      * [ wat in API versie 20  nieuw is](wf-api/api/new-api-version-20.md)
-      * [ wat in API versie 19  nieuw is](wf-api/api/new-api-version-19.md)
+      * [ wat in API versie 20 ](wf-api/api/new-api-version-20.md) nieuw is
+      * [ wat in API versie 19 ](wf-api/api/new-api-version-19.md) nieuw is
       * [Nieuwe functies in API-versie 18](wf-api/api/new-api-version-18.md)
       * [Nieuwe functies in API-versie 17](wf-api/api/new-api-version-17.md)
       * [Nieuwe functies in API-versie 16](wf-api/api/new-api-version-16.md)
