@@ -174,7 +174,7 @@ In de volgende tabellen worden de te importeren gebruikers en diverse gebruikers
    >
    >Als u met zeer brede gegevensbladen werkt, kunt u het gereedschap Venster vastzetten (of equivalent) van de werkbladeditor gebruiken om het werkblad gemakkelijker te maken.
 
-1. Ga naar het **blad van het Bedrijf 0} CMPY.**
+1. Ga naar het **blad van het Bedrijf 0&rbrace; CMPY.**
 
    Het zou leeg moeten zijn tenzij de bedrijven reeds in het systeem zijn.
 
@@ -200,7 +200,7 @@ In de volgende tabellen worden de te importeren gebruikers en diverse gebruikers
 
    Tenzij u al groepen hebt gemaakt in Workfront, wordt op dit blad alleen de standaardgroep weergegeven die is ingericht voor elke account van Workfront.
 
-   ](assets/groupsheet-350x15.png) ![ Lege groepsblad van 0} Groep ](assets/emptygroupsheet-350x85.png)![
+   ![&#128279;](assets/groupsheet-350x15.png) ![ Lege groepsblad van 0&rbrace; Groep ](assets/emptygroupsheet-350x85.png)
 
 1. Ga **WAAR** in **isNew** kolom in.
 
@@ -216,7 +216,7 @@ In de volgende tabellen worden de te importeren gebruikers en diverse gebruikers
 
    ![ de namen van de Groep ](assets/groupnames-350x85.png)
 
-1. Ga naar het **blad van de Rol 0} ROL.**
+1. Ga naar het **blad van de Rol 0&rbrace; ROL.**
 
    Tenzij u al rollen in uw account hebt gemaakt of verwijderd, moet dit blad 8 rollen weergeven die zijn ingericht voor elke account van Workfront.
 
@@ -242,7 +242,7 @@ In de volgende tabellen worden de te importeren gebruikers en diverse gebruikers
 
    Neem indien nodig factureringssnelheden, kostentarieven en beschrijvingen op voor de rollen die u maakt.
 
-1. Ga naar het **blad van de Gebruiker 0} GEBRUIKER.**
+1. Ga naar het **blad van de Gebruiker 0&rbrace; GEBRUIKER.**
 
    Tenzij u al gebruikers in uw account hebt gemaakt, wordt op dit blad alleen de Admin-gebruiker weergegeven die voor elke account van Workfront is ingericht.
 
@@ -270,7 +270,7 @@ In de volgende tabellen worden de te importeren gebruikers en diverse gebruikers
 
 1. Geef waarden op voor Toegangsniveau.
 
-   Chris Manning is bijvoorbeeld een teamlid. Zoek omhoog identiteitskaart op het **blad van het Niveau van de Toegang 0} ACSLVL voor het de toegangsniveau van het Lid van het Team.** Kopieer identiteitskaart, en op het **blad van de Gebruiker van de 0} GEBRUIKER kleeft het in de** setAccessLevelID **kolom op de rij van die gebruiker.**
+   Chris Manning is bijvoorbeeld een teamlid. Zoek omhoog identiteitskaart op het **blad van het Niveau van de Toegang 0&rbrace; ACSLVL voor het de toegangsniveau van het Lid van het Team.** Kopieer identiteitskaart, en op het **blad van de Gebruiker van de 0&rbrace; GEBRUIKER kleeft het in de** setAccessLevelID **kolom op de rij van die gebruiker.**
 
    Herhaal deze stap voor elke gebruiker en toegangsniveau.
 
@@ -278,7 +278,7 @@ In de volgende tabellen worden de te importeren gebruikers en diverse gebruikers
 
 1. Voer de gegevens van de thuisgroep van de gebruiker in.
 
-   Volgens het scenario behoort Chris Manning tot de marketinggroep. Op het **blad van de Groep van 0} GROEP, bepaal de plaats van identiteitskaart voor de Marketing groep, kopieer het, en op het** 3} blad van de Gebruiker van de GEBRUIKER het in de **setHomeGroupID** kolom op de rij van de gebruiker. &#x200B;**** Herhaal deze stap voor elke gebruiker en groepstoewijzing.
+   Volgens het scenario behoort Chris Manning tot de marketinggroep. Op het **blad van de Groep van 0&rbrace; GROEP, bepaal de plaats van identiteitskaart voor de Marketing groep, kopieer het, en op het** 3&rbrace; blad van de Gebruiker van de GEBRUIKER het in de **setHomeGroupID** kolom op de rij van de gebruiker. &#x200B;**&#x200B;** Herhaal deze stap voor elke gebruiker en groepstoewijzing.
 
    ![ de groepsidentiteitskaart van het Exemplaar ](assets/copygroupid-1-350x133.png) ![ groepsidentiteitskaart van het Deeg ](assets/pastegroupid-350x59.png)
 
@@ -292,7 +292,7 @@ In de volgende tabellen worden de te importeren gebruikers en diverse gebruikers
 
 1. Voer de taakdetails van de gebruiker in.
 
-   Volgens het scenario, zal Chris Manning de rol van BedrijfsAnalyst hebben. Op het **blad van de Rol van 0} ROL, bepaal de plaats van identiteitskaart voor de rol Bedrijfs van de Analysator, kopieer het, en op het** blad van de Gebruiker **kleeft het in de** setRoleID **kolom op de rij van de gebruiker. &#x200B;** Herhaal deze stap voor elke gebruiker en groepstoewijzing.
+   Volgens het scenario, zal Chris Manning de rol van BedrijfsAnalyst hebben. Op het **blad van de Rol van 0&rbrace; ROL, bepaal de plaats van identiteitskaart voor de rol Bedrijfs van de Analysator, kopieer het, en op het** blad van de Gebruiker **kleeft het in de** setRoleID **kolom op de rij van de gebruiker. &#x200B;** Herhaal deze stap voor elke gebruiker en groepstoewijzing.
 
    ![ rolidentiteitskaart van het Exemplaar ](assets/copyroleid-350x149.png) ![ rolidentiteitskaart van het Deeg ](assets/pasteroleid-350x95.png)
 
