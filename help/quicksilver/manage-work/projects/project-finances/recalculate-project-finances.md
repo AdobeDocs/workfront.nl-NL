@@ -6,9 +6,9 @@ description: De financiën worden berekend op een project aangezien de veranderi
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '1633'
+source-wordcount: '1632'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td>Alle </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td role="rowheader">Adobe Workfront-licentie*</td> 
    <td>
    <p>Nieuw: Standaard</p>
    <p>of</p>
@@ -55,7 +55,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 ## Overwegingen bij het berekenen van de financiën in Adobe Workfront
 
-De financiën worden in uitgebreide analyses op de volgende manieren berekend:
+De financiële middelen voor projecten worden als volgt berekend:
 
 * U kunt kosten en opbrengsten op een project manueel opnieuw berekenen, door de optie van de Financiën van de Herberekening op een project te gebruiken.
 * Daarnaast wordt door sommige handelingen een automatische herberekening gestart.

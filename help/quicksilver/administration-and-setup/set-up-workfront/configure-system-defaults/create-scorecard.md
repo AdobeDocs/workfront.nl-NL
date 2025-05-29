@@ -8,9 +8,9 @@ author: Lisa, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 0%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Dezelfde functies zijn ook beschikbaar in de productieomgeving voor alle klanten na een week vanaf de release Preview. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview"> voor meer informatie, zie [ de modernisering van de Interface ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
 
 Een scorecard meet hoe goed een project zich aan de eerder vastgestelde criteria van een portefeuille richt. Een scorecard weerspiegelt vaak de missie, de waarden, en de strategische doelstellingen van een organisatie.
 
@@ -73,9 +73,9 @@ U moet de volgende toegang hebben:
 
 1. Klik op **[!UICONTROL Scorecards]** en vervolgens op **[!UICONTROL New Scorecard]** .
 
-   <span class="preview"> Nieuwe scorecard **doos opent.</span>**
+   De **Nieuwe scorecard** doos opent.
 
-   <span class="preview">![ Nieuwe scorecard doos ](assets/new-scorecard-350x173.png)</span>
+   ![ Nieuwe scorecard doos ](assets/new-scorecard-350x173.png)
 
 1. Geef een **[!UICONTROL Scorecard Name]** en een **[!UICONTROL Description]** op.
 
@@ -126,9 +126,9 @@ U kunt een scorecard tot stand brengen door bestaande te kopiëren en uit te gev
 1. Klik op **[!UICONTROL Scorecards]** in het linkerdeelvenster.
 1. Selecteer een scorecard in de lijst, dan klik het **pictogram van het Exemplaar ![ pictogram van het Exemplaar scorecard ](assets/copy-scorecard-icon.png) bij de bovenkant van de scorecardlijst.**
 
-   <span class="preview"> het **Scorecard van het Exemplaar** vakje opent.</span>
+   Het **Scorecard van het Exemplaar** vakje opent.
 
-   <span class="preview">![ de scorecarddoos van het Exemplaar ](assets/copy-scorecard-box.png)</span>
+   ![ de scorecarddoos van het Exemplaar ](assets/copy-scorecard-box.png)
 
 1. Geef de volgende informatie op:
 

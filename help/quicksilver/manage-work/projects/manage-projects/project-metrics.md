@@ -1,16 +1,16 @@
 ---
 content-type: overview;how-to-procedural
 product-area: projects
-keywords: analyses, metriek, project, uitgebreid, taken, ontvanger, volledig, status, achterstallig, komende
+keywords: analyses, metriek, project, taken, ontvanger, volledig, status, achterstallig, komende
 navigation-topic: manage-projects
 title: Overzicht van projectmetriek
 description: De metriek van het project geeft u een visualisatie van wat in een project gebeurt, toestaand u snel de behoeften en de status van een project beoordeelt. Ontdek hoe u het gedeelte Metriek in het linkerdeelvenster van een project kunt interpreteren.
 author: Alina
 feature: Work Management
 exl-id: 54c2a59d-9f6b-4126-9526-5169aeda8517
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: '1163'
 ht-degree: 0%
 
 ---
@@ -21,32 +21,35 @@ De metriek van het project geeft u een algemene mening in grafiekformaat over ho
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Workfront-abonnement*</td> 
+   <td role="rowheader">Workfront-plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Workfront-licentie*</td> 
-   <td> <p>Controleren of hoger </p> </td> 
+   <td> <p>Nieuw: Licht of hoger </p>
+   <p>Huidig: Controleren of hoger </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten weergeven</p> <p><b>OPMERKING</b>
-
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over toegang tot projecten, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref"> toegang van de Verlening tot projecten </a>. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen. </p> </td>
-</tr> 
+   <td role="rowheader">Configuratie op toegangsniveau</td> 
+   <td> <p>Toegang tot projecten weergeven</p>  </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen weergeven voor een project</p> <p> Voor informatie over projecttoestemmingen, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref"> een project in Adobe Workfront </a> delen.</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Machtigingen weergeven voor een project</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt.
+*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vereisten
 
@@ -70,12 +73,13 @@ In het gebied Metriek, kunt u de algemene gezondheid van een project zien, evena
 
 U kunt ook naar elk diagram gaan om taken of problemen in een bepaalde categorie nader te bekijken.
 
-Meer leren over het bekijken van deze taken of kwesties, zie {de details van Metriek van 0} Mening [&#128279;](#view-metrics-details).
+Meer leren over het bekijken van deze taken of kwesties, zie {de details van Metriek van 0} Mening ](#view-metrics-details).[
 
+<!--this was deprecated: 
 >[!TIP]
 >
->Ga naar het gedeelte Uitgebreide analyse als u metrische gegevens op een hoger niveau wilt bekijken voor een groep projecten binnen een programma, portfolio, enz.\
->Meer over Verbeterde analyses leren, zie [ Verbeterd analyseoverzicht ](../../../enhanced-analytics/enhanced-analytics-overview.md).
+>To see metrics at a higher level for a group of projects within a program, portfolio, etc., navigate to the Enhanced analytics area.  
+>To learn more about Enhanced analytics, see [Enhanced analytics overview](../../../enhanced-analytics/enhanced-analytics-overview.md).-->
 
 ## KPI&#39;s voor projecten
 

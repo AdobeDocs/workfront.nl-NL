@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '1914'
+source-wordcount: '2095'
 ht-degree: 0%
 
 ---
@@ -222,44 +222,49 @@ Het toelaten van dit plaatsen maakt de het verzoekvormen van de Planning van Wor
 
 1. (Facultatief) klik **Mening uw verzoek** in het bevestigingsbericht, om het verzoek te openen, of het **X** pictogram te klikken om de bevestiging te sluiten.
 
-1. (Facultatief) klik het **Planning** lusje in het **3&rbrace; gebied van Verzoeken &lbrace;om uw verzoek te bekijken, dan klik de naam van het verzoek.**
+1. (Facultatief) klik het **Planning** lusje in het **gebied van Verzoeken** om uw verzoeken te bekijken.
+Alle verzoeken u hebt toegang tot mening die aan een de vormvertoning van het de verzoekformulier van de Planning in een lijst werden voorgelegd.
+1. (Optioneel) Voer een van de volgende handelingen uit:
+
+   <div class="preview">
+
+   * Klik **Filters** en begin toevoegend voorwaarden voor welke verzoeken u in de Planning tabel wilt bekijken.
+
+     ![ het Uitgeven filters in de Verzoeken tabel van de Planning ](assets/filters-editing-box-in-requests-planning-tab.png)
+
+     U kunt filteren op de volgende velden:
+
+      * **Workspace**: De werkruimte de verzoekvorm wordt geassocieerd met.
+      * **Type van Verslag**: Het verslagtype het verzoekvorm wordt geassocieerd met.
+      * **Datum van de Ingang**: De datum toen het verzoek werd voorgelegd.
+      * **vorm van het Verzoek**: De naam van de verzoekvorm die wordt gebruikt om het verzoek voor te leggen.
+      * **Status**: De status van het verzoek.
+      * **ingegaan door**: De naam van de gebruiker die het verzoek toevoegde. Als het verzoek met iemand buiten Workfront werd toegevoegd, **ingegaan door** gebied toont `N/A`.
+
+        U kunt veelvoudige filters hebben die door of **worden aangesloten en** of **of**.
+De aanvraaglijst wordt automatisch gefilterd, aangezien u de filtervoorwaarden toevoegt.
+
+   * Klik **Kolommen** en verberg, toon, of herschik de kolommen in de verzoeklijst.
+
+     >[!TIP]
+     >
+     >U kunt geen kolommen meer toevoegen.
+     >
+     >U kunt niet het **Onderwerp** gebied tonen.
+
+     ![](assets/columns-editing-box-in-requests-planning-tab.png)
+
+
+1. Klik op de naam van een aanvraag in de lijst.
 
    De pagina met aanvraagdetails wordt geopend.
 
    ![ pagina van de Details van het Verzoek ](assets/request-details-page.png)
 
-   <!--replace the step directly above with this when we release filters and columns: 
-      1. (Optional) Click the **Planning** tab in the **Requests** area to view your requests. 
-         All the requests you have access to view that were submitted to a Planning request form display in a list. 
-      1. (Optional) Do any of the following:
-         <div class="preview">
-         * Click **Filters** and start adding conditions for what requests you want to view in the Planning tab. 
-                     ![Editing filters in the Planning requests tab](assets/filters-editing-box-in-requests-planning-tab.png)
-            You can filter by any of the following fields:  
-            * **Workspace**: The workspace the request form is associated with.
-            * **Record type**: The record type the request form is associated with.
-            * **Entry date**: The date when the request was submitted.
-            * **Request form**: The name of the request form used to submit the request.
-            * **Status**: The status of the request.
-            * **Entered by**: The name of the user who added the request. If the request was added with someone outside of Workfront, the **Entered by** field shows `N/A`.
-            You can have multiple filters joined by either And or Or.  
-            The request list is filtered automatically, as you add the filter conditions. 
-         * Click **Columns** and hide, show, or rearrange the columns in the request list. 
-            >[!TIP]
-            >
-            >You cannot add any more columns. 
-            >
-            >You cannot display the **Subject** field.
-                     ![](assets/columns-editing-box-in-requests-planning-tab.png)
-
-      1. Click the name of a request in the list. 
-   The request details page opens. 
-   ![Request details page](assets/request-details-page.png)             
-      </div>
-      -->
+   </div>
 
 
-1. (Voorwaardelijk) als de verzoekvorm niet met een goedkeuring wordt geassocieerd, of als het verzoek is goedgekeurd, klik de naam van het verzoek, dan klik de naam van het verslag op het **1&rbrace; gebied van het Verslag &lbrace;.**
+1. (Voorwaardelijk) als de verzoekvorm niet met een goedkeuring wordt geassocieerd, of als het verzoek is goedgekeurd, klik de naam van het verzoek, dan klik de naam van het verslag op het **1} gebied van het Verslag {.**
 
    De pagina van het verslag opent in de Planning van Workfront.
 
@@ -320,7 +325,7 @@ Het toelaten van dit plaatsen maakt de het verzoekvormen van de Planning van Wor
 
    ![ pagina van de Details van het Verzoek ](assets/request-details-page.png)
 
-1. (Voorwaardelijk) als de verzoekvorm niet met een goedkeuring wordt geassocieerd, of als het verzoek is goedgekeurd, klik de naam van het verzoek, dan klik de naam van het verslag op het **1&rbrace; gebied van het Verslag &lbrace;.**
+1. (Voorwaardelijk) als de verzoekvorm niet met een goedkeuring wordt geassocieerd, of als het verzoek is goedgekeurd, klik de naam van het verzoek, dan klik de naam van het verslag op het **1} gebied van het Verslag {.**
 
    De pagina van het verslag opent in de Planning van Workfront.
 

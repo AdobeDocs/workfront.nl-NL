@@ -6,9 +6,9 @@ description: In Adobe Workfront kunt u problemen of aanvragen verwijderen als u 
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 <!--Audited: 05/2025-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>    
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Dezelfde functies zijn ook beschikbaar in de productieomgeving voor alle klanten na een week vanaf de release Preview. </span>
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). -->
+<span class="preview"> voor meer informatie, zie [ modernisering van de Interface ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).</span>
 
 In Adobe Workfront kunt u problemen of aanvragen verwijderen als u hiervoor de juiste toegangsrechten en machtigingen hebt.
 
@@ -116,7 +116,7 @@ Afhankelijk van hoe uw Workfront of groepsbeheerder het Project, de Taak, of de 
    Een lijst van kwesties verbonden aan het geselecteerde project toont aan het recht.
 1. Selecteer één of veelvoudige kwesties in de lijst, dan klik het **pictogram van de Schrapping ![ pictogram van de Schrapping ](assets/delete.png) bij de bovenkant van de lijst.**
 
-1. Als de schrapping wordt toegestaan, klik ja **, schrap het**. <!--change this to this button instead: <span class="preview">*Delete*</span>-->
+1. Als de schrapping wordt toegestaan, klik **<span class="preview">Schrapping</span>**.
 
    Uw Workfront-beheerder staat mogelijk niet toe dat problemen worden verwijderd waarvoor uren zijn geregistreerd.\
    Voor meer informatie over de toegang en de toestemmingen nodig om een kwestie te schrappen, zie de sectie [ Overwegingen voor het schrappen van kwesties ](#considerations-for-deleting-issues) in dit artikel.
@@ -136,7 +136,7 @@ Afhankelijk van hoe uw Workfront of groepsbeheerder het Project, de Taak, of de 
    ![ Uitgave Meer menu ](assets/qs-issue-more-menu-highlighted-350x469.png)
 
 1. Klik **Uitgave van de Schrapping**.
-1. Als de schrapping wordt toegestaan, klik ja **, schrap het**. <!--change this to this button instead: <span class="preview">*Delete*</span>-->
+1. Als de schrapping wordt toegestaan, klik **<span class="preview">Schrapping</span>**.
 
    Uw Workfront-beheerder staat mogelijk niet toe dat problemen worden verwijderd waarvoor uren zijn geregistreerd.\
    Voor meer informatie over de toegang en de toestemmingen nodig om een kwestie te schrappen, zie de sectie [ Overwegingen voor het schrappen van kwesties ](#considerations-for-deleting-issues) in dit artikel.

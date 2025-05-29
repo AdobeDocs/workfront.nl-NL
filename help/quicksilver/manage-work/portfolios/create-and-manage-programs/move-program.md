@@ -6,9 +6,9 @@ description: U kunt bestaande programma's toevoegen aan een portfolio. Omdat pro
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 73dbe277-12d2-4041-8a02-91ccf5f8b465
-source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 <!--Audited: 5/2025-->
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Dezelfde functies zijn ook beschikbaar in de productieomgeving voor alle klanten na een week vanaf de release Preview. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview"> voor meer informatie, zie [ de modernisering van de Interface ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
 
 U kunt bestaande programma&#39;s toevoegen aan een portfolio. Omdat programma&#39;s niet in twee verschillende portfolio&#39;s kunnen bestaan, wordt de bestaande portfolio permanent verplaatst wanneer u een bestaand programma toevoegt.
 
@@ -62,9 +62,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Klik op **[!UICONTROL New Program]**.
 1. Klik op **[!UICONTROL Existing Program]**.
 
-   <span class="preview"> **voegt de doos van Programma&#39;s** toe opent.</span> <!--check screen shot - I logged changes for this casing-->
+   **voegt Programma&#39;s** doos toe opent. <!--check screen shot - I logged changes for this casing-->
 
-   <span class="preview">![ voeg programmadoos ](assets/add-programs-box.png)</span> toe
+   ![ voeg programmadoos ](assets/add-programs-box.png) toe
 
    >[!IMPORTANT]
    >
@@ -74,7 +74,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    U kunt meerdere programma&#39;s toevoegen.
 
-1. (Facultatief) klik het **pictogram van de Schrapping ![ pictogram van de Schrapping ](assets/delete-icon.png)</span> naast de naam van een programma als u besluit om het niet aan de portefeuille toe te voegen.<span class="preview">**
+1. (Facultatief) klik het **pictogram van de Schrapping ![ pictogram van de Schrapping ](assets/delete-icon.png) naast de naam van een programma als u besluit om het niet aan de portefeuille toe te voegen.**
 
 1. Klik op **[!UICONTROL Add Programs]** . <!--check this button in the UI after they implemented the changes??-->
 

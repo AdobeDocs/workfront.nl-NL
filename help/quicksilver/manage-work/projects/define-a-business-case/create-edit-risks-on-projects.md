@@ -6,9 +6,9 @@ description: Risico's zijn mogelijke gebeurtenissen of factoren die verhinderen 
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1080'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 <!--Audited: 01/2025-->
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Dezelfde functies zijn ook beschikbaar in de productieomgeving voor alle klanten na een week vanaf de release Preview. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview"> voor meer informatie, zie [ de modernisering van de Interface ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
 
 Risico&#39;s zijn mogelijke gebeurtenissen of factoren die verhinderen dat een project op tijd of binnen het budget wordt afgerond. U kunt risico&#39;s als deel van het creëren van het BedrijfsGeval van een project of door het lusje van Risken te gebruiken registreren.
 
@@ -117,9 +117,9 @@ U kunt risico&#39;s in de sectie van Risico&#39;s van een project of een malplaa
 
    Klik **Nieuw Risico**.
 
-   <span class="preview"> het **Nieuwe risico** doos opent.</span>
+   Het **Nieuwe risico** vakje opent.
 
-   <span class="preview">![ Nieuwe risicodoos ](assets/new-risk-box.png)</span>
+   ![ Nieuwe risicodoos ](assets/new-risk-box.png)
 
 1. (Voorwaardelijk) als u een risico in het **Nieuwe risico** vakje toevoegt, ga de volgende informatie in:
 
@@ -139,7 +139,7 @@ U kunt risico&#39;s in de sectie van Risico&#39;s van een project of een malplaa
 
    Klik **sparen** als u de informatie in de **Nieuwe risico** doos uitgeeft.
 
-1. (Facultatief) selecteer een verschillende **Status** voor het risico, in het **3&rbrace; drop-down menu van de Status &lbrace;, wanneer het toepassen van de** Standaard **mening voor de lijst van risico&#39;s.**
+1. (Facultatief) selecteer een verschillende **Status** voor het risico, in het **3} drop-down menu van de Status {, wanneer het toepassen van de** Standaard **mening voor de lijst van risico&#39;s.**
 
    Door gebrek, wordt de **Status** van een risico **geïdentificeerd**.
 
@@ -175,8 +175,8 @@ Risico&#39;s bewerken:
    * **Ware Kosten**: Verwijs de daadwerkelijke kosten van het risico als het risico voorkwam.
    * **Plan van de Vermindering**: Werk de beschrijving van het plan bij om het risico te verlichten.
 
-1. <span class="preview"> klik **sparen**.</span>
-1. (Facultatief) geef de **Status** voor een risico, in het **3&rbrace; drop-down menu van de Status &lbrace;uit, wanneer het toepassen van de** Standaard **mening voor de lijst van risico&#39;s.**
+1. Klik **sparen**.
+1. (Facultatief) geef de **Status** voor een risico, in het **3} drop-down menu van de Status {uit, wanneer het toepassen van de** Standaard **mening voor de lijst van risico&#39;s.**
 
    >[!NOTE]
    >
