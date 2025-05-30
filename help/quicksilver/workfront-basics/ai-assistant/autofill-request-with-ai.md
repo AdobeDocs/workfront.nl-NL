@@ -5,7 +5,7 @@ description: U kunt AI gebruiken om aanvraagvelden automatisch in te vullen.
 author: Becky
 feature: Get Started with Workfront
 exl-id: d053e604-5a28-4fd3-8f89-4467b6e46f02
-source-git-commit: 977817157e016b7cbe591d8627031208d7bf3bb3
+source-git-commit: a3e93311277bc5b68063e0ec1cbdcce3a40eb3dd
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Op eerdere verzoeken gebaseerde suggesties gebruiken:
 
    Terwijl u velden invult, kunnen in andere velden suggesties worden weergegeven.
 
-1. Voor elke gebiedssuggestie, keur **&#x200B;**&#x200B;goed of **verwerp** onder dat gebied.
+1. Voor elke gebiedssuggestie, keur **** goed of **verwerp** onder dat gebied.
 
    of
 
@@ -74,7 +74,7 @@ Suggesties gebruiken op basis van een geplakte tekstprompt:
 1. Klik **Vul de vorm**.
 
    Workfront genereert suggesties voor het formulier.
-1. Voor elke gebiedssuggestie, keur **&#x200B;**&#x200B;goed of **verwerp** onder dat gebied.
+1. Voor elke gebiedssuggestie, keur **** goed of **verwerp** onder dat gebied.
 
    of
 
@@ -157,8 +157,9 @@ U kunt een document uploaden dat op het volledige formulier of op één sectie v
 1. Klik **Vul de vorm** van **Vul de sectie**.
 
    Workfront genereert suggesties voor het formulier.
-1. Voor elke gebiedssuggestie, keur **&#x200B;**&#x200B;goed of **verwerp** onder dat gebied.
+1. Voor elke gebiedssuggestie, keur **** goed of **verwerp** onder dat gebied.
 
    of
 
    Selecteer **goedkeuren allen** of **verwerping allen** bij de bovenkant van de pagina om alle suggesties goed te keuren of te verwerpen.
+
