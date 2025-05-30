@@ -2,20 +2,26 @@
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
 title: Proefbestanden uploaden vanuit Adobe Photoshop
-description: U kunt uw tekengebieden als proefdrukken rechtstreeks uploaden naar Adobe Workfront voor een grondige revisie en goedkeuring.
+description: U kunt voorinstellingen van fotodocumenten rechtstreeks uploaden als proefdrukken naar  [!DNL Adobe Workfront]  voor een grondige revisie en goedkeuring.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: cbb12ee7-949e-44a1-9340-3ef93c003b21
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 9cbf1706e6c535ff7f52627d2c6e13de65ec76d0
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '638'
 ht-degree: 0%
 
 ---
 
 # Proefdrukken uploaden vanuit [!DNL Photoshop]
 
-U kunt tekengebieden als proefdrukken rechtstreeks uploaden naar [!DNL Adobe Workfront] voor een grondige revisie en goedkeuring.
+U kunt bepaalde typen voorinstellingen voor Photoshop-documenten rechtstreeks uploaden naar [!DNL Adobe Workfront] voor een grondige revisie en goedkeuring.
+
+>[!IMPORTANT]
+>
+>Het dossier moet een Vooraf ingesteld Vooraf ingesteld van het Document van de Foto zijn zoals die in [ wordt beschreven Malplaatjes en stelt in Photoshop ](https://helpx.adobe.com/photoshop/using/create-documents.html) vooraf in.
+
+
 
 ## Toegangsvereisten
 
@@ -67,7 +73,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    ![ Terugkeer aan de Lijst van het Werk ](assets/go-back-to-work-list-350x314.png)
 
 1. Ga naar het werkitem waar u een proefdruk wilt uploaden.
-1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1&rbrace; Document ![&#128279;](assets/documents.png) in de navigatiebar.
+1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1} Document ](assets/documents.png) in de navigatiebar.![
 1. Klik op **[!UICONTROL New File]** onder in het deelvenster [!DNL Workfront] .
 1. Schakel de **[!UICONTROL Create a proof]** -schakeloptie in.
 1. (Optioneel) Typ een naam voor de proefdruk in het tekstvak **[!UICONTROL Proof Name]** .
@@ -93,7 +99,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    ![ Terugkeer aan de Lijst van het Werk ](assets/go-back-to-work-list-350x314.png)
 
 1. Ga naar het werkitem waar u een proefdruk wilt uploaden.
-1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1&rbrace; Document ![&#128279;](assets/documents.png) in de navigatiebar.
+1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1} Document ](assets/documents.png) in de navigatiebar.![
 
 1. Klik op **[!UICONTROL New File]** onder in het deelvenster [!DNL Workfront] .
 1. Schakel de **[!UICONTROL Create a proof]** -schakeloptie in.
@@ -126,7 +132,7 @@ U kunt een nieuwe versie van een proefdruk uploaden. De plug-in onthoudt de test
    ![ Terugkeer aan de Lijst van het Werk ](assets/go-back-to-work-list-350x314.png)
 
 1. Ga naar het werkitem waarnaar u een document moet uploaden.
-1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1&rbrace; Document ![&#128279;](assets/documents.png) in de navigatiebar.
+1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1} Document ](assets/documents.png) in de navigatiebar.![
 
 1. Klik op **[!UICONTROL New Version]** onder in het deelvenster [!DNL Workfront] .
 1. Schakel de **[!UICONTROL Create a proof]** -schakeloptie in.
