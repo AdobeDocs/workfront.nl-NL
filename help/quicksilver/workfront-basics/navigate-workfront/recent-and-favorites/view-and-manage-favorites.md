@@ -67,7 +67,7 @@ U kunt recente items of de huidige pagina toevoegen aan het menu [!UICONTROL Fav
 ### Recente objecten toevoegen als favoriet
 
 1. Klik het **[!UICONTROL Recents]** pictogram ![ pictogram van Recenten ](assets/recents-icon-40x43.png) in de hoger-juiste hoek van om het even welke pagina in de nieuwe [!DNL Adobe Workfront] ervaring.
-1. Klik op de ster in lijn met het item dat u als favoriet wilt opslaan. Het recente puntvertoningen in het **** menu van Favorieten.
+1. Klik op de ster in lijn met het item dat u als favoriet wilt opslaan. Het recente puntvertoningen in het **&#x200B;**&#x200B;menu van Favorieten.
 
    ![ Favoriet een recent punt ](assets/recents-section.png)
 

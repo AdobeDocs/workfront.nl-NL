@@ -250,9 +250,9 @@ Dit type van onderzoek is nuttig wanneer u een sleutelwoord niet kunt herinneren
 
 Een geavanceerde zoekopdracht uitvoeren:
 
-1. In de hoger-juiste hoek van om het even welke pagina in [!DNL Workfront], klik het **[!UICONTROL Search]** pictogram ![ pictogram van het Onderzoek ](assets/search-icon.png). De **vertoningen van het 1} menu van het Onderzoek {.**
+1. In de hoger-juiste hoek van om het even welke pagina in [!DNL Workfront], klik het **[!UICONTROL Search]** pictogram ![ pictogram van het Onderzoek ](assets/search-icon.png). De **vertoningen van het 1&rbrace; menu van het Onderzoek &lbrace;.**
 
-1. Bij de bodem van het **1} menu van het Onderzoek {, klik **[!UICONTROL Advanced Search]**.** De **1} pagina van het Onderzoek {opent met het** Geavanceerde 3} lusje van het Onderzoek dat door gebrek wordt geselecteerd.****
+1. Bij de bodem van het **1&rbrace; menu van het Onderzoek {, klik &#x200B;** [!UICONTROL Advanced Search]&#x200B;**.** De **1} pagina van het Onderzoek {opent met het** Geavanceerde 3} lusje van het Onderzoek dat door gebrek wordt geselecteerd.**&#x200B;**
    ![ Geavanceerd onderzoek ](assets/qs-advanced-search-350x224.png)
 
 
@@ -261,6 +261,6 @@ Een geavanceerde zoekopdracht uitvoeren:
    ![ Geavanceerde onderzoeksvoorwerpen ](assets/advanced-search.png)
 
 1. (Optioneel) Typ een trefwoord in het veld boven aan de lijst.
-1. (Facultatief) Knevel **[!UICONTROL Filter your results]** aan **** om een filter te bouwen om uw onderzoek te verfijnen. Klik **toepassen** wanneer gebeëindigd.
+1. (Facultatief) Knevel **[!UICONTROL Filter your results]** aan **&#x200B;**&#x200B;om een filter te bouwen om uw onderzoek te verfijnen. Klik **toepassen** wanneer gebeëindigd.
 
 1. Klik op **[!UICONTROL Search]**. Rechts van de werkbalk **[!UICONTROL Advanced Search]** wordt een lijst met items weergegeven die overeenkomen met uw zoekopdracht.
