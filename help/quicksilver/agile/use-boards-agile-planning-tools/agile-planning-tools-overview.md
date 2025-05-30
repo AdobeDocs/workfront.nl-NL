@@ -2,21 +2,23 @@
 content-type: overview
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
-title: Overzicht van de gereedschappen voor mobiele planning
-description: Als u een kaart maakt met behulp van ad-hockaarten en kaarten met een verbinding, kunt u beter gebruikmaken van extra flexibele planningstools op borden.
+title: 'Overzicht van gereedschappen voor mobiele planning: artikelindex'
+description: Als u een kaart maakt met behulp van ad-hockaarten en kaarten met een verbinding, kunt u gebruikmaken van extra flexibele planningstools op borden.
 author: Lisa
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 0%
 
 ---
 
-# Overzicht van de gereedschappen voor mobiele planning
+# Overzicht van gereedschappen voor mobiele planning: artikelindex
 
-Als u een kaart maakt met behulp van ad-hockaarten en kaarten met een verbinding, kunt u extra flexibele planningstools gebruiken.
+<!-- Audited: 5/2025 -->
+
+Als u een kaart maakt met behulp van ad-hockaarten en aangesloten kaarten, kunt u gebruikmaken van extra flexibele planningstools.
 
 Tot de nuttige gereedschappen voor Kanban behoren:
 

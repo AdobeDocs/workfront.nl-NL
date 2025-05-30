@@ -7,14 +7,16 @@ description: Het scorebord van het verhaal toont samen met de voltooiingsstatus 
 author: Lisa
 feature: Agile
 exl-id: 584288bb-2d98-4b69-8deb-d3b8e54d328c
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '797'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Scrum] Overzicht van het board
+
+<!-- Audited: 5/2025 -->
 
 De [!UICONTROL Scrum] -kaart wordt samen met de voltooiingsstatus en het uitvouwdiagram weergegeven. Deze flexibele componenten zijn beschikbaar in de volgende situaties in [!UICONTROL Adobe Workfront]:
 
@@ -29,31 +31,31 @@ De [!UICONTROL Scrum] -kaart wordt samen met de voltooiingsstatus en het uitvouw
 
 De whiteboard bestaat uit de volgende elementen:
 
-* **[!UICONTROL Parent Story]Kolom:** in tegenstelling tot de andere kolommen op de artikellijst, is de [!UICONTROL Parent Story] kolom geen taakstatus, maar bestaat deze om artikelen te huisvesten die subtaken in de herhaling of het project bevatten. Alleen bovenliggende artikelen die ten minste één subtaak op de artikelkaart hebben, kunnen in deze kolom voorkomen. De bovenliggende artikelen gaan niet van status naar status over het hele artikel.
+* **Kolom van het Verhaal van de Ouder**: In tegenstelling tot de andere kolommen op de verhaalraad, is de [!UICONTROL Parent Story] kolom geen taakstatus, maar bestaat eerder om het even welke verhalen te huisvesten die subtaken in de herhaling of het project bevatten. Alleen bovenliggende artikelen die ten minste één subtaak op de artikelkaart hebben, kunnen in deze kolom voorkomen. De bovenliggende artikelen gaan niet van status naar status over het hele artikel.
 
   In een herhaling wordt deze kolom alleen op het artikelbord weergegeven wanneer een of meer artikelen op het artikelbord ten minste één subtaak bevatten die aan de volgende vereisten voldoet:
 
-   * Toegewezen aan het zelfde agile team zoals de oudertaak
-   * Behoort tot de herhaling
+   * Toegewezen aan het zelfde agile team zoals de oudertaak.
+   * Behoort tot de herhaling.
 
      In een project, lijkt deze kolom wanneer een taak minstens één subtaak heeft.
 
      ![ de kolom van het het verhaal van de ouder ](assets/agile-parentstory-swimlane.png)
 
-* **Statussen van de Taak:** wijs erop hoe een verhaal door de herhaling of het project vordert dat op welke statuskolom wordt gebaseerd het verhaal is in.
+* **Statussen van de Taak**: Wijs op hoe een verhaal door de herhaling of het project vordert dat op welke statuskolom wordt gebaseerd het verhaal binnen is.
 
-  De statussen van de taak kunnen voor het project worden aangepast door de gelijke mening te wijzigen, zoals die in [ wordt beschreven creeer of pas een Gelijke mening ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) in [ Overzicht van Meningen in [!UICONTROL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md) aan.
+  De statussen van de taak kunnen voor het project worden aangepast door de flexibele mening te wijzigen.
 
-* **Waaier Lane:** wanneer een ouderverhaal en zijn subtaken op de verhaalraad verschijnen, wordt een zwemweg gecreeerd specifiek voor het verhaal en zijn subtasks. Dit biedt een visueel onderscheid om beter te kunnen zien hoe de subtaken van een artikel zich over de hele whitepaper ontwikkelen.
+* **Waaier Lane**: Wanneer een ouderverhaal en zijn subtaken op de verhaalraad verschijnen, wordt een zwemweg gecreeerd specifiek voor het verhaal en zijn subtasks. Dit biedt een visueel onderscheid om beter te kunnen zien hoe de subtaken van een artikel zich over de hele whitepaper ontwikkelen.
 
   In een herhaling worden zwempaden alleen op het artikelbord weergegeven wanneer een artikel op het artikelbord ten minste één subtaak bevat die aan de volgende vereisten voldoet:
 
-   * Toegewezen aan het zelfde agile team zoals de oudertaak
-   * Behoort tot de herhaling
+   * Toegewezen aan het zelfde agile team zoals de oudertaak.
+   * Behoort tot de herhaling.
 
   In een project, verschijnen de zwemwegen wanneer een taak minstens één subtaak of één oudertaak heeft.
 
-* **Individuele Verhalen:** De individuele verhalen en de kwesties worden getoond onder om het even welke zwemwegen op de verhaalraad. Dit geeft een visueel onderscheid ten opzichte van de verhalen die deel uitmaken van een zwembaan.
+* **Individuele Verhalen**: De individuele verhalen en de kwesties worden getoond onder om het even welke zwemwegen op de verhaalraad. Dit geeft een visueel onderscheid ten opzichte van de verhalen die deel uitmaken van een zwembaan.
 
 ## Relatie tussen subtaken en artikelen
 
@@ -64,10 +66,6 @@ Als een artikel bijvoorbeeld slechts één subtaak heeft die op 4 punten wordt g
 Deze zelfde logica is op subtaken op het tweede niveau (subtaken van subtaken) van toepassing. Als subtask één of meerdere subtasks op het tweede niveau heeft, wordt subtask berekend gebaseerd op de subtaken op het tweede niveau.
 
 ## Relatie tussen de Artikelraad en de Achtergrond
-
->[!NOTE]
->
->De informatie in deze sectie is alleen van toepassing op flexibele weergaven op een herhaling. Bestaande weergaven op een project gebruiken geen achterstand. (Voor meer informatie over de verschillen tussen flexibele meningen over een herhaling en een project, zie &quot;Verschillen wanneer het Gebruiken van de [!UICONTROL Agile] Mening over een projectweergaven op een Herhaling&quot;in [ beheert een project in de Mening van de Gelijkheid ](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).)
 
 De iteratieachterstand geeft alleen artikelen of subtaken weer waar u een schatting kunt instellen. Als een ouderverhaal subtaken heeft die op de verhaalraad worden getoond (omdat zij aan het zelfde agile team worden toegewezen en tot de herhaling behoren), wordt de oudertaak niet getoond op de backlog. In deze situatie worden alleen de subtaken weergegeven op de achtergrond, terwijl de subtaken en het bovenliggende artikel worden weergegeven op de artikellijst.
 

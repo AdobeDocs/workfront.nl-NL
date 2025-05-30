@@ -7,7 +7,7 @@ description: Met de samenvatting kunt u rechtstreeks vanuit de documentenlijst w
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: daa46f0e2a5f656d048260d4a714ed02f01cdbbf
+source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
@@ -110,7 +110,7 @@ Goedkeuringen van proefdrukken moeten worden toegevoegd aan de proefwerkstroom. 
 
 ## Versies
 
-In de sectie Versies kunt u het aantal versies weergeven dat voor een bepaald document is gemaakt. Klik het **Meer** pictogram ![ Meer pictogram ](assets/more-icon.png) om het volgende te doen:
+In de sectie Versies kunt u het aantal versies weergeven dat voor een bepaald document is gemaakt. Klik het Meer pictogram ![ Meer pictogram ](assets/more-icon.png) om het volgende te doen:
 
 * Open een proefdruk.
 * Download een proefdruk of document.

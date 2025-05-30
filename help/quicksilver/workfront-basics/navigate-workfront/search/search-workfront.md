@@ -5,20 +5,22 @@ description: U kunt van punten in  [!DNL Adobe Workfront]  gemakkelijk de plaats
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 7c856349-c79f-40d8-9c96-b32bfb6d5417
-source-git-commit: b04d09d1244a7d7abef8aaddb62dbdf7124bfde8
+source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
 workflow-type: tm+mt
-source-wordcount: '1580'
+source-wordcount: '1506'
 ht-degree: 0%
 
 ---
 
 # Zoeken [!DNL Adobe Workfront]
 
+<!-- Audited: 5/2025 -->
+
 U kunt items gemakkelijk vinden in [!DNL Adobe Workfront] door te zoeken naar items wanneer u de exacte locatie niet kunt onthouden.
 
 U kunt het vak [!UICONTROL Search] in de rechterbovenhoek van elke pagina in [!DNL Workfront] zien.
 
-![ pictogram van het Onderzoek in navigatiebar ](assets/search-globalnavigationbar-350x62.png)
+![ het pictogram van het Onderzoek in navigatiebar ](assets/search-globalnavigationbar-350x62.png)
 
 U moet over machtigingen beschikken om een object weer te geven voordat u het in een zoekopdracht kunt vinden. Om deze reden, variëren de onderzoeksresultaten van gebruiker aan gebruiker.
 
@@ -31,32 +33,34 @@ U moet over machtigingen beschikken om een object weer te geven voordat u het in
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
-   <td> <p>Aanvraag of hoger</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
+   <td> <p>Nieuw: Medewerker of hoger<p>
+   <p>of</p>
+   <p>Huidig: Verzoek of hoger </p>
+
+
+</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>[!UICONTROL View] toegang tot het type object </p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de [!DNL Workfront] -beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
+   <td role="rowheader">Objectmachtigingen</td> 
    <td> <p>U moet over machtigingen beschikken om een object weer te geven voordat u het in een zoekopdracht kunt vinden.</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Zoeken begrijpen
-
-* [[!UICONTROL Objects available for search]](#objects-available-for-search)
-* [[!UICONTROL Fields available for search]](#fields-available-for-search)
 
 ### Objecten beschikbaar voor zoeken
 
@@ -87,11 +91,11 @@ De velden die u kunt zoeken, zijn gebaseerd op het type zoekopdracht: Standaard 
    * Updates
    * Documentnamen (in zoekopdrachten in specifieke documenten en in een standaardzoekopdracht)
 
-  Voor meer informatie over Basis die in [!DNL Workfront] zoekt, zie [ BasisOnderzoek ](#basic-search) in dit artikel.
+  Voor meer informatie over Basis die in [!DNL Workfront] zoekt, zie de volgende sectie in dit artikel: [ BasisOnderzoek ](#basic-search).
 
 * **[!UICONTROL Advanced Search]**: In een [!UICONTROL Advanced Search] kunt u filters instellen om te zoeken in velden die niet beschikbaar zijn in de standaardzoekopdracht. Daarom kunt u in [!UICONTROL Advanced Search] elk veld in het object doorzoeken.
 
-  Voor meer informatie over [!UICONTROL Advanced Search], zie [ Geavanceerd Onderzoek ](#advanced-search) in dit artikel.
+  Voor meer informatie over [!UICONTROL Advanced Search], zie de volgende sectie in dit artikel: [ Geavanceerd Onderzoek ](#advanced-search).
 
 >[!NOTE]
 >
@@ -101,10 +105,10 @@ De velden die u kunt zoeken, zijn gebaseerd op het type zoekopdracht: Standaard 
 
 Houd rekening met de volgende beperkingen wanneer u [!UICONTROL Search] in [!DNL Workfront] gebruikt:
 
-* Zoekopdrachten zijn niet hoofdlettergevoelig
-* [!DNL Workfront] kan typos niet corrigeren of begrijpen
-* Zoeken in [!DNL Workfront] ondersteunt geen jokertekens
-* Zoeken in [!DNL Workfront] ondersteunt gedeeltelijke woordzoekopdrachten, maar ondersteunt geen zoekopdrachten in subtekenreeksen.\
+* Zoekopdrachten zijn niet hoofdlettergevoelig.
+* [!DNL Workfront] corrigeert of begrijpt geen typos.
+* Zoeken in [!DNL Workfront] ondersteunt geen jokertekens.
+* Zoeken in [!DNL Workfront] ondersteunt gedeeltelijke woordzoekopdrachten, maar biedt geen ondersteuning voor zoekopdrachten in subtekenreeksen.\
    Het zoektrefwoord &#39;stand&#39; geeft bijvoorbeeld resultaten met het woord &#39;standard&#39;, maar geeft geen resultaten met het woord &#39;understanding&#39;.
 
 ## Meerdere woorden zoeken
@@ -158,7 +162,7 @@ U kunt echter het volgende doen in het vak [!UICONTROL Search] om de weergegeven
 
 ## Zoeken gebruiken in [!DNL Workfront]
 
-[!DNL Workfront] bevat twee soorten zoekopdrachten: Standaard en geavanceerd. Gebruik Standaardzoekopdracht als u trefwoorden wilt zoeken in veelvoorkomende objectvelden, zoals naam of beschrijving. Gebruik [!UICONTROL Advanced Search] als u filters wilt gebruiken om te zoeken in andere objectvelden.
+[!DNL Workfront] bevat twee typen zoekopdrachten: Standaard en Geavanceerd. Gebruik Standaardzoekopdracht als u trefwoorden wilt zoeken in veelvoorkomende objectvelden, zoals naam of beschrijving. Gebruik [!UICONTROL Advanced Search] als u filters wilt gebruiken om te zoeken in andere objectvelden.
 
 * [Standaardzoekopdracht](#basic-search)
 * [Geavanceerd zoeken](#advanced-search)
@@ -167,7 +171,7 @@ U kunt echter het volgende doen in het vak [!UICONTROL Search] om de weergegeven
 
 Met een standaardzoekopdracht kunt u trefwoorden zoeken in alle objecten in het systeem of in slechts één object tegelijk (zoals projecten). [!DNL Workfront] zoekt vervolgens naar deze trefwoorden in een paar specifieke velden. Vervolgens kunt u de zoekresultaten verfijnen op basis van andere objectspecifieke velden die zijn geselecteerd door [!DNL Workfront] .
 
-Voor een lijst van de specifieke die gebieden in BasisOnderzoek worden gezocht, zie [ Gebieden beschikbaar voor onderzoek ](#fields-available-for-search) in dit artikel.
+Voor een lijst van de specifieke die gebieden in BasisOnderzoek worden gezocht, zie de volgende sectie in dit artikel: [ Gebieden beschikbaar voor onderzoek ](#fields-available-for-search).
 
 >[!NOTE]
 >
@@ -185,14 +189,14 @@ U kunt een basiszoekopdracht op een van de volgende manieren uitvoeren:
 
 Een basiszoekopdracht uitvoeren:
 
-1. Klik het vergrootglas ![ pictogram van het Onderzoek ](assets/search-icon.png) in de hoger-juiste hoek van de pagina. U kunt ook **[!UICONTROL ALT + /]** of **[!UICONTROL Option + /]** typen om het menu [!UICONTROL Search] te openen.
+1. Klik het vergrootglas ![ pictogram van het Onderzoek ](assets/search-icon.png) in de hoger-juiste hoek van de pagina.
 
 1. (Optioneel) Als u naar een specifiek object wilt zoeken, klikt u op de vervolgkeuzelijst **[!UICONTROL All]** en selecteert u het object dat u wilt zoeken.
 
    ![ Onderzoek door objecten type ](assets/search-objecttype.png)
 
 1. Typ in het vak **[!UICONTROL Search]** de informatie die u zoekt.
-Voor informatie over welke gebieden in [!DNL Workfront] worden gezocht, zie [ Onderzoek ](#understand-search) begrijpen.
+Voor informatie over welke gebieden in [!DNL Workfront] worden gezocht, zie de volgende sectie in dit artikel: [ begrijp Onderzoek ](#understand-search).
    ![ drop-down van het Onderzoek ](assets/qs-search-drop-down-highlighted-350x234.png)
 
    Terwijl u begint te typen in de zoekbalk, geeft [!DNL Workfront] aanbevelingen op basis van uw weergavegeschiedenis en wordt het gewenste trefwoord in blauw gemarkeerd.
@@ -201,9 +205,7 @@ Voor informatie over welke gebieden in [!DNL Workfront] worden gezocht, zie [ On
 
    of
 
-   Druk op **[!UICONTROL Enter]** om een uitgebreide zoekopdracht uit te voeren. Deze zoekopdracht zoekt naar de gehele database in plaats van naar de laatst bekeken items.
-
-   De pagina [!UICONTROL Search Results] wordt geopend vanaf de linkerkant en bedekt het grootste deel van de vorige pagina.
+   Druk op Return (Mac) of [!UICONTROL Enter] (Windows) op het toetsenbord om een uitgebreide zoekopdracht uit te voeren. Dit onderzoek vraagt het volledige gegevensbestand in plaats van uw onlangs bekeken punten, en opent de **pagina van het Onderzoek**.
 
    Als u een algemeen onderzoek uitvoerde, [!DNL Workfront] winst resultaten voor om het even welk voorwerp dat de onderzoekstermijn in om het even welke gezochte gebieden aanpast, zoals die in [ wordt beschreven Begrijp Onderzoek ](#understand-search). De objecten die overeenkomen met uw zoekopdracht worden weergegeven in een lijst.
 
@@ -213,25 +215,18 @@ Voor informatie over welke gebieden in [!DNL Workfront] worden gezocht, zie [ On
    >Als u bijvoorbeeld zoekt naar &#39;marketing&#39;, worden objecten weergegeven die &#39;marketing&#39; of &#39;markt&#39; in de naam bevatten.
 
 1. (Facultatief) als uw onderzoek te vele resultaten produceerde, verfijnen uw onderzoek zoals die in [ wordt beschreven een BasisOnderzoek ](#refine-a-basic-search) verfijnen.
-1. (Optioneel) Als u wilt terugkeren naar de pagina die u vóór de zoekopdracht hebt weergegeven, klikt u op **[!UICONTROL Close]** in de rechterbovenhoek.
-
->[!NOTE]
->
->De pagina [!UICONTROL Search Results] blijft alleen geopend wanneer deze de focus heeft. Wanneer u buiten de pagina klikt of een andere pagina opent, wordt de [!UICONTROL Search Results] -pagina gesloten.
 
 #### Een basiszoekopdracht verfijnen
 
-Nadat u een standaardzoekopdracht hebt uitgevoerd (zoals beschreven in [[!UICONTROL Perform a Basic Search]](#perform-a-basic-search) ), kunt u de zoekopdracht verfijnen.
+Nadat u een standaardzoekopdracht hebt uitgevoerd, kunt u deze verfijnen.
 
 Gebruik de werkbalk links van de zoekresultaten om de informatie die u zoekt te beperken.
 
 Een zoekopdracht verfijnen:
 
 1. (Voorwaardelijk) Als u een algemene zoekopdracht hebt uitgevoerd, selecteert u het object dat u zoekt in de lijst met objecten linksboven in de resultaten.
-1. Zoek de velden die beschikbaar zijn voor de objecten die worden weergegeven in de zoekopdracht op de werkbalk links van de resultaten.
-De waarden van elke veldweergave, gesorteerd op aantal, tot 10 waarden voor elk veld.
-1. Klik in een van de velden die beschikbaar zijn om de lijst met resultaten te verkorten.
-De selecties die u maakt, worden in blauw gemarkeerd en de veldwaarden die u niet selecteert, worden verborgen.
+1. Zoek de velden die beschikbaar zijn voor de objecten die worden weergegeven in de zoekopdracht op de werkbalk links van de resultaten. De waarden van elke veldweergave, gesorteerd op aantal, tot 10 waarden voor elk veld.
+1. Klik in een van de velden die beschikbaar zijn om de lijst met resultaten te verkorten. De selecties die u maakt, worden in blauw gemarkeerd en de veldwaarden die u niet selecteert, worden verborgen.
 Nadat u elke nieuwe waarde hebt geselecteerd, worden de resultaten aan de rechterkant dynamisch bijgewerkt.
 
    ![ BasisOnderzoek lusje ](assets/basic-search.png)
@@ -251,29 +246,21 @@ U kunt in [!UICONTROL Advanced Search] zoeken met velden en filters die niet bes
 #### [!UICONTROL Advanced Search] gebruiken
 
 Met [!UICONTROL Advanced Search] kunt u uw zoekopdracht filteren op basis van specifieke criteria.\
-Dit type zoekopdracht is handig wanneer u een trefwoord dat aan een object is gekoppeld, niet kunt onthouden, maar wel bepaalde specifieke gegevens over dat object kent (bijvoorbeeld Projectprioriteit, Naam eigenaar document, enzovoort).
+Dit type van onderzoek is nuttig wanneer u een sleutelwoord niet kunt herinneren verbonden aan een voorwerp maar u weet sommige specifieke informatie over dat voorwerp (bijvoorbeeld: Prioriteit van het Project, de Naam van de Eigenaar van het Document, enz.).
 
 Een geavanceerde zoekopdracht uitvoeren:
 
-1. In de hoger-juiste hoek van om het even welke pagina in [!DNL Workfront], klik het **[!UICONTROL Search]** pictogram ![ pictogram van het Onderzoek ](assets/search-icon.png). Het menu [!DNL Search] wordt weergegeven.
+1. In de hoger-juiste hoek van om het even welke pagina in [!DNL Workfront], klik het **[!UICONTROL Search]** pictogram ![ pictogram van het Onderzoek ](assets/search-icon.png). De **vertoningen van het 1} menu van het Onderzoek {.**
 
-1. Klik onder aan het menu [!UICONTROL Search] op **[!UICONTROL Advanced Search]** .\
-   ![ Geavanceerd onderzoek ](assets/qs-advanced-search-350x224.png)\
-   De pagina [!UICONTROL Advanced Search] wordt geopend vanaf rechts en bedekt het grootste deel van de vorige pagina.
+1. Bij de bodem van het **1} menu van het Onderzoek {, klik **[!UICONTROL Advanced Search]**.** De **1} pagina van het Onderzoek {opent met het** Geavanceerde 3} lusje van het Onderzoek dat door gebrek wordt geselecteerd.****
+   ![ Geavanceerd onderzoek ](assets/qs-advanced-search-350x224.png)
 
-1. Selecteer het type object waarnaar u zoekt.\
-   **[!UICONTROL Tasks]** is standaard geselecteerd.
+
+1. Selecteer het type object waarnaar u zoekt. **[!UICONTROL Tasks]** is standaard geselecteerd.
 
    ![ Geavanceerde onderzoeksvoorwerpen ](assets/advanced-search.png)
 
 1. (Optioneel) Typ een trefwoord in het veld boven aan de lijst.
-1. (Optioneel) Schakel **[!UICONTROL Filter your results]** in om een filter te maken waarmee u uw zoekopdracht kunt verfijnen. Klik **toepassen** wanneer gebeëindigd.
+1. (Facultatief) Knevel **[!UICONTROL Filter your results]** aan **** om een filter te bouwen om uw onderzoek te verfijnen. Klik **toepassen** wanneer gebeëindigd.
 
-1. Klik op **[!UICONTROL Search]**.\
-   Rechts van de werkbalk [!UICONTROL Advanced Search] wordt een lijst met items weergegeven die overeenkomen met uw zoekopdracht.
-
-1. (Optioneel) Als u wilt terugkeren naar de pagina die u vóór de zoekopdracht hebt weergegeven, klikt u op **[!UICONTROL Close]** in de rechterbovenhoek.
-
->[!NOTE]
->
->De pagina [!UICONTROL Search Results] blijft alleen geopend wanneer deze de focus heeft. Wanneer u buiten de pagina klikt of een andere pagina opent, wordt de [!UICONTROL Search Results] -pagina gesloten.
+1. Klik op **[!UICONTROL Search]**. Rechts van de werkbalk **[!UICONTROL Advanced Search]** wordt een lijst met items weergegeven die overeenkomen met uw zoekopdracht.
