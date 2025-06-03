@@ -111,7 +111,7 @@ Het dialoogvenster **[!UICONTROL Export to PDF]** wordt weergegeven.
 
 1. In de **sectie van de Uitvoer**, selecteer van de volgende opties om erop te wijzen of u slechts wilt uitvoeren wat u of het volledige [!UICONTROL Gantt chart] ziet:
 
-   * **[!UICONTROL What I see]:** exporteert alle taken (inclusief eventuele subtaken) die op het scherm worden weergegeven voordat maximaal 500 items worden geëxporteerd. (Dit is niet wat in de **[!UICONTROL Preview]** sectie wordt getoond; de **2} sectie van de Voorproef {bevat slechts steekproefgegevens.)**
+   * **[!UICONTROL What I see]:** exporteert alle taken (inclusief eventuele subtaken) die op het scherm worden weergegeven voordat maximaal 500 items worden geëxporteerd. (Dit is niet wat in de **[!UICONTROL Preview]** sectie wordt getoond; de **2&rbrace; sectie van de Voorproef &lbrace;bevat slechts steekproefgegevens.)**
 
      Subtaken worden opgenomen in de geëxporteerde PDF, zelfs als de bovenliggende taak is samengevouwen en de subtaken niet zichtbaar zijn. Als u alleen bovenliggende taken wilt opnemen, selecteert u de bovenliggende taken die u wilt opnemen en schakelt u de subtaken uit.
 

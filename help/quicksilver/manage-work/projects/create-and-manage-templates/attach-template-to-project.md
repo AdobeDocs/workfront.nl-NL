@@ -101,7 +101,7 @@ U kunt een malplaatje aan een project van de projectpagina of van een projectlij
 
 1. Klik **Sjabloon** vastmaken. De **vertoningen van het Malplaatje van de Band** doos.
 
-1. Begin het typen van de naam van het malplaatje dat u op het **gebied van Malplaatjes van het Onderzoek** wilt vastmaken {, dan het klikken wanneer het in de lijst toont.
+1. Begin het typen van de naam van het malplaatje dat u op het **gebied van Malplaatjes van het Onderzoek** wilt vastmaken &lbrace;, dan het klikken wanneer het in de lijst toont.
 
    of
 

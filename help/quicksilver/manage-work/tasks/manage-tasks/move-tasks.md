@@ -132,7 +132,7 @@ Naast het verplaatsen van taken uit een lijst met taken kunt u een taak op taakn
    >Het **gebied van de Naam van de Taak** wordt gedimd en niet editable wanneer het selecteren om veelvoudige taken in een lijst te bewegen. U kunt over het **gebied van de Naam van de Taak** bewegen en een lijst van alle geselecteerde taken zal tonen.
    >
    >
-   >{de taaknamen van 0} Vertoning ](assets/move-task-multiple-tasks-box-with-list-of-task-names-nwe-350x142.png)![
+   >{de taaknamen van 0} Vertoning ![&#128279;](assets/move-task-multiple-tasks-box-with-list-of-task-names-nwe-350x142.png)
 
 1. Op het **Uitgezochte gebied van het Project van de Bestemming**, typ de naam van het project u de taak wilt zich bewegen. Als u de taak binnen het zelfde project wilt bewegen, typ de naam van het huidige project.
 

@@ -84,7 +84,7 @@ De taakstatus in de taakkoptekst handmatig bijwerken:
 
    of
 
-   Dubbelklik binnen de **Volledige** bel van de Percentage {om een nieuw percentage manueel in te gaan.
+   Dubbelklik binnen de **Volledige** bel van de Percentage &lbrace;om een nieuw percentage manueel in te gaan.
 
    ![](assets/percent-complete-status-widgets-task-header.png)
 

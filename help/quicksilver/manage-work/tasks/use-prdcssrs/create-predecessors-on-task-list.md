@@ -69,7 +69,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 1. In de **drop-down Meningen**, selecteer een mening die de **Predecessor** kolom toont, of voeg de kolom aan uw huidige mening toe.
 
 1. Selecteer de taak die u als afhankelijke taak wilt aanwijzen.
-1. Klik binnen de 0} Predecessors van de taak **kolom.**
+1. Klik binnen de 0&rbrace; Predecessors van de taak **kolom.**
 1. Het type in het taakaantal u als voorganger van de geselecteerde taak wilt aanwijzen, dan drukt **gaat** binnen.
 
    >[!TIP]
@@ -96,7 +96,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 U kunt snel details over de voorganger bekijken in de takenlijst.
 
-1. Voor de taaklijst, houd over het voorgangersaantal in de **1} kolom van Predecessors {.** Er wordt een vak met de voorganger weergegeven.
+1. Voor de taaklijst, houd over het voorgangersaantal in de **1&rbrace; kolom van Predecessors &lbrace;.** Er wordt een vak met de voorganger weergegeven.
 
    ![ Details van de Predecessor ](assets/predecessor-details-in-task-list.png)
 
