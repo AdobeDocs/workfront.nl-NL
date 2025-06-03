@@ -5,9 +5,9 @@ description: Als deel van het creëren van een BedrijfsGeval, kunt u een reeks d
 author: Alina
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: b38c98ec79617a78c76510bcb109da2ff83247af
+source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
@@ -43,8 +43,6 @@ Overweeg het volgende wanneer het creëren van de doelstellingen van BedrijfsGev
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -53,14 +51,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-plan</td> 
-   <td> <p>Pro of hoger</p> </td> 
+   <td> <p>Huidig: Prime of hoger</p>
+   <p>Verouderd: Pro of hoger</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td>
    <td> 
-   <p>Nieuw: Standaard</p> 
-   <p>of</p>
-   <p>Huidig: Plan </p> 
+   <p>Huidig: Standaard</p> 
+   <p>Verouderd: Plan </p> 
    </td> 
   </tr> 
   <tr> 

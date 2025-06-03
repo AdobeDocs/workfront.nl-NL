@@ -5,9 +5,9 @@ description: U kunt de BedrijfsGeval gebruiken om een project te verzoeken en he
 author: Alina
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '841'
 ht-degree: 0%
 
 ---
@@ -20,19 +20,22 @@ U kunt de BedrijfsGeval gebruiken om een project te verzoeken en het doel, het b
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr> 
+ <tr> 
    <td role="rowheader">Adobe Workfront-plan</td> 
-   <td> <p>Alle </p> </td> 
+   <td> 
+   <p>Huidig: Prime of hoger</p> 
+   <p>Verouderd: Pro of hoger</p> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Plan of hoger</p> </td> 
+   <td> 
+   <p>Huidig: Standaard </p> 
+   <p>Verouderd: Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
@@ -83,7 +86,7 @@ Overweeg het volgende wanneer het verzoeken van een project door een BedrijfsGev
 1. In het linkerpaneel, klik **Bedrijfs Geval**.
 1. (Facultatief) om de **Info van het Project** sectie uit te geven, klik **uitgeeft Info van het Project**. 
 
-   Voor meer informatie over het uitgeven van de **de sectiegebieden van Info van het 0&rbrace; Project &lbrace;, zie de sectie [ Info van het Project ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info) in het artikel [ Overzicht van de Gebieden van het BedrijfsGeval ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).**
+   Voor meer informatie over het uitgeven van de **de sectiegebieden van Info van het 0} Project {, zie de sectie [ Info van het Project ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info) in het artikel [ Overzicht van de Gebieden van het BedrijfsGeval ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).**
 
 1. (Facultatief) om de **sectie van Doelen** uit te geven, klik **uitgeven Doelen**.
 
@@ -106,7 +109,7 @@ Overweeg het volgende wanneer het verzoeken van een project door een BedrijfsGev
 
    Voor meer informatie over scorecards, zie het artikel [ een scorecard op een project toepassen en een Score van de Uitlijning ](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md) produceren.
 
-1. (Optioneel) Selecteer de Vorm van de Douane van de a **&#x200B;**&#x200B;in het **3&rbrace; drop-down menu van de Douane Forms.**
+1. (Optioneel) Selecteer de Vorm van de Douane van de a **** in het **3} drop-down menu van de Douane Forms.**
 
    Aangepaste Forms moet worden gemaakt voordat deze aan projecten kunnen worden gekoppeld.
 

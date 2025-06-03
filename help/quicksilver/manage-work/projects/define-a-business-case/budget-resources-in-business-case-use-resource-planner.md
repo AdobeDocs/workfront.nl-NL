@@ -5,9 +5,9 @@ description: Als deel van middelplanning, kunt u de project-vlakke Planner van h
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
+source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1240'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,6 @@ U kunt middelen in de bedrijfscase ook begroten gebruikend de Planner van het Sc
 
 ## Toegangsvereisten
 
-U moet het volgende hebben om de stappen in dit artikel uit te voeren:
-
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
@@ -38,12 +36,14 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-plan</td> 
-   <td> <p>Prime of hoger</p> </td> 
+   <td> <p>Huidig: Prime of hoger</p>
+   <p>Verouderd: Pro of hoger</p> 
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Nieuw: Licht of hoger</p>
-   <p>Huidig: Controleren of hoger</p>
+   <td> <p>Huidig: Licht of hoger</p>
+   <p>Verouderd: revisie of hoger</p>
 
 <p><b>BELANGRIJK:</b></p> 
    <p>Nieuw: u moet een standaardlicentie hebben om de budgetteringsgegevens voor bronnen te wijzigen. </p> 
@@ -66,7 +66,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

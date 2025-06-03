@@ -6,7 +6,7 @@ description: Risico's zijn mogelijke gebeurtenissen of factoren die verhinderen 
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
+source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
 workflow-type: tm+mt
 source-wordcount: '1080'
 ht-degree: 0%
@@ -45,10 +45,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-plan</td> 
-   <td> <p>Alle</p> </td> 
+   <td> 
+   <p>Alle</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> <p>Nieuw: Standaard </p>
    <p>Huidig: Plan </p> </td> 
   </tr> 
@@ -63,7 +64,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -139,7 +140,7 @@ U kunt risico&#39;s in de sectie van Risico&#39;s van een project of een malplaa
 
    Klik **sparen** als u de informatie in de **Nieuwe risico** doos uitgeeft.
 
-1. (Facultatief) selecteer een verschillende **Status** voor het risico, in het **3&rbrace; drop-down menu van de Status &lbrace;, wanneer het toepassen van de** Standaard **mening voor de lijst van risico&#39;s.**
+1. (Facultatief) selecteer een verschillende **Status** voor het risico, in het **3} drop-down menu van de Status {, wanneer het toepassen van de** Standaard **mening voor de lijst van risico&#39;s.**
 
    Door gebrek, wordt de **Status** van een risico **geïdentificeerd**.
 
@@ -176,7 +177,7 @@ Risico&#39;s bewerken:
    * **Plan van de Vermindering**: Werk de beschrijving van het plan bij om het risico te verlichten.
 
 1. Klik **sparen**.
-1. (Facultatief) geef de **Status** voor een risico, in het **3&rbrace; drop-down menu van de Status &lbrace;uit, wanneer het toepassen van de** Standaard **mening voor de lijst van risico&#39;s.**
+1. (Facultatief) geef de **Status** voor een risico, in het **3} drop-down menu van de Status {uit, wanneer het toepassen van de** Standaard **mening voor de lijst van risico&#39;s.**
 
    >[!NOTE]
    >
