@@ -8,14 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 52ba2457ac2870d23e325f64163b683756f88ad4
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
 
 # Systeemupdates configureren
+
+<!-- Audited: 5/2025 -->
 
 [!DNL Adobe Workfront] genereert automatische systeemupdates in het [!UICONTROL Updates] -gebied van een object om de volgende gebeurtenissen op te nemen:
 
@@ -37,8 +39,6 @@ U kunt bijvoorbeeld in [!DNL Workfront] alle wijzigingen bijhouden die gebruiker
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -73,13 +73,13 @@ U kunt bepalen welke informatie [!DNL Workfront] bijhoudt wanneer gebruikers inf
 >[!NOTE]
 >
 >* [!DNL Workfront] kan geen updates bijhouden en opnemen over berekende aangepaste velden.
->* U kunt de systeemupdate aanpassen voor projecten, taken, problemen, portfolio&#39;s, programma&#39;s en gebruikers. U kunt de systeemupdate voor sjablonen, documenten of tijdbladen niet aanpassen, maar in [!DNL Workfront] worden de systeemupdates voor deze objecten wel vastgelegd.
+>* U kunt de systeemupdate aanpassen voor projecten, taken, problemen, portfolio&#39;s, programma&#39;s en gebruikers. U kunt de systeemupdate niet aanpassen voor sjablonen, documenten of tijdbladen, maar [!DNL Workfront] registreert wel systeemupdates voor deze objecten.
 >
 
 
 
 * [Voeg gebieden toe u  [!DNL Workfront]  wilt volgen](#add-fields-you-want-workfront-to-track)
-* [Velden verwijderen die u niet wilt bijhouden](#remove-fields-that-you-don-t-want-tracked)
+* [Velden verwijderen die u niet wilt bijhouden](#remove-fields-you-don-t-want-tracked)
 
 ### Velden toevoegen die u wilt bijhouden in [!DNL Workfront] {#add-fields-you-want-workfront-to-track}
 
@@ -87,37 +87,33 @@ U kunt velden toevoegen die u in [!DNL Workfront] voor een bepaald type object w
 
 >[!NOTE]
 >
->U kunt maximaal 300 ingebouwde en aangepaste velden bijhouden in de updatefeed. Als u het maximumaantal velden bijhoudt en aanvullende velden wilt bijhouden die niet op het subtabblad [!UICONTROL All Fields] worden weergegeven, moet u eerst enkele bijgehouden velden verwijderen om nieuwe velden bij te houden. Voor meer informatie over het verwijderen van gebieden uit de updategebieden, zie [ gebieden verwijderen die u niet gevolgd ](#remove-fields-that-you-don-t-want-tracked) wilt.
+>U kunt maximaal 300 ingebouwde en aangepaste velden bijhouden in de updatefeed. Als u het maximumaantal velden bijhoudt en aanvullende velden wilt bijhouden die niet op het subtabblad [!UICONTROL All Fields] worden weergegeven, moet u eerst enkele bijgehouden velden verwijderen om nieuwe velden bij te houden. Voor meer informatie over het verwijderen van gebieden uit de updategebieden, zie [ gebieden verwijderen u niet gevolgd ](#remove-fields-you-don-t-want-tracked) wilt.
 
-1. Klik het **[!UICONTROL Main Menu]** pictogram van het pictogram ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van [!DNL Adobe Workfront], dan klik **[!UICONTROL Setup]** ![ het montagespictogram van het Gear ](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. Klik in het linkerdeelvenster op **[!UICONTROL Interface]** > **[!UICONTROL Update Feeds]** .
+1. Klik in het deelvenster aan de linkerkant op **[!UICONTROL Interface]** en vervolgens op **[!UICONTROL Update Feeds]** .
 
-1. &#x200B; op **[!UICONTROL Add Fields]** en klik vervolgens op het object dat u wilt bijhouden.
+1. &#x200B; Klik op **[!UICONTROL Add Fields]** en selecteer in het keuzemenu het object dat u wilt laten volgen.
 
-1. In het vak &#x200B; **[!UICONTROL Update Feeds]** dat wordt weergegeven, typt u een ingebouwd (standaard) veld of een aangepast veld voor het object. Klik vervolgens om het veld te selecteren wanneer het in de lijst wordt weergegeven.
+1. Typ in het vak dat wordt weergegeven een ingebouwd (standaard) veld of een aangepast veld voor het object en selecteer het veld wanneer het in de lijst wordt weergegeven.
 
-   Als [!DNL Workfront] het veld al volgt, kunt u het niet een tweede keer uit de lijst toevoegen.
+   >[!NOTE]
+   >
+   >Als [!DNL Workfront] het veld al bijhoudt, kunt u het niet nogmaals toevoegen vanuit de lijst.
 
-1. Nadat u alle velden hebt toegevoegd die u in [!DNL Workfront] wilt bijhouden, klikt u op **[!UICONTROL Add Fields]** .
+1. Nadat u alle velden hebt toegevoegd die u in [!DNL Workfront] wilt bijhouden, klikt u op **[!UICONTROL Add Fields]** . De ingebouwde velden die u hebt toegevoegd, worden weergegeven onder de subtab **[!UICONTROL Built-in Fields]** en de aangepaste velden onder de subtab **[!UICONTROL Custom Fields]** .
 
-   De ingebouwde velden die u hebt toegevoegd, worden weergegeven onder de subtab **[!UICONTROL Built-in Fields]** .
+   In het subtabblad **[!UICONTROL All Fields]** worden zowel de ingebouwde als de aangepaste velden weergegeven die worden bijgehouden.
 
-   De aangepaste velden die u hebt toegevoegd, worden weergegeven onder de subtab **[!UICONTROL Custom Fields]** .
-
-   Op het subtabblad **[!UICONTROL All Fields]** worden zowel de ingebouwde als de aangepaste velden weergegeven die worden bijgehouden.
-
-### Velden verwijderen die u niet wilt bijhouden {#remove-fields-that-you-don-t-want-tracked}
+### Velden verwijderen die u niet wilt bijhouden {#remove-fields-you-don-t-want-tracked}
 
 U kunt velden verwijderen die het systeem niet voor een bepaald type object hoeft bij te houden in de gehele interface van [!DNL Workfront] .
 
-1. Klik het **[!UICONTROL Main Menu]** pictogram van het pictogram ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van [!DNL Adobe Workfront], dan klik **[!UICONTROL Setup]** ![ het montagespictogram van het Gear ](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. Klik op **[!UICONTROL Interface]** > **[!UICONTROL Update Feeds]** .
+1. Klik op **[!UICONTROL Interface]** en vervolgens op **[!UICONTROL Update Feeds]** .
 
-1. Selecteer op het tabblad **[!UICONTROL Tracked Fields]** de subtab **[!UICONTROL All Fields]** .
-
-   Dit toont zowel de ingebouwde als de douanevelden die momenteel worden gevolgd.
+1. Selecteer op het tabblad **[!UICONTROL Tracked Fields]** de subtab **[!UICONTROL All Fields]** . Zowel de ingebouwde als de aangepaste velden die momenteel worden bijgehouden, worden weergegeven.
 
 1. Selecteer het veld dat u wilt stoppen met bijhouden en klik op **[!UICONTROL Remove]** .
 
@@ -160,7 +156,7 @@ U kunt bijvoorbeeld [!DNL Workfront] elke keer dat een gebruiker een toewijzing 
   </tr> 
   <tr> 
    <td>Document wordt gemaakt of verwijderd</td> 
-   <td>Projecten, Taken, Kwesties, Portfolio's, Programma's</td> 
+   <td>Projecten, taken, problemen, portfolio's, programma's</td> 
    <td> <p>Ingeschakeld</p> </td> 
   </tr> 
   <tr> 
@@ -185,7 +181,7 @@ U kunt bijvoorbeeld [!DNL Workfront] elke keer dat een gebruiker een toewijzing 
   </tr> 
   <tr> 
    <td>De toegang van iemand is gewijzigd</td> 
-   <td>Projecten, taken, problemen, documenten, Portfolio's, programma's</td> 
+   <td>Projecten, taken, problemen, documenten, portfolio's, programma's</td> 
    <td> <p>Ingeschakeld</p> </td> 
   </tr> 
   <tr> 
@@ -198,13 +194,13 @@ U kunt bijvoorbeeld [!DNL Workfront] elke keer dat een gebruiker een toewijzing 
 
 Om te vormen welke acties u [!DNL Workfront] wilt volgen:
 
-1. Klik het **[!UICONTROL Main Menu]** pictogram van het pictogram ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van [!DNL Adobe Workfront], dan klik **[!UICONTROL Setup]** ![ het montagespictogram van het Gear ](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. Klik op **[!UICONTROL Interface]** > **[!UICONTROL Update Feeds]** .
+1. Klik op **[!UICONTROL Interface]** en vervolgens op **[!UICONTROL Update Feeds]** .
 
 1. Klik op de tab **[!UICONTROL Actions]** .
 
-1. Selecteer een handeling om deze in te schakelen of hef de selectie van een handeling op om deze uit te schakelen.
+1. Schakel het selectievakje van een handeling in of uit om deze uit te schakelen.
 1. Klik op **[!UICONTROL Save]**.
 
 Wanneer u een handeling uitschakelt, blijven eerder opgenomen updates over die handeling behouden in het [!UICONTROL Updates] -gebied waar deze is opgenomen.

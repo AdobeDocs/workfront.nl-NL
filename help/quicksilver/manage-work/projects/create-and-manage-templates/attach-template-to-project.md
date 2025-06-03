@@ -6,14 +6,16 @@ description: U kunt een malplaatje aan een project of tijdens de aanvankelijke c
 author: Alina
 feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1151'
 ht-degree: 0%
 
 ---
 
 # Een sjabloon aan een project koppelen
+
+<!-- Audited: 5/2025 -->
 
 U kunt een malplaatje aan een project of tijdens de aanvankelijke creatiefase van het project of vastmaken nadat het is gecreeerd.
 
@@ -21,23 +23,26 @@ Voor meer informatie over het creëren van een project dat een malplaatje gebrui
 
 ## Toegangsvereisten
 
-U moet over de volgende opties beschikken om de in dit artikel beschreven stappen uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Nieuw: Standaard</p>
+   <p>of</p>
+   <p>Huidig: Plan</p>
+    </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten bewerken </p> <p>Voor informatie over projecttoegang, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref"> toegang van de Verlening tot projecten </a>.</p> <p>Toegang tot sjablonen weergeven</p> <p>Voor informatie over malplaatjetoestemmingen, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref"> een malplaatje </a> delen. </p> <p>Voor informatie over malplaatjetoegang, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref"> Toegang van de Verlening tot malplaatjes </a>.</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot projecten bewerken </p> <p>Voor informatie over projecttoegang, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref"> toegang van de Verlening tot projecten </a>.</p> <p>Toegang tot sjablonen weergeven</p> <p>Voor informatie over malplaatjetoestemmingen, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref"> een malplaatje </a> delen. </p> <p>Voor informatie over malplaatjetoegang, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref"> Toegang van de Verlening tot malplaatjes </a>.</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> douanetoegangsniveaus </a> creëren en wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -46,7 +51,9 @@ U moet over de volgende opties beschikken om de in dit artikel beschreven stappe
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -75,24 +82,26 @@ U moet over de volgende opties beschikken om de in dit artikel beschreven stappe
 
 ## Een sjabloon aan een bestaand project koppelen {#attach-a-template-to-an-existing-project}
 
-U kunt een malplaatje aan een project in Workfront van de projectpagina of van een projectlijst of rapport vastmaken.
+U kunt een malplaatje aan een project van de projectpagina of van een projectlijst of een rapport vastmaken.
 
-1. Ga naar het project waar u een malplaatje wilt vastmaken en **Meer** pictogram ![ Meer pictogram ](assets/qs-more-icon-on-an-object.png) aan het recht van de projectnaam klikken
+{{step1-to-projects}}
 
-   ![ Meer dropdown ](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+1. Voor de **pagina van Projecten**, selecteer het project u een malplaatje aan wilt vastmaken.
+
+1. Klik het **Meer** pictogram ![ Meer pictogram ](assets/qs-more-icon-on-an-object.png) rechts van de projectnaam.
+
+   ![ Meer drop-down ](assets/more-dropdown.png)
 
    of
 
-   Ga naar een projectlijst of een rapport en selecteer dan een project **Meer** pictogram ![ Meer pictogram ](assets/qs-more-icon-on-an-object.png) bij de bovenkant van de lijst.
+   Ga naar een projectlijst of een rapport en selecteer een project, dan klik het **Meer** pictogram ![ Meer pictogram ](assets/qs-more-icon-on-an-object.png) bij de bovenkant van de lijst.
 
-   ![ Meer uitgevouwen menu ](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
+   ![ Meer uitgevouwen menu ](assets/more-menu-expanded.png)
 
 
-1. Klik **Sjabloon** vastmaken.
+1. Klik **Sjabloon** vastmaken. De **vertoningen van het Malplaatje van de Band** doos.
 
-   Het vak Sjabloon koppelen wordt weergegeven.
-
-1. Begin de naam van het malplaatje te typen dat u op het **gebied van de Malplaatjes van het Onderzoek** wilt vastmaken, dan het klikken wanneer het vertoningen.in de lijst
+1. Begin het typen van de naam van het malplaatje dat u op het **gebied van Malplaatjes van het Onderzoek** wilt vastmaken {, dan het klikken wanneer het in de lijst toont.
 
    of
 
@@ -108,16 +117,12 @@ U kunt een malplaatje aan een project in Workfront van de projectpagina of van e
 
    ![ Band malplaatjedoos ](assets/attach-template-box-template-preview-area-nwe-350x282.png)
 
-1. (Facultatief) klik het **pictogram van Favorieten ![ pictogram van Favorieten ](assets/favorites-icon-small.png) links van de malplaatjenaam om het als favoriet te merken.** Hierdoor wordt de sjabloon verplaatst naar de lijst Favorieten.
+1. (Facultatief) klik het **pictogram van Favorieten ![ pictogram van Favorieten ](assets/favorites-icon-small.png) aan het recht van de malplaatjenaam om het als favoriet te merken en het te bewegen naar de** Favorieten **lijst.**
 
-   ![ pictogram Favorieten op malplaatjelijst ](assets/favorites-icon-on-template-list-in-attach-template-box-nwe-350x79.png)
+1. (Facultatief) klik het **pictogram van Favorieten ![ pictogram van Favorieten ](assets/favorites-icon-selected.png) opnieuw om het uit de** **lijst van Favorieten te verwijderen.**
+1. Klik **aanpassen en verbinden**. Het **Sjabloon** zijpaneel van de Band opent.
 
-1. (Facultatief) klik het **pictogram van Favorieten ![ pictogram van Favorieten ](assets/favorites-icon-selected.png) opnieuw om het uit de lijst van Favorieten te verwijderen.**
-1. Klik **aanpassen en verbinden**.
-
-   ![ Band malplaatje ](assets/attach-template-large-box-nwe-350x262.png)
-
-1. De informatie van de update in de volgende secties alvorens het malplaatje (of, klik **Malplaatje** op elk ogenblik vastmaken):
+1. (Optioneel) Werk de gegevens in de volgende secties bij:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -132,7 +137,7 @@ U kunt een malplaatje aan een project in Workfront van de projectpagina of van e
      </tr> 
      <tr> 
       <td role="rowheader">Selecteer de projecttaak u als voorganger voor de taken in dit malplaatje wilt.</td> 
-      <td> <p>Klik het gebied om een lijst van projecttaken te tonen. Selecteer welke projecttaak u gebeëindigd wilt alvorens de malplaatjetaken kunnen beginnen. Alternatief, kunt u deze stap en opstellingsverhoudingen binnen het project overslaan nadat het malplaatje in bijlage is. </p> <p> Selecteer het <strong> Type van Afhankelijkheid </strong>, <strong> Lag </strong> informatie, en of u wilt dat predecessor <strong> wordt gedwongen </strong> of niet. </p> </td> 
+      <td> <p>Klik het gebied om een lijst van projecttaken te tonen, dan uitgezocht welke taak moet beëindigen alvorens de malplaatjetaken kunnen beginnen. Alternatief, kunt u deze stap en opstellingsverhoudingen binnen het project overslaan nadat het malplaatje in bijlage is. </p> <p> Selecteer het <strong> Type van Afhankelijkheid </strong>, <strong> de informatie van de Tijd van de Lag </strong>, en als u voorganger wilt worden afgedwongen door <strong> te controleren Afdwingen Predecessor </strong> checkbox. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Selecteer de projecttaak die u als ouder van de taken in dit malplaatje wilt.</td> 
@@ -143,7 +148,7 @@ U kunt een malplaatje aan een project in Workfront van de projectpagina of van e
      </tr> 
      <tr> 
       <td role="rowheader">De onderstaande geselecteerde items worden overgebracht naar het project. Schakel de opties uit die u wilt uitsluiten.</td> 
-      <td> <p>Schakel de selectievakjes uit naast de gegevens die u uit de sjabloon wilt verwijderen voordat u deze aan het project koppelt. Deze informatie wordt niet overgebracht van het malplaatje aan het project. Voor meer informatie over elk gebied, zie <a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md" class="MCXref xref"> Overzicht van het vastmaken van een malplaatje aan een project </a>. </p> <p>Belangrijk: Als u de <strong> doos van de Eigenschappen van de Rij &amp; van de Opstelling van Kwesties </strong> controleert, beschrijven de Details van de Rij van het malplaatje die van het project. In dit geval, worden de Verpletterende Regels, de Onderwerpen van de Rij, en de Groepen van het Onderwerp van het malplaatje toegevoegd aan die van het project. <br> als het project opstelling als verzoekrij is en het malplaatje u aan het project vastmaakt niet opstelling als verzoekrij, wordt de rijinformatie van het project verwijderd als u de <strong> gecontroleerde doos van de Eigenschappen van de Rij en van de Opstelling van de Uitgave </strong> verlaat. <br> als u de <strong> Eigenschappen van de Rij en de doos van de Opstelling van de Uitgave </strong> schrapt, worden alle montages van de Opstelling van de Rij van het project bewaard en geen montages van de Opstelling van de Rij van het malplaatje zijn in bijlage. </p> </td> 
+      <td> <p>Schakel de selectievakjes voor alle informatie uit die u van de sjabloon wilt uitsluiten voordat u deze aan het project koppelt. Voor meer informatie over elk gebied, zie <a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md" class="MCXref xref"> Overzicht van het vastmaken van een malplaatje aan een project </a>. </p> <p>Belangrijk: Als u de <strong> doos van de Eigenschappen van de Rij &amp; van de Opstelling van Kwesties </strong> controleert, beschrijven de Details van de Rij van het malplaatje die van het project. In dit geval, worden de Verpletterende Regels, de Onderwerpen van de Rij, en de Groepen van het Onderwerp van het malplaatje toegevoegd aan die van het project. <br> als het project opstelling als verzoekrij is en het malplaatje u aan het project vastmaakt niet opstelling als verzoekrij, wordt de de rijinformatie van het project verwijderd als u de <strong> gecontroleerde doos van de Eigenschappen van de Rij en van de Opstelling van de Uitgave </strong> verlaat. <br> als u de <strong> Eigenschappen van de Rij en de doos van de Opstelling van de Uitgave </strong> schrapt, worden alle montages van de Opstelling van de Rij van het project bewaard en geen montages van de Opstelling van de Rij van het malplaatje zijn in bijlage. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader" colspan="2"> <p role="rowheader" colspan="2">Aangepaste Forms-sectie</p> <p role="rowheader" colspan="2"> <img src="assets/attach-template-large-box-custom-forms-section-nwe-350x274.png" style="width: 350;height: 274;"> </p> </td> 
@@ -160,7 +165,7 @@ U kunt een malplaatje aan een project in Workfront van de projectpagina of van e
    >[!TIP]
    >
    >* Deze stap is verplicht wanneer de aangepaste formulieren op de sjabloon verplichte velden bevatten die leeg zijn.
-   >* Als de gebieden van de malplaatjedouane vormen reeds op het project bestaan en informatie bevatten, behouden zij de informatie reeds over het project. U kunt deze niet bewerken tijdens het koppelen van de sjabloon.
+   >* Als de gebieden van de malplaatjedouane vormen reeds op het project bestaan en informatie bevatten, behouden zij de informatie reeds over het project. U kunt ze niet bewerken tijdens het koppelen van de sjabloon.
 
 1. Klik **Sjabloon vastmaken.**
 1. Klik **annuleer gehechtheid** ophouden vastmakend het malplaatje.
@@ -171,28 +176,32 @@ U kunt een malplaatje aan een project in Workfront van de projectpagina of van e
 
    Na het vastmaken van het malplaatje, kunt u het project uitgeven en om het even welke taken, informatie, of montages aanpassen zoals nodig.
 
-1. (Facultatief) klik **Details van het Project**, dan **Overzicht** om de naam van het malplaatje te bekijken u in het **verhoudingen van het Project** gebied vastmaakte.
+1. (Facultatief) in het linkerpaneel, klik **Details van het Project**, dan **Overzicht** om de naam van het malplaatje te bekijken u in het **verhoudingen van het Project** gebied vastmaakte.
 
    >[!TIP]
    >
-   >Als u meer dan één malplaatje aan het project vastmaakt, slechts toont het malplaatje u eerst in bijlage op dit gebied. Voor informatie, zie [ veelvoudige malplaatjes aan een bestaand project vastmaken en de informatie van het meningsmalplaatje ](#attach-multiple-templates-to-an-existing-project-and-view-template-information) sectie in dit artikel.
+   >Als u meer dan één malplaatje aan het project vastmaakt, slechts zal het malplaatje u eerst in bijlage op dit gebied tonen. Voor informatie, zie [ veelvoudige malplaatjes aan een bestaand project vastmaken en de informatie van het meningsmalplaatje ](#attach-multiple-templates-to-an-existing-project-and-view-template-information) sectie in dit artikel.
 
 1. (Optioneel) Verwijder sjabloongegevens uit het project waar u de sjabloon hebt gekoppeld. Voor informatie, zie [ malplaatjeinformatie uit een project ](../../../manage-work/projects/create-and-manage-templates/remove-template-from-project.md) verwijderen.
 
 ## Meerdere sjablonen koppelen aan een bestaand project en sjablooninformatie weergeven {#attach-multiple-templates-to-an-existing-project-and-view-template-information}
 
-U kunt veelvoudige malplaatjes (één tegelijkertijd) aan het zelfde project vastmaken, na de stappen die in de sectie [ worden beschreven een malplaatje aan een bestaand project ](#attach-a-template-to-an-existing-project) in dit artikel vastmaken. Dit voegt de taken en andere informatie van elk malplaatje aan het project toe.
+U kunt veelvoudige malplaatjes (één tegelijkertijd) aan het zelfde project vastmaken na de stappen die in de sectie [ worden beschreven een malplaatje aan een bestaand project ](#attach-a-template-to-an-existing-project) in dit artikel vastmaken. Dit voegt de taken en andere informatie van elk malplaatje aan het project toe.
 
 >[!TIP]
 >
->Wanneer u verscheidene malplaatjes aan een project vastmaakt, slechts toont één u eerst in bijlage in het gebied van de Details van het Project.
+>Wanneer u verscheidene malplaatjes aan een project vastmaakt, slechts zal het malplaatje u eerst in bijlage op het gebied van de Details van het Project tonen.
 
-Om te begrijpen welke malplaatje op een project wordt toegepast:
+Om te bekijken welke malplaatje wordt toegepast op een project:
 
-1. Navigeer naar een project waaraan een sjabloon is gekoppeld.
+{{step1-to-projects}}
+
+1. Voor de **pagina van Projecten**, selecteer het project dat een malplaatje in bijlage heeft.
+
 1. Klik **Details van het Project** in het linkerpaneel.
-1. Vind de naam van het malplaatje in bijlage aan het project op het **gebied van het Malplaatje** bij de bodem van de **sectie van het Overzicht** onder **verhoudingen van het Project**.
 
-   ![ Info van het Malplaatje over project ](assets/nwe-template-info-on-project-350x356.png)
+1. Bepaal de plaats van de naam van het malplaatje in bijlage aan het project op het **gebied van het Malplaatje** bij de bodem van de **sectie van het Overzicht** onder **verhoudingen van het Project**.
+
+   ![ informatie van het Malplaatje over een project ](assets/nwe-template-info-on-project-350x356.png)
 
 

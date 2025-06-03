@@ -2,22 +2,23 @@
 content-type: reference
 product-area: programs
 navigation-topic: portfolios-navigation-topic
-title: Programma's maken en beheren
-description: De programma's vertegenwoordigen een inzameling van projecten die een gemeenschappelijke strategie, een doelstelling, of een doel delen die projectgrenzen overschrijdt. Programma's zijn een onderverdeling van portfolio's en kunnen niet bestaan buiten een portfolio.
+title: 'Programma''s maken en beheren: artikelindex'
+description: Programma's zijn een verzameling projecten die bijdragen tot een gemeenschappelijke strategie, doelstelling of doelstelling. Programma's zijn een onderverdeling van portfolio's en kunnen niet bestaan buiten een portfolio.
 author: Alina
 feature: Work Management, Strategic Planning
 recommendations: noDisplay, noCatalog
 exl-id: 3c796bab-b468-451a-adf8-8180f67546ee
-source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
+source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
 
-# Programma&#39;s maken en beheren
+# Programma&#39;s maken en beheren: artikelindex
 
-De programma&#39;s vertegenwoordigen een inzameling van projecten die een gemeenschappelijke strategie, een doelstelling, of een doel delen die projectgrenzen overschrijdt.
+Programma&#39;s zijn een verzameling projecten die bijdragen tot een gemeenschappelijke strategie, doelstelling of doelstelling.
+
 Programma&#39;s zijn een onderverdeling van portfolio&#39;s en kunnen niet bestaan buiten een portfolio.
 
 Deze sectie bevat de volgende artikelen:

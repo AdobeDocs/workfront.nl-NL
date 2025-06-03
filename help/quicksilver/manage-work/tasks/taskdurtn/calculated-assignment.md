@@ -2,19 +2,21 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-duration
-title: 'Type duur overzicht: berekende toewijzing'
+title: 'Overzicht duur: berekende toewijzing'
 description: Berekende toewijzing is een Duur Type dat u voor een taak in Adobe Workfront kunt plaatsen. Voor algemene informatie over de Types van Duur in Workfront, zie Overzicht van het Type van Duur en van de Duur van de Taak.
 author: Alina
 feature: Work Management
 exl-id: 5f1f6109-5d54-4c3f-9aa5-dc6ce165a1cd
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
 
 # Overzicht duur: berekende toewijzing
+
+<!-- Audited: 5/2025 -->
 
 Berekende toewijzing is een Duur Type dat u voor een taak in Adobe Workfront kunt plaatsen. Voor algemene informatie over de Types van Duur in Workfront, zie [ Overzicht van het Type van Duur en van de Duur van de Taak ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
@@ -31,7 +33,7 @@ Berekende toewijzing is een Duur Type dat u voor een taak in Adobe Workfront kun
 
 De berekende Toewijzing is het aangewezen Type van Duur in de volgende situaties:
 
-* Wanneer de taken een venster van activiteit hebben maar niet de volledige Toegewezen Duur nemen om hun werk te voltooien. Bijvoorbeeld, wordt u toegewezen om een rapport aan uw supervisor tegen het eind van de week te leveren. U hebt een duur van vijf dagen, maar het duurt slechts tien uur om het document te maken.
+* Wanneer de taken een venster van activiteit hebben maar niet de volledige die Duur nemen wordt toegewezen om hun werk te voltooien. Bijvoorbeeld, wordt u toegewezen om een rapport aan uw supervisor tegen het eind van de week te leveren. U hebt een duur van vijf dagen, maar het duurt slechts tien uur om het document te maken.
 * Wanneer één enkel middel aan een taak wordt toegewezen omdat de projectmanager de geplande Duur en de geplande hoeveelheid inspanning onafhankelijk van elkaar kan schatten.
 
   U kunt het Berekende Type van Duur van het Werk voor het zelfde resultaat gebruiken, maar de projectmanager moet een percentaletoewijzing voor het middel invoeren om de berekende waarde voor Geplande Uren te beïnvloeden. Dit maakt projectplanning moeilijker en tijdrovend.

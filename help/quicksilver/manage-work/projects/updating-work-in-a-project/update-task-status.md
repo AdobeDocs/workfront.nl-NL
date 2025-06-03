@@ -6,9 +6,9 @@ description: U kunt de status van een taak bijwerken om anderen te informeren ov
 author: Alina
 feature: Work Management
 exl-id: e1efc676-e110-486e-91dc-f521421575e8
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '638'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,6 @@ U kunt taakstatussen handmatig bijwerken of u kunt Workfront toestaan deze autom
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om taken handmatig bij te werken:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -38,7 +36,7 @@ U moet de volgende toegang hebben om taken handmatig bij te werken:
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> <p>Nieuw: Standaard</p> 
    of
    <p>Huidig: Werk of hoger</p>
@@ -55,7 +53,7 @@ U moet de volgende toegang hebben om taken handmatig bij te werken:
  </tbody> 
 </table>
 
-*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -63,30 +61,30 @@ U moet de volgende toegang hebben om taken handmatig bij te werken:
 
 * Wanneer u een taak markeert als Voltooid, wordt het percentage dat is voltooid van de taak bijgewerkt naar 100%.
 * De volgende scenario&#39;s bestaan voor oudertaken:
-   * U kunt niet de Status van een oudertaak bijwerken om te voltooien wanneer de Summiere Wijze van de Voltooiing van het project aan Automatisch wordt geplaatst en subtaken niet worden voltooid.
+   * U kunt niet de Status van een oudertaak bijwerken om te voltooien wanneer de Summiere Wijze van de Voltooiing van het project aan Automatisch wordt geplaatst en subtasks niet worden voltooid.
    * U kunt de Status van een oudertaak bijwerken om te voltooien wanneer de Summiere Wijze van de Voltooiing van het project aan Handboek wordt geplaatst en subtaken worden voltooid of onvolledig.
 
   Voor meer informatie, zie [ projecten ](../manage-projects/edit-projects.md) uitgeven.
 
 ## Taakstatus handmatig bijwerken
 
-U kunt de taakstatus in de volgende gebieden van Workfront bijwerken:
+U kunt de taakstatus op de volgende gebieden bijwerken:
 
 * De taakkopbal op de taakpagina.
 * Het taakvak Bewerken wanneer u een taak bewerkt.
 * De sectie Taakdetails op de taakpagina.
-* In een taaklijst of rapport, wanneer het gebied van de Status in de mening zichtbaar is.
+* In een taaklijst of rapport wanneer het gebied van de Status in de mening zichtbaar is.
 * In het paneel Overzicht van de taak.
 
 De taakstatus in de taakkoptekst handmatig bijwerken:
 
 1. Ga naar een taak waarvoor u de status wilt bijwerken.
-1. Klik het **gebied van de Status** in de taakkopbal en selecteer een nieuwe status.
-1. Om een visuele aanwijzing van taakvoltooiing te verstrekken, sleep of dubbelklik de bel onder **Volledige Percentage** in de kopbal van de taak tweemaal
+1. In de taakkopbal, klik het **gebied van de Status** en selecteer een nieuwe status.
+1. Om een visuele aanwijzing van taakvoltooiing te verstrekken, sleep de bel onder **Volledige Percentage** in de kopbal van de taak.
 
    of
 
-   Klik binnen de bel in de kopbal van de taak om een percentage in te gaan.
+   Dubbelklik binnen de **Volledige** bel van de Percentage {om een nieuw percentage manueel in te gaan.
 
    ![](assets/percent-complete-status-widgets-task-header.png)
 
@@ -94,10 +92,10 @@ De taakstatus in de taakkoptekst handmatig bijwerken:
 
    * Om een nota over de update toe te voegen, ga naar de **sectie van Updates** en klik **Nieuwe commentaar**, dan typ een nota.
 
-     ![](assets/add-update-to-task.png)
+     ![ Toevoegend een update aan een taak ](assets/add-update-to-task.png)
 
    * Om bepaalde gebruikers over de update op de hoogte te brengen, typ hun namen op het **mensen van de Markering of team** gebied dat verschijnt wanneer u een commentaar typt. Voor meer informatie, zie [ Tags anderen op updates ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-   * Om de Vastlegdatum van de taak bij te werken, klik **Details van de Taak**, dan geef het **gebied van de Datum** toe. Voor informatie, zie [ taken ](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
+   * Om de taak bij te werken begaat datum, klik **Details van de Taak**, dan geef het **gebied van de Datum** toe. Voor informatie, zie [ taken ](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
 
 
    >[!IMPORTANT]
