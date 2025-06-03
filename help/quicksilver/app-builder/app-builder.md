@@ -1,13 +1,13 @@
 ---
 title: Aangepaste toepassingen maken voor Workfront met Adobe App Builder
-description: Met Workfront UI-extensies, aangedreven door Adobe App Builder, kunnen klanten en partners aangepaste gebruikerservaringen maken.
+description: Met Workfront UI-extensies, powered by Adobe App Builder, kunnen klanten en partners aangepaste gebruikerservaringen maken.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
 source-git-commit: a4e715d5212c3c166ce6ed995b327eb2b7198123
 workflow-type: tm+mt
 source-wordcount: '1693'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -156,7 +156,7 @@ In de functie ExtensionRegistration moet u de volgende code zien. Deze code is v
     
      getItems () 
     
-     terugkeer &lbrack;
+     terugkeer [
     
      
     
@@ -170,7 +170,7 @@ In de functie ExtensionRegistration moet u de volgende code zien. Deze code is v
     
     , 
     
-    &rbrack;;
+    ];
     
     ,  
     
