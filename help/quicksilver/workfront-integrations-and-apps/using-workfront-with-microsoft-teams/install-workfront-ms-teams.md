@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront for Microsoft Teams]  app staat u toe om ba
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a8d4e48c-1ccc-4e6e-a0a0-9b68748590c0
-source-git-commit: 69fdb5c23bb501fc81e4ef3c3ab7c94e78e69d29
+source-git-commit: 75c4baf5ceca53f7ba85ffcc34876bca1238c9de
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,11 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-<!--
-
 >[!IMPORTANT]
 >
->As of July 1, 2025, Microsoft will remove support for the Classic Teams desktop app. As a result, the Workfront integration with Microsoft Teams will not be supported after the Classic Teams desktop app is no longer available.
-
--->
+>Als Microsoft overgaat naar de New Teams-client, is de Classic Teams-client niet meer beschikbaar na 1 juli 2025. Ter voorbereiding ontwikkelen we een nieuwe versie van de Microsoft Teams-integratie die volledig compatibel zal zijn met de New Teams-client en voor 1 juli beschikbaar zal zijn om een soepele overgang te waarborgen.
+>
+>Instructies over het downloaden en installeren van de integratie in de New Teams-client worden hier weergegeven nadat de integratie beschikbaar is.
 
 
 Met de app [!DNL Adobe Workfront for Microsoft Teams] kunt u basishandelingen uitvoeren in [!DNL Workfront] zonder uw chatkanalen van [!DNL Microsoft Teams] te verlaten.
@@ -71,31 +69,15 @@ Als teameigenaar in [!DNL Microsoft Teams] kunt u de [!DNL Workfront for Microso
 
 1. Meld u aan bij [!DNL Microsoft Teams] als teameigenaar.
 1. Selecteer het team waarvoor u de app [!DNL Workfront for Microsoft Teams] wilt installeren.
-1. Klik op **[!UICONTROL Store]** op de zijnavigatiebalk.
+1. Klik op het pictogram **[!UICONTROL More]** voor het team waarvoor u de integratie van Workfront for Microsoft Teams wilt installeren
+1. Klik op **[!UICONTROL Apps]** tab.
+1. Typ *[!DNL Workfront]* in het vak **[!UICONTROL Search apps and more]** .
+1. Klik **toevoegen**.
+1. Klik **toevoegen** in de dialoog die opent.
+1. In Uitgezocht een kanaalsectie, selecteer het team u Workfront app aan wilt toevoegen, en **Go** klikken.
 
-1. Typ *[!DNL Workfront]* in het vak **[!UICONTROL Search all]** .
-
-1. Klik op de **[!DNL Workfront]** -kaart en volg de instructies in de wizard.
-1. (Aanbevolen) Selecteer een team in de vervolgkeuzelijst **[!UICONTROL Add to a team]** en schakel de optie **[!UICONTROL Yes]** in om de app aan een team toe te voegen.
-
-   ![ ms_teams_add_to_a_team_option.png ](assets/ms-teams-add-to-a-team-option-350x122.png)
-
-1. Selecteer voor het kanaal **[!UICONTROL General]** om de app in dat kanaal voor het geselecteerde team te gebruiken en klik vervolgens op **[!UICONTROL Set up]** voor de gewenste functies.
-
-1. Wanneer de installatie is voltooid, wordt een melding weergegeven dat de installatie is gelukt in het [!UICONTROL General] -kanaal van het geselecteerde team. Alle leden van het team kunnen deze melding zien.
-1. (Optioneel) Zet uw [!DNL Workfront] -app vast voor eenvoudige toegang:
-
-   1. Klik op het pictogram **[!UICONTROL More]** onder het berichtveld in het [!UICONTROL General] -kanaal.
-
-   1. Plaats de muisaanwijzer op de [!DNL Workfront] -toepassing in de lijst en klik vervolgens op het pictogram **[!UICONTROL More]** rechts ervan.
-
-   1. Klik op **[!UICONTROL Pin]**.
-
-      Hiermee wordt een [!DNL Workfront] -pictogram toegevoegd onder het chatveld. U kunt het [!UICONTROL Search] gebied van hier snel openen.
-
-      Voor informatie over het zoeken naar [!DNL Workfront] punten, zie [ Onderzoek naar en deel  [!DNL Adobe Workfront]  punten in  [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md).
-
-1. Klik op **[!UICONTROL Log in to [!DNL Workfront]]** om [!DNL Workfront from Microsoft Teams] te openen.
+   ![ selecteer een team ](assets/select-a-team.png)
+1. Klik **Login** aan Workfront om tot Workfront voor Microsoft Teams toegang te hebben.
 
    Voor informatie over het programma openen aan [!DNL Workfront], zie het [ Login aan Workfront van de sectie van Microsoft Teams ](#log-in-to-workfront-from-microsoft-teams) in dit artikel.
 
@@ -112,18 +94,9 @@ Voor informatie over het contacteren van ons Team van de Steun, zie [ de Steun v
 1. Klik op het pictogram **[!UICONTROL More]** voor het team waarvoor u [!DNL Workfront for Microsoft Teams] wilt installeren.
 
 1. Klik op **[!UICONTROL Manage Team]**.
-1. Selecteer de tab **[!UICONTROL Apps]** en klik vervolgens op **[!UICONTROL Upload a custom app]** rechtsonder in het scherm.
-
+1. Selecteer het tabblad Apps en klik vervolgens op Upload een app in de linkerbovenhoek van het scherm.
 1. Blader naar het privébestand dat u op uw computer hebt opgeslagen en voer de installatiestappen uit om [!DNL Workfront for Microsoft Teams] te installeren.
 1. Wanneer de installatie is voltooid, verschijnt er een melding dat de installatie is gelukt in het kanaal Algemeen van het team dat u hebt geselecteerd. Alle leden van het team kunnen deze melding zien.
-1. (Optioneel) Klik op het pictogram **[!UICONTROL More]** (drie punten) onder het veld **[!UICONTROL Type your questions here]** .
-
-1. (Optioneel) Plaats de muisaanwijzer op de [!DNL Workfront] -toepassing in de lijst en klik vervolgens op het pictogram **[!UICONTROL More]** rechts ervan.
-
-1. (Optioneel) Klik op **[!UICONTROL Pin]** .
-
-   Hiermee wordt een pictogram [!DNL Workfront] toegevoegd onder het veld [!UICONTROL Type your questions here] . U kunt het [!UICONTROL Search] gebied van hier snel openen.\
-   Voor informatie over het zoeken naar de punten van Workfront, zie [ Onderzoek naar en deel  [!DNL Adobe Workfront]  punten in  [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md).
 
 ## Aanmelden bij [!DNL Workfront] vanuit [!DNL Microsoft] Teams
 
@@ -141,7 +114,7 @@ Als u zich wilt aanmelden bij [!DNL Workfront] vanaf [!DNL Microsoft Teams] :
 
    Het chatkanaal van [!DNL Workfront] wordt toegevoegd aan uw chatkanalen van [!DNL Microsoft Teams] .
 
-1. Ga naar het [!DNL Workfront] chatkanaal in [!DNL Microsoft Teams] en typ *[!UICONTROL log in]* in het **[!UICONTROL Type your questions here]** veld.
+1. Ga naar [!DNL Workfront] beide praatjekanaal in [!DNL Microsoft Teams] en type *[!UICONTROL log in]* in **[!UICONTROL Type your questions here]** of **Type een bericht** gebied.
 
    of
 
@@ -155,6 +128,7 @@ Als u zich wilt aanmelden bij [!DNL Workfront] vanaf [!DNL Microsoft Teams] :
    >
    >* Wanneer u wordt ertoe aangezet om het domein van uw [!DNL Workfront] rekening in te gaan, typ het gebruikend dit formaat: *yourCompany&#39;sDomain.my.workfront.com*. Het domein van uw bedrijf is gewoonlijk de naam van uw bedrijf.
    >* Verbeterde verificatie is pas beschikbaar als een [!DNL Workfront] -beheerder deze heeft ingeschakeld voor deze integratie.
+   >* Workfront for Microsoft Teams is niet compatibel met Workfront-sandboxomgevingen.
 
 
 1. Sluit het browsertabblad dat u hebt gebruikt om u aan te melden en terug te keren naar [!DNL Microsoft Teams] .
