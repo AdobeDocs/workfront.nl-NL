@@ -30,7 +30,7 @@ Als Adobe-beheerder kunt u Adobe Workfront-systeembeheerders maken met de Adobe 
 >
 >* **de Beheerders van Workfront moeten in Adobe Admin Console worden gevormd.** voor informatie en instructies, zie [ systeembeheerders in Workfront met Adobe Admin Console ](#create-system-administrators-in-workfront-with-the-adobe-admin-console) in dit artikel creëren.
 >* **als uw organisatie Enige Sign-On (SSO)** gebruikt, adviseren wij het creëren van gebruikers en het toewijzen van hen aan Workfront in Adobe Admin Console. Het is mogelijk deze gebruikers te maken in Workfront, maar er kunnen zich problemen voordoen bij het doorgeven van die informatie naar de Adobe Admin Console, op basis van de configuratie van de Admin Console van uw organisatie.
->  >   Nadat u de gebruiker in de Adobe Admin Console hebt gemaakt, kunt u de gebruikersgegevens in Workfront configureren, zoals het toewijzen van rollen, groepen, teams en toegangsniveaus.
+>  &#x200B;>   Nadat u de gebruiker in de Adobe Admin Console hebt gemaakt, kunt u de gebruikersgegevens in Workfront configureren, zoals het toewijzen van rollen, groepen, teams en toegangsniveaus.
 >* **als uw organisatie geen Enige Sign-On (SSO)** gebruikt, kunt u niet-systeembeheerdergebruikers direct in Workfront toevoegen. Het is mogelijk om gebruikers toe te voegen in de Adobe Admin Console, maar als u ze toevoegt in Workfront, kunt u hun toegangsniveau instellen terwijl u ze maakt. Op die manier kunt u tijd besparen.
 
 Wanneer u vanuit de Admin Console wijzigingen aanbrengt in gebruikersprofielen, wordt een update toegevoegd aan het tabblad Systeemactiviteit van de gebruiker in Workfront. De update wordt weergegeven zoals deze door het &quot;Systeem&quot; is gemaakt. Dit verwijst naar de Adobe Admin Console-beheerder en niet naar de Workfront-hoofdbeheerder.
@@ -126,7 +126,7 @@ Voordat u de Admin Console for Workfront gebruikt, ontvangt u een e-mail waarin 
    >
    >In de lijst ziet u mogelijk ook koppelingen naar sandboxomgevingen. Voor meer informatie, zie [ het Milieu van Sandbox van de Voorproef van Adobe Workfront ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
-1. In de lijst die toont, met het **geselecteerde lusje van Profielen van het 0} Product {, klik de naam van de verbinding van het Profiel van het Product van Workfront.**
+1. In de lijst die toont, met het **geselecteerde lusje van Profielen van het 0&rbrace; Product &lbrace;, klik de naam van de verbinding van het Profiel van het Product van Workfront.**
 
    ![ Profielen van het Product ](assets/prod-profile-1.png)
 
