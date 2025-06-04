@@ -6,7 +6,7 @@ description: U kunt tot  [!DNL Adobe Workfront]  van  [!DNL Microsoft Teams]  to
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a12277e8-2c2e-4b53-990f-6ee9a6541492
-source-git-commit: 75c4baf5ceca53f7ba85ffcc34876bca1238c9de
+source-git-commit: 372b7566fa5eb38703905b22ff43d49a76bcb400
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 0%
@@ -21,7 +21,8 @@ ht-degree: 0%
 >
 >Als Microsoft overgaat naar de New Teams-client, is de Classic Teams-client niet meer beschikbaar na 1 juli 2025. Ter voorbereiding ontwikkelen we een nieuwe versie van de Microsoft Teams-integratie die volledig compatibel zal zijn met de New Teams-client en voor 1 juli beschikbaar zal zijn om een soepele overgang te waarborgen.
 >
->Instructies over het downloaden en installeren van de integratie in de New Teams-client worden hier weergegeven nadat de integratie beschikbaar is.
+>Instructies over het downloaden en installeren van de integratie in de New Teams-client worden beschikbaar nadat de integratie is vrijgegeven.
+
 
 U kunt [!DNL Adobe Workfront] openen vanuit [!DNL Microsoft Teams] en verschillende handelingen uitvoeren in [!DNL Workfront] door opdrachten te typen in zowel het [!DNL Workfront] -kanaal als een ander teamkanaal.
 

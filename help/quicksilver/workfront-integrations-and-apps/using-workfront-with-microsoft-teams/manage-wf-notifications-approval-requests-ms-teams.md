@@ -6,7 +6,7 @@ description: U kunt berichten van  [!DNL Adobe Workfront]  over punten ontvangen
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: 75c4baf5ceca53f7ba85ffcc34876bca1238c9de
+source-git-commit: 372b7566fa5eb38703905b22ff43d49a76bcb400
 workflow-type: tm+mt
 source-wordcount: '1346'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 >
 >Als Microsoft overgaat naar de New Teams-client, is de Classic Teams-client niet meer beschikbaar na 1 juli 2025. Ter voorbereiding ontwikkelen we een nieuwe versie van de Microsoft Teams-integratie die volledig compatibel zal zijn met de New Teams-client en voor 1 juli beschikbaar zal zijn om een soepele overgang te waarborgen.
 >
->Instructies over het downloaden en installeren van de integratie in de New Teams-client worden hier weergegeven nadat de integratie beschikbaar is.
+>Instructies over het downloaden en installeren van de integratie in de New Teams-client worden beschikbaar nadat de integratie is vrijgegeven.
 
 U kunt meldingen ontvangen van [!DNL Adobe Workfront] over items die u moet goedkeuren, toewijzingen die u hebt gekregen of opmerkingen en wijzigingen in items waaraan u bent gekoppeld.
 
@@ -307,7 +307,7 @@ U ontvangt toewijzingsmeldingen wanneer u, of een team dat u hebt ingeschakeld, 
 
 U ontvangt een melding wanneer iemand opmerkingen maakt over een onderdeel waaraan u bent gekoppeld, of u opneemt in een update. Via het communicatiemelding kunt u de volgende handelingen uitvoeren:
 
-* **Weg &#x200B;**: Klik om op de commentaar of [!UICONTROL update] te antwoorden. Uw antwoord wordt ook weergegeven in de updatestream waarin de opmerking wordt weergegeven in Workfront.
+* **Weg **: Klik om op de commentaar of [!UICONTROL update] te antwoorden. Uw antwoord wordt ook weergegeven in de updatestream waarin de opmerking wordt weergegeven in Workfront.
 * **[!UICONTROL View in Workfront]**: selecteer deze optie om de opmerking en het item in Workfront weer te geven. Dit item wordt op een nieuw tabblad geopend.
 * **[!UICONTROL Status]**: Klik en selecteer vervolgens een nieuwe status voor het werkitem waar de opmerking of update over gaat.
 
