@@ -9,16 +9,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 137d7112c051322c191488463e52abdd73e50d1f
+source-git-commit: aa2bef064df3ff7dd9e4fd896ac7482df3c55e32
 workflow-type: tm+mt
-source-wordcount: '2891'
+source-wordcount: '2848'
 ht-degree: 0%
 
 ---
 
 # Gegevens naar Workfront importeren met een Kick-startsjabloon
-
-{{highlighted-preview}}
 
 <!--Audited: 12/2023-->
 
@@ -311,7 +309,7 @@ Wanneer u een van deze tabbladen opent, worden in rij 2 de velden weergegeven vo
 >
 >     Als een vereist veld echter een standaardwaarde bevat die is ingesteld in de systeemvoorkeuren, hoeft u deze waarde niet in te vullen.
 >
->     Bijvoorbeeld, op het **lusje van het Project van 0&rbrace; PROJ, kunnen de** setCondition **en** setConditionType **gebieden leeg worden verlaten, maar** setGroupID **en** setName **kolommen kunnen niet.**
+>     Bijvoorbeeld, op het **lusje van het Project van 0} PROJ, kunnen de** setCondition **en** setConditionType **gebieden leeg worden verlaten, maar** setGroupID **en** setName **kolommen kunnen niet.**
 >
 >* Bepaalde gebieden, met inbegrip van **setResourceRevenue** en **setEnteredByID**, worden automatisch geproduceerd door het systeem. Als u gegevens voor deze velden in het werkblad invoert, wordt deze genegeerd tijdens het uploaden van het werkblad.
 
@@ -347,7 +345,7 @@ Elke rij van het blad komt overeen met een uniek object.
    * Wanneer u een project invoert, moet u op een identiteitskaart van de Groep wijzen.
 
       * Als de groep reeds in Workfront bestaat, moet u zijn unieke identiteitskaart aan het **setGroupID** gebied voor het project toevoegen.
-      * Als de groep niet in Workfront bestaat, kunt u het **blad van de Groep van de 0&rbrace; GROEP aan uw het invoeren dossier toevoegen, plaats het** isNew **gebied aan** WAAR **op het blad van de Groep, en wijs op een numerieke identiteitskaart voor de nieuwe groep in de** identiteitskaart **kolom.** Het **setGroupID** gebied voor het nieuwe project moet numerieke **identiteitskaart** voor de nieuwe groep aanpassen.
+      * Als de groep niet in Workfront bestaat, kunt u het **blad van de Groep van de 0} GROEP aan uw het invoeren dossier toevoegen, plaats het** isNew **gebied aan** WAAR **op het blad van de Groep, en wijs op een numerieke identiteitskaart voor de nieuwe groep in de** identiteitskaart **kolom.** Het **setGroupID** gebied voor het nieuwe project moet numerieke **identiteitskaart** voor de nieuwe groep aanpassen.
 
      **Voorbeeld:** voor een project, moet de waarde die in de **wordt getoond setGroupID** kolom één van het volgende:
 
@@ -434,7 +432,7 @@ Hoewel het een beste praktijk is om IDs te gebruiken waar mogelijk, soms is het 
 
 * **de invoer van het Project**
 
-  Wanneer het invoeren van projecten, plaats **setGroupID** van de projecten door naar het **blad van de Groep van de GROEP** te gaan, nota te nemen van respectieve Groep IDs, en hen te kleven in de correcte cellen (**setGroupID** kolom) op het **7&rbrace; blad van het Project van de PROJ.**
+  Wanneer het invoeren van projecten, plaats **setGroupID** van de projecten door naar het **blad van de Groep van de GROEP** te gaan, nota te nemen van respectieve Groep IDs, en hen te kleven in de correcte cellen (**setGroupID** kolom) op het **7} blad van het Project van de PROJ.**
 
   Dit is mogelijk wanneer u met slechts een paar groepen en projecten werkt, maar als u met verschillende groepen werkt, is het niet praktisch.
 
@@ -492,15 +490,7 @@ De sjabloonspreadsheetgegevens importeren in Workfront:
 
 1. In **uploadt gegevens met Kick-Begin spreadsheet** sectie, klik **kiezen dossier**, dan doorbladeren aan en selecteren de bevolkte spreadsheet.
 
-   <div class="preview">
-
-   In de voorvertoningsomgeving wordt het bestand automatisch geüpload en wordt een melding weergegeven dat het importeren is gelukt.
-
-   Als het Excel-bestand langer dan 5 minuten duurt om naar Workfront te uploaden, worden de time-out van de toepassing en kan Workfront het bestand niet uploaden. Importeer de gegevens in kleinere batches met objecten.
-
-   </div>
-
-1. (In het milieu van de Productie slechts) klik **uploaden**.
+   Het bestand wordt automatisch geüpload en er verschijnt een bericht dat het importeren is gelukt.
 
    Als het Excel-bestand langer dan 5 minuten duurt om naar Workfront te uploaden, worden de time-out van de toepassing en kan Workfront het bestand niet uploaden. Importeer de gegevens in kleinere batches met objecten.
 
