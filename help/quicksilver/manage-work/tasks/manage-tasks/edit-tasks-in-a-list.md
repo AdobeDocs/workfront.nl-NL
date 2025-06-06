@@ -239,7 +239,7 @@ Taken in een lijst bewerken wanneer u de optie Handmatig opslaan kiest:
 
 1. In het linkerpaneel, klik de **sectie van Taken**.
 
-1. Klik het **pictogram van het pictogram ![ de wijzepictogram van het Plan ](assets/plan-mode-icon.png) bij de bovenkant van de lijst van de 3} wijze van het Plan.**
+1. Klik het **pictogram van het pictogram ![ de wijzepictogram van het Plan ](assets/plan-mode-icon.png) bij de bovenkant van de lijst van de 3&rbrace; wijze van het Plan.**
 
 1. In de **dialoog van de Wijze van het Plan**, uitgezochte **Handboek sparen**, dan klik **Standaard**.
 
@@ -327,7 +327,7 @@ Taken in een lijst bewerken wanneer u de optie Tijdlijnplanning handmatig opslaa
 
 1. In het linkerpaneel, klik de **sectie van Taken**.
 
-1. Klik het **pictogram van het pictogram ![ de wijzepictogram van het Plan ](assets/plan-mode-icon.png) bij de bovenkant van de lijst van de 3} wijze van het Plan.**
+1. Klik het **pictogram van het pictogram ![ de wijzepictogram van het Plan ](assets/plan-mode-icon.png) bij de bovenkant van de lijst van de 3&rbrace; wijze van het Plan.**
 
 1. In de **dialoog van de Wijze van het Plan**, uitgezochte **Handboek sparen**, dan klik **Planning van de Chronologie**.
 
@@ -472,7 +472,7 @@ U kunt meerdere taken tegelijk bewerken. Zorg ervoor dat u beheermachtigingen vo
 
 1. Geef de informatie op die u wilt wijzigen voor alle geselecteerde taken.
 
-   Het bewerken van de informatie over alle taken is hetzelfde als het bewerken van de informatie over één taak. Als u taakDuur wilt uitgeven, moeten de geselecteerde taken de zelfde Beperking van de Taak hebben; anders, bevolkt het **gebied van de Duur** {niet.
+   Het bewerken van de informatie over alle taken is hetzelfde als het bewerken van de informatie over één taak. Als u taakDuur wilt uitgeven, moeten de geselecteerde taken de zelfde Beperking van de Taak hebben; anders, bevolkt het **gebied van de Duur** &lbrace;niet.
 
    Voor meer informatie over het uitgeven van een taak, zie [ taken ](../../../manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
 
