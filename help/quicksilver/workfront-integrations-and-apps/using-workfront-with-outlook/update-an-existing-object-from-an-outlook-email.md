@@ -6,7 +6,7 @@ description: U kunt een bestaand project, een taak, of een kwestie met informati
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 297eb1c4-ee9f-4bb3-a412-18f23c74b0eb
-source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
+source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 0%
@@ -24,7 +24,6 @@ ht-degree: 0%
 >Als onderdeel van deze wijziging heeft Microsoft besloten om de manier te wijzigen waarop tokens opnieuw worden ingeschakeld. Na **Juni 30, 2025**, zullen de beheerders niet meer tokens kunnen re-toelaten zelf-slechts de Steun van Microsoft kan uitzonderingen verlenen. **Op 1 Oktober, 2025, zullen de erfenistokens voor alle huurders worden uitgezet. Er worden geen uitzonderingen toegestaan.**
 
 U kunt een bestaand project, een bestaande taak of een bestaand probleem bijwerken met informatie uit een [!DNL Outlook] -e-mail.
-
 
 ## Toegangsvereisten
 

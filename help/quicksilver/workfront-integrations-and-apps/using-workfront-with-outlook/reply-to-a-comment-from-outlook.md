@@ -6,7 +6,7 @@ description: Wanneer u a  [!DNL Adobe Workfront]  e-mailbericht in uw Vooruitzic
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 36239da6-b5f2-423c-9e81-af78bc31bf26
-source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
+source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 0%
@@ -24,7 +24,6 @@ ht-degree: 0%
 >Als onderdeel van deze wijziging heeft Microsoft besloten om de manier te wijzigen waarop tokens opnieuw worden ingeschakeld. Na **Juni 30, 2025**, zullen de beheerders niet meer tokens kunnen re-toelaten zelf-slechts de Steun van Microsoft kan uitzonderingen verlenen. **Op 1 Oktober, 2025, zullen de erfenistokens voor alle huurders worden uitgezet. Er worden geen uitzonderingen toegestaan.**
 
 Wanneer u een [!DNL Adobe Workfront] e-mailmelding ontvangt in uw Postvak IN [!DNL Outlook] , kunt u snel een opmerking naar [!DNL Workfront] plaatsen door het bericht in Outlook te beantwoorden.
-
 
 ## Toegangsvereisten
 
