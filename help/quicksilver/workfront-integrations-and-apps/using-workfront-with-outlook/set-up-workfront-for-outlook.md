@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] [!DNL Outlook] toe:voegen-binnen laat u de
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '771'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,15 @@ ht-degree: 0%
 # Instellen [!DNL Adobe Workfront for Outlook]
 
 <!-- Audited: 12/2023 -->
+
+>[!IMPORTANT]
+>
+>[ Microsoft is in het proces om steun voor de online tokens van de erfenisUitwisseling ](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) onbruikbaar te maken, die momenteel door de toe:voegen-binnen van Workfront Vooruitzichten voor authentificatie worden gebruikt. Deze verandering door Microsoft is al begonnen met gevolgen voor de klanten en zal tot oktober 2025 in fasen blijven doorlopen.
+>
+>* **nadat Microsoft volledig deze tokens onbruikbaar maakt, zal Workfront voor de integratie van Microsoft Outlook niet meer functioneren.**
+>
+>Als onderdeel van deze wijziging heeft Microsoft besloten om de manier te wijzigen waarop tokens opnieuw worden ingeschakeld. Na **Juni 30, 2025**, zullen de beheerders niet meer tokens kunnen re-toelaten zelf-slechts de Steun van Microsoft kan uitzonderingen verlenen. **Op 1 Oktober, 2025, zullen de erfenistokens voor alle huurders worden uitgezet. Er worden geen uitzonderingen toegestaan.**
+
 
 Met de [!DNL Adobe Workfront] [!DNL Outlook] add-in kunt u de volgende belangrijke [!DNL Workfront] taken rechtstreeks vanuit Outlook uitvoeren:
 
@@ -127,7 +136,7 @@ U kunt Workfront toe:voegen-binnen voor Vooruitzichten van de [ opslag van Micro
 
 1. Zoek naar **[!DNL Workfront]** in het **[!UICONTROL Search add-ins]** gebied, dan druk **[!UICONTROL Enter]**.
 
-1. Wanneer het op de lijst verschijnt, voegt de klik **&#x200B;**&#x200B;toe.
+1. Wanneer het op de lijst verschijnt, voegt de klik **** toe.
 
 ### [!DNL Workfront for Outlook] on [!UICONTROL Windows] of [!DNL Mac] {#workfront-for-outlook-on-windows-or-mac}
 

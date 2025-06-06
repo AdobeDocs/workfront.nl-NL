@@ -5,14 +5,24 @@ title: 'Problemen oplossen: outlookIdentityToken-fout bij gebruik van Workfront 
 description: Als u een outlookIdentityToken fout wanneer het gebruiken van Workfront voor Vooruitzichten krijgt, moet u Microsoft 365 erfenistokens voor uw organisatie toelaten.
 author: Becky
 feature: Workfront Integrations and Apps
-source-git-commit: 571ed00f44322d73183323c4d4154284cd028301
+exl-id: 4a911760-e3fe-4e77-b7aa-b08f9ea59d6a
+source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
 
 # Problemen oplossen: outlookIdentityToken-fout bij gebruik van Workfront for Outlook
+
+>[!IMPORTANT]
+>
+>[ Microsoft is in het proces om steun voor de online tokens van de erfenisUitwisseling ](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) onbruikbaar te maken, die momenteel door de toe:voegen-binnen van Workfront Vooruitzichten voor authentificatie worden gebruikt. Deze verandering door Microsoft is al begonnen met gevolgen voor de klanten en zal tot oktober 2025 in fasen blijven doorlopen.
+>
+>* **nadat Microsoft volledig deze tokens onbruikbaar maakt, zal Workfront voor de integratie van Microsoft Outlook niet meer functioneren.**
+>
+>Als onderdeel van deze wijziging heeft Microsoft besloten om de manier te wijzigen waarop tokens opnieuw worden ingeschakeld. Na **Juni 30, 2025**, zullen de beheerders niet meer tokens kunnen re-toelaten zelf-slechts de Steun van Microsoft kan uitzonderingen verlenen. **Op 1 Oktober, 2025, zullen de erfenistokens voor alle huurders worden uitgezet. Er worden geen uitzonderingen toegestaan.**
+
 
 Als u Workfront for Outlook gebruikt, wordt mogelijk de volgende fout weergegeven:
 

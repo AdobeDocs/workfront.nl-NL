@@ -6,14 +6,23 @@ description: ' [!DNL Workfront for Outlook]  toe:voegen-binnen vereist gelezen/s
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 704da044-21ed-4ca1-be6f-0e0aa832e069
-source-git-commit: 177bf9271dca0310653b73b9100607a82290c326
+source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
 
 # Machtigingsniveaus voor [!DNL Workfront for Outlook]
+
+>[!IMPORTANT]
+>
+>[ Microsoft is in het proces om steun voor de online tokens van de erfenisUitwisseling ](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) onbruikbaar te maken, die momenteel door de toe:voegen-binnen van Workfront Vooruitzichten voor authentificatie worden gebruikt. Deze verandering door Microsoft is al begonnen met gevolgen voor de klanten en zal tot oktober 2025 in fasen blijven doorlopen.
+>
+>* **nadat Microsoft volledig deze tokens onbruikbaar maakt, zal Workfront voor de integratie van Microsoft Outlook niet meer functioneren.**
+>
+>Als onderdeel van deze wijziging heeft Microsoft besloten om de manier te wijzigen waarop tokens opnieuw worden ingeschakeld. Na **Juni 30, 2025**, zullen de beheerders niet meer tokens kunnen re-toelaten zelf-slechts de Steun van Microsoft kan uitzonderingen verlenen. **Op 1 Oktober, 2025, zullen de erfenistokens voor alle huurders worden uitgezet. Er worden geen uitzonderingen toegestaan.**
+
 
 [!DNL Workfront for Outlook] vereist de hoogste van de vier machtigingsniveaus die zijn toegestaan in [!DNL Outlook] add-ins.
 
