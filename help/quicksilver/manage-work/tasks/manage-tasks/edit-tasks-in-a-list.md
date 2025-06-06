@@ -2,57 +2,63 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: Taken in een lijst bewerken
-description: U kunt de taakgegevens in een takenlijst bewerken door de velden in de lijst te bewerken. Zie Taken bewerken voor informatie over andere manieren om taken te bewerken.
+description: U kunt de taakgegevens in een takenlijst bewerken door de velden in de lijst te bewerken.
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 42243c1f09b9d7eaa6705a0722fd3650bbc95266
 workflow-type: tm+mt
-source-wordcount: '2848'
+source-wordcount: '2756'
 ht-degree: 0%
 
 ---
 
 # Taken in een lijst bewerken {#edit-tasks-in-a-list}
 
+<!-- Audited: 5/2025 -->
+
 U kunt de taakgegevens in een takenlijst bewerken door de velden in de lijst te bewerken. Voor informatie over andere manieren om taken uit te geven, zie [ taken ](../../../manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
 
 ## Toegangsvereisten
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Werk of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Nieuw: Standaard<p>
+   <p>Huidig: Werk of hoger</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot taken en projecten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Contribute of hogere machtigingen voor de taak en het project</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Contribute of hoger machtigingen voor de taak en het project</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Overwegingen bij het bewerken van taken in een lijst {#considerations-about-editing-tasks-in-a-list}
 
-Het uitgeven van taken in een lijst is een snelle manier om veranderingen in veelvoudige taken gelijktijdig aan te brengen, met een duidelijke mening van hoe uw veranderingen de projectchronologie zouden kunnen beïnvloeden.
+Het uitgeven van taken in een lijst is een snelle manier om veranderingen in veelvoudige taken gelijktijdig met een duidelijke mening van aan te brengen hoe uw veranderingen de projectchronologie zouden kunnen beïnvloeden.
 
 Houd rekening met het volgende wanneer u taken in een lijst bewerkt:
 
-* In tegenstelling tot het gebruik van de machtiging Beheren voor de taak wanneer u deze bewerkt in het bewerkingsvak, kunt u een taak in een lijst alleen bewerken met Contribute-machtigingen voor de taak. Hierdoor kunt u de volgende beperkte informatie voor de taak bewerken:
+* In tegenstelling tot het gebruik van de machtiging Beheren voor de taak wanneer u deze bewerkt in het bewerkingsvak, kunt u een taak in een lijst alleen bewerken met de Contribute-machtigingen voor de taak. Hierdoor kunt u de volgende beperkte informatie voor de taak bewerken:
 
    * Beschrijving
    * Status
@@ -86,11 +92,11 @@ Houd rekening met het volgende wanneer u taken in een lijst bewerkt:
 
 ## Selecteer een optie voor opslaan wanneer u taken in een lijst bewerkt {#select-a-save-option-when-editing-tasks-in-a-list}
 
-U kunt bepalen waar de wijzigingen die u in taken in een lijst aanbrengt, automatisch worden opgeslagen, zoals ze zich voordoen, of u wilt elke wijziging handmatig opslaan.
+U kunt bepalen of de wijzigingen die u in taken in een lijst aanbrengt, automatisch worden opgeslagen wanneer deze zich voordoen, of dat u elke wijziging handmatig wilt opslaan.
 
 >[!IMPORTANT]
 >
->Afhankelijk van of u de taken automatisch of manueel opslaat, zou u de informatie van iemand anders kunnen beschrijven aangezien u taken in een lijst uitgeeft. Voor informatie over hoe Workfront veranderingen op taken opslaat die u gelijktijdig met andere gebruikers aanbrengt, zie [ Overzicht van het bewaren van gezamenlijke veranderingen binnen een taaklijst ](../../../manage-work/tasks/manage-tasks/save-concurrent-changes-in-a-task-list.md).
+>Afhankelijk van of u de taken automatisch of manueel opslaat, zou u de informatie van iemand anders kunnen beschrijven aangezien u taken in een lijst uitgeeft. Voor meer informatie, zie [ Overzicht van het bewaren van gezamenlijke veranderingen binnen een taaklijst ](../../../manage-work/tasks/manage-tasks/save-concurrent-changes-in-a-task-list.md).
 
 Wanneer u uw veranderingen in een lijst voor een project opslaat dat of Automatisch of bij Verandering als Type van Update wordt geselecteerd, werkt Workfront de projectchronologie, samen met alle in-project en dwars-projectgebiedsdelen bij. De berekeningen van de Chronologie kunnen lange tijd vergen als het project groot is of als er veel gebiedsdelen zijn. Sommige methoden voor het bewerken van een takenlijst zijn mogelijk sneller dan andere, afhankelijk van de methode die u selecteert om uw wijzigingen op te slaan.
 
@@ -114,21 +120,23 @@ Houd rekening met het volgende wanneer u uw takenlijst automatisch opslaat:
 
 * U kunt een aangepaste weergave toepassen op de takenlijst en alle taakgerelateerde velden bewerken die u kunt bijwerken.
 * U kunt automatisch opgeslagen wijzigingen niet ongedaan maken. Dit is de standaardinstelling.
-* Workfront berekent automatisch de chronologie van het project en alle in-project en dwars-projecten gebiedsdelen na elke verandering opnieuw, wanneer het Type van projectupdate Automatisch of Automatisch en bij Verandering is. Voor informatie over het Type van projectupdate, zie [ het Type van projectupdate ](../../../manage-work/projects/manage-projects/select-project-update-type.md) selecteren.
+* Wanneer het Type van projectupdate Automatisch of Automatisch en bij Verandering is, herberekent Workfront de chronologie van het project en alle in-project en dwars-projecten gebiedsdelen automatisch na elke verandering. Voor informatie over het Type van projectupdate, zie [ het Type van projectupdate ](../../../manage-work/projects/manage-projects/select-project-update-type.md) selecteren.
 
 Taken in een lijst bewerken en wijzigingen automatisch opslaan:
 
-1. Ga naar het project, dan klik de **sectie van Taken**.
-1. Klik het **de wijzemenu van het Plan** ![](assets/qs-list-mode-or-save-mode-icon-small.png) bij de bovenkant van de lijst en zorg ervoor dat de **Autosave** optie wordt geselecteerd.
+{{step1-to-projects}}
 
-   ![](assets/autosave-setting-enabled-quicksilver-task-list-350x308.png)
+1. Voor de **pagina van Projecten**, selecteer een project.
+1. In het linkerpaneel, klik de **sectie van Taken**.
+
+1. Klik het **pictogram van het pictogram ![ de wijzepictogram van het Plan ](assets/plan-mode-icon.png) bij de bovenkant van de lijst en zorg ervoor de** Autosave **optie wordt geselecteerd.**
+
+   ![ laat autosave het plaatsen ](assets/autosave-setting-enabled-quicksilver-task-list-350x308.png) toe
 
 1. Bewerk elk veld dat u gemachtigd bent om handmatig bij te werken.
 
-   ![](assets/inline-editing-a-task-350x26.png)
-
 1. (Facultatief) Pers **Escape** om uw veranderingen te annuleren.
-1. Druk op Enter om uw wijzigingen in de taken en de projecttijdlijn op te slaan.
+1. De pers **gaat** (Vensters) of **Terugkeer** (Mac) op uw toetsenbord in om uw veranderingen in de taken en de projectchronologie te bewaren.
 1. (Optioneel) Klik met de rechtermuisknop op een taak die u wilt wijzigen.
 
    of
@@ -142,12 +150,20 @@ Taken in een lijst bewerken en wijzigingen automatisch opslaan:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Openen in een nieuw tabblad</strong></td> 
+      <td role="rowheader">Openen op nieuw tabblad</td> 
       <td>Hiermee opent u de taak in een nieuw browsertabblad. </td> 
      </tr> 
+          <tr> 
+      <td role="rowheader">Taak invoegen boven</td> 
+      <td>Hiermee voegt u een taak in boven de geselecteerde taak.</td> 
+     </tr> 
      <tr> 
-      <td role="rowheader"><strong>Bewerken</strong></td> 
-      <td><p>Opent <strong> uitgeven de doos van de Taak </strong>, waar u de taak kunt uitgeven.</p><p>Voor informatie over het uitgeven van een taak, zie <a href="#edit-tasks-in-a-list" class="MCXref xref"> taken in een lijst </a> uitgeven.</p></td> 
+      <td role="rowheader">Taak invoegen onder</td> 
+      <td>Hiermee voegt u een taak in onder de geselecteerde taak</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Bewerken</td> 
+      <td><p>Hiermee opent u het vak Taak bewerken, waarin u de taak kunt bewerken.</p><p>Voor informatie over het uitgeven van een taak, zie <a href="#edit-tasks-in-a-list" class="MCXref xref"> taken in een lijst </a> uitgeven.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Verwijderen</td> 
@@ -160,31 +176,21 @@ Taken in een lijst bewerken en wijzigingen automatisch opslaan:
      <tr> 
       <td role="rowheader">Uitspringen</td> 
       <td><p>Hiermee wordt de taak één niveau uitgespreid. </p><p>Deze optie wordt alleen weergegeven bij onderliggende taken. </p></td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Taak invoegen boven</td> 
-      <td>Hiermee voegt u een taak in boven de geselecteerde taak.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Taak invoegen onder</td> 
-      <td>Hiermee voegt u een taak in onder de geselecteerde taak</td> 
-     </tr> 
+     </tr>  
      <tr> 
       <td role="rowheader">Dupliceren</td> 
       <td><p>Hiermee maakt u een gedupliceerde versie van de taak in hetzelfde project. </p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Kopiëren naar</td> 
+      <td role="rowheader">Kopiëren naar..</td> 
       <td><p>Kopieert de taak naar een ander project.</p><p>Voor informatie over het kopiëren en het dupliceren van taken, zie <a href="../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md" class="MCXref xref"> Kopiëren en dupliceren taken </a>.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Verplaatsen naar</td> 
+      <td role="rowheader">Verplaatsen naar..</td> 
       <td><p>Verplaatst de taak naar een ander project.</p><p>Voor informatie over het bewegen van taken, zie <a href="../../../manage-work/tasks/manage-tasks/move-tasks.md" class="MCXref xref"> de taken van de Beweging </a>.</p></td> 
      </tr> 
     </tbody> 
    </table>
-
-   Wijzigingen worden automatisch opgeslagen en u kunt ze niet omkeren.
 
 ### Taken in een lijst bewerken en wijzigingen handmatig opslaan {#edit-tasks-in-a-list-and-manually-save-changes}
 
@@ -193,7 +199,7 @@ U kunt wijzigingen die u aanbrengt in taken in een lijst handmatig opslaan. Als 
 >[!TIP]
 >
 >* U kunt wijzigingen die u aanbrengt in taken in een lijst niet omkeren wanneer u deze bewerkt in de sectie Subtaken of in een taakrapport.
->* Er gelden geen beperkingen voor het aantal wijzigingen dat u kunt terugdraaien. U kunt ze allemaal een voor een omkeren totdat u de oorspronkelijke staat van de taken bereikt.
+>* Er gelden geen beperkingen voor het aantal wijzigingen dat u kunt terugdraaien. U kunt al hen één voor één om keren tot u de originele staat van de taken bereikt.
 >
 
 Houd rekening met het volgende wanneer u wijzigingen handmatig opslaat in een takenlijst:
@@ -206,10 +212,10 @@ Houd rekening met het volgende wanneer u wijzigingen handmatig opslaat in een ta
    * Voeg het project toe aan uw lijst met favorieten.
    * Open een taak door op de naam ervan in de lijst te klikken.
 
-* Geef de taken in bulk uit. Het pictogram Bewerken is uitgeschakeld wanneer u meerdere taken selecteert.
+* De taken bulksgewijs bewerken. Het pictogram Bewerken is uitgeschakeld wanneer u meerdere taken selecteert.
 * Workfront activeert alleen meldingen over de wijzigingen die u in de taken aanbrengt nadat u de wijzigingen hebt opgeslagen.
 
-U kunt wijzigingen in taken in een lijst op twee manieren handmatig opslaan. Deze twee manieren worden hieronder beschreven.
+Er zijn twee manieren om wijzigingen in taken in een lijst handmatig op te slaan:
 
 * [ sparen veranderingen in een taaklijst manueel wanneer u het Handboek sparen de optie Standaard ](#save-changes-in-a-task-list-manually-when-you-select-the-manual-save-standard-option) selecteert
 * [Wijzigingen handmatig opslaan in een takenlijst wanneer u de optie Tijdlijnplanning handmatig opslaan selecteert](#save-changes-in-a-task-list-manually-when-you-select-the-manual-save-timeline-planning-option)
@@ -218,31 +224,38 @@ U kunt wijzigingen in taken in een lijst op twee manieren handmatig opslaan. Dez
 
 >[!TIP]
 >
->Als uw project meer dan 2000 taken heeft, of als het veel gebiedsdelen heeft, zou het een tijdje kunnen nemen om visueel de veranderingen te identificeren u aan uw taken aanbrengt en hoe deze veranderingen alle projectgebiedsdelen beïnvloeden. In dit geval, zou het bewaren van uw veranderingen langer kunnen duren als uw project meer dan 2000 taken heeft of als het veel gebiedsdelen heeft.
+>Als uw project meer dan 2000 taken heeft, of als het veel gebiedsdelen heeft, zou het een tijdje kunnen nemen om visueel de veranderingen te identificeren u aan uw taken aanbrengt en hoe deze veranderingen alle projectgebiedsdelen beïnvloeden. In dit geval kan het opslaan van uw wijzigingen langer duren dan u had verwacht.
 
 Houd rekening met het volgende wanneer u taken in een lijst bijwerkt nadat u de optie Standaard handmatig opslaan hebt geselecteerd:
 
 * U kunt een aangepaste weergave toepassen op de takenlijst en alle taakgerelateerde velden bewerken die u in die weergave hebt gemachtigd om te beheren.
-* Workfront berekent de chronologie van het project en alle in-project en dwars-project gebiedsdelen nadat u sparen klikt, wanneer het Type van projectupdate Automatisch of Automatisch en bij Verandering is. Voor informatie over het Type van projectupdate, zie [ het Type van projectupdate ](../../../manage-work/projects/manage-projects/select-project-update-type.md) selecteren.
+* Wanneer het Type van projectupdate Automatisch of Automatisch en bij Verandering is, berekent Workfront de chronologie van het project en alle in-project en dwars-project gebiedsdelen nadat u sparen klikt. Voor informatie over het Type van projectupdate, zie [ het Type van projectupdate ](../../../manage-work/projects/manage-projects/select-project-update-type.md) selecteren.
 
 Taken in een lijst bewerken wanneer u de optie Handmatig opslaan kiest:
 
-1. Ga naar een project, dan klik de **sectie van Taken**.
-1. Klik de **menu ![](assets/qs-list-mode-or-save-mode-icon-small.png) van de Wijze van het 0&rbrace; Plan bij de bovenkant van de lijst en selecteer** Handmatig sparen **, dan klik** Standaard **>** **van toepassing zijn.**
+{{step1-to-projects}}
 
-   ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+1. Voor de **pagina van Projecten**, selecteer een project.
 
-   Er wordt een werkbalkinstelling weergegeven met opties voor het ongedaan maken, opnieuw uitvoeren en opslaan van de wijzigingen.
+1. In het linkerpaneel, klik de **sectie van Taken**.
 
-   ![](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
+1. Klik het **pictogram van het pictogram ![ de wijzepictogram van het Plan ](assets/plan-mode-icon.png) bij de bovenkant van de lijst van de 3} wijze van het Plan.**
+
+1. In de **dialoog van de Wijze van het Plan**, uitgezochte **Handboek sparen**, dan klik **Standaard**.
+
+   ![ laat handbediende sparen plaatsen ](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png) toe
+
+1. Klik **toepassen**. Er wordt een werkbalkinstelling weergegeven met opties voor het ongedaan maken, opnieuw uitvoeren en opslaan van de wijzigingen.
+
+   ![ Handmatig sparen toolbar ](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
 
 1. Klik in een veld waarvoor u gemachtigd bent om handmatig bij te werken. Het veld wordt bewerkbaar en u kunt de wijzigingen aanbrengen.
 
-   ![](assets/inline-editing-a-task-350x26.png)
+1. De pers **gaat** (Vensters) of **Terugkeer** (Mac) op uw toetsenbord in om de veranderingen tijdelijk te bewaren u aanbracht.
 
-1. Druk op Enter om de aangebrachte wijzigingen tijdelijk op te slaan.
-1. (Facultatief) klik **ongedaan maken pictogram** ![](assets/undo-icon-on-task-list.png) om een verandering om te keren en een gebied op zijn originele staat terug te keren.
-1. (Facultatief en voorwaardelijk) klik **opnieuw pictogram** ![](assets/redo-icon-on-task-list.png) om de verandering te herstellen u hebt omgekeerd.
+1. (Facultatief) klik **ongedaan maken** pictogram ![ pictogram ](assets/undo-icon-on-task-list.png) om een verandering om te keren en een gebied op zijn originele staat terug te keren.
+
+1. (Facultatief en voorwaardelijk) klik **opnieuw** pictogram ![ pictogram ](assets/redo-icon-on-task-list.png) om de verandering te herstellen u hebt omgekeerd.
 
 1. (Optioneel) Klik met de rechtermuisknop op een taak die u wilt wijzigen.
 
@@ -257,8 +270,16 @@ Taken in een lijst bewerken wanneer u de optie Handmatig opslaan kiest:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong> Open in een nieuw lusje </strong> </td> 
+      <td role="rowheader">Openen op nieuw tabblad</td> 
       <td>Hiermee opent u de taak in een nieuw browsertabblad. </td> 
+     </tr> 
+          <tr> 
+      <td role="rowheader">Taak invoegen boven</td> 
+      <td>Hiermee voegt u een taak in boven de geselecteerde taak.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Taak invoegen onder</td> 
+      <td>Hiermee voegt u een taak in onder de geselecteerde taak</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Verwijderen</td> 
@@ -271,14 +292,6 @@ Taken in een lijst bewerken wanneer u de optie Handmatig opslaan kiest:
      <tr> 
       <td role="rowheader">Uitspringen</td> 
       <td> <p>Hiermee wordt de taak één niveau uitgespreid. </p> <p>Deze optie wordt alleen weergegeven bij onderliggende taken. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Taak invoegen boven</td> 
-      <td>Hiermee voegt u een taak in boven de geselecteerde taak.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Taak invoegen onder</td> 
-      <td>Hiermee voegt u een taak in onder de geselecteerde taak</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Dupliceren</td> 
@@ -303,22 +316,30 @@ Houd rekening met het volgende wanneer u de optie Tijdlijnplanning handmatig ops
 * U kunt de optie voor het handmatig opslaan van tijdlijnplanning niet toepassen op projecten met meer dan 2000 taken.
 * U kunt geen aangepaste weergave, filter of groep toepassen op de takenlijst. De vervolgkeuzemenu&#39;s Weergave, Filter en Groeperen en het pictogram Gegraveerde weergave zijn uitgeschakeld. De weergave die standaard wordt toegepast, bevat een beperkt aantal velden.
 * De chronologie van het project en alle in-projectgebiedsdelen worden automatisch berekend na elke verandering wanneer het Type van projectupdate Automatisch of Automatisch en bij Verandering is.
-* De dwars-projectgebiedsdelen worden berekend nadat u sparen klikt, wanneer het Type van projectupdate Automatisch of Automatisch en op Verandering is. Voor informatie over het Type van projectupdate, zie [ het Type van projectupdate ](../../../manage-work/projects/manage-projects/select-project-update-type.md) selecteren.
+* Wanneer het Type van projectupdate Automatisch of Automatisch en bij Verandering is, worden de dwars-projectgebiedsdelen berekend nadat u sparen klikt. Voor informatie over het Type van projectupdate, zie [ het Type van projectupdate ](../../../manage-work/projects/manage-projects/select-project-update-type.md) selecteren.
 
 Taken in een lijst bewerken wanneer u de optie Tijdlijnplanning handmatig opslaan gebruikt:
 
-1. Ga naar een project, dan klik de **sectie van Taken**.
-1. Klik het **menu ![](assets/qs-list-mode-or-save-mode-icon-small.png) van de Wijze van het 0&rbrace; Plan bij de bovenkant van de lijst en selecteer** Handmatig sparen **, dan klik** Planning van de Chronologie **>** **van toepassing zijn.**
 
-   Deze optie is grijs voor projecten met meer dan 2000 taken.
+{{step1-to-projects}}
 
-   ![](assets/manual-timeline-planning-setting-enabled-quicksilver-task-list-350x490.png)
+1. Voor de **pagina van Projecten**, selecteer een project.
+
+1. In het linkerpaneel, klik de **sectie van Taken**.
+
+1. Klik het **pictogram van het pictogram ![ de wijzepictogram van het Plan ](assets/plan-mode-icon.png) bij de bovenkant van de lijst van de 3} wijze van het Plan.**
+
+1. In de **dialoog van de Wijze van het Plan**, uitgezochte **Handboek sparen**, dan klik **Planning van de Chronologie**.
+
+   ![ pas de Planning van de Chronologie het plaatsen ](assets/manual-timeline-planning-setting-enabled-quicksilver-task-list-350x490.png) toe
 
    >[!TIP]
    >
-   >Wanneer u bij deze pagina vandaan navigeert, schakelt Workfront de optie Automatisch opslaan opnieuw in.
+   >De **optie van de Planning van de Tijd** wordt gedimd voor projecten met meer dan 2000 taken.
 
-   U ziet de volgende wijzigingen in de lijst:
+1. Klik **toepassen**.
+
+   De volgende wijzigingen vinden plaats in de lijst:
 
    * De vervolgkeuzemenu&#39;s Weergeven, Groeperen en Filter worden verwijderd en de weergave wordt vervangen door de volgende velden:
 
@@ -336,17 +357,15 @@ Taken in een lijst bewerken wanneer u de optie Tijdlijnplanning handmatig opslaa
    * Het pictogram van de Gegraveerde weergave wordt verwijderd.
    * Er wordt een werkbalkinstelling weergegeven met opties voor het ongedaan maken, opnieuw uitvoeren en opslaan van de wijzigingen.
 
-     ![](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
+     ![ Handmatig sparen toolbar ](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
 
 1. Bewerk elk veld dat u gemachtigd bent om handmatig bij te werken.
 
-   ![](assets/inline-editing-a-task-350x26.png)
+1. De pers **gaat** (Vensters) of **Terugkeer** (Mac) op uw toetsenbord in om de veranderingen tijdelijk te bewaren u aanbracht.
+1. (Facultatief) klik **ongedaan maken** pictogram ![ pictogram ](assets/undo-icon-on-task-list.png) om een verandering om te keren en een gebied op zijn originele staat terug te keren.
+1. (Facultatief en voorwaardelijk) klik **opnieuw** pictogram ![ pictogram ](assets/redo-icon-on-task-list.png) om de verandering op te nemen u hebt omgekeerd.
 
-1. Druk op Enter om de aangebrachte wijzigingen tijdelijk op te slaan.
-1. (Facultatief) klik **ongedaan maken pictogram** ![](assets/undo-icon-on-task-list.png) om een verandering om te keren en een gebied op zijn originele staat terug te keren.
-1. (Optioneel en voorwaardelijk) Klik op het pictogram **Opnieuw uitvoeren** ![](assets/redo-icon-on-task-list.png) om de wijziging die u hebt teruggedraaid, opnieuw in te voeren.
-
-1. (Optioneel) Klik met de rechtermuisknop op een taak die u wilt wijzigen
+1. (Optioneel) Klik met de rechtermuisknop op een taak die u wilt wijzigen.
 
    of
 
@@ -359,8 +378,16 @@ Taken in een lijst bewerken wanneer u de optie Tijdlijnplanning handmatig opslaa
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong> Open in een nieuw lusje </strong> </td> 
+      <td role="rowheader">Openen op nieuw tabblad</td> 
       <td>Hiermee opent u de taak in een nieuw browsertabblad. </td> 
+     </tr> 
+          <tr> 
+      <td role="rowheader">Taak invoegen boven</td> 
+      <td>Hiermee voegt u een taak in boven de geselecteerde taak.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Taak invoegen onder</td> 
+      <td>Hiermee voegt u een taak in onder de geselecteerde taak</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Verwijderen</td> 
@@ -375,14 +402,6 @@ Taken in een lijst bewerken wanneer u de optie Tijdlijnplanning handmatig opslaa
       <td> <p>Hiermee wordt de taak één niveau uitgespreid. </p> <p>Deze optie wordt alleen weergegeven bij onderliggende taken. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Taak invoegen boven</td> 
-      <td>Hiermee voegt u een taak in boven de geselecteerde taak.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Taak invoegen onder</td> 
-      <td>Hiermee voegt u een taak in onder de geselecteerde taak</td> 
-     </tr> 
-     <tr> 
       <td role="rowheader">Dupliceren</td> 
       <td> <p>Hiermee maakt u een gedupliceerde versie van de taak in hetzelfde project. </p> <p>Voor informatie over het kopiëren en het dupliceren van taken, zie <a href="../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md" class="MCXref xref"> Kopiëren en dupliceren taken </a>.</p> </td> 
      </tr> 
@@ -394,59 +413,66 @@ Taken in een lijst bewerken wanneer u de optie Tijdlijnplanning handmatig opslaa
 
 ## Een taak in een lijst bewerken met Overzicht
 
-1. Ga naar het project dat taken bevat u wilt uitgeven.
-1. Klik **Taken** in het linkerpaneel.
+{{step1-to-projects}}
 
-   De lijst van taken op de projectvertoningen.
+1. Voor de **pagina van Projecten**, selecteer een project.
 
-1. Klik het Meer menu ![](assets/more-icon-task-list.png) na de taaknaam, dan klik **Open Samenvatting**. Selecteer de taak u wilt uitgeven, dan het **Open Summiere pictogram** ![](assets/qs-open-summary-icon-in-new-toolbar-small.png) in de hoger-juiste hoek van de lijst klikken.
+1. In het linkerpaneel, klik de **sectie van Taken**. De lijst van taken op de projectvertoningen.
 
-   Het **Samenvatting** opent.
-
-   ![](assets/qs-task-right-panel-in-a-task-list-350x328.png)
-
-1. (Facultatief) klik het **pictogram van X** in het hoger-recht van de Samenvatting om het paneel te sluiten en de taken gealigneerd uit te geven.
-
-   Voer de stappen uit over het bewerken van een taak in een lijst om de taak inline te bewerken.
-
-   Voor informatie over het uitgeven van de taak in een lijst, zie [ Overwegingen over het uitgeven van taken in een lijst ](#considerations-about-editing-tasks-in-a-list) in dit artikel.
+1. Selecteer de taak u wilt uitgeven, dan klik het **Open Samenvatting** pictogram ![ Open Samenvattingspictogram ](assets/task-summary-icon.png) in de hoger-juiste hoek van de lijst. Het **Summiere paneel van de Taak** opent.
 
 1. (Optioneel) Typ een update voor de taak in het **gebied van Updates**.
 1. Klik op een van de volgende pictogrammen of gebieden om naar de taak te gaan en gegevens op taakniveau te bewerken:
 
-   | Documenten | Klik **klik hier om** toe te voegen om documenten aan de taak toe te voegen. |
-   |---|---|
-   | Details | Klik om informatie over de taak bij te werken. |
-   | Aangepaste Forms | Klik om aangepaste Forms toe te voegen of te verwijderen of om informatie bij te werken op de formulieren. |
-   | Uren | Klik om de uren te registreren. |
-   | Goedkeuringen | Klik om taakgoedkeuringen toe te voegen. |
+<table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Documenten</td> 
+      <td>Voeg documenten toe aan de taak. </td> 
+     </tr> 
+          <tr> 
+      <td role="rowheader">Aangepaste Forms</td> 
+      <td>Voeg aangepaste formulieren toe of verwijder deze of werk gegevens bij op de formulieren.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Uren</td> 
+      <td>Loguren.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Goedkeuringen</td> 
+      <td>Voeg taakgoedkeuringen toe.</td> 
+     </tr> 
+     <tr> 
+    </tbody> 
+   </table>
 
-   {style="table-layout:auto"}
-
-1. Klik op de knop Vorige in uw browser om terug te keren naar de takenlijst wanneer u klaar bent met het bijwerken van de taak.
+1. Klik **X** in de hoger-juiste hoek van het paneel om het te sluiten.
 
 ## Taken bulksgewijs bewerken
 
 U kunt meerdere taken tegelijk bewerken. Zorg ervoor dat u beheermachtigingen voor de taken hebt om deze te kunnen bewerken.
 
-1. Ga naar een project dat taken bevat u in bulk wilt uitgeven.
-1. Klik **Taken** in het linkerpaneel.
-1. Zorg ervoor dat de **Autosave** optie wordt geselecteerd.
+{{step1-to-projects}}
+
+1. Voor de **pagina van Projecten**, selecteer een project.
+1. In het linkerpaneel, klik de **sectie van Taken**.
+
+1. Klik het **pictogram van het pictogram ![ de wijzepictogram van het Plan ](assets/plan-mode-icon.png) bij de bovenkant van de lijst en zorg ervoor de** Autosave **optie wordt geselecteerd.**
+
+   ![ laat autosave het plaatsen ](assets/autosave-setting-enabled-quicksilver-task-list-350x308.png) toe
 
    >[!IMPORTANT]
    >
    >U kunt taken niet bulksgewijs bewerken wanneer u taken handmatig opslaat.
 
-   Voor meer informatie over manieren om veranderingen in taken in een lijst op te slaan, zie de sectie [ Overwegingen over het uitgeven van taken in een lijst ](#considerations-about-editing-tasks-in-a-list) in dit artikel.
-
-1. Selecteer verschillende taken in de takenlijst.
-1. Klik het **uitgeven pictogram** ![](assets/qs-edit-icon.png).
-
-   Het **geeft de dialoogvakje van Taken** uit opent.
+1. Selecteer meerdere taken in de takenlijst.
+1. Klik **uitgeven** pictogram ![ uitgeven pictogram ](assets/qs-edit-icon.png). Het **geeft de dialoogvakje van Taken** uit opent.
 
 1. Geef de informatie op die u wilt wijzigen voor alle geselecteerde taken.
 
-   Het bewerken van de informatie over alle taken is hetzelfde als het bewerken van de informatie over één taak. Als u taakDuur wilt uitgeven, moeten de geselecteerde taken de zelfde Beperking van de Taak hebben; anders, bevolkt het **gebied van de Duur** &lbrace;niet.
+   Het bewerken van de informatie over alle taken is hetzelfde als het bewerken van de informatie over één taak. Als u taakDuur wilt uitgeven, moeten de geselecteerde taken de zelfde Beperking van de Taak hebben; anders, bevolkt het **gebied van de Duur** {niet.
 
    Voor meer informatie over het uitgeven van een taak, zie [ taken ](../../../manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
 
@@ -461,8 +487,6 @@ U kunt meerdere taken tegelijk bewerken. Zorg ervoor dat u beheermachtigingen vo
    U kunt alleen de velden in de formulieren bewerken die zijn gekoppeld aan alle geselecteerde taken en die u kunt bewerken.
 
 1. (Facultatief) in de sectie van Forms van de Douane, selecteer **opnieuw berekenen de optie van de Uitdrukkingen van de Douane** om ervoor te zorgen dat alle Berekende Gebieden van de Douane die op de douanevormen in bijlage aan de geselecteerde taken zijn bijgewerkt zijn.
-1. Klik **sparen Veranderingen**.
+1. Klik **sparen Veranderingen**. Alle wijzigingen die u hebt aangebracht, zijn nu zichtbaar voor alle geselecteerde taken.
 
-   Alle wijzigingen die u hebt aangebracht, zijn nu zichtbaar voor alle geselecteerde taken.
-
-Voor informatie over bulk die douaneformulieren uitgeven, zie de sectie &quot;uitgeven veelvoudige Douane Forms wanneer bulk-het uitgeven voorwerpen&quot;in [ douaneformulieren beheren in bijlage aan voorwerpen ](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md).
+Voor informatie over bulk die douaneformulieren uitgeven, zie [ douaneformulieren beheren in bijlage aan voorwerpen ](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md).

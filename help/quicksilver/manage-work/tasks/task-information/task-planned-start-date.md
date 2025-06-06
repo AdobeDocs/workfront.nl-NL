@@ -7,20 +7,22 @@ description: De geplande begindatum van een taak is de datum waarop u, als taakm
 author: Alina
 feature: Work Management
 exl-id: 2ac6327f-4a13-4fb8-ad8e-03d032221483
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 0ff02569d3c7fb532a2faafc46fe4235ce77acd4
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '617'
 ht-degree: 0%
 
 ---
 
 # Overzicht van de geplande startdatum van de taak
 
+<!-- Audited: 6/2025 -->
+
 De geplande begindatum van een taak is de datum waarop u, als taakmaker, besluit dat het werk aan de taak moet worden gestart. De geplande taakdata beïnvloeden de data en de chronologie op het project. Voor informatie over het project Geplande Datum van het Begin, zie [ Overzicht van het project Geplande Datum van het Begin ](../../../manage-work/projects/planning-a-project/project-planned-start-date.md).
 
 ## De geplande begindatum van een taak
 
-U kunt de geplande begindatum van een taak opgeven of deze aan Adobe Workfront overlaten om de taak te berekenen op basis van bepaalde criteria. 
+U kunt de geplande begindatum van de taak opgeven of deze aan Adobe Workfront overlaten om de taak te berekenen op basis van bepaalde criteria. 
 
 * [ plaatst manueel de Geplande Datum van het Begin van een taak ](#manually-set-the-planned-start-date-of-a-task)
 * [Hoe de Geplande Datum van het Begin voor een taak wordt berekend](#how-the-planned-start-date-is-calculated-for-a-task)
@@ -29,7 +31,7 @@ U kunt de geplande begindatum van een taak opgeven of deze aan Adobe Workfront o
 
 Het plaatsen van de Geplande Datum van het Begin van een taak hangt van het type van de Beperking van de Taak af u aan de taak toewijst. 
 
-U kunt de Geplande Datum van het Begin manueel plaatsen wanneer het creëren van een taak, zoals die in artikel [ wordt beschreven tot taken in een project ](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md) leidt.
+U kunt de geplande begindatum handmatig instellen wanneer u een taak maakt. Voor meer informatie, zie [ taken in een project ](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md) creëren.
 
 U kunt de Geplande Datum van het Begin manueel specificeren wanneer u om het even welke volgende Beperkingen van de Taak selecteert: 
 
@@ -66,20 +68,20 @@ Wanneer het automatisch door het systeem wordt berekend, kan het volgende de Gep
 
 * Taakbeperking
 
-  Voor meer informatie over de Beperkingen van de Taak, zie het overzicht van de artikel [ Beperking van de Taak ](../../../manage-work/tasks/task-constraints/task-constraint-overview.md)
+  Voor meer informatie over de Beperkingen van de Taak, zie [ Overzicht van de Restrictie van de Taak ](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
 
 * Taak-voorgangerrelatie
 
-  Voor meer informatie over taakvoordecessors, zie het artikel [ Overzicht van taakvoordecessors ](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+  Voor meer informatie over taakvoordecessors, zie [ Overzicht van taakvoordecessors ](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 * De Datum van het Begin van het project, wanneer het project van de Datum van het Begin gepland is.
-* Het tijdschema voor de primaire ontvanger van de taak.
+* Het tijdschema voor de primaire taaktoewijzing.
 
-  Wanneer de Primaire Ontvanger tijd van gepland tijdens de duur van de taak heeft, passen de geplande data van de taak dienovereenkomstig aan wanneer **gebruikerstijd van in taakduur** het plaatsen wordt geselecteerd voor de **Tijd van de Gebruiker van** gebied overweegt. De nieuwe projecten erven dit het plaatsen van het gebied van de Voorkeur van het Project, maar u kunt het plaatsen op het projectniveau uitgeven.
+  Wanneer de Primaire Ontvanger tijd die tijdens de taakduur wordt gepland heeft, passen de geplande data van de taak dienovereenkomstig aan wanneer de de gebruikerstijd van de Overweger van in taakduur het plaatsen voor de Tijd van de Gebruiker van gebied wordt geselecteerd. De nieuwe projecten erven dit het plaatsen van het gebied van de Voorkeur van het Project, maar u kunt het plaatsen op het projectniveau uitgeven.
 
-  Als bijvoorbeeld een taak met een beperking van Zo snel mogelijk op 1 juni moet beginnen en op 3 juni moet worden voltooid, en de primaire ontvanger op 1 juni moet zijn gemarkeerd voor een time-off, wordt de geplande begindatum van de taak 2 juni.
+  Als een taak met een beperking van Zo snel mogelijk op 1 juni moet beginnen en op 3 juni moet worden voltooid, en de primaire ontvanger op 1 juni voor vrije tijd heeft gemarkeerd, wordt de geplande begindatum van de taak 2 juni.
 
-  Voor informatie over de **Tijd van de Gebruiker van** voorkeur, zie de artikelen [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen of [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+  Voor informatie over de Tijd van de Gebruiker van voorkeur, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen of [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
 Wanneer deze optie automatisch wordt ingesteld, wordt de geplande begindatum bepaald op basis van de volgende berekening: 
 
@@ -91,5 +93,5 @@ Als uw taak bijvoorbeeld een Voltooiingsdatum van 16 september en een duur van 1
 
 >[!NOTE]
 >
-> Het updatetype voor het project moet ook aan &quot;Automatisch en bij Verandering&quot;of &quot;automatisch&quot;worden geplaatst opdat de Geplande Uren en Duur automatisch worden aangepast.\
->Voor meer informatie over het Type van Update, zie het artikel [ het Type van projectupdate ](../../../manage-work/projects/manage-projects/select-project-update-type.md) selecteren.
+> Het Type van Update voor het project moet ook aan Automatisch en bij Verandering of automatisch worden geplaatst om de Geplande Uren en Duur automatisch aan te passen.\
+>Voor meer informatie over het Type van Update, zie [ het Type van projectupdate ](../../../manage-work/projects/manage-projects/select-project-update-type.md) selecteren.

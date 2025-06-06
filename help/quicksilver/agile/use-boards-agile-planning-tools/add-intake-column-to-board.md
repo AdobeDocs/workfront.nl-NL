@@ -7,9 +7,9 @@ description: U kunt desgewenst een inlaatkolom toevoegen aan uw board die taken 
 author: Courtney
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
+source-git-commit: 0ff02569d3c7fb532a2faafc46fe4235ce77acd4
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
@@ -84,16 +84,10 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 1. Selecteer de **raad** sectie. Er worden nieuwe velden weergegeven.
 1. Zet **dynamisch innamepunten aan raad** aan. De lege inlaatkolom wordt aan de linkerkant van het bord weergegeven.
 
-   ![ de kolom van de Inname eenvoudige filteropties ](assets/intake-column-simple-filters.png)
+   ![ de kolom van de Inname eenvoudige filteropties ](assets/board-section.png)
 
 1. (Facultatief) Onderzoek naar en selecteer [!DNL Workfront] [!UICONTROL **Projecten**].
 1. (Facultatief) Onderzoek naar en selecteer gebruiker of team [!UICONTROL **Taken**].
-1. Selecteer [!UICONTROL **omvatten voltooid werk**] om taken en kwesties met een Volledige status in de inlaatkolom te tonen.
-
-   >[!NOTE]
-   >
-   >Als deze optie niet is geselecteerd en kaarten in andere statussen als voltooid zijn gemarkeerd, worden ze niet op het bord weergegeven.
-
 1. Klik **toepassen**. De objecten worden in de innamekolom van het bord weergegeven als verbonden kaarten.
 
    ![ Intake kolom ](assets/intake-column-added3.png)
