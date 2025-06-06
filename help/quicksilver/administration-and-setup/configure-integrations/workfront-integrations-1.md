@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: 5ed9ee77c14948d81ef132e1977b902f8927a620
 workflow-type: tm+mt
 source-wordcount: '1267'
 ht-degree: 0%
@@ -84,6 +84,21 @@ Wij begrijpen dat de beschikbare ingebouwde (native) integratie mogelijk niet aa
   </tr> 
  </thead> 
  <tbody> 
+ <!--<tr> 
+   <td role="rowheader"> <p>GenStudio for Performance Marketing </p> </td> 
+   <td> 
+    <ul> 
+     <li>Integrate the proofing experience with Genstudio for Performance Marketing. With this integration, you can 
+     <ul>
+     <li>Use Workfront approval templates to define approval workflows. </li>
+     <li>Review GenStudio draft content in the proofing viewer. </li>
+     <li>See review decisions in GenStudio for final approval and publishing. </li>
+     </ul>
+   </ul>
+     <p>For more information, see <a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md" class="MCXref xref">Get started with the proofing and GenStudio for Performance Marketing integration</a>.</p> 
+     </td>  <td><ul><li>You must have licenses for both Workfront and GenStudio for Performance Marketing.</li><li>Your Workfront instance must be on the Adobe Unified Experience.</li><li>Workfront and GenStudio for Performance Marketing must be deployed to the same IMS Org.</li></ul></td> 
+   <td>The integration can be toggled on in the Workfront Setup area once all the requirements are met. For more information, see <a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md" class="MCXref xref">Get started with the proofing and GenStudio for Performance Marketing integration</a>. </td> 
+  </tr> -->
   <tr> 
    <td role="rowheader"> <p>Adobe Creative Cloud </p> <p> <img src="assets/creative-cloud-logo.png"> </p> </td> 
    <td> 
@@ -98,7 +113,7 @@ Wij begrijpen dat de beschikbare ingebouwde (native) integratie mogelijk niet aa
      <li>After Effects </li>
      </ul>
      <li><p>Download/installeer van <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref"> Adobe Exchange </a>.</p></li></ul>
-     <p>Voor informatie en instructies, zie <a href="https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref"> de [!DNL Adobe Workfront] stop voor [!DNL Creative Cloud] Toepassingen </a> installeren</p> 
+     <p>Voor informatie en instructies, zie <a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref"> de [!DNL Adobe Workfront] stop voor [!DNL Creative Cloud] Toepassingen </a> installeren</p> 
      </td>  <td> </td> 
    <td> </td> 
   </tr> 
@@ -305,7 +320,7 @@ Met [!DNL Workfront] kunt u andere ingebouwde integraties en geïntegreerde prod
 
   [!DNL Adobe Workfront Fusion] koppelt handelingen binnen en tussen apps en services om een scenario te maken dat uw gegevens automatisch overdraagt en transformeert. De toepassing heeft specifieke connectors voor veel apps, maar kan verbinding maken met elke toepassing met een openbare API.
 
-  Voor meer informatie, zie [[!DNL Adobe Workfront Fusion]  overzicht ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+  Voor meer informatie, zie [[!DNL Adobe Workfront Fusion]  overzicht ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 * [!DNL Adobe Experience Manager Assets]
 * [!DNL Anaplan] (Vereist [!DNL Workfront Fusion])
