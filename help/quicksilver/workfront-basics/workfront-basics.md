@@ -3,7 +3,7 @@ content-type: reference
 navigation-topic: get-started-with-workfront
 title: 'Basisbeginselen van Adobe Workfront: artikelindex'
 description: Bekijk deze secties om inzicht te krijgen in de basisprincipes van Adobe Workfront, en leer hoe u basisfuncties kunt uitvoeren zoals de sectie Startpagina of Prioriteiten, uw accountprofiel beheren, de AI-assistent gebruiken of begrijpen wat de browservereisten en ondersteunde talen zijn. Raadpleeg de verklarende woordenlijst van Workfront voor meer informatie over algemene terminologie in Workfront.
-short-description: Leer de basisbeginselen van Adobe Workfront en hoe u basisfuncties kunt uitvoeren.
+short-description: Krijg inzicht in de basisprincipes van Adobe Workfront en leer hoe u basisfuncties kunt uitvoeren.
 author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
@@ -11,7 +11,7 @@ exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
 source-git-commit: 0c76cf9ebadaeabee55939969d59ea16d69ed328
 workflow-type: tm+mt
 source-wordcount: '205'
-ht-degree: 54%
+ht-degree: 60%
 
 ---
 
