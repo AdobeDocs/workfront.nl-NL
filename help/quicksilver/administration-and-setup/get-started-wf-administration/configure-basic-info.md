@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 83d236a4d50c0eef7062f161757d2f9fe6bc4e06
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
@@ -80,9 +80,14 @@ De pagina Klantgegevens openen:
 
      Voor informatie over het toevoegen van de IP adressen aan uw lijst van gewenste personen voor waar uw gebruikers tot Workfront kunnen toegang hebben, zie [ de lijst van gewenste personen van uw firewall ](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
 
-   * **Vergunning**
+   * **Lijst van gewenste personen E-mail**
 
-     Voor informatie over vergunningen, zie [ beschikbare vergunningen in uw systeem ](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md) beheren.
+     Voor informatie over het toevoegen van e-mails aan uw lijst van gewenste personen, zie [ uw e-maillijst van gewenste personen ](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md) vormen.
+
+   <!--
+   * **License**
+
+     For information about licenses, see [Manage available licenses in your system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).-->
 
 ## Basisinformatie configureren {#configure-basic-info}
 
@@ -125,7 +130,7 @@ U kunt als volgt het gedeelte Basisinformatie in het gedeelte Klantgegevens conf
        </ul> <p>Gebruikers kunnen de tijdzone voor hun Workfront-exemplaar wijzigen onder hun profiel. Wanneer gebruikers hun tijdzone wijzigen, komen de datum en tijd in hun e-mails van Workfront overeen met hun profielvoorkeuren. Voor meer informatie over het wijzigen van de voorkeur van het gebruikersprofiel, zie <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref"> Mijn Montages </a> vormen. Het wordt geselecteerd als standaardtijdzone wanneer u een nieuw programma creeert. Voor meer informatie over het creëren van programma's, zie <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref"> een programma </a> creëren.</p> <p>Voor informatie over het gebruiken van programma's om gebruikers te helpen in Workfront over tijdstreken samenwerken, zie <a href="../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref"> Werkend over tijdstreken </a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Landinstelling</td> 
+      <td role="rowheader">Standaard-e-maillandinstelling</td> 
       <td>Bepaalt de taal, datum en getalnotatie die in uitgaande e-mailberichten worden gebruikt. De hier geselecteerde landinstelling is de standaardlandinstelling wanneer nieuwe gebruikers worden gemaakt. Gebruikers kunnen hun landinstelling wijzigen in hun gebruikersprofiel. Wanneer gebruikers hun landinstelling wijzigen, komen de taal, de datum en de getalnotatie in hun e-mails van Workfront overeen met hun profielvoorkeuren. Voor meer informatie over het wijzigen van uw profielvoorkeur, zie <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref"> Mijn Montages </a> vormen.</td> 
      </tr> 
      <tr> 
@@ -135,11 +140,7 @@ U kunt als volgt het gedeelte Basisinformatie in het gedeelte Klantgegevens conf
         <li>Documenten die u via een andere externe serviceprovider (SharePoint, Google Drive, Webdam, Box, Dropbox, een andere leverancier van Document Asset Management) aan Workfront koppelt.</li> 
         <li>Uw Workfront-gegevens (projecten, taken, problemen, gebruikers, enzovoort).</li> 
        </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Productversie</td> 
-      <td>Dit is het type Workfront-instantie dat aan u is toegewezen. De productversie voor de meeste klanten van Workfront is <strong> Onderneming </strong>.</td> 
-     </tr> 
+     </tr>
     </tbody> 
    </table>
 
