@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: c5cf44d1e68aebdb5b61d2588a8cefc088b6d2a2
+source-git-commit: b011ee9afcce273c82c1f7d93ca86dfde035a497
 workflow-type: tm+mt
 source-wordcount: '4126'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Deze pagina bevat een overzicht van de interface-updates die we in Adobe Workfro
 >
 >In de meeste gevallen, wordt elke update eerst vrijgegeven aan het milieu van de Voorproef, dan incrementeel toegelaten in de milieu van de Productie voor een groeiende ondergroep klanten die op de vermelde de versiedatum van de Productie begint.
 
-Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product [&#128279;](/help/quicksilver/product-announcements/product-releases/product-releases.md).
+Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product ](/help/quicksilver/product-announcements/product-releases/product-releases.md).[
 
 
 ## Beheer en installatie
@@ -239,7 +239,9 @@ We hebben de vormgeving van de onlangs herstelde items in het gedeelte Setup aan
 
 Ga naar Setup > Prullenbak > Onlangs hersteld om deze wijziging weer te geven.
 
-Voor informatie, zie [ Mening herstelde punten ](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).### de updates van de Interface van het Beheer van het Middel in Opstelling
+Voor informatie, zie [ Mening herstelde punten ](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
+
+### De updates van de interface aan het gebied van het Beheer van het Middel in Opstelling
 
 **de versie van de Voorproef: 17 April, 2025; Beginnend de week van 17 April, 2025**
 
