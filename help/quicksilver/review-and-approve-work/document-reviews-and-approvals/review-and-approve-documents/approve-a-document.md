@@ -6,9 +6,9 @@ description: Als u als fiatteur aan een document wordt toegewezen, zijn er veelv
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
-source-git-commit: 40c28e7efa61475c186d7f3fabda35a7257baf27
+source-git-commit: 1f7a17206ca77442b501f121f3333d4b60aa85f1
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    >[!NOTE]
    >
-   >Goedkeuringen die zijn toegewezen aan taakrollen of -groepen, worden niet vermeld in Home. De goedkeuringen die aan Teams worden toegewezen tonen in de Groep van het Verzoek van het Team in de Lijst van het Werk.
+   >* Goedkeuringen die zijn toegewezen aan taakrollen of -groepen, worden niet vermeld in Home.
+   >* De goedkeuringen die aan de vertoning van Teams worden toegewezen in Mijn goedkeuringen van elk individueel teamlid widget in Huis.
 
 1. Klik op de documentgoedkeuring in de lijst waarvoor u een goedkeuringsbesluit wilt nemen. Rechts op de pagina wordt informatie over de goedkeuring weergegeven.
 
