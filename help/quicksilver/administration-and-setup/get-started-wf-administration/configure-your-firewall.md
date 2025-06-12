@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: ee4cf80bc69416e3224c895c1f04628432ce2f4c
+source-git-commit: d710c8bd9854d4d92945e034e708d06410d0779b
 workflow-type: tm+mt
-source-wordcount: '1646'
+source-wordcount: '1616'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->De op deze pagina beschreven procedure is alleen van toepassing op organisaties die nog niet aan de Admin Console zijn geregistreerd. Als uw organisatie is aangemeld bij de Adobe Admin Console, moet u deze handeling uitvoeren via de Adobe Admin Console.
+>De op deze pagina beschreven procedure is alleen van toepassing op organisaties die nog niet aan boord van de Admin Console zijn. Als uw organisatie is aangemeld bij de Adobe Admin Console, moet u deze handeling uitvoeren via de Adobe Admin Console.
 >
->Om uw lijst van gewenste personen te vormen als uw organisatie aan Adobe Admin Console is bezet, zie [ Domeinen worden toegestaan voor Adobe Apps en de Diensten ](https://helpx.adobe.com/nl/enterprise/kb/network-endpoints.html).
+>Om uw lijst van gewenste personen te vormen als uw organisatie aan Adobe Admin Console is bezet, zie [ Domeinen worden toegestaan voor de Apps en de Diensten van Adobe ](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
->Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan Adobe Admin Console is genegeerd, zie [ Op platform-gebaseerde beleidsverschillen (Adobe Workfront/Adobe Bedrijfs Platform) ](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan Adobe Admin Console is genegeerd, zie [ Op platform-gebaseerde beleidsverschillen (Adobe Workfront/Adobe Bedrijfsplatform) ](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 >[!NOTE]
 >
@@ -142,32 +142,32 @@ Als uw milieu van de Productie op Cluster 1, 2, 3, 5, 7, 8, of 9 is moet u de vo
 
 Als uw Productieomgeving zich op Cluster 4 bevindt, voegt u de volgende IP-adressen voor SSO toe, voegt u de integratie van de documentwebhaak en ontvangt u e-mail van de Workfront-toepassing:
 
-* 52 31 132 175
-* 52 19 188 226
-* 52 28 49 94
-* 52 29 41 175
-* 52 29 197,69
-* 52 48 124 108
-* 69 169 230 231
+* 52.31.132.175
+* 52.19.188.226
+* 52.28.49.94
+* 52.29.41.175
+* 52.29.197.69
+* 52.48.124.108
+* 69.169.230.231
 * 69 169 230,232
-* 3 121 129
-* 3 122 11 35
-* 34 246 27 40
-* 52 208 123 166
-* 52 208 159 124
-* Op 52.17.130.2011
-* 34 252 250 191
-* 52 30 133 50
-* 54 220 93 204
-* 34 254 76 122
+* 3.121.91.129
+* 3.122.11.35
+* 34.246.27.40
+* 52.208.123.166
+* 52.208.159.124
+* 52.17.130.201
+* 34.252.250.191
+* 52.30.133.50
+* 54.220.93.204
+* 34.254.76.122
 * 34.242.62.80/32
 * 46.51.194.192/32
 * 54.229.129.66/32
 
 Voor informatie over de volgende IP adressen, zie [ Nieuwe IP adressen voor Adobe Workfront e-mail met 21.1 versie ](../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md)
 
-* 23 251 239,98
-* 23 251 239,99
+* 23.251.239.98
+* 23.251.239.99
 
 ### IP adressen om voor Cluster 6 toe te staan {#ip-addresses-to-allow-for-cluster-6}
 
@@ -423,6 +423,7 @@ Als uw organisatie uitgaande netwerk het filtreren gebruikt, voeg de volgende do
 * fonts.gstatic.com
 * dpm.demdex.net
 * storage.googleapis.com
+* snippet.maze.co
 * *.aptrinsic.com
 * *.static.workfront.com
 
@@ -450,7 +451,7 @@ Voeg bij Workfront Fusion de volgende domeinen toe:
    * app-eu.workfrontfusion.com (EU AWS)
    * app-az.workfrontfusion.com (US Azure)
 
-* Voor organisatie op de Adobe Verenigde Ervaring
+* Voor organisatie op de Adobe Unified Experience
 (Deze domeinen worden behandeld onder `*.adobe.com` , maar kunnen desgewenst worden toegevoegd.)
 
    * fusion.adobe.com
