@@ -111,7 +111,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 ## Verwijderde records herstellen
 
 1. Ga naar de pagina met recordtypen waarop u records hebt verwijderd.
-1. Klik **ongedaan maken** pictogram ![ pictogram ](assets/undo-icon.png) in de hoger-juiste hoek van om het even welke verslagtype paginamening, dan klik onlangs geschrapt ****.
+1. Klik **ongedaan maken** pictogram ![ pictogram ](assets/undo-icon.png) in de hoger-juiste hoek van om het even welke verslagtype paginamening, dan klik onlangs geschrapt **&#x200B;**.
 
    De **onlangs geschrapte** vakvertoningen.
 

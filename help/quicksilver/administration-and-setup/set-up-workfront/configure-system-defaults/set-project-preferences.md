@@ -143,7 +143,7 @@ Configureer een of meer van de volgende voorkeuren voor nieuwe projecten in het 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Estimate at Completion ]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Estimate at Completion &#x200B;]</p> </td> 
    <td> <p>Bepaal welke gegevens [!DNL Workfront] gebruikt om [!UICONTROL Estimate at Completion] (EAC) te berekenen die de geprojecteerde totale kosten van een project vertegenwoordigt.</p> 
     <ul> 
      <li><strong>[!UICONTROL Calculate at project level]</strong>: EAC voor de bovenliggende taak en het bovenliggende project worden bepaald door [!UICONTROL Actual Hours] of [!UICONTROL Actual Labor Cost] in te voeren in de EAC-indelingen. Deze berekening bevat [!UICONTROL Actual Hours] of [!UICONTROL Costs and Expenses] die rechtstreeks aan de bovenliggende taak of het bovenliggende project zijn toegevoegd.</li> 

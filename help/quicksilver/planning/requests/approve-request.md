@@ -143,7 +143,7 @@ Een verzoek goedkeuren:
 
 1. Voer een van de volgende handelingen uit:
 
-   * Als u toegang tot de Planning van Workfront hebt en minstens één werkruimte kunt bekijken, klik **het Belangrijkste menu van het Menu ![ Dots ](assets/dots-menu.png) in de hoger-juiste hoek van het scherm, of** Belangrijkste Menu **![ het belangrijkste menu van Lijnen ](assets/lines-menu.png) in de upper-left hoek, als beschikbaar, dan klik** Verzoeken **>** > **2} Planning**, en klik het verzoek met het statuut van **In afwachting van overzicht** of **in overzicht**.****
+   * Als u toegang tot de Planning van Workfront hebt en minstens één werkruimte kunt bekijken, klik **het Belangrijkste menu van het Menu ![ Dots ](assets/dots-menu.png) in de hoger-juiste hoek van het scherm, of** Belangrijkste Menu **![ het belangrijkste menu van Lijnen ](assets/lines-menu.png) in de upper-left hoek, als beschikbaar, dan klik** Verzoeken **>** > **2&rbrace; Planning**, en klik het verzoek met het statuut van **In afwachting van overzicht** of **in overzicht**.**&#x200B;**
 
      >[!TIP]
      >

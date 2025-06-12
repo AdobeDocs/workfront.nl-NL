@@ -111,7 +111,7 @@ of
 
    ![ Meer menuopties van verslagtype kaart ](assets/more-menu-options-from-record-type-card.png)
 
-1. In **geef verslagtype** doos uit, opent het **3} lusje van de Verschijning {door gebrek.**
+1. In **geef verslagtype** doos uit, opent het **3&rbrace; lusje van de Verschijning &lbrace;door gebrek.**
 
    ![ Weergavetabblad van recordtekstvak bewerken ](assets/edit-record-type-box-appearance-tab.png)
 
