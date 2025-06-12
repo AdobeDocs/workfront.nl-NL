@@ -102,7 +102,7 @@ Ga voor meer informatie over het maken van geautomatiseerde workflows en sjablon
 
 Wanneer een gebruiker een revisie start in GenStudio for Performance Marketing, kiest hij of zij gewoon de sjabloon die hij of zij nodig heeft. Gebruikers kunnen op elk gewenst moment eenvoudig een sjabloon voor een proefwerkstroom wijzigen en revisoren en fasen toevoegen of verwijderen.
 
-Voor meer informatie, zie [ overzicht en goedkeuring van het Verzoek ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
+Voor meer informatie, zie [ overzicht en goedkeuring van het Verzoek ](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
 
 ## GenStudio for Performance Marketing-conceptinhoud in de Workfront-proefdrukviewer controleren en goedkeuren
 
@@ -114,7 +114,7 @@ Met de proefdrukviewer kunt u
 * Concept markeren om te tonen wat moet worden gewijzigd
 * Beslissingen nemen
 
-Voor meer informatie, zie [ Overzicht en geef inhoud ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/review-and-edit) uit.
+Voor meer informatie, zie [ Overzicht en geef inhoud ](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/approve/review-and-edit) uit.
 
 
 >[!IMPORTANT]
@@ -126,4 +126,4 @@ Voor meer informatie, zie [ Overzicht en geef inhoud ](https://experienceleague.
 
 Nadat het element is gecontroleerd en goedgekeurd, kunt u het revisiebesluit bekijken en de inhoud rechtstreeks vanuit GenStudio for Performance Marketing publiceren.
 
-Voor meer informatie, zie [ goedgekeurde inhoud ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content) publiceren.
+Voor meer informatie, zie [ goedgekeurde inhoud ](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content) publiceren.
