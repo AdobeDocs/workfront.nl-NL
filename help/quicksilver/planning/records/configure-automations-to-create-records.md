@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
-source-git-commit: ae3fc73e93474c75fd03144b66af23f7142867c0
+exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '1800'
+source-wordcount: '1796'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Workfront-planningsautomatisering configureren
 
@@ -75,7 +75,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-platform</p></td> 
    <td> 
-<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden bezeten om tot alle mogelijkheden van de Planning van Workfront toegang te hebben.</p> 
+<p>Het geval van Workfront van uw organisatie moet aan de Verenigde Ervaring van Adobe worden genegeerd om tot de Planning van Workfront te kunnen toegang hebben.</p> 
 <p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
    </td> 
    </tr> 
@@ -131,7 +131,7 @@ U moet een automatisering voor een verslagtype in de Planning van Workfront vorm
 1. Klik **sparen**.
 De pagina met gegevens over automatisering wordt geopend.
 
-1. Voor de detailspagina van de automatisering, werk de volgende gebieden in de **1&rbrace; sectie van Trekkers bij &lbrace;:**
+1. Voor de detailspagina van de automatisering, werk de volgende gebieden in de **1} sectie van Trekkers bij {:**
 
    * **Trekker**: Selecteer de actie die de automatisering zal teweegbrengen. Bijvoorbeeld, uitgezochte **Knoop klikt**. <!--update this step with a list of all possible triggers; right now only Button click is available-->
 
@@ -214,7 +214,7 @@ Op het **gebied van de Kaart**, werk de volgende informatie bij:
      Bijvoorbeeld, als u een automatisering voor Campagnes vormt om een ander verslagtype automatisch tot stand te brengen genoemd Banden en u **klikt voeg verbonden gebied** toe, worden de volgende gebieden gecreeerd:
 
       * Het **Verbonden verslag** verbindingsgebied wordt gecreeerd voor het **Merken** verslagtype.
-      * Het **Merken** verbindingsgebied wordt gecreeerd voor het **3&rbrace; verslagtype van Campagnes &lbrace;.**
+      * Het **Merken** verbindingsgebied wordt gecreeerd voor het **3} verslagtype van Campagnes {.**
 
 1. (Facultatief) als er geen verbindingsgebieden tussen het originele verslagtype en het voorwerp van Workfront dat op het gebied van Acties wordt geselecteerd zijn, klik **voeg verbonden gebied** toe.
 

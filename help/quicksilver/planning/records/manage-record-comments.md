@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1057'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-platform</p></td> 
    <td> 
-<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden bezeten om tot alle mogelijkheden van de Planning van Workfront toegang te hebben.</p> 
+<p>Het geval van Workfront van uw organisatie moet aan de Verenigde Ervaring van Adobe worden genegeerd om tot de Planning van Workfront te kunnen toegang hebben.</p> 
 <p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
    </td> 
    </tr> 
@@ -147,7 +147,7 @@ De recordtypepagina wordt geopend en alle records van dat type worden weergegeve
 1. Kies een lijstmening van het **drop-down menu van de Mening**.
 1. Klik op de naam van een record in de tabelweergave.
 
-   De 1&rbrace; pagina van de Details van het verslag **&lbrace;opent.** Het gebied Opmerkingen wordt standaard in het rechtervenster geopend.
+   De 1} pagina van de Details van het verslag **{opent.** Het gebied Opmerkingen wordt standaard in het rechtervenster geopend.
 
 1. (Voorwaardelijk) als het juiste paneel niet door gebrek opent, klik **tonen Commentaren** ![ tonen commentaarpictogram ](assets/show-comments-icon.png) in de hoger-juiste hoek om de sectie van Commentaren te openen.
 
@@ -160,8 +160,8 @@ De recordtypepagina wordt geopend en alle records van dat type worden weergegeve
    >Als u weg navigeert uit de sectie Opmerkingen voordat u klaar bent met typen en verzenden, wordt de opmerking in conceptmodus op de pagina bewaard, zelfs nadat u zich hebt afgemeld en weer hebt aangemeld. <!--this is no longer possible for records: Any images that are added to the comment are also saved in the draft. Drafts are saved for 7 days after which they are discarded and cannot be recovered. Drafted comments are only visible to the user entering them.-->
 
 1. (Optioneel) Als u een wijziging ongedaan wilt maken of opnieuw wilt uitvoeren, gebruikt u de volgende sneltoetsen:
-   * CTRL + Z ( ⌘+z voor Mac) om een wijziging ongedaan te maken
-   * CTRL + Y ( ⌘+y voor Mac) om een wijziging opnieuw uit te voeren
+   * CTRL + Z (⌘ + z voor Mac) om een wijziging ongedaan te maken
+   * CTRL + Y (⌘ + y voor Mac) om een wijziging opnieuw uit te voeren
 1. (Optioneel en voorwaardelijk) Als uw Workfront-instantie deel uitmaakt van de Adobe Unified Experience, voegt u **@** toe, gevolgd door de naam van een gebruiker om een tag toe te wijzen aan iemand in de update. Voor meer informatie, zie de sectie [ Overwegingen over het becommentariëren over een verslag ](#considerations-about-commenting-on-a-record) in dit artikel.
 
 1. (Optioneel) Gebruik de opties op de werkbalk RTF om de tekst op te maken, emoties of koppelingen naar de update toe te voegen om de inhoud te verbeteren.

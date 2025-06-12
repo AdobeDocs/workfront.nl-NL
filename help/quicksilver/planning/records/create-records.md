@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '2425'
+source-wordcount: '2419'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-platform</p></td> 
    <td> 
-<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden bezeten om tot alle mogelijkheden van de Planning van Workfront toegang te hebben.</p> 
+<p>Het geval van Workfront van uw organisatie moet aan de Verenigde Ervaring van Adobe worden genegeerd om tot de Planning van Workfront te kunnen toegang hebben.</p> 
 <p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
    </td> 
    </tr> 
@@ -178,8 +178,8 @@ Records van het geselecteerde type worden weergegeven in de weergave.
 
 1. (Optioneel) Gebruik in de tabelweergave de volgende sneltoetsen om nieuwe records of de bijbehorende informatie ongedaan te maken of opnieuw toe te voegen wanneer u deze records toevoegt in de tabelweergave:
 
-   * CTRL + Z ( ⌘ + Z voor Mac) om een wijziging ongedaan te maken
-   * CTRL + Shift + Z ( ⌘ + Shift + Z voor Mac) om een wijziging opnieuw uit te voeren
+   * CTRL + Z (⌘ + Z voor Mac) om een wijziging ongedaan te maken
+   * CTRL + Shift + Z (⌘ + Shift + Z voor Mac) om een wijziging opnieuw uit te voeren
 
 ## Records maken met de knop Nieuwe record of Verzoek om record maken vanuit elke recordtypeweergave
 
@@ -216,7 +216,7 @@ Alle records van het geselecteerde type worden in de weergave weergegeven.
    1. Klik één van de volgende manieren om een verslag tot stand te brengen, dan **ga** verder:
 
       * **voeg manueel** toe. Het voorvertoningsvak van de record wordt geopend.\
-        Voeg informatie over het verslag toe, zoals die in &lbrack; wordt beschreven creeer verslagen door hen inline van de 1&rbrace; sectie van de verslagtype lijstmening &lbrace;in dit artikel toe te voegen, beginnend met stap 6. <!--insure this stays accurate-->&rbrack;(#create-records-by-adding-them-inline-from-the-record-type-table-view)
+        Voeg informatie over het verslag toe, zoals die in [ wordt beschreven creeer verslagen door hen inline van de 1} sectie van de verslagtype lijstmening {in dit artikel toe te voegen, beginnend met stap 6. <!--insure this stays accurate-->](#create-records-by-adding-them-inline-from-the-record-type-table-view)
       * **uploadt van dossier**
 Voeg verslagen toe, zoals die in het artikel [ worden beschreven verslagen door informatie van een CSV of dossier van Excel ](/help/quicksilver/planning/records/import-file-to-create-records.md) in te voeren, die met stap 6 beginnen. <!--ensure this stays accurate-->
       * **leg een verzoek** voor

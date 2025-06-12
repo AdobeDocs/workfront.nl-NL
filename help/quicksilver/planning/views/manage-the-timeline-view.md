@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
+source-git-commit: dae692617f447c446a421207143225b33b51debe
 workflow-type: tm+mt
-source-wordcount: '3152'
+source-wordcount: '3512'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-platform</p></td> 
    <td> 
-<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden bezeten om tot alle mogelijkheden van de Planning van Workfront toegang te hebben.</p> 
+<p>Het geval van Workfront van uw organisatie moet aan de Verenigde Ervaring van Adobe worden genegeerd om tot de Planning van Workfront te kunnen toegang hebben.</p> 
 <p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
    </td> 
    </tr> 
@@ -128,23 +128,57 @@ Een tijdlijnweergave beheren:
    >
    >    Het sorteren van de records in de tijdlijn is niet zichtbaar in de compacte weergave.
 
+1. <span class="preview"> (Voorwaardelijk) Als uw beheerder aangepaste kwartalen heeft ingeschakeld en Workfront problemen detecteert met de manier waarop aangepaste kwartalen worden geconfigureerd, wordt mogelijk een waarschuwing weergegeven wanneer u de tijdlijnweergave opent. </span>
+
+   <div class="preview">
+
+   De volgende scenario&#39;s bestaan:
+
+   * Als er tussenruimten of overlappingen zijn gevonden tussen de datums van de kwartalen, ontvangt u mogelijk een melding dat aangepaste kwartalen nu kunnen worden ingesteld en wellicht moeten worden bewerkt.
+
+     ![ het bericht van het kwartier van de Douane mist of hiaten tussen kwartalen ](assets/custom-quarter-notification-missing-or-gaps.png)
+
+     >[!TIP]
+     >
+     >Dit bericht moet alleen direct worden weergegeven nadat uw organisatie Planningen en aangepaste kwartalen al waren ingeschakeld voor de aankoop. Overlappingen en tussenruimten zijn niet toegestaan nadat u Workfront Planning voor uw organisatie hebt ingeschakeld.
+
+   * Als kwarten gedeeltelijk zijn opgezet, en sommige maanden binnen hetzelfde jaar missen, zou u een bericht kunnen ontvangen wanneer u scrolt om de ontbrekende kwarten te tonen dat de rest van het jaar met de ontbrekende kwarten moet worden opgesteld.
+
+   ![ Ontbrekend origineel bericht van douanekwartalen op chronologiemening ](assets/missing-custom-quarters-original-message-on-timeline-view.png)
+
+   Deze waarschuwingsberichten worden één keer per gebruiker weergegeven.
+
+   >[!NOTE]
+   >
+   >Als het aangepaste kwart niet goed is opgeslagen, worden de klassieke kwartalen weergegeven in de tijdlijnweergave.
+   >Nadat u aangepaste kwartalen hebt ingesteld in het gedeelte Instellen, worden in de tijdlijnweergave de aangepaste kwartalen weergegeven in plaats van de klassieke kwartalen.
+   >Voor informatie, zie [ douanekwarten ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md) toelaten.
+
+   </div>
+
+1. <span class="preview"> (Voorwaardelijk) als u een beheerder van Workfront bent, klik **ga naar Opstelling** aan opstelling uw kwarten. Als niet, klik O.K. **en vraag uw beheerder van Workfront aan opstelling de douanekwarten.</span>**
+
+   >[!TIP]
+   >
+   ><span class="preview"> Go naar de knoopvertoningen van de Opstelling slechts voor de beheerder van Workfront.</span>
+
 1. (Optioneel en voorwaardelijk) Wanneer de naam van de record wordt afgekapt, houdt u de muisaanwijzer boven een recordbalk om de volledige naam van de record en aanvullende informatie weer te geven.
 
 1. Voer een van de volgende handelingen uit om door de tijdlijn te navigeren:
 
    * Klik op de pictogrammen links en rechts of gebruik de horizontale schuifbalk om naar voren en naar achteren in de tijdlijn te gaan. Als u de pagina vernieuwt, blijft het geselecteerde tijdkader behouden.
    * Klik **vandaag** om de chronologie aan de datum van vandaag te centreren.
-   * Selecteer een van de volgende opties in het vervolgkeuzemenu voor het tijdframe om de tijdtoename bij te werken:
+   * Selecteer een van de volgende opties in het vervolgkeuzemenu voor het tijdframe om de tijdtoename bij te werken en de weergave bij te werken:
 
-      * Jaar
-      * Kwart
-      * Maand
+      * **Jaar**: De kwartalen en de maanden van vertoningen met jaaraanwijzing.
+      * **Kwartaal**: De maanden en de weken van vertoningen met kwartaanwijzing.
+      * **Maand**: De weken en dagen van vertoningen.
 1. (Facultatief) klik **Schakelaar aan Compacte mening** om de verslagen te tonen waarvan data niet op de zelfde lijn snijden. <!--check to see if they updated the name of the setting here-->
 1. (Voorwaardelijk) als u uw wijze in **Compact** veranderde, klik **Schakelaar aan Standaard** mening om verslagen in afzonderlijke lijnen te tonen. <span class="preview"> de **Standaard** optie is het gebrek.</span>  <!--check to see if they updated the name of the setting here-->
 
 1. Ga als volgt te werk om snel records te zoeken die overeenkomen met een trefwoord:
 
-   1. Klik het **pictogram van het Onderzoek ![ pictogram van het 1&rbrace; Onderzoek ](assets/search-icon.png) en begin een sleutelwoord verbonden aan om het even welk gebied van een verslag te typen dat op het scherm toont.** Het aantal juiste overeenkomsten wordt weergegeven naast het zoekitem en de record met de juiste overeenkomst wordt gemarkeerd.
+   1. Klik het **pictogram van het Onderzoek ![ pictogram van het 1} Onderzoek ](assets/search-icon.png) en begin een sleutelwoord verbonden aan om het even welk gebied van een verslag te typen dat op het scherm toont.** Het aantal juiste overeenkomsten wordt weergegeven naast het zoekitem en de record met de juiste overeenkomst wordt gemarkeerd.
 
       ![ vakje van het Onderzoek en de mening van de resultaatchronologie ](assets/search-box-and-results-timeline-view.png)
 
@@ -268,6 +302,16 @@ Werk de instellingen van de tijdlijnweergave bij om aan te geven wat en hoe info
    >* Records die geen waarden hebben voor de begin- of einddatum of die later een begindatum hebben dan de einddatum, worden niet weergegeven in de tijdlijnweergave.
    >
    >* Als u aanvullende records weergeeft met de optie Indeling, zijn de begin- en einddatums die van de hoofdrecord. U kunt geen begin- en einddatums kiezen voor de verbonden records in dit gebied.
+
+1. <span class="preview"> (Voorwaardelijk en facultatief) als uw een beheerder van Workfront bent, klik **gaan naar Opstelling** in de **doos van het Gebruik douanekwartalen** om naar het gebied van de Opstelling en opstellings douanekwarten te gaan. Nadat u aangepaste kwarten hebt ingesteld, kunt u deze weergeven in de tijdlijnweergave in plaats van in de klassieke kwartalen. Als u geen beheerder van Workfront bent, kunt u verzoeken dat de douanekwarten voor uw organisatie van een beheerder worden toegelaten. </span>
+
+   Voor informatie, zie [ douanekwarten ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md) toelaten.
+
+   ![ de douane van het kwartalen van het Gebruik waarschuwing binnen de montages van de chronologiemening ](assets/use-custom-quarters-warning-inside-timelive-view-settings.png)
+
+   >[!TIP]
+   >
+   ><span class="preview"> Go naar de knoopvertoningen van de Opstelling slechts voor de beheerder van Workfront.</span>
 
 1. Klik **stijl van de Bar** in het linkerpaneel, om te wijzen op welke informatie u op de verslagbars wilt tonen.
 

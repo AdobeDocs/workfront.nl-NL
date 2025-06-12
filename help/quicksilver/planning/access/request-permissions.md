@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '739'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-platform</p></td> 
    <td> 
-<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden bezeten om tot alle mogelijkheden van de Planning van Workfront toegang te hebben.</p> 
+<p>Het geval van Workfront van uw organisatie moet aan de Verenigde Ervaring van Adobe worden genegeerd om tot de Planning van Workfront te kunnen toegang hebben.</p> 
 <p><b>BELANGRIJK</b></p>
 <p>De gebruikers in uw organisatie kunnen om toestemmingen voor meningen en werkruimten slechts verzoeken wanneer uw organisatie aan de Adobe Verenigde Ervaring wordt betreden. </p>
 <p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
@@ -140,10 +140,8 @@ Wanneer iemand met u een koppeling deelt naar een werkruimte of een weergave waa
 
    Alle gebruikers met de machtiging Beheren voor de weergave of werkruimte ontvangen de volgende meldingen voor de toegangsaanvraag:
    * Een melding in de app
-
      ![ In-app bericht voor toegangsverzoek ](assets/in-app-notification-for-access-request.png)
    * Een e-mailmelding
-
      ![ E-mailbericht voor toegangsverzoek ](assets/email-notification-for-access-request.png)
 
 1. (Voorwaardelijk) Wanneer de weergave of werkruimtenmanager u machtigingen verleent aan de weergave of werkruimte, ontvangt u een e-mailmelding en een melding in de app met een bevestiging dat de machtiging is verleend. <!--check this - I was not able to test this, but Isk confirmed.-->

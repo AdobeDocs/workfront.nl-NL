@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: d0ec729a510b78a7ce417356ac9250a485308f0b
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1653'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-platform</p></td> 
    <td> 
-<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden bezeten om tot alle mogelijkheden van de Planning van Workfront toegang te hebben.</p> 
+<p>Het geval van Workfront van uw organisatie moet aan de Verenigde Ervaring van Adobe worden genegeerd om tot de Planning van Workfront te kunnen toegang hebben.</p> 
 <p>Uw organisatie moet aan de Verenigde Ervaring van Adobe voor gebruikers worden bezet om toestemmingen aan een mening van een toestemmingsverzoek te kunnen verzoeken en verlenen. </p>
 <p>Gebruikers moeten aan de Adobe Admin Console worden toegevoegd om machtigingen te verkrijgen voor de Workfront-planningsweergaven.</p>
 <p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
@@ -214,7 +214,7 @@ Een weergave openbaar delen in Workfront Planning:
 
    Er wordt een koppeling beschikbaar. Dit is een openbare link. Als de koppeling wordt gedeeld, heeft iedereen met deze koppeling, dus ook mensen van buiten uw organisatie, toegang tot de pagina met recordtypen en kunnen records en velden op de pagina worden weergegeven.
 
-1. Klik de **pictogram van het 1&rbrace; verbinding van het Exemplaar ![ verbindingsmening van het Exemplaar ](assets/copy-link-view.png) om de verbinding aan uw klembord te kopiëren.**
+1. Klik de **pictogram van het 1} verbinding van het Exemplaar ![ verbindingsmening van het Exemplaar ](assets/copy-link-view.png) om de verbinding aan uw klembord te kopiëren.**
 
 1. Voer manueel een datum in, of gebruik de kalender op het **gebied van de Vervaldatum van de Verbinding** om een vervaldatum voor de openbare verbinding te selecteren. De weergave van de recordpagina is na de geselecteerde datum niet toegankelijk.
 
@@ -236,10 +236,8 @@ Gebruikers die een koppeling openen naar een weergave waarvoor zij geen machtigi
 1. (Voorwaardelijk) Als u de manager van een mening bent, zou u een verzoek van een andere gebruiker kunnen ontvangen om tot de mening op de volgende gebieden toegang te hebben:
 
    * Een melding in de app
-
      ![ In-app bericht voor toegangsverzoek voor mening ](assets/in-app-notification-for-access-request-for-view.png)
    * Een e-mailmelding
-
      ![ In-app bericht voor toegangsverzoek voor mening ](assets/in-app-notification-for-access-request-for-view.png)
 1. (Voorwaardelijk) Klik in het systeemvak in Workfront op de melding in de app.
 of

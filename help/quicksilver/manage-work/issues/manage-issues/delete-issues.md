@@ -6,9 +6,9 @@ description: In Adobe Workfront kunt u problemen of aanvragen verwijderen als u 
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: aa2bef064df3ff7dd9e4fd896ac7482df3c55e32
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -132,10 +132,12 @@ Afhankelijk van hoe uw Workfront of groepsbeheerder het Project, de Taak, of de 
    ![ Uitgave Meer menu ](assets/qs-issue-more-menu-highlighted-350x469.png)
 
 1. Klik **Uitgave van de Schrapping**.
-1. Als de schrapping wordt toegestaan, klik **Schrapping**.
+1. Klik **Schrapping** aan.
 
-   Uw Workfront-beheerder staat mogelijk niet toe dat problemen worden verwijderd waarvoor uren zijn geregistreerd.\
-   Voor meer informatie over de toegang en de toestemmingen nodig om een kwestie te schrappen, zie de sectie [ Overwegingen voor het schrappen van kwesties ](#considerations-for-deleting-issues) in dit artikel.
+   >[!NOTE]
+   >
+   >  Uw Workfront-beheerder staat mogelijk niet toe dat problemen worden verwijderd waarvoor uren zijn geregistreerd.\
+   >  Voor meer informatie over de toegang en de toestemmingen nodig om een kwestie te schrappen, zie de sectie [ Overwegingen voor het schrappen van kwesties ](#considerations-for-deleting-issues) in dit artikel.
 
 ## Verwijderde problemen herstellen
 

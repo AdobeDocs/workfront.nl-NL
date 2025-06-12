@@ -6,9 +6,9 @@ description: U kunt een rapport filteren op het tijdframe van een datum die op e
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
-source-git-commit: f78a86dcdf7b63e98bec5216fb5ab7622775a053
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '963'
 ht-degree: 0%
 
 ---
@@ -186,7 +186,7 @@ Als u bijvoorbeeld een uurrapport maakt en de uren wilt weergeven die zijn ingev
   </tr> 
   <tr> 
    <td role="rowheader">Laatste kwartier</td> 
-   <td> <p>Geeft uren weer waarbij de ingangsdatum een datum is in het kwartaal voorafgaand aan het huidige kwartaal, waarbij kwartalen hierboven zijn gedefinieerd.</p> <p>Opmerking: als uw Workfront-beheerder aangepaste kwartalen voor uw systeem heeft ingeschakeld en gedefinieerd, worden de ingebouwde filters voor kwartalen vervangen door uw aangepaste kwartgegevens. Voor meer informatie over het toelaten van douanekwartalen, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref"> douanekwartalen voor projecten </a> toelaten.</p> </td> 
+   <td> <p>Geeft uren weer waarbij de ingangsdatum een datum is in het kwartaal voorafgaand aan het huidige kwartaal, waarbij kwartalen hierboven zijn gedefinieerd.</p> <p>Opmerking: als uw Workfront-beheerder aangepaste kwartalen voor uw systeem heeft ingeschakeld en gedefinieerd, worden de ingebouwde filters voor kwartalen vervangen door uw aangepaste kwartgegevens. Voor meer informatie over het toelaten van douanekwartalen, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref"> douanekwarten </a> toelaten.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Dit jaar</td> 

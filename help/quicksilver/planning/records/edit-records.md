@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '2263'
+source-wordcount: '2255'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-platform</p></td> 
    <td> 
-<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden bezeten om tot alle mogelijkheden van de Planning van Workfront toegang te hebben.</p> 
+<p>Het geval van Workfront van uw organisatie moet aan de Verenigde Ervaring van Adobe worden genegeerd om tot de Planning van Workfront te kunnen toegang hebben.</p> 
 <p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
    </td> 
    </tr> 
@@ -162,7 +162,7 @@ Voor meer informatie, zie [ verslagmeningen ](/help/quicksilver/planning/views/m
    >  * Gekoppelde velden die worden gemaakt door het verbinden van recordtypen. Voor meer informatie, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * Velden van de volgende typen: Gemaakt door, Gemaakt op datum, Laatst gewijzigd door, Datum Laatst gewijzigd, Formule.
 
-1. (Facultatief en voorwaardelijk) wanneer u een alinea-type gebied uitgeeft, gebruik de volgende **het formatteren opties van de Tekst 0&rbrace; Rich &lbrace;:**
+1. (Facultatief en voorwaardelijk) wanneer u een alinea-type gebied uitgeeft, gebruik de volgende **het formatteren opties van de Tekst 0} Rich {:**
 
    * Vet
    * Cursief
@@ -200,8 +200,8 @@ Voor meer informatie, zie [ verslagmeningen ](/help/quicksilver/planning/views/m
    >Overweeg het volgende:
    >
    >* Gebruik de volgende sneltoetsen voor het kopiëren en plakken van gegevens:
-   >   * Kopie: CTRL + C ( ⌘ + C voor Mac)
-   >   * Plakken: CTRL + V ( ⌘ + V voor Mac)
+   >   * Kopiëren: CTRL + C (⌘ + C voor Mac)
+   >   * Plakken: CTRL + V (⌘ + V voor Mac)
    >
    >* U kunt geen veldwaarden kopiëren en plakken op de recordpagina. Deze functionaliteit wordt alleen ondersteund in de tabelweergave van een recordtype.
    >* U kunt geen veldwaarden kopiëren en plakken voor de volgende veldtypen:
@@ -211,8 +211,8 @@ Voor meer informatie, zie [ verslagmeningen ](/help/quicksilver/planning/views/m
 
 1. (Optioneel) Gebruik de volgende sneltoetsen om het bewerken of kopiëren en plakken van recordgegevens ongedaan te maken of opnieuw uit te voeren:
 
-   * CTRL + Z ( ⌘ + Z voor Mac) om een wijziging ongedaan te maken
-   * CTRL + Shift + Z ( ⌘ + Shift + Z voor Mac) om een wijziging opnieuw uit te voeren
+   * CTRL + Z (⌘ + Z voor Mac) om een wijziging ongedaan te maken
+   * CTRL + Shift + Z (⌘ + Shift + Z voor Mac) om een wijziging opnieuw uit te voeren
 
    >[!TIP]
    >

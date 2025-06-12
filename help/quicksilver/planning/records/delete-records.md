@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '808'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-platform</p></td> 
    <td> 
-<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden bezeten om tot alle mogelijkheden van de Planning van Workfront toegang te hebben.</p> 
+<p>Het geval van Workfront van uw organisatie moet aan de Verenigde Ervaring van Adobe worden genegeerd om tot de Planning van Workfront te kunnen toegang hebben.</p> 
 <p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
    </td> 
    </tr> 
@@ -170,8 +170,8 @@ Voor informatie over het terugkrijgen van geschrapte verslagen, zie [ Recover ge
    * Klik **ongedaan maken** pictogram ![ pictogram ](assets/undo-icon.png) ongedaan maken, toen **onlangs geschrapt** om de geschrapte verslagen terug te krijgen. Voor informatie over het terugkrijgen van geschrapte verslagen, zie [ Recover geschrapte verslagen ](/help/quicksilver/planning/records/restore-deleted-records.md).
    * Gebruik de volgende sneltoetsen om een record ongedaan te maken of opnieuw te verwijderen:
 
-      * CTRL + Z ( ⌘ + Z voor Mac) om het verwijderen van een record ongedaan te maken
-      * CTRL + Shift + Z ( ⌘ + Shift + Z voor Mac) om record opnieuw te verwijderen
+      * CTRL + Z (⌘ + Z voor Mac) om het verwijderen van een record ongedaan te maken
+      * CTRL + Shift + Z (⌘ + Shift + Z voor Mac) om record opnieuw te verwijderen
 
 
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '973'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 <tr>
    <td role="rowheader"><p>Adobe Workfront-platform</p></td>
    <td>
-<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden bezeten om tot alle mogelijkheden van de Planning van Workfront toegang te hebben.</p>
+<p>Het geval van Workfront van uw organisatie moet aan de Verenigde Ervaring van Adobe worden genegeerd om tot de Planning van Workfront te kunnen toegang hebben.</p>
 <p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p>
    </td>
   </tr>
@@ -143,7 +143,7 @@ Een verzoek goedkeuren:
 
 1. Voer een van de volgende handelingen uit:
 
-   * Als u toegang tot de Planning van Workfront hebt en minstens één werkruimte kunt bekijken, klik **het Belangrijkste menu van het Menu ![ Dots ](assets/dots-menu.png) in de hoger-juiste hoek van het scherm, of** Belangrijkste Menu **![ het belangrijkste menu van Lijnen ](assets/lines-menu.png) in de upper-left hoek, als beschikbaar, dan klik** Verzoeken **>** > **2&rbrace; Planning**, en klik het verzoek met het statuut van **In afwachting van overzicht** of **in overzicht**.**&#x200B;**
+   * Als u toegang tot de Planning van Workfront hebt en minstens één werkruimte kunt bekijken, klik **het Belangrijkste menu van het Menu ![ Dots ](assets/dots-menu.png) in de hoger-juiste hoek van het scherm, of** Belangrijkste Menu **![ het belangrijkste menu van Lijnen ](assets/lines-menu.png) in de upper-left hoek, als beschikbaar, dan klik** Verzoeken **>** > **2} Planning**, en klik het verzoek met het statuut van **In afwachting van overzicht** of **in overzicht**.****
 
      >[!TIP]
      >

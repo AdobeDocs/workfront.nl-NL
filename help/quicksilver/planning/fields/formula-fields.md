@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '755'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-platform</p></td> 
    <td> 
-<p>Het geval van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden bezeten om tot alle mogelijkheden van de Planning van Workfront toegang te hebben.</p> 
+<p>Het geval van Workfront van uw organisatie moet aan de Verenigde Ervaring van Adobe worden genegeerd om tot de Planning van Workfront te kunnen toegang hebben.</p> 
 <p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
    </td> 
    </tr> 
@@ -118,6 +118,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    * Datum
 
   Voor meer informatie, zie de &quot;sectie van de Formule&quot;in artikel [ gebieden ](/help/quicksilver/planning/fields/create-fields.md) creëren.
+* U kunt in nieuwe formules verwijzen naar formuleringsvelden. Zodra de waarde wordt bijgewerkt in een veld waarnaar wordt verwezen in een formuleveld, worden alle volgende velden die verwijzen naar dat veld of naar formulevelden die dat veld bevatten, automatisch bijgewerkt.
 
 ## Ondersteunde formules
 
@@ -127,12 +128,13 @@ De de formules van de Planning van Adobe Workfront gebieden steunen de meeste ui
 >
 >De volgende Workfront-expressies worden niet ondersteund voor velden in de Workfront-planningsformule:
 >
->* SORTASCARRAY
->* SORTDESCARRAY
+><!--* SORTASCARRAY-->
+><!--* SORTDESCARRAY-->
 >* ADDHOUR
 >* SCHAKELEN
 >* INDELING
 
+<!--remove the ones commented out when we go live to Preview and Prod, if they truly are added to Planning-->
 
 Voor een volledige lijst van de uitdrukkingen van Workfront, zie [ Overzicht van berekende gegevensuitdrukkingen ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 

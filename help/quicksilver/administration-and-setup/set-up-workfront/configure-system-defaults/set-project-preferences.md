@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '2251'
+source-wordcount: '2249'
 ht-degree: 0%
 
 ---
@@ -143,7 +143,7 @@ Configureer een of meer van de volgende voorkeuren voor nieuwe projecten in het 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Estimate at Completion &#x200B;]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Estimate at Completion ]</p> </td> 
    <td> <p>Bepaal welke gegevens [!DNL Workfront] gebruikt om [!UICONTROL Estimate at Completion] (EAC) te berekenen die de geprojecteerde totale kosten van een project vertegenwoordigt.</p> 
     <ul> 
      <li><strong>[!UICONTROL Calculate at project level]</strong>: EAC voor de bovenliggende taak en het bovenliggende project worden bepaald door [!UICONTROL Actual Hours] of [!UICONTROL Actual Labor Cost] in te voeren in de EAC-indelingen. Deze berekening bevat [!UICONTROL Actual Hours] of [!UICONTROL Costs and Expenses] die rechtstreeks aan de bovenliggende taak of het bovenliggende project zijn toegevoegd.</li> 
@@ -241,7 +241,7 @@ Configureer een of meer van de volgende voorkeuren voor nieuwe projecten in het 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>[!UICONTROL Custom Quarters]</p> </td> 
-   <td> <p>Aangepaste jaarlijkse kwartalen configureren voor de gebruikers die aan projecten zullen werken. Aangepaste kwartalen zijn gewoonlijk kwartalen die niet overeenkomen met de traditionele uitsplitsing van kwartalen gedurende een kalenderjaar. U kunt meerdere aangepaste kwarten toevoegen. Voor meer informatie, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override=""> douanekwartalen voor projecten </a> toelaten.</p>  <p><b> NOTA </b>: </p><p>[!DNL Workfront] beheerders kunnen [!UICONTROL Custom Quarters] -voorkeuren niet ontgrendelen.</p> </td> 
+   <td> <p>Aangepaste jaarlijkse kwartalen configureren voor de gebruikers die aan projecten zullen werken. Aangepaste kwartalen zijn gewoonlijk kwartalen die niet overeenkomen met de traditionele uitsplitsing van kwartalen gedurende een kalenderjaar. U kunt meerdere aangepaste kwarten toevoegen. Voor meer informatie, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override=""> douanekwarten </a> toelaten.</p>  <p><b> NOTA </b>: </p><p>[!DNL Workfront] beheerders kunnen [!UICONTROL Custom Quarters] -voorkeuren niet ontgrendelen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -252,7 +252,7 @@ U kunt een BedrijfsGeval voor pas gecreëerde projecten door het systeem tot sta
 
 Nadat de [!DNL Workfront] beheerder de secties op [!UICONTROL Business Case] toelaat, kan een Eigenaar van het Project een BedrijfsGeval op het projectniveau tot stand brengen. Voor informatie over het creëren van een BedrijfsGeval, zie [ een BedrijfsGeval voor een project ](../../../manage-work/projects/define-a-business-case/create-business-case.md) creëren.
 
-### [!UICONTROL Life After Death] {#life-after-death}
+### [!UICONTROL Life After Death]  {#life-after-death}
 
 Configureer een of meer van de volgende voorkeuren voor nieuwe projecten in het hele systeem:
 

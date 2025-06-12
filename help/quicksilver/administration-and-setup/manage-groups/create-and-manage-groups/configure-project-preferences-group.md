@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '2761'
+source-wordcount: '2759'
 ht-degree: 0%
 
 ---
@@ -238,14 +238,14 @@ Configureer een of meer van de volgende voorkeuren voor nieuwe projecten die aan
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p><strong> Kwarten van de Douane </strong> </p> </td> 
-   <td> <p>Aangepaste jaarlijkse kwartalen configureren voor de gebruikers die aan projecten zullen werken. Aangepaste kwartalen zijn gewoonlijk kwartalen die niet overeenkomen met de traditionele uitsplitsing van kwartalen gedurende een kalenderjaar. U kunt meerdere aangepaste kwarten toevoegen. Voor meer informatie, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override=""> douanekwartalen voor projecten </a> toelaten.</p> <p><b> NOTA </b>: De beheerders van Workfront kunnen de voorkeur van Kwarters van de Douane niet ontgrendelen.</p> </td> 
+   <td> <p>Aangepaste jaarlijkse kwartalen configureren voor de gebruikers die aan projecten zullen werken. Aangepaste kwartalen zijn gewoonlijk kwartalen die niet overeenkomen met de traditionele uitsplitsing van kwartalen gedurende een kalenderjaar. U kunt meerdere aangepaste kwarten toevoegen. Voor meer informatie, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override=""> douanekwarten </a> toelaten.</p> <p><b> NOTA </b>: De beheerders van Workfront kunnen de voorkeur van Kwarters van de Douane niet ontgrendelen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Zakelijke zaken {#business-cases}
 
-U kunt een BedrijfsGeval voor pas gecreëerde projecten tot stand brengen verbonden aan de groep om projectverzoeken voor te leggen. U kunt voorkeur bepalen om te bepalen welke gebieden op het **BedrijfsGeval** vorm zichtbaar zijn. Wij adviseren dat u deze opties toelaat zodat andere hulpmiddelen, zoals Portfolio Optimizer, behoorlijk bijwerken. Voor meer informatie over wat elke gebiedsvertoningen, zie [ een BedrijfsGeval bepalen: artikelindex ](../../../manage-work/projects/define-a-business-case/define-business-case.md).
+U kunt een BedrijfsGeval voor pas gecreëerde projecten tot stand brengen verbonden aan de groep om projectverzoeken voor te leggen. U kunt voorkeur bepalen om te bepalen welke gebieden op het **BedrijfsGeval** vorm zichtbaar zijn. We raden u aan deze opties in te schakelen, zodat andere gereedschappen, zoals Portfolio Optimizer, correct worden bijgewerkt. Voor meer informatie over wat elke gebiedsvertoningen, zie [ een BedrijfsGeval bepalen: artikelindex ](../../../manage-work/projects/define-a-business-case/define-business-case.md).
 
 Nadat de beheerder van Workfront de secties op het BedrijfsGeval toelaat, kan een Eigenaar van het Project een BedrijfsGeval op het projectniveau dan creëren. Voor informatie over het creëren van een BedrijfsGeval, zie [ een BedrijfsGeval voor een project ](../../../manage-work/projects/define-a-business-case/create-business-case.md) creëren.
 

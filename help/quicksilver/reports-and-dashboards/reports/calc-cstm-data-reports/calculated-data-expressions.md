@@ -7,9 +7,9 @@ description: U kunt gegevensexpressies gebruiken om berekende aangepaste gegeven
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 6a46486b62974f1cc7033b4497d32ab787b05bf2
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '2433'
+source-wordcount: '2463'
 ht-degree: 0%
 
 ---
@@ -391,7 +391,17 @@ U kunt een berekend aangepast veld maken waarin een waarde met tekstopmaak wordt
    <p><code>ARRAY(string1, "delimiter")</code></p> 
    </td> 
   </tr>
-  <tr> 
+
+<tr> 
+   <td><strong> ARRAYCONTAINS </strong> </td> 
+   <td> <p>Zoekt naar een specifieke waarde in een lijst of array. Als de waarde wordt gevonden, keert de functie Waar terug, anders keert het Vals. </p> 
+   <p>De expressie wordt als volgt opgemaakt:</p>
+   <p><code>ARRAY(value 1, value 2)</code></p> 
+   </td> 
+  </tr>
+
+
+<tr> 
    <td><strong> ARRAYLENGTH </strong> </td> 
    <td> <p>Retourneert het aantal elementen in de array en is als volgt opgemaakt:</p>
    <p><code>ARRAYLENGTH(array)</code></p> 
