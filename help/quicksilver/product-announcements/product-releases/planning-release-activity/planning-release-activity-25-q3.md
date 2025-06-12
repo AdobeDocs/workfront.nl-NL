@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 686db6004d1a64279080ab3ba311c172a6a24d1f
+source-git-commit: 39762dbf34501f3cd967a2a766042086d18003c8
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1601'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,62 @@ In dit artikel worden de functies beschreven die tijdens de release van het derd
 <!--keep the sentence below for all future quarterly release pages-->
 
 Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront worden vrijgegeven, zie [ de versieactiviteit van de Planning van Adobe Workfront: artikelindex ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Aangepaste beschikbaarheid voor kwartalen voor de tijdlijnweergave van Workfront Planning
+
+>[!NOTE]
+>
+>* Voorbeeld: 12 juni 2025
+>* Snelle productie: 17 juli 2025
+>* Productie voor alle afnemers: 17 juli 2025
+
+Met deze update, wanneer u douanekwarten in het gebied van de Voorkeur van het Project van Opstelling vormt, zijn de douanekwartalen beschikbaar voor de mening van de Chronologie in de Planning van Workfront.
+
+Vóór deze update waren de aangepaste kwartalen alleen beschikbaar voor rapportagemogelijkheden van Workfront.
+
+Met deze verbetering zullen klanten die Workfront Planning hebben aangeschaft, een bijgewerkte ervaring bekijken voor het definiëren van aangepaste kwartalen. Deze update bevat de volgende verbeteringen:
+
+Tussenruimten en overlappingen tussen de kwartalen worden niet langer aanvaard.
+
+U kunt maximaal 100 aangepaste kwartalen instellen. Vóór deze update kon u slechts 8 aangepaste kwartalen instellen
+
+Er zijn geen wijzigingen in de ervaring voor het aangepaste kwartaal voor klanten die geen Workfront Planning hebben aangeschaft.
+
+Voor meer informatie, zie [ douanekwartalen voor projecten ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md) toelaten.
+
+## Alle afhankelijke formules tegelijkertijd berekenen
+
+>[!NOTE]
+>
+>* Voorbeeld: 12 juni 2025
+>* Snelle productie: 12 juni 2025
+>* Productie voor alle afnemers: 12 juni 2025
+
+Wij hebben een verbetering geïntroduceerd die alle formuleringsgebieden afhankelijk van elkaar tezelfdertijd bijwerkt nadat een referenced gebied manueel wordt bijgewerkt. Formulervelden die 2, 3 of 4 velden verwijderd zijn van het veld waarvan de waarde handmatig wordt gewijzigd en die naar elkaar verwijzen, worden nu automatisch tegelijkertijd bijgewerkt.
+
+Vóór deze verbetering, slechts werden de direct afhankelijke formulegebieden bijgewerkt toen de waarde van een verwijzingsgebied manueel werd bijgewerkt.
+
+Voor informatie, zie [ overzicht van de gebieden van de Formule ](/help/quicksilver/planning/fields/formula-fields.md).
+
+## Nieuwe expressies die worden toegevoegd aan formuliervelden
+
+>[!NOTE]
+>
+>* Voorbeeld: 6 juni 2025
+>* Snelle productie: 6 juni 2025
+>* Productie voor alle afnemers: 6 juni 2025
+
+De volgende expressies zijn toegevoegd aan de velden met formules:
+
+* ARRAYCONTAINEN
+
+* SORTASCARRAY
+
+* SORTDESCARRAY
+
+Vóór deze verbetering, werden deze uitdrukkingen gesteund slechts in Workfront berekende douanevelden.
+
+Voor informatie, zie [ overzicht van de gebieden van de Formule ](/help/quicksilver/planning/fields/formula-fields.md).
 
 ## Filters, kolommen en extra velden die worden toegevoegd aan het tabblad Planning in het gedeelte Aanvragen
 
@@ -150,7 +206,7 @@ Voorafgaand aan deze verbetering, moesten de gebruikers met alle vergunningsnive
 >[!NOTE]
 >
 >Deze wijziging is zichtbaar voor alle nieuwe en bestaande gebruikers met een System Administrator- en Standard-licentie.
->&#x200B;>Bestaande gebruikers die aan een lay-outsjabloon zijn toegewezen, blijven alles zien volgens de instellingen die in de lay-outsjabloon zijn gedefinieerd.
+>>Bestaande gebruikers die aan een lay-outsjabloon zijn toegewezen, blijven alles zien volgens de instellingen die in de lay-outsjabloon zijn gedefinieerd.
 
 Voor informatie, zie [ overzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/access/access-overview.md).
 
@@ -184,7 +240,7 @@ Voor informatie, zie [ de chronologiemening ](/help/quicksilver/planning/views/m
 >[!NOTE]
 >
 >* Voorbeeld: 17 april 2025
->* Snelle productie: 12 juni 2025
+>* Snelle productie: 17 juli 2025
 >* Productie voor alle afnemers: 17 juli 2025
 
 Om beter te controleren wie verslagen in elk verslagtype kan bekijken of beheren en ervoor te zorgen dat slechts de gemachtigde mensen de informatie van elk verslagtype kunnen beheren die op hun rollen en verantwoordelijkheden wordt gebaseerd, hebben wij toestemmingen op het verslagtype niveau geïntroduceerd.

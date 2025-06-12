@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: a5a61045bad5a97fb1413fac4a5a2666b753fa83
+source-git-commit: 3ff70fcc949644d511c876add10d2c58901cb197
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,9 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwart
 
 >[!NOTE]
 >
->* Voorbeeld: 27 mei 2025
->* Snelle productie: 27 mei 2025
->* Productie voor alle afnemers: 27 mei 2025
+>* Voorbeeld: met de volgende API-versie, gepland voor later in 2025
+>* Snelle productie: met de volgende API-versie, gepland voor later in 2025
+>* Productie voor alle klanten: met de volgende API-versie, gepland voor later in 2025
 
 Deze update introduceert een verandering in de manier de Werkelijke Uren voor projecten, taken, en kwesties in het gegevensbestand worden opgeslagen. Vanaf deze update gebruiken de werkelijke uren een waardeveld van `actualWorkRequiredDouble` (met een waarde in uren).
 

@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: b011ee9afcce273c82c1f7d93ca86dfde035a497
+source-git-commit: 6fa00a88f6620936ed9af00faf60f61d48c2f825
 workflow-type: tm+mt
-source-wordcount: '4126'
+source-wordcount: '4390'
 ht-degree: 0%
 
 ---
@@ -20,10 +20,20 @@ Deze pagina bevat een overzicht van de interface-updates die we in Adobe Workfro
 >
 >In de meeste gevallen, wordt elke update eerst vrijgegeven aan het milieu van de Voorproef, dan incrementeel toegelaten in de milieu van de Productie voor een groeiende ondergroep klanten die op de vermelde de versiedatum van de Productie begint.
 
-Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product [&#128279;](/help/quicksilver/product-announcements/product-releases/product-releases.md).
+Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product ](/help/quicksilver/product-announcements/product-releases/product-releases.md).[
 
 
 ## Beheer en installatie
+
+### Interface-updates voor de pagina Klantgegevens
+
+**de versie van de Voorproef: 12 Juni, 2025; De versie van de Productie: 19 Juni, 2025**
+
+We hebben de pagina Klantgegevens bijgewerkt met een modern ontwerp dat aansluit bij andere delen van Workfront.
+
+Ga naar Instellen > Systeem > Klantgegevens om deze wijziging weer te geven.
+
+Voor informatie, zie [ basisinformatie voor uw systeem ](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md) vormen.
 
 ### Interface-updates voor de pagina Gegevens importeren (Kick-start)
 
@@ -108,6 +118,22 @@ We hebben de pagina die u gebruikt, bijgewerkt zodat u ondersteuning kunt bieden
 
 ## Projecten
 
+### De updates van de interface voor de Verwante projectsectie van een project (beschikbaar voor specifieke klanten slechts)
+
+**de versie van de Voorproef: 12 Juni, 2025; De versie van de Productie: 19 Juni, 2025**
+
+We hebben het gedeelte Gekoppelde projecten van een project bijgewerkt met een modern ontwerp dat aansluit bij andere gebieden van Workfront.
+
+Specifieke klanten kunnen deze verandering bekijken door naar de Verwante projectsectie in het linkerpaneel te gaan.
+
+### Nieuwe vormgeving voor het vak &quot;Opslaan als sjabloon&quot;
+
+**de versie van de Voorproef: 12 Juni, 2025; De versie van de Productie: 19 Juni, 2025**
+
+Wij hebben de blik en het gevoel van &quot;sparen als malplaatje&quot;doos bijgewerkt die wanneer het bewaren van een project als malplaatje toont. Het nieuwe ontwerp bevat een gestroomlijnde interface, waarbij alle secties in één samenhangend formulier worden weergegeven. U kunt navigeren met koppelingen in het linkerdeelvenster. Het nieuwe ontwerp komt overeen met andere gebieden en andere objecten in de toepassing.
+
+Voor informatie, zie [ sparen een project als malplaatje ](/help/quicksilver/manage-work/projects/manage-projects/save-project-as-template.md).
+
 ### Updates weergeven en weergeven voor het vak Uitgave verwijderen
 
 **de versie van de Voorproef: 29 mei, 2025; de versie van de Productie: 5 Juni, 2025**
@@ -150,6 +176,21 @@ Raadpleeg de volgende artikelen voor meer informatie:
 
 
 ## Rapporten en dashboards
+
+### Bijgewerkte rapporten met nieuwe opmaak
+
+**de versie van de Voorproef: 12 Juni, 2025; De versie van de Productie: 19 Juni, 2025**
+
+We hebben het uiterlijk van meerdere rapporten aangepast aan het ontwerp van andere gebieden van Workfront. Er is geen functionaliteit gewijzigd.
+
+Deze update bevat visuele wijzigingen in de lijsten en werkbalken van de rapporten voor de volgende objecttypen:
+
+* Risico&#39;s
+* Basislijnen
+* Tarieven
+* Layoutsjablonen
+
+Voor informatie, zie [ een douanerapport ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 ### URL&#39;s met /tile of /qstile worden niet meer ondersteund in Workfront-dashboards
 
