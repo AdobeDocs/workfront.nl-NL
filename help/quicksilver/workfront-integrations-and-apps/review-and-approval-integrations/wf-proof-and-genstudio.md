@@ -25,7 +25,7 @@ Met de integratie tussen GenStudio for Performance Marketing en Workfront Proof 
 
 * Besluiten over beoordelingen in GenStudio for Performance Marketing bekijken voor definitieve goedkeuring en publicatie
 
-Voor meer informatie over overzicht en goedkeuring in GenStudio for Performance Marketing, zie [ integratie van Workfront Proof met GenStudio for Performance Marketing ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration).
+Voor meer informatie over overzicht en goedkeuring in GenStudio for Performance Marketing, zie [ integratie van Workfront Proof met GenStudio for Performance Marketing ](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration).
 
 
 ## Toegangsvereisten
