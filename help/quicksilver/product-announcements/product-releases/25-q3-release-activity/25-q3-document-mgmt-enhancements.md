@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: 26a97126bbe809bc5fdd40d52bce2e0763110bcb
+source-git-commit: 11fb8416c4432708b4847486d345ab7a9489f6fb
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,14 @@ ht-degree: 0%
 Op deze pagina worden alle verbeteringen in documentbeheer beschreven die zijn aangebracht met de release Derde kwartaal 2025 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwartaal 2025 versiecyclus, zie [ Derde Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
+
+## Desktop Proofing Viewer-update
+
+De Desktop Proofing Viewer is bijgewerkt naar versie 2.1.50.
+
+Deze update bevat interne gereedschapsupdates die geen invloed hebben op de functionaliteit van de eindgebruiker.
+
+Deze update geldt voor zowel Mac als Windows.
 
 ## Nieuwe proefdrukken en GenStudio for Performance Marketing-integratie
 
