@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: ec018b8987a45cbf29c8a908f3adbdb8aade9d90
+source-git-commit: 334b08f4689318201d3b8260916655f57c2a9320
 workflow-type: tm+mt
-source-wordcount: '2407'
+source-wordcount: '2479'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ De volgende Workfront-objecten worden ondersteund door gebeurtenisabonnementen.
 * Gebruiker
 * Workspace
 
-Voor een lijst van gebieden die door de voorwerpen van het gebeurtenisabonnement worden gesteund, zie &lbrace;de gebieden van het het abonnementsmiddel van de Gebeurtenis [&#128279;](../../wf-api/api/event-sub-resource-fields.md).
+Voor een lijst van gebieden die door de voorwerpen van het gebeurtenisabonnement worden gesteund, zie {de gebieden van het het abonnementsmiddel van de Gebeurtenis ](../../wf-api/api/event-sub-resource-fields.md).[
 
 ## Verificatie van abonnement op gebeurtenis
 
@@ -707,6 +707,33 @@ Met dit filter kunnen berichten worden doorlopen als de wijziging die zich heeft
 }
 ```
 
+#### containsOnly
+
+Met dit filter kunnen alleen berichten worden weergegeven wanneer de volledige set geselecteerde waarden exact overeenkomt met de fieldValue in het filter, ongeacht de volgorde. Er mogen geen extra of ontbrekende waarden zijn.
+
+Opmerking: dit wordt gebruikt voor velden van het type array (multi-select). In dit voorbeeldabonnement kunnen berichten alleen worden weergegeven wanneer het veld `groups` exact &quot;Keuze 3&quot; en &quot;Keuze 4&quot; bevat, zonder extra of ontbrekende waarden en ongeacht de volgorde.
+
+
+```
+{
+    "objCode": "PROJ",
+    "eventType": "UPDATE",
+    "authToken": "token",
+    "url": "https://domain-for-subscription.com/API/endpoint/UpdatedProjects",
+    "filters": [
+        {
+            "fieldName": "groups",
+            "fieldValue": [
+                "Choice 3",
+                "Choice 4"
+            ],
+            "state": "newState",
+            "comparison": "containsOnly"
+        }
+    ]
+}
+```
+
 #### wijzigen
 
 Dit filter staat berichten toe om door te komen slechts als het gespecificeerde gebied (`fieldName`) een verschillende waarde in oldstate en newstate heeft. Het bijwerken van andere gebieden naast gespecificeerd (`fieldName`) zal niet die verandering terugkeren.
@@ -739,7 +766,7 @@ Met deze connector wordt het filter toegepast op de nieuwe status of oude status
 >[!NOTE]
 >
 >Het abonnement hieronder met het opgegeven filter retourneert alleen berichten waarin de naam van de taak `again` bevat op de `oldState` -taak, wat deze was voordat een update op de taak werd uitgevoerd.
->Een gebruiksgeval voor dit zou zijn om de objCode- berichten te vinden die van één ding aan een ander veranderden. Bijvoorbeeld om alle taken te weten te komen die van &quot;Onderzoek één of andere naam&quot;in &quot;Onderzoek TeamName Één of andere naam&quot;veranderde
+>>Een gebruiksgeval voor dit zou zijn om de objCode- berichten te vinden die van één ding aan een ander veranderden. Bijvoorbeeld om alle taken te weten te komen die van &quot;Onderzoek één of andere naam&quot;in &quot;Onderzoek TeamName Één of andere naam&quot;veranderde
 
 ```
 {
