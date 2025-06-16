@@ -5,19 +5,17 @@ title: HIPAA-gereedheid voor Workfront
 description: Een Workfront-klant die, zoals gedefinieerd in HIPAA, een Business Associate en/of de Covered Entiteit is namens wie de Business Associate Adobe Workfront verstrekt, moet de volgende richtlijnen gebruiken om Workfront voor gebruik geschikt voor HIPAA te configureren.
 feature: Get Started with Workfront
 author: Courtney
-hide: true
-hidefromtoc: true
-source-git-commit: a984038eea41d249cb0ad0d2ec6ba47025c56a65
+exl-id: e3cdaa03-d523-46a4-954b-8456d5f190e4
+source-git-commit: 15a703e2292883427e371603f77a99765ed9d00a
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
 
-
 # HIPAA-gereedheid voor Workfront
 
-Een Workfront-klant die, zoals gedefinieerd in HIPAA, een Business Associate en/of de Covered Entiteit is namens wie de Business Associate Adobe Workfront verstrekt, moet de volgende richtlijnen gebruiken om Workfront voor gebruik geschikt voor HIPAA te configureren:
+Een Workfront-klant die, zoals gedefinieerd in HIPAA, een Business Associate en/of de Covered Entiteit is namens wie de Business Associate Adobe Workfront verstrekt, moet de volgende richtlijnen gebruiken om Workfront voor HIPAA-Ready gebruik te configureren:
 
 
 ## Wachtwoordvereisten
@@ -66,5 +64,5 @@ Met name moeten de volgende verantwoordelijkheden en verplichtingen worden herzi
 * Voor om het even welk gegevensbestand van Workfront waar ePHI toegankelijk zou kunnen zijn, verzeker **Encryptie bij Rest (EAR)** wordt toegelaten.
    * Neem contact op met uw accountmanager (AE) om te controleren of EAR is opgenomen in uw Workfront-aankoop.
    * Systemen/databases die via Workfront toegankelijk zijn, configureren om aan de verplichtingen te voldoen.
-* Zorg ervoor dat ePHI niet wordt overgedragen, gekoppeld of gedeeld met andere Adobe-oplossingen.
+* Zorg ervoor dat ePHI niet wordt overgedragen, gekoppeld of gedeeld met andere Adobe-oplossingen die niet geschikt zijn voor HIPAA.
 * Zorg ervoor dat patiëntenfoto&#39;s die via Workfront worden verwerkt, veilig en niet openbaar worden opgeslagen.
