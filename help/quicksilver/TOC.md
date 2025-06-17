@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 26a97126bbe809bc5fdd40d52bce2e0763110bcb
+source-git-commit: 5413ab5cfbb06a7e047a4ccab87e82af7c859cab
 workflow-type: tm+mt
-source-wordcount: '13256'
+source-wordcount: '13262'
 ht-degree: 0%
 
 ---
@@ -1137,7 +1137,7 @@ ht-degree: 0%
          * [Elementen en mappen ontkoppelen of verwijderen uit Experience Manager Assets of Elementen.](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/unlink-or-delete-aem-assets.md)
          * [Workflows gebruiken in de integratie met Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
          * [Workfront Fusion gebruiken om een Workfront-uitgave om te zetten in een project dat Adobe Experience Manager-workflows bevat](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-fusion-to-create-project-with-workflows.md)
-         * [ los de Integratie van Adobe Experience Manager  problemen op](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
+         * [ los de Integratie van Adobe Experience Manager ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md) problemen op
    * Migreren vanaf verouderde of verbeterde connectors {#migrate-from-legacy-enhanced-connectors}
       * [Migreren vanaf verouderde of verbeterde connectors](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
       * [Migreren van de verouderde of verbeterde aansluiting naar Workfront for Adobe Experience Manager as a Cloud Service-integratie](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
@@ -1730,9 +1730,9 @@ ht-degree: 0%
          * [Tableau Desktop kan geen verbinding tot stand brengen](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/cannot-load-data.md)
          * [Power BI-hulpprogramma kan geen verbinding maken met het opgegeven wachtwoord](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/cannot-connect-with-provided-password.md)
 * Bronnen beheren {#manage-resources}
-   * [Bronnen beheren](resource-mgmt/manage-resources.md)
+   * [Bronnen beheren: artikelindex](resource-mgmt/manage-resources.md)
    * Bronbeheer {#resource-management}
-      * [Bronbeheer](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
+      * [Bronbeheer: artikelindex](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
       * [Aan de slag met Resource Management](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
    * Resourceplanning in Adobe Workfront {#resource-planning-in-adobe-workfront}
       * [Bronnen plannen: artikelindex](resource-mgmt/resource-planning/resource-planning-overview.md)
@@ -1762,7 +1762,7 @@ ht-degree: 0%
       * [Verslag over het begrote uur voor de planning van hulpbronnen](resource-mgmt/resource-planning/report-on-budgeted-hours.md)
       * [Weergavebeperkingen van de functie Bronnen](resource-mgmt/resource-planning/resource-planner-display-limitations.md)
    * Hulpbronnengebruik {#resource-utilization}
-      * [Hulpbronnengebruik](resource-mgmt/resource-utilization/resource-utilization.md)
+      * [Brongebruik: artikelindex](resource-mgmt/resource-utilization/resource-utilization.md)
       * [Informatie over bronnengebruik weergeven](resource-mgmt/resource-utilization/view-utilization-information.md)
    * De werklastbalans {#the-workload-balancer}
       * [De werklastbalans: artikelindex](resource-mgmt/workload-balancer/workload-balancer.md)
@@ -2472,8 +2472,8 @@ ht-degree: 0%
       * [Configureer en gebruik de aangepaste OAuth 2-toepassingen van uw organisatie met behulp van JWT-flow](wf-api/api/oauth-app-jwt-flow.md)
       * [ vorm en gebruik de douane OAuth 2 toepassingen van uw organisatie die de stroom PKCE gebruiken ](wf-api/api/oauth-app-pkce-flow.md)
       * [Vervalsing van API-intern](wf-api/api/deprecation-api-internal.md)
-      * [ wat in API versie 20  nieuw is](wf-api/api/new-api-version-20.md)
-      * [ wat in API versie 19  nieuw is](wf-api/api/new-api-version-19.md)
+      * [ wat in API versie 20 ](wf-api/api/new-api-version-20.md) nieuw is
+      * [ wat in API versie 19 ](wf-api/api/new-api-version-19.md) nieuw is
       * [Nieuwe functies in API-versie 18](wf-api/api/new-api-version-18.md)
       * [Nieuwe functies in API-versie 17](wf-api/api/new-api-version-17.md)
       * [Nieuwe functies in API-versie 16](wf-api/api/new-api-version-16.md)

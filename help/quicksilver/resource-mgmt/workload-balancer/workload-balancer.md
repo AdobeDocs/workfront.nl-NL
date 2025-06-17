@@ -8,20 +8,20 @@ author: Lisa
 feature: Resource Management
 recommendations: noDisplay, noCatalog
 exl-id: b6a9e2ad-bd69-4075-8b87-3545e07b744d
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: fc82ce4b5abb2cd7411d62ac8bb428bc5337386f
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
 
 # De werklastbalans: artikelindex
 
-<!--Audited: 12/2023-->
+<!--Audited: 6/2025-->
 
 De werklastbalans is een hulpprogramma voor het plannen van bronnen in Adobe Workfront waarmee u taken en problemen kunt toewijzen aan bronnen van uw personeel.
 
-Raadpleeg de volgende artikelen voor informatie over wat de werklastbalans is, hoe u door de werkbalk kunt navigeren en hoe u werk eraan kunt toewijzen:
+Deze sectie bevat de volgende artikelen:
 
 * [ Overzicht van de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)
 * [ Toegang nodig om middelen in de Balancer van de Werklast te beheren ](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md)

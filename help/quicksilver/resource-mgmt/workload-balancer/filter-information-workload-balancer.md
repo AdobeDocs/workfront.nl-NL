@@ -6,14 +6,16 @@ description: We raden u ten zeerste aan filters te gebruiken in Workload Balance
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
+source-git-commit: fc82ce4b5abb2cd7411d62ac8bb428bc5337386f
 workflow-type: tm+mt
-source-wordcount: '2518'
+source-wordcount: '2454'
 ht-degree: 0%
 
 ---
 
 # Gegevens in de werklastbalans filteren
+
+<!-- Audited: 6/2025 -->
 
 <!--
 (when they add custom fields to fitlering, add the caveat you added for the Resource Planner : only field NAMES and not LABELS are to be found in the drop-down >> ADD THIS IN THE STEP BELOW WHEN ADDING A FILTER)
@@ -26,17 +28,15 @@ Als middelmanager, kunt u de Balancer van de Werkbelasting gebruiken om de werkb
 
 >[!IMPORTANT]
 >
->We raden u ten zeerste aan filters te gebruiken in Workload Balancer om werkitems efficiënt te zoeken en u te concentreren op de gebruikers of items die u beheert. Hierdoor kunt u de juiste informatie weergeven voordat u de toewijzingen van uw bronnen gaat beheren.
+>We raden u ten zeerste aan filters te gebruiken in Workload Balancer om werkitems efficiënt te zoeken en u te concentreren op de gebruikers of items die u beheert. Hierdoor kunt u de juiste gegevens weergeven voordat u de toewijzingen van uw bronnen gaat beheren.
 >
->Wanneer u een nieuw filter opslaat en toepast, navigeert u weg van de Werklastbalans, blijft het filter behouden, zelfs nadat u zich hebt afgemeld en weer hebt aangemeld.
+>Wanneer u na het opslaan en toepassen van een nieuw filter weg navigeert van Workload Balancer, wordt het filter nog steeds toegepast, zelfs nadat u zich hebt afgemeld en weer hebt aangemeld.
 
 Dit artikel bevat informatie over filters in Workload Balancer. Voor informatie over filters in Workfront, zie [ Overzicht van Filters ](../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,9 +51,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
    <td><p>Nieuw: Standaard</p>
+       <p>Huidig: Plan (wanneer het gebruiken van de Balancer van de Werkbelasting in het gebied van de Middelen)</p>
        <p>of</p>
-       <p>Huidig: Plan, wanneer het gebruiken van de Balancer van de Werkbelasting in het gebied van de Middelen;</br>
-       Het werk, wanneer het gebruiken van de Balancer van de Werkbelasting van een team of een project</p></td>
+       <p>Het werk (wanneer het gebruiken van de Balancer van de Werkbelasting van een team of een project)</p></td>
   </tr>
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
@@ -84,25 +84,25 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 Houd rekening met het volgende wanneer u werkt met filters in Workload Balancer:
 
-* Afhankelijk van waar u tot de Balancer van de Werkbelasting van toegang hebt, zou Workfront de informatie voor u reeds kunnen filtreren. Voor informatie over vooraf toegepaste filters, zie de sectie [ vooraf toegepaste filters in de Balancer van de Werkbelasting ](#pre-applied-filters-in-the-workload-balancer) in dit artikel.
+* Afhankelijk van waar u tot de Balancer van de Werkbelasting van toegang hebt, zou Workfront de informatie voor u reeds kunnen filtreren. Voor meer informatie, zie de volgende sectie in dit artikel: [ vooraf toegepaste filters in de Balancer van de Werkbelasting ](#pre-applied-filters-in-the-workload-balancer).
 * U kunt een filter maken en toepassen zonder het op te slaan, of u kunt een filter opslaan om later opnieuw te gebruiken.
 * Wanneer u een filter toepast zonder het op te slaan, kunt u terugkeren naar de originele lijsten door de pagina te vernieuwen.
 * U kunt filters bekijken die u hebt gemaakt of filters die andere gebruikers hebben gemaakt en met u hebben gedeeld.
-* Wanneer u een gedeeld filter verwijdert of bewerkt, wordt het filter ook verwijderd of bewerkt voor iedereen met wie het wordt gedeeld.
-* Wanneer u in één gebied filters maakt in de werklastbalans, zijn deze niet beschikbaar in andere gebieden.
+* Wanneer u een gedeeld filter verwijdert of bewerkt, wordt het filter ook verwijderd of bewerkt voor iedereen met wie u het hebt gedeeld.
+* Wanneer u filters in het werklastevenwicht in één gebied maakt, zijn deze niet beschikbaar in andere gebieden.
 
-  Bijvoorbeeld, zijn de filters die in het gebied van de Middelen worden gecreeerd niet beschikbaar in de Balancer van de Werkbelasting van een project of een team.
+  Bijvoorbeeld, zijn de filters die in het gebied van de Middelen worden gecreeerd niet beschikbaar in een project of de Balancer van de Werkbelasting van het team.
 
   Voor informatie over waar te om van de Balancer van de Werklast de plaats te bepalen, zie [ plaats van de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-* U kunt alleen de items weergeven die overeenkomen met de geselecteerde filters die ook overeenkomen met de datums in de tijdlijn die op het scherm van Workload Balancer wordt weergegeven.
+* U kunt alleen items weergeven die overeenkomen met de geselecteerde filters als deze overeenkomen met de datums in de tijdlijn die wordt weergegeven op het scherm Werklastbalans.
 
 ## Vooraf toegepaste filters in de werklastverdeler {#pre-applied-filters-in-the-workload-balancer}
 
 De werklastbalans geeft informatie in twee afzonderlijke gebieden weer:
 
-* **het Niet toegewezen gebied van het Werk**: het werkpunten die nog niet aan gebruikers worden toegewezen.
-* **het Toegewezen gebied van het Werk**: het werkpunten die aan gebruikers worden toegewezen.
+* **het Niet toegewezen gebied van het Werk**: De punten van het werk die nog niet aan gebruikers worden toegewezen.
+* **het Toegewezen gebied van het Werk**: De punten van het werk die aan gebruikers worden toegewezen.
 
   Voor informatie over wat vertoningen in elk van de gebieden, zie [ de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) navigeren.
 
@@ -138,12 +138,11 @@ Afhankelijk van waar u tot de Balancer van de Werkbelasting toegang hebt, worden
   <tr> 
    <td role="rowheader">Een project</td> 
    <td> <p>Niet toegewezen het werkpunten of punten die aan teams of baanrollen in de geselecteerde projectvertoning in dit gebied worden toegewezen.</p> </td> 
-   <td> <p>De gebruikers die aan minstens één het werkpunt op het geselecteerde project en hun het werkpunten op het project worden toegewezen wanneer de het werkpunten van het systeemgebrek <b> van dit project </b> wordt geselecteerd. </p>
+   <td> <p>De gebruikers die aan minstens één het werkpunt op het geselecteerde project en hun het werkpunten op het project worden toegewezen wanneer de <b> het werkpunten van dit project </b> systeemstandaardfilter wordt geselecteerd. </p>
 
-<p>Wanneer het systeemstandaardfilter <b> de het werkpunten van dit project </b> wordt geschrapt, toont het Toegewezen gebied van het Werk van een project alle het werkpunten van de gebruikers die aan minstens één punt op het geselecteerde project worden toegewezen.  </p> Dit filter is standaard uitgeschakeld.
+<p>Wanneer de <b> het werkpunten van dit project </b> systeemstandaardfilter wordt geschrapt, toont het Toegewezen gebied van het Werk van een project alle het werkpunten van de gebruikers die aan minstens één punt op het geselecteerde project worden toegewezen.  <br><br> Dit filter wordt geschrapt door gebrek.</p>
 
-<b> NOTA </b>
-<p>U kunt de optie Alle gebruikers tonen inschakelen in de werklastverdeling van een project om alle gebruikers in het systeem weer te geven. Voor meer informatie, zie <a href="../workload-balancer/navigate-the-workload-balancer.md" class="MCXref xref"> de Balancer van de Werkbelasting </a> navigeren</p>
+<p> <b> Nota </b>: U kunt <b> toelaten tonen alle gebruikers </b> optie in de Balans van de Werkbelasting van het project om alle gebruikers in het systeem te tonen. Voor meer informatie, zie <a href="../workload-balancer/navigate-the-workload-balancer.md" class="MCXref xref"> de Balancer van de Werkbelasting </a> navigeren</p>
 
 </td> 
   </tr> 
@@ -154,42 +153,40 @@ Afhankelijk van waar u tot de Balancer van de Werkbelasting toegang hebt, worden
 
 Het proces voor het maken van filters voor de niet-toegewezen werkgebieden en toegewezen werkgebieden in Workload Balancer is identiek, ongeacht waar u de Workload Balancer opent. Voor informatie over het lokaliseren van de Balancer van de Werkbelasting, zie [ plaats de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-U kunt een geheel nieuw filter maken of een van de vooraf gedefinieerde filters bewerken. Voor informatie over bestaande filters die u kunt uitgeven, zie [ een bestaand filter in de 1&rbrace; sectie van de Balancer van de Werkbelasting &lbrace;in dit artikel uitgeven.](#edit-an-existing-filter-in-the-workload-balancer)
+U kunt een geheel nieuw filter maken of een van de vooraf gedefinieerde filters bewerken. Voor informatie over bestaande filters die u kunt uitgeven, zie [ een bestaand filter in de 1} sectie van de Balancer van de Werkbelasting {in dit artikel uitgeven.](#edit-an-existing-filter-in-the-workload-balancer)
 
 1. Ga naar Werklastverdeling.
 
    Voor informatie over de toegang tot van de Balancer van de Werkbelasting, zie [ de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) navigeren.
 
-1. Klik het **pictogram van de Filter ![ ](assets/filter-icon.png) pictogram van de Filter** &lbrace;in de hoger-juiste hoek van of het **Niet toegewezen Werk** of de **Toegewezen gebieden van het Werk**.
+1. In de hoger-juiste hoek van of het **Niet toegewezen Werk** of de **Toegewezen Gebieden van het Werk**, klik het **pictogram van de Filter** ![ filter ](assets/filter-icon.png). De **vertoningen van de Filters** doos op het recht, en de naam van het gebied u de filter voor vertoningen in de kopbal creeert.
 
-   De doos van de filterbouwer toont op het recht. De naam van het gebied waarvoor u het filter maakt, wordt weergegeven in de koptekst van het vak.
+   ![ lijst van Filters ](assets/filters-list.png)
 
-   ![ lijst van Filters ](assets/filters-list-wb-assigned-work-with-filters-listed-nwe-350x377.png)
-
-1. (Optioneel en voorwaardelijk) Als u de werklastbalans opent in het gebied Bronnen, is het mogelijk dat het vooraf gedefinieerde standaardfilter al wordt toegepast op het gebied Toegewezen werk. U kunt een kopie van het filter Standaard bewerken en opslaan.
+1. (Facultatief en voorwaardelijk) als u tot de Balancer van de Werkbelasting in het **Voorkomende 1} gebied toegang hebt, zou de vooraf bepaalde Standaardfilter reeds op het** Toegewezen gebied van het Werk **kunnen worden toegepast.** U kunt een kopie van het filter Standaard bewerken en opslaan.
 
    >[!TIP]
    >
    >Met het filter Standaard worden gebruikers weergegeven die tot een van uw teams behoren en hun werkitems. U kunt een kopie van dit filter bewerken.
 
-   Als u [!UICONTROL Workload Balancer] van een project toegang hebt, zou &quot;[!UICONTROL This project's work items]&quot;filter reeds kunnen worden toegepast. Dit toont slechts het werkpunten die aan gebruikers in dit project worden toegewezen. U kunt een kopie van dit filter dupliceren en opslaan.
+   Als u tot [!UICONTROL Workload Balancer] van een project toegang hebt, zou de **het werkpunten van dit project** filter reeds kunnen worden toegepast. Dit toont slechts het werkpunten die aan gebruikers in dit project worden toegewezen. U kunt een kopie van dit filter dupliceren en opslaan.
 
-   Door gebrek, [!UICONTROL Workload Balancer] van een project toont alle het werkpunten die aan alle gebruikers op het project worden toegewezen.
+   Door gebrek, toont het project [!UICONTROL Workload Balancer] alle het werkpunten die aan alle gebruikers op het project worden toegewezen.
 
 
-1. Klik **Nieuwe filter.**
+1. Klik **Nieuwe filter**.
 
 1. Ga als volgt te werk om een filter te maken:
 
-   1. Selecteer een gebiedsnaam in het eerste drop-down menu of klik **doorbladert gebieden** beginnen de naam van een gebied te typen dat niet door gebrek toont.
+   1. Selecteer een gebiedsnaam in het eerste drop-down menu of klik **doorbladert gebieden** bij de bodem van drop-down om de naam van een gebied te typen dat niet door gebrek toont.
 
       >[!IMPORTANT]
       >
       >Wanneer u naar aangepaste velden verwijst, moet u de veldnaam en niet het veldlabel typen. Het veldlabel wordt weergegeven op een aangepast formulier dat is gekoppeld aan een object. Voor informatie over het verschil tussen het etiket en de naam van een douanegebied, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
-   1. (Voorwaardelijk) als u **klikte doorbladert gebieden**, typ de naam van een gebied op het **3&rbrace; gebied van het Onderzoek &lbrace;en selecteer het wanneer het in de lijst toont.**
+   1. (Voorwaardelijk) als u **klikte doorbladert gebieden**, typ de naam van een gebied op het **3} gebied van het Onderzoek {en selecteer het wanneer het in de lijst toont.**
 
-      ![ Onderzoek naar een gebied ](assets/new-filters-search-for-a-field-highlighted-wb-nwe-350x386.png)
+      ![ Onderzoek naar een gebied ](assets/new-filters-search-for-a-field.png)
 
       >[!TIP]
       >
@@ -204,13 +201,13 @@ U kunt een geheel nieuw filter maken of een van de vooraf gedefinieerde filters 
 
       >[!NOTE]
       >
-      > Wanneer u werkobjecten uit een bepaald portfolio wilt weergeven, kunt u het volgende filter toepassen: &quot;Portfolio-id is gelijk aan &lt; de naam van het portfolio >.&quot;
+      > Wanneer u werkobjecten uit een bepaald portfolio wilt weergeven, kunt u het volgende filter toepassen: Portfolio-id is gelijk aan &lt; PORTFOLIO-NAAM >.
       >
-      >![ de verklaring van de naamfilter van Portfolio ](assets/portfolio-name-filter-statement-wb-350x262.png)
+      >![ de verklaring van de naamfilter van Portfolio ](assets/portfolio-name-filter.png)
       >
-      >Om projecten in een status van Op Greep uit te sluiten, moet u het volgende filter toepassen: &quot;Project: De status is niet gelijk aan Op Greep.&quot; Dit verhindert het werkpunten op de projecten van de Greep in de Balancer van de Werklast te tonen.
+      >Om projecten in een status van Op Greep uit te sluiten, moet u het volgende filter toepassen: Project: De status is niet gelijk aan Op Greep. Dit verhindert het werkpunten in de projecten van de Greep in de Balancer van de Werklast te tonen.
       >
-      >![ de verklaring van de de statusfilter van het Project ](assets/project-status-filter-statement-wb.png)
+      >![ de verklaring van de de statusfilter van het Project ](assets/project-status-filter.png)
 
    1. (Facultatief) klik het **pictogram van de Schrapping** pictogram ![ pictogram van de Schrapping ](assets/delete.png) om een filtercriteria te verwijderen.
 
@@ -218,39 +215,31 @@ U kunt een geheel nieuw filter maken of een van de vooraf gedefinieerde filters 
 
    <!--(NOTE: ensure this stays correct)-->
 
-1. Klik **toepassen** om de resultaten van de filter op het geselecteerde gebied van de Balancer van de Werkbelasting toe te passen zonder het te bewaren.
-
-   De lijst met werkitems wordt links bijgewerkt.
+1. Klik **toepassen** om de resultaten van de filter op het geselecteerde gebied van de Balancer van de Werkbelasting toe te passen zonder het te bewaren. De lijst met werkitems wordt links bijgewerkt.
 
    >[!IMPORTANT]
    >
    >De resultaten worden weergegeven in Workload Balancer wanneer alle filterinstructies die u hebt toegevoegd, tegelijkertijd true zijn.
 
-   Het filter blijft behouden totdat u de pagina vernieuwt.
-
-   **pas** toe knoop wordt vervangen met a **sparen als nieuwe** knoop.
+   Het filter wordt bewaard tot u de pagina verfrist, en **** knoop is vervangen met a **sparen als nieuwe** knoop.
 
 1. Klik **sparen als nieuw** om de filter voor toekomstig gebruik te bewaren.
 
-   ![ filter sparen als ](assets/new-filters-save-as-box-unassigned-area-wb-350x467.png)
-
    >[!TIP]
    >
-   >Het klikken **annuleert** op elk ogenblik, neemt u terug naar het gebied van de filterbouw.
+   >Het klikken **annuleert** op elk ogenblik neemt u terug naar het gebied van de filterbouw.
 
-1. Klik binnen het **Naamloze gebied van de Filter**, en ga de naam van de nieuwe filter in.
+1. Op het **Naamloze gebied van de Filter**, ga de nieuwe filternaam in.
 1. (Optioneel) Selecteer een pictogram voor het nieuwe filter in het vervolgkeuzemenu **Pictogram** .
 
-   ![ Uitgezochte pictogram ](assets/new-filters-select-icon-expanded-drop-down-wb.png)
+   ![ Uitgezochte pictogram ](assets/new-filters-select-icon.png)
 
-1. (Optioneel) Voeg een beschrijving van het filter toe om aan te geven wat er uniek aan is. De beschrijving wordt onder de filternaam in de lijst met filters weergegeven.
-1. Klik **sparen**.
-
-   Opgeslagen filters worden weergegeven in het gedeelte Mijn filters van het filtervak.
+1. (Facultatief) voeg een filter **Beschrijving** toe. De beschrijving wordt onder de filternaam in de filterlijst weergegeven.
+1. Klik **sparen**. De bewaarde filtervertoningen in **Mijn filters** gebied van de filterdoos.
 
    Voor informatie over het toepassen van bewaarde filters, zie de sectie [ een bewaarde filter in de Balancer van de Werkbelasting ](#delete-a-saved-filter-in-the-workload-balancer) in dit artikel schrappen.
 
-1. (Voorwaardelijk) Muis over het **pictogram van de Filter** ![ pictogram van de Filter ](assets/filter-icon.png) in de hoger-juiste hoek van het **Niet toegewezen Werk** of de **Toegewezen gebieden van het Werk** om tooltip met de naam of het aantal filters te tonen die momenteel worden toegepast.
+1. (Voorwaardelijk) Muis over het **pictogram van de Filter ![ ](assets/filter-icon.png) pictogram van de Filter {in de hoger-juiste hoek van het** Niet toegewezen Werk **of de** Toegewezen gebieden van het Werk **om tooltip met de naam of het aantal filters te tonen die momenteel worden toegepast.**
 
    ![ pictogram van de Filter met naam van filter ](assets/filter-icon-with-number-and-tooltip-with-name-of-filter-wb-nwe-350x98.png)
 
@@ -262,32 +251,24 @@ U kunt een filter dupliceren en bewerken om een nieuw filter te maken.
 
    Voor informatie over de toegang tot van de Balancer van de Werkbelasting, zie [ de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) navigeren.
 
-1. Klik het **pictogram van de Filter ![ ](assets/filter-icon.png) pictogram van de Filter** &lbrace;in de hoger-juiste hoek van of het **Niet toegewezen Werk** of de **Toegewezen gebieden van het Werk**.
+1. In de hoger-juiste hoek van of het **Niet toegewezen Werk** of de **Toegewezen Gebieden van het Werk**, klik het **pictogram van de Filter** ![ filter ](assets/filter-icon.png).  De **vertoningen van de Filters** doos op het recht, en de naam van het gebied u de filter voor vertoningen in de kopbal dupliceert.
 
-   De doos van de filterbouwer toont aan het recht. De naam van het gebied waarvoor u het filter maakt, wordt weergegeven in de koptekst van het vak.
-
-1. De muis over een bestaand filter, klikt **Meer** menu ![ Meer menu ](assets/more-menu.png), dan klik **Dupliceert**.
-
-   ![ Filter meer menuopties ](assets/filter-more-menu-options-wb.png)
+1. Beweeg over een bestaand filter, dan klik **Meer** menu ![ Meer menu ](assets/more-menu-edit-filter.png).
+1. Klik **Dupliceren**.
 
    >[!TIP]
    >
-   > Terwijl het uitgeven van een filter, kunt u het **Meer** menu in de laag-linkerhoek van de Edit doos van de Filter klikken dan **Dupliceert**.
+   > Terwijl het uitgeven van een filter, kunt u **Meer** menu ![ klikken Meer menu ](assets/more-menu-edit-filter.png) in de laag-linkerhoek van **uitgeeft de doos van de Filter**, dan **Dupliceert**.
 
 1. Bewerk de volgende informatie voor het gedupliceerde filter:
 
    * Naam
-
-     De nieuwe filternaam is standaard &quot;(oorspronkelijke filternaam) Kopiëren&quot;.
-
    * Pictogram
    * Beschrijving
    * Een van de velden, modifiers of waarden.
 
 1. (Facultatief) klik **filter** toevoegen om meer verklaringen aan de gedupliceerde filter toe te voegen.
-1. Klik **sparen** om de gedupliceerde filter in het **Mijn filters** gebied te bewaren.
-
-   Het oorspronkelijke filter blijft ongewijzigd en het gedupliceerde filter wordt opgeslagen als een nieuw filter.
+1. Klik **sparen** om de gedupliceerde filter in het **Mijn filters** gebied te bewaren. Het oorspronkelijke filter blijft ongewijzigd en het gedupliceerde filter wordt opgeslagen als een nieuw filter.
 
 ## Een bestaand filter bewerken in het deelvenster Werklastbalans {#edit-an-existing-filter-in-the-workload-balancer}
 
@@ -301,56 +282,48 @@ U kunt een opgeslagen filter bewerken in Workload Balancer.
 
    Voor informatie over de toegang tot van de Balancer van de Werkbelasting, zie [ de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) navigeren.
 
-1. Klik het **pictogram van de Filter** ![ pictogram van de Filter ](assets/filter-icon.png) in de hoger-juiste hoek van de **Niet toegewezen** of **toegewezen gebieden van het Werk**.\
-   Aan de rechterkant wordt de filterbuilder weergegeven.
+1. In de hoger-juiste hoek van of **Niet toegewezen** of **Toegewezen Gebieden van het Werk**, klik het **pictogram van de Filter** ![ filter ](assets/filter-icon.png). Aan de rechterkant wordt de filterbuilder weergegeven.
 
-1. De muis over de filter u wilt uitgeven, dan klikken **geeft** ![ uit geeft filterpictogram ](assets/wb-edit-filter-icon.png) uit.
-
-   ![ Filter Meer menu ](assets/filter-more-menu-options-wb.png)
+1. De muis over de filter u wilt uitgeven, dan klikken geeft **** pictogram ![ uit geeft filterpictogram ](assets/wb-edit-filter-icon.png) uit.
 
 1. Voer een van de volgende handelingen uit:
 
-   * Wijzig om het even welke filterverklaringen
-   * Klik **filter** toevoegen om nieuwe filterverklaringen toe te voegen
+   * Wijzig de filterinstructies.
+   * Klik **filter** toevoegen om nieuwe filterverklaringen toe te voegen.
    * Klik het **pictogram van de Schrapping** pictogram ![ pictogram van de Schrapping ](assets/delete.png) om bestaande filterverklaringen te verwijderen.
 
-1. (Optioneel) Klik op **Toepassen** .
+1. (Optioneel) Klik op **Toepassen** . De resultaten worden bijgewerkt in Workload Balancer aan de linkerkant om de wijzigingen aan te tonen die u in het filter hebt aangebracht.
 
-   De resultaten worden bijgewerkt in Workload Balancer aan de linkerkant om de wijzigingen aan te tonen die u in het filter hebt aangebracht.
-
-1. Klik **sparen.**
-
-   De resultaten worden bijgewerkt in Workload Balancer aan de linkerkant en het filter wordt bijgewerkt met de nieuwe informatie die u hebt geselecteerd.
+1. Klik **sparen**. De resultaten worden bijgewerkt in Workload Balancer aan de linkerkant en het filter wordt bijgewerkt met de nieuwe informatie die u hebt geselecteerd.
 
 ## Een opgeslagen filter verwijderen in Workload Balancer {#delete-a-saved-filter-in-the-workload-balancer}
 
 Overweeg het volgende voordat u een filter verwijdert:
 
 * U kunt verwijderde filters niet herstellen.
-* Vooraf gedefinieerde filters kunt u niet verwijderen.
+* U kunt vooraf gedefinieerde filters niet verwijderen.
 * U kunt een niet-opgeslagen filter niet verwijderen. Ze worden automatisch verwijderd nadat ze zijn afgemeld en opnieuw zijn aangemeld bij Workfront.
-* Wanneer u een gedeeld filter verwijdert, wordt het ook verwijderd voor alle gebruikers waarmee het wordt gedeeld.
+* Wanneer u een gedeeld filter schrapt, wordt het ook geschrapt voor alle gebruikers die het met wordt gedeeld.
 * Nadat u alle opgeslagen filters hebt verwijderd, wordt de werklastbalans weergegeven volgens de oorspronkelijke standaardwaarden.
 
 >[!NOTE]
 >
 >Wanneer u een filter verwijdert dat met anderen wordt gedeeld, wordt het filter ook voor hen verwijderd.
 
-1. Naar werklastverdeling
-1. Klik het **pictogram van de Filter** ![ pictogram van de Filter ](assets/filter-icon.png) in de hoger-juiste hoek van het **Niet toegewezen Werk** of **Toegewezen Gebieden van het Werk**.\
-   De doos van de filterbouwer toont op het recht.
+1. Ga naar Werklastverdeling.
 
-1. De muis over een filter, klikt dan **Meer** menu ![ Meer menu ](assets/more-menu.png), dan klik **Schrapping**.
-   ![ Filter Meer menu ](assets/filter-more-menu-options-wb.png)
+   Voor informatie over de toegang tot van de Balancer van de Werkbelasting, zie [ de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) navigeren.
+
+1. In de hoger-juiste hoek van of het **Niet toegewezen Werk** of **Toegewezen Gebieden van het Werk**, klik het **pictogram van de Filter** ![ pictogram van de Filter ](assets/filter-icon.png). De **vertoningen van de Filters** doos op het recht.
+
+1. De muis over een filter, klikt **Meer** menu ![ Meer menu ](assets/more-menu-edit-filter.png), dan klik **Schrapping**.
 
    >[!TIP]
    >
-   >Terwijl het uitgeven van een filter, kunt u het **Meer** menu in de laag-linkerhoek van de Edit doos van de Filter klikken dan **Schrapping**.
+   >Terwijl het uitgeven van een filter, kunt u **Meer** menu ![ Meer menu ](assets/more-menu-edit-filter.png) in de laag-linkerhoek van **klikken uitgeeft de doos van de Filter**, dan klik **Schrapping**.
 
-1. (Facultatief) klik **annuleert** om de schrapping te vermijden en aan de lijst van filters terug te keren.
-1. Klik **Schrapping** om de schrapping te bevestigen.
-
-   Het filter wordt verwijderd voor u en alle gebruikers die hiervoor machtigingen hadden.
+1. (Optioneel) Klik op **Annuleren** om de verwijdering te annuleren en terug te keren naar de lijst met filters.
+1. Klik **Schrapping** om de schrapping te bevestigen. Het filter wordt verwijderd voor u en alle gebruikers die hiervoor machtigingen hebben.
 
 ## Een filter delen in Workload Balancer
 
@@ -364,45 +337,37 @@ Houd rekening met het volgende wanneer u filters deelt in Workload Balancer:
 
 Een filter delen:
 
-1. Naar werklastverdeling
-1. Klik het **pictogram van de Filter** ![ pictogram van de Filter ](assets/filter-icon.png) in de hoger-juiste hoek van het **Niet toegewezen Werk** of **Toegewezen Gebieden van het Werk**.\
-   De doos van de filterbouwer toont op het recht.
+1. Ga naar Werklastverdeling.
 
-1. De muis over een filter, klikt dan het **Meer** menu ![ Meer menu ](assets/more-menu.png), dan klik **Aandeel.**
+   Voor informatie over de toegang tot van de Balancer van de Werkbelasting, zie [ de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) navigeren.
 
-   ![ Filter Meer menu ](assets/filter-more-menu-options-wb.png)
+1. In de hoger-juiste hoek van of het **Niet toegewezen Werk** of **Toegewezen Gebieden van het Werk**, klik het **pictogram van de Filter** ![ pictogram van de Filter ](assets/filter-icon.png). De **vertoningen van de Filters** doos op het recht.
+
+1. Beweeg over een filter, dan klik **Meer** menu ![ Meer menu ](assets/more-menu-edit-filter.png).
+
+1. Klik **Aandeel**. De **filter delend** vakvertoningen.
 
    >[!TIP]
    >
-   > Terwijl het uitgeven van een filter, kunt u het **Meer** menu in de laag-linkerhoek van de Edit doos van de Filter klikken dan **Aandeel**.
+   > Terwijl het uitgeven van een filter, kunt u **Meer** menu ![ Meer menu ](assets/more-menu-edit-filter.png) in de laag-linkerhoek van **klikken uitgeven de doos van de Filter**, dan klik **Aandeel**.
 
-   Het dialoogvenster Filter delen wordt weergegeven.
+1. Op **geef toegang tot** gebied, typ de namen van gebruikers, teams, rollen, groepen, of bedrijven die u de filter met wilt delen, en selecteer dan hen wanneer zij verschijnen.
 
-1. Laat het **systeem-brede Mening** plaatsen toe. Dit geeft iedereen in Workfront toestemming om het filter te bekijken.
+1. (Facultatief) om de filtertoestemmingen voor een entiteit uit te geven, klik de juist-richten pijl naast hun naam, dan selecteren of **Mening** of **leiden**.
 
-   of
-
-   Begin de namen van gebruikers, teams, rollen, groepen, of bedrijven te typen die u de filter met in **wilt delen geef toegang tot** gebied.
-
-   ![](assets/new-filters-sharing-ui-wb-350x422.png)
-
-1. (Facultatief) klik de juist-richt pijl naast de naam van een entiteit om hun toestemmingen aan de filter uit te geven, dan of toelaten de **Mening** of **leiden** optie.
-
-   ![ toestemmingen van de Filter ](assets/new-filters-granular-permissions-for-manage-wb-350x107.png)
+   ![ toestemmingen van de Filter ](assets/access-level-additional-settings.png)
 
 1. (Optioneel) Schakel de aanvullende machtigingen voor een entiteit in of uit door een van de volgende handelingen uit te voeren:
 
-   1. Klik **Mening** en maak de **optie van het Aandeel** onbruikbaar. Deze optie is standaard ingeschakeld.
+   1. Klik **Mening** en maak de **optie van het Aandeel** onbruikbaar. Dit is standaard ingeschakeld.
 
-   1. Klik **leiden** en maak of het **Aandeel** of de **Schrapping** optie onbruikbaar. Deze zijn standaard ingeschakeld.
+   1. Klik **leiden** en laat of het **Aandeel** of **toe schrapt** optie.
 
    >[!TIP]
    >
-   >Gebruikers kunnen geen hogere machtigingen ontvangen dan hun toegangsniveau. Als zij geen toegang tot Edit filters in hun toegangsniveau hebben, kunnen zij geen toestemmingen ontvangen om een filter te beheren. Workfront schakelt de optie Beheren voor deze gebruikers uit en de optie is grijs.
+   >De gebruikers kunnen geen hogere toestemming dan hun toegangsniveau ontvangen. Als zij geen toegang tot Edit filters in hun toegangsniveau hebben, kunnen zij geen toestemmingen ontvangen om een filter te beheren. Workfront schakelt de optie Beheren voor deze gebruikers uit.
 
-1. Klik **Aandeel**. Het filter wordt gedeeld met de entiteiten u specificeerde.
-
-   De filters u vertoning in **deelde met me** gebied van de filterdoos.
+1. Klik **Aandeel**. Het filter wordt gedeeld met de entiteiten u specificeerde, en de gedeelde filtervertoningen in **Gedeeld met me** gebied van de **Filters** doos.
 
    ![ Gedeeld met me ](assets/new-filters-shared-with-me-area-wb-350x236.png)
 
