@@ -153,7 +153,7 @@ Afhankelijk van waar u tot de Balancer van de Werkbelasting toegang hebt, worden
 
 Het proces voor het maken van filters voor de niet-toegewezen werkgebieden en toegewezen werkgebieden in Workload Balancer is identiek, ongeacht waar u de Workload Balancer opent. Voor informatie over het lokaliseren van de Balancer van de Werkbelasting, zie [ plaats de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-U kunt een geheel nieuw filter maken of een van de vooraf gedefinieerde filters bewerken. Voor informatie over bestaande filters die u kunt uitgeven, zie [ een bestaand filter in de 1} sectie van de Balancer van de Werkbelasting {in dit artikel uitgeven.](#edit-an-existing-filter-in-the-workload-balancer)
+U kunt een geheel nieuw filter maken of een van de vooraf gedefinieerde filters bewerken. Voor informatie over bestaande filters die u kunt uitgeven, zie [ een bestaand filter in de 1&rbrace; sectie van de Balancer van de Werkbelasting &lbrace;in dit artikel uitgeven.](#edit-an-existing-filter-in-the-workload-balancer)
 
 1. Ga naar Werklastverdeling.
 
@@ -163,7 +163,7 @@ U kunt een geheel nieuw filter maken of een van de vooraf gedefinieerde filters 
 
    ![ lijst van Filters ](assets/filters-list.png)
 
-1. (Facultatief en voorwaardelijk) als u tot de Balancer van de Werkbelasting in het **Voorkomende 1} gebied toegang hebt, zou de vooraf bepaalde Standaardfilter reeds op het** Toegewezen gebied van het Werk **kunnen worden toegepast.** U kunt een kopie van het filter Standaard bewerken en opslaan.
+1. (Facultatief en voorwaardelijk) als u tot de Balancer van de Werkbelasting in het **Voorkomende 1&rbrace; gebied toegang hebt, zou de vooraf bepaalde Standaardfilter reeds op het** Toegewezen gebied van het Werk **kunnen worden toegepast.** U kunt een kopie van het filter Standaard bewerken en opslaan.
 
    >[!TIP]
    >
@@ -184,7 +184,7 @@ U kunt een geheel nieuw filter maken of een van de vooraf gedefinieerde filters 
       >
       >Wanneer u naar aangepaste velden verwijst, moet u de veldnaam en niet het veldlabel typen. Het veldlabel wordt weergegeven op een aangepast formulier dat is gekoppeld aan een object. Voor informatie over het verschil tussen het etiket en de naam van een douanegebied, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
-   1. (Voorwaardelijk) als u **klikte doorbladert gebieden**, typ de naam van een gebied op het **3} gebied van het Onderzoek {en selecteer het wanneer het in de lijst toont.**
+   1. (Voorwaardelijk) als u **klikte doorbladert gebieden**, typ de naam van een gebied op het **3&rbrace; gebied van het Onderzoek &lbrace;en selecteer het wanneer het in de lijst toont.**
 
       ![ Onderzoek naar een gebied ](assets/new-filters-search-for-a-field.png)
 
@@ -221,7 +221,7 @@ U kunt een geheel nieuw filter maken of een van de vooraf gedefinieerde filters 
    >
    >De resultaten worden weergegeven in Workload Balancer wanneer alle filterinstructies die u hebt toegevoegd, tegelijkertijd true zijn.
 
-   Het filter wordt bewaard tot u de pagina verfrist, en **** knoop is vervangen met a **sparen als nieuwe** knoop.
+   Het filter wordt bewaard tot u de pagina verfrist, en **&#x200B;**&#x200B;knoop is vervangen met a **sparen als nieuwe** knoop.
 
 1. Klik **sparen als nieuw** om de filter voor toekomstig gebruik te bewaren.
 
@@ -239,7 +239,7 @@ U kunt een geheel nieuw filter maken of een van de vooraf gedefinieerde filters 
 
    Voor informatie over het toepassen van bewaarde filters, zie de sectie [ een bewaarde filter in de Balancer van de Werkbelasting ](#delete-a-saved-filter-in-the-workload-balancer) in dit artikel schrappen.
 
-1. (Voorwaardelijk) Muis over het **pictogram van de Filter ![ ](assets/filter-icon.png) pictogram van de Filter {in de hoger-juiste hoek van het** Niet toegewezen Werk **of de** Toegewezen gebieden van het Werk **om tooltip met de naam of het aantal filters te tonen die momenteel worden toegepast.**
+1. (Voorwaardelijk) Muis over het **pictogram van de Filter ![ ](assets/filter-icon.png) pictogram van de Filter &lbrace;in de hoger-juiste hoek van het** Niet toegewezen Werk **of de** Toegewezen gebieden van het Werk **om tooltip met de naam of het aantal filters te tonen die momenteel worden toegepast.**
 
    ![ pictogram van de Filter met naam van filter ](assets/filter-icon-with-number-and-tooltip-with-name-of-filter-wb-nwe-350x98.png)
 
@@ -284,7 +284,7 @@ U kunt een opgeslagen filter bewerken in Workload Balancer.
 
 1. In de hoger-juiste hoek van of **Niet toegewezen** of **Toegewezen Gebieden van het Werk**, klik het **pictogram van de Filter** ![ filter ](assets/filter-icon.png). Aan de rechterkant wordt de filterbuilder weergegeven.
 
-1. De muis over de filter u wilt uitgeven, dan klikken geeft **** pictogram ![ uit geeft filterpictogram ](assets/wb-edit-filter-icon.png) uit.
+1. De muis over de filter u wilt uitgeven, dan klikken geeft **&#x200B;**&#x200B;pictogram ![ uit geeft filterpictogram ](assets/wb-edit-filter-icon.png) uit.
 
 1. Voer een van de volgende handelingen uit:
 
