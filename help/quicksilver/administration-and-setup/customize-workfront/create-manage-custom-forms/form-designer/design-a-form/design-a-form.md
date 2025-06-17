@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 0ff02569d3c7fb532a2faafc46fe4235ce77acd4
+source-git-commit: 7373ee9f31e4b7561735920f3ff02cbd4fdce44a
 workflow-type: tm+mt
-source-wordcount: '6494'
+source-wordcount: '6547'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    ![ kies objecten type ](assets/choose-object-type.jpg)
 
 1. In **voeg een gebied van de vormnaam** toe, typ de titel van de douanevorm.
-1. (Facultatief) als u meer objecten types aan de vorm wilt toevoegen zodat het aan meer voorwerpen kan worden vastgemaakt, **&#x200B;**&#x200B;pictogram ![ toevoegen ](assets/add-objects-icon.png) naast **Objecttypes**, dan selecteren het type u in het menu wilt dat toont. U kunt dit herhalen om zoveel objecttypen toe te voegen als u wilt.
+1. (Facultatief) als u meer objecten types aan de vorm wilt toevoegen zodat het aan meer voorwerpen kan worden vastgemaakt, **** pictogram ![ toevoegen ](assets/add-objects-icon.png) naast **Objecttypes**, dan selecteren het type u in het menu wilt dat toont. U kunt dit herhalen om zoveel objecttypen toe te voegen als u wilt.
 
    Nadat u meerdere objecten aan het formulier hebt toegevoegd, kunt u op de X op een objecttype klikken om het object uit het formulier te verwijderen.
 
@@ -133,7 +133,7 @@ Elke aangepaste veldnaam moet uniek zijn in het Workfront-exemplaar van uw organ
 >[!NOTE]
 >
 >Hoewel dit mogelijk is, raden we u aan deze naam niet te wijzigen nadat u of andere gebruikers het aangepaste formulier in Workfront hebben gebruikt. Als u dat doet, herkent het systeem het aangepaste veld niet meer waar er nu naar wordt verwezen in andere gebieden van Workfront.
->&#x200B;>Bijvoorbeeld, als u het douanegebied aan een rapport toevoegt en later zijn naam verandert, herkent Workfront het niet in het rapport en het zal daar ophouden correct te werken tenzij u het aan het rapport gebruikend de nieuwe naam opnieuw toevoegt.
+>>Bijvoorbeeld, als u het douanegebied aan een rapport toevoegt en later zijn naam verandert, herkent Workfront het niet in het rapport en het zal daar ophouden correct te werken tenzij u het aan het rapport gebruikend de nieuwe naam opnieuw toevoegt.
 >
 >We raden u aan geen naam te typen die al wordt gebruikt voor ingebouwde Workfront-velden.
 >
@@ -165,7 +165,7 @@ U kunt verschillende tekstvelden toevoegen aan een aangepast formulier.
 
   Dit aangepaste veldtype wordt niet ondersteund in filters in lijsten en rapporten.
 
-  Voor informatie over de toegang tot van dit gebied door API, zie {de opslag van 0} Rich tekstgebied in API [&#128279;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md).
+  Voor informatie over de toegang tot van dit gebied door API, zie {de opslag van 0} Rich tekstgebied in API ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md).[
 
   >[!NOTE]
   >
@@ -531,11 +531,13 @@ U voegt als volgt velden voor typekop en datum toe:
         <li>Ze behoren tot een of meer groepen die u opgeeft.</li> 
         <li>Ze zijn gekoppeld aan een door u opgegeven rol of functie.</li> 
         <li>Ze behoren tot dezelfde groep als de persoon die het veld gebruikt.</li> 
-       </ul> <p>U moet het filter definiëren voor het objecttype dat u hebt geselecteerd met de syntaxis Tekstmodus. Voor informatie over het creëren van een filter gebruikend de Wijze van de Tekst, zie <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md"> een filter uitgeven gebruikend tekstwijze </a>.</p>
+       </ul>
+       <p>U moet het filter definiëren voor het objecttype dat u hebt geselecteerd met de syntaxis Tekstmodus. Voor informatie over het creëren van een filter gebruikend de Wijze van de Tekst, zie <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md"> een filter uitgeven gebruikend tekstwijze </a>.</p>
+       <p><b> Uiteinde:</b> u kunt een rapport tot stand brengen om uw filter te testen alvorens de filter aan het typeahead gebied direct toe te voegen. Zo kunt u controleren of het filter de juiste objecten retourneert. Dan kunt u op tekstwijze in het rapport schakelen, de verklaring van de tekstwijze kopiëren, en het toevoegen aan de typeahead filter.</p>
        <p><b> Nota </b>:
        <ul> 
-        <li>Als u een bestaand aangepast formulier bewerkt en u voegt een filter toe aan een Typeahead-veld, worden er geen objecten (buiten het bereik van het filter) verwijderd die gebruikers al met het veld hebben toegevoegd.</li> 
-        <li>Dit filter is niet beschikbaar op mobiele apparaten. Als u het filter voor een Typeahead-veld gebruikt, wordt het veld weergegeven op mobiele apparaten van gebruikers waarop het filter geen invloed heeft.</li> 
+        <li>Als u een bestaand aangepast formulier bewerkt en u voegt een filter toe aan een veld typekop, worden er geen objecten (buiten het bereik van het filter) verwijderd die gebruikers al met het veld hebben toegevoegd.</li> 
+        <li>Dit filter is niet beschikbaar op mobiele apparaten. Als u het filter voor een typeahead-veld gebruikt, wordt het veld weergegeven op mobiele apparaten van gebruikers waarop het filter geen invloed heeft.</li> 
         </ul></p></td> 
       <td>
        <ul>
@@ -630,12 +632,12 @@ Een externe zoekopdracht toevoegen:
       <td role="rowheader">JSON-pad</td>
       <td><p>Typ of plak het JSON-pad voor de API.</p> <p>Met deze optie kunnen gegevens worden opgehaald uit de JSON die door de API-URL wordt geretourneerd. Hiermee kunt u selecteren welke waarden in de JSON-code worden weergegeven in de vervolgkeuzelijst.</p><p>Bijvoorbeeld, als uw API URL JSON in het volgende formaat terugkeert, dan kunt u "$.data[*].name"gebruiken om V.S. en Canada als drop-down opties te selecteren:</br>
       <pre>
-      &lbrace;
-       data: &lbrace;
+      {
+       data: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Voor meer informatie over de Weg JSON en het verzekeren u de correcte Weg JSON schrijft, verwijs naar <a href="https://jsonpath.com/"> https://jsonpath.com/ </a>.</p></td>

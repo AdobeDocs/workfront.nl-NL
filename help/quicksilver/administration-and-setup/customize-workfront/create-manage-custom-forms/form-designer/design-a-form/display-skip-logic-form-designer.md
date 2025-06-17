@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: b3a4945cf2db1ba11b42742f0da685b32a6d0dd9
+source-git-commit: 7373ee9f31e4b7561735920f3ff02cbd4fdce44a
 workflow-type: tm+mt
-source-wordcount: '1694'
+source-wordcount: '1705'
 ht-degree: 0%
 
 ---
@@ -259,6 +259,10 @@ Voor extra voorbeelden van bevestigingslogica, zie [ Voorbeelden van geavanceerd
 1. Klik **toepassen**.
 
    De logica wordt toegepast op het veld in de formulierontwerper.
+
+   >[!NOTE]
+   >
+   >Validatielogica wordt niet ondersteund in de voorbeeldmodus van de formulierontwerper.
 
 <!--
 <div class="preview">
