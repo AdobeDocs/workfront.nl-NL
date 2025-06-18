@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: fe9d3cfbb50bfda672360b918d971cc77b0b8b0a
 workflow-type: tm+mt
-source-wordcount: '1979'
+source-wordcount: '2061'
 ht-degree: 0%
 
 ---
@@ -277,12 +277,14 @@ Hieronder vindt u de belangrijkste Workfront-planningsobjecten en -concepten:
    * Een recordtype en een Workfront-type project, -programma, -portfolio, -bedrijf of -groepsobject.
    * Een recordtype en een Adobe Experience Manager-middel of -map.
 
-     U moet een Adobe Experience Manager-licentie hebben om recordtypen te koppelen aan Experience Manager-objecten.
+     U moet een Adobe Experience Manager-licentie hebben om recordtypen te verbinden met Experience Manager-objecten.
 
      ![ Nieuw verbindingslusje met de opties van Workfront AEM ](assets/new-connection-tab-with-workfront-aem-options.png)
 
 
   Nadat u een verbinding tot stand hebt gebracht tussen de recordtypen, kunt u afzonderlijke records of objecten van die typen met elkaar verbinden. De verbinding tussen de verslagen toont als verbonden verslaggebied, of een verbinding.
+
+  Het verbinden van recordtypen is handig wanneer u verschillende typen werkobjecten hebt die elkaar beïnvloeden. U kunt bijvoorbeeld met campagnes werken en elke campagne kan op meerdere merken betrekking hebben. Om deze relatie aan te geven, kunt u campagnes verbinden met merken. Bovendien zou het werk voor elke campagne in veelvoudige projecten in Workfront kunnen worden gepland. Om dit aan te geven, kunt u de campagnes verbinden met de relevante projecten. Door het verbinden van recordtypen en vervolgens het verbinden van afzonderlijke records wordt deze relatie bereikt in Workfront Planning.
 
 * **Velden van de Raadpleging** (of verbonden gebieden): Nadat u de verbinding tussen twee verslagtypes vestigt en u individuele verslagen verbindt samen, kunt u de gebieden van het verbonden verslag van het verslag van verwijzingen voorzien u van verbindt.
 
@@ -299,7 +301,7 @@ Hieronder vindt u de belangrijkste Workfront-planningsobjecten en -concepten:
   >* Laatst gewijzigd door
   >* Workfront-typeahead-velden (inclusief velden zoals Projecteigenaar of Projectsponsor)
 
-  Zie de volgende artikelen voor informatie over het koppelen van recordtypen, records en gekoppelde velden:
+  Zie de volgende artikelen voor informatie over het verbinden van recordtypen, records en gekoppelde velden:
 
    * [Verbind recordtypen](/help/quicksilver/planning/architecture/connect-record-types.md)
    * [Connect-records](/help/quicksilver/planning/records/connect-records.md)
@@ -323,7 +325,6 @@ Hieronder vindt u de belangrijkste Workfront-planningsobjecten en -concepten:
      ![ groepering die in chronologiemening wordt toegepast ](assets/grouping-applied-in-timeline-view.png)
 
    * **mening van de Kalender**: De verslagen van vertoningen die minstens twee Datum-type gebieden in een kalenderformaat hebben.
-
      ![ de meningsvoorbeeld van de Kalender ](assets/calendar-view-example.png)
 
 
@@ -353,7 +354,7 @@ Workfront-planning zoeken:
    * **Werkruimten ik** ben: De werkruimten van vertoningen die u creeerde of werkruimten die met u worden gedeeld.
    * **Andere werkruimten**: Toont alle andere werkruimten in het systeem.
 
-   Voor alle andere gebruikers, zowel werkruimten die zij creeerden of met hen worden gedeeld tonen in het **1&rbrace; gebied van de Werkruimten &lbrace;.**
+   Voor alle andere gebruikers, zowel werkruimten die zij creeerden of met hen worden gedeeld tonen in het **1} gebied van de Werkruimten {.**
 
 1. (Optioneel en aanbevolen) Ga door met een aantal van de volgende acties om uw werkstructuur te maken:
 
@@ -395,7 +396,7 @@ Voor een bijgewerkte lijst van vrijgegeven eigenschappen, zie [ de versieactivit
     >
     >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.-->
 
-* [ Adobe Workfront planningsmodules voor de Fusie van Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Met de modules van de Planning van Adobe Workfront, kunt u een scenario teweegbrengen wanneer de gebeurtenissen in de Planning van Workfront voorkomen. U kunt ook records maken, lezen, bijwerken en verwijderen of een aangepaste API-aanroep naar uw Adobe Workfront Planning-account uitvoeren.
+* [ Adobe Workfront planningsmodules voor de Fusie van Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Met de modules van de Planning van Adobe Workfront, kunt u een scenario teweegbrengen wanneer de gebeurtenissen in de Planning van Workfront voorkomen. U kunt ook records maken, lezen, bijwerken en verwijderen of een aangepaste API-aanroep naar uw Adobe Workfront Planning-account uitvoeren.
 
 * [ de Planning API van Adobe Workfront basiscs ](/help/quicksilver/planning/general/planning-api-basics.md): Het doel voor de Planning API van Adobe Workfront is bouwintegratie met Planning te vereenvoudigen door een REST-ful architectuur te introduceren die over HTTP werkt.
 

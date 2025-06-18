@@ -7,7 +7,7 @@ description: U kunt gegevensexpressies gebruiken om berekende aangepaste gegeven
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: fe9d3cfbb50bfda672360b918d971cc77b0b8b0a
 workflow-type: tm+mt
 source-wordcount: '2463'
 ht-degree: 0%
@@ -396,7 +396,7 @@ U kunt een berekend aangepast veld maken waarin een waarde met tekstopmaak wordt
    <td><strong> ARRAYCONTAINS </strong> </td> 
    <td> <p>Zoekt naar een specifieke waarde in een lijst of array. Als de waarde wordt gevonden, keert de functie Waar terug, anders keert het Vals. </p> 
    <p>De expressie wordt als volgt opgemaakt:</p>
-   <p><code>ARRAY(value 1, value 2)</code></p> 
+   <p><code>ARRAYCONTAINS(array, value)</code></p> 
    </td> 
   </tr>
 
