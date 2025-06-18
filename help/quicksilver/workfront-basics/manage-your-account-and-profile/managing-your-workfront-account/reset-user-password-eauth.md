@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: 72f955e9-75ff-4ff7-b434-7a2b2d5ee0e8
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: 1d7d094a682a02b09651023f94e81ee0b330163c
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnem
 
 1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van [!DNL Workfront], dan klik **[!UICONTROL Users]** ![ pictogram van Gebruikers ](assets/users-icon-in-main-menu.png).
 
-   ![ Belangrijkste menuopties ](assets/main-menu-options-350x481.png)
+
 
 1. Selecteer **[!UICONTROL User]** waarvoor opnieuw wachtwoord moet worden ingesteld.
    ![ selecteer de gebruiker ](assets/100520classicnweselectuser-350x105.png)

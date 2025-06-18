@@ -5,9 +5,9 @@ description: De hoogste navigatiebar — die bij de bovenkant van uw scherm in  
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
+source-git-commit: 4ad4873f1646a2ff499d03dabd9749d43022f6b1
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '611'
 ht-degree: 0%
 
 ---
@@ -85,8 +85,6 @@ De opties die beschikbaar zijn in de [!UICONTROL Main Menu] zijn afhankelijk van
 * **de malplaatjeconfiguraties van de Lay-out**: Om te leren hoe een [!DNL Workfront] beheerder [!UICONTROL Main Menu] van een lay-outmalplaatje kan wijzigen, zie [ [!UICONTROL Main Menu] aanpassen gebruikend een lay-outmalplaatje ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 * **het type van Vergunning**: Om de standaardconfiguraties voor verschillende vergunningstypes te leren, zie [ de navigatie voor een overzicht-vergunning gebruiker ](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) of [ begrijpen de navigatie voor a [!UICONTROL Work] - vergunning gebruiker ](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
-
-![ Belangrijkste menuopties ](assets/main-menu-options-350x481.png)
 
 Met elk pictogram gaat u naar een ander gebied van Workfront.
 
