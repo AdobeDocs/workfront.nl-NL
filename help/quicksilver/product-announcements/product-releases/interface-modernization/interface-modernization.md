@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: f7e8dd73dc50d5e8a600abe42868a6c7096d8ed6
+source-git-commit: 4c09cbe74e8f277cd6a9a7732aa1a93e17f7dfeb
 workflow-type: tm+mt
-source-wordcount: '4583'
+source-wordcount: '4622'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Deze pagina bevat een overzicht van de interface-updates die we in Adobe Workfro
 >
 >In de meeste gevallen, wordt elke update eerst vrijgegeven aan het milieu van de Voorproef, dan incrementeel toegelaten in de milieu van de Productie voor een groeiende ondergroep klanten die op de vermelde de versiedatum van de Productie begint.
 
-Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product [&#128279;](/help/quicksilver/product-announcements/product-releases/product-releases.md).
+Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product ](/help/quicksilver/product-announcements/product-releases/product-releases.md).[
 
 
 ## Beheer en installatie
@@ -248,15 +248,13 @@ Raadpleeg de volgende artikelen voor meer informatie:
 
 ## Rapporten en dashboards
 
-<!--
-### Interface updates for the Expense report
+### De updates van de interface voor het rapport van de Uitgaven
 
-Preview release: June 19, 2025; Production release: June 26, 2025
+Preview-release: 19 juni 2025; Production release: 26 juni 2025
 
-We have updated the look and feel of the Expense report to match the design of other areas of Workfront.
+We hebben de blik en het gevoel van het verslag-Expense aangepast aan het ontwerp van andere gebieden van Workfront.
 
-For information, see [Create a custom report](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
--->
+Voor informatie, zie [ een douanerapport ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 ### Bijgewerkte rapporten met nieuwe opmaak
 
