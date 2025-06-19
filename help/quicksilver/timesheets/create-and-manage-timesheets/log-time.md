@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 1926500c76e4f9cfdac829f8d9f0cdfa6231e31d
+source-git-commit: f7cb314067d105d5534f4be356024aea8e8f9a28
 workflow-type: tm+mt
-source-wordcount: '3816'
+source-wordcount: '4063'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,17 @@ ht-degree: 0%
 <!--remove all preview and production references if any-->
 <!--update screen shots for the general hour entries and the mixed selection of hours at production, if they fixed the bugs -->
 
+<!--
+<div class="preview">
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
+
+</div>
+
+-->
+
 U kunt de tijd voor het werk in Adobe Workfront registreren om op het aantal uren te wijzen u het werken aan hen doorwerkt. U kunt tijd ook registreren die niet met het werk, zoals vakantie, zieke tijd, of tijd verwant is u in vergaderingen doorbrengt. De tijd u registreert toont in uw timesheet.
 
 Voor meer informatie over het type van uren kunt u login Workfront, zie [ de types van uren beheren ](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
@@ -28,8 +39,6 @@ Voor meer informatie over het type van uren kunt u login Workfront, zie [ de typ
 ## Toegangsvereisten
 
 +++ Vouw uit om de vereisten voor toegang weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren en de Specifieke uren van het Project te registreren:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -342,13 +351,27 @@ Daarnaast kunt u als volgt de tijd vastleggen voor een item in de widget Mijn we
 1. Ga naar het **Begin** gebied.
 1. Voeg **Mijn werk** widget aan uw Huis toe.
 1. (Facultatief) selecteer een taak, kwestie, of verzoek in een lijst, dan klik **Werk op het**.
-1. Beweeg over de taak of de kwestie u tijd voor wilt registreren, dan het **pictogram ![](assets/log-time-icon-in-new-home.png) van de Tijd van het Logboek** &lbrace;aan het recht van de taakinformatie klikken.
+1. Beweeg over de taak of de kwestie u tijd voor wilt registreren, dan het **pictogram ![](assets/log-time-icon-in-new-home.png) van de Tijd van het Logboek** {aan het recht van de taakinformatie klikken.
 
-   ![](assets/log-time-ui-for-task-from-new-home.png)
+   De **vakvertoningen van de tijd van het 0} Logboek.**
+
+   ![ de tijdvakje van het Logboek voor een taak in Huis ](assets/log-time-ui-for-task-from-new-home.png)
+
+1. Geef de volgende informatie op:
+
+   * **Type van Uur**: Selecteer een Type van Uur van het drop-down menu, als het van getoond door gebrek verschillend is.
+
+     Afhankelijk van welke uurtypes in uw systeem worden gevormd, zouden de opties hier kunnen variëren. Voor meer informatie over het vormen van uurtypes, zie [ de types en beschikbaarheid van uren bepalen ](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+
+   * **Rol van de Baan**: (Voorwaardelijk) als uw Workfront of groepsbeheerder **heeft toegelaten wijst baanrollen aan uuringangen manueel** plaatsen toe, selecteer a **Rol van de Baan** van het drop-down menu. De rol die wordt opgegeven wanneer u aan het object bent toegewezen, wordt standaard weergegeven. Als u geen Rol op het voorwerp wordt toegewezen, toont uw Primaire Rol als gebrek. Voor meer informatie over dit plaatsen, zie het artikel [ timesheet en uurvoorkeur ](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen.
+
+   * Voer in de wekelijkse kalender het aantal uren in voor het project, de taak of de uitgave.
 
 1. Klik **tijd van het Logboek**.
 
    De geregistreerde tijdvertoningen in de sectie van de Uren van de objecten, en in uw timesheet.
+
+   Het **Totale Uren** gebied in de de tijddoos van het Logboek toont alle uren die voor het project, de taak, of de kwestie door alle gebruikers worden geregistreerd.
 
 <!--#### Log time on a work item from the legacy Home area
 
@@ -395,7 +418,7 @@ Om tijd in de sectie van Updates van een project, een taak, of een kwestie te re
    >   
    >   Rechtsboven in het vak Dagen invoeren ziet u hoeveel uren er in een dag staan.
 
-   ![](assets/log-time-box-in-updates-stream.png)
+   ![ de tijd van het Logboek voor een taak op het gebied van Updates ](assets/log-time-box-in-updates-stream.png)
 
 1. Geef de volgende informatie op:
 
@@ -405,11 +428,13 @@ Om tijd in de sectie van Updates van een project, een taak, of een kwestie te re
 
    * **Rol van de Baan**: (Voorwaardelijk) als uw Workfront of groepsbeheerder **heeft toegelaten wijst baanrollen aan uuringangen manueel** plaatsen toe, selecteer a **Rol van de Baan** van het drop-down menu. De rol die wordt opgegeven wanneer u aan het object bent toegewezen, wordt standaard weergegeven. Als u geen Rol op het voorwerp wordt toegewezen, toont uw Primaire Rol als gebrek. Voor meer informatie over dit plaatsen, zie het artikel [ timesheet en uurvoorkeur ](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen.
 
-   * **Uren**: Ga het aantal uren voor het project, de taak, of de kwestie in.
+   * Voer in de wekelijkse kalender het aantal uren in voor het project, de taak of de uitgave.
 
 1. Klik **tijd van het Logboek**.
 
    De geregistreerde tijdvertoningen in de sectie van de Uren van de objecten, en in uw timesheet.
+
+   Het **Totale Uren** gebied in de de tijddoos van het Logboek toont alle uren die voor het project, de taak, of de kwestie door alle gebruikers worden geregistreerd.
 
 #### Uren, sectie{#hours-section}
 
@@ -429,7 +454,13 @@ Om tijd in de sectie van Uren van een project, een taak, of een kwestie te regis
 1. In het linkerpaneel, klik **Uren**.
 1. Klik **Tijd van het Logboek**.
 
-   Het dialoogvenster Logboekuren wordt weergegeven.
+   De **vakvertoningen van de Tijd van het Logboek van 0} {.**
+
+   <!--<div class="preview">
+  
+   ![Log time in the Hours section of a task](assets/log-time-box-in-hours-section-on-task.png)
+
+   </div>-->
 
 1. Geef de volgende informatie op:
 
@@ -438,14 +469,19 @@ Om tijd in de sectie van Uren van een project, een taak, of een kwestie te regis
 
    * **Type van Uur**: Selecteer een Type van Uur van het drop-down menu, als het van getoond door gebrek verschillend is.
 
-     Afhankelijk van welke uurtypes in uw systeem worden gevormd, zouden de opties hier kunnen variëren. Voor meer informatie over het vormen van uurtypes, zie [ de types en beschikbaarheid van uren bepalen ](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+     Afhankelijk van welke uurtypes in uw systeem worden gevormd, zouden de opties hier kunnen variëren.
+
+     Voor meer informatie over het vormen van uurtypes, zie [ de types en beschikbaarheid van uren bepalen ](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
    * **Rol van de Baan**: (Voorwaardelijk) als uw Workfront of groepsbeheerder **heeft toegelaten wijst baanrollen aan uuringangen manueel** plaatsen toe, selecteer a **Rol van de Baan** van het drop-down menu. De rol die wordt opgegeven wanneer u aan het object bent toegewezen, wordt standaard weergegeven. Als u geen Rol op het voorwerp wordt toegewezen, toont uw Primaire Rol als gebrek. Voor meer informatie over dit plaatsen, zie het artikel [ timesheet en uurvoorkeur ](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen.
+   * **Uren**: Ga het aantal uren voor het project, de taak, of de kwestie in. <!--<span class="preview">In the weekly calendar, enter the number of hours for the project, task, or issue.</span>-->
+   * **Nota**: Voeg een nota toe om te verklaren waar de uren voor zijn. Dit wordt bewaard als **Nota van het Uur** of een **Beschrijving van het Uur**.
 
-     ![](assets/log-time-box-in-hours-section-on-task.png)
-   * **Uren**: Ga het aantal uren voor het project, de taak, of de kwestie in.
+1. Klik **tijd van het Logboek**.
 
-1. Klik **Tijd van het Logboek**.
+   De geregistreerde tijdvertoningen in de sectie van de Uren van de objecten, en in uw timesheet.
+
+   Het **Totale Uren** gebied in de de tijddoos van het Logboek toont alle uren die voor het project, de taak, of de kwestie door alle gebruikers worden geregistreerd.
 
 ### Het deelvenster Samenvatting
 
@@ -534,7 +570,7 @@ Om uurtypes in een uurrapport of een lijst uit te geven:
 1. Klik op het vakje links van een of meerdere uurvermeldingen om deze te selecteren.
 1. Klik het **uitgeven pictogram** ![](assets/edit-icon.png) bij de bovenkant van de lijst.
 
-   Het **geeft** uur &lbrace;of **geeft de doos van Uren** uit opent.
+   Het **geeft** uur {of **geeft de doos van Uren** uit opent.
 1. Werk een van de volgende beschikbare velden bij:
 
    * Uren. Dit is een verplicht veld.

@@ -3,22 +3,22 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration
 navigation-topic: system-tracked-update-feeds
-title: Updates met systeembeheer
+title: Overzicht van door het systeem bijgehouden updates
 description: Adobe Workfront legt de activiteit vast die plaatsvindt op bepaalde objecten door statusinformatie in het gebied [!UICONTROL Updates] van het object te registreren.
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 4448d2fc6d0230ef2f53ad0ea7ae0f10f52fcac4
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
 
-# Door het systeem bijgehouden updates
+# Overzicht van door het systeem bijgehouden updates
 
-<!-- Audited: April, 2024-->
+<!-- Audited: 06/2025-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
@@ -75,7 +75,7 @@ Door het systeem bijgehouden updates zijn niet beschikbaar voor alle objecten di
    * [!UICONTROL Iteration]
    * [!UICONTROL Goal]
 
-     U moet een extra licentie hebben om toegang te hebben tot het [!UICONTROL Goals] -gebied. Voor informatie, zie [ Vereisten om de Doelen van Workfront ](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
+     Niet alle Workfront-pakketten bevatten Workfront Goals. Voor informatie, zie [ Vereisten om de Doelen van Workfront ](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
    * [!UICONTROL Card] op een bord
 
      Voor meer informatie over updates op kaarten, zie [ Gebruik verbonden kaarten op raad ](../../../agile/get-started-with-boards/connected-cards.md).

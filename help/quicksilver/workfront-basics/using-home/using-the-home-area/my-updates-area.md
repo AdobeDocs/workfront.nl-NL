@@ -6,9 +6,9 @@ description: U kunt het [!UICONTROL My Updates] gebied gebruiken om de goedkeuri
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 4448d2fc6d0230ef2f53ad0ea7ae0f10f52fcac4
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '736'
 ht-degree: 0%
 
 ---
@@ -74,15 +74,13 @@ U moet het volgende hebben voordat u begint:
 
 ## Het [!UICONTROL My Updates] -gebied openen
 
-1. Klik op **[!UICONTROL My Updates]** in de **[!UICONTROL Main Menu]** .
+{{step1-to-my-updates}}
 
-   ![ Mijn Updates in HoofdMenu ](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
+Het gebied [!UICONTROL My Updates] wordt geopend.
 
-   Het gebied [!UICONTROL My Updates] wordt geopend.
+De goedkeuringen en de verzoeken om toegang die aan u worden toegewezen zijn vermeld in de eerste helft van de pagina, onder **Mijn Updates**.
 
-   De goedkeuringen en de verzoeken om toegang die aan u worden toegewezen zijn vermeld in de eerste helft van de pagina, onder **Mijn Updates**.
-
-   ![ Mijn Herzieners van Updates ](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
+![ Mijn Herzieners van Updates ](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
 
 1. (Facultatief) Schuif aan de bodem van het [!UICONTROL **Mijn gebied van Updates**] en klik de naar rechts wijzende pijl om meer goedkeuringen te tonen die op extra pagina&#39;s tonen.
 
@@ -117,7 +115,7 @@ U moet het volgende hebben voordat u begint:
 
 1. U kunt als volgt een item goedkeuren of afwijzen of wijzigingen in een document voorstellen voordat u het goedkeurt:
 
-   1. (Facultatief) klik het **pictogram van de drop-down ![ Vervolgkeuzelijst ](assets/down-arrow-blue.png) naast uw goedkeuringsbesluit (**&#x200B;[!UICONTROL Approve]&#x200B;**,**&#x200B;[!UICONTROL Changes]&#x200B;**,**&#x200B;[!UICONTROL Reject]&#x200B;**) en voeg een commentaar toe, dan klik &#x200B;** [!UICONTROL Add]&#x200B;**.**
+   1. (Facultatief) klik het **pictogram van de drop-down ![ Vervolgkeuzelijst ](assets/down-arrow-blue.png) naast uw goedkeuringsbesluit (**[!UICONTROL Approve]**,**[!UICONTROL Changes]**,**[!UICONTROL Reject]**) en voeg een commentaar toe, dan klik **[!UICONTROL Add]**.**
 
       of
 

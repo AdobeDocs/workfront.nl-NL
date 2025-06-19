@@ -6,9 +6,9 @@ description: Sparen een project als templateSave als malplaatje"op het projectni
 author: Alina
 feature: Work Management
 exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: f7cb314067d105d5534f4be356024aea8e8f9a28
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -21,13 +21,15 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Keep this the way it is in the Managing Projects area because the functionality in the UI is "Save as template" at the project level, so users see that in the UI; there is another article that this links to which is more in depth (step-by-step). This functionality needs to stay in both projects AND templates areas.)</p>
 -->
 
+<!--
 <div class="preview">
 
-De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Dezelfde functies zijn ook beschikbaar in de productieomgeving voor alle klanten na een week vanaf de release Preview.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
 
-Voor meer informatie, zie [ modernisering van de Interface ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
 
 </div>
+-->
 
 Als u besluit dat een project ergens in de toekomst opnieuw zal voorkomen, kunt u een malplaatje van dat bestaand project tot stand brengen. Dan, kunt u het malplaatje opnieuw gebruiken, om toekomstige projecten tot stand te brengen die gelijkaardige informatie zouden kunnen bevatten of de zelfde chronologie of de taken met het bestaande project zouden kunnen delen.
 
@@ -67,63 +69,67 @@ Als u besluit dat een project ergens in de toekomst opnieuw zal voorkomen, kunt 
 
 ## Een project opslaan als een sjabloon
 
-Het opslaan van een project als sjabloon verschilt in de productieomgeving en de voorbeeldomgeving.
+<!--
+Saving a project as a template differs in the Production and the Preview environments. 
 
-### Een project opslaan als een sjabloon in de productieomgeving
+### Save a project as a template in the Production environment
 
-1. Ga naar het project dat u als malplaatje wilt bewaren.
-1. Klik **Meer** menu ![ Meer pictogram ](assets/qs-more-icon-on-an-object.png), dan **sparen als Malplaatje**.
-1. Geef de volgende informatie voor de sjabloon op:
+
+1. Go to the project that you want to save as a template. 
+1. Click the **More** menu ![More icon](assets/qs-more-icon-on-an-object.png), then **Save as Template**. 
+1. Specify the following information for the template:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Naam</td> 
-      <td>Geef een naam voor de sjabloon op.</td> 
+      <td role="rowheader">Name</td> 
+      <td>Specify a name for the template.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Beschrijving</td> 
-      <td>Geef een beschrijving voor de sjabloon.</td> 
+      <td role="rowheader">Description</td> 
+      <td>Provide a description for the template.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Is actief</td> 
-      <td> <p>Selecteer een van de volgende opties:</p> 
+      <td role="rowheader">Is Active</td> 
+      <td> <p>Select from the following options:</p> 
        <ul> 
-        <li> <p><strong> ja </strong>: Andere gebruikers kunnen het malplaatje vinden en het aan projecten vastmaken.</p> </li> 
-        <li><strong> Nr </strong>: Andere gebruikers kunnen niet het malplaatje vinden en kunnen het niet aan projecten vastmaken.</li> 
+        <li> <p><strong>Yes</strong>: Other users can find the template and attach it to projects.</p> </li> 
+        <li><strong>No</strong>: Other users cannot find the template and cannot attach it to projects.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Aangepaste Forms</td> 
-      <td>Gebruik de vervolgkeuzelijst om aangepaste formulieren te selecteren die u aan de sjabloon wilt koppelen. Als er al aangepaste formulieren aan het project zijn gekoppeld, worden alle gegevensvelden van die aangepaste formulieren weergegeven.<br> u kunt tot 10 douaneformulieren op één enkel malplaatje omvatten.</td> 
+      <td role="rowheader">Custom Forms</td> 
+      <td>Use the drop-down list to select any custom forms to attach to the template. If any custom forms have already been associated with the project, all of the data fields from those custom forms are displayed.<br>You can include up to 10 custom forms on a single template.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klik **leiden Forms** om de vormen te verwijderen of opnieuw in orde te brengen. Voor informatie over hoe te om douaneformulieren op het malplaatje te verwijderen en opnieuw in orde te brengen, zie [ de vormen van de Douane ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
+1. Click **Manage Forms** to remove or reorder the forms. For information about how to remove and reorder custom forms on the template, see [Custom forms](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
 
    ![](assets/save-as-template-first-step-350x159.png)
 
-1. Klik **Volgende Stap.**
-1. In de **sectie van Opties**, selecteer checkbox naast om het even welke informatie u van het malplaatje wilt ontruimen.
+1. Click **Next Step.**
+1. In the **Options** section, select the checkbox beside any information you want to clear from the template.
 
    ![](assets/save-as-template-options-step-350x109.png)
 
-1. Klik **Volgende Stap.**
-1. In de **uitsluiten** sectie, selecteer om het even welke taken die u van het project wilt uitsluiten.
+1. Click **Next Step.**
+1. In the **Exclude** section, select any tasks that you want to exclude from the project.
 
    ![](assets/save-as-template-exclude-350x205.png)
 
-1. Klik **Einde en sparen Malplaatje.**
+1. Click **Finish and Save Template.**
 
-   Uw sjabloon wordt nu weergegeven in de lijst met beschikbare sjablonen en kan worden gekoppeld aan een bestaand project of worden gebruikt om een nieuw project te maken.
+   Your template now appears in the list of available templates and can either be attached to an existing project or used to create a new one.
 
 
 <div class="preview">
 
-### Een project opslaan als een sjabloon in de voorvertoningsomgeving
+### Save a project as a template in the Preview environment
+
+-->
 
 1. Ga naar het project dat u als malplaatje wilt bewaren.
 1. Klik **Meer** menu ![ Meer pictogram ](assets/qs-more-icon-on-an-object.png), dan **sparen als Malplaatje**.
@@ -165,7 +171,7 @@ Om een vorm te verwijderen, selecteer het, dan klik **verwijdert**. Klik **annul
 
 1. Werk indien nodig gegevens bij in de bijgevoegde aangepaste formulieren. De informatie wordt naar de sjabloon overgedragen.
 
-1. Klik **Opties** in de linkerpaneelsectie, dan selecteren checkbox naast om het even welke informatie u aan het malplaatje wilt overbrengen. Niet-geselecteerde items worden niet naar de sjabloon overgebracht. Alle opties zijn standaard uitgeschakeld.
+1. Klik **Opties** in het linkerpaneel, dan selecteren checkbox naast om het even welke informatie u naar het malplaatje wilt overbrengen. Niet-geselecteerde items worden niet naar de sjabloon overgebracht. Alle opties zijn standaard uitgeschakeld.
 
    ![ gebied van Opties in sparen als malplaatjedoos ](assets/options-area-in-save-as-template-box.png)
 
@@ -173,8 +179,7 @@ Om een vorm te verwijderen, selecteer het, dan klik **verwijdert**. Klik **annul
 
    ![ sluit gebied in sparen als malplaatjedoos ](assets/exclude-area-save-as-template-box.png) uit
 
-1. Klik **Einde en sparen Malplaatje.**
+1. Klik **Einde en sparen Malplaatje** in de hoger-juiste hoek van het scherm.
 
    Uw sjabloon wordt nu weergegeven in de lijst met beschikbare sjablonen en kan worden gekoppeld aan een bestaand project of worden gebruikt om een nieuw project te maken.
 
-</span>
