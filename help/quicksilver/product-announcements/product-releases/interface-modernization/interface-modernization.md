@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 95a8d56b82e6d28995f7adc9cf3e23cbb039c096
+source-git-commit: f7e8dd73dc50d5e8a600abe42868a6c7096d8ed6
 workflow-type: tm+mt
-source-wordcount: '4589'
+source-wordcount: '4583'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Deze pagina bevat een overzicht van de interface-updates die we in Adobe Workfro
 >
 >In de meeste gevallen, wordt elke update eerst vrijgegeven aan het milieu van de Voorproef, dan incrementeel toegelaten in de milieu van de Productie voor een groeiende ondergroep klanten die op de vermelde de versiedatum van de Productie begint.
 
-Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product [&#128279;](/help/quicksilver/product-announcements/product-releases/product-releases.md).
+Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product ](/help/quicksilver/product-announcements/product-releases/product-releases.md).[
 
 
 ## Beheer en installatie
@@ -260,14 +260,14 @@ For information, see [Create a custom report](/help/quicksilver/reports-and-dash
 
 ### Bijgewerkte rapporten met nieuwe opmaak
 
-**de versie van de Voorproef: 12 Juni, 2025; De versie van de productie: Te aankondigen**
+**de versie van de Voorproef: 12 juni, 2025; de versie van de Productie: 19 Juni. 2025**
 
 We hebben het uiterlijk van meerdere rapporten aangepast aan het ontwerp van andere gebieden van Workfront. Er is geen functionaliteit gewijzigd.
 
 Deze update bevat visuele wijzigingen in de lijsten en werkbalken van de rapporten voor de volgende objecttypen:
 
 * Risico&#39;s
-* Basislijnen (vrijgelaten voor productie op 19 juni. (2025)
+* Basislijnen
 * Tarieven
 * Layoutsjablonen
 
