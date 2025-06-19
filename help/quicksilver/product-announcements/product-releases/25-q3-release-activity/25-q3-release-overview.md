@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 85eeb9796f095aeaa09f8bf28953c0fa7bbf579b
+source-git-commit: d7b9f6cac531bed5fd2a3e5c766e9d714f2625e4
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1482'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,6 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * [Projectverbeteringen](#project-enhancements)
 * [Verbeteringen rapporteren](#reporting-enhancements)
 * [Verbeteringen voor bijwerken en meldingen](#update-and-notification-enhancements)
-* [ de verhogingen van de Integratie ]
 * [Andere verbeteringen](#other-enhancements)
 
 ### Verbeteringen voor proefdrukken en documentbeheer
@@ -130,6 +129,15 @@ Deze update bevat interne gereedschapsupdates die geen invloed hebben op de func
         <td><strong>Snelle release</strong></td>
         <td><strong>Driemaandelijks</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}"> Bijgewerkte het becommentariëren ervaring in de sectie van Vermeldingen op het Mijn gebied van Updates </a><p></p>
+            <p>We werken de ervaringen met opmerkingen bij in de sectie Meldingen in het gebied Mijn updates. Dezelfde ervaring in het gedeelte Updates van de meeste Workfront-objecten is nu ook beschikbaar in de sectie Notities van Mijn updates.</p>
+        </td>
+        <td>19 december 2024</td>
+        <td>19 juni 2025</td>
+        <td>19 juni 2025</td>
+    </tr>     
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}"> Mijn goedkeuringenwidget sorteert nu automatisch op deadline </a><p></p>
@@ -280,7 +288,7 @@ We werken de interface in Adobe Workfront bij om de gebruikerservaring te verbet
 
 ### Workfront Fusion-verbeteringen
 
-Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de standaard releaseschema. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de standaard releaseschema. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Verbeteringen voor Workfront-planning
 
@@ -296,9 +304,9 @@ Er zijn geen updates voor het volgende op dit punt in de versie:
 
 ### Nieuwe versie van Workfront voor Microsoft Teams
 
-Als Microsoft overgaat naar de New Teams-client, is de Classic Teams-client niet meer beschikbaar na 1 juli 2025. Ter voorbereiding ontwikkelen we een nieuwe versie van de Microsoft Teams-integratie die volledig compatibel zal zijn met de New Teams-client en voor 1 juli beschikbaar zal zijn om een soepele overgang te waarborgen.
+Als [ Microsoft overgangen aan de Nieuwe cliënt van Teams ](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability), zal de Klassieke cliënt van Teams niet meer beschikbaar na 1 Juli, 2025 zijn. Als u Microsoft Teams en geïntegreerde toepassingen zoals Workfront wilt blijven gebruiken, moeten klanten vóór deze datum overstappen naar de New Teams-client.
 
-Instructies over het downloaden en installeren van de integratie in de New Teams-client worden beschikbaar nadat de integratie is vrijgegeven.
+De bijgewerkte Workfront-integratie is nu beschikbaar en volledig compatibel met de New Teams-ervaring. In de meeste gevallen wordt Workfront automatisch weergegeven wanneer gebruikers een overgang hebben gemaakt. Als dit niet het geval is, kan de integratie handmatig worden geïnstalleerd vanaf de Microsoft Teams App Store. Om de integratie van Workfront in de Nieuwe cliënt van Teams te installeren of te verifiëren, zie [  [!DNL Adobe Workfront]  installeren voor Microsoft Teams ](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
 ### Workfront for Microsoft Outlook
 
@@ -318,11 +326,11 @@ Voor informatie over API versies, zie [ API versioning en steunprogramma ](/help
 
 ### Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens Eerste Kwartaal 2025 versie worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront [&#128279;](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=nl-NL).
+Voor informatie over de onderhoudsupdates die tijdens Eerste Kwartaal 2025 versie worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).[
 
 ### Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=nl-NL) Nieuw is.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html) Nieuw is.
 
 
 

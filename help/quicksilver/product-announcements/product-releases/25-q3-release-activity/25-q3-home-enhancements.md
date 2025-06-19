@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
-source-git-commit: 75a8990a3bb75a0f8177b10d5e42bd6b4211f7f1
+source-git-commit: d7b9f6cac531bed5fd2a3e5c766e9d714f2625e4
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,20 @@ ht-degree: 0%
 Op deze pagina worden alle Home-verbeteringen beschreven die zijn aangebracht met de release Derde kwartaal 2025 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwartaal 2025 versiecyclus, zie [ Derde Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
+
+## Bijgewerkte commentaarervaring in de sectie van Aantekeningen op het Mijn gebied van Updates
+
+>[!NOTE]
+>
+>* Voorbeeld: 19 december 2024
+>* Snelle productie: 19 juni 2025
+>* Productie voor alle afnemers: 19 juni 2025
+
+We werken de ervaringen met opmerkingen bij in de sectie Meldingen in het gebied Mijn updates. Dezelfde ervaring in het gedeelte Updates van de meeste Workfront-objecten is nu ook beschikbaar in de sectie Notities van Mijn updates.
+
+Vóór deze verbetering was de oudere ervaring met opmerkingen op dit gebied beschikbaar.
+
+Voor informatie, zie [ Gebruik het Mijn gebied van Updates ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-updates-area.md).
 
 ## Mijn widget voor goedkeuringen sorteert nu automatisch op deadline
 

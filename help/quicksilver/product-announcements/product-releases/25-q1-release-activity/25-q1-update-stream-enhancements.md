@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 29fa2641-9ac0-4cad-aef1-0f5ac877bab1
-source-git-commit: 270bf0fb1bb5b3ab93e82aafd423ee6fceaa7b42
+source-git-commit: ec74d34bc69f2f1424414453f9fdf94e539a75fd
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 19 december 2024; Productieversie voor alle klanten: aan te kondigen
+>Voorvertoningsrelease: 19 december 2024; Productieversie voor alle klanten thuis: aan te kondigen; Productieversie voor alle klanten voor Mijn updates: 19 juni 2025
 
 We werken de opmerkingervaring bij in de widget voor herinneringen in Home en de sectie voor opmerkingen in het gedeelte Mijn updates. Dezelfde ervaring in het gedeelte Updates van de meeste Workfront-objecten is nu ook beschikbaar in de widget Notities en in de sectie Notities van Mijn updates.
 

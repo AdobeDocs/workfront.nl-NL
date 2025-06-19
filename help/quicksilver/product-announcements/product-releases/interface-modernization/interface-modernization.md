@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 6fa00a88f6620936ed9af00faf60f61d48c2f825
+source-git-commit: 95a8d56b82e6d28995f7adc9cf3e23cbb039c096
 workflow-type: tm+mt
-source-wordcount: '4390'
+source-wordcount: '4589'
 ht-degree: 0%
 
 ---
@@ -20,14 +20,75 @@ Deze pagina bevat een overzicht van de interface-updates die we in Adobe Workfro
 >
 >In de meeste gevallen, wordt elke update eerst vrijgegeven aan het milieu van de Voorproef, dan incrementeel toegelaten in de milieu van de Productie voor een groeiende ondergroep klanten die op de vermelde de versiedatum van de Productie begint.
 
-Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product [&#128279;](/help/quicksilver/product-announcements/product-releases/product-releases.md).
+Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product ](/help/quicksilver/product-announcements/product-releases/product-releases.md).[
 
 
 ## Beheer en installatie
 
+<!--
+### Look and feel updates for the Update Feeds section of Setup 
+
+**Preview release: June 19, 2025; Production release: June 26, 2025** 
+
+We have updated the look and feel of all the tabs and subtabs in the Update Feeds section of Setup. The Update Feeds section displays under the Interface area of Setup. Now, all the tabs in the Update Feeds section match other areas of Workfront. 
+
+For information, see the articles in the [System-tracked update feeds](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md) section.
+-->
+
+<!--
+### Look and feel updates for the Add fields box in the Update Feeds section of Setup 
+
+**Preview release: June 19, 2025; Production release: June 26, 2025** 
+
+We have updated the look and feel of the Add fields box in the Update Feeds section of Setup. The Update Feeds section displays under the Interface area of Setup. Now, when you add fields in any subtab of the Tracked Fields tab, the Add fields box has a new look and feel, and some of the interface elements have been updated.  
+
+For information, see [Configure system updates](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+-->
+
+### Interface-updates voor het maken, kopiëren en bewerken van planningen
+
+**de versie van de Voorproef: 18 juni, 2025; de versie van de Productie: 26 juni, 2025**
+
+We hebben het dialoogvenster bijgewerkt waarin u een schema kunt maken, bewerken of kopiëren met een modern ontwerp dat aansluit bij andere gebieden van Workfront.
+
+Er zijn enkele kleine wijzigingen in de functionaliteit van deze update:
+
+* Op het lusje van het Programma, hebben wij de manier verbeterd u uren voor het programma selecteert.
+
+* Op het tabblad Details staan alle selectievakjes in één kolom in plaats van in twee kolommen.
+
+* Als u op het tabblad Uitzonderingen een alledaagse gebeurtenis wilt wijzigen in een gebeurtenis van een gedeeltelijke dag of een gebeurtenis van een gedeeltelijke dag in een gebeurtenis van alle dagen, moet u de bestaande gebeurtenis verwijderen en vervolgens een nieuwe gebeurtenis maken.
+
+
+Voor informatie, zie [ een programma ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren.
+
+### Bijwerken naar het dialoogvenster Toegangsniveaus
+
+**de versie van de Voorproef: 19 Juni, 2025; De versie van de Productie: 19 Juni, 2025**
+
+We hebben het dialoogvenster Toegangsniveaus bijgewerkt met een moderner ontwerp dat aansluit bij andere gebieden van Workfront.
+
+De knoop om toegang te verfijnen is naar het recht van de Edit knoop verplaatst.
+
+Ga naar Instellingen > Toegangsniveaus > Nieuw toegangsniveau om deze wijziging weer te geven.
+
+<!--
+### Interface updates for the Companies page
+
+**Preview release: June 19, 2025; Production release: June 26, 2025**
+
+We have updated the Companies page with a more modern design that is consistent with other areas of Workfront.
+
+This update includes visual changes to the list of companies. No functionality has changed.
+
+To view the change, go to Setup > Companies.
+
+For information, see [Create and edit companies](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+-->
+
 ### Interface-updates voor de pagina Klantgegevens
 
-**de versie van de Voorproef: 12 Juni, 2025; De versie van de Productie: 19 Juni, 2025**
+**de versie van de Voorproef: 12 Juni, 2025; De versie van de productie: Te aankondigen**
 
 We hebben de pagina Klantgegevens bijgewerkt met een modern ontwerp dat aansluit bij andere delen van Workfront.
 
@@ -118,9 +179,19 @@ We hebben de pagina die u gebruikt, bijgewerkt zodat u ondersteuning kunt bieden
 
 ## Projecten
 
+<!--
+### New look and feel for logging time on a project, task, or issue in the Hours tab   
+
+**Preview release: June 19, 2025; Production release: June 26, 2025** 
+
+We have updated the look and feel of the Log time box when logging time for a project, task, or issue in the Hours tab, to match the design of other areas of Workfront.  
+
+For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
+-->
+
 ### De updates van de interface voor de Verwante projectsectie van een project (beschikbaar voor specifieke klanten slechts)
 
-**de versie van de Voorproef: 12 Juni, 2025; De versie van de Productie: 19 Juni, 2025**
+**de versie van de Voorproef: 12 Juni, 2025; De versie van de productie: Te aankondigen**
 
 We hebben het gedeelte Gekoppelde projecten van een project bijgewerkt met een modern ontwerp dat aansluit bij andere gebieden van Workfront.
 
@@ -128,7 +199,7 @@ Specifieke klanten kunnen deze verandering bekijken door naar de Verwante projec
 
 ### Nieuwe vormgeving voor het vak &quot;Opslaan als sjabloon&quot;
 
-**de versie van de Voorproef: 12 Juni, 2025; De versie van de Productie: 19 Juni, 2025**
+**de versie van de Voorproef: 12 Juni, 2025; De versie van de productie: Te aankondigen**
 
 Wij hebben de blik en het gevoel van &quot;sparen als malplaatje&quot;doos bijgewerkt die wanneer het bewaren van een project als malplaatje toont. Het nieuwe ontwerp bevat een gestroomlijnde interface, waarbij alle secties in één samenhangend formulier worden weergegeven. U kunt navigeren met koppelingen in het linkerdeelvenster. Het nieuwe ontwerp komt overeen met andere gebieden en andere objecten in de toepassing.
 
@@ -142,7 +213,7 @@ We hebben de vormgeving van het venster Verwijderen bijgewerkt wanneer we een of
 
 Voor informatie, zie [ kwesties van de Schrapping ](/help/quicksilver/manage-work/issues/manage-issues/delete-issues.md).
 
-## Bekijk updates van de Nieuwe en geef risicovakjes voor een project of een malplaatje uit
+### Bekijk updates van de Nieuwe en geef risicovakjes voor een project of een malplaatje uit
 
 **de versie van de Voorproef: 22 mei, 2025; De versie van de productie: 29 mei, 2025**
 
@@ -177,16 +248,26 @@ Raadpleeg de volgende artikelen voor meer informatie:
 
 ## Rapporten en dashboards
 
+<!--
+### Interface updates for the Expense report
+
+Preview release: June 19, 2025; Production release: June 26, 2025
+
+We have updated the look and feel of the Expense report to match the design of other areas of Workfront.
+
+For information, see [Create a custom report](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+-->
+
 ### Bijgewerkte rapporten met nieuwe opmaak
 
-**de versie van de Voorproef: 12 Juni, 2025; De versie van de Productie: 19 Juni, 2025**
+**de versie van de Voorproef: 12 Juni, 2025; De versie van de productie: Te aankondigen**
 
 We hebben het uiterlijk van meerdere rapporten aangepast aan het ontwerp van andere gebieden van Workfront. Er is geen functionaliteit gewijzigd.
 
 Deze update bevat visuele wijzigingen in de lijsten en werkbalken van de rapporten voor de volgende objecttypen:
 
 * Risico&#39;s
-* Basislijnen
+* Basislijnen (vrijgelaten voor productie op 19 juni. (2025)
 * Tarieven
 * Layoutsjablonen
 
@@ -208,13 +289,14 @@ We raden u aan de URL te vervangen om naar een ondersteunde pagina te gaan of de
 <!--
 ### Interface updates to the organizational chart
 
-**Preview release: May 29, 2025; Production release: June 5, 2025**
+**Preview release: June 19, 2025; Production release for all customers: June 26, 2025**
 
 We have updated the look and feel of the organizational chart associated with a Workfront user, to match the design of other areas of Workfront.
 
 To view this change, go to a Workfront user profile and click **Org Chart** in the left panel. (This feature is available through the Workfront user profile, not the Adobe user profile.)
 
-For information, see [View the organizational chart](/help/quicksilver/people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).-->
+For information, see [View the organizational chart](/help/quicksilver/people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
+-->
 
 ### Interface-update naar de nieuwe pagina voor gebruikersregistratie
 
