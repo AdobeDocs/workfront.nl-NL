@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: dae692617f447c446a421207143225b33b51debe
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '3512'
+source-wordcount: '3788'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,6 @@ Voor informatie over verslagmeningen, zie [ verslagmeningen ](/help/quicksilver/
 ## Toegangsvereisten
 
 +++ Vouw uit om de vereisten voor toegang weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -146,7 +144,7 @@ Een tijdlijnweergave beheren:
 
    ![ Ontbrekend origineel bericht van douanekwartalen op chronologiemening ](assets/missing-custom-quarters-original-message-on-timeline-view.png)
 
-   Deze waarschuwingsberichten worden één keer per gebruiker weergegeven.
+   De waarschuwingsberichten over de aangepaste kwartalen worden één keer per gebruiker weergegeven.
 
    >[!NOTE]
    >
@@ -162,12 +160,12 @@ Een tijdlijnweergave beheren:
    >
    ><span class="preview"> Go naar de knoopvertoningen van de Opstelling slechts voor de beheerder van Workfront.</span>
 
-1. (Optioneel en voorwaardelijk) Wanneer de naam van de record wordt afgekapt, houdt u de muisaanwijzer boven een recordbalk om de volledige naam van de record en aanvullende informatie weer te geven.
+1. (Optioneel en voorwaardelijk) Wanneer de naam van de record wordt afgekapt, houdt u de muisaanwijzer boven een recordbalk om de volledige naam van de record en aanvullende informatie weer te geven. Voor informatie over vestiging bar truncation in de chronologie, zie de sectie [ de montages van de chronologiemening ](#edit-the-timeline-view-settings) in dit artikel uitgeven.
 
 1. Voer een van de volgende handelingen uit om door de tijdlijn te navigeren:
 
-   * Klik op de pictogrammen links en rechts of gebruik de horizontale schuifbalk om naar voren en naar achteren in de tijdlijn te gaan. Als u de pagina vernieuwt, blijft het geselecteerde tijdkader behouden.
-   * Klik **vandaag** om de chronologie aan de datum van vandaag te centreren.
+   * Klik op de pictogrammen links en rechts in de linkerbovenhoek of gebruik de horizontale schuifbalk om naar voren en naar achteren in de tijdlijn te gaan. Als u de pagina vernieuwt, blijft het geselecteerde tijdkader behouden.
+   * Klik **vandaag** in de hoger-juiste hoek om de chronologie aan de datum van vandaag te centreren.
    * Selecteer een van de volgende opties in het vervolgkeuzemenu voor het tijdframe om de tijdtoename bij te werken en de weergave bij te werken:
 
       * **Jaar**: De kwartalen en de maanden van vertoningen met jaaraanwijzing.
@@ -178,7 +176,7 @@ Een tijdlijnweergave beheren:
 
 1. Ga als volgt te werk om snel records te zoeken die overeenkomen met een trefwoord:
 
-   1. Klik het **pictogram van het Onderzoek ![ pictogram van het 1&rbrace; Onderzoek ](assets/search-icon.png) en begin een sleutelwoord verbonden aan om het even welk gebied van een verslag te typen dat op het scherm toont.** Het aantal juiste overeenkomsten wordt weergegeven naast het zoekitem en de record met de juiste overeenkomst wordt gemarkeerd.
+   1. Klik het **pictogram van het Onderzoek ![ pictogram van het 1} Onderzoek ](assets/search-icon.png) en begin een sleutelwoord verbonden aan om het even welk gebied van een verslag te typen dat op het scherm toont.** Het aantal juiste overeenkomsten wordt weergegeven naast het zoekitem en de record met de juiste overeenkomst wordt gemarkeerd.
 
       ![ vakje van het Onderzoek en de mening van de resultaatchronologie ](assets/search-box-and-results-timeline-view.png)
 
@@ -218,12 +216,105 @@ Houd rekening met het volgende wanneer u werkt met filters in de tijdlijnweergav
 
 * Als u filters verwijdert, worden deze verwijderd van iedereen die hetzelfde recordtype als u benadert en die dezelfde weergave als u weergeeft.
 
-* Het toevoegen van filters in de tijdlijnweergave is hetzelfde als het toevoegen van filters in de tabelweergave.
-
-  Voor meer informatie, zie &quot;filters&quot;sectie in artikel [ toevoegen de lijstmening ](/help/quicksilver/planning/views/manage-the-table-view.md) leidt.
-
 * U kunt filteren op gekoppelde recordvelden of opzoekvelden.
 * U kunt filteren door velden op te zoeken waarin meerdere waarden worden weergegeven.
+
+Een filter toevoegen aan een tijdlijnweergave:
+
+1. Creeer een chronologiemening voor een verslagtype pagina, zoals die in artikel [ wordt beschreven beheer verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md).
+1. Selecteer een chronologiemening, dan klik **Filters** in de hoger-juiste hoek van de lijst.
+1. Klik **toevoegen voorwaarde** en voeg de volgende informatie toe:
+
+   * **selecteer een gebied** dat u door <!-- the tip below might change--> wilt filtreren
+
+   * **selecteer een optie** (of een filterbepaling) om te bepalen welk soort voorwaarde het gebied moet ontmoeten
+
+     In de onderstaande tabel worden de beschikbare wijzigingstoetsen voor elk veldtype weergegeven.
+
+     <table>
+        <thead>
+        <tr>
+            <th><b>Veldtype</b></th>
+            <th><b>Modifiers</b></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Enkele regel, alinea, formule </td>
+            <td><p>Bevat</p>
+            <p>Bevat niet</p>
+            <p>Is</p>
+            <p>Is niet</p>
+            <p>Is leeg</p>
+            <p>Is niet leeg</p></td>
+        </tr>
+        <tr><td>Enkel selecteren</td>
+            <td><p>Is</p>
+            <p>Is niet</p>
+            <p>Is om het even welke</p>
+            <p>Is geen van</p>
+            <p>Is leeg</p>
+            <p>Is niet leeg</p></td>
+        </tr>
+        <tr>
+            <td>Meerdere selecties, personen</td>
+            <td><p>Heeft een van de</p>
+            <p>Bevat alle</p>
+            <p>Is exact</p>
+            <p>Heeft geen van</p>
+            <p>Is leeg</p>
+            <p>Is niet leeg</p></td>
+        </tr>
+        <tr>
+            <td>Getal, percentage, valuta</td>
+            <td><p>=</p>
+            <p>≠</p>
+            <p> &lt; </p>
+            <p>&gt;</p>
+            <p>≤</p>
+            <p>≥</p>
+            <p>Is leeg</p>
+            <p>Is niet leeg</p></td>
+        </tr>
+        <tr>
+            <td>Datum</td>
+            <td><p>Is</p>
+            <p>Is niet</p>
+            <p>Is na</p>
+            <p>Is voor</p>
+            <p>Is tussen</p><p>Is niet tussen</p>
+            <p>Is leeg</p><p>Is niet leeg</p></td>
+        </tr>
+
+     <tr>
+            <td>Selectievakje</td>
+            <td><p>Is</p>
+        </tr>
+        </tbody>
+        </table>
+
+   * Selecteer een waarde voor het geselecteerde veld.
+
+   ![ de lijstmening van de Filter UI ](assets/filter-ui-table-view.png)
+
+   Er is geen limiet voor het aantal filtervoorwaarden dat u kunt toevoegen.
+
+1. (Facultatief) klik **toevoegen voorwaarde** om een andere het filtreren optie toe te voegen en de bovengenoemde stappen te herhalen. Het aantal toegepaste filters toont links van het **pictogram van Filters**.
+1. Klik op de volgende operatoren links om aan te geven hoe de filtervoorwaarden worden gekoppeld en moeten worden toegepast:
+
+   * **EN**: Alle gespecificeerde voorwaarden moeten worden voldaan aan.
+   * **OF**: Om het even welke gespecificeerde voorwaarden moeten worden voldaan aan.
+Dit is de standaardoptie.
+
+   1. (Facultatief) voeg extra filtergroeperingen toe en sluit zich bij hen aan door **EN** of **OF** exploitanten.
+
+      ![ Multi-tiered filters in meningen ](assets/multi-tiered-filters-in-views.png)
+
+   De lijst met records wordt automatisch gefilterd op basis van de filtercriteria.  <!--at this time, you can't name and save the filter - but will this change?!-->
+   <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
+
+1. (Facultatief) klik het **x** pictogram om een filtervoorwaarde te verwijderen.
+1. (Facultatief) klik **Filters** of overal anders op de pagina om de filtersdoos te sluiten. <!--right now you cannot "clear all" for filters, but this might come later-->
 
 
 ### Groepering toevoegen
@@ -231,8 +322,6 @@ Houd rekening met het volgende wanneer u werkt met filters in de tijdlijnweergav
 <!-- groupings are almost identical between this view and table  but they display a little differently, so I kept the steps for both; update in both places if they make changes to groupings-->
 
 U kunt records groeperen aan de hand van vergelijkbare informatie wanneer u een groepering toepast op een weergave.
-
-Het toevoegen van groepen in de tijdlijnweergave lijkt op het toevoegen van groepen aan de tabelweergave.
 
 Houd rekening met het volgende wanneer u werkt met groepen in de tijdlijnweergave:
 
@@ -320,7 +409,7 @@ Werk de instellingen van de tijdlijnweergave bij om aan te geven wat en hoe info
    Het primaire veld (of de titel) van de record, zoals gedefinieerd in de tabelweergave van de record, wordt standaard geselecteerd.
    <!--adjust this when the primary field is released??-->
 
-1. (Optioneel en voorwaardelijk) Als u miniaturen aan records hebt toegevoegd, selecteert u de optie Miniatuur om de afbeelding weer te geven die aan records is gekoppeld in de recordbalk.
+1. (Facultatief en voorwaardelijk) als u duimnagels aan verslagen toevoegde, selecteer de **optie van de Duimnagel** om het beeld te tonen verbonden aan verslagen in hun verslagbar.
 
    >[!NOTE]
    >
@@ -340,13 +429,13 @@ Werk de instellingen van de tijdlijnweergave bij om aan te geven wat en hoe info
 
    ![ de chronologiemontages van het paneel van de Details van het Verslag met voorproef ](assets/record-details-panel-timeline-settings-with-preview.png)
 
-1. <span class="preview"> (Facultatief en voorwaardelijk) als u de chronologie op de Standaardwijze toont, laat **de details van de Truncate bar** plaatsen toe. Als deze optie is ingeschakeld, wordt de informatie op de recordbalken ingekort en wordt deze alleen volledig weergegeven wanneer u de muisaanwijzer op de balken plaatst. Deze instelling is standaard uitgeschakeld en de informatie wordt volledig weergegeven op de balken. </span>
+1. <span class="preview"> (Facultatief en voorwaardelijk) als u de chronologie op de Standaardwijze toont, selecteer **de details van de Truncate bar** plaatsen. Als deze optie is geselecteerd, wordt de informatie op de recordbalken ingekort en wordt deze alleen volledig weergegeven wanneer u de muisaanwijzer op de balken plaatst. Deze instelling is standaard uitgeschakeld en de recordgegevens worden volledig op de balken weergegeven. </span>
 
    ![ Truncate die op benadrukte doos van chronologiemontages wordt toegelaten ](assets/truncate-setting-enabled-on-timeline-settings-highlighted.png)
 
    >[!TIP]
    >
-   ><span class="preview"> het plaatsen van de details van de Truncate bar is niet beschikbaar wanneer het tonen van de chronologiemening op Compacte wijze, en het is niet beschikbaar in de mening van de Kalender.</span>
+   ><span class="preview"> het plaatsen van de details van de Truncate bar is niet beschikbaar wanneer het tonen van de chronologiemening op Compacte wijze.</span>
    >
 
 1. Klik **Kleur** in het linkerpaneel, om de kleuren van de verslagen en de groeperingen in de chronologie aan te passen.
@@ -392,13 +481,11 @@ Werk de instellingen van de tijdlijnweergave bij om aan te geven wat en hoe info
 
    Als u geen veld hebt met kleurgecodeerde opties voor het geselecteerde recordtype, wordt deze optie grijs weergegeven.
 
-1. <span class="preview"> (Optioneel) Als u de optie Onderverdeling gebruikt, herhaalt u de stappen die beginnen met stap 4 voor elke verbonden record die in de tijdlijn wordt weergegeven. </span>
+1. <span class="preview"> (Facultatief) als u de **Breakdown** optie gebruikt, herhaal de stappen die met stap 4 voor elk verbonden verslag beginnen dat in de chronologie wordt getoond. </span>
 
 1. Klik **sparen**.
 
    De records worden in de tijdlijnweergave weergegeven met de specificaties die u hebt geselecteerd.
-
-
 
 ### Verbonden records in de tijdlijnweergave opsplitsen
 

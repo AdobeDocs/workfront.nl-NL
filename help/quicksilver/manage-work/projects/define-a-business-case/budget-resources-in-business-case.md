@@ -5,7 +5,7 @@ description: Als deel van middelplanning, kunt u de baanrollen noodzakelijk voor
 author: Alina
 feature: Work Management
 exl-id: 85aa13c7-e48d-4b8c-89f7-1ba7f66670b0
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%
@@ -24,7 +24,7 @@ U moet baanrollen met het project associëren alvorens u de middelen voor het ku
 
 * Gebruik de Planner van het Middel om de Pools van Middel op het project en de rollen van de begrotingsbaan toe te passen.
 
-  Voor meer informatie, zie &lbrace;de middelen van de Begroting in het BedrijfsGeval gebruikend de Planner van het Middel [&#128279;](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md).
+  Voor meer informatie, zie {de middelen van de Begroting in het BedrijfsGeval gebruikend de Planner van het Middel ](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md).[
 
 * Gebruik het Plan Scenario om initiatieven met vereiste baanrollen tot stand te brengen en hen te verbinden met het project. Voor meer informatie, zie [ middelen van de Begroting in het BedrijfsGeval gebruikend de Planner van het Scenario ](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
 

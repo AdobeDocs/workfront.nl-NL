@@ -5,16 +5,16 @@ description: U kunt een scorecard gebruiken om te meten hoe goed een project zic
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '1227'
+source-wordcount: '1220'
 ht-degree: 0%
 
 ---
 
 # Pas een scorecard op een project toe en produceer een Score van de Uitlijning
 
-<!-- Audited: 02/2024 -->
+<!-- Audited: 06/2025 -->
 
 U kunt een scorecard gebruiken om te meten hoe goed een project zich op de eerder vastgestelde criteria van een portefeuille richt. Een scorecard weerspiegelt vaak de missie, de waarden, en de strategische doelstellingen van een organisatie.
 
@@ -29,14 +29,14 @@ Voor meer informatie over scorecards en hoe u één kunt tot stand brengen, zie 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-abonnement*</td> 
    <td>
    <p>Huidig: Prime of hoger</p>
    <p>of</p>
    <p>Verouderd: zakelijk of hoger</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td role="rowheader">Adobe Workfront-licentie*</td> 
    <td>
    <p>Huidig: Standaard</p>
    <p>of</p>
@@ -53,7 +53,7 @@ Voor meer informatie over scorecards en hoe u één kunt tot stand brengen, zie 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -196,7 +196,7 @@ Voor meer informatie over de informatie die in Portfolio Optimizer wordt getoond
 
 1. Klik op de naam van een portfolio.
 1. Klik **Optimalisering van Portfolio** in het linkerpaneel.
-1. Bij de bovenkant van de Optimizer van Portfolio vindt **Uitgelijnde** waarde, evenals **de 3&rbrace; maat van de Groepering &lbrace;, die op de groeperingsscore van de portefeuille wijzen.**
+1. Bij de bovenkant van de Optimizer van Portfolio vindt **Uitgelijnde** waarde, evenals **de 3} maat van de Groepering {, die op de groeperingsscore van de portefeuille wijzen.**
 
    Dit is de uitlijningsscore van het portfolio.
 

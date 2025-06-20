@@ -5,14 +5,16 @@ description: U kunt de BedrijfsGeval gebruiken om een project te verzoeken en he
 author: Alina
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
-source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
 
 # Een bedrijfscase maken voor een project
+
+<!--Audited: 6/2025-->
 
 U kunt de BedrijfsGeval gebruiken om een project te verzoeken en het doel, het budget, en het potentiële voordeel voor het project te bepalen. De Portfolio-manager of projectsponsor gebruikt de informatie uit de Business Case om het project te analyseren en er prioriteiten aan toe te wijzen voordat deze het goedkeurt.
 
@@ -25,30 +27,30 @@ U kunt de BedrijfsGeval gebruiken om een project te verzoeken en het doel, het b
  <col> 
  <tbody> 
  <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader"><p>Adobe Workfront-abonnement*</p></td> 
    <td> 
    <p>Huidig: Prime of hoger</p> 
    <p>Verouderd: Pro of hoger</p> 
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td role="rowheader"><p>Adobe Workfront-licentie*</p></td> 
    <td> 
    <p>Huidig: Standaard </p> 
    <p>Verouderd: Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>Toegang tot projecten, financiële gegevens en hulpbronnenbeheer bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader"><p>Configuraties op toegangsniveau</p></td> 
+   <td> <p>Toegang tot projecten, financiële gegevens en hulpbronnenbeheer bewerken</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen voor het project beheren of hoger</p> <p>Voor informatie bij het verzoeken van extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> Toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td role="rowheader"><p>Objectmachtigingen</p></td> 
+   <td> <p>Machtigingen voor het project beheren of hoger</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -86,7 +88,7 @@ Overweeg het volgende wanneer het verzoeken van een project door een BedrijfsGev
 1. In het linkerpaneel, klik **Bedrijfs Geval**.
 1. (Facultatief) om de **Info van het Project** sectie uit te geven, klik **uitgeeft Info van het Project**. 
 
-   Voor meer informatie over het uitgeven van de **de sectiegebieden van Info van het 0&rbrace; Project &lbrace;, zie de sectie [ Info van het Project ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info) in het artikel [ Overzicht van de Gebieden van het BedrijfsGeval ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).**
+   Voor meer informatie over het uitgeven van de **de sectiegebieden van Info van het 0} Project {, zie de sectie [ Info van het Project ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info) in het artikel [ Overzicht van de Gebieden van het BedrijfsGeval ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).**
 
 1. (Facultatief) om de **sectie van Doelen** uit te geven, klik **uitgeven Doelen**.
 
@@ -109,7 +111,7 @@ Overweeg het volgende wanneer het verzoeken van een project door een BedrijfsGev
 
    Voor meer informatie over scorecards, zie het artikel [ een scorecard op een project toepassen en een Score van de Uitlijning ](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md) produceren.
 
-1. (Optioneel) Selecteer de Vorm van de Douane van de a **&#x200B;**&#x200B;in het **3&rbrace; drop-down menu van de Douane Forms.**
+1. (Optioneel) Selecteer de Vorm van de Douane van de a **** in het **3} drop-down menu van de Douane Forms.**
 
    Aangepaste Forms moet worden gemaakt voordat deze aan projecten kunnen worden gekoppeld.
 

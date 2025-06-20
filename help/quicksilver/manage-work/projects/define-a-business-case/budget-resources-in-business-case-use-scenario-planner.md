@@ -5,14 +5,16 @@ description: Als deel van middelplanning, kunt u de Planner van het Scenario van
 author: Alina
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '972'
 ht-degree: 0%
 
 ---
 
 # De middelen van de begroting in BedrijfsGeval gebruikend de Planner van het Scenario
+
+<!--Audited: 06/2025-->
 
 Als deel van middelplanning, kunt u de Planner van het Scenario van Adobe Workfront gebruiken om de baanrollen noodzakelijk voor de voltooiing van het werk in een project te voorzien wanneer u het bedrijfscase bouwt.
 
@@ -33,7 +35,7 @@ U kunt middelen in het bedrijfsgeval ook begroten gebruikend de Planner van het 
 
 ## Toegangsvereisten
 
-U moet het volgende hebben:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,19 +44,22 @@ U moet het volgende hebben:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Zakelijk of hoger</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront-abonnement*</p></td> 
+   <td><p>Huidig: Ultimate</p> 
+   <p>Verouderd: zakelijk of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Controleren of hoger</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront-licentie*</p></td> 
+   <td><p>Huidig: Licht of hoger 
+   <p>Verouderd: revisie of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
-   <td> <p>U moet een extra licentie voor de Adobe Workfront Scenario Planner aanschaffen om toegang te krijgen tot de functionaliteit die in dit artikel wordt beschreven.</p> <p>Voor informatie over het verkrijgen van de Planner van het Scenario van Workfront, zie <a href="../../../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref"> Toegang nodig om de Planner van het Scenario te gebruiken </a>. </p> </td> 
+   <td role="rowheader"><p>Product</p></td> 
+   <td><p>De Scenario Planner is opgenomen in het huidige Ultimate Workfront-plan.</p> 
+   <p>Voor oudere Workfront-plannen moet u een licentie aanschaffen voor de Adobe Workfront Scenario Planner, naast de Workfront-licentie, voor toegang tot de functionaliteit die in dit artikel wordt beschreven.</p> <p>Voor informatie over het verkrijgen van de Planner van het Scenario van Workfront, zie <a href="../../../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref"> Toegang nodig om de Planner van het Scenario te gebruiken </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
+   <td role="rowheader"><p>Configuraties op toegangsniveau</p></td> 
    <td> <p>Toegang tot het volgende bewerken: </p> 
     <ul> 
      <li> <p>Projecten</p> </li> 
@@ -63,13 +68,15 @@ U moet het volgende hebben:
     </ul> <p>Voor informatie over de toegang nodig aan begrotingsmiddelen, zie ook <a href="../../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md" class="MCXref xref"> Toegang nodig aan begrotingsmiddelen in Adobe Workfront </a>.</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Adobe Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objectmachtigingen</td> 
+   <td role="rowheader"><p>Objectmachtigingen</p></td> 
    <td> <p>Rechten voor het project beheren</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vereisten
 

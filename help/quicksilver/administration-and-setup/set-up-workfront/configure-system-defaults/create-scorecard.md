@@ -8,9 +8,9 @@ author: Lisa, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '670'
 ht-degree: 0%
 
 ---
@@ -42,15 +42,13 @@ U kunt als volgt een scorecard maken:
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Nieuw: [!UICONTROL Prime] of hoger</p>
+   <td> <p>Nieuw: Ultimate</p>
    <p>Huidig: [!UICONTROL Business] of hoger</p> 
    </td> 
   </tr> 
@@ -60,10 +58,15 @@ U moet de volgende toegang hebben:
    <p>Huidige: [!UICONTROL Plan]</p>
    </td> 
   </tr> 
+   <tr> 
+   <td role="rowheader"><p>Toegangsniveau</p></td> 
+   <td><p>Systeembeheerder</p>
+   </td> 
+  </tr>
  </tbody> 
 </table>
 
-*For meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

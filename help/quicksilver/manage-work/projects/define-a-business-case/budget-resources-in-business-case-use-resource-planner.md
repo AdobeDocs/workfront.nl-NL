@@ -5,7 +5,7 @@ description: Als deel van middelplanning, kunt u de project-vlakke Planner van h
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
 source-wordcount: '1240'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # De middelen van de begroting in BedrijfsGeval die de Planner van het Middel gebruiken
 
-<!--Audited: 01/2025-->
+<!--Audited: 06/2025-->
 
 Als deel van middelplanning, kunt u de project-vlakke Planner van het Middel gebruiken om de baanrollen noodzakelijk voor de voltooiing van het werk in een project te voorzien wanneer u het bedrijfscase bouwt.
 
@@ -35,23 +35,23 @@ U kunt middelen in de bedrijfscase ook begroten gebruikend de Planner van het Sc
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader"><p>Adobe Workfront-abonnement*</p></td> 
    <td> <p>Huidig: Prime of hoger</p>
    <p>Verouderd: Pro of hoger</p> 
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td role="rowheader"><p>Adobe Workfront-licentie*</p></td> 
    <td> <p>Huidig: Licht of hoger</p>
    <p>Verouderd: revisie of hoger</p>
 
 <p><b>BELANGRIJK:</b></p> 
-   <p>Nieuw: u moet een standaardlicentie hebben om de budgetteringsgegevens voor bronnen te wijzigen. </p> 
-   <p>Huidig: U moet een licentie voor het abonnement hebben om de budgetteringsgegevens voor bronnen te wijzigen. </p>
+   <p>Huidig: U moet een standaardlicentie hebben om de budgetteringsgegevens voor bronnen te wijzigen. </p> 
+   <p>Legacy: u moet een licentie voor het abonnement hebben om de budgetteringsgegevens voor bronnen te wijzigen. </p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td role="rowheader"><p>Configuraties op toegangsniveau</p></td> 
    <td> <p>Toegang tot het volgende bewerken: </p> 
     <ul> 
      <li> <p>Projecten</p> </li> 
@@ -60,13 +60,13 @@ U kunt middelen in de bedrijfscase ook begroten gebruikend de Planner van het Sc
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objectmachtigingen</td> 
+   <td role="rowheader"><p>Objectmachtigingen</p></td> 
    <td> <p>Rechten voor het project beheren</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
