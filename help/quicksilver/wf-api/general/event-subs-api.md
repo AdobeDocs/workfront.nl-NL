@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 334b08f4689318201d3b8260916655f57c2a9320
+source-git-commit: 1e893dd5933ce5740b2bfea1e028f39a07a2291c
 workflow-type: tm+mt
-source-wordcount: '2479'
+source-wordcount: '2632'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ De volgende Workfront-objecten worden ondersteund door gebeurtenisabonnementen.
 * Gebruiker
 * Workspace
 
-Voor een lijst van gebieden die door de voorwerpen van het gebeurtenisabonnement worden gesteund, zie &lbrace;de gebieden van het het abonnementsmiddel van de Gebeurtenis [&#128279;](../../wf-api/api/event-sub-resource-fields.md).
+Voor een lijst van gebieden die door de voorwerpen van het gebeurtenisabonnement worden gesteund, zie {de gebieden van het het abonnementsmiddel van de Gebeurtenis ](../../wf-api/api/event-sub-resource-fields.md).[
 
 ## Verificatie van abonnement op gebeurtenis
 
@@ -711,7 +711,9 @@ Met dit filter kunnen berichten worden doorlopen als de wijziging die zich heeft
 
 Met dit filter kunnen alleen berichten worden weergegeven wanneer de volledige set geselecteerde waarden exact overeenkomt met de fieldValue in het filter, ongeacht de volgorde. Er mogen geen extra of ontbrekende waarden zijn.
 
-Opmerking: dit wordt gebruikt voor velden van het type array (multi-select). In dit voorbeeldabonnement kunnen berichten alleen worden weergegeven wanneer het veld `groups` exact &quot;Keuze 3&quot; en &quot;Keuze 4&quot; bevat, zonder extra of ontbrekende waarden en ongeacht de volgorde.
+>[!NOTE]
+>
+>Dit wordt gebruikt voor (multi-select) velden van het arraytype. In dit voorbeeldabonnement kunnen berichten alleen worden weergegeven wanneer het veld `groups` exact &quot;Keuze 3&quot; en &quot;Keuze 4&quot; bevat, zonder extra of ontbrekende waarden en ongeacht de volgorde. Als een tekenreeks of een geheel getal wordt opgegeven in `fieldValue` in plaats van een array, staat het abonnement toe dat berichten alleen worden doorgestuurd wanneer het veld `groups` exact één optie bevat en die optie exact overeenkomt met de tekenreeks of het gehele getal dat is opgegeven in `fieldValue` .&quot;
 
 
 ```
@@ -729,6 +731,31 @@ Opmerking: dit wordt gebruikt voor velden van het type array (multi-select). In 
             ],
             "state": "newState",
             "comparison": "containsOnly"
+        }
+    ]
+}
+```
+
+#### notContains
+
+Met dit filter kunnen alleen berichten worden weergegeven wanneer het opgegeven veld (`fieldName`) niet de opgegeven waarde (`fieldValue` ) bevat.
+
+>[!NOTE]
+>
+>Dit wordt gebruikt voor array-type (multi-select) of tekenreeksvelden. Als het veld een tekenreeks is, controleren we of de opgegeven waarde niet in de tekenreeks staat (de tekenreeks &quot;Nieuw&quot; staat bijvoorbeeld niet in de tekenreeks &quot;Project - Bijgewerkt&quot;). Als het gebied een serie is en de gespecificeerde gebiedswaarde een koord of een geheel is, zullen wij controleren als de serie niet de gespecificeerde waarde bevat (bijvoorbeeld, &quot;Keus 1&quot;niet in [ &quot;Keus 2&quot;, &quot;Keus 3&quot;]). Met het onderstaande voorbeeldabonnement kunnen berichten alleen worden doorgestuurd wanneer de velden `groups` niet de tekenreeks &quot;Groep 2&quot; bevatten.
+
+```
+{
+    "objCode": "PROJ",
+    "eventType": "UPDATE",
+    "authToken": "token",
+    "url": "https://domain-for-subscription.com/API/endpoint/UpdatedProjects",
+    "filters": [
+        {
+            "fieldName": "groups",
+            "fieldValue": "Group 2",
+            "state": "newState",
+            "comparison": "notContains"
         }
     ]
 }
@@ -766,7 +793,7 @@ Met deze connector wordt het filter toegepast op de nieuwe status of oude status
 >[!NOTE]
 >
 >Het abonnement hieronder met het opgegeven filter retourneert alleen berichten waarin de naam van de taak `again` bevat op de `oldState` -taak, wat deze was voordat een update op de taak werd uitgevoerd.
->&#x200B;>Een gebruiksgeval voor dit zou zijn om de objCode- berichten te vinden die van één ding aan een ander veranderden. Bijvoorbeeld om alle taken te weten te komen die van &quot;Onderzoek één of andere naam&quot;in &quot;Onderzoek TeamName Één of andere naam&quot;veranderde
+>>Een gebruiksgeval voor dit zou zijn om de objCode- berichten te vinden die van één ding aan een ander veranderden. Bijvoorbeeld om alle taken te weten te komen die van &quot;Onderzoek één of andere naam&quot;in &quot;Onderzoek TeamName Één of andere naam&quot;veranderde
 
 ```
 {
