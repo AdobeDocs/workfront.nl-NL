@@ -74,7 +74,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    * **Billable:** selecteer deze optie als u deze uitgave wilt factureren. Het categoriseren van een uitgave als factureerbaar is belangrijk wanneer het creëren van factureringsverslagen.
    * **Terugbetaalbaar:** selecteer deze optie als de uitgave moet worden vergoed. Vervolgens kunt u de kosten als vergoed markeren nadat de kosten zijn vergoed.
 
-1. Selecteer de Vorm van de Douane van a **** en specificeer om het even welke extra vereiste informatie.
+1. Selecteer de Vorm van de Douane van a **&#x200B;**&#x200B;en specificeer om het even welke extra vereiste informatie.
 
    >[!NOTE]
    >
@@ -87,4 +87,4 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 1. Ga naar het project u een uitgave voor wilt schrappen.
 1. Klik **Uitgaven** in het linkerpaneel.
 1. Selecteer de uitgave die u wilt schrappen, dan de **Schrapping** pictogram ![ Schrapping ](assets/delete.png) klikken.
-1. In de **Schrap de 1} dialoog van de Kosten {, klik** ja, schrap het **.**
+1. In de **Schrap de 1&rbrace; dialoog van de Kosten &lbrace;, klik** ja, schrap het **.**
