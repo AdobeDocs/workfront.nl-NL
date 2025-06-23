@@ -5,9 +5,9 @@ description: Overzicht van AI-assistent
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: f496d5170ff087167130a6463e18ea44af50e21f
+source-git-commit: a4e403abadc0268b919ce8105989ef6c912f33a4
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '825'
 ht-degree: 0%
 
 ---
@@ -138,7 +138,7 @@ De Adobe Gen AI-overeenkomst aanvragen:
 1. Wanneer het de overeenkomstenbericht van Adobe Gen AI verschijnt, klik **overeenkomst van het Overzicht**.
 1. Voer de naam en het e-mailadres in van de persoon in uw organisatie die de Adobe Gen AI-overeenkomst zal ondertekenen.
 
-   De overeenkomst wordt ter ondertekening naar deze persoon verzonden. Nadat deze is ondertekend en geretourneerd, wordt AI Assistant ingeschakeld voor uw organisatie.
+   De overeenkomst wordt ter ondertekening naar deze persoon verzonden. Nadat de overeenkomst is ondertekend en geretourneerd, wordt deze gereviseerd door Adobe en wordt AI Assistant ingeschakeld voor uw organisatie.
 
 ## Tips voor het maken van herinneringen in AI Assistant
 
