@@ -10,23 +10,27 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 2eef36a6-8c61-4e7e-9760-23114f942250
-source-git-commit: e67446c6fb3e90d5dc45dd446988e5d02291f775
+source-git-commit: ca9625b1cb3c51f208bad28792e9090802521dfa
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
 
-# Ga aan de slag met de proefdrukken en Creative Cloud Express
+# Aan de slag met de integratie met Adobe Express en Workfront Proof
+
+Workfront Proof met Adobe Express gebruiken om
+
+* De samenwerking tussen creatieve, wettelijke, en nalevingsteams stroomlijnen om tijd te verminderen te publiceren terwijl het handhaven van toezicht
+
+* Uitvoeren voor diepgaande revisies met behulp van markeringen voor tekeningen, annotaties en opmerkingen met de Workfront Proofing-viewer
+
+* Voldoen aan standaarden voor naleving door bedrijven met elektronische handtekeningen en volledige auditlogboeken
 
 
-We zijn erg blij met de introductie van een nieuwe integratie tussen Proofing en Creative Cloud Express. Met deze integratie kunt u
+* Goedkeuring vereisen voor opnieuw gemengde bestanden van een Express-sjabloon
 
-* Workfront-goedkeuringssjablonen gebruiken om goedkeuringswerkstromen te definiëren
-
-* Creative Cloud Express-concept controleren in de proefdrukviewer
-
-* Zie Besluiten bekijken in Creative Cloud Express voor definitieve goedkeuring en publicatie
+* Een Express-sjabloon toewijzen aan een revisie- en goedkeuringswerkstroom met meerdere stadia aan de hand van geavanceerde proefdruksjablonen
 
 ## Toegangsvereisten
 
@@ -45,49 +49,72 @@ We zijn erg blij met de introductie van een nieuwe integratie tussen Proofing en
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> 
-   <p>Huidig: Standaard </p> 
-   <p>Verouderd: Plan </p></td> 
+   <p>Standaard </p> 
+  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td> 
-   <p> U moet beschikken over Creative Cloud Express en u moet als gebruiker aan het product worden toegevoegd in de Admin Console. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>Toegang tot projecten bewerken</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen voor het project beheren of hoger</p> </td> 
-  </tr> 
- </tbody> 
+   <p> U moet Adobe Express hebben en u moet als gebruiker aan het product in de Admin Console worden toegevoegd. </p> </td> 
+  </tr>
+
+</tbody> 
 </table>
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-
-
-## Vereisten
-
-* Workfront en Creative Cloud Express moeten worden geïmplementeerd in dezelfde IMS-organisatie.
-
-* Een gebruiker kan slechts actief en toegelaten in één instantie van Workfront binnen IMS org zijn om de integratie te laten werken
-
-* Workfront-instantie moet worden ingeschakeld op de uniforme shell
-
-* De sectie Workfront Setup is nu ingeschakeld om verbinding te maken met een proefdruk (zie verderop)
-
 ## Integratievereisten
 
-Workfront en Creative Cloud Express moeten worden geïmplementeerd in dezelfde IMS-organisatie.
+* Workfront en Adobe Express moeten worden geïmplementeerd in dezelfde IMS Org.
 
-## Instellen in Workfront
+* De integratie moet voor uw accounts zijn ingeschakeld door het Adobe Product Team.
 
-## Workfront-goedkeuringssjablonen gebruiken om goedkeuringswerkstromen te definiëren
+  >[!IMPORTANT]
+  >
+  >De integratie met Adobe Express en Workfront Proof is beschikbaar voor gebruikers in de loop van verschillende releases, te beginnen met accounts waaraan Workfront en Adobe Express zijn gekoppeld met dezelfde organisatie-id in de Adobe Admin Console, gevolgd door klanten met gebruikers die in verschillende IMS-organisaties werken. Als u de integratie wilt inschakelen, neemt u contact op met uw Customer Success of Strategic Account Manager.
 
-## Creative Cloud Express-concept controleren in de proefdrukviewer
+* De gebruikers moeten de [ interactieve inhoud van het Overzicht met het de overzichtshulpmiddel van Adobe Workfront ](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md) installeren alvorens zij concepten in Adobe Express kunnen beginnen te herzien.
 
-## Zie Besluiten bekijken in Creative Cloud Express voor definitieve goedkeuring en publicatie
+
+## Goedkeuringswerkstromen instellen in Workfront
+
+Voordat gebruikers een goedkeuringswerkstroom kunnen toevoegen aan een Express-sjabloon, moet een Proefbeheerder een goedkeuringswerkstroom in Workfront maken.
+
+Voor meer informatie, zie [ Geautomatiseerde malplaatjes van het Werkschema ](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md) creëren en beheren.
+
+## Een goedkeuringswerkstroom toevoegen aan een Express-sjabloon
+
+Nadat in Workfront een sjabloon voor de goedkeuringswerkstroom is gemaakt, kunnen ontwerpers met een Express Enterprise Premium-licentie deze sjabloon direct binnen Adobe Express toewijzen aan een Express-sjabloon.
+
+Wanneer een Uitdrukkelijke malplaatje wordt opnieuw gemengd, zal een goedkeuring worden vereist alvorens te publiceren-automatisch het in werking stellen van het pre-gevormde goedkeuringswerkschema.
+
+Meer informatie over het toevoegen van workflows voor revisie en goedkeuring aan deelbare sjablonen. <!--need link to help article-->
+
+
+## Express-sjablonen opnieuw mixen en verzenden voor revisie en goedkeuring
+
+Adobe Express-gebruikers kunnen Express-sjablonen opnieuw mixen om aan hun behoeften te voldoen. Voordat ze kunnen worden gepubliceerd, moeten ze goedkeuring aanvragen bij de aangewezen fiatteurs.
+
+Gebruikers kunnen tijdens de gehele productie van inhoud en tijdens het revisie- en goedkeuringsproces
+
+* Zie wie het bestand heeft geopend
+* De beslissingsstatus van alle deelnemers weergeven
+* Opmerkingen lezen
+* en meer
+
+Leer hoe u goedkeuring krijgt voor ontwerpen.\
+<!--need link to help article-->
+
+## Het opnieuw gemengde Uitdrukkelijke dossier bekijken en goedkeuren
+
+Belanghebbenden kunnen feedback geven die relevant is voor hun expertisegebied— - zoals kopiëren, legal of merk— door markeringsgereedschappen en opmerkingen te gebruiken in de Workfront-proefdrukviewer.
+
+Zij zijn ook verantwoordelijk voor het nemen van definitieve besluiten om de inhoud goed te keuren, zodat deze kan worden gepubliceerd.
+
+Meer informatie over het reviseren en goedkeuren van ontwerpen in Workfront.
+
+
+Workfront Collaborator-licentie - proberen te achterhalen hoe dit werkt in—
+
