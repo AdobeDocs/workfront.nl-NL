@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 44b3298905a04c64a457045c4112d9628d933aae
 workflow-type: tm+mt
-source-wordcount: '3788'
+source-wordcount: '3804'
 ht-degree: 0%
 
 ---
@@ -106,7 +106,7 @@ Overweeg het volgende:
 
    * Recorddatums
    * Door het systeem gegenereerde velden opnemen: Aanmaakdatum, Datum van laatste wijziging
-   * Datums opzoeken van verbonden record- of objecttypen.
+   * Datums opzoeken van verbonden record- of objecttypen (alleen wanneer u er een aggregator voor hebt toegevoegd wanneer u de record- of objecttypen hebt verbonden)
 * Afhankelijk van de datums die aan de records zijn gekoppeld, worden sommige records mogelijk niet in de tijdlijnweergave weergegeven in de volgende scenario&#39;s:
 
    * Wanneer de begin- en einddatum geen waarden hebben
@@ -176,7 +176,7 @@ Een tijdlijnweergave beheren:
 
 1. Ga als volgt te werk om snel records te zoeken die overeenkomen met een trefwoord:
 
-   1. Klik het **pictogram van het Onderzoek ![ pictogram van het 1&rbrace; Onderzoek ](assets/search-icon.png) en begin een sleutelwoord verbonden aan om het even welk gebied van een verslag te typen dat op het scherm toont.** Het aantal juiste overeenkomsten wordt weergegeven naast het zoekitem en de record met de juiste overeenkomst wordt gemarkeerd.
+   1. Klik het **pictogram van het Onderzoek ![ pictogram van het 1} Onderzoek ](assets/search-icon.png) en begin een sleutelwoord verbonden aan om het even welk gebied van een verslag te typen dat op het scherm toont.** Het aantal juiste overeenkomsten wordt weergegeven naast het zoekitem en de record met de juiste overeenkomst wordt gemarkeerd.
 
       ![ vakje van het Onderzoek en de mening van de resultaatchronologie ](assets/search-box-and-results-timeline-view.png)
 
