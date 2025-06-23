@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: d7b9f6cac531bed5fd2a3e5c766e9d714f2625e4
+source-git-commit: de30f2600c5d13bb4bbc56cdc1b166ac7c5adb05
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1497'
 ht-degree: 0%
 
 ---
@@ -61,8 +61,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}"> Desktop Proofing de Update van de Kijker </a><p>[!BADGE Off schema]{type=Neutral}</p>
-            <p>De Desktop Proofing Viewer is bijgewerkt naar versie 2.1.50.
-Deze update bevat interne gereedschapsupdates die geen invloed hebben op de functionaliteit van de eindgebruiker. </p>
+            <p>De Desktop Proofing Viewer is bijgewerkt naar versie 2.1.50. Deze update bevat interne gereedschapsupdates die geen invloed hebben op de functionaliteit van de eindgebruiker.</p>
         </td>
         <td>13 juni 2025</td>
         <td>13 juni 2025</td>
@@ -141,7 +140,7 @@ Deze update bevat interne gereedschapsupdates die geen invloed hebben op de func
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}"> Mijn goedkeuringenwidget sorteert nu automatisch op deadline </a><p></p>
-            <p>We hebben de widget Mijn goedkeuringen thuis bijgewerkt en standaard gesorteerd op deadline (aflopend). Hierdoor kunnen de meest urgente goedkeuringen boven aan de lijst worden weergegeven. </p>
+            <p>We hebben de widget Mijn goedkeuringen thuis bijgewerkt en standaard gesorteerd op deadline (aflopend). Hierdoor kunnen de meest urgente goedkeuringen boven aan de lijst worden weergegeven. </p><p><b> Nota:</b> momenteel, slechts kunnen de Goedkeuringen van het Bewijs door deadline in Mijn widget goedkeurt worden gesorteerd.</p>
         </td>
         <td>29 mei 2025</td>
         <td>12 juni 2025</td>
@@ -288,7 +287,7 @@ We werken de interface in Adobe Workfront bij om de gebruikerservaring te verbet
 
 ### Workfront Fusion-verbeteringen
 
-Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de standaard releaseschema. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de standaard releaseschema. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Verbeteringen voor Workfront-planning
 
@@ -326,11 +325,11 @@ Voor informatie over API versies, zie [ API versioning en steunprogramma ](/help
 
 ### Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens Eerste Kwartaal 2025 versie worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront [&#128279;](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=nl-NL).
+Voor informatie over de onderhoudsupdates die tijdens Eerste Kwartaal 2025 versie worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).[
 
 ### Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=nl-NL) Nieuw is.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html) Nieuw is.
 
 
 

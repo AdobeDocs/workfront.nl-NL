@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
-source-git-commit: d7b9f6cac531bed5fd2a3e5c766e9d714f2625e4
+source-git-commit: de30f2600c5d13bb4bbc56cdc1b166ac7c5adb05
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -42,4 +42,7 @@ Voor informatie, zie [ Gebruik het Mijn gebied van Updates ](/help/quicksilver/w
 
 We hebben de widget Mijn goedkeuringen thuis bijgewerkt en standaard gesorteerd op deadline (aflopend). Hierdoor kunnen de meest urgente goedkeuringen boven aan de lijst worden weergegeven.
 
+Momenteel kunnen alleen Proefversies van goedkeuringen worden gesorteerd op deadline in de widget Mijn goedkeuringen.
+
 Eerder, sorteerde widget door ingangsdatum, die het uitdagend maakte om prioriteit te bepalen.
+
