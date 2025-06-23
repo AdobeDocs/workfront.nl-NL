@@ -3,13 +3,13 @@ product-area: Canvas Dashboards
 navigation-topic: canvas-dashboards-beta
 title: bètagegevens van dashboards op canvas
 description: Algemene informatie over de bètaversie van canvasdashboards
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 0c37044aaffbe6ebb22af3877c93d5c65d40de98
+source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -21,29 +21,23 @@ Canvasdashboards is een eigenschap momenteel in ontwikkeling die u toestaat om u
 Voor basisinformatie over het gebruiken van de Dashboards van het Canvas, zie [ begonnen worden met de Dashboards van het Canvas ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
 Voor een lijst van alle documentatie van de Dashboards van het Canvas, zie [ Overzicht van de Dashboards van het Canvas ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 
-**status van Beta**
-
-Canvasdashboards bevinden zich momenteel in een gesloten bètatestfase en kunnen daarom vaak worden gewijzigd. Zie hieronder voor instructies over het inschrijven in de bètaversie.
-
-## Deelnemen aan de bètaversie
-
->[!IMPORTANT]
+>[!NOTE]
 >
->Canvas-dashboards bevinden zich momenteel in gesloten bèta en zijn daarom alleen beschikbaar voor specifieke organisaties. We blijven organisaties rechtstreeks uitnodigen voor de bètaversie van een takenlijst van hen die belangstelling hebben getoond. U kunt uw organisatie aan de wachtlijst toevoegen door [ voor te leggen deze Adobe terugkoppelt programmavorm ](https://www.feedbackprogram.adobe.com/c/r/Workfront-Canvas-Dashboards-Visualizations-Beta). Bovendien hebben organisaties die Workfront Planning hebben aangeschaft als onderdeel van hun pakket bètatoegang gekregen om de mogelijkheden voor productrapportering te testen.
->
->Uiteindelijk zullen wij overgang aan een open bèta, waarbij het inschrijvingsproces aan alle organisaties beschikbaar zal worden.
+>Canvasdashboards bevinden zich momenteel in een gesloten bètatestfase en kunnen daarom vaak worden gewijzigd.
 
-### Inschrijven
-
-Inschrijven in de bètaversie:
+## Inschrijven in de bètaversie
 
 1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Dashboards**.
 
-1. Klik **toetreden tot de bètaknoop van de Dashboards van het Canvas** in de hoger-juiste hoek van de pagina. Deze knop is alleen beschikbaar als uw organisatie is uitgenodigd voor de gesloten bètaversie.
+1. In de hoger-juiste hoek van de pagina, klik **zich bij de bètaknoop van de Dashboards van het Canvas** aansluiten.
 
-1. Lees de termijnen, dan klik **Accepteren**. U bent nu ingeschreven voor de bètaversie. Het duurt echter een paar minuten voordat uw Workfront-gegevens volledig toegankelijk zijn in Canvas-dashboards.
+   >[!NOTE]
+   >
+   > **sluit zich aan bij de bèta** knoop van de Dashboards van het Canvas slechts beschikbaar zijn als uw organisatie aan gesloten bèta is uitgenodigd.
 
-### Feedback geven
+1. Herzie de termijnen in de **de overeenkomst van Beta** doos, dan klik **ga** overeen. U bent nu ingeschreven voor de bètaversie. Houd er rekening mee dat het enkele minuten kan duren voordat uw Workfront-gegevens volledig toegankelijk zijn in Canvasdashboards.
+
+## Feedback geven
 
 Feedback wordt gewaardeerd wanneer we dit gereedschap ontwikkelen in de loop van de bètaversie. Volg de onderstaande instructies om uw ervaring met ons te delen.
 
@@ -51,7 +45,9 @@ Feedback wordt gewaardeerd wanneer we dit gereedschap ontwikkelen in de loop van
 
 1. In het linkerpaneel, klik **de Dashboards van het Canvas**.
 
-1. Klik **verzenden Terugkoppeling** knoop bij de bodem-juiste hoek van de pagina, dan ga uw terug in de vorm die verschijnt en klik **voorleggen**.
+1. Klik **verzenden Terugkoppeling** knoop in de bodem-juiste hoek van de pagina, dan ga uw terug in de vorm die verschijnt.
+
+1. Klik **voorleggen**.
 
 ## Geplande functies
 
