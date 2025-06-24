@@ -6,9 +6,9 @@ description: Plan een automatische levering van rapporten
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: f78a86dcdf7b63e98bec5216fb5ab7622775a053
+source-git-commit: 62f56486ccc590921b7dc8227d46cdede84df32d
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1309'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Een rapport plannen voor automatische levering: &#x200B;
       <td role="rowheader"> <p>Verzenden naar</p> </td> 
       <td> <p>Typ de naam van de gebruiker, groep, team of rol waarnaar u het rapport wilt verzenden en klik vervolgens op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst.</p> <p>of</p> <p>Voer het e-mailadres in van een persoon buiten het Workfront-systeem die u toegang tot het rapport wilt hebben.</p> <p>Herhaal dit proces om het rapport naar veelvoudige gebruikers, groepen, teams, of rollen te verzenden.</p> <p>Opmerking:  <p>Overweeg het volgende wanneer het toevoegen van de ontvangers van de rapportlevering:</p> 
         <ul> 
-         <li>Als uw organisatie Workfront-berichten beperkt tot specifieke e-maildomeinen, kunt u rapporten alleen verzenden naar e-mailadressen die worden vermeld in de lijst van gewenste personen voor e-mail.<p>Voor informatie over hoe een beheerder van Workfront de e-maillijst van gewenste personen bijwerkt, zie de sectie <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md#configur" class="MCXref xref"> uw e-maillijst van gewenste personen </a> vormen.</p></li> 
+         <li><p>Als uw organisatie Workfront-meldingen beperkt tot specifieke e-maildomeinen, kunt u rapporten alleen verzenden naar e-mailadressen die worden vermeld in de lijst van gewenste personen voor e-mail.</p> <p>Bijvoorbeeld, wanneer een gebruiker als rapportontvanger wordt geplaatst en een e-mailadres heeft dat eerder werd toegelaten, en de lijst van gewenste personen wordt bijgewerkt om e-mails niet meer aan dat domein te leveren, zal de gebruiker niet meer geleverde rapporten ontvangen.</p><p>Voor informatie over hoe een beheerder van Workfront de e-maillijst van gewenste personen bijwerkt, zie de sectie <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md#configur" class="MCXref xref"> uw e-maillijst van gewenste personen </a> vormen.</p></li> 
          <li> <p>Het toevoegen van een groot aantal gebruikers als ontvangers kan ertoe leiden dat de levering mislukt. Als u leveringsmislukkingen ervaart, kunt u veelvoudige rapportleveringen met kleinere groepen gebruikers plannen.</p> </li> 
         </ul> </td> 
      </tr> 
@@ -169,7 +169,7 @@ Een rapport plannen voor automatische levering: &#x200B;
 
 1. Klik **sparen** om de rapportlevering te bewaren. De rapportvertoningen in de **Herhalende Leveringen** sectie van **verzenden het de dialoogvakje van het Rapport** en zullen op de geplande tijd verzenden.
 
-   Voor informatie over groottebeperkingen die de levering van uw rapporten kunnen beïnvloeden, zie de de leveringsgrenzen van het sectierapport [&#128279;](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#understanding-export-limits) en [ de grenzen van de Uitvoer ](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#export).
+   Voor informatie over groottebeperkingen die de levering van uw rapporten kunnen beïnvloeden, zie de de leveringsgrenzen van het sectierapport [ ](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#understanding-export-limits) en [ de grenzen van de Uitvoer ](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#export).
 
 >[!IMPORTANT]
 >
