@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: e53f845a00245049ac78616848d243453b2d57eb
+source-git-commit: d41bb7beb4879bcef224b0234b1c024eb16c9bd6
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '848'
 ht-degree: 1%
 
 ---
@@ -21,6 +21,10 @@ De het middelgebieden van het abonnement van de gebeurtenis vertegenwoordigen tr
 Gegevens kunnen worden gefilterd met geneste filters. Voor meer informatie, zie [ Gebruikend genestelde filters ](/help/quicksilver/wf-api/general/event-subs-api.md#using-nested-filters) in het Abonnement API van de artikelgebeurtenis.
 
 In de volgende tabel worden de velden weergegeven die beschikbaar zijn voor bronnen met abonnementen voor gebeurtenissen:
+
+>[!NOTE]
+>
+>Sommige objecten zijn alleen beschikbaar in Event Subscriptions versie 2. Deze objecten worden in de tabel vermeld.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,6 +38,200 @@ In de volgende tabel worden de velden weergegeven die beschikbaar zijn voor bron
   </tr> 
  </thead> 
  <tbody> 
+  <tr> 
+   <td>Goedkeuring<p>(Event Subs v2)</p></td> 
+   <td>goedkeuring</td> 
+   <td>createdAt</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>creatorID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> ID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> isLocked </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objCode </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>status</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>updatedAt</td> 
+  </tr> 
+  <tr> 
+   <td>Goedkeuringsfase<p>(Event Subs v2)</p></td> 
+   <td>approval_stage</td> 
+   <td>approvalID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>createdAt</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>creatorID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> deadlineDate </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> ID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> isLocked </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> name </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objCode </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>status</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>updatedAt</td> 
+  </tr> 
+  <tr> 
+   <td>Deelnemer goedkeuringswerkgebied<p>(Event Subs v2)</p></td> 
+   <td>approval_stage_participant</td> 
+   <td>createdAt</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> deadlineDate </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> beslissing </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> DecisionDate </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> DecisionUserID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objCode </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> participantID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> participantMetadata </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> participantRole </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> participantType </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> realUserID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> requesterID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> stageID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>status</td> 
+  </tr> 
   <tr> 
    <td>Toewijzing</td> 
    <td>ASSGN</td> 
@@ -806,7 +1004,7 @@ In de volgende tabel worden de velden weergegeven die beschikbaar zijn voor bron
    <td>topReferenceObjID</td> 
   </tr> 
   <tr> 
-   <td>Veld</td> 
+   <td>Veld<p>(Event Subs v2)</p></td> 
    <td>VELD</td> 
    <td>createdAt</td> 
   </tr> 
@@ -1876,7 +2074,7 @@ In de volgende tabel worden de velden weergegeven die beschikbaar zijn voor bron
    <td><span> requesterID </span> </td> 
   </tr> 
   <tr> 
-   <td>Opnemen</td> 
+   <td>Opnemen<p><p>(Event Subs v2)</p></td> 
    <td>RECORD</td> 
    <td>createdAt</td> 
   </tr> 
@@ -1921,7 +2119,7 @@ In de volgende tabel worden de velden weergegeven die beschikbaar zijn voor bron
    <td>updatedAt</td> 
   </tr> 
   <tr> 
-   <td>Recordtype </td> 
+   <td>Recordtype<p><p>(Event Subs v2)</p> </td> 
    <td>RECORD_TYPE </td> 
    <td>kleur</td> 
   </tr> 
@@ -2776,7 +2974,7 @@ In de volgende tabel worden de velden weergegeven die beschikbaar zijn voor bron
    <td>workHoursPerDay </td> 
   </tr> 
   <tr> 
-   <td>Workspace</td> 
+   <td>Workspace<p><p>(Event Subs v2)</p></td> 
    <td>WORKSPACE</td> 
    <td>kleur</td> 
   </tr> 

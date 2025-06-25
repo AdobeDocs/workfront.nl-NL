@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 1e893dd5933ce5740b2bfea1e028f39a07a2291c
+source-git-commit: d41bb7beb4879bcef224b0234b1c024eb16c9bd6
 workflow-type: tm+mt
-source-wordcount: '2632'
+source-wordcount: '2647'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,9 @@ De volgende onderwerpen ondersteunen de API voor abonnementen op gebeurtenissen:
 
 De volgende Workfront-objecten worden ondersteund door gebeurtenisabonnementen.
 
+* Goedkeuring
+* Goedkeuringsfase
+* Deelnemer goedkeuringswerkgebied
 * Toewijzing
 * Bedrijf
 * Dashboard
@@ -72,7 +75,7 @@ De volgende Workfront-objecten worden ondersteund door gebeurtenisabonnementen.
 * Gebruiker
 * Workspace
 
-Voor een lijst van gebieden die door de voorwerpen van het gebeurtenisabonnement worden gesteund, zie &lbrace;de gebieden van het het abonnementsmiddel van de Gebeurtenis [&#128279;](../../wf-api/api/event-sub-resource-fields.md).
+Voor een lijst van gebieden die door de voorwerpen van het gebeurtenisabonnement worden gesteund, zie {de gebieden van het het abonnementsmiddel van de Gebeurtenis ](../../wf-api/api/event-sub-resource-fields.md).[
 
 ## Verificatie van abonnement op gebeurtenis
 
@@ -105,6 +108,18 @@ De abonnementsbron bevat de volgende velden.
        </tr> 
       </thead> 
       <tbody> 
+       <tr> 
+        <td scope="col">Goedkeuring</td> 
+        <td scope="col"><p>goedkeuring</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Goedkeuringsfase</td> 
+        <td scope="col"><p>approval_stage</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Deelnemer goedkeuringswerkgebied</td> 
+        <td scope="col"><p>approval_stage_participant</p></td> 
+       </tr> 
        <tr> 
         <td scope="col">Toewijzing</td> 
         <td scope="col"><p>ASSGN</p></td> 
@@ -793,7 +808,7 @@ Met deze connector wordt het filter toegepast op de nieuwe status of oude status
 >[!NOTE]
 >
 >Het abonnement hieronder met het opgegeven filter retourneert alleen berichten waarin de naam van de taak `again` bevat op de `oldState` -taak, wat deze was voordat een update op de taak werd uitgevoerd.
->&#x200B;>Een gebruiksgeval voor dit zou zijn om de objCode- berichten te vinden die van één ding aan een ander veranderden. Bijvoorbeeld om alle taken te weten te komen die van &quot;Onderzoek één of andere naam&quot;in &quot;Onderzoek TeamName Één of andere naam&quot;veranderde
+>>Een gebruiksgeval voor dit zou zijn om de objCode- berichten te vinden die van één ding aan een ander veranderden. Bijvoorbeeld om alle taken te weten te komen die van &quot;Onderzoek één of andere naam&quot;in &quot;Onderzoek TeamName Één of andere naam&quot;veranderde
 
 ```
 {
