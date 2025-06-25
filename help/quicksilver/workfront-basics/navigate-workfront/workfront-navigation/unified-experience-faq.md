@@ -6,9 +6,9 @@ description: Enkele eigenschappen zijn verschillend tussen  [!DNL Workfront]  en
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f59643eb3722c72fc8cbb5009223af143ac240d8
 workflow-type: tm+mt
-source-wordcount: '1368'
+source-wordcount: '1380'
 ht-degree: 0%
 
 ---
@@ -61,13 +61,13 @@ Lees de volgende artikelen voor meer informatie over [!DNL Admin Console] :
 
 Er wordt contact opgenomen met bestaande klanten om migraties te plannen. De collega&#39;s die ondersteuning bieden voor het migratieteam zullen klanten door het proces laten lopen, advies geven over [!DNL Admin Console] -installatie en koppelingen verschaffen naar documentatie die nodig is om de stap zo eenvoudig en probleemloos mogelijk te maken.
 
-* [[!DNL Adobe Workfront]  Overzicht van de Steun ](https://experienceleague.adobe.com/nl/docs/customer-one/using/workfront/overview)
-* [[!DNL Workfront Admin Console]  informatie ](https://experienceleague.adobe.com/nl/docs/customer-one/using/workfront/landing)
-* [[!DNL Adobe Business Platform]  en  [!DNL Admin Console]  Veelgestelde vragen ](https://experienceleague.adobe.com/nl/docs/customer-one/using/workfront/faq)
+* [[!DNL Adobe Workfront]  Overzicht van de Steun ](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/overview)
+* [[!DNL Workfront Admin Console]  informatie ](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/landing)
+* [[!DNL Adobe Business Platform]  en  [!DNL Admin Console]  Veelgestelde vragen ](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/faq)
 
 ### Hoe gaat u met [!DNL Adobe Admin Console] voor bedrijven die dit al hebben ingeschakeld voor gefedereerde id&#39;s anders dan met [!DNL Workfront] SSO is ingesteld?
 
-[!DNL Adobe Admin Console] heeft de optie om [!DNL Workfront] op te nemen, waarbij SSO wordt vervangen door IMS. Alle gebruikersprovisioning vindt plaats in [!DNL Admin Console] en gebruikers zien het [!DNL Adobe] aanmeldingsscherm om [!DNL Experience Cloud] te bereiken waar ze [!DNL Workfront] als optie zien (als ze toegang krijgen tot dit scherm).
+[!DNL Adobe Admin Console] heeft de optie om [!DNL Workfront] op te nemen, waarbij SSO wordt vervangen door Adobe Identity Management System (IMS). Alle gebruikersprovisioning vindt plaats in [!DNL Admin Console] en gebruikers zien het [!DNL Adobe] aanmeldingsscherm om [!DNL Experience Cloud] te bereiken waar ze [!DNL Workfront] als optie zien (als ze toegang krijgen tot dit scherm).
 
 ### Hoe beïnvloedt dit klanten die reeds het AEM admin paneel voor [!DNL Adobe Assets] hebben - maar SSO wordt gevormd verschillend dan [!DNL Workfront?]
 
@@ -77,7 +77,7 @@ Als [!DNL Workfront] eenmaal is toegevoegd als een [!DNL Admin Console] -toepass
 
 SSO wordt ingesteld in de [!DNL Admin Console] en overgeërfd door de [!DNL Workfront] -toepassing.
 
-### Is SSO met onze interne [!DNL Active Directory] nog steeds een optie met IMS?
+### Is SSO met onze interne [!DNL Active Directory] nog steeds een optie met Adobe Identity Management System (IMS)?
 
 IMS is een vervanging voor SSO en functies die meestal hetzelfde zijn. Alle gebruikerstoestemmingen worden verleend en provisioned in [!DNL Adobe Admin Console], en de gebruiker zal het [!DNL Adobe] login scherm zien waar zij &quot; [!UICONTROL Personal Account]&quot;kunnen kiezen of &quot; [!UICONTROL Company Account]&quot;aan login (als u [!DNL Active Directory] hebt, zullen de meesten login met een bedrijfrekening).
 
@@ -103,7 +103,7 @@ De gehele [!DNL Workfront] klantenaccount wordt gemigreerd. Dit kan niet per geb
 
 ### Moeten alle [!DNL Workfront] -gebruikers zich aanmelden via [!DNL Experience Cloud] ? Of alleen beheerders?
 
-Ja, alle gebruikers kunnen zich aanmelden via [!DNL Experience Cloud] . De IMS-aanmelding vervangt de SSO. Het is een zeer gelijkaardige ervaring, enkel een verschillend login scherm.
+Ja, alle gebruikers kunnen zich aanmelden via [!DNL Experience Cloud] . De aanmelding bij Adobe Identity Management System (IMS) vervangt SSO. Het is een zeer gelijkaardige ervaring, enkel een verschillend login scherm.
 
 ### Moeten gebruikers hun [!DNL Adobe] -accounts koppelen aan hun [!DNL Workfront] -accounts als ze beide al hebben?
 
