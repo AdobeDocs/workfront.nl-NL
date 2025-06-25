@@ -7,9 +7,9 @@ description: Met proefdrukrollen kunt u machtigingen verlenen voor afzonderlijke
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 258213af-0081-412e-bf6b-cdeb75d52966
-source-git-commit: 1aa5f36208578b0a7bbc1820cfb220b112bec05b
+source-git-commit: 93452926a27026f2b0e8a7a807381d562d7cbb01
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -21,10 +21,6 @@ Met proefdrukrollen kunt u machtigingen verlenen voor afzonderlijke proefdrukken
 ## Proefrollen
 
 De gebruikers krijgen op het moment dat de gebruiker wordt verzocht de proefdruk te beoordelen, een proefrol voor een afzonderlijke proefdruk. Als u een Workfront Pro+ plan hebt, kunt u het proefdrukken rollen aan gebruikers met een het Werk of vergunning van het Plan verlenen. Als u een Workfront Premium Legacy-plan hebt, kunt u testrollen toekennen aan gebruikers met een toegewezen concepttestlicentie. Voor meer informatie, zie [ Toegang tot het proef functionaliteit in Workfront ](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
-
->[!NOTE]
->
->De gebruikers op nieuwe plannen van Workfront kunnen auteur of moderatorrollen aan om het even welke gebruikers in het systeem verlenen. De gebruikers op erfenisplannen kunnen auteur of moderatorrollen aan om het even welke gebruiker met een proefvergunning in het systeem verlenen.
 
 De proefdrukrol bepaalt welke acties een recensent met betrekking tot die specifieke proef kan ondernemen.
 
@@ -131,7 +127,7 @@ Bepaalde proefdrukrollen geven een revisor bewerkingsrechten op de proefdruk (ze
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong> Auteur </strong> </p> </td> 
+   <td> <p><strong> Auteur* </strong> </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
@@ -147,7 +143,7 @@ Bepaalde proefdrukrollen geven een revisor bewerkingsrechten op de proefdruk (ze
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p><strong> Moderator </strong> </p> </td> 
+   <td> <p><strong> Moderator* </strong> </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p><strong> ✓ </strong> </p> </td> 
@@ -164,3 +160,7 @@ Bepaalde proefdrukrollen geven een revisor bewerkingsrechten op de proefdruk (ze
   </tr> 
  </tbody> 
 </table>
+
+<p>* De gebruikers op nieuwe plannen van Workfront kunnen auteur of moderatorrollen aan om het even welke gebruikers in het systeem verlenen, maar slechts kunnen de gebruikers met een Standaard vergunning alle mogelijkheden gebruiken verbonden aan die rollen.
+
+De gebruikers op erfenisplannen kunnen auteur of moderatorrollen aan om het even welke gebruiker met een proefvergunning in het systeem verlenen.</p>
