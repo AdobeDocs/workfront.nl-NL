@@ -7,9 +7,9 @@ description: U kunt voorwaarde-operatoren of wijzigingstoetsen gebruiken bij het
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce98ca39-cb86-4ef7-b75c-29ceb916e885
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: e10fd7a3237d38ece8a5213990306ce511bd2412
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '731'
 ht-degree: 0%
 
 ---
@@ -29,12 +29,15 @@ U kunt &quot;IF&quot;-instructies maken voor de volgende Workfront-elementen:
 * Weergaven
 * Groepen
 * Berekende aangepaste velden
+* Bedrijfsvoorschriften
 
 Voor meer informatie over de bouw van &quot;IF&quot;verklaringen, zie [ &quot;IF&quot;verklaringen overzicht ](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md).
 
 De voorbeelden in deze handleiding illustreren het gebruik van voorwaardelijke operatoren in berekende aangepaste velden. U kunt ze ook gebruiken in berekende aangepaste kolommen of groepen wanneer u de juiste syntaxis volgt voor berekende aangepaste velden in rapporten.
 
 Voor informatie over het verschil in syntaxis tussen de berekende douanegebieden en berekende douanegegevens in rapporten, zie [ Berekende douanegebieden vs. berekende kolommen ](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md).
+
+Voor informatie over bedrijfsregels, zie [ bedrijfsregels ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md) creëren en uitgeven.
 
 Raadpleeg de API Explorer om de velden te zoeken waarnaar u wilt verwijzen in de berekende aangepaste expressies. Voor informatie over de API Ontdekkingsreiziger, zie [ API Ontdekkingsreiziger ](../../../wf-api/general/api-explorer.md).
 
