@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 0da05d048d0dab1c2f06870e589c1349c48ccc58
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Een onderwerpgroep maken:
 1. Klik **Groepen van het Onderwerp** in het linkerpaneel.
 1. Klik **Nieuwe Groep van het Onderwerp**.
 
-   ![](assets/new-topic-group-box-nwe-350x306.png)
+   <!--   ![](assets/new-topic-group-box-nwe-350x306.png) -->
 
 1. Geef de volgende informatie op:
 
@@ -94,3 +94,4 @@ Een onderwerpgroep maken:
 1. Klik **sparen**.\
    Dit leidt tot een nieuwe Groep van het Onderwerp in uw Rij van het Verzoek. U kunt nu extra categorieën selecteren in het eerste vervolgkeuzemenu onder Wachtrij aanvragen.\
    Voor meer informatie over het voorleggen van verzoeken, zie [ Adobe Workfront verzoeken ](../../../manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
+1. Om een bestaande Groep van het Onderwerp uit te geven, selecteer de Groep van het Onderwerp van de lijst van de Groepen van het Onderwerp, dan geef de details in het venster uit dat opent. Klik **sparen** om de veranderingen te bewaren.
