@@ -108,11 +108,11 @@ Als u een uurtype op het gebruikersniveau beschikbaar maakt zoals die in deze se
 
 Om de uurtypes te bepalen die aan een gebruiker beschikbaar zijn:
 
-1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik uw gebruikersavatar in de upper-left hoek.**
+1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik uw gebruikersavatar in de upper-left hoek.**
 
    of
 
-   Klik het **pictogram van het 1} Belangrijkste Menu ![ pictogram van het Menu ](assets/adobe-main-menu.png) in de hoger-juiste hoek, als beschikbaar, dan klik** Profiel van Workfront **.**
+   Klik het **pictogram van het 1&rbrace; Belangrijkste Menu ![ pictogram van het Menu ](assets/adobe-main-menu.png) in de hoger-juiste hoek, als beschikbaar, dan klik** Profiel van Workfront **.**
 
 1. Klik het **Meer** pictogram ![ Meer pictogram ](assets/more-icon.png) naast de gebruikersnaam, dan klik **uitgeven**. Het **geeft Persoon** vakje uit opent.
 
@@ -129,7 +129,7 @@ Om de uurtypes te bepalen die aan een gebruiker beschikbaar zijn:
 
      Opdat de uurtypes u op het gebruikersniveau selecteert om op projecten, taken, en kwesties beschikbaar te zijn, moeten deze zelfde uurtypes ook in de **optie van de Types van Uur van de Filter** worden geselecteerd wanneer het uitgeven van het project, zoals die in [ wordt beschreven bepaalt beschikbaarheid op het projectniveau ](#define-availability-at-the-project-level).
 
-1. (Facultatief) in het **drop-down menu van het Type van Uur 0} Standaard, selecteer één uurtype.** Wanneer het Type van Uur van de gebruiker Standaard en een project Gefilterde Type van Uur aanpast, wordt dat uurtype geselecteerd door gebrek wanneer het registreren tijd.
+1. (Facultatief) in het **drop-down menu van het Type van Uur 0&rbrace; Standaard, selecteer één uurtype.** Wanneer het Type van Uur van de gebruiker Standaard en een project Gefilterde Type van Uur aanpast, wordt dat uurtype geselecteerd door gebrek wanneer het registreren tijd.
 
 1. Klik **sparen Veranderingen**. Nu, wanneer u uren op een project, een taak, of een kwestie registreert, zijn de uurtypes u uitgezocht beschikbaar als die zelfde uurtypes op het projectniveau beschikbaar zijn gemaakt.
 

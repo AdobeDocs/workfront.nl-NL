@@ -51,7 +51,7 @@ Er zijn twee categorieën van uurtypes:
   >
   >Als u om het even welke project-specifieke uurtypes in uw [!DNL Workfront] systeem toelaat, moet minstens één project-specifiek uurtype op elk project in uw systeem worden toegelaten. U kunt geen project-specifiek uurtype op het systeemniveau toelaten en geen project-specifieke uurtypes hebben beschikbaar op het projectniveau.
 
-* **de Types van Uur van 0} Algemeen**: De algemene uren kunnen niet met een project, een taak, of een kwestie worden geassocieerd, en rechtstreeks in een timesheet het programma geopend.
+* **de Types van Uur van 0&rbrace; Algemeen**: De algemene uren kunnen niet met een project, een taak, of een kwestie worden geassocieerd, en rechtstreeks in een timesheet het programma geopend.
 
 Voor informatie over het registreren van uren en het associëren van hen met uurtypes, zie [ tijd van het Logboek ](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
 

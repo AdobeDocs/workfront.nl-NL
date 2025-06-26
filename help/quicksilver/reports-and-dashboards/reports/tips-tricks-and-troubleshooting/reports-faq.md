@@ -87,7 +87,7 @@ De juiste berekening is:
 >Als u Werkelijke uren in uw berekening gebruikt, gebruik `actualWorkRequiredDouble` voor het waardegebied. Werkelijke uren worden in uren opgeslagen. Geplande uren worden in minuten opgeslagen.
 >
 >De juiste berekening voor Werkelijke uren is:
->>`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+>&#x200B;>`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
 
 
 ## Waarom wordt de waarde van elk van mijn diagramelementen in een rapport niet getoond op de grafiek?
