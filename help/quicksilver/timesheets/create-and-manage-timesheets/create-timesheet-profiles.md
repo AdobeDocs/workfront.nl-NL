@@ -6,14 +6,24 @@ description: U kunt timesheet-profielen maken, bewerken en toewijzen die terugke
 author: Alina
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
-source-wordcount: '1472'
+source-wordcount: '1540'
 ht-degree: 0%
 
 ---
 
 # Werkbladprofielen maken, bewerken en toewijzen
+
+<!--Audited: 06/2025-->
+
+<!--<div class="preview">
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
+
+</div> -->
 
 U kunt timesheet-profielen maken, bewerken en toewijzen die terugkerende tijdbladen voor uw gebruikers genereren zonder tussenkomst van u. Dit bespaart u tijd en zorgt ervoor dat het volgende tussen gebruikers verenigbaar is:
 
@@ -38,20 +48,20 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
    <td> <p>Alle</p> </td> 
   </tr> 
    <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td role="rowheader">Adobe Workfront-licentie*</td> 
    <td> <p>Nieuw: Standaard </p>
  <p>of</p> 
 <p>Huidig: Plan </p> 
 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>U moet administratieve toegang tot Chronologie hebben. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,7 +76,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 >[!IMPORTANT]
 >
->Als u wijzigingen in het tijdlijnprofiel wilt inschakelen in de huidige tijdbladen, moet u de bestaande tijdbladen verwijderen en vervolgens nieuwe tijdbladen genereren. Voor instructies, zie [ timesheets van de Schrapping in Adobe Workfront ](../../timesheets/create-and-manage-timesheets/delete-timesheets.md) en [ produceren manueel timesheets ](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
+>Als u wijzigingen in het tijdlijnprofiel in de huidige tijdbladen wilt inschakelen, moet u de bestaande tijdbladen verwijderen voordat u de wijzigingen in de tijdlijnprofielen aanbrengt en vervolgens nieuwe tijdbladen genereren. Voor instructies, zie [ timesheets van de Schrapping in Adobe Workfront ](../../timesheets/create-and-manage-timesheets/delete-timesheets.md) en [ produceren manueel timesheets ](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
 
 {{step-1-to-setup}}
 
@@ -77,7 +87,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    Als u creeert of een timesheet profiel voor een groep uitgeeft, klik **Groepen**, dan klik de naam van de groep.
 
 1. Klik **Profielen van de Chronologie**.
-1. Om een nieuw timesheet profiel tot stand te brengen, klik **Nieuw Profiel**.
+1. Om een timesheet profiel tot stand te brengen, klik **Nieuw Profiel**.
 
    of
 
@@ -86,13 +96,26 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    Het nieuwe of bestaande tijdbladprofiel wordt weergegeven.
 
 
-1. Op **plaats Details** lusje, typ a **Naam** en **Beschrijving** voor het timesheet profiel en voer de volgende informatie:
+1. Klik het **Vastgestelde Details** lusje, dan werk de volgende informatie bij:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
+      <td role="rowheader"><strong> Naam </strong> </td> 
+      <td> <p> Voeg een naam voor het timesheet profiel toe. Het zou de naam van een team of een groep kunnen zijn waarvan de mensen het zelfde tijdsbestek voor hun timesheets delen. </p> </td> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader"><strong> Beschrijving </strong> </td> 
+      <td> <p> Voeg meer informatie toe over het tijdlijnprofiel.     
+      </p> </td> 
+     </tr>
+
+
+
+   <tr> 
       <td role="rowheader"><strong> Groep met de Toegang van het Beleid </strong> </td> 
       <td> <p> 
       <ul> 
@@ -147,8 +170,14 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
       <td role="rowheader"><strong> Beschikbare Types van Uur </strong> </td> 
       <td><p>Deze instelling verwijst alleen naar Algemene uurtypen en niet naar projectspecifieke uurtypen. </p>
       <p>Door gebrek, zien de gebruikers alle algemene uren op een timesheet. Nochtans, als uw organisatie slechts specifieke algemene uren voor een bepaalde reeks gebruikers wil worden getoond, kunt u de algemene uren selecteren die zij in hun timesheets moeten zien door hen in hun timesheet profiel op dit gebied te selecteren. Als u alle algemene uren wilt onbruikbaar maken, schrap alle uurtypes om timesheet zonder een sectie voor algemene uren te produceren.</p></td> 
-     </tr> 
-     <tr data-mc-conditions=""> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader"><strong> de berichten van de Herinnering </strong> </td> 
+      <td> <p> Voeg een herinneringsmelding toe. Workfront stuurt herinneringen naar gebruikers om hen te vragen hun tijdbladen in te vullen of goed te keuren. U moet herinneringsberichten tot stand brengen alvorens u hen met een timesheet profiel kunt associëren.  </p> </td> 
+     </tr>
+
+   <tr data-mc-conditions=""> 
       <td role="rowheader"><span style="font-weight: bold;"> Overtime </span> </td> 
       <td>U kunt het vak Overwerk verbergen in tijdbladen. Deze optie is standaard uitgeschakeld.</td> 
      </tr> 

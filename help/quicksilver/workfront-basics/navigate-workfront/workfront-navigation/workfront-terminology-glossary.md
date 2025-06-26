@@ -6,9 +6,9 @@ description: De  [!DNL Adobe Workfront]  verklarende woordenlijst lijsten algeme
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
-source-wordcount: '17495'
+source-wordcount: '17556'
 ht-degree: 0%
 
 ---
@@ -63,12 +63,13 @@ De volgende tabel bevat een lijst met veelgebruikte termen in Adobe Workfront:
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Actual Hours]</td> 
-   <td> <p>In een project, een taak, of een probleemrapport, [!UICONTROL Actual Hours] is de som alle uren het programma geopend op het project, de taak, of de kwestie.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b> Voorbeeld: </b></span></span> Als van het [!UICONTROL Updates] lusje voor Taak 1, u "Tijd van het Logboek"klikt en 25 uren ingaat, de Werkelijke Uren van Taak 1 = 25 uren. </p> <p>[!DNL Workfront] berekent [!UICONTROL Actual Hours] voor bovenliggende taken of projecten met de volgende formules:</p> 
+   <td> <p>In een project, een taak, of een probleemrapport, [!UICONTROL Actual Hours] is de som alle uren het programma geopend op het project, de taak, of de kwestie na Mei 2021.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b> Voorbeeld: </b></span></span> Als van het [!UICONTROL Updates] lusje voor Taak 1, u "Tijd van het Logboek"klikt en 25 uren ingaat, de Werkelijke Uren van Taak 1 = 25 uren. </p> <p>[!DNL Workfront] berekent [!UICONTROL Actual Hours] voor bovenliggende taken of projecten met de volgende formules:</p> 
     <ul> 
      <li> <p><code>For parent tasks = children [!UICONTROL Actual Hours] + [!UICONTROL Actual Hours] on the parent task. </code> </p> </li> 
-     <li> <p><code>For projects = [!UICONTROL Actual Hours] logged on the project + [!UICONTROL Actual Hours] logged on standalone or children tasks in the project</code> </p> </li> 
+     <li> <p><code>For projects = [!UICONTROL Actual Hours] logged on the project + [!UICONTROL Actual Hours] logged on standalone or children tasks in the project + [!UICONTROL Actual Hours] logged on issues in the project</code>  </p> </li> 
     </ul> 
-    <p>Voor meer informatie, zie <a href="/help/quicksilver/manage-work/tasks/task-information/actual-hours.md"> Werkelijke Uren </a>.</p>
+   <p>Zie ook <strong> Verouderde Werkelijke Uren </strong>.
+    <p>Voor meer informatie, zie <a href="/help/quicksilver/manage-work/tasks/task-information/actual-hours.md"> Ware Uren van de Mening </a>.</p>
     </td> 
   </tr> 
   <tr> 
@@ -1276,9 +1277,15 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
    <p>See <i>Resource Pools</i> for updated fields. </p> 
    <p>The Legacy Resource Pool is a collection&nbsp;of job roles associated with a project or a user. The functionality of the Legacy Resource Pools is displayed in the tools available in the Legacy Resource Planning tab of the People area. This is a deprecated field.</p>
     --> </td> 
-  </tr>
-
-<tr> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Legacy Actual Hours]</td> 
+   <td> <p>In een project, een taak, of een uitgifterapport, [!UICONTROL Legacy Actual Hours] is de som alle uren het programma geopend op het project, de taak, of geeft om het even welke tijd, met inbegrip van vóór mei 2021 uit.</p>  
+   <p>De oudere Werkelijke Uren tonen als Werkelijke Uren in een project, een taak, of gebied van de Details van de kwestie. </p>
+   <p>Zie ook <strong> Ware Uren </strong>.
+    <p>Voor meer informatie, zie <a href="/help/quicksilver/manage-work/tasks/task-information/actual-hours.md"> Ware Uren van de Mening </a>.</p>
+    </td> 
+  </tr>  <tr> 
    <td>[!UICONTROL License Type]</td> 
    <td>Het type licentie dat is toegewezen aan een [!UICONTROL Access Level] . Het is [!UICONTROL Full User] , [!UICONTROL Limited User] of [!UICONTROL Requester] .</td> 
   </tr> 
@@ -2060,7 +2067,7 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Scenario] (in [!DNL Workfront Fusion]) </td> 
-   <td> <p>Een scenario bestaat uit een reeks stappen (modules) die aangeven hoe gegevens moeten worden overgebracht en getransformeerd tussen apps/services.</p> <p>Voor informatie over scenario's in [!DNL Workfront Fusion], zie <a href="https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion] scenario overzicht </a>.</p> </td> 
+   <td> <p>Een scenario bestaat uit een reeks stappen (modules) die aangeven hoe gegevens moeten worden overgebracht en getransformeerd tussen apps/services.</p> <p>Voor informatie over scenario's in [!DNL Workfront Fusion], zie <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion] scenario overzicht </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Scenario] (in de [!DNL Workfront Scenario Planner] ) </td> 

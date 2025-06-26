@@ -7,9 +7,9 @@ description: Veelgestelde vragen over rapporten
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: d68189272bd3f78de2d57b8393b44b698fa5db13
+source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1500'
 ht-degree: 0%
 
 ---
@@ -64,10 +64,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <!--this section is linked from the Actual Hours article for Tasks in the Task Information folder; edit the links or do not delete or change this section-->
 
-Op een projectrapport heb ik een berekening die Werkelijke uren van Geplande Uren aftrekt het resultaat dat ik krijg onjuist is.
+Op een projectrapport heb ik een berekening die Legacy Actual Hours van Geplande Uren aftrekt.
+
+Het resultaat dat ik heb bereikt is onjuist.
 
 <!--this changed with this issue in May 2025; Actual Hours changed from actualWorkRequired to actualWorkRequiredDouble: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/task/68108e860000120e90a79cb82e5811c2/updates : On a project report I have a calculation that subtracts Actual Hours (2) from Planned Hours (4). The result I am getting is 120 when it should be 2.  -->
-
 
 Mijn berekening is:
 
@@ -77,21 +78,17 @@ Mijn berekening is:
 
 De meeste velden die uren gebruiken in Workfront worden in minuten opgeslagen. Als u deze velden gebruikt in een berekening, wordt het resultaat meestal in minuten weergegeven. U verkrijgt het resultaat in uren door het resultaat van de berekening of het veld waarnaar u verwijst, door 60 te delen.
 
-<!--For example, Planned Hours are stored in minutes, while Actual Hours are stored in hours. As a result, you must convert Planned Hours from minutes to hours. -->
-
 De juiste berekening is:
 
 `valueexpression=SUB(workRequired,actualWorkRequired)/60`
 
 >[!NOTE]
 >
->Als u naar Werkelijke uren in API vraag verwijst, gebruik `actualWorkRequiredDouble` voor het waardegebied. Werkelijke uren in de API worden in uren opgeslagen. Geplande uren worden in minuten opgeslagen.
+>Als u Werkelijke uren in uw berekening gebruikt, gebruik `actualWorkRequiredDouble` voor het waardegebied. Werkelijke uren worden in uren opgeslagen. Geplande uren worden in minuten opgeslagen.
 >
->De juiste berekening in een API-aanroep is:
->&#x200B;>`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+>De juiste berekening voor Werkelijke uren is:
+>>`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
 
-
-<!--when the actualWorkRequiredDouble is released to custom data in Workfront and not just the API, update the calculation above to this: `valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`; and take the note out -->
 
 ## Waarom wordt de waarde van elk van mijn diagramelementen in een rapport niet getoond op de grafiek?
 

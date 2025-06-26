@@ -6,18 +6,22 @@ description: U kunt manueel tot een enig-gebruik timesheet leiden als u een time
 author: Alina
 feature: Timesheets
 exl-id: b293dd50-a9b8-448b-afc1-8c7c7c79183b
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
 
 # Een timesheet voor eenmalig gebruik maken
 
+<!--Audited: 6/2025-->
+
 U kunt manueel tot een enig-gebruik timesheet leiden als u een timesheet wilt die niet terugkeert. Wanneer de einddatum van timesheet wordt bereikt en u meer timesheets nodig hebt, moet u nieuwe degenen creëren.
 
 Voor informatie over het creëren van een timesheet profiel dat terugkomende timesheets voor uw gebruikers zonder enige verdere interventie van u (geadviseerd) produceert, [ creeert, uitgeeft, en toewijst timesheet profielen ](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+
+Voor informatie over manueel het produceren van timesheets voor alle gebruikers in het systeem die met een timesheet profiel worden geassocieerd, zie [ manueel timesheets ](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md) produceren.
 
 >[!NOTE]
 >
@@ -50,8 +54,8 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
    <p>Huidig: Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet administratieve toegang tot Chronologie hebben. </p> <p>Voor meer informatie, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref"> gebruikers administratieve toegang van de Verlening tot bepaalde gebieden </a>.</p> </td> 
+   <td role="rowheader">Toegangsniveau</td> 
+   <td> <p>U moet administratieve toegang tot Chronologie hebben. </p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,11 +66,11 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 ## Een timesheet voor eenmalig gebruik maken
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.
+{{step1-to-timesheets}}
 
-1. Klik **Tijdopnemers**. Het **Al** filter wordt geselecteerd door gebrek. Alle tijdbladen die u kunt bekijken, worden dan weergegeven.
+Het **Al** filter wordt geselecteerd door gebrek. Alle tijdbladen die u kunt bekijken, worden dan weergegeven.
 
-   ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+![ lijst van Tijdopnemers met één geselecteerd timesheet ](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
 1. (Optioneel) Voer een van de volgende handelingen uit om het filter in de lijst met tijdbladen bij te werken:
 
@@ -78,9 +82,9 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
      Dit past Mijn Goedkeuringen Timesheet of de Mijn filters Timesheet op de lijst van timesheets toe.
 
-     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![ Mijn timesheets filterknopen op de de lijstpagina van Tijdopnemers ](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * Klik op het pictogram Filter ![](assets/filter-nwepng.png) om een ander filter toe te passen of een nieuw filter te maken. Voor informatie over het creëren van of het bijwerken van filters, zie [ filters in Adobe Workfront ](../../reports-and-dashboards/reports/reporting-elements/create-filters.md) creëren of uitgeven.
+   * Klik het **pictogram van de Filter** pictogram ![ van de Filter ](assets/filter-nwepng.png) om een verschillende filter toe te passen, of nieuwe tot stand te brengen. Voor informatie over het creëren van of het bijwerken van filters, zie [ filters in Adobe Workfront ](../../reports-and-dashboards/reports/reporting-elements/create-filters.md) creëren of uitgeven.
 
    >[!NOTE]
    >
@@ -89,9 +93,9 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
    >   * [ pas Filters, Weergaven, en Groepen aan gebruikend een lay-outmalplaatje ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
 
 
-1. (Optioneel) Klik op het **pictogram ![](assets/search-icon.png) Zoeken** om een trefwoord te typen en te zoeken naar een specifieke tijdlijn. U kunt bijvoorbeeld zoeken naar een tijdlijntijdframe met de naam van de eigenaar.
+1. (Facultatief) klik het **pictogram van het Onderzoek ![ pictogram van het Onderzoek ](assets/search-icon.png) om een sleutelwoord te typen en naar specifieke timesheet te zoeken.** U kunt bijvoorbeeld zoeken naar een tijdlijntijdframe met de naam van de eigenaar.
 
-1. (Facultatief) klik de **Mening** ![](assets/view-icon.png) of **Groepering** ![](assets/grouping.png) pictogrammen om een verschillende mening of groepering toe te passen of nieuwe tot stand te brengen.
+1. (Facultatief) klik de **pictogrammen van de Mening** ![ Mening ](assets/view-icon.png) of **Groepering** ![ het pictogram van de Groepering ](assets/grouping.png) om een verschillende mening of groepering toe te passen of nieuwe te creëren.
 
    Zie de volgende artikelen voor informatie over het maken van filters, weergaven of groepen:
 

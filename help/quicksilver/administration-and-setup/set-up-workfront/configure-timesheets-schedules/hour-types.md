@@ -9,9 +9,9 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: f35da9077b0422ba939ed9f6285835897f28874c
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '860'
 ht-degree: 0%
 
 ---
@@ -20,16 +20,22 @@ ht-degree: 0%
 
 <!--Audited: 05/2025-->
 
-<!--Audited: 07/2024-->
-
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
 **Linked to Creating Billing Record-->
 
+<div class="preview">
+
+De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Dezelfde functies zijn ook beschikbaar in de productieomgeving voor alle klanten na een week vanaf de release Preview.
+
+Voor meer informatie, zie [ modernisering van de Interface ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+
+</div>
+
 De types van uren zijn etiketten u gebruikt om uw uuringangen te bepalen. U kunt uurtypen koppelen aan uw uren.
 
-Er zijn twee reeksen uurtypes:
+Er zijn twee categorieën van uurtypes:
 
-* Typen projectspecifieke uren: dit is tijd die projecten, taken, en kwesties wordt het programma geopend. Projectspecifieke urentypen kunnen overal in [!DNL Adobe Workfront] met uurvermeldingen worden geassocieerd waar u tijd voor projecten, taken, en kwesties kunt registreren.
+* **de Specifieke Types van Uur van het Project**: Dit is tijd het programma geopend projecten, taken, en kwesties. Projectspecifieke urentypen kunnen overal in [!DNL Adobe Workfront] met uurvermeldingen worden geassocieerd waar u tijd voor projecten, taken, en kwesties kunt registreren.
 
   Wanneer het registreren van tijd in [!DNL Workfront], de project-specifieke uurtypes die beschikbaar zijn afhangen van configuratieopties die op het systeem, het project, en gebruikersniveaus worden geplaatst.
 
@@ -45,15 +51,13 @@ Er zijn twee reeksen uurtypes:
   >
   >Als u om het even welke project-specifieke uurtypes in uw [!DNL Workfront] systeem toelaat, moet minstens één project-specifiek uurtype op elk project in uw systeem worden toegelaten. U kunt geen project-specifiek uurtype op het systeemniveau toelaten en geen project-specifieke uurtypes hebben beschikbaar op het projectniveau.
 
-* De Algemene Types van Uur: De algemene uren kunnen niet met een project, een taak, of een kwestie worden geassocieerd, en worden geregistreerd direct in timesheet.
+* **de Types van Uur van 0} Algemeen**: De algemene uren kunnen niet met een project, een taak, of een kwestie worden geassocieerd, en rechtstreeks in een timesheet het programma geopend.
 
 Voor informatie over het registreren van uren en het associëren van hen met uurtypes, zie [ tijd van het Logboek ](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -64,19 +68,19 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td role="rowheader">Adobe Workfront-licentie*</td> 
    <td> <p>Nieuw: Standaard</p>
    <p>of</p>
    <p>Huidig: Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td role="rowheader">Toegangsniveau</td> 
    <td>Systeembeheerder</td>
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -95,15 +99,19 @@ De uurtypen die bij [!DNL Workfront] worden geleverd, zijn:
 
 ## Urentypen maken
 
-Als [!DNL Workfront] beheerder, kunt u nieuwe uurtypes voor uw organisatie op zowel systeem als projectniveaus tot stand brengen. Daarna, kunnen de gebruikers bepalen welke uurtypes voor specifieke projecten en gebruikers beschikbaar zijn. Voor meer informatie, zie [ de types en beschikbaarheid van uren bepalen ](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
+Als [!DNL Workfront] beheerder, kunt u uurtypes voor uw organisatie op systeem en project-niveau tot stand brengen.
 
-Nieuwe uurtypen maken:
+Nadat u uurtypes op systeem-niveau bepaalt, kunnen de gebruikers bepalen welke uurtypes voor specifieke projecten of voor specifieke gebruikers beschikbaar zijn.
+
+Voor meer informatie, zie [ de types en beschikbaarheid van uren bepalen ](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
+
+U kunt als volgt uurtypen maken:
 
 {{step-1-to-setup}}
 
 1. In het linkerpaneel, klik **Tijdopmaak &amp; Uren**, dan klik **de Types van Uur**.
 
-1. In de **sectie van de Types van Uur 0&rbrace; &lbrace;, klik** + Nieuw Type van Uur **.**
+1. In de **sectie van de Types van Uur**, klik **Nieuw Type van Uur**.
 1. In het **Nieuwe de dialoogvakje van de Types van Uur**, specificeer de volgende informatie:
 
    <table style="table-layout:auto"> 
@@ -135,9 +143,18 @@ Nieuwe uurtypen maken:
 
 1. Klik op **[!UICONTROL Create Hour Type].**
 
+   Het uurtype wordt toegevoegd aan uw Workfront-systeem en wordt standaard geactiveerd.
+
 ## Uren deactiveren
 
 U kunt uurtypen deactiveren als u niet langer wilt dat gebruikers hun uren aan hen koppelen. Als u uurtypen deactiveert, worden ze overal in [!DNL Workfront] verborgen, waar uurtypen zichtbaar zijn.
+
+>[!NOTE]
+>
+>* Ingebouwde uurtypen kunnen niet worden gedeactiveerd.
+>* Wanneer u een project-specifiek Type van Uur deactiveert, al tijd die voor dat type automatisch wordt geregistreerd blijft aan een ingebouwd project-specifiek uurtype in gebreke. Bijvoorbeeld, tijd die voor een project wordt geregistreerd blijft aan het het uurtype van de Tijd van het Project; tijd die voor een taak wordt geregistreerd blijft aan het het uurtype van de Tijd van de Taak in gebreke.
+>
+
 
 Een uurtype deactiveren:
 
@@ -147,6 +164,12 @@ Een uurtype deactiveren:
 
 1. Selecteer het uurtype u wilt deactiveren.
 
-1. Klik op **[!UICONTROL Deactivate]**.
 
-   ![ Deactivate knoop ](assets/deactivate-button.png)
+1. <span class="preview"> klik **Meer**, dan **Deactivate**.</span>
+
+   <span class="preview">![ activeer en deactiveer de verbindingen van het uurtype ](assets/activate-and-deactivate-hour-type-links.png)</span>
+
+   <span class="preview"> het uurtype wordt gedeactiveerd en de gebruikers kunnen het niet meer vinden wanneer het registreren uren.</span>
+
+1. <span class="preview"> (Facultatief) om een uurtype te reactiveren, selecteer het in de **Types van Uur** lijst, dan klik **Meer** > **activeert**. </span>
+

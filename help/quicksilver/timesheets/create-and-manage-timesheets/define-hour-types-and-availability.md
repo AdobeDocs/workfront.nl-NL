@@ -6,9 +6,9 @@ description: Een Type van Uur is een etiket dat u toestaat om tijdingang te cate
 author: Alina
 feature: Timesheets
 exl-id: 3c07a6b0-4751-4fce-ac28-6a83084025d4
-source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
-source-wordcount: '1487'
+source-wordcount: '1488'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,8 @@ Een Type van Uur is een etiket dat u toestaat om tijdingang te categoriseren. Af
 
 Adobe Workfront kent twee uurtypen:
 
-* **Algemene uren**: Uren die niet met een project, zoals zieke tijd of beleid worden geassocieerd. U kunt algemene uren slechts op timesheet registreren.
-* **project-specifieke uren**: De uren het programma geopend projecten, taken, en kwesties. U kunt project-specifieke uren van om het even welke plaats registreren waar u tijd kunt registreren.
+* **Algemene Uren**: Uren die niet met een project, zoals zieke tijd of beleid worden geassocieerd. U kunt algemene uren slechts op timesheet registreren.
+* **de Specifieke Uren van het Project**: Uren het programma geopend projecten, taken, en kwesties. U kunt project-specifieke uren van om het even welke plaats registreren waar u tijd kunt registreren.
 
 Wanneer het registreren van tijd in Workfront, de project-specifieke uurtypes die beschikbaar zijn afhangen van configuratieopties die bij het systeem, het project, en gebruikersniveaus worden geplaatst. (De volgende standaardproject-specifieke uurtypes zijn altijd beschikbaar: de Tijd van het project, de Tijd van de Taak, en Tijd van de Uitgave.)
 
@@ -45,7 +45,7 @@ Nadat de aangewezen uurtypes zijn gevormd, kunt u tijd van veelvoudige plaatsen 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td role="rowheader">Adobe Workfront-licentie*</td> 
    <td> <p>Nieuw: Standaard</p> 
    <p>Huidig: Plan</p>
    </td> 
@@ -61,7 +61,7 @@ Nadat de aangewezen uurtypes zijn gevormd, kunt u tijd van veelvoudige plaatsen 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -108,11 +108,11 @@ Als u een uurtype op het gebruikersniveau beschikbaar maakt zoals die in deze se
 
 Om de uurtypes te bepalen die aan een gebruiker beschikbaar zijn:
 
-1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik uw gebruikersavatar in de upper-left hoek.**
+1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik uw gebruikersavatar in de upper-left hoek.**
 
    of
 
-   Klik het **pictogram van het 1&rbrace; Belangrijkste Menu ![ pictogram van het Menu ](assets/adobe-main-menu.png) in de hoger-juiste hoek, als beschikbaar, dan klik** Profiel van Workfront **.**
+   Klik het **pictogram van het 1} Belangrijkste Menu ![ pictogram van het Menu ](assets/adobe-main-menu.png) in de hoger-juiste hoek, als beschikbaar, dan klik** Profiel van Workfront **.**
 
 1. Klik het **Meer** pictogram ![ Meer pictogram ](assets/more-icon.png) naast de gebruikersnaam, dan klik **uitgeven**. Het **geeft Persoon** vakje uit opent.
 
@@ -129,7 +129,7 @@ Om de uurtypes te bepalen die aan een gebruiker beschikbaar zijn:
 
      Opdat de uurtypes u op het gebruikersniveau selecteert om op projecten, taken, en kwesties beschikbaar te zijn, moeten deze zelfde uurtypes ook in de **optie van de Types van Uur van de Filter** worden geselecteerd wanneer het uitgeven van het project, zoals die in [ wordt beschreven bepaalt beschikbaarheid op het projectniveau ](#define-availability-at-the-project-level).
 
-1. (Facultatief) in het **drop-down menu van het Type van Uur 0&rbrace; Standaard, selecteer één uurtype.** Wanneer het Type van Uur van de gebruiker Standaard en een project Gefilterde Type van Uur aanpast, wordt dat uurtype geselecteerd door gebrek wanneer het registreren tijd.
+1. (Facultatief) in het **drop-down menu van het Type van Uur 0} Standaard, selecteer één uurtype.** Wanneer het Type van Uur van de gebruiker Standaard en een project Gefilterde Type van Uur aanpast, wordt dat uurtype geselecteerd door gebrek wanneer het registreren tijd.
 
 1. Klik **sparen Veranderingen**. Nu, wanneer u uren op een project, een taak, of een kwestie registreert, zijn de uurtypes u uitgezocht beschikbaar als die zelfde uurtypes op het projectniveau beschikbaar zijn gemaakt.
 

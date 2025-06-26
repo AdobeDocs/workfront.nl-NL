@@ -6,16 +6,14 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '795'
 ht-degree: 0%
 
 ---
 
 # Overzicht van formuliervelden
-
-<!--when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula-->
 
 <span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
@@ -104,6 +102,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 * Formulervelden verwijzen naar velden die tot hetzelfde recordtype behoren.
 * U kunt alleen verwijzen naar velden van andere recordtypen wanneer u een ander recordtype koppelt aan het recordtype waarvoor u een formuleveld maakt.
+* &lt;span class-&quot;preview&quot;>Verwijzen naar gekoppelde recordtypen of hun opzoekvelden in een formule is afhankelijk van uw machtigingen voor de verbonden recordtypen. Als u geen machtigingen hebt om het recordtype weer te geven, kunt u niet verwijzen naar de velden in een formule. </span>
 * U kunt het veldtype van een veld Formule niet wijzigen nadat u het hebt opgeslagen.
 * U kunt de berekening van een formuleringsgebied bijwerken nadat u het bewaart, en de resultaten van de berekeningsupdate automatisch voor alle verslagen van het zelfde type.
 * U moet de gebieden toevoegen u in formules van verwijzingen voorziet aangezien zij in de interface van de Planning van Workfront tonen.
