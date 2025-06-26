@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: b87b32d0396b0c277a5fc30d060c76a71192171b
+source-git-commit: e3fa5f6fd86f0fe9ba221fb7c20f46f966437a42
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
@@ -32,15 +32,19 @@ Wij hebben een nieuw ActualUren gebied toegevoegd dat de tijd opslaat die voor p
 
 Zowel de velden Werkuren als Werkelijke uren verouderd zijn zichtbaar in project-, taak- en probleemweergave en rapporten.
 
-Het veld Werkelijke uren dat zichtbaar is in het project, de sectie Taken en de sectie Details van uitgaven vertegenwoordigt de verouderde werkelijke uren.
+Het veld Werkelijke uren dat zichtbaar is in het project, de sectie Taken en de sectie Details van uitgaven vertegenwoordigt de nieuwe werkuren.
+
 
 
 >[!IMPORTANT]
 >
->Uren die vóór mei 2021 zijn geregistreerd, worden opgeslagen in het veld Oudere werkelijke uren.  
->&#x200B;>De waarde voor het gebied van Werkelijke Uren voor projecten, taken, en kwesties waar de uren vóór Mei 2021 werden geregistreerd is nul. 
->&#x200B;>De uren die na Mei 2021 worden geregistreerd worden opgeslagen op zowel het Ware gebied van Uren als het Echte gebied van Werkelijke Uren van de Oudheid.
->&#x200B;> Mogelijk moet u de rapporten bijwerken met de nieuwe velden.
+>Afhankelijk van wanneer de uren werden geregistreerd, zou er een discrepantie tussen Werkelijke Uren en Echte Werkelijke Uren voor een project, een taak, of een kwestie kunnen zijn.<br>
+>>De volgende scenario&#39;s bestaan:
+>
+>* De werkelijke uren die uren vertegenwoordigen die sinds mei 2021 zijn geregistreerd voor projecten, taken en kwesties, zijn verplaatst van het veld Werkelijke uren verouderd naar het nieuwe veld Werkelijke uren.
+>* De werkelijke uren die uren vertegenwoordigen die vóór mei 2021 voor projecten, taken en kwesties zijn geregistreerd, worden alleen in het veld Werkelijke uren verouderd vermeld.
+>  ><br>Mogelijk moet u uw rapporten bijwerken met het nieuwe veld en de bijbehorende waarden.
+
 
 Voor informatie, zie [ Ware Uren van de Mening ](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 

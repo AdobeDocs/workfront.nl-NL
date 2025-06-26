@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 4f90ae347f2a9f9f92610eb4ef6e17452f011481
+source-git-commit: 24bb25ca99f4a9ad0ecf8573f8d173248efe2986
 workflow-type: tm+mt
-source-wordcount: '4930'
+source-wordcount: '4861'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Deze pagina bevat een overzicht van de interface-updates die we in Adobe Workfro
 >
 >In de meeste gevallen, wordt elke update eerst vrijgegeven aan het milieu van de Voorproef, dan incrementeel toegelaten in de milieu van de Productie voor een groeiende ondergroep klanten die op de vermelde de versiedatum van de Productie begint.
 
-Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product [&#128279;](/help/quicksilver/product-announcements/product-releases/product-releases.md).
+Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product ](/help/quicksilver/product-announcements/product-releases/product-releases.md).[
 
 ## Beheer en installatie
 
@@ -33,19 +33,19 @@ We have updated the look and feel of all the tabs and subtabs in the Update Feed
 For information, see the articles in the [System-tracked update feeds](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md) section.-->
 
 
-### Nieuwe vormgeving van de lijsten in de sectie Timesheets &amp; Hours in het gedeelte Setup
+<!--### New look and feel of the lists in the Timesheets & Hours section in the Setup area
 
-**Voorproef: 26 juni, 2025; Productie voor iedereen: 10 juli, 2025**
+**Preview: June 26, 2025; Production for everyone: July 10, 2025**   
 
-We hebben de vormgeving van de volgende lijsten in de sectie Timesheets &amp; Hours in het gedeelte Setup bijgewerkt:
+We have updated the look and feel of the following lists in the Timesheets & Hours section in the Setup area:  
 
-* De lijst met tijdlijnprofielen
+* The list of Timesheet Profiles 
 
-* De lijst van de Types van Uur
+* The list of Hour Types 
 
-Deze lijsten komen nu overeen met andere gebieden van Workfront.
+These lists now match other areas of Workfront.  
 
-Voor informatie, zie [ creeer, geef, en wijs timesheet profielen ](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md) uit.
+ For information, see [Create, edit, and assign timesheet profiles](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).-->
 
 
 <!--### Look and feel updates for the Add fields box in the Update Feeds section of Setup 
