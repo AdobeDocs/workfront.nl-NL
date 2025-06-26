@@ -7,9 +7,9 @@ description: De uren die u in Adobe Workfront inlogt op uw werkitems worden besc
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
+source-git-commit: 957c6e6955a828aa40ac996490d66e9c46f594bc
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1010'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Afhankelijk van welk gebied van Workfront u tot de daadwerkelijke uren van toega
 
 * In het project, de taak, of het gebied van de Details van de kwestie:
 
-   * **Ware Uren**: Uren die voor projecten, taken, of kwesties worden geregistreerd om het even welk ogenblik, met inbegrip van vóór Mei 2021. Deze komen overeen met de oude werkelijke uren in rapporten en lijsten. Ze worden in de Workfront-database opgeslagen als minuten en hun waardeveld is `actualWorkRequired` .
+   * **Ware Uren**: Uren die voor projecten, taken, of kwesties vóór Mei 2021 worden geregistreerd. Ze worden in uren opgeslagen in de Workfront-database en hun waardeveld is `actualWorkRequiredDouble` .
 
 ## Werkelijke uren voor taken en problemen versus Werkelijke uren voor projecten
 
@@ -104,8 +104,8 @@ Werkelijke uren zoeken in de sectie Details is identiek voor projecten, taken en
 Werkelijke uren zoeken in taakdetails:
 
 1. Ga naar een taak u de Ware Uren voor wilt herzien.
-1. In het linkerpaneel, klik **Details van de Taak**. De **vertoningen van de 1&rbrace; sectie van het Overzicht &lbrace;.**
-1. Bepaal de plaats van de **Ware 1&rbrace; waarde van Uren {in de** 3} sectie van de Werktijd. **&#x200B;**&#x200B;Dit is het totaal aantal uren dat op deze taak is aangemeld.
+1. In het linkerpaneel, klik **Details van de Taak**. De **vertoningen van de 1} sectie van het Overzicht {.**
+1. Bepaal de plaats van de **Ware 1} waarde van Uren {in de** 3} sectie van de Werktijd. **** Dit is het totaal aantal uren dat op deze taak is aangemeld.
 
 ### Werkelijke uren in de sectie Uren {#actual-hours-in-the-hours-section}
 
@@ -115,7 +115,7 @@ Werkelijke uren zoeken in de sectie Uren:
 
 1. Ga naar een taak u de Ware Uren voor wilt herzien.
 
-1. In het linkerpaneel, klik **Uren**. Een lijst van uuringangen die op de taakvertoningen worden geregistreerd, met de **1&rbrace; kolom die van Uren &lbrace;het totale aantal Werkelijke Uren voor de taak tonen.**
+1. In het linkerpaneel, klik **Uren**. Een lijst van uuringangen die op de taakvertoningen worden geregistreerd, met de **1} kolom die van Uren {het totale aantal Werkelijke Uren voor de taak tonen.**
 
 1. Zorg ervoor dat de **Standaard** mening en de **groepering van het Project** op deze lijst worden toegepast.
 
@@ -133,7 +133,7 @@ Werkelijke uren weergeven in een taakrapport:
 
 1. In de bodem-linkerhoek van de pagina, klik **sparen + Sluiten** om het rapport te bewaren.
 
-1. In de **Naam dit Rapport om het** dialoogvakje te bewaren, ga een nieuwe rapportnaam in, dan klik **&#x200B;**&#x200B;van toepassing zijn.
+1. In de **Naam dit Rapport om het** dialoogvakje te bewaren, ga een nieuwe rapportnaam in, dan klik **** van toepassing zijn.
 
 ### Werkelijke uren aan hulpmiddelen voor bronnenbeheer {#actual-hours-in-resource-management-tools}
 
@@ -157,11 +157,10 @@ U moet de conversie van minuten naar uren uitvoeren wanneer u deze velden opent 
 
 De Werkelijke uren die voor projecten, taken, of kwesties worden geregistreerd worden momenteel opgeslagen in het gegevensbestand van Workfront als notulen en hun waardegebied is `actualWorkRequired`.
 
-Met de volgende versie van de Workfront API die later in 2025 wordt uitgebracht, afhankelijk van hoe u de Werkelijke Uren toegang hebt, kunnen zij in de volgende gebieden en eenheden in het gegevensbestand worden opgeslagen:
+Met de volgende versie van de Workfront API die later in 2025 wordt uitgebracht, worden de Werkelijke uren opgeslagen in de volgende velden en eenheden in de database:
 
 * **Ware Uren**: Uren die voor project, taken, of kwesties na Mei 2021 worden geregistreerd. Ze worden in uren opgeslagen in de Workfront-database en hun waardeveld is `actualWorkRequiredDouble` .
-
-* **Verouderde Werkelijke Uren**: Uren die voor projecten, taken, of kwesties worden geregistreerd om het even welke tijd, met inbegrip van vóór Mei 2021. Ze worden in de Workfront-database opgeslagen als minuten en hun waardeveld is `actualWorkRequired` .
+   * **Verouderde Werkelijke Uren**: Uren die voor projecten, taken, of kwesties worden geregistreerd om het even welke tijd, met inbegrip van vóór Mei 2021. Ze worden in de Workfront-database opgeslagen als minuten en hun waardeveld is `actualWorkRequired` .
 
 Voor informatie over het gebruiken van Werkelijke Uren in berekende kolommen of gebieden, zie [ FAQs van het Rapport ](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
 

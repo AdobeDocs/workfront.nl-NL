@@ -7,9 +7,9 @@ description: Veelgestelde vragen over rapporten
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
+source-git-commit: 957c6e6955a828aa40ac996490d66e9c46f594bc
 workflow-type: tm+mt
-source-wordcount: '1500'
+source-wordcount: '1510'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <!--this section is linked from the Actual Hours article for Tasks in the Task Information folder; edit the links or do not delete or change this section-->
 
-Op een projectrapport heb ik een berekening die Legacy Actual Hours van Geplande Uren aftrekt.
+Op een projectrapport heb ik een berekening die Werkelijke uren van Geplande Uren aftrekt.
 
 Het resultaat dat ik heb bereikt is onjuist.
 
@@ -78,17 +78,19 @@ Mijn berekening is:
 
 De meeste velden die uren gebruiken in Workfront worden in minuten opgeslagen. Als u deze velden gebruikt in een berekening, wordt het resultaat meestal in minuten weergegeven. U verkrijgt het resultaat in uren door het resultaat van de berekening of het veld waarnaar u verwijst, door 60 te delen.
 
-De juiste berekening is:
+Geplande uren worden in minuten opgeslagen.
 
-`valueexpression=SUB(workRequired,actualWorkRequired)/60`
+Afhankelijk van het veld Werkelijke uren dat u voor de berekening wilt gebruiken, zijn de juiste formules:
 
->[!NOTE]
->
->Als u Werkelijke uren in uw berekening gebruikt, gebruik `actualWorkRequiredDouble` voor het waardegebied. Werkelijke uren worden in uren opgeslagen. Geplande uren worden in minuten opgeslagen.
->
->De juiste berekening voor Werkelijke uren is:
->&#x200B;>`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+* Voor verouderde werkelijke uren die in minuten worden opgeslagen:
 
+  `valueexpression=SUB(workRequired,actualWorkRequired)/60`
+
+* Voor Werkelijke uren die in uren worden opgeslagen:
+
+  `valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+
+Voor meer informatie, zie [ Ware Uren van de Mening ](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 
 ## Waarom wordt de waarde van elk van mijn diagramelementen in een rapport niet getoond op de grafiek?
 
