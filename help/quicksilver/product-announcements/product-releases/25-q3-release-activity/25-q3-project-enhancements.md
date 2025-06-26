@@ -39,11 +39,11 @@ Het veld Werkelijke uren dat zichtbaar is in het project, de sectie Taken en de 
 >[!IMPORTANT]
 >
 >Afhankelijk van wanneer de uren werden geregistreerd, zou er een discrepantie tussen Werkelijke Uren en Echte Werkelijke Uren voor een project, een taak, of een kwestie kunnen zijn.<br>
->>De volgende scenario&#39;s bestaan:
+>&#x200B;>De volgende scenario&#39;s bestaan:
 >
 >* De werkelijke uren die uren vertegenwoordigen die sinds mei 2021 zijn geregistreerd voor projecten, taken en kwesties, zijn verplaatst van het veld Werkelijke uren verouderd naar het nieuwe veld Werkelijke uren.
 >* De werkelijke uren die uren vertegenwoordigen die vóór mei 2021 voor projecten, taken en kwesties zijn geregistreerd, worden alleen in het veld Werkelijke uren verouderd vermeld.
->  ><br>Mogelijk moet u uw rapporten bijwerken met het nieuwe veld en de bijbehorende waarden.
+>  &#x200B;><br>Mogelijk moet u uw rapporten bijwerken met het nieuwe veld en de bijbehorende waarden.
 
 
 Voor informatie, zie [ Ware Uren van de Mening ](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
