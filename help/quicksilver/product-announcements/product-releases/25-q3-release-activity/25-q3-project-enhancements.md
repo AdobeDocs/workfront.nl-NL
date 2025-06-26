@@ -38,9 +38,9 @@ Het veld Werkelijke uren dat zichtbaar is in het project, de sectie Taken en de 
 >[!IMPORTANT]
 >
 >Uren die vóór mei 2021 zijn geregistreerd, worden opgeslagen in het veld Oudere werkelijke uren.  
->>De waarde voor het gebied van Werkelijke Uren voor projecten, taken, en kwesties waar de uren vóór Mei 2021 werden geregistreerd is nul. 
->>De uren die na Mei 2021 worden geregistreerd worden opgeslagen op zowel het Ware gebied van Uren als het Echte gebied van Werkelijke Uren van de Oudheid.
->> Mogelijk moet u de rapporten bijwerken met de nieuwe velden.
+>&#x200B;>De waarde voor het gebied van Werkelijke Uren voor projecten, taken, en kwesties waar de uren vóór Mei 2021 werden geregistreerd is nul. 
+>&#x200B;>De uren die na Mei 2021 worden geregistreerd worden opgeslagen op zowel het Ware gebied van Uren als het Echte gebied van Werkelijke Uren van de Oudheid.
+>&#x200B;> Mogelijk moet u de rapporten bijwerken met de nieuwe velden.
 
 Voor informatie, zie [ Ware Uren van de Mening ](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 
