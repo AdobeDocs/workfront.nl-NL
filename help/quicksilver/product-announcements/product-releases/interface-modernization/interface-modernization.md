@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 4c09cbe74e8f277cd6a9a7732aa1a93e17f7dfeb
+source-git-commit: 4f90ae347f2a9f9f92610eb4ef6e17452f011481
 workflow-type: tm+mt
-source-wordcount: '4622'
+source-wordcount: '4930'
 ht-degree: 0%
 
 ---
@@ -20,30 +20,64 @@ Deze pagina bevat een overzicht van de interface-updates die we in Adobe Workfro
 >
 >In de meeste gevallen, wordt elke update eerst vrijgegeven aan het milieu van de Voorproef, dan incrementeel toegelaten in de milieu van de Productie voor een groeiende ondergroep klanten die op de vermelde de versiedatum van de Productie begint.
 
-Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product [&#128279;](/help/quicksilver/product-announcements/product-releases/product-releases.md).
-
+Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product ](/help/quicksilver/product-announcements/product-releases/product-releases.md).[
 
 ## Beheer en installatie
 
-<!--
-### Look and feel updates for the Update Feeds section of Setup 
+<!--### Look and feel updates for the Update Feeds section of Setup 
 
-**Preview release: June 19, 2025; Production release: June 26, 2025** 
+**Preview: June 26, 2025; Production for everyone: July 10, 2025**  
 
 We have updated the look and feel of all the tabs and subtabs in the Update Feeds section of Setup. The Update Feeds section displays under the Interface area of Setup. Now, all the tabs in the Update Feeds section match other areas of Workfront. 
 
-For information, see the articles in the [System-tracked update feeds](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md) section.
--->
+For information, see the articles in the [System-tracked update feeds](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md) section.-->
 
-<!--
-### Look and feel updates for the Add fields box in the Update Feeds section of Setup 
 
-**Preview release: June 19, 2025; Production release: June 26, 2025** 
+### Nieuwe vormgeving van de lijsten in de sectie Timesheets &amp; Hours in het gedeelte Setup
+
+**Voorproef: 26 juni, 2025; Productie voor iedereen: 10 juli, 2025**
+
+We hebben de vormgeving van de volgende lijsten in de sectie Timesheets &amp; Hours in het gedeelte Setup bijgewerkt:
+
+* De lijst met tijdlijnprofielen
+
+* De lijst van de Types van Uur
+
+Deze lijsten komen nu overeen met andere gebieden van Workfront.
+
+Voor informatie, zie [ creeer, geef, en wijs timesheet profielen ](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md) uit.
+
+
+<!--### Look and feel updates for the Add fields box in the Update Feeds section of Setup 
+
+**Preview release: June 26, 2025; Production release: July 10, 2025** 
 
 We have updated the look and feel of the Add fields box in the Update Feeds section of Setup. The Update Feeds section displays under the Interface area of Setup. Now, when you add fields in any subtab of the Tracked Fields tab, the Add fields box has a new look and feel, and some of the interface elements have been updated.  
 
-For information, see [Configure system updates](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
--->
+For information, see [Configure system updates](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).-->
+
+
+### Interface-updates voor de pagina Companies
+
+**de versie van de Voorproef: 26 juni, 2025; de versie van de Productie: 10 juli, 2025**
+
+We hebben de pagina &quot;Companies&quot; bijgewerkt met een modern ontwerp dat aansluit bij andere delen van Workfront.
+
+Deze update bevat visuele wijzigingen in de lijst met bedrijven. Er is geen functionaliteit gewijzigd.
+
+Ga naar Setup > Companies om de wijziging weer te geven.
+
+Voor informatie, zie [ bedrijven ](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md) creëren en uitgeven.
+
+
+### Bijwerken naar de lijst Toegangsniveaus in Setup
+
+**de versie van de Voorproef: 19 Juni, 2025; De versie van de Productie: 23 Juni, 2025**
+
+Wij hebben de lijst van Niveaus van de Toegang in Opstelling met een moderner ontwerp bijgewerkt dat met andere gebieden van Workfront verenigbaar is.
+
+Ga naar Instellingen > Toegangsniveaus om deze wijziging weer te geven.
+
 
 ### Interface-updates voor het maken, kopiëren en bewerken van planningen
 
@@ -72,23 +106,10 @@ De knoop om toegang te verfijnen is naar het recht van de Edit knoop verplaatst.
 
 Ga naar Instellingen > Toegangsniveaus > Nieuw toegangsniveau om deze wijziging weer te geven.
 
-<!--
-### Interface updates for the Companies page
-
-**Preview release: June 19, 2025; Production release: June 26, 2025**
-
-We have updated the Companies page with a more modern design that is consistent with other areas of Workfront.
-
-This update includes visual changes to the list of companies. No functionality has changed.
-
-To view the change, go to Setup > Companies.
-
-For information, see [Create and edit companies](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
--->
 
 ### Interface-updates voor de pagina Klantgegevens
 
-**de versie van de Voorproef: 12 Juni, 2025; De versie van de productie: Te aankondigen**
+**de versie van de Voorproef: 12 Juni, 2025; De versie van de Productie: 19 Juni, 2025**
 
 We hebben de pagina Klantgegevens bijgewerkt met een modern ontwerp dat aansluit bij andere delen van Workfront.
 
@@ -189,6 +210,14 @@ We have updated the look and feel of the Log time box when logging time for a pr
 For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
 -->
 
+### De blik-en-voelen veranderingen van de Nieuwe doos van de Groep van het Onderwerp van een project
+
+**de versie van de Voorproef: 26 juni, 2025; de versie van de Productie: 10 juli, 2025**
+
+We hebben de vormgeving van de ervaring bijgewerkt bij het maken of bewerken van onderwerpgroepen voor aanvraaglijsten, zodat deze overeenkomen met andere gebieden in Workfront.
+
+De nieuwe ervaring is beschikbaar wanneer het creëren van of het uitgeven van de Groepen van het Onderwerp in projecten of malplaatjes.
+
 ### De updates van de interface voor de Verwante projectsectie van een project (beschikbaar voor specifieke klanten slechts)
 
 **de versie van de Voorproef: 12 Juni, 2025; De versie van de productie: Te aankondigen**
@@ -284,17 +313,17 @@ We raden u aan de URL te vervangen om naar een ondersteunde pagina te gaan of de
 
 ## Gebruikers
 
-<!--
-### Interface updates to the organizational chart
 
-**Preview release: June 19, 2025; Production release for all customers: June 26, 2025**
+### Interface werkt aan de organisatorische grafiek bij
 
-We have updated the look and feel of the organizational chart associated with a Workfront user, to match the design of other areas of Workfront.
+**de versie van de Voorproef: 26 juni, 2025; De versie van de Productie voor alle klanten: 10 juli, 2025**
 
-To view this change, go to a Workfront user profile and click **Org Chart** in the left panel. (This feature is available through the Workfront user profile, not the Adobe user profile.)
+We hebben het uiterlijk van het organigram van een Workfront-gebruiker aangepast aan het ontwerp van andere delen van Workfront.
 
-For information, see [View the organizational chart](/help/quicksilver/people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
--->
+Om deze verandering te bekijken, ga naar een gebruikersprofiel van Workfront en klik **Org Grafiek** in het linkerpaneel. (Deze functie is beschikbaar via het Workfront-gebruikersprofiel, niet via het Adobe-gebruikersprofiel.)
+
+Voor informatie, zie [ Mening de organisatorische grafiek ](/help/quicksilver/people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
+
 
 ### Interface-update naar de nieuwe pagina voor gebruikersregistratie
 

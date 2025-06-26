@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
-source-git-commit: de30f2600c5d13bb4bbc56cdc1b166ac7c5adb05
+source-git-commit: 3f8d0430ce5685aeec4b5881ab3436201273e4a2
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
@@ -17,6 +17,12 @@ ht-degree: 0%
 Op deze pagina worden alle Home-verbeteringen beschreven die zijn aangebracht met de release Derde kwartaal 2025 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwartaal 2025 versiecyclus, zie [ Derde Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
+
+<!--## All Approvals widget renamed to Document approval metrics
+
+We've renamed the All Approvals widget to Document Approval Metrics to more accurately reflect the information it displays. The Document Approval Metrics widget provides high-level insights into document approvals for the projects you own.
+
+This widget does not contain any information about proof approvals. -->
 
 ## Bijgewerkte commentaarervaring in de sectie van Aantekeningen op het Mijn gebied van Updates
 

@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 39762dbf34501f3cd967a2a766042086d18003c8
+source-git-commit: 482067778b6a5b7291eb25d00245a394bc72ccf0
 workflow-type: tm+mt
-source-wordcount: '1601'
+source-wordcount: '1799'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,39 @@ In dit artikel worden de functies beschreven die tijdens de release van het derd
 <!--keep the sentence below for all future quarterly release pages-->
 
 Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront worden vrijgegeven, zie [ de versieactiviteit van de Planning van Adobe Workfront: artikelindex ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+
+## Alle groepen in de tabelweergave uitvouwen en samenvouwen
+
+>[!NOTE]
+>
+>* Voorbeeld: 26 juni 2025
+>* Productie voor iedereen: 17 juli 2025
+
+U kunt nu de groepen in een tabelweergave samenvouwen en uitvouwen met de volgende gebieden:
+
+* Het vak Groeperen, toegankelijk via de werkbalk van de tabelweergave
+
+* Koptekst van groep, door er met de rechtermuisknop op te klikken
+
+U kunt één groep of alle groepen tegelijkertijd samenvouwen of uitvouwen.
+
+Voorafgaand aan deze verbetering, kon u slechts één groepering tegelijkertijd, van elke groeperende kopbal doen ineenstorten of uitbreiden.
+
+Voor informatie, zie [ de lijstmening ](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
+
+## Nieuwe samenvoegfunctionaliteit voor formuleringsvelden
+
+>[!NOTE]
+>
+>* Voorbeeld: 26 juni 2025
+>* Productie voor iedereen: 26 juni 2025
+
+Wanneer u nu recordtypen met elkaar verbindt en een formuleringsveld als een zoekopdracht in een veld plaatst, kunt u de statistische functies (SUM, AVERAGE, MIN, MAX, enz.) toepassen, afhankelijk van de indeling van het veld van de formule. Als het formuleveld bijvoorbeeld numeriek is, kunt u functies zoals SUM of AVG gebruiken. Als het formuleveld wordt opgemaakt als tekst, zijn statistische functies zoals SUM niet van toepassing.
+
+Eerder, wanneer het verbinden van verslagtypes en het brengen in raadplegingsgebieden van de verbonden verslagen, kon u gezamenlijke functies slechts op regelmatige gebieden, maar niet op formuleringsgebieden toepassen.
+
+Voor informatie, zie [ het gebiedsoverzicht van de Formule ](/help/quicksilver/planning/fields/formula-fields.md).
 
 ## Aangepaste beschikbaarheid voor kwartalen voor de tijdlijnweergave van Workfront Planning
 
@@ -206,7 +239,7 @@ Voorafgaand aan deze verbetering, moesten de gebruikers met alle vergunningsnive
 >[!NOTE]
 >
 >Deze wijziging is zichtbaar voor alle nieuwe en bestaande gebruikers met een System Administrator- en Standard-licentie.
->&#x200B;>Bestaande gebruikers die aan een lay-outsjabloon zijn toegewezen, blijven alles zien volgens de instellingen die in de lay-outsjabloon zijn gedefinieerd.
+>>Bestaande gebruikers die aan een lay-outsjabloon zijn toegewezen, blijven alles zien volgens de instellingen die in de lay-outsjabloon zijn gedefinieerd.
 
 Voor informatie, zie [ overzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/access/access-overview.md).
 

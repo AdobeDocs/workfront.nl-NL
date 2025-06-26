@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: de30f2600c5d13bb4bbc56cdc1b166ac7c5adb05
+source-git-commit: 3f8d0430ce5685aeec4b5881ab3436201273e4a2
 workflow-type: tm+mt
-source-wordcount: '1497'
+source-wordcount: '1627'
 ht-degree: 0%
 
 ---
@@ -128,6 +128,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Snelle release</strong></td>
         <td><strong>Driemaandelijks</strong></td>
     </tr>
+       <!--<tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">All Approvals widget renamed to Document approval metrics</a><p></p>
+            <p>We've renamed the All Approvals widget to Document Approval Metrics to more accurately reflect the information it displays. The Document Approval Metrics widget provides high-level insights into document approvals for the projects you own.</p>
+        </td>
+        <td>TBD</td>
+        <td>TBD</td>
+        <td>TBD</td>
+    </tr> -->   
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}"> Bijgewerkte het becommentariëren ervaring in de sectie van Vermeldingen op het Mijn gebied van Updates </a><p></p>
@@ -160,6 +169,16 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Snelle release</strong></td>
         <td><strong>Driemaandelijks</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}"> Bestaand ActualUren gebied dat met Verouderd ActualUren en nieuw ActualUren gebied wordt vervangen creeerde </a><p>[!BADGE Off schema]{type=Neutral}</p>
+            <p>Het bestaande veld Werkelijke uren is hernoemd naar Werkelijke uren verouderd. In dit veld wordt de tijd opgeslagen die is aangemeld voor projecten, taken en problemen in minuten. Het veld wordt in de Workfront-database opgeslagen als actualWorkRequired. </p>
+            <p>Wij hebben een nieuw ActualUren gebied toegevoegd dat de tijd opslaat die voor projecten, taken, en kwesties in uren, met decimale precisie wordt geregistreerd. Het veld wordt in de Workfront-database opgeslagen als actualWorkRequiredDouble.</p>
+        </td>
+        <td>24 juni 2025</td>
+        <td>24 juni 2025</td>
+        <td>24 juni 2025</td>
+    </tr> 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}"> Verandering in de manier de Werkelijke Uren in het gegevensbestand voor API vraag worden opgeslagen </a><p>[!BADGE Off schema]{type=Neutral}</p>
@@ -203,6 +222,16 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Snelle release</strong></td>
         <td><strong>Driemaandelijks</strong></td>
     </tr>
+      <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}"> Verbeterde beveiliging voor rapportlevering </a><p>[!BADGE Off schema]{type=Neutral}</p>
+            <p>We hebben de levering van geplande rapporten verbeterd om ervoor te zorgen dat Workfront-berichten alleen worden verzonden naar e-maildomeinen die zijn goedgekeurd in de lijst van gewenste personen.</p>
+            <p></p>
+        </td>
+        <td>26 juni 2025</td>
+        <td>(Phased rollout): 26 juni - 9 juli 2025</td>
+        <td>(Phased rollout): 26 juni - 9 juli 2025</td>
+    </tr>   
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}"> de vervangingsresultaten van de Gebruiker niet meer met een ongeldige waarde wanneer het filtreren </a><p></p>
@@ -287,7 +316,7 @@ We werken de interface in Adobe Workfront bij om de gebruikerservaring te verbet
 
 ### Workfront Fusion-verbeteringen
 
-Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de standaard releaseschema. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de standaard releaseschema. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Verbeteringen voor Workfront-planning
 
@@ -325,11 +354,11 @@ Voor informatie over API versies, zie [ API versioning en steunprogramma ](/help
 
 ### Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens Eerste Kwartaal 2025 versie worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront [&#128279;](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=nl-NL).
+Voor informatie over de onderhoudsupdates die tijdens Eerste Kwartaal 2025 versie worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).[
 
 ### Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=nl-NL) Nieuw is.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html) Nieuw is.
 
 
 

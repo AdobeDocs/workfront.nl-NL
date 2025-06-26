@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: 3ff70fcc949644d511c876add10d2c58901cb197
+source-git-commit: b87b32d0396b0c277a5fc30d060c76a71192171b
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,31 @@ ht-degree: 0%
 Op deze pagina worden de projectverbeteringen beschreven die zijn aangebracht met de release van het derde kwartaal van 2025 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwartaal 2025 versiecyclus, zie [ Derde Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
+
+## Het veld Bestaande werkelijke uren is vervangen door het veld Oudere werkelijke uren en het nieuwe veld Werkelijke uren is gemaakt
+
+>[!NOTE]
+>
+> Voorbeeld en productie: 24 juni 2025 
+
+Het bestaande veld Werkelijke uren is hernoemd naar Werkelijke uren verouderd. In dit veld wordt de tijd opgeslagen die is aangemeld voor projecten, taken en problemen in minuten. Het veld wordt in de Workfront-database opgeslagen als actualWorkRequired.
+
+Wij hebben een nieuw ActualUren gebied toegevoegd dat de tijd opslaat die voor projecten, taken, en kwesties in uren, met decimale precisie wordt geregistreerd. Het veld wordt in de Workfront-database opgeslagen als actualWorkRequiredDouble.
+
+Zowel de velden Werkuren als Werkelijke uren verouderd zijn zichtbaar in project-, taak- en probleemweergave en rapporten.
+
+Het veld Werkelijke uren dat zichtbaar is in het project, de sectie Taken en de sectie Details van uitgaven vertegenwoordigt de verouderde werkelijke uren.
+
+
+>[!IMPORTANT]
+>
+>Uren die vóór mei 2021 zijn geregistreerd, worden opgeslagen in het veld Oudere werkelijke uren.  
+>>De waarde voor het gebied van Werkelijke Uren voor projecten, taken, en kwesties waar de uren vóór Mei 2021 werden geregistreerd is nul. 
+>>De uren die na Mei 2021 worden geregistreerd worden opgeslagen op zowel het Ware gebied van Uren als het Echte gebied van Werkelijke Uren van de Oudheid.
+>> Mogelijk moet u de rapporten bijwerken met de nieuwe velden.
+
+Voor informatie, zie [ Ware Uren van de Mening ](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
+
 
 ## Wijziging in de manier waarop Werkelijke uren worden opgeslagen in de database voor API-aanroepen
 
