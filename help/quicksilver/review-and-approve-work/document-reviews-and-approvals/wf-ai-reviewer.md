@@ -55,8 +55,8 @@ De Workfront AI Reviewer gebruikt de merkrichtlijnen die zijn ingesteld in Genst
 
 Zie voor meer informatie over richtlijnen voor merken
 
-* [ GenStudio for Performance Marketing-merken ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
-* [ voeg richtlijnen ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines) toe
+* [ GenStudio for Performance Marketing-merken ](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
+* [ voeg richtlijnen ](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines) toe
 
 
 ## AI-revisoren maken

@@ -57,8 +57,8 @@ Voordat u begint, moet u merkrichtlijnen instellen in GenStuido-stichtingen.
 
 Zie voor meer informatie over richtlijnen voor merken
 
-* [ GenStudio for Performance Marketing-merken ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
-* [ voeg richtlijnen ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines) toe
+* [ GenStudio for Performance Marketing-merken ](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
+* [ voeg richtlijnen ](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines) toe
 
 ## Een AI-revisor toevoegen
 
