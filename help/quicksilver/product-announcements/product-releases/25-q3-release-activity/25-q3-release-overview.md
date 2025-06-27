@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: e3fa5f6fd86f0fe9ba221fb7c20f46f966437a42
+source-git-commit: f02a07c0bc4568d7e0fa25ca6e880024423527b7
 workflow-type: tm+mt
-source-wordcount: '1627'
+source-wordcount: '1625'
 ht-degree: 0%
 
 ---
@@ -172,8 +172,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}"> Bestaand ActualUren gebied dat met Verouderd ActualUren en nieuw ActualUren gebied wordt vervangen creeerde </a><p>[!BADGE Off schema]{type=Neutral}</p>
-            <p>Het bestaande veld Werkelijke uren is hernoemd naar Werkelijke uren verouderd. In dit veld wordt de tijd opgeslagen die is aangemeld voor projecten, taken en problemen in minuten. Het veld wordt in de Workfront-database opgeslagen als actualWorkRequired. </p>
-            <p>We hebben een nieuw veld Werkelijke uren toegevoegd waarin de tijd wordt opgeslagen die is vastgelegd voor projecten, taken en uitgaven in uren, met decimale precisie. Het veld wordt in de Workfront-database opgeslagen als actualWorkRequiredDouble.</p>
+            <p>Het bestaande veld Werkelijke uren is hernoemd naar Werkelijke uren verouderd. In dit veld wordt de tijd opgeslagen die is aangemeld voor projecten, taken en problemen in minuten. Het veld wordt als <code>actualWorkRequired</code> opgeslagen in de Workfront-database. </p>
+            <p>Wij hebben een nieuw ActualUren gebied toegevoegd dat de tijd opslaat die voor projecten, taken, en kwesties in uren, met decimale precisie wordt geregistreerd. Het veld wordt als <code>actualWorkRequiredDouble</code> opgeslagen in de Workfront-database.</p>
         </td>
         <td>24 juni 2025</td>
         <td>24 juni 2025</td>
@@ -316,7 +316,7 @@ We werken de interface in Adobe Workfront bij om de gebruikerservaring te verbet
 
 ### Workfront Fusion-verbeteringen
 
-Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de standaard releaseschema. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de standaard releaseschema. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Verbeteringen voor Workfront-planning
 
@@ -354,11 +354,11 @@ Voor informatie over API versies, zie [ API versioning en steunprogramma ](/help
 
 ### Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens Eerste Kwartaal 2025 versie worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront [&#128279;](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=nl-NL).
+Voor informatie over de onderhoudsupdates die tijdens Eerste Kwartaal 2025 versie worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).[
 
 ### Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=nl-NL) Nieuw is.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html) Nieuw is.
 
 
 

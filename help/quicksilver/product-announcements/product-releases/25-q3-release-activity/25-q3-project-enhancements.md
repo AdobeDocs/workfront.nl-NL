@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: e3fa5f6fd86f0fe9ba221fb7c20f46f966437a42
+source-git-commit: f02a07c0bc4568d7e0fa25ca6e880024423527b7
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '741'
 ht-degree: 0%
 
 ---
@@ -26,25 +26,23 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwart
 >
 > Voorbeeld en productie: 24 juni 2025 
 
-Het bestaande veld Werkelijke uren is hernoemd naar Werkelijke uren verouderd. In dit veld wordt de tijd opgeslagen die is aangemeld voor projecten, taken en problemen in minuten. Het veld wordt in de Workfront-database opgeslagen als actualWorkRequired.
+Wij hebben een nieuw ActualUren gebied toegevoegd dat de tijd opslaat die voor projecten, taken, en kwesties in uren, met decimale precisie wordt geregistreerd. Het veld wordt als `actualWorkRequiredDouble` opgeslagen in de Workfront-database.
 
-Wij hebben een nieuw ActualUren gebied toegevoegd dat de tijd opslaat die voor projecten, taken, en kwesties in uren, met decimale precisie wordt geregistreerd. Het veld wordt in de Workfront-database opgeslagen als actualWorkRequiredDouble.
+Het bestaande veld Werkelijke uren is hernoemd naar Werkelijke uren verouderd. In het veld wordt de tijd die voor projecten, taken en problemen is aangemeld, in minuten opgeslagen en in de Workfront-database opgeslagen als `actualWorkRequired` .
 
 Zowel de velden Werkuren als Werkelijke uren verouderd zijn zichtbaar in project-, taak- en probleemweergave en rapporten.
 
 Het veld Werkelijke uren dat zichtbaar is in het project, de sectie Taken en de sectie Details van uitgaven vertegenwoordigt de nieuwe werkuren.
 
-
-
 >[!IMPORTANT]
 >
 >Afhankelijk van wanneer de uren werden geregistreerd, zou er een discrepantie tussen Werkelijke Uren en Echte Werkelijke Uren voor een project, een taak, of een kwestie kunnen zijn.<br>
->&#x200B;>De volgende scenario&#39;s bestaan:
+>>De volgende scenario&#39;s bestaan:
 >
->* De werkelijke uren die uren vertegenwoordigen die sinds mei 2021 zijn geregistreerd voor projecten, taken en kwesties, zijn verplaatst van het veld Werkelijke uren verouderd naar het nieuwe veld Werkelijke uren.
->* De werkelijke uren die uren vertegenwoordigen die vóór mei 2021 voor projecten, taken en kwesties zijn geregistreerd, worden alleen in het veld Werkelijke uren verouderd vermeld.
->  &#x200B;><br>Mogelijk moet u uw rapporten bijwerken met het nieuwe veld en de bijbehorende waarden.
-
+>* Werkelijke uren vertegenwoordigen uren die sinds mei 2021 voor projecten, taken en kwesties zijn geregistreerd.
+>* De oudere Werkelijke uren vertegenwoordigen uren die voor projecten, taken en kwesties voor het leven van het project, de taak, of de kwestie worden geregistreerd. Dit omvat uren die vóór Mei 2021 tot de huidige tijd worden geregistreerd.
+>  ><br>Mogelijk moet u uw rapporten bijwerken met het nieuwe veld en de bijbehorende waarden.
+>  ><br>Workfront gebruikt Legacy Actual Hours om de werkelijke loonkosten te berekenen.
 
 Voor informatie, zie [ Ware Uren van de Mening ](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 
