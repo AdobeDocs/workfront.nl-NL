@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: d82bb8a2-a2a6-43d6-a62e-e90f69229533
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: dd4879d758275e37c933ceee285e70acf1cdb5ab
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '81'
 ht-degree: 0%
 
 ---
@@ -22,17 +22,17 @@ ht-degree: 0%
 
 Met Canvasdashboards kunt u uw Adobe Workfront-gegevens gemakkelijk visualiseren door verschillende rapporttypen toe te voegen aan een aanpasbaar canvas. Voor basisinstructies bij het gebruiken van de Dashboards van het Canvas, begin met het artikel [ begonnen wordt met de Dashboards van het Canvas ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md). Anders, verwijs hieronder de artikelindex voor meer informatie over een specifiek onderwerp.
 
-## Canvasdashboards: artikelindex
+<!--## Canvas Dashboards: article index
 
-Deze sectie bevat de volgende artikelen:
+This section contains the following articles:
 
-* [Canvasdashboards beheren](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
-   * [Aan de slag met canvasdashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)
-   * [Rapporten toevoegen, verwijderen of rangschikken in een Canvasdashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
-   * [Een canvasdashboard delen](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
-* [ het rapporttypes van het Dashboard van Canvas ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
-   * [Een bestaand rapport toevoegen aan een Canvasdashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
-  <!--* [Build a KPI report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
+* [Manage Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
+    * [Get started with Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)
+    * [Add, remove, or arrange reports in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
+    * [Share a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
+* [Canvas Dashboard report types](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md) 
+    * [Add an existing report to a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md)
+  [Build a KPI report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
     * [Build a chart report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
     * [Build a table report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
     * [Add a pending approvals report to a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)-->
