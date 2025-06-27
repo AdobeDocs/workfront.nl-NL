@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 8934c3f5681c09c00769442900013844ee7a80ef
 workflow-type: tm+mt
-source-wordcount: '1330'
+source-wordcount: '1336'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ U kunt de API-sleutel voor uw beheerdersgebruikersaccount genereren, opnieuw ins
 
 >[!NOTE]
 >
->U kunt ook een API-sleutel genereren via de API. Voor meer informatie, zie de [&#128279;](../../../wf-api/general/event-subs-api.md) sectie van de Abonnement API van de Gebeurtenis van 0&rbrace; &lbrace;in [ Abonnement API van de Gebeurtenis ](../../../wf-api/general/event-subs-api.md).
+>U kunt ook een API-sleutel genereren via de API. Voor meer informatie, zie de ](../../../wf-api/general/event-subs-api.md) sectie van de Abonnement API van de Gebeurtenis van 0} {in [ Abonnement API van de Gebeurtenis ](../../../wf-api/general/event-subs-api.md).[
 
 {{step-1-to-setup}}
 
@@ -106,15 +106,14 @@ U kunt API-sleutels voor gebruikers in andere rollen dan Workfront-beheerders ge
 
    1. Breid **Systeem** uit, dan klik **Enige Sign-On (SSO)**.
    1. Op het **gebied van het Type**, selecteer het type van SSO uw organisatiegebruik.
-   1. Met het geselecteerde type, scrol neer en ontruim **&#x200B;**&#x200B;checkbox toelaten.
-
+   1. Met het geselecteerde type, scrol neer en ontruim **** checkbox toelaten.
       ![ laat SSO ](assets/sysadmin-security-sso-disable-31620-350x320.png) toe
    1. Klik **sparen**.
 
 
 1. Voer in de adresbalk van een browser de volgende API-aanroep in:
 
-   `<domain>`**.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&amp;username=**&#x200B;gebruikersbenaming **&#x200B; &amp;password= &#x200B;** wachtwoord** &amp;method=PUT
+   `<domain>` .my.workfront.com/attask/api/v7.0/user?action=generateApiKey&amp;username=**gebruikersbenaming** &amp;password= **wachtwoord** &amp;method=PUT
 
    Vervang `<domain>` door uw Workfront-domeinnaam, gebruikersnaam en wachtwoord door de Workfront-gebruikersgegevens van de gebruiker.
 
@@ -140,9 +139,9 @@ U kunt API Toetsen vormen om voor alle gebruikers in uw systeem te verlopen. Wan
 
    API-sleutels verlopen standaard elke maand.
 
-1. Om API Sleutels te vormen om in de tijd te verlopen de wachtwoorden van de gebruikers verlopen, uitgezochte **verwijder API sleutel wanneer het wachtwoord van een gebruiker** verloopt.
+1. Om API Sleutels te vormen om in de tijd te verlopen de wachtwoorden van de gebruikers verlopen, laat **toe verwijder API sleutel wanneer het wachtwoord van een gebruiker** verloopt.
 
-   Deze optie is standaard niet geselecteerd.
+   Deze optie is standaard niet ingeschakeld.
 
    Voor informatie over hoe te om gebruikerswachtwoorden te vormen om te verlopen, zie [ de voorkeur van de systeemveiligheid ](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) vormen.
 
@@ -168,13 +167,13 @@ Als u zich zorgen maakt over een bepaalde inbreuk op de beveiliging van uw Workf
 >
 >De in dit gedeelte beschreven procedure is alleen van toepassing op organisaties die nog niet aan boord zijn gegaan bij het Adobe Business Platform. Aanmelden bij Workfront via de Workfront API is niet beschikbaar als uw organisatie is aangemeld bij het Adobe Business Platform.
 >
->Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan het Bedrijfs Platform van de Adobe is genegeerd, zie [ Op platform-gebaseerde beleidsverschillen (Adobe Workfront/Adobe Bedrijfs Platform) ](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
-
-Toepassingen van derden kunnen met Workfront communiceren via de API. Om de beveiliging van uw Workfront-site te verhogen, kunt u Workfront zodanig configureren dat de aanmeldingsaanvragen voor de API worden beperkt door een X.509-certificaat naar Workfront te uploaden. Als deze optie is ingeschakeld, moeten alle aanmeldingsaanvragen via de API naast gebruikersnaam en wachtwoord ook een clientcertificaat bevatten.
+>Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan het Van Bedrijfs Adobe Platform is genegeerd, zie [ Op platform-gebaseerde beleidsverschillen (Adobe Workfront/Adobe Bedrijfs Platform) ](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 >[!NOTE]
 >
 >Dit is niet beschikbaar als het Workfront-exemplaar van uw organisatie is ingeschakeld met Adobe IMS. Zie uw netwerk of beheerder van IT als u meer informatie nodig hebt.
+
+Toepassingen van derden kunnen met Workfront communiceren via de API. Om de beveiliging van uw Workfront-site te verhogen, kunt u Workfront zodanig configureren dat de aanmeldingsaanvragen voor de API worden beperkt door een X.509-certificaat naar Workfront te uploaden. Als deze optie is ingeschakeld, moeten alle aanmeldingsaanvragen via de API naast gebruikersnaam en wachtwoord ook een clientcertificaat bevatten.
 
 * [ verkrijg het X.509- certificaat ](#obtain-the-x-509-certificate)
 * [ upload het certificaat aan Workfront ](#upload-the-certificate-to-workfront)
@@ -182,17 +181,18 @@ Toepassingen van derden kunnen met Workfront communiceren via de API. Om de beve
 
 ### Het X.509-certificaat ophalen {#obtain-the-x-509-certificate}
 
-Vraag een geldig X.509-certificaat aan van een vertrouwde certificeringsinstantie (zoals Verisign) en plaats het op een tijdelijke locatie op uw werkstation.
+Vraag een geldig X.509-certificaat aan bij een vertrouwde certificeringsinstantie (zoals Verisign) en sla dit op een tijdelijke locatie op uw werkstation op.
 
 ### Het certificaat uploaden naar Workfront {#upload-the-certificate-to-workfront}
 
 Nadat u het X.509-certificaat van uw certificeringsinstantie hebt ontvangen, moet u het uploaden naar Workfront.
 
-1. Klik het **pictogram 1&rbrace; van het Belangrijkste Menu ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** de montages van de Opstelling **![ Gear pictogram ](assets/gear-icon-settings.png).**
+1. Klik het **pictogram 1} van het Belangrijkste Menu ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** de montages van de Opstelling **![ Gear pictogram ](assets/gear-icon-settings.png).**
 
 1. Breid **Systeem** uit, dan klik **Info van de Klant**.
 
-1. In het **Belangrijkste gebied van Montages API**, uitgezochte **laat X.509 Certificaat** toe.
+1. In het **Belangrijkste gebied van Montages API**, uitgezochte **vereist X.509 Certificaat voor API logins**.
+1. Klik **Certificaat van de Verandering**.
 1. Blader op uw werkstation naar het X.509-certificaat dat u eerder hebt gedownload en selecteer dit certificaat.
 1. (Facultatief) klik **Details van de Mening** naast de certificaatnaam om de volgende details over het certificaat te bekijken:
 
