@@ -37,12 +37,12 @@ Het veld Werkelijke uren dat zichtbaar is in het project, de sectie Taken en de 
 >[!IMPORTANT]
 >
 >Afhankelijk van wanneer de uren werden geregistreerd, zou er een discrepantie tussen Werkelijke Uren en Echte Werkelijke Uren voor een project, een taak, of een kwestie kunnen zijn.<br>
->>De volgende scenario&#39;s bestaan:
+>&#x200B;>De volgende scenario&#39;s bestaan:
 >
 >* Werkelijke uren vertegenwoordigen uren die sinds mei 2021 voor projecten, taken en kwesties zijn geregistreerd.
 >* De oudere Werkelijke uren vertegenwoordigen uren die voor projecten, taken en kwesties voor het leven van het project, de taak, of de kwestie worden geregistreerd. Dit omvat uren die vóór Mei 2021 tot de huidige tijd worden geregistreerd.
->  ><br>Mogelijk moet u uw rapporten bijwerken met het nieuwe veld en de bijbehorende waarden.
->  ><br>Workfront gebruikt Legacy Actual Hours om de werkelijke loonkosten te berekenen.
+>  &#x200B;><br>Mogelijk moet u uw rapporten bijwerken met het nieuwe veld en de bijbehorende waarden.
+>  &#x200B;><br>Workfront gebruikt Legacy Actual Hours om de werkelijke loonkosten te berekenen.
 
 Voor informatie, zie [ Ware Uren van de Mening ](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 
