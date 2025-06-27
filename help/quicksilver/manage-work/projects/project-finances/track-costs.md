@@ -154,7 +154,7 @@ Het uurtarief in de formule houdt rekening met eventuele effectieve wijzigingen 
 >[!NOTE]
 >
 >De werkelijke kosten van het project worden als volgt berekend:
->>`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
+>&#x200B;>`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
 >
 >Deze kosten worden niet gedupliceerd in de berekening van de werkelijke kosten. Als bijvoorbeeld een vaste kostprijs deel uitmaakt van de werkelijke kosten van het project, wordt deze niet afzonderlijk toegevoegd aan de werkelijke kosten.
 
