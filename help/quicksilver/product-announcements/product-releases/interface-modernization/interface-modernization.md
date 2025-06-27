@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 24bb25ca99f4a9ad0ecf8573f8d173248efe2986
+source-git-commit: 1b9f18f51d6b83e0522fb1ff95d5d135cef547ec
 workflow-type: tm+mt
-source-wordcount: '4861'
+source-wordcount: '5088'
 ht-degree: 0%
 
 ---
@@ -20,42 +20,39 @@ Deze pagina bevat een overzicht van de interface-updates die we in Adobe Workfro
 >
 >In de meeste gevallen, wordt elke update eerst vrijgegeven aan het milieu van de Voorproef, dan incrementeel toegelaten in de milieu van de Productie voor een groeiende ondergroep klanten die op de vermelde de versiedatum van de Productie begint.
 
-Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product [&#128279;](/help/quicksilver/product-announcements/product-releases/product-releases.md).
+Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product ](/help/quicksilver/product-announcements/product-releases/product-releases.md).[
 
 ## Beheer en installatie
 
-<!--### Look and feel updates for the Update Feeds section of Setup 
+### Updates voor de sectie feeds bijwerken van Setup weergeven en weergeven
 
-**Preview: June 26, 2025; Production for everyone: July 10, 2025**  
+**Voorproef: 27 juni, 2025; Productie voor iedereen: 10 juli, 2025**
 
-We have updated the look and feel of all the tabs and subtabs in the Update Feeds section of Setup. The Update Feeds section displays under the Interface area of Setup. Now, all the tabs in the Update Feeds section match other areas of Workfront. 
+Wij hebben de blik en het gevoel van alle lusjes en subtabs in de sectie van de Doelen van de Update van Opstelling bijgewerkt. Het gedeelte feeds bijwerken wordt weergegeven onder het gebied Interface van Setup. Nu komen alle tabbladen in de sectie feeds bijwerken overeen met andere gebieden van Workfront.
 
-For information, see the articles in the [System-tracked update feeds](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md) section.-->
+Voor informatie, zie [ systeemupdates ](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md) vormen
 
+### Zoeken naar updates voor het vak Add fields in de sectie Update Feeds van Setup
 
-<!--### New look and feel of the lists in the Timesheets & Hours section in the Setup area
+**de versie van de Voorproef: 27 juni, 2025; de versie van de Productie: 10 juli, 2025**
 
-**Preview: June 26, 2025; Production for everyone: July 10, 2025**   
+We hebben de vormgeving van het vak Toevoegen in de sectie feeds bijwerken van Instellen bijgewerkt. Het gedeelte feeds bijwerken wordt weergegeven onder het gebied Interface van Setup. Wanneer u nu velden toevoegt op een subtabblad van het tabblad Bijgehouden velden, krijgt het vak Velden toevoegen een nieuw uiterlijk en zijn enkele interface-elementen bijgewerkt.
 
-We have updated the look and feel of the following lists in the Timesheets & Hours section in the Setup area:  
+Voor informatie, zie [ systeemupdates ](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md) vormen.
 
-* The list of Timesheet Profiles 
+### Nieuwe vormgeving van de lijsten in de sectie Timesheets &amp; Hours in het gedeelte Setup
 
-* The list of Hour Types 
+**Voorproef: 26 juni, 2025; Productie voor iedereen: 10 juli, 2025**
 
-These lists now match other areas of Workfront.  
+We hebben de vormgeving van de volgende lijsten in de sectie Timesheets &amp; Hours in het gedeelte Setup bijgewerkt:
 
- For information, see [Create, edit, and assign timesheet profiles](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).-->
+* De lijst met tijdlijnprofielen
 
+* De lijst van de Types van Uur
 
-<!--### Look and feel updates for the Add fields box in the Update Feeds section of Setup 
+Deze lijsten komen nu overeen met andere gebieden van Workfront.
 
-**Preview release: June 26, 2025; Production release: July 10, 2025** 
-
-We have updated the look and feel of the Add fields box in the Update Feeds section of Setup. The Update Feeds section displays under the Interface area of Setup. Now, when you add fields in any subtab of the Tracked Fields tab, the Add fields box has a new look and feel, and some of the interface elements have been updated.  
-
-For information, see [Configure system updates](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).-->
-
+Voor informatie, zie [ creeer, geef, en wijs timesheet profielen ](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md) uit.
 
 ### Interface-updates voor de pagina Companies
 

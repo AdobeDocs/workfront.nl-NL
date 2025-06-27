@@ -7,9 +7,9 @@ description: U kunt de kosten voor projecten, taken en problemen in Adobe Workfr
 author: Lisa
 feature: Work Management
 exl-id: df3090ae-9721-4e9b-84b4-315890619801
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: 23a5c90b9321b72a20f21752f957b3be0a9f3a02
 workflow-type: tm+mt
-source-wordcount: '2480'
+source-wordcount: '2499'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,11 @@ U kunt verschillende soorten kosten bijhouden voor taken en projecten in Workfro
     </tr> 
     <tr> 
      <td>Werkelijke loonkosten</td> 
-     <td> <p>Zij worden berekend met behulp van de volgende formule:</p><code>Actual Labor Costs = Actual Hours * Cost per Hour rate</code> </td> 
+     <td> <p>Zij worden berekend met behulp van de volgende formule:</p><code>Actual Labor Costs = Actual Hours * Cost per Hour rate</code> 
+     <p><strong> NOTA </strong>
+     <p>Workfront berekent de werkelijke loonkosten aan de hand van de oude werkelijke uren. Voor meer informatie, zie <a href="/help/quicksilver/manage-work/tasks/task-information/actual-hours.md"> Ware Uren van de Mening </a>. </p>
+
+  </td> 
     </tr> 
    </tbody> 
   </table>
@@ -150,7 +154,7 @@ Het uurtarief in de formule houdt rekening met eventuele effectieve wijzigingen 
 >[!NOTE]
 >
 >De werkelijke kosten van het project worden als volgt berekend:
->`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
+>>`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
 >
 >Deze kosten worden niet gedupliceerd in de berekening van de werkelijke kosten. Als bijvoorbeeld een vaste kostprijs deel uitmaakt van de werkelijke kosten van het project, wordt deze niet afzonderlijk toegevoegd aan de werkelijke kosten.
 
