@@ -6,9 +6,9 @@ description: U kunt extra fiatteurs of revisoren toevoegen aan een document dat 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: e20f1b70ffd6c94b302cea6e691337624db497ef
+source-git-commit: 9ede952041f89eca4ba324348880d7eb5f2bccd7
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ De verenigde goedkeuringen zijn een groots herontwerp van het bestaande goedkeur
 * Deelnemers aan documentgoedkeuring worden weergegeven in het overzicht van het document, niet op het tabblad voor de proefwerkstroom.
 * De verenigde goedkeuringen worden niet gesteund in het huidige rapporteringshulpmiddel.
 
-  U kunt zich bij de nieuwe bèta van de Dashboards van het Canvas aansluiten om [ een rapportdashboard voor overzicht en goedkeuringen ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) tot stand te brengen, of u kunt allen gebruiken goedkeurt widget beschikbaar in nieuwe Dashboards van het Huis en van het Canvas verstrekt de volgende details over Verenigde Goedkeuringen:
+  U kunt zich bij de nieuwe bèta van de Dashboards van het Canvas aansluiten om [ een rapportdashboard voor overzicht en goedkeuringen ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) tot stand te brengen, of u kunt de de goedkeuringsmetriek van het Document gebruiken beschikbaar in nieuwe Dashboards van het Huis en van het Canvas verstrekt de volgende details over Verenigde Goedkeuringen:
 
    * Goedkeuring bij besluit
    * Gemiddelde goedkeuringstijd
