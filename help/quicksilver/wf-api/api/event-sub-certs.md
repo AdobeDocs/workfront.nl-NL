@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 3606b6c3-b373-47ea-9cb5-813bd3af8da7
-source-git-commit: f409bc84360d92f1b952b594720d5e4aea1fc354
+source-git-commit: 0c9cbf094ec1b3d5f48a0e4b700b9554925199e1
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -31,10 +31,12 @@ Sandbox 2
 
 Met client-TLS kunt u controleren of het abonnementsbericht voor gebeurtenissen dat u ontvangt, daadwerkelijk afkomstig is van Adobe Workfront. Om deze functionaliteit in te schakelen, moet uw server zijn geconfigureerd om een Workfront x509-certificaat aan te vragen en te valideren.
 
+<!--
 >[!NOTE]
 >
->* Workfront biedt momenteel standaard ondersteuning voor TLS versie 1.2.
->* Organisaties kunnen vragen dat TLS versie 1.3 wordt ingeschakeld voor hun Workfront-exemplaar.
+>* Workfront currently supports TLS version 1.2 by default.
+>* Organizations can request that TLS version 1.3 be enabled for their Workfront instance.
+-->
 
 
 ## Workfront-clientcertificaat verifiëren
