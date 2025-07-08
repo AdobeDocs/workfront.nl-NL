@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
-source-git-commit: 9808596e561ef30cc0edf5006f5ac2f190ed64f5
+source-git-commit: 69677755d3e2f018169461683caf5750fba4fde0
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,12 @@ Op deze pagina worden alle Home-verbeteringen beschreven die zijn aangebracht me
 Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwartaal 2025 versiecyclus, zie [ Derde Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
 
 ## Alle widget Goedkeuring hernoemd naar cijfers voor Documentgoedkeuring
+
+>[!NOTE]
+>
+>* Voorbeeld: 30 juni 2025
+>* Snelle productie: 30 juni 2025
+>* Productie voor alle afnemers: 30 juni 2025
 
 De naam van de widget Alle goedkeuringen is gewijzigd in Goedkeuringswaarden document om de weergegeven informatie nauwkeuriger weer te geven. De widget Metriek voor documentgoedkeuring biedt op hoog niveau inzicht in documentgoedkeuringen voor de projecten die u bezit.
 
