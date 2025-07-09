@@ -7,9 +7,9 @@ description: U kunt  [!DNL Adobe Workfront]  met derdetoepassingen integreren. D
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: af54faae1e78d7ffbe679fd82dfb5a3abd45f5cf
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ De volgende ingebouwde integraties zijn momenteel beschikbaar in Workfront.
      <li>After Effects </li>
      </ul>
      <li><p>Download/installeer van <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref"> Adobe Exchange </a>.</p></li></ul>
-     <p>Voor informatie en instructies, zie <a href="https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref"> de [!DNL Adobe Workfront] stop voor [!DNL Creative Cloud] Toepassingen </a> installeren.</p> </td> 
+     <p>Voor informatie en instructies, zie <a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref"> de [!DNL Adobe Workfront] stop voor [!DNL Creative Cloud] Toepassingen </a> installeren.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Adobe Experience Manager Assets en Elementen </p>  </p> </td> 
@@ -95,13 +95,13 @@ De volgende ingebouwde integraties zijn momenteel beschikbaar in Workfront.
      <li>Updates en statussen van gekoppelde taken synchroniseren tussen [!DNL Workfront] en [!DNL Jira] </li> 
     </ul> </td> 
   </tr> 
-  <tr> 
-   <td role="rowheader">Microsoft-kalenders (Office 365 / Outlook Live)</td> 
+  <!--<tr> 
+   <td role="rowheader">Microsoft Calendars (Office 365 / Outlook Live)</td> 
    <td> 
     <ul> 
-     <li> <p>Integreer met een Web-based versie van Vooruitzichten in wolk-ontvangen Bureau 365 of Vooruitzichten Live. </p>
+     <li> <p>Integrate with a web-based version of Outlook in cloud-hosted Office 365 or Outlook Live. </p>
     </ul> </td> 
-  </tr> 
+  </tr>-->
   <tr> 
    <td role="rowheader"> <p>Microsoft OneDrive</p> <p> <img src="assets/microsoft-onedrive.png"> </p> </td> 
    <td> 
@@ -109,16 +109,16 @@ De volgende ingebouwde integraties zijn momenteel beschikbaar in Workfront.
      <li>Documenten en mappen koppelen aan [!DNL Workfront]</li> 
     </ul> </td> 
   </tr> 
-  <tr> 
+  <!--<tr> 
    <td role="rowheader"> <p>Microsoft Outlook</p> <p> <img src="assets/outlook.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>Een bestaand project/taak/probleem bijwerken met gegevens uit een e-mail </li> 
-     <li>E-mails direct vanuit je postvak converteren naar [!DNL Workfront] items </li> 
-     <li>Nieuwe taken maken op basis van een e-mail </li> 
-     <li>Opmerkingen maken over [!DNL Workfront] items </li> 
+     <li>Update an existing project/task/issue with info from an email </li> 
+     <li>Convert emails into [!DNL Workfront] items right from your inbox </li> 
+     <li>Create new tasks from an email </li> 
+     <li>Comment on [!DNL Workfront] items </li> 
     </ul> </td> 
-  </tr> 
+  </tr> -->
   <tr> 
    <td role="rowheader"> <p>Microsoft Teams</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p><b> NOTA </b>: Vanaf 1 Juli, 2025, zal Microsoft steun voor de Klassieke Desktop app van Teams verwijderen. Als gevolg hiervan wordt de Workfront-integratie met Microsoft Teams niet ondersteund als de desktop-app voor Klassieke teams niet meer beschikbaar is. </p> </td> 
    <td> 
