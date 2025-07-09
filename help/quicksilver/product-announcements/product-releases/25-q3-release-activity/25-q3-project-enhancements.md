@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: f02a07c0bc4568d7e0fa25ca6e880024423527b7
+source-git-commit: d950346c549d22c7a8db82ce032caa24202f9126
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '881'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,23 @@ ht-degree: 0%
 Op deze pagina worden de projectverbeteringen beschreven die zijn aangebracht met de release van het derde kwartaal van 2025 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwartaal 2025 versiecyclus, zie [ Derde Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
+
+## Updates voor het indienen van een aanvraag
+
+>[!NOTE]
+>
+>* Voorbeeld: 9 juli 2025
+>* Snelle productie: 17 juli 2025
+>* Productie voor alle afnemers: 17 juli 2025
+
+We hebben de ervaring bijgewerkt bij het indienen van een aanvraag in de nieuwe ervaring voor aanvragen.
+
+* De beschikbare aanvraagformulieren en paden worden in een lijst weergegeven in plaats van op kaarten. De meest recente tekst wordt weergegeven in een sectie boven aan het scherm.
+* Alle aanvraagformulieren, inclusief formulieren voor Workfront- en Workfront-planningsverzoeken, worden weergegeven in de lijst. Eerder verscheen alleen de eerste 50.
+* De verzoekwegen en de vormen van het Verzoek zijn vermeld in afzonderlijke secties, zowel in het Recente gebied als in de grotere hieronder lijst.
+* Wanneer u naar een aanvraagwachtrij zoekt, worden in de lijst alleen formulieren en paden weergegeven die de zoekterm bevatten. De zoekterm wordt gemarkeerd in elk weergegeven aanvraagformulier of -pad.
+
+Voor informatie bij het doen van een verzoek, zie [ verzoeken ](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
 
 ## Het veld Bestaande werkelijke uren is vervangen door het veld Oudere werkelijke uren en het nieuwe veld Werkelijke uren is gemaakt
 
@@ -37,12 +54,12 @@ Het veld Werkelijke uren dat zichtbaar is in het project, de sectie Taken en de 
 >[!IMPORTANT]
 >
 >Afhankelijk van wanneer de uren werden geregistreerd, zou er een discrepantie tussen Werkelijke Uren en Echte Werkelijke Uren voor een project, een taak, of een kwestie kunnen zijn.<br>
->&#x200B;>De volgende scenario&#39;s bestaan:
+>>De volgende scenario&#39;s bestaan:
 >
 >* Werkelijke uren vertegenwoordigen uren die sinds mei 2021 voor projecten, taken en kwesties zijn geregistreerd.
 >* De oudere Werkelijke uren vertegenwoordigen uren die voor projecten, taken en kwesties voor het leven van het project, de taak, of de kwestie worden geregistreerd. Dit omvat uren die vóór Mei 2021 tot de huidige tijd worden geregistreerd.
->  &#x200B;><br>Mogelijk moet u uw rapporten bijwerken met het nieuwe veld en de bijbehorende waarden.
->  &#x200B;><br>Workfront gebruikt Legacy Actual Hours om de werkelijke loonkosten te berekenen.
+>  ><br>Mogelijk moet u uw rapporten bijwerken met het nieuwe veld en de bijbehorende waarden.
+>  ><br>Workfront gebruikt Legacy Actual Hours om de werkelijke loonkosten te berekenen.
 
 Voor informatie, zie [ Ware Uren van de Mening ](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 
@@ -96,3 +113,5 @@ Om duidelijker te maken hoe AI Assistant antwoorden zoekt op vragen over Workfro
 Eerder was deze informatie niet beschikbaar in het antwoord van de AI Assistant.
 
 Voor informatie over het gebruiken van AI Medewerker om informatie over de punten van Workfront te krijgen, zie [ Medewerker van het Gebruik AI om met projecten, taken, en kwesties ](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md) te werken.
+
+
