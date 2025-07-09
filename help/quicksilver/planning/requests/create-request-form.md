@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 8e9d9c9489d43917386e581ac9834fbb65b33d25
 workflow-type: tm+mt
-source-wordcount: '2087'
+source-wordcount: '2166'
 ht-degree: 0%
 
 ---
@@ -241,7 +241,7 @@ Voor informatie over het voorleggen van de verzoeken van de Planning van Workfro
 
    ![ doos van het Aandeel voor aanvraagvorm ](assets/share-box-for-request-form.png)
 
-1. Selecteer een van de volgende opties om aan te geven welke typen gebruikers toegang hebben tot dit formulier:
+1. (Voorwaardelijk) Selecteer in de productieomgeving een van de volgende opties om aan te geven welke typen gebruikers toegang hebben tot dit formulier:
 
    * Iedereen met weergave of hogere toegang tot de werkruimte
    * Iedereen met een hogere of hogere toegang tot de werkruimte
@@ -257,7 +257,7 @@ Voor informatie over het voorleggen van de verzoeken van de Planning van Workfro
    >     * Mensen
    >
 
-1. (Voorwaardelijk) als u **Iedereen met de verbinding** in de vorige stap selecteerde, selecteer de **vervaldatum van de Verbinding** van de beschikbare kalender.
+1. (Voorwaardelijk) in het productiemilieu, als u **Iedereen met de verbinding** in de vorige stap selecteerde, selecteer de **vervaldatum van de Verbinding** van de beschikbare kalender.
 
    Personen ontvangen een fout nadat de koppeling is verlopen en u moet de datum van de koppeling bijwerken en een nieuwe koppeling genereren om te delen voordat ze het formulier weer kunnen openen.
 
@@ -267,14 +267,15 @@ Voor informatie over het voorleggen van de verzoeken van de Planning van Workfro
    >
    >Nadat de datum voor delen is verlopen, is het aanvraagformulier niet meer beschikbaar in het gedeelte Aanvragen van Workfront en zijn de koppelingen die met andere gebruikers worden gedeeld, niet meer toegankelijk.
 
-
-1. (Facultatief) klik **sparen en kopieer verbinding** om het delen details voor de vorm te bewaren. Als de vorm eerder werd bewaard, klik **verbinding van het Exemplaar**.
+1. (Facultatief en voorwaardelijk) in het productiemilieu, klik **sparen en kopieer verbinding** om de het delen details voor de vorm te bewaren. Als de vorm eerder werd bewaard, klik **verbinding van het Exemplaar**.
 
    De opties voor het delen van formulieren worden opgeslagen en de koppeling wordt naar het klembord gekopieerd. U kunt deze nu delen met anderen.
 
    Voor informatie over het creëren van verslagen die een verbinding aan een verzoekvorm gebruiken, zie [ verzoeken van de Planning van Adobe Workfront voorleggen ](/help/quicksilver/planning/requests/submit-requests.md).
 
-1. Klik **sparen** in de laag-juiste hoek van het **3&rbrace; lusje van de Vorm &lbrace;om de vorm te bewaren.**
+1. <span class="preview"> (Voorwaardelijk) Selecteer in de voorvertoningsomgeving het tabblad Intern delen, zoek naar de naam van de gebruiker en selecteer dit tabblad wanneer het wordt weergegeven in de lijst om het tabblad te delen. </span>
+1. <span class="preview"> (Voorwaardelijk) Als u in de voorvertoningsomgeving een openbare koppeling wilt maken, selecteert u het tabblad Openbaar delen en schakelt u vervolgens de optie Openbare koppeling maken in of uit. U kunt de verbinding hier dan kopiëren, of een datum van de verbindingsvervaldatum plaatsen.</span>
+1. Klik **sparen** in de laag-juiste hoek van het **3} lusje van de Vorm {om de vorm te bewaren.**
 
 1. Klik op de pijl die naar links wijst links van de naam van het formulier in de koptekst om het formulier te sluiten.
 
