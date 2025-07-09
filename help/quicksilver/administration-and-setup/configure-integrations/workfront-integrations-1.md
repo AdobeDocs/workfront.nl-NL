@@ -113,7 +113,7 @@ Wij begrijpen dat de beschikbare ingebouwde (native) integratie mogelijk niet aa
      <li>After Effects </li>
      </ul>
      <li><p>Download/installeer van <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref"> Adobe Exchange </a>.</p></li></ul>
-     <p>Voor informatie en instructies, zie <a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref"> de [!DNL Adobe Workfront] stop voor [!DNL Creative Cloud] Toepassingen </a> installeren</p> 
+     <p>Voor informatie en instructies, zie <a href="https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref"> de [!DNL Adobe Workfront] stop voor [!DNL Creative Cloud] Toepassingen </a> installeren</p> 
      </td>  <td> </td> 
    <td> </td> 
   </tr> 
@@ -320,7 +320,7 @@ Met [!DNL Workfront] kunt u andere ingebouwde integraties en geïntegreerde prod
 
   [!DNL Adobe Workfront Fusion] koppelt handelingen binnen en tussen apps en services om een scenario te maken dat uw gegevens automatisch overdraagt en transformeert. De toepassing heeft specifieke connectors voor veel apps, maar kan verbinding maken met elke toepassing met een openbare API.
 
-  Voor meer informatie, zie [[!DNL Adobe Workfront Fusion]  overzicht ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+  Voor meer informatie, zie [[!DNL Adobe Workfront Fusion]  overzicht ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 * [!DNL Adobe Experience Manager Assets]
 * [!DNL Anaplan] (Vereist [!DNL Workfront Fusion])
