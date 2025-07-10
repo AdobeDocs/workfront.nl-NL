@@ -6,9 +6,9 @@ description: U kunt extra fiatteurs of revisoren toevoegen aan een document dat 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 9ede952041f89eca4ba324348880d7eb5f2bccd7
+source-git-commit: 10efc850b4951c3ad1a7086d3ec087d848dde96e
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 >
 >De inhoud van dit artikel verwijst naar de functionaliteit voor bijgewerkte documentgoedkeuring die alleen beschikbaar is voor specifieke accounts. Voor informatie over standaardgoedkeuringsprocessen, zie de artikelen die in [ worden vermeld goedkeuringen van het Werk ](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
-De verenigde goedkeuringen zijn een groots herontwerp van het bestaande goedkeuringsproces dat momenteel voor Adobe Workfront in ontwikkeling is. Momenteel beschikbaar in beperkte versie, is het ontworpen om een praktische en efficiënte oplossing voor ondernemingen te zijn die uitvoerige betrokkenheid van belanghebbenden en versie-specifieke documentgoedkeuringen vereisen. Het doordachte ontwerp en de doelgerichte nieuwe functies vergemakkelijken samenwerking, rolduidelijkheid en versiecontrole in het goedkeuringsproces, waardoor de efficiëntie en de verantwoordingsplicht worden verbeterd.
+De verenigde goedkeuringen, die eerder als Nieuwe Goedkeuringen van het Document worden bedoeld, zijn een groots herontwerp van het bestaande goedkeuringsproces dat momenteel in ontwikkeling voor Adobe Workfront is. Momenteel beschikbaar in beperkte versie, is het ontworpen om een praktische en efficiënte oplossing voor ondernemingen te zijn die uitvoerige betrokkenheid van belanghebbenden en versie-specifieke documentgoedkeuringen vereisen. Het doordachte ontwerp en de doelgerichte nieuwe functies vergemakkelijken samenwerking, rolduidelijkheid en versiecontrole in het goedkeuringsproces, waardoor de efficiëntie en de verantwoordingsplicht worden verbeterd.
 
 ## Belangrijke verschillen van proefdrukken en goedkeuring van oudere documenten
 

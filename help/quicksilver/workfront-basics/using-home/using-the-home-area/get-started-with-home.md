@@ -6,7 +6,7 @@ description: Met Home kunt u uw werk beheren. U kunt deze flexibele ruimte aanpa
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 9ede952041f89eca4ba324348880d7eb5f2bccd7
+source-git-commit: 10efc850b4951c3ad1a7086d3ec087d848dde96e
 workflow-type: tm+mt
 source-wordcount: '1010'
 ht-degree: 0%
@@ -62,7 +62,7 @@ Hieronder vindt u een overzicht van de 11 widgets die u momenteel kunt kiezen, e
     Toont al uw hangende, toegewezen, gedelegeerde en verzonden goedkeuringen; een knoop om goedkeuringen te delegeren; en knopen om goedkeuringsbesluiten direct binnen widget te nemen.
 
 * **metriek van de Goedkeuring van het Document**\
-        Toont 2 grafieken met informatie over gemiddelde tijd en besluiten van de documentgoedkeuring evenals lijstmeningen van hangende en achterstallige goedkeuringen. U moet Verenigde Goedkeuringen hebben die worden toegelaten om deze widget te gebruiken.
+        Toont 2 grafieken met informatie over gemiddelde tijd en besluiten van de documentgoedkeuring evenals lijstmeningen van hangende en achterstallige goedkeuringen. U moet [ Verenigde Goedkeuringen ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md) hebben die worden toegelaten om deze widget te gebruiken.
 
 * **Vermeldingen**\
     Geeft recente commentaarthreads van over Workfront weer, vergelijkbaar met de pagina Mijn updates. U kunt de antwoordknoop gebruiken om een antwoord binnen widget samen te stellen. Deze widget bevat ook opmerkingen over taken en problemen die u hebt toegewezen, die u hebt toegewezen aan een andere gebruiker, die u hebt, waarop u primair contact hebt gemaakt of die u hebt gemaakt, zolang de taak of uitgave in de afgelopen 30 dagen is bijgewerkt.
@@ -138,7 +138,7 @@ U kunt een beetje persoonlijke flakkering aan uw Homepage toevoegen door een kle
 
 1. Ga naar uw startpagina door een van de volgende handelingen uit te voeren:
 
-   * Als het Huis als uw het landen pagina wordt geplaatst, klik het **pictogram van Adobe Workfront ![ het Pictogram van Adobe Workfront ](assets/home-icon-30x29.png) in de upper-left hoek van uw scherm.**
+   * Als het Huis als uw het landen pagina wordt geplaatst, klik het **pictogram van Adobe Workfront** het Pictogram van Adobe Workfront ![ in de upper-left hoek van uw scherm.](assets/home-icon-30x29.png)
    * Klik het **Belangrijkste pictogram van het Menu** in de hoger-juiste hoek van het scherm, of het **Belangrijkste pictogram van het Menu** pictogram van het Menu ![ Hoofd ](assets/main-menu-icon.png) in de upper-left hoek, als beschikbaar, dan klik **Huis**.
 
 1. Klik **aanpassen** bij de hoger-juiste hoek van het scherm.

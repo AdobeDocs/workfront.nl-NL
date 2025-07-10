@@ -6,9 +6,9 @@ description: U kunt kiezen uit een aantal widgets om de inhoud aan te passen die
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 81f32dfe-cde0-4e61-a542-9b99a18a3953
-source-git-commit: c1f5e11c6327ef86bd3f89eb383b3bf06bd4981f
+source-git-commit: 10efc850b4951c3ad1a7086d3ec087d848dde96e
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1098'
 ht-degree: 0%
 
 ---
@@ -121,8 +121,8 @@ Een widget toevoegen:
    * **Mijn goedkeuringen**\
        Toont al uw in behandeling zijnde toegewezen of gedelegeerde goedkeuringen, een knoop om goedkeuringen te delegeren, en knopen om goedkeuringsbesluiten direct binnen widget te nemen.
 
-   * **Alle goedkeuringen**\
-           Toont 2 grafieken met informatie over gemiddelde goedkeuringstijd en besluiten evenals lijstmeningen van hangende en achterstallige goedkeuringen. <span style="color: #ff0000;"> deze eigenschap maakt deel uit van een gefaseerde versie en is momenteel slechts beschikbaar voor specifieke klanten.</span>
+   * **metriek van de Goedkeuring van het Document**\
+           Toont 2 grafieken met informatie over gemiddelde goedkeuringstijd en besluiten evenals lijstmeningen van hangende en achterstallige goedkeuringen. U moet [ Verenigde Goedkeuringen ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md) hebben die worden toegelaten om deze widget te gebruiken.
 
    * **Vermeldingen**\
        Geeft recente commentaarthreads van over Workfront weer, vergelijkbaar met de pagina Mijn updates. U kunt de antwoordknoop gebruiken om een antwoord binnen widget samen te stellen. Deze widget bevat ook opmerkingen over taken en problemen die u hebt toegewezen, die u hebt toegewezen aan een andere gebruiker, die u hebt, waarop u primair contact hebt gemaakt of die u hebt gemaakt, zolang de taak of uitgave in de afgelopen 30 dagen is bijgewerkt.
