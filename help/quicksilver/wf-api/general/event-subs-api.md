@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: d41bb7beb4879bcef224b0234b1c024eb16c9bd6
+source-git-commit: 5b984451d19ed0381c75c4fa19f3eba16804fbf5
 workflow-type: tm+mt
-source-wordcount: '2647'
+source-wordcount: '2666'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 0%
 -->
 
 Wanneer een actie op een voorwerp van Adobe Workfront voorkomt dat door gebeurtenisabonnementen wordt gesteund, kunt u Workfront vormen om een reactie naar uw gewenste eindpunt te verzenden. Dit betekent dat toepassingen van derden updates van Workfront-interacties kunnen ontvangen via de Workfront API kort nadat ze zich voordoen. Over het algemeen kunt u verwachten dat u binnen 5 seconden vanaf het moment dat de gegevenswijziging wordt geregistreerd, webhaakmeldingen ontvangt. Gemiddeld ontvangen klanten binnen minder dan 1 seconde berichten via een webhaak vanaf de gegevenswijziging die wordt geregistreerd.
+
+Aangezien gebeurtenisabonnementen gegevens naar een andere service verzenden, worden ze beheerd via opdrachten in plaats van via de Workfront-toepassing.
 
 Als u via uw firewall gebeurtenisabonnementen wilt ontvangen, moet u de volgende IP-adressen aan uw lijst van gewenste personen toevoegen:
 
@@ -75,7 +77,7 @@ De volgende Workfront-objecten worden ondersteund door gebeurtenisabonnementen.
 * Gebruiker
 * Workspace
 
-Voor een lijst van gebieden die door de voorwerpen van het gebeurtenisabonnement worden gesteund, zie &lbrace;de gebieden van het het abonnementsmiddel van de Gebeurtenis [&#128279;](../../wf-api/api/event-sub-resource-fields.md).
+Voor een lijst van gebieden die door de voorwerpen van het gebeurtenisabonnement worden gesteund, zie {de gebieden van het het abonnementsmiddel van de Gebeurtenis [.](../../wf-api/api/event-sub-resource-fields.md)
 
 ## Verificatie van abonnement op gebeurtenis
 
@@ -808,7 +810,7 @@ Met deze connector wordt het filter toegepast op de nieuwe status of oude status
 >[!NOTE]
 >
 >Het abonnement hieronder met het opgegeven filter retourneert alleen berichten waarin de naam van de taak `again` bevat op de `oldState` -taak, wat deze was voordat een update op de taak werd uitgevoerd.
->&#x200B;>Een gebruiksgeval voor dit zou zijn om de objCode- berichten te vinden die van één ding aan een ander veranderden. Bijvoorbeeld om alle taken te weten te komen die van &quot;Onderzoek één of andere naam&quot;in &quot;Onderzoek TeamName Één of andere naam&quot;veranderde
+>>Een gebruiksgeval voor dit zou zijn om de objCode- berichten te vinden die van één ding aan een ander veranderden. Bijvoorbeeld om alle taken te weten te komen die van &quot;Onderzoek één of andere naam&quot;in &quot;Onderzoek TeamName Één of andere naam&quot;veranderde
 
 ```
 {
