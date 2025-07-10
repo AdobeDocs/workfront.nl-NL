@@ -185,13 +185,13 @@ U kunt van een subgroep een groep op hoofdniveau maken door deze uit de bovenlig
 >[!TIP]
 >
 >Wanneer u een groep deactiveert die onderliggende subgroepen heeft, worden deze subgroepen ook inactief. Als u wilt dat een van deze besturingselementen actief is, kunt u deze instructies gebruiken om het onderdeel uit de bovenliggende groep te verwijderen en vervolgens opnieuw te activeren.
->>Voor instructies bij het deactiveren en het opnieuw activeren van groepen, zie [ een groep ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md) deactiveren of reactiveren.
+>&#x200B;>Voor instructies bij het deactiveren en het opnieuw activeren van groepen, zie [ een groep ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md) deactiveren of reactiveren.
 
 {{step-1-to-setup}}
 
 1. In het linkerpaneel, klik **Groepen** ![ Groepen ](assets/groups-icon.png).
 1. Selecteer de oudergroep van subgroep u een top-level groep wilt maken, dan klik **uitgeven** pictogram ![ uitgeven pictogram ](assets/edit-icon.png).
-1. In **geef groep** doos uit die verschijnt, begin de naam van subgroup die u een top-level groep in het **3} gebied van het Onderzoek {onder** Groep leden en de beheerders van de Groep **wilt maken, dan klik X aan het recht van zijn naam het wanneer het verschijnt.**
+1. In **geef groep** doos uit die verschijnt, begin de naam van subgroup die u een top-level groep in het **3&rbrace; gebied van het Onderzoek &lbrace;onder** Groep leden en de beheerders van de Groep **wilt maken, dan klik X aan het recht van zijn naam het wanneer het verschijnt.**
 1. Klik **sparen**.
 
 ## Een subgroep verwijderen
