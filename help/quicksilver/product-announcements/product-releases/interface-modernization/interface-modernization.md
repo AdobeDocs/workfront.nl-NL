@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 1b9f18f51d6b83e0522fb1ff95d5d135cef547ec
+source-git-commit: 0e519e9d5cb5bbc5052448d399b9cf54e4ed2766
 workflow-type: tm+mt
-source-wordcount: '5088'
+source-wordcount: '5164'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,19 @@ Deze pagina bevat een overzicht van de interface-updates die we in Adobe Workfro
 >
 >In de meeste gevallen, wordt elke update eerst vrijgegeven aan het milieu van de Voorproef, dan incrementeel toegelaten in de milieu van de Productie voor een groeiende ondergroep klanten die op de vermelde de versiedatum van de Productie begint.
 
-Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product [&#128279;](/help/quicksilver/product-announcements/product-releases/product-releases.md).
+Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product [.](/help/quicksilver/product-announcements/product-releases/product-releases.md)
 
 ## Beheer en installatie
+
+### Interface-updates voor subgroepdialoogvensters
+
+**de versie van de Voorproef: 10 Juli, 2025; De versie van de productie: 17 juli, 2025**
+
+We hebben de dialoogvensters bijgewerkt voor het toevoegen van een subgroep, het bewerken van een subgroep en het kopiëren van een subgroep, zodat deze overeenkomen met andere gebieden van de toepassing.
+
+Ga naar Instellingen > Groepen > Selecteer een groep > Subgroepen om deze wijzigingen weer te geven. (De dialoogvensters voor het toevoegen, bewerken en kopiëren van een subgroep uit de hoofdlijst met groepen zijn al bijgewerkt.)
+
+Voor informatie, zie [ een subgroep ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md) creëren en [ leiden een subgroep ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
 
 ### Updates voor de sectie feeds bijwerken van Setup weergeven en weergeven
 
