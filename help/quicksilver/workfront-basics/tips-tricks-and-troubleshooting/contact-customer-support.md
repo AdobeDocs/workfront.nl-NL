@@ -85,7 +85,7 @@ U kunt een ondersteuningsticket verzenden via de portal voor zelfbediening [!DNL
 >Alleen geoorloofde supportcontactpersonen (of gebruikers met een ondersteuningsbevoegdheid) kunnen online ondersteuningstickets indienen.
 
 
-1. Klik op de [[!DNL Experience League] ](https://experienceleague.adobe.com) -website **[!UICONTROL Support]** boven aan de pagina.
+1. Klik op de [[!DNL Experience League] ](https://experienceleague.adobe.com/nl) -website **[!UICONTROL Support]** boven aan de pagina.
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
