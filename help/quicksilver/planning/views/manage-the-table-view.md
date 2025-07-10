@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
+source-git-commit: 4fafdcea97874e791104260375617e3989af1870
 workflow-type: tm+mt
-source-wordcount: '3720'
+source-wordcount: '3758'
 ht-degree: 0%
 
 ---
@@ -201,7 +201,7 @@ U kunt maximaal 500 velden (of kolommen) toevoegen aan een tabelweergave.
 
 1. Ga als volgt te werk om snel records te zoeken die overeenkomen met een trefwoord:
 
-   1. Klik het **pictogram van het Onderzoek ![ pictogram van het 1&rbrace; Onderzoek ](assets/search-icon.png) en begin een sleutelwoord verbonden aan om het even welk gebied van een verslag te typen dat op het scherm toont.** Het aantal juiste overeenkomsten wordt weergegeven naast het zoekitem en het veld met de juiste overeenkomst wordt gemarkeerd.
+   1. Klik het **pictogram van het Onderzoek** pictogram van het 1} Onderzoek ![ en begin een sleutelwoord verbonden aan om het even welk gebied van een verslag te typen dat op het scherm toont. ](assets/search-icon.png) Het aantal juiste overeenkomsten wordt weergegeven naast het zoekitem en het veld met de juiste overeenkomst wordt gemarkeerd.
 
       ![ vakje van het Onderzoek met resultaten blauw overzicht in lijstmening ](assets/search-box-with-results-blue-outline-table-view.png)
 
@@ -228,11 +228,11 @@ U kunt tot 50.000 verslagen (of rijen) voor recordtypeS hebben.
 
    De records die u in de tabelweergave toevoegt, worden direct opgeslagen en zijn zichtbaar voor alle gebruikers met de machtiging Weergave of hoger voor de werkruimte.
 
-1. (Facultatief) voeg een duimnagel aan elk verslag toe, en klik **Gebieden** in de hoger-juiste hoek van de lijst, dan selecteren de knevel voor het **3&rbrace; gebied van de Duimnagel &lbrace;om het links van het primaire gebied te tonen.** Deze optie is standaard uitgeschakeld.
+1. (Facultatief) voeg een duimnagel aan elk verslag toe, en klik **Gebieden** in de hoger-juiste hoek van de lijst, dan selecteren de knevel voor het **3} gebied van de Duimnagel {om het links van het primaire gebied te tonen.** Deze optie is standaard uitgeschakeld.
 
    Voor informatie, zie [ een duimnagel aan een verslag ](/help/quicksilver/planning/records/add-thumbnails-to-records.md) toevoegen.
 
-1. (Facultatief) selecteer één of veelvoudige verslagen in een rij, dan belemmering en laat vallen het **pictogram van de handvat ![ handvat ](assets/handle-icon.png) links van het verslag om de rijen opnieuw in orde te brengen.**
+1. (Facultatief) selecteer één of veelvoudige verslagen in een rij, dan belemmering en laat vallen het **pictogram van de handvat** handvat ![ links van het verslag om de rijen opnieuw in orde te brengen.](assets/handle-icon.png)
 
    >[!NOTE]
    >
@@ -392,7 +392,7 @@ Houd rekening met het volgende wanneer u records in de tabelweergave sorteert:
 Ga als volgt te werk om <!--ungrouped (add this when sorting for groupings will be available--> records te sorteren:
 
 1. Creeer een lijstmening, zoals die in artikel [ wordt beschreven beheer verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md).
-1. Klik het **pictogram van de Soort ![ van de Soort ](assets/sort-icon.png) in de hoger-juiste hoek van de lijst**
+1. Klik het **pictogram van de Soort** van de Soort ![ in de hoger-juiste hoek van de lijst](assets/sort-icon.png)
 
    of
 
@@ -573,13 +573,20 @@ Houd rekening met het volgende wanneer u de tabelweergave exporteert:
 Informatie exporteren uit de tabelweergave of een recordtype:
 
 1. Ga naar een pagina met recordtypen en klik op een tabblad met tabelweergave.
-1. Beweeg over de naam van het lusje van de lijstmening, dan klik **Meer** menu ![ Meer menu ](assets/more-menu.png).
+1. Voer een van de volgende handelingen uit:
+
+   * Beweeg over de naam van het lusje van de lijstmening, dan klik **Meer** menu ![ Meer menu ](assets/more-menu.png) rechts van de meningsnaam, dan klik **Uitvoer**.
 
    ![ Meer menu op een mening ](assets/view-more-menu-with-duplicate-option.png)
-1. Klik **Uitvoer**, dan selecteer één van de volgende formaten:
 
-   * Excel
-   * CSV
+   * Klik **Aandeel** > **Uitvoer de huidige mening**. Deze optie is alleen beschikbaar wanneer u de tabelweergave weergeeft.
+
+   ![ knoop van het Aandeel met verslagtype en mening die opties delen ](assets/share-button-with-record-type-and-view-sharing-options.png)
+
+1. Selecteer een van de volgende indelingen:
+
+   * **Excel**
+   * **CSV**
 
    >[!IMPORTANT]
    >

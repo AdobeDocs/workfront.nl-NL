@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: e8e8e12bef55303c65894aa495f7554a9f1a811c
 workflow-type: tm+mt
-source-wordcount: '1653'
+source-wordcount: '1950'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,6 @@ U kunt een weergave met anderen delen om samenwerking te garanderen wanneer u we
 >
 >* Wanneer u een weergave deelt, geeft u anderen machtigingen om toegang te krijgen tot alle elementen van de weergave. Als u ze bijvoorbeeld de machtiging Beheren geeft aan een weergave, kunnen ze de weergave van de groepering, het filter, de sortering of de balk wijzigen.
 
-
-U kunt een weergave delen met de volgende entiteiten:
-
-* Intern, met gebruikers, groepen, teams, bedrijven van Workfront, en baanrollen
-* Openbaar, met gebruikers buiten Workfront
 
 <!--
 This article describes how you can share a view with others. For information about requesting, granting, or denying permissions to a view, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md). -->
@@ -118,6 +113,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Overwegingen bij het delen van weergaven
 
+* U kunt een weergave op de volgende manieren delen:
+
+   * Intern, met gebruikers, groepen, teams, bedrijven van Workfront, en baanrollen
+   * Openbaar, met gebruikers buiten Workfront
+   * Door een koppeling naar een weergave te kopiëren en vervolgens te delen
+   * Door het naar Excel of een Csv- dossier uit te voeren. U kunt alleen de tabelweergave exporteren naar een bestand. Voor informatie, zie [ de lijstmening ](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
+
 * Voor algemene informatie over het delen van voorwerpen in de Planning van Workfront, zie ook [ Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront ](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 * U kunt weergave- of beheermachtigingen aan interne Workfront-gebruikers geven.
 
@@ -145,11 +147,17 @@ U kunt weergaven delen die u hebt gemaakt of weergaven waarop u beheerdersmachti
 
    Hierdoor wordt de pagina met recordtypen geopend.
 
-1. <span class="preview"> van het meningslusje, houd over de mening u **Meer** menu ![ Meer menu ](assets/more-menu.png) aan het recht van de meningsnaam delen en wilt klikken, dan **Aandeel**. </span>
+1. Van het meningslusje, <span class="preview"> doe één van het volgende:</span>
 
-   <span class="preview">![ Meer menu voor een mening ](assets/more-menu-for-views-expanded-with-share-option.png) </span>
+   * Beweeg over de lusjenaam van de mening u **Meer** menu ![ ](assets/more-menu.png) aan het recht van de meningsnaam delen en wilt klikken, dan **Aandeel** klikken.
 
-   Het **Interne delende** lusje zou door gebrek moeten worden geselecteerd.
+     ![ Meer menu voor een mening ](assets/more-menu-for-views-expanded-with-share-option.png)
+
+   * <span class="preview"> klik **Aandeel** > **Deel de huidige mening**</span>
+
+     <span class="preview">![ knoop van het Aandeel met verslagtype en mening die opties delen ](assets/share-button-with-record-type-and-view-sharing-options.png)</span>
+
+   De **mening van het Aandeel** doos opent en het **Interne het delen** lusje zou door gebrek moeten worden geselecteerd.
 
 1. (Facultatief) op **die toegang** gebied heeft, selecteer van de volgende opties:
 
@@ -174,7 +182,6 @@ U kunt weergaven delen die u hebt gemaakt of weergaven waarop u beheerdersmachti
 
      Systeembeheerders ontvangen altijd beheermachtigingen voor weergaven die met hen worden gedeeld.
 
-1. Klik **verbinding van het Exemplaar** om een verbinding aan de mening aan uw klembord te kopiëren.
 1. Klik **sparen**.
 
    De meningsupdates met een mensen pictogram ![ Mening die met anderen pictogram ](assets/view-shared-with-others-people-icon.png) wordt gedeeld om erop te wijzen dat de mening nu met andere gebruikers wordt gedeeld.
@@ -202,9 +209,14 @@ Een weergave openbaar delen in Workfront Planning:
 
    Hierdoor wordt de pagina met recordtypen geopend.
 
-1. <span class="preview"> van het meningslusje, houd over de mening u **Meer** menu ![ Meer menu ](assets/more-menu.png) aan het recht van de meningsnaam delen en wilt klikken, dan **Aandeel**. </span>
+1. Voer op het tabblad Weergave een van de volgende handelingen uit:
 
-   <span class="preview">![ Meer menu voor meningen die met aandeeloptie ](assets/more-menu-for-views-expanded-with-share-option.png)</span> worden uitgebreid
+   * Beweeg over de lusjenaam van de mening u **Meer** menu ![ ](assets/more-menu.png) aan het recht van de meningsnaam delen en wilt klikken, dan **Aandeel** klikken.
+
+   ![ Meer menu voor meningen die met aandeeloptie ](assets/more-menu-for-views-expanded-with-share-option.png) worden uitgebreid
+   * <span class="preview"> klik **Aandeel** > **Deel de huidige mening**</span>
+
+   De **mening van het Aandeel** doos opent.
 
 1. Klik **Openbaar het delen**.
 
@@ -214,7 +226,7 @@ Een weergave openbaar delen in Workfront Planning:
 
    Er wordt een koppeling beschikbaar. Dit is een openbare link. Als de koppeling wordt gedeeld, heeft iedereen met deze koppeling, dus ook mensen van buiten uw organisatie, toegang tot de pagina met recordtypen en kunnen records en velden op de pagina worden weergegeven.
 
-1. Klik de **pictogram van het 1&rbrace; verbinding van het Exemplaar ![ verbindingsmening van het Exemplaar ](assets/copy-link-view.png) om de verbinding aan uw klembord te kopiëren.**
+1. Klik de **pictogram van het 1} verbinding van het Exemplaar** verbindingsmening van het Exemplaar ![ om de verbinding aan uw klembord te kopiëren.](assets/copy-link-view.png)
 
 1. Voer manueel een datum in, of gebruik de kalender op het **gebied van de Vervaldatum van de Verbinding** om een vervaldatum voor de openbare verbinding te selecteren. De weergave van de recordpagina is na de geselecteerde datum niet toegankelijk.
 
@@ -229,6 +241,34 @@ Een weergave openbaar delen in Workfront Planning:
 
 1. (Optioneel) Plak de koppeling die u hebt gekopieerd naar een e-mail, chatbericht, document of Workfront-opmerking om deze met anderen te delen.
 
+## Een koppeling naar een weergave kopiëren
+
+U kunt een koppeling naar een weergave naar het klembord kopiëren en deze opnemen in een andere toepassing of deze delen met anderen.
+
+Om een verbinding aan een openbaar-gedeelde mening te kopiëren, zie de sectie [ toestemmingen van het Aandeel aan een mening openbaar ](#share-permissions-to-a-view-publicly) in dit artikel.
+
+In deze sectie wordt beschreven hoe u een weergave intern deelt.
+
+>[!IMPORTANT]
+>
+>U moet eerst de weergave met gebruikers delen voordat u de koppeling naar de weergave kunt delen. Anders kunt u de koppeling niet meer zien.
+
+
+{{step1-to-planning}}
+
+1. Open de werkruimte waarnaar u de koppeling wilt kopiëren en delen en klik vervolgens op een opnametype-kaart.
+
+   Hierdoor wordt de pagina met recordtypen geopend.
+
+1. Voer op het tabblad van een weergave een van de volgende handelingen uit:
+
+   * Beweeg over het lusje van de mening u **Meer** menu ![ ](assets/more-menu.png) aan het recht van de meningsnaam wilt delen en klikken, dan **Aandeel** > **verbinding van het Exemplaar** in de **mening van het Aandeel** doos.
+   * <span class="preview"> klik **Aandeel** > **Exemplaar de meningsverbinding**</span> > **verbinding van het Exemplaar** in de **mening van het Aandeel** doos.
+
+   Een koppeling naar de weergave wordt naar het klembord gekopieerd en u ontvangt een bevestiging onder aan het scherm.
+
+   U kunt de koppeling nu naar een andere toepassing plakken of naar anderen verzenden.
+
 ## Rechten verlenen aan een weergave vanuit een machtigingsverzoek
 
 Gebruikers die een koppeling openen naar een weergave waarvoor zij geen machtigingen hebben, kunnen machtigingen aanvragen voor de weergave. Alle gebruikers met de machtiging Beheren voor de weergave ontvangen de aanvraag voor machtigingen en kunnen de machtigingen verlenen of weigeren.
@@ -236,10 +276,8 @@ Gebruikers die een koppeling openen naar een weergave waarvoor zij geen machtigi
 1. (Voorwaardelijk) Als u de manager van een mening bent, zou u een verzoek van een andere gebruiker kunnen ontvangen om tot de mening op de volgende gebieden toegang te hebben:
 
    * Een melding in de app
-
      ![ In-app bericht voor toegangsverzoek voor mening ](assets/in-app-notification-for-access-request-for-view.png)
    * Een e-mailmelding
-
      ![ In-app bericht voor toegangsverzoek voor mening ](assets/in-app-notification-for-access-request-for-view.png)
 1. (Voorwaardelijk) Klik in het systeemvak in Workfront op de melding in de app.
 of
@@ -261,7 +299,13 @@ Van het e-mailbericht, klik **Mening alle berichten**, dan klik het bericht in d
 {{step1-to-planning}}
 
 1. Open de werkruimte waarvan u de weergave niet meer wilt delen en klik op een opnametype-kaart. Hierdoor wordt de pagina met recordtypen geopend.
-1. Beweeg over de lusjenaam van de mening u het delen uit wilt verwijderen en **Meer** menu ![ ](assets/more-menu.png) klikken Meer menu, dan **Aandeel** klikken.
+1. Voer op het tabblad Weergave een van de volgende handelingen uit: <span class="preview"></span>
+
+   * Beweeg over de lusjenaam van de mening u **Meer** menu ![ ](assets/more-menu.png) aan het recht van de meningsnaam delen en wilt klikken, dan **Aandeel** klikken.
+
+   * <span class="preview"> klik **Aandeel** > **Deel de huidige mening**</span>
+
+   De **mening van het Aandeel** doos opent.
 1. Ga als volgt te werk om het interne delen van een weergave te verwijderen:
 
    1. Verzeker het **Interne delen** lusje wordt geselecteerd.

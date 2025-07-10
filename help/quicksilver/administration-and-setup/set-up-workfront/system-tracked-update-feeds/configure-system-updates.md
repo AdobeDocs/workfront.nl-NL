@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: 23a5c90b9321b72a20f21752f957b3be0a9f3a02
+source-git-commit: 4fafdcea97874e791104260375617e3989af1870
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '887'
 ht-degree: 0%
 
 ---
@@ -19,13 +19,15 @@ ht-degree: 0%
 
 <!-- Audited: 6/2025 -->
 
+<!--
+
 <div class="preview">
 
-De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Dezelfde functies zijn ook beschikbaar in de productieomgeving voor alle klanten na een week vanaf de release Preview.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
 
-Voor meer informatie, zie [ modernisering van de Interface ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
 
-</div>
+</div> -->
 
 [!DNL Adobe Workfront] genereert automatische systeemupdates in het [!UICONTROL Updates] -gebied van een object om de volgende gebeurtenissen op te nemen:
 
@@ -96,13 +98,13 @@ U kunt velden toevoegen die u in [!DNL Workfront] voor een bepaald type object w
 {{step-1-to-setup}}
 
 1. Klik in het deelvenster aan de linkerkant op **[!UICONTROL Interface]** en vervolgens op **[!UICONTROL Update Feeds]** .
-1. (Facultatief) op de <span class="preview">**Getraceerde gebieden** lusje </span>, klik één van de volgende subtabs, afhankelijk van welke types van gebieden u in de updatevervoer wilt volgen:
+1. (Facultatief) op de **Getraceerde gebieden** tabel, klik één van de volgende subtabs, afhankelijk van welke types van gebieden u in de updatevervoer wilt volgen:
 
-   * <span class="preview">**Ingebouwde gebieden**</span>: Toont een lijst van ingebouwde gebieden.
-   * <span class="preview">**de gebieden van de Douane**</span>: Toont een lijst van douanevelden. U moet aangepaste velden maken voordat deze beschikbaar zijn in de lijst.
-   * <span class="preview">**Alle gebieden**</span>: Toont een lijst van zowel ingebouwde als douanegebieden.
+   * **Ingebouwde gebieden**: Toont een lijst van ingebouwde gebieden.
+   * **de gebieden van de Douane**: Toont een lijst van douanevelden. U moet aangepaste velden maken voordat deze beschikbaar zijn in de lijst.
+   * **Alle gebieden**: Toont een lijst van zowel ingebouwde als douanegebieden.
 
-1. Klik <span class="preview">**[!UICONTROL Add fields]**, </span> dan selecteer het voorwerp dat u van drop-down wilt worden gevolgd.
+1. Klik op **[!UICONTROL Add fields]** en selecteer in het keuzemenu het object dat u wilt bijhouden.
 
    Het handmatig selecteren van velden is niet beschikbaar voor alle objecten met het gebied Updates.
 
@@ -115,16 +117,16 @@ U kunt velden toevoegen die u in [!DNL Workfront] voor een bepaald type object w
    * Programma
    * Gebruiker
 
-   <span class="preview">**voegt gebieden** </span> doos toe opent, voor elk geselecteerd voorwerp.
-1. In <span class="preview">**voeg gebieden** </span> doos toe, begin of een ingebouwd (standaard) gebied of een douanegebied voor het voorwerp te typen, dan het te selecteren wanneer het in de lijst verschijnt.
+   **voegt gebieden** doos toe opent, voor elk geselecteerd voorwerp.
+1. In **voeg gebieden** doos toe, begin of een ingebouwd (standaard) gebied of een douanegebied voor het voorwerp te typen, dan het te selecteren wanneer het in de lijst verschijnt.
 
    >[!NOTE]
    >
    >Als [!DNL Workfront] het veld al bijhoudt, kunt u het niet nogmaals toevoegen vanuit de lijst.
 
-1. Nadat u alle velden hebt toegevoegd die u in [!DNL Workfront] wilt bijhouden, klikt u op <span class="preview"> **[!UICONTROL Add]** .
+1. Nadat u alle velden hebt toegevoegd die u in [!DNL Workfront] wilt bijhouden, klikt u op **[!UICONTROL Add]** .
 De ingebouwde velden die u hebt toegevoegd, worden weergegeven onder de subtab **[!UICONTROL Built-in fields]** en de aangepaste velden onder de subtab **[!UICONTROL Custom fields]** .
-In de subtab **[!UICONTROL All fields]** worden zowel de ingebouwde als de aangepaste velden weergegeven die [!DNL Workfront] bijhoudt. </span>
+In de subtab **[!UICONTROL All fields]** worden zowel de ingebouwde als de aangepaste velden weergegeven die [!DNL Workfront] bijhoudt.
 
 ### Velden verwijderen die u niet wilt bijhouden {#remove-fields-you-don-t-want-tracked}
 
@@ -136,16 +138,7 @@ U kunt velden verwijderen die het systeem niet voor een bepaald type object hoef
 
 1. Selecteer op het tabblad **[!UICONTROL Tracked Fields]** de subtab **[!UICONTROL All fields]** . Zowel de ingebouwde als de aangepaste velden die momenteel worden bijgehouden, worden weergegeven.
 
-1. Selecteer het veld dat u wilt stoppen met bijhouden en klik op **[!UICONTROL Remove]** .
-
-
-<!--replace above at Preview release with this:
-
-1. On the <span class="preview">**[!UICONTROL Tracked fields]** tab</span>, select the **[!UICONTROL All fields]** subtab. Both the built-in and custom fields that are currently being tracked display.
-
-1. Select the field you want to stop tracking, then click the <span class="preview">**[!UICONTROL Remove]** icon ![Remove icon](assets/remove-icon.png).</span>
-
--->
+1. Selecteer het gebied u het volgen wilt ophouden, dan klik het **[!UICONTROL Remove]** pictogram ![ verwijderen pictogram ](assets/remove-icon.png).
 
 1. Klik in het vak **[!UICONTROL Remove Field]** dat wordt weergegeven op **[!UICONTROL Yes, Remove It]** om te bevestigen.
 

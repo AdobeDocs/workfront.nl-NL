@@ -9,9 +9,9 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: f35da9077b0422ba939ed9f6285835897f28874c
+source-git-commit: 4fafdcea97874e791104260375617e3989af1870
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
@@ -23,13 +23,14 @@ ht-degree: 0%
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
 **Linked to Creating Billing Record-->
 
-<div class="preview">
+<!--<div class="preview">
 
-De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Dezelfde functies zijn ook beschikbaar in de productieomgeving voor alle klanten na een week vanaf de release Preview.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
 
-Voor meer informatie, zie [ modernisering van de Interface ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
 
 </div>
+-->
 
 De types van uren zijn etiketten u gebruikt om uw uuringangen te bepalen. U kunt uurtypen koppelen aan uw uren.
 
@@ -51,7 +52,7 @@ Er zijn twee categorieën van uurtypes:
   >
   >Als u om het even welke project-specifieke uurtypes in uw [!DNL Workfront] systeem toelaat, moet minstens één project-specifiek uurtype op elk project in uw systeem worden toegelaten. U kunt geen project-specifiek uurtype op het systeemniveau toelaten en geen project-specifieke uurtypes hebben beschikbaar op het projectniveau.
 
-* **de Types van Uur van 0&rbrace; Algemeen**: De algemene uren kunnen niet met een project, een taak, of een kwestie worden geassocieerd, en rechtstreeks in een timesheet het programma geopend.
+* **de Types van Uur van 0} Algemeen**: De algemene uren kunnen niet met een project, een taak, of een kwestie worden geassocieerd, en rechtstreeks in een timesheet het programma geopend.
 
 Voor informatie over het registreren van uren en het associëren van hen met uurtypes, zie [ tijd van het Logboek ](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
 
@@ -165,11 +166,11 @@ Een uurtype deactiveren:
 1. Selecteer het uurtype u wilt deactiveren.
 
 
-1. <span class="preview"> klik **Meer**, dan **Deactivate**.</span>
+1. Klik **Meer**, toen **** deactivate.
 
-   <span class="preview">![ activeer en deactiveer de verbindingen van het uurtype ](assets/activate-and-deactivate-hour-type-links.png)</span>
+   ![ activeer en deactiveer de verbindingen van het uurtype ](assets/activate-and-deactivate-hour-type-links.png)
 
-   <span class="preview"> het uurtype wordt gedeactiveerd en de gebruikers kunnen het niet meer vinden wanneer het registreren uren.</span>
+   Het uurtype wordt gedeactiveerd en de gebruikers kunnen het niet meer vinden wanneer het registreren uren.
 
-1. <span class="preview"> (Facultatief) om een uurtype te reactiveren, selecteer het in de **Types van Uur** lijst, dan klik **Meer** > **activeert**. </span>
+1. (Facultatief) om een uurtype opnieuw te activeren, selecteer het in de **lijst van de Types van Uur**, dan klik **Meer** > **activeert**.
 

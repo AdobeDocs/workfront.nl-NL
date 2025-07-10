@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 5f9f4d4f100557238d9ff8d7f571108de4341c75
 workflow-type: tm+mt
-source-wordcount: '2255'
+source-wordcount: '2305'
 ht-degree: 0%
 
 ---
@@ -140,6 +140,10 @@ Wanneer u records uit de tabelweergave bewerkt, ziet u welk veld wordt bewerkt d
 
 Voor meer informatie, zie [ verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md) leiden.
 
+<span class="preview"> wanneer u een nieuw verslag na het laatste verslag in groepering of subgrouping toevoegt, werkt Workfront automatisch de gebieden bij inbegrepen in de groeperingen voor de nieuwe verslagen. U kunt deze velden desgewenst handmatig bewerken en de records uit de groep verwijderen. </span>
+
+Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-records.md) creëren.
+
 {{step1-to-planning}}
 
 1. Klik op de werkruimte waarvan u de records wilt bewerken
@@ -162,7 +166,7 @@ Voor meer informatie, zie [ verslagmeningen ](/help/quicksilver/planning/views/m
    >  * Gekoppelde velden die worden gemaakt door het verbinden van recordtypen. Voor meer informatie, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * Velden van de volgende typen: Gemaakt door, Gemaakt op datum, Laatst gewijzigd door, Datum Laatst gewijzigd, Formule.
 
-1. (Facultatief en voorwaardelijk) wanneer u een alinea-type gebied uitgeeft, gebruik de volgende **het formatteren opties van de Tekst 0&rbrace; Rich &lbrace;:**
+1. (Facultatief en voorwaardelijk) wanneer u een alinea-type gebied uitgeeft, gebruik de volgende **het formatteren opties van de Tekst 0} Rich {:**
 
    * Vet
    * Cursief
@@ -267,7 +271,7 @@ Voor meer informatie, zie [ verslagmeningen ](/help/quicksilver/planning/views/m
 
    ![ re-time indicator uitgevouwen verslagvoorproefdoos ](assets/real-time-indicator-expanded-record-preview-box.png)
 
-1. (Facultatief) klik het **menu van de Uitvoer ![ pictogram van de Uitvoer in verslagdetailpagina ](assets/export-icon-in-record-details-page.png) om de details van het verslag uit te voeren.** Voor informatie, zie [ de details van een verslag ](/help/quicksilver/planning/records/export-the-record-page.md) uitvoeren.
+1. (Facultatief) klik het **menu van de Uitvoer** pictogram van de Uitvoer in verslagdetailpagina ![ om de details van het verslag uit te voeren. ](assets/export-icon-in-record-details-page.png) Voor informatie, zie [ de details van een verslag ](/help/quicksilver/planning/records/export-the-record-page.md) uitvoeren.
 
 1. (Facultatief) klik **Open in nieuw lusje** pictogram ![ Open details in een nieuw lusjepictogram ](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in de hoger-juiste hoek van de voorproef van het verslag om de pagina van het verslag in een nieuw lusje te openen. Ga verder het uitgeven van het verslag zoals die in [ wordt beschreven geef een verslag van de pagina van het verslag ](#edit-a-record-from-the-records-page) sectie in dit artikel uit.
 
@@ -331,7 +335,7 @@ Voor meer informatie, zie [ verslagmeningen ](/help/quicksilver/planning/views/m
 
    ![ Echte - tijdindicator uitgebreide doos van de verslagvoorproef ](assets/real-time-indicator-expanded-record-preview-box.png)
 
-1. (Facultatief) klik het **menu van de Uitvoer ![ pictogram van de Uitvoer in verslagdetailpagina ](assets/export-icon-in-record-details-page.png) om de details van het verslag uit te voeren.** Voor informatie, zie [ de details van een verslag ](/help/quicksilver/planning/records/export-the-record-page.md) uitvoeren.
+1. (Facultatief) klik het **menu van de Uitvoer** pictogram van de Uitvoer in verslagdetailpagina ![ om de details van het verslag uit te voeren. ](assets/export-icon-in-record-details-page.png) Voor informatie, zie [ de details van een verslag ](/help/quicksilver/planning/records/export-the-record-page.md) uitvoeren.
 
 
 ## Een record uit een Workfront-object bewerken in de sectie Planning
