@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: Als Adobe Workfront-beheerder of groepsbeheerder kunt u een lay-outsjabloon gebruiken om de opties te configureren die gebruikers zien wanneer ze het Hoofdmenu in Workfront openen.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: bb0c3139be903e34fd01be055010673764fe9787
+source-git-commit: 00ec13dfb082ecd9b087d79b385a4eea677cf55d
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 0%
@@ -118,13 +118,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
      >[!NOTE]
      >
-     >Voor planning is een aanvullende licentie vereist. Voor informatie over de Planning van Workfront, zie [ Overzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md)
-     > * Aangepaste toepassing
+     >Voor planning is een aanvullende licentie vereist. Voor informatie over de Planning van Workfront, zie [ het Overzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
+
+   * Aangepaste toepassing
 
      >[!NOTE]
      >
      > Aangepaste toepassingen moeten afzonderlijk worden gemaakt voordat ze beschikbaar komen als opties in het hoofdmenu. Voor meer informatie, zie [ een douanetoepassing voor Workfront met Adobe App Builder ](/help/quicksilver/app-builder/app-builder.md) creëren.
-
 
 1. Voer een van de volgende handelingen uit:
 
@@ -144,6 +144,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    >[!TIP]
    >
-   >U kunt op elk gewenst moment op Opslaan klikken om de voortgang op te slaan en de sjabloon later blijven wijzigen.
+   >U kunt **klikken sparen** op elk ogenblik om uw vooruitgang te bewaren, dan blijven het malplaatje later wijzigen.
 
 Voor meer informatie over lay-outmalplaatjes, zie [ lay-outmalplaatjes ](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
