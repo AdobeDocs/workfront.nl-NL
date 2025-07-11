@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 7549c9699a86b6f87e5562efd7e586be282c5619
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: '1277'
 ht-degree: 0%
 
 ---
@@ -179,12 +179,15 @@ Voor informatie, zie [ chronologieherberekeningen voor projecten ](/help/quicksi
 
 Voor de omgeving van de Voorproef, wordt de niight herberekening onbruikbaar gemaakt, en de projectchronologie worden niet automatisch opnieuw berekend. U moet de projectchronologie voor het milieu van de Voorproef manueel opnieuw berekenen. Voor informatie, zie [ projectchronologie ](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md) opnieuw berekenen.
 
+
 ## Voorbeeld van prestaties en beschikbaarheid van omgeving
 
-[!DNL Workfront] Voorvertoningsomgevingen zijn niet bedoeld voor het testen van prestaties of belasting. Gebruik in plaats daarvan deze omgevingen om de functionaliteit van functies te valideren met de bestaande workflows van uw organisatie.
+* [!DNL Workfront] Voorvertoningsomgevingen zijn niet bedoeld voor het testen van prestaties of belasting. Gebruik in plaats daarvan deze omgevingen om de functionaliteit van functies te valideren met de bestaande workflows van uw organisatie.
 
-[!DNL Workfront] Voorvertoningsomgevingen zijn altijd beschikbaar.
+* Workflows waarbij documenten betrokken zijn, moeten zich richten op het proces en niet op het testen van het laden. Grote bestanden worden niet ondersteund in Sandbox-omgevingen.
 
-Elke storing in een [!DNL Workfront] -voorvertoningsomgeving tijdens normale kantooruren is een eerste prioriteit onmiddellijk nadat eventuele productieproblemen zijn opgelost.
+* [!DNL Workfront] Voorvertoningsomgevingen zijn altijd beschikbaar.
 
-Elke storing in een [!DNL Workfront] Voorvertoningsomgeving tijdens weekends (zaterdagen en zondag) wordt opgelost, zodat de omgeving op maandag voor kantooruren wordt uitgevoerd.
+* Elke storing in een [!DNL Workfront] -voorvertoningsomgeving tijdens normale kantooruren is een eerste prioriteit onmiddellijk nadat eventuele productieproblemen zijn opgelost.
+
+* Elke storing in een [!DNL Workfront] Voorvertoningsomgeving tijdens weekends (zaterdagen en zondag) wordt opgelost, zodat de omgeving op maandag voor kantooruren wordt uitgevoerd.

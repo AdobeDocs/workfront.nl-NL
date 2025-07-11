@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 7549c9699a86b6f87e5562efd7e586be282c5619
 workflow-type: tm+mt
-source-wordcount: '1716'
+source-wordcount: '1734'
 ht-degree: 0%
 
 ---
@@ -210,9 +210,12 @@ Voor informatie, zie [ chronologieherberekeningen voor projecten ](/help/quicksi
 
 In de omgeving van Aangepaste sandbox vernieuwen is het nippertje opnieuw berekenen uitgeschakeld en worden de projecttijdlijnen niet automatisch opnieuw berekend. U moet de projectchronologie voor de Douane manueel opnieuw berekenen vernieuwt Sandbox milieu. Voor informatie, zie [ projectchronologie ](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md) opnieuw berekenen.
 
+
 ## Beoogd gebruik en beschikbaarheid
 
 * [!DNL Workfront] Aangepaste Sandbox-omgevingen voor vernieuwen zijn niet bedoeld voor prestatie- of laadtests. Gebruik in plaats daarvan deze omgevingen om de functionaliteit van functies te valideren met de bestaande workflows van uw organisatie.
+
+* Workflows waarbij documenten betrokken zijn, moeten zich richten op het proces en niet op het testen van het laden. Grote bestanden worden niet ondersteund in Sandbox-omgevingen.
 
 * [!DNL Workfront] Aangepaste Sandbox-omgevingen voor vernieuwen zijn altijd beschikbaar. Elke storing in een aangepaste Sandbox-omgeving voor het vernieuwen van Workfront tijdens normale kantooruren is een eerste prioriteit onmiddellijk nadat eventuele productiekwesties zijn opgelost. Elke storing in een aangepaste sandbox van Workfront Vernieuwen tijdens weekends (zaterdag en zondag) wordt opgelost, zodat de omgeving op maandag voor kantooruren wordt gebruikt.
 
