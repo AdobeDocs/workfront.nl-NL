@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 60f2890e431065d0eb034a9254680e43a51ecab8
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 U kunt in-app berichten van de Planning van Workfront ontvangen wanneer de volgende scenario&#39;s bestaan:
 
-* Iemand plaatst een tag voor u in een recordopmerking
+* Iemand tagt u of uw teams in een recordopmerking
 
   Voor informatie over het etiketteren van anderen in een verslagcommentaar, zie [ recordcommentaren beheren ](/help/quicksilver/planning/records/manage-record-comments.md).
 * Iemand vraagt uw toestemming om een mening of een werkruimte te openen
@@ -160,7 +160,7 @@ OLD:
 
 ## Meldingen in de app beheren wanneer iemand u in een opmerking van tags voorziet
 
-1. (Voorwaardelijk) na iemand etiketteert u in een commentaar op een verslag, ga naar het in-app **pictogram van Meldingen** pictogram ![ de wolkenberichten van de Ervaring ](assets/experience-cloud-notifications-icon.png) in Adobe Experience Cloud.
+1. (Voorwaardelijk) na iemand u of uw teams in een commentaar op een verslag etiketteert, ga naar het in-app **pictogram van Meldingen** pictogram ![ de wolkenberichten van de Ervaring ](assets/experience-cloud-notifications-icon.png) in Adobe Experience Cloud.
 
    ![ In-app meldingsvoorbeeld ](assets/in-app-notification-example.png)
 
@@ -175,6 +175,6 @@ OLD:
 
 U ontvangt meldingen in de app wanneer iemand u om toestemming vraagt of verleent aan een weergave of werkruimte.
 
-Voor informatie over het verzoeken van, het verlenen van, of het ontkennen van toestemmingen aan een mening of een werkruimte, zie {de toestemmingen van 0} Verzoek aan een mening of een werkruimte [&#128279;](/help/quicksilver/planning/access/request-permissions.md).
+Voor informatie over het verzoeken van, het verlenen van, of het ontkennen van toestemmingen aan een mening of een werkruimte, zie {de toestemmingen van 0} Verzoek aan een mening of een werkruimte [.](/help/quicksilver/planning/access/request-permissions.md)
 
 Voor informatie over het beheren van uw berichten van de Planning van Workfront, zie [ de het berichtvoorkeur van de Planning van Adobe Workfront beheren ](/help/quicksilver/planning/notifications/manage-notification-preferences.md).

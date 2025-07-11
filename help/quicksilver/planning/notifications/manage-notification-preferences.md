@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 60f2890e431065d0eb034a9254680e43a51ecab8
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -112,7 +112,7 @@ Raadpleeg ook de volgende artikelen voor meer informatie over berichten over Wor
 ## Meldingsvoorkeuren beheren
 
 1. Meld u aan bij Workfront met uw Adobe Experience Cloud-referenties.
-1. Klik het **pictogram ![ het menupictogram van de Rekening op Experience Cloud ](assets/account-menu-icon-on-experience-cloud.png) in het hoger-recht van het scherm, dan klik** Voorkeur **.**
+1. Klik het **pictogram** het menupictogram van de Rekening op Experience Cloud ![ in het hoger-recht van het scherm, dan klik ](assets/account-menu-icon-on-experience-cloud.png) Voorkeur **.**
 1. Onder de **sectie van Meldingen**, klik **Workfront**.
 1. Selecteer de meldingen die u wilt ontvangen.
 of
@@ -121,7 +121,7 @@ Schakel de meldingen uit die u niet meer wilt ontvangen.
    ![ Adobe Experience Cloud berichten paneel voor de Planning van Workfront ](assets/adobe-experience-cloud-notifications-panel-for-workfront-planning.png)
 1. De volgende berichten zijn beschikbaar voor Workfront:
 
-   * **Vermeldingen**: U ontvangt een bericht wanneer iemand u in een commentaar in de Planning van Workfront etiketteert
+   * **Vermeldingen**: U ontvangt een bericht wanneer iemand u of uw team in een commentaar in de Planning van Workfront etiketteert
    * **Verzoeken**: U ontvangt een bericht wanneer iemand één van het volgende deed:
 
       * Verzoekt of verleent u toestemming aan een voorwerp van de Planning van Workfront
@@ -129,7 +129,7 @@ Schakel de meldingen uit die u niet meer wilt ontvangen.
       * De status van een Workfront-planningsverzoek dat u hebt ingediend
       * Aanvragen, subsidies of afwijzing van een aanvraag voor een Workfront-planning
 
-   Voor meer informatie over het beheren van berichten, zie [ voorkeur en berichten van de Rekening ](https://experienceleague.adobe.com/nl/docs/core-services/interface/features/account-preferences).
+   Voor meer informatie over het beheren van berichten, zie [ voorkeur en berichten van de Rekening ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
 <!--OLD: notifications are not available to non-IMS customers: 
 
@@ -139,7 +139,7 @@ The following scenarios exist:
 
 * Adobe Unified Experience customers receive both an in-app notification and an email notification. They can manage their in-app and email notification preferences in the Preferences area of their Adobe Experience Cloud profile for the Workfront product. 
 
-    For more information, see [Account preferences and notifications](https://experienceleague.adobe.com/nl/docs/core-services/interface/features/account-preferences).
+    For more information, see [Account preferences and notifications](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
 * Customers who are not on the Adobe Unified Experience receive only an email notification. They cannot manage their email notifications preferences and will always receive an email when someone adds them to a comment on a record in Workfront Planning.   
 

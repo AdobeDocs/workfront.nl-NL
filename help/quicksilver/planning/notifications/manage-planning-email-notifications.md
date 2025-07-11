@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 60f2890e431065d0eb034a9254680e43a51ecab8
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '668'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 U kunt e-mailmeldingen ontvangen van Workfront Planning wanneer de volgende scenario&#39;s bestaan:
 
-* Iemand plaatst een tag voor u in een recordopmerking
+* Iemand tagt u of uw teams in een recordopmerking
 
   Voor informatie over het etiketteren van anderen in een verslagcommentaar, zie [ recordcommentaren beheren ](/help/quicksilver/planning/records/manage-record-comments.md).
 * Iemand vraagt uw toestemming om een mening of een werkruimte te openen
@@ -161,7 +161,7 @@ OLD:
 
 ## E-mailmeldingen beheren wanneer iemand u in een opmerking van tags voorziet
 
-1. (Voorwaardelijk en optioneel) Nadat iemand u in een opmerking op een record heeft gelabeld, gaat u naar het e-mailbericht dat u op de hoogte brengt van de tag en de opmerking. De afzender van de e-mail is Adobe Experience Cloud.
+1. (Voorwaardelijk en optioneel) Nadat iemand u of uw team tags heeft toegevoegd aan een opmerking in een record, gaat u naar het e-mailbericht dat u op de hoogte brengt van de tag en de opmerking. De afzender van de e-mail is Adobe Experience Cloud.
 
    ![ E-mail- berichten voorbeeld ](assets/email-notification-example.png)
 
@@ -184,7 +184,7 @@ De **Berichten** pagina opent in Adobe Experience Cloud. Alle berichten van alle
 De **pagina van Meldingen** opent in Adobe Experience Cloud. Alle berichten van alle Adobe Experience Cloud-toepassingen worden weergegeven.
 
 
-Voor informatie over het verzoeken van, het verlenen van, of het ontkennen van toestemmingen aan een mening of een werkruimte, zie {de toestemmingen van 0} Verzoek aan een mening of een werkruimte [&#128279;](/help/quicksilver/planning/access/request-permissions.md).
+Voor informatie over het verzoeken van, het verlenen van, of het ontkennen van toestemmingen aan een mening of een werkruimte, zie {de toestemmingen van 0} Verzoek aan een mening of een werkruimte [.](/help/quicksilver/planning/access/request-permissions.md)
 
 Voor informatie over het beheren van uw berichten van de Planning van Workfront, zie [ de het berichtvoorkeur van de Planning van Adobe Workfront beheren ](/help/quicksilver/planning/notifications/manage-notification-preferences.md).
 
@@ -195,6 +195,6 @@ nadat u een verzoek hebt ingediend of nadat een door u ingediend verzoek is goed
 
 1. (Facultatief) klik **Open verzoek**. Dit opent het verzoek in de Planning van Workfront.
 
-1. Klik het **pictogram van de Meldingen ![ pictogram van het het gebiedspictogram van ](assets/notifications-area-icon-unified-shell.png) in de hoger-juiste hoek van het scherm** **pagina van Meldingen toegang te hebben.**
+1. Klik het **pictogram van de Meldingen** pictogram van het het gebiedspictogram van ![ in de hoger-juiste hoek van het scherm ](assets/notifications-area-icon-unified-shell.png) **pagina van Meldingen toegang te hebben.**
 
    Voor informatie over het beheren van uw berichten van de Planning van Workfront, zie [ de het berichtvoorkeur van de Planning van Adobe Workfront beheren ](/help/quicksilver/planning/notifications/manage-notification-preferences.md).

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 60f2890e431065d0eb034a9254680e43a51ecab8
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1045'
 ht-degree: 0%
 
 ---
@@ -120,9 +120,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
   Bijvoorbeeld, tonen de commentaren die aan projecten in Workfront worden toegevoegd niet op het zelfde project verbonden aan een campagne in de Planning van Workfront, en de commentaren die aan het verslag van de Planning van Workfront van het project worden toegevoegd tonen niet in Workfront.
 
-* U kunt gebruikers tags toewijzen om hun aandacht te vestigen op een update. Gelabelde gebruikers ontvangen geen melding in de app of een e-mail over uw update. <!--this might change??-->
-
-* U kunt gebruikers tags toewijzen om hun aandacht te vestigen op een update. Gelabelde gebruikers ontvangen een melding in de app of een e-mailmelding over uw update.
+* U kunt gebruikers of teams labelen om hun aandacht te vestigen op een update. Zowel gebruikers met individuele tags als gebruikers van de gelabelde teams ontvangen een melding in de app en een e-mail over uw update.
 
   >[!NOTE]
   >
@@ -147,7 +145,7 @@ De recordtypepagina wordt geopend en alle records van dat type worden weergegeve
 1. Kies een lijstmening van het **drop-down menu van de Mening**.
 1. Klik op de naam van een record in de tabelweergave.
 
-   De 1&rbrace; pagina van de Details van het verslag **&lbrace;opent.** Het gebied Opmerkingen wordt standaard in het rechtervenster geopend.
+   De 1} pagina van de Details van het verslag **{opent.** Het gebied Opmerkingen wordt standaard in het rechtervenster geopend.
 
 1. (Voorwaardelijk) als het juiste paneel niet door gebrek opent, klik **tonen Commentaren** ![ tonen commentaarpictogram ](assets/show-comments-icon.png) in de hoger-juiste hoek om de sectie van Commentaren te openen.
 
@@ -162,7 +160,7 @@ De recordtypepagina wordt geopend en alle records van dat type worden weergegeve
 1. (Optioneel) Als u een wijziging ongedaan wilt maken of opnieuw wilt uitvoeren, gebruikt u de volgende sneltoetsen:
    * CTRL + Z (⌘ + z voor Mac) om een wijziging ongedaan te maken
    * CTRL + Y (⌘ + y voor Mac) om een wijziging opnieuw uit te voeren
-1. (Optioneel en voorwaardelijk) Als uw Workfront-instantie deel uitmaakt van de Adobe Unified Experience, voegt u **@** toe, gevolgd door de naam van een gebruiker om een tag toe te wijzen aan iemand in de update. Voor meer informatie, zie de sectie [ Overwegingen over het becommentariëren over een verslag ](#considerations-about-commenting-on-a-record) in dit artikel.
+1. (Optioneel en voorwaardelijk) Als uw Workfront-instantie deel uitmaakt van de Adobe Unified Experience, voegt u **@** toe, gevolgd door de naam van een gebruiker of een team om deze in de update te labelen. Voor meer informatie, zie de sectie [ Overwegingen over het becommentariëren over een verslag ](#considerations-about-commenting-on-a-record) in dit artikel.
 
 1. (Optioneel) Gebruik de opties op de werkbalk RTF om de tekst op te maken, emoties of koppelingen naar de update toe te voegen om de inhoud te verbeteren.
 
@@ -176,7 +174,7 @@ De recordtypepagina wordt geopend en alle records van dat type worden weergegeve
    Voor meer informatie over het bijwerken van voorwerpen, met inbegrip van de verslagen van de Planning van Workfront, zie [ het werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. (Optioneel) Klik op het **Meer** pictogram ![ Meer menu ](assets/more-menu.png) in de rechterbovenhoek van de opmerking en klik vervolgens op **Verwijderen** om de opmerking te verwijderen.
-1. (Optioneel) Klik op het **pictogram ![ Opmerkingen verbergen ](assets/hide-comments-icon.png) van het pictogram Opmerkingen verbergen** om het rechterdeelvenster te sluiten.
+1. (Optioneel) Klik op het **pictogram** Opmerkingen verbergen ![ van het pictogram Opmerkingen verbergen ](assets/hide-comments-icon.png) om het rechterdeelvenster te sluiten.
 
 <!--
       >[!TIP]
