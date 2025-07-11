@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '969'
 ht-degree: 0%
 
 ---
@@ -147,6 +147,8 @@ Een werkruimte delen met anderen:
 1. Deel de gekopieerde koppeling met anderen. Gebruikers die de koppeling ontvangen, moeten actieve gebruikers zijn en zich aanmelden bij Workfront om toegang te krijgen tot de werkruimte.
 1. Klik **sparen**.
 
+   De gebruikers die u de werkruimte hebt gedeeld, ontvangen zowel een melding in de app als een e-mailbericht over het hebben van machtigingen voor de werkruimte.
+
 ## Machtigingen verlenen aan een werkruimte uit een machtigingsverzoek
 
 Gebruikers die een koppeling openen naar een werkruimte waarvoor zij geen machtigingen hebben, kunnen machtigingen aanvragen bij de werkruimte. Alle gebruikers met de machtiging Beheren voor de werkruimte ontvangen de aanvraag voor machtigingen en kunnen de machtigingen verlenen of weigeren.
@@ -154,10 +156,8 @@ Gebruikers die een koppeling openen naar een werkruimte waarvoor zij geen machti
 1. (Voorwaardelijk) Als u de manager van een werkruimte bent, zou u een verzoek van een andere gebruiker kunnen ontvangen om tot de mening op de volgende gebieden toegang te hebben:
 
    * Een melding in de app
-
      ![ In-app bericht voor toegangsverzoek ](assets/in-app-notification-for-access-request.png)
    * Een e-mailmelding
-
      ![ E-mailbericht voor toegangsverzoek ](assets/email-notification-for-access-request.png)
 1. (Voorwaardelijk) Klik in het systeemvak in Workfront op de melding in de app.
 of

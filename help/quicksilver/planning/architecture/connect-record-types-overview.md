@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
 workflow-type: tm+mt
-source-wordcount: '1541'
+source-wordcount: '1587'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ Overweeg het volgende over het verbinden van verslagtypes:
       * Planningsrecordvelden zijn niet toegankelijk vanuit Workfront-objecten.
       * Planningsrecords zijn zichtbaar vanaf het tabblad Planning van het Workfront-object. Voor informatie, zie [ recordverbindingen van de voorwerpen van Workfront beheren ](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
       * <span class="preview"> u kunt een gebied van de verbindingsdouane van de Planning tot stand brengen en het vastmaken aan de douanevorm van een voorwerp van Workfront. Voor informatie, zie [ een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren. </span>
-      * De gebieden van het verslag van de planning zijn toegankelijk van de activa van Experience Manager wanneer uw beheerder van Workfront de meta-gegevensafbeelding door de integratie tussen Workfront en Adobe Experience Manager Assets vormt. Voor meer informatie, zie [ activa meta-gegevensafbeelding tussen Adobe Workfront en Experience Manager Assets ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) vormen.
+      * De gebieden van het verslag van de planning zijn toegankelijk van de activa van Experience Manager wanneer uw beheerder van Workfront de meta-gegevensafbeelding door de integratie tussen Workfront en Adobe Experience Manager Assets vormt. Voor meer informatie, zie [ activa meta-gegevensafbeelding tussen Adobe Workfront en Experience Manager Assets ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) vormen.
 
 
    * **wanneer u raadplegingsgebieden van het verslag of het voorwerp toevoegt u met** verbindt: Naast het creëren van een verbonden verslaggebied, kunt u met gebieden van het verbonden verslag of objecttype ook verbinden dat raadplegingsgebieden wordt genoemd. Een gekoppeld veld (of opzoekveld) met informatie uit de record waarmee u verbinding maakt, wordt weergegeven in de record waaruit u verbinding maakt.
@@ -96,6 +96,13 @@ Overweeg het volgende over het verbinden van verslagtypes:
      De verbonden verslaggebieden worden voorafgegaan door het het gebiedspictogram van de verhouding ![ ](assets/relationship-field-icon.png).
 
      Gekoppelde velden worden voorafgegaan door een pictogram dat het veldtype aangeeft. Gekoppelde velden (of opzoekvelden) worden bijvoorbeeld voorafgegaan door pictogrammen die aangeven dat een veld een getal, alinea of datum is.
+
+     >[!TIP]
+     >
+     >De gegevens van het datumveld van Workfront-objecten worden weergegeven in de 24-uursnotatie van Workfront, ongeacht hoe deze worden weergegeven in Workfront.
+     >
+     >Bijvoorbeeld, als de Geplande Datum van het Begin van een project als 3:00 PM in Workfront toont, zal het als 15:00 in de Planning van Workfront op een ingevoerd raadplegingsgebied tonen.
+
 
 ## Verbindingstypen
 

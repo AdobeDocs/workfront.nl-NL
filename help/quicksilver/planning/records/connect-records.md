@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
 workflow-type: tm+mt
-source-wordcount: '3351'
+source-wordcount: '3414'
 ht-degree: 0%
 
 ---
@@ -227,6 +227,11 @@ U kunt verslagen van de Planning van Workfront op de volgende gebieden van een v
    >* We gebruiken onderling gekoppelde velden en opzoekvelden.
    >
    >* Wanneer u ervoor kiest om meerdere records te verbinden wanneer u de recordtypen hebt verbonden, worden de veldwaarden van de meerdere objecten gescheiden door komma&#39;s weergegeven of worden ze samengevoegd volgens de aggregator die u hebt gekozen bij het verbinden van de recordtypen.
+   >* U kunt geen Workfront-tekstkopvelden (zoals velden zoals Projecteigenaar of Projectsponsor) toevoegen als opzoekvelden.
+   >
+   >* De gegevens van het datumveld van Workfront-objecten worden weergegeven in de 24-uursnotatie van Workfront, ongeacht hoe deze worden weergegeven in Workfront.
+   >
+   >   Bijvoorbeeld, als de Geplande Datum van het Begin van een project als 3:00 PM in Workfront toont, zal het als 15:00 in de Planning van Workfront op een ingevoerd raadplegingsgebied tonen.
 
 1. (Optioneel) Sluit de pagina met recordtypen en ga naar de werkruimte die u hebt geselecteerd.
 1. Klik op de kaart voor het recordtype waarmee u een koppeling hebt gemaakt.
@@ -235,7 +240,7 @@ U kunt verslagen van de Planning van Workfront op de volgende gebieden van een v
 
    De opnametype kaart moet in de lijstmening worden geopend. Als dat niet het geval is, selecteert u een tabelweergave.
 
-   Bericht dat het **verbonden verslaggebied van de Campagne** &lbrace;de namen van de campagnes toont u met producten in de het verslagtype van het Product pagina verbond. Wanneer u de Campagnegegevens bijwerkt, wordt het aan Campagne gekoppelde recordveld voor het type productrecord automatisch bijgewerkt.
+   Bericht dat het **verbonden verslaggebied van de Campagne** {de namen van de campagnes toont u met producten in de het verslagtype van het Product pagina verbond. Wanneer u de Campagnegegevens bijwerkt, wordt het aan Campagne gekoppelde recordveld voor het type productrecord automatisch bijgewerkt.
 
 ### Connect Workfront Planning-records verbinden met Workfront-objecten vanuit de tabelweergave of het gebied Details van een record
 
@@ -339,7 +344,7 @@ Nadat u een verbinding hebt gemaakt tussen een recordtype en Adobe Experience Ma
 
 >[!NOTE]
 >
->De verslagen van de planning en hun gebieden zijn toegankelijk van Experience Manager Assets wanneer uw beheerder van Workfront de meta-gegevensafbeelding door de integratie tussen Workfront en Adobe Experience Manager Assets vormt. Voor meer informatie, zie [ activa meta-gegevensafbeelding tussen Adobe Workfront en Experience Manager Assets ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) vormen.
+>De verslagen van de planning en hun gebieden zijn toegankelijk van Experience Manager Assets wanneer uw beheerder van Workfront de meta-gegevensafbeelding door de integratie tussen Workfront en Adobe Experience Manager Assets vormt. Voor meer informatie, zie [ activa meta-gegevensafbeelding tussen Adobe Workfront en Experience Manager Assets ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) vormen.
 
 Om records te verbinden met Experience Manager-elementen:
 

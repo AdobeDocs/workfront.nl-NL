@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
+source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
 workflow-type: tm+mt
-source-wordcount: '2556'
+source-wordcount: '2602'
 ht-degree: 0%
 
 ---
@@ -201,7 +201,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    >[!TIP]
    >
-   >U kunt geen Workfront-tekstkopvelden (zoals velden zoals Projecteigenaar of Projectsponsor) toevoegen als opzoekvelden.
+   >* U kunt geen Workfront-tekstkopvelden (zoals velden zoals Projecteigenaar of Projectsponsor) toevoegen als opzoekvelden.
+   >
+   >* De gegevens van het datumveld van Workfront-objecten worden weergegeven in de 24-uursnotatie van Workfront, ongeacht hoe deze worden weergegeven in Workfront.
+   >
+   >   Bijvoorbeeld, als de Geplande Datum van het Begin van een project als 3:00 PM in Workfront toont, zal het als 15:00 in de Planning van Workfront op een ingevoerd raadplegingsgebied tonen.
 
 1. (Voorwaardelijk en facultatief) als u selecteerde om een voorwerp van Workfront te verbinden, selecteer de vorm van de a **Douane** van de **slechts voorwerpen van de Verbinding die deze criteria** sectie aanpassen. Alleen objecten waaraan de geselecteerde aangepaste formulieren zijn gekoppeld, kunnen worden gekoppeld aan het geselecteerde recordtype. U kunt meerdere formulieren selecteren.
 
@@ -213,7 +217,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    >[!NOTE]
    >
-   >Uw Workfront-beheerder kan Workfront-planningsvelden toewijzen aan Experience Manager Assets-velden via de metagegevenstoewijzing in Workfront. Voor meer informatie, zie [ activa meta-gegevensafbeelding tussen Adobe Workfront en Experience Manager Assets ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) vormen.
+   >Uw Workfront-beheerder kan Workfront-planningsvelden toewijzen aan Experience Manager Assets-velden via de metagegevenstoewijzing in Workfront. Voor meer informatie, zie [ activa meta-gegevensafbeelding tussen Adobe Workfront en Experience Manager Assets ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) vormen.
 
 1. (Voorwaardelijk) als u selecteerde om met Experience Manager Assets of met een het verslagtype van de Planning van Workfront te verbinden, selecteer één van de volgende opties op het **vormgeving van het Verslag** gebied:
 
@@ -306,7 +310,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >* **UNIQUE**: $100.000
    >
 
-1. (Facultatief) gebruik het **pictogram van het onderzoek ![ Onderzoek ](assets/search-icon.png) aan onderzoek naar een gebied.**
+1. (Facultatief) gebruik het **pictogram van het onderzoek** Onderzoek ![ aan onderzoek naar een gebied.](assets/search-icon.png)
 
 1. Klik **voegt gebieden** toe om uw veranderingen te bewaren.
 

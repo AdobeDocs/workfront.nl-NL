@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 4fafdcea97874e791104260375617e3989af1870
+source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: '1560'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ U kunt een recordtype met anderen delen om samenwerking te verzekeren wanneer he
 >[!IMPORTANT]
 >
 >Gebruikers met toegang tot een werkruimte krijgen automatisch minstens weergavemachtigingen voor alle recordtypen in de werkruimte.
->&#x200B;>Als u weergaven deelt, geeft u gebruikers geen machtigingen om gegevenstypen op te nemen. Alleen werkruimten delen kan gebruikers machtigingen verlenen om gegevenstypen op te nemen.
+>>Als u weergaven deelt, geeft u gebruikers geen machtigingen om gegevenstypen op te nemen. Alleen werkruimten delen kan gebruikers machtigingen verlenen om gegevenstypen op te nemen.
 >
 >* Voor algemene informatie over het delen van voorwerpen in de Planning van Workfront, zie ook [ Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront ](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 >* Voor meer informatie, zie de [ Overwegingen wanneer het delen van verslagtypes ](#considerations-when-sharing-record-types) sectie in dit artikel.
@@ -195,6 +195,10 @@ U kunt machtigingen aanpassen voor afzonderlijke recordtypen in een werkruimte a
 1. Klik **sparen**.
 
    Het recordtype wordt nu gedeeld met andere gebruikers.
+De gebruikers die u het recordtype hebt gedeeld, ontvangen zowel een melding in de app als een e-mailmelding dat zij machtigingen hebben verleend aan de volgende entiteiten:
+
+   * Het recordtype
+   * De werkruimte, als zij geen toestemmingen aan de werkruimte hadden alvorens het verslagtype met hen werd gedeeld.
 
 1. Deel de gekopieerde koppeling met anderen. Gebruikers die de koppeling ontvangen, moeten actieve gebruikers zijn en zich aanmelden bij Workfront om de pagina met recordtypen te kunnen openen en weergeven in de geselecteerde weergave. Zij moeten toestemmingen aan het verslagtype hebben om het te kunnen bekijken.
 
