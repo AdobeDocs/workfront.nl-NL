@@ -6,9 +6,9 @@ description: Het linkernavigatievenster in  [!DNL Workfront]  maakt het gemakkel
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
+source-git-commit: 297a8bc1a59fab42d96ec3479451c2f82f5c3dc1
 workflow-type: tm+mt
-source-wordcount: '1273'
+source-wordcount: '1286'
 ht-degree: 0%
 
 ---
@@ -265,9 +265,7 @@ Om te leren welke secties voor specifieke gebieden beschikbaar zijn, zie [[!UICO
       >
       >U moet het dashboard bouwen alvorens het in de lijst verschijnt.
 
-   1. Klik op **[!UICONTROL Add]**.
-
-      De dashboardkoppeling wordt onder in het linkerdeelvenster weergegeven.
+1. (Facultatief) om een dashboard snelle verbinding te verwijderen, beweegt zich over het dashboard in de linkernavigatie, dan klikt **verwijdert** pictogram ![ pictogram ](assets/remove-dashboard-from-left.png) wanneer het verschijnt.
 
 1. (Optioneel) Als u de volgorde van een sectie in het linkerdeelvenster wilt wijzigen, klikt u op het **[!UICONTROL Drag]** pictogram ![](assets/drag-icon.png) rechts van een sectie en sleept u het naar boven of naar beneden.
 
