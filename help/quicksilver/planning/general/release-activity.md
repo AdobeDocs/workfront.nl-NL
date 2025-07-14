@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 718ed3efd56c532693d26cc067041bedbc71cca0
 workflow-type: tm+mt
-source-wordcount: '7388'
+source-wordcount: '7386'
 ht-degree: 0%
 
 ---
@@ -188,7 +188,7 @@ Voor meer informatie over de Medewerker van AI van de Planning van Workfront, zi
 
 Voorbeeld en productie: 28 augustus 2024
 
-U kunt de planningsinformatie van Workfront nu in een rapport bekijken gebruikend het dashboard van het Canvas van Workfront. Voor informatie, zie [ begonnen worden met de Dashboards van het Canvas ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
+U kunt de planningsinformatie van Workfront nu in een rapport bekijken gebruikend het dashboard van het Canvas van Workfront. Voor informatie, zie [ Overzicht van de Dashboards van het Canvas ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 
 ## Week van 19 augustus 2024
 
@@ -800,7 +800,7 @@ Productie: 8 mei 2024
 
 Voorbeeld: vast te stellen
 
-Als u een Adobe Unified Experience-klant bent en iemand u toevoegt aan een opmerking op de recordpagina, ontvangt u een bericht in de app en een e-mailbericht over de opmerking. U kunt uw berichtvoorkeuren beheren in het gedeelte Voorkeuren van uw Adobe Experience Cloud-profiel. Voor meer informatie, zie [ voorkeur en berichten van de Rekening ](https://experienceleague.adobe.com/nl/docs/core-services/interface/features/account-preferences).
+Als u een Adobe Unified Experience-klant bent en iemand u toevoegt aan een opmerking op de recordpagina, ontvangt u een bericht in de app en een e-mailbericht over de opmerking. U kunt uw berichtvoorkeuren beheren in het gedeelte Voorkeuren van uw Adobe Experience Cloud-profiel. Voor meer informatie, zie [ voorkeur en berichten van de Rekening ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
 Voor meer informatie over Workfront planningsberichten, zie [ de berichten van de Planning van Adobe Workfront: De index van het Artikel ](/help/quicksilver/planning/notifications/notifications-information.md).
 
