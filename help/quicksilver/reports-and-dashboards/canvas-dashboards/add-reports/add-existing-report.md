@@ -56,7 +56,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. In het linkerpaneel, klik **de Dashboards van het Canvas**.
 
-1. In **creeer dashboard** doos, ga de 2} Naam van het dashboard **en** Beschrijving **in.**
+1. In **creeer dashboard** doos, ga de 2&rbrace; Naam van het dashboard **en** Beschrijving **in.**
 
 1. Klik **creëren**.
 
