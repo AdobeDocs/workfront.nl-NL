@@ -207,7 +207,7 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
 
 1. Voer in de lijst **[!UICONTROL Left panel]** een van de volgende handelingen uit om te bepalen welke gebruikers in het linkerdeelvenster zien voor het [!DNL Workfront] -gebied of objecttype dat u hebt geselecteerd:
 
-   * Klik **tonen** ![ tonen pictogram ](assets/add-secondary-nav-item.png) of **Verbergen** ![ pictogram van de Verbergen ](assets/delete-secondary-nav-item.png) pictogrammen om secties in het linkerpaneel te tonen of te verbergen. U kunt geen punten verbergen die a **hebben tonen** of **** pictogram verbergen.
+   * Klik **tonen** ![ tonen pictogram ](assets/add-secondary-nav-item.png) of **Verbergen** ![ pictogram van de Verbergen ](assets/delete-secondary-nav-item.png) pictogrammen om secties in het linkerpaneel te tonen of te verbergen. U kunt geen punten verbergen die a **hebben tonen** of **&#x200B;**&#x200B;pictogram verbergen.
 
    * De punten van de belemmering ![ pictogram van de Beweging ](assets/move-icon---dots.png) om hun orde op het linkerpaneel te veranderen.
 

@@ -59,7 +59,7 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **de Interface van 0} >** Malplaatjes van de Lay-out **.**
+1. In het linkerpaneel, klik **de Interface van 0&rbrace; >** Malplaatjes van de Lay-out **.**
 
 1. Klik op de naam van de lay-outsjabloon die u wilt wijzigen.
 1. Klik **Exemplaar**.

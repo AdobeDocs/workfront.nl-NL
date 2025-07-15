@@ -86,7 +86,7 @@ Voor meer informatie over lay-outmalplaatjes, zie [ malplaatjes van de Lay-out ]
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **de Interface van 0} >** Malplaatjes van de Lay-out **.**
+1. In het linkerpaneel, klik **de Interface van 0&rbrace; >** Malplaatjes van de Lay-out **.**
 
 1. Klik **Nieuw Malplaatje van de Lay-out**.
 
