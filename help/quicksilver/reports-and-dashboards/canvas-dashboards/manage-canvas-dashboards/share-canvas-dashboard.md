@@ -6,9 +6,9 @@ description: U kunt een Canvas-dashboard delen met andere Adobe Workfront-gebrui
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -23,30 +23,39 @@ U kunt een Canvas-dashboard delen met andere Adobe Workfront-gebruikers, zodat d
 
 ## Toegangsvereisten
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Vouw uit om de vereisten voor toegang weer te geven.
 
 <table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td>Alle</td> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront-plan</p></td> 
+   <td> 
+<p>Alle </p> 
+   </td> 
+<tr> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront-licentie</p></td> 
+   <td> 
+<p>Huidig: Plan </p> 
+<p>Nieuw: Standaard</p> 
+   </td> 
+   </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td>Nieuw: Standaard
-   <p>of</p>
-   <p>Huidig: Plan</p></td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet bewerkingstoegang hebben voor dashboards.</p></td> 
-  </tr> 
- </tbody> 
+   <td role="rowheader"><p>Configuraties op toegangsniveau</p></td> 
+   <td><p>Toegang tot rapporten, dashboards en kalenders bewerken</p>
+  </td> 
+  </tr>  
+</tbody> 
 </table>
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
++++
+
 
 ## Een canvasdashboard delen
 
@@ -56,7 +65,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. Klik de **knoop van het Aandeel** in de hoger-juiste hoek van de pagina.
 
-1. In **geef toegang tot:** gebied van het **Dashboard dat** venster deelt dat verschijnt, begin het typen van de namen van specifieke gebruikers, teams, rollen, groepen, of bedrijven in uw instantie van Workfront met wie u het Dashboard van het Canvas zou willen delen. Wanneer de gewenste naam wordt weergegeven in de lijst Automatisch aanvullen onder het veld, klikt u erop om deze toe te voegen aan de lijst met beoogde ontvangers.
+1. In **geef toegang tot:** gebied van het **Dashboard dat** doos deelt die verschijnt, begin het typen van de naam van de specifieke gebruiker, het team, de rol, de groep, of het bedrijf u het Dashboard van het Canvas met wilt delen, dan het selecteren wanneer het in de lijst hieronder verschijnt.
 
 1. (Optioneel) Nadat u een entiteit aan de lijst met beoogde ontvangers hebt toegevoegd, kunt u het type toegang bewerken dat zij krijgen voor dit Canvas-dashboard. Door gebrek zullen zij slechts **toegang van de Mening** ontvangen, maar u kunt hen geven leidt toegang door **Mening >** naast de entiteit te klikken, dan het selecteren **leidt** in de dropdown lijst. Merk op dat sommige entiteiten hun toegangsniveau, zoals beheerders niet kunnen hebben veranderd.
 
