@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 60f2890e431065d0eb034a9254680e43a51ecab8
+source-git-commit: 2572093857bb1ad27f869e1d7244549e531ba421
 workflow-type: tm+mt
-source-wordcount: '2148'
+source-wordcount: '2200'
 ht-degree: 0%
 
 ---
@@ -82,11 +82,21 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 
 Om de ervaring wanneer het delen van een verzoekformulier in de Planning van Workfront veiliger en eenvoudiger te maken, hebben wij de volgende veranderingen aangebracht:
 
-* We hebben overgeërfde machtigingen verwijderd. Het aanvraagformulier wordt nu alleen gedeeld met de formulieren die u selecteert.
-* We hebben opties voor beheren en bijdragen verwijderd voor gebruikers waarmee u het aanvraagformulier deelt. Nu kunnen toegevoegde gebruikers alleen het formulier verzenden.
-* Op het tabblad Openbaar delen worden nu het veld voor de koppeling en de vervaldatum alleen weergegeven nadat de optie Openbare koppeling maken is ingeschakeld.
+* Het dialoogvenster Formulier delen is nu onderverdeeld in intern delen (selecteren met wie u wilt delen) en openbaar delen (maken van een koppeling voor delen).
+* U kunt aanvraagformulieren nu delen met het volgende:
 
-Voor meer informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
+   * Gebruikers
+   * Teams
+   * Groepen
+   * Bedrijven
+   * Functies
+
+  Eerder kon u alleen delen op basis van toegang tot werkruimte of door een koppeling te delen.
+* We hebben overgeërfde machtigingen voor aanvraagformulieren verwijderd. Het aanvraagformulier wordt nu alleen gedeeld met de formulieren die u selecteert.
+* We hebben opties voor beheren en bijdragen verwijderd voor gebruikers waarmee u het aanvraagformulier deelt. Nu kunnen toegevoegde gebruikers alleen het formulier verzenden.
+* Het tabblad Openbaar delen geeft nu het veld voor de koppeling en de vervaldatum weer nadat de optie Openbare koppeling maken is ingeschakeld.
+
+Voor meer informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
 
 ## Alle groepen in de tabelweergave uitvouwen en samenvouwen
 
@@ -304,7 +314,7 @@ Voorafgaand aan deze verbetering, moesten de gebruikers met alle vergunningsnive
 >[!NOTE]
 >
 >Deze wijziging is zichtbaar voor alle nieuwe en bestaande gebruikers met een System Administrator- en Standard-licentie.
->&#x200B;>Bestaande gebruikers die aan een lay-outsjabloon zijn toegewezen, blijven alles zien volgens de instellingen die in de lay-outsjabloon zijn gedefinieerd.
+>>Bestaande gebruikers die aan een lay-outsjabloon zijn toegewezen, blijven alles zien volgens de instellingen die in de lay-outsjabloon zijn gedefinieerd.
 
 Voor informatie, zie [ overzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/access/access-overview.md).
 
