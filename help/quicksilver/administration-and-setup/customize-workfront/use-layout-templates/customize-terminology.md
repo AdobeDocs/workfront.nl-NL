@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: Als Adobe Workfront-beheerder kunt u een lay-outsjabloon gebruiken om de labels van bepaalde objecten die in Workfront worden weergegeven, aan te passen aan de termen die in uw organisatie worden gebruikt.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Nadat u een lay-outsjabloon hebt opgeslagen waarin u de terminologie hebt gewijz
 * Alle gebieden die via het hoofdmenu worden geopend
 * Alle tabbladen
 * Alle menu&#39;s
-* Report Builder- en rapportageelementen (weergaven, filters en groepen)
+* Report Builder en rapporteringselementen (weergaven, filters en groepen)
 * Knoppen opslaan
 * Geëxporteerde bestanden
 * E-mails

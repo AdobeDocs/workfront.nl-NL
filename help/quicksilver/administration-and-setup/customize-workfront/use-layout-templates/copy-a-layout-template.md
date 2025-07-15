@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates
 navigation-topic: layout-templates
 description: U kunt een bestaande lay-outsjabloon kopiëren. Dit is handig wanneer uw organisatie meerdere lay-outsjablonen nodig heeft die veel van dezelfde instellingen delen.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: fec77b37-3968-4e0e-8034-63a816a7a3d5
-source-git-commit: 8880891c0f5fd8fecad6c2f58136d36a943105ae
+source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%
@@ -59,7 +59,7 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **de Interface van 0&rbrace; >** Malplaatjes van de Lay-out **.**
+1. In het linkerpaneel, klik **de Interface van 0} >** Malplaatjes van de Lay-out **.**
 
 1. Klik op de naam van de lay-outsjabloon die u wilt wijzigen.
 1. Klik **Exemplaar**.

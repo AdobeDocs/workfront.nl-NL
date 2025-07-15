@@ -5,11 +5,11 @@ content-type: overview
 product-area: system-administration;templates
 navigation-topic: layout-templates
 description: Als Workfront-beheerder of groepsbeheerder kunt u lay-outsjablonen maken en wijzigen om lay-outelementen in Workfront aan te passen voor uw gebruikers.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 0%
@@ -86,7 +86,7 @@ Voor meer informatie over lay-outmalplaatjes, zie [ malplaatjes van de Lay-out ]
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **de Interface van 0&rbrace; >** Malplaatjes van de Lay-out **.**
+1. In het linkerpaneel, klik **de Interface van 0} >** Malplaatjes van de Lay-out **.**
 
 1. Klik **Nieuw Malplaatje van de Lay-out**.
 
