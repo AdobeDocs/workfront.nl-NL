@@ -66,7 +66,7 @@ Nadat u IP adressen aan de lijst van gewenste personen van Workfront toevoegt, s
 
 1. Klik **Systeem** > **Info van de Klant.**
 
-1. In de **sectie van de lijst van gewenste personen van 0} IP, uitgezochte** laat IP lijst van gewenste personen toe.****
+1. In de **sectie van de lijst van gewenste personen van 0&rbrace; IP, uitgezochte** laat IP lijst van gewenste personen toe.**&#x200B;**
 
    Deze optie is standaard uitgeschakeld.
 
