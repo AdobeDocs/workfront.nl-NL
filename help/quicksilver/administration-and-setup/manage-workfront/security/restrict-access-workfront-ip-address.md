@@ -8,14 +8,18 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aed65b42-d534-453a-885d-f922114987bc
-source-git-commit: 937965ad495453e185504d53f9d9c88c3cd7e201
+source-git-commit: afef6ee186340ff65ed9838b60b5a7b02b22d61f
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
 
 # Toegang tot Adobe Workfront beperken tot IP-adres
+
+>[!IMPORTANT]
+>
+>Deze functionaliteit is momenteel niet beschikbaar voor organisaties die zijn aangemeld bij de Adobe Admin Console. Het zal in een toekomstige release beschikbaar zijn in de Adobe Admin Console.
 
 U kunt een lijst van gewenste personen vormen van Adobe Workfront IP die toegang tot Workfront tot 75 IP adressen of IP adreswaaiers beperkt die u specificeert. Dit biedt een extra beveiligingslaag voor de Workfront-toepassing.
 
@@ -62,7 +66,7 @@ Nadat u IP adressen aan de lijst van gewenste personen van Workfront toevoegt, s
 
 1. Klik **Systeem** > **Info van de Klant.**
 
-1. In de **sectie van de lijst van gewenste personen van 0&rbrace; IP, uitgezochte** laat IP lijst van gewenste personen toe.**&#x200B;**
+1. In de **sectie van de lijst van gewenste personen van 0} IP, uitgezochte** laat IP lijst van gewenste personen toe.****
 
    Deze optie is standaard uitgeschakeld.
 
