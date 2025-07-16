@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 4fafdcea97874e791104260375617e3989af1870
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '2468'
+source-wordcount: '2388'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Records maken
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -43,8 +43,6 @@ Raadpleeg de volgende artikelen voor informatie over het beheren van records in 
 ## Toegangsvereisten
 
 +++ Vouw uit om de vereisten voor toegang weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -97,16 +95,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objectmachtigingen</p></td> 
-   <td> <p>Draag of hogere toestemmingen aan de werkruimte <span class="preview"> bij en verslagtype </span> waar u verslagen wilt toevoegen. </p>
-   <p>De mening of hogere toestemmingen aan de werkruimte <span class="preview"> en verslagtype </span> om verslagen tot stand te brengen gebruikend de het verslagknoop van het Verzoek op de verslagpagina</p>
+   <td> <p>Draag of hogere toestemmingen aan de werkruimte bij en verslagtype waar u verslagen wilt toevoegen. </p>
+   <p>Machtigingen voor de werkruimte weergeven of hoger weergeven en records typen om records te maken met de knop Verzoek om record op de recordpagina</p>
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>
    <p>Rechten voor Workfront-objecten (portfolio's) beheren om onderliggende objecten (projecten) toe te voegen.</p>
    </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Lay-outsjabloon</p></td> 
-   <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het planningsgebied in het hoofdmenu bevat </p> </td> 
-  </tr> 
+  </tr>
+
 </tbody> 
 </table>
 
@@ -137,7 +132,7 @@ Records van het geselecteerde type worden weergegeven in de weergave.
 
      >[!TIP]
      >
-     ><span class="preview"> wanneer u een nieuw verslag na het laatste verslag in groepering of subgrouping toevoegt, vult Workfront automatisch de gebieden inbegrepen in de groeperingen. U kunt deze velden desgewenst handmatig bewerken en de records uit de groep verwijderen. </span>
+     >Wanneer u een nieuwe record toevoegt na de laatste record in een groep of subgroep, vult Workfront automatisch de velden in de groepen in. U kunt deze velden desgewenst handmatig bewerken en de records uit de groep verwijderen.
 
    * Klik **Verschuiving + gaat** op uw toetsenbord van om het even welke kolom of rij van de lijst binnen. Hiermee voegt u een lege rij toe onder de record waaruit u begint.
    * Beweeg over het primaire gebied van een verslag, klik **Meer** menu ![ Meer menu ](assets/more-menu.png) aan het recht van het gebied, dan klik **verslag van het Tussenvoegsel boven** of **hieronder verslag van het Tussenvoegsel**.
@@ -187,10 +182,10 @@ Records van het geselecteerde type worden weergegeven in de weergave.
 
 ## Records maken met de knop Nieuwe record of Verzoek om record maken vanuit elke recordtypeweergave
 
-Gebruikers met de machtiging Weergeven in de werkruimte <!--<span class="preview">and record type</span>--> kunnen alleen records maken met de knop Verzoek om record op de pagina met recordtypen.
+Gebruikers met de machtiging Weergeven voor de werkruimte en het recordtype kunnen alleen records maken met de knop Verzoek om record op de pagina met recordtypen.
 
-Gebruikers met de machtigingen Contribute en Manage voor de werkruimte <!--<span class="preview">and record type</span>--> kunnen records maken met de knop New record op de pagina met recordtypen.
-<!--did the permissions to record types get released?? if not, take the record type reference here out; AND else-where in this article, including access requirements table-->
+Gebruikers met de machtigingen Contribute en Manage voor de werkruimte en het recordtype kunnen records maken met de knop New record op de pagina met recordtypen.
+
 
 >[!IMPORTANT]
 >
@@ -207,20 +202,20 @@ Gebruikers met de machtigingen Contribute en Manage voor de werkruimte <!--<span
    De pagina met recordtypen wordt geopend in de weergave die u het laatst hebt geopend. Standaard wordt een pagina met recordtypen geopend in de tabelweergave.
 Alle records van het geselecteerde type worden in de weergave weergegeven.
 
-1. (Voorwaardelijk) Klik vanuit elke weergave op een van de volgende opties in de rechterbovenhoek van het scherm, afhankelijk van de <!--<span class="preview">and record type</span>--> -machtigingen voor de werkruimte:
+1. (Voorwaardelijk) Klik vanuit elke weergave op een van de volgende opties in de rechterbovenhoek van het scherm, afhankelijk van de machtigingen voor werkruimte en recordtype:
 
-   * Klik **Nieuw verslag**, als u Contribute of hogere toestemmingen op de werkruimte <!--<span class="preview">and record type</span>--> hebt
+   * Klik **Nieuw verslag**, als u Contribute of hogere toestemmingen op de werkruimte en verslagtype hebt
 
      of
 
-   * Klik **verslag van het Verzoek**, als u de toestemmingen van de Mening op de werkruimte <!--<span class="preview">and record type</span>--> hebt.
+   * Klik **verslag van het Verzoek**, als u de toestemmingen van de Mening op de werkruimte en verslagtype hebt.
 
 1. (Voorwaardelijk) als u **Nieuw verslag** klikte, doe het volgende:
 
    1. Klik één van de volgende manieren om een verslag tot stand te brengen, dan **ga** verder:
 
       * **voeg manueel** toe. Het voorvertoningsvak van de record wordt geopend.\
-        Voeg informatie over het verslag toe, zoals die in [ wordt beschreven creeer verslagen door hen inline van de 1&rbrace; sectie van de verslagtype lijstmening &lbrace;in dit artikel toe te voegen, beginnend met stap 6. ](#create-records-by-adding-them-inline-from-the-record-type-table-view)<!--insure this stays accurate-->
+        Voeg informatie over het verslag toe, zoals die in [ wordt beschreven creeer verslagen door hen inline van de 1} sectie van de verslagtype lijstmening {in dit artikel toe te voegen, beginnend met stap 6. ](#create-records-by-adding-them-inline-from-the-record-type-table-view)<!--insure this stays accurate-->
       * **uploadt van dossier**
 Voeg verslagen toe, zoals die in het artikel [ worden beschreven verslagen door informatie van een CSV of dossier van Excel ](/help/quicksilver/planning/records/import-file-to-create-records.md) in te voeren, die met stap 6 beginnen. <!--ensure this stays accurate-->
       * **leg een verzoek** voor

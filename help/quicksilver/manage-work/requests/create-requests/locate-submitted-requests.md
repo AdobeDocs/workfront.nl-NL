@@ -8,7 +8,7 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 0%
@@ -175,7 +175,7 @@ Om van verzoeken de plaats te bepalen die u of andere gebruikers hebben voorgele
     </tbody> 
    </table>
 
-1. (Optioneel) Klik op het **pictogram ![](assets/search-icon.png) van de pagina met filters** boven aan de lijst om naar een verzoek op naam te zoeken. De lijst wordt bijgewerkt met resultaten die overeenkomen met uw zoekcriteria.
+1. (Optioneel) Klik op het **pictogram** van de pagina met filters ![](assets/search-icon.png) boven aan de lijst om naar een verzoek op naam te zoeken. De lijst wordt bijgewerkt met resultaten die overeenkomen met uw zoekcriteria.
 
    <!--
    <li value="9" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Click the <strong>Complete</strong> subtab to view requests that have been completed.</p> <p>(NOTE: this step will stay drafted even after release. We can't see Completed at this time!) <br>Requests with an Actual Completion Date or whose resolving object has an Actual Completion Date are listed in the Complete subtab.<br>Once a request receives an Actual Completion Date, it stays in the Recently Completed area for 10 business days. After that, it is moved to the Completed area. <br>For information about resolving and resolvable objects, see the article <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> </li>
@@ -204,9 +204,9 @@ Om van verzoeken de plaats te bepalen die u of andere gebruikers hebben voorgele
 
 1. (Facultatief en voorwaardelijk) als uw organisatie een pakket van de Planning van Workfront kocht, klik het **Planning** lusje, dan klik **voorgelegde** in het linkerpaneel om de verzoeken van de Planning van Workfront te bekijken.
 
-   **Filters van het Gebruik** en **Kolommen** om de informatie in de lijst van het Verzoek van de Planning bij te werken. </span><span class="preview">
+   De Filters van het gebruik **en** Kolommen **om de informatie in de lijst van het Verzoek van de Planning bij te werken.**
 
-   <span class="preview">![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)</span>
+   ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
 
    Voor informatie, zie [ de Verzoeken van de Planning van Adobe Workfront voorleggen om verslagen ](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen.
 

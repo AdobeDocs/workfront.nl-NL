@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 8f4c1be156094d18df4bc3628d4f1fca90372119
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '3446'
+source-wordcount: '3346'
 ht-degree: 0%
 
 ---
 
 # De tabelweergave beheren
 
-<span class="preview"> de informatie die op deze pagina wordt benadrukt verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -87,12 +87,7 @@ Voor informatie over het uitvoeren van de lijstmening naar een Excel of Csv- dos
 <tr> 
    <td role="rowheader"><p>Objectmachtigingen</p></td> 
    <td>   <p>Rechten beheren voor een weergave</p>  
-   <p>De toestemmingen van de mening aan een mening om de meningsmontages tijdelijk te veranderen, dupliceren, <span class="preview"> of het uit te voeren </span></p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Lay-outsjabloon</p></td> 
-   <td> <p>In het milieu van de Productie, moeten alle gebruikers met inbegrip van de Beheerders van het Systeem aan een lay-outmalplaatje worden toegewezen dat de gebieden van de Planning omvat.</p>
-<p><span class="preview">In het milieu van de Voorproef, hebben de Standaardgebruikers en de Beheerders van het Systeem het Gebied van de Planning dat door gebrek wordt toegelaten.</span></p></td> 
+   <p>Machtigingen weergeven voor een weergave om de weergave-instellingen tijdelijk te wijzigen, te dupliceren of te exporteren</p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -113,11 +108,9 @@ Wanneer u een tabelweergave maakt, worden alle records van het geselecteerde typ
 
 Een tabelweergave beheren:
 
-1. <span class="preview"> creeer een lijstmening, zoals die in het artikel [ wordt beschreven beheer verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md). </span>
+1. Creeer een lijstmening, zoals die in artikel [ wordt beschreven beheer verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md).
 
-   <span class="preview">![ de meningsvoorbeeld van de Lijst ](assets/table-view-example.png)
-
-   </span>
+   ![ de meningsvoorbeeld van de Lijst ](assets/table-view-example.png)
 
 1. (Facultatief) klik **de hoogte van de Rij**, dan selecteer van de volgende opties om de hoogte van de lijstrijen te wijzigen:
    * Kort
@@ -130,7 +123,7 @@ Een tabelweergave beheren:
    * [ Filters ](#add-filters)
    * [ Soort ](#add-a-sort)
    * [Groepering](#add-groupings)
-   * <span class="preview">[ de kleuren van de Rij ](#add-row-colors)</span>
+   * [Rijkleuren](#add-row-colors)
    * [Real-time aanwezigheidsindicator](#enable-the-real-time-presence-indicator)
 
 
@@ -202,7 +195,7 @@ U kunt maximaal 500 velden (of kolommen) toevoegen aan een tabelweergave.
 
 1. Ga als volgt te werk om snel records te zoeken die overeenkomen met een trefwoord:
 
-   1. Klik het **pictogram van het Onderzoek** pictogram van het 1&rbrace; Onderzoek ![ en begin een sleutelwoord verbonden aan om het even welk gebied van een verslag te typen dat op het scherm toont. ](assets/search-icon.png) Het aantal juiste overeenkomsten wordt weergegeven naast het zoekitem en het veld met de juiste overeenkomst wordt gemarkeerd.
+   1. Klik het **pictogram van het Onderzoek** pictogram van het 1} Onderzoek ![ en begin een sleutelwoord verbonden aan om het even welk gebied van een verslag te typen dat op het scherm toont. ](assets/search-icon.png) Het aantal juiste overeenkomsten wordt weergegeven naast het zoekitem en het veld met de juiste overeenkomst wordt gemarkeerd.
 
       ![ vakje van het Onderzoek met resultaten blauw overzicht in lijstmening ](assets/search-box-with-results-blue-outline-table-view.png)
 
@@ -229,7 +222,7 @@ U kunt tot 50.000 verslagen (of rijen) voor recordtypeS hebben.
 
    De records die u in de tabelweergave toevoegt, worden direct opgeslagen en zijn zichtbaar voor alle gebruikers met de machtiging Weergave of hoger voor de werkruimte.
 
-1. (Facultatief) voeg een duimnagel aan elk verslag toe, en klik **Gebieden** in de hoger-juiste hoek van de lijst, dan selecteren de knevel voor het **3&rbrace; gebied van de Duimnagel &lbrace;om het links van het primaire gebied te tonen.** Deze optie is standaard uitgeschakeld.
+1. (Facultatief) voeg een duimnagel aan elk verslag toe, en klik **Gebieden** in de hoger-juiste hoek van de lijst, dan selecteren de knevel voor het **3} gebied van de Duimnagel {om het links van het primaire gebied te tonen.** Deze optie is standaard uitgeschakeld.
 
    Voor informatie, zie [ een duimnagel aan een verslag ](/help/quicksilver/planning/records/add-thumbnails-to-records.md) toevoegen.
 
@@ -459,7 +452,7 @@ Een groep toevoegen:
 
    Het aantal velden dat voor de groepering is geselecteerd, wordt weergegeven naast het pictogram Groeperen.
 
-   <span class="preview">![ groepering die in lijstmening wordt toegepast ](assets/grouping-applied-in-table-view.png)</span>
+   ![ groepering die in lijstmening wordt toegepast ](assets/grouping-applied-in-table-view.png)
 
 1. (Facultatief) binnen de **verslagen van de Groep door** doos, klik het **x** pictogram aan het recht van een gebied dat voor de groepering wordt geselecteerd om de groepering te verwijderen
 
@@ -470,9 +463,7 @@ Een groep toevoegen:
 1. Klik buiten de **verslagen van de Groep door** doos om het te sluiten.
 1. (Optioneel) Klik op **+ Nieuwe record** aan het einde van een willekeurige groep om nieuwe records toe te voegen. Vernieuw vervolgens de pagina om de nieuwe record aan de juiste groep toe te voegen. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
-1. <span class="preview"> om groepen uit te breiden of te doen ineenstorten, doe één van het volgende:</span>
-
-   <div class="preview">
+1. Voer een van de volgende handelingen uit om groepen uit of samen te vouwen:
 
    1. Klik het **Groeperen** pictogram, dan **breid allen** uit, of **vouwt allen** samen. Hiermee worden alle groepen en subgroepen in de tabelweergave uitgebreid.
 
@@ -486,7 +477,7 @@ Een groep toevoegen:
       * **breid subgroups** uit
       * **samenvouwen subgroups**
 
-      Afhankelijk van het aantal groepen dat u op de weergave toepast, zijn sommige opties mogelijk niet beschikbaar.</div>
+      Afhankelijk van het aantal groepen dat u op de weergave toepast, zijn sommige opties mogelijk niet beschikbaar.
 
 <!-- this is not available yet: 
 
@@ -496,8 +487,6 @@ To sort grouped records:
 1. ************************* add steps here for sorting grouped records****************
 
 -->
-
-<div class="preview">
 
 ### Rijkleuren toevoegen
 
@@ -533,8 +522,6 @@ To sort grouped records:
 
 1. Klik buiten de **de kleuren van de Rij** doos om het te sluiten. De kleuren worden automatisch toegepast.
 
-</div>
-
 ### De real-time aanwezigheidsindicator inschakelen
 
 De avatars van andere gebruikers die recordinformatie uitgeven tezelfdertijd zoals u in de hoger-juiste hoek van alle verslagmeningen toont, door gebrek.
@@ -557,7 +544,7 @@ Wanneer u de tabelweergave weergeeft, kunt u ook bekijken welk veld een andere g
    >
    >U kunt **selecteren toont samenwerkers** knevel van om het even welke mening. Het veld dat momenteel door anderen wordt bewerkt, wordt alleen in de tabelweergave weergegeven.
 
-<div class="preview">
+
 
 
 

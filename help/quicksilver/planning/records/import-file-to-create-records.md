@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '923'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Records maken door gegevens te importeren uit een CSV- of Excel-bestand
 
-<span class="preview"> de informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -29,8 +29,6 @@ Voor meer informatie over het creëren van verslagen, zie [ verslagen ](/help/qu
 ## Toegangsvereisten
 
 +++ Vouw uit om de vereisten voor toegang weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -83,15 +81,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objectmachtigingen</p></td> 
-   <td> <p>Draag of hogere toestemmingen aan de werkruimte <span class="preview"> bij en verslagtype </span> waar u verslagen wilt toevoegen. </p>  
+   <td> <p>Draag of hogere toestemmingen aan de werkruimte bij en verslagtype waar u verslagen wilt toevoegen. </p>  
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>
    <p>Rechten voor Workfront-objecten (portfolio's) beheren om onderliggende objecten (projecten) toe te voegen.</p>
    </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Lay-outsjabloon</p></td> 
-   <td> <p>In het milieu van de Productie, moeten alle gebruikers met inbegrip van de Beheerders van het Systeem aan een lay-outmalplaatje worden toegewezen dat Planning omvat.</p>
-<p><span class="preview">In het milieu van de Voorproef, hebben de Standaardgebruikers en de Beheerders van het Systeem Planning die door gebrek wordt toegelaten.</span></p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -113,16 +106,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 * Lege bladen worden niet ondersteund.
 * Velden van de volgende typen worden niet ondersteund en kunnen niet worden toegewezen aan velden op het importblad:
 
-   * Verbindingsvelden, afhankelijk van de omgeving die u gebruikt:
-
-      * In de productieomgeving kunnen verbindingsvelden naar planningsrecords of Workfront- en AEM Assets-objecten niet worden toegewezen
-
-      * <span class="preview"> in het milieu van de Voorproef, kunt u verbindingsgebieden in kaart brengen en invoeren aan de verslagen van de Planning. U kunt geen gebieden aan Workfront en AEM Assets in kaart brengen.</span>
-
+   * Verbind gebieden met Workfront en AEM Assets objecten types. U kunt slechts verbindingsgebieden aan de types van het Verslag van de Planning in kaart brengen.
    * Velden opzoeken van verbonden planningsrecords of Workfront- en AEM Assets-objecten
    * Formuliervelden
    * Gemaakt op
    * Laatst gewijzigd op
+     <!--* <span class="preview">Approved date, Approved by</span>-->
    * Mensen
    * Als een multi- of single-select gebied wordt ingevoerd en het meer keuzen dan een gelijkaardig gebied in Planning heeft, worden de extra opties gecreeerd tijdens de invoer. Alleen gebruikers met de machtiging Beheren in de werkruimte kunnen nieuwe keuzen importeren.
 

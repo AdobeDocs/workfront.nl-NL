@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 44b3298905a04c64a457045c4112d9628d933aae
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '3804'
+source-wordcount: '3708'
 ht-degree: 0%
 
 ---
 
 # De tijdlijnweergave beheren
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -81,12 +81,7 @@ Voor informatie over verslagmeningen, zie [ verslagmeningen ](/help/quicksilver/
    <td role="rowheader"><p>Objectmachtigingen</p></td> 
    <td>   <p>Rechten beheren voor een weergave</p>  
    <p>Machtigingen weergeven voor een weergave om de weergave-instellingen tijdelijk te wijzigen of te dupliceren</p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Lay-outsjabloon</p></td> 
-   <td> <p>In het milieu van de Productie, moeten alle gebruikers met inbegrip van de Beheerders van het Systeem aan een lay-outmalplaatje worden toegewezen dat Planning omvat.</p>
-<p><span class="preview">In het milieu van de Voorproef, hebben de Standaardgebruikers en de Beheerders van het Systeem Planning die door gebrek wordt toegelaten.</span></p> </td> 
-  </tr> 
+  </tr>  
 </tbody> 
 </table>
 
@@ -126,9 +121,7 @@ Een tijdlijnweergave beheren:
    >
    >    Het sorteren van de records in de tijdlijn is niet zichtbaar in de compacte weergave.
 
-1. <span class="preview"> (Voorwaardelijk) Als uw beheerder aangepaste kwartalen heeft ingeschakeld en Workfront problemen detecteert met de manier waarop aangepaste kwartalen worden geconfigureerd, wordt mogelijk een waarschuwing weergegeven wanneer u de tijdlijnweergave opent. </span>
-
-   <div class="preview">
+1. (Voorwaardelijk) Als uw beheerder aangepaste kwarten heeft toegelaten, en Workfront problemen met de manier ontdekt de douanekwarten worden gevormd, zou u een waarschuwing kunnen ontvangen wanneer het openen van de chronologiemening.
 
    De volgende scenario&#39;s bestaan:
 
@@ -152,13 +145,11 @@ Een tijdlijnweergave beheren:
    >Nadat u aangepaste kwartalen hebt ingesteld in het gedeelte Instellen, worden in de tijdlijnweergave de aangepaste kwartalen weergegeven in plaats van de klassieke kwartalen.
    >Voor informatie, zie [ douanekwarten ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md) toelaten.
 
-   </div>
-
-1. <span class="preview"> (Voorwaardelijk) als u een beheerder van Workfront bent, klik **ga naar Opstelling** aan opstelling uw kwarten. Als niet, klik O.K. **en vraag uw beheerder van Workfront aan opstelling de douanekwarten.</span>**
+1. (Voorwaardelijk) als u een beheerder van Workfront bent, klik **ga naar Opstelling** aan opstelling uw kwarten. Als niet, klik **O.K.** en vraag uw beheerder van Workfront aan opstelling de douanekwartalen.
 
    >[!TIP]
    >
-   ><span class="preview"> Go naar de knoopvertoningen van de Opstelling slechts voor de beheerder van Workfront.</span>
+   >De knop Ga naar setup wordt alleen weergegeven voor de Workfront-beheerder.
 
 1. (Optioneel en voorwaardelijk) Wanneer de naam van de record wordt afgekapt, houdt u de muisaanwijzer boven een recordbalk om de volledige naam van de record en aanvullende informatie weer te geven. Voor informatie over vestiging bar truncation in de chronologie, zie de sectie [ de montages van de chronologiemening ](#edit-the-timeline-view-settings) in dit artikel uitgeven.
 
@@ -172,11 +163,11 @@ Een tijdlijnweergave beheren:
       * **Kwartaal**: De maanden en de weken van vertoningen met kwartaanwijzing.
       * **Maand**: De weken en dagen van vertoningen.
 1. (Facultatief) klik **Schakelaar aan Compacte mening** om de verslagen te tonen waarvan data niet op de zelfde lijn snijden. <!--check to see if they updated the name of the setting here-->
-1. (Voorwaardelijk) als u uw wijze in **Compact** veranderde, klik **Schakelaar aan Standaard** mening om verslagen in afzonderlijke lijnen te tonen. <span class="preview"> de **Standaard** optie is het gebrek.</span>  <!--check to see if they updated the name of the setting here-->
+1. (Voorwaardelijk) als u uw wijze in **Compact** veranderde, klik **Schakelaar aan Standaard** mening om verslagen in afzonderlijke lijnen te tonen. De **Standaard** optie is het gebrek.  <!--check to see if they updated the name of the setting here-->
 
 1. Ga als volgt te werk om snel records te zoeken die overeenkomen met een trefwoord:
 
-   1. Klik het **pictogram van het Onderzoek ![ pictogram van het 1&rbrace; Onderzoek ](assets/search-icon.png) en begin een sleutelwoord verbonden aan om het even welk gebied van een verslag te typen dat op het scherm toont.** Het aantal juiste overeenkomsten wordt weergegeven naast het zoekitem en de record met de juiste overeenkomst wordt gemarkeerd.
+   1. Klik het **pictogram van het Onderzoek** pictogram van het 1} Onderzoek ![ en begin een sleutelwoord verbonden aan om het even welk gebied van een verslag te typen dat op het scherm toont. ](assets/search-icon.png) Het aantal juiste overeenkomsten wordt weergegeven naast het zoekitem en de record met de juiste overeenkomst wordt gemarkeerd.
 
       ![ vakje van het Onderzoek en de mening van de resultaatchronologie ](assets/search-box-and-results-timeline-view.png)
 
@@ -392,7 +383,7 @@ Werk de instellingen van de tijdlijnweergave bij om aan te geven wat en hoe info
    >
    >* Als u aanvullende records weergeeft met de optie Indeling, zijn de begin- en einddatums die van de hoofdrecord. U kunt geen begin- en einddatums kiezen voor de verbonden records in dit gebied.
 
-1. <span class="preview"> (Voorwaardelijk en facultatief) als uw een beheerder van Workfront bent, klik **gaan naar Opstelling** in de **doos van het Gebruik douanekwartalen** om naar het gebied van de Opstelling en opstellings douanekwarten te gaan. Nadat u aangepaste kwarten hebt ingesteld, kunt u deze weergeven in de tijdlijnweergave in plaats van in de klassieke kwartalen. Als u geen beheerder van Workfront bent, kunt u verzoeken dat de douanekwarten voor uw organisatie van een beheerder worden toegelaten. </span>
+1. (Voorwaardelijk en facultatief) als uw een beheerder van Workfront bent, klik **gaan naar Opstelling** in de **doos van de Douane van het Gebruik** om naar het gebied van de Opstelling en opstellings douanekwarten te gaan. Nadat u aangepaste kwarten hebt ingesteld, kunt u deze weergeven in de tijdlijnweergave in plaats van in de klassieke kwartalen. Als u geen beheerder van Workfront bent, kunt u verzoeken dat de douanekwarten voor uw organisatie van een beheerder worden toegelaten.
 
    Voor informatie, zie [ douanekwarten ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md) toelaten.
 
@@ -400,11 +391,11 @@ Werk de instellingen van de tijdlijnweergave bij om aan te geven wat en hoe info
 
    >[!TIP]
    >
-   ><span class="preview"> Go naar de knoopvertoningen van de Opstelling slechts voor de beheerder van Workfront.</span>
+   >De knop Ga naar setup wordt alleen weergegeven voor de Workfront-beheerder.
 
 1. Klik **stijl van de Bar** in het linkerpaneel, om te wijzen op welke informatie u op de verslagbars wilt tonen.
 
-   U kunt de bar stijl van het belangrijkste verslag <span class="preview"> evenals voor de verbonden verslagen </span> bepalen, wanneer het gebruiken van de optie van de Onderverdeling in de Standaardmening.
+   U kunt de staafstijl van de hoofdrecord en van de verbonden records definiëren wanneer u de optie Onderverdeling in de standaardweergave gebruikt.
 
    Het primaire veld (of de titel) van de record, zoals gedefinieerd in de tabelweergave van de record, wordt standaard geselecteerd.
    <!--adjust this when the primary field is released??-->
@@ -429,20 +420,20 @@ Werk de instellingen van de tijdlijnweergave bij om aan te geven wat en hoe info
 
    ![ de chronologiemontages van het paneel van de Details van het Verslag met voorproef ](assets/record-details-panel-timeline-settings-with-preview.png)
 
-1. <span class="preview"> (Facultatief en voorwaardelijk) als u de chronologie op de Standaardwijze toont, selecteer **de details van de Truncate bar** plaatsen. Als deze optie is geselecteerd, wordt de informatie op de recordbalken ingekort en wordt deze alleen volledig weergegeven wanneer u de muisaanwijzer op de balken plaatst. Deze instelling is standaard uitgeschakeld en de recordgegevens worden volledig op de balken weergegeven. </span>
+1. (Facultatief en voorwaardelijk) als u de chronologie op de Standaardwijze toont, selecteer **de details van de bar van de Kortting** plaatsen. Als deze optie is geselecteerd, wordt de informatie op de recordbalken ingekort en wordt deze alleen volledig weergegeven wanneer u de muisaanwijzer op de balken plaatst. Deze instelling is standaard uitgeschakeld en de recordgegevens worden volledig op de balken weergegeven.
 
    ![ Truncate die op benadrukte doos van chronologiemontages wordt toegelaten ](assets/truncate-setting-enabled-on-timeline-settings-highlighted.png)
 
    >[!TIP]
    >
-   ><span class="preview"> het plaatsen van de details van de Truncate bar is niet beschikbaar wanneer het tonen van de chronologiemening op Compacte wijze.</span>
+   >De instelling voor de details van de afloopbalk is niet beschikbaar bij het weergeven van de tijdlijnweergave in de compacte modus.
    >
 
 1. Klik **Kleur** in het linkerpaneel, om de kleuren van de verslagen en de groeperingen in de chronologie aan te passen.
 
    ![ het lusje van de Kleur chronologiemening ](assets/color-tab-timeline-view.png)
 
-   U kunt de kleur van het belangrijkste verslag <span class="preview"> evenals voor de verbonden verslagen </span> bepalen, wanneer het gebruiken van de optie van de Onderverdeling in de Standaardmening.
+   U kunt de kleur definiëren van de hoofdrecord en van de verbonden records wanneer u de optie Onderverdeling in de standaardweergave gebruikt.
 
 1. (Voorwaardelijk en facultatief) als u een groepering aan de chronologiemening toevoegde, selecteer van de volgende opties om een kleur voor de groepering in de **Vastgestelde groeperingskleur** sectie te plaatsen:
 
@@ -481,7 +472,7 @@ Werk de instellingen van de tijdlijnweergave bij om aan te geven wat en hoe info
 
    Als u geen veld hebt met kleurgecodeerde opties voor het geselecteerde recordtype, wordt deze optie grijs weergegeven.
 
-1. <span class="preview"> (Facultatief) als u de **Breakdown** optie gebruikt, herhaal de stappen die met stap 4 voor elk verbonden verslag beginnen dat in de chronologie wordt getoond. </span>
+1. (Facultatief) als u de **Opsplitsing** optie gebruikt, herhaal de stappen die met stap 4 voor elk verbonden verslag beginnen in de chronologie wordt getoond.
 
 1. Klik **sparen**.
 
@@ -515,7 +506,7 @@ U kunt verbonden verslagen in de chronologiemening van een verslag tonen door de
 #### Verbonden records opsplitsen
 
 1. Creeer een chronologiemening voor een verslagtype, zoals die in artikel [ wordt beschreven beheer verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md).
-1. Van de **Standaard** of <span class="preview">**Compacte** wijzen, klik **Onderbreking**</span> in de hoger-juiste hoek van de chronologiemening.
+1. Van de **Standaard** of **Compacte** wijzen, klik **Onderbreking** in de hoger-juiste hoek van de chronologiemening.
 1. Vouw **Uitgezocht een verbonden verslagtype** doos uit en selecteer een verbonden verslagtype. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
    ![ de plukker en knoop van de Onderbreking op chronologiemening ](assets/breakdown-picker-and-button-on-timeline.png)
@@ -543,13 +534,13 @@ U kunt verbonden verslagen in de chronologiemening van een verslag tonen door de
    >
    >Zowel Producten als Programma&#39;s moeten met de campagnes worden verbonden om als keuzen voor de verdelingsoptie te tonen, en u kunt hen aan de onderbreking in om het even welke orde toevoegen.
 
-1. <span class="preview"> (Voorwaardelijk) als u de chronologie op de Compacte wijze bekijkt, klik **mening van de Schakelaar**. De uitsplitsing is niet zichtbaar op **Compacte** wijze.</span>
+1. (Voorwaardelijk) als u de chronologie op de Compacte wijze bekijkt, klik **mening van de Schakelaar**. De uitsplitsing is niet zichtbaar op **Compacte** wijze.
 
    >[!TIP]
    >
-   ><span class="preview"> Uitgezochte **toont dit niet opnieuw** in de **Schakelaar aan de Standaardmening?** gebruiken voordat u van weergave verandert. </span>
+   >Selecteer **tonen dit niet opnieuw** in de **Schakelaar aan de Standaardmening?** gebruiken voordat u van weergave verandert.
    >
-   ><span class="preview"> deze voorkeur wordt herinnerd slechts voor huidige browser. Als u browsers of computers wijzigt, moet u deze voorkeur opnieuw selecteren.</span>
+   >Deze voorkeur wordt slechts herinnerd voor huidige browser. Als u browsers of computers wijzigt, moet u deze voorkeur opnieuw selecteren.
    >
    >U kunt niet terugkeren naar de compacte modus nadat u de weergave hebt ingesteld op Standaard en verbonden records hebt weergegeven in de weergave.
 1. (Optioneel) Herhaal bovenstaande stappen om meer verbonden records toe te voegen.
