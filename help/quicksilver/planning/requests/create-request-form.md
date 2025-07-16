@@ -275,7 +275,7 @@ Voor informatie over het voorleggen van de verzoeken van de Planning van Workfro
 
 1. <span class="preview"> (Voorwaardelijk) Selecteer in de voorvertoningsomgeving het tabblad Intern delen, zoek naar de naam van de gebruiker en selecteer dit tabblad wanneer het wordt weergegeven in de lijst om het tabblad te delen. </span>
 1. <span class="preview"> (Voorwaardelijk) Als u in de voorvertoningsomgeving een openbare koppeling wilt maken, selecteert u het tabblad Openbaar delen en schakelt u vervolgens de optie Openbare koppeling maken in of uit. U kunt de verbinding hier dan kopiëren, of een datum van de verbindingsvervaldatum plaatsen.</span>
-1. Klik **sparen** in de laag-juiste hoek van het **3} lusje van de Vorm {om de vorm te bewaren.**
+1. Klik **sparen** in de laag-juiste hoek van het **3&rbrace; lusje van de Vorm &lbrace;om de vorm te bewaren.**
 
 1. Klik op de pijl die naar links wijst links van de naam van het formulier in de koptekst om het formulier te sluiten.
 
