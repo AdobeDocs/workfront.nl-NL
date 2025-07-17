@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 718ed3efd56c532693d26cc067041bedbc71cca0
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '2059'
+source-wordcount: '1973'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 <!--do not use the snippet for IMPORTANT as it links to this article-->
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
 
 >[!IMPORTANT]
 >
@@ -166,14 +166,13 @@ The following features are currently available in Workfront Planning:
 
 Nadat uw organisatie een pakket van de Planning van Workfront, als beheerder van Workfront koopt, moet u het volgende verzekeren zijn op zijn plaats alvorens de gebruikers tot de Planning van Workfront kunnen toegang hebben:
 
-* Afhankelijk van welke omgeving u gebruikt, wijs de volgende gebruikers een lay-outmalplaatje toe dat Planning in het Belangrijkste Menu omvat:
+* Wijs de volgende gebruikers een lay-outmalplaatje toe dat Planning in het Belangrijkste Menu omvat:
 
-   * In het milieu van de Productie, wijs het malplaatje aan alle gebruikers van alle vergunningstypes, met inbegrip van de Beheerders van het Systeem toe.
+   * Wijs de lay-outsjabloon toe aan gebruikers van Light en Contribute.
 
-   * <span class="preview"> in het milieu van de Voorproef, wijs het malplaatje aan Licht en Contribute gebruikers toe. De standaardgebruikers en de Beheerders van het Systeem hebben Planning die door gebrek wordt toegelaten. </span>
+     De standaardgebruikers en de Beheerders van het Systeem hebben Planning die door gebrek wordt toegelaten.
 
   Voor meer informatie, zie [ het Belangrijkste Menu aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) en [ wijs gebruikers aan een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md) toe.
-
 
 * Wijs gebruikers een Workfront-licentie en Workfront Planning-machtigingen toe waarmee ze objecten kunnen weergeven of maken in Workfront Planning. Voor meer informatie over het verlenen van toegang tot en het toelaten van anderen om de Planning van Workfront te gebruiken, zie [ het Overzicht van de de toegang van de Planning van Adobe ](/help/quicksilver/planning/access/access-overview.md).
 
@@ -325,7 +324,6 @@ Hieronder vindt u de belangrijkste Workfront-planningsobjecten en -concepten:
      ![ groepering die in chronologiemening wordt toegepast ](assets/grouping-applied-in-timeline-view.png)
 
    * **mening van de Kalender**: De verslagen van vertoningen die minstens twee Datum-type gebieden in een kalenderformaat hebben.
-
      ![ de meningsvoorbeeld van de Kalender ](assets/calendar-view-example.png)
 
 
@@ -355,7 +353,7 @@ Workfront-planning zoeken:
    * **Werkruimten ik** ben: De werkruimten van vertoningen die u creeerde of werkruimten die met u worden gedeeld.
    * **Andere werkruimten**: Toont alle andere werkruimten in het systeem.
 
-   Voor alle andere gebruikers, zowel werkruimten die zij creeerden of met hen worden gedeeld tonen in het **1&rbrace; gebied van de Werkruimten &lbrace;.**
+   Voor alle andere gebruikers, zowel werkruimten die zij creeerden of met hen worden gedeeld tonen in het **1} gebied van de Werkruimten {.**
 
 1. (Optioneel en aanbevolen) Ga door met een aantal van de volgende acties om uw werkstructuur te maken:
 
@@ -397,7 +395,7 @@ Voor een bijgewerkte lijst van vrijgegeven eigenschappen, zie [ de versieactivit
     >
     >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.-->
 
-* [ Adobe Workfront planningsmodules voor de Fusie van Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Met de modules van de Planning van Adobe Workfront, kunt u een scenario teweegbrengen wanneer de gebeurtenissen in de Planning van Workfront voorkomen. U kunt ook records maken, lezen, bijwerken en verwijderen of een aangepaste API-aanroep naar uw Adobe Workfront Planning-account uitvoeren.
+* [ Adobe Workfront planningsmodules voor de Fusie van Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Met de modules van de Planning van Adobe Workfront, kunt u een scenario teweegbrengen wanneer de gebeurtenissen in de Planning van Workfront voorkomen. U kunt ook records maken, lezen, bijwerken en verwijderen of een aangepaste API-aanroep naar uw Adobe Workfront Planning-account uitvoeren.
 
 * [ de Planning API van Adobe Workfront basiscs ](/help/quicksilver/planning/general/planning-api-basics.md): Het doel voor de Planning API van Adobe Workfront is bouwintegratie met Planning te vereenvoudigen door een REST-ful architectuur te introduceren die over HTTP werkt.
 

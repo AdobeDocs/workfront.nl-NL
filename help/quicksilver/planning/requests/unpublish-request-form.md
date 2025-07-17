@@ -3,10 +3,10 @@ title: Publiceren van een aanvraagformulier in Adobe Workfront-planning ongedaan
 description: U kunt de publicatie van een aanvraagformulier ongedaan maken als dit niet meer nodig of relevant is. Als u de publicatie ongedaan maakt, verwijdert u ieders machtigingen om het formulier te openen.
 feature: Workfront Planning
 role: User, Admin
-author: Alina
+author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
 source-wordcount: '863'
 ht-degree: 0%

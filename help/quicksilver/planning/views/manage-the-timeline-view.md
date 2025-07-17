@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '3708'
+source-wordcount: '3750'
 ht-degree: 0%
 
 ---
@@ -66,9 +66,9 @@ Voor informatie over verslagmeningen, zie [ verslagmeningen ](/help/quicksilver/
    </td> 
    </tr> 
   </tr> 
-  <tr> 
-   <td role="rowheader"><p>Adobe Workfront-licentie*</p></td> 
-   <td><p> Standaard </p>
+    <td role="rowheader"><p>Adobe Workfront-licentie*</p></td> 
+   <td><p> Standaard voor het maken en verwijderen van weergaven</p>
+   <p>Medewerker of hoger om weergave-elementen bij te werken</p>
    <p>Workfront Planning is niet beschikbaar voor oudere Workfront-licenties</p> 
   </td> 
   </tr> 
@@ -81,7 +81,13 @@ Voor informatie over verslagmeningen, zie [ verslagmeningen ](/help/quicksilver/
    <td role="rowheader"><p>Objectmachtigingen</p></td> 
    <td>   <p>Rechten beheren voor een weergave</p>  
    <p>Machtigingen weergeven voor een weergave om de weergave-instellingen tijdelijk te wijzigen of te dupliceren</p> </td> 
-  </tr>  
+  </tr> 
+<tr>
+   <td role="rowheader"><p>Lay-outsjabloon</p></td>
+   <td> De gebruikers met een Licht of de vergunning van de Medewerker moeten een lay-outmalplaatje worden toegewezen dat Planning omvat.
+   <p>De standaardgebruikers en de Beheerders van het Systeem hebben de Gebieden van de Planning die door gebrek worden toegelaten.</p></div></li></ul>
+</td>
+  </tr>
 </tbody> 
 </table>
 
@@ -167,7 +173,7 @@ Een tijdlijnweergave beheren:
 
 1. Ga als volgt te werk om snel records te zoeken die overeenkomen met een trefwoord:
 
-   1. Klik het **pictogram van het Onderzoek** pictogram van het 1&rbrace; Onderzoek ![ en begin een sleutelwoord verbonden aan om het even welk gebied van een verslag te typen dat op het scherm toont. ](assets/search-icon.png) Het aantal juiste overeenkomsten wordt weergegeven naast het zoekitem en de record met de juiste overeenkomst wordt gemarkeerd.
+   1. Klik het **pictogram van het Onderzoek** pictogram van het 1} Onderzoek ![ en begin een sleutelwoord verbonden aan om het even welk gebied van een verslag te typen dat op het scherm toont. ](assets/search-icon.png) Het aantal juiste overeenkomsten wordt weergegeven naast het zoekitem en de record met de juiste overeenkomst wordt gemarkeerd.
 
       ![ vakje van het Onderzoek en de mening van de resultaatchronologie ](assets/search-box-and-results-timeline-view.png)
 

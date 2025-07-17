@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '602'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # Werkruimten maken
 
-<span class="preview"> de informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -87,11 +87,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader"><p>Objectmachtigingen</p></td> 
    <td>   <p>U ontvangt beheermachtigingen voor de werkruimten die u maakt. </p> </td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>Lay-outsjabloon</p></td> 
-   <td> <p>In het milieu van de Productie, moeten alle gebruikers met inbegrip van de Beheerders van het Systeem aan een lay-outmalplaatje worden toegewezen dat Planning omvat.</p>
-<p><span class="preview">In het milieu van de Voorproef, hebben de Standaardgebruikers en de Beheerders van het Systeem Planning die door gebrek wordt toegelaten.</span></p></td> 
-  </tr> 
 </tbody> 
 </table>
 
@@ -138,7 +133,7 @@ U kunt een werkruimte maken en er recordtypen aan toevoegen om uw objecten te or
 
    Voor de beheerders van Workfront, de nieuwe werkruimtevertoningen op de **Werkruimten ik op** tabel ben.
 
-   Voor alle andere gebruikers die werkruimten kunnen tot stand brengen, toont de nieuwe werkruimte in het **1&rbrace; gebied van de Werkruimten &lbrace;.**
+   Voor alle andere gebruikers die werkruimten kunnen tot stand brengen, toont de nieuwe werkruimte in het **1} gebied van de Werkruimten {.**
 
 1. Klik binnen de naam van de werkruimte in de koptekst van de nieuwe werkruimte om de naam ervan te wijzigen en druk vervolgens op Enter.
 

@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: 60f2890e431065d0eb034a9254680e43a51ecab8
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '939'
 ht-degree: 0%
 
 ---
 
 # Opnameopmerkingen beheren
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -31,8 +31,6 @@ In het rechterdeelvenster van een record worden de volgende secties weergegeven:
 ## Toegangsvereisten
 
 +++ Vouw uit om de vereisten voor toegang weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -84,19 +82,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objectmachtigingen</p></td> 
-   <td>   <p>De mening of hogere toestemmingen aan een werkruimte <span class="preview"> en verslagtype </span> </a> </p>  
+   <td>   <p>De mening of hogere toestemmingen aan een werkruimte en verslagtype </a> </p>  
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p> </td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>Lay-outsjabloon</p></td> 
-   <td> <p>In het milieu van de Productie, moeten alle gebruikers met inbegrip van de beheerders van het Systeem aan een lay-outmalplaatje worden toegewezen dat de gebieden van de Planning omvat.</p>
-   <div class="preview">
-<p> In het milieu van de Voorproef, moeten de gebruikers met een Licht of de vergunning van de Medewerker een lay-outmalplaatje worden toegewezen dat Planning omvat.</p>
+<tr>
+   <td role="rowheader"><p>Lay-outsjabloon</p></td>
+   <td> De gebruikers met een Licht of de vergunning van de Medewerker moeten een lay-outmalplaatje worden toegewezen dat Planning omvat.
+   <p>De standaardgebruikers en de Beheerders van het Systeem hebben de Gebieden van de Planning die door gebrek worden toegelaten.</p></div></li></ul>
 
-<p>De standaardgebruikers en de Beheerders van het Systeem hebben Planning die door gebrek wordt toegelaten.</p></div>
-
-<p>Voor meer informatie, zie <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md"> lay-outmalplaatjes </a> creëren en beheren.</p> </td> 
-  </tr> 
+</td>
+  </tr>
 </tbody> 
 </table>
 
@@ -145,7 +140,7 @@ De recordtypepagina wordt geopend en alle records van dat type worden weergegeve
 1. Kies een lijstmening van het **drop-down menu van de Mening**.
 1. Klik op de naam van een record in de tabelweergave.
 
-   De 1&rbrace; pagina van de Details van het verslag **&lbrace;opent.** Het gebied Opmerkingen wordt standaard in het rechtervenster geopend.
+   De 1} pagina van de Details van het verslag **{opent.** Het gebied Opmerkingen wordt standaard in het rechtervenster geopend.
 
 1. (Voorwaardelijk) als het juiste paneel niet door gebrek opent, klik **tonen Commentaren** ![ tonen commentaarpictogram ](assets/show-comments-icon.png) in de hoger-juiste hoek om de sectie van Commentaren te openen.
 

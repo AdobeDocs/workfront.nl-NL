@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '519'
 ht-degree: 0%
 
 ---
 
 # Overzicht van verbonden records
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken.</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>  -->
 
 {{planning-important-intro}}
 
@@ -41,8 +41,8 @@ Voor informatie over hoe u verslagen met elkaar of met een ander voorwerp kunt v
 
   De waarden van de opzoekvelden vullen de Workfront-planningsrecord die u koppelt automatisch nadat deze zijn bijgewerkt in de oorspronkelijke record of het oorspronkelijke object.
 
-* Iedereen met toegang tot de Planning van Workfront en Mening of hogere toestemmingen aan de werkruimte <span class="preview"> en een verslagtype </span> kan de verbindingen zien die u tussen verslagen of tussen verslagen en andere voorwerpen van toepassingen maakt. Ze kunnen verbonden records en objecten bekijken, ongeacht hun machtigingen in de toepassingen waarmee u verbinding maakt.
-* U kunt de verbindingen van iedereen anders bekijken en uitgeven, als u beheertoestemmingen aan de werkruimte <span class="preview"> en het verslagtype </span> hebt waar de verbonden verslagen zijn.
+* Iedereen met toegang tot de Planning en de Mening van Workfront of hogere toestemmingen aan de werkruimte en een verslagtype kan de verbindingen zien die u tussen verslagen of tussen verslagen en andere voorwerpen van toepassingen maakt. Ze kunnen verbonden records en objecten bekijken, ongeacht hun machtigingen in de toepassingen waarmee u verbinding maakt.
+* U kunt de verbindingen van iedereen anders weergeven en bewerken als u beheerdersmachtigingen hebt voor de werkruimte en het recordtype waarin de verbonden records zich bevinden.
 * U kunt één record verbinden met een of meerdere objecten vanuit een andere toepassing. Dit is afhankelijk van het type verbinding dat u hebt geselecteerd bij het verbinden van de recordtypen. Voor meer informatie, zie de &quot;types van Verbindingen&quot;sectie in het artikel [ Verbonden overzicht van recordtypes ](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
 ## Gebieden waar u records kunt verbinden
@@ -54,7 +54,7 @@ U kunt records in de volgende gebieden verbinden met andere records of met objec
    * De verbonden verslaggebieden in de lijstmening van een verslagtype in Planning.
    * De voorvertoning of pagina van de record in de verbonden recordvelden op het tabblad Details.
    * De voorvertoning of pagina van de record op het tabblad Verbindingen.
-   * De pagina van het verslag in a <span class="preview"> Verbonden verslagenpagina </span> tabel van een verbonden verslag.
+   * De pagina van het verslag in een Verbonden verslagenpagina tabel van een verbonden verslag.
 
 * U kunt Workfront-objecten verbinden met Workfront Planning-records in de volgende gebieden van Workfront:
 

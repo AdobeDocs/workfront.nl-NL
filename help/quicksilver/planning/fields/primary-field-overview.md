@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: fe3127ab-3f59-46a0-a747-9e9e1582265b
-source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Overzicht van primair veld
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -53,4 +53,4 @@ Voor informatie over hoe te om een gebied als primair gebied aan te wijzen, zie 
 * Het wijzigen van het primaire veld in de tabelweergave heeft invloed op de weergave voor alle andere gebruikers die deze selecteren.
 * Het wijzigen van het primaire veld in een tabelweergave heeft invloed op alle tabelweergaven van het recordtype.
 * De waarde in het primaire veld is altijd gekoppeld aan de pagina van de record.
-* Als u Contribute of hogere toestemmingen aan een werkruimte <span class="preview"> en verslagtype </span> hebt, kunt u de waarde van primaire gebieden, behalve formulengebieden uitgeven. Formules zijn berekeningen die automatisch worden bijgewerkt.
+* Als u over Contribute of hogere machtigingen voor een werkruimte en recordtype beschikt, kunt u de waarde van primaire velden bewerken, behalve voor formuliervelden. Formules zijn berekeningen die automatisch worden bijgewerkt.

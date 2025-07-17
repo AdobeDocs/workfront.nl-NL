@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 994594f2-a888-423a-bf66-0d14baf57c55
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '673'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # Velden importeren uit Adobe Workfront
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  -->
 
 
 {{planning-important-intro}}
@@ -30,8 +30,6 @@ U kunt kopieën van bestaande Workfront-velden importeren. Als u velden importee
 ## Toegangsvereisten
 
 +++ Vouw uit om de vereisten voor toegang weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -83,13 +81,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objectmachtigingen</p></td> 
-   <td>   <p>Rechten beheren op een werkruimte <span class="preview"> en het recordtype </span> </a> </p>  
+   <td>   <p>Machtigingen beheren voor een werkruimte en het type record </a> </p>  
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt.</p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Lay-outsjabloon</p></td> 
-   <td> <p>In het milieu van de Productie, moeten alle gebruikers met inbegrip van de Beheerders van het Systeem aan een lay-outmalplaatje worden toegewezen dat Planning omvat.</p>
-<p><span class="preview">In het milieu van de Voorproef, hebben de Standaardgebruikers en de Beheerders van het Systeem Planning die door gebrek wordt toegelaten.</span></p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -175,7 +168,7 @@ Alle andere Workfront-veldtypen worden niet ondersteund in Workfront Planning.
 
 1. Typ de naam van een bestaand Workfront-veld in het zoekgebied en klik vervolgens op **+** wanneer het veld in de lijst wordt weergegeven.
 1. (Optioneel) Typ een ander veld en klik op **+** wanneer dit in de lijst wordt weergegeven.
-1. (Facultatief) klik de **pictogram van Filters ![ Filters op het pictogram van de de invoergebieden ](assets/filters-in-import-fields-icon.png), dan werk één of allebei van de volgende gebieden bij:**
+1. (Facultatief) klik de **pictogram van Filters** Filters op het pictogram van de de invoergebieden ![, dan werk één of allebei van de volgende gebieden bij:](assets/filters-in-import-fields-icon.png)
 
    * Objecttype: selecteer een Workfront-objecttype waarvan u de velden wilt importeren.
    * Aangepast formulier: selecteer een of meer aangepaste formulieren in Workfront. U kunt een aangepast formulier selecteren zonder eerst een objecttype te selecteren.

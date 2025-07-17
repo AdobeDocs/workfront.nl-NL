@@ -1,12 +1,12 @@
 ---
 title: Adobe Workfront Planning AI Assistant - Overzicht
 description: U kunt de AI-assistent gebruiken om records te genereren, bij te werken of te verwijderen die zijn gebaseerd op de context van de huidige pagina en de recordstructuur. De bevelen van de gebruiker en de uitvoering van AI van die bevelen werken samen om ervoor te zorgen dat de veranderingen door AI worden aangebracht nauwkeurig in uw milieu worden weerspiegeld.
-author: Alina
+author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: a5b7683bffa6c63d7feb45e5c38404185d3f2b44
+source-git-commit: a36968bdae5756f0f8283da04a2afca83b4dd94a
 workflow-type: tm+mt
 source-wordcount: '720'
 ht-degree: 0%
@@ -84,7 +84,7 @@ U kunt de AI-assistent vinden op de volgende gebieden van de Workfront-planning:
 
 1. (Facultatief) klik a **verslagtype kaart**.
 
-1. (Facultatief) klik a **verslag** om de 2&rbrace; Details van het verslag **pagina te openen.**
+1. (Facultatief) klik a **verslag** om de 2} Details van het verslag **pagina te openen.**
 
 1. Klik het **AI Hulppictogram** in de hoger-juiste hoek van het scherm in de globale navigatiebar of in de hoger-juiste hoek van de voorproef of de pagina van het verslag.
 

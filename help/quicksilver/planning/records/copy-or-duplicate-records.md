@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2fed8c96-0c9c-4662-a9c4-66dae507ff2a
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '580'
 ht-degree: 0%
 
 ---
 
 # Records dupliceren
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -81,13 +81,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objectmachtigingen</p></td> 
-   <td>   <p>Contribute of hogere toestemmingen aan een werkruimte <span class="preview"> en verslagtype </span></a> </p>  
+   <td>   <p>Contribute of hoger machtigingen voor een werkruimte en recordtype </a> </p>  
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Lay-outsjabloon</p></td> 
-   <td> <p>In het milieu van de Productie, moeten alle gebruikers met inbegrip van de Beheerders van het Systeem aan een lay-outmalplaatje worden toegewezen dat Planning omvat.</p>
-<p><span class="preview">In het milieu van de Voorproef, hebben de Standaardgebruikers en de Beheerders van het Systeem Planning die door gebrek wordt toegelaten.</span></p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -121,7 +116,7 @@ Alle records van het geselecteerde type worden in de weergave weergegeven.
 
      ![ Meer menu van verslag in lijstmening ](assets/more-menu-from-record-in-table-view.png)
 
-   * Selecteer een verslag, dan klik het **pictogram ![ Dupliceer pictogram ](assets/duplicate-icon-white-and-blue.png) in de toolbar bij de bodem van de pagina wit en blauw**.
+   * Selecteer een verslag, dan klik het **pictogram** Dupliceer pictogram ![ in de toolbar bij de bodem van de pagina wit en blauw ](assets/duplicate-icon-white-and-blue.png).
 
      ![ Dupliceer pictogram in toolbar in lijstmening ](assets/duplicate-icon-in-toolbar-in-table-view.png)
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,9 @@ ht-degree: 0%
 
 # Records verwijderen
 
-<!--take Preview and Production references out at release-->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
-
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  -->
 
 {{planning-important-intro}}
 
@@ -29,8 +27,6 @@ U kunt records verwijderen die niet meer relevant zijn in Adobe Workfront Planni
 ## Toegangsvereisten
 
 +++ Vouw uit om de vereisten voor toegang weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -82,13 +78,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objectmachtigingen</p></td> 
-   <td>   <p>Contribute of hogere toestemmingen aan een werkruimte <span class="preview"> en verslagtype </span> </a> </p>  
+   <td>   <p>Contribute of hoger machtigingen voor een werkruimte en recordtype </a> </p>  
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Lay-outsjabloon</p></td> 
-   <td> <p>In het milieu van de Productie, moeten alle gebruikers met inbegrip van de Beheerders van het Systeem aan een lay-outmalplaatje worden toegewezen dat Planning omvat.</p>
-<p><span class="preview">In het milieu van de Voorproef, hebben de Standaardgebruikers en de Beheerders van het Systeem Planning die door gebrek wordt toegelaten.</span></p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -100,7 +91,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 ## Overwegingen bij het verwijderen van records
 
 * U kunt records verwijderen die u of een andere gebruiker heeft gemaakt.
-* U kunt verwijderde records niet herstellen in de productieomgeving. U kunt verwijderde records herstellen in de voorvertoningsomgeving.
+* U kunt verwijderde records herstellen die u of anderen hebben verwijderd.
 * Als de verwijderde records zijn gekoppeld aan andere records, worden de gekoppelde records niet verwijderd, maar worden de gegevens uit de verwijderde record ook verwijderd.
 * U kunt records niet verwijderen uit de tijdlijn of de kalenderweergaven.
 
@@ -136,7 +127,7 @@ U kunt een record uit de volgende gebieden verwijderen:
 
    ![ Meer menuopties van de pagina van verslagdetails ](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 De record wordt verwijderd.
-1. (Facultatief en voorwaardelijk) als u het verslag in het milieu van de Voorproef schrapt, naar de lijstmening van de verslagpagina gaat, en **klikt ongedaan maken** pictogram ![ pictogram ](assets/undo-icon.png) in de hoger-juiste hoek van de mening, dan klik **onlangs geschrapt** om de geschrapte verslagen terug te krijgen.
+1. (Facultatief) ga naar de lijstmening van de verslagpagina, en klik **ongedaan maken** pictogram ![ pictogram ](assets/undo-icon.png) in de hoger-juiste hoek van de mening, dan klik **onlangs geschrapt** om de geschrapte verslagen terug te krijgen.
 
 Voor informatie over het terugkrijgen van geschrapte verslagen, zie [ Recover geschrapte verslagen ](/help/quicksilver/planning/records/restore-deleted-records.md).
 

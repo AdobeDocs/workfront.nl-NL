@@ -6,18 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
 
 # Werkruimten delen
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -90,12 +90,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 <tr> 
    <td role="rowheader"><p>Objectmachtigingen</p></td> 
    <td>  <p>Machtigingen beheren in een werkruimte</p>  </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Lay-outsjabloon</p></td> 
-   <td> <p>In het milieu van de Productie, moeten alle gebruikers met inbegrip van de Beheerders van het Systeem aan een lay-outmalplaatje worden toegewezen dat de gebieden van de Planning omvat.</p>
-<p><span class="preview">In het milieu van de Voorproef, hebben de Standaardgebruikers en de Beheerders van het Systeem het Gebied van de Planning dat door gebrek wordt toegelaten.</span></p></td> 
-  </tr> 
+  </tr>
+
 </tbody> 
 </table>
 
@@ -111,12 +107,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 * U kunt werkruimten niet delen met gebruikers buiten uw organisatie.
 * Wanneer u een werkruimte deelt, worden ook alle recordtypen, records en velden gedeeld die aan de werkruimten zijn gekoppeld.
 * Als u een werkruimte deelt, worden de weergaven niet gedeeld. U moet de weergaven afzonderlijk delen.
-
-<div class="preview">
-
 * Workspace-machtigingen worden weergegeven als Geërfde machtigingen voor recordtypen.
-
-</div>
 
 ## Machtigingen delen naar een werkruimte
 
@@ -156,10 +147,8 @@ Gebruikers die een koppeling openen naar een werkruimte waarvoor zij geen machti
 1. (Voorwaardelijk) Als u de manager van een werkruimte bent, zou u een verzoek van een andere gebruiker kunnen ontvangen om tot de mening op de volgende gebieden toegang te hebben:
 
    * Een melding in de app
-
      ![ In-app bericht voor toegangsverzoek ](assets/in-app-notification-for-access-request.png)
    * Een e-mailmelding
-
      ![ E-mailbericht voor toegangsverzoek ](assets/email-notification-for-access-request.png)
 1. (Voorwaardelijk) Klik in het systeemvak in Workfront op de melding in de app.
 of

@@ -3,12 +3,12 @@ title: Aanvragen voor Adobe Workfront-planning verzenden
 description: Nadat iemand een verbinding met een verzoekformulier met u van een verslagtype pagina in de Planning van Adobe Workfront deelt, kunt u een verzoek toevoegen om verslagen voor het verslagtype tot stand te brengen verbonden aan het verzoekformulier.
 feature: Workfront Planning
 role: User, Admin
-author: Alina
+author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '2091'
+source-wordcount: '2019'
 ht-degree: 0%
 
 ---
@@ -41,8 +41,6 @@ Voor informatie over hoe een werkruimtemanager een verzoekvorm kan tot stand bre
 ## Toegangsvereisten
 
 +++ Vouw uit om de vereisten voor toegang weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto">
  <col>
@@ -96,20 +94,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 <tr>
    <td role="rowheader"><p>Objectmachtigingen</p></td>
    <td>
-   <p>De mening of hogere toestemmingen aan een werkruimte <span class="preview"> en verslagtype </span>, als u een gebruiker van Workfront bent</p> 
+   <p>Machtigingen weergeven of hoger voor een werkruimte en recordtype als u een Workfront-gebruiker bent</p> 
   </td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Om tot het planningsgebied in Workfront toegang te hebben, moet u de volgende configuratie van het lay-outmalplaatje hebben: </p>
-<ul>
-<li><p>In het milieu van de Productie, moeten alle gebruikers met inbegrip van de beheerders van het Systeem aan een lay-outmalplaatje worden toegewezen dat Planning omvat.</p></li>
-<li><div class="preview">
-<p> In het milieu van de Voorproef, moeten de gebruikers met een Licht of de vergunning van de Medewerker een lay-outmalplaatje worden toegewezen dat Planning omvat.
-   <p>De standaardgebruikers en de Beheerders van het Systeem hebben de Gebieden van de Planning die door gebrek worden toegelaten.</p></div></li></ul>
-
-<p> De toegang tot het planningsgebied is echter niet vereist voor het indienen van aanvragen bij Workfront Planning. </p>  
-</td>
   </tr>
  </tbody>
 </table>
@@ -226,8 +212,6 @@ Het toelaten van dit plaatsen maakt de het verzoekvormen van de Planning van Wor
 Alle verzoeken u hebt toegang tot mening die aan een de vormvertoning van het de verzoekformulier van de Planning in een lijst werden voorgelegd.
 1. (Optioneel) Voer een van de volgende handelingen uit:
 
-   <div class="preview">
-
    * Klik **Filters** en begin toevoegend voorwaarden voor welke verzoeken u in de Planning tabel wilt bekijken.
 
      ![ het Uitgeven filters in de Verzoeken tabel van de Planning ](assets/filters-editing-box-in-requests-planning-tab.png)
@@ -261,10 +245,8 @@ De aanvraaglijst wordt automatisch gefilterd, aangezien u de filtervoorwaarden t
 
    ![ pagina van de Details van het Verzoek ](assets/request-details-page.png)
 
-   </div>
 
-
-1. (Voorwaardelijk) als de verzoekvorm niet met een goedkeuring wordt geassocieerd, of als het verzoek is goedgekeurd, klik de naam van het verzoek, dan klik de naam van het verslag op het **1&rbrace; gebied van het Verslag &lbrace;.**
+1. (Voorwaardelijk) als de verzoekvorm niet met een goedkeuring wordt geassocieerd, of als het verzoek is goedgekeurd, klik de naam van het verzoek, dan klik de naam van het verslag op het **1} gebied van het Verslag {.**
 
    De pagina van het verslag opent in de Planning van Workfront.
 
@@ -313,7 +295,7 @@ De aanvraaglijst wordt automatisch gefilterd, aangezien u de filtervoorwaarden t
      >
      >De e-mail en in-app meldingen zijn alleen zichtbaar wanneer het exemplaar van Workfront van uw organisatie is aangemeld bij de Adobe Unified Experience.
 
-   <!--* <span class="preview"> After the request was approved and the record was created, the Approved by and Approved date fields display information about the approval on the record.</span>-->
+   * <span class="preview"> Nadat de aanvraag is goedgekeurd en de record is gemaakt, geven de datumvelden Goedgekeurd door en Goedgekeurd informatie over de goedkeuring weer in de record. </span>
 
 1. (Facultatief) klik **Mening uw verzoek** om het verzoek in Workfront te openen.
 
@@ -327,7 +309,7 @@ De aanvraaglijst wordt automatisch gefilterd, aangezien u de filtervoorwaarden t
 
    ![ pagina van de Details van het Verzoek ](assets/request-details-page.png)
 
-1. (Voorwaardelijk) als de verzoekvorm niet met een goedkeuring wordt geassocieerd, of als het verzoek is goedgekeurd, klik de naam van het verzoek, dan klik de naam van het verslag op het **1&rbrace; gebied van het Verslag &lbrace;.**
+1. (Voorwaardelijk) als de verzoekvorm niet met een goedkeuring wordt geassocieerd, of als het verzoek is goedgekeurd, klik de naam van het verzoek, dan klik de naam van het verslag op het **1} gebied van het Verslag {.**
 
    De pagina van het verslag opent in de Planning van Workfront.
 

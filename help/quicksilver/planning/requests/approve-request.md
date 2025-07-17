@@ -3,12 +3,12 @@ title: Een aanvraag goedkeuren in Adobe Workfront-planning
 description: Wanneer een gebruiker een aanvraag indient voor een aanvraagformulier dat is gekoppeld aan een goedkeuring in Adobe Workfront Planning, ontvangen fiatteurs een melding en een e-mail over de goedkeuring die in behandeling is. Ze moeten het verzoek goedkeuren voordat Workfront Planning een object maakt.
 feature: Workfront Planning
 role: User, Admin
-author: Alina
+author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '948'
 ht-degree: 0%
 
 ---
@@ -45,13 +45,11 @@ We raden u aan ook de volgende artikelen te bekijken:
    * **Voltooid**: Als alle fiatteurs het verzoekvoorwerp goedkeuren, zijn statusveranderingen in **Voltooid**, of als het verzoek geen goedkeuring verwierf.
    * **Verworpen**: Als om het even welke fiatteur het verzoekvoorwerp verwerpt, wordt de status **Geweigerd**. Er wordt geen record gemaakt en er moet een nieuw verzoek worden ingediend om de record te maken.
 
-<!--* <span class="preview">You can display approval information on a record created by submitting a request form in the Approved by and Approved date fields. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).</span>-->
+* <span class="preview"> u kunt goedkeuringsinformatie over een verslag tonen dat door een verzoekvorm in Goedgekeurd door en Goedgekeurde datumgebieden wordt gecreeerd voor te leggen. Voor informatie, zie [ gebieden ](/help/quicksilver/planning/fields/create-fields.md) creëren.</span>
 
 ## Toegangsvereisten
 
 +++ Vouw uit om de vereisten voor toegang weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto">
  <col>
@@ -107,18 +105,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader"><p>Objectmachtigingen</p></td>
    <td>
    <ul>
-   <li><p>Beheer toestemmingen aan een werkruimte <span class="preview"> en verslagtype </span> </p></li>
+   <li><p>Machtigingen beheren in een werkruimte en recordtype </p></li>
     <li><p>Systeembeheerders kunnen werkruimten beheren die ze niet hebben gemaakt. </p></li>
     </ul>
    <p>Voor informatie over het delen van machtigingen voor Workfront Planning-objecten raadpleegt u  
    <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md"> Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront </a> 
   </td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>In het milieu van de Productie, moeten alle gebruikers met inbegrip van de Beheerders van het Systeem aan een lay-outmalplaatje worden toegewezen dat Planning omvat.</p>
-<p><span class="preview">In het milieu van de Voorproef, hebben de Standaardgebruikers en de Beheerders van het Systeem Planning die door gebrek wordt toegelaten.</span></p> 
-</td>
   </tr>
  </tbody>
 </table>
@@ -145,7 +137,7 @@ Een verzoek goedkeuren:
 
 1. Voer een van de volgende handelingen uit:
 
-   * Als u toegang tot de Planning van Workfront hebt en minstens één werkruimte kunt bekijken, klik **het Belangrijkste menu van het Menu** Dots ![ in de hoger-juiste hoek van het scherm, of ](assets/dots-menu.png) Belangrijkste Menu **&#x200B;**&#x200B;het belangrijkste menu van Lijnen ![ in de upper-left hoek, als beschikbaar, dan klik ](assets/lines-menu.png) Verzoeken **>** > **2&rbrace; Planning**, en klik het verzoek met het statuut van **In afwachting van overzicht** of **in overzicht**.**&#x200B;**
+   * Als u toegang tot de Planning van Workfront hebt en minstens één werkruimte kunt bekijken, klik **het Belangrijkste menu van het Menu** Dots ![ in de hoger-juiste hoek van het scherm, of ](assets/dots-menu.png) Belangrijkste Menu **** het belangrijkste menu van Lijnen ![ in de upper-left hoek, als beschikbaar, dan klik ](assets/lines-menu.png) Verzoeken **>** > **2} Planning**, en klik het verzoek met het statuut van **In afwachting van overzicht** of **in overzicht**.****
 
      >[!TIP]
      >

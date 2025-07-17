@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '3414'
+source-wordcount: '3306'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Connect-records
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  -->
 
 {{planning-important-intro}}
 
@@ -59,8 +59,6 @@ U kunt het volgende verbinden:
 ## Toegangsvereisten
 
 +++ Vouw uit om de vereisten voor toegang weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -118,15 +116,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objectmachtigingen</p></td> 
-   <td>   <p>Contribute of hogere toestemmingen aan een werkruimte <span class="preview"> en verslagtype </span> om verslagen te verbinden </p>  
-   <p>De mening of hogere toestemmingen aan een werkruimte <span class="preview"> en verslagtype </span> om alle verbindingen aan voorwerpen en gebieden van andere toepassingen, ongeacht uw toegang in de andere toepassing te bekijken. </p>
+   <td>   <p>Contribute of hoger machtigingen voor een werkruimte en recordtype voor het verbinden van records </p>  
+   <p>U kunt machtigingen voor een werkruimte of hoger weergeven en het type opnemen om alle verbindingen met objecten en velden vanuit andere toepassingen weer te geven, ongeacht de toegang die u hebt in de andere toepassing. </p>
    <p>Geef de objecten die u vanuit Workfront of Experience Manager Assets wilt koppelen weer of geef deze machtigingen hoger op. </p>
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt.</p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Lay-outsjabloon</p></td> 
-   <td> <p>In het milieu van de Productie, moeten alle gebruikers met inbegrip van de Beheerders van het Systeem aan een lay-outmalplaatje worden toegewezen dat Planning omvat.</p>
-<p><span class="preview">In het milieu van de Voorproef, hebben de Standaardgebruikers en de Beheerders van het Systeem Planning die door gebrek wordt toegelaten.</span></p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -158,7 +151,7 @@ U kunt verslagen van de Planning van Workfront op de volgende gebieden van een v
 * De verbonden recordvelden in de tabelweergave.
 * Het voorvertoningsvak of de pagina van de record in de verbonden recordvelden op het tabblad Details.
 * Het voorvertoningsvak of de pagina van de record op het tabblad Verbindingen.
-* De pagina van het verslag op a <span class="preview"> Verbonden verslagenpagina </span> tabel.
+* De pagina van het verslag op een Verbonden verslagenpagina tabel.
 
 ### Connect Workfront Planning-records vanuit de tabelweergave of het gebied Details van een record
 
@@ -231,7 +224,7 @@ U kunt verslagen van de Planning van Workfront op de volgende gebieden van een v
    >
    >* De gegevens van het datumveld van Workfront-objecten worden weergegeven in de 24-uursnotatie van Workfront, ongeacht hoe deze worden weergegeven in Workfront.
    >
-   >   Bijvoorbeeld, als de Geplande Datum van het Begin van een project als 3:00 PM in Workfront toont, zal het als 15:00 in de Planning van Workfront op een ingevoerd raadplegingsgebied tonen.
+   >   Bijvoorbeeld, als de Geplande Datum van het Begin van een project als 3 :00 PM in Workfront toont, zal het als 15 :00 in de Planning van Workfront op een ingevoerd raadplegingsgebied tonen.
 
 1. (Optioneel) Sluit de pagina met recordtypen en ga naar de werkruimte die u hebt geselecteerd.
 1. Klik op de kaart voor het recordtype waarmee u een koppeling hebt gemaakt.
@@ -240,7 +233,7 @@ U kunt verslagen van de Planning van Workfront op de volgende gebieden van een v
 
    De opnametype kaart moet in de lijstmening worden geopend. Als dat niet het geval is, selecteert u een tabelweergave.
 
-   Bericht dat het **verbonden verslaggebied van de Campagne** &lbrace;de namen van de campagnes toont u met producten in de het verslagtype van het Product pagina verbond. Wanneer u de Campagnegegevens bijwerkt, wordt het aan Campagne gekoppelde recordveld voor het type productrecord automatisch bijgewerkt.
+   Bericht dat het **verbonden verslaggebied van de Campagne** {de namen van de campagnes toont u met producten in de het verslagtype van het Product pagina verbond. Wanneer u de Campagnegegevens bijwerkt, wordt het aan Campagne gekoppelde recordveld voor het type productrecord automatisch bijgewerkt.
 
 ### Connect Workfront Planning-records verbinden met Workfront-objecten vanuit de tabelweergave of het gebied Details van een record
 
@@ -344,7 +337,7 @@ Nadat u een verbinding hebt gemaakt tussen een recordtype en Adobe Experience Ma
 
 >[!NOTE]
 >
->De verslagen van de planning en hun gebieden zijn toegankelijk van Experience Manager Assets wanneer uw beheerder van Workfront de meta-gegevensafbeelding door de integratie tussen Workfront en Adobe Experience Manager Assets vormt. Voor meer informatie, zie [ activa meta-gegevensafbeelding tussen Adobe Workfront en Experience Manager Assets ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) vormen.
+>De verslagen van de planning en hun gebieden zijn toegankelijk van Experience Manager Assets wanneer uw beheerder van Workfront de meta-gegevensafbeelding door de integratie tussen Workfront en Adobe Experience Manager Assets vormt. Voor meer informatie, zie [ activa meta-gegevensafbeelding tussen Adobe Workfront en Experience Manager Assets ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) vormen.
 
 Om records te verbinden met Experience Manager-elementen:
 
@@ -461,8 +454,7 @@ De records en objecten worden direct toegevoegd.
 
    De record wordt onmiddellijk losgekoppeld van alle gebieden van de Workfront-planning of van andere toepassingen waar deze als verbonden kunnen worden weergegeven. De waarden van opzoekvelden worden ook verwijderd.
 
-### Verbind verslagen van <span class="preview"> Verbonden verslagenpagina </span> van een verslag
-
+### Verbind verslagen van de Verbonden verslagenpagina van een verslag
 
 1. Ga naar om het even welke mening van een verslagtype dat met andere het verslagtypes of objecten van de Planning van andere toepassingen is verbonden.
 1. Voer de stappen uit die in de vorige subsecties zijn beschreven om een record te zoeken in de weergave die u wilt koppelen aan andere records of objecten.
@@ -470,7 +462,7 @@ De records en objecten worden direct toegevoegd.
 
    De voorvertoningspagina wordt geopend.
 1. Klik **Open in nieuw lusje** pictogram ![ Open details in een nieuw lusjepictogram ](assets/open-details-in-a-new-tab-icon.png) om de pagina van het verslag te openen.
-1. Klik een bestaand <span class="preview"> Verbonden verslagenpagina </span> lusje in de pagina van het verslag. U moet eerst a <span class="preview"> Verbonden verslagenpagina </span> creëren. Voor informatie, zie [ de lay-out van de verslagpagina beheren ](/help/quicksilver/planning/records/manage-the-record-page.md).
+1. Klik op een bestaand tabblad van de pagina met verbonden records op de pagina van de record. U moet eerst een pagina voor verbonden records maken. Voor informatie, zie [ de lay-out van de verslagpagina beheren ](/help/quicksilver/planning/records/manage-the-record-page.md).
 
    Een verbonden verslagtype pagina toont in de lijstmening.
 

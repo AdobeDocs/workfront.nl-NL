@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 3550d7addcc0bb790f15d141d9470e0b75f940a6
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '1227'
+source-wordcount: '1155'
 ht-degree: 0%
 
 ---
@@ -20,19 +20,23 @@ ht-degree: 0%
 
 # Overzicht van het delen van machtigingen in Adobe Workfront Planning
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 
 {{planning-important-intro}}
 
-U kunt machtigingen delen of verwijderen in een Adobe Workfront-werkruimte of -weergave voor planning.
+U kunt machtigingen delen of verwijderen voor een Adobe Workfront-werkruimte, recordtype of weergave.
 
-In dit artikel worden de machtigingsniveaus voor Workfront Planning-objecten beschreven.
+U kunt ook aanvraagformulieren voor planning delen. Voor informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
+
+In dit artikel worden de machtigingsniveaus voor Workfront Planning-werkruimten, recordtypen, records, velden en weergaven beschreven.
 
 ## Objecten die u kunt delen in Adobe Workfront Planning
+
+U kunt sommige objecten van de Planning van Workfront manueel delen, terwijl andere voorwerpen deze toestemmingen van andere voorwerpen erven.
 
 U kunt de volgende objecten handmatig delen in Workfront Planning:
 
@@ -44,8 +48,6 @@ U kunt de volgende objecten handmatig delen in Workfront Planning:
 
   Voor meer informatie, zie [ werkruimten van het Aandeel ](/help/quicksilver/planning/access/share-workspaces.md)
 
-<div class="preview">
-
 * Recordtypen
 
    * U kunt recordtypen delen met personen binnen uw organisatie.
@@ -53,8 +55,6 @@ U kunt de volgende objecten handmatig delen in Workfront Planning:
    * U kunt een recordtype niet delen met een hoger machtigingsniveau dan de gebruiker in de werkruimte heeft.
 
   Voor meer informatie, zie [ recordtypes van het Aandeel ](/help/quicksilver/planning/access/share-record-types.md).
-
-</div>
 
 
 * Weergaven
@@ -66,7 +66,7 @@ U kunt de volgende objecten handmatig delen in Workfront Planning:
 
   Voor meer informatie, zie [ meningen van het Aandeel ](/help/quicksilver/planning/access/share-views.md).
 
-Intern kunt u een werkruimte, een weergave <span class="preview"> of een recordtype </span> delen met de volgende Workfront-entiteiten:
+Intern kunt u een werkruimte, weergave of recordtype delen met de volgende Workfront-entiteiten:
 
 * Gebruikers
 * Groepen
@@ -74,7 +74,7 @@ Intern kunt u een werkruimte, een weergave <span class="preview"> of een recordt
 * Bedrijven
 * Functies
 
-<span class="preview"> Wanneer u werkruimten en recordtypen deelt met anderen, wordt het machtigingsniveau van het recordtype automatisch overgeërfd aan de records en velden die eraan zijn gekoppeld. </span>
+Wanneer u werkruimten en recordtypen deelt met anderen, wordt het machtigingsniveau van het recordtype automatisch overgeërfd aan de records en velden die aan deze werkruimten zijn gekoppeld.
 
 >[!IMPORTANT]
 >
@@ -112,7 +112,7 @@ De tabellen in de volgende secties tonen het machtigingsniveau dat u kunt select
 >Voor informatie, zie [ het type van Vergunning overzicht wanneer het gebruiken van de Planning van Adobe Workfront ](/help/quicksilver/planning/access/license-type-overview.md).
 
 
-### Workspace-machtigingen
+### Machtigingen voor werkruimten
 
 U moet gebruikers toestemming geven aan werkruimten om hen toegang tot de volgende entiteiten te verlenen:
 
@@ -130,23 +130,26 @@ Hieronder vindt u de machtigingsniveaus voor werkruimten:
 | Verwijderen | ✓ |            |       |
 | Weergave | ✓ | ✓ | ✓ |
 
-### Machtigingen voor recordtype
+### Machtigingen om gegevenstypen op te nemen
 
-In het milieu van de Productie, worden de toestemmingen van het Type van Verslag altijd geërft wanneer u toestemmingen aan de werkruimte verleent.
+<!-- old access:
+In the Production environment, Record Type permissions are always inherited when you grant permissions to the workspace.
 
-Hieronder vindt u de machtigingsniveaus voor recordtypen:
+The following are the levels of permissions for record types: 
 
 
-|        | Beheren | Contribute | Weergave |
+|        | Manage | Contribute | View  |
 |--------|--------|------------|-------|
-| Maken | ✓ |            |       |
-| Verwijderen | ✓ |            |       |
-| Bewerken | ✓ |            |       |
-| Weergave | ✓ | ✓ | ✓ |
+| Create | ✓      |            |       |
+| Delete | ✓      |            |       |
+| Edit   | ✓      |            |       |
+| View   | ✓      | ✓          | ✓     |
 
-<div class="preview">
+-->
 
-In de voorvertoningsomgeving kunt u de erfrechten van het recordtype verwijderen die u van de werkruimte hebt ontvangen.
+De toestemmingen van het Type van verslag worden altijd geërft wanneer u toestemmingen aan de werkruimte verleent.
+
+U kunt de erfrechten van het recordtype verwijderen die u van de werkruimte hebt ontvangen.
 
 U kunt gebruikers lagere machtigingen geven voor het recordtype dan in de werkruimte.
 
@@ -168,11 +171,9 @@ De volgende scenario&#39;s bestaan:
 >
 >*Wanneer u toestemmingen uit een verslagtype verwijdert, behouden de gebruikers nog toestemmingen van de Mening aan de werkruimte en alle verslagtypes, tenzij u hun toestemmingen uit de werkruimte verwijdert.
 
-</div>
+### Machtigingen voor records
 
-### Machtigingen opnemen
-
-De toestemmingen van het verslag worden geërft van <span class="preview"> het verslagtype </span>, wanneer u toestemmingen aan de werkruimte en <span class="preview"> het verslagtype </span> verleent.
+De toestemmingen van het verslag worden geërft van het verslagtype, wanneer u toestemmingen aan de werkruimte en het verslagtype verleent.
 
 Hieronder vindt u de machtigingsniveaus voor records:
 
@@ -184,9 +185,9 @@ Hieronder vindt u de machtigingsniveaus voor records:
 | Bewerken | ✓ | ✓ |       |
 | Weergave | ✓ | ✓ | ✓ |
 
-### Veldmachtigingen
+### Machtigingen om velden op te nemen
 
-De toestemmingen van het gebied worden geërft van <span class="preview"> het verslagtype </span>, wanneer u toestemmingen aan de werkruimte en <span class="preview"> het verslagtype </span> verleent.
+De toestemmingen van het gebied worden geërft van het verslagtype, wanneer u toestemmingen aan de werkruimte en het verslagtype verleent.
 
 De volgende machtigingen verwijzen naar de velden zelf en niet naar de waarden die aan elk veld zijn gekoppeld. Als u veldwaarden wilt bewerken, moet u over machtigingen beschikken om records te bewerken.
 
@@ -198,7 +199,7 @@ De volgende machtigingen verwijzen naar de velden zelf en niet naar de waarden d
 | Weergave | ✓ | ✓ | ✓ |
 
 
-### Machtigingen weergeven
+### Rechten voor weergaven
 
 U moet afzonderlijke machtigingen verlenen om weergaven op te nemen. Het verlenen van toestemmingen aan de werkruimte verleent geen toestemmingen aan de verslagmeningen in de werkruimte.
 

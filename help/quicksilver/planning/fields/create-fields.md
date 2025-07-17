@@ -6,15 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '4607'
+source-wordcount: '5201'
 ht-degree: 0%
 
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=nl-NL ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -22,9 +22,9 @@ ht-degree: 0%
 
 # Velden maken
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 
 {{planning-important-intro}}
@@ -165,7 +165,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    * [Gemaakt door](#created-by)
    * [Aanmaakdatum](#created-date)
    * [Laatst gewijzigd door](#last-modified-by)
-   * [ Laatste gewijzigde datum ](#last-modified-date)
+   * [Laatst gewijzigd](#last-modified-date)
+   * <span class="preview">[ Goedgekeurde datum ](#approved-date)</span>
+   * <span class="preview">[ Goedgekeurd door ](#approved-by)</span>
      <!--* [Object](#object-field-type)-->
 
    >[!IMPORTANT]
@@ -206,7 +208,7 @@ In alineasvelden wordt aanvullende alfanumerieke informatie over een record vast
 >
 
 
-1. Begin creërend een gebied zoals die in de sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer het **3&rbrace; gebiedstype van de Paragraaf &lbrace;.**
+1. Begin creërend een gebied zoals die in de sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer het **3} gebiedstype van de Paragraaf {.**
 
    ![ het gebiedstype van de Paragraaf ](assets/paragraph-field-type.png)
 
@@ -301,8 +303,8 @@ U kunt een datumveld gebruiken om aanvullende informatie vast te leggen in de da
 
      Selecteer een van de volgende opties:
 
-      * **24hr**: Bijvoorbeeld: 18:00
-      * **12hr**: Bijvoorbeeld: 6:00 PM
+      * **24hr**: Bijvoorbeeld: 18 :00
+      * **12hr**: Bijvoorbeeld: 6 :00 PM
 
 1. Klik **creëren**.
 
@@ -317,10 +319,10 @@ Met een getalveldtype wordt informatie vastgelegd in een getalnotatie.
 >Nummervelden worden weergegeven als een tekstveldtype voor één regel in een aanvraagformulierbuilder.
 >
 >De veldindeling blijft echter wel behouden en de waarden van deze velden worden als getallen weergegeven nadat het verzoek is ingediend, op het recordtype en op de pagina met aanvraagdetails.
->&#x200B;>Voor informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
+>>Voor informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
 
 
-1. Begin creërend een gebied zoals die in de sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer het **3&rbrace; gebiedstype van het Aantal &lbrace;.**
+1. Begin creërend een gebied zoals die in de sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer het **3} gebiedstype van het Aantal {.**
 
    ![ het gebiedstype van het Aantal ](assets/number-field-type.png)
 1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
@@ -347,10 +349,10 @@ Percentageveldtypen leggen informatie vast in een getalnotatie gevolgd door een 
 >Percentagevelden worden weergegeven als een tekstveldtype voor één regel in een aanvraagformulierbuilder.
 >
 >De veldindeling blijft echter wel behouden en de waarden van deze velden worden als percentages weergegeven nadat het verzoek is ingediend, op het recordtype en op de pagina met aanvraagdetails.
->&#x200B;>Voor informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
+>>Voor informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
 
 
-1. Begin creërend een gebied zoals die in de sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer het **3&rbrace; gebiedstype van het Percentage &lbrace;.**
+1. Begin creërend een gebied zoals die in de sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer het **3} gebiedstype van het Percentage {.**
 
    ![ het gebiedstype van het Percentage ](assets/percentage-field-type.png)
 
@@ -387,9 +389,9 @@ Valutatypen leggen informatie vast in een getalnotatie voorafgegaan door een val
 >Valutabelden worden weergegeven als een tekstveldtype voor één regel in een aanvraagformulierbuilder.
 >
 >De veldindeling blijft echter wel behouden en de waarden van deze velden worden na de indiening van het verzoek als valuta weergegeven, op het recordtype en op de pagina met aanvraagdetails.
->&#x200B;>Voor informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
+>>Voor informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
 
-1. Begin creërend een gebied zoals die in sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer het **3&rbrace; gebiedstype van de Valuta &lbrace;.**
+1. Begin creërend een gebied zoals die in sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer het **3} gebiedstype van de Valuta {.**
 
    ![ het gebiedstype van de Valuta ](assets/currency-field-type.png)
 
@@ -503,7 +505,7 @@ Met het veldtype Personen kunt u een gebruiker <!--, job role, or team--> aan ee
 >
 >Voor informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
 
-1. Begin creërend een gebied zoals die in de sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer het **3&rbrace; gebiedstype van Mensen &lbrace;.**
+1. Begin creërend een gebied zoals die in de sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer het **3} gebiedstype van Mensen {.**
 
    ![ het gebiedstype van Mensen ](assets/people-field-type.png)
 
@@ -563,8 +565,8 @@ Met het veldtype Gemaakt datum kunt u de datum toevoegen waarop de record is gem
 
      Selecteer een van de volgende opties:
 
-      * **24hr**: Bijvoorbeeld: 18:00
-      * **12hr**: Bijvoorbeeld: 6:00 PM
+      * **24hr**: Bijvoorbeeld: 18 :00
+      * **12hr**: Bijvoorbeeld: 6 :00 PM
 
 1. Klik **creëren**.
 
@@ -615,81 +617,77 @@ Met het veldtype Laatst gewijzigd kunt u de datum toevoegen waarop een record vo
 
      Selecteer een van de volgende opties:
 
-      * **24hr**: Bijvoorbeeld: 18:00
-      * **12hr**: Bijvoorbeeld: 6:00 PM
+      * **24hr**: Bijvoorbeeld: 18 :00
+      * **12hr**: Bijvoorbeeld: 6 :00 PM
 
 1. Klik **creëren**.
 
    Het nieuwe datum-type veld Laatst gewijzigd wordt toegevoegd als kolom aan het recordtype en de waarden ervan worden voorgevuld met de datum (of datum en tijd) waarop de record voor het laatst is gewijzigd.
 
-<!--
-
 <div class="preview">
 
-### Approved date
+### Goedgekeurde datum
 
-You can use the Approved date field type to add the date when a request was approved and it resulted in the creation of the record. This is a read-only field, and it automatically populates with the date (and optionally with the time) when the request was approved by the last approver. In this case, the approval date should coincide with the date the record was created. 
-
->[!TIP]
->
->The Approved date field populates with information only for records that were created by submitting a request form associated with approvers. 
->
->If the form is associated with more than one approver, only the date of the last approval decision is recorded in the Approved date field.
- 
-
-1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Created date** field type.
- 
-   ![Approved date field type](assets/approved-date-field-type.png)
-
-   1. Add the following information in the **New field** tab:
-
-     * **Name**: The name of the field, as it will appear in a table or the record page. 
-     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
-     * **Date Format**: Select from the following formats:
-
-        * **Locale**: Matches the locale of your browser.
-        * **Standard**: 05/16/2023
-        * **Long**: May 16, 2023
-        * **European**: 16/05/2023
-        * **ISO**: 2023-05-16
-     
-     * **Include a time field**: Select this option if you want to include a time stamp. This is unselected by default. 
-    
-        Select from the following options:
-        
-        * **24hr**: For example: 18:00
-        * **12hr**: For example: 6:00 PM 
-    
-1. Click **Create**.
-
-    The new Approved date-type field is added as a column to the record type and its values are prefilled with the date (or date and time) when the record request was approved, if the record was created by submitting a request associated with approvers. 
-
-### Approved by
-
-You can use the Approved by field type to add the user who last approved the request to create a record. This is a read-only field, and it automatically populates with the name of the user who approved the request to create the record.
+Met het veldtype Goedgekeurde datum kunt u de datum toevoegen waarop een aanvraag is goedgekeurd en de record is gemaakt. Dit is een alleen-lezen veld en het veld wordt automatisch gevuld met de datum (en optioneel met de tijd) waarop het verzoek is goedgekeurd door de laatste fiatteur. In dat geval moet de goedkeuringsdatum overeenkomen met de datum waarop de record is gemaakt.
 
 >[!TIP]
 >
->The Approved by field populates with information only for records that were created by submitting a request form associated with approvers.
+>In het veld Goedgekeurde datum worden alleen gegevens ingevuld voor records die zijn gemaakt door het verzenden van een aanvraagformulier dat is gekoppeld aan fiatteurs.
 >
->If the form is associated with more than one approver, the name of all approvers are recorded in the Approved date field, separated by commas.
- 
-1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Approved by** field type.
- 
-   ![Approved by field type](assets/approved-by-field-type.png)
+>Als het formulier met meer dan één fiatteur is geassocieerd, wordt alleen de datum van het laatste goedkeuringsbesluit in het veld Goedgekeurde datum vermeld.
 
-1. Add the following information in the **New field** tab:
 
-     * **Name**: The name of the field, as it will appear in a table or the record page. 
-     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
-    
-1. Click **Create**.
+1. Begin creërend een gebied zoals die in de sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer het **Gemaakt datum** gebiedstype.
 
-    The new Approved by-type field is added as a column to the record type and its values are prefilled with the name of the user who last modified each record.  
+   ![ Goedgekeurd type van datumgebied ](assets/approved-date-field-type.png)
+
+   1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
+
+   * **Naam**: De naam van het gebied, aangezien het in een lijst of een verslagpagina zal verschijnen.
+   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst of wanneer u op het informatiepictogram naast de veldnaam op de detailpagina van de record klikt.
+   * **Formaat van de Datum**: Uitgezocht van de volgende formaten:
+
+      * **Landinstelling**: Gelijke aan de scène van uw browser.
+      * **Norm**: 05/16/2023
+      * **Lang**: 16 mei, 2023
+      * **Europees**: 16/05/2023
+      * **ISO**: 2023-05-16
+
+   * **omvat een tijdgebied**: Selecteer deze optie als u een tijdstempel wilt omvatten. Deze optie is standaard uitgeschakeld.
+
+     Selecteer een van de volgende opties:
+
+      * **24hr**: Bijvoorbeeld: 18 :00
+      * **12hr**: Bijvoorbeeld: 6 :00 PM
+
+1. Klik **creëren**.
+
+   Het nieuwe Goedgekeurde datum-type gebied wordt toegevoegd als kolom aan het verslagtype en zijn waarden worden voorgevuld met de datum (of de datum en de tijd) toen het verslagverzoek werd goedgekeurd, als het verslag door een verzoek voor te leggen verbonden aan fiatteurs werd gecreeerd.
+
+### Goedgekeurd door
+
+U kunt het Goedgekeurde door gebiedstype gebruiken om de gebruiker toe te voegen die het laatste verzoek goedkeurde om een verslag tot stand te brengen. Dit is een alleen-lezen veld en het veld wordt automatisch gevuld met de naam van de gebruiker die het verzoek tot het maken van de record heeft goedgekeurd.
+
+>[!TIP]
+>
+>In het veld Goedgekeurd door worden alleen gegevens ingevuld voor records die zijn gemaakt door het verzenden van een aanvraagformulier dat is gekoppeld aan fiatteurs.
+>
+>Als het formulier is gekoppeld aan meerdere fiatteurs, wordt de naam van alle fiatteurs opgenomen in het veld Goedgekeurde datum, gescheiden door komma&#39;s.
+
+1. Begin creërend een gebied zoals die in de sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer **door** goedgekeurd gebiedstype.
+
+   ![ Goedgekeurd door gebiedstype ](assets/approved-by-field-type.png)
+
+1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
+
+   * **Naam**: De naam van het gebied, aangezien het in een lijst of een verslagpagina zal verschijnen.
+   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst of wanneer u op het informatiepictogram naast de veldnaam op de detailpagina van de record klikt.
+
+1. Klik **creëren**.
+
+   Het nieuwe goedgekeurde bijschriftveld wordt als een kolom toegevoegd aan het recordtype en de waarden ervan worden voorgevuld met de naam van de gebruiker die elke record het laatst heeft gewijzigd.
 
 </div>
--->
-
 
 <!--
 

@@ -6,9 +6,9 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '711'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 <!--do not use the snippet for IMPORTANT , as it links to this article-->
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 >[!IMPORTANT]
 >
@@ -104,8 +104,8 @@ U moet de volgende toegang tot de Planning van Workfront hebben:
    <td role="rowheader"><p>Objectmachtigingen</p></td>
    <td>
    <ul>
-   <li><p>De mening of hogere toestemmingen aan werkruimten, <span class="preview"> verslagtypes </span> en meningen die u niet creeerde om tot hen en hun voorwerpen toegang te hebben.</p></li>
-   <li><p>Draag of hogere toestemmingen aan werkruimten <span class="preview"> en recordtypes </span> bij die u niet creeerde om hen uit te geven en, recordtypes en verslagen tot stand te brengen uit te geven of te schrappen.</p></li>
+   <li><p>U kunt machtigingen voor werkruimten, recordtypen en weergaven die u niet hebt gemaakt, weergeven of hoger om deze en de bijbehorende objecten te openen.</p></li>
+   <li><p>Contribute of hoger machtigingen voor werkruimten en recordtypen die u niet hebt gemaakt om deze te bewerken en recordtypen en records te maken, te bewerken of te verwijderen.</p></li>
    <li><p>Contribute of hoger machtigingen voor weergaven die u niet hebt gemaakt, om deze te bewerken, te verwijderen en te delen</p>
    </li>
     <li><p>Systeembeheerders kunnen werkruimten beheren die ze niet hebben gemaakt. </p></li>
@@ -116,16 +116,14 @@ U moet de volgende toegang tot de Planning van Workfront hebben:
   </tr>
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <div class="preview">
+   <td> 
 <p>De standaardgebruikers en de Beheerders van het Systeem hebben de Gebieden van de Planning die door gebrek worden toegelaten.</p>
 <p> De gebruikers met een Licht of de vergunning van de Medewerker moeten een lay-outmalplaatje worden toegewezen dat de optie van de Planning op de volgende gebieden omvat:</p>
    <ul><li>Hoofdmenu</li>
    <li>Deelvenster links van projecten, portfolio's en programma's</li>
    </ul>
    <p>Voor meer informatie, zie <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md"> lay-outmalplaatjes </a> creëren en beheren.</p>
-   </div>
-   <p><b>OPMERKING</b></p>
-   <p>In het milieu van de Productie, moeten alle gebruikers met inbegrip van de beheerders van het Systeem aan een lay-outmalplaatje worden toegewezen dat de gebieden van de Planning omvat.</p>
+
 </td>
   </tr>
  </tbody>
@@ -145,16 +143,12 @@ Nadat uw organisatie een extra vergunning van de Planning van Workfront heeft ge
 * Deelvenster Links voor projecten, portfolio&#39;s en programma&#39;s
 * Punten
 
-<div class="preview">
-
 De standaardgebruikers en de Beheerders van het Systeem hebben de Gebieden van de Planning die door gebrek op de volgende gebieden worden toegelaten:
 
 * Hoofdmenu
 * Deelvenster links van projecten, portfolio&#39;s of programma&#39;s
 
-</div>
-
-<span class="preview"> </span> Workfront-planningsgebieden toevoegen aan of verwijderen uit gebruikers van uw Workfront-instantie:
+Workfront-planningsgebieden toevoegen aan of verwijderen uit gebruikers van uw Workfront-exemplaar:
 
 1. Login aan **Workfront** als beheerder van Workfront.
 

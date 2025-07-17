@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '1485'
+source-wordcount: '1527'
 ht-degree: 0%
 
 ---
@@ -66,9 +66,9 @@ Voor informatie over de meningen van de Planning van Adobe Workfront en hoe te o
    </td> 
    </tr> 
   </tr> 
-  <tr> 
-   <td role="rowheader"><p>Adobe Workfront-licentie*</p></td> 
-   <td><p> Standaard </p>
+    <td role="rowheader"><p>Adobe Workfront-licentie*</p></td> 
+   <td><p> Standaard voor het maken en verwijderen van weergaven</p>
+   <p>Medewerker of hoger om weergave-elementen bij te werken</p>
    <p>Workfront Planning is niet beschikbaar voor oudere Workfront-licenties</p> 
   </td> 
   </tr> 
@@ -81,6 +81,12 @@ Voor informatie over de meningen van de Planning van Adobe Workfront en hoe te o
    <td role="rowheader"><p>Objectmachtigingen</p></td> 
    <td>   <p>Rechten beheren voor een weergave</p>  
    <p>Machtigingen weergeven voor een weergave om de weergave-instellingen tijdelijk te wijzigen of te dupliceren</p> </td> 
+  </tr> 
+<tr>
+   <td role="rowheader"><p>Lay-outsjabloon</p></td>
+   <td> De gebruikers met een Licht of de vergunning van de Medewerker moeten een lay-outmalplaatje worden toegewezen dat Planning omvat.
+   <p>De standaardgebruikers en de Beheerders van het Systeem hebben de Gebieden van de Planning die door gebrek worden toegelaten.</p></div></li></ul>
+</td>
   </tr>
 
 </tbody> 

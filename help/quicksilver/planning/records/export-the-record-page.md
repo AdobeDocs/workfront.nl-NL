@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
 
 # De details van een record exporteren
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Voorproef voor alle klanten, of in het milieu van de Productie voor klanten die snelle versies toeliet.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken.</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
 
 
 Als u efficiënter wilt samenwerken met anderen die mogelijk geen Workfront-account hebben, kunt u de detailpagina van een record exporteren naar een Microsoft Word-bestand en deze delen met hen.
@@ -25,8 +25,6 @@ Als u efficiënter wilt samenwerken met anderen die mogelijk geen Workfront-acco
 ## Toegangsvereisten
 
 +++ Vouw uit om de vereisten voor toegang weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -78,13 +76,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objectmachtigingen</p></td> 
-   <td>   <p>De mening of hogere toestemmingen aan een werkruimte <span class="preview"> en verslagtype </span></a> </p>  
+   <td>   <p>De mening of hogere toestemmingen aan een werkruimte en verslagtype </a> </p>  
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Lay-outsjabloon</p></td> 
-   <td> <p>In het milieu van de Productie, moeten alle gebruikers met inbegrip van de Beheerders van het Systeem aan een lay-outmalplaatje worden toegewezen dat Planning omvat.</p>
-<p><span class="preview">In het milieu van de Voorproef, hebben de Standaardgebruikers en de Beheerders van het Systeem Planning die door gebrek wordt toegelaten.</span></p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -124,7 +117,7 @@ De recordtypepagina wordt geopend en alle records van dat type worden weergegeve
 
 1. Kies het **Details** lusje. Het tabblad Details moet standaard worden geopend.
 
-1. Klik het **menu van de Uitvoer ![ pictogram van de Uitvoer in verslagdetailpagina ](assets/export-icon-in-record-details-page.png) of in de voorproef of de pagina van het verslag, dan klik één van het volgende:**
+1. Klik het **menu van de Uitvoer** pictogram van de Uitvoer in verslagdetailpagina ![ of in de voorproef of de pagina van het verslag, dan klik één van het volgende:](assets/export-icon-in-record-details-page.png)
 
    * **Word van Microsoft**
    * **Adobe PDF**

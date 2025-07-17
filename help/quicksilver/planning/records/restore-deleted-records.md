@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8b6df633-eb05-4d3e-bfe6-76cedabdb76d
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
 
 # Verwijderde records herstellen
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
 
 {{planning-important-intro}}
 
@@ -28,8 +28,6 @@ Voor informatie over het schrappen van verslagen, zie [ verslagen van de Schrapp
 ## Toegangsvereisten
 
 +++ Vouw uit om de vereisten voor toegang weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -81,13 +79,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objectmachtigingen</p></td> 
-   <td>   <p>Contribute of hogere toestemmingen aan een werkruimte <span class="preview"> en verslagtype </span> </a> </p>  
+   <td>   <p>Contribute of hoger machtigingen voor een werkruimte en recordtype </a> </p>  
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Lay-outsjabloon</p></td> 
-   <td> <p>In het milieu van de Productie, moeten alle gebruikers met inbegrip van de Beheerders van het Systeem aan een lay-outmalplaatje worden toegewezen dat Planning omvat.</p>
-<p><span class="preview">In het milieu van de Voorproef, hebben de Standaardgebruikers en de Beheerders van het Systeem Planning die door gebrek wordt toegelaten.</span></p></td> 
   </tr> 
 </tbody> 
 </table>
@@ -99,6 +92,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Overwegingen bij het herstellen van verwijderde records
 
+* U kunt records herstellen die u of andere gebruikers hebben verwijderd.
 * Records worden gedurende 30 dagen in de recent verwijderde opslagruimte opgeslagen. Na 30 dagen worden de records definitief verwijderd uit Workfront Planning.
 * Als de verwijderde records zijn gekoppeld aan andere records, worden de gekoppelde records niet verwijderd, maar worden de gegevens uit de verwijderde record ook verwijderd. Door de verwijderde records te herstellen, worden de gegevens uit de verbonden records hersteld.
 * U kunt records bulksgewijs herstellen.
@@ -111,7 +105,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 ## Verwijderde records herstellen
 
 1. Ga naar de pagina met recordtypen waarop u records hebt verwijderd.
-1. Klik **ongedaan maken** pictogram ![ pictogram ](assets/undo-icon.png) in de hoger-juiste hoek van om het even welke verslagtype paginamening, dan klik onlangs geschrapt **&#x200B;**.
+1. Klik **ongedaan maken** pictogram ![ pictogram ](assets/undo-icon.png) in de hoger-juiste hoek van om het even welke verslagtype paginamening, dan klik onlangs geschrapt ****.
 
    De **onlangs geschrapte** vakvertoningen.
 

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Een miniatuur toevoegen aan een record
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -33,8 +33,6 @@ Voor informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/cre
 <!--************double-check permissions here - asking Isk and Lilit what permissions users need for adding thumbnails-->
 
 +++ Vouw uit om de vereisten voor toegang weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -86,13 +84,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objectmachtigingen</p></td> 
-   <td>   <p>Contribute of hogere toestemmingen aan een werkruimte <span class="preview"> en verslagtype </span>  </p>  
+   <td>   <p>Contribute of hoger machtigingen voor een werkruimte en recordtype  </p>  
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Lay-outsjabloon</p></td> 
-   <td> <p>In het milieu van de Productie, moeten alle gebruikers met inbegrip van de Beheerders van het Systeem aan een lay-outmalplaatje worden toegewezen dat Planning omvat.</p>
-<p><span class="preview">In het milieu van de Voorproef, hebben de Standaardgebruikers en de Beheerders van het Systeem Planning die door gebrek wordt toegelaten.</span></p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -199,7 +192,7 @@ U kunt op de volgende manieren een miniatuur toevoegen:
    Klik **doorbladert beelden**, dan doorblader voor een beelddossier om toe te voegen. Het bestand moet op uw computer worden opgeslagen.
 
 1. (Facultatief) na het beeld uploadt in de **duimnagel van het Verslag** doos, gebruik het het rangschikken hulpmiddel om het beeld uit te snijden en resize.
-1. (Optioneel) Klik op het pictogram **Nieuwe afbeelding uploaden ![ ](assets/upload-new-image-icon.png) om een ander beeld te uploaden.**
+1. (Optioneel) Klik op het pictogram **Nieuwe afbeelding uploaden** ![ om een ander beeld te uploaden.](assets/upload-new-image-icon.png)
 1. (Facultatief) klik de **Galerij** tabel, dan klik een beeld. De galerie met afbeeldingen kan niet worden gewijzigd.
 
    ![ de duimnageldoos van het Verslag voor galerij ](assets/record-thumbnail-box-for-gallery.png)

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '633'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,6 @@ Recordtypen zijn de objecttypen voor Adobe Workfront Planning. U kunt de weergav
 ## Toegangsvereisten
 
 +++ Vouw uit om de vereisten voor toegang weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -108,7 +106,7 @@ of
 
    ![ Meer menuopties van verslagtype kaart ](assets/more-menu-options-from-record-type-card.png)
 
-1. In **geef verslagtype** doos uit, opent het **3&rbrace; lusje van de Verschijning &lbrace;door gebrek.**
+1. In **geef verslagtype** doos uit, opent het **3} lusje van de Verschijning {door gebrek.**
 
    ![ Weergavetabblad van recordtekstvak bewerken ](assets/edit-record-type-box-appearance-tab.png)
 

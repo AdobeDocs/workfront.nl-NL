@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '2250'
+source-wordcount: '2115'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # De lay-out van de recordpagina beheren
 
-<span class="preview"> de informatie die op deze pagina wordt benadrukt verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -41,8 +41,6 @@ Raadpleeg de volgende artikelen voor meer informatie:
 ## Toegangsvereisten
 
 +++ Vouw uit om de vereisten voor toegang weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto">
  <col>
@@ -99,15 +97,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 <tr>
    <td role="rowheader"><p>Objectmachtigingen</p></td>
    <td>
-   <p>Contribute of hogere toestemmingen aan een werkruimte <span class="preview"> en verslagtype </span> </a> </p>  
+   <p>Contribute of hoger machtigingen voor een werkruimte en recordtype </a> </p>  
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p> 
   </td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>In het milieu van de Productie, moeten alle gebruikers met inbegrip van de Beheerders van het Systeem aan een lay-outmalplaatje worden toegewezen dat Planning omvat.</p>
-<p><span class="preview">In het milieu van de Voorproef, hebben de Standaardgebruikers en de Beheerders van het Systeem Planning die door gebrek wordt toegelaten.</span></p>  
-</td>
   </tr>
  </tbody>
 </table>
@@ -204,7 +196,7 @@ Alle secties worden standaard uitgevouwen.
 
    Alle wijzigingen in secties en de veldvolgorde worden automatisch opgeslagen.
 
-1. (Facultatief) klik het **menu van de Uitvoer ![ pictogram van de Uitvoer in verslagdetailpagina ](assets/export-icon-in-record-details-page.png) om het lusje van Details naar een Word of een dossier van PDF uit te voeren.** Voor meer informatie, zie [ de details van een verslag uitvoeren ](/help/quicksilver/planning/records/export-the-record-page.md).
+1. (Facultatief) klik het **menu van de Uitvoer** pictogram van de Uitvoer in verslagdetailpagina ![ om het lusje van Details naar een Word of een dossier van PDF uit te voeren. ](assets/export-icon-in-record-details-page.png) Voor meer informatie, zie [ de details van een verslag uitvoeren ](/help/quicksilver/planning/records/export-the-record-page.md).
 
 1. (Facultatief) klik het **lusje van Verbindingen** naast **Details** tabel. U zou **Meer** kunnen moeten klikken alvorens de **Verbindingen** tabel te klikken.
 
@@ -262,48 +254,43 @@ De volgende dingen doen zich voor:
 
    Alle wijzigingen in de lay-out van de recordvoorvertoning of pagina worden automatisch opgeslagen.
 
-## Voeg a <span class="preview"> Verbonden verslagenpagina </span> aan een verslag toe
+## Een verbonden recordpagina toevoegen aan een record
 
-U kunt informatie van verbonden verslagen of voorwerpen bekijken door een lusje voor a <span class="preview"> Verbonden verslagenpagina </span> aan een verslag toe te voegen.
+U kunt informatie van verbonden verslagen of voorwerpen bekijken door een lusje voor een Verbonden verslagenpagina aan een verslag toe te voegen.
 
-In de productieomgeving wordt de informatie van de verbonden records of objecten weergegeven in een tabelweergave met het kenmerk Alleen-lezen.
+De gegevens uit de verbonden records kunnen worden bewerkt in de tabelweergave. De gegevens van de objecten die met een andere toepassing zijn verbonden, kunnen niet worden bewerkt in de tabelweergave.
 
-<span class="preview"> in het milieu van de Voorproef, kan de informatie van de verbonden verslagen in de lijstmening worden uitgegeven. De informatie van de voorwerpen die van een andere toepassing worden verbonden is niet editable in de lijstmening.</span>
+Houd rekening met het volgende wanneer u een pagina Verbonden records aan een record toevoegt:
 
-Overweeg het volgende wanneer het toevoegen van a <span class="preview"> Verbonden verslagenpagina </span> aan een verslag:
+* U kunt een pagina Verbonden records aan een record toevoegen nadat u de record- of objecttypen hebt verbonden met het recordtype vanuit de tabelweergave van een recordtype.
 
-* U kunt a <span class="preview"> Verbonden verslagenpagina </span> aan een verslag toevoegen nadat u verslag of objecten types aan het verslagtype van de lijstmening van een verslagtype verbond.
+* U kunt geen pagina Verbonden records toevoegen aan het voorvertoningsgebied van een record.
 
-* U kunt geen a <span class="preview"> Verbonden verslagenpagina </span> aan het voorproefgebied van een verslag toevoegen.
+* Verbonden recordpagina&#39;s geven alleen de verbonden objecten of records van één object of recordtype in een tabelweergave weer. Op de pagina worden niet alle records van dat type weergegeven in de tabelweergave.
 
-* <span class="preview"> Verbonden verslagenpagina&#39;s </span> tonen slechts de verbonden voorwerpen of verslagen van één voorwerp of verslagtype in een lijstmening. Op de pagina worden niet alle records van dat type weergegeven in de tabelweergave.
+* Nadat u een pagina Verbonden records aan een record hebt toegevoegd, wordt het tabblad Pagina weergegeven vanuit het voorvertoningsgebied van de record, maar deze is leeg. U moet naar de volledige pagina gaan om de lijstmening voor het verbonden verslag te zien. <!--this might have changed? check and take disclaimer out-->
 
-* Nadat u a <span class="preview"> Verbonden verslagenpagina </span> aan een verslag toevoegt, is het paginatabblad zichtbaar van het voorproefgebied van het verslag, maar het is leeg. U moet naar de volledige pagina gaan om de lijstmening voor het verbonden verslag te zien. <!--this might have changed? check and take disclaimer out-->
-
-* U kunt <span class="preview"> Verbonden verslagenpagina&#39;s </span> voor het volgende verbonden verslag of objecten types toevoegen:
+* U kunt Verbonden recordpagina&#39;s toevoegen voor de volgende verbonden record- of objecttypen:
 
    * Workfront Planning-recordtypen
    * Workfront-projecten, -programma&#39;s, -portfolio&#39;s, -groepen of -bedrijven. U kunt de verbonden Workfront-objecten ook weergeven als u geen toegangsrechten hebt in Workfront.
 
   >[!NOTE]
   >
-  >   U kunt geen a <span class="preview"> Verbonden verslagenpagina </span> voor verbonden verslagen van AEM Assets toevoegen.
+  >   U kunt geen Connect-recordpagina toevoegen voor verbonden AEM Assets-records.
 
 
-Om a <span class="preview"> Verbonden verslagenpagina </span> toe te voegen:
+Een pagina voor verbonden records toevoegen:
 
 1. Van een mening van de verslagpagina, klik de naam van een verslag om het te openen, dan klik **Open in nieuw lusje** pictogram ![ Open details in een nieuw lusjepictogram ](assets/open-details-in-a-new-tab-icon.png) in de hoger-juiste hoek van de voorproefpagina.
 1. Klik **toevoegen pagina**.
 
-   <div class="preview">
 
    **creeer pagina** doos opent.
 
    ![ voeg Verbonden verslagen pagina modaal ](assets/add-connection-view-page-modal.png) toe
 
-   </div>
-
-1. Voeg de **naam van de Pagina** toe, klik **<span class="preview">Verbonden verslagenpagina</span>**, dan klik **creeer**.
+1. Voeg de **naam van de Pagina** toe, klik **Verbonden verslagenpagina**, dan klik **creeer**.
 
    Er wordt een nieuw tabblad toegevoegd aan de pagina van de record.
 1. Zoek of klik op de naam van een verbonden record of objecttype in de lijst.
@@ -320,12 +307,10 @@ Alle velden van de verbonden record worden weergegeven in de tabelweergave van h
 
    * Klik op de naam van een record. Hierdoor wordt de pagina van de record op een nieuw tabblad geopend.
 
-     <span class="preview"> in het milieu van de Voorproef, opent dit de voorproefpagina van het verslag. Klik **Open in een nieuw lusje** pictogram ![ Open in een nieuw lusjepictogram ](assets/open-details-in-a-new-tab-icon.png) in de hoger-juiste hoek om de verbonden pagina van het verslag te openen.</span>
+     Hierdoor wordt de voorvertoningspagina van de record geopend. Klik **Open in een nieuw lusje** pictogram ![ Open in een nieuw lusjepictogram ](assets/open-details-in-a-new-tab-icon.png) in de hoger-juiste hoek om de verbonden pagina van het verslag te openen.
 
    * Klik **verbinden** om meer verslagen te verbinden, dan klik buiten de verbindingsdoos om het te sluiten. De nieuwe records worden automatisch aan de tabel toegevoegd.
-   * <span class="preview"> geeft om het even welke informatie van de verbonden verslagen binnen de lijstmening uit. </span>
-
-   <div class="preview">
+   * Bewerk alle gegevens uit de verbonden records in de tabelweergave.
 
    * Beweeg over de naam van een verbonden verslag, dan klik **Meer** menu ![ Meer menu ](assets/more-menu.png), dan klik één van de volgende opties:
       * Weergave
@@ -345,10 +330,7 @@ Alle velden van de verbonden record worden weergegeven in de tabelweergave van h
 
    * Bewerk een van de records in de tabel op de pagina Verbonden records met inline. Workfront-objecten worden weergegeven in een tabelweergave met het kenmerk Alleen-lezen en u kunt ze niet bewerken.
 
-   </div>
-
-
-1. (Optioneel) Dubbelklik op de naam van de <span class="preview"> Verbonden recordpagina </span> tab
+1. (Optioneel) Dubbelklik op de naam van het tabblad Verbonden recordpagina
 
    of
 
@@ -368,7 +350,7 @@ Alle velden van de verbonden record worden weergegeven in de tabelweergave van h
    >
 
 1. Klik **verbinden** om verslagen toe te voegen of te verwijderen. Voor informatie, zie [ verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md)
-1. (Optioneel) Beweeg over de naam van de <span class="preview"> Verbonden verslagenpagina </span> tabel, **Meer** ![ Meer menu ](assets/more-menu.png), dan klik **Schrapping** om aan tabel te verwijderen.
+1. (Facultatief) Hover over de naam van het Verbonden lusje van de verslagenpagina, klik **Meer** ![ Meer menu ](assets/more-menu.png), dan klik **Schrapping** om aan tabel te verwijderen.
 
 
 

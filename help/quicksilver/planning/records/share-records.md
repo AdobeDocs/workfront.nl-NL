@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 0%
 
 # Records delen
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  -->
 
 {{planning-important-intro}}
 
@@ -34,25 +34,19 @@ U kunt een Adobe Workfront-planningsrecord op de volgende manieren delen:
 
 * Kopieer een koppeling naar de pagina van de record wanneer u records bekijkt in de tabelweergave van het recordtype.
 
-* U kunt alle verslagen in een werkruimte met andere gebruikers delen door de werkruimte <span class="preview"> en het verslagtype te delen.</span>
+* U kunt alle records in een werkruimte met andere gebruikers delen door de werkruimte en het recordtype te delen.
 
   Zie de volgende artikelen voor meer informatie:
 
    * [Een werkruimte delen](/help/quicksilver/planning/access/share-workspaces.md)
 
-  <div class="preview">
-
    * [Een recordtype delen](/help/quicksilver/planning/access/share-record-types.md)
-
-  </div>
 
 In dit artikel wordt beschreven hoe u een koppeling naar de pagina van een record kunt kopiëren vanuit de tabelweergave van een recordtype.
 
 ## Toegangsvereisten
 
 +++ Vouw uit om de vereisten voor toegang weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -104,20 +98,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objectmachtigingen</p></td> 
-   <td>  <p>De mening of hogere toestemmingen aan een werkruimte <span class="preview"> en verslagtype </span> om te delen   een record met behulp van een koppeling </p>
-   <p>Beheer toestemmingen aan een werkruimte <span class="preview"> en verslagtype </span> om de verslagen in de werkruimte te delen </p>
+   <td>  <p>Machtigingen weergeven of hoger voor een werkruimte en de functie opnemen om te delen   een record met behulp van een koppeling </p>
+   <p>Machtigingen beheren voor een werkruimte en recordtype om de records in de werkruimte te delen </p>
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>  </td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>Lay-outsjabloon</p></td> 
-   <td> <p>In het milieu van de Productie, moeten alle gebruikers met inbegrip van de beheerders van het Systeem aan een lay-outmalplaatje worden toegewezen dat de gebieden van de Planning omvat.</p>
-   <div class="preview">
-<p> In het milieu van de Voorproef, moeten de gebruikers met een Licht of de vergunning van de Medewerker een lay-outmalplaatje worden toegewezen dat Planning omvat.</p>
-
-<p>De standaardgebruikers en de Beheerders van het Systeem hebben Planning die door gebrek wordt toegelaten.</p></div>
-
-<p>Voor meer informatie, zie <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md"> lay-outmalplaatjes </a> creëren en beheren.</p></td> 
-  </tr> 
+<tr>
+   <td role="rowheader"><p>Lay-outsjabloon</p></td>
+   <td> De gebruikers met een Licht of de vergunning van de Medewerker moeten een lay-outmalplaatje worden toegewezen dat Planning omvat.
+   <p>De standaardgebruikers en de Beheerders van het Systeem hebben de Gebieden van de Planning die door gebrek worden toegelaten.</p></div></li></ul>
+</td>
+  </tr>
 </tbody> 
 </table>
 
@@ -160,18 +150,15 @@ De werkruimte die u het laatst hebt geopend.
 
 U kunt alle records in een werkruimte delen wanneer u de werkruimte deelt met anderen.
 
+Recordtypen en records nemen dezelfde machtigingen over van de werkruimte.
+
 Alleen gebruikers met de machtiging Beheren in een werkruimte kunnen deze delen met anderen.
 
 Voor meer informatie, zie [ een werkruimte ](/help/quicksilver/planning/access/share-workspaces.md) delen.
 
-
-<div class="preview">
-
 ## Alle records in een recordtype delen door het recordtype te delen
 
-In het milieu van de Productie, erven de verslagen toestemmingen van de werkruimte.
-
-In de voorvertoningsomgeving nemen records rechten over van het recordtype.
+Records nemen machtigingen over van het recordtype.
 
 Standaard nemen recordtypen machtigingen van de werkruimte over.
 
@@ -184,4 +171,3 @@ Alleen gebruikers met de machtiging Beheren in een werkruimte kunnen hun recordt
 
 Voor meer informatie, zie [ recordtypes van het Aandeel ](/help/quicksilver/planning/access/share-record-types.md).
 
-</div>

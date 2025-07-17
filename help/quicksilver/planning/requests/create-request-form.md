@@ -3,12 +3,12 @@ title: Een aanvraagformulier maken en beheren in Adobe Workfront-planning
 description: Nadat u een recordtype hebt geselecteerd in het gedeelte Adobe Workfront Planning, kunt u een aanvraagformulier maken en dit koppelen aan dat recordtype. Vervolgens kunt u een koppeling naar de koppeling delen met andere interne of externe gebruikers. Gebruikers met een koppeling naar het formulier kunnen de veldwaarden erin invullen en door deze te verzenden, kunnen zij een nieuwe record toevoegen voor het bijbehorende recordtype.
 feature: Workfront Planning
 role: User, Admin
-author: Alina
+author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '2166'
+source-wordcount: '2242'
 ht-degree: 0%
 
 ---
@@ -35,8 +35,6 @@ Voor informatie over het voorleggen van een verzoek aan een verslagtype om een v
 ## Toegangsvereisten
 
 +++ Vouw uit om de vereisten voor toegang weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto">
  <col>
@@ -93,18 +91,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader"><p>Objectmachtigingen</p></td>
    <td>
    <ul>
-   <li><p>Beheer toestemmingen aan een werkruimte <span class="preview"> en verslagtype </span> </p></li>
+   <li><p>Machtigingen beheren in een werkruimte en recordtype</p></li>
     <li><p>Systeembeheerders kunnen werkruimten beheren die ze niet hebben gemaakt. </p></li>
     </ul>
    <p>Voor informatie over het delen van machtigingen voor Workfront Planning-objecten raadpleegt u  
    <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md"> Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront </a> 
   </td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>In het milieu van de Productie, moeten alle gebruikers met inbegrip van de Beheerders van het Systeem aan een lay-outmalplaatje worden toegewezen dat Planning omvat.</p>
-<p><span class="preview">In het milieu van de Voorproef, hebben de Standaardgebruikers en de Beheerders van het Systeem Planning die door gebrek wordt toegelaten.</span></p>  
-</td>
   </tr>
  </tbody>
 </table>
@@ -124,8 +116,8 @@ Voor informatie over het voorleggen van de verzoeken van de Planning van Workfro
 
    * U kunt geen velden van de volgende typen toevoegen aan een aanvraagformulier:
 
-      * Gemaakt door en laatstelijk gewijzigd door <!--Created by, Last modified by, <span class="preview">Approved by</span>-->
-      * Aanmaakdatum en datum van laatste wijziging <!--Created date, Last modified date, <span class="preview">Approved date</span>-->
+      * Gemaakt door, Laatst gewijzigd door, <span class="preview"> goedgekeurd door </span>
+      * Gemaakt op datum, Laatste gewijzigde datum, <span class="preview"> Goedgekeurde datum </span>
       * Formule
       * Opzoekvelden van Workfront-objecten
       * Workfront Planning connected records lookup fields
@@ -229,6 +221,7 @@ Voor informatie over het voorleggen van de verzoeken van de Planning van Workfro
      Voor meer informatie over het toevoegen van goedkeuringen aan aanvraagvormen, zie [ goedkeuring aan een verzoekvorm ](/help/quicksilver/planning/requests/add-approval-to-request-form.md) toevoegen.
 
 1. (Facultatief) klik het **Meer** menu ![ Meer menu ](assets/more-menu.png) rechts van de naam van de vorm in de kopbal, dan klik **uitgeven** om de naam van de vorm bij te werken.
+
 1. Klik **publiceren** om de vorm te publiceren en een unieke verbinding voor het te verkrijgen.
 
    De volgende dingen doen zich voor:
@@ -236,47 +229,11 @@ Voor informatie over het voorleggen van de verzoeken van de Planning van Workfro
    * De **Publish** knoop wordt verwijderd.
    * De **unpublish** knoop wordt toegevoegd aan de vorm. Als u erop klikt, is het formulier niet toegankelijk.
    * A **de knoop van het Aandeel** wordt toegevoegd aan de vorm.
+   * Het formulier wordt beschikbaar in het gedeelte Aanvragen van het menu Main in Workfront.
 
 1. Klik **Aandeel** om de vorm met anderen te delen.
 
-   ![ doos van het Aandeel voor aanvraagvorm ](assets/share-box-for-request-form.png)
-
-1. (Voorwaardelijk) Selecteer in de productieomgeving een van de volgende opties om aan te geven welke typen gebruikers toegang hebben tot dit formulier:
-
-   * Iedereen met weergave of hogere toegang tot de werkruimte
-   * Iedereen met een hogere of hogere toegang tot de werkruimte
-   * Iedereen met de koppeling
-
-   >[!WARNING]
-   >
-   >* Wanneer u **iedereen met de verbinding** selecteert, kan iedereen tot de vorm toegang hebben en een nieuw verslag voorleggen, zelfs mensen buiten uw organisatie die geen rekening van Workfront hebben.
-   >
-   >* Een formulier dat de volgende veldtypen bevat, kan niet openbaar worden gedeeld:
-   >
-   >     * Workfront- of AEM Assets-verbindingen
-   >     * Mensen
-   >
-
-1. (Voorwaardelijk) in het productiemilieu, als u **Iedereen met de verbinding** in de vorige stap selecteerde, selecteer de **vervaldatum van de Verbinding** van de beschikbare kalender.
-
-   Personen ontvangen een fout nadat de koppeling is verlopen en u moet de datum van de koppeling bijwerken en een nieuwe koppeling genereren om te delen voordat ze het formulier weer kunnen openen.
-
-   U kunt toekomstige datums selecteren binnen 180 dagen vanaf de huidige datum.
-
-   >[!TIP]
-   >
-   >Nadat de datum voor delen is verlopen, is het aanvraagformulier niet meer beschikbaar in het gedeelte Aanvragen van Workfront en zijn de koppelingen die met andere gebruikers worden gedeeld, niet meer toegankelijk.
-
-1. (Facultatief en voorwaardelijk) in het productiemilieu, klik **sparen en kopieer verbinding** om de het delen details voor de vorm te bewaren. Als de vorm eerder werd bewaard, klik **verbinding van het Exemplaar**.
-
-   De opties voor het delen van formulieren worden opgeslagen en de koppeling wordt naar het klembord gekopieerd. U kunt deze nu delen met anderen.
-
-   Voor informatie over het creëren van verslagen die een verbinding aan een verzoekvorm gebruiken, zie [ verzoeken van de Planning van Adobe Workfront voorleggen ](/help/quicksilver/planning/requests/submit-requests.md).
-
-1. <span class="preview"> (Voorwaardelijk) Selecteer in de voorvertoningsomgeving het tabblad Intern delen, zoek naar de naam van de gebruiker en selecteer dit tabblad wanneer het wordt weergegeven in de lijst om het tabblad te delen. </span>
-1. <span class="preview"> (Voorwaardelijk) Als u in de voorvertoningsomgeving een openbare koppeling wilt maken, selecteert u het tabblad Openbaar delen en schakelt u vervolgens de optie Openbare koppeling maken in of uit. U kunt de verbinding hier dan kopiëren, of een datum van de verbindingsvervaldatum plaatsen.</span>
-1. Klik **sparen** in de laag-juiste hoek van het **3&rbrace; lusje van de Vorm &lbrace;om de vorm te bewaren.**
-
+   Voor informatie over het delen van een verzoekvorm, zie [ een sectie van de verzoekvorm ](#share-a-request-form) in dit artikel delen
 1. Klik op de pijl die naar links wijst links van de naam van het formulier in de koptekst om het formulier te sluiten.
 
    De **vorm van het Verzoek** lijstmening opent en de vorm wordt toegevoegd aan het.
@@ -291,7 +248,6 @@ Voor informatie over het voorleggen van de verzoeken van de Planning van Workfro
 
    ![ Meer menu op verzoekvorm van de lijst van de verzoekvormen ](assets/more-menu-on-request-form-from-request-forms-list.png)
 
-
 1. Klik op de pijl die naar links wijst links van **Request-formulieren** in de header om de aanvraagformuliertabel te sluiten.
 
    De pagina met recordtypen wordt geopend.
@@ -302,3 +258,54 @@ Voor informatie over het voorleggen van de verzoeken van de Planning van Workfro
 
 1. (Facultatief) ga naar het **gebied van Verzoeken** in Workfront en vind de gedeelde vorm om een verzoek voor te leggen. Voor informatie, zie [ de Verzoeken van de Planning van Adobe Workfront voorleggen om verslagen ](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen.
 
+## Een aanvraagformulier delen
+
+1. Creeer een verzoekvorm zoals die in [ wordt beschreven creeer een verzoekvorm voor een verslagtype ](#create-a-request-form-for-a-record-type) sectie in dit artikel.
+1. Klik **Meer** menu ![ Meer menu ](assets/more-menu.png) rechts van de naam van de verzoekvorm op de pagina van het verslagtype.
+1. Klik **Aandeel** om de vorm met anderen te delen.
+
+1. Om de vorm intern te delen, selecteer het **Interne delende** lusje, onderzoek naar de naam van een gebruiker, team, baanrol, groep, of bedrijf in de **toegang van de Verlening om dit vorm** gebied voor te leggen, dan het te selecteren wanneer het in de lijst verschijnt. De **voorlegt** toestemming wordt geselecteerd door gebrek voor elke entiteit.
+
+   ![ doos van het Aandeel voor aanvraagvorm ](assets/share-box-for-request-form.png)
+
+1. (Facultatief) klik het drop-down menu na de naam van een entiteit, dan klik **verwijderen** om hen uit de lijst te verwijderen en ophouden delend de vorm met hen.
+
+1. In **die verzoeken door deze vorm** sectie kan voorleggen, selecteer van de volgende opties om erop te wijzen welke types van gebruikers tot deze vorm kunnen toegang hebben:
+
+   * Alleen uitgenodigde personen hebben toegang
+   * Iedereen met weergave of hogere toegang tot de werkruimte
+   * Iedereen met een hogere of hogere toegang tot de werkruimte
+1. (Facultatief) klik **verbinding van het Exemplaar** om de verbinding met de vorm met mensen te delen die toegang hebben om dit te doen. De koppeling wordt naar het klembord gekopieerd.
+1. Om de vorm openbaar te delen, selecteer het **Openbare delen** lusje, dan laat **openbare verbinding** plaatsen toe creëren.
+
+   ![ Openbaar het delen voor verzoekvorm ](assets/share-request-form-publicly-tab.png)
+
+   >[!WARNING]
+   >
+   >* Wanneer u **toelaat creeer openbare verbinding** plaatsen, kan iedereen tot de vorm toegang hebben en een nieuw verslag voorleggen, zelfs mensen buiten uw organisatie die geen rekening van Workfront hebben.
+   >
+   >* Een formulier dat de volgende veldtypen bevat, kan niet openbaar worden gedeeld:
+   >
+   >     * Workfront- of AEM Assets-verbindingen
+   >     * Mensen
+   >
+
+1. Kies de vervaldatum van de a **Verbinding**.
+
+   U kunt toekomstige datums selecteren binnen 180 dagen vanaf de huidige datum.
+
+   >[!TIP]
+   >
+   >Nadat de datum voor delen is verlopen, is het aanvraagformulier niet meer beschikbaar in het gedeelte Aanvragen van Workfront en zijn de koppelingen die met andere gebruikers worden gedeeld, niet meer toegankelijk.
+
+   Personen ontvangen een fout nadat de koppeling is verlopen en u moet de datum van de koppeling bijwerken en een nieuwe koppeling genereren om te delen voordat ze het formulier weer kunnen openen.
+
+
+1. (Facultatief en voorwaardelijk) klik **sparen** om het delen details voor de vorm te bewaren.
+1. (Voorwaardelijk) als de vorm eerder werd bewaard, klik **verbinding van het Exemplaar**.
+
+   De opties voor het delen van formulieren worden opgeslagen en de koppeling wordt naar het klembord gekopieerd. U kunt deze nu delen met anderen.
+
+   Voor informatie over het creëren van verslagen die een verbinding aan een verzoekvorm gebruiken, zie [ verzoeken van de Planning van Adobe Workfront voorleggen ](/help/quicksilver/planning/requests/submit-requests.md).
+
+1. Klik **sparen** in de laag-juiste hoek van het **3} lusje van de Vorm {om de vorm te bewaren.**
