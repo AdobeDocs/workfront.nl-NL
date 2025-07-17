@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: fec77b37-3968-4e0e-8034-63a816a7a3d5
-source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
+source-git-commit: 2847adb34fc8f433392c82dbcab9bf48f0fc8aa0
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -59,10 +59,10 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **de Interface van 0&rbrace; >** Malplaatjes van de Lay-out **.**
+1. In het linkerpaneel, klik **de Interface van 0} >** Malplaatjes van de Lay-out **.**
 
 1. Klik op de naam van de lay-outsjabloon die u wilt wijzigen.
-1. Klik **Exemplaar**.
+1. Klik het **pictogram van het Exemplaar** ![ pictogram van het 1} exemplaar.](assets/copy-icon.png)
 
    Alle instellingen behalve de naam, beschrijving en gebruikerstoewijzingen in de bestaande lay-outsjabloon worden naar de nieuwe sjabloon gekopieerd.
 
