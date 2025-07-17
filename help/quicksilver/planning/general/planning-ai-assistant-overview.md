@@ -84,7 +84,7 @@ U kunt de AI-assistent vinden op de volgende gebieden van de Workfront-planning:
 
 1. (Facultatief) klik a **verslagtype kaart**.
 
-1. (Facultatief) klik a **verslag** om de 2} Details van het verslag **pagina te openen.**
+1. (Facultatief) klik a **verslag** om de 2&rbrace; Details van het verslag **pagina te openen.**
 
 1. Klik het **AI Hulppictogram** in de hoger-juiste hoek van het scherm in de globale navigatiebar of in de hoger-juiste hoek van de voorproef of de pagina van het verslag.
 
