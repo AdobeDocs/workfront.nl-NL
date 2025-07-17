@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: ef33a8bcdec76747434b5c5aaf62a743335fb10f
 workflow-type: tm+mt
 source-wordcount: '844'
 ht-degree: 0%
@@ -154,18 +154,16 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
      </tr> 
      <tr> 
       <td role="rowheader"><strong> Types van Verzoek </strong> </td> 
-      <td> <p>Kies welk soort verzoeken dit rijonderwerp opslaat. De zichtbare opties worden geplaatst op het <strong> lusje van de Details van de Rij </strong> van het project. Dit is een verplicht veld. </p>
-
-   <p><b> NOTA </b>:
-
-   De types tonen als selectie op het gebied van Verzoeken slechts als het Type van Verzoek in zowel de Details van de Rij als de pagina&#39;s van het Onderwerp van de Rij wordt geselecteerd. Voor informatie over vestiging het gebied van de Details van de Rij van een project, zie <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref"> een Rij van het Verzoek </a> creëren. </p> <p>Selecteer een van de volgende typen:</p>
-   <ul>
-   <li>Foutrapport</li>
-   <li>Volgorde wijzigen</li>
-   <li>Probleem</li>
-   <li>Verzoek</li>
-   </ul> <p>Mogelijk is de naam van uw Workfront-beheerder gewijzigd in een aantal van deze opties. </p> </td>
-   </tr> 
+      <td> <p>Kies welk soort verzoeken dit rijonderwerp opslaat. De zichtbare opties worden geplaatst op het <strong> lusje van de Details van de Rij </strong> van het project. Dit is een verplicht veld. </p> 
+       <p><b> NOTA </b>:</p>
+      <p>De types tonen als selectie op het gebied van Verzoeken slechts als het Type van Verzoek in zowel de Details van de Rij als de pagina's van het Onderwerp van de Rij wordt geselecteerd. Voor informatie over vestiging het gebied van de Details van de Rij van een project, zie <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref"> een Rij van het Verzoek </a> creëren. </p> <p>Selecteer een van de volgende typen:</p> 
+       <ul> 
+        <li>Foutrapport</li> 
+        <li>Volgorde wijzigen</li> 
+        <li>Probleem</li> 
+        <li>Verzoek</li> 
+       </ul> <p>Mogelijk is de naam van uw Workfront-beheerder gewijzigd in een aantal van deze opties. </p> </td> 
+     </tr> 
     </tbody> 
    </table>
 
