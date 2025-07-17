@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 915d1520-f5c4-4e33-b645-cb219289383c
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 09bb41e16da89edd2c2cbfb5a85213045e52394d
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '699'
 ht-degree: 0%
 
 ---
@@ -47,6 +47,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Beginnen creërend of het uitgeven van het toegangsniveau, zoals die in [ wordt verklaard creeer of wijzig douanetoegangsniveaus ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Klik het tandwielpictogram ![](assets/gear-icon-settings.png) op de **Mening** of **geef** knoop aan het recht van Teams uit, dan selecteer de capaciteiten u onder **wilt verlenen - verbeter uw montages**.
+
+   ![ verbeter teams ](assets/fine-tune-teams.png)
 
    * **Mening**: Als u vormt hoe de gebruikers met om het even welke vergunning teams kunnen bekijken, verander om het even welke volgende opties:
 
@@ -103,6 +105,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
         </tr>
        </tbody>
       </table>
+
+
 
 1. Klik X om **te sluiten verbeter uw montages** doos.
 1. (Facultatief) om toegangsmontages voor andere voorwerpen en gebieden in het toegangsniveau te vormen u aan werkt, ga met één van de artikelen voort die in [ worden vermeld toegang tot Adobe Workfront ](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), zoals [ toegang van de Verlening tot taken ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) en [ toegang van de Verlening tot financiële gegevens ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).

@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: 5113771baf269405e758307d11a392f95ee870fe
+source-git-commit: 09bb41e16da89edd2c2cbfb5a85213045e52394d
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -67,9 +67,11 @@ U kunt beheren welke informatie gebruikers voor andere gebruikers kunnen bekijke
 1. Beginnen creërend of het uitgeven van het toegangsniveau, zoals die in [ wordt verklaard creeer of wijzig douanetoegangsniveaus ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. U wijzigt als volgt de mogelijkheid voor gebruikers met een abonnement- of werkvergunning om de profielen van andere gebruikers weer te geven:
 
-   1. Klik het tandwielpictogram ![](assets/gear-icon-settings.png) op de **2&rbrace; knoop van de Mening &lbrace;aan het recht van** Gebruikers **.**
+   1. Klik het tandwielpictogram ![](assets/gear-icon-settings.png) op de **2} knoop van de Mening {aan het recht van** Gebruikers **.**
 
    1. Schakel **Info van het Contact van de Mening** uit, dan klik X om **te sluiten verfijnen uw montages** doos.
+
+      ![ verbeter gebruikersinstellingen ](assets/fine-tune-users.png)
 
 1. Om de capaciteit van gebruikers met een de vergunningstoegang van het Plan te wijzigen om andere gebruikers uit te geven, klik het tandwielpictogram ![](assets/gear-icon-settings.png) op **geef** knoop aan het recht van **Gebruikers** uit, dan selecteer de capaciteiten u wilt verlenen:
 
@@ -80,12 +82,9 @@ U kunt beheren welke informatie gebruikers voor andere gebruikers kunnen bekijke
      <tr> 
       <td role="rowheader"><strong> creeer </strong> </td> 
       <td> <p>Hiermee kunnen gebruikers gebruikers maken.<br> Deze optie wordt toegelaten door gebrek.</p> 
-      &lt;!—
-        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Zorg ervoor dat deze wijziging wordt aangebracht voordat u de 2 opmerkingen ongedaan maakt. Op 3/29 zegt het document-req dat dit afhankelijk is van onderzoeksresultaten.</p>
-
-       &lt;p>&lt;b>Opmerking&lt;/b>: dit is niet beschikbaar als uw organisatie is aangemeld bij de Adobe Admin Console. Zie uw netwerk of beheerder van IT als u meer informatie nodig hebt.&lt;/p>
-       —> &lt;/td> 
-   </tr> 
+     <p><b> NOTA </b>: Dit is niet beschikbaar als uw organisatie aan Adobe Admin Console is bezet. Zie uw netwerk of beheerder van IT als u meer informatie nodig hebt.</p>
+        </td>  
+     </tr> 
      <tr> 
       <td role="rowheader"><strong> Schrapping </strong> </td> 
       <td> <p> Hiermee kunnen gebruikers de gebruikers verwijderen die ze zelf hebben gemaakt.<br> Deze optie wordt toegelaten door gebrek.</p> <p><b> NOTA </b>: Dit is niet beschikbaar als uw organisatie aan Adobe Admin Console is bezet. Zie uw netwerk of beheerder van IT als u meer informatie nodig hebt.</p> </td> 

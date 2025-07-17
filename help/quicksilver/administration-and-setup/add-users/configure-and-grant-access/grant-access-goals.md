@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8639da14-d545-4f9a-894b-12c29699b0db
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 09bb41e16da89edd2c2cbfb5a85213045e52394d
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%
@@ -59,7 +59,6 @@ Voor extra informatie over toegang tot de Doelen van Workfront, zie [ Vereisten 
 1. Beginnen creërend of het uitgeven van het toegangsniveau, zoals die in [ wordt verklaard creeer of wijzig douanetoegangsniveaus ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Klik de optie aan het recht van **Doelen** die u voor dit toegangsniveau wilt gebruiken.
 
-   ![](assets/edit-access-level-goals.png)
 
    >[!NOTE]
    >
