@@ -131,7 +131,7 @@ of
 1. (Optioneel) Voer een van de volgende handelingen uit om de locatie van een sectie te wijzigen:
 
    * Beweeg over de naam van een sectie en klik het **greep** pictogram ![ pictogram van het Grab ](assets/grab-icon.png), dan belemmering en laat vallen het in de juiste vlek.
-   * Beweeg over de naam van een sectie en klik **Meer** menu ![ Meer menu ](assets/more-menu.png), dan klik omhoog **** of **Beweging neer**. De sectie wordt omhoog of omlaag verplaatst binnen de werkruimte.
+   * Beweeg over de naam van een sectie en klik **Meer** menu ![ Meer menu ](assets/more-menu.png), dan klik omhoog **&#x200B;**&#x200B;of **Beweging neer**. De sectie wordt omhoog of omlaag verplaatst binnen de werkruimte.
 
 1. (Optioneel) Ga als volgt te werk om een sectie van een werkruimte te verwijderen:
 
