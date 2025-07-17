@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 2572093857bb1ad27f869e1d7244549e531ba421
+source-git-commit: eb3bace0298ea67deb3d4515da23b9301625bec7
 workflow-type: tm+mt
-source-wordcount: '2200'
+source-wordcount: '2273'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,19 @@ In dit artikel worden de functies beschreven die tijdens de release van het derd
 <!--keep the sentence below for all future quarterly release pages-->
 
 Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront worden vrijgegeven, zie [ de versieactiviteit van de Planning van Adobe Workfront: artikelindex ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Bijgewerkte geavanceerde instellingen bij het maken en bewerken van recordtypen
+
+Voorbeeld en productie: 10 juli 2025
+
+Het tabblad Geavanceerde instellingen is bijgewerkt wanneer u een recordtype maakt of bewerkt.
+
+De volgende wijzigingen zijn toegevoegd als onderdeel van deze update:
+
+* Het gebied &quot;Connectivity scope&quot; is omgedoopt tot &quot;Cross-workspace capabilities&quot;
+* De instelling &quot;Verbinding maken vanuit andere werkruimten&quot; heet nu &quot;Verbinding maken met dit recordtype in andere werkruimten toestaan&quot;
+
+Voor meer informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
 
 ## Meldingen voor teamgebruikers toevoegen wanneer het team wordt toegevoegd aan een recordopmerking
 
@@ -96,7 +109,7 @@ Om de ervaring wanneer het delen van een verzoekformulier in de Planning van Wor
 * We hebben opties voor beheren en bijdragen verwijderd voor gebruikers waarmee u het aanvraagformulier deelt. Nu kunnen toegevoegde gebruikers alleen het formulier verzenden.
 * Het tabblad Openbaar delen geeft nu het veld voor de koppeling en de vervaldatum weer nadat de optie Openbare koppeling maken is ingeschakeld.
 
-Voor meer informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
+Voor meer informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
 
 ## Alle groepen in de tabelweergave uitvouwen en samenvouwen
 
@@ -314,7 +327,7 @@ Voorafgaand aan deze verbetering, moesten de gebruikers met alle vergunningsnive
 >[!NOTE]
 >
 >Deze wijziging is zichtbaar voor alle nieuwe en bestaande gebruikers met een System Administrator- en Standard-licentie.
->&#x200B;>Bestaande gebruikers die aan een lay-outsjabloon zijn toegewezen, blijven alles zien volgens de instellingen die in de lay-outsjabloon zijn gedefinieerd.
+>>Bestaande gebruikers die aan een lay-outsjabloon zijn toegewezen, blijven alles zien volgens de instellingen die in de lay-outsjabloon zijn gedefinieerd.
 
 Voor informatie, zie [ overzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/access/access-overview.md).
 

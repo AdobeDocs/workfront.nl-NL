@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: b3f1002b-e3b4-48e5-9a64-467d4f7a15b2
-source-git-commit: 282bcd517736cef2836842409e65a6ddce63d853
+source-git-commit: 3eaab5818e982914f807ce2c4e92dee1885ea8d9
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Dit artikel bevat een lijst met artikelen over releaseactiviteiten met betrekkin
 
 Voor informatie over de huidige de versieactiviteit van de Planning van Workfront, zie het volgende artikel:
 
-* [Derde Kwart 2025 releaseactiviteit voor de Planning van Adobe Workfront](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
+* [Vierde kwartaal 2025 de versieactiviteit voor de Planning van Adobe Workfront](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
 
 >[!ENDSHADEBOX]
 
@@ -30,6 +30,8 @@ Voor informatie over de huidige de versieactiviteit van de Planning van Workfron
 
 Raadpleeg de volgende artikelen voor meer informatie over functies die zijn uitgebracht vóór de productierelease op 10 april 2025:
 
+* [Vierde kwartaal 2025 de versieactiviteit voor de Planning van Adobe Workfront](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
+* [Derde Kwart 2025 releaseactiviteit voor de Planning van Adobe Workfront](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
 * [Tweede kwartaal 2025: releaseactiviteit voor Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
 * [Eerste kwartaal van 2025: releaseactiviteit voor Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
 * [Vierde kwartaal 2024 publicatieactiviteit voor Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
