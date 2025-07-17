@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: a5b7683bffa6c63d7feb45e5c38404185d3f2b44
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '720'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Adobe Workfront Planning AI Assistant - overzicht
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
 
 
 {{planning-important-intro}}
@@ -45,7 +45,7 @@ De bevelen van de gebruiker en de uitvoering van AI van die bevelen werken samen
 
 * Met opdrachten kunt u handelingen ongedaan maken. U kunt bijvoorbeeld &quot;Laatste wijziging ongedaan maken&quot; typen om de wijziging ongedaan te maken.
 
-* <span class="preview"> Wanneer u een object maakt, bijwerkt of verwijdert via AI Assistant, geeft AI Assistant de beoogde acties weer en wordt om bevestiging gevraagd. U kunt de acties vervolgens bevestigen of annuleren. </span>
+* Wanneer u een object maakt, bijwerkt of verwijdert via AI Assistant, geeft AI Assistant de beoogde acties weer en wordt om bevestiging gevraagd. U kunt de acties vervolgens bevestigen of annuleren.
 
 ## Momenteel beschikbare functionaliteit voor de AI-assistent
 
@@ -76,7 +76,7 @@ U kunt de AI-assistent vinden op de volgende gebieden van de Workfront-planning:
 
 ## De AI-assistent openen in het planningsgebied
 
-1. Login aan Workfront, dan klik het **pictogram van het Belangrijkste Menu ![ het belangrijkste menu van Dots ](assets/dots-main-menu.png) in de hoger-juiste hoek van het scherm, of het** Belangrijkste **pictogram ![ het belangrijkste menu van Lijnen ](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar.**
+1. Login aan Workfront, dan klik het **pictogram van het Belangrijkste Menu** het belangrijkste menu van Dots ![ in de hoger-juiste hoek van het scherm, of het ](assets/dots-main-menu.png) Belangrijkste **pictogram** het belangrijkste menu van Lijnen ![ in de upper-left hoek, als beschikbaar.](assets/lines-main-menu.png)
 
 . Klik **Planning**. Het planningsgebied wordt geopend.
 
@@ -84,7 +84,7 @@ U kunt de AI-assistent vinden op de volgende gebieden van de Workfront-planning:
 
 1. (Facultatief) klik a **verslagtype kaart**.
 
-1. (Facultatief) klik a **verslag** om de 2&rbrace; Details van het verslag **pagina te openen.**
+1. (Facultatief) klik a **verslag** om de 2} Details van het verslag **pagina te openen.**
 
 1. Klik het **AI Hulppictogram** in de hoger-juiste hoek van het scherm in de globale navigatiebar of in de hoger-juiste hoek van de voorproef of de pagina van het verslag.
 
