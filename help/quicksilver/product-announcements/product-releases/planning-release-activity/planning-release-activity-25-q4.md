@@ -6,7 +6,8 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 3c61d147d3f3a9851645f21ec1ee1d5ab9b445d8
+exl-id: 4e1761f9-bf73-4355-925a-9136f2787a3f
+source-git-commit: 8300595f63fab4f4ef6f00c7b8ff8b06120db2cc
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
@@ -23,9 +24,12 @@ Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront w
 
 ## Nieuwe velden waarin goedkeuringsgegevens voor records worden weergegeven
 
-Voorbeeld: 17 juli 2025
-Productie voor snelle release: 14 augustus 2025
-Productie voor iedereen: 16 oktober 2025
+>[!NOTE]
+>
+>Voorbeeld: 17 juli 2025
+>>Productie voor snelle release: 14 augustus 2025
+>>Productie voor iedereen: 16 oktober 2025
+
 
 Wij introduceren de volgende gebieden om goedkeuringsinformatie voor verslagen te vangen die door een verzoek met een goedkeuring wordt gecreeerd voor te leggen:
 
@@ -37,9 +41,12 @@ Voor informatie, zie [ gebieden ](/help/quicksilver/planning/fields/create-field
 
 ## Velden automatisch vullen op basis van toegepaste groepen
 
-Voorbeeld: 10 juli 2025
-Snelle productie: 14 augustus 2025
-Productie voor iedereen: 16 oktober 2025
+>[!NOTE]
+>
+>Voorbeeld: 10 juli 2025
+>>Snelle productie: 14 augustus 2025
+>>Productie voor iedereen: 16 oktober 2025
+
 
 Als u nu groepen hebt toegepast op een tabelweergave, wordt automatisch ingevuld wanneer u een record aan de tabel toevoegt, welke velden zijn gekoppeld aan de groepen waaraan u de record toevoegt.
 
@@ -61,4 +68,3 @@ To make the approval process more flexible, we've added the ability to add teams
 Previously, only individual users could be assigned as approvers. 
 
 For more information, see [Add an approval to a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/add-approval-to-request-form.md).-->
-

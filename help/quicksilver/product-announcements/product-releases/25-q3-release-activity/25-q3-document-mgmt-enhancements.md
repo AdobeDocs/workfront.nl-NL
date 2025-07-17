@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: 53c5c970f2bfd0191c053baec25bd29f11b6272d
+source-git-commit: 6da80f55fd4314c661c52bb2327ae8fa6c7e55b6
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,31 @@ Note: The integration must be enabled for your accounts by the Adobe Product Tea
 For more information, see [Get started with the Adobe Express and Workfront Proof integration](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md).
 -->
 
+## Verenigde Goedkeuringen Geleidelijke Uitvoer
+
+>[!NOTE]
+>
+>Productieversie voor klanten: geleidelijke uitrol vanaf 17 juli 2025
+
+
+Wij toelaten Verenigde Goedkeuringen, die vroeger als Nieuwe Goedkeuringen van het Document, in een gefaseerde uitrol worden bekend. Deze functionaliteit wordt de komende zes maanden automatisch ingeschakeld in uw Workfront-exemplaar.
+
+De verenigde goedkeuringen vervangen de goedkeuringen van het Verouderd document en verstrekt direct de volgende functionaliteit op een document:
+
+* Een volledig Workfront-team aanwijzen als revisor of fiatteur
+* Een deadline voor de revisie of goedkeuring instellen
+* Goedkeuringssjablonen maken en opnieuw gebruiken
+* Nieuwe versies gebruiken
+* Meerdere belangrijke prestatie-indicatoren voor uw goedkeuring weergeven in Workfront Home-widgets
+* De Dashboards van het Canvas van het gebruik om rapportdetails over Verenigde Goedkeuringen te bekijken
+
+Voor meer informatie zie [ Verenigde Goedkeuringen Overzicht ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
+
 ## Desktop Proofing Viewer-update
+
+>[!NOTE]
+>
+>* Productieversie voor alle klanten: 16 juni 2025
 
 De Desktop Proofing Viewer is bijgewerkt naar versie 2.1.50.
 
