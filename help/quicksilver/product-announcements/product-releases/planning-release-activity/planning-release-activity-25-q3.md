@@ -27,7 +27,7 @@ Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront w
 >[!NOTE]
 >
 >Voorbeeld: 10 juli 2025
->>Productie voor iedereen: 10 juli 2025
+>&#x200B;>Productie voor iedereen: 10 juli 2025
 
 
 Het tabblad Geavanceerde instellingen is bijgewerkt wanneer u een recordtype maakt of bewerkt.
@@ -44,7 +44,7 @@ Voor meer informatie, zie [ recordtypes ](/help/quicksilver/planning/architectur
 >[!NOTE]
 >
 >Voorbeeld: 10 juli 2025
->>Productie voor iedereen: 10 juli 2025
+>&#x200B;>Productie voor iedereen: 10 juli 2025
 
 Wanneer u nu een team toevoegt aan een opmerking bij een record in Workfront Planning, ontvangen alle teamleden zowel een bericht in de app als een e-mailbericht over de opmerking. Vóór deze verbetering werden alleen gebruikers die aan opmerkingen waren toegevoegd, op de hoogte gesteld.
 
@@ -55,8 +55,8 @@ Voor informatie, zie recordcommentaren beheren [ beheer verslagcommentaren ](/he
 >[!NOTE]
 >
 >Voorbeeld: 10 juli 2025
->>Snelle productie: 14 augustus 2025
->>Productie voor iedereen: 16 oktober 2025
+>&#x200B;>Snelle productie: 14 augustus 2025
+>&#x200B;>Productie voor iedereen: 16 oktober 2025
 
 
 Als u nu groepen hebt toegepast op een tabelweergave, wordt automatisch ingevuld wanneer u een record aan de tabel toevoegt, welke velden zijn gekoppeld aan de groepen waaraan u de record toevoegt.
@@ -72,7 +72,7 @@ Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-rec
 >[!NOTE]
 >
 >Voorbeeld: 9 juli 2025
->>Productie voor iedereen: 17 juli 2025
+>&#x200B;>Productie voor iedereen: 17 juli 2025
 
 U kunt nu zowel een weergave als een recordtype delen met dezelfde knop op de pagina van het recordtype. Voorafgaand aan deze verbetering, kon u het verslagtype van de knoop van het Aandeel op de verslagtype pagina en een mening van het lusje van de mening slechts delen.
 
@@ -336,7 +336,7 @@ Voorafgaand aan deze verbetering, moesten de gebruikers met alle vergunningsnive
 >[!NOTE]
 >
 >Deze wijziging is zichtbaar voor alle nieuwe en bestaande gebruikers met een System Administrator- en Standard-licentie.
->>Bestaande gebruikers die aan een lay-outsjabloon zijn toegewezen, blijven alles zien volgens de instellingen die in de lay-outsjabloon zijn gedefinieerd.
+>&#x200B;>Bestaande gebruikers die aan een lay-outsjabloon zijn toegewezen, blijven alles zien volgens de instellingen die in de lay-outsjabloon zijn gedefinieerd.
 
 Voor informatie, zie [ overzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/access/access-overview.md).
 

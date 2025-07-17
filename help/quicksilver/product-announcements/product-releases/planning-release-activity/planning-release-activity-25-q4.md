@@ -27,8 +27,8 @@ Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront w
 >[!NOTE]
 >
 >Voorbeeld: 17 juli 2025
->>Productie voor snelle release: 14 augustus 2025
->>Productie voor iedereen: 16 oktober 2025
+>&#x200B;>Productie voor snelle release: 14 augustus 2025
+>&#x200B;>Productie voor iedereen: 16 oktober 2025
 
 
 Wij introduceren de volgende gebieden om goedkeuringsinformatie voor verslagen te vangen die door een verzoek met een goedkeuring wordt gecreeerd voor te leggen:
@@ -44,8 +44,8 @@ Voor informatie, zie [ gebieden ](/help/quicksilver/planning/fields/create-field
 >[!NOTE]
 >
 >Voorbeeld: 10 juli 2025
->>Snelle productie: 14 augustus 2025
->>Productie voor iedereen: 16 oktober 2025
+>&#x200B;>Snelle productie: 14 augustus 2025
+>&#x200B;>Productie voor iedereen: 16 oktober 2025
 
 
 Als u nu groepen hebt toegepast op een tabelweergave, wordt automatisch ingevuld wanneer u een record aan de tabel toevoegt, welke velden zijn gekoppeld aan de groepen waaraan u de record toevoegt.
