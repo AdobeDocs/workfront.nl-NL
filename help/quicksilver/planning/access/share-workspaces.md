@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '908'
 ht-degree: 0%
 
 ---
@@ -128,6 +128,11 @@ Een werkruimte delen met anderen:
 
    ![ delend UI met groepen ](assets/sharing-ui-with-groups.png)
 
+   >[!NOTE]
+   >
+   >   Naast teams, groepen, bedrijven, en baanrollen, kunt u slechts met gebruikers delen die aan Adobe Admin Console zijn toegevoegd. U kunt geen gebruikers met alleen Workfront toevoegen. Voor informatie, zie [ gebruikers in Adobe Admin Console ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) leiden.
+
+
 1. Selecteer een van de volgende machtigingsniveaus in het keuzemenu:
    * Weergave
    * Contribute
@@ -147,10 +152,8 @@ Gebruikers die een koppeling openen naar een werkruimte waarvoor zij geen machti
 1. (Voorwaardelijk) Als u de manager van een werkruimte bent, zou u een verzoek van een andere gebruiker kunnen ontvangen om tot de mening op de volgende gebieden toegang te hebben:
 
    * Een melding in de app
-
      ![ In-app bericht voor toegangsverzoek ](assets/in-app-notification-for-access-request.png)
    * Een e-mailmelding
-
      ![ E-mailbericht voor toegangsverzoek ](assets/email-notification-for-access-request.png)
 1. (Voorwaardelijk) Klik in het systeemvak in Workfront op de melding in de app.
 of

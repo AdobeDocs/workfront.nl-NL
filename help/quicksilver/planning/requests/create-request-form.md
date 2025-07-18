@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
 workflow-type: tm+mt
-source-wordcount: '2242'
+source-wordcount: '2281'
 ht-degree: 0%
 
 ---
@@ -270,6 +270,10 @@ Voor informatie over het voorleggen van de verzoeken van de Planning van Workfro
 
 1. (Facultatief) klik het drop-down menu na de naam van een entiteit, dan klik **verwijderen** om hen uit de lijst te verwijderen en ophouden delend de vorm met hen.
 
+   >[!NOTE]
+   >
+   >Naast teams, groepen, bedrijven, en baanrollen, kunt u slechts met gebruikers delen die aan Adobe Admin Console zijn toegevoegd. U kunt geen gebruikers met alleen Workfront toevoegen. Voor informatie, zie [ gebruikers in Adobe Admin Console ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) leiden.
+
 1. In **die verzoeken door deze vorm** sectie kan voorleggen, selecteer van de volgende opties om erop te wijzen welke types van gebruikers tot deze vorm kunnen toegang hebben:
 
    * Alleen uitgenodigde personen hebben toegang
@@ -308,4 +312,4 @@ Voor informatie over het voorleggen van de verzoeken van de Planning van Workfro
 
    Voor informatie over het creëren van verslagen die een verbinding aan een verzoekvorm gebruiken, zie [ verzoeken van de Planning van Adobe Workfront voorleggen ](/help/quicksilver/planning/requests/submit-requests.md).
 
-1. Klik **sparen** in de laag-juiste hoek van het **3&rbrace; lusje van de Vorm &lbrace;om de vorm te bewaren.**
+1. Klik **sparen** in de laag-juiste hoek van het **3} lusje van de Vorm {om de vorm te bewaren.**

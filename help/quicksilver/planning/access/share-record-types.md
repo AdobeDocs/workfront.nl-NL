@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
 workflow-type: tm+mt
-source-wordcount: '1461'
+source-wordcount: '1476'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ U kunt een recordtype met anderen delen om samenwerking te verzekeren wanneer he
 >[!IMPORTANT]
 >
 >Gebruikers met toegang tot een werkruimte krijgen automatisch minstens weergavemachtigingen voor alle recordtypen in de werkruimte.
->&#x200B;>Als u weergaven deelt, geeft u gebruikers geen machtigingen om gegevenstypen op te nemen. Alleen werkruimten delen kan gebruikers machtigingen verlenen om gegevenstypen op te nemen.
+>>Als u weergaven deelt, geeft u gebruikers geen machtigingen om gegevenstypen op te nemen. Alleen werkruimten delen kan gebruikers machtigingen verlenen om gegevenstypen op te nemen.
 >
 >* Voor algemene informatie over het delen van voorwerpen in de Planning van Workfront, zie ook [ Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront ](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 >* Voor meer informatie, zie de [ Overwegingen wanneer het delen van verslagtypes ](#considerations-when-sharing-record-types) sectie in dit artikel.
@@ -175,7 +175,7 @@ U kunt machtigingen aanpassen voor afzonderlijke recordtypen in een werkruimte a
 
    >[!IMPORTANT]
    >
-   >* Naast teams, groepen, bedrijven, en baanrollen, kunt u slechts met gebruikers delen die aan Adobe Admin Console zijn toegevoegd.
+   >* Naast teams, groepen, bedrijven, en baanrollen, kunt u slechts met gebruikers delen die aan Adobe Admin Console zijn toegevoegd. U kunt geen gebruikers met alleen Workfront toevoegen. Voor informatie, zie [ gebruikers in Adobe Admin Console ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) leiden.
    >* U kunt gebruikers nooit meer machtigingen geven voor een recordtype dan op een werkruimte.
    >* U kunt gebruikers niet minder bevoegdheden geven dan Beheren voor een recordtype, als zij beheerdersmachtigingen voor de werkruimte hebben.
    >* U kunt gebruikers minder bevoegdheden geven aan het recordtype als zij over Contribute-machtigingen voor de werkruimte beschikken.
