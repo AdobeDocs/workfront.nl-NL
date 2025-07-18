@@ -76,7 +76,7 @@ Productie: 21 december 2023
 >
 >Uw organisatie moet Adobe Workfront Fusion aanschaffen om verbindingen te kunnen maken met de planningsmogelijkheden van Adobe Workfront.
 >
->Voor informatie, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>Voor informatie, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 Nu kunt u Adobe Workfront Fusion gebruiken om verbinding te maken met de planningsmogelijkheden. Met de nieuwe Fusion-verbinding kunt u:
 
@@ -92,7 +92,7 @@ Nu kunt u Adobe Workfront Fusion gebruiken om verbinding te maken met de plannin
 
 * Een scenario activeren wanneer een wijziging wordt aangebracht in de planningsmogelijkheden
 
-Voor meer informatie, zie [ de Modules van de Planning van Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules).
+Voor meer informatie, zie [ de Modules van de Planning van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules).
 
 ## Week van 11 december 2023
 
@@ -132,7 +132,7 @@ Productieversie: 21 december 2023
 
 >[!IMPORTANT]
 >
->Het exemplaar van Workfront van uw organisatie moet aan het Adobe Bedrijfsplatform of Adobe Admin Console worden bezet om de verslagen van de Mogelijkheden van de Planning van Adobe Workfront aan Adobe Experience Manager Assets te kunnen verbinden.
+>Het exemplaar van Workfront van uw organisatie moet op het Adobe Business Platform of Adobe Admin Console worden geregistreerd om Adobe Workfront Planning capabilities verslagen aan Adobe Experience Manager Assets te kunnen verbinden.
 >
 >Als u vragen over het aan boord gaan aan Adobe Admin Console hebt, zie [ Adobe Verenigde Veelgestelde vragen van de Ervaring ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
@@ -148,7 +148,7 @@ Nadat u de verbinding tot stand hebt gebracht, is de volgende functionaliteit be
 * An Experience Manager Assets record type is automatically created in Planning after you establish the connection. Connected assets are visible in the table and timeline views of this new record type.  
 -->
 
-* U kunt op de naam van het element in de tabelweergave van de record met planningsmogelijkheden klikken vanuit het verbonden recordveld en een pop-upvenster weergeven met de elementminiatuur en verschillende toetsvelden. Vanuit het pop-upvenster kunt u naar de viewer voor middelen in Experience Manager navigeren en alle gegevens erover weergeven.
+* U kunt op de naam van het element in de tabelweergave van de record met planningsmogelijkheden klikken vanuit het verbonden recordveld en een pop-upvenster weergeven met de elementminiatuur en verschillende toetsvelden. Vanuit het pop-upvenster kunt u naar de viewer voor middelen in Experience Manager navigeren en alle details ervan weergeven.
 
 Voor meer informatie, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
 
@@ -363,7 +363,7 @@ Voor meer informatie, zie [ de lijstmening ](/help/quicksilver/planning/views/ma
 
 Voorbeeld en productie: 24 augustus 2023
 
-U kunt nu een record met planningsmogelijkheden verbinden met Workfront-programma&#39;s en -portfolio&#39;s. U moet een verbinding tot stand brengen tussen een type van het verslag van planningsmogelijkheden en een programma of een portefeuille die tot een verbonden gebied leidt. Vervolgens kunt u alle records met planningsmogelijkheden van alle andere recordtypen in dezelfde werkruimte verbinden met specifieke programma&#39;s en portfolio&#39;s die een recordtype Workfront Program (alleen-lezen) of Workfront Portfolio maken in dezelfde werkruimte. Overweeg het volgende:
+U kunt nu een record met planningsmogelijkheden verbinden met Workfront-programma&#39;s en -portfolio&#39;s. U moet een verbinding tot stand brengen tussen een type van het verslag van planningsmogelijkheden en een programma of een portefeuille die tot een verbonden gebied leidt. Vervolgens kunt u alle records met planningsmogelijkheden van alle andere recordtypen in dezelfde werkruimte verbinden met specifieke programma&#39;s en portfolio&#39;s die een alleen-lezen Workfront-programma of Workfront Portfolio-recordtype in dezelfde werkruimte maken. Overweeg het volgende:
 
 * Workfront-connectorrecordtypen zijn uniek voor elke werkruimte.
 * U kunt meerdere records met planningsmogelijkheden verbinden met hetzelfde Workfront-programma of -portfolio en meerdere programma&#39;s en portfolio&#39;s met dezelfde record met planningsmogelijkheden.
