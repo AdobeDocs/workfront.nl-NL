@@ -4,9 +4,9 @@ description: U kunt instellen dat een recordtype wordt toegevoegd aan een andere
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 8f4c1be156094d18df4bc3628d4f1fca90372119
+source-git-commit: 943c26efa6f6351abf885dbc5f3aa09c0b0fab05
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '1006'
 ht-degree: 0%
 
 ---
@@ -44,8 +44,6 @@ Zie een van de volgende artikelen voor meer informatie:
 ## Toegangsvereisten
 
 +++ Vouw uit om de vereisten voor toegang weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -134,11 +132,11 @@ of
 
    ![ geef recordtype Geavanceerde montages met toe voegen aan andere werkruimten laat ](assets/edit-record-type-advanced-settings-add-to-other-workspaces-enabled.png) toe
 
-1. In **Uitgezocht die dit verslagtype aan werkruimten kan toevoegen die zij** gebied beheren, voeg gebruikers toe die u dit verslagtype aan werkruimten wilt toevoegen zij leiden.
+1. In **Uitgezocht die dit verslagtype aan werkruimten kan toevoegen die zij** gebied beheren, voeg gebruikers toe die u wilt toestaan om dit verslagtype aan werkruimten toe te voegen die zij beheren.
 
    Uw naam wordt automatisch toegevoegd aan het veld.
 
-   U kunt individuele gebruikers, of groepen, teams, baanrollen, of bedrijven toevoegen de waarvan gebruikers u dit verslagtype aan de werkruimten wilt toevoegen zij leiden.
+   U kunt individuele gebruikers, of groepen, teams, baanrollen, of bedrijven toevoegen de waarvan gebruikers u wilt toestaan om dit verslagtype aan de werkruimten toe te voegen zij leiden.
 
    U kunt dit veld bewerken nadat u het recordtype hebt opgeslagen.
 1. (Facultatief) verwijder uw naam uit **Uitgezocht die dit verslagtype aan werkruimten kan toevoegen zij** gebied beheren.
@@ -148,6 +146,11 @@ of
    De volgende dingen doen zich voor:
 
    * Het recordtype en de bijbehorende velden kunnen nu door de door u opgegeven personen worden toegevoegd aan een andere werkruimte.
+
+   >[!NOTE]
+   >
+   >U kunt het recordtype en de bijbehorende velden alleen vanuit de oorspronkelijke werkruimte bewerken.
+
    * De kaart van het verslagtype toont een globaal pictogram ![ Globaal verslagtype pictogram ](assets/global-icon.png) om erop te wijzen dat het verslagtype beschikbaar is om aan om het even welke werkruimte worden toegevoegd de waarvan manager u in uw configuratie specificeerde.
    * Een systeem-geproduceerd **Workspace** gebied wordt toegevoegd aan het verslagtype.
 
@@ -155,9 +158,9 @@ of
 
      Dit veld is alleen-lezen en kan niet worden verwijderd.
 
-## Verbinding maken met een recordtype in andere werkruimten configureren
+## Verbinding maken met een recordtype vanuit andere werkruimten configureren
 
-U kunt een recordtype configureren om verbinding te maken met andere werkruimten wanneer u het recordtype maakt of bewerkt.
+U kunt een recordtype configureren waarmee verbinding wordt gemaakt vanuit andere werkruimten wanneer u het recordtype maakt of bewerkt.
 
 Om een verslagtype te vormen om met van andere werkruimten te verbinden wanneer u het verslagtype uitgeeft:
 
@@ -175,7 +178,7 @@ of
    ![ Meer menuopties van verslagtype kaart ](assets/more-menu-options-from-record-type-card.png)
 
 1. In **geef verslagtype** doos uit, selecteer de **Geavanceerde montages** tabel.
-1. Laat **toe toestaan verbindend met dit verslagtype van andere werkruimten** plaatsen. <!-- check the setting name, this is the suggested UI text to be edited by Lilit and team-->
+1. Laat **toe toestaan verbindend met dit verslagtype in andere werkruimten** plaatsen. <!-- check the setting name, I sent this to Lilit to say FROM instead of IN-->
 
    ![ geef recordtype Geavanceerde montages tabel met verbinding van andere toegelaten werkruimten uit ](assets/edit-record-type-advanced-settings-connect-from-other-workspaces-enabled.png)
 
@@ -191,6 +194,11 @@ of
 
    * Het recordtype en de bijbehorende velden zijn nu beschikbaar om verbinding te maken met de werkruimten die u hebt toegewezen.
    * De kaart van het verslagtype toont een pictogram van de dwars-werkruimteverbinding ![ het verbindingspictogram van de werkruimteverbinding ](assets/connect-from-other-workspaces-icon.png) om erop te wijzen dat het verslagtype beschikbaar is om van om het even welke werkruimte te worden verbonden u in uw configuratie hebt aangewezen.
+
+   Het recordtype wordt beschikbaar om verbinding te maken vanuit de opgegeven werkruimten.
+
+
+
 
 
 

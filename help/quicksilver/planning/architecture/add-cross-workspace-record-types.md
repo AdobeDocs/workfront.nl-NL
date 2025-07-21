@@ -4,9 +4,9 @@ description: Recordtypen zijn de objecttypen voor Adobe Workfront Planning. In d
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: ee366e05097518a4618dd11ed5807b8766465d94
+source-git-commit: 943c26efa6f6351abf885dbc5f3aa09c0b0fab05
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '591'
 ht-degree: 0%
 
 ---
@@ -36,8 +36,6 @@ Voor informatie, zie [ mogelijkheden van de dwars-werkruimte voor verslagtypes ]
 ## Toegangsvereisten
 
 +++ Vouw uit om de vereisten voor toegang weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -108,6 +106,32 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    * Records
    * Verbindingen opnemen
 
-## Een recordtype maken op basis van een bestaand globaal recordtype
+* U kunt het recordtype, inclusief de bijbehorende velden, alleen in de oorspronkelijke werkruimte bewerken. U kunt het bestand niet bewerken vanuit de werkruimten waar het is toegevoegd.
 
-1. Begin creërend een verslagtype, zoals die in het artikel [ wordt beschreven creeer verslagtypes ](/help/quicksilver/planning/architecture/create-record-types.md), dan klik **Globaal verslagtype van het Gebruik**. <!--check this - the option might have been renamed in the UI-->
+## Een recordtype maken op basis van een bestaand recordtype
+
+1. Begin creërend een verslagtype, zoals die in het artikel [ wordt beschreven creeer verslagtypes ](/help/quicksilver/planning/architecture/create-record-types.md), dan klik **voegt bestaand** toe. <!--check this - the option might have been renamed in the UI-->
+
+   ![ Modal om verslagtype met optie toe te voegen om van een andere werkruimte in te voeren ](assets/add-record-type-from-existing-workspace-option-when-creating-records.png)
+
+1. Klik **verdergaan**.
+1. In **kies verslagtype** doos, klik de kaart voor het verslagtype dat u van een bestaande werkruimte wilt toevoegen, dan **toevoegen** klikken.
+
+   Het recordtype wordt toegevoegd aan de werkruimte die u hebt geselecteerd en de volgende dingen gebeuren:
+
+   * Het **dwars-werkruimte verslagtype** pictogram ![ pictogram van de dwars-werkruimteverbinding ](assets/global-icon.png) wordt toegevoegd aan de kaart van het ingevoerde verslagtype.
+   * Het read-only **Workspace** gebied wordt toegevoegd aan het ingevoerde verslagtype. In het veld wordt weergegeven in welke werkruimte elke record is gemaakt.
+
+     >[!NOTE]
+     >
+     >* U kunt het geïmporteerde recordtype of de bijbehorende velden niet bewerken. U kunt het recordtype en de bijbehorende velden vanuit de oorspronkelijke werkruimte bewerken.
+
+1. (Facultatief) klik op **Meer** menu ![ Meer menu ](assets/more-menu.png) in de ingevoerde kaart van het verslagtype, of rechts van de naam van het verslagtype op zijn pagina, dan klik **Schrapping**.
+1. (Voorwaardelijk) Type **schrapt** op het verstrekte gebied, dan klik **permanent schrapt**.
+
+   Hierdoor wordt het geïmporteerde recordtype verwijderd uit de geselecteerde werkruimte. Het oorspronkelijke recordtype en de bijbehorende velden blijven in de oorspronkelijke werkruimte staan.
+
+   <!--**************************ASK LILIT ON THIS ONE, NOT SURE IF THIS IS TRUE: Any records added in the current workspace are saved in the original workspace.**********-->
+
+
+
