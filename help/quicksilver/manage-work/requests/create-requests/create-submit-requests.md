@@ -6,9 +6,9 @@ description: Geplande werkzaamheden worden in Adobe Workfront vertegenwoordigd d
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 8e9d9c9489d43917386e581ac9834fbb65b33d25
+source-git-commit: 7c7697936da90d17599d90b69265f62221185569
 workflow-type: tm+mt
-source-wordcount: '2863'
+source-wordcount: '2803'
 ht-degree: 0%
 
 ---
@@ -25,9 +25,9 @@ ht-degree: 0%
 </div>
 -->
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Geplande werkzaamheden worden in Adobe Workfront vertegenwoordigd door projecten en taken. U kunt echter werken in een omgeving waar ongeplande werkzaamheden, in de vorm van verzoeken, op elk moment kunnen worden uitgevoerd. Workfront biedt een workflow voor het aanpassen van dit type omgeving via het gebruik van Request Queues.
 
@@ -150,12 +150,12 @@ Een aanvraag maken in de Workfront-webapp:
    ![ Nieuwe verzoekdoos met verenigd werkschema voor het plannen van verzoeken ](assets/new-request-box-with-unified-workflow-for-planning-requests.png)
 
    Klik op een van de wachtrijkaarten voor Workfront-aanvragen of zoek naar een van deze wachtkaarten en klik vervolgens op deze werkkaart wanneer deze in de lijst wordt weergegeven.
-1. <span class="preview"> (Voorwaardelijk) als u aan de nieuwe ervaring schakelde die de Planning van Workfront omvat, en in het voorproefmilieu is, **Nieuwe verzoek** doos toont het volgende:</span>
+1. (Voorwaardelijk) als u aan de nieuwe ervaring schakelde die de Planning van Workfront omvat, en in het voorproefmilieu is, **Nieuwe verzoek** doos toont het volgende:
 
-   <ul><span class="preview"><li>De 6 laatst geopende Workfront aanvraagrijen en de aanvraagformulieren voor planning worden weergegeven in de sectie Recent. </li></span>
-    <span class="preview"><li>Alle extra Workfront en planningsverzoekvormen <b> Alle verzoekvormen </b> sectie. U kunt zoeken naar aanvraagformulieren die niet standaard worden weergegeven. </li></span>
-    <span class="preview"><li>Alle extra Workfront en van de Planning de wegen van de verzoekrij tonen in <b> Alle verzoekwegen </b> sectie. U kunt zoeken naar een aanvraagwachtrij die niet standaard wordt weergegeven.</li></span></ul>
-    <span class="preview"> klik één van de de verzoekrijwegen of vormen van Workfront, of onderzoek naar één, dan klik het wanneer het in de lijst toont. </span>
+   <ul><li>De 6 laatst geopende Workfront aanvraagrijen en de aanvraagformulieren voor planning worden weergegeven in de sectie Recent. </li>
+    <li>Alle extra Workfront en planningsverzoekvormen <b> Alle verzoekvormen </b> sectie. U kunt zoeken naar aanvraagformulieren die niet standaard worden weergegeven. </li>
+    <li>Alle extra Workfront en van de Planning de wegen van de verzoekrij tonen in <b> Alle verzoekwegen </b> sectie. U kunt zoeken naar een aanvraagwachtrij die niet standaard wordt weergegeven.</li></ul>
+   Klik op een van de paden of formulieren in de Workfront-aanvraagwachtrij of zoek naar een pad en klik vervolgens op het pad wanneer het in de lijst wordt weergegeven.
 
 1. (Voorwaardelijk) als u op de nieuwe ervaring schakelde die de Planning van Workfront omvat, uw onderwerpgroepen en rijonderwerpen selecteert en blijft het formulier bijwerken.
 
