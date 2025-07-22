@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 4e1761f9-bf73-4355-925a-9136f2787a3f
-source-git-commit: 8300595f63fab4f4ef6f00c7b8ff8b06120db2cc
+source-git-commit: a711b174c955776164fa745bcc40dfb808806d73
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,27 @@ In dit artikel worden de functies beschreven die tijdens de release van het vier
 
 Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront worden vrijgegeven, zie [ de versieactiviteit van de Planning van Adobe Workfront: artikelindex ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Teams toevoegen als fiatteurs bij het plannen van aanvraagformulieren
+
+>[!NOTE]
+>
+>Voorbeeld: 22 juli 2025
+>>Productie voor snelle release: 14 augustus 2025
+>>Productie voor iedereen: 16 oktober 2025
+
+Om het goedkeuringsproces flexibeler te maken, hebben wij de capaciteit toegevoegd om teams als fiatteurs op de aanvraagformulieren van de Planning toe te voegen. Nu kunt u teamnamen invoeren en selecteren wanneer u fiatteurs instelt. Om het even welke teamleden kunnen een besluit nemen, dat als goedkeuringsbesluit voor het volledige team telt.
+
+Eerder konden alleen individuele gebruikers als fiatteurs worden toegewezen.
+
+Voor meer informatie, zie [ een goedkeuring aan een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/add-approval-to-request-form.md) toevoegen.
+
 ## Nieuwe velden waarin goedkeuringsgegevens voor records worden weergegeven
 
 >[!NOTE]
 >
 >Voorbeeld: 17 juli 2025
->&#x200B;>Productie voor snelle release: 14 augustus 2025
->&#x200B;>Productie voor iedereen: 16 oktober 2025
+>>Productie voor snelle release: 14 augustus 2025
+>>Productie voor iedereen: 16 oktober 2025
 
 
 Wij introduceren de volgende gebieden om goedkeuringsinformatie voor verslagen te vangen die door een verzoek met een goedkeuring wordt gecreeerd voor te leggen:
@@ -44,8 +58,8 @@ Voor informatie, zie [ gebieden ](/help/quicksilver/planning/fields/create-field
 >[!NOTE]
 >
 >Voorbeeld: 10 juli 2025
->&#x200B;>Snelle productie: 14 augustus 2025
->&#x200B;>Productie voor iedereen: 16 oktober 2025
+>>Snelle productie: 14 augustus 2025
+>>Productie voor iedereen: 16 oktober 2025
 
 
 Als u nu groepen hebt toegepast op een tabelweergave, wordt automatisch ingevuld wanneer u een record aan de tabel toevoegt, welke velden zijn gekoppeld aan de groepen waaraan u de record toevoegt.
