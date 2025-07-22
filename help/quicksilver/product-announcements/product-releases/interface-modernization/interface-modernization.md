@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 6b93cca4a434885e39cddcb4a01a8d753609b220
+source-git-commit: b2fdf8d54adacfa4ab2d665767f2265fdd23da4f
 workflow-type: tm+mt
-source-wordcount: '5280'
+source-wordcount: '5276'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,6 @@ Deze pagina bevat een overzicht van de interface-updates die we in Adobe Workfro
 Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product [.](/help/quicksilver/product-announcements/product-releases/product-releases.md)
 
 ## Beheer en installatie
-
 
 ### Interface-updates voor de pagina Lay-outsjablonen
 
@@ -248,7 +247,7 @@ De nieuwe ervaring is beschikbaar wanneer het creëren van of het uitgeven van d
 
 ### De updates van de interface voor de Verwante projectsectie van een project (beschikbaar voor specifieke klanten slechts)
 
-**de versie van de Voorproef: 12 Juni, 2025; De versie van de productie: Te aankondigen**
+**de versie van de Voorproef: 12 Juni, 2025; De versie van de Productie: 19 Juni, 2025**
 
 We hebben het gedeelte Gekoppelde projecten van een project bijgewerkt met een modern ontwerp dat aansluit bij andere gebieden van Workfront.
 
@@ -256,7 +255,7 @@ Specifieke klanten kunnen deze verandering bekijken door naar de Verwante projec
 
 ### Nieuwe vormgeving voor het vak &quot;Opslaan als sjabloon&quot;
 
-**de versie van de Voorproef: 12 Juni, 2025; De versie van de productie: Te aankondigen**
+**de versie van de Voorproef: 12 Juni, 2025; De versie van de Productie: 19 Juni, 2025**
 
 Wij hebben de blik en het gevoel van &quot;sparen als malplaatje&quot;doos bijgewerkt die wanneer het bewaren van een project als malplaatje toont. Het nieuwe ontwerp bevat een gestroomlijnde interface, waarbij alle secties in één samenhangend formulier worden weergegeven. U kunt navigeren met koppelingen in het linkerdeelvenster. Het nieuwe ontwerp komt overeen met andere gebieden en andere objecten in de toepassing.
 

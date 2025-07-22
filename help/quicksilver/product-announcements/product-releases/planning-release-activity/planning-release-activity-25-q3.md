@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 8dd86b364e23089f3ff02c7817807e5219a3ebb4
+source-git-commit: 9d5249e5587a4291dc9020d456a320da4cdbb8f1
 workflow-type: tm+mt
-source-wordcount: '2275'
+source-wordcount: '2267'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,8 @@ Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront w
 >[!NOTE]
 >
 >Voorbeeld: 10 juli 2025
->&#x200B;>Productie voor iedereen: 10 juli 2025
+>>Productie voor iedereen: 10 juli 2025
+>>[!BADGE Uit schema ]{type=Neutral}
 
 
 Het tabblad Geavanceerde instellingen is bijgewerkt wanneer u een recordtype maakt of bewerkt.
@@ -44,7 +45,8 @@ Voor meer informatie, zie [ recordtypes ](/help/quicksilver/planning/architectur
 >[!NOTE]
 >
 >Voorbeeld: 10 juli 2025
->&#x200B;>Productie voor iedereen: 10 juli 2025
+>>Productie voor iedereen: 10 juli 2025
+>>[!BADGE Uit schema ]{type=Neutral}
 
 Wanneer u nu een team toevoegt aan een opmerking bij een record in Workfront Planning, ontvangen alle teamleden zowel een bericht in de app als een e-mailbericht over de opmerking. Vóór deze verbetering werden alleen gebruikers die aan opmerkingen waren toegevoegd, op de hoogte gesteld.
 
@@ -55,8 +57,8 @@ Voor informatie, zie recordcommentaren beheren [ beheer verslagcommentaren ](/he
 >[!NOTE]
 >
 >Voorbeeld: 10 juli 2025
->&#x200B;>Snelle productie: 14 augustus 2025
->&#x200B;>Productie voor iedereen: 16 oktober 2025
+>>Snelle productie: 14 augustus 2025
+>>Productie voor iedereen: 16 oktober 2025
 
 
 Als u nu groepen hebt toegepast op een tabelweergave, wordt automatisch ingevuld wanneer u een record aan de tabel toevoegt, welke velden zijn gekoppeld aan de groepen waaraan u de record toevoegt.
@@ -72,7 +74,7 @@ Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-rec
 >[!NOTE]
 >
 >Voorbeeld: 9 juli 2025
->&#x200B;>Productie voor iedereen: 17 juli 2025
+>>Productie voor iedereen: 17 juli 2025
 
 U kunt nu zowel een weergave als een recordtype delen met dezelfde knop op de pagina van het recordtype. Voorafgaand aan deze verbetering, kon u het verslagtype van de knoop van het Aandeel op de verslagtype pagina en een mening van het lusje van de mening slechts delen.
 
@@ -118,7 +120,7 @@ Om de ervaring wanneer het delen van een verzoekformulier in de Planning van Wor
 * We hebben opties voor beheren en bijdragen verwijderd voor gebruikers waarmee u het aanvraagformulier deelt. Nu kunnen toegevoegde gebruikers alleen het formulier verzenden.
 * Het tabblad Openbaar delen geeft nu het veld voor de koppeling en de vervaldatum weer nadat de optie Openbare koppeling maken is ingeschakeld.
 
-Voor meer informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
+Voor meer informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
 
 ## Alle groepen in de tabelweergave uitvouwen en samenvouwen
 
@@ -145,6 +147,7 @@ Voor informatie, zie [ de lijstmening ](/help/quicksilver/planning/views/manage-
 >
 >* Voorbeeld: 26 juni 2025
 >* Productie voor iedereen: 26 juni 2025
+>  >[!BADGE Uit schema ]{type=Neutral}
 
 Wanneer u nu recordtypen met elkaar verbindt en een formuleringsveld als een zoekopdracht in een veld plaatst, kunt u de statistische functies (SUM, AVERAGE, MIN, MAX, enz.) toepassen, afhankelijk van de indeling van het veld van de formule. Als het formuleveld bijvoorbeeld numeriek is, kunt u functies zoals SUM of AVG gebruiken. Als het formuleveld wordt opgemaakt als tekst, zijn statistische functies zoals SUM niet van toepassing.
 
@@ -179,8 +182,8 @@ Voor meer informatie, zie [ douanekwartalen voor projecten ](/help/quicksilver/a
 >[!NOTE]
 >
 >* Voorbeeld: 12 juni 2025
->* Snelle productie: 12 juni 2025
->* Productie voor alle afnemers: 12 juni 2025
+>* Productie voor iedereen: 12 juni 2025
+>  >[!BADGE Uit schema ]{type=Neutral}
 
 Wij hebben een verbetering geïntroduceerd die alle formuleringsgebieden afhankelijk van elkaar tezelfdertijd bijwerkt nadat een referenced gebied manueel wordt bijgewerkt. Formulervelden die 2, 3 of 4 velden verwijderd zijn van het veld waarvan de waarde handmatig wordt gewijzigd en die naar elkaar verwijzen, worden nu automatisch tegelijkertijd bijgewerkt.
 
@@ -193,8 +196,8 @@ Voor informatie, zie [ overzicht van de gebieden van de Formule ](/help/quicksil
 >[!NOTE]
 >
 >* Voorbeeld: 6 juni 2025
->* Snelle productie: 6 juni 2025
 >* Productie voor alle afnemers: 6 juni 2025
+>  >[!BADGE Uit schema ]{type=Neutral}
 
 De volgende expressies zijn toegevoegd aan de velden met formules:
 
@@ -238,7 +241,7 @@ Voor informatie, zie [ de Verzoeken van de Planning van Adobe Workfront voorlegg
 >
 >* Voorbeeld: 22 mei 2025
 >* Snelle productie: 12 juni 2025
->* Productie voor alle afnemers: 17 juli 2025
+>* Productie voor iedereen: 17 juli 2025
 
 We hebben de ervaring gewijzigd bij het afbreken van records in de tijdlijnweergave en u hebt de compacte weergave toegepast.
 Wanneer u in de nieuwe update uw splitsingsobjecten definieert terwijl u de tijdlijn in de compacte modus weergeeft, wordt u gevraagd om de weergave over te schakelen op Standaard nadat u de storingsvoorwaarden hebt geconfigureerd.
@@ -255,7 +258,7 @@ Voor informatie, zie [ de chronologiemening ](/help/quicksilver/planning/views/m
 >
 >* Voorbeeld: 15 mei 2025
 >* Snelle productie: 12 juni 2025
->* Productie voor alle afnemers: 17 juli 2025
+>* Productie voor iedereen: 17 juli 2025
 
 U kunt nu het uiterlijk van de recordbalken in de tijdlijnweergave opmaken voor de records in de uitsplitsing. U kunt de volgende instellingen voor de balken van deze records bijwerken:
 
@@ -272,7 +275,7 @@ Voor informatie, zie [ de chronologiemening ](/help/quicksilver/planning/views/m
 >
 >* Voorbeeld: 15 mei 2025
 >* Snelle productie: 12 juni 2025
->* Productie voor alle afnemers: 17 juli 2025
+>* Productie voor iedereen: 17 juli 2025
 
 Wij hebben een nieuw vermogen aan de Planning van Workfront toegevoegd waar u informatie zichtbaar in de lijstmening naar een CSV of een dossier van Excel kunt uitvoeren.  
 
@@ -290,7 +293,7 @@ Voor meer informatie, zie [ de lijstmening ](/help/quicksilver/planning/views/ma
 >
 >* Voorbeeld: 15 mei 2025
 >* Snelle productie: 12 juni 2025
->* Productie voor alle afnemers: 17 juli 2025
+>* Productie voor iedereen: 17 juli 2025
 
 U kunt nu de waarden van verbonden velden vullen wanneer u records toevoegt aan een recordtype met een CSV- of Excel-bestand.  Alleen verbonden planningsrecordvelden worden ondersteund. Velden met verbindingen met andere toepassingen worden niet ondersteund.
 
@@ -310,7 +313,7 @@ Raadpleeg de volgende artikelen voor meer informatie:
 >
 >* Voorbeeld: 30 april 2025
 >* Snelle productie: 15 mei 2025
->* Productie voor alle afnemers: 17 juli 2025
+>* Productie voor iedereen: 17 juli 2025
 
 U kunt nu records bewerken op de pagina Verbonden records van een record. Met deze update hebben we het volgende geïntroduceerd:
 
@@ -327,7 +330,7 @@ Voor informatie, zie [ de lay-out van de verslagpagina beheren ](/help/quicksilv
 >
 >* Voorbeeld: 30 april 2025
 >* Snelle productie: 15 mei 2025
->* Productie voor alle afnemers: 17 juli 2025
+>* Productie voor iedereen: 17 juli 2025
 
 De standaard en gebruikers van de Beheerder van het Systeem kunnen het Gebied van de Planning in het Belangrijkste Menu nu door gebrek vinden, zonder dat wordt toegewezen aan een lay-outmalplaatje dat het omvat. Alle andere gebruikers moeten een lay-outmalplaatje hebben dat het Gebied van de Planning omvat dat aan hen wordt toegewezen om tot het toegang te hebben.
 
@@ -336,7 +339,7 @@ Voorafgaand aan deze verbetering, moesten de gebruikers met alle vergunningsnive
 >[!NOTE]
 >
 >Deze wijziging is zichtbaar voor alle nieuwe en bestaande gebruikers met een System Administrator- en Standard-licentie.
->&#x200B;>Bestaande gebruikers die aan een lay-outsjabloon zijn toegewezen, blijven alles zien volgens de instellingen die in de lay-outsjabloon zijn gedefinieerd.
+>>Bestaande gebruikers die aan een lay-outsjabloon zijn toegewezen, blijven alles zien volgens de instellingen die in de lay-outsjabloon zijn gedefinieerd.
 
 Voor informatie, zie [ overzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/access/access-overview.md).
 
@@ -346,7 +349,7 @@ Voor informatie, zie [ overzicht van de Planning van Adobe Workfront ](/help/qui
 >
 >* Voorbeeld: 30 april 2025
 >* Snelle productie: 15 mei 2025
->* Productie voor alle afnemers: 17 juli 2025
+>* Productie voor iedereen: 17 juli 2025
 
 Voor een betere zichtbaarheid van de belangrijke gegevens in uw records hebben we opmaak op rijniveau voor de tabelweergave geïntroduceerd. U kunt nu voor elke rij een kleur kiezen nadat u de voorwaarden voor elke keuze hebt gedefinieerd.  Dit is een nieuwe functie die niet bestond vóór deze update.
 
@@ -358,7 +361,7 @@ Voor informatie, zie [ de lijstmening ](/help/quicksilver/planning/views/manage-
 >
 >* Voorbeeld: 23 april 2025
 >* Snelle productie: 15 mei 2025
->* Productie voor alle afnemers: 17 juli 2025
+>* Productie voor iedereen: 17 juli 2025
 
 U kunt nu een instelling inschakelen op het tabblad Streepjesstijl van het vak Instellingen van een tijdlijnweergave om langere recordnamen af te kappen bij het weergeven in de standaardweergave. De instelling wordt standaard uitgeschakeld en kan alleen worden ingeschakeld wanneer u de tijdlijnweergave in de standaardmodus weergeeft. Als deze instelling is uitgeschakeld, wordt standaard meer informatie over de recordbalken weergegeven. Voorafgaand aan deze verbetering, werd de informatie over de verslagbars afgebroken door gebrek.
 
@@ -366,12 +369,11 @@ Voor informatie, zie [ de chronologiemening ](/help/quicksilver/planning/views/m
 
 ## Machtigingen delen voor recordtypen
 
-
 >[!NOTE]
 >
 >* Voorbeeld: 17 april 2025
 >* Snelle productie: 17 juli 2025
->* Productie voor alle afnemers: 17 juli 2025
+>* Productie voor iedereen: 17 juli 2025
 
 Om beter te controleren wie verslagen in elk verslagtype kan bekijken of beheren en ervoor te zorgen dat slechts de gemachtigde mensen de informatie van elk verslagtype kunnen beheren die op hun rollen en verantwoordelijkheden wordt gebaseerd, hebben wij toestemmingen op het verslagtype niveau geïntroduceerd.
 
