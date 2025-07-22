@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
 workflow-type: tm+mt
 source-wordcount: '2388'
 ht-degree: 0%
@@ -26,8 +26,12 @@ In de Planning van Adobe Workfront, is een verslag een geval van een verslagtype
 
 U kunt records maken door een van de volgende handelingen uit te voeren:
 
-* [Records maken door deze inline toe te voegen vanuit de tabelweergave met recordtype](#create-records-by-adding-them-inline-from-the-record-type-table-view)
 * [Records maken met de knop Nieuwe record of Verzoek om record maken vanuit elke recordtypeweergave](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)
+* [Records maken door deze inline toe te voegen vanuit de tabelweergave met recordtype](#create-records-by-adding-them-inline-from-the-record-type-table-view)
+
+<!--
+* [Create records by adding them in the record type timeline view](#create-records-by-adding-them-in-the-record-type-timeline-view)-->
+
 * [Een lijst met records uit een externe lijst kopiëren en plakken](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [Records dupliceren vanuit een tabelweergave](#create-records-by-duplicating-them)
 * [Records maken terwijl u deze verbindt met andere records](#create-records-as-you-connect-them)
@@ -109,6 +113,92 @@ Raadpleeg de volgende artikelen voor informatie over het beheren van records in 
 
 +++
 
+## Records maken met de knop Nieuwe record of Verzoek om record maken vanuit elke recordtypeweergave
+
+Gebruikers met de machtiging Weergeven voor de werkruimte en het recordtype kunnen alleen records maken met de knop Verzoek om record op de pagina met recordtypen.
+
+Gebruikers met de machtigingen Contribute en Manage voor de werkruimte en het recordtype kunnen records maken met de knop New record op de pagina met recordtypen.
+
+
+>[!IMPORTANT]
+>
+>Een werkruimtemanager moet een aanvraagformulier voor het recordtype maken, zodat gebruikers met de machtiging Weergeven records kunnen toevoegen met een aanvraagformulier. Anders kunnen gebruikers met de machtiging Weergeven geen records maken.
+
+{{step1-to-planning}}
+
+1. Klik op de werkruimte waar u records wilt toevoegen.
+
+   De werkruimte wordt geopend en de recordtypen worden als kaarten weergegeven.
+
+1. Klik op een opnametype. Voor informatie over het creëren van een verslagtype, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
+
+   De pagina met recordtypen wordt geopend in de weergave die u het laatst hebt geopend. Standaard wordt een pagina met recordtypen geopend in de tabelweergave.
+Alle records van het geselecteerde type worden in de weergave weergegeven.
+
+1. (Voorwaardelijk) Klik vanuit elke weergave op een van de volgende opties in de rechterbovenhoek van het scherm, afhankelijk van de machtigingen voor werkruimte en recordtype:
+
+   * Klik **Nieuw verslag**, als u Contribute of hogere toestemmingen op de werkruimte en verslagtype hebt
+
+     of
+
+   * Klik **verslag van het Verzoek**, als u de toestemmingen van de Mening op de werkruimte en verslagtype hebt.
+
+1. (Voorwaardelijk) als u **Nieuw verslag** klikte, doe het volgende:
+
+   1. Klik één van de volgende manieren om een verslag tot stand te brengen, dan **ga** verder:
+
+      * **voeg manueel** toe. Het voorvertoningsvak van de record wordt geopend.\
+        Voeg informatie over het verslag toe, zoals die in [ wordt beschreven creeer verslagen door hen inline van de 1} sectie van de verslagtype lijstmening {in dit artikel toe te voegen, beginnend met stap 6. ](#create-records-by-adding-them-inline-from-the-record-type-table-view)<!--insure this stays accurate-->
+      * **uploadt van dossier**
+Voeg verslagen toe, zoals die in het artikel [ worden beschreven verslagen door informatie van een CSV of dossier van Excel ](/help/quicksilver/planning/records/import-file-to-create-records.md) in te voeren, die met stap 6 beginnen. <!--ensure this stays accurate-->
+      * **leg een verzoek** voor
+Het aanvraagformulier van het recordtype wordt geopend.
+
+        Een werkruimtebeheerder moet een aanvraagformulier maken om een record te kunnen toevoegen met behulp van een aanvraagformulier.
+
+        >[!TIP]
+        >
+        >Sommige recordtypen kunnen meerdere formulieren hebben. Klik op een pictogram om het te openen.
+
+        Voeg het verslag, zoals die in het artikel [ wordt beschreven voor:leggen Adobe Workfront planningsverzoeken voor om verslagen ](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen, beginnend met stap 6. <!--ensure this stays accurate-->
+
+      ![ Drie manieren om archiefkeus modaal ](assets/three-ways-to-create-records-choice-modal.png) te creëren
+
+1. (Voorwaardelijk) als u **verslag van het Verzoek** klikte, doe het volgende:
+
+   1. (Voorwaardelijk) Als het recordtype meer dan één aanvraagformulier heeft, klikt u op een formulier om het te kiezen.
+   2. Ga verder toevoegend informatie in de vorm om het verslag tot stand te brengen, zoals die in het artikel [ wordt beschreven Voorlegt Adobe Workfront Planningsverzoeken om verslagen ](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen, beginnend met stap 6. <!--ensure this stays accurate-->
+
+1. (Voorwaardelijk) Controleer de nieuwe records.
+
+   Afhankelijk van de manier waarop u ervoor hebt gekozen de record toe te voegen, kunnen enkele van de volgende dingen voorkomen:
+
+   * Er wordt een nieuwe record toegevoegd aan het recordtype, tenzij u ervoor kiest deze toe te voegen met een aanvraagformulier met een goedkeuringsproces. De goedkeuring moet door alle fiatteurs worden verleend voordat de registratie wordt opgesteld.
+   * Er worden meerdere records toegevoegd aan het recordtype als u records hebt toegevoegd met een CSV- of Excel-spreadsheet.
+   * Er wordt een nieuwe aanvraag toegevoegd op het tabblad Planning van het gebied Workfront Requests als u de aanvraag hebt toegevoegd door een aanvraagformulier in te dienen.
+
+<!-- this is not possible anymore: 
+
+## Create records by connecting them from another application
+
+You can import records from other applications by linking them to existing records. This creates a linked record for the other application's connected object. 
+
+1. Create a record type, as described in the [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).
+
+1. Create records for the record type you created in the previous step. For information, see the section [Create records by manually adding them to a record type](#create-records-by-manually-adding-them-to-a-record-type) in this article. 
+
+1. Create a connection to an object type from another application for the record type you created. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+1. Add objects from another application to the records you created above using the linked record field you created in the previous step. For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md). 
+
+    The following items are created in Workfront Planning:
+
+    * A read-only record type that refers to the other application's record type you linked to in the connected record field. 
+
+      For example, if you connect a Planning record type to Workfront project, a read-only record type named "Workfront project" is created in the same workspace. You can access the read-only Workfront record types from the table view of the Planning records you're linking from. 
+   
+-->
+
 ## Records maken door deze inline toe te voegen vanuit de tabelweergave met recordtype
 
 U kunt records maken in de tabelweergave van een recordtypepagina terwijl u deze inline toevoegt.
@@ -180,91 +270,64 @@ Records van het geselecteerde type worden weergegeven in de weergave.
    * CTRL + Z (⌘ + Z voor Mac) om een wijziging ongedaan te maken
    * CTRL + Shift + Z (⌘ + Shift + Z voor Mac) om een wijziging opnieuw uit te voeren
 
-## Records maken met de knop Nieuwe record of Verzoek om record maken vanuit elke recordtypeweergave
+<!--<div class="preview">
 
-Gebruikers met de machtiging Weergeven voor de werkruimte en het recordtype kunnen alleen records maken met de knop Verzoek om record op de pagina met recordtypen.
+## Create records by adding them in the record type timeline view
 
-Gebruikers met de machtigingen Contribute en Manage voor de werkruimte en het recordtype kunnen records maken met de knop New record op de pagina met recordtypen.
+You can create records in the timeline view of a record type page, by double-clicking in the timeline. 
 
-
->[!IMPORTANT]
->
->Een werkruimtemanager moet een aanvraagformulier voor het recordtype maken, zodat gebruikers met de machtiging Weergeven records kunnen toevoegen met een aanvraagformulier. Anders kunnen gebruikers met de machtiging Weergeven geen records maken.
+For information about creating a timeline view, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 {{step1-to-planning}}
+  
+1. Click the workspace where you want to add records.
 
-1. Klik op de werkruimte waar u records wilt toevoegen.
+    The workspace opens and the record types display as cards.
 
-   De werkruimte wordt geopend en de recordtypen worden als kaarten weergegeven.
+1. Click a record type card. 
 
-1. Klik op een opnametype. Voor informatie over het creëren van een verslagtype, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
+    The record type page opens in the view that you last accessed. 
 
-   De pagina met recordtypen wordt geopend in de weergave die u het laatst hebt geopend. Standaard wordt een pagina met recordtypen geopend in de tabelweergave.
-Alle records van het geselecteerde type worden in de weergave weergegeven.
+1. Click to open a timeline view, or create a timeline view, first. 
 
-1. (Voorwaardelijk) Klik vanuit elke weergave op een van de volgende opties in de rechterbovenhoek van het scherm, afhankelijk van de machtigingen voor werkruimte en recordtype:
+    >[!NOTE]
+    >
+    >You can create a timeline view only if there are at least two date fields associated with the record type.
+1. Double-click anywhere in the timeline. 
 
-   * Klik **Nieuw verslag**, als u Contribute of hogere toestemmingen op de werkruimte en verslagtype hebt
+    A new record box opens. 
 
-     of
+    ![New record box on timeline with unnamed record bar](assets/new-record-small-box-on-timeline.png)
+1. Update the following information:
 
-   * Klik **verslag van het Verzoek**, als u de toestemmingen van de Mening op de werkruimte en verslagtype hebt.
+    * **Name**: Enter the name of the record. If you leave it empty, Workfront names it **Untitled** by default. The name will not be visible in the record bar if left empty. 
+    * **Record date fields**: Update the dates of the record. 
+        
+        The names of the date fields are customized according to the fields selected for the Start and End dates when the timeline view was created.
 
-1. (Voorwaardelijk) als u **Nieuw verslag** klikte, doe het volgende:
+        By default, date values are preselected depending on how you display the timeline view. The following scenarios exist:
 
-   1. Klik één van de volgende manieren om een verslag tot stand te brengen, dan **ga** verder:
+        * By **Year**: The record start and end dates span a month.
+        * By **Quarter**: The record start and end dates span a week. 
+        * By **Month**: The record start and end dates span three days.
 
-      * **voeg manueel** toe. Het voorvertoningsvak van de record wordt geopend.\
-        Voeg informatie over het verslag toe, zoals die in [ wordt beschreven creeer verslagen door hen inline van de 1&rbrace; sectie van de verslagtype lijstmening &lbrace;in dit artikel toe te voegen, beginnend met stap 6. ](#create-records-by-adding-them-inline-from-the-record-type-table-view)<!--insure this stays accurate-->
-      * **uploadt van dossier**
-Voeg verslagen toe, zoals die in het artikel [ worden beschreven verslagen door informatie van een CSV of dossier van Excel ](/help/quicksilver/planning/records/import-file-to-create-records.md) in te voeren, die met stap 6 beginnen. <!--ensure this stays accurate-->
-      * **leg een verzoek** voor
-Het aanvraagformulier van het recordtype wordt geopend.
+1. (Optional) Click one of the following icons: 
 
-        Een werkruimtebeheerder moet een aanvraagformulier maken om een record te kunnen toevoegen met behulp van een aanvraagformulier.
+    * **Expand** ![Expand icon](assets/expand-icon.png) to open the record details in the preview window. 
+    * **Delete** ![Delete icon](assets/delete-icon.png) to delete the record.
+    * **Close**  ![Close icon](assets/close-icon.png) to close the new record box. 
 
-        >[!TIP]
-        >
-        >Sommige recordtypen kunnen meerdere formulieren hebben. Klik op een pictogram om het te openen.
+    The record is added to the timeline as well as to the table and calendar views immediately, unless you clicked the **Delete** icon. 
 
-        Voeg het verslag, zoals die in het artikel [ wordt beschreven voor:leggen Adobe Workfront planningsverzoeken voor om verslagen ](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen, beginnend met stap 6. <!--ensure this stays accurate-->
+1. (Optional) Click the record bar in the timeline to open the record's details window and update its information, delete it, or add comments. 
 
-      ![ Drie manieren om archiefkeus modaal ](assets/three-ways-to-create-records-choice-modal.png) te creëren
+    >[!TIP]
+    >
+    >By default, Workfront associates the record with a thumbnail and a cover image.
+    >
+    >The thumbnail displays in the timeline view only when it is enabled in the Settings of the view. 
 
-1. (Voorwaardelijk) als u **verslag van het Verzoek** klikte, doe het volgende:
-
-   1. (Voorwaardelijk) Als het recordtype meer dan één aanvraagformulier heeft, klikt u op een formulier om het te kiezen.
-   2. Ga verder toevoegend informatie in de vorm om het verslag tot stand te brengen, zoals die in het artikel [ wordt beschreven Voorlegt Adobe Workfront Planningsverzoeken om verslagen ](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen, beginnend met stap 6. <!--ensure this stays accurate-->
-
-1. (Voorwaardelijk) Controleer de nieuwe records.
-
-   Afhankelijk van de manier waarop u ervoor hebt gekozen de record toe te voegen, kunnen enkele van de volgende dingen voorkomen:
-
-   * Er wordt een nieuwe record toegevoegd aan het recordtype, tenzij u ervoor kiest deze toe te voegen met een aanvraagformulier met een goedkeuringsproces. De goedkeuring moet door alle fiatteurs worden verleend voordat de registratie wordt opgesteld.
-   * Er worden meerdere records toegevoegd aan het recordtype als u records hebt toegevoegd met een CSV- of Excel-spreadsheet.
-   * Er wordt een nieuwe aanvraag toegevoegd op het tabblad Planning van het gebied Workfront Requests als u de aanvraag hebt toegevoegd door een aanvraagformulier in te dienen.
-
-<!-- this is not possible anymore: 
-
-## Create records by connecting them from another application
-
-You can import records from other applications by linking them to existing records. This creates a linked record for the other application's connected object. 
-
-1. Create a record type, as described in the [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).
-
-1. Create records for the record type you created in the previous step. For information, see the section [Create records by manually adding them to a record type](#create-records-by-manually-adding-them-to-a-record-type) in this article. 
-
-1. Create a connection to an object type from another application for the record type you created. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
-
-1. Add objects from another application to the records you created above using the linked record field you created in the previous step. For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md). 
-
-    The following items are created in Workfront Planning:
-
-    * A read-only record type that refers to the other application's record type you linked to in the connected record field. 
-
-      For example, if you connect a Planning record type to Workfront project, a read-only record type named "Workfront project" is created in the same workspace. You can access the read-only Workfront record types from the table view of the Planning records you're linking from. 
-   
--->
+</div>-->
 
 ## Records maken door deze te kopiëren en te plakken vanuit een externe lijst
 

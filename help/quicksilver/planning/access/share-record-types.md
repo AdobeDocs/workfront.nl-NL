@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
+source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1474'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ U kunt een recordtype met anderen delen om samenwerking te verzekeren wanneer he
 >[!IMPORTANT]
 >
 >Gebruikers met toegang tot een werkruimte krijgen automatisch minstens weergavemachtigingen voor alle recordtypen in de werkruimte.
->&#x200B;>Als u weergaven deelt, geeft u gebruikers geen machtigingen om gegevenstypen op te nemen. Alleen werkruimten delen kan gebruikers machtigingen verlenen om gegevenstypen op te nemen.
+>>Als u weergaven deelt, geeft u gebruikers geen machtigingen om gegevenstypen op te nemen. Alleen werkruimten delen kan gebruikers machtigingen verlenen om gegevenstypen op te nemen.
 >
 >* Voor algemene informatie over het delen van voorwerpen in de Planning van Workfront, zie ook [ Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront ](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 >* Voor meer informatie, zie de [ Overwegingen wanneer het delen van verslagtypes ](#considerations-when-sharing-record-types) sectie in dit artikel.
@@ -142,9 +142,21 @@ U kunt machtigingen aanpassen voor afzonderlijke recordtypen in een werkruimte a
 
 {{step1-to-planning}}
 
-1. Open de werkruimte waarvan recordtypen u wilt delen en klik vervolgens op een opnametype-kaart.
+1. Open de werkruimte waarvan u de recordtypen wilt delen.
 
-   Hierdoor wordt de pagina met recordtypen geopend.
+<!--when we release Share on the record type card, replace the next 3 steps with this: 
+
+1. Do one of the following: 
+
+   * <span class="preview">From the record type card, click the **More** menu > **Share**.</span>
+   * Click a record type card to open the record type's page, then click **Share** > **Share the record type** from any record type view.
+
+   The **Share** box opens.
+-->
+
+1. Klik op een opnametype.
+
+   De pagina met recordtypen wordt geopend.
 
 1. Van het lusje van om het even welke mening, klik **Aandeel** in de hoger-juiste hoek van het verslagtype.
 1. Klik **Deel het verslagtype**.
@@ -160,7 +172,6 @@ U kunt machtigingen aanpassen voor afzonderlijke recordtypen in een werkruimte a
    >[!TIP]
    >
    >U kunt afzonderlijke entiteiten niet verwijderen uit de lijst Geërfde machtigingen.
-
 
 1. (Optioneel en voorwaardelijk) Als u het recordtype wilt delen met specifieke entiteiten en deze een andere toegang tot het recordtype wilt geven dan ze al hebben voor de werkruimte, gaat u als volgt te werk:
 

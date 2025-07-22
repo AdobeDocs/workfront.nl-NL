@@ -4,14 +4,14 @@ content-type: reference
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Uurtypen beheren
-description: U kunt uurtypen koppelen aan uw uren. De types van uren zijn etiketten u gebruikt om uw uuringangen te bepalen.
+description: U kunt uurtypen koppelen aan uw uren. De types van uren zijn etiketten u gebruikt om uw uuringangen te bepalen. De types van uren kunnen voor algemene tijd of voor project-specifieke tijd zijn.
 author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: 4fafdcea97874e791104260375617e3989af1870
+source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '1083'
 ht-degree: 0%
 
 ---
@@ -52,13 +52,13 @@ Er zijn twee categorieën van uurtypes:
   >
   >Als u om het even welke project-specifieke uurtypes in uw [!DNL Workfront] systeem toelaat, moet minstens één project-specifiek uurtype op elk project in uw systeem worden toegelaten. U kunt geen project-specifiek uurtype op het systeemniveau toelaten en geen project-specifieke uurtypes hebben beschikbaar op het projectniveau.
 
-* **de Types van Uur van 0&rbrace; Algemeen**: De algemene uren kunnen niet met een project, een taak, of een kwestie worden geassocieerd, en rechtstreeks in een timesheet het programma geopend.
+* **de Types van Uur van 0} Algemeen**: De algemene uren kunnen niet met een project, een taak, of een kwestie worden geassocieerd, en rechtstreeks in een timesheet het programma geopend.
 
 Voor informatie over het registreren van uren en het associëren van hen met uurtypes, zie [ tijd van het Logboek ](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
++++ Vouw uit om de vereisten voor toegang weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -129,7 +129,7 @@ U kunt als volgt uurtypen maken:
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Scope]</td> 
-      <td> <p>Selecteer of het uurtype een algemeen of project-specifiek uurtype in het <strong> drop-down menu van het Toepassingsgebied </strong> is.</p> <p>De algemene uurtypes zijn zichtbaar slechts in timesheets en kunnen niet met projecten, taken, of kwesties worden geassocieerd.</p> <p><b> BELANGRIJK </b>: Als u een Type van douaneuren hebt dat [!UICONTROL Project Specific] is en u het in [!UICONTROL General] verandert, worden alle bestaande Taak, Kwesties en de uren van het Project geplaatst aan hun systeem standaardtypes.</p> </td> 
+      <td> <p>Selecteer of het uurtype een algemeen of project-specifiek uurtype in het <strong> drop-down menu van het Toepassingsgebied </strong> is.</p> <p>De algemene uurtypes zijn zichtbaar slechts in timesheets en kunnen niet met projecten, taken, of kwesties worden geassocieerd.</p> <p><b>BELANGRIJK</b></p><p> Als u een Type van douaneuren hebt dat [!UICONTROL Project Specific] is en u het in [!UICONTROL General] verandert, worden alle bestaande Taak, Kwesties en de uren van het Project geplaatst aan hun systeemstandaardtypes.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Count As Revenue]</td> 
@@ -142,9 +142,65 @@ U kunt als volgt uurtypen maken:
     </tbody> 
    </table>
 
+   <!-- in the table above, add this for the Count as revenue: <span class="preview">[!UICONTROL Count as Revenue]</span>-->
+
 1. Klik op **[!UICONTROL Create Hour Type].**
 
+   <!--Click  **[!UICONTROL Create Hour Type]** <span class="preview"> or **Save**</span>. -->
+
    Het uurtype wordt toegevoegd aan uw Workfront-systeem en wordt standaard geactiveerd.
+
+
+## Uren bewerken
+
+Als [!DNL Workfront] beheerder, kunt u uurtypes voor uw organisatie op systeem en project-niveau uitgeven.
+
+>[!NOTE]
+>
+>* U kunt ingebouwde uurtypen niet bewerken.
+>* U kunt uurtypen niet bulksgewijs bewerken.
+
+{{step-1-to-setup}}
+
+1. In het linkerpaneel, klik **Tijdopmaak &amp; Uren**, dan klik **de Types van Uur**.
+
+1. Klik een het type van uur naam of selecteer het uurtype, dan klik **uitgeven** pictogram ![ pictogram ](assets/edit-icon.png) bij de bovenkant van de lijst uitgeven.
+1. In **geef de dialoogdoos van de Types van Uur** uit, specificeer de volgende informatie:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Name]</td> 
+      <td>Voer een naam in voor het uurtype dat gemakkelijk herkenbaar is in het systeem.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Description]</td> 
+      <td>Voeg een beschrijving toe voor het uurtype.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Scope]</td> 
+      <td> <p>Selecteer of het uurtype een algemeen of project-specifiek uurtype in het <strong> drop-down menu van het Toepassingsgebied </strong> is.</p> <p>De algemene uurtypes zijn zichtbaar slechts in timesheets en kunnen niet met projecten, taken, of kwesties worden geassocieerd.</p> <p><b>BELANGRIJK</b></p> <p>Als u een Type van douaneuren hebt dat [!UICONTROL Project Specific] is en u het in [!UICONTROL General] verandert, worden alle bestaande Taak, Kwesties en de uren van het Project geplaatst aan hun systeemstandaardtypes.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Count As Revenue]</td> 
+      <td><p>Selecteer deze optie als u de uuringang verbonden aan dit uurtype uw opbrengstberekeningen wilt beïnvloeden.</p>
+      <p>De tijd van de ick en van de Vakantie kan niet als opbrengst worden geteld.</p>
+      <p><b>OPMERKING</b></p>
+      <p>Wanneer de algemene uurtypes als opbrengst worden geteld, wordt het tarief van Kosten verbonden aan het profiel van de gebruiker die de tijd registreert geassocieerd met de uurkosten.  
+      </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+   <!-- in the table above, add this for the Count as revenue: <span class="preview">[!UICONTROL Count as Revenue]</span>-->
+
+1. Klik op **[!UICONTROL Save Changes].**
+
+   <!--Click  **[!UICONTROL Save Changes]** <span class="preview"> or **Save**</span>. -->
+
+   De wijzigingen worden opgeslagen en het uurtype wordt bewerkt.
 
 ## Uren deactiveren
 
@@ -152,9 +208,11 @@ U kunt uurtypen deactiveren als u niet langer wilt dat gebruikers hun uren aan h
 
 >[!NOTE]
 >
->* Ingebouwde uurtypen kunnen niet worden gedeactiveerd.
+>* U kunt ingebouwde uurtypen niet deactiveren.
+>* U kunt uurtypen bulksgewijs deactiveren.
 >* Wanneer u een project-specifiek Type van Uur deactiveert, al tijd die voor dat type automatisch wordt geregistreerd blijft aan een ingebouwd project-specifiek uurtype in gebreke. Bijvoorbeeld, tijd die voor een project wordt geregistreerd blijft aan het het uurtype van de Tijd van het Project; tijd die voor een taak wordt geregistreerd blijft aan het het uurtype van de Tijd van de Taak in gebreke.
->
+>* Wanneer u een algemeen uurtype deactiveert, blijft de geregistreerde tijd op timesheet, maar de gebruikers kunnen niet meer tijd voor dat uurtype in de toekomst registreren.
+
 
 
 Een uurtype deactiveren:
@@ -163,10 +221,9 @@ Een uurtype deactiveren:
 
 1. Klik in het linkerdeelvenster op **[!UICONTROL Timesheet & Hours]** en klik vervolgens op **[!UICONTROL Hour Types]** .
 
-1. Selecteer het uurtype u wilt deactiveren.
+1. Selecteer het uurtype u wilt deactiveren. U kunt meerdere uurtypen selecteren.
 
-
-1. Klik **Meer**, toen **&#x200B;**&#x200B;deactivate.
+1. Klik **Meer**, toen **** deactivate.
 
    ![ activeer en deactiveer de verbindingen van het uurtype ](assets/activate-and-deactivate-hour-type-links.png)
 
