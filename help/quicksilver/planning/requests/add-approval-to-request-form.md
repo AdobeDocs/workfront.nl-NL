@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 83b3bd73fd30b5fba931e64783dee67485d98fe9
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '782'
 ht-degree: 0%
 
 ---
@@ -123,11 +123,11 @@ Voor informatie over het voorleggen van een verzoek aan een verslagtype om een v
    De **vertoningen van het het gebiedsgebied van de Configuratie**.
 
    ![ het lusje van de Configuratie ](assets/configuration-tab.png)
-1. In het **Approvers** gebied, klik het drop-down pictogram en selecteer één of verscheidene namen in de lijst
+1. In het **Approvers** gebied, klik het drop-down pictogram en selecteer één of verscheidene gebruikers <span class="preview"> of teams </span> in de lijst
 
    of
 
-   Typ de naam van een fiatteur en selecteer deze vervolgens wanneer deze in de lijst wordt weergegeven.
+   Begin de naam van een gebruiker <span class="preview"> of team </span> te typen die u als fiatteur wilt plaatsen, dan het selecteren wanneer het in de lijst toont.
 
    <!--most of the Note below is duplicated in the Create a request form article-->
 
@@ -141,6 +141,8 @@ Voor informatie over het voorleggen van een verzoek aan een verslagtype om een v
    >* Als ten minste één fiatteur het verzoek afwijst, wordt het verzoek afgewezen en wordt de record niet gemaakt. Het verzoek blijft op het lusje van de Planning van de Verzendende sectie in het gebied van Verzoeken van Workfront.
    >
    >* Elke fiatteur moet een beslissing nemen voordat een verzoek wordt goedgekeurd of afgewezen.
+   >
+   >* <span class="preview"> als een team als fiatteur wordt geplaatst, slechts wordt één besluit vereist van het team.</span>
 
 
 1. (Facultatief) klik **publiceren** als u nooit de verzoekvorm vóór hebt gedeeld

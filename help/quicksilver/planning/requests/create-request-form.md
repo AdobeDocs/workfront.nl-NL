@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
+source-git-commit: 83b3bd73fd30b5fba931e64783dee67485d98fe9
 workflow-type: tm+mt
-source-wordcount: '2281'
+source-wordcount: '2299'
 ht-degree: 0%
 
 ---
@@ -207,7 +207,7 @@ Voor informatie over het voorleggen van de verzoeken van de Planning van Workfro
 
 1. (Facultatief) klik **Voorproef** om te bekijken hoe de vorm voor andere gebruikers zal tonen wanneer zij het zullen gebruiken om een nieuw verslag voor te leggen.
 
-1. (Facultatief) klik het **lusje van de Configuratie**, dan voeg minstens één gebruiker aan het **Approvers** gebied toe om nieuwe verzoeken voor deze verslagvorm goed te keuren.
+1. (Facultatief) klik het **lusje van de Configuratie**, dan voeg minstens één gebruiker <span class="preview"> of team </span> aan het **Approvers** gebied toe om nieuwe verzoeken voor deze verslagvorm goed te keuren.
 
    ![ het lusje van de Configuratie ](assets/configuration-tab.png)
 
@@ -217,6 +217,7 @@ Voor informatie over het voorleggen van de verzoeken van de Planning van Workfro
    * U kunt een of meer fiatteurs toevoegen aan een aanvraagformulier.
    * Als ten minste één fiatteur het verzoek afwijst, wordt het verzoek afgewezen en wordt de record niet gemaakt.
    * Elke fiatteur moet een beslissing nemen voordat een verzoek wordt goedgekeurd of afgewezen.
+   * <span class="preview"> als een team als fiatteur wordt geplaatst, slechts wordt één besluit vereist van het team.</span>
 
      Voor meer informatie over het toevoegen van goedkeuringen aan aanvraagvormen, zie [ goedkeuring aan een verzoekvorm ](/help/quicksilver/planning/requests/add-approval-to-request-form.md) toevoegen.
 
@@ -312,4 +313,4 @@ Voor informatie over het voorleggen van de verzoeken van de Planning van Workfro
 
    Voor informatie over het creëren van verslagen die een verbinding aan een verzoekvorm gebruiken, zie [ verzoeken van de Planning van Adobe Workfront voorleggen ](/help/quicksilver/planning/requests/submit-requests.md).
 
-1. Klik **sparen** in de laag-juiste hoek van het **3&rbrace; lusje van de Vorm &lbrace;om de vorm te bewaren.**
+1. Klik **sparen** in de laag-juiste hoek van het **3} lusje van de Vorm {om de vorm te bewaren.**
