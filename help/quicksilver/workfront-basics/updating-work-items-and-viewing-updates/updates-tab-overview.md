@@ -7,9 +7,9 @@ description: In de sectie Updates van een object worden opmerkingen weergegeven 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: de42974a9a5c4c346ef3ae1cce09968befd1381c
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1196'
 ht-degree: 0%
 
 ---
@@ -299,24 +299,33 @@ In de volgende tabel worden de objecten weergegeven waarvan de opmerkingen ook w
 
 Er zijn sommige beperkingen in de sectie van Updates van een team en wanneer het ingaan van updates namens andere gebruikers.
 
-### Beperkingen voor gebruikers en teams
+### Overwegingen voor gebruikers en teams
 
 Houd rekening met het volgende wanneer u updates voor gebruikers en teams bekijkt:
 
 * U kunt geen nieuwe opmerkingen toevoegen in de sectie Updates van een team.
-
-* De sectie Updates voor teams wordt gevuld met updates die worden ingevoerd voor de volgende objecten:
-
-   * Gebruikers
-   * Artikelen
-   * Timesheets
-   * Herhalingen
 
 * U kunt een antwoord toevoegen aan een update die u in een team weergeeft. De antwoordvertoningen in de sectie van Updates van het team evenals de sectie van Updates van het voorwerp het tot behoort.
 
 * In de sectie Updates voor gebruikers en teams kunt u de updates weergeven die in de afgelopen 90 dagen zijn ingevoerd.
 
   Als u alle updates wilt zien die op een gebruiker of een team, voorbij de grens van 90 dagen worden gemaakt, kunt u een rapport voor nota&#39;s bouwen. Het rapport zou geen tijdfilter moeten hebben dat alle updates toont die voor gebruikers of teams worden gemaakt. Voor meer informatie, zie [ een douanerapport ](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+
+* De sectie Updates voor teams wordt gevuld met opmerkingen die worden toegevoegd aan de volgende objecten:
+
+   * Gebruikers
+   * Artikelen
+   * Timesheets
+   * Herhalingen
+
+* Het tabblad Systeemupdates van het gebied Updates voor gebruikers wordt gevuld door updates van andere objecten. Hieronder vindt u updates die worden weergegeven op het tabblad Systeemupdates van het gebruikersprofiel wanneer deze velden worden bijgehouden in het gedeelte Updates Feeds van Setup:
+
+   * Documenttoevoeging, -verwijdering en andere documentupdates
+   * Uur-optellen, verwijderen, optellen namens en andere uur-ingsupdates
+   * Notities, updates van aangepaste velden
+   * Updates van gebruikersprofielen (updates van de avatar van de gebruiker, Mobiel nummer, Bespreek me over gebied, Titel)
+   * Toevoeging, verwijdering, wijziging van toegangsniveau, wijzigingen in ingebouwde gebruikersvelden
+   * Financiële informatie uit taken en projecten.
 
 ### Beperkingen bij het invoeren van opmerkingen namens een andere gebruiker
 

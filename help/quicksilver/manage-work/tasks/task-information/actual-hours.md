@@ -7,9 +7,9 @@ description: De uren die u in Adobe Workfront inlogt op uw werkitems worden besc
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: 23a5c90b9321b72a20f21752f957b3be0a9f3a02
+source-git-commit: de42974a9a5c4c346ef3ae1cce09968befd1381c
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1178'
 ht-degree: 0%
 
 ---
@@ -79,6 +79,7 @@ Afhankelijk van welk gebied van Workfront u tot de daadwerkelijke uren van toega
 * In het project, de taak, of het gebied van de Details van de kwestie:
 
    * **Ware Uren**: Uren die voor projecten, taken, of kwesties na Mei 2021 worden geregistreerd. Ze worden in uren opgeslagen in de Workfront-database en hun waardeveld is `actualWorkRequiredDouble` .
+   * **Ware Uren**: Wanneer zij gebruikend een Inheems gebied van de gebiedsverwijzing douanegebied in een project, een taak, of de vorm van de uitgave worden betreden.
 
 ## Werkelijke uren voor taken en problemen versus Werkelijke uren voor projecten
 
@@ -109,36 +110,42 @@ Werkelijke uren zoeken in de sectie Details is identiek voor projecten, taken en
 Werkelijke uren zoeken in taakdetails:
 
 1. Ga naar een taak u de Ware Uren voor wilt herzien.
-1. In het linkerpaneel, klik **Details van de Taak**. De **vertoningen van de 1&rbrace; sectie van het Overzicht &lbrace;.**
-1. Bepaal de plaats van de **Ware 1&rbrace; waarde van Uren {in de** 3} sectie van de Werktijd. **&#x200B;**&#x200B;Dit is het totaal aantal uren dat op deze taak is aangemeld.
+1. In het linkerpaneel, klik **Details van de Taak**. De **vertoningen van de 1} sectie van het Overzicht {.**
+1. Bepaal de plaats van de **Ware 1} waarde van Uren {in de** 3} sectie van de Werktijd. **** Dit is het totaal aantal uren dat op deze taak is aangemeld.
+1. (Optioneel en voorwaardelijk) Als de eigenlijke werkuren-veldverwijzing is toegevoegd aan een project, taak of aangepast formulier, gaat u naar het aangepaste formulier en zoekt u de werkuren in het aangepaste veld. Dit is het totaal aantal uren dat voor het object is geregistreerd.
 
 ### Werkelijke uren in de sectie Uren {#actual-hours-in-the-hours-section}
 
 Het vinden van Werkelijke Uren in de sectie van Uren is identiek voor projecten, taken, en kwesties.
 
-Werkelijke uren zoeken in de sectie Uren:
+Werkelijke uren zoeken in de sectie Uren van een taak:
 
 1. Ga naar een taak u de Ware Uren voor wilt herzien.
 
-1. In het linkerpaneel, klik **Uren**. Een lijst van uuringangen die op de taakvertoningen worden geregistreerd, met de **1&rbrace; kolom die van Uren &lbrace;het totale aantal Werkelijke Uren voor de taak tonen.**
+1. In het linkerpaneel, klik **Uren**. Een lijst van uuringangen die op de taakvertoningen worden geregistreerd, met de **1} kolom die van Uren {het totale aantal Werkelijke Uren voor de taak tonen.**
 
 1. Zorg ervoor dat de **Standaard** mening en de **groepering van het Project** op deze lijst worden toegepast.
+1. De Ware Uren voor de taakvertoningen in de groeperingslijn voor de **Ware kolom van Uren**.
 
-### Werkelijke uren in rapporten {#actual-hours-in-reports}
+### Werkelijke uren en verouderde werkelijke uren in rapporten
 
-Wanneer het bouwen van taken, kwesties, of projectrapporten, kunt u de Werkelijke waarde van Uren voor elke taak, kwestie, of project in het rapport tonen.
+Wanneer het bouwen van taken, kwesties, of projectrapporten, kunt u de Werkelijke Uren en de Echte Echte waarden van de Uur van de Oudheid voor elke taak, kwestie, of project in het rapport tonen.
 
-Werkelijke uren weergeven in een taakrapport:
+Voor informatie over het verschil tussen Ware Uren en Verouderde Werkelijke Uren zie de sectie [ Werkelijke Uren vs Verouderde Werkelijke Uren ](#actual-hours-vs-legacy-actual-hours) in dit artikel.
+
+Werkelijke uren en Werkelijke uren verouderd weergeven in een taakrapport:
 
 {{step1-to-reports}}
 
 1. Op de **pagina van Rapporten**, klik **Nieuw Rapport**, dan kies **Taak** als uw voorwerp.
 1. In de bodem-juiste hoek van de pagina, klik **voegt Kolom** toe.
-1. In **toon in deze kolom** drop-down gebied dat verschijnt, begin **Werkelijke Uren** te typen, dan het gebied te selecteren wanneer het in de lijst verschijnt.
+1. In **toon in deze kolom** drop-down gebied, begin **Werkelijke Uren** te typen, dan het gebied te selecteren wanneer het in de lijst verschijnt.
+1. Herhaal de stap hierboven om het **Oude Echte Echte 1} gebied van Uren {aan het rapport toe te voegen.**
 
 1. In de bodem-linkerhoek van de pagina, klik **sparen + Sluiten** om het rapport te bewaren.
 
-1. In de **Naam dit Rapport om het** dialoogvakje te bewaren, ga een nieuwe rapportnaam in, dan klik **&#x200B;**&#x200B;van toepassing zijn.
+1. In de **Naam dit Rapport om het** dialoogvakje te bewaren, ga een nieuwe rapportnaam in, dan klik **** van toepassing zijn.
+1. Herhaal dezelfde stappen voor een project- of probleemrapport.
 
 ### Werkelijke uren aan hulpmiddelen voor bronnenbeheer {#actual-hours-in-resource-management-tools}
 
