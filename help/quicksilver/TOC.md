@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 4558180667d3812f3b4089b7d599158327a683bf
+source-git-commit: 308d6e1dba361c5297c741dea71b11fe6100e871
 workflow-type: tm+mt
-source-wordcount: '13258'
+source-wordcount: '13265'
 ht-degree: 0%
 
 ---
@@ -207,7 +207,6 @@ ht-degree: 0%
          * [21.1 Andere verbeteringen](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Planning Release-activiteit{#planning-release-activity}
          * [ de versieactiviteit van de Planning van Adobe Workfront ](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
-
            [ Vierde Kwartaal 2025 versieactiviteit voor de Planning van Adobe Workfront ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
          * [Derde Kwart 2025 releaseactiviteit voor de Planning van Adobe Workfront](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
          * [Tweede kwartaal 2025: releaseactiviteit voor Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
@@ -857,6 +856,7 @@ ht-degree: 0%
       * [Uw werk beheren in de prioriteitenkalender](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md)
    * Home {#home}
       * [Home](workfront-basics/using-home/home.md)
+      * [Van verouderd startpunt naar nieuw startpunt](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)
       * Het gebied Home gebruiken {#use-home-area}
          * [Het gedeelte Home gebruiken: artikelindex](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
          * [Aan de slag met Home](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
@@ -1142,7 +1142,7 @@ ht-degree: 0%
          * [Elementen en mappen ontkoppelen of verwijderen uit Experience Manager Assets of Elementen.](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/unlink-or-delete-aem-assets.md)
          * [Workflows gebruiken in de integratie met Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
          * [Workfront Fusion gebruiken om een Workfront-uitgave om te zetten in een project dat Adobe Experience Manager-workflows bevat](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-fusion-to-create-project-with-workflows.md)
-         * [ los de Integratie van Adobe Experience Manager  problemen op](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
+         * [ los de Integratie van Adobe Experience Manager ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md) problemen op
    * Migreren vanaf verouderde of verbeterde connectors {#migrate-from-legacy-enhanced-connectors}
       * [Migreren vanaf verouderde of verbeterde connectors](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
       * [Migreren van de verouderde of verbeterde aansluiting naar Workfront for Adobe Experience Manager as a Cloud Service-integratie](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
@@ -2473,8 +2473,8 @@ ht-degree: 0%
       * [Configureer en gebruik de aangepaste OAuth 2-toepassingen van uw organisatie met behulp van JWT-flow](wf-api/api/oauth-app-jwt-flow.md)
       * [ vorm en gebruik de douane OAuth 2 toepassingen van uw organisatie die de stroom PKCE gebruiken ](wf-api/api/oauth-app-pkce-flow.md)
       * [Vervalsing van API-intern](wf-api/api/deprecation-api-internal.md)
-      * [ wat in API versie 20  nieuw is](wf-api/api/new-api-version-20.md)
-      * [ wat in API versie 19  nieuw is](wf-api/api/new-api-version-19.md)
+      * [ wat in API versie 20 ](wf-api/api/new-api-version-20.md) nieuw is
+      * [ wat in API versie 19 ](wf-api/api/new-api-version-19.md) nieuw is
       * [Nieuwe functies in API-versie 18](wf-api/api/new-api-version-18.md)
       * [Nieuwe functies in API-versie 17](wf-api/api/new-api-version-17.md)
       * [Nieuwe functies in API-versie 16](wf-api/api/new-api-version-16.md)
