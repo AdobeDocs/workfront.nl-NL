@@ -271,7 +271,7 @@ Als u dit zo snel mogelijk doet, hebben uw gebruikers de tijd om zich aan de nie
 **Opleiding**
 
 * [ verwijder, voeg, en herschik widgets in het leerprogramma van het Huis toe ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
-* {de Grondbeginselen van de Arbeider van 0} in Adobe Workfront [](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
+* {de Grondbeginselen van de Arbeider van 0} in Adobe Workfront [&#128279;](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
 
 >[!IMPORTANT]
 >
