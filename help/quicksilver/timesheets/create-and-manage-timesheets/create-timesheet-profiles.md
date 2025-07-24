@@ -6,9 +6,9 @@ description: U kunt timesheet-profielen maken, bewerken en toewijzen die terugke
 author: Alina
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
+source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1604'
 ht-degree: 0%
 
 ---
@@ -36,8 +36,6 @@ Voor meer informatie over het creëren van manueel timesheet, zie [ een enig-geb
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -194,9 +192,17 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
    >* Wanneer u een groep toevoegt, wordt alleen de groepsnaam weergegeven op het tabblad Personen toewijzen, niet de lijst met groepsleden. Als u de hier vermelde groepsleden wilt zien, klik sparen Veranderingen, dan klik de naam van het timesheet profiel u enkel creeerde.
    >* Wanneer u deze stappen beëindigt, produceert het timesheet profiel timesheets slechts voor de toegewezen gebruikers of groepsleden die geen bestaande timesheets voor de huidige periode hebben.
 
-1. Klik **sparen Veranderingen**.
+1. Klik **sparen**.
 
-   De eerste keer het timesheet profiel produceert timesheets, worden 2 timesheets gecreeerd voor elke gebruiker. Daarna, telkens als het nieuwe timesheets produceert, op timesheet wordt gecreeerd per gebruiker.
+1. Bij de bovenkant van de lijst van het timesheet profiel, klik het **Meer** pictogram ![ pictogram ](assets/more-icon.png) voor systeem-vlakke timesheet profielen, of **Meer**, voor groep timesheet profielen, dan klik **timesheets** produceren.
+
+   Onder aan het scherm wordt bevestigd dat tijdbladen zijn gegenereerd. Nieuwe tijdbladen worden gegenereerd op basis van de nieuwe profielen die u hebt gemaakt.
+
+   Voor meer informatie, zie [ manueel timesheets ](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md) produceren.
+
+   De eerste keer wordt het timesheet profiel timesheets geproduceerd, worden 2 timesheets gecreeerd voor elke gebruiker, zowel voor het timeframe dat de huidige tijd evenals voor het volgende timeframe omvat.
+
+   Daarna, telkens als het nieuwe timesheets produceert, wordt één timesheet gecreeerd per gebruiker.
 
    <!--the content in the table above will need to match the content in the Create timesheets article-->
 

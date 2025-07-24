@@ -6,9 +6,9 @@ description: U kunt een tijdlijnprofiel verwijderen dat mogelijk niet meer relev
 author: Alina
 feature: Timesheets
 exl-id: 1fb39f74-205b-485e-9e8b-a2ab3f9f1ac4
-source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
+source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Voor informatie over timesheet profielen, zie [ creëren, uitgeven, en toewijzen
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
++++ Vouw uit om de vereisten voor toegang weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -56,14 +56,16 @@ Voor informatie over timesheet profielen, zie [ creëren, uitgeven, en toewijzen
 
 1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
 
-1. Als u een timesheet profiel schrapt dat in gebruik door het systeem is, klik **Tijdopname &amp; Uren**.
+1. Als u een systeem-vlakke timesheet profiel schrapt, klik **Tijdopmaak &amp; Uren**.
 
    of
 
-   Als u een timesheet profiel voor een groep schrapt, klik **Groepen**, dan klik de naam van de groep.
+   Als u een timesheet profiel voor een groep schrapt, klik **Groepen** > klik de naam van de groep, dan klik **Profielen van de Chronologie**.
+1. Selecteer minstens één timesheet profiel dat u wilt schrappen, dan klikken **Meer** pictogram ![](assets/more-icon.png) > **Schrapping** voor het systeem-brede timesheet profiel
 
-1. Klik **Profielen van de Chronologie**.
-1. Selecteer minstens één timesheet profiel dat u wilt schrappen, dan klikken **Meer** > **Schrapping**.
+   of
+
+   Klik **Meer** > **Schrapping** voor het groep-vlakke timesheet profiel.
 1. (Voorwaardelijk) als het timesheet profiel reeds aan gebruikers wordt toegewezen, de **vakvertoningen van het Profiel van de Tijdopnemer van de Vervanging**. Ga als volgt te werk:
    1. Selecteer een ander tijdlijnprofiel in de vervolgkeuzelijst. Het tijdbladprofiel dat u verwijdert, wordt vervangen door het tijdbladprofiel dat u vervangt door het profiel voor alle toegewezen gebruikers. Timesheets worden gegenereerd op basis van het nieuw toegewezen profiel in de volgende cyclus voor het genereren van tijdbladen.
    1. Klik **Schrapping het** om de schrapping te bevestigen.

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
+source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
 workflow-type: tm+mt
-source-wordcount: '2388'
+source-wordcount: '2798'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Records maken
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 {{planning-important-intro}}
 
@@ -26,18 +26,21 @@ In de Planning van Adobe Workfront, is een verslag een geval van een verslagtype
 
 U kunt records maken door een van de volgende handelingen uit te voeren:
 
-* [Records maken met de knop Nieuwe record of Verzoek om record maken vanuit elke recordtypeweergave](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)
-* [Records maken door deze inline toe te voegen vanuit de tabelweergave met recordtype](#create-records-by-adding-them-inline-from-the-record-type-table-view)
+* [De knop Nieuwe record of Nieuwe aanvraagrecord gebruiken vanuit elke recordtypeweergave](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)
+* [Deze inline toevoegen vanuit de tabelweergave van het recordtype](#create-records-by-adding-them-inline-from-the-record-type-table-view)
 
-<!--
-* [Create records by adding them in the record type timeline view](#create-records-by-adding-them-in-the-record-type-timeline-view)-->
+<div class="preview">
+
+* [Deze toevoegen in de tijdlijnweergave van het recordtype](#create-records-by-adding-them-in-the-record-type-timeline-view)
+
+</div>
 
 * [Een lijst met records uit een externe lijst kopiëren en plakken](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [Records dupliceren vanuit een tabelweergave](#create-records-by-duplicating-them)
-* [Records maken terwijl u deze verbindt met andere records](#create-records-as-you-connect-them)
-* [Records maken door een aanvraagformulier naar een recordtype te verzenden](#create-records-by-submitting-a-request-form-to-a-record-type)
-* [Records maken door gegevens te importeren uit een CSV- of Excel-bestand](#create-records-by-importing-records-from-a-csv-or-excel-file)
-* [Records maken met behulp van automatisering](#create-records-by-using-automations)
+* [Verbinding maken met andere records](#create-records-as-you-connect-them)
+* [Een aanvraagformulier verzenden naar een recordtype](#create-records-by-submitting-a-request-form-to-a-record-type)
+* [Informatie importeren uit een CSV- of Excel-bestand](#create-records-by-importing-records-from-a-csv-or-excel-file)
+* [Automatisering gebruiken](#create-records-by-using-automations)
 
 Raadpleeg de volgende artikelen voor informatie over het beheren van records in de tabel- of tijdlijnweergaven:
 
@@ -148,7 +151,7 @@ Alle records van het geselecteerde type worden in de weergave weergegeven.
    1. Klik één van de volgende manieren om een verslag tot stand te brengen, dan **ga** verder:
 
       * **voeg manueel** toe. Het voorvertoningsvak van de record wordt geopend.\
-        Voeg informatie over het verslag toe, zoals die in [ wordt beschreven creeer verslagen door hen inline van de 1&rbrace; sectie van de verslagtype lijstmening &lbrace;in dit artikel toe te voegen, beginnend met stap 6. ](#create-records-by-adding-them-inline-from-the-record-type-table-view)<!--insure this stays accurate-->
+        Voeg informatie over het verslag toe, zoals die in [ wordt beschreven creeer verslagen door hen inline van de 1} sectie van de verslagtype lijstmening {in dit artikel toe te voegen, beginnend met stap 6. ](#create-records-by-adding-them-inline-from-the-record-type-table-view)<!--insure this stays accurate-->
       * **uploadt van dossier**
 Voeg verslagen toe, zoals die in het artikel [ worden beschreven verslagen door informatie van een CSV of dossier van Excel ](/help/quicksilver/planning/records/import-file-to-create-records.md) in te voeren, die met stap 6 beginnen. <!--ensure this stays accurate-->
       * **leg een verzoek** voor
@@ -270,64 +273,64 @@ Records van het geselecteerde type worden weergegeven in de weergave.
    * CTRL + Z (⌘ + Z voor Mac) om een wijziging ongedaan te maken
    * CTRL + Shift + Z (⌘ + Shift + Z voor Mac) om een wijziging opnieuw uit te voeren
 
-<!--<div class="preview">
+<div class="preview">
 
-## Create records by adding them in the record type timeline view
+## Records maken door deze toe te voegen aan de tijdlijnweergave van het recordtype
 
-You can create records in the timeline view of a record type page, by double-clicking in the timeline. 
+U kunt records maken in de tijdlijnweergave van een recordtypepagina door te dubbelklikken in de tijdlijn.
 
-For information about creating a timeline view, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+Voor informatie over het creëren van een chronologiemening, zie [ de chronologiemening ](/help/quicksilver/planning/views/manage-the-timeline-view.md) leiden.
 
 {{step1-to-planning}}
-  
-1. Click the workspace where you want to add records.
 
-    The workspace opens and the record types display as cards.
+1. Klik op de werkruimte waar u records wilt toevoegen.
 
-1. Click a record type card. 
+   De werkruimte wordt geopend en de recordtypen worden als kaarten weergegeven.
 
-    The record type page opens in the view that you last accessed. 
+1. Klik op een opnametype.
 
-1. Click to open a timeline view, or create a timeline view, first. 
+   De pagina met recordtypen wordt geopend in de weergave die u het laatst hebt geopend.
 
-    >[!NOTE]
-    >
-    >You can create a timeline view only if there are at least two date fields associated with the record type.
-1. Double-click anywhere in the timeline. 
+1. Klik om eerst een tijdlijnweergave te openen of een tijdlijnweergave te maken.
 
-    A new record box opens. 
+   >[!NOTE]
+   >
+   >U kunt alleen een tijdlijnweergave maken als er ten minste twee datumvelden zijn gekoppeld aan het recordtype.
+1. Dubbelklik op een willekeurige positie in de tijdlijn.
 
-    ![New record box on timeline with unnamed record bar](assets/new-record-small-box-on-timeline.png)
-1. Update the following information:
+   Er wordt een nieuw recordvak geopend. <!--might need a new screen shot for Production - might add a title etc-->
 
-    * **Name**: Enter the name of the record. If you leave it empty, Workfront names it **Untitled** by default. The name will not be visible in the record bar if left empty. 
-    * **Record date fields**: Update the dates of the record. 
-        
-        The names of the date fields are customized according to the fields selected for the Start and End dates when the timeline view was created.
+   ![ Nieuw verslagvakje op chronologie met naamloze verslagbar ](assets/new-record-small-box-on-timeline.png)
+1. Werk de volgende gegevens bij:
 
-        By default, date values are preselected depending on how you display the timeline view. The following scenarios exist:
+   * **Naam**: Ga de naam van het verslag in. Als u het leeg verlaat, noemt Workfront het **Naamloos** door gebrek. De naam is niet zichtbaar in de recordbalk als deze leeg blijft.
+   * **de datumgebieden van het Verslag**: Werk de data van het verslag bij.
 
-        * By **Year**: The record start and end dates span a month.
-        * By **Quarter**: The record start and end dates span a week. 
-        * By **Month**: The record start and end dates span three days.
+     De namen van de datumvelden worden aangepast op basis van de velden die zijn geselecteerd voor de begin- en einddatum waarop de tijdlijnweergave is gemaakt.
 
-1. (Optional) Click one of the following icons: 
+     Standaard worden de datumwaarden vooraf geselecteerd, afhankelijk van de manier waarop u de tijdlijnweergave weergeeft. De volgende scenario&#39;s bestaan:
 
-    * **Expand** ![Expand icon](assets/expand-icon.png) to open the record details in the preview window. 
-    * **Delete** ![Delete icon](assets/delete-icon.png) to delete the record.
-    * **Close**  ![Close icon](assets/close-icon.png) to close the new record box. 
+      * Door **Jaar**: De verslagbegin en einddata overspannen een maand.
+      * Door **Kwartaal**: De data van het verslagbegin en eind overspannen een week.
+      * Door **Maand**: De data van het verslagbegin en eind overspannen drie dagen.
 
-    The record is added to the timeline as well as to the table and calendar views immediately, unless you clicked the **Delete** icon. 
+1. (Optioneel) Klik op een van de volgende pictogrammen:
 
-1. (Optional) Click the record bar in the timeline to open the record's details window and update its information, delete it, or add comments. 
+   * **breid** uit ![ pictogram ](assets/expand-icon.png) om de verslagdetails in het voorproefvenster te openen.
+   * **Schrapping** ![ pictogram van de Schrapping ](assets/delete-icon.png) om het verslag te schrappen.
+   * **dicht** ![ dicht pictogram ](assets/close-icon.png) om de nieuwe verslagdoos te sluiten.
 
-    >[!TIP]
-    >
-    >By default, Workfront associates the record with a thumbnail and a cover image.
-    >
-    >The thumbnail displays in the timeline view only when it is enabled in the Settings of the view. 
+   Het verslag wordt toegevoegd aan de chronologie evenals aan de lijst en kalendermeningen onmiddellijk, tenzij u het **pictogram van de Schrapping** klikte.
 
-</div>-->
+1. (Optioneel) Klik op de recordbalk in de tijdlijn om het detailvenster van de record te openen en de gegevens van de record bij te werken, te verwijderen of opmerkingen toe te voegen.
+
+   >[!TIP]
+   >
+   >Workfront koppelt de record standaard aan een miniatuur en een omslagafbeelding.
+   >
+   >De miniatuur wordt alleen in de tijdlijnweergave weergegeven wanneer deze is ingeschakeld in de instellingen van de weergave.
+
+</div>
 
 ## Records maken door deze te kopiëren en te plakken vanuit een externe lijst
 

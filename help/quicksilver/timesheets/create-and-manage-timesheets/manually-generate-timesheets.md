@@ -6,9 +6,9 @@ description: Om veranderingen toe te laten die u aan de timesheet- profielen aan
 author: Alina
 feature: Timesheets
 exl-id: 316c270a-c64e-4d83-a035-4128abe33f87
-source-git-commit: 7786d899841cb82cc4d3832fb083c6e2bda2e197
+source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 Wanneer u handmatig tijdbladen genereert:
 
 * Ze worden gegenereerd op basis van de tijdlijnprofielen die aan uw gebruikers zijn gekoppeld. De gebruikers die geen chronologieprofielen verbonden aan hen hebben ontvangen geen timesheets. 
-* Alleen de huidige tijdlijn en de volgende tijdlijn worden gegenereerd. Workfront genereert geen twee timesheets voor dezelfde periode. Als u reeds een timesheet voor een specifiek tijdkader hebt, zal een andere niet produceren wanneer u het handproces gebruikt om timesheets te produceren.
+* Alleen de huidige tijdlijn en de volgende tijdlijn worden gegenereerd. Workfront genereert geen twee timesheets voor dezelfde periode. Als u reeds een timesheet voor het huidige tijdkader hebt, zal een andere niet produceren wanneer u het handproces gebruikt om timesheets te produceren.
 
 ## Genereer handmatig tijdbladen vanuit het gebied Timesheets &amp; Hours
 
@@ -64,7 +64,7 @@ U kunt systeem-niveau of groep-vlakke timesheets van het gebied van Timesheets &
    Als u timesheets produceert die door een specifieke groep worden gebruikt, klik **Groepen**, dan klik de naam van de groep.
 
 1. Klik **Profielen van de Chronologie**.
-1. Klik **Meer**, dan **produceer Chronologie**.
+1. Klik het **Meer** pictogram ![ Meer pictogram ](assets/more-icon.png), dan **produceer timesheets**.
 
    Nieuwe tijdbladen worden gemaakt voor maximaal twee perioden voor gebruikers die aan tijdbladprofielen zijn gekoppeld.
 

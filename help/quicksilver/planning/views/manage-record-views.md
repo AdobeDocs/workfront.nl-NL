@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
+source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1211'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Recordweergaven beheren
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 
 {{planning-important-intro}}
@@ -169,8 +169,7 @@ In de volgende tabel worden de overeenkomsten en verschillen tussen de tabel-, t
 | Records weergeven per maand |           | ✓ | ✓ |
 | Records per week weergeven |           |               | ✓ |
 | Informatie exporteren uit een weergave | ✓ |               |    |
-
-<!--Add to the table: <span class="preview">Display in full screen</span>-->
+| <span class="preview"> Vertoning in volledig scherm </span> | ✓ | ✓ | ✓ |
 
 ## Weergaven maken of bewerken {#create-or-edit-views}
 
@@ -241,9 +240,9 @@ In de volgende tabel worden de overeenkomsten en verschillen tussen de tabel-, t
    of
 
    Dubbelklik op de weergavenaam en typ de nieuwe naam.  <!--ensure there is not another saving step here?!-->
-<!--
-1. <span class="preview">(Optional) Click the **Full screen** icon ![Open full screen icon](assets/open-full-screen-icon.png) to open any view in full screen, then the **Exit full screen** icon ![Exit full screen icon](assets/exit-full-screen-icon.png) or Escape on your keyboard to exit the full screen.  </span>
--->
+
+1. <span class="preview"> (Facultatief) klik het **Volledige het schermpictogram** pictogram ![ Open volledig het schermpictogram ](assets/open-full-screen-icon.png) om het even welke mening in volledig scherm te openen, dan het **Uitgang volledig scherm** pictogram ![ het volledige het schermpictogram van de Uitgang ](assets/exit-full-screen-icon.png) of Escape op uw toetsenbord om het volledige scherm weg te gaan.  </span>
+
 1. (Optioneel) Raadpleeg de volgende artikelen voor informatie over het beheren van een bepaald weergavetype:
 
    * [De tabelweergave beheren](/help/quicksilver/planning/views/manage-the-table-view.md)
