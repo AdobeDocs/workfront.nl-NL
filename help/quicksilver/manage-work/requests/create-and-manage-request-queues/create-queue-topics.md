@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: ef33a8bcdec76747434b5c5aaf62a743335fb10f
+source-git-commit: 3563d5e7136d8bd70504a0b7762c4be06e5a9c56
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '957'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,15 @@ ht-degree: 0%
 
 <!-- Audited: 12/2023 -->
 
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Sandbox van de Voorproef.</span>
+
 De Onderwerpen van de rij werken samen met het Verpletteren van Regels om het inkomende werk aan een gebruiker, baanrol, team automatisch toe te wijzen, of het op een project te plaatsen. De Onderwerpen van de rij bepalen de voorwaarden die voor de Verpletterende Regel moeten bestaan worden uitgevoerd.
 
 Er is geen grens aan het aantal Onderwerpen van de Rij die aan een Groep van het Onderwerp of aan een project kunnen worden toegewezen. De Onderwerpen van de rij zijn een te melden objecten type.
 
-Zodra gecreeerd, kunt u rijonderwerpen van één project aan een ander niet bewegen.
+U kunt de Onderwerpen van de Rij voor individuele projecten, of voor projectmalplaatjes tot stand brengen.
+
+Zodra gecreeerd, kunt u rijonderwerpen van één project of malplaatje aan een andere niet bewegen.
 
 ## Toegangsvereisten
 
@@ -97,7 +101,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    * [ creeer de Groepen van het Onderwerp ](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
    * [Een aangepast formulier maken](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
 
-1. Ga naar het project u verkoos om als Rij van het Verzoek van de Hulp toe te laten en waar u een nieuw rijonderwerp wilt creëren.\
+1. Ga naar het project of het malplaatje u verkoos om als Rij van het Verzoek van de Hulp toe te laten en waar u een nieuw rijonderwerp wilt creëren.\
    Voor meer informatie over hoe te om een project als Rij van het Verzoek van de Hulp aan te wijzen, zie [ een Rij van het Verzoek van de Vraag ](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
 
    U kunt verwante Onderwerpen van de Rij onder een Groep van het Onderwerp organiseren. De aanvrager krijgt dan een aantal vervolgkeuzemenu&#39;s bij het indienen van een aanvraag.
@@ -171,3 +175,13 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. Klik **sparen**.\
    Het onderwerp van de Rij is nu beschikbaar aan gebruik en is zichtbaar in het gebied van Verzoeken van Workfront, nadat een Rij van het Verzoek en een Groep van het Onderwerp worden geselecteerd.
+
+## Een onderwerp in de wachtrij bewerken
+
+Een bestaand onderwerp van de Rij uitgeven:
+
+1. Ga naar het project of het malplaatje dat het Onderwerp van de Rij bevat u wilt uitgeven.
+1. Klik **de Onderwerpen van de Rij** in het linkerpaneel.
+1. In het milieu van de Productie, selecteer het Onderwerp van de Rij dat u wilt uitgeven. Voor de pagina van Details die opent, geeft de klik **het Onderwerp van de Rij** uit.
+1. <span class="preview"> in het milieu van de Voorproef, selecteer het Onderwerp van de Rij dat u wilt uitgeven, dan klik het Edit pictogram ![ uitgeven pictogram ](assets/edit-icon.png).</span>
+
