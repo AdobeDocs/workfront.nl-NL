@@ -6,7 +6,7 @@ description: Het proces voor het creëren van en het leiden van uitgaven is het 
 author: Lisa
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
+source-git-commit: e1884aa7975018a737538d909954319e6feee318
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 0%
@@ -58,8 +58,8 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. Ga naar het project of de taak u uitgaven voor wilt ingaan.
 1. Klik **Uitgaven** in het linkerpaneel.
-1. Klik **toevoegen een Kosten**. **voegt een vertoningen van de de dialoogdoos van de Uitgaven** toe.
-1. Werk het volgende bij:
+1. Klik **toevoegen een Kosten**. **voegt een de dialoogdoos van de Kosten** toe verschijnt.
+1. Voer de volgende gegevens in:
 
    * **Beschrijving:** ga een beschrijving van de uitgave in.
    * **Type van Kosten:** (Vereist) selecteer de categorie die het best de uitgave beschrijft.
@@ -68,23 +68,23 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    * **Ware Bedrag:** ga het bedrag in dat de uitgave werkelijk kosten. Dit is van invloed op de werkelijke kosten van het project.
 
-   * **Geplande Datum:** ga de verwachte datum voor de uitgave in om voor te komen. U kunt de datum op het gebied typen gebruikend het *mm/dd/yy* formaat, of u kunt het **pictogram van de Kalender** klikken  ![ het pictogram van de Kalender ](assets/calendar-icon.png) en selecteert dynamisch de datum.
+   * **Geplande Datum:** ga de verwachte datum voor de uitgave in om voor te komen. U kunt de datum op het gebied typen gebruikend het *mm/dd/jj* formaat, of u kunt het **pictogram van de Kalender** ![ Kalender ](assets/calendar-icon.png) klikken en dynamisch de datum selecteren.
 
    * **Betaalde Datum:** ga of selecteer de datum in de uitgave werd betaald.
    * **Billable:** selecteer deze optie als u deze uitgave wilt factureren. Het categoriseren van een uitgave als factureerbaar is belangrijk wanneer het creëren van factureringsverslagen.
    * **Terugbetaalbaar:** selecteer deze optie als de uitgave moet worden vergoed. Vervolgens kunt u de kosten als vergoed markeren nadat de kosten zijn vergoed.
 
-1. Selecteer de Vorm van de Douane van a **&#x200B;**&#x200B;en specificeer om het even welke extra vereiste informatie.
+1. Selecteer de Vorm van de Douane van a **** en specificeer om het even welke extra vereiste informatie.
 
    >[!NOTE]
    >
    >U moet een aangepast formulier maken voordat u het aan een uitgave kunt koppelen. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Voor informatie over het creëren van douaneformulieren, zie het artikel [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
-1. Klik **sparen Veranderingen**.
+1. Klik **sparen**.
 
 ## Kosten verwijderen
 
 1. Ga naar het project u een uitgave voor wilt schrappen.
 1. Klik **Uitgaven** in het linkerpaneel.
 1. Selecteer de uitgave die u wilt schrappen, dan de **Schrapping** pictogram ![ Schrapping ](assets/delete.png) klikken.
-1. In de **Schrap de 1&rbrace; dialoog van de Kosten &lbrace;, klik** ja, schrap het **.**
+1. In de **Schrap de 1} dialoog van de Kosten {, klik** ja, schrap het **.**
