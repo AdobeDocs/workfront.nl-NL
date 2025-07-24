@@ -4,7 +4,8 @@ description: Deze pagina biedt informatie over functionaliteit die is opgenomen 
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b495399ff6375eae222b9a15538c52ae3c73f6bb
+exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
+source-git-commit: 83c9f6f36acad5182c63a74aa2f8e286ba1b839d
 workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 0%
@@ -37,7 +38,27 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Verbeteringen voor Adobe Workfront
 
+<!--* [Resource Management enhancements](#resource-management-enhancements)-->
 * [Andere verbeteringen](#other-enhancements)
+
+
+
+<!--### Resource Management enhancements
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">Role assignments display in the Workload Balancer </a><p></p>
+            <p>Resource managers can now review job role assignments in the Workload Balancer. The assignments are displayed in the Unassigned Work area, under the tasks or issues the roles are assigned to. Only work items assigned to users are displayed in the Assigned Work area. </p>
+            <p>A new Workload Balancer setting, Show Role Assignments, determines whether role assignments are displayed. The setting is enabled by default.</p>
+        </td>
+        <td>July 24, 2025</td>
+        <td>August 14, 2025</td>
+        <td>October 16, 2025</td>
+    </tr>     
+  </tbody>
+</table> -->
 
 ### Andere verbeteringen
 
@@ -88,7 +109,7 @@ We werken de interface in Adobe Workfront bij om de gebruikerservaring te verbet
 
 ### Workfront Fusion-verbeteringen
 
-Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de standaard releaseschema. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de standaard releaseschema. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Verbeteringen voor Workfront-planning
 
@@ -126,8 +147,8 @@ Voor informatie over API versies, zie [ API versioning en steunprogramma ](/help
 
 ### Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens Eerste Kwartaal 2025 versie worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront [.](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=nl-NL)
+Voor informatie over de onderhoudsupdates die tijdens Eerste Kwartaal 2025 versie worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront [.](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)
 
 ### Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=nl-NL) Nieuw is.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html) Nieuw is.
