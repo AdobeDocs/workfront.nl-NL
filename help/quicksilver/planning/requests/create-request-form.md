@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 83b3bd73fd30b5fba931e64783dee67485d98fe9
+source-git-commit: 4f8a8c263f53ff30f99062dedc10d674b867b0b7
 workflow-type: tm+mt
-source-wordcount: '2299'
+source-wordcount: '2298'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,6 @@ Voor informatie over het voorleggen van de verzoeken van de Planning van Workfro
 
       * Gemaakt door, Laatst gewijzigd door, <span class="preview"> goedgekeurd door </span>
       * Gemaakt op datum, Laatste gewijzigde datum, <span class="preview"> Goedgekeurde datum </span>
-      * Formule
       * Opzoekvelden van Workfront-objecten
       * Workfront Planning connected records lookup fields
 
@@ -313,4 +312,4 @@ Voor informatie over het voorleggen van de verzoeken van de Planning van Workfro
 
    Voor informatie over het creëren van verslagen die een verbinding aan een verzoekvorm gebruiken, zie [ verzoeken van de Planning van Adobe Workfront voorleggen ](/help/quicksilver/planning/requests/submit-requests.md).
 
-1. Klik **sparen** in de laag-juiste hoek van het **3&rbrace; lusje van de Vorm &lbrace;om de vorm te bewaren.**
+1. Klik **sparen** in de laag-juiste hoek van het **3} lusje van de Vorm {om de vorm te bewaren.**
