@@ -27,8 +27,8 @@ Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront w
 >[!NOTE]
 >
 >Voorbeeld: 24 juli 2025
->>Snelle productie: 14 augustus 2025
->>Productie voor iedereen: 16 oktober 2025
+>&#x200B;>Snelle productie: 14 augustus 2025
+>&#x200B;>Productie voor iedereen: 16 oktober 2025
 
 U kunt nu records van een recordtype maken in de tijdlijnweergave door ergens op de tijdlijn te dubbelklikken.
 
@@ -43,8 +43,8 @@ Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-rec
 >[!NOTE]
 >
 >Voorbeeld: 24 juli 2025
->>Snelle productie: 14 augustus 2025
->>Productie voor iedereen: 16 oktober 2025
+>&#x200B;>Snelle productie: 14 augustus 2025
+>&#x200B;>Productie voor iedereen: 16 oktober 2025
 
 U kunt nu een recordtype delen via het menu Meer van de kaart met recordtypen op de pagina Werkruimte. Vóór deze verbetering, was de optie van het Aandeel beschikbaar slechts binnen de verslagtype pagina.
 
@@ -55,8 +55,8 @@ Voor informatie, zie [ recordtypes van het Aandeel ](/help/quicksilver/planning/
 >[!NOTE]
 >
 >Voorbeeld: 24 juli 2025
->>Snelle productie: 14 augustus 2025
->>Productie voor iedereen: 16 oktober 2025
+>&#x200B;>Snelle productie: 14 augustus 2025
+>&#x200B;>Productie voor iedereen: 16 oktober 2025
 
 U kunt nu alle Workfront-planningsweergaven (tabel, tijdlijn en kalender) op een volledig scherm weergeven. De weergavefunctionaliteit blijft behouden en u kunt de weergave ook wijzigen op volledig scherm.
 
@@ -69,8 +69,8 @@ Voor informatie, zie [ verslagmeningen ](/help/quicksilver/planning/views/manage
 >[!NOTE]
 >
 >Voorbeeld: 22 juli 2025
->>Productie voor snelle release: 14 augustus 2025
->>Productie voor iedereen: 16 oktober 2025
+>&#x200B;>Productie voor snelle release: 14 augustus 2025
+>&#x200B;>Productie voor iedereen: 16 oktober 2025
 
 Om het goedkeuringsproces flexibeler te maken, hebben wij de capaciteit toegevoegd om teams als fiatteurs op de aanvraagformulieren van de Planning toe te voegen. Nu kunt u teamnamen invoeren en selecteren wanneer u fiatteurs instelt. Om het even welke teamleden kunnen een besluit nemen, dat als goedkeuringsbesluit voor het volledige team telt.
 
@@ -83,8 +83,8 @@ Voor meer informatie, zie [ een goedkeuring aan een verzoekvorm in de Planning v
 >[!NOTE]
 >
 >Voorbeeld: 22 juli 2025
->>Productie voor snelle release: 14 augustus 2025
->>Productie voor iedereen: 16 oktober 2025
+>&#x200B;>Productie voor snelle release: 14 augustus 2025
+>&#x200B;>Productie voor iedereen: 16 oktober 2025
 
 Om het goedkeuringsproces flexibeler te maken, hebben wij de capaciteit toegevoegd om teams als fiatteurs op de aanvraagformulieren van de Planning toe te voegen. Nu kunt u teamnamen invoeren en selecteren wanneer u fiatteurs instelt. Om het even welke teamleden kunnen een besluit nemen, dat als goedkeuringsbesluit voor het volledige team telt.
 
@@ -97,8 +97,8 @@ Voor meer informatie, zie [ een goedkeuring aan een verzoekvorm in de Planning v
 >[!NOTE]
 >
 >Voorbeeld: 17 juli 2025
->>Productie voor snelle release: 14 augustus 2025
->>Productie voor iedereen: 16 oktober 2025
+>&#x200B;>Productie voor snelle release: 14 augustus 2025
+>&#x200B;>Productie voor iedereen: 16 oktober 2025
 
 
 Wij introduceren de volgende gebieden om goedkeuringsinformatie voor verslagen te vangen die door een verzoek met een goedkeuring wordt gecreeerd voor te leggen:
@@ -114,8 +114,8 @@ Voor informatie, zie [ gebieden ](/help/quicksilver/planning/fields/create-field
 >[!NOTE]
 >
 >Voorbeeld: 10 juli 2025
->>Snelle productie: 14 augustus 2025
->>Productie voor iedereen: 16 oktober 2025
+>&#x200B;>Snelle productie: 14 augustus 2025
+>&#x200B;>Productie voor iedereen: 16 oktober 2025
 
 
 Als u nu groepen hebt toegepast op een tabelweergave, wordt automatisch ingevuld wanneer u een record aan de tabel toevoegt, welke velden zijn gekoppeld aan de groepen waaraan u de record toevoegt.
