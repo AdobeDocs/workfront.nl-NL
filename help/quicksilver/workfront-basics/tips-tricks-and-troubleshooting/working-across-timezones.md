@@ -5,9 +5,9 @@ title: Werken in tijdzones
 description: Het kan nuttig zijn om te begrijpen hoe  [!DNL Adobe Workfront]  tijdstreken gebruikt om tijdgebieden voor voorwerpen en tijden op andere gebieden zoals e-mails te berekenen.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 7697bb68e2042291e5290048cfc2f626145979af
 workflow-type: tm+mt
-source-wordcount: '1179'
+source-wordcount: '1236'
 ht-degree: 0%
 
 ---
@@ -58,25 +58,36 @@ De tijdzone voor de [!DNL Workfront] -instantie van uw organisatie wordt meestal
 
 ### Uw gebruikersprofiel {#your-user-profile}
 
-De tijdzone in uw gebruikersprofiel zou voor de plaats moeten worden gevormd waar u werkt. Dit bepaalt het volgende:
+Het veld Tijdzone in het gebruikersprofiel bepaalt de tijd die in de uitgaande e-mailberichten wordt weergegeven.
+
+De tijdzone beïnvloedt ook wat vertoningen in een PTO kalenderrapport tonen.
+
+Voor informatie die uw tijdzone in uw gebruikersprofiel vormen, zie [ Mijn Montages ](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md) vormen.
+
+Voor informatie over hoe een [!DNL Workfront] beheerder (of iemand met [!UICONTROL Edit] toegang tot gebruikers) de tijdzone in een gebruikersprofiel kan vormen, zie [ het profiel van een gebruiker ](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
+
+### Tijdzone van uw browser
+
+De tijdzone in uw browser zou voor de plaats moeten worden gevormd waar u werkt. Dit bepaalt het volgende:
 
 <!--
 * The time shown in your outgoing [!DNL Workfront] email messages
 [NOTE FROM LISA: Saeid that dates/times shown in emails are more complicated than how it is described in the article so we decided to comment out this line.]
 -->
-* Tijdstippen voor een object waaraan u werkt, zoals begin- en eindtijd
+* Tijdstippen voor een object waaraan u werkt, zoals begin- en eindtijd.
 
-  Als gebruikers in meerdere tijdzones aan een object worden toegewezen, zet [!DNL Workfront] de objecttijden voor alle betrokkenen om met behulp van de tijdzone die in elk gebruikersprofiel is geconfigureerd.
+  Als gebruikers in meerdere tijdzones aan een object zijn toegewezen, zet [!DNL Workfront] de objecttijden voor alle betrokkenen om met de tijdzone die in de browser van elke gebruiker is geconfigureerd.
 
-  **Voorbeeld:** in de Oost Standaardstreek van de Tijd (EST) waar u werkt, plaatst u een taak om bij 4:00 PM te beginnen en het toe te wijzen aan gebruikers die in de Standaard van de Stille Oceaan (PST) streek werken. Voor die gebruikers wordt de begintijd weergegeven als 1:00 PM. Als het om 16:00 uur zou worden weergegeven, zouden ze er drie uur te laat aan beginnen te werken.
+  **VOORBEELD**
+In de oostelijke Standaardstreek van de Tijd (EST) waar u werkt, plaatst u een taak om bij 4 :00 PM te beginnen en het toe te wijzen aan gebruikers die in de Standaardstreek van de Stille Oceaan werken (PST). Voor die gebruikers, de vertoningen van de begintijd als 1 :00 PM. Als het het als 4 :00 PM zou tonen, zouden zij beginnen aan het drie uren te werken te laat.
 
-  Als de maker van het object het verschil tussen de tijdzones van de toewijzing niet opmerkt en de benodigde aanpassingen doorvoert bij het instellen van objecttijden, of als de toewijzen niet opmerken dat het verschil is, kan het moeilijk zijn om de timing goed te krijgen terwijl iedereen aan het object meewerkt.
+  Als de maker van het object het verschil niet weet tussen de tijdzones van de toewijzing en niet de benodigde aanpassingen aanbrengt bij het instellen van objecttijden, of als de toewijzen dat verschil niet weten, kan het moeilijk zijn om de timing goed te krijgen terwijl iedereen aan het object werkt.
 
-  **Voorbeeld:** u vormt een eendagtaak om bij 9:00 AM EST te beginnen, vergeten dat sommige gebruikers op het taakwerk in de streek PST. Voor hen, de begintijd 6:00 AM. Omdat ze er pas 9:00 uur aan beginnen te werken (12 uur &#39;s middags), begint de taak en eindigt deze drie uur later.
+  **VOORBEELD**
 
-Voor informatie die uw tijdzone in uw gebruikersprofiel vormen, zie [ Mijn Montages ](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md) vormen.
+  U vormt een eendaagse taak om bij 9 :00 TE beginnen AM EST, vergeten dat sommige gebruikers op het taakwerk in de streek PST. Voor hen, de begintijd 6 :00 AM. Omdat zij niet aan het beginnen te werken tot 9 :00 hun tijd (middags uw tijd), begint de taak en eindigt drie uur te laat.
 
-Voor informatie over hoe een [!DNL Workfront] beheerder (of iemand met [!UICONTROL Edit] toegang tot gebruikers) de tijdzone in een gebruikersprofiel kan vormen, zie [ het profiel van een gebruiker ](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
+De configuratie van de tijdzone verschilt per browser. Raadpleeg de documentatie of Help van elke browser voor meer informatie.
 
 ## Hoe u het voor gebruikers gemakkelijker kunt maken om over tijdzones te werken
 
@@ -110,7 +121,7 @@ U kunt gebruikers helpen die gemakkelijker in verschillende tijdzones werken op 
 >[!BEGINSHADEBOX]
 
 **VOORBEELD:**
-Een EST-gebruiker wordt toegewezen aan een eendaagse taak die om 9:00 uur PST wordt gepland, dat is 12.00 uur EST. Omdat de EST-gebruiker slechts twee werkuren voor de dag heeft, loopt de datum waarop de taak is voltooid met ongeveer zes uur door tot de volgende werkdag.
+Een gebruiker EST wordt toegewezen aan een eendagtaak die om bij 9 :00 wordt gepland te beginnen AM PST, die niet EST is. Omdat de EST-gebruiker slechts twee werkuren voor de dag heeft, loopt de datum waarop de taak is voltooid met ongeveer zes uur door tot de volgende werkdag.
 
 
 >[!ENDSHADEBOX]

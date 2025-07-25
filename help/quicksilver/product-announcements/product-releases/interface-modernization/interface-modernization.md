@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 93395934865cdf1d8b7b84a1b3134e69c9ac9c3b
+source-git-commit: 10fec10e1bb885ac20e1ef9526cfa8a59086d874
 workflow-type: tm+mt
-source-wordcount: '5855'
+source-wordcount: '5853'
 ht-degree: 0%
 
 ---
@@ -357,7 +357,7 @@ Specifieke klanten kunnen deze verandering bekijken door naar de Verwante projec
 
 ### Nieuwe vormgeving voor het vak &quot;Opslaan als sjabloon&quot;
 
-**de versie van de Voorproef: 12 Juni, 2025; De versie van de productie: Te aankondigen**
+**Preview-release: 12 juni 2025; Production release: 19 juni 2025
 
 Wij hebben de blik en het gevoel van &quot;sparen als malplaatje&quot;doos bijgewerkt die wanneer het bewaren van een project als malplaatje toont. Het nieuwe ontwerp bevat een gestroomlijnde interface, waarbij alle secties in één samenhangend formulier worden weergegeven. U kunt navigeren met koppelingen in het linkerdeelvenster. Het nieuwe ontwerp komt overeen met andere gebieden en andere objecten in de toepassing.
 

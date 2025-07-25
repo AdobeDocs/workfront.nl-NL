@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d8ac4d94-28b5-41d6-acb8-259696897c8a
-source-git-commit: ee366e05097518a4618dd11ed5807b8766465d94
+source-git-commit: 10fec10e1bb885ac20e1ef9526cfa8a59086d874
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ U kunt verslagen en hun informatie van de lijstmening naar een Excel of een Csv-
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-licentie*</p></td> 
-   <td><p> Standaard </p>
+   <td><p> Licht of hoger </p>
    <p>Workfront Planning is niet beschikbaar voor oudere Workfront-licenties</p> 
   </td> 
   </tr> 
@@ -77,8 +77,8 @@ U kunt verslagen en hun informatie van de lijstmening naar een Excel of een Csv-
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objectmachtigingen</p></td> 
-   <td>   <p>Rechten beheren voor een weergave</p>  
-   <p>Machtigingen weergeven voor een weergave om de weergave-instellingen tijdelijk te wijzigen, te dupliceren of te exporteren.</p> </td> 
+   <td>   <p>Machtigingen voor een weergave of hoger weergeven</p>  
+   </td> 
   </tr> 
 </tbody> 
 </table>

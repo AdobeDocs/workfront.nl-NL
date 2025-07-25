@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: 10fec10e1bb885ac20e1ef9526cfa8a59086d874
 workflow-type: tm+mt
-source-wordcount: '3862'
+source-wordcount: '3872'
 ht-degree: 0%
 
 ---
@@ -179,7 +179,7 @@ Een tijdlijnweergave beheren:
 
 1. Ga als volgt te werk om snel records te zoeken die overeenkomen met een trefwoord:
 
-   1. Klik het **pictogram van het Onderzoek** pictogram van het 1&rbrace; Onderzoek ![ en begin een sleutelwoord verbonden aan om het even welk gebied van een verslag te typen dat op het scherm toont. ](assets/search-icon.png) Het aantal juiste overeenkomsten wordt weergegeven naast het zoekitem en de record met de juiste overeenkomst wordt gemarkeerd.
+   1. Klik het **pictogram van het Onderzoek** pictogram van het 1} Onderzoek ![ en begin een sleutelwoord verbonden aan om het even welk gebied van een verslag te typen dat op het scherm toont. ](assets/search-icon.png) Het aantal juiste overeenkomsten wordt weergegeven naast het zoekitem en de record met de juiste overeenkomst wordt gemarkeerd.
 
       ![ vakje van het Onderzoek en de mening van de resultaatchronologie ](assets/search-box-and-results-timeline-view.png)
 
@@ -340,6 +340,7 @@ Houd rekening met het volgende wanneer u werkt met groepen in de tijdlijnweergav
 * U kunt groeperen door verbonden verslaggebieden of raadplegingsgebieden.
 * Wanneer u door raadplegingsgebieden met veelvoudige waarden groepeert (die niet door een aggregator zijn samengevat), worden de verslagen gegroepeerd door elke unieke combinatie gebiedswaarden.
 * U kunt verwijzen naar een veld dat zich op maximaal 4 niveaus van het huidige recordtype bevindt. Bijvoorbeeld, als u een groepering voor een type van het verslag van de Activiteit creeert, en de Activiteit wordt verbonden met het type van het Verslag van het Product dat met het verslagtype van de Campagne wordt verbonden dat met een Project van Workfront wordt verbonden, kunt u de Status van het project in de groepering verwijzen u voor het verslagtype van de Activiteit creeert.
+* Groepen worden in alfabetische volgorde van hun waarden weergegeven.
 <!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
 <!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: f86971bc-e807-459e-9fa8-dc34967bc069
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 10fec10e1bb885ac20e1ef9526cfa8a59086d874
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ De weergave wordt verwijderd voor alle gebruikers die toegangsrechten hebben. Ve
 <tr> 
    <td role="rowheader"><p>Objectmachtigingen</p></td> 
    <td>   <p>Rechten beheren voor een weergave</p>  
-   <p>Machtigingen weergeven voor een weergave om de weergave-instellingen tijdelijk te wijzigen of te dupliceren</p> </td> 
+   </td> 
   </tr> 
 </tbody> 
 </table>
