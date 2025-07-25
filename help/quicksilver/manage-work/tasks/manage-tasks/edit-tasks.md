@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: f98dd9c4bbb342e20ef77690ef20b0b14f5e9b6b
 workflow-type: tm+mt
-source-wordcount: '3721'
+source-wordcount: '3723'
 ht-degree: 0%
 
 ---
@@ -145,7 +145,7 @@ U kunt een taak bewerken met de gebieden Taak bewerken of Taakdetails. In de vol
       * [Taakfinanciën beheren in de sectie Taakdetails](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
 
    1. (Facultatief) als er geen douaneformulieren in bijlage aan de taak zijn, begin de naam van een vorm in het **te typen voeg douaneformulier** gebied toe, dan selecteer het wanneer het in de lijst toont, dan klik **sparen Veranderingen**.
-   1. (Facultatief) klik het **pictogram van de Uitvoer ![](assets/export.png) om het Overzicht en de informatie van de douanevormen naar een dossier van PDF uit te voeren, dan klik** Uitvoer **.** Selecteer een van de volgende opties:
+   1. (Facultatief) klik het **pictogram van de Uitvoer** om het Overzicht en de informatie van de douanevormen naar een dossier van PDF uit te voeren, dan klik ![](assets/export.png) Uitvoer **.** Selecteer een van de volgende opties:
 
       * Alles selecteren (wordt alleen weergegeven als er ten minste één aangepast formulier is gekoppeld)
       * Overzicht
@@ -237,7 +237,7 @@ U kunt een taak bewerken met de gebieden Taak bewerken of Taakdetails. In de vol
       <li> <p>Normaal </p> </li> 
       <li> <p>Hoog </p> </li> 
       <li> <p> Dringend </p> </li> 
-       </ul> <p>Afhankelijk van de projectvoorkeuren die door uw Workfront-beheerder zijn geselecteerd, kunnen de namen van prioriteiten voor u anders zijn. Voor informatie over taakprioriteiten, zie {de Prioriteit van de Taak van 0} Update </a>.<a href="../../../manage-work/tasks/task-information/task-priority.md" class="MCXref xref"> </p> </td> 
+       </ul> <p>Afhankelijk van de projectvoorkeuren die door uw Workfront-beheerder zijn geselecteerd, kunnen de namen van prioriteiten voor u anders zijn. Voor informatie over taakprioriteiten, zie {de Prioriteit van de Taak van 0} Update <a href="../../../manage-work/tasks/task-information/task-priority.md" class="MCXref xref">.</a> </p> </td> 
      </tr> 
      <tr> 
       <td colspan="2" role="rowheader"><span style="font-weight: bold;"> de data en de beperkingssectie van de Taak </span> </td> 
@@ -360,7 +360,7 @@ U kunt een taak bewerken met de gebieden Taak bewerken of Taakdetails. In de vol
       <li> <p>Het aantal middelen die aan een taak worden toegewezen </p> </li> 
       <li> <p>De totale vereiste inspanning om de taak te voltooien </p> </li> 
       <li> <p> De totale duur van de taak. </p> </li> 
-       </ul> <p>Uw Workfront-beheerder of groepsbeheerder selecteert de standaardinstelling Duur (Type standaardduur) voor de taken in uw systeem of groep. Voor informatie over het plaatsen van projectgebreken, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref"> systeem-brede projectvoorkeur </a> vormen. </p> <p>De Types van Duur laten u toe om verenigbare middeltaken te plaatsen die op de behoeften van de taak worden gebaseerd. Voor meer informatie over het Type van Duur van een taak, zie <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref"> Overzicht van het Type van Duur en van de Duur van de Taak </a>. </p> <p>Selecteer een van de volgende opties: </p> 
+       </ul> <p>Uw Workfront-beheerder of groepsbeheerder selecteert de standaardinstelling Duur (Type standaardduur) voor de taken in uw systeem of groep. Voor informatie over het plaatsen van projectgebreken, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref"> systeembrede taak vormen en voorkeur uitgeven </a>. </p> <p>De Types van Duur laten u toe om verenigbare middeltaken te plaatsen die op de behoeften van de taak worden gebaseerd. Voor meer informatie over het Type van Duur van een taak, zie <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref"> Overzicht van het Type van Duur en van de Duur van de Taak </a>. </p> <p>Selecteer een van de volgende opties: </p> 
        <ul> 
       <li> <p>Berekende toewijzing </p> </li> 
       <li> <p> Berekend werk </p> </li> 
@@ -470,7 +470,7 @@ U kunt een taak bewerken met de gebieden Taak bewerken of Taakdetails. In de vol
    </tr> 
    <tr> 
    <td role="rowheader">Rol van de gemachtigde</td> 
-   <td> <p>Selecteer een rol van het </strong> drop-down menu van de Rol van 0&rbrace; Toegewezen wanneer u een persoon als toegewezen selecteerde. <strong> Dit is de rol die de verkrijger kan vervullen in deze taak. </p> <p><b>TIP</b>
+   <td> <p>Selecteer een rol van het <strong> drop-down menu van de Rol van 0} Toegewezen wanneer u een persoon als toegewezen selecteerde. </strong> Dit is de rol die de verkrijger kan vervullen in deze taak. </p> <p><b>TIP</b>
 
    Alleen de functies die aan elke toegewezen persoon in het profiel zijn gekoppeld, worden weergegeven in het vervolgkeuzemenu.</p> </td>
    </tr> 
