@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: f98dd9c4bbb342e20ef77690ef20b0b14f5e9b6b
+source-git-commit: d3a5d0c94df449a23e2b36d3e0f6fb816d306ce6
 workflow-type: tm+mt
-source-wordcount: '5853'
+source-wordcount: '5961'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Pr
 
 ## Interface-updates voor de lijst met tijdlijnprofielen in een groep
 
-**de versie van de Voorproef: 24 juli, 2025; De versie van de productie: Te aankondigen**
+**de versie van de Voorproef: 24 juli, 2025; de versie van de Productie: 28 juli, 2025**
 
 We hebben de vormgeving van de lijst met tijdlijnprofielen in het linkerdeelvenster in een groep bijgewerkt, zodat deze overeenkomt met andere delen van de toepassing.
 
@@ -50,15 +50,23 @@ De knop Exporteren is naar de rechterkant van de pagina verplaatst.
 
 Ga naar Instellingen > Bijhouden wijzigen > Controlelogbestanden om deze wijziging weer te geven.
 
-<!--## Interface updates to the Update users for SSO page in Setup
+## De updates van de interface aan de gebruikers van de Update voor SSO pagina in Opstelling
 
-**Preview release: July 22, 2025; Production release: To be annoounced**
+**de versie van de Voorproef: 22 juli, 2025; de versie van de Productie: 28 juli, 2025**
 
-We have updated the Update users for SSO page with a more modern design that is consistent with other areas of Workfront.
+We hebben de pagina Gebruikers voor SSO bijwerken bijgewerkt met een moderner ontwerp dat consistent is met andere gebieden van Workfront.
 
-To view this change, go to Setup > System > Update Users For SSO-->
+Ga naar Instellingen > Systeem > Gebruikers voor SSO bijwerken om deze wijziging weer te geven
 
 ## Projecten
+
+## Interface-updates voor het vak MS-projectbestand importeren
+
+**de versie van de Voorproef: 24 juli, 2025; De versie van de productie: Te aankondigen**
+
+We hebben de vormgeving van het vak MS-projectbestand importeren bijgewerkt wanneer we een project van MS Project importeren, zodat dit overeenkomt met het ontwerp van andere gebieden van Workfront.
+
+Ga naar Projecten > Nieuw project > MS-project importeren om deze wijziging weer te geven.
 
 ## De update van de interface voor Add een doos van de Kosten van een project of een malplaatje
 
