@@ -7,12 +7,10 @@ description: Ga aan de slag met de proefdrukken en Creative Cloud Express
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
 exl-id: 2eef36a6-8c61-4e7e-9760-23114f942250
-source-git-commit: ca9625b1cb3c51f208bad28792e9090802521dfa
+source-git-commit: dce2d9413b3a363d6508cabec0147c260817ed98
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -80,7 +78,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 ## Goedkeuringswerkstromen instellen in Workfront
 
-Voordat gebruikers een goedkeuringswerkstroom kunnen toevoegen aan een Express-sjabloon, moet een Proefbeheerder een goedkeuringswerkstroom in Workfront maken.
+Voordat gebruikers een goedkeuringswerkstroom kunnen toevoegen aan een Express-sjabloon, moet een Proefbeheerder met een Standard-licentie een goedkeuringswerkstroom maken in Workfront.
 
 Voor meer informatie, zie [ Geautomatiseerde malplaatjes van het Werkschema ](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md) creëren en beheren.
 
@@ -90,7 +88,9 @@ Nadat in Workfront een sjabloon voor de goedkeuringswerkstroom is gemaakt, kunne
 
 Wanneer een Uitdrukkelijke malplaatje wordt opnieuw gemengd, zal een goedkeuring worden vereist alvorens te publiceren-automatisch het in werking stellen van het pre-gevormde goedkeuringswerkschema.
 
-Meer informatie over het toevoegen van workflows voor revisie en goedkeuring aan deelbare sjablonen. <!--need link to help article-->
+Gebruikers moeten een Workfront-standaardlicentie hebben om Adobe Express om goedkeuring te vragen.
+
+Leer hoe te [ goedkeuring op ontwerpen ](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html) krijgen.
 
 
 ## Express-sjablonen opnieuw mixen en verzenden voor revisie en goedkeuring
@@ -104,8 +104,8 @@ Gebruikers kunnen tijdens de gehele productie van inhoud en tijdens het revisie-
 * Opmerkingen lezen
 * en meer
 
-Leer hoe u goedkeuring krijgt voor ontwerpen.\
-<!--need link to help article-->
+<!--Learn how to get approval on designs.   
+need link to help article-->
 
 ## Het opnieuw gemengde Uitdrukkelijke dossier bekijken en goedkeuren
 
@@ -113,8 +113,4 @@ Belanghebbenden kunnen feedback geven die relevant is voor hun expertisegebied�
 
 Zij zijn ook verantwoordelijk voor het nemen van definitieve besluiten om de inhoud goed te keuren, zodat deze kan worden gepubliceerd.
 
-Meer informatie over het reviseren en goedkeuren van ontwerpen in Workfront.
-
-
-Workfront Collaborator-licentie - proberen te achterhalen hoe dit werkt in—
-
+Gebruikers moeten minimaal een Workfront-licentie voor Medewerker hebben om een beslissing te kunnen beoordelen en nemen.
