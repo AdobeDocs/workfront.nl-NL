@@ -6,16 +6,26 @@ description: Na het installeren van  [!DNL Adobe Workfront]  voor Salesforce, ku
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b38c91ae-342b-4002-a947-7a0ab1aaca93
-source-git-commit: ad2fc27db2a19ea231e925d5991dbef27ea48030
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1476'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront] projecten maken van [!DNL Salesforce] -objecten
 
-Nadat u [!DNL Adobe Workfront] voor Salesforce hebt geïnstalleerd, kunt u triggers definiëren waarmee [!DNL Workfront] -projecten worden gemaakt als aan bepaalde criteria wordt voldaan op [!DNL Salesforce] [!UICONTROL Opportunities] en [!UICONTROL Accounts] .
+>[!IMPORTANT]
+>
+>Om stabielere en scalable integratie te leveren, verschuiven wij naar een moderne, flexibele integratiebenadering gebruikend Workfront Automation and Integration (Fusion). Als deel van dit overgangsproces, zal Workfront voor de integratie van Salesforce niet beschikbaar na **28 Februari, 2026** zijn.
+>
+>We raden u aan Workfront Automation and Integration te gebruiken voor de integratiebehoeften van uw organisatie met Salesforce.
+>
+>Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Voor informatie over de specifieke mogelijkheden van de modules van de Automatisering en van de Integratie van Workfront voor Salesforce, zie [ modules van Salesforce ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
+
+Nadat u [!DNL Adobe Workfront] voor Salesforce hebt geïnstalleerd, kunt u triggers definiëren die [!DNL Workfront] -projecten maken als aan bepaalde criteria wordt voldaan op [!DNL Salesforce] [!UICONTROL Opportunities] en [!UICONTROL Accounts] .
 
 ## Toegangsvereisten
 
@@ -110,7 +120,7 @@ triggers configureren in [!UICONTROL Salesforce] :
    ![ salesforce_triggers_page_empty.png ](assets/salesforce-triggers-page-empty-350x134.png)
 
 1. Klik op **[!UICONTROL New Trigger]**.
-1. Selecteer **[!UICONTROL Opportunity]** in de vervolgkeuzelijst **[!UICONTROL [!DNL Salesforce] Object]** .
+1. Selecteer **[!UICONTROL [!DNL Salesforce] Object]** in de vervolgkeuzelijst **[!UICONTROL Opportunity]** .
 
    Dit is een verplicht veld.
 
@@ -120,9 +130,9 @@ triggers configureren in [!UICONTROL Salesforce] :
 
       Wanneer een opportuniteit de hier opgegeven [!UICONTROL Stage] bereikt, wordt een project gemaakt in [!DNL Workfront] . Dit is een verplicht veld.
 
-   1. Typ in het veld **[!UICONTROL Portfolio or Program]** de naam van een Portfolio of programma waarin u het project wilt plaatsen in [!DNL Workfront] en selecteer het vervolgens wanneer het wordt weergegeven in de lijst.\
+   1. Typ in het veld **[!UICONTROL Portfolio or Program]** de naam van een Portfolio of Programma waarin u het project wilt plaatsen in [!DNL Workfront] en selecteer het vervolgens wanneer het wordt weergegeven in de lijst.\
 
-      Als u geen Portfolio of programma opgeeft, wordt het nieuwe project gemaakt en toegevoegd aan de [!UICONTROL Projects I Own] -lijst van de gebruiker die bij [!DNL Workfront] is aangemeld bij het configureren van de triggers. Die gebruiker is ook de Eigenaar van het Project voor het nieuwe project.
+      Als u geen Portfolio of programma opgeeft, wordt het nieuwe project gemaakt en toegevoegd aan de [!UICONTROL Projects I Own] -lijst van de gebruiker die bij [!DNL Workfront] is aangemeld bij de configuratie van de triggers. Die gebruiker is ook de Eigenaar van het Project voor het nieuwe project.
 
    1. Typ de naam van een sjabloon die u wilt koppelen aan het nieuwe [!DNL Workfront] -project en selecteer het vervolgens in de lijst.\
 
@@ -142,14 +152,14 @@ triggers configureren in [!UICONTROL Salesforce] :
 
       Dit is een verplicht veld.
 
-      Het project dat wordt gemaakt wanneer een nieuw product wordt toegevoegd aan de [!DNL Salesforce] -mogelijkheid, wordt geplaatst in hetzelfde Portfolio of programma dat voor de opportuniteit is geselecteerd.
+      Het project dat wordt gemaakt wanneer een nieuw product wordt toegevoegd aan de [!DNL Salesforce] -mogelijkheid, wordt geplaatst in dezelfde Portfolio of in hetzelfde programma dat voor de opportuniteit is geselecteerd.
 
       >[!IMPORTANT]
       >
       >Het project wordt alleen gemaakt wanneer het werkgebied wordt bijgewerkt in [!UICONTROL Opportunity] . Er wordt een uniek project gemaakt voor elk product dat wordt opgegeven wanneer het veld Werkgebied wordt bijgewerkt, en niet wanneer de producten aan [!UICONTROL Opportunities] worden toegevoegd.
 
 1. (Optioneel) Klik op **[!UICONTROL New Trigger]** .
-1. (Optioneel) Selecteer **Account in de vervolgkeuzelijst &#x200B;** [!UICONTROL [!DNL Salesforce] Object]**
+1. (Optioneel) Selecteer **Account in de vervolgkeuzelijst **[!UICONTROL [!DNL Salesforce] Object]**
 **.
 
    Dit is een verplicht veld.
@@ -158,7 +168,7 @@ triggers configureren in [!UICONTROL Salesforce] :
    1. Selecteer een **[!UICONTROL Type]** in de vervolgkeuzelijst **[!UICONTROL Type]** .
 
       Als er een **Account is
-**&#x200B; wordt opgegeven als de &#x200B;** [!UICONTROL Type] **&#x200B; die hier wordt opgegeven in [!DNL Salesforce] , a &#x200B;** [!UICONTROL Project]** wordt gemaakt in [!DNL Workfront] .
+** wordt opgegeven als de **[!UICONTROL Type]** die hier wordt opgegeven in [!DNL Salesforce] , a **[!UICONTROL Project]** wordt gemaakt in [!DNL Workfront] .
 
       Dit is een verplicht veld.
 

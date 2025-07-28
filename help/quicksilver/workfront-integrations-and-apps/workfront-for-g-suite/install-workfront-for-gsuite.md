@@ -7,18 +7,28 @@ description: U kunt  [!DNL Adobe Workfront]  voor Google Workspace toe:voegen-op
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: eb11d62d-86ed-49fc-8bbc-6f04eb30865d
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
 
 # Installeren [!DNL Adobe Workfront for Google Workspace]
 
->[!NOTE]
+>[!IMPORTANT]
 >
->De meest recente versie van de [!DNL Adobe Workfront] plug-in voor [!DNL Google] is uitgebracht op 26 juni 2023.
+>Om stabielere en scalable integratie te leveren, verschuiven wij naar een moderne, flexibele integratiebenadering gebruikend Workfront Automation and Integration (Fusion). Als deel van dit overgangsproces, zal volgende Workfront voor de functionaliteit van Google Workspace niet beschikbaar na **28 Februari, 2026** zijn:
+>
+>* Google Workspace-functionaliteit openen vanuit Workfront
+>
+>* Workfront-taken weergeven en beheren vanuit Gmail of het Google Calendar-sitevenster
+>
+>We raden u aan Workfront Automation and Integration te gebruiken voor de integratiebehoeften van uw organisatie met Google Workspace.
+>
+>Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Voor informatie over de specifieke mogelijkheden van de modules van de Automatisering en van de Integratie van Workfront voor Google Workspace, zie [ modules van Gmail ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) en [ modules van de Kalender van Google ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
 U kunt de invoegtoepassing [!DNL Adobe Workfront for Google Workspace] installeren vanaf de Marketplace van [!DNL Google Workspace] .
 
@@ -49,7 +59,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    of
 
-   Klik op het pictogram met het plusteken in de zijbalk met invoegtoepassingen uiterst rechts van een [!DNL Google Workspace] app ([!DNL Gmail] , [!DNL Google Calendar] of [!DNL Google Drive] ). [!DNL Google Workspace] Zoek naar *[!DNL Workfront for Google Workspace]* en klik vervolgens op het app-item [!DNL Workfront for Google Workspace] dat wordt weergegeven.
+   Klik op het pictogram met het plusteken in de zijbalk met invoegtoepassingen uiterst rechts van een [!DNL Google Workspace] app ([!DNL Google Workspace] , [!DNL Gmail] of [!DNL Google Calendar] ). [!DNL Google Drive] Zoek naar *[!DNL Workfront for Google Workspace]* en klik vervolgens op het app-item [!DNL Workfront for Google Workspace] dat wordt weergegeven.
 
 1. Klik op **[!UICONTROL Install]** en volg de aanwijzingen die worden weergegeven.
 1. (Voorwaardelijk) in uw [!DNL Google Workspace] app, als u niet het [!DNL Workfront] pictogram ![ pictogram van Workfront ](assets/wf-lion-icon.png) in [!DNL Google Workspace] toe:voegen-ons sidebar bij uiterst rechts van de pagina ziet, vernieuw de pagina.

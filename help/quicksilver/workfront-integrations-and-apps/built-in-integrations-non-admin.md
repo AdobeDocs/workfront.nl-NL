@@ -1,15 +1,15 @@
 ---
 product-area: workfront-integrations
-keywords: adobe,box,dropbox,gsuite,google,jira,microsoft,salesforce,sharepoint,slack,webdam,zoom
+keywords: adobe,box,dropbox,microsoft,sharepoint,slack,webdam,zoom
 navigation-topic: workfront-integrations-navigation-topic
 title: Overzicht van ingebouwde Adobe Workfront-integratie
 description: U kunt  [!DNL Adobe Workfront]  met derdetoepassingen integreren. Deze integraties kunnen het nut van  [!DNL Workfront]  uitbreiden en het aan de behoeften van uw organisatie aanpassen. Als u bijvoorbeeld een creatieve worker bent in de marketingindustrie, kunt u de invoegtoepassing Adobe Creative Cloud gebruiken om middelen rechtstreeks van Photoshop naar Workfront te exporteren.
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: af54faae1e78d7ffbe679fd82dfb5a3abd45f5cf
+source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ De volgende ingebouwde integraties zijn momenteel beschikbaar in Workfront.
      <li>After Effects </li>
      </ul>
      <li><p>Download/installeer van <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref"> Adobe Exchange </a>.</p></li></ul>
-     <p>Voor informatie en instructies, zie <a href="https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref"> de [!DNL Adobe Workfront] stop voor [!DNL Creative Cloud] Toepassingen </a> installeren.</p> </td> 
+     <p>Voor informatie en instructies, zie <a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref"> de [!DNL Adobe Workfront] stop voor [!DNL Creative Cloud] Toepassingen </a> installeren.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Adobe Experience Manager Assets en Elementen </p>  </p> </td> 
@@ -72,27 +72,10 @@ De volgende ingebouwde integraties zijn momenteel beschikbaar in Workfront.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>G Suite</p> <p> <img src="assets/gsuite.png" style="max-width: 80px;"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>Een Google Workspace-e-mail toevoegen aan een project of taak </li> 
-     <li>[!DNL Workfront] -meldingen weergeven en beheren in Gmail</li> 
-     <li>Verzoeken verzenden via Gmail </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
    <td role="rowheader"> <p>Google Drive</p> <p> <img src="assets/google-drive-logo.png"> </p> </td> 
    <td> 
     <ul> 
      <li>Documenten en mappen koppelen aan [!DNL Workfront]</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>Jira</p> <p> <img src="assets/jiralogo.png" style="max-width: 80px;"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>Nieuwe tickets maken in [!DNL Jira] op basis van taken en problemen in [!DNL Workfront]</li> 
-     <li>Updates en statussen van gekoppelde taken synchroniseren tussen [!DNL Workfront] en [!DNL Jira] </li> 
     </ul> </td> 
   </tr> 
   <!--<tr> 
@@ -128,21 +111,6 @@ De volgende ingebouwde integraties zijn momenteel beschikbaar in Workfront.
      <li>Zoeken naar [!DNL Workfront] projecten, taken en problemen </li> 
      <li>[!DNL Workfront] persoonlijke taken maken </li> 
      <li>[!DNL Workfront] -aanvragen verzenden </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>Salesforce</p> <p> <img src="assets/salesforce-logo-web-2019.png" style="max-width: 80px;"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>Nieuwe [!DNL Workfront] aanvragen maken van [!DNL Salesforce] </li> 
-     <li>[!DNL Workfront] projecten maken van [!DNL Salesforce]</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>Sharepoint</p> <p> <img src="assets/sharepoint.png"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>Documenten en mappen koppelen aan [!DNL Workfront]</li> 
     </ul> </td> 
   </tr> 
   <tr> 

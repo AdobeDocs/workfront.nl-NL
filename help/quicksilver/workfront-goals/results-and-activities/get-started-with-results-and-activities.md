@@ -7,7 +7,7 @@ description: U moet resultaten, activiteiten, of gerichte doelstellingen aan een
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
-source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
+source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 0%
@@ -67,10 +67,6 @@ Houd rekening met het volgende wanneer u met resultaten werkt:
 
 * Ze beantwoorden de vraag: &quot;Hoe weet ik wanneer mijn doel is voltooid?&quot;
 * Het zijn metrische indicatoren. U kunt een van de volgende opties selecteren om de voortgang van het resultaat aan te geven:
-
-  <!--
-  this might change (jira, Salesforce, etc))
-  -->
 
    * Valuta
    * Getal

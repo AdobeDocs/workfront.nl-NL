@@ -7,18 +7,28 @@ description: Dit artikel beschrijft hoe te om in of uit de  [!DNL Adobe Workfron
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 8a91f1d9-bc67-4c27-a6c0-2482488c670b
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
 
 # In- en uitloggen van [!DNL Adobe Workfront for Google Workspace]
 
->[!NOTE]
+>[!IMPORTANT]
 >
->De meest recente versie van de Adobe Workfront-insteekmodule voor Google is uitgebracht op 26 juni 2023.
+>Om stabielere en scalable integratie te leveren, verschuiven wij naar een moderne, flexibele integratiebenadering gebruikend Workfront Automation and Integration (Fusion). Als deel van dit overgangsproces, zal volgende Workfront voor de functionaliteit van Google Workspace niet beschikbaar na **28 Februari, 2026** zijn:
+>
+>* Google Workspace-functionaliteit openen vanuit Workfront
+>
+>* Workfront-taken weergeven en beheren vanuit Gmail of het Google Calendar-sitevenster
+>
+>We raden u aan Workfront Automation and Integration te gebruiken voor de integratiebehoeften van uw organisatie met Google Workspace.
+>
+>Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Voor informatie over de specifieke mogelijkheden van de modules van de Automatisering en van de Integratie van Workfront voor Google Workspace, zie [ modules van Gmail ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) en [ modules van de Kalender van Google ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
 ## Toegangsvereisten
 

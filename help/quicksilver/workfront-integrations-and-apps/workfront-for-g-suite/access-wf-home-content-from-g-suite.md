@@ -7,18 +7,28 @@ description: U kunt tot uw  [!DNL Adobe Workfront]  inhoud van het Huis toegang 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: da2ecaf1-5cfb-470e-90a1-fbb386db8670
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
 
 # Toegang krijgen tot [!DNL Adobe Workfront] [!UICONTROL Home] -inhoud van [!DNL Google Workspace]
 
->[!NOTE]
+>[!IMPORTANT]
 >
->De meest recente versie van de Adobe Workfront-insteekmodule voor Google is uitgebracht op 26 juni 2023.
+>Om stabielere en scalable integratie te leveren, verschuiven wij naar een moderne, flexibele integratiebenadering gebruikend Workfront Automation and Integration (Fusion). Als deel van dit overgangsproces, zal volgende Workfront voor de functionaliteit van Google Workspace niet beschikbaar na **28 Februari, 2026** zijn:
+>
+>* Google Workspace-functionaliteit openen vanuit Workfront
+>
+>* Workfront-taken weergeven en beheren vanuit Gmail of het Google Calendar-sitevenster
+>
+>We raden u aan Workfront Automation and Integration te gebruiken voor de integratiebehoeften van uw organisatie met Google Workspace.
+>
+>Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Voor informatie over de specifieke mogelijkheden van de modules van de Automatisering en van de Integratie van Workfront voor Google Workspace, zie [ modules van Gmail ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) en [ modules van de Kalender van Google ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
 U hebt toegang tot uw [!DNL Adobe Workfront] [!UICONTROL Home] -inhoud, inclusief alle taken, problemen, goedkeuringen en toegangsaanvragen die aan u zijn toegewezen, zonder Google Workspace te verlaten.
 
@@ -68,11 +78,11 @@ Voordat u [!UICONTROL Home] -inhoud kunt openen vanuit [!DNL Google Workspace] ,
 
    Werkitems worden als volgt weergegeven:
 
-   * {het pictogram van de Taak 1} **&#x200B;**&#x200B;toont de Taken van de Taak de naam van het ouderproject, de taaknaam, en de geplande voltooiingsdatum.![](assets/task-icon.png)
+   * {het pictogram van de Taak 1} ![ ](assets/task-icon.png) toont de Taken van de Taak de naam van het ouderproject, de taaknaam, en de geplande voltooiingsdatum.****
 
-   * ![&#128279;](assets/issue-icon.png) **het pictogram van de kwestie** toont de 3&rbrace; vertoning van de kwesties van de kwestie de naam van het ouderproject, kwestie, en geplande voltooiingsdatum.
+   * ![ ](assets/issue-icon.png) het pictogram van de kwestie **toont de 3} vertoning van de kwesties van de kwestie de naam van het ouderproject, kwestie, en geplande voltooiingsdatum.**
 
-   * {het pictogram van het 0} Document ![&#128279;](assets/document-icon.png) **keurt** vertoning de naam van de aanvrager, documentnaam, en voorleggingsdatum goed.
+   * {het pictogram van het 0} Document ![ ](assets/document-icon.png) keurt **vertoning de naam van de aanvrager, documentnaam, en voorleggingsdatum goed.**
    * **de verzoeken van de Toegang** tonen de naam van de aanvrager, objecten naam, en voorleggingsdatum. Het pictogram voor het objecttype wordt links weergegeven.
 
 1. Klik ergens op een werkitem om de details, updates en documenten ervan weer te geven.

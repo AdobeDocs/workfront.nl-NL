@@ -6,14 +6,24 @@ description: Na het installeren van  [!DNL Adobe Workfront]  voor  [!DNL Salesfo
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 84f8cb15-4840-4fe1-bf60-93bc4283b564
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront] aanvragen verzenden vanuit [!DNL Salesforce] -objecten
+
+>[!IMPORTANT]
+>
+>Om stabielere en scalable integratie te leveren, verschuiven wij naar een moderne, flexibele integratiebenadering gebruikend Workfront Automation and Integration (Fusion). Als deel van dit overgangsproces, zal Workfront voor de integratie van Salesforce niet beschikbaar na **28 Februari, 2026** zijn.
+>
+>We raden u aan Workfront Automation and Integration te gebruiken voor de integratiebehoeften van uw organisatie met Salesforce.
+>
+>Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Voor informatie over de specifieke mogelijkheden van de modules van de Automatisering en van de Integratie van Workfront voor Salesforce, zie [ modules van Salesforce ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
 
 Nadat u [!DNL Adobe Workfront for Salesforce] hebt geïnstalleerd, kunt u [!DNL Workfront] -aanvragen van [!DNL Salesforce] Opportunity and Accounts verzenden. Deze functionaliteit bestaat zowel in de [!DNL Classic] - als in [!DNL Lightning Experience] -frameworks.
 

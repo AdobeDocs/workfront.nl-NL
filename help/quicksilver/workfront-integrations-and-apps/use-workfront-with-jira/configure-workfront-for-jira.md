@@ -6,9 +6,9 @@ description: U kunt  [!DNL Adobe Workfront for Jira]  gebruiken om uw  [!DNL Jir
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 959adc88-5201-4945-96c4-ea890f0bd371
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '2216'
+source-wordcount: '2340'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,18 @@ ht-degree: 0%
 # Configureren [!DNL Adobe Workfront for Jira]
 
 <!-- Audited: 12/2023 -->
+
+>[!IMPORTANT]
+>
+>Om stabielere en scalable integratie te leveren, verschuiven wij naar een moderne, flexibele integratiebenadering gebruikend Workfront Automation and Integration (Fusion). Als deel van dit overgangsproces, zal Workfront voor de integratie van Jira niet beschikbaar na **28 Februari, 2026** zijn.
+>
+>We raden u aan Workfront Automation and Integration te gebruiken voor de integratiebehoeften van uw organisatie met Jira.
+>
+>Acht gebruiksklare Workfront Automation and Integration-sjablonen voor Jira zijn tegen augustus beschikbaar om algemene workflows te repliceren en de implementatie te versnellen. De malplaatjes zijn volledig aanpasbaar om aan specifieke bedrijfsbehoeften te voldoen en kunnen worden uitgebreid aangezien de vereisten evolueren.
+> 
+>Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Voor informatie over de specifieke mogelijkheden van de modules van de Automatisering en van de Integratie van Workfront voor Jira, zie {de modules van de Software van 0} Jira [.](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules)
 
 Met [!DNL Adobe Workfront for Jira] kunt u uw [!DNL Jira] - en [!DNL Workfront] -systemen integreren.
 
@@ -25,7 +37,7 @@ Alle gebruikers in [!DNL Workfront] en [!DNL Jira] kunnen van deze integratie pr
 
 Deze invoegtoepassing is beschikbaar voor zowel de [!UICONTROL Server] - als de [!UICONTROL OnDemand] -versie (of [!UICONTROL Cloud] -versie) van [!DNL Jira] Software.
 
-Zie [[!DNL Workfront for Jira] ](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&amp;tab=overview) op de website [!DNL Atlassian Marketplace] voor een lijst met [!DNL Jira] versies die [!DNL Workfront for Jira] momenteel ondersteunt.
+Zie [!DNL Jira] [!DNL Workfront for Jira] op de website [[!DNL Workfront for Jira] voor een lijst met ](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview) versies die [!DNL Atlassian Marketplace] momenteel ondersteunt.
 
 ## Toegangsvereisten
 
@@ -311,7 +323,7 @@ Om te bepalen welke gebieden automatisch op punten zouden moeten synchroniseren 
            <li>Wanneer u <strong>[!UICONTROL Never]</strong> selecteert, gebeuren de volgende dingen:
             <ul>
              <li>U kunt geen [!DNL Jira] toewijzingen zien voor de [!DNL Workfront] -items. In dit geval worden alleen toewijzingen die in [!DNL Workfront] zijn gemaakt, weergegeven op de [!DNL Workfront] -items.</li>
-             <li>De tijd die door een gebruiker zonder een [!DNL Workfront] -account is aangemeld bij een gekoppelde [!DNL Jira] -uitgave, wordt niet automatisch overgedragen naar het gekoppelde [!DNL Workfront] -item. U kunt de tijd nog steeds vastleggen op het [!DNL Workfront] -item in het rechterdeelvenster van het [!DNL Jira] -probleem.</li>
+             <li>De tijd die door een gebruiker zonder een [!DNL Jira] -account is aangemeld bij een gekoppelde [!DNL Workfront] -uitgave, wordt niet automatisch overgedragen naar het gekoppelde [!DNL Workfront] -item. U kunt de tijd nog steeds vastleggen op het [!DNL Workfront] -item in het rechterdeelvenster van het [!DNL Jira] -probleem.</li>
             </ul></li>
           </ul></td>
         </tr>

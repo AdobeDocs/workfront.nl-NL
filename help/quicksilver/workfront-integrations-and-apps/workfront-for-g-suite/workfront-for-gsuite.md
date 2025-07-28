@@ -9,18 +9,28 @@ author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: dfced3e9-0338-446e-bf70-fa5d07f3ac1f
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront for Google Workspace]
 
->[!NOTE]
+>[!IMPORTANT]
 >
->De meest recente versie van de Adobe Workfront-insteekmodule voor Google is uitgebracht op 26 juni 2023.
+>Om stabielere en scalable integratie te leveren, verschuiven wij naar een moderne, flexibele integratiebenadering gebruikend Workfront Automation and Integration (Fusion). Als deel van dit overgangsproces, zal volgende Workfront voor de functionaliteit van Google Workspace niet beschikbaar na **28 Februari, 2026** zijn:
+>
+>* Google Workspace-functionaliteit openen vanuit Workfront
+>
+>* Workfront-taken weergeven en beheren vanuit Gmail of het Google Calendar-sitevenster
+>
+>We raden u aan Workfront Automation and Integration te gebruiken voor de integratiebehoeften van uw organisatie met Google Workspace.
+>
+>Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Voor informatie over de specifieke mogelijkheden van de modules van de Automatisering en van de Integratie van Workfront voor Google Workspace, zie [ modules van Gmail ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) en [ modules van de Kalender van Google ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
 [!DNL Adobe Workfront for Google Workspace] maakt een verbinding met uw belangrijkste werk en stelt u in staat met anderen samen te werken terwijl u binnen [!DNL Gmail] , [!DNL Google Calendar] en [!DNL Google Drive] blijft. Zonder deze toepassingen te verlaten, kunt u gemailde verzoeken of het werk updates vangen en hen toevoegen aan [!DNL Workfront]. U kunt controleren wat er gebeurt in [!DNL Workfront], inclusief datums, prioriteit, documenten, updates en extra context, zonder uw postvak in te sluiten. U kunt goedkeuringsbesluiten nemen, op commentaren antwoorden, of nieuwe het werkverzoeken goedkeuren. En u kunt uw e-mails converteren naar persoonlijke projecttaken of werk en prioriteit toewijzen aan anderen.
 

@@ -6,14 +6,26 @@ description: U kunt  [!DNL Adobe Workfront]  voor  [!DNL Jira]  gebruiken om uw 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: f6e0feb1-349f-459f-9f93-c7492cb15f11
-source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
 
 # Installeren [!DNL Adobe Workfront for Jira]
+
+>[!IMPORTANT]
+>
+>Om stabielere en scalable integratie te leveren, verschuiven wij naar een moderne, flexibele integratiebenadering gebruikend Workfront Automation and Integration (Fusion). Als deel van dit overgangsproces, zal Workfront voor de integratie van Jira niet beschikbaar na **28 Februari, 2026** zijn.
+>
+>We raden u aan Workfront Automation and Integration te gebruiken voor de integratiebehoeften van uw organisatie met Jira.
+>
+>Acht gebruiksklare Workfront Automation and Integration-sjablonen voor Jira zijn tegen augustus beschikbaar om algemene workflows te repliceren en de implementatie te versnellen. De malplaatjes zijn volledig aanpasbaar om aan specifieke bedrijfsbehoeften te voldoen en kunnen worden uitgebreid aangezien de vereisten evolueren.
+> 
+>Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Voor informatie over de specifieke mogelijkheden van de modules van de Automatisering en van de Integratie van Workfront voor Jira, zie {de modules van de Software van 0} Jira [.](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules)
 
 Met [!DNL Adobe Workfront for Jira] kunt u uw [!DNL Jira] - en [!DNL Workfront] -systemen integreren.
 
@@ -23,7 +35,7 @@ Alle gebruikers in [!DNL Workfront] en [!DNL Jira] kunnen van deze integratie pr
 
 Deze invoegtoepassing is beschikbaar voor de [!UICONTROL Server] - en [!UICONTROL OnDemand] (of [!UICONTROL Cloud] ) -versies van [!DNL Jira] Software. Deze invoegtoepassing is niet beschikbaar voor de [!DNL Data Center] -versie van [!DNL Jira] Software.
 
-Voor een lijst van [!DNL Jira] versies die [!DNL Workfront for Jira] momenteel steunt, zie [[!DNL [!DNL Workfront for Jira]] ](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&amp;tab=overview) bij de Atlassiaanse Marketplace.
+Voor een lijst van [!DNL Jira] versies die [!DNL Workfront for Jira] momenteel steunt, zie [[!DNL [!DNL Workfront for Jira]] ](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview) bij de Atlassiaanse Marketplace.
 
 ## Toegangsvereisten
 
@@ -75,7 +87,7 @@ Voor meer informatie over het verzoeken van om toe:voegen-op om op uw [!DNL Jira
 Ga als volgt te werk om [!DNL Workfront for Jira] te installeren:
 
 1. Meld u aan bij [!DNL Jira] als [!DNL Jira] -beheerder.
-1. Vind **[!DNL Workfront for Jira]** toe:voegen-op in [[!DNL Atlassian Marketplace] ](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&amp;tab=overview).
+1. Vind **[!DNL Workfront for Jira]** toe:voegen-op in [[!DNL Atlassian Marketplace] ](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview).
 
 1. Klik op **[!UICONTROL Get it now]** om de toepassing te installeren.
 

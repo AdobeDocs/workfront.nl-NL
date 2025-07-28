@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: af54faae1e78d7ffbe679fd82dfb5a3abd45f5cf
+source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1151'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Volg de volgende workflow om aan de slag te gaan met ingebouwde (native) integra
 
 1. **identificeer uw technologiebeheerder**
 
-   Identificeer de technologiebeheerder van uw organisatie voor de toepassing u met [!DNL Workfront] wilt integreren. Als u bijvoorbeeld wilt integreren met [!DNL Jira] , moet u verbinding maken met de [!DNL Jira] -beheerder van uw bedrijf en deze betrekken bij alle configuratiebehoeften binnen het platform. U moet deze beheerder ook betrekken bij elk gesprek met de klantenondersteuning van [!DNL Workfront] .
+   Identificeer de technologiebeheerder van uw organisatie voor de toepassing u met [!DNL Workfront] wilt integreren. Als u bijvoorbeeld wilt integreren met [!DNL Slack] , moet u verbinding maken met de [!DNL Slack] -beheerder van uw bedrijf en deze betrekken bij alle configuratiebehoeften binnen het platform. U moet deze beheerder ook betrekken bij elk gesprek met de klantenondersteuning van [!DNL Workfront] .
 
    Om uw beheerder te beginnen, zult u hen van de specifieke instructies voor die integratie moeten voorzien. Voor verbindingen aan deze instructies, zie [ Integraties beschikbaar aan geen extra kosten ](#integrations-available-at-no-additional-cost).
 
@@ -113,7 +113,7 @@ Wij begrijpen dat de beschikbare ingebouwde (native) integratie mogelijk niet aa
      <li>After Effects </li>
      </ul>
      <li><p>Download/installeer van <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref"> Adobe Exchange </a>.</p></li></ul>
-     <p>Voor informatie en instructies, zie <a href="https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref"> de [!DNL Adobe Workfront] stop voor [!DNL Creative Cloud] Toepassingen </a> installeren</p> 
+     <p>Voor informatie en instructies, zie <a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref"> de [!DNL Adobe Workfront] stop voor [!DNL Creative Cloud] Toepassingen </a> installeren</p> 
      </td>  <td> </td> 
    <td> </td> 
   </tr> 
@@ -148,27 +148,6 @@ Wij begrijpen dat de beschikbare ingebouwde (native) integratie mogelijk niet aa
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Google Workspace]</p> <p> <img src="assets/gsuite.png" style="max-width: 80px;"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>Een [!DNL Google Workspace] e-mailbericht toevoegen aan een project of taak </li> 
-     <li>[!DNL Workfront] meldingen weergeven en beheren in [!DNL Gmail]</li> 
-     <li>Aanvragen verzenden via [!DNL Gmail] </li> 
-    </ul> <p>Zie <a href="../../workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md" class="MCXref xref">[!DNL Adobe Workfront for Google Workspace]</a> voor meer informatie.</p> </td> 
-   <td> 
-    <ul> 
-     <li>[!DNL Google Workspace] gebruikers moeten een [!DNL Workfront] licentie hebben </li> 
-     <li>[!DNL Workfront] de mening en het werk delend toestemmingen moeten per toegangsniveau worden geplaatst </li> 
-     <li> Gebruiker moet een POP-e-mailaccount hebben </li> 
-     <li>[!DNL Workfront] aanvraaginstellingen moeten POP-instellingen bevatten </li> 
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li>[!DNL Google Workspace] beheerder</li> 
-     <li>[!DNL Workfront] beheerder </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
    <td> <p>[!DNL Google Drive]</p> <p> <img src="assets/google-drive-logo.png"> </p> </td> 
    <td> 
     <ul> 
@@ -176,24 +155,6 @@ Wij begrijpen dat de beschikbare ingebouwde (native) integratie mogelijk niet aa
     </ul> <p>Voor meer informatie, zie <a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md" class="MCXref xref"> documentintegratie </a> vormen.</p> </td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>[!DNL Jira]</p> <p> <img src="assets/jiralogo.png" style="max-width: 80px;"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>Nieuwe tickets maken in [!DNL Jira] op basis van taken en problemen in [!DNL Workfront]</li> 
-     <li>Updates en status van gekoppelde taken synchroniseren tussen Workfront en [!DNL Jira] </li> 
-     <li>Werkt op zowel [!DNL Jira Server] als [!DNL Jira Cloud] </li> 
-    </ul> <p>Zie <a href="../../workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md" class="MCXref xref">[!DNL Adobe Workfront for Jira]</a> voor meer informatie.</p> </td> 
-   <td> 
-    <ul> 
-     <li><p>Nieuw Workfront-abonnement: [!UICONTROL Select] [!DNL Workfront] of hoger</p><p>Huidig Workfront-abonnement: [!UICONTROL Pro] [!DNL Workfront] of hoger</p> </li> 
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li> Installatie alleen door een [!DNL Jira] -beheerder</li> 
-     <li>Niet-[!DNL Jira] beheerders moeten toegang aanvragen en krijgen van de [!DNL Jira] beheerder</li> 
-    </ul> </td> 
   </tr> 
   <!--<tr> 
    <td>[!DNL Microsoft] Calendars ([!DNL Office 365] / [!DNL Outlook Live])</td> 
@@ -255,23 +216,6 @@ Wij begrijpen dat de beschikbare ingebouwde (native) integratie mogelijk niet aa
     </ul> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Salesforce]</p> <p> <img src="assets/salesforce-logo-web-2019.png" style="max-width: 80px;"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>Nieuwe [!DNL Workfront] aanvragen maken van [!DNL Salesforce] </li> 
-     <li>[!DNL Workfront] projecten maken van [!DNL Salesforce]</li> 
-    </ul> <p>Zie <a href="../../workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce.md" class="MCXref xref">[!DNL Adobe Workfront for Salesforce]</a> voor meer informatie.</p> </td> 
-   <td> 
-    <ul> 
-     <li><p>Nieuw Workfront-abonnement: [!UICONTROL Select] [!DNL Workfront] of hoger</p><p>Huidig Workfront-abonnement: [!UICONTROL Pro] [!DNL Workfront] of hoger</p> </li> 
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li>[!DNL Salesforce] beheerder</li> 
-     <li>[!DNL Workfront] beheerder</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
    <td> <p>[!DNL SharePoint]</p> <p> <img src="assets/sharepoint.png"> </p> </td> 
    <td> 
     <ul> 
@@ -320,7 +264,7 @@ Met [!DNL Workfront] kunt u andere ingebouwde integraties en geïntegreerde prod
 
   [!DNL Adobe Workfront Fusion] koppelt handelingen binnen en tussen apps en services om een scenario te maken dat uw gegevens automatisch overdraagt en transformeert. De toepassing heeft specifieke connectors voor veel apps, maar kan verbinding maken met elke toepassing met een openbare API.
 
-  Voor meer informatie, zie [[!DNL Adobe Workfront Fusion]  overzicht ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+  Voor meer informatie, zie [[!DNL Adobe Workfront Fusion]  overzicht ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 * [!DNL Adobe Experience Manager Assets]
 * [!DNL Anaplan] (Vereist [!DNL Workfront Fusion])

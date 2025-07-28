@@ -6,14 +6,26 @@ description: Als a [!DNL Jira]  beheerder, kunt u de uitzonderingen en de fouten
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 3e66c8e3-94b7-4153-abbb-32b872b9402b
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
 
 # De [!UICONTROL [!DNL Jira] Activity Log] weergeven
+
+>[!IMPORTANT]
+>
+>Om stabielere en scalable integratie te leveren, verschuiven wij naar een moderne, flexibele integratiebenadering gebruikend Workfront Automation and Integration (Fusion). Als deel van dit overgangsproces, zal Workfront voor de integratie van Jira niet beschikbaar na **28 Februari, 2026** zijn.
+>
+>We raden u aan Workfront Automation and Integration te gebruiken voor de integratiebehoeften van uw organisatie met Jira.
+>
+>Acht gebruiksklare Workfront Automation and Integration-sjablonen voor Jira zijn tegen augustus beschikbaar om algemene workflows te repliceren en de implementatie te versnellen. De malplaatjes zijn volledig aanpasbaar om aan specifieke bedrijfsbehoeften te voldoen en kunnen worden uitgebreid aangezien de vereisten evolueren.
+> 
+>Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Voor informatie over de specifieke mogelijkheden van de modules van de Automatisering en van de Integratie van Workfront voor Jira, zie {de modules van de Software van 0} Jira [.](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules)
 
 Als [!DNL Jira] -beheerder kunt u de uitzonderingen en fouten weergeven die optreden tijdens het synchroniseren of maken van de tickets tussen [!DNL Adobe Workfront] en [!DNL Jira] in een [!UICONTROL Activity Log] .
 

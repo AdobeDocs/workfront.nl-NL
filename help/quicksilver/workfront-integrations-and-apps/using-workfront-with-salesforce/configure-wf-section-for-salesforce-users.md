@@ -6,14 +6,24 @@ description: Nadat u  [!DNL Adobe Workfront]  voor Salesforce als a  [!DNL Workf
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 81481813-74db-4408-8c85-c3b5b844f932
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 1%
+source-wordcount: '714'
+ht-degree: 0%
 
 ---
 
 # De sectie [!DNL Adobe Workfront] voor [!DNL Salesforce] -gebruikers configureren
+
+>[!IMPORTANT]
+>
+>Om stabielere en scalable integratie te leveren, verschuiven wij naar een moderne, flexibele integratiebenadering gebruikend Workfront Automation and Integration (Fusion). Als deel van dit overgangsproces, zal Workfront voor de integratie van Salesforce niet beschikbaar na **28 Februari, 2026** zijn.
+>
+>We raden u aan Workfront Automation and Integration te gebruiken voor de integratiebehoeften van uw organisatie met Salesforce.
+>
+>Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Voor informatie over de specifieke mogelijkheden van de modules van de Automatisering en van de Integratie van Workfront voor Salesforce, zie [ modules van Salesforce ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
 
 U hebt een [!UICONTROL Pro] [!DNL Workfront] -abonnement nodig om deze functie te kunnen gebruiken. Voor meer informatie over de diverse beschikbare plannen, zie [[!DNL Workfront]  Plannen.](https://business.adobe.com/products/workfront/pricing.html)
 
@@ -54,7 +64,7 @@ U moet de volgende toegang hebben om de in dit artikel beschreven functionalitei
 
 1. Meld u aan bij [!DNL Salesforce] als Workfront-beheerder.
 1. Klik op **[!UICONTROL Setup].**
-1. Vouw **[!UICONTROL Customize]uit in de sectie &#x200B;** [!UICONTROL Build]&#x200B;**.**
+1. Vouw **[!UICONTROL Build]** uit in de sectie **[!UICONTROL Customize].**
 
 1. Vouw **[!UICONTROL Opportunities]** uit en klik op **[!UICONTROL Page Layouts]** om de sectie [!DNL Workfront] aan een opportunity toe te voegen.
 

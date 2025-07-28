@@ -6,14 +6,24 @@ draft: Probably
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 5089fd81-c094-487b-8ffa-e4d2ba2e4ae6
-source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
 
 # Adobe Workfront for [!DNL Salesforce]
+
+>[!IMPORTANT]
+>
+>Om stabielere en scalable integratie te leveren, verschuiven wij naar een moderne, flexibele integratiebenadering gebruikend Workfront Automation and Integration (Fusion). Als deel van dit overgangsproces, zal Workfront voor de integratie van Salesforce niet beschikbaar na **28 Februari, 2026** zijn.
+>
+>We raden u aan Workfront Automation and Integration te gebruiken voor de integratiebehoeften van uw organisatie met Salesforce.
+>
+>Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Voor informatie over de specifieke mogelijkheden van de modules van de Automatisering en van de Integratie van Workfront voor Salesforce, zie [ modules van Salesforce ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
 
 U kunt [!DNL Adobe Workfront] for [!DNL Salesforce] gebruiken om uw [!DNL Salesforce] - en [!DNL Workfront] -systemen te integreren. De artikelen in deze sectie beschrijven hoe u [!DNL Workfront] voor Salesforce kunt installeren, configureren en gebruiken.
 

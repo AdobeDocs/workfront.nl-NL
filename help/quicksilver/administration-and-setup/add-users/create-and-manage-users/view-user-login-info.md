@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b37c34a-d628-4d9b-9688-e4b9f89c666b
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '578'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Aanmelden bij Workfront op een van de volgende manieren telt als aanmelding bij 
 
 * De Workfront-webtoepassing
 * De Workfront Mobile-apps (iOS- of Android-apparaten)
-* Elke ondersteunde Workfront-integratie met een andere toepassing van derden (Slack, Jira)
+* Elke ondersteunde Workfront-integratie met een andere toepassing van derden (zoals Slack)
 * Elke aangepaste integratie tussen Workfront en een andere toepassing van derden.
 * De Workfront API
 

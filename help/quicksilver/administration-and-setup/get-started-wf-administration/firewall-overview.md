@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
@@ -75,11 +75,8 @@ Geef uw netwerkbeheerder de volgende informatie:
    <td role="rowheader">Adobe Workfront-integratie</td> 
    <td>Stel uw netwerkbeheerder op de hoogte als u een van de volgende methoden gebruikt:
     <ul>
-     <li><p>Workfront voor Jira</p></li>
-     <li><p>Workfront voor Google Workspace</p></li>
-     <li><p>Workfront for Microsoft Teams</p></li>
+     <li><p>Workfront voor Microsoft Teams</p></li>
      <li><p>Workfront for Outlook</p></li>
-     <li><p>Workfront voor Salesforce</p></li>
     </ul></td> 
   </tr> 
   <tr> 

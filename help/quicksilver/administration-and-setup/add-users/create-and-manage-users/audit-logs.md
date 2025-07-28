@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
 workflow-type: tm+mt
-source-wordcount: '1527'
+source-wordcount: '1523'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ Het systeem produceert een het logboekingang van het Niveau van de Toegang wanne
 * Wijzigt een toegangsniveau:
 
    * Hiermee wordt het licentietype gewijzigd
-   * De toestemmingen van veranderingen in Projecten, Taken, Kwesties, Portfolio&#39;s, Programma&#39;s, Rapporten, Documenten, Gebruikers, of Malplaatjes
+   * Hiermee wijzigt u machtigingen voor projecten, taken, problemen, portfolio&#39;s, programma&#39;s, rapporten, documenten, gebruikers of sjablonen
 
      >[!NOTE]
      >
@@ -257,7 +257,7 @@ Voor meer informatie over het vormen van baanrollen, zie [ baanrollen ](../../..
 Het systeem genereert een logbestandvermelding van een Login-poging wanneer een gebruiker een van de volgende handelingen uitvoert:
 
 * Meld u aan, meldt u zich af of mislukt een aanmeldingspoging in Workfront (in een browser en in de mobiele app)
-* Meld u aan, meldt u zich af of mislukt een aanmeldingspoging bij Workfront-integratie (zoals Workfront voor Slack en Workfront voor Salesforce)
+* Meld u aan, meldt u zich af of mislukt een aanmeldingspoging bij Workfront-integratie (zoals Workfront voor Slack)
 * Aanmelden of zich afmelden bij de Workfront API
 
 Login Attempt Logs registreert niet wanneer een beheerder van Workfront Login als eigenschap gebruikt.

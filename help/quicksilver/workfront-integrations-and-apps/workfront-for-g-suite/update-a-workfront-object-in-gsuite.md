@@ -7,18 +7,28 @@ description: Zonder Google Workspace te verlaten, kunt u een nieuwe update of ee
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 8e3edfb6-6822-4970-aa59-5fe5ee97d3b2
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 1%
+source-wordcount: '314'
+ht-degree: 0%
 
 ---
 
 # Een [!DNL Adobe Workfront] -object bijwerken vanuit [!DNL Google Workspace]
 
->[!NOTE]
+>[!IMPORTANT]
 >
->De meest recente versie van de Adobe Workfront-insteekmodule voor Google is uitgebracht op 26 juni 2023.
+>Om stabielere en scalable integratie te leveren, verschuiven wij naar een moderne, flexibele integratiebenadering gebruikend Workfront Automation and Integration (Fusion). Als deel van dit overgangsproces, zal volgende Workfront voor de functionaliteit van Google Workspace niet beschikbaar na **28 Februari, 2026** zijn:
+>
+>* Google Workspace-functionaliteit openen vanuit Workfront
+>
+>* Workfront-taken weergeven en beheren vanuit Gmail of het Google Calendar-sitevenster
+>
+>We raden u aan Workfront Automation and Integration te gebruiken voor de integratiebehoeften van uw organisatie met Google Workspace.
+>
+>Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Voor informatie over de specifieke mogelijkheden van de modules van de Automatisering en van de Integratie van Workfront voor Google Workspace, zie [ modules van Gmail ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) en [ modules van de Kalender van Google ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
 Zonder [!DNL Google Workspace] te verlaten, kunt u een nieuwe update of een antwoord op een bestaande update op een [!DNL Adobe Workfront] voorwerp posten.
 

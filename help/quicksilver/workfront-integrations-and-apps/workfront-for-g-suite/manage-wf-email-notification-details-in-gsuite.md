@@ -3,22 +3,32 @@ product-area: workfront-integrations
 keywords: google,doc,document,sheet,slide
 navigation-topic: workfront-for-g-suite
 title: Beheer  [!DNL Adobe Workfront]  berichtdetails van Google Workspace
-description: In Google Workspace, wanneer u een bericht e-mailbericht  [!DNL Workfront]  opent heeft verzonden, kunt u de bijbehorende details van het het werkpunt bekijken en antwoorden zonder uw Postvak te verlaten. Als er acties beschikbaar zijn, zoals het goedkeuren van een aanvraag, kunt u die acties rechtstreeks uitvoeren vanuit Workfront voor Google Workspace.
+description: In Google Workspace, wanneer u een bericht e-mail opent Adobe  [!DNL Workfront]  heeft verzonden, kunt u de bijbehorende details van het het werkpunt bekijken en antwoorden zonder uw Postvak te verlaten. Als er acties beschikbaar zijn, zoals het goedkeuren van een aanvraag, kunt u die acties rechtstreeks uitvoeren vanuit Workfront voor Google Workspace.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: d5ca31d8-3667-4405-a523-3dc248a94746
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '519'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront] -meldingsgegevens beheren vanuit [!DNL Google Workspace]
 
->[!NOTE]
+>[!IMPORTANT]
 >
->De meest recente versie van de Adobe Workfront-insteekmodule voor Google is uitgebracht op 26 juni 2023.
+>Om stabielere en scalable integratie te leveren, verschuiven wij naar een moderne, flexibele integratiebenadering gebruikend Workfront Automation and Integration (Fusion). Als deel van dit overgangsproces, zal volgende Workfront voor de functionaliteit van Google Workspace niet beschikbaar na **28 Februari, 2026** zijn:
+>
+>* Google Workspace-functionaliteit openen vanuit Workfront
+>
+>* Workfront-taken weergeven en beheren vanuit Gmail of het Google Calendar-sitevenster
+>
+>We raden u aan Workfront Automation and Integration te gebruiken voor de integratiebehoeften van uw organisatie met Google Workspace.
+>
+>Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Voor informatie over de specifieke mogelijkheden van de modules van de Automatisering en van de Integratie van Workfront voor Google Workspace, zie [ modules van Gmail ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) en [ modules van de Kalender van Google ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
 Wanneer u in [!DNL Google Workspace] een e-mailbericht opent dat [!DNL Adobe Workfront] heeft verzonden, kunt u de bijbehorende details van het werkitem weergeven en reageren zonder uw [!UICONTROL Inbox] te verlaten. Als er acties beschikbaar zijn, zoals het goedkeuren van een aanvraag, kunt u die acties rechtstreeks vanuit [!DNL Workfront for Google Workspace] uitvoeren.
 

@@ -6,9 +6,9 @@ description: U kunt  [!DNL Jira]  kwesties aan  [!DNL Adobe Workfront]  taken of
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
-source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1336'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,18 @@ ht-degree: 0%
 # Items koppelen tussen [!DNL Adobe Workfront] en [!DNL Jira]
 
 <!-- Audited: 5/2025 -->
+
+>[!IMPORTANT]
+>
+>Om stabielere en scalable integratie te leveren, verschuiven wij naar een moderne, flexibele integratiebenadering gebruikend Workfront Automation and Integration (Fusion). Als deel van dit overgangsproces, zal Workfront voor de integratie van Jira niet beschikbaar na **28 Februari, 2026** zijn.
+>
+>We raden u aan Workfront Automation and Integration te gebruiken voor de integratiebehoeften van uw organisatie met Jira.
+>
+>Acht gebruiksklare Workfront Automation and Integration-sjablonen voor Jira zijn tegen augustus beschikbaar om algemene workflows te repliceren en de implementatie te versnellen. De malplaatjes zijn volledig aanpasbaar om aan specifieke bedrijfsbehoeften te voldoen en kunnen worden uitgebreid aangezien de vereisten evolueren.
+> 
+>Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Voor informatie over de specifieke mogelijkheden van de modules van de Automatisering en van de Integratie van Workfront voor Jira, zie {de modules van de Software van 0} Jira [.](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules)
 
 U kunt [!DNL Jira] -uitgaven automatisch of handmatig koppelen aan [!DNL Adobe Workfront] -taken of -problemen.
 
@@ -103,14 +115,15 @@ Als u een [!DNL Workfront] -taak automatisch wilt koppelen aan een [!DNL Jira] -
 1. Selecteer **[!UICONTROL Tasks]** in het deelvenster aan de linkerkant van het project.
 
 1. Klik **+ Nieuwe Taak**.
+
    >[!NOTE]
    >
-   >Om een bestaand punt van Workfront met een kwestie van Jira te verbinden, uitgezocht **&#x200B;**&#x200B;van het punt **meer** ![ ](assets/more-icon.png) menu van het pictogram Meer &lbrace;uitgeven.
+   >Om een bestaand punt van Workfront met een kwestie van Jira te verbinden, uitgezocht **** van het punt **meer** ![ ](assets/more-icon.png) menu van het pictogram Meer {uitgeven.
 
 1. Geef de velden op die beschikbaar zijn voor de taak of werk deze bij.
 1. Zoek en selecteer in het veld **[!UICONTROL Assignments]** de gebruiker, rol of het team dat als trigger voor de [!DNL Jira] -integratie is opgegeven.
 
-1. Klik **creëren Taak**. De taak wordt gecreeerd in Workfront, en een nieuwe commentaar verschijnt in het 1&rbrace; lusje van de Updates van de taak **&lbrace;om erop te wijzen dat een nieuwe kwestie ook in [!DNL Jira] is gecreeerd.**
+1. Klik **creëren Taak**. De taak wordt gecreeerd in Workfront, en een nieuwe commentaar verschijnt in het 1} lusje van de Updates van de taak **{om erop te wijzen dat een nieuwe kwestie ook in** is gecreeerd.[!DNL Jira]
 
 1. (Optioneel) Klik in het gedeelte **[!UICONTROL Integrations]** van de **[!UICONTROL Details]** -sectie van de taak- of uitgiftekop op de koppeling **[!UICONTROL Go to Jira]** om het probleem te openen in Jira.
 
