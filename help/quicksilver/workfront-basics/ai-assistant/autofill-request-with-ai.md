@@ -5,9 +5,9 @@ description: U kunt AI gebruiken om aanvraagvelden automatisch in te vullen.
 author: Becky
 feature: Get Started with Workfront
 exl-id: d053e604-5a28-4fd3-8f89-4467b6e46f02
-source-git-commit: a3e93311277bc5b68063e0ec1cbdcce3a40eb3dd
+source-git-commit: d890d467dfdade676a5c93f061a5cbeda53556b6
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '961'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Deze functionaliteit maakt momenteel deel uit van een gesloten bètaversie. Neem contact op met sargism@adobe.com als u deze functionaliteit wilt inschakelen.
+>Deze functionaliteit maakt momenteel deel uit van een gesloten bètaversie. Neem contact op met `sargism@adobe.com` als u deze functionaliteit wilt inschakelen.
 >
 >Uw organisatie moet voldoen aan de vereisten voor het gebruik van de Workfront AI Assistant om in aanmerking te komen voor de gesloten bètaversie. Voor details, zie [ Vereisten aan AI Medewerker ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
@@ -25,6 +25,8 @@ Met AI kunt u aanvraagvelden automatisch invullen. U kunt veldwaarden voorstelle
 U kunt deze suggesties goedkeuren of verwerpen alvorens het verzoek in te dienen.
 
 Met Automatisch vullen worden geen velden overschreven die u al hebt ingevuld.
+
+Gebruikers ontvangen geen suggesties voor gegevens waartoe zij anders geen toegang hebben.
 
 ## Suggesties ophalen bij het invullen van het formulier
 
@@ -42,7 +44,7 @@ Op eerdere verzoeken gebaseerde suggesties gebruiken:
 
    Terwijl u velden invult, kunnen in andere velden suggesties worden weergegeven.
 
-1. Voor elke gebiedssuggestie, keur **&#x200B;**&#x200B;goed of **verwerp** onder dat gebied.
+1. Voor elke gebiedssuggestie, keur **** goed of **verwerp** onder dat gebied.
 
    of
 
@@ -74,7 +76,7 @@ Suggesties gebruiken op basis van een geplakte tekstprompt:
 1. Klik **Vul de vorm**.
 
    Workfront genereert suggesties voor het formulier.
-1. Voor elke gebiedssuggestie, keur **&#x200B;**&#x200B;goed of **verwerp** onder dat gebied.
+1. Voor elke gebiedssuggestie, keur **** goed of **verwerp** onder dat gebied.
 
    of
 
@@ -157,9 +159,17 @@ U kunt een document uploaden dat op het volledige formulier of op één sectie v
 1. Klik **Vul de vorm** van **Vul de sectie**.
 
    Workfront genereert suggesties voor het formulier.
-1. Voor elke gebiedssuggestie, keur **&#x200B;**&#x200B;goed of **verwerp** onder dat gebied.
+1. Voor elke gebiedssuggestie, keur **** goed of **verwerp** onder dat gebied.
 
    of
 
    Selecteer **goedkeuren allen** of **verwerping allen** bij de bovenkant van de pagina om alle suggesties goed te keuren of te verwerpen.
+
+## Problemen oplossen
+
+Als u niet de verwachte suggesties krijgt, kan het toe te schrijven zijn aan één van het volgende:
+
+* U moet ten minste één maand aanvraaggegevens in het systeem hebben voordat u veldwaarden van eerdere aanvragen kunt voorstellen.
+* Een punt van verzoekgegevens moet meer dan 24 uren in het systeem geweest zijn alvorens het in een ander verzoek kan worden voorgesteld.
+* Mogelijk hebt u de instructies voor het uploaden van documenten niet opgevolgd bij het uploaden van een document om suggesties van te trekken. Voor meer informatie, zie [ Document uploadt gidsen ](#document-upload-guardrails) in dit artikel.
 

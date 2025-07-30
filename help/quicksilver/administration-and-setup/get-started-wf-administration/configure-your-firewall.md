@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: d710c8bd9854d4d92945e034e708d06410d0779b
+source-git-commit: d890d467dfdade676a5c93f061a5cbeda53556b6
 workflow-type: tm+mt
-source-wordcount: '1616'
+source-wordcount: '1609'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >De op deze pagina beschreven procedure is alleen van toepassing op organisaties die nog niet aan boord van de Admin Console zijn. Als uw organisatie is aangemeld bij de Adobe Admin Console, moet u deze handeling uitvoeren via de Adobe Admin Console.
 >
->Om uw lijst van gewenste personen te vormen als uw organisatie aan Adobe Admin Console is bezet, zie [ Domeinen worden toegestaan voor de Apps en de Diensten van Adobe ](https://helpx.adobe.com/nl/enterprise/kb/network-endpoints.html).
+>Om uw lijst van gewenste personen te vormen als uw organisatie aan Adobe Admin Console is bezet, zie [ Domeinen worden toegestaan voor de Apps en de Diensten van Adobe ](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
 >Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan Adobe Admin Console is genegeerd, zie [ Op platform-gebaseerde beleidsverschillen (Adobe Workfront/Adobe Bedrijfsplatform) ](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -74,9 +74,7 @@ Voor meer informatie, zie de sectie [ de cluster van uw organisatie en het plan 
 >
 >Sommige integratie van Workfront werkt niet wanneer de lijst van gewenste personen wordt toegelaten omdat zij niet met een statisch IP adres kunnen worden gevormd. Als u de volgende integratie wilt gebruiken, moet u de lijst van gewenste personen uitschakelen.
 >
->* Workfront voor Google Workspace
 >* Workfront for Outlook
->* Workfront voor Salesforce
 
 * [ IP adressen om voor Clusters 1, 2, 3, 5, 7, 8 en 9 toe te staan ](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)
 * [ IP adressen om voor Cluster 4 ](#ip-addresses-to-allow-for-cluster-4) toe te staan
