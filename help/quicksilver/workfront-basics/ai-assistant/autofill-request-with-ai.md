@@ -44,7 +44,7 @@ Op eerdere verzoeken gebaseerde suggesties gebruiken:
 
    Terwijl u velden invult, kunnen in andere velden suggesties worden weergegeven.
 
-1. Voor elke gebiedssuggestie, keur **** goed of **verwerp** onder dat gebied.
+1. Voor elke gebiedssuggestie, keur **&#x200B;**&#x200B;goed of **verwerp** onder dat gebied.
 
    of
 
@@ -76,7 +76,7 @@ Suggesties gebruiken op basis van een geplakte tekstprompt:
 1. Klik **Vul de vorm**.
 
    Workfront genereert suggesties voor het formulier.
-1. Voor elke gebiedssuggestie, keur **** goed of **verwerp** onder dat gebied.
+1. Voor elke gebiedssuggestie, keur **&#x200B;**&#x200B;goed of **verwerp** onder dat gebied.
 
    of
 
@@ -159,7 +159,7 @@ U kunt een document uploaden dat op het volledige formulier of op één sectie v
 1. Klik **Vul de vorm** van **Vul de sectie**.
 
    Workfront genereert suggesties voor het formulier.
-1. Voor elke gebiedssuggestie, keur **** goed of **verwerp** onder dat gebied.
+1. Voor elke gebiedssuggestie, keur **&#x200B;**&#x200B;goed of **verwerp** onder dat gebied.
 
    of
 
