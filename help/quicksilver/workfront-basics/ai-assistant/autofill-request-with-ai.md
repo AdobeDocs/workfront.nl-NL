@@ -5,9 +5,9 @@ description: U kunt AI gebruiken om aanvraagvelden automatisch in te vullen.
 author: Becky
 feature: Get Started with Workfront
 exl-id: d053e604-5a28-4fd3-8f89-4467b6e46f02
-source-git-commit: d890d467dfdade676a5c93f061a5cbeda53556b6
+source-git-commit: b0454d5fe3d866b30513cdea67d22c06c5efbfb3
 workflow-type: tm+mt
-source-wordcount: '961'
+source-wordcount: '937'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Op eerdere verzoeken gebaseerde suggesties gebruiken:
 
    Terwijl u velden invult, kunnen in andere velden suggesties worden weergegeven.
 
-1. Voor elke gebiedssuggestie, keur **&#x200B;**&#x200B;goed of **verwerp** onder dat gebied.
+1. Voor elke gebiedssuggestie, keur **** goed of **verwerp** onder dat gebied.
 
    of
 
@@ -76,7 +76,7 @@ Suggesties gebruiken op basis van een geplakte tekstprompt:
 1. Klik **Vul de vorm**.
 
    Workfront genereert suggesties voor het formulier.
-1. Voor elke gebiedssuggestie, keur **&#x200B;**&#x200B;goed of **verwerp** onder dat gebied.
+1. Voor elke gebiedssuggestie, keur **** goed of **verwerp** onder dat gebied.
 
    of
 
@@ -159,7 +159,7 @@ U kunt een document uploaden dat op het volledige formulier of op één sectie v
 1. Klik **Vul de vorm** van **Vul de sectie**.
 
    Workfront genereert suggesties voor het formulier.
-1. Voor elke gebiedssuggestie, keur **&#x200B;**&#x200B;goed of **verwerp** onder dat gebied.
+1. Voor elke gebiedssuggestie, keur **** goed of **verwerp** onder dat gebied.
 
    of
 
@@ -170,6 +170,5 @@ U kunt een document uploaden dat op het volledige formulier of op één sectie v
 Als u niet de verwachte suggesties krijgt, kan het toe te schrijven zijn aan één van het volgende:
 
 * U moet ten minste één maand aanvraaggegevens in het systeem hebben voordat u veldwaarden van eerdere aanvragen kunt voorstellen.
-* Een punt van verzoekgegevens moet meer dan 24 uren in het systeem geweest zijn alvorens het in een ander verzoek kan worden voorgesteld.
 * Mogelijk hebt u de instructies voor het uploaden van documenten niet opgevolgd bij het uploaden van een document om suggesties van te trekken. Voor meer informatie, zie [ Document uploadt gidsen ](#document-upload-guardrails) in dit artikel.
 
