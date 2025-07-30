@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 567fa8c960f7db47279d6cde1f5e90dc7f38ae79
 workflow-type: tm+mt
-source-wordcount: '2115'
+source-wordcount: '2133'
 ht-degree: 0%
 
 ---
@@ -264,11 +264,11 @@ Houd rekening met het volgende wanneer u een pagina Verbonden records aan een re
 
 * U kunt een pagina Verbonden records aan een record toevoegen nadat u de record- of objecttypen hebt verbonden met het recordtype vanuit de tabelweergave van een recordtype.
 
-* U kunt geen pagina Verbonden records toevoegen aan het voorvertoningsgebied van een record.
+* U kunt geen pagina Verbonden records toevoegen aan het voorvertoningsgebied van een record. <!--take this out when we release connected record pages to the record preview area-->
 
 * Verbonden recordpagina&#39;s geven alleen de verbonden objecten of records van één object of recordtype in een tabelweergave weer. Op de pagina worden niet alle records van dat type weergegeven in de tabelweergave.
 
-* Nadat u een pagina Verbonden records aan een record hebt toegevoegd, wordt het tabblad Pagina weergegeven vanuit het voorvertoningsgebied van de record, maar deze is leeg. U moet naar de volledige pagina gaan om de lijstmening voor het verbonden verslag te zien. <!--this might have changed? check and take disclaimer out-->
+* Nadat u een pagina Verbonden records aan een record hebt toegevoegd, wordt het tabblad Pagina weergegeven vanuit het voorvertoningsgebied van de record, maar deze is leeg. U moet naar de volledige pagina gaan om de lijstmening voor het verbonden verslag te zien. &lt;!—dit verandert als verbonden pagina&#39;s worden vrijgegeven in het voorvertoningsgebied— controleer en verwijder de disclaimer uit—>
 
 * U kunt Verbonden recordpagina&#39;s toevoegen voor de volgende verbonden record- of objecttypen:
 
@@ -279,12 +279,20 @@ Houd rekening met het volgende wanneer u een pagina Verbonden records aan een re
   >
   >   U kunt geen Connect-recordpagina toevoegen voor verbonden AEM Assets-records.
 
-
 Een pagina voor verbonden records toevoegen:
+
+<!--replace the first 2 steps with these steps when we release connected record page to the record preview area, if this goes both to Preview and Prod: 
+
+1. Click the name of the record to open it. 
+1. Click **Add page** from one of the following areas: 
+
+   * The record's preview window
+   * The record's details page, after clicking the **Open in new tab** icon ![Open details in a new tab icon](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview page.  
+
+-->
 
 1. Van een mening van de verslagpagina, klik de naam van een verslag om het te openen, dan klik **Open in nieuw lusje** pictogram ![ Open details in een nieuw lusjepictogram ](assets/open-details-in-a-new-tab-icon.png) in de hoger-juiste hoek van de voorproefpagina.
 1. Klik **toevoegen pagina**.
-
 
    **creeer pagina** doos opent.
 

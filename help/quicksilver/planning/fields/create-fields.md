@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: f4ea19368b664d0b3a47f93c70fd489685791538
 workflow-type: tm+mt
 source-wordcount: '5201'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=nl-NL ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -35,12 +35,12 @@ U moet recordtypen maken voordat u velden kunt maken die u hieraan wilt koppelen
 
 U kunt velden op de volgende manieren maken in Workfront Planning:
 
-* Van kras
-* Door recordtypen aan te sluiten
-* Door een recordtype te maken
-* Een werkruimte maken op basis van een sjabloon
-* Door recordtypen te importeren met een Excel- of CSV-bestand
-* Door kopieën van bestaande Workfront-velden te importeren
+* [Van kras](#create-fields-from-scratch)
+* [Door recordtypen aan te sluiten](#create-fields-from-scratch)
+* [Door een recordtype te maken](#create-fields-by-creating-a-record-type)
+* [Een werkruimte maken op basis van een sjabloon](#create-fields-by-creating-a-workspace-from-a-template)
+* [Door recordtypen te importeren met een Excel- of CSV-bestand](#create-fields-when-importing-record-types-from-a-csv-or-excel-file)
+* [Door kopieën van bestaande Workfront-velden te importeren](#create-fields-by-importing-them-from-workfront)
 
 Voor meer informatie over de planningsgebieden van Workfront, zie [ Overzicht van het Gebied ](/help/quicksilver/planning/fields/fields-overview.md).
 
@@ -109,6 +109,45 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 *Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+## Velden maken door recordtypen aan te sluiten
+
+U kunt gekoppelde recordvelden maken wanneer u een nieuwe verbinding toevoegt tussen twee recordtypen of een recordtype en een objecttype vanuit andere toepassingen.
+
+Voor informatie over het verbinden van het verslagtypes van de Planning van Workfront, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+<!--## Create fields by importing record types using an Excel or CSV file
+
+For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).-->
+
+## Velden maken door een recordtype te maken
+
+Wanneer u een recordtype maakt, worden ook een aantal velden die aan het nieuwe recordtype zijn gekoppeld, standaard gemaakt. Voor meer informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
+
+## Velden maken door een werkruimte te maken van een sjabloon
+
+Adobe Workfront Planning maakt velden voor recordtypen wanneer u een werkruimte maakt op basis van een sjabloon.
+
+Voor informatie, zie [ werkruimten ](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
+
+
+
+## Velden maken bij het importeren van recordtypen uit een CSV- of Excel-bestand
+
+U kunt velden importeren wanneer u recordtypen importeert met een CSV- of Excel-bestand.
+
+Voor informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
+
+## Velden maken door ze vanuit Workfront te importeren
+
+U kunt kopieën van bestaande Workfront-velden importeren.
+
+Als u velden importeert uit Workfront, wordt een kopie van elk veld gemaakt voor een recordtype voor Workfront Planning.
+
+Nadat u de velden hebt gekopieerd, zijn de velden onafhankelijk van elkaar en wisselen ze geen informatie uit.
+
+Voor informatie, zie [ de gebieden van de Invoer van Workfront ](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
+
 
 ## geheel nieuwe velden maken {#create-fields-from-scratch}
 
@@ -208,7 +247,7 @@ In alineasvelden wordt aanvullende alfanumerieke informatie over een record vast
 >
 
 
-1. Begin creërend een gebied zoals die in de sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer het **3&rbrace; gebiedstype van de Paragraaf &lbrace;.**
+1. Begin creërend een gebied zoals die in de sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer het **3} gebiedstype van de Paragraaf {.**
 
    ![ het gebiedstype van de Paragraaf ](assets/paragraph-field-type.png)
 
@@ -319,10 +358,10 @@ Met een getalveldtype wordt informatie vastgelegd in een getalnotatie.
 >Nummervelden worden weergegeven als een tekstveldtype voor één regel in een aanvraagformulierbuilder.
 >
 >De veldindeling blijft echter wel behouden en de waarden van deze velden worden als getallen weergegeven nadat het verzoek is ingediend, op het recordtype en op de pagina met aanvraagdetails.
->&#x200B;>Voor informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
+>>Voor informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
 
 
-1. Begin creërend een gebied zoals die in de sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer het **3&rbrace; gebiedstype van het Aantal &lbrace;.**
+1. Begin creërend een gebied zoals die in de sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer het **3} gebiedstype van het Aantal {.**
 
    ![ het gebiedstype van het Aantal ](assets/number-field-type.png)
 1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
@@ -349,10 +388,10 @@ Percentageveldtypen leggen informatie vast in een getalnotatie gevolgd door een 
 >Percentagevelden worden weergegeven als een tekstveldtype voor één regel in een aanvraagformulierbuilder.
 >
 >De veldindeling blijft echter wel behouden en de waarden van deze velden worden als percentages weergegeven nadat het verzoek is ingediend, op het recordtype en op de pagina met aanvraagdetails.
->&#x200B;>Voor informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
+>>Voor informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
 
 
-1. Begin creërend een gebied zoals die in de sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer het **3&rbrace; gebiedstype van het Percentage &lbrace;.**
+1. Begin creërend een gebied zoals die in de sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer het **3} gebiedstype van het Percentage {.**
 
    ![ het gebiedstype van het Percentage ](assets/percentage-field-type.png)
 
@@ -389,9 +428,9 @@ Valutatypen leggen informatie vast in een getalnotatie voorafgegaan door een val
 >Valutabelden worden weergegeven als een tekstveldtype voor één regel in een aanvraagformulierbuilder.
 >
 >De veldindeling blijft echter wel behouden en de waarden van deze velden worden na de indiening van het verzoek als valuta weergegeven, op het recordtype en op de pagina met aanvraagdetails.
->&#x200B;>Voor informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
+>>Voor informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
 
-1. Begin creërend een gebied zoals die in sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer het **3&rbrace; gebiedstype van de Valuta &lbrace;.**
+1. Begin creërend een gebied zoals die in sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer het **3} gebiedstype van de Valuta {.**
 
    ![ het gebiedstype van de Valuta ](assets/currency-field-type.png)
 
@@ -443,6 +482,8 @@ Voor meer informatie, zie [ overzicht van de gebieden van de Formule ](/help/qui
 
 1. Klik op de geselecteerde expressie om de definitie weer te geven en de opmaak weer te geven.
 
+   <!--update screen shot for Maximize button-->
+
    ![ Beschrijving van formule uitdrukking ](assets/description-of-formula-expression.png)
 
    Voor meer informatie over welke uitdrukkingen worden gesteund, zie [ overzicht van de gebieden van de Formule ](/help/quicksilver/planning/fields/formula-fields.md).
@@ -466,6 +507,12 @@ Voor meer informatie, zie [ overzicht van de gebieden van de Formule ](/help/qui
    >
    >![ Formule voorbeeldprojectbudget vier gebieden verwijderd ](assets/formula-example-project-budget-four-fields-removed.png)
    >
+
+   <!--
+    1. <span class="preview">(Optional) Click **Maximize** to open the Formula box in a larger area. </span>
+           <span class="preview">The Formula box opens in a larger window. </span>
+    1. <span class="preview">(Optional and conditional) If you opened the Formula box in a larger area,click **Minimize** to return to the original formula field box.</span> 
+    -->
 
 1. Op het **gebied van het Formaat**, selecteer van de volgende keuzen om het formaat van het resultaat te identificeren dat op het formule-type gebied wordt getoond:
 
@@ -505,7 +552,7 @@ Met het veldtype Personen kunt u een gebruiker <!--, job role, or team--> aan ee
 >
 >Voor informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
 
-1. Begin creërend een gebied zoals die in de sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer het **3&rbrace; gebiedstype van Mensen &lbrace;.**
+1. Begin creërend een gebied zoals die in de sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer het **3} gebiedstype van Mensen {.**
 
    ![ het gebiedstype van Mensen ](assets/people-field-type.png)
 
@@ -735,42 +782,6 @@ Create an Object field:
 
 -->
 
-## Velden maken door recordtypen aan te sluiten
 
-U kunt gekoppelde recordvelden maken wanneer u een nieuwe verbinding toevoegt tussen twee recordtypen of een recordtype en een objecttype vanuit andere toepassingen.
-
-Voor informatie over het verbinden van het verslagtypes van de Planning van Workfront, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
-
-<!--## Create fields by importing record types using an Excel or CSV file
-
-For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).-->
-
-## Velden maken door een recordtype te maken
-
-Wanneer u een recordtype maakt, worden ook een aantal velden die aan het nieuwe recordtype zijn gekoppeld, standaard gemaakt. Voor meer informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
-
-## Velden maken door een werkruimte te maken van een sjabloon
-
-Adobe Workfront Planning maakt velden voor recordtypen wanneer u een werkruimte maakt op basis van een sjabloon.
-
-Voor informatie, zie [ werkruimten ](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
-
-
-
-## Velden maken bij het importeren van recordtypen uit een CSV- of Excel-bestand
-
-U kunt velden importeren wanneer u recordtypen importeert met een CSV- of Excel-bestand.
-
-Voor informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
-
-## Velden maken door ze vanuit Workfront te importeren
-
-U kunt kopieën van bestaande Workfront-velden importeren.
-
-Als u velden importeert uit Workfront, wordt een kopie van elk veld gemaakt voor een recordtype voor Workfront Planning.
-
-Nadat u de velden hebt gekopieerd, zijn de velden onafhankelijk van elkaar en wisselen ze geen informatie uit.
-
-Voor informatie, zie [ de gebieden van de Invoer van Workfront ](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
 
 

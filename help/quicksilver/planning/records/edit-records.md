@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 567fa8c960f7db47279d6cde1f5e90dc7f38ae79
 workflow-type: tm+mt
-source-wordcount: '2196'
+source-wordcount: '2192'
 ht-degree: 0%
 
 ---
@@ -123,10 +123,10 @@ Voor informatie over het creëren van verslagen, zie [ verslagen ](/help/quicksi
 
 U kunt een record uit de volgende gebieden bewerken:
 
-* [Vanuit de tabelweergave van een recordtype](#edit-a-record-inline-in-the-table-view-of-a-record-type)
-* [Uit de voorvertoning van de record in een weergave](#edit-a-record-from-the-records-preview-in-a-view)
-* [Van de recordpagina](#edit-a-record-from-the-records-page)
-* [Van een Workfront-object in de sectie Planning](#edit-a-record-from-a-workfront-object-in-the-planning-section)
+* [De tabelweergave van een recordtype](#edit-a-record-inline-in-the-table-view-of-a-record-type)
+* [De voorvertoning van de record in een weergave](#edit-a-record-from-the-records-preview-in-a-view)
+* [De recordpagina](#edit-a-record-from-the-records-page)
+* [Een Workfront-object in het gedeelte Planning](#edit-a-record-from-a-workfront-object-in-the-planning-section)
 
 ### Een record inline bewerken in de tabelweergave van een recordtype
 
@@ -160,7 +160,7 @@ Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-rec
    >  * Gekoppelde velden die worden gemaakt door het verbinden van recordtypen. Voor meer informatie, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * Velden van de volgende typen: Gemaakt door, Gemaakt op datum, Laatst gewijzigd door, Datum Laatst gewijzigd, Formule.
 
-1. (Facultatief en voorwaardelijk) wanneer u een alinea-type gebied uitgeeft, gebruik de volgende **het formatteren opties van de Tekst 0&rbrace; Rich &lbrace;:**
+1. (Facultatief en voorwaardelijk) wanneer u een alinea-type gebied uitgeeft, gebruik de volgende **het formatteren opties van de Tekst 0} Rich {:**
 
    * Vet
    * Cursief
@@ -337,3 +337,40 @@ Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-rec
 Nadat u records met Workfront-objecten hebt verbonden, kunt u Workfront Planning-records in Workfront bewerken vanuit de sectie Planning van het object.
 
 Voor meer informatie, zie [ recordverbindingen van de voorwerpen van Workfront beheren ](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+
+
+<!--
+
+<div class="preview">
+
+## Add new choices to an existing select field when editing records in the table view
+
+You can add new choices to an existing single- or multi-select field when editing records in the table view. 
+
+>[!IMPORTANT]
+>
+>The functionality described in this section is available only in the table view. It is not available in any other areas where single- or multi-select fields display.
+
+
+**EXAMPLE**
+
+You might have a single-select field called Status that has the choices New and Closed, and you want to add a choice for an In progress status. You can add the choice by doing one of the following things:
+
+* Editing the field. For information, see [Edit fields](/help/quicksilver/planning/fields/edit-fields.md)
+* Adding a new option while editing the record in the table view, as described below. 
+
+
+To add a new choice to an existing select field when editing a record: 
+
+1. Go to a record type page and open the table view. 
+1. Add the single- or multi-select field that you would like to add a choice to in the table view as a new column. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
+1. Start editing the field inline by double-clicking the cell for the field. 
+1. Type the name of the choice you want to add, then click **Add choice**.
+
+    ![Add choice in single-select field in table view](assets/add-choice-in-table-view-for-single-select-field.png)
+
+    The new choice is added immediately to the single-select field. 
+
+</div>
+
+-->

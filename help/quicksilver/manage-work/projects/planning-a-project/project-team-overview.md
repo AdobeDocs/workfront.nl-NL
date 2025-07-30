@@ -3,13 +3,13 @@ content-type: overview
 product-area: projects;agile-and-teams
 navigation-topic: plan-a-project
 title: Overzicht van het projectteam
-description: De gebruikers die met een project in één of andere capaciteit worden geassocieerd vormen het projectteam. De gebruikers die onder het gebied van Mensen van een project worden vermeld zijn de gebruikers die omhoog het projectteam maken.
+description: De gebruikers die met een project in één of andere capaciteit worden geassocieerd vormen het projectteam. De gebruikers die onder het gebied van Mensen van een project of een malplaatje worden vermeld zijn de gebruikers die omhoog het projectteam maken.
 author: Alina
 feature: Work Management
 exl-id: ceb25fb1-57fc-476c-b92c-fc41aadc0b5b
-source-git-commit: 3dfb30646e8a967264f7e562441a52a059d73d32
+source-git-commit: d77da0569389104172fc759c53a9eb00acec4f65
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 
 Een projectteam bestaat uit gebruikers die met een project in één of andere capaciteit worden geassocieerd. De gebruikers onder het gebied van Mensen van een project worden vermeld maken uit het projectteam dat. Bijvoorbeeld, zijn de gebruikers die aan het project of de projecteigenaar worden toegewezen deel van het projectteam.
 
+De gebruikers verbonden aan het werk aan een projectmalplaatje of zijn de malplaatjeeigenaar of sponsor deel van het toekomstige projectteam nadat het project gebruikend het malplaatje wordt gecreeerd.
+
 ## Projectteamleden
 
 U kunt gebruikers aan een projectteam of manueel of automatisch toewijzen. Voor meer informatie, zie de sectie gebruikers aan een Team van het Project in het artikel [ toevoegen leidt het Team van het Project ](../../../manage-work/projects/planning-a-project/manage-project-team.md).
@@ -28,7 +30,13 @@ Wanneer u gebruikers aan het Team van het Project manueel toevoegt, ontvangen zi
 
 ## Meldingen aan projectteamleden
 
-Afhankelijk van welke e-mailberichten uw beheerder van Adobe Workfront toelaat, worden de gebruikers op een projectteam op de hoogte gebracht van diverse acties op een project. Voor meer informatie over het toelaten van e-mailberichten, zie [ gebeurtenisberichten voor iedereen in het systeem ](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) vormen.
+Afhankelijk van welke e-mailberichten uw beheerder van Adobe Workfront toelaat, worden de gebruikers op een projectteam op de hoogte gebracht van diverse acties op een project.
+
+Zie ook de volgende artikelen voor meer informatie:
+
+* [Typen gebeurtenismeldingen](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
+
+* [Gebeurtenismeldingen configureren voor iedereen in het systeem](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
 
 >[!NOTE]
 >

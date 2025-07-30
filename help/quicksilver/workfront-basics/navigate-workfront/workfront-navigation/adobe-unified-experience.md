@@ -3,10 +3,10 @@ product-area: workfront-navigation
 navigation-topic: workfront-navigation
 title: Adobe Unified Experience for  [!DNL Workfront]
 description: De toegang tot van  [!DNL Workfront]  door Adobe Experience Cloud geeft u een naadloze, verenigde ervaring voor het beheren van al uw toepassingen van Adobe.
-author: Nolan
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: e292b54c4488ac12e1af5719117cf6c3cf3392a7
+source-git-commit: bd34fe3404e590e74ecd666c039f78c0cc0d72e7
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 0%
@@ -125,7 +125,7 @@ Als uw organisatie een afzonderlijke toepassing gebruikt om wachtwoorden te behe
 
 Als uw wachtwoord wordt beheerd door [!DNL Adobe] , kunt u het wachtwoord wijzigen in uw Adobe-account.
 
-[ zie dit artikel voor het veranderen van uw wachtwoord van Adobe.](https://helpx.adobe.com/nl/manage-account/using/change-or-reset-password.html){target="_blank"}
+[ zie dit artikel voor het veranderen van uw wachtwoord van Adobe.](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}
 
 Neem contact op met de beheerder voor meer informatie over het wijzigen van het wachtwoord.
 

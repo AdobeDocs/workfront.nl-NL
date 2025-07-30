@@ -7,9 +7,9 @@ description: In de sectie Updates van een object worden opmerkingen weergegeven 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: de42974a9a5c4c346ef3ae1cce09968befd1381c
+source-git-commit: d77da0569389104172fc759c53a9eb00acec4f65
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1195'
 ht-degree: 0%
 
 ---
@@ -322,7 +322,7 @@ Houd rekening met het volgende wanneer u updates voor gebruikers en teams bekijk
 
    * Documenttoevoeging, -verwijdering en andere documentupdates
    * Uur-optellen, verwijderen, optellen namens en andere uur-ingsupdates
-   * Notities, updates van aangepaste velden
+   * Updates voor aangepaste velden
    * Updates van gebruikersprofielen (updates van de avatar van de gebruiker, Mobiel nummer, Bespreek me over gebied, Titel)
    * Toevoeging, verwijdering, wijziging van toegangsniveau, wijzigingen in ingebouwde gebruikersvelden
    * Financiële informatie uit taken en projecten.
