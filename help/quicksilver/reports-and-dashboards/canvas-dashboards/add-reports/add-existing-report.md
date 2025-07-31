@@ -6,14 +6,18 @@ description: Rapporten die zijn gemaakt met het gereedschap Adobe Workfront-rapp
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: f77990ab-da7a-4dcb-89fa-f65ed2b79522
-source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
+source-git-commit: b8f25d9490173f8f23a0ba545486c99202f05a69
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
 
 # Een bestaand rapport toevoegen aan een Canvasdashboard
+
+>[!IMPORTANT]
+>
+>De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Voor meer informatie, zie {de bètainformatie van de Dashboards van het 0} Canvas [.](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
 
 Rapporten die zijn gemaakt met het gereedschap Adobe Workfront-rapporten, kunnen worden toegevoegd aan een Canvasdashboard. Voor meer informatie bij het creëren van rapporten, zie [ begonnen worden met rapporten ](/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
 
@@ -58,7 +62,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. Klik **Nieuw Dashboard** in de hoger-juiste hoek.
 
-1. In **creeer dashboard** doos, ga de 2&rbrace; Naam van het dashboard **en** Beschrijving **in.**
+1. In **creeer dashboard** doos, ga de 2} Naam van het dashboard **en** Beschrijving **in.**
 
 1. Klik **creëren**.
 
