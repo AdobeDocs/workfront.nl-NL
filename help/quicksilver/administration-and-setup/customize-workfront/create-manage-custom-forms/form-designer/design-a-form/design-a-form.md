@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: b95d536bc251c2575b105f38691a66bde67502b8
+source-git-commit: 75ac50d23c80aaf1b2100b02780adfe7fd7abb39
 workflow-type: tm+mt
-source-wordcount: '6589'
+source-wordcount: '6606'
 ht-degree: 0%
 
 ---
 
 # Een aangepast formulier maken
+
+{{highlighted-preview}}
 
 <!-- Audited: 6/2025 -->
 
@@ -69,7 +71,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    ![ kies objecten type ](assets/choose-object-type.jpg)
 
 1. In **voeg een gebied van de vormnaam** toe, typ de titel van de douanevorm.
-1. (Facultatief) als u meer objecten types aan de vorm wilt toevoegen zodat het aan meer voorwerpen kan worden vastgemaakt, **&#x200B;**&#x200B;pictogram ![ toevoegen ](assets/add-objects-icon.png) naast **Objecttypes**, dan selecteren het type u in het menu wilt dat toont. U kunt dit herhalen om zoveel objecttypen toe te voegen als u wilt.
+1. (Facultatief) als u meer objecten types aan de vorm wilt toevoegen zodat het aan meer voorwerpen kan worden vastgemaakt, **** pictogram ![ toevoegen ](assets/add-objects-icon.png) naast **Objecttypes**, dan selecteren het type u in het menu wilt dat toont. U kunt dit herhalen om zoveel objecttypen toe te voegen als u wilt.
 
    Nadat u meerdere objecten aan het formulier hebt toegevoegd, kunt u op de X op een objecttype klikken om het object uit het formulier te verwijderen.
 
@@ -133,7 +135,7 @@ Elke aangepaste veldnaam moet uniek zijn in het Workfront-exemplaar van uw organ
 >[!NOTE]
 >
 >Hoewel dit mogelijk is, raden we u aan deze naam niet te wijzigen nadat u of andere gebruikers het aangepaste formulier in Workfront hebben gebruikt. Als u dat doet, herkent het systeem het aangepaste veld niet meer waar er nu naar wordt verwezen in andere gebieden van Workfront.
->&#x200B;>Bijvoorbeeld, als u het douanegebied aan een rapport toevoegt en later zijn naam verandert, herkent Workfront het niet in het rapport en het zal daar ophouden correct te werken tenzij u het aan het rapport gebruikend de nieuwe naam opnieuw toevoegt.
+>>Bijvoorbeeld, als u het douanegebied aan een rapport toevoegt en later zijn naam verandert, herkent Workfront het niet in het rapport en het zal daar ophouden correct te werken tenzij u het aan het rapport gebruikend de nieuwe naam opnieuw toevoegt.
 >
 >We raden u aan geen naam te typen die al wordt gebruikt voor ingebouwde Workfront-velden.
 >
@@ -572,7 +574,7 @@ U voegt als volgt velden voor typekop en datum toe:
 
 ### Externe opzoekvelden toevoegen
 
-Een extern raadplegingsgebied roept externe API aan en keert waarden als opties op een drop-down gebied terug. Gebruikers die werken met het object waaraan het aangepaste formulier is gekoppeld, kunnen een of meer van deze opties selecteren in de vervolgkeuzelijst. Het externe opzoekveld is ook beschikbaar in lijsten en rapporten.
+Een extern raadplegingsgebied roept externe API aan en keert waarden als opties op een drop-down gebied terug. Gebruikers die werken met het object waaraan het aangepaste formulier is gekoppeld, kunnen een of meer van deze opties in de vervolgkeuzelijst selecteren, afhankelijk van het feit of het externe opzoekveld één veld of een veld met meerdere selecties is. De externe opzoekvelden zijn ook beschikbaar in lijsten en rapporten.
 
 Voor voorbeelden om het Externe raadplegingsgebied te gebruiken om de zelfde instantie van Workfront of openbare API te roepen, zie [ Voorbeelden van het Externe raadplegingsgebied in een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
 
@@ -583,7 +585,7 @@ Voor voorbeelden om het Externe raadplegingsgebied te gebruiken om de zelfde ins
 
 Een externe zoekopdracht toevoegen:
 
-1. Op het **Nieuwe gebied** lusje op de linkerkant van het scherm, vind **Externe raadpleging** en sleep het aan een sectie op het canvas.
+1. Op het **Nieuwe gebied** lusje op de linkerkant van het scherm, vind **Externe raadpleging** of <span class="preview">**Multi-uitgezochte externe raadpleging**</span>, en sleep het aan een sectie op het canvas.
 1. Configureer rechts in het scherm de opties voor het aangepaste veld:
 
    <table style="table-layout:auto"> 
@@ -632,12 +634,12 @@ Een externe zoekopdracht toevoegen:
       <td role="rowheader">JSON-pad</td>
       <td><p>Typ of plak het JSON-pad voor de API.</p> <p>Met deze optie kunnen gegevens worden opgehaald uit de JSON die door de API-URL wordt geretourneerd. Hiermee kunt u selecteren welke waarden in de JSON-code worden weergegeven in de vervolgkeuzelijst.</p><p>Bijvoorbeeld, als uw API URL JSON in het volgende formaat terugkeert, dan kunt u "$.data[*].name"gebruiken om V.S. en Canada als drop-down opties te selecteren:</br>
       <pre>
-      &lbrace;
-       data: &lbrace;
+      {
+       data: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Voor meer informatie over de Weg JSON en het verzekeren u de correcte Weg JSON schrijft, verwijs naar <a href="https://jsonpath.com/"> https://jsonpath.com/ </a>.</p></td>
@@ -647,8 +649,8 @@ Een externe zoekopdracht toevoegen:
       <td><p>Klik <strong> toevoegen Kopbal </strong>, dan type of kleef het zeer belangrijk-waardepaar dat voor authentificatie met API wordt vereist.</p><p><strong> Nota:</strong> de gebieden van de Kopbal zijn geen veilige plaats om geloofsbrieven op te slaan, en u zou voorzichtig moeten zijn van wat u ingaat en bewaart.</p></td>
      </tr>
      <tr> 
-      <td role="rowheader">Vervolgkeuzelijst met meerdere selecties</td>
-      <td><p>Selecteer deze optie als u wilt dat de gebruiker meer dan één waarde in de vervolgkeuzelijst kan selecteren.</p></td>
+      <td role="rowheader"><span class="preview">Vervolgkeuzelijst met meerdere selecties</span></td>
+      <td><p><span class="preview">Selecteer deze optie als u wilt dat de gebruiker meer dan één waarde in de vervolgkeuzelijst kan selecteren.</span></p></td>
      </tr>
      </tr>
      <tr> 

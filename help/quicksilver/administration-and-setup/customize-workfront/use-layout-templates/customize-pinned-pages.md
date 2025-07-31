@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 76797ce2afb6a6a929531f02ed3a3b3f75240602
+source-git-commit: 0e7000597e2347bff0bc626d21aa9a6c9a839c0b
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Vastgezette pagina&#39;s aanpassen met behulp van een lay-outsjabloon
 
-In een lay-outsjabloon kunt u de pagina&#39;s vastzetten die gebruikers altijd beschikbaar moeten hebben boven aan Adobe Workfront. Deze kunnen of pagina&#39;s zijn die via het Belangrijkste het menupictogram van het Menu ![ Belangrijkste ](assets/main-menu-icon.png) of het Belangrijkste het menupictogram van het Menu ![ ](assets/main-menu-icon.png) worden betreden wanneer beschikbaar, of dashboards.
+In een lay-outsjabloon kunt u de pagina&#39;s vastzetten die gebruikers altijd beschikbaar moeten hebben boven aan Adobe Workfront. Deze kunnen of pagina&#39;s zijn die via het Belangrijkste het menupictogram van het Menu ![ Belangrijkste ](assets/main-menu-icon.png) of het Belangrijkste het menupictogram van het Menu ![ ](assets/main-menu-icon-left-nav.png) worden betreden wanneer beschikbaar, of dashboards.
 
 Om het even welke spelden die uw gebruikers op hun hebben toegevoegd worden getoond rechts van de spelden u in het lay-outmalplaatje toevoegt.
 
