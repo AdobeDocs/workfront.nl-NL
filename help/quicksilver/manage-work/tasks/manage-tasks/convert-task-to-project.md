@@ -6,9 +6,9 @@ description: Wanneer een taak in een project een grotere hoeveelheid inspanning 
 author: Alina
 feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
-source-git-commit: b781687b175167784367a2fdec158d97fb3fd6a4
+source-git-commit: 0c45c768be1dda579e507f5f6ff4b127021a5f73
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1148'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 * Alle subtaken, kwesties en nota&#39;s komen tot het nieuwe project.
 * Documenten, documentversies en proefdrukken worden naar het nieuwe project verplaatst.
 * De status en het percentage voltooide van alle subtaken en kwesties worden bewaard.
-* Gedeelde gebruikers van de taak worden gedeelde gebruikers op het project.
+* De taken worden de toegewezen personen en de gebruiker die de taak in het project omzetten gedeelde gebruikers op het project.
 * De begindatum van het project is ingesteld op de begindatum van de taak.
 * De volgende lijst maakt een lijst van projectinformatie en of het van het malplaatje of van de taak overbrengt:
 
