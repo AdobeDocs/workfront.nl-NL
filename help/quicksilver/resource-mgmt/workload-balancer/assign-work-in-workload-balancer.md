@@ -6,14 +6,16 @@ description: Als middelmanager, kunt u de Balancer van de Werkbelasting van Adob
 author: Lisa
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
+source-git-commit: 6db33763294bc9fa343bb010b318fbcceccfff4c
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1058'
 ht-degree: 0%
 
 ---
 
 # Overzicht van het toewijzen van werk in de werklastverdeler
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 5/2025 -->
 
@@ -144,11 +146,11 @@ In de volgende tabel wordt beschreven welke items in elk gebied worden weergegev
  </tbody> 
 </table>
 
-&#42; wanneer een het werkpunt aan een gebruiker en een rol wordt toegewezen, toont het in het Niet toegewezen gebied van het Werk slechts wanneer de rol Primaire Toegewezen is.
+&#42; wanneer een het werkpunt aan een gebruiker en een rol wordt toegewezen, toont het in het Niet toegewezen gebied van het Werk slechts wanneer de rol Primaire Toegewezen is. <span class="preview"> de taken van de Rol worden getoond onder het werkpunten in het Niet toegewezen gebied van het Werk wanneer **het plaatsen van de Taken van de Rol** wordt toegelaten.</span>
 
 &#42;&#42; wanneer een het werkpunt aan een gebruiker en een andere entiteit wordt toegewezen, toont het in het Toegewezen gebied van het Werk slechts wanneer de gebruiker de Primaire Ontvanger is.
 
-Voor meer informatie over de Niet toegewezen en Toegewezen gebieden van de Balancer van de Werkbelasting, zie [ de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) navigeren.
+Voor meer informatie over de Niet toegewezen en Toegewezen gebieden van het Werk van de Balancer van de Werkbelasting, en de montages van de Balancer van de Werkbelasting, zie [ de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) navigeren.
 
 ## Overwegingen voor veelvoudige taken aan baanrollen, teams, en gebruikers
 

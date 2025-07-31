@@ -6,14 +6,16 @@ description: Gebruik de werklastbalans om de beschikbaarheid van uw bronnen te b
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: 2d674504274dcbb4a44da80694fac331d3f17d88
 workflow-type: tm+mt
-source-wordcount: '4068'
+source-wordcount: '4271'
 ht-degree: 0%
 
 ---
 
 # Navigeren door werklastbalans
+
+{{preview-fast-release-general}}
 
 <!--Audited: 12/2024-->
 
@@ -21,7 +23,7 @@ Gebruik de werklastbalans in Adobe Workfront om werk toe te wijzen aan gebruiker
 
 De werklastbalans is beschikbaar in meerdere gebieden van Adobe Workfront. Navigeren is vergelijkbaar in alle gebieden.
 
-Voor meer informatie over waar de Balancer van de Werklast wordt gevestigd, zie [ plaats van de Balancer van de Werkbelasting ](https://experienceleague.adobe.com/nl/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
+Voor meer informatie over waar de Balancer van de Werklast wordt gevestigd, zie [ plaats van de Balancer van de Werkbelasting ](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
 
 ## Toegangsvereisten
 
@@ -38,7 +40,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td><p>Nieuw: Standaard</p>
        <p>of</p>
        <p>Huidig: Plan, wanneer het gebruiken van de Balancer van de Werkbelasting in het gebied van de Middelen;</br>
@@ -62,7 +64,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -80,8 +82,9 @@ Houd rekening met het volgende wanneer u de werklastbalans weergeeft:
   >* De punten van het werk die aan een baanrol of een team worden toegewezen, en ook aan een gebruiker worden toegewezen, tonen in zowel het Niet toegewezen gebied van het Werk als onder de toegewezen naam van de gebruiker in het Toegewezen gebied van het Werk.
   >* De punten van het werk die aan een gebruiker en een baanrol worden toegewezen, waar de baanrol als primaire ontvanger van het punt wordt geselecteerd, tonen in het Niet toegewezen gebied van het Werk.
   >* De punten van het werk die aan meer dan één gebruikersvertoning onder alle toegewezen gebruikersnamen in het Toegewezen gebied van het Werk worden toegewezen.
+  >* <span class="preview"> de taken van de Rol worden getoond onder het werkpunten in het Niet toegewezen gebied van het Werk wanneer het plaatsen van de Taken van de Rol van de Show wordt toegelaten. Voor informatie, zie de sectie [ de mening ](#customize-the-view) in dit artikel aanpassen.</span>
 
-  Voor meer informatie, zie &quot;de gebieden van de Toewijzing in de Balancer van de Werkbelasting&quot;in [ Overzicht van het toewijzen van het werk in de Balancer van de Werkbelasting ](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+  Voor meer informatie, zie [ gebieden van de Toewijzing in de Balancer van de Werkbelasting ](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md#assignment-areas-in-the-workload-balancer) in [ Overzicht van het toewijzen van het werk in de Balancer van de Werklast ](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 * Wanneer een project geen taken tijdens een periode heeft, is de bar op het projectniveau leeg voor die tijd.
 
@@ -106,8 +109,8 @@ Zie ook de volgende artikelen voor meer informatie over het weergeven van inform
 
 Zie ook de volgende artikelen voor informatie over het beheer van bronnen met behulp van Workload Balancer:
 
-* [ Overzicht van het toewijzen van het werk in de Balancer van de Werkbelasting ](https://experienceleague.adobe.com/nl/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
-* [ beheer gebruikerstoewijzingen in de Balancer van de Werklast ](https://experienceleague.adobe.com/nl/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
+* [ Overzicht van het toewijzen van het werk in de Balancer van de Werkbelasting ](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
+* [ beheer gebruikerstoewijzingen in de Balancer van de Werklast ](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
 
 
 ## Navigeer de Balancer van de Werkbelasting voor veelvoudige projecten in het gebied van de Middelen
@@ -139,6 +142,8 @@ In het gedeelte Niet toegewezen werk worden standaard geen werkitems weergegeven
 
         Voor informatie over het gebruiken van filters, zie [ informatie van de Filter in de Balancer van de Werklast ](../workload-balancer/filter-information-workload-balancer.md).
 
+      * <span class="preview"> de taken van de Rol onder de vertoning van de het werkpunten slechts wanneer u het plaatsen van de Taken van de Rol van de Show toelaat. Voor informatie, zie de sectie [ de mening ](#customize-the-view) in dit artikel aanpassen.</span>
+
       * De vertoning van projecten slechts wanneer u de Groep door het plaatsen van het Project toelaat. Voor informatie, zie de sectie [ de mening ](#customize-the-view) in dit artikel aanpassen.
 
    * Het **Toegewezen gebied van het Werk** toont de volgende het werkpunten:
@@ -161,7 +166,7 @@ In het gedeelte Niet toegewezen werk worden standaard geen werkitems weergegeven
             > 
             >Voor informatie over het aanpassen van montages, zie de sectie [ de mening ](#customize-the-view) in dit artikel aanpassen.
 
-1. (Facultatief) klik het **pictogram van de Filter ![ filter ](assets/filter-icon.png) in het** Toegewezen gebied van het Werk **, dan selecteren de** Standaard filter **in het** Voorgestelde **gebied van de filterdoos.**
+1. (Facultatief) klik het **pictogram van de Filter** filter ![ in het ](assets/filter-icon.png) Toegewezen gebied van het Werk **, dan selecteren de** Standaard filter **in het** Voorgestelde **gebied van de filterdoos.**
 
    Wanneer het toepassen van het Standaardfilter, tonen de gebruikers die tot om het even welk van uw teams en hun het werkpunten behoren. U kunt een kopie van dit filter bewerken.
 
@@ -235,10 +240,14 @@ In het gedeelte Niet toegewezen werk worden standaard geen werkitems weergegeven
 
    ![ de lijn van de Scheiding ](assets/wb-adjust-panel-size.png)
 
-1. Klik het **pictogram van Montages ![ pictogram van Montages** ](assets/settings-gear-icon.png).
+1. Klik het **pictogram van Montages** pictogram van Montages ![ ](assets/settings-gear-icon.png).
 
    Het deelvenster Instellingen wordt aan de rechterkant weergegeven.
 
+   <span class="preview"> beeld van de Steekproef in het milieu van de Voorproef:</span>
+   ![ het paneel van de Montages van de Balancer van de Werklast ](assets/workload-balancer-settings.png)
+
+   Voorbeeldafbeelding in de productieomgeving:
    ![ het paneel van Montages ](assets/settings-box-options-global-with-color-theme-and-percentage-wb-nwe.png)
 
    Selecteer van de hieronder vermelde opties om de informatie bij te werken u in de Balancer van de Werklast bekijkt, dan klik het **X pictogram** in het hoger-recht van de doos van Montages om het te sluiten.
@@ -260,6 +269,8 @@ In het gedeelte Niet toegewezen werk worden standaard geen werkitems weergegeven
 
      Een groen vinkje wordt in de rechterbovenhoek van een taak of uitgiftebalk weergegeven wanneer deze klaar zijn. Het zelfde pictogram toont voor een project wanneer de taken of de kwesties voor het geselecteerde tijdkader van het project worden voltooid.
    * **toon resterende tijd**: Wanneer dit wordt toegelaten, toont Workfront het verschil tussen de dagelijkse tijd waarvoor de gebruiker beschikbaar is om op hun programma&#39;s en de uren te werken waarvoor zij in het Toegewezen gebied van het Werk voor de gebruikers worden toegewezen. Dit is standaard uitgeschakeld en er wordt standaard toegewezen tijd weergegeven.
+   * <span class="preview">**toon de Taken van de Rol**: Wanneer dit wordt toegelaten, tonen de taken van de rol in het Niet toegewezen gebied van het Werk onder hun toegewezen het werkpunten. Dit wordt toegelaten door gebrek.</span>
+
    * In de **Uitgezochte sectie van het kleurenthema**, selecteer de kleur die u voor het project en de taakbars wilt.
 
      >[!TIP]
@@ -304,17 +315,18 @@ In het gedeelte Niet toegewezen werk worden standaard geen werkitems weergegeven
    >* U moet de Groep door het plaatsen van het Project toelaten om dagelijks Geplande Uren voor projecten te tonen.
    >* Als u de werklastverdeling per week weergeeft, worden de wekelijkse geplande uren weergegeven.
 
-
 1. (Optioneel) Houd de toegewezen tijd in de gebruikerslijn over om inzicht te krijgen in de capaciteit en de toewijzing van de gebruiker. De capaciteit is de beschikbaarheid van de gebruiker volgens hun planning.
 
    ![ Toegewezen tijddetails ](assets/overallocation-vs-capacity-tooltip-wb-nwe.png)
 
 1. (Facultatief) klik het **pictogram van de Toewijzingen van de Verbergen** ![ tonen toewijzingspictogram ](assets/show-allocations-icon-small.png) om de naam van de taken en kwesties in de bars van de het werkpunten te tonen.
-1. Klik het **Meer menu** pictogram ![ Meer pictogram ](assets/more-icon.png) aan het recht van een taak of uitgeversnaam, dan klik één van de opties hieronder.
+1. Klik het **Meer menu** pictogram ![ Meer pictogram ](assets/more-icon.png) rechts van een taak, kwestie, <span class="preview"> of rol </span> naam, dan klik één van de opties hieronder.
 
    ![ Meer menu ](assets/more-menu-right-of-task-350x104.png)
 
-   * **wijs dit aan** toe, dan begin de naam van een gebruiker, een rol, of een team te typen u het het werkpunt aan in het **de mensen van het Onderzoek, de rol, of het 3&rbrace; gebied van teams wilt toewijzen.**
+   * **wijs dit aan** toe, dan begin de naam van een gebruiker, een rol, of een team te typen u het het werkpunt aan in het **de mensen van het Onderzoek, de rol, of het 3} gebied van teams wilt toewijzen.**
+
+     Klik **Geavanceerd** om tot het Geavanceerde scherm van Toewijzingen voor het het werkpunt toegang te hebben. Voor meer informatie, zie [ Geavanceerde taken ](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md) creëren.
 
      U kunt ook de volgende sneltoetsen gebruiken om taken of problemen toe te wijzen:
 
@@ -322,6 +334,10 @@ In het gedeelte Niet toegewezen werk worden standaard geen werkitems weergegeven
       * In Mac: CMD + klik op de taak of de uitgiftebalk.
 
      Voor meer informatie over het toewijzen van het werkpunten aan gebruikers in de Balancer van de Werkbelasting, zie [ Overzicht van het toewijzen van het werk in de Balancer van de Werkbelasting ](../workload-balancer/assign-work-in-workload-balancer.md).
+
+     >[!NOTE]
+     >
+     ><span class="preview"> de taken van de Rol worden slechts getoond onder het werkpunten in het Niet toegewezen gebied van het Werk wanneer het plaatsen van de Taken van de Rol van de Show wordt toegelaten. Voor informatie, zie de sectie [ de mening ](#customize-the-view) in dit artikel aanpassen. De taken van de rol hebben slechts **dit aan** optie in het **Meer menu** toewijzen.</span>
 
      >[!TIP]
      >
@@ -391,12 +407,11 @@ U kunt meer informatie bekijken over de taken en de problemen in Workload Balanc
 
 1. Heb toegang tot de Balancer van de Werkbelasting op het gebied van het Middelen, zoals die in de sectie [ wordt beschreven toegang tot de Balancer van de Werkbelasting voor veelvoudige projecten in het gebied van de Middelen ](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) in dit artikel.
 
-1. Klik het **pictogram van het 1&rbrace; Volledige scherm ![ Volledige het schermpictogram ](assets/full-screen.png) om de Balancer van de Werkbelasting in het volledige scherm te tonen.**
+1. Klik het **pictogram van het 1} Volledige scherm** Volledige het schermpictogram ![ om de Balancer van de Werkbelasting in het volledige scherm te tonen.](assets/full-screen.png)
 
    De werklastbalans neemt het volledige scherm in beslag. Browservensters en tabbladen worden niet weergegeven.
 
-1. Klik het **pictogram ![ van de Uitgang het volledige het schermpictogram ](assets/exit-full-screen.png) om op het standaardscherm terug te keren en de Balancer van de Werkbelasting binnen browser tabel te bekijken.**
-
+1. Klik het **pictogram** van de Uitgang het volledige het schermpictogram ![ om op het standaardscherm terug te keren en de Balancer van de Werkbelasting binnen browser tabel te bekijken.](assets/exit-full-screen.png)
 
 ## Navigeren door de taakverdeler van een team
 
@@ -412,7 +427,7 @@ De pagina van uw Team van het Huis toont door gebrek.
 
    De werklastbalans van een team geeft standaard de volgende informatie weer:
 
-   * In het **Niet toegewezen gebied van het Werk**: De punten van het werk die aan het team of aan het team en baanrollen worden toegewezen en die niet aan gebruikers worden toegewezen.
+   * In het **Niet toegewezen gebied van het Werk**: De punten van het werk die aan het team of aan het team en baanrollen worden toegewezen en die niet aan gebruikers worden toegewezen. <span class="preview"> de taken van de Rol worden getoond onder het werkpunten in het Niet toegewezen gebied van het Werk wanneer het plaatsen van de Taken van de Rol van de Show wordt toegelaten.</span>
    * In het **Toegewezen gebied van het Werk**: De punten van het werk die aan gebruikers worden toegewezen tonen onder de namen van gebruikers.
 
 1. Ga door het navigeren van de Balancer van de Werkbelasting van een team zoals die in [ wordt beschreven de Balancer van de Werkbelasting voor veelvoudige projecten in het gebied van de Hulpbron ](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) sectie van dit artikel.
@@ -428,14 +443,14 @@ De pagina van uw Team van het Huis toont door gebrek.
 
    In Workload Balancer voor het project wordt standaard de volgende informatie weergegeven:
 
-   * In het **Niet toegewezen gebied van het Werk**: De punten van het werk op het project die aan rollen of teams worden toegewezen en niet aan gebruikers worden toegewezen.
+   * In het **Niet toegewezen gebied van het Werk**: De punten van het werk op het project die aan rollen of teams worden toegewezen en niet aan gebruikers worden toegewezen. <span class="preview"> de taken van de Rol worden getoond onder het werkpunten in het Niet toegewezen gebied van het Werk wanneer het plaatsen van de Taken van de Rol van de Show wordt toegelaten.</span>
    * In het **Toegewezen gebied van het Werk**: De punten van het werk op het project die aan minstens één gebruiker worden toegewezen.
 
    We raden u aan filters te gebruiken om alleen gebruikers weer te geven die voor u van belang zijn.
 
    U kunt bijvoorbeeld overwegen alleen gebruikers weer te geven die tot uw teams of groepen behoren. Voor meer informatie, zie [ informatie van de Filter in de Balancer van de Werklast ](../workload-balancer/filter-information-workload-balancer.md).
 
-1. (Facultatief) klik het **pictogram van de Filter ![ filter ](assets/filter-icon.png) in het Toegewezen gebied van het Werk en selecteer de** het werkpunten van dit project **optie van het** Voorgestelde **gebied van het filterpaneel.** Dit filter is standaard uitgeschakeld.
+1. (Facultatief) klik het **pictogram van de Filter** filter ![ in het Toegewezen gebied van het Werk en selecteer de ](assets/filter-icon.png) het werkpunten van dit project **optie van het** Voorgestelde **gebied van het filterpaneel.** Dit filter is standaard uitgeschakeld.
 
    Wanneer deze optie wordt geselecteerd, slechts de punten die aan gebruikers op de geselecteerde projectvertoning worden toegewezen.
 

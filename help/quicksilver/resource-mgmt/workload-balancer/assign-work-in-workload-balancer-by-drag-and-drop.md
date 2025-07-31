@@ -6,14 +6,16 @@ description: U kunt werkitems toewijzen met de Adobe Workfront Workload Balancer
 author: Lisa
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 69ac06c36440d9fbbf0c8c9f3e019374da2e2f91
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '991'
 ht-degree: 0%
 
 ---
 
 # Werk toewijzen in Workload Balancer door slepen en neerzetten
+
+{{preview-fast-release-general}}
 
 U kunt werkitems toewijzen met de Adobe Workfront Workload Balancer door werkitems naar de juiste gebruikers te slepen en neer te zetten.
 
@@ -70,11 +72,15 @@ U kunt een item uit het gebied Niet toegewezen werk toewijzen aan een gebruiker 
 
    U kunt werk aan gebruikers toewijzen gebruikend de Balancer van de Werkbelasting in het gebied van het Middelen, op het project, of op het teamniveau. Voor meer informatie over waar de Balancer van de Werkbelasting in Workfront wordt gevestigd, zie [ plaats van de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-1. (Facultatief) ga naar het **Niet toegewezen gebied van het Werk** en pas een filter op meningstaken en kwesties toe die niet aan gebruikers worden toegewezen
+1. (Facultatief) ga naar het **Niet toegewezen gebied van het Werk** en pas een filter op meningstaken, kwesties, <span class="preview"> en roltaken </span> toe die niet aan gebruikers worden toegewezen
 
    of
 
    Ga naar het **Toegewezen gebied van het Werk** en breid de naam van een gebruiker uit om de het werkpunten te bekijken die aan hen worden toegewezen, als u hun punten opnieuw wilt toewijzen.
+
+   >[!NOTE]
+   >
+   ><span class="preview"> de taken van de Rol worden getoond onder het werkpunten in het Niet toegewezen gebied van het Werk wanneer het plaatsen van de Taken van de Rol van de Show wordt toegelaten. Voor meer informatie, zie [ de mening ](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view) in [ aanpassen de Balancer van de Werkbelasting ](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).</span>
 
 1. (Voorwaardelijk) in de Balancer van de Werklast van een project, klik **toon alle gebruikers** pictogram ![ tonen alle gebruikers ](assets/show-all-users-icon-project-workload-balancer.png) om alle gebruikers van Workfront te tonen.
 
@@ -84,27 +90,30 @@ U kunt een item uit het gebied Niet toegewezen werk toewijzen aan een gebruiker 
 
    ![ Gebruiker op het project ](assets/user-on-the-project-indicator-highlighted-project-workload-balancer.png)
 
-
    >[!TIP]
    >
    >* De optie Alle gebruikers weergeven is alleen beschikbaar in Workload Balancer van een project.
    >* Gebruik filters om alleen de gebruikers weer te geven die voor u van belang zijn. Gebruik bijvoorbeeld een filter om alleen gebruikers van uw teams of groepen weer te geven.
 
-
-
-1. Klik de bar van een het werkpunt dat of op de geplande of geprojecteerde chronologie wijst en het over de naam van een gebruiker in het **Toegewezen** gebied sleept.
+1. Klik de bar van een het werkpunt <span class="preview"> of roltaak </span> die of de geplande of geprojecteerde chronologie wijst en het over de naam van een gebruiker in het **Toegewezen** gebied sleept.
 
    De gebruiker waarop u de muisaanwijzer plaatst om het werkitem naar te zetten, wordt gemarkeerd.
+
+   <span class="preview"> wanneer het slepen van en het laten vallen van roltaken, wordt de gebruiker benadrukt in oranje als hun huidige rol niet de roltaak aanpast. U kunt het werk aan de gebruiker nog toewijzen wanneer de rollen niet aanpassen.</span>
 
    >[!TIP]
    >
    >De Geplande Uren voor de gebruiker u over update in echt - tijd met het aantal dagelijkse Geplande Uren van het het werkpunt beweegt, om erop te wijzen wat het effect van het toevoegen van een nieuw punt aan hun algemene toewijzing zou kunnen zijn.
 
-   ![ punt van de Daling aan toegewezen ](assets/drag-drop-item-from-unassigned-to-assigned-wb-nwe-350x152.png)
+   <span class="preview"> beeld van de Steekproef in het milieu van de Voorproef:</span>
+   ![ punt van de Daling aan een gebruiker ](assets/wb-drag-drop-role-or-task-to-user.png) toe te wijzen
 
-1. Als u klaar bent, zet u het geselecteerde werkitem neer op dezelfde regel als de naam van de gebruiker in het Toegewezen gebied. Het punt wordt toegewezen en de toegewezen Geplande Uren worden bijgewerkt voor de gebruiker met de nieuwe uren van het het werkpunt.
+   Voorbeeldafbeelding in de productieomgeving:
+   ![ punt van de Daling aan een gebruiker ](assets/drag-drop-item-from-unassigned-to-assigned-wb-nwe-350x152.png) toe te wijzen
 
-   Als het punt aan een baanrol werd toegewezen die de gebruiker niet kan vervullen, toont het punt onder de naam van de gebruiker in het Toegewezen gebied van het Werk en het blijft ook in het Niet toegewezen gebied van het Werk om erop te wijzen dat de baanrol verbonden aan het nog niet door een gebruiker is vervangen.
+1. Wanneer u klaar bent, laat vallen het geselecteerde het werkpunt <span class="preview"> of roltaak </span> in de zelfde lijn zoals de naam van de gebruiker in het Toegewezen Gebied. Het punt wordt toegewezen en de toegewezen Geplande Uren worden bijgewerkt voor de gebruiker met de nieuwe uren van het het werkpunt.
+
+   <span class="preview"> als het plaatsen van de Taken van de Rol van de Show niet </span> wordt toegelaten, en het het werkpunt werd toegewezen aan een baanrol die de gebruiker niet kan vervullen, de puntvertoningen onder de naam van de gebruiker in het Toegewezen gebied van het Werk. Het blijft ook in het Unassigned gebied van het Werk om erop te wijzen dat de baanrol verbonden aan het nog niet door een gebruiker is vervangen.
 
    >[!TIP]
    >

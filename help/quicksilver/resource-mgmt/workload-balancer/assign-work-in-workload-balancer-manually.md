@@ -7,14 +7,16 @@ author: Lisa
 feature: Resource Management
 role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: d93bdaec834f5a66e663c7edc7d9ffa42ffa5918
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
 
 # Handmatig werk toewijzen met Workload Balancer
+
+{{preview-fast-release-general}}
 
 Met de Adobe Workfront Workload Balancer kunt u handmatig werkitems toewijzen aan gebruikers.
 
@@ -71,13 +73,17 @@ U kunt werkitems toewijzen die nog niet aan een gebruiker zijn toegewezen of ite
 
    U kunt werk aan gebruikers toewijzen gebruikend de Balancer van de Werkbelasting in het gebied van het Middelen, op het project, of op het teamniveau. Voor meer informatie over waar de Balancer van de Werkbelasting in Workfront wordt gevestigd, zie [ plaats van de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-1. (Facultatief) ga naar het **Niet toegewezen gebied van het Werk** en pas een filter op meningstaken of kwesties toe
+1. (Facultatief) ga naar het **Niet toegewezen gebied van het Werk** en pas een filter op meningstaken, kwesties, <span class="preview"> of roltaken </span> toe.
 
    of
 
    Ga naar het **Toegewezen gebied van het Werk** en breid de naam van een gebruiker uit om de het werkpunten te bekijken die aan hen worden toegewezen, als u hun punten opnieuw wilt toewijzen.
 
-1. Klik het **Meer menu** ![ Meer menu ](assets/qs-more-menu.png) aan de linkerzijde van de naam van het het werkpunt, dan klik **toewijzen dit aan**.
+   >[!NOTE]
+   >
+   ><span class="preview"> de taken van de Rol worden getoond onder het werkpunten in het Niet toegewezen gebied van het Werk wanneer het plaatsen van de Taken van de Rol van de Show wordt toegelaten. Voor meer informatie, zie [ de mening ](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view) in [ aanpassen de Balancer van de Werkbelasting ](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).</span>
+
+1. Klik het **Meer menu** ![ Meer menu ](assets/qs-more-menu.png) aan de linkerzijde van een naam van het het werkpunt <span class="preview"> of roltaak </span>, dan klik **toewijzen dit aan**.
 
    ![ wijs dit aan ](assets/assign-this-to-link-from-task-wb-nwe-350x104.png) toe
 
