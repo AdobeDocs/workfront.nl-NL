@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: eafc56adab1fad3bbc1a4f3dc8f61e599ab21f57
+source-git-commit: db0a8e78454ffb5b85865265a273e21e99022f9f
 workflow-type: tm+mt
-source-wordcount: '6162'
+source-wordcount: '6262'
 ht-degree: 0%
 
 ---
@@ -84,15 +84,15 @@ We hebben de weergave van de update Verzenden naar gebruiker bijgewerkt wanneer 
 
 Voor informatie, zie [ het projectteam ](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md) leiden.
 
-<!--## Updated experience when editing a Queue Topic in a project or template
+## Bijgewerkte ervaring wanneer het uitgeven van een Onderwerp van de Rij in een project of een malplaatje
 
-**Preview release: July 31, 2025; Production release: August 7, 2025**
+**de versie van de Voorproef: 31 juli, 2025; De versie van de productie: 31 juli, 2025**
 
-We have updated the look and feel of a Queue Topic when editing it on a template. The Queue Topic editing page now matches the design of other areas of Workfront.
+Wij hebben de blik en het gevoel van een Onderwerp van de Rij bijgewerkt wanneer het uitgeven van het op een malplaatje. De pagina voor het bewerken van het onderwerp van de wachtrij komt nu overeen met het ontwerp van andere gebieden van Workfront.
 
-A small functionality change has been applied to the Routing Rules list. To edit A Queue Topic, select the Queue Topic from the list and click the Edit icon. You are no longer directed to the Queue Topic details page before you can edit.
+Een kleine functieverandering is toegepast op de Verpletterende lijst van Regels. Om een Onderwerp van de Rij uit te geven, selecteer het Onderwerp van de Rij van de lijst en klik het Edit pictogram. U wordt niet meer geleid aan de de detailpagina van het Onderwerp van de Rij alvorens u kunt uitgeven.
 
-For more information, see [Create Queue Topics](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).-->
+Voor meer informatie, zie [ de Onderwerpen van de Rij ](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md) creëren.
 
 ## Interface-updates voor factureringsrecords
 
