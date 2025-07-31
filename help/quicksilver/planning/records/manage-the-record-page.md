@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 567fa8c960f7db47279d6cde1f5e90dc7f38ae79
+source-git-commit: fe51ded26c57e3b7137e42ad2218d79adf032b85
 workflow-type: tm+mt
-source-wordcount: '2133'
+source-wordcount: '2241'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # De lay-out van de recordpagina beheren
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview"> de informatie die op deze pagina wordt benadrukt verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 {{planning-important-intro}}
 
@@ -264,11 +264,16 @@ Houd rekening met het volgende wanneer u een pagina Verbonden records aan een re
 
 * U kunt een pagina Verbonden records aan een record toevoegen nadat u de record- of objecttypen hebt verbonden met het recordtype vanuit de tabelweergave van een recordtype.
 
-* U kunt geen pagina Verbonden records toevoegen aan het voorvertoningsgebied van een record. <!--take this out when we release connected record pages to the record preview area-->
+* In de productieomgeving kunt u geen pagina met verbonden records toevoegen aan het voorvertoningsgebied van een record.
+
+  <span class="preview"> u kunt een Verbonden verslagenpagina aan het voorproefgebied van een verslag in het milieu van de Voorproef toevoegen.</span>
 
 * Verbonden recordpagina&#39;s geven alleen de verbonden objecten of records van één object of recordtype in een tabelweergave weer. Op de pagina worden niet alle records van dat type weergegeven in de tabelweergave.
 
-* Nadat u een pagina Verbonden records aan een record hebt toegevoegd, wordt het tabblad Pagina weergegeven vanuit het voorvertoningsgebied van de record, maar deze is leeg. U moet naar de volledige pagina gaan om de lijstmening voor het verbonden verslag te zien. &lt;!—dit verandert als verbonden pagina&#39;s worden vrijgegeven in het voorvertoningsgebied— controleer en verwijder de disclaimer uit—>
+* Afhankelijk van de omgeving die u gebruikt, kan het volgende opvallen:
+
+   * Nadat u in de productieomgeving een pagina met verbonden records aan een record hebt toegevoegd, is het tabblad Pagina zichtbaar vanuit het voorvertoningsgebied van de record, maar is het leeg. U moet naar de volledige pagina gaan om de lijstmening voor het verbonden verslag te zien.
+   * <span class="preview"> in het milieu van de Voorproef, is de Verbonden verslagenpagina zichtbaar van zowel het voorproefgebied van het verslag als van afzonderlijke browser tabel.</span>
 
 * U kunt Verbonden recordpagina&#39;s toevoegen voor de volgende verbonden record- of objecttypen:
 
@@ -281,18 +286,11 @@ Houd rekening met het volgende wanneer u een pagina Verbonden records aan een re
 
 Een pagina voor verbonden records toevoegen:
 
-<!--replace the first 2 steps with these steps when we release connected record page to the record preview area, if this goes both to Preview and Prod: 
+1. Klik op de naam van de record om deze te openen.
+1. Klik **toevoegen pagina** van één van de volgende gebieden:
 
-1. Click the name of the record to open it. 
-1. Click **Add page** from one of the following areas: 
-
-   * The record's preview window
-   * The record's details page, after clicking the **Open in new tab** icon ![Open details in a new tab icon](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview page.  
-
--->
-
-1. Van een mening van de verslagpagina, klik de naam van een verslag om het te openen, dan klik **Open in nieuw lusje** pictogram ![ Open details in een nieuw lusjepictogram ](assets/open-details-in-a-new-tab-icon.png) in de hoger-juiste hoek van de voorproefpagina.
-1. Klik **toevoegen pagina**.
+   * <span class="preview"> het voorproefvenster van het verslag </span>
+   * De de detailspagina van het verslag, na het klikken van **Open in nieuw lusje** pictogram ![ Open details in een nieuw lusjepictogram ](assets/open-details-in-a-new-tab-icon.png) in de hoger-juiste hoek van de voorproefpagina.
 
    **creeer pagina** doos opent.
 
@@ -306,8 +304,6 @@ De tabelweergave van het geselecteerde recordtype wordt weergegeven op de nieuwe
 Alle velden van de verbonden record worden weergegeven in de tabelweergave van het tabblad van de verbonden record.
 
    De eerste vijf velden van de verbonden recordtabel worden standaard weergegeven. Er worden standaard geen opzoekvelden weergegeven.
-
-   <!--replace screen shot below when additional capabilities come to the table view - Fields, etc-->
 
    ![ Publiek verbonden lijstmening onder campagnedetails ](assets/audience-connected-table-view-under-campaign-details-page.png)
 

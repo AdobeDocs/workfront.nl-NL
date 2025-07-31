@@ -7,25 +7,24 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: d77da0569389104172fc759c53a9eb00acec4f65
+source-git-commit: fe51ded26c57e3b7137e42ad2218d79adf032b85
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1280'
 ht-degree: 0%
 
 ---
 
 # Het projectteam beheren
 
-<!--
-<div class="preview"> 
+<!--take preview and production references out at production - August 7-->
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
+<div class="preview">
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Dezelfde functies zijn ook beschikbaar in de productieomgeving voor alle klanten na een week vanaf de release Preview.
 
-</div> 
+Voor meer informatie, zie [ modernisering van de Interface ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
--->
+</div>
 
 Het team van het Project bestaat uit gebruikers die met het project worden geassocieerd. Voor meer informatie, zie [ Overzicht van het Team van het Project ](/help/quicksilver/manage-work/projects/planning-a-project/project-team-overview.md).
 
@@ -179,7 +178,7 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    De gebruikers krijgen de toestemmingen van de Mening aan het project en ontvangen berichten over het project als deel van het projectteam.
 
-1. (Facultatief) als u een gebruiker een bericht wilt ontvangen wanneer hun baanrol aan een taak, een kwestie, of een projectgoedkeuring wordt toegevoegd, binnen de **kolom van de Rol 0&rbrace; van de Baan &lbrace;voor de gebruiker klikt, en een baanrol selecteert die met de goedkeuring zal worden geassocieerd.**
+1. (Facultatief) als u een gebruiker een bericht wilt ontvangen wanneer hun baanrol aan een taak, een kwestie, of een projectgoedkeuring wordt toegevoegd, binnen de **kolom van de Rol 0} van de Baan {voor de gebruiker klikt, en een baanrol selecteert die met de goedkeuring zal worden geassocieerd.**
 
    De gebruikers ontvangen meldingen die betrekking hebben op de goedkeuringen die zijn toegewezen aan de geselecteerde taakrol.
 
@@ -243,7 +242,7 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    Selecteer één of veelvoudige gebruikers in de lijst, dan klik **Update**.
 
-   <!--update screen shot for unshim-->
+   <!--update screen shot for unshim production, notice the text above the box - it needs to say "Post an update to each person's profile"-->
 
    ![ verzendt update naar gebruikersdoos op malplaatje ](assets/send-update-to-user-on-template-box.png)
 
@@ -251,20 +250,23 @@ If users that don't fulfill any role on the project want to be notified about ce
 
 1. Ga als volgt te werk:
 
-   * Voeg een update toe voor de geselecteerde gebruikers.
-   * Klik op het pictogram Personen om extra gebruikers een tag toe te wijzen voor dezelfde update.
-   * Klik op het slotpictogram om de update privé te maken voor de gebruikers in uw bedrijf.
-   * Klik **verzenden**.
+   * In de productieomgeving:
 
-   <!--replace list above with:
+      * Voeg een update toe voor de geselecteerde gebruikers.
+      * Klik op het pictogram Personen om extra gebruikers een tag toe te wijzen voor dezelfde update.
+      * Klik op het slotpictogram om de update privé te maken voor de gebruikers in uw bedrijf.
+      * Klik **verzenden**.
+
+   * <span class="preview"> In de voorvertoningsomgeving: </span>
+
    <div class="preview">
 
-   * Add an update for the selected users.
-   * Click **Tag people** to tag additional users to receive the same update. 
-   * Select the **Private to my company** option to to make the update private to the users in your company. 
-   * Click **Send**. 
+   * Voeg een update toe voor de geselecteerde gebruikers.
+   * Klik **de mensen van de Markering** om extra gebruikers te etiketteren om de zelfde update te ontvangen.
+   * Selecteer de **Privé aan mijn bedrijf** optie om de update privé aan de gebruikers in uw bedrijf te maken.
+   * Klik **verzenden**.
+
    </div>
-   -->
 
    De update wordt toegevoegd aan de **sectie van Updates** van elk geëtiketteerd gebruikersprofiel.
 
