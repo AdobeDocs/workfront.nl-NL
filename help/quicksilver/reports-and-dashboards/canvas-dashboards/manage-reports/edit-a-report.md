@@ -122,4 +122,4 @@ Voor meer informatie, zie [ een bestaand rapport aan een Dashboard van het Canva
 
 1. Op de **pagina van de Dashboards van het Canvas**, klik **Meer** ![ Meer pictogram ](assets/more-icon.png) in de hoger-juiste hoek van het rapport u, dan uitgezocht **uitgeven**.
 
-1. In de **doos van de Selectie van het 0} Rapport, klik** **in lijn met het rapport toevoegen u de gegevens van het bestaande rapport wilt vervangen widget met.**
+1. In de **doos van de Selectie van het 0&rbrace; Rapport, klik** **in lijn met het rapport toevoegen u de gegevens van het bestaande rapport wilt vervangen widget met.**
