@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: 2ca2361ee96c3940f1f4073274386262f76725ff
+source-git-commit: eafc56adab1fad3bbc1a4f3dc8f61e599ab21f57
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1190'
 ht-degree: 0%
 
 ---
@@ -38,9 +38,30 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Verbeteringen voor Adobe Workfront
 
-* [ Document en het proef verhogingen ](#document-and-proofing-enhancements)
-  <!--* [Resource Management enhancements](#resource-management-enhancements)-->
+* [Beheerdersverbeteringen](#administrator-enhancements)
+* [Verbeteringen voor document en proefdrukken](#document-and-proofing-enhancements)
+<!--* [Home enhancements](#home-enhancements)
+* [Requests enhancements](#requests-enhancements)-->
+* [Verbeteringen voor beheer van bronnen](#resource-management-enhancements)
 * [Andere verbeteringen](#other-enhancements)
+
+### Beheerdersverbeteringen
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> voeg veelvoudige waardeopties van externe API aan een douanevorm toe </a><p></p>
+            <p>Een nieuw veldtype, Multi-select externe zoekopdracht, is nu beschikbaar in de aangepaste formulierontwerper. Wanneer u gegevens op een extern systeem hebt opgeslagen, kunt u met dit veldtype opties laden vanuit een externe API en filteren op basis van andere veldwaarden in het aangepaste formulier. Dit is het zelfde als enig-uitgezochte externe raadpleging.</p>
+            <p>Wanneer het formulier aan een object wordt toegevoegd, worden de waarden die door de API worden geretourneerd, weergegeven in een vervolgkeuzelijst en kan de gebruiker meerdere waarden selecteren.</p>
+        </td>
+        <td>31 juli 2025</td>
+        <td>14 augustus 2025</td>
+        <td>16 oktober 2025</td>
+    </tr>     
+  </tbody>
+</table>
+
 
 ### Verbeteringen voor document en proefdrukken
 
@@ -65,24 +86,77 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table>
 
-
-
-<!--### Resource Management enhancements
+<!--### Home enhancements
 
 <table style="table-layout:auto">
   <tbody>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">Role assignments display in the Workload Balancer </a><p></p>
-            <p>Resource managers can now review job role assignments in the Workload Balancer. The assignments are displayed in the Unassigned Work area, under the tasks or issues the roles are assigned to. Only work items assigned to users are displayed in the Assigned Work area. </p>
-            <p>A new Workload Balancer setting, Show Role Assignments, determines whether role assignments are displayed. The setting is enabled by default.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-home.md" class="MCXref xref" xrefformat="{para}">Updates to the My Requests widget in Home</a><p></p>
+            <p>To create a more seamless experience between Workfront and Workfront Planning, we've redesigned the My Requests widget in Home. The new widget features the following changes:
+            <ul>
+                <li>Improved layout and organization of request information</li>
+                <li>Enhanced filtering and sorting options</li>
+                <li>Integration with Workfront Planning for better visibility into resource allocation</li>
+            </ul>
+            </p>
         </td>
-        <td>July 24, 2025</td>
+        <td>July 31, 2025</td>
+        <td>August 14, 2025</td>
+        <td>October 16, 2025</td>
+    </tr>     
+  </tbody>
+</table> 
+
+### Requests enhancements
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">Updates to Requesting experience</a><p></p>
+            <p>To create a better user experience when making requests in Workfront and Workfront Planning, we've updated the requesting experience. Now you can:
+            <ul>
+                <li>View Workfront and Workfront Planning requests in a single list.</li>
+                <li>Filter submitted requests based on criteria you specify.</li>
+                <li>Search for and select Workfront request queues and Workfront Planning forms in a consolidated experience.</li>
+                <li>Hide and reorder columns in the submitted requests list.</li>
+            </ul>
+            </p>
+        </td>
+        <td>July 31, 2025</td>
         <td>August 14, 2025</td>
         <td>October 16, 2025</td>
     </tr>     
   </tbody>
 </table> -->
+
+### Verbeteringen voor beheer van bronnen
+
+<table style="table-layout:auto">
+  <tbody>
+  <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md" class="MCXref xref" xrefformat="{para}"> de Balancer van de Werkbelasting is nu beschikbaar op uw gebruikersprofiel </a><p></p>
+            <p>Alle gebruikers kunnen nu hun eigen vraag- en capaciteitsgegevens in de werklastbalans bekijken vanuit hun profiel, ongeacht hun toegangsniveau. Wanneer u uw Workfront-gebruikersprofiel opent, wordt de werklastverdeling weergegeven in het navigatievenster aan de linkerkant.</p>
+            <p>Werklastverdelingsgegevens voor een gebruiker zijn alleen-lezen. U kunt geen werk toewijzen, werk ongedaan maken of toewijzingen op gebruikersniveau aanpassen.</p>
+        </td>
+        <td>31 juli 2025</td>
+        <td>14 augustus 2025</td>
+        <td>16 oktober 2025</td>
+    </tr> 
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md" class="MCXref xref" xrefformat="{para}"> De taken van de Rol tonen in de Balancer van de Werkbelasting </a><p></p>
+            <p>Bronmanagers kunnen nu taakrolltoewijzingen in Workload Balancer controleren. De taken worden getoond in het Unassigned gebied van het Werk, onder de taken of kwesties de rollen worden toegewezen aan. Alleen werkitems die aan gebruikers zijn toegewezen, worden weergegeven in het gebied Toegewezen werk. </p>
+            <p>Een nieuwe instelling voor werklastverdeling, Roltoewijzingen weergeven, bepaalt of roltoewijzingen worden weergegeven. De instelling is standaard ingeschakeld.</p>
+        </td>
+        <td>31 juli 2025</td>
+        <td>14 augustus 2025</td>
+        <td>16 oktober 2025</td>
+    </tr>     
+  </tbody>
+</table>
 
 ### Andere verbeteringen
 
@@ -133,7 +207,7 @@ We werken de interface in Adobe Workfront bij om de gebruikerservaring te verbet
 
 ### Workfront Fusion-verbeteringen
 
-Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de standaard releaseschema. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de standaard releaseschema. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Verbeteringen voor Workfront-planning
 
@@ -144,6 +218,18 @@ Er zijn geen updates voor het volgende op dit punt in de versie:
 * Scenario Planner
 * Proef
 * Doelen
+
+## Desktop proofing viewer-updates
+
+### Versie 2.1.52
+
+**de versie van de Productie voor alle klanten: 31 juli, 2025**
+
+De Desktop Proofing Viewer is bijgewerkt naar versie 2.1.52, waarin de opgeloste problemen zijn opgelost.
+
+De 2.1.51-update bevatte interne gereedschapsupdates die geen invloed hadden op de functionaliteit van de eindgebruiker.
+
+Deze update geldt voor zowel Mac als Windows.
 
 ## Aankondigingen
 
@@ -170,7 +256,7 @@ Om stabielere en scalable integratie te leveren, verschuiven wij naar een modern
 * Workfront voor Salesforce.
 
 We raden u aan Workfront Automation and Integration te gebruiken voor de integratiebehoeften van uw organisatie met Google Workspace.
-Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ### API-versie 20
 
@@ -182,8 +268,8 @@ Voor informatie over API versies, zie [ API versioning en steunprogramma ](/help
 
 ### Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens Eerste Kwartaal 2025 versie worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront [.](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=nl-NL)
+Voor informatie over de onderhoudsupdates die tijdens Eerste Kwartaal 2025 versie worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront [.](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)
 
 ### Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=nl-NL) Nieuw is.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html) Nieuw is.

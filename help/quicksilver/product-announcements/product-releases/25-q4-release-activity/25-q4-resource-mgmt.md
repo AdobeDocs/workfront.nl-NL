@@ -4,11 +4,10 @@ description: Verbeteringen voor middelenbeheer in het vierde kwartaal van 2025
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
-source-git-commit: 610066cc1b5703d048e867767474fb5335a2b0d5
+exl-id: c8c03cb5-0468-4c2b-b69e-70e4c1354514
+source-git-commit: 0dfeebeef4369a67072368eb4034e105818b99a5
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -19,11 +18,25 @@ Deze pagina beschrijft de verbeteringen in het beheer van bronnen die zijn aange
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2025 versiecyclus, zie [ Vierde Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
 
+## Werklastverdeling is nu beschikbaar in uw gebruikersprofiel
+
+>[!NOTE]
+>
+>* Voorbeeld: 31 juli 2025
+>* Snelle productie: 14 augustus 2025
+>* Productie voor alle afnemers: 16 oktober 2025
+
+Alle gebruikers kunnen nu hun eigen vraag- en capaciteitsgegevens in de werklastbalans bekijken vanuit hun profiel, ongeacht hun toegangsniveau. Wanneer u uw Workfront-gebruikersprofiel opent, wordt de werklastverdeling weergegeven in het navigatievenster aan de linkerkant.
+
+Werklastverdelingsgegevens voor een gebruiker zijn alleen-lezen. U kunt geen werk toewijzen, werk ongedaan maken of toewijzingen op gebruikersniveau aanpassen.
+
+Voor informatie, zie [ plaats van de Balancer van de Werklast ](/help/quicksilver/resource-mgmt/workload-balancer/locate-workload-balancer.md).
+
 ## Roltoewijzingen weergeven in Workload Balancer
 
 >[!NOTE]
 >
->* Voorbeeld: 24 juli 2025
+>* Voorbeeld: 31 juli 2025
 >* Snelle productie: 14 augustus 2025
 >* Productie voor alle afnemers: 16 oktober 2025
 
