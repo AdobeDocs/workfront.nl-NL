@@ -3,18 +3,20 @@ product-area: resource-management
 keywords: werken,team,personeel,bronnen
 navigation-topic: the-workload-balancer
 title: De werklastbalans zoeken
-description: U kunt de taakverdeler gebruiken om middelen voor het werk te plannen of hun beschikbaarheid en huidige toewijzingen te herzien.
+description: De taakverdeler is beschikbaar voor veelvoudige projecten op het gebied van Middelen, voor een team, voor een project, en voor een gebruiker.
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: a63c53652491a25b909b7563990d4375d8f5885f
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '841'
 ht-degree: 0%
 
 ---
 
 # De werklastbalans zoeken
+
+{{preview-fast-release-general}}
 
 U kunt de taakverdeler gebruiken om middelen voor het werk te plannen of hun beschikbaarheid en huidige toewijzingen te herzien.
 
@@ -55,7 +57,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td><p>Nieuw: Standaard</p>
        <p>of</p>
        <p>Huidig: Plan, wanneer het gebruiken van de Balancer van de Werkbelasting in het gebied van de Middelen;</br>
-       Het werk, wanneer het gebruiken van de Balancer van de Werkbelasting van een team of een project</p></td>
+       Het werk, wanneer het gebruiken van de Balancer van de Werkbelasting van een team of een project</p>
+       <p><span class="preview">Opmerking: alle gebruikers hebben zonder licentievereisten toegang tot de taakverdelingsfunctie in hun eigen gebruikersprofielen.</span></p></td>
   </tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot het volgende weergeven of vergroten:</p> 
@@ -137,6 +140,27 @@ De pagina van uw Home Team wordt weergegeven.
      >
      >U kunt alle gebruikers in het systeem in plaats van slechts degenen op het project (in het Toegewezen gebied van het Werk) tonen door de Toon alle gebruikersoptie toe te laten. Voor informatie, zie [ de Balancer van de Werkbelasting ](../workload-balancer/navigate-the-workload-balancer.md) navigeren.
 
+<div class="preview">
+
+### Toegang tot werklastbalans voor een gebruiker
+
+Alle gebruikers hebben toegang tot de werklastbalans op hun eigen profielen. Werklastverdelingsgegevens voor een gebruiker zijn alleen-lezen. U kunt geen werk toewijzen, werk ongedaan maken of toewijzingen op gebruikersniveau aanpassen.
+
+Alle weergave-instellingen zijn beschikbaar voor Workload Balancer voor een gebruiker. Voor meer informatie, zie [ de Balancer van de Werkbelasting ](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) navigeren.
+
+{{step1-click-profile-pic}}
+
+1. Klik **de Balancer van de Werkbelasting** in het linkerpaneel.
+
+   De werklastbalans voor de gebruiker wordt weergegeven.
+
+   ![ Balancer van de Werkbelasting voor een gebruiker ](assets/workload-balancer-user.png)
+
+   De werklastbalans van een gebruiker geeft standaard het volgende weer op basis van informatie:
+
+   * **Toegewezen Werk**: De taken en de kwesties die aan de specifieke gebruiker worden toegewezen.
+
+</div>
 
 ## De werklastbalans toevoegen aan een aangepaste sectie
 

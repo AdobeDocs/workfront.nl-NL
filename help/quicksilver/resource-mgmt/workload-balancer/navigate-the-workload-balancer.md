@@ -6,9 +6,9 @@ description: Gebruik de werklastbalans om de beschikbaarheid van uw bronnen te b
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 2d674504274dcbb4a44da80694fac331d3f17d88
+source-git-commit: a63c53652491a25b909b7563990d4375d8f5885f
 workflow-type: tm+mt
-source-wordcount: '4271'
+source-wordcount: '4371'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Gebruik de werklastbalans in Adobe Workfront om werk toe te wijzen aan gebruiker
 
 De werklastbalans is beschikbaar in meerdere gebieden van Adobe Workfront. Navigeren is vergelijkbaar in alle gebieden.
 
-Voor meer informatie over waar de Balancer van de Werklast wordt gevestigd, zie [ plaats van de Balancer van de Werkbelasting ](https://experienceleague.adobe.com/nl/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
+Voor meer informatie over waar de Balancer van de Werklast wordt gevestigd, zie [ plaats van de Balancer van de Werkbelasting ](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
 
 ## Toegangsvereisten
 
@@ -109,8 +109,8 @@ Zie ook de volgende artikelen voor meer informatie over het weergeven van inform
 
 Zie ook de volgende artikelen voor informatie over het beheer van bronnen met behulp van Workload Balancer:
 
-* [ Overzicht van het toewijzen van het werk in de Balancer van de Werkbelasting ](https://experienceleague.adobe.com/nl/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
-* [ beheer gebruikerstoewijzingen in de Balancer van de Werklast ](https://experienceleague.adobe.com/nl/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
+* [ Overzicht van het toewijzen van het werk in de Balancer van de Werkbelasting ](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
+* [ beheer gebruikerstoewijzingen in de Balancer van de Werklast ](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
 
 
 ## Navigeer de Balancer van de Werkbelasting voor veelvoudige projecten in het gebied van de Middelen
@@ -324,7 +324,7 @@ In het gedeelte Niet toegewezen werk worden standaard geen werkitems weergegeven
 
    ![ Meer menu ](assets/more-menu-right-of-task-350x104.png)
 
-   * **wijs dit aan** toe, dan begin de naam van een gebruiker, een rol, of een team te typen u het het werkpunt aan in het **de mensen van het Onderzoek, de rol, of het 3&rbrace; gebied van teams wilt toewijzen.**
+   * **wijs dit aan** toe, dan begin de naam van een gebruiker, een rol, of een team te typen u het het werkpunt aan in het **de mensen van het Onderzoek, de rol, of het 3} gebied van teams wilt toewijzen.**
 
      Klik **Geavanceerd** om tot het Geavanceerde scherm van Toewijzingen voor het het werkpunt toegang te hebben. Voor meer informatie, zie [ Geavanceerde taken ](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md) creëren.
 
@@ -407,7 +407,7 @@ U kunt meer informatie bekijken over de taken en de problemen in Workload Balanc
 
 1. Heb toegang tot de Balancer van de Werkbelasting op het gebied van het Middelen, zoals die in de sectie [ wordt beschreven toegang tot de Balancer van de Werkbelasting voor veelvoudige projecten in het gebied van de Middelen ](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) in dit artikel.
 
-1. Klik het **pictogram van het 1&rbrace; Volledige scherm** Volledige het schermpictogram ![ om de Balancer van de Werkbelasting in het volledige scherm te tonen.](assets/full-screen.png)
+1. Klik het **pictogram van het 1} Volledige scherm** Volledige het schermpictogram ![ om de Balancer van de Werkbelasting in het volledige scherm te tonen.](assets/full-screen.png)
 
    De werklastbalans neemt het volledige scherm in beslag. Browservensters en tabbladen worden niet weergegeven.
 
@@ -478,12 +478,37 @@ De pagina van uw Team van het Huis toont door gebrek.
 
    Voor meer informatie, zie [ Overzicht van het verzoenen van middeltoewijzingen tussen projecten en initiatieven ](../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
 
-
    >[!NOTE]
    >
    >U kunt informatie over de rol van initiatieftaken niet weergeven als uw organisatie geen licentie voor de Workfront Scenario Planner heeft aangeschaft. In dit geval, kunt u de geplande uren slechts bekijken verbonden aan baanrollen op het project. Voor meer informatie, zie [ Toegang nodig om de Planner van het Scenario te gebruiken ](../../scenario-planner/access-needed-to-use-sp.md).
 
 1. Ga door het navigeren van de Balancer van de Werkbelasting van een project zoals die in [ wordt beschreven de Balancer van de Werkbelasting voor veelvoudige projecten ](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) sectie van dit artikel.
+
+<div class="preview">
+
+### Navigeren door de taakverdelingsfunctie van een gebruiker
+
+U kunt de werklastbalans openen via uw eigen gebruikersprofiel.
+
+{{step1-click-profile-pic}}
+
+1. Klik **de Balancer van de Werkbelasting** in het linkerpaneel.
+
+   De werklastbalans voor de gebruiker wordt weergegeven.
+
+   ![ Balancer van de Werkbelasting voor een gebruiker ](assets/workload-balancer-user.png)
+
+   De werklastbalans van een gebruiker geeft standaard het volgende weer op basis van informatie:
+
+   * **Toegewezen Werk**: De taken en de kwesties die aan de specifieke gebruiker worden toegewezen.
+
+   >[!NOTE]
+   >
+   >De werklastbalans van een gebruikersprofiel is alleen-lezen en toewijzingen en toewijzingen kunnen niet worden gewijzigd.
+
+1. Ga door het navigeren van de Balancer van de Werkbelasting van een gebruiker zoals die in [ wordt beschreven de Balancer van de Werkbelasting voor veelvoudige projecten ](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) sectie van dit artikel.
+
+</div>
 
 <!--old content below - this used to be a one-large-procedure article - outdated, and rewrote it above with several smaller procedures: 
 

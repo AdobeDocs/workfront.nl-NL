@@ -6,14 +6,16 @@ description: Als u niet beschikt over de juiste toegang of machtigingen, kunt u 
 author: Lisa
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 78d73d0d7bd0ffc00ae1afed0adb324501e0c310
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
 
 # Toegang vereist voor het beheer van bronnen in het werklastevenwicht
+
+{{preview-fast-release-general}}
 
 Als u niet beschikt over de juiste toegang of machtigingen, kunt u uw werktoewijzingen mogelijk niet weergeven of beheren in Workload Balancer.
 
@@ -81,6 +83,8 @@ U moet de volgende toegang hebben om de werklastbalans te kunnen bekijken:
 </table>
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+<span class="preview"> alle gebruikers hebben toegang om de Balancer van de Werkbelasting op hun eigen profielen te bekijken. Dit wordt niet beperkt door vergunning of toegangsniveau. Merk op dat de Balancer van de Werkbelasting op een gebruikersprofiel read-only is, en de taken en de toewijzingen kunnen niet worden veranderd.</span>
 
 ## Toegang nodig voor het beheer van toewijzingen in Workload Balancer
 
