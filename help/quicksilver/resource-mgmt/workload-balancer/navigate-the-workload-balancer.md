@@ -324,7 +324,7 @@ In het gedeelte Niet toegewezen werk worden standaard geen werkitems weergegeven
 
    ![ Meer menu ](assets/more-menu-right-of-task-350x104.png)
 
-   * **wijs dit aan** toe, dan begin de naam van een gebruiker, een rol, of een team te typen u het het werkpunt aan in het **de mensen van het Onderzoek, de rol, of het 3} gebied van teams wilt toewijzen.**
+   * **wijs dit aan** toe, dan begin de naam van een gebruiker, een rol, of een team te typen u het het werkpunt aan in het **de mensen van het Onderzoek, de rol, of het 3&rbrace; gebied van teams wilt toewijzen.**
 
      Klik **Geavanceerd** om tot het Geavanceerde scherm van Toewijzingen voor het het werkpunt toegang te hebben. Voor meer informatie, zie [ Geavanceerde taken ](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md) creëren.
 
@@ -407,7 +407,7 @@ U kunt meer informatie bekijken over de taken en de problemen in Workload Balanc
 
 1. Heb toegang tot de Balancer van de Werkbelasting op het gebied van het Middelen, zoals die in de sectie [ wordt beschreven toegang tot de Balancer van de Werkbelasting voor veelvoudige projecten in het gebied van de Middelen ](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) in dit artikel.
 
-1. Klik het **pictogram van het 1} Volledige scherm** Volledige het schermpictogram ![ om de Balancer van de Werkbelasting in het volledige scherm te tonen.](assets/full-screen.png)
+1. Klik het **pictogram van het 1&rbrace; Volledige scherm** Volledige het schermpictogram ![ om de Balancer van de Werkbelasting in het volledige scherm te tonen.](assets/full-screen.png)
 
    De werklastbalans neemt het volledige scherm in beslag. Browservensters en tabbladen worden niet weergegeven.
 
