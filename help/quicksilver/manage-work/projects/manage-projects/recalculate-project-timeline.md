@@ -6,9 +6,9 @@ description: Door de tijdlijnen opnieuw te berekenen kunnen beheerders zien hoe 
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
-source-git-commit: 3dfb30646e8a967264f7e562441a52a059d73d32
+source-git-commit: d846f2f90a8ca2a38c1b18897341cb50f4c5aef4
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ De automatische chronologieherberekening gebeurt zonder speciale toegang voor om
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
++++ Vouw uit om de vereisten voor toegang weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,9 +39,8 @@ De automatische chronologieherberekening gebeurt zonder speciale toegang voor om
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Nieuw: Standaard </p> 
-   of
-   <p>Huidig: Plan </p>
+   <td> <p>Standaard </p> 
+    <p>Plan </p>
    </td> 
   </tr> 
   <tr> 
@@ -63,17 +62,21 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 Door gebrek, worden de projectchronologie automatisch opnieuw berekend dagelijks wanneer het projectwerkingsgebied verandert of elke nacht. De beheerder van Workfront bepaalt of om chronologie elke nacht of met elke werkingsgebiedverandering automatisch te berekenen door de montages van Chronologie in het gebied van de Voorkeur van het Project van Opstelling te beheren. Voor meer informatie, zie [ chronologieherberekeningen voor projecten ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md) vormen.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Als de tijdlijn van een project langer is dan 15 jaar, wordt de automatische herberekening uitgeschakeld voor dat project en kunt u alleen een Handmatig updatetype selecteren. Als u de datums in het project wijzigt in minder dan 15 jaar, moet u de tijdlijn handmatig opnieuw berekenen voordat deze automatisch wordt berekend.
+>* Als de tijdlijn van een project langer is dan 15 jaar, wordt de automatische herberekening uitgeschakeld voor dat project en kunt u alleen een Handmatig updatetype selecteren. Als u de datums in het project wijzigt in minder dan 15 jaar, moet u de tijdlijn handmatig opnieuw berekenen voordat deze automatisch wordt berekend.
+>* Voor de milieu&#39;s van de Sandbox van de Voorproef en van het Douane verfrissen, wordt de niight herberekening onbruikbaar gemaakt en de projectchronologie wordt niet automatisch opnieuw berekend. U moet de projectchronologie voor de Voorproef en de Douane manueel opnieuw berekenen vernieuwt Sandbox milieu&#39;s.
+>* Als een project complex is, kan de automatische chronologieherberekening niet voorkomen.
+>  > Een voorbeeld van een complex project zou een project met veelvoudige gebiedsdelen, groot aantal taken, verscheidene dwars-project predecessors, of veelvoudige taakinspringingen kunnen zijn.
+>  > Workfront plaatst een waarschuwing rechts van de projectnaam op de projectpagina om gebruikers te adviseren dat de projectchronologie manueel moet worden opnieuw berekend. Alleen gebruikers met de machtiging Beheren voor het project kunnen de tijdlijn handmatig opnieuw berekenen.
+>
+>   ![](assets/project-warning-to-manually-recalculate-timeline.png)
+>
 
 * [ Automatische herberekening van projectchronologie ](#automatic-recalculation-of-project-timelines)
 * [Handelingen die een automatische herberekening van projecttijdlijnen activeren](#actions-that-trigger-an-automatic-recalculation-of-project-timelines)
 
 
->[!IMPORTANT]
->
->Voor de milieu&#39;s van de Sandbox van de Voorproef en van het Douane verfrissen, wordt de niight herberekening onbruikbaar gemaakt en de projectchronologie wordt niet automatisch opnieuw berekend. U moet de projectchronologie voor de Voorproef en de Douane manueel opnieuw berekenen vernieuwt Sandbox milieu&#39;s.
 
 ### Automatische herberekening van projecttijdlijnen {#automatic-recalculation-of-project-timelines}
 
@@ -86,7 +89,7 @@ Workfront herberekent dagelijks tijdlijnen alleen voor projecten waarbij aan all
 
 * Hebt u een datum voor laatste update in de afgelopen 3 maanden. Een Workfront-beheerder kan deze standaardfunctionaliteit wijzigen. Voor meer informatie, zie [ chronologieherberekeningen voor projecten ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md) vormen.
 
-* De laatste berekeningsdatum van de projecttijdlijn valt niet binnen de huidige kalenderdag. Dit betekent dat de laatste berekeningsdatum van de projecttijdlijn vóór 00:00 uur van de huidige dag ligt.
+* De laatste berekeningsdatum van de projecttijdlijn valt niet binnen de huidige kalenderdag. Dit betekent dat de laatste berekeningsdatum van de projectchronologie vóór 00 :00 van de huidige dag is.
 
 U kunt vormen hoe vaak de chronologie voor uw project wordt bijgewerkt. Wanneer de projectchronologie wordt bijgewerkt, wordt het opnieuw berekend gebaseerd op veranderingen die aan het project worden aangebracht.
 
