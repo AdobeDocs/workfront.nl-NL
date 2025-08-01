@@ -63,7 +63,7 @@ De dashboards van het canvas bieden een grote verscheidenheid van opties en conf
 
 1. Klik **Nieuw Dashboard** in de hoger-juiste hoek.
 
-1. In **creeer dashboard** doos, ga de 2} Naam van het dashboard **en** Beschrijving **in.**
+1. In **creeer dashboard** doos, ga de 2&rbrace; Naam van het dashboard **en** Beschrijving **in.**
 
 1. Klik **creëren**. **voegt rapportdoos** toe opent. Van hier, kunt u een nieuw rapport tot stand brengen of een bestaand rapport toevoegen aan het dashboard.
 

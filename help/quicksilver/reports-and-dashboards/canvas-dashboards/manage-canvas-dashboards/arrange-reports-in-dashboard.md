@@ -74,7 +74,7 @@ U moet rapporten aan een dashboard toevoegen alvorens zij kunnen worden herschik
 
    ![ het rapportwidget van de Beweging ](assets/moving-report-widget.png)
 
-1. (Facultatief) om de lengte en de breedte van een rapportwidget aan te passen, klik en houd **** resize pictogram ![ in de laag-juiste hoek van widget, dan aanpassen de grootte zoals nodig.](assets/resize-icon.png)
+1. (Facultatief) om de lengte en de breedte van een rapportwidget aan te passen, klik en houd **&#x200B;**&#x200B;resize pictogram ![ in de laag-juiste hoek van widget, dan aanpassen de grootte zoals nodig.](assets/resize-icon.png)
 
 1. Herhaal stap 4-5 voor elke widget die u opnieuw wilt rangschikken.
 
