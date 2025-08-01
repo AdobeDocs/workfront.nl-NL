@@ -67,8 +67,8 @@ Door gebrek, worden de projectchronologie automatisch opnieuw berekend dagelijks
 >* Als de tijdlijn van een project langer is dan 15 jaar, wordt de automatische herberekening uitgeschakeld voor dat project en kunt u alleen een Handmatig updatetype selecteren. Als u de datums in het project wijzigt in minder dan 15 jaar, moet u de tijdlijn handmatig opnieuw berekenen voordat deze automatisch wordt berekend.
 >* Voor de milieu&#39;s van de Sandbox van de Voorproef en van het Douane verfrissen, wordt de niight herberekening onbruikbaar gemaakt en de projectchronologie wordt niet automatisch opnieuw berekend. U moet de projectchronologie voor de Voorproef en de Douane manueel opnieuw berekenen vernieuwt Sandbox milieu&#39;s.
 >* Als een project complex is, kan de automatische chronologieherberekening niet voorkomen.
->  > Een voorbeeld van een complex project zou een project met veelvoudige gebiedsdelen, groot aantal taken, verscheidene dwars-project predecessors, of veelvoudige taakinspringingen kunnen zijn.
->  > Workfront plaatst een waarschuwing rechts van de projectnaam op de projectpagina om gebruikers te adviseren dat de projectchronologie manueel moet worden opnieuw berekend. Alleen gebruikers met de machtiging Beheren voor het project kunnen de tijdlijn handmatig opnieuw berekenen.
+>  &#x200B;> Een voorbeeld van een complex project zou een project met veelvoudige gebiedsdelen, groot aantal taken, verscheidene dwars-project predecessors, of veelvoudige taakinspringingen kunnen zijn.
+>  &#x200B;> Workfront plaatst een waarschuwing rechts van de projectnaam op de projectpagina om gebruikers te adviseren dat de projectchronologie manueel moet worden opnieuw berekend. Alleen gebruikers met de machtiging Beheren voor het project kunnen de tijdlijn handmatig opnieuw berekenen.
 >
 >   ![](assets/project-warning-to-manually-recalculate-timeline.png)
 >
