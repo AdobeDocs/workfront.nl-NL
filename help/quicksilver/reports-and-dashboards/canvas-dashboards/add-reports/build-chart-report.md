@@ -1,19 +1,19 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Een diagramrapport samenstellen
+title: Bouw een grafiekrapport in een dashboard van het Canvas
 description: Een grafiekrapport dat uw gegevens visualiseert als bar, kolom, lijn, of cirkeldiagram kan aan een Dashboard van het Canvas worden toegevoegd.
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1045'
 ht-degree: 0%
 
 ---
 
-# Een diagramrapport samenstellen
+# Bouw een grafiekrapport in een dashboard van het Canvas
 
 >[!IMPORTANT]
 >
@@ -70,7 +70,7 @@ Er zijn vele configuratieopties beschikbaar voor het bouwen van een grafiekrappo
 
 1. Klik **Nieuw Dashboard** in de hoger-juiste hoek.
 
-1. In **creeer dashboard** doos, ga de 2&rbrace; Naam van het dashboard **en** Beschrijving **in.**
+1. In **creeer dashboard** doos, ga de 2} Naam van het dashboard **en** Beschrijving **in.**
 
 1. Klik **creëren**.
 
@@ -115,12 +115,12 @@ Er zijn vele configuratieopties beschikbaar voor het bouwen van een grafiekrappo
 
 1. Volg hieronder de stappen om de **sectie van de Filter** te vormen:
 
-   1. In het linkerpaneel, klik het **pictogram van de Filter**![ van de Filter &lbrace;](assets/filter-icon.png).
+   1. In het linkerpaneel, klik het **pictogram van de Filter**![ van de Filter {](assets/filter-icon.png).
    1. Selecteer **filter uitgeven**.
    1. Klik **toevoegen voorwaarde** en specificeer dan het gebied u tegen en de bepaling wilt filtreren die bepaalt welk soort voorwaarde het gebied moet ontmoeten.
    1. (Facultatief) klik **toevoegen filtergroep** om een andere reeks het filtreren criteria toe te voegen. De standaardoperator tussen de sets is AND. Klik op de operator om deze te wijzigen in OR.
 
-1. Volg hieronder de stappen om de **sectie van de Montages van de Kolom te vormen 0&rbrace; Drilldown &lbrace;:**
+1. Volg hieronder de stappen om de **sectie van de Montages van de Kolom te vormen 0} Drilldown {:**
 
    1. In het linkerpaneel, klik het **Drilldown pictogram van Kolommen** ![ Drilldown kolommen ](assets/drilldown-column.png). De velden in het diagram worden automatisch als kolommen weergegeven in de voorbeeldsectie aan de rechterkant.
 
@@ -146,7 +146,7 @@ In deze sectie, zullen wij over de stappen gaan om een kolomgrafiek tot stand te
 
 1. Klik **Nieuw Dashboard** in de hoger-juiste hoek.
 
-1. In **creeer dashboard** doos, ga de 2&rbrace; Naam van het dashboard **en** Beschrijving **in.**
+1. In **creeer dashboard** doos, ga de 2} Naam van het dashboard **en** Beschrijving **in.**
 
 1. Klik **creëren**.
 
@@ -200,13 +200,13 @@ In deze sectie, zullen wij over de stappen gaan om een kolomgrafiek tot stand te
 
    1. In de **drop-down exploitanten**, uitgezochte **minder dan**.
 
-   1. Knevel **Vastgestelde relatieve datum** aan **&#x200B;**.
+   1. Knevel **Vastgestelde relatieve datum** aan ****.
 
    1. Ga *$$TODAY* op het evaluatiegebied in.
 
       ![ het gebied van de Evaluator ](assets/add-condition.png)
 
-1. Volg hieronder de stappen om de **sectie van de Montages van de Kolom te vormen 0&rbrace; Drilldown &lbrace;:**
+1. Volg hieronder de stappen om de **sectie van de Montages van de Kolom te vormen 0} Drilldown {:**
 
    1. In het linkerpaneel, klik het **Drilldown Kolommen** ![ Drilldown kolommen ](assets/drilldown-column.png) pictogram. De velden in het diagram worden automatisch als kolommen weergegeven in de voorbeeldsectie aan de rechterkant.
 

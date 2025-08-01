@@ -1,24 +1,24 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: De naam of beschrijving van een dashboard wijzigen
-description: U kunt de naam of beschrijving van een Canvas-dashboard bewerken nadat het is gemaakt.
+title: De naam of beschrijving van een canvasdashboard wijzigen
+description: U kunt de naam of beschrijving van een Canvasdashboard bewerken nadat het is gemaakt.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
 
-# De naam of beschrijving van een dashboard wijzigen
+# De naam of beschrijving van een canvasdashboard wijzigen
 
 >[!IMPORTANT]
 >
 >De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Voor meer informatie, zie {de bètainformatie van de Dashboards van het 0} Canvas [.](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
 
-U kunt de naam of beschrijving van een Canvas-dashboard bewerken nadat het is gemaakt.
+U kunt de naam of beschrijving van een Canvasdashboard bewerken nadat het is gemaakt.
 
 Alle wijzigingen die u aanbrengt in een dashboard, zijn van invloed op alle gebruikers die er toegang toe hebben.
 
@@ -65,7 +65,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 U moet een dashboard maken voordat u de naam of beschrijving ervan kunt wijzigen.
 
-Voor meer informatie, zie [ een dashboard van het Canvas ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md) creëren.
+Voor meer informatie, zie [ een Dashboard van het Canvas ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md) creëren.
 
 
 ## De naam en beschrijving van een dashboard wijzigen

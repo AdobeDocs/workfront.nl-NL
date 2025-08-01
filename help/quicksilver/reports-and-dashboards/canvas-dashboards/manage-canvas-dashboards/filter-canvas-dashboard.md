@@ -1,20 +1,20 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Een dashboard filteren
+title: Een canvasdashboard filteren
 description: U kunt een filter op een dashboard van het Canvas toepassen nadat het is gecreeerd.
 author: Courtney and Jenny
 feature: Reports and Dashboards
 hidefromtoc: true
 hide: true
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
 
-# Een dashboard filteren
+# Een canvasdashboard filteren
 
 >[!IMPORTANT]
 >
@@ -65,7 +65,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 U moet een dashboard maken voordat u het kunt filteren.
 
-Voor meer informatie, zie [ een dashboard van het Canvas ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md) creëren.
+Voor meer informatie, zie [ een Dashboard van het Canvas ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md) creëren.
 
 ## Een dashboard filteren
 

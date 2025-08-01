@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 9420a6a087e0f859c9b2e1a1de1b04a0652ffac2
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '13342'
+source-wordcount: '13409'
 ht-degree: 0%
 
 ---
@@ -212,7 +212,6 @@ ht-degree: 0%
          * [21.1 Andere verbeteringen](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Planning Release-activiteit{#planning-release-activity}
          * [ de versieactiviteit van de Planning van Adobe Workfront ](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
-
            [ Vierde Kwartaal 2025 versieactiviteit voor de Planning van Adobe Workfront ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
          * [Derde Kwart 2025 releaseactiviteit voor de Planning van Adobe Workfront](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
          * [Tweede kwartaal 2025: releaseactiviteit voor Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
@@ -1148,7 +1147,7 @@ ht-degree: 0%
          * [Elementen en mappen ontkoppelen of verwijderen uit Experience Manager Assets of Elementen.](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/unlink-or-delete-aem-assets.md)
          * [Workflows gebruiken in de integratie met Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
          * [Workfront Fusion gebruiken om een Workfront-uitgave om te zetten in een project dat Adobe Experience Manager-workflows bevat](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-fusion-to-create-project-with-workflows.md)
-         * [ los de Integratie van Adobe Experience Manager  problemen op](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
+         * [ los de Integratie van Adobe Experience Manager ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md) problemen op
    * Migreren vanaf verouderde of verbeterde connectors {#migrate-from-legacy-enhanced-connectors}
       * [Migreren vanaf verouderde of verbeterde connectors](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
       * [Migreren van de verouderde of verbeterde aansluiting naar Workfront for Adobe Experience Manager as a Cloud Service-integratie](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
@@ -1506,17 +1505,28 @@ ht-degree: 0%
 * Rapportage {#reporting}
    * [Rapporten en dashboards: artikelindex](reports-and-dashboards/reports-and-dashboards-overview.md)
    * Canvasdashboards {#canvas-dashboards}
-      * [Canvasdashboards](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
+      * [Overzicht van canvasdashboards](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
+      * Dashboards maken {#create-dashboards}
+         * [Canvasdashboards maken: artikelindex](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards-article-index.md)
+         * [Een canvasdashboard maken](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)
       * Rapporten toevoegen {#add-reports}
          * [Rapporten toevoegen: artikelindex](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/add-reports-toc.md)
-         * [Overzicht van de rapporttypen voor Canvas-dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/report-types-overview.md)
-         * [Bouw een KPI- rapport](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)
-         * [Een diagramrapport samenstellen](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)
-         * [Een tabelrapport samenstellen](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)
          * [Een bestaand rapport toevoegen aan een Canvasdashboard](reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md)
+         * [Bouw een KPI- rapport in een dashboard van het Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)
+         * [Bouw een grafiekrapport in een dashboard van het Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)
+         * [Een tabelrapport maken op een canvasdashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)
       * Canvasdashboards beheren {#manage-canvas-dashboards}
-         * [Canvasdashboards beheren](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
+         * [Canvasdashboards beheren: artikelindex](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
          * [Een canvasdashboard delen](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
+         * [Rapporten rangschikken in een Canvasdashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/arrange-reports-in-dashboard.md)
+         * [De naam of beschrijving van een canvasdashboard wijzigen](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/change-name-or-description-of-dashboard.md)
+         * [Een canvasdashboard verwijderen](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/delete-a-canvas-dashboard.md)
+      * Rapporten beheren {#manage-reports}
+         * [Rapporten beheren: artikelindex](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/manage-reports-article-index.md)
+         * [Een rapport bewerken op een canvasdashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-a-report.md)
+         * [Rapportfilters bewerken in een Canvasdashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)
+         * [Een rapport verwijderen op een Canvasdashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/delete-a-report.md)
+
    * Rapporten {#reports}
       * [Rapporten](reports-and-dashboards/reports/reports-overview.md)
       * Grondbeginselen van rapporten {#report-basics}
@@ -2484,8 +2494,8 @@ ht-degree: 0%
       * [Configureer en gebruik de aangepaste OAuth 2-toepassingen van uw organisatie met behulp van JWT-flow](wf-api/api/oauth-app-jwt-flow.md)
       * [ vorm en gebruik de douane OAuth 2 toepassingen van uw organisatie die de stroom PKCE gebruiken ](wf-api/api/oauth-app-pkce-flow.md)
       * [Vervalsing van API-intern](wf-api/api/deprecation-api-internal.md)
-      * [ wat in API versie 20  nieuw is](wf-api/api/new-api-version-20.md)
-      * [ wat in API versie 19  nieuw is](wf-api/api/new-api-version-19.md)
+      * [ wat in API versie 20 ](wf-api/api/new-api-version-20.md) nieuw is
+      * [ wat in API versie 19 ](wf-api/api/new-api-version-19.md) nieuw is
       * [Nieuwe functies in API-versie 18](wf-api/api/new-api-version-18.md)
       * [Nieuwe functies in API-versie 17](wf-api/api/new-api-version-17.md)
       * [Nieuwe functies in API-versie 16](wf-api/api/new-api-version-16.md)

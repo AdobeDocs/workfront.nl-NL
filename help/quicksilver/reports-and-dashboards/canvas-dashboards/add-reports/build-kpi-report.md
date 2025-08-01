@@ -1,19 +1,19 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Bouw een KPI- rapport
+title: Bouw een KPI- rapport in een dashboard van het Canvas
 description: Een KPI-rapport waarin één geaggregeerde KPI prominent wordt weergegeven, kan worden toegevoegd aan een Canvasdashboard.
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
-source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
 
-# Bouw een KPI- rapport
+# Bouw een KPI- rapport in een dashboard van het Canvas
 
 >[!IMPORTANT]
 >
@@ -70,7 +70,7 @@ Er zijn vele configuratieopties beschikbaar voor de bouw van een KPI- rapport. I
 
 1. Klik **Nieuw Dashboard** in de hoger-juiste hoek.
 
-1. In **creeer dashboard** doos, ga de 2&rbrace; Naam van het dashboard **en** Beschrijving **in.**
+1. In **creeer dashboard** doos, ga de 2} Naam van het dashboard **en** Beschrijving **in.**
 
 1. Klik **creëren**.
 
@@ -107,7 +107,7 @@ Er zijn vele configuratieopties beschikbaar voor de bouw van een KPI- rapport. I
 
    1. (Facultatief) klik **toevoegen filtergroep** om een andere reeks het filtreren criteria toe te voegen. De standaardoperator tussen de sets is AND. Klik op de operator om deze te wijzigen in OR.
 
-1. Volg hieronder de stappen om de **sectie van de Montages van de Kolom te vormen 0&rbrace; Drilldown &lbrace;:**
+1. Volg hieronder de stappen om de **sectie van de Montages van de Kolom te vormen 0} Drilldown {:**
 
    1. In het linkerpaneel, klik het **Drilldown pictogram van Kolommen** ![ Drilldown kolommen ](assets/drilldown-column.png). De velden in het diagram worden automatisch als kolommen weergegeven in de voorbeeldsectie aan de rechterkant.
 
@@ -117,7 +117,7 @@ Er zijn vele configuratieopties beschikbaar voor de bouw van een KPI- rapport. I
 
 1. Volg hieronder de stappen om de **sectie van de Montages van de Groep van de Drilldown** te vormen:
 
-   1. In het linkerpaneel, klik het **&#x200B;**&#x200B;pictogram van de de groepengroep van de 1&rbrace; Groep ![.](assets/drilldown-group-icon.png)
+   1. In het linkerpaneel, klik het **** pictogram van de de groepengroep van de 1} Groep ![.](assets/drilldown-group-icon.png)
 
    1. Klik **toevoegen groeperend** knoop en dan het gebied selecteren u als groepering wilt tot stand brengen.
 

@@ -6,7 +6,7 @@ description: Rapporten die zijn gemaakt met het gereedschap Adobe Workfront-rapp
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: f77990ab-da7a-4dcb-89fa-f65ed2b79522
-source-git-commit: b8f25d9490173f8f23a0ba545486c99202f05a69
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 0%
@@ -62,7 +62,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. Klik **Nieuw Dashboard** in de hoger-juiste hoek.
 
-1. In **creeer dashboard** doos, ga de 2&rbrace; Naam van het dashboard **en** Beschrijving **in.**
+1. In **creeer dashboard** doos, ga de 2} Naam van het dashboard **en** Beschrijving **in.**
 
 1. Klik **creëren**.
 

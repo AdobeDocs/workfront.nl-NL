@@ -1,26 +1,26 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Rapportfilters bewerken
-description: U kunt rapportfilters uitgeven nadat zij op een dashboard van het Canvas zijn toegepast.
+title: Rapportfilters bewerken in een Canvasdashboard
+description: U kunt rapportfilters uitgeven nadat zij op een Dashboard van het Canvas zijn toegepast.
 author: Courtney and Jenny
 feature: Reports and Dashboards
 hidefromtoc: true
 hide: true
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '244'
 ht-degree: 0%
 
 ---
 
-# Rapportfilters bewerken
+# Rapportfilters bewerken in een Canvasdashboard
 
 >[!IMPORTANT]
 >
 >De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Voor meer informatie, zie {de bètainformatie van de Dashboards van het 0} Canvas [.](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
 
-U kunt rapportfilters uitgeven zodra u hen op een dashboard van het Canvas hebt toegepast om de gegevens bij te werken die tonen aangezien een project vordert.
+U kunt rapportfilters uitgeven zodra u hen op een Dashboard van het Canvas hebt toegepast om de gegevens bij te werken die tonen aangezien een project vordert.
 
 +++ Vouw uit om de vereisten voor toegang weer te geven.
 

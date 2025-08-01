@@ -5,9 +5,9 @@ description: U kunt werkitems en documenten snel samenvatten met de functie Over
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5b0e1002-b6e9-4354-9ead-643de1de5bab
-source-git-commit: 1b11eb212f8eb980361cfd22a07ac17be71d4472
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Met AI Assistant kunt u projecten, taken en problemen in Workfront zoeken.
 
 ## Toegangsvereisten
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -28,13 +28,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   <tr> 
    <td role="rowheader">Adobe Workfront-plan</td> 
    <td><p>Nieuw: alle</p>
-       <p>of</p>
        <p>Huidig: Niet beschikbaar</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
    <td><p>Nieuw: Standaard</p>
-       <p>of</p>
        <p>Huidig: Niet beschikbaar</p></td>
   </tr> 
  </tbody> 
@@ -42,20 +40,23 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-
++++
 
 ## Werkitems zoeken
 
-1. Klik het **pictogram AI van de Medewerker ![ AI Medewerker pictogram ](assets/ai-assistant-icon.png) dichtbij de hoger-juiste hoek van het scherm.**
-1. Typ een vraag zoals
+1. Klik het **pictogram AI van de Medewerker** AI Medewerker pictogram ![ dichtbij de hoger-juiste hoek van het scherm.](assets/ai-assistant-icon.png)
+1. Voer een vraag in, zoals:
 
-   * Zoeken naar taken die deze week verschuldigd zijn
-   * Welke problemen doet het project &quot;Voorjaarscampagne&quot; zich voor?
-   * Projecten in huidige status zoeken
+   * *vind mijn taken die deze week verschuldigd zijn*
+   * *welke kwesties in project &quot;de Campagne van de Lente&quot;* zijn
+   * *vind projecten in Huidige status*
 
-   AI Assistant kan enkele ogenblikken duren om de informatie te zoeken, afhankelijk van de grootte of complexiteit van de vraag en het aantal records dat moet worden doorzocht.
-1. Geef het antwoord weer in het deelvenster AI Assistant.
-1. (Optioneel) Als u naar het werkitem wilt gaan, klikt u op de koppeling in het deelvenster AI-assistent.
+   >[!NOTE]
+   >
+   > De AI-assistent kan enkele ogenblikken duren om de informatie te zoeken, afhankelijk van de grootte of complexiteit van de vraag en het aantal records dat moet worden doorzocht.
+1. Bekijk de reactie in het **AI Medewerker** paneel.
+1. (Facultatief) om naar het het werkpunt te gaan, klik de verbinding in het **AI Medewerker** paneel.
+
 
 <!--
 

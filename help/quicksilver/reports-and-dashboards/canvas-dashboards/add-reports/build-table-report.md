@@ -1,19 +1,19 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Een tabelrapport samenstellen
+title: Een tabelrapport maken op een canvasdashboard
 description: U kunt een lijstrapport aan een Dashboard van het Canvas toevoegen om uw gegevens in een lijstformaat te visualiseren.
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
-source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
 
-# Een tabelrapport samenstellen
+# Een tabelrapport maken op een canvasdashboard
 
 >[!IMPORTANT]
 >
@@ -70,7 +70,7 @@ Er zijn vele configuratieopties beschikbaar voor het bouwen van een lijstrapport
 
 1. Klik **Nieuw Dashboard** in de hoger-juiste hoek.
 
-1. In **creeer dashboard** doos, ga de 2&rbrace; Naam van het dashboard **en** Beschrijving **in.**
+1. In **creeer dashboard** doos, ga de 2} Naam van het dashboard **en** Beschrijving **in.**
 
 1. Klik **creëren**.
 
@@ -106,7 +106,7 @@ Er zijn vele configuratieopties beschikbaar voor het bouwen van een lijstrapport
 
 1. Volg hieronder de stappen om de **sectie van de Montages van de Groep van de Drilldown** te vormen:
 
-   1. In het linkerpaneel, klik het **&#x200B;**&#x200B;pictogram van de montages van de Groep ![ van de Montages van de Groep ](assets/drilldown-group-icon.png).
+   1. In het linkerpaneel, klik het **** pictogram van de montages van de Groep ![ van de Montages van de Groep ](assets/drilldown-group-icon.png).
 
    1. Klik **toevoegen groeperend** knoop en dan het gebied selecteren u als groepering wilt tot stand brengen. De kolom voor cijfergroepering wordt weergegeven in de voorbeeldsectie aan de rechterkant.
 

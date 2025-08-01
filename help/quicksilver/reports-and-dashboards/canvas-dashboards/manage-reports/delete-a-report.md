@@ -1,24 +1,24 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Een rapport verwijderen
+title: Een rapport verwijderen op een Canvasdashboard
 description: U kunt een rapport verwijderen uit een Canvas-dashboard.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
 
-# Een rapport verwijderen
+# Een rapport verwijderen op een Canvasdashboard
 
 >[!IMPORTANT]
 >
 >De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Voor meer informatie, zie {de bètainformatie van de Dashboards van het 0} Canvas [.](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
 
-Zodra een dashboard wordt gecreeerd en u rapporten aan het hebt toegevoegd, kunt u oudere rapporten schrappen die niet meer op dat specifieke dashboard van toepassing zijn.
+Zodra een dashboard van het Canvas wordt gecreeerd en u rapporten aan het hebt toegevoegd, kunt u oudere rapporten schrappen die niet meer op dat specifieke dashboard van toepassing zijn.
 
 Het verwijderen van een verslag is permanent. Als u een rapport opnieuw moet toevoegen nadat het is geschrapt, zult u het rapport moeten opnieuw creëren.
 
