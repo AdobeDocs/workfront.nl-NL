@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: 1e8b25a0e6ff5c402bb662ef4b1831056e08c58b
+source-git-commit: 1c6a1238e9ea1ca843dcb296db7a552ff354c50a
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '873'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,8 @@ In de volgende tabel worden de velden weergegeven die beschikbaar zijn voor bron
 
 >[!NOTE]
 >
->Sommige objecten zijn alleen beschikbaar in Event Subscriptions versie 2. Deze objecten worden in de tabel vermeld.
+>* Sommige objecten zijn alleen beschikbaar in Event Subscriptions versie 2. Deze objecten worden in de tabel vermeld.
+>* De velden op deze pagina zijn altijd aanwezig in de geleverde gebeurtenis, zelfs als de waarde van dat veld null is.
 
 <table style="table-layout:auto"> 
  <col> 
