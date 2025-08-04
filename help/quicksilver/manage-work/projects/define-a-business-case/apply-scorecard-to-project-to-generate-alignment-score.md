@@ -5,9 +5,9 @@ description: U kunt een scorecard gebruiken om te meten hoe goed een project zic
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1208'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ Een scorecard toepassen op een project:
 
 1. Selecteer een scorecard in het keuzemenu.
 
-   ![ Nieuwe scorecard ](assets/new-scorecard.png)
+   <!--![New scorecard](assets/new-scorecard.png)-->
 
 1. Voer een antwoord in voor alle vragen in de scorecard.
 
@@ -164,7 +164,7 @@ U kunt de uitlijningsscore van een project weergeven op projectniveau als u Cont
 
    De Score van de Groepering wordt gevestigd in de Samenvatting Bedrijfs van het Geval, in de **Uitgelijnde** waarde.
 
-   ![ score van de Groepering op een project ](assets/alignment-score-on-a-project.png)
+   <!--![Alignment score on a project](assets/alignment-score-on-a-project.png)-->
 
 ### De uitlijningsscores van het project en het portfolio weergeven in Portfolio Optimizer
 
@@ -175,7 +175,7 @@ Voor meer informatie over de informatie die in Portfolio Optimizer wordt getoond
 * [ bepaal de plaats van de Score van de Groepering van het project in Portfolio Optimizer ](#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer)
 * [De uitlijningsscore van het portfolio zoeken in Portfolio Optimizer](#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer)
 
-  ![ score van de Groepering in Optimizer van Portfolio ](assets/alignment-score-in-portfolio-optimizer.png)
+  <!--![Alignment score in Portfolio Optimizer](assets/alignment-score-in-portfolio-optimizer.png)-->
 
 #### De uitlijningsscore van het project zoeken in Portfolio Optimizer {#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer}
 
@@ -196,7 +196,7 @@ Voor meer informatie over de informatie die in Portfolio Optimizer wordt getoond
 
 1. Klik op de naam van een portfolio.
 1. Klik **Optimalisering van Portfolio** in het linkerpaneel.
-1. Bij de bovenkant van de Optimizer van Portfolio vindt **Uitgelijnde** waarde, evenals **de 3&rbrace; maat van de Groepering &lbrace;, die op de groeperingsscore van de portefeuille wijzen.**
+1. Bij de bovenkant van de Optimizer van Portfolio vindt **Uitgelijnde** waarde, evenals **de 3} maat van de Groepering {, die op de groeperingsscore van de portefeuille wijzen.**
 
    Dit is de uitlijningsscore van het portfolio.
 

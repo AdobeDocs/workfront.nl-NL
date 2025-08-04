@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: db0a8e78454ffb5b85865265a273e21e99022f9f
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
-source-wordcount: '6262'
+source-wordcount: '6319'
 ht-degree: 0%
 
 ---
@@ -59,6 +59,16 @@ We hebben de pagina Gebruikers voor SSO bijwerken bijgewerkt met een moderner on
 Ga naar Instellingen > Systeem > Gebruikers voor SSO bijwerken om deze wijziging weer te geven
 
 ## Projecten
+
+## Interface-updates voor een bedrijfscase van een project
+
+**de versie van de Voorproef: 4 augustus, 2025; De versie van de productie: Te aankondigen**
+
+Wij hebben de blik en het gevoel van het BedrijfsGeval van het project bijgewerkt om andere gebieden van de toepassing aan te passen.
+
+Ga naar Projecten > Een project selecteren > Hoofd-kleine letter om deze wijziging weer te geven.
+
+Voor meer informatie, zie [ een bedrijfsgeval voor een project ](/help/quicksilver/manage-work/projects/define-a-business-case/create-business-case.md) creëren.
 
 ## Nieuwe kijk en mening van de sectie van de Details van de Rij op een malplaatje
 

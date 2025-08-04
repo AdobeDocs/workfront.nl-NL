@@ -5,9 +5,9 @@ description: Als deel van middelplanning, kunt u de project-vlakke Planner van h
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
-source-wordcount: '1240'
+source-wordcount: '1229'
 ht-degree: 0%
 
 ---
@@ -108,11 +108,11 @@ Om de Pools van het Middel en de middelen van het begrotingsproject in het Bedri
 
    * Selecteer de Planner van het Middel in **kiezen welke uren om de Begrotende Kosten van de Arbeid van het project** gebied te gebruiken, dan **kiezen > uitgeven Middel het Begrotend**.
 
-     ![ Bedrijfs geval in de Planner van het Middel ](assets/business-case-rp-selected-with-choose-button-350x120.png)
+     <!--![Business case in Resource Planner](assets/business-case-rp-selected-with-choose-button-350x120.png)-->
 
    * Als de Planner van het Scenario voor het in de begroting opnemen van middelen voor het project werd geselecteerd, klik **Verandering** > **geef het Middel in de begroting op**.
 
-     ![ Bedrijfs geval in de Planner van het Scenario ](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)
+     <!--![Business case in Scenario Planner](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)-->
 
    Dit gebruikt de begrotingsuren van het project om de begrote arbeidskosten voor het project te berekenen.
 
@@ -138,7 +138,7 @@ Om de Pools van het Middel en de middelen van het begrotingsproject in het Bedri
 
    Voor meer informatie over de Planner van het Middel, zie [ Overzicht van de Planner van het Middel ](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-   ![ BC_resource_budgeting_area.png ](assets/bc-resource-budgeting-area-350x276.png)
+   <!--![BC_resource_budgeting_area.png](assets/bc-resource-budgeting-area-350x276.png)-->
 
 1. (Optioneel en voorwaardelijk) Vergroot de taakrollen om de gebruikers te zien die aan deze rollen zijn gekoppeld.
 

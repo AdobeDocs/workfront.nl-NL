@@ -5,9 +5,9 @@ description: Als deel van middelplanning, kunt u de Planner van het Scenario van
 author: Alina
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '964'
 ht-degree: 0%
 
 ---
@@ -127,7 +127,7 @@ Voordat u begint, moet u het volgende doen:
 
    * Als u enkel informatie van de Planner van het Scenario publiceerde, de uitgezochte Planner van het Scenario in **verkies welke uren om de Begrotende Kosten van de Arbeid van het project** gebied op het het Voorwerpen van het Middel te berekenen, dan **kiezen**.
 
-     ![ Bedrijfs geval in de Planner van het Middel met Choose knoop ](assets/business-case-sp-selected-with-choose-button-350x121.png)
+     <!--![Business case in Resource Planner with Choose button](assets/business-case-sp-selected-with-choose-button-350x121.png)-->
 
    * Als de Planner van het Middel eerder voor het opnemen van middelen voor het project werd geselecteerd, klik **Verandering** > **de Planner van het Scenario** > **kiezen**.
 

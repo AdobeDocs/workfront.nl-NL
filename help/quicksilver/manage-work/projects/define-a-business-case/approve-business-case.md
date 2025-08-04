@@ -5,7 +5,7 @@ description: Nadat u de Business Case voor een projectverzoek hebt voltooid en i
 author: Alina
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 0%
@@ -126,7 +126,7 @@ Een rapport opstellen voor projecten die in afwachting zijn van de goedkeuring v
 1. Klik **Bedrijfs Geval** in het linkerpaneel.
 1. Klik **goedkeuren** of **verwerping** in het BedrijfsGeval Summiere gebied om het BedrijfsGeval goed te keuren of te verwerpen.
 
-   ![ Bedrijfs geval ](assets/business-case-summary-with-rp-information--1-.png)
+   &lt;!—![ Bedrijfs geval ](assets/business-case-summary-with-rp-information--1-.png)—>
 
    De projectstatus wordt veranderd in **Goedgekeurd** als het BedrijfsGeval wordt goedgekeurd.
 
