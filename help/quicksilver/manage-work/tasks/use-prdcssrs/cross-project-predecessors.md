@@ -84,7 +84,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >   Uw Workfront of groepsbeheerder kon de **Predecessors** sectie of andere secties uit het linkerpaneel verwijderen.
 
 1. Klik **toevoegen Voorganger.**
-1. Op het **gebied van het Project van de Ouder 0} {, begin typend de naam van het project dat de taak bevat die u voorganger aan uw huidige taak wilt zijn.**
+1. Op het **gebied van het Project van de Ouder 0&rbrace; &lbrace;, begin typend de naam van het project dat de taak bevat die u voorganger aan uw huidige taak wilt zijn.**
 1. Klik op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst.
 1. Op het **gebied van Taken**, begin typend de naam van de taak die u voorganger aan uw huidige taak wilt zijn.
 1. Geef de volgende informatie op voor het definiëren van de relatie tussen de voorganger en de afhankelijke taak:

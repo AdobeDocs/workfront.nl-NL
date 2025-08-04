@@ -88,7 +88,7 @@ U kunt als volgt taken voor een project maken:
 1. Ga naar het project waar u een taak wilt tot stand brengen.
 1. Klik **Taken** in het linkerpaneel.
 1. (Voorwaardelijk) als u momenteel de taaklijst in een gelijke mening bekijkt, klik het **pictogram van de Mening van de Lijst** in de hoger-juiste hoek om de taaklijst te tonen.![](assets/list-view-in-agile-view-for-tasks.png)
-1. (Facultatief) klik het **pictogram van de Wijze van het 0} Plan** en selecteer ![](assets/nwe-plan-mode-icon-task-list.png) Handboek sparen **, dan selecteren of** Standaard **of** Planning van de Chronologie **.** Dit maakt **Autosave** optie onbruikbaar die door gebrek wordt toegelaten.
+1. (Facultatief) klik het **pictogram van de Wijze van het 0&rbrace; Plan** en selecteer ![](assets/nwe-plan-mode-icon-task-list.png) Handboek sparen **, dan selecteren of** Standaard **of** Planning van de Chronologie **.** Dit maakt **Autosave** optie onbruikbaar die door gebrek wordt toegelaten.
 
    ![ Uitgezochte Hand sparen ](assets/manual-save-option.png)
 
@@ -133,7 +133,7 @@ U kunt als volgt taken voor een project maken:
 
         Voor informatie over het bepalen van alle taak-verwante gebieden op een taak, zie [ taken ](../../../manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
 
-   1. (Voorwaardelijk en facultatief) als u de taak wilt terugkomen, werk het **gebied van de Frequentie van de Terugkeer bij 0}.** Voor meer informatie over het creëren van terugkomende taken, zie [ terugkomende taken ](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md) creëren.
+   1. (Voorwaardelijk en facultatief) als u de taak wilt terugkomen, werk het **gebied van de Frequentie van de Terugkeer bij 0&rbrace;.** Voor meer informatie over het creëren van terugkomende taken, zie [ terugkomende taken ](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md) creëren.
    1. (Facultatief) klik **Documenten** in het linkerpaneel om een document aan de nieuwe taak vast te maken, dan **voegt toe of verbindt dossiers** om een document aan de taak van uw computer, een andere dienst toe te voegen, of om documenten en omslagen van uw computer of een andere dienst te verbinden.
 
 1. (Voorwaardelijk) als u **klikte voeg Meer Taken** in stap 5 toe, begin de taakinformatie gebruikend in-lijn het uitgeven in, dan druk binnengaan.
@@ -170,7 +170,7 @@ U kunt als volgt taken voor een project maken:
       1. (Voorwaardelijk) als u **Autosave** optie na het drukken **onbruikbaar maakte voeg Meer Taken** toe, kunt u het volgende doen:
 
          * Klik **ongedaan maken** op elk ogenblik om uw laatste verandering om te keren, of **annuleert** om alle veranderingen in te keren u aan de taaklijst aanbracht.
-         * Als u eerder **** klikte ongedaan maken, klik **opnieuw** om de laatste verandering toe te passen u geannuleerd.
+         * Als u eerder **&#x200B;**&#x200B;klikte ongedaan maken, klik **opnieuw** om de laatste verandering toe te passen u geannuleerd.
          * Klik **sparen** om uw veranderingen in de taaklijst te bewaren.
    1. (Facultatief) in een taaklijst, klik de **sectie van de Predecessor** om predecessors aan de taak toe te voegen. Voor meer informatie, zie [ een voorgangersverhouding creëren gebruikend het gebied van Voorgangers ](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md).
    1. (Facultatief) in een taaklijst, klik de **Subtasks** sectie om kindtaken toe te voegen. Voor meer informatie, zie [ subtasks ](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md) creëren.
