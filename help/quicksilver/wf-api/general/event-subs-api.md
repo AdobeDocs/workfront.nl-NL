@@ -79,7 +79,7 @@ De volgende Workfront-objecten worden ondersteund door gebeurtenisabonnementen.
 
 >[!NOTE]
 >
->Voor een lijst van gebieden die door de voorwerpen van het gebeurtenisabonnement worden gesteund, zie {de gebieden van het het abonnementsmiddel van de Gebeurtenis [.](../../wf-api/api/event-sub-resource-fields.md)
+>Voor een lijst van gebieden die door de voorwerpen van het gebeurtenisabonnement worden gesteund, zie &lbrace;de gebieden van het het abonnementsmiddel van de Gebeurtenis [.](../../wf-api/api/event-sub-resource-fields.md)
 
 ## Verificatie van abonnement op gebeurtenis
 
@@ -812,7 +812,7 @@ Met deze connector wordt het filter toegepast op de nieuwe status of oude status
 >[!NOTE]
 >
 >Het abonnement hieronder met het opgegeven filter retourneert alleen berichten waarin de naam van de taak `again` bevat op de `oldState` -taak, wat deze was voordat een update op de taak werd uitgevoerd.
->>Een gebruiksgeval voor dit zou zijn om de objCode- berichten te vinden die van één ding aan een ander veranderden. Bijvoorbeeld om alle taken te weten te komen die van &quot;Onderzoek één of andere naam&quot;in &quot;Onderzoek TeamName Één of andere naam&quot;veranderde
+>&#x200B;>Een gebruiksgeval voor dit zou zijn om de objCode- berichten te vinden die van één ding aan een ander veranderden. Bijvoorbeeld om alle taken te weten te komen die van &quot;Onderzoek één of andere naam&quot;in &quot;Onderzoek TeamName Één of andere naam&quot;veranderde
 
 ```
 {
