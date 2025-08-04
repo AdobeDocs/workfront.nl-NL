@@ -6,9 +6,9 @@ description: U kunt voorgangstaken (of alleen voorgangers) gebruiken om taken te
 author: Alina
 feature: Work Management
 exl-id: 68774286-da24-409a-bbd8-eb18dfe75063
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,7 @@ Voor informatie over predecessors, zie [ Overzicht van taakvoordecessors ](../..
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Vouw uit om de vereisten voor toegang weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -48,9 +46,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> 
-   <p>Nieuw: Standaard </p>
-   <p>of </p>
-   <p>Huidig: Plan </p> </td> 
+   <p>Standaard </p>
+    <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
@@ -69,15 +66,24 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 ## Een voorganger maken voor een taak
 
+Het creëren van een voorganger voor een projecttaak die het gebied van Predecessors gebruikt is gelijkaardig aan het creëren van predecessors voor een malplaatjetaken op een malplaatje.
+
+Een voorgangertaak maken voor een projecttaak:
+
 1. Navigeer aan de taak u als afhankelijke taak wilt aanwijzen.
 
 1. In het linkerpaneel, klik **Predecessors**.
 
-1. In de **sectie van de Voorgangers**, klik **+ voegt Voorganger** toe. **voegt de dialoogdoos van de Voorganger** toe opent.
+1. In de **sectie 0} Voorgangers {, klik** toevoegen Voorganger **.** **voegt de dialoogdoos van de Voorganger** toe opent.
 
-1. (Facultatief) om een dwars-projectvoorganger toe te voegen, vervang de naam van het project op het **gebied van het Project van de 1&rbrace; ouder** met een ander project.
+1. (Facultatief) om een dwars-projectvoorganger toe te voegen, vervang de naam van het project op het **gebied van het Project van de 1} ouder** met een ander project.
 
    Voor informatie, zie [ tot dwars-project predecessors ](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md) leiden.
+
+   >[!TIP]
+   >
+   >U kunt geen voordecessors voor meerdere sjablonen maken voor sjabloontaken.
+
 
 1. Op het **gebied van Taken**, type in de naam van de taak of de taken u als predecessors wilt aanwijzen, dan hen selecteren wanneer zij in drop-down verschijnen.
 
@@ -96,3 +102,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    Voor informatie, zie [ predecessors ](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md) afdwingen.
 
 1. Klik **sparen**.
+
+1. (Facultatief) om een voorganger te verwijderen, selecteer het uit de lijst van voorgangers, dan klik **verwijderen** pictogram ![ verwijderen pictogram ](assets/remove-or-delete-icon.png).
+
+   De voorganger wordt uit de lijst verwijderd. De voorgangstaak wordt niet geschrapt uit zijn project.

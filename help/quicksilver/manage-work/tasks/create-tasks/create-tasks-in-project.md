@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '1041'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ U kunt taken ook op de volgende manieren maken:
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
++++ Vouw uit om de vereisten voor toegang weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -60,9 +60,9 @@ U kunt taken ook op de volgende manieren maken:
   </tr> 
   <tr> 
    <td role="rowheader"> <p role="rowheader">Adobe Workfront-licentie</p> </td> 
-   <td><p>Huidig: Werk of hoger</p> 
-   of
-   <p>Nieuw: Standaard</p> </td> 
+   <td><p>Standaard</p> 
+   <p>Werk of hoger</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
@@ -70,7 +70,7 @@ U kunt taken ook op de volgende manieren maken:
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Contribute-machtigingen voor het project met de mogelijkheid om taken of hoger toe te voegen</p> <p>Als u een taak maakt, ontvangt u automatisch beheermachtigingen voor de taak</p> <p> Voor informatie over taaktoestemmingen, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref"> een taak delen </a>. </p> <p>Voor informatie bij het vragen van extra toestemmingen, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> Toegang tot voorwerpen verzoeken </a>.</p> </td> 
+   <td> <p>Contribute-machtigingen voor het project met de mogelijkheid om taken of hoger toe te voegen</p> <p>Als u een taak maakt, ontvangt u automatisch beheermachtigingen voor de taak</p> <p> Voor informatie over taaktoestemmingen, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref"> een taak delen </a>. </p> <p>Voor informatie bij het verzoeken van extra toestemmingen, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> Toegang van het Verzoek tot voorwerpen. </a></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -81,10 +81,14 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 ## Taken maken in een project
 
+Het creëren van taken in een project is gelijkaardig aan het creëren van taken op een malplaatje. U kunt de hieronder beschreven stappen volgen wanneer u sjabloontaken aan een sjabloon toevoegt.
+
+U kunt als volgt taken voor een project maken:
+
 1. Ga naar het project waar u een taak wilt tot stand brengen.
 1. Klik **Taken** in het linkerpaneel.
-1. (Voorwaardelijk) als u momenteel de taaklijst in een gelijke mening bekijkt, klik het **pictogram van de Mening van de Lijst ![](assets/list-view-in-agile-view-for-tasks.png) in de hoger-juiste hoek om de taaklijst te tonen.**
-1. (Facultatief) klik het **pictogram van de Wijze van het 0&rbrace; Plan ![](assets/nwe-plan-mode-icon-task-list.png) en selecteer** Handboek sparen **, dan selecteren of** Standaard **of** Planning van de Chronologie **.** Dit maakt **Autosave** optie onbruikbaar die door gebrek wordt toegelaten.
+1. (Voorwaardelijk) als u momenteel de taaklijst in een gelijke mening bekijkt, klik het **pictogram van de Mening van de Lijst** in de hoger-juiste hoek om de taaklijst te tonen.![](assets/list-view-in-agile-view-for-tasks.png)
+1. (Facultatief) klik het **pictogram van de Wijze van het 0} Plan** en selecteer ![](assets/nwe-plan-mode-icon-task-list.png) Handboek sparen **, dan selecteren of** Standaard **of** Planning van de Chronologie **.** Dit maakt **Autosave** optie onbruikbaar die door gebrek wordt toegelaten.
 
    ![ Uitgezochte Hand sparen ](assets/manual-save-option.png)
 
@@ -113,7 +117,6 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
       ![](assets/create-task-larger-box-nwe-350x244.png)
 
-       
 
       >[!NOTE]
       >
@@ -130,7 +133,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
         Voor informatie over het bepalen van alle taak-verwante gebieden op een taak, zie [ taken ](../../../manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
 
-   1. (Voorwaardelijk en facultatief) als u de taak wilt terugkomen, werk het **gebied van de Frequentie van de Terugkeer bij 0&rbrace;.** Voor meer informatie over het creëren van terugkomende taken, zie [ terugkomende taken ](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md) creëren.
+   1. (Voorwaardelijk en facultatief) als u de taak wilt terugkomen, werk het **gebied van de Frequentie van de Terugkeer bij 0}.** Voor meer informatie over het creëren van terugkomende taken, zie [ terugkomende taken ](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md) creëren.
    1. (Facultatief) klik **Documenten** in het linkerpaneel om een document aan de nieuwe taak vast te maken, dan **voegt toe of verbindt dossiers** om een document aan de taak van uw computer, een andere dienst toe te voegen, of om documenten en omslagen van uw computer of een andere dienst te verbinden.
 
 1. (Voorwaardelijk) als u **klikte voeg Meer Taken** in stap 5 toe, begin de taakinformatie gebruikend in-lijn het uitgeven in, dan druk binnengaan.
@@ -162,13 +165,15 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
          Dit maakt van de nieuwe taak een kind of subtaak van de vorige taak.
 
-         Voor meer informatie over kindtaken, zie [ subtasks ](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md) creëren.
+         Voor meer informatie over kindtaken, zie de sectie &quot;subtasks van de taakSubtasks sectie&quot;in artikel [ creëren subtasks ](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
 
       1. (Voorwaardelijk) als u **Autosave** optie na het drukken **onbruikbaar maakte voeg Meer Taken** toe, kunt u het volgende doen:
 
          * Klik **ongedaan maken** op elk ogenblik om uw laatste verandering om te keren, of **annuleert** om alle veranderingen in te keren u aan de taaklijst aanbracht.
-         * Als u eerder **&#x200B;**&#x200B;klikte ongedaan maken, klik **opnieuw** om de laatste verandering toe te passen u geannuleerd.
+         * Als u eerder **** klikte ongedaan maken, klik **opnieuw** om de laatste verandering toe te passen u geannuleerd.
          * Klik **sparen** om uw veranderingen in de taaklijst te bewaren.
+   1. (Facultatief) in een taaklijst, klik de **sectie van de Predecessor** om predecessors aan de taak toe te voegen. Voor meer informatie, zie [ een voorgangersverhouding creëren gebruikend het gebied van Voorgangers ](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md).
+   1. (Facultatief) in een taaklijst, klik de **Subtasks** sectie om kindtaken toe te voegen. Voor meer informatie, zie [ subtasks ](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md) creëren.
 
 ## Taken maken door een persoonlijke taak naar een project te verplaatsen
 

@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: f7cb314067d105d5534f4be356024aea8e8f9a28
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '4063'
+source-wordcount: '4062'
 ht-degree: 0%
 
 ---
@@ -50,12 +50,13 @@ Voor meer informatie over het type van uren kunt u login Workfront, zie [ de typ
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Nieuw:</p>
+   <td> 
    <ul><li> Licht of hoger om uren op een taak, kwestie, of Algemene Uren op timesheet te registreren</li>
    <li>Norm om uren op projecten te registreren</li></ul>
 
-<p>Huidige: 
-   <ul><li>Controle of hoger aan logboek Algemene Uren in een timesheet</li>
+<p>Of: </p>
+
+<ul><li>Controle of hoger aan logboek Algemene Uren in een timesheet</li>
    <li>Werk of hoger om uren aan een project, een taak of een kwestie te registreren</li></ul> </td> 
   </tr> 
   <tr> 
@@ -126,7 +127,7 @@ Aan logboektijd op een timesheet:
    ![ Timesheet ](assets/timesheet-redesigned-nwe.png)
 
 
-1. (Optioneel) Klik op het **pictogram ![](assets/full-screen.png) volledig scherm** om de tijdspagina in de modus Volledig scherm weer te geven en klik vervolgens op het pictogram **exit-full-screen** ![](assets/exit-full-screen.png) om terug te keren naar de tijdspagina.
+1. (Optioneel) Klik op het **pictogram** volledig scherm ![](assets/full-screen.png) om de tijdspagina in de modus Volledig scherm weer te geven en klik vervolgens op het pictogram **exit-full-screen** ![](assets/exit-full-screen.png) om terug te keren naar de tijdspagina.
 
    <!-- drafted for the resize columns in timesheet story: 1. (optional) Click on the separator lines between weeks or between the time frame area and the work item area to resize the columns of the timesheet.-->
 
@@ -163,7 +164,7 @@ Klik **annuleren** om het toevoegen van de geselecteerde punten tegen te houden,
 
    <!--(ensure this stays accurate)-->
 
-1. (Optioneel) Klik op de pictogrammen **Samenvouwen ![](assets/collapse-icon.png) of** Uitvouwen **![](assets/expand-icon.png) naast de projectnaam om de lijst met taken en problemen voor het project weer te geven of te verbergen.**
+1. (Optioneel) Klik op de pictogrammen **Samenvouwen** of ![](assets/collapse-icon.png) Uitvouwen **** naast de projectnaam om de lijst met taken en problemen voor het project weer te geven of te verbergen.![](assets/expand-icon.png)
 
 
    >[!TIP]
@@ -351,9 +352,9 @@ Daarnaast kunt u als volgt de tijd vastleggen voor een item in de widget Mijn we
 1. Ga naar het **Begin** gebied.
 1. Voeg **Mijn werk** widget aan uw Huis toe.
 1. (Facultatief) selecteer een taak, kwestie, of verzoek in een lijst, dan klik **Werk op het**.
-1. Beweeg over de taak of de kwestie u tijd voor wilt registreren, dan het **pictogram ![](assets/log-time-icon-in-new-home.png) van de Tijd van het Logboek** &lbrace;aan het recht van de taakinformatie klikken.
+1. Beweeg over de taak of de kwestie u tijd voor wilt registreren, dan het **pictogram** van de Tijd van het Logboek ![](assets/log-time-icon-in-new-home.png) {aan het recht van de taakinformatie klikken.
 
-   De **vakvertoningen van de tijd van het 0&rbrace; Logboek.**
+   De **vakvertoningen van de tijd van het 0} Logboek.**
 
    ![ de tijdvakje van het Logboek voor een taak in Huis ](assets/log-time-ui-for-task-from-new-home.png)
 
@@ -454,7 +455,7 @@ Om tijd in de sectie van Uren van een project, een taak, of een kwestie te regis
 1. In het linkerpaneel, klik **Uren**.
 1. Klik **Tijd van het Logboek**.
 
-   De **vakvertoningen van de Tijd van het Logboek van 0&rbrace; &lbrace;.**
+   De **vakvertoningen van de Tijd van het Logboek van 0} {.**
 
    <!--<div class="preview">
   
@@ -570,7 +571,7 @@ Om uurtypes in een uurrapport of een lijst uit te geven:
 1. Klik op het vakje links van een of meerdere uurvermeldingen om deze te selecteren.
 1. Klik het **uitgeven pictogram** ![](assets/edit-icon.png) bij de bovenkant van de lijst.
 
-   Het **geeft** uur &lbrace;of **geeft de doos van Uren** uit opent.
+   Het **geeft** uur {of **geeft de doos van Uren** uit opent.
 1. Werk een van de volgende beschikbare velden bij:
 
    * Uren. Dit is een verplicht veld.

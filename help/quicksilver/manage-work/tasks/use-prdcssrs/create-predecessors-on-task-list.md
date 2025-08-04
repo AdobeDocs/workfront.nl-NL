@@ -6,9 +6,9 @@ description: U kunt voorgangstaken (of alleen voorgangers) gebruiken om taken te
 author: Alina
 feature: Work Management
 exl-id: a84d88ac-8dd4-4952-b83f-02fafa61e68b
-source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Voor meer informatie, zie [ Overzicht van taakvoordecessors ](../../../manage-wo
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
++++ Vouw uit om de vereisten voor toegang weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,7 +43,7 @@ Voor meer informatie, zie [ Overzicht van taakvoordecessors ](../../../manage-wo
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Nieuw: Standaard </p><p>Huidig: Plan </p> </td> 
+   <td> <p>Standaard </p><p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
@@ -69,7 +69,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 1. In de **drop-down Meningen**, selecteer een mening die de **Predecessor** kolom toont, of voeg de kolom aan uw huidige mening toe.
 
 1. Selecteer de taak die u als afhankelijke taak wilt aanwijzen.
-1. Klik binnen de 0&rbrace; Predecessors van de taak **kolom.**
+1. Klik binnen de 0} Predecessors van de taak **kolom.**
 1. Het type in het taakaantal u als voorganger van de geselecteerde taak wilt aanwijzen, dan drukt **gaat** binnen.
 
    >[!TIP]
@@ -78,7 +78,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    >
    >1. Klik het **pictogram van de Wijze van het Plan** en kies **Autosave**.
    >
-   >1. Typ in het referentienummer van het project van de voorganger gevolgd door een dubbele punt en het nummer van de taak. Bijvoorbeeld, die in *765021 typen:12* wijst erop dat het Aantal van de Verwijzing van het project van de voorganger 765021 is en voorganger taakaantal 12 op het project is.
+   >1. Typ in het referentienummer van het project van de voorganger gevolgd door een dubbele punt en het nummer van de taak. Bijvoorbeeld, die in *765021:12* typt wijst erop dat het Aantal van de Verwijzing van het project van de voorganger 765021 is en voorganger taakaantal 12 op het project is.
    >
    >1. Voeg het gebiedstype voor deze voorganger toe. Voor meer informatie, zie [ tot dwars-project predecessors ](/help/quicksilver/manage-work/tasks/use-prdcssrs/cross-project-predecessors.md) leiden.
    >
@@ -96,7 +96,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 U kunt snel details over de voorganger bekijken in de takenlijst.
 
-1. Voor de taaklijst, houd over het voorgangersaantal in de **1&rbrace; kolom van Predecessors &lbrace;.** Er wordt een vak met de voorganger weergegeven.
+1. Voor de taaklijst, houd over het voorgangersaantal in de **1} kolom van Predecessors {.** Er wordt een vak met de voorganger weergegeven.
 
    ![ Details van de Predecessor ](assets/predecessor-details-in-task-list.png)
 
