@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 4ecb9141054c2f927a936f498941cc41108cbe45
 workflow-type: tm+mt
 source-wordcount: '6319'
 ht-degree: 0%
@@ -72,7 +72,7 @@ Voor meer informatie, zie [ een bedrijfsgeval voor een project ](/help/quicksilv
 
 ## Nieuwe kijk en mening van de sectie van de Details van de Rij op een malplaatje
 
-**de versie van de Voorproef: 31 juli, 2025; De versie van de productie: 7 augustus, 2025**
+**de versie van de Voorproef: 31 juli, 2025; De versie van de productie: 14 augustus, 2025**
 
 Wij hebben de blik en het gevoel van de sectie van de Details van de Rij van een malplaatje bijgewerkt. De vormgeving van de sectie Wachtrijdetails komt nu overeen met die van andere delen van Workfront.
 
