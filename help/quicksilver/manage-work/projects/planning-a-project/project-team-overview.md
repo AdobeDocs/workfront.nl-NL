@@ -7,9 +7,9 @@ description: De gebruikers die met een project in één of andere capaciteit wor
 author: Alina
 feature: Work Management
 exl-id: ceb25fb1-57fc-476c-b92c-fc41aadc0b5b
-source-git-commit: d77da0569389104172fc759c53a9eb00acec4f65
+source-git-commit: 89e15f6d99514e11e43e06487a4477d35a155cb0
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,14 @@ ht-degree: 0%
 
 <!-- Audited: 6/2025 -->
 
-Een projectteam bestaat uit gebruikers die met een project in één of andere capaciteit worden geassocieerd. De gebruikers onder het gebied van Mensen van een project worden vermeld maken uit het projectteam dat. Bijvoorbeeld, zijn de gebruikers die aan het project of de projecteigenaar worden toegewezen deel van het projectteam.
+Een projectteam bestaat uit gebruikers die met een project in één of andere capaciteit worden geassocieerd. De gebruikers die in de sectie van Mensen van een project worden vermeld maken omhoog het projectteam. Bijvoorbeeld, zijn de gebruikers die aan het project of de projecteigenaar worden toegewezen deel van het projectteam.
 
-De gebruikers verbonden aan het werk aan een projectmalplaatje of zijn de malplaatjeeigenaar of sponsor deel van het toekomstige projectteam nadat het project gebruikend het malplaatje wordt gecreeerd.
+De volgende gebruikers op een projectmalplaatje maken deel uit van het toekomstige projectteam nadat het project gebruikend het malplaatje wordt gecreeerd:
+
+* Gebruikers die zijn toegewezen aan het werk (taken en uitgaven) aan de sjabloon.
+* De sjablooneigenaar of sponsor.
+
+Gebruikers die deel uitmaken van het toekomstige projectteam op een malplaatjevertoning in de sectie van Mensen van het malplaatje.
 
 ## Projectteamleden
 

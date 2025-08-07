@@ -4,12 +4,12 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: Overzicht van berekende gegevensexpressies
 description: U kunt gegevensexpressies gebruiken om berekende aangepaste gegevensvelden in Adobe Workfront te definiëren. Berekende expressies verbinden bestaande Workfront-velden met instructies die een nieuw veld genereren.
-author: Nolan
+author: Courtney, Lisa
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: fe9d3cfbb50bfda672360b918d971cc77b0b8b0a
+source-git-commit: 89e15f6d99514e11e43e06487a4477d35a155cb0
 workflow-type: tm+mt
-source-wordcount: '2463'
+source-wordcount: '2551'
 ht-degree: 0%
 
 ---
@@ -414,23 +414,8 @@ U kunt een berekend aangepast veld maken waarin een waarde met tekstopmaak wordt
    <p><code>ARRAYELEMENT(array, number)</code></p> 
    </td> 
   </tr>
-  <tr> 
-   <td><strong> SORTASCARRAY </strong> </td> 
-   <td> <p>De arrayelementen worden in oplopende volgorde gesorteerd en omgezet in het type van het eerste element.</p>
-   <p>De expressie wordt als volgt opgemaakt:</p>
-   <p><code>SORTASCARRAY(array)</code></p>
-   <p>["-12.6", -13.0] wordt bijvoorbeeld ["-12.6", "-13"].</p>
-   <p>Opmerking: deze expressie wordt niet ondersteund in Workfront Planning.</p></td> 
-  </tr>
-  <tr> 
-   <td><strong> SORTDESCARRAY </strong> </td> 
-   <td> <p>De arrayelementen worden in aflopende volgorde gesorteerd en omgezet in het type van het eerste element.</p>
-   <p>De expressie wordt als volgt opgemaakt:</p>
-   <p><code>SORTDESCARRAY(array)</code></p>
-   <p>["-12.6", -13.0] wordt bijvoorbeeld ["-13", "-12.6"].</p>
-   <p>Opmerking: deze expressie wordt niet ondersteund in Workfront Planning.</p></td> 
-  </tr>
-  <tr>   
+
+<tr>   
    <td><strong> ZAAK </strong> </td> 
    <td> <p>Wordt gebruikt met andere expressies om een waarde in een lijst te kiezen op basis van een indexnummer. </p>
    <p>Een indexnummer is een veld of functie die een numerieke waarde retourneert (gewoonlijk in een bekend bereik).</p> 
@@ -543,10 +528,35 @@ U kunt een berekend aangepast veld maken waarin een waarde met tekstopmaak wordt
 <p><code>LOWER(string)</code></p></td> 
   </tr> 
   <tr> 
+   <td><strong> PASCAL </strong> </td> 
+   <td> <p>Zet het inputkoord in PascalCase om door de eerste brief van elk woord te kapitaliseren en alle ruimten te verwijderen. </p>
+   <p>De expressie wordt als volgt opgemaakt:</p>
+   <p><code>PASCAL(string) </code></p>
+   <p>'hello world' wordt bijvoorbeeld 'HelloWorld'</p> 
+   </td> 
+  </tr>
+  <tr> 
+   <td><strong> VERWIJDEREN </strong> </td> 
+   <td> <p>Verwijdert diakritische tekens uit alle tekens met accent in de invoertekenreeks. </p> 
+   <p>De expressie wordt als volgt opgemaakt:</p>
+   <p><code>REMOVEACCENTS(string)</code></p> 
+   <p>"Héllo wörld met àcénts" wordt bijvoorbeeld "Hello world with accents". </p>
+   </td> 
+  </tr>
+  <tr> 
    <td><strong> VERVANGEN </strong> </td> 
    <td> <p>Vervangt alle instanties van string2 door string3 in string1.</p> <p>De expressie wordt als volgt opgemaakt:</p>
 
 <p><code>REPLACE(string1, string2, string3)</code></p> </td> 
+  </tr>
+
+<tr> 
+   <td><strong> VERVANGEN </strong> </td> 
+   <td> <p>Vervangt de overeenkomende waarden van het opgegeven patroon door de vervangende tekenreeks. </p> 
+   <p>De expressie wordt als volgt opgemaakt:</p>
+   <p><code>REPLACEPATTERN (string, pattern, replacement string)</code></p> 
+   <p>Met REPLACEPATTERN("foo123bar", "\d+", "_") wordt bijvoorbeeld de tekenreeks "foo_bar" gegenereerd. 
+   </td> 
   </tr> 
   <tr> 
    <td><strong> RECHTS </strong> </td> 
@@ -560,6 +570,22 @@ U kunt een berekend aangepast veld maken waarin een waarde met tekstopmaak wordt
 
 <p><code>SEARCH(findText, withinText, start)</code></p> </td> 
   </tr> 
+  <tr> 
+   <td><strong> SORTASCARRAY </strong> </td> 
+   <td> <p>De arrayelementen worden in oplopende volgorde gesorteerd en omgezet in het type van het eerste element.</p>
+   <p>De expressie wordt als volgt opgemaakt:</p>
+   <p><code>SORTASCARRAY(array)</code></p>
+   <p>["-12.6", -13.0] wordt bijvoorbeeld ["-12.6", "-13"].</p>
+   <p>Opmerking: deze expressie wordt niet ondersteund in Workfront Planning.</p></td> 
+  </tr>
+  <tr> 
+   <td><strong> SORTDESCARRAY </strong> </td> 
+   <td> <p>De arrayelementen worden in aflopende volgorde gesorteerd en omgezet in het type van het eerste element.</p>
+   <p>De expressie wordt als volgt opgemaakt:</p>
+   <p><code>SORTDESCARRAY(array)</code></p>
+   <p>["-12.6", -13.0] wordt bijvoorbeeld ["-13", "-12.6"].</p>
+   <p>Opmerking: deze expressie wordt niet ondersteund in Workfront Planning.</p></td> 
+  </tr>
   <tr> 
    <td><strong> TEKENREEKS </strong> </td> 
    <td> <p>Zet een getal om in een tekenreeks en is als volgt opgemaakt:</p>
@@ -603,3 +629,4 @@ U kunt een berekend aangepast veld maken waarin een waarde met tekstopmaak wordt
   </tr> 
  </tbody> 
 </table>
+
