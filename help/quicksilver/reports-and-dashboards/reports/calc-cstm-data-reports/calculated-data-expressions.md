@@ -7,7 +7,7 @@ description: U kunt gegevensexpressies gebruiken om berekende aangepaste gegeven
 author: Courtney, Lisa
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 89e15f6d99514e11e43e06487a4477d35a155cb0
+source-git-commit: 36cd1c23dfb6e01dc1016a6a12ae47e4f9172d20
 workflow-type: tm+mt
 source-wordcount: '2551'
 ht-degree: 0%
@@ -374,7 +374,7 @@ U kunt een berekend aangepast veld maken dat een aantal van de volgende wiskundi
 
 U kunt een berekend aangepast veld maken waarin een waarde met tekstopmaak wordt weergegeven met de volgende expressies:
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto:fixed"> 
  <col> 
  <col> 
  <thead> 
@@ -555,7 +555,7 @@ U kunt een berekend aangepast veld maken waarin een waarde met tekstopmaak wordt
    <td> <p>Vervangt de overeenkomende waarden van het opgegeven patroon door de vervangende tekenreeks. </p> 
    <p>De expressie wordt als volgt opgemaakt:</p>
    <p><code>REPLACEPATTERN (string, pattern, replacement string)</code></p> 
-   <p>Met REPLACEPATTERN("foo123bar", "\d+", "_") wordt bijvoorbeeld de tekenreeks "foo_bar" gegenereerd. 
+   <p>Met REPLACEPATTERN("foo123bar", "\d+", "_") wordt bijvoorbeeld de tekenreeks "foo_bar" gegenereerd.
    </td> 
   </tr> 
   <tr> 

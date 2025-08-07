@@ -4,9 +4,9 @@ description: De GenStudio for Performance Marketing-werkruimte is beschikbaar in
 hide: true
 hidefromtoc: true
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: b366841f3994468624a0c9b07d9de6f2f274cbe0
+source-git-commit: 36cd1c23dfb6e01dc1016a6a12ae47e4f9172d20
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '1029'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,22 @@ Met de integratie tussen Workfront Planning en GenStudio for Performance Marketi
 * Bekijk de GenStudio-werkruimte in Workfront Planning.
 * Wijzig uw campagnes in GenStudio en heb updates in real time van de zelfde informatie in de Planning van Workfront.
 * Wijzig uw campagnes in de Planning van Workfront en heb updates in real time van de zelfde informatie in GenStudio.
+
+## Integratievereisten
+
+* Workfront en GenStudio for Performance Marketing moeten worden ingeschakeld bij dezelfde organisatie.
+
+  Voor meer informatie over GenStudio, zie {de Gids van de Gebruiker van 0} Adobe GenStudio for Performance Marketing [.](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)
+
+* GenStudio is niet beschikbaar in Workfront Planning wanneer uw bedrijf meerdere Workfront-instanties heeft. <!--this will change-->
+
+* De Workfront-instantie maakt deel uit van de Adobe Unified Experience, inclusief het gebruik van het Identity Management System (IMS).
+
+  Voor informatie, zie [ Adobe Verenigde Ervaring voor Workfront ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+
+* Gebruikers die zowel Planning als GenStudio gebruiken, kunnen binnen de IMS-organisatie tot slechts één Workfront-instantie behoren.
+
+<!--not sure: true for Planning? This is true for GenS and WF Proof: * The integration must be enabled in the Workfront Setup area.-->
 
 ## Toegangsvereisten
 
@@ -105,44 +121,34 @@ Met de integratie tussen Workfront Planning en GenStudio for Performance Marketi
 *Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
-## Integratievereisten
+## Overzicht van de integratie van Workfront Planning and GenStudio
 
-* Workfront en GenStudio for Performance Marketing moeten worden ingeschakeld bij dezelfde organisatie.
-* GenStudio is niet beschikbaar in Workfront Planning wanneer uw bedrijf meerdere Workfront-instanties heeft. <!--this will change-->
+In de volgende secties wordt het volgende beschreven:
 
-* De Workfront-instantie maakt deel uit van de Adobe Unified Experience, inclusief het gebruik van het Identity Management System (IMS).
+* Mogelijkheden voor het bijwerken van Workfront Planning-informatie van GenStudio
+* Mogelijkheden voor het bijwerken van GenStudio-informatie van Workfront Planning
+* Beperkingen voor wat u in een GenStudio-werkruimte kunt en kunt beheren vanuit Workfront Planning.
 
-  Voor informatie, zie [ Adobe Verenigde Ervaring voor Workfront ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
-
-* Gebruikers die zowel Planning als GenStudio gebruiken, kunnen binnen de IMS-organisatie tot slechts één Workfront-instantie behoren.
-
-<!--not sure: true for Planning? This is true for GenS and WF Proof: * The integration must be enabled in the Workfront Setup area.-->
-
-
-## Overwegingen bij het beheren van een GenStudio-werkruimte in Workfront Planning
-
-* Uw organisatie moet Adobe GenStudio for Performance Marketing aanschaffen voordat u een GenStudio-werkruimte kunt weergeven in Workfront Planning.
-
-  Voor meer informatie over GenStudio, zie {de Gids van de Gebruiker van 0} Adobe GenStudio for Performance Marketing [.](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/home)
-
-  Voor meer informatie over de integratie van de Planning van GenStudio en Workfront, zie [ begonnen worden met de Planning van Workfront en de integratie van GenStudio for Performance Marketing ](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
-
-* Workfront-gebruikers moeten toegang hebben tot GenStudio om de GenStudio-werkruimte te kunnen zien in Workfront Planning.
-
-
-* De volgende secties beschrijven wat sommige beperkingen voor zijn wat u in een werkruimte van GenStudio van de Planning van Workfront kunt en niet kunt leiden.
+<!--add here a link from the GenS articles about what you can/ cannot do from GenStudio that might in the end reflect in Planning - this should come from the GenS team-->
 
 ### De GenStudio-werkruimte in Workfront Planning
 
-* Als uw organisatie meerdere Workfront-instanties heeft, kan slechts één exemplaar van Workfront uw GenStudio-werkruimte weergeven.
-* De werkruimte van GenStudio geeft een visuele indicator weer die duidelijk maakt dat deze uit GenStudio is geïmporteerd.
+* Als uw organisatie meerdere Workfront-instanties heeft, is de GenStudio-werkruimte niet zichtbaar vanuit een van uw Workfront-instanties. <!-- this might change-->
+* De werkruimte van GenStudio geeft een visuele indicator weer die duidelijk maakt dat deze uit GenStudio is geïmporteerd. Voor informatie, zie [ de werkruimte van GenStudio in de Planning van Adobe Workfront ](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md) leiden.
+* Alle gebruikers die toegang hebben tot zowel de Planning van GenStudio als van Workfront kunnen de werkruimte van GenStudio in de Planning van Workfront ook zien.
+* Gebruikers van Workfront Planning moeten via het Adobe Identity Management System (IMS) worden beheerd om de GenStudio-werkruimte van Workfront te kunnen bekijken en gebruiken.
+
+  Gebruikers die alleen voor Workfront werken, kunnen de GenStudio-werkruimte niet zien, zelfs niet als deze beschikbaar is in Workfront.
+
+  Voor informatie, zie [ Adobe Verenigde Ervaring voor Workfront ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+
 
 ### Recordtypen
 
-* U kunt recordtypen niet vanuit GenStudio bewerken in Workfront Planning.
-* U kunt geen recordtypen vanuit GenStudio delen met andere gebruikers. Workfront-beheerders kunnen de GenStudio-werkruimte weergeven in hun planningsgebied.
+* U kunt recordtypegegevens (bijvoorbeeld hun weergave) bewerken in GenStudio in Workfront Planning.
+* U kunt GenStudio-recordtypen met anderen delen in Planning.  <!--checking with Ani H.-->
+* U kunt recordtypen maken vanuit Planning in de GenStudio-werkruimte. <!-- checking with Ani where these show up in GenS-->
 * Recordtypen die met GenStudio worden gesynchroniseerd, geven een visuele indicator weer die duidelijk maakt dat de recordtypen uit GenStudio worden geïmporteerd.
-* Gebruikers die de GenStudio-werkruimte in Planning bekijken, kunnen hun recordtypen delen met anderen.
 
 ### Records
 
@@ -150,20 +156,24 @@ Met de integratie tussen Workfront Planning en GenStudio for Performance Marketi
 U kunt records toevoegen of verwijderen in Workfront Planning en deze worden weergegeven in (of verwijderd uit) GenStudio.
 * U kunt verslagen van de Planning van Workfront op de volgende manieren toevoegen:
 
-   * Handmatig, helemaal opnieuw
+   * Handmatig, geheel nieuw, vanuit elke weergave met de knop Nieuwe record
    * Door ze te importeren met een CSV- of Excel-bestand
+   * Handmatig, inline, in de tabelweergave
+   * Handmatig, rechtstreeks in de tijdlijnweergave
 
   Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-records.md) creëren.
 * U kunt activeringsrecords niet maken of verwijderen via Workfront Planning.
-* U kunt recordgegevens van alle records in de GenStudio-werkruimte in alle zichtbare velden bewerken via Workfront Planning.
+* U kunt recordinformatie over alle records in de GenStudio-werkruimte in Planning bewerken in alle zichtbare velden vanuit Workfront Planning.
 
   Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.
 
+  <!--asking Ani if I delete a record in GS - will it move to Recovery box in Planning?-->
+
 ### Velden
 
-* Alle recordvelden worden geïmporteerd uit GenStudio en de veldinstellingen kunnen niet worden bewerkt.
-* U kunt velden voor GenStudio-recordtypen alleen maken in Workfront Planning als u systeembeheerdersrechten hebt in GenStudio.
-* U kunt velden maken voor GenStudio-recordtypen in Planning. Deze velden zijn zichtbaar in de volgende gebieden:
+* Recordvelden worden geïmporteerd uit GenStudio. U kunt de gebiedsmontages in de Planning van Workfront uitgeven.
+* U kunt meer gebieden voor de verslagtypes van GenStudio in de Planning van Workfront tot stand brengen als u Manage toegang in Gen Studio hebt.
+* Wanneer u gebieden voor de verslagtypes van GenStudio in Planning creeert, zijn zij zichtbaar van de volgende gebieden:
    * Weergaven plannen
    * Recorddetailpagina&#39;s plannen
    * GenStudio-recorddetailpagina&#39;s
@@ -183,16 +193,17 @@ I had this from Iskuhi, so not sure if you CAN create fields in Planning?? - onl
 
 ### Weergaven
 
-* U kunt weergaven maken voor GenStudio-recordtypen. U kunt geen automatisch uit GenStudio geïmporteerde weergaven bewerken, maar u kunt wel de weergave-elementen voor de GenStudio-tabelweergave wijzigen. U kunt bijvoorbeeld de filters, sortering, groepen, rijkleuren en rijhoogte wijzigen in de tabelweergave.
+* U kunt weergaven maken voor GenStudio-recordtypen.
 
   Voor informatie, zie [ verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md) leiden.
 
-* U kunt de weergave van een GenStudio-recordtype op de volgende manieren delen:
-
-   * De koppeling Weergave kopiëren
-   * De weergave exporteren naar een bestand (alleen beschikbaar voor de tabelweergave)
+* U kunt de mening van een het recordtype van GenStudio delen aangezien u een mening voor een het verslagtype van de Planning zou delen.
 
 ### Verbindingen
 
-* U kunt geen verbinding maken tussen andere record- of objecttypen van GenStudio-recordtypen in Planning.
-* U kunt in Planning verbinding maken met GenStudio-recordtypen van andere recordtypen.
+* U kunt de volgende verbindingen maken tussen GenStudio-recordtypen en andere record- of objecttypen in Workfront Planning:
+
+   * Twee GenStudio-recordtypen en
+   * Een GenStudio-recordtype en een planningsrecordtype vanuit dezelfde werkruimte
+   * Een GenStudio-recordtype en een planningsrecordtype van een andere werkruimte, als de recordtypen zijn geconfigureerd om verbinding te maken met een andere werkruimte.
+   * Een GenStudio-recordtype en een Workfront-objecttype (projecten, portfolio&#39;s, programma&#39;s, bedrijven, groepen)
