@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: a0b635953245cf307b558d343ad234a27c96da94
 workflow-type: tm+mt
-source-wordcount: '1419'
+source-wordcount: '1433'
 ht-degree: 0%
 
 ---
 
 # Problemen toewijzen
+
+{{preview-fast-release-general}}
 
 <!--Audited: 07/2024-->
 
@@ -170,6 +172,10 @@ Om kwesties in een lijst toe te wijzen:
 
    * Klik binnen het **gebied van Taken** en begin de naam van een actieve gebruiker, baanrol, of actief team te typen dat u aan de kwestie wilt toewijzen, dan het klikken wanneer het in de lijst toont.
 
+     <span class="preview"> beeld van de Steekproef in het milieu van de Voorproef:</span>
+     ![ het gebied van Taken ](assets/assignments-field-0825.png)
+
+     Voorbeeldafbeelding in de productieomgeving:
      ![ het gebied van Taken ](assets/assignments-field-task-list-0424.png)
 
    >[!TIP]
@@ -180,8 +186,7 @@ Om kwesties in een lijst toe te wijzen:
    >
    >De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Voor informatie, zie [ toegang van de Verlening tot gebruikers ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-
-1. (Voorwaardelijk) wanneer zichtbaar op het gebied van Taken, klik het **pictogram van Mensen** ![ pictogram van Mensen ](assets/teams.png) in de hoger-juiste hoek van de toewijzingsdoos om de Geavanceerde doos van Toewijzingen te openen en geavanceerde taken tot stand te brengen. Voor meer informatie, zie [ Geavanceerde taken ](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md) creëren.
+1. (Voorwaardelijk) op het gebied van Taken, klik <span class="preview">**Geavanceerd**</span> of het **pictogram van Mensen** ![ het pictogram van Mensen ](assets/teams.png) in de hoger-juiste hoek van de toewijzingsdoos om de Geavanceerde doos van Toewijzingen te openen en geavanceerde taken tot stand te brengen. Voor meer informatie, zie [ Geavanceerde taken ](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md) creëren.
 
    >[!TIP]
    >
@@ -204,7 +209,7 @@ Om kwesties in een lijst toe te wijzen:
    >Als een van de problemen al is toegewezen, worden de bronnen die u hier opgeeft, toegevoegd aan de problemen in plaats van de bestaande bronnen over de problemen te vervangen.
 
 1. (Facultatief) selecteer het radioknoop in de **kolom van de Eigenaar van de Uitgave** om erop te wijzen welke middel de primaire ontvanger of de Eigenaar van de kwestie is, wanneer u meer dan één middel aan de kwestie toewijst. Dit is niet beschikbaar voor teams.
-1. (Facultatief) selecteer een rol die de gebruiker op de kwestie van **zou moeten vervullen kies een rol** drop-down menu in de **3&rbrace; kolom van de Rol van de Ontvanger &lbrace;wanneer u gebruikers aan kwesties toewijst.** Als u geen rol selecteert, selecteert Workfront automatisch de Primaire Rol van de gebruiker.
+1. (Facultatief) selecteer een rol die de gebruiker op de kwestie van **zou moeten vervullen kies een rol** drop-down menu in de **3} kolom van de Rol van de Ontvanger {wanneer u gebruikers aan kwesties toewijst.** Als u geen rol selecteert, selecteert Workfront automatisch de Primaire Rol van de gebruiker.
 
 1. (Optioneel) Als u bestaande toewijzingen uit alle uitgaven wilt verwijderen, voert u een van de volgende handelingen uit:
 

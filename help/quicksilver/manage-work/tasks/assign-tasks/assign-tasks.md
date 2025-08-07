@@ -7,24 +7,18 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
+source-git-commit: a0b635953245cf307b558d343ad234a27c96da94
 workflow-type: tm+mt
-source-wordcount: '2012'
+source-wordcount: '1836'
 ht-degree: 0%
 
 ---
 
 # Taken toewijzen
 
+{{preview-fast-release-general}}
+
 <!--Audited: 07/2024-->
-
-<!--remove the span class preview from everywhere but the Rate Card roles references must stay in yellow; replace the intro with preview and fast track only but not sure if with the link to third quarter release?!-->
-
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Voorproef voor alle klanten, of in het milieu van de Productie voor klanten die snelle versies toeliet.</span>
-
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken.</span>
-
-<span class="preview"> voor informatie over de huidige versie, zie [ Vierde Kwartaal 2024 versieoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).</span>
 
 U kunt taken aan gebruikers, baanrollen, of teams toewijzen om erop te wijzen wie voor de voltooiing van de taken verantwoordelijk is. U kunt een taak aan meer dan één middel tegelijkertijd toewijzen.
 
@@ -55,8 +49,6 @@ Naast dit artikel raden we u aan de volgende artikelen te lezen voor meer inform
 * [Overzicht van het toewijzen van werk in de werklastverdeler](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 
 ## Toegangsvereisten
-
-<!-- Audited: 07/2024-->
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
@@ -146,29 +138,27 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 ## Eén taak toewijzen
 
 1. Ga naar een taak die u wilt toewijzen.
-1. Klik **toewijzen aan** in het **3&rbrace; gebied van Taken &lbrace;in de kopbal van de taak**
+1. Klik **toewijzen aan** in het **3} gebied van Taken {in de kopbal van de taak**
 
    of
 
    Klik op de naam van de toewijzingen als de taak al is toegewezen.
 
-   ![ Taken ](assets/assignments-box-in-task-header.png)
+   ![ Taken ](assets/assignments-from-task-header-0825.png)
 
 1. Voer een van de volgende handelingen uit:
 
-   * Typ de naam van een gebruiker, rol of team die u wilt toewijzen en klik vervolgens op de naam wanneer deze in de lijst wordt weergegeven.
-
+   * Typ de naam van een gebruiker, taakrol of team die u wilt toewijzen en klik vervolgens op de naam wanneer deze in de lijst wordt weergegeven.
 
      >[!TIP]
      >
      >Wanneer u een gebruikerstoewijzing toevoegt, ziet u de avatar, de primaire rol van de gebruiker of hun e-mailadres om onderscheid te maken tussen gebruikers met identieke namen. Gebruikers moeten aan ten minste één taakrol zijn gekoppeld om deze te kunnen bekijken terwijl u ze toevoegt.
      >
      >De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Voor informatie, zie [ toegang van de Verlening tot gebruikers ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
-     >
-     ><span class="preview"> wanneer het toevoegen van een taak roltoewijzing, kunt u naar de baanrol of de plaats zoeken. Selecteer een rol van de rollijst van de Baan om het standaardfactureringspercentage voor de taak te gebruiken, of een de baanrol van de Kaart van het Tarief te selecteren om het facturerings tarief van de tariefkaart te gebruiken. Voor meer informatie over tariefkaarten, zie [ tariefkaarten beheren ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
+     <!--When adding a job role assignment, you can search for the job role or location. Select a role from the Job roles list to use the default billing rate for the assignment, or select a Rate card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md). -->
 
-   * (Voorwaardelijk) klik één van de namen in de <span class="preview">**Voorgestelde taken**</span>, **Gebruiker en teams**, of **de rollen van de Baan**, of <span class="preview">**lijst van de kaartrollen van het Tarief**</span> wanneer zij tonen. Voor meer informatie, zie [ Slim toewijzingsoverzicht ](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+   * (Voorwaardelijk) klik één van de namen in de **Gebruikers en teams** of **de rollen van de Baan** lijsten wanneer zij tonen. Voor meer informatie, zie [ Slim toewijzingsoverzicht ](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
      U kunt de naam typen van een gebruiker, team of taakrol die u wilt toewijzen aan de taak, en deze vervolgens selecteren wanneer deze wordt weergegeven in de lijst.
 
@@ -214,15 +204,11 @@ Taken in een lijst toewijzen:
      >Wanneer u een gebruikerstoewijzing toevoegt, ziet u de avatar, de primaire rol van de gebruiker of hun e-mailadres om onderscheid te maken tussen gebruikers met identieke namen. Gebruikers moeten aan ten minste één taakrol zijn gekoppeld om deze te kunnen bekijken terwijl u ze toevoegt.
      >
      >De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Voor informatie, zie [ Toegang van de Verlening tot gebruikers ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
-     >
-     ><span class="preview"> wanneer het toevoegen van een taak roltoewijzing, kunt u naar de baanrol of de plaats zoeken. Selecteer een rol van de Baan om het standaardfactureringspercentage voor de taak te gebruiken, of een de baanrol van de Kaart van het Tarief te selecteren om het facturerings tarief van de tariefkaart te gebruiken. Voor meer informatie over tariefkaarten, zie [ tariefkaarten beheren ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
+
+     <!--<span class="preview">When adding a job role assignment, you can search for the job role or location. Select a Job role to use the default billing rate for the assignment, or select a Rate Card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>-->
 
 
-1. (Voorwaardelijk) wanneer zichtbaar op het **gebied van Taken**, klik het **pictogram van Mensen** in de hoger-juiste hoek van de toewijzingsdoos om de **Geavanceerde doos van Toewijzingen** te openen en geavanceerde taken tot stand te brengen.
-
-   <!--
-   there is a People icon in NWE but it's hard to see - you need to assign the task to at least 2 users, not roles, or teams, before it shows up</p>
-   -->
+1. (Voorwaardelijk) op het gebied van Taken, klik <span class="preview">**Geavanceerd**</span> of het **pictogram van Mensen** ![ het pictogram van Mensen ](assets/teams.png) in de hoger-juiste hoek van de toewijzingsdoos om **Geavanceerde de doos van Toewijzingen** te openen en geavanceerde taken tot stand te brengen.
 
    Voor meer informatie, zie [ Geavanceerde taken ](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md) creëren.
 
@@ -265,7 +251,7 @@ Taken in een lijst toewijzen:
 
    Voor informatie over het Type van Duur op taken, zie [ Overzicht van het Type van Duur van de Taak en van de Duur ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
-1. (Facultatief) selecteer een rol die de gebruiker op de taak van **zou moeten vervullen kies een rol** drop-down menu in de **3&rbrace; kolom van de Rol van de Ontvanger &lbrace;wanneer u gebruikers aan taken toewijst.** Als u geen rol selecteert, selecteert Workfront automatisch de Primaire Rol van de gebruiker.
+1. (Facultatief) selecteer een rol die de gebruiker op de taak van **zou moeten vervullen kies een rol** drop-down menu in de **3} kolom van de Rol van de Ontvanger {wanneer u gebruikers aan taken toewijst.** Als u geen rol selecteert, selecteert Workfront automatisch de Primaire Rol van de gebruiker.
 
 1. (Optioneel) Als u bestaande toewijzingen uit alle taken wilt verwijderen, voert u een van de volgende handelingen uit:
 

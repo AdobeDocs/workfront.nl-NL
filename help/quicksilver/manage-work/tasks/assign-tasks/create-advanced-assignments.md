@@ -7,14 +7,16 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
+source-git-commit: a0b635953245cf307b558d343ad234a27c96da94
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1144'
 ht-degree: 0%
 
 ---
 
 # Geavanceerde toewijzingen maken
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 07/2024-->
 
@@ -84,10 +86,13 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    >[!TIP]
    >
-   >U kunt geavanceerde taken rechtstreeks op de taak of de lijst van de kwestie maken als er twee of meer toegewezen mensen zijn. Klik binnen het **gebied van Taken** op de zelfde lijn zoals de taak of de kwestie, dan klik het **pictogram van Mensen** om het Geavanceerde venster van Taken te openen. Ga verder met stap 5 om door te gaan met het maken van geavanceerde toewijzingen.\
+   >U kunt geavanceerde taken rechtstreeks in de taak- of uitgavelijst plaatsen. Klik binnen het **gebied van Taken** op de zelfde lijn zoals de taak of de kwestie, dan klik <span class="preview">**Geavanceerd**</span> of het **pictogram van Mensen** om het Geavanceerde venster van Toewijzingen te openen. Ga verder met stap 5 om door te gaan met het maken van geavanceerde toewijzingen.
+   ><span class="preview"> beeld van de Steekproef in het milieu van de Voorproef:</span>
+   >![ klik Geavanceerd of het pictogram van Mensen ](assets/access-aa-from-lists.png)
+   >Voorbeeldafbeelding in de productieomgeving:
    >![ klik het pictogram van Mensen ](assets/nwe-advanced-assignments-350x55.png)
 
-1. Klik **toewijzen aan** in het **3&rbrace; gebied van Taken &lbrace;in de kopbal van de taak of de kwestie**
+1. Klik **toewijzen aan** in het **3} gebied van Taken {in de kopbal van de taak of de kwestie**
 
    of
 
@@ -95,7 +100,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. Klik **Geavanceerd**.
 
-   ![ klik Geavanceerde ](assets/assignments-box-in-task-header.png)
+   ![ klik Geavanceerde ](assets/assignments-from-task-header-0825.png)
 
 1. Op de **mensen van het Onderzoek, de rol en het teamgebied**, begin de naam van een gebruiker, een rol, of een team te typen, dan de naam te klikken wanneer het in de drop-down lijst verschijnt.
 
@@ -141,7 +146,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
      >   * U kunt toewijzingen niet handmatig wijzigen bij uitgaven.
      >   * U kunt toewijzingen voor teams die aan taken zijn toegewezen niet handmatig wijzigen.
 
-   * **Rol van de Ontvanger:** selecteer de rol de gebruiker zou moeten gebruiken wanneer het vervullen van deze taak.  Standaard wordt de primaire rol van de gebruiker weergegeven. Klik in het **vakje van de Rol van 0&rbrace; toewijzen &lbrace;om een andere rol te selecteren.** Wanneer u eerst de taak of de kwestie aan een rol toewijst, en dan een gebruiker toevoegt die die rol als tweede taak kan vervullen, wordt de lijst van voorgestelde gebruikers gefiltreerd voor de gebruikers die de rollen kunnen vervullen die reeds aan de taak en de kwestie worden toegewezen.
+   * **Rol van de Ontvanger:** selecteer de rol de gebruiker zou moeten gebruiken wanneer het vervullen van deze taak.  Standaard wordt de primaire rol van de gebruiker weergegeven. Klik in het **vakje van de Rol van 0} toewijzen {om een andere rol te selecteren.** Wanneer u eerst de taak of de kwestie aan een rol toewijst, en dan een gebruiker toevoegt die die rol als tweede taak kan vervullen, wordt de lijst van voorgestelde gebruikers gefiltreerd voor de gebruikers die de rollen kunnen vervullen die reeds aan de taak en de kwestie worden toegewezen.
 
      ![ Rol van de Ontvanger ](assets/advanced-assignments-select-role.png)
 
