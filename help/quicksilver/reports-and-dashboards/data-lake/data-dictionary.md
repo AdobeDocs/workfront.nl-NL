@@ -4,12 +4,12 @@ product-area: reports and dashboards
 navigation-topic: data connect
 title: Workfront Data Connect-gegevenswoordenboek
 description: Deze pagina bevat informatie over de structuur en inhoud van de gegevens in Workfront Data Connect.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 44342db0a473eac70212d08cedf9ac0f571cda0b
+source-git-commit: 5a7f61b9b5237e282c1a61fb49b85533497836e3
 workflow-type: tm+mt
-source-wordcount: '8129'
+source-wordcount: '8114'
 ht-degree: 0%
 
 ---
@@ -54,8 +54,8 @@ Objecten in Workfront (en dus ook in het Data Connect Data Lake) worden niet all
 
 Er zijn een aantal datumobjecten die informatie bevatten over wanneer specifieke gebeurtenissen plaatsvinden.
 
-* `DL_LOAD_TIMESTAMP`: Deze datum wordt gebruikt voor interne referentie en geeft aan wanneer de gegevens zijn geladen in de tabel Huidige, Gebeurtenis of Dagelijkse historie. Deze datum mag niet worden gebruikt voor gegevensanalyse en zal worden verwijderd tijdens de bètafase van het Workfront data Lake.
-* `CALENDAR_DATE`: Deze datum is alleen aanwezig in de tabel Dagelijkse historie. In deze tabel wordt een record weergegeven van hoe de gegevens er uitzien bij 11:59 UTC voor elke datum die is opgegeven in `CALENDAR_DATE` .
+* `DL_LOAD_TIMESTAMP`: Deze datum wordt bijgewerkt nadat de gegevens zijn vernieuwd en bevat de tijdstempel van het begin van de vernieuwingstaak die de laatste versie van een record heeft geleverd.
+* `CALENDAR_DATE`: Deze datum is alleen aanwezig in de tabel Dagelijkse historie. Deze lijst verstrekt een verslag van wat de gegevens als 11 :59 UTC voor elke datum leken die in `CALENDAR_DATE` wordt gespecificeerd.
 * `BEGIN_EFFECTIVE_TIMESTAMP`: Deze datum is aanwezig in zowel de lijsten van de Geschiedenis van de Gebeurtenis als van de Dagelijkse Geschiedenis, en verslagen precies wanneer een verslag __ veranderde de waarde het in de huidige rij heeft.
 * `END_EFFECTIVE_TIMESTAMP`: Deze datum is aanwezig in zowel de lijsten van de Geschiedenis van de Gebeurtenis als van de Dagelijkse Geschiedenis, en verslagen precies wanneer een verslag _van_ de waarde in de huidige rij in een waarde in een verschillende rij veranderde. Als u ruimte wilt maken tussen query&#39;s op `BEGIN_EFFECTIVE_TIMESTAMP` en `END_EFFECTIVE_TIMESTAMP` , is deze waarde nooit null, zelfs als er geen nieuwe waarde is. Als een record nog geldig is (de waarde is dus niet gewijzigd), heeft `END_EFFECTIVE_TIMESTAMP` de waarde 2300-01-01.
 
