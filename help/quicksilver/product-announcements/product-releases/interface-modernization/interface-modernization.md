@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 4ecb9141054c2f927a936f498941cc41108cbe45
+source-git-commit: 832b4044feaea902b807c12b5fad072c6dd04fc8
 workflow-type: tm+mt
-source-wordcount: '6319'
+source-wordcount: '6584'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,19 @@ Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Pr
 
 ## Beheer en installatie
 
-## Interface-updates voor de lijst met tijdlijnprofielen in een groep
+## De updates van de interface voor het gebied van Voorwaarden in Opstelling
+
+**de versie van de Voorproef: 7 augustus, 2025; De versie van de productie: 18 augustus, 2025**
+
+We hebben de pagina Voorwaarden bijgewerkt met een moderner ontwerp dat aansluit bij andere gebieden van Workfront.
+
+Een zichtbare verhoging in de interface is dat een **uitgeeft** knoop nu naast voorwaarden verschijnt u kunt uitgeven, en u moet niet meer over een voorwaarde bewegen om het Edit pictogram te vinden.
+
+Ga naar Instellingen > Projectvoorkeuren > Voorwaarden om deze wijzigingen weer te geven.
+
+Voor meer informatie, zie [ creeer of geef een douanevoorwaarde ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md) uit.
+
+### Interface-updates voor de lijst met tijdlijnprofielen in een groep
 
 **de versie van de Voorproef: 24 juli, 2025; de versie van de Productie: 28 juli, 2025**
 
@@ -32,7 +44,7 @@ We hebben de vormgeving van de lijst met tijdlijnprofielen in het linkerdeelvens
 
 Als u deze wijzigingen wilt weergeven, gaat u naar Instellen > Groepen > Een groep > Tijdbladprofielen selecteren.
 
-## Interfacewijzigingen voor de vakken Nieuw en Type uur bewerken
+### Interfacewijzigingen voor de vakken Nieuw en Type uur bewerken
 
 **de versie van de Voorproef: 24 juli, 2025; De versie van de productie: 31 juli, 2025**
 
@@ -40,7 +52,7 @@ Wij hebben de blik en het gevoel van de Nieuwe en Edit de dozen van het Type van
 
 Voor informatie, zie [ de Types van Uur ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md) leiden.
 
-## De updates van de interface van de Logboeken van de Controle in Opstelling
+### De updates van de interface van de Logboeken van de Controle in Opstelling
 
 **de versie van de Voorproef: 22 juli, 2025; De versie van de productie: Te aankondigen**
 
@@ -50,7 +62,7 @@ De knop Exporteren is naar de rechterkant van de pagina verplaatst.
 
 Ga naar Instellingen > Bijhouden wijzigen > Controlelogbestanden om deze wijziging weer te geven.
 
-## De updates van de interface aan de gebruikers van de Update voor SSO pagina in Opstelling
+### De updates van de interface aan de gebruikers van de Update voor SSO pagina in Opstelling
 
 **de versie van de Voorproef: 22 juli, 2025; de versie van de Productie: 28 juli, 2025**
 
@@ -60,9 +72,17 @@ Ga naar Instellingen > Systeem > Gebruikers voor SSO bijwerken om deze wijziging
 
 ## Projecten
 
-## Interface-updates voor een bedrijfscase van een project
+### De updates van de interface voor het registreren van tijd op een project, een taak, of een kwestie in het lusje van Uren
 
-**de versie van de Voorproef: 4 augustus, 2025; De versie van de productie: Te aankondigen**
+**de versie van de Voorproef: 7 augustus, 2025; De versie van de productie: 14 augustus, 2025**
+
+Wij hebben de blik en het gevoel van de de tijddoos van het Logboek bijgewerkt wanneer het registreren van tijd voor een project, een taak, of een kwestie in het lusje van Uren, om het ontwerp van andere gebieden van Workfront aan te passen.
+
+Voor informatie, zie [ tijd van het Logboek ](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
+
+### Interface-updates voor een bedrijfscase van een project
+
+**de versie van de Voorproef: 4 augustus, 2025; De versie van de productie: 18 augustus**
 
 Wij hebben de blik en het gevoel van het BedrijfsGeval van het project bijgewerkt om andere gebieden van de toepassing aan te passen.
 
@@ -70,7 +90,7 @@ Ga naar Projecten > Een project selecteren > Hoofd-kleine letter om deze wijzigi
 
 Voor meer informatie, zie [ een bedrijfsgeval voor een project ](/help/quicksilver/manage-work/projects/define-a-business-case/create-business-case.md) creëren.
 
-## Nieuwe kijk en mening van de sectie van de Details van de Rij op een malplaatje
+### Nieuwe kijk en mening van de sectie van de Details van de Rij op een malplaatje
 
 **de versie van de Voorproef: 31 juli, 2025; De versie van de productie: 14 augustus, 2025**
 
@@ -78,7 +98,7 @@ Wij hebben de blik en het gevoel van de sectie van de Details van de Rij van een
 
 Voor informatie, zie [ een Rij van het Verzoek ](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
 
-<!--## Interface updates when bulk editing templates
+<!--### Interface updates when bulk editing templates
 
 **Preview release: July 31, 2025; Production release: August 7, 2025**
 
@@ -86,15 +106,15 @@ We have updated the look and feel of the Edit templates box when editing templat
 
 For information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).-->
 
-## Interface-updates voor het vak Send-update naar een sjabloon
+### Interface-updates voor het vak Send-update naar een sjabloon
 
-**de versie van de Voorproef: 31 juli, 2025; De versie van de productie: 7 augustus, 2025**
+**de versie van de Voorproef: 31 Juli, 2025; De versie van de Productie: TBD, 2025**
 
 We hebben de weergave van de update Verzenden naar gebruiker bijgewerkt wanneer we deze openen via het tabblad Personen in een sjabloon. Het vak Update naar gebruiker verzenden komt nu overeen met andere gebieden van Workfront wanneer u een update naar een of meerdere gebruikers verzendt.
 
 Voor informatie, zie [ het projectteam ](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md) leiden.
 
-## Bijgewerkte ervaring wanneer het uitgeven van een Onderwerp van de Rij in een project of een malplaatje
+### Bijgewerkte ervaring wanneer het uitgeven van een Onderwerp van de Rij in een project of een malplaatje
 
 **de versie van de Voorproef: 31 juli, 2025; De versie van de productie: 31 juli, 2025**
 
@@ -104,7 +124,7 @@ Een kleine functieverandering is toegepast op de Verpletterende lijst van Regels
 
 Voor meer informatie, zie [ de Onderwerpen van de Rij ](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md) creëren.
 
-## Interface-updates voor factureringsrecords
+### Interface-updates voor factureringsrecords
 
 **de versie van de Voorproef: 31 juli, 2025; De versie van de productie: 7 augustus, 2025**
 
@@ -114,7 +134,7 @@ Als u deze wijzigingen wilt bekijken, gaat u naar een project > Factureringsreco
 
 Voor informatie, zie [ het factureren verslagen ](/help/quicksilver/manage-work/projects/project-finances/create-billing-records.md) creëren.
 
-## Interface-updates voor het vak MS-projectbestand importeren
+### Interface-updates voor het vak MS-projectbestand importeren
 
 **de versie van de Voorproef: 24 juli, 2025; De versie van de productie: Te aankondigen**
 
@@ -122,7 +142,7 @@ We hebben de vormgeving van het vak MS-projectbestand importeren bijgewerkt wann
 
 Ga naar Projecten > Nieuw project > MS-project importeren om deze wijziging weer te geven.
 
-## De update van de interface voor Add een doos van de Kosten van een project of een malplaatje
+### De update van de interface voor Add een doos van de Kosten van een project of een malplaatje
 
 **de versie van de Voorproef: 24 juli, 2025; De versie van de productie: 31 juli, 2025**
 
@@ -132,7 +152,15 @@ Voor informatie, zie [ projectuitgaven beheren ](/help/quicksilver/manage-work/p
 
 ## Sjablonen
 
-## De veranderingen van de interface wanneer het uitgeven van een Verpletterende Regel voor een malplaatje
+### Interface-updates voor de lijst met voorgangers in een sjabloon
+
+**de versie van de Voorproef: 7 augustus, 2025; De versie van de productie: 14 augustus, 2025**
+
+We hebben de vormgeving van de lijsten met voorgangers in een sjabloon aangepast aan het ontwerp van andere gebieden van Workfront.
+
+Het toevoegen van predecessors voor een malplaatjetaak is gelijkaardig aan het toevoegen van predecessors aan een projecttaak. Voor informatie, zie [ een voorgangersverhouding creëren gebruikend het gebied van Voorgangers ](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md).
+
+### De veranderingen van de interface wanneer het uitgeven van een Verpletterende Regel voor een malplaatje
 
 **de versie van de Voorproef: 24 juli, 2025; De versie van de productie: 31 juli, 2025**
 
@@ -142,7 +170,7 @@ Om het Verpletteren van Regel uit te geven, selecteer de Verpletterende Regel va
 
 Voor informatie, zie [ het Verpletteren van Regels ](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md) creëren.
 
-## De veranderingen van de interface aan de beheersgebieden van de verzoekrij van een malplaatje
+### De veranderingen van de interface aan de beheersgebieden van de verzoekrij van een malplaatje
 
 **de versie van de Voorproef: 24 juli, 2025; De versie van de productie: 31 juli, 2025**
 
@@ -160,6 +188,18 @@ Zie voor meer informatie
 * [ creeer de Groepen van het Onderwerp ](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 * [ creeer het Verpletteren van Regels ](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
+## Gebruikers
+
+### Interface-updates voor het dialoogvenster Gebruikers importeren
+
+**de versie van de Voorproef: 7 Augustus, 2025; De versie van de Productie voor alle klanten: 14 augustus, 2025**
+
+Het dialoogvenster voor het importeren van nieuwe gebruikers via een spreadsheetbestand is bijgewerkt, zodat dit overeenkomt met andere delen van de toepassing.
+
+Ga naar Gebruikers > Nieuwe gebruiker > Gebruikers importeren om deze wijziging weer te geven.
+
+Voor informatie, zie [ de gebruikers van de Invoer ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/import-users.md).
+
 ## Interface-updates gemaakt in Q3
 
 ### Beheer en installatie
@@ -168,7 +208,7 @@ Zie voor meer informatie
 
 ### Interface-updates voor de pagina Lay-outsjablonen
 
-**de versie van de Voorproef: 17 juli, 2025; de versie van de Productie: 24 juli, 2025**
+**de versie van de Voorproef: 17 juli, 2025; De versie van de productie: TBD**
 
 We hebben de pagina Lay-outsjablonen bijgewerkt met een moderner ontwerp dat consistent is met andere gebieden van Workfront.
 

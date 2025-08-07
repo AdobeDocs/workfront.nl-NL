@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: eafc56adab1fad3bbc1a4f3dc8f61e599ab21f57
+source-git-commit: cbdc60db525dabb93e984dff7787a83edceb6c8c
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: '1334'
 ht-degree: 0%
 
 ---
@@ -39,9 +39,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Verbeteringen voor Adobe Workfront
 
 * [Beheerdersverbeteringen](#administrator-enhancements)
-* [Verbeteringen voor document en proefdrukken](#document-and-proofing-enhancements)
-<!--* [Home enhancements](#home-enhancements)
-* [Requests enhancements](#requests-enhancements)-->
+* [ Document en het proef verhogingen ](#document-and-proofing-enhancements)
+  <!--* [Home enhancements](#home-enhancements)-->
+* [ de verhogingen van het Project ](#project-enhancements)
+  <!--* [Requests enhancements](#requests-enhancements)-->
 * [Verbeteringen voor beheer van bronnen](#resource-management-enhancements)
 * [Andere verbeteringen](#other-enhancements)
 
@@ -131,6 +132,36 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table> -->
 
+### Projectverbeteringen
+
+<table style="table-layout:auto">
+  <tbody>
+  <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}"> Nieuwe uitdrukkingen die aan de formules- gebieden in de Planning en berekende douanegebieden in Workfront worden toegevoegd </a><p><p>[!BADGE Off schema]{type=Neutral}</p></p>
+            <p>We hebben nieuwe expressies toegevoegd met het volgende gebruik voor formuleringsvelden in Workfront Planning en voor berekende aangepaste velden in Workfront:</p>
+            <ul>
+            <li>REMOVEACCENTS(tekenreeks): verwijdert diakritische tekens uit alle tekens met accent in de invoertekenreeks.</li>
+            <li>REPLACEPATTERN (tekenreeks, patroon, vervangende tekenreeks): vervangt de overeenkomende waarden van het opgegeven patroon door de vervangende tekenreeks.</li>
+            <li>PASCAL(string): Zet de invoertekenreeks om in PascalCase door de eerste letter van elk woord met hoofdletters te beschrijven en alle spaties te verwijderen.</li>
+            </ul>
+        </td>
+        <td>7 augustus 2025</td>
+        <td>7 augustus 2025</td>
+        <td>7 augustus 2025</td>
+    </tr> 
+  <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}"> extra manier om tot Geavanceerde Toewijzingen van lijsten </a> toegang te hebben<p></p>
+            <p>Een <b> Geavanceerde </b> knoop is nu beschikbaar voor taken in lijsten, die het voor u sneller maken om tot de Geavanceerde pagina van Toewijzingen toegang te hebben. Het <b> pictogram van Mensen </b> om aan Geavanceerde Taken te krijgen is ook beschikbaar op taken in lijsten.</p>
+        </td>
+        <td>7 augustus 2025</td>
+        <td>11 september 2025</td>
+        <td>16 oktober 2025</td>
+    </tr> 
+  </tbody>
+  </table>
+
 ### Verbeteringen voor beheer van bronnen
 
 <table style="table-layout:auto">
@@ -207,7 +238,7 @@ We werken de interface in Adobe Workfront bij om de gebruikerservaring te verbet
 
 ### Workfront Fusion-verbeteringen
 
-Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de standaard releaseschema. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de standaard releaseschema. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Verbeteringen voor Workfront-planning
 
@@ -256,7 +287,7 @@ Om stabielere en scalable integratie te leveren, verschuiven wij naar een modern
 * Workfront voor Salesforce.
 
 We raden u aan Workfront Automation and Integration te gebruiken voor de integratiebehoeften van uw organisatie met Google Workspace.
-Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ### API-versie 20
 
@@ -268,8 +299,8 @@ Voor informatie over API versies, zie [ API versioning en steunprogramma ](/help
 
 ### Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens Eerste Kwartaal 2025 versie worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront [.](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=nl-NL)
+Voor informatie over de onderhoudsupdates die tijdens Eerste Kwartaal 2025 versie worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront [.](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)
 
 ### Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=nl-NL) Nieuw is.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html) Nieuw is.
