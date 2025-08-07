@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: e8178ef6b746057e9f1b3991c1d87c89c08dddd8
+source-git-commit: 6e6f88362eb46122e43f049ae975a2087cdbe588
 workflow-type: tm+mt
-source-wordcount: '6617'
+source-wordcount: '6618'
 ht-degree: 0%
 
 ---
@@ -72,11 +72,11 @@ Ga naar Instellingen > Systeem > Gebruikers voor SSO bijwerken om deze wijziging
 
 ## Projecten
 
-### De updates van de interface voor het registreren van tijd op een project, een taak, of een kwestie in het lusje van Uren
+### De updates van de interface voor het registreren van tijd op een project, een taak, of een kwestie in de sectie van Uren
 
 **de versie van de Voorproef: 7 augustus, 2025; De versie van de productie: 14 augustus, 2025**
 
-Wij hebben de blik en het gevoel van de de tijddoos van het Logboek bijgewerkt wanneer het registreren van tijd voor een project, een taak, of een kwestie in het lusje van Uren, om het ontwerp van andere gebieden van Workfront aan te passen.
+Wij hebben de blik en het gevoel van de de tijddoos van het Logboek bijgewerkt wanneer het registreren van tijd voor een project, een taak, of een kwestie in de sectie van Uren, om het ontwerp van andere gebieden van Workfront aan te passen.
 
 Voor informatie, zie [ tijd van het Logboek ](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
 
@@ -112,9 +112,9 @@ For information, see [Edit project templates](/help/quicksilver/manage-work/proj
 
 We hebben de weergave van de update Verzenden naar gebruiker bijgewerkt wanneer we deze vanuit de volgende gebieden openen:
 
-* De sectie Personen in een sjabloon
-* De sectie Mensen van een project
-* Een gebruikerslijst in een bedrijf
+* De sectie Personen van een sjabloon
+* Het gedeelte Mensen van een project
+* De afdeling Bedrijfsleden van een onderneming
 * De gebruikerslijst in het gebied Gebruikers
 
 Het vak Update naar gebruiker verzenden komt nu overeen met andere gebieden van Workfront wanneer u een update naar een of meerdere gebruikers verzendt.
