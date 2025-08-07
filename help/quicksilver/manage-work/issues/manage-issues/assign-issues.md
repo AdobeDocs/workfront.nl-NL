@@ -209,7 +209,7 @@ Om kwesties in een lijst toe te wijzen:
    >Als een van de problemen al is toegewezen, worden de bronnen die u hier opgeeft, toegevoegd aan de problemen in plaats van de bestaande bronnen over de problemen te vervangen.
 
 1. (Facultatief) selecteer het radioknoop in de **kolom van de Eigenaar van de Uitgave** om erop te wijzen welke middel de primaire ontvanger of de Eigenaar van de kwestie is, wanneer u meer dan één middel aan de kwestie toewijst. Dit is niet beschikbaar voor teams.
-1. (Facultatief) selecteer een rol die de gebruiker op de kwestie van **zou moeten vervullen kies een rol** drop-down menu in de **3} kolom van de Rol van de Ontvanger {wanneer u gebruikers aan kwesties toewijst.** Als u geen rol selecteert, selecteert Workfront automatisch de Primaire Rol van de gebruiker.
+1. (Facultatief) selecteer een rol die de gebruiker op de kwestie van **zou moeten vervullen kies een rol** drop-down menu in de **3&rbrace; kolom van de Rol van de Ontvanger &lbrace;wanneer u gebruikers aan kwesties toewijst.** Als u geen rol selecteert, selecteert Workfront automatisch de Primaire Rol van de gebruiker.
 
 1. (Optioneel) Als u bestaande toewijzingen uit alle uitgaven wilt verwijderen, voert u een van de volgende handelingen uit:
 
