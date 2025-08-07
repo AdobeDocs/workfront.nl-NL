@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 832b4044feaea902b807c12b5fad072c6dd04fc8
+source-git-commit: e8178ef6b746057e9f1b3991c1d87c89c08dddd8
 workflow-type: tm+mt
-source-wordcount: '6584'
+source-wordcount: '6617'
 ht-degree: 0%
 
 ---
@@ -106,13 +106,24 @@ We have updated the look and feel of the Edit templates box when editing templat
 
 For information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).-->
 
-### Interface-updates voor het vak Send-update naar een sjabloon
+### Interface-updates voor het vak Update naar gebruiker verzenden voor verschillende objecten
 
-**de versie van de Voorproef: 31 Juli, 2025; De versie van de Productie: TBD, 2025**
+**de versie van de Voorproef: 31 juli, 2025; De versie van de productie: 7 augustus, 2025**
 
-We hebben de weergave van de update Verzenden naar gebruiker bijgewerkt wanneer we deze openen via het tabblad Personen in een sjabloon. Het vak Update naar gebruiker verzenden komt nu overeen met andere gebieden van Workfront wanneer u een update naar een of meerdere gebruikers verzendt.
+We hebben de weergave van de update Verzenden naar gebruiker bijgewerkt wanneer we deze vanuit de volgende gebieden openen:
 
-Voor informatie, zie [ het projectteam ](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md) leiden.
+* De sectie Personen in een sjabloon
+* De sectie Mensen van een project
+* Een gebruikerslijst in een bedrijf
+* De gebruikerslijst in het gebied Gebruikers
+
+Het vak Update naar gebruiker verzenden komt nu overeen met andere gebieden van Workfront wanneer u een update naar een of meerdere gebruikers verzendt.
+
+Raadpleeg de volgende artikelen voor meer informatie:
+
+* [Directe berichten verzenden naar andere gebruikers](/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md)
+* [Het projectteam beheren](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md)
+* [Ondernemingslidmaatschappen beheren](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
 
 ### Bijgewerkte ervaring wanneer het uitgeven van een Onderwerp van de Rij in een project of een malplaatje
 
