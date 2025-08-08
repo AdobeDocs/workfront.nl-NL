@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f0efd985-76e3-435e-bf19-87008f6a5e9d
-source-git-commit: ac34076ddc0b5815c262a61326534a1241c17a4c
+source-git-commit: 705fc990f2d90ff2102233fc68947fdbe1eb6946
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 1%
@@ -127,9 +127,10 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
       <td> 
        <ol> 
         <li value="1"> <p>Selecteer minstens één gebruiker, dan klik <b> verzenden Update naar Gebruiker </b> in de toolbar.</p> </li> 
-        <li value="2"> <p>Typ de opmerking die u naar de gebruikers en naar het gebied [!UICONTROL Updates] van hun gebruikersprofielen wilt verzenden.</p> </li> 
+        <li value="2"> <p>Typ de opmerking die u naar de gebruikers en naar het gebied [!UICONTROL Updates] van hun gebruikersprofielen wilt verzenden.</p>
+         <p>Voor meer informatie, zie <a href="/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md"> directe berichten naar andere gebruikers </a> verzenden.</p></li> 
        </ol>
-       <p>Voor meer informatie, zie <a href="/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md"> directe berichten naar andere gebruikers </a> verzenden.</p></td> 
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">De lijst met bedrijfsleden exporteren</td> 

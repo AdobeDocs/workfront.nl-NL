@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: dba052ed-83a2-44d2-b025-d970783c4151
-source-git-commit: 183bdced08da75cfb15fe2cc0f0804dec7f07f23
+source-git-commit: 705fc990f2d90ff2102233fc68947fdbe1eb6946
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Als het Type van Voorwaarde van een project aan de Status van de Voortgang in plaats van Hand wordt geplaatst, toont Adobe Workfront automatisch één van drie ingebouwde standaardvoorwaarden op het project (Op Doel, Bij Risico, of in Problemen) aangezien het vordert, zoals die in [ Overzicht van het Type van de Voorwaarde en van de Voorwaarde van het Project ](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md) wordt verklaard.
 
-![ Voorwaarde in projectkopbal ](assets/condition-in-project-header-nwe.png)
+![ Voorwaarde in projectkopbal en details ](assets/condition-of-project-0825.png)
 
 U kunt uw aangepaste voorwaarden instellen als standaardvoorwaarden in plaats van deze drie ingebouwde standaardvoorwaarden te gebruiken. Bijvoorbeeld, kon u de standaardvoorwaarde van het Doel veranderen om als het Volgen goed in alle projecten te tonen.
 
