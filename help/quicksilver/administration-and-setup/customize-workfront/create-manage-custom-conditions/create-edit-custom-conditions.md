@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-source-git-commit: 1c3c82db8c1320130aa3eec9d5ad1fe31340e2e9
+source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 0%
@@ -124,15 +124,15 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
      ![ voorwaarde van de Verandering wanneer het uitgeven van project ](assets/change-condition-edit-project-0825.png)
 
-<!-- 
+   <!-- 
    * When a user is changing the condition for a task or issue on the Updates tab:
 
      ![Change condition when updating comment](assets/change-condition-update-comment.png)
--->
+   -->
 
-* Wanneer een gebruiker de voorwaarde voor een taak of kwestie in een lijstmening wijzigt:
+   * Wanneer een gebruiker de voorwaarde voor een taak of kwestie in een lijstmening wijzigt:
 
-  ![ voorwaarde van de Verandering in lijst ](assets/change-conditions-list-dropdown-only.png)
+     ![ voorwaarde van de Verandering in lijst ](assets/change-conditions-list-dropdown-only.png)
 
 1. Klik **sparen**.
 

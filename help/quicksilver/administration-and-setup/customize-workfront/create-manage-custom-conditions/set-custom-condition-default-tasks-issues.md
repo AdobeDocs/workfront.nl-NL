@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 40b426f4-0a9c-49a6-91c7-b5f8aa48bd37
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '369'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. Klik de **Taken** of **Kwesties** tabel.
 
-1. Klik **Vastgestelde StandaardVoorwaarden**.
+1. Klik **Vastgestelde standaardvoorwaarden**.
 1. Klik in het keuzemenu op de aangepaste voorwaarde die u als de standaardvoorwaarde voor taken (of uitgaven) wilt instellen.
 1. Klik **sparen**.
 
@@ -70,8 +70,5 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 >
 >* Een gebruiker die is toegewezen aan een taak of uitgave, of die beheermachtigingen heeft, kan de voorwaarde handmatig wijzigen. Voor meer informatie, zie [ Voorwaarde van de Update voor taken en kwesties ](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
 >* De drie standaardvoorwaarden voor taken en problemen die met Workfront worden geleverd, zijn Vloeiend, Sommige zorgen en Belangrijke wegversperringen. U kunt deze voorwaarden niet verbergen of verwijderen, maar u kunt wel de naam en de kleur van de voorwaarden wijzigen. Of u kunt nieuwe degenen in plaats daarvan tot stand brengen om te gebruiken, zoals die in [ wordt beschreven creeer of geef een douanevoorwaarde ](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md) uit.
->
 
 Voor informatie over het vormen van een douanevoorwaarde als standaardvoorwaarde voor projecten, zie [ Plaats een douanetoewijzing als gebrek voor projecten ](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md).
-
-Voor informatie over douanevoorwaarden, zie [ de voorwaarden van de Douane ](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).

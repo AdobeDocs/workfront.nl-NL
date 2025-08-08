@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 46cb91855937742ee681b3d2412941b2d3831086
+source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
 workflow-type: tm+mt
-source-wordcount: '6618'
+source-wordcount: '6622'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Pr
 
 We hebben de pagina Voorwaarden bijgewerkt met een moderner ontwerp dat aansluit bij andere gebieden van Workfront.
 
-Een zichtbare verhoging in de interface is dat een **uitgeeft** knoop nu naast voorwaarden verschijnt u kunt uitgeven, en u moet niet meer over een voorwaarde bewegen om het Edit pictogram te vinden.
+Een zichtbare verhoging in de interface is dat **uitgeeft** en **schrapt** knopen nu naast voorwaarden verschijnen u kunt uitgeven, en u moet niet meer over een voorwaarde bewegen om Edit te vinden en pictogrammen van de Schrapping te schrappen.
 
 Ga naar Instellingen > Projectvoorkeuren > Voorwaarden om deze wijzigingen weer te geven.
 

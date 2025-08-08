@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5fbd4989-460b-4380-a136-8a9f6b79787d
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '256'
 ht-degree: 0%
 
 ---
 
 # Een aangepaste voorwaarde verwijderen
+
+{{highlighted-preview}}
 
 U kunt een aangepaste voorwaarde verwijderen als deze niet meer nodig is.
 
@@ -58,23 +60,18 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. Klik **Voorkeur van het Project** > **Voorwaarden**.
 
-   <!--
-   <span data-mc-conditions="QuicksilverOrClassic.Draft mode">Make sure it's this way also in QS</span>
-   -->
-
 1. Selecteer het lusje van het objecten type (**Project**, **Taak**, of **Uitgave**) waar de voorwaarde die u wilt schrappen wordt gevestigd.
 
-1. Beweeg over de voorwaarde u wilt schrappen, dan de **Schrapping** pictogram ![ Schrapping ](assets/delete.png) klikken die op uiterst rechts verschijnt.
-1. In het bevestigingsbericht dat verschijnt, klik **Voorwaarde van de Schrapping**.
+1. Klik <span class="preview">**Schrapping** naast de voorwaardennaam </span> u wilt schrappen, of over de voorwaarde houden en **klikken schrapt** pictogram ![ Schrapping ](assets/delete.png) dat op uiterst rechts verschijnt.
 
-1. In het **vakje van de Voorwaarde van de Schrapping** dat verschijnt, selecteer een nieuwe voorwaarde in de drop-down lijst voor alle projecten die de voorwaarde gebruikten die u schrapt.
+1. In de **voorwaarde van de Schrapping** doos die verschijnt, selecteer een nieuwe voorwaarde in de drop-down lijst voor alle projecten, taken, of kwesties die de voorwaarde gebruikten u schrapt.
 
    De voorwaarden van de douane zijn beschikbaar in de drop-down lijst slechts als zij met de zelfde ingebouwde voorwaarde evenaart als u schrapt. Als u bijvoorbeeld een voorwaarde verwijdert die overeenkomt met Bij risico, zijn alleen aangepaste voorwaarden die ook overeenkomen met Bij risico beschikbaar om te selecteren.
 
-1. Klik **Voorwaarde van de Schrapping**.
+1. Klik **voorwaarde van de Schrapping**.
 
 >[!NOTE]
 >
 >U kunt niet de ingebouwde voorwaarden schrappen, die op Doel, op Risico, en in Problemen zijn. U kunt de namen en kleuren van de bestanden echter wijzigen.
-
-Voor informatie over douanevoorwaarden, zie [ de voorwaarden van de Douane ](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+>
+>Voor informatie over het uitgeven van douanevoorwaarden, zie [ een douanevoorwaarde ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md) creëren of uitgeven.
