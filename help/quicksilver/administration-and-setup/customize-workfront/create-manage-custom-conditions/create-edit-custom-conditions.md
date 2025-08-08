@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 1c3c82db8c1320130aa3eec9d5ad1fe31340e2e9
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '632'
 ht-degree: 0%
 
 ---
 
 # Een aangepaste voorwaarde maken of bewerken
+
+{{highlighted-preview}}
 
 Als Adobe Workfront-beheerder kunt u een aangepaste voorwaarde maken of bewerken voor projecten, taken en uitgaven die aansluiten op de behoeften van uw organisatie.
 
@@ -60,12 +62,16 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. Klik het lusje van het objecten type (**Project**, **Taak**, of **Uitgave**) dat u met de voorwaarde wilt associëren.
 
-1. Om een nieuwe voorwaarde tot stand te brengen, klik **voeg een Nieuwe Voorwaarde** toe.
+1. Om een nieuwe voorwaarde tot stand te brengen, klik **voeg een nieuwe voorwaarde** toe.
 
    of
 
-   Om een bestaande voorwaarde uit te geven, over de voorwaarde te bewegen u wilt uitgeven, dan **uitgeven** pictogram klikken dat aan uiterst rechts verschijnt.
+   Om een bestaande voorwaarde uit te geven, <span class="preview">**geeft** naast de voorwaardennaam </span> uit, of beweegt over de voorwaarde u wilt uitgeven, dan klikken **geeft** pictogram uit dat aan uiterst rechts verschijnt.
 
+   <span class="preview"> beeld van de Steekproef in het milieu van de Voorproef:</span>
+   ![ geef douanetoewijzing ](assets/custom-conditions-0825.png) uit
+
+   Voorbeeldafbeelding in de productieomgeving:
    ![ de voorwaarde van de Douane ](assets/custom-condition-edit-nwe.jpg)
 
 1. Configureer uw aangepaste voorwaarde met behulp van de volgende opties:
@@ -116,15 +122,17 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    * Wanneer een gebruiker een project bewerkt
 
-     ![ voorwaarde van de Verandering wanneer het uitgeven van project ](assets/change-condition-edit-project.png)
+     ![ voorwaarde van de Verandering wanneer het uitgeven van project ](assets/change-condition-edit-project-0825.png)
 
-   * Wanneer een gebruiker de voorwaarde voor een taak of kwestie op het lusje van Updates verandert:
+<!-- 
+   * When a user is changing the condition for a task or issue on the Updates tab:
 
-     ![ voorwaarde van de Verandering wanneer het bijwerken van commentaar ](assets/change-condition-update-comment.png)
+     ![Change condition when updating comment](assets/change-condition-update-comment.png)
+-->
 
-   * Wanneer een gebruiker de voorwaarde voor een taak of kwestie in een lijstmening wijzigt:
+* Wanneer een gebruiker de voorwaarde voor een taak of kwestie in een lijstmening wijzigt:
 
-     ![ voorwaarde van de Verandering in lijst ](assets/change-conditions-list-dropdown-only.png)
+  ![ voorwaarde van de Verandering in lijst ](assets/change-conditions-list-dropdown-only.png)
 
 1. Klik **sparen**.
 

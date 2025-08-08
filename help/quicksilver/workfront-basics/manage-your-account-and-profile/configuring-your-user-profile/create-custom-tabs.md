@@ -6,9 +6,9 @@ description: De informatie u in de  [!DNL Workfront]  Webtoepassing ziet wordt v
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: ac34076ddc0b5815c262a61326534a1241c17a4c
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,7 @@ In de volgende tabel worden alle [!DNL Workfront] -gebieden en -objecten weergeg
 | [!UICONTROL Issue] |  ✓ |  ✓ |
 | [!UICONTROL User] |  ✓ |  ✓ |
 | [!UICONTROL Document] |  ✓ |  ✓ |
+| [!UICONTROL Resourcing] -gebied | ✓ | ✓ |
 
 {style="table-layout:auto"}
 
@@ -51,19 +52,19 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
    <td> <p>[!UICONTROL Review] of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
+   <td role="rowheader">Configuraties op toegangsniveau*</td> 
    <td>[!UICONTROL Reviewer] of hoger</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
+   <td role="rowheader">Objectmachtigingen</td> 
    <td>Toegang tot het objecttype weergeven</td> 
   </tr> 
  </tbody> 

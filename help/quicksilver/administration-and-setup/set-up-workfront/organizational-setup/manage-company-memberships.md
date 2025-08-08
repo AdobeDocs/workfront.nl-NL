@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: organization-setup
 title: Bedrijfslidmaatschap beheren
 description: In het gedeelte [!UICONTROL Companies] in Setup kunt u de leden van een bedrijf toevoegen en verwijderen. U kunt hun gebruikersprofielen ook uitgeven, hen eraan herinneren om in  [!DNL Workfront], deactivate them in [!DNL Workfront], and remove them from the [!DNL Workfront]  systeem te registreren.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f0efd985-76e3-435e-bf19-87008f6a5e9d
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: ac34076ddc0b5815c262a61326534a1241c17a4c
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '770'
 ht-degree: 1%
 
 ---
@@ -73,7 +73,8 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. Klik op **[!UICONTROL Companies]**.
 1. Klik op de naam van het bedrijf.
-1. Selecteer de sectie **[!UICONTROL Company Members]** in het linkerdeelvenster en voer een van de volgende handelingen uit:
+1. Klik op **[!UICONTROL Company Members]** in het linkerdeelvenster.
+1. Voer een van de volgende handelingen uit:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -125,9 +126,10 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
       <td role="rowheader">Een opmerking verzenden naar gebruikers en hun [!UICONTROL Updates] gebieden</td> 
       <td> 
        <ol> 
-        <li value="1"> <p>Selecteer ten minste één gebruiker en klik op het pictogram [!UICONTROL Comment] <img src="assets/comment-icon.png"> op de werkbalk.</p> </li> 
+        <li value="1"> <p>Selecteer minstens één gebruiker, dan klik <b> verzenden Update naar Gebruiker </b> in de toolbar.</p> </li> 
         <li value="2"> <p>Typ de opmerking die u naar de gebruikers en naar het gebied [!UICONTROL Updates] van hun gebruikersprofielen wilt verzenden.</p> </li> 
-       </ol> </td> 
+       </ol>
+       <p>Voor meer informatie, zie <a href="/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md"> directe berichten naar andere gebruikers </a> verzenden.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">De lijst met bedrijfsleden exporteren</td> 
