@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
+source-git-commit: c8f552a4f4da2365f793e9111ee12a9905516134
 workflow-type: tm+mt
 source-wordcount: '6622'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Pr
 
 ## Beheer en installatie
 
-## De updates van de interface voor het gebied van Voorwaarden in Opstelling
+### De updates van de interface voor het gebied van Voorwaarden in Opstelling
 
 **de versie van de Voorproef: 7 augustus, 2025; De versie van de productie: 18 augustus, 2025**
 
