@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3dd99d01-a32f-4af8-90e3-f8c0e9027651
-source-git-commit: a8faf4aa1a0a1b60f61c0c981c3be1b0d9d033a4
+source-git-commit: 0239cad2d9173da20770934e6132b29301117cdf
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Add users" in the article [Bulk Upload Users](https://helpx.adobe.com/nl/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Add users" in the article [Bulk Upload Users](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -72,7 +72,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. Klik de **Nieuwe Gebruiker** drop-down pijl, dan klik **de Gebruikers van de Invoer**.
 
-1. In het **vakje van de Gebruikers van de Invoer** dat toont, download het steekproefdossier, dan werk het steekproefdossier bij om de persoonlijke informatie van uw eigen gebruiker te omvatten.
+1. In het **vakje van de Invoer gebruikers** dat toont, download het steekproefdossier, dan werk het steekproefdossier bij om de persoonlijke informatie van uw eigen gebruiker te omvatten.
 
    Elke rij bevat de volgende velden:
 
@@ -97,16 +97,20 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    ![ het invoeren-nieuw-users.png ](assets/importing-new-users.png)
 
 1. Sla het bestand op een locatie op uw werkstation op.
-1. Klik **kiezen Dossier** in de **Gebruikers van de Invoer** doos.
+1. Klik **kiezen dossier** in het **de gebruikers van de Invoer** vakje.
 
 1. Navigeer naar en selecteer het bestand dat u hebt opgeslagen.
-1. (Facultatief) selecteer **verzend een uitnodigingsE-mail naar deze gebruiker** optie om een e-mailuitnodiging naar de gebruiker te verzenden, hen op de hoogte te brengen dat een rekening van Workfront is gecreeerd en hen ertoe te brengen om hun wachtwoord te plaatsen.
 
-   Schakel deze optie uit als u het wachtwoord voor de gebruiker wilt instellen.
+<!--
+1. (Optional) Select the **Send an invite email to this user** option to send an email invitation to the user, notifying them that a Workfront account has been created and prompting them to set their password.
+
+   Deselect this option if you want to set the password for the user.
+
+-->
 
 1. Klik **Invoer**.
 
-   U ontvangt boven aan het scherm een bevestigingsbericht dat de gebruiker is geïmporteerd.
+   U ontvangt boven aan het scherm een bevestigingsbericht dat de gebruikers correct zijn geïmporteerd.
 
 >[!NOTE]
 >
@@ -114,4 +118,4 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 > 
 >Als een gebruiker binnen een paar minuten niet de status Uitgeschakeld en In afwachting van goedkeuring verlaat en het scherm vernieuwt de badge In afwachting van goedkeuring niet verwijdert, kunt u de batch gebruikers rechtstreeks aan de Adobe Admin Console toevoegen.
 >
->Voor instructies, zie [ veelvoudige gebruikers beheren | Bulk CSV upload ](https://helpx.adobe.com/nl/enterprise/using/bulk-upload-users.html) in de documentatie van Adobe.
+>Voor instructies, zie [ veelvoudige gebruikers beheren | Bulk CSV upload ](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) in de documentatie van Adobe.
