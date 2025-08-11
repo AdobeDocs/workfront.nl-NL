@@ -76,7 +76,7 @@ Op eerdere verzoeken gebaseerde suggesties gebruiken:
 
    Terwijl u velden invult, kunnen in andere velden suggesties worden weergegeven.
 
-1. Voor elke gebiedssuggestie, keurt de uitgezochte **** goed of **verwerpt** voor dat gebied.
+1. Voor elke gebiedssuggestie, keurt de uitgezochte **&#x200B;**&#x200B;goed of **verwerpt** voor dat gebied.
 
    ![ Accepteer of verwerp suggestie ](assets/accept-reject-suggestion.png)
 
