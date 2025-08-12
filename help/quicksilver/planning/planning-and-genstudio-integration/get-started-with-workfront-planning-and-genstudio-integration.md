@@ -4,9 +4,9 @@ description: De GenStudio for Performance Marketing-werkruimte is beschikbaar in
 hide: true
 hidefromtoc: true
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: 36cd1c23dfb6e01dc1016a6a12ae47e4f9172d20
+source-git-commit: 9df59ea9b44baaf38c8db8f709f6b2fef1dc7c52
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1357'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Met de integratie tussen Workfront Planning en GenStudio for Performance Marketi
 
 * Workfront en GenStudio for Performance Marketing moeten worden ingeschakeld bij dezelfde organisatie.
 
-  Voor meer informatie over GenStudio, zie {de Gids van de Gebruiker van 0} Adobe GenStudio for Performance Marketing [.](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/home)
+  Voor meer informatie over GenStudio, zie {de Gids van de Gebruiker van 0} Adobe GenStudio for Performance Marketing [.](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)
 
 * GenStudio is niet beschikbaar in Workfront Planning wanneer uw bedrijf meerdere Workfront-instanties heeft. <!--this will change-->
 
@@ -73,26 +73,24 @@ Met de integratie tussen Workfront Planning en GenStudio for Performance Marketi
    <p> Producten</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront Planning<p></li>
-   <p><li> Adobe GenStudio for Performance Marketing<p></li>
+   <li><p> Adobe GenStudio for Performance Marketing</p></li>
    </ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-abonnement*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront-pakket</p></td> 
    <td> 
-<p>Een van de volgende Workfront-plannen:</p> 
-<ul><li>Selecteren</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning is niet beschikbaar voor oudere Workfront-plannen</p> 
-   </td> 
+<p>Elk Workfront Workflow-pakket</p>  
+<p>Willekeurig Workfront-planningspakket</p>
+   </td> </tr>
+
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-planningspakket</p></td> 
+   <td role="rowheader"><p>Adobe GenStudio-pakket</p></td> 
    <td> 
-<p>Alle </p> 
-<p>Neem contact op met uw Workfront-accountmanager voor meer informatie over wat er in elk Workfront-planningspakket wordt opgenomen. </p> 
-   </td> 
- <tr> 
+<p>???</p>
+
+</td> </tr>
+
+<tr> 
    <td role="rowheader"><p>Adobe Workfront-platform</p></td> 
    <td> 
 <p>Het geval van Workfront van uw organisatie moet aan de Verenigde Ervaring van Adobe worden genegeerd om tot de Planning van Workfront te kunnen toegang hebben.</p> 
@@ -106,19 +104,35 @@ Met de integratie tussen Workfront Planning en GenStudio for Performance Marketi
   </td> 
   </tr> 
   <tr> 
+   <td role="rowheader"><p>Adobe GenStudio-licentie</p></td> 
+   <td><p> ???</p>
+  </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader"><p>Configuratie op toegangsniveau</p></td> 
-   <td> <p>Er zijn geen toegangsniveaucontroles voor de Planning van Adobe Workfront</p>   
+   <td> <p>Er zijn geen toegangsniveaucontroles voor de Planning van Adobe Workfront</p>  
+   <p>Configuratie voor GenStudio: ???</p> 
 </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objectmachtigingen</p></td> 
-   <td>   <p>Contribute of hoger machtigingen voor een werkruimte en recordtype  </p>  
-   <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p> </td> 
+   <td>  
+   <p>In Workfront Planning: </p>
+   <ul>
+   <li><p>Contribute of hoger machtigingen voor een werkruimte en recordtype  </p> </li> 
+   <li><p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p></li>
+   </ul>
+   <p>In Adobe GenStudio for Performance Marketing: <p>
+   <ul>
+   <li><p> Eventuele machtigingen in Adobe GenStudio for Performance Marketing</p></li>
+   <li><p> Machtigingen maken in Adobe GenStudio for Performance Marketing om items te maken</p></li></ul>
+   </td> 
   </tr> 
 </tbody> 
 </table>
 
 *Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie over Adobe GenStudio for Performance Marketing, zie {de Gids van de Gebruiker van 0} Adobe GenStudio for Performance Marketing [.](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)
 
 
 ## Overzicht van de integratie van Workfront Planning and GenStudio
@@ -146,14 +160,16 @@ In de volgende secties wordt het volgende beschreven:
 ### Recordtypen
 
 * U kunt recordtypegegevens (bijvoorbeeld hun weergave) bewerken in GenStudio in Workfront Planning.
-* U kunt GenStudio-recordtypen met anderen delen in Planning.  <!--checking with Ani H.-->
-* U kunt recordtypen maken vanuit Planning in de GenStudio-werkruimte. <!-- checking with Ani where these show up in GenS-->
-* Recordtypen die met GenStudio worden gesynchroniseerd, geven een visuele indicator weer die duidelijk maakt dat de recordtypen uit GenStudio worden geïmporteerd.
+* U kunt GenStudio-recordtypen met anderen delen in Planning.
+* U kunt recordtypen maken vanuit Planning in de GenStudio-werkruimte. Deze recordtypes blijven slechts in Planning. Ze worden niet weergegeven in GenStudio.
+* De types van verslag die met GenStudio worden gesynchroniseerd tonen een visuele indicator in de Planning van Workfront die het duidelijk maakt dat de verslagtypes uit GenStudio worden ingevoerd.
 
 ### Records
 
 * U kunt records toevoegen of verwijderen in GenStudio en deze worden weergegeven in (of verwijderd uit) Workfront Planning.
-U kunt records toevoegen of verwijderen in Workfront Planning en deze worden weergegeven in (of verwijderd uit) GenStudio.
+* U kunt records toevoegen of verwijderen in Workfront Planning en deze worden weergegeven in (of verwijderd uit) GenStudio.
+* Wanneer u records verwijdert uit Workfront Planning of GenStudio, worden deze gedurende 30 dagen in de onlangs verwijderde opslagplaats geplaatst. GenStudio heeft geen recent verwijderde opslagmap.
+* Als u een record uit de recent verwijderde opslagmap herstelt, worden deze weer geplaatst in Workfront Planning en GenStudio.
 * U kunt verslagen van de Planning van Workfront op de volgende manieren toevoegen:
 
    * Handmatig, geheel nieuw, vanuit elke weergave met de knop Nieuwe record
@@ -172,7 +188,7 @@ U kunt records toevoegen of verwijderen in Workfront Planning en deze worden wee
 ### Velden
 
 * Recordvelden worden geïmporteerd uit GenStudio. U kunt de gebiedsmontages in de Planning van Workfront uitgeven.
-* U kunt meer gebieden voor de verslagtypes van GenStudio in de Planning van Workfront tot stand brengen als u Manage toegang in Gen Studio hebt.
+* U kunt velden maken voor GenStudio-recordtypen in Workfront Planning als u beheertoegang hebt in Gen Studio.
 * Wanneer u gebieden voor de verslagtypes van GenStudio in Planning creeert, zijn zij zichtbaar van de volgende gebieden:
    * Weergaven plannen
    * Recorddetailpagina&#39;s plannen
@@ -182,14 +198,17 @@ U kunt records toevoegen of verwijderen in Workfront Planning en deze worden wee
   >
   >Velden die zijn gemaakt in Workfront Planning zijn niet zichtbaar in de lijstweergave van GenStudio.
 
-* U kunt velden verbergen in de tabelweergave van een GenStudio-recordtype in Planning, maar u kunt geen velden verwijderen uit Workfront Planning.
+* U kunt velden in de tabelweergave van een GenStudio-recordtype verbergen in Planning.
+* U kunt geen velden verwijderen die vanuit GenStudio zijn geïmporteerd vanuit Workfront Planning.
+* U kunt velden die zijn gemaakt in Workfront Planning for GenStudio-recordtypen verwijderen uit Workfront Planning.
 
 
-<!-- checking: 
-I had this from Iskuhi, so not sure if you CAN create fields in Planning?? - only the newly added fiedsl can be changed or the reference fields. - from this: https://experience.adobe.com/?commentID=6848549f00000091e5f5a16636e381c0#/@adobeinternalworkfront/so:hub-Hub/workfront/project/67649bc00000545810daad1cd1fbb9cc/updates 
--->
+### De velden Gemaakt door en goedgekeurd door
 
-<!--document who shows up in the Created by and Updated by fields - not clear, asking-->
+* U kunt de velden Gemaakt door en Goedgekeurd door de recordtypen van GenStudio vanuit Workfront Planning toevoegen in Workfront Planning.
+* De verslagen die in de het verslagtypes van het Kanaal en van het Gebied tonen &quot;Systeem&quot;als Gemaakt door gebruiker. Deze records worden automatisch gemaakt wanneer de GenStudio-werkruimte wordt gemaakt in Workfront Planning.
+* De records die in GenStudio zijn gemaakt nadat de werkruimte in Workfront Planning beschikbaar is gemaakt, geven de naam weer van de IMS-gebruiker die de record heeft gemaakt in het veld Gemaakt op, zelfs als de gebruiker de records in GenStudio heeft gemaakt en geen Workfront-gebruiker is.
+* In het veld Goedgekeurd door wordt de naam van de fiatteur weergegeven wanneer een aanvraagformulier wordt verzonden om een record te maken.
 
 ### Weergaven
 
@@ -198,12 +217,26 @@ I had this from Iskuhi, so not sure if you CAN create fields in Planning?? - onl
   Voor informatie, zie [ verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md) leiden.
 
 * U kunt de mening van een het recordtype van GenStudio delen aangezien u een mening voor een het verslagtype van de Planning zou delen.
+* In GenStudio kunt u geen meerdere weergaven maken.
 
 ### Verbindingen
 
 * U kunt de volgende verbindingen maken tussen GenStudio-recordtypen en andere record- of objecttypen in Workfront Planning:
 
-   * Twee GenStudio-recordtypen en
+   * Twee GenStudio-recordtypen
    * Een GenStudio-recordtype en een planningsrecordtype vanuit dezelfde werkruimte
    * Een GenStudio-recordtype en een planningsrecordtype van een andere werkruimte, als de recordtypen zijn geconfigureerd om verbinding te maken met een andere werkruimte.
    * Een GenStudio-recordtype en een Workfront-objecttype (projecten, portfolio&#39;s, programma&#39;s, bedrijven, groepen)
+   * A GenStudio record type and an AEM Assets object type.
+
+### Formulieren en automatisering aanvragen
+
+* U kunt aanvraagformulieren en automatiseringen toevoegen aan een GenStudio-recordtype in Workfront Planning.
+
+### De voorvertoningsomgeving
+
+* De GenStudio-werkruimte die vanuit uw productieomgeving toegankelijk is, wordt ook weergegeven in uw voorvertoningsomgeving.
+* U kunt alle activiteiten uitvoeren die in dit artikel worden beschreven op de GenStudio-werkruimte in Workfront Planning in uw Voorvertoningsomgeving, maar deze wijzigingen worden niet overgedragen naar GenStudio.
+Alleen wijzigingen die u aanbrengt in items in de synchronisatie van de productieomgeving tussen Workfront Planning en GenStudio.
+GenStudio heeft geen voorvertoningsomgeving.
+
