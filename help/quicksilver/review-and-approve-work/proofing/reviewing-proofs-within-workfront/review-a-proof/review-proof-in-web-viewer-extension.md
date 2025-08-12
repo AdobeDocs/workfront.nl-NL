@@ -6,28 +6,26 @@ description: Het Adobe Workfront-revisieprogramma is een browserextensie waarmee
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
-source-git-commit: 5a8bfdeae7f5d23ecf835e652cf0ff5efd5aa410
+source-git-commit: 7bff0a8c43355472453403fcd404388a3d95d471
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
 
 # Interactieve inhoud reviseren met het Adobe Workfront-revisieprogramma
 
-<span class="preview"> Het hulpmiddel van de Herziening van Adobe Workfront werd ter beschikking gesteld op 7 November 2024. Deze extensie bevindt zich momenteel in bèta.</span>
 
-Het Adobe Workfront-revisieprogramma is een webbrowserextensie waarmee u interactieve inhoud in een ZIP-bestand of met een URL kunt controleren. Het Adobe Workfront-revisieprogramma is beschikbaar in de volgende browsers:
+>[!IMPORTANT]
+>
+> We raden u aan de Desktop Proofing-viewer te gebruiken voor interactieve inhoud die wordt gehost op een website die SSO-verificatie vereist of die het openen van de site in iFrames, zoals Figma, verhindert.
+
+Het Adobe Workfront-revisieprogramma is een webbrowserextensie waarmee u interactieve inhoud in een ZIP-bestand of met een URL kunt markeren. Het Adobe Workfront-revisieprogramma is beschikbaar in de volgende browsers:
 
 * Firefox
 * Chrome
 * Edge
 * Safari
-
->[!IMPORTANT]
->
->Deze extensie is vereist voor het reviseren van inhoud in GenStudio for Performance Marketing en Creative Cloud Express. Assets wordt automatisch geopend in de webviewer. U hoeft geen accountinstellingen bij te werken.
-
 
 ## De extensie installeren
 
@@ -48,11 +46,16 @@ Revisoren en fiatteurs moeten het Adobe Workfront-revisieprogramma installeren. 
 
 Als u wilt dat interactieve proefdrukken automatisch worden geopend in het Adobe Workfront-revisieprogramma, moet een Workfront-beheerder de proefdrukinstellingen vooraf bijwerken, zoals in de onderstaande secties wordt beschreven.
 
+## Adobe Workfront-revisieprogramma gebruiken in GenStudio for Performance Marketing en Creative Cloud Express
+
+Deze extensie is vereist voor het reviseren van inhoud in GenStudio for Performance Marketing en Creative Cloud Express. Assets wordt automatisch geopend in de webviewer. U hoeft geen accountinstellingen bij te werken.
+
+
 ## Standaardinstellingen voor Workfront-proefdrukken bijwerken
 
 Als u het Workfront-revisieprogramma wilt gebruiken als de standaardviewer voor interactieve inhoud, moet u de standaardwaarden voor proefdrukken in Workfront bijwerken.
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >We raden u aan de Desktop Proofing Viewer te gebruiken als de inhoud die u wilt controleren zich op een website bevindt die
 >
