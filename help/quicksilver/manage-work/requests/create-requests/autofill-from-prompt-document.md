@@ -4,9 +4,10 @@ content-type: reference
 description: Met AI kunt u aanvraagvelden automatisch invullen door een vraag in te voeren of een document te leveren.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: cf2ae77ed27b1dd30144f6de31bec474f53f1efb
+exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
+source-git-commit: fd42ac97be05df9499ea3214642099738ccc69b1
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1093'
 ht-degree: 0%
 
 ---
@@ -62,6 +63,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## Vereisten
 
 Aan auto-vul verzoeken gebruikend een herinnering of een document, **allen** van het volgende moet van toepassing zijn:
@@ -72,6 +75,9 @@ Aan auto-vul verzoeken gebruikend een herinnering of een document, **allen** van
 * Adobe moet een ondertekende Adobe Gen AI-overeenkomst hebben in het bestand
 
   Voor meer informatie bij het ondertekenen van de overeenkomst, zie [ de overeenkomst van Adobe Gen AI ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) in het artikelAI Hulpoverzicht ondertekenen.
+* AI Assistant moet zijn ingeschakeld in de systeeminstellingen van uw organisatie. Dit wordt beheerd door uw Workfront-beheerder.
+
+  Voor meer informatie bij het toelaten van AI Medewerker in systeemmontages, zie [ toelaten of AI Medewerker ](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) onbruikbaar maken.
 
 ## Suggesties ophalen van een tekstprompt
 
@@ -99,7 +105,7 @@ Suggesties gebruiken op basis van een geplakte tekstprompt:
 1. Klik **Vul de vorm**.
 
    Workfront genereert suggesties voor het formulier.
-1. Voor elke gebiedssuggestie, keurt de uitgezochte **&#x200B;**&#x200B;goed of **verwerpt** voor dat gebied.
+1. Voor elke gebiedssuggestie, keurt de uitgezochte **** goed of **verwerpt** voor dat gebied.
 
    ![ Accepteer of verwerp suggestie ](assets/accept-reject-suggestion.png)
 
@@ -234,7 +240,7 @@ U kunt een document uploaden dat op het volledige formulier of op één sectie v
 1. Klik **Vul de vorm** van **Vul de sectie**.
 
    Workfront genereert suggesties voor het formulier.
-1. Voor elke gebiedssuggestie, keurt de uitgezochte **&#x200B;**&#x200B;goed of **verwerpt** voor dat gebied.
+1. Voor elke gebiedssuggestie, keurt de uitgezochte **** goed of **verwerpt** voor dat gebied.
 
    ![ Accepteer of verwerp suggestie ](assets/accept-reject-suggestion.png)
 
@@ -252,4 +258,3 @@ Als u niet de verwachte suggesties krijgt, kan het toe te schrijven zijn aan é�
 
 * U moet ten minste één maand aanvraaggegevens in het systeem hebben voordat u veldwaarden van eerdere aanvragen kunt voorstellen.
 * Mogelijk hebt u de instructies voor het uploaden van documenten niet opgevolgd bij het uploaden van een document om suggesties van te trekken. Voor meer informatie, zie [ Document uploadt gidsen ](#document-upload-guardrails) in dit artikel.
-

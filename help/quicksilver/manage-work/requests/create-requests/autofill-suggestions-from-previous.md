@@ -4,7 +4,8 @@ content-type: reference
 description: Met AI kunt u aanvraagvelden automatisch invullen met gegevens uit vorige aanvragen.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: cf2ae77ed27b1dd30144f6de31bec474f53f1efb
+exl-id: a0cd1fbf-d3c6-454c-a85a-ceca4b1e8a7b
+source-git-commit: fd42ac97be05df9499ea3214642099738ccc69b1
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 0%
@@ -60,6 +61,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## Suggesties ophalen bij het invullen van het formulier
 
 Als u het formulier automatisch invult, kunt u aangeven welke veldwaarden u wilt gebruiken. Als u waarden invoert in de aanvraagvelden, vergelijkt Workfront deze waarden met eerdere aanvragen. Als de ingevoerde waarde in eerdere verzoeken in een vergelijkbare context nauw samenvalt met andere veldwaarden, stelt Workfront deze waarden voor.
@@ -76,7 +79,7 @@ Op eerdere verzoeken gebaseerde suggesties gebruiken:
 
    Terwijl u velden invult, kunnen in andere velden suggesties worden weergegeven.
 
-1. Voor elke gebiedssuggestie, keurt de uitgezochte **&#x200B;**&#x200B;goed of **verwerpt** voor dat gebied.
+1. Voor elke gebiedssuggestie, keurt de uitgezochte **** goed of **verwerpt** voor dat gebied.
 
    ![ Accepteer of verwerp suggestie ](assets/accept-reject-suggestion.png)
 
