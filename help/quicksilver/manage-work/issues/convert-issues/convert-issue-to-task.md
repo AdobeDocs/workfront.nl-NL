@@ -6,9 +6,9 @@ description: Als er meer moet worden gedaan om een probleem op te lossen nadat h
 author: Alina
 feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 55c714436fe59c84251c7f4e2a46614feae92cd6
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '1042'
 ht-degree: 0%
 
 ---
@@ -47,6 +47,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 *Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt.
+
+## Overwegingen
+
+* Er geldt een verwerkingslimiet van 5 minuten voor het converteren van een uitgave naar een taak. Als er een groot aantal documenten aan de uitgave is gekoppeld en deze niet kan worden geconverteerd, moet u mogelijk enkele documenten verwijderen en het opnieuw proberen.
 
 ## Een uitgave converteren naar een taak
 

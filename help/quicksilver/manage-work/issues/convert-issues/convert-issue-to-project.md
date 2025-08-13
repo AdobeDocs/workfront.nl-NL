@@ -6,9 +6,9 @@ description: Een uitgave converteren naar een project in Adobe Workfront
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 71ddeb83543c3c1491a412ac18deaa3ce1077c21
 workflow-type: tm+mt
-source-wordcount: '1924'
+source-wordcount: '1966'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+## Overwegingen
+
+* Er is een verwerkingsgrens van 5 minuten wanneer het omzetten van een kwestie in een project. Als er een groot aantal documenten aan de uitgave is gekoppeld en deze niet kan worden geconverteerd, moet u mogelijk enkele documenten verwijderen en het opnieuw proberen.
 
 ## Een uitgave converteren naar een project
 
@@ -180,7 +184,7 @@ U kunt een uitgave in een project omzetten gebruikend een malplaatje.
    * Het aantal taken in de sjabloon
    * De namen van de aangepaste sjabloonformulieren
 
-1. (Facultatief) muis over de naam van een malplaatje en klik het **pictogram van Favorieten ![ ](assets/favorites-icon-small.png) om het als favoriet voor toekomstig gebruik te merken.**
+1. (Facultatief) muis over de naam van een malplaatje en klik het **pictogram van Favorieten** ![ om het als favoriet voor toekomstig gebruik te merken.](assets/favorites-icon-small.png)
 
    >[!TIP]
    >

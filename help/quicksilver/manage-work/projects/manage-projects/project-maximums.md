@@ -7,9 +7,9 @@ description: Adobe Workfront heeft limieten voor het aantal objecten dat aan een
 author: Alina
 feature: Work Management
 exl-id: 60576107-89f1-4328-89e2-5b1e5e243fd9
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 71ddeb83543c3c1491a412ac18deaa3ce1077c21
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,10 @@ Enkele voorbeelden van taakgebiedsdelen die het opnieuw berekenen van de chronol
   <tr> 
    <td role="rowheader"><p>Tijdlijnberekeningen</p></td> 
    <td>Workfront voert geen automatische tijdlijnberekeningen uit voor projecten die niet in 6 maanden zijn bijgewerkt en zal niet hervat tot een update wordt gemaakt.<p>Voor projecten die niet in 3 maanden zijn bijgewerkt, voert Workfront wekelijks tijdlijnberekeningen uit in plaats van iedere avond.</p><p>Voor informatie over het berekenen van projectchronologie, zie <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref"> projectchronologie </a> opnieuw berekenen. </p></td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader"><p>Objecten omzetten </p></td> 
+   <td>Workfront heeft een verwerkingslimiet van 5 minuten voor het omzetten van objecten. Als er een groot aantal documenten aan het object is gekoppeld, kan het zijn dat het object niet binnen de limiet van 5 minuten wordt omgezet. Mogelijk moet u enkele documenten verwijderen en het opnieuw proberen.</td> 
   </tr> 
  </tbody> 
 </table>

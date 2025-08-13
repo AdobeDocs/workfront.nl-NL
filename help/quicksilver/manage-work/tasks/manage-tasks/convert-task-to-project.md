@@ -6,9 +6,9 @@ description: Wanneer een taak in een project een grotere hoeveelheid inspanning 
 author: Alina
 feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
-source-git-commit: 0c45c768be1dda579e507f5f6ff4b127021a5f73
+source-git-commit: 55c714436fe59c84251c7f4e2a46614feae92cd6
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -52,6 +52,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 * De oorspronkelijke taak wordt verwijderd.
 * Alle subtaken, kwesties en nota&#39;s komen tot het nieuwe project.
 * Documenten, documentversies en proefdrukken worden naar het nieuwe project verplaatst.
+* Er is een verwerkingsgrens van 5 minuten wanneer het omzetten van een taak in een project. Als er een groot aantal documenten aan de taak is gekoppeld en deze niet kan worden geconverteerd, moet u mogelijk enkele documenten verwijderen en het opnieuw proberen.
 * De status en het percentage voltooide van alle subtaken en kwesties worden bewaard.
 * De taken worden de toegewezen personen en de gebruiker die de taak in het project omzetten gedeelde gebruikers op het project.
 * De begindatum van het project is ingesteld op de begindatum van de taak.

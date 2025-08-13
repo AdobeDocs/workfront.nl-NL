@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
+source-git-commit: 55c714436fe59c84251c7f4e2a46614feae92cd6
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1506'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Voor informatie over het omzetten van kwesties in projecten, zie [ een kwestie i
    * Versies
    * De proef is inbegrepen slechts wanneer de optie **de originele kwestie houdt en zijn resolutie aan deze taak bindt** niet geselecteerd is.
    * Documentgoedkeuringen worden niet opgenomen wanneer u een uitgave converteert waaraan documenten en documentkoppelingen zijn gekoppeld.
-
+* Er geldt een verwerkingslimiet van 5 minuten voor het converteren van een uitgave. Als er een groot aantal documenten aan de uitgave is gekoppeld en deze niet kan worden geconverteerd, moet u mogelijk enkele documenten verwijderen en het opnieuw proberen.
 * Als u hebt besloten de uitgave bij de conversie te houden en er documenten aan zijn gekoppeld, worden het document en de versies ervan naar het project of de taak gekopieerd. De proefdrukken en de documentgoedkeuringen worden niet gekopieerd naar het project of de taak.
 * Als u hebt besloten de uitgave niet bij de conversie te houden en er documenten aan zijn gekoppeld, worden het document, de versies en de proefdrukken naar het project of de taak overgedragen. De documentgoedkeuringen worden niet overgedragen naar het project of de taak.
 * Als er documenten en mappen zijn gekoppeld aan de oorspronkelijke uitgave bij externe services, zoals Google Drive, worden deze koppelingen naar het nieuwe object gekopieerd, ongeacht of u de uitgave bewaart of niet tijdens de conversie.
