@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 343ffcc5ba894f389e4ca00e12ea31009eb6c76a
+source-git-commit: a7a4ef39cf5e50d487ec2053e6b02cb2bb06c3f5
 workflow-type: tm+mt
-source-wordcount: '6687'
+source-wordcount: '6776'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,16 @@ Deze pagina bevat een overzicht van de interface-updates die we in Adobe Workfro
 Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product [.](/help/quicksilver/product-announcements/product-releases/product-releases.md)
 
 ## Beheer en installatie
+
+### Interface-updates voor het vak Update naar gebruiker verzenden in groepen
+
+**de versie van de Voorproef: 14 augustus, 2025; De versie van de productie: 14 augustus, 2025**
+
+We hebben de weergave van de update Naar gebruiker verzenden bijgewerkt wanneer we deze vanuit de lijst met groepsleden en de lijst met subgroepsleden openen.
+
+Het vak Update naar gebruiker verzenden komt nu overeen met andere gebieden van Workfront wanneer u een update naar een of meerdere gebruikers verzendt.
+
+Voor informatie, zie [ Mening en beheer het lidmaatschap van een groep ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md) en [ Mening en beheer subgroepsleden ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md).
 
 ### Interface-updates voor onlangs verwijderde items
 
@@ -85,6 +95,10 @@ Ga naar Instellingen > Systeem > Gebruikers voor SSO bijwerken om deze wijziging
 ### De updates van de interface voor het registreren van tijd op een project, een taak, of een kwestie in de sectie van Uren
 
 **de versie van de Voorproef: 7 augustus, 2025; De versie van de productie: 14 augustus, 2025**
+
+>[!NOTE]
+>
+>Tijdelijk verwijderd uit voorvertoning en productie
 
 Wij hebben de blik en het gevoel van de de tijddoos van het Logboek bijgewerkt wanneer het registreren van tijd voor een project, een taak, of een kwestie in de sectie van Uren, om het ontwerp van andere gebieden van Workfront aan te passen.
 
