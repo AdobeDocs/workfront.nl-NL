@@ -6,9 +6,9 @@ description: Als Adobe Workfront-klant kunt u telefonisch contact opnemen met he
 feature: Get Started with Workfront
 author: Becky
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
-source-git-commit: 008f96d52632f5f05554d63ae1c38cc37d21544b
+source-git-commit: 8a4668a568fde2ca7ee26714caae3cd33efe4eda
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,7 @@ Als klant van [!DNL Adobe Workfront] kunt u telefonisch contact opnemen met het 
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Vouw uit om de vereisten voor toegang weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,9 +42,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   <tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td><p>Nieuw: Standaard</p>
-       <p>of</p>
-       <p>Huidig: Plan</p></td>
+   <td><p>Standaard</p>
+       <p>Plan</p></td>
   </tr> 
   </tr> 
   <tr> 
@@ -85,13 +82,15 @@ U kunt een ondersteuningsticket verzenden via de portal voor zelfbediening [!DNL
 >Alleen geoorloofde supportcontactpersonen (of gebruikers met een ondersteuningsbevoegdheid) kunnen online ondersteuningstickets indienen.
 
 
-1. Klik op de [[!DNL Experience League] ](https://experienceleague.adobe.com/nl) -website **[!UICONTROL Support]** boven aan de pagina.
+1. Klik op de [[!DNL Experience League] ](https://experienceleague.adobe.com) -website **[!UICONTROL Support]** boven aan de pagina.
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
    De pagina [!UICONTROL Support] wordt geopend.
 
    Vanuit de [!UICONTROL Support] -startpagina kunt u naar de geopende ondersteuningsgevallen navigeren, een nieuw geval registreren, de bovenste [!UICONTROL Support] -artikelen weergeven of aanvullende leerbronnen openen.
+
+   Voor meer informatie over Workfront het leren, zie [ het Centrum van de Hulp ](https://learning.adobe.com/resources/help-center.html).
 
 <!--1. To submit a case, select the option **[!UICONTROL Open a support case]**, then click **[!UICONTROL Sign] In**.-->
 

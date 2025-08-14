@@ -4,9 +4,9 @@ description: Recordtypen zijn de objecttypen voor Adobe Workfront Planning. In d
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 943c26efa6f6351abf885dbc5f3aa09c0b0fab05
+source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -27,15 +27,15 @@ recommendations: noDisplay, noCatalog
 
 Als werkruimtebeheerder kunt u een bestaand recordtype importeren of toevoegen aan een andere werkruimte.
 
-U moet eerst de mogelijkheden voor de werkruimte van een recordtype definiëren voordat werkruimtemanagers deze in andere werkruimten kunnen importeren.
+U moet een recordtype eerst als gecentraliseerd aanwijzen voordat werkruimtenmanagers het in andere werkruimten kunnen importeren.
 
-U definieert de mogelijkheden voor de werkruimte van een recordtype wanneer u een recordtype maakt of bewerkt.
+U kunt een recordtype instellen als gecentraliseerd wanneer u het maakt of bewerkt terwijl u de instellingen voor de werkruimte van het recordtype definieert.
 
 Voor informatie, zie [ mogelijkheden van de dwars-werkruimte voor verslagtypes ](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) vormen.
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.
++++ Vouw uit om de vereisten voor toegang weer te geven.  
 
 <table style="table-layout:auto"> 
 <col> 
@@ -95,9 +95,11 @@ Voor informatie, zie [ mogelijkheden van de dwars-werkruimte voor verslagtypes ]
 
 *Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
-## Overwegingen bij het toevoegen van bestaande recordtypen vanuit een andere werkruimte
+## Overzicht van gecentraliseerde recordtypen
+
+Overwegingen bij het toevoegen van bestaande recordtypen vanuit een andere werkruimte
 
 * Als er geen recordtypen zijn geconfigureerd om aan een andere werkruimte te worden toegevoegd, wordt de optie om deze uit een andere werkruimte te importeren niet weergegeven wanneer u een recordtype maakt. <!--add this a tip in the steps below, and/ or add a Conditional step that this is possible only when these record types are first enabled-->
 * Nadat u het recordtype vanuit een andere werkruimte hebt toegevoegd, wordt de volgende informatie ook toegevoegd van het bestaande recordtype:

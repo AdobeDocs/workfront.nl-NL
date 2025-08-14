@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '736'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Voor informatie, zie de &quot;sectie van de Formule&quot;in artikel [ gebieden ]
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.
++++ Vouw uit om de vereisten voor toegang weer te geven. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -90,7 +90,7 @@ Voor informatie, zie de &quot;sectie van de Formule&quot;in artikel [ gebieden ]
 
 *Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 ## Overwegingen bij formuleringsvelden
 
@@ -112,6 +112,10 @@ Voor informatie, zie de &quot;sectie van de Formule&quot;in artikel [ gebieden ]
 
   Voor meer informatie, zie de &quot;sectie van de Formule&quot;in artikel [ gebieden ](/help/quicksilver/planning/fields/create-fields.md) creëren.
 * U kunt in nieuwe formules verwijzen naar formuleringsvelden. Zodra de waarde wordt bijgewerkt in een veld waarnaar wordt verwezen in een formuleveld, worden alle volgende velden die verwijzen naar dat veld of naar formulevelden die dat veld bevatten, automatisch bijgewerkt.
+* In de volgende gevallen kunnen formuliervelden worden weergegeven als `#ERROR!` :
+   * Wanneer een veld in een formule wordt verwijderd.
+   * Wanneer een veld dat in een samengevoegd opzoekveld wordt gebruikt, wordt weergegeven als `#ERROR!` .
+Als u bijvoorbeeld een opzoekveld weergeeft dat geaggregeerde opzoekformulevelden bevat en een van de formuliervelden waarnaar wordt verwezen, wordt weergegeven als `#ERROR!` .
 
 ## Ondersteunde formules
 

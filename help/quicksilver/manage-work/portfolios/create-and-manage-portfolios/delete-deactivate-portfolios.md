@@ -6,9 +6,9 @@ description: Portfolio's zijn verzamelingen van projecten of programma's in Adob
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 8a4668a568fde2ca7ee26714caae3cd33efe4eda
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '420'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,7 @@ Wij adviseren deactivering van een portefeuille die niet meer met toekomstige pr
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Vouw uit om de vereisten voor toegang weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,8 +35,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
-   <td> <p>Nieuw: [!UICONTROL Standard] </p>
-   <p>Huidig: [!UICONTROL Plan] </p> </td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
@@ -68,6 +66,7 @@ Houd rekening met het volgende wanneer u besluit of u portfolio&#39;s wilt verwi
 * Als u een portfolio verwijdert, worden de bijbehorende projecten niet verwijderd.
 * U kunt verwijderde portfolio&#39;s niet herstellen.
 * Als u een portfolio deactiveert, weet u zeker dat de naam van het portfolio en de bijbehorende programma&#39;s niet meer aan projecten kunnen worden toegewezen wanneer u een project maakt.
+* Als u een portfolio deactiveert die al aan een project is gekoppeld, wordt dit niet van het project verwijderd. Als u een gedeactiveerd portfolio uit een project verwijdert, moet u het opnieuw activeren voordat u het weer aan het project kunt koppelen.
 
 ## Een portfolio deactiveren
 
@@ -82,11 +81,17 @@ Wanneer u een portfolio deactiveert, hebt u nog steeds toegang tot dit portfolio
 1. Klik op **[!UICONTROL Portfolios]** .
 1. Klik op de naam van het portfolio.
 1. Klik **Meer** menu ![ Meer menu ](assets/more-icon.png) rechts van de portefeuillenaam, dan klik **[!UICONTROL Deactivate Portfolio]**.
+Het portfolio wordt onmiddellijk gedeactiveerd.
+1. (Facultatief) klik het **Meer** menu ![ Meer menu ](assets/more-icon.png) rechts van de portefeuillenaam, dan klik **[!UICONTROL Activate Portfolio]** om het te reactiveren.
 
 ## Een portfolio verwijderen
 
-{{step1-click-main-menu}}
+{{step1-to-portfolios}}
 
-1. Klik op **[!UICONTROL Portfolios]** .
-1. Selecteer de portefeuille, dan klik **[!UICONTROL Delete]** &#x200B; het [!UICONTROL Delete] pictogram ![ pictogram van de Schrapping ](assets/delete.png).
+1. Voer een van de volgende handelingen uit:
+
+   * Selecteer de portefeuille in de lijst, dan klik het **[!UICONTROL Delete]** pictogram ![ pictogram van de Schrapping ](assets/delete.png).
+   * Klik de portefeuille om het te openen, dan klik **Meer** menu ![ ](assets/more-icon.png) aan het recht van de portefeuillenaam, dan **Schrapping Portfolio**.
 1. Klik op **[!UICONTROL Yes, Delete It]** om te bevestigen.
+
+   Het portfolio wordt verwijderd en kan niet worden hersteld.
