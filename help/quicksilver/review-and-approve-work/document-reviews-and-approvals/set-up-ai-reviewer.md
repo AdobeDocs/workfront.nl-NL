@@ -57,7 +57,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 Voordat u begint, moet u richtlijnen voor het brandmerken van afbeeldingen instellen in GenStudio Foundations.
 
-Meer over de richtlijnen van het beeldmerk leren, zie [ begonnen worden met Adobe GenStudio for Performance Marketing ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
+Meer over de richtlijnen van het beeldmerk leren, zie [ begonnen worden met Adobe GenStudio for Performance Marketing ](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 ## Een AI-revisor toevoegen
 
