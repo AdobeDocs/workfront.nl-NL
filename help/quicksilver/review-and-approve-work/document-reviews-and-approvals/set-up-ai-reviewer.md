@@ -6,17 +6,19 @@ description: Als u ten minste één merk hebt ingesteld in GenStudio-stichtingen
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
-source-git-commit: da980cee8710570f52c724053d1e0f359c6a9fe1
+exl-id: 4673049e-119e-4315-95f0-f10d8b286856
+source-git-commit: 7d7291539d4436f0c4700363b7800a5cc6ac4096
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
 
-
 # AI-revisoren maken
+
+>[!NOTE]
+>
+>Deze functie is momenteel in bèta.
 
 Als u ten minste één merk hebt ingesteld in GenStudio-stichtingen, kunt u meerdere AI-revisoren maken. Deze revisoren kunt u vervolgens toewijzen aan goedkeuringssjablonen en aan individuele revisie- en goedkeuringsaanvragen.
 
@@ -53,12 +55,9 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 ## Vereisten
 
-Voordat u begint, moet u merkrichtlijnen instellen in GenStuido-stichtingen.
+Voordat u begint, moet u richtlijnen voor het brandmerken van afbeeldingen instellen in GenStudio Foundations.
 
-Zie voor meer informatie over richtlijnen voor merken
-
-* [ GenStudio for Performance Marketing-merken ](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
-* [ voeg richtlijnen ](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines) toe
+Meer over de richtlijnen van het beeldmerk leren, zie [ begonnen worden met Adobe GenStudio for Performance Marketing ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 ## Een AI-revisor toevoegen
 
@@ -77,4 +76,3 @@ Zie voor meer informatie over richtlijnen voor merken
 
    * [Een goedkeuringssjabloon maken voor elementen en documenten](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
    * [Een documentrevisie of goedkeuringsaanvraag maken](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
-

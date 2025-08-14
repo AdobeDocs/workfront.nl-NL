@@ -6,17 +6,19 @@ description: Seconden nadat u de goedkeuringsaanvraag hebt verzonden, kunt u de 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
-source-git-commit: da980cee8710570f52c724053d1e0f359c6a9fe1
+exl-id: 838e8f3d-0ea6-4844-a261-ef7b0e78a755
+source-git-commit: 7d7291539d4436f0c4700363b7800a5cc6ac4096
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
 
-
 # Bekijk de score en feedback van AI Reviewer
+
+>[!NOTE]
+>
+>Deze functie is momenteel in bèta.
 
 Seconden nadat u de revisie- en goedkeuringsaanvraag hebt verzonden, kunt u de score en feedback van de AI Reviewer bekijken in het deelvenster Documentoverzicht.
 
