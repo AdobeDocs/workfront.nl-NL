@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: c8f552a4f4da2365f793e9111ee12a9905516134
+source-git-commit: 343ffcc5ba894f389e4ca00e12ea31009eb6c76a
 workflow-type: tm+mt
-source-wordcount: '6622'
+source-wordcount: '6687'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,16 @@ Deze pagina bevat een overzicht van de interface-updates die we in Adobe Workfro
 Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product [.](/help/quicksilver/product-announcements/product-releases/product-releases.md)
 
 ## Beheer en installatie
+
+### Interface-updates voor onlangs verwijderde items
+
+**de versie van de Voorproef: 14 augustus, 2025; De versie van de productie: 21 augustus, 2025**
+
+We hebben de vormgeving van de onlangs verwijderde items in het gedeelte Setup aangepast aan het ontwerp van andere gebieden van Workfront. Er is geen functionaliteit gewijzigd voor onlangs verwijderde projecten, taken, verzoeken, documenten of sjablonen.
+
+Ga naar Setup > Prullenbak > Recent verwijderd om deze wijziging weer te geven.
+
+Voor informatie, zie [ schrapte punten ](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md) herstellen.
 
 ### De updates van de interface voor het gebied van Voorwaarden in Opstelling
 
@@ -82,7 +92,7 @@ Voor informatie, zie [ tijd van het Logboek ](/help/quicksilver/timesheets/creat
 
 ### Interface-updates voor een bedrijfscase van een project
 
-**de versie van de Voorproef: 4 augustus, 2025; De versie van de productie: 18 augustus**
+**de versie van de Voorproef: 4 augustus, 2025; De versie van de productie: 13 augustus, 2025**
 
 Wij hebben de blik en het gevoel van het BedrijfsGeval van het project bijgewerkt om andere gebieden van de toepassing aan te passen.
 
@@ -125,15 +135,14 @@ Raadpleeg de volgende artikelen voor meer informatie:
 * [Het projectteam beheren](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md)
 * [Ondernemingslidmaatschappen beheren](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
 
-### Bijgewerkte ervaring wanneer het uitgeven van een Onderwerp van de Rij in een project of een malplaatje
+### Bijgewerkte ervaring wanneer het uitgeven van een Groep van het Onderwerp in een project of een malplaatje
 
 **de versie van de Voorproef: 31 juli, 2025; De versie van de productie: 31 juli, 2025**
 
-Wij hebben de blik en het gevoel van een Onderwerp van de Rij bijgewerkt wanneer het uitgeven van het op een malplaatje. De pagina voor het bewerken van het onderwerp van de wachtrij komt nu overeen met het ontwerp van andere gebieden van Workfront.
+Wij hebben de blik en het gevoel van een Groep van het Onderwerp bijgewerkt wanneer het uitgeven van het op een malplaatje. De pagina voor het bewerken van onderwerpgroepen komt nu overeen met het ontwerp van andere gebieden van Workfront.
+Er is een kleine functiewijziging toegepast op de Onderwerpgroep. Als u een onderwerpgroep wilt bewerken, selecteert u de onderwerpgroep in de lijst en klikt u op het pictogram Bewerken. U wordt niet meer naar de detailpagina van de Groep van het Onderwerp geleid alvorens u kunt uitgeven.
 
-Een kleine functieverandering is toegepast op de Verpletterende lijst van Regels. Om een Onderwerp van de Rij uit te geven, selecteer het Onderwerp van de Rij van de lijst en klik het Edit pictogram. U wordt niet meer geleid aan de de detailpagina van het Onderwerp van de Rij alvorens u kunt uitgeven.
-
-Voor meer informatie, zie [ de Onderwerpen van de Rij ](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md) creëren.
+Voor meer informatie, zie [ de Groepen van het Onderwerp ](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md) creëren.
 
 ### Interface-updates voor factureringsrecords
 
@@ -215,11 +224,11 @@ Voor informatie, zie [ de gebruikers van de Invoer ](/help/quicksilver/administr
 
 ### Beheer en installatie
 
-+++Breid om Admin en de interfaceupdates van de Opstelling te bekijken die in Q3 worden gemaakt
++++Breid uit om de interface-updates van Admin en van de Opstelling te bekijken die in Q3 worden gemaakt
 
 ### Interface-updates voor de pagina Lay-outsjablonen
 
-**de versie van de Voorproef: 17 juli, 2025; De versie van de productie: TBD**
+**de versie van de Voorproef: 17 juli, 2025; De versie van de productie: 14 augustus, 2025**
 
 We hebben de pagina Lay-outsjablonen bijgewerkt met een moderner ontwerp dat consistent is met andere gebieden van Workfront.
 
@@ -404,7 +413,7 @@ Er zijn geen functiewijzigingen geïntroduceerd met deze update.
 
 ### Documenten
 
-+++ breid uit om de interfaceupdates van Documenten te bekijken die in Q3 worden gemaakt
++++Uitbreiden om de interfaceupdates van Documenten te bekijken die in Q3 worden gemaakt
 
 ### Een document delen met een extern e-mailadres
 
@@ -416,7 +425,7 @@ Het dialoogvenster Delen is bijgewerkt zodat gebruikers documenten kunnen delen 
 
 ### Navigatie en zoeken
 
-+++ breid uit om de updates van de Navigatie en van de onderzoeksinterface te bekijken die in Q3 worden gemaakt
++++Uitbreiden naar de updates van navigatie- en zoekinterface die in Q3 zijn gemaakt
 
 ### Interface-update voor geavanceerd zoeken
 
@@ -440,7 +449,7 @@ We hebben de pagina die u gebruikt, bijgewerkt zodat u ondersteuning kunt bieden
 
 ### Projecten
 
-+++Breid om de interfaceupdates van Projecten te bekijken die in Q3 worden gemaakt
++++Uitbreiden om de interfaceupdates van Projecten te bekijken die in Q3 worden gemaakt
 
 <!--
 ### New look and feel for logging time on a project, task, or issue in the Hours tab   
@@ -526,7 +535,7 @@ Raadpleeg de volgende artikelen voor meer informatie:
 
 ### Rapporten en dashboards
 
-+++Breid aan meningsRapporten en de interfaceupdates van Dashboards uit die in Q3 worden gemaakt
++++Breid uit om de updates van de de interfaceinterface van Rapporten en van Dashboards te bekijken die in Q3 worden gemaakt
 
 ### De updates van de interface voor het rapport van de Uitgaven
 
@@ -566,7 +575,7 @@ We raden u aan de URL te vervangen om naar een ondersteunde pagina te gaan of de
 
 ## Gebruikers
 
-+++ breid uit om de updates van de gebruikersinterface te bekijken die in Q3 worden gemaakt
++++Uitbreiden om de updates van de gebruikersinterface te bekijken die in Q3 worden gemaakt
 
 ### Interface werkt aan de organisatorische grafiek bij
 
@@ -623,7 +632,7 @@ We hebben de externe pagina voor gebruikersregistratie bijgewerkt met een modern
 
 ### Licenties
 
-+++ breid uit om de updates van de gebruikersinterface te bekijken die in Q3 worden gemaakt
++++Uitbreiden om de updates van de gebruikersinterface te bekijken die in Q3 worden gemaakt
 
 ### Pagina met bijgewerkte licentieovereenkomsten
 
@@ -639,7 +648,7 @@ We hebben de pagina met licentieovereenkomsten bijgewerkt met een moderner ontwe
 
 ### Beheer en installatie
 
-+++Breid aan de updates van de interface van het Beleid en van de Opstelling uit die in Q2 worden gemaakt
++++Breid aan de interfaceupdates van het Beleid en van de Opstelling uit die in Q2 worden gemaakt
 
 ### Interface-updates voor onlangs herstelde items
 
@@ -827,7 +836,7 @@ Deze update bevat visuele wijzigingen in het gebied. Er is geen functionaliteit 
 
 ### Agile
 
-+++ breid uit om de updates van de interface van Agile te bekijken die in Q2 worden gemaakt
++++Breid uit om de interfaceupdates van Agile te bekijken die in Q2 worden gemaakt
 
 ### Interface-updates voor teamverzoeken
 
@@ -891,7 +900,7 @@ Om deze verandering te bekijken, ga naar Teams > kies een team > Achtergrond, da
 
 ### Documenten
 
-+++ breid uit om de interfaceupdates van Documenten te bekijken die in Q2 worden gemaakt
++++Uitbreiden om de interfaceupdates van Documenten te bekijken die in Q2 worden gemaakt
 
 ### Interface-updates bij aanvragen van een document
 
@@ -931,7 +940,7 @@ Ga naar Documenten > Klik op het menu Meer naast de naam van het slimme filter >
 
 ### Projecten
 
-+++Breid om de interfaceupdates van Projecten te bekijken die in Q2 worden gemaakt
++++Breid uit om de interfaceupdates van Projecten te bekijken die in Q2 worden gemaakt
 
 ### Kijk en voel updates aan het gebied van de Details van de Rij van een project
 
@@ -958,7 +967,7 @@ Voor informatie, zie [ een milestone weg ](/help/quicksilver/administration-and-
 
 ### Rapporten en dashboards
 
-+++Breid aan meningsRapporten en de interfaceupdates van Dashboards uit die in Q2 worden gemaakt
++++Breid uit om Rapporten en de interfaceupdates te bekijken Dashboards die in Q2 worden gemaakt
 
 ### Updates van een Mijlpaal-padrapport weergeven
 
@@ -1095,7 +1104,7 @@ Er is een nieuwe knop Tekstmodus bewerken en modaal bewerken toegevoegd aan de v
 
 ### Updates en opmerkingen
 
-+++Breid om Updates en de interfaceupdates van Commentaren te bekijken die in Q2 worden gemaakt
++++Breid uit om Updates en de interfaceupdates van Commentaren te bekijken die in Q2 worden gemaakt
 
 ### Interface-update voor de menu-opties Meer voor opmerkingen
 

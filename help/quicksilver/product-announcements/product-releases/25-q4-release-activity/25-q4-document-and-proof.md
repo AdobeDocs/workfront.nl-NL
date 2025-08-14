@@ -4,9 +4,10 @@ description: Verbeteringen voor document en proefdrukken in vierde kwartaal 2025
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0babf2c4028ee0c45258ec3490bab336fd05a68b
+exl-id: f4615994-8a56-482c-b033-62e719be152e
+source-git-commit: 5422b7f5aa3dc1f3827c6d0d0ff559effb447fa4
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,27 @@ Op deze pagina vindt u een beschrijving van de verbeteringen in Document en Proo
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2025 versiecyclus, zie [ Vierde Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
 
+## Nieuwe Workfront AI Reviewer
+
+>[!NOTE]
+>
+>Beschikbaar voor alle klanten 14 augustus 2025
+
+De nieuwe Workfront AI Reviewer helpt de naleving van het merk van afbeeldingen te garanderen door de inhoud automatisch te controleren aan de hand van de richtlijnen voor uw merk, te beginnen met de richtlijnen voor afbeeldingen. Het verstrekt een score en actiefable terugkoppelen om het goedkeuringsproces te stroomlijnen.
+
+U kunt de AI Reviewer toevoegen aan goedkeuringssjablonen of individuele revisie- en goedkeuringsaanvragen, waardoor de productie van inhoud sneller verloopt en de merkstandaarden behouden blijven.
+
+Voor meer informatie, zie [ begonnen worden met de Reviewer van Workfront AI ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
+
+Deze functie is momenteel in bèta.
+
+
 ## Nieuwe integratie van proefdrukken voor Adobe Express
+
+>[!NOTE]
+>
+>Beschikbaar voor alle klanten 28 juli 2025
+
 
 We zijn blij dat we een nieuwe integratie tussen Adobe Express en Workfront Proof aankondigen.
 
