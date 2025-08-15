@@ -73,7 +73,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klik op de naam van een het werkpunt om de **pagina van het Overzicht** te openen.
 1. In de **Snelle verbindingen** sectie, vind de verbinding u wilt kopiëren.
-1. Klik het **pictogram van het Exemplaar 1} van het Exemplaar**![ pictogram.](assets/copy-icon.png)
+1. Klik het **pictogram van het Exemplaar 1&rbrace; van het Exemplaar**![ pictogram.](assets/copy-icon.png)
    ![ verbinding van het Exemplaar ](assets/copy-link.png)
 
 ## Een snelkoppeling openen
