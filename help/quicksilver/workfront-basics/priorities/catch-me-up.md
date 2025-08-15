@@ -6,24 +6,24 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c3ff90cc-2a9b-472e-ac6c-88b8ec93c8fb
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
 
 # Vangst van werk in prioriteiten
 
-Vang me omhoog—-aangedreven door Workfront AI Medewerker-vat updates, geüploade documenten, en andere opmerkelijke veranderingen over uw projecten binnen de volgende tijdkaders samen: 24 uren, 3 dagen, 7 dagen, wat de hoeveelheid tijd helpt verminderen die naar informatie over actieve projecten zoekt.
+Vang me omhoog-aangedreven door Workfront AI Medewerker-samenvat updates, geüploade documenten, en andere opmerkelijke veranderingen over uw projecten binnen de volgende tijdkaders: 24 uren, 3 dagen, 7 dagen. Dit helpt de hoeveelheid tijd te verminderen die naar informatie over actieve projecten zoekt.
 
 >[!NOTE]
 >
->Deze eigenschap is slechts beschikbaar voor klanten op de Verenigde Ervaring van de Adobe gebruikend de Medewerker AI. Voor meer informatie over de Medewerker AI, zie [ AI Hulpoverzicht ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+>Deze eigenschap is slechts beschikbaar voor klanten op de Verenigde Ervaring van Adobe gebruikend de Medewerker AI. Voor meer informatie over de Medewerker AI, zie [ AI Hulpoverzicht ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
 ## Toegangsvereisten
 
-+++U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren: 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -55,9 +55,12 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. Bij de bovenkant van de pagina, klik **Vangst me omhoog**.
    ![ vangst me op knoop ](assets/catch-me-up-button.png)
-1. Kies het tijdframe dat u wilt samenvatten:
-   1. 24 uur
-   1. 3 dagen
-   1. 7 dagen
+1. Selecteer de gewenste tijdlijn:
+   * **vat laatste 24 uren samen**
+   * **vat laatste 3 Dagen samen**
+   * **vat de laatste 7 Dagen samen**
 
-   Als u niet met dit paneel kunt communiceren, heeft uw organisatie geen ondertekende Adobe-Gen AI-overeenkomst in het bestand.
+   >[!NOTE]
+   >
+   > Als u niet met dit paneel kunt communiceren, heeft uw organisatie geen ondertekende Adobe Gen AI-overeenkomst in het bestand.
+

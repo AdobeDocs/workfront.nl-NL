@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 63aa5e45-e51d-4049-a5d9-18dfaaa79647
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -71,14 +71,19 @@ U kunt een document uploaden naar een tijdelijk item vanuit de werklijst of de p
 
 {{step1-to-priorities}}
 
-1. In de werklijst, houd over de het werknaam, dan klik **pictogram van de Samenvatting ![ open samenvattingspictogram ](assets/summary-icon.png).**
-1. Zorg ervoor dat u zich op het tabblad Taak of Problemen in het deelvenster bevindt.
-1. Klik op het documentpictogram in de rechterzijbalk.
-1. Klik op het pictogram Bestand uploaden en kies het bestand.
-1. (Optioneel) Voer een van de volgende handelingen uit:
-   1. Selecteer een map.
-   1. Een opmerking maken
-   1. Voeg aanvullende bestanden toe.
+1. In de werklijst, houd over de het werknaam, dan klik **pictogram van de Samenvatting** open samenvattingspictogram ![.](assets/summary-icon.png)
+1. Verzeker u op de **Taak** of **Kwesties** lusje in het summiere paneel bent.
+1. Klik **uploaden het pictogram van het Dossier** pictogram ![ uploadt dossierpictogram ](assets/upload-file-icon.png).
+1. Sleep het bestand of Cmd/Ctrl + V om het van het klembord te plakken
+of
+Klik **toevoegen dossiers** om dossiers te doorbladeren of dossiers van een leverancier van Document Cloud in te voeren.
+   ![ voeg dossiers ](assets/add-files.png) toe
+1. (Optioneel) Voeg een opmerking toe.
+1. (Optioneel) Voeg meer bestanden toe.
+
+   >[!NOTE]
+   >
+   >Extra bestanden worden geüpload als afzonderlijke documenten.
 1. Klik **uploaden**.
 
 ### Details van het werk-item
@@ -86,12 +91,18 @@ U kunt een document uploaden naar een tijdelijk item vanuit de werklijst of de p
 {{step1-to-priorities}}
 
 1. Klik in de werklijst op de naam van het werkitem.
-1. Klik op het tabblad Document boven aan het scherm.
-1. Klik **uploaden document** > **Document**.
-1. (Optioneel) Voer een van de volgende handelingen uit:
-   1. Selecteer een map.
-   1. Een opmerking maken
-   1. Voeg aanvullende bestanden toe.
+1. Klik het **lusje van Documenten** bij de bovenkant van het scherm.
+1. Klik **uploaden document** in de hoger-juiste hoek, dan selecteren **Document**.
+1. Sleep het bestand of Cmd/Ctrl + V om het van het klembord te plakken
+of
+Klik **toevoegen dossiers** om dossiers te doorbladeren of dossiers van een leverancier van Document Cloud in te voeren.
+   ![ voeg dossiers ](assets/add-files.png) toe
+1. (Optioneel) Voeg een opmerking toe.
+1. (Optioneel) Voeg meer bestanden toe.
+
+   >[!NOTE]
+   >
+   >Extra bestanden worden geüpload als afzonderlijke documenten.
 1. Klik **uploaden**.
 
 
@@ -104,17 +115,18 @@ U kunt een proef van een document van de werklijst of de pagina van de Details v
 
 {{step1-to-priorities}}
 
-1. In de werklijst, houd over de het werknaam, dan klik **pictogram van de Samenvatting ![ open samenvattingspictogram ](assets/summary-icon.png).**
-1. Zorg ervoor dat u zich op het tabblad Taak of Problemen in het deelvenster bevindt.
-1. Klik het **pictogram van het Document** in het rechterzijspoor.
-1. Klik het **Upload dossier** pictogram, dan kies het dossier.
+1. In de werklijst, houd over de het werknaam, dan klik **pictogram van de Samenvatting** open samenvattingspictogram ![.](assets/summary-icon.png)
+1. Verzeker u op de **Taak** of **Kwesties** lusje in het summiere paneel bent.
+1. Klik het **pictogram van Documenten** het pictogram van Documenten ![ in de rechterzijspoor.](assets/show-document-icon.png)
+1. Klik het **uploadt dossier** pictogram ![ uploadt dossierpictogram ](assets/upload-file-icon.png), dan kies het dossier.
 
    >[!NOTE]
    >
    >U moet het document uploaden voordat u de proefdruk kunt maken.
 
 
-1. Zodra het dossier uploadt, klik **creeer proef**.
+1. Zodra het dossier uploadt, selecteer het dossier in de **sectie van Documenten**.
+1. Klik **creëren Bewijs** in de hoger-juiste hoek van de doos van dossierdetails.
 1. Kies een van de volgende opties:
 
    <table style="table-layout:auto"> 
@@ -122,11 +134,11 @@ U kunt een proef van een document van de werklijst of de pagina van de Details v
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Eenvoudige proefdruk</td> 
+      <td role="rowheader"><b>Eenvoudige proefdruk</b></td> 
       <td>Met deze optie maakt u een proefdruk zonder workflow en past u de standaardproefdrukinstellingen toe. U kunt de standaardinstellingen voor proefdrukken bijwerken of een workflow toevoegen nadat u de proefdruk hebt gemaakt. Voor meer informatie over proefdrukmontages, zie <a href="/help/quicksilver/review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md" class="MCXref xref"> proefdrukmontages </a> uitgeven.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Geavanceerd proefdrukken</td> 
+      <td role="rowheader"><b>Geavanceerd proefdrukken</b></td> 
       <td> <p>Met deze optie kunt u een basisworkflow of een geavanceerde workflow configureren en proefdrukinstellingen wijzigen voor de proefdruk die u maakt. Zie voor meer informatie </p> 
        <ul> 
         <li><p><a href="/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md" class="MCXref xref"> creeer een geavanceerd bewijs met een Basiswerkschema </a> </p> </li> 
@@ -142,8 +154,8 @@ U kunt een proef van een document van de werklijst of de pagina van de Details v
 {{step1-to-priorities}}
 
 1. Klik in de werklijst op de naam van het werkitem.
-1. Klik het **lusje van het Document** bij de bovenkant van het scherm.
-1. Klik **uploaden document** > **Bewijs**.
+1. Klik het **lusje van Documenten** bij de bovenkant van het scherm.
+1. Klik **uploaden document** in de hoger-juiste hoek, dan selecteren **Bewijs**.
 1. Een proefdruk maken zoals beschreven in
    [ creeer een geavanceerd bewijs met een Basiswerkschema ](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
    [ creeer een geavanceerd bewijs met een Geautomatiseerd werkschema ](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)

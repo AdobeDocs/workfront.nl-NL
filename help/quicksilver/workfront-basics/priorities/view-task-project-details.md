@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 0%
@@ -68,13 +68,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 {{step1-to-priorities}}
 
-1. In de werklijst, houd over de naam van het het werkpunt, dan klik **pictogram van de Samenvatting ![ open samenvattingspictogram ](assets/summary-icon.png).**
+1. In de werklijst, houd over de naam van het het werkpunt, dan klik **pictogram van de Samenvatting** open samenvattingspictogram ![.](assets/summary-icon.png)
 1. Klik **Project** bij de bovenkant van het Summiere paneel. Hier kunt u
    * Projectdetails en beschrijving weergeven en bewerken
    * Opmerkingen over het project weergeven en toevoegen
    * Logtijd
    * Een bestand toevoegen
-   * <span class="preview"> ga direct naar het project </span>
+   * Ga rechtstreeks naar het project
 
    ![ projectdetails ](assets/project-details-new.png)
 
@@ -82,7 +82,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 {{step1-to-priorities}}
 
-1. In de werklijst, houd over de het werknaam, dan klik **pictogram van de Samenvatting ![ open samenvattingspictogram ](assets/summary-icon.png).**
+1. In de werklijst, houd over de het werknaam, dan klik **pictogram van de Samenvatting** open samenvattingspictogram ![.](assets/summary-icon.png)
 1. Taak is standaard geselecteerd. Hier kunt u
    * Projectgegevens en taakdetails en beschrijving weergeven en bewerken
    * Opmerkingen over het project weergeven en toevoegen
@@ -99,9 +99,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 {{step1-to-priorities}}
 
-1. In de werklijst, houd over de het werknaam, dan klik **pictogram van de Samenvatting ![ open samenvattingspictogram ](assets/summary-icon.png).**
+1. In de werklijst, houd over de het werknaam, dan klik **pictogram van de Samenvatting** open samenvattingspictogram ![.](assets/summary-icon.png)
 
-1. Uitgave is standaard geselecteerd. Hier kunt u
+1. Uitgave is standaard geselecteerd. Hier kunt u:
    * Projectgegevens en beschrijving weergeven en bewerken
    * Opmerkingen over het project weergeven en toevoegen
    * Documenten weergeven en toevoegen
@@ -116,7 +116,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 U kunt realtime updates weergeven op de pagina Details van een taak of uitgave. U kunt ook zien of anderen de pagina tegelijkertijd bekijken zoals u met real-time aanwezigheidsindicatoren hebt.
 
-## Details van werkonderdelen weergeven
+### Details van werkonderdelen weergeven
 
 {{step1-to-priorities}}
 

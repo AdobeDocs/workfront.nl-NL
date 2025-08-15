@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
-source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '204'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,6 @@ Prioriteiten geven de werkitems weer die aan u zijn toegewezen. U kunt geen werk
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -57,35 +55,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
-## De kolommen in de werklijst Prioriteiten aanpassen in productie
-
-### Kolommen in- of uitschakelen
-
-{{step1-to-priorities}}
-
-1. Klik **Kolommen** op de rechterkant van het scherm.
-   ![ Kolommen ](assets/columns.png)
-1. Met de schakelopties kunt u kolommen in de werklijst in- of uitschakelen.
-
-### De kolommen opnieuw ordenen
-
-{{step1-to-priorities}}
-
-1. Klik **Kolommen** op de rechterkant van het scherm.
-1. Klik het **pictogram van de Belemmering** en beweeg de kolom aan uw gewenste plaats. Kolommen automatisch bijwerken in de werklijst verplaatsen.
-   ![ reorder kolommen ](assets/reorder-columns.png)
-
-### Kolombreedten opnieuw instellen
-
-{{step1-to-priorities}}
-
-1. Klik **Kolommen** op de rechterkant van het scherm.
-1. Klik het **Meer** pictogram ![ Meer pictogram ](assets/more-icon.png), en kies **de kolombreedten van het Terugstellen**.
-   ![ Kolommen ](assets/columns.png)
 
 ## De kolommen in de werklijst Prioriteiten aanpassen
 

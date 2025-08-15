@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---
@@ -64,11 +64,10 @@ U kunt taken en kwesties filtreren die aan u worden toegewezen.
 {{step1-to-priorities}}
 
 1. Klik **Filters** in de hoogste linkerzijde van de werklijst.
-1. Klik **Standaardfilters**.
-1. Selecteer een of meerdere filters om uw werkitems te beperken.
+1. In de **Standaard filters** sectie, selecteer één of meerdere filters om onderaan uw het werkpunten te versmallen.
    ![ Filter ](assets/filter-new.png)
 
-+++Uitbreiden om gedetailleerde informatie over beschikbare filters te zien
++++Uitbreiden om gedetailleerde informatie over beschikbare filters weer te geven
 <table>
   <tbody>
    <tr>
@@ -116,12 +115,12 @@ U kunt taken en kwesties filtreren die aan u worden toegewezen.
     <td>Hiermee wordt het werk weergegeven op de geplande voltooiingsdatum</td>
     </tr>
     <tr>
-    <td>Status</td>
-    <td>Hiermee geeft u taken of problemen in nieuwe, actieve en volledige status weer</td>
-    </tr>
-    <tr>
     <td>Mijn focus</td>
     <td>Hiermee worden taken of problemen weergegeven waaraan focusniveaus zijn toegewezen. Focusniveaus worden toegewezen en beheerd door de individuele gebruiker.</td>
+    </tr>
+    <tr>
+    <td>Status</td>
+    <td>Hiermee geeft u taken of problemen weer in nieuwe, actieve en volledige status.</td>
     </tr>
   </tbody>
 </table>
@@ -136,7 +135,7 @@ Gebruik natuurlijke taal om werk snel te filteren.
 
 >[!NOTE]
 >
->Deze eigenschap is slechts beschikbaar voor klanten op de Verenigde Ervaring van Adobe gebruikend de Medewerker AI. Voor meer informatie over de Medewerker AI, zie [ AI Hulpoverzicht ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+>Deze eigenschap is slechts beschikbaar voor klanten op de Verenigde Ervaring van Adobe gebruikend AI Medewerker. Voor meer informatie over AI Medewerker, zie [ AI Hulpoverzicht ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
 {{step1-to-priorities}}
 
@@ -146,28 +145,26 @@ Gebruik natuurlijke taal om werk snel te filteren.
 
    U kunt dingen als volgt typen:
 
-   * Laatste taken weergeven
-   * Mijn topprioriteiten tonen
-   * Werk dat vandaag verschuldigd is tonen
-
-</div>
+   * *toon me late taken*
+   * *toon mijn hoogste prioriteiten*
+   * *toon werk vandaag verschuldigd*
 
 ## Uw werk groeperen
 
 {{step1-to-priorities}}
 
 1. Klik **Groepen** in de hoogste linkerzijde van de werklijst.
-1. Selecteer een groep om uw werklijst te ordenen
+1. Selecteer een groep om uw werklijst te organiseren.
    ![ Groepen ](assets/groups-new.png)
 
-+++Uitbreiden om gedetailleerde informatie over beschikbare groepen te zien
++++Uitbreiden om gedetailleerde informatie over beschikbare groepen weer te geven
 
 | Groep | Beschrijving |
 |-----------|-------------|
 | Project | Dit groepeert punten door project. |
+| Vervaldatum | Dit groepeert items op basis van het tijdstip waarop ze verschuldigd zijn. Vervaldata worden bepaald door de geplande afsluitdatum. |
 | Mijn focus | Hiermee worden items gegroepeerd op basis van het focusniveau dat u toewijst. |
-| Te betalen week | Deze groepeert items op basis van de week waarin ze verschuldigd zijn. Vervaldata worden bepaald door de geplande afsluitdatum. |
-| Status | Deze groepeert items op de volgende statussen: Nieuw, Bezig, Voltooid. <br> Nota: U kunt douanestatus op dit ogenblik niet gebruiken in Prioriteiten. |
+| Status | Deze groepeert items op de volgende statussen: Nieuw, Bezig, Voltooid. <br><b> Nota </b>: U kunt douanestatus in Prioriteiten op dit ogenblik niet gebruiken. |
 
 +++
 
@@ -176,14 +173,14 @@ Gebruik natuurlijke taal om werk snel te filteren.
 U kunt individuele het werkpunten tussen categorieën slepen en laten vallen wanneer het groeperen door Mijn Prioriteit of Status.
 
 1. Groepeer uw werk door **Status** of **Mijn Prioriteit**.
-2. Houd de muisaanwijzer boven het werkitem om het verplaatsingspictogram te zoeken en sleep het naar de gewenste categorie.
+2. Beweeg over het het werkpunt om het **pictogram van de Belemmering** te klikken en het naar de gewenste categorie te bewegen.
    ![ belemmeringspictogram ](assets/drag-and-drop.png)
 
 ## Uw werk sorteren
 
 ### Sorteren in groepen
 
-Om uw werk binnen een groep te sorteren, open **Groep** en klik **Soort oplopend** of **Soort aflopend**.
+Om uw werk binnen een groep te sorteren, open **Groep** en selecteer als u in het stijgen of dalende orde wilt sorteren.
 
 ![ Soort in groepen ](assets/sort-in-groups.png)
 

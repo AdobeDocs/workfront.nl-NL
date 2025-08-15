@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: d24ad7d1-3a88-479e-beaf-69f8264c9a6b
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '524'
 ht-degree: 0%
 
 ---
@@ -30,8 +30,6 @@ Volg uw werk eenvoudig met een duidelijke, visuele kalender. Met de Prioriteiten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -39,28 +37,28 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-plan</strong></td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-licentie*</strong></td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> 
    <p>Huidig: Revisor of hoger</p>
    <p>Nieuw: Licht of hoger</p> 
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraties op toegangsniveau</strong></td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Toegang weergeven of bewerken voor het object waarop de update betrekking heeft</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
+   <td role="rowheader">Objectmachtigingen</td> 
    <td> <p>Toegang tot het object weergeven</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -70,11 +68,11 @@ Prioriteiten geven de werkitems weer die aan u zijn toegewezen. U kunt de werkit
 
 {{step1-to-priorities}}
 
-1. Klik op het pictogram Kalender boven aan de werklijst.
+1. Klik het **pictogram van de Kalender** bij de bovenkant van de werklijst.
    ![ kalenderpictogram ](assets/calendar-tab.png)
-1. Selecteer een of meerdere filters om uw werkitems te versmallen.
+1. Selecteer een of meer filters om uw werkitems te versmallen.
 
-   +++Uitbreiden om gedetailleerde informatie over beschikbare filters te zien
+   +++Uitbreiden om gedetailleerde informatie over beschikbare filters weer te geven
    <table>
     <tbody>
     <tr>
@@ -83,7 +81,7 @@ Prioriteiten geven de werkitems weer die aan u zijn toegewezen. U kunt de werkit
     </tr>
         <tr>
         <td>eraan werken</td>
-        <td>Hiermee geeft u items weer waaraan u momenteel werkt</td>
+        <td>Geeft items weer waaraan u momenteel werkt.</td>
         </tr>
         <tr>
         <td>Gereed om te starten</td>
@@ -101,28 +99,28 @@ Prioriteiten geven de werkitems weer die aan u zijn toegewezen. U kunt de werkit
         <ul>
         <li>Onvolledige voorgangers of taakbeperkingen die verhinderen dat het item wordt bewerkt</li>
         <p>of</p>
-        <li>De geplande begindatum meer dan twee weken in de toekomst</li>
+        <li>De geplande begindatum meer dan twee weken later.</li>
         </ul>
         </td>
         </tr>
         <tr>
         <td>Gevraagd</td>
-        <td>Hier worden problemen weergegeven waaraan u nog niet hebt gewerkt</td>
+        <td>Hier worden problemen weergegeven waaraan u nog niet hebt gewerkt.</td>
         </tr>
         <td>Gereed</td>
         <td>Hiermee geeft u werk weer dat in de laatste twee weken is voltooid. Deze filteroptie omvat geen goedkeuringen.</td>
         </tr>
         <tr>
         <td>Project</td>
-        <td>De projecten van vertoningen die taken of kwesties bevatten u aan bent toegewezen</td>
+        <td>De projecten van vertoningen die taken of kwesties bevatten u aan bent toegewezen.</td>
         </tr>
         <tr>
         <td>Vervaldatum</td>
-        <td>Hiermee wordt het werk weergegeven op de geplande voltooiingsdatum</td>
+        <td>Hiermee geeft u het werk weer op de geplande voltooiingsdatum.</td>
         </tr>
         <tr>
         <td>Status</td>
-        <td>Hiermee geeft u taken of problemen in nieuwe, actieve en volledige status weer</td>
+        <td>Hiermee geeft u taken of problemen weer in nieuwe, actieve en volledige status.</td>
         </tr>
         <tr>
         <td>Mijn focus</td>
@@ -135,14 +133,14 @@ Prioriteiten geven de werkitems weer die aan u zijn toegewezen. U kunt de werkit
 
 1. Klik op de werkitembalk in de kalender om het zijoverzicht te openen. Met de samenvatting van de bijwerkingen kunt u
 
-* Projectgegevens en werkitemgegevens weergeven en bewerken
-* Opmerkingen maken en weergeven
-* Documenten weergeven en uploaden
-* Een proefdruk maken
-* Ga naar de projectpagina in Workfront
-* Navigeer naar de pagina met details over het werkitem in Prioriteiten
-* Logtijd
-* Snelle koppelingen toevoegen
+   * Projectgegevens en werkitemgegevens weergeven en bewerken
+   * Opmerkingen maken en weergeven
+   * Documenten weergeven en uploaden
+   * Een proefdruk maken
+   * Ga naar de projectpagina in Workfront
+   * Navigeer naar de pagina met details over het werkitem in Prioriteiten
+   * Logtijd
+   * Snelle koppelingen toevoegen
 
 1. (Optioneel) Klik op **Nieuw maken** om een nieuw werkitem aan de kalender toe te voegen. Voor meer informatie, zie [ een nieuwe taak of een kwestie in Prioriteiten ](/help/quicksilver/workfront-basics/priorities/create-task-issue-priorities.md) creëren.
 
@@ -150,12 +148,12 @@ Prioriteiten geven de werkitems weer die aan u zijn toegewezen. U kunt de werkit
 
 {{step1-to-priorities}}
 
-1. Klik op het pictogram Kalender boven aan de werklijst.
+1. Klik het **pictogram van de Kalender** bij de bovenkant van de werklijst.
    ![ kalenderpictogram ](assets/calendar-tab.png)
 1. Klik het **pictogram van Montages** in de rechterhoek van de kalender.
 
 1. Voor de **stijl van de Bar** tabel, kies tot 5 gebieden aan vertoning op de bar van het het werkpunt in de kalender.
    ![ steekproefbar ](assets/sample-task-for-field-config.png)
 
-1. Op het **lusje van de Kleur**, kies hoe u uw het werkpunten aan vertoning zou willen. Als u bijvoorbeeld Project kiest, worden uw werkitems weergegeven volgens de kleur die is toegewezen aan het project in de werklijst.
+1. Op het **lusje van de Kleur**, kies hoe u uw het werkpunten aan vertoning zou willen. Bijvoorbeeld, als u **Project** kiest, tonen uw het werkpunten volgens de kleur die aan het project op de werklijst wordt toegewezen.
    ![ project van de steekproefkleur ](assets/sample-calendar-projects.png)

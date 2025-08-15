@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: a7237746-0a18-408b-b932-8a608fd72eee
-source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
@@ -87,9 +87,9 @@ U kunt opmerkingen toevoegen en opmerkingen en systeemupdates weergeven in een a
 
 1. Klik op de naam van een het werkpunt om de **pagina van het Overzicht** te openen.
 1. Bepaal de plaats van het **gebied van Updates** in de bodem-juiste hoek van het scherm.
-1. (Facultatief) gebruik het **lusje van Commentaren** aan updates anderen op het het werkpunt hebben gemaakt.
+1. (Facultatief) gebruik het **lusje van Commentaren** om updates te bekijken anderen op het het werkpunt hebben gemaakt.
 1. (Facultatief) gebruik het **de activiteit van het Systeem** lusje om de systeemactiviteit met betrekking tot het het werkpunt te bekijken.
-1. (Facultatief) om een commentaar toe te voegen, ga naar het **lusje van de Commentaar** en begin typend in de Nieuwe commentaardoos. Klik **voorleggen** wanneer u wordt gebeëindigd.
+1. (Facultatief) om een commentaar toe te voegen, ga naar het **lusje van de Commentaar** en begin typend in de **Nieuwe commentaardoos**. Klik **voorleggen** wanneer u wordt gebeëindigd.
    ![ gebied van Updates ](assets/updates-area-in-overview.png)
 
 ## Een opmerking beantwoorden
@@ -101,12 +101,12 @@ U kunt reageren op een opmerking in een tijdelijk onderdeel:
 1. Klik op de naam van een het werkpunt om de **pagina van het Overzicht** te openen.
 1. Bepaal de plaats van het **gebied van Updates** in de bodem-juiste hoek van het scherm.
 1. Op het **lusje van Commentaren**, vind de commentaar u wilt antwoorden aan, dan **antwoordt**.
-1. (Voorwaardelijk) Als u wilt antwoorden om de inhoud van een bericht in uw antwoord te brengen, klik het **Meer** menupictogram ![ Meer menu ](assets/more-icon.png) naast het lichaam van het bericht en kies **antwoord van het Citaat**.
+1. (Voorwaardelijk) Als u de inhoud van een bericht in uw antwoord wilt brengen, klik het **Meer** menupictogram ![ Meer menu ](assets/more-icon.png) naast het lichaam van het bericht en kies **antwoord van het Citaat**.
 
 1. Typ uw antwoord, dan klik **voorleggen**.
 
    >[!IMPORTANT]
    >
-   >Je kunt je opmerking alleen binnen 15 minuten bewerken nadat je deze hebt verzonden. Als u een opmerking wilt bewerken, klikt u op het menu Meer rechtsboven in de opmerking en klikt u op Bewerken.
+   >Je kunt je opmerking alleen binnen 15 minuten bewerken nadat je deze hebt verzonden. Om een commentaar uit te geven, klik het **Meer** menu in de hoger-juiste hoek van de commentaar, dan klik **uitgeven**.
 
    ![ Antwoord aan commentaar ](assets/reply-to-comment.png)

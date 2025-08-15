@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -54,9 +54,10 @@ Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licen
 
 {{step1-to-priorities}}
 
-1. Beweeg over de naam, dan klik **uploadt**.
+1. Beweeg over de naam, dan klik **Meer** ![ Meer pictogram ](assets/more-icon.png) pictogram.
+1. Klik **uploaden**.
    ![ Update, logboektijd, en upload ](assets/update-log-upload.png)
-1. (Optioneel) Selecteer een map.
+1. (Facultatief) in **uploadt Dossiers** doos, selecteer een omslag.
 1. Sleep het bestand of Cmd/Ctrl + V om het van het klembord te plakken
 of
 Klik **toevoegen dossiers** om dossiers te doorbladeren of dossiers van een leverancier van Document Cloud in te voeren.
@@ -68,16 +69,14 @@ Klik **toevoegen dossiers** om dossiers te doorbladeren of dossiers van een leve
    >
    >Extra bestanden worden geüpload als afzonderlijke documenten.
 1. Klik **uploaden**.
-   ![ uploadt dossier ](assets/upload-file-module.png)
-
 
 ## Een bestand uploaden in een tijdelijk item
 
 {{step1-to-priorities}}
 
-1. Klik op de naam van een tijdelijk item om de pagina Overzicht te openen.
-1. In de **Snelle acties** sectie, klik **uploadt**.
-1. (Optioneel) Selecteer een map.
+1. Klik op de naam van een het werkpunt om de **pagina van het Overzicht** te openen.
+1. In de **Snelle acties** sectie, klik **uploaden** en selecteer dan **Document**.
+1. (Facultatief) in **uploadt Dossiers** doos, selecteer een omslag.
 1. Sleep het bestand of Cmd/Ctrl + V om het van het klembord te plakken
 of
 Klik **toevoegen dossiers** om dossiers te doorbladeren of dossiers van een leverancier van Document Cloud in te voeren.
@@ -89,4 +88,3 @@ Klik **toevoegen dossiers** om dossiers te doorbladeren of dossiers van een leve
    >
    >Extra bestanden worden geüpload als afzonderlijke documenten.
 1. Klik **uploaden**.
-   ![ uploadt dossier ](assets/upload-file-module.png)
