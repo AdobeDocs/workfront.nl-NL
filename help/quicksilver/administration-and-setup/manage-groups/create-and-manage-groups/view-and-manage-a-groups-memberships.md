@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 219e5fa3-cf25-477d-82f6-046e3ff30989
-source-git-commit: 2096cfa0fd4d0e7eeb85dbf00668dc1dd7fb1d99
+source-git-commit: c23b3967cf06aaff1bcd7465ce6c7a0c7b7fe9af
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 1%
+source-wordcount: '750'
+ht-degree: 0%
 
 ---
 
@@ -73,18 +73,18 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
      <tr> 
       <td role="rowheader">Een gebruiker toevoegen aan de groep</td> 
       <td> 
-       <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">Klik <strong> toevoegen Leden </strong> <img src="assets/add-icon-plus-in-circle.png">, beginnen de naam van de gebruiker te typen, dan het selecteren wanneer het verschijnt.</li> 
-        <li value="2"> <p>Herhaal dit voor alle andere gebruikers die u wilt toevoegen.</p> <p>U kunt op de X rechts van een naam klikken als u besluit die gebruiker niet toe te voegen.</p> </li> 
-        <li value="3">Klik <strong> Gedaan </strong> wanneer u wordt gebeëindigd.</li> 
+       <ol> 
+        <li>Klik <strong> toevoegen Leden </strong> <img src="assets/add-icon-plus-in-circle.png">, beginnen de naam van de gebruiker te typen, dan het selecteren wanneer het verschijnt.</li>
+        <li> <p>Herhaal dit voor alle andere gebruikers die u wilt toevoegen.</p> <p>U kunt op de X rechts van een naam klikken als u besluit die gebruiker niet toe te voegen.</p> </li>
+        <li>Klik <strong> Gedaan </strong> wanneer u wordt gebeëindigd.</li>
        </ol> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Een gebruiker uit de groep verwijderen</td> 
       <td> 
-       <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">Selecteer één of meerdere gebruikersnaam, dan klik <strong> verwijdert lid </strong><img src="assets/remove-icon---x-in-circle.png">.</li> 
-        <li value="2"> <p>Klik <strong> verwijderen </strong> in het waarschuwingsbericht dat toont.</p> <p>U kunt een gebruiker vinden u uit de lijst wilt verwijderen door <strong> mensen en groepen van het Onderzoek in de lijst </strong> te klikken, die hun naam in de doos typen, dan de naam te klikken wanneer het verschijnt.</p> <p><b> NOTA </b>:  
+       <ol> 
+        <li>Selecteer één of meerdere gebruikersnaam, dan klik <strong> verwijdert lid </strong><img src="assets/remove-icon---x-in-circle.png">.</li> 
+        <li> <p>Klik <strong> verwijderen </strong> in het waarschuwingsbericht dat toont.</p> <p>U kunt een gebruiker vinden u uit de lijst wilt verwijderen door <strong> mensen en groepen van het Onderzoek in de lijst </strong> te klikken, die hun naam in de doos typen, dan de naam te klikken wanneer het verschijnt.</p> <p><b> NOTA </b>:  
           <ul> 
            <li>Als deze groep de thuisgroep is van een gebruiker die u wilt verwijderen, moet u eerst een andere thuisgroep in het gebruikersprofiel toewijzen. Voor meer informatie, zie <a href="../../../administration-and-setup/manage-groups/groups-overview/home-groups.md" class="MCXref xref"> overzicht van de Groepen van het Huis </a> en <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref"> geef het profiel van een gebruiker </a> uit.</li> 
            <li>Als de groep slechts één groepsbeheerder heeft en u moet hem of haar uit de groep verwijderen, moet u een andere groepsbeheerder aan de groep eerst toewijzen.</li> 
@@ -95,17 +95,17 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
      <tr> 
       <td role="rowheader">Profielgegevens van een gebruiker bewerken</td> 
       <td> 
-       <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">Selecteer één of meerdere gebruikersnamen, dan klik <strong> uitgeven </strong> <img src="assets/edit-icon.png">.</li> 
-        <li value="2"> <p>Wijzig de profielgegevens van de gebruiker.</p> <p>Voor informatie over de veranderingen u kunt maken, zie <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref"> het profiel van een gebruiker </a> uitgeven.</p> </li> 
+       <ol> 
+        <li>Selecteer één of meerdere gebruikersnamen, dan klik <strong> uitgeven </strong> <img src="assets/edit-icon.png">.</li> 
+        <li> <p>Wijzig de profielgegevens van de gebruiker.</p> <p>Voor informatie over de veranderingen u kunt maken, zie <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref"> het profiel van een gebruiker </a> uitgeven.</p> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Gebruikerslidmaatschapsgegevens exporteren</td> 
       <td> 
-       <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">Selecteer één of meerdere gebruikersnamen, dan klik <strong> Uitvoer </strong> <img src="assets/export.png">.</li> 
-        <li value="2"> <p>Exporteer de gegevens als een door PDF, Excel of tabs gescheiden bestand.</p> <p>Voor meer informatie over het uitvoeren van gegevens, zie <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref"> Gegevens van de Uitvoer </a>.</p> </li> 
+       <ol> 
+        <li>Selecteer één of meerdere gebruikersnamen, dan klik <strong> Uitvoer </strong> <img src="assets/export.png">.</li> 
+        <li> <p>Exporteer de gegevens als een door PDF, Excel of tabs gescheiden bestand.</p> <p>Voor meer informatie over het uitvoeren van gegevens, zie <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref"> Gegevens van de Uitvoer </a>.</p> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
@@ -115,9 +115,9 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
      <tr> 
       <td role="rowheader">Een opmerking verzenden naar groepsleden</td> 
       <td> 
-       <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">Selecteer minstens één groepslid, dan klik <strong> verzenden Update naar Gebruiker </strong> in de toolbar.</li> 
-        <li value="2"><p>Typ de opmerking die u naar de gebruikers en naar het gedeelte Updates van hun gebruikersprofielen wilt verzenden.</p>
+       <ol> 
+        <li>Selecteer minstens één groepslid, dan klik <strong> verzenden Update naar Gebruiker </strong> in de toolbar.</li> 
+        <li><p>Typ de opmerking die u naar de gebruikers en naar het gedeelte Updates van hun gebruikersprofielen wilt verzenden.</p>
         <p>Voor meer informatie, zie <a href="/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md"> directe berichten naar andere gebruikers </a> verzenden.</p></li> 
        </ol> </td> 
      </tr> 
