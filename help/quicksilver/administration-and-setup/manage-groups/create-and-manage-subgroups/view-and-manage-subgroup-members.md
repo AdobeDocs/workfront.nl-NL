@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8f7b0183-6035-4dd4-8e42-fd65485449bf
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 2096cfa0fd4d0e7eeb85dbf00668dc1dd7fb1d99
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -77,9 +77,11 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
      Voor meer informatie, zie [ het profiel van een gebruiker ](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven of [ gebruikersprofielen in bulk ](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md) uitgeven.
 
-   * Selecteer om het even welk aantal leden in de lijst, dan klik het pictogram van de Commentaar van de Update ![ ](assets/comment-icon.png) om een commentaar aan hun gebruikersprofielen toe te voegen.
+   * Selecteer om het even welk aantal subgroepsleden in de lijst, dan klik **verzenden Update naar Gebruiker** om een commentaar aan hun gebruikersprofielen toe te voegen.
 
      De gebruiker of gebruikers ontvangen een melding in de app en een e-mailbericht met uw opmerking. De opmerking wordt weergegeven in het gedeelte Updates van het gebruikersprofiel.
+
+     Voor meer informatie, zie [ directe berichten naar andere gebruikers ](/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md) verzenden.
 
    * Selecteer om het even welk aantal leden in de lijst, dan klik Deactivate ![ gebruiker ](assets/deactivate-user.png) of activeer ![ gebruiker ](assets/activate-user.png).
 

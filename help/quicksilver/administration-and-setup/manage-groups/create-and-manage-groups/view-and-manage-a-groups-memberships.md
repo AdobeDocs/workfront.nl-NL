@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 219e5fa3-cf25-477d-82f6-046e3ff30989
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 2096cfa0fd4d0e7eeb85dbf00668dc1dd7fb1d99
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '761'
 ht-degree: 1%
 
 ---
@@ -96,7 +96,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
       <td role="rowheader">Profielgegevens van een gebruiker bewerken</td> 
       <td> 
        <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">Selecteer één of meerdere gebruikersnaam, dan klik <strong> uitgeven </strong> <img src="assets/edit-icon.png">.</li> 
+        <li value="1">Selecteer één of meerdere gebruikersnamen, dan klik <strong> uitgeven </strong> <img src="assets/edit-icon.png">.</li> 
         <li value="2"> <p>Wijzig de profielgegevens van de gebruiker.</p> <p>Voor informatie over de veranderingen u kunt maken, zie <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref"> het profiel van een gebruiker </a> uitgeven.</p> </li> 
        </ol> </td> 
      </tr> 
@@ -104,7 +104,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
       <td role="rowheader">Gebruikerslidmaatschapsgegevens exporteren</td> 
       <td> 
        <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">Selecteer één of meerdere gebruikersnaam, dan klik <strong> Uitvoer </strong> <img src="assets/export.png">.</li> 
+        <li value="1">Selecteer één of meerdere gebruikersnamen, dan klik <strong> Uitvoer </strong> <img src="assets/export.png">.</li> 
         <li value="2"> <p>Exporteer de gegevens als een door PDF, Excel of tabs gescheiden bestand.</p> <p>Voor meer informatie over het uitvoeren van gegevens, zie <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref"> Gegevens van de Uitvoer </a>.</p> </li> 
        </ol> </td> 
      </tr> 
@@ -116,8 +116,9 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
       <td role="rowheader">Een opmerking verzenden naar groepsleden</td> 
       <td> 
        <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">Selecteer één of meerdere gebruikersnaam, dan klik <strong> Update </strong> <img src="assets/comment-icon.png">.</li> 
-        <li value="2">Typ de opmerking.</li> 
+        <li value="1">Selecteer minstens één groepslid, dan klik <strong> verzenden Update naar Gebruiker </strong> in de toolbar.</li> 
+        <li value="2"><p>Typ de opmerking die u naar de gebruikers en naar het gedeelte Updates van hun gebruikersprofielen wilt verzenden.</p>
+        <p>Voor meer informatie, zie <a href="/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md"> directe berichten naar andere gebruikers </a> verzenden.</p></li> 
        </ol> </td> 
      </tr> 
      <tr> 
