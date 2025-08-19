@@ -4,68 +4,204 @@ description: Dit is een intern artikel voor ons team om een inventaris van de li
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: fa61335a6abf8eb880f7b1b14532f764deca4514
+source-git-commit: 1d7b6c280586f03277f1cce6cea3f8e8110fc602
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 0%
+source-wordcount: '635'
+ht-degree: 1%
 
 ---
 
 
 # Voorbeelden van tabellen met toegangsvereisten - intern artikel
 
-## Toegangsvereisten voor de meeste artikelen van System Admin
+## Checklist
 
-<!--Audited: 08/2025-->
+1. Plan wijzigen in pakket.
+1. Huidige en verouderde versie verwijderen uit de rij met licenties
+1. Een sterretje verwijderen
+1. Verwijder alle intro-zinnen na &quot;Uitbreiden om de toegangseisen voor de functionaliteit in dit artikel weer te geven&quot;.
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.
+## Toegangsvereisten (dit is een voorbeeld wanneer het pakket hetzelfde blijft en we de rij licenties bijwerken)
+
+Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Producten</p></td> 
-   <td><p>Adobe Workfront</p></td> 
-  </tr> 
-  <tr> 
-  <tr> 
-   <td role="rowheader">
-      <p>Adobe Workfront-pakketten</p></td>
-
-<td> <p>Alle Adobe Workfront-pakketten</p>
-   of
-   <p>Elk Adobe Workfront Workflow-pakket</p>
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle </p> 
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-licentie</p></td> 
-   <td><p>Standaard</p>
-   of
-   <p>Plan</p></td> 
+   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td> <p>Licht of hoger</p>
+   <p>Werk of hoger</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configuratie op toegangsniveau</p></td> 
-   <td> <p>U moet een Workfront-beheerder zijn.</p></td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot sjablonen bewerken</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Objectmachtigingen</td> 
+   <td> <p>Machtigingen voor een sjabloon weergeven of vergroten</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+## Toegangsvereisten
+
+Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td><p>Standard</p>
+   <p>Werk of hoger</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot sjablonen bewerken</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Objectmachtigingen</td> 
+   <td> <p>Machtigingen voor een sjabloon weergeven of vergroten</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+## Toegangsvereisten
+
+Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td><p>Standard</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot sjablonen bewerken</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Objectmachtigingen</td> 
+   <td> <p>Machtigingen voor een sjabloon weergeven of vergroten</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+
+## Toegangsvereisten (dit is een voorbeeld waarbij de nieuwe functie alleen bestaat in de pakketten 2023/2025)
+
+Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
+<table>
+  <tr>
+   <td>Adobe Workfront-pakket
+   </td>
+   <td> <p>Prime of Ultimate</p>
+    <p>Workflow Ultimate</p>
+   </td>
+  </tr>
+  <tr>
+   <td>Adobe Workfront-licenties
+   </td>
+   <td>Standard
+   </td>
+  </tr>
+   <tr>
+   <td>Configuraties op toegangsniveau
+   </td>
+   <td>U moet een [!DNL Workfront] beheerder zijn.
+   </td>
+  </tr>
+</table>
+
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
+## Toegangsvereisten (dit is een voorbeeld waar u andere producten moet hebben)
+
+Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
+<table>
+  <tr>
+   <td>Adobe Workfront-pakket
+   </td>
+   <td> <p>Prime of Ultimate</p>
+    <p>Workflow Ultimate</p>
+   </td>
+  </tr>
+  <tr>
+   <td>Aanvullende producten
+   </td>
+   <td> <p>Frame.io-onderneming, AEM, Creative Cloud</p>
+   </td>
+  </tr>
+   <tr>
+   <td>Configuraties op toegangsniveau
+   </td>
+   <td>U moet een [!DNL Workfront] beheerder zijn.
+   </td>
+  </tr>
+</table>
+
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+
+## Verpakkingsgrootte 2017 moet uit de rij verpakkingen worden verwijderd
+
+2017 verpakkingen
+Licenties: revisie, werk, planner
+Pakket: team, pro, bedrijf, onderneming
+
+2023 verpakkingen
+Licenties: contribuant, licht, standaard
+Pakket: selecteren, prime, ultieme
+
+2025 workflowpakketten
+Licenties: contribuant, licht, standaard
+Pakket: workflow selecteren, workflow primeren, ultieme workflow
+
+2025 planningspakketten
+Licenties: contribuant, licht, standaard
+Pakket: planning selecteren, planning vooraf, planning uiteindelijk
+
+
+
+
 
 ## Toegangsvereisten voor de meeste Workfront-planningen
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.  
+Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
 <col> 
 </col> 
 <col> 
 </col> 
-<tbody>
-
+<tbody> 
 <tr> 
 <td> 
    <p> Producten</p> </td> 
@@ -77,12 +213,12 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-pakketten</p></td> 
    <td> 
-<p>Elk Adobe Workfront-pakket of Adobe Workfront Workflow-pakket</p> (***dit is te veel**&#x200B;**)
+<p>Elk Adobe Workfront-pakket of Adobe Workfront Workflow-pakket</p> (***dit is te veel****)
 
 en
 <p>Willekeurig Adobe Workfront-planningspakket</p> 
    </td> </tr>
-<td role="rowheader"><p>Adobe Workfront-platform (**&#x200B;**&#x200B;willen we dit oproepen of het gewoon opnemen in het artikel dat onderaan gekoppeld is?**&#x200B;***)?</p></td> 
+<td role="rowheader"><p>Adobe Workfront-platform (****willen we dit oproepen of het gewoon opnemen in het artikel dat onderaan gekoppeld is?*****)?</p></td> 
    <td> 
 <p>Het geval van Workfront van uw organisatie moet aan de Verenigde Ervaring van Adobe worden genegeerd om tot de Planning van Workfront te kunnen toegang hebben.</p> 
 <p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
@@ -91,7 +227,7 @@ en
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-licentie</p></td> 
-   <td><p> Standaard</p> 
+   <td><p> Standard</p> 
   </td> 
   </tr> 
   <tr> 
@@ -107,9 +243,9 @@ en
 </tbody> 
 </table>
 
-*Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++   
+
 
 
 ## Toegangsvereisten voor het grootste deel van Scenario Planner
@@ -119,7 +255,7 @@ en
 >Als uw bedrijf in het verleden de Adobe Scenario Planner heeft gekocht, is er van alles overgebleven. De functie Scenario Planner kan niet meer worden aangeschaft.
 
 
-+++ Vouw uit om de vereisten voor toegang weer te geven. 
+Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -133,7 +269,7 @@ en
   <tr> 
    <td> <p>[!DNL Adobe Workfront] Pakket</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate*</p>
+   <p>Adobe Workfront Ultimate</p>
    </td> 
   </tr> 
   <tr> 
@@ -153,6 +289,5 @@ en
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang tot de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang tot de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
