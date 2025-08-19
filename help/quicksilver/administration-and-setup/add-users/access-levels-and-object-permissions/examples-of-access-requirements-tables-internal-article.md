@@ -213,12 +213,12 @@ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te gev
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-pakketten</p></td> 
    <td> 
-<p>Elk Adobe Workfront-pakket of Adobe Workfront Workflow-pakket</p> (***dit is te veel****)
+<p>Elk Adobe Workfront-pakket of Adobe Workfront Workflow-pakket</p> (***dit is te veel**&#x200B;**)
 
 en
 <p>Willekeurig Adobe Workfront-planningspakket</p> 
    </td> </tr>
-<td role="rowheader"><p>Adobe Workfront-platform (****willen we dit oproepen of het gewoon opnemen in het artikel dat onderaan gekoppeld is?*****)?</p></td> 
+<td role="rowheader"><p>Adobe Workfront-platform (**&#x200B;**&#x200B;willen we dit oproepen of het gewoon opnemen in het artikel dat onderaan gekoppeld is?**&#x200B;***)?</p></td> 
    <td> 
 <p>Het geval van Workfront van uw organisatie moet aan de Verenigde Ervaring van Adobe worden genegeerd om tot de Planning van Workfront te kunnen toegang hebben.</p> 
 <p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
