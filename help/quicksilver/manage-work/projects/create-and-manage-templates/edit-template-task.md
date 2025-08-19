@@ -7,9 +7,9 @@ description: Nadat u een sjabloon hebt gemaakt, kunt u informatie over de sjablo
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
+source-git-commit: 5bdf1bd285023d29ee6c61f16a4bd6a622d964d8
 workflow-type: tm+mt
-source-wordcount: '2493'
+source-wordcount: '2491'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ U kunt de sjabloontaak bewerken of sjabloontaken bulksgewijs bewerken.
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.
++++ Vouw uit om de vereisten voor toegang weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,7 +43,7 @@ U kunt de sjabloontaak bewerken of sjabloontaken bulksgewijs bewerken.
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Standaard </p>
+   <td> <p>Standard </p>
    <p>Plan </p> </td> 
   </tr> 
   <tr> 
@@ -52,7 +52,7 @@ U kunt de sjabloontaak bewerken of sjabloontaken bulksgewijs bewerken.
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen </td> 
-   <td> <p>Rechten voor een sjabloon beheren. </p> <p>Contribute of hoger voor de sjabloontaak.</p> </td> 
+   <td> <p>Rechten voor een sjabloon beheren. </p> <p>U kunt een sjabloontaak niet delen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -340,7 +340,7 @@ U kunt een sjabloontaak bewerken met de gebieden Sjabloontaak bewerken of Sjablo
    Specificeer het totale aantal **Geplande Uren** voor de malplaatjetaak. Dit verdeelt de totale uren gelijkelijk over alle toegewezen personen.
 
 1. (Voorwaardelijk en facultatief) als uw Beperking van de Taak Eenvoudig is, specificeer de **Duur** van de malplaatjetaak in dagen. Dit wordt de duur van de taak die op basis van deze sjabloon wordt gemaakt.
-1. (Facultatief) selecteer een rol van het **drop-down menu van de Rol van 0&rbrace; toewijzen.** Dit is de rol die de ontvanger kan vervullen bij deze toekomstige taak. Alleen de functies die aan elke toegewezen persoon in het profiel zijn gekoppeld, worden weergegeven in het vervolgkeuzemenu.
+1. (Facultatief) selecteer een rol van het **drop-down menu van de Rol van 0} toewijzen.** Dit is de rol die de ontvanger kan vervullen bij deze toekomstige taak. Alleen de functies die aan elke toegewezen persoon in het profiel zijn gekoppeld, worden weergegeven in het vervolgkeuzemenu.
 1. (Optioneel) Ga door met het bewerken van de volgende secties, afhankelijk van de gegevens die u wilt wijzigen.
 
    of

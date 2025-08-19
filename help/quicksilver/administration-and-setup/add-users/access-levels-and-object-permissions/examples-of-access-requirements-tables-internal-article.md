@@ -4,10 +4,10 @@ description: Dit is een intern artikel voor ons team om een inventaris van de li
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: 1d7b6c280586f03277f1cce6cea3f8e8110fc602
+source-git-commit: edd0893a30fd925c40020f7795ede87c93eb1ee8
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 1%
+source-wordcount: '624'
+ht-degree: 0%
 
 ---
 
@@ -213,12 +213,9 @@ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te gev
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-pakketten</p></td> 
    <td> 
-<p>Elk Adobe Workfront-pakket of Adobe Workfront Workflow-pakket</p> (***dit is te veel**&#x200B;**)
-
-en
-<p>Willekeurig Adobe Workfront-planningspakket</p> 
+<p>Elk Adobe Workfront Workflow-pakket en elk Adobe Workfront Planning-pakket</p> 
    </td> </tr>
-<td role="rowheader"><p>Adobe Workfront-platform (**&#x200B;**&#x200B;willen we dit oproepen of het gewoon opnemen in het artikel dat onderaan gekoppeld is?**&#x200B;***)?</p></td> 
+<td role="rowheader"><p>Adobe Workfront-platform (****willen we dit oproepen of het gewoon opnemen in het artikel dat onderaan gekoppeld is?*****)?</p></td> 
    <td> 
 <p>Het geval van Workfront van uw organisatie moet aan de Verenigde Ervaring van Adobe worden genegeerd om tot de Planning van Workfront te kunnen toegang hebben.</p> 
 <p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
@@ -262,12 +259,7 @@ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te gev
  <col> 
  <tbody>
 
-<tr> 
-   <td> <p>Producten</p> </td> 
-   <td> <p>Adobe Workfront</p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>[!DNL Adobe Workfront] Pakket</p> </td> 
+<td> <p>[!DNL Adobe Workfront] Pakket</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 
