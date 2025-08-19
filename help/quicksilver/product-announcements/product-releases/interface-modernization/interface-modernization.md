@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: a7a4ef39cf5e50d487ec2053e6b02cb2bb06c3f5
+source-git-commit: 8cfb8a6c9a5c512b5722dc6d66840faaeba08c67
 workflow-type: tm+mt
-source-wordcount: '6776'
+source-wordcount: '6894'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,24 @@ Deze pagina bevat een overzicht van de interface-updates die we in Adobe Workfro
 Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product [.](/help/quicksilver/product-announcements/product-releases/product-releases.md)
 
 ## Beheer en installatie
+
+### Interfaceupdates voor de pagina voor de controle- en goedkeuringsmeldingen in Setup
+
+**de versie van de Voorproef: 18 augustus, 2025; De versie van de productie: 18 augustus, 2025**
+
+We hebben de pagina voor het controleren en goedkeuren van meldingen bijgewerkt met een modernere opzet die aansluit bij andere gebieden van Workfront.
+
+Ga naar Instellingen > E-mail > Revisie en goedkeuring om deze wijzigingen weer te geven.
+
+### De updates van de interface voor Add en geeft de dialogen van de Verslagen van de Facturering uit
+
+**de versie van de Voorproef: 14 augustus, 2025; De versie van de productie: 18 augustus, 2025**
+
+We hebben de dialoogvensters voor het toevoegen en bewerken van factureringsrecords bijgewerkt met een modern ontwerp dat aansluit bij andere gebieden van Workfront.
+
+Als u deze wijzigingen wilt bekijken, gaat u naar Projecten > Een project selecteren > Factureringsrecords > een factureringsrecord toevoegen of een factureringsrecord bewerken
+
+Voor informatie, zie [ het factureren verslagen ](/help/quicksilver/manage-work/projects/project-finances/create-billing-records.md) creëren.
 
 ### Interface-updates voor het vak Update naar gebruiker verzenden in groepen
 
@@ -43,6 +61,7 @@ We hebben de vormgeving van de onlangs verwijderde items in het gedeelte Setup a
 Ga naar Setup > Prullenbak > Recent verwijderd om deze wijziging weer te geven.
 
 Voor informatie, zie [ schrapte punten ](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md) herstellen.
+
 
 ### De updates van de interface voor het gebied van Voorwaarden in Opstelling
 
@@ -84,7 +103,7 @@ Ga naar Instellingen > Bijhouden wijzigen > Controlelogbestanden om deze wijzigi
 
 ### De updates van de interface aan de gebruikers van de Update voor SSO pagina in Opstelling
 
-**de versie van de Voorproef: 22 juli, 2025; de versie van de Productie: 28 juli, 2025**
+**de versie van de Voorproef: 22 juli, 2025; De versie van de productie: 18 augustus, 2025**
 
 We hebben de pagina Gebruikers voor SSO bijwerken bijgewerkt met een moderner ontwerp dat consistent is met andere gebieden van Workfront.
 

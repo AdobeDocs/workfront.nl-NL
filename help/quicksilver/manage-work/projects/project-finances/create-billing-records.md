@@ -5,7 +5,7 @@ description: Naast het opzetten van inkomsten en het volgen van uitgaven, kunt u
 author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: ec6ddb50d6b9137837c8031b22f213cd6ada70ff
+source-git-commit: 4805b93be7ce3dc098c7e160cdb872446f80ecbd
 workflow-type: tm+mt
 source-wordcount: '1645'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Overweeg het volgende wanneer u factureringsrecords wilt gebruiken:
 1. Voor de **pagina van Projecten**, selecteer een project.
 1. Klik **het Factureren Verslagen** in het linkerpaneel.
 1. Klik **Nieuw het Factureren Verslag**.
-1. In de **Nieuwe doos van het Verslag van de Facturering** die toont, specificeer de volgende informatie:
+1. In het **Nieuwe het facturerings verslag** vakje dat toont, ga de volgende informatie in:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -100,7 +100,7 @@ Overweeg het volgende wanneer u factureringsrecords wilt gebruiken:
      </tr> 
      <tr> 
       <td role="rowheader">Factuur-id</td> 
-      <td>Voer de Factuur in die aan dit factureringsrecord is gekoppeld.</td> 
+      <td>Voer de factuur in die aan deze factureringsrecord is gekoppeld.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Extra bedrag</td> 

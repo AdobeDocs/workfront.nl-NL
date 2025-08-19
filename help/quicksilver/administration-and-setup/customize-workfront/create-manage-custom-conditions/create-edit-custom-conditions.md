@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
+source-git-commit: f62d8f681fa75d2b18d78d7918df46734fa61e2e
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '598'
 ht-degree: 0%
 
 ---
 
 # Een aangepaste voorwaarde maken of bewerken
-
-{{highlighted-preview}}
 
 Als Adobe Workfront-beheerder kunt u een aangepaste voorwaarde maken of bewerken voor projecten, taken en uitgaven die aansluiten op de behoeften van uw organisatie.
 
@@ -66,13 +64,9 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    of
 
-   Om een bestaande voorwaarde uit te geven, <span class="preview">**geeft** naast de voorwaardennaam </span> uit, of beweegt over de voorwaarde u wilt uitgeven, dan klikken **geeft** pictogram uit dat aan uiterst rechts verschijnt.
+   Om een bestaande voorwaarde uit te geven, **geeft** naast de voorwaardennaam uit.
 
-   <span class="preview"> beeld van de Steekproef in het milieu van de Voorproef:</span>
    ![ geef douanetoewijzing ](assets/custom-conditions-0825.png) uit
-
-   Voorbeeldafbeelding in de productieomgeving:
-   ![ de voorwaarde van de Douane ](assets/custom-condition-edit-nwe.jpg)
 
 1. Configureer uw aangepaste voorwaarde met behulp van de volgende opties:
 
