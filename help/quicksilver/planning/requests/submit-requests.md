@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: c3e3dfdb0a1819954c97168cbabddfc8dc5863a0
 workflow-type: tm+mt
-source-wordcount: '2019'
+source-wordcount: '2005'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Voor informatie over hoe een werkruimtemanager een verzoekvorm kan tot stand bre
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.
++++ Vouw uit om de vereisten voor toegang weer te geven. 
 
 <table style="table-layout:auto">
  <col>
@@ -162,7 +162,7 @@ Het toelaten van dit plaatsen maakt de het verzoekvormen van de Planning van Wor
 
 1. Klik **Nieuw verzoek**.
 
-   ![ Nieuwe verzoekdoos met verenigde Workfront en de kaarten van de Planning ](assets/new-request-box-with-unified-workfront-and-planning-cards.png)
+   <!--![New request box with unified Workfront and Planning cards](assets/new-request-box-with-unified-workfront-and-planning-cards.png-->
 
    Het **Nieuwe verzoek** vakje opent met de volgende informatie:
 
@@ -171,7 +171,7 @@ Het toelaten van dit plaatsen maakt de het verzoekvormen van de Planning van Wor
 
 1. Voer een van de volgende handelingen uit:
 
-   * Klik op de kaart voor een van de formulieren voor planningsaanvragen in de secties Recente of Alle aanvraagformulieren
+   * Selecteer de planningsaanvraagformulieren in de secties Recente of Alle aanvraagformulieren
    * Typ de naam van een formulier voor planningsaanvragen in het zoekvak en klik vervolgens op de kaart wanneer deze in de lijst wordt weergegeven.
 
    Het aanvraagformulier wordt geopend.
@@ -246,7 +246,7 @@ De aanvraaglijst wordt automatisch gefilterd, aangezien u de filtervoorwaarden t
    ![ pagina van de Details van het Verzoek ](assets/request-details-page.png)
 
 
-1. (Voorwaardelijk) als de verzoekvorm niet met een goedkeuring wordt geassocieerd, of als het verzoek is goedgekeurd, klik de naam van het verzoek, dan klik de naam van het verslag op het **1&rbrace; gebied van het Verslag &lbrace;.**
+1. (Voorwaardelijk) als de verzoekvorm niet met een goedkeuring wordt geassocieerd, of als het verzoek is goedgekeurd, klik de naam van het verzoek, dan klik de naam van het verslag op het **1} gebied van het Verslag {.**
 
    De pagina van het verslag opent in de Planning van Workfront.
 
@@ -309,7 +309,7 @@ De aanvraaglijst wordt automatisch gefilterd, aangezien u de filtervoorwaarden t
 
    ![ pagina van de Details van het Verzoek ](assets/request-details-page.png)
 
-1. (Voorwaardelijk) als de verzoekvorm niet met een goedkeuring wordt geassocieerd, of als het verzoek is goedgekeurd, klik de naam van het verzoek, dan klik de naam van het verslag op het **1&rbrace; gebied van het Verslag &lbrace;.**
+1. (Voorwaardelijk) als de verzoekvorm niet met een goedkeuring wordt geassocieerd, of als het verzoek is goedgekeurd, klik de naam van het verzoek, dan klik de naam van het verslag op het **1} gebied van het Verslag {.**
 
    De pagina van het verslag opent in de Planning van Workfront.
 
