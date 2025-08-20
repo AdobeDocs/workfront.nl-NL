@@ -4,10 +4,10 @@ description: Dit is een intern artikel voor ons team om een inventaris van de li
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: edd0893a30fd925c40020f7795ede87c93eb1ee8
+source-git-commit: 15eba2f627e31661c5fde60e989dfc68a9f4cd15
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 0%
+source-wordcount: '651'
+ht-degree: 1%
 
 ---
 
@@ -17,13 +17,15 @@ ht-degree: 0%
 ## Checklist
 
 1. Plan wijzigen in pakket.
-1. Huidige en verouderde versie verwijderen uit de rij met licenties
-1. Een sterretje verwijderen
+1. Huidige en verouderde versie verwijderen uit de rij met licenties. Zorg ervoor dat ze zijn ingepakt <p> -tags.
+1. Verwijder alle DNL- of UI-besturingscodes.
+1. Verwijder eventuele bouten.
+1. Verwijder sterretjes.
 1. Verwijder alle intro-zinnen na &quot;Uitbreiden om de toegangseisen voor de functionaliteit in dit artikel weer te geven&quot;.
 
 ## Toegangsvereisten (dit is een voorbeeld wanneer het pakket hetzelfde blijft en we de rij licenties bijwerken)
 
-Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+Uitbreiden om de toegangseisen voor de functionaliteit in dit artikel weer te geven
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,7 +37,7 @@ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te gev
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> <p>Licht of hoger</p>
    <p>Werk of hoger</p></td> 
   </tr> 
@@ -50,11 +52,11 @@ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te gev
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Toegangsvereisten
 
-Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+Uitbreiden om de toegangseisen voor de functionaliteit in dit artikel weer te geven
 
 <table style="table-layout:auto"> 
  <col> 
@@ -82,9 +84,9 @@ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te gev
 
 Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Toegangsvereisten
+## Toegangsvereisten (alleen beschikbaar voor nieuwe klanten)
 
-Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+Uitbreiden om de toegangseisen voor de functionaliteit in dit artikel weer te geven
 
 <table style="table-layout:auto"> 
  <col> 
@@ -115,7 +117,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 ## Toegangsvereisten (dit is een voorbeeld waarbij de nieuwe functie alleen bestaat in de pakketten 2023/2025)
 
-Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+Uitbreiden om de toegangseisen voor de functionaliteit in dit artikel weer te geven
 
 <table>
   <tr>
@@ -143,7 +145,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 ## Toegangsvereisten (dit is een voorbeeld waar u andere producten moet hebben)
 
-Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+Uitbreiden om de toegangseisen voor de functionaliteit in dit artikel weer te geven
 
 <table>
   <tr>
@@ -151,6 +153,12 @@ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te gev
    </td>
    <td> <p>Prime of Ultimate</p>
     <p>Workflow Ultimate</p>
+   </td>
+  </tr>
+    <tr>
+   <td>Adobe Workfront-licenties
+   </td>
+   <td>Standard
    </td>
   </tr>
   <tr>
@@ -189,9 +197,6 @@ Licenties: contribuant, licht, standaard
 Pakket: planning selecteren, planning vooraf, planning uiteindelijk
 
 
-
-
-
 ## Toegangsvereisten voor de meeste Workfront-planningen
 
 Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
@@ -215,7 +220,7 @@ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te gev
    <td> 
 <p>Elk Adobe Workfront Workflow-pakket en elk Adobe Workfront Planning-pakket</p> 
    </td> </tr>
-<td role="rowheader"><p>Adobe Workfront-platform (**&#x200B;**&#x200B;willen we dit oproepen of het gewoon opnemen in het artikel dat onderaan gekoppeld is?**&#x200B;***)?</p></td> 
+<td role="rowheader"><p>Adobe Workfront-platform (****willen we dit oproepen of het gewoon opnemen in het artikel dat onderaan gekoppeld is?*****)?</p></td> 
    <td> 
 <p>Het geval van Workfront van uw organisatie moet aan de Verenigde Ervaring van Adobe worden genegeerd om tot de Planning van Workfront te kunnen toegang hebben.</p> 
 <p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
