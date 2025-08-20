@@ -6,9 +6,9 @@ description: U kunt een tijdlijnprofiel verwijderen dat mogelijk niet meer relev
 author: Alina
 feature: Timesheets
 exl-id: 1fb39f74-205b-485e-9e8b-a2ab3f9f1ac4
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: a94f358e7d4b8a23ff37d1adc0644f4e3ee6f013
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Voor informatie over timesheet profielen, zie [ creëren, uitgeven, en toewijzen
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.
++++ Vouw uit om de vereisten voor toegang weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -63,9 +63,10 @@ Voor informatie over timesheet profielen, zie [ creëren, uitgeven, en toewijzen
    Als u een timesheet profiel voor een groep schrapt, klik **Groepen** > klik de naam van de groep, dan klik **Profielen van de Chronologie**.
 1. Selecteer minstens één timesheet profiel dat u wilt schrappen, dan klikken **Meer** pictogram ![](assets/more-icon.png) > **Schrapping** voor het systeem-brede timesheet profiel
 
-   of
-
-   Klik **Meer** > **Schrapping** voor het groep-vlakke timesheet profiel.
+1. Klik **Profielen van de Chronologie**.
+1. Selecteer minstens één timesheet profiel dat u wilt schrappen, dan het meer pictogram ![ meer pictogram ](assets/more-icon.png) klikken > **Schrapping**.
+of
+Klik **Meer** > **Schrapping** voor het groep-vlakke timesheet profiel.
 1. (Voorwaardelijk) als het timesheet profiel reeds aan gebruikers wordt toegewezen, de **vakvertoningen van het Profiel van de Tijdopnemer van de Vervanging**. Ga als volgt te werk:
    1. Selecteer een ander tijdlijnprofiel in de vervolgkeuzelijst. Het tijdbladprofiel dat u verwijdert, wordt vervangen door het tijdbladprofiel dat u vervangt door het profiel voor alle toegewezen gebruikers. Timesheets worden gegenereerd op basis van het nieuw toegewezen profiel in de volgende cyclus voor het genereren van tijdbladen.
    1. Klik **Schrapping het** om de schrapping te bevestigen.

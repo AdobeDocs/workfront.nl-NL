@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 8cfb8a6c9a5c512b5722dc6d66840faaeba08c67
+source-git-commit: b050e096a05bd25d07b5e93ae9db7d0fef332d3a
 workflow-type: tm+mt
-source-wordcount: '6894'
+source-wordcount: '6892'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ Voor informatie, zie [ de Types van Uur ](/help/quicksilver/administration-and-s
 
 ### De updates van de interface van de Logboeken van de Controle in Opstelling
 
-**de versie van de Voorproef: 22 juli, 2025; De versie van de productie: Te aankondigen**
+**de versie van de Voorproef: 22 juli, 2025; de versie van de Productie: 28 juli, 2025**
 
 Wij hebben de pagina van Logboeken van de Controle in Opstelling bijgewerkt om andere gebieden van de toepassing aan te passen.
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 994518f7abe519180fa6c3eab6b29165475ab4fc
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    >
    >De opties in het keuzemenu Type actie variëren afhankelijk van het geselecteerde controlelogboek.
 
-   ![ Logboeken van de Controle ](assets/audit-logs.jpg)
+   ![ Logboeken van de Controle ](assets/audit-logs.png)
 
 1. Klik **toepassen**.
 1. (Facultatief) klik **Duidelijke Filters** om veranderingen terug te stellen die aan de filters worden aangebracht.
@@ -86,7 +86,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **Systeem > Logboeken van de Controle**.
+1. In het linkerpaneel, klik **Systeem > het Volgen van de Verandering > Logboeken van de Controle**.
 
 1. In het **drop-down menu van het Type van Logboek**, selecteer een controlelogboek.
 

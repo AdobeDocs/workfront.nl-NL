@@ -6,9 +6,9 @@ description: Om veranderingen toe te laten die u aan de timesheet- profielen aan
 author: Alina
 feature: Timesheets
 exl-id: 316c270a-c64e-4d83-a035-4128abe33f87
-source-git-commit: c9df676467007a84920073fe06bc3c73b18a89ae
+source-git-commit: 311816df863d3c03a54d43c8fa3cac69d2d6d7d4
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,8 @@ U kunt systeem-niveau of groep-vlakke timesheets van het gebied van Timesheets &
    Als u timesheets produceert die door een specifieke groep worden gebruikt, klik **Groepen**, dan klik de naam van de groep.
 
 1. Klik **Profielen van de Chronologie**.
+1. Klik het meer pictogram ![ meer pictogram ](assets/more-icon.png), dan **produceer Chronologie**.
+
 1. Bij de bovenkant van de lijst van het timesheet profiel, klik het **Meer** pictogram ![ pictogram ](assets/more-icon.png) voor systeem-vlakke timesheet profielen, of **Meer**, voor groep timesheet profielen, dan klik **timesheets** produceren.
 
    Nieuwe tijdbladen worden gemaakt voor maximaal twee perioden voor gebruikers die aan tijdbladprofielen zijn gekoppeld.
