@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: 5422b7f5aa3dc1f3827c6d0d0ff559effb447fa4
+source-git-commit: ff0567aabcf885d3bee6c1808302a9cd9445ed04
 workflow-type: tm+mt
-source-wordcount: '1405'
-ht-degree: 0%
+source-wordcount: '1425'
+ht-degree: 1%
 
 ---
 
@@ -50,15 +50,22 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 <table style="table-layout:auto">
   <tbody>
+   <tr>
+        <td><strong> Eigenschap </strong>
+        </td>
+        <td><strong>Voorvertoning</strong></td>
+        <td><strong>Snelle release</strong></td>
+        <td><strong>Driemaandelijks</strong></td>
+    </tr>
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> voeg veelvoudige waardeopties van externe API aan een douanevorm toe </a><p></p>
             <p>Een nieuw veldtype, Multi-select externe zoekopdracht, is nu beschikbaar in de aangepaste formulierontwerper. Wanneer u gegevens op een extern systeem hebt opgeslagen, kunt u met dit veldtype opties laden vanuit een externe API en filteren op basis van andere veldwaarden in het aangepaste formulier. Dit is het zelfde als enig-uitgezochte externe raadpleging.</p>
             <p>Wanneer het formulier aan een object wordt toegevoegd, worden de waarden die door de API worden geretourneerd, weergegeven in een vervolgkeuzelijst en kan de gebruiker meerdere waarden selecteren.</p>
         </td>
-        <td>31 juli 2025</td>
-        <td>14 augustus 2025</td>
-        <td>16 oktober 2025</td>
+        <td>vrijdag 31 juli 2025</td>
+        <td>vrijdag 14 augustus 2025</td>
+        <td>vrijdag 16 oktober 2025</td>
     </tr>     
   </tbody>
 </table>
@@ -68,6 +75,13 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 <table style="table-layout:auto">
   <tbody>
+   <tr>
+        <td><strong> Eigenschap </strong>
+        </td>
+        <td><strong>Voorvertoning</strong></td>
+        <td><strong>Snelle release</strong></td>
+        <td><strong>Driemaandelijks</strong></td>
+    </tr>
   <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md" class="MCXref xref" xrefformat="{para}"> Nieuwe Workfront AI Reviewer </a><p></p>
@@ -75,9 +89,9 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <p>De nieuwe Workfront AI Reviewer helpt de naleving van het merk van afbeeldingen te garanderen door de inhoud automatisch te controleren aan de hand van de richtlijnen voor uw merk, te beginnen met de richtlijnen voor afbeeldingen. Het verstrekt een score en actiefable terugkoppelen om het goedkeuringsproces te stroomlijnen. </p>
             <p>U kunt de AI Reviewer toevoegen aan goedkeuringssjablonen of individuele revisie- en goedkeuringsaanvragen, waardoor de productie van inhoud sneller verloopt en de merkstandaarden behouden blijven.</p>
         </td>
-        <td>14 augustus 2025</td>
-        <td>14 augustus 2025</td>
-        <td>14 augustus 2025</td>
+        <td>vrijdag 14 augustus 2025</td>
+        <td>vrijdag 14 augustus 2025</td>
+        <td>vrijdag 14 augustus 2025</td>
     </tr> 
     <tr>
         <td>
@@ -91,9 +105,9 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <li>Een Express-sjabloon toewijzen aan een revisie- en goedkeuringswerkstroom met meerdere stadia aan de hand van geavanceerde proefdruksjablonen</li>
             </ul>
         </td>
-        <td>28 juli 2025</td>
-        <td>28 juli 2025</td>
-        <td>28 juli 2025</td>
+        <td>dinsdag 28 juli 2025</td>
+        <td>dinsdag 28 juli 2025</td>
+        <td>dinsdag 28 juli 2025</td>
     </tr>     
   </tbody>
 </table>
@@ -102,6 +116,13 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 <table style="table-layout:auto">
   <tbody>
+   <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    </tr>
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-home.md" class="MCXref xref" xrefformat="{para}">Updates to the My Requests widget in Home</a><p></p>
@@ -124,6 +145,13 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 <table style="table-layout:auto">
   <tbody>
+   <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    </tr>
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">Updates to Requesting experience</a><p></p>
@@ -147,6 +175,13 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 <table style="table-layout:auto">
   <tbody>
+   <tr>
+        <td><strong> Eigenschap </strong>
+        </td>
+        <td><strong>Voorvertoning</strong></td>
+        <td><strong>Snelle release</strong></td>
+        <td><strong>Driemaandelijks</strong></td>
+    </tr>
   <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}"> Nieuwe uitdrukkingen die aan de formules- gebieden in de Planning en berekende douanegebieden in Workfront worden toegevoegd </a><p><p>[!BADGE Off schema]{type=Neutral}</p></p>
@@ -157,18 +192,18 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <li>PASCAL(string): Zet de invoertekenreeks om in PascalCase door de eerste letter van elk woord met hoofdletters te beschrijven en alle spaties te verwijderen.</li>
             </ul>
         </td>
-        <td>7 augustus 2025</td>
-        <td>7 augustus 2025</td>
-        <td>7 augustus 2025</td>
+        <td>vrijdag 7 augustus 2025</td>
+        <td>vrijdag 7 augustus 2025</td>
+        <td>vrijdag 7 augustus 2025</td>
     </tr> 
   <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}"> extra manier om tot Geavanceerde Toewijzingen van lijsten </a> toegang te hebben<p></p>
             <p>Een <b> Geavanceerde </b> knoop is nu beschikbaar voor taken in lijsten, die het voor u sneller maken om tot de Geavanceerde pagina van Toewijzingen toegang te hebben. Het <b> pictogram van Mensen </b> om aan Geavanceerde Taken te krijgen is ook beschikbaar op taken in lijsten.</p>
         </td>
-        <td>7 augustus 2025</td>
-        <td>11 september 2025</td>
-        <td>16 oktober 2025</td>
+        <td>vrijdag 7 augustus 2025</td>
+        <td>vrijdag 11 september 2025</td>
+        <td>vrijdag 16 oktober 2025</td>
     </tr> 
   </tbody>
   </table>
@@ -177,15 +212,22 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 <table style="table-layout:auto">
   <tbody>
+   <tr>
+        <td><strong> Eigenschap </strong>
+        </td>
+        <td><strong>Voorvertoning</strong></td>
+        <td><strong>Snelle release</strong></td>
+        <td><strong>Driemaandelijks</strong></td>
+    </tr>
   <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md" class="MCXref xref" xrefformat="{para}"> de Balancer van de Werkbelasting is nu beschikbaar op uw gebruikersprofiel </a><p></p>
             <p>Alle gebruikers kunnen nu hun eigen vraag- en capaciteitsgegevens in de werklastbalans bekijken vanuit hun profiel, ongeacht hun toegangsniveau. Wanneer u uw Workfront-gebruikersprofiel opent, wordt de werklastverdeling weergegeven in het navigatievenster aan de linkerkant.</p>
             <p>Werklastverdelingsgegevens voor een gebruiker zijn alleen-lezen. U kunt geen werk toewijzen, werk ongedaan maken of toewijzingen op gebruikersniveau aanpassen.</p>
         </td>
-        <td>31 juli 2025</td>
-        <td>14 augustus 2025</td>
-        <td>16 oktober 2025</td>
+        <td>vrijdag 31 juli 2025</td>
+        <td>vrijdag 14 augustus 2025</td>
+        <td>vrijdag 16 oktober 2025</td>
     </tr> 
     <tr>
         <td>
@@ -193,9 +235,9 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <p>Bronmanagers kunnen nu taakrolltoewijzingen in Workload Balancer controleren. De taken worden getoond in het Unassigned gebied van het Werk, onder de taken of kwesties de rollen worden toegewezen aan. Alleen werkitems die aan gebruikers zijn toegewezen, worden weergegeven in het gebied Toegewezen werk. </p>
             <p>Een nieuwe instelling voor werklastverdeling, Roltoewijzingen weergeven, bepaalt of roltoewijzingen worden weergegeven. De instelling is standaard ingeschakeld.</p>
         </td>
-        <td>31 juli 2025</td>
-        <td>14 augustus 2025</td>
-        <td>16 oktober 2025</td>
+        <td>vrijdag 31 juli 2025</td>
+        <td>vrijdag 14 augustus 2025</td>
+        <td>vrijdag 16 oktober 2025</td>
     </tr>     
   </tbody>
 </table>
@@ -249,7 +291,7 @@ We werken de interface in Adobe Workfront bij om de gebruikerservaring te verbet
 
 ### Workfront Fusion-verbeteringen
 
-Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de standaard releaseschema. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de standaard releaseschema. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Verbeteringen voor Workfront-planning
 
@@ -298,7 +340,7 @@ Om stabielere en scalable integratie te leveren, verschuiven wij naar een modern
 * Workfront voor Salesforce.
 
 We raden u aan Workfront Automation and Integration te gebruiken voor de integratiebehoeften van uw organisatie met Google Workspace.
-Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ### API-versie 20
 
@@ -310,8 +352,8 @@ Voor informatie over API versies, zie [ API versioning en steunprogramma ](/help
 
 ### Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens Eerste Kwartaal 2025 versie worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront [.](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=nl-NL)
+Voor informatie over de onderhoudsupdates die tijdens Eerste Kwartaal 2025 versie worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront [.](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)
 
 ### Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=nl-NL) Nieuw is.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html) Nieuw is.
