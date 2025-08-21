@@ -355,4 +355,4 @@ U kunt een verzoekvorm van het verslagtype tot stand brengen verbonden aan de vo
 
    Voor informatie over het creëren van verslagen die een verbinding aan een verzoekvorm gebruiken, zie [ verzoeken van de Planning van Adobe Workfront voorleggen ](/help/quicksilver/planning/requests/submit-requests.md).
 
-1. Klik **sparen** in de laag-juiste hoek van het **3} lusje van de Vorm {om de vorm te bewaren.**
+1. Klik **sparen** in de laag-juiste hoek van het **3&rbrace; lusje van de Vorm &lbrace;om de vorm te bewaren.**
