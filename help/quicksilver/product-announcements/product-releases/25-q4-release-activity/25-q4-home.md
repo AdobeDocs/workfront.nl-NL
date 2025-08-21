@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2d8c5d2b-a026-4741-b907-aac4c0eac98f
-source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
+source-git-commit: 2fe55f61bd24ebb3ecfe09fff29c4aad2ca33608
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '188'
 ht-degree: 0%
 
 ---
@@ -31,5 +31,7 @@ Voor een naadloze ervaring tussen Workfront en Workfront Planning hebben we de w
 * Zowel Workfront- als Workfront-planningsverzoeken worden in de widget weergegeven.
 * Het filter kan nu beter worden aangepast. Nu kunt u filteren op specifieke veldwaarden met behulp van de regels And en Or.
 * U kunt kolommen in de widget verbergen of opnieuw rangschikken.
+
+De nieuwe widget kan alleen worden weergegeven als u de nieuwe ervaring voor aanvragen hebt ingeschakeld. U kunt de nieuwe verzoekervaring op uw gebied van Verzoeken toelaten.
 
 Voor meer informatie over nieuwe Mijn widget van Verzoeken, zie [ Gebruik Mijn widget van Verzoeken ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).

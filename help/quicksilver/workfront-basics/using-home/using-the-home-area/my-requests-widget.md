@@ -5,13 +5,13 @@ title: De widget Mijn verzoeken gebruiken
 description: U kunt aanvragen verzenden in de widget Mijn verzoeken. U kunt de widget ook aanpassen met filters en kolommen.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 68379a6c41db1b694e2968d93de259cb7b0d8bc4
+exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
+source-git-commit: 2fe55f61bd24ebb3ecfe09fff29c4aad2ca33608
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '812'
 ht-degree: 0%
 
 ---
-
 
 # De widget Mijn verzoeken gebruiken
 
@@ -19,11 +19,16 @@ ht-degree: 0%
 
 <span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken.
 
+>[!IMPORTANT]
+>
+>In dit artikel wordt de nieuwe widget Mijn verzoeken beschreven. De nieuwe widget kan alleen worden weergegeven als u de nieuwe ervaring voor aanvragen hebt ingeschakeld.
+>>U kunt de nieuwe verzoekervaring op uw gebied van Verzoeken toelaten.
+
 Op de widget Mijn verzoeken worden aanvragen weergegeven die zijn ingediend bij uw organisatie. U kunt de verzoeken filteren, naar specifieke verzoeken zoeken of de kolomvolgorde en de zichtbaarheid aanpassen. U kunt ook een nieuw verzoek maken via de widget Mijn verzoeken.
 
 >[!NOTE]
 >
->Wanneer de widget Mijn verzoeken wordt geladen, worden er maximaal 50 verzoeken weergegeven. Schuif omlaag in de lijst om meer verzoeken weer te geven.
+>* Wanneer de widget Mijn verzoeken wordt geladen, worden er maximaal 50 verzoeken weergegeven. Schuif omlaag in de lijst om meer verzoeken weer te geven.
 
 ## Toegangsvereisten
 
@@ -137,8 +142,3 @@ Om naar specifieke verzoeken in Mijn widget van Verzoeken te zoeken:
    Verzoeken die de term bevatten, worden in oranje gemarkeerd.
 
 1. (Optioneel) Als u naar de gemarkeerde verzoeken wilt gaan, klikt u op de pijl-omhoog of -omlaag in de zoekbalk.
-
-
-
-
-
