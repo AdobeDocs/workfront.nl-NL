@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
 source-wordcount: '1624'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Voor informatie over de meningen van de Planning van Adobe Workfront en hoe te o
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.
++++ Vouw uit om de vereisten voor toegang weer te geven. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -94,7 +94,7 @@ Voor informatie over de meningen van de Planning van Adobe Workfront en hoe te o
 
 *Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 ## Een kalenderweergave beheren {#manage-a-calendar-view}
 
@@ -110,6 +110,14 @@ Overweeg het volgende:
    * Wanneer zowel de begin- als einddatum geen waarden hebben, worden de records niet weergegeven in de kalender
    * Als de begin- of einddatum geen waarde hebben, wordt de record weergegeven als een eendaagse gebeurtenis
    * Wanneer de begindatum na de einddatum ligt, wordt de record niet weergegeven in de kalender.
+
+<!--
+<div class="preview">
+
+* You can create and edit records in the calendar view. For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+
+</div>
+-->
 
 Een kalenderweergave beheren:
 

@@ -1,12 +1,12 @@
 ---
-title: Recordtypen tussen werkruimten toevoegen
+title: Bestaande recordtypen toevoegen
 description: Recordtypen zijn de objecttypen voor Adobe Workfront Planning. In de Planning van Workfront, kunt u een bestaand verslagtype van een andere werkruimte invoeren.
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ author: Alina
 recommendations: noDisplay, noCatalog
 -->
 
-# Recordtypen voor meerdere werkruimten toevoegen
+# Bestaande recordtypen toevoegen
 
 <span class="preview"> de informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
@@ -35,7 +35,7 @@ Voor informatie, zie [ mogelijkheden van de dwars-werkruimte voor verslagtypes ]
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.  
++++ Breid uit om de toegangsvereisten voor de functionaliteit in dit artikel te bekijken.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -76,7 +76,7 @@ Voor informatie, zie [ mogelijkheden van de dwars-werkruimte voor verslagtypes ]
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-licentie*</p></td> 
-   <td><p> Standaard</p>
+   <td><p> Standard</p>
    <p>Workfront Planning is niet beschikbaar voor oudere Workfront-licenties</p> 
   </td> 
   </tr> 
@@ -109,6 +109,7 @@ Overwegingen bij het toevoegen van bestaande recordtypen vanuit een andere werkr
    * Verbindingen opnemen
 
 * U kunt het recordtype, inclusief de bijbehorende velden, alleen in de oorspronkelijke werkruimte bewerken. U kunt het bestand niet bewerken vanuit de werkruimten waar het is toegevoegd.
+* Records die vanuit alle werkruimten zijn toegevoegd, zijn zichtbaar voor alle gebruikers die deze openen vanuit alle werkruimten, zelfs als deze worden gemaakt in een werkruimte waar zij geen machtigingen hebben.
 
 ## Een recordtype maken op basis van een bestaand recordtype
 

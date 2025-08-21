@@ -4,9 +4,9 @@ description: U kunt instellen dat een recordtype wordt toegevoegd aan een andere
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1021'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 
 # Mogelijkheden tussen werkruimten configureren voor recordtypen
 
-<!--this is linked to the UI in the info icon of when you create a record type from a global record type-->
+<!--this is linked to the UI in the info icon when you enable a record to be either centralized or connectable-->
 
 <span class="preview"> de informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
@@ -106,7 +106,7 @@ Zie een van de volgende artikelen voor meer informatie:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-licentie*</p></td> 
-   <td><p> Standaard</p>
+   <td><p> Standard</p>
    <p>Workfront Planning is niet beschikbaar voor oudere Workfront-licenties</p> 
   </td> 
   </tr> 
@@ -127,7 +127,9 @@ Zie een van de volgende artikelen voor meer informatie:
 
 +++   
 
-## Configureer het toevoegen van een recordtype aan andere werkruimten
+## Gecentraliseerde recordtypen configureren
+
+<!--this is a UI term; don't change the title of this section-->
 
 Als werkruimtemanager kunt u een recordtype configureren dat aan andere werkruimten wordt toegevoegd wanneer u een recordtype maakt of bewerkt.
 
@@ -180,7 +182,9 @@ of
 
      Dit veld is alleen-lezen en kan niet worden verwijderd.
 
-## Verbinding maken met een recordtype vanuit andere werkruimten configureren
+## Verbindbare recordtypen configureren
+
+<!--this is a UI term; don't change the title of this section-->
 
 U kunt een recordtype configureren waarmee verbinding wordt gemaakt vanuit andere werkruimten wanneer u het recordtype maakt of bewerkt.
 

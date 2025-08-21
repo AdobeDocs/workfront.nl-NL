@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Voor algemene informatie over werkruimten, zie [ Overzicht van Werkruimten ](/he
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.
++++ Vouw uit om de vereisten voor toegang weer te geven. 
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -74,7 +74,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-licentie*</p></td> 
-   <td><p> Standaard </p>
+   <td><p> Standard </p>
    <p>Workfront Planning is niet beschikbaar voor oudere Workfront-licenties</p> 
   </td> 
   </tr> 
@@ -92,7 +92,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 *Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 ## Een werkruimte maken
 
@@ -133,7 +133,7 @@ U kunt een werkruimte maken en er recordtypen aan toevoegen om uw objecten te or
 
    Voor de beheerders van Workfront, de nieuwe werkruimtevertoningen op de **Werkruimten ik op** tabel ben.
 
-   Voor alle andere gebruikers die werkruimten kunnen tot stand brengen, toont de nieuwe werkruimte in het **1&rbrace; gebied van de Werkruimten &lbrace;.**
+   Voor alle andere gebruikers die werkruimten kunnen tot stand brengen, toont de nieuwe werkruimte in het **1} gebied van de Werkruimten {.**
 
 1. Klik binnen de naam van de werkruimte in de koptekst van de nieuwe werkruimte om de naam ervan te wijzigen en druk vervolgens op Enter.
 
@@ -154,5 +154,15 @@ U kunt een werkruimte maken en er recordtypen aan toevoegen om uw objecten te or
    Voor informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
 
    Voor meer informatie over het uitgeven van en het schrappen van verslagtypes in een werkruimte, zie [ werkruimten ](/help/quicksilver/planning/architecture/edit-workspaces.md) uitgeven.
+
+1. (Optioneel) Klik op de pijl Vorige links van de nieuwe werkruimte om de hoofdpagina Planning te openen. Een nieuwe werkruimtekaart wordt gecreeerd voor de nieuwe werkruimte in de **Werkruimten I op** tabel.
+
+   De naam van de gebruiker die de werkruimte heeft gemaakt, wordt als eigenaar opgeslagen op de werkruimtekaart.
+
+   >[!NOTE]
+   >
+   >Voor gebruikers die momenteel aan het Systeem van Adobe Identity Management (IMS) worden overgebracht, werkruimten die door Workfront-slechts gebruikers worden gecreeerd die geen IMS gebruikersvertoning zijn zoals die door het **Systeem** wordt gecreeerd.
+   >
+   >Voor informatie over IMS, zie [ Adobe Verenigde Ervaring voor Workfront ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 
