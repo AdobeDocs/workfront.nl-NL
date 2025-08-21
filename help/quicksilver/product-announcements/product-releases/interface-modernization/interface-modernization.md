@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: b050e096a05bd25d07b5e93ae9db7d0fef332d3a
+source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
 workflow-type: tm+mt
-source-wordcount: '6892'
+source-wordcount: '7094'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,17 @@ Deze pagina bevat een overzicht van de interface-updates die we in Adobe Workfro
 Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product [.](/help/quicksilver/product-announcements/product-releases/product-releases.md)
 
 ## Beheer en installatie
+
+<!--
+### Interface updates when editing a Scorecard
+
+**Preview release: August 21, 2025; Production release: August 21, 2025**
+
+We have updated the look and feel of the when editing a Scorecard to match the design in other areas of the application. You can view the updated design when editing a scorecard in the Setup area of Workfront.
+
+A small functionality change has been applied to the Scorecard. To edit a Scorecard, select the Scorecard from the list and click the Edit icon. You are no longer directed to the Scorecard details page before you can edit.
+
+-->
 
 ### Interfaceupdates voor de pagina voor de controle- en goedkeuringsmeldingen in Setup
 
@@ -110,6 +121,54 @@ We hebben de pagina Gebruikers voor SSO bijwerken bijgewerkt met een moderner on
 Ga naar Instellingen > Systeem > Gebruikers voor SSO bijwerken om deze wijziging weer te geven
 
 ## Projecten
+
+### Interface-updates bij het toevoegen van objecten aan programma&#39;s en portfolio&#39;s
+
+**de versie van de Voorproef: 22 mei, 2025; De versie van de productie: 29 mei, 2025**
+
+>[!NOTE]
+>
+>Deze is tijdelijk verwijderd uit Voorvertoning en Productie en is toegevoegd op 21 augustus 2025.
+
+
+Wij hebben de interface voor Add dozen bijgewerkt wanneer het doen van het volgende:
+
+* Projecten toevoegen aan programma&#39;s
+* Projecten toevoegen aan portfolio&#39;s
+* Programma&#39;s toevoegen aan portfolio&#39;s
+
+Raadpleeg de volgende artikelen voor meer informatie:
+
+* [Een bestaand programma toevoegen aan een portfolio](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/move-program.md)
+* [Projecten toevoegen aan een portfolio](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
+* [ voeg een project aan een programma ](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/add-project-to-program.md) toe
+
+### De updates van de interface aan de Nieuwe doos van het Onderwerp van de Rij van projecten en malplaatjes
+
+**de versie van de Voorproef: 21 augustus, 2025; De versie van de productie: 28 augustus, 2025**
+
+Wij hebben de blik en het gevoel van het Nieuwe vakje van het Onderwerp van de Rij bijgewerkt wanneer u een nieuw rijonderwerp aan een project of een malplaatje toevoegt, om het ontwerp van andere gebieden van Workfront aan te passen.
+
+Voor informatie, zie [ de Onderwerpen van de Rij ](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md) creëren.
+
+### Interface werkt bij het uitgeven van een Onderwerp van de Rij op een project of een malplaatje bij
+
+**de versie van de Voorproef: 21 augustus, 2025; De versie van de productie: 28 augustus, 2025**
+
+We hebben de ervaring bijgewerkt bij het bewerken van een rijonderwerp voor projecten en sjablonen, zodat dit overeenkomt met andere gebieden van Workfront.
+
+Er is een kleine functiewijziging geïntroduceerd met deze update. Nu, wanneer het klikken van een Onderwerp van de Rij, wordt u genomen direct aan de het uitgeven pagina van het Onderwerp van de Rij, in plaats van een pagina voor de Details van het Onderwerp van de Rij.
+
+Voor informatie, zie [ de Onderwerpen van de Rij ](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md) creëren.
+
+<!--### Interface update for the Edit Expense box of a project
+
+**Preview release: August 21, 2025; Production release: August 28, 2025**
+
+We have updated the dialog box for editing a project expense, to match other areas of the application. The updated dialog box is available when editing expenses in projects or templates.
+
+For information, see [Manage project expenses](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
+-->
 
 ### De updates van de interface voor het registreren van tijd op een project, een taak, of een kwestie in de sectie van Uren
 
@@ -204,6 +263,14 @@ We hebben het dialoogvenster bijgewerkt waarin u een nieuwe uitgave aan een proj
 Voor informatie, zie [ projectuitgaven beheren ](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
 
 ## Sjablonen
+
+### Interface-updates voor de lijst met personen in een sjabloon
+
+**de versie van de Voorproef: 21 augustus, 2025; De versie van de productie: 28 augustus, 2025**
+
+We hebben het uiterlijk van de lijst met personen op een sjabloon aangepast aan het ontwerp van andere gebieden van Workfront.
+
+Het werken met mensen aan een sjabloon is vergelijkbaar met het werken met mensen aan een project. Voor informatie, zie [ het Team van het Project beheren ](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md).
 
 ### Interface-updates voor de lijst met voorgangers in een sjabloon
 
@@ -542,26 +609,6 @@ We hebben de vormgeving van het vak Sjabloon kopiëren aangepast aan het ontwerp
 
 Voor informatie, zie [ een projectmalplaatje ](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-template.md) kopiëren.
 
-### Updates weergeven en voelen wanneer u objecten toevoegt aan programma&#39;s en portfolio&#39;s
-
-**de versie van de Voorproef: 22 mei, 2025; De versie van de productie: 29 mei, 2025**
-
->[!NOTE]
->
->Tijdelijk verwijderd uit voorvertoning en productie
-
-
-Wij hebben de interface voor Add dozen bijgewerkt wanneer het doen van het volgende:
-
-* Projecten toevoegen aan programma&#39;s
-* Projecten toevoegen aan portfolio&#39;s
-* Programma&#39;s toevoegen aan portfolio&#39;s
-
-Raadpleeg de volgende artikelen voor meer informatie:
-
-* [Een bestaand programma toevoegen aan een portfolio](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/move-program.md)
-* [Projecten toevoegen aan een portfolio](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
-* [ voeg een project aan een programma ](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/add-project-to-program.md) toe
 
 +++
 

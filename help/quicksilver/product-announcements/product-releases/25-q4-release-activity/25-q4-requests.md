@@ -3,10 +3,9 @@ title: Verbeteringen van verzoeken in het vierde kwartaal van 2025
 description: Verbeteringen van verzoeken in het vierde kwartaal van 2025
 author: Courtney
 feature: Product Announcements
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: eafc56adab1fad3bbc1a4f3dc8f61e599ab21f57
+exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
+source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%
@@ -23,8 +22,8 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwar
 
 >[!NOTE]
 >
->* Voorbeeld: 31 juli 2025
->* Snelle productie: 14 augustus 2025
+>* Voorbeeld: 21 augustus 2025
+>* Snelle productie: 11 september 2025
 >* Productie voor alle afnemers: 16 oktober 2025
 
 Om een betere gebruikerservaring te creëren wanneer het doen van verzoeken in de Planning van Workfront en Workfront, hebben wij de het vragen ervaring bijgewerkt. Nu kunt u:

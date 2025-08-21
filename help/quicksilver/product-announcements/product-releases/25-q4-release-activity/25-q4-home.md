@@ -3,12 +3,11 @@ title: Verbeteringen startpunt vierde kwartaal 2025
 description: Verbeteringen startpunt vierde kwartaal 2025
 author: Courtney
 feature: Product Announcements
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 3b1085fe3221650bc1ba7c7223c2c2160e11f757
+exl-id: 2d8c5d2b-a026-4741-b907-aac4c0eac98f
+source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
@@ -23,8 +22,8 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwar
 
 >[!NOTE]
 >
->* Voorbeeld: 24 juli 2025
->* Snelle productie: 14 augustus 2025
+>* Voorbeeld: 21 augustus 2025
+>* Snelle productie: 11 september 2025
 >* Productie voor alle afnemers: 16 oktober 2025
 
 Voor een naadloze ervaring tussen Workfront en Workfront Planning hebben we de widget Mijn verzoeken in Home opnieuw ontworpen. De nieuwe widget heeft de volgende wijzigingen:
@@ -33,4 +32,4 @@ Voor een naadloze ervaring tussen Workfront en Workfront Planning hebben we de w
 * Het filter kan nu beter worden aangepast. Nu kunt u filteren op specifieke veldwaarden met behulp van de regels And en Or.
 * U kunt kolommen in de widget verbergen of opnieuw rangschikken.
 
-<!--For more information on the new My Requests widget, see [Use the My Requests widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).-->
+Voor meer informatie over nieuwe Mijn widget van Verzoeken, zie [ Gebruik Mijn widget van Verzoeken ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).

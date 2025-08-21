@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: ff0567aabcf885d3bee6c1808302a9cd9445ed04
+source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1573'
 ht-degree: 1%
 
 ---
@@ -39,10 +39,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Verbeteringen voor Adobe Workfront
 
 * [Beheerdersverbeteringen](#administrator-enhancements)
-* [ Document en het proef verhogingen ](#document-and-proofing-enhancements)
-  <!--* [Home enhancements](#home-enhancements)-->
-* [ de verhogingen van het Project ](#project-enhancements)
-  <!--* [Requests enhancements](#requests-enhancements)-->
+* [Verbeteringen voor document en proefdrukken](#document-and-proofing-enhancements)
+* [Verbeteringen voor startpagina](#home-enhancements)
+* [Projectverbeteringen](#project-enhancements)
+* [Verbeteringen aan verzoeken](#requests-enhancements)
 * [Verbeteringen voor beheer van bronnen](#resource-management-enhancements)
 * [Andere verbeteringen](#other-enhancements)
 
@@ -112,64 +112,64 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table>
 
-<!--### Home enhancements
+### Verbeteringen voor startpagina
 
 <table style="table-layout:auto">
   <tbody>
    <tr>
-        <td><strong>Feature</strong>
+        <td><strong> Eigenschap </strong>
         </td>
-        <td><strong>Preview</strong></td>
-        <td><strong>Fast release</strong></td>
-        <td><strong>Quarterly</strong></td>
+        <td><strong>Voorvertoning</strong></td>
+        <td><strong>Snelle release</strong></td>
+        <td><strong>Driemaandelijks</strong></td>
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-home.md" class="MCXref xref" xrefformat="{para}">Updates to the My Requests widget in Home</a><p></p>
-            <p>To create a more seamless experience between Workfront and Workfront Planning, we've redesigned the My Requests widget in Home. The new widget features the following changes:
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-home.md" class="MCXref xref" xrefformat="{para}"> Updates aan Mijn widget van Verzoeken in Huis </a><p></p>
+            <p>Voor een naadloze ervaring tussen Workfront en Workfront Planning hebben we de widget Mijn verzoeken in Home opnieuw ontworpen. De nieuwe widget heeft de volgende wijzigingen:
             <ul>
-                <li>Improved layout and organization of request information</li>
-                <li>Enhanced filtering and sorting options</li>
-                <li>Integration with Workfront Planning for better visibility into resource allocation</li>
+                <li>Verbeterde indeling en organisatie van aanvraaggegevens</li>
+                <li>Verbeterde filteropties en sorteeropties</li>
+                <li>Integratie met Workfront-planning voor betere zichtbaarheid bij de toewijzing van bronnen</li>
             </ul>
             </p>
         </td>
-        <td>July 31, 2025</td>
-        <td>August 14, 2025</td>
-        <td>October 16, 2025</td>
+        <td>vrijdag 21 augustus 2025</td>
+        <td>vrijdag 11 september 2025</td>
+        <td>vrijdag 16 oktober 2025</td>
     </tr>     
   </tbody>
-</table> 
+</table>
 
-### Requests enhancements
+### Verbeteringen aan verzoeken
 
 <table style="table-layout:auto">
   <tbody>
    <tr>
-        <td><strong>Feature</strong>
+        <td><strong> Eigenschap </strong>
         </td>
-        <td><strong>Preview</strong></td>
-        <td><strong>Fast release</strong></td>
-        <td><strong>Quarterly</strong></td>
+        <td><strong>Voorvertoning</strong></td>
+        <td><strong>Snelle release</strong></td>
+        <td><strong>Driemaandelijks</strong></td>
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">Updates to Requesting experience</a><p></p>
-            <p>To create a better user experience when making requests in Workfront and Workfront Planning, we've updated the requesting experience. Now you can:
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}"> Updates om ervaring te verzoeken </a><p></p>
+            <p>Om een betere gebruikerservaring te creëren wanneer het doen van verzoeken in de Planning van Workfront en Workfront, hebben wij de het vragen ervaring bijgewerkt. Nu kunt u:
             <ul>
-                <li>View Workfront and Workfront Planning requests in a single list.</li>
-                <li>Filter submitted requests based on criteria you specify.</li>
-                <li>Search for and select Workfront request queues and Workfront Planning forms in a consolidated experience.</li>
-                <li>Hide and reorder columns in the submitted requests list.</li>
+                <li>Bekijk Workfront- en Workfront-planningsverzoeken in één lijst.</li>
+                <li>Verzonden aanvragen filteren op basis van criteria die u opgeeft.</li>
+                <li>Zoek naar en selecteer Workfront- verzoekrijen en de Planningsvormen van Workfront in een geconsolideerde ervaring.</li>
+                <li>Kolommen in de lijst met ingediende aanvragen verbergen en opnieuw ordenen.</li>
             </ul>
             </p>
         </td>
-        <td>July 31, 2025</td>
-        <td>August 14, 2025</td>
-        <td>October 16, 2025</td>
+        <td>vrijdag 21 augustus 2025</td>
+        <td>vrijdag 11 september 2025</td>
+        <td>vrijdag 16 oktober 2025</td>
     </tr>     
   </tbody>
-</table> -->
+</table>
 
 ### Projectverbeteringen
 
@@ -182,6 +182,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Snelle release</strong></td>
         <td><strong>Driemaandelijks</strong></td>
     </tr>
+      <!--<tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">Create project intake forms in Workfront</a>
+            <p>To make it easier to create requested projects without converting from issues, we've created Project intake forms. You can configure these intake forms with specific fields, templates, and custom forms, and set approvers for project creation. Then, when a user uses this form, the project is configured to your specifications and sent for approval.</p>
+        </td>
+        <td>August 21, 2025</td>
+        <td>September 11, 2025</td>
+        <td>October 16, 2025</td>
+    </tr> -->
   <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}"> Nieuwe uitdrukkingen die aan de formules- gebieden in de Planning en berekende douanegebieden in Workfront worden toegevoegd </a><p><p>[!BADGE Off schema]{type=Neutral}</p></p>
@@ -291,7 +300,7 @@ We werken de interface in Adobe Workfront bij om de gebruikerservaring te verbet
 
 ### Workfront Fusion-verbeteringen
 
-Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de standaard releaseschema. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de standaard releaseschema. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Verbeteringen voor Workfront-planning
 
@@ -340,7 +349,7 @@ Om stabielere en scalable integratie te leveren, verschuiven wij naar een modern
 * Workfront voor Salesforce.
 
 We raden u aan Workfront Automation and Integration te gebruiken voor de integratiebehoeften van uw organisatie met Google Workspace.
-Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ### API-versie 20
 
@@ -352,8 +361,8 @@ Voor informatie over API versies, zie [ API versioning en steunprogramma ](/help
 
 ### Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens Eerste Kwartaal 2025 versie worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront [.](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=nl-NL)
+Voor informatie over de onderhoudsupdates die tijdens Eerste Kwartaal 2025 versie worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront [.](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)
 
 ### Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=nl-NL) Nieuw is.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html) Nieuw is.
