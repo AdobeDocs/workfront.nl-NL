@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: 89e15f6d99514e11e43e06487a4477d35a155cb0
+source-git-commit: bb2479b936a9064a4df34ac3e840dd78cae297b6
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1193'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ U kunt de gebruikers in het project en de teams van het malplaatje beheren door 
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.
++++ Vouw uit om de vereisten voor toegang weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -59,7 +59,7 @@ U kunt de gebruikers in het project en de teams van het malplaatje beheren door 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Standaard </p>
+   <td> <p>Standard </p>
     <p>Plan </p>
     </td> 
   </tr> 
@@ -180,20 +180,20 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    De gebruikers krijgen de toestemmingen van de Mening aan het project en ontvangen berichten over het project als deel van het projectteam.
 
-1. (Facultatief) als u een gebruiker een bericht wilt ontvangen wanneer hun baanrol aan een taak, een kwestie, of een projectgoedkeuring wordt toegevoegd, binnen de **kolom van de Rol 0&rbrace; van de Baan &lbrace;voor de gebruiker klikt, en een baanrol selecteert die met de goedkeuring zal worden geassocieerd.**
+1. (Facultatief) als u een gebruiker een bericht wilt ontvangen wanneer hun baanrol aan een taak, een kwestie, of een projectgoedkeuring wordt toegevoegd, binnen de **kolom van de Rol 0} van de Baan {voor de gebruiker klikt, en een baanrol selecteert die met de goedkeuring zal worden geassocieerd.**
 
    De gebruikers ontvangen meldingen die betrekking hebben op de goedkeuringen die zijn toegewezen aan de geselecteerde taakrol.
 
    Voor meer informatie zie de &quot;Op rol-gebaseerde goedkeuringen&quot;sectie in het artikel [ overzicht van het Team van het Project ](/help/quicksilver/manage-work/projects/planning-a-project/project-team-overview.md).
 
-1. Selecteer één of verscheidene gebruikers in de lijst dan **verwijderen** pictogram ![ verwijderen pictogram ](assets/remove-icon.png) om hen uit het team te verwijderen.
+1. Selecteer één of verscheidene gebruikers in de lijst, dan klik **verwijderen** pictogram ![ verwijderen pictogram ](assets/remove-icon.png) om hen uit het team te verwijderen.
 
 1. Klik **ja, verwijder Geselecteerde Gebruikers** om de gebruikers te bevestigen en te verwijderen.
 
    De gebruikers worden verwijderd en unassigned van onvolledige het werkpunten.
 
    Voor meer informatie, zie de [ Overwegingen voor het verwijderen van gebruikers uit een sectie van het projectteam ](#considerations-for-removing-users-from-a-project-team) in dit artikel.
-1. (Optioneel) Als u een update voor dit project naar gebruikers wilt verzenden, klikt u op Alles bijwerken om de update naar iedereen in het team te verzenden
+1. (Facultatief) om een update voor dit project naar gebruikers te verzenden, klik **Update allen** om de update naar iedereen op het team te verzenden
 
    of
 
@@ -235,7 +235,7 @@ If users that don't fulfill any role on the project want to be notified about ce
 
 1. Klik **Mensen** in het linkerpaneel.
 
-1. Selecteer één of verscheidene gebruikers in de lijst dan **verwijderen** om hen uit het team te verwijderen.
+1. Selecteer één of verscheidene gebruikers in de lijst, dan klik **verwijderen** pictogram om hen uit het team te verwijderen.
 
 1. Klik **ja, verwijder Geselecteerde Gebruikers** om de gebruikers te bevestigen en te verwijderen.
 
@@ -243,11 +243,11 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    Voor meer informatie, zie de [ Overwegingen voor het verwijderen van gebruikers uit een sectie van het projectteam ](#considerations-for-removing-users-from-a-project-team) in dit artikel.
 
-1. (Optioneel) Als u een update naar gebruikers wilt verzenden, klikt u op Alles bijwerken om de update naar alle gebruikers in de lijst te verzenden
+1. (Facultatief) om een update naar gebruikers te verzenden, klik **Update allen** om de update naar alle gebruikers in de lijst te verzenden
 
    of
 
-   Selecteer één of veelvoudige gebruikers in de lijst, dan klik **Update**.
+   Selecteer één of veelvoudige gebruikers in de lijst, dan klik **verzenden Update naar Gebruiker**.
 
    <!--update screen shot for unshim production, notice the text above the box - it needs to say "Post an update to each person's profile"-->
 
@@ -266,11 +266,11 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    Gebruikers ontvangen mogelijk een e-mailbericht als ze hiervoor zijn ingeschakeld en ontvangen een melding in de app over de nieuwe update.
 
-1. (Facultatief) klik **Uitvoer** om de lijst van gebruikers naar een dossier uit te voeren
+1. Klik het **pictogram van de Uitvoer** pictogram van de Uitvoer ![ om de lijst van gebruikers naar een dossier uit te voeren](assets/export-icon.png)
 
    of
 
-   Selecteer gebruikers, dan klik **Uitvoer** om slechts specifieke gebruikers uit te voeren.
+   Selecteer gebruikers, dan klik het **pictogram van de Uitvoer** om slechts specifieke gebruikers uit te voeren.
 
 ## Overwegingen voor het verwijderen van gebruikers uit een Team van het Project
 
