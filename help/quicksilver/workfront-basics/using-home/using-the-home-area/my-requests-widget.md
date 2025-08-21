@@ -22,7 +22,7 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >In dit artikel wordt de nieuwe widget Mijn verzoeken beschreven. De nieuwe widget kan alleen worden weergegeven als u de nieuwe ervaring voor aanvragen hebt ingeschakeld.
->>U kunt de nieuwe verzoekervaring op uw gebied van Verzoeken toelaten.
+>&#x200B;>U kunt de nieuwe verzoekervaring op uw gebied van Verzoeken toelaten.
 
 Op de widget Mijn verzoeken worden aanvragen weergegeven die zijn ingediend bij uw organisatie. U kunt de verzoeken filteren, naar specifieke verzoeken zoeken of de kolomvolgorde en de zichtbaarheid aanpassen. U kunt ook een nieuw verzoek maken via de widget Mijn verzoeken.
 
