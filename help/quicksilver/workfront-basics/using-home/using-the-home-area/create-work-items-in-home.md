@@ -78,7 +78,7 @@ Een te-do-item maken:
 
 1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, of het **Belangrijkste menu** ![ Belangrijkste pictogram van de Lijnen van het Menu ](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) klik **aanpassen**, dan klik **aan-Dozen** om toe te voegen aan-Doopwidget aan uw huisscherm.
-1. Ga naar **** widget, dan klik **toevoegen aan-doe**.
+1. Ga naar **&#x200B;**&#x200B;widget, dan klik **toevoegen aan-doe**.
 1. Typ de naam voor het persoonlijke aan-doe item en klik op Enter.
 1. (Facultatief) klik het **pictogram van de Datum** ![ pictogram van de Datum om een vervaldatum voor het punt toe te voegen.](assets/date-icon.png)
    ![ Mijn werk aan-doet ](assets/my-work-to-dos.png)
