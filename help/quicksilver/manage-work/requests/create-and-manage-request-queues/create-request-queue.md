@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: ce611ec0c91b114f1a10977970e42fa753f62f22
 workflow-type: tm+mt
-source-wordcount: '2845'
+source-wordcount: '2868'
 ht-degree: 0%
 
 ---
@@ -47,6 +47,8 @@ Aan opstelling moet een project of een malplaatje als verzoekrij, u het gebied v
 Dit artikel beschrijft hoe u een project als verzoekrij kunt vormen waar de gebruikers verzoeken kunnen voorleggen. De Details van de Rij van de vestiging voor een malplaatje is gelijkaardig aan vestiging hen op het project.
 
 Voor informatie over hoe te om een nieuw verzoek aan een verzoekrij voor te leggen, zie [ Exemplaar en verzend verzoeken ](../create-requests/copy-and-submit-requests.md).
+
+Voor informatie over hoe te om een verzoekvorm in de Planning van Workfront te vormen, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
 
 ## Toegangsvereisten
 

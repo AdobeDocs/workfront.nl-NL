@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 4f8a8c263f53ff30f99062dedc10d674b867b0b7
+source-git-commit: 359131cef04fdb46def64428a7a693c3f00b2cd4
 workflow-type: tm+mt
-source-wordcount: '2298'
+source-wordcount: '2564'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-U kunt een aanvraagformulier maken en dit koppelen aan een recordtype in Adobe Workfront Planning. U kunt het formulier vervolgens delen met anderen en ze kunnen aanvragen indienen om records te maken.
+U kunt een aanvraagformulier maken en dit koppelen aan een recordtype in Adobe Workfront Planning. U kunt het formulier vervolgens met anderen delen en ze kunnen aanvragen indienen om records van dat type te maken.
 
 In dit artikel wordt beschreven hoe een werkruimtebeheerder een aanvraagformulier kan maken dat is gekoppeld aan een recordtype.
 
@@ -34,7 +34,7 @@ Voor informatie over het voorleggen van een verzoek aan een verslagtype om een v
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.
++++ Vouw uit om de vereisten voor toegang weer te geven. 
 
 <table style="table-layout:auto">
  <col>
@@ -78,7 +78,7 @@ Voor informatie over het voorleggen van een verzoek aan een verslagtype om een v
   <tr>
    <td role="rowheader"><p>Adobe Workfront-licentie*</p></td>
    <td>
-   <p>Standaard</p>
+   <p>Standard</p>
    <p>Workfront Planning is niet beschikbaar voor oudere Workfront-licenties</p>
   </td>
   </tr>
@@ -135,7 +135,11 @@ Voor informatie over het voorleggen van de verzoeken van de Planning van Workfro
    * Formule velden die naar valutavelden verwijzen, geven de waarden weer zonder rekening te houden met de wisselkoersen.
    * De waarden van de gebieden van de Paragraaf tonen een waarde &quot;N.v.t.&quot;op het verzoekformulier en zij tonen HTML markeringen in plaats van de geformatteerde tekst op de pagina van de verzoekdetails.
 
-## Een aanvraagformulier maken voor een recordtype
+## Een aanvraagformulier maken
+
+U kunt een verzoekvorm van het verslagtype tot stand brengen verbonden aan de vorm, <span class="preview"> of van het gebied van Verzoeken van Workfront.</span>
+
+### Een aanvraagformulier maken van een recordtype
 
 {{step1-to-planning}}
 
@@ -149,12 +153,51 @@ Voor informatie over het voorleggen van de verzoeken van de Planning van Workfro
 
 1. Klik **Meer** menu ![ Meer menu ](assets/more-menu.png) rechts van de naam van het verslagtype in de paginakop, dan klik **creeer verzoekvorm** of **beheer verzoekvormen**, als u reeds een vorm hebt en u extra degenen wilt creëren.
 1. (Voorwaardelijk) als u een andere vorm wilt toevoegen, klik **Nieuwe verzoekvorm**.
-1. Werk de naam van het aanvraagformulier bij. Door gebrek, is de naam van de vorm **Naamloze vorm**. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
+
+   Het vak Aanvraagformulier maken wordt geopend.
+
+1. Werk de naam van het aanvraagformulier bij in het vak Aanvraag maken. Door gebrek, is de naam van de vorm **Naamloze vorm**. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. (Facultatief) voeg a **Beschrijving** voor de verzoekvorm toe.
 
    <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
 
-1. Klik **creëren**. Het aanvraagformulier voor het geselecteerde recordtype wordt geopend op het tabblad Formulier.
+1. Klik **creëren**.
+
+   Het aanvraagformulier voor het geselecteerde recordtype wordt geopend op het tabblad Formulier.
+1. Ga aan [ verder vormen de vorm ](#configure-the-form).
+
+<div class="preview">
+
+### Een aanvraagformulier maken op het gebied Aanvragen van Workfront
+
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Verzoeken**.
+1. In de hoger-juiste hoek van het scherm, klik **vormen van het Verzoek**.
+1. (Voorwaardelijk) als u een bestaande verzoekvorm uitgeeft, selecteer het van de lijst, dan [ blijf de vorm ](#confgure-the-form) vormen.
+1. Als u een nieuwe verzoekvorm, in de hoger-juiste hoek van het scherm creeert, klik **Nieuwe verzoekvorm**.
+
+   Het formulierveld Aanvraag maken wordt geopend
+
+1. Werk de naam van het aanvraagformulier bij in het vak Aanvraag maken. Door gebrek, is de naam van de vorm **Naamloze vorm**.
+1. Selecteer in het veld Objecttypen het recordtype waaraan het aanvraagformulier wordt gekoppeld. Recordtypen worden gegroepeerd in de werkruimte waarin ze staan.
+1. (Facultatief) voeg a **Beschrijving** voor de verzoekvorm toe.
+
+   <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
+
+1. Klik **creëren**.
+
+   Het aanvraagformulier voor het geselecteerde recordtype wordt geopend op het tabblad Formulier.
+1. Ga aan [ verder vormen de vorm ](#configure-the-form).
+
+</div>
+
+## Het formulier configureren
+
+1. Beginnen met het maken of bewerken van een aanvraagformulier, zoals wordt beschreven in een van de volgende secties:
+
+   * [Een aanvraagformulier maken van een recordtype](#create-a-request-form-from-a-record-type)
+   * <span class="preview">[ creeer een verzoekvorm van het gebied van Verzoeken van Workfront ](#create-a-request-form-from-the-requests-area-of-workfront)</span>
+
+   Het aanvraagformulier voor het geselecteerde recordtype wordt geopend op het tabblad Formulier.
 
    ![ de verzoekvorm van campagnes geeft wijze uit ](assets/campaigns-request-form-edit-mode.png)
 
@@ -312,4 +355,4 @@ Voor informatie over het voorleggen van de verzoeken van de Planning van Workfro
 
    Voor informatie over het creëren van verslagen die een verbinding aan een verzoekvorm gebruiken, zie [ verzoeken van de Planning van Adobe Workfront voorleggen ](/help/quicksilver/planning/requests/submit-requests.md).
 
-1. Klik **sparen** in de laag-juiste hoek van het **3&rbrace; lusje van de Vorm &lbrace;om de vorm te bewaren.**
+1. Klik **sparen** in de laag-juiste hoek van het **3} lusje van de Vorm {om de vorm te bewaren.**
