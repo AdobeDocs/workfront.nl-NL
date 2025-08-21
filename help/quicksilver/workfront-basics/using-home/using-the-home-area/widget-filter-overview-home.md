@@ -6,14 +6,18 @@ description: U kunt kiezen uit een aantal widgets om de inhoud aan te passen die
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
-source-git-commit: 6350e815e39d642a88a2c9c8b17208db5cb253c5
+source-git-commit: 884ade1102e685ec01af2790b17acb50c2114ca7
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '1092'
 ht-degree: 0%
 
 ---
 
 # Overzicht van widgetfilters thuis
+
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken.</span>
 
 U kunt filters op de volgende widgets gebruiken om werk te zoeken en te organiseren:
 
@@ -242,6 +246,8 @@ U kunt de volgende filters gebruiken in Mijn Kwesties widget:
 
 ## Mijn verzoeken
 
+In de productieomgeving:
+
 <table style="table-layout:auto"> 
     <col> 
     <col> 
@@ -277,6 +283,16 @@ U kunt de volgende filters gebruiken in Mijn Kwesties widget:
      </tr> 
     </tbody> 
    </table>
+
+<div class="preview">
+
+In de voorvertoningsomgeving:
+
+De widget Mijn verzoeken heeft een aanpasbaar filter waarmee u kunt bepalen welke verzoeken in de widget worden weergegeven. U kunt dit filter voor verschillende gebieden en waarden vormen, en voorwaarden stapelen gebruikend EN en OF.
+
+Voor instructies bij het vormen van de filter in Mijn widget van Verzoeken, zie [ verzoeken van de Filter ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md#filter-requests) in het artikel Gebruik Mijn widget van Verzoeken.
+
+</div>
 
 ## Mijn werk
 

@@ -6,9 +6,9 @@ description: Met Home kunt u uw werk beheren. U kunt deze flexibele ruimte aanpa
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 10efc850b4951c3ad1a7086d3ec087d848dde96e
+source-git-commit: 884ade1102e685ec01af2790b17acb50c2114ca7
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1092'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >Inhoud in dit artikel is vervangen door inhoud uit het artikel Aan de slag met een nieuw artikel Home. Nieuwe startpagina wordt nu Home genoemd.
+
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
 De nieuwe Home-ervaring in Adobe Workfront is bedoeld om de huidige Home-ervaring te verbeteren en biedt een flexibelere manier om u te richten op het juiste werk.
 
@@ -55,6 +57,9 @@ Hieronder vindt u een overzicht van de 11 widgets die u momenteel kunt kiezen, e
 * **Mijn verzoeken**\
     Hiermee geeft u alle verzoeken weer die u hebt verzonden, een filter om alleen open aanvragen weer te geven en een knop waarmee het overzichtsvenster voor een aanvraag wordt geopend.
 
+  <span class="preview"> in het milieu van de Voorproef, toont deze widget alle verzoeken u hebt voorgelegd, een filter om slechts verzoeken te tonen die aan criteria voldoen u specificeert, en een knoop die u toestaat om de kolommen in widget te herschikken.</span>
+
+
 * **verzoeken van het Team**\
     Toont alle hangende verzoeken om teams die u op gesorteerd door team bent, evenals knopen om een verzoek aan een gebruiker direct toe te wijzen of aan het zelf te werken.
 
@@ -82,7 +87,7 @@ Standaard bevat de startpagina een aantal specifieke widgets, gebaseerd op het t
         <td><b>Standaardwidgets</b></td>
     </tr>
     <tr>
-        <td>Standaard</td>
+        <td>Standard</td>
         <td>Mijn projecten, mijn werk, herinneringen, opdrachten</td>
     </tr>
     <tr>

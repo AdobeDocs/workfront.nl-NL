@@ -6,9 +6,9 @@ description: U kunt werkitems en projecten maken vanuit het [!UICONTROL Home] -g
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 04a9524c4ee9066e7b8d3b47712d70fcfc119b32
+source-git-commit: e3e297bc548338032bc8f321ad3e1214be9cdee4
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '852'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Vanaf Home kunt u
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -52,6 +52,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
    <td> <p>[!UICONTROL Edit] toegang of hoger op taken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"><strong>[!DNL Product]</strong></td> 
+   <td> <ul><li>Adobe Workfront</li><li>U moet Adobe Workfront Planning hebben om de verzoeken van de Planning te bekijken of om formulieren te verzoeken</td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -74,9 +78,9 @@ Een te-do-item maken:
 
 1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, of het **Belangrijkste menu** ![ Belangrijkste pictogram van de Lijnen van het Menu ](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) klik **aanpassen**, dan klik **aan-Dozen** om toe te voegen aan-Doopwidget aan uw huisscherm.
-1. Ga naar **&#x200B;**&#x200B;widget, dan klik **toevoegen aan-doe**.
+1. Ga naar **** widget, dan klik **toevoegen aan-doe**.
 1. Typ de naam voor het persoonlijke aan-doe item en klik op Enter.
-1. (Facultatief) klik het **pictogram van de Datum ![ ](assets/date-icon.png) pictogram van de Datum om een vervaldatum voor het punt toe te voegen.**
+1. (Facultatief) klik het **pictogram van de Datum** ![ pictogram van de Datum om een vervaldatum voor het punt toe te voegen.](assets/date-icon.png)
    ![ Mijn werk aan-doet ](assets/my-work-to-dos.png)
 1. (Optioneel) Maak een persoonlijk taakrapport of filter. Voor informatie over het creëren van een persoonlijke taakfilter, zie [ Filter: persoonlijke taak ](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).
 U kunt uw aan-doe punten evenals andere gebruikers aan-doe punten in het persoonlijke taakrapport bekijken.
@@ -130,11 +134,11 @@ U kunt een kwestie aan een bestaand project direct van het gebied van het Huis t
 U kunt een aanvraag rechtstreeks vanuit het gebied Home maken:
 
 1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
-1. (Voorwaardelijk) voeg **Mijn Verzoeken** widget aan uw huisscherm toe. Klik **aanpassen**, en vinden **Mijn Verzoeken**.
+1. (Voorwaardelijk) om **Mijn verzoeken** widget aan uw huisscherm toe te voegen. Klik **aanpassen**, en vinden **Mijn Verzoeken**.
 1. Ga naar **Mijn Verzoeken** widget, dan klik **Nieuw**.
-   ![ creeer nieuw verzoek ](assets/create-new-request.png)
+   ![ creeer nieuw verzoek ](assets/create-new-request-new.png)
 
-1. In de **Nieuwe verzoek** dialoog, begin typend de naam van de verzoekrij.
+1. In het **Nieuwe verzoek** dialoog, begin typend de naam van de de verzoekrij van Workfront of het verzoekformulier van de Planning van Workfront in de onderzoeksbar, dan selecteer het wanneer het verschijnt.
 1. Vul de relevante velden in.
 1. Klik **voorleggen**.
 

@@ -7,13 +7,13 @@ author: Courtney
 hide: true
 hidefromtoc: true
 feature: Get Started with Workfront
-source-git-commit: 28bb652f371d3168ffe03c39fc33e29d710605db
+exl-id: cfb3de96-0710-44e9-a934-05877fa75b51
+source-git-commit: f5ffb83d2a9cab48a4ce623088e11e3e13d8f744
 workflow-type: tm+mt
-source-wordcount: '1596'
+source-wordcount: '1632'
 ht-degree: 0%
 
 ---
-
 
 # Van verouderd startpunt naar nieuw startpunt
 
@@ -163,6 +163,8 @@ Hieronder vindt u een overzicht van de 11 widgets die u momenteel kunt kiezen, e
 * **Mijn verzoeken**\
     Hiermee geeft u alle verzoeken weer die u hebt verzonden, een filter om alleen open aanvragen weer te geven en een knop waarmee het overzichtsvenster voor een aanvraag wordt geopend.
 
+  <span class="preview"> in het milieu van de Voorproef, toont deze widget alle verzoeken u hebt voorgelegd, een filter om slechts verzoeken te tonen die aan criteria voldoen u specificeert, en een knoop die u toestaat om de kolommen in widget te herschikken.</span>
+
 * **verzoeken van het Team**\
     Toont alle hangende verzoeken om teams die u op gesorteerd door team bent, evenals knopen om een verzoek aan een gebruiker direct toe te wijzen of aan het zelf te werken.
 
@@ -196,7 +198,7 @@ Standaard bevat de startpagina een aantal specifieke widgets, gebaseerd op het t
         <td><b>Standaardwidgets</b></td>
     </tr>
     <tr>
-        <td>Standaard</td>
+        <td>Standard</td>
         <td>Mijn projecten, mijn werk, herinneringen, opdrachten</td>
     </tr>
     <tr>
@@ -268,10 +270,10 @@ Als u dit zo snel mogelijk doet, hebben uw gebruikers de tijd om zich aan de nie
 
 * [ beheer uw werk met Mijn widget van het Werk ]
 
-**Opleiding**
+**Training**
 
-* [ verwijder, voeg, en herschik widgets in het leerprogramma van het Huis toe ](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
-* {de Grondbeginselen van de Arbeider van 0} in Adobe Workfront [&#128279;](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
+* [ verwijder, voeg, en herschik widgets in het leerprogramma van het Huis toe ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
+* {de Grondbeginselen van de Arbeider van 0} in Adobe Workfront [](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
 
 >[!IMPORTANT]
 >
