@@ -70,7 +70,7 @@ Er zijn vele configuratieopties beschikbaar voor de bouw van een KPI- rapport. I
 
 1. Klik **Nieuw Dashboard** in de hoger-juiste hoek.
 
-1. In **creeer dashboard** doos, ga de 2} Naam van het dashboard **en** Beschrijving **in.**
+1. In **creeer dashboard** doos, ga de 2&rbrace; Naam van het dashboard **en** Beschrijving **in.**
 
 1. Klik **creëren**.
 
@@ -107,7 +107,7 @@ Er zijn vele configuratieopties beschikbaar voor de bouw van een KPI- rapport. I
 
    1. (Facultatief) klik **toevoegen filtergroep** om een andere reeks het filtreren criteria toe te voegen. De standaardoperator tussen de sets is AND. Klik op de operator om deze te wijzigen in OR.
 
-1. Volg hieronder de stappen om de **sectie van de Montages van de Kolom te vormen 0} Drilldown {:**
+1. Volg hieronder de stappen om de **sectie van de Montages van de Kolom te vormen 0&rbrace; Drilldown &lbrace;:**
 
    1. In het linkerpaneel, klik het **Drilldown pictogram van Kolommen** ![ Drilldown kolommen ](assets/drilldown-column.png). De velden in het diagram worden automatisch als kolommen weergegeven in de voorbeeldsectie aan de rechterkant.
 
@@ -117,7 +117,7 @@ Er zijn vele configuratieopties beschikbaar voor de bouw van een KPI- rapport. I
 
 1. Volg hieronder de stappen om de **sectie van de Montages van de Groep van de Drilldown** te vormen:
 
-   1. In het linkerpaneel, klik het **** pictogram van de de groepengroep van de 1} Groep ![.](assets/drilldown-group-icon.png)
+   1. In het linkerpaneel, klik het **&#x200B;**&#x200B;pictogram van de de groepengroep van de 1&rbrace; Groep ![.](assets/drilldown-group-icon.png)
 
    1. Klik **toevoegen groeperend** knoop en dan het gebied selecteren u als groepering wilt tot stand brengen.
 
@@ -135,7 +135,7 @@ Voor meer informatie over KPI- rapportvoorbeelden, zie [ een rapportdashboard vo
 
 1. Klik **Nieuw Dashboard** in de hoger-juiste hoek.
 
-1. In **creeer dashboard** doos, ga de 2} Naam van het dashboard **en** Beschrijving **in.**
+1. In **creeer dashboard** doos, ga de 2&rbrace; Naam van het dashboard **en** Beschrijving **in.**
 
 1. Klik **creëren**.
 
@@ -147,7 +147,7 @@ Voor meer informatie over KPI- rapportvoorbeelden, zie [ een rapportdashboard vo
 
 1. Volg hieronder de stappen om de **sectie van Details** te vormen:
 
-   1. Het type *in afwachting van* op het **3} gebied van de Naam {.**
+   1. Het type *in afwachting van* op het **3&rbrace; gebied van de Naam &lbrace;.**
    1. Het type *wacht goedkeuringen* op het **gebied van de Beschrijving** in behandeling. Dit wordt weergegeven als een bijschrift onder de KPI-waarde.
 
 1. Volg hieronder de stappen om de **Bouw KPI** sectie te vormen:
