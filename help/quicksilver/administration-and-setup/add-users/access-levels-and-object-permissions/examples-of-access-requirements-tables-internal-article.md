@@ -4,7 +4,7 @@ description: Dit is een intern artikel voor ons team om een inventaris van de li
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: 15eba2f627e31661c5fde60e989dfc68a9f4cd15
+source-git-commit: 5fd51b6fad81eb54696784745989efee06b79c94
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 1%
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 ## Toegangsvereisten (dit is een voorbeeld wanneer het pakket hetzelfde blijft en we de rij licenties bijwerken)
 
-Uitbreiden om de toegangseisen voor de functionaliteit in dit artikel weer te geven
+Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -56,7 +56,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 ## Toegangsvereisten
 
-Uitbreiden om de toegangseisen voor de functionaliteit in dit artikel weer te geven
+Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -86,7 +86,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 ## Toegangsvereisten (alleen beschikbaar voor nieuwe klanten)
 
-Uitbreiden om de toegangseisen voor de functionaliteit in dit artikel weer te geven
+Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -117,7 +117,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 ## Toegangsvereisten (dit is een voorbeeld waarbij de nieuwe functie alleen bestaat in de pakketten 2023/2025)
 
-Uitbreiden om de toegangseisen voor de functionaliteit in dit artikel weer te geven
+Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table>
   <tr>
@@ -145,7 +145,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 ## Toegangsvereisten (dit is een voorbeeld waar u andere producten moet hebben)
 
-Uitbreiden om de toegangseisen voor de functionaliteit in dit artikel weer te geven
+Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table>
   <tr>
@@ -220,7 +220,7 @@ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te gev
    <td> 
 <p>Elk Adobe Workfront Workflow-pakket en elk Adobe Workfront Planning-pakket</p> 
    </td> </tr>
-<td role="rowheader"><p>Adobe Workfront-platform (**&#x200B;**&#x200B;willen we dit oproepen of het gewoon opnemen in het artikel dat onderaan gekoppeld is?**&#x200B;***)?</p></td> 
+<td role="rowheader"><p>Adobe Workfront-platform (****willen we dit oproepen of het gewoon opnemen in het artikel dat onderaan gekoppeld is?*****)?</p></td> 
    <td> 
 <p>Het geval van Workfront van uw organisatie moet aan de Verenigde Ervaring van Adobe worden genegeerd om tot de Planning van Workfront te kunnen toegang hebben.</p> 
 <p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
