@@ -8,77 +8,82 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d817bd2b-1aaa-4dde-8e75-392c1da2943a
-source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
+source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---
 
 # Je Adobe Workfront-domein wijzigen
 
+<!--DELETE ME MARCH 2026-->
+
 >[!IMPORTANT]
 >
->De op deze pagina beschreven procedure is alleen van toepassing op organisaties die nog niet aan de Admin Console zijn geregistreerd. Als uw organisatie is aangemeld bij de Adobe Admin Console, is het niet mogelijk om uw Workfront-domein te wijzigen.
+>De op deze pagina beschreven procedure is alleen van toepassing op organisaties die nog niet aan boord van de Admin Console zijn.
 >
->Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan Adobe Admin Console is genegeerd, zie [ Op platform-gebaseerde beleidsverschillen (Adobe Workfront/Adobe Bedrijfs Platform) ](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Alle Workfront-organisaties zijn nu aan boord van de Adobe Admin Console. Het is daarom niet langer mogelijk om uw Workfront-domein te wijzigen.
 
-Als Adobe Workfront-beheerder en geautoriseerde contactpersoon voor Workfront-ondersteuning kunt u hulp aanvragen bij het Workfront-ondersteuningsteam om het Workfront-domein van uw organisatie te wijzigen.
+<!--
 
-## Toegangsvereisten
+As an Adobe Workfront administrator and an authorized Workfront Support contact, you can request help from the Workfront Support team to change your organization's Workfront domain.
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+## Access requirements
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Expand to view access requirements for the functionality in this article.
+
+You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b> NOTA </b>: Als u nog geen toegang hebt, vraag uw beheerder van Workfront als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a Workfront administrator.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 +++
 
-## Een domeinwijziging aanvragen
+## Request a domain change
 
-1. Beginnen met het maken van een ondersteuningsticket op het Experience League.
-1. In het **vakje van de Beschrijving**, omvat het nieuwe domein u wilt, evenals timeframe wanneer u het nieuwe domein live wilt gaan.
-1. Voltooi het invullen van de dozen voor het steungeval, dan klik **voorleggen**.
+1. Begin creating a support ticket on Experience League.
+1. In the **Description** box, include the new new domain you want, as well as the timeframe when you want the new domain to go live.
+1. Finish filling out the boxes for the support case, then click **Submit**.
 
-U kunt ook Workfront Support bellen om hulp bij het wijzigen van uw domein te krijgen.
+You can also call Workfront Support to get help changing your domain.
 
-## Werk het nieuwe domein bij als u een klant SSO bent
+## Update the new domain if you are an SSO customer
 
-Als uw bedrijf SSO gebruikt, worden de volgende stappen vereist nadat u uw Workfront domein hebt veranderd.
+If your company utilizes SSO, the following steps are required after you have your Workfront domain changed.
 
 >[!NOTE]
 >
->Dit is niet beschikbaar als het Workfront-exemplaar van uw organisatie is ingeschakeld met Adobe IMS. Zie uw netwerk of beheerder van IT als u meer informatie nodig hebt.
+>This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
 
 {{step-1-to-setup}}
 
-1. In linkerzijbalk, klik **Systeem** > **Info van de Klant** en zorg ervoor dat uw domein op de pagina van Info van de Klant wordt bijgewerkt.
+1. In the left sidebar, click **System** > **Customer Info** and make sure that your domain is updated on the Customer Info page.
 
-1. In linkerzijbalk, klik **Systeem** > **Enige Sign-On (SSO)**.
+1. In the left sidebar, click **System** > **Single Sign-On (SSO)**.
 
-1. Klik **Download SAML 2.0 Meta-gegevens**.
-1. Nadat het bestand is gedownload, opent u het en controleert u het volgende:
+1. Click **Download SAML 2.0 Metadata**.
+1. After the file is downloaded, open it and make sure of the following:
 
-   1. **entityID** richt aan het nieuwe domein.
-   1. Alle locaties in **`<md:AssertionConsumerService>`** verwijzen naar het nieuwe domein.
+   1. **entityID** is pointing to the new domain.
+   1. All locations within **`<md:AssertionConsumerService>`** point to the new domain.
 
-1. Geef het gedownloade metagegevensbestand op aan uw Identiteitsprovider zodat deze het op hun einde kan bijwerken.
-1. Zorg ervoor dat het domein wordt bijgewerkt voor alle Workfront-integraties die door uw organisatie worden gebruikt.
+1. Provide the downloaded metadata file to your Identity Provider so that they can update it on their end.
+1. Make sure the domain is updated for all Workfront integrations used by your organization.
+-->

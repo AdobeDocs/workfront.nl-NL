@@ -6,9 +6,9 @@ hide: true
 feature: System Setup and Administration
 role: Admin
 exl-id: bf3c6c6f-ddd5-42d0-9efe-b5eb94549f85
-source-git-commit: bf8e6c2b8a45cf65840a2ac8b3c25d11266d49f9
+source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '13'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,11 @@ ht-degree: 0%
 
 {{important-admin-console-onboard}}
 
-Adobe Workfront wijzigt het systeembeheer van gebruikers en wachtwoorden. Deze veranderingen zullen uitrollen in een gefaseerde versie genoemd **Verbeterde ervaring van de Authentificatie**. De verbeterde Authentificatie biedt gebruikers een consistentere en veilige login ervaring over alle producten en de diensten van Workfront.
+<!--REMOVE ME MARCH 2026-->
 
-De volgende tabel bevat details over de huidige en toekomstige functionaliteit:
+<!--Adobe Workfront is changing the system management of users and passwords. These changes will roll out in a phased release called **Enhanced Authentication** experience. Enhanced Authentication offers users a more consistent and secure sign-in experience across all Workfront products and services.
+
+The following table provides details about current and future functionality:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,83 +32,83 @@ De volgende tabel bevat details over de huidige en toekomstige functionaliteit:
  <col data-mc-conditions=""> 
  <thead> 
   <tr> 
-   <th> <p><strong> Eigenschap </strong> </p> </th> 
-   <th><strong> Verouderde Authentificatie </strong> </th> 
-   <th><strong> Verbeterde Authentificatie 1.0 </strong> </th> 
-   <th> <p>Verbeterde verificatie 2.0</p> </th> 
+   <th> <p><strong>Feature</strong> </p> </th> 
+   <th><strong>Legacy Authentication</strong> </th> 
+   <th><strong>Enhanced Authentication 1.0</strong> </th> 
+   <th> <p>Enhanced Authentication 2.0</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td colspan="3"> <p><strong> Login opties </strong> </p> </td> 
+   <td colspan="3"> <p><strong>Login options</strong> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Eén gebruikersnaam inschakelen voor alle Workfront-producten en -services, waaronder training, ondersteuning en andere</p> </td> 
-   <td>Niet beschikbaar</td> 
-   <td> <p>Niet beschikbaar</p> </td> 
+   <td> <p>Enable a single username to be used for all Workfront products and services, including training, support, and others</p> </td> 
+   <td>Not available</td> 
+   <td> <p>Not available</p> </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Hetzelfde e-mailadres gebruiken in Workfront-instanties</p> </td> 
-   <td> <p>✓</p> <p>Beschikbaar vanaf de release 2019.3</p> </td> 
-   <td> <p>✓</p> <p>Beschikbaar vanaf de release 2019.3</p> </td> 
-   <td> <p>✓</p> <p>Beschikbaar vanaf de release 2019.3</p> </td> 
+   <td> <p>Allow using the same email address across Workfront instances</p> </td> 
+   <td> <p>✓</p> <p>Available as of the 2019.3 release</p> </td> 
+   <td> <p>✓</p> <p>Available as of the 2019.3 release</p> </td> 
+   <td> <p>✓</p> <p>Available as of the 2019.3 release</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>E-mailadressen zijn hoofdlettergevoelig</p> </td> 
-   <td> <p>✓</p> <p>Beschikbaar vanaf de release 2019.3</p> </td> 
-   <td> <p>✓</p> <p>Meerdere gebruikers kunnen niet hetzelfde e-mailadres hebben als het adres alleen per geval verschilt. </p> </td> 
-   <td> <p>✓</p> <p>Meerdere gebruikers kunnen niet hetzelfde e-mailadres hebben als het adres alleen per geval verschilt. </p> <p>Workfront-beheerders zullen eind 2019 op de hoogte worden gesteld om dubbele e-mailadressen op te lossen.</p> </td> 
+   <td> <p>Email addresses are case-insensitive</p> </td> 
+   <td> <p>✓</p> <p>Available as of the 2019.3 release</p> </td> 
+   <td> <p>✓</p> <p>Multiple users cannot have the same email address if the address differs only by case. </p> </td> 
+   <td> <p>✓</p> <p>Multiple users cannot have the same email address if the address differs only by case. </p> <p>Workfront administrators will be notified toward the end of 2019 to begin fixing duplicate email addresses.</p> </td> 
   </tr> 
   <tr> 
-   <td colspan="3"> <p><strong> de beheersopties van het Wachtwoord </strong> </p> </td> 
+   <td colspan="3"> <p><strong>Password management options</strong> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Een e-mailbericht voor het opnieuw instellen van wachtwoorden voor een gebruiker uitnodigen als Workfront-beheerder</p> </td> 
-   <td> <p>Niet beschikbaar </p> </td> 
+   <td> <p>Instigate a password reset email for a user as the Workfront administrator</p> </td> 
+   <td> <p>Not available </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Een tijdelijk wachtwoord instellen voor een gebruiker als Workfront-beheerder</p> </td> 
+   <td> <p>Set a temporary password for a user as the Workfront administrator</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p>Niet gepland</p> <p>Deze functionaliteit is geen best practice voor beveiliging</p> </td> 
-   <td> <p>Niet gepland</p> <p>Deze functionaliteit is geen best practice voor beveiliging</p> </td> 
+   <td> <p>Not planned</p> <p>This functionality is not a security best practice</p> </td> 
+   <td> <p>Not planned</p> <p>This functionality is not a security best practice</p> </td> 
   </tr> 
   <tr> 
-   <td colspan="3"> <p><strong> de beleidsvereisten van het Wachtwoord </strong> </p> </td> 
+   <td colspan="3"> <p><strong>Password policy requirements</strong> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Gebruikers moeten hun wachtwoorden opnieuw instellen na een bepaald tijdsbestek</p> </td> 
+   <td> <p>Require users to reset passwords after a certain timeframe</p> </td> 
    <td>✓</td> 
-   <td> <p>Niet gepland</p> </td> 
+   <td> <p>Not planned</p> </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Gebruikers beperken tot het gebruik van een vorig wachtwoord </p> </td> 
+   <td> <p>Restrict users from using a previous password </p> </td> 
    <td>✓</td> 
-   <td>Niet gepland </td> 
+   <td>Not planned </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Beveiliging tegen pogingen tot onjuiste invoer van wachtwoord </p> </td> 
-   <td> <p>✓ </p> <p>Hiermee vergrendelt u het account nadat 5 pogingen tot het invoeren van een onjuist wachtwoord zijn uitgevoerd. De wachttijd die vereist is nadat de vergrendeling is geconfigureerd door de Workfront-beheerder</p> </td> 
-   <td> <p>✓</p> <p>De wachttijd wordt exponentieel verhoogd na elk opeenvolgend onjuist wachtwoord op basis van best practices in de branche; de vereiste tijd kan niet door de Workfront-beheerder worden geconfigureerd</p> </td> 
-   <td> <p>✓</p> <p>Gebruikt een lock-out algoritme die proactief een verscheidenheid van verdacht gedrag blokkeert.</p> </td> 
+   <td> <p>Safeguard against incorrect password entry attempts </p> </td> 
+   <td> <p>✓ </p> <p>Locks the account after 5 incorrect password entry attempts. The wait time required after lockout is configured by the Workfront administrator</p> </td> 
+   <td> <p>✓</p> <p>Wait time is exponentially increased after each successive incorrect password based on industry best practices; the time required is not configurable by the Workfront administrator</p> </td> 
+   <td> <p>✓</p> <p>Uses a lock-out algorithm that proactively blocks a variety of suspicious behavior.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Combinatie van kleine letters, hoofdletters, cijfers en speciale tekens vereisen</p> </td> 
+   <td> <p>Require a mix of lowercase, uppercase, numbers, and special characters</p> </td> 
    <td>✓</td> 
-   <td> <p>✓ </p> <p>Meer flexibiliteit bij het kiezen van specifieke vereisten</p> </td> 
+   <td> <p>✓ </p> <p>Enhanced flexibility in choosing specific requirements</p> </td> 
    <td> <p>✓</p> <p> 
      </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Minimumlengte voor wachtwoorden instellen </p> </td> 
-   <td> Niet beschikbaar </td> 
+   <td> <p>Set a minimum password length </p> </td> 
+   <td> Not available </td> 
    <td> ✓ </td> 
    <td> <p>✓</p> </td> 
   </tr> 
@@ -117,55 +119,55 @@ De volgende tabel bevat details over de huidige en toekomstige functionaliteit:
     <td>Not available</td> 
     <td> <p>✓</p> </td> 
    </tr>
-  --> 
-  <tr> 
-   <td colspan="3"> <p><strong>Ondersteuning voor Single Sign-On Protocol</strong></p> </td> 
-   <td> </td> 
+  -->
+<!--<tr> 
+   <td colspan="3"> <p><strong>Single Sign-On Protocol support</strong></p> </td> 
+   <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td> <p>Ondersteunt SSO-integratie die compatibel is met Active Directory- en LDAP-protocollen</p> </td> 
-   <td> ✓ </td> 
-   <td> <p> Vervangen</p> <p>Active Directory-, Azure- en LDAP-systemen moeten SAML 2.0 gebruiken</p> </td> 
-   <td> <p>Vervangen</p> <p>Active Directory-, Azure- en LDAP-systemen kunnen worden geconfigureerd met gecodeerde SAML 2.0- of OpenID Connect.</p> </td> 
+   <td> <p>Supports SSO integrations that are compliant with Active Directory and LDAP protocols</p> </td> 
+   <td> ✓&nbsp;</td> 
+   <td> <p> Deprecated</p> <p>Active Directory, Azure, and LDAP systems should use SAML 2.0</p> </td> 
+   <td> <p>Deprecated</p> <p>Active Directory, Azure, and LDAP systems can be configured with encrypted SAML 2.0 or OpenID Connect.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Steunt protocollen SSO die met SAML 2.0 volgzaam zijn </p> </td> 
+   <td> <p>Supports SSO protocols that are compliant with SAML 2.0&nbsp;</p> </td> 
    <td>✓</td> 
-   <td> ✓ </td> 
+   <td> ✓&nbsp;</td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Ondersteunt geopende ID Connect-protocollen</p> </td> 
-   <td> <p>Niet beschikbaar</p> </td> 
-   <td> <p>Niet beschikbaar</p> </td> 
+   <td> <p>Supports Open ID Connect protocols</p> </td> 
+   <td> <p>Not available</p> </td> 
+   <td> <p>Not available</p> </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p> De Workfront-aanmeldingspagina configureren om altijd om te leiden naar de aanmeldingspagina van de identiteitsprovider </p> </td> 
-   <td> Standaard ingeschakeld en kan niet worden uitgeschakeld</td> 
-   <td> <p>✓</p> <p>De Workfront-beheerder kan de aanmeldingspagina zo configureren dat deze wordt omgeleid naar de aanmeldingspagina van de identiteitsprovider, of kan een of meer aanmeldknoppen configureren.</p> </td> 
-   <td> <p>✓</p> <p> Workfront-beheerders kunnen de aanmeldingspagina zo configureren dat deze wordt omgeleid naar de aanmeldingspagina van de identiteitsprovider, of ze kunnen een of meer aanmeldknoppen configureren.</p> </td> 
+   <td> <p> Configure the Workfront login page to always redirect to the identity provider login page </p> </td> 
+   <td> Enabled by default and cannot be disabled</td> 
+   <td> <p>✓</p> <p>Workfront administrator can configure the login page to redirect to the identity provider login page, or can configure a login button or buttons.</p> </td> 
+   <td> <p>✓</p> <p> Workfront administrators can configure the login page to redirect to the identity provider login page, or can configure a login button or buttons.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Elke instantie toestaan om meerdere SSO-providers in te schakelen</p> </td> 
-   <td> <p>NVT</p> </td> 
-   <td> <p>Niet gepland</p> </td> 
+   <td> <p>Allow each instance to enable multiple SSO providers</p> </td> 
+   <td> <p>N/A</p> </td> 
+   <td> <p>Not planned</p> </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td colspan="3"> <p><strong> de steun van het Milieu </strong> </p> </td> 
-   <td> </td> 
+   <td colspan="3"> <p><strong>Environment support</strong> </p> </td> 
+   <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td> <p>Eén gebruikersnaam en wachtwoord voor voorvertoningsomgevingen</p> </td> 
-   <td> <p>Niet beschikbaar</p> </td> 
-   <td> <p>Niet beschikbaar</p> </td> 
+   <td> <p>A single username and password for Preview environments</p> </td> 
+   <td> <p>Not available</p> </td> 
+   <td> <p>Not available</p> </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Eén gebruikersnaam en wachtwoord voor Sandbox-omgevingen</p> </td> 
-   <td> <p>Niet beschikbaar</p> </td> 
-   <td> <p>Niet beschikbaar</p> </td> 
+   <td> <p>A single username and password for Sandbox environments</p> </td> 
+   <td> <p>Not available</p> </td> 
+   <td> <p>Not available</p> </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <!--
@@ -181,6 +183,5 @@ De volgende tabel bevat details over de huidige en toekomstige functionaliteit:
     <td> ✓</td> 
     <td> <p>✓</p> </td> 
    </tr>
-  --> 
- </tbody> 
-</table>
+   </tbody> 
+</table>-->

@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a0617270-e233-4ebe-a5ee-8df7a8a85823
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: d2dd148c8b7a08f4ea9a13e325a33f753eea2d7d
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -96,17 +96,9 @@ Voor informatie, zie [ bedrijven ](../../administration-and-setup/set-up-workfro
 
 Een gebruiker moet actief zijn om te worden weergegeven in &#39;type-aheadvelden&#39; van alle andere objecten wanneer hij toewijzingen maakt of deze deelt.
 
-U kunt gebruikers deactiveren van de gebruikerspagina of terwijl u een gebruiker bewerkt.
+U moet gebruikers deactiveren via de [!UICONTROL Adobe Admin Console] .
 
-Voor informatie over het deactiveren van gebruikers, zie [ een gebruiker ](../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md) deactiveren of reactiveren.
-
->[!IMPORTANT]
->
->Als uw organisatie is aangemeld bij de [!DNL Adobe Business Platform] , moet u gebruikers deactiveren via de [!UICONTROL Adobe Admin Console] .
->
->Voor instructies bij het deactiveren van een gebruiker in [!UICONTROL Adobe Admin Console], zie de sectie &quot;verwijder gebruikers&quot;in artikel [ individueel gebruikers ](https://helpx.adobe.com/nl/enterprise/using/manage-users-individually.html) leiden of uw [!UICONTROL Adobe Admin Console] Beheerder contacteren.
->
->Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan [!DNL Adobe Business Platform] is genegeerd, zie [ Op platform-gebaseerde beleidsverschillen (Van Bedrijfs Adobe Workfront/Adobe Platform) ](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+Voor instructies bij het deactiveren van een gebruiker in [!UICONTROL Adobe Admin Console], zie de sectie &quot;verwijder gebruikers&quot;in artikel [ individueel gebruikers ](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) leiden of uw [!UICONTROL Adobe Admin Console] Beheerder contacteren.
 
 ## Teams
 

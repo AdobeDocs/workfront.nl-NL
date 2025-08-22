@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: 09bb41e16da89edd2c2cbfb5a85213045e52394d
+source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '684'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ U kunt beheren welke informatie gebruikers voor andere gebruikers kunnen bekijke
 1. Beginnen creërend of het uitgeven van het toegangsniveau, zoals die in [ wordt verklaard creeer of wijzig douanetoegangsniveaus ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. U wijzigt als volgt de mogelijkheid voor gebruikers met een abonnement- of werkvergunning om de profielen van andere gebruikers weer te geven:
 
-   1. Klik het tandwielpictogram ![](assets/gear-icon-settings.png) op de **2&rbrace; knoop van de Mening &lbrace;aan het recht van** Gebruikers **.**
+   1. Klik het tandwielpictogram ![](assets/gear-icon-settings.png) op de **2} knoop van de Mening {aan het recht van** Gebruikers **.**
 
    1. Schakel **Info van het Contact van de Mening** uit, dan klik X om **te sluiten verfijnen uw montages** doos.
 
@@ -79,16 +79,17 @@ U kunt beheren welke informatie gebruikers voor andere gebruikers kunnen bekijke
     <col> 
     <col> 
     <tbody> 
-     <tr> 
-      <td role="rowheader"><strong> creeer </strong> </td> 
-      <td> <p>Hiermee kunnen gebruikers gebruikers maken.<br> Deze optie wordt toegelaten door gebrek.</p> 
-     <p><b> NOTA </b>: Dit is niet beschikbaar als uw organisatie aan Adobe Admin Console is bezet. Zie uw netwerk of beheerder van IT als u meer informatie nodig hebt.</p>
+    <!--DELETE THIS SECTION MARCH 2026-->
+     <!-- <tr> 
+     <td role="rowheader"><strong>Create</strong> </td> 
+      <td> <p>Allows users to create users.<br>This option is enabled by default.</p> 
+     <p><b>NOTE</b>: This is not available if your organization has been onboarded to the Adobe Admin Console. See your network or IT administrator if you need more information.</p>
         </td>  
      </tr> 
      <tr> 
-      <td role="rowheader"><strong> Schrapping </strong> </td> 
-      <td> <p> Hiermee kunnen gebruikers de gebruikers verwijderen die ze zelf hebben gemaakt.<br> Deze optie wordt toegelaten door gebrek.</p> <p><b> NOTA </b>: Dit is niet beschikbaar als uw organisatie aan Adobe Admin Console is bezet. Zie uw netwerk of beheerder van IT als u meer informatie nodig hebt.</p> </td> 
-     </tr> 
+      <td role="rowheader"><strong>Delete</strong> </td> 
+      <td> <p> Allows users to delete the users they have created themselves.<br>This option is enabled by default.</p> <p><b>NOTE</b>: This is not available if your organization has been onboarded to the Adobe Admin Console. See your network or IT administrator if you need more information.</p> </td> 
+     </tr> -->
      <tr> 
       <td role="rowheader"><strong> Admin van de Gebruiker (Alle Gebruikers) </strong> </td> 
       <td> <p>Hiermee kunnen gebruikers het volgende doen voor alle gebruikers in Workfront:</p> 

@@ -1,5 +1,5 @@
 ---
-title: Controlelogboeken
+title: Auditlogboeken
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
+source-git-commit: 5a2df341a54d305807a1c9f175baf60b9007ffa2
 workflow-type: tm+mt
-source-wordcount: '1523'
+source-wordcount: '1351'
 ht-degree: 0%
 
 ---
@@ -252,19 +252,24 @@ Het systeem produceert een ingang van het de controlelogboek van de Rollen van d
 
 Voor meer informatie over het vormen van baanrollen, zie [ baanrollen ](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) creëren en beheren.
 
-### Aanmeldingspoging {#login-attempt}
+<!--DELETE THIS SECTION MARCH 2026-->
 
-Het systeem genereert een logbestandvermelding van een Login-poging wanneer een gebruiker een van de volgende handelingen uitvoert:
+<!--
+### Login Attempt {#login-attempt}
 
-* Meld u aan, meldt u zich af of mislukt een aanmeldingspoging in Workfront (in een browser en in de mobiele app)
-* Meld u aan, meldt u zich af of mislukt een aanmeldingspoging bij Workfront-integratie (zoals Workfront voor Slack)
-* Aanmelden of zich afmelden bij de Workfront API
+The system generates a Login Attempt audit log entry when a user does one of the following actions:
 
-Login Attempt Logs registreert niet wanneer een beheerder van Workfront Login als eigenschap gebruikt.
+* Logs in, logs out, or fails a login attempt in Workfront (in a browser and in the mobile app)
+* Logs in, logs out, or fails a login attempt in any Workfront integration (such as Workfront for Slack)
+* Logs in or logs out of the Workfront API
+
+Login Attempt Logs do not record when a Workfront administrator uses the Log In As feature.
 
 >[!NOTE]
 >
->Dit is niet beschikbaar als uw organisatie is aangemeld bij de Adobe Admin Console. Zie uw netwerk of beheerder van IT als u meer informatie nodig hebt.
+>This is not available if your organization has been onboarded to the Adobe Admin Console. See your network or IT administrator if you need more information.
+
+-->
 
 ### Prioriteit {#priority}
 
@@ -345,21 +350,17 @@ Voor meer informatie over taak en uitgevende voorkeur, zie [ taak voor het hele 
 
 ### Gebruiker {#user}
 
-Het systeem produceert een ingang van het de controlelogboek van de Gebruiker wanneer een gebruiker één van de volgende acties doet:
+<!--DELETE THIS SECTION MARCH 2026-->
+<!--
+The system generates a User audit log entry when a user does one of the following actions:
 
-* Hiermee wordt een gebruiker gemaakt
-
-  <!--
-  DRAFTED IN FLARE:
-  Gevorg checking with Jonah on whether this note should be here:
-  
-  -->
+* Creates a user
 
   >[!NOTE]
   >
-  >Dit is niet beschikbaar als uw organisatie is aangemeld bij de Adobe Admin Console. Zie uw netwerk of beheerder van IT als u meer informatie nodig hebt.
+  >This is not available if your organization has been onboarded to the Adobe Admin Console. See your network or IT administrator if you need more information.
 
-* Hiermee wordt een gebruiker verwijderd
-* Hiermee wijzigt u het toegangsniveau, het bedrijf, het team of de groep van een gebruiker
-* Hiermee wordt een gebruiker geactiveerd
-* Hiermee wordt een gebruiker gedeactiveerd
+* Deletes a user
+* Changes a user's access level, company, team, or group
+* Activates a user
+* Deactivates a user-->

@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87f1b6c0-6b74-4eac-87cd-899b1c74af25
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '52'
 ht-degree: 0%
 
 ---
@@ -22,30 +22,32 @@ ht-degree: 0%
 
 {{important-admin-console-onboard}}
 
-
-Workfront biedt een centraal beheerde SSO-configuratie (Single Sign-On) die Workfront integreert met uw bestaande SSO-oplossing. Deze configuratie is beschikbaar voor zowel OnDemand- als OnPremise Enterprise-klanten.
-
-Als u de SSO-functionaliteit in Workfront wilt gebruiken, moet uw organisatie een SSO-toepassing instellen. Vervolgens kunt u Workfront zo configureren dat deze kan communiceren met uw SSO-oplossing.
-
-Met federatieve oplossingen kunnen gebruikers zich aanmelden bij al hun toepassingen door hun gebruikersnaam en wachtwoord in te voeren in een gecentraliseerd aanmeldingsportal.
-
-![ SSO federated ](assets/overview-sso-wf-fed-only.png)
+<!--REMOVE ME MARCH 2026-->
 
 
-## Uw firewall configureren
+<!--Workfront provides a centrally managed single sign-on (SSO) configuration that integrates Workfront with your existing corporate SSO solution. This configuration is available for both OnDemand and OnPremise Enterprise customers. 
 
-Wanneer Workfront een SSO-oplossing gebruikt, wordt een verbinding met de server op de opgegeven poort tot stand gebracht.
+To use the SSO functionality in Workfront, your organization needs to set up an SSO application. You can then configure Workfront so that it can communicate with your SSO solution.
 
-Als uw firewall of postserver wordt gevormd om toegang slechts tot specifieke verkopers toe te staan, moet u bepaalde Workfront IP adressen aan uw lijst van gewenste personen van de firewall toevoegen. Voor meer informatie, zie [ de lijst van gewenste personen van uw firewall ](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
+Federated solutions allow users to log in to all their applications by entering their username and password in a centralized login portal.
 
-## Single Sign-On configureren
+![SSO federated](assets/overview-sso-wf-fed-only.png)
 
-Workfront integreert met de volgende SSO-oplossingen:
 
-* Federale oplossingen die SAML 2.0 ondersteunen
+## Configure your firewall
 
-  Voor informatie over het integreren van Workfront met SAML 2.0, zie [ Adobe Workfront met SAML 2.0 ](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md) vormen.
+When using an SSO solution, Workfront initiates a connection to your server on the specified port.
 
-* Federale oplossingen die SAML 2.0 ondersteunen met ADFS
+If your firewall or mail server is configured to allow access only to specific vendors, you must add certain Workfront IP addresses to your firewall allowlist. For more information, see [Configure your firewall's allowlist](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
-  Voor informatie over het integreren van Workfront met SAML 2.0 die ADFS gebruiken, zie [ Adobe Workfront met SAML 2.0 vormen gebruikend ADFS ](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md).
+## Configure Single Sign-On
+
+Workfront integrates with the following SSO solutions:
+
+* Federated solutions that support SAML 2.0
+
+  For information about integrating Workfront with SAML 2.0, see [Configure Adobe Workfront with SAML 2.0](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md).
+
+* Federated solutions that support SAML 2.0 using ADFS
+
+  For information about integrating Workfront with SAML 2.0 using ADFS, see [Configure Adobe Workfront with SAML 2.0 using ADFS](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md).-->

@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 7549c9699a86b6f87e5562efd7e586be282c5619
+source-git-commit: d2dd148c8b7a08f4ea9a13e325a33f753eea2d7d
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1160'
 ht-degree: 0%
 
 ---
@@ -156,18 +156,28 @@ Voor meer informatie over Enige Sign-On, zie [ Overzicht van enige sign-on in Ad
 
 >[!IMPORTANT]
 >
->De op deze pagina beschreven procedure is alleen van toepassing op organisaties die nog niet zijn aangemeld bij de [!DNL Adobe Admin Console] . Als uw organisatie is aangemeld bij de [!DNL Adobe Admin Console] , is geen actie nodig.
+>De in deze sectie beschreven procedure is verwijderd omdat deze alleen van toepassing was op organisaties die nog niet aan boord waren van de Adobe Admin Console.
 >
->Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan [!DNL Adobe Admin Console] is genegeerd, zie [ Op platform-gebaseerde beleidsverschillen ([!UICONTROL Adobe Workfront]/ [!UICONTROL Adobe Business Platform]) ](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Alle Workfront-organisaties zijn nu aan boord van de Adobe Admin Console.
+
+<!--DELETE THIS SECTION MARCH 2026-->
+
+<!--
+
+>[!IMPORTANT]
+>
+>The procedure described on this page applies only to organizations that have not yet been onboarded to the [!DNL Adobe Admin Console]. If your organization has been onboarded to the [!DNL Adobe Admin Console], no action is necessary.
+>
+>For a list of procedures that differ based on whether your organization has been onboarded to the [!DNL Adobe Admin Console], see [Platform-based administration differences ([!UICONTROL Adobe Workfront]/[!UICONTROL Adobe Business Platform])](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 
-Als u uw zandbak van de Voorproef wilt vormen om met Één Enige Sign-On oplossing te werken, kunt u dit doen door het los van uw milieu van de Productie te vormen. De configuratie SSO in de zandbak van de Voorproef is onafhankelijk van uw configuratie SSO in het milieu van de Productie.
+If you want to configure your Preview Sandbox to work with a Single Sign-On solution, you can do so by configuring it separately from your Production environment. The SSO configuration in the Preview Sandbox is independent from your SSO configuration in the Production environment.
 
-Wanneer uw zandbak van de Voorproef (elk weekend) verfrist, wordt de informatie SSO niet gekopieerd van uw milieu van de Productie om de configuratie van de Sandbox van de Voorproef te beschrijven.
+When your Preview Sandbox refreshes (every weekend), the SSO information is not copied from your Production environment to overwrite the Preview Sandbox configuration.
 
-De stappen voor het vormen van enig teken-binnen in de zandbak van de Voorproef zijn gelijkaardig aan die voor het vormen van het in het milieu van de Productie.
+The steps for configuring single sign-on in the Preview Sandbox are similar to those for configuring it in the Production environment.
 
-Voor meer informatie over het vormen [!DNL Workfront] met SSO, zie [ Overzicht van enige teken-op in Adobe Workfront ](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+For more information about configuring [!DNL Workfront] with SSO, see [Overview of single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).-->
 
 ## Automatische herberekening van projecttijdlijnen
 

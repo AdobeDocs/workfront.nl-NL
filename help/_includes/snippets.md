@@ -1,7 +1,7 @@
 ---
-source-git-commit: 4e7aa16333c7a24ee2ef67fb964be70ed45cd369
+source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
 workflow-type: tm+mt
-source-wordcount: '2474'
+source-wordcount: '2471'
 ht-degree: 0%
 
 ---
@@ -92,9 +92,9 @@ U kunt ervoor zorgen u de juiste groep met het team associeert door over het te 
 
 >[!IMPORTANT]
 >
->De op deze pagina beschreven procedure is alleen van toepassing op organisaties die nog niet aan boord van de Adobe Admin Console zijn.
+>De op deze pagina beschreven procedure is verwijderd omdat deze alleen van toepassing was op organisaties die nog niet aan boord waren van de Adobe Admin Console.
 >
->Als uw organisatie aan Adobe Admin Console is bezet, zie [ Op platform-gebaseerde beleidsverschillen (Adobe Workfront/Adobe Bedrijfs Platform) ](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Alle Workfront-organisaties zijn nu aan boord van de Adobe Admin Console.
 
 ## Stap 1 - Aan gebruikers worden {#step-1-to-users}
 
@@ -281,7 +281,7 @@ U moet de juiste insteekmodule installeren voor de Adobe Creative Cloud-toepassi
    * **Mijn werkruimten**: De werkruimten van vertoningen u creeerde.
    * **Andere werkruimten**: Toont alle werkruimten in de Planning van Workfront, met inbegrip van degenen die met u worden gedeeld.
 
-   Voor alle andere gebruikers, alle werkruimten u creeerde of met u vertoning in het **1&rbrace; gebied van de Werkruimten &lbrace;wordt gedeeld.**
+   Voor alle andere gebruikers, alle werkruimten u creeerde of met u vertoning in het **1} gebied van de Werkruimten {wordt gedeeld.**
 
 ## Belangrijke intro voor Workfront-planning - {#planning-important-intro}
 
@@ -315,11 +315,11 @@ U moet de juiste insteekmodule installeren voor de Adobe Creative Cloud-toepassi
 
 <!-- Manage Work -->
 
-## Stap 1 - Aan portfolio's ophalen - {#step1-to-portfolios}
+## Stap 1 - Aan portfolio&#39;s ophalen - {#step1-to-portfolios}
 
 1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Portfolios]**.
 
-## Stap 1 - Aan Programma's worden - {#step1-to-programs}
+## Stap 1 - Aan Programma&#39;s worden - {#step1-to-programs}
 
 1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Programs]**.
 
@@ -484,7 +484,7 @@ Alle teaminstellingen, inclusief de statussen die zijn gekoppeld aan de knop Ger
 1. Dit is een fragmentstap, de eerste van twee.
 1. Dit is een fragmentstap, de tweede van twee.
 
-![ beeld ](/help/_includes/assets/adobecclogo.png)
+![afbeelding](/help/_includes/assets/adobecclogo.png)
 
 <!--
 

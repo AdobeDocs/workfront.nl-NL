@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f9c543a-2ae2-4c2c-9c4d-647079263a7e
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '19'
 ht-degree: 0%
 
 ---
@@ -21,130 +21,132 @@ ht-degree: 0%
 
 {{important-admin-console-onboard}}
 
-Wanneer SSO (Single Sign-On) is ingeschakeld in uw Adobe Workfront-instantie, kunnen uw gebruikers zich aanmelden bij Workfront met hun SSO-referenties.
+<!--REMOVE ME MARCH 2026-->
 
-Als u een bestaand systeem hebt dat al is gevuld met gebruikers die zijn gekoppeld aan SSO-referenties, kunt u de gebruikers-id&#39;s importeren in Workfront door een CSV-bestand (comma-separated values, door komma&#39;s gescheiden waarden) te importeren in Workfront.
+<!--When single sign-on (SSO) is enabled in your Adobe Workfront instance, your users can log into Workfront with their SSO credentials.
 
-Voor meer informatie over het integreren van Workfront met een SSO systeem, zie [ Overzicht van enige sign-on in Adobe Workfront ](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+If you have an existing system that is already populated with users associated with SSO credentials, you can import the users' IDs into Workfront by importing a comma-separated values (CSV) file into Workfront.
+
+For more information about integrating Workfront with an SSO system, see [Overview of single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
 
-## Toegangsvereisten
+## Access requirements
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
++++ Expand to view access requirements for the functionality in this article.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
+You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td><p>Nieuw: Standaard</p><p>of</p><p>Huidig: Plan</p></td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>New: Standard</p><p>Or</p><p>Current: Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een Workfront-beheerder zijn.</p>  </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a Workfront administrator.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## SSO-gebruikersnamen
+## SSO usernames
 
-Afhankelijk van welke oplossing SSO u gebruikt, kan de gebruikersbenaming in uw milieu SSO om het even welke volgend worden genoemd:
+Depending on what SSO solution you use, the username in your SSO environment can be called any of the following:
 
-* SSO-gebruikersnaam
-* Federatie-id
-* Federation-gebruikersnaam
+* SSO Username
+* Federation ID 
+* Federation Username
 
-Ongeacht wat de gebruikersbenaming in uw milieu SSO wordt geroepen, wordt de waarde van het gebied opgeslagen op het gebied van de Gebruikersnaam SSO, op het voorwerp van de Gebruiker.
+Regardless of what the username is called in your SSO environment, the value of the field is stored in the SSO Username field, on the User object.
 
-Uw gebruikers kunnen zich alleen aanmelden bij Workfront als hun SSO-gebruikersgegevens zijn bijgewerkt met hun profiel en hun SSO-gebruikersnaam en Workfront-gebruikersnaam worden opgenomen.
+In order for your users to be able to use their SSO credentials to log in to Workfront, you must update their profile to include their SSO Username, in addition to their Workfront username.
 
-Als Workfront-beheerder kunt u het veld SSO-gebruikersnaam voor uw Workfront-gebruikers bulksgewijs bijwerken door een lijst met gebruikersnamen te importeren in Workfront. Deze lijst moet:
+As a Workfront administrator, you can bulk update the SSO Username field for your Workfront users by importing a list of usernames into Workfront. This list must:
 
-* Bevat de Workfront-gebruikersnaam (GUID) en de bijbehorende SSO-gebruikersnaam voor elke gebruiker
-* Opslaan als CSV- of TSV-bestand.
+* Contain the Workfront User ID (GUID) as well as the corresponding SSO Username for each user
+* Be saved as a CSV or a TSV file. 
 
-Dit proces werkt bestaande SSO-gebruikersnamen in Workfront bij of voegt een nieuwe SSO-gebruikersnaam toe als deze ontbreekt voor gebruikers.
+This process either updates existing SSO Usernames in Workfront, or adds a new SSO Username, if one is missing for users.
 
-## Het importbestand voorbereiden {#prepare-the-import-file}
+## Prepare the import file {#prepare-the-import-file}
 
-U kunt uw importbestand voorbereiden door een rapport van alle gebruikers in Workfront op te stellen waarin de velden voor SSO-gebruikersnaam moeten worden bijgewerkt.
+You can start preparing your import file by building a report of all users in Workfront that must have their SSO Username fields updated.
 
-1. Bouw een gebruikersrapport in Workfront.
+1. Build a user report in Workfront.
 
-   Voor instructies bij de bouw van gebruikersrapporten in Workfront, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+   For instructions on building user reports in Workfront, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). 
 
-1. Selecteer de volgende gebieden in uw rapport:
+1. Select the following fields in your report:
 
-   | Veld | Toelichting |
+   |Field|Explanation|
    |---|---|
-   | Naam | De volledige naam van de Workfront-gebruiker. |
-   | ID | De id is de alfanumerieke GUID van Workfront. |
-   | SSO-gebruikersnaam | Door het veld SSO-gebruikersnaam toe te voegen, weet u zeker dat u geen gebruikersnamen overschrijft met het importeren. Dit veld moet leeg zijn voor alle gebruikers als uw gebruikers nog niet zijn bijgewerkt voor SSO. |
+   | Name |The full name of the Workfront user. |
+   | ID |The ID is the Workfront alphanumeric GUID. |
+   | SSO Username |Adding the SSO Username field to ensures that are no usernames you are overwriting with your import. This field should be blank for all users, if your users have not yet been updated for SSO. |
 
-   ![ Gebruikers met gebruikersbenaming SSO maar geen toegang ](assets/users-with-sso-username-and-no-sso-access-only-field.png)
+   ![Users with SSO username but no access](assets/users-with-sso-username-and-no-sso-access-only-field.png)
 
-1. Sla het rapport op.
-1. Klik **Uitvoer** bij de bovenkant van het rapport en voer het rapport naar Excel uit.
-1. Open het geëxporteerde Excel-bestand en voeg uw SSO-gebruikersnamen voor elke gebruiker toe in het rapport in de kolom Gebruikersnaam van SSO.
+1. Save the report. 
+1. Click **Export** at the top of the report and export the report to Excel. 
+1. Open the exported Excel file, and add your SSO Usernames for each user in the report in the SSO Username column.
 
    >[!IMPORTANT]
    >
-   >SSO-gebruikersnamen zijn hoofdlettergevoelig.
+   >SSO usernames are case-sensitive.
 
-1. Schrap alle kolommen in het dossier van Excel, behalve **identiteitskaart** en de **Sso- Gebruikersnaam** kolommen.
+1. Delete all columns in the Excel file, except  the **ID** and the **SSO Username** columns. 
 
-1. Schrap de kolomkopballen en zorg ervoor er geen lege rijen bij de bovenkant van het rapport zijn.
+1. Delete the column headers and ensure there are no blank rows at the top of the report.
 
-   Het dossier u voor het bijwerken van uw gebruikers van Workfront met de gebruikersnamen SSO **gebruikt moet** enkel 2 kolommen, in deze orde bevatten:
+   The file you are using for updating your Workfront users with the SSO usernames **must** contain just 2 columns, in this order:
 
-   * In de eerste kolom moet de Workfront-gebruikersnaam worden weergegeven (de gebruiker GUID in Workfront).
-   * De tweede kolom moet de Sso- Gebruikersnaam bevatten, aangezien het in uw SSO systeem toont.
-   * De kolommen mogen geen kopteksten hebben en er mogen geen lege rijen boven aan de lijst met namen staan.
+   * The first column must display the Workfront user ID (the user GUID as found in Workfront).
+   * The second column must contain the SSO Username, as it displays in your SSO system.
+   * The columns must have no headers, and there must not be any empty rows at the top of the list of names.
 
-     ![ de gebruikers CSV van de Update ](assets/update-users-for-sso-csv-file-for-import.png)
+     ![Update users CSV](assets/update-users-for-sso-csv-file-for-import.png)
 
-1. Sla het rapport op als een CSV- of TSV-bestand op uw computer.
+1. Save the report as a CSV or TSV file on your computer.
 
-## Uw gebruikers bijwerken voor SSO {#update-your-users-for-sso}
+## Update your users for SSO {#update-your-users-for-sso}
 
-Het proces om gebruikers voor SSO bij te werken of voegt het gebied van de Gebruikersnaam SSO aan uw gebruikers van Workfront toe als men niet aanwezig is, of werkt de waarde op dat gebied bij als er een waarde reeds verbonden aan de gebruikers is.
+The process of updating users for SSO either adds the SSO Username field to your Workfront users if one is not present, or updates the value in that field if there is a value already associated with the users.
 
 {{step-1-to-setup}}
 
-1. Klik **Systeem**, dan uitgezochte **Gebruikers van de Update voor SSO**.
+1. Click **System**, then select **Update Users For SSO**.
 
-1. Klik **kiezen Dossier** om voor het dossier te doorbladeren u voorbereidde.
+1. Click **Choose File** to browse for the file you prepared.
 
-   Voor meer informatie over hoe te om dit dossier voor te bereiden, zie [ het de invoerdossier ](#prepare-the-import-file) voorbereiden.
+   For more information about how to prepare this file, see [Prepare the import file](#prepare-the-import-file).
 
-1. Selecteer het dossier van waar het op uw computer wordt bewaard, dan klik **Open**.
+1. Select the file from where it is saved on your computer, then click **Open**.
 
-   Hiermee worden de SSO-gegevens ingevoegd in Workfront, zodat alle gebruikers zich met hun SSO-gegevens kunnen aanmelden bij Workfront.
+   This inserts the SSO credentials to Workfront, enabling all users to log in to Workfront using their SSO credentials.
 
-   **slechts staat `<SSO Configuration>` Authentificatie** het plaatsen toe wordt toegelaten voor alle gebruikers inbegrepen in CSV. Dit zorgt ervoor dat de gebruikers zich door SSO moeten aanmelden.
+   The **Only Allow `<SSO Configuration>` Authentication** setting is enabled for all users included in the CSV. This ensures that users must log in through SSO.
 
-## Verifieer SSO tegen de gebruikersnamen van Workfront van uw gebruikers
+## Verify SSO against your users' Workfront usernames
 
-Voor instructies bij de bouw van een gebruikersrapport dat Sso- Gebruikersnaam informatie bevat, zie [ het de invoerdossier ](#prepare-the-import-file) voorbereiden.
+For instructions on building a user report containing SSO Username information, see [Prepare the import file](#prepare-the-import-file).
 
-1. Voer een gebruikersrapport met SSO-gebruikersnaam in.
+1. Run a user report containing SSO Username information.
 
-   Bericht dat de kolom van de Gebruikersnaam SSO voor elke gebruiker wordt bevolkt.
+   Notice that the SSO Username column is populated for each user.
 
-1. Zorg ervoor dat de waarden voor de kolom Gebruikersnaam SSO overeenkomen met de gebruikersnaam van SSO op uw SSO-server.
-1. Als de kolom Gebruikersnaam SSO leeg is, werkt u de SSO-gebruikersnamen van uw gebruikers bij.
+1. Ensure that the values for the SSO Username column match the SSO Username on your SSO server.
+1. If the SSO Username column is blank, update your users' SSO Usernames.
 
-   ![ Gebruikers met gebied SSO ](assets/users-with-sso-field-updated.png)
+   ![Users with SSO field](assets/users-with-sso-field-updated.png)
 
-   Voor instructies bij het bijwerken van uw gebruikers voor SSO, zie [ Update uw gebruikers voor SSO ](#update-your-users-for-sso).
+   For instructions on updating your users for SSO, see [Update your users for SSO](#update-your-users-for-sso).-->

@@ -10,9 +10,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 7d909976-d3ff-4e60-9158-c3bffe498e6e
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 5a2df341a54d305807a1c9f175baf60b9007ffa2
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,11 @@ De beheerder van Workfront laat de integratie tussen Workfront en Frame.io toe d
 
 ## Toegangsvereisten
 
+<!--DELETE THIS SECTION MARCH 2026-->
+<!--
 >[!IMPORTANT]
 >
->Deze functionaliteit is alleen beschikbaar voor organisaties die zijn aangemeld bij de [!DNL Adobe Admin Console] .
+>This functionality is available only to organization that have been onboarded to the [!DNL Adobe Admin Console].-->
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
@@ -56,13 +58,13 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 +++
 
-## Vorm een gebrek [!DNL Frame.io] rekening [!BADGE &#x200B; Binnenkort &#x200B;]{type=Informative}
+## Vorm een gebrek [!DNL Frame.io] rekening [!BADGE  Binnenkort ]{type=Informative}
 
 Zodra een standaard [!DNL Frame.io] rekening opstelling is, hebben om het even welke projecten die in [!DNL Workfront] worden gecreeerd een spiegelproject dat in Frame.io wordt gecreeerd.
 
 >[!IMPORTANT]
 >
->Deze functie is binnenkort beschikbaar. Momenteel worden Frame.io-accounts handmatig toegevoegd door het Workfront-team. Neem contact op met uw accountvertegenwoordiger van de Adobe voor hulp.
+>Deze functie is binnenkort beschikbaar. Momenteel worden Frame.io-accounts handmatig toegevoegd door het Workfront-team. Neem contact op met uw Adobe-accountvertegenwoordiger voor hulp.
 
 ## Eén Frame.io-account configureren met een Workfront-groep
 
@@ -91,7 +93,7 @@ Wanneer een gebruiker duidelijk als gebruiker Frame.io in Workfront is en aan ee
 
 * Zij worden toegevoegd als Medewerker in Frame.io. <!--do we need to be more explicit about a frame license being provisioned for them?-->
 * Ze kunnen middelen van Frame.io naar Workfront verzenden voor formele controle en goedkeuring.
-* Ze kunnen informatie bekijken in de map voor one-way sync vanuit Workfront. [!BADGE &#x200B; Binnenkort &#x200B;]{type=Informative}
+* Ze kunnen informatie bekijken in de map voor one-way sync vanuit Workfront. [!BADGE  Binnenkort ]{type=Informative}
 
 Gebruikers van Frame.io inschakelen:
 
