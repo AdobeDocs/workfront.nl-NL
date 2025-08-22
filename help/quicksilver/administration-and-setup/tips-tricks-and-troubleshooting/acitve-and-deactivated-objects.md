@@ -98,7 +98,7 @@ Een gebruiker moet actief zijn om te worden weergegeven in &#39;type-aheadvelden
 
 U moet gebruikers deactiveren via de [!UICONTROL Adobe Admin Console] .
 
-Voor instructies bij het deactiveren van een gebruiker in [!UICONTROL Adobe Admin Console], zie de sectie &quot;verwijder gebruikers&quot;in artikel [ individueel gebruikers ](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) leiden of uw [!UICONTROL Adobe Admin Console] Beheerder contacteren.
+Voor instructies bij het deactiveren van een gebruiker in [!UICONTROL Adobe Admin Console], zie de sectie &quot;verwijder gebruikers&quot;in artikel [ individueel gebruikers ](https://helpx.adobe.com/nl/enterprise/using/manage-users-individually.html) leiden of uw [!UICONTROL Adobe Admin Console] Beheerder contacteren.
 
 ## Teams
 

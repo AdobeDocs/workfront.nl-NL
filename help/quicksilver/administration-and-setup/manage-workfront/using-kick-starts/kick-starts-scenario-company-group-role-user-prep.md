@@ -307,4 +307,4 @@ In de volgende tabellen worden de te importeren gebruikers en diverse gebruikers
 > 
 >Als een gebruiker de status Uitgeschakeld en In afwachting van goedkeuring binnen een paar minuten niet verlaat, kunt u de batch met gebruikers rechtstreeks aan de Adobe Admin Console toevoegen.
 >
->Voor instructies, zie [ veelvoudige gebruikers beheren | Bulk CSV upload ](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) in de documentatie van Adobe.
+>Voor instructies, zie [ veelvoudige gebruikers beheren | Bulk CSV upload ](https://helpx.adobe.com/nl/enterprise/using/bulk-upload-users.html) in de documentatie van Adobe.
