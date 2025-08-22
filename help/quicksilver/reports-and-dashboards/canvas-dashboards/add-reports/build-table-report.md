@@ -6,9 +6,9 @@ description: U kunt een lijstrapport aan een Dashboard van het Canvas toevoegen 
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+source-git-commit: 72344e5c1607ba6b4dd2a1e71a462bba93369b27
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '761'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ U kunt een lijstrapport aan een Dashboard van het Canvas toevoegen om uw gegeven
 
 ![ het rapportvoorbeeld van de Lijst ](assets/table-example-main.png)
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.
++++ Vouw uit om de vereisten voor toegang weer te geven. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -70,7 +70,7 @@ Er zijn vele configuratieopties beschikbaar voor het bouwen van een lijstrapport
 
 1. Klik **Nieuw Dashboard** in de hoger-juiste hoek.
 
-1. In **creeer dashboard** doos, ga de 2&rbrace; Naam van het dashboard **en** Beschrijving **in.**
+1. In **creeer dashboard** doos, ga de 2} Naam van het dashboard **en** Beschrijving **in.**
 
 1. Klik **creëren**.
 
@@ -106,8 +106,87 @@ Er zijn vele configuratieopties beschikbaar voor het bouwen van een lijstrapport
 
 1. Volg hieronder de stappen om de **sectie van de Montages van de Groep van de Drilldown** te vormen:
 
-   1. In het linkerpaneel, klik het **&#x200B;**&#x200B;pictogram van de montages van de Groep ![ van de Montages van de Groep ](assets/drilldown-group-icon.png).
+   1. In het linkerpaneel, klik het **** pictogram van de montages van de Groep ![ van de Montages van de Groep ](assets/drilldown-group-icon.png).
 
    1. Klik **toevoegen groeperend** knoop en dan het gebied selecteren u als groepering wilt tot stand brengen. De kolom voor cijfergroepering wordt weergegeven in de voorbeeldsectie aan de rechterkant.
 
 1. Klik **sparen** om het rapport tot stand te brengen en het toe te voegen aan het dashboard.
+
+## Een voorbeeld van een tabelrapport maken
+
+In deze sectie gaan we door met de stappen om een tabelrapport te maken dat goedkeuringen voor in behandeling zijnde documenten weergeeft.
+
+Voor meer informatie over de voorbeelden van het lijstrapport, zie [ een rapportdashboard voor overzicht en goedkeuringen ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) creëren.
+
+{{step1-to-dashboards}}
+
+1. In het linkerpaneel, klik **de Dashboards van het Canvas**.
+
+1. Klik **Nieuw Dashboard** in de hoger-juiste hoek.
+
+1. In **creeer dashboard** doos, ga de 2} Naam van het dashboard **en** Beschrijving **in.**
+
+1. Klik **creëren**.
+
+1. In **voeg rapport** doos toe, uitgezocht **creeer rapport**.
+
+1. Voor de linkerkant, uitgezochte **Lijst**.
+
+1. In de hoger-juiste hoek, klik **creëren rapport**.
+
+1. Volg hieronder de stappen om de **sectie van Details** te vormen:
+
+   1. Het type _wacht goedkeuringen_ op het **gebied van de Naam** in behandeling.
+   1. Typ een beschrijving op het **gebied van de Beschrijving**. Deze tekst wordt als knopinfo naast de naam van het diagram weergegeven.
+
+1. Volg hieronder de stappen om de **bouwt lijst** sectie te vormen:
+
+   1. In het linkerpaneel, klik het **kolommen van de Lijst** ![ pictogram van de kolommen van de Lijst ](assets/drilldown-column.png).
+   1. Klik **toevoegen kolom**.
+   1. De rol neer en selecteert **Goedkeuringen van het Document** > **Status**.
+   1. Voeg de volgende kolommen toe:
+
+   <table>
+    <tr>
+    <td><strong>Projectnaam</strong></td>
+    <td>Documentversie &gt; Document &gt; Project &gt; Naam</td>
+    </tr>
+    <tr>
+    <td><strong>Documentnaam</strong></td>
+    <td>De Versie van het document &gt; Document &gt; type <em> Naam </em> in het onderzoeksvakje.</td>
+    </tr>
+    <tr>
+    <td><strong>Documentversie</strong></td>
+    <td>Documentversie &gt; Document &gt; Versie</td>
+    </tr>
+    <tr>
+    <td><strong>Deadline</strong></td>
+    <td>Documentgoedkeuring &gt; Goedkeuringswerkgebied &gt; Deadline</td>
+    </tr>
+    <tr>
+    <td><strong>Gevraagd door</strong></td>
+    <td>De Goedkeuring van het document &gt; het Stadium van de Goedkeuring &gt; de Deelnemers van het Stadium van de Goedkeuring * &gt; Vraag &gt; type <em> Naam </em> in het onderzoeksvakje.</td>
+    </tr>
+    <tr>
+    <td><strong>Aangevraagde datum</strong></td>
+    <td>Document Approval &gt; Approval Stage &gt; Approval Stage Participants* &gt; Created at</td>
+    </tr>
+    <tr>
+    <td><strong>Fiatteur</strong></td>
+    <td>De Goedkeuring van het document &gt; het Stadium van de Goedkeuring &gt; de Deelnemers* &gt; de Gebruiker van de Deelnemer &gt; type <em> Naam </em> in het onderzoeksvakje.</td>
+    </tr>
+    </table>
+
+
+   *De Deelnemers van het Stadium van de goedkeuring worden beknot aan _Pa van het Stadium van de Goedkeuring._
+
+
+1. Volg hieronder de stappen om de **sectie van de Filter** te vormen:
+   1. In het linkerpaneel, klik het **** pictogram van het filterlusje van de Filter ![ pictogram.](assets/filter-tab.png)
+   1. Klik **uitgeven Filter**, dan **voeg voorwaarde** toe.
+   1. Klik in de lege voorwaardenfilter, dan klik **kiezen een Gebied**.
+   1. Selecteer **Status**.
+   1. Verander de exploitant in **Gelijk**, dan type _in afwachting van goedkeuring_ in textbox.
+      ![ hangende het filtervoorbeeld van de goedkeuringstabel ](assets/pending-approval-table-filter.png)
+   1. (Facultatief) voeg extra filters toe zoals die in de **Facultatieve hieronder sectie van filters** worden beschreven.
+1. Klik **sparen** in de hoger-juiste hoek van het scherm.
