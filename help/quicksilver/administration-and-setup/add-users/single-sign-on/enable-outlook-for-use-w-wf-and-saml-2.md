@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8a55d364-962a-4eef-8968-b2233a71cf31
-source-git-commit: af54faae1e78d7ffbe679fd82dfb5a3abd45f5cf
+source-git-commit: 9fa4f85c914121adddcba4189af1398021544776
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 0%
@@ -25,15 +25,16 @@ ht-degree: 0%
 >
 >Als onderdeel van deze wijziging heeft Microsoft besloten om de manier te wijzigen waarop tokens opnieuw worden ingeschakeld. Na **Juni 30, 2025**, zullen de beheerders niet meer tokens kunnen re-toelaten zelf-slechts de Steun van Microsoft kan uitzonderingen verlenen. **Op 1 Oktober, 2025, zullen de erfenistokens voor alle huurders worden uitgezet. Er worden geen uitzonderingen toegestaan.**
 
+<!--DELETE ME MARCH 2026-->
+
 Als u SAML 2.0 authentificatie toelaat en u uw gebruikers aan login aan Workfront van Microsoft Outlook wilt kunnen gebruikend hun geloofsbrieven van SAML 2.0, moet u SAML 2.0 toelaten om in toe:voegen-ins van het Bureau voor authentiek te verklaren.
 
 >[!NOTE]
 >
->Dit is niet beschikbaar als het Workfront-exemplaar van uw organisatie een aangepast SSO-portaal gebruikt.>
-><!--
->or is enabled with Adobe IMS>
->-->
->Zie uw netwerk of beheerder van IT als u meer informatie nodig hebt.
+>Dit is niet beschikbaar als het Workfront-exemplaar van uw organisatie een aangepast SSO-portaal gebruikt.
+>>Zie uw netwerk of beheerder van IT als u meer informatie nodig hebt.
+<!--
+or is enabled with Adobe IMS-->
 
 ## Toegangsvereisten
 

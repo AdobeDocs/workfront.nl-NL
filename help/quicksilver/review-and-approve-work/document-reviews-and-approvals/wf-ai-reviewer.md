@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: bcf9e3eb987bf4c33b994d68276cb04b817c484d
+source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '611'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,9 @@ Elke gebruiker kan de AI Reviewer toevoegen aan een revisie- en goedkeuringsaanv
 
 ## Vereisten
 
-* Uw organisatie moet zijn gemigreerd naar Adobe IMS (Identity Management System).
+<!--DELETE THIS SECTION MARCH 2026-->
+
+<!--* Your organization must have migrated to Adobe IMS (Identity Management System).-->
 * Uw instantie van Workfront moet Verenigde Goedkeuringen hebben toegelaten.
 * Adobe moet een ondertekende Adobe Gen AI-overeenkomst in het bestand hebben.
 Voor meer informatie bij het ondertekenen van de overeenkomst, zie [ Ondertekenen de overeenkomst van Adobe Gen AI ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
@@ -53,7 +55,7 @@ De AI Reviewer kan de volgende bestandstypen controleren:
 
 ## Richtlijnen voor merken instellen
 
-De Workfront AI Reviewer gebruikt de merkrichtlijnen die in Genstudio zijn ingesteld voor Performance Marketing bij het beoordelen van uw inhoud. Momenteel kunt u alleen richtlijnen voor het merk van afbeeldingen instellen. Voor meer informatie, zie [ begonnen worden met Adobe GenStudio for Performance Marketing ](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/get-started).
+De Workfront AI Reviewer gebruikt de merkrichtlijnen die in Genstudio zijn ingesteld voor Performance Marketing bij het beoordelen van uw inhoud. Momenteel kunt u alleen richtlijnen voor het merk van afbeeldingen instellen. Voor meer informatie, zie [ begonnen worden met Adobe GenStudio for Performance Marketing ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 
 ## AI-revisoren maken

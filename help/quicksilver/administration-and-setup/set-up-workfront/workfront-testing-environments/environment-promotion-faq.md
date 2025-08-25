@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: b8d5abc996a3902a8ab8cdce9a8f8d92d4736db1
+source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -24,13 +24,15 @@ De volgende vragen worden vaak gesteld over de bevordering van het milieu:
 
 ### Antwoord
 
-De bevordering van een omgeving tussen domeinen wordt momenteel niet ondersteund. U moet de toepassing bevorderen tussen omgevingen in hetzelfde domein.
+De bevordering van een omgeving tussen domeinen wordt momenteel niet ondersteund. U moet de toepassing bevorderen tussen omgevingen in hetzelfde domein.—>
 
-## Is het Adobe Business Platform/IMS een voorwaarde voor milieubevordering?
+<!--DELETE THIS SECTION MARCH 2026-->
 
-### Antwoord
+<!--## Is the Adobe Business Platform / IMS a prerequisite for environment promotion?
 
-Nee. De Bevordering van het milieu is beschikbaar voor zowel IMS-Toegelaten als niet-IMS Workfront instanties.
+### Answer
+
+No. Environment Promotion is available for both IMS-enabled and non-IMS Workfront instances.-->
 
 ## Hoe kunnen we erachter komen of ons Workfront-exemplaar op een Prime- of Ultimate-licentie staat?
 
@@ -65,7 +67,7 @@ Nee, delen wordt momenteel niet ondersteund.
 
 Pakketterugdraaiacties zijn beschikbaar voor het meest recente pakket, binnen 24 uur na de installatie van het pakket.
 
-## Is er een mogelijkheid om de promotie van afzonderlijke onderdelen over te slaan? Kan `Skip` worden toegevoegd waar de opties `Use Existing` , `Overwrite` en `Save with a new Name` &quot; staan, zodat u de bevordering van afzonderlijke parameters kunt overslaan?
+## Is er een mogelijkheid om de promotie van afzonderlijke onderdelen over te slaan? Kan `Use Existing` worden toegevoegd waar de opties `Overwrite` , `Save with a new Name` en `Skip` &quot; staan, zodat u de bevordering van afzonderlijke parameters kunt overslaan?
 
 ### Antwoord
 

@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: 8934c3f5681c09c00769442900013844ee7a80ef
+source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1207'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ U kunt de API-sleutel voor uw beheerdersgebruikersaccount genereren, opnieuw ins
 
 >[!NOTE]
 >
->U kunt ook een API-sleutel genereren via de API. Voor meer informatie, zie de [&#128279;](../../../wf-api/general/event-subs-api.md) sectie van de Abonnement API van de Gebeurtenis van 0&rbrace; &lbrace;in [ Abonnement API van de Gebeurtenis ](../../../wf-api/general/event-subs-api.md).
+>U kunt ook een API-sleutel genereren via de API. Voor meer informatie, zie de [ sectie van de Abonnement API van de Gebeurtenis van 0} {in ](../../../wf-api/general/event-subs-api.md) Abonnement API van de Gebeurtenis [.](../../../wf-api/general/event-subs-api.md)
 
 {{step-1-to-setup}}
 
@@ -92,40 +92,47 @@ U kunt de API-sleutel voor uw beheerdersgebruikersaccount genereren, opnieuw ins
 
    Om de API Sleutel te verwijderen: In de **API Zeer belangrijke sectie van Montages**, **verwijdert**, dan **verwijdert**.
 
-## Een API-sleutel genereren voor gebruikers die geen beheerder zijn
+## Een API-sleutel genereren voor gebruikers die geen beheerder zijn—>
 
-U kunt API-sleutels voor gebruikers in andere rollen dan Workfront-beheerders genereren en beheren.
+<!--DELETE THIS SECTION MARCH 2026-->
+
+>[!IMPORTANT]
+>
+>De in deze sectie beschreven procedure is verwijderd omdat deze alleen van toepassing was op organisaties die nog niet aan boord waren van de Adobe Admin Console.
+>
+>Alle Workfront-organisaties zijn nu aan boord van de Adobe Admin Console.
+
+<!--You can generate and manage API Keys for users in roles other than Workfront administrator.
 
 >[!NOTE]
 >
->Dit is niet beschikbaar als het Workfront-exemplaar van uw organisatie is ingeschakeld met Adobe IMS. Zie uw netwerk of beheerder van IT als u meer informatie nodig hebt.
+>This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
 
-1. (Voorwaardelijk) als uw organisatie Single Sign-On (SSO) toegangsbeheer gebruikt, maak tijdelijk de optie onbruikbaar die authentificatie SSO vereist.
+1. (Conditional) If your organization uses Single Sign-On (SSO) access management, temporarily disable the option requiring SSO authentication.
+
+   {{step-1-to-setup}} 
+   
+   1. Expand **System**, then click **Single Sign-on (SSO)**. 
+   1. In the **Type** field, select the type of SSO your organization uses.
+   1. With the type selected, scroll down and clear the **Enable** checkbox. 
+      ![Enable SSO](assets/sysadmin-security-sso-disable-31620-350x320.png)  
+   1. Click **Save**.
+
+
+1. In the address bar of a browser, enter the following API call:
+
+   `<domain>`.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&username=**username**&password=**password**&method=PUT
+
+   Replace `<domain>` with your Workfront domain name, and username and password with the user's Workfront credentials.
+
+1. (Conditional) Enable the option requiring SSO authentication if you disabled it in Step 1.
 
    {{step-1-to-setup}}
-
-   1. Breid **Systeem** uit, dan klik **Enige Sign-On (SSO)**.
-   1. Op het **gebied van het Type**, selecteer het type van SSO uw organisatiegebruik.
-   1. Met het geselecteerde type, scrol neer en ontruim **&#x200B;**&#x200B;checkbox toelaten.
-
-      ![ laat SSO ](assets/sysadmin-security-sso-disable-31620-350x320.png) toe
-   1. Klik **sparen**.
-
-
-1. Voer in de adresbalk van een browser de volgende API-aanroep in:
-
-   `<domain>` .my.workfront.com/attask/api/v7.0/user?action=generateApiKey&amp;username=**gebruikersbenaming** &amp;password= **wachtwoord** &amp;method=PUT
-
-   Vervang `<domain>` door uw Workfront-domeinnaam, gebruikersnaam en wachtwoord door de Workfront-gebruikersgegevens van de gebruiker.
-
-1. (Voorwaardelijk) laat de optie toe die authentificatie vereist SSO als u het in Stap 1 onbruikbaar maakte.
-
-   {{step-1-to-setup}}
-
-   1. Breid **Systeem** uit, dan klik **Enige Sign-On (SSO)**.
-
-   1. Selecteer uw methode SSO in het **Type** drop-down menu.
-   1. Schakel het selectievakje in waarvoor SSO-verificatie is vereist.
+   
+   1. Expand **System**, then click **Single Sign-on (SSO)**.
+   
+   1. Select your SSO method in the **Type** drop down menu.
+   1. Check the checkbox requiring SSO authentication.-->
 
 ## Configureren wanneer API-sleutels verlopen
 
@@ -188,7 +195,7 @@ Vraag een geldig X.509-certificaat aan bij een vertrouwde certificeringsinstanti
 
 Nadat u het X.509-certificaat van uw certificeringsinstantie hebt ontvangen, moet u het uploaden naar Workfront.
 
-1. Klik het **pictogram 1&rbrace; van het Belangrijkste Menu ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** de montages van de Opstelling **![ Gear pictogram ](assets/gear-icon-settings.png).**
+1. Klik het **pictogram 1} van het Belangrijkste Menu** Belangrijkste menupictogram ![ in de hoger-juiste hoek van Adobe Workfront, dan klik ](assets/main-menu-icon.png) de montages van de Opstelling **** Gear pictogram ![.](assets/gear-icon-settings.png)
 
 1. Breid **Systeem** uit, dan klik **Info van de Klant**.
 

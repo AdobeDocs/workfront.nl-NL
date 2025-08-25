@@ -5,9 +5,9 @@ description: Overzicht van AI-assistent
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: a4e403abadc0268b919ce8105989ef6c912f33a4
+source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '807'
 ht-degree: 0%
 
 ---
@@ -49,8 +49,10 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 Om AI Medewerker voor uw organisatie toe te laten, **allen** van het volgende moet van toepassing zijn:
 
-* Uw organisatie moet zijn gemigreerd naar Adobe IMS (Identity Management System)
-* De Adobe Unified Experience moet worden ingeschakeld
+<!--DELETE THIS SECTION MARCH 2026-->
+
+<!--* Your organization must have migrated to Adobe IMS (Identity Management System)
+* The Adobe Unified Experience must be enabled-->
 * Uw organisatie moet een Select-, Prime- of Ultimate Workfront-abonnement hebben
 * Adobe moet een ondertekende Adobe Gen AI-overeenkomst hebben in het bestand
 
