@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
+source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '951'
 ht-degree: 0%
 
 ---
@@ -110,32 +110,32 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
      <tr> 
       <td role="rowheader">Externe gebruikers verplichten zich met een wachtwoord te registreren</td> 
       <td> <p>Externe gebruikers moeten zich registreren voordat ze objecten in Workfront kunnen bekijken. Deze optie is standaard uitgeschakeld. Als u deze optie inschakelt, worden personen zonder Workfront-account die via hun e-mailadres in bepaalde updates zijn opgenomen, gevraagd een account te maken voordat ze het item kunnen bekijken waarop ze zijn opgenomen. Hiermee maakt u een externe gebruikersaccount voor deze gebruikers.</p> <p>Deze optie is standaard uitgeschakeld.</p> </td> 
-     </tr>
-<!-- DELETE THIS SECTION MARCH 2026   <tr> 
-      <td role="rowheader">Automatically log users out after</td> 
-      <td> Lets you specify when a user is logged out of Workfront, after a period of inactivity. By default, users are logged out after 8 hours of inactivity. <p>This option also affects Workfront customers who are using a single sign-on solution.</p> <p>This setting is not available to organizations that have been migrated to Adobe IMS.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Gebruikers automatisch afmelden na</td> 
+      <td> Hier kunt u opgeven wanneer een gebruiker na een periode van inactiviteit uit Workfront wordt afgemeld. Standaard worden gebruikers afgemeld na 8 uur inactiviteit. <p>Deze optie is ook van toepassing op Workfront-klanten die één aanmeldingsoplossing gebruiken.</p> <p>Deze instelling is niet beschikbaar voor organisaties die zijn gemigreerd naar Adobe IMS.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Mobiele gebruikers automatisch afmelden na </td> 
+      <td>Hier kunt u opgeven wanneer een gebruiker na een periode van inactiviteit uit de Workfront-toepassing wordt afgemeld. Gebruikers worden standaard afgemeld na 7 dagen inactiviteit. <p>Deze optie is ook van toepassing op Workfront-klanten die één aanmeldingsoplossing gebruiken.</p> <p>Deze instelling is niet beschikbaar voor organisaties die zijn gemigreerd naar Adobe IMS.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Aangepaste Help-URL</td> 
+      <td>Hiermee kunt u een interne aangepaste Help-site definiëren waarnaar het hulppictogram voor het hoofdmenu moet gaan. Voor meer informatie, zie <a href="/help/quicksilver/administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md"> een douanehulp URL </a> vormen.</p></td> 
      </tr>
      <tr> 
-      <td role="rowheader">Automatically log mobile users out after </td> 
-      <td>Lets you specify when a user is logged out of the Workfront application, after a period of inactivity. By default, users are logged out after 7 days of inactivity. <p>This option also affects Workfront customers who are using a single sign-on solution.</p> <p>This setting is not available to organizations that have been migrated to Adobe IMS.</p></td> 
-     </tr>  -->
-     &lt;tr> 
-     &lt;td rol= &quot;rowheader&quot;>De Hulp URL van de Douane&lt;/td> 
-     &lt;td>Laat u een interne plaats van de douanehulp voor het Belangrijkste pictogram van het Menu bepalen om naar te gaan. Zie &lt;a href=&quot;/help/quicksilver/administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md&quot;>Een aangepaste Help-URL configureren&lt;/a> voor meer informatie.&lt;/p>&lt;/td> 
-    &lt;/tr> 
-     &lt;tr> 
-     &lt;td rol= &quot;rowheader&quot;>De gebruikers in het systeem zullen aan het zien van de Nieuwe ervaring van het Huis &lt;/td> 
-     &lt;td>Hier specificeert u of de gebruikers de Nieuwe ervaring van het Huis door gebrek zullen zien. Wanneer toegelaten, zullen de gebruikers de Nieuwe ervaring van het Huis door gebrek zien, maar kunnen nog verkiezen om Nieuwe Huis op individuele basis toe te laten of onbruikbaar te maken. Als deze optie is uitgeschakeld, zien gebruikers niet de banner waarmee ze naar New Home kunnen schakelen. Ze kunnen echter wel naar hun nieuwe startpagina navigeren door handmatig &lt;code>/home/workspaces&lt;/code> in te voeren aan het einde van hun instantie-URL. Deze instelling is standaard ingeschakeld.&lt;/td> 
-    &lt;/tr> 
-     &lt;tr> 
-     &lt;td rol= &quot;rowheader&quot;>laat de de werklijst van Prioriteiten &lt;/td> 
-     &lt;td>Laat u verkiezen om de het werklijstervaring van Prioriteiten voor uw gebruikers toe te laten of onbruikbaar te maken. Gebruikers zien nog steeds de Prioriteitspictogrammen in Workfront, maar ze hebben geen toegang tot de functionaliteit. Zie &lt;a href=&quot;/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md&quot;>Aan de slag met prioriteiten&lt;/a> voor meer informatie over prioriteiten.&lt;/td> 
-    &lt;/tr> 
-     &lt;tr> 
-     &lt;td rol= &quot;rowheader&quot;>De Milieu van de Test&lt;/td> 
-     &lt;td>Laat u tot uw de testmilieu&#39;s van Workfront toegang hebben. Zie &lt;a href=&quot;/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md&quot;>De Adobe Workfront Preview Sandbox-omgeving&lt;/a> voor meer informatie.&lt;/p>&lt;/td>
-    &lt;/tbody>
-</table>
+      <td role="rowheader">Gebruikers in het systeem zien standaard de nieuwe Home-ervaring </td> 
+      <td>Hier kunt u opgeven of gebruikers standaard de Nieuwe startervaring zien. Wanneer toegelaten, zullen de gebruikers de Nieuwe ervaring van het Huis door gebrek zien, maar kunnen nog verkiezen om Nieuwe Huis op individuele basis toe te laten of onbruikbaar te maken. Als deze optie is uitgeschakeld, zien gebruikers niet de banner waarmee ze naar Nieuwe startpagina kunnen schakelen. Ze kunnen echter wel handmatig naar de nieuwe startpagina navigeren door <code>/home/workspaces</code> aan het einde van de instantie-URL in te voeren. Deze instelling is standaard ingeschakeld.</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">De werklijst Prioriteiten inschakelen </td> 
+      <td>Hiermee kunt u ervoor kiezen om de werklijstervaring Prioriteiten in of uit te schakelen voor uw gebruikers. Gebruikers zien nog steeds de Prioriteitspictogrammen in Workfront, maar ze hebben geen toegang tot de functionaliteit. Voor meer informatie over Prioriteiten, zie <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md"> begonnen worden met Prioriteiten </a>.</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Testomgevingen</td> 
+      <td>Hiermee hebt u toegang tot uw Workfront-testomgevingen. Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md"> het Milieu van Sandbox van de Voorproef van Adobe Workfront </a>.</p></td> 
+    </tbody> 
+   </table>
 
 1. Klik **sparen**.
 

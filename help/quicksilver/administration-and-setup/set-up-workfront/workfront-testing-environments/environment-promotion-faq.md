@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
+source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -24,15 +24,13 @@ De volgende vragen worden vaak gesteld over de bevordering van het milieu:
 
 ### Antwoord
 
-De bevordering van een omgeving tussen domeinen wordt momenteel niet ondersteund. U moet de toepassing bevorderen tussen omgevingen in hetzelfde domein.—>
+De bevordering van een omgeving tussen domeinen wordt momenteel niet ondersteund. U moet de toepassing bevorderen tussen omgevingen in hetzelfde domein.
 
-<!--DELETE THIS SECTION MARCH 2026-->
+## Is het Adobe Business Platform/IMS een voorwaarde voor milieubevordering?
 
-<!--## Is the Adobe Business Platform / IMS a prerequisite for environment promotion?
+### Antwoord
 
-### Answer
-
-No. Environment Promotion is available for both IMS-enabled and non-IMS Workfront instances.-->
+Nee. De Bevordering van het milieu is beschikbaar voor zowel IMS-Toegelaten als niet-IMS Workfront instanties.
 
 ## Hoe kunnen we erachter komen of ons Workfront-exemplaar op een Prime- of Ultimate-licentie staat?
 
