@@ -8,9 +8,9 @@ feature: Work Management
 hide: true
 hidefromtoc: true
 exl-id: 230d8e62-a3c9-4e38-9b26-5ba1c4f56391
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1167'
 ht-degree: 0%
 
 ---
@@ -23,16 +23,12 @@ Wanneer een Workfront-project is verbonden met Frame.io, kunt u
 
 * **wijs Gebruikers Frame.io aan taken** toe: De toegelaten gebruikers Frame.io worden op de hoogte gebracht per e-mail wanneer zij aan een taak van Workfront worden toegewezen, signalerend daar werk is te voltooien.
 * **Deel het project met Gebruikers Frame.io**: Wanneer een project met toegelaten gebruikers wordt gedeeld Frame.io, hebben zij toegang tot het project binnen zowel Workfront als Frame.io.
-* **Aandeel creatieve materialen met Frame.io**: De coördinatoren van het project kunnen instructies en materialen van Workfront rechtstreeks naar de creatieve gebruiker in Frame.io verzenden gebruikend een unidirectionele projectomslag van de synchronisatieproject. [!BADGE &#x200B; Binnenkort &#x200B;]{type=Informative}
+* **Aandeel creatieve materialen met Frame.io**: De coördinatoren van het project kunnen instructies en materialen van Workfront rechtstreeks naar de creatieve gebruiker in Frame.io verzenden gebruikend een unidirectionele projectomslag van de synchronisatieproject. [!BADGE  Binnenkort ]{type=Informative}
 * **de taakvooruitgang van het Spoor**: De Creatieven kunnen gebeëindigd activa verzenden en taken volledig-allen merken zonder Frame.io te verlaten.
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
->[!IMPORTANT]
->
->Deze functionaliteit is alleen beschikbaar voor organisaties die zijn aangemeld bij de [!DNL Adobe Admin Console] .
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 U moet het volgende hebben:
 
@@ -46,7 +42,7 @@ U moet het volgende hebben:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Standaard</p> </td> 
+   <td> <p>Standard</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
@@ -136,7 +132,7 @@ Nadat u een sjabloon hebt gemaakt, kunt u dit gebruiken om projecten te maken.
    ![ vind uw malplaatje ](assets/find-your-template.png)
 1. Pas om het even welke projectmontages aan zoals nodig, dan klik **creeer project**.
 1. In het linkerpaneel, klik **Documenten**.
-1. Gebruik de one-way sync map om creatieve materialen automatisch te delen met Frame.io. [!BADGE &#x200B; Binnenkort &#x200B;]{type=Informative}
+1. Gebruik de one-way sync map om creatieve materialen automatisch te delen met Frame.io. [!BADGE  Binnenkort ]{type=Informative}
 
    >[!NOTE]
    >
@@ -186,7 +182,7 @@ Ga door naar de volgende sectie.
 ### Creatieve materialen uploaden
 
 1. In het linkerpaneel, klik **Documenten**.
-1. Gebruik de one-way sync map om creatieve materialen automatisch te delen met Frame.io. [!BADGE &#x200B; Binnenkort &#x200B;]{type=Informative}
+1. Gebruik de one-way sync map om creatieve materialen automatisch te delen met Frame.io. [!BADGE  Binnenkort ]{type=Informative}
 
    >[!NOTE]
    >

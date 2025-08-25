@@ -5,14 +5,14 @@ content-type: reference
 product-area: system-administration;workfront-integrations
 navigation-topic: adobe-admin-console
 title: Voorbereiden op het aan boord nemen van uw organisatie bij de Adobe Admin Console
-description: Omdat Adobe Workfront een Adobe product is, kunt u het via Adobe Admin Console openen. Op deze manier kunt u Workfront samen met andere Adobe-accounts en -producten voor uw gebruikers centraal beheren.
+description: Omdat Adobe Workfront een Adobe-product is, kunt u het openen via de Adobe Admin Console. Zo kunt u Workfront samen met andere Adobe-accounts en -producten voor uw gebruikers centraal beheren.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d9b5e4a1-069e-48be-80d0-84f4bf8aea8b
-source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
+source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '668'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,17 @@ ht-degree: 0%
 
 <!-- Audited: 12/2023 -->
 
-Omdat Adobe Workfront een Adobe product is, kunt u het via Adobe Admin Console openen. Op deze manier kunt u Workfront samen met andere Adobe-accounts en -producten voor uw gebruikers centraal beheren.
+<!--DELETE ME MARCH 2026-->
+
+>[!IMPORTANT]
+>
+>Omdat alle organisaties nu naar de Adobe Admin Console zijn gemigreerd, wordt dit artikel in de nabije toekomst verwijderd.
+
+Omdat Adobe Workfront een Adobe-product is, kunt u het openen via de Adobe Admin Console. Zo kunt u Workfront samen met andere Adobe-accounts en -producten voor uw gebruikers centraal beheren.
 
 Alle Workfront-klanten worden uiteindelijk naar de Adobe Admin Console verplaatst. Nadat uw organisatie naar de Adobe Admin Console is gegaan, wordt de Workfront-verificatie beheerd door de Console. Door deze stap sneller voor te bereiden en uit te voeren, wordt de basis gelegd voor efficiëntie in het werkbeheer en wordt uw organisatie geplaatst voor snellere innovatie in de toekomst
 
-Voor een overzicht van Adobe Admin Console, zie [ Overzicht van de Admin Console ](https://helpx.adobe.com/nl/enterprise/using/admin-console.html).
+Voor een overzicht van Adobe Admin Console, zie [ Overzicht van Admin Console ](https://helpx.adobe.com/nl/enterprise/using/admin-console.html).
 
 ## Controlelijst voor migratie
 
@@ -35,7 +41,7 @@ Om ervoor te zorgen dat uw organisatie naar de Adobe Admin Console kan migreren,
 
    * Als uw organisatie geen bestaande Adobe Admin Console heeft of als u geen bestaande Adobe Admin Console wilt gebruiken, kan de Steun van Workfront u bij het creëren van een nieuwe helpen.
 
-   * Neem contact op met de ondersteuning van Workfront als u meerdere Admin Consoles voor de Adobe hebt en u niet zeker weet aan welke  Workfront het meest geschikt is om toe te voegen.
+   * Neem contact op met de ondersteuning van Workfront als u meerdere Adobe-beheerconsoles hebt en u niet zeker weet aan welke consoles Workfront het meest geschikt is om toe te voegen.
 
 1. Bevestig met Workfront-ondersteuning dat je een bestaande Adobe Admin Console wilt gebruiken of een nieuwe wilt maken.
 
@@ -45,11 +51,11 @@ Om ervoor te zorgen dat uw organisatie naar de Adobe Admin Console kan migreren,
    >
    >Ben bereid om met de Steun van Workfront en uw team van IT betreffende authentificatievoorkeur zoals Enige Sign-On (SSO) of niet-SSO te spreken.
 
-   Voor instructies, zie de sectie van Identity Management van de [ Gids van de Plaatsing voor Adobe Admin Console ](https://helpx.adobe.com/nl/enterprise/using/deployment-planning.html).
+   Voor instructies, zie de sectie van Identity Management van de [ Gids van de Plaatsing voor Adobe Admin Console ](https://helpx.adobe.com/enterprise/using/deployment-planning.html).
 
 1. (Voorwaardelijk) Als u Single Sign-On gebruikt, sluit u de nieuwe Adobe Admin Console aan op uw bestaande SSO-provider.
 
-   Voor meer informatie en instructies, zie [ identiteit van de Opstelling ](https://helpx.adobe.com/nl/enterprise/using/set-up-identity.html).
+   Voor meer informatie en instructies, zie [ identiteit van de Opstelling ](https://helpx.adobe.com/enterprise/using/set-up-identity.html).
 
    >[!NOTE]
    >

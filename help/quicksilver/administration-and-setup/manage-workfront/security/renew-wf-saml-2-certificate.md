@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4b481215-36a1-4945-828a-1598502529d8
-source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
+source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,17 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->De op deze pagina beschreven procedure is alleen van toepassing op organisaties die nog niet aan de Admin Console zijn geregistreerd. Als uw organisatie is aangemeld bij de Adobe Admin Console, is geen actie nodig.
+>De op deze pagina beschreven procedure is verwijderd omdat deze alleen van toepassing was op organisaties die nog niet aan boord waren van de Adobe Admin Console. Deze procedure is niet nodig voor organisaties op de Adobe Admin Console.
 >
->Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan Adobe Admin Console is genegeerd, zie [ Op platform-gebaseerde beleidsverschillen (Adobe Workfront/Adobe Bedrijfs Platform) ](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Omdat alle Workfront-organisaties nu aan boord zijn gegaan van de Adobe Admin Console, wordt dit artikel in de nabije toekomst verwijderd.
+
+<!--DELETE ME MARCH 2026-->
+
+>[!IMPORTANT]
+>
+>De op deze pagina beschreven procedure is alleen van toepassing op organisaties die nog niet aan boord van de Admin Console zijn. Als uw organisatie is aangemeld bij de Adobe Admin Console, is geen actie nodig.
+>
+>Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan Adobe Admin Console is genegeerd, zie [ Op platform-gebaseerde beleidsverschillen (Adobe Workfront/Adobe Bedrijfsplatform) ](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 De Adobe Workfront-servers gebruiken het SAML 2.0-protocol voor verificatie en verificatie. Zodra bijgewerkt, blijft het nieuwe certificaat één jaar geldig. Wanneer het tijd is voor u om het certificaat op uw identiteitsleverancier te vernieuwen, ontvangt u een waarschuwing in Workfront die u waarschuwt dat deze verandering moet voorkomen. Als Workfront-beheerder kunt u deze wijziging op systeemniveau beheren.
 

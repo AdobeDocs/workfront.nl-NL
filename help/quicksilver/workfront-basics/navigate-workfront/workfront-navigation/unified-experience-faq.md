@@ -6,14 +6,20 @@ description: Enkele eigenschappen zijn verschillend tussen  [!DNL Workfront]  en
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: f59643eb3722c72fc8cbb5009223af143ac240d8
+source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
 workflow-type: tm+mt
-source-wordcount: '1380'
+source-wordcount: '1402'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Unified Experience] Veelgestelde vragen
+
+>[!IMPORTANT]
+>
+>Omdat alle Workfront-organisaties nu naar de Adobe Admin Console zijn gemigreerd, wordt dit artikel in de nabije toekomst verwijderd.
+
+<!--DELETE ME MARCH 2026-->
 
 Met [!DNL Adobe Unified Experience] for [!DNL Workfront] kunt u al uw [!DNL Adobe] -toepassingen op één locatie beheren met één aanmelding. Het navigatiegebied van [!DNL Adobe] wordt naadloos geïntegreerd met [!DNL Workfront] . Enkele functies verschillen en u hebt mogelijk enkele vragen omdat uw [!DNL Workfront] -instantie naar de uniforme ervaring wordt gemigreerd.
 
@@ -61,9 +67,9 @@ Lees de volgende artikelen voor meer informatie over [!DNL Admin Console] :
 
 Er wordt contact opgenomen met bestaande klanten om migraties te plannen. De collega&#39;s die ondersteuning bieden voor het migratieteam zullen klanten door het proces laten lopen, advies geven over [!DNL Admin Console] -installatie en koppelingen verschaffen naar documentatie die nodig is om de stap zo eenvoudig en probleemloos mogelijk te maken.
 
-* [[!DNL Adobe Workfront]  Overzicht van de Steun ](https://experienceleague.adobe.com/nl/docs/customer-one/using/workfront/overview)
-* [[!DNL Workfront Admin Console]  informatie ](https://experienceleague.adobe.com/nl/docs/customer-one/using/workfront/landing)
-* [[!DNL Adobe Business Platform]  en  [!DNL Admin Console]  Veelgestelde vragen ](https://experienceleague.adobe.com/nl/docs/customer-one/using/workfront/faq)
+* [[!DNL Adobe Workfront]  Overzicht van de Steun ](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/overview)
+* [[!DNL Workfront Admin Console]  informatie ](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/landing)
+* [[!DNL Adobe Business Platform]  en  [!DNL Admin Console]  Veelgestelde vragen ](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/faq)
 
 ### Hoe gaat u met [!DNL Adobe Admin Console] voor bedrijven die dit al hebben ingeschakeld voor gefedereerde id&#39;s anders dan met [!DNL Workfront] SSO is ingesteld?
 

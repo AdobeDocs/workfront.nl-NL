@@ -6,9 +6,9 @@ description: De toegang tot van  [!DNL Workfront]  door Adobe Experience Cloud g
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: bd34fe3404e590e74ecd666c039f78c0cc0d72e7
+source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Als uw organisatie zich op de Verenigde Ervaring van Adobe bevindt, begint de UR
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -52,11 +52,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 +++
 
-## Vereisten
+<!--DELETE THIS SECTION MARCH 2026-->
 
-De instantie van [!DNL Workfront] van uw organisatie moet aan [!DNL Adobe Business Platform] of [!DNL Adobe Admin Console] worden genegeerd.
+<!--## Prerequisites
 
-Als u vragen over het aan boord gaan aan [!DNL Adobe Admin Console] hebt, zie [[!DNL Adobe Unified Experience]  FAQ ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md/).
+Your organization's instance of [!DNL Workfront] must be onboarded to the [!DNL Adobe Business Platform] or the [!DNL Adobe Admin Console].
+
+If you have questions about onboarding to the [!DNL Adobe Admin Console], see the [[!DNL Adobe Unified Experience] FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md/).-->
 
 ## Adobe Identity Management System (IMS)
 
@@ -125,7 +127,7 @@ Als uw organisatie een afzonderlijke toepassing gebruikt om wachtwoorden te behe
 
 Als uw wachtwoord wordt beheerd door [!DNL Adobe] , kunt u het wachtwoord wijzigen in uw Adobe-account.
 
-[ zie dit artikel voor het veranderen van uw wachtwoord van Adobe.](https://helpx.adobe.com/nl/manage-account/using/change-or-reset-password.html){target="_blank"}
+[ zie dit artikel voor het veranderen van uw wachtwoord van Adobe.](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}
 
 Neem contact op met de beheerder voor meer informatie over het wijzigen van het wachtwoord.
 

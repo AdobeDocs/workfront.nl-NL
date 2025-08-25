@@ -6,9 +6,9 @@ description: Wanneer a  [!DNL Workfront]  beheerder tot een nieuwe gebruiker lei
 author: Courtney
 feature: Get Started with Workfront
 exl-id: a13dbe33-f283-4732-a7f2-5a94a37855f0
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,6 @@ Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnem
 
 Wanneer een beheerder van [!DNL Workfront] een nieuwe gebruiker maakt, kan de nieuwe gebruiker op basis van verschillende factoren een e-mailuitnodiging ontvangen:
 
-* Of de organisatie van de gebruiker aan [!DNL Adobe Admin Console] is genegeerd
 * Of de gebruiker is toegevoegd in [!DNL Workfront] of [!DNL Admin Console]
 * Of de gebruiker toegang heeft tot andere [!DNL Adobe] -producten of een nieuwe [!DNL Adobe] -gebruiker is
 * Of de beheerder de gebruiker een e-mailuitnodiging heeft gestuurd (alleen van toepassing op organisaties die zich nog niet in de [!DNL Admin Console] bevinden)
@@ -57,7 +56,7 @@ Nadat u de uitnodigingse-mail hebt ontvangen, kunt u als nieuwe gebruiker de kop
 
 >[!NOTE]
 >
->De koppeling in de e-mail is alleen geldig voor het aantal dagen dat de beheerder in [!DNL Workfront] heeft opgegeven in het gebied [!UICONTROL general options] van de pagina [!UICONTROL Invitations] .
+>De koppeling in de e-mail is alleen geldig voor het aantal dagen dat de beheerder in [!UICONTROL general options] heeft opgegeven in het gebied [!UICONTROL Invitations] van de pagina [!DNL Workfront] .
 
 Een wachtwoord maken voor [!DNL Workfront] met de e-mail met de uitnodiging:
 
