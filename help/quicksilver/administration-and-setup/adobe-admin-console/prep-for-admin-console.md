@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d9b5e4a1-069e-48be-80d0-84f4bf8aea8b
-source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
+source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -20,12 +20,6 @@ ht-degree: 0%
 # Voorbereiden om aan boord van uw organisatie te gaan naar de Adobe Admin Console
 
 <!-- Audited: 12/2023 -->
-
-<!--DELETE ME MARCH 2026-->
-
->[!IMPORTANT]
->
->Omdat alle organisaties nu naar de Adobe Admin Console zijn gemigreerd, wordt dit artikel in de nabije toekomst verwijderd.
 
 Omdat Adobe Workfront een Adobe-product is, kunt u het openen via de Adobe Admin Console. Zo kunt u Workfront samen met andere Adobe-accounts en -producten voor uw gebruikers centraal beheren.
 
@@ -51,11 +45,11 @@ Om ervoor te zorgen dat uw organisatie naar de Adobe Admin Console kan migreren,
    >
    >Ben bereid om met de Steun van Workfront en uw team van IT betreffende authentificatievoorkeur zoals Enige Sign-On (SSO) of niet-SSO te spreken.
 
-   Voor instructies, zie de sectie van Identity Management van de [ Gids van de Plaatsing voor Adobe Admin Console ](https://helpx.adobe.com/nl/enterprise/using/deployment-planning.html).
+   Voor instructies, zie de sectie van Identity Management van de [ Gids van de Plaatsing voor Adobe Admin Console ](https://helpx.adobe.com/enterprise/using/deployment-planning.html).
 
 1. (Voorwaardelijk) Als u Single Sign-On gebruikt, sluit u de nieuwe Adobe Admin Console aan op uw bestaande SSO-provider.
 
-   Voor meer informatie en instructies, zie [ identiteit van de Opstelling ](https://helpx.adobe.com/nl/enterprise/using/set-up-identity.html).
+   Voor meer informatie en instructies, zie [ identiteit van de Opstelling ](https://helpx.adobe.com/enterprise/using/set-up-identity.html).
 
    >[!NOTE]
    >

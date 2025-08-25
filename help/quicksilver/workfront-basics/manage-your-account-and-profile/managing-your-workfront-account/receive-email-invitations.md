@@ -6,9 +6,9 @@ description: Wanneer a  [!DNL Workfront]  beheerder tot een nieuwe gebruiker lei
 author: Courtney
 feature: Get Started with Workfront
 exl-id: a13dbe33-f283-4732-a7f2-5a94a37855f0
-source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
+source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,7 @@ Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnem
 
 Wanneer een beheerder van [!DNL Workfront] een nieuwe gebruiker maakt, kan de nieuwe gebruiker op basis van verschillende factoren een e-mailuitnodiging ontvangen:
 
+* Of de organisatie van de gebruiker aan [!DNL Adobe Admin Console] is genegeerd
 * Of de gebruiker is toegevoegd in [!DNL Workfront] of [!DNL Admin Console]
 * Of de gebruiker toegang heeft tot andere [!DNL Adobe] -producten of een nieuwe [!DNL Adobe] -gebruiker is
 * Of de beheerder de gebruiker een e-mailuitnodiging heeft gestuurd (alleen van toepassing op organisaties die zich nog niet in de [!DNL Admin Console] bevinden)
