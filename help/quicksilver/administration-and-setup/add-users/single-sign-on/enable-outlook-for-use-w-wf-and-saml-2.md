@@ -32,7 +32,7 @@ Als u SAML 2.0 authentificatie toelaat en u uw gebruikers aan login aan Workfron
 >[!NOTE]
 >
 >Dit is niet beschikbaar als het Workfront-exemplaar van uw organisatie een aangepast SSO-portaal gebruikt.
->>Zie uw netwerk of beheerder van IT als u meer informatie nodig hebt.
+>&#x200B;>Zie uw netwerk of beheerder van IT als u meer informatie nodig hebt.
 <!--
 or is enabled with Adobe IMS-->
 

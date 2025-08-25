@@ -76,7 +76,7 @@ U kunt de API-sleutel voor uw beheerdersgebruikersaccount genereren, opnieuw ins
 
 >[!NOTE]
 >
->U kunt ook een API-sleutel genereren via de API. Voor meer informatie, zie de [ sectie van de Abonnement API van de Gebeurtenis van 0} {in ](../../../wf-api/general/event-subs-api.md) Abonnement API van de Gebeurtenis [.](../../../wf-api/general/event-subs-api.md)
+>U kunt ook een API-sleutel genereren via de API. Voor meer informatie, zie de [ sectie van de Abonnement API van de Gebeurtenis van 0&rbrace; &lbrace;in ](../../../wf-api/general/event-subs-api.md) Abonnement API van de Gebeurtenis [.](../../../wf-api/general/event-subs-api.md)
 
 {{step-1-to-setup}}
 
@@ -195,7 +195,7 @@ Vraag een geldig X.509-certificaat aan bij een vertrouwde certificeringsinstanti
 
 Nadat u het X.509-certificaat van uw certificeringsinstantie hebt ontvangen, moet u het uploaden naar Workfront.
 
-1. Klik het **pictogram 1} van het Belangrijkste Menu** Belangrijkste menupictogram ![ in de hoger-juiste hoek van Adobe Workfront, dan klik ](assets/main-menu-icon.png) de montages van de Opstelling **** Gear pictogram ![.](assets/gear-icon-settings.png)
+1. Klik het **pictogram 1&rbrace; van het Belangrijkste Menu** Belangrijkste menupictogram ![ in de hoger-juiste hoek van Adobe Workfront, dan klik ](assets/main-menu-icon.png) de montages van de Opstelling **&#x200B;**&#x200B;Gear pictogram ![.](assets/gear-icon-settings.png)
 
 1. Breid **Systeem** uit, dan klik **Info van de Klant**.
 
