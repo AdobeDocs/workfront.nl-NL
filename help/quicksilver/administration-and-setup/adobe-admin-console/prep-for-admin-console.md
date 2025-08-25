@@ -51,11 +51,11 @@ Om ervoor te zorgen dat uw organisatie naar de Adobe Admin Console kan migreren,
    >
    >Ben bereid om met de Steun van Workfront en uw team van IT betreffende authentificatievoorkeur zoals Enige Sign-On (SSO) of niet-SSO te spreken.
 
-   Voor instructies, zie de sectie van Identity Management van de [ Gids van de Plaatsing voor Adobe Admin Console ](https://helpx.adobe.com/enterprise/using/deployment-planning.html).
+   Voor instructies, zie de sectie van Identity Management van de [ Gids van de Plaatsing voor Adobe Admin Console ](https://helpx.adobe.com/nl/enterprise/using/deployment-planning.html).
 
 1. (Voorwaardelijk) Als u Single Sign-On gebruikt, sluit u de nieuwe Adobe Admin Console aan op uw bestaande SSO-provider.
 
-   Voor meer informatie en instructies, zie [ identiteit van de Opstelling ](https://helpx.adobe.com/enterprise/using/set-up-identity.html).
+   Voor meer informatie en instructies, zie [ identiteit van de Opstelling ](https://helpx.adobe.com/nl/enterprise/using/set-up-identity.html).
 
    >[!NOTE]
    >
