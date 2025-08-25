@@ -23,7 +23,7 @@ Wanneer een Workfront-project is verbonden met Frame.io, kunt u
 
 * **wijs Gebruikers Frame.io aan taken** toe: De toegelaten gebruikers Frame.io worden op de hoogte gebracht per e-mail wanneer zij aan een taak van Workfront worden toegewezen, signalerend daar werk is te voltooien.
 * **Deel het project met Gebruikers Frame.io**: Wanneer een project met toegelaten gebruikers wordt gedeeld Frame.io, hebben zij toegang tot het project binnen zowel Workfront als Frame.io.
-* **Aandeel creatieve materialen met Frame.io**: De coördinatoren van het project kunnen instructies en materialen van Workfront rechtstreeks naar de creatieve gebruiker in Frame.io verzenden gebruikend een unidirectionele projectomslag van de synchronisatieproject. [!BADGE  Binnenkort ]{type=Informative}
+* **Aandeel creatieve materialen met Frame.io**: De coördinatoren van het project kunnen instructies en materialen van Workfront rechtstreeks naar de creatieve gebruiker in Frame.io verzenden gebruikend een unidirectionele projectomslag van de synchronisatieproject. [!BADGE &#x200B; Binnenkort &#x200B;]{type=Informative}
 * **de taakvooruitgang van het Spoor**: De Creatieven kunnen gebeëindigd activa verzenden en taken volledig-allen merken zonder Frame.io te verlaten.
 
 ## Toegangsvereisten
@@ -136,7 +136,7 @@ Nadat u een sjabloon hebt gemaakt, kunt u dit gebruiken om projecten te maken.
    ![ vind uw malplaatje ](assets/find-your-template.png)
 1. Pas om het even welke projectmontages aan zoals nodig, dan klik **creeer project**.
 1. In het linkerpaneel, klik **Documenten**.
-1. Gebruik de one-way sync map om creatieve materialen automatisch te delen met Frame.io. [!BADGE  Binnenkort ]{type=Informative}
+1. Gebruik de one-way sync map om creatieve materialen automatisch te delen met Frame.io. [!BADGE &#x200B; Binnenkort &#x200B;]{type=Informative}
 
    >[!NOTE]
    >
@@ -186,7 +186,7 @@ Ga door naar de volgende sectie.
 ### Creatieve materialen uploaden
 
 1. In het linkerpaneel, klik **Documenten**.
-1. Gebruik de one-way sync map om creatieve materialen automatisch te delen met Frame.io. [!BADGE  Binnenkort ]{type=Informative}
+1. Gebruik de one-way sync map om creatieve materialen automatisch te delen met Frame.io. [!BADGE &#x200B; Binnenkort &#x200B;]{type=Informative}
 
    >[!NOTE]
    >
