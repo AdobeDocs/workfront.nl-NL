@@ -74,9 +74,9 @@ Een voorgangertaak maken voor een projecttaak:
 
 1. In het linkerpaneel, klik **Predecessors**.
 
-1. In de **sectie 0} Voorgangers {, klik** toevoegen Voorganger **.** **voegt de dialoogdoos van de Voorganger** toe opent.
+1. In de **sectie 0&rbrace; Voorgangers &lbrace;, klik** toevoegen Voorganger **.** **voegt de dialoogdoos van de Voorganger** toe opent.
 
-1. (Facultatief) om een dwars-projectvoorganger toe te voegen, vervang de naam van het project op het **gebied van het Project van de 1} ouder** met een ander project.
+1. (Facultatief) om een dwars-projectvoorganger toe te voegen, vervang de naam van het project op het **gebied van het Project van de 1&rbrace; ouder** met een ander project.
 
    Voor informatie, zie [ tot dwars-project predecessors ](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md) leiden.
 
