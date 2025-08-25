@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Voor informatie, zie de &quot;sectie van de Formule&quot;in artikel [ gebieden ]
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-licentie*</p></td> 
-   <td><p> Standaard</p>
+   <td><p> Standard</p>
    <p>Workfront Planning is niet beschikbaar voor oudere Workfront-licenties</p> 
   </td> 
   </tr> 
@@ -115,7 +115,11 @@ Voor informatie, zie de &quot;sectie van de Formule&quot;in artikel [ gebieden ]
 * In de volgende gevallen kunnen formuliervelden worden weergegeven als `#ERROR!` :
    * Wanneer een veld in een formule wordt verwijderd.
    * Wanneer een veld dat in een samengevoegd opzoekveld wordt gebruikt, wordt weergegeven als `#ERROR!` .
-Als u bijvoorbeeld een opzoekveld weergeeft dat geaggregeerde opzoekformulevelden bevat en een van de formuliervelden waarnaar wordt verwezen, wordt weergegeven als `#ERROR!` .
+
+     Als u bijvoorbeeld een opzoekveld weergeeft dat geaggregeerde opzoekformulevelden bevat en een van de formuliervelden waarnaar wordt verwezen, wordt weergegeven als `#ERROR!` .
+   * Wanneer een formulewaarde niet in het geselecteerde formaat kan worden getoond.
+
+     Als ik bijvoorbeeld Getal kies voor de indeling van een formuleveld en de velden in de formule tekstvelden zijn die alleen niet-numerieke tekstwaarden weergeven, wordt het resultaat van de formule weergegeven als `#ERROR!` omdat de tekst niet in een getal kan worden geparseerd.
 
 ## Ondersteunde formules
 

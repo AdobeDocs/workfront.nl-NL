@@ -1,5 +1,5 @@
 ---
-title: Auditlogboeken
+title: Overzicht controlelogboeken
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
@@ -8,14 +8,14 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 5a2df341a54d305807a1c9f175baf60b9007ffa2
+source-git-commit: aeb55124fa76192a5c39b504964fe9acc16c31d8
 workflow-type: tm+mt
-source-wordcount: '1351'
+source-wordcount: '1522'
 ht-degree: 0%
 
 ---
 
-# Controlelogboeken
+# Overzicht van auditlogboeken
 
 <!--Audited: 01/2024-->
 
@@ -73,14 +73,14 @@ De volgende gebieden worden geregistreerd in elke ingang van het controlelogboek
 * [ Sectie van de Douane ](#custom-section)
 * [ Wisselkoers ](#exchange-rate)
 * [ Groep ](#group)
-* [ Rollen van de Baan ](#job-roles)
-* [ Login Poging ](#login-attempt)
+* [ Rol van de Baan ](#job-role)
 * [ Prioriteit ](#priority)
 * [ Voorkeur van het Project ](#project-preference)
 * [ Ernst ](#severity)
 * [ Status ](#status)
 * [ Taken &amp; de Voorkeur van Kwesties ](#tasks-issues-preferences)
 * [Gebruiker](#user)
+<!--* [Login Attempt](#login-attempt) -->
 
 ### Toegangsniveau {#access-level}
 
@@ -236,7 +236,7 @@ Het systeem produceert een ingang van het de controlelogboek van de Groep wannee
    * Gebruikers toevoegen of verwijderen
    * Subgroepen toevoegen of verwijderen
 
-### Taken rollen {#job-roles}
+### s {#job-role}
 
 Het systeem produceert een ingang van het de controlelogboek van de Rollen van de Baan wanneer een gebruiker één van de volgende acties doet:
 
@@ -252,24 +252,19 @@ Het systeem produceert een ingang van het de controlelogboek van de Rollen van d
 
 Voor meer informatie over het vormen van baanrollen, zie [ baanrollen ](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) creëren en beheren.
 
-<!--DELETE THIS SECTION MARCH 2026-->
+### Aanmeldingspoging {#login-attempt}
 
-<!--
-### Login Attempt {#login-attempt}
+Het systeem genereert een logbestandvermelding van een Login-poging wanneer een gebruiker een van de volgende handelingen uitvoert:
 
-The system generates a Login Attempt audit log entry when a user does one of the following actions:
+* Meld u aan, meldt u zich af of mislukt een aanmeldingspoging in Workfront (in een browser en in de mobiele app)
+* Meld u aan, meldt u zich af of mislukt een aanmeldingspoging bij Workfront-integratie (zoals Workfront voor Slack)
+* Aanmelden of zich afmelden bij de Workfront API
 
-* Logs in, logs out, or fails a login attempt in Workfront (in a browser and in the mobile app)
-* Logs in, logs out, or fails a login attempt in any Workfront integration (such as Workfront for Slack)
-* Logs in or logs out of the Workfront API
-
-Login Attempt Logs do not record when a Workfront administrator uses the Log In As feature.
+Login Attempt Logs registreert niet wanneer een beheerder van Workfront Login als eigenschap gebruikt.
 
 >[!NOTE]
 >
->This is not available if your organization has been onboarded to the Adobe Admin Console. See your network or IT administrator if you need more information.
-
--->
+>Dit is niet beschikbaar als uw organisatie is aangemeld bij de Adobe Admin Console. Zie uw netwerk of beheerder van IT als u meer informatie nodig hebt.
 
 ### Prioriteit {#priority}
 
@@ -350,17 +345,21 @@ Voor meer informatie over taak en uitgevende voorkeur, zie [ taak voor het hele 
 
 ### Gebruiker {#user}
 
-<!--DELETE THIS SECTION MARCH 2026-->
-<!--
-The system generates a User audit log entry when a user does one of the following actions:
+Het systeem produceert een ingang van het de controlelogboek van de Gebruiker wanneer een gebruiker één van de volgende acties doet:
 
-* Creates a user
+* Hiermee wordt een gebruiker gemaakt
+
+  <!--
+  DRAFTED IN FLARE:
+  Gevorg checking with Jonah on whether this note should be here:
+  
+  -->
 
   >[!NOTE]
   >
-  >This is not available if your organization has been onboarded to the Adobe Admin Console. See your network or IT administrator if you need more information.
+  >Dit is niet beschikbaar als uw organisatie is aangemeld bij de Adobe Admin Console. Zie uw netwerk of beheerder van IT als u meer informatie nodig hebt.
 
-* Deletes a user
-* Changes a user's access level, company, team, or group
-* Activates a user
-* Deactivates a user-->
+* Hiermee wordt een gebruiker verwijderd
+* Hiermee wijzigt u het toegangsniveau, het bedrijf, het team of de groep van een gebruiker
+* Hiermee wordt een gebruiker geactiveerd
+* Hiermee wordt een gebruiker gedeactiveerd

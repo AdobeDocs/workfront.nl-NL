@@ -6,7 +6,7 @@ description: U kunt voorgangstaken (of alleen voorgangers) gebruiken om taken te
 author: Alina
 feature: Work Management
 exl-id: 68774286-da24-409a-bbd8-eb18dfe75063
-source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Voor informatie over predecessors, zie [ Overzicht van taakvoordecessors ](../..
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> 
-   <p>Standaard </p>
+   <p>Standard </p>
     <p>Plan </p> </td> 
   </tr> 
   <tr> 
@@ -66,7 +66,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 ## Een voorganger maken voor een taak
 
-Het creëren van een voorganger voor een projecttaak die het gebied van Predecessors gebruikt is gelijkaardig aan het creëren van predecessors voor een malplaatjetaken op een malplaatje.
+Het creëren van een voorganger voor een projecttaak die het gebied van Predecessors gebruikt is gelijkaardig aan het creëren van predecessors voor een malplaatjetaak op een malplaatje.
 
 Een voorgangertaak maken voor een projecttaak:
 
@@ -74,9 +74,9 @@ Een voorgangertaak maken voor een projecttaak:
 
 1. In het linkerpaneel, klik **Predecessors**.
 
-1. In de **sectie 0&rbrace; Voorgangers &lbrace;, klik** toevoegen Voorganger **.** **voegt de dialoogdoos van de Voorganger** toe opent.
+1. In de **sectie 0} Voorgangers {, klik** toevoegen Voorganger **.** **voegt de dialoogdoos van de Voorganger** toe opent.
 
-1. (Facultatief) om een dwars-projectvoorganger toe te voegen, vervang de naam van het project op het **gebied van het Project van de 1&rbrace; ouder** met een ander project.
+1. (Facultatief) om een dwars-projectvoorganger toe te voegen, vervang de naam van het project op het **gebied van het Project van de 1} ouder** met een ander project.
 
    Voor informatie, zie [ tot dwars-project predecessors ](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md) leiden.
 

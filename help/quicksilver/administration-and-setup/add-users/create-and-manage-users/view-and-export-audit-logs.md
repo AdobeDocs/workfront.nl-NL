@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
-source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ U kunt alle controlelogboeken in het systeem bekijken, of die die aan bepaalde h
 
 De logboeken van de controle maken een lijst gebruiker-veranderingen die in het systeem tijdens de afgelopen 90 dagen in werking worden gesteld.
 
-Voor informatie over alle types van controlelogboek en wat hen produceert, zie [ Logboeken van de Controle ](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
+Voor informatie over alle types van controlelogboek en wat hen produceert, zie [ overzicht van de Logboeken van de Controle ](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
 ## Toegangsvereisten
 
@@ -74,7 +74,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    **Alle Types van Logboek** wordt geselecteerd door gebrek.
 
-   Voor een lijst van alle types van controlelogboek kunt u bekijken en de informatie zij omvatten, zie [ Logboeken van de Controle ](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
+   Voor een lijst van alle types van controlelogboek kunt u bekijken en de informatie zij omvatten, zie [ overzicht van de Logboeken van de Controle ](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
 1. (Optioneel) Stel de beschikbare filters in voor de volgende velden:
 

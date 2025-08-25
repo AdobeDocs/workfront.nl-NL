@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: cfec7f1b3001b0fe78534c33c3a10c70f5f64c3f
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '13445'
+source-wordcount: '13449'
 ht-degree: 0%
 
 ---
@@ -489,7 +489,7 @@ ht-degree: 0%
          * [Gebruikerskenmerken toewijzen](administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md)
          * [Een gebruiker deactiveren](administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)
          * [Gebruikers verwijderen](administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)
-         * [Controlelogboeken](administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
+         * [Overzicht van auditlogboeken](administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
          * [Controleverslagen weergeven en exporteren](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
          * [Aanmeldingsgegevens van gebruikers weergeven](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
          * [Gebruikers beheren in de Adobe Admin Console](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
@@ -1149,7 +1149,7 @@ ht-degree: 0%
          * [Elementen en mappen ontkoppelen of verwijderen uit Experience Manager Assets of Elementen.](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/unlink-or-delete-aem-assets.md)
          * [Workflows gebruiken in de integratie met Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
          * [Workfront Fusion gebruiken om een Workfront-uitgave om te zetten in een project dat Adobe Experience Manager-workflows bevat](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-fusion-to-create-project-with-workflows.md)
-         * [ los de Integratie van Adobe Experience Manager  problemen op](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
+         * [ los de Integratie van Adobe Experience Manager ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md) problemen op
    * Migreren vanaf verouderde of verbeterde connectors {#migrate-from-legacy-enhanced-connectors}
       * [Migreren vanaf verouderde of verbeterde connectors](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
       * [Migreren van de verouderde of verbeterde aansluiting naar Workfront for Adobe Experience Manager as a Cloud Service-integratie](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
@@ -2069,6 +2069,7 @@ ht-degree: 0%
       * [Architectuur: artikelindex](planning/architecture/architecture-information.md)
       * [Overzicht van werkruimten](planning/architecture/workspaces-overview.md)
       * [Werkruimten maken](planning/architecture/create-workspaces.md)
+      * [Hiërarchieën voor werkruimten maken](planning/architecture/create-workspace-hierarchies.md)
       * [Overzicht van recordtypen](planning/architecture/overview-of-record-types.md)
       * [Recordtypen maken](planning/architecture/create-record-types.md)
       * [Recordtypen maken door informatie uit een CSV- of Excel-bestand te importeren](planning/architecture/import-file-to-create-record-types.md)
@@ -2501,8 +2502,8 @@ ht-degree: 0%
       * [Configureer en gebruik de aangepaste OAuth 2-toepassingen van uw organisatie met behulp van JWT-flow](wf-api/api/oauth-app-jwt-flow.md)
       * [ vorm en gebruik de douane OAuth 2 toepassingen van uw organisatie die de stroom PKCE gebruiken ](wf-api/api/oauth-app-pkce-flow.md)
       * [Vervalsing van API-intern](wf-api/api/deprecation-api-internal.md)
-      * [ wat in API versie 20  nieuw is](wf-api/api/new-api-version-20.md)
-      * [ wat in API versie 19  nieuw is](wf-api/api/new-api-version-19.md)
+      * [ wat in API versie 20 ](wf-api/api/new-api-version-20.md) nieuw is
+      * [ wat in API versie 19 ](wf-api/api/new-api-version-19.md) nieuw is
       * [Nieuwe functies in API-versie 18](wf-api/api/new-api-version-18.md)
       * [Nieuwe functies in API-versie 17](wf-api/api/new-api-version-17.md)
       * [Nieuwe functies in API-versie 16](wf-api/api/new-api-version-16.md)

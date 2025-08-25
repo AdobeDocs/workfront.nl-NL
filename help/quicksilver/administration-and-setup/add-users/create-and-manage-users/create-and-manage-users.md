@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 014cb6de-fb96-44df-a29c-b210afe9c55c
-source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Deze sectie bevat de volgende artikelen:
 * [ de gebruikersattributen van de Kaart en auto-voorziening nieuwe gebruikers ](../../../administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md)
 * [ deactiveer of reactivate een gebruiker ](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)
 * [ Schrap gebruikers ](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)
-* [ Logboeken van de Controle ](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
+* [ overzicht van de Logboeken van de Controle ](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
 * [ de controlelogboeken van de Mening en van de uitvoer ](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
 * [ de informatie van gebruikerslogin van de Mening ](../../../administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
 * [Gebruikers beheren in de Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)

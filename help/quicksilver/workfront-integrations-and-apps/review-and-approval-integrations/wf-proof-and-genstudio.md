@@ -8,9 +8,9 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 9905a522-9913-49c0-8c80-a8b46221fcbb
-source-git-commit: 4b0ba0112138b91b12e10f4770ecab3db4e3fddb
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Met de integratie tussen GenStudio for Performance Marketing en Workfront Proof 
 
 * Besluiten over beoordelingen in GenStudio for Performance Marketing bekijken voor definitieve goedkeuring en publicatie
 
-Voor meer informatie over overzicht en goedkeuring in GenStudio for Performance Marketing, zie [ integratie van Workfront Proof met GenStudio for Performance Marketing ](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration).
+Voor meer informatie over overzicht en goedkeuring in GenStudio for Performance Marketing, zie [ integratie van Workfront Proof met GenStudio for Performance Marketing ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration).
 
 
 ## Toegangsvereisten
@@ -67,9 +67,9 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 ## Integratievereisten
 
-* Workfront en GenStudio for Performance Marketing moeten worden geïmplementeerd in dezelfde IMS Org.
+* Workfront en GenStudio for Performance Marketing moeten worden ingezet in dezelfde organisatie van het Identity Management System (IMS).
 
-* Gebruikers kunnen tot slechts één Workfront-instantie binnen de IMS-org behoren.
+* Gebruikers kunnen binnen de IMS-organisatie slechts tot één Workfront-instantie behoren.
 
 * De Workfront-instantie moet zijn ingeschakeld op de Adobe Unified Experience.
 
@@ -102,7 +102,7 @@ Ga voor meer informatie over het maken van geautomatiseerde workflows en sjablon
 
 Wanneer een gebruiker een revisie start in GenStudio for Performance Marketing, kiest hij of zij gewoon de sjabloon die hij of zij nodig heeft. Gebruikers kunnen op elk gewenst moment eenvoudig een sjabloon voor een proefwerkstroom wijzigen en revisoren en fasen toevoegen of verwijderen.
 
-Voor meer informatie, zie [ overzicht en goedkeuring van het Verzoek ](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
+Voor meer informatie, zie [ overzicht en goedkeuring van het Verzoek ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
 
 ## GenStudio for Performance Marketing-conceptinhoud in de Workfront-proefdrukviewer controleren en goedkeuren
 
@@ -114,7 +114,7 @@ Met de proefdrukviewer kunt u
 * Concept markeren om te tonen wat moet worden gewijzigd
 * Beslissingen nemen
 
-Voor meer informatie, zie [ Overzicht en geef inhoud ](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/approve/review-and-edit) uit.
+Voor meer informatie, zie [ Overzicht en geef inhoud ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/review-and-edit) uit.
 
 
 >[!IMPORTANT]
@@ -126,4 +126,4 @@ Voor meer informatie, zie [ Overzicht en geef inhoud ](https://experienceleague.
 
 Nadat het element is gecontroleerd en goedgekeurd, kunt u het revisiebesluit bekijken en de inhoud rechtstreeks vanuit GenStudio for Performance Marketing publiceren.
 
-Voor meer informatie, zie [ goedgekeurde inhoud ](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content) publiceren.
+Voor meer informatie, zie [ goedgekeurde inhoud ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content) publiceren.
