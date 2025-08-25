@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
+source-git-commit: 619bc09a226c6023ff653557dc6e049b2d177722
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '609'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ De AI Reviewer kan de volgende bestandstypen controleren:
 
 ## Richtlijnen voor merken instellen
 
-De Workfront AI Reviewer gebruikt de merkrichtlijnen die in Genstudio zijn ingesteld voor Performance Marketing bij het beoordelen van uw inhoud. Momenteel kunt u alleen richtlijnen voor het merk van afbeeldingen instellen. Voor meer informatie, zie [ begonnen worden met Adobe GenStudio for Performance Marketing ](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/get-started).
+De Workfront AI Reviewer gebruikt de merkrichtlijnen die zijn ingesteld in Genstudio Foundations bij het beoordelen van uw inhoud. Momenteel kunt u alleen richtlijnen voor het merk van afbeeldingen instellen. Voor meer informatie, zie [ begonnen worden met Adobe GenStudio for Performance Marketing ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 
 ## AI-revisoren maken
