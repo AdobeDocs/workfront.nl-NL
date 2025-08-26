@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 401d6a25cb23ebd28960ea866e7308142107a891
+source-git-commit: e153ccb40112688769a3c6b706a2b23f1f084021
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1879'
+ht-degree: 2%
 
 ---
 
@@ -74,9 +74,9 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}"> Desktop Proofing de Update van de Kijker </a><p>[!BADGE Off schema]{type=Neutral}</p>
             <p>De Desktop Proofing Viewer is bijgewerkt naar versie 2.1.50. Deze update bevat interne gereedschapsupdates die geen invloed hebben op de functionaliteit van de eindgebruiker.
         </td>
-        <td>16 juni 2025</td>
-        <td>16 juni 2025</td>
-        <td>16 juni 2025</td>
+        <td>dinsdag 16 juni 2025</td>
+        <td>dinsdag 16 juni 2025</td>
+        <td>dinsdag 16 juni 2025</td>
     </tr> 
     <tr>
         <td>
@@ -92,18 +92,18 @@ The <add release> release webinar will be held on <date>. You can [register for 
             </ul>
             </p>
         </td>
-        <td>12 juni 2025</td>
-        <td>12 juni 2025</td>
-        <td>12 juni 2025</td>
+        <td>vrijdag 12 juni 2025</td>
+        <td>vrijdag 12 juni 2025</td>
+        <td>vrijdag 12 juni 2025</td>
     </tr> 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}"> Desktop Proofing de Update van de Kijker </a><p>[!BADGE Off schema]{type=Neutral}</p>
             <p>Deze update vormt een oplossing voor problemen die ervoor zorgen dat de Desktop Viewer compatibel blijft met Mac-besturingssystemen. Electron werd naar 34.4.0 gedowngraded en Chromium werd naar 132 gedowngraded.</p>
         </td>
-        <td>7 mei 2025</td>
-        <td>7 mei 2025</td>
-        <td>7 mei 2025</td>
+        <td>donderdag 7 mei 2025</td>
+        <td>donderdag 7 mei 2025</td>
+        <td>donderdag 7 mei 2025</td>
     </tr> 
       <tr>
         <td>
@@ -112,18 +112,18 @@ The <add release> release webinar will be held on <date>. You can [register for 
             voor toepassingen van derden die toegang willen tot Google Drive, waarbij toepassingen een model voor toestemming per gebruiker moeten gebruiken. Dit betekent dat afzonderlijke elementen een voor een moeten worden gekoppeld om in Workfront zichtbaar te zijn. Zie <a href="/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md"> documentintegratie </a> vormen
              voor meer informatie . </p>
         </td>
-        <td>31 mei 2025</td>
-        <td>31 mei 2025</td>
-        <td>31 mei 2025</td>
+        <td>29 mei 2020</td>
+        <td>29 mei 2020</td>
+        <td>29 mei 2020</td>
     </tr>  
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}"> de knopen van het besluit van de nieuwe documentgoedkeuring beschikbaar in het proef van kijker </a><p>[!BADGE Off schema]{type=Neutral}</p>
             <p>De knoppen voor het nemen van beslissingen voor het goedkeuren van nieuwe documenten worden nu weergegeven in de proefdrukviewer. Wanneer u nu een eenvoudige proefdruk maakt en vervolgens fiatteurs en revisoren uit het documentoverzicht toevoegt, kunnen ze hun beslissing rechtstreeks in de proefdrukviewer maken.</p>
         </td>
-        <td>10 april 2025</td>
-        <td>17 april 2025</td>
-        <td>17 april 2025</td>
+        <td>vrijdag 10 april 2025</td>
+        <td>vrijdag 17 april 2025</td>
+        <td>vrijdag 17 april 2025</td>
     </tr>     
   </tbody>
 </table>
@@ -144,9 +144,9 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}"> Alle goedkeurt widget anders genoemd aan de metriek van de Goedkeuring van het Document </a><p>[!BADGE Off schema]{type=Neutral}</p>
             <p>De naam van de widget Alle goedkeuringen is gewijzigd in Goedkeuringswaarden document om de weergegeven informatie nauwkeuriger weer te geven. De widget Metriek voor documentgoedkeuring biedt op hoog niveau inzicht in documentgoedkeuringen voor de projecten die u bezit. U moet <a href="/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md"class="MCXref xref" xrefformat="{para}"> Verenigde Goedkeuringen </a> hebben die worden toegelaten om deze widget te gebruiken.</p>
         </td>
-        <td>30 juni 2025</td>
-        <td>30 juni 2025</td>
-        <td>30 juni 2025</td>
+        <td>dinsdag 30 juni 2025</td>
+        <td>dinsdag 30 juni 2025</td>
+        <td>dinsdag 30 juni 2025</td>
     </tr>   
     <tr>
         <td>
@@ -154,17 +154,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <p>We werken de ervaringen met opmerkingen bij in de sectie Meldingen in het gebied Mijn updates. Dezelfde ervaring in het gedeelte Updates van de meeste Workfront-objecten is nu ook beschikbaar in de sectie Notities van Mijn updates.</p>
         </td>
         <td>19 december 2024</td>
-        <td>19 juni 2025</td>
-        <td>19 juni 2025</td>
+        <td>vrijdag 19 juni 2025</td>
+        <td>vrijdag 19 juni 2025</td>
     </tr>     
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}"> Mijn goedkeuringenwidget sorteert nu automatisch op deadline </a><p></p>
-            <p>We hebben de widget Mijn goedkeuringen thuis bijgewerkt en standaard gesorteerd op deadline (aflopend). Hierdoor kunnen de meest urgente goedkeuringen boven aan de lijst worden weergegeven. </p><p><b> Nota:</b> momenteel, slechts kunnen de Goedkeuringen van het Bewijs door deadline in Mijn widget goedkeurt worden gesorteerd.</p>
+            <p>We hebben de widget Mijn goedkeuringen thuis bijgewerkt en standaard gesorteerd op deadline (oplopend). Hierdoor kunnen de meest urgente goedkeuringen boven aan de lijst worden weergegeven. Goedkeuringen worden als volgt geordend:</p>
+            <ul>
+                <li>Te late termijnen</li>
+                <li>Volgende termijnen</li>
+                <li>Items zonder deadline</li>
+            </ul>
+            <p><b> Nota:</b> momenteel, slechts kunnen de Goedkeuringen van het Bewijs door deadline in Mijn widget goedkeurt worden gesorteerd.</p>
         </td>
-        <td>29 mei 2025</td>
-        <td>12 juni 2025</td>
-        <td>17 juli 2025</td>
+        <td>vrijdag 29 mei 2025</td>
+        <td>vrijdag 12 juni 2025</td>
+        <td>vrijdag 17 juli 2025</td>
     </tr>     
   </tbody>
 </table>
@@ -192,7 +198,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
               </ul>
             </p>
         </td>
-        <td>9 juli 2025</td>
+        <td>donderdag 9 juli 2025</td>
         <td>TBD</td>
         <td>TBD</td>
     </tr> 
@@ -202,9 +208,9 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <p>Het bestaande veld Werkelijke uren is hernoemd naar Werkelijke uren verouderd. In dit veld wordt de tijd opgeslagen die is aangemeld voor projecten, taken en problemen in minuten. Het veld wordt als <code>actualWorkRequired</code> opgeslagen in de Workfront-database. </p>
             <p>Wij hebben een nieuw ActualUren gebied toegevoegd dat de tijd opslaat die voor projecten, taken, en kwesties in uren, met decimale precisie wordt geregistreerd. Het veld wordt als <code>actualWorkRequiredDouble</code> opgeslagen in de Workfront-database.</p>
         </td>
-        <td>24 juni 2025</td>
-        <td>24 juni 2025</td>
-        <td>24 juni 2025</td>
+        <td>woensdag 24 juni 2025</td>
+        <td>woensdag 24 juni 2025</td>
+        <td>woensdag 24 juni 2025</td>
     </tr> 
     <tr>
         <td>
@@ -220,18 +226,18 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}"> Update in het gebruiken van de Volledige schuif van Percentage in een taak of geven kopbal uit </a><p>[!BADGE Off schema]{type=Neutral}</p>
             <p>We hebben de manier bijgewerkt waarop de procentuele volledige schuifregelaar werkt voor taken en problemen. Wanneer u de Volledige blauwe bubbel van Percentage in een taak of de kopbal van de kwestie schuift, zal de Percentage Voltooien van de taak of de kwestie nu bijwerken in vijf punttoename. Voordat deze update werd uitgevoerd, heeft u door het schuiven van de blauwe ballon Percentage de taken of problemen in stappen van één punt bijgewerkt.</p>
         </td>
-        <td>27 mei 2025</td>
-        <td>27 mei 2025</td>
-        <td>27 mei 2025</td>
+        <td>woensdag 27 mei 2025</td>
+        <td>woensdag 27 mei 2025</td>
+        <td>woensdag 27 mei 2025</td>
     </tr>     
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}"> Meer transparantie wanneer het gebruiken van AI Medewerker op projecten, taken, en kwesties </a><p>[!BADGE Off schema]{type=Neutral}</p>
             <p>Om duidelijker te maken hoe AI Assistant antwoorden zoekt op vragen over Workfront-projecten, -taken en -problemen, hebben we deze informatie toegevoegd aan het antwoord op de vraag. AI Assistant bevat nu de zoekgegevens in de uitvoer. U kunt deze informatie gebruiken als een manier om te controleren of AI Assistant de vraag die u stelde correct heeft geïdentificeerd en om de context van het antwoord te begrijpen.</p>
         </td>
-        <td>19 mei 2025</td>
-        <td>19 mei 2025</td>
-        <td>19 mei 2025</td>
+        <td>dinsdag 19 mei 2025</td>
+        <td>dinsdag 19 mei 2025</td>
+        <td>dinsdag 19 mei 2025</td>
     </tr>     
   </tbody>
 </table>
@@ -255,7 +261,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <p>We hebben de levering van geplande rapporten verbeterd om ervoor te zorgen dat Workfront-berichten alleen worden verzonden naar e-maildomeinen die zijn goedgekeurd in de lijst van gewenste personen.</p>
             <p></p>
         </td>
-        <td>26 juni 2025</td>
+        <td>vrijdag 26 juni 2025</td>
         <td>(Phased rollout): 26 juni - 9 juli 2025</td>
         <td>(Phased rollout): 26 juni - 9 juli 2025</td>
     </tr>   
@@ -264,9 +270,9 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}"> de vervangingsresultaten van de Gebruiker niet meer met een ongeldige waarde wanneer het filtreren </a><p></p>
             <p>Wij hebben het gedrag van de gebruikersvervanging bijgewerkt om ongeldige waarde uit te sluiten wanneer het filtreren van een rapport. Deze verandering helpt de filter nauwkeurigere resultaten produceren, eerder dan het terugkeren van resultaten die een gebruiker hebben correct gevormd (een ongeldig resultaat). </p>
         </td>
-        <td>30 april 2025</td>
-        <td>15 mei 2025</td>
-        <td>17 juli 2025</td>
+        <td>donderdag 30 april 2025</td>
+        <td>vrijdag 15 mei 2025</td>
+        <td>vrijdag 17 juli 2025</td>
     </tr>     
   </tbody>
 </table>
@@ -287,7 +293,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-update-and-notification-enhancements.md" class="MCXref xref" xrefformat="{para}"> Gewijzigde ervaring wanneer het toevoegen van mensen aan commentaren </a><p>[!BADGE Off schema]{type=Neutral}</p>
             <p>Om betere prestaties te bereiken, hebben wij een gewijzigde ervaring geïntroduceerd wanneer het toevoegen van mensen aan commentaren. De koppeling ‘Tagpersonen of -teams’ blijft nu blijvend in het vak Opmerking nadat u gebruikers of teams aan de opmerking hebt toegevoegd. </p>
         </td>
-        <td>30 april 2025</td>
+        <td>donderdag 30 april 2025</td>
         <td>(Phased rollout): 8 mei 2025</td>
         <td>(Phased rollout): 8 mei 2025</td>
     </tr>     
@@ -343,7 +349,7 @@ We werken de interface in Adobe Workfront bij om de gebruikerservaring te verbet
 
 ### Workfront Fusion-verbeteringen
 
-Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de standaard releaseschema. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de standaard releaseschema. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Verbeteringen voor Workfront-planning
 
@@ -381,11 +387,11 @@ Voor informatie over API versies, zie [ API versioning en steunprogramma ](/help
 
 ### Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens Eerste Kwartaal 2025 versie worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront [.](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=nl-NL)
+Voor informatie over de onderhoudsupdates die tijdens Eerste Kwartaal 2025 versie worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront [.](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)
 
 ### Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=nl-NL) Nieuw is.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html) Nieuw is.
 
 
 

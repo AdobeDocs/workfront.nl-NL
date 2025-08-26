@@ -6,9 +6,9 @@ description: U kunt kiezen uit een aantal widgets om de inhoud aan te passen die
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 81f32dfe-cde0-4e61-a542-9b99a18a3953
-source-git-commit: 10efc850b4951c3ad1a7086d3ec087d848dde96e
+source-git-commit: e153ccb40112688769a3c6b706a2b23f1f084021
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1111'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Standaard wordt de startpagina gevuld met specifieke widgets die zijn gebaseerd 
         <td><b>Standaardwidgets</b></td>
     </tr>
     <tr>
-        <td>Standaard</td>
+        <td>Standard</td>
         <td>Mijn projecten, mijn werk, herinneringen, opdrachten</td>
     </tr>
     <tr>
@@ -95,7 +95,7 @@ Een widget toevoegen:
    ![ pas Knoop ](assets/customize-button.png) aan
 1. De rol aan de **Widgets** sectie, dan selecteert widgets u wilt toevoegen.
 
-+++ Uitbreiden om een gedetailleerde lijst met de beschikbare widgets weer te geven
+   +++ Uitbreiden om een gedetailleerde lijst met de beschikbare widgets weer te geven
 
    * **Mijn Werk**\
        Toont alle toegewezen taken, kwesties, en verzoeken in één plaats. U kunt op de knop Werken aan een onderdeel klikken om te beginnen werken aan een onderdeel of op de knop Gereed om de onderdelen te markeren. U kunt ook informatie (Status, Voorwaarde, Percentage voltooid) bijwerken over taken en problemen, logtijd en updates toevoegen vanaf de widget Mijn werk.
@@ -119,7 +119,10 @@ Een widget toevoegen:
        Toont alle hangende verzoeken om teams die u op gesorteerd door team bent, evenals knopen om een verzoek aan een gebruiker direct toe te wijzen of aan het zelf te werken.
 
    * **Mijn goedkeuringen**\
-       Toont al uw in behandeling zijnde toegewezen of gedelegeerde goedkeuringen, een knoop om goedkeuringen te delegeren, en knopen om goedkeuringsbesluiten direct binnen widget te nemen.
+       Toont al uw in behandeling zijnde toegewezen of gedelegeerde goedkeuringen, een knoop om goedkeuringen te delegeren, en knopen om goedkeuringsbesluiten direct binnen widget te nemen. Goedkeuringen worden als volgt geordend:
+      * Te late termijnen
+      * Volgende termijnen
+      * Items zonder deadline
 
    * **metriek van de Goedkeuring van het Document**\
            Toont 2 grafieken met informatie over gemiddelde goedkeuringstijd en besluiten evenals lijstmeningen van hangende en achterstallige goedkeuringen. U moet [ Verenigde Goedkeuringen ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md) hebben die worden toegelaten om deze widget te gebruiken.
@@ -134,7 +137,7 @@ Een widget toevoegen:
      >
      >U moet over machtigingen beschikken om taken te maken om taken te kunnen uitvoeren in de widget Aan/uit en alleen persoonlijke taken die door de huidige gebruiker zijn ingevoerd, worden weergegeven.
 
-+++
+   +++
 
 1. Klik **toevoegen Widget**.
 

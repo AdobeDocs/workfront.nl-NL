@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
+source-git-commit: e153ccb40112688769a3c6b706a2b23f1f084021
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '844'
 ht-degree: 0%
 
 ---
@@ -130,14 +130,12 @@ Home aanpassen met een lay-outsjabloon:
       <p> U kunt:</p>
       <ul>
       <li><p>Schakel het selectievakje naast de opties in de lijst in en geef de beschikbare filters, kolommen of groepen op. Niet-geselecteerde opties worden niet weergegeven voor gebruikers.</p></li>
-      <li> <p>Met de opties voor slepen en neerzetten in de lijst kunt u een volgorde instellen.</p></li>
       <p>
 
    >[!IMPORTANT]
    >
    >* De opties Filter, Kolommen en Groep zijn gekoppeld aan de opties voor het aanpassen van de lijst in het Lay-outsjabloon. Wijzigingen die u hier aanbrengt, worden ook op deze instellingen toegepast.
    >* Gebruikers moeten ten minste toegang tot weergaven maken hebben om de configuratie van de beheerderskolom correct toe te passen op hun startpagina&#39;s.
-
    </p>
       <li><p>Plaats een standaardFilter of een Groep voor widget, door over een optie te hangen en <b> te klikken Reeks als gebrek </b>. Het huidige gebrek toont een blauw <b> Standaard </b> badge aan zijn recht.</p></li>
       <li><p>Voeg een bestaand filter, een bestaande kolom of een bestaande groep toe aan de lijst met beschikbare opties door op de knop met het plusteken onder aan elke lijst te klikken om een optie aan die lijst toe te voegen. Merk op dat alleen bestaande filters, velden (voor kolommen) of groepen op deze manier kunnen worden toegevoegd.</p></li>
