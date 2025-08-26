@@ -136,11 +136,11 @@ Home aanpassen met een lay-outsjabloon:
    >
    >* De opties Filter, Kolommen en Groep zijn gekoppeld aan de opties voor het aanpassen van de lijst in het Lay-outsjabloon. Wijzigingen die u hier aanbrengt, worden ook op deze instellingen toegepast.
    >* Gebruikers moeten ten minste toegang tot weergaven maken hebben om de configuratie van de beheerderskolom correct toe te passen op hun startpagina&#39;s.
-   </p>
-      <li><p>Plaats een standaardFilter of een Groep voor widget, door over een optie te hangen en <b> te klikken Reeks als gebrek </b>. Het huidige gebrek toont een blauw <b> Standaard </b> badge aan zijn recht.</p></li>
-      <li><p>Voeg een bestaand filter, een bestaande kolom of een bestaande groep toe aan de lijst met beschikbare opties door op de knop met het plusteken onder aan elke lijst te klikken om een optie aan die lijst toe te voegen. Merk op dat alleen bestaande filters, velden (voor kolommen) of groepen op deze manier kunnen worden toegevoegd.</p></li>
-      </ul>
-      <p>
+   ></p>
+   >   <li><p>Plaats een standaardFilter of een Groep voor widget, door over een optie te hangen en <b> te klikken Reeks als gebrek </b>. Het huidige gebrek toont een blauw <b> Standaard </b> badge aan zijn recht.</p></li>
+   >   <li><p>Voeg een bestaand filter, een bestaande kolom of een bestaande groep toe aan de lijst met beschikbare opties door op de knop met het plusteken onder aan elke lijst te klikken om een optie aan die lijst toe te voegen. Merk op dat alleen bestaande filters, velden (voor kolommen) of groepen op deze manier kunnen worden toegevoegd.</p></li>
+   >   </ul>
+   >   <p>
 
    >[!NOTE]
    >
