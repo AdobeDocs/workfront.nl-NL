@@ -145,7 +145,7 @@ Deze procedure biedt essentiële informatie voor het configureren van Okta als e
 1. In **bevolkt gebieden van de Meta-gegevens van Identiteitsprovider** sectie, kleef URL die u in Stap 1 in het **Meta-gegevens URL** gebied kopieerde.\
    Alternatief, kunt u **kiezen Dossier** klikken om een .xml- dossier te uploaden, maar wij adviseren dat u URL kleeft.
 
-1. In de **sectie van de Attributen van de Gebruiker van de Kaart**, op het **3} gebied van het Attribuut van de Folder, type** e-mail **.** (**E-mailAdres** is reeds bevolkt op het **gebied van het Attribuut van de Gebruiker van Workfront**.)
+1. In de **sectie van de Attributen van de Gebruiker van de Kaart**, op het **3&rbrace; gebied van het Attribuut van de Folder, type** e-mail **.** (**E-mailAdres** is reeds bevolkt op het **gebied van het Attribuut van de Gebruiker van Workfront**.)
 
 1. (Optioneel) Schakel **Standaard SSO-provider maken** in om onbevoegde gebruikers naar het aanmeldingsscherm van de identiteitsprovider te verzenden in plaats van naar het Workfront-aanmeldingsscherm voor verificatie. We raden u aan deze optie alleen in te schakelen als alle gebruikers in uw systeem via de identiteitsprovider toegang hebben tot Workfront.
 1. Selecteer **toelaten** checkbox. Voordat u dit doet, moet u ervoor zorgen dat gebruikers in uw systeem op de hoogte zijn van de nieuwe aanmeldervaring om ervoor te zorgen dat ze geen toegang verliezen tot het Workfront-systeem.

@@ -56,7 +56,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 +++
 
-## Vorm een gebrek [!DNL Frame.io] rekening [!BADGE  Binnenkort ]{type=Informative}
+## Vorm een gebrek [!DNL Frame.io] rekening [!BADGE &#x200B; Binnenkort &#x200B;]{type=Informative}
 
 Zodra een standaard [!DNL Frame.io] rekening opstelling is, hebben om het even welke projecten die in [!DNL Workfront] worden gecreeerd een spiegelproject dat in Frame.io wordt gecreeerd.
 
@@ -91,7 +91,7 @@ Wanneer een gebruiker duidelijk als gebruiker Frame.io in Workfront is en aan ee
 
 * Zij worden toegevoegd als Medewerker in Frame.io. <!--do we need to be more explicit about a frame license being provisioned for them?-->
 * Ze kunnen middelen van Frame.io naar Workfront verzenden voor formele controle en goedkeuring.
-* Ze kunnen informatie bekijken in de map voor one-way sync vanuit Workfront. [!BADGE  Binnenkort ]{type=Informative}
+* Ze kunnen informatie bekijken in de map voor one-way sync vanuit Workfront. [!BADGE &#x200B; Binnenkort &#x200B;]{type=Informative}
 
 Gebruikers van Frame.io inschakelen:
 

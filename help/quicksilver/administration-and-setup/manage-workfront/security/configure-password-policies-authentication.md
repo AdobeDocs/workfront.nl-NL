@@ -104,7 +104,7 @@ Uitgebreide verificatievoorkeuren configureren:
 {{step-1-to-setup}}
 
 1. Klik **Systeem** > **Verbeterde Authentificatie**.
-1. In het **vakje van de Lengte van het Wachtwoord 0} {, ga het minimumaantal karakters in dat voor een geldig wachtwoord wordt vereist.**
+1. In het **vakje van de Lengte van het Wachtwoord 0&rbrace; &lbrace;, ga het minimumaantal karakters in dat voor een geldig wachtwoord wordt vereist.**
 
    Workfront vereist ten minste 6 tekens.
 

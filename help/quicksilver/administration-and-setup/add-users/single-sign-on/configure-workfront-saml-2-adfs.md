@@ -129,7 +129,7 @@ Voer de volgende secties in om verificatie in te schakelen voor de Workfront-web
    * Achternaam
    * E-mailadres
 
-1. Klik **Afwerking**, dan klik O.K. **** op het volgende scherm.
+1. Klik **Afwerking**, dan klik O.K. **&#x200B;**&#x200B;op het volgende scherm.
 1. Klik met de rechtermuisknop op het nieuwe **Vertrouwen van de Partij**, dan selecteren **Eigenschappen**.
 1. Selecteer het **Geavanceerde Lusje**. En onder **Veilig algoritme van de Hash** uitgezochte SHA-1 of SHA-256.
 
