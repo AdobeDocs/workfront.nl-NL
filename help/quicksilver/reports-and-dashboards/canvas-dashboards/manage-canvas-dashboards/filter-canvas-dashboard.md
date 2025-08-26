@@ -136,7 +136,7 @@ Met een dashboardprompt kunnen gebruikers extra aangepaste filters toepassen op 
 
    1. Klik **toevoegen nieuwe optie**.
 
-   1. Ga de snelle naam op het **gebied van de Waarde van de Optie 0} in.**
+   1. Ga de snelle naam op het **gebied van de Waarde van de Optie 0&rbrace; in.**
 
    1. Klik **toevoegen voorwaarde** en specificeer dan het gebied u tegen en de bepaling wilt filtreren die bepaalt welk soort voorwaarde het gebied moet ontmoeten.
 
