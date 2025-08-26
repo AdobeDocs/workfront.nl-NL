@@ -9,22 +9,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 54d855e6-c387-458c-9cd3-f32318c8ae02
-source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1114'
 ht-degree: 0%
 
 ---
 
 # De Workfront-migratie naar de Adobe Admin Console begrijpen
-
-<!--DELETE ME MARCH 2026-->
-
->[!IMPORTANT]
->
->Alle Workfront-organisaties zijn nu aan boord van de Adobe Admin Console.
->
->Dit artikel wordt in de nabije toekomst verwijderd.
 
 Adobe wijzigt de manier waarop u uw Adobe Workfront-gebruikers beheert, waardoor u en uw organisatie meer productiviteit krijgen. Als onderdeel van deze wijziging migreert Adobe uw Workfront-exemplaar en gebruikers naar de Adobe Admin Console. Dit is een noodzakelijke migratie en heeft geen invloed op rapporten, goedkeuringspaden, inhoud of elementen. Dit is van invloed op de manier waarop u gebruikerstoegang beheert en de manier waarop uw gebruikers zich aanmelden.
 

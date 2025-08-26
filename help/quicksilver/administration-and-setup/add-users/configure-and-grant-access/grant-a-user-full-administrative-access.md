@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
-source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '1550'
 ht-degree: 0%
 
 ---
@@ -16,88 +16,86 @@ ht-degree: 0%
 
 <!--Audited: 12/2024-->
 
-<!--DELETE ME MARCH 2026-->
-
 >[!IMPORTANT]
 >
->De op deze pagina beschreven procedure is verwijderd omdat deze alleen van toepassing was op organisaties die nog niet aan boord waren van de Adobe Admin Console.
->
->Alle Workfront-organisaties zijn nu aan boord van de Adobe Admin Console.
+>De op deze pagina beschreven procedure is alleen van toepassing op organisaties die nog niet aan boord van de Admin Console zijn. Als uw organisatie is aangemeld bij de Adobe Admin Console, moet u deze handeling uitvoeren via de Adobe Admin Console.
 >
 >Voor instructies bij het verlenen van volledige beheerdertoegang in Adobe Admin Console, zie [ gebruikers in Adobe Admin Console beheren ](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+>
+>Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan Adobe Admin Console is genegeerd, zie [ Op platform-gebaseerde beleidsverschillen (Adobe Workfront/Adobe Bedrijfsplatform) ](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-<!--As an Adobe Workfront administrator, you can create another Workfront administrator by assigning them the System Administrator access level. A user with this access level has full administrative access to everything in Workfront, including items they did not create themselves.
+Als beheerder van Adobe Workfront, kunt u een andere beheerder van Workfront tot stand brengen door hen het de toegangsniveau van de Beheerder van het Systeem toe te wijzen. Een gebruiker met dit toegangsniveau heeft volledige administratieve toegang tot alles in Workfront, met inbegrip van punten zij niet creeerden zelf.
 
 >[!NOTE]
 >
->This is different from using an access level to grant users administrative access to certain areas of the system. For more information, see the following:
+>Dit verschilt van het gebruik van een toegangsniveau om gebruikers administratieve toegang tot bepaalde gebieden van het systeem te verlenen. Raadpleeg de volgende secties voor meer informatie:
 >
->* [Grant users administrative access to certain areas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md) 
->* [Access of a Workfront administrator vs. access of a Plan user with administrative rights](#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights) in this article
+>* [ gebruikers administratieve toegang van de vergunning tot bepaalde gebieden ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)
+>* [ Toegang van een beheerder van Workfront vs. toegang van een gebruiker van het Plan met administratieve rechten ](#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights) in dit artikel
 >
 
-## Access requirements
+## Toegangsvereisten
 
-+++ Expand to view access requirements for the functionality in this article.
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-You must have the following access to perform the steps in this article: 
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td>Any</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>New: Standard</p>
-   <p>Current: Plan</p></td> 
+   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td> <p>Nieuw: Standaard</p>
+   <p>Huidig: Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a Workfront administrator. </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>U moet een Workfront-beheerder zijn. </td> 
   </tr> 
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
-## Grant full System Administrator access to a single user
+## Volledige toegang van de Beheerder van het Systeem tot één enkele gebruiker verlenen
 
-{{step-1-to-users}} 
+{{step-1-to-users}}
 
-1. Click the name of the user to whom you want to grant administrator rights.
-1. Click the **More** menu ![](assets/more-icon.png) to the right of the user name, then click **Edit**.  
+1. Klik op de naam van de gebruiker aan wie u beheerdersrechten wilt verlenen.
+1. Klik **Meer** menu ![](assets/more-icon.png) aan het recht van de gebruikersnaam, dan klik **uitgeven**.
 
-   The **Edit Person** box displays. 
-1. Click **Access** in the left panel.
-1. In the **Access level** drop-down list, select the **System Administrator** access level.
+   De **geeft de vertoningen van de Persoon** doos uit.
+1. Klik **Toegang** in het linkerpaneel.
+1. In het **niveau van de Toegang** drop-down lijst, selecteer het **toegangsniveau van de Beheerder van het Systeem**.
 
-   Depending on changes made in your system, the name of this access level might have changed.
+   Afhankelijk van de wijzigingen die in uw systeem zijn aangebracht, kan de naam van dit toegangsniveau zijn gewijzigd.
 
-1. Click **Save Changes.**
+1. Klik **sparen Veranderingen.**
 
-   The user now has full System Administrator rights in the system.
+   De gebruiker heeft nu volledige rechten voor systeembeheerders in het systeem.
 
-## Access of a Workfront administrator vs. access of a Plan user with administrative rights  {#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights}
+## Toegang tot een Workfront-beheerder versus toegang tot een Abonnementsgebruiker met beheerrechten  {#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights}
 
-The two tables below show the difference between the access rights of a user with a Workfront System Administrator access level versus those of a user with a Plan license with some administrative rights.
+In de twee onderstaande tabellen ziet u het verschil tussen de toegangsrechten van een gebruiker met een toegangsniveau van een Workfront System Administrator en die van een gebruiker met een licentie van het Plan met bepaalde beheerrechten.
 
-Workfront administrators can view all the objects in the system (regardless of who created them), create new ones, and modify or delete existing ones. They have full access to all objects in the system.
+Workfront-beheerders kunnen alle objecten in het systeem bekijken (ongeacht wie ze heeft gemaakt), nieuwe maken en bestaande objecten wijzigen of verwijderen. Ze hebben volledige toegang tot alle objecten in het systeem.
 
-Users with a Plan license who can edit functionality in one area have full access to the functionality in that area.
+Gebruikers met een licentie voor abonnementen die functies in één gebied kunnen bewerken, hebben volledige toegang tot de functionaliteit in dat gebied.
 
 >[!NOTE]
 >
->Users with a Plan license who are designated as group administrators can perform some of the actions allowed for Workfront administrators. They are allowed to perform these actions only for the groups they administer, their subgroups, and the users in these groups and subgroups. For more information, see [Group administrators](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
+>De gebruikers met een vergunning van het Plan die als groepsbeheerders worden aangewezen kunnen sommige acties uitvoeren toegestaan voor de beheerders van Workfront. Ze mogen deze handelingen alleen uitvoeren voor de groepen die ze beheren, hun subgroepen en de gebruikers in deze groepen en subgroepen. Voor meer informatie, zie [ de beheerders van de Groep ](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
 
-* [Access to the Setup area](#access-to-the-setup-area)
-* [Access to objects](#access-to-objects)
+* [Toegang tot het gedeelte Instellen](#access-to-the-setup-area)
+* [Toegang tot objecten](#access-to-objects)
 
-### Access to the Setup area {#access-to-the-setup-area}
+### Toegang tot het gedeelte Instellen {#access-to-the-setup-area}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -105,251 +103,251 @@ Users with a Plan license who can edit functionality in one area have full acces
  <col> 
  <thead> 
   <tr> 
-   <th>Area/object</th> 
-   <th>Workfront administrator </th> 
-   <th>User with a Plan license and some administrative rights</th> 
+   <th>Gebied/object</th> 
+   <th>Workfront-beheerder </th> 
+   <th>Gebruiker met een licentie voor abonnementen en enkele beheerrechten</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>Project Preferences: Projects</td> 
-   <td>Full access</td> 
-   <td>No access</td> 
+   <td>Projectvoorkeuren: Projecten</td> 
+   <td>Volledige toegang</td> 
+   <td>Geen toegang</td> 
   </tr> 
   <tr> 
-   <td>Project Preferences: Tasks &amp; Issues</td> 
-   <td>Full access</td> 
-   <td>No access</td> 
+   <td>Projectvoorkeuren: Taken en problemen</td> 
+   <td>Volledige toegang</td> 
+   <td>Geen toegang</td> 
   </tr> 
   <tr> 
-   <td>Project Preferences: Statuses</td> 
-   <td>Full access</td> 
-   <td> <p>No access</p> </td> 
+   <td>Projectvoorkeuren: statussen</td> 
+   <td>Volledige toegang</td> 
+   <td> <p>Geen toegang</p> </td> 
   </tr> 
   <tr> 
-   <td>Project Preferences: Priorities</td> 
-   <td>Full access</td> 
-   <td>No access</td> 
+   <td>Projectvoorkeuren: Prioriteiten</td> 
+   <td>Volledige toegang</td> 
+   <td>Geen toegang</td> 
   </tr> 
   <tr> 
-   <td>Project Preferences: Severities</td> 
-   <td>Full access</td> 
-   <td>No access</td> 
+   <td>Projectvoorkeuren: ernst</td> 
+   <td>Volledige toegang</td> 
+   <td>Geen toegang</td> 
   </tr> 
   <tr> 
-   <td>Project Preferences: Exchange Rates</td> 
-   <td>Full access</td> 
-   <td>Full access</td> 
+   <td>Projectvoorkeuren: Exchange-tarieven</td> 
+   <td>Volledige toegang</td> 
+   <td>Volledige toegang</td> 
   </tr> 
   <tr> 
-   <td>Processes: Approvals</td> 
-   <td> <p>Full access</p> </td> 
-   <td>Full access</td> 
+   <td>Processen: goedkeuringen</td> 
+   <td> <p>Volledige toegang</p> </td> 
+   <td>Volledige toegang</td> 
   </tr> 
   <tr> 
-   <td>Processes: Milestone Paths</td> 
-   <td>Full access</td> 
-   <td>Full access</td> 
+   <td>Processen: mijlpaden</td> 
+   <td>Volledige toegang</td> 
+   <td>Volledige toegang</td> 
   </tr> 
   <tr> 
-   <td>Custom Forms</td> 
-   <td>Full access</td> 
-   <td> <p>Manage custom forms they created or custom forms shared with them.</p> <p>Attach custom forms they created or custom forms shared with them to objects they have manage or contribute permissions to.</p> </td> 
+   <td>Aangepaste Forms</td> 
+   <td>Volledige toegang</td> 
+   <td> <p>Aangepaste formulieren beheren die ze hebben gemaakt of aangepaste formulieren die met ze worden gedeeld.</p> <p>Aangepaste formulieren die ze hebben gemaakt of aangepaste formulieren die met ze worden gedeeld, koppelen aan objecten die ze beheren of waaraan ze machtigingen kunnen bijdragen.</p> </td> 
   </tr> 
   <tr> 
-   <td>Recycle Bin: Recently Deleted</td> 
-   <td>Full access</td> 
-   <td> <p>Users who are group administrators can restore projects assigned to Groups they manage, and tasks, issues, or documents associated with those projects.</p> </td> 
+   <td>Prullenbak: onlangs verwijderd</td> 
+   <td>Volledige toegang</td> 
+   <td> <p>De gebruikers die groepsbeheerders zijn kunnen projecten herstellen die aan Groepen worden toegewezen zij, en taken, kwesties, of documenten verbonden aan die projecten beheren.</p> </td> 
   </tr> 
   <tr> 
-   <td>Recycle Bin: Recently Restored</td> 
-   <td>Full access</td> 
-   <td>Users who are group administrators can see the items they have recently restored.</td> 
+   <td>Prullenbak: onlangs hersteld</td> 
+   <td>Volledige toegang</td> 
+   <td>Gebruikers die groepsbeheerders zijn, kunnen de items zien die zij onlangs hebben hersteld.</td> 
   </tr> 
   <tr> 
-   <td>Job Roles</td> 
-   <td>Full access</td> 
-   <td> <p>Modify but not delete existing job roles.</p> <p>Add new job roles.</p> </td> 
+   <td>Taken rollen</td> 
+   <td>Volledige toegang</td> 
+   <td> <p>Bestaande taakrollen wijzigen maar niet verwijderen.</p> <p>Nieuwe taakrollen toevoegen.</p> </td> 
   </tr> 
   <tr> 
    <td>Teams</td> 
-   <td>Full access</td> 
-   <td> <p>No access to create Teams.</p> <p>Add existing teams to users when creating or editing users.</p> </td> 
+   <td>Volledige toegang</td> 
+   <td> <p>Geen toegang om teams te maken.</p> <p>Voeg bestaande teams toe aan gebruikers wanneer u gebruikers maakt of bewerkt.</p> </td> 
   </tr> 
   <tr> 
-   <td>Groups</td> 
-   <td>Full access</td> 
-   <td> <p>No access to create Groups.</p> <p>Only group administrators can manage group membership, subgroups, and group-level statuses for the groups they manage. </p> </td> 
+   <td>Groepen</td> 
+   <td>Volledige toegang</td> 
+   <td> <p>Geen toegang om groepen te maken.</p> <p>Alleen groepsbeheerders kunnen groepslidmaatschap, subgroepen en status op groepsniveau beheren voor de groepen die zij beheren. </p> </td> 
   </tr> 
   <tr> 
-   <td>Companies</td> 
-   <td>Full access</td> 
-   <td>Full access</td> 
+   <td>Bedrijven</td> 
+   <td>Volledige toegang</td> 
+   <td>Volledige toegang</td> 
   </tr> 
   <tr> 
-   <td>Log in As</td> 
-   <td>Full access </td> 
-   <td> <p>If their group administrative access is enabled on their access level and they are designated as a group administrator, they can log in as the users in the group they administer and their subgroups. They cannot log in as a System Administrator.<br>For more information about enabling group administrative access for users, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</p> </td> 
+   <td>Aanmelden als</td> 
+   <td>Volledige toegang </td> 
+   <td> <p>Als hun groep administratieve toegang op hun toegangsniveau wordt toegelaten en zij als groepsbeheerder worden aangewezen, kunnen zij login als gebruikers in de groep zij en hun subgroepen beheren. Ze kunnen zich niet aanmelden als systeembeheerder.<br> voor meer informatie over het toelaten van groep administratieve toegang voor gebruikers, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref"> de toegang van de Verlening tot gebruikers </a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>Schedules</td> 
-   <td>Full access</td> 
-   <td> <p>No access to edit Schedules.</p> <p>Access to add existing schedules to other users, at the user level. </p> </td> 
+   <td>Planningen</td> 
+   <td>Volledige toegang</td> 
+   <td> <p>Geen toegang tot schema's bewerken.</p> <p>Toegang om bestaande programma's aan andere gebruikers, op het gebruikersniveau toe te voegen. </p> </td> 
   </tr> 
   <tr> 
-   <td>Timesheet &amp; Hours: Timesheet Profiles</td> 
-   <td>Full access</td> 
-   <td> <p>Access to assign existing Timesheet Profiles to users, at the user level.</p> <p>Users who are group administrators can create Timesheet Profiles for the groups they administer and their subgroups. </p> </td> 
+   <td>Tijdschema en uren: tijdbladprofielen</td> 
+   <td>Volledige toegang</td> 
+   <td> <p>Toegang tot het toewijzen van bestaande tijdlijnprofielen aan gebruikers op gebruikersniveau.</p> <p>Gebruikers die groepsbeheerders zijn, kunnen tijdlijnprofielen maken voor de groepen die zij beheren en hun subgroepen. </p> </td> 
   </tr> 
   <tr> 
-   <td>Timesheet &amp; Hours: Hour Types</td> 
-   <td>Full access</td> 
-   <td> <p>Access to assign Hour Types to users, at the user level.</p> </td> 
+   <td>Tijdschema en uren: uurtypen</td> 
+   <td>Volledige toegang</td> 
+   <td> <p>Toegang om de Types van Uur aan gebruikers, op het gebruikersniveau toe te wijzen.</p> </td> 
   </tr> 
   <tr> 
-   <td>Timesheet &amp; Hours: Preferences</td> 
-   <td>Full access</td> 
-   <td>No access</td> 
+   <td>Tijdschema en uren: voorkeuren</td> 
+   <td>Volledige toegang</td> 
+   <td>Geen toegang</td> 
   </tr> 
   <tr> 
-   <td>Email: Notifications: Event Notifications</td> 
-   <td>Activate/ Deactivate all</td> 
-   <td>No access</td> 
+   <td>E-mail: Meldingen: Gebeurtenismeldingen</td> 
+   <td>Alles activeren/deactiveren</td> 
+   <td>Geen toegang</td> 
   </tr> 
   <tr> 
-   <td>Email: Notifications: Reminder Notifications</td> 
-   <td>Full access</td> 
-   <td>Full access</td> 
+   <td>E-mail: Meldingen: Herinneringsmeldingen</td> 
+   <td>Volledige toegang</td> 
+   <td>Volledige toegang</td> 
   </tr> 
   <tr> 
-   <td>Email: Notifications: Email Templates</td> 
-   <td>Full access</td> 
-   <td> <p>No access to edit Email Templates.</p> <p>Access to add existing Email Templates to Reminder Notifications.</p> </td> 
+   <td>E-mail: Meldingen: E-mailsjablonen</td> 
+   <td>Volledige toegang</td> 
+   <td> <p>Geen toegang om e-mailsjablonen te bewerken.</p> <p>Toegang tot bestaande e-mailsjablonen toevoegen aan herinneringsberichten.</p> </td> 
   </tr> 
   <tr> 
-   <td>Email: Automatic Reminders</td> 
-   <td>Full access</td> 
-   <td>No access</td> 
+   <td>E-mail: automatische herinneringen</td> 
+   <td>Volledige toegang</td> 
+   <td>Geen toegang</td> 
   </tr> 
   <tr> 
-   <td>Email: Invitations</td> 
-   <td>Full access</td> 
-   <td> <p>No access to edit Email Invitations.</p> <p>Access to resend email invitations to unregistered users only from the People tab.</p> </td> 
+   <td>E-mail: Uitnodigingen</td> 
+   <td>Volledige toegang</td> 
+   <td> <p>Geen toegang om e-mailuitnodigingen te bewerken.</p> <p>U kunt e-mailuitnodigingen alleen via het tabblad Personen opnieuw verzenden naar niet-geregistreerde gebruikers.</p> </td> 
   </tr> 
   <tr> 
-   <td>Email: Setup</td> 
-   <td>Full access</td> 
-   <td> <p>No access</p> </td> 
+   <td>E-mail: instellen</td> 
+   <td>Volledige toegang</td> 
+   <td> <p>Geen toegang</p> </td> 
   </tr> 
   <tr> 
    <td>Scorecards</td> 
-   <td>Full access</td> 
-   <td> <p>Full access</p> </td> 
+   <td>Volledige toegang</td> 
+   <td> <p>Volledige toegang</p> </td> 
   </tr> 
   <tr> 
-   <td>Expense Types</td> 
-   <td>Full access</td> 
-   <td> <p>No access</p> </td> 
+   <td>Typen kosten</td> 
+   <td>Volledige toegang</td> 
+   <td> <p>Geen toegang</p> </td> 
   </tr> 
   <tr> 
-   <td>Risk Types</td> 
-   <td>Full access</td> 
-   <td>No access</td> 
+   <td>Risicotypes</td> 
+   <td>Volledige toegang</td> 
+   <td>Geen toegang</td> 
   </tr> 
   <tr> 
-   <td>Access Levels</td> 
-   <td> <p>Full access to modify all access levels.</p> <p>The System Administrator and External User access levels cannot be modified, by default.</p> </td> 
-   <td> <p>No access to edit Access Levels.</p> <p>Assign an access level to other users which is lower or equal to theirs at the user level.</p> </td> 
+   <td>Toegangsniveaus</td> 
+   <td> <p>Volledige toegang om alle toegangsniveaus te wijzigen.</p> <p>De toegangsniveaus van de Beheerder van het Systeem en van de Externe Gebruiker kunnen, door gebrek niet worden gewijzigd.</p> </td> 
+   <td> <p>Geen toegang tot toegangsniveaus bewerken.</p> <p>Wijs een toegangsniveau aan andere gebruikers toe dat lager of gelijk aan hun op het gebruikersniveau is.</p> </td> 
   </tr> 
   <tr> 
-   <td>Interface: Layout Templates</td> 
-   <td>Full access</td> 
-   <td> <p>Access to assign existing Layout Templates to other users, at the user level. </p> <p>Users designated as group administrators can create Layout Templates for groups and subgroups they manage.</p> </td> 
+   <td>Interface: lay-outsjablonen</td> 
+   <td>Volledige toegang</td> 
+   <td> <p>Toegang tot het toewijzen van bestaande lay-outsjablonen aan andere gebruikers op gebruikersniveau. </p> <p>Gebruikers die zijn aangewezen als groepsbeheerders, kunnen lay-outsjablonen maken voor groepen en subgroepen die zij beheren.</p> </td> 
   </tr> 
   <tr> 
-   <td>Interface: Update Feeds</td> 
-   <td>Full access</td> 
-   <td> <p>No access to modify Update Feeds.</p> <p>Access to add fields to be tracked in the Update Feeds when editing Custom Forms.</p> </td> 
+   <td>Interface: feeds bijwerken</td> 
+   <td>Volledige toegang</td> 
+   <td> <p>Geen toegang om Update Feeds te wijzigen.</p> <p>Toegang tot velden die u wilt bijhouden in de Update Feeds wanneer u Aangepaste Forms bewerkt.</p> </td> 
   </tr> 
   <tr> 
-   <td>Interface: Filters</td> 
-   <td>Full access</td> 
-   <td> <p>No access to create Filters in the Setup area.</p> <p>Access to create new filters in a list of objects.</p> </td> 
+   <td>Interface: filters</td> 
+   <td>Volledige toegang</td> 
+   <td> <p>Geen toegang om Filters in het gebied van de Opstelling tot stand te brengen.</p> <p>Toegang tot het maken van nieuwe filters in een lijst met objecten.</p> </td> 
   </tr> 
   <tr> 
-   <td>Interface: Views</td> 
-   <td>Full access</td> 
-   <td> <p>No access to create Views in the Setup area.</p> <p>Access to create new views in a list of objects.</p> </td> 
+   <td>Interface: weergaven</td> 
+   <td>Volledige toegang</td> 
+   <td> <p>Geen toegang tot het maken van weergaven in het gedeelte Setup.</p> <p>Toegang tot het maken van nieuwe weergaven in een lijst met objecten.</p> </td> 
   </tr> 
   <tr> 
    <td>Interface: Groupings</td> 
-   <td>Full access</td> 
-   <td> <p>No access to create Groupings in the Setup area.</p> <p>Access to create new groupings in a list of objects.</p> </td> 
+   <td>Volledige toegang</td> 
+   <td> <p>Geen toegang om Groepen in het gebied van de Opstelling tot stand te brengen.</p> <p>Toegang tot het maken van nieuwe groepen in een lijst met objecten.</p> </td> 
   </tr> 
   <tr> 
-   <td>Interface: List Controls</td> 
-   <td>Full access</td> 
-   <td> <p>No access</p> </td> 
+   <td>Interface: lijstbesturingselementen</td> 
+   <td>Volledige toegang</td> 
+   <td> <p>Geen toegang</p> </td> 
   </tr> 
   <tr> 
-   <td>Documents: Cloud Providers</td> 
-   <td>Full access</td> 
-   <td> <p>No access to configure Cloud Providers.</p> <p>Access to link documents to and from Cloud Providers from the Documents tab, after the Cloud Providers have been integrated with Workfront.</p> </td> 
+   <td>Documenten: cloudproviders</td> 
+   <td>Volledige toegang</td> 
+   <td> <p>Geen toegang om cloudproviders te configureren.</p> <p>Toegang tot documenten van en naar cloudproviders via het tabblad Documenten nadat de cloudproviders zijn geïntegreerd met Workfront.</p> </td> 
   </tr> 
   <tr> 
-   <td>Documents: Metadata Mapping</td> 
-   <td>Full access</td> 
-   <td>No access</td> 
+   <td>Documenten: metagegevenstoewijzing</td> 
+   <td>Volledige toegang</td> 
+   <td>Geen toegang</td> 
   </tr> 
   <tr> 
-   <td>Documents: SharePoint Integration</td> 
-   <td>Full access</td> 
-   <td> <p>No access to configure a SharePoint integration.</p> <p>Access to link documents to and from SharePoint from the Documents tab, after the SharePoint integration with Workfront has been configured.</p> </td> 
+   <td>Documenten: SharePoint-integratie</td> 
+   <td>Volledige toegang</td> 
+   <td> <p>Geen toegang om een integratie van SharePoint te vormen.</p> <p>Toegang tot koppelingsdocumenten van en naar SharePoint vanaf het tabblad Documenten, nadat de integratie van SharePoint met Workfront is geconfigureerd.</p> </td> 
   </tr> 
   <tr> 
-   <td>Documents: Custom Integration</td> 
-   <td>Full access</td> 
-   <td> <p>No access to configure a Custom Integration.</p> <p>Access to link documents to and from third-party providers from the Documents tab, after the third-party providers have been integrated with Workfront.</p> </td> 
+   <td>Documenten: aangepaste integratie</td> 
+   <td>Volledige toegang</td> 
+   <td> <p>Geen toegang om een Integratie van de Douane te vormen.</p> <p>Toegang tot koppelingsdocumenten van en naar externe providers vanaf het tabblad Documenten, nadat de externe providers zijn geïntegreerd met Workfront.</p> </td> 
   </tr> 
   <tr> 
-   <td>System: Branding</td> 
-   <td>Full access</td> 
-   <td>No access</td> 
+   <td>Systeem: merken</td> 
+   <td>Volledige toegang</td> 
+   <td>Geen toegang</td> 
   </tr> 
   <tr> 
-   <td>System: Customer Info</td> 
-   <td>Full access</td> 
-   <td>No access</td> 
+   <td>Systeem: klantgegevens</td> 
+   <td>Volledige toegang</td> 
+   <td>Geen toegang</td> 
   </tr> 
   <tr> 
-   <td>System: Single Sign-On (SSO)</td> 
-   <td>Full access</td> 
-   <td>No access</td> 
+   <td>Systeem: Single Sign-On (SSO)</td> 
+   <td>Volledige toegang</td> 
+   <td>Geen toegang</td> 
   </tr> 
   <tr> 
-   <td>System: Update Users for SSO</td> 
-   <td>Full access</td> 
-   <td>No access</td> 
+   <td>Systeem: Gebruikers voor SSO bijwerken</td> 
+   <td>Volledige toegang</td> 
+   <td>Geen toegang</td> 
   </tr> 
   <tr> 
-   <td>System: Kick-Starts</td> 
-   <td>Full access</td> 
-   <td>No access</td> 
+   <td>Systeem: Kick-start</td> 
+   <td>Volledige toegang</td> 
+   <td>Geen toegang</td> 
   </tr> 
   <tr> 
-   <td>System: Diagnostics</td> 
-   <td>Full access</td> 
-   <td>No access</td> 
+   <td>Systeem: diagnostiek</td> 
+   <td>Volledige toegang</td> 
+   <td>Geen toegang</td> 
   </tr> 
   <tr> 
-   <td>System: Preferences</td> 
-   <td>Full access</td> 
-   <td>No access</td> 
+   <td>Systeem: voorkeuren</td> 
+   <td>Volledige toegang</td> 
+   <td>Geen toegang</td> 
   </tr> 
  </tbody> 
 </table>
 
-### Access to objects {#access-to-objects}
+### Toegang tot objecten {#access-to-objects}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -357,72 +355,71 @@ Users with a Plan license who can edit functionality in one area have full acces
  <col> 
  <thead> 
   <tr> 
-   <th>Area/object</th> 
-   <th>Workfront administrator </th> 
-   <th>User with a Plan license and some administrative rights</th> 
+   <th>Gebied/object</th> 
+   <th>Workfront-beheerder </th> 
+   <th>Gebruiker met een licentie voor abonnementen en enkele beheerrechten</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>Calendars</td> 
-   <td>Full access</td> 
-   <td>Manage calendars they create and calendars shared with them.</td> 
+   <td>Kalenders</td> 
+   <td>Volledige toegang</td> 
+   <td>De kalenders beheren die ze maken en de kalenders die met hen worden gedeeld.</td> 
   </tr> 
   <tr> 
    <td>Dashboards</td> 
-   <td>Full access</td> 
-   <td>Manage dashboards they create and dashboards shared with them.</td> 
+   <td>Volledige toegang</td> 
+   <td>De dashboards beheren die zij creëren en dashboards delen met hen.</td> 
   </tr> 
   <tr> 
-   <td>Documents</td> 
-   <td>Full access</td> 
-   <td>Manage documents they upload or documents shared with them.</td> 
+   <td>Documenten</td> 
+   <td>Volledige toegang</td> 
+   <td>Documenten die ze uploaden of documenten die met hen worden gedeeld, beheren.</td> 
   </tr> 
   <tr> 
-   <td>Issues</td> 
-   <td>Full access</td> 
-   <td>Manage issues they create or issues shared with them.</td> 
+   <td>Problemen</td> 
+   <td>Volledige toegang</td> 
+   <td>De problemen beheren die ze maken of problemen die met hen worden gedeeld.</td> 
   </tr> 
   <tr> 
-   <td>Portfolios</td> 
-   <td>Full access</td> 
-   <td>Manage portfolios they create or portfolios shared with them. </td> 
+   <td>Portfolio's</td> 
+   <td>Volledige toegang</td> 
+   <td>Portfolio's beheren die zij maken of portfolio's die met hen worden gedeeld. </td> 
   </tr> 
   <tr> 
-   <td>Programs</td> 
-   <td>Full access</td> 
-   <td>Manage programs they create or programs shared with them.</td> 
+   <td>Programma's</td> 
+   <td>Volledige toegang</td> 
+   <td>Beheer programma's die ze maken of programma's die met hen worden gedeeld.</td> 
   </tr> 
   <tr> 
    <td>Project</td> 
-   <td>Full access</td> 
-   <td>Manage projects they create or projects shared with them.</td> 
+   <td>Volledige toegang</td> 
+   <td>Projecten beheren die zij maken of projecten die met hen worden gedeeld.</td> 
   </tr> 
   <tr> 
-   <td>Reports</td> 
-   <td>Full access</td> 
-   <td>Manage reports they create or reports shared with them. View, copy and edit system reports.</td> 
+   <td>Rapporten</td> 
+   <td>Volledige toegang</td> 
+   <td>De rapporten beheren die zij maken of die met hen worden gedeeld. Systeemrapporten weergeven, kopiëren en bewerken.</td> 
   </tr> 
   <tr> 
-   <td>Tasks</td> 
-   <td>Full access</td> 
-   <td>Manage tasks they create or tasks shared with the</td> 
+   <td>Taken</td> 
+   <td>Volledige toegang</td> 
+   <td>Taken beheren die zij maken of taken die met de</td> 
   </tr> 
   <tr> 
-   <td>Templates</td> 
-   <td>Full access</td> 
-   <td>Manage templates they create or templates shared with them</td> 
+   <td>Sjablonen</td> 
+   <td>Volledige toegang</td> 
+   <td>Sjablonen beheren die ze maken of die met hen worden gedeeld</td> 
   </tr> 
   <tr> 
    <td>Timesheets</td> 
-   <td>Full access</td> 
-   <td>Full access</td> 
+   <td>Volledige toegang</td> 
+   <td>Volledige toegang</td> 
   </tr> 
   <tr> 
-   <td>Users</td> 
-   <td>Full access</td> 
-   <td> <p>Limited access</p> <p>They cannot assign groups to users for which they are not a group administrator or groups that are not public.</p> <p>They cannot assign an access level to users which is higher then their own access level.</p> <p>If their group administrative access is enabled on their access level and they are designated as a group administrator on a group, they can reset the password of and log in as the users in the group they administer and their subgroups. They cannot reset the password of or log in as a System Administrator.<br>For more information about enabling group administrative access for users, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</p> </td> 
+   <td>Gebruikers</td> 
+   <td>Volledige toegang</td> 
+   <td> <p>Beperkte toegang</p> <p>Zij kunnen geen groepen aan gebruikers toewijzen waarvoor zij geen groepsbeheerder of groepen zijn die niet openbaar zijn.</p> <p>Zij kunnen geen toegangsniveau aan gebruikers toewijzen die dan hun eigen toegangsniveau hoger is.</p> <p>Als hun groep administratieve toegang op hun toegangsniveau wordt toegelaten en zij als groepsbeheerder op een groep worden aangewezen, kunnen zij het wachtwoord van terugstellen en login als gebruikers in de groep zij en hun subgroepen beheren. Ze kunnen het wachtwoord van of het aanmelden als systeembeheerder niet opnieuw instellen.<br> voor meer informatie over het toelaten van groep administratieve toegang voor gebruikers, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref"> de toegang van de Verlening tot gebruikers </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
--->

@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7832986b-a5e8-4f14-8802-d3b8e32b14bc
-source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '30'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
@@ -19,108 +19,105 @@ ht-degree: 0%
 
 {{important-admin-console-onboard}}
 
-<!--REMOVE ME MARCH 2026-->
+Als Adobe Workfront-beheerder kunt u wachtwoordbeleidsopties configureren om de verificatie aan te passen aan uw Workfront-systeem.
 
-<!--As an Adobe Workfront administrator, you can configure password policy options to customize the authentication experience to your Workfront system.
+Wij adviseren dat u authentificatievoorkeur tijdens de implementatie van Workfront vormt en slechts af en toe hen daarna opnieuw beziet.
 
-We recommend that you configure authentication preferences during the Workfront implementation and only occasionally revisit them afterward.
+De verbeterde mogelijkheden voor wachtwoordbeheer zijn binnenkort beschikbaar voor uw organisatie. Gebruik één van beide volgende secties, afhankelijk van of uw organisatie toegang tot de nieuwe authentificatieervaring heeft.
 
-Improved password management capabilities are coming soon or might already be available for your organization. Use either of the following sections, depending on whether your organization has access to the new authentication experience.
+## Toegangsvereisten
 
-## Access requirements
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-+++ Expand to view access requirements for the functionality in this article.
-
-You must have the following access to perform the steps in this article: 
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td>Any</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a Workfront administrator.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b> NOTA </b>: Als u nog geen toegang hebt, vraag uw beheerder van Workfront als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 +++
 
-## Configure authentication (available for all customers) {#configure-authentication-available-for-all-customers}
+## Verificatie configureren (beschikbaar voor alle klanten) {#configure-authentication-available-for-all-customers}
 
-Authentication options are displayed for all customers. Improved password management capabilities are coming soon or might already be available for your organization, as described in the section [Configure enhanced authentication)](#configure-enhanced-authentication-coming-soon) in this article.
+De opties van de authentificatie worden getoond voor alle klanten. De verbeterde mogelijkheden van het wachtwoordbeheer komen binnenkort of zouden reeds beschikbaar voor uw organisatie kunnen zijn, zoals die in de sectie [ wordt beschreven vormt verbeterde authentificatie) ](#configure-enhanced-authentication-coming-soon) in dit artikel.
 
-To configure authentication preferences:
+Verificatievoorkeuren configureren:
 
 {{step-1-to-setup}}
 
-1. Click **System** > **Authentication**.
+1. Klik **Systeem** > **Authentificatie**.
 
-1. Select any of the following fields to establish the authentication settings for your organization:
+1. Selecteer een van de volgende velden om de verificatie-instellingen voor uw organisatie op te geven:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Force users to reset their password every <em>&lt;value&gt;</em> days</td> 
-      <td>This establishes the time frame for users to reset their Workfront password. By default, this option is disabled. When you enable it, you can choose between 30, 60, 90, 120, 180 days. The default is 30 days.</td> 
+      <td role="rowheader">Dwing gebruikers om hun wachtwoord terug te stellen om de <em> &lt;value&gt; </em> dagen</td> 
+      <td>Hiermee bepaalt u de tijd die gebruikers nodig hebben om hun Workfront-wachtwoord opnieuw in te stellen. Deze optie is standaard uitgeschakeld. Wanneer u deze inschakelt, kunt u kiezen tussen 30, 60, 90, 120, 180 dagen. De standaardwaarde is 30 dagen.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Don't allow users to set the same password as any of their previous <em>&lt;value&gt;</em> passwords</td> 
-      <td> <p>This field prohibits users from reusing passwords for a set number of resets. By default, this field is disabled. When you enable it, you can set this value to 5, 10, or 15 resets before a password can be reused.</p> <p>When this option is selected, users cannot reset their passwords more than one time in a given day</p> </td> 
+      <td role="rowheader">Sta gebruikers niet toe om het zelfde wachtwoord te plaatsen zoals om het even welk van hun vorige <em> &lt;value&gt; </em> wachtwoorden</td> 
+      <td> <p>In dit veld kunnen gebruikers geen wachtwoorden voor een bepaald aantal voorinstellingen opnieuw gebruiken. Dit veld is standaard uitgeschakeld. Wanneer u het toelaat, kunt u deze waarde aan 5 plaatsen, 10, of 15 terugstellen alvorens een wachtwoord kan worden opnieuw gebruikt.</p> <p>Als deze optie is geselecteerd, kunnen gebruikers hun wachtwoorden niet meer dan een keer op een bepaalde dag opnieuw instellen</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">If an incorrect password is entered five consecutive times, lock the account for <em>&lt;value&gt;</em> minutes: </td> 
-      <td> <p>Select how long a user will be locked out of Workfront after entering an incorrect password five consecutive times. By default, this option is enabled, and the amount of wait time is 10 minutes. You can lock accounts for 10 minutes, 30 minutes, 1 hour, 8 hours, or 24 hours. </p> <p>Manually resetting the password for the user overrides this default wait value. <br>Users can reset their own passwords when they are locked out via the login screen. For more information about how they can reset their password, if they forgot it, see <a href="../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md" class="MCXref xref">Reset your password</a>.</p> </td> 
+      <td role="rowheader">Als een onjuist wachtwoord vijf opeenvolgende tijden is ingegaan, sluit de rekening voor <em> &lt;value&gt; </em> minuten: </td> 
+      <td> <p>Selecteer hoe lang een gebruiker uit Workfront zal worden gesloten na het ingaan van een onjuist wachtwoord vijf opeenvolgende tijden. Deze optie is standaard ingeschakeld en de wachttijd is 10 minuten. U kunt accounts 10 minuten, 30 minuten, 1 uur, 8 uur of 24 uur vergrendelen. </p> <p>Door het handmatig opnieuw instellen van het wachtwoord voor de gebruiker wordt deze standaardwachtwaarde genegeerd. <br> de Gebruikers kunnen hun eigen wachtwoorden terugstellen wanneer zij uit via het login scherm worden gesloten. Voor meer informatie over hoe zij hun wachtwoord kunnen terugstellen, als zij het vergaten, zie <a href="../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md" class="MCXref xref"> het Terugstellen van uw wachtwoord </a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Passwords must contain at least <em>&lt;value&gt;</em> different types of characters:</td> 
-      <td> <p>Determines how strong user passwords are required to be by allowing you to select the number of different types of characters required in your passwords.</p> <p>A recognizable dictionary word cannot be used as a password.<br>By default, Workfront requires that at least 2 of the following are present in passwords (you can also require 3 of these characters to be present for a valid password): </p> 
+      <td role="rowheader">De wachtwoorden moeten minstens <em> &lt;value&gt; </em> verschillende types van karakters bevatten:</td> 
+      <td> <p>Hiermee bepaalt u hoe sterke gebruikerswachtwoorden moeten zijn door het aantal verschillende typen tekens te selecteren die in de wachtwoorden zijn vereist.</p> <p>Een herkenbaar woordenboek kan niet als wachtwoord worden gebruikt.<br> Door gebrek, vereist Workfront dat minstens 2 van het volgende in wachtwoorden aanwezig zijn (u kunt 3 van deze karakters ook vereisen om voor een geldig wachtwoord aanwezig te zijn): </p> 
        <ul> 
-        <li>Uppercase characters</li> 
-        <li>Lowercase characters</li> 
-        <li>Numbers</li> 
-        <li>Symbols</li> 
+        <li>Hoofdletters</li> 
+        <li>Kleine letters</li> 
+        <li>Getallen</li> 
+        <li>Symbolen</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Click **Save**.
+1. Klik **sparen**.
 
-## Configure enhanced authentication{#configure-enhanced-authentication-coming-soon}
+## Uitgebreide verificatie configureren{#configure-enhanced-authentication-coming-soon}
 
-This section describes the enhanced authentication experience, which might not yet be available for your organization. If your organization has not been migrated to the new authentication experience, you must configure the authentication settings, as described in [Configure authentication (available for all customers)](#configure-authentication-available-for-all-customers).
+Deze sectie beschrijft de verbeterde authentificatieervaring, die nog niet voor uw organisatie beschikbaar zou kunnen zijn. Als uw organisatie niet aan de nieuwe authentificatieervaring is gemigreerd, moet u de authentificatiemontages vormen, zoals die in [ worden beschreven vormt authentificatie (beschikbaar voor alle klanten) ](#configure-authentication-available-for-all-customers).
 
-To configure enhanced authentication preferences:
+Uitgebreide verificatievoorkeuren configureren:
 
 {{step-1-to-setup}}
 
-1. Click **System** > **Enhanced Authentication**.
-1. In the **Password Length** box, enter the minimum number of characters required for a valid password.
+1. Klik **Systeem** > **Verbeterde Authentificatie**.
+1. In het **vakje van de Lengte van het Wachtwoord 0} {, ga het minimumaantal karakters in dat voor een geldig wachtwoord wordt vereist.**
 
-   Workfront requires at least 6 characters.
+   Workfront vereist ten minste 6 tekens.
 
-1. (Optional) In the **Password Requirements** section, select the types of characters required in user passwords.
+1. (Facultatief) in de **sectie van de Vereisten van het Wachtwoord**, selecteer de types van karakters die in gebruikerswachtwoorden worden vereist.
 
-   You can increase the strength of user passwords by requiring any or all the types of characters in the Password Requirement section. The following options are available:
+   U kunt de sterkte van gebruikerswachtwoorden verhogen door om het even welk of alle types van karakters in de sectie van de Vereiste van het Wachtwoord te vereisen. De volgende opties zijn beschikbaar:
 
-   | Lowercase Letters |Require at least one lowercase letter |
+   | Kleine letters | Ten minste één kleine letter vereisen |
    |---|---|
-   | Uppercase Letters |Require at least one uppercase letter |
-   | Numbers |Require at least one number |
-   | Special Characters |Require at least one special character |
+   | Hoofdletters | Ten minste één hoofdletter vereisen |
+   | Getallen | Ten minste één getal vereisen |
+   | Speciale tekens | Ten minste één speciaal teken vereisen |
 
    {style="table-layout:auto"}
 
-1. Click **Save**.
--->
+1. Klik **sparen**.
