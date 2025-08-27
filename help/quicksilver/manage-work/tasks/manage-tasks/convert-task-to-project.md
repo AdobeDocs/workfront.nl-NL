@@ -6,14 +6,23 @@ description: Wanneer een taak in een project een grotere hoeveelheid inspanning 
 author: Alina
 feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
-source-git-commit: 55c714436fe59c84251c7f4e2a46614feae92cd6
+source-git-commit: 7288c6fb0f5d45758e0a82b8d1283e1f43ae94e6
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1198'
 ht-degree: 0%
 
 ---
 
 # Een taak omzetten in een project
+
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div>-->
 
 Wanneer een taak in een project een grotere hoeveelheid inspanning vereist om te voltooien dan u oorspronkelijk gepland, kunt u het in een project omzetten.
 
@@ -166,7 +175,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Klik **Meer** pictogram ![](assets/more-icon.png), toen **Bekeerling in Project**.
 1. Kies een van de volgende opties:
 
-   * **Nieuw Project**
+   * **Nieuw Project**, om een project te creëren zonder een malplaatje te gebruiken
    * Een malplaatje in **Uitgezocht van de sectie van Malplaatjes**
 
      ![](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
@@ -174,15 +183,15 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Klik **verdergaan** op het bericht dat verschijnt.
 1. In de **Bekeerling aan de doos van het Project**, specificeer het volgende:
 
-   * **Naam**: Noem uw project. De standaardnaam is de naam van de taak.
-   * (Facultatief) **Beschrijving**: Beschrijf het doel voor dit project.
-   * (Facultatief en voorwaardelijk) als u hebt geselecteerd om een project van een malplaatje tot stand te brengen, werk de beschikbare gebieden in de **Bekeerling in de dialoogdoos van het Project** bij.
+   * **Naam**: Noem uw project. De standaardnaam is de naam van de taak. Dit is een verplicht veld.
+   * **Beschrijving**: Beschrijf het doel voor dit project.
+   * (Voorwaardelijk) als u hebt geselecteerd om een project van een malplaatje tot stand te brengen, werk de beschikbare gebieden in de **Bekeerling in de doos van het Project** bij.
 
      Voor meer informatie over het uitgeven van gebieden op projecten, zie [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
      >[!TIP]
      >
-     >Als u velden in het gedeelte Financiën in het vak Converteren naar project wilt bijwerken, moet u toegang tot financiële gegevens op uw toegangsniveau bewerken hebben. Als u toegang van de Mening tot Financiële Gegevens in uw toegangsniveau hebt alle financiële informatie van de malplaatjeoverdrachten aan het nieuwe project en u kunt niet het uitgeven terwijl u de kwestie omzet. Voor informatie, zie [ toegang van de Verlening tot financiële gegevens ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) en [ Deel een malplaatje ](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+     >Als u velden in het gedeelte Financiën in het vak Converteren naar project wilt bijwerken, moet u toegang tot financiële gegevens op uw toegangsniveau bewerken hebben. Als u toegang van de Mening tot Financiële Gegevens in uw toegangsniveau hebt alle financiële informatie van de malplaatjeoverdrachten aan het nieuwe project en u kunt niet het uitgeven terwijl u de kwestie omzet. Voor informatie, zie [ toegang van de Verlening tot financiële gegevens ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) en [ Deel een malplaatje ](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
    * (Facultatief) voeg **Aangepaste Forms** aan het nieuwe project toe.
 
@@ -191,6 +200,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      >Als een aangepast formulier voor meerdere objecten dat aan de taak is gekoppeld, is geconfigureerd voor zowel taken als projecten, blijft alle informatie die in het formulier is opgeslagen, behouden wanneer u de conversie uitvoert.
      >
      >
-     >Als u een sjabloon voor de conversie gebruikt en een aangepast formulier dat aan de sjabloon is gekoppeld, een aangepast veld bevat dat ook wordt gevonden in een aangepast formulier dat aan de taak is gekoppeld, wordt de veldwaarde van de taak gebruikt voor het nieuwe project. Als het aangepaste veld echter leeg is op de taak, wordt de waarde uit de sjabloon gebruikt.
+     >Als u een sjabloon voor de conversie gebruikt en een aangepast formulier dat aan de sjabloon is gekoppeld, een aangepast veld bevat dat ook wordt gevonden in een aangepast formulier dat aan de taak is gekoppeld, wordt de veldwaarde van de taak gebruikt voor het nieuwe project. Als het aangepaste veld echter leeg is op de taak, wordt de waarde van de sjabloon gebruikt.
 
-1. Klik **sparen Veranderingen**.
+1. Klik **sparen Veranderingen** <!--<span class="preview">or **Convert to Project**</span>-->.

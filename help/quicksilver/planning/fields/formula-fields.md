@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
+source-git-commit: 7288c6fb0f5d45758e0a82b8d1283e1f43ae94e6
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '684'
 ht-degree: 0%
 
 ---
@@ -112,14 +112,32 @@ Voor informatie, zie de &quot;sectie van de Formule&quot;in artikel [ gebieden ]
 
   Voor meer informatie, zie de &quot;sectie van de Formule&quot;in artikel [ gebieden ](/help/quicksilver/planning/fields/create-fields.md) creëren.
 * U kunt in nieuwe formules verwijzen naar formuleringsvelden. Zodra de waarde wordt bijgewerkt in een veld waarnaar wordt verwezen in een formuleveld, worden alle volgende velden die verwijzen naar dat veld of naar formulevelden die dat veld bevatten, automatisch bijgewerkt.
-* In de volgende gevallen kunnen formuliervelden worden weergegeven als `#ERROR!` :
-   * Wanneer een veld in een formule wordt verwijderd.
-   * Wanneer een veld dat in een samengevoegd opzoekveld wordt gebruikt, wordt weergegeven als `#ERROR!` .
 
-     Als u bijvoorbeeld een opzoekveld weergeeft dat geaggregeerde opzoekformulevelden bevat en een van de formuliervelden waarnaar wordt verwezen, wordt weergegeven als `#ERROR!` .
-   * Wanneer een formulewaarde niet in het geselecteerde formaat kan worden getoond.
 
-     Als ik bijvoorbeeld Getal kies voor de indeling van een formuleveld en de velden in de formule tekstvelden zijn die alleen niet-numerieke tekstwaarden weergeven, wordt het resultaat van de formule weergegeven als `#ERROR!` omdat de tekst niet in een getal kan worden geparseerd.
+<!--
+
+<div class="preview">
+
+## Limitations of formula fields
+
+* You can add a maximum of 20 formula fields for one record type. 
+
+   Formula lookup fields added from connected record types do not count against this limit. 
+
+* The formula expression cannot exceed 50,000 characters. 
+
+* Formula fields might display as `#ERROR!` in the following cases:
+   * When a field used in a formula is deleted.
+   * When a field used in an aggregated lookup field displays as `#ERROR!`. 
+   
+      For example, if you display a lookup field that contains aggregated lookup formula fields and one of the referenced formula fields  displays as `#ERROR!`. 
+   *  When a formula value cannot be displayed in the selected format. 
+   
+      For example, if I select Number for the Format of a formula field, and the fields used in the formula are text fields that display only non-numeric text values, the formula result will display as `#ERROR!`, because it cannot parse the text into a number.
+ 
+ </div>
+ 
+ -->
 
 ## Ondersteunde formules
 
