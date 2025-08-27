@@ -6,9 +6,9 @@ description: Naast het gebruik van de beschikbare concepten die Workfront u voor
 author: Alina
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot problemen bewerken</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> Product</td> 
+   <td> <ul><li>Adobe Workfront</li><li>U moet Adobe Workfront Planning hebben om de verzoeken van de Planning te bekijken of om formulieren te verzoeken</td> 
   </tr> 
  </tbody> 
 </table>

@@ -6,9 +6,9 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
 workflow-type: tm+mt
-source-wordcount: '1345'
+source-wordcount: '1361'
 ht-degree: 0%
 
 ---
@@ -80,10 +80,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot problemen bewerken</p>  </td> 
   </tr> 
+  <tr>
    <td role="rowheader">Objectmachtigingen</td> 
    <td><p>Toegang tot het toevoegen van verzoeken aan een aanvraagwachtrij</p> <p>De toestemmingen van de mening of hoger op het bestaande verzoek</p> <p>Voor informatie bij vestiging ziet een verzoekrij, <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref"> een Rij van het Verzoek </a> creëren. </p> </td> 
-  <tr>
   </tr>
+  <tr> 
+   <td role="rowheader"> Product</td> 
+   <td> <ul><li>Adobe Workfront</li><li>U moet Adobe Workfront Planning hebben om de verzoeken van de Planning te bekijken of om formulieren te verzoeken</td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -167,7 +171,7 @@ U moet een verzoek hebben dat u of iemand in uw organisatie eerder heeft ingedie
      >
      >Als de weg van de weg van het originele verzoek verandert, dan wijzigde de maker van de verzoekrij de rij.
 
-1. (Optioneel) Werk de gegevens van de gekopieerde aanvraag bij. Afhankelijk van welke gebieden de schepper van de verzoekrij in de **Nieuwe Uitgevende Gebieden** sectie van de Rij **&#x200B;**&#x200B;subtab van de Details van de Rij op het project werd toegelaten, zou u om het even welke volgende gebieden kunnen vinden:
+1. (Optioneel) Werk de gegevens van de gekopieerde aanvraag bij. Afhankelijk van welke gebieden de schepper van de verzoekrij in de **Nieuwe Uitgevende Gebieden** sectie van de Rij **** subtab van de Details van de Rij op het project werd toegelaten, zou u om het even welke volgende gebieden kunnen vinden:
 
    <table style="table-layout:auto"> 
     <col> 

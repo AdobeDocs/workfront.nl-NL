@@ -6,9 +6,9 @@ description: U kunt een project vormen om gebruikers toe te staan om kwesties aa
 author: Alina, Courtney
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
+source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '798'
 ht-degree: 0%
 
 ---
@@ -48,6 +48,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot problemen bewerken</p>  </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"> Product</td> 
+   <td> <ul><li>Adobe Workfront</li><li>U moet Adobe Workfront Planning hebben om de verzoeken van de Planning te bekijken of om formulieren te verzoeken</td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -75,13 +79,13 @@ De volgende voorwaarden worden vereist om een project te vormen om gebruikers to
 >* Workfront staat één unieke e-mail per aanvraagwachtrij toe voor alle clusters. Als u ervoor kiest om uw aanvraagwachtrij uit te schakelen, behoudt u het e-mailadres dat u hebt gemaakt zolang dit zich nog in het vak E-mailadres invoegen bevindt. Als u ervoor kiest het gebruik van de inname-e-mail te beëindigen, moet u deze verwijderen uit het veld E-mailbericht innemen, zodat deze later kan worden gebruikt.
 >
 >* Als de verzoekrij veelvoudige rijonderwerpen of onderwerpgroepen heeft, zal Workfront willekeurig het rijonderwerp selecteren dat de gemailde verzoeken zullen gaan naar, makend gemailde verzoeken moeilijk te beheren.
->Wij adviseren dat het project dat u opstelling om verzoeken door e-mail te ontvangen niet meer dan één rijonderwerp zou moeten hebben. Als de voorgelegde verzoeken voor verschillende middelen of projecten bedoeld zijn zou u hen moeten leiden of manueel bewegen, nadat zij zijn voorgelegd.
+>  >Wij adviseren dat het project dat u opstelling om verzoeken door e-mail te ontvangen niet meer dan één rijonderwerp zou moeten hebben. Als de voorgelegde verzoeken voor verschillende middelen of projecten bedoeld zijn zou u hen moeten leiden of manueel bewegen, nadat zij zijn voorgelegd.
 
 1. Ga naar het project dat u wilt inschakelen om problemen via e-mail te ontvangen.
 1. Klik **Details van de Rij** in het linkerpaneel.
-1. In het **gebied van het Type van Rij 0&rbrace;, uitgezocht** publiceer als Rij van het Verzoek van de Hulp **.**
+1. In het **gebied van het Type van Rij 0}, uitgezocht** publiceer als Rij van het Verzoek van de Hulp **.**
 
-1. De rol neer aan het **gebied van de Montages van de Rij 0&rbrace; E-mail, dan selecteert** laat de opname van het Verzoek via e-mail **toe.**
+1. De rol neer aan het **gebied van de Montages van de Rij 0} E-mail, dan selecteert** laat de opname van het Verzoek via e-mail **toe.**
 
 1. Ga het begin van het e-mailadres in het **Inname E-mailadres** vakje in.
 

@@ -6,9 +6,9 @@ description: Geplande werkzaamheden worden in Adobe Workfront vertegenwoordigd d
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
+source-git-commit: b24b1e481bbe726aaf9810124fcf55bdac866cb0
 workflow-type: tm+mt
-source-wordcount: '2765'
+source-wordcount: '2841'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,17 @@ ht-degree: 0%
 
 <!--Audited: 12/2023-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(NOTE: Linked to the UI - do not change/ remove; THIS IS NOW SPLIT IN THREE ARTICLES>> MAKE SURE THE TRANSITION TO THE OTHER TWO IS CLEAR SINCE THIS IS LINKED TO UI)</p>
+<p>(NOTE: If they come out with templates AND drafts, consider splitting this article to keep Create in one and Working with Drafts and Requests in another??)</p>
+<p>(NOTE: this article is linked from Submitting Workfront Requests from Salesforce) </p>
+</div>
+-->
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 Geplande werkzaamheden worden in Adobe Workfront vertegenwoordigd door projecten en taken. U kunt echter werken in een omgeving waar ongeplande werkzaamheden, in de vorm van verzoeken, op elk moment kunnen worden uitgevoerd. Workfront biedt een workflow voor het aanpassen van dit type omgeving via het gebruik van Request Queues.
 
@@ -50,6 +58,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <col> 
  <tbody> 
+ <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle </p> </td> 
@@ -64,6 +73,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot problemen bewerken</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> Product</td> 
+   <td> <ul><li>Adobe Workfront</li><li>U moet Adobe Workfront Planning hebben om de verzoeken van de Planning te bekijken of om formulieren te verzoeken</td> 
   </tr> 
  </tbody> 
 </table>
@@ -136,18 +149,20 @@ Een aanvraag maken in de Workfront-webapp:
 
 1. (Voorwaardelijk) als u aan de nieuwe ervaring schakelde die de Planning van Workfront omvat, en in het productiemilieu is, **Nieuwe verzoek** doos toont het volgende:</span>
 
-   * De 6 laatst geopende Workfront aanvraagrijen en de aanvraagformulieren voor planning worden weergegeven in de sectie Recent.
-   * 50 extra de verzoekrijen van Workfront en van de Planning verzoekvormen tonen in alfabetische orde in **Al verzoekvormen** sectie. U kunt zoeken naar een aanvraagwachtrij die niet standaard wordt weergegeven.
-
-   ![ Nieuwe verzoekdoos met verenigd werkschema voor het plannen van verzoeken ](assets/new-request-box-with-unified-workflow-for-planning-requests.png)
-
-   Klik op een van de wachtrijkaarten voor Workfront-aanvragen of zoek naar een van deze wachtkaarten en klik vervolgens op deze werkkaart wanneer deze in de lijst wordt weergegeven.
-1. (Voorwaardelijk) als u aan de nieuwe ervaring schakelde die de Planning van Workfront omvat, en in het voorproefmilieu is, **Nieuwe verzoek** doos toont het volgende:
-
    <ul><li>De 6 laatst geopende Workfront aanvraagrijen en de aanvraagformulieren voor planning worden weergegeven in de sectie Recent. </li>
     <li>Alle extra Workfront en planningsverzoekvormen <b> Alle verzoekvormen </b> sectie. U kunt zoeken naar aanvraagformulieren die niet standaard worden weergegeven. </li>
     <li>Alle extra Workfront en van de Planning de wegen van de verzoekrij tonen in <b> Alle verzoekwegen </b> sectie. U kunt zoeken naar een aanvraagwachtrij die niet standaard wordt weergegeven.</li></ul>
    Klik op een van de paden of formulieren in de Workfront-aanvraagwachtrij of zoek naar een pad en klik vervolgens op het pad wanneer het in de lijst wordt weergegeven.
+1. <span class="preview"> (Voorwaardelijk) Als u naar de nieuwe ervaring schakelt die de Planning van Workfront omvat, selecteer één van de de verzoekrijwegen of vormen van Workfront, of klik de onderzoeksbar. </span>
+
+   <span class="preview"> wanneer u de onderzoeksbar klikt, verschijnt een dropdown tonend de onlangs gebruikte rijen en vormen eerst. Selecteer een optie in de lijst of typ de wachtrij of de lijst wanneer deze wordt weergegeven.</span>
+
+   >[!NOTE]
+   >
+   ><span class="preview"> overweeg het volgende betreffende de nieuwe het vragen ervaring momenteel beschikbaar in Voorproef:</span>
+   >* <span class="preview"> de lijst omvat zowel de verzoekrijen van Workfront als de verzoekvormen van de Planning van Workfront.</span>
+   >* <span class="preview"> u kunt de lijst door objecten type filtreren.</span>
+   >* <span class="preview"> om slechts de rijen van het Verzoek van Workfront te tonen, filter voor `Issue` objecten types.</span>
 
 1. (Voorwaardelijk) als u op de nieuwe ervaring schakelde die de Planning van Workfront omvat, uw onderwerpgroepen en rijonderwerpen selecteert en blijft het formulier bijwerken.
 

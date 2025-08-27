@@ -8,9 +8,9 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 7815fd0f84170cb92eef1bafa8aa90abe5365c04
+source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
@@ -65,6 +65,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   <tr>
    <td role="rowheader">Objectmachtigingen</td> 
    <td><p>Machtigingen of hoger weergeven voor de aanvragen</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> Product</td> 
+   <td> <ul><li>Adobe Workfront</li><li>U moet Adobe Workfront Planning hebben om de verzoeken van de Planning te bekijken of om formulieren te verzoeken</td> 
   </tr> 
  </tbody> 
 </table>

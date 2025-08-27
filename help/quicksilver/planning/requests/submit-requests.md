@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: c3e3dfdb0a1819954c97168cbabddfc8dc5863a0
+source-git-commit: b24b1e481bbe726aaf9810124fcf55bdac866cb0
 workflow-type: tm+mt
-source-wordcount: '2005'
+source-wordcount: '2047'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,10 @@ U kunt een aanvraag voor Workfront-planning vanuit de volgende gebieden indienen
 
 * Vanuit het gebied Aanvragen van Workfront.
 * Vanuit een directe koppeling naar het gedeelde aanvraagformulier.
-
-  In dit artikel wordt beschreven hoe u een verzoek kunt indienen om nieuwe records toe te voegen aan een recordtype vanuit het gebied Verzoeken van Workfront of via een gedeelde koppeling.
 * Wanneer u een nieuwe record toevoegt of aanvraagt, gaat u vanaf de pagina met recordtypen. Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-records.md) creëren.
+
+In dit artikel wordt beschreven hoe u een verzoek kunt indienen om nieuwe records toe te voegen aan een recordtype vanuit het gebied Verzoeken van Workfront of via een gedeelde koppeling.
+
 
 Workfront-gebruikers en externe gebruikers kunnen aanvragen indienen bij de planning van recordtypen en records maken. <!--double check on the external users-->
 
@@ -160,7 +161,9 @@ Het toelaten van dit plaatsen maakt de het verzoekvormen van de Planning van Wor
    >* U hebt toegang tot minstens één werkruimte.
    >
 
-1. Klik **Nieuw verzoek**.
+<!--Production-->
+
+1. In het milieu van de Productie, klik **Nieuw verzoek**.
 
    <!--![New request box with unified Workfront and Planning cards](assets/new-request-box-with-unified-workfront-and-planning-cards.png-->
 
@@ -169,12 +172,15 @@ Het toelaten van dit plaatsen maakt de het verzoekvormen van de Planning van Wor
    * De 6 laatst geopende Workfront aanvraagrijen en de aanvraagformulieren voor planning worden weergegeven in de sectie Recent.
    * 50 extra de verzoekrijen van Workfront en van de Planning verzoekvormen tonen in alfabetische orde in **Al verzoekvormen** sectie. U kunt zoeken naar een aanvraagwachtrij die niet standaard wordt weergegeven.
 
-1. Voer een van de volgende handelingen uit:
+1. Voer een van de volgende handelingen uit in de productieomgeving:
 
    * Selecteer de planningsaanvraagformulieren in de secties Recente of Alle aanvraagformulieren
    * Typ de naam van een formulier voor planningsaanvragen in het zoekvak en klik vervolgens op de kaart wanneer deze in de lijst wordt weergegeven.
 
    Het aanvraagformulier wordt geopend.
+
+<!-- Put preview section here-->
+1. <span class="preview"> in het milieu van de Voorproef, selecteer een verzoekvorm of een rij van het Onlangs betreden gebied van verzoekvormen, of begin typend de vorm of rijnaam in de lijst, dan selecteer het wanneer het verschijnt.
 
 1. Werk de velden bij die beschikbaar zijn in het aanvraagformulier. Velden met een rood sterretje zijn vereist.
 1. Klik **voorleggen**.
@@ -246,7 +252,7 @@ De aanvraaglijst wordt automatisch gefilterd, aangezien u de filtervoorwaarden t
    ![ pagina van de Details van het Verzoek ](assets/request-details-page.png)
 
 
-1. (Voorwaardelijk) als de verzoekvorm niet met een goedkeuring wordt geassocieerd, of als het verzoek is goedgekeurd, klik de naam van het verzoek, dan klik de naam van het verslag op het **1&rbrace; gebied van het Verslag &lbrace;.**
+1. (Voorwaardelijk) als de verzoekvorm niet met een goedkeuring wordt geassocieerd, of als het verzoek is goedgekeurd, klik de naam van het verzoek, dan klik de naam van het verslag op het **1} gebied van het Verslag {.**
 
    De pagina van het verslag opent in de Planning van Workfront.
 
@@ -309,7 +315,7 @@ De aanvraaglijst wordt automatisch gefilterd, aangezien u de filtervoorwaarden t
 
    ![ pagina van de Details van het Verzoek ](assets/request-details-page.png)
 
-1. (Voorwaardelijk) als de verzoekvorm niet met een goedkeuring wordt geassocieerd, of als het verzoek is goedgekeurd, klik de naam van het verzoek, dan klik de naam van het verslag op het **1&rbrace; gebied van het Verslag &lbrace;.**
+1. (Voorwaardelijk) als de verzoekvorm niet met een goedkeuring wordt geassocieerd, of als het verzoek is goedgekeurd, klik de naam van het verzoek, dan klik de naam van het verslag op het **1} gebied van het Verslag {.**
 
    De pagina van het verslag opent in de Planning van Workfront.
 
