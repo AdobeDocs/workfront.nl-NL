@@ -62,7 +62,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    In de lijst die wordt weergegeven, ziet u de groepen die u beheert, samen met eventuele subgroepen die u beheert. Adobe Workfront-beheerders kunnen alle groepen zien.
 
 1. Klik op de naam van de groep waarvoor u lay-outsjablonen wilt maken of wijzigen.
-1. In het linkerpaneel, klik **** pictogram van de malplaatjes van de Lay-out ![ Malplaatjes van de Lay-out ](assets/layout-templates-icon.png).
+1. In het linkerpaneel, klik **&#x200B;**&#x200B;pictogram van de malplaatjes van de Lay-out ![ Malplaatjes van de Lay-out ](assets/layout-templates-icon.png).
 
 1. Voer een van de volgende handelingen uit:
 
