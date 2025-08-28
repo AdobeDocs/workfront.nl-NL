@@ -8,10 +8,10 @@ description: Als a [!DNL Workfront Proof]  beheerder, kunt u de taal kiezen die 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ca585494-5cda-4c41-b9b2-908e24d210d6
-source-git-commit: bf6c6c497d98d91ca78f892606a52f82ee4b5666
+source-git-commit: 3a938714a948ca7681dfd7deaf924af6453dee58
 workflow-type: tm+mt
 source-wordcount: '327'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -28,7 +28,7 @@ Als [!DNL Workfront Proof] beheerder kunt u de taal kiezen die u in [!DNL Workfr
 [!DNL Workfront Proof] is beschikbaar in de volgende talen:
 
 * Engels (VS / VK)
-* Braziliaans (Portugees)
+* Braziliaans Portugees
 * Chinees
 * Nederlands
 * Frans
@@ -46,7 +46,7 @@ Voer de onderstaande stappen uit om de standaardtaal van uw account te wijzigen.
 
 1. Klik in de sectie **[!UICONTROL Account details]** op **[!UICONTROL Edit]** voor de **[!UICONTROL Default language]** -instellingen.
 
-1. Selecteer de standaardtaal in het keuzemenu.\
+1. Selecteer de standaardtaal in het keuzemenu.
    ![ account_language_setting.png ](assets/account-language-setting-350x230.png)
 
 1. Klik op **[!UICONTROL Save].**

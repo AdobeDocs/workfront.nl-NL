@@ -6,9 +6,9 @@ description: U kunt de taal wijzigen waarin u Adobe Workfront en e-mails uit Wor
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 0ae0e2d3c4e47a1f7344acf18068bba9cbbab597
+source-git-commit: 046c1eada53631c9ab50bb0c8233adb012223bb3
 workflow-type: tm+mt
-source-wordcount: '1159'
+source-wordcount: '1156'
 ht-degree: 0%
 
 ---
@@ -72,9 +72,8 @@ De webtestviewer in Workfront ondersteunt de meeste talen die worden ondersteund
 
 De volgende talen worden niet ondersteund in het proefdrukprogramma:
 
-* Chinees - vereenvoudigd (zh-CN)
 * Chinees - traditioneel (zh-TW)
-* Portugees (pt-BR)
+* Koreaans (ko-KR)
 
 Uw bedrijf moet een proefdruklicentie aanschaffen om toegang te krijgen tot de webproefdrukviewer.
 
@@ -93,7 +92,7 @@ Workfront Fusion biedt momenteel alleen ondersteuning voor Engels.
 * Workfront Fusion ondersteunt het gebruik van niet-Engelse teksttekens in door gebruikers ingevoerde velden niet.
 
 Uw bedrijf moet een Workfront Fusion-licentie aanschaffen om toegang te krijgen tot Workfront Fusion.\
-Voor meer informatie over de Fusie van Workfront, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Voor meer informatie over de Fusie van Workfront, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ## De taal wijzigen
 
@@ -147,7 +146,7 @@ Wanneer u de standaard Workfront Email Locale wijzigt, wijzigt u de taal-, datum
 De standaard Workfront-e-maillandinstelling wijzigen:
 
 1. Meld u aan bij Workfront als Workfront-beheerder.
-1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** Opstelling **![](assets/gear-icon-settings.png).**
+1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu** ![ in de hoger-juiste hoek van Adobe Workfront, dan klik ](assets/main-menu-icon.png) Opstelling ****.![](assets/gear-icon-settings.png)
 
 1. Klik **Systeem** > **Info van de Klant.**
 
