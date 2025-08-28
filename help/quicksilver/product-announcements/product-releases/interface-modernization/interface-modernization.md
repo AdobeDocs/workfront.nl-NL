@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
+source-git-commit: ae5cc55bcd1d9db4484b5c5447a483456015f9fe
 workflow-type: tm+mt
-source-wordcount: '7094'
+source-wordcount: '7449'
 ht-degree: 0%
 
 ---
@@ -24,16 +24,26 @@ Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Pr
 
 ## Beheer en installatie
 
-<!--
-### Interface updates when editing a Scorecard
+### Interface-updates voor de lijst met lay-outsjablonen in een groep
 
-**Preview release: August 21, 2025; Production release: August 21, 2025**
+**de versie van de Voorproef: 28 augustus, 2025; De versie van de productie: 4 September, 2025**
 
-We have updated the look and feel of the when editing a Scorecard to match the design in other areas of the application. You can view the updated design when editing a scorecard in the Setup area of Workfront.
+We hebben de vormgeving van de lijst met lay-outsjablonen in het linkerdeelvenster in een groep bijgewerkt, zodat deze overeenkomt met de andere delen van de toepassing.
 
-A small functionality change has been applied to the Scorecard. To edit a Scorecard, select the Scorecard from the list and click the Edit icon. You are no longer directed to the Scorecard details page before you can edit.
+Ga naar Instellingen > Groepen > Selecteer een groep > Lay-outsjablonen om deze wijzigingen weer te geven.
 
--->
+Voor meer informatie, zie [ creeer en wijzig de lay-outmalplaatjes van een groep ](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+
+
+### Interface-updates bij het bewerken van een scorebord
+
+**de versie van de Voorproef: 28 augustus, 2025; De versie van de productie: 28 augustus, 2025**
+
+We hebben de vormgeving van de code bijgewerkt tijdens het bewerken van een scorebord, zodat deze overeenkomt met het ontwerp in andere onderdelen van de toepassing. U kunt het bijgewerkte ontwerp bekijken wanneer het uitgeven van een scorecard in het gebied van de Opstelling van Workfront.
+
+Er is een kleine functiewijziging toegepast op het scorebord. Als u een scorebord wilt bewerken, selecteert u het scorebord in de lijst en klikt u op het pictogram Bewerken. U wordt niet meer omgeleid naar de pagina met details van het scorebord voordat u kunt bewerken.
+
+
 
 ### Interfaceupdates voor de pagina voor de controle- en goedkeuringsmeldingen in Setup
 
@@ -120,7 +130,30 @@ We hebben de pagina Gebruikers voor SSO bijwerken bijgewerkt met een moderner on
 
 Ga naar Instellingen > Systeem > Gebruikers voor SSO bijwerken om deze wijziging weer te geven
 
+## Portfolio&#39;s
+
+### Interface-updates voor het bewerken van portfolio&#39;s
+
+**de versie van de Voorproef: 28 augustus, 2025; De versie van de productie: 4 September, 2025**
+
+We hebben interface-updates geïntroduceerd tijdens het bewerken van portfolio&#39;s in het vak Portfolio bewerken. De vakken Portefeuille bewerken en Portefeuilles bewerken hebben nu een nieuwer ontwerp dat overeenkomt met andere gebieden van Workfront.
+
+>[!NOTE]
+>
+>De instelling Expressies opnieuw berekenen is verwijderd bij het bewerken van grote hoeveelheden. U kunt aangepaste expressies nog steeds bulksgewijs herberekenen wanneer u meerdere portfolio&#39;s in een lijst selecteert en op de optie Expressies opnieuw berekenen klikt in het menu Meer van de werkbalk.
+
+
+Voor informatie, zie [ portefeuilles ](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md) uitgeven.
+
 ## Projecten
+
+### De veranderingen van de interface voor Converteren een taak in een project zonder een malplaatje
+
+**de versie van de Voorproef: 28 augustus, 2025; De versie van de productie: 4 September, 2025**
+
+Wij hebben interfaceupdates aan de Bekeerling aan de doos van het Project toen het omzetten van een taak in een project zonder een malplaatje geïntroduceerd. De doos past nu het ontwerp van andere gebieden van Workfront aan.
+
+Voor informatie, zie [ een taak in een project ](/help/quicksilver/manage-work/tasks/manage-tasks/convert-task-to-project.md) omzetten.
 
 ### Interface-updates bij het toevoegen van objecten aan programma&#39;s en portfolio&#39;s
 
@@ -161,14 +194,14 @@ Er is een kleine functiewijziging geïntroduceerd met deze update. Nu, wanneer h
 
 Voor informatie, zie [ de Onderwerpen van de Rij ](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md) creëren.
 
-<!--### Interface update for the Edit Expense box of a project
+### De update van de interface voor Edit de doos van de Uitgaven van een project
 
-**Preview release: August 21, 2025; Production release: August 28, 2025**
+**de versie van de Voorproef: 28 augustus, 2025; De versie van de productie: 4 September, 2025**
 
-We have updated the dialog box for editing a project expense, to match other areas of the application. The updated dialog box is available when editing expenses in projects or templates.
+We hebben het dialoogvenster bijgewerkt voor het bewerken van projectkosten, zodat dit overeenkomt met andere onderdelen van de toepassing. Het bijgewerkte dialoogvenster is beschikbaar wanneer u uitgaven in projecten of sjablonen bewerkt.
 
-For information, see [Manage project expenses](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
--->
+Voor informatie, zie [ projectuitgaven beheren ](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
+
 
 ### De updates van de interface voor het registreren van tijd op een project, een taak, of een kwestie in de sectie van Uren
 
