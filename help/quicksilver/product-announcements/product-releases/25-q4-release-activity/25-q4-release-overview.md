@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: f4493666ce8053f98490b87a6cfd76d759393d8c
+source-git-commit: a4aa7a6f8909dc3f7212f78391f28068d50a2786
 workflow-type: tm+mt
-source-wordcount: '1638'
-ht-degree: 1%
+source-wordcount: '1871'
+ht-degree: 2%
 
 ---
 
@@ -57,6 +57,29 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Snelle release</strong></td>
         <td><strong>Driemaandelijks</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> laat de eigenschappen van AI Beta voor uw organisatie </a> toe<p></p>
+            <p>Om het voor u gemakkelijker te maken om aanstaande AI eigenschappen te zien en te beïnvloeden, hebben wij het voor u mogelijk gemaakt om Betas voor die eigenschappen voor uw organisatie toe te laten. Nu kunt u een of meer van de momenteel beschikbare AI Beta-functies inschakelen in de Systeemvoorkeuren.</p>
+        </td>
+        <td>vrijdag 28 augustus 2025</td>
+        <td>vrijdag 11 september 2025</td>
+        <td>vrijdag 16 oktober 2025</td>
+    </tr>     
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> Updates aan het gebruikersprofiel van Workfront </a><p>[!BADGE Off schema]{type=Neutral}</p>
+            <p>We hebben het uiterlijk van het Workfront-gebruikersprofiel bijgewerkt naar een modern ontwerp dat aansluit bij andere delen van Workfront. Deze updates zijn van toepassing op zowel een beheerder die één profiel bewerkt, als een gebruiker die meerdere profielen bewerkt of op een gebruiker die zijn of haar eigen profiel bewerkt.</p>
+            <p>Er zijn enkele kleine functieverschillen ten opzichte van het huidige gebruikersprofiel, zoals:</p>
+            <ul>
+                <li>Sommige selectievakjes (zoals de gebruiker als actief markeren) zijn veranderd in schakelknoppen of knoppen.</li>
+                <li>De optie 'Werk verzenden dat ik aan mezelf toewijs naar mijn tabblad Werken op' onder Voorkeuren is verwijderd, omdat deze naar een vervangen functie verwijst.</li>
+            </ul>
+        </td>
+        <td>vrijdag 28 augustus 2025</td>
+        <td>vrijdag 4 september 2025</td>
+        <td>vrijdag 4 september 2025</td>
+    </tr>  
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> voeg veelvoudige waardeopties van externe API aan een douanevorm toe </a><p></p>
@@ -266,30 +289,36 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 <table>
             <col style="width: 50%;" />
-            <col style="width: 50%;" />
+            <col style="width: 25%;" />
             <tbody>
-                <tr>
-                    <td>
-                        <p><span class="bold"> Eigenschap </span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold"> de data van de Versie </span>
-                        </p>
-                    </td>
-                </tr>
+               <tr>
+        <td><strong> Eigenschap </strong>
+        </td>
+        <td><strong>Voorvertoning</strong></td>
+        <td><strong>Snelle release</strong></td>
+        <td><strong>Driemaandelijks</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md" class="MCXref xref" xrefformat="{para}"> Updates aan verbeterde lijsten </a><p></p>
+            <p>Met onze geavanceerde lijstindeling kunt u filters en groepen gebruiken om uw werk weer te geven en beter te organiseren. Er wordt nu een blauwe-puntenindicator weergegeven boven een widget om u te laten weten wanneer een filter of groep is toegepast op een lijst in de volgende gebieden:</p>
+            <ul>
+                <li>Wisselkoersen in Setup</li>
+                <li>Mijn verzoeken-widget</li>
+                <li>Prioriteiten</li>
+            </ul>
+        </td>
+        <td>vrijdag 28 augustus 2025</td>
+        <td>vrijdag 11 september 2025</td>
+        <td>vrijdag 16 oktober 2025</td>
+    </tr>     
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}"> blik-en-voelt updates tijdens het Vierde Kwartaal 2025 versietijdframe </a></p>
                         <p>Kleine updates van het uiterlijk van verschillende onderdelen van de Adobe Workfront-toepassing worden uitgevoerd binnen de releaseperiode van het vierde kwartaal van 2025. </p>
                     </td>
-                    <td><p><b>Beschikbaar op deze data:</b></p>
-                        <ul>
-                            <li>
-                                <p>Voorvertoningsrelease: gedurende de releaseperiode van het vierde kwartaal van 2025<br /></p>
-                            </li>
-                            <li>
-                                <p>Productieversie: minimaal 2 weken na publicatie voor Voorbeeld (tenzij anders vermeld)</p>
+                    <td><p>Gedurende het vierde kwartaal van 2025 is de releaseperiode<br /></p>
+                    <td colspan="2"><p>Snelle release: minimaal 1 week na vrijgave voor voorvertoning (tenzij anders aangegeven)</p>
                             </li>
                         </ul>
                     </td>
@@ -311,7 +340,7 @@ We werken de interface in Adobe Workfront bij om de gebruikerservaring te verbet
 
 ### Workfront Fusion-verbeteringen
 
-Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de standaard releaseschema. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de standaard releaseschema. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Verbeteringen voor Workfront-planning
 
@@ -360,7 +389,7 @@ Om stabielere en scalable integratie te leveren, verschuiven wij naar een modern
 * Workfront voor Salesforce.
 
 We raden u aan Workfront Automation and Integration te gebruiken voor de integratiebehoeften van uw organisatie met Google Workspace.
-Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ### API-versie 20
 
@@ -372,8 +401,8 @@ Voor informatie over API versies, zie [ API versioning en steunprogramma ](/help
 
 ### Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens Eerste Kwartaal 2025 versie worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront [.](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=nl-NL)
+Voor informatie over de onderhoudsupdates die tijdens Eerste Kwartaal 2025 versie worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront [.](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)
 
 ### Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=nl-NL) Nieuw is.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html) Nieuw is.
