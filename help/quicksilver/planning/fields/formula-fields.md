@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 7288c6fb0f5d45758e0a82b8d1283e1f43ae94e6
+source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '889'
 ht-degree: 0%
 
 ---
 
 # Overzicht van formuliervelden
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 {{planning-important-intro}}
 
@@ -114,30 +114,26 @@ Voor informatie, zie de &quot;sectie van de Formule&quot;in artikel [ gebieden ]
 * U kunt in nieuwe formules verwijzen naar formuleringsvelden. Zodra de waarde wordt bijgewerkt in een veld waarnaar wordt verwezen in een formuleveld, worden alle volgende velden die verwijzen naar dat veld of naar formulevelden die dat veld bevatten, automatisch bijgewerkt.
 
 
-<!--
-
 <div class="preview">
 
-## Limitations of formula fields
+## Beperkingen van formuliervelden
 
-* You can add a maximum of 20 formula fields for one record type. 
+* U kunt maximaal 20 formulervelden toevoegen voor één recordtype.
 
-   Formula lookup fields added from connected record types do not count against this limit. 
+  Opzoekvelden van formule die zijn toegevoegd van gekoppelde recordtypen tellen niet mee voor deze limiet.
 
-* The formula expression cannot exceed 50,000 characters. 
+* De formule-expressie mag niet langer zijn dan 50.000 tekens.
 
-* Formula fields might display as `#ERROR!` in the following cases:
-   * When a field used in a formula is deleted.
-   * When a field used in an aggregated lookup field displays as `#ERROR!`. 
-   
-      For example, if you display a lookup field that contains aggregated lookup formula fields and one of the referenced formula fields  displays as `#ERROR!`. 
-   *  When a formula value cannot be displayed in the selected format. 
-   
-      For example, if I select Number for the Format of a formula field, and the fields used in the formula are text fields that display only non-numeric text values, the formula result will display as `#ERROR!`, because it cannot parse the text into a number.
- 
- </div>
- 
- -->
+* In de volgende gevallen kunnen formuliervelden worden weergegeven als `#ERROR!` :
+   * Wanneer een veld in een formule wordt verwijderd.
+   * Wanneer een veld dat in een samengevoegd opzoekveld wordt gebruikt, wordt weergegeven als `#ERROR!` .
+
+     Als u bijvoorbeeld een opzoekveld weergeeft dat geaggregeerde opzoekformulevelden bevat en een van de formuliervelden waarnaar wordt verwezen, wordt weergegeven als `#ERROR!` .
+   * Wanneer een formulewaarde niet in het geselecteerde formaat kan worden getoond.
+
+     Als ik bijvoorbeeld Getal kies voor de indeling van een formuleveld en de velden in de formule tekstvelden zijn die alleen niet-numerieke tekstwaarden weergeven, wordt het resultaat van de formule weergegeven als `#ERROR!` omdat de tekst niet in een getal kan worden geparseerd.
+
+</div>
 
 ## Ondersteunde formules
 

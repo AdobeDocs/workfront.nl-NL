@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 7288c6fb0f5d45758e0a82b8d1283e1f43ae94e6
+source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '441'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # Overzicht van beperkingen van Adobe Workfront-planningsobjecten
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview"> de informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet.</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 {{planning-important-intro}}
 
@@ -46,11 +46,9 @@ In de volgende tabel staan de limieten voor het aantal objecten dat u kunt maken
 | De grootte van CSV van het dossier van Excel u kunt invoeren om recordtypes tot stand te brengen | 5 MB |
 | Aantal rijen dat u in een CSV- of Excel-bestand kunt importeren om recordtypen te maken | 25.000 |
 | Aantal kolommen dat u in een CSV- of Excel-bestand kunt importeren om recordtypen te maken | 500 |
+| <span class="preview"> Aantal formules gebieden voor één verslagtype </span> | <span class="preview"> 20 </span> |
+| <span class="preview"> Aantal karakters in een uitdrukking van het formuleringsgebied </span> | <span class="preview"> 50.000 </span> |
 
-<!--
-| <span class="preview">Number of formula fields for one record type</span> | <span class="preview">20</span> |
-| <span class="preview">Number of characters in a formula field expression</span> | <span class="preview">50,000</span> |
--->
 
 *Wij adviseren om niet te veel werkruimten te hebben, aangezien zij moeilijk zouden kunnen worden te beheren en uw werkschema&#39;s zouden te gefragmenteerd kunnen zijn.
 

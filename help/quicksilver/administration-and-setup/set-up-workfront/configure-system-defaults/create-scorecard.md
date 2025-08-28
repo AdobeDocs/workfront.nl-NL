@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: configure-system-defaults
 title: Een scorebord maken
 description: Een scorecard meet hoe goed een project zich aan de eerder vastgestelde criteria van een portefeuille richt. Een scorecard weerspiegelt vaak de missie, de waarden, en de strategische doelstellingen van een organisatie.De managers van Portfolio bepalen gewoonlijk de scorecardvragen en de antwoorden om ervoor te zorgen zij zinvol en waardevol tijdens project prioritering en selectie zijn. Een  [!DNL Adobe Workfront]  beheerder bouwt de scorecards die op de aanbevelingen van portefeuillemanagers worden gebaseerd.
-author: Lisa, Alina
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
 workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 0%
@@ -127,7 +127,7 @@ U kunt een scorecard tot stand brengen door bestaande te kopiëren en uit te gev
 {{step-1-to-setup}}
 
 1. Klik op **[!UICONTROL Scorecards]** in het linkerdeelvenster.
-1. Selecteer een scorecard in de lijst, dan klik het **pictogram van het Exemplaar ![ pictogram van het Exemplaar scorecard ](assets/copy-scorecard-icon.png) bij de bovenkant van de scorecardlijst.**
+1. Selecteer een scorecard in de lijst, dan klik het **pictogram van het Exemplaar** pictogram van het Exemplaar scorecard ![ bij de bovenkant van de scorecardlijst.](assets/copy-scorecard-icon.png)
 
    Het **Scorecard van het Exemplaar** vakje opent.
 

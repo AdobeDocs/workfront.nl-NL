@@ -6,23 +6,22 @@ description: U kunt gegevens bewerken over portfolio's die u hebt gemaakt of die
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: 7288c6fb0f5d45758e0a82b8d1283e1f43ae94e6
+source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '1051'
 ht-degree: 0%
 
 ---
 
 # Portfolio&#39;s bewerken
 
-<!--
-<div class="preview"> 
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
+De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Dezelfde functies zijn ook beschikbaar in de productieomgeving voor alle klanten na een week vanaf de release Preview.
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+Voor meer informatie, zie [ modernisering van de Interface ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
-</div>-->
+</div>
 
 U kunt gegevens bewerken over portfolio&#39;s die u hebt gemaakt of die andere gebruikers hebben gemaakt als ze deze met u hebben gedeeld.
 
@@ -110,9 +109,9 @@ U kunt een portfolio bewerken op de portfoliopagina of portfolio&#39;s in een li
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this might have to be split in two sections if the single edit and the bulk edit won't come at the same time for portfolios)</p>
    -->
-   Het dialoogvenster **[!UICONTROL Edit Portfolio]** wordt weergegeven. <!--update screen shot at preview release-->
+   <span class="preview"> de **[!UICONTROL Edit Portfolio]** vakvertoningen.</span>
 
-   ![ geef portefeuillevak ](assets/edit-portfolio-box-classic-350x224.png) uit
+   <span class="preview">![ geef portefeuillevak ](assets/edit-portfolio-box-classic-350x224.png)</span> uit
 
    Alle portfoliovelden zijn beschikbaar in het vak [!UICONTROL Edit Portfolio] en worden gegroepeerd op de gebieden in het linkerdeelvenster.
 
@@ -170,17 +169,15 @@ U kunt een portfolio bewerken op de portfoliopagina of portfolio&#39;s in een li
     </tbody> 
    </table>
 
-1. Klik op **[!UICONTROL Save Changes]** of ga door met het bewerken van de volgende secties.
-
-   <!--Replace the last point with this at preview release: Click **[!UICONTROL Save Changes]** <span class="preview">or [!UICONTROL **Save**]</span> and continue editing the following sections.-->
+1. Klik **[!UICONTROL Save Changes]** <span class="preview"> of [!UICONTROL **sparen**]</span> en blijf het uitgeven van de volgende secties.
 
 ### Aangepaste Forms
 
 1. Bewerk het portfolio zoals hierboven beschreven.
 1. Klik op het vervolgkeuzemenu **[!UICONTROL Add Forms]** om aangepaste formulieren te selecteren en toe te voegen aan het portfolio.
 
-   <!--Or 
-   <span class="preview">Start typing the name of a form in the [!UICONTROL **Add custom form**] field.</span>-->
+   of
+   <span class="preview"> Begin typend de naam van een vorm in [!UICONTROL **voeg douaneformulier**] gebied toe.</span>
 
    U moet aangepaste portfolioformulieren maken voordat u deze kunt toevoegen.
 
@@ -188,20 +185,16 @@ U kunt een portfolio bewerken op de portfoliopagina of portfolio&#39;s in een li
    >
    >Afhankelijk van de manier waarop de [!DNL Workfront] -beheerder de machtigingen voor de secties in het aangepaste formulier instelt, kan niet iedereen dezelfde velden op een aangepast formulier weergeven of bewerken. De machtigingen voor het bewerken van velden in een sectie van een aangepast formulier zijn afhankelijk van de machtigingen die u hebt voor het portfolio zelf. Voor informatie over het plaatsen van toestemmingen op secties van een douaneformulier, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
-1. Werk alle velden in de aangepaste formulieren bij en klik op **[!UICONTROL Save Changes]** of ga verder met de volgende sectie.
-
-   <!--Replace the last point with this at preview release: Click **[!UICONTROL Save Changes]** <span class="preview">or [!UICONTROL **Save**]</span> and continue editing the following sections.-->
+1. Klik **[!UICONTROL Save Changes]** <span class="preview"> of [!UICONTROL **sparen**]</span> en blijf het uitgeven van de volgende secties.
 
 ### Opmerking {#comment}
 
 1. Een portfolio bewerken zoals hierboven beschreven.
-1. Klik op **[!UICONTROL Comment]** . <!--replace screen shot at preview-->
+1. Klik op **[!UICONTROL Comment]**.
 
-   ![ geef de doos van de portefeuillecommentaar uit ](assets/comment-box-edit-portfolio-classic-350x227.png)
+   <span class="preview">![ geef de doos van de portefeuillecommentaar uit ](assets/comment-box-edit-portfolio-classic-350x227.png)</span>
 
-1. Voeg een opmerking toe in het veld **[!UICONTROL Post an update to the portfolio]** .
+1. <span class="preview"> voeg een commentaar op het **[!UICONTROL Add an update to the portfolio]** gebied toe.</span>
 1. (Optioneel) Klik op het pictogram **[!UICONTROL People]** om een gebruiker of een team aan de opmerking toe te voegen.
 1. (Optioneel) Klik op het pictogram **[!UICONTROL Lock]** om de opmerking te vergrendelen en deze alleen toegankelijk te maken voor gebruikers in uw bedrijf.
-1. Klik op **[!UICONTROL Save Changes]**.
-
-   <!--Replace the last point with this at preview release: Click **[!UICONTROL Save Changes]** <span class="preview">or [!UICONTROL **Save**]</span>.-->
+1. Klik **[!UICONTROL Save Changes]** <span class="preview"> of [!UICONTROL **sparen**]</span>.
