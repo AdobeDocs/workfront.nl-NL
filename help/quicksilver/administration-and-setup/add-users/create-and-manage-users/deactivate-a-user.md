@@ -109,7 +109,7 @@ Een gebruiker deactiveren:
 1. Selecteer een gebruiker in de gebruikerslijst.
 1. Klik het **Meer** pictogram ![ Meer pictogram ](assets/more-icon.png), dan klik **deactivate**.
 
-1. In het **Deactivate gebruikers** dialoogvakje, klik **** deactivate.
+1. In het **Deactivate gebruikers** dialoogvakje, klik **&#x200B;**&#x200B;deactivate.
 
 ## Gebruikers plannen voor deactivering
 
@@ -129,7 +129,7 @@ Een gebruiker plannen voor deactivering:
 
 1. Klik **uitgeven** pictogram ![ uitgeven pictogram ](assets/edit-icon.png).
 1. In het linkerpaneel van **geef de doos van de Gebruiker** uit, klik **Planning van het Middel**.
-1. Selecteer **checkbox van de Deactivering van het 0} Programma,** of klik <span class="preview"> Vastgestelde deactiveringsdatum **.**</span>
+1. Selecteer **checkbox van de Deactivering van het 0&rbrace; Programma,** of klik <span class="preview"> Vastgestelde deactiveringsdatum **.**</span>
 
 1. Selecteer de datum en de tijd voor de **Geplande Datum van Deactivering** / <span class="preview">**Deactivatie Datum**</span>.
 
