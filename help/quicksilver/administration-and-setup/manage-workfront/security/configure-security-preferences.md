@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
+source-git-commit: cb9a6536c4995080887032aa84539eff040338f8
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '832'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,10 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 -->
 
 <!--Audited: 05/2024-->
+
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 {{important-admin-console-onboard}}
 
@@ -107,29 +111,37 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
         <li>Kalender</li>
        </ul><p>Deze optie is standaard ingeschakeld.</p> <p><b> Belangrijk </b>: Het Externe niveau van de gebruikerstoegang is niet beschikbaar in uw instantie van Workfront als deze optie gehandicapt is. Voor meer informatie, zie <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref"> Ingebouwde toegangsniveaus </a>.</p> </td> 
      </tr> 
-     <tr> 
-      <td role="rowheader">Externe gebruikers verplichten zich met een wachtwoord te registreren</td> 
-      <td> <p>Externe gebruikers moeten zich registreren voordat ze objecten in Workfront kunnen bekijken. Deze optie is standaard uitgeschakeld. Als u deze optie inschakelt, worden personen zonder Workfront-account die via hun e-mailadres in bepaalde updates zijn opgenomen, gevraagd een account te maken voordat ze het item kunnen bekijken waarop ze zijn opgenomen. Hiermee maakt u een externe gebruikersaccount voor deze gebruikers.</p> <p>Deze optie is standaard uitgeschakeld.</p> </td> 
+     <!--<tr> 
+      <td role="rowheader">Require external users to register with a password</td> 
+      <td> <p>Requires external users to register before they are able to view items in Workfront. By default, this option is disabled. When you enable this option, people without a Workfront account who are included in certain updates by their email address, will be prompted to create an account before they can view the item they are included on. This creates an External User account for them.</p> <p>This option is disabled by default.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Gebruikers automatisch afmelden na</td> 
-      <td> Hier kunt u opgeven wanneer een gebruiker na een periode van inactiviteit uit Workfront wordt afgemeld. Standaard worden gebruikers afgemeld na 8 uur inactiviteit. <p>Deze optie is ook van toepassing op Workfront-klanten die één aanmeldingsoplossing gebruiken.</p> <p>Deze instelling is niet beschikbaar voor organisaties die zijn gemigreerd naar Adobe IMS.</p></td> 
+      <td role="rowheader">Automatically log users out after</td> 
+      <td> Lets you specify when a user is logged out of Workfront, after a period of inactivity. By default, users are logged out after 8 hours of inactivity. <p>This option also affects Workfront customers who are using a single sign-on solution.</p> <p>This setting is not available to organizations that have been migrated to Adobe IMS.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Mobiele gebruikers automatisch afmelden na </td> 
-      <td>Hier kunt u opgeven wanneer een gebruiker na een periode van inactiviteit uit de Workfront-toepassing wordt afgemeld. Gebruikers worden standaard afgemeld na 7 dagen inactiviteit. <p>Deze optie is ook van toepassing op Workfront-klanten die één aanmeldingsoplossing gebruiken.</p> <p>Deze instelling is niet beschikbaar voor organisaties die zijn gemigreerd naar Adobe IMS.</p></td> 
-     </tr> 
+      <td role="rowheader">Automatically log mobile users out after </td> 
+      <td>Lets you specify when a user is logged out of the Workfront application, after a period of inactivity. By default, users are logged out after 7 days of inactivity. <p>This option also affects Workfront customers who are using a single sign-on solution.</p> <p>This setting is not available to organizations that have been migrated to Adobe IMS.</p></td> 
+     </tr> -->
      <tr> 
       <td role="rowheader">Aangepaste Help-URL</td> 
       <td>Hiermee kunt u een interne aangepaste Help-site definiëren waarnaar het hulppictogram voor het hoofdmenu moet gaan. Voor meer informatie, zie <a href="/help/quicksilver/administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md"> een douanehulp URL </a> vormen.</p></td> 
      </tr>
      <tr> 
-      <td role="rowheader">Gebruikers in het systeem zien standaard de nieuwe Home-ervaring </td> 
-      <td>Hier kunt u opgeven of gebruikers standaard de Nieuwe startervaring zien. Wanneer toegelaten, zullen de gebruikers de Nieuwe ervaring van het Huis door gebrek zien, maar kunnen nog verkiezen om Nieuwe Huis op individuele basis toe te laten of onbruikbaar te maken. Als deze optie is uitgeschakeld, zien gebruikers niet de banner waarmee ze naar Nieuwe startpagina kunnen schakelen. Ze kunnen echter wel handmatig naar de nieuwe startpagina navigeren door <code>/home/workspaces</code> aan het einde van de instantie-URL in te voeren. Deze instelling is standaard ingeschakeld.</td> 
-     </tr>
-     <tr> 
       <td role="rowheader">De werklijst Prioriteiten inschakelen </td> 
       <td>Hiermee kunt u ervoor kiezen om de werklijstervaring Prioriteiten in of uit te schakelen voor uw gebruikers. Gebruikers zien nog steeds de Prioriteitspictogrammen in Workfront, maar ze hebben geen toegang tot de functionaliteit. Voor meer informatie over Prioriteiten, zie <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md"> begonnen worden met Prioriteiten </a>.</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">AI inschakelen </td> 
+      <td>Hiermee kunt u AI inschakelen, inclusief AI Assistant. <p><b> Nota </b>: Uw organisatie moet aan specifieke vereisten voldoen om AI toe te laten. Voor meer informatie over AI, met inbegrip van de vereisten, zie <a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md"> AI Hulpoverzicht </a>.</p></td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Formulier automatisch aanvullen </td> 
+      <td>Hiermee kunt u de mogelijkheid inschakelen om aanvraagformulieren automatisch in te vullen op basis van eerdere aanvraaggegevens. Voor meer informatie over Auto-Volledige Vorm, zie <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md"> auto-Vul een verzoek van vorige gegevens </a>.</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Aanmelden bij AI Betas </td> 
+      <td>Hiermee kunt u AI-functies inschakelen die zich momenteel in Beta bevinden. Als u deze optie inschakelt, kunt u selecteren welke AI Beta-functies u wilt inschakelen. Voor meer informatie over elke AI Beta-functie klikt u op het informatiepictogram naast die functie.</td> 
      </tr>
      <tr> 
       <td role="rowheader">Testomgevingen</td> 
