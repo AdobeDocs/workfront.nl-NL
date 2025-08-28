@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: b235945deb3254feaf671083fc992786851a3286
+source-git-commit: c7b91828e5a4f961fc48e857eb63756b9b38f664
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1116'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 >title="Een gebruiker deactiveren"
 >abstract="Als u een gebruiker deactiveert, worden deze verwijderd uit Workfront en Frame.io. Gedetactiveerde gebruikers kunnen later opnieuw worden geactiveerd."
 
+{{highlighted-preview}}
+
 <!--Audited 5/2025-->
 
 <!--
@@ -30,7 +32,7 @@ ht-degree: 0%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/nl/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -88,7 +90,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 Voordat u een Workfront-beheerder of een gebruiker van een Standard- of Plan-licentie deactiveert, moet u de objecten en activiteiten aan een andere gebruiker koppelen.
 
-Voor meer informatie, zie [ Ongeveer het deactiveren van de beheerders van Workfront en de gebruikers van de vergunning van het Plan ](#about-deactivating-workfront-administrators-and-plan-license-users) in dit artikel.
+Voor meer informatie, zie [ Ongeveer het deactiveren van de beheerders van Workfront en Standaard of de vergunningsgebruikers van het Plan ](#about-deactivating-workfront-administrators-and-plan-license-users) in dit artikel.
 
 ## Een gebruiker deactiveren
 
@@ -107,7 +109,7 @@ Een gebruiker deactiveren:
 1. Selecteer een gebruiker in de gebruikerslijst.
 1. Klik het **Meer** pictogram ![ Meer pictogram ](assets/more-icon.png), dan klik **deactivate**.
 
-1. In het **Deactivate gebruikers** dialoogvakje, klik **&#x200B;**&#x200B;deactivate.
+1. In het **Deactivate gebruikers** dialoogvakje, klik **** deactivate.
 
 ## Gebruikers plannen voor deactivering
 
@@ -127,17 +129,17 @@ Een gebruiker plannen voor deactivering:
 
 1. Klik **uitgeven** pictogram ![ uitgeven pictogram ](assets/edit-icon.png).
 1. In het linkerpaneel van **geef de doos van de Gebruiker** uit, klik **Planning van het Middel**.
-1. Selecteer het **checkbox van de Deactivering van het Programma**.
+1. Selecteer **checkbox van de Deactivering van het 0} Programma,** of klik <span class="preview"> Vastgestelde deactiveringsdatum **.**</span>
 
-1. Selecteer de datum en de tijd voor de **Geplande Datum van Deactivering**.
+1. Selecteer de datum en de tijd voor de **Geplande Datum van Deactivering** / <span class="preview">**Deactivatie Datum**</span>.
 
    >[!NOTE]
    >
    >* In het tijdvak kunt u alleen stappen van een heel uur selecteren, geen minuten.
-   >* Als u een tijd voor de huidige dag selecteert die is overgegaan, zal Workfront de deactivering voor de volgende dag om 12:00 plannen.
+   >* Als u een tijd voor de huidige dag selecteert die is overgegaan, zal Workfront deactivatie voor de volgende dag om 12 :00 AM plannen.
    >* De geselecteerde tijd komt overeen met de tijdzone van de computer van de gebruiker die de deactivering plant.
 
-1. Klik **sparen Veranderingen**.
+1. Klik **sparen Veranderingen** <span class="preview"> of **sparen**</span>.
 
 De gebruiker wordt op de geselecteerde dag ergens na de geselecteerde tijd gedeactiveerd. Als u meerdere gebruikers hebt geselecteerd om bulksgewijs te deactiveren, worden alle geselecteerde gebruikers op de geselecteerde dag gedeactiveerd ergens na de geselecteerde tijd.
 

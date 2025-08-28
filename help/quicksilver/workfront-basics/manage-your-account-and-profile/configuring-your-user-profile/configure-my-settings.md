@@ -3,22 +3,24 @@ product-area: user-management;setup
 navigation-topic: configure-your-user-profile
 title: Mijn instellingen configureren
 description: Uw  [!DNL Adobe Workfront]  profiel bevat informatie over zich (bijvoorbeeld, uw naam, e-mailadres, adres, telefoonaantal, titel, enz.). Het bevat ook informatie over uw interactie met  [!DNL Workfront]  en andere gebruikers in uw bedrijf.
-author: Courtney
+author: Lisa, Courtney
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: eda5a2b283d87bccbbff1edff6744556f25ac6e0
 workflow-type: tm+mt
-source-wordcount: '2891'
+source-wordcount: '2887'
 ht-degree: 0%
 
 ---
 
 # Mijn instellingen configureren
 
+{{highlighted-preview}}
+
 <!-- Audited: 01/2024 -->
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Edit the job role FTE percentage allocation blurbs when more functionality is released: now, it says that the % is that of the user's schedule, but it will be either the user's schedule or the system schedule.</p>
+<p>Edit the job role FTE percentage allocation blurbs when more functionality is released: now, it says that the % is that of the user's schedule, but it will be either the user's schedule or the system schedule.</p>
 -->
 
 Het profiel [!DNL Adobe Workfront] bevat informatie over uzelf (bijvoorbeeld uw naam, e-mailadres, adres, telefoonnummer, titel, enz.). Het bevat ook informatie over uw interactie met [!DNL Workfront] en andere gebruikers in uw bedrijf (bijvoorbeeld uw berichtmontages, de lusjes u in [!DNL Workfront] wilt tonen, of uw baanrol, manager en groep en teamlidmaatschap).
@@ -246,7 +248,7 @@ In deze subsectie kunt u de volgende opties wijzigen:
    <td> Werk uw e-mailadres bij. Dit is een verplicht veld. Onthoud dat uw e-mailadres ook uw gebruikersnaam voor [!DNL Workfront] is.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL Reset password]</strong></td> 
+   <td role="rowheader"><strong>[!UICONTROL Reset password]</strong> / <span class="preview"><strong> wachtwoord van de Verandering </strong></span></td> 
    <td>Stel uw wachtwoord in deze sectie opnieuw in. Voor meer informatie over het terugstellen van uw wachtwoord, zie <a href="../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md" class="MCXref xref"> het Terugstellen van uw wachtwoord </a>.</td> 
   </tr> 
   <tr> 
@@ -254,7 +256,7 @@ In deze subsectie kunt u de volgende opties wijzigen:
    <td> Als uw [!DNL Workfront] -beheerder een SSO-integratie met [!DNL Workfront] heeft ingeschakeld, wordt de gebruikersnaam van de SSO in dit veld weergegeven. Het type SSO-configuratie dat voor uw [!DNL Workfront] -instantie is ingeschakeld, is zichtbaar in dit veld.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>(Voorwaardelijk) [!UICONTROL Only Allow &lt;SSO Configuration> Authentication]</strong></td> 
+   <td role="rowheader"><strong>(Voorwaardelijk) [!UICONTROL Only Allow <SSO Configuration> Authentication]</strong></td> 
    <td> <p> Als uw [!DNL Workfront] -beheerder een SSO-integratie met [!DNL Workfront] heeft ingeschakeld en gebruikers voor SSO heeft bijgewerkt, wordt dit veld standaard geselecteerd. Het type SSO-configuratie dat voor uw [!DNL Workfront] -instantie is ingeschakeld, is zichtbaar in dit veld.</p> <p>Als dit veld is geselecteerd, moet u zich aanmelden bij [!DNL Workfront] met uw SSO-referenties. Als u de optie uitschakelt, kunt u zich aanmelden bij [!DNL Workfront] met uw [!DNL Workfront] -referenties.</p> <p>Voor meer informatie over het vormen [!DNL Workfront] met een oplossing SSO, zie <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref"> Enige sign-on in [!DNL Workfront]: artikelindex </a>. Voor meer informatie over het bijwerken van gebruikers voor SSO, zie <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref"> de gebruikers van de Update voor enig teken-op </a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -313,7 +315,7 @@ In deze subsectie kunt u de volgende opties wijzigen:
         <td> </td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL Profile Picture]</strong></td>
+        <td><strong>[!UICONTROL Profile photo]</strong></td>
         <td>Uw profielfoto wordt uw avatar en is zichtbaar door het [!DNL Workfront] systeem, waar uw naam wordt getoond.</td>
     </tr>
 </table>
@@ -340,13 +342,8 @@ In deze subsectie kunt u de volgende opties wijzigen:
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Email Locale]</strong> </td> 
    <td><p>Geef hier uw voorkeurstaal op. Hiermee bepaalt u de taal, datum en getalnotatie die in uitgaande e-mailberichten worden gebruikt.</p>
-   <p><strong> NOTA:</strong> wanneer uw organisatie op de Adobe Verenigde Ervaring is, worden de taalvoorkeur opgeslagen in uw profiel van de Adobe en e-mailscène wordt niet gebruikt. Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language"> de taal van Adobe Experience Cloud </a> in het artikel <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md"> Gesteunde talen in Adobe Workfront </a> veranderen.</p></td> 
+   <p><strong> NOTA:</strong> wanneer uw organisatie op de Adobe Verenigde Ervaring is, worden de taalvoorkeur opgeslagen in uw profiel van Adobe en e-mailscène wordt niet gebruikt. Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language"> de taal van Adobe Experience Cloud </a> in het artikel <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md"> Gesteunde talen in Adobe Workfront </a> veranderen.</p></td> 
   </tr>
-
-<tr> 
-   <td role="rowheader"><strong>[!UICONTROL Send work assigned to myself to my Working On tab]</strong> </td> 
-   <td>Dit veld verwijst naar een vervangen functie die is verwijderd uit [!DNL Workfront] .</td> 
-  </tr> 
   <tr> 
    <td role="rowheader"><strong>(Voorwaardelijk) Automatisch proefdrukken genereren bij het uploaden van documenten</strong></td> 
    <td>Selecteer dit veld om een proefdruk te genereren direct nadat het document is geladen in [!DNL Workfront] . Dit veld is standaard uitgeschakeld en kan alleen door een Workfront-beheerder worden bijgewerkt.<br> Dit gebied is beschikbaar slechts als uw bedrijf de component van Workfront Proof voor Workfront heeft gekocht en als u als proefdrukgebruiker wordt toegelaten. Voor meer informatie over Workfront Proof, zie <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md" class="MCXref xref"> leiden proeven binnen Adobe Workfront </a>.
@@ -373,7 +370,7 @@ In deze subsectie kunt u de volgende opties wijzigen:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Is Active]</strong> </td> 
-   <td>Dit veld is alleen zichtbaar voor een gebruiker die ook een [!DNL Workfront] beheerder is en moet standaard worden gecontroleerd. Dit betekent dat de gebruiker actief is en zich kan aanmelden bij [!DNL Workfront]</td> 
+   <td>Dit veld is alleen zichtbaar voor een gebruiker die ook een [!DNL Workfront] beheerder is en moet standaard zijn ingeschakeld. Dit betekent dat de gebruiker actief is en zich kan aanmelden bij [!DNL Workfront]</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Access Level]</strong> </td> 
@@ -459,8 +456,8 @@ Voer in deze sectie een van de volgende handelingen uit:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL Schedule Deactivation]</strong></td> 
-   <td>Schakel dit selectievakje in als u wilt plannen dat uw account na een bepaalde periode wordt gedeactiveerd. In de <p><strong>[!UICONTROL Scheduled Deactivation Date]</strong> die wordt weergegeven, geeft u de datum op waarna uw account wordt gedeactiveerd. Voor informatie over het deactiveren van gebruikers, zie <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation" class="MCXref xref"> gebruikers van het Programma voor deactivering </a> in <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref"> deactivate of een gebruiker </a> opnieuw activeren. </p><p>U kunt de deactiveringsvelden van uw account bewerken als u een [!UICONTROL Standard] - of [!UICONTROL Plan] -licentie hebt of als u de [!DNL Workfront] -beheerder bent. </p></td> 
+   <td role="rowheader"><strong>[!UICONTROL Schedule Deactivation]</strong> / <span class="preview"><strong> plaats deactiveringsdatum </strong></span></td> 
+   <td><p>Controle dit vakje / <span class="preview"> klik deze knoop </span> als u wilt plannen dat uw rekening na een periode zou moeten worden gedeactiveerd. Geef in de <strong>[!UICONTROL Scheduled Deactivation Date]</strong> die wordt weergegeven de datum op waarna uw account wordt gedeactiveerd. Voor informatie over het deactiveren van gebruikers, zie <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation" class="MCXref xref"> gebruikers van het Programma voor deactivering </a> in <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref"> deactivate of een gebruiker </a> opnieuw activeren. </p><p>U kunt de deactiveringsvelden van uw account bewerken als u een [!UICONTROL Standard] - of [!UICONTROL Plan] -licentie hebt of als u de [!DNL Workfront] -beheerder bent. </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Primary Role]</strong></td> 
@@ -504,7 +501,7 @@ Voer in deze sectie een van de volgende handelingen uit:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Cost per Hour]</strong> </td> 
-   <td>Geef de hoeveelheid kosten per uur voor de gebruiker op. Voor meer informatie over het volgen van kosten in [!DNL Workfront], zie {de kosten van het 1} Spoor </a>. <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref"> U kunt deze informatie alleen bijwerken als u toegang hebt tot financiële gegevens op toegangsniveau of als u een [!DNL Workfront] beheerder bent. Voor meer informatie over financiële toegang, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref"> Toegang van de Verlening tot financiële gegevens </a>.</td> 
+   <td>Geef de hoeveelheid kosten per uur voor de gebruiker op. Voor meer informatie over het volgen van kosten in [!DNL Workfront], zie {de kosten van het 1} Spoor <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">. </a> U kunt deze informatie alleen bijwerken als u toegang hebt tot financiële gegevens op toegangsniveau of als u een [!DNL Workfront] beheerder bent. Voor meer informatie over financiële toegang, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref"> Toegang van de Verlening tot financiële gegevens </a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Billing per Hour]</strong> </td> 
