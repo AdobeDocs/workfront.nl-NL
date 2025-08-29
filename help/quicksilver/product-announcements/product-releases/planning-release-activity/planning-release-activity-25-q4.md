@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 4e1761f9-bf73-4355-925a-9136f2787a3f
-source-git-commit: f7dcae5e6bcc8674ef37ef94282c50dc9ffe951d
+source-git-commit: c7c958b09caf7e15f128a729f6b327f6c3fa21e8
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '966'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,23 @@ In dit artikel worden de functies beschreven die tijdens de release van het vier
 <!--keep the sentence below for all future quarterly release pages-->
 
 Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront worden vrijgegeven, zie [ de versieactiviteit van de Planning van Adobe Workfront: artikelindex ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+
+
+## Nieuwe gecombineerde statuskolom in de verenigde lijst Verzoek
+
+>[!NOTE]
+>
+>* Voorbeeld: 28 augustus 2025
+>* Snelle productie: 11 september 2025
+>* Productie voor alle afnemers: 16 oktober 2025
+
+Om de verenigde verzoekervaring te vereenvoudigen, toont de kolom van de Status nu zowel de Status van het Verzoek als Status van de Goedkeuring, welke op een bepaald verzoek van toepassing is.
+
+Zie voor meer informatie over het maken van aanvragen:
+
+* Voor Workfront: [ creeer en verzend verzoeken ](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
+* Voor de Planning van Workfront: [ legt Adobe Workfront Planningsverzoeken voor om verslagen ](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen
 
 ## Nieuwe limieten voor formuliervelden
 
@@ -60,8 +77,8 @@ Voor informatie, zie [ overzicht van de gebieden van de Formule ](/help/quicksil
 >[!NOTE]
 >
 >Voorbeeld: 7 augustus 2025
->&#x200B;>Productie voor alle klanten :August, 2025
->&#x200B;>[!BADGE Uit schema &#x200B;]{type=Neutral}
+>>Productie voor alle klanten :August, 2025
+>>[!BADGE Uit schema ]{type=Neutral}
 
 We hebben nieuwe expressies toegevoegd met het volgende gebruik voor formuleringsvelden in Workfront Planning en voor berekende aangepaste velden in Workfront:
 
@@ -76,8 +93,8 @@ Voor meer informatie, zie [ Overzicht van berekende gegevensuitdrukkingen ](/hel
 >[!NOTE]
 >
 >Voorbeeld: 31 juli 2025
->&#x200B;>Productie voor alle afnemers: 31 juli 2025
->&#x200B;>[!BADGE Uit schema &#x200B;]{type=Neutral}
+>>Productie voor alle afnemers: 31 juli 2025
+>>[!BADGE Uit schema ]{type=Neutral}
 
 Er is een knop Maximaliseren toegevoegd om het veld Formule te vergroten wanneer u het veld maakt of bewerkt in een recordtabelweergave. Bovendien hebben we een knop Minimaliseren toegevoegd in het nieuwe vergrote venster om terug te keren naar het vak voor het maken van velden.
 
@@ -126,8 +143,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >Voorbeeld: 24 juli 2025
->&#x200B;>Snelle productie: 14 augustus 2025
->&#x200B;>Productie voor alle afnemers: 16 oktober 2025
+>>Snelle productie: 14 augustus 2025
+>>Productie voor alle afnemers: 16 oktober 2025
 
 U kunt nu records van een recordtype maken in de tijdlijnweergave door ergens op de tijdlijn te dubbelklikken.
 
@@ -142,8 +159,8 @@ Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-rec
 >[!NOTE]
 >
 >Voorbeeld: 24 juli 2025
->&#x200B;>Snelle productie: 14 augustus 2025
->&#x200B;>Productie voor alle afnemers: 16 oktober 2025
+>>Snelle productie: 14 augustus 2025
+>>Productie voor alle afnemers: 16 oktober 2025
 
 U kunt nu een recordtype delen via het menu Meer van de kaart met recordtypen op de pagina Werkruimte. Vóór deze verbetering, was de optie van het Aandeel beschikbaar slechts binnen de verslagtype pagina.
 
@@ -154,8 +171,8 @@ Voor informatie, zie [ recordtypes van het Aandeel ](/help/quicksilver/planning/
 >[!NOTE]
 >
 >Voorbeeld: 24 juli 2025
->&#x200B;>Snelle productie: 14 augustus 2025
->&#x200B;>Productie voor alle afnemers: 16 oktober 2025
+>>Snelle productie: 14 augustus 2025
+>>Productie voor alle afnemers: 16 oktober 2025
 
 U kunt nu alle Workfront-planningsweergaven (tabel, tijdlijn en kalender) op een volledig scherm weergeven. De weergavefunctionaliteit blijft behouden en u kunt de weergave ook wijzigen op volledig scherm.
 
@@ -168,8 +185,8 @@ Voor informatie, zie [ verslagmeningen ](/help/quicksilver/planning/views/manage
 >[!NOTE]
 >
 >Voorbeeld: 22 juli 2025
->&#x200B;>Productie voor snelle release: 14 augustus 2025
->&#x200B;>Productie voor alle afnemers: 16 oktober 2025
+>>Productie voor snelle release: 14 augustus 2025
+>>Productie voor alle afnemers: 16 oktober 2025
 
 Om het goedkeuringsproces flexibeler te maken, hebben wij de capaciteit toegevoegd om teams als fiatteurs op de aanvraagformulieren van de Planning toe te voegen. Nu kunt u teamnamen invoeren en selecteren wanneer u fiatteurs instelt. Om het even welke teamleden kunnen een besluit nemen, dat als goedkeuringsbesluit voor het volledige team telt.
 
@@ -182,8 +199,8 @@ Voor meer informatie, zie [ een goedkeuring aan een verzoekvorm in de Planning v
 >[!NOTE]
 >
 >Voorbeeld: 17 juli 2025
->&#x200B;>Productie voor snelle release: 14 augustus 2025
->&#x200B;>Productie voor alle afnemers: 16 oktober 2025
+>>Productie voor snelle release: 14 augustus 2025
+>>Productie voor alle afnemers: 16 oktober 2025
 
 Wij introduceren de volgende gebieden om goedkeuringsinformatie voor verslagen te vangen die door een verzoek met een goedkeuring wordt gecreeerd voor te leggen:
 
@@ -197,8 +214,8 @@ Voor informatie, zie [ gebieden ](/help/quicksilver/planning/fields/create-field
 >[!NOTE]
 >
 >Voorbeeld: 10 juli 2025
->&#x200B;>Snelle productie: 14 augustus 2025
->&#x200B;>Productie voor alle afnemers: 16 oktober 2025
+>>Snelle productie: 14 augustus 2025
+>>Productie voor alle afnemers: 16 oktober 2025
 
 
 Als u nu groepen hebt toegepast op een tabelweergave, wordt automatisch ingevuld wanneer u een record aan de tabel toevoegt, welke velden zijn gekoppeld aan de groepen waaraan u de record toevoegt.

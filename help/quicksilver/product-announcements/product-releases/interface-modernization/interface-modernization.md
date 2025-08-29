@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: ae5cc55bcd1d9db4484b5c5447a483456015f9fe
+source-git-commit: 31cc110fb4fba38a530406acc1f42a89159e029b
 workflow-type: tm+mt
-source-wordcount: '7449'
+source-wordcount: '7469'
 ht-degree: 0%
 
 ---
@@ -180,6 +180,10 @@ Raadpleeg de volgende artikelen voor meer informatie:
 
 **de versie van de Voorproef: 21 augustus, 2025; De versie van de productie: 28 augustus, 2025**
 
+>[!NOTE]
+>
+>Deze functie is tijdelijk verwijderd uit de productieomgeving.
+
 Wij hebben de blik en het gevoel van het Nieuwe vakje van het Onderwerp van de Rij bijgewerkt wanneer u een nieuw rijonderwerp aan een project of een malplaatje toevoegt, om het ontwerp van andere gebieden van Workfront aan te passen.
 
 Voor informatie, zie [ de Onderwerpen van de Rij ](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md) creëren.
@@ -187,6 +191,10 @@ Voor informatie, zie [ de Onderwerpen van de Rij ](/help/quicksilver/manage-work
 ### Interface werkt bij het uitgeven van een Onderwerp van de Rij op een project of een malplaatje bij
 
 **de versie van de Voorproef: 21 augustus, 2025; De versie van de productie: 28 augustus, 2025**
+
+>[!NOTE]
+>
+>Deze functie is tijdelijk verwijderd uit de productieomgeving.
 
 We hebben de ervaring bijgewerkt bij het bewerken van een rijonderwerp voor projecten en sjablonen, zodat dit overeenkomt met andere gebieden van Workfront.
 

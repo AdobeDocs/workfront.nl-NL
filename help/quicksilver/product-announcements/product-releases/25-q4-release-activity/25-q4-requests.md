@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
+source-git-commit: c7c958b09caf7e15f128a729f6b327f6c3fa21e8
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,21 @@ ht-degree: 0%
 Op deze pagina worden de verbeteringen beschreven die zijn aangebracht in de release Vierde kwartaal 2025 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2025 versiecyclus, zie [ Vierde Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
+
+## Nieuwe gecombineerde statuskolom in de verenigde lijst Verzoek
+
+>[!NOTE]
+>
+>* Voorbeeld: 28 augustus 2025
+>* Snelle productie: 11 september 2025
+>* Productie voor alle afnemers: 16 oktober 2025
+
+Om de verenigde verzoekervaring te vereenvoudigen, toont de kolom van de Status nu zowel de Status van het Verzoek als Status van de Goedkeuring, welke op een bepaald verzoek van toepassing is.
+
+Zie voor meer informatie over het maken van aanvragen:
+
+* Voor Workfront: [ creeer en verzend verzoeken ](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
+* Voor de Planning van Workfront: [ legt Adobe Workfront Planningsverzoeken voor om verslagen ](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen
 
 ## Updates voor het aanvragen van ervaring
 
