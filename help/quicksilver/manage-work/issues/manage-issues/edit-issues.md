@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: b291525db0105081b5ff3dd65d9d2b3267a2f60c
 workflow-type: tm+mt
-source-wordcount: '2566'
+source-wordcount: '2618'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ U kunt één uitgave bewerken of u kunt uitgaven in een lijst bewerken. Voor inf
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -95,7 +95,7 @@ U kunt een uitgave bewerken met de gebieden Probleem bewerken of Details van pro
    1. (Optioneel) Klik op het pictogram **Alles samenvouwen** rechtsboven om alle gebieden samen te vouwen.
    1. (Facultatief en voorwaardelijk) wanneer een gebied wordt doen ineenstorten, klik de **juist-richt pijl** ![ juist richtende pijl ](assets/right-pointing-arrow.png) naast elk gebied om het gebied uit te breiden u wilt uitgeven.
    1. (Facultatief) om een douaneformulier vast te maken, begin de naam van een vorm in **te typen voeg douaneformulier** toe, dan selecteer het wanneer het in de lijst toont, dan klik **sparen Veranderingen**.
-   1. (Facultatief) klik het **pictogram van de Uitvoer ![ pictogram van de Uitvoer ](assets/export.png) om het Overzicht en de informatie van de douaneformulieren naar een dossier van PDF uit te voeren, dan klik** Uitvoer **.** Selecteer een van de volgende opties:
+   1. (Facultatief) klik het **pictogram van de Uitvoer** pictogram van de Uitvoer ![ om het Overzicht en de informatie van de douaneformulieren naar een dossier van PDF uit te voeren, dan klik ](assets/export.png) Uitvoer **.** Selecteer een van de volgende opties:
 
       * Alles selecteren (wordt alleen weergegeven als er ten minste één aangepast formulier is gekoppeld)
       * Overzicht
@@ -142,7 +142,7 @@ U kunt een uitgave bewerken met de gebieden Probleem bewerken of Details van pro
 1. Bewerk een uitgave zoals hierboven beschreven.
 1. Klik **Naam van de Uitgave**.
 
-   {de naamsectie van 0} Uitgave ![&#128279;](assets/issue-name-section-edit-issue-box-nwe-350x127.png)
+   {de naamsectie van 0} Uitgave ![](assets/issue-name-section-edit-issue-box-nwe-350x127.png)
 
 1. Werk het **gebied van de Naam van de Uitgave** bij.
 1. Klik **sparen** of blijf het uitgeven van de volgende secties.
@@ -163,11 +163,9 @@ U kunt een uitgave bewerken met de gebieden Probleem bewerken of Details van pro
      <tr> 
       <td role="rowheader">Beschrijving</td> 
       <td> <p>Voeg aanvullende informatie toe over het probleem.</p> </td> 
-     </tr> 
-     <tr> 
-      <td colspan="2" role="rowheader">Sectie Basisinformatie</td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">Status</td> 
       <td> <p>Selecteer de status van de uitgave. Voor meer informatie over uitgiftestatussen, zie <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref"> Toegang tot de lijst van de statussen van de systeemkwestie </a>. </p> </td> 
      </tr> 
@@ -192,8 +190,24 @@ U kunt een uitgave bewerken met de gebieden Probleem bewerken of Details van pro
         <li> <p style="font-weight: bold;">Fout zonder tijdelijke oplossing</p> </li> 
         <li> <p style="font-weight: bold;">Fatale fout</p> </li> 
        </ul> <p>Afhankelijk van de projectvoorkeuren die door uw Workfront-beheerder zijn geselecteerd, kunnen de namen van de bestandscontroles voor u anders zijn. Voor meer informatie over het uitgeven van controles, zie <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md" class="MCXref xref"> creeer of pas de controles van de kwestie </a> aan.</p> </td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
+   <td role="rowheader">Uitgave</td> 
+   <td> <p>De voorwaarde van een kwestie is een vlag die op het wordt geplaatst om erop te wijzen hoe het gaat.</p> 
+   <p>U kunt de voorwaarde van een taak of een kwestie of automatisch of manueel plaatsen.</p>
+   <p>U moet aan de kwestie worden toegewezen om zijn voorwaarde te veranderen.</p>
+   <p>Selecteer een van de volgende opties:</p> 
+      <ul> 
+   <li> <p style="font-weight: bold;">Vloeiend</p> </li> 
+   <li> <p style="font-weight: bold;">Sommige problemen</p> </li> 
+   <li> <p style="font-weight: bold;">Belangrijkste wegversperringen</p> </li> 
+   </ul> </td> 
+     </tr>
+
+
+
+   <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>Typ een webkoppeling die betrekking heeft op de informatie over de uitgave.</p> </td> 
      </tr> 
@@ -311,7 +325,7 @@ U kunt een uitgave bewerken met de gebieden Probleem bewerken of Details van pro
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Rol van de gemachtigde</td> 
-      <td> <p>Selecteer een rol van het </strong> drop-down menu van de Rol van 0&rbrace; Toegewezen wanneer u een persoon als toegewezen selecteerde. <strong> Dit is de rol die de verkrijger op dit punt kan vervullen. </p> <p><b>TIP</b>
+      <td> <p>Selecteer een rol van het <strong> drop-down menu van de Rol van 0} Toegewezen wanneer u een persoon als toegewezen selecteerde. </strong> Dit is de rol die de verkrijger op dit punt kan vervullen. </p> <p><b>TIP</b>
 
    Alleen de functies die aan elke toegewezen persoon in het profiel zijn gekoppeld, worden weergegeven in het vervolgkeuzemenu.</p> </td>
    </tr> 

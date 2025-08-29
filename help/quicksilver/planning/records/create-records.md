@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
+source-git-commit: b291525db0105081b5ff3dd65d9d2b3267a2f60c
 workflow-type: tm+mt
 source-wordcount: '2814'
 ht-degree: 0%
@@ -159,7 +159,7 @@ Alle records van het geselecteerde type worden in de weergave weergegeven.
    1. Klik één van de volgende manieren om een verslag tot stand te brengen, dan **ga** verder:
 
       * **voeg manueel** toe. Het voorvertoningsvak van de record wordt geopend.\
-        Voeg informatie over het verslag toe, zoals die in [ wordt beschreven creeer verslagen door hen inline van de 1&rbrace; sectie van de verslagtype lijstmening &lbrace;in dit artikel toe te voegen, beginnend met stap 6. ](#create-records-by-adding-them-inline-from-the-record-type-table-view)<!--insure this stays accurate-->
+        Voeg informatie over het verslag toe, zoals die in [ wordt beschreven creeer verslagen door hen inline van de 1} sectie van de verslagtype lijstmening {in dit artikel toe te voegen, beginnend met stap 6. ](#create-records-by-adding-them-inline-from-the-record-type-table-view)<!--insure this stays accurate-->
       * **uploadt van dossier**
 Voeg verslagen toe, zoals die in het artikel [ worden beschreven verslagen door informatie van een CSV of dossier van Excel ](/help/quicksilver/planning/records/import-file-to-create-records.md) in te voeren, die met stap 6 beginnen. <!--ensure this stays accurate-->
       * **leg een verzoek** voor
@@ -335,7 +335,7 @@ Voor informatie over het creëren van een chronologiemening, zie [ de chronologi
    * **dicht** ![ dicht pictogram ](assets/close-icon.png) om de nieuwe verslagdoos te sluiten.
 
    Het verslag wordt toegevoegd aan de chronologie evenals aan de lijst en kalendermeningen onmiddellijk, tenzij u het **pictogram van de Schrapping** klikte.
-
+   <!--1. (Optional) Hover over the record's bar in the timeline and drag and drop the ends of the bar to a different date. This automatically changes the start and end date of the record.-->
 1. (Optioneel) Klik op de recordbalk in de tijdlijn om het detailvenster van de record te openen en de gegevens van de record bij te werken, te verwijderen of opmerkingen toe te voegen.
 
    >[!TIP]
@@ -387,9 +387,9 @@ For information about creating a calendar view, see [Manage the calendar view](/
 
     * **Record date fields**: Update the dates of the record. 
         
-        The names of the date fields are customized according to the fields selected for the Start and End dates when the timeline view was created.
+        The names of the date fields are customized according to the fields selected for the Start and End dates when the calendar view was created.
 
-        By default, date values are preselected depending on how you display the timeline view. The following scenarios exist:
+        By default, date values are preselected depending on how you display the calendar view. The following scenarios exist:
 
         * By **Month**: The record start and end dates span one day.
         * By **Week**: The record start and end dates span two days.
