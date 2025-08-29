@@ -6,9 +6,9 @@ description: Een grafiekrapport dat uw gegevens visualiseert als bar, kolom, lij
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1352'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,20 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Voor meer informatie, zie {de bètainformatie van de Dashboards van het 0} Canvas [.](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
+>De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Onderdelen van het onderdeel zijn mogelijk niet compleet of werken niet zoals bedoeld in deze fase. Gelieve te dienen om het even welke terugkoppelen betreffende uw ervaring door de instructies in [ te volgen verstrekt ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) sectie in het de bètaoverzichtsartikel van de dashboards van het Canvas.<br>
+>>Deze bètaversie is niet beschikbaar op de volgende cloudproviders:
+>
+>* Je eigen sleutel voor Amazon Web Services
+>* Azure
+>* Google Cloud Platform
 
 U kunt een grafiekrapport aan een dashboard van het Canvas bouwen en toevoegen om uw gegevens als bar, kolom, lijn, of cirkeldiagram visualiseren.
 
 ![ rapport van de Grafiek ](assets/chart-report-main.png)
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.
+## Toegangsvereisten
+
++++ Vouw uit om de vereisten voor toegang weer te geven. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -70,7 +77,7 @@ Er zijn vele configuratieopties beschikbaar voor het bouwen van een grafiekrappo
 
 1. Klik **Nieuw Dashboard** in de hoger-juiste hoek.
 
-1. In **creeer dashboard** doos, ga de 2&rbrace; Naam van het dashboard **en** Beschrijving **in.**
+1. In **creeer dashboard** doos, ga de 2} Naam van het dashboard **en** Beschrijving **in.**
 
 1. Klik **creëren**.
 
@@ -90,7 +97,7 @@ Er zijn vele configuratieopties beschikbaar voor het bouwen van een grafiekrappo
 
       >[!NOTE]
       >
-      >Er is een maximumaantal reeksen dat in een grafiek kan worden getoond. Wanneer deze doos wordt gecontroleerd, worden om het even welke reeksen boven de grens geconsolideerd in a **Andere** groepering in de grafiek.
+      >Er is een maximumaantal 60 reeksen die in een grafiek kunnen worden getoond. Wanneer deze doos wordt gecontroleerd, worden om het even welke reeksen boven de grens geconsolideerd in a **Andere** groepering in de grafiek.
 
 1. Volg hieronder de stappen om **bouwt grafiek** sectie te vormen:
 
@@ -115,12 +122,12 @@ Er zijn vele configuratieopties beschikbaar voor het bouwen van een grafiekrappo
 
 1. Volg hieronder de stappen om de **sectie van de Filter** te vormen:
 
-   1. In het linkerpaneel, klik het **pictogram van de Filter**![ van de Filter &lbrace;](assets/filter-icon.png).
+   1. In het linkerpaneel, klik het **pictogram van de Filter**![ van de Filter {](assets/filter-icon.png).
    1. Selecteer **filter uitgeven**.
    1. Klik **toevoegen voorwaarde** en specificeer dan het gebied u tegen en de bepaling wilt filtreren die bepaalt welk soort voorwaarde het gebied moet ontmoeten.
    1. (Facultatief) klik **toevoegen filtergroep** om een andere reeks het filtreren criteria toe te voegen. De standaardoperator tussen de sets is AND. Klik op de operator om deze te wijzigen in OR.
 
-1. Volg hieronder de stappen om de **sectie van de Montages van de Kolom te vormen 0&rbrace; Drilldown &lbrace;:**
+1. Volg hieronder de stappen om de **sectie van de Montages van de Kolom te vormen 0} Drilldown {:**
 
    1. In het linkerpaneel, klik het **Drilldown pictogram van Kolommen** ![ Drilldown kolommen ](assets/drilldown-column.png). De velden in het diagram worden automatisch als kolommen weergegeven in de voorbeeldsectie aan de rechterkant.
 
@@ -146,7 +153,7 @@ In deze sectie, zullen wij over de stappen gaan om een kolomgrafiek tot stand te
 
 1. Klik **Nieuw Dashboard** in de hoger-juiste hoek.
 
-1. In **creeer dashboard** doos, ga de 2&rbrace; Naam van het dashboard **en** Beschrijving **in.**
+1. In **creeer dashboard** doos, ga de 2} Naam van het dashboard **en** Beschrijving **in.**
 
 1. Klik **creëren**.
 
@@ -200,13 +207,15 @@ In deze sectie, zullen wij over de stappen gaan om een kolomgrafiek tot stand te
 
    1. In de **drop-down exploitanten**, uitgezochte **minder dan**.
 
-   1. Knevel **Vastgestelde relatieve datum** aan **&#x200B;**.
+   1. Knevel **Vastgestelde relatieve datum** aan ****.
 
    1. Ga *$$TODAY* op het evaluatiegebied in.
 
+      Voor meer informatie over vervangingen, zie de sectie op datum-Gebaseerde variabelen van de vervangingsfilter in [ rapportfilters in een 1} artikel van het Dashboard van het Canvas uitgeven.](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)
+
       ![ het gebied van de Evaluator ](assets/add-condition.png)
 
-1. Volg hieronder de stappen om de **sectie van de Montages van de Kolom te vormen 0&rbrace; Drilldown &lbrace;:**
+1. Volg hieronder de stappen om de **sectie van de Montages van de Kolom te vormen 0} Drilldown {:**
 
    1. In het linkerpaneel, klik het **Drilldown Kolommen** ![ Drilldown kolommen ](assets/drilldown-column.png) pictogram. De velden in het diagram worden automatisch als kolommen weergegeven in de voorbeeldsectie aan de rechterkant.
 
@@ -227,3 +236,35 @@ In deze sectie, zullen wij over de stappen gaan om een kolomgrafiek tot stand te
    1. Klik **toevoegen groeperend** knoop en selecteer dan het **Project** > **gebied van de Naam**.
 
 1. Klik **sparen** om het rapport tot stand te brengen en het toe te voegen aan het dashboard.
+
+## Overwegingen bij het samenstellen van een grafiekrapport
+
+### De veldkiezer gebruiken
+
+De **secties** drop-down in de **bouwt grafiek** sectie wordt ontworpen om de keuzen op een gebiedsselecteur te versmallen om een voorwerp gemakkelijker te maken om te vinden wanneer het bouwen van een lijstrapport. Om te beginnen selecteert u een basisentiteitsobject.
+
+* **Alle Secties**: Alle objecten types in het Werkschema van Workfront en de Planning van Workfront.
+* **de Voorwerpen van Workfront**: De inheemse voorwerpen van het Werkschema van Workfront.
+* **de Types van Verslag van de Planning**: De verslagtypes van Douane die in de Planning van Workfront worden bepaald.
+
+![ drop-down Secties ](assets/sections-dropdown.png)
+
+Zodra het voorwerp van de basisentiteit is geselecteerd, **secties** drop-down dan werkt met toepasselijke gebiedstype opties bij om van te kiezen.
+
+* **Alle Secties**: Inheemse gebieden, douanegebieden, en verwante voorwerpen.
+* **Alle Gebieden**: Zowel inheemse als douanegebieden (sluit verhoudingen) uit.
+* **Gebieden van de Douane**: Klant-bepaalde gebieden of op een douanevorm of een verslag van de Planning.
+* **de Gebieden van Workfront**: Eigen gebieden slechts.
+* **Verhoudingen**: Verbonden verslagen.
+
+![ Te Rapporteren objecten selectie ](assets/reportable-objects-selection.png)
+
+### Verwijzen naar onderliggende objecten
+
+De beschikbare verhoudingen voor extra kolommen, filteropties, en groeperingsattributen zijn over het algemeen beperkt tot voorwerpen hoger in de objecten van Workfront hiërarchie of anders één enkele selectie op het voorwerp van de basisentiteit van het rapport hebben. Hierop zijn enkele uitzonderingen van toepassing, waaronder:
+
+* Project > Taken
+* Documentgoedkeuring > Documentgoedkeuringsfasen
+* Acties voor documentgoedkeuring > Deelnemers aan werkgebied voor documentgoedkeuring
+
+Wanneer u een van de bovenstaande relaties van bovenliggend item naar onderliggend item gebruikt, wordt in de tabel een rij weergegeven voor elke onderliggende record die is verbonden met het bovenliggende object.

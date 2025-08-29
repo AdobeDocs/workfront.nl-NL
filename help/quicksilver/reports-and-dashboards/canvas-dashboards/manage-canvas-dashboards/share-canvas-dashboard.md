@@ -6,9 +6,9 @@ description: U kunt een Canvas-dashboard delen met andere Adobe Workfront-gebrui
 author: Jenny
 feature: Reports and Dashboards
 exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
-source-git-commit: b8f25d9490173f8f23a0ba545486c99202f05a69
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,18 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Voor meer informatie, zie {de bètainformatie van de Dashboards van het 0} Canvas [.](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
+>De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Onderdelen van het onderdeel zijn mogelijk niet compleet of werken niet zoals bedoeld in deze fase. Gelieve te dienen om het even welke terugkoppelen betreffende uw ervaring door de instructies in [ te volgen verstrekt ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) sectie in het de bètaoverzichtsartikel van de dashboards van het Canvas.<br>
+>>Deze bètaversie is niet beschikbaar op de volgende cloudproviders:
+>
+>* Je eigen sleutel voor Amazon Web Services
+>* Azure
+>* Google Cloud Platform
 
 U kunt een Canvas-dashboard delen met andere Adobe Workfront-gebruikers, zodat deze het kunnen bekijken of bewerken.
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.
+## Toegangsvereisten
+
++++ Vouw uit om de vereisten voor toegang weer te geven. 
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -44,13 +51,14 @@ U kunt een Canvas-dashboard delen met andere Adobe Workfront-gebruikers, zodat d
   </tr> 
   <tr> 
    <td role="rowheader"><p>Configuraties op toegangsniveau</p></td> 
-   <td><p>Toegang tot rapporten, dashboards en kalenders bewerken</p>
+   <td><p>Toegang tot rapporten, dashboards en kalenders weergeven</p>
   </td> 
   </tr>  
     </tr>  
         <tr> 
    <td role="rowheader"><p>Objectmachtigingen</p></td> 
-   <td><p>Rechten voor het dashboard beheren</p>
+   <td><p>Machtigingen voor het dashboard weergeven om het dashboard te delen</p>
+   <p>Machtigingen voor het dashboard beheren om dashboardmachtigingen toe te wijzen</p>
   </td> 
   </tr>
 </tbody> 
@@ -61,13 +69,17 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 ## Overwegingen bij het delen van dashboards
 
-* Standaard heeft de maker van een dashboard beheerdersmachtigingen.
+* De dashboards kunnen aan gebruiker, team, groep, baanrol, of bedrijfmiddelen worden gedeeld.
 
-* U kunt dashboards delen die u met andere individuen, teams, groepen, baanrollen, of bedrijven creeert. U kunt ook dashboards delen die u hebt gemaakt en eerder met u hebt gedeeld.
+* Standaard heeft de maker van een dashboard beheermachtigingen voor het dashboard.
 
-* Wanneer u een dashboard deelt, nemen gebruikers standaard de machtigingen Weergave over aan alle rapportobjecten op het dashboard, tenzij de machtiging wordt bijgewerkt voordat ze worden gedeeld.
+* Systeembeheerders en gebruikers met de machtiging Beheren kunnen View of Manage toegang verlenen tot een dashboard.
 
-* Als u de toestemmingen van de Mening op een dashboard hebt, kunt u nog het dashboard delen maar u kunt geen toestemming hoger dan Mening aan de ontvangers toewijzen.
+* Gebruikers met de machtiging Weergave voor een dashboard kunnen View toegang tot een dashboard verlenen.
+
+* Wanneer het delen van een dashboard, zullen de middelen het met wordt gedeeld toestemmingen aan de rapporten erven die op het dashboard worden getoond.
+
+* Wanneer een dashboard door een lay-outmalplaatje wordt verdeeld, wordt een automatische toestemming van de Mening voor het dashboard (en zijn rapporten) verleend aan alle middelen die aan het lay-outmalplaatje worden toegewezen.
 
 
 ## Een canvasdashboard delen
@@ -83,16 +95,18 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. Op **geef toegang tot** gebied, begin het typen van de naam van een specifieke gebruiker, een team, een rol, een groep, of een bedrijf u het Dashboard van het Canvas met wilt delen, dan het wanneer het in de drop-down lijst verschijnt.
 
-1. (Facultatief) om de toegang van een gebruiker tot het dashboard uit te geven, klik **Mening** naast hun naam, dan uitgezocht **leidt** in de drop-down lijst die verschijnt.
+1. (Facultatief) om de toegang van een middel tot het dashboard uit te geven, klik **Mening** naast hun naam, dan uitgezocht **leidt** in de drop-down lijst die verschijnt.
 
    >[!NOTE]
    >
-   >Sommige gebruikers kunnen hun toegangsniveau niet veranderen (b.v. beheerders).
+   > Wanneer gebruikers niet de Edit toestemmingen aan een dashboard hebben die door hun toegangsniveau wordt toegewezen, kunnen zij niet worden toegewezen leidt toestemmingen aan een dashboard.
 
-1. Herhaal stap 5-6 voor elke gebruiker met wie u het dashboard wilt delen.
+1. Herhaal stap 5-6 voor elke bron waarmee u het dashboard wilt delen.
 
 1. Klik de **knoop van het Aandeel**. De ontvangers ontvangen een e-mailbericht informerend hen dat het dashboard met hen is gedeeld, die zij bij **dashboards** kunnen nu toegang hebben > **de Dashboards van het Canvas** > **Gedeelde dashboards**.
 
    >[!NOTE]
    >
-   >Individuele gebruikersvoorkeuren en systeemuitsluitingen voor e-mailberichten kunnen van toepassing zijn.
+   > Individuele gebruikersvoorkeuren en systeemuitsluitingen voor e-mailberichten kunnen van toepassing zijn. <br>
+   > Meldingen worden alleen verzonden wanneer ze rechtstreeks met een gebruiker worden gedeeld. Het delen aan groepen, rollen, bedrijven, en de teams produceren geen e-mailberichten.<br>
+   > De toestemmingen die van een lay-outmalplaatje worden geërft zullen geen e-mailbericht over de toegang tot het dashboard produceren.

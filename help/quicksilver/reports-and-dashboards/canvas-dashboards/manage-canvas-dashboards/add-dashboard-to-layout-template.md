@@ -5,9 +5,10 @@ title: Canvasdashboard toevoegen aan een lay-outsjabloon
 description: U kunt een Canvasdashboard toevoegen aan een lay-outsjabloon, zodat de landingspagina Home wordt vervangen, in het linkerdeelvenster van een object wordt weergegeven of aan de bovenste balk is vastgezet.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: b5899500cad1ac32345d39f76eea7f643f1cd0ea
+exl-id: 91ebcec5-99a4-4096-8d4e-b4ea31755d75
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -16,11 +17,18 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Voor meer informatie, zie {de bètainformatie van de Dashboards van het 0} Canvas [.](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
+>De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Onderdelen van het onderdeel zijn mogelijk niet compleet of werken niet zoals bedoeld in deze fase. Gelieve te dienen om het even welke terugkoppelen betreffende uw ervaring door de instructies in [ te volgen verstrekt ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) sectie in het de bètaoverzichtsartikel van de dashboards van het Canvas.<br>
+>>Deze bètaversie is niet beschikbaar op de volgende cloudproviders:
+>
+>* Je eigen sleutel voor Amazon Web Services
+>* Azure
+>* Google Cloud Platform
 
 U kunt een Canvasdashboard toevoegen aan een lay-outsjabloon, zodat deze de startpagina vervangt, in het linkerdeelvenster van een object wordt weergegeven of in Adobe Workfront op de bovenste balk wordt vastgezet.
 
 ![ Linkerpaneel ](assets/left-panel.png)
+
+## Toegangsvereisten
 
 +++ Vouw uit om de vereisten voor toegang weer te geven. 
 

@@ -6,9 +6,9 @@ description: Rapporten die zijn gemaakt met het gereedschap Adobe Workfront-rapp
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: f77990ab-da7a-4dcb-89fa-f65ed2b79522
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,18 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Voor meer informatie, zie {de bètainformatie van de Dashboards van het 0} Canvas [.](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
+>De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Onderdelen van het onderdeel zijn mogelijk niet compleet of werken niet zoals bedoeld in deze fase. Gelieve te dienen om het even welke terugkoppelen betreffende uw ervaring door de instructies in [ te volgen verstrekt ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) sectie in het de bètaoverzichtsartikel van de dashboards van het Canvas.<br>
+>>Deze bètaversie is niet beschikbaar op de volgende cloudproviders:
+>
+>* Je eigen sleutel voor Amazon Web Services
+>* Azure
+>* Google Cloud Platform
 
 Rapporten die zijn gemaakt met het gereedschap Adobe Workfront-rapporten, kunnen worden toegevoegd aan een Canvasdashboard. Voor meer informatie bij het creëren van rapporten, zie [ begonnen worden met rapporten ](/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.
+## Toegangsvereisten
+
++++ Vouw uit om de vereisten voor toegang weer te geven. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -56,13 +63,14 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 ## Een bestaand rapport toevoegen aan een Canvasdashboard
 
+
 {{step1-to-dashboards}}
 
 1. In het linkerpaneel, klik **de Dashboards van het Canvas**.
 
 1. Klik **Nieuw Dashboard** in de hoger-juiste hoek.
 
-1. In **creeer dashboard** doos, ga de 2&rbrace; Naam van het dashboard **en** Beschrijving **in.**
+1. In **creeer dashboard** doos, ga de 2} Naam van het dashboard **en** Beschrijving **in.**
 
 1. Klik **creëren**.
 
@@ -76,9 +84,15 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
      >[!NOTE]
      >
-     > Op dit punt in het bètastadium, is **Alle goedkeurt** huiswidget de enige beschikbare widget. Deze lijst wordt uitgebreid naarmate het bètawerkgebied vordert.
+     > Op dit punt in het bètastadium, is de **goedkeurings metriek van het Document** huis widget de enige beschikbare widget. Deze lijst wordt uitgebreid naarmate het bètawerkgebied vordert.
 
 1. (Facultatief) om de details van een rapport te bekijken alvorens het aan het dashboard toe te voegen, klik **Mening** in-lijn met het gewenste rapport.
 
 1. Klik **toevoegen** in-lijn met het rapport u wilt toevoegen.
+
+   >[!NOTE]
+   >
+   > Als u een extra bestaand rapport aan een dashboard wilt toevoegen nadat het is gecreeerd, **toevoegen rapport** knoop in de hoger-juiste hoek van de pagina van dashboarddetails en dan stappen 6-9 herhalen.
+
+
 

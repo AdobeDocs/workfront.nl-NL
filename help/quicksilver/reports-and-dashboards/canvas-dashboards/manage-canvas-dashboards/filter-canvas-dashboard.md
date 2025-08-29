@@ -5,9 +5,10 @@ title: Een canvasdashboard filteren
 description: U kunt een filter op een dashboard van het Canvas toepassen nadat het is gecreeerd.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: fcce7c6b9a2d10069a4b6c50b7b7a244ac538a33
+exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '863'
 ht-degree: 0%
 
 ---
@@ -16,9 +17,17 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Voor meer informatie, zie {de bètainformatie van de Dashboards van het 0} Canvas [.](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
+>De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Onderdelen van het onderdeel zijn mogelijk niet compleet of werken niet zoals bedoeld in deze fase. Gelieve te dienen om het even welke terugkoppelen betreffende uw ervaring door de instructies in [ te volgen verstrekt ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) sectie in het de bètaoverzichtsartikel van de dashboards van het Canvas.<br>
+>>Deze bètaversie is niet beschikbaar op de volgende cloudproviders:
+>
+>* Je eigen sleutel voor Amazon Web Services
+>* Azure
+>* Google Cloud Platform
+
 
 U kunt een filter op een dashboard van het Canvas toepassen dat herinneringen bevat. Een vraag werkt als filterbepaling die extra het filtreren criteria toepast zodat kunt u uw resultaten nog verder versmallen. Deze herinneringen kunnen worden gewijzigd telkens als u de filter toepast, toestaand u om de getoonde resultaten aan te passen zonder het moeten de belangrijkste filtercriteria van het dashboard of elk individueel rapport uitgeven.
+
+## Toegangsvereisten
 
 +++ Vouw uit om de vereisten voor toegang weer te geven. 
 
@@ -136,7 +145,7 @@ Met een dashboardprompt kunnen gebruikers extra aangepaste filters toepassen op 
 
    1. Klik **toevoegen nieuwe optie**.
 
-   1. Ga de snelle naam op het **gebied van de Waarde van de Optie 0&rbrace; in.**
+   1. Ga de snelle naam op het **gebied van de Waarde van de Optie 0} in.**
 
    1. Klik **toevoegen voorwaarde** en specificeer dan het gebied u tegen en de bepaling wilt filtreren die bepaalt welk soort voorwaarde het gebied moet ontmoeten.
 

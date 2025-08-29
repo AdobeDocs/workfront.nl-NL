@@ -5,9 +5,10 @@ title: Een rapport bewerken op een canvasdashboard
 description: U kunt een het dashboardrapport van het Canvas uitgeven nadat het is gecreeerd.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+exl-id: fd659f56-d67f-4a0f-8735-b214934903ac
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -16,14 +17,19 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Voor meer informatie, zie {de bètainformatie van de Dashboards van het 0} Canvas [.](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
+>De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Onderdelen van het onderdeel zijn mogelijk niet compleet of werken niet zoals bedoeld in deze fase. Gelieve te dienen om het even welke terugkoppelen betreffende uw ervaring door de instructies in [ te volgen verstrekt ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) sectie in het de bètaoverzichtsartikel van de dashboards van het Canvas.<br>
+>>Deze bètaversie is niet beschikbaar op de volgende cloudproviders:
+>
+>* Je eigen sleutel voor Amazon Web Services
+>* Azure
+>* Google Cloud Platform
 
 Nadat u rapporten aan een Dashboard van het Canvas toevoegt, kunt u de informatie van het rapport uitgeven om de gegevens te veranderen die in het dashboard tonen.
 
 Alle wijzigingen die in een rapport worden aangebracht, zijn van invloed op alle gebruikers die toegang hebben tot het dashboard dat het bevat.
 
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.
++++ Vouw uit om de vereisten voor toegang weer te geven. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -122,4 +128,4 @@ Voor meer informatie, zie [ een bestaand rapport aan een Dashboard van het Canva
 
 1. Op de **pagina van de Dashboards van het Canvas**, klik **Meer** ![ Meer pictogram ](assets/more-icon.png) in de hoger-juiste hoek van het rapport u, dan uitgezocht **uitgeven**.
 
-1. In de **doos van de Selectie van het 0&rbrace; Rapport, klik** **in lijn met het rapport toevoegen u de gegevens van het bestaande rapport wilt vervangen widget met.**
+1. In de **doos van de Selectie van het 0} Rapport, klik** **in lijn met het rapport toevoegen u de gegevens van het bestaande rapport wilt vervangen widget met.**

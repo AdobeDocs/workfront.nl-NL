@@ -5,9 +5,10 @@ title: Rapporten rangschikken in een Canvasdashboard
 description: U kunt rangschikken hoe de rapporten in een dashboard van het Canvas tonen nadat zij aan zijn toegevoegd.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+exl-id: 60f68ebd-6b98-476d-84b6-a6a2dce90d93
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -16,11 +17,19 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Voor meer informatie, zie {de bètainformatie van de Dashboards van het 0} Canvas [.](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
+>De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Onderdelen van het onderdeel zijn mogelijk niet compleet of werken niet zoals bedoeld in deze fase. Gelieve te dienen om het even welke terugkoppelen betreffende uw ervaring door de instructies in [ te volgen verstrekt ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) sectie in het de bètaoverzichtsartikel van de dashboards van het Canvas.<br>
+>>Deze bètaversie is niet beschikbaar op de volgende cloudproviders:
+>
+>* Je eigen sleutel voor Amazon Web Services
+>* Azure
+>* Google Cloud Platform
 
-Zodra een rapport aan een dashboard van het Canvas wordt toegevoegd, tonen zij als rapportwidget in het dashboard zodat kunt u zijn gegevens bij een blik snel visualiseren. Nadat meerdere rapporten zijn toegevoegd, wordt het aanbevolen de grootte en volgorde van elke widget opnieuw te rangschikken om de dashboardgegevens efficiënter weer te geven.
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.
+Zodra een rapport aan een dashboard van het Canvas wordt toegevoegd, tonen zij als rapportwidget in het dashboard zodat kunt u zijn gegevens bij een blik snel visualiseren. Nadat meerdere rapporten zijn toegevoegd, kunt u de grootte van elke widget zo instellen dat deze het best aansluit bij de inhoud van het rapport in het dashboard en vervolgens de positie van elke widget aanpassen om de gegevens effectiever weer te geven.
+
+## Toegangsvereisten
+
++++ Vouw uit om de vereisten voor toegang weer te geven. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -74,7 +83,7 @@ U moet rapporten aan een dashboard toevoegen alvorens zij kunnen worden herschik
 
    ![ het rapportwidget van de Beweging ](assets/moving-report-widget.png)
 
-1. (Facultatief) om de lengte en de breedte van een rapportwidget aan te passen, klik en houd **&#x200B;**&#x200B;resize pictogram ![ in de laag-juiste hoek van widget, dan aanpassen de grootte zoals nodig.](assets/resize-icon.png)
+1. (Facultatief) om de lengte en de breedte van een rapportwidget aan te passen, klik en houd **** resize pictogram ![ in de laag-juiste hoek van widget, dan aanpassen de grootte zoals nodig.](assets/resize-icon.png)
 
 1. Herhaal stap 4-5 voor elke widget die u opnieuw wilt rangschikken.
 

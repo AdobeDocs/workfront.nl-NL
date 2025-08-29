@@ -6,9 +6,9 @@ description: U kunt een lijstrapport aan een Dashboard van het Canvas toevoegen 
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
-source-git-commit: 72344e5c1607ba6b4dd2a1e71a462bba93369b27
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '1045'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,18 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Voor meer informatie, zie {de bètainformatie van de Dashboards van het 0} Canvas [.](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
+>De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Onderdelen van het onderdeel zijn mogelijk niet compleet of werken niet zoals bedoeld in deze fase. Gelieve te dienen om het even welke terugkoppelen betreffende uw ervaring door de instructies in [ te volgen verstrekt ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) sectie in het de bètaoverzichtsartikel van de dashboards van het Canvas.<br>
+>>Deze bètaversie is niet beschikbaar op de volgende cloudproviders:
+>
+>* Je eigen sleutel voor Amazon Web Services
+>* Azure
+>* Google Cloud Platform
 
 U kunt een lijstrapport aan een Dashboard van het Canvas toevoegen om uw gegevens in een lijstformaat te visualiseren.
 
 ![ het rapportvoorbeeld van de Lijst ](assets/table-example-main.png)
+
+## Toegangsvereisten
 
 +++ Vouw uit om de vereisten voor toegang weer te geven. 
 
@@ -60,6 +67,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 U moet een dashboard tot stand brengen alvorens u een lijstrapport kunt bouwen.
 
+
 ## Een tabelrapport maken op een canvasdashboard
 
 Er zijn vele configuratieopties beschikbaar voor het bouwen van een lijstrapport. In deze sectie doorlopen we het algemene proces voor het maken van een sectie.
@@ -70,7 +78,7 @@ Er zijn vele configuratieopties beschikbaar voor het bouwen van een lijstrapport
 
 1. Klik **Nieuw Dashboard** in de hoger-juiste hoek.
 
-1. In **creeer dashboard** doos, ga de 2&rbrace; Naam van het dashboard **en** Beschrijving **in.**
+1. In **creeer dashboard** doos, ga de 2} Naam van het dashboard **en** Beschrijving **in.**
 
 1. Klik **creëren**.
 
@@ -92,6 +100,8 @@ Er zijn vele configuratieopties beschikbaar voor het bouwen van een lijstrapport
 
    1. Klik **toevoegen kolom** en selecteer dan het gebied u als kolom in de lijst wilt tonen. De kolom verschijnt in de voorproefsectie op het recht.
 
+
+
    1. Herhaal bovenstaande stap voor elke kolom die u wilt toevoegen.
 
 1. Volg hieronder de stappen om de **sectie van de Filter** te vormen:
@@ -106,7 +116,7 @@ Er zijn vele configuratieopties beschikbaar voor het bouwen van een lijstrapport
 
 1. Volg hieronder de stappen om de **sectie van de Montages van de Groep van de Drilldown** te vormen:
 
-   1. In het linkerpaneel, klik het **&#x200B;**&#x200B;pictogram van de montages van de Groep ![ van de Montages van de Groep ](assets/drilldown-group-icon.png).
+   1. In het linkerpaneel, klik het **** pictogram van de montages van de Groep ![ van de Montages van de Groep ](assets/drilldown-group-icon.png).
 
    1. Klik **toevoegen groeperend** knoop en dan het gebied selecteren u als groepering wilt tot stand brengen. De kolom voor cijfergroepering wordt weergegeven in de voorbeeldsectie aan de rechterkant.
 
@@ -124,7 +134,7 @@ Voor meer informatie over de voorbeelden van het lijstrapport, zie [ een rapport
 
 1. Klik **Nieuw Dashboard** in de hoger-juiste hoek.
 
-1. In **creeer dashboard** doos, ga de 2&rbrace; Naam van het dashboard **en** Beschrijving **in.**
+1. In **creeer dashboard** doos, ga de 2} Naam van het dashboard **en** Beschrijving **in.**
 
 1. Klik **creëren**.
 
@@ -182,7 +192,7 @@ Voor meer informatie over de voorbeelden van het lijstrapport, zie [ een rapport
 
 
 1. Volg hieronder de stappen om de **sectie van de Filter** te vormen:
-   1. In het linkerpaneel, klik het **&#x200B;**&#x200B;pictogram van het filterlusje van de Filter ![ pictogram.](assets/filter-tab.png)
+   1. In het linkerpaneel, klik het **** pictogram van het filterlusje van de Filter ![ pictogram.](assets/filter-tab.png)
    1. Klik **uitgeven Filter**, dan **voeg voorwaarde** toe.
    1. Klik in de lege voorwaardenfilter, dan klik **kiezen een Gebied**.
    1. Selecteer **Status**.
@@ -190,3 +200,35 @@ Voor meer informatie over de voorbeelden van het lijstrapport, zie [ een rapport
       ![ hangende het filtervoorbeeld van de goedkeuringstabel ](assets/pending-approval-table-filter.png)
    1. (Facultatief) voeg extra filters toe zoals die in de **Facultatieve hieronder sectie van filters** worden beschreven.
 1. Klik **sparen** in de hoger-juiste hoek van het scherm.
+
+## Overwegingen bij het samenstellen van een tabelrapport
+
+### De veldkiezer gebruiken
+
+De **secties** drop-down in de **bouwt lijst** sectie wordt ontworpen om de keuzen op een gebiedsselecteur te versmallen om een voorwerp gemakkelijker te maken om te vinden wanneer het bouwen van een lijstrapport. Om te beginnen selecteert u een basisentiteitsobject.
+
+* **Alle Secties**: Alle objecten types in het Werkschema van Workfront en de Planning van Workfront.
+* **de Voorwerpen van Workfront**: De inheemse voorwerpen van het Werkschema van Workfront.
+* **de Types van Verslag van de Planning**: De verslagtypes van Douane die in de Planning van Workfront worden bepaald.
+
+![ drop-down Secties ](assets/sections-dropdown.png)
+
+Zodra het voorwerp van de basisentiteit is geselecteerd, **secties** drop-down dan werkt met toepasselijke gebiedstype opties bij om van te kiezen.
+
+* **Alle Secties**: Inheemse gebieden, douanegebieden, en verwante voorwerpen.
+* **Alle Gebieden**: Zowel inheemse als douanegebieden (sluit verhoudingen) uit.
+* **Gebieden van de Douane**: Klant-bepaalde gebieden of op een douanevorm of een verslag van de Planning.
+* **de Gebieden van Workfront**: Eigen gebieden slechts.
+* **Verhoudingen**: Verbonden verslagen.
+
+![ Te Rapporteren objecten selectie ](assets/reportable-objects-selection.png)
+
+### Verwijzen naar onderliggende objecten
+
+De beschikbare verhoudingen voor extra kolommen, filteropties, en groeperingsattributen zijn over het algemeen beperkt tot voorwerpen hoger in de objecten van Workfront hiërarchie of anders één enkele selectie op het voorwerp van de basisentiteit van het rapport hebben. Hierop zijn enkele uitzonderingen van toepassing, waaronder:
+
+* Project > Taken
+* Documentgoedkeuring > Documentgoedkeuringsfasen
+* Acties voor documentgoedkeuring > Deelnemers aan werkgebied voor documentgoedkeuring
+
+Wanneer u een van de bovenstaande relaties van bovenliggend item naar onderliggend item gebruikt, wordt in de tabel een rij weergegeven voor elke onderliggende record die is verbonden met het bovenliggende object.

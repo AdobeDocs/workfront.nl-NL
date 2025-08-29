@@ -5,9 +5,10 @@ title: De naam of beschrijving van een canvasdashboard wijzigen
 description: U kunt de naam of beschrijving van een Canvasdashboard bewerken nadat het is gemaakt.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+exl-id: e768de3d-ec07-40bd-a7d8-39252e6583c0
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -16,14 +17,21 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Voor meer informatie, zie {de bètainformatie van de Dashboards van het 0} Canvas [.](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
+>De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Onderdelen van het onderdeel zijn mogelijk niet compleet of werken niet zoals bedoeld in deze fase. Gelieve te dienen om het even welke terugkoppelen betreffende uw ervaring door de instructies in [ te volgen verstrekt ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) sectie in het de bètaoverzichtsartikel van de dashboards van het Canvas.<br>
+>>Deze bètaversie is niet beschikbaar op de volgende cloudproviders:
+>
+>* Je eigen sleutel voor Amazon Web Services
+>* Azure
+>* Google Cloud Platform
+
 
 U kunt de naam of beschrijving van een Canvasdashboard bewerken nadat het is gemaakt.
 
 Alle wijzigingen die u aanbrengt in een dashboard, zijn van invloed op alle gebruikers die er toegang toe hebben.
 
+## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.
++++ Vouw uit om de vereisten voor toegang weer te geven. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -70,6 +78,10 @@ Voor meer informatie, zie [ een Dashboard van het Canvas ](/help/quicksilver/rep
 
 ## De naam en beschrijving van een dashboard wijzigen
 
+>[!NOTE]
+>
+>Gebruikers met wie u een Canvasdashboard hebt gedeeld, kunnen hun naam en beschrijving zien in de overzichtslijst en de sectie met dashboarddetails van het Canvasdashboard.
+
 {{step1-to-dashboards}}
 
 1. In het linkerpaneel, klik **de Dashboards van het Canvas**.
@@ -83,4 +95,6 @@ Voor meer informatie, zie [ een Dashboard van het Canvas ](/help/quicksilver/rep
 1. Ga een nieuwe **Beschrijving** in.
 
 1. Klik **sparen**.
+
+
 
