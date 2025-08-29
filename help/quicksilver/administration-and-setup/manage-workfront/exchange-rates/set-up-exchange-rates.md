@@ -8,9 +8,9 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8
-source-git-commit: cb12c715d6b20dd4737e2d2e29d9849f08ce67e9
+source-git-commit: dc820b4012fec494ce5ebb1baefb4ee0df214916
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -89,6 +89,10 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    * Beweeg over de muntnaam en klik **Meer** menu dat verschijnt. Dan, uitgezochte **maak Gebrek**.
 
      De nieuwe standaardvaluta wordt bijgewerkt met het pictogram.
+
+     >[!NOTE]
+     >
+     >De standaardvaluta wordt altijd als eerste in de lijst weergegeven, ongeacht hoe de lijst wordt gesorteerd.
 
 1. (Facultatief) om een munt te schrappen, selecteer de controledoos naast de muntnaam en selecteer **Schrapping** in de actiebar bij de bodem van het scherm. U kunt de standaardvaluta niet verwijderen.
 
