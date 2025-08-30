@@ -7,7 +7,7 @@ author: Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
+source-git-commit: 8fdf48c5b17a17e4dd1ef2e441659155ae0b9905
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Onderdelen van het onderdeel zijn mogelijk niet compleet of werken niet zoals bedoeld in deze fase. Gelieve te dienen om het even welke terugkoppelen betreffende uw ervaring door de instructies in [ te volgen geef hieronder ](#provide-feedback) sectie terug.<br>
->&#x200B;>Deze bètaversie is niet beschikbaar op de volgende cloudproviders:
+>>Deze bètaversie is niet beschikbaar op de volgende cloudproviders:
 >
 >* Je eigen sleutel voor Amazon Web Services
 >* Azure
@@ -89,7 +89,7 @@ Feedback wordt gewaardeerd wanneer we dit gereedschap ontwikkelen in de loop van
 
 1. Op de **pagina van de Terugkoppeling van Beta van de Dashboards van het Canvas** gaat het onderwerp van de a **Terugkoppeling** en **Beschrijving van de Terugkoppeling** in.
 
-1. (Facultatief) in de **Andere details** sectie, selecteer het type van activiteit dat met uw feebdack in de **Meldende activiteit** drop-down verwant is.
+1. (Facultatief) in de **Andere details** sectie, selecteer het type van activiteit dat met uw verwant is in **meldt activiteit** drop-down.
 
 1. (Facultatief) selecteer het objecten type u terugkoppelt voor in het **objecten type van het Rapport** drop-down.
 
