@@ -4,10 +4,10 @@ description: Dit is een intern artikel voor ons team om een inventaris van de li
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: 5fd51b6fad81eb54696784745989efee06b79c94
+source-git-commit: f56aa32e9fb40523be9caec3b01bedcae8f37dd0
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 1%
+source-wordcount: '752'
+ht-degree: 0%
 
 ---
 
@@ -208,36 +208,59 @@ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te gev
 </col> 
 <tbody> 
 <tr> 
-<td> 
-   <p> Producten</p> </td> 
-   <td> 
-   <p> Adobe Workfront</p>
-   </td> 
-  </tr>
-
-<tr> 
    <td role="rowheader"><p>Adobe Workfront-pakketten</p></td> 
    <td> 
-<p>Elk Adobe Workfront Workflow-pakket en elk Adobe Workfront Planning-pakket</p> 
+<ul><li><p>Willekeurig Workfront-pakket</p></li>
+en
+<li><p>Willekeurig planningspakket</p></li></ul>
+of
+<ul><li><p>Willekeurig workflowpakket</p></li>
+en
+<li><p>Willekeurig planningspakket</p></li></ul>
    </td> </tr>
-<td role="rowheader"><p>Adobe Workfront-platform (**&#x200B;**&#x200B;willen we dit oproepen of het gewoon opnemen in het artikel dat onderaan gekoppeld is?**&#x200B;***)?</p></td> 
-   <td> 
-<p>Het geval van Workfront van uw organisatie moet aan de Verenigde Ervaring van Adobe worden genegeerd om tot de Planning van Workfront te kunnen toegang hebben.</p> 
-<p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
-   </td> 
-   </tr> 
-  </tr> 
+
+</tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-licentie</p></td> 
-   <td><p> Standard</p> 
+   <td><p>Standard</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configuratie op toegangsniveau</p></td> 
-   <td> <p>Er zijn geen toegangsniveaucontroles voor de Planning van Adobe Workfront</p>   
-</td> 
-  </tr> 
+   <td role="rowheader"><p>Objectmachtigingen</p></td> 
+   <td>   <p>Rechten beheren in een werkruimte </a> </p>  
+   <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>  </td> 
+  </tr>  
+</tbody> 
+</table>
+
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+## Toegangsvereisten voor gecentraliseerde recordtypen in Workfront Planning
+
+Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
 <tr> 
+   <td role="rowheader"><p>Adobe Workfront-pakketten</p></td> 
+   <td>
+
+<ul><li><p>Een Workfront- of workflowpakket</p></li>
+en
+<li><p>Een planningspakket voor Prime of Ultimate</p></li></ul>
+   </td> </tr>
+
+</tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront-licentie</p></td> 
+   <td><p>Standard</p> 
+  </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader"><p>Objectmachtigingen</p></td> 
    <td>   <p>Rechten beheren in een werkruimte </a> </p>  
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>  </td> 
@@ -248,14 +271,11 @@ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te gev
 Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
-
-
 ## Toegangsvereisten voor het grootste deel van Scenario Planner
 
 >[!NOTE]
 >
 >Als uw bedrijf in het verleden de Adobe Scenario Planner heeft gekocht, is er van alles overgebleven. De functie Scenario Planner kan niet meer worden aangeschaft.
-
 
 Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
@@ -264,24 +284,61 @@ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te gev
  <col> 
  <tbody>
 
-<td> <p>[!DNL Adobe Workfront] Pakket</p> </td> 
+<td> <p>Adobe Workfront-pakket</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] licentie*</p> </td> 
+   <td> <p>Adobe Workfront-licentie</p> </td> 
    <td> <p>Licht of hoger</p> 
    of
-   <p>[!UICONTROL Review] of hoger</p> </td> 
+   <p>Controleren of hoger</p> </td> 
   </tr>
 
 <td><p>Configuraties op toegangsniveau</p> </td> 
-   <td> <p>[!UICONTROL Edit] toegang tot de [!DNL Scenario Planner]</p> </td> 
+   <td> <p>Toegang tot de functie Scenario instellen bewerken</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Objectmachtigingen </p> </td> 
-   <td> <p>[!UICONTROL Manage] machtigingen voor een abonnement</p>  </td> 
+   <td> <p>Rechten voor een abonnement beheren</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Voor informatie, zie [ vereisten van de Toegang tot de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+## Toegangsvereisten voor de meeste Workfront-doelen
+
+>[!NOTE]
+>
+>Als je bedrijf de Adobe Workfront Goals in het verleden heeft gekocht, is het gekleineerd. Adobe Workfront Goals is niet meer verkrijgbaar.
+
+Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody>
+
+<td> <p>Adobe Workfront-pakket</p> </td> 
+   <td> 
+   <p>Adobe Workfront Ultimate</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Adobe Workfront-licentie</p> </td> 
+   <td> <p>Medewerker of hoger</p> 
+   of
+   <p>Aanvrager of hoger</p> </td> 
+  </tr>
+
+<td><p>Configuraties op toegangsniveau</p> </td> 
+   <td> <p>Toegang tot doelen bewerken</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p>Objectmachtigingen </p> </td> 
+   <td> <p>Rechten voor een doel beheren</p>  </td> 
   </tr> 
  </tbody> 
 </table>

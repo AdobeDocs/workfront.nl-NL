@@ -4,9 +4,9 @@ description: Recordtypen zijn de objecttypen voor Adobe Workfront Planning. In d
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
+source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -44,48 +44,28 @@ Voor informatie, zie [ mogelijkheden van de dwars-werkruimte voor verslagtypes ]
 </col> 
 <tbody> 
     <tr> 
+<tr>
+
+</tr>   
 <tr> 
-<td> 
-   <p> Producten</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront-pakket*</p></td> 
    <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront Planning<p></li></ul></td> 
-  </tr>   
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront-abonnement*</p></td> 
-   <td> 
-<p>Een van de volgende Workfront-plannen:</p> 
-<ul><li>Selecteren</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning is niet beschikbaar voor oudere Workfront-plannen</p> 
-   </td> 
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront-planningspakket*</p></td> 
-   <td> 
-<p>Alle </p> 
+<ul><li><p>Willekeurig Workfront-pakket</p></li>
+en
+<li><p>Planning Plus-pakket</p></li></ul>
+Of:
+<ul><li><p>Willekeurig workflowpakket</p> </li>
+en
+<li><p>Prime- of Ultimate-pakket plannen</p></li></ul>
 <p>Neem contact op met uw Workfront-accountmanager voor meer informatie over wat er in elk Workfront-planningsplan is opgenomen. </p> 
-   </td> 
- <tr> 
-   <td role="rowheader"><p>Adobe Workfront-platform</p></td> 
-   <td> 
-<p>Het geval van Workfront van uw organisatie moet aan de Verenigde Ervaring van Adobe worden genegeerd om tot de Planning van Workfront te kunnen toegang hebben.</p> 
-<p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
-   </td> 
-   </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Adobe Workfront-licentie*</p></td> 
-   <td><p> Standard</p>
-   <p>Workfront Planning is niet beschikbaar voor oudere Workfront-licenties</p> 
-  </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Configuratie op toegangsniveau</p></td> 
-   <td> <p>Er zijn geen toegangsniveaucontroles voor de Planning van Adobe Workfront</p>   
-</td> 
-  </tr> 
+   </td>
+
 <tr> 
+   <td role="rowheader"><p>Adobe Workfront-licentie</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader"><p>Objectmachtigingen</p></td> 
    <td>   <p>Rechten beheren in een werkruimte </a> </p>  
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>  </td> 
@@ -105,8 +85,9 @@ Overwegingen bij het toevoegen van bestaande recordtypen vanuit een andere werkr
 * Nadat u het recordtype vanuit een andere werkruimte hebt toegevoegd, wordt de volgende informatie ook toegevoegd van het bestaande recordtype:
 
    * Velden
-   * Records
    * Verbindingen opnemen
+
+* U kunt records die zijn toegevoegd vanuit andere werkruimten alleen weergeven als u machtigingen hebt voor die werkruimten.
 
 * U kunt het recordtype, inclusief de bijbehorende velden, alleen in de oorspronkelijke werkruimte bewerken. U kunt het bestand niet bewerken vanuit de werkruimten waar het is toegevoegd.
 * Records die vanuit alle werkruimten zijn toegevoegd, zijn zichtbaar voor alle gebruikers die deze openen vanuit alle werkruimten, zelfs als deze worden gemaakt in een werkruimte waar zij geen machtigingen hebben.

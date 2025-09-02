@@ -4,9 +4,9 @@ description: U kunt instellen dat een recordtype wordt toegevoegd aan een andere
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
+source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1052'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Zie een van de volgende artikelen voor meer informatie:
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.  
++++ Breid uit om de toegangsvereisten voor de functionaliteit in dit artikel te bekijken.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -74,52 +74,32 @@ Zie een van de volgende artikelen voor meer informatie:
 </col> 
 <tbody> 
     <tr> 
+<tr>
+
+</tr>   
 <tr> 
-<td> 
-   <p> Producten</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront-pakket*</p></td> 
    <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront Planning<p></li></ul></td> 
-  </tr>   
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront-abonnement*</p></td> 
-   <td> 
-<p>Een van de volgende Workfront-plannen:</p> 
-<ul><li>Selecteren</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning is niet beschikbaar voor oudere Workfront-plannen</p> 
-   </td> 
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront-planningspakket*</p></td> 
-   <td> 
-<p>Alle </p> 
+<ul><li><p>Willekeurig Workfront-pakket</p></li>
+en
+<li><p>Planning Plus-pakket</p></li></ul>
+Of:
+<ul><li><p>Willekeurig workflowpakket</p> </li>
+en
+<li><p>Prime- of Ultimate-pakket plannen</p></li></ul>
 <p>Neem contact op met uw Workfront-accountmanager voor meer informatie over wat er in elk Workfront-planningsplan is opgenomen. </p> 
-   </td> 
- <tr> 
-   <td role="rowheader"><p>Adobe Workfront-platform</p></td> 
-   <td> 
-<p>Het geval van Workfront van uw organisatie moet aan de Verenigde Ervaring van Adobe worden genegeerd om tot de Planning van Workfront te kunnen toegang hebben.</p> 
-<p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
-   </td> 
-   </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Adobe Workfront-licentie*</p></td> 
-   <td><p> Standard</p>
-   <p>Workfront Planning is niet beschikbaar voor oudere Workfront-licenties</p> 
-  </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Configuratie op toegangsniveau</p></td> 
-   <td> <p>Er zijn geen toegangsniveaucontroles voor de Planning van Adobe Workfront</p>   
-</td> 
-  </tr> 
+   </td>
+
 <tr> 
+   <td role="rowheader"><p>Adobe Workfront-licentie</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader"><p>Objectmachtigingen</p></td> 
    <td>   <p>Rechten beheren in een werkruimte </a> </p>  
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>  </td> 
-  </tr> 
+  </tr>  
 </tbody> 
 </table>
 
@@ -130,12 +110,15 @@ Zie een van de volgende artikelen voor meer informatie:
 ## Gecentraliseerde recordtypen configureren
 
 <!--this is a UI term; don't change the title of this section-->
+<!--IMPORTANT: not sure if we can call these centralized yet - checking with Lilit as of Sept 2; you might need to revert this to what the screen shot shows below?????-->
 
-Als werkruimtemanager kunt u een recordtype configureren dat aan andere werkruimten wordt toegevoegd wanneer u een recordtype maakt of bewerkt.
+Als werkruimtemanager, kunt u een verslagtype vormen om een gecentraliseerd verslagtype te zijn. Een gecentraliseerd recordtype kan aan andere werkruimten worden toegevoegd.
 
-Wanneer u het toevoegen van een recordtype aan andere werkruimten configureert, kan een werkruimtenmanager het recordtype en al zijn informatie in één van de werkruimten invoeren die zij leiden.
+Een werkruimtemanager kan een gecentraliseerd recordtype toevoegen aan een werkruimte die zij beheren. De oorspronkelijke velden van het recordtype worden ook toegevoegd.
 
-U kunt als volgt het toevoegen van een recordtype aan een andere werkruimte configureren wanneer u het recordtype bewerkt:
+Gebruikers kunnen records toevoegen aan een gecentraliseerd recordtype vanuit elke werkruimte die ze kunnen gebruiken om bij te dragen waar dat recordtype wordt toegevoegd, inclusief de primaire werkruimte. Ze kunnen alleen records weergeven vanuit een werkruimte die ze kunnen bekijken.
+
+Om het toevoegen van een verslagtype als gecentraliseerd verslagtype te vormen:
 
 {{step1-to-planning}}
 
@@ -181,6 +164,9 @@ of
      In het Workspace-veld wordt de werkruimte weergegeven van waaruit elke record is gemaakt.
 
      Dit veld is alleen-lezen en kan niet worden verwijderd.
+1. (Optioneel) Ga naar een andere werkruimte en maak een recordtype met een bestaand recordtype. Selecteer het recordtype dat u in de bovenstaande stappen hebt ingeschakeld.
+
+   Voor informatie, zie [ bestaande verslagtypes ](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md) toevoegen.
 
 ## Verbindbare recordtypen configureren
 
@@ -222,6 +208,9 @@ of
    * De kaart van het verslagtype toont een pictogram van de dwars-werkruimteverbinding ![ het verbindingspictogram van de werkruimteverbinding ](assets/connect-from-other-workspaces-icon.png) om erop te wijzen dat het verslagtype beschikbaar is om van om het even welke werkruimte te worden verbonden u in uw configuratie hebt aangewezen.
 
    Het recordtype wordt beschikbaar om verbinding te maken vanuit de opgegeven werkruimten.
+1. (Optioneel) Ga naar een andere werkruimte en voeg een verbinding toe aan het recordtype dat u in de bovenstaande stappen hebt ingeschakeld voor verbindingsbaarheid tussen werkruimten.
+
+   Voor informatie, zie [ verbind verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 
 
