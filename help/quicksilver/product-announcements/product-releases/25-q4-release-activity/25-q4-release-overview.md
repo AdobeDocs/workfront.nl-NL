@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: a4aa7a6f8909dc3f7212f78391f28068d50a2786
+source-git-commit: e835f3721f8d732780ab199fd6da47f563004077
 workflow-type: tm+mt
-source-wordcount: '1871'
+source-wordcount: '1905'
 ht-degree: 2%
 
 ---
@@ -42,8 +42,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * [Verbeteringen voor document en proefdrukken](#document-and-proofing-enhancements)
 * [Verbeteringen voor startpagina](#home-enhancements)
 * [Projectverbeteringen](#project-enhancements)
-* [Verbeteringen aan verzoeken](#requests-enhancements)
 * [Verbeteringen voor beheer van bronnen](#resource-management-enhancements)
+* [Verbeteringen aan verzoeken](#requests-enhancements)
 * [Andere verbeteringen](#other-enhancements)
 
 ### Beheerdersverbeteringen
@@ -175,36 +175,6 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table>
 
-### Verbeteringen aan verzoeken
-
-<table style="table-layout:auto">
-  <tbody>
-   <tr>
-        <td><strong> Eigenschap </strong>
-        </td>
-        <td><strong>Voorvertoning</strong></td>
-        <td><strong>Snelle release</strong></td>
-        <td><strong>Driemaandelijks</strong></td>
-    </tr>
-    <tr>
-        <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}"> Updates om ervaring te verzoeken </a><p></p>
-            <p>Om een betere gebruikerservaring te creëren wanneer het doen van verzoeken in de Planning van Workfront en Workfront, hebben wij de het vragen ervaring bijgewerkt. Nu kunt u:
-            <ul>
-                <li>Bekijk Workfront- en Workfront-planningsverzoeken in één lijst.</li>
-                <li>Verzonden aanvragen filteren op basis van criteria die u opgeeft.</li>
-                <li>Zoek naar en selecteer Workfront- verzoekrijen en de Planningsvormen van Workfront in een geconsolideerde ervaring.</li>
-                <li>Kolommen in de lijst met ingediende aanvragen verbergen en opnieuw ordenen.</li>
-            </ul>
-            </p>
-        </td>
-        <td>vrijdag 21 augustus 2025</td>
-        <td>vrijdag 11 september 2025</td>
-        <td>vrijdag 16 oktober 2025</td>
-    </tr>     
-  </tbody>
-</table>
-
 ### Projectverbeteringen
 
 <table style="table-layout:auto">
@@ -285,6 +255,45 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table>
 
+### Verbeteringen aan verzoeken
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong> Eigenschap </strong>
+        </td>
+        <td><strong>Voorvertoning</strong></td>
+        <td><strong>Snelle release</strong></td>
+        <td><strong>Driemaandelijks</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}"> Nieuwe gecombineerde kolom van de Status in verenigde lijst van het Verzoek </a><p></p>
+            <p>Om de verenigde verzoekervaring te vereenvoudigen, toont de kolom van de Status nu zowel de Status van het Verzoek als Status van de Goedkeuring, welke op een bepaald verzoek van toepassing is.</p>
+        </td>
+        <td>vrijdag 28 augustus 2025</td>
+        <td>vrijdag 11 september 2025</td>
+        <td>vrijdag 16 oktober 2025</td>
+    </tr>     
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}"> Updates om ervaring te verzoeken </a><p></p>
+            <p>Om een betere gebruikerservaring te creëren wanneer het doen van verzoeken in de Planning van Workfront en Workfront, hebben wij de het vragen ervaring bijgewerkt. Nu kunt u:
+            <ul>
+                <li>Bekijk Workfront- en Workfront-planningsverzoeken in één lijst.</li>
+                <li>Verzonden aanvragen filteren op basis van criteria die u opgeeft.</li>
+                <li>Zoek naar en selecteer Workfront- verzoekrijen en de Planningsvormen van Workfront in een geconsolideerde ervaring.</li>
+                <li>Kolommen in de lijst met ingediende aanvragen verbergen en opnieuw ordenen.</li>
+            </ul>
+            </p>
+        </td>
+        <td>vrijdag 21 augustus 2025</td>
+        <td>vrijdag 11 september 2025</td>
+        <td>vrijdag 16 oktober 2025</td>
+    </tr>     
+  </tbody>
+</table>
+
 ### Andere verbeteringen
 
 <table>
@@ -340,7 +349,7 @@ We werken de interface in Adobe Workfront bij om de gebruikerservaring te verbet
 
 ### Workfront Fusion-verbeteringen
 
-Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de standaard releaseschema. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de standaard releaseschema. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Verbeteringen voor Workfront-planning
 
@@ -389,7 +398,7 @@ Om stabielere en scalable integratie te leveren, verschuiven wij naar een modern
 * Workfront voor Salesforce.
 
 We raden u aan Workfront Automation and Integration te gebruiken voor de integratiebehoeften van uw organisatie met Google Workspace.
-Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ### API-versie 20
 
@@ -401,8 +410,8 @@ Voor informatie over API versies, zie [ API versioning en steunprogramma ](/help
 
 ### Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens Eerste Kwartaal 2025 versie worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront [.](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=nl-NL)
+Voor informatie over de onderhoudsupdates die tijdens Eerste Kwartaal 2025 versie worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront [.](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)
 
 ### Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=nl-NL) Nieuw is.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html) Nieuw is.
