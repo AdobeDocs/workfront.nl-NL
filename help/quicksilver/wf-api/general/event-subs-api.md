@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 1c6a1238e9ea1ca843dcb296db7a552ff354c50a
+source-git-commit: 699ce13472ee70149fba7c8c34dde83c7db5f5de
 workflow-type: tm+mt
-source-wordcount: '2666'
+source-wordcount: '2739'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ De volgende Workfront-objecten worden ondersteund door gebeurtenisabonnementen.
 
 >[!NOTE]
 >
->Voor een lijst van gebieden die door de voorwerpen van het gebeurtenisabonnement worden gesteund, zie &lbrace;de gebieden van het het abonnementsmiddel van de Gebeurtenis [.](../../wf-api/api/event-sub-resource-fields.md)
+>Voor een lijst van gebieden die door de voorwerpen van het gebeurtenisabonnement worden gesteund, zie {de gebieden van het het abonnementsmiddel van de Gebeurtenis [.](../../wf-api/api/event-sub-resource-fields.md)
 
 ## Verificatie van abonnement op gebeurtenis
 
@@ -89,6 +89,10 @@ Uw Workfront-gebruiker heeft het volgende nodig om een gebeurtenissenabonnement 
 * Een header `sessionID` is vereist om de API voor abonnementen op gebeurtenissen te gebruiken
 
   Voor meer informatie, zie [ Authentificatie ](api-basics.md#authentication) in [ API Grondbeginselen ](api-basics.md).
+
+## Overlappingen van gebeurtenisabonnementen voorkomen
+
+De dienst van gebeurtenisabonnementen wordt ontworpen om betrouwbare levering van gebeurtenissen voor alle gebruikers te verstrekken. Om dit te garanderen zijn er voorzorgsmaatregelen getroffen om te voorkomen dat één gebruiker buitensporige gebeurtenisproductie aanbrengt die mogelijke problemen met betrekking tot de servicekwaliteit voor alle gebruikers kan veroorzaken. Als gevolg hiervan kan een gebruiker die te veel gebeurtenissen produceert met een hoge snelheid binnen een korte tijdsperiode, worden geconfronteerd met sandboxing en vertraging bij de levering van de gebeurtenis.
 
 ## De abonnementsbron opmaken
 
@@ -812,7 +816,7 @@ Met deze connector wordt het filter toegepast op de nieuwe status of oude status
 >[!NOTE]
 >
 >Het abonnement hieronder met het opgegeven filter retourneert alleen berichten waarin de naam van de taak `again` bevat op de `oldState` -taak, wat deze was voordat een update op de taak werd uitgevoerd.
->&#x200B;>Een gebruiksgeval voor dit zou zijn om de objCode- berichten te vinden die van één ding aan een ander veranderden. Bijvoorbeeld om alle taken te weten te komen die van &quot;Onderzoek één of andere naam&quot;in &quot;Onderzoek TeamName Één of andere naam&quot;veranderde
+>>Een gebruiksgeval voor dit zou zijn om de objCode- berichten te vinden die van één ding aan een ander veranderden. Bijvoorbeeld om alle taken te weten te komen die van &quot;Onderzoek één of andere naam&quot;in &quot;Onderzoek TeamName Één of andere naam&quot;veranderde
 
 ```
 {
