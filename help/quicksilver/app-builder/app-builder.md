@@ -156,7 +156,7 @@ In de functie ExtensionRegistration moet u de volgende code zien. Deze code is v
     
      getItems () 
     
-     terugkeer [
+     terugkeer &lbrack;
     
      
     
@@ -170,7 +170,7 @@ In de functie ExtensionRegistration moet u de volgende code zien. Deze code is v
     
     , 
     
-    ];
+    &rbrack;;
     
     ,  
     
