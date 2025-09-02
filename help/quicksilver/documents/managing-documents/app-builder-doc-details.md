@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: dcdae47ffd4a02ac9a0bbd3cd9bd1418f6c59e1a
 workflow-type: tm+mt
 source-wordcount: '1357'
 ht-degree: 0%
@@ -58,7 +58,7 @@ U moet het volgende hebben:
 Organisaties moeten met hun accountmanagers samenwerken om AppBuilder te kunnen aanschaffen. Het exacte proces hiervoor is niet begrepen omdat we dit niet hoefden te doen voor de concepttest.
 
 Als u de integratie met AppBuilder wilt testen, kunt u hier een gratis proefversie aanvragen voor IMS org:
-[https://developer.adobe.com/app-builder/docs/overview/getting_access/#](https://developer.adobe.com/app-builder/docs/overview/getting_access/#)
+[https://developer.adobe.com/app-builder/docs/overview/getting_access/#](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/set-up#access-and-credentials)
 
 Ik heb de indruk dat hoewel het een gratis 30-daagse rechtszaak is, ze het proces na die tijd niet echt zullen deactiveren.
 
@@ -89,7 +89,7 @@ Als AppBuilder behoorlijk wordt gevormd, zou u &quot;project van malplaatje&quot
 
 ## Adobe IO (aio) CLI
 
-Adobe biedt een open-source CLI die kan worden gebruikt om de App Builder-toepassingen te maken. De documentatie kan hier worden gevonden: [ https://github.com/adobe/aio-cli ](https://github.com/adobe/aio-cli) evenals de Instructies van Adobe App Builder [ https://developer.adobe.com/app-builder/docs/getting_started/first_app/ ](https://developer.adobe.com/app-builder/docs/getting_started/first_app/).
+Adobe biedt een open-source CLI die kan worden gebruikt om de App Builder-toepassingen te maken. De documentatie kan hier worden gevonden: [ https://github.com/adobe/aio-cli ](https://github.com/adobe/aio-cli) evenals de Instructies van Adobe App Builder [ https://developer.adobe.com/app-builder/docs/getting_started/first_app/ ](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app).
 
 1. Installatie
    1. Als u het gereedschap wilt installeren, voert u het volgende uit (zorg dat u zich eerst op knooppunt v18 bevindt): `npm install -g @adobe/aio-cli ` .
@@ -107,7 +107,6 @@ Adobe biedt een open-source CLI die kan worden gebruikt om de App Builder-toepas
 
 1. Sjabloonselectie en -instellingen
    1. Blader door alle beschikbare sjablonen en kies de sjabloon **@adobe/aem-cf-editor-ui-ext-tpl** voor uw project.
-
       ![ malplaatje van het Onderzoek ](assets/search-template.png)
       ![ Uitgezochte malplaatje ](assets/select-template.png)
 
@@ -116,7 +115,6 @@ Adobe biedt een open-source CLI die kan worden gebruikt om de App Builder-toepas
    1. Geef een beschrijvend overzicht van de functionaliteit van uw extensie.
    1. Selecteer een eerste versienummer waarmee u wilt beginnen.
    1. Bevestig voltooiing door **te selecteren wordt ik gedaan**.
-
       ![ bepalen uitbreiding ](assets/define-extension.png)
 
 1. Ga naar uw projectmap
@@ -354,7 +352,7 @@ Adobe heeft geweldige documentatie over hoe u apps voor AppBuilder kunt gaan ont
 
 Hier volgen enkele handige koppelingen:
 
-* [ https://developer.adobe.com/app-builder/docs/getting_started/first_app/#4-bootstrapping-new-app-using-the-cli](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#4-bootstrapping-new-app-using-the-cli)
+* [ https://developer.adobe.com/app-builder/docs/getting_started/first_app/#4-bootstrapping-new-app-using-the-cli](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#bootstrap-the-new-app-using-the-cli)
 
 * [ https://developer.adobe.com/uix/docs/guides/publication/](https://developer.adobe.com/uix/docs/guides/publication/)
 

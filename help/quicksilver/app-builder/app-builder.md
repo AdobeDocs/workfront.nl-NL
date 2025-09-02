@@ -4,7 +4,7 @@ description: Met Workfront UI-extensies, powered by Adobe App Builder, kunnen kl
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: a4e715d5212c3c166ce6ed995b327eb2b7198123
+source-git-commit: dcdae47ffd4a02ac9a0bbd3cd9bd1418f6c59e1a
 workflow-type: tm+mt
 source-wordcount: '1693'
 ht-degree: 1%
@@ -133,7 +133,7 @@ De extra instructies zijn beschikbaar op GitHub en de plaats van Adobe Developer
    ![ generatie in proces ](assets/6-generation-in-process.png)
 1. Wacht tot u een bericht ziet dat de app-initialisatie is voltooid. Dan kunt u het project in winde (de Code van Visual Studio wordt geadviseerd) openen en tot de src omslag toegang hebben.
 
-   Voor meer informatie over de omslagen en de dossiers in uw project, zie de [ de ontwikkelaarplaats van Adobe ](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#5-anatomy-of-an-appbuilder-application).
+   Voor meer informatie over de omslagen en de dossiers in uw project, zie de [ de ontwikkelaarplaats van Adobe ](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#anatomy-of-an-app-builder-application).
 
 ## De extensies maken in VSCode
 
@@ -156,7 +156,7 @@ In de functie ExtensionRegistration moet u de volgende code zien. Deze code is v
     
      getItems () 
     
-     terugkeer &lbrack;
+     terugkeer [
     
      
     
@@ -170,7 +170,7 @@ In de functie ExtensionRegistration moet u de volgende code zien. Deze code is v
     
     , 
     
-    &rbrack;;
+    ];
     
     ,  
     
@@ -237,7 +237,7 @@ Aangepaste toepassingen toestaan in navigatie in het linkerdeelvenster van Workf
    ![ codevoorbeeld ](assets/9-app-file-step-1-from-sam.png)
 1. Sla uw werk op.
 
-Voor meer informatie bij het ontwikkelen van en het runnen van de toepassing, zie de [ de ontwikkelaarplaats van Adobe ](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#6developing-the-application).
+Voor meer informatie bij het ontwikkelen van en het runnen van de toepassing, zie de [ de ontwikkelaarplaats van Adobe ](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#develop-the-application).
 
 ## Gedeelde context
 
