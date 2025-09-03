@@ -4,9 +4,9 @@ description: Dit is een intern artikel voor ons team om een inventaris van de li
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: f56aa32e9fb40523be9caec3b01bedcae8f37dd0
+source-git-commit: faefa0fef0a0fd65f9eda91f52b8eea57353b5a7
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '822'
 ht-degree: 0%
 
 ---
@@ -344,4 +344,34 @@ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te gev
 </table>
 
 Voor informatie, zie [ vereisten van de Toegang tot de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+## Voorbeeld van toegangseisen voor hulpbronnenbeheer
+
+Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>Adobe Workfront-pakket</td> 
+   <td><p>Alle</p></td>
+  </tr> 
+  <tr> 
+   <td>Adobe Workfront-licentie</td> 
+   <td><p>Licht of hoger voor één project; Standaard voor meerdere projecten</p>
+       <p>Evaluatie of hoger voor één project; plan voor meerdere projecten</p></td>
+  </tr> 
+  <tr> 
+   <td>Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot of hoger weergeven voor bronnenbeheer</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Objectmachtigingen</td> 
+   <td> <p>Toestemmingen voor projecten en gebruikers weergeven </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
