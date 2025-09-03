@@ -4,9 +4,9 @@ description: Dit is een intern artikel voor ons team om een inventaris van de li
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
+source-git-commit: 7d9e5ac168d759e9b657beb6513c994d91ab0145
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '1028'
 ht-degree: 0%
 
 ---
@@ -349,7 +349,7 @@ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te gev
 
 Voor informatie, zie [ vereisten van de Toegang tot de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Voorbeeld van toegangseisen voor hulpbronnenbeheer
+## Toegangsvereisten voor Resource Management (voorbeeld van meerdere mogelijke licenties; alle RM-pakketten zijn nu Willekeurig)
 
 Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
@@ -378,4 +378,45 @@ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te gev
 </table>
 
 Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+<p>Connectorgebaseerde (verouderde): Workfront Fusion for Work Automation and Integration </p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Product</td> 
+   <td>
+   <p>Als uw organisatie een Select- of Prime Workfront-pakket heeft dat geen Workfront Automation and Integration bevat, moet uw organisatie Adobe Workfront Fusion aanschaffen.</li></ul>
+   </td> 
+  </tr>
+ </tbody> 
+</table>
+
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
+
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
+
+## Geavanceerde bedrijfsbesturingselementen
+
+Een artikel over groepsbeheerders vermeldt het pakket dat de klant moet hebben om groepsbeheerders bepaalde mogelijkheden in Workfront te kunnen bieden.
+
+[Koppeling naar huidig artikel](/help/quicksilver/administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md)
+
+### Bijgewerkte tekst voor de derde voetnoot onder de tabel
+
+&#42;&#42;&#42; Deze pakketten bevatten de volgende functies van Advanced Enterprise Controls:
+
+* Workflow Prime en hoger
+* Workfront Prime en hoger
+
+Zie [ Adobe Workfront tarifering en het verpakken pagina ](https://business.adobe.com/products/workfront/pricing.html) voor meer informatie over pakketten.
+
+Geavanceerde bedrijfsbesturingselementen:
+
+* Project-, taak- en probleemvoorkeuren op groepsniveau configureren
+* Voorkeuren voor tijdbladen en uren op groepsniveau configureren
+* E-mails met gebeurtenismeldingen op groepsniveau configureren
+* Groepspecifieke goedkeuringsprocessen maken en beheren
+* Licentielimieten toewijzen en het gebruik ervan bekijken per Home-groep
+* Groepbeheerders toewijzen aan subgroepen
+* Groepbeheerders toestaan subgroepen te maken
 
