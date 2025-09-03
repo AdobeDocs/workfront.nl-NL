@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
+source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
 workflow-type: tm+mt
-source-wordcount: '2192'
+source-wordcount: '2332'
 ht-degree: 0%
 
 ---
@@ -108,8 +108,16 @@ Voor informatie over het creëren van verslagen, zie [ verslagen ](/help/quicksi
    * Inline, in een lijstmening.
 <!--* You can edit a record's dates from the following areas:
         * All areas listed above
-        * <span class="preview">In a timeline view, by resizing the record bars or dragging and dropping the record in the timeline</span>
+        * <span class="preview">In a timeline view, by resizing the record bars</span>
+         * <span class="preview">In a calendar monthly view, by resizing the record bars</span>
         For information, see [Create records](/help/quicksilver/planning/records/create-records.md). -->
+
+<!-- when drag and drop is available replace the last 2 points with this:
+
+* <span class="preview">In a timeline view, by resizing the record bars or dragging and dropping the record bars in a new position</span>
+* <span class="preview">In a calendar view, by resizing the record bars when viewing it by month, or by dragging and dropping the record bars in a new position</span>
+    For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+-->
 
 * Wanneer een gebruiker een record bewerkt in een weergave, zijn de wijzigingen direct zichtbaar in alle weergaven en zijn de recordpagina&#39;s voor alle andere gebruikers.
 
@@ -127,10 +135,16 @@ Voor informatie over het creëren van verslagen, zie [ verslagen ](/help/quicksi
 
 U kunt een record uit de volgende gebieden bewerken:
 
-* [De tabelweergave van een recordtype](#edit-a-record-inline-in-the-table-view-of-a-record-type)
+* [De tabelweergave](#edit-a-record-inline-in-the-table-view-of-a-record-type)
+* [De tijdlijnweergave](#edit-a-record-in-the-timeline-view-of-a-record-type)
+* [De kalenderweergave](#edit-a-record-in-the-calendar-view-of-a-record-type)
 * [De voorvertoning van de record in een weergave](#edit-a-record-from-the-records-preview-in-a-view)
 * [De recordpagina](#edit-a-record-from-the-records-page)
 * [Een Workfront-object in het gedeelte Planning](#edit-a-record-from-a-workfront-object-in-the-planning-section)
+
+Ga als volgt te werk om de datums van de records te bewerken:
+
+* [ vergroot of vergroot de bars van de verslagen in de chronologie en kalendermening ]
 
 ### Een record inline bewerken in de tabelweergave van een recordtype
 
@@ -164,7 +178,7 @@ Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-rec
    >  * Gekoppelde velden die worden gemaakt door het verbinden van recordtypen. Voor meer informatie, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * Velden van de volgende typen: Gemaakt door, Gemaakt op datum, Laatst gewijzigd door, Datum Laatst gewijzigd, Formule.
 
-1. (Facultatief en voorwaardelijk) wanneer u een alinea-type gebied uitgeeft, gebruik de volgende **het formatteren opties van de Tekst 0&rbrace; Rich &lbrace;:**
+1. (Facultatief en voorwaardelijk) wanneer u een alinea-type gebied uitgeeft, gebruik de volgende **het formatteren opties van de Tekst 0} Rich {:**
 
    * Vet
    * Cursief
@@ -221,6 +235,39 @@ Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-rec
    >    U kunt de sneltoetsen meerdere malen achter elkaar gebruiken om meerdere wijzigingen ongedaan te maken.
 
 1. (Optioneel) Voeg een miniatuur toe aan een record. Voor informatie, zie [ een duimnagel aan een verslag ](/help/quicksilver/planning/records/add-thumbnails-to-records.md) toevoegen.
+
+
+### Een record bewerken in de tijdlijnweergave van een recordtype
+
+<!--add another step about drag and drop here when that is available-->
+
+1. Open de pagina met recordtypen in een tijdlijnweergave. Voor informatie, zie [ de chronologiemening ](/help/quicksilver/planning/views/manage-the-timeline-view.md) leiden.
+<!--
+1. <span class="preview">Hover over the ends of a record's bar, click, drag and drop its margin to another date. This automatically updates either the start or end date of the record.</span>  
+
+    <span class="preview">![Left-end bar on timeline view to resize](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
+
+-->
+
+1. Klik op de balk van een record om het detailgebied te openen en alle velden te bewerken.
+
+   Voor informatie, zie [ een verslag van de voorproef van het verslag in een mening ](#edit-a-record-from-the-records-preview-in-a-view) sectie in dit artikel uitgeven.
+
+### Een record bewerken in de kalenderweergave van een recordtype
+
+<!--add another step about drag and drop here when that is available-->
+
+1. Open de pagina met recordtypen in een kalenderweergave. Voor informatie, zie [ de kalendermening ](/help/quicksilver/planning/views/manage-the-calendar-view.md) leiden.
+<!--
+1. (Conditional) Select **Month** in the upper-right dropdown menu.
+1. <span class="preview">Hover over the ends of a record's bar, click, drag and drop its margin to another date. This automatically updates either the start or end date of the record.</span>  
+
+    <span class="preview">![Left-end bar on calendar view to resize](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
+-->
+
+1. Klik op de balk van een record om het detailgebied te openen en alle velden te bewerken.
+
+   Voor informatie, zie [ een verslag van de voorproef van het verslag in een mening ](#edit-a-record-from-the-records-preview-in-a-view) sectie in dit artikel uitgeven.
 
 ### Een record uit de voorvertoning van de record bewerken in een weergave
 

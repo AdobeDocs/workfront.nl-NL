@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
+source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
 workflow-type: tm+mt
 source-wordcount: '2814'
 ht-degree: 0%
@@ -159,7 +159,7 @@ Alle records van het geselecteerde type worden in de weergave weergegeven.
    1. Klik één van de volgende manieren om een verslag tot stand te brengen, dan **ga** verder:
 
       * **voeg manueel** toe. Het voorvertoningsvak van de record wordt geopend.\
-        Voeg informatie over het verslag toe, zoals die in [ wordt beschreven creeer verslagen door hen inline van de 1&rbrace; sectie van de verslagtype lijstmening &lbrace;in dit artikel toe te voegen, beginnend met stap 6. ](#create-records-by-adding-them-inline-from-the-record-type-table-view)<!--insure this stays accurate-->
+        Voeg informatie over het verslag toe, zoals die in [ wordt beschreven creeer verslagen door hen inline van de 1} sectie van de verslagtype lijstmening {in dit artikel toe te voegen, beginnend met stap 6. ](#create-records-by-adding-them-inline-from-the-record-type-table-view)<!--insure this stays accurate-->
       * **uploadt van dossier**
 Voeg verslagen toe, zoals die in het artikel [ worden beschreven verslagen door informatie van een CSV of dossier van Excel ](/help/quicksilver/planning/records/import-file-to-create-records.md) in te voeren, die met stap 6 beginnen. <!--ensure this stays accurate-->
       * **leg een verzoek** voor
@@ -335,7 +335,9 @@ Voor informatie over het creëren van een chronologiemening, zie [ de chronologi
    * **dicht** ![ dicht pictogram ](assets/close-icon.png) om de nieuwe verslagdoos te sluiten.
 
    Het verslag wordt toegevoegd aan de chronologie evenals aan de lijst en kalendermeningen onmiddellijk, tenzij u het **pictogram van de Schrapping** klikte.
-   <!--1. (Optional) Hover over the record's bar in the timeline and drag and drop the ends of the bar to a different date. This automatically changes the start and end date of the record. For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).-->
+   <!--1. (Optional) Hover over one of the record bar's margins in the timeline, then drag and drop the ends of the bar to a different date. This automatically changes the start and end date of the record. 
+    For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).-->
+
 1. (Optioneel) Klik op de recordbalk in de tijdlijn om het detailvenster van de record te openen en de gegevens van de record bij te werken, te verwijderen of opmerkingen toe te voegen.
 
    >[!TIP]
@@ -401,7 +403,9 @@ For information about creating a calendar view, see [Manage the calendar view](/
     * **Close**  ![Close icon](assets/close-icon.png) to close the new record box. 
 
     The record is added to the calendar as well as to the table and timeline views immediately, unless you clicked the **Delete** icon. 
+1. (Optional and conditional) Choose **Month** from the upper-corner dropdown menu, hover over one of the record bar's margins in the calendar, then drag and drop the ends of the bar to a different date. This automatically changes the start and end date of the record. 
 
+    For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
 1. (Optional) Click the record bar in the calendar to open the record's details window and update its information, delete it, or add comments. 
 
     >[!TIP]
@@ -412,9 +416,8 @@ For information about creating a calendar view, see [Manage the calendar view](/
 
     (*********when this is available in both monthly and weekly, add more steps to show resizing the timeline and dragging and dropping the record in the calendar*******)
 
-</div>
+    </div> -->
 
--->
 
 ## Records maken door deze te kopiëren en te plakken vanuit een externe lijst
 

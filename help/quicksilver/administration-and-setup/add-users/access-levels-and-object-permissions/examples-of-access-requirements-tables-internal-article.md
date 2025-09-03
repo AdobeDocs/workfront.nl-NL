@@ -4,9 +4,9 @@ description: Dit is een intern artikel voor ons team om een inventaris van de li
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: faefa0fef0a0fd65f9eda91f52b8eea57353b5a7
+source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
@@ -249,9 +249,13 @@ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te gev
    <td role="rowheader"><p>Adobe Workfront-pakketten</p></td> 
    <td>
 
-<ul><li><p>Een Workfront- of workflowpakket</p></li>
-en
-<li><p>Een planningspakket voor Prime of Ultimate</p></li></ul>
+<ul><li><p>Willekeurig Workfront-pakket</p></li>
+  en
+  <li><p>Planning Plus-pakket</p></li></ul>
+  Of:
+  <ul><li><p>Willekeurig workflowpakket</p> </li>
+  en
+  <li><p>Prime- of Ultimate-pakket plannen</p></li></ul>
    </td> </tr>
 
 </tr> 
