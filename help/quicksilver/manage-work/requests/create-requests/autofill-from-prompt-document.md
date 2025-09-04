@@ -5,9 +5,9 @@ description: Met AI kunt u aanvraagvelden automatisch invullen door een vraag in
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
+source-git-commit: 98bb646d7f96ebba57de44194df27d3f6632ab45
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1092'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ Suggesties gebruiken op basis van een geplakte tekstprompt:
 1. Klik **Vul de vorm**.
 
    Workfront genereert suggesties voor het formulier.
-1. Voor elke gebiedssuggestie, keurt de uitgezochte **&#x200B;**&#x200B;goed of **verwerpt** voor dat gebied.
+1. Voor elke gebiedssuggestie, keurt de uitgezochte **** goed of **verwerpt** voor dat gebied.
 
    ![ Accepteer of verwerp suggestie ](assets/accept-reject-suggestion.png)
 
@@ -138,7 +138,6 @@ De volgende bestandstypen worden ondersteund:
 <li>DOC</li>
 <li>DOCX</li>
 <li>GIF</li>
-<li>JPEG</li>
 <li>JPEG</li>
 </ul>
 </td>
@@ -240,7 +239,7 @@ U kunt een document uploaden dat op het volledige formulier of op één sectie v
 1. Klik **Vul de vorm** van **Vul de sectie**.
 
    Workfront genereert suggesties voor het formulier.
-1. Voor elke gebiedssuggestie, keurt de uitgezochte **&#x200B;**&#x200B;goed of **verwerpt** voor dat gebied.
+1. Voor elke gebiedssuggestie, keurt de uitgezochte **** goed of **verwerpt** voor dat gebied.
 
    ![ Accepteer of verwerp suggestie ](assets/accept-reject-suggestion.png)
 
