@@ -6,16 +6,14 @@ description: Uw  [!DNL Adobe Workfront]  profiel bevat informatie over zich (bij
 author: Lisa, Courtney
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: eda5a2b283d87bccbbff1edff6744556f25ac6e0
+source-git-commit: 50c3cddbd11f2fe9d9bb30f66d8e690f88390f33
 workflow-type: tm+mt
-source-wordcount: '2887'
+source-wordcount: '2903'
 ht-degree: 0%
 
 ---
 
 # Mijn instellingen configureren
-
-{{highlighted-preview}}
 
 <!-- Audited: 01/2024 -->
 
@@ -248,7 +246,7 @@ In deze subsectie kunt u de volgende opties wijzigen:
    <td> Werk uw e-mailadres bij. Dit is een verplicht veld. Onthoud dat uw e-mailadres ook uw gebruikersnaam voor [!DNL Workfront] is.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL Reset password]</strong> / <span class="preview"><strong> wachtwoord van de Verandering </strong></span></td> 
+   <td role="rowheader"><strong>[!UICONTROL Change password]</strong></td> 
    <td>Stel uw wachtwoord in deze sectie opnieuw in. Voor meer informatie over het terugstellen van uw wachtwoord, zie <a href="../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md" class="MCXref xref"> het Terugstellen van uw wachtwoord </a>.</td> 
   </tr> 
   <tr> 
@@ -256,7 +254,7 @@ In deze subsectie kunt u de volgende opties wijzigen:
    <td> Als uw [!DNL Workfront] -beheerder een SSO-integratie met [!DNL Workfront] heeft ingeschakeld, wordt de gebruikersnaam van de SSO in dit veld weergegeven. Het type SSO-configuratie dat voor uw [!DNL Workfront] -instantie is ingeschakeld, is zichtbaar in dit veld.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>(Voorwaardelijk) [!UICONTROL Only Allow &lt;SSO Configuration> Authentication]</strong></td> 
+   <td role="rowheader"><strong>(Voorwaardelijk) [!UICONTROL Only Allow <SSO Configuration> Authentication]</strong></td> 
    <td> <p> Als uw [!DNL Workfront] -beheerder een SSO-integratie met [!DNL Workfront] heeft ingeschakeld en gebruikers voor SSO heeft bijgewerkt, wordt dit veld standaard geselecteerd. Het type SSO-configuratie dat voor uw [!DNL Workfront] -instantie is ingeschakeld, is zichtbaar in dit veld.</p> <p>Als dit veld is geselecteerd, moet u zich aanmelden bij [!DNL Workfront] met uw SSO-referenties. Als u de optie uitschakelt, kunt u zich aanmelden bij [!DNL Workfront] met uw [!DNL Workfront] -referenties.</p> <p>Voor meer informatie over het vormen [!DNL Workfront] met een oplossing SSO, zie <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref"> Enige sign-on in [!DNL Workfront]: artikelindex </a>. Voor meer informatie over het bijwerken van gebruikers voor SSO, zie <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref"> de gebruikers van de Update voor enig teken-op </a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -343,6 +341,9 @@ In deze subsectie kunt u de volgende opties wijzigen:
    <td role="rowheader"><strong>[!UICONTROL Email Locale]</strong> </td> 
    <td><p>Geef hier uw voorkeurstaal op. Hiermee bepaalt u de taal, datum en getalnotatie die in uitgaande e-mailberichten worden gebruikt.</p>
    <p><strong> NOTA:</strong> wanneer uw organisatie op de Adobe Verenigde Ervaring is, worden de taalvoorkeur opgeslagen in uw profiel van Adobe en e-mailscène wordt niet gebruikt. Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language"> de taal van Adobe Experience Cloud </a> in het artikel <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md"> Gesteunde talen in Adobe Workfront </a> veranderen.</p></td> 
+  </tr>
+  <tr><td><strong>[!UICONTROL Send work I assign to myself to my Working On tab]</strong> </td>
+  <td>Selecteer deze optie als u de status van het werk dat u aan uzelf toewijst automatisch wilt instellen op Bezig in plaats van Nieuw.</td>
   </tr>
   <tr> 
    <td role="rowheader"><strong>(Voorwaardelijk) Automatisch proefdrukken genereren bij het uploaden van documenten</strong></td> 
@@ -456,8 +457,8 @@ Voer in deze sectie een van de volgende handelingen uit:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL Schedule Deactivation]</strong> / <span class="preview"><strong> plaats deactiveringsdatum </strong></span></td> 
-   <td><p>Controle dit vakje / <span class="preview"> klik deze knoop </span> als u wilt plannen dat uw rekening na een periode zou moeten worden gedeactiveerd. Geef in de <strong>[!UICONTROL Scheduled Deactivation Date]</strong> die wordt weergegeven de datum op waarna uw account wordt gedeactiveerd. Voor informatie over het deactiveren van gebruikers, zie <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation" class="MCXref xref"> gebruikers van het Programma voor deactivering </a> in <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref"> deactivate of een gebruiker </a> opnieuw activeren. </p><p>U kunt de deactiveringsvelden van uw account bewerken als u een [!UICONTROL Standard] - of [!UICONTROL Plan] -licentie hebt of als u de [!DNL Workfront] -beheerder bent. </p></td> 
+   <td role="rowheader"><strong>[!UICONTROL Set deactivation date]</strong></td>
+   <td><p>Klik op deze knop als u wilt plannen dat uw account na een bepaalde periode wordt gedeactiveerd. Geef in de <strong>[!UICONTROL Scheduled Deactivation Date]</strong> die wordt weergegeven de datum op waarna uw account wordt gedeactiveerd. Voor informatie over het deactiveren van gebruikers, zie <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation" class="MCXref xref"> gebruikers van het Programma voor deactivering </a> in <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref"> deactivate of een gebruiker </a> opnieuw activeren. </p><p>U kunt de deactiveringsvelden van uw account bewerken als u een [!UICONTROL Standard] - of [!UICONTROL Plan] -licentie hebt of als u de [!DNL Workfront] -beheerder bent. </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Primary Role]</strong></td> 

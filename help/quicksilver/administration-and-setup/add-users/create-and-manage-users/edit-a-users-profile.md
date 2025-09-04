@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: c7b91828e5a4f961fc48e857eb63756b9b38f664
+source-git-commit: 50c3cddbd11f2fe9d9bb30f66d8e690f88390f33
 workflow-type: tm+mt
-source-wordcount: '3430'
+source-wordcount: '3425'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/nl/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 -->
@@ -75,7 +75,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    Het vak Gebruiker bewerken wordt weergegeven.
 
-1. In **geef Gebruiker** doos uit, verander de informatie in om het even welke secties, en klik **sparen Veranderingen** <span class="preview"> of **sparen**</span> op elk ogenblik.
+1. In **geef Gebruiker** doos uit, verander de informatie in om het even welke secties, en klik **sparen** op elk ogenblik.
 
 ### Persoonlijke gegevens
 
@@ -94,7 +94,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
   Als uw organisatie naar de Adobe Admin Console is gemigreerd, kunt u het e-mailadres van een gebruiker niet bewerken in Workfront. Het e-mailadres van de gebruiker wordt ingesteld in de Adobe Admin Console.
 
-* **Wachtwoord van het Terugstellen** / <span class="preview">**wachtwoord van de Verandering**</span>: Klik deze verbinding om het wachtwoord van de gebruiker terug te stellen. U moet uw eigen wachtwoord invoeren voordat u het wachtwoord van een andere gebruiker opnieuw kunt instellen.
+* **Wachtwoord van de Verandering**: Klik deze knoop om het wachtwoord van de gebruiker terug te stellen. U moet uw eigen wachtwoord invoeren voordat u het wachtwoord van een andere gebruiker opnieuw kunt instellen.
 
   Als u het wachtwoord van een andere gebruiker opnieuw wilt instellen, moet u een Workfront-beheerder of een groepsbeheerder zijn.
 
@@ -121,7 +121,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
   >
   >Als u een groepsbeheerder bent en u de toestemming van de Gebruiker Admin (Alle Gebruikers) op uw toegangsniveau wordt toegelaten, kunt u de &lt;SSO Configuratie> gebieden voor alle gebruikers uitgeven.
 
-* **foto van het Profiel**: Klik **uploadt Foto** / <span class="preview">**uploadt nieuw**</span> om het het profielbeeld van de gebruiker te laden. U kunt een JPG-, GIF- of PNG-bestand uploaden. De maximale bestandsgrootte is 4 MB.
+* **de foto van het Profiel**: Klik **uploaden nieuw** om het het profielbeeld van de gebruiker te laden. U kunt een JPG-, GIF- of PNG-bestand uploaden. De maximale bestandsgrootte is 4 MB.
 
   Het profielbeeld wordt de avatar van de gebruiker en het is zichtbaar door het systeem van Workfront, waar de naam van de gebruiker wordt getoond.
 
@@ -148,7 +148,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
   >
   >Deze optie is alleen beschikbaar in de omgeving van Voorvertoning en Sandbox. E-mailmeldingen zijn standaard ingeschakeld in de productieomgeving.
 
-<!--* **Send work I assign to myself to my Working On tab**: This setting refers to a deprecated feature that has been removed from Workfront.-->
+* **verzend het werk ik aan mezelf toewijs aan mijn het Werken op lusje**: Wanneer deze optie wordt geselecteerd, het werk dat de gebruiker zelf-toewijst automatisch aan Voortgang status in plaats van Nieuw wordt geplaatst. <!--This setting refers to a deprecated feature that has been removed from Workfront.-->
 
 * **produceert automatisch proeven wanneer het uploaden van documenten**: Controle deze optie als u de documenten wilt die de gebruiker uploadt om een proef onmiddellijk te produceren.
 
@@ -162,7 +162,7 @@ Voor meer informatie, zie [ gebeurtenisberichten voor iedereen in het systeem ](
 
 ### Toegang
 
-* **is Actief** / <span class="preview">**Gebruiker is actief**</span>: laat deze optie toe om erop te wijzen dat de gebruiker actief is. Actieve gebruikers gebruiken een Workfront-licentie. Als u het veld uitschakelt, wordt de gebruiker gedeactiveerd en wordt voorkomen dat deze zich aanmeldt bij Workfront.
+* **Gebruiker is actief**: Laat deze optie toe om erop te wijzen dat de gebruiker actief is. Actieve gebruikers gebruiken een Workfront-licentie. Als u het veld uitschakelt, wordt de gebruiker gedeactiveerd en wordt voorkomen dat deze zich aanmeldt bij Workfront.
 
 * **Niveau van de Toegang**: Selecteer het toegangsniveau om aan deze gebruiker toe te wijzen.
 
@@ -199,7 +199,7 @@ Voor meer informatie, zie [ gebeurtenisberichten voor iedereen in het systeem ](
 * **Directe Rapporten**: Als u een bedrijf voor de gebruiker specificeerde, kunt u de directe rapporten van de gebruiker ook specificeren. Een gebruiker kan meerdere directe rapporten hebben. Dit veld wordt niet weergegeven als de gebruiker niet eerst aan een bedrijf is gekoppeld.
 * **Team van het Huis**: Specificeer het huisteam voor de gebruiker. Gebruikers kunnen slechts één huisteam hebben. Het Team van het Huis is belangrijk wanneer het toewijzen van een lay-outmalplaatje of wanneer het bepalen van het Werk aan het knoop voor de taken en kwesties die aan de gebruiker worden toegewezen.
 * **Andere Teams**: De gebruikers kunnen tot veelvoudige teams behoren. Een gebruiker kan werkitems bekijken die zijn toegewezen aan een van de teams in het thuisgebied.
-* **Groep van het Huis** / <span class="preview">**Huidige Groep van het Huis**</span>: Selecteer een aangewezen groep om de gebruiker toe te wijzen. Hierdoor heeft de gebruiker toegang tot objecten die met de groep worden gedeeld. U kunt lay-outsjablonen ook delen met de thuisgroep van de gebruiker.
+* **Huidige Groep van het Huis**: Selecteer een aangewezen groep om de gebruiker toe te wijzen. Hierdoor heeft de gebruiker toegang tot objecten die met de groep worden gedeeld. U kunt lay-outsjablonen ook delen met de thuisgroep van de gebruiker.
 
   Dit is een verplicht veld. Elke gebruiker moet met een homegroep worden geassocieerd. Als u er geen selecteert, wordt de startgroep toegewezen als de startgroep van de nieuwe gebruiker.
 
@@ -237,8 +237,8 @@ Voor meer informatie, zie [ gebeurtenisberichten voor iedereen in het systeem ](
   >
   >Plaats de waarde van de Tijd van het Werk aan 1 om erop te wijzen dat de gebruiker voor project-verwant werk hun volledig-tijdequivalent beschikbaar is.
 
-* **Deactivering van het Programma** / <span class="preview">**plaats deactiveringsdatum**</span>: Controle dit vakje / <span class="preview"> klik deze knoop </span> als u deze gebruiker wilt plannen om op een bepaalde datum en op een bepaald tijdstip worden gedeactiveerd.
-* **Gepland DeactiveringsDatum** / <span class="preview">**DeactiveringsDatum**</span>: De datum en de tijd waarop de gebruiker wordt gedeactiveerd. Voor informatie over het plannen van gebruikers voor deactivering, zie [ gebruikers van het Programma voor deactivering ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation) in [ Deactivate of een gebruiker ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md) opnieuw activeren.
+* **plaats deactiveringsdatum**: Klik deze knoop als u deze gebruiker wilt plannen om op een bepaalde datum en op een bepaald tijdstip worden gedeactiveerd.
+* **Datum van Deactivering**: De datum en de tijd waarop de gebruiker wordt gedeactiveerd. Voor informatie over het plannen van gebruikers voor deactivering, zie [ gebruikers van het Programma voor deactivering ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation) in [ Deactivate of een gebruiker ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md) opnieuw activeren.
 * **Primaire Rol**: Dit is de primaire baanrol die de gebruiker in Workfront kan vervullen. Elke taak en kwestie waaraan de gebruiker wordt toegewezen wordt ook toegewezen aan deze baanrol. Functies zijn essentieel voor het beheer van hulpbronnen. U kunt dit veld alleen bijwerken als u een Standard- of Plan-licentie hebt met beheerdersrechten voor gebruikers, of als u een Workfront-beheerder bent. Voor meer informatie over vestiging gebruikers met administratieve gebruikerstoegang, zie [ Toegang van de Verlening tot gebruikers ](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
   Alleen actieve taakrollen worden in de lijst weergegeven.
@@ -256,11 +256,7 @@ Voor meer informatie, zie [ gebeurtenisberichten voor iedereen in het systeem ](
 
   Als Andere Rollen een Beschikbaarheid van 0% FTE hebben, tonen zij niet in de Planner van het Middel, tenzij de gebruikers aan taken in deze rollen worden toegewezen.
 
-  <span class="preview"> in Voorproef:</span>
   ![ de rollen van de Gebruiker en FTE ](assets/user-roles-fte-2025.png)
-
-  In productie:
-  ![ de rollen van de Gebruiker en FTE ](assets/user-settings-roles-and-dte-boxes-rp-story.png)
 
   De som alle **Percentages van VTE Beschikbaarheid** voor alle rollen moet 100% gelijk zijn. Elk percentage van FTE Beschikbaarheid berekent de Beschikbare Uren voor elke rol per gebruiker in de Planner van het Middel. De beschikbare uren voor elke rol per gebruiker hangt van de beschikbare tijd voor de gebruiker af.
 
@@ -328,11 +324,7 @@ Voor meer informatie, zie [ gebeurtenisberichten voor iedereen in het systeem ](
 
   Sommige datums worden automatisch toegevoegd. Bijvoorbeeld, als het Facturerings Tarief 1 geen einddatum heeft, en u voegt een tweede met een begindatum van 1 Mei, 2023 toe, wordt een einddatum van 30 April, 2023 toegevoegd aan het Facturerings Tarief 1 zodat geen hiaten bestaan.
 
-  <span class="preview"> in Voorproef:</span>
   ![ de kosten en het factureren van de Gebruiker tarieven ](assets/user-cost-billing-rates-2025.png)
-
-  In productie:
-  ![ de kosten en het factureren van de Gebruiker tarieven ](assets/edit-user-cost-billing-rate-2.png)
 
 ### Aangepaste Forms
 

@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: c7b91828e5a4f961fc48e857eb63756b9b38f664
+source-git-commit: 1a81c1becfc0866b92dbd1358af23671e5302266
 workflow-type: tm+mt
-source-wordcount: '2625'
+source-wordcount: '2610'
 ht-degree: 0%
 
 ---
 
 # Gebruikersprofielen bulksgewijs bewerken
-
-{{highlighted-preview}}
 
 <!--
 
@@ -25,7 +23,7 @@ ht-degree: 0%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Bulk Upload Users](https://helpx.adobe.com/nl/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Bulk Upload Users](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 -->
@@ -77,7 +75,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. Selecteer meer dan één gebruiker, dan klik **uitgeven** pictogram ![ pictogram ](assets/edit-icon.png) uitgeeft.
 
-1. In **geef Gebruiker** doos uit, verander de informatie in om het even welke secties, en klik **sparen Veranderingen** <span class="preview"> of **sparen**</span> op elk ogenblik.
+1. In **geef Gebruiker** doos uit, verander de informatie in om het even welke secties, en klik **sparen** op elk ogenblik.
 
 ### Voorkeuren
 
@@ -101,7 +99,7 @@ Voor meer informatie, zie [ gebeurtenisberichten voor iedereen in het systeem ](
 
 ### Toegang
 
-* **is Actief** / <span class="preview">**Gebruiker is actief**</span>: laat deze optie toe om erop te wijzen dat de gebruikers actief zijn. Actieve gebruikers gebruiken een Workfront-licentie. Als u het veld uitschakelt, worden de gebruikers gedeactiveerd en wordt voorkomen dat zij zich aanmelden bij Workfront.
+* **Gebruiker is actief**: Laat deze optie toe om erop te wijzen dat de gebruikers actief zijn. Actieve gebruikers gebruiken een Workfront-licentie. Als u het veld uitschakelt, worden de gebruikers gedeactiveerd en wordt voorkomen dat zij zich aanmelden bij Workfront.
 
 * **Niveau van de Toegang**: Selecteer het toegangsniveau om aan deze gebruikers toe te wijzen. Alle gebruikers die u hebt geselecteerd, hebben hetzelfde toegangsniveau.
 
@@ -136,7 +134,7 @@ Voor meer informatie, zie [ gebeurtenisberichten voor iedereen in het systeem ](
 * **Bedrijf**: Het bedrijf van de gebruikers. Gebruikers kunnen slechts met één bedrijf worden geassocieerd. U moet een bedrijf creëren alvorens u het met een gebruiker kunt associëren. Alleen actieve bedrijven worden in de lijst weergegeven. Voor informatie over het creëren van bedrijven, zie [ bedrijven ](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md) creëren en uitgeven.
 * **Team van het Huis**: Specificeer het huisteam voor de gebruikers. Gebruikers kunnen slechts één huisteam hebben.
 * **Andere Teams**: De gebruikers kunnen tot veelvoudige teams behoren.
-* **Groep van het Huis** / <span class="preview">**Huidige Groep van het Huis**</span>: Selecteer een aangewezen groep om de gebruikers toe te wijzen. Dit geeft de gebruikers de capaciteit om tot voorwerpen toegang te hebben die met de groep worden gedeeld. U kunt lay-outmalplaatjes met een Groep van het Huis ook delen.
+* **Huidige Groep van het Huis**: Selecteer een aangewezen groep om de gebruikers toe te wijzen. Dit geeft de gebruikers de capaciteit om tot voorwerpen toegang te hebben die met de groep worden gedeeld. U kunt lay-outmalplaatjes met een Groep van het Huis ook delen.
 
   Dit is een verplicht veld. Elke gebruiker moet met een homegroep worden geassocieerd. Als u geen selecteert, wordt uw Groep van het Huis toegewezen als Groep van het Huis.
 
@@ -174,8 +172,8 @@ Voor meer informatie, zie [ gebeurtenisberichten voor iedereen in het systeem ](
   >
   >Plaats de waarde van de Tijd van het Werk aan 1 om erop te wijzen dat de gebruiker voor project-verwant werk hun volledig-tijdequivalent beschikbaar is.
 
-* **Deactivering van het Programma** / <span class="preview">**plaats deactiveringsdatum**</span>: Controle dit vakje / <span class="preview"> klik deze knoop </span> als u deze gebruikers wilt plannen om op een bepaalde datum en op een bepaald tijdstip worden gedeactiveerd.
-* **Geplande DeactiveringsDatum** / <span class="preview">**DeactiveringsDatum**</span>: De datum en de tijd waarop de gebruikers worden gedeactiveerd. Voor informatie over het plannen van gebruikers voor deactivering, zie [ gebruikers van het Programma voor deactivering ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation) in [ Deactivate of een gebruiker ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md) opnieuw activeren.
+* **plaats deactiveringsdatum**: Klik deze knoop als u deze gebruikers wilt plannen om op een bepaalde datum en op een bepaald tijdstip worden gedeactiveerd.
+* **Datum van Deactivering**: De datum en de tijd waarop de gebruikers worden gedeactiveerd. Voor informatie over het plannen van gebruikers voor deactivering, zie [ gebruikers van het Programma voor deactivering ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation) in [ Deactivate of een gebruiker ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md) opnieuw activeren.
 * **Primaire Rol**: Dit is de primaire baanrol die de gebruikers in Workfront kunnen vervullen. Elke taak en kwestie waaraan de gebruikers worden toegewezen wordt ook toegewezen aan deze baanrol. Functies zijn essentieel voor het beheer van hulpbronnen. U kunt dit veld alleen bijwerken als u een Standard- of Plan-licentie hebt met beheerdersrechten voor gebruikers, of als u een Workfront-beheerder bent. Voor meer informatie over vestiging gebruikers met administratieve gebruikerstoegang, zie [ Toegang van de Verlening tot gebruikers ](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
   Alleen actieve taakrollen worden in de lijst weergegeven.
