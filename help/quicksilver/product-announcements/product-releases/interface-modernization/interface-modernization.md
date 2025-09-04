@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 31cc110fb4fba38a530406acc1f42a89159e029b
+source-git-commit: 09c41ed117660c67c3890ebbaabae73c60cd4a9a
 workflow-type: tm+mt
-source-wordcount: '7469'
+source-wordcount: '7542'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,13 @@ Deze pagina bevat een overzicht van de interface-updates die we in Adobe Workfro
 Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product [.](/help/quicksilver/product-announcements/product-releases/product-releases.md)
 
 ## Beheer en installatie
+
+### Interface-updates voor de vakken New en Copy Scorecard
+
+**de versie van de Voorproef: 4 September, 2025; De versie van de Productie: 11 september, 2025**
+
+We hebben de vormgeving van de keuzelijsten Nieuw en Scorecard kopiëren aangepast aan het ontwerp in andere onderdelen van de toepassing. U kunt het bijgewerkte ontwerp bekijken wanneer het creëren van of het kopiëren van een scorecard in het gebied van de Opstelling van Workfront.\
+Voor informatie, zie [ een scorecard ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md) creëren.
 
 ### Interface-updates voor de lijst met lay-outsjablonen in een groep
 
@@ -217,7 +224,7 @@ Voor informatie, zie [ projectuitgaven beheren ](/help/quicksilver/manage-work/p
 
 >[!NOTE]
 >
->Tijdelijk verwijderd uit voorvertoning en productie
+>Beschikbaar in Voorvertoning en beschikbaar in Productie in een gefaseerde uitrol die op 4 september 2025 begint.
 
 Wij hebben de blik en het gevoel van de de tijddoos van het Logboek bijgewerkt wanneer het registreren van tijd voor een project, een taak, of een kwestie in de sectie van Uren, om het ontwerp van andere gebieden van Workfront aan te passen.
 
