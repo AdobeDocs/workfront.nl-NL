@@ -4,10 +4,10 @@ description: Met Workfront UI-extensies, powered by Adobe App Builder, kunnen kl
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: dcdae47ffd4a02ac9a0bbd3cd9bd1418f6c59e1a
+source-git-commit: 6355bbbabf233a6e3b577c45084236b4a46144e5
 workflow-type: tm+mt
-source-wordcount: '1693'
-ht-degree: 1%
+source-wordcount: '2178'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,7 @@ Workfront UI-extensies bieden verschillende belangrijke voordelen:
 
 * Nauwkeurige aanpassing: de standaardsoftwareinterfaces voldoen vaak niet aan alle bedrijfsvereisten. Met UI-extensies kunnen ontwikkelaars de standaardgebruikersinterface aanpassen en uitbreiden om aan specifieke bedrijfsbehoeften te voldoen.
 * Systeemintegratie: UI-extensies vergemakkelijken de integratie van andere systemen en zorgen voor naadloze workflows en gegevensconsistentie.
-* Schaalbaarheid: naarmate bedrijven groeien, kunnen UI-extensies worden ontwikkeld om nieuwe functies toe te voegen zonder dat een volledige systeemrevisie nodig is.
+* Scalability: Aangezien de ondernemingen groeien, kunnen de Uitbreidingen UI worden ontwikkeld om nieuwe functionaliteit toe te voegen zonder de behoefte aan een volledige systeemrevisie.
 * Minder ontwikkeltijd: vooraf gebouwde uitbreidingspunten en gereedschappen verminderen aanzienlijk de tijd en moeite die nodig is om aangepaste functies te implementeren.
 * Verbeterde gebruikerstoepassing: een geoptimaliseerde gebruikerservaring kan de softwareacceptatie aanzienlijk verhogen. Aangepaste UI-elementen die zijn ontworpen om overeen te komen met gebruikersvoorkeuren kunnen de mate van acceptatie en de algehele tevredenheid verbeteren.
 * Met behulp van Workfront UI-uitbreidingen kunnen bedrijven op maat gesneden gebruikerservaringen maken die de efficiëntie, integratie en gebruikerstevredenheid bevorderen.
@@ -62,7 +62,7 @@ De extra instructies zijn beschikbaar op de [ plaats van Adobe Developer ](https
    >
    >Als u geen optie ziet om ontwikkelaars te beheren, hebt u geen product dat ontwikkelaars toegang verleent.
 
-1. Voeg de e-mail van de gebruiker toe. Het zou bestaande gebruikers moeten zoeken die reeds van binnen de admin console zijn toegevoegd.
+1. Voeg de e-mail van de gebruiker toe. De toepassing moet zoeken naar bestaande gebruikers die al vanuit de Admin Console zijn toegevoegd.
 
 1. Voeg noodzakelijke producten aan het ontwikkelaarprofiel toe en klik **sparen**.\
    ![ voeg ontwikkelaars ](assets/add-developer.png) toe
@@ -87,19 +87,19 @@ De extra instructies zijn beschikbaar op de [ plaats van Adobe Developer ](https
 
    >[!IMPORTANT]
    >
-   >Als u niet de optie ziet om een project van een malplaatje tot stand te brengen, dan bent u misconfigured in de admin console en hebt geen toegang tot de catalogus van de App builder. Deze optie wordt alleen weergegeven wanneer u toegang hebt tot AppBuilder.
+   >Als u niet de optie ziet om een project van een malplaatje tot stand te brengen, dan bent u misconfigured in de Admin Console en hebt geen toegang tot de catalogus van App Builder. Deze optie wordt alleen weergegeven wanneer u toegang hebt tot AppBuilder.
 
    ![ creeer van malplaatje ](assets/create-from-template.png)
 
 1. Selecteer **App Builder**.
 
-1. Ga de titel van het a **Project** en **App naam** in. Beide hebben gebreken, maar het zal gemakkelijker zijn om het project te identificeren u later wilt als u de waarde aanpast.
+1. Ga de titel van het a **Project** en **App naam** in. Beide hebben gebreken, maar het is gemakkelijker om het project te identificeren u later wilt als u de waarde aanpast.
 
 1. Laat **omvatten runtime** geselecteerd.
 
 1. Klik **sparen**.
 
-## Adobe IO (aio) CLI gebruiken
+## Adobe Developer (aio) CLI gebruiken
 
 Adobe biedt een open-source CLI die u kunt gebruiken om de App Builder-toepassing te maken.
 
@@ -125,7 +125,7 @@ De extra instructies zijn beschikbaar op GitHub en de plaats van Adobe Developer
    * Geef de extensie een naam.
    * Geef een beschrijvend overzicht van de functionaliteit van de extensie.
    * Selecteer een eerste versienummer waarmee u wilt beginnen.
-   * De sjabloon maakt de code voor een primaire navigatieknop als u &quot;Een aangepaste knop toevoegen aan het hoofdmenu-item&quot; selecteert wanneer u wordt gevraagd &quot;Wat wilt u nu doen?&quot;.
+   * De sjabloon maakt de code voor een primaire navigatieknop als u &quot;Een aangepaste knop toevoegen aan hoofdmenu-item&quot; selecteert wanneer u wordt gevraagd wat u hierna wilt doen.&quot;
 
    ![ uitgezocht gedaan ](assets/5-select-done.png)
 
@@ -134,6 +134,8 @@ De extra instructies zijn beschikbaar op GitHub en de plaats van Adobe Developer
 1. Wacht tot u een bericht ziet dat de app-initialisatie is voltooid. Dan kunt u het project in winde (de Code van Visual Studio wordt geadviseerd) openen en tot de src omslag toegang hebben.
 
    Voor meer informatie over de omslagen en de dossiers in uw project, zie de [ de ontwikkelaarplaats van Adobe ](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#anatomy-of-an-app-builder-application).
+
+Voor meer informatie over de omslagen en de dossiers in uw project, zie de [ plaats van Adobe Developer ](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#anatomy-of-an-app-builder-application).
 
 ## De extensies maken in VSCode
 
@@ -156,7 +158,7 @@ In de functie ExtensionRegistration moet u de volgende code zien. Deze code is v
     
      getItems () 
     
-     terugkeer &lbrack;
+     terugkeer [
     
      
     
@@ -170,7 +172,7 @@ In de functie ExtensionRegistration moet u de volgende code zien. Deze code is v
     
     , 
     
-    &rbrack;;
+    ];
     
     ,  
     
@@ -179,7 +181,7 @@ In de functie ExtensionRegistration moet u de volgende code zien. Deze code is v
 
 1. Voeg het volgende codefragment toe:
    ![ codefragment ](assets/7-extension-registration-step1-from-sam.png)
-In dit voorbeeld wordt een hoofdmenu-item getoond. U moet de id, het label, het pictogram en de URL bijwerken naar de juiste namen voor uw toepassing. Wanneer u meerdere items toevoegt, moet u ervoor zorgen dat de id uniek is.
+In dit voorbeeld ziet u een hoofdmenu-item. U moet de id, het label, het pictogram en de URL bijwerken naar de juiste namen voor uw toepassing. Wanneer u meerdere items toevoegt, moet u ervoor zorgen dat de id uniek is.
 
 1. Sla uw werk op.
 
@@ -218,11 +220,170 @@ Aangepaste toepassingen toestaan in navigatie in het linkerdeelvenster van Workf
 
 1. Sla uw werk op.
 
+### Een toepassing insluiten met een aangepast Workfront-formulier
+
+Het extensiepunt van de formulierwidget is een mogelijkheid voor UI-extensies in Adobe Workfront waarmee u aangepaste widgets kunt maken die kunnen worden ingesloten in aangepaste Workfront-formulieren. In tegenstelling tot andere extensiepunten die navigatie-items of menuopties toevoegen, bieden widgets een manier om aangepaste inhoud weer te geven in specifieke deelvensters in aangepaste formuliervelden.
+
+Widgets zijn modulaire UI-componenten die aan aangepaste Workfront-formulieren kunnen worden toegevoegd als formuliervelden. Ze bieden een manier om aangepaste functionaliteit, gegevensvisualisaties of externe inhoud direct binnen aangepaste formulierinterfaces te oppervlakken, zodat gebruikers kunnen communiceren met aangepaste logica terwijl ze formulieren invullen.
+
+#### Een widgetextensie configureren
+
+Net als UI-extensiepunten voor het hoofdmenu en de secundaire navigatie, wordt het uitbreidingspunt &quot;widgets&quot; geconfigureerd binnen het methodeobject van de component `ExtensionRegistration` meestal in het `ExtensionRegistration.js` -veld. Dit betekent dat voor het gebruik van de formulierwidget alleen een item &quot;widget&quot; in `extesionregistration` moet worden toegevoegd met een geldige route in uw app.js:
+
+```
+javascript 
+
+
+Apply to ExtensionReg... 
+
+widgets: { 
+
+  getItems() { 
+
+    return [ 
+
+      { 
+
+        id: "test2", 
+
+        url: "/index.html#/widgets1", 
+
+        label: "Test Widget with dimensions", 
+
+        dimensions: { 
+
+          height: 450, 
+
+          width: 300, 
+
+          maxHeight: 600, 
+
+          maxWidth: 400, 
+
+        }, 
+
+      }, 
+
+      { 
+
+        id: "test", 
+
+        url: "/index.html#/widgets1", 
+
+        label: "Test Widget without dimensions", 
+
+      }, 
+
+    ]; 
+
+  }, 
+
+}, 
+```
+
+#### Eigenschappen van widget-configuratie
+
+**Vereiste Eigenschappen**
+
+* id (tekenreeks): Unieke id voor de widget. Moet uniek zijn voor alle widgets in uw extensie.
+
+* url (tekenreeks): Het URL-pad naar de inhoud van de widget. Dit zou aan een route in uw uitbreiding moeten richten die de widgetcomponent teruggeeft.
+
+* label (tekenreeks): de weergavenaam voor de widget die wordt weergegeven in de aangepaste interface voor het selecteren van formuliervelden.
+
+**Facultatieve Eigenschappen**
+
+* afmetingen (object): geeft de weergavegrootten van de widget op. Alle eigenschappen zijn optioneel. Dit zijn de enige mogelijke afmetingen:
+
+* Hoogte (getal): Hoogte van de widget in pixels
+
+* width (number): Width of the widget in pixels
+
+* maxHeight (getal): Maximumhoogte van de widget in pixels
+
+* maxWidth (getal): Maximale breedte van de widget in pixels
+
+**Eigenschappen van Dimension**
+
+Met het object Dimensies kunt u de grootte en lay-outbeperkingen van de widget instellen:
+
+* hoogte en breedte: de oorspronkelijke/voorkeursgrootte van de widget instellen
+
+* maxHeight en maxWidth: stel de bovengrenzen in om te voorkomen dat de widget te groot wordt
+
+* Responsief gedrag: widgets kunnen binnen deze beperkingen reageren
+
+* Formulierintegratie: dimensies helpen u ervoor te zorgen dat de widget goed past binnen de formulierveldindelingen
+
+#### Voorbeeld Dimension-configuraties
+
+```
+// Fixed size widget 
+
+dimensions: { 
+
+  height: 300, 
+
+  width: 250, 
+
+} 
+
+// Flexible height with width constraint 
+
+dimensions: { 
+
+  width: 300, 
+
+  maxHeight: 500, 
+
+} 
+
+// Height constraint only 
+
+dimensions: { 
+
+  height: 400, 
+
+  maxWidth: 350, 
+
+} 
+
+// No dimensions - uses default sizing 
+
+{} 
+```
+
+#### Contextgegevens
+
+Widgets hebben toegang tot dezelfde gedeelde context als andere extensiepunten, zoals:
+
+* auth: Verificatiegegevens inclusief IMS-token
+
+* objCode: Objecttypecode (TASK, PROJECT, ISSUE enz.)
+
+* objID: Object-id
+
+* hostnaam: hostnaam Workfront-instantie
+
+* protocol: verbindingsprotocol
+
+* gebruiker: Huidige gebruikersgegevens
+
+* isLoginAs: Of de gebruiker is aangemeld als een andere gebruiker
+
+* isInBulkEditing: als het formulier momenteel in de modus voor bulkbewerking wordt uitgevoerd. In dat geval bevat de context meerdere waarden voor Object-id.
+
+#### Een widget toevoegen aan een aangepast Workfront-formulier
+
+Een toepassing kan op een aangepast Workfront-formulier worden ingesloten met het veldtype &quot;UI Extensions&quot;. Wanneer u het veld hebt toegevoegd, selecteert u een formulierwidget, is de lijst met widgets gebaseerd op actieve apps op uw IMS-org of op de lokale actieve toepassing wanneer `extensionoverride=TRUE` .
+
+![ gebied van Uitbreidingen UI in een douanevorm ](assets/ui-extensions-field.png)
+
 ### App.js configureren
 
 1. Ga naar App.js.
 
-1. Het malplaatje zal een route voor een belangrijkste menuoptie. Een route bepaalt de afbeelding tussen wegen URL en de componenten die voor die wegen worden teruggegeven. Om een route toe te voegen, gebruik het volgende codefragment, ben zeker om de nauwkeurige weg en het element met u te vervangen.
+1. Het malplaatje zal een route voor een Hoofdoptie van het Menu. Een route bepaalt de afbeelding tussen wegen URL en de componenten die voor die wegen worden teruggegeven. Om een route toe te voegen, gebruik het volgende codefragment, ben zeker om de nauwkeurige weg en het element met u te vervangen.
 
    ```
        <Route 
@@ -239,9 +400,10 @@ Aangepaste toepassingen toestaan in navigatie in het linkerdeelvenster van Workf
 
 Voor meer informatie bij het ontwikkelen van en het runnen van de toepassing, zie de [ de ontwikkelaarplaats van Adobe ](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#develop-the-application).
 
+
 ## Gedeelde context
 
-De gedeelde context wordt gebruikt om gegevens van Workfront aan een Uitbreiding UI te delen. De gegevens die beschikbaar zijn via de gedeelde context, omvatten gebruikersgegevens en de toepassingscontext.
+De gedeelde context wordt gebruikt om gegevens van Workfront aan een uitbreiding te delen UI. De gegevens die beschikbaar zijn via de gedeelde context, omvatten gebruikersgegevens en de toepassingscontext.
 
 
 ### Gebruiker
@@ -262,14 +424,14 @@ Hier volgt een voorbeeld voor het ophalen van de toepassingscontext voor documen
 
 Wanneer u een App Builder-toepassing voor Workfront ontwikkelt, moet u mogelijk uw app in Workfront testen zonder deze te publiceren.
 
-In uw App Builder-app kunt u `aio app run` starten voor lokale ontwikkeling. Hierdoor krijgt u een URL, meestal iets als `https://localhost:9080` . U kunt `aio app deploy` ook uitvoeren om een statisch Adobe-domein te verkrijgen. Noteer deze URL&#39;s voor toekomstig gebruik.
+In uw App Builder-app kunt u `aio app run` starten voor lokale ontwikkeling. U krijgt dan een URL, meestal iets als `https://localhost:9080` . U kunt `aio app deploy` ook uitvoeren om een statisch Adobe-domein te verkrijgen. Noteer deze URL&#39;s voor toekomstig gebruik.
 
-Navigeer vervolgens naar de specifieke pagina die u wilt ontwikkelen in uw browser. Open de tools voor ontwikkelaars en open de Local Storage voor workfront.com of workfront.adobe.com. Hier moet u een item toevoegen. Gebruik `extensionOverride` als de sleutel en de eerder vermelde URL van de App Builder als de waarde.
+Navigeer vervolgens naar de specifieke pagina die u wilt ontwikkelen in uw browser. Open de tools voor ontwikkelaars en open de Local Storage voor workfront.com of workfront.adobe.com. Hier moet u een item toevoegen. Gebruik `extensionOverride` als de sleutel en de eerder genoteerde App Builder URL als waarde.
 
 Als de configuratie correct werd voltooid, wanneer u de pagina van het lay-outmalplaatje in Workfront opnieuw laadt, zult u de knopen van uw toepassing van App Builder zien. Voeg de app-knoppen toe aan het hoofdmenu en het linkerdeelvenster voor een object en controleer of deze in die gebieden correct worden weergegeven.
 
-Op de Adobe-site voor ontwikkelaars vindt u aanvullende instructies, bijvoorbeeld van AEM: https://developer.adobe.com/uix/docs/guides/preview-extension-locally/
+Op de Adobe Developer-site vindt u aanvullende instructies, bijvoorbeeld van AEM: https://developer.adobe.com/uix/docs/guides/preview-extension-locally/
 
 ## Toepassingen publiceren en de verzending goedkeuren
 
-Om de toepassing te publiceren en het goed te keuren, volg de instructies op de [ de ontwikkelaarplaats van Adobe ](https://developer.adobe.com/uix/docs/guides/publication/).
+Om de toepassing te publiceren en het goed te keuren, volg de instructies op de [ plaats van Adobe Developer ](https://developer.adobe.com/uix/docs/guides/publication/).
