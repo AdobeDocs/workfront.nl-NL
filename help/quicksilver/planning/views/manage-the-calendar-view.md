@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '1620'
+source-wordcount: '1860'
 ht-degree: 0%
 
 ---
@@ -111,19 +111,12 @@ Overweeg het volgende:
    * Als de begin- of einddatum geen waarde hebben, wordt de record weergegeven als een eendaagse gebeurtenis
    * Wanneer de begindatum na de einddatum ligt, wordt de record niet weergegeven in de kalender.
 
-<!--
 <div class="preview">
 
-* You can create and edit records in the calendar view. For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+* U kunt records maken en bewerken in de kalenderweergave. Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-records.md) creëren.
+* U kunt de grootte van de recordbalken in de maandelijkse kalenderweergave wijzigen door te klikken, de marges vervolgens op een nieuwe positie te slepen en neer te zetten. Als u de grootte van de balken van de records wijzigt, worden de begin- en einddatums onmiddellijk bijgewerkt. Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.
 
 </div>
--->
-
-<!--move this bullet under the same div as above OR add a span or another div tag?? ??
-
-* You can resize the records' bars in the calendar monthly view by clicking, then dragging and dropping their margins in a new position. Resizing the records' bars updates their start and end dates immediately. For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
-
--->
 
 Een kalenderweergave beheren:
 
@@ -150,8 +143,8 @@ Een kalenderweergave beheren:
 1. <span class="preview"> (Facultatief) klik het **Volledige scherm** pictogram ![ Open volledig het schermpictogram ](assets/open-full-screen-icon.png) om de mening in volledig scherm te openen, dan de **Uitgang volledig scherm** pictogram ![ het volledige het schermpictogram van de Uitgang ](assets/exit-full-screen-icon.png) of Escape op uw toetsenbord om het volledige scherm weg te gaan.  </span>
 
 1. Werk de volgende weergave-elementen bij zoals in de onderstaande subsecties wordt beschreven:
-   * [ Filters ](#add-filters)
-     <!--<span class="preview">[Row height](#modify-row-height)</span>-->
+   * [Filters](#add-filters)
+   * <span class="preview">[ de hoogte van de Rij ](#modify-row-height)</span>
    * [Instellingen](#edit-the-calendar-view-settings)
 
    <!--* [Grouping](#add-grouping)-->
@@ -275,80 +268,72 @@ Een filter toevoegen aan een kalenderweergave:
 1. (Facultatief) klik het **x** pictogram om een filtervoorwaarde te verwijderen.
 1. (Facultatief) klik **Filters** om de filterdoos te sluiten. <!--right now you cannot "clear all" for filters, but this might come later-->
 
-<!--
 <span class="preview">
 
-### Modify row height
+### Rijhoogte wijzigen
 
-You can modify the row height of a calendar cell to increase or decrease the number of record bars you display in each cell. 
+U kunt de rijhoogte van een kalendercel wijzigen om het aantal recordbalken dat u in elke cel weergeeft, te verhogen of te verlagen.
 
-The number of records displayed in the calendar varies depending on how many fields you display on the records' bars. 
+Het aantal records dat in de kalender wordt weergegeven, is afhankelijk van het aantal velden dat u op de recordbalken weergeeft.
 
 >[!TIP]
 >
->This setting is available only when viewing the calendar by month. 
+>Deze instelling is alleen beschikbaar wanneer u de kalender per maand weergeeft.
 
 
-1. Create a calendar view for a record type page, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
-1. (Conditional) Display the calendar view by month, then click **Row height** in the calendar's toolbar.    
-1. Choose from the following options: 
+1. Creeer een kalendermening voor een verslagtype pagina, zoals die in artikel [ wordt beschreven beheer verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md).
+1. (Voorwaardelijk) toon de kalendermening door maand, dan klik **de hoogte van de Rij** in de toolbar van de kalender.
+1. Kies een van de volgende opties:
 
-<table>
-<thead>
-<tr>
-    <th><b>Row height option</b></th>
-    <th><b>Number of records</b></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-    <td>Short</td>
-    <td><p>Contains:</p>
+   <table>
+    <thead>
+    <tr>
+        <th><b>Rijhoogte, optie</b></th>
+        <th><b>Standaardmaximum aantal records</b></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Kort</td>
+        <td><p>Bevat:</p>
 
-<ul><li>2 records displaying 1 field</li>
-<li>1 record displaying more than 1 field</li></ul>
-    </td>
-</tr>
-<tr><td>Standard</td>
-    <td><p>Contains:</p>
+   <ul><li>2 records met 1 veld</li>
+    <li>1 record met meer dan 1 veld</li></ul>
+        </td>
+    </tr>
+    <tr><td>Standard</td>
+        <td><p>Bevat:</p>
 
-<ul><li>4 records displaying 1 field</li>
-<li>2 record displaying more than 1 field</li></ul>
-    </td>
-</tr>
-<tr>
-    <td>Medium</td>
-    <td><p>Contains:</p>
+   <ul><li>4 records met 1 veld</li>
+    <li>2 record met meer dan 1 veld</li></ul>
+        </td>
+    </tr>
+    <tr>
+        <td>Medium</td>
+        <td><p>Bevat:</p>
 
-<ul><li>8 records displaying 1 field</li>
-<li>4 record displaying more than 1 field</li></ul>
-    </td>
-</tr>
-<tr>
-    <td>Tall</td>
-    <td><p>Contains:</p>
+   <ul><li>8 records met 1 veld</li>
+    <li>4 records met meer dan 1 veld</li></ul>
+        </td>
+    </tr>
+    <tr>
+        <td>Lang</td>
+        <td><p>Bevat:</p>
 
-<ul><li>12 records displaying 1 field</li>
-<li>6 record displaying more than 1 field</li></ul>
-    </td>
-</tr>
-<tr>
-    <td>Fit to content</td>
-    <td><p>All records are visible, up to 500 records</p></td>
-</tr>
-</tbody>
-</table> 
+   <ul><li>12 records met 1 veld</li>
+    <li>6 records met meer dan 1 veld</li></ul>
+        </td>
+    </tr>
+    <tr>
+        <td>Aanpassen aan inhoud</td>
+        <td><p>Alle records zijn zichtbaar, tot 500 records</p></td>
+    </tr>
+    </tbody>
+    </table>
 
-1. (Optional) Click **Show more** if there are records that are not visible in the calendar. 
-
-    >[!TIP]
-    >
-    >The **Show more** option displays when you choose Fit to content and there are are more than 500 records in one time frame.
-
+1. (Facultatief) klik **meer** als er verslagen zijn die niet zichtbaar in de kalender zijn.
 
 </span>
-
--->
 
 ### De instellingen van de kalenderweergave bewerken
 

@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: bb2479b936a9064a4df34ac3e840dd78cae297b6
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1399'
 ht-degree: 0%
 
 ---
@@ -107,41 +107,41 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-*To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.-->
 
-## Add users to a Project Team
+## Gebruikers toevoegen aan een projectteam
 
-When you add users to the project team, they gain View permissions on the project and the tasks, issues, and documents of the project. For more information, see the article [Project Team overview](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+Wanneer u gebruikers aan het projectteam toevoegt, krijgen zij de toestemmingen van de Mening over het project en de taken, de kwesties, en de documenten van het project. Voor meer informatie, zie het overzicht van het artikel [ Team van het Project ](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 >[!TIP]
 >
->Users on the Project Team are not automatically added to the resource management tools for the project.
+>De gebruikers op het Team van het Project worden niet automatisch toegevoegd aan de hulpmiddelen van het middelbeheer voor het project.
 
-You can add users to the project team in the following ways:
+U kunt gebruikers aan het projectteam op de volgende manieren toevoegen:
 
-* [Automatically add users to a Project Team](#automatically-add-users-to-a-project-team) 
-* [Manually add users to a Project Team](#manually-add-users-to-a-project-team)
+* [ voegt automatisch gebruikers aan een Team van het Project toe ](#automatically-add-users-to-a-project-team)
+* [Voeg handmatig gebruikers toe aan een projectteam](#manually-add-users-to-a-project-team)
 
-### Automatically add users to a Project Team {#automatically-add-users-to-a-project-team}
+### Automatisch gebruikers toevoegen aan een projectteam {#automatically-add-users-to-a-project-team}
 
-The users that fulfill the following roles on the project are automatically added to the project team and appear  in the People section when the project is created:
+De gebruikers die de volgende rollen op het project vervullen worden automatisch toegevoegd aan het projectteam en in de sectie van Mensen verschijnen wanneer het project wordt gecreeerd:
 
-* The creator of the project
-* The project owner
-* The project sponsor
+* De maker van het project
+* De eigenaar van het project
+* De projectsponsor
 
-Users are also automatically added to the project team when they are assigned to the following:
+De gebruikers worden ook automatisch toegevoegd aan het projectteam wanneer zij aan het volgende worden toegewezen:
 
-* Tasks
-* Issues
+* Taken
+* Problemen
 
-### Manually add users to a Project Team {#manually-add-users-to-a-project-team}
+### Voeg handmatig gebruikers toe aan een projectteam {#manually-add-users-to-a-project-team}
 
-If users that don't fulfill any role on the project want to be notified about certain updates or changes during the life of the project, you can manually add them to the project team. 
+Als de gebruikers die geen rol op het project vervullen over bepaalde updates of veranderingen tijdens het leven van het project op de hoogte willen worden gebracht, kunt u hen aan het projectteam manueel toevoegen.
 
- For more information about what notifications can be enabled for users on the project team, see [Event notification types](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md). 
+Voor meer informatie over welke berichten voor gebruikers op het projectteam kunnen worden toegelaten, zie [ het berichttypes van de Gebeurtenis ](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
- <!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
+<!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
 
 >[!IMPORTANT]
 >
@@ -180,7 +180,7 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    De gebruikers krijgen de toestemmingen van de Mening aan het project en ontvangen berichten over het project als deel van het projectteam.
 
-1. (Facultatief) als u een gebruiker een bericht wilt ontvangen wanneer hun baanrol aan een taak, een kwestie, of een projectgoedkeuring wordt toegevoegd, binnen de **kolom van de Rol 0&rbrace; van de Baan &lbrace;voor de gebruiker klikt, en een baanrol selecteert die met de goedkeuring zal worden geassocieerd.**
+1. (Facultatief) als u een gebruiker een bericht wilt ontvangen wanneer hun baanrol aan een taak, een kwestie, of een projectgoedkeuring wordt toegevoegd, binnen de **kolom van de Rol 0} van de Baan {voor de gebruiker klikt, en een baanrol selecteert die met de goedkeuring zal worden geassocieerd.**
 
    De gebruikers ontvangen meldingen die betrekking hebben op de goedkeuringen die zijn toegewezen aan de geselecteerde taakrol.
 

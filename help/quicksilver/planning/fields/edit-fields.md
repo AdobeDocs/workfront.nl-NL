@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 567fa8c960f7db47279d6cde1f5e90dc7f38ae79
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '960'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ In dit artikel wordt beschreven hoe u de instellingen voor Workfront-planningsve
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.
++++ Vouw uit om de vereisten voor toegang weer te geven. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -71,7 +71,7 @@ In dit artikel wordt beschreven hoe u de instellingen voor Workfront-planningsve
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-licentie*</p></td> 
-   <td><p> Standaard </p>
+   <td><p> Standard </p>
    <p>Workfront Planning is niet beschikbaar voor oudere Workfront-licenties</p> 
   </td> 
   </tr> 
@@ -90,7 +90,7 @@ In dit artikel wordt beschreven hoe u de instellingen voor Workfront-planningsve
 
 *Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 
 ## Overwegingen bij het bewerken van veldinstellingen
@@ -98,7 +98,7 @@ In dit artikel wordt beschreven hoe u de instellingen voor Workfront-planningsve
 U moet het volgende in overweging nemen voordat u wijzigingen aanbrengt in de configuratie van een veld:
 
 * U kunt de veldinstellingen alleen bewerken vanuit de tabel met recordtypen.
-* U kunt een veld op de recordpagina of in een andere weergave, buiten de tabelweergave, niet bewerken.
+* U kunt de instellingen van een veld niet bewerken op de recordpagina of in een andere weergave, buiten de tabelweergave.
 * U kunt het veldtype niet bewerken nadat het veld is opgeslagen.
 * U kunt de eerder geselecteerde instelling voor negatieve getallen toestaan niet uitschakelen voor een veld Getal, Percentage of Valuta als er al negatieve waarden zijn opgeslagen in de records waaraan deze is gekoppeld.
 * U kunt de configuratie van de volgende veldelementen bewerken nadat u het veld hebt opgeslagen:
@@ -116,6 +116,7 @@ U moet het volgende in overweging nemen voordat u wijzigingen aanbrengt in de co
   >Er is geen bericht aan andere gebruikers dat de gebiedsconfiguratie is veranderd.
 
 * U kunt bestaande opzoekvelden van verbonden records bewerken.
+* Naast het uitgeven van het gebied zoals die in [ wordt beschreven geef gebiedsmontages ](#edit-field-settings-1) sectie in dit artikel uit, <span class="preview"> kunt u één enkele of multi-uitgezochte keuzen van het gebied uitgeven wanneer u een verslag in de lijstmening uitgeeft, aangezien u de gebiedswaarden bijwerkt. Voor informatie, zie [ nieuwe keuzen aan een bestaand uitgezocht gebied wanneer het uitgeven van verslagen in de 1} sectie van de lijstmening in dit artikel toevoegen.](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view)</span>
 
 <!--at production - April 10, 2025 - remove the last bullet altogether-->
 
@@ -163,3 +164,36 @@ U moet het volgende in overweging nemen voordat u wijzigingen aanbrengt in de co
 1. (Voorwaardelijk) voor verbonden verslaggebieden, klik **uitgeeft raadplegingsgebieden** en voeg of verwijder om het even welke raadplegingsgebieden van het verbonden verslagtype toe.
 
    Voor meer informatie, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+
+<div class="preview">
+
+## Nieuwe keuzen toevoegen aan een bestaand selectieveld bij het bewerken van records in de tabelweergave
+
+<!--some of this information is also available in Edit records article - update both when necessary-->
+
+U kunt nieuwe keuzen aan een bestaand enig of multi-uitgezochte gebied toevoegen wanneer het uitgeven van verslagen in de lijstmening.
+
+>[!IMPORTANT]
+>
+>De in deze sectie beschreven functionaliteit is alleen beschikbaar in de tabelweergave. Deze optie is niet beschikbaar in andere gebieden waar enkelvoudige of meervoudige velden worden weergegeven.
+
+**VOORBEELD**
+
+U hebt mogelijk een veld met de naam Status dat één keuze bevat en de opties Nieuw en Gesloten bevat. U wilt dan een keuze toevoegen voor de status In uitvoering. U kunt de keuze toevoegen door een van de volgende handelingen uit te voeren:
+
+* Het veld bewerken. Voor informatie, zie de sectie [ gebiedsmontages ](#edit-field-settings-1) in dit artikel uitgeven.
+* Een nieuwe optie toevoegen tijdens het bewerken van de record in de tabelweergave, zoals hieronder wordt beschreven.
+
+Een nieuwe keuze toevoegen aan een bestaand selectieveld wanneer u een record bewerkt:
+
+1. Ga naar een pagina met recordtypen en open de tabelweergave.
+1. Voeg het veld Eén of Meerdere selecties toe waaraan u een keuze wilt toevoegen in de tabelweergave als een nieuwe kolom. Voor informatie, zie [ gebieden ](/help/quicksilver/planning/fields/create-fields.md) creëren.
+1. U kunt het veld inline bewerken door te dubbelklikken op de cel voor het veld.
+1. Typ de naam van de keus u wilt toevoegen, dan klik **kiezen** toevoegen.
+
+   ![ voeg keus op enig-uitgezocht gebied in lijstmening toe ](assets/add-choice-in-table-view-for-single-select-field.png)
+
+   De nieuwe keuze wordt direct toegevoegd aan het veld Eén keuze.
+
+</div>

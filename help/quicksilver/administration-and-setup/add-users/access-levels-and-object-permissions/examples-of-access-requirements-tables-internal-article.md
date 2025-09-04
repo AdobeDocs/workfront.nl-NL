@@ -4,9 +4,9 @@ description: Dit is een intern artikel voor ons team om een inventaris van de li
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: 7d9e5ac168d759e9b657beb6513c994d91ab0145
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '1063'
 ht-degree: 0%
 
 ---
@@ -195,6 +195,33 @@ Pakket: workflow selecteren, workflow primeren, ultieme workflow
 2025 planningspakketten
 Licenties: contribuant, licht, standaard
 Pakket: planning selecteren, planning vooraf, planning uiteindelijk
+
+## Toegangsvereisten voor Portfolio Optimizer
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Workfront Prime of hoger</p> 
+   <p>Workflow Prime of hoger</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
+   <td> <p>Standard</p>
+   <p>Plan</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot portfolio's en projecten bewerken</p>  </td>
+</tr> 
+  <tr> 
+   <td role="rowheader">Objectmachtigingen</td> 
+   <td> <p>Rechten voor het portfolio beheren</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 
 ## Toegangsvereisten voor de meeste Workfront-planningen
@@ -391,9 +418,9 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
 
 ## Geavanceerde bedrijfsbesturingselementen
 
