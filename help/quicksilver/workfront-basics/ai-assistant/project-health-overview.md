@@ -193,7 +193,7 @@ Zodra een beheerder een configuratie van de Gezondheid van het Project heeft gec
 
 1. In het linkerpaneel, uitgezochte **Montages van het Project**.
 
-1. Op het **gebied van de Configuratie van de Gezondheid van het 0} Project, selecteer de configuratie u op dit project wilt toepassen.**
+1. Op het **gebied van de Configuratie van de Gezondheid van het 0&rbrace; Project, selecteer de configuratie u op dit project wilt toepassen.**
 
    ![ gebied van de Configuratie van de Gezondheid van het Project ](assets/project-health-configurations.png)
 
@@ -292,7 +292,7 @@ Er zijn vele configuratieopties beschikbaar voor de bouw van een de lijstrapport
 
 1. In het linkerpaneel, klik **de Dashboards van het Canvas**.
 1. In de hoger-juiste hoek, klik **Nieuw Dashboard**.
-1. In **creeer dashboard** doos, ga de 2} Naam van het dashboard **en** Beschrijving **in.**
+1. In **creeer dashboard** doos, ga de 2&rbrace; Naam van het dashboard **en** Beschrijving **in.**
 1. Klik **creëren**.
 1. In **voeg rapport** doos toe, uitgezocht **creeer rapport**.
 1. Voor de linkerkant, uitgezochte **Lijst**.
@@ -307,13 +307,13 @@ Er zijn vele configuratieopties beschikbaar voor de bouw van een de lijstrapport
    1. Klik **toevoegen kolom**, dan uitgezocht **Project** > **Gezondheid van het Project** > **creeerde bij**.
    1. Klik **toevoegen kolom**, dan selecteren **Project** > **Gezondheid van het Project** > **Etiket van de Gezondheid**.
 
-1. Volg hieronder de stappen om de **** het pictogram van de Filter ![ sectie te vormen van de Filter ](assets/filter-icon.png) {:
+1. Volg hieronder de stappen om de **&#x200B;**&#x200B;het pictogram van de Filter ![ sectie te vormen van de Filter ](assets/filter-icon.png) &lbrace;:
    1. In het linkerpaneel, klik het **pictogram van de Filter**.
    1. Selecteer **filter uitgeven**.
    1. Klik **toevoegen voorwaarde** en specificeer dan het gebied u tegen en de bepaling wilt filtreren die bepaalt welk soort voorwaarde het gebied moet ontmoeten. De kolom verschijnt in de voorproefsectie op het recht.
    1. (Facultatief) klik **toevoegen filtergroep** om een andere reeks het filtreren criteria toe te voegen. De standaardoperator tussen de sets is AND. Klik op de operator om deze te wijzigen in OR.
 
-1. Volg hieronder de stappen om de **** montages van de Groep 1} ![ sectie te vormen van de Montages van de DrilldownGroep ](assets/drilldown-group-icon.png):
+1. Volg hieronder de stappen om de **&#x200B;**&#x200B;montages van de Groep 1&rbrace; ![ sectie te vormen van de Montages van de DrilldownGroep ](assets/drilldown-group-icon.png):
    1. In het linkerpaneel, klik het **pictogram van de Montages van de Groep**.
    1. Klik **toevoegen groeperend** knoop en dan het gebied selecteren u als groepering wilt tot stand brengen. De kolom voor cijfergroepering wordt weergegeven in de voorbeeldsectie aan de rechterkant.
 
