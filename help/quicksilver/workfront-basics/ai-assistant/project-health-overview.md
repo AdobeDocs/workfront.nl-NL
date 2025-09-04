@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
 hide: true
 hidefromtoc: true
-source-git-commit: 420ddfa1f12f21332f460f9dc5fd1393cfc6e435
+source-git-commit: 97b2118b1897f75dea0e45758e3d7f7c3409b234
 workflow-type: tm+mt
-source-wordcount: '1822'
+source-wordcount: '1862'
 ht-degree: 0%
 
 ---
@@ -68,14 +68,18 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 Als u Projectgezondheid wilt gebruiken, moet uw organisatie AI Assistant hebben ingeschakeld.
 
-Als u AI Assistant wilt inschakelen voor uw organisatie, moet u het volgende toepassen:
+Als u AI Assistant en Projectgezondheid voor uw organisatie wilt inschakelen, moet u het volgende toepassen:
 
 * Uw organisatie moet zijn gemigreerd naar Adobe IMS (Identity Management System).
+* Uw organisatie moet een Select-, Prime- of Ultimate Workfront-abonnement hebben
 * De Adobe Unified Experience moet zijn ingeschakeld.
 * Adobe moet een ondertekende Adobe Gen AI-overeenkomst in het bestand hebben.
 * De Workfront-beheerder moet AI Assistant inschakelen voor gebruikers in uw organisatie. De Medewerker van AI wordt toegelaten door toegangsniveaus.
+* U moet de opties AI inschakelen en Projectgezondheid inschakelen selecteren in de sectie AI-voorkeuren bij Instellen > Voorkeuren.
 
-Voor meer informatie, zie [ AI Hulpoverzicht ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+  ![ AI sectie van Voorkeur ](assets/ai-preferences.png)
+
+Voor meer informatie, zie [ AI Hulpoverzicht ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md) en [ vorm systeemvoorkeur ](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 ## Lijst met vragen voor AI Assistant
 
@@ -189,7 +193,7 @@ Zodra een beheerder een configuratie van de Gezondheid van het Project heeft gec
 
 1. In het linkerpaneel, uitgezochte **Montages van het Project**.
 
-1. Op het **gebied van de Configuratie van de Gezondheid van het 0&rbrace; Project, selecteer de configuratie u op dit project wilt toepassen.**
+1. Op het **gebied van de Configuratie van de Gezondheid van het 0} Project, selecteer de configuratie u op dit project wilt toepassen.**
 
    ![ gebied van de Configuratie van de Gezondheid van het Project ](assets/project-health-configurations.png)
 
@@ -288,7 +292,7 @@ Er zijn vele configuratieopties beschikbaar voor de bouw van een de lijstrapport
 
 1. In het linkerpaneel, klik **de Dashboards van het Canvas**.
 1. In de hoger-juiste hoek, klik **Nieuw Dashboard**.
-1. In **creeer dashboard** doos, ga de 2&rbrace; Naam van het dashboard **en** Beschrijving **in.**
+1. In **creeer dashboard** doos, ga de 2} Naam van het dashboard **en** Beschrijving **in.**
 1. Klik **creëren**.
 1. In **voeg rapport** doos toe, uitgezocht **creeer rapport**.
 1. Voor de linkerkant, uitgezochte **Lijst**.
@@ -303,13 +307,13 @@ Er zijn vele configuratieopties beschikbaar voor de bouw van een de lijstrapport
    1. Klik **toevoegen kolom**, dan uitgezocht **Project** > **Gezondheid van het Project** > **creeerde bij**.
    1. Klik **toevoegen kolom**, dan selecteren **Project** > **Gezondheid van het Project** > **Etiket van de Gezondheid**.
 
-1. Volg hieronder de stappen om de **&#x200B;**&#x200B;het pictogram van de Filter ![ sectie te vormen van de Filter ](assets/filter-icon.png) &lbrace;:
+1. Volg hieronder de stappen om de **** het pictogram van de Filter ![ sectie te vormen van de Filter ](assets/filter-icon.png) {:
    1. In het linkerpaneel, klik het **pictogram van de Filter**.
    1. Selecteer **filter uitgeven**.
    1. Klik **toevoegen voorwaarde** en specificeer dan het gebied u tegen en de bepaling wilt filtreren die bepaalt welk soort voorwaarde het gebied moet ontmoeten. De kolom verschijnt in de voorproefsectie op het recht.
    1. (Facultatief) klik **toevoegen filtergroep** om een andere reeks het filtreren criteria toe te voegen. De standaardoperator tussen de sets is AND. Klik op de operator om deze te wijzigen in OR.
 
-1. Volg hieronder de stappen om de **&#x200B;**&#x200B;montages van de Groep 1&rbrace; ![ sectie te vormen van de Montages van de DrilldownGroep ](assets/drilldown-group-icon.png):
+1. Volg hieronder de stappen om de **** montages van de Groep 1} ![ sectie te vormen van de Montages van de DrilldownGroep ](assets/drilldown-group-icon.png):
    1. In het linkerpaneel, klik het **pictogram van de Montages van de Groep**.
    1. Klik **toevoegen groeperend** knoop en dan het gebied selecteren u als groepering wilt tot stand brengen. De kolom voor cijfergroepering wordt weergegeven in de voorbeeldsectie aan de rechterkant.
 

@@ -6,9 +6,9 @@ description: Een nieuwe board bevat standaard drie kolommen. U kunt meer kolomme
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 97b2118b1897f75dea0e45758e3d7f7c3409b234
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1037'
 ht-degree: 0%
 
 ---
@@ -120,12 +120,6 @@ Het beleid voor het bijwerken van de status werkt automatisch voor zowel de kaar
 * Wanneer een ad hoc of verbonden kaartstatus op de kaart wordt bijgewerkt om de kolomstatus in het beleid aan te passen, of een verbonden kaartstatus elders in Workfront wordt bijgewerkt, wordt de kaart automatisch naar die kolom verplaatst. Als een aangepaste status op een kaart overeenkomt met de systeemstatus die aan de kolom is toegewezen, wordt de kaart ook naar die kolom verplaatst.
 
 Een kaart blijft in een kolom waar deze wordt geplaatst als de kaartstatus niet overeenkomt met een status die is ingesteld in een bestaand kolombeleid.
-
->[!NOTE]
->
->Dynamische borden plaatsen altijd kaarten in de kolom die hun status aanpast, ongeacht of het kolombeleid wordt toegelaten of onbruikbaar gemaakt. De kaarten zullen aan hun toegewezen kolommen terugkeren wanneer u de raad vernieuwt.
-> 
->Als u voor alle typen kaarten een kaart verplaatst van de ene kolom naar een andere kolom met dezelfde status, wordt de kaart teruggezet naar de oorspronkelijke kolom wanneer u de kaart vernieuwt.
 
 1. Toegang tot het bord.
 1. Klik het **[!UICONTROL More]** menu ![ Meer menu ](assets/more-icon-spectrum.png) op de kolom, en selecteer **[!UICONTROL Edit]**.
