@@ -107,7 +107,7 @@ Een gebruiker deactiveren:
 1. Selecteer een gebruiker in de gebruikerslijst.
 1. Klik het **Meer** pictogram ![ Meer pictogram ](assets/more-icon.png), dan klik **deactivate**.
 
-1. In het **Deactivate gebruikers** dialoogvakje, klik **** deactivate.
+1. In het **Deactivate gebruikers** dialoogvakje, klik **&#x200B;**&#x200B;deactivate.
 
 ## Gebruikers plannen voor deactivering
 
