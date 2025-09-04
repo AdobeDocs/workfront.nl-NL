@@ -116,7 +116,7 @@ U moet het volgende in overweging nemen voordat u wijzigingen aanbrengt in de co
   >Er is geen bericht aan andere gebruikers dat de gebiedsconfiguratie is veranderd.
 
 * U kunt bestaande opzoekvelden van verbonden records bewerken.
-* Naast het uitgeven van het gebied zoals die in [ wordt beschreven geef gebiedsmontages ](#edit-field-settings-1) sectie in dit artikel uit, <span class="preview"> kunt u één enkele of multi-uitgezochte keuzen van het gebied uitgeven wanneer u een verslag in de lijstmening uitgeeft, aangezien u de gebiedswaarden bijwerkt. Voor informatie, zie [ nieuwe keuzen aan een bestaand uitgezocht gebied wanneer het uitgeven van verslagen in de 1} sectie van de lijstmening in dit artikel toevoegen.](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view)</span>
+* Naast het uitgeven van het gebied zoals die in [ wordt beschreven geef gebiedsmontages ](#edit-field-settings-1) sectie in dit artikel uit, <span class="preview"> kunt u één enkele of multi-uitgezochte keuzen van het gebied uitgeven wanneer u een verslag in de lijstmening uitgeeft, aangezien u de gebiedswaarden bijwerkt. Voor informatie, zie [ nieuwe keuzen aan een bestaand uitgezocht gebied wanneer het uitgeven van verslagen in de 1&rbrace; sectie van de lijstmening in dit artikel toevoegen.](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view)</span>
 
 <!--at production - April 10, 2025 - remove the last bullet altogether-->
 
