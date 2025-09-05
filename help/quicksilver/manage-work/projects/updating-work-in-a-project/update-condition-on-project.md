@@ -6,7 +6,7 @@ description: De voorwaarde van een project is een vlag die op het wordt geplaats
 author: Alina
 feature: Work Management
 exl-id: 1f46386e-e1ae-4845-8cc4-09dd7d39076f
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: b7f59552e5b66a3b2db765a49abdb2f49b1a51ec
 workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 0%
@@ -38,7 +38,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td>
 
 Voor de nieuwe vergunningen:
-<p>Standaard</p>
+<p>Standard</p>
 
 Voor huidige licenties:
 <ul><li><p>Plan</p>
@@ -61,9 +61,9 @@ Voor huidige licenties:
 
 ## De voorwaarde automatisch instellen
 
-Het automatisch plaatsen van de Voorwaarde van een project wordt bepaald door het Type van Voorwaarde van het project. Het voorwaardetype moet aan de Status van de Voortgang voor Workfront worden geplaatst om de Voorwaarde van het Project automatisch te plaatsen.
+Het automatisch plaatsen van de Voorwaarde van een project wordt bepaald door het Type van Voorwaarde van het project. Het voorwaardetype moet aan de Status van de Voortgang voor Workfront worden geplaatst om de Voorwaarde van het Project automatisch te plaatsen.
 
-Uw Workfront of de beheerder van de Groep bepaalt het gebrek van het gebied van het Type van Voorwaarde voor nieuwe projecten in uw systeem wanneer het plaatsen van projectvoorkeur in het gebied van de Opstelling. Voor meer informatie, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
+Uw Workfront of de beheerder van de Groep bepaalt het gebrek van het gebied van het Type van Voorwaarde voor nieuwe projecten in uw systeem wanneer het plaatsen van projectvoorkeur in het gebied van de Opstelling. Voor meer informatie, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 
 Wanneer u een project creeert, wordt de Voorwaarde van het project automatisch geplaatst om de Voortgangsstatus van het project op dat ogenblik aan te passen. De status van de voortgang van het project is gebaseerd op de voortgang van de taken van het project.
 
@@ -78,7 +78,7 @@ Als u het Type van Voorwaarde van uw project aan Handboek in plaats van de Statu
 
 1. Zorg ervoor dat het **gebied van het Type van Voorwaarde** aan **Handboek** wordt geplaatst.
 
-   ![](assets/project-details-overview-edit-enabled-with-condition-shot-nwe-350x251.png)
+   ![](assets/project-details-overview-select-condition.png)
 
 1. Op het **gebied van de Voorwaarde**, selecteer van de volgende opties die uw begrip van aanpassen of het werk verbonden aan het vloeiend gaat of of er om het even welke vertragingen zijn:
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-source-git-commit: f62d8f681fa75d2b18d78d7918df46734fa61e2e
+source-git-commit: b7f59552e5b66a3b2db765a49abdb2f49b1a51ec
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -118,18 +118,23 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
      ![ voorwaarde van de Verandering wanneer het uitgeven van project ](assets/change-condition-edit-project-0825.png)
 
-   <!-- 
-   * When a user is changing the condition for a task or issue on the Updates tab:
-
-     ![Change condition when updating comment](assets/change-condition-update-comment.png)
-   -->
-
    * Wanneer een gebruiker de voorwaarde voor een taak of kwestie in een lijstmening wijzigt:
 
-     ![ voorwaarde van de Verandering in lijst ](assets/change-conditions-list-dropdown-only.png)
+     ![ voorwaarde van de Verandering in lijst ](assets/change-conditions-list-dropdown-0925.png)
+
+     >[!NOTE]
+     >
+     >In de standaardmening van de Voorwaarde, is het **1} gebied van de Voorwaarde een type van gebied dat niet inline kan worden uitgegeven.** Wanneer u het **gebied van de Voorwaarde** aan een mening afzonderlijk toevoegt, is het editable. Voor informatie over gealigneerde het uitgeven, zie [ gealigneerd punten in een lijst in Adobe Workfront ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md) uitgeven.
 
 1. Klik **sparen**.
 
 U kunt uw douanevoorwaarde als standaardvoorwaarde voor projecten of voor taken en kwesties plaatsen. Voor meer informatie, zie [ Plaats een douanetoewijzing als gebrek voor projecten ](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md) en [ plaats een douanetoewijzing als gebrek voor taken en kwesties ](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md).
 
 Voor meer informatie over douanevoorwaarden, zie [ de voorwaarden van de Douane ](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+
+
+<!-- THIS WAS ORIGINALLY BETWEEN THE OTHER TWO BULLETS.
+   * When a user is changing the condition for a task or issue on the Updates tab:
+
+     ![Change condition when updating comment](assets/change-condition-update-comment.png)
+   -->

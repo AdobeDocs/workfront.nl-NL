@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b9a489e8-0ffe-4f52-bbd9-172e7273048c
-source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
+source-git-commit: b7f59552e5b66a3b2db765a49abdb2f49b1a51ec
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,11 @@ U kunt de volgorde wijzigen waarin voorwaarden worden weergegeven in projecten, 
 
 * Wanneer een gebruiker de voorwaarde voor een taak of kwestie wijzigt
 
-  ![ voorwaarde van de Verandering in lijst ](assets/change-conditions-list-dropdown-only.png)
+  ![ voorwaarde van de Verandering in lijst ](assets/change-conditions-list-dropdown-0925.png)
+
+  >[!NOTE]
+  >
+  >In de standaardmening van de Voorwaarde, is het **1} gebied van de Voorwaarde een type van gebied dat niet inline kan worden uitgegeven.** Wanneer u het **gebied van de Voorwaarde** aan een mening afzonderlijk toevoegt, is het editable. Voor informatie over gealigneerde het uitgeven, zie [ gealigneerd punten in een lijst in Adobe Workfront ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md) uitgeven.
 
 ## Toegangsvereisten
 
@@ -68,8 +72,8 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. Selecteer de **Projecten**, **Taken**, of **Kwesties** tabel.
 
-1. De het pictogram van de beweging ![ Voorwaarden van de belemmering ](assets/move-icon---dots.png) &lbrace;om hun orde te veranderen.
+1. De belemmering ![ pictogram van de Beweging ](assets/move-icon---dots.png) de voorwaarden om hun orde te veranderen.
 
    De nieuwe volgorde wordt automatisch opgeslagen.
 
-Voor meer informatie over het aanpassen van Voorwaarden, zie [ de voorwaarden van de Douane ](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+Voor meer informatie over het aanpassen van voorwaarden, zie [ de voorwaarden van de Douane ](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).

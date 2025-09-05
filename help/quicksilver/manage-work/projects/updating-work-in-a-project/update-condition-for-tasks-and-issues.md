@@ -6,9 +6,9 @@ description: De voorwaarde van een taak of een kwestie is een vlag die op het wo
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
+source-git-commit: b7f59552e5b66a3b2db765a49abdb2f49b1a51ec
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ De Condition-waarden waarnaar we in dit artikel verwijzen, zijn standaard beschi
 
 ## Toegangsvereisten {#access-requirements}
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -59,7 +59,7 @@ De Condition-waarden waarnaar we in dit artikel verwijzen, zijn standaard beschi
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
    <td> <p>Machtigingen weergeven voor taken en uitgaven om hun voorwaarde weer te geven</p>
-   <p>Contribute-machtigingen voor taken en uitgaven om de Voorwaarde bij te werken</p>
+   <p>Contribute-machtigingen voor taken en uitgaven om de voorwaarde bij te werken</p>
   </td> 
   </tr> 
  </tbody> 
@@ -134,8 +134,9 @@ U kunt de voorwaarde van taken en kwesties in diverse gebieden van Workfront man
    * Sommige problemen
    * Belangrijkste wegversperringen
 
-   ![](assets/condition-in-task-header.png)
-1. Klik op Enter om de voorwaarde op te slaan.
+   ![](assets/condition-in-task-header-0925.png)
+
+<!--1. Click Enter to save the Condition.-->
 
 ### Werk de Voorwaarde van een taak of kwestie in de taak of de sectie van de Details van de kwestie bij
 
@@ -151,14 +152,17 @@ U kunt de voorwaarde van taken en kwesties in diverse gebieden van Workfront man
 
 1. Werk de **Voorwaarde** van de kwestie of de taak gealigneerd bij, door de bestaande voorwaarde tweemaal te klikken en een nieuwe waarde van het drop-down menu te selecteren.
 
-   ![](assets/condition-drop-down-values-in-task-list.png)
+   ![](assets/condition-values-in-task-list-0925.png)
 
    >[!NOTE]
    >
    >De voorwaarden kunnen voor uw milieu worden aangepast, zodat kunt u meer dan drie opties voor Voorwaarde in uw milieu vinden. De namen van de Voorwaarden kunnen verschillen van de hierboven vermelde. Voor informatie over het aanpassen van Voorwaarden in Workfront, zie [ creeer of geef een douanevoorwaarde ](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md) uit.
 
-
 1. De pers **gaat** op uw toetsenbord binnen, of klikt buiten het gebied van de Voorwaarde om de nieuwe taak of de uitgave Voorwaarde te bewaren.
+
+   >[!NOTE]
+   >
+   >In de standaardmening van de Voorwaarde, is het **1} gebied van de Voorwaarde een type van gebied dat niet inline kan worden uitgegeven.** Wanneer u het **gebied van de Voorwaarde** aan een mening afzonderlijk toevoegt, is het editable. Voor informatie over gealigneerde het uitgeven, zie [ gealigneerd punten in een lijst in Adobe Workfront ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md) uitgeven.
 
 <!--   
 <li><p>(NOTE: drafted because I can't do this anymore)</p><p>If you have Manage permissions to the task or issue but are not assigned to it, perhaps as a project manager, add the <strong>Condition</strong> column to any view you use in a task or issue list, then set the <strong>Condition</strong> in inline edit and press Enter.</p><p><img src="assets/change-condition-in-list-view-350x142.png" style="width: 350;height: 142;"></p><p>For information about adding a column to a view, see <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md">Views overview in Adobe Workfront</a>.</p></li>   
