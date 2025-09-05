@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: edbd33cbb343f8c9f3ebd09ebb067444dd9efcf5
+source-git-commit: db9db8d03c8caeef95fb7cf873ee242f29b00efa
 workflow-type: tm+mt
-source-wordcount: '1668'
-ht-degree: 0%
+source-wordcount: '1313'
+ht-degree: 1%
 
 ---
 
@@ -32,7 +32,7 @@ Het geeft ook aan welke handelingen Workfront-beheerders kunnen uitschakelen of 
 
 ## Projecten
 
-| Handeling | Standaard | Licht | Medewerker | Externe gebruiker |
+| Handeling | Standard | Licht | Medewerker | Externe gebruiker |
 |------------------------------|----------|--------|-------------|---------------|
 | Maken | ✓&#42; |   |   |   |
 | Kopiëren | ✓&#42; |   |   |   |
@@ -49,7 +49,7 @@ Het geeft ook aan welke handelingen Workfront-beheerders kunnen uitschakelen of 
 | Taken toevoegen | ✓ |   |   |   |
 | Updates/opmerkingen opgeven | ✓ | ✓ | ✓ |   |
 | Status wijzigen | ✓ |   |   |   |
-| Logboekuren | ✓ | ✓ |   |   |
+| Logboekuren | ✓ |   |   |   |
 | Toewijzingen bewerken | ✓ |   |   |   |
 | Een basislijn beheren | ✓ |   |   |   |
 | Risico&#39;s beheren | ✓ |   |   |   |
@@ -70,7 +70,7 @@ Het geeft ook aan welke handelingen Workfront-beheerders kunnen uitschakelen of 
 
 ## Taken
 
-| Handeling | Standaard | Licht | Medewerker | Externe gebruiker |
+| Handeling | Standard | Licht | Medewerker | Externe gebruiker |
 |--------------------------------|----------|--------|-------------|---------------|
 | Maken | ✓&#42; |   |   |   |
 | Verwijderen | ✓&#42; |   |   |   |
@@ -102,7 +102,7 @@ Het geeft ook aan welke handelingen Workfront-beheerders kunnen uitschakelen of 
 
 ## Problemen
 
-| Handeling | Standaard | Licht | Medewerker | Externe gebruiker |
+| Handeling | Standard | Licht | Medewerker | Externe gebruiker |
 |-------------------------------|----------|--------|-------------|---------------|
 | Maken | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Bewerken | ✓ | ✓ | ✓ |   |
@@ -132,7 +132,7 @@ Het geeft ook aan welke handelingen Workfront-beheerders kunnen uitschakelen of 
 
 Alleen gebruikers met een standaardlicentie kunnen volledige toegang tot portfolio&#39;s hebben.
 
-| Handeling | Standaard | Licht | Medewerker | Externe gebruiker |
+| Handeling | Standard | Licht | Medewerker | Externe gebruiker |
 |--------------------------|----------|--------|-------------|---------------|
 | Maken | ✓&#42; |   |   |   |
 | Verwijderen | ✓&#42; |   |   |   |
@@ -156,7 +156,7 @@ Alleen gebruikers met een standaardlicentie kunnen volledige toegang tot portfol
 
 Alleen gebruikers met een standaardlicentie kunnen volledige toegang tot programma&#39;s hebben.
 
-| Handeling | Standaard | Licht | Medewerker | Externe gebruiker |
+| Handeling | Standard | Licht | Medewerker | Externe gebruiker |
 |------------------------------|----------|--------|-------------|---------------|
 | Maken | ✓&#42; |   |   |   |
 | Verwijderen | ✓&#42; |   |   |   |
@@ -180,7 +180,7 @@ Alleen gebruikers met een standaardlicentie kunnen volledige toegang tot program
 
 Gebruikers met een standaardlicentie kunnen volledige toegang krijgen tot rapporten. Alle andere Niveaus van de Toegang hebben de toegang van de Mening tot rapporten.
 
-| Handeling | Standaard | Licht | Medewerker | Externe gebruiker |
+| Handeling | Standard | Licht | Medewerker | Externe gebruiker |
 |--------------------------------------|----------|--------|-------------|---------------|
 | Maken | ✓&#42; |   |   |   |
 | Verwijderen | ✓&#42; |   |   |   |
@@ -202,7 +202,7 @@ Gebruikers met een standaardlicentie kunnen volledige toegang krijgen tot rappor
 
 ## Filters, weergaven en groepen
 
-| Handeling | Standaard | Licht | Medewerker | Externe gebruiker |
+| Handeling | Standard | Licht | Medewerker | Externe gebruiker |
 |-------------------|------------|---------|---------------|---------------|
 | Maken | ✓* | ✓* | ✓* |   |
 | Verwijderen | ✓* | ✓* | ✓* |   |
@@ -217,7 +217,7 @@ Gebruikers met een standaardlicentie kunnen volledige toegang krijgen tot rappor
 
 ## Documenten
 
-| Handeling | Standaard | Licht | Medewerker | Externe gebruiker |
+| Handeling | Standard | Licht | Medewerker | Externe gebruiker |
 |--------------------------------|----------|--------|-------------|---------------|
 | Maken | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Verwijderen (documenten en mappen) | ✓&#42; | ✓&#42; | ✓&#42; |   |
@@ -252,7 +252,7 @@ Gebruikers met een standaardlicentie kunnen volledige toegang krijgen tot rappor
 
 ## Gebruikers
 
-| Handeling | Standaard | Licht | Medewerker | Externe gebruiker** |
+| Handeling | Standard | Licht | Medewerker | Externe gebruiker** |
 |----------------------------------------------------------------------------------------------------|----------|--------|-------------|-----------------|
 | Maken | ✓* |   |   |   |
 | Verwijderen | ✓* |   |   |   |
@@ -269,7 +269,7 @@ Gebruikers met een standaardlicentie kunnen volledige toegang krijgen tot rappor
 
 ## Teams
 
-| Handeling | Standaard | Licht | Medewerker | Externe gebruiker* |
+| Handeling | Standard | Licht | Medewerker | Externe gebruiker* |
 |-----------------------------------------|-----------|------------|-------------|------------------|
 | Maken | ✓* |   |   |   |
 | Verwijderen | ✓* |   |   |   |
@@ -284,7 +284,7 @@ Gebruikers met een standaardlicentie kunnen volledige toegang krijgen tot rappor
 
 ## Sjablonen
 
-| Handeling | Standaard | Licht | Medewerker | Externe gebruiker |
+| Handeling | Standard | Licht | Medewerker | Externe gebruiker |
 |-----------------------|----------|--------|-------------|---------------|
 | Maken | ✓&#42; |   |   |   |
 | Verwijderen | ✓&#42; |   |   |   |
@@ -302,7 +302,7 @@ Gebruikers met een standaardlicentie kunnen volledige toegang krijgen tot rappor
 
 Alleen gebruikers met een standaardlicentie hebben volledige toegang tot financiële gegevens.
 
-| Handeling | Standaard | Licht | Medewerker | Externe gebruiker |
+| Handeling | Standard | Licht | Medewerker | Externe gebruiker |
 |--------------------------------------------------------------|----------|--------|-------------|---------------|
 | Rolfacturering en kostentarieven bewerken | ✓&#42; |   |   |   |
 | Facturering van gebruikers en kostentarieven bewerken | ✓&#42; |   |   |   |
@@ -326,7 +326,7 @@ Alleen gebruikers met een standaardlicentie hebben volledige toegang tot financi
 
 Alleen gebruikers met een standaardlicentie kunnen volledige toegang tot resourcebeheer hebben. Andere licentietypen kunnen beperkte of geen toegang hebben tot Resource Management in Workfront.
 
-| Handeling | Standaard | Licht | Medewerker | Externe gebruiker |
+| Handeling | Standard | Licht | Medewerker | Externe gebruiker |
 |----------------------------------------------------------------|----------|--------|-------------|---------------|
 | Prioriteiten en begrotingstijden bewerken in de Planner | ✓&#42; |   |   |   |
 | Brongroepen maken, bewerken, verwijderen &#42;&#42; | ✓&#42; |   |   |   |
@@ -343,11 +343,11 @@ Alleen gebruikers met een standaardlicentie kunnen volledige toegang tot resourc
 
 &#42;&#42; vereist extra toegang tot Financiële Gegevens en toestemmingen aan projectfinanciën. Als u de toegang van het Beheer van het Middel tot een gebruiker van de Planner verleent die geen toegang tot Financiële Gegevens heeft, kan de gebruiker nog de uurtoewijzingen in de Planner van het Middel zien, maar kan niet op de mening van Kosten schakelen of het BedrijfsGeval bekijken. Voor meer informatie, zie [ toegang van de Verlening tot financiële gegevens ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) en [ de financiële toestemmingen van het Aandeel op een voorwerp ](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
 
-&#42;&#42;&#42; vereist toestemming aan Contribute aan het voorwerp, met de Toewijzingen van het Merk die onder Geavanceerde Montages worden toegelaten. Voor informatie, zie de sectie [ geërfte toestemmingen en de hiërarchie van voorwerpen ](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) in het artikel [ Overzicht van het delen van toestemmingen op voorwerpen ](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md) begrijpen.
+&#42;&#42;&#42; vereist toestemming om tot het voorwerp bij te dragen, met Make Toewijzingen die onder Geavanceerde Montages worden toegelaten. Voor informatie, zie de sectie [ geërfte toestemmingen en de hiërarchie van voorwerpen ](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) in het artikel [ Overzicht van het delen van toestemmingen op voorwerpen ](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md) begrijpen.
 
 ## Scenario Planner, gebied
 
-| Handeling | Standaard | Licht | Medewerker | Externe gebruiker |
+| Handeling | Standard | Licht | Medewerker | Externe gebruiker |
 |-----------------------------------------------------------------------|----------|-------|-------------|---------------|
 | Bestaande plannen en initiatieven maken/bewerken | ✓ | ✓ |   |   |
 | Taakrolinformatie toevoegen of bewerken over plannen en initiatieven &#42; | ✓ | ✓ |   |   |
