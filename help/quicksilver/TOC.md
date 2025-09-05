@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 0937f9b1246b92aa080349f0293674455d21ed70
+source-git-commit: e20e26ef11046ed252725f8c5431469642845b52
 workflow-type: tm+mt
-source-wordcount: '13478'
+source-wordcount: '13489'
 ht-degree: 0%
 
 ---
@@ -862,8 +862,8 @@ ht-degree: 0%
       * [Vangst van werk in prioriteiten](/help/quicksilver/workfront-basics/priorities/catch-me-up.md)
       * [Documenten uploaden en proefdrukken maken in prioriteiten](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md)
       * [Uw werk beheren in de prioriteitenkalender](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md)
-   * Home {#home}
-      * [Home](workfront-basics/using-home/home.md)
+   * Startpagina {#home}
+      * [Startpagina](workfront-basics/using-home/home.md)
       * [Van verouderd startpunt naar nieuw startpunt](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)
       * Het gebied Home gebruiken {#use-home-area}
          * [Het gedeelte Home gebruiken: artikelindex](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
@@ -1152,7 +1152,7 @@ ht-degree: 0%
          * [Elementen en mappen ontkoppelen of verwijderen uit Experience Manager Assets of Elementen.](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/unlink-or-delete-aem-assets.md)
          * [Workflows gebruiken in de integratie met Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
          * [Workfront Fusion gebruiken om een Workfront-uitgave om te zetten in een project dat Adobe Experience Manager-workflows bevat](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-fusion-to-create-project-with-workflows.md)
-         * [ los de Integratie van Adobe Experience Manager  problemen op](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
+         * [ los de Integratie van Adobe Experience Manager ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md) problemen op
    * Migreren vanaf verouderde of verbeterde connectors {#migrate-from-legacy-enhanced-connectors}
       * [Migreren vanaf verouderde of verbeterde connectors](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
       * [Migreren van de verouderde of verbeterde aansluiting naar Workfront for Adobe Experience Manager as a Cloud Service-integratie](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
@@ -2507,8 +2507,8 @@ ht-degree: 0%
       * [Configureer en gebruik de aangepaste OAuth 2-toepassingen van uw organisatie met behulp van JWT-flow](wf-api/api/oauth-app-jwt-flow.md)
       * [ vorm en gebruik de douane OAuth 2 toepassingen van uw organisatie die de stroom PKCE gebruiken ](wf-api/api/oauth-app-pkce-flow.md)
       * [Vervalsing van API-intern](wf-api/api/deprecation-api-internal.md)
-      * [ wat in API versie 20  nieuw is](wf-api/api/new-api-version-20.md)
-      * [ wat in API versie 19  nieuw is](wf-api/api/new-api-version-19.md)
+      * [ wat in API versie 20 ](wf-api/api/new-api-version-20.md) nieuw is
+      * [ wat in API versie 19 ](wf-api/api/new-api-version-19.md) nieuw is
       * [Nieuwe functies in API-versie 18](wf-api/api/new-api-version-18.md)
       * [Nieuwe functies in API-versie 17](wf-api/api/new-api-version-17.md)
       * [Nieuwe functies in API-versie 16](wf-api/api/new-api-version-16.md)
@@ -2587,7 +2587,10 @@ ht-degree: 0%
       * [Veelgestelde vragen over SOAP API](proofhq-api/general/soap-api-faqs.md)
 * [Verborgen testdocument](hidden-test.md)
 * App Builder {#app-builder}
+   * [App Builder: artikelindex](/help/quicksilver/app-builder/app-builder-toc.md)
+   * [Toepassingen ophalen en installeren vanuit Adobe Exchange](/help/quicksilver/app-builder/install-apps-on-exchange.md)
    * [Aangepaste toepassingen maken voor Workfront met Adobe App Builder](/help/quicksilver/app-builder/app-builder.md)
+
 
 
 <!--

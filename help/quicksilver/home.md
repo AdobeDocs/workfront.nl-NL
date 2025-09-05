@@ -3,10 +3,10 @@ title: '[!DNL Adobe Workfront] documentatie'
 description: Documentatie voor  [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 4558180667d3812f3b4089b7d599158327a683bf
+source-git-commit: 0a90da6978fc9b380d237dab74af1f14eabb857a
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 0%
+source-wordcount: '426'
+ht-degree: 1%
 
 ---
 
@@ -22,7 +22,7 @@ Welkom bij de startpagina voor Adobe Workfront-producten en technische documenta
 
 * [Overzicht release 4de kwartaal 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)
 * [Overzicht release derde kwartaal 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
-* [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
+* [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 * [Adobe Workfront Planning Fourth Quarter 2025 release activity](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
 * [Adobe Workfront Planning - Derde kwartaal 2025 - releaseactiviteit](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
 
@@ -42,7 +42,7 @@ Welkom bij de startpagina voor Adobe Workfront-producten en technische documenta
 * [Overzicht tweede release 2024, tweede kwartaal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
 * [Overzicht release derde kwartaal 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
 * [Overzicht release 4de kwartaal 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
-* [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
+* [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 * [Adobe Workfront Planning Fourth Quarter 2025 release activity](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
 
 >[!TAB  Bèta&#39;s ]
@@ -51,7 +51,7 @@ Welkom bij de startpagina voor Adobe Workfront-producten en technische documenta
 
 >[!TAB  Bekende Kwesties ]
 
-* [ Bekende Kwesties ](https://experienceleague.adobe.com/nl/docs/workfront-known-issues/issues/overview)
+* [ Bekende Kwesties ](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/overview)
 
 
 >[!ENDTABS]
@@ -70,7 +70,8 @@ Welkom bij de startpagina voor Adobe Workfront-producten en technische documenta
     <td>
     <ul>
     <li><a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md">Aan de slag met Workfront Administration</a></li>
-    <li><a href="https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/get-started-with-fusion/get-started-fusion-toc">Aan de slag met Workfront Fusion</li>
+    <li><a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/get-started-fusion-toc">Aan de slag met Workfront Fusion</li>
+    <li><a href="/help/quicksilver/app-builder/install-apps-on-exchange.md">Toepassingen ophalen en installeren vanuit Adobe Exchange</a></li>
     </ul>
  </td>
     <td>
@@ -91,6 +92,7 @@ Welkom bij de startpagina voor Adobe Workfront-producten en technische documenta
         <li><a href="/help/quicksilver/wf-api/general/api-basics.md">API-basisbeginselen</a></li>
         <li><a href="https://developer.adobe.com/workfront/api-explorer/">API Explorer</a></li>
         <li><a href="/help/quicksilver/workfront-integrations-and-apps/workfront-integrations.md">Workfront-integratie</a></li>
+        <li><a href="/help/quicksilver/app-builder/app-builder.md">Aangepaste toepassingen maken voor Workfront met Adobe App Builder</a></li>
         </ul></td>
   </tr>
 </table>
@@ -108,8 +110,8 @@ Het zoeken naar documentatie kan efficiënter zijn met een paar strategische ben
 
 ### Secties voor leren en training verkennen
 
-* **de Materialen van de Opleiding**: Navigeer aan de [ de opleiding van Workfront ](https://experienceleague.adobe.com/nl/browse/workfront) pagina voor een bibliotheek van opleidingsvideo&#39;s en artikelen die worden ontworpen om u te helpen de eigenschappen en de montages van Workfront beter begrijpen. U kunt tot betaalde trainingsmaterialen bij [ leren.adobe.com ](https://learning.adobe.com/) ook toegang hebben.
-* **Cursussen**: Vind [ gestructureerde het leren cursussen ](https://experienceleague.adobe.com/home?lang=nl-NL&Solution=Workfront#courses) die u door het gebruiken van diverse eigenschappen van Workfront in een logische opeenvolging begeleiden.
+* **de Materialen van de Opleiding**: Navigeer aan de [ de opleiding van Workfront ](https://experienceleague.adobe.com/en/browse/workfront) pagina voor een bibliotheek van opleidingsvideo&#39;s en artikelen die worden ontworpen om u te helpen de eigenschappen en de montages van Workfront beter begrijpen. U kunt tot betaalde trainingsmaterialen bij [ leren.adobe.com ](https://learning.adobe.com/) ook toegang hebben.
+* **Cursussen**: Vind [ gestructureerde het leren cursussen ](https://experienceleague.adobe.com/home?Solution=Workfront#courses) die u door het gebruiken van diverse eigenschappen van Workfront in een logische opeenvolging begeleiden.
 
 ### Antwoorden zoeken in communityforums
 
